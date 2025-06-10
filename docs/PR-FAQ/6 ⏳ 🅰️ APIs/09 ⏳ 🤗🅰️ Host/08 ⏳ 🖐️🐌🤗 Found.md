@@ -1,1 +1,0 @@
-<!-- https://quip.com/s9oCAO3UR38A#temp:C:TDD558f6d6e0c8346e4bc9302b17 -->
