@@ -1,0 +1,40 @@
+@startuml Unbind 
+
+
+' ---------------------
+actor "User" as user 
+participant "Wallet 👱\napp" as wallet
+participant "Notifier 📣\nbff" as notifier
+participant "Broker 🤵\nhost" as broker
+participant "Vault 🗄️\nhost" as vault
+ 
+
+' There's a chat with the vault.
+activate vault
+    vault --> wallet: ⏪ prompt
+deactivate vault
+
+' Activate the broker.
+user --> wallet: broker 🤵
+activate wallet
+    wallet --> broker: 1) talker@
+deactivate wallet
+activate broker
+    broker --> wallet: 2) ⏪ prompt 
+deactivate broker
+
+' User asks to unbind.
+activate wallet
+    user --> wallet: unbind
+    wallet --> broker: {unbind}
+deactivate wallet
+
+' BROKER. UNBIND
+activate broker
+    broker --> vault: 3) unbind@
+    broker --> wallet: 4) ⏪ update binds
+deactivate broker
+
+
+' ---------------------
+@enduml 

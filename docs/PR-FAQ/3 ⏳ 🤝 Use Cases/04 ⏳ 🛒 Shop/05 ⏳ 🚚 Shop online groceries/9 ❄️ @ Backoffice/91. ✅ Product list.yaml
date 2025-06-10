@@ -1,0 +1,19 @@
+Settings:
+  Currency: EUR
+
+Products:
+
+  # https://world.openfoodfacts.org/product/5449000214799/coca-cola-zero-sugar-330-ml
+  - Coca-Cola Zero Sugar - 330 ml:
+      Codes: [ 5449000214799 ]
+      Price: 1.10
+
+  # https://world.openfoodfacts.org/product/5285000320364/diet-pepsi-330-ml
+  - Diet Pepsi 330 ml:
+      Codes: [ 5285000320364 ]
+      Price: 1.00
+
+
+  #  https://www.ean-search.org/?q=coca+cola+
+  #  https://www.gs1.org/services/verified-by-gs1/results?gtin=5449000131836
+  #  https://www.auchan.pt/pt/bebidas-e-garrafeira/refrigerantes/refrigerantes-colas/refrigerante-com-gas-coca-cola-zero-acucar-0.50l/779556.html

@@ -1,0 +1,71 @@
+@startuml Goodbye
+' ------------------
+
+actor "User" as user
+
+box "User Interface (UI)"  #FFFFFF
+    participant "Wallet 👱\napp" as wallet
+    participant "Notifier 📣\nbff" as notifier
+    participant "Broker 🤵\nhost" as broker
+end box 
+
+participant "Host 🤗\ndomain" as host
+ 
+
+activate host
+
+group Host Prompt 
+
+    host --> broker: 1) 🐌 prompt
+    deactivate host
+
+    ' Broker
+    activate broker
+        broker --> notifier: 2) 🐌 prompt
+    deactivate broker
+
+    ' Notifier
+    activate notifier
+        notifier --> wallet
+    deactivate notifier
+
+    ' Wallet
+    activate wallet
+
+        ' Get Prompt
+        wallet -> host: 3) 🚀 prompted
+        activate host
+            host -> wallet: {prompt}
+        deactivate host
+
+        ' Download attachments
+        alt has attachments?
+            wallet -> host: 🚀 download
+            activate host
+                host -> wallet: {file}
+            deactivate host
+        end alt
+
+end group
+
+
+group User Response
+
+    user --> wallet: reply
+
+    wallet -> wallet: sign(msg)
+    wallet --> host: 4) 🐌 reply
+    deactivate wallet
+
+    activate host
+
+        alt is vault?
+            host -> host: validate(sign)
+        end alt
+
+end group
+
+deactivate host
+
+' ------------
+@enduml 

@@ -1,0 +1,25 @@
+🤝: nlweb.org/MANIFEST/NAVIGATION/GROUP
+
+ID: T2
+Name: MAD T2 train station
+
+Signs:
+
+  WP: 
+    Name: west platform 🐋
+    Jumps: 
+      XG: 
+        Default: 
+          Steps: [ exit via stairs to TG 🐯 ]
+          Duration: 00:04
+        Mobility: 
+          Steps: [ exit via lift to TG 🐯 ]
+          Duration: 00:10
+
+  TG: 
+    Name: terminal gates 🐯
+    Jumps:
+      any-airport.com/T2/AE: 
+        Default: 
+          Steps: [ cross the gate to AE 🐊 ]
+          Duration: 00:01

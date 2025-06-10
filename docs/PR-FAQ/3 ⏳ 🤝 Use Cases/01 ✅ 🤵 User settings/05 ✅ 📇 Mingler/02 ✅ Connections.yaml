@@ -1,0 +1,23 @@
+# internal database
+# the tie is linked to a group, automatically synchronized
+
+🧔 Daniel:
+  Locator: any-networker.com/tie=v_awTFiIQ-N
+  Relationships: 
+  - 👨‍👩‍👦‍👦 family
+
+🧑‍🦳 mom:
+  Locator: other-networker.com/tie=8rs_0sMGUFl
+  Relationships: 
+  - 👨‍👩‍👦‍👦 family
+
+🧑‍🦱 Deb:
+  Locator: linkedin.com/profile=NiIBdvPLa9n
+  Relationships:
+  - 🤝 partner
+
+
+🐭 Mouse:
+  Locator: facebook.com/user=kfhVQPWDgLe
+  Relationships:
+  - 🤗 friend

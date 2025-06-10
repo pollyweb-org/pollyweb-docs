@@ -1,0 +1,66 @@
+@startuml Ephemeral
+
+actor Wallet as user
+
+participant "Notifier" as notifier
+participant "Broker" as broker
+participant "Host" as host
+participant "Supplier" as supplier
+participant "Device" as device
+ 
+
+group Active the device 
+
+  host --> supplier: order
+  
+  activate supplier
+  supplier --> device: active
+  deactivate supplier
+  
+  activate device
+  device -> host: pin?(locator)
+  activate host
+  host -> device: {pin}
+  deactivate host
+  
+  device --> host: ordered
+  deactivate device
+  activate host
+
+end group 
+
+group Touch the device
+  
+  host --> broker: touch
+  deactivate host
+    
+  activate broker  
+  broker --> notifier: touch
+  deactivate broker 
+  
+  activate notifier
+  notifier --> user: touch
+  deactivate notifier
+  activate user
+  
+  user -> device: touch/scan
+  activate device
+  device -> user: {host,locator,pin}
+  deactivate device 
+  
+  user -> user: match\nlocator
+
+end group
+
+group Verify the locators temporary pin
+
+  user --> host: touched(pin)
+  deactivate user
+  
+  activate host
+  host -> host: match(pin)
+  deactivate host
+  
+end group
+
+@enduml

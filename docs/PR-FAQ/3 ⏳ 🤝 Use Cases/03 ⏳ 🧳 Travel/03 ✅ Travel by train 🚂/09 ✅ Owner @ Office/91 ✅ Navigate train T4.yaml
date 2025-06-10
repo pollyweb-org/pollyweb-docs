@@ -1,0 +1,49 @@
+🤝: nlweb.org/MANIFEST/NAVIGATION/GROUP
+
+ID: T4
+Name: MAD T4 train station
+
+Signs:
+
+  TH:
+    Name: ticketing hall 🐢
+    Jumps: 
+      EG: 
+        Default: 
+          Steps: [ gates on the right to EG 🐘]
+          Duration: 00:01
+
+  EG:
+    Name: entry gates hall 🐘
+    Jumps: 
+      SP:
+        Default: 
+          Steps: [ turn left to SP 🐿️]
+          Duration: 00:01
+
+  SP: 
+    Name: stairs to platforms 🐿️
+    Jumps: 
+      JP:
+        Default: 
+          Steps: [ down via stairs to JP 🐆]
+          Duration: 00:01
+        Mobility: 
+          Steps: [ take lift (-1) to JP 🐆]
+          Duration: 00:05
+
+  JP: 
+    Name: platform junction 🐆
+    Jumps: 
+      PA:
+        Default: 
+          Steps: [ platform A in on the left 🐜 ]
+          Duration: 00:01
+        Wheelchair: 
+          Steps: 
+            - platform A in on the left 🐜
+            - staff will bring a ramp
+          Duration: 00:05
+
+  PA: 
+    Name: platform A 🐜

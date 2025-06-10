@@ -1,0 +1,16 @@
+Menu:
+
+  Hot dog:
+    Price: 5.00
+    Options:
+      - No sauce
+      - Extra onion 
+
+  Chips:
+    Price: 1.00
+
+  Beer:
+    Price: 2.00
+
+  Water:
+    Price: 1.00

@@ -1,0 +1,1 @@
+Alugar um quarto de hotel disponível na recepção.

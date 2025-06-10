@@ -1,0 +1,10 @@
+Services:
+
+  - name: Haircut 💇
+    price: 30.00
+
+  - name: Manicure 💅
+    price: 10.00
+  
+  - name: Pedicure 🦶 
+    price: 20.00

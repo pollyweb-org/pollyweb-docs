@@ -1,0 +1,10 @@
+📺 How does Synchron integrate with Apple Vision Pro?
+---
+
+In 2024, Synchron published the following video, titled *"Synchron BCI x Apple Vision Pro"*.
+
+- The video showcases Synchron's BCI technology and its potential integration with Apple Vision Pro.  
+- It explores how this combination could revolutionize human-computer interaction and improve the lives of people with paralysis.  
+
+<!-- https://youtu.be/I1YwrRAvcLw --><br/>
+https://github.com/user-attachments/assets/3731fd48-37ff-4d9f-b2a9-42c4627a616e

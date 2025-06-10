@@ -1,0 +1,34 @@
+
+@startuml Bind()
+
+ 
+' ---------------------
+actor User as user
+participant "Wallet 👱\napp" as wallet
+participant "Notifier 📣\nbff" as notifier
+participant "Broker 🤵\nhost" as broker
+participant "Vault 🗄️\nhost" as vault
+participant "Graph 🕸\ndomain" as graph
+
+
+activate broker
+   
+    ' Translate.
+    broker -> graph: 1) translate@
+    activate graph
+        graph -> broker: {translations}
+    deactivate
+
+    ' Inform the user about the bind.
+    broker --> wallet: 2) ⏪ prompt
+    
+    ' Bind with the vault.
+    broker --> vault: 3) bound@
+
+    broker --> wallet: 4) ⏪ update binds
+    
+deactivate broker
+
+
+' ---------------------
+@enduml 

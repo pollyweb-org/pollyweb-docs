@@ -1,0 +1,21 @@
+
+Common:
+  Peanuts:    🔴 Anaphylactic
+  Tree Nuts:  🔴 Anaphylactic
+  Dairy:      🟡 Medium
+  Gluten:     🟡 Medium
+  Shellfish:  🟡 Medium
+  Fish: 
+  Eggs: 
+  Soy: 
+  Sesame: 
+  Mustard: 
+  Sulfites:   🟢 Soft
+  Latex:      🟡 Medium
+  Pollen:     🟢 Soft
+  Dust Mites: 🟢 Soft
+  Pet Dander: 🟢 Soft
+  Insect Stings:
+
+Others:     
+  - mushrooms

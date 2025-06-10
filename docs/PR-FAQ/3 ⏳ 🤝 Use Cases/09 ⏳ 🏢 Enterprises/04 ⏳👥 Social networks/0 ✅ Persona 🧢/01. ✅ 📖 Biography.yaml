@@ -1,0 +1,194 @@
+Personas:
+
+  🧑‍🦰 personal:
+  
+    Picture: any-persona.com/picture=AeIg1RHiTX9
+    Headline: Love hiking & coffee ☕🌿
+    Bio: >
+      Curious mind, adventure seeker, and lifelong learner. 
+      Whether I’m coding, hiking through scenic trails, or exploring new coffee spots, 
+      I thrive on discovery and meaningful connections. 
+      Passionate about technology, sustainability, and empowering others. 
+      Always up for a great conversation, a challenging puzzle, or a spontaneous trip to somewhere new. 
+
+  💼 work: 
+
+    Picture: "https://any-social.com/aliceparker/profilepic.jpg"
+    Headline: Tech enthusiast | AI & Cloud Specialist | Public Speaker | Love hiking & coffee ☕🌿
+    Bio: >
+      Passionate and results-driven software engineer with over 10 years of experience in cloud computing, AI, and distributed systems. 
+      Proven ability to design scalable applications, optimize performance, and lead cross-functional teams. 
+      Speaker at major tech conferences and advocate for diversity in technology.
+
+
+About:
+ 
+  Industry: Information Technology & Services
+  Location: London, United Kingdom
+  Hometown: Manchester, United Kingdom
+  RelationshipStatus: Single
+  Gender: Female
+  Birthday: "1990-07-15"
+
+
+Languages:
+
+  - Language: English
+    Proficiency: Fluent
+    Certification: IELTS 8.5
+    Institution: British Council
+    Locator: britishcouncil.org/certificate=0nMFJfLMxvz
+
+  - Language: Portuguese
+    Proficiency: Native
+
+  - Language: Spanish
+    Proficiency: Professional Working Proficiency
+    Certification: DELE C1
+    Institution: Instituto Cervantes
+    Locator: cervantes.es/certificate=EJX-hiaiRVX
+
+
+
+Work:
+
+  - Company: Google
+    Domain: google.com
+    Locator: employees.google.com/_p47B2ZcXqx
+    Role: Senior Software Engineer
+    Location: London, United Kingdom
+    StartDate: "2021-01"
+    EndDate: "Present"
+    Responsibilities:
+      - Leading a team of engineers to develop scalable AI-driven cloud solutions.
+      - Architecting distributed systems for high availability and performance.
+      - Mentoring junior engineers and conducting tech talks.
+
+  - Company: Amazon Web Services (AWS)
+    Domain: aws.amazon.com
+    Locator: employees.aws/EgfaR6b9QhZ
+    Role: Software Engineer
+    Location: London, United Kingdom
+    StartDate: "2017-05"
+    EndDate: "2020-12"
+    Responsibilities:
+      - Designed and implemented serverless applications using AWS Lambda, S3, and DynamoDB.
+      - Contributed to open-source projects and collaborated with global teams.
+      - Worked closely with product managers to define and deliver technical solutions.
+
+
+Education:
+
+  - Institution: University of Oxford
+    Domain: ox.ac.uk
+    Locator: ox.ac.uk/student=NiIBdvPLa9n
+    Degree: MSc in Computer Science
+    StartDate: "2015"
+    EndDate: "2017"
+
+  - Institution: University of Manchester
+    Domain: manchester.ac.uk
+    Locator: manchester.ac.uk/student=AoonVcV-nPI
+    Degree: BSc in Computer Science
+    StartDate: "2012"
+    EndDate: "2015"
+
+
+Certifications:
+
+  - Title: AWS Certified Solutions Architect – Professional
+    Locator: aws.amazon.com/certificate=VISC-kFuo1S
+    Entity: Amazon Web Services (AWS)
+    Date: "2023-06"
+    
+  - Title: Google Professional Cloud Architect
+    Locator: cloud.google.com/certificate=ssiN1a8rH6n
+    Entity: Google Cloud
+    Date: "2022-09"
+    
+
+
+Volunteering:
+
+  - Organization: Women in Tech
+    Domain: womenintech.org
+    Locator: womenintech.org/mentor=URYi4qDNEnn
+    Role: Mentor
+    StartDate: "2019"
+    EndDate: Present
+    Description: >
+      Mentoring young women in technology, helping them grow their careers and develop technical skills.
+
+
+Publications:
+
+  - Title: Scaling AI Systems in the Cloud
+    Locator: medium.com/publication=FPDnXSGabmI
+    Publication: Medium
+    Year: 2023
+    
+
+
+Skills:
+  - Cloud Computing (AWS, GCP, Azure)
+  - Machine Learning & AI
+  - Distributed Systems
+  - Python, Java, Go
+  - Kubernetes & Docker
+  - DevOps & CI/CD Pipelines
+
+
+Interests:
+  - AI Ethics
+  - Open Source Contributions
+  - Public Speaking
+  - Running & Hiking
+  - Photography
+  - Traveling
+  - Coffee Enthusiast
+
+
+Groups:
+
+  - Name: Women in Tech
+    Locator: womenintech.org/mentor=URYi4qDNEnn
+    Role: Mentor
+
+  - Name: Hiking Enthusiasts UK
+    Locator: facebook.com/group=FIEs0bPitwQ
+    Role: Member
+
+  - Name: Human Augmentation Enthusiasts
+    Locator: linkedin.com/group=HAEs0bPitwQ
+    Role: Active Contributor
+
+
+Recommendations:
+
+  Authorize: 
+
+    - Name: Aisha Khaled
+      Locator: any-persona.com/persona=SOomiOb4GSw
+
+    - Name: Daniel Lee
+      Locator: any-persona.com/persona=mHmFnvb_1or
+
+  Share: 
+
+    - Name: Aisha Khaled
+      Locator: any-persona.com/persona=SOomiOb4GSw
+      Relationship: Mentee in Women in Tech Program
+      Year: 2024
+      Recommendation: >
+        Aisha has an incredible passion for technology and an eagerness to learn that is truly inspiring. Over the past year, I’ve seen her 
+        grow tremendously, tackling complex projects with confidence and creativity. She is not only a talented developer but also 
+        a great team player who uplifts those around her. She has a bright future ahead!
+
+    - Name: Sofia Petrova
+      Locator: any-persona.com/persona=ClsHh9ds_p
+      Relationship: Project Collaborator on Open Source Initiative
+      Year: 2022
+      Recommendation: >
+        Sofia is a brilliant developer with a strong commitment to open-source contributions. Working with her on our latest initiative 
+        was a fantastic experience—she is detail-oriented, proactive, and highly skilled in distributed systems. She’s the kind of 
+        person who makes projects run smoothly and efficiently.

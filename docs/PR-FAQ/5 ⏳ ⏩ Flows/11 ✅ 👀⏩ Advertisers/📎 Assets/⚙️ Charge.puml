@@ -1,0 +1,69 @@
+@startuml Charge back
+' ------------------
+
+
+box "Broker" #LightGray
+    participant "Broker 🤵" as broker
+end box
+
+box "Advertiser" #LightSlateGray
+    participant "Advertiser 👀" as ads
+    participant "Biller 🤝" as biller
+    participant "Collector 🏦" as collector
+end box
+
+box "Seller" #LightGray
+    participant "Seller 💵" as seller
+    participant "Payer 💳" as payer
+end box
+
+
+group register seller
+
+    ads --> biller: contract@
+
+    activate biller
+        biller --> seller: authorize ⏩
+    deactivate biller
+    
+    activate seller
+        seller --> payer: 
+        seller --> biller: 
+    deactivate seller
+
+    activate biller
+
+end group
+
+
+
+group show ads
+
+    broker --> ads: advertise@
+    activate ads
+        ads --> biller: bill@
+        ads --> biller: add@
+    deactivate ads  
+
+end group
+
+
+group monthly billing
+
+        biller --> payer: charge@
+    deactivate biller
+
+    activate payer
+        payer --> collector: ⏪ pay
+    deactivate payer
+
+    activate collector
+        collector --> biller: paid@
+    deactivate collector
+
+end group
+
+
+
+' ------------
+@enduml 

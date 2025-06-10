@@ -1,0 +1,25 @@
+🤝: nlweb.org/MANIFEST/NAVIGATION/GROUP
+
+ID: T2
+Name: Any Airport, Terminal T2
+
+Signs:
+
+  AE:
+    Name: airport entry 🐊
+    Jumps: 
+      J1: 
+        Default: 
+          Steps: [ turn right to J1 🪼 ]
+          Duration: 00:01
+      
+  J1: 
+    Name: junction 1 🪼
+    Jumps: 
+      S7:
+        Default: 
+          Steps: [ walk 10 min to S7 🦈 ]
+          Duration: 00:10
+
+  S7: 
+    Name: security S7 🦈

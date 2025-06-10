@@ -1,0 +1,82 @@
+
+@startuml Wallet Messenger
+
+title
+    👱 Wallet: Notifier
+end title
+
+' ----------------------
+box Wallet #FFFFFF
+participant "Wallet\nApp" as wallet
+participant "Socket\nClient" as client
+participant "Push\nAlerts" as push
+end box 
+
+box Notifier #FFFFFF
+    participant "Socket\nServer" as server
+    participant "Rest\nServer" as rest
+    participant "Notifier\nLogic" as notifier
+end box
+
+group Subscribe
+
+    activate wallet
+    wallet --> client: connect()
+    deactivate wallet
+
+    activate client
+    client --> server: connect()   
+    activate server
+    server --> client: {connID}
+
+    client --> wallet: {connID}
+    activate wallet
+        wallet --> rest: subscribe(connID, walletID, broker, PK)
+    deactivate wallet
+
+    activate rest
+        rest --> notifier: set()
+    deactivate rest
+
+    activate notifier
+        notifier -> notifier: insert()
+    deactivate notifier
+
+end group
+
+group Connected
+ 
+    activate notifier
+        notifier --> server: {alert}
+    deactivate notifier
+
+    server --> client: {alert}
+    client --> wallet: {alert}
+
+    deactivate client
+
+end group
+
+group Disconnected
+
+    activate notifier
+        notifier --> server: {alert}
+    deactivate notifier
+
+    server --> client: connection error!
+    server --> notifier: unset()
+    deactivate server
+
+    activate notifier
+        notifier --> push: {alert}
+    deactivate notifier
+
+    activate push
+        push --> wallet: {alert}
+    deactivate push
+
+
+end group
+
+' ----------------------
+@enduml

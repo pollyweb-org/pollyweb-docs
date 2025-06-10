@@ -1,0 +1,10 @@
+📺 How to pay in 🇨🇳 China with Alipay?
+---
+
+In 2024, Alipay published the following video, titled *"Travel Smart in China with Alipay: Translation & Payment Function Explained"*.
+
+- The video shows how foreign users can pay using Alipay in China.
+
+<!-- https://youtu.be/0NP_FtyaC9Y --><br/>
+https://github.com/user-attachments/assets/ec22c2f6-eaf1-45ce-973b-b1ef49f6d42d
+

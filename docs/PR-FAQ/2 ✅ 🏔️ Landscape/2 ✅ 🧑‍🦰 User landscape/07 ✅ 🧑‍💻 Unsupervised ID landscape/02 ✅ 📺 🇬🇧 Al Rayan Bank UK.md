@@ -1,0 +1,11 @@
+📺 How does 🇬🇧 Al Rayan Bank UK onboard customers remotely?
+---
+
+In 2023, the Al Rayan Bank in UK published the following video, titled *"Registering for Mobile Banking with Face ID"*.
+
+- The video shows how to register for mobile banking using Face ID. 
+- It covers the steps involved, including downloading the app, providing identification, and setting up accounts.
+
+<!-- https://youtu.be/FnsYkUbhhqk --><br/>
+https://github.com/user-attachments/assets/870afc94-5108-4b0e-a1ed-468bc27a972b
+

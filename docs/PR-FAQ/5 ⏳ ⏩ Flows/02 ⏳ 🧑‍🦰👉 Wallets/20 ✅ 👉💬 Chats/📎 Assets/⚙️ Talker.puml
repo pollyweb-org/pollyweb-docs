@@ -1,0 +1,30 @@
+@startuml Talker
+
+' ------------
+
+
+actor "User\nin chat" as user
+
+box "User Interface (UI)"  #FFFFFF
+    participant "Wallet 👱\napp" as wallet
+    'participant "Notifier 📣\nbff" as notifier
+    participant "Broker 🤵\nhost" as broker
+end box
+
+participant "Host 🤗\ndomain" as host
+
+
+
+user --> wallet: host 🤗
+
+activate wallet
+    wallet --> host: 1) talker@
+deactivate wallet
+
+activate host
+host --> broker: 2) prompt@
+deactivate host
+
+
+' ------------
+@enduml

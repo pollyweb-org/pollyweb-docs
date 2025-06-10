@@ -1,0 +1,12 @@
+📺 What is Apple's StoreKit Ad Network?
+---
+
+In 2021, AppsFlyer (a marketing platform) published the following video, titled *"SKAdNetwork: Getting Started With The Basics"*.
+
+- The video is about the SKAdNetwork, an advertising network that Apple introduced in 2018. 
+- The network is designed to help advertisers measure the effectiveness of their ads on iOS devices without compromising user privacy. 
+- The video describes the history of the SKAdNetwork, its benefits, and its challenges. 
+
+<!-- https://youtu.be/iwoMCXCwS7w --><br/>
+https://github.com/user-attachments/assets/e458a64e-84ff-4e19-b2e8-a7863d6e1f08
+

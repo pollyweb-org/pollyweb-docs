@@ -1,0 +1,37 @@
+@startuml 👉 Host NFC-QR check-in
+
+' ------------
+
+actor User as user  
+participant "Wallet 👱\napp" as wallet
+participant "Notifier\ndomain" as notifier
+participant "Broker 🤵\nhost" as broker
+participant "Graph 🕸\ndomain" as graph
+
+
+activate broker
+
+' Get the host's public name and icon
+broker -> graph: 1) identity@
+activate graph
+  graph -> broker: {identity}
+deactivate graph
+
+' Create a new session ID
+broker -> broker: session+
+
+' Ask for a new chat to be opened
+broker --> notifier: 2) assessed@
+activate notifier
+  notifier --> wallet
+deactivate notifier
+activate wallet
+  wallet -> wallet: new chat
+deactivate wallet
+
+
+broker --> wallet: 3) update chats ⏩ 
+
+    
+' ------------
+@enduml

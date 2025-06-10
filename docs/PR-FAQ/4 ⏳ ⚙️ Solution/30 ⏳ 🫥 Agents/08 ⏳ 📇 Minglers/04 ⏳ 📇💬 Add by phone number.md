@@ -1,0 +1,4 @@
+- asks for the booking contacts from the profile
+- sends a message with the link to the phone number
+- the other person clicks on the link and saves
+- the other person can set an index name to be unique

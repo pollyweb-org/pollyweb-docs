@@ -1,0 +1,22 @@
+@startuml Pub: Publish Updates()
+' ------------------
+participant "Subscriber\nService" as srv
+participant "Subscriber\nWebhook" as sub
+participant "Publisher\nAPI" as pub
+
+' ------------------
+' CONSUME 
+' ------------------
+pub -> pub: updated!
+activate pub
+pub --> sub: updated(update)
+deactivate pub
+activate sub
+sub -> srv: updated(...)
+deactivate sub
+activate srv
+srv -> srv: ignore old/duplicate events()
+srv -> srv: save timestamp/correlation
+deactivate srv
+' ------------------
+@enduml

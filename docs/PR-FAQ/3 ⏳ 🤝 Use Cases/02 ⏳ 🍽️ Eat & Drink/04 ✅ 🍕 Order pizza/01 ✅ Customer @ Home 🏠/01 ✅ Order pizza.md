@@ -1,0 +1,35 @@
+Order a pizza for home delivery
+---
+
+| Service | Prompt  | User |
+|-|-|-|
+| 🤵 [Broker](<../../../../4 ⏳ ⚙️ Solution/20 ✅ 🧑‍🦰 UI/03 ✅ 🤵 Brokers/03 ✅ 🤵 Broker domain.md>) | 😃 Hi! What do you need? | `pizza`
+| 🤵 [Broker](<../../../../4 ⏳ ⚙️ Solution/20 ✅ 🧑‍🦰 UI/03 ✅ 🤵 Brokers/03 ✅ 🤵 Broker domain.md>) | 💬 How can I help with that? <br> - [ Order ] from 🍕 Any Pizzeria <br/> - [ Find 🔎 ] a pizzeria to go to<br/> - [ Something else ] | > Order
+| 🤵 [Broker](<../../../../4 ⏳ ⚙️ Solution/20 ✅ 🧑‍🦰 UI/03 ✅ 🤵 Brokers/03 ✅ 🤵 Broker domain.md>) | ✅ Over to 🍕 Any Pizzeria.
+| [ new chat ]
+| 🔎 [Finder](<../../../../4 ⏳ ⚙️ Solution/30 ⏳ 🫥 Agents/10 ⏳ 🔎 Finders/02 ⏳ 🔎🫥 Finder vault.md>) | ⓘ Any Pizzeria (4.4 ⭐) [+]
+| 🍕 Pizzeria   | ℹ️ Pizza request received.
+| 🍕 Pizzeria   | 😃 Ready to order? [Yes, No] <br/> - your navigator sets where 🧭 <br/> - your concierge sets how 🛎️ <br/> - your curator orders 🧚 <br/> - your vitalogist reviews 💖 <br/> - your scheduler reviews 🗓️  <br/> - your payer pays the bill 💳 <br/> - your concierge delivers 🛎️ <br/> - your payer tips the courier 💳 <br/> - your vitalogist records it 💖 | > Yes
+| 🧭 [Navigator](<../../../../4 ⏳ ⚙️ Solution/30 ⏳ 🫥 Agents/07 ⏳ 🧭 Navigators/05 ⏳ 🧭🫥 Navigator agent.md>) | 🫥 Share destination? [No] <br> - [ 🏠 home ] <br/> - [ 🏡 Daniel's ] <br/> - [ 📍 current location ] <br/> - [ 🗺️ Somewhere else ] | > 🏠 home
+| 🛎️ [Concierge](<../../../../4 ⏳ ⚙️ Solution/30 ⏳ 🫥 Agents/06 ✅ 🛎️ Concierges/01 ✅ 🛎️🫥 Concierge agent.md>) | ⓘ Given destination: [Change]<br/>- Ryan street, 98, 2D 
+| 🛎️ [Concierge](<../../../../4 ⏳ ⚙️ Solution/30 ⏳ 🫥 Agents/06 ✅ 🛎️ Concierges/01 ✅ 🛎️🫥 Concierge agent.md>) | ⏳ Looking for couriers...
+| 🛎️ [Concierge](<../../../../4 ⏳ ⚙️ Solution/30 ⏳ 🫥 Agents/06 ✅ 🛎️ Concierges/01 ✅ 🛎️🫥 Concierge agent.md>) | 🫥 Which courier? <br> - [ AnyCourier ] + $4.00 (5 min) <br> - [ iCourier ] + $2.99 (17 min) <br/> | > AnyCourier
+| 🧚 [Curator](<../../../../4 ⏳ ⚙️ Solution/30 ⏳ 🫥 Agents/03 ⏳ 🧚 Curators/01 ⏳ 🧚🫥 Curator agent.md>) | 🫥 Share preferences? [No] <br/>- [ 👤 solo ] <br/>- [ 👨‍👩‍👦 family ] | > 👨‍👩‍👦 family
+| 🧚 [Curator](<../../../../4 ⏳ ⚙️ Solution/30 ⏳ 🫥 Agents/03 ⏳ 🧚 Curators/01 ⏳ 🧚🫥 Curator agent.md>) | ⏳ Analyzing menu... 
+| 🧚 [Curator](<../../../../4 ⏳ ⚙️ Solution/30 ⏳ 🫥 Agents/03 ⏳ 🧚 Curators/01 ⏳ 🧚🫥 Curator agent.md>) | 💭 Here are suggestions: [No] <br/>- [ ] large Margherita with soda <br/>- [ ] small 4 Cheese with water | [X] small (...)
+| 🧚 [Curator](<../../../../4 ⏳ ⚙️ Solution/30 ⏳ 🫥 Agents/03 ⏳ 🧚 Curators/01 ⏳ 🧚🫥 Curator agent.md>) | 💭 Anything else? [Yes, No] <br/>- [ Pizzas 🍕 ] <br/>- [ Drinks 🥤 ] | > Pizzas 🍕
+| 🧚 [Curator](<../../../../4 ⏳ ⚙️ Solution/30 ⏳ 🫥 Agents/03 ⏳ 🧚 Curators/01 ⏳ 🧚🫥 Curator agent.md>) | 💭 Which pizza? <br/>- [ Margherita 🌼 ] <br/>- [ Pepperoni 🌶️ ] <br/> - ...| > Pepperoni 🌶️
+| 🧚 [Curator](<../../../../4 ⏳ ⚙️ Solution/30 ⏳ 🫥 Agents/03 ⏳ 🧚 Curators/01 ⏳ 🧚🫥 Curator agent.md>) | 💭 What size? [ S, M, L ] | > `biggest`
+| 🧚 [Curator](<../../../../4 ⏳ ⚙️ Solution/30 ⏳ 🫥 Agents/03 ⏳ 🧚 Curators/01 ⏳ 🧚🫥 Curator agent.md>) | 💭 How many? [ 1, 2, 3, + ] | > 1
+| 🧚 [Curator](<../../../../4 ⏳ ⚙️ Solution/30 ⏳ 🫥 Agents/03 ⏳ 🧚 Curators/01 ⏳ 🧚🫥 Curator agent.md>) | 💭 Want a drink with that? [No] <br/>- [ Soda ] <br/>- [ Water ] | > `a coke` 
+| 🧚 [Curator](<../../../../4 ⏳ ⚙️ Solution/30 ⏳ 🫥 Agents/03 ⏳ 🧚 Curators/01 ⏳ 🧚🫥 Curator agent.md>) | 💭 Anything else? [No] <br/>- [ Pizzas 🍕 ] <br/> - [ Drinks 🥤 ] | > No
+| 🍕 Pizzeria     | ℹ️ Order ($27.00): [Change] <br/>- 1 small 4 Cheese 🧀 ($10.00) <br/>- 1 still water (25 cl) 💧 ($1.50) <br/>- 1 large Pepperoni 🌶️ ($13.00) <br/>- 1 diet coke (33 cl) 🥤 ($2.50) <br/> - preparation time ⏳ ~15 min 
+| 💖 [Vitalogist](<../../../../4 ⏳ ⚙️ Solution/30 ⏳ 🫥 Agents/09 ⏳ 💖 Vitalogists/01 ⏳ 💖🫥 Vitalogist agent.md>) | 🫥 Confirm? [Yes, No] <br> - pizza: gluten allergy! <br/> - coke: sugar at 190 mg/dL | > Yes
+| 🛎️ [Concierge](<../../../../4 ⏳ ⚙️ Solution/30 ⏳ 🫥 Agents/06 ✅ 🛎️ Concierges/01 ✅ 🛎️🫥 Concierge agent.md>) | ⓘ Delivery ($4.50): [Change] <br/> - courier delivery 🛵 ($4.00) <br/> - concierge fee 🛎️ ($0.50) <br/> - delivery time ⏳ ~10 min.
+| [🗓️ Scheduler](<../../../../4 ⏳ ⚙️ Solution/30 ⏳ 🫥 Agents/38 ⏳ 🕓 User Timeline/04 ⏳ 🗓️🗄️ Scheduler agent.md>) | 🫥 Confirm? [Yes, No] <br/> - it will take ~30 min <br> - your flight is in 5 hours <br/> - you'll have ~1 hour to eat | > Yes
+| 💳 [Payer](<../../../../4 ⏳ ⚙️ Solution/30 ⏳ 🫥 Agents/04 ✅ 💳 Payers/01 ✅ 💳🫥 Payer agent.md>) | 🫥 Pay $31.50 bill? 🧾 [No] <br/>- [ Card ABC ] + $0.10 <br/>- [ Card DEF ] (free) <br/> - [ ✂️ Split bill ] | > Card ABC |
+| 🍕 Pizzeria   | ✅ Order confirmed [+]
+| 🛎️ [Concierge](<../../../../4 ⏳ ⚙️ Solution/30 ⏳ 🫥 Agents/06 ✅ 🛎️ Concierges/01 ✅ 🛎️🫥 Concierge agent.md>) | ✅ Delivery confirmed [+]
+| 🍕 Pizzeria   | ⏳ Preparing your order... [+]
+|...            |...
+||
