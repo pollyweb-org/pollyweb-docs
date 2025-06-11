@@ -9,3 +9,4 @@ In 2024, Seritag NFC Tags (a UK-based NFC tag provider) published the following 
 <!-- https://youtu.be/tHbrV4UgtiY --><br/>
 https://github.com/user-attachments/assets/f81c6dab-5d6d-4dc3-9afe-b9246416428f
 
+[404704369-f81c6dab-5d6d-4dc3-9afe-b9246416428f.webm](https://github.com/user-attachments/assets/02a04726-91f2-4397-b562-b043dcabe92b)
