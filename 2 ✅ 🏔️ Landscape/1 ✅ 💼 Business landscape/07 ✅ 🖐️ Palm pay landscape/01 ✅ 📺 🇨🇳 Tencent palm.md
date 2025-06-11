@@ -8,3 +8,5 @@ In 2023, South China Morning Post released the following video, titled *"Pay wit
 
 <!-- https://youtu.be/d-6iceHaQoI --><br/>
 https://github.com/user-attachments/assets/3e521166-6807-4c4e-b996-9a3f65370e30
+
+[380419650-3e521166-6807-4c4e-b996-9a3f65370e30.webm](https://github.com/user-attachments/assets/0fe3bb17-5e35-40dc-9ef8-b697e4dce087)
