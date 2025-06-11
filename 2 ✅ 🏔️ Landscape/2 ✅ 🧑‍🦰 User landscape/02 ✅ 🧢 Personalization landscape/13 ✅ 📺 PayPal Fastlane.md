@@ -10,3 +10,4 @@ In 2024, PayPal published the following video, titled *"How to Integrate Fastlan
 <!-- https://youtu.be/5nf78OuCqjE --><br/>
 https://github.com/user-attachments/assets/543ddbb7-cc6f-4494-b088-44844054a5ae
 
+[403616409-543ddbb7-cc6f-4494-b088-44844054a5ae.webm](https://github.com/user-attachments/assets/7daf6130-f94f-43fa-8c8e-4e571cb63455)
