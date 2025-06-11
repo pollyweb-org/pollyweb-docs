@@ -13,4 +13,5 @@ In 2016, WeChat released the following video, titled *"WeChat's Four Platforms f
 <!-- https://www.youtube.com/watch?v=OKcdUT3ZSwA --><br/>
 https://github.com/user-attachments/assets/e39abaac-264b-47aa-b34c-b4970b1a2539
 
+[400881731-e39abaac-264b-47aa-b34c-b4970b1a2539.webm](https://github.com/user-attachments/assets/d72f7ae1-d8ad-4f99-827d-7c3e9b89f368)
 
