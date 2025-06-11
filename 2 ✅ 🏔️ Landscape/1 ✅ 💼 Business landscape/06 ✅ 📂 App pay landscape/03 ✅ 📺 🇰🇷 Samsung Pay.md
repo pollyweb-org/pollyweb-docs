@@ -9,3 +9,4 @@ In 2024, Samsung released the following video, titled *"Samsung Wallet: How to u
 <!-- https://youtu.be/q-1dNsPJlnw --><br/>
 https://github.com/user-attachments/assets/2e878000-ed42-49f5-8c79-fee1b621b4c7
 
+[380800257-2e878000-ed42-49f5-8c79-fee1b621b4c7.webm](https://github.com/user-attachments/assets/9a50b70a-4cc0-4820-945e-770438cada4a)
