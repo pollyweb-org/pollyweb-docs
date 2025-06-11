@@ -19,4 +19,5 @@ In 2018, China Global Television Network (CGTN) published the following video, t
 <!-- https://youtu.be/7TVlel5GXEs --><br/>
 https://github.com/user-attachments/assets/e709e06f-234a-4e01-adb8-d1ffcd5f3f2b
 
+[403459273-e709e06f-234a-4e01-adb8-d1ffcd5f3f2b.webm](https://github.com/user-attachments/assets/5d0906da-8d5c-4160-870e-3c7834c2c470)
 
