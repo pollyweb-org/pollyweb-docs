@@ -9,3 +9,5 @@ This 2023 video from Google, titled *"Selling subscriptions on Google Play"*, ex
     
 <!-- https://youtu.be/q1KnEdFsN7s --><br/>
 https://github.com/user-attachments/assets/ce415a4b-f95c-4b36-9c15-534479693358
+
+[380326409-ce415a4b-f95c-4b36-9c15-534479693358.webm](https://github.com/user-attachments/assets/9df0312c-71cf-4770-8bdb-566652dd4ad3)
