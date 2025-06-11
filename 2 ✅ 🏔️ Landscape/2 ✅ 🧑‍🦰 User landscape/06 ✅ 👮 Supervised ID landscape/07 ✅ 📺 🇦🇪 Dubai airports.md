@@ -11,3 +11,4 @@ The following video, titled *"Biometric self-boarding at Dubai Airport"*, was re
 <!-- https://youtu.be/mVhUbAFsADk --><br/>
 https://github.com/user-attachments/assets/5d6e5f9d-d986-46ae-9a09-31050c250ccd
 
+[379527047-5d6e5f9d-d986-46ae-9a09-31050c250ccd.webm](https://github.com/user-attachments/assets/76fd41d6-0815-4b72-9087-7d5eb0bb35cb)
