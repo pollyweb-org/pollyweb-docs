@@ -9,3 +9,4 @@ In 2023, Samsung UK published the following video, titled *"Introducing Samsung 
 <!-- https://youtu.be/OFVUZtJpSgk --><br/>
 https://github.com/user-attachments/assets/618a031b-c81c-41fb-9812-55b513ce8f42
 
+[380797789-618a031b-c81c-41fb-9812-55b513ce8f42.webm](https://github.com/user-attachments/assets/cab51613-195c-44d2-937b-3e68143d667d)
