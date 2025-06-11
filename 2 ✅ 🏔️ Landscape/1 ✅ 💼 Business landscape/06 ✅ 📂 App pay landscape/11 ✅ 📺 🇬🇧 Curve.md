@@ -8,3 +8,5 @@ In 2023, Curve released the following video, titled *"Learning Curve #1: So...ho
 
 <!-- https://www.youtube.com/watch?v=p5hihaKDx1w --><br/>
 https://github.com/user-attachments/assets/551a9b9a-6c51-41f8-b71a-93820cb9c8cb
+
+[387421807-551a9b9a-6c51-41f8-b71a-93820cb9c8cb.webm](https://github.com/user-attachments/assets/581a4741-43bb-4889-b3a5-0ed33c0b933b)
