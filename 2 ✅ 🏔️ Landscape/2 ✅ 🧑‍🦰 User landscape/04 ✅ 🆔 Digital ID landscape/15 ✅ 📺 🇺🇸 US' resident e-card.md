@@ -8,7 +8,9 @@ In 2024, the U.S. Department of Homeland Security published an article with the 
 
 <!-- https://www.dhs.gov/medialibrary/assets/video/49441 --><br/>
 https://github.com/user-attachments/assets/3449a1e7-80a9-4060-8352-029c35a302fb
-    
+
+  [405786141-3449a1e7-80a9-4060-8352-029c35a302fb.webm](https://github.com/user-attachments/assets/1a343784-e31e-4e78-ae81-b01d4378c40a)
+  
     
 The initiative is titled "U.S. Digital Migration Credentials". 
 - The technical details are in [this PDF](<00 ✅ 📎 Assets/🆔 Speaker151805_Session9643_1.pdf>).
