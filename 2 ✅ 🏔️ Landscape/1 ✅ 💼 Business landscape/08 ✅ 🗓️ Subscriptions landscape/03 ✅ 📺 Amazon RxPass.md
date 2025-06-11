@@ -10,3 +10,4 @@ In 2023, Reuters published the following video, titled *"Amazon launches $5 mont
 <!-- https://youtu.be/Qs8xWSwI3js --><br/>
 https://github.com/user-attachments/assets/c82e2933-d3ad-4e7b-aeb3-0c4f8a7d3ad5
 
+[400533357-c82e2933-d3ad-4e7b-aeb3-0c4f8a7d3ad5.webm](https://github.com/user-attachments/assets/4617a897-0b61-433c-aa8b-bf35032d1ada)
