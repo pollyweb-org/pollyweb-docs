@@ -10,3 +10,4 @@ In 2023, CNBC (a U.S.-based news channel) published the following video, titled 
 
 https://github.com/user-attachments/assets/9e9af4c0-5fd1-4d38-b3ac-4552b28373d0
 
+[403135305-9e9af4c0-5fd1-4d38-b3ac-4552b28373d0.webm](https://github.com/user-attachments/assets/e290ee94-0824-4e13-b9e5-b015f7b9f26e)
