@@ -10,3 +10,4 @@ In 2024, Amazon released the following video, titled "Amazon One launches an app
 <!-- https://youtu.be/VNcZaPlKyTA --><br/>
 https://github.com/user-attachments/assets/5d329da5-0956-4bbe-b084-f3d249406aac
 
+[379523848-5d329da5-0956-4bbe-b084-f3d249406aac.webm](https://github.com/user-attachments/assets/5bce99cb-b64c-4513-8316-895016fd70cd)
