@@ -13,3 +13,5 @@ In 2023, WhatsApp release the following video, titled *"About accepting payments
 
 <!-- https://youtu.be/lgcmM_QOEkQ --><br/>
 https://github.com/user-attachments/assets/47ae05f6-985f-4217-9343-e3732d4ddb2c
+
+[380089853-47ae05f6-985f-4217-9343-e3732d4ddb2c.webm](https://github.com/user-attachments/assets/84a8b409-3ce2-44b4-ac33-d9d44d4cb2fe)
