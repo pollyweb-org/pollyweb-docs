@@ -13,4 +13,7 @@ In 2020, CNET Highlights (a channel dedicated to live tech events and product la
 
 https://github.com/user-attachments/assets/447c855f-50c8-40a4-830c-e059b64eef3c
 
+[406619780-447c855f-50c8-40a4-830c-e059b64eef3c.webm](https://github.com/user-attachments/assets/48925ddf-b8e7-4e47-8909-b1a5eabd5653)
+
+
 ---
