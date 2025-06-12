@@ -1,4 +1,4 @@
-📺 What are Meta's AR glasses?
+[415763858-095d3a85-b1c6-468f-8076-89c989dba3e8.webm](https://github.com/user-attachments/assets/e52aa36c-b496-4d25-9416-baf20f3b71ff)📺 What are Meta's AR glasses?
 ---
 
 In 2024, The Verge (an American technology news website) published the following video, titled *"Exclusive: We tried Meta's AR glasses with Mark Zuckerberg"*.
@@ -8,3 +8,5 @@ In 2024, The Verge (an American technology news website) published the following
 
 <!-- https://youtu.be/mpKKcqWnTus --><br/>
 https://github.com/user-attachments/assets/acf5b0d0-1f07-44ef-8e57-0e8a4edf5d81
+
+[415763846-acf5b0d0-1f07-44ef-8e57-0e8a4edf5d81.webm](https://github.com/user-attachments/assets/97f4a26d-629d-460c-8281-bc68463ac6c2)
