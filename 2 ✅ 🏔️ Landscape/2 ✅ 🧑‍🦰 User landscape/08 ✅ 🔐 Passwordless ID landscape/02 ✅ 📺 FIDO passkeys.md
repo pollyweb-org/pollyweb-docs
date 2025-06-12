@@ -12,4 +12,5 @@ In 2024, the FIDO (Fast IDentity Online) Alliance published the following video,
 <!-- https://www.youtube.com/watch?v=BhvZBysgNp0 --><br/>
 https://github.com/user-attachments/assets/654c36c7-4645-40ac-874a-939f7fd419ca
 
+[400168323-654c36c7-4645-40ac-874a-939f7fd419ca.webm](https://github.com/user-attachments/assets/aed47ab9-7dcb-4069-b3dc-cda781aee38e)
 
