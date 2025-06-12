@@ -10,5 +10,6 @@ In 2020, Powercast (a U.S.-based power-tech company) published the following vid
 <!-- https://youtu.be/_W1tLiK0_BM --><br/>
 https://github.com/user-attachments/assets/a7339bfb-d4f9-4615-bbd6-b346b2ef6ca5
 
+[404706917-a7339bfb-d4f9-4615-bbd6-b346b2ef6ca5.webm](https://github.com/user-attachments/assets/05298ad5-e859-4852-bc30-80dc057c06a3)
 
     
