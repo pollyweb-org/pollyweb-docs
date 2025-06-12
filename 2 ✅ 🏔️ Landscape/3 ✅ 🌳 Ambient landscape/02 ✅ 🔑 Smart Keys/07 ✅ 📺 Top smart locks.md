@@ -9,6 +9,7 @@ In 2024, Wise Consumer (a U.S.-based technology review channel on YouTube) publi
 
 https://github.com/user-attachments/assets/9548af0f-aa75-45b0-802f-e68249584298
 
+[405775536-9548af0f-aa75-45b0-802f-e68249584298.webm](https://github.com/user-attachments/assets/a8a89603-ee59-4ddd-b705-d2d49f94cedf)
 
 
 
