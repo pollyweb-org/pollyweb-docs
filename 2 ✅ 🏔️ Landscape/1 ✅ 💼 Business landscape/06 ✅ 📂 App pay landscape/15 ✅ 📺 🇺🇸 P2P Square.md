@@ -10,3 +10,4 @@ In 2019, CNBC (a U.S.-based news channel) published the following video, titled 
 <!-- https://youtu.be/0Is_gfHTWM0 --><br/>
 https://github.com/user-attachments/assets/3ab11f3b-dd26-4793-86c6-adc360aaeb53
 
+[100mb-400409331-3ab11f3b-dd26-4793-86c6-adc360aaeb53.webm](https://github.com/user-attachments/assets/20a52070-344b-4d7f-9bb9-5450ac30d7b8)
