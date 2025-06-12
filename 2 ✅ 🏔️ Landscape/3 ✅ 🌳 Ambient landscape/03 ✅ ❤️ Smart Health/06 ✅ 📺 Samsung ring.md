@@ -9,3 +9,4 @@ In 2024, CNET Highlights (a channel dedicated to live tech events and product la
 <!-- https://youtu.be/2CZnaPEixfs --><br/>
 https://github.com/user-attachments/assets/c9f6abc1-1608-4efc-b312-4c5fae24de7c
 
+[406749320-c9f6abc1-1608-4efc-b312-4c5fae24de7c.webm](https://github.com/user-attachments/assets/8f6181ac-6075-4be5-aacc-9d38a71ef210)
