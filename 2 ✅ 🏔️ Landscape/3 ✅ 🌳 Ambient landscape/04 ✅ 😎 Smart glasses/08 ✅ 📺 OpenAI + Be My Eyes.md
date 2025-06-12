@@ -9,3 +9,4 @@ In 2024, OpenAI published the following video, titled *"Be My Eyes Accessibility
 <!-- https://youtu.be/KwNUJ69RbwY --><br/>
 https://github.com/user-attachments/assets/a649801a-837a-4d03-80e0-3946a43671c2
 
+[415793229-a649801a-837a-4d03-80e0-3946a43671c2.webm](https://github.com/user-attachments/assets/75d94b62-849a-4cdf-ae0f-bf2ace308343)
