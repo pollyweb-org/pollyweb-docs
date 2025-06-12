@@ -8,3 +8,5 @@ In 2024, Synchron published the following video, titled *"Synchron BCI x ChatGPT
 
 <!-- https://youtu.be/nzZ7EIIjXY4 --><br/>
 https://github.com/user-attachments/assets/d4028e16-5473-489c-8f51-0adf46830ed8
+
+[415686883-d4028e16-5473-489c-8f51-0adf46830ed8.webm](https://github.com/user-attachments/assets/6199c464-7c59-44b3-aed0-a153ae05d06e)
