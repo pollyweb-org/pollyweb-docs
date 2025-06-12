@@ -9,3 +9,4 @@ In 2024, Synchron published the following video, titled *"Synchron BCI x Amazon 
 <!-- https://youtu.be/3ADYQj90GmI --><br/>
 https://github.com/user-attachments/assets/363df8ca-8fc7-4edb-9ac8-090c736919de
 
+[415685642-363df8ca-8fc7-4edb-9ac8-090c736919de.webm](https://github.com/user-attachments/assets/7bf3648b-f3e5-421e-bb08-bb1d39300073)
