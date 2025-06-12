@@ -10,5 +10,7 @@ In 2022, Wishpond published the following video, titled *"What is Nubank? The $5
 <!-- https://youtu.be/o7KqSTaS3bs --><br/>
 https://github.com/user-attachments/assets/a092207a-7adf-45a5-9e54-db60f710e733
 
+[100mb-400434120-a092207a-7adf-45a5-9e54-db60f710e733.webm](https://github.com/user-attachments/assets/49075396-fcc6-4d3f-b514-e9dc4d2aaa88)
+
 
 ---
