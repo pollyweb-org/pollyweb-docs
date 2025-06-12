@@ -9,6 +9,7 @@ In 2024, Smart Home Solver (a YouTube channel that provides reviews and tutorial
 <!-- https://youtu.be/R0zLt7sVJes --><br/>
 https://github.com/user-attachments/assets/4f965138-12b8-4e2e-adf3-2f456f1b35db
 
+[406696464-4f965138-12b8-4e2e-adf3-2f456f1b35db.webm](https://github.com/user-attachments/assets/b67e6a65-5855-45e2-8566-5b4d4d90aa2d)
 
 ---
 
