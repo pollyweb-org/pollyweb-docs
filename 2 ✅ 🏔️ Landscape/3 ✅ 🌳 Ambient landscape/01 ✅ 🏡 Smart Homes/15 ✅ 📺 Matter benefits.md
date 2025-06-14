@@ -5,7 +5,7 @@
 In 2021, CNET
 published the following video, titled *"Apple, Amazon and Google, oh my! Why the Matter Protocol Matters"*.
 !-- https://youtu.be/PjzQybNcHos -->
--->
+
 
 In 2023, the Wall Street Journal (a U.S.-based news media) published the following video, titled *"Matter: Why Apple, Amazon and Google are Working Together on Smart Home Tech"*.
 
