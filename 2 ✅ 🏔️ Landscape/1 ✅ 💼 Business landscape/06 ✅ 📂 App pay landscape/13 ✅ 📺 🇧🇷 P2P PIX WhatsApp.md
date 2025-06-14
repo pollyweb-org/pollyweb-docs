@@ -7,6 +7,4 @@ This 2022 video, WhatsApp published the following video, titled *"How to send mo
 - It works by leveraging PIX, Brazil's central payments platform.    
 
 <!-- https://youtu.be/6UDRHwCjmTA --><br/>
-https://github.com/user-attachments/assets/5780ca3a-697f-4042-9f4a-f43722ca191d
-
 [380150229-5780ca3a-697f-4042-9f4a-f43722ca191d.webm](https://github.com/user-attachments/assets/076fd770-87d8-48f8-9a75-6608aecd2c9f)

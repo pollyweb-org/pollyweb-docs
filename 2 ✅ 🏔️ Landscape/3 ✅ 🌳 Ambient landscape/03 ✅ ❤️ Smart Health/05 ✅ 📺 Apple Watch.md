@@ -9,6 +9,4 @@ In 2024, Apple published the following video, titled *"WWDC 2024 — June 10 | A
 - The Mindfulness app supports mental health, while Fitness+ integrates workouts. 
 
 <!-- https://youtu.be/RXeOiIDNNek 36:00 39:47 --><br/>
-https://github.com/user-attachments/assets/66663b44-b5e4-45e0-8b6b-80b5567abf5d
-
 [406753363-66663b44-b5e4-45e0-8b6b-80b5567abf5d.webm](https://github.com/user-attachments/assets/51d0245a-4e03-4c7c-be8f-011152547ea0)

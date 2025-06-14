@@ -7,6 +7,4 @@ In 2021, WHOOP (a U.S.-based fitness technology company) published the following
 - It highlighting the launch of WHOOP 4.0, a new fitness tracker with enhanced features like skin temperature sensing and pulse oximetry. 
 
 <!-- https://youtu.be/hejeSv5RWCM --><br/>
-https://github.com/user-attachments/assets/9d09afb3-e895-4081-a99a-5576dda64990
-
 [406753420-9d09afb3-e895-4081-a99a-5576dda64990.webm](https://github.com/user-attachments/assets/05408e82-437b-4a43-a61d-446f433ba73c)

@@ -8,6 +8,5 @@ In 2024, The Wall Street Journal (a U.S.-based news media) published the followi
 
 <!-- https://youtu.be/sREKZ39bnmI --><br/>
 
-https://github.com/user-attachments/assets/5d94b414-a792-471a-9fc0-31f624dd4c11
 
 [401284720-5d94b414-a792-471a-9fc0-31f624dd4c11.webm](https://github.com/user-attachments/assets/032ea0f1-35bf-496c-8807-49390f80f605)

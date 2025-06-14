@@ -8,7 +8,5 @@ In 2013, the Wall Street Journal (a U.S.-based news media) published the followi
 - The video also discusses the potential drawbacks of Google's plan, such as the possibility that it could give Google too much power over the advertising market.
 
 <!-- https://youtu.be/WutEOfwRFxA --><br/>
-https://github.com/user-attachments/assets/8dd4fd30-d948-4cd2-b678-0dd144d2e9e8
-
 [404070549-8dd4fd30-d948-4cd2-b678-0dd144d2e9e8.webm](https://github.com/user-attachments/assets/64d07809-e822-47b5-8c83-9415b3130be3)
 

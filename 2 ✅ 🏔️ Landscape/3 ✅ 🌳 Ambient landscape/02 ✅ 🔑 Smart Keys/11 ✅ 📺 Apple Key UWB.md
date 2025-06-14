@@ -10,8 +10,6 @@ In 2023, NXP Semiconductors (a Dutch semiconductor company) published the follow
 
 
 <!-- https://youtu.be/L0Q_0IZULJs --><br/>
-https://github.com/user-attachments/assets/4a040ce5-85c7-46a2-ae16-8535870bb27b
-
 [405775458-4a040ce5-85c7-46a2-ae16-8535870bb27b.webm](https://github.com/user-attachments/assets/73b3f1db-5d8e-4568-8df2-6c9c39345646)
 
 ---

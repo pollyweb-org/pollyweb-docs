@@ -8,6 +8,4 @@ In 2022, the Wall Street Journal (a U.S.-based news media) published the followi
 - Apple integrated RCS in iOS 18 in 2024, yet still missing end-to-end encryption for RCS messages exchanged between iPhones and Android devices.
 
 <!-- https://youtu.be/mGGUfmaxEEA --><br/>
-https://github.com/user-attachments/assets/d7bab8be-feff-4953-ae99-6c8a8e4b3cc8
-
 [387416935-d7bab8be-feff-4953-ae99-6c8a8e4b3cc8.webm](https://github.com/user-attachments/assets/6e029b76-4b25-440d-bbdf-b7002f0fec33)

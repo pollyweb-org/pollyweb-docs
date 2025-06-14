@@ -8,7 +8,5 @@ In 2021, India launched the Open Network for Digital Commerce (ONDC).
 - The following 2023 video, entitled *"ONDC will transform the e-commerce landscape in India"*, explains how the platform works.
 
 <!-- https://youtu.be/ZRwQDJPVwqI --><br/>
-https://github.com/user-attachments/assets/fd773c9d-cb05-47f8-994c-7e29e1eae7f3
-
 [380309559-fd773c9d-cb05-47f8-994c-7e29e1eae7f3.webm](https://github.com/user-attachments/assets/a9a886ba-b559-46a1-b752-14c5dc0e1966)
 

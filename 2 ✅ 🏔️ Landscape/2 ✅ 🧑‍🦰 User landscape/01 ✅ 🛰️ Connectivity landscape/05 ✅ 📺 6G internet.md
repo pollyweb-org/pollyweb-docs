@@ -8,6 +8,6 @@ In 2021, The Wall Street Journal (a U.S.-based news media) published the followi
 
 <!-- https://youtu.be/AJTWy_sz4YI --><br/>
 
-https://github.com/user-attachments/assets/4b0e32b3-ca60-4bd8-a66b-75f88a0bfb97
+
 
 [401292404-4b0e32b3-ca60-4bd8-a66b-75f88a0bfb97.webm](https://github.com/user-attachments/assets/c47f49da-d326-4856-bc83-53c017027dc5)

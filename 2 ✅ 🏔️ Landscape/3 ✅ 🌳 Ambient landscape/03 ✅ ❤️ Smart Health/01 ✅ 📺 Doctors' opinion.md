@@ -8,6 +8,4 @@ published the following video, titled *"Ambient Intelligence & Emotion AI in Hea
 - Ambient intelligence creates responsive environments that adapt to patient needs, while emotion AI detects and responds to human emotions.
 
 <!-- https://youtu.be/YwE6DINJsgY --><br/>
-https://github.com/user-attachments/assets/4b3e2ee0-a128-4fd2-894e-c72ff25a92aa
-
 [387424065-4b3e2ee0-a128-4fd2-894e-c72ff25a92aa.webm](https://github.com/user-attachments/assets/f7906950-9e12-4641-ae7f-a6e4d07e329f)

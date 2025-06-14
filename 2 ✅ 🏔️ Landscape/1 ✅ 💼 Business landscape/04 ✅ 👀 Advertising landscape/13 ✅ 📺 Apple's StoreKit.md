@@ -8,6 +8,4 @@ In 2021, AppsFlyer (a marketing platform) published the following video, titled 
 - The video describes the history of the SKAdNetwork, its benefits, and its challenges. 
 
 <!-- https://youtu.be/iwoMCXCwS7w --><br/>
-https://github.com/user-attachments/assets/e458a64e-84ff-4e19-b2e8-a7863d6e1f08
-
 [403544206-e458a64e-84ff-4e19-b2e8-a7863d6e1f08.webm](https://github.com/user-attachments/assets/8e883127-873a-4741-809f-48dd1bb5edfb)

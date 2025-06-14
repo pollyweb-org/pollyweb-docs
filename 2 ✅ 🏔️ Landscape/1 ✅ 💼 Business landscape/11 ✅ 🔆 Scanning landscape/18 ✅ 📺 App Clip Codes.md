@@ -5,8 +5,6 @@ In 2020, Apple published the following video from the Apple's Worldwide Develope
 - The video introduced App Clips, a feature in iOS 14 that allowed users to access small parts of an app without full installation, enhancing convenience for quick tasks. 
 
 <!-- https://youtu.be/IqP_iojZXxQ --><br/>
-https://github.com/user-attachments/assets/648188c6-809b-4a97-9601-37785577c5d8
-
 [406619650-648188c6-809b-4a97-9601-37785577c5d8.webm](https://github.com/user-attachments/assets/5c54662a-521e-4887-a03a-a40451523fb1)
 
 ---

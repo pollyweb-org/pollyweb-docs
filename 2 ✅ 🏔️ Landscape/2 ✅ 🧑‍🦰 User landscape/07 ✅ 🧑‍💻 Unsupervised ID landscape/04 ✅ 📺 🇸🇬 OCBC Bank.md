@@ -7,6 +7,5 @@ In the 2021, The Straits Times released the following video, titled *"OCBC ATM w
 - The ATM performs a color-based liveness check before matching the user's face.
 
 <!-- https://youtu.be/ahWQpXSq4IQ --><br/>
-https://github.com/user-attachments/assets/77e47d43-3258-47d6-922d-67351fd7b465
 
 [400163003-77e47d43-3258-47d6-922d-67351fd7b465.webm](https://github.com/user-attachments/assets/e9ffd6ff-ff25-4978-9d08-c3587164df39)

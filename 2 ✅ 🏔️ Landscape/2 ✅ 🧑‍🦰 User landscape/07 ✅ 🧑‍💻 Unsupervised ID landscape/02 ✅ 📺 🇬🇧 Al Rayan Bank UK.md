@@ -7,6 +7,5 @@ In 2023, the Al Rayan Bank in UK published the following video, titled *"Registe
 - It covers the steps involved, including downloading the app, providing identification, and setting up accounts.
 
 <!-- https://youtu.be/FnsYkUbhhqk --><br/>
-https://github.com/user-attachments/assets/870afc94-5108-4b0e-a1ed-468bc27a972b
 
 [400162938-870afc94-5108-4b0e-a1ed-468bc27a972b.webm](https://github.com/user-attachments/assets/5a81ddd6-360b-4b76-83a8-5f9146c9bbea)

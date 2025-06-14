@@ -8,6 +8,5 @@ In 2024, the software company Affinidi (a company led by Glenn Gore, former Chie
 
 <!-- https://youtu.be/DEAlEYTZCxk --><br/>
 
-https://github.com/user-attachments/assets/8fabcc5b-54d1-46f8-93df-c9651afb29ba
 
 [403616276-8fabcc5b-54d1-46f8-93df-c9651afb29ba.webm](https://github.com/user-attachments/assets/8063ce32-84a8-4ae5-a60e-1ff08353b38d)

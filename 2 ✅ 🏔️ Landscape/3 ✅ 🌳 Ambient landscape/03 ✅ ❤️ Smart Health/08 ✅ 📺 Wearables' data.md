@@ -8,6 +8,4 @@ In 2023, the American Heart Association published the following video, titled *"
 - It also highlights the benefits for seniors and the importance of consulting with a healthcare team to choose the right device.
 
 <!-- https://youtu.be/iwtjAY81ZzU --><br/>
-https://github.com/user-attachments/assets/13596c12-b73e-47f2-a226-4df19723400e
-
 [406753389-13596c12-b73e-47f2-a226-4df19723400e.webm](https://github.com/user-attachments/assets/4370925b-4d62-47f2-857b-671de40a138b)

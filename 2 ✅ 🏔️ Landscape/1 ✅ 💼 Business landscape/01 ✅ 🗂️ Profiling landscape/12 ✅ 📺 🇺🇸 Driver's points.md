@@ -7,8 +7,6 @@ In 2017, WXII 12 News (a U.S.-based television station) published the following 
 - The video provides examples of offenses and their corresponding point values, and emphasizes the importance of drivers monitoring their point accumulation to avoid license suspension.
 
 <!-- https://youtu.be/EBRhJXOdYco --><br/>
-https://github.com/user-attachments/assets/35b61be0-064c-453a-93e5-e5084e307319
-
 [403153498-35b61be0-064c-453a-93e5-e5084e307319.webm](https://github.com/user-attachments/assets/3ee1db85-add0-45c4-bea4-48b2b845e665)
 
 

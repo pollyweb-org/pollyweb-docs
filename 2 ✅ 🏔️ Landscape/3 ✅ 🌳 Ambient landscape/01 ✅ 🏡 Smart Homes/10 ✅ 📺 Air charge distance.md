@@ -7,6 +7,4 @@ In 2022, Powercast (a U.S.-based power-tech company) published the following vid
 - This breakthrough enables the placement of IoT sensors in previously inaccessible locations, leading to increased efficiency and cost savings in various applications.
 
 <!-- https://youtu.be/XRNBBCo44wE --><br/>
-https://github.com/user-attachments/assets/45154775-aed5-41d0-b64b-2a44bd05440c
-
 [404706905-45154775-aed5-41d0-b64b-2a44bd05440c.webm](https://github.com/user-attachments/assets/1d307208-0ebc-4770-87ea-24966ff6b1d0)

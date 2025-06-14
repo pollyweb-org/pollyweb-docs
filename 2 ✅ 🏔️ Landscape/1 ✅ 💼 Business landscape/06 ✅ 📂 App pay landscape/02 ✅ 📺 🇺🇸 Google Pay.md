@@ -9,6 +9,4 @@ In the following 2024 video, entitled "Everything you need to know about Google 
 
 
 <!-- https://youtu.be/p0Xug7cg36Q --><br/>
-https://github.com/user-attachments/assets/d1371d40-a315-401f-b7da-d52814fd47a2
-
 [380789550-d1371d40-a315-401f-b7da-d52814fd47a2.webm](https://github.com/user-attachments/assets/62c6ec66-a435-4dbf-9de9-da0fb67cc67d)

@@ -10,9 +10,6 @@ In 2020, CNET Highlights (a channel dedicated to live tech events and product la
 - iPhone's Power Reserve mode allows users to open doors up to 5 hours after they ran out of battery on their phones.
 
 <!-- https://youtu.be/oDiPvLzzNm4 --><br/>
-
-https://github.com/user-attachments/assets/447c855f-50c8-40a4-830c-e059b64eef3c
-
 [406619780-447c855f-50c8-40a4-830c-e059b64eef3c.webm](https://github.com/user-attachments/assets/48925ddf-b8e7-4e47-8909-b1a5eabd5653)
 
 

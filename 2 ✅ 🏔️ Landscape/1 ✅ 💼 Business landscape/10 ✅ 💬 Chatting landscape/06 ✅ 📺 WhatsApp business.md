@@ -12,6 +12,4 @@ The following video from 2020, entitled *"The future of business messaging"* env
 - Meta's long-term goal is to create a frictionless shopping experience, allowing users to interact naturally with businesses, leveraging both conversational AI and the broader metaverse vision.
 
 <!-- https://youtu.be/DOKp7FmNJVE --><br/>
-https://github.com/user-attachments/assets/31408076-549c-409a-a442-ce3e20bf8213
-
 [380085055-31408076-549c-409a-a442-ce3e20bf8213.webm](https://github.com/user-attachments/assets/74881be2-4538-4460-b8e6-09a3dae9083c)

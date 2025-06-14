@@ -9,6 +9,4 @@ In 2021, the YouTube channel "Beckn Protocol" released the following video, titl
 - Beckn supports the [🇮🇳 ONDC](#ONDC) platform in India.
 
 <!-- https://www.youtube.com/watch?v=gefmygtzZR8 --><br/>
-https://github.com/user-attachments/assets/375345e7-f051-4834-b2e0-72193d3aac2a
-
 [400858726-375345e7-f051-4834-b2e0-72193d3aac2a.webm](https://github.com/user-attachments/assets/9739960c-8fa1-46a8-8cec-7fe38bb863bd)

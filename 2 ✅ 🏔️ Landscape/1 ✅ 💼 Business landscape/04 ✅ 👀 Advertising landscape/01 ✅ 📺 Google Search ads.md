@@ -7,6 +7,4 @@ In 2020, Google published the following video, titled *"Why does Google Search h
 - It states that ads keep search free for everyone and help businesses like a local hardware store find customers. 
 
 <!-- https://youtu.be/wcvI5UZoBvo --><br/>
-https://github.com/user-attachments/assets/13eb979a-cc3f-4e2c-8ad4-73fdf2705ea6
-
 [380331237-13eb979a-cc3f-4e2c-8ad4-73fdf2705ea6.webm](https://github.com/user-attachments/assets/5975a987-d6d6-4d48-88e7-49086c8558d2)

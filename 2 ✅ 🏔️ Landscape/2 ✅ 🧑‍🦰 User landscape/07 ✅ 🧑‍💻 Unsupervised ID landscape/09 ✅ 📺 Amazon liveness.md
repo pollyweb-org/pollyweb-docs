@@ -8,7 +8,6 @@ In 2023, Amazon Web Services (AWS) announced the Liveness Check feature for Amaz
 
 <!-- https://youtu.be/JfzwVl1wy0s --><br/>
 
-https://github.com/user-attachments/assets/4d7ae82e-e28a-4f93-a7c8-328d74a6c92a
 
 [404474550-4d7ae82e-e28a-4f93-a7c8-328d74a6c92a.webm](https://github.com/user-attachments/assets/346cdc1e-08b4-4d26-8557-a74e181ccade)
 

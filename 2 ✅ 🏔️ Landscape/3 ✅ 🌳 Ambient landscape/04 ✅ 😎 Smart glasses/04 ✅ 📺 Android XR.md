@@ -8,6 +8,4 @@ In 2024, Android Developers (a Google team) published the following video, title
 * The platform supports immersive versions of Google apps and existing Android apps from the Play Store. 
 
 <!-- https://youtu.be/-p9BtBd-Al8 --><br/>
-https://github.com/user-attachments/assets/7391743f-b8c7-46b7-94c6-b11e1e8d04f2
-
 [415685509-7391743f-b8c7-46b7-94c6-b11e1e8d04f2.webm](https://github.com/user-attachments/assets/f68fa931-c408-4fdc-b98a-ab1fbd288864)

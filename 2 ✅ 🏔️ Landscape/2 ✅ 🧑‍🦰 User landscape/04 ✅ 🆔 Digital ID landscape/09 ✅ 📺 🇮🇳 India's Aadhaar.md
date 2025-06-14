@@ -11,6 +11,5 @@ In 2023, ABC News Australia publish the following video about *"India has the wo
 - The video discusses the benefits of Aadhaar, such as improved access to government services, as well as concerns regarding privacy, data security, and potential misuse of personal information.
 
 <!-- https://youtu.be/Axq1WORUTC0 --><br/>
-https://github.com/user-attachments/assets/52904f37-5899-43a6-9f94-98ac24dec2a1
 
 [379545952-52904f37-5899-43a6-9f94-98ac24dec2a1.webm](https://github.com/user-attachments/assets/9b936f1e-c38c-4505-a31c-4a9786447cb7)

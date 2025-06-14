@@ -9,8 +9,6 @@ In 2024, CBS News (a U.S.-based news organization) published the following video
 
 <!-- https://www.ftc.gov/system/files/ftc_gov/pdf/Social-Media-6b-Report-9-11-2024.pdf -->
 <!-- https://youtu.be/oLMsDvjpJ8Y --><br/>
-https://github.com/user-attachments/assets/95fa2ebf-6508-451c-8add-0d441f8e7ede
-
 [402853753-95fa2ebf-6508-451c-8add-0d441f8e7ede.webm](https://github.com/user-attachments/assets/4b996900-170a-4057-be28-1f044d93ac96)
 
 

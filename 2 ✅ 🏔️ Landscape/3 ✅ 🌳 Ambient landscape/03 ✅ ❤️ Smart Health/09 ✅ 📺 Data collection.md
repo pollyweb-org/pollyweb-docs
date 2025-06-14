@@ -7,6 +7,4 @@ In 2022, CBS (a U.S.-based news organization) published the following video, tit
 - The video also touches on privacy concerns related to the collection of health data.
 
 <!-- https://youtu.be/RyV7a60p52o --><br/>
-https://github.com/user-attachments/assets/661ecdbe-9195-4488-889d-a88be704e662
-
 [406749315-661ecdbe-9195-4488-889d-a88be704e662.webm](https://github.com/user-attachments/assets/8a8a1175-c478-426c-a15a-7e8770ba472b)

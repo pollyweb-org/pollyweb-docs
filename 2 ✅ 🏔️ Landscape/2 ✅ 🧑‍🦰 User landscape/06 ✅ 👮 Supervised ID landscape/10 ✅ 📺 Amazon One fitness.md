@@ -6,6 +6,5 @@ In 2023, Crunch Fitness released the following video, titled "Amazon One | Crunc
 - The video introduces Amazon One as a secure, contactless way for members to enter Crunch clubs just by hovering their palm over an Amazon One device at check-in.
 
 <!-- https://www.youtube.com/watch?v=CCawIvwUeh0 --><br/>
-https://github.com/user-attachments/assets/d649fca0-bee3-456b-bef9-854557363a74
 
 [400151563-d649fca0-bee3-456b-bef9-854557363a74.webm](https://github.com/user-attachments/assets/d444b72f-a914-4953-9e43-b90498643ee6)

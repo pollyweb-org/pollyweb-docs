@@ -13,6 +13,5 @@ In 2022, the European Blockchain Service Infrastructure (EBSI) published the fol
 
 
 <!-- https://youtu.be/DDkhnK202z4 --><br/>
-https://github.com/user-attachments/assets/e30dc024-755a-44fc-86a9-8718d7fd9254
 
 [420088568-e30dc024-755a-44fc-86a9-8718d7fd9254.webm](https://github.com/user-attachments/assets/4b165a8b-e8da-4e06-8535-3f90f09e6a4d)

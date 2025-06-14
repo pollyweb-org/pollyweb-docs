@@ -14,8 +14,6 @@ In 2013, the Wall Street Journal (a U.S.-based news media) published the followi
 - The program has been used to prevent terrorist attacks, but it also raises privacy concerns.
 
 <!-- https://youtu.be/tyvpXsF5HL4 --><br/>
-https://github.com/user-attachments/assets/d8e8f940-da58-43ac-84cb-76011be4e2fa
-
 [404604551-d8e8f940-da58-43ac-84cb-76011be4e2fa.webm](https://github.com/user-attachments/assets/296292f0-3cdb-4617-bc26-5de734c00d25)
 
 

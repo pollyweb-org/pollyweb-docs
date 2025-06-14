@@ -7,6 +7,5 @@
     - It explains how travelers can add their state-issued driver's license or identification card to their mobile device's digital wallet, enabling a contactless and efficient identity verification process at TSA checkpoints. 
 
 <!-- https://youtu.be/jLcEzTu429E --><br/>
-https://github.com/user-attachments/assets/f8a8e359-b20b-4133-86f0-9223d3b5493f
 
 [379489668-f8a8e359-b20b-4133-86f0-9223d3b5493f.webm](https://github.com/user-attachments/assets/8a772940-ca5d-4ab8-b026-37f8f6d374ed)
