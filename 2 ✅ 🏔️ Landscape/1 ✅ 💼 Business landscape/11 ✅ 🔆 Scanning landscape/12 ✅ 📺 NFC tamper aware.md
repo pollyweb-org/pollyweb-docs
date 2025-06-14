@@ -8,7 +8,6 @@ In 2023, Seritag NFC Tags (a UK-based NFC tag provider) published the following 
 - These tags can be used to enhance product security and prevent counterfeiting.
 
 <!-- https://youtu.be/e7WizGGRdvY --><br/>
-https://github.com/user-attachments/assets/354028b0-e245-4f36-80dc-1061405fbaf3
 
 [404704315-354028b0-e245-4f36-80dc-1061405fbaf3.webm](https://github.com/user-attachments/assets/d015b96f-e724-4eb1-ae1c-0e798652f02e)
 
