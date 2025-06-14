@@ -7,7 +7,5 @@ In 2019, CNBC (a U.S.-based news channel) published the following video, titled 
 - It discusses Venmo's history, growth, challenges, and competition from other payment apps like Square Cash.
 
 <!-- https://youtu.be/l-9VC_uJw4U --><br/>
-https://github.com/user-attachments/assets/e21ff580-af9a-487c-a5a7-10037fac74c0
-
 [100mb-400407603-e21ff580-af9a-487c-a5a7-10037fac74c0.webm](https://github.com/user-attachments/assets/b18d7a5d-e80d-44f6-b4eb-ba49320e8601)
 

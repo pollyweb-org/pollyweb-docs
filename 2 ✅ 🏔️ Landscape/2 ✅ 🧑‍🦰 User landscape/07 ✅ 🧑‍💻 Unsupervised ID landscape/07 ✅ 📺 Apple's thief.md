@@ -8,6 +8,5 @@ In 2023, the Wall Street Journal (a U.S.-based news media) published the followi
 - Apple has since released a new security feature to mitigate this risk.
 
 <!-- https://youtu.be/gi96HKr2vo8 --><br/>
-https://github.com/user-attachments/assets/95d8d963-6fa6-4cd9-a5b9-f87ef586c96e
 
 [100mb-404609567-95d8d963-6fa6-4cd9-a5b9-f87ef586c96e.webm](https://github.com/user-attachments/assets/a36d5977-6cf6-46d9-bec3-8ca9ab1d1059)

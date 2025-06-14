@@ -7,8 +7,6 @@ In 2024, Active Witness (a U.S.-based security technology provider) published th
 - It highlights the system's features, including remote access, real-time monitoring, and integration with other security systems.
 
 <!-- https://youtu.be/lya1cTDZgmE --><br/>
-https://github.com/user-attachments/assets/00a3f142-79af-48b6-b964-3411b950e5f9
-
 [406696453-00a3f142-79af-48b6-b964-3411b950e5f9.webm](https://github.com/user-attachments/assets/0dc18685-1639-4705-9ea5-a5bfbd3be258)
 
 
@@ -19,8 +17,7 @@ In 2024, Active Witness (a U.S.-based security technology provider) published th
 - The video introduces Active Witness, a cloud-based access control and intercom system. 
 - It highlights the system's features, including remote access, real-time monitoring, and integration with other security systems.
 
-    https://youtu.be/NLwVtQqhg2k --<br/>
-https://github.com/user-attachments/assets/089c53df-255b-4007-910a-5e903532c922
+    https://youtu.be/NLwVtQqhg2k --><br/>
 
 -->
 

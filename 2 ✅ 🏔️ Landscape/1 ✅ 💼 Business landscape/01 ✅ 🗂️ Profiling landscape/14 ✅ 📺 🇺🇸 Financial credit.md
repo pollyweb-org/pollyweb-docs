@@ -7,8 +7,6 @@ In 2022, CNBC (a U.S.-based business news and financial television channel) publ
 - It explains how credit scores are calculated, their benefits and drawbacks, and ongoing debates about fairness and regulation. 
 
 <!-- https://youtu.be/QNa-4LSuN-s --><br/>
-https://github.com/user-attachments/assets/9e3fe729-3d6c-49c6-9d1c-3aa1887438bf
-
 [100mb-403135654-9e3fe729-3d6c-49c6-9d1c-3aa1887438bf.webm](https://github.com/user-attachments/assets/d5127d43-d504-44fc-9288-34e01eddbb7f)
 
 

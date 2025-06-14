@@ -9,6 +9,5 @@ The following video, titled *"Biometric self-boarding at Dubai Airport"*, was re
 - As of October 2024, the "Travel Without Borders" initiative at the Terminal 3 of Dubai airport allows passengers to check in, pass through immigration, and board their flights without needing physical documents such as passports or boarding passes. 
 
 <!-- https://youtu.be/mVhUbAFsADk --><br/>
-https://github.com/user-attachments/assets/5d6e5f9d-d986-46ae-9a09-31050c250ccd
 
 [379527047-5d6e5f9d-d986-46ae-9a09-31050c250ccd.webm](https://github.com/user-attachments/assets/76fd41d6-0815-4b72-9087-7d5eb0bb35cb)

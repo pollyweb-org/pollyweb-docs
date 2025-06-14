@@ -8,6 +8,5 @@ In 2021, the Wi-Fi Alliance released the following video, titled *"Wi-Fi CERTIFI
 - It aims to replace the Wi-Fi Protected Setup (WPS) passwordless protocol, which is considered susceptible to brute-force attacks.
 
 <!-- https://www.youtube.com/watch?v=ZcStV3gWFA4 --><br/>
-https://github.com/user-attachments/assets/acde7a89-90a9-4162-846e-e54520749267
 
 [400170180-acde7a89-90a9-4162-846e-e54520749267.webm](https://github.com/user-attachments/assets/e52ea1ac-fa33-43f3-b270-5358b0db247a)

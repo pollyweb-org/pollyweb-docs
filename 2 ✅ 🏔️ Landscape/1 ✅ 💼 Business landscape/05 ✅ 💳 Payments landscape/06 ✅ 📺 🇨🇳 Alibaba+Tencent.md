@@ -8,6 +8,4 @@ In 2018, the Wall Street Journal (a U.S.-based news media) published the followi
 - In 2023, China approved legislation to enforce interoperability between payment methods of the major super apps.
 
 <!-- https://youtu.be/5IEAjBK9EOo --><br/>
-https://github.com/user-attachments/assets/6282e93d-330a-44db-bbba-d049a3323b83
-
 [380449923-6282e93d-330a-44db-bbba-d049a3323b83.webm](https://github.com/user-attachments/assets/8478120a-25f6-4804-bf5d-bf722f1afd36)

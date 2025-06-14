@@ -7,6 +7,4 @@ In 2024, Amazon Web Services (AWS) published the following video, titled *"AWS E
 - Independent of non-European access, it ensures European control over data while offering AWS's advanced cloud services tailored for the region.
 
 <!-- https://youtu.be/LRGUsN_2lY0 --><br/>
-https://github.com/user-attachments/assets/8c5826aa-2c07-4f03-81f7-a5052be51783
-
 [403586468-8c5826aa-2c07-4f03-81f7-a5052be51783.webm](https://github.com/user-attachments/assets/38a799d2-1e24-439d-9ef3-a37cdcfcd8dc)

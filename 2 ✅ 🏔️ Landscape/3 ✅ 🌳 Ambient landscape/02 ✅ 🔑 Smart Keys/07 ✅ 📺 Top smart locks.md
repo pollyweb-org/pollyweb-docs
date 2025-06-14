@@ -6,9 +6,6 @@ In 2024, Wise Consumer (a U.S.-based technology review channel on YouTube) publi
 - The video reviews the best smart locks of 2025, comparing models based on price, ease of use, and compatibility with smart home platforms like Apple HomeKit, Google Home, and Amazon Alexa. 
 
 <!-- https://youtu.be/OAbbKNopja0 --><br/>
-
-https://github.com/user-attachments/assets/9548af0f-aa75-45b0-802f-e68249584298
-
 [405775536-9548af0f-aa75-45b0-802f-e68249584298.webm](https://github.com/user-attachments/assets/a8a89603-ee59-4ddd-b705-d2d49f94cedf)
 
 
@@ -17,7 +14,7 @@ https://github.com/user-attachments/assets/9548af0f-aa75-45b0-802f-e68249584298
 
 <!-- 1. Best Smart Locks in 2024
 
-In 2024, The Review Lab (a U.S.-based YouTube tech channel) published the following video, titled *"Best Smart Door Lock 2025 [don’t buy one before watching this]"*.
+In 2024, The Review Lab (a U.S.-based YouTube tech channel) published the following video, titled *"Best Smart Door Lock 2025 [don't buy one before watching this]"*.
 
 - The video reviews the best smart door locks for 2025, comparing features like keyless entry methods (fingerprint, keypad, app), smart home integration (Apple HomeKit, Alexa, Google Assistant), security features (auto-lock, alarm), and ease of installation.
 
@@ -62,7 +59,7 @@ https://github.com/user-attachments/assets/d12c664c-bdb1-48b4-b2cf-c8262cf572b7
 
 LockPickingLawyer
 published the following video, titled *"
-[1514] Schlage’s “100% Pick-Proof” Smart Lock (LOL)"*.
+[1514] Schlage's "100% Pick-Proof" Smart Lock (LOL)"*.
 
 https://youtu.be/mGR3h6KTntc
 https://github.com/user-attachments/assets/69b435d1-8854-4b21-a10a-18384da48d22

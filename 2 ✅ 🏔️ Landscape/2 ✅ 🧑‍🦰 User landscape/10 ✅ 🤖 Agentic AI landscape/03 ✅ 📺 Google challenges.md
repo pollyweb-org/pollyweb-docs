@@ -13,7 +13,6 @@ yt-dlp -f 'bestvideo[height<=1080][vcodec^=avc1]+bestaudio[acodec^=mp4a]/best[he
 
 <!-- https://youtu.be/ogfYd705cRs --><br/>
 
-https://github.com/user-attachments/assets/ad1b9ee1-a59a-4b48-9f40-126f544ebf69
 
 [404944257-ad1b9ee1-a59a-4b48-9f40-126f544ebf69.webm](https://github.com/user-attachments/assets/780d675e-3f1c-4628-a0f2-8cb904051ec9)
 

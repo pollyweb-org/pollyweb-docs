@@ -11,6 +11,5 @@ In 2021, the Connected Health Branch of the United States Defense Health Agency 
 
 <!-- https://youtu.be/xmsYHsyyJdc --><br/>
 
-https://github.com/user-attachments/assets/9cc56482-a751-4a0b-b2bc-703773ab6443
 
 [403113936-9cc56482-a751-4a0b-b2bc-703773ab6443.webm](https://github.com/user-attachments/assets/70d6f4a2-13c5-4011-b9b3-4bce7dc75ed2)

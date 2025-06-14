@@ -8,6 +8,4 @@ In 2016, Insider Tech (a U.S.-based technology news channel) published the follo
 - The video then shows how to modify a garage door reader to create a portable card cloner.
 
 <!-- https://youtu.be/cxxnuofREcM --><br/>
-https://github.com/user-attachments/assets/ebe81b73-22e8-40ef-bb33-94978a6974c3
-
 [404706860-ebe81b73-22e8-40ef-bb33-94978a6974c3.webm](https://github.com/user-attachments/assets/e3b5e8a3-eac8-4ee9-a7d2-b39091bca567)

@@ -7,7 +7,5 @@ In 2020, BioConnect (a security technology company) published the following vide
 - This highlights the vulnerability of traditional key fob systems and the need for additional security measures, such as mobile authenticators.
 
 <!-- https://youtu.be/LVLuJFHV8uY --><br/>
-https://github.com/user-attachments/assets/6c2a257e-86b0-4f2f-a416-a62c25dbe616
-
 [404704263-6c2a257e-86b0-4f2f-a416-a62c25dbe616.webm](https://github.com/user-attachments/assets/b59d60b1-8079-4477-abda-b15686630bd5)
 

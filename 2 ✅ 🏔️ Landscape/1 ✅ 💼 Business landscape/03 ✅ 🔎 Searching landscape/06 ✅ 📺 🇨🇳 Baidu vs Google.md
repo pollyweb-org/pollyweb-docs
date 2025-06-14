@@ -7,7 +7,5 @@ In 2018, CNBC International (a U.S.-based news channel) published the following 
 - It discusses the company's history, its expansion into AI and self-driving cars, and the challenges it faces with censorship. 
 
 <!-- https://youtu.be/cxOdFGg3Sgs --><br/>
-https://github.com/user-attachments/assets/49e1b125-a7dc-4cf0-85e8-020814f1b055
-
 [403176508-49e1b125-a7dc-4cf0-85e8-020814f1b055.webm](https://github.com/user-attachments/assets/c23c9135-cafb-4338-982b-50dcd8dfe0b7)
 

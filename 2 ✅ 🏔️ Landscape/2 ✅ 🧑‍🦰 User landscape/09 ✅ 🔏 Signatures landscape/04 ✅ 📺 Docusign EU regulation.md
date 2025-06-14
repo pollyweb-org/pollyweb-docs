@@ -9,6 +9,5 @@ In 2024, Docusign (a U.S.-based company specialized in electronic signature) pub
 
 <!-- https://youtu.be/XJQodZznPu0 --><br/>
 
-https://github.com/user-attachments/assets/4c1943c1-1f94-40aa-9318-81ab690132c5
 
 [404598376-4c1943c1-1f94-40aa-9318-81ab690132c5.webm](https://github.com/user-attachments/assets/43fe3190-1a95-4736-bb31-ef2c7566036f)

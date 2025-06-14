@@ -7,6 +7,5 @@
     - It shows how to use the app to register, check in, and go through security quickly and easily.
     
 <!-- https://youtu.be/EnQYShsF76w --><br/>
-https://github.com/user-attachments/assets/64f506d3-e4e5-4883-917d-8c52898a8f22
 
 [400094714-64f506d3-e4e5-4883-917d-8c52898a8f22.webm](https://github.com/user-attachments/assets/c56ca88f-b37a-4ea9-932e-a8cb99f55af5)

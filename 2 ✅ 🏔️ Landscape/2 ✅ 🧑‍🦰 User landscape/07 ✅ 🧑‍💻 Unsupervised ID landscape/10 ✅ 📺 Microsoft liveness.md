@@ -10,6 +10,5 @@ Microsoft is also involved with the Decentralized Identity Foundation (DIF) and 
 - In 2024, Microsoft launched Entra Verified ID, and released the following video titled *"Face Check with Microsoft Entra Verified ID - A better way to verify"*.
 
 <!-- https://youtu.be/HG6-aLnDoM0 --><br/>
-https://github.com/user-attachments/assets/0dbc44ab-8ad4-46b2-8178-b6c26eb9f0e3
 
 [379514190-0dbc44ab-8ad4-46b2-8178-b6c26eb9f0e3.webm](https://github.com/user-attachments/assets/75890714-97c7-4745-ac2b-48e50fb1af5c)

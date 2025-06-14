@@ -8,8 +8,6 @@ In 2018, the Wall Street Journal (a U.S.-based news media) published the followi
 - The unauthorized use of personal data for political profiling raised significant concerns about data privacy and the integrity of democratic elections worldwide.
 
 <!-- https://youtu.be/U4qooWtovhU --><br/>
-https://github.com/user-attachments/assets/75fb914f-6c60-42ed-b40c-480110123456
-
 [403101450-75fb914f-6c60-42ed-b40c-480110123456.webm](https://github.com/user-attachments/assets/0616d949-9ebb-4277-bbef-682cdc9c66c6)
 
 

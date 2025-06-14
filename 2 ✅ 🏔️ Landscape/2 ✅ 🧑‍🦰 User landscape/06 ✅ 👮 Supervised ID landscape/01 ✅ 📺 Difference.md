@@ -14,7 +14,6 @@ In 2021, Active Witness (a provider of cloud-based Access Control) released the 
     - NLWeb advocates for facial recognition when it is initiated by the user, for the benefit of the user, and restricted to access within closed circuits (e.g., after check-in at an airport, the user can go through several gates and into the airplane, just with their biometrics, and without the need to re-show the initial credential).
 
 <!-- https://www.youtube.com/watch?v=cnyDQrfZFyo --><br/>
-https://github.com/user-attachments/assets/d2faf70d-c18a-4299-97aa-7097c8bbd7fb
 
 [400165310-d2faf70d-c18a-4299-97aa-7097c8bbd7fb.webm](https://github.com/user-attachments/assets/564549bb-58c0-4dca-8e76-4bb0d359f8c7)
 

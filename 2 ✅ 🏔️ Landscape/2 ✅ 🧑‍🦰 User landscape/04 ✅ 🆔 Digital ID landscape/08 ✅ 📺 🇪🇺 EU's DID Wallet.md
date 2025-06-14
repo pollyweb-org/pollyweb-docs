@@ -8,6 +8,5 @@ In 2023, the European Commission published the following video, titled *"The Eur
 - Member states are working to implement this system by aligning it with the eIDAS Regulation (electronic Identification, Authentication, and Trust Services).
 
 <!-- https://youtu.be/AynHulTaafk --><br/>
-https://github.com/user-attachments/assets/49df5b82-b347-4a12-8892-7138996b5499
 
 [400395244-49df5b82-b347-4a12-8892-7138996b5499.webm](https://github.com/user-attachments/assets/31f46302-bb46-4cff-8514-0954b2cd607e)

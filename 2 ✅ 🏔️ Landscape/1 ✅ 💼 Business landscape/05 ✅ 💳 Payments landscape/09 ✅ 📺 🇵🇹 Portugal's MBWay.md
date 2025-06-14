@@ -8,6 +8,4 @@ In 2021, Portugal Facts released the following, titled *"MB WAY Explained. Pay o
 - It also emphasizes the app's security features, such as the use of a PIN or facial recognition for confirmation.
 
 <!-- https://youtu.be/WM88AbmBU74 --><br/>
-https://github.com/user-attachments/assets/f6dd6394-dbab-491a-b832-e931eed99509
-
 [400398049-f6dd6394-dbab-491a-b832-e931eed99509.webm](https://github.com/user-attachments/assets/2bc02261-21ff-460b-8853-dbc249121fb1)

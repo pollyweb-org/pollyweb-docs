@@ -9,6 +9,4 @@ In 2021, CNBC International (a U.S.-based news channel) published the following 
 - Meta shifted focus to other fintech initiatives, like Novi, a digital wallet, which was later discontinued in 2022.
 
 <!-- https://youtu.be/YIV2yYmN2CY --><br/>
-https://github.com/user-attachments/assets/dc5cdcc2-906d-4807-918d-9a0c81bb81ca
-
 [400418796-dc5cdcc2-906d-4807-918d-9a0c81bb81ca.webm](https://github.com/user-attachments/assets/c2cb185c-515f-4804-bfb2-20b12d2fd36a)

@@ -20,7 +20,5 @@ In 2022, Google published the following video, titled *"Devices & Services | Goo
 yt-dlp -f 'bestvideo[height<=1080][vcodec^=avc1]+bestaudio[acodec^=mp4a]/best[height<=1280][vcodec^=avc1]' https://www.youtube.com/watch?v=UI_-y-g0G8s --downloader ffmpeg --downloader-args "ffmpeg_i:-ss 00:14:24 -to 00:16:46" --remux-video mp4
 -->
 
-https://github.com/user-attachments/assets/bdcef291-e610-4e7d-84fe-402a2425f9f6
-
 [406357857-bdcef291-e610-4e7d-84fe-402a2425f9f6.webm](https://github.com/user-attachments/assets/e5d3f1de-a116-4f92-a3d7-55b4df81c6c9)
 

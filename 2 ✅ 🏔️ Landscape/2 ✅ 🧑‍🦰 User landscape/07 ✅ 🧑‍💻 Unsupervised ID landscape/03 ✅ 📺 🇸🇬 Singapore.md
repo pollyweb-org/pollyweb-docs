@@ -9,6 +9,5 @@ In 2020, the CCTV Video News Agency released the following video, titled *"Singa
 - It also emphasizes the importance of user consent and data minimization in the implementation of this technology.
 
 <!-- https://www.youtube.com/watch?v=nguUY7EAMBk --><br/>
-https://github.com/user-attachments/assets/25824755-21dd-42db-acfd-3ac3535221f2
 
 [400166524-25824755-21dd-42db-acfd-3ac3535221f2.webm](https://github.com/user-attachments/assets/f54e517f-e20d-49e1-9817-f2a00ccb2f58)

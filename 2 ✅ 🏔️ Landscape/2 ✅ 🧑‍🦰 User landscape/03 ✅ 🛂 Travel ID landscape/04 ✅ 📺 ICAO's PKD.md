@@ -8,6 +8,5 @@ In 2020, the International Civil Aviation Organization (ICAO) released the follo
 - The ICAO PKD counted 97 member states by October 2024.
 
 <!-- https://youtu.be/KlWMHTmsDxg --><br/>
-https://github.com/user-attachments/assets/e94b9148-b73a-4920-bc57-c9c85437b489
 
 [379496936-e94b9148-b73a-4920-bc57-c9c85437b489.webm](https://github.com/user-attachments/assets/6244b2f0-cc03-4118-bfe4-464ce1052f85)

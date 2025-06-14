@@ -6,7 +6,6 @@ In 2022, renamed the Google Play app to Google Wallet, given that it supports lo
 - Google introduced the product in the following video, titled *"Phone, keys... Google Wallet"*.
 
 <!-- https://youtu.be/3eKF_kEjy-I --><br/>
-https://github.com/user-attachments/assets/72d4549a-9730-4c50-8414-afea6d07e303
 
 [379536393-72d4549a-9730-4c50-8414-afea6d07e303.webm](https://github.com/user-attachments/assets/8b57ffc9-32ca-445f-97e0-32e2cd0d8f1d)
 

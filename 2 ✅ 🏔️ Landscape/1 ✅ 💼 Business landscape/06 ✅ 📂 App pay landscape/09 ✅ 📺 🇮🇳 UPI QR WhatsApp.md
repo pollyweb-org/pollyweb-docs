@@ -9,6 +9,4 @@ In 2021, WhatsApp release the following video, titled *"How to send money using 
 - This method is particularly useful for paying merchants or individuals in person. 
 
 <!-- https://youtu.be/yCdW06KER14 --><br/>
-https://github.com/user-attachments/assets/75d39514-7f96-45c1-91c7-13236a999476
-
 [400415734-75d39514-7f96-45c1-91c7-13236a999476.webm](https://github.com/user-attachments/assets/9f703cd3-d69d-45bf-ab5e-9a674f0ddfd0)

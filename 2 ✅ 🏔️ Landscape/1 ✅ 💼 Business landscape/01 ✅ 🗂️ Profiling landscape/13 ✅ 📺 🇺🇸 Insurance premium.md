@@ -7,8 +7,6 @@ In 2024, WSB-TV (a U.S.-based television station) published the following video,
 - The video warns viewers about potential privacy concerns and encourages them to request their Lexus Nexus consumer disclosure report.
 
 <!-- https://youtu.be/aoiYa0G_SpA --><br/>
-https://github.com/user-attachments/assets/d8ce0638-1ee3-4fcf-b9e5-72e2a35f2f88
-
 [403100384-d8ce0638-1ee3-4fcf-b9e5-72e2a35f2f88.webm](https://github.com/user-attachments/assets/9800d81e-815f-4288-8643-acef2005f93e)
 
 

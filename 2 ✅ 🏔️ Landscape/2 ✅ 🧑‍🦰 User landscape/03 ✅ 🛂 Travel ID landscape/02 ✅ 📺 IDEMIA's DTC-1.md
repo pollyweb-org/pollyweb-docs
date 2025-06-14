@@ -8,6 +8,5 @@ In 2023, the IDEMIA Group (a provider of biometric and identity verification sol
 - The pilot program opened in 2023 for travelers with Dutch, Belgian, or Canadian passports flying from Canada to the Netherlands.
 
 <!-- https://youtu.be/L9kSwei92vM --><br/>
-https://github.com/user-attachments/assets/5a7fc667-6099-491b-b155-d75d201f6f18
 
 [400090431-5a7fc667-6099-491b-b155-d75d201f6f18.webm](https://github.com/user-attachments/assets/ca420144-1d27-4a7f-b0b6-5bb23b4c2a13)

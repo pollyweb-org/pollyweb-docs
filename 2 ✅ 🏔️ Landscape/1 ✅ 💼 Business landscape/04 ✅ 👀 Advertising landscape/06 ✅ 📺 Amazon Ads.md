@@ -8,6 +8,4 @@ In 2023, Amazon Seller University published the following video, titled "Introdu
 - Amazon sells ad space on its Amazon e-commerce site, its streaming services (Prime Video, Freevee, and Twitch), and its Amazon DSP (Demand-Side Platform). 
 
 <!-- https://youtu.be/REscpOYqGII --><br/>
-https://github.com/user-attachments/assets/bde496cb-a504-4a84-b7a4-0cd2cc7da08f
-
 [380782569-bde496cb-a504-4a84-b7a4-0cd2cc7da08f.webm](https://github.com/user-attachments/assets/f131109e-ab1e-4301-8e68-b6d6d5751acd)

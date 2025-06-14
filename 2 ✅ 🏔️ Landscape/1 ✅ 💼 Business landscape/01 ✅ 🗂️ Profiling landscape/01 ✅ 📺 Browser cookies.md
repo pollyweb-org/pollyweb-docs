@@ -7,8 +7,6 @@ In 2019, the Washington Post (an  American newspaper) published the following vi
 - The video argues that this tracking is invasive and that users should consider switching to browsers that block third-party cookies by default, such as Firefox or Safari.
 
 <!-- https://youtu.be/18En4NBbw3c --><br/>
-https://github.com/user-attachments/assets/577a8065-d722-40c9-84ac-c1f138506437
-
 [webm](https://github.com/user-attachments/assets/102f2fe7-9e9c-4772-ab2d-956c86eaed77)
 
 

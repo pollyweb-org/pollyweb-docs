@@ -8,6 +8,4 @@ In 2025, CGTN published the following video, titled *"Tech Please: Are AI glasse
 - The segment delves into how these innovative wearable devices might revolutionize technology and potentially replace smartphones.
 
 <!--https://youtu.be/Mqu5WikXiGA --><br/>
-https://github.com/user-attachments/assets/a22904ab-e7b2-4db5-943c-3caf3992d6e1
-
 [415686212-a22904ab-e7b2-4db5-943c-3caf3992d6e1.webm](https://github.com/user-attachments/assets/1131f040-34e9-47ed-87a6-c3382dd85543)

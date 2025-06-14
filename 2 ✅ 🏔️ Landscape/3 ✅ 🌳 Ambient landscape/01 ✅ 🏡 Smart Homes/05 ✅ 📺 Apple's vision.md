@@ -8,7 +8,5 @@ In 2021, CNET Highlights (a channel dedicated to live tech events and product la
 - It also highlights improvements to the Home app, such as intercom and enhanced camera controls.
 
 <!-- https://youtu.be/iPTiVcKwdLk --><br/>
-https://github.com/user-attachments/assets/afc01448-00a3-4436-baed-ce1c54212e26
-
 [406620191-afc01448-00a3-4436-baed-ce1c54212e26.webm](https://github.com/user-attachments/assets/c7490799-6f04-4af9-a49e-d6ed5c707ae4)
 

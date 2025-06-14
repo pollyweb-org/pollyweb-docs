@@ -6,7 +6,6 @@ If 2024, Microsoft released the following video, titled *"What are passkeys? Exp
 - Since 2018, as part of the FIDO Alliance, Microsoft has implemented and pushed for what would later be known as passkeys, collaborating with Google and Apple for general adoption. 
 
 <!-- https://youtu.be/bdp8RdjV6PU --><br/>
-https://github.com/user-attachments/assets/80b4de8b-8ca6-4199-814f-9d388ea7ad17
 
 [379916740-80b4de8b-8ca6-4199-814f-9d388ea7ad17.webm](https://github.com/user-attachments/assets/b1d67d4f-6bf1-4ad0-bab3-8dd4bde69b21)
 

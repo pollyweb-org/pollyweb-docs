@@ -8,6 +8,5 @@ In 2024, Amazon Web Services (AWS) published the following video, titled *"Amazo
 - It is given access to fantasy lore, APIs, and a knowledge base to enhance its creative capabilities.
 
 <!-- https://youtu.be/QptuIq9HmUA --><br/>
-https://github.com/user-attachments/assets/48ec953b-3ff8-48ca-aa42-7f7e2ea3a3c4
 
 [387420071-48ec953b-3ff8-48ca-aa42-7f7e2ea3a3c4.webm](https://github.com/user-attachments/assets/ddfb86ad-7e70-47a0-a847-ee1b6c3e60d4)
