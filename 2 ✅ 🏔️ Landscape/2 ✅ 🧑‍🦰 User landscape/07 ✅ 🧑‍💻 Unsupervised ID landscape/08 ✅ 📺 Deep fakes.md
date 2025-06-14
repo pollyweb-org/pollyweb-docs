@@ -8,6 +8,4 @@ In 2024, CGTN (a Chinese media organization) published the following video, titl
 
 <!-- https://youtu.be/alvQtqDkw0I --><br/>
 
-https://github.com/user-attachments/assets/7aa08543-1347-4f66-b391-1bfa2d20ef28
-
 [404684669-7aa08543-1347-4f66-b391-1bfa2d20ef28.webm](https://github.com/user-attachments/assets/bdb471f3-3de9-487a-88ef-8440229321dc)
