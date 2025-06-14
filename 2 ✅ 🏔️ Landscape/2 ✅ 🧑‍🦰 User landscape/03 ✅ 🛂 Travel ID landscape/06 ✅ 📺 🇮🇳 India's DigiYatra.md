@@ -1,4 +1,5 @@
-📺 What is >🇮🇳 India doing around digital travel experience?
+📺 What is 🇮🇳 India doing around digital travel experience?
+---
 
 In 2023, the Rajiv Gandhi International Airport (RGIA) of Hyderabad, India, released the following video titled *"A smoother journey with DigiYatra at #HYDAirport"*.
 
