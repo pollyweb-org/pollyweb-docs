@@ -201,19 +201,3 @@
     - e.g., a financial regulator may only want notifications about changes in domains referencing bank Schema Codes.
 
     ---
-
-1. **How to implement a Listener on AWS?**
-
-    ![](<./📎 Assets/📜 Listeners@AWS.png>)
-
-    Listeners rely on the following components for domain [📨 Messaging](<../41 ✅ 📨 Comms/01 ✅ 📨 Domain Message.md>):
-    - 🏌️‍♂️ **Distributer**: a DNS plus CDN configuration;
-    - ⛳ **Endpoint**: an API endpoint that verifies message signatures;
-    - 📨 **Inbox**: the combination of the Distributer plus the Endpoint;
-    - 📮 **Async Post**: an async message outbound that signs messages.
-
-    Regarding Lambdas:
-    - the reset manifest function must accept files of up to 1 GB;
-    - the replay handler may send up to 1 MB per paginated response.
-
-    ---
