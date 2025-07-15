@@ -33,18 +33,3 @@
     - 🔌 [Integrations](<../../20 ✅ 🧑‍🦰 UI/23 ✅ 💬 Chats/06 ✅ 🔌🎭 Integrator role.md>): synchronous datasets, asynchronous supplies, and streaming endpoints.
 
     ---
-
-1. **How to implement a domain Manifest in AWS?**
-
-    ![](<./📎 Assets/📜 Manifest@AWS.png>)
-
-    This solution relies on the following [📨 Messaging](<../41 ✅ 📨 Comms/01 ✅ 📨 Domain Message.md>) components:
-    - 📨 **Inbox**: an API endpoint with CDN that verifies the sender's signature.
-    - 📮 **Async Post**: an async message outbound component that signs messages. 
-
-    Architecture features: 
-    * allows large Manifest files (up to 1 GB) to be published in its entirety.
-    * allows changes in small Manifest parts (up to 100 KB) to be published with low latency, which is the recommendation for large Manifests that change often.
-    * allows for drift detection when the Manifest is updated in parts.
-
-    ---
