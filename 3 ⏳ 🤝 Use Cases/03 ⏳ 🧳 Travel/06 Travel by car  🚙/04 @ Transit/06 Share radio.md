@@ -1,3 +1,5 @@
+#TODO
+
 Ter um telemovel ligado ao bluetooth do carro, e permitir que outros telemoveis usem o primeiro como proxy para passar musica.
 - enviar um link para partilhar (tipo jam do spotify)
 - pode ser uma lista gerida pelo segundo, o 2nd faz download, e envia o streaming ao primeiro
