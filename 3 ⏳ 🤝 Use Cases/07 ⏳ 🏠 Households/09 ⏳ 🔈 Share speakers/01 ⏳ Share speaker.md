@@ -1,3 +1,5 @@
+#TODO 
+
 Controlar o rádio da sala dos pais: 
 * Fazer pela internet, e não pelo wi-fi (como o Spotify)
 * Receber um token de autorização da casa
