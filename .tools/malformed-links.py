@@ -132,7 +132,8 @@ def remove_numbers(string):
     ret = ret.replace('🇨🇳', '')
 
     import emoji # type: ignore
-    ret = emoji.replace_emoji(ret, replace='')
+    if '✅' in ret or '⏳' in ret:
+        ret = emoji.replace_emoji(ret, replace='')
 
     return ret
 
