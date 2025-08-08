@@ -1,5 +1,6 @@
 import os
 import re
+import itertools
 
 def find_md_files(directory):
     """Recursively find all markdown files in the project directory."""
@@ -133,6 +134,27 @@ def remove_numbers(string):
 
     return ret
 
+def possible_emoji_insertions(path, emoji='⏳'):
+    """
+    Yield all possible paths by inserting the emoji '⏳' into file and each folder of a relative path.
+    Returns the set of all combinations (including the original).
+    """
+    path = path.replace('/', os.sep).replace('\\', os.sep)
+    path_parts = path.split(os.sep)
+    if len(path_parts) == 0:
+        return set([path])
+    combos = []
+    for part in path_parts:
+        part = part.strip()
+        if emoji in part:
+            combos.append([part])
+        else:
+            # try with and without emoji
+            combos.append([part, f"{emoji} {part}"])
+    all_combos = set()
+    for variant in itertools.product(*combos):
+        all_combos.add(os.sep.join(variant))
+    return all_combos
 
 def check_broken_links(md_files, png_files):
     """Check for broken .md links within the project and malformed links."""
@@ -140,7 +162,14 @@ def check_broken_links(md_files, png_files):
     malformed_links = {}
     existing_files = set(md_files + png_files)
     
+    count = 0
     for md_file in md_files:
+        count += 1
+        #if count > 10:
+        #    # stop
+        #    print(f"Checking {count} files, stopping for performance reasons.")
+        #    break
+
         # Read file content
         with open(md_file, 'r', encoding='utf-8') as file:
             content = file.read()
@@ -168,7 +197,6 @@ def check_broken_links(md_files, png_files):
                 suggestion = f'!!!'
                 tip = None
 
-
                 if suggestion == '!!!':
                     # Find a file in the same folder that ends with that link name.
                     # Extract the file name from full_link
@@ -186,7 +214,6 @@ def check_broken_links(md_files, png_files):
                                 tip = f'File in the same folder?'
                                 break
 
-
                 if suggestion == '!!!':
                     # Find the same file with different caps (case-insensitive)
                     # Extract the file name from full_link
@@ -202,7 +229,6 @@ def check_broken_links(md_files, png_files):
                             suggestion = os.path.relpath(suggestion, os.path.dirname(md_file))
                             tip = f'Case mismatch?'
                             break
-
 
                 if suggestion == '!!!':
                     # Find the closest match to the broken link.
@@ -241,6 +267,17 @@ def check_broken_links(md_files, png_files):
                             tip = f'File name match?'
                             break
 
+                # (NEW) Try all possible ⏳ emoji insertions into the link path
+                if suggestion == '!!!':
+                    emoji = '⏳'
+                    rel_link_path = os.path.relpath(full_link, project_directory)
+                    for alt_path in possible_emoji_insertions(rel_link_path, emoji=emoji):
+                        # Form the absolute path
+                        abs_path = os.path.normpath(os.path.join(project_directory, alt_path))
+                        if abs_path in existing_files:
+                            suggestion = os.path.relpath(abs_path, os.path.dirname(md_file))
+                            tip = f"Fix by adding '{emoji}' emoji"
+                            break
 
                 # if link and suggestion are the same, then the suggestion is not found
                 if link == suggestion:
@@ -285,10 +322,7 @@ def print_results(broken_links, malformed_links):
                     file_link = f'[ {file_name} ](<{relative_file}#L{line_num}>)'
                     print(f"\nIn file: {file_link}")
 
-                    #print(f"  - Line {line_num}: Broken link: {link}")
-                    #print(f"  - File path   : <{md_file}>") 
                     print(f"  - Broken link : <{link}>")
-                    #print(f"  - Full link ##.: <{full_link}>")
                     print(f"  - Tip         : {tip}")
                     print(f"  - Suggestion  : <{suggestion}>")
                     
@@ -322,6 +356,7 @@ def print_results(broken_links, malformed_links):
                             with open(md_file, 'r', encoding='utf-8') as file:
                                 content = file.read()
                             new_content = content.replace(f"<{link}>", f"<{suggestion}>")
+                            new_content = new_content.replace(f"({link})", f"({suggestion})") # also fix normal links
                             with open(md_file, 'w', encoding='utf-8') as file:
                                 file.write(new_content)
                             print(f"  - Link fixed! ✅")
