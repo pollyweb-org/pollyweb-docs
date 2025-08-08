@@ -1,0 +1,13 @@
+@startuml Revoke
+
+
+' ----------------------
+
+actor User as user
+participant "Wallet 👱\napp" as wallet
+participant "Notifier 📣\nbff" as notifier
+participant "Broker 🤵\nhost" as broker
+
+
+' ----------------------
+@enduml

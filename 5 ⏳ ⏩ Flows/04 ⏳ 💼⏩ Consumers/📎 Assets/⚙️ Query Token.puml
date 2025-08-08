@@ -1,0 +1,59 @@
+@startuml Wallet: Share Token
+
+
+actor User as user
+participant "Wallet 👱\napp" as wallet
+participant "Notifier 📣\nbff" as notifier
+participant "Broker 🤵\nhost" as broker
+participant "Consumer 💼\ndomain" as consumer
+participant "Issuer 🎴\ndomain" as issuer
+participant "Graph 🕸\ndomain" as graph
+
+' --------------------
+' QUERY
+' --------------------
+
+activate consumer
+
+group Share token
+
+    consumer --> broker: 1. query@
+    deactivate consumer
+
+    activate broker
+        broker -> graph: 2. queryable@ {codes}
+        broker -> graph: 3. translate@ {codes}
+        broker --> notifier: 4. share@
+    deactivate broker
+
+    activate notifier
+        notifier --> wallet
+    deactivate notifier
+
+    activate wallet
+        user --> wallet: share
+        wallet --> consumer: 5. verify@ {tokens}
+    deactivate wallet
+
+    activate consumer
+        consumer -> graph: 6. trusts@ {issuers}
+
+end group 
+
+
+group Async verification
+
+    consumer --> issuer: 7. verify@ 
+    deactivate consumer
+
+    activate issuer
+        issuer -> graph: trusts@ 
+        issuer --> consumer: 8. verified@ 
+    deactivate issuer
+
+    activate consumer   
+    deactivate consumer
+
+end group
+
+@enduml 

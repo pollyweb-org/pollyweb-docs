@@ -1,0 +1,67 @@
+@startuml Goodbye
+' ------------------
+
+actor "User" as user
+participant "Broker 🤵\nhost" as broker
+participant "Host 🤗\ndomain" as host
+participant "Curator 🧚\nagent" as curator
+participant "Ads 👀\nhelper" as ads
+
+
+activate broker
+
+group sort ads
+
+    broker --> ads: 1) advertise@ {context}
+    activate ads
+
+    group time-boxed enrichment with anonymized chat
+    
+        broker --> host: 2) summarize@
+        deactivate broker
+
+        activate host
+            host --> ads: 3) summarized@
+            host --> curator: 4) anonymize@
+        deactivate host
+        
+        activate curator
+            curator --> ads: 5) anonymized@
+        deactivate curator
+
+    end group
+
+    'activate ads
+        ads --> curator: 6) sort@
+    'deactivate ads
+
+    activate curator
+        curator --> ads: 7) sorted@
+    deactivate curator
+
+end group
+
+
+
+group show ads
+
+    activate ads
+        ads --> user: 8) ⏪ prompt {next best actions}
+    deactivate ads
+    
+    ' Answer to reviewer.
+    activate user
+        user --> ads: {user choice}
+    deactivate user
+
+    ' Confirm reviewed to broker.
+    activate ads
+        ads --> broker: 9) promote@ {locator}
+    deactivate ads
+
+    
+end group
+
+
+' ------------
+@enduml 

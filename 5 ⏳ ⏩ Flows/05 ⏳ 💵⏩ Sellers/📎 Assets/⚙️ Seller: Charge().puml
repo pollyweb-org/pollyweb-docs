@@ -1,0 +1,75 @@
+' https://quip.com/5rXfA36af1FM
+
+@startuml
+' ----------------------
+
+box "User" #FFFFFF
+  actor User as user
+  participant "Wallet\n(app)" as wallet
+  participant "Payer\n(vault)" as payer
+  participant "Notifier\n(domain)" as notifier
+  participant "Broker\n(domain)" as broker
+end box
+
+participant "Graph\n(backbone)" as graph
+
+box "Business" #FFFFFF
+  participant "Seller\n(host)" as seller
+  participant "Collector\n(domain)" as collector
+end box
+
+group Ask for the bill
+
+activate seller
+seller --> broker: charge@
+deactivate seller
+
+  activate broker
+  broker --> notifier: charge@
+  deactivate broker
+
+    activate notifier
+    notifier --> wallet
+    deactivate notifier
+
+      activate wallet
+      wallet -> seller: download bill
+      user --> wallet: review()
+
+end group
+
+group Pay for bill
+
+  wallet --> seller: {OK} 
+  deactivate wallet
+
+' ----------------------
+' CHARGE
+' ----------------------
+activate seller
+seller --> broker: charge\n- collectors
+deactivate seller
+activate broker
+
+loop for each collector
+
+activate broker
+broker -> graph: trustable \n- collector \n- payers 
+activate graph
+broker <- graph: {payer sets}
+deactivate graph
+deactivate broker
+
+end loop
+
+broker -> broker: merge(sets)
+broker --> notifier: charge(payers)
+deactivate
+activate notifier
+notifier --> wallet: charge(...)
+deactivate notifier
+
+end group
+
+' ----------------------
+@enduml 

@@ -1,0 +1,32 @@
+@startuml List Chats
+
+' -------------
+actor User as user
+
+box "User Interface (UI)"  #FFFFFF
+    participant "Wallet 👱\napp" as wallet
+    'participant "Notifier 📣\nbff" as notifier
+    participant "Broker 🤵\nhost" as broker
+end box
+
+' USER
+user --> wallet: chats
+
+' WALLET
+activate wallet
+
+    alt not cached?
+
+        wallet -> broker: 1. chats@
+
+        ' BROKER
+        activate broker
+            broker -> wallet: {chats}
+        deactivate broker
+
+    end alt
+
+deactivate wallet
+
+' -------------
+@enduml 

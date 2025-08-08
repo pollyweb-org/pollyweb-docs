@@ -1,0 +1,49 @@
+@startuml Introduce
+
+participant "Wallet 👱\napp" as wallet
+participant "Notifier 📣\nbff" as notifier
+participant "Broker 🤵\nhost" as broker
+participant "Finder 🔎\nvault" as finder
+participant "Reviewer ⭐\nvault" as reviewer
+participant "Graph 🕸\ndomain" as graph
+'participant "Host 🤗\ndomain" as host
+
+
+
+activate broker
+
+    broker --> finder: introduce@
+    deactivate broker
+
+    activate finder
+
+      finder -> reviewer: reviews@
+      activate reviewer
+        reviewer -> finder: {reviews}
+      deactivate reviewer
+
+      finder -> graph: identity@
+      activate graph
+        graph -> finder: {identity}
+      deactivate graph
+
+      finder --> broker: prompt@
+      activate broker
+        broker --> notifier: prompt@
+      deactivate broker
+
+      activate notifier
+        notifier --> wallet
+      deactivate notifier
+
+      finder --> broker: introduced@
+      
+    deactivate finder
+    activate broker
+
+
+
+
+  
+' ------------
+@enduml

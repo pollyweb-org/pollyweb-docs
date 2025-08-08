@@ -1,0 +1,34 @@
+@startuml Binds
+
+' -------------
+actor "User" as user
+participant "Wallet 👱\napp" as wallet
+participant "Broker 🤵\nhost" as broker
+ 
+' -------------
+' USER
+' -------------
+user --> wallet: binds
+
+
+alt if not cached
+
+    ' -------------
+    ' WALLET
+    ' -------------
+    activate wallet
+        wallet -> broker: 1) binds@
+    activate broker
+
+    ' -------------
+    ' BROKER
+    ' -------------
+    broker -> wallet: {binds}
+    deactivate broker
+    deactivate wallet
+    deactivate user
+
+end group
+
+' -------------
+@enduml 

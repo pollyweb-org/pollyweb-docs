@@ -1,0 +1,30 @@
+
+@startuml Update binds
+
+ 
+' ---------------------
+actor User as user
+participant "Wallet 👱\napp" as wallet
+participant "Notifier 📣\nbff" as notifier
+participant "Broker 🤵\nhost" as broker
+
+
+activate broker
+   
+    broker --> notifier: 1) updated 🐌  
+    
+deactivate broker
+
+activate notifier
+    notifier --> wallet
+deactivate notifier
+
+activate wallet
+wallet -> broker: 2) binds 🚀 
+activate broker
+    broker -> wallet: { binds }
+deactivate broker
+deactivate wallet
+
+' ---------------------
+@enduml 
