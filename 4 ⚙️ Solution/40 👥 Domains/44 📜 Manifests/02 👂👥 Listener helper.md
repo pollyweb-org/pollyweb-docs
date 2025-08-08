@@ -5,13 +5,13 @@
 
 1. **What is a Listener domain in NLWeb?**
 
-    A Listener is a [🌬️ Streamer](<../41 ✅ 📨 Comms/02 ✅ 🌬️🎭 Streamer role.md>) domain that propagates [Manifest 📜](<01 ✅ 📜 Domain Manifest.md>) updates. 
+    A Listener is a [🌬️ Streamer](<../41 📨 Comms/02 🌬️🎭 Streamer role.md>) domain that propagates [Manifest 📜](<01 📜 Domain Manifest.md>) updates. 
 
     ---
 
 1. **Why are Listeners necessary?**
 
-    NLWeb relies on a distributed cache of [Graphs 🕸](<03 ✅ 🕸👥 Graph helper.md>), which allows Manifest-owners to go offline without impacting whoever needs the information contained in the Manifest. 
+    NLWeb relies on a distributed cache of [Graphs 🕸](<03 🕸👥 Graph helper.md>), which allows Manifest-owners to go offline without impacting whoever needs the information contained in the Manifest. 
     * Listeners ensure that the cache in these Graphs is updated in near-real-time by propagating domain update notifications to Graphs. 
 
     ---
@@ -19,7 +19,7 @@
 1. **How aren't Listeners and Graphs the same?**
 
     Because of the separation of responsibilities. 
-    * While [Graphs 🕸](<03 ✅ 🕸👥 Graph helper.md>) can be built by anyone, Listeners are a lightweight layer managed by a coordinated consortium of cloud providers.
+    * While [Graphs 🕸](<03 🕸👥 Graph helper.md>) can be built by anyone, Listeners are a lightweight layer managed by a coordinated consortium of cloud providers.
 
     ---
 
@@ -39,7 +39,7 @@
 
 1. **What is contained in a Manifest-changed event?**
 
-    An event from a domain comes inside an [envelope](<../41 ✅ 📨 Comms/01 ✅ 📨 Domain Message.md>) containing:
+    An event from a domain comes inside an [envelope](<../41 📨 Comms/01 📨 Domain Message.md>) containing:
     - the CRUD change (e.g., CREATE, UPDATE, DELETE, RESET)
     - the path changed (e.g., `/Code/SSR/MEAL`)
     - the content of the Manifest that changed, if not deleted
@@ -51,8 +51,8 @@
 
     Paths allowed in Manifest-changed events are:
     * `Identity`, encompassing the Identity object of a Manifest;
-    * `Trust/{key}`, containing a single [trust 👍](<../43 ✅ 👍 Trusts/01 ✅ 👍 Domain Trust.md>) relationship identified by a unique key (e.g., `ssr-meals-airlines`);
-    * `Code/{key}`, containing a single [Schema Code 🧩](<../../20 ✅ 🧑‍🦰 UI/24 ✅ 🗄️ Vaults/02 ✅ 🧩 Schema Code.md>) definition identified by a unique key (e.g., `/SSR/MEAL`);
+    * `Trust/{key}`, containing a single [trust 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>) relationship identified by a unique key (e.g., `ssr-meals-airlines`);
+    * `Code/{key}`, containing a single [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) definition identified by a unique key (e.g., `/SSR/MEAL`);
     * `Code/{key}:{version}`, containing a version of the schema definition for code identified (e.g., `Code/SSR/MEAL:1.0`);
     * `Delegate/{key}`, for a delegation identified by a unique key;
     * `Offer/{key}`, for an offer identified by a unique key.
@@ -65,7 +65,7 @@
     - 1/ is the schema of the event correct?
     - 2/ is the size informed smaller than maximum allowed for events?
     - 3/ does the size of the change match the size informed?
-    - 4/ does the path informed match a valid [Manifest 📜](<01 ✅ 📜 Domain Manifest.md>) schema part?
+    - 4/ does the path informed match a valid [Manifest 📜](<01 📜 Domain Manifest.md>) schema part?
     - 5/ is the schema of change correct for the path informed?
 
     ---
@@ -73,7 +73,7 @@
 1. **How can domains know that their updates were rejected?**
 
     Listeners raise alerts when rejecting events. 
-    * Interested domains should subscribe to that [🌬️ Streamer](<../41 ✅ 📨 Comms/02 ✅ 🌬️🎭 Streamer role.md>), filtering the domains they're interested in receiving alerts about.
+    * Interested domains should subscribe to that [🌬️ Streamer](<../41 📨 Comms/02 🌬️🎭 Streamer role.md>), filtering the domains they're interested in receiving alerts about.
     * For privacy reasons, some alerts are only be pushed to the subscriber domain that is referenced in the alert.
 
     ---
@@ -81,7 +81,7 @@
 1. **Do Listeners read domain Manifests from the domain?**
 
     Not while reading events. 
-    * [Manifest 📜](<01 ✅ 📜 Domain Manifest.md>) events contain the content changed. 
+    * [Manifest 📜](<01 📜 Domain Manifest.md>) events contain the content changed. 
     * However, domains may explicitly request Listeners to reset the domain's Manifest based on a content located in a given URL, as long as the content doesn't reach a maximum size for a Manifest.
 
     ---
@@ -101,7 +101,7 @@
 
     * **Simplicity**: by limiting the size of the events, NLWeb allows changes to be propagated across many cloud providers without the need for round trips (i.e., returning to the origin to download the content).
 
-    * **Scalability**: multiple small events can scale horizontally, virtually to infinite, by using cloud functions with small memory footprints - otherwise, single download of the [Manifest 📜](<01 ✅ 📜 Domain Manifest.md>) of an [🏛️ Authority](<../43 ✅ 👍 Trusts/02 ✅ 🏛️👥 Authority helper.md>) could require several gigabytes of memory to be parsed.
+    * **Scalability**: multiple small events can scale horizontally, virtually to infinite, by using cloud functions with small memory footprints - otherwise, single download of the [Manifest 📜](<01 📜 Domain Manifest.md>) of an [🏛️ Authority](<../43 👍 Trusts/02 🏛️👥 Authority helper.md>) could require several gigabytes of memory to be parsed.
 
     ---
 
@@ -114,10 +114,10 @@
 
 1. **How can domains keep Manifest-change events small?**
 
-    Domains can apply the following techniques to keep [Manifest 📜](<01 ✅ 📜 Domain Manifest.md>) parts small:
+    Domains can apply the following techniques to keep [Manifest 📜](<01 📜 Domain Manifest.md>) parts small:
     - follow the Manifest Schema to break the Manifest into valid paths (e.g., `Identity`);
     - separate lists into item-level parts (e.g., for `Trusts`, `Codes`, and `Delegates`);
-    - further break [Schema Codes 🧩](<../../20 ✅ 🧑‍🦰 UI/24 ✅ 🗄️ Vaults/02 ✅ 🧩 Schema Code.md>) by using Code references;
+    - further break [Schema Codes 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) by using Code references;
     - write each part to key-value stores that support change notifications (e.g., object stores and NoSQL databases);
     - when creating and updating Manifest parts, keep each part below 200 KB.
     
@@ -132,7 +132,7 @@
 
 1. **What's the retention commitment of Listeners?**
 
-    Listeners keep all changes from all domain [Manifests 📜](<01 ✅ 📜 Domain Manifest.md>) and public keys indefinitely. 
+    Listeners keep all changes from all domain [Manifests 📜](<01 📜 Domain Manifest.md>) and public keys indefinitely. 
 
     ---
 
@@ -150,7 +150,7 @@
 
 1. **What if a subscriber goes offline?**
 
-    Listeners have a retry policy, as defined by the Streamer role. Nonetheless, subscribers are advised to bind to [⏳ Buffer](<../41 ✅ 📨 Comms/03 ✅ ⏳👥 Buffer helper.md>) domains to increase resilience.
+    Listeners have a retry policy, as defined by the Streamer role. Nonetheless, subscribers are advised to bind to [⏳ Buffer](<../41 📨 Comms/03 ⏳👥 Buffer helper.md>) domains to increase resilience.
 
     ---
 
@@ -183,7 +183,7 @@
 
 1. **How to identify if a Listener was compromised?**
 
-    [Firewalls 🔥](<../43 ✅ 👍 Trusts/03 ✅ 🔥👥 Firewall helper.md>) monitor the behavior of any Listener and match domain information with other Listeners. If necessary, Firewalls immediately revoke a Listener's [trust 👍](<../43 ✅ 👍 Trusts/01 ✅ 👍 Domain Trust.md>).
+    [Firewalls 🔥](<../43 👍 Trusts/03 🔥👥 Firewall helper.md>) monitor the behavior of any Listener and match domain information with other Listeners. If necessary, Firewalls immediately revoke a Listener's [trust 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>).
 
     ---
 

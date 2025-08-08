@@ -5,7 +5,7 @@
 
     ![](<./📎 Assets/📨 Signature Domains.png>)
 
-    The signature has the form of a [Token 🎫](<../../20 ✅ 🧑‍🦰 UI/27 ✅ 🎫 Tokens/01 ✅ 🎫 Token.md>) added as metadata to the file. 
+    The signature has the form of a [Token 🎫](<../../20 🧑‍🦰 UI/27 🎫 Tokens/01 🎫 Token.md>) added as metadata to the file. 
     
     To sign a file, sender domains: 
     - 1/ calculate the hash of the file without the signature; 
@@ -18,16 +18,16 @@
 1. **How do receiver domains verify a sender's signature**?
 
     To verify a file, receiver domains: 
-    - 1/ calculate the hash of the file without the signature [Token 🎫](<../../20 ✅ 🧑‍🦰 UI/27 ✅ 🎫 Tokens/01 ✅ 🎫 Token.md>) and compare it with the hash in the signature; 
+    - 1/ calculate the hash of the file without the signature [Token 🎫](<../../20 🧑‍🦰 UI/27 🎫 Tokens/01 🎫 Token.md>) and compare it with the hash in the signature; 
     - 2/ verify the Token. 
 
     ---
 
 1. **What if the public key of the sender changes?**
 
-    NLWeb supports the rotation of domain DKIM public keys for any [Token 🎫](<../../20 ✅ 🧑‍🦰 UI/27 ✅ 🎫 Tokens/01 ✅ 🎫 Token.md>), including digital signatures. 
+    NLWeb supports the rotation of domain DKIM public keys for any [Token 🎫](<../../20 🧑‍🦰 UI/27 🎫 Tokens/01 🎫 Token.md>), including digital signatures. 
     
-    See [Issuers 🎴](<../../20 ✅ 🧑‍🦰 UI/27 ✅ 🎫 Tokens/02 ✅ 🎴🎭 Issuer role.md>) for details on how to rotate public keys supported with the support of [Listeners 👂](<../44 ✅ 📜 Manifests/02 ✅ 👂👥 Listener helper.md>) and [Graphs 🕸](<../44 ✅ 📜 Manifests/03 ✅ 🕸👥 Graph helper.md>).
+    See [Issuers 🎴](<../../20 🧑‍🦰 UI/27 🎫 Tokens/02 🎴🎭 Issuer role.md>) for details on how to rotate public keys supported with the support of [Listeners 👂](<../44 📜 Manifests/02 👂👥 Listener helper.md>) and [Graphs 🕸](<../44 📜 Manifests/03 🕸👥 Graph helper.md>).
 
     ---
 
@@ -51,6 +51,6 @@
 
 1. **Can senders sign files with an expiration date?**
 
-    Yes. See [Issuers 🎴](<../../20 ✅ 🧑‍🦰 UI/27 ✅ 🎫 Tokens/02 ✅ 🎴🎭 Issuer role.md>) for details on how to create temporary [Tokens 🎫](<../../20 ✅ 🧑‍🦰 UI/27 ✅ 🎫 Tokens/01 ✅ 🎫 Token.md>).
+    Yes. See [Issuers 🎴](<../../20 🧑‍🦰 UI/27 🎫 Tokens/02 🎴🎭 Issuer role.md>) for details on how to create temporary [Tokens 🎫](<../../20 🧑‍🦰 UI/27 🎫 Tokens/01 🎫 Token.md>).
 
     ---

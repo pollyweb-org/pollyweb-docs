@@ -2,6 +2,8 @@ import os
 import re
 import itertools
 
+import emoji
+
 def find_md_files(directory):
     """Recursively find all markdown files in the project directory."""
     md_files = []
@@ -165,7 +167,7 @@ def check_broken_links(md_files, png_files):
     count = 0
     for md_file in md_files:
         count += 1
-        if count > 10:
+        if count > 200:
             # stop
             print(f"Checking {count} files, stopping for performance reasons.")
             break
@@ -329,6 +331,15 @@ def print_results(broken_links, malformed_links):
 
                     # Ask the user if they want to fix the link
                     if True and suggestion != '!!!':
+
+                        #print('==>' + remove_numbers(link.replace('<./', '').replace('../', '').replace('./', '').replace('<', '').replace('✅ ', '').replace('⏳ ', '').replace(' ', '')))
+                        #print('==>' + remove_numbers(suggestion.replace('<./', '').replace('../', '').replace('<', '').replace(' ', '')))
+                        
+                        if '✅ ' in link or '⏳ ' in link:
+                            # replace auto-suggested when there's only missing ✅ emojis
+                            if remove_numbers(suggestion.replace('<./', '').replace('../', '').replace('<', '').replace(' ', '')).endswith( \
+                            remove_numbers(link.replace('<./', '').replace('../', '').replace('./', '').replace('<', '').replace('✅ ', '').replace('⏳ ', '').replace(' ', ''))):
+                                fix_link = 'y'
                         
                         if suggestion == f'../{link}':
                             fix_link = 'y'
@@ -348,11 +359,9 @@ def print_results(broken_links, malformed_links):
                             fix_link = 'y'
                         elif yes_memory and (link, suggestion) in yes_memory:
                             fix_link = 'y'
-                        # replace auto-suggested when there's only missing ✅ emojies
-                        elif True and suggestion == link.replace('✅', '').replace('⏳', ''):
-                            fix_link = 'y'
                         else: 
                             fix_link = input("  - Do you want to fix this link? (y/n): ")
+                        
 
                         if fix_link.lower() == 'y':
                             # Replace the broken link with the new link in the file
@@ -547,6 +556,7 @@ def runit(project_directory):
 
     # Check for both broken and malformed links
     broken_links, malformed_links = check_broken_links(md_files, png_files)
+    
 
     # Print the results to "link-issues.md"
     print_results(broken_links, malformed_links)

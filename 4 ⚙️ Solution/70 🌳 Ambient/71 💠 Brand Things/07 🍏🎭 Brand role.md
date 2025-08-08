@@ -1,11 +1,11 @@
 🍏 Brand domain role FAQ
 ===
 
-![](<./00 ✅ 📎 Assets/💠 Brand.png>)
+![](<00 📎 Assets/💠 Brand.png>)
 
 1. **What is a Brand domain role in NLWeb?**
 
-    A Brand is a domain that orders [Things 💠](<01 ✅ 💠 Thing.md>) from a [Wand 🪄](<09 ✅ 🪄🏭 Wand supplier.md>) in order to enhance the Brand's products.
+    A Brand is a domain that orders [Things 💠](<01 💠 Thing.md>) from a [Wand 🪄](<09 🪄🏭 Wand supplier.md>) in order to enhance the Brand's products.
 
     ---
 
@@ -20,7 +20,7 @@
 
 1. **How can Brands print NFC/QR tags for their Things?**
 
-    Brands can either print the Wand's [Locators 🔆](<../../20 ✅ 🧑‍🦰 UI/22 ✅ 🔆 Locators/01 ✅ 🔆 Locator.md>) by themselves, or they can order Locators from [🖨️ Printers](<08 ✅ 🖨️🏭 Printer supplier.md>).
+    Brands can either print the Wand's [Locators 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) by themselves, or they can order Locators from [🖨️ Printers](<08 🖨️🏭 Printer supplier.md>).
 
     ---
 

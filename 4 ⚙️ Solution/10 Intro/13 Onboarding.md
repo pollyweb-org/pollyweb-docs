@@ -6,9 +6,9 @@ Onboarding FAQ
 
 1. **What does a user need to engage in an NLWeb chat?**
 
-    To engage in a NLWeb [Chat 💬](<../20 ✅ 🧑‍🦰 UI/23 ✅ 💬 Chats/02 ✅ 🧑‍🦰💬 Wallet chats.md>), a user needs an NLWeb [Wallet 🧑‍🦰](<../20 ✅ 🧑‍🦰 UI/01 ✅ 🧑‍🦰 Wallets/01 ✅ 🧑‍🦰 Wallet app.md>).
+    To engage in a NLWeb [Chat 💬](<../20 🧑‍🦰 UI/23 💬 Chats/02 🧑‍🦰💬 Wallet chats.md>), a user needs an NLWeb [Wallet 🧑‍🦰](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
     - This is any app that supports the NLWeb protocol.
-    - The user experience is similar to Meta's [WhatsApp](<../../2 ✅ 🏔️ Landscape/1 ✅ 💼 Business landscape/10 ✅ 💬 Chatting landscape/06 ✅ 📺 WhatsApp business.md>). 
+    - The user experience is similar to Meta's [WhatsApp](<../../2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/06 📺 WhatsApp business.md>). 
 
     ---
 
@@ -24,19 +24,19 @@ Onboarding FAQ
 1. **What is the effort for organizations to onboard NLWeb?**
 
     The main effort will be on enablement, workflow customization, and integration with the organization's downstream services. 
-    - Organizations can leverage the NLWeb Stack to bootstrap, which includes a [Wallet 🧑‍🦰](<../20 ✅ 🧑‍🦰 UI/01 ✅ 🧑‍🦰 Wallets/01 ✅ 🧑‍🦰 Wallet app.md>), deployment services, and support services. 
+    - Organizations can leverage the NLWeb Stack to bootstrap, which includes a [Wallet 🧑‍🦰](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), deployment services, and support services. 
 
 
     ---
 
 1. **What are the steps for a Seller to onboard NLWeb?**
 
-    1. Bootstrap the [Seller 💵](<../30 ⏳ 🫥 Agents/04 ✅ 💳 Payers/02 ✅ 💵🎭 Seller role.md>) domain (e.g., nlweb.any-seller.com);
-    2. Integrate the [Collector 🏦](<../30 ⏳ 🫥 Agents/04 ✅ 💳 Payers/03 ✅ 🏦👥 Collector helper.md>) with the organization's bank and ERP;
-    3. Configure [Host 🤗](<../20 ✅ 🧑‍🦰 UI/23 ✅ 💬 Chats/03 ✅ 🤗🎭 Host role.md>) workflows integrated with the organization's IT;
-    4. Publish a [Manifest 📜](<../40 ✅ 👥 Domains/44 ✅ 📜 Manifests/01 ✅ 📜 Domain Manifest.md>) with [Trusts 👍](<../40 ✅ 👥 Domains/43 ✅ 👍 Trusts/01 ✅ 👍 Domain Trust.md>) to required domains;
-    5. Order a batch of physical [NFC/QR locators 🔆](<../20 ✅ 🧑‍🦰 UI/22 ✅ 🔆 Locators/01 ✅ 🔆 Locator.md>) from a [Printer 🖨️](<08 ✅ 🖨️🏭 Printer supplier.md>);
-    6. Deploy [NFC/QR locators 🔆](<../20 ✅ 🧑‍🦰 UI/22 ✅ 🔆 Locators/01 ✅ 🔆 Locator.md>) (e.g., web, app, stores, products).
+    1. Bootstrap the [Seller 💵](<../30 🫥 Agents/04 💳 Payers/02 💵🎭 Seller role.md>) domain (e.g., nlweb.any-seller.com);
+    2. Integrate the [Collector 🏦](<../30 🫥 Agents/04 💳 Payers/03 🏦👥 Collector helper.md>) with the organization's bank and ERP;
+    3. Configure [Host 🤗](<../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) workflows integrated with the organization's IT;
+    4. Publish a [Manifest 📜](<../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) with [Trusts 👍](<../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) to required domains;
+    5. Order a batch of physical [NFC/QR locators 🔆](<../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) from a [Printer 🖨️](<../70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer supplier.md>);
+    6. Deploy [NFC/QR locators 🔆](<../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) (e.g., web, app, stores, products).
 
     ---
 

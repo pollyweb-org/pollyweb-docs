@@ -3,26 +3,26 @@
 
 1. **What is a Padlock in NLWeb?**
 
-    Padlocks are offline devices (i.e., internet connectivity) that open locks when users use a [🔑 KeyHolder](<02 ✅ 🔑💠 Keyholder device.md>) device to tap on the Padlock.
+    Padlocks are offline devices (i.e., internet connectivity) that open locks when users use a [🔑 KeyHolder](<02 🔑💠 Keyholder device.md>) device to tap on the Padlock.
 
     ---
 
 1. **How does a Padlock interact with a user?**
 
-    Padlocks use passive NFC emulation to wait for a contact from an active NFC scanner on a [🔑 KeyHolder](<02 ✅ 🔑💠 Keyholder device.md>).
+    Padlocks use passive NFC emulation to wait for a contact from an active NFC scanner on a [🔑 KeyHolder](<02 🔑💠 Keyholder device.md>).
 
-    ![](<./00 ✅ 📎 Assets/🔒 Padlock.png>)
+    ![](<00 📎 Assets/🔒 Padlock.png>)
 
     ---
 
 1. **How does a Padlock decide when to open a lock?**
 
-    Users' [🔑 KeyHolders](<02 ✅ 🔑💠 Keyholder device.md>) first scan the Padlock, receiving an NFC response with Padlock's [Locator 🔆](<../../20 ✅ 🧑‍🦰 UI/22 ✅ 🔆 Locators/01 ✅ 🔆 Locator.md>), which contains:
-    - a fixed Padlock [Schema Code 🧩](<../../20 ✅ 🧑‍🦰 UI/24 ✅ 🗄️ Vaults/02 ✅ 🧩 Schema Code.md>) identifier 
-    - the domain of the Padlock's [🔐 KeyMaker](<05 ✅  🔐🏭 Keymaker supplier.md>) (e.g., `any-keymaker.com`) 
+    Users' [🔑 KeyHolders](<02 🔑💠 Keyholder device.md>) first scan the Padlock, receiving an NFC response with Padlock's [Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>), which contains:
+    - a fixed Padlock [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) identifier 
+    - the domain of the Padlock's [🔐 KeyMaker](<05  🔐🏭 Keymaker supplier.md>) (e.g., `any-keymaker.com`) 
     - the resource key of the PadLock in the KeyMaker (e.g.,`padlock-12345678`)
     
-    The Keyholder looks up the the Padlock's [Locator 🔆](<../../20 ✅ 🧑‍🦰 UI/22 ✅ 🔆 Locators/01 ✅ 🔆 Locator.md>) in its local key cache, and sends a new NFC command with the key details:
+    The Keyholder looks up the the Padlock's [Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) in its local key cache, and sends a new NFC command with the key details:
     - the encrypted security sequence number for the PadLock (e.g., `1234567890`)
     - the encrypted passkey for that sequence number (e.g., `ABCDEF`)
     - the encrypted sequence expiration interval (e.g., 24 hours)
@@ -32,7 +32,7 @@
     - confirm if the received sequence if the same of bigger than the last one stored;
     - if the sequence is the same, confirm that it has not expired;
     - if all steps above were successful, then the Padlock opens the lock;
-    - sends an NFC response back to the [🔑 KeyHolder](<02 ✅ 🔑💠 Keyholder device.md>) confirming the success and passing the battery status.
+    - sends an NFC response back to the [🔑 KeyHolder](<02 🔑💠 Keyholder device.md>) confirming the success and passing the battery status.
 
     ---
 
@@ -52,9 +52,9 @@
 
     No.
     - A typical scenario would be a firefighter needing access to any fire fighting material, regardless of what Padlock would be locking it.
-    - These scenarios require a [Token 🎫](<../../20 ✅ 🧑‍🦰 UI/27 ✅ 🎫 Tokens/01 ✅ 🎫 Token.md>) and are not supported because Padlocks have no access to the internet, so they cannot verify Tokens.
-    - Padlocks can only be unlock by other individuals when the owner explicitly shares the key to the Padlock via their [🌼 Keybox](<04 ✅ 🌼🗄️ Keybox vault.md>).
-    - Alternatively, organizations should leverage [🎬 Relays](<../../60 ⏳ 🧰 Edge/65 ⏳ 🎬 Relayers/04 ⏳ 🎬🔌 Relay device.md>) to achieve dynamic access control via Tokens.
+    - These scenarios require a [Token 🎫](<../../20 🧑‍🦰 UI/27 🎫 Tokens/01 🎫 Token.md>) and are not supported because Padlocks have no access to the internet, so they cannot verify Tokens.
+    - Padlocks can only be unlock by other individuals when the owner explicitly shares the key to the Padlock via their [🌼 Keybox](<04 🌼🗄️ Keybox vault.md>).
+    - Alternatively, organizations should leverage [🎬 Relays](<../../60 🧰 Edge/65 🎬 Relayers/04 🎬🔌 Relay device.md>) to achieve dynamic access control via Tokens.
 
     ---
 
@@ -66,29 +66,29 @@
 
 1. **How do Padlocks directly open a physical lock?**
 
-    ![](<./00 ✅ 📎 Assets/🔒 Padlock$Briefcase.png>)
+    ![](<00 📎 Assets/🔒 Padlock$Briefcase.png>)
 
     To directly open a lock: 
     - the Padlock uses its power to mechanically move the lock;
-    - typical scenarios include [🍏 Branded](<../71 ✅ 💠 Brand Things/07 ✅ 🍏🎭 Brand role.md>) transportation bags and gym lockers;
+    - typical scenarios include [🍏 Branded](<../71 💠 Brand Things/07 🍏🎭 Brand role.md>) transportation bags and gym lockers;
     - if the lock is in a door, then the power may not be enough to move it.
 
     ---
 
 1. **How do Padlocks indirectly open an external lock?**
 
-    ![](<./00 ✅ 📎 Assets/🔒 Padlock$Door.png>)
+    ![](<00 📎 Assets/🔒 Padlock$Door.png>)
 
     To indirectly open a lock: 
     - the Padlock acts like a relay by sending a low-voltage signal to an external electrical lock, typically connected to the electric grid;
     - locks powered by battery are discouraged because they miss low-power alerts;
-    - typical scenarios include residential or office doors and gates, where a [Brand 🍏](<../71 ✅ 💠 Brand Things/07 ✅ 🍏🎭 Brand role.md>) assembles and sells a door kit that is installed by a professional builder.
+    - typical scenarios include residential or office doors and gates, where a [Brand 🍏](<../71 💠 Brand Things/07 🍏🎭 Brand role.md>) assembles and sells a door kit that is installed by a professional builder.
 
     ---
 
 1. **When does a Padlock considers a sequence expired?**    
 
-    NLWeb advocates for 24 horas, although [🔐 KeyMakers](<05 ✅  🔐🏭 Keymaker supplier.md>) may define different intervals or allow Padlock owners to set their own expiration interval.
+    NLWeb advocates for 24 horas, although [🔐 KeyMakers](<05  🔐🏭 Keymaker supplier.md>) may define different intervals or allow Padlock owners to set their own expiration interval.
 
     ---
 
@@ -98,13 +98,13 @@
     - 1/ a read only set by the manufacturer, and
     - 2/ a non-volatile writable memory that survives survives power loss (e.g., NVRAM, FRAM).
 
-    In readonly memory, a Padlock stores factory settings set by the [🔐 KeyMaker](<05 ✅  🔐🏭 Keymaker supplier.md>):
+    In readonly memory, a Padlock stores factory settings set by the [🔐 KeyMaker](<05  🔐🏭 Keymaker supplier.md>):
     - the domain of the KeyMaker (e.g., `any-keymaker.com`)
     - the resource key of the Padlock in the KeyMaker (e.g., `padlock-12345678`)
     - the private certificate of the Padlock.
     - the rotation rules of the Padlock.
 
-    In non-volatile writable memory, a Padlock stores dynamic data sent by [🔑 KeyHolders](<02 ✅ 🔑💠 Keyholder device.md>):
+    In non-volatile writable memory, a Padlock stores dynamic data sent by [🔑 KeyHolders](<02 🔑💠 Keyholder device.md>):
     - the last received sequence,to avoid replay attacks (e.g., `1234567890`);
     - the timestamp of last received sequence, to expire the sequence after a while;
     - the sequence expiration interval (e.g., 24 hours).
@@ -122,7 +122,7 @@
 1. **How do Padlocks report on low battery ?**
 
     Padlocks  use the following mechanisms for alerting on low-power:
-    - 1/ when opening a lock, Padlocks notify their [🔐 KeyMaker](<05 ✅  🔐🏭 Keymaker supplier.md>) via the user's [🔑 KeyHolder](<02 ✅ 🔑💠 Keyholder device.md>) device;
+    - 1/ when opening a lock, Padlocks notify their [🔐 KeyMaker](<05  🔐🏭 Keymaker supplier.md>) via the user's [🔑 KeyHolder](<02 🔑💠 Keyholder device.md>) device;
     - 2/ Padlocks can have a led that blinks on low-power, albeit draining faster.
 
     ---
@@ -133,6 +133,6 @@
 
     - if the Padlock is a relay to an external lock (e.g., building door), then the external lock should have its own traditional key.
 
-    - if the Padlock has an integrated lock (e.g., gym locker), then it was sold with a traditional key as a backup mechanism - this keys come with an embedded [🔆 NFC Locator](<../../20 ✅ 🧑‍🦰 UI/22 ✅ 🔆 Locators/01 ✅ 🔆 Locator.md>) that users can scan to ask the key's [🔐 KeyMaker](<05 ✅  🔐🏭 Keymaker supplier.md>) what the key is for (e.g., `what's the code written in the Padlock of this key?`).
+    - if the Padlock has an integrated lock (e.g., gym locker), then it was sold with a traditional key as a backup mechanism - this keys come with an embedded [🔆 NFC Locator](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) that users can scan to ask the key's [🔐 KeyMaker](<05  🔐🏭 Keymaker supplier.md>) what the key is for (e.g., `what's the code written in the Padlock of this key?`).
 
     ---

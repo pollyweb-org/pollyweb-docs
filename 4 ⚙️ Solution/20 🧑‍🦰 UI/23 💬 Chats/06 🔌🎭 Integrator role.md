@@ -11,7 +11,7 @@
 
 1. **How do Integrators publicize their API?**
 
-    Integrators publicize their API endpoints and schemas in their [Manifests 📜](<../../40 ✅ 👥 Domains/44 ✅ 📜 Manifests/01 ✅ 📜 Domain Manifest.md>).
+    Integrators publicize their API endpoints and schemas in their [Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>).
 
     ---
 
@@ -24,15 +24,15 @@
     - **Outputs**: definitions of possible outputs.
 
     Endpoints are then implemented by specific roles:
-    - 🪣 [Dataset](<05 ✅ 🪣🎭 Dataset role.md>): for dataset requests;
-    - 🏭 [Supplier](<../../30 ⏳ 🫥 Agents/06 ✅ 🛎️ Concierges/02 ✅ 🏭🎭 Supplier role.md>): for asynchronous requests with status updates;
-    - 🌬️ [Streamer](<../../40 ✅ 👥 Domains/41 ✅ 📨 Comms/02 ✅ 🌬️🎭 Streamer role.md>): for event streaming.
+    - 🪣 [Dataset](<05 🪣🎭 Dataset role.md>): for dataset requests;
+    - 🏭 [Supplier](<../../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>): for asynchronous requests with status updates;
+    - 🌬️ [Streamer](<../../40 👥 Domains/41 📨 Comms/02 🌬️🎭 Streamer role.md>): for event streaming.
 
     ---
 
 1. **How can Integrators charge other domains?**
 
-    Integrator domains can leverage [Biller 🤝](<../../30 ⏳ 🫥 Agents/04 ✅ 💳 Payers/04 ✅ 🤝👥 Biller helper.md>) domains for managing charges.
+    Integrator domains can leverage [Biller 🤝](<../../30 🫥 Agents/04 💳 Payers/04 🤝👥 Biller helper.md>) domains for managing charges.
 
     ---
 

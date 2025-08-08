@@ -5,21 +5,21 @@
 
 1. **What is a Streamer domain role in NLWeb?**
 
-    A Streamer is an [🪢 Integrator](<../../20 ✅ 🧑‍🦰 UI/23 ✅ 💬 Chats/06 ✅ 🔌🎭 Integrator role.md>) domain that pushes events to subscriber domains.
+    A Streamer is an [🪢 Integrator](<../../20 🧑‍🦰 UI/23 💬 Chats/06 🔌🎭 Integrator role.md>) domain that pushes events to subscriber domains.
 
     ---
 
 1. **What are examples of streams?**
 
-    - [Graphs 🕸](<../44 ✅ 📜 Manifests/03 ✅ 🕸👥 Graph helper.md>) subscribe to Manifest updates from [Listeners 👂](<../44 ✅ 📜 Manifests/02 ✅ 👂👥 Listener helper.md>) to build their graph databases.
-    - [Finders 🔎](<../../30 ⏳ 🫥 Agents/10 ⏳ 🔎 Finders/02 ⏳ 🔎🫥 Finder vault.md>) subscribe to [Graphs 🕸](<../44 ✅ 📜 Manifests/03 ✅ 🕸👥 Graph helper.md>), [Advertisers 👀](<../../30 ⏳ 🫥 Agents/10 ⏳ 🔎 Finders/03 ⏳ 👀👥 Advertiser helper.md>), and [Reviewers ⭐](<../../30 ⏳ 🫥 Agents/10 ⏳ 🔎 Finders/01 ✅ ⭐🫥 Reviewer vault.md>) to build their search index.
-    - [Firewalls 🔥](<../43 ✅ 👍 Trusts/03 ✅ 🔥👥 Firewall helper.md>) subscribe to [Listeners 👂](<../44 ✅ 📜 Manifests/02 ✅ 👂👥 Listener helper.md>) and [Graphs 🕸](<../44 ✅ 📜 Manifests/03 ✅ 🕸👥 Graph helper.md>) to ensure domain compliance.
+    - [Graphs 🕸](<../44 📜 Manifests/03 🕸👥 Graph helper.md>) subscribe to Manifest updates from [Listeners 👂](<../44 📜 Manifests/02 👂👥 Listener helper.md>) to build their graph databases.
+    - [Finders 🔎](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) subscribe to [Graphs 🕸](<../44 📜 Manifests/03 🕸👥 Graph helper.md>), [Advertisers 👀](<../../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>), and [Reviewers ⭐](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) to build their search index.
+    - [Firewalls 🔥](<../43 👍 Trusts/03 🔥👥 Firewall helper.md>) subscribe to [Listeners 👂](<../44 📜 Manifests/02 👂👥 Listener helper.md>) and [Graphs 🕸](<../44 📜 Manifests/03 🕸👥 Graph helper.md>) to ensure domain compliance.
 
     ---
 
 1. **Do Streamers push messages?**
 
-    Yes. NLWeb advocates for subscribers to bind to a [⏳ Buffer](<03 ✅ ⏳👥 Buffer helper.md>) for increased resilience.
+    Yes. NLWeb advocates for subscribers to bind to a [⏳ Buffer](<03 ⏳👥 Buffer helper.md>) for increased resilience.
 
     ---
 

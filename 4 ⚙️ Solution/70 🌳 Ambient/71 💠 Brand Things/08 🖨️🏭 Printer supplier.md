@@ -3,13 +3,13 @@
 
 1. **What is a Printer domain in NLWeb?**
 
-    Printers are [Suppliers 🏭](<../../30 ⏳ 🫥 Agents/06 ✅ 🛎️ Concierges/02 ✅ 🏭🎭 Supplier role.md>) specialized in printing and managing NFC/QR [Locators 🔆](<../../20 ✅ 🧑‍🦰 UI/22 ✅ 🔆 Locators/01 ✅ 🔆 Locator.md>) on behalf of [Brands 🍏](<07 ✅ 🍏🎭 Brand role.md>) or any other [Host 🤗](<../../20 ✅ 🧑‍🦰 UI/23 ✅ 💬 Chats/03 ✅ 🤗🎭 Host role.md>).
+    Printers are [Suppliers 🏭](<../../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>) specialized in printing and managing NFC/QR [Locators 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) on behalf of [Brands 🍏](<07 🍏🎭 Brand role.md>) or any other [Host 🤗](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>).
 
     ---
 
 1. **Why are Printers important for Users?**
 
-    ![](<./00 ✅ 📎 Assets/💠 Printer Sticker.png>)
+    ![](<00 📎 Assets/💠 Printer Sticker.png>)
 
     Printers allow users to turn any object into a smart object;
     - e.g., before going on trip through Asia, a user can buy a smart sticker in a supermarket then stick it on their old-yet-cherished notebook of memories so that anyone can return it free of charge if left behind.
@@ -18,7 +18,7 @@
 
 1. **Why are Printers important for Hosts?**
 
-    ![](<./00 ✅ 📎 Assets/💠 Printer Collar.png>)
+    ![](<00 📎 Assets/💠 Printer Collar.png>)
 
     Printers offload from Hosts the undifferentiated task of printing and distributing NFC/QR Locators. 
 
@@ -67,6 +67,6 @@
 1. **How are anonymous Locators translated?**
 
     Printers manage anonymous Locators with a redirection (e.g., `any-printer.com/random-locator`) that will be bound later to a final Locator. 
-    - For this, Printers charge [Hosts](<../../20 ✅ 🧑‍🦰 UI/23 ✅ 💬 Chats/03 ✅ 🤗🎭 Host role.md>) for a commitment lifetime, after which the redirection stops working, turning the Locator useless.
+    - For this, Printers charge [Hosts](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) for a commitment lifetime, after which the redirection stops working, turning the Locator useless.
 
     ---

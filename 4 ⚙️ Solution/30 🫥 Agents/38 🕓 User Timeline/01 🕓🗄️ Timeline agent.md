@@ -1,11 +1,11 @@
 🕓 Timeline domains FAQ
 ===
 
-![](<./00 ✅ 📎 Assets/🕓 Timeline.png>)
+![](<00 📎 Assets/🕓 Timeline.png>)
 
 1. **What is a Timeline?**
 
-    Timelines are user-bound [Vaults 🗄️](<../../20 ✅ 🧑‍🦰 UI/24 ✅ 🗄️ Vaults/03 ✅ 🗄️🎭 Vault role.md>) that anonymously store user events over time, mapping each event to a metric represented by a [Schema Code 🧩](<../../20 ✅ 🧑‍🦰 UI/24 ✅ 🗄️ Vaults/02 ✅ 🧩 Schema Code.md>).
+    Timelines are user-bound [Vaults 🗄️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) that anonymously store user events over time, mapping each event to a metric represented by a [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>).
 
     ---
 
@@ -35,7 +35,7 @@
 
     Not directly. 
     
-    NLWeb advocates for files to be proxied by the user's [Persona Vault](<../02 ✅ 🧢 Personas/02 ✅ 🧢🫥 Persona agent.md>) to:
+    NLWeb advocates for files to be proxied by the user's [Persona Vault](<../02 🧢 Personas/02 🧢🫥 Persona agent.md>) to:
     - summarize images and PDFs into text (to reduces storage space);
     - remove any references to the user's PII (to protect privacy).
 
@@ -50,7 +50,7 @@
 
 1. **Why not use a Storage Vault instead?**
 
-    [Storage Vaults](<../01 ✅ 📦 Storage/01 ✅ 📦🫥 Storage agent.md>) are intended to be used by other domains to insert, read, and update their data about the user, including data that the user will never have access to. 
+    [Storage Vaults](<../01 📦 Storage/01 📦🫥 Storage agent.md>) are intended to be used by other domains to insert, read, and update their data about the user, including data that the user will never have access to. 
 
     Conversely, Timelines only allow domains to insert (i.e., reads and updates are not allowed), while allowing the user to see and manage all information inserted.
 
@@ -64,7 +64,7 @@
 
 1. **What questions can Consumers ask to Timelines?**
 
-    [Consumer domains](<../01 ✅ 📦 Storage/01 ✅ 📦🫥 Storage agent.md>) can query Timelines in natural language. 
+    [Consumer domains](<../01 📦 Storage/01 📦🫥 Storage agent.md>) can query Timelines in natural language. 
     
     Examples, include:
     - list the average of health metrics this month versus the previous;

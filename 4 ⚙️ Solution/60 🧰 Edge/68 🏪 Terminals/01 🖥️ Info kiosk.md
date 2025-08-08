@@ -3,7 +3,7 @@
 🖥️ Kiosk user experience (UX) FAQ
 ===
 
-![](<./00 ✅ 📎 Assets/🏪 Kiosk.png>)
+![](<00 📎 Assets/🏪 Kiosk.png>)
 
 1. **Can Wallets run as kiosks?**
 

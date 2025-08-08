@@ -13,7 +13,7 @@
 
 1. **Why are Buffers important?**
 
-    Buffers handle the difference in speed and availability between two domains, allowing for faster [🌬️ Streamers](<02 ✅ 🌬️🎭 Streamer role.md>) to continue without waiting for the slower receiver.
+    Buffers handle the difference in speed and availability between two domains, allowing for faster [🌬️ Streamers](<02 🌬️🎭 Streamer role.md>) to continue without waiting for the slower receiver.
 
     - For Streamers, Buffers allow high-throughput Streamers to publish events without considering the receivers' availability or ingestion capacity.
     
@@ -60,7 +60,7 @@
 1. **Is the content of events kept private from Buffers?**
 
     Yes. 
-    - When a [🌬️ Streamer](<02 ✅ 🌬️🎭 Streamer role.md>) is about to push an event to a receiver's Buffer, it first reads the receiver's public key from its DKIM DNS record, then uses the public key to encrypt the content of the event.
+    - When a [🌬️ Streamer](<02 🌬️🎭 Streamer role.md>) is about to push an event to a receiver's Buffer, it first reads the receiver's public key from its DKIM DNS record, then uses the public key to encrypt the content of the event.
     - When receivers poll the events, they use their private key to decrypt the event's content.
 
     ---
@@ -69,7 +69,7 @@
 
     ![](<./📎 Assets/📨 Buffer@AWS.png>)
 
-    Buffers rely on the following components for domain [📨 Messaging](<01 ✅ 📨 Domain Message.md>):
+    Buffers rely on the following components for domain [📨 Messaging](<01 📨 Domain Message.md>):
     - 🏌️‍♂️ **Distributer**: a DNS plus CDN configuration;
     - ⛳ **Endpoint**: an API endpoint that verifies message signatures;
     - 📮 **Async Post**: an async message outbound that signs messages.
@@ -80,6 +80,6 @@
 
     ![](<./📎 Assets/📨 BufferPuller@AWS.png>)
 
-    Buffer clients rely on an Inbox components for domain [📨 Messaging](<01 ✅ 📨 Domain Message.md>) - this is an API endpoint with CDN that verifies message signatures.
+    Buffer clients rely on an Inbox components for domain [📨 Messaging](<01 📨 Domain Message.md>) - this is an API endpoint with CDN that verifies message signatures.
 
     ---
