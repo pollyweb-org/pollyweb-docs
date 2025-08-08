@@ -335,8 +335,12 @@ def print_results(broken_links, malformed_links):
                     # Ask the user if they want to fix the link
                     if True and suggestion != '!!!':
 
-                        clean_link = remove_numbers(link.replace('<./', '').replace('../', '').replace('./', '').replace('<', '').replace('✅ ', '').replace('⏳ ', '').replace(' ', ''))
-                        clean_suggestion = remove_numbers(suggestion.replace('<./', '').replace('../', '').replace('<', '').replace(' ', ''))
+                        clean_link = link
+                        clean_suggestion = suggestion
+                        
+                        if '✅ ' in link or '⏳ ' in link:
+                            clean_link = remove_numbers(link.replace('<./', '').replace('../', '').replace('./', '').replace('<', '').replace('✅ ', '').replace('⏳ ', '').replace(' ', ''))
+                            clean_suggestion = remove_numbers(suggestion.replace('<./', '').replace('../', '').replace('<', '').replace(' ', ''))
 
                         # Print the cleaned links
                         print('==>' + clean_link)
@@ -491,34 +495,34 @@ def test_fix_markdown_link():
 
     test_cases = [
         (
-            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/70. ✅ 🔐 Passwordless ID.md",
+            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/70. 🔐 Passwordless ID.md",
             "../🖼️ images/PDFs/dkim-rotations.pdf",
             "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/🖼️ images/PDFs/dkim-rotations.pdf",
             "<../../🖼️ images/PDFs/dkim-rotations.pdf>",
         ),
         (
-            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/70. ✅ 🔐 Passwordless ID.md",
+            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/70. 🔐 Passwordless ID.md",
             "images/some_broken_image.png",
             "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/images/some_broken_image.png",
             "<../images/some_broken_image.png>",
         ),
         (
-            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/70. ✅ 🔐 Passwordless ID.md",
+            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/70. 🔐 Passwordless ID.md",
             "../../../other_directory/some_file.txt",
             "/Users/jorgemf/AWS/NLWEB/other_directory/some_file.txt",
             "<../../../other_directory/some_file.txt>",
         ),
         (
-            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/70. ✅ 🔐 Passwordless ID.md",
-            "71. ✅ 🔐 Another ID.md",
-            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/71. ✅ 🔐 Another ID.md",
-            "<./71. ✅ 🔐 Another ID.md>",
+            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/70. 🔐 Passwordless ID.md",
+            "71. 🔐 Another ID.md",
+            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/71. 🔐 Another ID.md",
+            "<./71. 🔐 Another ID.md>",
         ),
         (
-            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/70. ✅ 🔐 Passwordless ID.md",
-            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/71. ✅ 🔐 Another ID.md",
-            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/71. ✅ 🔐 Another ID.md",
-            "<./71. ✅ 🔐 Another ID.md>",
+            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/70. 🔐 Passwordless ID.md",
+            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/71. 🔐 Another ID.md",
+            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/71. 🔐 Another ID.md",
+            "<./71. 🔐 Another ID.md>",
         ),
     ]
 
@@ -570,6 +574,7 @@ def runit(project_directory):
         # Print the results to "link-issues.md"
         print_results(broken_links, malformed_links)
 
+        break
         if finished:
             break
 
