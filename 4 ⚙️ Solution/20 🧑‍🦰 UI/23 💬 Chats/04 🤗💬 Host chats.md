@@ -14,22 +14,6 @@
 
     ---
 
-1. **How can admins create chat workflows?**
-
-    [🦜 Talker](<../../../8 ⏳ 🧑‍💻 SDKs/30 ⏳ 💬 Talker SDK/31 ⏳ 😃 Workflow talkers.md>) scripts allow admins to define workflow steps in a single line of YAML, reducing a 10-step workflow into a simple small 10-line YAML file. 
-    * These YAML files map to python code snippets for complex operations. 
-    * The SDK automatically deploys the python code as cloud functions into the cloud account, and sets up the talk interactions in the account's NLWeb framework. 
-
-    ---
-
-1. **How can Hosts replicate a CRUD application?**
-
-    For create-read-update-and-delete (CRUD) workflows, the NLWeb SDK can dynamically generate the workflows based on [🧩 Schema Definitions](<../../../8 ⏳ 🧑‍💻 SDKs/30 ⏳ 💬 Talker SDK/32 ⏳ 🗂️ CRUD talkers.md>). 
-    
-    * This simplifies the configuration by allowing domain admins to use YAML files to define the structure of the data to be stored (i.e., entities, properties, and relationships) without needing to define all the workflow steps to manage it.
-
-    ---
-
 
 ## See also:
 

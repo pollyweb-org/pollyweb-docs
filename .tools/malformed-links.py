@@ -166,12 +166,8 @@ def check_broken_links(md_files, png_files):
     
     count = 0
     for md_file in md_files:
-        count += 1
-        if count > 200:
-            # stop
-            print(f"Checking {count} files, stopping for performance reasons.")
-            break
-
+        
+        
         # Read file content
         with open(md_file, 'r', encoding='utf-8') as file:
             content = file.read()
@@ -195,6 +191,12 @@ def check_broken_links(md_files, png_files):
                 raise ValueError(md_file)
 
             if full_link not in existing_files:
+
+                count += 1
+                if count > 10:
+                    # stop
+                    print(f"Checking {count} times, stopping for performance reasons.")
+                    return broken_links, malformed_links, False
                 
                 suggestion = f'!!!'
                 tip = None
@@ -301,7 +303,7 @@ def check_broken_links(md_files, png_files):
         if malformed_links_with_lines:
             malformed_links[md_file] = malformed_links_with_lines
     
-    return broken_links, malformed_links
+    return broken_links, malformed_links, True
 
 
 def print_results(broken_links, malformed_links):
@@ -332,17 +334,20 @@ def print_results(broken_links, malformed_links):
                     # Ask the user if they want to fix the link
                     if True and suggestion != '!!!':
 
-                        print('==>' + remove_numbers(link.replace('<./', '').replace('../', '').replace('./', '').replace('<', '').replace('✅ ', '').replace('⏳ ', '').replace(' ', '')))
-                        print('==>' + remove_numbers(suggestion.replace('<./', '').replace('../', '').replace('<', '').replace(' ', '')))
+                        clean_link = remove_numbers(link.replace('<./', '').replace('../', '').replace('./', '').replace('<', '').replace('✅ ', '').replace('⏳ ', '').replace(' ', ''))
+                        clean_suggestion = remove_numbers(suggestion.replace('<./', '').replace('../', '').replace('<', '').replace(' ', ''))
+
+                        # Print the cleaned links
+                        print('==>' + clean_link)
+                        print('==>' + clean_suggestion)
                         
-                        fix_link = None
-                        
-                        if '✅ ' in link or '⏳ ' in link:
-                            # replace auto-suggested when there's only missing ✅ emojis
-                            if remove_numbers(suggestion.replace('<./', '').replace('../', '').replace('<', '').replace(' ', '')).endswith( \
-                            remove_numbers(link.replace('<./', '').replace('../', '').replace('./', '').replace('<', '').replace('✅ ', '').replace('⏳ ', '').replace(' ', ''))):
-                                fix_link = 'y'
-                        
+                        fix_link = ''
+
+                        #if '✅ ' in link or '⏳ ' in link:
+                        # replace auto-suggested when there's only missing ✅ emojis
+                        if clean_suggestion.endswith(clean_link):
+                            fix_link = 'y'
+                    
                         if fix_link.lower() != 'y':
                             if suggestion == f'../{link}':
                                 fix_link = 'y'
@@ -558,11 +563,14 @@ def runit(project_directory):
     png_files = find_png_files(project_directory)
 
     # Check for both broken and malformed links
-    broken_links, malformed_links = check_broken_links(md_files, png_files)
-    
+    while True:
+        broken_links, malformed_links, finished = check_broken_links(md_files, png_files)
 
-    # Print the results to "link-issues.md"
-    print_results(broken_links, malformed_links)
+        # Print the results to "link-issues.md"
+        print_results(broken_links, malformed_links)
+
+        if finished:
+            break
 
 
 
