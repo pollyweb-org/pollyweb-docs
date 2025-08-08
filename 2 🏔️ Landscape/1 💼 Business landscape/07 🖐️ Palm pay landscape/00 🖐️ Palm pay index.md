@@ -10,8 +10,8 @@
 ---
 
 📺 In this chapter, you will learn:
-- In 🇨🇳 China, what [Tencent](<../../../../../../../2 🏔️ Landscape/1 💼 Business landscape/07 🖐️ Palm pay landscape/01 📺 🇨🇳 Tencent palm.md>) is doing with palm payments.
-- In the 🇺🇸 United States, what Amazon is doing with [Amazon One](<../../../../../../../2 🏔️ Landscape/1 💼 Business landscape/07 🖐️ Palm pay landscape/02 📺 Amazon One.md>) payments.
+- In 🇨🇳 China, what [Tencent](<01 📺 🇨🇳 Tencent palm.md>) is doing with palm payments.
+- In the 🇺🇸 United States, what Amazon is doing with [Amazon One](<02 📺 Amazon One.md>) payments.
 - Also in the 🇺🇸 U.S., how Amazon is using [Just Walk Out](<03 📺 Just Walk Out.md>) technology for store checkouts.
 
 

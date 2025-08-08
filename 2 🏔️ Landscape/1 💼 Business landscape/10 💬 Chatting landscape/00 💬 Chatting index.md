@@ -29,12 +29,12 @@
 
 - What is the [🌐 market](<01 📄 Market size.md>) for business messaging.
 - How 🇨🇳 [Tencent](<02 📺 Tencent chats.md>) addressed business chats in the early 2000's;
-- How 🇺🇸 [Google](<../../../../../../../2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/03 📺 Google chats.md>) envisions end-to-end business messaging,
-    - and why they pushed Apple to adopt 📨 [RCS](<../../../../../../../2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/04 📺 RCS.md>).
-- How 🇺🇸 [Walmart](<../../../../../../../2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/05 📺 Walmart.md>) implemented business messaging for its customers.
-- How Meta's 🇺🇸 [WhatsApp](<../../../../../../../2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/06 📺 WhatsApp business.md>) envisions end-to-end business chat flows,
-    - how 🇧🇷 [Brazil](<../../../../../../../2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/07 📺 WhatsApp carts.md>) already supports shopping carts in WhatsApp chats,
-    - and why Meta calls WhatsApp the "next chapter" of [monetization](<../../../../../../../2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/09 📺 WhatsApp monetize.md>).
+- How 🇺🇸 [Google](<03 📺 Google chats.md>) envisions end-to-end business messaging,
+    - and why they pushed Apple to adopt 📨 [RCS](<04 📺 RCS.md>).
+- How 🇺🇸 [Walmart](<05 📺 Walmart.md>) implemented business messaging for its customers.
+- How Meta's 🇺🇸 [WhatsApp](<06 📺 WhatsApp business.md>) envisions end-to-end business chat flows,
+    - how 🇧🇷 [Brazil](<07 📺 WhatsApp carts.md>) already supports shopping carts in WhatsApp chats,
+    - and why Meta calls WhatsApp the "next chapter" of [monetization](<09 📺 WhatsApp monetize.md>).
 
 
 ---
