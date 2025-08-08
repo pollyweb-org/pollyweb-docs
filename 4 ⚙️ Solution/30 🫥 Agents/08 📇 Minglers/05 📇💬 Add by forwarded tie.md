@@ -1,4 +1,4 @@
-#TODO
+<!-- #TODO -->
 
 - one person 0 shares a tie A to tie B
 - tie B selects booking contact to share

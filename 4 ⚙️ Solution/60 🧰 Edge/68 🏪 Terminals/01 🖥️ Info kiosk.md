@@ -1,4 +1,4 @@
-#TODO
+<!-- #TODO -->
 
 🖥️ Kiosk user experience (UX) FAQ
 ===

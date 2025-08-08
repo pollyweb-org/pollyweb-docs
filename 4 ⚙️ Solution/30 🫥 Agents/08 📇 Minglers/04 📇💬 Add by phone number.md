@@ -1,4 +1,4 @@
-#TODO
+<!-- #TODO -->
 
 - asks for the booking contacts from the profile
 - sends a message with the link to the phone number
