@@ -192,12 +192,6 @@ def check_broken_links(md_files, png_files):
 
             if full_link not in existing_files:
 
-                count += 1
-                if count > 10:
-                    # stop
-                    print(f"Checking {count} times, stopping for performance reasons.")
-                    return broken_links, malformed_links, False
-                
                 suggestion = f'!!!'
                 tip = None
 
@@ -298,6 +292,13 @@ def check_broken_links(md_files, png_files):
                 tuple = (link, full_link, line_num, suggestion, tip)
                 if tuple not in broken_links[md_file]:
                     broken_links[md_file].append(tuple)
+
+                    count += 1
+                    if count > 10:
+                        # stop
+                        print(f"Checking {count} times, stopping for performance reasons.")
+                        return broken_links, malformed_links, False
+                
         
         # Handle malformed links
         if malformed_links_with_lines:
@@ -490,33 +491,33 @@ def test_fix_markdown_link():
 
     test_cases = [
         (
-            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 ✅ 🏔️ Landscape/2 ✅ 🧑‍🦰 User Landscape/70. ✅ 🔐 Passwordless ID.md",
+            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/70. ✅ 🔐 Passwordless ID.md",
             "../🖼️ images/PDFs/dkim-rotations.pdf",
-            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 ✅ 🏔️ Landscape/🖼️ images/PDFs/dkim-rotations.pdf",
+            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/🖼️ images/PDFs/dkim-rotations.pdf",
             "<../../🖼️ images/PDFs/dkim-rotations.pdf>",
         ),
         (
-            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 ✅ 🏔️ Landscape/2 ✅ 🧑‍🦰 User Landscape/70. ✅ 🔐 Passwordless ID.md",
+            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/70. ✅ 🔐 Passwordless ID.md",
             "images/some_broken_image.png",
-            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 ✅ 🏔️ Landscape/images/some_broken_image.png",
+            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/images/some_broken_image.png",
             "<../images/some_broken_image.png>",
         ),
         (
-            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 ✅ 🏔️ Landscape/2 ✅ 🧑‍🦰 User Landscape/70. ✅ 🔐 Passwordless ID.md",
+            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/70. ✅ 🔐 Passwordless ID.md",
             "../../../other_directory/some_file.txt",
             "/Users/jorgemf/AWS/NLWEB/other_directory/some_file.txt",
             "<../../../other_directory/some_file.txt>",
         ),
         (
-            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 ✅ 🏔️ Landscape/2 ✅ 🧑‍🦰 User Landscape/70. ✅ 🔐 Passwordless ID.md",
+            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/70. ✅ 🔐 Passwordless ID.md",
             "71. ✅ 🔐 Another ID.md",
-            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 ✅ 🏔️ Landscape/2 ✅ 🧑‍🦰 User Landscape/71. ✅ 🔐 Another ID.md",
+            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/71. ✅ 🔐 Another ID.md",
             "<./71. ✅ 🔐 Another ID.md>",
         ),
         (
-            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 ✅ 🏔️ Landscape/2 ✅ 🧑‍🦰 User Landscape/70. ✅ 🔐 Passwordless ID.md",
-            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 ✅ 🏔️ Landscape/2 ✅ 🧑‍🦰 User Landscape/71. ✅ 🔐 Another ID.md",
-            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 ✅ 🏔️ Landscape/2 ✅ 🧑‍🦰 User Landscape/71. ✅ 🔐 Another ID.md",
+            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/70. ✅ 🔐 Passwordless ID.md",
+            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/71. ✅ 🔐 Another ID.md",
+            "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/71. ✅ 🔐 Another ID.md",
             "<./71. ✅ 🔐 Another ID.md>",
         ),
     ]

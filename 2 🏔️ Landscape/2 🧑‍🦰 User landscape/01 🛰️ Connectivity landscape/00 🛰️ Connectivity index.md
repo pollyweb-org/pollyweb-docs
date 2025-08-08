@@ -20,11 +20,11 @@
 📺 In this chapter, you will learn:
 
 - How 🇺🇸 SpaceX's Starlink provides internet:
-    - via mobile antennas in [remote areas](<01 ✅ 📺 Starlink @ remote areas.md>), 
-    - via Wi-Fi in [airplanes](<02 ✅ 📺 Starlink @ airplanes.md>),
-    - and via SIM cards in [mobile phones](<03 ✅ 📺 Starlink @ phones.md>).
+    - via mobile antennas in [remote areas](<01 📺 Starlink @ remote areas.md>), 
+    - via Wi-Fi in [airplanes](<02 📺 Starlink @ airplanes.md>),
+    - and via SIM cards in [mobile phones](<03 📺 Starlink @ phones.md>).
 - Who Starlink's competitors are, e.g.:
-    - 🇺🇸 Amazon's [Project Kuiper](<04 ✅ 📺 Amazon's Kuiper.md>) with Blue Origin,
-    - and 🇨🇳 China [6G internet](<05 ✅ 📺 6G internet.md>) constellation.
+    - 🇺🇸 Amazon's [Project Kuiper](<04 📺 Amazon's Kuiper.md>) with Blue Origin,
+    - and 🇨🇳 China [6G internet](<05 📺 6G internet.md>) constellation.
 
 ---

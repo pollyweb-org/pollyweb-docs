@@ -12,7 +12,7 @@ In 2023, Semtech Corporation (a U.S.-based semiconductor company) published the 
 
 - The video explains Amazon Sidewalk, a shared network that allows connected devices to maintain connectivity even when their primary network is unavailable. 
 - It uses a variety of wireless technologies, including LoRa, to create a mesh network that extends the range of connected devices.
-- Read the [Amazon Sidewalk Privacy and Security White-paper](<00 ✅ 📎 Assets/🏡 Sidewalk whitepaper.pdf>) for further details.
+- Read the [Amazon Sidewalk Privacy and Security White-paper](<00 📎 Assets/🏡 Sidewalk whitepaper.pdf>) for further details.
 
 <!--  https://www.amazon.com/gp/help/customer/display.html?nodeId=GRGWE27XHZPRPBGX -->
 <!-- https://youtu.be/4F-JsLukpyE --><br/>

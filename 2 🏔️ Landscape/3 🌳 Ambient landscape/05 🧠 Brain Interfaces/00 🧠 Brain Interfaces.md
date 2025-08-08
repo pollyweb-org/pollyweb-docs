@@ -14,9 +14,9 @@
 ---
 
 📺 In this chapter, you will learn:
-- what are [Brain Computer Interfaces](<01 ✅ 📺 What's BCI.md>) (BCI);
-- who are the BCI players in the 🇺🇸 [U.S.](<02 ✅ 📺 🇺🇸 US.md>) and 🇨🇳 [China](<03 ✅ 📺 🇨🇳 China.md>);
-- what are [Meta](<04 ✅ 📺 Meta.md>) and Elon Musk's [Neuralink](<05 ✅ 📺 Neuralink.md>) doing around BCI;
-- how [Synchron](<06 ✅ 📺 Synchron.md>) integrates with [Alexa](<07 ✅ 📺 Synchron+Alexa.md>), [Apple Vision](<08 ✅ 📺 Synchron+Apple.md>), and [ChatGPT](<09 ✅ 📺 Synchron+ChatGPT.md>).
+- what are [Brain Computer Interfaces](<01 📺 What's BCI.md>) (BCI);
+- who are the BCI players in the 🇺🇸 [U.S.](<02 📺 🇺🇸 US.md>) and 🇨🇳 [China](<03 📺 🇨🇳 China.md>);
+- what are [Meta](<04 📺 Meta.md>) and Elon Musk's [Neuralink](<05 📺 Neuralink.md>) doing around BCI;
+- how [Synchron](<06 📺 Synchron.md>) integrates with [Alexa](<07 📺 Synchron+Alexa.md>), [Apple Vision](<08 📺 Synchron+Apple.md>), and [ChatGPT](<09 📺 Synchron+ChatGPT.md>).
 
 ---

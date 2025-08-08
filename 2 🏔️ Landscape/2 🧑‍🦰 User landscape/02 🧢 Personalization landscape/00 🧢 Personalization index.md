@@ -33,22 +33,22 @@
 📺 In this chapter, you will learn:
 
 - How PII is traditionally abused and protected, namely:
-    - how PII of [random people](<01 ✅ 📺 Random PII smart glasses.md>) can be found in real-time using smart glasses;
-    - how [scammers](<02 ✅ 📺 Top scams 2024.md>) can take advantage of PII for spam, fraud, and identity theft;
-    - how search engines like 🇺🇸 [Google](<03 ✅ 📺 🇺🇸 Google's search delete.md>) allow users to remove themselves from indexes;
-    - how countries like 🇨🇳 [China](<04 ✅ 📺 🇨🇳 China's privacy law.md>) enforced regulation to protect PII.
+    - how PII of [random people](<01 📺 Random PII smart glasses.md>) can be found in real-time using smart glasses;
+    - how [scammers](<02 📺 Top scams 2024.md>) can take advantage of PII for spam, fraud, and identity theft;
+    - how search engines like 🇺🇸 [Google](<03 📺 🇺🇸 Google's search delete.md>) allow users to remove themselves from indexes;
+    - how countries like 🇨🇳 [China](<04 📺 🇨🇳 China's privacy law.md>) enforced regulation to protect PII.
 
 - How self-sovereign identity (SSI) aims to protect PII, namely:
-    - what are 🗄️ [vaults](<./05 ✅ 📺 Berners-Lee vaults.md>), according to Sir Tim Berners-Lee (inventor of the web);
-    - how 📝 [form auto-filling](<06 ✅ 📺 SSI form auto filling.md>) simplifies sharing PII;
-    - how 📜 [selective disclosure](<07 ✅ 📺 SSI selective disclosure.md>) limits shared PII;
-    - how 👤 [zero-knowledge proof](<08 ✅ 📺 SSI zero knowledge proof.md>) avoids sharing PII;
-    - how 🔐 [passwordless login](<09 ✅ 📺 Passwordless login.md>) avoids activity tracking.
+    - what are 🗄️ [vaults](<./05 📺 Berners-Lee vaults.md>), according to Sir Tim Berners-Lee (inventor of the web);
+    - how 📝 [form auto-filling](<06 📺 SSI form auto filling.md>) simplifies sharing PII;
+    - how 📜 [selective disclosure](<07 📺 SSI selective disclosure.md>) limits shared PII;
+    - how 👤 [zero-knowledge proof](<08 📺 SSI zero knowledge proof.md>) avoids sharing PII;
+    - how 🔐 [passwordless login](<09 📺 Passwordless login.md>) avoids activity tracking.
 
 - How SSI concepts are being tested by public and private companies, e.g.:
-    - by the travel industry, advocating for [vaccine passports](<10 ✅ 📺 COVID.md>) during COVID;
-    - by the 🇺🇸 U.S. Military, with 🏥 [personal health record (PHR)](<11 ✅ 📺 Personal Health.md>) vaults;
-    - by Affinidi, in 👚 [personalized shopping](<12 ✅ 📺 Affinidi.md>), with preference vaults;
-    - by PayPal, in 📦 [guest checkout](<13 ✅ 📺 PayPal Fastlane.md>), with PayPal Fastlane vault.
-    - and by Gartner, advocating for a [customer digital twin](<14 ✅ 📺 Gartner twins.md>) in retail.
+    - by the travel industry, advocating for [vaccine passports](<10 📺 COVID.md>) during COVID;
+    - by the 🇺🇸 U.S. Military, with 🏥 [personal health record (PHR)](<11 📺 Personal Health.md>) vaults;
+    - by Affinidi, in 👚 [personalized shopping](<12 📺 Affinidi.md>), with preference vaults;
+    - by PayPal, in 📦 [guest checkout](<13 📺 PayPal Fastlane.md>), with PayPal Fastlane vault.
+    - and by Gartner, advocating for a [customer digital twin](<14 📺 Gartner twins.md>) in retail.
     

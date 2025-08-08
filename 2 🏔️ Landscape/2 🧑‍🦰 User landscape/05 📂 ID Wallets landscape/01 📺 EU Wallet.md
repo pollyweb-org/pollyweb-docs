@@ -3,7 +3,7 @@
 
 In 2024, the European Commission released the following video, titled *"Get to grips with the EU Digital Identity Wallet"*.
 
-- The EU Wallet is a project funded with €163M to support offline [digital documents](<../04 ✅ 🆔 Digital ID landscape/00 ✅ 🆔 Digital ID index.md>), [payments](<../../1 ✅ 💼 Business landscape/05 ✅ 💳 Payments landscape/00 ✅ 💳 Payments index.md>), and [digital signatures](<../09 ✅ 🔏 Signatures landscape/00 ✅ 🔏 Signatures index.md>). 
+- The EU Wallet is a project funded with €163M to support offline [digital documents](<../04 🆔 Digital ID landscape/00 🆔 Digital ID index.md>), [payments](<../../1 💼 Business landscape/05 💳 Payments landscape/00 💳 Payments index.md>), and [digital signatures](<../09 🔏 Signatures landscape/00 🔏 Signatures index.md>). 
 - While the specifications where released in 2024, the EU Wallet is expected in 2026.
 - By 2024, several European countries have already deployed country-level wallets for their citizens.
 

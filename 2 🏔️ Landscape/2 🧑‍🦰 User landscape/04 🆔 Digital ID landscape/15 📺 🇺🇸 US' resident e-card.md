@@ -12,10 +12,10 @@ In 2024, the U.S. Department of Homeland Security published an article with the 
   
     
 The initiative is titled "U.S. Digital Migration Credentials". 
-- The technical details are in [this PDF](<00 ✅ 📎 Assets/🆔 Speaker151805_Session9643_1.pdf>).
+- The technical details are in [this PDF](<00 📎 Assets/🆔 Speaker151805_Session9643_1.pdf>).
 - In image below, taken from the PDF, show the vision for the initiative. 
 
-![](<./00 ✅ 📎 Assets/🆔 U.S. Digital Immigration Credentials-2.png>)
+![](<./00 📎 Assets/🆔 U.S. Digital Immigration Credentials-2.png>)
 
 
 <!--    

@@ -34,27 +34,27 @@ To address fraud with URL redirect by replacing real QR codes with fake ones:
 
 📺 In this chapter, you will learn:
 
-- What [digital product IDs](<01 ✅ 📺 Product IDs.md>) are,
-    - and how they enable [personalized experiences](<02 ✅ 📺 Personalization.md>).
+- What [digital product IDs](<01 📺 Product IDs.md>) are,
+    - and how they enable [personalized experiences](<02 📺 Personalization.md>).
 
-- What [QR codes](<03 ✅ 📺 QR codes.md>) are, 
-    - how to change a QR code [dynamically](<04 ✅ 📺 QR dynamic url.md>);
-    - what are the FBI [safety](<05 ✅ 📺 QR safety.md>) concerns with QR codes;
-    - what is [quishing](<06 ✅ 📺 QR phishing.md>), the QR equivalent of phishing;
-    - how [Kaspersky](<07 ✅ 📺 QR scanner.md>)'s QR scanner protects users by verifying QR codes;
-    - and how developers can [verify URLs](<08 ✅ 📺 Google's Risk API.md>) using Google's Web Risk API.
+- What [QR codes](<03 📺 QR codes.md>) are, 
+    - how to change a QR code [dynamically](<04 📺 QR dynamic url.md>);
+    - what are the FBI [safety](<05 📺 QR safety.md>) concerns with QR codes;
+    - what is [quishing](<06 📺 QR phishing.md>), the QR equivalent of phishing;
+    - how [Kaspersky](<07 📺 QR scanner.md>)'s QR scanner protects users by verifying QR codes;
+    - and how developers can [verify URLs](<08 📺 Google's Risk API.md>) using Google's Web Risk API.
 
-- What [NFC tags](<09 ✅ 📺 NFC tags.md>) are,
-    - how [RFID](<10 ✅ 📺 NFC vs RFID.md>) relates to NFC,
-    - what are [authenticated](<11 ✅ 📺 NFC authentication.md>) NFC tags, 
-    - what are [temper-aware](<12 ✅ 📺 NFC tamper aware.md>) NFC tags, 
-    - from [how far](<13 ✅ 📺 NFC tap distance.md>) an NFC tag can be tapped,
-    - how to use NFC tags in [clothing](<14 ✅ 📺 NFC in clothing.md>),
-    - how to use NFC tags on [metal](<15 ✅ 📺 NFC on metal.md>),
-    - and how to change an NFC tag [dynamically](<16 ✅ 📺 NFC dynamic url.md>).
+- What [NFC tags](<09 📺 NFC tags.md>) are,
+    - how [RFID](<10 📺 NFC vs RFID.md>) relates to NFC,
+    - what are [authenticated](<11 📺 NFC authentication.md>) NFC tags, 
+    - what are [temper-aware](<12 📺 NFC tamper aware.md>) NFC tags, 
+    - from [how far](<13 📺 NFC tap distance.md>) an NFC tag can be tapped,
+    - how to use NFC tags in [clothing](<14 📺 NFC in clothing.md>),
+    - how to use NFC tags on [metal](<15 📺 NFC on metal.md>),
+    - and how to change an NFC tag [dynamically](<16 📺 NFC dynamic url.md>).
 
-- What Apple's [App Clips](<17 ✅ 📺 Apple's App Clips.md>) are,
-    - and what are App Clip [Codes](<18 ✅ 📺 App Clip Codes.md>), Apple's QR/NFC alternative.
+- What Apple's [App Clips](<17 📺 Apple's App Clips.md>) are,
+    - and what are App Clip [Codes](<18 📺 App Clip Codes.md>), Apple's QR/NFC alternative.
 
 ---
 

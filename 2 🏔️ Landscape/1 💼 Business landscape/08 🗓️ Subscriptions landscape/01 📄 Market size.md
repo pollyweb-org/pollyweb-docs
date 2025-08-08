@@ -9,7 +9,7 @@ According to Visa, the subscription economy is set to reach $1.5 trillion by 202
 - Solutions involve innovative pricing, bundling, and building loyal ecosystems to enhance the subscription experience.
 
 Sources:
-- [Visa 2022 report: 10 key trends shaping the payments landscape](<00 ✅ 📎 Assets/🗓️ Visa-10-trends-infographic.pdf>)
-- [Visa 2022 report: Sizing up the subscription economy](<00 ✅ 📎 Assets/🗓️ Visa-subscription-economy.pdf>)
+- [Visa 2022 report: 10 key trends shaping the payments landscape](<00 📎 Assets/🗓️ Visa-10-trends-infographic.pdf>)
+- [Visa 2022 report: Sizing up the subscription economy](<00 📎 Assets/🗓️ Visa-subscription-economy.pdf>)
 
 ---

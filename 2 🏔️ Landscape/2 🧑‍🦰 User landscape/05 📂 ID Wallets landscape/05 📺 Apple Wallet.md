@@ -4,11 +4,11 @@
 In 2014, Apple integrated Apple Wallet into iPhone, supporting payment cards, boarding passes, tickets, and more. 
 
 - Since then, Apple has marketed these has two different products: Apple Wallet and Apple Pay. 
-- In this section, we focus on Apple Wallet; for Apple Pay, see [here](<../../1 ✅ 💼 Business landscape/06 ✅ 📂 App pay landscape/00 ✅ 📂 App pay index.md>).
+- In this section, we focus on Apple Wallet; for Apple Pay, see [here](<../../1 💼 Business landscape/06 📂 App pay landscape/00 📂 App pay index.md>).
 
 In 2023 in the US, Apple has partnered with states to enable users to add their state IDs and driver’s licenses to Apple Wallet for secure, contactless verification. 
 
-- See [here](<../03 ✅ 🛂 Travel ID landscape/08 ✅ 📺 🇺🇸 TSA with iPhone.md>) Apple's initiative with TSA (Transportation Security Administration) checks, enabling passengers to verify their identity at airport security checkpoints using their iPhone or Apple Watch.
+- See [here](<../03 🛂 Travel ID landscape/08 📺 🇺🇸 TSA with iPhone.md>) Apple's initiative with TSA (Transportation Security Administration) checks, enabling passengers to verify their identity at airport security checkpoints using their iPhone or Apple Watch.
 
 In 2024, Apple released the following video, titled *"Full Apple Wallet feature reveal (with car key updates)"*.
 
