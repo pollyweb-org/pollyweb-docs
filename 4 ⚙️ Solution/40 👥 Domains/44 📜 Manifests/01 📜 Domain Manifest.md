@@ -1,7 +1,7 @@
 📜 Domain Manifests FAQ
 ===
 
-![](<./📎 Assets/📜 Manifest.png>)
+![](<.📎 Assets/📜 Manifest.png>)
 
 1. **How do domains publicize their identity?**
 

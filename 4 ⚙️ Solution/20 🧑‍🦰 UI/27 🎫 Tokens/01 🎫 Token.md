@@ -1,7 +1,7 @@
 🎫 Tokens FAQ
 ===
 
-![](<./📎 Assets/🎫 Token.png>)
+![](<.📎 Assets/🎫 Token.png>)
 
 1. **What is a Token?**
 

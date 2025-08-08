@@ -1,7 +1,7 @@
 🪣🎭 Dataset domain role FAQ
 ===
 
-![](<📎 Assets/💬 Dataset.png>)
+![](<.📎 Assets/💬 Dataset.png>)
 
 1. **What is a Dataset domain role in NLWeb?**
 

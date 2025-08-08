@@ -1,7 +1,7 @@
 🤵 Broker domains FAQ
 ===
 
-![](<📎 Assets/🤵 Broker.png>)
+![](<.📎 Assets/🤵 Broker.png>)
 
 1. **What is a Broker domain in NLWeb?**
     

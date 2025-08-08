@@ -33,4 +33,4 @@
 
 ## Flow diagram
 
-![alt text](<📎 Assets/⚙️ Remove.png>)
+![alt text](<.📎 Assets/⚙️ Remove.png>)

@@ -1,7 +1,7 @@
 🌬️ Streamer domain role FAQ
 ===
 
-![](<./📎 Assets/📨 Streamer.png>)
+![](<.📎 Assets/📨 Streamer.png>)
 
 1. **What is a Streamer domain role in NLWeb?**
 

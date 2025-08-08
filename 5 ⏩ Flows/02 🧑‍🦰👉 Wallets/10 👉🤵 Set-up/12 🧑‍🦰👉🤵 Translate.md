@@ -29,4 +29,4 @@
 
 ## Flow diagram
 
-![Translate](<📎 Assets/⚙️ Translate.png>)
+![Translate](<.📎 Assets/⚙️ Translate.png>)

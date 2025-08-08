@@ -5,4 +5,4 @@
 
 ## Flow diagram
 
-![alt text](<📎 Assets/⚙️ Pay.png>)
+![alt text](<.📎 Assets/⚙️ Pay.png>)

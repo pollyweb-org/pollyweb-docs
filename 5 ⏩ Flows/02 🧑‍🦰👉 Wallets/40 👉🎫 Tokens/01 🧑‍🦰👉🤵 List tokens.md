@@ -10,4 +10,4 @@
 
 ## Flow diagram
 
-![alt text](<📎 Assets/⚙️ List.png>)
+![alt text](<.📎 Assets/⚙️ List.png>)

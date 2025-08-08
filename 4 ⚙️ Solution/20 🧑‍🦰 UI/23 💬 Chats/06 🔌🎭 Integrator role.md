@@ -1,7 +1,7 @@
 🔌🎭 Integrator domain role FAQ
 ===
 
-![](<📎 Assets/💬 Integrator.png>)
+![](<.📎 Assets/💬 Integrator.png>)
 
 1. **What is an Integrator domain role in NLWeb?**
 

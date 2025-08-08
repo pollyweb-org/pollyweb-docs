@@ -8,8 +8,8 @@ The financial industry is heavily investing in digital payment infrastructure to
 - Financial institutions are partnering with tech firms and governments to enhance cross-border transactions, reduce fees, and improve accessibility, further accelerating digital payment adoption worldwide.
 
 Source reports:
-- McKinsey & Company, [The 2023 McKinsey Global Payments Report](<./📎 Assets/💳 the-2022-mckinsey-global-payments-report.pdf>)
-- The World Bank Group, [Digital Progress and Trends Report 2023](<./📎 Assets/💳 World Bank 2023.pdf>)
+- McKinsey & Company, [The 2023 McKinsey Global Payments Report](<.📎 Assets/💳 the-2022-mckinsey-global-payments-report.pdf>)
+- The World Bank Group, [Digital Progress and Trends Report 2023](<.📎 Assets/💳 World Bank 2023.pdf>)
 
 
 ---

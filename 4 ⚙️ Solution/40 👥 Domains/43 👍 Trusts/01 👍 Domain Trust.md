@@ -1,7 +1,7 @@
 👍 NLWeb Trust Framework FAQ
 ===
 
-![](<./📎 Assets/👍 Trust Framework.png>)
+![](<.📎 Assets/👍 Trust Framework.png>)
 
 1. **How do domains avoid interacting with bad actors?**
 

@@ -1,7 +1,7 @@
 📣 Notifier domains FAQ
 ===
 
-![](<./📎 Assets/📣 Notifier.png>)
+![](<.📎 Assets/📣 Notifier.png>)
 
 1. **What is a Notifier domain in NLWeb?**
 
@@ -27,13 +27,13 @@
 
 1. **How can messages flow in Notifiers with WebSockets?**
 
-    ![alt text](<./📎 Assets/📣 Notifier UML.png>)
+    ![alt text](<.📎 Assets/📣 Notifier UML.png>)
 
     ---
 
 1. **How to implement a Notifier on AWS?**
 
-    ![](<./📎 Assets/📣 Notifier@AWS.png>)
+    ![](<.📎 Assets/📣 Notifier@AWS.png>)
 
     Notifiers rely on the following components for domain [📨 Messaging](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>):
     - 📨 **Inbox**: the combination of the Distributer plus the Endpoint;

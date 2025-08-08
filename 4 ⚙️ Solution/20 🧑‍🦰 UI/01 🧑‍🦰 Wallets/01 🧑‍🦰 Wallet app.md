@@ -1,7 +1,7 @@
 🧑‍🦰 Wallet app FAQ
 ===
 
-![](<./📎 Assets/🧑‍🦰 Wallet App.png>)
+![](<.📎 Assets/🧑‍🦰 Wallet App.png>)
 
 1. **What is an NLWeb Wallet app?**
 

@@ -1,7 +1,7 @@
 🗄️ Vault domain role FAQ
 ===
 
-![](<./📎 Assets/🗄️ Vault.png>)
+![](<.📎 Assets/🗄️ Vault.png>)
 
 1. **What is a Vault domain role in NLWeb?**
 

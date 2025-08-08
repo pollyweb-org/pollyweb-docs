@@ -1,7 +1,7 @@
 🤗 Host domain role FAQ
 ===
 
-![](<📎 Assets/💬 Host.png>)
+![](<.📎 Assets/💬 Host.png>)
 
 1. **What is a Host domain role in NLWeb?**
 

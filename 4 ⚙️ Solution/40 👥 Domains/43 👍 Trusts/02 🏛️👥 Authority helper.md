@@ -1,7 +1,7 @@
 🏛️ Authority domains FAQ
 ===
 
-![](<./📎 Assets/👍 Authority.png>)
+![](<.📎 Assets/👍 Authority.png>)
 
 1. **What is an Authority domain in NLWeb?**
 

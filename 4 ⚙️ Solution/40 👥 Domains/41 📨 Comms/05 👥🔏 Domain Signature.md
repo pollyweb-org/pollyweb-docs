@@ -3,7 +3,7 @@
 
 1. **How do sender domains sign files**?
 
-    ![](<./📎 Assets/📨 Signature Domains.png>)
+    ![](<.📎 Assets/📨 Signature Domains.png>)
 
     The signature has the form of a [Token 🎫](<../../20 🧑‍🦰 UI/27 🎫 Tokens/01 🎫 Token.md>) added as metadata to the file. 
     

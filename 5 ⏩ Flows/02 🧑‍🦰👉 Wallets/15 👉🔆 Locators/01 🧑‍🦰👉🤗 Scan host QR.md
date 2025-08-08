@@ -29,4 +29,4 @@
 
 ## Flow diagram
 
-![alt text](<📎 Assets/⚙️ Host QR.png>)
+![alt text](<.📎 Assets/⚙️ Host QR.png>)

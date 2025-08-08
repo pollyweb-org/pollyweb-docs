@@ -3,7 +3,7 @@
 ⏳ Buffer domains FAQ
 ===
 
-![](<./📎 Assets/📨 Buffer.png>)
+![](<.📎 Assets/📨 Buffer.png>)
 
 1. **What is a Buffer domain in NLWeb?**
 
@@ -67,7 +67,7 @@
 
 1. **How can a Buffer be implemented on AWS?**
 
-    ![](<./📎 Assets/📨 Buffer@AWS.png>)
+    ![](<.📎 Assets/📨 Buffer@AWS.png>)
 
     Buffers rely on the following components for domain [📨 Messaging](<01 📨 Domain Message.md>):
     - 🏌️‍♂️ **Distributer**: a DNS plus CDN configuration;
@@ -78,7 +78,7 @@
 
 1. **How can a Buffer clients implement message polling on AWS?**
 
-    ![](<./📎 Assets/📨 BufferPuller@AWS.png>)
+    ![](<.📎 Assets/📨 BufferPuller@AWS.png>)
 
     Buffer clients rely on an Inbox components for domain [📨 Messaging](<01 📨 Domain Message.md>) - this is an API endpoint with CDN that verifies message signatures.
 

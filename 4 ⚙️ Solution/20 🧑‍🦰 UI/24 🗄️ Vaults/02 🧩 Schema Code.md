@@ -1,7 +1,7 @@
 🧩 Schema Codes FAQ
 ===
 
-![](<./📎 Assets/🗄️ Schema Manifest.png>)
+![](<.📎 Assets/🗄️ Schema Manifest.png>)
 
 1. **How do domains validate the structure of messages?**
 

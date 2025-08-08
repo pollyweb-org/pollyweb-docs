@@ -9,4 +9,4 @@
 
 ## Flow diagram ⏩
 
-![SyncRequest](<📎 Assets/⚙️🚀 SyncRequest.png>)
+![SyncRequest](<.📎 Assets/⚙️🚀 SyncRequest.png>)

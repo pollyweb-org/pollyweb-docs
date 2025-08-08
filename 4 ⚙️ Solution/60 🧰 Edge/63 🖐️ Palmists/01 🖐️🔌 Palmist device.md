@@ -3,7 +3,7 @@
 
 1. **What are palm vein scanners?**
 
-    ![](<📎 Assets/🖐️ Palm Scanner.png>)
+    ![](<.📎 Assets/🖐️ Palm Scanner.png>)
 
     Palm vein scanners are biometric [Pluggable 🔌](<../61 🔌 Pluggables/01 🔌 Pluggable device.md>) devices that use infrared light to map the unique vein pattern in an individual's palm. 
     * These patterns are highly individualized, making them an effective method for identity verification. 

@@ -1,7 +1,7 @@
 👂 Listener domains FAQ
 ===
 
-![](<./📎 Assets/📜 Listeners.png>)
+![](<.📎 Assets/📜 Listeners.png>)
 
 1. **What is a Listener domain in NLWeb?**
 

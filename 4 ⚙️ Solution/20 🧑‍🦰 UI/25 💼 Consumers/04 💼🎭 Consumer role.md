@@ -1,7 +1,7 @@
 💼 Consumer domain role FAQ
 ===
 
-![](<../24 🗄️ Vaults/📎 Assets/🗄️ Consumer.png>)
+![](<../24 🗄️ Vaults/.📎 Assets/🗄️ Consumer.png>)
 
 1. **What is a Consumer domain role in NLWeb?**
 

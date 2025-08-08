@@ -7,4 +7,4 @@
 
 ## Flow diagram
 
-![alt text](<📎 Assets/⚙️ Query Vault.png>)
+![alt text](<.📎 Assets/⚙️ Query Vault.png>)

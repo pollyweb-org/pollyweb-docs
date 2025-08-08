@@ -16,7 +16,7 @@
 
 ## Flow diagram
 
-![Prompt](<📎 Assets/00 ⚙️💬 Prompt.png>)
+![Prompt](<.📎 Assets/00 ⚙️💬 Prompt.png>)
 
 
 

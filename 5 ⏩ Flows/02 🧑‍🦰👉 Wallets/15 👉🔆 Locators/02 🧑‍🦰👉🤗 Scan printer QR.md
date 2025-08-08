@@ -31,4 +31,4 @@
 
 ## Flow diagram
 
-![PrinterQR](<📎 Assets/⚙️ Printer QR.png>)
+![PrinterQR](<.📎 Assets/⚙️ Printer QR.png>)

@@ -9,7 +9,7 @@
 
 ## Flow diagram ⏩
 
-![DnsSetup](<📎 Assets/⚙️🌐 DnsSetup.png>)
+![DnsSetup](<.📎 Assets/⚙️🌐 DnsSetup.png>)
 
 
 ## Sample DNS

@@ -1,7 +1,7 @@
 📡 Antenna router device FAQ
 ===
 
-![](<./📎 Assets/🔌 Antenna.png>)
+![](<.📎 Assets/🔌 Antenna.png>)
 
 1. **What is an Antenna?**
 

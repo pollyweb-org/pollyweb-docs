@@ -11,7 +11,7 @@
 
 1. **How is an Ephemeral applicable to the financial industry?**
 
-    ![](<📎 Assets/🦋 Ephemeral ATMs.png>)
+    ![](<.📎 Assets/🦋 Ephemeral ATMs.png>)
 
     For a [cash machine](<../../../3 🤝 Use Cases/05 🛠️ Services/03 🏧 Withdraw at ATMs/10 Customer @ ATM/11 Withdraw cash.md>), the bank wants their customer to be close to the dispenser when the order to dispense money is issued.
     - Otherwise, someone else could get the customer’s money.
@@ -22,7 +22,7 @@
 
 1. **How is an Ephemeral applicable to building security?**
 
-    ![](<📎 Assets/🦋 Ephemeral Doors.png>)
+    ![](<.📎 Assets/🦋 Ephemeral Doors.png>)
 
     When opening a door with restricted access, attackers may put the NFC/QR [Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) of a high-security door A on a low-security door B on the other side of the building. 
     

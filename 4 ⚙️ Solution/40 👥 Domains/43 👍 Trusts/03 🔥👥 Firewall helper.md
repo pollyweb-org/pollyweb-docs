@@ -1,7 +1,7 @@
 🔥 Firewall domains FAQ
 ===
 
-![](<./📎 Assets/👍 Firewall.png>)
+![](<.📎 Assets/👍 Firewall.png>)
 
 1. **What is a Firewall domain in NLWeb?**
 

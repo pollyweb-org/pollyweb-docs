@@ -1,7 +1,7 @@
 📨 Domain Communication FAQ
 ===
 
-![](<📎 Assets/📨 Comms.png>)
+![](<.📎 Assets/📨 Comms.png>)
 
 1. **How does a domain send a request to another domain?**
 
@@ -128,12 +128,12 @@
 
 1. **What's the message flow in synchronous communication?** 
 
-    ![Sync](<../../../5 ⏩ Flows/01 👥⏩ Domains/📎 Assets/⚙️🚀 SyncRequest.png>)
+    ![Sync](<../../../5 ⏩ Flows/01 👥⏩ Domains/.📎 Assets/⚙️🚀 SyncRequest.png>)
 
     ---
 
 1. **What's the message flow in async communication?** 
 
-    ![Async](<../../../5 ⏩ Flows/01 👥⏩ Domains/📎 Assets/⚙️🐌 AsyncMessage.png>)
+    ![Async](<../../../5 ⏩ Flows/01 👥⏩ Domains/.📎 Assets/⚙️🐌 AsyncMessage.png>)
 
     ---

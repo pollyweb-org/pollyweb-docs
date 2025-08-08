@@ -30,4 +30,4 @@
 
 ## Flow diagram 
 
-![Advertise](<📎 Assets/⚙️ Advertise.png>)
+![Advertise](<.📎 Assets/⚙️ Advertise.png>)

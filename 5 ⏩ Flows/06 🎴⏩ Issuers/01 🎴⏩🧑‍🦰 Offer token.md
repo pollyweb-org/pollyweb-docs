@@ -23,7 +23,7 @@
 
 ## Flow diagram ⏩
 
-![Accept](<./📎 Assets/⚙️ Offer.png>)
+![Accept](<.📎 Assets/⚙️ Offer.png>)
 
 
 
