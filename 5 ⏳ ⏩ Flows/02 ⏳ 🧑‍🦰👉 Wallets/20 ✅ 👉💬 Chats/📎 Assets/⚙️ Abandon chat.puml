@@ -1,0 +1,41 @@
+@startuml
+' ----------------------
+
+actor "User\nin chat" as user
+
+box "User Interface (UI)"  #FFFFFF
+  participant "Wallet 👱\n(app)" as wallet
+  participant "Notifier 📣\n(domain)" as notifier  
+  participant "Broker 🤵\n(domain)" as broker
+end box
+
+participant "Host 🤗\n(domain)" as host
+
+' The host is prompting the user
+host --> wallet: ⏪ prompt 
+
+' The user invokes the broker's talker
+user --> wallet: broker 🤵
+activate wallet
+    wallet --> broker: 1) talker@
+deactivate wallet
+
+' The broker shows the chat options
+activate broker
+    broker --> wallet: 2) ⏪ prompt 
+deactivate broker
+
+' The user asks to abandon the chat.
+activate wallet
+    user --> wallet: abandon
+    wallet --> broker: {abandon}
+deactivate wallet
+
+' The broker notifies the host and the notifier about the abandoned chat.
+activate broker
+    broker --> host: 3) abandoned@
+    broker --> wallet: 4) ⏪ update chats
+deactivate broker
+
+' ----------------------
+@enduml 

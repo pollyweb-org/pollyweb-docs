@@ -1,0 +1,60 @@
+@startuml Bind()
+
+ 
+' ---------------------
+actor User as user
+participant "Wallet 👱\napp" as wallet
+participant "Notifier 📣\nbff" as notifier
+participant "Broker 🤵\nhost" as broker
+participant "Graph 🕸\ndomain" as graph
+participant "Vault 🗄️\nhost" as vault
+
+' ---------------------
+' WELCOME!
+' ---------------------
+
+activate vault
+
+group Offer binds
+
+    vault --> broker: 1) 🐌 bindable  { codes }
+    deactivate vault    
+
+    activate broker
+ 
+        ' Translate.
+        broker -> graph: 2) 🚀 translate 
+        activate graph
+            graph -> broker: {translations}
+        deactivate
+        
+        ' RAISE BINDABLE!
+        broker --> wallet: 3) ⏪ prompt
+    deactivate broker
+
+    activate wallet
+
+end group
+
+
+' BIND @ USER
+
+user --> wallet: bind
+
+
+group Bind vault
+
+    wallet --> broker: {selected codes}
+    deactivate wallet
+
+    activate broker
+        broker --> vault: 4) bind vault ⏩
+    deactivate broker
+
+end group
+
+
+
+
+' ---------------------
+@enduml 

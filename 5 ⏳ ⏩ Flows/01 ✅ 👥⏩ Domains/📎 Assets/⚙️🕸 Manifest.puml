@@ -1,0 +1,34 @@
+@startuml Manifest
+
+participant "Domain 👥" as domain
+
+box redundant listeners  #FFFFFF
+    participant "Listener 👂\ndomain" as listener1
+    participant "Listener 👂\ndomain" as listener2
+end box
+
+box subscribers #FFFFFF
+    participant "Listener 👂\ndomains" as pool
+    participant "Graph 🕸\ndomains" as graph
+end box
+
+
+
+activate domain
+    domain -> domain: change manifest
+    domain --> listener2: 1) updated@ {change}
+    domain --> listener1: updated@ {change}
+deactivate domain
+
+activate listener1
+    listener1 --> graph: 2) ingest ⏩
+    listener1 --> pool: ingest ⏩
+deactivate listener1
+
+
+activate pool
+    pool --> graph: ingest ⏩
+deactivate pool
+
+
+@enduml
