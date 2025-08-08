@@ -3,9 +3,9 @@
 
 1. **What is a Wand domain in NLWeb?**
 
-    ![](<./00 ✅ 📎 Assets/💠 Wand.png>)
+    ![](<00 📎 Assets/💠 Wand.png>)
 
-    Wands are [Suppliers 🏭](<../../30 ⏳ 🫥 Agents/06 ✅ 🛎️ Concierges/02 ✅ 🏭🎭 Supplier role.md>) that create and manage the user chats of [Things 💠](<01 ✅ 💠 Thing.md>) on behalf of [Brands 🍏](<07 ✅ 🍏🎭 Brand role.md>).
+    Wands are [Suppliers 🏭](<../../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>) that create and manage the user chats of [Things 💠](<01 💠 Thing.md>) on behalf of [Brands 🍏](<07 🍏🎭 Brand role.md>).
 
     ---
 
@@ -19,15 +19,15 @@
 
 1. **Do Wands know which user registered the Locator?**
 
-    No. That is hidden by [Custodians 🎩](<05 ✅ 🎩🗄️ Custodian vault.md>).
+    No. That is hidden by [Custodians 🎩](<05 🎩🗄️ Custodian vault.md>).
 
     ---
 
 1. **Can Brands know which user registered the placeholder?**
 
-    No. That is hidden by [Custodians 🎩](<05 ✅ 🎩🗄️ Custodian vault.md>). 
+    No. That is hidden by [Custodians 🎩](<05 🎩🗄️ Custodian vault.md>). 
     
-    Of course, [Brands 🍏](<07 ✅ 🍏🎭 Brand role.md>) can find alternative ways to get that information, but those are not part of the NLWeb protocol.
+    Of course, [Brands 🍏](<07 🍏🎭 Brand role.md>) can find alternative ways to get that information, but those are not part of the NLWeb protocol.
 
     ---
 

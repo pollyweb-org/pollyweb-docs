@@ -1,7 +1,7 @@
 ⌚ Tapband device FAQ
 ===
 
-![](<./00 ✅ 📎 Assets/⌚ Tapband.png>)
+![](<00 📎 Assets/⌚ Tapband.png>)
 
 1. **What is a Tapband?**
 
@@ -9,11 +9,11 @@
 
     - **Semi-online**: is able to periodically connect to the internet (e.g., Bluetooth, eSim); 
     
-    - 💍 **Userable**: emulates a passive NFC [Locator 🔆](<../../20 ✅ 🧑‍🦰 UI/22 ✅ 🔆 Locators/01 ✅ 🔆 Locator.md>) representing a [Userable 💍](<../74 ✅ 💍 Brand Userables/01 ✅ 💍 Userable thing.md>) [Thing 💠](<../71 ✅ 💠 Brand Things/01 ✅ 💠 Thing.md>);
+    - 💍 **Userable**: emulates a passive NFC [Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) representing a [Userable 💍](<../74 💍 Brand Userables/01 💍 Userable thing.md>) [Thing 💠](<../71 💠 Brand Things/01 💠 Thing.md>);
     
-    - 🔒 **Keyholder**: has an active NFC scanner to interact with [Padlocks 🔒](<../75 ✅ 🔒 Brand Padlocks/01 ✅ 🔒 Padlock device.md>);
+    - 🔒 **Keyholder**: has an active NFC scanner to interact with [Padlocks 🔒](<../75 🔒 Brand Padlocks/01 🔒 Padlock device.md>);
     
-    - 💖 **Health monitoring**: optionally, collects metrics from the user's device to send to a [Timeline 🕓](<../../30 ⏳ 🫥 Agents/38 ⏳ 🕓 User Timeline/01 ✅ 🕓🗄️ Timeline agent.md>).
+    - 💖 **Health monitoring**: optionally, collects metrics from the user's device to send to a [Timeline 🕓](<../../30 🫥 Agents/38 🕓 User Timeline/01 🕓🗄️ Timeline agent.md>).
 
     ---
 

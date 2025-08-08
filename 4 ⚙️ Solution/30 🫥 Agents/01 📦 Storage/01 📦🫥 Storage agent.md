@@ -1,11 +1,11 @@
 📦 Storage vault domains FAQ
 ===
 
-![](<00 ✅ 📎 Assets/📦 Storage.png>)
+![](<00 📎 Assets/📦 Storage.png>)
 
 1. **What is a Storage domain in NLWeb?**
 
-    A Storage 📦 domain is a shared repository [Vault 🗄️](<../../20 ✅ 🧑‍🦰 UI/24 ✅ 🗄️ Vaults/03 ✅ 🗄️🎭 Vault role.md>) that users can subscribe to keep their data in the cloud, similar to Dropbox and Google Drive, with the intent of being shared with other services. 
+    A Storage 📦 domain is a shared repository [Vault 🗄️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) that users can subscribe to keep their data in the cloud, similar to Dropbox and Google Drive, with the intent of being shared with other services. 
 
     ---
     
@@ -17,8 +17,8 @@
 
 1. **How does it help with data residency compliance?**
 
-    Storage 📦 domains align with the [NLWeb Sovereignty pledge 🦅](<../../../1 ✅ 🎯 Mission/3 ✅ 🦅 Sovereignty.md>) - e.g.:
-    - to ensure data privacy compliance, a U.S. service can store the data of a German citizen in a Storage service hosted in the [AWS European Sovereign Cloud 📺](<../../../2 ✅ 🏔️ Landscape/1 ✅ 💼 Business landscape/02 ✅ 🏳️ Sovereignty landscape/10 ✅ 📺 Sovereignty @ AWS.md>), which is managed by European staff and located within German borders.
+    Storage 📦 domains align with the [NLWeb Sovereignty pledge 🦅](<../../../1 🎯 Mission/3 🦅 Sovereignty.md>) - e.g.:
+    - to ensure data privacy compliance, a U.S. service can store the data of a German citizen in a Storage service hosted in the [AWS European Sovereign Cloud 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/10 📺 Sovereignty @ AWS.md>), which is managed by European staff and located within German borders.
 
     ---
 
@@ -50,19 +50,19 @@
 
     Yes. 
     - The NLWeb protocol includes a mechanism from transfer between Storage 📦 domains. 
-    - Failure to comply causes [Firewalls 🔥](<../../40 ✅ 👥 Domains/43 ✅ 👍 Trusts/03 ✅ 🔥👥 Firewall helper.md>) to block the domain.
+    - Failure to comply causes [Firewalls 🔥](<../../40 👥 Domains/43 👍 Trusts/03 🔥👥 Firewall helper.md>) to block the domain.
 
     ---
 
 1. **How can users pay for Storage?**
 
-    Typically, with a [subscription 🤝](<../04 ✅ 💳 Payers/04 ✅ 🤝👥 Biller helper.md>), like Google Drive.
+    Typically, with a [subscription 🤝](<../04 💳 Payers/04 🤝👥 Biller helper.md>), like Google Drive.
 
     ---
 
 1. **How can users increase the available Storage space?**
 
-    Typically, by upgrading the [subscription 🤝](<../04 ✅ 💳 Payers/04 ✅ 🤝👥 Biller helper.md>), like Google Drive.
+    Typically, by upgrading the [subscription 🤝](<../04 💳 Payers/04 🤝👥 Biller helper.md>), like Google Drive.
 
     ---
 
@@ -91,11 +91,11 @@
 
 1. **How to implement a Storage vault on AWS?**
 
-    ![](<00 ✅ 📎 Assets/📦 Storage$Vault @AWS.png>)
+    ![](<00 📎 Assets/📦 Storage$Vault @AWS.png>)
 
     This solution requires the following components:
-    - 📜 **Manifester**: to expose its [Manifest 📜](<../../40 ✅ 👥 Domains/44 ✅ 📜 Manifests/01 ✅ 📜 Domain Manifest.md>); 
-    - 📨 **Inbox**: a combination of the Distributer plus the Endpoint for domain [📨 Messaging](<../../40 ✅ 👥 Domains/41 ✅ 📨 Comms/01 ✅ 📨 Domain Message.md>).
+    - 📜 **Manifester**: to expose its [Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>); 
+    - 📨 **Inbox**: a combination of the Distributer plus the Endpoint for domain [📨 Messaging](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>).
 
     Design decisions:
     - Storage 📦 vaults write asynchronously, meaning that a read after a write may return the old value and not the one just written 
@@ -111,9 +111,9 @@
 
 1. **How to implement a Storage client cache on AWS?**
 
-    ![](<00 ✅ 📎 Assets/📦 Storage$Client @AWS.png>)
+    ![](<00 📎 Assets/📦 Storage$Client @AWS.png>)
 
-    Storage clients rely on the following components for domain [📨 Messaging](<../../40 ✅ 👥 Domains/41 ✅ 📨 Comms/01 ✅ 📨 Domain Message.md>):
+    Storage clients rely on the following components for domain [📨 Messaging](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>):
     - 📨 **Inbox**: the combination of the Distributer plus the Endpoint;
     - 🚀 **Sync Call**: a synchronous request outbound that signed requests;
     - 📮 **Async Post**: an async message outbound that signs messages.

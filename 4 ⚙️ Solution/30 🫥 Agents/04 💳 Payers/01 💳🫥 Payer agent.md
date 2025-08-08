@@ -1,20 +1,20 @@
 💳 Payer domains FAQ
 ===
 
-![](<./00 ✅ 📎 Assets/💳 Payer.png>)
+![](<00 📎 Assets/💳 Payer.png>)
 
 1. **What is a Payer domain in NLWeb?**
 
-    A Payer 💳 is a [Vault 🗄️](<../../20 ✅ 🧑‍🦰 UI/24 ✅ 🗄️ Vaults/03 ✅ 🗄️🎭 Vault role.md>) with access to the user's money.
+    A Payer 💳 is a [Vault 🗄️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) with access to the user's money.
 
     ---
     
 1. **How are user payments processed?**
 
     On NLWeb, payment transactions are handled between:
-    - 1/ [Sellers 💵](<02 ✅ 💵🎭 Seller role.md>) -  these are [Consumer 💼](<../../20 ✅ 🧑‍🦰 UI/25 ✅ 💼 Consumers/04 ✅ 💼🎭 Consumer role.md>) domains that request payments, 
-    - 2/ Payers - these are user-bound [Vaults 🗄️](<../../20 ✅ 🧑‍🦰 UI/24 ✅ 🗄️ Vaults/03 ✅ 🗄️🎭 Vault role.md>) with access to the user's money, 
-    - 3/ [Collectors 🏦](<03 ✅ 🏦👥 Collector helper.md>) - these are [Vault 🗄️](<../../20 ✅ 🧑‍🦰 UI/24 ✅ 🗄️ Vaults/03 ✅ 🗄️🎭 Vault role.md>) domains with access to the Seller's money. 
+    - 1/ [Sellers 💵](<02 💵🎭 Seller role.md>) -  these are [Consumer 💼](<../../20 🧑‍🦰 UI/25 💼 Consumers/04 💼🎭 Consumer role.md>) domains that request payments, 
+    - 2/ Payers - these are user-bound [Vaults 🗄️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) with access to the user's money, 
+    - 3/ [Collectors 🏦](<03 🏦👥 Collector helper.md>) - these are [Vault 🗄️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) domains with access to the Seller's money. 
     
     Upon check-out, 
     - 1/ the Seller registers the upcoming payment to their Collector, 
@@ -27,14 +27,14 @@
 
 1. **What user problem do Payers solve?**
 
-    Read the [User challenges 🧑 ](<../../../2 ✅ 🏔️ Landscape/1 ✅ 💼 Business landscape/05 ✅ 💳 Payments landscape/01 ✅ 🧑 User challenges.md>) section of the [Payments landscape FAQ 💳](<../../../2 ✅ 🏔️ Landscape/1 ✅ 💼 Business landscape/05 ✅ 💳 Payments landscape/00 ✅ 💳 Payments index.md>).
+    Read the [User challenges 🧑 ](<../../../2 🏔️ Landscape/1 💼 Business landscape/05 💳 Payments landscape/01 🧑 User challenges.md>) section of the [Payments landscape FAQ 💳](<../../../2 🏔️ Landscape/1 💼 Business landscape/05 💳 Payments landscape/00 💳 Payments index.md>).
 
     ---
     
 1. **What responsibilities do Payers have in a payment?**
 
     Payers 💳 are responsible for:
-    - receiving payment requests from [Collectors 🏦](<03 ✅ 🏦👥 Collector helper.md>);
+    - receiving payment requests from [Collectors 🏦](<03 🏦👥 Collector helper.md>);
     - memorizing the user's available payment methods;
     - collecting the payment from the user's selected payment method:
         - e.g., Visa, American Express, Google Pay, Brazilian Pix, Portuguese MBWay;
@@ -48,7 +48,7 @@
     
 1. **What responsibilities do Payers have with invoices?**
 
-    None. [Collectors 🏦](<03 ✅ 🏦👥 Collector helper.md>) are responsible for invoices.
+    None. [Collectors 🏦](<03 🏦👥 Collector helper.md>) are responsible for invoices.
 
     ---
     
@@ -66,18 +66,18 @@
     
 1. **What happens if a transaction is cancelled?**
 
-    Typically, the money is reverted, but it depends on the relationship between the Payer 💳 and the [Collector 🏦](<03 ✅ 🏦👥 Collector helper.md>).
+    Typically, the money is reverted, but it depends on the relationship between the Payer 💳 and the [Collector 🏦](<03 🏦👥 Collector helper.md>).
 
     ---
     
     
 1. **How does it differ from India's ONDC?**
 
-    The [Open Network for Digital Commerce (ONDC) 📺](<../../../2 ✅ 🏔️ Landscape/1 ✅ 💼 Business landscape/09 ✅ 🛒 Shopping landscape/01 ✅ 📺 🇮🇳 India's ONDC.md>) is a centralized shared network specific for the retail industry in India. 
+    The [Open Network for Digital Commerce (ONDC) 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/09 🛒 Shopping landscape/01 📺 🇮🇳 India's ONDC.md>) is a centralized shared network specific for the retail industry in India. 
     - NLWeb can also address that niche, 
         - but NLWeb os a generalist, global, and distributed protocol based on natural language.  
     - Conversely, NLWeb is against any form of central governance for payments 
-        - i.e., there should be multiple channels for Payers 💳 and [Collectors 🏦](<03 ✅ 🏦👥 Collector helper.md>) to communicate;
+        - i.e., there should be multiple channels for Payers 💳 and [Collectors 🏦](<03 🏦👥 Collector helper.md>) to communicate;
         - e.g., if SWIFT doesn't work, send it via TransferWise.
 
     ---
@@ -94,7 +94,7 @@
 
     No. NLWeb does not use the standard payment NFC protocol. 
     
-    - However, users can tap on a NLWeb [🔆 NFC Locator](<../../20 ✅ 🧑‍🦰 UI/22 ✅ 🔆 Locators/01 ✅ 🔆 Locator.md>) with their devices to check out an NLWeb transaction, while continuing to use the device's standard NFC payments for traditional point of sale (POS) terminals. 
+    - However, users can tap on a NLWeb [🔆 NFC Locator](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) with their devices to check out an NLWeb transaction, while continuing to use the device's standard NFC payments for traditional point of sale (POS) terminals. 
     
     - The user experience should be similar in both cases, but with NLWeb there is no need for businesses to acquire expensive payment terminals because the UX is in the user's device - only a passive NFC tag costing less than $1 is required.
 
@@ -105,14 +105,14 @@
     No. NLWeb requires internet connectivity on the user's device. 
     
     - This will be a non-problem soon, as internet becomes ubiquitous. 
-    - [Starlink 📺](<../../../2 ✅ 🏔️ Landscape/2 ✅ 🧑‍🦰 User landscape/01 ✅ 🛰️ Connectivity landscape/03 ✅ 📺 Starlink @ phones.md>) and [Project Kuiper 📺](<../../../2 ✅ 🏔️ Landscape/2 ✅ 🧑‍🦰 User landscape/01 ✅ 🛰️ Connectivity landscape/04 ✅ 📺 Amazon's Kuiper.md>) will provide internet [worldwide 📺](<../../../2 ✅ 🏔️ Landscape/2 ✅ 🧑‍🦰 User landscape/01 ✅ 🛰️ Connectivity landscape/01 ✅ 📺 Starlink @ remote areas.md>) and [in airplanes 📺](<../../../2 ✅ 🏔️ Landscape/2 ✅ 🧑‍🦰 User landscape/01 ✅ 🛰️ Connectivity landscape/02 ✅ 📺 Starlink @ airplanes.md>).
+    - [Starlink 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/01 🛰️ Connectivity landscape/03 📺 Starlink @ phones.md>) and [Project Kuiper 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/01 🛰️ Connectivity landscape/04 📺 Amazon's Kuiper.md>) will provide internet [worldwide 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/01 🛰️ Connectivity landscape/01 📺 Starlink @ remote areas.md>) and [in airplanes 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/01 🛰️ Connectivity landscape/02 📺 Starlink @ airplanes.md>).
     - Cities will provide free public Wi-Fi underground, like the Elizabeth Line in London. 
 
     ---
     
 1. **Do Payers transfer money to collectors, or pay by card?**
 
-    Payers 💳 and [Collectors 🏦](<03 ✅ 🏦👥 Collector helper.md>) may support multiple ways to transact. 
+    Payers 💳 and [Collectors 🏦](<03 🏦👥 Collector helper.md>) may support multiple ways to transact. 
     
     - When multiple choices are possible, Payers 💳 may ask the user for their preference. 
     - The exact payment method will depend on the transfer methods supported by both parties (e.g., SWIFT, TransferWise), and the user configurations supported by the Payer 💳 (e.g., Visa, MasterCard, Brazilian Pix).
@@ -121,13 +121,13 @@
     
 1. **Can a payment be reverted or cancelled?**
 
-    Yes. [Collectors 🏦](<03 ✅ 🏦👥 Collector helper.md>) can do initiate it, but Payers 💳 can't.
+    Yes. [Collectors 🏦](<03 🏦👥 Collector helper.md>) can do initiate it, but Payers 💳 can't.
 
     ---
     
 1. **Can payments be done with credit/debit notes?**
 
-    Yes, as long as the Payer 💳 and the [Collector 🏦](<03 ✅ 🏦👥 Collector helper.md>) support it.
+    Yes, as long as the Payer 💳 and the [Collector 🏦](<03 🏦👥 Collector helper.md>) support it.
 
     ---
     
@@ -135,7 +135,7 @@
 
     No. 
     
-    - Receipts and invoices are created by the [Seller 💵](<02 ✅ 💵🎭 Seller role.md>)'s [Collector 🏦](<03 ✅ 🏦👥 Collector helper.md>) domain, and are sent to the user's Payer 💳 domain. 
+    - Receipts and invoices are created by the [Seller 💵](<02 💵🎭 Seller role.md>)'s [Collector 🏦](<03 🏦👥 Collector helper.md>) domain, and are sent to the user's Payer 💳 domain. 
     
     - Users should ask their Payer 💳 domain for the receipt:
         - e.g., a payment gateway may allow the receipts to be downloaded from the transaction list on their website, or they can send each receipt to a chat window every time there is a payment. 
@@ -148,9 +148,9 @@
 
     NLWeb discourages the usage of blockchain in this scenario for multiple reasons:
 
-    - **simplicity:** if only two entities (Payer 💳 and [Collector 🏦](<03 ✅ 🏦👥 Collector helper.md>)) need to communicate, then two simple mutually authenticated API endpoints are enough to do the job.
+    - **simplicity:** if only two entities (Payer 💳 and [Collector 🏦](<03 🏦👥 Collector helper.md>)) need to communicate, then two simple mutually authenticated API endpoints are enough to do the job.
     - **scalability:** blockchain's performance degrades as the number of parties increase, which is incompatible with a protocol supporting billions of users;
-        - e.g., Sam Altman's [World 📺](<../../../2 ✅ 🏔️ Landscape/2 ✅ 🧑‍🦰 User landscape/06 ✅ 👮 Supervised ID landscape/11 ✅ 📺 Sam Altman's World.md>) moved from blockchain to an proprietary protocol in 2024 for their digital currency due to scalability limitations.
+        - e.g., Sam Altman's [World 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/11 📺 Sam Altman's World.md>) moved from blockchain to an proprietary protocol in 2024 for their digital currency due to scalability limitations.
     - **geo-political resilience:** in the case of a international conflict, two sovereign nations don't want to depend on a third nation to "authorize" money transfers between the first two;
         - e.g., during the Russia-Ukraine conflict, the international community imposed SWIFT payment restrictions to Russia.
 
@@ -166,7 +166,7 @@
 
     No.
 
-    - For design simplicity, Payers 💳 store user's card details instead of pulling them from [Persona 🧢](<../02 ✅ 🧢 Personas/02 ✅ 🧢🫥 Persona agent.md>) vaults.
-    - Storing card details required special security settings defined by PCI/DSS policies, which Payers already hold but [Persona 🧢](<../02 ✅ 🧢 Personas/02 ✅ 🧢🫥 Persona agent.md>) vaults would have to implement.
+    - For design simplicity, Payers 💳 store user's card details instead of pulling them from [Persona 🧢](<../02 🧢 Personas/02 🧢🫥 Persona agent.md>) vaults.
+    - Storing card details required special security settings defined by PCI/DSS policies, which Payers already hold but [Persona 🧢](<../02 🧢 Personas/02 🧢🫥 Persona agent.md>) vaults would have to implement.
 
 ---

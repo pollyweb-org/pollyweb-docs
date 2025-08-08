@@ -5,22 +5,22 @@
 
 1. **What is a Mingler?**
 
-    A Mingler 📇 is a user [Vault 🗄️](<../../20 ✅ 🧑‍🦰 UI/24 ✅ 🗄️ Vaults/03 ✅ 🗄️🎭 Vault role.md>) that networks with other [🧑‍🦰Wallets](<../../20 ✅ 🧑‍🦰 UI/01 ✅ 🧑‍🦰 Wallets/01 ✅ 🧑‍🦰 Wallet app.md>) via their Minglers?
+    A Mingler 📇 is a user [Vault 🗄️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) that networks with other [🧑‍🦰Wallets](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) via their Minglers?
 
     ---
 
 1. **What are the responsibilities of Mingler?**
 
     Mingler responsibilities include:
-    - Keep a list of connected [🧑‍🦰Wallets](<../../20 ✅ 🧑‍🦰 UI/01 ✅ 🧑‍🦰 Wallets/01 ✅ 🧑‍🦰 Wallet app.md>) and send them messages;
+    - Keep a list of connected [🧑‍🦰Wallets](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and send them messages;
     - Fan out incoming interactions to the user's desired communication channels:
         - e.g., email, phones, WhatsApp, phone recording;
         - this allows users to control how to receive messages and calls.
     - Forward requests from services to connected users:
-        - e.g., IDs for [invitation letters](<../../../3 ⏳ 🤝 Use Cases/03 ⏳ 🧳 Travel/09 ⏳ Travel by air 💺/12 ✅ Invitation letter/01 ✅ Send letter.md>), ride hailing payments;
+        - e.g., IDs for [invitation letters](<../../../3 🤝 Use Cases/03 🧳 Travel/09 🧳 Travel by air 💺/12 💺 Invitation letter/01 Send letter.md>), ride hailing payments;
         - this allows connected users to control how their tokens are used.
     - Save tokens from connected users: 
-        - e.g., elder's [discount tickets](<../../../3 ⏳ 🤝 Use Cases/03 ⏳ 🧳 Travel/02 ✅ Travel by bus 🚎/02 ✅ Traveler @ Stop/21 ✅ Buy smart tickets.md>), shared car documents;
+        - e.g., elder's [discount tickets](<../../../3 🤝 Use Cases/03 🧳 Travel/02 🧳 Travel by bus 🚎/02 🚎 Traveler @ Stop/21 Buy smart tickets.md>), shared car documents;
         - this allows care givers to represent their care takers.
     
     
@@ -28,8 +28,8 @@
 
 1. **Couldn't these responsibilities be handled by a Broker?**
 
-    [Brokers 🤵](<../../20 ✅ 🧑‍🦰 UI/03 ✅ 🤵 Brokers/03 ✅ 🤵 Broker domain.md>) see [Wallet apps 🧑‍🦰](<../../20 ✅ 🧑‍🦰 UI/01 ✅ 🧑‍🦰 Wallets/01 ✅ 🧑‍🦰 Wallet app.md>) as unique entities;
-    - while Minglers 📇 can associate and disassociate multiple entry points to the same [Wallet app 🧑‍🦰](<../../20 ✅ 🧑‍🦰 UI/01 ✅ 🧑‍🦰 Wallets/01 ✅ 🧑‍🦰 Wallet app.md>);
+    [Brokers 🤵](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) see [Wallet apps 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) as unique entities;
+    - while Minglers 📇 can associate and disassociate multiple entry points to the same [Wallet app 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>);
     - this allows users to be forgotten and be perceived differently by different groups.
 
     ---

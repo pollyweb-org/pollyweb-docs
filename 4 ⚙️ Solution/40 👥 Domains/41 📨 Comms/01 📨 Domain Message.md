@@ -14,7 +14,7 @@
 1. **What is contained in a domain message envelope?**
 
     Messages from domains are sent in envelopes similar to email messages, containing the following properties:
-    - **Code**: the [Schema Code 🧩](<../../20 ✅ 🧑‍🦰 UI/24 ✅ 🗄️ Vaults/02 ✅ 🧩 Schema Code.md>) of the envelope (e.g., `nlweb.org/msg:1.0`)
+    - **Code**: the [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) of the envelope (e.g., `nlweb.org/msg:1.0`)
     - **Correlation**: the unique ID in the sender (e.g., `125a5c75-cb72-43d2-9695-37026dfcaa48`)
     - **Timestamp**: the date and time of the message, in UTC format (e.g., `2018-12-10T13:45:00.000Z`)
     - **From**: the domain who sent the message (e.g., `any-sender.com`)
@@ -59,7 +59,7 @@
 
 1. **How do receiver domains prevent sender impersonation attacks?**
 
-    NLWeb domains implement the ubiquitous [DKIM (rfc6376) protocol 📺](<../../../2 ✅ 🏔️ Landscape/2 ✅ 🧑‍🦰 User landscape/08 ✅ 🔐 Passwordless ID landscape/07 ✅ 📺 Email DKIM.md>) used by email servers to verify envelopes received from other domains. 
+    NLWeb domains implement the ubiquitous [DKIM (rfc6376) protocol 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) used by email servers to verify envelopes received from other domains. 
     
     - Sender domains hash their envelopes with JSON Canonicalization Scheme (rfc8785) and sign them with their private half of the DKIM key-pair. 
     
@@ -128,30 +128,12 @@
 
 1. **What's the message flow in synchronous communication?** 
 
-    ![Sync](<../../../5 ⏳ ⏩ Flows/01 ✅ 👥⏩ Domains/📎 Assets/⚙️🚀 SyncRequest.png>)
+    ![Sync](<../../../5 ⏩ Flows/01 👥⏩ Domains/📎 Assets/⚙️🚀 SyncRequest.png>)
 
     ---
 
 1. **What's the message flow in async communication?** 
 
-    ![Async](<../../../5 ⏳ ⏩ Flows/01 ✅ 👥⏩ Domains/📎 Assets/⚙️🐌 AsyncMessage.png>)
-
-    ---
-
-1. **How to implement a message Inbox on AWS?** 
-
-    ![](<../../../8 ⏳ 🧑‍💻 SDKs/20 ⏳ ☁️ AWS SDK/📎 Assets/📨 Comms$Inbox.png>)
-
-    ---
-
-1. **How to implement a synchronous message Outbox on AWS?** 
-
-    ![](<../../../8 ⏳ 🧑‍💻 SDKs/20 ⏳ ☁️ AWS SDK/📎 Assets/📨 Comms$Out$Sync.png>)
-
-    ---
-
-1. **How to implement an asynchronous message Outbox on AWS?** 
-
-    ![](<../../../8 ⏳ 🧑‍💻 SDKs/20 ⏳ ☁️ AWS SDK/📎 Assets/📨 Comms$Out$Async.png>)
+    ![Async](<../../../5 ⏩ Flows/01 👥⏩ Domains/📎 Assets/⚙️🐌 AsyncMessage.png>)
 
     ---
