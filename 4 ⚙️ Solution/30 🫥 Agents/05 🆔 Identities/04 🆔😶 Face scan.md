@@ -1,7 +1,7 @@
 🆔 Identity face scans FAQ
 ===
 
-![](<./00 ✅ 📎 Assets/🆔 Online.png>)
+![](<00 📎 Assets/🆔 Online.png>)
 
 1. **How is face recognition secured with a selfie input?**
 
@@ -26,9 +26,9 @@
     
 1. **How to implement face liveness checks on AWS?**
 
-    ![](<./00 ✅ 📎 Assets/🆔 Face Scan @AWS.png>)
+    ![](<00 📎 Assets/🆔 Face Scan @AWS.png>)
 
-    Identity domains rely on the following components for domain [📨 Messaging](<../../40 ✅ 👥 Domains/41 ✅ 📨 Comms/01 ✅ 📨 Domain Message.md>):
+    Identity domains rely on the following components for domain [📨 Messaging](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>):
     - 📨 **Inbox**: the combination of the Distributer plus the Endpoint;
     - 📮 **Async Post**: an async message outbound that signs messages.
 
