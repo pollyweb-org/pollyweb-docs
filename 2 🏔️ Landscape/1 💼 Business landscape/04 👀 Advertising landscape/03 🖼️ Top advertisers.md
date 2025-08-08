@@ -6,4 +6,4 @@ The top companies in worldwide media advertising include Google, leading with a 
 - The charts also show a consistent shift from traditional to digital platforms, driven by increased internet usage, mobile device penetration, and the effectiveness of digital ad formats.
 
 <!-- https://www.emarketer.com/content/worldwide-ad-spending-update-2023 -->
-![](<./📎 Assets/👀 ads-market-share.png>)
+![](<.📎 Assets/👀 ads-market-share.png>)

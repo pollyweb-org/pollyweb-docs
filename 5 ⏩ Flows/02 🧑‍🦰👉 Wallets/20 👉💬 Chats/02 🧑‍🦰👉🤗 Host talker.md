@@ -20,4 +20,4 @@
 
 ## Flow Diagram
 
-![Talker](<📎 Assets/⚙️ Talker.png>)
+![Talker](<.📎 Assets/⚙️ Talker.png>)

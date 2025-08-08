@@ -12,4 +12,4 @@
 
 ## Flow diagram ⏩
 
-![Manifest](<📎 Assets/⚙️🕸 Manifest.png>)
+![Manifest](<.📎 Assets/⚙️🕸 Manifest.png>)

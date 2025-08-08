@@ -1,7 +1,7 @@
 🔆 NLWeb NFC/QR Locators FAQ
 ===
 
-![](<./📎 Assets/🔆 Locators.png>)
+![](<.📎 Assets/🔆 Locators.png>)
 
 1. **How are non-humans identified**
 

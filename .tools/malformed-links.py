@@ -295,7 +295,7 @@ def check_broken_links(md_files, png_files):
                     broken_links[md_file].append(tuple)
 
                     count += 1
-                    if count > 10:
+                    if count > 1000:
                         # stop
                         print(f"Checking {count} times, stopping for performance reasons.")
                         return broken_links, malformed_links, False

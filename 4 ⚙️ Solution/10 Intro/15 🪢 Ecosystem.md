@@ -1,7 +1,7 @@
 🪢 NLWeb Ecosystem
 ===
 
-![](<./📎 Assets/Ecosystem.png>)
+![](<.📎 Assets/Ecosystem.png>)
 
 The NLWeb ecosystem aims to simplify everyday business transactions by streamlining interactions between users, organizations, and things, while ensuring security and performance at a global scale.
 

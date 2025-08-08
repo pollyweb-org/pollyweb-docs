@@ -2,7 +2,7 @@
 🛠️ Pluggable devices FAQ
 ===
 
-![](<./📎 Assets/🔌 Pluggable.png>)
+![](<.📎 Assets/🔌 Pluggable.png>)
 
 1. **What is a Pluggable?**
 

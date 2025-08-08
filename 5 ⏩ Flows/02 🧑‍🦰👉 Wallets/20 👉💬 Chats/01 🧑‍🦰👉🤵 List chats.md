@@ -11,4 +11,4 @@
 
 ## Flow diagram
 
-![List chats](<📎 Assets/⚙️ List chats.png>)
+![List chats](<.📎 Assets/⚙️ List chats.png>)

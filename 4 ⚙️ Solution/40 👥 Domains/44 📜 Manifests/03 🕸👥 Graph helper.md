@@ -1,7 +1,7 @@
 🕸 Graph Domain Development FAQ
 ===
 
-![](<./📎 Assets/📜 Graphs.png>)
+![](<.📎 Assets/📜 Graphs.png>)
 
 1. **What is a Graph domain in NLWeb?**
 

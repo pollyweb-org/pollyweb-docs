@@ -1,7 +1,7 @@
 🎴 Issuer domain role FAQ
 ===
 
-![](<./📎 Assets/🎫 Issuer.png>)
+![](<.📎 Assets/🎫 Issuer.png>)
 
 1. **What is an Issuer domain role in NLWeb?**
 

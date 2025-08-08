@@ -42,4 +42,4 @@
 
 ## Flow diagram
 
-![Onboard](<📎 Assets/⚙️ Onboard.png>)
+![Onboard](<.📎 Assets/⚙️ Onboard.png>)

@@ -20,4 +20,4 @@
 
 ## Flow diagram
 
-![Subscribe](<📎 Assets/⚙️🌬️ Ingest.png>)
+![Subscribe](<.📎 Assets/⚙️🌬️ Ingest.png>)

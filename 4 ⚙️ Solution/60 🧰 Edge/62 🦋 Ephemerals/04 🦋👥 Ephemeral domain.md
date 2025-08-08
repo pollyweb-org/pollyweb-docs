@@ -13,6 +13,6 @@
 
 1. **How to order and install an Ephemeral from a supplier?**
 
-    ![](<📎 Assets/🦋 Ephemeral UML.png>)
+    ![](<.📎 Assets/🦋 Ephemeral UML.png>)
 
     ---

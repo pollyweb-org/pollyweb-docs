@@ -25,4 +25,4 @@
 
 ## Flow diagram
 
-![Bind vault](<📎 Assets/⚙️ Bind vault.png>)
+![Bind vault](<.📎 Assets/⚙️ Bind vault.png>)

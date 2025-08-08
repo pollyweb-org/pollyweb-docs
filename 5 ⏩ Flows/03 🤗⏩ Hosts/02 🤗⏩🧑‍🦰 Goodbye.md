@@ -12,4 +12,4 @@
 
 ## Flow diagram
 
-![Goodbye](<📎 Assets/26 ⚙️👋 Goodbye.png>)
+![Goodbye](<.📎 Assets/26 ⚙️👋 Goodbye.png>)

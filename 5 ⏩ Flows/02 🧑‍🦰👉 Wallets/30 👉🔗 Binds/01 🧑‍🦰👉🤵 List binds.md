@@ -12,4 +12,4 @@
 
 ## Flow diagram
 
-![List binds](<📎 Assets/⚙️ List binds.png>)
+![List binds](<.📎 Assets/⚙️ List binds.png>)

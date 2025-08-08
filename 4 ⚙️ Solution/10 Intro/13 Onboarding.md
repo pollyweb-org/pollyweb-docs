@@ -1,7 +1,7 @@
 Onboarding FAQ
 ===
 
-![](<./📎 Assets/Wallet.png>)
+![](<.📎 Assets/Wallet.png>)
 
 
 1. **What does a user need to engage in an NLWeb chat?**

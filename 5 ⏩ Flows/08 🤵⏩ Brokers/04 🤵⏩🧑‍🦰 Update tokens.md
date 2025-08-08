@@ -17,4 +17,4 @@
 
 ## Flow diagram
 
-![Update tokens](<📎 Assets/⚙️🎫 Update tokens.png>)
+![Update tokens](<.📎 Assets/⚙️🎫 Update tokens.png>)

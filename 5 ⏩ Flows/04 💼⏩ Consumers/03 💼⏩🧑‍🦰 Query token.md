@@ -15,4 +15,4 @@
 
 ## Flow diagram
 
-![alt text](<📎 Assets/⚙️ Query Token.png>)
+![alt text](<.📎 Assets/⚙️ Query Token.png>)

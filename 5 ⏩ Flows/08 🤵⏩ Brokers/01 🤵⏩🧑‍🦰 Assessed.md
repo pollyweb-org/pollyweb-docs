@@ -19,4 +19,4 @@
 
 ## Flow diagram
 
-![New chat](<📎 Assets/⚙️ New chat.png>)
+![New chat](<.📎 Assets/⚙️ New chat.png>)

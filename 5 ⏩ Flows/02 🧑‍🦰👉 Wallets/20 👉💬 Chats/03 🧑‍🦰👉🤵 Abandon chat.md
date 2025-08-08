@@ -30,4 +30,4 @@
 
 ## Flow diagram
 
-![Flow diagram](<📎 Assets/⚙️ Abandon chat.png>)
+![Flow diagram](<.📎 Assets/⚙️ Abandon chat.png>)

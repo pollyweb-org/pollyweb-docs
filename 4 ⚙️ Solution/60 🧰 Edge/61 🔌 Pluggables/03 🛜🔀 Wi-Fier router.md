@@ -1,7 +1,7 @@
 🛜 Wi-Fier add-on device FAQ
 ===
 
-![](<./📎 Assets/🔌 Wi-Fier.png>)
+![](<.📎 Assets/🔌 Wi-Fier.png>)
 
 1. **What is a Wi-Fier device in NLWeb?**
 

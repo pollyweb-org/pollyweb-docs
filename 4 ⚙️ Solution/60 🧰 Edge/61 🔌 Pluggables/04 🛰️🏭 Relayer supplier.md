@@ -1,7 +1,7 @@
 🛰️ Pluggable domains FAQ
 ===
 
-![](<./📎 Assets/🔌 Relayer.png>)
+![](<.📎 Assets/🔌 Relayer.png>)
 
 1. **What is a Relayer?**
 
