@@ -348,6 +348,9 @@ def print_results(broken_links, malformed_links):
                             fix_link = 'y'
                         elif yes_memory and (link, suggestion) in yes_memory:
                             fix_link = 'y'
+                        # replace auto-suggested when there's only missing ✅ emojies
+                        elif True and suggestion == link.replace('✅', '').replace('⏳', ''):
+                            fix_link = 'y'
                         else: 
                             fix_link = input("  - Do you want to fix this link? (y/n): ")
 
