@@ -165,10 +165,10 @@ def check_broken_links(md_files, png_files):
     count = 0
     for md_file in md_files:
         count += 1
-        #if count > 10:
-        #    # stop
-        #    print(f"Checking {count} files, stopping for performance reasons.")
-        #    break
+        if count > 10:
+            # stop
+            print(f"Checking {count} files, stopping for performance reasons.")
+            break
 
         # Read file content
         with open(md_file, 'r', encoding='utf-8') as file:
