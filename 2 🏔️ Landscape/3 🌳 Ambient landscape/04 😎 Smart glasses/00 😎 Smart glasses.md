@@ -13,9 +13,9 @@
 ---
 
 🧠 In this chapter, you will learn:
-- how is the smart glass tech in the 🇺🇸 [U.S.](<01 ✅ 📺 🇺🇸 US.md>) and in 🇨🇳 [China](<02 ✅ 📺 🇨🇳 China.md>);
-- what are the offers of [Apple](<03 ✅ 📺 Apple Vision Pro.md>) and [Google](<04 ✅ 📺 Android XR.md>);
-- how Meta is competing with [Ray-Ban glasses](<05 ✅ 📺 Meta's Ray-Ban.md>), [AR glasses](<06 ✅ 📺 Meta's AR glasses.md>), and [Quest](<07 ✅ 📺 Meta's Quest 3s.md>);
-- how OpenAI's ChatGPT integrates in [apps](<08 ✅ 📺 OpenAI + Be My Eyes.md>) and [glasses](<09 ✅ 📺 OpenAI + Envision.md>) for blind individuals.
+- how is the smart glass tech in the 🇺🇸 [U.S.](<01 📺 🇺🇸 US.md>) and in 🇨🇳 [China](<02 📺 🇨🇳 China.md>);
+- what are the offers of [Apple](<03 📺 Apple Vision Pro.md>) and [Google](<04 📺 Android XR.md>);
+- how Meta is competing with [Ray-Ban glasses](<05 📺 Meta's Ray-Ban.md>), [AR glasses](<06 📺 Meta's AR glasses.md>), and [Quest](<07 📺 Meta's Quest 3s.md>);
+- how OpenAI's ChatGPT integrates in [apps](<08 📺 OpenAI + Be My Eyes.md>) and [glasses](<09 📺 OpenAI + Envision.md>) for blind individuals.
 
 ---

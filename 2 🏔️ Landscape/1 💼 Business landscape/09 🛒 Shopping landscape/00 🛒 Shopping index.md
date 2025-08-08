@@ -28,12 +28,12 @@
 📺 In this chapter, you will learn:
 
 - How 🇮🇳 India is democratizing their digital commerce:
-    - with [ONDC](<01 ✅ 📺 🇮🇳 India's ONDC.md>), an open database for products and services;
-    - and with [Beckn](<02 ✅ 📺 🇮🇳 India's Beckn.md>), an open UI protocol for e-commerce.
+    - with [ONDC](<01 📺 🇮🇳 India's ONDC.md>), an open database for products and services;
+    - and with [Beckn](<02 📺 🇮🇳 India's Beckn.md>), an open UI protocol for e-commerce.
 - How 🇨🇳 China's WeChat helps businesses by enabling them to:
-    - interact with [1.36 billion](<03 ✅ 📺 🇨🇳 WeChat users.md>) monthly active users;
-    - build contextualized web-based [mini programs](<04 ✅ 📺 🇨🇳 WeChat programs.md>);
-    - access to [platforms](<05 ✅ 📺 🇨🇳 WeChat platforms.md>) for businesses and developers.
-- Why the [🇺🇸 United States](<06 ✅ 📺 🇺🇸 US superapps.md>) don't have super apps.
+    - interact with [1.36 billion](<03 📺 🇨🇳 WeChat users.md>) monthly active users;
+    - build contextualized web-based [mini programs](<04 📺 🇨🇳 WeChat programs.md>);
+    - access to [platforms](<05 📺 🇨🇳 WeChat platforms.md>) for businesses and developers.
+- Why the [🇺🇸 United States](<06 📺 🇺🇸 US superapps.md>) don't have super apps.
 
 ---

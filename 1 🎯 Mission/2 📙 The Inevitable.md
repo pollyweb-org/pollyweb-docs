@@ -76,15 +76,15 @@
 
 ## 🧠 <a id='Interacting'>Interacting</a> (Beyond Screens)
 - **Summary:** Interfaces are evolving beyond keyboards and screens to voice, gestures, and even brain-computer interactions.
-- **Status: Early Adoption** – Voice, AR/VR, and [BCIs 🧠](<../2 ✅ 🏔️ Landscape/3 ✅ 🌳 Ambient landscape/05 ✅ 🧠 Brain Interfaces/00 ✅ 🧠 Brain Interfaces.md>) are in development. *Example: [Neuralink 📺](<../2 ✅ 🏔️ Landscape/3 ✅ 🌳 Ambient landscape/05 ✅ 🧠 Brain Interfaces/05 ✅ 📺 Neuralink.md>) demonstrating brain-computer interfaces for medical applications.*
-- **Risk: Neural Data Monopolies** – If [BCIs 🧠](<../2 ✅ 🏔️ Landscape/3 ✅ 🌳 Ambient landscape/05 ✅ 🧠 Brain Interfaces/00 ✅ 🧠 Brain Interfaces.md>) are controlled by a few companies, they could dictate cognitive experiences.
+- **Status: Early Adoption** – Voice, AR/VR, and [BCIs 🧠](<../2 🏔️ Landscape/3 🌳 Ambient landscape/05 🧠 Brain Interfaces/00 🧠 Brain Interfaces.md>) are in development. *Example: [Neuralink 📺](<../2 🏔️ Landscape/3 🌳 Ambient landscape/05 🧠 Brain Interfaces/05 📺 Neuralink.md>) demonstrating brain-computer interfaces for medical applications.*
+- **Risk: Neural Data Monopolies** – If [BCIs 🧠](<../2 🏔️ Landscape/3 🌳 Ambient landscape/05 🧠 Brain Interfaces/00 🧠 Brain Interfaces.md>) are controlled by a few companies, they could dictate cognitive experiences.
 - **Mitigation:** **Foster open BCI hardware/software ecosystems**. Mandate data portability laws so neural data isn’t locked into a single corporation, ensuring user freedom.
 - **Challenge:** Implementation requires regulatory support and broad collaboration among biotech, government, and tech giants, which is slow and complicated.
 
 ## 🔗 <a id='Tracking'>Tracking</a> (Transparency & Surveillance)
 - **Summary:** Everything is being tracked, from our movements to our behaviors, creating both unprecedented transparency and massive privacy concerns.
-- **Status: Embedded in Daily Life** – IoT devices, [smart cities 📺](<../2 ✅ 🏔️ Landscape/3 ✅ 🌳 Ambient landscape/01 ✅ 🏡 Smart Homes/07 ✅ 📺 Smart cities.md>), and biometric tracking make real-time surveillance nearly ubiquitous. 
-    *Example: [Governments 🏳️](<../2 ✅ 🏔️ Landscape/1 ✅ 💼 Business landscape/02 ✅ 🏳️ Sovereignty landscape/00 ✅ 🏳️ Sovereignty index.md>) and [corporations 💼](<../2 ✅ 🏔️ Landscape/1 ✅ 💼 Business landscape/01 ✅ 🗂️ Profiling landscape/00 ✅ 🗂️ Profiling Index.md>) using AI-driven analytics to monitor behavior and enforce regulations.*
+- **Status: Embedded in Daily Life** – IoT devices, [smart cities 📺](<../2 🏔️ Landscape/3 🌳 Ambient landscape/01 🏡 Smart Homes/07 📺 Smart cities.md>), and biometric tracking make real-time surveillance nearly ubiquitous. 
+    *Example: [Governments 🏳️](<../2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/00 🏳️ Sovereignty index.md>) and [corporations 💼](<../2 🏔️ Landscape/1 💼 Business landscape/01 🗂️ Profiling landscape/00 🗂️ Profiling Index.md>) using AI-driven analytics to monitor behavior and enforce regulations.*
 - **Risk: Loss of Privacy** – Citizens and consumers have little control over their data, with tracking often happening without consent.
 - **Mitigation:** **Implement decentralized identity and personal data vaults** that allow individuals to control and monetize their own data instead of surrendering it to companies and governments.
 - **Challenge:** Widespread adoption requires strong legal protections and technical standards that balance convenience with ethical concerns.

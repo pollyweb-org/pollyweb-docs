@@ -5,7 +5,7 @@ This 2023 video from Mailtrap, titled *"How DKIM works - Tutorial by Mailtrap"*,
 
 - When email servers send messages between them, the message is signed with the sender's private key, and the receiver uses the sender's public key (available as a DKIM DNS record) to verify the message. 
 
-- Domains may have more than one active DKIM to support [periodic rotations](<00 ✅ 📎 Assets/🔐 dkim-rotations.pdf>) (e.g., every 4 months), so receivers need to lookup the message's DKIM selector to know which active key to use for validation.
+- Domains may have more than one active DKIM to support [periodic rotations](<00 📎 Assets/🔐 dkim-rotations.pdf>) (e.g., every 4 months), so receivers need to lookup the message's DKIM selector to know which active key to use for validation.
 
 <!-- https://www.youtube.com/watch?v=oPdGmJUquyM --><br/>
 

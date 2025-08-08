@@ -8,12 +8,12 @@
 
 📺 In this chapter, you will learn:
 
-- What is smart health, according to [doctors](<01 ✅ 📺 Doctors' opinion.md>), [hospitals](<02 ✅ 📺 Hospitals' opinion.md>), [journalists](<03 ✅ 📺 Journalists' opinion.md>), and [NVIDIA](<04 ✅ 📺 NVIDIA.md>);
-- What are the wearable features offered by [Apple](<05 ✅ 📺 Apple Watch.md>), [Samsung](<06 ✅ 📺 Samsung ring.md>), and [Whoop](<07 ✅ 📺 Whoop wearable.md>);
-- [Why](<08 ✅ 📺 Wearables' data.md>) wearable data should be shared with doctors;
-- [How much](<09 ✅ 📺 Data collection.md>) data is collected by wearables;
-- [How many](<10 ✅ 📺 Data sharing.md>) Americans actually share wearable data with doctors;
-- and [what laws](<11 ✅ 📺 Data regulation.md>) regulate the medical data of individuals. 
+- What is smart health, according to [doctors](<01 📺 Doctors' opinion.md>), [hospitals](<02 📺 Hospitals' opinion.md>), [journalists](<03 📺 Journalists' opinion.md>), and [NVIDIA](<04 📺 NVIDIA.md>);
+- What are the wearable features offered by [Apple](<05 📺 Apple Watch.md>), [Samsung](<06 📺 Samsung ring.md>), and [Whoop](<07 📺 Whoop wearable.md>);
+- [Why](<08 📺 Wearables' data.md>) wearable data should be shared with doctors;
+- [How much](<09 📺 Data collection.md>) data is collected by wearables;
+- [How many](<10 📺 Data sharing.md>) Americans actually share wearable data with doctors;
+- and [what laws](<11 📺 Data regulation.md>) regulate the medical data of individuals. 
 
 ---
 

@@ -1,6 +1,6 @@
 #TODO
 
-# 👥🚀🕸 Service @ [Graph](<../../4 ⏳ ⚙️ Solution/40 ✅ 👥 Domains/44 ✅ 📜 Manifests/03 ✅ 🕸👥 Graph helper.md>)
+# 👥🚀🕸 Service @ [Graph](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/03 🕸👥 Graph helper.md>)
 
 
 ## About
@@ -19,5 +19,5 @@
 
 | Caller | Notes
 |-|-
-| [⭐⏩🧑‍🦰 Review @ Reviewer ](<../../5 ⏳ ⏩ Flows/10 ✅ ⭐⏩ Reviewers/01 ✅ ⭐⏩🧑‍🦰 Review.md>)
+| [⭐⏩🧑‍🦰 Review @ Reviewer ](<../../5 ⏩ Flows/10 ⭐⏩ Reviewers/01 ⭐⏩🧑‍🦰 Review.md>)
 ||

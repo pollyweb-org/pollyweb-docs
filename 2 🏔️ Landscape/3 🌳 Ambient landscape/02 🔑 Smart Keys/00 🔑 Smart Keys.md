@@ -11,19 +11,19 @@
 📺 In this chapter, you will learn:
 
 - How safe are keys for physical access, namely:
-    - traditional [metal keys](<01 ✅ 📺 Metal keys.md>),
-    - RFID/NFC [fob keys](<02 ✅ 📺 Fob keys.md>),
-    - RFID/NFC [security badges](<03 ✅ 📺 Security badges.md>),
-    - RFID/NFC [smart car keys](<04 ✅ 📺 Smart car keys.md>),
-    - portable [smart padlocks](<05 ✅ 📺 Smart padlocks.md>),
-    - and home [smart locks](<06 ✅ 📺 Smart lock safety.md>).
+    - traditional [metal keys](<01 📺 Metal keys.md>),
+    - RFID/NFC [fob keys](<02 📺 Fob keys.md>),
+    - RFID/NFC [security badges](<03 📺 Security badges.md>),
+    - RFID/NFC [smart car keys](<04 📺 Smart car keys.md>),
+    - portable [smart padlocks](<05 📺 Smart padlocks.md>),
+    - and home [smart locks](<06 📺 Smart lock safety.md>).
 
 - What is the state of the market, namely:
-    - what were the [top home smart locks](<07 ✅ 📺 Top smart locks.md>) in 2024,
-    - how to use [biometrics](<08 ✅ 📺 Biometrics access.md>) for home access,
-    - how to use [QR codes](<09 ✅ 📺 Enterprise access.md>) with biometrics for enterprise access,
-    - how Apple's NFC [Smart Keys](<10 ✅ 📺 Apple Key + BMW.md>) can open and start a BMW,
-    - and what is [Ultra Wide Band](<11 ✅ 📺 Apple Key UWB.md>) (UWB), used by Apple Keys and Tags.
+    - what were the [top home smart locks](<07 📺 Top smart locks.md>) in 2024,
+    - how to use [biometrics](<08 📺 Biometrics access.md>) for home access,
+    - how to use [QR codes](<09 📺 Enterprise access.md>) with biometrics for enterprise access,
+    - how Apple's NFC [Smart Keys](<10 📺 Apple Key + BMW.md>) can open and start a BMW,
+    - and what is [Ultra Wide Band](<11 📺 Apple Key UWB.md>) (UWB), used by Apple Keys and Tags.
     
 ---
 

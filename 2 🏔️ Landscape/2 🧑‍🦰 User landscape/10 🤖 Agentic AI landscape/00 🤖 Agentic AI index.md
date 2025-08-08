@@ -9,9 +9,9 @@
 ---
 
 🤔 However, a few parts were missing from the puzzle until now, e.g.:
-- first-party knowledge about the requester - tackled by NLWeb's 🗄️ [Vaults](<../../../4 ⏳ ⚙️ Solution/20 ✅ 🧑‍🦰 UI/24 ✅ 🗄️ Vaults/03 ✅ 🗄️🎭 Vault role.md>);
-- third-party tool discovery by requesters - tackled by NLWeb's 📜 [Manifests](<../../../4 ⏳ ⚙️ Solution/40 ✅ 👥 Domains/44 ✅ 📜 Manifests/01 ✅ 📜 Domain Manifest.md>);
-- and requester-initiated contracts - tackled by NLWeb's 📨 [Messages](<../../../4 ⏳ ⚙️ Solution/40 ✅ 👥 Domains/41 ✅ 📨 Comms/01 ✅ 📨 Domain Message.md>).
+- first-party knowledge about the requester - tackled by NLWeb's 🗄️ [Vaults](<../../../4 ⏳ ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>);
+- third-party tool discovery by requesters - tackled by NLWeb's 📜 [Manifests](<../../../4 ⏳ ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>);
+- and requester-initiated contracts - tackled by NLWeb's 📨 [Messages](<../../../4 ⏳ ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>).
 
 ---
 
@@ -35,22 +35,22 @@
 📺 In this chapter, you will learn:
 
 - What was Google's vision for Google AI Assistant phone calls in 2018, e.g.:
-    - when booking an [hairdresser](<01 ✅ 📺 Google haircut.md>);
-    - when booking a [restaurant](<02 ✅ 📺 Google restaurant.md>);
-    - and [facing challenges](<03 ✅ 📺 Google challenges.md>) while trying to book a restaurant.
+    - when booking an [hairdresser](<01 📺 Google haircut.md>);
+    - when booking a [restaurant](<02 📺 Google restaurant.md>);
+    - and [facing challenges](<03 📺 Google challenges.md>) while trying to book a restaurant.
 
 - What is the industry's vision for AI Agents, e.g.:
-    - how [OpenAI](<04 ✅ 📺 OpenAI's vision.md>) envisioned agents in 2019; 
-    - how [Gartner](<05 ✅ 📺 Gartner's vision.md>) envisioned agentic AIs in 2024;
-    - and how the agentic AI [technology](<06 ✅ 📺 Agentic AI tech.md>) works.
+    - how [OpenAI](<04 📺 OpenAI's vision.md>) envisioned agents in 2019; 
+    - how [Gartner](<05 📺 Gartner's vision.md>) envisioned agentic AIs in 2024;
+    - and how the agentic AI [technology](<06 📺 Agentic AI tech.md>) works.
 
 - What were big techs doing with AI agents, e.g.:
-    - [Amazon Web Services](<07 ✅ 📺 AWS Bedrock.md>) with Bedrock Agents,
-    - [Anthropic](<08 ✅ 📺 Anthropic agents.md>) with Claude,
-    - [Google](<09 ✅ 📺 Google agents.md>) with Gemini,
-    - [Microsoft](<10 ✅ 📺 Microsoft agents.md>) with Copilot,
-    - [NVIDIA](<11 ✅ 📺 NVIDIA agentic AI.md>) with AI Building Blocks for Agentic AI,
-    - [Amazon](<12 ✅ 📺 Amazon Alexa+.md>) with Alexa+,
-    - and [OpenAI](<13 ✅ 📺 OpenAI Operator.md>) with Operator.
+    - [Amazon Web Services](<07 📺 AWS Bedrock.md>) with Bedrock Agents,
+    - [Anthropic](<08 📺 Anthropic agents.md>) with Claude,
+    - [Google](<09 📺 Google agents.md>) with Gemini,
+    - [Microsoft](<10 📺 Microsoft agents.md>) with Copilot,
+    - [NVIDIA](<11 📺 NVIDIA agentic AI.md>) with AI Building Blocks for Agentic AI,
+    - [Amazon](<12 📺 Amazon Alexa+.md>) with Alexa+,
+    - and [OpenAI](<13 📺 OpenAI Operator.md>) with Operator.
 
 ---
