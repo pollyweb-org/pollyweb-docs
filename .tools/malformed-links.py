@@ -332,8 +332,10 @@ def print_results(broken_links, malformed_links):
                     # Ask the user if they want to fix the link
                     if True and suggestion != '!!!':
 
-                        #print('==>' + remove_numbers(link.replace('<./', '').replace('../', '').replace('./', '').replace('<', '').replace('✅ ', '').replace('⏳ ', '').replace(' ', '')))
-                        #print('==>' + remove_numbers(suggestion.replace('<./', '').replace('../', '').replace('<', '').replace(' ', '')))
+                        print('==>' + remove_numbers(link.replace('<./', '').replace('../', '').replace('./', '').replace('<', '').replace('✅ ', '').replace('⏳ ', '').replace(' ', '')))
+                        print('==>' + remove_numbers(suggestion.replace('<./', '').replace('../', '').replace('<', '').replace(' ', '')))
+                        
+                        fix_link = None
                         
                         if '✅ ' in link or '⏳ ' in link:
                             # replace auto-suggested when there's only missing ✅ emojis
@@ -341,27 +343,28 @@ def print_results(broken_links, malformed_links):
                             remove_numbers(link.replace('<./', '').replace('../', '').replace('./', '').replace('<', '').replace('✅ ', '').replace('⏳ ', '').replace(' ', ''))):
                                 fix_link = 'y'
                         
-                        if suggestion == f'../{link}':
-                            fix_link = 'y'
-                        elif link == f'../{suggestion}':
-                            fix_link = 'y'
-                        elif True and '📺' not in link and suggestion.endswith(link.replace('..', '')):
-                            fix_link = 'y'
-                        elif True and '📺' not in link and link.endswith(suggestion.replace('..', '')):
-                            fix_link = 'y'
-                        elif True and '📺' not in link and suggestion.endswith(link.replace('../..', '')):
-                            fix_link = 'y'
-                        elif True and '📺' not in link and link.endswith(suggestion.replace('../..', '')):
-                            fix_link = 'y'
-                        elif True and link.lower() == suggestion.lower():
-                            fix_link = 'y'
-                        elif True and remove_numbers(suggestion) == remove_numbers(link):
-                            fix_link = 'y'
-                        elif yes_memory and (link, suggestion) in yes_memory:
-                            fix_link = 'y'
-                        else: 
-                            fix_link = input("  - Do you want to fix this link? (y/n): ")
-                        
+                        if fix_link.lower() != 'y':
+                            if suggestion == f'../{link}':
+                                fix_link = 'y'
+                            elif link == f'../{suggestion}':
+                                fix_link = 'y'
+                            elif True and '📺' not in link and suggestion.endswith(link.replace('..', '')):
+                                fix_link = 'y'
+                            elif True and '📺' not in link and link.endswith(suggestion.replace('..', '')):
+                                fix_link = 'y'
+                            elif True and '📺' not in link and suggestion.endswith(link.replace('../..', '')):
+                                fix_link = 'y'
+                            elif True and '📺' not in link and link.endswith(suggestion.replace('../..', '')):
+                                fix_link = 'y'
+                            elif True and link.lower() == suggestion.lower():
+                                fix_link = 'y'
+                            elif True and remove_numbers(suggestion) == remove_numbers(link):
+                                fix_link = 'y'
+                            elif yes_memory and (link, suggestion) in yes_memory:
+                                fix_link = 'y'
+                            else: 
+                                fix_link = input("  - Do you want to fix this link? (y/n): ")
+                            
 
                         if fix_link.lower() == 'y':
                             # Replace the broken link with the new link in the file
