@@ -1,1 +1,1 @@
-#TODO Autorizar internet no hotel, partilhando a booking.
+<!-- #TODO --> Autorizar internet no hotel, partilhando a booking.

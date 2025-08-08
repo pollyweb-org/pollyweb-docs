@@ -1,4 +1,4 @@
-#TODO
+<!-- #TODO -->
 
 ## 1. Optimizing UHF RFID for Road Signs
 Passive UHF RFID (Cheapest & No Maintenance)

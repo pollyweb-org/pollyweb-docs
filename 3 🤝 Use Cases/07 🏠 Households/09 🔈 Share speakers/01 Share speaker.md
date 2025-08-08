@@ -1,6 +1,6 @@
-#TODO
+<!-- #TODO -->
 
-#TODO 
+<!-- #TODO -->
 
 Controlar o rádio da sala dos pais: 
 * Fazer pela internet, e não pelo wi-fi (como o Spotify)

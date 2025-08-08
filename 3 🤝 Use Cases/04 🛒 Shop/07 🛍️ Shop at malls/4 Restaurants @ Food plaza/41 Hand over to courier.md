@@ -1,6 +1,6 @@
-#TODO
+<!-- #TODO -->
 
-#TODO 
+<!-- #TODO -->
 
 Entregadores dentro da área de comida do centro comercial: 
 * Igual às pizzas, mas às mesas do shopping

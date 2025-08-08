@@ -2,6 +2,7 @@
 
 > The Inevitable by Kevin Kelly, published in 2016, examined twelve technological trends shaping the future, such as AI, VR, and automation. Kelly argued these forces were unstoppable and would redefine work, culture, and society. He encouraged embracing change, adapting to new realities, and leveraging technology rather than resisting its progress. 
 
+<!-- #TODO fix GitHub anchors -->
 * 🚀 [Becoming](#Becoming) (Ongoing Evolution)
 * 🤖 [Cognifying](#Cognifying) (AI Everywhere)
 * 🌊 [Flowing](#Flowing) (Always Updating)
