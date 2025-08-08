@@ -4,21 +4,21 @@ How to request an immediate ride?
 | Service | Prompt | User
 | - | - | - |
 ||| > Hailing 🔗
-| 🔎 [Finder](<../../../../../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Ride Hailing (4.4 ⭐) [+]
+| 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Ride Hailing (4.4 ⭐) [+]
 | 🙋 Hailing | 😃 Hi! What do you need? <br/>- [ Ride now ] <br/>- [ Book ride ] <br/> - [ Something else ] | > Ride now
 | 🙋 Hailing | 😃 Ready to ride? [Yes, No] <br/>- your navigator sets where 🧭 <br/> - your persona sets preferences 🧢 <br/> - your scheduler sets when 🗓️ <br/> - your payer pays the bill 💳 <br/>- your navigator guides you 🧭<br/> - tap the car's seat on entering ✨ | > Yes
 | 🙋 Hailing | ℹ️ Received route: [Change] <br/> - pick-up at St. Mary's street, 68 <br/> - drop-off at Valerian road, 231-B <br/> - drive via Whistle Woods road
-| 🧢 [Persona](<../../../../../../../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) | 🫥 Share car preferences? [No] <br/>- [ 🧑‍🦰 personal ] <br/>- [ 💼 work ] <br/>- [ 🤝 business ] | > 🧑‍🦰 personal
+| 🧢 [Persona](<../../../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) | 🫥 Share car preferences? [No] <br/>- [ 🧑‍🦰 personal ] <br/>- [ 💼 work ] <br/>- [ 🤝 business ] | > 🧑‍🦰 personal
 | 🙋 Hailing | ℹ️ Received preferences: [Change] <br/> - comfort or above car <br/> - english speaker driver <br/> - warm and quiet ride 
 | 🙋 Hailing | 😃 How many people? [1, 2, more] | > 1
 | 🙋 Hailing | 😃 Any bags? [Yes, No] | > No
-| [🗓️ Scheduler](<../../../../../../../../4 ⚙️ Solution/30 🫥 Agents/38 🕓 User Timeline/04 🗓️🗄️ Scheduler agent.md>) | 🫥 Confirm ride? [Yes, No] <br/>- pick-up ~9:05 <br/>- drop-off ~9:45 <br/> - your flight is at 17:35. | > Yes
-| 💳 [Payer](<../../../../../../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 💳🫥 Payer agent.md>) | 🫥 Pay $12.95 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
+| [🗓️ Scheduler](<../../../../4 ⚙️ Solution/30 🫥 Agents/38 🕓 User Timeline/04 🗓️🗄️ Scheduler agent.md>) | 🫥 Confirm ride? [Yes, No] <br/>- pick-up ~9:05 <br/>- drop-off ~9:45 <br/> - your flight is at 17:35. | > Yes
+| 💳 [Payer](<../../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 💳🫥 Payer agent.md>) | 🫥 Pay $12.95 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
 | 🙋 Hailing | ⏳ Assigning you a driver...<br/>- [ Cancel request ]
 | 🙋 Hailing | ℹ️ Driver assigned: <br/>- it's Daniel <br/>- on a black Tesla, ABC123 <br/> - on arrival, tap the seat to confirm.
 | 🙋 Hailing | ⏳ Pick-up by 12:37...<br/>- [ Cancel pick-up ]
 | 🙋 Hailing | 📣 Daniel arrived! [ Quiet, 5... 4... ] | > Quiet
-| 🧭 [Navigator](<../../../../../../../../4 ⚙️ Solution/30 🫥 Agents/07 🧭 Navigators/05 🧭🫥 Navigator agent.md>) | ⓘ The driver is at your door.
+| 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/07 🧭 Navigators/05 🧭🫥 Navigator agent.md>) | ⓘ The driver is at your door.
 | 🙋 Hailing | ⏳ Tap inside until 12:41...<br> - [ Say "be right there" ] <br/>- [ Say something else ] <br>- [ Cancel pick-up ]
 |...
 ||
