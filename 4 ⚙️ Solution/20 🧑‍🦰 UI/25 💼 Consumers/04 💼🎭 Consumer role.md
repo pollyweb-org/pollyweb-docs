@@ -156,3 +156,15 @@
     - the [Seller 💵](<../../30 🫥 Agents/04 💳 Payers/02 💵🎭 Seller role.md>) takes a photo of the user with a fixed camera, and then ask the Token's [Identity 🆔](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) vault to match the Token with the picture.
 
     ---
+
+1. **How can users be protected from consumers collecting too much PII?**
+
+    To protect users from Consumers that collect too much Personally Identifiable Information (PII), [Brokers 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) verify if any Consumer request is explicitly mentioned on their [Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>).
+
+    * Consumers manifest the unique contexts in which they will collecting data, and what data is collected in each context.
+  
+    * When interacting in a chat, Consumers need to notify the [Brokers 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) of a context change before requesting data under that context.
+
+    * [Brokers 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) inform users of every context change, identifying the data that may be collected, then block any data request from the Consumer that does not comply with that context.
+
+    * Because the [Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) are public and prone to automatic evaluation by domains like [Firewalls 🔥](<../../40 👥 Domains/43 👍 Trusts/03 🔥👥 Firewall helper.md>) and [Reviewers ⭐](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>), Consumers are exposed to public scrutiny regarding the data  their are collecting, namely: what, why, how, and how much.
