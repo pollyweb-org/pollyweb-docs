@@ -30,16 +30,3 @@
     ![alt text](<.📎 Assets/📣 Notifier UML.png>)
 
     ---
-
-1. **How to implement a Notifier on AWS?**
-
-    ![](<.📎 Assets/📣 Notifier@AWS.png>)
-
-    Notifiers rely on the following components for domain [📨 Messaging](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>):
-    - 📨 **Inbox**: the combination of the Distributer plus the Endpoint;
-    - 🚀 **Sync Call**: a synchronous request outbound that signed requests;
-    - 📮 **Async Post**: an async message outbound that signs messages.
-
-    This solution requires a 📜 **Manifester** to expose its [Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>).
-
-    ---
