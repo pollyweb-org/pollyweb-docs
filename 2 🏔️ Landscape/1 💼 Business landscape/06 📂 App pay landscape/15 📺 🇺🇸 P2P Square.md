@@ -1,4 +1,4 @@
-📺 What is 🇺🇸 Square Cash doing around pear-to-pear payments?
+📺 What is 🇺🇸 Square Cash doing around peer-to-peer payments?
 ---
 
 In 2019, CNBC (a U.S.-based news channel) published the following video, titled *"How Square Makes Money"*.

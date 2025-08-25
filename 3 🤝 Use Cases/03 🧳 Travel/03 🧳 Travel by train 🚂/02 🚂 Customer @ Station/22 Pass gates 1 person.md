@@ -1,4 +1,4 @@
-How to go through the train station's gates?
+Go through the train station gates with a single ticket 🚂
 --
 
 | Service | Prompt | User

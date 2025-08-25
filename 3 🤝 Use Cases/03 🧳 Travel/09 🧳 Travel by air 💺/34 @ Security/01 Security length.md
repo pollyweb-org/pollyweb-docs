@@ -1,2 +1,11 @@
-<!-- #TODO -->
+Check security length at the airport 🛫
+---
 
+| Service | Prompt | User
+| - | - | - |
+| | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>)
+| 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Airport (4.4 ⭐) [+]
+| 🛫 Airport | ℹ️ You're at LIS T1 Gates
+| 🛫 Airport | ℹ️ Security length: <br/> - standard: 15 minutes <br/>- fast track: 1 minute
+| 🛫 Airport | 😃 Hi! What do you need? <br/>- Buy [ Fast Track ] (€11) <br/>- [ Something else ] | > Fast Track
+||
