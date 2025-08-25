@@ -1,4 +1,4 @@
-📺 How does 🇺🇸 Venmo work with pear-to-pear payments?
+📺 How does 🇺🇸 Venmo work with peer-to-peer payments?
 ---
 
 In 2019, CNBC (a U.S.-based news channel) published the following video, titled *"How Venmo Makes Money"*.

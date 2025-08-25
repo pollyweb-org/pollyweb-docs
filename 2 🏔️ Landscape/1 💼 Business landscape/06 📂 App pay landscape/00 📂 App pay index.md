@@ -29,7 +29,7 @@ This inversion of control requires the understanding of several market forces, e
     - in 🇮🇳 India with [WhatsApp](<09 📺 🇮🇳 UPI QR WhatsApp.md>) and [Amazon Pay](<10 📺 🇮🇳 Amazon Pay.md>), by reading India's UPI QR codes;
     - and in the 🇬🇧 United Kingdom with [Curve](<11 📺 🇬🇧 Curve.md>) and [Samsung Pay+](<12 📺 🇬🇧 Samsung Pay+.md>), leveraging UK banks' cooperation.
 
-- How pear-to-pear (P2P) payments apps allow individuals to send money to other people, e.g.:
+- How peer-to-peer (P2P) payments apps allow individuals to send money to other people, e.g.:
 
     - in 🇧🇷 Brazil with [WhatsApp](<13 📺 🇧🇷 P2P PIX WhatsApp.md>), over the PIX platform;
     - in 🇨🇳 China with [WeChat](<07 📺 🇨🇳 WeChat.md>);

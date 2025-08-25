@@ -1,4 +1,4 @@
-📺 How do pear-to-pear payments work on WhatsApp in 🇧🇷 Brazil?
+📺 How do peer-to-peer payments work on WhatsApp in 🇧🇷 Brazil?
 ---
 
 This 2022 video, WhatsApp published the following video, titled *"How to send money on WhatsApp (Brazil)"*.

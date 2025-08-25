@@ -1,4 +1,4 @@
-How to buy a train ticket at the train station?
+Buy a train ticket at the train station 🚂
 --
 
 
