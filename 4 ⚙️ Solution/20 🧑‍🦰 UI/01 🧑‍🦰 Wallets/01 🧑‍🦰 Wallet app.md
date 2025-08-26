@@ -13,7 +13,7 @@
 
     - 💬 [Chats](<../23 💬 Chats/01 💬 Chat.md>): list, filter, search, view, and interact.
     - 🔗 [Binds](<../24 🗄️ Vaults/01 🔗 Bind.md>): list, view, unbind, and chat with the bound [Vault 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>). 
-    - 🎫 [Tokens](<../27 🎫 Tokens/01 🎫 Token.md>): view, and chat with the [Issuer 🎴](<../27 🎫 Tokens/02 🎴🎭 Issuer role.md>).
+    - 🎫 [Tokens](<../25 🎫 Tokens/01 🎫 Token.md>): view, and chat with the [Issuer 🎴](<../25 🎫 Tokens/02 🎴🎭 Issuer role.md>).
     - ✨ [Scan](<../22 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) a QR [Locator 🔆](<../22 🔆 Locators/01 🔆 Locator.md>) to open a chat.
     - 🔆 [Tap](<../22 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) an NFC [Locator 🔆](<../22 🔆 Locators/01 🔆 Locator.md>) to open a chat.
     - 🌐 [Click](<../22 🔆 Locators/02 🧑‍🦰🌐 Wallet URLs.md>) on [Locator 🔆](<../22 🔆 Locators/01 🔆 Locator.md>) links in the device's web browser to open chats.
@@ -62,7 +62,7 @@
     The only data that [Wallets 🧑‍🦰](<01 🧑‍🦰 Wallet app.md>) store locally is:
     - 🔏 The private half of the key pair;
     - 📣 The Wallet ID provided by the [Notifier 📣](<../02 📣 Notifiers/02 📣 Notifier domain.md>);
-    - 🎫 Downloaded [Tokens 🎫](<../27 🎫 Tokens/01 🎫 Token.md>) from [Issuers 🎴](<../27 🎫 Tokens/02 🎴🎭 Issuer role.md>).
+    - 🎫 Downloaded [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) from [Issuers 🎴](<../25 🎫 Tokens/02 🎴🎭 Issuer role.md>).
 
     ---
 

@@ -57,7 +57,7 @@
 
 1. **How do Graphs support the verification of Tokens?**
 
-    [Issuers 🎴](<../../20 🧑‍🦰 UI/27 🎫 Tokens/02 🎴🎭 Issuer role.md>) sign [Tokens 🎫](<../../20 🧑‍🦰 UI/27 🎫 Tokens/01 🎫 Token.md>) with their active DKIM key-pair. 
+    [Issuers 🎴](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) sign [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) with their active DKIM key-pair. 
     - When Issuers rotate their DKIM, it is no longer possible to validate old Tokens with the new DKIM;
     - instead, domains should ask a Graph for the Issuer's DKIM at the time the Token was issued.
 

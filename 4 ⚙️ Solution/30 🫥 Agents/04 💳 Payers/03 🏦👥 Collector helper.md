@@ -49,7 +49,7 @@
 
     Yes. Here's a possible configuration for domain admins:
     - add [🔆 NFC/QR Locators](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) on both sides of the counter;
-    - issue cashier [Tokens 🎫](<../../20 🧑‍🦰 UI/27 🎫 Tokens/01 🎫 Token.md>) from your domain;
+    - issue cashier [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) from your domain;
     - create check-out workflows for cashier and customers.
 
     Set the cashier workflow as follows:

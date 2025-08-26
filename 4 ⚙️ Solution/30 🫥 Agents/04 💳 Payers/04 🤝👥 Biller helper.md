@@ -31,7 +31,7 @@
 
     ![](<00 📎 Assets/💳 Biller Domain.png>)
 
-    Users with ADMIN [Tokens 🎫](<../../20 🧑‍🦰 UI/27 🎫 Tokens/01 🎫 Token.md>) sign contracts on behalf of domains that issued them (e.g., for `any-contract.org` to accept the signature of a user on behalf of `any-domain.com`, the user needs to hold an ADMIN Token issued by `any-domain.com`);
+    Users with ADMIN [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) sign contracts on behalf of domains that issued them (e.g., for `any-contract.org` to accept the signature of a user on behalf of `any-domain.com`, the user needs to hold an ADMIN Token issued by `any-domain.com`);
 
     The following additional preconditions must be met:
     - the user has an ADMIN Token issued by the domain.

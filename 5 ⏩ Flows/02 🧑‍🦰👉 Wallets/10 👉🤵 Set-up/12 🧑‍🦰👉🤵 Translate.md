@@ -24,7 +24,7 @@
 | 3 | [🤵🐌📣 Translated @ Notifier](<../../../6 🅰️ APIs/12 📣🅰️ Notifier/01 📣🤵🅰️ Onboard/21 🤵🐌📣 Translated.md>) | Finished translating the database.
 | 4 | [🧑‍🦰🚀🤵 Chats @ Broker](<../../../6 🅰️ APIs/02 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/02 🧑‍🦰🚀🤵 Chats.md>) | Fetch translated [Chats 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>).
 | 5 | [🧑‍🦰🚀🤵 Binds @ Broker](<../../../6 🅰️ APIs/02 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/41 🧑‍🦰🚀🤵 Binds.md>) | Fetch translated [Binds 🔗](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>)
-| 6 | [🧑‍🦰🚀🤵 Tokens @ Broker](<../../../6 🅰️ APIs/02 🤵🅰️ Broker/50 🤵🅰️ Tokens 🎫/54 🧑‍🦰🚀🤵 Tokens.md>) | Fetch translated [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 🎫 Tokens/01 🎫 Token.md>)
+| 6 | [🧑‍🦰🚀🤵 Tokens @ Broker](<../../../6 🅰️ APIs/02 🤵🅰️ Broker/50 🤵🅰️ Tokens 🎫/54 🧑‍🦰🚀🤵 Tokens.md>) | Fetch translated [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
 
 
 ## Flow diagram

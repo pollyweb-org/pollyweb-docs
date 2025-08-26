@@ -20,7 +20,7 @@
     - [Binds 🔗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>) [ ]: 
         - `125a5c75-cb72-43d2-9695-37026dfcaa48`
         - `bc3d5f49-5d30-467a-9e0e-0cb5fd80f3cc`
-    - [Tokens 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 🎫 Tokens/01 🎫 Token.md>) [ ]:
+    - [Tokens 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) [ ]:
         - `125a5c75-cb72-43d2-9695-37026dfcaa48`
         - `bc3d5f49-5d30-467a-9e0e-0cb5fd80f3cc`
 
