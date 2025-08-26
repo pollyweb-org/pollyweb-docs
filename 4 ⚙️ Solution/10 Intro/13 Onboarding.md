@@ -6,25 +6,25 @@ Onboarding FAQ
 
 1. **What does a user need to engage in an NLWeb chat?**
 
-    To engage in a NLWeb [Chat 💬](<../20 🧑‍🦰 UI/23 💬 Chats/02 🧑‍🦰💬 Wallet chats.md>), a user needs an NLWeb [Wallet 🧑‍🦰](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+    To engage in a NLWeb [Chat 💬](<../20 🧑‍🦰 UI/23 💬 Chats/02 🧑‍🦰💬 Wallet chats.md>), a user needs an NLWeb [Wallet app 🧑‍🦰](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
     - This is any app that supports the NLWeb protocol.
-    - The user experience is similar to Meta's [WhatsApp](<../../2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/06 📺 WhatsApp business.md>). 
+    - The user experience is similar to Meta's [WhatsApp 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/06 📺 WhatsApp business.md>). 
 
     ---
 
 2. **What are the steps for a user to onboard NLWeb?**
 
-    1. Install an NLWeb wallet from an app store;
-    2. Fill out the Persona with standard data sets;
-    3. Add payment methods to the Payer;
-    4. Start touching/scanning NFC/QR locators.
+    1. Install an NLWeb [Wallet 🧑‍🦰](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) from an app store;
+    2. Fill out the [Persona 🧢](<../30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) agent with standard data sets;
+    3. Add payment methods to the [Payer 💳](<../30 🫥 Agents/04 💳 Payers/01 💳🫥 Payer agent.md>) agent;
+    4. Start touching/scanning NFC/QR [Locators 🔆](<../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>).
 
     ---
 
-1. **What is the effort for organizations to onboard NLWeb?**
+3. **What is the effort for organizations to onboard NLWeb?**
 
     The main effort will be on enablement, workflow customization, and integration with the organization's downstream services. 
-    - Organizations can leverage the NLWeb Stack to bootstrap, which includes a [Wallet 🧑‍🦰](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), deployment services, and support services. 
+    - Organizations can leverage the NLWeb Stack to bootstrap, which includes a [Wallet app 🧑‍🦰](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), deployment services, and support services. 
 
 
     ---
