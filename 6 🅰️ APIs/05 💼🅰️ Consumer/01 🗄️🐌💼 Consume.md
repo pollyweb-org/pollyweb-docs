@@ -1,12 +1,12 @@
 <!-- #TODO -->
 
 <!-- https://quip.com/UbokAEferibV#temp:C:Yfbbd64684ba1df4ea683cf4e49b -->
-# 🗄️🐌💼 Consume @ [Consumer 💼](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 💼 Consumers/04 💼🎭 Consumer role.md>) 
+# 🗄️🐌💼 Consume @ [Consumer 💼](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) 
 
 
 ## About
 
-- Asynchronous message sent by a [Vault 🗄️](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) to a [Consumer 💼](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 💼 Consumers/04 💼🎭 Consumer role.md>) 
+- Asynchronous message sent by a [Vault 🗄️](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) to a [Consumer 💼](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) 
 - Tells them to collect data shared by a user in a chat.
 - Vaults are expected to cache the answer ahead of [Collect 🚀](<../18 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>)
 - The cache duration is expressed in the TTL field.
