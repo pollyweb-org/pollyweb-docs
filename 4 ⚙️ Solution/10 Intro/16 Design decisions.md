@@ -21,12 +21,6 @@ The following principles for distributed system design were borrowed from Amazon
 
 ## FAQ
 
-1. **What is NLWeb's approach to digital signatures?**
-
-    NLWeb advocates for files to be shared in PDF or PNG, with a Token added to the metadata of the PDF. 
-    - Both PDF and PNG formats support custom metadata, so senders can sign the files and receivers can verify the file's signature.
-
-    ---
 
 1. **What is NLWeb's approach to end-user natural language?**
 
@@ -122,3 +116,4 @@ The following principles for distributed system design were borrowed from Amazon
     3. the [Wallet 🧑‍🦰](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets>) then maps the actions to available offers and generates a recommendation for the user. 
 
     ---
+
