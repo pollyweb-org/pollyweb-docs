@@ -5,6 +5,8 @@ In 2021, CRUBN (an Indian company providing cutting-edge blockchain solutions fo
 
 - The video demonstrates how self-sovereign identity (SSI) enables users to autofill forms securely and efficiently, reducing reliance on centralized authorities.
 
+- Autofill features with centralized cloud storage are already available on Google [Chrome](https://support.google.com/chrome/answer/142893), Mozilla [Firefox](https://support.mozilla.org/en-US/kb/automatically-fill-your-address-web-forms), and Apple [Safari](https://support.apple.com/en-gb/guide/iphone/iphccfb450b7/ios) browsers for passwords, addresses, and payment methods.
+
 <!-- https://youtu.be/pGbuWu-0z9I --><br/>
 
 
