@@ -52,7 +52,7 @@ The following principles for distributed system design were borrowed from Amazon
     
     - New chats are opened with a [Locator 🔆](<../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) by scanning a [QR code ✨](<../20 🧑‍🦰 UI/22 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) or by tapping an [NFC tag 🔆](<../20 🧑‍🦰 UI/22 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>). 
     
-    - Users may accept [Tokens 🎫](<../20 🧑‍🦰 UI/27 🎫 Tokens/01 🎫 Token.md>) issued by [Issuer 🎴](<../20 🧑‍🦰 UI/27 🎫 Tokens/02 🎴🎭 Issuer role.md>) domains - these tokens are stored offline and can be shared and validated by [Consumer 💼](<../20 🧑‍🦰 UI/25 💼 Consumers/04 💼🎭 Consumer role.md>) domains.
+    - Users may accept [Tokens 🎫](<../20 🧑‍🦰 UI/27 🎫 Tokens/01 🎫 Token.md>) issued by [Issuer 🎴](<../20 🧑‍🦰 UI/27 🎫 Tokens/02 🎴🎭 Issuer role.md>) domains - these tokens are stored offline and can be shared and validated by [Consumer 💼](<../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) domains.
 
     ---
 

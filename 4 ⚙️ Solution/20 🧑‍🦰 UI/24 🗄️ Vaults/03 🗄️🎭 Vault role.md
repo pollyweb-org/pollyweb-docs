@@ -83,9 +83,9 @@
 
 1. **How do Vaults protect user data from Consumers?**
 
-    [Consumer 💼](<../25 💼 Consumers/04 💼🎭 Consumer role.md>) domains can't request user data directly to vaults domains. 
+    [Consumer 💼](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) domains can't request user data directly to vaults domains. 
     
-    * Instead, [Consumers 💼](<../25 💼 Consumers/04 💼🎭 Consumer role.md>) request such data directly to the user. 
+    * Instead, [Consumers 💼](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) request such data directly to the user. 
 
     * When prompted, the user selects the preferred Vault to answer the Consumer's request, then signs and sends a disclose request to the selected Vault, asking it to disclose the requested data to the Consumer. 
     

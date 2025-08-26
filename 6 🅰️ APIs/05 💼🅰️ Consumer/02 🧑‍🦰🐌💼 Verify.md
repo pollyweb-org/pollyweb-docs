@@ -5,11 +5,11 @@
 <!-- Test: -->
 
 
-# Verify @ [Consumer 💼](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 💼 Consumers/04 💼🎭 Consumer role.md>) 
+# Verify @ [Consumer 💼](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) 
 
 ## About
 
-- Asynchronous message sent by a Wallet to a [Consumer 💼](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 💼 Consumers/04 💼🎭 Consumer role.md>)
+- Asynchronous message sent by a Wallet to a [Consumer 💼](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>)
 - Tells it to verify the user's [Tokens 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 🎫 Tokens/01 🎫 Token.md>)
 
 ## Async Message 🐌

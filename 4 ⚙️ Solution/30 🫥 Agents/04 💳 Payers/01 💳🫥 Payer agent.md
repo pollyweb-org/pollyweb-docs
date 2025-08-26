@@ -12,7 +12,7 @@
 1. **How are user payments processed?**
 
     On NLWeb, payment transactions are handled between:
-    - 1/ [Sellers 💵](<02 💵🎭 Seller role.md>) -  these are [Consumer 💼](<../../20 🧑‍🦰 UI/25 💼 Consumers/04 💼🎭 Consumer role.md>) domains that request payments, 
+    - 1/ [Sellers 💵](<02 💵🎭 Seller role.md>) -  these are [Consumer 💼](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) domains that request payments, 
     - 2/ Payers - these are user-bound [Vaults 🗄️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) with access to the user's money, 
     - 3/ [Collectors 🏦](<03 🏦👥 Collector helper.md>) - these are [Vault 🗄️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) domains with access to the Seller's money. 
     
