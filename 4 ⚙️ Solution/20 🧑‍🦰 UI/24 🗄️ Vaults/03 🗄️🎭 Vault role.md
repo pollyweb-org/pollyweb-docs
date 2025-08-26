@@ -19,7 +19,7 @@
 
 1. **Can users ask Vaults to download data to the device?**
 
-    No. That is covered by the [Issuer 🎴](<../27 🎫 Tokens/02 🎴🎭 Issuer role.md>) domain role. 
+    No. That is covered by the [Issuer 🎴](<../25 🎫 Tokens/02 🎴🎭 Issuer role.md>) domain role. 
 
     ---
 

@@ -5,7 +5,7 @@
 
     ![](<00 📎 Assets/🆔 Tokens.png>)
 
-    Identity binding allows [Issuers 🎴](<../../20 🧑‍🦰 UI/27 🎫 Tokens/02 🎴🎭 Issuer role.md>) to lock a given [Token 🎫](<../../20 🧑‍🦰 UI/27 🎫 Tokens/01 🎫 Token.md>) to a specific human, independent of the Wallet the Token is stored in, or whoever is holding that Wallet when presenting the Token (e.g., a passport belongs to a specific person, regardless of who is holding the passport in their hands).
+    Identity binding allows [Issuers 🎴](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) to lock a given [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) to a specific human, independent of the Wallet the Token is stored in, or whoever is holding that Wallet when presenting the Token (e.g., a passport belongs to a specific person, regardless of who is holding the passport in their hands).
 
     The flow of an Issuer issuing an identity-bound Token is as follows:
     - 1/ the user initiates a chat session with an Issuer domain;
@@ -23,11 +23,11 @@
 
     ![](<00 📎 Assets/🆔 Offline.png>)
 
-    Printed identity-bound [Tokens 🎫](<../../20 🧑‍🦰 UI/27 🎫 Tokens/01 🎫 Token.md>) (or any other type of offline Tokens, like screenshot images, NFC cards, and NFC wristbands) removes user's need to carry their mobile phone charged and with internet connection. 
+    Printed identity-bound [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) (or any other type of offline Tokens, like screenshot images, NFC cards, and NFC wristbands) removes user's need to carry their mobile phone charged and with internet connection. 
     - Use cases where this is important include: international flights, water sports, and luggage misplacement or theft.
     - These scenarios rely on [🖐️ palm vein scanners](<05 🆔🖐️ Palm scan.md>) scanning the users' palms, or cameras performing [😶 face scans](<04 🆔😶 Face scan.md>) on users.
 
-    The flow for a user to share an offline [Token 🎫](<../../20 🧑‍🦰 UI/27 🎫 Tokens/01 🎫 Token.md>) with a [Consumer 💼](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) is as follows:
+    The flow for a user to share an offline [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) with a [Consumer 💼](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) is as follows:
     - 1/ the user taps or scans the Token on the Consumer's scanner:
         - at airports, this can be the border-control gate for passport verification;
         - at an embassy or a bank, this can be a fixed kiosk;
@@ -44,7 +44,7 @@
     
 1. **How do users authenticate identity-bound Tokens in their Wallets?**
 
-    The flow for a user to share a [Token 🎫](<../../20 🧑‍🦰 UI/27 🎫 Tokens/01 🎫 Token.md>) with a [Consumer 💼](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) using their [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) is as follows:
+    The flow for a user to share a [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) with a [Consumer 💼](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) using their [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) is as follows:
     - 1/ the user initiates a chat session with a Consumer domain;
     - 2/ the Consumer asks the user to share Tokens of a specific [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>):
         - if the Schema Code is marked as PUBLIC, the sharing is automatic;

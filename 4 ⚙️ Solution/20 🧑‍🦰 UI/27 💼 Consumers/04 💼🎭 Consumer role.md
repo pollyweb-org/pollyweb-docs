@@ -13,7 +13,7 @@
 
     Consumers 💼 receive data from the following sources:
     - schema-bound datasets shared directly by users' [Vaults 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>), and
-    - downloaded [Tokens 🎫](<../27 🎫 Tokens/01 🎫 Token.md>) issued by an [Issuer 🎴](<../27 🎫 Tokens/02 🎴🎭 Issuer role.md>) and stored on the Wallet.
+    - downloaded [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) issued by an [Issuer 🎴](<../25 🎫 Tokens/02 🎴🎭 Issuer role.md>) and stored on the Wallet.
 
     ---
 
@@ -23,11 +23,11 @@
 
     - **Request on a chat**: 
         - in a chat, Consumers can ask the user to share a specific [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>);
-        - if the user accepts, the Wallet shares with the Consumer both the bound [Vaults 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) and the downloaded [Tokens 🎫](<../27 🎫 Tokens/01 🎫 Token.md>) that match that [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>);
+        - if the user accepts, the Wallet shares with the Consumer both the bound [Vaults 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) and the downloaded [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) that match that [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>);
         - e.g., an airline may ask a user to share their passport Token.
 
     - **On chat hello**: 
-        - when a [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) initiates a chat session with a Consumer, it automatically shares the [Tokens 🎫](<../27 🎫 Tokens/01 🎫 Token.md>) issued by that Consumer if the Token's  [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) is marked as SELF;
+        - when a [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) initiates a chat session with a Consumer, it automatically shares the [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) issued by that Consumer if the Token's  [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) is marked as SELF;
         - e.g., booking and ticket Schema Codes typically allow users to tap on for check-in when arrival at the place of destination, like a restaurant.
 
     - **When users tap/scan offline Tokens**: 
@@ -62,14 +62,14 @@
 
     Yes. 
     
-    - [Tokens 🎫](<../27 🎫 Tokens/01 🎫 Token.md>) using a [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) marked as PUBLIC can be accessed by any Issuer-trusted Consumer requesting user Tokens of that given Schema Code:
+    - [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) using a [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) marked as PUBLIC can be accessed by any Issuer-trusted Consumer requesting user Tokens of that given Schema Code:
         - this potentially allows bad actors to infer the user's relationship with business competitors;
         - e.g., when starting a chat, a fashion boutique can silently receive all the public loyalty cards that the user has with any other fashion brands, without the user's consent nor knowledge.
 
-    - To mitigate this risk, NLWeb's protocol blocks users from sharing Tokens with Consumers where there is no [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) relationship between the Consumer and the Token's [Issuer 🎴](<../27 🎫 Tokens/02 🎴🎭 Issuer role.md>) that allows the Token's [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) or family of [Schema Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) to be transferred from the [Issuer 🎴](<../27 🎫 Tokens/02 🎴🎭 Issuer role.md>) to the Consumer.
+    - To mitigate this risk, NLWeb's protocol blocks users from sharing Tokens with Consumers where there is no [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) relationship between the Consumer and the Token's [Issuer 🎴](<../25 🎫 Tokens/02 🎴🎭 Issuer role.md>) that allows the Token's [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) or family of [Schema Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) to be transferred from the [Issuer 🎴](<../25 🎫 Tokens/02 🎴🎭 Issuer role.md>) to the Consumer.
 
     NLWeb also advocates for the following:
-    - 1/ [Issuers 🎴](<../27 🎫 Tokens/02 🎴🎭 Issuer role.md>) should use SELF Tokens for customer loyalty, not PUBLIC ones;
+    - 1/ [Issuers 🎴](<../25 🎫 Tokens/02 🎴🎭 Issuer role.md>) should use SELF Tokens for customer loyalty, not PUBLIC ones;
     - 2/ [Wallets 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) should ensure user awareness on the risks of accepting PUBLIC Tokens.
 
     ---
@@ -84,7 +84,7 @@
 
 1. **How do Consumers verify a Token's signature?**
 
-    When issuing [Tokens 🎫](<../27 🎫 Tokens/01 🎫 Token.md>), [Issuers 🎴](<../27 🎫 Tokens/02 🎴🎭 Issuer role.md>) sign them with the same key-pair used in their [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) public key. 
+    When issuing [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>), [Issuers 🎴](<../25 🎫 Tokens/02 🎴🎭 Issuer role.md>) sign them with the same key-pair used in their [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) public key. 
     - Other domains can use the [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) key to verify the signature on the Token.
 
     ---
@@ -93,13 +93,13 @@
 
     Yes. 
     
-    - NLWeb advocates for domains to ask [Graphs 🕸](<../../40 👥 Domains/44 📜 Manifests/03 🕸👥 Graph helper.md>) for the [Issuer's 🎴](<../27 🎫 Tokens/02 🎴🎭 Issuer role.md>) [DKIM](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) when verifying [Tokens 🎫](<../27 🎫 Tokens/01 🎫 Token.md>). 
+    - NLWeb advocates for domains to ask [Graphs 🕸](<../../40 👥 Domains/44 📜 Manifests/03 🕸👥 Graph helper.md>) for the [Issuer's 🎴](<../25 🎫 Tokens/02 🎴🎭 Issuer role.md>) [DKIM](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) when verifying [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>). 
 
     ---
 
 1. **Can Consumers verify Tokens when Issuers rotate a DKIM?**
 
-    Graphs will find the [Issuer 🎴](<../27 🎫 Tokens/02 🎴🎭 Issuer role.md>)'s [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) in use when the [Token 🎫](<../27 🎫 Tokens/01 🎫 Token.md>) was issued.
+    Graphs will find the [Issuer 🎴](<../25 🎫 Tokens/02 🎴🎭 Issuer role.md>)'s [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) in use when the [Token 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) was issued.
 
     ---
 
@@ -120,9 +120,9 @@
 
 1. **Why aren't all Tokens validated online?**
 
-    In scenarios where physical gates need to allow for large influx of people (e.g., a concert or a subway station), it is quicker to validate the [Tokens 🎫](<../27 🎫 Tokens/01 🎫 Token.md>) offline at the edge, opening the gate if the Token seems valid. 
+    In scenarios where physical gates need to allow for large influx of people (e.g., a concert or a subway station), it is quicker to validate the [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) offline at the edge, opening the gate if the Token seems valid. 
     
-    * The Consumer 💼 may then perform an asynchronous validation of the [Token 🎫](<../27 🎫 Tokens/01 🎫 Token.md>), marking it as expired in a local database so that the passage is blocked on the next pass.
+    * The Consumer 💼 may then perform an asynchronous validation of the [Token 🎫](<../25 🎫 Tokens/01 🎫 Token.md>), marking it as expired in a local database so that the passage is blocked on the next pass.
 
     ---
 
@@ -130,7 +130,7 @@
 
     Yes. 
     
-    - Certain scenarios require the Consumer 💼 to verify if the person holding the [Token 🎫](<../27 🎫 Tokens/01 🎫 Token.md>) is the person to whom the Token was issue to - e.g.:
+    - Certain scenarios require the Consumer 💼 to verify if the person holding the [Token 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) is the person to whom the Token was issue to - e.g.:
         - at an airport border control, automatic gates need to match the face of the passport holder with the biometric signature contained in the electronic passport. 
     
     - This requires an online request to an [Identity 🆔](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) domain [bound 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>) to the user and [trusted 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) by the Consumer 💼, allowing the token to be matched to the holder without disclosing the holder's Identity 🆔 to the Consumer 💼:
@@ -144,7 +144,7 @@
 
 1. **How do sellers prevent swapping of identity Tokens?**
 
-    [Sellers 💵](<../../30 🫥 Agents/04 💳 Payers/02 💵🎭 Seller role.md>) can prevent frauds where users share their [Tokens 🎫](<../27 🎫 Tokens/01 🎫 Token.md>) with someone else.
+    [Sellers 💵](<../../30 🫥 Agents/04 💳 Payers/02 💵🎭 Seller role.md>) can prevent frauds where users share their [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) with someone else.
     - e.g., an adult may give their wallet's device to an under-aged child so that they can buy age-restricted goods at a self-service store. 
     
     In low-budget validations, 

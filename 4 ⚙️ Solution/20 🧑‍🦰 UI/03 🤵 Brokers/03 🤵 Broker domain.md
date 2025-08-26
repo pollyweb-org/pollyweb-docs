@@ -14,7 +14,7 @@
     Brokers give users the right to be forgotten by defaulting to anonymous browsing; 
     * i.e., whenever a user returns to a [Host 🤗](<../23 💬 Chats/03 🤗🎭 Host role.md>), the Broker connects them using a different untraceable ID. 
     
-    * For a [Host 🤗](<../23 💬 Chats/03 🤗🎭 Host role.md>) to identity a user across sessions, the user needs to explicitly accept a [Bind 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>) or [Token 🎫](<../27 🎫 Tokens/01 🎫 Token.md>) offered by the [Host 🤗](<../23 💬 Chats/03 🤗🎭 Host role.md>).
+    * For a [Host 🤗](<../23 💬 Chats/03 🤗🎭 Host role.md>) to identity a user across sessions, the user needs to explicitly accept a [Bind 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>) or [Token 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) offered by the [Host 🤗](<../23 💬 Chats/03 🤗🎭 Host role.md>).
 
     ---
 
@@ -26,7 +26,7 @@
 
 1. **How do users migrate a Wallet to another phone?**
 
-    To migrate a [Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to another phone, a user first needs to bind an [Identity 🆔](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) domain on the old phone, and then generate a migration QR [Token 🎫](<../27 🎫 Tokens/01 🎫 Token.md>).
+    To migrate a [Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to another phone, a user first needs to bind an [Identity 🆔](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) domain on the old phone, and then generate a migration QR [Token 🎫](<../25 🎫 Tokens/01 🎫 Token.md>).
     
     * On the new phone, the user needs to install a Wallet, then scan the migration QR of the old Wallet.
     * The Broker will invoke the Identity domain on the new phone to perform an identity authentication (e.g., face scan), and then will automatically decommission the old Wallet.
