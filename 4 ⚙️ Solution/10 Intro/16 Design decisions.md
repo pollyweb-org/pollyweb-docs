@@ -30,7 +30,7 @@ The following principles for distributed system design were borrowed from Amazon
 
 1. **What is NLWeb's approach to end-user natural language?**
 
-    NLWeb is designed for Q&A flows (like ChatGPT), where a [Host 🤗](<../23 💬 Chats/03 🤗🎭 Host role.md>) domain asks the questions and defines the format that users are allowed to answer them. 
+    NLWeb is designed for Q&A flows (like ChatGPT), where a [Host 🤗](<../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) domain asks the questions and defines the format that users are allowed to answer them. 
     
     Although domains can implement their own chat logic, NLWeb advocates for domains to take advantage of pre-defined chat automations: 
 
@@ -44,9 +44,9 @@ The following principles for distributed system design were borrowed from Amazon
 
 2. **What is NLWeb's approach to conversational commerce?**
 
-    In NLWeb, [Wallet apps 🧑‍🦰](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets>) are the way for users to communicate with [Host 🤗](<../23 💬 Chats/03 🤗🎭 Host role.md>) domains. 
+    In NLWeb, [Wallet apps 🧑‍🦰](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets>) are the way for users to communicate with [Host 🤗](<../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) domains. 
     
-    - Similar to Meta's [WhatsApp 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/06 📺 WhatsApp business.md>), NLWeb [Wallet apps 🧑‍🦰](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets>) allow users to keep a list of active [Chats 💬](<../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) with [Host 🤗](<../23 💬 Chats/03 🤗🎭 Host role.md>) domains. 
+    - Similar to Meta's [WhatsApp 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/06 📺 WhatsApp business.md>), NLWeb [Wallet apps 🧑‍🦰](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets>) allow users to keep a list of active [Chats 💬](<../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) with [Host 🤗](<../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) domains. 
 
     - Like in India's [ONDC 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/09 🛒 Shopping landscape/01 📺 🇮🇳 India's ONDC.md>), domains can configure multiple types of user inputs - e.g., number, dropdown, calendar. 
     
@@ -117,7 +117,7 @@ The following principles for distributed system design were borrowed from Amazon
     
     For that, NLWeb supports supply and demand matching at the end of chats: 
     
-    1. the chat [Host 🤗](<../23 💬 Chats/03 🤗🎭 Host role.md>) sends a summary of the [Chat 💬](<../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) to the user's [Wallet app 🧑‍🦰](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets>); 
+    1. the chat [Host 🤗](<../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) sends a summary of the [Chat 💬](<../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) to the user's [Wallet app 🧑‍🦰](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets>); 
     2. the [Wallet 🧑‍🦰](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets>) generates a list of next-best actions based on user preferences and contextual awareness; 
     3. the [Wallet 🧑‍🦰](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets>) then maps the actions to available offers and generates a recommendation for the user. 
 
