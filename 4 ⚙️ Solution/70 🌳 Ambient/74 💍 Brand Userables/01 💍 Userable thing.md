@@ -28,8 +28,10 @@
 
 1. **Are Userables trackable, like Apple AirTags?**
 
-    No. NFC Userables use passive NFC, thus requiring a powered reader to come into contact with them, similar to traditional touchless bank cards.
+    No.
+     
+    - NFC Userables use passive NFC, thus requiring a powered reader to come into contact with them, similar to traditional touchless bank cards.
 
-    Conversely, Apple Tags can be trackable because they use Bluetooth Low Energy (BLE) to communicate with any Apple device from up to 100 meters away.
+    - Conversely, Apple Tags can be trackable because they use Bluetooth Low Energy (BLE) to communicate with any Apple device from up to 100 meters away.
 
     ---

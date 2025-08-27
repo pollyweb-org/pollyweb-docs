@@ -47,8 +47,8 @@
     The flow for a user to share a [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) with a [Consumer 💼](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) using their [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) is as follows:
     - 1/ the user initiates a chat session with a Consumer domain;
     - 2/ the Consumer asks the user to share Tokens of a specific [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>):
-        - if the Schema Code is marked as PUBLIC, the sharing is automatic;
-        - if the Schema Code is marked as SELF and the Consumer is the Issuer, then the sharing is also automatic;
+        - if the Schema Code is marked as PUBLIC, the sharing is silent;
+        - if the Schema Code is marked as SELF and the Consumer is the Issuer, then the sharing is also silent;
         - otherwise, the user has to explicitly select the Tokens to share;
     - 3/ the Consumer verifies if the Token's signature matches the Issuer's public key;
     - 4/ the Consumer asks the Identity domain in the Token to authenticate the user, ensuring that the Wallet's holder is the Token's owner (i.e. the human referenced in the Identity Locator).
@@ -57,7 +57,7 @@
 
     ---
     
-1. **Can users prove eligibility anonymously?**
+2. **Can users prove eligibility anonymously?**
 
     Yes. Users can present a proof of age without disclosing their identity when: 
     - 1/ entering age-restricted venues (e.g., a casino); 
