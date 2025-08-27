@@ -28,7 +28,7 @@
 
 5. **How can users start using a folder editor?**
 
-    On the editor's desktop app, users scan the editor's [Locator 🔆](<../22 🔆 Locators/01 🔆 Locator.md>) with their [Wallets 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+    On the Folder editor's desktop app, users scan the editor's [Locator 🔆](<../22 🔆 Locators/01 🔆 Locator.md>) with their [Wallets 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) - the interaction is described in [Edit in folder 🗂️💬](<03 🗂️💬 Edit in folder.md>).
 
     ![alt text](<.📎 Assets/Folder-Login.png>)
 
@@ -39,7 +39,7 @@
 
 6. **How can users add a vault to the editor?**
 
-    With their wallets.
+    When clicking the "Add Vault" button in the desktop app, the Folder editor initiates a [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>) with the user's [Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) - the interaction described in [Bind to folder 🗂️💬](<02 🗂️💬 Bind to folder.md>).
 
     ![alt text](<.📎 Assets/Folder-Flow.png>)
 
