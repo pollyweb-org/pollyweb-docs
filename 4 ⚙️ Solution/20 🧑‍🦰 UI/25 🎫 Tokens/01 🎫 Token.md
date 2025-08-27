@@ -48,14 +48,13 @@
 1. **Can Tokens be used for documents with photo validation?**
 
     Yes, Tokens can be identity-bound;
-    
     - i.e., they can allow [💼 Consumers](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>) to confirm that the holder of the Token is effectively the human for whom the Token was issue to. 
-    
     - Identity-bound Tokens reference a trusted [Identity 🆔](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) domain that is able to authenticate the user (e.g., with a face scan).
+    - See [ID Tokens 🆔🎫](<../../30 🫥 Agents/05 🆔 Identities/07 🆔🎫 ID Tokens.md>) for further details.
 
     ---
 
-1. **Can Tokens be read in Chats without the use consent?**
+2. **Can Tokens be read in Chats without the use consent?**
 
     No, except for SELF Tokens.
 
