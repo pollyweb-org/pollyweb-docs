@@ -27,7 +27,7 @@
 
     ---
     
-1. **Tokens be downloaded into the Wallet?**
+1. **Can Tokens be downloaded into the Wallet?**
 
     Yes, thus the term [Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) when referring to NLWeb browsers. 
 
@@ -47,23 +47,54 @@
     
 1. **Can Tokens be used for documents with photo validation?**
 
-    Yes, Tokens can be identity-bound - i.e., they can allow [💼 Consumers](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>) to confirm that the holder of the Token is effectively the human for whom the Token was issue to. 
+    Yes, Tokens can be identity-bound;
     
-    Identity-bound Tokens reference a trusted [Identity 🆔](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) domain that is able to authenticate the user (e.g., with a face scan).
+    - i.e., they can allow [💼 Consumers](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>) to confirm that the holder of the Token is effectively the human for whom the Token was issue to. 
+    
+    - Identity-bound Tokens reference a trusted [Identity 🆔](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) domain that is able to authenticate the user (e.g., with a face scan).
 
     ---
+
+1. **Can Tokens be read in Chats without the use consent?**
+
+    No, except for SELF Tokens.
+
+    - Before sharing Tokens with other domains, [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) domains ask the user for approval.
+  
+    - Exceptionally, if the [Schema 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) of the Token is marked as SELF, then [Brokers 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) silently share the Token with the Token's [Issuer 🎴](<02 🎴🎭 Issuer role.md>) domain.
+
+
+    ---
+
+1. **Why do SELF Tokens exist?**
+
+    SELF Tokens are typically issued as a pass to be presented back to the Token's [Issuer 🎴](<02 🎴🎭 Issuer role.md>) in a later moment in time, aiming for the least possible friction in the future - e.g.:
+
+    - open an access gate with a tap;
+    - open a subway entry gate with a tap;
+    - check-in a medical booking with a tap. 
+
+    Examples of SELF Tokens include:
+    - ⚽ event tickets (e.g., cinema, sports, concerts)
+    - 🚌 public transport tickets (e.g., bus, train)
+    - 🔑 physical access rights (e.g., doors, gates)
+    - 💻 digital access rights (e.g., logins, admin rights)
+    - 🍲 bookings (e.g., restaurants, medical appointments)
+  
+    ---
     
-1. **Can users share Tokens in Wallets without internet?**
+2. **Can users share Tokens in Wallets without internet?**
 
     Not via [Wallets 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), no, because Wallets need internet to share the Token with other domains. 
     
-    Note: NLWeb assumes the inevitability of internet becoming ubiquitous in time - in 2024, internet is already available on London subways, on United Airline flights, and in remote regions of the globe with Starlink, while Project Kuiper is on track general availability in 2026.
+    - **Note**: NLWeb assumes the inevitability of internet becoming ubiquitous in time - in 2024, internet is already available on London subways, on United Airline flights, and in remote regions of the globe with Starlink, while Project Kuiper is on track general availability in 2026.
 
     ---
     
-1. **Can users print Tokens in paper?**
+3. **Can users print Tokens in paper?**
 
-    Yes. Offline Tokens allow users to remove the dependency on the device's battery, or technical issues with the Wallet resulting from low or no internet connectivity (e.g., travelers in long-distance flights are advised to store their ticket and passport Tokens offline). 
+    Yes. 
+    - Offline Tokens allow users to remove the dependency on the device's battery, or technical issues with the Wallet resulting from low or no internet connectivity (e.g., travelers in long-distance flights are advised to store their ticket and passport Tokens offline). 
     
     Offline options include:
     - print on paper;
@@ -73,23 +104,24 @@
 
     ---
     
-1. **Can users save multiple Tokens in a single NFC card?**
+4. **Can users save multiple Tokens in a single NFC card?**
 
-    Yes. Users can reference multiple Tokens with a single NFC via [Userables 💍](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>).
+    Yes. 
+    - Users can reference multiple Tokens with a single NFC via [Userables 💍](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>).
 
     ---
     
-1. **How are users protected from attacks on Tokens?**
+5. **How are users protected from attacks on Tokens?**
 
     To limit the attack surface to user data, NLWeb discourages user data from being saved on user devices.
 
-    Instead, the recommendation is for domains to prefer online validations, while limiting tokens for situations where users need to be validated even when the issuer is offline (e.g., a passport needs to be valid if the issuing nation is at war, and flights cannot wait for travel agencies to come back online before allowing a traveler to board a plane). 
+    - Instead, the recommendation is for domains to prefer online validations, while limiting tokens for situations where users need to be validated even when the issuer is offline (e.g., a passport needs to be valid if the issuing nation is at war, and flights cannot wait for travel agencies to come back online before allowing a traveler to board a plane). 
     
-    When Tokens are required, they should contain none-or-minimum PII (e.g., a token issued by a government may confirm that the user holding the token is over 21 years old, without disclosing the user's age, birthdate, or name).
+    - When Tokens are required, they should contain none-or-minimum PII (e.g., a token issued by a government may confirm that the user holding the token is over 21 years old, without disclosing the user's age, birthdate, or name).
 
     ---
     
-1. **What data is contained in a Token?**
+6. **What data is contained in a Token?**
 
     Tokens derive from [Locators 🔆](<../22 🔆 Locators/01 🔆 Locator.md>), so they always contain:
     * the [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) - e.g., `nlweb.org/TOKEN:1.0`

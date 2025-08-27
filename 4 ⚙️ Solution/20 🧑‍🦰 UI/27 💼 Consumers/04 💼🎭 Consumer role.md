@@ -33,7 +33,7 @@
     - **When users tap/scan offline Tokens**: 
         - when users tap or scan an offline Token on a Consumer's scanner (e.g., a printed flight ticket at an airport gate), the Consumer can validate the Token without the need for a chat or any interactions with the user's Broker.
 
-    - **When users tap wearables**: 
+    - **When users tap userable**: 
         - when users tap a [Userable 💍](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) on a [Consumer's 💼](<04 💼🎭 Consumer role.md>) scanner (e.g., a wristband at an airport gate), the Consumer asks that Userable's domain to share all user Tokens matching a list of Schema Code's;
         - Userable domains then share those Tokens with Schema Codes marked as PUBLIC.
 

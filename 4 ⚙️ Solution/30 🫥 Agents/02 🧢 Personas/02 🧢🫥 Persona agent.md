@@ -49,22 +49,7 @@
 
     ---
     
-1. **How to implement a Persona domain on AWS?**
-
-    ![](<00 📎 Assets/🧢 Persona$Vault @AWS.png>)
-
-    Personas rely on the following components for domain [📨 Messaging](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>):
-    - 📨 **Inbox**: the combination of the Distributer plus the Endpoint;
-    - 📮 **Async Post**: an async message outbound that signs messages.
-
-    Personas also rely on:
-    - 📜 **Manifester**: to expose its [Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>); 
-    - 🧠 **Ragger**: to enable [RAG GenAI](<01 🧠 Ragger feature.md>) inferences on a vector database;
-    - 📦 **Storage cache**: to maintain a local cache for [Storage 📦](<../01 📦 Storage/01 📦🫥 Storage agent.md>) vaults.
-    
-    ---
-    
-1. **Should Personas hold medical information?**
+2. **Should Personas hold medical information?**
 
     No.
     - Medical information, like allergies, fall under specific data protection and privacy regulations like HIPAA (Health Insurance Portability and Accountability Act - U.S.).
@@ -72,7 +57,7 @@
 
     ---
 
-1. **Should Personas hold credit card information?**
+3. **Should Personas hold credit card information?**
 
     No.
     - Storing card details required special security settings defined by PCI/DSS policies.
