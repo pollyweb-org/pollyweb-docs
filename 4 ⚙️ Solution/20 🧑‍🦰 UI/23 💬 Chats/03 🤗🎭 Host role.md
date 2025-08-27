@@ -47,22 +47,27 @@
 
 1. **Are chat prompt messages encrypted from Hosts to Wallets?**
 
-    Not applicable - Host 🤗 don't send [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) to [Wallets 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>). 
+    Not applicable - Hosts don't send [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) to [Wallets 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>). 
 
-    * Hosts 🤗 only send unencrypted asynchronous intents to the Wallet's [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>), who then sends it to the Wallet's [Notifier 📣](<../02 📣 Notifiers/02 📣 Notifier domain.md>). 
+    * Hosts 🤗 only send asynchronous HTTPS intents to the Wallet's [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>), who then sends it to the Wallet's [Notifier 📣](<../02 📣 Notifiers/02 📣 Notifier domain.md>) also via asynchronous HTTPS. 
 
-    * When the [Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) app receives the intent from the [Notifier 📣](<../02 📣 Notifiers/02 📣 Notifier domain.md>), it pulls the unencrypted message content directly from the Host 🤗 with a synchronous HTTPS call. 
+    * When the [Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) app receives the intent from the [Notifier 📣](<../02 📣 Notifiers/02 📣 Notifier domain.md>), it pulls the message content directly from the Host 🤗 with a synchronous HTTPS call. 
 
     * This keeps the [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) and the [Notifier 📣](<../02 📣 Notifiers/02 📣 Notifier domain.md>) in dark regarding the content of [Message 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) (even in the event of a cryptography attack) because no content actually passes by these proxy services.
 
     ---
 
 
-1. **Are chat reply messages encrypted from Wallets to Hosts?**
+2. **Are chat reply messages encrypted from Wallets to Hosts?**
 
     Yes. 
-    - Although the user's [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) content is not encrypted, it is sent over HTTPS POST directly from the [Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to the Host 🤗.
+
+    - Although the user's [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) content is JSON not encrypted, it is sent over HTTPS POST directly from the [Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to the Host 🤗.
+
     - The HTTPS channel ensures the message is encrypted between the [Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and the Host 🤗. 
+
+    - Unencrypted JSON requests sent over HTTPS are a standard practice in the service APIs of the major cloud providers (e.g., AWS, GCP), and are widely viewed as secure.
+
     - NLWeb relies on the HTTPS ability to continue to evolve has [post-quantum 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/10 📺 Post-quantum keys.md>) cryptography attacks become more sophisticated.
 
     ---
