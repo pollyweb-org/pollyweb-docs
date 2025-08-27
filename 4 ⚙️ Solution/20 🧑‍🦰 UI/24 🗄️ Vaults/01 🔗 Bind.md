@@ -1,13 +1,6 @@
 🔗 Binds
 ===
 
-## Workflows
-
-| Workflow | Notes 
-|-|-
-| [ 🤵⏩🗄️ Bind Vault @ Broker ](<../../../5 ⏩ Flows/08 🤵⏩ Brokers/02 🤵⏩🗄️ Bind vault.md>) ||
-||
-
 
 ## FAQ
 
@@ -28,3 +21,16 @@
     The user can then select one or more [Schema Codes 🧩](<02 🧩 Schema Code.md>) to bind, from the list of available binds provided to the user by the domain.
 
     ---
+
+<!-- 
+
+TODO: Workflows
+
+## Workflows
+
+| Workflow | Notes 
+|-|-
+| [ 🤵⏩🗄️ Bind Vault @ Broker ](<../../../5 ⏩ Flows/08 🤵⏩ Brokers/02 🤵⏩🗄️ Bind vault.md>) ||
+||
+
+-->
