@@ -12,13 +12,3 @@
 
     ---
     
-1. **How to implement palm vein scanners on AWS?**
-
-    ![](<00 📎 Assets/🆔 Palm Scan @AWS.png>)
-
-    Identity domains rely on the following components for domain [📨 Messaging](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>):
-    - 📨 **Inbox**: the combination of the Distributer plus the Endpoint;
-    - 📮 **Async Post**: an async message outbound that signs messages.
-
-    ---
-    
