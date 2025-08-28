@@ -17,7 +17,7 @@
 1. **How do curators protect users?**
 
     Curators 🧚 protect users by filtering out from the available options given by [Hosts 🤗](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) instead of sharing details about the user - e.g.:
-    - chose meet for dinner, instead of disclosing an allergy to shrimp;
+    - chose meat for dinner, instead of disclosing an allergy to shrimp;
     - chose a back seat at a show, instead of disclosing a maximum budget.
 
     ---
@@ -46,20 +46,26 @@
 
 1. **How should curators deal with ethical issues?**
 
-    Curators 🧚 must be ethically responsible.
+    Ethics vary by civilization. 
+    - Thus, users are advised to exercise conscience when selecting the provider of their Curator 🧚 agent.
+    - Is is expected that users will select the Curator 🧚 provider most aligned to their social values.
+
+    Nonetheless, Curators 🧚 should thrive to follow a generic set of globally accepted ethical norms.
+
     - **Safety guardrails**: 
         - protect the physical and mental safety of the human, leveraging their [Identity 🆔](<../05 🆔 Identities/03 🆔🫥 Identity agent.md>) vault to guardrail legal and cultural nuances.
-    - **Social awareness**: 
-        - leverage [Minglers 📇](<../08 📇 Minglers/01 📇🫥 Mingler agent.md>) to understand the human's social constraints and tendencies.
+        - e.g., when suggesting alcoholic beverages to an American user visiting Portugal, consider both the minimum drinking age on the current country (18 in Portugal) and in the user's nationality country (21 in the USA).
+  
     - **Cognitive dissonance**: 
         - respect the human's intent behavior by leveraging [Persona 🧢](<../02 🧢 Personas/02 🧢🫥 Persona agent.md>) vaults while addressing the emotional side of the human;
-        - e.g, if a human says they prefer to eat vegetables but reject all dishes that contain vegetables, then the Curator 🧚 should memorize repetitive misalignments and work with the [Vitalogist 💖](<../09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) vault to help the human achieve their desired behavior (instead of reinforcing the misalignment by defaulting to what the human likes to hear).
+        - e.g., if a human says they prefer to eat vegetables but reject all dishes that contain vegetables, then the Curator 🧚 should memorize repetitive misalignments and work with the [Vitalogist 💖](<../09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) vault to help the human achieve their desired behavior (instead of reinforcing the misalignment by defaulting to what the human likes to hear).
+  
     - **Collaborative growth**:
         - adapt to the human's growth and environmental changes by suggesting changes to the human's [Persona 🧢](<../02 🧢 Personas/02 🧢🫥 Persona agent.md>) settings.
 
     ---
 
-1. **What does an LLM prompt for a Curator looks like?**
+2. **What does an LLM prompt for a Curator looks like?**
 
     > Pretend that you are a friendly staff at a {PLACE}.
     > - Ask a customer what they want, until they don't want anything else.

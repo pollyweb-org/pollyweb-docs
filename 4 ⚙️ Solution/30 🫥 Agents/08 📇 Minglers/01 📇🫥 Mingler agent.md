@@ -17,10 +17,10 @@
         - e.g., email, phones, WhatsApp, phone recording;
         - this allows users to control how to receive messages and calls.
     - Forward requests from services to connected users:
-        - e.g., IDs for [invitation letters](<../../../3 🤝 Use Cases/03 🧳 Travel/09 🧳 Travel by air 💺/12 💺 Invitation letter/01 Send letter.md>), ride hailing payments;
+        - e.g., IDs for [invitation letters 🤝](<../../../3 🤝 Use Cases/03 🧳 Travel/09 🧳 Travel by air 💺/12 💺 Invitation letter/01 Send letter.md>), ride hailing payments;
         - this allows connected users to control how their tokens are used.
     - Save tokens from connected users: 
-        - e.g., elder's [discount tickets](<../../../3 🤝 Use Cases/03 🧳 Travel/02 🧳 Travel by bus 🚎/02 🚎 Traveler @ Stop/21 Buy smart tickets.md>), shared car documents;
+        - e.g., elder's [discount tickets 🤝](<../../../3 🤝 Use Cases/03 🧳 Travel/02 🧳 Travel by bus 🚎/02 🚎 Traveler @ Stop/21 Buy smart tickets.md>), shared car documents;
         - this allows care givers to represent their care takers.
     
     
@@ -34,6 +34,7 @@
 
     ---
 
+<!-- 
 Notes
 - hides email addresses also, forwarding channel numbers
 - each shared contact generates a channel associated with the recipient
@@ -61,3 +62,5 @@ Privacy:
     - each mingler only has the info sent.
     - to rebuild a dialog history, wallets need to pull from both A and B minglers
     - this allows senders to delete their history of messages sent
+
+-->
