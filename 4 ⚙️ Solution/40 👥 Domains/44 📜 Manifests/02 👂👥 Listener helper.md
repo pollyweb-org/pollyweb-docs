@@ -40,14 +40,14 @@
 1. **What is contained in a Manifest-changed event?**
 
     An event from a domain comes inside an [envelope](<../41 📨 Comms/01 📨 Domain Message.md>) containing:
-    - the CRUD change (e.g., CREATE, UPDATE, DELETE, RESET)
+    - the change (e.g., CREATED, UPDATED, DELETED, RESEATED)
     - the path changed (e.g., `/Code/SSR/MEAL`)
     - the content of the Manifest that changed, if not deleted
     - the size of the content in bytes (e.g., `256`)
 
     ---
 
-1. **What is the syntax of the path in the Manifest-changed event?**
+2. **What is the syntax of the path in the Manifest-changed event?**
 
     Paths allowed in Manifest-changed events are:
     * `Identity`, encompassing the Identity object of a Manifest;
@@ -59,7 +59,7 @@
     
     ---
 
-1. **Do Listeners validate the content of events?**
+3. **Do Listeners validate the content of events?**
 
     Yes. Listeners perform the following validations:
     - 1/ is the schema of the event correct?
@@ -70,7 +70,7 @@
 
     ---
 
-1. **How can domains know that their updates were rejected?**
+4. **How can domains know that their updates were rejected?**
 
     Listeners raise alerts when rejecting events. 
     * Interested domains should subscribe to that [🌬️ Streamer](<../41 📨 Comms/02 🌬️🎭 Streamer role.md>), filtering the domains they're interested in receiving alerts about.
@@ -78,7 +78,7 @@
 
     ---
 
-1. **Do Listeners read domain Manifests from the domain?**
+5. **Do Listeners read domain Manifests from the domain?**
 
     Not while reading events. 
     * [Manifest 📜](<01 📜 Domain Manifest.md>) events contain the content changed. 
@@ -86,14 +86,14 @@
 
     ---
 
-1. **What are the size limits for events and Manifests?**
+6. **What are the size limits for events and Manifests?**
 
     * Manifest-changed events: 100 KB;
     * Manifest full content: 1 GB.
 
     ---
 
-1. **Why is there a size limitation on events?**
+7. **Why is there a size limitation on events?**
 
     Limiting the size of Manifest-change events come with several benefits:
 
@@ -105,14 +105,14 @@
 
     ---
 
-1. **Why is there a size limitation on the entire Manifest?**
+8. **Why is there a size limitation on the entire Manifest?**
 
     Domains may ask Graphs and Listeners to download their Manifest for drift detection and sync reset. 
     - For that, the entire content of the Manifest needs to be in memory, with 1 GB being the minimum common denominator for functions among the well-known cloud providers.
 
     ---
 
-1. **How can domains keep Manifest-change events small?**
+9. **How can domains keep Manifest-change events small?**
 
     Domains can apply the following techniques to keep [Manifest 📜](<01 📜 Domain Manifest.md>) parts small:
     - follow the Manifest Schema to break the Manifest into valid paths (e.g., `Identity`);
@@ -123,44 +123,44 @@
     
     ---
 
-1. **Do Listeners propagate all notifications downstream?**
+10. **Do Listeners propagate all notifications downstream?**
 
     Not necessarily. 
     - Listener subscribers can filter the events they subscribe to.
 
     ---
 
-1. **What's the retention commitment of Listeners?**
+11. **What's the retention commitment of Listeners?**
 
     Listeners keep all changes from all domain [Manifests 📜](<01 📜 Domain Manifest.md>) and public keys indefinitely. 
 
     ---
 
-1. **How are new Listener nodes added to the cluster?**
+12. **How are new Listener nodes added to the cluster?**
 
     New nodes first rebase by replaying NLWeb's history from another Listener, then join the cluster.
 
     ---
 
-1. **What if a subscriber wants to read all history?**
+13. **What if a subscriber wants to read all history?**
 
     Subscribers can ask Listeners to replay all domain updates in a given period, or from the beginning of times.
 
     ---
 
-1. **What if a subscriber goes offline?**
+14. **What if a subscriber goes offline?**
 
     Listeners have a retry policy, as defined by the Streamer role. Nonetheless, subscribers are advised to bind to [⏳ Buffer](<../41 📨 Comms/03 ⏳👥 Buffer helper.md>) domains to increase resilience.
 
     ---
 
-1. **How to deploy a new Listener?**
+15. **How to deploy a new Listener?**
 
     Subscribe to another two Listeners and replay the entire history from one of them.
 
     ---
 
-1. **Is there data loss when a Listener goes down?**
+16. **Is there data loss when a Listener goes down?**
 
     No. 
     * Each Listener is fully independent, being responsible for replying the entire history of domain Manifest changes, even if it is the only Listener available in the cluster. 
@@ -169,25 +169,25 @@
 
     ---
 
-1. **How do Listeners avoid infinite loop cycles?**
+17. **How do Listeners avoid infinite loop cycles?**
 
     Listeners propagate the correlation ID sent by the original domain, discarding any repeated update notifications.
 
     ---
 
-1. **Can an attacker compromises all cluster nodes?**    
+18. **Can an attacker compromises all cluster nodes?**    
 
     No. Each Listener in the cluster node is managed by a different organization, and implemented with different technologies, making it hard for an attacker to replicate an attack on all cluster nodes.
 
     ---
 
-1. **How to identify if a Listener was compromised?**
+19. **How to identify if a Listener was compromised?**
 
     [Firewalls 🔥](<../43 👍 Trusts/03 🔥👥 Firewall helper.md>) monitor the behavior of any Listener and match domain information with other Listeners. If necessary, Firewalls immediately revoke a Listener's [trust 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>).
 
     ---
 
-1. **Is the cluster endpoint a single point of failure?**
+20. **Is the cluster endpoint a single point of failure?**
 
     No. 
     * The NLWeb cluster endpoint is a latency-based routing visible at a well-known DNS name (`listeners.nlweb.org`). 
@@ -195,7 +195,7 @@
 
     ---
 
-1. **How can a subscriber filter notifications by content?**
+21. **How can a subscriber filter notifications by content?**
 
     Subscribers can set a filter when subscribing to Listeners 
     - e.g., a financial regulator may only want notifications about changes in domains referencing bank Schema Codes.
