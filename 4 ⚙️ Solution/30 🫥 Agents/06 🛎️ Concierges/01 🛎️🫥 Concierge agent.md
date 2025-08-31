@@ -5,8 +5,8 @@
 
 1. **What are Concierge domains in NLWeb?**
 
-    A Concierge domain is a [Vault 🗄️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) that functions like a personal work-order system for users, allowing domains to add tasks to the user's queue without a clear definition of how those tasks will be executed; 
-    - e.g., if someone activates the recovery mode on a user's lost glasses, that creates a task on the user's Concierge to pick up the glasses.
+    A Concierge 🛎️ domain is a [Vault 🗄️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) that functions like a personal work-order system for users, allowing domains to add tasks to the user's queue without a clear definition of how those tasks will be executed; 
+    - e.g., if someone activates the recovery mode on a user's lost glasses, that creates a task on the user's Concierge 🛎️ to pick up the glasses.
 
     ---
 
@@ -28,7 +28,8 @@
 
 1. **How do Concierges prevent task spam?**
 
-    Concierges ask users to confirm any inbound work order from a domain. For frequent domains, users can ask their Concierge to always trust or always ban the task-requester domain.
+    Concierges ask users to confirm any inbound work order from a domain. 
+    - For frequent domains, users can ask their Concierge 🛎️ to always trust or always ban the task-requester domain.
 
     ---
 

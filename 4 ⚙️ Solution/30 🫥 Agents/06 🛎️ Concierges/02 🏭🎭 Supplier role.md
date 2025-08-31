@@ -27,13 +27,13 @@
 
 1. **How many responses are expected per order?**
 
-    A request to a supplier will receive one or more asynchronous updated events.
+    A request to a Supplier 🏭 will receive one or more asynchronous updated events.
 
     ---
 
 1. **Are order rejections synchronous?**
 
-    No. Adding an order to a Supplier doesn't return a synchronous response.
+    No. Adding an order to a Supplier 🏭 doesn't return a synchronous response.
 
     ---
 
@@ -45,7 +45,7 @@
 
 1. **Can Suppliers use other Suppliers for sub tasks?**
 
-    Yes, [Suppliers 🏭](<02 🏭🎭 Supplier role.md>) can use other sub-Suppliers if they want to - there's no restriction to do so.
+    Yes, Supplier 🏭 can use other sub-Suppliers if they want to - there's no restriction to do so.
 
     ---
 
