@@ -3,7 +3,7 @@ How to withdraw money from a cash machine?
 
 A user can tap/scan the NFC/QR tag of a cash machine to start.
 - To dispense the money, users need to scan/tap the dynamic tag of the dispenser.
-- The dispenser's [ephemeral 🦋](<../../../../4 ⚙️ Solution/60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral devices.md>) tag rotates to force users to stand beside it.
+- The dispenser's [ephemeral 🦋](<../../../../4 ⚙️ Solution/60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>) tag rotates to force users to stand beside it.
 
 | Service | Prompt | User
 | - | - | - |
