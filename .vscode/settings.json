@@ -10,5 +10,6 @@
     "todo-tree.tree.scanMode": "workspace only",
     "cSpell.ignoreWords": [
         "md"
-    ]
+    ],
+    "markdown.validate.enabled": true
 }
