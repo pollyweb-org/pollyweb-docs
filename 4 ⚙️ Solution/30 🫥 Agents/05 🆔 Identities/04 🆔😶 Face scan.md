@@ -3,6 +3,7 @@
 
 ![](<00 📎 Assets/🆔 Online.png>)
 
+
 1. **How is face recognition secured with a selfie input?**
 
     NLWeb discourages face recognition via selfie inputs (except in supervised scenarios) because bad actors can inject a fake picture. 

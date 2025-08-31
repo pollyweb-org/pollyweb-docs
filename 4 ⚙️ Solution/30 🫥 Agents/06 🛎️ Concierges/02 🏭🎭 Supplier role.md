@@ -58,8 +58,8 @@
 1. **How can Suppliers be implemented?**
 
     Suppliers 🏭 will typically:
-    - use GenAI to understand requests in natural language;
-    - use GenAI agents to orchestrate and execute the requests;
+    - use LLMs to understand requests in natural language;
+    - use Agentic AI to orchestrate and execute the requests;
     - use crowd sourcing platforms like Amazon Mechanical Turk and Task Rabbit.
 
     ---
