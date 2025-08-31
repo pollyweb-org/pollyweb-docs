@@ -17,7 +17,7 @@
     * 📸 [Cameras](<../64 📸 Selfies/01 📸🔌 Selfie device.md>) to take a selfie for [Identity 🆔](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) domains;
     * 🖐️ [Palmists](<../63 🖐️ Palmists/01 🖐️🔌 Palmist device.md>) for users to scan their palm for [Identity 🆔](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) domains;
     * 🎬 [Relays](<../65 🎬 Relayers/04 🎬🔌 Relay device.md>) to open doors and gates;
-    * 🦋 [Ephemerals](<../62 🦋 Ephemerals/03 🦋🔌 Ephemeral devices.md>) to ensure users are standing next to a Relay.
+    * 🦋 [Ephemerals](<../62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>) to ensure users are standing next to a Relay.
 
     ---
 
