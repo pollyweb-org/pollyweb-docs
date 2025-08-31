@@ -4,10 +4,8 @@
 
 1. **What are Selfie domains?**
 
-
-    ---
-
-2. **Why are Selfie domains important?**
-
+    A Selfie 📸 domain is a [Supplier 🏭 domain](<../../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>) of [Selfie 📸 devices](<01 📸🔌 Selfie device.md>) that allow other [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) to buy devices. 
+    * It handles the orders, delivery, and management of the devices on behalf of the buyer.
+    * Buyers ask Selfie 📸 domains do verify if the person in front of a specific [Selfie 📸 device](<01 📸🔌 Selfie device.md>) matches a set of pictures.
 
     ---
