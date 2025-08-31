@@ -26,7 +26,7 @@
     Users can:
     * [tap](<04 🧑‍🦰🔆 Wallet NFC tap.md>) or [scan](<03 🧑‍🦰✨ Wallet QR scan.md>) an NLWeb-compatible static 🔆 NFC/QR printed by anyone;
     * tap/scan a static NFC/QR issue by any [🖨️ Printer](<../../70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer supplier.md>);
-    * tap/scan a dynamic NFC/QR rendered by an [🦋 Ephemeral](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>);
+    * tap/scan a dynamic NFC/QR rendered by an [🦋 Ephemeral](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral devices.md>);
     * tap/scan a [Wi-Fier 🛜](<../../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>) to connect it to the internet;
     * tap a [Userable 💍](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) that a user is wearing or holding;
     * tap a [Padlock 🔒](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/01 🔒 Padlock device.md>) to open it;
@@ -46,6 +46,6 @@
     
     - While impersonation attacks are mitigated by NLWeb [👍 Trusts](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) and the principle of least-privilege, these mitigations don't protect users from impersonation attacks. 
     
-    - For the misplacement attacks, domains should deploy hard-locked dynamic NFC/QR devices with rotating codes every X seconds - these cannot be misplaced nor copied, because a copy would only be valid until the next rotation. NLWeb supports these dynamic locators via [🦋 Ephemeral](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>) devices.
+    - For the misplacement attacks, domains should deploy hard-locked dynamic NFC/QR devices with rotating codes every X seconds - these cannot be misplaced nor copied, because a copy would only be valid until the next rotation. NLWeb supports these dynamic locators via [🦋 Ephemeral](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral devices.md>) devices.
 
     ---
