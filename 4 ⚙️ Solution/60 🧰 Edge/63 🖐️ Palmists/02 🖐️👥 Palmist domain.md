@@ -1,0 +1,11 @@
+<!-- #TODO -->
+
+🖐️ Palmist domains FAQ
+===
+
+1. **What is an Palmist domain in NLWeb?**
+
+
+    An Palmist 🖐️ domain is a [Supplier 🏭](<../../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>) of [Palmist 🖐️ device](<01 🖐️🔌 Palmist device.md>) that allow other domains to buy devices. 
+    * It handles the orders, delivery, and management of the devices on behalf of the buyer.
+    
