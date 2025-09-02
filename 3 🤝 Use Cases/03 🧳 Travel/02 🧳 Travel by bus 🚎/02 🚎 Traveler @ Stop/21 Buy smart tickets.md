@@ -8,7 +8,7 @@ Buy a smart bus ticket at the bus stop 🚎
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Operator (4.4 ⭐) [+]
 | 🚎 Operator | ℹ️ Stop X: Earl Gray
 | 🚎 Operator | 😃 Hi! What do you need? <br/>- [ Smart 🧭 ] ticket <br/>- [ Something else ] | > Smart 🧭
-| 🚎 Operator | 😃 Ready to buy? [Yes, No] <br/> - your navigator routes you 🧭 <br/>- your payer pays the ticket 💳 <br/> - save it in your wallet 🤵 <br/> - tap the bus on boarding ✨   | > Yes
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Ready to buy? [Yes, No] <br/> - your navigator routes you 🧭 <br/>- your payer pays the ticket 💳 <br/> - save it in your wallet 🤵 <br/> - tap the bus on boarding ✨   | > Yes
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/07 🧭 Navigators/05 🧭🫥 Navigator agent.md>) | 🫥 Share directions? <br/>- this is the best stop <br/> - any bus to Kings Cross <br/> - buses 23, 198, and 304 <br/> - next buses at 9:15 and 9:30 <br/> - 🧑‍🦳 mom travels for free | > Yes
 | 🚎 Operator | ℹ️ Ticket selected: 1 trip
 | 💳 [Payer](<../../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 💳🫥 Payer agent.md>) | 🫥 Pay £1.50 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC

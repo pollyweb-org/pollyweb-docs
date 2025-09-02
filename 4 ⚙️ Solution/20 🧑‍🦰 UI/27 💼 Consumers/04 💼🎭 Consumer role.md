@@ -150,6 +150,8 @@
   
     * When interacting in a chat, Consumers need to notify the [Brokers 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) of a context change before requesting data under that context.
 
-    * [Brokers 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) inform users of every context change, identifying the data that may be collected, then block any data request from the Consumer that does not comply with that context.
+    * [Brokers 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) inform users of every context change, identifying the data that may be collected, then block any data request from the Consumer that does not comply with that context - e.g., [Order pizza 🍕](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/04 🍽️ Order pizza 🍕/01 🍕 Customer @ Home 🏠/01 🏠 Order pizza.md>), [Hotel check-in 🛎️](<../../../3 🤝 Use Cases/03 🧳 Travel/08 🧳 Stay at hotels 🏨/03 🏨 Guest @ Reception 🛎️/04 🛎️ Check-in.md>).
 
     * Because the [Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) are public and prone to automatic evaluation by domains like [Firewalls 🔥](<../../40 👥 Domains/43 👍 Trusts/03 🔥👥 Firewall helper.md>) and [Reviewers ⭐](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>), Consumers are exposed to public scrutiny regarding the data  their are collecting, namely: what, why, how, and how much.
+
+    ---

@@ -18,7 +18,7 @@ Send an invitation letter before a trip
 | [ new chat ]
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Council (4.4 ⭐) [+]
 | 🏛️ Council | ℹ️ Invitation letter requested [+]
-| 🏛️ Council | 😃 Ready to request it? [Yes, No] <br/> - your ID identifies you 🆔   <br/> - your contracts confirm our address <br/> - your persona sets your job title 🧢 <br/> - you provide the hosting period 🗓️ <br/> - you forward ID request to guests 🤵  <br/> - your persona sets the guests 🧢 <br/> - guests' IDs identify them 🆔 <br/> - your ID signs your responsibility 🆔 <br/> - your payer pays the service 💳 <br/> - you forward the letter to guests 🤵 | > Yes
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Ready to request it? [Yes, No] <br/> - your ID identifies you 🆔   <br/> - your contracts confirm our address <br/> - your persona sets your job title 🧢 <br/> - you provide the hosting period 🗓️ <br/> - you forward ID request to guests 🤵  <br/> - your persona sets the guests 🧢 <br/> - guests' IDs identify them 🆔 <br/> - your ID signs your responsibility 🆔 <br/> - your payer pays the service 💳 <br/> - you forward the letter to guests 🤵 | > Yes
 | 🆔 [Identity](<../../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Share identity? [Yes, No] | > Yes
 | 🏛️ Council | ℹ️ Thanks, Alice!
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Share contract address? [No] <br> - Any Utility 💡 <br/> - Any Bank 🏦 | > Any Bank 🏦
