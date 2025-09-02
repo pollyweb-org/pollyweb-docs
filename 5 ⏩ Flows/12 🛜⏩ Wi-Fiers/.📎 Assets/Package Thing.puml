@@ -1,0 +1,60 @@
+@startuml Package Thing
+
+title 
+    1) 📶 Wi-Fi: Package Thing
+end title 
+
+legend top
+
+end legend 
+
+' ----------------------
+
+box "🤖 Thing" #FFFFFA
+participant "RJ45\nThing" as thing
+participant "NFC QR\nCode" as qr2
+end box
+
+box "📶 RJ45/WiFi" #FAFFFF
+participant "RJ45/Wi-Fi\nConnector" as connector
+participant "Wi-Fi\nDirect" as wifiDirect
+participant "NFC QR\nCode" as qr 
+end box
+
+box 🖨️ Printer #FFFFFA
+participant "Printer\n(domain)" as printer
+end box
+
+box "👱 User" #FFFDFF
+participant "Wallet\nApp" as app
+actor "User Phone" as user
+participant "Home\nWi-Fi" as wifi
+end box
+
+group Setup NFC QR for RJ45/Wi-Fi Device
+  
+  printer -> qr: buy(QR)
+      activate qr
+
+    qr -> connector: stick(QR)
+    deactivate qr
+
+      activate connector
+      connector -> thing: buy(connector)
+      deactivate connector
+      
+          activate thing
+
+  printer -> qr2: buy(QR)
+      activate qr2
+      
+    qr2 -> thing: stick()
+    deactivate qr2
+    
+            thing -> thing: sell()
+            deactivate thing
+
+end group
+
+' ----------------------
+@enduml
