@@ -3,7 +3,7 @@
 
 1. **What is an Identity domain in NLWeb?**
 
-    Identity domains are [Vaults 🗄️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) that help other domains ensure that the person physically holding the Wallet:
+    Identity 🆔 domains are [Vaults 🗄️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) that help other domains ensure that the person physically holding the Wallet:
     * 😶 is the one mentioned in a given identification document, or
     * 🎴 is the one for whom a presented [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) was issued to, or
     * 🔏 is the one required to sign a given file.
@@ -14,7 +14,7 @@
 
     ![](<00 📎 Assets/🆔 Biometrics.png>)
 
-    Identity domains require users to collect their biometric signatures in a supervised biometric collection center, typically managed by public authorities.
+    Identity 🆔 domains require users to collect their biometric signatures in a supervised biometric collection center, typically managed by public authorities.
     
     Advantages of this restriction include: 
     - mitigated risk of identity fraud in supervised settings;
@@ -48,13 +48,13 @@
     
 1. **Can users with dual nationality bind to two Identity domains?**
 
-    Yes. Users with dual nationality may even have two or more bound Identity domains, one per nationality. 
+    Yes. Users with dual nationality may even have two or more bound Identity 🆔 domains, one per nationality. 
 
     ---
     
 1. **What authentication mechanisms are supported by Wallets?**
 
-    NLWeb natively supports key pairs (passkeys) and one time passwords (OTP). However, Identity Vaults are free to implement whatever authentication mechanisms they want using the generic tools available. 
+    NLWeb natively supports key pairs (passkeys) and one time passwords (OTP). However, Identity 🆔 Vaults are free to implement whatever authentication mechanisms they want using the generic tools available. 
     
     For example: 
     - 1/ security questions can be implemented with generic inputs (e.g., text, lists, numbers); 
