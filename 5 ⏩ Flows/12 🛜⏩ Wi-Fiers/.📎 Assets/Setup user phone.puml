@@ -1,0 +1,46 @@
+@startuml Setup user phone
+
+title 
+    2) 📶 Wi-Fi: Setup user phone
+end title
+
+legend top
+    1. The user connects their phone to a stable internet-enabled wi-fi.
+end legend
+
+
+' ----------------------
+
+box "🤖 Thing" #FFFFFA
+participant "RJ45\nThing" as thing
+participant "NFC QR\nCode" as qr2
+end box
+
+box "📶 RJ45/WiFi" #FAFFFF
+participant "RJ45/Wi-Fi\nConnector" as connector
+participant "Wi-Fi\nDirect" as wifiDirect
+participant "NFC QR\nCode" as qr 
+end box
+
+box 🖨️ Printer #FFFFFA
+participant "Printer\n(domain)" as printer
+end box
+
+box "👱 User" #FFFDFF
+participant "Wallet\nApp" as app
+actor "User Phone" as user
+participant "Home\nWi-Fi" as wifi
+end box
+
+
+group Setup user phone
+
+  user -> user: 1. set wi-fi\npassword()
+  activate user
+  user -> wifi: connect()
+  deactivate user
+
+end group
+
+' ----------------------
+@enduml

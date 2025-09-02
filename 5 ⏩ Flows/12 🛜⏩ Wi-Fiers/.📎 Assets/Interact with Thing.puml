@@ -1,0 +1,69 @@
+@startuml Interact with Thing
+
+title
+    5) Interact with Thing
+end title
+
+legend top
+    Conditions: 
+        * The user's phone has internet connectivity.
+        * The thing RJ45/Wi-Fi has internet via the home Wi-Fi.
+    Steps:
+        1. The user taps the NFC QR on the thing.
+        2. The wallet asks the Printer to decode it into the Host+Locator of the thing.
+        3. The wallet checks-in into the Host of the Thing.
+        4. Host commands are sent from the Thing's Host into the Thing via the RJ45/Wi-Fi device.
+end legend
+
+' ----------------------
+
+box "🤖 Thing" #FFFFFA
+participant "RJ45\nThing" as thing
+participant "🔆 Thing\nNFC-QR" as qr2
+end box
+
+box "📶 RJ45/WiFi" #FAFFFF
+participant "RJ45/Wi-Fi\nConnector" as connector
+participant "Wi-Fi\nDirect" as wifiDirect
+participant "🔆 Wi-Fi\nNFC-QR" as qr 
+end box
+
+box 🖨️ Printer #FFFFFA
+participant "Printer\n(domain)" as printer
+end box
+
+box "👱 User" #FFFDFF
+participant "Wallet\nApp" as app
+actor "User Phone" as user
+participant "Home\nWi-Fi" as wifi
+end box
+
+
+group Interact with Thing
+
+    ' Send status events.
+    thing --> connector: {status events}
+    activate connector
+        connector --> wifi: send to the Thing's Host()
+    deactivate connector
+
+    ' Tap the NFC QR.
+    user -> app: 1. tap()    
+    activate app
+        app -> qr2: 1. tap()
+        app -> printer: 2. decode()
+        app --> wifi: 3. check-in()
+    deactivate app
+
+    ' Commands from the Host to the Thing.
+    wifi --> connector: 4. commands from the Thing's Host()
+    activate connector
+        connector --> thing: commands()
+    deactivate connector
+        
+
+end group 
+
+
+' ----------------------
+@enduml

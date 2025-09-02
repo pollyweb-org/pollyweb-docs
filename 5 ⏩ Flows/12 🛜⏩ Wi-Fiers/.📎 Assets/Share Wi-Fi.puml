@@ -1,0 +1,73 @@
+@startuml Share Wi-Fi
+
+title 
+    📶 4) Share Wi-Fi
+end title
+
+legend top
+    Conditions:
+        * The RJ45/Wi-Fi device has L1, L2, and L3 lights on.
+        * The user's phone has internet via their home Wi-Fi.
+    Steps:
+        1. The user taps the QR on the RJ45/Wi-Fi device to get the printer locator.
+        2. The wallet decodes the printer locator into the device's Wi-Fi Direct credentials and webHook.
+        3. The wallet copies the Wi-Fi credentials of the current internet-enable connection.
+        4. The wallet disconnects from the home Wi-Fi and connects to the device's Wi-Fi direct.
+        5. The wallet sends the home Wi-Fi credentials to the webHook, then reconects to the home Wi-Fi.
+        6. The RJ45/Wi-Fi device blinks the L4 light while connecting to the home Wi-Fi, then turns on.
+end legend
+
+' ----------------------
+
+box "🤖 Thing" #FFFFFA
+participant "RJ45\nThing" as thing
+participant "🔆 Thing\nNFC-QR" as qr2
+end box
+
+box "📶 RJ45/WiFi" #FAFFFF
+participant "RJ45/Wi-Fi\nConnector" as connector
+participant "Wi-Fi\nDirect" as wifiDirect
+participant "🔆 Wi-Fi\nNFC-QR" as qr 
+end box
+
+box 🖨️ Printer #FFFFFA
+participant "Printer\n(supplier)" as printer
+end box
+
+box "👱 User" #FFFDFF
+participant "Wallet\nApp" as app
+actor "User Phone" as user
+participant "Home\nWi-Fi" as wifi
+end box
+
+
+group Share wi-fi
+
+  user -> wifi: connect()
+  user -> app: 1. tap()
+
+  
+    activate app
+    
+    app -> qr: 1. tap()
+    app -> printer: 2. decode()
+    
+    app -> app: parse():{\nwifiDirect,\nwebhook}
+    app -> app: 3. get wi-fi\npassword()
+    app --> wifi: disconnect()
+    app -> wifiDirect: 4. connect()
+    app -> connector: 5. webHook(wifi-password)
+    
+    activate connector
+    app -> wifi: connect()
+    deactivate app
+
+      connector -> connector: L4 blink()
+      connector -> wifi: 6. connect()
+      connector -> connector: L4 on()
+      deactivate connector
+
+end group
+
+' ----------------------
+@enduml
