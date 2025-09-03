@@ -27,6 +27,6 @@
 
 1. **How can businesses get a Selfie 📸 device?**
 
-    Businesses can order a Selfie 📸 device from a [📸👥 Selfie domain](<02 📸👥 Selfie domain.md>)
+    Businesses can order a Selfie 📸 device from a [📸👥 Selfie domain](<02 📸🏭 Selfie supplier.md>)
 
     ---
