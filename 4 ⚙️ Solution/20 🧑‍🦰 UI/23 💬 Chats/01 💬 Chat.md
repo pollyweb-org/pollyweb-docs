@@ -96,7 +96,7 @@
     - 👤 *Identify*: opens a pop-up for the user's [Identity 🆔](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) vault to perform a face scan
     - 🛒 *EAN*: scans for ENA-13 and EAN-8 barcodes
     - 🔆 *Scan*: asks to touch/scan a QR/NFC [Locator 🔆](<../22 🔆 Locators/01 🔆 Locator.md>)
-    - 🦋 *Touch*: asks to touch/scan an [🦋 Ephemeral](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>) QR/NFC
+    - 🦋 *Touch*: asks to touch/scan an [Ephemeral 🦋](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>) QR/NFC
     - ⬆️ *Upload*: asks to upload a file or photo
     - ⬇️ *Download*: asks to download a file
     - 🔠 *Text*: asks for a text input
