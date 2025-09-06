@@ -84,9 +84,9 @@ The following principles for distributed system design were borrowed from Amazon
 
     NLWeb integrates payments in chats between users and [Sellers 💵](<../30 🫥 Agents/04 💳 Payers/02 💵🎭 Seller role.md>). 
     
-    - As preconditions, users must first bind their [Wallets 🧑‍🦰](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to one or more [Payer 💳](<../30 🫥 Agents/04 💳 Payers/01 💳🫥 Payer agent.md>) vaults (e.g., their bank), while [Seller 💵](<../30 🫥 Agents/04 💳 Payers/02 💵🎭 Seller role.md>) domains must bind to [Collector 🏦](<../30 🫥 Agents/04 💳 Payers/03 🏦👥 Collector helper.md>) vaults (e.g., a payment gateway). 
+    - As preconditions, users must first bind their [Wallets 🧑‍🦰](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to one or more [Payer 💳](<../30 🫥 Agents/04 💳 Payers/01 💳🫥 Payer agent.md>) vaults (e.g., their bank), while [Seller 💵](<../30 🫥 Agents/04 💳 Payers/02 💵🎭 Seller role.md>) domains must bind to [Collector 🏦](<../30 🫥 Agents/04 💳 Payers/03 🏦🛠️ Collector helper.md>) vaults (e.g., a payment gateway). 
 
-    - The payment is sent from the [Payer 💳](<../30 🫥 Agents/04 💳 Payers/01 💳🫥 Payer agent.md>) (on behalf of the user) to the [Collector 🏦](<../30 🫥 Agents/04 💳 Payers/03 🏦👥 Collector helper.md>) (on behalf of the Seller). 
+    - The payment is sent from the [Payer 💳](<../30 🫥 Agents/04 💳 Payers/01 💳🫥 Payer agent.md>) (on behalf of the user) to the [Collector 🏦](<../30 🫥 Agents/04 💳 Payers/03 🏦🛠️ Collector helper.md>) (on behalf of the Seller). 
     
     In a chat: 
     1. the [Seller 💵](<../30 🫥 Agents/04 💳 Payers/02 💵🎭 Seller role.md>) requests a payment amount (e.g., 123.45 USD) - the user accepts; 
@@ -98,7 +98,7 @@ The following principles for distributed system design were borrowed from Amazon
     ---
 5. **What is NLWeb's approach to subscriptions?**
 
-    NLWeb supports subscriptions via [Payer 💳](<../30 🫥 Agents/04 💳 Payers/01 💳🫥 Payer agent.md>) and [Collector 🏦](<../30 🫥 Agents/04 💳 Payers/03 🏦👥 Collector helper.md>) domains (explore to the payment sections for details). 
+    NLWeb supports subscriptions via [Payer 💳](<../30 🫥 Agents/04 💳 Payers/01 💳🫥 Payer agent.md>) and [Collector 🏦](<../30 🫥 Agents/04 💳 Payers/03 🏦🛠️ Collector helper.md>) domains (explore to the payment sections for details). 
 
     ---
 6. **What is NLWeb's approach to ads?**

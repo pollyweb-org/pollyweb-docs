@@ -50,19 +50,19 @@
 
     Yes. 
     - The NLWeb protocol includes a mechanism from transfer between Storage 📦 domains. 
-    - Failure to comply causes [Firewalls 🔥](<../../40 👥 Domains/43 👍 Trusts/03 🔥👥 Firewall helper.md>) to block the domain.
+    - Failure to comply causes [Firewalls 🔥](<../../40 👥 Domains/43 👍 Trusts/03 🔥🛠️ Firewall helper.md>) to block the domain.
 
     ---
 
 1. **How can users pay for Storage?**
 
-    Typically, with a [subscription 🤝](<../04 💳 Payers/04 🤝👥 Biller helper.md>), like Google Drive.
+    Typically, with a [subscription 🤝](<../04 💳 Payers/04 🤝🛠️ Biller helper.md>), like Google Drive.
 
     ---
 
 1. **How can users increase the available Storage space?**
 
-    Typically, by upgrading the [subscription 🤝](<../04 💳 Payers/04 🤝👥 Biller helper.md>), like Google Drive.
+    Typically, by upgrading the [subscription 🤝](<../04 💳 Payers/04 🤝🛠️ Biller helper.md>), like Google Drive.
 
     ---
 

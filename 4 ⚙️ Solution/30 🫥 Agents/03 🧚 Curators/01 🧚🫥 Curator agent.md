@@ -25,7 +25,7 @@
 1. **How do curators protect themselves from prompt injection?**
 
     Curators 🧚 assess [Host 🤗](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) inputs before acting on them. 
-    - Suspicious behaviors are reported to [Firewalls 🔥](<../../40 👥 Domains/43 👍 Trusts/03 🔥👥 Firewall helper.md>).
+    - Suspicious behaviors are reported to [Firewalls 🔥](<../../40 👥 Domains/43 👍 Trusts/03 🔥🛠️ Firewall helper.md>).
 
     ---
 

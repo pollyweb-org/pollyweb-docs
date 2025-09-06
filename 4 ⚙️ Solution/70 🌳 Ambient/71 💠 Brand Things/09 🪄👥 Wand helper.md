@@ -55,7 +55,7 @@
     Wand 🪄 domains may implement a number of ways to monetize - e.g.:
     - charge [Brand 🍏 suppliers](<07 🍏🎭 Brand role.md>) for a commitment to keep the placeholder active for a certain amount of time (e.g., 10 years) when an order is placed;
     - charge [Custodian 🎩 vaults](<05 🎩🗄️ Custodian vault.md>) for each user registration or interaction with a [Thing 💠](<01 💠 Thing.md>);
-    - charge a [subscription 🗓️](<../../../2 🏔️ Landscape/1 💼 Business landscape/08 🗓️ Subscriptions landscape>) to users, by leveraging a [Biller 🤝 helper](<../../30 🫥 Agents/04 💳 Payers/04 🤝👥 Biller helper.md>);
+    - charge a [subscription 🗓️](<../../../2 🏔️ Landscape/1 💼 Business landscape/08 🗓️ Subscriptions landscape>) to users, by leveraging a [Biller 🤝 helper](<../../30 🫥 Agents/04 💳 Payers/04 🤝🛠️ Biller helper.md>);
     - introduce [advertising 👀](<../../../2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape>) in the user [Chats 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>), by leveraging an [Advertiser 👀 helper](<../../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>).
 
     ---
