@@ -9,7 +9,7 @@
     
     * When a [Consumer 💼](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) domain needs information stored in a [Vault 🗄️](<03 🗄️🎭 Vault role.md>) domain, it states the Schema Code in the form of `{domain}/{code}:{version}` 
         - this allows the chat participants to know where to get the schema definition for the [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) 
-        - e.g., the code `nlweb.com/TOKEN:2.0` references version `2.0` of a schema called `TOKEN` that is defined in the [Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) of the [Authority 🏛️](<../../40 👥 Domains/43 👍 Trusts/02 🏛️👥 Authority helper.md>) domain `nlweb.com`. 
+        - e.g., the code `nlweb.com/TOKEN:2.0` references version `2.0` of a schema called `TOKEN` that is defined in the [Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) of the [Authority 🏛️](<../../40 👥 Domains/43 👍 Trusts/02 🏛️🛠️ Authority helper.md>) domain `nlweb.com`. 
     
     * For resilience and performance, domains can query [Graphs 🕸](<../../40 👥 Domains/44 📜 Manifests/03 🕸👥 Graph helper.md>) directly for a schema definition by passing a Schema Code 🧩.
 

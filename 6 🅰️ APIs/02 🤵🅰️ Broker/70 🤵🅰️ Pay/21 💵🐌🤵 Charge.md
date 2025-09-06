@@ -28,6 +28,6 @@
         - Amount: `12.34`
         - Currency: `EUR`
         - Operation: `DEBIT`
-        - [Collectors 🏦](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 🏦👥 Collector helper.md>): [ `revolut.com`, `paypal.com` ]
+        - [Collectors 🏦](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 🏦🛠️ Collector helper.md>): [ `revolut.com`, `paypal.com` ]
 
 ---

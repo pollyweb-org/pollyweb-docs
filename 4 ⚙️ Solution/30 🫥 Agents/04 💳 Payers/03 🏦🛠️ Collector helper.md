@@ -84,6 +84,6 @@
 1. **Can a Seller implement the Collector API?**
 
     Yes, but that's not recommended. 
-    - A Collector may be better suited to sign wide international agreements with multiple [💳 Payers](<01 💳🫥 Payer agent.md>) and [Billers 🤝](<04 🤝👥 Biller helper.md>), and support a multitude of payment options.
+    - A Collector may be better suited to sign wide international agreements with multiple [💳 Payers](<01 💳🫥 Payer agent.md>) and [Billers 🤝](<04 🤝🛠️ Biller helper.md>), and support a multitude of payment options.
 
     ---
