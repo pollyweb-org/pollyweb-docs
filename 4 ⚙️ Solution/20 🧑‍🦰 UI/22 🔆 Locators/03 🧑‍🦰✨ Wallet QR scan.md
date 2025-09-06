@@ -84,6 +84,17 @@
     Note that NLWeb does not enforce the usage of pins and biometric validation for entitlement confirmation;
     - i.e., the choice to use pins and/or biometrics falls into the custom defined workflow of each business;
     - NLWeb does provide [Chat 💬 prompts](<../23 💬 Chats/01 💬 Chat.md>) to render OTPs and face scans;
-    - consider the following workflow examples with pin usage:
+    
+    Consider the following workflow examples with pin usage:
+    <!-- TODO: add examples -->
 
+    ---
+
+1. **How can businesses protect users from fake QRs?**
+    
+    Businesses can protect users from fake QRs with visual queues that are hard for bad actors to replicate or replace - e.g.:
+    - big QR codes integrated into to a shop's top banner, 2 meters high;
+    - screen-based QR codes, integrated into physical displays, i.e. TVs;
+    - screen-based QR+NFC devices, e.g. [Ephemeral 🦋 devices](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>).
+    
     ---

@@ -1,48 +1,85 @@
 <!-- #TODO -->
 
-👀 Advertiser domains FAQ
+👀 Advertiser helper domains FAQ
 ===
 
-![](<00 📎 Assets/🔎 Advertiser.png>)
+1. **What is an Advertiser helper domain in NLWeb?**
 
-1. **What is an Advertiser domain in NLWeb?**
-
-    Advertiser domains intermediate the registration, distribution, and payment flows for ads on NLWeb. 
+    Advertisers 👀 are helper [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that intermediate the registration, distribution, and payment flows for ads on NLWeb. 
 
     ---
 
-1. **How are adds presented to users?**
 
-    When a [Host 🤗](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) ends a workflow, the wallet's [Curator 🧚](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>) vault suggests contextualized next-best actions for the user, e.g.: 
+1. **How are ads presented to users?**
+
+    When a [Host 🤗 domain](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) ends a [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>), an Advertiser 👀 presents contextualized next-best actions for the user, e.g.: 
+
     - *given you like diving and are flying to Miami, consider diving at the Neptune Memorial Reef - here's a company that accepts your SSI Open Water certification and a list of nice restaurants nearby.*
 
-    ---
-
-1. **How can Sellers register ads?**
-
-    For a [Seller 💵](<../04 💳 Payers/02 💵🎭 Seller role.md>) to register an ad, it needs first do set up a [Payer 💳](<../04 💳 Payers/01 💳🫥 Payer agent.md>) and bind to the Advertiser. 
-    - The configuration of the ads will then depend on the Advertiser's user interface.
+    See the following examples for details:
+    * [🏪 Buy water at a vending machine](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/01 🍽️ Eat at vendings 🍫/01 🍫 Customer @ Machine 🏪/11 🏪 Buy water 💧.md>)
+    * [🛎️ Check-in at a hotel](<../../../3 🤝 Use Cases/03 🧳 Travel/08 🧳 Stay at hotels 🏨/03 🏨 Guest @ Reception 🛎️/04 🛎️ Check-in.md>)
+    * [🍕 Order a pizza for home delivery](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/04 🍽️ Order pizza 🍕/01 🍕 Customer @ Home 🏠/02 🏠 Wait for pizza.md>)
 
     ---
+
+
+1. **What are the setup requirements for ads to work?**
+
+    The set required for ads to work is as follows:
+
+    * Users set up one [Curator 🧚 agent](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>) on their [Wallet 🧑‍🦰 App](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+    | | [Seller 💵 domains](<../04 💳 Payers/02 💵🎭 Seller role.md>) set up one [Payer 💳 helper](<../04 💳 Payers/01 💳🫥 Payer agent.md>) to pay for ads.
+    
+    * Advertiser 👀 domains set up one [Biller 🤝 helper](<../04 💳 Payers/04 🤝👥 Biller helper.md>) to charge [Seller 💵 domains](<../04 💳 Payers/02 💵🎭 Seller role.md>) for ads, one [Collector 🏦 helper](<../04 💳 Payers/03 🏦👥 Collector helper.md>) to receive the ad payments, and one [Payer 💳 helper](<../04 💳 Payers/01 💳🫥 Payer agent.md>) for paying ad-printing commissions to [Host 🤗 domains](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) and [Curator 🧚 agents](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>).
+    
+    * [Broker 🤵 domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) set up one Advertiser 👀 helper to manage ads, and one [Biller 🤝 helper](<../04 💳 Payers/04 🤝👥 Biller helper.md>) to orchestrate the payments to all domains involved in ad printing for its registered [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+
+
+    ---
+
 
 1. **How are ads selected?**
 
-    | # | Step
+    ![](<00 📎 Assets/🔎 Advertiser.png>)
+
+    | # | Posting ads
     |-|-
-    | 1 | when closing a chat, [Hosts 🤗](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) send a Goodbye via the chat's [Broker 🤵](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
-    2 | the Broker registers a new bill on a supporting [Biller 🤝](<../04 💳 Payers/04 🤝👥 Biller helper.md>) (this a synchronous call the returns the ID as a response, allowing the other parties to add tracking information to the ad transaction);
-    3 | the Broker asks the Host for to share the chat's summary with the user's [Persona 🧢](<../02 🧢 Personas/02 🧢🫥 Persona agent.md>), passing the bill's [Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>);
-    4 | the Host send an anonymized chat summary to the Persona, plus the bill's Locator;
-    5 | the Persona sends analysis requests to one or more Advertisers containing the user's context (e.g., country), the user's advertising preferences, the anonymized chat summary, and the bill Locator;
-    6 | the Advertisers compiles a list of potential options for next actions and sends it to the Persona;
-    7 | the Persona evaluates the options sent by the multiple advertisers, considering its knowledge about the user's inferred preferences (this allows for additional filtering based on users' private preferences that Advertisers should know be exposed to), and then informs of the Advertisers about the final selection of options (this allows Advertisers to know which ad prints to charge Sellers);
-    8 | the Persona shows the options to the user on the same chat;
-    9 | if and when the user select one of the options, the Persona then asks the Advertiser to translate the options number into a Locator (this allows Advertisers to know which clicks to charge Sellers);
-    10 | the Persona sends the Locator to the Wallet, for it to open a new chat for the clicked Locator.
+    | 0 | [Seller 💵 domains](<../04 💳 Payers/02 💵🎭 Seller role.md>) bind to one or more Advertisers 👀, then register their ads on the Advertiser's 👀 UX or API.
+
+    | # | Showing ads
+    |-|-
+    | 1 | When closing a [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>), [Host 🤗 domains](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) send a Goodbye via the chat's [Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>).
+    2 | The [Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) registers a new bill on a supporting [Biller 🤝 helper](<../04 💳 Payers/04 🤝👥 Biller helper.md>) (this a synchronous call the returns the ID as a response, allowing the other parties to add tracking information to the ad transaction).
+    3 | The [Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) asks the Chat's 💬 [Host 🤗 domain](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) to share the [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) summary with the user's [Curator 🧚 agent](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>), passing the bill's [Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>).
+    4 | The [Host 🤗 domain](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) sends an anonymized [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) summary to the user's [Curator 🧚 agent](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>), plus the bill's [Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>).
+    5 | The user's [Curator 🧚 agent](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>) sends analysis requests to one or more Advertisers 👀 containing the user's context (e.g., country), the user's advertising preferences, the anonymized [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) summary, and the bill [Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>).
+    6 | The Advertisers 👀 compile a list of potential options for next actions and send it to the user's [Curator 🧚 agent](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>).
+    7 | The [Curator 🧚 agent](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>) evaluates the options sent by the multiple Advertisers 👀, considering its knowledge about the user's inferred preferences, and then informs of the Advertiser 👀 about the final selection of options - this allows for additional filtering based on users' private preferences that Advertisers 👀 should not be exposed to.
+    8 | The Advertiser 👀 helper shows the options to the user on the [Wallet 🧑‍🦰 App](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+    9 | The user selects one of the options presented by the Advertiser 👀.
+    10 | The Advertiser 👀 asks the [Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) to open a new [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) to the user-selected [Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>).
+
+    | # | Periodic billing
+    |-|-
+    | A | Monthly, the Broker's [Biller 🤝 helper](<../04 💳 Payers/04 🤝👥 Biller helper.md>) will debit its Advertiser's 👀 [Payer 💳 helper](<../04 💳 Payers/01 💳🫥 Payer agent.md>) a lump sump for all contributions of the multiple domains in the advertisement workflow during the billing period.  
+    | B | The Advertiser's 👀 [Payer 💳 helper](<../04 💳 Payers/01 💳🫥 Payer agent.md>) sends the corresponding part to the [Collector 🏦 helper](<../04 💳 Payers/03 🏦👥 Collector helper.md>) of each [Host 🤗 domain](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) for their [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) summaries.
+    | C | Sends the corresponding part to the [Collector 🏦 helper](<../04 💳 Payers/03 🏦👥 Collector helper.md>) of each [Curator 🧚 agent](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>) for their filtering and sorting of the ads.
+    | D | And sends the corresponding part to the [Collector 🏦 helper](<../04 💳 Payers/03 🏦👥 Collector helper.md>) of the [Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) for orchestrating the ad workflows.
+    | E | Periodically, the Advertiser's 👀 [Biller 🤝 helper](<../04 💳 Payers/04 🤝👥 Biller helper.md>) will debit each [Seller 💵 domain](<../04 💳 Payers/02 💵🎭 Seller role.md>) for their printed and clicked ads in the billing period.
+    | F | Each Seller's 💵 [Payer 💳 helper](<../04 💳 Payers/01 💳🫥 Payer agent.md>) then sends the corresponding payment to the Advertiser's 👀 [Collector 🏦 helper](<../04 💳 Payers/03 🏦👥 Collector helper.md>).
+    
 
     ---
 
-1. **How are Sellers charged for ads?**
+2. **How can Sellers 💵 register ads?**
+
+    For a [Seller 💵 domain](<../04 💳 Payers/02 💵🎭 Seller role.md>) to register an ad, it needs first do set up a [Payer 💳 helper](<../04 💳 Payers/01 💳🫥 Payer agent.md>) and bind to the Advertiser. 
+    - The configuration of the ads will then depend on the Advertiser's UX and API.
+
+    ---
+
+3. **How are Sellers 💵 charged for ads?**
 
     Similar to Google Ads, [Sellers 💵](<../04 💳 Payers/02 💵🎭 Seller role.md>) are charged for:
     - 1/ ads showed to the user, and 
@@ -53,44 +90,50 @@
 
     ---
 
-1. **How do parties monetize by displaying Ads?**
+4. **How do parties monetize by displaying Ads?**
 
-    Monthly, the [Broker 🤵](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)'s [Biller 🤝](<../04 💳 Payers/04 🤝👥 Biller helper.md>) debits the transaction fees and percentages to the Advertisers, who then have to pay the [🧢 Personas](<../02 🧢 Personas/02 🧢🫥 Persona agent.md>) and [Hosts 🤗](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>)
+    Monthly, the Broker's [Biller 🤝 helper](<../04 💳 Payers/04 🤝👥 Biller helper.md>) debits the transaction fees and percentages to the Advertisers, who then have to pay the [Curator 🧚 agents](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>) and the [Host 🤗 domains](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>)
 
     ---
 
-1. **What are the preconditions for ads to work?**
+5. **What are the preconditions for ads to work?**
 
-    - Users need to select their default [Persona 🧢](<../02 🧢 Personas/02 🧢🫥 Persona agent.md>) on their [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
-    - [Sellers 💵](<../04 💳 Payers/02 💵🎭 Seller role.md>) need to promote ads on an Advertiser.
+    - Users need to select their default [Curator 🧚 agent](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>) on their [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+    - [Seller 💵 domains](<../04 💳 Payers/02 💵🎭 Seller role.md>) need to promote ads on an Advertiser.
     - All domains interacting directly need a [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) path between them.
 
     ---
 
-1. **How are frauds prevented?**
+6. **How are frauds prevented?**
 
-    [Brokers 🤵](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) register contracts on [Billers 🤝](<../04 💳 Payers/04 🤝👥 Biller helper.md>) that require a number of matching values from the multiple parties involve in each advertising transaction:
+    [Broker 🤵 domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) register contracts on [Billers 🤝](<../04 💳 Payers/04 🤝👥 Biller helper.md>) that require a number of matching values from the multiple parties involve in each advertising transaction:
     
     For ad displays: 
-    - Advertisers and [🧢 Personas](<../02 🧢 Personas/02 🧢🫥 Persona agent.md>) send the number of adds offered to the Persona;
-    - Advertisers, Personas, and [Sellers 💵](<../04 💳 Payers/02 💵🎭 Seller role.md>) send the IDs of the selected list of adds presented to the user;
-    - Personas and Brokers send the number of options in the next-action prompt;
-    - Advertisers and Sellers send the display value charged to Sellers.
+    - Advertisers and [Curator 🧚 agents](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>) send the number of ads offered to the Persona;
+    - Advertisers, [Curator 🧚 agents](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>), and [Seller 💵 domains](<../04 💳 Payers/02 💵🎭 Seller role.md>) send the IDs of the selected list of ads presented to the user;
+    - [Curator 🧚 agents](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>) and [Broker 🤵 domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) send the number of options in the next-action prompt;
+    - Advertisers and [Seller 💵 domains](<../04 💳 Payers/02 💵🎭 Seller role.md>) send the display value charged to Sellers.
     
     For ad clicks: 
-    - Personas, Advertiser, and Sellers send the IDs of ads translated from option number to option Locator;
-    - Advertisers and Sellers send the click value charged to Sellers.
+    - [Curator 🧚 agents](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>), Advertisers 👀, and [Seller 💵 domains](<../04 💳 Payers/02 💵🎭 Seller role.md>) send the IDs of ads translated from option number to option Locator;
+    - Advertisers 👀 and [Seller 💵 domains](<../04 💳 Payers/02 💵🎭 Seller role.md>) send the click value charged to Sellers.
 
     ---
 
-1. **How is PII protected?**
+7. **How is PII protected?**
 
-    The following strategies protect users' personal identifiable information (PII):
-    * [Hosts 🤗](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) send chat summaries directly to [🧢 Personas](<../02 🧢 Personas/02 🧢🫥 Persona agent.md>), not to Brokers.
-        - The summaries should not contained sensitive information, but each Host can arbitrarily decide how much is too much information.
-        - There is still the risk of Personas collecting too much information about a user, but at least the blast radius is limited to a domain that already has the responsibility of holding PII.
-        - Personas should reject summaries with PII, as a way to educate Hosts to filter out PII when summarizing session chats.
-    * Personas anonymize the context, preferences, and Host summaries when asking Advertisers for next best actions.
-        - This removes tracking abilities from Advertisers and [Sellers 💵](<../04 💳 Payers/02 💵🎭 Seller role.md>).
+    The following strategies protect users' personal identifiable information (PII) from [profiling practices 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/01 🗂️ Profiling landscape/00 🗂️ Profiling Index.md>):
+
+    * [Host 🤗 domains](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) send chat summaries directly to [Curator 🧚 agents](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>), not to [Broker 🤵 domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>).
+  
+        * The summaries should not contained sensitive information, but each [Host 🤗 domain](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) can arbitrarily decide how much is "too much information".
+        
+        * There is still the risk of [Curator 🧚 agents](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>) collecting "too much information" about a user, but at least the blast radius is limited to a domain that already has the responsibility of holding PII.
+        
+        * [Curator 🧚 agents](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>) should reject summaries with PII, as a way to educate [Host 🤗 domains](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) to filter out PII when summarizing session chats.
+  
+    * When [Curator 🧚 agents](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>) ask Advertisers 👀 for next best actions, they first anonymize the [Chat's 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) context, the user preferences, and the [Host 🤗](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) summary.
+  
+        - This mitigates the abilities of both Advertisers 👀 and [Sellers 💵](<../04 💳 Payers/02 💵🎭 Seller role.md>) to [profile 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/01 🗂️ Profiling landscape/00 🗂️ Profiling Index.md>) users.
 
     ---
