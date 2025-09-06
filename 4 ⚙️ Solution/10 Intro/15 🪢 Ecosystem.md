@@ -20,13 +20,27 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
 
 - Users use their Wallets or their wearables (e.g., [Userables 💍](<../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>), [Tapbands ⌚](<../70 🌳 Ambient/76 ⌚ Brand Tapbands/01 ⌚💠 Tapband thing.md>)) to interact with [Padlocks 🔒](<../70 🌳 Ambient/75 🔒 Brand Padlocks/01 🔒 Padlock device.md>), [Robots 🤖](<../70 🌳 Ambient/72 🤖 Brand Robots/01 🤖💠 Robot thing.md>), and other smart [Things 💠](<../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>).
 
-- Organizations interact with an email-like inbox API behind a domain name, and can assume a multitude of roles in parallel (e.g., session [Host 🤗](<../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>), business [Seller 💵](<../30 🫥 Agents/04 💳 Payers/02 💵🎭 Seller role.md>), data [Consumer 💼](<../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>), user-bound [Vault 🗄️](<../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>), event [Streamer 🌬️](<../40 👥 Domains/41 📨 Comms/02 🌬️🎭 Streamer role.md>), and asynchronous service [Supplier 🏭](<../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>)). 
+- Organizations interact with an email-like inbox API behind a domain name, and can assume a multitude of roles in parallel - e.g.:
+    * session [Host 🤗](<../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>), 
+    * business [Seller 💵](<../30 🫥 Agents/04 💳 Payers/02 💵🎭 Seller role.md>),
+    * data [Consumer 💼](<../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>), 
+    * user-bound [Vault 🗄️](<../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>), 
+    * event [Streamer 🌬️](<../40 👥 Domains/41 📨 Comms/02 🌬️🎭 Streamer role.md>), 
+    * and asynchronous service [Supplier 🏭](<../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>). 
 
-- Domains are extended by helper domains (e.g., [Buffer ⏳](<../40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>) for global ingestion and throttling, [Collector 🏦](<../30 🫥 Agents/04 💳 Payers/03 🏦🛠️ Collector helper.md>) for payments, [Biller 🤝](../30 🫥 Agents/04 💳 Payers/04 🤝🛠️ Biller helper.mdd>) for financial contracts, [Advertiser 👀](<../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) for ads).
+- Domains are extended by helper domains, e.g.:
+    * [Buffer ⏳](<../40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>) for global ingestion and throttling, 
+    * [Collector 🏦](<../30 🫥 Agents/04 💳 Payers/03 🏦🛠️ Collector helper.md>) for payments, 
+    * [Biller 🤝](<../30 🫥 Agents/04 💳 Payers/04 🤝🛠️ Biller helper.md>) for financial contracts, 
+    * [Advertiser 👀](<../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) for ads.
 
-- Data integration and structural validation is assured via [Schema Codes 🧩](<../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) that domains and [Authorities 🏛️](<../40 👥 Domains/43 👍 Trusts/02 🏛️🛠️ Authority helper.md>) can define on their domain [Manifests 📜](<../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) - these codes are the foundation of resource [Locators 🔆](<../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>), physical [Things 💠](<../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>), and verifiable offline [Tokens 🎫](<../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>).
+- Data integration and structural validation is assured via [Schema Codes 🧩](<../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) that domains and [Authorities 🏛️](<../40 👥 Domains/43 👍 Trusts/02 🏛️🛠️ Authority helper.md>) can define on their domain [Manifests 📜](<../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) 
+    - these codes are the foundation of resource [Locators 🔆](<../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>), physical [Things 💠](<../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>), and verifiable offline [Tokens 🎫](<../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>).
 
-- Domains interact directly with humans with edge devices that exhibit well-known behaviors (e.g., locator [Scanners ✨](<../60 🧰 Edge/66 ✨ Scanners/06 ✨🔌 Scanner device.md>), biometric [Palmists 🖐️](<../60 🧰 Edge/63 🖐️ Palmists/01 🖐️🔌 Palmist device.md>) and [Selfies 📸](<../60 🧰 Edge/64 📸 Selfies/01 📸🔌 Selfie device.md>), and circuit [Relays 🎬](<../60 🧰 Edge/65 🎬 Relayers/04 🎬🔌 Relay device.md>)).
+- Domains interact directly with humans with edge devices that exhibit well-known behaviors - e.g.:
+    * locator [Scanners ✨](<../60 🧰 Edge/66 ✨ Scanners/06 ✨🔌 Scanner device.md>), 
+    * biometric [Palmists 🖐️](<../60 🧰 Edge/63 🖐️ Palmists/01 🖐️🔌 Palmist device.md>) and [Selfies 📸](<../60 🧰 Edge/64 📸 Selfies/01 📸🔌 Selfie device.md>), 
+    * and circuit [Relays 🎬](<../60 🧰 Edge/65 🎬 Relayers/04 🎬🔌 Relay device.md>).
 
 - Device integration is assured by natural language [Relayer 🛰️](<../60 🧰 Edge/61 🔌 Pluggables/04 🛰️🏭 Relayer supplier.md>) domains that communicate with local [Antenna 📡](<../60 🧰 Edge/61 🔌 Pluggables/02 📡🔀 Antenna router.md>) hubs that aggregate [Pluggable 🔌](<../60 🧰 Edge/61 🔌 Pluggables/01 🔌 Pluggable device.md>) devices and [Wi-Fier 🛜](<../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>) routers. 
 
