@@ -21,21 +21,21 @@
 
     | Agent | Description
     |-|-
-    | [Storage 📦](<../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>) | Stores user data on behalf of other [Vault 🗄️ domains](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>), for data residency compliance.
-    | [Finder 🔎](<../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | Searches for [Host 🤗 domains](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>), and  introduces them when they start a new [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>).
-    | [Persona 🧢](<../30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>)
-    | [Curator 🧚](<../30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>)
-    | [Payer 💳](<../30 🫥 Agents/04 💳 Payers/01 💳🫥 Payer agent.md>)
-    | [Identity 🆔](<../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>)
-    | [Concierge 🛎️](<../30 🫥 Agents/06 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>)
-    | [Scheduler 🗓️](<../30 🫥 Agents/38 🕓 User Timeline/04 🗓️🗄️ Scheduler agent.md>)
-    | [Navigator 🧭](<../30 🫥 Agents/07 🧭 Navigators/05 🧭🫥 Navigator agent.md>)
-    | [Vitalogist 💖](<../30 🫥 Agents/09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>)
-    | [Mingler 📇](<../30 🫥 Agents/08 📇 Minglers/01 📇🫥 Mingler agent.md>)
-    | [Reviewer ⭐](<../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>)
-    | [Timeline 🕓](<../30 🫥 Agents/38 🕓 User Timeline/01 🕓🗄️ Timeline agent.md>)
-    | [Custodian 🎩](<../70 🌳 Ambient/71 💠 Brand Things/05 🎩🗄️ Custodian vault.md>)
-    | [Keybox 🌼](<../70 🌳 Ambient/75 🔒 Brand Padlocks/04 🌼🗄️ Keybox vault.md>)
+    | [Storage 📦](<../01 📦 Storage/01 📦🫥 Storage agent.md>) | Stores user data on behalf of other [Vault 🗄️ domains](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>), for data residency compliance.
+    | [Finder 🔎](<../10 🔎 Finders/02 🔎🫥 Finder vault.md>) | Searches for [Host 🤗 domains](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>), and  introduces them when they start a new [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>).
+    | [Persona 🧢](<../02 🧢 Personas/02 🧢🫥 Persona agent.md>)
+    | [Curator 🧚](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>)
+    | [Payer 💳](<../04 💳 Payers/01 💳🫥 Payer agent.md>)
+    | [Identity 🆔](<../05 🆔 Identities/03 🆔🫥 Identity agent.md>)
+    | [Concierge 🛎️](<../06 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>)
+    | [Scheduler 🗓️](<../38 🕓 User Timeline/04 🗓️🗄️ Scheduler agent.md>)
+    | [Navigator 🧭](<../07 🧭 Navigators/05 🧭🫥 Navigator agent.md>)
+    | [Vitalogist 💖](<../09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>)
+    | [Mingler 📇](<../08 📇 Minglers/01 📇🫥 Mingler agent.md>)
+    | [Reviewer ⭐](<../10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>)
+    | [Timeline 🕓](<../38 🕓 User Timeline/01 🕓🗄️ Timeline agent.md>)
+    | [Custodian 🎩](<../../70 🌳 Ambient/71 💠 Brand Things/05 🎩🗄️ Custodian vault.md>)
+    | [Keybox 🌼](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/04 🌼🗄️ Keybox vault.md>)
 
 
     ---

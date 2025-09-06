@@ -5,7 +5,7 @@
 
 1. **What is a Brand domain role in NLWeb?**
 
-    A Brand is a domain that orders [Things 💠](<01 💠 Thing.md>) from a [Wand 🪄](<09 🪄🏭 Wand helper.md>) in order to enhance the Brand's products.
+    A Brand is a domain that orders [Things 💠](<01 💠 Thing.md>) from a [Wand 🪄](<09 🪄👥 Wand helper.md>) in order to enhance the Brand's products.
 
     ---
 
