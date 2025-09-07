@@ -1,19 +1,24 @@
-🧢 Persona agent FAQ
+🧢 Persona vault domain FAQ
 ===
 
-![](<00 📎 Assets/🧢 Persona.png>)
 
-1. **What is a Persona domain in NLWeb?**
+1. **What is a Persona in NLWeb?**
 
-    A Persona 🧢 agent is a [Vault 🗄️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) specialized in user preferences.
+    A Persona 🧢 domain is an [Agent 🫥 vault](<../00 Entities/🫥 Agent vault.md>) specialized in user preferences.
 
     ---
 
-1. **How do Persona vaults differ from Identity vaults?**
+2. **How do Persona agents work?**
+
+    ![](<00 📎 Assets/🧢 Persona.png>)
+
+    ---
+
+3. **How do Persona vaults differ from Identity vaults?**
 
     Persona 🧢 vaults are controlled by users, allowing them to define their preferences according to specific circumstances (e.g., a user may have different preferences when traveling for work or on family holidays). 
     
-    Conversely, [Identity 🆔](<../05 🆔 Identities/03 🆔🫥 Identity agent.md>) vaults are controlled by nations on behalf of their citizens (e.g., the UK), allowing users to legally identity themselves at home and abroad.
+    - Conversely, [Identity 🆔](<../05 🆔 Identities/03 🆔🫥 Identity agent.md>) vaults are controlled by nations on behalf of their citizens (e.g., the UK), allowing users to legally identity themselves at home and abroad.
 
 
     ---
