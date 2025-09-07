@@ -1,54 +1,54 @@
 🌬️ Streamer domain role FAQ
 ===
 
-![](<.📎 Assets/📨 Streamer.png>)
-
 1. **What is a Streamer domain role in NLWeb?**
 
-    A Streamer is an [Integrator 🪢 domain](<../../20 🧑‍🦰 UI/23 💬 Chats/06 🪢🎭 Integrator role.md>) that pushes events to subscriber [Domains 👥](<../44 📜 Manifests/00 👥 Domain.md>).
+    A Streamer 🌬️ is a [domain 👥](<../44 📜 Manifests/00 👥 Domain.md>) that pushes and replays events to [Subscriber 🔔 domains](<04 🔔🎭 Subscriber role.md>) via their [Buffer ⏳ helpers](<03 ⏳🛠️ Buffer helper.md>).
 
     ---
 
-2. **What are examples of event streams?**
+1. **How do Streamer domains work?**
 
-    - [Graph 🕸 domains](<../44 📜 Manifests/03 🕸👥 Graph helper.md>) subscribe to Manifest updates from [Listeners 👂](<../44 📜 Manifests/02 👂👥 Listener helper.md>) to build their graph databases.
-    - [Finder 🔎 domains](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) subscribe to [Graph 🕸 domains](<../44 📜 Manifests/03 🕸👥 Graph helper.md>), [Advertiser 👀 domains](<../../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>), and [Reviewer ⭐ domains](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) to build their search index.
-    - [Firewall 🔥 domains](<../43 👍 Trusts/03 🔥🛠️ Firewall helper.md>) subscribe to [Listener 👂 domains](<../44 📜 Manifests/02 👂👥 Listener helper.md>) and [Graphs 🕸 domains](<../44 📜 Manifests/03 🕸👥 Graph helper.md>) to ensure domain compliance.
+    ![](<.📎 Assets/📨 Streamer-simple.png>)
 
-    ---
-
-3. **Do Streamers push messages?**
-
-    Yes. NLWeb advocates for subscribers to bind to a [⏳ Buffer](<03 ⏳🛠️ Buffer helper.md>) for increased resilience.
+    
 
     ---
 
-4. **What if a push fails with a timeout or 5XX error?**
+1. **What are examples of domain event streams?**
 
-    Streamers will retry to push events to subscribers with exponential back-off for up to 2 days. After that, the event is discarded.
-
-    ---
-
-5. **What if a push fails with a 4XX HTTP error?**
-
-    The event is discarded - Streamers assume that the subscriber does not want the message.
+    * [Listener 👂 domains](<../44 📜 Manifests/02 👂👥 Listener helper.md>) and [Graph 🕸 domains](<../44 📜 Manifests/03 🕸👥 Graph helper.md>) stream domain [Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>) updates.
+    * [Advertiser 👀 domains](<../../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) and [Reviewer ⭐ domains](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) stream feedbacks about [Host 🤗 domain](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>).
+    * [Persona 🧢 agents](<../../30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) stream changes performed by the user.
 
     ---
 
-6. **What if a subscriber returns a 429 Too Many Requests?**
+1. **What if a push fails with a timeout or 5XX error?**
 
-    The event is discarded nonetheless - subscribers are responsible to ensure ingestion capacity, or should otherwise delegate it to Buffer domains.
-
-    ---
-
-7. **How can subscribers delegate to a Buffer domain?**
-
-    When subscribing, subscribers can assign a Buffer.
+    Upon receiving a timeout or 5XX error from a [Buffer ⏳ helper](<03 ⏳🛠️ Buffer helper.md>), 
+    * Streamers 🌬️ will retry to push events with exponential back-off for up to 24 hours. 
+    * After that, the event is discarded.
 
     ---
 
-8. **How to prevent Buffers from spoofing the events?**
+1. **What if a push fails with a 4XX HTTP error?**
 
-    When using a Buffer, Streamers encrypt the event content with the public key of the subscriber. For details, see Buffer domains.
+    Upon receiving a non-authorized 4XX error from a [Buffer ⏳ helper](<03 ⏳🛠️ Buffer helper.md>), 
+    * Streamers 🌬️ assume that the [Buffer ⏳ helper](<03 ⏳🛠️ Buffer helper.md>) does not want the message, 
+    * and the event is discarded.
+
+    ---
+
+1. **What if a subscriber returns a 429 Too Many Requests?**
+
+    Upon receiving a 429 Too Many Requests from a [Buffer ⏳ helper](<03 ⏳🛠️ Buffer helper.md>), 
+    * Streamers 🌬️ conclude that the [Buffer ⏳ helper](<03 ⏳🛠️ Buffer helper.md>) is failing to do its one and only job, 
+    * and the event is discarded nonetheless.
+
+    ---
+
+1. **How to prevent Buffers from spoofing the events?**
+
+    To avoid spoofing, Streamers 🌬️ encrypt the event content with the public key of the [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) before sending it to the Subscriber's [Buffer ⏳ helper](<03 ⏳🛠️ Buffer helper.md>).
 
     ---
