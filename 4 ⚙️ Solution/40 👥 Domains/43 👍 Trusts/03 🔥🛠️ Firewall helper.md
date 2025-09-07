@@ -3,7 +3,7 @@
 
 1. **What is a Firewall domain in NLWeb?**
 
-    A Firewall 🔥 is a [Helper 🛠️ domain](<../../30 🫥 Agents/00 Entities/🛠️ Helper domain.md>) focused on blacklisting other [domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) to keep the ecosystem safe (e.g., national security entities). 
+    A Firewall 🔥 is a [Helper 🛠️ domain](<../../30 🫥 Agents/00 Entities/🛠️ Helper domain.md>) focused on blacklisting other [Domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) to keep the ecosystem safe (e.g., national security entities). 
     * Admins of Firewalls 🔥 are typically concerned about monitoring for bad behaviors from domains.
 
     ---
@@ -22,7 +22,7 @@
 2. **How can domains leverage Firewalls?**
 
     [Domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) can inherit a Firewall's blacklist on their [Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>);
-    * this overrides any direct or indirect [Trust 👍](<01 👍 Domain Trust.md>) relationship between [domains 👥](<../44 📜 Manifests/00 👥 Domain.md>), working as an instantaneous mechanism to cut the communication with the blacklisted domain. 
+    * this overrides any direct or indirect [Trust 👍](<01 👍 Domain Trust.md>) relationship between [Domains 👥](<../44 📜 Manifests/00 👥 Domain.md>), working as an instantaneous mechanism to cut the communication with the blacklisted domain. 
 
     ---
 
