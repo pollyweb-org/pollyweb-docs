@@ -30,6 +30,6 @@
     - 👍 [Domain Trusts](<../43 👍 Trusts/01 👍 Domain Trust.md>): trusted domains, Codes, and roles
     - 🧩 [Schema Codes](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): defined by the domain
     - 🧩 [Delegate Codes](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): Codes delegated to other domains
-    - 🔌 [Integrations](<../../20 🧑‍🦰 UI/23 💬 Chats/06 🔌🎭 Integrator role.md>): synchronous datasets, asynchronous supplies, and streaming endpoints.
+    - 🔌 [Integrations](<../../20 🧑‍🦰 UI/23 💬 Chats/06 🪢🎭 Integrator role.md>): synchronous datasets, asynchronous supplies, and streaming endpoints.
 
     ---
