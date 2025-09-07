@@ -51,7 +51,7 @@
 
 7. **What is contained in a Manifest-changed event?**
 
-    An event from a [Domain 👥](<00 👥 Domain.md>) comes inside an [envelope](<../41 📨 Comms/01 📨 Domain Message.md>) containing:
+    An event from a [domain 👥](<00 👥 Domain.md>) comes inside an [envelope](<../41 📨 Comms/01 📨 Domain Message.md>) containing:
     - the change (e.g., CREATED, UPDATED, DELETED, RESEATED);
     - the path changed (e.g., `/Code/SSR/MEAL`);
     - the content of the [Manifest 📜](<01 📜 Domain Manifest.md>) that changed, if not deleted; and

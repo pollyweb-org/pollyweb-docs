@@ -5,7 +5,7 @@
 
 1. **What is a Host domain role in NLWeb?**
 
-    A domain with a Host 🤗 role is a [Domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that [chats 💬](<01 💬 Chat.md>) with [Wallets 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) via [Brokers 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>). 
+    A domain with a Host 🤗 role is a [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that [chats 💬](<01 💬 Chat.md>) with [Wallets 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) via [Brokers 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>). 
 
     ---
 
