@@ -5,18 +5,25 @@
 
 The NLWeb ecosystem aims to simplify everyday business transactions by streamlining interactions between users, organizations, and things, while ensuring security and performance at a global scale.
 
-- Users interact with the ecosystem with their [Wallet 🧑‍🦰 app](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>);
-    - these are mobile apps running on mobile devices;
-    - each app depends on a [Notifier 📣 domain](<../20 🧑‍🦰 UI/02 📣 Notifiers/02 📣 Notifier domain.md>) for device-specific communications;
-    - each [Notifier 📣 domain](<../20 🧑‍🦰 UI/02 📣 Notifiers/02 📣 Notifier domain.md>) depends on a [Broker 🤵 domain](<../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) for [Chat 💬](<../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) orchestration with other [domains 👥](<../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) . 
+* Users interact with [domains 👥](<../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) using their [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
 
-- Users store their data in [Vault 🗄️ domains](<../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>);
-    - these are [Domains 👥](<../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that can share user data with [Consumer 💼 domains](<../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>);
-    - [Vault 🗄️ domains](<../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) may allow users to edit the their data through the user's [Folder 🗂️ editor](<../20 🧑‍🦰 UI/26 🗂️ Folders/01 🗂️ Folder editor.md>).
-
-- Users extend their [Wallet 🧑‍🦰 app](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) features with [Agentic 🫥 vault](<../30 🫥 Agents/00 Entities/🫥 Agent domain.md>);
+    * A [Wallet 🧑‍🦰](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) is an NLWeb-compatible mobile app from any vendor (e.g., `any-wallet.org`).
   
-    - (e.g., [Storage 📦](<../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>), [Finder 🔎](<../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>), [Persona 🧢](<../30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>), [Curator 🧚](<../30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>), [Payer 💳](<../30 🫥 Agents/04 💳 Payers/01 💳🫥 Payer agent.md>), [Identity 🆔](<../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>), [Concierge 🛎️](<../30 🫥 Agents/06 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>), [Scheduler 🗓️](<../30 🫥 Agents/38 🕓 User Timeline/04 🗓️🗄️ Scheduler agent.md>), [Navigator 🧭](<../30 🫥 Agents/07 🧭 Navigators/05 🧭🫥 Navigator agent.md>), [Vitalogist 💖](<../30 🫥 Agents/09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>), [Mingler 📇](<../30 🫥 Agents/08 📇 Minglers/01 📇🫥 Mingler agent.md>), [Reviewer ⭐](<../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>), [Timeline 🕓](<../30 🫥 Agents/38 🕓 User Timeline/01 🕓🗄️ Timeline agent.md>), [Custodian 🎩](<../70 🌳 Ambient/71 💠 Brand Things/05 🎩🗄️ Custodian vault.md>), [Keybox 🌼](<../70 🌳 Ambient/75 🔒 Brand Padlocks/04 🌼🗄️ Keybox vault.md>)).
+    * Each app depends on a [Notifier 📣 domain](<../20 🧑‍🦰 UI/02 📣 Notifiers/02 📣 Notifier domain.md>) for device-specific communications (e.g., WebSockets, MQTT).
+    
+    * Each [Notifier 📣 domain](<../20 🧑‍🦰 UI/02 📣 Notifiers/02 📣 Notifier domain.md>) depends on a [Broker 🤵 domain](<../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) for [Chat 💬](<../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) orchestration with [Host 🤗 domains](<../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>). 
+
+* Users store their data in [Vault 🗄️ domains](<../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>).
+  
+    * These are [Domains 👥](<../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that can share user data with [Consumer 💼 domains](<../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>).
+    
+    * [Vault 🗄️ domains](<../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) may allow users to edit their data through the user's [Folder 🗂️ editor](<../20 🧑‍🦰 UI/26 🗂️ Folders/01 🗂️ Folder editor.md>).
+
+* Users designate [Agents 🫥 domains](<../30 🫥 Agents/00 Entities/🫥 Agent vault.md>) to handle specific well-defined roles in [Chats 💬](<../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) with [Host 🤗 domains](<../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) (e.g., payments).
+
+    * These [Agents 🫥](<../30 🫥 Agents/00 Entities/🫥 Agent vault.md>) are [Vault 🗄️ domains](<../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) that the user told their [Broker 🤵 domain](<../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) to invoke by default when a role is required.
+
+
 
 - Users use their Wallets or their wearables (e.g., [Userables 💍](<../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>), [Tapbands ⌚](<../70 🌳 Ambient/76 ⌚ Brand Tapbands/01 ⌚💠 Tapband thing.md>)) to interact with [Padlocks 🔒](<../70 🌳 Ambient/75 🔒 Brand Padlocks/01 🔒 Padlock device.md>), [Robots 🤖](<../70 🌳 Ambient/72 🤖 Brand Robots/01 🤖💠 Robot thing.md>), and other smart [Things 💠](<../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>).
 
