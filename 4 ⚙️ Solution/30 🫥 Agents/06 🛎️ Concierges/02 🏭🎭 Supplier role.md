@@ -5,7 +5,7 @@
 
 1. **What is a Supplier domain role in NLWeb?**
 
-    A Supplier 🏭 is an [🪢 Integrator](<../../20 🧑‍🦰 UI/23 💬 Chats/06 🔌🎭 Integrator role.md>) domain that exposes order APIs to accept asynchronous order requests from other domains.
+    A Supplier 🏭 is an [🪢 Integrator](<../../20 🧑‍🦰 UI/23 💬 Chats/06 🪢🎭 Integrator role.md>) domain that exposes order APIs to accept asynchronous order requests from other domains.
 
     ---
 

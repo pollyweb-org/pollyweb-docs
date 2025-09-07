@@ -5,7 +5,7 @@
 
 1. **What is a Streamer domain role in NLWeb?**
 
-    A Streamer is an [Integrator 🪢 domain](<../../20 🧑‍🦰 UI/23 💬 Chats/06 🔌🎭 Integrator role.md>) that pushes events to subscriber [Domains 👥](<../44 📜 Manifests/00 👥 Domain.md>).
+    A Streamer is an [Integrator 🪢 domain](<../../20 🧑‍🦰 UI/23 💬 Chats/06 🪢🎭 Integrator role.md>) that pushes events to subscriber [Domains 👥](<../44 📜 Manifests/00 👥 Domain.md>).
 
     ---
 
