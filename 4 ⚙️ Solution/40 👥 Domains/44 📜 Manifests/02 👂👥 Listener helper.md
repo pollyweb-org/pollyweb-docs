@@ -85,8 +85,8 @@
 10. **How can domains know that their updates were rejected?**
 
     Listeners 👂 raise alerts when rejecting events. 
-    * Interested [domains 👥](<00 👥 Domain.md>) should subscribe to that [Stream 🌬️](<../41 📨 Comms/02 🌬️🎭 Streamer role.md>), filtering the domains they're interested in receiving alerts about.
-    * For privacy reasons, some alerts are only be pushed to the subscriber [domains 👥](<00 👥 Domain.md>) that is referenced in the alert.
+    * Interested [Domains 👥](<00 👥 Domain.md>) should subscribe to that [Stream 🌬️](<../41 📨 Comms/02 🌬️🎭 Streamer role.md>), filtering the domains they're interested in receiving alerts about.
+    * For privacy reasons, some alerts are only be pushed to the subscriber [Domains 👥](<00 👥 Domain.md>) that is referenced in the alert.
 
     ---
 
@@ -94,7 +94,7 @@
 
     Not while reading events. 
     * [Manifest 📜](<01 📜 Domain Manifest.md>) events contain the content changed. 
-    * However, [domains 👥](<00 👥 Domain.md>) may explicitly request Listeners 👂 to reset the domain's [Manifest 📜](<01 📜 Domain Manifest.md>) based on a content located in a given URL, as long as the content doesn't reach a maximum size for a [Manifest 📜](<01 📜 Domain Manifest.md>).
+    * However, [Domains 👥](<00 👥 Domain.md>) may explicitly request Listeners 👂 to reset the domain's [Manifest 📜](<01 📜 Domain Manifest.md>) based on a content located in a given URL, as long as the content doesn't reach a maximum size for a [Manifest 📜](<01 📜 Domain Manifest.md>).
 
     ---
 

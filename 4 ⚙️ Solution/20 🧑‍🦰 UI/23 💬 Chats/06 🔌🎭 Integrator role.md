@@ -32,11 +32,11 @@
 
 1. **How can Integrators charge other domains?**
 
-    Integrator domains can leverage [Biller 🤝](<../../30 🫥 Agents/04 💳 Payers/04 🤝🛠️ Biller helper.md>) domains for managing charges.
+    Integrator domains can leverage a [Biller 🤝 helper](<../../30 🫥 Agents/04 💳 Payers/04 🤝🛠️ Biller helper.md>) for managing charges.
 
     ---
 
-1. **How can domains leverage Integrators?**
+2. **How can domains leverage Integrators?**
 
     Integrators allow domains to find available services on NLWeb with a standard way to use those services across domains.
 
