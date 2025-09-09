@@ -40,7 +40,7 @@
     
 1. **How are users' biometrics protected from sellers?**
 
-    NLWeb advocates for online face authentication between [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and Identity Vaults, without sharing user biometrics with [Seller 💵](<../04 💳 Payers/02 💵🎭 Seller role.md>) domains - e.g., when a Seller domain needs to match a person with a [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>), it contacts the Token's authentication domain to perform the authentication via the user's wallet in a chat, and only return a success/failure to the Seller. 
+    NLWeb advocates for online face authentication between [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and Identity Vaults, without sharing user biometrics with [Seller 💵](<../04 💳 Payers/01 💵🎭 Seller role.md>) domains - e.g., when a Seller domain needs to match a person with a [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>), it contacts the Token's authentication domain to perform the authentication via the user's wallet in a chat, and only return a success/failure to the Seller. 
     
     When offline authentications are required, i.e. when the user only has a printed QR or and NFC card with the Token, then the Seller domain needs to take the user's picture with a fixed camera in a supervised fashion, then ask the Token's Identity domain to match the picture with the Token, and then delete the picture according to regulatory requirements. 
 

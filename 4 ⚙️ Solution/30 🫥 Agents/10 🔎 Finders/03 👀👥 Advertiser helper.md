@@ -29,9 +29,9 @@
     The set required for ads to work is as follows:
 
     * Users set up one [Curator 🧚 agent](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>) on their [Wallet 🧑‍🦰 App](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
-    | | [Seller 💵 domains](<../04 💳 Payers/02 💵🎭 Seller role.md>) set up one [Payer 💳 helper](<../04 💳 Payers/01 💳🫥 Payer agent.md>) to pay for ads.
+    | | [Seller 💵 domains](<../04 💳 Payers/01 💵🎭 Seller role.md>) set up one [Payer 💳 helper](<../04 💳 Payers/01 💳🫥 Payer agent.md>) to pay for ads.
     
-    * Advertiser 👀 domains set up one [Biller 🤝 helper](<../04 💳 Payers/06 🤝🛠️ Biller helper.md>) to charge [Seller 💵 domains](<../04 💳 Payers/02 💵🎭 Seller role.md>) for ads, one [Collector 🏦 helper](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>) to receive the ad payments, and one [Payer 💳 helper](<../04 💳 Payers/01 💳🫥 Payer agent.md>) for paying ad-printing commissions to [Host 🤗 domains](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) and [Curator 🧚 agents](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>).
+    * Advertiser 👀 domains set up one [Biller 🤝 helper](<../04 💳 Payers/06 🤝🛠️ Biller helper.md>) to charge [Seller 💵 domains](<../04 💳 Payers/01 💵🎭 Seller role.md>) for ads, one [Collector 🏦 helper](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>) to receive the ad payments, and one [Payer 💳 helper](<../04 💳 Payers/01 💳🫥 Payer agent.md>) for paying ad-printing commissions to [Host 🤗 domains](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) and [Curator 🧚 agents](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>).
     
     * [Broker 🤵 domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) set up one Advertiser 👀 helper to manage ads, and one [Biller 🤝 helper](<../04 💳 Payers/06 🤝🛠️ Biller helper.md>) to orchestrate the payments to all domains involved in ad printing for its registered [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
 
@@ -45,7 +45,7 @@
 
     | # | Posting ads
     |-|-
-    | 0 | [Seller 💵 domains](<../04 💳 Payers/02 💵🎭 Seller role.md>) bind to one or more Advertisers 👀, then register their ads on the Advertiser's 👀 UX or API.
+    | 0 | [Seller 💵 domains](<../04 💳 Payers/01 💵🎭 Seller role.md>) bind to one or more Advertisers 👀, then register their ads on the Advertiser's 👀 UX or API.
 
     | # | Showing ads
     |-|-
@@ -66,7 +66,7 @@
     | B | The Advertiser's 👀 [Payer 💳 helper](<../04 💳 Payers/01 💳🫥 Payer agent.md>) sends the corresponding part to the [Collector 🏦 helper](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>) of each [Host 🤗 domain](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) for their [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) summaries.
     | C | Sends the corresponding part to the [Collector 🏦 helper](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>) of each [Curator 🧚 agent](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>) for their filtering and sorting of the ads.
     | D | And sends the corresponding part to the [Collector 🏦 helper](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>) of the [Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) for orchestrating the ad workflows.
-    | E | Periodically, the Advertiser's 👀 [Biller 🤝 helper](<../04 💳 Payers/06 🤝🛠️ Biller helper.md>) will debit each [Seller 💵 domain](<../04 💳 Payers/02 💵🎭 Seller role.md>) for their printed and clicked ads in the billing period.
+    | E | Periodically, the Advertiser's 👀 [Biller 🤝 helper](<../04 💳 Payers/06 🤝🛠️ Biller helper.md>) will debit each [Seller 💵 domain](<../04 💳 Payers/01 💵🎭 Seller role.md>) for their printed and clicked ads in the billing period.
     | F | Each Seller's 💵 [Payer 💳 helper](<../04 💳 Payers/01 💳🫥 Payer agent.md>) then sends the corresponding payment to the Advertiser's 👀 [Collector 🏦 helper](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>).
     
 
@@ -74,19 +74,19 @@
 
 2. **How can Sellers 💵 register ads?**
 
-    For a [Seller 💵 domain](<../04 💳 Payers/02 💵🎭 Seller role.md>) to register an ad, it needs first do set up a [Payer 💳 helper](<../04 💳 Payers/01 💳🫥 Payer agent.md>) and bind to the Advertiser. 
+    For a [Seller 💵 domain](<../04 💳 Payers/01 💵🎭 Seller role.md>) to register an ad, it needs first do set up a [Payer 💳 helper](<../04 💳 Payers/01 💳🫥 Payer agent.md>) and bind to the Advertiser. 
     - The configuration of the ads will then depend on the Advertiser's UX and API.
 
     ---
 
 3. **How are Sellers 💵 charged for ads?**
 
-    Similar to Google Ads, [Sellers 💵](<../04 💳 Payers/02 💵🎭 Seller role.md>) are charged for:
+    Similar to Google Ads, [Sellers 💵](<../04 💳 Payers/01 💵🎭 Seller role.md>) are charged for:
     - 1/ ads showed to the user, and 
     - 2/ ads clicked by the user.
     
     Advertisers register the displays and clicks on their [Biller 🤝](<../04 💳 Payers/06 🤝🛠️ Biller helper.md>).
-    - These then charge the monthly totals to [Sellers 💵](<../04 💳 Payers/02 💵🎭 Seller role.md>).
+    - These then charge the monthly totals to [Sellers 💵](<../04 💳 Payers/01 💵🎭 Seller role.md>).
 
     ---
 
@@ -99,7 +99,7 @@
 5. **What are the preconditions for ads to work?**
 
     - Users need to select their default [Curator 🧚 agent](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>) on their [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
-    - [Seller 💵 domains](<../04 💳 Payers/02 💵🎭 Seller role.md>) need to promote ads on an Advertiser.
+    - [Seller 💵 domains](<../04 💳 Payers/01 💵🎭 Seller role.md>) need to promote ads on an Advertiser.
     - All domains interacting directly need a [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) path between them.
 
     ---
@@ -110,13 +110,13 @@
     
     For ad displays: 
     - Advertisers and [Curator 🧚 agents](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>) send the number of ads offered to the Persona;
-    - Advertisers, [Curator 🧚 agents](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>), and [Seller 💵 domains](<../04 💳 Payers/02 💵🎭 Seller role.md>) send the IDs of the selected list of ads presented to the user;
+    - Advertisers, [Curator 🧚 agents](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>), and [Seller 💵 domains](<../04 💳 Payers/01 💵🎭 Seller role.md>) send the IDs of the selected list of ads presented to the user;
     - [Curator 🧚 agents](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>) and [Broker 🤵 domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) send the number of options in the next-action prompt;
-    - Advertisers and [Seller 💵 domains](<../04 💳 Payers/02 💵🎭 Seller role.md>) send the display value charged to Sellers.
+    - Advertisers and [Seller 💵 domains](<../04 💳 Payers/01 💵🎭 Seller role.md>) send the display value charged to Sellers.
     
     For ad clicks: 
-    - [Curator 🧚 agents](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>), Advertisers 👀, and [Seller 💵 domains](<../04 💳 Payers/02 💵🎭 Seller role.md>) send the IDs of ads translated from option number to option Locator;
-    - Advertisers 👀 and [Seller 💵 domains](<../04 💳 Payers/02 💵🎭 Seller role.md>) send the click value charged to Sellers.
+    - [Curator 🧚 agents](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>), Advertisers 👀, and [Seller 💵 domains](<../04 💳 Payers/01 💵🎭 Seller role.md>) send the IDs of ads translated from option number to option Locator;
+    - Advertisers 👀 and [Seller 💵 domains](<../04 💳 Payers/01 💵🎭 Seller role.md>) send the click value charged to Sellers.
 
     ---
 
@@ -134,6 +134,6 @@
   
     * When [Curator 🧚 agents](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>) ask Advertisers 👀 for next best actions, they first anonymize the [Chat's 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) context, the user preferences, and the [Host 🤗](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) summary.
   
-        - This mitigates the abilities of both Advertisers 👀 and [Sellers 💵](<../04 💳 Payers/02 💵🎭 Seller role.md>) to [profile 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/01 🗂️ Profiling landscape/00 🗂️ Profiling Index.md>) users.
+        - This mitigates the abilities of both Advertisers 👀 and [Sellers 💵](<../04 💳 Payers/01 💵🎭 Seller role.md>) to [profile 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/01 🗂️ Profiling landscape/00 🗂️ Profiling Index.md>) users.
 
     ---
