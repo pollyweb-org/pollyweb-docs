@@ -11,7 +11,7 @@
    
     | Helper 🛠️ | Example | Responsibilities
     |-|-|-
-    | [Advertiser 👀](<../../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) | GoogleAds | Intermediates ad workflows on ../03 🤵 Brokers/03 🤵 Broker domain.md Brokers/03 🤵 Broker domain.md>).
+    | [Advertiser 👀](<../../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) | GoogleAds | Intermediates ad workflows on behalf of [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>).
     | [Biller 🤝](<../../30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>) | ApplePay | Manages billing cycles for contracts between [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).
     | [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | WhatsApp | Orchestrates [Chats](<../23 💬 Chats/01 💬 Chat.md>) between [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and [Host 🤗 domains](<../23 💬 Chats/03 🤗🎭 Host role.md>).
     | [Buffer ⏳](<../../40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>) | Kafka | Throttles [Streamer 🌬️ domains](<../../40 👥 Domains/41 📨 Comms/02 🌬️🎭 Streamer role.md>) on behalf of [Subscriber 🔔 domains](<../../40 👥 Domains/41 📨 Comms/04 🔔🎭 Subscriber role.md>).
