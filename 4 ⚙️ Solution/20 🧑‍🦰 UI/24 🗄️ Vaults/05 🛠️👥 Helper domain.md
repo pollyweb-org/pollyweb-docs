@@ -3,11 +3,13 @@
 
 1. **What are Helper domains?**
 
-    Helpers 🛠️ are [Domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that support other [Domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) by offloading common undifferentiated responsibilities.
+    Helpers 🛠️ are [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that support other [Domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) by offloading common undifferentiated responsibilities.
+    * They are similar to [Vault 🗄️ domains](<03 🗄️🎭 Vault role.md>), but focused on [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) instead of [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+    * Given the similarity, some [Vault 🗄️ domains](<03 🗄️🎭 Vault role.md>) may also be Helpers 🛠️ (e.g., [Payer 💳 domains](<../../30 🫥 Agents/04 💳 Payers/02 💳🎭 Payer role.md>)).
 
     ---
 
-1. **What are examples of Helper domains?**
+2. **What are examples of Helper domains?**
    
     | Helper 🛠️ | Example | Responsibilities
     |-|-|-
@@ -23,11 +25,11 @@
 
     ---
 
-2. **How do domains leverage Helper domains?**
+3. **How do domains leverage Helper domains?**
 
     ---
 
-3. **Do domains have to register with Helper domains?**
+4. **Do domains have to register with Helper domains?**
 
 
     ---
