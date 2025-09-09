@@ -31,7 +31,7 @@
     * Users set up one [Curator 🧚 agent](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>) on their [Wallet 🧑‍🦰 App](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
     | | [Seller 💵 domains](<../04 💳 Payers/01 💵🎭 Seller role.md>) set up one [Payer 💳 helper](<../04 💳 Payers/02 💳🎭 Payer role.md>) to pay for ads.
     
-    * Advertiser 👀 domains set up one [Biller 🤝 helper](<../04 💳 Payers/06 🤝🛠️ Biller helper.md>) to charge [Seller 💵 domains](<../04 💳 Payers/01 💵🎭 Seller role.md>) for ads, one [Collector 🏦 helper](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>) to receive the ad payments, and one [Payer 💳 helper](<../04 💳 Payers/02 💳🎭 Payer role.md>) for paying ad-printing commissions to [Host 🤗 domains](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) and [Curator 🧚 agents](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>).
+    * Advertiser 👀 domains set up one [Biller 🤝 helper](<../04 💳 Payers/06 🤝🛠️ Biller helper.md>) to charge [Seller 💵 domains](<../04 💳 Payers/01 💵🎭 Seller role.md>) for ads, one [Collector 🏦 helper](<../04 💳 Payers/03 🏦🛠️ Collector helper.md>) to receive the ad payments, and one [Payer 💳 helper](<../04 💳 Payers/02 💳🎭 Payer role.md>) for paying ad-printing commissions to [Host 🤗 domains](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) and [Curator 🧚 agents](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>).
     
     * [Broker 🤵 domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) set up one Advertiser 👀 helper to manage ads, and one [Biller 🤝 helper](<../04 💳 Payers/06 🤝🛠️ Biller helper.md>) to orchestrate the payments to all domains involved in ad printing for its registered [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
 
@@ -63,11 +63,11 @@
     | # | Periodic billing
     |-|-
     | A | Monthly, the Broker's [Biller 🤝 helper](<../04 💳 Payers/06 🤝🛠️ Biller helper.md>) will debit its Advertiser's 👀 [Payer 💳 helper](<../04 💳 Payers/02 💳🎭 Payer role.md>) a lump sump for all contributions of the multiple domains in the advertisement workflow during the billing period.  
-    | B | The Advertiser's 👀 [Payer 💳 helper](<../04 💳 Payers/02 💳🎭 Payer role.md>) sends the corresponding part to the [Collector 🏦 helper](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>) of each [Host 🤗 domain](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) for their [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) summaries.
-    | C | Sends the corresponding part to the [Collector 🏦 helper](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>) of each [Curator 🧚 agent](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>) for their filtering and sorting of the ads.
-    | D | And sends the corresponding part to the [Collector 🏦 helper](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>) of the [Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) for orchestrating the ad workflows.
+    | B | The Advertiser's 👀 [Payer 💳 helper](<../04 💳 Payers/02 💳🎭 Payer role.md>) sends the corresponding part to the [Collector 🏦 helper](<../04 💳 Payers/03 🏦🛠️ Collector helper.md>) of each [Host 🤗 domain](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) for their [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) summaries.
+    | C | Sends the corresponding part to the [Collector 🏦 helper](<../04 💳 Payers/03 🏦🛠️ Collector helper.md>) of each [Curator 🧚 agent](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>) for their filtering and sorting of the ads.
+    | D | And sends the corresponding part to the [Collector 🏦 helper](<../04 💳 Payers/03 🏦🛠️ Collector helper.md>) of the [Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) for orchestrating the ad workflows.
     | E | Periodically, the Advertiser's 👀 [Biller 🤝 helper](<../04 💳 Payers/06 🤝🛠️ Biller helper.md>) will debit each [Seller 💵 domain](<../04 💳 Payers/01 💵🎭 Seller role.md>) for their printed and clicked ads in the billing period.
-    | F | Each Seller's 💵 [Payer 💳 helper](<../04 💳 Payers/02 💳🎭 Payer role.md>) then sends the corresponding payment to the Advertiser's 👀 [Collector 🏦 helper](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>).
+    | F | Each Seller's 💵 [Payer 💳 helper](<../04 💳 Payers/02 💳🎭 Payer role.md>) then sends the corresponding payment to the Advertiser's 👀 [Collector 🏦 helper](<../04 💳 Payers/03 🏦🛠️ Collector helper.md>).
     
 
     ---
