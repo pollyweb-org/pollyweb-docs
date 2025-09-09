@@ -11,7 +11,7 @@
 
 1. **What are examples of Suppliers?**
 
-    * [Printer 🖨️](<../../70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer supplier.md>) domains accept orders to print NFC/QR [Locators 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>), ship them to a destination, and manage the lifecycle of these Locators.
+    * [Printer 🖨️](<../../70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>) domains accept orders to print NFC/QR [Locators 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>), ship them to a destination, and manage the lifecycle of these Locators.
 
     * [KeyMaker 🔐](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/05  🔐🏭 Keymaker supplier.md>) domains accept requests to deliver and manage the lifecycle of [Padlock 🔒](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/01 🔒 Padlock device.md>).
 

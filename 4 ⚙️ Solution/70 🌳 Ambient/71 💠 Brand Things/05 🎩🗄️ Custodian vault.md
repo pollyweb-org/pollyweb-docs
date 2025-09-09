@@ -12,7 +12,7 @@
     ![](<00 📎 Assets/💠 Custodian Register.png>)
 
     The process that allows a user to register a [Thing 💠](<01 💠 Thing.md>) is as follows:
-    - a [Brand 🍏](<07 🍏🎭 Brand role.md>) orders a set of Things from a [Wand 🪄](<09 🪄👥 Wand helper.md>) domain;
+    - a [Brand 🍏](<07 🍏🎭 Brand role.md>) orders a set of Things from a [Wand 🪄](<09 🪄🛠️ Wand helper.md>) domain;
     - the Wand creates the Things' [Locators 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) and informs the Brand;
     - the Brand embeds the Things' Locators into its products; 
     - a user buys the Brand's product;

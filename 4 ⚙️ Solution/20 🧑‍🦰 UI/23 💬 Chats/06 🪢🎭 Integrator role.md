@@ -1,15 +1,19 @@
 🔌🎭 Integrator domain role FAQ
 ===
 
-![](<.📎 Assets/💬 Integrator.png>)
-
 1. **What is an Integrator domain role in NLWeb?**
 
-    An Integrator is a domain that exposes a public API for other domains to find and use.
+    An Integrator is any [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that exposes a public API for other domains to find and use.
 
     ---
 
-1. **How do Integrators publicize their API?**
+2. **How do Integrators work?**
+
+    ![](<.📎 Assets/💬 Integrator.png>)
+
+    ---
+
+3. **How do Integrators publicize their API?**
 
     Integrators publicize their API endpoints and schemas in their [Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>).
 
