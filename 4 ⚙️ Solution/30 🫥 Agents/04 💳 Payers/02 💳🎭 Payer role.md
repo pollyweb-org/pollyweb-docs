@@ -1,17 +1,17 @@
 💳🎭 Payer vault domain roleFAQ
 ===
 
-1. **What is a Payer vault domain in NLWeb?**
+1. **What is a Payer domain in NLWeb?**
 
-    A Payer 💳 is a [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that performs payments to [Collector 🏦 domains](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>) under the following responsibilities.
+    A Payer 💳 is a [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that performs payments to [Collector 🏦 domains](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>) under two categories:
 
     * **[Payer 💳🫥 agents](<03 💳🫥 Payer agent.md>)**: 
-        * Payers 💳 act as [Agent 🫥 vaults](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>)
+        * these are Payer 💳 domains that act as [Agent 🫥 vaults](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>)
         * for users with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), 
         * interacting in [Chats 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) with [Seller 💵 hosts](<01 💵🎭 Seller role.md>).
       
     * **[Payer 💳🛠️ helpers](<04 💳🛠️ Payer helper.md>)**:
-        * Payers 💳 act as [Helper 🛠️ domains](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper vault.md>)
+        * these are Payer 💳 domains that act as [Helper 🛠️ domains](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>)
         * for other [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>), 
         * paying for agreements with [Biller 🤝 helpers](<06 🤝🛠️ Biller helper.md>).
 
@@ -20,9 +20,9 @@
 
 2. **How are currency conversions handled?**
 
-    Payers 💳 are responsible for converting the currency to the [Seller's 💵](<01 💵🎭 Seller role.md>) price.
+    Payers 💳 are responsible for converting the currency to the price of the [Seller 💵 domain](<01 💵🎭 Seller role.md>).
 
-    - [Sellers 💵](<01 💵🎭 Seller role.md>) always receive payments in their requested currency and in the exact amount requested.
+    - [Seller 💵 domains](<01 💵🎭 Seller role.md>) always receive payments in their requested currency and in the exact amount requested.
   
     - Payers 💳 calculate the final amount to be paid by the user after the currency conversion from the selected payment method, plus conversion, transfer, and administrative fees.
 

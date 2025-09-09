@@ -3,7 +3,7 @@
 
 1. **What is a Firewall domain in NLWeb?**
 
-    A Firewall 🔥 is a [Helper 🛠️ domain](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper vault.md>) focused on blacklisting other [Domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) to keep the ecosystem safe (e.g., national security entities). 
+    A Firewall 🔥 is a [Helper 🛠️ domain](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) focused on blacklisting other [Domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) to keep the ecosystem safe (e.g., national security entities). 
     * Admins of Firewalls 🔥 are typically concerned about monitoring for bad behaviors from domains.
 
     ---
