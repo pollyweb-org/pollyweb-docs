@@ -20,7 +20,7 @@
 - Body:
 
    - [BindID 🔗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>): `<bind-uuid>`
-   - [Collector 🏦](<../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/02 🏦🛠️ Collector helper.md>): `any-collector.org`
+   - [Collector 🏦](<../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>): `any-collector.org`
    - Session: 
       - [Host 🤗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>): `any-seller.org`
       - [Broker 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>): `any-broker.org`

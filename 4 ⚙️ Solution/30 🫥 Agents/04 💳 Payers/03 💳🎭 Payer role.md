@@ -3,7 +3,7 @@
 
 1. **What is a Payer domain in NLWeb?**
 
-    A Payer 💳 is a [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that sends payments to [Collector 🏦 domains](<02 🏦🛠️ Collector helper.md>) under two categories:
+    A Payer 💳 is a [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that sends payments to [Collector 🏦 domains](<01 🏦🛠️ Collector helper.md>) under two categories:
 
     * **[Payer 💳🫥 agents](<04 💳🫥 Payer agent.md>)**: 
         * these are Payer 💳 domains that act as [Agent 🫥 vaults](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>)
@@ -37,7 +37,7 @@
     
 4. **What responsibilities do Payers have with invoices?**
 
-    None. [Collectors 🏦](<02 🏦🛠️ Collector helper.md>) are responsible for invoices.
+    None. [Collectors 🏦](<01 🏦🛠️ Collector helper.md>) are responsible for invoices.
 
     ---
     
@@ -49,7 +49,7 @@
     
 6. **What happens if a transaction is cancelled?**
 
-    Typically, the money is reverted, but it depends on the relationship between the Payer 💳 and the [Collector 🏦](<02 🏦🛠️ Collector helper.md>).
+    Typically, the money is reverted, but it depends on the relationship between the Payer 💳 and the [Collector 🏦](<01 🏦🛠️ Collector helper.md>).
 
     ---
     
@@ -60,7 +60,7 @@
     - NLWeb can also address that niche, 
         - but NLWeb os a generalist, global, and distributed protocol based on natural language.  
     - Conversely, NLWeb is against any form of central governance for payments 
-        - i.e., there should be multiple channels for Payers 💳 and [Collectors 🏦](<02 🏦🛠️ Collector helper.md>) to communicate;
+        - i.e., there should be multiple channels for Payers 💳 and [Collectors 🏦](<01 🏦🛠️ Collector helper.md>) to communicate;
         - e.g., if SWIFT doesn't work, send it via TransferWise.
 
     ---
@@ -95,7 +95,7 @@
     
 11. **Do Payers transfer money to collectors, or pay by card?**
 
-    Payers 💳 and [Collectors 🏦](<02 🏦🛠️ Collector helper.md>) may support multiple ways to transact. 
+    Payers 💳 and [Collectors 🏦](<01 🏦🛠️ Collector helper.md>) may support multiple ways to transact. 
     
     - When multiple choices are possible, Payers 💳 may ask the user for their preference. 
     - The exact payment method will depend on the transfer methods supported by both parties (e.g., SWIFT, TransferWise), and the user configurations supported by the Payer 💳 (e.g., Visa, MasterCard, Brazilian Pix).
@@ -104,13 +104,13 @@
     
 12. **Can a payment be reverted or cancelled?**
 
-    Yes. [Collectors 🏦](<02 🏦🛠️ Collector helper.md>) can do initiate it, but Payers 💳 can't.
+    Yes. [Collectors 🏦](<01 🏦🛠️ Collector helper.md>) can do initiate it, but Payers 💳 can't.
 
     ---
     
 13. **Can payments be done with credit/debit notes?**
 
-    Yes, as long as the Payer 💳 and the [Collector 🏦](<02 🏦🛠️ Collector helper.md>) support it.
+    Yes, as long as the Payer 💳 and the [Collector 🏦](<01 🏦🛠️ Collector helper.md>) support it.
 
     ---
     
@@ -118,7 +118,7 @@
 
     No. 
     
-    - Receipts and invoices are created by the [Seller 💵](<01 💵🎭 Seller role.md>)'s [Collector 🏦](<02 🏦🛠️ Collector helper.md>) domain, and are sent to the user's Payer 💳 domain. 
+    - Receipts and invoices are created by the [Seller 💵](<01 💵🎭 Seller role.md>)'s [Collector 🏦](<01 🏦🛠️ Collector helper.md>) domain, and are sent to the user's Payer 💳 domain. 
     
     - Users should ask their Payer 💳 domain for the receipt:
         - e.g., a payment gateway may allow the receipts to be downloaded from the transaction list on their website, or they can send each receipt to a chat window every time there is a payment. 
@@ -131,7 +131,7 @@
 
     NLWeb discourages the usage of blockchain in this scenario for multiple reasons:
 
-    - **simplicity:** if only two entities (Payer 💳 and [Collector 🏦](<02 🏦🛠️ Collector helper.md>)) need to communicate, then two simple mutually authenticated API endpoints are enough to do the job.
+    - **simplicity:** if only two entities (Payer 💳 and [Collector 🏦](<01 🏦🛠️ Collector helper.md>)) need to communicate, then two simple mutually authenticated API endpoints are enough to do the job.
   
     - **scalability:** blockchain's performance degrades as the number of parties increase, which is incompatible with a protocol supporting billions of users;
         - e.g., Sam Altman's [World 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/11 📺 Sam Altman's World.md>) moved from blockchain to an proprietary protocol in 2024 for their digital currency due to scalability limitations.
