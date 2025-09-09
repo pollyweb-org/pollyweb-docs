@@ -2,7 +2,7 @@
 
 <!-- https://quip.com/EzmaAjGwmvRq#temp:C:bSR232c2e6eecff4c639e0bf6068 -->
 
-# 🧑‍🦰🐌💳 Endorse @ [Payer](<../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/02 💳🫥 Payer role.md>)
+# 🧑‍🦰🐌💳 Endorse @ [Payer](<../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/02 💳🎭 Payer role.md>)
 
 ## About
 
@@ -14,7 +14,7 @@
 - Header:
 
    - [From 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>): `any-broker.org`
-   - [To 💳](<../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/02 💳🫥 Payer role.md>): `any-payer.org`
+   - [To 💳](<../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/02 💳🎭 Payer role.md>): `any-payer.org`
    - [Subject 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>): `Endorse@Payer`
 
 - Body:

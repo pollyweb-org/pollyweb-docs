@@ -5,7 +5,7 @@
 
     ![](<00 📎 Assets/💍 Userable Pay Wallet.png>)
 
-    [Custodians 🎩](<../71 💠 Brand Things/05 🎩🗄️ Custodian vault.md>) integrate with [💳 Payers](<../../30 🫥 Agents/04 💳 Payers/02 💳🫥 Payer role.md>) to allow users to pay with their [Userables 💍](<01 💍 Userable thing.md>) after being authenticated by their [Identity 🆔](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) (e.g., face scan). 
+    [Custodians 🎩](<../71 💠 Brand Things/05 🎩🗄️ Custodian vault.md>) integrate with [💳 Payers](<../../30 🫥 Agents/04 💳 Payers/02 💳🎭 Payer role.md>) to allow users to pay with their [Userables 💍](<01 💍 Userable thing.md>) after being authenticated by their [Identity 🆔](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) (e.g., face scan). 
     
     * This allows sales people to use their own [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) as a chat interface for the user. 
 
@@ -29,6 +29,6 @@
     - add the [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) to the [Userable 💍](<01 💍 Userable thing.md>) via the [Custodians 🎩](<../71 💠 Brand Things/05 🎩🗄️ Custodian vault.md>);
     - test the [Userable 💍](<01 💍 Userable thing.md>) to see if the railway can see the [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>);
     - use the [Userable 💍](<01 💍 Userable thing.md>) to enter and exit gates at the railway;
-    - monitor the charges to the user's [Payer 💳](<../../30 🫥 Agents/04 💳 Payers/02 💳🫥 Payer role.md>).
+    - monitor the charges to the user's [Payer 💳](<../../30 🫥 Agents/04 💳 Payers/02 💳🎭 Payer role.md>).
 
     ---
