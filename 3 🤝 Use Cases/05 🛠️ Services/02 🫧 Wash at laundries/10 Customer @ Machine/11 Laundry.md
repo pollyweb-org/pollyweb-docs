@@ -17,7 +17,7 @@ Use a washing machine on a self-service laundry
 | 🫧 Laundry | 😃 Hi! What do you need? <br/>- [ Wash ] <br/>- [ Something else ] | > Wash
 | 🫧 Laundry | 😃 How many minutes? [15, 60]| > 60
 | 🫧 Laundry | 😃 What temperature? [40°C, 60°C ] | > 40°C
-| 💳 [Payer](<../../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/02 💳🎭 Payer role.md>) | 🫥 Pay $10.00 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) <br/> - [ ✂️ Split bill ] | > card ABC
+| 💳 [Payer](<../../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Pay $10.00 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) <br/> - [ ✂️ Split bill ] | > card ABC
 | 🫧 Laundry | 😃 Ready to start? [Yes, No] | > Yes
 | 🫧 Laundry | ⏳ Close the door! [+]
 | 🫧 Laundry | ⏳ Washing... 59 min left. 

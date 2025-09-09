@@ -26,7 +26,7 @@ Remotely print a PDF and delivery at home
 | 🛎️ [Concierge](<../../../../4 ⚙️ Solution/30 🫥 Agents/06 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>) | 🫥 Which courier? <br> - [ AnyCourier ] + $4.00 (5 min) <br> - [ iCourier ] + $2.99 (17 min) <br/> | > AnyCourier
 | 🛎️ [Concierge](<../../../../4 ⚙️ Solution/30 🫥 Agents/06 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>) | ⓘ Delivery ($4.50): [Change] <br/> - courier delivery 🛵 ($4.00) <br/> - concierge fee 🛎️ ($0.50) <br/> - delivery time ⏳ ~10 min.
 | [🗓️ Scheduler](<../../../../4 ⚙️ Solution/30 🫥 Agents/38 🕓 User Timeline/04 🗓️🗄️ Scheduler agent.md>) | 🫥 Confirm? [Yes, No] <br/> - it will take ~30 min <br> - your flight is in 5 hours | > Yes
-| 💳 [Payer](<../../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/02 💳🎭 Payer role.md>) | 🫥 Pay $31.50 bill? 🧾 [No] <br/>- [ Card ABC ] + $0.10 <br/>- [ Card DEF ] (free) <br/> - [ ✂️ Split bill ] | > Card ABC |
+| 💳 [Payer](<../../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Pay $31.50 bill? 🧾 [No] <br/>- [ Card ABC ] + $0.10 <br/>- [ Card DEF ] (free) <br/> - [ ✂️ Split bill ] | > Card ABC |
 | 🖨️ Printer   | ✅ Order confirmed [+]
 | 🛎️ [Concierge](<../../../../4 ⚙️ Solution/30 🫥 Agents/06 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>) | ✅ Delivery confirmed [+]
 | 🖨️ Printer   | ⏳ Preparing your order... [+]

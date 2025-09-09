@@ -13,14 +13,14 @@
     On NLWeb, payment transactions with users are handled between:
     * [Sellers 💵](<01 💵🎭 Seller role.md>) -  these are [Consumer 💼](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) domains that request payments;
     * Payers 💳 - these are user-bound [Vaults 🗄️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) with access to the user's money; and
-    * [Collector 🏦 helpers](<03 🏦🛠️ Collector helper.md>) - these are [Helper 🛠️ domains](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) able to deposit money on the [Sellers 💵](<01 💵🎭 Seller role.md>) bank account. 
+    * [Collector 🏦 helpers](<02 🏦🛠️ Collector helper.md>) - these are [Helper 🛠️ domains](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) able to deposit money on the [Sellers 💵](<01 💵🎭 Seller role.md>) bank account. 
     
     Upon check-out, 
-    - 1/ the [Seller 💵](<01 💵🎭 Seller role.md>) registers the upcoming payment to their [Collector 🏦](<03 🏦🛠️ Collector helper.md>), 
+    - 1/ the [Seller 💵](<01 💵🎭 Seller role.md>) registers the upcoming payment to their [Collector 🏦](<02 🏦🛠️ Collector helper.md>), 
     - 2/ the [Seller 💵](<01 💵🎭 Seller role.md>) requests a payment from the user, 
     - 3/ the user delegates the payment to a Payer 💳, 
-    - 4/ the user's Payer 💳 transfers the money to the [Seller's 💵](<01 💵🎭 Seller role.md>) [Collector 🏦](<03 🏦🛠️ Collector helper.md>), and 
-    - 5/ the [Collector 🏦](<03 🏦🛠️ Collector helper.md>) notifies the [Seller 💵](<01 💵🎭 Seller role.md>) that the transaction was paid.
+    - 4/ the user's Payer 💳 transfers the money to the [Seller's 💵](<01 💵🎭 Seller role.md>) [Collector 🏦](<02 🏦🛠️ Collector helper.md>), and 
+    - 5/ the [Collector 🏦](<02 🏦🛠️ Collector helper.md>) notifies the [Seller 💵](<01 💵🎭 Seller role.md>) that the transaction was paid.
 
     ---
 
@@ -33,7 +33,7 @@
 4. **What responsibilities do Payers have in a payment?**
 
     Payers 💳 are responsible for:
-    - receiving payment requests from [Collectors 🏦](<03 🏦🛠️ Collector helper.md>);
+    - receiving payment requests from [Collectors 🏦](<02 🏦🛠️ Collector helper.md>);
     - memorizing the user's available payment methods;
     - collecting the payment from the user's selected payment method:
         - e.g., Visa, American Express, Google Pay, Brazilian Pix, Portuguese MBWay;
