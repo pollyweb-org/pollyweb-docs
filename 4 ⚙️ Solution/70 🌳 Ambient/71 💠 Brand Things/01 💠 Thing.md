@@ -40,8 +40,8 @@
 
     Things 💠 behave differently when interacting with Owners (the user who registered the Thing 💠 after buying it) and Guests (users who are not the owner).
 
-    Owner features:
-    - **Register**: take ownership of a recently acquired unregistered Thing;
+    Owner features, available via their [Custodian 🎩 agent](<05 🎩🗄️ Custodian vault.md>):
+    - **Register**: take ownership of a recently acquired unregistered Thing 💠;
     - **Transfer**: give ownership to a second-hand owner;
     - **Contact Brand**: ask for after-sales support - e.g., troubleshooting;
     - **Report lost/stolen**: activate the "return found item" for Guests;
