@@ -84,21 +84,21 @@ The following principles for distributed system design were borrowed from Amazon
 
     NLWeb integrates payments in chats between users and [Sellers 💵](<../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>). 
     
-    - As preconditions, users must first bind their [Wallets 🧑‍🦰](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to one or more [Payer 💳](<../30 🫥 Agents/04 💳 Payers/02 💳🫥 Payer role.md>) vaults (e.g., their bank), while [Seller 💵](<../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) domains must bind to [Collector 🏦](<../30 🫥 Agents/01 📦 Storage/03 🏦🛠️ Collector helper.md>) vaults (e.g., a payment gateway). 
+    - As preconditions, users must first bind their [Wallets 🧑‍🦰](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to one or more [Payer 💳](<../30 🫥 Agents/04 💳 Payers/02 💳🎭 Payer role.md>) vaults (e.g., their bank), while [Seller 💵](<../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) domains must bind to [Collector 🏦](<../30 🫥 Agents/01 📦 Storage/03 🏦🛠️ Collector helper.md>) vaults (e.g., a payment gateway). 
 
-    - The payment is sent from the [Payer 💳](<../30 🫥 Agents/04 💳 Payers/02 💳🫥 Payer role.md>) (on behalf of the user) to the [Collector 🏦](<../30 🫥 Agents/01 📦 Storage/03 🏦🛠️ Collector helper.md>) (on behalf of the Seller). 
+    - The payment is sent from the [Payer 💳](<../30 🫥 Agents/04 💳 Payers/02 💳🎭 Payer role.md>) (on behalf of the user) to the [Collector 🏦](<../30 🫥 Agents/01 📦 Storage/03 🏦🛠️ Collector helper.md>) (on behalf of the Seller). 
     
     In a chat: 
     1. the [Seller 💵](<../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) requests a payment amount (e.g., 123.45 USD) - the user accepts; 
-    2. the [Payer 💳](<../30 🫥 Agents/04 💳 Payers/02 💳🫥 Payer role.md>)  asks for the user's preferred payment method (e.g., my company card, my bank account, agreed credit note) - the user selects one; 
-    3. depending on the risk associated (e.g., amount, Seller, date/time) the [Payer 💳](<../30 🫥 Agents/04 💳 Payers/02 💳🫥 Payer role.md>)  may ask for an authentication method (e.g., face scan, OTP); 
-    4. the [Payer 💳](<../30 🫥 Agents/04 💳 Payers/02 💳🫥 Payer role.md>) shares the receipt; 
+    2. the [Payer 💳](<../30 🫥 Agents/04 💳 Payers/02 💳🎭 Payer role.md>)  asks for the user's preferred payment method (e.g., my company card, my bank account, agreed credit note) - the user selects one; 
+    3. depending on the risk associated (e.g., amount, Seller, date/time) the [Payer 💳](<../30 🫥 Agents/04 💳 Payers/02 💳🎭 Payer role.md>)  may ask for an authentication method (e.g., face scan, OTP); 
+    4. the [Payer 💳](<../30 🫥 Agents/04 💳 Payers/02 💳🎭 Payer role.md>) shares the receipt; 
     5. the [Seller 💵](<../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) shares the order/invoice and delivers/promises the product/service.
 
     ---
 5. **What is NLWeb's approach to subscriptions?**
 
-    NLWeb supports subscriptions via [Payer 💳](<../30 🫥 Agents/04 💳 Payers/02 💳🫥 Payer role.md>) and [Collector 🏦](<../30 🫥 Agents/01 📦 Storage/03 🏦🛠️ Collector helper.md>) domains (explore to the payment sections for details). 
+    NLWeb supports subscriptions via [Payer 💳](<../30 🫥 Agents/04 💳 Payers/02 💳🎭 Payer role.md>) and [Collector 🏦](<../30 🫥 Agents/01 📦 Storage/03 🏦🛠️ Collector helper.md>) domains (explore to the payment sections for details). 
 
     ---
 6. **What is NLWeb's approach to ads?**

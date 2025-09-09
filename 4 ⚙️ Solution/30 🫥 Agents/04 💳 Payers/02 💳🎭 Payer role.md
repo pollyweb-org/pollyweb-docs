@@ -3,9 +3,17 @@
 
 1. **What is a Payer domain in NLWeb?**
 
-    A Payer 💳 is a [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that performs payments to [Collector 🏦 domains](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>).
-    * For users with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), Payers 💳 act as [Agent 🫥 vaults](<../00 Entities/🫥 Agent vault.md>), interacting in [Chats 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) with [Seller 💵 hosts](<01 💵🎭 Seller role.md>).
-    * For other [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>), Payers 💳 act as [Helper 🛠️ domains](<../00 Entities/🛠️ Helper domain.md>) paying for agreements with [Biller 🤝 helpers](<06 🤝🛠️ Biller helper.md>).
+    A Payer 💳 is a [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that performs payments to [Collector 🏦 domains](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>) under the following responsibilities.
+
+    * **[Payer 💳🫥 agents](<03 💳🫥 Payer agent.md>)**: 
+      * Payers 💳 act as [Agent 🫥 vaults](<../00 Entities/🫥 Agent vault.md>)
+      * for users with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), 
+      * interacting in [Chats 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) with [Seller 💵 hosts](<01 💵🎭 Seller role.md>).
+    
+    * **[Payer 💳🛠️ helpers](<04 💳🛠️ Payer helper.md>)**:
+      * Payers 💳 act as [Helper 🛠️ domains](<../00 Entities/🛠️ Helper domain.md>)
+      * for other [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>), 
+      * paying for agreements with [Biller 🤝 helpers](<06 🤝🛠️ Biller helper.md>).
 
     ---
     

@@ -18,7 +18,7 @@
 | 💖 [Vitalogist](<../../../../4 ⚙️ Solution/30 🫥 Agents/09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) | 🫥 Confirm? [Yes, No] <br> - outside your diet | > Yes
 | 🧢 [Persona](<../../../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) | 🫥 Share social name? [No] <br/> - [ 🧑‍🦰 personal ] <br/> - [ 💼 work ] <br/> - [ 🦋 private ]      | > 🧑‍🦰 personal
 | 🌭 Stall      | ℹ️ Thanks, Alice!
-| 💳 [Payer](<../../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/02 💳🫥 Payer role.md>) | 🫥 Pay $7.50 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
+| 💳 [Payer](<../../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/02 💳🎭 Payer role.md>) | 🫥 Pay $7.50 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
 | 🌭 Stall      | ✅ Request submitted [+]
 | 🌭 Stall      | ⏳ We'll call you when ready.<br/>- [ Cancel request ] <br/> - [ Alter request ]
 ...

@@ -29,7 +29,7 @@
     - 📦 [Storage](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>), for data residency compliance;
     - 🧢 [Persona](<../../30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>), for managing user preferences;
     - 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>), for identity authentication;
-    - 💳 [Payer](<../../30 🫥 Agents/04 💳 Payers/02 💳🫥 Payer role.md>), for general payments;
+    - 💳 [Payer](<../../30 🫥 Agents/04 💳 Payers/02 💳🎭 Payer role.md>), for general payments;
     - ⭐ [Reviewer](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>), to provide feedback on [Hosts 🤗](<../23 💬 Chats/04 🤗💬 Host chats.md>);
     - 🔎 [Finder](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>), to search for [Locators 🔆](<../22 🔆 Locators/01 🔆 Locator.md>) according to the user's preferences;
     - 🛎️ [Concierge](<../../30 🫥 Agents/06 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>), to perform tasks on behalf of the user;
