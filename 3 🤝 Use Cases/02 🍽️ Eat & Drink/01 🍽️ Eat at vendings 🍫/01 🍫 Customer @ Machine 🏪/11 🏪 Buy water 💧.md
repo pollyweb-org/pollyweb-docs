@@ -8,7 +8,7 @@ Get water on a vending machine 💧
 | 🍫 Vending | 😃 Hi! What do you need? <br/>- [ Buy ] an item <br/>- [ Something else ] | > Buy 
 | 🍫 Vending | 😃 What's the item number?   | 🔢 123
 | 🍫 Vending | 😃 A water bottle? [Yes, No]        | > Yes
-| 💳 [Payer](<../../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/02 💳🎭 Payer role.md>) | 🫥 Pay $1.50 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
+| 💳 [Payer](<../../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Pay $1.50 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
 | 🍫 Vending | ⏳ Delivering...
 | 🍫 Vending | ✅ Thanks! Pick up your item. 
 | ⭐ [Reviewer](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | > ⭐⭐⭐⭐⭐
