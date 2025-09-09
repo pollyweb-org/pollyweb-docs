@@ -1,4 +1,4 @@
-💳🎭 Payer vault domain roleFAQ
+💳🎭 Payer domain role FAQ
 ===
 
 1. **What is a Payer domain in NLWeb?**
@@ -37,7 +37,8 @@
     
 4. **What responsibilities do Payers have with invoices?**
 
-    None. [Collectors 🏦](<01 🏦🛠️ Collector helper.md>) are responsible for invoices.
+    None. 
+    * [Collectors 🏦](<01 🏦🛠️ Collector helper.md>) are responsible for invoices.
 
     ---
     
@@ -114,18 +115,7 @@
 
     ---
     
-14. **After a payment, do users receive the Seller's receipt?**
 
-    No. 
-    
-    - Receipts and invoices are created by the [Seller 💵](<01 💵🎭 Seller role.md>)'s [Collector 🏦](<01 🏦🛠️ Collector helper.md>) domain, and are sent to the user's Payer 💳 domain. 
-    
-    - Users should ask their Payer 💳 domain for the receipt:
-        - e.g., a payment gateway may allow the receipts to be downloaded from the transaction list on their website, or they can send each receipt to a chat window every time there is a payment. 
-    
-    - For user data protection and device storage optimization, NLWeb discourages domains from sending receipts via chat to be downloaded on the device.
-
-    ---
     
 15. **Why not use blockchain to perform the money transfer?**
 
@@ -150,8 +140,7 @@
 17. **Can Payers read card details from Persona vaults?**
 
     No.
-
-    - For design simplicity, Payers 💳 store user's card details instead of pulling them from [Persona 🧢](<../02 🧢 Personas/02 🧢🫥 Persona agent.md>) vaults.
-    - Storing card details required special security settings defined by PCI/DSS policies, which Payers already hold but [Persona 🧢](<../02 🧢 Personas/02 🧢🫥 Persona agent.md>) vaults would have to implement.
+    * For design simplicity, Payers 💳 store user's card details instead of pulling them from [Persona 🧢](<../02 🧢 Personas/02 🧢🫥 Persona agent.md>) vaults.
+    * Storing card details required special security settings defined by PCI/DSS policies, which Payers already hold but [Persona 🧢](<../02 🧢 Personas/02 🧢🫥 Persona agent.md>) vaults would have to implement.
 
 ---

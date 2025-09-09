@@ -2,8 +2,9 @@
 
 ## About
 
-- FAQ: [Domain communication 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>)
-- See also: [Synchronous Requests 🚀](<02 👥⏩🚀 Sender outbox.md>)
+* See also:
+    * [📨 Domain communication FAQ](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>)
+    * [🚀 Synchronous Requests workflow](<02 👥⏩🚀 Sender outbox.md>)
 
 
 ## Flow diagram ⏩

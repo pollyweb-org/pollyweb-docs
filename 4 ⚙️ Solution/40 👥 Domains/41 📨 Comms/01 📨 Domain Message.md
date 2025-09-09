@@ -5,34 +5,46 @@
 
     ![](<.📎 Assets/📨 Comms.png>)
 
-    For two [Domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) to communicate with one another (e.g., for `any-sender.com` to send a message to `any-receiver.com`), the following steps are required.
+    For two [domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) to communicate with one another (e.g., for `any-sender.com` to send a message to `any-receiver.com`), the following steps are required.
 
-    1. As a pre-condition for sending messages, a sender needs to generate a an asymmetric key-pair, then register the public key of the key-pair in its DNS record following the [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) protocol used by e-mail servers.
-    
-    2. When sending a message, the sender wraps the message in an JSON envelope, signs the envelope with the private key of the mentioned key-pair, and sends the signed message via HTTPS POST to the receiver's well-known inbox API endpoint (e.g., `https://nlweb.any-receiver.com/inbox`). 
-    
-    3. When receiving the signed message, the receiver reads the public key from the sender's [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>), confirms if the sender is using DNSSEC, and confirms if the message's signature matches the sender's public key.
+    | # |  Step
+    |-|-
+    | 1 | As a pre-condition for sending messages, a sender needs to generate a an asymmetric key-pair, then register the public key of the key-pair in its DNS record following the [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) protocol used by e-mail servers.
+    | 2 | When sending a message, the sender wraps the message in an JSON envelope, signs the envelope with the private key of the mentioned key-pair, and sends the signed message via HTTPS POST to the receiver's well-known inbox API endpoint (e.g., `https://nlweb.any-receiver.com/inbox`). 
+    | 3 | When receiving the signed message, the receiver reads the public key from the sender's [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>), confirms if the sender is using DNSSEC, and confirms if the message's signature matches the sender's public key.
 
 
     ---
 
 2. **What is contained in a domain message envelope?**
 
-    Messages from domains are sent in envelopes similar to email messages, containing the following properties:
-    - **Code**: the [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) of the envelope (e.g., `nlweb.org/msg:1.0`)
-    - **From**: the domain who sent the message (e.g., `any-sender.com`)
-    - **To**: the domain for whom the message is intended (e.g., `any-receiver.com`)
-    - **Correlation**: the unique ID in the sender (e.g., `125a5c75-cb72-43d2-9695-37026dfcaa48`)
-    - **Timestamp**: the date and time of the message, in UTC format (e.g., `2018-12-10T13:45:00.000Z`)
-    - **Subject**: the method to be executed on the receiver (e.g., `AnyMethod`)
-    - **Body**: the content inside the envelope
-    - **Hash**: the canonical hash of the envelope
-    - **Signature**: the signature of the envelope using the sender's private key
-    - **Key**: the name of the corresponding public key in the sender's [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>)
+    Messages from domains are sent in envelopes similar to email messages, containing the following properties.
+
+    |Property| Description
+    |-|-
+    | **Code** | The [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) of the envelope (e.g., `nlweb.org/msg:1.0`).
+    | **From** | The name of the [domain 👥](<../44 📜 Manifests/00 👥 Domain.md>) who sent the message (e.g., `any-sender.com`).
+    | **To**| The name of the [domain 👥](<../44 📜 Manifests/00 👥 Domain.md>) for whom the message is intended (e.g., `any-receiver.com`).
+    | **Correlation**| The unique ID in the sender (e.g., `125a5c75-cb72-43d2-9695-37026dfcaa48`).
+    | **Timestamp**| The date and time of the message, in UTC format (e.g., `2018-12-10T13:45:00.000Z`).
+    | **Subject**| The method to be executed on the receiver (e.g., `AnyMethod`).
+    | **Body**| The content inside the envelope.
+    | **Hash**| The canonical hash of the envelope.
+    | **Signature**| The signature of the envelope using the sender's private key.
+    | **Key**| The name of the corresponding public key in the sender's [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>).
 
     ---
 
-3. **Is this compatible with W3C DIDcomm?**
+1. **What are the technical workflows around messages?**
+
+    | Workflow | Description
+    |-|-
+    | [🚀 Synchronous requests](<../../../5 ⏩ Flows/01 👥⏩ Domains/02 👥⏩🚀 Sender outbox.md>) | How [domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) send requests and wait for the immediate response.
+    | [🐌 Asynchronous messages](<../../../5 ⏩ Flows/01 👥⏩ Domains/03 👥⏩🐌 Sender events.md>) | How [domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) send fire-and-forget messages and events.
+
+    ---
+
+2. **Is this compatible with W3C DIDcomm?**
 
     No. 
     
@@ -47,22 +59,22 @@
 
     ---
 
-4. **How do sender domains prevent man-in-the-middle attacks?**
+3. **How do sender domains prevent man-in-the-middle attacks?**
 
     By using HTTPS POST requests, sender domains ensure outbound messages are encrypted, and rely on trusted Certificate Authorities (CAs) to validate the TLS certificate of the receiver. 
     - By using a well-known URL prefix plus the receiver’s domain, sender domains rely only on DNS for network discovery.
 
     ---
 
-5. **How do receiver domains know who sent a message?**
+4. **How do receiver domains know who sent a message?**
 
     An NLWeb envelope resembles an email message, containing a header and a body. 
-    - The header contains the sender’s domain (e.g., `any-sender.com`) and the receiver’s domain (e.g., `any-receiver.com`), as well as other metadata. 
+    - The header contains the sender’s domain name (e.g., `any-sender.com`) and the receiver’s domain name (e.g., `any-receiver.com`), as well as other metadata. 
     - Receivers discard envelopes not intended to them.
 
     ---
 
-6. **How do receiver domains prevent sender impersonation attacks?**
+5. **How do receiver domains prevent sender impersonation attacks?**
 
     NLWeb domains implement the ubiquitous [DKIM (rfc6376) protocol 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) used by email servers to verify envelopes received from other domains. 
     
@@ -70,18 +82,18 @@
     
     - Receiver domains look up the public half of the sender’s [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) key-pair to verify the signature of incoming envelopes. The receiver expects to find the sender’s public key in DKIM format in a DNS entry named “nlweb” (e.g., `nlweb._domainkey.any-sender.com`). 
     
-    - The envelope is discarded if the sender’s DKIM is not correctly implemented, or the sender’s public key is unable to verify the signature in the envelope.
+    - The envelope is discarded if the sender’s [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) is not correctly implemented, or the sender’s public key is unable to verify the signature in the envelope.
 
     ---
 
-7. **How do receiver domains prevent DNS spoofing attacks?**
+6. **How do receiver domains prevent DNS spoofing attacks?**
 
-    When getting the sender’s DKIM public key, receiver domains check if DNSSEC is implemented on the sender’s domain;
+    When getting the sender’s [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) public key, receiver domains check if DNSSEC is implemented on the sender’s domain;
     - if not implemented, the envelope is discarded.
 
     ---
 
-8. **How do receiver domains prevent replay attacks?**
+7. **How do receiver domains prevent replay attacks?**
 
     An NLWeb envelop contains the sender’s timestamp in UTC format - receivers discard envelopes with a timestamp outside accepted time boundaries. 
     
@@ -90,14 +102,14 @@
 
     ---
 
-9. **How do receiver domains handle upgraded schema versions?**
+8. **How do receiver domains handle upgraded schema versions?**
 
     An NLWeb envelop contains a schema identifier that allows receivers to support multiple versions concurrently, handling incoming envelopes differently depending on its version. 
     - Envelopes with unsupported versions are discarded.
 
     ---
 
-10. **How do receiver domains reply to incoming messages?**
+9.  **How do receiver domains reply to incoming messages?**
 
     In NLWeb, communications are asynchronous to minimize wait times in HTTPS communications and reduce the serverless compute cost of sending outbound messages. 
     
@@ -107,38 +119,27 @@
 
     ---
 
-11. **How do receiver domains differentiate methods?**
+10. **How do receiver domains differentiate methods?**
 
     An NLWeb envelop contains a subject that identifies how the receiver should handle the message (e.g., payment request). 
     - Receivers discard envelopes with unexpected subjects.
 
     ---
 
-12. **How can senders know if receivers discarded messages?**
+11. **How can senders know if receivers discarded messages?**
 
     When discarding an invalid message, receiver domains send a feedback message back to the sender with the original correlation ID. 
     - The feedback is sent via HTTPS POST to the well-known feedback endpoint at the sender's domain (e.g., `https://nlweb.any-sender.com/feedback`). 
     
     To avoid infinite loops, this endpoint has a loose validation and does not provide follow-up feedbacks on incoming feedback messages;
-    - e.g., if both sender and receiver have invalid DKIM entries, the receiver will discard the initial message from the sender because it cannot validate the signature, and will provide feedback to the sender about it; 
+    - e.g., if both sender and receiver have invalid [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) entries, the receiver will discard the initial message from the sender because it cannot validate the signature, and will provide feedback to the sender about it; 
     - the sender will also not be able to validate the receiver's feedback signature, but will try to process the feedback nonetheless.
 
     ---
 
-13. **With HTTPS compression, how is CRIME/BREACH prevented?** 
+12. **With HTTPS compression, how is CRIME/BREACH prevented?** 
 
     CRIME/BREACH prevention still needs to be analyzed by a security expert.
 
     ---
 
-14. **What's the message flow in synchronous communication?** 
-
-    ![Sync](<../../../5 ⏩ Flows/01 👥⏩ Domains/.📎 Assets/⚙️🚀 SyncRequest.png>)
-
-    ---
-
-15. **What's the message flow in async communication?** 
-
-    ![Async](<../../../5 ⏩ Flows/01 👥⏩ Domains/.📎 Assets/⚙️🐌 AsyncMessage.png>)
-
-    ---

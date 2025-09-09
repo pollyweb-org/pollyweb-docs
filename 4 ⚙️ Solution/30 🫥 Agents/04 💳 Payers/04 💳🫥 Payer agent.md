@@ -3,6 +3,7 @@
 
 1. **What is a Payer agent in NLWeb?**
 
+    Payer agents are [Payer 💳 domains](<03 💳🎭 Payer role.md>) that act as [Agent 🫥 vaults](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) for users with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), interacting in [Chats 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) with [Seller 💵 hosts](<01 💵🎭 Seller role.md>).
 
     ---
 
@@ -42,5 +43,18 @@
     - transferring the payment to Collectors over an agreed transfer protocol: 
         - e.g., national bank transfer, internal SWIFT, TransferWise, Western Union;
     - storing the payment receipts on behalf of users.
+
+    ---
+
+14. **After a payment, do users receive the Seller's receipt?**
+
+    No. 
+    
+    - Receipts and invoices are created by the Seller's 💵 [Collector 🏦 helper](<01 🏦🛠️ Collector helper.md>), and are sent to the user's Payer 💳 domain. 
+    
+    - Users should ask their Payer 💳 domain for the receipt:
+        - e.g., a payment gateway may allow the receipts to be downloaded from the transaction list on their website, or they can send each receipt to a chat window every time there is a payment. 
+    
+    - For user data protection and device storage optimization, NLWeb discourages domains from sending receipts via chat to be downloaded on the device.
 
     ---
