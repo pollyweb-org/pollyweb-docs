@@ -1,14 +1,14 @@
 🏦 Collector domains FAQ
 ===
 
-![](<00 📎 Assets/💳 Collector.png>)
+![](<../04 💳 Payers/00 📎 Assets/💳 Collector.png>)
 
 1. **What is a Collector domain in NLWeb?**
 
     A Collector 🏦 is a [Helper 🛠️ domain](<../00 Entities/🛠️ Helper domain.md>) that other [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) can leverage to collect payments. 
     
     * These can be traditional banks, with a simple bank account.
-    * Incoming payments are sent by [Payer 💳 domains](<01 💳🫥 Payer agent.md>), on behalf of users and [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).
+    * Incoming payments are sent by [Payer 💳 domains](<../04 💳 Payers/01 💳🫥 Payer agent.md>), on behalf of users and [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).
     
     ---
 
@@ -16,7 +16,7 @@
 
     Collectors 🏦 offload from domains the undifferentiated heavy lifting of integrating B2B and B2C payment methods at a global scale:
 
-    - e.g. for a restaurant business in Portugal to receive a 100€ payment from a Chinese tourist, they just need to request a 100€ token from their Collector 🏦 and share it with the tourist's [Payer 💳 agent](<01 💳🫥 Payer agent.md>);
+    - e.g. for a restaurant business in Portugal to receive a 100€ payment from a Chinese tourist, they just need to request a 100€ token from their Collector 🏦 and share it with the tourist's [Payer 💳 agent](<../04 💳 Payers/01 💳🫥 Payer agent.md>);
     - the tourist may decide to pay using China's WeChat, paying any eventual WeChat payment fees, but that's completely irrelevant for the business;
     - the restaurant may need to pay a fee to their Collector 🏦, but that's also completely irrelevant for the tourist.
 
@@ -25,9 +25,9 @@
 3. **How does a domain withdraw its money?**
     
     It depends on the Collector 🏦 - options may be:
-    - **Direct:** the [Payer 💳 domain](<01 💳🫥 Payer agent.md>) pays directly to the domain's bank account.
-    - **Proxy:** the [Payer 💳 domain](<01 💳🫥 Payer agent.md>) pays to the Collector 🏦, who then transfers to the domain's bank account.
-    - **Wallet:** the [Payer 💳 domain](<01 💳🫥 Payer agent.md>) pays to the Collector 🏦, who holds the money until withdrawn by the domain.
+    - **Direct:** the [Payer 💳 domain](<../04 💳 Payers/01 💳🫥 Payer agent.md>) pays directly to the domain's bank account.
+    - **Proxy:** the [Payer 💳 domain](<../04 💳 Payers/01 💳🫥 Payer agent.md>) pays to the Collector 🏦, who then transfers to the domain's bank account.
+    - **Wallet:** the [Payer 💳 domain](<../04 💳 Payers/01 💳🫥 Payer agent.md>) pays to the Collector 🏦, who holds the money until withdrawn by the domain.
 
     ---
 
@@ -35,7 +35,7 @@
 
     For fiscal purposes, Collectors 🏦 are responsible for:
     - issuing receipts on behalf of the domain, 
-    - sharing those receipts with the [Payer 💳 domains](<01 💳🫥 Payer agent.md>),
+    - sharing those receipts with the [Payer 💳 domains](<../04 💳 Payers/01 💳🫥 Payer agent.md>),
     - and archiving those receipts for a given legal duration. 
 
     ---
@@ -63,8 +63,8 @@
     Set the customer workflow as follows:
     - 1/ customers tap the outer counter to start a chat;
     - 2/ the Host immediately charges customers with the total;
-    - 3/ customers' [Payer 💳 agent](<01 💳🫥 Payer agent.md>) ask for the preferred payment method;
-    - 4/ customers pay and see the receipt on their [Payer 💳 agent](<01 💳🫥 Payer agent.md>). 
+    - 3/ customers' [Payer 💳 agent](<../04 💳 Payers/01 💳🫥 Payer agent.md>) ask for the preferred payment method;
+    - 4/ customers pay and see the receipt on their [Payer 💳 agent](<../04 💳 Payers/01 💳🫥 Payer agent.md>). 
 
 
     ---
@@ -79,14 +79,14 @@
     - 1/ customers tap the checkout station to start a chat;
     - 2/ customers select "scan" and scan all items;
     - 3/ customers select "pay" and accept the total;
-    - 4/ customers' [Payer 💳 agent](<01 💳🫥 Payer agent.md>) ask for the preferred payment method;
-    - 5/ customers pay and see the receipt on their [Payer 💳 agent](<01 💳🫥 Payer agent.md>).
+    - 4/ customers' [Payer 💳 agent](<../04 💳 Payers/01 💳🫥 Payer agent.md>) ask for the preferred payment method;
+    - 5/ customers pay and see the receipt on their [Payer 💳 agent](<../04 💳 Payers/01 💳🫥 Payer agent.md>).
 
     ---
 
 2. **Can a Seller implement the Collector API?**
 
     Yes, but that's not recommended. 
-    - A Collector 🏦 may be better suited to sign wide international agreements with multiple [Payer 💳](<01 💳🫥 Payer agent.md>) and [Biller 🤝](<04 🤝🛠️ Biller helper.md>) domains, and support a multitude of payment options.
+    - A Collector 🏦 may be better suited to sign wide international agreements with multiple [Payer 💳](<../04 💳 Payers/01 💳🫥 Payer agent.md>) and [Biller 🤝](<../04 💳 Payers/06 🤝🛠️ Biller helper.md>) domains, and support a multitude of payment options.
 
     ---

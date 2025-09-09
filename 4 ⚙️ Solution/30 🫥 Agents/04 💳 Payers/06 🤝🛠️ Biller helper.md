@@ -3,7 +3,7 @@
 
 1. **What is a Biller domain in NLWeb?**
 
-    A Biller domain handles the terms and lifecycle of payment agreements between a [Payer 💳](<01 💳🫥 Payer agent.md>) and a [Collector 🏦](<03 🏦🛠️ Collector helper.md>) (w.g., subscriptions, free tiers, direct debits) on behalf of [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and [Sellers 💵](<02 💵🎭 Seller role.md>).
+    A Biller domain handles the terms and lifecycle of payment agreements between a [Payer 💳](<01 💳🫥 Payer agent.md>) and a [Collector 🏦](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>) (w.g., subscriptions, free tiers, direct debits) on behalf of [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and [Sellers 💵](<02 💵🎭 Seller role.md>).
 
     ---
 
@@ -13,7 +13,7 @@
 
     For a user to [sign](<../05 🆔 Identities/08 🆔🔏 User Signature.md>) a subscription, the following preconditions must be met:
     - 1/ the user has default [Payer 💳](<01 💳🫥 Payer agent.md>) and [Identity 🆔](<../05 🆔 Identities/03 🆔🫥 Identity agent.md>) domains;
-    - 2/ the Seller has a default [Collector 🏦](<03 🏦🛠️ Collector helper.md>) domain.
+    - 2/ the Seller has a default [Collector 🏦](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>) domain.
 
     The following steps describe a subscription workflow:
     - 1/ the user initiates a chat with a [Seller 💵](<02 💵🎭 Seller role.md>);
