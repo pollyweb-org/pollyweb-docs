@@ -16,7 +16,7 @@ Onboarding FAQ
 
     1. Install an NLWeb [Wallet 🧑‍🦰](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) from an app store;
     1. Fill out the [Persona 🧢 agent](<../30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) agent with standard data sets;
-    1. Add payment methods to the [Payer 💳 agent](<../30 🫥 Agents/04 💳 Payers/01 💳🫥 Payer agent.md>) agent;
+    1. Add payment methods to the [Payer 💳 agent](<../30 🫥 Agents/04 💳 Payers/02 💳🫥 Payer agent.md>) agent;
     1. Start touching/scanning NFC/QR [Locators 🔆](<../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>).
 
     ---
