@@ -5,11 +5,11 @@
 
     ![](<00 📎 Assets/💠 Wand.png>)
 
-    Wands are [Suppliers 🏭](<../../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>) that create and manage the user chats of [Things 💠](<01 💠 Thing.md>) on behalf of [Brand 🍏 suppliers](<07 🍏🎭 Brand role.md>).
+    Wands are [Suppliers 🏭](<../../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>) that create and manage user [Chats 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) for [Things 💠](<01 💠 Thing.md>) on behalf of [Brand 🍏 suppliers](<07 🍏🎭 Brand role.md>).
 
     ---
 
-1. **Why are Wands important?**
+2. **Why are Wands important?**
 
     For domains, Wands remove the overhead for Brands in implementing the NLWeb protocol.
     
@@ -17,13 +17,13 @@
 
     ---
 
-1. **Do Wands know which user registered the Locator?**
+3. **Do Wands know which user registered the Locator?**
 
     No. That is hidden by [Custodian 🎩 vaults](<05 🎩🗄️ Custodian vault.md>).
 
     ---
 
-1. **Can Brands know which user registered the placeholder?**
+4. **Can Brands know which user registered the placeholder?**
 
     No.
     * That is hidden by [Custodian 🎩 vaults](<05 🎩🗄️ Custodian vault.md>). 
@@ -31,7 +31,7 @@
 
     ---
 
-1. **Can a user contact the Brand?**
+5. **Can a user contact the Brand?**
 
     Yes, when applicable. 
     
@@ -43,14 +43,14 @@
 
     ---
 
-1. **What if a Brand ceases to exist?**
+6. **What if a Brand ceases to exist?**
 
     Wand 🪄 domains verify if the [Brand 🍏 supplier](<07 🍏🎭 Brand role.md>) is still active upon user interaction. 
     * A Wand may decide to keep a [Thing 💠](<01 💠 Thing.md>) working even after the [Brand 🍏 supplier](<07 🍏🎭 Brand role.md>) is inactive (e.g., if the user pays a subscription to the Wand 🪄).
 
     ---
 
-1. **How can Wands monetize?**
+7. **How can Wands monetize?**
 
     Wand 🪄 domains may implement a number of ways to monetize - e.g.:
     - charge [Brand 🍏 suppliers](<07 🍏🎭 Brand role.md>) for a commitment to keep the placeholder active for a certain amount of time (e.g., 10 years) when an order is placed;

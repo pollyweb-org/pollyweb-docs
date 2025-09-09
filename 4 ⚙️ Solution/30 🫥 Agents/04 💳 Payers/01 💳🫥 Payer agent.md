@@ -1,20 +1,22 @@
 💳 Payer domains FAQ
 ===
 
-![](<00 📎 Assets/💳 Payer.png>)
-
 1. **What is a Payer domain in NLWeb?**
 
-    A Payer 💳 agent is a [Vault 🗄️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) domain with the ability to instantaneously transfer user payments to [Sellers 💵](<02 💵🎭 Seller role.md>).
+    A Payer 💳 is a [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that performs payments to [Collector 🏦 domains](<03 🏦🛠️ Collector helper.md>).
+    * For users with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), Payers 💳 act as [Agent 🫥 vaults](<../00 Entities/🫥 Agent vault.md>), interacting in [Chats 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) with [Seller 💵 hosts](<02 💵🎭 Seller role.md>).
+    * For other [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>), Payers 💳 act as [Helper 🛠️ domains](<../00 Entities/🛠️ Helper domain.md>) paying for agreements with [Biller 🤝 helpers](<04 🤝🛠️ Biller helper.md>).
 
     ---
     
-2. **How are user payments processed?**
+2. **How are user payments processed for users?**
 
-    On NLWeb, payment transactions are handled between:
-    - 1/ [Sellers 💵](<02 💵🎭 Seller role.md>) -  these are [Consumer 💼](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) domains that request payments;
-    - 2/ Payers - these are user-bound [Vaults 🗄️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) with access to the user's money; and
-    - 3/ [Collectors 🏦](<03 🏦🛠️ Collector helper.md>) - these are [Vault 🗄️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) domains with access to the Seller's money. 
+    ![](<00 📎 Assets/💳 Payer.png>)
+
+    On NLWeb, payment transactions with users are handled between:
+    * [Sellers 💵](<02 💵🎭 Seller role.md>) -  these are [Consumer 💼](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) domains that request payments;
+    * Payers 💳 - these are user-bound [Vaults 🗄️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) with access to the user's money; and
+    * [Collector 🏦 helpers](<03 🏦🛠️ Collector helper.md>) - these are [Helper 🛠️ domains](<../00 Entities/🛠️ Helper domain.md>) able to deposit money on the [Sellers 💵](<02 💵🎭 Seller role.md>) bank account. 
     
     Upon check-out, 
     - 1/ the [Seller 💵](<02 💵🎭 Seller role.md>) registers the upcoming payment to their [Collector 🏦](<03 🏦🛠️ Collector helper.md>), 
