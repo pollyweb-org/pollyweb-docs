@@ -49,7 +49,7 @@
     | [Keybox 🌼](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/04 🌼🗄️ Keybox vault.md>) | FindMy | Stores and manages the user's [Padlock 🔒](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/01 🔒 Padlock device.md>) keys.
     | [Mingler 📇](<../08 📇 Minglers/01 📇🫥 Mingler agent.md>) | WhatsApp | Connects multiple users in a [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>), allowing them to exchange [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>).
     | [Navigator 🧭](<../07 🧭 Navigators/05 🧭🫥 Navigator agent.md>) | G.Maps | Helps users going from point A to B.
-    | [Payer 💳](<../04 💳 Payers/02 💳🫥 Payer agent.md>) | Paypal | Performs payments to [Collector 🏦 domains](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>).
+    | [Payer 💳](<../04 💳 Payers/02 💳🫥 Payer role.md>) | Paypal | Performs payments to [Collector 🏦 domains](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>).
     | [Persona 🧢](<../02 🧢 Personas/02 🧢🫥 Persona agent.md>) | Facebook | Stores and shares user preferences and personally identifiable information (PII).
     | [Reviewer ⭐](<../10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) | TrustPilot | Collects and shares user feedback from [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) experiences.
     | [Scheduler 🗓️](<../38 🕓 User Timeline/04 🗓️🗄️ Scheduler agent.md>) | Outlook | Monitors and manages the user's agenda.

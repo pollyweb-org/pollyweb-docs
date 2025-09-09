@@ -11,7 +11,7 @@ Top up a bus ticket at the bus stop 🚎
 | 🚎 Operator | ℹ️ You have 3 trips left.
 | 🚎 Operator | 😃 Hi! What do you need? <br/>- [ Top up 🆙 ] trips <br/>- [ Timetable ] | > Top up 🆙
 | 🚎 Operator | 😃 How many? [10, 20, +] | > 20
-| 💳 [Payer](<../../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/02 💳🫥 Payer agent.md>) | 🫥 Pay £20.00 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
+| 💳 [Payer](<../../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/02 💳🫥 Payer role.md>) | 🫥 Pay £20.00 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
 | 🚎 Operator | ✅ Ticket topped up!
 | ⭐ [Reviewer](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | > ⭐⭐⭐⭐⭐
 ||

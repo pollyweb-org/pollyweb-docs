@@ -18,7 +18,7 @@ A user can tap/scan the NFC/QR tag of a cash machine to start.
 | 🧚 [Curator](<../../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) | 💭 Take 2x $10s instead? [Yes, No] | > Yes
 | 🧚 [Curator](<../../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) | 💭 Confirm $100? [Yes, No] <br/> - (4 x $20) + (2 x $10) | > Yes
 | 🏧 ATM        | ℹ️ Withdraw $100: [Change] <br/> - 4 bills of $20 <br/> - 2 bills of $10 <br/> - plus $10 fee (10%)
-| 💳 [Payer](<../../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/02 💳🫥 Payer agent.md>) | 🫥 Pay $110.00 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
+| 💳 [Payer](<../../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/02 💳🫥 Payer role.md>) | 🫥 Pay $110.00 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
 | 🆔 [Identity](<../../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. 📸 | 🙂 smile
 | 🏧 ATM        | 😃 Tap the dispenser to cash out | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>)
 | 🏧 ATM        | ✅ Take your money. 
