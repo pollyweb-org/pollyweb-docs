@@ -9,9 +9,13 @@
 
 1. **How do Streamer domains work?**
 
-    ![](<.📎 Assets/📨 Streamer-simple.png>)
+    ![](<.📎 Assets/🌬️ Streamer-simple.png>)
 
-    
+    |Step|Description
+    |-|-
+    |0| [Subscriber 🔔 domains](<04 🔔🎭 Subscriber role.md>) first need to subscribe to a Streamer 🌬️ by providing their [Buffer ⏳ helper](<03 ⏳🛠️ Buffer helper.md>).
+    |1, 2, 3| Streamers 🌬️ then publish events at any time to the [Buffer ⏳ helper](<03 ⏳🛠️ Buffer helper.md>).
+    |4| [Buffer ⏳ helpers](<03 ⏳🛠️ Buffer helper.md>) deliver the events to [Subscriber 🔔 domains](<04 🔔🎭 Subscriber role.md>) according to a set delivery policy.
 
     ---
 
@@ -23,7 +27,23 @@
 
     ---
 
-1. **What if a push fails with a timeout or 5XX error?**
+2. **Do Streams guarantee unique delivery?**
+
+    No. 
+    * The same event may be delivered more than once.
+    * [Buffer ⏳ helpers](<03 ⏳🛠️ Buffer helper.md>) are responsible for deduping when necessary.
+
+    ---
+
+2. **Do Streams guarantee ordered delivery?**
+
+    No. 
+    * While events have timestamps, they may be delivered out of order.
+    * [Buffer ⏳ helpers](<03 ⏳🛠️ Buffer helper.md>) are responsible for ordering events when necessary.
+
+    ---
+
+3. **What if a push fails with a timeout or 5XX error?**
 
     Upon receiving a timeout or 5XX error from a [Buffer ⏳ helper](<03 ⏳🛠️ Buffer helper.md>), 
     * Streamers 🌬️ will retry to push events with exponential back-off for up to 24 hours. 
@@ -31,7 +51,7 @@
 
     ---
 
-1. **What if a push fails with a 4XX HTTP error?**
+4. **What if a push fails with a 4XX HTTP error?**
 
     Upon receiving a non-authorized 4XX error from a [Buffer ⏳ helper](<03 ⏳🛠️ Buffer helper.md>), 
     * Streamers 🌬️ assume that the [Buffer ⏳ helper](<03 ⏳🛠️ Buffer helper.md>) does not want the message, 
@@ -39,7 +59,7 @@
 
     ---
 
-1. **What if a subscriber returns a 429 Too Many Requests?**
+5. **What if a Subscriber returns a 429 Too Many Requests?**
 
     Upon receiving a 429 Too Many Requests from a [Buffer ⏳ helper](<03 ⏳🛠️ Buffer helper.md>), 
     * Streamers 🌬️ conclude that the [Buffer ⏳ helper](<03 ⏳🛠️ Buffer helper.md>) is failing to do its one and only job, 
@@ -47,7 +67,7 @@
 
     ---
 
-1. **How to prevent Buffers from spoofing the events?**
+6. **How to prevent Buffers from spoofing the events?**
 
     To avoid spoofing, Streamers 🌬️ encrypt the event content with the public key of the [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) before sending it to the Subscriber's [Buffer ⏳ helper](<03 ⏳🛠️ Buffer helper.md>).
 
