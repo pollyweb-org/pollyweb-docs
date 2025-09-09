@@ -5,7 +5,7 @@
 
 1. **What is a Buffer domain in NLWeb?**
 
-    Buffers ⏳ are point-to-point [Helper 🛠️ domain](<../../30 🫥 Agents/00 Entities/🛠️ Helper domain.md>) that:
+    Buffers ⏳ are point-to-point [Helper 🛠️ domain](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️🗄️ Helper vault.md>) that:
     * ingest events from [Streamer 🌬️ domains](<02 🌬️🎭 Streamer role.md>) with high availability and high ingestion throughput; 
     * and then throttle the deliver of those events to [Subscriber 🔔 domains](<04 🔔🎭 Subscriber role.md>) according to an agreed delivery policy. 
     
