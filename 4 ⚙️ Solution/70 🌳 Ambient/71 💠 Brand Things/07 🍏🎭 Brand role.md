@@ -14,7 +14,7 @@
 
     | Helper | Reason
     |-|-
-    | [Wand 🪄](<09 🪄🛠️ Wand helper.md>) | To order and manage the lifecycle of [Things 💠](<01 💠 Thing.md>).
+    | [Wand 🪄](<09 🪄🛠️ Wand helper.md>) | To order and manage the lifecycle of [Chats 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) for [Things 💠](<01 💠 Thing.md>).
     | [Payer 💳](<../../30 🫥 Agents/04 💳 Payers/05 💳🛠️ Payer helper.md>) | To pay the other Helper domains.
 
     ---

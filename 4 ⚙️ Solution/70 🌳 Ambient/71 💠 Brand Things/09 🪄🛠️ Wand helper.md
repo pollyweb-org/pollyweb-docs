@@ -5,7 +5,7 @@
 
     ![](<00 📎 Assets/💠 Wand.png>)
 
-    Wands are [Suppliers 🏭](<../../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>) that create and manage user [Chats 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) for [Things 💠](<01 💠 Thing.md>) on behalf of [Brand 🍏 suppliers](<07 🍏🎭 Brand role.md>).
+    Wands are [Supplier 🏭 domains](<../../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>) that create and manage user [Chats 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) for [Things 💠](<01 💠 Thing.md>) on behalf of [Brand 🍏 domains](<07 🍏🎭 Brand role.md>).
 
     ---
 
