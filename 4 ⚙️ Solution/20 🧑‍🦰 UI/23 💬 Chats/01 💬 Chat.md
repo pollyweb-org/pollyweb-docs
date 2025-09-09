@@ -21,7 +21,7 @@
     - 🤗 *Prompt*: a [Host 🤗](<03 🤗🎭 Host role.md>) domains send a question or information to users.
     - 🗄️ *Bind*: [Vault 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) domains request users to [Bind 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>) to them.
     - 💼 *Share*: [Consumer 💼](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) domains request users to share data from a specific [schema](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) or to share a [Token 🎫](<../25 🎫 Tokens/01 🎫 Token.md>).
-    - 💳 *Pay*: [Seller 💵](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) domains request the user's [Payer 💳](<../../30 🫥 Agents/04 💳 Payers/01 💳🫥 Payer agent.md>) vault to pay an amount.
+    - 💳 *Pay*: [Seller 💵](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) domains request the user's [Payer 💳](<../../30 🫥 Agents/04 💳 Payers/02 💳🫥 Payer agent.md>) vault to pay an amount.
     - 👋 *Goodbye*: ends the chat workflow.
 
     ---

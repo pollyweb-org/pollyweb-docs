@@ -13,7 +13,7 @@ How to request an immediate ride?
 | 🙋 Hailing | 😃 How many people? [1, 2, more] | > 1
 | 🙋 Hailing | 😃 Any bags? [Yes, No] | > No
 | [🗓️ Scheduler](<../../../../4 ⚙️ Solution/30 🫥 Agents/38 🕓 User Timeline/04 🗓️🗄️ Scheduler agent.md>) | 🫥 Confirm ride? [Yes, No] <br/>- pick-up ~9:05 <br/>- drop-off ~9:45 <br/> - your flight is at 17:35. | > Yes
-| 💳 [Payer](<../../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 💳🫥 Payer agent.md>) | 🫥 Pay $12.95 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
+| 💳 [Payer](<../../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/02 💳🫥 Payer agent.md>) | 🫥 Pay $12.95 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
 | 🙋 Hailing | ⏳ Assigning you a driver...<br/>- [ Cancel request ]
 | 🙋 Hailing | ℹ️ Driver assigned: <br/>- it's Daniel <br/>- on a black Tesla, ABC123 <br/> - on arrival, tap the seat to confirm.
 | 🙋 Hailing | ⏳ Pick-up by 12:37...<br/>- [ Cancel pick-up ]
