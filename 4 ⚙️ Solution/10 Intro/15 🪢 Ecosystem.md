@@ -37,7 +37,7 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
 
 - Domains are extended by helper domains, e.g.:
     * [Buffer ⏳](<../40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>) for global ingestion and throttling, 
-    * [Collector 🏦](<../30 🫥 Agents/04 💳 Payers/02 🏦🛠️ Collector helper.md>) for payments, 
+    * [Collector 🏦](<../30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) for payments, 
     * [Biller 🤝](<../30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>) for financial contracts, 
     * [Advertiser 👀](<../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) for ads.
 

@@ -1,8 +1,6 @@
 🏦 Collector domains FAQ
 ===
 
-![](<00 📎 Assets/💳 Collector.png>)
-
 1. **What is a Collector domain in NLWeb?**
 
     A Collector 🏦 is a [Helper 🛠️ domain](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) that other [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) can leverage to collect payments. 
@@ -10,6 +8,18 @@
     * These can be traditional banks, with a simple bank account.
     * Incoming payments are sent by [Payer 💳 domains](<03 💳🎭 Payer role.md>), on behalf of users and [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).
     
+    ---
+
+1. **How do Collectors work?**
+
+    ![](<00 📎 Assets/💳 Collector.png>)
+
+    |#|Step
+    |-|-
+    |1| A [Payer 💳 domain](<03 💳🎭 Payer role.md>) receives an order to make a payment, either from a user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) in a business-to-consumer (B2C) transaction, or from a [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) in a business-to-business (B2B) transaction.
+    |2| The [Payer 💳 domain](<03 💳🎭 Payer role.md>) then performs a traditional payment to a Collector 🏦 helper.
+    |3| The Collector 🏦 issues a traditional receipt back to the [Payer 💳 domain](<03 💳🎭 Payer role.md>).
+    |4| The Collector 🏦 notifies the recipient [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that the payment was successful.
     ---
 
 2. **Why are Collectors important?**
@@ -22,12 +32,15 @@
 
     ---
 
-3. **How does a domain withdraw its money?**
+3. **How does a domain withdraw its money from a Collector?**
     
-    It depends on the Collector 🏦 - options may be:
-    - **Direct:** the [Payer 💳 domain](<03 💳🎭 Payer role.md>) pays directly to the domain's bank account.
-    - **Proxy:** the [Payer 💳 domain](<03 💳🎭 Payer role.md>) pays to the Collector 🏦, who then transfers to the domain's bank account.
-    - **Wallet:** the [Payer 💳 domain](<03 💳🎭 Payer role.md>) pays to the Collector 🏦, who holds the money until withdrawn by the domain.
+    How a recipient [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) receives the money on their bank account depends on the Collector 🏦 - options are as follows.
+
+    | Option | Example | Description
+    |-|-|-
+    | **Direct** | Visa | the [Payer 💳 domain](<03 💳🎭 Payer role.md>) transfers directly to the recipient's bank account.
+    | **Proxy** | G.Wallet | the [Payer 💳 domain](<03 💳🎭 Payer role.md>) pays to the Collector 🏦, who then transfers to the recipients's bank account.
+    | **Wallet** | PayPal | the [Payer 💳 domain](<03 💳🎭 Payer role.md>) pays to the Collector 🏦, who holds the money until withdrawn by the recipient.
 
     ---
 
