@@ -9,7 +9,7 @@
 
 1. **How can Hosts protect users from input fatigue?**
 
-    NLWeb advocates for [Hosts 🤗](<04 🤗💬 Host chats.md>) to request as little prompts from users as possible - instead, request users to share datasets. 
+    NLWeb advocates for [Hosts 🤗 domains](<03 🤗🎭 Host role.md>) to request as little prompts from users as possible - instead, request users to share datasets. 
     * When prompts are inevitable, avoid text prompts - instead, prefer low-effort prompts (e.g., searchable lists with one or many possible options).
 
     ---
