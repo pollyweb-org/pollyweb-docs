@@ -10,12 +10,14 @@
 
     ---
 
-1. **What Helper domains does a Brand need?**
+1. **What Helper domains does a Brand typically uses?**
 
-    | Helper | Reason
+    | [Helper 🛠️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | Reason
     |-|-
-    | [Wand 🪄](<09 🪄🛠️ Wand helper.md>) | To order and manage the lifecycle of [Chats 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) for [Things 💠](<01 💠 Thing.md>).
-    | [Payer 💳](<../../30 🫥 Agents/04 💳 Payers/05 💳🛠️ Payer helper.md>) | To pay the other Helper domains.
+    | [Printer 🖨️](<08 🖨️🏭 Printer helper.md>) | To print the [🔆 NFC/QR Locators](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) for the Brand's [Things 💠](<01 💠 Thing.md>).
+    | [Wand 🪄](<09 🪄🛠️ Wand helper.md>) | To order and manage the lifecycle of [Chats 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) for the Brand's [Things 💠](<01 💠 Thing.md>).
+    | [Payer 💳](<../../30 🫥 Agents/04 💳 Payers/05 💳🛠️ Payer helper.md>) | To pay for the services of the other [Helper 🛠️ domains](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>).
+    | [Buffer ⏳](<../../40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>) | To receive order updates from the [Wand 🪄](<09 🪄🛠️ Wand helper.md>) and the [Printer 🖨️](<08 🖨️🏭 Printer helper.md>) domains.
 
     ---
 
