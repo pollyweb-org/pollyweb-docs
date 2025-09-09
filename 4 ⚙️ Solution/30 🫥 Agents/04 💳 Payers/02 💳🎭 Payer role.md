@@ -1,62 +1,24 @@
-💳 Payer domains FAQ
+💳🎭 Payer vault domain roleFAQ
 ===
 
-1. **What is a Payer domain in NLWeb?**
+1. **What is a Payer vault domain in NLWeb?**
 
     A Payer 💳 is a [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that performs payments to [Collector 🏦 domains](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>) under the following responsibilities.
 
     * **[Payer 💳🫥 agents](<03 💳🫥 Payer agent.md>)**: 
-      * Payers 💳 act as [Agent 🫥 vaults](<../00 Entities/🫥 Agent vault.md>)
-      * for users with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), 
-      * interacting in [Chats 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) with [Seller 💵 hosts](<01 💵🎭 Seller role.md>).
-    
+        * Payers 💳 act as [Agent 🫥 vaults](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>)
+        * for users with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), 
+        * interacting in [Chats 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) with [Seller 💵 hosts](<01 💵🎭 Seller role.md>).
+      
     * **[Payer 💳🛠️ helpers](<04 💳🛠️ Payer helper.md>)**:
-      * Payers 💳 act as [Helper 🛠️ domains](<../00 Entities/🛠️ Helper domain.md>)
-      * for other [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>), 
-      * paying for agreements with [Biller 🤝 helpers](<06 🤝🛠️ Biller helper.md>).
+        * Payers 💳 act as [Helper 🛠️ domains](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️🗄️ Helper vault.md>)
+        * for other [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>), 
+        * paying for agreements with [Biller 🤝 helpers](<06 🤝🛠️ Biller helper.md>).
 
     ---
     
-2. **How are user payments processed for users?**
 
-    ![](<00 📎 Assets/💳 Payer.png>)
-
-    On NLWeb, payment transactions with users are handled between:
-    * [Sellers 💵](<01 💵🎭 Seller role.md>) -  these are [Consumer 💼](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) domains that request payments;
-    * Payers 💳 - these are user-bound [Vaults 🗄️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) with access to the user's money; and
-    * [Collector 🏦 helpers](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>) - these are [Helper 🛠️ domains](<../00 Entities/🛠️ Helper domain.md>) able to deposit money on the [Sellers 💵](<01 💵🎭 Seller role.md>) bank account. 
-    
-    Upon check-out, 
-    - 1/ the [Seller 💵](<01 💵🎭 Seller role.md>) registers the upcoming payment to their [Collector 🏦](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>), 
-    - 2/ the [Seller 💵](<01 💵🎭 Seller role.md>) requests a payment from the user, 
-    - 3/ the user delegates the payment to a Payer 💳, 
-    - 4/ the user's Payer 💳 transfers the money to the [Seller's 💵](<01 💵🎭 Seller role.md>) [Collector 🏦](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>), and 
-    - 5/ the [Collector 🏦](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>) notifies the [Seller 💵](<01 💵🎭 Seller role.md>) that the transaction was paid.
-
-    ---
-
-3. **What user problems do Payers solve?**
-
-    Read the [User challenges 🧑 ](<../../../2 🏔️ Landscape/1 💼 Business landscape/05 💳 Payments landscape/01 🧑 User challenges.md>) section of the [Payments landscape FAQ 💳](<../../../2 🏔️ Landscape/1 💼 Business landscape/05 💳 Payments landscape/00 💳 Payments index.md>).
-
-    ---
-    
-4. **What responsibilities do Payers have in a payment?**
-
-    Payers 💳 are responsible for:
-    - receiving payment requests from [Collectors 🏦](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>);
-    - memorizing the user's available payment methods;
-    - collecting the payment from the user's selected payment method:
-        - e.g., Visa, American Express, Google Pay, Brazilian Pix, Portuguese MBWay;
-    - collecting any additional fees to pay the user's selected payment method;
-    - converting the user's payment to the Collectors currency;
-    - transferring the payment to Collectors over an agreed transfer protocol: 
-        - e.g., national bank transfer, internal SWIFT, TransferWise, Western Union;
-    - storing the payment receipts on behalf of users.
-
-    ---
-
-5. **How are currency conversions handled?**
+2. **How are currency conversions handled?**
 
     Payers 💳 are responsible for converting the currency to the [Seller's 💵](<01 💵🎭 Seller role.md>) price.
 
@@ -66,33 +28,33 @@
 
     ---
 
-6. **Why not leverage the Open Banking protocol?**
+3. **Why not leverage the Open Banking protocol?**
 
     While NLWeb follows the Open Banking rational for payments, it requires features not available in Open Banking;
     - e.g., the ability to jump between bank entities from within a [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) in the user's [Wallet app 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
 
     ---
     
-7. **What responsibilities do Payers have with invoices?**
+4. **What responsibilities do Payers have with invoices?**
 
     None. [Collectors 🏦](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>) are responsible for invoices.
 
     ---
     
-8. **How does a user bind to their traditional bank?**
+5. **How does a user bind to their traditional bank?**
 
     The bank needs to onboard into NLWeb as a Payer 💳.
 
     ---
     
-9. **What happens if a transaction is cancelled?**
+6. **What happens if a transaction is cancelled?**
 
     Typically, the money is reverted, but it depends on the relationship between the Payer 💳 and the [Collector 🏦](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>).
 
     ---
     
     
-10. **How does it differ from India's ONDC?**
+7.  **How does it differ from India's ONDC?**
 
     The [Open Network for Digital Commerce (ONDC) 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/09 🛒 Shopping landscape/01 📺 🇮🇳 India's ONDC.md>) is a centralized shared network specific for the retail industry in India. 
     - NLWeb can also address that niche, 
@@ -103,7 +65,7 @@
 
     ---
     
-11. **Does NLWeb allow a user to type a credit card number?**
+8.  **Does NLWeb allow a user to type a credit card number?**
 
     Although technically possible, it is highly discouraged. 
     - NLWeb advocates for minimum user-typing during a transaction. 
@@ -111,7 +73,7 @@
 
     ---
     
-12. **Does NLWeb allow users to pay with NFC contactless?**
+9.  **Does NLWeb allow users to pay with NFC contactless?**
 
     No. NLWeb does not use the standard payment NFC protocol. 
     
@@ -121,7 +83,7 @@
 
     ---
     
-13. **Does NLWeb allow for offline payments in airplanes?**
+10. **Does NLWeb allow for offline payments in airplanes?**
 
     No. NLWeb requires internet connectivity on the user's device. 
     
@@ -131,7 +93,7 @@
 
     ---
     
-14. **Do Payers transfer money to collectors, or pay by card?**
+11. **Do Payers transfer money to collectors, or pay by card?**
 
     Payers 💳 and [Collectors 🏦](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>) may support multiple ways to transact. 
     
@@ -140,19 +102,19 @@
 
     ---
     
-15. **Can a payment be reverted or cancelled?**
+12. **Can a payment be reverted or cancelled?**
 
     Yes. [Collectors 🏦](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>) can do initiate it, but Payers 💳 can't.
 
     ---
     
-16. **Can payments be done with credit/debit notes?**
+13. **Can payments be done with credit/debit notes?**
 
     Yes, as long as the Payer 💳 and the [Collector 🏦](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>) support it.
 
     ---
     
-17. **After a payment, do users receive the Seller's receipt?**
+14. **After a payment, do users receive the Seller's receipt?**
 
     No. 
     
@@ -165,7 +127,7 @@
 
     ---
     
-18. **Why not use blockchain to perform the money transfer?**
+15. **Why not use blockchain to perform the money transfer?**
 
     NLWeb discourages the usage of blockchain in this scenario for multiple reasons:
 
@@ -179,13 +141,13 @@
 
     ---
     
-19. **How is money laundry prevented?**
+16. **How is money laundry prevented?**
 
     NLWeb leverages payment transfers to be made using existing platforms and transfers protocols that already have international guardrails implemented, thus inheriting these guardrails.
 
     ---
 
-20. **Can Payers read card details from Persona vaults?**
+17. **Can Payers read card details from Persona vaults?**
 
     No.
 

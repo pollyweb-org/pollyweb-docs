@@ -1,1 +1,46 @@
+💳🫥 Payer agent FAQ
+===
 
+1. **What is a Payer domain in NLWeb?**
+
+
+    ---
+
+2. **How are user payments processed for users?**
+
+    ![](<00 📎 Assets/💳 Payer.png>)
+
+    On NLWeb, payment transactions with users are handled between:
+    * [Sellers 💵](<01 💵🎭 Seller role.md>) -  these are [Consumer 💼](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) domains that request payments;
+    * Payers 💳 - these are user-bound [Vaults 🗄️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) with access to the user's money; and
+    * [Collector 🏦 helpers](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>) - these are [Helper 🛠️ domains](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️🗄️ Helper vault.md>) able to deposit money on the [Sellers 💵](<01 💵🎭 Seller role.md>) bank account. 
+    
+    Upon check-out, 
+    - 1/ the [Seller 💵](<01 💵🎭 Seller role.md>) registers the upcoming payment to their [Collector 🏦](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>), 
+    - 2/ the [Seller 💵](<01 💵🎭 Seller role.md>) requests a payment from the user, 
+    - 3/ the user delegates the payment to a Payer 💳, 
+    - 4/ the user's Payer 💳 transfers the money to the [Seller's 💵](<01 💵🎭 Seller role.md>) [Collector 🏦](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>), and 
+    - 5/ the [Collector 🏦](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>) notifies the [Seller 💵](<01 💵🎭 Seller role.md>) that the transaction was paid.
+
+    ---
+
+3. **What user problems do Payers solve?**
+
+    Read the [User challenges 🧑 ](<../../../2 🏔️ Landscape/1 💼 Business landscape/05 💳 Payments landscape/01 🧑 User challenges.md>) section of the [Payments landscape FAQ 💳](<../../../2 🏔️ Landscape/1 💼 Business landscape/05 💳 Payments landscape/00 💳 Payments index.md>).
+
+    ---
+    
+4. **What responsibilities do Payers have in a payment?**
+
+    Payers 💳 are responsible for:
+    - receiving payment requests from [Collectors 🏦](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>);
+    - memorizing the user's available payment methods;
+    - collecting the payment from the user's selected payment method:
+        - e.g., Visa, American Express, Google Pay, Brazilian Pix, Portuguese MBWay;
+    - collecting any additional fees to pay the user's selected payment method;
+    - converting the user's payment to the Collectors currency;
+    - transferring the payment to Collectors over an agreed transfer protocol: 
+        - e.g., national bank transfer, internal SWIFT, TransferWise, Western Union;
+    - storing the payment receipts on behalf of users.
+
+    ---

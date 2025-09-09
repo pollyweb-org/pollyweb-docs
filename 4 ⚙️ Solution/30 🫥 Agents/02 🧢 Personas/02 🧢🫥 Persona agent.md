@@ -4,7 +4,7 @@
 
 1. **What is a Persona in NLWeb?**
 
-    A Persona 🧢 domain is an [Agent 🫥 vault](<../00 Entities/🫥 Agent vault.md>) specialized in user preferences.
+    A Persona 🧢 domain is an [Agent 🫥 vault](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) specialized in user preferences.
 
     ---
 
