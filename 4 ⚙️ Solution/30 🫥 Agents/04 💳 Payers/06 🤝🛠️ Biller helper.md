@@ -3,7 +3,7 @@
 
 1. **What is a Biller domain in NLWeb?**
 
-    A Biller domain handles the terms and lifecycle of payment agreements between a [Payer 💳](<01 💳🫥 Payer agent.md>) and a [Collector 🏦](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>) (w.g., subscriptions, free tiers, direct debits) on behalf of [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and [Sellers 💵](<02 💵🎭 Seller role.md>).
+    A Biller domain handles the terms and lifecycle of payment agreements between a [Payer 💳](<01 💳🫥 Payer agent.md>) and a [Collector 🏦](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>) (w.g., subscriptions, free tiers, direct debits) on behalf of [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and [Sellers 💵](<01 💵🎭 Seller role.md>).
 
     ---
 
@@ -16,7 +16,7 @@
     - 2/ the Seller has a default [Collector 🏦](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>) domain.
 
     The following steps describe a subscription workflow:
-    - 1/ the user initiates a chat with a [Seller 💵](<02 💵🎭 Seller role.md>);
+    - 1/ the user initiates a chat with a [Seller 💵](<01 💵🎭 Seller role.md>);
     - 2/ the user selects a subscription in the chat;
     - 3/ the Seller's Biller sends the PDF terms to the user;
     - 4/ the user accepts the PDF terms;
@@ -51,13 +51,13 @@
 
     Yes, that is set up in the terms.
     
-    Whenever the [Seller 💵](<02 💵🎭 Seller role.md>) receives a billable request, it adds the request to the Biller's billing cycle. By the end of the cycle, the Biller will factor in billable items and the terms to produce the period's charge.
+    Whenever the [Seller 💵](<01 💵🎭 Seller role.md>) receives a billable request, it adds the request to the Biller's billing cycle. By the end of the cycle, the Biller will factor in billable items and the terms to produce the period's charge.
 
     ---
 
 1. **Can a Seller implement the Biller API?**
 
-    Yes. However, a Biller domain may offer additional services that the [Seller 💵](<02 💵🎭 Seller role.md>) can benefit from, like digital signatures, risk assessment, support call center, dispute management, management of financial guarantees, and text-based reporting.
+    Yes. However, a Biller domain may offer additional services that the [Seller 💵](<01 💵🎭 Seller role.md>) can benefit from, like digital signatures, risk assessment, support call center, dispute management, management of financial guarantees, and text-based reporting.
     
     The Seller's customers may also benefit from budget alarms, spend anomaly detection, near-real-time streaming of billing, and text reporting.
 

@@ -17,7 +17,7 @@
     - 📱 [Misplaced phone](<03 💍📱 Userable lost phone.md>):
         - find their phones using someone else's Wallet;
     - 💳 [Payments](<04 💍💳 Userable payments.md>):
-        - pay to [Sellers 💵](<../../30 🫥 Agents/04 💳 Payers/02 💵🎭 Seller role.md>) using the Seller's Wallets;
+        - pay to [Sellers 💵](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) using the Seller's Wallets;
         - pay to Sellers using the Seller's [🖥️ Kiosks](<../../60 🧰 Edge/68 🏪 Terminals/01 🖥️ Info kiosk.md>); 
         - pay small-fee transport tickets in a bus;
         - pay variable length metropolitan rides;

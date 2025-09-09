@@ -129,7 +129,7 @@
 
 10. **How do sellers prevent swapping of identity Tokens?**
 
-    [Sellers 💵](<../../30 🫥 Agents/04 💳 Payers/02 💵🎭 Seller role.md>) can prevent frauds where users share their [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) with someone else.
+    [Sellers 💵](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) can prevent frauds where users share their [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) with someone else.
     - e.g., an adult may give their wallet's device to an under-aged child so that they can buy age-restricted goods at a self-service store. 
     
     In low-budget validations, 
@@ -138,7 +138,7 @@
     
     In offline scenarios, 
     - where users carry an NFC card or a printed QR, 
-    - the [Seller 💵](<../../30 🫥 Agents/04 💳 Payers/02 💵🎭 Seller role.md>) takes a photo of the user with a fixed camera, and then ask the Token's [Identity 🆔](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) vault to match the Token with the picture.
+    - the [Seller 💵](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) takes a photo of the user with a fixed camera, and then ask the Token's [Identity 🆔](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) vault to match the Token with the picture.
 
     ---
 

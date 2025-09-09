@@ -4,7 +4,7 @@
 1. **What is a Payer domain in NLWeb?**
 
     A Payer 💳 is a [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that performs payments to [Collector 🏦 domains](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>).
-    * For users with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), Payers 💳 act as [Agent 🫥 vaults](<../00 Entities/🫥 Agent vault.md>), interacting in [Chats 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) with [Seller 💵 hosts](<02 💵🎭 Seller role.md>).
+    * For users with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), Payers 💳 act as [Agent 🫥 vaults](<../00 Entities/🫥 Agent vault.md>), interacting in [Chats 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) with [Seller 💵 hosts](<01 💵🎭 Seller role.md>).
     * For other [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>), Payers 💳 act as [Helper 🛠️ domains](<../00 Entities/🛠️ Helper domain.md>) paying for agreements with [Biller 🤝 helpers](<06 🤝🛠️ Biller helper.md>).
 
     ---
@@ -14,16 +14,16 @@
     ![](<00 📎 Assets/💳 Payer.png>)
 
     On NLWeb, payment transactions with users are handled between:
-    * [Sellers 💵](<02 💵🎭 Seller role.md>) -  these are [Consumer 💼](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) domains that request payments;
+    * [Sellers 💵](<01 💵🎭 Seller role.md>) -  these are [Consumer 💼](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) domains that request payments;
     * Payers 💳 - these are user-bound [Vaults 🗄️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) with access to the user's money; and
-    * [Collector 🏦 helpers](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>) - these are [Helper 🛠️ domains](<../00 Entities/🛠️ Helper domain.md>) able to deposit money on the [Sellers 💵](<02 💵🎭 Seller role.md>) bank account. 
+    * [Collector 🏦 helpers](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>) - these are [Helper 🛠️ domains](<../00 Entities/🛠️ Helper domain.md>) able to deposit money on the [Sellers 💵](<01 💵🎭 Seller role.md>) bank account. 
     
     Upon check-out, 
-    - 1/ the [Seller 💵](<02 💵🎭 Seller role.md>) registers the upcoming payment to their [Collector 🏦](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>), 
-    - 2/ the [Seller 💵](<02 💵🎭 Seller role.md>) requests a payment from the user, 
+    - 1/ the [Seller 💵](<01 💵🎭 Seller role.md>) registers the upcoming payment to their [Collector 🏦](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>), 
+    - 2/ the [Seller 💵](<01 💵🎭 Seller role.md>) requests a payment from the user, 
     - 3/ the user delegates the payment to a Payer 💳, 
-    - 4/ the user's Payer 💳 transfers the money to the [Seller's 💵](<02 💵🎭 Seller role.md>) [Collector 🏦](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>), and 
-    - 5/ the [Collector 🏦](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>) notifies the [Seller 💵](<02 💵🎭 Seller role.md>) that the transaction was paid.
+    - 4/ the user's Payer 💳 transfers the money to the [Seller's 💵](<01 💵🎭 Seller role.md>) [Collector 🏦](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>), and 
+    - 5/ the [Collector 🏦](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>) notifies the [Seller 💵](<01 💵🎭 Seller role.md>) that the transaction was paid.
 
     ---
 
@@ -50,9 +50,9 @@
 
 5. **How are currency conversions handled?**
 
-    Payers 💳 are responsible for converting the currency to the [Seller's 💵](<02 💵🎭 Seller role.md>) price.
+    Payers 💳 are responsible for converting the currency to the [Seller's 💵](<01 💵🎭 Seller role.md>) price.
 
-    - [Sellers 💵](<02 💵🎭 Seller role.md>) always receive payments in their requested currency and in the exact amount requested.
+    - [Sellers 💵](<01 💵🎭 Seller role.md>) always receive payments in their requested currency and in the exact amount requested.
   
     - Payers 💳 calculate the final amount to be paid by the user after the currency conversion from the selected payment method, plus conversion, transfer, and administrative fees.
 
@@ -148,7 +148,7 @@
 
     No. 
     
-    - Receipts and invoices are created by the [Seller 💵](<02 💵🎭 Seller role.md>)'s [Collector 🏦](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>) domain, and are sent to the user's Payer 💳 domain. 
+    - Receipts and invoices are created by the [Seller 💵](<01 💵🎭 Seller role.md>)'s [Collector 🏦](<../01 📦 Storage/03 🏦🛠️ Collector helper.md>) domain, and are sent to the user's Payer 💳 domain. 
     
     - Users should ask their Payer 💳 domain for the receipt:
         - e.g., a payment gateway may allow the receipts to be downloaded from the transaction list on their website, or they can send each receipt to a chat window every time there is a payment. 
