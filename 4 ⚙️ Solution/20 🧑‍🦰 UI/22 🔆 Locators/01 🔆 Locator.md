@@ -31,7 +31,7 @@
     * [tap 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>) a NLWeb-compatible physical [NFC tag 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>) written by anyone;
     * [scan ✨](<03 🧑‍🦰✨ Wallet QR scan.md>) an image of a [QR code ✨](<03 🧑‍🦰✨ Wallet QR scan.md>) rendered by a webpage;
     * [click](<02 🧑‍🦰🌐 Wallet URLs.md>) on an NLWeb-compatible [URL link 🌐](<02 🧑‍🦰🌐 Wallet URLs.md>) on a webpage;
-    * tap/scan a static NFC/QR issue by any [Printer 🖨️ supplier](<../../70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer supplier.md>);
+    * tap/scan a static NFC/QR issue by any [Printer 🖨️ supplier](<../../70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>);
     * tap/scan a dynamic NFC/QR rendered by an [Ephemeral 🦋 device](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>);
     * tap/scan a [Wi-Fier 🛜 device](<../../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>) to connect it to the internet;
     * tap a [Userable 💍](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) that a user is wearing or holding;

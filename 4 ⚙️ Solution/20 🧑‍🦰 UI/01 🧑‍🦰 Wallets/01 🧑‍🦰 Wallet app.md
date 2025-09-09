@@ -24,13 +24,13 @@
 
 1. **What are examples of bound Vaults?**
 
-    The following are examples of user [Vaults 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) that be available by default:
+    The following are examples of user [Vaults 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) that are available by default:
     - 🤵 [Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>), to change settings, migrate to another device, or recover from a lost device;
     - 📦 [Storage](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>), for data residency compliance;
     - 🧢 [Persona](<../../30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>), for managing user preferences;
     - 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>), for identity authentication;
     - 💳 [Payer](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>), for general payments;
-    - ⭐ [Reviewer](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>), to provide feedback on [Hosts 🤗](<../23 💬 Chats/04 🤗💬 Host chats.md>);
+    - ⭐ [Reviewer](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>), to provide feedback on [Host 🤗 domains](<../23 💬 Chats/03 🤗🎭 Host role.md>) 
     - 🔎 [Finder](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>), to search for [Locators 🔆](<../22 🔆 Locators/01 🔆 Locator.md>) according to the user's preferences;
     - 🛎️ [Concierge](<../../30 🫥 Agents/06 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>), to perform tasks on behalf of the user;
     - 🎩 [Custodian](<../../70 🌳 Ambient/71 💠 Brand Things/05 🎩🗄️ Custodian vault.md>), to manage the user's [Things 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>), [Robots 🤖](<../../70 🌳 Ambient/72 🤖 Brand Robots/01 🤖💠 Robot thing.md>), and [Userables 💍](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>).

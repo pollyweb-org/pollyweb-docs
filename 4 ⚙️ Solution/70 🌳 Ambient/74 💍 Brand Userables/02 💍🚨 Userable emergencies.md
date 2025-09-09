@@ -10,11 +10,11 @@
     - make a group phone call, 
     - notify the health insurance company.
     
-    To streamline the process, [Wand 🪄](<../71 💠 Brand Things/09 🪄👥 Wand helper.md>) domains collect the following information from the guest:
+    To streamline the process, [Wand 🪄](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>) domains collect the following information from the guest:
     - contact details,
     - current location.
 
-    To avoid harassment frauds, [Wands 🪄](<../71 💠 Brand Things/09 🪄👥 Wand helper.md>) request guests to be authenticated by a [trusted 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) [Identity 🆔](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) domain before issuing the emergency alarm.
+    To avoid harassment frauds, [Wands 🪄](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>) request guests to be authenticated by a [trusted 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) [Identity 🆔](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) domain before issuing the emergency alarm.
 
     Owners with high risk (e.g., epilepsy, heart disease) may speed up the rescue by adding instructions directly to the landing page and/or by removing the need for guests to authenticate before activating an emergency.
 
