@@ -3,7 +3,7 @@
 
 1. **What is a Biller domain in NLWeb?**
 
-    A Biller domain handles the terms and lifecycle of payment agreements between a [Payer 💳](<03 💳🎭 Payer role.md>) and a [Collector 🏦](<01 🏦🛠️ Collector helper.md>) (w.g., subscriptions, free tiers, direct debits) on behalf of [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and [Sellers 💵](<01 💵🎭 Seller role.md>).
+    A Biller domain handles the terms and lifecycle of payment agreements between a [Payer 💳](<03 💳🎭 Payer role.md>) and a [Collector 🏦](<01 🏦🛠️ Collector helper.md>) (e.g., subscriptions, free tiers, direct debits) on behalf of [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and [Sellers 💵](<01 💵🎭 Seller role.md>).
 
     ---
 
@@ -43,19 +43,20 @@
 
 1. **How can a user cancel a subscription?**
 
-    User subscriptions are attached to the user's [Payer 💳](<03 💳🎭 Payer role.md>) - in a chat, users can ask their Payer to cancel the subscription.
+    User subscriptions are attached to the user's [Payer 💳](<03 💳🎭 Payer role.md>).
+    * In a [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>), users can ask their Payer to cancel the subscription.
 
     ---
 
-1. **Do Billers support pay-as-go contracts?**
+2. **Do Billers support pay-as-go contracts?**
 
     Yes, that is set up in the terms.
     
-    Whenever the [Seller 💵](<01 💵🎭 Seller role.md>) receives a billable request, it adds the request to the Biller's billing cycle. By the end of the cycle, the Biller will factor in billable items and the terms to produce the period's charge.
+    * Whenever the [Seller 💵](<01 💵🎭 Seller role.md>) receives a billable request, it adds the request to the Biller's billing cycle. By the end of the cycle, the Biller will factor in billable items and the terms to produce the period's charge.
 
     ---
 
-1. **Can a Seller implement the Biller API?**
+3. **Can a Seller implement the Biller API?**
 
     Yes. However, a Biller domain may offer additional services that the [Seller 💵](<01 💵🎭 Seller role.md>) can benefit from, like digital signatures, risk assessment, support call center, dispute management, management of financial guarantees, and text-based reporting.
     

@@ -3,8 +3,13 @@
 
 ## About
 
-- FAQs: [Domain communication 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>), [Schema Codes 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)
-- See also: [Async Messages 🐌](<03 👥⏩🐌 Sender events.md>)
+* Pre-requisites:
+    * [🌐 DNS Config workflow](<01 👥⏩🌐 Config DNS.md>)
+
+* See also:
+    * [📨 Domain communication FAQ](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>)
+    * [🧩 Schema Codes FAQ](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)
+    * [🐌 Asynchronous Messages workflow](<03 👥⏩🐌 Sender events.md>)
 
 
 ## Flow diagram ⏩

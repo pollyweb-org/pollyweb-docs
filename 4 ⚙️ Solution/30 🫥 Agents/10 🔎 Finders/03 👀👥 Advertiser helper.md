@@ -5,12 +5,12 @@
 
 1. **What is an Advertiser helper domain in NLWeb?**
 
-    Advertisers 👀 are helper [Domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that intermediates the registration, distribution, and payment flows for ads on NLWeb. 
+    Advertisers 👀 are [Helper 🛠️ domains](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) that intermediate the registration, distribution, and payment flows for ads on NLWeb. 
 
     ---
 
 
-1. **How are ads presented to users?**
+2. **How are ads presented to users?**
 
     When a [Host 🤗 domain](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) ends a [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>), an Advertiser 👀 presents contextualized next-best actions for the user, e.g.: 
 
@@ -29,7 +29,8 @@
     The set required for ads to work is as follows:
 
     * Users set up one [Curator 🧚 agent](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>) on their [Wallet 🧑‍🦰 App](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
-    | | [Seller 💵 domains](<../04 💳 Payers/01 💵🎭 Seller role.md>) set up one [Payer 💳 helper](<../04 💳 Payers/03 💳🎭 Payer role.md>) to pay for ads.
+    
+    * [Seller 💵 domains](<../04 💳 Payers/01 💵🎭 Seller role.md>) set up one [Payer 💳 helper](<../04 💳 Payers/03 💳🎭 Payer role.md>) to pay for ads.
     
     * Advertiser 👀 domains set up one [Biller 🤝 helper](<../04 💳 Payers/06 🤝🛠️ Biller helper.md>) to charge [Seller 💵 domains](<../04 💳 Payers/01 💵🎭 Seller role.md>) for ads, one [Collector 🏦 helper](<../04 💳 Payers/01 🏦🛠️ Collector helper.md>) to receive the ad payments, and one [Payer 💳 helper](<../04 💳 Payers/03 💳🎭 Payer role.md>) for paying ad-printing commissions to [Host 🤗 domains](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) and [Curator 🧚 agents](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>).
     
