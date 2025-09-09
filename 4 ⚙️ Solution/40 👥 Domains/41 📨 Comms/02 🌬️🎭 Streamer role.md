@@ -9,7 +9,7 @@
 
 1. **How do Streamer domains work?**
 
-    ![](<.📎 Assets/🌬️ Streamer-simple.png>)
+    ![](<.📎 Assets/📨🌬️ Streamer-simple.png>)
 
     |Step|Description
     |-|-

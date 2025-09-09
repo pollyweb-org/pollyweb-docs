@@ -6,7 +6,7 @@
 ----
 
 💬 NLWeb aims to seamlessly incorporate payments into interaction workflows, while simplifying the experience to both consumers and businesses.
-- Businesses issue a bill via their [🏦👥 Collector helper](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 🏦🛠️ Collector helper.md>);
+- Businesses issue a bill via their [🏦👥 Collector helper](<../../../4 ⚙️ Solution/30 🫥 Agents/01 📦 Storage/03 🏦🛠️ Collector helper.md>);
 - Collectors ask the money in the business currency to users' [💳 Payer vault](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 💳🫥 Payer agent.md>);
 - Payer vaults and Collector helps agree on the transfer channel (e.g. Wise);
 - Customers pay in their preferred currency and methods (e.g., AMEX);
