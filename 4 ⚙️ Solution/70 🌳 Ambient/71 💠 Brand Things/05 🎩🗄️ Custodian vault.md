@@ -29,7 +29,7 @@
 
     ![](<00 📎 Assets/💠 Custodian Recover.png>)
 
-    Anyone with a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) can start a chat with the Thing's Custodian 🎩 as a guest. 
+    The process for users to recover a lost [Thing 💠](<01 💠 Thing.md>) is as follows. 
 
     |#|Step
     |-|-
