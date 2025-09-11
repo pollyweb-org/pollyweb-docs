@@ -34,7 +34,7 @@
         - when users tap or scan an offline [Token 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) on a Consumer's 💼 scanner (e.g., a printed flight ticket at an airport gate), the Consumer 💼 can validate the [Token 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) without the need for a chat or any interactions with the user's [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>).
 
     - **When users tap Userables**: 
-        - when users tap a [Userable 💍](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) on a [Consumer's 💼](<04 💼🎭 Consumer role.md>) scanner (e.g., a wristband at an airport gate), the Consumer 💼 can ask the user's [Custodian 🎩](<../../70 🌳 Ambient/71 💠 Brand Things/05 🎩🗄️ Custodian vault.md>) domain to silently share all [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) marked as public by the user and matching a list of expected [Schema Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>);
+        - when users tap a [Userable 💍](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) on a [Consumer's 💼](<04 💼🎭 Consumer role.md>) scanner (e.g., a wristband at an airport gate), the Consumer 💼 can ask the user's [Custodian 🧳](<../../70 🌳 Ambient/71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) domain to silently share all [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) marked as public by the user and matching a list of expected [Schema Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>);
         - see [Userable at gates 💍🎬](<../../70 🌳 Ambient/74 💍 Brand Userables/05 💍🎬 Userable gates.md>) for details.
 
     ---
