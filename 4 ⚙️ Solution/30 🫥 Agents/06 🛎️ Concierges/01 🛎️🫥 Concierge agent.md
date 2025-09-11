@@ -12,7 +12,7 @@
 
 1. **What are examples for Concierge usages in NLWeb?**
 
-    - [Custodian 🎩](<../../70 🌳 Ambient/71 💠 Brand Things/05 🎩🗄️ Custodian vault.md>) domains leverage Concierges 🛎️ to help users recover a lost [Thing 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>).
+    - [Custodian 🧳](<../../70 🌳 Ambient/71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) domains leverage Concierges 🛎️ to help users recover a lost [Thing 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>).
 
     - [Vitalogist 💖](<../09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) domains leverage Concierges 🛎️ to book exams and medical appointments for users.
 

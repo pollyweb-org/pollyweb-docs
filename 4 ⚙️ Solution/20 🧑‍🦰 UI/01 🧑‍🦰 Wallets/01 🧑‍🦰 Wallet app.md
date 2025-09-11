@@ -33,7 +33,7 @@
     - ⭐ [Reviewer](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>), to provide feedback on [Host 🤗 domains](<../23 💬 Chats/03 🤗🎭 Host role.md>) 
     - 🔎 [Finder](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>), to search for [Locators 🔆](<../22 🔆 Locators/01 🔆 Locator.md>) according to the user's preferences;
     - 🛎️ [Concierge](<../../30 🫥 Agents/06 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>), to perform tasks on behalf of the user;
-    - 🎩 [Custodian](<../../70 🌳 Ambient/71 💠 Brand Things/05 🎩🗄️ Custodian vault.md>), to manage the user's [Things 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>), [Robots 🤖](<../../70 🌳 Ambient/72 🤖 Brand Robots/01 🤖💠 Robot thing.md>), and [Userables 💍](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>).
+    - 🧳 [Custodian](<../../70 🌳 Ambient/71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>), to manage the user's [Things 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>), [Robots 🤖](<../../70 🌳 Ambient/72 🤖 Brand Robots/01 🤖💠 Robot thing.md>), and [Userables 💍](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>).
     ---
 
 1. **What permissions are required on the device?**
