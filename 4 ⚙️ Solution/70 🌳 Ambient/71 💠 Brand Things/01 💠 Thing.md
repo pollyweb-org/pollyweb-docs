@@ -1,4 +1,4 @@
-💠 Things FAQ
+💠 Thing locators FAQ
 ===
 
 1. **What is a Thing?**
@@ -9,11 +9,11 @@
 
 1. **Why are Things important?** 
 
-    While it's already possible to interact with any electronic device that has a display (e.g., a washing machine), adding an internet-connected touch display with remote control to any mechanical device brings significant challenges and costs, while being close to impossible for a hat, a pencil, or a dog.
+    While it's already possible to interact with any electronic device that has a display (e.g., washing machines, air conditioners, home printers), as well as with electronic devices without a display (e.g., smart lights), adding an internet-connected touch display or a mobile app-based remote control to any electrical device brings significant challenges and costs, while being close to impossible for non-electrical objects and animals (e.g., hats, pencils, and dogs).
 
     ---
 
-1. **What are examples of Things?**
+2. **What are examples of Things?**
 
     ![](<00 📎 Assets/💠 Thing.png>)
 
@@ -75,4 +75,36 @@
     * While Things 💠 can work as digital twins, they also expand the functionalities of the object they represent, proving an anthropomorphic (human-like) behavior to non-human entities, such as animals, landmarks, and objects;
         * e.g., a seashell can now have a conversation with you about the story of its life.
 
+    ---
+
+
+4. **How cans Things make a vintage book smarter?**
+
+    ![](<00 📎 Assets/💠 Printer Sticker.png>)
+
+    |#|Category|Step
+    |-|-|-
+    |1| `Order` | A [Printer 🖨️ domain](<08 🖨️🏭 Printer helper.md>) orders a [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) interaction from a [Wand 🪄 helper domain](<09 🪄🛠️ Wand helper.md>). 
+    |2| `Create` | The [Wand 🪄 domain](<09 🪄🛠️ Wand helper.md>) creates a [Thing 💠](<01 💠 Thing.md>) and shares its [digital Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>). |
+    |3| `Print` | The [Printer 🖨️](<08 🖨️🏭 Printer helper.md>) prints the [Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) of the [Thing 💠](<01 💠 Thing.md>) into a QR/NFC  smart sticker.
+    |4| `Sell` | The [Printer 🖨️](<08 🖨️🏭 Printer helper.md>) distributes the smart sticker to commercial end-users.
+    |5| `Buy` | A user buys the smart sticker from a store to stick on a vintage book.
+    |6| `Register` | The user scans it with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to register on their [Custodian 🧳 vault](<05 🧳🗄️ Custodian vault.md>).
+    |7| `Chat` | Guest users tap/scan the book's smart sticker to interact with it in a [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>).
+
+    ---
+
+5. **How can Things make a dog collar smarter?**
+
+    ![](<00 📎 Assets/💠 Printer Collar.png>)
+
+    |#|Category|Step
+    |-|-|-
+    |1| `Create` | A [Brand 🍏 domain](<07 🍏🎭 Brand role.md>) orders a [Thing 💠](<01 💠 Thing.md>) from a [Wand 🪄 helper domain](<09 🪄🛠️ Wand helper.md>). 
+    |2| `Print` | The [Brand 🍏 domain](<07 🍏🎭 Brand role.md>) orders the physical [Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) from a [Printer 🖨️ helper domain](<08 🖨️🏭 Printer helper.md>).
+    |3| `Sell` | The [Brand 🍏 domain](<07 🍏🎭 Brand role.md>) sells the physical [Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) on a smart collar product bundle.
+    |4| `Buy` | A user buys the smart collar from a pet store, and give it to their pet.
+    |5| `Register` | The user scans it with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to register on their [Custodian 🧳 vault](<05 🧳🗄️ Custodian vault.md>).
+    |7| `Chat` | Guest users (e.g., vets) tap/scan the pet's smart collar to interact with it in a [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>).
+    
     ---

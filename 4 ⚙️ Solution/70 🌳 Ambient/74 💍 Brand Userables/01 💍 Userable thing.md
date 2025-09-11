@@ -12,16 +12,16 @@
     Users can do with their Userables 💍 everything they do with standard [Things 💠](<../71 💠 Brand Things/01 💠 Thing.md>). 
     
     Additionally, users can also leverage their Userables 💍 in the following situations:
-    - 🚨 [Emergencies](<02 💍🚨 Userable emergencies.md>):
+    - 🚨 [Emergencies use case](<02 💍🚨 Userable emergencies.md>):
         - script steps for execute on health emergencies;
-    - 📱 [Misplaced phone](<03 💍📱 Userable lost phone.md>):
+    - 📱 [Misplaced phone use case](<03 💍📱 Userable lost phone.md>):
         - find their phones using someone else's Wallet;
-    - 💳 [Payments](<04 💍💳 Userable payments.md>):
-        - pay to [Sellers 💵](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) using the Seller's Wallets;
-        - pay to Sellers using the Seller's [🖥️ Kiosks](<../../60 🧰 Edge/68 🏪 Terminals/01 🖥️ Info kiosk.md>); 
+    - 💳 [Payments use case](<04 💍💳 Userable payments.md>):
+        - pay to [Seller 💵 domains](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) using the [Seller's Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>);
+        - pay to [Seller 💵 domains](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) using the [Seller's Kiosk 🖥️ devices](<../../60 🧰 Edge/68 🏪 Terminals/01 🖥️ Info kiosk.md>); 
         - pay small-fee transport tickets in a bus;
         - pay variable length metropolitan rides;
-    - 🎬 [Gates](<05 💍🎬 Userable gates.md>):
+    - 🎬 [Gates use case](<05 💍🎬 Userable gates.md>):
         - cross an airport border control.
 
     ---
