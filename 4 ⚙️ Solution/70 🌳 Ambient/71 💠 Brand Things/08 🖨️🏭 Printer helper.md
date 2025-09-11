@@ -22,36 +22,31 @@
 
     ---
 
-3. **Why are Printers important for Users?**
+3. **Why are Printers important?**
 
-    ![](<00 📎 Assets/💠 Printer Sticker.png>)
+    For users:
+    * Printer 🖨️ domains allow users to turn any object into a smart object (i.e., a [Thing 💠](<01 💠 Thing.md>));
+    * e.g., before going on trip through Asia, a user can buy a smart sticker in a supermarket then stick it on their old-yet-cherished notebook of memories so that anyone can return it free of charge if left behind.
 
-    Printers 🖨️ allow users to turn any object into a smart object;
-    - e.g., before going on trip through Asia, a user can buy a smart sticker in a supermarket then stick it on their old-yet-cherished notebook of memories so that anyone can return it free of charge if left behind.
-
-    ---
-
-4. **Why are Printers important for Hosts?**
-
-    ![](<00 📎 Assets/💠 Printer Collar.png>)
-
-    Printers 🖨️ offload from [Host 🤗 domains](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) the undifferentiated task of printing and distributing [NFC/QR Locators 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>). 
+    For businesses:
+    * Printer 🖨️ domains offload from [Host 🤗 domains](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) the undifferentiated task of printing and distributing [NFC/QR Locators 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>). 
 
     ---
 
-5. **How do Printers monetize?**
 
-    That's up to the Printer 🖨️ domain. 
+6. **How do Printers monetize?**
+
+    The monetizing strategy is up to each Printer 🖨️ domain. 
     
     Possible ways are:
 
-    - **Direct sell**: Printers 🖨️ may sell generic stickers and tags in supermarkets for users to enhance their existing objects;
+    - **Direct sell**: Printers 🖨️ may sell generic stickers and tags in supermarkets for users to enhance their existing objects.
     
     - **Supplier sell**: Printers 🖨️ may supply [Brand 🍏 domains](<07 🍏🎭 Brand role.md>) and other [Host 🤗 domains](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) with printing [Locators 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) that these domains then integrate into their products.
 
     ---
 
-6. **What are the possible formats and sizes?**
+7. **What are the possible formats and sizes?**
 
     Printed [Locators 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) come in many shapes and sizes, including:
     - 👕 textile labels for [clothing 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/14 📺 NFC in clothing.md>);
@@ -64,7 +59,7 @@
 
     ---
 
-7. **Do Hosts have to know the Locators in advance?**
+8. **Do Hosts have to know the Locators in advance?**
 
     Not necessarily. 
     
@@ -81,7 +76,7 @@
 
     ---
 
-8. **How are anonymous Locators translated?**
+9.  **How are anonymous Locators translated?**
 
     Printers 🖨️ manage anonymous [Locators 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) with a redirection (e.g., `any-printer.com/random-locator`) that will be bound later to a final [Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>). 
     - For this, Printers charge [Host 🤗 domains](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) for a commitment lifetime.
