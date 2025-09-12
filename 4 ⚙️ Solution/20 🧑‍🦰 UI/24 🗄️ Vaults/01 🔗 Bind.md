@@ -7,7 +7,7 @@
 
     ---
 
-2. **How can users add Vaults?**
+2. **How can users bind to Vaults?**
 
     For a [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) to be listed as a [Vault 🗄️ domain](<03 🗄️🎭 Vault role.md>) in the [user's Wallet 🧑‍🦰 app](<../23 💬 Chats/02 🧑‍🦰💬 Wallet chats.md>), the user first needs to bind the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) to the [Wallet 🧑‍🦰 app](<../23 💬 Chats/02 🧑‍🦰💬 Wallet chats.md>). 
     * To streamline user onboarding, [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) may automatically [bind 🔗](<01 🔗 Bind.md>) new [Wallet 🧑‍🦰 apps](<../23 💬 Chats/02 🧑‍🦰💬 Wallet chats.md>) to default [Agent 🫥 vault domains](<04 🫥🗄️ Agent vault.md>).
@@ -18,7 +18,7 @@
 1. **How to bind to a Vault domain with a Wallet app?**
     
     Using their [Wallet 🧑‍🦰 app](<../23 💬 Chats/02 🧑‍🦰💬 Wallet chats.md>):
-    1. a user initiates a [💬 Chat](<../23 💬 Chats/01 💬 Chat.md>) with the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>);
+    1. a user (e.g., Alice) initiates a [💬 Chat](<../23 💬 Chats/01 💬 Chat.md>) with the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>);
     2. selects the option to [Bind 🔗](<01 🔗 Bind.md>) to the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>);
     3. provides the authentication data required by the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) (e.g., login and password);
     4. selects one or more [Schema Codes 🧩](<02 🧩 Schema Code.md>) to [bind 🔗](<01 🔗 Bind.md>) to, from the list of available [Binds 🔗](<01 🔗 Bind.md>) provided to the user by the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).
@@ -43,7 +43,7 @@
 2. **How to bind to a Vault domain with a web browser?**
 
     Using the domain's mobile website or mobile app:
-    1. a user initiates a session in the target [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>);
+    1. a user (e.g., Alice) initiates a session in the target [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>);
     2. clicks on a `bind wallet` button provided by the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>);
     3. a QR code [Locator 🔆](<../22 🔆 Locators/01 🔆 Locator.md>) is presented to the user;
     4. the user scans the QR code with their mobile device;
