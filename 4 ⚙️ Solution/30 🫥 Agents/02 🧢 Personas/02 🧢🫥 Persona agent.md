@@ -4,32 +4,61 @@
 
 1. **What is a Persona in NLWeb?**
 
-    A Persona 🧢 domain is an [Agent 🫥 vault](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) specialized in user preferences.
+    A [Persona 🧢 domain](<02 🧢🫥 Persona agent.md>) is an [Agent 🫥 vault](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) specialized in user preferences.
 
     ---
 
-2. **How do Persona agents work?**
+1. **What other domains do Personas need?**
+
+    |Helper|Purpose
+    |-|-
+    | [📦 Storage](<../01 📦 Storage/01 📦🫥 Storage agent.md>) | 
+
+    ---
+
+2. **What domain roles do Personas implement?**
+
+    | Role | Purpose
+    |-|-
+    | [🗄️ Vault](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) | For sharing 
+    | [🫥 Agent ](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | For interacting 
+    | [🤗 Host](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) | For interacting in [Chats 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>).
+    | [🌬️ Streamer](<../../40 👥 Domains/41 📨 Comms/02 🌬️🎭 Streamer role.md>) | For streaming events to [Subscriber 🔔 domains](<../../40 👥 Domains/41 📨 Comms/04 🔔🎭 Subscriber role.md>).
+
+    ---
+
+3. **What domains subscribe to Persona events?**
+
+    | Domain | Purpose
+    |-|-
+    | [🛎️ Concierge](<../06 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>) | Subscribes to delivery and contact changes.
+    | [🧚 Curator](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>) | subscribes to multiple types of user preferences.
+    | [📇 Mingler](<../08 📇 Minglers/01 📇🫥 Mingler agent.md>) | Subscribes to contact preferences.
+
+    ---
+
+4. **How do Persona agents work?**
 
     ![](<00 📎 Assets/🧢 Persona.png>)
 
     ---
 
-3. **How do Persona vaults differ from Identity vaults?**
+5. **How do Persona vaults differ from Identity vaults?**
 
-    Persona 🧢 vaults are controlled by users, allowing them to define their preferences according to specific circumstances (e.g., a user may have different preferences when traveling for work or on family holidays). 
+    [Persona 🧢 vaults](<02 🧢🫥 Persona agent.md>) are controlled by users, allowing them to define their preferences according to specific circumstances (e.g., a user may have different preferences when traveling for work or on family holidays). 
     
-    - Conversely, [Identity 🆔](<../05 🆔 Identities/03 🆔🫥 Identity agent.md>) vaults are controlled by nations on behalf of their citizens (e.g., the UK), allowing users to legally identity themselves at home and abroad.
+    - Conversely, [Identity 🆔 vaults](<../05 🆔 Identities/03 🆔🫥 Identity agent.md>)  are controlled by nations on behalf of their citizens (e.g., the UK), allowing users to legally identity themselves at home and abroad.
 
 
     ---
 
-2. **Can users leverage their social network instead?**
+6. **Can users leverage their social network instead?**
 
-    Yes. A Persona 🧢 is an NLWeb role that can be implemented by any social network. Thus, once the user's social network onboards to NLWeb as a Persona, users can use it.
+    Yes. A [Persona 🧢](<02 🧢🫥 Persona agent.md>) is an NLWeb role that can be implemented by any social network. Thus, once the user's social network onboards to NLWeb as a Persona, users can use it.
 
     ---
 
-3. **How are Personas kept from selling user data?**
+7. **How are Personas kept from selling user data?**
 
     Personas 🧢 should follow the principle of benevolence - i.e., only collect data for users' benefit, not for users' manipulation.
 
@@ -37,19 +66,19 @@
 
     ---
 
-4. **How do Personas comply with data residency policies?**
+8. **How do Personas comply with data residency policies?**
 
     By leveraging [Storage 📦](<../01 📦 Storage/01 📦🫥 Storage agent.md>) vaults.
 
     ---
     
-5. **What is the role of Personas in advertising?**
+9. **What is the role of Personas in advertising?**
 
     See [Advertiser 👀](<../10 🔎 Finders/03 👀👥 Advertiser helper.md>) domains.
 
     ---
     
-6. **Should Personas hold medical information?**
+10. **Should Personas hold medical information?**
 
     No.
     - Medical information, like allergies, fall under specific data protection and privacy regulations like HIPAA (Health Insurance Portability and Accountability Act - U.S.).
@@ -57,7 +86,7 @@
 
     ---
 
-7. **Should Personas hold credit card information?**
+11. **Should Personas hold credit card information?**
 
     No.
     - Storing card details required special security settings defined by PCI/DSS policies.

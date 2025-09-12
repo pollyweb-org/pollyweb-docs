@@ -67,3 +67,4 @@
     - Furthermore, [Matter 📺](<../../../2 🏔️ Landscape/3 🌳 Ambient landscape/01 🏡 Smart Homes/14 📺 Matter protocol.md>) is focused on the technical communication and not on the user experience, so users still have to navigate the apps of the multiple vendors supporting the [Matter protocol 📺](<../../../2 🏔️ Landscape/3 🌳 Ambient landscape/01 🏡 Smart Homes/14 📺 Matter protocol.md>) - instead, a Wi-Fier 🛜 brings a seamless experience in the [user's Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
   
     ---
+
