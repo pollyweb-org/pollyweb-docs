@@ -3,15 +3,14 @@
 
 1. **How does a user open a new chat window with a domain?**
 
-    To open a new [Chat 💬](<01 💬 Chat.md>) window with a [Host 🤗 domain](<03 🤗🎭 Host role.md>), a user needs the Host's NLWeb [Locator 🔆](<../22 🔆 Locators/01 🔆 Locator.md>) contained in a QR code, NFC tag, web link, or chat option: 
+    To open a new [Chat 💬](<01 💬 Chat.md>) window with a [Host 🤗 domain](<03 🤗🎭 Host role.md>), a user needs the [Host's Locator 🔆](<../22 🔆 Locators/01 🔆 Locator.md>) contained in one of the following technology forms.
 
-    - for **✨ QR codes**, users open the Wallet app on the device, then [scan](<../22 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) the QR code to open a chat window; 
-
-    - for **🔆 NFC tags**, users [tap](<../22 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) the NFC tag with their device, regardless of having the [Wallet app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) open - this opens a chat window on the Wallet; 
-
-    - for **🌐 web links**, users [click](<../22 🔆 Locators/02 🧑‍🦰🌐 Wallet URLs.md>) the link/button on the traditional web browser of their device - this opens a chat window on the [Wallet app 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>); and 
-    
-    - for **💬 chat options**, the [Host 🤗](<03 🤗🎭 Host role.md>) domain in a chat window provides one or more options for the user to select from, and the user selects one - this opens a new chat window on the [Wallet app 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+    |Technology|Details
+    |-|-
+    |[✨ QR code](<../22 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>)| Users open the Wallet app on the device, then scan the QR code to open a chat window.
+    |[🔆 NFC tag](<../22 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>)| Users tap the NFC tag with their device, regardless of having the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) open - this opens a chat window on the Wallet.
+    |[🌐 Link](<../22 🔆 Locators/02 🧑‍🦰🌐 Wallet URLs.md>)| Users click the link/button on the traditional web browser of their device - this opens a chat window on the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+    |[💬 Prompt](<01 💬 Chat.md>)| In a [Chat 💬](<01 💬 Chat.md>) window, the [Host 🤗 domain](<03 🤗🎭 Host role.md>) provides one or more options for the user to select from, and the user selects one - this opens a new [Chat 💬](<01 💬 Chat.md>) window.
 
     ----
 
