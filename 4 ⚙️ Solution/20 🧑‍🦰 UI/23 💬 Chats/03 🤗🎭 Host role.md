@@ -3,65 +3,67 @@
 
 1. **What is a Host domain role in NLWeb?**
 
-    A domain with a Host 🤗 role is any [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that [Chats 💬](<01 💬 Chat.md>) with [Wallets 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) via [Brokers 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>). 
+    A domain with a [Host 🤗](<03 🤗🎭 Host role.md>) role is any [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that [Chats 💬](<01 💬 Chat.md>) with [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) via [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>). 
 
     ---
 
 1. **How do Host domains work?**
 
-    ![](<.📎 Assets/💬 Host.png>)
+    ![](<.📎 Assets/💬🤗 Host.png>)
 
     |#|Category|Step
-    |1| `Hello`|
-    |2| `Chat`
+    |-|-|-
+    |1| `Hello`| 
+    |2| `Chat` |
+    |3| `Interact` |
 
-    --
+    ---
 
 2. **How are users protected from stalking from Hosts?**
 
-    NLWeb sees [chats 💬](<01 💬 Chat.md>) as temporary sessions, always initiated by users; 
-    - i.e., the Host receives a temporary ID while the [chat 💬](<01 💬 Chat.md>) session is open, but no other ID to track the user across sessions;
-    - although Hosts 🤗 can proactively send messages on an open [chat 💬](<01 💬 Chat.md>) session, users can close the session at any time. 
+    NLWeb sees [Chats 💬](<01 💬 Chat.md>) as temporary sessions, always initiated by users; 
+    - i.e., the [Host 🤗 domain](<03 🤗🎭 Host role.md>) receives a temporary ID while the [Chat 💬](<01 💬 Chat.md>) session is open, but no other ID to track the user across sessions;
+    - although [Host 🤗 domains](<03 🤗🎭 Host role.md>) can proactively send messages on an open [Chat 💬](<01 💬 Chat.md>) session, users can close the session at any time. 
 
     ---
 
 3. **What incentives do Hosts have to close sessions?**
 
-    [Advertising 👀](<../../../2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape/00 👀 Advertising index.md>) is triggered at the end of a session for next-best actions.
-    - This, hosts willing to monetize via cross-domain advertising are incentivized to close sessions. 
-    - See [Advertiser 👀](<../../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) for details.
+    [Advertising 👀](<../../../2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape/00 👀 Advertising index.md>) is triggered at the end of a [Chat 💬](<01 💬 Chat.md>) for next-best actions.
+    - Thus, [Host 🤗 domains](<03 🤗🎭 Host role.md>) willing to monetize via cross-domain advertising are incentivized to close [Chats 💬](<01 💬 Chat.md>). 
+    - See the [Advertiser 👀 helper domains](<../../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) for details.
 
     ---
 
 4. **Do Hosts send messages to users via web sockets?**
 
     No. 
-    - Hosts send [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) via HTTPS POST to a proxy [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) that then communicate with the user's [Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) with real-time protocols (e.g., web sockets, MQTT). 
+    - [Host 🤗 domains](<03 🤗🎭 Host role.md>) send [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) via HTTPS POST to a proxy [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) that then communicate with the user's [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) with real-time protocols (e.g., web sockets, MQTT). 
 
     ---
 
 5. **What proxy services are involved in the flow?**
 
-    [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) from hosts first reach a [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) via HTTPS POST:
-    - this service is responsible for orchestrating chats between users and hosts using the NLWeb protocol, 
+    [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) from [Host 🤗 domains](<03 🤗🎭 Host role.md>) first reach a [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) via HTTPS POST:
+    - this service is responsible for orchestrating chats between users and [Host 🤗 domains](<03 🤗🎭 Host role.md>) using the NLWeb protocol, 
     - and is typically implemented by a main cloud provider. 
     
-    The [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) then sends the message to a [Notifier 📣](<../02 📣 Notifiers/02 📣 Notifier domain.md>), also via HTTPS POST:
-    - this service is responsible for pushing the message to the [Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) via whatever real-time mechanisms the Wallet supports (e.g., web sockets, MQTT), 
-    - so typically is implemented by the same team that implemented the Wallet.
+    The [Wallet's Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) then sends the message to a [Wallet's Notifier 📣 domain](<../02 📣 Notifiers/02 📣 Notifier domain.md>), also via HTTPS POST:
+    - the [Wallet's Notifier 📣 domain](<../02 📣 Notifiers/02 📣 Notifier domain.md>) is responsible for pushing the message to the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) via whatever real-time mechanisms the Wallet supports (e.g., web sockets, MQTT), 
+    - so [Notifier 📣 domains](<../02 📣 Notifiers/02 📣 Notifier domain.md>) is typically is implemented by the same team that implemented the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
 
     ---
 
 
-1. **Are chat prompt messages encrypted from Hosts to Wallets?**
+6. **Are chat prompt messages encrypted from Hosts to Wallets?**
 
-    Not applicable - Hosts don't send [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) to [Wallets 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>). 
+    Not applicable - [Host 🤗 domains](<03 🤗🎭 Host role.md>) don't send [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) to [Wallets 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>). 
 
-    * Hosts 🤗 only send asynchronous HTTPS intents to the Wallet's [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>), who then sends it to the Wallet's [Notifier 📣](<../02 📣 Notifiers/02 📣 Notifier domain.md>) also via asynchronous HTTPS. 
+    * [Host 🤗 domains](<03 🤗🎭 Host role.md>) only send asynchronous HTTPS intents to the [Wallet's Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>), who then sends it to the [Wallet's Notifier 📣](<../02 📣 Notifiers/02 📣 Notifier domain.md>) also via asynchronous HTTPS. 
 
-    * When the [Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) app receives the intent from the [Notifier 📣](<../02 📣 Notifiers/02 📣 Notifier domain.md>), it pulls the message content directly from the Host 🤗 with a synchronous HTTPS call. 
+    * When the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) app receives the intent from the [Notifier 📣 domain](<../02 📣 Notifiers/02 📣 Notifier domain.md>), it pulls the message content directly from the Host 🤗 with a synchronous HTTPS call. 
 
-    * This keeps the [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) and the [Notifier 📣](<../02 📣 Notifiers/02 📣 Notifier domain.md>) in dark regarding the content of [Message 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) (even in the event of a cryptography attack) because no content actually passes by these proxy services.
+    * This keeps the [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) and the [Notifier 📣 domain](<../02 📣 Notifiers/02 📣 Notifier domain.md>) in dark regarding the content of [Message 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) (even in the event of a cryptography attack) because no content actually passes by these proxy services.
 
     ---
 
@@ -70,9 +72,9 @@
 
     Yes. 
 
-    - Although the user's [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) content is JSON not encrypted, it is sent over HTTPS POST directly from the [Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to the Host 🤗.
+    - Although the user's [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) content is JSON not encrypted, it is sent over HTTPS POST directly from the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to the [Host 🤗 domain](<03 🤗🎭 Host role.md>).
 
-    - The HTTPS channel ensures the message is encrypted between the [Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and the Host 🤗. 
+    - The HTTPS channel ensures the message is encrypted between the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and the [Host 🤗 domain](<03 🤗🎭 Host role.md>) . 
 
     - Unencrypted JSON requests sent over HTTPS are a standard practice in the service APIs of the major cloud providers (e.g., AWS, GCP), and are widely viewed as secure.
 

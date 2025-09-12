@@ -4,7 +4,7 @@
 
 1. **What is a Brand domain role in NLWeb?**
 
-    A Brand 🍏 is any [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that orders [Things 💠](<01 💠 Thing.md>) from a [Wand 🪄 helper](<09 🪄🛠️ Wand helper.md>) in order to [enhance and personalize](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/00 🔆 Scanning index.md>) the Brand's products - e.g.:
+    A [Brand 🍏](<07 🍏🎭 Brand role.md>) is any [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that orders [Things 💠](<01 💠 Thing.md>) from a [Wand 🪄 helper domain](<09 🪄🛠️ Wand helper.md>) in order to [enhance and personalize](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/00 🔆 Scanning index.md>) the Brand's products - e.g.:
     * `Coca-Cola` may talk about their history and nutritional info. 
     * `Nike` may talk about a shoe and allow orders for home delivery.
     * `HP` may allow for usage monitoring and ordering of ink cartridges.
@@ -17,10 +17,10 @@
 
     |Category|Step
     |-|-
-    | `Orchestrate` | Brands 🍏 ask [Wand 🪄 helper domains](<09 🪄🛠️ Wand helper.md>) to create digital [Locators 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) for the embedded [Chats 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) of their physical products.
-    | `Supply` | Brands then 🍏 ask [Printer 🖨️ helper domains](<08 🖨️🏭 Printer helper.md>) to print those [Locators 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) into physical NFQ/QR tags.
-    | `Assembly` | A Brand 🍏 domain orders 
-    | `Tap/Scan`|
+    | `Orchestrate` | A [Brand 🍏 domains](<07 🍏🎭 Brand role.md>) ask a [Wand 🪄 helper domain](<09 🪄🛠️ Wand helper.md>) to create a digital [Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) for the embedded [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) of their physical product (i.e., a [Thing 💠 extension](<01 💠 Thing.md>)).
+    | `Supply` | The [Brand 🍏 domain](<07 🍏🎭 Brand role.md>) then asks a [Printer 🖨️ helper domain](<08 🖨️🏭 Printer helper.md>) to print that [Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) into physical NFQ/QR tag (i.e., a [Thing 💠 tag](<01 💠 Thing.md>)).
+    | `Assembly` | The [Brand 🍏 domain](<07 🍏🎭 Brand role.md>) then bundles the product with the tag, and sells it.
+    | `Tap/Scan`| Users then pick up the product (e.g., a shirt in a fashion store) and tap/scan the [Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) to initiate a [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) with the [Wand 🪄 domain](<09 🪄🛠️ Wand helper.md>).
     
 
     ---

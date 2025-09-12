@@ -20,7 +20,7 @@
 
     | Role | Responsibility
     |-|-
-    | [🍏 Brand](<../../70 🌳 Ambient/71 💠 Brand Things/07 🍏🎭 Brand role.md>) |
+    | [🍏 Brand](<../../70 🌳 Ambient/71 💠 Brand Things/07 🍏🎭 Brand role.md>) | Bundles and sells physical smart products (i.e., [Things 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>)).
     | [💼 Consumer](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) | Consumes data from [Vault 🗄️ domains](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) and  [Issuer 🎴 domains](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>).
     | [🪣 Dataset](<../../20 🧑‍🦰 UI/23 💬 Chats/05 🪣🎭 Dataset role.md>) |
     | [🛠️ Helper](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | Helps other domains 👥 by offloading undifferentiated protocol logic.
