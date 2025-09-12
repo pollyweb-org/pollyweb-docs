@@ -1,15 +1,23 @@
 🤗 Host domain role FAQ
 ===
 
-![](<.📎 Assets/💬 Host.png>)
-
 1. **What is a Host domain role in NLWeb?**
 
-    A domain with a Host 🤗 role is any [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that [chats 💬](<01 💬 Chat.md>) with [Wallets 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) via [Brokers 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>). 
+    A domain with a Host 🤗 role is any [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that [Chats 💬](<01 💬 Chat.md>) with [Wallets 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) via [Brokers 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>). 
 
     ---
 
-1. **How are users protected from stalking from Hosts?**
+1. **How do Host domains work?**
+
+    ![](<.📎 Assets/💬 Host.png>)
+
+    |#|Category|Step
+    |1| `Hello`|
+    |2| `Chat`
+
+    --
+
+2. **How are users protected from stalking from Hosts?**
 
     NLWeb sees [chats 💬](<01 💬 Chat.md>) as temporary sessions, always initiated by users; 
     - i.e., the Host receives a temporary ID while the [chat 💬](<01 💬 Chat.md>) session is open, but no other ID to track the user across sessions;
@@ -17,7 +25,7 @@
 
     ---
 
-1. **What incentives do Hosts have to close sessions?**
+3. **What incentives do Hosts have to close sessions?**
 
     [Advertising 👀](<../../../2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape/00 👀 Advertising index.md>) is triggered at the end of a session for next-best actions.
     - This, hosts willing to monetize via cross-domain advertising are incentivized to close sessions. 
@@ -25,14 +33,14 @@
 
     ---
 
-1. **Do Hosts send messages to users via web sockets?**
+4. **Do Hosts send messages to users via web sockets?**
 
     No. 
     - Hosts send [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) via HTTPS POST to a proxy [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) that then communicate with the user's [Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) with real-time protocols (e.g., web sockets, MQTT). 
 
     ---
 
-1. **What proxy services are involved in the flow?**
+5. **What proxy services are involved in the flow?**
 
     [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) from hosts first reach a [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) via HTTPS POST:
     - this service is responsible for orchestrating chats between users and hosts using the NLWeb protocol, 

@@ -1,20 +1,15 @@
 💳 Payments landscape FAQ
 ===
 
-🎯 Payments are intrinsic to human transactions, as they represent the counter-part for the received goods or services. 
+## 🎯 Target
 
-----
+Payments are intrinsic to human transactions, as they represent the counter-part for the received goods or services. 
 
-💬 NLWeb aims to seamlessly incorporate payments into interaction workflows, while simplifying the experience to both consumers and businesses.
-- Businesses issue a bill via their [🏦👥 Collector helper](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>);
-- Collectors ask the money in the business currency to users' [💳 Payer vault](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>);
-- Payer vaults and Collector helps agree on the transfer channel (e.g. Wise);
-- Customers pay in their preferred currency and methods (e.g., AMEX);
-- Payers collect and distribute additional payment fees (e.g., AMEX fee).
 
----
 
-🧠 In this chapter, you will learn:
+## 🧠 Learning resources 
+
+In this chapter, you will learn:
 
 - What challenges [🧑 end-users](<01 🧑 User challenges.md>) face with payments.
 - What the [🌐 market size](<02 📄 Market size.md>) for end-user payments is.
@@ -31,4 +26,23 @@
 - What was [🌐 Libra](<12 📺 Meta's Libra.md>), Facebook's cryptocurrency project.
 
 
----
+
+## 💬 Proposed Solution
+
+NLWeb aims to seamlessly incorporate payments into interaction workflows, while simplifying the experience to both users and businesses.
+
+|Domain | Purpose
+|-|-
+|[💳 Payer](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) | Pays money on behalf of users.
+|[🏦 Collector](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) | Collects money on behalf of businesses.
+
+
+## 💬 Proposed Workflow
+
+|#|Category|Workflow Step
+|-|-|-
+|1|`Bill`| A Businesses issues a bill via their [Collector 🏦 helper domain](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>).
+|2|`Collect`| The [business' Collector 🏦 helper](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) asks the money in the business currency to [user's 💳 Payer agent domain](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>).
+|3|`Negotiate`| The [user's Payer 💳 domain](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) and the [business' Collector 🏦 domain](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) agree on the transfer channel (e.g. Wise).
+|4|`Pay`| Users pay in their preferred currency and methods (e.g., AMEX).
+|5|`Fees`| The [user's Payer 💳 domain](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) collects and distributes additional payment fees (e.g., AMEX fee).

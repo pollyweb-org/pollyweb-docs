@@ -3,17 +3,29 @@
 
 1. **What is a Vault domain role in NLWeb?**
 
-    Vaults 🗄️ are any [Host 🤗 domains](<../23 💬 Chats/03 🤗🎭 Host role.md>) that manage user data (e.g., banks, health services, governments). 
+    A Vault 🗄️ is any [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that stores user data and shares it with [Consumer 💼](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) and [Subscriber 🔔](<../../40 👥 Domains/41 📨 Comms/04 🔔🎭 Subscriber role.md>) domains. 
 
     ---
 
-1. **How do Vault domains work?**
+2. **What are examples of Vault domains?**
+
+    |Example|Details
+    |-|-
+    | Banks | They hold and control customer's bank accounts.
+    | Hospitals | They hold and control patients medical records.
+    | Governments | They hold and control citizen's identity documents.
+    |[🫥 Agents](<04 🫥🗄️ Agent vault.md>) | These are vaults with well-known NLWeb features.
+    | 
+
+    ---
+
+3. **How do Vault domains work?**
 
     ![](<.📎 Assets/🗄️ Vault.png>)
 
     ---
 
-2. **Can users ask Vaults to share data with other Hosts?**
+4. **Can users ask Vaults to share data with other Hosts?**
 
     Yes. 
     - Upon a share request with the [Consumer 💼 host](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) in a [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>), users can authorize their Vaults 🗄️ to disclose a data set with that [Consumer 💼 domain](<../27 💼 Consumers/04 💼🎭 Consumer role.md>). 
@@ -21,20 +33,20 @@
 
     ---
 
-3. **Can users ask Vaults to download data to the device?**
+5. **Can users ask Vaults to download data to the device?**
 
     No. 
     * That is covered by the [Issuer 🎴 domain](<../25 🎫 Tokens/02 🎴🎭 Issuer role.md>) role. 
 
     ---
 
-4. **How can Vaults comply with data residency?**
+6. **How can Vaults comply with data residency?**
 
     Vaults 🗄️ can ask users to share their [Storage 📦 vault](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>), then store the user data there.
 
     ---
 
-5. **Do users have private vaults, like the Solid Project?**
+7. **Do users have private vaults, like the Solid Project?**
 
     No. 
     * Unlike the [Solid Project 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/05 📺 Berners-Lee vaults.md>), by Sir Tim Berners-Lee, NLWeb users don't have a private repository (a.k.a. Vault) for all their data, so they don't effectively own their data. 
@@ -43,7 +55,7 @@
 
     ---
 
-6. **How about a central place for user preferences?**
+8. **How about a central place for user preferences?**
 
     Exceptionally, NLWeb advocates for the use of [Persona 🧢 vault](<../../30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) aimed for preference-based personalization 
     - e.g., nicknames, seat preferences, film genres;
@@ -51,7 +63,7 @@
 
     ---
 
-7. **How is data residency solved by vaults?**
+9. **How is data residency solved by vaults?**
 
     Where nations require their citizens' data to be stored within nation's borders, Vaults can leverage the user's [Storage 📦 vault](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>) to store their data. 
     
@@ -63,14 +75,14 @@
 
     ---
 
-8. **What if the user only wants to have one Vault?**
+10. **What if the user only wants to have one Vault?**
 
     A user may wish to [bind 🔗](<01 🔗 Bind.md>) to a single Vault 🗄️ that is able to implement all the [Schema Codes 🧩](<02 🧩 Schema Code.md>) the user is interested in sharing, and is able to establish trust relationships with all the domains the user is interested in interacting with. 
     - However, this solution doesn't seem scalable, if at all realistic.
 
     ---
 
-9.  **How are users protected from tracking by Vault consortiums?**
+11. **How are users protected from tracking by Vault consortiums?**
 
     User tracking is typically done by a consortium of domains crossing information about a user's interaction with each one of them, allowing them to reconstruct the user's journey. 
     
@@ -78,7 +90,7 @@
 
     ---
 
-10. **How are users protected from stalking from vaults?**
+12. **How are users protected from stalking from vaults?**
 
     Vaults 🗄️ are [Host 🤗 domains](<../23 💬 Chats/03 🤗🎭 Host role.md>) that store user data. 
     
@@ -88,7 +100,7 @@
 
     ---
 
-11. **How do Vaults protect user data from Consumers?**
+13. **How do Vaults protect user data from Consumers?**
 
     [Consumer 💼 domains](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) can't request user data directly to Vault 🗄️ domains. 
     
@@ -102,7 +114,7 @@
 
     ---
     
-12. **How can users do selective disclosure?**
+14. **How can users do selective disclosure?**
 
     [Selective disclosure 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/07 📺 SSI selective disclosure.md>) (i.e., the ability for a user to select which fields to disclose from a given schema code) is not allowed by design on NLWeb. 
     
