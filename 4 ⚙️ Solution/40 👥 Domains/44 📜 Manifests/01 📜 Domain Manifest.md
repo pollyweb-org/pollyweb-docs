@@ -1,35 +1,52 @@
 📜 Domain Manifests FAQ
 ===
 
-![](<.📎 Assets/📜 Manifest.png>)
 
 1. **How do domains publicize their identity?**
 
-    In NLWeb, [domains 👥](<00 👥 Domain.md>) publish their metadata in the form a Manifest 📜.
+    In NLWeb, [domains 👥](<00 👥 Domain.md>) publish their metadata in the form a [domain Manifest 📜](<01 📜 Domain Manifest.md>).
 
     ---
+    <br/>
 
-1. **How do domains publish Manifests?**
 
-    A domain's Manifest 📜 content is sent in parts or in full to [Listener 👂 domains](<02 👂🛠️ Listener helper.md>), who then propagate it to [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>).
+2. **How can a domain inspect another domain's Manifest?**
 
-    ---
-
-1. **How can a domain inspect another domain's Manifest?**
-
-    Domains leverage Manifest 📜 caches, called [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>), that keep up-to-date representations of NLWeb domain Manifests 📜.
+    [Domains 👥](<00 👥 Domain.md>) leverage Manifest 📜 caches, called [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>), that keep up-to-date representations of NLWeb [domain Manifests 📜](<01 📜 Domain Manifest.md>).
     * Manifest queries to these [Graphs 🕸](<03 🕸🛠️ Graph helper.md>) are synchronous and expected to have millisecond latency.
     * This is similar to what DNS records do for Web 2.0, but with a more complex data schema. 
 
     ---
+    <br/>
 
-1. **What information can be added to a Manifest?**
 
-    Manifests can include the following sections:
-    - 🤗 [Host Identity](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>): domain identification (mandatory)
-    - 👍 [Domain Trusts](<../43 👍 Trusts/01 👍 Domain Trust.md>): trusted domains, Codes, and roles
-    - 🧩 [Schema Codes](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): defined by the domain
-    - 🧩 [Delegate Codes](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): Codes delegated to other domains
-    - 🪢 [Integrations](<../../20 🧑‍🦰 UI/23 💬 Chats/06 🪢🎭 Integrator role.md>): synchronous datasets, asynchronous supplies, and streaming endpoints.
+1. **How does it work?**
+
+    ![](<.📎 Assets/📜 Manifest.png>)
+
+    Each [domain 👥](<00 👥 Domain.md>) sends the content of their [domain Manifests 📜](<01 📜 Domain Manifest.md>) in parts or in full to a [Listener 👂 helper domain](<02 👂🛠️ Listener helper.md>), who then propagates it to [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>).
+
+    |Step|Description
+    |-|-
+    |A| When a [domain 👥](<00 👥 Domain.md>) sends a request to another,
+    |B| the recipient queries a [Graph 🕸 helper domain](<03 🕸🛠️ Graph helper.md>) for information about the sender to assess its [trustworthiness 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>),
+    |C| and only then responds successfully.
+    
 
     ---
+    <br/>
+
+2. **What information can be added to a Manifest?**
+
+    Manifests can include the following sections.
+
+    |Section|Purpose
+    |-|-
+    | 🤗 [Host Identity](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) | Domain identification (mandatory).
+    | 👍 [Domain Trusts](<../43 👍 Trusts/01 👍 Domain Trust.md>) | Trusted domains, Codes, and roles.
+    |  🧩 [Schema Codes](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) | Defined by the domain.
+    |  🧩 [Delegated Codes](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) | Codes delegated to other domains.
+    | 🪢 [Integrations](<../../20 🧑‍🦰 UI/23 💬 Chats/06 🪢🎭 Integrator role.md>) |Synchronous datasets, <br/>asynchronous supplies, <br/>and streaming endpoints.
+
+    ---
+    <br/>
