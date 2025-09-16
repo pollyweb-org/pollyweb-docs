@@ -3,7 +3,9 @@
 
 1. **What is an Integrator domain role in NLWeb?**
 
-    An Integrator is any [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that exposes a public API for other domains to find and use.
+    An Integrator is any [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) 
+    * that exposes a public API 
+    * for other domains to find and use.
 
     ---
 
@@ -15,7 +17,7 @@
 
 3. **How do Integrators publicize their API?**
 
-    Integrators publicize their API endpoints and schemas in their [Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>).
+    Integrators publicize their API endpoints and schemas in their [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>).
 
     ---
 
@@ -28,9 +30,9 @@
     - **Outputs**: definitions of possible outputs.
 
     Endpoints are then implemented by specific roles:
-    - 🪣 [Dataset](<05 🪣🎭 Dataset role.md>): for dataset requests;
-    - 🏭 [Supplier](<../../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>): for asynchronous requests with status updates;
-    - 🌬️ [Streamer](<../../40 👥 Domains/41 📨 Comms/02 🌬️🎭 Streamer role.md>): for event streaming.
+    - [🪣 Dataset](<05 🪣🎭 Dataset role.md>): for dataset requests;
+    - [🏭 Supplier](<../../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>): for asynchronous requests with status updates;
+    - [🌬️ Streamer](<../../40 👥 Domains/41 📨 Comms/02 🌬️🎭 Streamer role.md>): for event streaming.
 
     ---
 

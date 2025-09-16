@@ -8,6 +8,7 @@
     * via the Subscribers' [Buffer ⏳ helper domains](<03 ⏳🛠️ Buffer helper.md>).
 
     ---
+    <br/>
 
 1. **How do Streamer domains work?**
 
@@ -20,6 +21,7 @@
     |4| [Buffer ⏳ helper domains](<03 ⏳🛠️ Buffer helper.md>) deliver the events to [Subscriber 🔔 domains](<04 🔔🎭 Subscriber role.md>) according to a set delivery policy.
 
     ---
+    <br/>
 
 1. **What are examples of domain event streams?**
 
@@ -28,6 +30,7 @@
     * [Persona 🧢 agent domains](<../../30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) stream changes performed by the user.
 
     ---
+    <br/>
 
 2. **Do Streams guarantee unique delivery?**
 
@@ -36,6 +39,7 @@
     * [Buffer ⏳ helper domains](<03 ⏳🛠️ Buffer helper.md>) are responsible for deduping when necessary.
 
     ---
+    <br/>
 
 2. **Do Streams guarantee ordered delivery?**
 
@@ -44,6 +48,7 @@
     * [Buffer ⏳ helper domains](<03 ⏳🛠️ Buffer helper.md>) are responsible for ordering events when necessary.
 
     ---
+    <br/>
 
 3. **What if a push fails with a timeout or 5XX error?**
 
@@ -52,6 +57,7 @@
     * After that, the event is discarded.
 
     ---
+    <br/>
 
 4. **What if a push fails with a 4XX HTTP error?**
 
@@ -60,6 +66,7 @@
     * and the event is discarded.
 
     ---
+    <br/>
 
 5. **What if a Subscriber returns a 429 Too Many Requests?**
 
@@ -68,9 +75,11 @@
     * and the event is discarded nonetheless.
 
     ---
+    <br/>
 
 6. **How to prevent Buffers from spoofing the events?**
 
     To avoid spoofing, [Streamer 🌬️ domains](<02 🌬️🎭 Streamer role.md>) encrypt the event content with the public key of the [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) before sending it to the Subscriber's [Buffer ⏳ helper domain](<03 ⏳🛠️ Buffer helper.md>).
 
     ---
+    <br/>

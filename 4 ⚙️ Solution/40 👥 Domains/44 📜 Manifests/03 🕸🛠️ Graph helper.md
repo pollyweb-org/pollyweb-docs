@@ -1,27 +1,39 @@
 🕸 Graph helper domains FAQ
 ===
 
-![](<.📎 Assets/📜 Graphs.png>)
-
 1. **What is a Graph domain in NLWeb?**
 
     A [Graph 🕸 domain](<03 🕸🛠️ Graph helper.md>) is 
-    * a [Helper 🛠️ domain](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) 
-    * that builds network representations of [trust 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>) relationships between [domains 👥](<00 👥 Domain.md>). 
+    * any [Helper 🛠️ domain](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) 
+    * that subscribes to [domain Manifest 📜](<01 📜 Domain Manifest.md>) change events from [Listener 👂 domains](<02 👂🛠️ Listener helper.md>)
+    * then builds network representations of [Trust 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>) relationships between [domains 👥](<00 👥 Domain.md>)
+    * including indirect relationships via [Authority 🏛️ domains](<../43 👍 Trusts/02 🏛️🛠️ Authority helper.md>). 
 
     ---
     <br/>
 
-2. **Are Graphs like a self-sovereign identity (SSI) ledger?**
+1. **What can domains use Graphs for?**
 
-    No. NLWeb doesn't use ledgers nor [decentralized identifiers (DIDs) 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/03 🛂 Travel ID landscape/10 📺 W3C VC Ledgers.md>). 
-    * Instead of DIDs, NLWeb uses DNS and the web's Public Key Infrastructure (PKI) to identify domains — thus, it doesn't need an additional database for registration and discovery. 
-    * [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) are cached representations of the NLWeb, contributing to maximizing performance, resilience, and onboarding.
+    [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) can answer the following questions synchronously from any [domain 👥](<00 👥 Domain.md>).
 
+    |Scope&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Question
+    |-|-
+    |[👥 Identity](<00 👥 Domain.md>)| What's the identity of [domain 👥](<00 👥 Domain.md>) `D`?
+    |[👍 Trusts](<../43 👍 Trusts/01 👍 Domain Trust.md>) | Can I trust the data of [Schema 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) `S` sent by [domain 👥](<00 👥 Domain.md>) `D`?
+    |[👍 Trusts](<../43 👍 Trusts/01 👍 Domain Trust.md>) | Can I trust my data of [Schema 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) `S` to a [domain 👥](<00 👥 Domain.md>) `D`?
+    | [🧩 Schemas](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) | What's the schema definition of [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) `S`?
+    | [🎫 Tokens](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) | What's the historical public [📨 DKIM](<../41 📨 Comms/01 📨 Domain Message.md>) key of [🎫 Token](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) `T`?
+    | [🪣 Datasets](<05 🪣🎭 Dataset role.md>) | What are the synchronous [Datasets 🪣](<05 🪣🎭 Dataset role.md>) of [domain 👥](<00 👥 Domain.md>) `D`?
+    | [🏭 Supplies](<../../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>) | What are the asynchronous [Supplies 🏭](<../../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>) of [domain 👥](<00 👥 Domain.md>) `D`?
+    | [🌬️ Streams](<../../40 👥 Domains/41 📨 Comms/02 🌬️🎭 Streamer role.md>) | What are the event [Streams 🌬️](<../../40 👥 Domains/41 📨 Comms/02 🌬️🎭 Streamer role.md>) of [domain 👥](<00 👥 Domain.md>) `D`?
+    
     ---
     <br/>
 
-3. **How are NLWeb Graphs updated?**
+
+2. **How are NLWeb Graphs updated?**
+
+    ![](<.📎 Assets/📜 Graphs.png>)
 
     [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) subscribe to changes in [domain Manifests 📜](<01 📜 Domain Manifest.md>). 
 
@@ -34,16 +46,28 @@
     ---
     <br/>
 
+3. **Are Graphs like a self-sovereign identity (SSI) ledger?**
+
+    No. NLWeb doesn't use ledgers nor [decentralized identifiers (DIDs) 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/03 🛂 Travel ID landscape/10 📺 W3C VC Ledgers.md>). 
+    * Instead of DIDs, NLWeb uses DNS and the web's Public Key Infrastructure (PKI) to identify domains — thus, it doesn't need an additional database for registration and discovery. 
+    * [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) are cached representations of the NLWeb, contributing to maximizing performance, resilience, and onboarding.
+
+    ---
+    <br/>
+
+
 4. **How can domains reset their Manifest representation on Graphs?**
 
-    [Domains 👥](<00 👥 Domain.md>) can send a RESET event that [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) will interpret as the need to start from scratch.
+    To reset their [domain Manifests 📜](<01 📜 Domain Manifest.md>):
+    * a [domain 👥](<00 👥 Domain.md>) can send a RESET event to their [Listener 👂 helper domain](<02 👂🛠️ Listener helper.md>);
+    * subscribed [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) will interpret it as the need to start from scratch.
 
     ---
     <br/>
 
 5. **What if an event references an unknown Schema Code?**
 
-    [Domains 👥](<00 👥 Domain.md>) will place the change on hold until the referenced [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) is available.
+    [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) will place the change on hold until the referenced [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) is available.
 
     ---
     <br/>
