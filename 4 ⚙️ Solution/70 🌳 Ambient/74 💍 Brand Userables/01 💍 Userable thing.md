@@ -3,7 +3,9 @@
 
 1. **What are Userable Things in NLWeb?**
     
-    Userables are [Things 💠](<../71 💠 Brand Things/01 💠 Thing.md>) that [Brand 🍏 domains](<../71 💠 Brand Things/07 🍏🎭 Brand role.md>) embedded into objects for a user to carry (e.g., jewelry, glasses, cards, keyholders, stickers, and wearables). 
+    Userables are [Things 💠](<../71 💠 Brand Things/01 💠 Thing.md>) 
+    * that [Brand 🍏 domains](<../71 💠 Brand Things/07 🍏🎭 Brand role.md>) embedded into objects for a user to carry 
+    * e.g., jewelry, glasses, cards, keyholders, stickers, and wearables. 
 
     ---
 
