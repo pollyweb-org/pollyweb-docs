@@ -14,8 +14,8 @@
 
     |#|Step
     |-|-
-    |1| Firewalls 🔥 subscribe to the [domain-event streams 🌬️](<../41 📨 Comms/02 🌬️🎭 Streamer role.md>) of [Reviewer ⭐ domains](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>), [Listener 👂 helpers](<../44 📜 Manifests/02 👂👥 Listener helper.md>), and [Graph 🕸 helpers](<../44 📜 Manifests/03 🕸👥 Graph helper.md>), eventually throttling them with a [Buffer ⏳ helper](<../41 📨 Comms/03 ⏳🛠️ Buffer helper.md>);
-    |2| Firewalls 🔥 then update the [Trust 👍 list](<01 👍 Domain Trust.md>) in their [Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>), which is propagated down by the [Listener 👂 helpers](<../44 📜 Manifests/02 👂👥 Listener helper.md>) and subscribed by [Graph 🕸 helpers](<../44 📜 Manifests/03 🕸👥 Graph helper.md>) and [Finder 🔎 vaults](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>).
+    |1| Firewalls 🔥 subscribe to the [domain-event streams 🌬️](<../41 📨 Comms/02 🌬️🎭 Streamer role.md>) of [Reviewer ⭐ domains](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>), [Listener 👂 helpers](<../44 📜 Manifests/02 👂🛠️ Listener helper.md>), and [Graph 🕸 helpers](<../44 📜 Manifests/03 🕸🛠️ Graph helper.md>), eventually throttling them with a [Buffer ⏳ helper](<../41 📨 Comms/03 ⏳🛠️ Buffer helper.md>);
+    |2| Firewalls 🔥 then update the [Trust 👍 list](<01 👍 Domain Trust.md>) in their [Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>), which is propagated down by the [Listener 👂 helpers](<../44 📜 Manifests/02 👂🛠️ Listener helper.md>) and subscribed by [Graph 🕸 helpers](<../44 📜 Manifests/03 🕸🛠️ Graph helper.md>) and [Finder 🔎 vaults](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>).
 
     ---
 
@@ -29,8 +29,8 @@
 3. **Do Firewalls monitor Listeners and Graphs?**
 
     Yes. 
-    * Firewalls 🔥 subscribe to [Listeners 👂](<../44 📜 Manifests/02 👂👥 Listener helper.md>) and [Graphs 🕸](<../44 📜 Manifests/03 🕸👥 Graph helper.md>) to monitor their robustness, reliability, and conformity to the NLWeb protocol, revoking their [Trust 👍](<01 👍 Domain Trust.md>) when necessary;
-        * e.g., compare information about a random [domain 👥](<../44 📜 Manifests/00 👥 Domain.md>) in three or more [Listeners 👂](<../44 📜 Manifests/02 👂👥 Listener helper.md>) or [Graphs 🕸](<../44 📜 Manifests/03 🕸👥 Graph helper.md>) to identify discrepancies.
+    * Firewalls 🔥 subscribe to [Listeners 👂](<../44 📜 Manifests/02 👂🛠️ Listener helper.md>) and [Graphs 🕸](<../44 📜 Manifests/03 🕸🛠️ Graph helper.md>) to monitor their robustness, reliability, and conformity to the NLWeb protocol, revoking their [Trust 👍](<01 👍 Domain Trust.md>) when necessary;
+        * e.g., compare information about a random [domain 👥](<../44 📜 Manifests/00 👥 Domain.md>) in three or more [Listeners 👂](<../44 📜 Manifests/02 👂🛠️ Listener helper.md>) or [Graphs 🕸](<../44 📜 Manifests/03 🕸🛠️ Graph helper.md>) to identify discrepancies.
 
     ---
 

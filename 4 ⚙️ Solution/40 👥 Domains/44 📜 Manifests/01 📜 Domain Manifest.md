@@ -11,14 +11,14 @@
 
 1. **How do domains publish Manifests?**
 
-    A domain's Manifest 📜 content is sent in parts or in full to [Listeners 👂](<02 👂👥 Listener helper.md>), who then propagate it to [Graphs 🕸](<03 🕸👥 Graph helper.md>).
+    A domain's Manifest 📜 content is sent in parts or in full to [Listeners 👂](<02 👂🛠️ Listener helper.md>), who then propagate it to [Graphs 🕸](<03 🕸🛠️ Graph helper.md>).
 
     ---
 
 1. **How can a domain inspect another domain's Manifest?**
 
-    Domains leverage Manifest 📜 caches, called [Graphs 🕸](<03 🕸👥 Graph helper.md>), that keep up-to-date representations of NLWeb domain Manifests 📜.
-    * Manifest queries to these [Graphs 🕸](<03 🕸👥 Graph helper.md>) are synchronous and expected to have millisecond latency.
+    Domains leverage Manifest 📜 caches, called [Graphs 🕸](<03 🕸🛠️ Graph helper.md>), that keep up-to-date representations of NLWeb domain Manifests 📜.
+    * Manifest queries to these [Graphs 🕸](<03 🕸🛠️ Graph helper.md>) are synchronous and expected to have millisecond latency.
     * This is similar to what DNS records do for Web 2.0, but with a more complex data schema. 
 
     ---

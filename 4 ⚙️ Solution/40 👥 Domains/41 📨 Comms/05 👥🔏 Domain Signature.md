@@ -27,7 +27,7 @@
 
     NLWeb supports the rotation of domain DKIM public keys for any [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>), including digital signatures. 
     
-    See [Issuers 🎴](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) for details on how to rotate public keys supported with the support of [Listeners 👂](<../44 📜 Manifests/02 👂👥 Listener helper.md>) and [Graphs 🕸](<../44 📜 Manifests/03 🕸👥 Graph helper.md>).
+    See [Issuers 🎴](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) for details on how to rotate public keys supported with the support of [Listeners 👂](<../44 📜 Manifests/02 👂🛠️ Listener helper.md>) and [Graphs 🕸](<../44 📜 Manifests/03 🕸🛠️ Graph helper.md>).
 
     ---
 

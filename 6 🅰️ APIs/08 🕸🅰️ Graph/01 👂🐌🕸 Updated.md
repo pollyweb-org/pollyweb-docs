@@ -2,7 +2,7 @@
 
 <!-- https://quip.com/hgz4A3clvOes#temp:C:bDAeaf662df90ec442284b7aaef9 -->
 
-# 👂🐌🕸 Updated @ [Graph](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/03 🕸👥 Graph helper.md>)
+# 👂🐌🕸 Updated @ [Graph](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>)
 
 
 ## Called by
