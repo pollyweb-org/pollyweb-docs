@@ -58,7 +58,7 @@
 
     No. 
     * Unlike the [Solid Project 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/05 📺 Berners-Lee vaults.md>), by Sir Tim Berners-Lee, NLWeb users don't have a private repository (a.k.a. [Vault 🗄️](<03 🗄️🎭 Vault role.md>)) for all their data, so they don't effectively own their data. 
-    * Instead, a user's data is scattered across a number of [Vaults 🗄️](<03 🗄️🎭 Vault role.md>) managed by different providers who decide how much of the user's data is accessible and by whom.
+    * Instead, a user's data is scattered across a number of [Vault 🗄️ domains](<03 🗄️🎭 Vault role.md>) managed by different providers who decide how much of the user's data is accessible and by whom.
   
     This is a better representation of reality as we know it - e.g., 
     * a person's bank history is with banks, 
@@ -69,16 +69,55 @@
     ---
     <br/>
 
-8. **How about a central place for user preferences?**
+8. **Why can't users control their Vaults, like in the Solid project?**
+
+    Let's take Google Mail as an example:
+    - users open and close their accounts;
+    - users export their data to a laptop;
+    - users allow 3rd-party apps to read their email.
+
+    It feels like users "control" their mailbox.
+
+    * However, Google is the one legally bounded to keep the service up-and-running, and Google may be fined by the European Union if it abruptly ends the service or causes economical harm to a significant number of EU users. 
+    * Users have little to no legal responsibility to Google. 
+    * Google is also the one who receives direct economic benefit from the service, and drives the feature roadmap. 
+    * Finally, Google owns the infrastructure, and all that comes with it. 
+    * Thus, Google is in control, yes, in a way that most users would not want to be, and would probably not be able to be without a proper enterprise backing them up.
+
+    Google is able to provide Gmail as free service to users because it is able to  monetize it indirectly and at scale via: 
+    - integrated adds in the free web version; 
+    - Gmail Enterprise licenses for corporations; 
+    - and OS licenses for Samsung and other smartphone manufacturers running Android with the Google Play and Google Suite features.
+
+    In other words, the vast majority of users (~99% likely) 
+    * don't have the economical means to maintain it, 
+    * the legal framework to be responsible for it, 
+    * and the knowledge to manage it;
+    * and that is not expected to change any time soon.
+  
+    Conversely, our global society is built on the trust that we have in the ability of corporations to deliver, and the ability of public institutions to regulate them — NLWeb aims to replicate our modern society with the following mechanisms:
+    * [Vault 🗄️ domains](<03 🗄️🎭 Vault role.md>) controlled by corporations;
+    * [Trusts 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) in [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) to represent partnerships;
+    * [Authority 🏛️ domains](<../../40 👥 Domains/43 👍 Trusts/02 🏛️🛠️ Authority helper.md>) for intergovernmental agreements;
+    * [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) to protect users from bad corporate actors;
+    * [Reviewer ⭐ domains](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) to collect social feedback on corporations;
+    * [Firewall 🔥 domains](<../../40 👥 Domains/43 👍 Trusts/03 🔥🛠️ Firewall helper.md>) to monitor and penalize bad corporate actors.
+    
+    ---
+    <br/>
+
+9. **How about a central place for user preferences?**
 
     Exceptionally, NLWeb advocates for the use of [Persona 🧢 vault](<../../30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) aimed for preference-based personalization 
     - e.g., nicknames, seat preferences, film genres;
-    - but, even here, users rent storage on Persona vaults as a service that is owned and managed by a company.
+    - but, even here, users rent storage on [Persona 🧢 vault](<../../30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) as a service that is owned and managed by a company.
 
     ---
     <br/>
 
-9. **How is data residency solved by vaults?**
+
+
+9.  **How is data residency solved by vaults?**
 
     Where nations require their citizens' data to be stored within nation's borders, [Vault 🗄️ domains](<03 🗄️🎭 Vault role.md>) can leverage the user's [Storage 📦 vault](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>) to store their data. 
     
