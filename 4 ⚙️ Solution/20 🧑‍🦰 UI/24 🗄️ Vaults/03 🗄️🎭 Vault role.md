@@ -3,7 +3,7 @@
 
 1. **What is a Vault domain role in NLWeb?**
 
-    A Vault 🗄️ is any [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that 
+    A [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) with a Vault 🗄️ role is any [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that 
     * stores user data,
     * has a [Bind 🔗](<01 🔗 Bind.md>) with the [user's Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), and
     * shares it with [Consumer 💼](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) and [Subscriber 🔔](<../../40 👥 Domains/41 📨 Comms/04 🔔🎭 Subscriber role.md>) domains. 

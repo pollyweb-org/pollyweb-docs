@@ -54,7 +54,7 @@
     | Service | Prompt  | User | What happened?
     |-|-|-|-
     | | | 🔆 [scan](<../22 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>)
-    | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Vault (4.3 ⭐)  [+] || The [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) informed the user.
+    | 🔎 [Finder](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Vault (4.3 ⭐)  [+] || The [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) informed the user.
     | 🗄️ Vault | ℹ️ Hi, Alice! Let's bind. || The [Locator 🔆](<../22 🔆 Locators/01 🔆 Locator.md>) had a [Host 🤗](<../23 💬 Chats/03 🤗🎭 Host role.md>)  callback.
     | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Input form: Bind [+] || The [Host 🤗 role](<../23 💬 Chats/03 🤗🎭 Host role.md>) changed the context.
     | 🗄️ Vault | 😃 What to bind? [All] <br/> - [ Data Set #1 ] <br/> - [ Data Set #2 ] | > All
