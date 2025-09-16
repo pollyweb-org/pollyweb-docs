@@ -39,7 +39,7 @@
     A Locator 🔆 contains.
     |Part| Example | Purpose
     |-|-|-
-    | [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) | `nlweb.org/QR:1.0` | To validate the schema with a [Graph 🕸 helper domain](<../../40 👥 Domains/44 📜 Manifests/03 🕸👥 Graph helper.md>).
+    | [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) | `nlweb.org/QR:1.0` | To validate the schema with a [Graph 🕸 helper domain](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>).
     | [Host 🤗 domain](<../23 💬 Chats/03 🤗🎭 Host role.md>) | `any-host.com` | For the user's [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to open a [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>).
     | Resource | `product-1234` | The resource key in the Host's domain |  `product-1234` |
     | Parameters | `A=1,B=2` | any optional data fields.

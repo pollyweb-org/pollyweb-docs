@@ -93,7 +93,7 @@
     
     * For example, a private company could track the shopping behavior of their named customers without their consent, and a nation's government could track the movement of targeted political opponents.
     
-    * In [W3C Verifiable Credentials (VCs)](<10 📺 W3C VC Ledgers.md>), this is an anti-pattern often called "phone-home check", "issuer call-back verification", or "online status checking" — the W3C recommendation is for VC implementers to adopt the bitmap-like Status List 2021 approach published by the W3C CCG (Credentials Community Group).
+    * In [W3C Verifiable Credentials (VCs)](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/03 🛂 Travel ID landscape/10 📺 W3C VC Ledgers.md>), this is an anti-pattern often called "phone-home check", "issuer call-back verification", or "online status checking" — the W3C recommendation is for VC implementers to adopt the bitmap-like Status List 2021 approach published by the W3C CCG (Credentials Community Group).
 
     * NLWeb avoids bitmap status lists because of their scaling limitations and their overhead on the businesses that own [Issuer 🎴 domains](<02 🎴🎭 Issuer role.md>).
     

@@ -19,7 +19,7 @@
 
 1. **Where do Finders get information about other domains?**
 
-    * [Graphs 🕸](<../../40 👥 Domains/44 📜 Manifests/03 🕸👥 Graph helper.md>): Finders subscribe to Graphs to receive updates on domain Manifests across the NLWeb, including their public identity, trust relationships, and supported integrations. 
+    * [Graphs 🕸](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>): Finders subscribe to Graphs to receive updates on domain Manifests across the NLWeb, including their public identity, trust relationships, and supported integrations. 
     * [Firewalls 🔥](<../../40 👥 Domains/43 👍 Trusts/03 🔥🛠️ Firewall helper.md>): Finders subscribe to Firewalls to quickly react to threats. 
     * [Reviewer ⭐](<01 ⭐🫥 Reviewer vault.md>): Finders subscribe to Reviewer to receive updates of domain ranks across the NLWeb, as a result of user feedback. 
     * [👀 Advertisers](<03 👀👥 Advertiser helper.md>): Finders subscribe to Advertisers to know which ads to show to users in addition to search results from Manifests. 
@@ -53,7 +53,7 @@
 1. **Why not merge Finders and Graphs?**
 
     Finders leverage conversations with GenAI, requiring them to comply with contextualized Artificial Intelligence (AI) legislation (e.g., the European Union AI Act). 
-    * Conversely, [Graphs 🕸](<../../40 👥 Domains/44 📜 Manifests/03 🕸👥 Graph helper.md>) are typically AI-free, allowing to be more generic.
+    * Conversely, [Graphs 🕸](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>) are typically AI-free, allowing to be more generic.
 
     ---
 
