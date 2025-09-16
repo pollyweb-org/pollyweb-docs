@@ -60,8 +60,8 @@
     
     * [Issuer 🎴 domains](<02 🎴🎭 Issuer role.md>) can request the [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) to invalidate [Tokens 🎫](<01 🎫 Token.md>), and [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) will handle the propagation up to the user's [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
     
-    * In cases where the user is holding an offline image of the Token's QR (e.g., printed or screenshot), [Consumer 💼 domains](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) may ask for a synchronous status check of a [Token 🎫](<01 🎫 Token.md>) directly with the [Issuer 🎴 domain](<02 🎴🎭 Issuer role.md>);
-       - e.g., while validating a passport [Token 🎫](<01 🎫 Token.md>) at the border, the airport may try to reach the [Issuer 🎴 domain](<02 🎴🎭 Issuer role.md>) to verify if the passport hasn't been revoked.
+    * In cases where the user is holding an offline image of the Token's QR (e.g., printed or screenshot), [Consumer 💼 domains](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) may ask for a synchronous status check of the [Token 🎫](<01 🎫 Token.md>) directly with the [user's Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>);
+       - e.g., while validating a passport [Token 🎫](<01 🎫 Token.md>) at the border, the airport may try to reach the [user's Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) to verify if the passport hasn't been revoked.
 
     ---
     <br/>

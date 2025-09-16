@@ -31,8 +31,8 @@
 
 3. **How do Brokers protect users from Hosts?**
  
-    Brokers give users the right to be forgotten by defaulting to anonymous browsing; 
-    * i.e., whenever a user returns to a [Host 🤗 domain](<../23 💬 Chats/03 🤗🎭 Host role.md>), the Broker connects them using a different untraceable ID. 
+    [Broker 🤵 domains](<03 🤵 Broker domain.md>) give users the right to be forgotten by defaulting to anonymous browsing; 
+    * i.e., whenever a user returns to a [Host 🤗 domain](<../23 💬 Chats/03 🤗🎭 Host role.md>), the [Broker 🤵 domain](<03 🤵 Broker domain.md>) connects them using a different untraceable ID. 
     
     * For a [Host 🤗 domain](<../23 💬 Chats/03 🤗🎭 Host role.md>) to identity a user across sessions, the user needs to explicitly accept a [Bind 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>) from the [Host's Vault 🗄️ role](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) or a [Token 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) from the [Host's Issuer 🎴 role](<../25 🎫 Tokens/02 🎴🎭 Issuer role.md>).
 
@@ -41,76 +41,21 @@
 
 4. **Who migrates users between phones - Brokers or Notifiers?**
 
-    Given that [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and [Notifier 📣 domains](<../02 📣 Notifiers/02 📣 Notifier domain.md>) contain only minimum-to-no data, the migration of a user between and old and a new phone needs to be done by Brokers.
+    Given that [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and [Notifier 📣 domains](<../02 📣 Notifiers/02 📣 Notifier domain.md>) contain only minimum-to-no data, the migration of a user between and old and a new phone needs to be done by [Broker 🤵 domains](<03 🤵 Broker domain.md>).
 
     ---
     <br/>
 
-5. **How do users migrate a Wallet to another phone?**
-
-    To migrate a [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to another phone, a user first needs to bind an [Identity 🆔 agent domain](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) domain on the old phone, and then generate a migration QR [Token 🎫](<../25 🎫 Tokens/01 🎫 Token.md>).
-    
-    * On the new phone, the user needs to install a Wallet, then scan the migration QR of the old Wallet.
-    * The Broker will invoke the [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) on the new phone to perform an identity authentication (e.g., face scan), and then will automatically decommission the old Wallet.
-
-    ---
-    <br/>
-
-6. **How do users change between Wallet providers?**
-
-    If both the old and the new [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) providers use the same Broker, 
-    * then changing between Wallet providers in the same phone is very similar to migrating a Wallet to another phone. 
-    
-    If they use different Brokers, 
-    * then these Brokers will need to implement some sort of portability. 
-     
-    For simplicity, let's assume they use the same Broker.
-    
-    * On the old [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), the user generates a migration QR Token and downloads it or sends it to another person. 
-    * Then, on the new [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), the user uploads or scans the migration QR and performs an identity authentication (e.g., face scan).
-
-    ---
-    <br/>
-
-7. **What if an attacker intercepts a user's recovery QR Token?**
-
-    When a migration QR is used on a new [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), the Broker notifies the old Wallet, allowing legitimate owners to block the attack and destroy the QR. 
-    
-    * For situations where legitimate owners are not aware of notifications, migrations have a small grace period where Brokers inactive both Wallets until the old Wallet accepts the transfer or the grace period expires.
-
-    ---
-    <br/>
-
-8. **After destroying a migration QR, how can users migrate?**
-
-    Just generate a new migration QR.
-
-    ---
-    <br/>
-
-9. **After losing a phone, how do users recover a wallet on a new phone?**
-
-    If the old phone is not available, then users need an offline migration QR previously printed or saved as an image - without it, it's not possible to recover the wallet. 
-    
-    * On the new phone, users install a Wallet, scan or upload the QR, perform an identity authentication, and wait for the grace period.
-
-    ---
-    <br/>
-
-10. **What if an attacker has the user's old phone and rejects the transfer?**
-
-    After a successful identity authentication on the new phone, blocking the migration from the old phone will also require a successful identity authentication. 
-
-    * This way, an attacker in the possession of the old phone will not be able to stop the migration to the legitimate user.
-
-    ---
-    <br/>
 
 11. **Why aren't Brokers and Notifiers the same domain?**
     
-    Separating the responsibilities of Brokers and [Notifier 📣 domains](<../02 📣 Notifiers/02 📣 Notifier domain.md>) allows cloud providers (e.g., AWS, Azure, GCP) and independent software vendors (ISVs) to offload from mobile startups the undifferentiated heavy lifting of implementing the NLWeb protocol in the most robust, secure, and compliant way. 
+    Separating the responsibilities of [Broker 🤵 domains](<03 🤵 Broker domain.md>) and [Notifier 📣 domains](<../02 📣 Notifiers/02 📣 Notifier domain.md>) allows cloud providers (e.g., AWS, Azure, GCP) and independent software vendors (ISVs) to offload from mobile startups the undifferentiated heavy lifting of implementing the NLWeb protocol in the most robust, secure, and compliant way. 
     
-    These startups can then focus on the Wallet and Notifier to create great frontend user experiences.
+    * These startups can then focus on the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and [Notifier 📣 domain](<../02 📣 Notifiers/02 📣 Notifier domain.md>) to create great frontend user experiences.
+
+    * [Broker 🤵 domains](<03 🤵 Broker domain.md>) are responsible for validating if the [Notifier 📣 domains](<../02 📣 Notifiers/02 📣 Notifier domain.md>) they serve are compliant with NLWeb protocol, blocking them if necessary.
+
+    * The NLWeb organization is responsible for verifying and onboarding [Broker 🤵 domains](<03 🤵 Broker domain.md>), listing them as [trustworthy 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) on its public [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>), so that other [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) can inherit that [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>).
 
     ---
     <br/>
@@ -118,19 +63,19 @@
 12. **How can Wallet startups connect to a Broker?**
 
     For startups and others to build a [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), they need to:
-    - Build a [Notifier 📣 domain](<../02 📣 Notifiers/02 📣 Notifier domain.md>) domain and register it on a Broker;
-    - Build a Wallet and pass the Broker's acceptance tests
-    - Release the Wallet to onboard users into the Broker.
+    - Build a [Notifier 📣 domain](<../02 📣 Notifiers/02 📣 Notifier domain.md>) and register it on a [Broker 🤵 domain](<03 🤵 Broker domain.md>);
+    - Build a [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and pass the acceptance tests of the [Broker 🤵 domain](<03 🤵 Broker domain.md>);
+    - Release the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to onboard users into the [Broker 🤵 domain](<03 🤵 Broker domain.md>).
 
     ---
     <br/>
 
 13. **How do Brokers ensure Wallets are NLWeb compliant?**
 
-    Brokers are responsible for testing the compliance of [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and [Notifier 📣 domains](<../02 📣 Notifiers/02 📣 Notifier domain.md>) by performing a set of automated tests before allowing new Wallet versions to be used.
+    [Broker 🤵 domains](<03 🤵 Broker domain.md>) are responsible for testing the compliance of [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and [Notifier 📣 domains](<../02 📣 Notifiers/02 📣 Notifier domain.md>) by performing a set of automated tests before allowing new Wallet versions to be used.
 
-    * [Notifier 📣 domains](<../02 📣 Notifiers/02 📣 Notifier domain.md>) are responsible for informing Brokers about changes in the software version, allowing Brokers to manage the test and release lifecycle of new versions 
-    * Failure to inform may force the Broker to cut the Wallet's communication to NLWeb by blocking its [Notifier](<../02 📣 Notifiers/02 📣 Notifier domain.md>).
+    * [Notifier 📣 domains](<../02 📣 Notifiers/02 📣 Notifier domain.md>) are responsible for informing [Broker 🤵 domains](<03 🤵 Broker domain.md>) about changes in the software version, allowing [Broker 🤵 domains](<03 🤵 Broker domain.md>) to manage the test and release lifecycle of new versions 
+    * Failure to inform may force the [Broker 🤵 domain](<03 🤵 Broker domain.md>) to cut the Wallet's communication to NLWeb by blocking its [Notifier 📣 domain](<../02 📣 Notifiers/02 📣 Notifier domain.md>).
 
     ---
     <br/>

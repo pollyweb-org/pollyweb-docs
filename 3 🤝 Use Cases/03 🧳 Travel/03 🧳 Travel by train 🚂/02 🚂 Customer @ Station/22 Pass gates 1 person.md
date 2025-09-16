@@ -13,3 +13,4 @@ Go through the train station gates with a single ticket 🚂
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/07 🧭 Navigators/05 🧭🫥 Navigator agent.md>) | ⓘ Best train options: [+] <br/> - 9:15 on platform A 🐜 <br/>- 9:30 on platform C 🦀
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/07 🧭 Navigators/05 🧭🫥 Navigator agent.md>) | ⓘ Go to platform A (3 min): [+] <br>- turn left to SP 🐿️<br>- down to JP via stairs 🐆<br/>- platform A is on the left 🐜
 ||
+

@@ -3,7 +3,9 @@
 
 1. **What is a Token?**
 
-    [Tokens 🎫](<01 🎫 Token.md>) are NFC/QR [Locators 🔆](<../22 🔆 Locators/01 🔆 Locator.md>) issued and signed by an [Issuer 🎴](<02 🎴🎭 Issuer role.md>), and containing information that can be shared with [💼 Consumers](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>).
+    [Tokens 🎫](<01 🎫 Token.md>) are NFC/QR [Locators 🔆](<../22 🔆 Locators/01 🔆 Locator.md>) 
+    * issued and signed by an [Issuer 🎴 domain](<02 🎴🎭 Issuer role.md>), 
+    * that contain data to be shared with [Consumer 💼 domains](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>).
 
     ---
     <br/>
@@ -52,56 +54,85 @@
 
 1. **Can Tokens be downloaded into the Wallet?**
 
-    Yes, thus the term [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) when referring to NLWeb browsers. 
+    Yes.
+    * Thus the term [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) when referring to NLWeb browsers. 
 
     ---
     <br/>
     
 1. **Are Tokens compatible with W3C Verifiable Credentials?**
 
-    No, they are not compatible with [W3C Verifiable Credentials 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/03 🛂 Travel ID landscape/10 📺 W3C VC Ledgers.md>) but they are similar in purpose.
+    No.
+    * They are not compatible with [W3C Verifiable Credentials 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/03 🛂 Travel ID landscape/10 📺 W3C VC Ledgers.md>).
+    * But they are similar in purpose.
 
     ---
     <br/>
     
-1. **Are these crypto tokens from blockchain?**
+2. **Are these crypto tokens from blockchain?**
 
-    No. NLWeb does not use blockchain nor cryptocurrencies. 
+    No. 
+    * NLWeb does not use blockchain nor cryptocurrencies. 
+    * Global blockchain databases are known to have scaling issues without fully delivering the promise of decentralization, and were already abandoned by [W3C Verifiable Credential 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/03 🛂 Travel ID landscape/10 📺 W3C VC Ledgers.md>) players like IATA, and by crypto start-ups like [Sam Altman's World 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/11 📺 Sam Altman's World.md>).
 
     ---
     <br/>
     
-1. **Can Tokens be used for documents with photo validation?**
+3. **Can Tokens be used for documents with photo validation?**
 
     Yes, [Tokens 🎫](<01 🎫 Token.md>) can be identity-bound;
-    - i.e., they can allow [Consumer 💼 domains](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>) to confirm that the holder of the Token is effectively the human for whom the Token was issue to. 
-    - Identity-bound Tokens reference a trusted [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) that is able to authenticate the user (e.g., with a face scan).
-    - See [ID Tokens 🆔🎫](<../../30 🫥 Agents/05 🆔 Identities/07 🆔🎫 ID Tokens.md>) for further details.
+    - i.e., they can allow [Consumer 💼 domains](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>) to confirm that the holder of the Token is effectively the human for whom the [Token 🎫](<01 🎫 Token.md>)  was issue to. 
+    - [Identity-bound 🆔 tokens](<../../30 🫥 Agents/05 🆔 Identities/07 🆔🎫 ID Tokens.md>) reference a trusted [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) that is able to authenticate the user - e.g., with a [Face scan 😶](<../../30 🫥 Agents/05 🆔 Identities/04 🆔😶 Face scan.md>).
+
+
+    The following [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>) excerpt from the [Casino Entry 🤝 use case](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/08 🎰 Drink at casinos/1 Customer @ Door 🚪/11. Enter anonymously.md>) illustrates the usage of an [Identity-bound 🆔 token](<../../30 🫥 Agents/05 🆔 Identities/07 🆔🎫 ID Tokens.md>).
+
+
+    | Service | Prompt | User
+    | - | - | - |
+    | | | 🔆 [tap](<../22 🔆 Locators/01 🔆 Locator.md>)
+    | 🔎 [Finder](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Casino (4.4 ⭐) [+]
+    | 🎰 Casino   | ℹ️ Request for minimum age. [+]
+    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Share over 21? [Yes, No]      | > Yes
+    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. 📸    | 🙂 smile
+    | 🎰 Casino   | ✅ Welcome, please enter!
+    ||
 
     ---
     <br/>
 
-2. **Can Tokens be read in Chats without the use consent?**
+4. **Can Tokens be read in Chats without the use consent?**
 
-    No, except for SELF [Tokens 🎫](<01 🎫 Token.md>).
+    No, except for [SELF Tokens 🎫](<01 🎫 Token.md>).
 
-    - Before sharing [Tokens 🎫](<01 🎫 Token.md>) with other domains, [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) domains ask the user for approval.
+    - Before sharing [SELF Tokens 🎫](<01 🎫 Token.md>) with other domains, [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) ask the user for approval.
   
-    - Exceptionally, if the [Schema 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) of the [Token 🎫](<01 🎫 Token.md>) is marked as SELF, then [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) silently share the Token with the Token's [Issuer 🎴 domain](<02 🎴🎭 Issuer role.md>).
+    - Exceptionally, if the [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) of the [Token 🎫](<01 🎫 Token.md>) is marked as SELF, then the user's [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) silently share the [Token 🎫](<01 🎫 Token.md>) with the [Token's Issuer 🎴 domain](<02 🎴🎭 Issuer role.md>).
 
+
+    The following [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>) excerpt illustrates the usage of a [SELF Token 🎫](<01 🎫 Token.md>) when [passing a gate at a train station 🤝](<../../../3 🤝 Use Cases/03 🧳 Travel/03 🧳 Travel by train 🚂/02 🚂 Customer @ Station/22 Pass gates 1 person.md>).
+
+    | Service | Prompt | User 
+    | - | - | - |
+    | | | 🔆 [tap](<../22 🔆 Locators/01 🔆 Locator.md>)
+    | 🔎 [Finder](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Railway (4.3 ⭐) [+]
+    | 🤵 [Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Ticket [token 🎟️](<01 🎫 Token.md>) shared [+]
+    | 🚂 Railway | ℹ️ Ticket presented: <br>- from MAD T4 to MAD T2 
+    | 🚂 Railway | ✅ Entry gate opened!
+    | 🤵 [Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Ticket voided [+]
+    
 
     ---
     <br/>
 
-1. **Why do SELF Tokens exist?**
+3. **Why do SELF Tokens exist?**
 
-    SELF [Tokens 🎫](<01 🎫 Token.md>) are typically issued as a pass to be presented back to the Token's [Issuer 🎴 domain](<02 🎴🎭 Issuer role.md>) in a later moment in time, aiming for the least possible friction in the future - e.g.:
+    [SELF Tokens 🎫](<01 🎫 Token.md>) are typically issued as a pass to be presented back to the [Token's Issuer 🎴 domain](<02 🎴🎭 Issuer role.md>) in a later moment in time, aiming for the least possible friction in the future - e.g.:
 
-    - open an access gate with a tap;
-    - open a subway entry gate with a tap;
-    - check-in a medical booking with a tap. 
+    - [open a train station gate with a tap 🤝](<../../../3 🤝 Use Cases/03 🧳 Travel/03 🧳 Travel by train 🚂/02 🚂 Customer @ Station/22 Pass gates 1 person.md>),
+    - [check-in with a booking with a tap 🤝](<../../../3 🤝 Use Cases/05 🛠️ Services/01 💈 Cut hair at salons/20 Customer @ Salon/21 Arrive.md>). 
 
-    Examples of SELF [Tokens 🎫](<01 🎫 Token.md>) include:
+    Examples of [SELF Tokens 🎫](<01 🎫 Token.md>) include:
     - ⚽ event tickets (e.g., cinema, sports, concerts)
     - 🚌 public transport tickets (e.g., bus, train)
     - 🔑 physical access rights (e.g., doors, gates)
@@ -111,31 +142,34 @@
     ---
     <br/>
     
-2. **Can users share Tokens in Wallets without internet?**
+4. **Can users share Tokens in Wallets without internet?**
 
-    Not via [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), no, because Wallets need internet to share the [Token 🎫](<01 🎫 Token.md>) with other domains. 
+    Not via [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), no, because Wallets need Internet connectivity to share the [Token 🎫](<01 🎫 Token.md>) with other domains. 
     
     - **Note**: NLWeb assumes the inevitability of internet becoming ubiquitous in time - in 2024, internet is already available on London subways, on United Airline flights, and in remote regions of the globe with [Starlink 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/01 🛰️ Connectivity landscape/03 📺 Starlink @ phones.md>), while [Project Kuiper 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/01 🛰️ Connectivity landscape/04 📺 Amazon's Kuiper.md>) is on track general availability in 2026.
 
     ---
     <br/>
     
-3. **Can users print Tokens in paper?**
+5. **Can users print Tokens in paper?**
 
     Yes. 
     - Offline [Tokens 🎫](<01 🎫 Token.md>) allow users to remove the dependency on the device's battery, or technical issues with the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) resulting from low or no internet connectivity;
     - e.g., travelers in long-distance flights are advised to store their ticket and passport [Tokens 🎫](<01 🎫 Token.md>) offline. 
     
-    Offline options include:
-    - print on paper;
-    - screenshot and store as an image on a device;
-    - save to an NFC card;
-    - save to an NFC wristband.
+    Offline options include the following.
+
+    | Option | Description
+    |-|-
+    | **🖨️ Paper**| Ask the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to print it on paper.
+    | **📱 Phone** | Screenshot and store it as an image on a device.
+    | **[💍 Userable](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>)** | Add it to a [Userable 💍 thing](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) via the user's [Custodian 🧳 vault](<../../70 🌳 Ambient/71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>).
+    | **[⌚ Tapband ](<../../70 🌳 Ambient/76 ⌚ Brand Tapbands/01 ⌚💠 Tapband thing.md>)** | Add it to a [Tapband ⌚ thing](<../../70 🌳 Ambient/76 ⌚ Brand Tapbands/01 ⌚💠 Tapband thing.md>) via the user's [Custodian 🧳 vault](<../../70 🌳 Ambient/71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>).
 
     ---
     <br/>
     
-4. **Can users save multiple Tokens in a single NFC card?**
+6. **Can users save multiple Tokens in a single NFC card?**
 
     Yes. 
     - Users can reference multiple [Tokens 🎫](<01 🎫 Token.md>) with a single NFC via [Userable 💍 things](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>).
@@ -144,7 +178,7 @@
     <br/>
     
     
-6. **What data is contained in a Token?**
+7. **What data is contained in a Token?**
 
     [Tokens 🎫](<01 🎫 Token.md>) derive from [Locators 🔆](<../22 🔆 Locators/01 🔆 Locator.md>), so they always contain:
     * the [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) - e.g., `nlweb.org/TOKEN:1.0`

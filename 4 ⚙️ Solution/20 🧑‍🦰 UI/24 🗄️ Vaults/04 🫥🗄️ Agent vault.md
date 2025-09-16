@@ -18,7 +18,7 @@
     <br/>
 
 
-1. **What are examples of Agent roles?**
+2. **What are examples of Agent roles?**
 
     | |Agent 🫥 | Example | Responsibilities 
     |-|-|-|-
