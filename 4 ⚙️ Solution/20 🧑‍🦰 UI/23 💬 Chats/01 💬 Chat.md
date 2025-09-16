@@ -11,6 +11,7 @@
     ---
     <br/>
 
+
 1. **How are the intervening parties in a chat?**
 
     | Component | Responsibilities
@@ -21,6 +22,42 @@
     |[📣 Notifier](<../02 📣 Notifiers/02 📣 Notifier domain.md>) | Implements the mobile push notifications, receiving the messages from the [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) and forwarding them to the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
 
     ---
+    <br/>
+
+
+
+1. **How does a user open a new chat window with a domain?**
+
+    To open a new [Chat 💬](<01 💬 Chat.md>) window with a [Host 🤗 domain](<03 🤗🎭 Host role.md>), a user needs the [Host's Locator 🔆](<../22 🔆 Locators/01 🔆 Locator.md>) contained in one of the following technology forms.
+
+    |Technology|Details
+    |-|-
+    |[✨ QR code](<../22 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>)| Users open the Wallet app on the device, then scan the QR code to open a chat window.
+    |[🔆 NFC tag](<../22 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>)| Users tap the NFC tag with their device, regardless of having the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) open - this opens a chat window on the Wallet.
+    |[🌐 Link](<../22 🔆 Locators/02 🧑‍🦰🌐 Wallet URLs.md>)| Users click the link/button on the traditional web browser of their device - this opens a chat window on the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+    |[💬 Prompt](<01 💬 Chat.md>)| In a [Chat 💬](<01 💬 Chat.md>) window, the [Host 🤗 domain](<03 🤗🎭 Host role.md>) provides one or more options for the user to select from, and the user selects one - this opens a new [Chat 💬](<01 💬 Chat.md>) window.
+
+    ----
+    <br/>
+
+2. **What if the user doesn't have the domain's Locator?**
+
+    If a user doesn't know exactly where to find a [Locator 🔆](<../22 🔆 Locators/01 🔆 Locator.md>), they can use the [Finder 🔎 domain](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) to search for it;
+    * e.g., if a UK user wants to bind to the UK's national health service but doesn't know where to start, the user can ask for "health service" and the assistance replies with "NHS?".
+
+    ---
+    <br/>
+
+3. **Can users send a sequence of messages in a chat?**
+
+    No. 
+    - NLWeb [Chats 💬](<01 💬 Chat.md>) don't implement WhatsApp's free flow conversation, where users can send multiple messages in sequence that humans typically interpret as a flow. 
+    - Instead, NLWeb [Chats 💬](<01 💬 Chat.md>) work like ChatGPT, with one party sending only one message then waiting for the other party to reply. 
+    - A similar mechanism is used by Amazon Retail for web and mobile customer support backed by AI workflows.
+
+    ---
+    <br/>
+    
 
 2. **What are the message types supported in chats?**
 
@@ -33,24 +70,7 @@
     | 👋 *Goodbye* | Ends the [Chat 💬](<01 💬 Chat.md>) workflow.
 
     ---
-
-3. **Can Hosts replace sent prompts?**
-
-    Yes, but only temporary prompts. 
-    - If a [Host 🤗 domain](<03 🤗🎭 Host role.md>) sends  two consecutive blocking prompts while the user has not answered the first, then the first becomes readonly and the second becomes the active input.
-    - If the [Host 🤗 domain](<03 🤗🎭 Host role.md>) wants a prompt to be visually replaced, then they need to use a temporary prompt, visually represented by an hourglass ⏳ emoji. 
-    - This is particularly useful when [preparing food 🤝](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/03 🍽️🍲 Eat at restaurants/03 🍲 Order @ Seat 🪑/03 🪑 Change order 🌀.md>), when [waiting food orders 🤝](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/03 🍽️🍲 Eat at restaurants/06 🍲 Staff @ Back 🧑‍🍳/02 🧑‍🍳 Prepare food 🥘.md>), and when reminding users of [upcoming bookings 🤝](<../../../3 🤝 Use Cases/03 🧳 Travel/05 🧳 Travel by hailing 🙋/1 🙋 Customer @ Home 🏠/12 🏠 Book.md>).
-
-    ---
-
-4. **Can users respond to an old prompt?**
-
-    Yes, but only to non-blocking prompts.
-
-    - Non-blocking prompts (e.g., wait ⏳ and info ℹ️) that have not been answered by the user, allow the user to go back and interact with it.
-    - This is particularly helpful when [Host 🤗 domains](<03 🤗🎭 Host role.md>) want to assign default values to options to speed up the process (e.g., [navigation options 🤝](<../../../3 🤝 Use Cases/03 🧳 Travel/01 🧳 Plans trips 🧭/2 🧭 @ Destination/21 Return.md>)), while still allowing users to go back and change those default options.
-    
-    ---
+    <br/>
 
 5. **How do prompt emojis work?**
 
@@ -81,6 +101,7 @@
         - the thought emoji 💭 represents other domains that have been pulled into the chat.
 
     ---
+    <br/>
 
 6. **What input formats can Hosts ask Wallets to render?**
 
@@ -113,6 +134,7 @@
     | 🔠 *Text* | Asks for a text input.
 
     ---
+    <br/>
 
 
 7. **How can Hosts leverage reference data, like countries?**
@@ -120,6 +142,7 @@
     [Hosts 🤗 domains](<03 🤗🎭 Host role.md>) can use data sets exposed by [Dataset 🪣 helper domains](<05 🪣🎭 Dataset role.md>).
 
     ---
+    <br/>
 
 8. **How can Hosts protect users from input fatigue?**
 
@@ -132,5 +155,66 @@
     * e.g., searchable lists with one or many possible options.
 
     ---
+    <br/>
 
 
+3. **Can Hosts replace sent prompts?**
+
+    Yes, but only temporary prompts. 
+    - If a [Host 🤗 domain](<03 🤗🎭 Host role.md>) sends  two consecutive blocking prompts while the user has not answered the first, then the first becomes readonly and the second becomes the active input.
+    - If the [Host 🤗 domain](<03 🤗🎭 Host role.md>) wants a prompt to be visually replaced, then they need to use a temporary prompt, visually represented by an hourglass ⏳ emoji. 
+    - This is particularly useful when [preparing food 🤝](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/03 🍽️🍲 Eat at restaurants/03 🍲 Order @ Seat 🪑/03 🪑 Change order 🌀.md>), when [waiting food orders 🤝](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/03 🍽️🍲 Eat at restaurants/06 🍲 Staff @ Back 🧑‍🍳/02 🧑‍🍳 Prepare food 🥘.md>), and when reminding users of [upcoming bookings 🤝](<../../../3 🤝 Use Cases/03 🧳 Travel/05 🧳 Travel by hailing 🙋/1 🙋 Customer @ Home 🏠/12 🏠 Book.md>).
+
+    ---
+    <br/>
+
+4. **Can users respond to an old prompt?**
+
+    NLWeb [Chats 💬](<01 💬 Chat.md>) are designed to be forward-only workloads managed by a [Host 🤗 domain](<03 🤗🎭 Host role.md>) (and not by the user). 
+    * This behavior is visible on LLM apps like on ChatGPT, Gemini, and others. 
+  
+    Just like in the previously referred LLMs, NLWeb also allows [Host 🤗 domains](<03 🤗🎭 Host role.md>) to add options in certain steps so that users can go back and change the direction of the workload from a previous step.
+    * For example, the user did A, B, C, D, E; then went back to B and changed the history to A, B, X, Y, Z. 
+    * This worked because step B had an option set by the [Host 🤗 domains](<03 🤗🎭 Host role.md>) that allowed the user to go back and change the workflow path.
+
+    In NLWeb, these option sets can be added only to non-blocking prompts.
+
+    - The non-blocking prompts include Wait ⏳, Info ℹ️, and Result ✅.
+    - This is particularly helpful when [Host 🤗 domains](<03 🤗🎭 Host role.md>) want to assign default values to options to speed up the process (e.g., [navigation options 🤝](<../../../3 🤝 Use Cases/03 🧳 Travel/01 🧳 Plans trips 🧭/2 🧭 @ Destination/21 Return.md>)), while still allowing users to go back and change those default options.
+    
+    ---
+    <br/>
+
+
+
+4. **How can users report spam messages?**
+
+    Like in WhatsApp, users can mark messages as spam.
+
+    ---
+    <br/>
+
+5. **How can users report a domain's misconduct?**
+
+    Like in WhatsApp, users can report or block a domain, providing the reason for it (e.g., offensive, unsolicited, spam).
+
+    ---
+    <br/>
+
+6. **How can users contribute to a domain's reputation?**
+
+    Users can provide feedback to domains via stars and comments. 
+    * Also, by reporting on domains, users are contributing negatively to the domain's reputation. 
+    * [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) share this feedback collaboratively with other Wallets via [Reviewer ⭐ domains](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>). 
+    * [Host 🤗 domain](<03 🤗🎭 Host role.md>) managers are notified about the feedback, and can reply to them. Similar mechanisms have been widely adopted by Trust Pilot, Google Maps, and Google Play.
+
+    ---
+    <br/>
+
+7. **Do chats support map navigation?**
+
+    No. 
+    - [Host 🤗 domains](<03 🤗🎭 Host role.md>) can send location pins in user chats, then users can click on them to open the device's default map navigation app.
+
+    ---
+    <br/>
