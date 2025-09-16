@@ -1,4 +1,4 @@
-🕸 Graph Domain Development FAQ
+🕸 Graph helper domains FAQ
 ===
 
 ![](<.📎 Assets/📜 Graphs.png>)
@@ -12,7 +12,7 @@
     ---
     <br/>
 
-1. **Are Graphs like a self-sovereign identity (SSI) ledger?**
+2. **Are Graphs like a self-sovereign identity (SSI) ledger?**
 
     No. NLWeb doesn't use ledgers nor [decentralized identifiers (DIDs) 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/03 🛂 Travel ID landscape/10 📺 W3C VC Ledgers.md>). 
     * Instead of DIDs, NLWeb uses DNS and the web's Public Key Infrastructure (PKI) to identify domains — thus, it doesn't need an additional database for registration and discovery. 
@@ -21,7 +21,7 @@
     ---
     <br/>
 
-1. **How are NLWeb Graphs updated?**
+3. **How are NLWeb Graphs updated?**
 
     [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) subscribe to changes in [domain Manifests 📜](<01 📜 Domain Manifest.md>). 
 
@@ -34,21 +34,21 @@
     ---
     <br/>
 
-1. **How can domains reset their Manifest representation on Graphs?**
+4. **How can domains reset their Manifest representation on Graphs?**
 
     [Domains 👥](<00 👥 Domain.md>) can send a RESET event that [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) will interpret as the need to start from scratch.
 
     ---
     <br/>
 
-1. **What if an event references an unknown Schema Code?**
+5. **What if an event references an unknown Schema Code?**
 
     [Domains 👥](<00 👥 Domain.md>) will place the change on hold until the referenced [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) is available.
 
     ---
     <br/>
 
-1. **How can domains know about Manifest events placed on hold?**
+6. **How can domains know about Manifest events placed on hold?**
 
     [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) raise alert events. 
     - Interested domains should [subscribe 🔔](<../41 📨 Comms/04 🔔🎭 Subscriber role.md>) to the Graph's [Streamer 🌬️ role](<../41 📨 Comms/02 🌬️🎭 Streamer role.md>), filtering the [domains 👥](<00 👥 Domain.md>) they're interested in receiving alert notifications about. 
@@ -57,14 +57,14 @@
     ---
     <br/>
 
-1. **How is a new NLWeb trust graph populated?**
+7. **How is a new NLWeb trust graph populated?**
 
     Whenever a new [Graph 🕸 domain](<03 🕸🛠️ Graph helper.md>) is "born", it can ask a [Listener 👂 domain](<02 👂🛠️ Listener helper.md>) to replay the last change notification of every domain since the beginning of time in order to (re)build its graph representations. 
 
     ---
     <br/>
 
-1. **How do Graphs support the verification of Tokens?**
+8. **How do Graphs support the verification of Tokens?**
 
     [Issuer 🎴 domains](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) sign [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) with their active [📨 DKIM](<../41 📨 Comms/01 📨 Domain Message.md>) key-pair. 
     

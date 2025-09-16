@@ -1,4 +1,4 @@
-👥 Domain FAQ
+👥 Domains FAQ
 ===
 
 1. **What is a Domain in NLWeb?**
