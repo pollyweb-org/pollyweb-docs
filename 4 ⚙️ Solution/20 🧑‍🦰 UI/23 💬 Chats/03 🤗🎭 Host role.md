@@ -3,9 +3,12 @@
 
 1. **What is a Host domain role in NLWeb?**
 
-    A domain with a [Host 🤗](<03 🤗🎭 Host role.md>) role is any [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that [Chats 💬](<01 💬 Chat.md>) with [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) via [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>). 
+    A [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) with a [Host 🤗 role](<03 🤗🎭 Host role.md>) is any [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that
+    * hosts [Chats 💬](<01 💬 Chat.md>) with [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) 
+    * via [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>). 
 
     ---
+    <br/>
 
 1. **How do Host domains work?**
 
@@ -18,6 +21,7 @@
     |3| `Interact` |
 
     ---
+    <br/>
 
 2. **How are users protected from stalking from Hosts?**
 
@@ -26,6 +30,7 @@
     - although [Host 🤗 domains](<03 🤗🎭 Host role.md>) can proactively send messages on an open [Chat 💬](<01 💬 Chat.md>) session, users can close the session at any time. 
 
     ---
+    <br/>
 
 3. **What incentives do Hosts have to close sessions?**
 
@@ -34,6 +39,7 @@
     - See the [Advertiser 👀 helper domains](<../../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) for details.
 
     ---
+    <br/>
 
 4. **Do Hosts send messages to users via web sockets?**
 
@@ -41,6 +47,7 @@
     - [Host 🤗 domains](<03 🤗🎭 Host role.md>) send [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) via HTTPS POST to a proxy [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) that then communicate with the user's [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) with real-time protocols (e.g., web sockets, MQTT). 
 
     ---
+    <br/>
 
 5. **What proxy services are involved in the flow?**
 
@@ -53,6 +60,7 @@
     - so [Notifier 📣 domains](<../02 📣 Notifiers/02 📣 Notifier domain.md>) is typically is implemented by the same team that implemented the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
 
     ---
+    <br/>
 
 
 6. **Are chat prompt messages encrypted from Hosts to Wallets?**
@@ -66,7 +74,7 @@
     * This keeps the [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) and the [Notifier 📣 domain](<../02 📣 Notifiers/02 📣 Notifier domain.md>) in dark regarding the content of [Message 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) (even in the event of a cryptography attack) because no content actually passes by these proxy services.
 
     ---
-
+    <br/>
 
 2. **Are chat reply messages encrypted from Wallets to Hosts?**
 
@@ -81,3 +89,4 @@
     - NLWeb relies on the HTTPS ability to continue to evolve has [post-quantum 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/10 📺 Post-quantum keys.md>) cryptography attacks become more sophisticated.
 
     ---
+    <br/>

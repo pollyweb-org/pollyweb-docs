@@ -9,9 +9,9 @@ Return to a previous location
 | [ new chat ]
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Navigator (4.4 ⭐) [+]
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/07 🧭 Navigators/05 🧭🫥 Navigator agent.md>) | ℹ️ Request: return to hotel [+]
-| 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/07 🧭 Navigators/05 🧭🫥 Navigator agent.md>) | 😃 Go to Any Hotel? [Yes, No]| > Yes
+| 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/07 🧭 Navigators/05 🧭🫥 Navigator agent.md>) | 😃 Go to `Any Hotel`? [Yes, No]| > Yes
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/07 🧭 Navigators/05 🧭🫥 Navigator agent.md>) | ℹ️ Leave now, arrive soon [+]
-| 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/07 🧭 Navigators/05 🧭🫥 Navigator agent.md>) | ℹ️ To Any Hotel [+]
+| 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/07 🧭 Navigators/05 🧭🫥 Navigator agent.md>) | ℹ️ To `Any Hotel` [+]
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/07 🧭 Navigators/05 🧭🫥 Navigator agent.md>) | ℹ️ For 2 travelers [+]
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/07 🧭 Navigators/05 🧭🫥 Navigator agent.md>) | ℹ️ Mobility concerns: 🧳 👟 [+] 
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/07 🧭 Navigators/05 🧭🫥 Navigator agent.md>) | ℹ️ Keep informed: 🧔 Daniel [+] 
