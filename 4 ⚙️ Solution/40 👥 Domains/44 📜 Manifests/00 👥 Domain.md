@@ -29,9 +29,9 @@
     | [🤗 Host](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) | Hosts [Chats 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) for [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) via [Broker 🤵 domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>).
     | [🪢 Integrator](<../../20 🧑‍🦰 UI/23 💬 Chats/06 🪢🎭 Integrator role.md>) |  [Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) custom endpoints for [Finder 🔎 domains](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) to index.
     | [🎴 Issuer](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) | Issues [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) to be stored offline in the users' [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
-    | [🌬️ Streamer](<../41 📨 Comms/02 🌬️🎭 Streamer role.md>) | Pushes and replays domain events to [Subscriber 🔔 domains](<04 🔔🎭 Subscriber role.md>).
-    | [🔔 Subscriber](<../41 📨 Comms/04 🔔🎭 Subscriber role.md>) | Subscribes to domain events from a [Streamer 🌬️ domain](<02 🌬️🎭 Streamer role.md>).
-    | [🗄️ Vault](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) | Stores user data and shares it with [Consumer 💼 domains](<../27 💼 Consumers/04 💼🎭 Consumer role.md>). 
+    | [🌬️ Streamer](<../41 📨 Comms/02 🌬️🎭 Streamer role.md>) | Pushes and replays domain events to [Subscriber 🔔 domains](<../41 📨 Comms/04 🔔🎭 Subscriber role.md>).
+    | [🔔 Subscriber](<../41 📨 Comms/04 🔔🎭 Subscriber role.md>) | Subscribes to domain events from a [Streamer 🌬️ domain](<../41 📨 Comms/02 🌬️🎭 Streamer role.md>).
+    | [🗄️ Vault](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) | Stores user data and shares it with [Consumer 💼 domains](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>). 
     | [🏭 Supplier](<../../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>) |
     
     ---

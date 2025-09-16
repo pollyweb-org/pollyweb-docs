@@ -14,3 +14,7 @@ In 2023, NXP Semiconductors (a Dutch semiconductor company) published the follow
 
 ---
 
+### References
+* [💍 Userable use case: lost phone](<../../../4 ⚙️ Solution/70 🌳 Ambient/74 💍 Brand Userables/03 💍📱 Userable lost phone.md>)
+
+    
