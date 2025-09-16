@@ -39,8 +39,8 @@
 
     | Workflow | Description
     |-|-
-    | [🚀 Synchronous requests](<../../../5 ⏩ Flows/01 👥⏩ Domains/02 👥⏩🚀 Sender outbox.md>) | How [domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) send requests and wait for the immediate response.
-    | [🐌 Asynchronous messages](<../../../5 ⏩ Flows/01 👥⏩ Domains/03 👥⏩🐌 Sender events.md>) | How [domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) send fire-and-forget messages and events.
+    | [🚀 Synchronous requests](<../../../5 ⏩ Flows/01 👥⏩ Domains/02 👥⏩🚀 Sender outbox.md>) | [Domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) send requests and wait for the immediate response over an HTTPS request.
+    | [🐌 Asynchronous messages](<../../../5 ⏩ Flows/01 👥⏩ Domains/03 👥⏩🐌 Sender events.md>) | [Domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) send fire-and-forget messages and events. Any eventual answer, if expected, will arrive via another asynchronous message.
 
     ---
 
