@@ -10,6 +10,7 @@
     * that propagates [domain Manifest 📜](<01 📜 Domain Manifest.md>) updates. 
 
     ---
+    <br/>
 
 2. **How do Listeners work?**
 
@@ -23,6 +24,7 @@
     |4| Each [Listener 👂 domain](<02 👂🛠️ Listener helper.md>) performs a fan-out propagation of update events to all [Graph 🕸 helper domains](<03 🕸🛠️ Graph helper.md>) that [subscribed 🔔](<../41 📨 Comms/04 🔔🎭 Subscriber role.md>) to the Listener's 👂 [domain-event Stream 🌬️](<../41 📨 Comms/02 🌬️🎭 Streamer role.md>).
 
     ---
+    <br/>
 
 3. **Why are Listeners necessary?**
 
@@ -30,6 +32,7 @@
     * [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) ensure that the cache in these [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) is updated in near-real-time by propagating domain update notifications to [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>). 
 
     ---
+    <br/>
 
 4. **How aren't Listeners and Graphs the same?**
 
@@ -37,6 +40,7 @@
     * While [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) can be built by anyone, [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) are a lightweight layer managed by a coordinated consortium of cloud providers.
 
     ---
+    <br/>
 
 5. **How do Listeners address resilience?**
 
@@ -44,6 +48,7 @@
     * For business continuity, all [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) are built and managed by different organizations. 
 
     ---
+    <br/>
 
 6. **How do domains discover Listeners?**
 
@@ -51,6 +56,7 @@
     * NLWeb advocates for a combination of both, defaulting to the cluster, and falling back to a named [Listener 👂 domain](<02 👂🛠️ Listener helper.md>) in case the cluster is compromised.
 
     ---
+    <br/>
 
 7. **What is contained in a Manifest-changed event?**
 
@@ -61,18 +67,23 @@
     - the size of the content in bytes (e.g., `256`).
 
     ---
+    <br/>
 
 8. **What is the syntax of the path in the Manifest-changed event?**
 
-    Paths allowed in Manifest-changed events are:
-    * `Identity`, encompassing the Identity object of a [Manifest 📜](<01 📜 Domain Manifest.md>);
-    * `Trust/{key}`, containing a single [Trust 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>) relationship identified by a unique key (e.g., `ssr-meals-airlines`);
-    * `Code/{key}`, containing a single [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) definition identified by a unique key (e.g., `/SSR/MEAL`);
-    * `Code/{key}:{version}`, containing a version of the schema definition for [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) identified (e.g., `Code/SSR/MEAL:1.0`);
-    * `Delegate/{key}`, for a delegation identified by a unique key;
-    * `Offer/{key}`, for an offer identified by a unique key.
+    Paths allowed in Manifest-changed events are as follows.
+
+    | Path | Description | Example
+    |-|-|-
+    | `Identity` | Encompassing the Identity object of a [domain Manifest 📜](<01 📜 Domain Manifest.md>).
+    | `Trust/{key}` | Containing a single [Trust 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>) relationship identified by a unique key. | `ssr-meals-airlines`
+    | `Code/{key}` | Containing a single [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) definition identified by a unique key. | `/SSR/MEAL`
+    | `Code/{key}:{version}` | Containing a version of the schema definition for [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) identified. | `Code/SSR/MEAL:1.0`
+    | `Delegate/{key}` | For a delegation identified by a unique key.
+    | `Offer/{key}` | For an offer identified by a unique key.
     
     ---
+    <br/>
 
 9. **Do Listeners validate the content of events?**
 
@@ -80,10 +91,11 @@
     - 1/ is the schema of the event correct?
     - 2/ is the size informed smaller than maximum allowed for events?
     - 3/ does the size of the change match the size informed?
-    - 4/ does the path informed match a valid [Manifest 📜](<01 📜 Domain Manifest.md>) schema part?
+    - 4/ does the path informed match a valid [domain Manifest 📜](<01 📜 Domain Manifest.md>) schema part?
     - 5/ is the schema of change correct for the path informed?
 
     ---
+    <br/>
 
 10. **How can domains know that their updates were rejected?**
 
@@ -92,6 +104,7 @@
     * For privacy reasons, some alerts are only be pushed to the [Subscriber 🔔 domain](<../41 📨 Comms/04 🔔🎭 Subscriber role.md>) that is referenced in the alert.
 
     ---
+    <br/>
 
 11. **Do Listeners read domain Manifests from the domain?**
 
@@ -100,6 +113,7 @@
     * However, [domains 👥](<00 👥 Domain.md>) may explicitly request [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) to reset the domain's [Manifest 📜](<01 📜 Domain Manifest.md>) based on a content located in a given URL, as long as the content doesn't reach a maximum size for a [Manifest 📜](<01 📜 Domain Manifest.md>).
 
     ---
+    <br/>
 
 12. **What are the size limits for events and Manifests?**
 
@@ -107,6 +121,7 @@
     * [Manifest 📜](<01 📜 Domain Manifest.md>) full content: 1 GB.
 
     ---
+    <br/>
 
 13. **Why is there a size limitation on events?**
 
@@ -119,6 +134,7 @@
     * **Scalability**: multiple small events can scale horizontally, virtually to infinite, by using cloud functions with small memory footprints - otherwise, single download of the [Manifest 📜](<01 📜 Domain Manifest.md>) of an [🏛️ Authority](<../43 👍 Trusts/02 🏛️🛠️ Authority helper.md>) could require several gigabytes of memory to be parsed.
 
     ---
+    <br/>
 
 14. **Why is there a size limitation on the entire Manifest?**
 
@@ -126,6 +142,7 @@
     - For that, the entire content of the [Manifest 📜](<01 📜 Domain Manifest.md>) needs to be in memory, with 1 GB being the minimum common denominator for functions among the well-known cloud providers.
 
     ---
+    <br/>
 
 15. **How can domains keep Manifest-change events small?**
 
@@ -137,6 +154,7 @@
     - when creating and updating [Manifest 📜](<01 📜 Domain Manifest.md>) parts, keep each part below 200 KB.
     
     ---
+    <br/>
 
 16. **Do Listeners propagate all notifications downstream?**
 
@@ -144,30 +162,35 @@
     - [Subscriber 🔔 domains](<../41 📨 Comms/04 🔔🎭 Subscriber role.md>) can filter the events they subscribe to.
 
     ---
+    <br/>
 
 17. **What's the retention commitment of Listeners?**
 
     [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) keep all changes from all domain [Manifests 📜](<01 📜 Domain Manifest.md>) and public keys indefinitely. 
 
     ---
+    <br/>
 
 18. **How are new Listener nodes added to the cluster?**
 
     New nodes first rebase by replaying NLWeb's history from another [Listener 👂 domain](<02 👂🛠️ Listener helper.md>), then join the cluster.
 
     ---
+    <br/>
 
 19. **What if a subscriber wants to read all history?**
 
     [Subscriber 🔔 domains](<../41 📨 Comms/04 🔔🎭 Subscriber role.md>) can ask [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) to replay all domain updates in a given period, or from the beginning of times.
 
     ---
+    <br/>
 
 21. **How to deploy a new Listener?**
 
     Subscribe to another two [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) and replay the entire history from one of them.
 
     ---
+    <br/>
 
 22. **Is there data loss when a Listener goes down?**
 
@@ -177,12 +200,14 @@
     * This configuration allows any graph to subscribe to any [Listener 👂 domain](<02 👂🛠️ Listener helper.md>), confident that all [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) will eventually hold the same data. 
 
     ---
+    <br/>
 
 23. **How do Listeners avoid infinite loop cycles?**
 
     [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) propagate the correlation ID sent by the original [domain 👥](<00 👥 Domain.md>), discarding any repeated update notifications.
 
     ---
+    <br/>
 
 24. **Can an attacker compromises all cluster nodes?**    
 
@@ -190,6 +215,7 @@
     * Each [Listener 👂 domain](<02 👂🛠️ Listener helper.md>) in the cluster node is managed by a different organization, and implemented with different technologies, making it hard for an attacker to replicate an attack on all cluster nodes.
 
     ---
+    <br/>
 
 25. **How to identify if a Listener was compromised?**
 
@@ -197,6 +223,7 @@
     * If necessary, [Firewall 🔥 domains](<../43 👍 Trusts/03 🔥🛠️ Firewall helper.md>) immediately revoke a Listener's [trust 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>).
 
     ---
+    <br/>
 
 26. **Is the cluster endpoint a single point of failure?**
 
@@ -205,6 +232,7 @@
     * While this endpoint is managed by the NLWeb foundation under the supervision of a consortium of multiple cloud providers, domains should nonetheless fall back to using a specific [Listener 👂 node](<02 👂🛠️ Listener helper.md>) in case the cluster is unavailable.
 
     ---
+    <br/>
 
 27. **How can a subscriber filter notifications by content?**
 
@@ -212,3 +240,4 @@
     - e.g., a financial regulator may only want notifications about changes in domains referencing bank [Schema Codes 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>).
 
     ---
+    <br/>

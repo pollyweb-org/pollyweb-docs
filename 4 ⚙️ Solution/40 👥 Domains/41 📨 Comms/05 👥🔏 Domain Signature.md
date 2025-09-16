@@ -14,6 +14,7 @@
     - 4/ add the signature Token to the file. 
 
     ---
+    <br/>
 
 1. **How do receiver domains verify a sender's signature**?
 
@@ -22,6 +23,7 @@
     - 2/ verify the Token. 
 
     ---
+    <br/>
 
 1. **What if the public key of the sender changes?**
 
@@ -30,27 +32,32 @@
     See [Issuers 🎴](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) for details on how to rotate public keys supported with the support of [Listeners 👂](<../44 📜 Manifests/02 👂🛠️ Listener helper.md>) and [Graphs 🕸](<../44 📜 Manifests/03 🕸🛠️ Graph helper.md>).
 
     ---
+    <br/>
 
 1. **What's the reason for removing the signature from hash**?
 
     When metadata is added to a file, it changes its hash. Thus, it's impossible to add the hash of a file to the file itself, because the act of doing so automatically changes the hash.
 
     ---
+    <br/>
 
 1. **Can other metadata be added to files after being signed**?
 
     No. That would invalidate the hash in the signature.
 
     ---
+    <br/>
 
 1. **Can signatures be invalidated by zipping the file**?
 
     No. The binary nature of digital files ensure their integrity.
 
     ---
+    <br/>
 
 1. **Can senders sign files with an expiration date?**
 
     Yes. See [Issuers 🎴](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) for details on how to create temporary [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>).
 
     ---
+    <br/>

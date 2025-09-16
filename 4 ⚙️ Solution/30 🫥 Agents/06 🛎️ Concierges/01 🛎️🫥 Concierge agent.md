@@ -1,78 +1,97 @@
-🛎️ Concierge domains FAQ
+🛎️ Concierge agent domains FAQ
 ===
 
-![](<00 📎 Assets/🛎️ Concierge.png>)
 
 1. **What are Concierge domains in NLWeb?**
 
-    A Concierge 🛎️ domain is a [Vault 🗄️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) that functions like a personal work-order system for users, allowing domains to add tasks to the user's queue without a clear definition of how those tasks will be executed; 
-    - e.g., if someone activates the recovery mode on a user's lost glasses, that creates a task on the user's Concierge 🛎️ to pick up the glasses.
+    A [Concierge 🛎️ domain](<01 🛎️🫥 Concierge agent.md>) is
+    * a user's [Agent 🫥 vault](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) 
+    * that functions like a personal work-order system for users, 
+    * allowing domains to add tasks to the user's queue without a clear definition of how those tasks will be executed; 
+    * e.g., if someone activates the recovery mode on a user's lost glasses, that creates a task on the user's [Concierge 🛎️ agent](<01 🛎️🫥 Concierge agent.md>) to pick up the glasses.
 
     ---
+    <br/>
 
-1. **What are examples for Concierge usages in NLWeb?**
+2. **What are examples for Concierge usages in NLWeb?**
 
-    - [Custodian 🧳](<../../70 🌳 Ambient/71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) domains leverage Concierges 🛎️ to help users recover a lost [Thing 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>).
-
-    - [Vitalogist 💖](<../09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) domains leverage Concierges 🛎️ to book exams and medical appointments for users.
-
-    - [Pizzerias 🍕](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/04 🍽️ Order pizza 🍕/01 🍕 Customer @ Home 🏠/01 🏠 Order pizza.md>) leverage Concierges 🛎️ to find a courier for delivery.
-
-    ---
-
-1. **How do Concierges receive task requests?**
-
-    Concierges receive tasks in natural text - e.g., book an appointment with a cardiologist.
+    |Domain|Usage
+    |-|-
+    | [Custodian 🧳](<../../70 🌳 Ambient/71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) | Help users recover a lost [Thing 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>).
+    | [Vitalogist 💖](<../09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) | Book exams and medical appointments for users.
+    | [Pizzeria 🍕](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/04 🍽️ Order pizza 🍕/01 🍕 Customer @ Home 🏠/01 🏠 Order pizza.md>) |Find a courier for delivery.
 
     ---
+    <br/>
 
-1. **How do Concierges prevent task spam?**
 
-    Concierges ask users to confirm any inbound work order from a domain. 
-    - For frequent domains, users can ask their Concierge 🛎️ to always trust or always ban the task-requester domain.
+5. **How do Concierges handle inbound tasks?**
 
-    ---
+    ![](<00 📎 Assets/🛎️🫥 Concierge.png>)
 
-1. **How do Concierges handle inbound tasks?**
-
-    Concierges take the following steps to handle inbound tasks:
-    - 1/ create a strategy (i.e., line of thought) to execute the task;
-    - 2/ ask the user's [Finder 🔎](<../10 🔎 Finders/02 🔎🫥 Finder vault.md>) to find suitable [Suppliers 🏭](<02 🏭🎭 Supplier role.md>) for the steps require to perform the task;
-    - 3/ ask the user's [Persona 🧢](<../02 🧢 Personas/02 🧢🫥 Persona agent.md>) to filter and sort the list of Suppliers according to the user's preferences and restrictions;
-    - 4/ review the execution plan based on the Suppliers available;
-    - 5/ ask the user to select one or more options for the suggested strategy;
-    - 6/ order the product or service directly from the Suppliers;
-    - 7/ monitor the lifecycle of the task and notify the user about changes.
+    | #| Category|Step
+    |-|-|-
+    |1| `Chat`| On [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) with a [Host 🤗 domain](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) , the user asks for a task that requires the help of a [Supplier 🏭 domain](<02 🏭🎭 Supplier role.md>) (e.g., deliver a pizza).
+    |2| `Task` | The [Host 🤗 domain](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) invokes the user's [Concierge 🛎️ agent](<01 🛎️🫥 Concierge agent.md>) to handle the task (e.g., find a courier to deliver the pizza).
+    |3| `Find`| The [Concierge 🛎️ agent](<01 🛎️🫥 Concierge agent.md>) creates a strategy to execute the task, and ask the user's [Finder 🔎 agent](<../10 🔎 Finders/02 🔎🫥 Finder vault.md>) to find suitable [Supplier 🏭 domains](<02 🏭🎭 Supplier role.md>) for the steps require to perform the task.
+    |4| `Sort`| The [Concierge 🛎️ agent](<01 🛎️🫥 Concierge agent.md>) asks the user's [Curator 🧚 agent](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>) to filter and sort the list of [Supplier 🏭 domains](<02 🏭🎭 Supplier role.md>)  according to the user's preferences and restrictions.
+    |5| `Agree`| The [Concierge 🛎️ agent](<01 🛎️🫥 Concierge agent.md>) reviews the execution plan based on the sorted [Supplier 🏭 domains](<02 🏭🎭 Supplier role.md>), and asks the user to select one or more options for the suggested strategy.
+    |6| `Submit` | The [Concierge 🛎️ agent](<01 🛎️🫥 Concierge agent.md>) orders the products or services directly from the [Supplier 🏭 domains](<02 🏭🎭 Supplier role.md>).
+    |7| `Monitor`| The [Concierge 🛎️ agent](<01 🛎️🫥 Concierge agent.md>) monitors the lifecycle of the orders sent to the [Supplier 🏭 domains](<02 🏭🎭 Supplier role.md>) and notify the user about changes.
 
     ---
+    <br/>
 
-1. **Do Concierges speak in natural language with Suppliers?**
+
+6. **How do Concierges receive task requests?**
+
+    [Concierge 🛎️ agents](<01 🛎️🫥 Concierge agent.md>) receive tasks in natural text; 
+    - e.g., book an appointment with a cardiologist.
+
+    ---
+    <br/>
+
+7. **How do Concierges prevent task spam?**
+
+    [Concierge 🛎️ agents](<01 🛎️🫥 Concierge agent.md>) ask users to confirm any inbound work order from a [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>). 
+    - For frequent [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>), users can ask their [Concierge 🛎️ agent](<01 🛎️🫥 Concierge agent.md>) to always trust or always ban the task-requester domain.
+
+    ---
+    <br/>
+
+8. **Do Concierges speak in natural language with Suppliers?**
 
     No necessarily. 
     
-    * Concierges look at the supplied services exposed in the Manifest of [Suppliers 🏭](<02 🏭🎭 Supplier role.md>), which may or may not support natural language requests. 
+    * [Concierge 🛎️ agents](<01 🛎️🫥 Concierge agent.md>) look at the supplied services exposed in the [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) of [Supplier 🏭 domains](<02 🏭🎭 Supplier role.md>), which may or may not support natural language requests. 
     
-    * If necessary, Concierges translate the user's natural language request into a structure API request using JSON or XML.
+    * If necessary, [Concierge 🛎️ agents](<01 🛎️🫥 Concierge agent.md>) translate the user's natural language request into a structure API request using JSON or XML.
 
     ---
+    <br/>
 
-1. **Can Concierges orchestrate tasks with multiple Suppliers?**
+9. **Can Concierges orchestrate tasks with multiple Suppliers?**
 
-    Yes. Concierges create strategies to be performed by one or more [Suppliers 🏭](<02 🏭🎭 Supplier role.md>).
-
-    ---
-
-1. **Can Concierges know about the details of sub-Suppliers?**
-
-    No. Concierges speak with [Suppliers 🏭](<02 🏭🎭 Supplier role.md>), but don't know which sub-Suppliers they speak with.
+    Yes. 
+    * [Concierge 🛎️ agents](<01 🛎️🫥 Concierge agent.md>) create strategies to be performed by one or more [Supplier 🏭 domains](<02 🏭🎭 Supplier role.md>).
 
     ---
+    <br/>
 
-1. **How can Concierges be implemented?**
+10. **Can Concierges know about the details of sub-Suppliers?**
 
-    Concierges will typically:
-    - use GenAI to understand requests in natural language;
-    - use GenAI agents to orchestrate and execute the requests;
+    No. 
+    * [Concierge 🛎️ agents](<01 🛎️🫥 Concierge agent.md>) speak with [Supplier 🏭 domains](<02 🏭🎭 Supplier role.md>), but don't know which sub-Suppliers they speak with.
+
+    ---
+    <br/>
+
+11. **How can Concierges be implemented?**
+
+    [Concierge 🛎️ agents](<01 🛎️🫥 Concierge agent.md>) will typically:
+    - understand requests in natural language;
+    - orchestrate and execute the requests;
     - use crowd sourcing platforms like Amazon Mechanical Turk and Task Rabbit.
 
     ---
+    <br/>
