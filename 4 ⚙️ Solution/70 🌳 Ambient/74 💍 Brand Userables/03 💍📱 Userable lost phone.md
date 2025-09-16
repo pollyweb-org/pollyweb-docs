@@ -4,27 +4,55 @@
 
 1. **How can users find their phone with their Userable?**
 
-    If an owner misplaces their phone, they can [tap 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) their [Userable 💍 thing](<01 💍 Userable thing.md>) in someone else's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to:
+    Consider a scenario where a senior person is returning home alone and accidentally leaves their bag 👜 on a taxi 🚖, with the home keys and the phone inside in silent mode.
+    * Because the phone is in silent mode, its useless to call the phone.
+    * Nowadays, we don't memorize phone numbers, so the person can't call a relative.
+    * FindMy apps and [UWB tags 📺](<../../../2 🏔️ Landscape/3 🌳 Ambient landscape/02 🔑 Smart Keys/11 📺 Apple Key UWB.md>)  can't help, because the owner typically needs another of his authenticated devices (e.g., a phone, a tablet, or laptop).
+
+    With NLWeb, the person can ask anyone else to use their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and [tap 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) one of the person's [Userable 💍 things](<01 💍 Userable thing.md>) (e.g., wedding ring, neckless, watch) in order to:
     - read their landing notes for memory tips, 
-    - authenticate to access their owner area (e.g., face scan) 
-    - see the current location of their phone, 
-    - remotely ring their phone, 
-    - and contact any of their contacts. 
+    - authenticate to access their owner area (e.g., face scan),
+    - call any of their emergency contacts,
+    - see the current location of their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) (like Apple Find My), 
+    - and remotely ring their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) (like Apple Find My). 
 
     ---
+    <br/>
 
-1. **How does it work?**
+2. **How does it work?**
 
     ![](<00 📎 Assets/💍 Userable Phone.png>)
 
     |#|Category|Step|
     |-|-|-
-    |1| `Tap the NFC` | A guest user [taps 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) the [rotating NFC tag 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/11 📺 NFC authentication.md>) of the [Userable 💍 thing](<01 💍 Userable thing.md>) with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>). 
-    |2| `Interact`| A [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) opens with the [Userable's Wand 🪄 domain](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>), allowing the guest user to read the landing notes that the owner user left, and allowing the guest to active the emergency script defined by the owner user.
-    |3| `` | 
-    |4| `` | 
-    |5| `` | 
-    |6| `` | 
-    |7| `` | 
+    |1| `Tap` | A guest user uses their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to [tap 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) the [rotating NFC tag 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/11 📺 NFC authentication.md>) of the owner's [Userable 💍 thing](<01 💍 Userable thing.md>). 
+    |2| `Read`| The guest's [Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) opens a [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) with the [Userable's Wand 🪄 domain](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>), allowing the guest user to read the landing notes that the owner user left.
+    |3| `Admin` | The guest user asks the [Userable's Wand 🪄 domain](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>) to access the owner's admin area, who then directs the request to the [owner's Custodian 🧳 agent](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>).
+    |4| `Face` | The [owner's Custodian 🧳 agent](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) asks the [owner's Identity 🆔 agent](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) to authenticate the owner with a [face scan 😶](<../../30 🫥 Agents/05 🆔 Identities/04 🆔😶 Face scan.md>) using the guest's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+    |5| `Ring` |  The [owner's Custodian 🧳 agent](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) then informs the owner about the location of owner's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), and allows them to remotely ring the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>). 
+    |6| `Circle` | The owner can then access the contact details of their personal circle via the [owner's Custodian 🧳 agent](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>). 
 
     ---
+    <br/>
+
+
+1. **What does the Chat look like?**
+
+    Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) as an example.
+        
+    
+    | Service | Prompt | User
+    | - | - | - |
+    | | | 🔆 [scan](<../../20 🧑‍🦰 UI/22 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>)
+    | 🔎 [Finder](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Wand (4.3 ⭐)  [+] 
+    | 🪄 [Wand](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>) | ℹ️ Userable: wedding ring [+]
+    | 🪄 [Wand](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>)  | 😃 Hi! What do you need? <br/>- [ Private ] access <br/>- [ Something else ] | > Private
+    | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Flow: authenticate [+]
+    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. 📸    | 🙂 smile
+    | 🧳 [Custodian](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>)| 🫥 What do you need? <br/>- [ Ring ] my Wallet <br/>- [ Circle ] Contacts <br/>- [ Something else ] | > Circle
+    | 🧳 [Custodian](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) | 🫥 Which one? <br/>- [ Jake ] <br/>- [ Spirit ] | > Spirit
+    | 🧳 [Custodian](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) | 🫥 Options for Spirit: <br/>- Call [ Mobile ] <br/>- Call [ Work ] <br/> - [ Back ] to list | > Mobile
+    | 🧳 [Custodian](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) | ✅ Calling Spirit's Mobile...
+
+    ---
+    <br/>
