@@ -11,8 +11,37 @@
     - notify the health insurance company.
     
     ---
+    <br/>
 
-1. **How does it work?**
+
+1. **What does the Chat look like?**
+
+    Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) as an example.
+        
+    | Service | Prompt  | User 
+    |-|-|-
+    | | | 🔆 [tap](<../../20 🧑‍🦰 UI/22 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>)
+    | 🔎 [Finder](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Wand (4.3 ⭐)  [+] 
+    | 🪄 [Wand](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>) | ℹ️ Userable: wedding ring [+]
+    | 🪄 [Wand](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>) | 😃 Hi! What do you need? <br/> - [ Private ] access<br/>- Activate [ Emergency ] <br/>- [ Something else ] | > Emergency
+    | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Flow: emergency [+]
+    | 🪄 [Wand](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>)| 😐 Are you the owner? [Yes, No] | > No
+    | 🪄 [Wand](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>)| ℹ️ Public notes:<br/>- suffers from epilepsy <br/> - allergic to penicillin
+    | 🪄 [Wand](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>)| 😐 Activate emergency? [Yes, No] <br/> - I'll need your location <br/> - your contact details <br/>- and an identity check | > Yes
+    | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Share location? [Yes, No] | > Yes
+    | 🧢 [Persona](<../../30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) | 🫥 Share contacts ? [Yes, No] | > Yes
+    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Share identity? [Yes, No] | > Yes
+    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.     | 📸 smile
+    | 🪄 [Wand](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>) | ✅ Emergency activated [+]
+    
+
+   
+    
+    ---
+    <br/>
+
+
+2. **How does it work?**
 
     ![](<00 📎 Assets/💍 Userable Emergency.png>)
 
@@ -25,26 +54,75 @@
     |5| `Broadcast`| The [owner's Custodian 🧳 domain](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) executes the emergency script defined by the owner user - e.g., perform a group call with the selected phone numbers, as well as alert emergency services, trusted medical contacts, and health insurance companies.
 
     ---
+    <br/>
 
-2. **What data is collected in an emergency?**
+3. **What data is collected in an emergency?**
     
-    To streamline the process, [Wand 🪄 domains](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>) collect the following information from the guest user.
+    To streamline the process, [Custodian 🧳 domains](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) collect the following information from the guest user.
     
     |Data|Reason
     |-|-
     | `Contact details` | For emergency personal to get in contact with the guest.
     | `Current location`| For emergency personal to quickly get there.
+    | `Identity check`  | To prevent fraud and harassment.
 
     ---
+    <br/>
 
-3. **How are Userable owners protected from harassment frauds?**
 
-    To avoid harassment frauds, before issuing the emergency alarm, [Wand 🪄 domains](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>) request guests to be authenticated by an [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) that is [trusted 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) by the [Wand 🪄 domain](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>).
-
-    ---
 
 4. **How can the process be simplified for speed?**
 
     Owners with high risk (e.g., epilepsy, heart disease) may speed up the rescue by adding instructions directly to the landing page and/or by removing the need for guests to authenticate before activating an emergency.
 
     ---
+    <br/>
+
+3. **How are Userable owners protected from harassment frauds?**
+
+    To avoid harassment frauds, before issuing the emergency alarm, 
+    * owners may request their [Custodian 🧳 agent](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) 
+    * to request guests to be authenticated 
+    * by a [trusted 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>).
+
+    ---
+    <br/>
+
+
+
+4. **How does it compare with Apple Watch emergency?**
+   
+    Apple Watch emergency alerts can be triggered automatically.
+    - Apple can do this because the the watch is constantly monitoring the owner's vital signs and movements, is able to detect if something is wrong, and is able to automatically trigger an emergency alarm on its own.
+  
+    Conversely, [Userable 💍 things](<01 💍 Userable thing.md>) are nothing more than an secure NFC tag embedded into an object carried by the user (e.g., earings, neckless).
+    - Thus, they don't have any monitoring or assessment mechanism, and are unable to trigger emergencies on their own.
+    - But they are much cheaper (less than 1.00$) and resilient enough to be worn all the time without ever running out of power (e.g., a wedding ring may be in place for decades straight).
+    - They can also be used in non-tech environments, like airports and highly secure environments.
+  
+    For automatic emergency alarms,
+    * see [Tapband ⌚ thing](<../76 ⌚ Brand Tapbands/01 ⌚💠 Tapband thing.md>) for collecting health sensor measurements
+    * and [Vitalogists 💖 agents](<../../30 🫥 Agents/09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) for triggering emergency alarms.
+
+
+    ---
+    <br/>
+
+
+2. **How does it compare with Apple iPhone emergency?**
+
+    Anyone in physical control of an Apple iPhone or Android-based device (owner or not) can trigger an emergency event at any time.
+    * This is done without an assessment of the owner's incapacity be assessed first, because typically the phone doesn't have health monitoring mechanisms (unless a smart watch is linked to it).
+    * Some phones already have collision detection mechanisms for car accidents, and that can automatically trigger an emergency alert.
+
+    Conversely, [Userable 💍 things](<01 💍 Userable thing.md>) are nothing more than an secure NFC tag embedded into an object carried by the user (e.g., earings, neckless).
+    - They do allow anyone to trigger an emergency alarm, but are unable to detect collisions in car accidents.
+    - But they are much cheaper (less than 1.00$) and resilient enough to be worn all the time without ever running out of power (e.g., a wedding ring may be in place for decades straight).
+    - They can also be used in non-tech environments, like airports and highly secure environments.
+
+    For automatic emergency alarms,
+    * see [Tapband ⌚ thing](<../76 ⌚ Brand Tapbands/01 ⌚💠 Tapband thing.md>) for collecting health sensor measurements
+    * and [Vitalogists 💖 agents](<../../30 🫥 Agents/09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) for triggering emergency alarms.
+    
+    ---
+    <br/>

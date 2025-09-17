@@ -18,7 +18,7 @@
 2. **Are there any pre-defined Schema Codes?**
 
     Yes. 
-    - The NLWeb protocol is supported by a set of [Schema Codes 🧩](<02 🧩 Schema Code.md>) defined in the nlweb.org [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>). 
+    - The NLWeb protocol is supported by a set of [Schema Codes 🧩](<02 🧩 Schema Code.md>) defined in the `nlweb.org` [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>). 
     
     - This high-level manifest includes the schema definition for all communications explicitly supported by the core NLWeb protocol, but also a set of auxiliary schemas used to implement various business use cases. 
 
@@ -27,7 +27,7 @@
 3. **Is the NLWeb manifest a single point of failure?**
 
     No. 
-    - Domains don't need nlweb.org to be online to access its [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) (nor the Manifest of any other domain, for that matter).
+    - Domains don't need `nlweb.org` to be online to access its [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) (nor the Manifest of any other domain, for that matter).
     - Instead, domains should rely on [Graph 🕸 helper domain](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>) to look up schema definitions.
 
     ---

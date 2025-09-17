@@ -7,9 +7,9 @@
     Consider a scenario where a senior person is returning home alone and accidentally leaves their bag 👜 on a taxi 🚖, with the home keys and the phone inside in silent mode.
     * Because the phone is in silent mode, its useless to call the phone.
     * Nowadays, we don't memorize phone numbers, so the person can't call a relative.
-    * FindMy apps and [UWB tags 📺](<../../../2 🏔️ Landscape/3 🌳 Ambient landscape/02 🔑 Smart Keys/11 📺 Apple Key UWB.md>)  can't help, because the owner typically needs another of his authenticated devices (e.g., a phone, a tablet, or laptop).
+    * FindMy apps (e.g., Apple) and [UWB tags 📺](<../../../2 🏔️ Landscape/3 🌳 Ambient landscape/02 🔑 Smart Keys/11 📺 Apple Key UWB.md>)  can't help, because the owner typically needs another of his authenticated devices (e.g., a phone, a tablet, or laptop).
 
-    With NLWeb, the person can ask anyone else to use their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and [tap 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) one of the person's [Userable 💍 things](<01 💍 Userable thing.md>) (e.g., wedding ring, neckless, watch) in order to:
+    With NLWeb, the person can ask anyone else (e.g., the staff from a restaurant nearby) to use their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and [tap 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) one of the person's [Userable 💍 things](<01 💍 Userable thing.md>) (e.g., wedding ring, neckless, watch) in order to:
     - read their landing notes for memory tips, 
     - authenticate to access their owner area (e.g., face scan),
     - call any of their emergency contacts,
@@ -18,6 +18,8 @@
 
     ---
     <br/>
+
+
 
 2. **How does it work?**
 
@@ -43,12 +45,14 @@
     
     | Service | Prompt | User
     | - | - | - |
-    | | | 🔆 [scan](<../../20 🧑‍🦰 UI/22 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>)
+    | | | 🔆 [tap](<../../20 🧑‍🦰 UI/22 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>)
     | 🔎 [Finder](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Wand (4.3 ⭐)  [+] 
     | 🪄 [Wand](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>) | ℹ️ Userable: wedding ring [+]
-    | 🪄 [Wand](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>)  | 😃 Hi! What do you need? <br/>- [ Private ] access <br/>- [ Something else ] | > Private
+    | 🪄 [Wand](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>)  | 😃 Hi! What do you need? <br/>- [ Private ] access <br/>- Activate [ Emergency ] <br/>- [ Something else ]| > Private
     | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Flow: authenticate [+]
-    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. 📸    | 🙂 smile
+    | 🪄 [Wand](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>) | 😐 Are you the owner? [Yes, No] | > Yes
+    | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Allow guest vaults? [Yes, No]  <br/> -  #1: Any Identity 🆔 <br/>-  #2: Any Custodian 🧳<br/>- [ Always ] for Any Wand 🪄 | > Yes
+    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's the owner.     | 📸 smile
     | 🧳 [Custodian](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>)| 🫥 What do you need? <br/>- [ Ring ] my Wallet <br/>- [ Circle ] Contacts <br/>- [ Something else ] | > Circle
     | 🧳 [Custodian](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) | 🫥 Which one? <br/>- [ Jake ] <br/>- [ Spirit ] | > Spirit
     | 🧳 [Custodian](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) | 🫥 Options for Spirit: <br/>- Call [ Mobile ] <br/>- Call [ Work ] <br/> - [ Back ] to list | > Mobile
@@ -56,3 +60,5 @@
 
     ---
     <br/>
+
+
