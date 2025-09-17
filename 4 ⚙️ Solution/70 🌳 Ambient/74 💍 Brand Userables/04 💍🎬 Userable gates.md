@@ -1,4 +1,4 @@
-💍 Userable at gates FAQ
+💍 Userables to cross gates FAQ
 ===
 
 ![](<00 📎 Assets/💍 Userable Cross Gates.png>)

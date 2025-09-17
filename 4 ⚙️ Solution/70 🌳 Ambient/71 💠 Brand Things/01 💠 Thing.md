@@ -3,17 +3,23 @@
 
 1. **What is a Thing?**
 
-    A Thing 💠 is an [🔆 NFC/QR Locator](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) supported by a [Brand 🍏 domain](<07 🍏🎭 Brand role.md>) that allows users to interact with the physical world using the NLWeb, as if these Things 💠 had a display.
+    A Thing 💠 
+    * is an [🔆 NFC/QR Locator](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) 
+    * brought to life by a [Wand 🪄 domain](<09 🪄🛠️ Wand helper.md>)
+    * to allow users to interact with the physical world via [Chats 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>).
 
     ---
 
-1. **Why are Things important?** 
+2. **Why are Things important?** 
 
-    While it's already possible to interact with any electronic device that has a display (e.g., washing machines, air conditioners, home printers), as well as with electronic devices without a display (e.g., smart lights), adding an internet-connected touch display or a mobile app-based remote control to any electrical device brings significant challenges and costs, while being close to impossible for non-electrical objects and animals (e.g., hats, pencils, and dogs).
+    While it's already possible to 
+    * interact with any electronic device that has a display (e.g., washing machines, air conditioners, home printers), as well as with electronic devices without a display (e.g., smart lights), 
+    * adding an internet-connected touch display or a mobile app-based remote control to any electrical device brings significant challenges and costs, 
+    * while being close to impossible for non-electrical objects and animals (e.g., hats, pencils, and dogs).
 
     ---
 
-2. **What are examples of Things?**
+3. **What are examples of Things?**
 
     ![](<00 📎 Assets/💠 Thing.png>)
 

@@ -1,8 +1,8 @@
-💍 Userable find my phone FAQ
+💍 Userables for confused senior user FAQ
 ===
 
 
-1. **How can users find their phone with their Userable?**
+1. **How can a confused senior user leverage their Userables?**
 
     Consider a scenario where a senior person is returning home alone and accidentally leaves their bag 👜 on a taxi 🚖, with the home keys and the phone inside in silent mode.
     * Because the phone is in silent mode, its useless to call the phone.
@@ -52,7 +52,7 @@
     | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Flow: authenticate [+]
     | 🪄 [Wand](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>) | 😐 Are you the owner? [Yes, No] | > Yes
     | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Allow guest vaults? [Yes, No]  <br/> -  #1: Any Identity 🆔 <br/>-  #2: Any Custodian 🧳<br/>- [ Always ] for Any Wand 🪄 | > Yes
-    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's the owner.     | 📸 smile
+    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's the owner.     | [📸 smile](<../../30 🫥 Agents/05 🆔 Identities/04 🆔😶 Face scan.md>)
     | 🧳 [Custodian](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>)| 🫥 What do you need? <br/>- [ Ring ] my Wallet <br/>- [ Circle ] Contacts <br/>- [ Something else ] | > Circle
     | 🧳 [Custodian](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) | 🫥 Which one? <br/>- [ Jake ] <br/>- [ Spirit ] | > Spirit
     | 🧳 [Custodian](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) | 🫥 Options for Spirit: <br/>- Call [ Mobile ] <br/>- Call [ Work ] <br/> - [ Back ] to list | > Mobile

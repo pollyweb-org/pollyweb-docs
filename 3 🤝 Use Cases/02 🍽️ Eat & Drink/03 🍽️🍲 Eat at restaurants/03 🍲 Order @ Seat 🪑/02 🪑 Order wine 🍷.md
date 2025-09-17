@@ -15,7 +15,7 @@ How to order wine to the table at a restaurant?
 | 🍲 Restaurant | ℹ️ Order ($3): [Change] <br/> - 1 red wine glass 🍷 ($3)
 | 💖 [Vitalogist](<../../../../4 ⚙️ Solution/30 🫥 Agents/09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) | 🫥 Confirm? [Yes, No] <br/> - you came by car. | > Yes
 | 🆔 [Identity](<../../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Share over 21? [Yes, No]     | > Yes
-| 🆔 [Identity](<../../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. 📸 | 🙂 smile
+| 🆔 [Identity](<../../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.  [📸 smile](<../../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/04 🆔😶 Face scan.md>)
 | 🍲 Restaurant | ✅ Order submitted [+]
 | 🍲 Restaurant | ⏳ Preparing your order... [+]
 |...
