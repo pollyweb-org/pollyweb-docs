@@ -9,7 +9,7 @@
     | Service | Prompt | User
     | - | - | - |
     | 🤗 [Host](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) | 😐 Start risky task [Yes, No] | > Yes
-    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 smile](<../../30 🫥 Agents/05 🆔 Identities/04 🆔😶 Face scan.md>)
+    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../30 🫥 Agents/05 🆔 Identities/04 🆔😶 Face scan.md>)
     | 🤗 [Host](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) | ✅ Verified, task started!
     |
 
@@ -44,7 +44,7 @@
     | 🤗 [Host](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) | ℹ️ Userable 💍 presented.
     | 🤗 [Host](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) | 😃 Are you the owner? [Yes, No] | > No
     | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Allow guest vaults? [Yes, No]  <br/> -  #1: Any Identity 🆔 <br/>- [ Always ] for Any Host 🤗 | > Always
-    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's the owner.   | [📸 smile](<../../30 🫥 Agents/05 🆔 Identities/04 🆔😶 Face scan.md>)
+    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's the owner.   | [📸 selfie](<../../30 🫥 Agents/05 🆔 Identities/04 🆔😶 Face scan.md>)
     | 🤗 [Host](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) | ✅ Ownership confirmed.
     |
 
@@ -52,7 +52,9 @@
 
     |Industry|Use case 🤝
     |-|-
-    |`Payments`|[payments 🤝 ](<../../70 🌳 Ambient/74 💍 Brand Userables/05 💍💳 Userable pay salesperson.md>) 
+    | `Security`| 🎬 [Cross gates with a Userable at an airport](<../../70 🌳 Ambient/74 💍 Brand Userables/04 💍🎬 Userable gates.md>)
+    | `Payments` | 💍 [Pay a salesperson using a Userable](<../../70 🌳 Ambient/74 💍 Brand Userables/05 💍💳 Userable pay salesperson.md>) 
+    | `Payments` | [💳 Pay seller with a Userable on a kiosk](<../../70 🌳 Ambient/74 💍 Brand Userables/06 💍💳 Userable pay kiosk.md>) 
     |`Payments` | [💁‍♀️ Pay a restaurant bill with a Userable](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/03 🍽️🍲 Eat at restaurants/07 🍲 Staff @ Tables 💁‍♀️/04 💁‍♀️ Bill userable 💍.md>)|
     |`Social`| [💍 Aid a confused senior with a Userable](<../../70 🌳 Ambient/74 💍 Brand Userables/03 💍📱 Userable senior user.md>)
 
@@ -143,15 +145,21 @@
 
     On NLWeb, the [face biometric verification 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/01 📺 Difference.md>) works as follows:
 
-    - the user always first presents something they own (e.g., a [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)) plus context information (e.g., GPS coordinates and device configuration);
+    - the user always first presents *something they own* (e.g., a [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)) plus context information (e.g., GPS coordinates and device configuration);
 
-    - then the user almost always presents who they are (e.g., their face, with a liveness check), which may be skipped soon after a successful authentication around the same geographic region with the same device;
+    - then the user almost always presents *who they are* (e.g., their face, with a liveness check), which may be skipped soon after a successful authentication around the same geographic region with the same device;
 
-    - eventually, in highly secure scenarios, the user may also have to present something they know (e.g., a password).
+    - eventually, in highly secure scenarios, the user may also have to present *something they know* (e.g., a password).
 
     To be able to spoof the authentication, an attacker would have to have the user's device and be able to inject a stream that passes a liveness check. Occasionally, the password also.
 
     - This is already more secure than a Visa touchless payment, where only the card is required to be presented always, and the password is required occasionally.
+
+    |Something<br/>the user|Visa<br/>card|Userable<br/>Thing|
+    |-|-|-
+    |`Has`  |
+    |`Knows`|
+    |`Is`   |
 
     ---
     <br/>

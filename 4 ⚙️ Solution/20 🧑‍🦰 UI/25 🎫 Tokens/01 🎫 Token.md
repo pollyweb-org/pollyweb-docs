@@ -94,7 +94,7 @@
     | 🔎 [Finder](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Casino (4.4 ⭐) [+]
     | 🎰 Casino   | ℹ️ Request for minimum age. [+]
     | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Share over 21? [Yes, No]      | > Yes
-    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 smile](<../../30 🫥 Agents/05 🆔 Identities/04 🆔😶 Face scan.md>)
+    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../30 🫥 Agents/05 🆔 Identities/04 🆔😶 Face scan.md>)
     | 🎰 Casino   | ✅ Welcome, please enter!
     ||
 
