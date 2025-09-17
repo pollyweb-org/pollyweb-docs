@@ -1,4 +1,4 @@
-🆔 Identity face scans FAQ
+🆔 Identity face verification FAQ
 ===
 
 1. **What are examples of remote face verification?**
@@ -85,6 +85,23 @@
     - Level 2 test, conducted in October 2023, also on the same device and OS, with 750 spoof attempts, likewise returned an APCER of 0%. BPCER details are in the final report. 
 
     The confirmation letters (PDFs) are available on the iBeta website, although the full BPCER statistics aren't public in those letters.
+
+    ---
+    <br/>
+
+1. **What are the conditions for face biometrics to be spoofed?**
+
+    On NLWeb, the [face biometric verification 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/01 📺 Difference.md>) works as follows:
+
+    - the user always first presents something they own (e.g., a [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)) plus context information (e.g., GPS coordinates and device configuration);
+
+    - then the user almost always presents who they are (e.g., their face, with a liveness check), which may be skipped soon after a successful authentication around the same geographic region with the same device;
+
+    - eventually, in highly secure scenarios, the user may also have to present something they know (e.g., a password).
+
+    To be able to spoof the authentication, an attacker would have to have the user's device and be able to inject a stream that passes a liveness check. Occasionally, the password also.
+
+    - This is already more secure than a Visa touchless payment, where only the card is required to be presented always, and the password is required occasionally.
 
     ---
     <br/>
