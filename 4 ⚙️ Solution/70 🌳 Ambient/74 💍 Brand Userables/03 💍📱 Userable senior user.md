@@ -48,7 +48,7 @@
     | | | 🔆 [tap](<../../20 🧑‍🦰 UI/22 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>)
     | 🔎 [Finder](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Wand (4.3 ⭐)  [+] 
     | 🪄 [Wand](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>) | ℹ️ Userable: wedding ring [+]
-    | 🪄 [Wand](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>)  | 😃 Hi! What do you need? <br/>- [ Private ] access <br/>- Activate [ Emergency ] <br/>- [ Something else ]| > Private
+    | 🪄 [Wand](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>)  | 😃 Hi! What do you need? <br/>- [ Private ] access <br/>- [ Something else ]| > Private
     | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Flow: authenticate [+]
     | 🪄 [Wand](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>) | 😐 Are you the owner? [Yes, No] | > Yes
     | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Allow guest vaults? [Yes, No]  <br/> -  #1: Any Identity 🆔 <br/>-  #2: Any Custodian 🧳<br/>- [ Always ] for Any Wand 🪄 | > Yes
