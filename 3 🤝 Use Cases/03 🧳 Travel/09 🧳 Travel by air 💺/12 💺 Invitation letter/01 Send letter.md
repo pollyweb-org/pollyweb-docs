@@ -34,7 +34,7 @@ Send an invitation letter before a trip
 | 🏛️ Council | ℹ️ Guest IDs received [+] <br> - Marco Moreau <br/> - Sierra Sinclair
 | 🏛️ Council | ℹ️ Review the letter and sign.
 | 🆔 [Identity](<../../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Sign terms? 📄 [Yes, No] | > Yes
-| 🆔 [Identity](<../../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.  [📸 smile](<../../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/04 🆔😶 Face scan.md>)
+| 🆔 [Identity](<../../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/04 🆔😶 Face scan.md>)
 | 💳 [Payer](<../../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Pay $10.00 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
 | 🏛️ Council | ✅ Invitation letter issued 📄
 | 📇 [Mingler](<../../../../4 ⚙️ Solution/30 🫥 Agents/08 📇 Minglers/01 📇🫥 Mingler agent.md>) | 🫥 Forward letter? [Yes, No] <br/> - to 🐭 mouse, 🧕 sissy   | > Yes

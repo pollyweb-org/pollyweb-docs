@@ -8,6 +8,7 @@
     * e.g., jewelry, glasses, cards, keyholders, stickers, and wearables. 
 
     ---
+    <br/>
 
 2. **What can users do with their Userables?**
 
@@ -17,14 +18,15 @@
 
     |||
     |-|-
-    | 🚨 [Emergencies](<02 💍🚨 Userable emergencies.md>)| Scripted steps to execute on health emergencies.
-    | 📱 [Confused senior](<03 💍📱 Userable senior user.md>) | Inform relatives using someone else's Wallet.
-    | 💳 [Pay a salesperson](<05 💍💳 Userable pay salesperson.md>) |  pay to [Seller 💵 domains](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) using the [Seller's Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
-    || Pay to [Seller 💵 domains](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) using the [Seller's Kiosk 🖥️ devices](<../../60 🧰 Edge/68 🏪 Terminals/01 🖥️ Info kiosk.md>)
-    || Pay variable length metropolitan rides;
-    | 🎬 [Cross gates](<04 💍🎬 Userable gates.md>)| cross an airport border control.
+    | 🚨 [Trigger an emergency](<02 💍🚨 Userable emergencies.md>)| Scripted steps to execute on health emergencies.
+    | 📱 [Aid a confused senior](<03 💍📱 Userable senior user.md>) | Inform relatives using someone else's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+    | 🎬 [Cross gates](<04 💍🎬 Userable gates.md>)| Cross an airport border control.
+    | 💳 [Pay a salesperson](<05 💍💳 Userable pay salesperson.md>) | Pay a [Seller 💵 domain](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) using the [Seller's Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+    | [💳 Pay seller at a kiosk](<06 💍💳 Userable pay kiosk.md>) | Pay a [Seller 💵 domain](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) using the [Seller's Kiosk 🖥️](<../../60 🧰 Edge/68 🏪 Terminals/01 🖥️ Info kiosk.md>).
+    | [💳 Pay variable-cost rides](<07 💍💳 Userable pay metro.md>) | Pay variable length metropolitan rides.
 
     ---
+    <br/>
 
 3. **Are Userables trackable, like Apple AirTags?**
 
@@ -35,6 +37,7 @@
     - Conversely, Apple Tags can be trackable because they use Bluetooth Low Energy (BLE) to communicate with any Apple device from up to 100 meters away.
 
     ---
+    <br/>
 
 4. **Are Userables protected from spoofing?**
 
@@ -50,11 +53,13 @@
       - and if the sequence was respected.
 
     ---
+    <br/>
 
 5. **How is the dynamic code generation enforced?**
 
-    When a user registers a [Userable 💍 thing](<01 💍 Userable thing.md>) on the user's [Custodian 🧳 agent](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>):
-    - the agent fetches the rotation algorithm from the [Brand 🍏 domain](<../71 💠 Brand Things/07 🍏🎭 Brand role.md>) that manufactured the [Userable 💍 thing](<01 💍 Userable thing.md>);
-    - then asks the user to scan the [Userable 💍 thing](<01 💍 Userable thing.md>) twice to see if the rotation works. 
+    When a user registers a [Userable 💍 thing](<01 💍 Userable thing.md>) on the user's [Custodian 🧳 agent](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>),
+    * the agent fetches the rotation algorithm from the [Brand 🍏 domain](<../71 💠 Brand Things/07 🍏🎭 Brand role.md>) that manufactured the [Userable 💍 thing](<01 💍 Userable thing.md>),
+    * then asks the user to scan the [Userable 💍 thing](<01 💍 Userable thing.md>) twice to see if the rotation works. 
 
     ---
+    <br/>
