@@ -11,8 +11,9 @@
     ---
     <br/>
     
+
     
-2. **How do users set up an Identity domain?**
+3. **How do users set up an Identity domain?**
 
     ![](<00 📎 Assets/🆔 Biometrics.png>)
 
@@ -32,7 +33,7 @@
     ---
     <br/>
     
-3. **Do Identity domains always authenticate users the same way?**
+4. **Do Identity domains always authenticate users the same way?**
 
     No. It depends on the legislation, registration, and context.
 
@@ -45,7 +46,7 @@
     ---
     <br/>
     
-4. **Can users with dual nationality bind to two Identity domains?**
+5. **Can users with dual nationality bind to two Identity domains?**
 
     Yes. 
     * Users with dual nationality may even have two or more bound [Identity 🆔 vault](<03 🆔🫥 Identity agent.md>), one per nationality. 
@@ -53,7 +54,7 @@
     ---
     <br/>
     
-5. **What authentication mechanisms are supported by Wallets?**
+6. **What authentication mechanisms are supported by Wallets?**
 
     NLWeb natively supports key pairs (passkeys) and one time passwords (OTP). 
     * However, [Identity 🆔 vault](<03 🆔🫥 Identity agent.md>) are free to implement whatever authentication mechanisms they want using the generic tools available. 
@@ -68,7 +69,7 @@
     ---
     <br/>
     
-6. **How is voice recognition secured with an audio input?**
+7. **How is voice recognition secured with an audio input?**
 
     NLWeb discourages voice recognition as authentication method (except in supervised scenarios) because Generative AI can mimic a person's voice with 3 seconds of original audio.
 

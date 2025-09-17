@@ -1,17 +1,67 @@
 🆔 Identity face verification FAQ
 ===
 
-1. **What are examples of remote face verification?**
 
-    |Category|Purpose
+1. **What does the Chat look like?**
+
+    Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) as an example of [face verification 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/01 📺 Difference.md>).
+        
+    | Service | Prompt | User
+    | - | - | - |
+    | 🤗 [Host](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) | 😐 Start risky task [Yes, No] | > Yes
+    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 smile](<../../30 🫥 Agents/05 🆔 Identities/04 🆔😶 Face scan.md>)
+    | 🤗 [Host](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) | ✅ Verified, task started!
+    |
+
+
+    Other use cases of [face verification 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/01 📺 Difference.md>) include.
+
+    |Industry|Use case 🤝
     |-|-
-    |[💍 Userable guests](<../../70 🌳 Ambient/74 💍 Brand Userables/03 💍📱 Userable lost phone.md>) | View private contacts from a guest device.
-    |[🎫 Identity Tokens](<../../../3 🤝 Use Cases/03 🧳 Travel/08 🧳 Stay at hotels 🏨/03 🏨 Guest @ Reception 🛎️/04 🛎️ Check-in.md>)| Share identity on hotel check-ins.
+    |`Travel`| [👨‍✈️ Start a shift as a taxi driver](<../../../3 🤝 Use Cases/03 🧳 Travel/04 🧳 Travel by taxi 🚕/9 🚕 Driver @ Car 👨‍✈️/01 👨‍✈️ Start shift.md>)
+    |`Hospitality`|[🎰 Enter anonymously at a casino](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/08 🎰 Drink at casinos/1 Customer @ Door 🚪/11. Enter anonymously.md>)
+    |`Hospitality`|[🏨 Check-in at a hotel](<../../../3 🤝 Use Cases/03 🧳 Travel/08 🧳 Stay at hotels 🏨/03 🏨 Guest @ Reception 🛎️/04 🛎️ Check-in.md>)
+    |`Financial`|[🏧 Withdraw cash from an ATM](<../../../3 🤝 Use Cases/05 🛠️ Services/03 🏧 Withdraw at ATMs/10 Customer @ ATM/11 Withdraw cash.md>)
+    |`Governments`|[🏛️ Request a proof of address](<../../../3 🤝 Use Cases/08 🏛️ Public Services/08 📮 Prove address/1 Customer @ Anywhere/11. Proof of Address.md>)
+    |`Health`| [💍 Trigger a Userable emergency](<../../70 🌳 Ambient/74 💍 Brand Userables/02 💍🚨 Userable emergencies.md>)
+    
 
     ---
     <br/>
 
-2. **How does remote face verification works?**
+
+2. **Can a Wallet authenticate someone other than the user?**
+
+    Yes. 
+    * A [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) owned by person `A` can authenticate a person `B` in a [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) when the [Chat's Host 🤗 domain](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) invites the [Identity 🆔 vault](<03 🆔🫥 Identity agent.md>) of person `B` into the [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>).
+    * This is particularly useful when working with [Userable 💍 things](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) where the owner's identity needs to be confirmed on [payments 🤝 scenarios](<../../70 🌳 Ambient/74 💍 Brand Userables/05 💍💳 Userable pay salesperson.md>) and [item recovery 🤝 scenarios](<../../70 🌳 Ambient/74 💍 Brand Userables/03 💍📱 Userable senior user.md>) via another [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+
+    Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) as an example.
+        
+    
+    | Service | Prompt | User
+    | - | - | - |
+    | 🤗 [Host](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) | ℹ️ Userable 💍 presented.
+    | 🤗 [Host](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) | 😃 Are you the owner? [Yes, No] | > No
+    | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Allow guest vaults? [Yes, No]  <br/> -  #1: Any Identity 🆔 <br/>- [ Always ] for Any Host 🤗 | > Always
+    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's the owner.   | [📸 smile](<../../30 🫥 Agents/05 🆔 Identities/04 🆔😶 Face scan.md>)
+    | 🤗 [Host](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) | ✅ Ownership confirmed.
+    |
+
+    Other use cases of [face verification 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/01 📺 Difference.md>) for guest users include.
+
+    |Industry|Use case 🤝
+    |-|-
+    |`Payments`|[payments 🤝 ](<../../70 🌳 Ambient/74 💍 Brand Userables/05 💍💳 Userable pay salesperson.md>) 
+    |`Payments` | [💁‍♀️ Pay a restaurant bill with a Userable](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/03 🍽️🍲 Eat at restaurants/07 🍲 Staff @ Tables 💁‍♀️/04 💁‍♀️ Bill userable 💍.md>)|
+    |`Social`| [💍 Aid a confused senior with a Userable](<../../70 🌳 Ambient/74 💍 Brand Userables/03 💍📱 Userable senior user.md>)
+
+
+    ---
+    <br/>
+
+
+3. **How does remote face verification works?**
 
     ![](<00 📎 Assets/🆔 Online.png>)
 

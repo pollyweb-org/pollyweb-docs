@@ -21,7 +21,7 @@ To start the check-in over a chat, users can:
 | 🧚 [Curator](<../../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) | 🫥 Share meal preferences?  [Yes, No] | > Yes
 | 💖 [Vitalogist](<../../../../4 ⚙️ Solution/30 🫥 Agents/09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) | 🫥 Share food allergies?  [Yes, No] | > Yes
 | 🆔 [Identity](<../../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Sign terms? 📄 [Yes, No] | > Yes
-| 🆔 [Identity](<../../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. 📸 | 🙂 smile
+| 🆔 [Identity](<../../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.  [📸 smile](<../../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/04 🆔😶 Face scan.md>)
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Save boarding passes? [Yes, No] | > Yes
 | 🛩️ Airline    | ✅ You're checked-in.
 | [👀 Ads](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) | 🫥 Explore follow-up actions? [No] <br/>- [ 🏨 Book a hotel ] <br/>- [ 🚙 Rent a car ] | > No
