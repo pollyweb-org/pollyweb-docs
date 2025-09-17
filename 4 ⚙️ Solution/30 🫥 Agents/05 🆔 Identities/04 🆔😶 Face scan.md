@@ -19,8 +19,9 @@
 
     | # | Step
     |-|-
-    |1| The user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) opens a web-browser window to the liveness check URL of the [Locator's Identity 🆔 vault](<03 🆔🫥 Identity agent.md>), passing anti-fraud information like device location and device configurations.
-    |2| The webpage of the [Identity 🆔 vault](<03 🆔🫥 Identity agent.md>) activates the device's camera to record the user's video for liveness check. It then extracts the relevant images and compares them to the user images on the given [Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>).
+    |1| The user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) <br/>• opens a web-browser window <br/>• to the liveness check URL of the [Locator's Identity 🆔 vault](<03 🆔🫥 Identity agent.md>), <br/>• passing anti-fraud information like device location and device configurations.
+    |2| The webpage of the [Identity 🆔 vault](<03 🆔🫥 Identity agent.md>) <br/>• activates the device's camera to record the user's video for liveness check <br/>• extracts the relevant images <br/>• and compares them to the user images on the given [Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>). 
+    |3| Additionally, depending on the anti-fraud contextualized info, <br/>• the [Identity 🆔 vault](<03 🆔🫥 Identity agent.md>) asks security questions and one-time-passwords (OTP).
 
     ---
     <br/>
@@ -30,12 +31,14 @@
 
     NLWeb advocates for online face authentication between [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and [Identity 🆔 vaults](<03 🆔🫥 Identity agent.md>), without sharing user biometrics with [Seller 💵 domains](<../04 💳 Payers/01 💵🎭 Seller role.md>);
     - e.g., when a [Seller 💵 domain](<../04 💳 Payers/01 💵🎭 Seller role.md>) needs to match a person with a [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>), 
-    - it contacts the [Token's  Identity 🆔 domain](<03 🆔🫥 Identity agent.md>) to perform the authentication via the user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) in a [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>), 
+    - it contacts the [Token's  Identity 🆔 domain](<03 🆔🫥 Identity agent.md>) to perform the authentication 
+    - via the user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) in a [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>), 
     - and only return a success/failure to the [Seller 💵 domain](<../04 💳 Payers/01 💵🎭 Seller role.md>) . 
     
     When offline authentications are required, 
     * i.e. when the user only has a printed QR or and NFC card with the [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>), 
-    * then the [Seller 💵 domain](<../04 💳 Payers/01 💵🎭 Seller role.md>) needs to take the user's picture with a fixed camera in a supervised fashion, 
+    * then the [Seller 💵 domain](<../04 💳 Payers/01 💵🎭 Seller role.md>) needs to take the user's picture 
+    * with a fixed camera in a supervised fashion, 
     * then ask the [Token's  Identity 🆔 domain](<03 🆔🫥 Identity agent.md>) to match the picture with the [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>), 
     * and then delete the picture according to regulatory requirements. 
 

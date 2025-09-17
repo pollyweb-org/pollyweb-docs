@@ -6,12 +6,12 @@
     A Payer 💳 is any [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that sends payments to [Collector 🏦 domains](<01 🏦🛠️ Collector helper.md>) under two categories:
 
     * **[Payer 💳🫥 agents](<04 💳🫥 Payer agent.md>)**: 
-        * these are Payer 💳 domains that act as [Agent 🫥 vaults](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>)
+        * these are [Payer 💳 domains](<03 💳🎭 Payer role.md>) that act as [Agent 🫥 vaults](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>)
         * for users with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), 
         * interacting in [Chats 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) with [Seller 💵 hosts](<01 💵🎭 Seller role.md>).
       
     * **[Payer 💳🛠️ helpers](<05 💳🛠️ Payer helper.md>)**:
-        * these are Payer 💳 domains that act as [Helper 🛠️ domains](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>)
+        * these are [Payer 💳 domains](<03 💳🎭 Payer role.md>) that act as [Helper 🛠️ domains](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>)
         * for other [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>), 
         * paying for agreements with [Biller 🤝 helpers](<06 🤝🛠️ Biller helper.md>).
 
@@ -31,26 +31,26 @@
 3. **Why not leverage the Open Banking protocol?**
 
     While NLWeb follows the Open Banking rational for payments, it requires features not available in Open Banking;
-    - e.g., the ability to jump between bank entities from within a [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) in the user's [Wallet app 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+    - e.g., the ability to jump between bank entities from within a [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) in the user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
 
     ---
     
 4. **What responsibilities do Payers have with invoices?**
 
     None. 
-    * [Collectors 🏦](<01 🏦🛠️ Collector helper.md>) are responsible for invoices.
+    * [Collector 🏦 domains](<01 🏦🛠️ Collector helper.md>) are responsible for invoices.
 
     ---
     
 5. **How does a user bind to their traditional bank?**
 
-    The bank needs to onboard into NLWeb as a Payer 💳.
+    The bank needs to onboard into NLWeb as a [Payer 💳 domain](<03 💳🎭 Payer role.md>).
 
     ---
     
 6. **What happens if a transaction is cancelled?**
 
-    Typically, the money is reverted, but it depends on the relationship between the Payer 💳 and the [Collector 🏦](<01 🏦🛠️ Collector helper.md>).
+    Typically, the money is reverted, but it depends on the relationship between the [Payer 💳 domain](<03 💳🎭 Payer role.md>) and the [Collector 🏦 domain](<01 🏦🛠️ Collector helper.md>).
 
     ---
     
@@ -61,7 +61,7 @@
     - NLWeb can also address that niche, 
         - but NLWeb os a generalist, global, and distributed protocol based on natural language.  
     - Conversely, NLWeb is against any form of central governance for payments 
-        - i.e., there should be multiple channels for Payers 💳 and [Collectors 🏦](<01 🏦🛠️ Collector helper.md>) to communicate;
+        - i.e., there should be multiple channels for [Payer 💳 domains](<03 💳🎭 Payer role.md>) and [Collector 🏦 domains](<01 🏦🛠️ Collector helper.md>) to communicate;
         - e.g., if SWIFT doesn't work, send it via TransferWise.
 
     ---
@@ -96,22 +96,23 @@
     
 11. **Do Payers transfer money to collectors, or pay by card?**
 
-    Payers 💳 and [Collectors 🏦](<01 🏦🛠️ Collector helper.md>) may support multiple ways to transact. 
+    [Payer 💳 domains](<03 💳🎭 Payer role.md>) and [Collector 🏦 domains](<01 🏦🛠️ Collector helper.md>) may support multiple ways to transact. 
     
-    - When multiple choices are possible, Payers 💳 may ask the user for their preference. 
-    - The exact payment method will depend on the transfer methods supported by both parties (e.g., SWIFT, TransferWise), and the user configurations supported by the Payer 💳 (e.g., Visa, MasterCard, Brazilian Pix).
+    - When multiple choices are possible, [Payer 💳 domains](<03 💳🎭 Payer role.md>) may ask the user for their preference. 
+    - The exact payment method will depend on the transfer methods supported by both parties (e.g., SWIFT, TransferWise), and the user configurations supported by the [Payer 💳 domain](<03 💳🎭 Payer role.md>) (e.g., Visa, MasterCard, Brazilian Pix).
 
     ---
     
 12. **Can a payment be reverted or cancelled?**
 
-    Yes. [Collectors 🏦](<01 🏦🛠️ Collector helper.md>) can do initiate it, but Payers 💳 can't.
+    Yes. 
+    * [Collector 🏦 domains](<01 🏦🛠️ Collector helper.md>) can initiate it, but [Payer 💳 domains](<03 💳🎭 Payer role.md>) can't.
 
     ---
     
 13. **Can payments be done with credit/debit notes?**
 
-    Yes, as long as the Payer 💳 and the [Collector 🏦](<01 🏦🛠️ Collector helper.md>) support it.
+    Yes, as long as the [Payer 💳 domain](<03 💳🎭 Payer role.md>) and the [Collector 🏦 domain](<01 🏦🛠️ Collector helper.md>) support it.
 
     ---
     
@@ -121,7 +122,7 @@
 
     NLWeb discourages the usage of blockchain in this scenario for multiple reasons:
 
-    - **simplicity:** if only two entities (Payer 💳 and [Collector 🏦](<01 🏦🛠️ Collector helper.md>)) need to communicate, then two simple mutually authenticated API endpoints are enough to do the job.
+    - **simplicity:** if only two entities ([Payer 💳 domain](<03 💳🎭 Payer role.md>) and [Collector 🏦 domain](<01 🏦🛠️ Collector helper.md>)) need to communicate, then two simple mutually authenticated API endpoints are enough to do the job.
   
     - **scalability:** blockchain's performance degrades as the number of parties increase, which is incompatible with a protocol supporting billions of users;
         - e.g., Sam Altman's [World 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/11 📺 Sam Altman's World.md>) moved from blockchain to an proprietary protocol in 2024 for their digital currency due to scalability limitations.
@@ -140,7 +141,7 @@
 17. **Can Payers read card details from Persona vaults?**
 
     No.
-    * For design simplicity, Payers 💳 store user's card details instead of pulling them from [Persona 🧢](<../02 🧢 Personas/02 🧢🫥 Persona agent.md>) vaults.
-    * Storing card details required special security settings defined by PCI/DSS policies, which Payers already hold but [Persona 🧢](<../02 🧢 Personas/02 🧢🫥 Persona agent.md>) vaults would have to implement.
+    * For design simplicity, [Payer 💳 domains](<03 💳🎭 Payer role.md>) store user's card details instead of pulling them from [Persona 🧢 vaults](<../02 🧢 Personas/02 🧢🫥 Persona agent.md>) .
+    * Storing card details required special security settings defined by PCI/DSS policies, which [Payer 💳 domains](<03 💳🎭 Payer role.md>) already hold but [Persona 🧢 vaults](<../02 🧢 Personas/02 🧢🫥 Persona agent.md>) would have to implement.
 
 ---
