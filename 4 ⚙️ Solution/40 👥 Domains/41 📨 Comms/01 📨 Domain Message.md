@@ -15,6 +15,7 @@
 
 
     ---
+    <br/>
 
 2. **What is contained in a domain message envelope?**
 
@@ -34,6 +35,7 @@
     | **Key**| The name of the corresponding public key in the sender's [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>).
 
     ---
+    <br/>
 
 1. **What are the technical workflows around messages?**
 
@@ -43,6 +45,7 @@
     | [🐌 Asynchronous messages](<../../../5 ⏩ Flows/01 👥⏩ Domains/03 👥⏩🐌 Sender events.md>) | [Domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) send fire-and-forget messages and events. Any eventual answer, if expected, will arrive via another asynchronous message.
 
     ---
+    <br/>
 
 2. **Is this compatible with W3C DIDcomm?**
 
@@ -58,6 +61,7 @@
         - because of this limitation, NLWeb does not implement DIDs.
 
     ---
+    <br/>
 
 3. **How do sender domains prevent man-in-the-middle attacks?**
 
@@ -65,6 +69,7 @@
     - By using a well-known URL prefix plus the receiver’s domain, sender domains rely only on DNS for network discovery.
 
     ---
+    <br/>
 
 4. **How do receiver domains know who sent a message?**
 
@@ -73,6 +78,7 @@
     - Receivers discard envelopes not intended to them.
 
     ---
+    <br/>
 
 5. **How do receiver domains prevent sender impersonation attacks?**
 
@@ -85,6 +91,7 @@
     - The envelope is discarded if the sender’s [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) is not correctly implemented, or the sender’s public key is unable to verify the signature in the envelope.
 
     ---
+    <br/>
 
 6. **How do receiver domains prevent DNS spoofing attacks?**
 
@@ -92,6 +99,7 @@
     - if not implemented, the envelope is discarded.
 
     ---
+    <br/>
 
 7. **How do receiver domains prevent replay attacks?**
 
@@ -101,6 +109,7 @@
     - Receivers discard envelopes with duplicate incoming correlations within accepted time boundaries.
 
     ---
+    <br/>
 
 8. **How do receiver domains handle upgraded schema versions?**
 
@@ -108,6 +117,7 @@
     - Envelopes with unsupported versions are discarded.
 
     ---
+    <br/>
 
 9.  **How do receiver domains reply to incoming messages?**
 
@@ -118,6 +128,7 @@
     - The receiver then processes the incoming envelopes asynchronously by consuming them from the queue - it discards invalid envelopes, and replies to valid ones by sending a new envelope to the sender.
 
     ---
+    <br/>
 
 10. **How do receiver domains differentiate methods?**
 
@@ -125,6 +136,7 @@
     - Receivers discard envelopes with unexpected subjects.
 
     ---
+    <br/>
 
 11. **How can senders know if receivers discarded messages?**
 
@@ -136,10 +148,33 @@
     - the sender will also not be able to validate the receiver's feedback signature, but will try to process the feedback nonetheless.
 
     ---
+    <br/>
 
-12. **With HTTPS compression, how is CRIME/BREACH prevented?** 
+12. **With HTTPS compression, how is BREACH prevented?** 
 
-    CRIME/BREACH prevention still needs to be analyzed by a security expert.
+    BREACH is a category of vulnerabilities where, to be vulnerable, a web application must:     
+    * be served from a server that uses HTTP-level compression,
+    * reflect user-input in HTTP response bodies,
+    * and reflect a secret (such as a CSRF token) in HTTP response bodies.
+  
+    Additionally, while not strictly a requirement, the attack is helped greatly by responses that remain mostly the same (modulo the attacker's guess). 
+    * This is because the difference in size of the responses measured by the attacker can be quite small. 
+    * Any noise in the side-channel makes the attack more difficult (though not impossible). 
+
+    BREACH was assessed for NLWeb, and it was determined that the protocol is not exposed to these specific risks.
 
     ---
+    <br/>
 
+
+13. **Why are Manifests in YAML and Messages in JSON?** 
+
+    NLWeb uses JSON, YAML, or MARKDOWN depending on the requirements.
+
+    | Format | Rational
+    |-|-
+    | `JSON` | Structured JSON for machine-to-machine, because it's faster; e.g.: <br/>• [domain Messages 📨](<01 📨 Domain Message.md>) between any two [domains 👥](<../44 📜 Manifests/00 👥 Domain.md>), <br/>• data sharing between a [Vault 🗄️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) and a [Consumer 💼](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) domains, <br/>• payments between a [Payer 💳](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) and a [Collector](<01 🏦🛠️ Collector helper.md>) domains.
+    | `YAML` | Structured YAML for human-to-machine, because it's easier for humans to read while supporting schema validations; <br/>• e.g.: [domain Manifests 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>), including [Schema Codes 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>).
+    | `MARKDOWN` | Unstructured MARKDOWN for human-to-LLM, because it doesn't need schema validations; <br/>• e.g., description of products and services by business owners, like a detailed restaurant menu, for user [Curator agents](<../../30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) to filter on behalf of users.
+    
+    ---

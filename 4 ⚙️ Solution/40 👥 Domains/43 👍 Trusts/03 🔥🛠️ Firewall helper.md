@@ -57,3 +57,46 @@
 
     ---
     <br/>
+
+
+5. **What's an example of the Manifest of a Firewall domain?**
+
+    The following is an example of 
+    * a list of [Trust 👍](<01 👍 Domain Trust.md>) REVOKES 
+    * on malicious domains names 
+    * in a [domain Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>).
+
+    ```yaml
+    🤝: nlweb.org/MANIFEST
+
+    Identity:
+      Domain: any-firewall.org
+      Name: Any Firewall
+
+    Trusts:
+      - Title: Block malicious domains from collecting, and vaults from sharing.
+        Action: REVOKE
+        Domains:
+          - imgur.com
+          - torrentfreak.com
+          - requestservice.live
+          - atm.any-fintech.org
+    ```
+
+    ---
+    <br/>
+
+6. **What should other domains add to their Manifests?**
+
+    Other [domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) should add the following [Trust 👍](<01 👍 Domain Trust.md>) to their [domain Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>).
+
+    ```yaml
+    ...
+    Trusts:
+    - Action: INHERIT
+      Domains:
+        - any-firewall.org
+    ```
+
+    ---
+    <br/>
