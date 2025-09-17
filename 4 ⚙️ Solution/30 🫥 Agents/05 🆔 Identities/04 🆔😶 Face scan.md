@@ -99,9 +99,12 @@
 
 3. **How is face recognition secured with a selfie input?**
 
-    NLWeb discourages face recognition via selfie inputs (except in supervised scenarios) because bad actors can inject a fake picture. 
+    NLWeb discourages face recognition via selfie pictures,
+    * except in [👮 supervised scenarios](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/00 👮 Supervised ID Index.md>) (e.g., a government office),
+    * because hackers can use [Generative AI 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/07 🧑‍💻 Unsupervised ID landscape/08 📺 Deep fakes.md>) to interfere with the device's face biometrics.
     
-    - Instead, NLWeb recommends using liveness checks from a remote service exposed via a Web 2.0 browser;
+    Instead, 
+    - NLWeb recommends using [liveness-checks 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/07 🧑‍💻 Unsupervised ID landscape/09 📺 Amazon liveness.md>) from a remote service exposed via a Web 2.0 browser;
     - e.g., by using Amazon Rekognition Face Liveness or other similar products. 
 
     ---
@@ -109,7 +112,7 @@
     
 4. **How is face recognition secured with remote liveness checks?**
 
-    Services implementing liveness checks mitigate frauds and replay attacks even if the device of the [ Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) is running a sophisticated forgery software, is being used by an AI bot, or has been compromised by an attacker. 
+    Services implementing [liveness-checks 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/07 🧑‍💻 Unsupervised ID landscape/09 📺 Amazon liveness.md>) mitigate frauds and replay attacks even if the device of the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) is running a sophisticated forgery software, is being used by an AI bot, or has been compromised by an attacker. 
     
     Liveness checks are video-based checks supported by a remote Web 2.0 page that typically include the following features:
     
@@ -129,7 +132,7 @@
     
 5. **What's the error rate on liveness checks?**
 
-    Amazon’s Face Liveness feature has been independently tested by iBeta Quality Assurance, a NIST/NVLAP-accredited lab, under ISO/IEC 30107‑3 PAD (Presentation Attack Detection) standards.
+    Amazon’s Face [liveness-checks 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/07 🧑‍💻 Unsupervised ID landscape/09 📺 Amazon liveness.md>) feature has been independently tested by iBeta Quality Assurance, a NIST/NVLAP-accredited lab, under ISO/IEC 30107‑3 PAD (Presentation Attack Detection) standards.
 
     - Level 1 test, conducted in September 2023, on a Samsung Galaxy S21 running Android 12. It assessed 900 spoof presentation attacks and resulted in an Attack Presentation Classification Error Rate (APCER) of 0%. The Bona Fide Presentation Classification Error Rate (BPCER) is also available in the full report. 
     Amazon Web Services, Inc.
@@ -141,7 +144,7 @@
     ---
     <br/>
 
-1. **What are the conditions for face biometrics to be spoofed?**
+6. **What are the conditions for face biometrics to be spoofed?**
 
     On NLWeb, the [face biometric verification 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/01 📺 Difference.md>) works as follows:
 
@@ -155,11 +158,45 @@
 
     - This is already more secure than a Visa touchless payment, where only the card is required to be presented always, and the password is required occasionally.
 
-    |Something<br/>the user|Visa<br/>card|Userable<br/>Thing|
-    |-|-|-
-    |`Has`  |
-    |`Knows`|
-    |`Is`   |
+    ---
+    <br/>
+
+
+1. **What are examples of unsupervised face biometrics in use today?**
+
+    * [🌎 Uber 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/07 🧑‍💻 Unsupervised ID landscape/01 📺 Uber remote ID.md>) authenticates drivers with face biometrics before rides.
+    * [🇬🇧 Al Rayan Bank UK 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/07 🧑‍💻 Unsupervised ID landscape/02 📺 🇬🇧 Al Rayan Bank UK.md>) remotely onboards new customers using face biometrics with movement-based liveness checks.
+    * [🇸🇬 Singapore 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/04 🆔 Digital ID landscape/10 📺 🇸🇬 Singapore's DID.md>) adopted face biometrics with color-based liveness checks for their national identity program.
+    * [🇸🇬 OCBC Bank Singapore 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/07 🧑‍💻 Unsupervised ID landscape/04 📺 🇸🇬 OCBC Bank.md>) customers withdraw money from ATMs using face biometrics with color-based liveness checks.
+    
+
+    ---
+    <br/>
+
+2. **How does NLWeb face verification compares with other technologies?**
+
+    The following table compares some of the top payment technologies.
+    * NLWeb has a high security when we evaluate what the user has, is, and knows.
+
+    | Something<br/>the user | Apple<br/>Pay | Google<br/>Pay | Asian<br/>Wallets | NLWeb <br/>Wallet | Western<br/>ATMs | Asian<br/>ATMs | NLWeb<br/>Userable |
+    |-|-|-|-|-|-|-|-
+    | `Has`   | Phone | Phone | QR code | [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) | NFC card | - | [NFC 💍](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) |
+    | `Is`    | - | - | - | [Face 📸](<04 🆔😶 Face scan.md>) | - | Face | [Face 📸](<04 🆔😶 Face scan.md>) |
+    | `Knows` | - | - | - | [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) | Card pin | User pin | [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) |
+    | `Screen`<br/>`Lock ⚠️` | Pin, Face,<br/>Fingers | Pin, Face,<br/>Fingers | Pin, Face,<br/>Fingers | Pin, Face,<br/>Fingers | - | - | - |
+    |
+
+
+    ⚠️ Warning note:
+    * Apple's and Google's face biometrics doesn't verify if the user holding the phone is the expected one for the presented payment token (e.g., the owner of the Visa card that has their name written on the card).
+    * Instead, it only verifies if the user holding the phone has their biometrics registered to unlock the phone (e.g., a bored 11-years-hold child).
+  
+    See the following resources for details:
+    - Apple's [🍏 Face ID 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/07 🧑‍💻 Unsupervised ID landscape/05 📺 Apple Face ID.md>) is design for *users* to unlock phones, and not to authenticate the *owner*;
+    - the owner's [family members 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/07 🧑‍💻 Unsupervised ID landscape/06 📺 Apple's security.md>) can also unlock the phone and perform transactions;
+    - thieves can [replace the face ID 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/07 🧑‍💻 Unsupervised ID landscape/07 📺 Apple's thief.md>) to drain the owner's bank accounts.
+
+
 
     ---
     <br/>
