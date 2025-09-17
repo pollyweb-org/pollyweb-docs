@@ -23,7 +23,7 @@
     | | | 🔆 [tap](<../../20 🧑‍🦰 UI/22 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>)
     | 🔎 [Finder](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Wand (4.3 ⭐)  [+] 
     | 🪄 [Wand](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>) | ℹ️ Userable: wedding ring [+]
-    | 🪄 [Wand](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>) | 😃 Hi! What do you need? <br/> - [ Private ] access<br/>- Activate [ Emergency ] <br/>- [ Something else ] | > Emergency
+    | 🪄 [Wand](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>) | 😃 Hi! What do you need? <br/>- [ Emergency ] trigger <br/>- [ Something else ] | > Emergency
     | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Flow: emergency [+]
     | 🪄 [Wand](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>)| 😐 Are you the owner? [Yes, No] | > No
     | 🪄 [Wand](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>)| ℹ️ Public notes:<br/>- suffers from epilepsy <br/> - allergic to penicillin
@@ -33,9 +33,6 @@
     | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Share identity? [Yes, No] | > Yes
     | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../30 🫥 Agents/05 🆔 Identities/04 🆔😶 Face scan.md>)
     | 🪄 [Wand](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>) | ✅ Emergency activated [+]
-    
-
-   
     
     ---
     <br/>
