@@ -34,7 +34,7 @@
 
     Yes. 
     * A [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) owned by person `A` can authenticate a person `B` in a [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) when the [Chat's Host 🤗 domain](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) invites the [Identity 🆔 vault](<03 🆔🫥 Identity agent.md>) of person `B` into the [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>).
-    * This is particularly useful when working with [Userable 💍 things](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) where the owner's identity needs to be confirmed on [payments 🤝 scenarios](<../../70 🌳 Ambient/74 💍 Brand Userables/05 💍💳 Userable pay salesperson.md>) and [item recovery 🤝 scenarios](<../../70 🌳 Ambient/74 💍 Brand Userables/03 💍📱 Userable senior user.md>) via another [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+    * This is particularly useful when working with [Userable 💍 things](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) where the owner's identity needs to be confirmed on [payments 🤝 scenarios](<../../70 🌳 Ambient/74 💍 Brand Userables/21 💍💳 Userable pay salesperson.md>) and [item recovery 🤝 scenarios](<../../70 🌳 Ambient/74 💍 Brand Userables/13 💍📱 Userable senior user.md>) via another [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
 
     Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) as an example.
         
@@ -52,11 +52,11 @@
 
     |Industry|Use case 🤝
     |-|-
-    | `Security`| 🎬 [Cross gates with a Userable at an airport](<../../70 🌳 Ambient/74 💍 Brand Userables/04 💍🎬 Userable gates.md>)
-    | `Payments` | 💍 [Pay a salesperson using a Userable](<../../70 🌳 Ambient/74 💍 Brand Userables/05 💍💳 Userable pay salesperson.md>) 
-    | `Payments` | [💳 Pay seller with a Userable on a kiosk](<../../70 🌳 Ambient/74 💍 Brand Userables/06 💍💳 Userable pay kiosk.md>) 
+    | `Security`| 🎬 [Cross gates with a Userable at an airport](<../../70 🌳 Ambient/74 💍 Brand Userables/14 💍🎬 Userable gates.md>)
+    | `Payments` | 💍 [Pay a salesperson using a Userable](<../../70 🌳 Ambient/74 💍 Brand Userables/21 💍💳 Userable pay salesperson.md>) 
+    | `Payments` | [💳 Pay seller with a Userable on a kiosk](<../../70 🌳 Ambient/74 💍 Brand Userables/22 💍💳 Userable pay kiosk.md>) 
     |`Payments` | [💁‍♀️ Pay a restaurant bill with a Userable](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/03 🍽️🍲 Eat at restaurants/07 🍲 Staff @ Tables 💁‍♀️/04 💁‍♀️ Bill userable 💍.md>)|
-    |`Social`| [💍 Aid a confused senior with a Userable](<../../70 🌳 Ambient/74 💍 Brand Userables/03 💍📱 Userable senior user.md>)
+    |`Social`| [💍 Aid a confused senior with a Userable](<../../70 🌳 Ambient/74 💍 Brand Userables/13 💍📱 Userable senior user.md>)
 
 
     ---
