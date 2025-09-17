@@ -24,13 +24,18 @@
     ---
     <br/>
 
-3. **How do Vault domains work?**
 
-    ![](<.📎 Assets/🗄️ Vault.png>)
+1. **How are Vault domains configured on a Wallet?**
+
+    For a [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) to be listed as a [Vault 🗄️ domain](<03 🗄️🎭 Vault role.md>) in the [user's Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), the user first needs to [bind 🔗](<01 🔗 Bind.md>) the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) to the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>). 
+        
+    * To streamline user onboarding, [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) may automatically [bind 🔗](<01 🔗 Bind.md>) new [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to default [Agent 🫥 vault domains](<04 🫥🗄️ Agent vault.md>).
+        
 
     ---
+    <br/>
 
-4. **Can users ask Vaults to share data with other Hosts?**
+2. **Can users ask Vaults to share data with other Hosts?**
 
     Yes. 
     - Upon a share request with the [Consumer 💼 host](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) in a [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>), users can authorize their [Vault 🗄️ domains](<03 🗄️🎭 Vault role.md>) to disclose a data set with that [Consumer 💼 domain](<../27 💼 Consumers/04 💼🎭 Consumer role.md>). 
@@ -39,7 +44,7 @@
     ---
     <br/>
 
-5. **Can users ask Vaults to download data to the device?**
+3. **Can users ask Vaults to download data to the device?**
 
     No. 
     * That is covered by the [Issuer 🎴 domain](<../25 🎫 Tokens/02 🎴🎭 Issuer role.md>) role. 
@@ -47,14 +52,14 @@
     ---
     <br/>
 
-6. **How can Vaults comply with data residency?**
+4. **How can Vaults comply with data residency?**
 
-    Vaults 🗄️ can ask users to share their [Storage 📦 vault](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>), then store the user data there.
+    [Vault 🗄️ domains](<03 🗄️🎭 Vault role.md>) can ask users to share their [Storage 📦 vault](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>), then store the user data there.
 
     ---
     <br/>
 
-7. **Do users have private vaults, like the Solid Project?**
+5. **Do users have private vaults, like the Solid Project?**
 
     No. 
     * Unlike the [Solid Project 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/05 📺 Berners-Lee vaults.md>), by Sir Tim Berners-Lee, NLWeb users don't have a private repository (a.k.a. [Vault 🗄️](<03 🗄️🎭 Vault role.md>)) for all their data, so they don't effectively own their data. 
@@ -69,7 +74,7 @@
     ---
     <br/>
 
-8. **Why can't users control their Vaults, like in the Solid project?**
+6. **Why can't users control their Vaults, like in the Solid project?**
 
     Let's take Google Mail as an example:
     - users open and close their accounts;
@@ -106,7 +111,7 @@
     ---
     <br/>
 
-9. **How about a central place for user preferences?**
+7. **How about a central place for user preferences?**
 
     Exceptionally, NLWeb advocates for the use of [Persona 🧢 vault](<../../30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) aimed for preference-based personalization 
     - e.g., nicknames, seat preferences, film genres;
@@ -116,8 +121,18 @@
     <br/>
 
 
+10. **What if the user only wants to have one Vault?**
 
-9.  **How is data residency solved by vaults?**
+    A single [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) can, in theory, implement all existing [Schema Codes 🧩](<02 🧩 Schema Code.md>) and establish [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) relationships with all existing [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).
+
+    * Thus, a user may wish to [bind 🔗](<01 🔗 Bind.md>) to that single [Vault 🗄️ domain](<03 🗄️🎭 Vault role.md>) with all [Schema Codes 🧩](<02 🧩 Schema Code.md>) the user is interested in sharing, and is [trusted 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) buy all the [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) the user is interested in interacting with. 
+  
+    * However, this solution doesn't seem scalable, if at all realistic.
+
+    ---
+    <br/>
+
+11. **How is data residency solved by vaults?**
 
     Where nations require their citizens' data to be stored within nation's borders, [Vault 🗄️ domains](<03 🗄️🎭 Vault role.md>) can leverage the user's [Storage 📦 vault](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>) to store their data. 
     
@@ -130,13 +145,6 @@
     ---
     <br/>
 
-10. **What if the user only wants to have one Vault?**
-
-    A user may wish to [bind 🔗](<01 🔗 Bind.md>) to a single [Vault 🗄️ domain](<03 🗄️🎭 Vault role.md>) that is able to implement all the [Schema Codes 🧩](<02 🧩 Schema Code.md>) the user is interested in sharing, and is able to establish trust relationships with all the domains the user is interested in interacting with. 
-    - However, this solution doesn't seem scalable, if at all realistic.
-
-    ---
-    <br/>
 
 11. **How are users protected from tracking by Vault consortiums?**
 
