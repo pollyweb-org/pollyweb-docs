@@ -46,7 +46,7 @@
 
     Yes. Just like with first-party cookies on Web 2.0 internet. 
     
-    - Tokens using a [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) marked as SELF are silently shared with [Consumer 💼 domains](<04 💼🎭 Consumer role.md>), who can then track users;
+    - [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) using a [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) marked as SELF are silently shared with [Consumer 💼 domains](<04 💼🎭 Consumer role.md>), who can then track users;
     - e.g., a luxury holding company with multiple brands may issue a loyalty card for a specific branded stored, then use that card to track the user across all businesses it manages.
 
     ---
@@ -56,7 +56,7 @@
 
     Yes, but that may produce a poor user experience.
 
-    - SELF Tokens are silently shared with Consumers who issued them, the same way the [Locator 🔆](<../22 🔆 Locators/01 🔆 Locator.md>) of a user's [Vault 🗄️ domain](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) is shared silently with the corresponding Vault - this allows for developers to choose either a [Consumer 💼](<04 💼🎭 Consumer role.md>) or [Vault 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) role for personalized features. 
+    - [SELF Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) are silently shared with Consumers who issued them, the same way the [Locator 🔆](<../22 🔆 Locators/01 🔆 Locator.md>) of a user's [Vault 🗄️ domain](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) is shared silently with the corresponding [Vault 🗄️ domain](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) - this allows for developers to choose either a [Consumer 💼](<04 💼🎭 Consumer role.md>) or [Vault 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) role for personalized features. 
     
     - Domain admins should evaluate the impact of one design decision over another when it comes to how the domain's relationship is presented to the user.
 
@@ -68,7 +68,7 @@
 
     When consuming data from a [Vault 🗄️ domain](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>), the data envelope indicates the [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) and the version (e.g., `any-authority.com/any-schema:1.0`). 
     
-    - The code identifies the [Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) where the [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) is defined (e.g., `any-schema` is defined in the [Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) of `any-authority.com`), so [Consumer 💼 domains](<04 💼🎭 Consumer role.md>) can then fetch the schema definitions from a cached [Graph 🕸 domain](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>) or directly from the [Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>).
+    - The code identifies the [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) where the [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) is defined (e.g., `any-schema` is defined in the [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) of `any-authority.com`), so [Consumer 💼 domains](<04 💼🎭 Consumer role.md>) can then fetch the schema definitions from a cached [Graph 🕸 domain](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>) or directly from the [Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>).
 
     ---
     <br/>
@@ -85,7 +85,7 @@
 
     Yes. 
     
-    - NLWeb advocates for domains to ask [Graph 🕸 domains](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>) for the [DKIM](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) of the [Issuer 🎴 domain](<../25 🎫 Tokens/02 🎴🎭 Issuer role.md>) when verifying [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>). 
+    - NLWeb advocates for domains to ask [Graph 🕸 domains](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>) for the [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) of the [Issuer 🎴 domain](<../25 🎫 Tokens/02 🎴🎭 Issuer role.md>) when verifying [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>). 
 
     ---
     <br/>
@@ -107,9 +107,17 @@
 
 9. **How are Users protected from Consumers that ask too much data?**
 
-    [Consumer 💼 domains](<04 💼🎭 Consumer role.md>) must publicly [manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) their potential sharing requests, in a similar way apps must manifest it when publishing into Apple's App Store or Google Play.
+    [Consumer 💼 domains](<04 💼🎭 Consumer role.md>) must publicly manifest their potential sharing requests in their [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>), in a similar way apps must manifest it when publishing into Apple's App Store or Google Play.
     - [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) only process sharing requests that are publicly manifested in advance.
-    - [Authority 🏛️ domains](<../../40 👥 Domains/43 👍 Trusts/02 🏛️🛠️ Authority helper.md>) monitor the [domain manifests 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) for dataset requests that don't match the domain's business or exception requests, and if necessary may revoke the [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) on the [Consumer 💼 domain](<04 💼🎭 Consumer role.md>).
+    - [Authority 🏛️ domains](<../../40 👥 Domains/43 👍 Trusts/02 🏛️🛠️ Authority helper.md>) monitor the [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) for dataset requests that don't match the domain's business or exception requests, and if necessary may revoke the [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) on the [Consumer 💼 domain](<04 💼🎭 Consumer role.md>).
+
+    Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) as an example. 
+
+    | Service | Prompt  | User |
+    |-|-|-|
+    | 🏨 Hotel  | 😃 Hi! What do you need? <br/> - [ Check-in ] <br/> - [ Something else ] | > Check-in 
+    | 🤵 [Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Flow: check-in [-] <br/> - your identity shares your ID 🆔 <br/> - your payer pays the stay 💳 <br/> - your curator set the room 🧚 <br/> - you save the room key 🤵  
+    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Share identity? [Yes, No] |
 
     ---
     <br/>
@@ -137,6 +145,18 @@
         - on the user's device (e.g., via multi-factor authentication or using the camera in the device), 
         - or through an external device (e.g., [Amazon One 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/07 🖐️ Palm pay landscape/02 📺 Amazon One.md>) palm reader).
 
+
+    Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) as an example. 
+
+    | Service | Prompt | User
+    | - | - | - |
+    | 🎰 Casino   | ℹ️ Request for minimum age. [+]
+    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Share over 21? [Yes, No]      | > Yes
+    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../30 🫥 Agents/05 🆔 Identities/04 🆔😶 Face scan.md>)
+    | 🎰 Casino   | ✅ Welcome, please enter!
+    
+
+
     ---
     <br/>
 
@@ -151,7 +171,7 @@
     
     In offline scenarios, 
     - where users carry an NFC card or a printed QR, 
-    - the [Seller 💵 domain](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) takes a photo of the user with a fixed camera, and then ask the [Token's Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) to match the [Token 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) with the picture.
+    - the [Seller 💵 domain](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) takes a photo of the user with a fixed camera, and then asks the [Token's Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) to match the [Token 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) with the picture.
 
     ---
     <br/>

@@ -130,3 +130,17 @@
 
     ---
     <br/>
+
+
+1. **What workflows exist in a Wallet app?**
+
+    | Category | Workflow | Target | Description
+    |-|-|-|-
+    | `Set up` | [Onboard 👉](<../../../5 ⏩ Flows/02 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/11 🧑‍🦰👉🤵 Onboard.md>) | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | Initializes a [Wallet 🧑‍🦰 app](<01 🧑‍🦰 Wallet app.md>) on a [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>).
+    | | [Translate 👉](<../../../5 ⏩ Flows/02 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/12 🧑‍🦰👉🤵 Translate.md>) | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | Changes the language of the [Wallet 🧑‍🦰 app](<01 🧑‍🦰 Wallet app.md>).
+    |`Locators`|[Scan host QR](<../../../5 ⏩ Flows/02 🧑‍🦰👉 Wallets/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>)
+    |[Scan printer QR](<../../../5 ⏩ Flows/02 🧑‍🦰👉 Wallets/15 👉🔆 Locators/02 🧑‍🦰👉🤗 Scan printer QR.md>)
+    ||
+
+    ---
+    <br/>

@@ -191,3 +191,17 @@
 
     ---
     <br/>
+
+
+1. **What API methods does a Vault exposes?**
+   
+    | From | Method | Description |
+    |------|--------|-------------|
+    | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | [Bound 🐌](<../../../6 🅰️ APIs/18 🗄️🅰️ Vault/02 🤵🐌🗄️ Bound.md>) | |
+    | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | [Unbound 🐌](<../../../6 🅰️ APIs/18 🗄️🅰️ Vault/02 🤵🐌🗄️ Unbound.md>) | |
+    | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | [Suppress 🐌](<../../../6 🅰️ APIs/18 🗄️🅰️ Vault/04 🤵🐌🗄️ Suppress.md>) | |
+    | [🧑‍🦰 Wallet app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) | [Disclose 🐌](<../../../6 🅰️ APIs/18 🗄️🅰️ Vault/03 🧑‍🦰🐌🗄️ Disclose.md>) | |
+    | [💼 Consumer](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) | [Collect 🚀](<../../../6 🅰️ APIs/18 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>) | |
+
+    ---
+    <br/>

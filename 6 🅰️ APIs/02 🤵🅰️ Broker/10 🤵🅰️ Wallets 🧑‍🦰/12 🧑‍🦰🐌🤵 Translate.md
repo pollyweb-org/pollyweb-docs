@@ -6,13 +6,18 @@
 
 # 🧑‍🦰🐌🤵 Translate @ [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
 
-# Request
+## Message 🐌
 
-```json
-    "Header": {
-        "From": "61738d50-d507-42ff-ae87-48d8b9bb0e5a"
-    },
-    "Body": {
-        "Language": "en-us"
-    }
+
+|Property|Type|Description
+|-|-|-
+|`From` | UUID | ID of the [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) on the [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>).
+|`Language`| string | ISO language code.
+|
+
+```yaml
+Header: 
+    From: <wallet-uuid>
+Body:
+    Language: en-us
 ```
