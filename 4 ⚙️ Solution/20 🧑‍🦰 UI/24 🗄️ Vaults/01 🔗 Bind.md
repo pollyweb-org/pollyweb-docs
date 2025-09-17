@@ -12,14 +12,19 @@
 
 2. **How can users bind to Vaults?**
 
-    For a [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) to be listed as a [Vault 🗄️ domain](<03 🗄️🎭 Vault role.md>) in the [user's Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), the user first needs to [bind 🔗](<01 🔗 Bind.md>) the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) to the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>). 
-    * To streamline user onboarding, [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) may automatically [bind 🔗](<01 🔗 Bind.md>) new [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to default [Agent 🫥 vault domains](<04 🫥🗄️ Agent vault.md>).
-    
+    ![](<.📎 Assets/🗄️ Vault.png>)
+
+    |#|Category|Interface|Step
+    |-|-|-|-
+    | 1| `Hello`| [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) | Open a [💬 Chat](<../23 💬 Chats/01 💬 Chat.md>) with the [Vault 🗄️ domain](<03 🗄️🎭 Vault role.md>), and select "Bind".
+    | 1| `Hello`| Web browser | Login to the website of the [Vault 🗄️ domain](<03 🗄️🎭 Vault role.md>) , and click "Bind".
+    | 2|  `Bind`|[Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) | On the [💬 Chat](<../23 💬 Chats/01 💬 Chat.md>), follow the steps detailed below.
+
     ---
     <br/>
 
 
-1. **How to bind to a Vault domain with a Wallet app?**
+3. **How to bind to a Vault domain with a Wallet app?**
     
     Using their [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>):
     1. a user (e.g., Alice) initiates a [💬 Chat](<../23 💬 Chats/01 💬 Chat.md>) with the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>);

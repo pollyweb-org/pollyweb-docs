@@ -1,11 +1,16 @@
-🆔 Identity domains FAQ
+🆔 Identity agent FAQ
 ===
 
 1. **What is an Identity domain in NLWeb?**
 
-    Identity 🆔 domains are [Vaults 🗄️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) that help other domains ensure that the person physically holding the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
-    * is the mentioned in the identification document,
-    * is the one to whom the [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) was issued to, 
+    An Identity 🆔 domain
+    * is an [Agent 🫥 vault](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) 
+    * that verifies the identity of the user
+    * on behalf of other [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).
+
+    They ensure that the person physically holding the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    * is either is the mentioned in the identification document,
+    * or is the one to whom the [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) was issued to, 
     * or is the one required to sign a given file.
 
     ---
@@ -13,11 +18,11 @@
     
 
     
-3. **How do users set up an Identity domain?**
+2. **How do users set up an Identity domain?**
 
     ![](<00 📎 Assets/🆔 Biometrics.png>)
 
-    [Identity 🆔 vaults](<03 🆔🫥 Identity agent.md>) require users to collect their biometric signatures in a supervised biometric collection center, typically managed by public authorities.
+    [Identity 🆔 vaults](<03 🆔🫥 Identity agent.md>) require users to collect their biometric signatures in a [supervised 👮](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/00 👮 Supervised ID Index.md>) biometric collection center, typically managed by public authorities.
     
     Advantages of this restriction include: 
     - mitigated risk of identity fraud in supervised settings;
@@ -33,7 +38,7 @@
     ---
     <br/>
     
-4. **Do Identity domains always authenticate users the same way?**
+3. **Do Identity domains always authenticate users the same way?**
 
     No. It depends on the legislation, registration, and context.
 
@@ -46,7 +51,7 @@
     ---
     <br/>
     
-5. **Can users with dual nationality bind to two Identity domains?**
+4. **Can users with dual nationality bind to two Identity domains?**
 
     Yes. 
     * Users with dual nationality may even have two or more bound [Identity 🆔 vault](<03 🆔🫥 Identity agent.md>), one per nationality. 
@@ -54,7 +59,7 @@
     ---
     <br/>
     
-6. **What authentication mechanisms are supported by Wallets?**
+5. **What authentication mechanisms are supported by Wallets?**
 
     NLWeb natively supports key pairs (passkeys) and one time passwords (OTP). 
     * However, [Identity 🆔 vault](<03 🆔🫥 Identity agent.md>) are free to implement whatever authentication mechanisms they want using the generic tools available. 
@@ -69,9 +74,11 @@
     ---
     <br/>
     
-7. **How is voice recognition secured with an audio input?**
+6. **How is voice recognition secured with an audio input?**
 
-    NLWeb discourages voice recognition as authentication method (except in supervised scenarios) because Generative AI can mimic a person's voice with 3 seconds of original audio.
+    NLWeb discourages voice recognition as authentication method,
+    * except in [supervised 👮 scenarios](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/00 👮 Supervised ID Index.md>) (e.g., a government office),
+    * because Generative AI can mimic a person's voice with 3 seconds of original audio.
 
     ---
     <br/>

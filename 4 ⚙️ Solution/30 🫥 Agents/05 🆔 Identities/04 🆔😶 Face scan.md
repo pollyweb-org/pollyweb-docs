@@ -100,7 +100,7 @@
 3. **How is face recognition secured with a selfie input?**
 
     NLWeb discourages face recognition via selfie pictures,
-    * except in [👮 supervised scenarios](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/00 👮 Supervised ID Index.md>) (e.g., a government office),
+    * except in [supervised 👮 scenarios](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/00 👮 Supervised ID Index.md>) (e.g., a government office),
     * because hackers can use [Generative AI 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/07 🧑‍💻 Unsupervised ID landscape/08 📺 Deep fakes.md>) to interfere with the device's face biometrics.
     
     Instead, 
