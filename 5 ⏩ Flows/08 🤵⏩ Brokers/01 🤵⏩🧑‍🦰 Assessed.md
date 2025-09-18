@@ -2,9 +2,7 @@
 
 > Opens a new chat window in the app.
 
-| Caller | Notes
-|-|-
-|[🧑‍🦰👉🤗 Host QR](<../02 🧑‍🦰👉 Wallets/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>)
+> Used by [🧑‍🦰👉🤗 Host QR](<../02 🧑‍🦰👉 Wallets/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>)
 
 
 
@@ -12,10 +10,6 @@
 
 ![New chat](<.📎 Assets/⚙️ New chat.png>)
 
-
-
-
-## API Calls
 
 | # | Call | Notes
 |-|-|-|

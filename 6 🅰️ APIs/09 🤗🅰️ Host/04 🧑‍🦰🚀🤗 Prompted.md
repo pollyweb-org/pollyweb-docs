@@ -2,17 +2,20 @@
 
 # Prompted @ Host
 
-## Used by
+> Download the content of a Prompt.
 
-| Flow | Purpose
-|-|-
-|[🤗⏩🧑‍🦰 Prompt](<../../../5 ⏩ Flows/03 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt.md>) | Download the prompt's content from the Host domain
-|
-
-<br/>
+> Part of the [🤗⏩🧑‍🦰 Prompt](<../../5 ⏩ Flows/03 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt.md>) workflow.
 
 
 ## Sync Request
+
+
+```yaml
+Header: 
+Body:
+    ChatID: <session-uuid>
+    PromptID: <prompt-uuid>
+```
 
 |Object|Property|Type|Description
 |-|-|-|-
@@ -21,27 +24,12 @@
 |           | `Subject`     | string    | `Prompted@Host`
 | Body      | `ChatID`      | string    |
 |           | `PromptID`    | string    | 
+|
 
-```yaml
-Header: 
-Body:
-    ChatID: <session-uuid>
-    PromptID: <prompt-uuid>
-```
 <br/>
 
 
 ## Sync Response
-
-|Object |Property|Type|Description
-|-|-|-|-
-|Top| `Format`  | string | One supported by a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>)
-|| `Message` | string | Main message displayed in the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>)
-|| `Options` | list   | List of Option objects
-|| `Appendix`| UUID   | PDF or PNG appendix to download via [Download@Host](<06 🧑‍🦰🚀🤗 Download.md>)
-|| `Details` | string | Extended details in Markdown format, topically hidden by an expand [+] sign
-|Option | `ID`          | string  | ID of the option on the Prompt for replies via [Reply@Host](<05 🧑‍🦰🐌🤗 Reply.md>)
-|       | `Translation` | string  | Text of the option to display in the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>)
 
 
 ```yaml
@@ -55,6 +43,18 @@ Details: |
     **Note**: each cards has its own fees.
     * Check the fees for the transaction.
 ```
+
+|Object |Property|Type|Description
+|-|-|-|-
+|Top| `Format`  | string | One supported by a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>)
+|| `Message` | string | Main message displayed in the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>)
+|| `Options` | list   | List of Option objects
+|| `Appendix`| UUID   | PDF or PNG appendix to download via [Download@Host](<06 🧑‍🦰🚀🤗 Download.md>)
+|| `Details` | string | Extended details in Markdown format, topically hidden by an expand [+] sign
+|Option | `ID`          | string  | ID of the option on the Prompt for replies via [Reply@Host](<05 🧑‍🦰🐌🤗 Reply.md>)
+|       | `Translation` | string  | Text of the option to display in the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>)
+|
+
 <br/>
 
 

@@ -4,21 +4,13 @@
 
 > Tells the Host that a Chat was abandoned by the user.
 
-## Used by
 
-| Flow | 
-|-
-| [Abandon session 🧑‍🦰👉🤗](<../../5 ⏩ Flows/02 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>)
+| Used by | Purpose
+|-|-
+| [Abandon session 🧑‍🦰👉🤗](<../../5 ⏩ Flows/02 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>) | Workflow
 
 
 ## Async Message 🐌
-
-|Object|Property|Type|Description
-|-|-|-|-
-| Header    | `From`        | string    | [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) name
-|           | `To`          | string    | [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>)
-|           | `Subject`     | string    | `Abandoned@Host`
-| Body      | `ChatID`      | UUID      | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) ID
 
 
 ```yaml
@@ -30,3 +22,15 @@ Header:
 Body: 
     ChatID: <session-uuid>
 ```
+
+|Object|Property|Type|Description
+|-|-|-|-
+| Header    | `From`        | string    | [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) name
+|           | `To`          | string    | [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>)
+|           | `Subject`     | string    | `Abandoned@Host`
+| Body      | `ChatID`      | UUID      | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) ID
+|
+
+<br/>
+
+

@@ -5,12 +5,7 @@
 
 > A [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) says something to a user in a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>).
 
-
-## Used by
-
-| Flow | 
-|-
-| [🧑‍🦰👉🤗 Abandon session](<../../5 ⏩ Flows/02 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>)
+> Used by the [🧑‍🦰👉🤗 Abandon session](<../../5 ⏩ Flows/02 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>) flow.
 
 
 
@@ -19,8 +14,6 @@
 ![Prompt](<.📎 Assets/00 ⚙️💬 Prompt.png>)
 
 
-
-## Steps
 
 | # | Call | Description
 |-|-|-

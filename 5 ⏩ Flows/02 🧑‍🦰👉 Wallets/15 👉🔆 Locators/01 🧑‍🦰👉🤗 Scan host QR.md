@@ -1,8 +1,7 @@
 # 🧑‍🦰👉🤗 Scan host locator @ [Wallet](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) 
 
 
-## About
-- Scenario where the [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) is managed by the [Host 🤗](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>)
+> Scenario where the [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) is managed by the [Host 🤗](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>)
 
 
 ## Chat
@@ -15,7 +14,11 @@
 ||
 
 
-## Steps
+
+## Flow diagram
+
+![alt text](<.📎 Assets/⚙️ Host QR.png>)
+
 
 | # | Call | Notes
 |-|-|-
@@ -25,8 +28,3 @@
 | 4 | [🤵🐌🤗 CheckIn @ Host](<../../../6 🅰️ APIs/09 🤗🅰️ Host/01 🤵🐌🤗 CheckIn.md>) | Ask the [Host 🤗](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) to interact.
 | 5 | [🤗⏩🧑‍🦰 Prompt @ Host](<../../03 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt.md>) | The welcome message from the [Host 🤗](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) 
 ||
-
-
-## Flow diagram
-
-![alt text](<.📎 Assets/⚙️ Host QR.png>)
