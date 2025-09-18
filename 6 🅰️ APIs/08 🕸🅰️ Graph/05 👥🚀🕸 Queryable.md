@@ -15,6 +15,10 @@
 
 
 ## Sample request
+|Property|Type|Description
+|-|-|-
+
+
 ```json
 ...
 "Body": {
@@ -28,6 +32,10 @@
 
 
 ## Sample response
+|Property|Type|Description
+|-|-|-
+
+
 ```json
 {
     "Binds": [{

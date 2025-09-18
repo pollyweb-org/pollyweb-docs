@@ -197,11 +197,11 @@
    
     | From | Method | Description |
     |------|--------|-------------|
-    | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | [Bound 🐌](<../../../6 🅰️ APIs/18 🗄️🅰️ Vault/02 🤵🐌🗄️ Bound.md>) | |
-    | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | [Unbound 🐌](<../../../6 🅰️ APIs/18 🗄️🅰️ Vault/02 🤵🐌🗄️ Unbound.md>) | |
-    | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | [Suppress 🐌](<../../../6 🅰️ APIs/18 🗄️🅰️ Vault/04 🤵🐌🗄️ Suppress.md>) | |
-    | [🧑‍🦰 Wallet app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) | [Disclose 🐌](<../../../6 🅰️ APIs/18 🗄️🅰️ Vault/03 🧑‍🦰🐌🗄️ Disclose.md>) | |
-    | [💼 Consumer](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) | [Collect 🚀](<../../../6 🅰️ APIs/18 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>) | |
+    | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | [Bound 🐌](<../../../6 🅰️ APIs/18 🗄️🅰️ Vault/02 🤵🐌🗄️ Bound.md>) | Add a [Bind 🔗](<01 🔗 Bind.md>) |
+    | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | [Unbind 🐌](<../../../6 🅰️ APIs/18 🗄️🅰️ Vault/02 🤵🐌🗄️ Unbind.md>) | Remove a [Bind 🔗](<01 🔗 Bind.md>) |
+    | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | [Suppress 🐌](<../../../6 🅰️ APIs/18 🗄️🅰️ Vault/04 🤵🐌🗄️ Suppress.md>) | Suppress [🖐️ Palm scans](<../../30 🫥 Agents/05 🆔 Identities/05 🆔🖐️ Palm scan.md>) |
+    | [🧑‍🦰 Wallet app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) | [Disclose 🐌](<../../../6 🅰️ APIs/18 🗄️🅰️ Vault/03 🧑‍🦰🐌🗄️ Disclose.md>) | Disclose the data of a [Bind 🔗](<01 🔗 Bind.md>) |
+    | [💼 Consumer](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) | [Collect 🚀](<../../../6 🅰️ APIs/18 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>) | Return the data of a [Bind 🔗](<01 🔗 Bind.md>) 
 
     ---
     <br/>

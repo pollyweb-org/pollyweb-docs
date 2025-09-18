@@ -7,5 +7,12 @@
 
 ## Synchronous Request 🚀
 
+|Property|Type|Description
+|-|-|-
+
+
 
 ## Response
+|Property|Type|Description
+|-|-|-
+

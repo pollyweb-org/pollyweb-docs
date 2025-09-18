@@ -5,12 +5,8 @@
 
 # 🤵🐌🗄️ Suppress @ Vault
 
+> Suppress [🖐️ Palm scans](<../../30 🫥 Agents/05 🆔 Identities/05 🆔🖐️ Palm scan.md>) on Palmist devices.
 
-> A [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) notifies the [Vault 🗄️ domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) 
-> * of a checked out [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) 
-> * where the user was asked to share information from the [Vault 🗄️ domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) 
-> * although the broker doesn’t know if the user actually approved the discloser or not.
->
 ## Message 🐌
 
 |Property|Type|Description
@@ -30,3 +26,17 @@ Body:
     Consumer: any-consumer.com
     ChatID: <chat-uuid>
 ```
+
+## Steps
+
+* If the session is tracked, stop it - e.g.: 
+    * GIVEN a vault that is a [Palmist 🖐️ supplier domain](<../../4 ⚙️ Solution/60 🧰 Edge/63 🖐️ Palmists/02 🖐️🏭 Palmist supplier.md>)
+    * AND the palm reader is actively looking for the user of the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>)
+    * WHEN suppressed 
+    * THEN stop searching for it
+    * AND stop sending findings to the [Host 🤗 domain](<../23 💬 Chats/03 🤗🎭 Host role.md>).
+    
+* Remove the session from 🪣 Disclosures
+* If the session is not found on disclosures, just discard the message.
+
+---

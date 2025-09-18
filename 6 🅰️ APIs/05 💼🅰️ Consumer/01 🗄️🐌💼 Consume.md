@@ -4,15 +4,13 @@
 # 🗄️🐌💼 Consume @ [Consumer 💼](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) 
 
 
-## About
-
-- Asynchronous message sent by a [Vault 🗄️](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) to a [Consumer 💼](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) 
-- Tells them to collect data shared by a user in a chat.
-- Vaults are expected to cache the answer ahead of [Collect 🚀](<../18 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>)
-- The cache duration is expressed in the TTL field.
-
 
 ## Async Message 🐌
+
+
+|Property|Type|Description
+|-|-|-
+
 
 - Header:
     - [From 🗄️](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>): `any-vault.com` 
@@ -26,4 +24,23 @@
         - [Collection 🚀](<../18 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>): `<collection-uuid>` 
         - TTL: `2023-04-01T05:00:30.001000Z`
 
----
+```yaml
+Header:
+    From: any-vault.com
+    Subject: Consume@Consumer
+Body:
+    Chat: 
+        Broker: any-broker.org
+        ChatID: chat-uuid
+    Bind: 
+        Code: airlines.any-igo.org/SSR/WCH:1
+        Collection: <collection-uuid>
+        TTL: 2023-04-01T05:00:30.001000Z
+```
+
+## Design decisions
+
+- Asynchronous message sent by a [Vault 🗄️](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) to a [Consumer 💼](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) 
+- Tells them to collect data shared by a user in a chat.
+- Vaults are expected to cache the answer ahead of [Collect 🚀](<../18 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>)
+- The cache duration is expressed in the TTL field.

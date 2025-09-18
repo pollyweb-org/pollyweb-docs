@@ -36,7 +36,7 @@ Body:
 
    BindID: <bind-uuid>
    Collector: any-collector.org
-   Session: 
+   Chat: 
       Host: any-seller.org
       Broker: any-broker.org
       Locator: <any-locator>

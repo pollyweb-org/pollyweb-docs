@@ -19,6 +19,10 @@
 
 ## Async Message
 
+|Property|Type|Description
+|-|-|-
+
+
 - Header:
     - [From 💼](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>): `any-consumer.com`
     - [Subject 📨](<../../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>): `Query@Broker`

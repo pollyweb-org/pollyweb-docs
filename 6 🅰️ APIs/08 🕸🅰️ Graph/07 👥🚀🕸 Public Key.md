@@ -16,6 +16,10 @@
 
 ## Input
 
+|Property|Type|Description
+|-|-|-
+
+
 ```json
 ...
 "Body": {
@@ -25,6 +29,10 @@
 ```
 
 ## Output
+|Property|Type|Description
+|-|-|-
+
+
 ```json
 {
     "From": "2022/01/09",

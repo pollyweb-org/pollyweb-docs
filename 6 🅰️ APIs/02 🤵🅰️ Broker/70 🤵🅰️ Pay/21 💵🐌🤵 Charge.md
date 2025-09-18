@@ -16,6 +16,10 @@
 
 ## Async Message 
 
+|Property|Type|Description
+|-|-|-
+
+
 - Header:
     - [From 💵](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>): `any-seller.org`
     - [To 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>): `any-broker.org`

@@ -6,6 +6,9 @@
 
 ## Async Message
 
+|Property|Type|Description
+|-|-|-
+
 - Header:
   - From: `any-issuer.com`
   - To: `any-broker.org`
