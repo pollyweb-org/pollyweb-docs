@@ -2,23 +2,31 @@
 
 # 🤵🐌🤗 Abandoned @ [Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>)
 
-## About
+> Tells the Host that a Chat was abandoned by the user.
 
-- Flow: [Abandon session 🧑‍🦰👉🤗](<../../5 ⏩ Flows/02 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>)
+## Used by
+
+| Flow | 
+|-
+| [Abandon session 🧑‍🦰👉🤗](<../../5 ⏩ Flows/02 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>)
 
 
 ## Async Message 🐌
 
-|Property|Type|Description
-|-|-|-
+|Object|Property|Type|Description
+|-|-|-|-
+| Header    | `From`        | string    | [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) name
+|           | `To`          | string    | [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>)
+|           | `Subject`     | string    | `Abandoned@Host`
+| Body      | `ChatID`      | UUID      | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) ID
 
 
-- Header:
-    - [From 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>): `any-broker.org`
-    - [To 🤗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>): `any-host.org`
-    - [Subject 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>): `Abandoned@Host`
+```yaml
+Header:
+    From: any-broker.org
+    To: any-host.org
+    Subject: Abandoned@Host
 
-- Body: 
-    - [ChatID 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>): `<session-uuid>`
-
----
+Body: 
+    ChatID: <session-uuid>
+```

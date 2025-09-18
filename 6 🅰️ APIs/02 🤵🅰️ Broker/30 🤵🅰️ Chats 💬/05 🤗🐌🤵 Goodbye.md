@@ -19,10 +19,12 @@
 
 ## Async Message
 
-* Header:
-  * From: any-host.org
-  * To: any-broker.org
-  * Subject: Goodbye@Broker
-* Body:
-  * SessionID: <session-uuid>
-  * Message: Parking ended for vehicle AB-12-34.
+```yaml
+Header:
+    From: any-host.org
+    To: any-broker.org
+    Subject: Goodbye@Broker
+    
+Body:
+    SessionID: <session-uuid>
+    Message: Parking ended for vehicle AB-12-34.

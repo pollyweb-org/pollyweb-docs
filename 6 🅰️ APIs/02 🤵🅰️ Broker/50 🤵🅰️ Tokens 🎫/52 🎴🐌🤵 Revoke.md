@@ -9,12 +9,13 @@
 |Property|Type|Description
 |-|-|-
 
-
-- Header:
-  - From: `any-issuer.com`
-  - Subject: `Revoke@Broker`
-- Body:
-  - ChatID: `<session-uuid>`
-  - TokenID: `<token-uuid>`
-- Hash: `<hash>`
-- Signature: `<signature>`
+```yaml
+Header:
+    From: any-issuer.com
+    To: any-broker.com
+    Subject: Revoke@Broker
+    
+Body:
+    ChatID: <session-uuid>
+    TokenID: <token-uuid>
+```

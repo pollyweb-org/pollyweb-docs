@@ -9,22 +9,23 @@
 |Property|Type|Description
 |-|-|-
 
-- Header:
-  - From: `any-issuer.com`
-  - To: `any-broker.org`
-  - Subject: `Offer@Broker`
-- Body:
-  - ChatID: `<session-uuid>`
-  - Token:
-    - Issuer: `any-issuer.com`
-    - TokenID: `<token-uuid>`
-    - Code: `any-authority/<offer>`
-    - Issued: `2018-12-10T13:45:00.000Z`
-    - Starts: `2018-12-10T13:45:00.000Z`
-    - Expires: `2018-12-10T13:45:00.000Z`
-    - Version: `1.0.0`
-    - QR: `<qr>`
-- Hash: `<hash>`
-- Signature: `<signature>`
+```yaml
+Header:
+  From: any-issuer.com
+  To: any-broker.org
+  Subject: Offer@Broker
+  
+Body:
+  ChatID: <chat-uuid>
+  Token:
+    Issuer: any-issuer.com
+    TokenID: <token-uuid>
+    Code: any-authority/<offer>
+    Issued: 2018-12-10T13:45:00.000Z
+    Starts: 2018-12-10T13:45:00.000Z
+    Expires: 2018-12-10T13:45:00.000Z
+    Version: 1.0.0
+    QR: <qr>
+```
 
 

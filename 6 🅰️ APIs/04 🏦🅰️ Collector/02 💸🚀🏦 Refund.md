@@ -5,21 +5,22 @@
 
 # 💸🚀🏦 Refund @ [Collector](<../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>)
 
-## About
-
-* See also:
-  * 
 
 ## Synchronous Request 🚀
 
-|Property|Type|Description
-|-|-|-
+|Object|Property|Type|Description
+|-|-|-|-
+| Header | `From` | string
+|| `To` | string
+||`Subject` | string | `Refund@Collector`
+|Body| `ChargeID` | UUID
 
+```yaml
+Header:
+    From: any-seller.com
+    To: any-collector.com
+    Subject: Refund@Collector
 
-* Header:
-  * From: `any-seller.com`
-  * To: `any-collector.com`
-  * Subject: `Refund@Collector`
-* Body:
-  * ChargeID: `<charge-uuid>`
-
+Body:
+    ChargeID: <charge-uuid>
+```

@@ -12,24 +12,28 @@
 |Property|Type|Description
 |-|-|-
 
-
-* Header:
-   * From: `any-payer.com`
-   * To: `collector.com`
-   * Subject: `Collect@Collector`
-* Body:
-   * Session: 
-      * Host: `any-seller.com`
-      * Broker: `any-broker.com`
-      * Locator: `<any-locator>`
-      * SessionID: `<session-uuid>`
-   * Charge: 
-      * ChargeID: `<charge-uuid>`
-      * Operation: `DEBIT`
-      * Amount: `10.54`
-      * Currency: `USD`
-      * Collectors [ `any-collector.com` ]
-   * Transaction: { "a", "1" }
+```yaml
+Header:
+   From: any-payer.com
+   To: collector.com
+   Subject: Collect@Collector
+   
+Body:
+   Session: 
+      Host: any-seller.com
+      Broker: any-broker.com
+      Locator: <any-locator>
+      SessionID: <session-uuid>
+   Charge: 
+      ChargeID: <charge-uuid>
+      Operation: DEBIT
+      Amount: 10.54
+      Currency: USD
+      Collectors: 
+         - any-collector.com
+   Transaction: 
+      a: 1
+```
 
 
 ---

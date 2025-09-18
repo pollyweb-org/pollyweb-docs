@@ -9,13 +9,12 @@
 |Property|Type|Description
 |-|-|-
 
-
-- Header:
-  - From: `<wallet-uuid>`
-  - To: `any-broker.org`
-  - Subject: `Remove@Broker`
-- Body:
-  - TokenID: `<token-uuid>`
-  - Issuer: `any-issuer.com`
-- Hash: `<hash>`
-- Signature: `<signature>`
+```yaml
+Header:
+    From: <wallet-uuid>
+    To: any-broker.org
+    Subject: Remove@Broker
+Body:
+    TokenID: <token-uuid>
+    Issuer: any-issuer.com
+```
