@@ -7,15 +7,8 @@
 
 > Suppress [🖐️ Palm scans](<../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/05 🆔🖐️ Palm scan.md>) on Palmist devices.
 
-## Message 🐌
+## Async Message 🐌
 
-|Object|Property|Type|Description
-|-|-|-|-
-|Header| `From` | string | [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
-|| `To` | string | [Vault 🗄️ domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>)
-|| `Subject` | string | `Suppress@Vault`
-|Body| `Consumer` | string | [Consumer 💼 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>)
-|| `ChatID`| UUID | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) ID
 
 ```yaml
 Header:
@@ -27,6 +20,16 @@ Body:
     Consumer: any-consumer.com
     ChatID: <chat-uuid>
 ```
+
+|Object|Property|Type|Description
+|-|-|-|-
+|Header| `From` | string | [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
+|| `To` | string | [Vault 🗄️ domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>)
+|| `Subject` | string | `Suppress@Vault`
+|Body| `Consumer` | string | [Consumer 💼 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>)
+|| `ChatID`| UUID | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) ID
+|
+
 <br/>
 
 

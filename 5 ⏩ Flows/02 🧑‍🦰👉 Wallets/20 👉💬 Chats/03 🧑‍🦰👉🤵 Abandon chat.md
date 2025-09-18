@@ -14,7 +14,11 @@
 ||
 
 
-## Steps
+
+## Flow diagram
+
+![Flow diagram](<.📎 Assets/⚙️ Abandon chat.png>)
+
 
 | # | Call | Notes
 |-|-|-
@@ -24,14 +28,13 @@
 | 4 | [🤵⏩🧑‍🦰 Update Chats @ Broker](<../../08 🤵⏩ Brokers/05 🤵⏩🧑‍🦰 Update chats.md>) | The [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) asks the [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to refresh the list
 |
 
+<br/>
 
-## Flow diagram
+## FAQ
 
-![Flow diagram](<.📎 Assets/⚙️ Abandon chat.png>)
+1. **Why are Hosts only notified afterwards?**
 
-## Design decisions
+    [Host 🤗 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) are informed only after the abandonment to avoid stopping the user from leaving.
 
-| Scope |Decision|
-|-|-
-|`Privacy`| [Host 🤗 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) are informed only after the abandonment to avoid stopping the user from leaving.
-|
+    ---
+    <br/>

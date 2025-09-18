@@ -1,7 +1,12 @@
 # 👉 Introduce Host @ [Finder 🔎](<../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) 
 
 
-## Steps
+
+
+## Flow diagram
+
+![Introduce](<.📎 Assets/⚙️ Introduce.png>)
+
 
 | # | Call | Notes
 |-|-|-
@@ -12,8 +17,3 @@
 | 5 | [🤵🐌📣 Prompt @ Notifier](<../../6 🅰️ APIs/12 📣🅰️ Notifier/02 📣💬🅰️ Chats/21 🤵🐌📣 Prompt.md>) | Push to the device.
 | 6 | [🔎🐌🤵 Introduced @ Broker](<../../6 🅰️ APIs/02 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/04 🔎🐌🤵 Introduced.md>) | Finish introduction.
 ||
-
-
-## Flow diagram
-
-![Introduce](<.📎 Assets/⚙️ Introduce.png>)

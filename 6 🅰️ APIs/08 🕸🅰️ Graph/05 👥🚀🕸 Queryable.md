@@ -19,15 +19,13 @@
 |-|-|-
 
 
-```json
-...
-"Body": {
-    "Host": "any-host.org",
-    "Binds": [{
-        "Vault": "ec.europa.eu",
-        "Code": "airlines.any-igo.org/SSR/WCHR/CRED"
+```yaml
+Body: 
+    Host: any-host.org
+    Binds: [{
+        Vault: ec.europa.eu
+        Code: airlines.any-igo.org/SSR/WCHR/CRED
     }]
-}
 ```
 
 

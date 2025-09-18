@@ -8,14 +8,8 @@
 > A Broker unbinds a wallet user from a Vault.
 
 
-## Message 🐌
+## Async Message 🐌
 
-|Object|Property|Type|Description
-|-|-|-|-
-|Header| `From` | string | [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
-|| `To` | string | [Vault 🗄️ domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>)
-|| `Subject` | string | `Unbind@Vault`
-|Body| `BindID`| UUID | [Bind 🔗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>) ID
 
 ```yaml
 Header:
@@ -26,6 +20,14 @@ Header:
 Body:
     BindID: <bind-uuid>
 ```
+
+|Object|Property|Type|Description
+|-|-|-|-
+|Header| `From` | string | [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
+|| `To` | string | [Vault 🗄️ domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>)
+|| `Subject` | string | `Unbind@Vault`
+|Body| `BindID`| UUID | [Bind 🔗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>) ID
+
 <br/>
 
 ## Steps
