@@ -6,11 +6,13 @@
 
 ## Async Message 
 
-- Header:
-  - From: `any-host.org`
-  - To: `any-broker.org`
-  - Subject: `Bindable@Broker`
-- Body:
-  - SessionID: `<session-uuid>`
-  - Codes [ ]:
-    - Code: `any-authority.org/<code>`
+```yaml
+Header:
+  From: any-host.org
+  To: any-broker.org
+  Subject: Bindable@Broker
+Body:
+  SessionID: <session-uuid>
+  Codes:
+    - Code: any-authority.org/<code>
+```

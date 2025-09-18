@@ -1,9 +1,10 @@
 # 🤵⏩🧑‍🦰 New chat
 
-## About
+> Opens a new chat window in the app.
 
-- Purpose: opens a new chat window in the app.
-- Callers: [🧑‍🦰👉🤗 Host QR](<../02 🧑‍🦰👉 Wallets/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>)
+| Caller | Notes
+|-|-
+|[🧑‍🦰👉🤗 Host QR](<../02 🧑‍🦰👉 Wallets/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>)
 
 
 
