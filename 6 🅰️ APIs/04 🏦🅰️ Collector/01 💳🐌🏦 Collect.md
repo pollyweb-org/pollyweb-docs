@@ -9,6 +9,10 @@
 
 ## Async Message 🐌
 
+|Property|Type|Description
+|-|-|-
+
+
 * Header:
    * From: `any-payer.com`
    * To: `collector.com`

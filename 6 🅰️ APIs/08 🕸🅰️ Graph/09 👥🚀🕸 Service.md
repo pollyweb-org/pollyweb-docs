@@ -21,3 +21,8 @@
 |-|-
 | [⭐⏩🧑‍🦰 Review @ Reviewer ](<../../5 ⏩ Flows/10 ⭐⏩ Reviewers/01 ⭐⏩🧑‍🦰 Review.md>)
 ||
+
+
+|Property|Type|Description
+|-|-|-
+

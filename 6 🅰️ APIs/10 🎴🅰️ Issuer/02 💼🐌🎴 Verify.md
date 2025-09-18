@@ -6,3 +6,7 @@
 
 > Request for an 🃏 Issuer to confirm if a token is still valid.
 
+
+|Property|Type|Description
+|-|-|-
+

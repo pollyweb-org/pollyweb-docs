@@ -14,3 +14,8 @@
 |-|-
 | [🤵⏩🧑‍🦰 Assessed @ Broker](<../../../5 ⏩ Flows/08 🤵⏩ Brokers/01 🤵⏩🧑‍🦰 Assessed.md>) | Brokers tell Wallets about a new chat.
 ||
+
+
+|Property|Type|Description
+|-|-|-
+

@@ -11,6 +11,8 @@
 
 ## Async Message
 
+|Property|Type|Description
+|-|-|-
 
 - Header:
   - From: `<wallet-uuid>`

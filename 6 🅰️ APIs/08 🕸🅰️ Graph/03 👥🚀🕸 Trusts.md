@@ -16,6 +16,10 @@
 
 ## Input
 
+|Property|Type|Description
+|-|-|-
+
+
 - Body:
     - Truster: `heathrow.com`
     - Trusted: `airfrance.fr`
@@ -24,6 +28,10 @@
 
 
 ## Output
+
+|Property|Type|Description
+|-|-|-
+
 
 - Trusted: True,
 - Paths: [[`<vault>`, `<consumer>`]]

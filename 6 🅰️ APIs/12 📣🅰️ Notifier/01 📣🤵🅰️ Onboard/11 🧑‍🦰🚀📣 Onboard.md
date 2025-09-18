@@ -14,3 +14,8 @@
 |-|-
 | [Onboard 🧑‍🦰👉🤵](<../../../5 ⏩ Flows/02 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/11 🧑‍🦰👉🤵 Onboard.md>) | To register the channel between the Notifier and the Wallet (e.g., sockets)
 ||
+
+
+|Property|Type|Description
+|-|-|-
+

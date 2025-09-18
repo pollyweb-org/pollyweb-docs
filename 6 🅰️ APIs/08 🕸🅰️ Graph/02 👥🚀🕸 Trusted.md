@@ -16,6 +16,10 @@
 
 ## Input
 
+|Property|Type|Description
+|-|-|-
+
+
 - Body:
     - Domain: `ec.europa.eu`
     - Context: `VAULT`
@@ -23,6 +27,10 @@
 
 
 ## Output
+
+|Property|Type|Description
+|-|-|-
+
 
 - Trusted: `True`
 - Paths: [[`<vault>`, `<consumer>`]]

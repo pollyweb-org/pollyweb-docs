@@ -11,3 +11,7 @@
 ## About
 
 - Flow: [👉 Introduce](<../../5 ⏩ Flows/07 🔎⏩ Finders/01 🔎⏩🧑‍🦰 Introduce.md>)
+
+|Property|Type|Description
+|-|-|-
+

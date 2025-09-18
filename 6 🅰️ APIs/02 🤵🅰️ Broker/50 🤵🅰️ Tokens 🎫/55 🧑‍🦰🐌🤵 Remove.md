@@ -6,6 +6,10 @@
 
 ## Async Message
 
+|Property|Type|Description
+|-|-|-
+
+
 - Header:
   - From: `<wallet-uuid>`
   - To: `any-broker.org`

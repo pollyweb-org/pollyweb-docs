@@ -7,6 +7,9 @@
 
 ## Async Message
 
+|Property|Type|Description
+|-|-|-
+
 * Header:
   * From: `<wallet-uuid>`
   * Subject: `Unbind@Broker`

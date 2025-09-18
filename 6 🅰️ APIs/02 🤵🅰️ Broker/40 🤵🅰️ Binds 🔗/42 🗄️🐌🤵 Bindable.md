@@ -6,6 +6,9 @@
 
 ## Async Message 
 
+|Property|Type|Description
+|-|-|-
+
 ```yaml
 Header:
   From: any-host.org

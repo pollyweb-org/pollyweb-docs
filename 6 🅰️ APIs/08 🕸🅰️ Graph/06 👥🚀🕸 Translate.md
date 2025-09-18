@@ -16,6 +16,10 @@
 
 ## Input
 
+|Property|Type|Description
+|-|-|-
+
+
 - Header: ...
 - Body: 
    - Language: `en-us`
@@ -24,6 +28,10 @@
 
 
 ## Output
+
+|Property|Type|Description
+|-|-|-
+
 
 - Language: `en-us`
 - Domains [ ]: 

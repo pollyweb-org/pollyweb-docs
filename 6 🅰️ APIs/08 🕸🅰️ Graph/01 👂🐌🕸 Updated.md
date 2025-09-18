@@ -13,6 +13,12 @@
 
 
 ## Input
+
+
+|Property|Type|Description
+|-|-|-
+
+
 ```json
 ...
 "Body": {

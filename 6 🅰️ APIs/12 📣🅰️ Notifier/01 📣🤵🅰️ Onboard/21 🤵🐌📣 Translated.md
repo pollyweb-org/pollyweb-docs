@@ -13,3 +13,8 @@
 |-|-
 | [🧑‍🦰👉🤵 Translate](<../../../5 ⏩ Flows/02 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/12 🧑‍🦰👉🤵 Translate.md>) | Called by Brokers to re-render translated contented.
 ||
+
+
+|Property|Type|Description
+|-|-|-
+

@@ -12,6 +12,10 @@
 
 ## Synchronous Request 🚀
 
+|Property|Type|Description
+|-|-|-
+
+
 * Header:
   * From: `any-seller.com`
   * To: `any-collector.com`

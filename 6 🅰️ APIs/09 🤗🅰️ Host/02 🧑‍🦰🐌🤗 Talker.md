@@ -7,3 +7,7 @@
 
 - Flow: [Talker 🧑‍🦰👉🤗](<02 🧑‍🦰🐌🤗 Talker.md>)
 
+
+|Property|Type|Description
+|-|-|-
+

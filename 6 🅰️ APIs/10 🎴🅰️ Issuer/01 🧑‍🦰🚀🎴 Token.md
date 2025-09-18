@@ -11,6 +11,10 @@
 
 ## Request
 
+|Property|Type|Description
+|-|-|-
+
+
 * Header:
   * From: `any-broker.org`
   * To: `any-issuer.com`

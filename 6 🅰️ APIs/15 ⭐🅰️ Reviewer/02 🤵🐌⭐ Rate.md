@@ -13,3 +13,8 @@
 | ServiceID | nlweb.org/HOSTS/RATED
 | InteractionID | nlweb.org/HOSTS/RATED
 ||
+
+
+|Property|Type|Description
+|-|-|-
+

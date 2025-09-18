@@ -4,3 +4,7 @@
 
 # 👥🚀🖨️ Details @ [Printer](<../../4 ⚙️ Solution/70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>)
 
+
+|Property|Type|Description
+|-|-|-
+

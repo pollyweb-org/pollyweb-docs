@@ -14,6 +14,10 @@
 
 ## Async Message 🐌
 
+|Property|Type|Description
+|-|-|-
+
+
 - Header:
     - [From 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>): `any-broker.org` 
     - [Subject 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>): `Verify@Consumer`
