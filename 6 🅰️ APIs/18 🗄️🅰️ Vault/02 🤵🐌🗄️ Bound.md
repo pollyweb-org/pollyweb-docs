@@ -7,7 +7,7 @@
 
 
 
-## Async Message 🐌
+## Message 🐌
 
 |Property|Type|Description
 |-|-|-
