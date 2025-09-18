@@ -2,30 +2,40 @@
 
 <!-- https://quip.com/s9oCAO3UR38A#temp:C:TDDf29b75b2d0214f9a87224b338 -->
 
-# 🤵🐌🤗 CheckIn @ [Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>)
+# 🤵🐌🤗 CheckIn @ Host
 
 
-## Async Message
+## Async Message 🐌
 
-|Property|Type|Description
-|-|-|-
+|Object|Property|Type|Description
+|-|-|-|-
+| Header    | `From`    | string    | [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) name
+|           | `To`      | string    | [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) name
+|           | `Subject` | string    | `CheckIn@Host`
+| Body      | `Language`| string    | ISO language code
+|           | `ChatID`  | UUID      | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) ID in the [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
+|           | `Locator` | string    | [Locator 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) in the [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>)
+|           | `Code`    | string    | [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) of the Locator
+|           | `Binds`   | UUID list | List of [Binds 🔗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>) for a Vault host
+|           | `Tokens`  | UUID list | List of [Tokens 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) for an Issuer host
+|
 
 
-- Header:
-    - [From 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>): `any-broker.org`
-    - [To 🤗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>): `any-host.org`
-    - [Subject 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>): `CheckIn@Host`
+```yaml
+Header:
+    From: any-broker.org
+    To: any-host.org
+    Subject: CheckIn@Host
 
-- Body:
-    - Language: `en-us` 
-    - [ChatID 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>): `61738d50-d507-42ff-ae87-48d8b9bb0e5a`
-    - [Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): `nlweb.org/THING`
-    - [Locator 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>): `MY-THING-ID`
-    - [Binds 🔗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>) [ ]: 
-        - `125a5c75-cb72-43d2-9695-37026dfcaa48`
-        - `bc3d5f49-5d30-467a-9e0e-0cb5fd80f3cc`
-    - [Tokens 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) [ ]:
-        - `125a5c75-cb72-43d2-9695-37026dfcaa48`
-        - `bc3d5f49-5d30-467a-9e0e-0cb5fd80f3cc`
-
----
+Body:
+    Language: en-us
+    ChatID: 61738d50-d507-42ff-ae87-48d8b9bb0e5a
+    Code: nlweb.org/THING
+    Locator: MY-THING-ID
+    Binds: 
+        - <bind-#1-uuid>
+        - <bind-#2-uuid>
+    Tokens:
+        - <token-#1-uuid>
+        - <token-#2-uuid>
+```

@@ -9,14 +9,15 @@
 |Property|Type|Description
 |-|-|-
 
+```yaml
+Header:
+    From: <wallet-uuid>
+    To: any-broker.com
+    Subject: Accepted@Broker
 
-- Header:
-  - From: `<wallet-uuid>`
-  - Subject: `Accepted@Broker`
-- Body:
-  - ChatID: `<session-uuid>`
-  - TokenID: `<offer-uuid>`
-  - Issuer: `any-host.org`
-  - Path: `/storage/tf/creds/<issuer>/<token-uuid>`
-- Hash: `<hash>`
-- Signature: `<signature>`
+Body:
+    ChatID: <session-uuid>
+    TokenID: <offer-uuid>
+    Issuer: any-host.org
+    Path: /storage/tf/creds/<issuer>/<token-uuid>
+```

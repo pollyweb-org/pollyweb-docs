@@ -5,27 +5,30 @@
 
 # 🤵🐌🗄️ Suppress @ Vault
 
-> Suppress [🖐️ Palm scans](<../../30 🫥 Agents/05 🆔 Identities/05 🆔🖐️ Palm scan.md>) on Palmist devices.
+> Suppress [🖐️ Palm scans](<../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/05 🆔🖐️ Palm scan.md>) on Palmist devices.
 
 ## Message 🐌
 
-|Property|Type|Description
-|-|-|-
-| `From` | string | [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
-| `To` | string | [Vault 🗄️ domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>)
-| `Subject` | string | `Suppress@Vault`
-| `Consumer` | string | [Consumer 💼 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>)
-| `ChatID`| UUID | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) ID
+|Object|Property|Type|Description
+|-|-|-|-
+|Header| `From` | string | [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
+|| `To` | string | [Vault 🗄️ domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>)
+|| `Subject` | string | `Suppress@Vault`
+|Body| `Consumer` | string | [Consumer 💼 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>)
+|| `ChatID`| UUID | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) ID
 
 ```yaml
 Header:
     From: any-broker.com
     To: any-vault.com
     Subject: Suppress@Vault
+    
 Body:
     Consumer: any-consumer.com
     ChatID: <chat-uuid>
 ```
+<br/>
+
 
 ## Steps
 
@@ -34,7 +37,7 @@ Body:
     * AND the palm reader is actively looking for the user of the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>)
     * WHEN suppressed 
     * THEN stop searching for it
-    * AND stop sending findings to the [Host 🤗 domain](<../23 💬 Chats/03 🤗🎭 Host role.md>).
+    * AND stop sending findings to the [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>).
     
 * Remove the session from 🪣 Disclosures
 * If the session is not found on disclosures, just discard the message.

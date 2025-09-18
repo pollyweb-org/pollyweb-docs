@@ -9,21 +9,33 @@
 > Allows for a token to be downloaded from the issuer into the wallet.
 
 
-## Request
+## Sync Request
 
-|Property|Type|Description
+|Object |Property |Type|Description
+|-|-|-|-
+|Header | `From`  | string  | Broker name
+|       | `To`    | string  | Issuer name
+|       | `Subject`| string | `Token@Issuer`
+| Body  | `ChatID`| 
+|       | `TokenID`| 
+
+```yaml
+Header:
+    From: any-broker.org
+    To: any-issuer.com
+    Subject: Token@Issuer
+    
+Body:
+    ChatID: <chat-uuid>
+    TokenID: <token-uuid>
+```
+
+## Sync Response
+
+|Property |Type|Description
 |-|-|-
+| `QR`  | string  | 
 
-
-* Header:
-  * From: `any-broker.org`
-  * To: `any-issuer.com`
-  * Subject: `Token@Issuer`
-* Body:
-  * ChatID: `<chat-uuid>`
-  * TokenID: `<token-uuid>`
-
-
-## Response
-
-* QR: `<qr>`
+```yaml
+QR: `<qr>`
+```

@@ -6,18 +6,23 @@
 
 # 🧑‍🦰🐌🤵 Translate @ [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
 
-## Message 🐌
+## Async Message 🐌
 
 
-|Property|Type|Description
-|-|-|-
-|`From` | UUID | ID of the [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) on the [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>).
-|`Language`| string | ISO language code.
+|Object|Property|Type|Description
+|-|-|-|-
+|Header|`From` | UUID | ID of the [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) on the [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>).
+||`To`| string | [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) name
+||`Subject`| string | `Translate@Broker`
+|Body|`Language`| string | ISO language code.
 |
 
 ```yaml
 Header: 
     From: <wallet-uuid>
+    To: any-broker.com
+    Subject: Translate@Broker
+
 Body:
     Language: en-us
 ```
