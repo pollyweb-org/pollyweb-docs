@@ -1,3 +1,4 @@
+
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 
@@ -71,4 +72,3 @@ Schema:
                 $ref: nlweb.org/MANIFEST/TRANSLATION:1.0#Language
               example: 
                 en: Name
-

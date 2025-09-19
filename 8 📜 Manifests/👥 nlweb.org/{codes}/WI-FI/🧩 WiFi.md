@@ -1,3 +1,4 @@
+
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 
@@ -33,4 +34,3 @@ Schemas:
           - NONE
           - WPA/WPA2
           - WEP
-

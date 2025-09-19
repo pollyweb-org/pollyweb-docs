@@ -1,3 +1,4 @@
+
 Path: /PROFILE/PARKING
 Name: Vehicle
 Description: Share vehicle licence plate and type for parking.
