@@ -1,4 +1,5 @@
 
+# 🧩 VaultMsgBound
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 

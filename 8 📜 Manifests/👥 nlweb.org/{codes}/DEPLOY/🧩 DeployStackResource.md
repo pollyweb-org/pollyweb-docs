@@ -1,4 +1,5 @@
 
+# 🧩 DeployStackResource
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 

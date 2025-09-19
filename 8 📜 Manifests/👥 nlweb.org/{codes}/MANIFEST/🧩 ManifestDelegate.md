@@ -1,4 +1,5 @@
 
+# 🧩 ManifestDelegate
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 

@@ -1,4 +1,5 @@
 
+# 🧩 CrudEntityPropertyInternal
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 

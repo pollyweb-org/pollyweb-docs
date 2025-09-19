@@ -1,4 +1,5 @@
 
+# 🧩 StorageHost
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 

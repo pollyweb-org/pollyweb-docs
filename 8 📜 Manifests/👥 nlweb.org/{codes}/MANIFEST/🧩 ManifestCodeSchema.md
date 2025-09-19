@@ -1,4 +1,5 @@
 
+# 🧩 ManifestCodeSchema
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 

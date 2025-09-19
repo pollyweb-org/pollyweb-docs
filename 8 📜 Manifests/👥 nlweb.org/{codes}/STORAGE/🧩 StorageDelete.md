@@ -1,4 +1,5 @@
 
+# 🧩 StorageDelete
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 

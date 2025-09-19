@@ -1,4 +1,5 @@
 
+# 🧩 ProfileNameLegal
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 

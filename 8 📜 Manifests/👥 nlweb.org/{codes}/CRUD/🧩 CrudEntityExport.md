@@ -1,4 +1,5 @@
 
+# 🧩 CrudEntityExport
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 
