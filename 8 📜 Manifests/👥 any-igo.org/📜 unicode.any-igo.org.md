@@ -1,5 +1,5 @@
 
-# 📜 Manifest: unicode.any-igo.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>): unicode.any-igo.org
 
 ```yaml
 🤝: nlweb.org/MANIFEST

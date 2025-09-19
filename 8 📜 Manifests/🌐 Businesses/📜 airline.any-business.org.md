@@ -1,5 +1,5 @@
 
-# 📜 Manifest: airline.any-business.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>): airline.any-business.org
 <!--# 🏳️💺 https://quip.com/Yp6rADERIDPv/-Air-France-Airline -->
 
 ```yaml

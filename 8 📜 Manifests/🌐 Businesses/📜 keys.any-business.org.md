@@ -1,5 +1,5 @@
 
-# 📜 Manifest: keys.any-business.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>): keys.any-business.org
 <!--# 🧪🔑 https://quip.com/W27vArlsLa9c/-Door-Keys-Building-->
 
 ```yaml

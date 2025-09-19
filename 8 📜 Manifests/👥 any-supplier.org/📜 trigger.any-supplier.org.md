@@ -1,5 +1,5 @@
 
-# 📜 Manifest: trigger.any-supplier.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>): trigger.any-supplier.org
 #  
 
 ```yaml
