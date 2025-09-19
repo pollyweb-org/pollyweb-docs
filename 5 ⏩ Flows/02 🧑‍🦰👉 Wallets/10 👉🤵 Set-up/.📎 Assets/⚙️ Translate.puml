@@ -12,19 +12,19 @@ participant "Graph 🕸\ndomain" as graph
 ' ------------
 user --> wallet: language
 activate wallet
-    wallet --> broker: 1) translate@
+    wallet --> broker: 1) Translate@
 deactivate wallet
 
 ' BROKER
 activate broker
-    broker -> graph: 2) translate@
+    broker -> graph: 2) Translate@
 
     activate graph
         graph -> broker: {translated}
     deactivate graph
 
     broker -> broker: update
-    broker --> notifier: 3) translated@
+    broker --> notifier: 3) Translated@
 deactivate broker
 
 ' NOTIFIER
@@ -35,17 +35,17 @@ deactivate notifier
 ' UI
 activate wallet
     
-    wallet -> broker: 4) chats@
+    wallet -> broker: 4) Chats@
     activate broker
         broker -> wallet: {chats}
     deactivate broker
 
-    wallet -> broker: 5) binds@
+    wallet -> broker: 5) Binds@
     activate broker
         broker -> wallet: {binds}
     deactivate broker
 
-    wallet -> broker: 6) tokens@
+    wallet -> broker: 6) Tokens@
     activate broker
         broker -> wallet: {tokens}
     deactivate broker
