@@ -2,7 +2,8 @@
 
 > Opens a new chat window in the app.
 
-> Used by [🧑‍🦰👉🤗 Host QR](<../02 🧑‍🦰👉 Wallets/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>)
+> Used in:
+> <br/>• [🧑‍🦰👉🤗 Host QR](<../02 🧑‍🦰👉 Wallets/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>)
 
 
 

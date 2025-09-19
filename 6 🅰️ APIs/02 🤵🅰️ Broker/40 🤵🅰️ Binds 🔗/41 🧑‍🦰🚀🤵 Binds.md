@@ -2,28 +2,34 @@
 
 <!-- Tests: https://github.com/jorgemjfonseca/domain-trust-framework/blob/2896911396280f90ec68c32b50aa99dc4a3c90e2/python/roles/broker/BROKER_BINDS_TESTS.py#L53 -->
 
+# 🧑‍🦰🚀🤵 Binds @ Broker
+
 > Lists the Binds of a Wallet app.
 
-## Sync Request
+> Used in:
+> <br/> • [🧑‍🦰👉🤵 Translate](<../../../5 ⏩ Flows/02 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/12 🧑‍🦰👉🤵 Translate.md>)
+> <br/> • [🧑‍🦰👉🤵 List binds](<../../../5 ⏩ Flows/02 🧑‍🦰👉 Wallets/30 👉🔗 Binds/01 🧑‍🦰👉🤵 List binds.md>)
+> <br/> • [🤵⏩🧑‍🦰 Update binds](<../../../5 ⏩ Flows/08 🤵⏩ Brokers/03 🤵⏩🧑‍🦰 Update binds.md>)
 
-|Property|Type|Description
-|-|-|-
-|
+<br/>
+
+## Synchronous Request 🚀
 
 ```yaml
 Header:
-  From: <wallet-uuid>
-  To: any-broker.org
-  Subject: Binds@Broker
+    From: <wallet-uuid>
+    To: any-broker.org
+    Subject: Binds@Broker
 Body: 
 `````
-
-
-## Sync Response
-
 |Property|Type|Description
 |-|-|-
 |
+
+<br/>
+
+## Synchronous Response 🚀
+
 
 ```yaml
 Binds:
@@ -33,3 +39,7 @@ Binds:
     Code: any-authority.org/ANY-CODE
     CodeTitle: Any Code
 ```
+
+|Property|Type|Description
+|-|-|-
+|

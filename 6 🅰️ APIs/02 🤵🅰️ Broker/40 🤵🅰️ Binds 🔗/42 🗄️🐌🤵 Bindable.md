@@ -4,10 +4,12 @@
 <!-- Tests: https://github.com/jorgemjfonseca/domain-trust-framework/blob/2896911396280f90ec68c32b50aa99dc4a3c90e2/python/roles/broker/BROKER_BINDS_TESTS.py#L10 -->
 
 
-## Async Message 
+# 🗄️🐌🤵 Bindable @ Broker
 
-|Property|Type|Description
-|-|-|-
+
+<br/>
+
+## Async Message  🐌
 
 ```yaml
 Header:
@@ -17,5 +19,8 @@ Header:
 Body:
   SessionID: <session-uuid>
   Codes:
-    - Code: any-authority.org/<code>
+    - Code: any-authority.org/ANY-CODE
 ```
+
+|Property|Type|Description
+|-|-|-

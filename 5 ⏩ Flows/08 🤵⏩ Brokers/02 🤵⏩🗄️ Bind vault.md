@@ -3,10 +3,9 @@
 > Steps to create a [Bind 🔗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>).
 
 
-| Caller | Notes
-|-|-
-| [🧑‍🦰👉🤵 Onboard @ Wallet](<../02 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/11 🧑‍🦰👉🤵 Onboard.md>) | When setting the default [Vaults 🗄️](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) upon install.
-| [🧑‍🦰👉🗄️ Bind @ Wallet](<../09 🗄️⏩ Vaults/01 🗄️⏩🧑‍🦰 Bind.md>) | When the user binds to to a [Vault 🗄️](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) in a chat.
+> Used in:
+> <br/>• [🧑‍🦰👉🤵 Onboard @ Wallet](<../02 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/11 🧑‍🦰👉🤵 Onboard.md>) when setting the default [Vaults 🗄️](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) upon install.
+> <br/>•  [🧑‍🦰👉🗄️ Bind @ Wallet](<../09 🗄️⏩ Vaults/01 🗄️⏩🧑‍🦰 Bind.md>) when the user binds to to a [Vault 🗄️](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) in a chat.
 
 
 

@@ -1,31 +1,49 @@
 📣 Notifier domains FAQ
 ===
 
-![](<.📎 Assets/📣 Notifier.png>)
+
 
 1. **What is a Notifier domain in NLWeb?**
 
-    A Notifier is a backend-for-frontend (BFF) domain that acts as a proxy for a [Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>). 
+    A [Notifier 📣](<02 📣 Notifier domain.md>) is any backend-for-frontend (BFF) [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that acts as a proxy for a [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>). 
     
-    * This allows other domains to communicate in standard HTTPS with the Notifier 📣, while the Notifier 📣 communicates via mobile-friendly real-time protocols with the [Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) (e.g., MQTT, web sockets, mobile notifications). 
+    * This allows [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) to communicate in standard HTTPS with the [Notifier 📣 domain](<02 📣 Notifier domain.md>), while the [Notifier 📣 domain](<02 📣 Notifier domain.md>) communicates via mobile-friendly real-time protocols with the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) (e.g., MQTT, web sockets, mobile notifications). 
     
-    * Because of this tight integration between Notifiers 📣 and [Wallets 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), NLWeb advocates for them to be built and managed by the same team.
+    * Because of this tight integration between pairs of [Notifier 📣 domains](<02 📣 Notifier domain.md>) and [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), NLWeb advocates for each pair to be built and managed by the same team.
 
     ---
+    <br/>
 
-1. **Do Notifiers store user data?**
+1. **How do Notifier domains work?**
+    
+    ![](<.📎 Assets/📣 Notifier.png>)
+
+    |#|Step
+    |-|-
+    |1| A [Host 🤗 domain](<../23 💬 Chats/03 🤗🎭 Host role.md>) sends a [Prompt 🤔 ](<../23 💬 Chats/02 🤔 Prompt.md>) identifier to a [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) in the context of a [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>), which is then proxied through the [Notifier 📣 domain](<02 📣 Notifier domain.md>) and pushed to the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+    |2| The [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) pulls the content of the [Prompt 🤔 ](<../23 💬 Chats/02 🤔 Prompt.md>) using the identifier.
+    |3| The user replies to the [Prompt 🤔 ](<../23 💬 Chats/02 🤔 Prompt.md>) and the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) sends the answer to the [Host 🤗 domain](<../23 💬 Chats/03 🤗🎭 Host role.md>).
+
+    ---
+    <br/>
+
+
+1. **Do Notifier domains store user data?**
 
     Not for NLWeb. 
     
-    * In NLWeb, domain orchestration is done by [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) domains, and storage of user data is done by [Vault 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) domains, while a Notifier's 📣 only responsibility is to proxy messages to and from the [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>). 
+    * In NLWeb, domain orchestration is done by [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>), and storage of user data is done by [Vault 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) domains, while a [Notifier 📣 domain's](<02 📣 Notifier domain.md>) only responsibility is to proxy [domain messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) to and from the [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>). 
     
-    * This is by design, allowing resilient [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) implementations (e.g., AWS, GCP, Azure) to assume the complexity of the undifferentiated NLWeb protocol, while allowing app start-ups to focus on user experience differentiation. 
+    * This is by design, allowing resilient [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) implementations (e.g., AWS, GCP, Azure) to assume the complexity of the undifferentiated NLWeb protocol, while allowing app start-ups to focus on user experience differentiation. 
     
-    * Of course, companies developing [Wallets](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) may wish to support unique features not supported by [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>), which may eventually result in the need to store user data on the Notifier 📣.
+    * Of course, companies developing [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) may wish to support unique features not supported by [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>), which may eventually result in the need to store user data on the [Notifier 📣 domain](<02 📣 Notifier domain.md>).
 
     ---
+    <br/>
 
-1. **How can messages flow in Notifiers with WebSockets?**
+2. **How can messages flow in Notifier domains with WebSockets?**
+
+    The following diagram shows the message flow with WebSockets.
 
     ![alt text](<.📎 Assets/📣 Notifier UML.png>)
 

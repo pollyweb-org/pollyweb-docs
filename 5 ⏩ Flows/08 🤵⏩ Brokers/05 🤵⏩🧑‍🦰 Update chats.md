@@ -2,8 +2,9 @@
 
 > Updates the list of Chats on the Wallet app.
 
-> Used by [🧑‍🦰👉🤵 Abandon chat @ Wallet](<../02 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>)
-> <br/>Used by [🤵⏩🧑‍🦰 New chat @ Broker](<01 🤵⏩🧑‍🦰 Assessed.md>)
+> Used in:
+> <br/>• [🧑‍🦰👉🤵 Abandon chat @ Wallet](<../02 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>)
+> <br/>• [🤵⏩🧑‍🦰 New chat @ Broker](<01 🤵⏩🧑‍🦰 Assessed.md>)
 
 
 ## Flow diagram
