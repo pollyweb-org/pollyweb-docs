@@ -1,28 +1,39 @@
 <!-- #TODO -->
 
-# 👥🚀🕸 Service @ [Graph](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>)
+# 👥🚀🕸 Service @ Graph
+
+> Returns details about a given ServiceID in a Host's Manifest.
+
+> ⚠️ This method doesn’t look at the header nor the signature of the request.
+
+> Used by [⭐⏩🧑‍🦰 Review @ Reviewer ](<../../5 ⏩ Flows/10 ⭐⏩ Reviewers/01 ⭐⏩🧑‍🦰 Review.md>)
+
+<br/>
 
 
-## About
+## Synchronous Request 🚀
 
-* Returns details about a given ServiceID in a Host's Manifest.
-
-
-## Privacy
-
-- Used by Reviewers to be able to anonymize interactions.
-- It assumes that Hosts can't use sequential dynamic ServiceIDs to track users because that would required them to update their Manifests in every user interaction.
-- A service definition contains questions for Hosts to understand how to improve.
+<br/>
 
 
-## Called by 
+## Synchronous Response
 
-| Caller | Notes
-|-|-
-| [⭐⏩🧑‍🦰 Review @ Reviewer ](<../../5 ⏩ Flows/10 ⭐⏩ Reviewers/01 ⭐⏩🧑‍🦰 Review.md>)
-||
+<br/>
 
 
-|Property|Type|Description
-|-|-|-
+## FAQ
 
+1. **What is contained in a Service definition?**
+
+    A service definition contains questions for Hosts to understand how to improve.
+
+    ---
+    <br/>
+
+2. **Why is this method important?**
+   
+    This method is used by Reviewers to be able to anonymize user interactions, thus protecting their privacy.
+    * It assumes that Hosts can't use sequential dynamic ServiceIDs to track users because that would required them to update their Manifests in every user interaction.
+
+    ---
+    <br/>

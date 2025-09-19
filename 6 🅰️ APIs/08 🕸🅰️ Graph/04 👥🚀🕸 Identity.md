@@ -6,18 +6,13 @@
 # 👥🚀🕸 Identity @ Graph
 
 
-## Used by 
+> Used by [🤵⏩🧑‍🦰 Assessed @ Broker](<../../5 ⏩ Flows/08 🤵⏩ Brokers/01 🤵⏩🧑‍🦰 Assessed.md>) 
 
-| Caller | Notes
-|-|-
-| [🤵⏩🧑‍🦰 Assessed @ Broker](<../../5 ⏩ Flows/08 🤵⏩ Brokers/01 🤵⏩🧑‍🦰 Assessed.md>) | 
-||
+> ⚠️ This method doesn’t look at the header nor the signature of the request.
 
 <br/>
 
 ## Synchronous Request 🚀
-
-
 
 ```yaml
 Header: 
@@ -31,10 +26,10 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header| `From`    | string | The name of the domain querying.
+| Header| `From`    | string | The name of the [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) querying
 |       | `To`      | string | [Graph 🕸 domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>) name
 |       | `Subject` | string | `Identity@Graph`
-| Body  | `Domain`  | string | The name of another domain to look up.
+| Body  | `Domain`  | string | The name of another [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) to look up
 |
 
 <br/>
@@ -54,11 +49,11 @@ Translations:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Top|`Domain`   | string | URL name of the domain.
-||`Name`     | string | Friendly name of the domain.
-||`SmallIcon`| URL    | Location of the icon.
-||`BigIcon`  | URL    | Location of the icon.
-||`Translations`| list | List of Translation objects
-|Translation|`Language`| enum | ISO language code
-|           |`Translation`| string | Translated text
+|Top        |`Domain`       | string | URL name of the [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>)
+|           |`Name`         | string | Friendly name of the [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>)
+|           |`SmallIcon`    | URL    | Location of the small icon
+|           |`BigIcon`      | URL    | Location of the big icon
+|           |`Translations` | object[]| List of Translation objects
+|Translation|`Language`     | enum   | ISO language code
+|           |`Translation`  | string | Translated text
 |
