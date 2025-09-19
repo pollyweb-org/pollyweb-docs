@@ -1,5 +1,5 @@
 
-# 📜 airlines-ssr.any-igo.org
+# 📜 Manifest: airlines-ssr.any-igo.org
 <!--# 💺🏛️ https://quip.com/FuTpA83cGJ3L-->
 
 ```yaml

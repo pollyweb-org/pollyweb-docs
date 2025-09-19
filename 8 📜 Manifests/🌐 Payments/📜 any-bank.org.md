@@ -1,5 +1,5 @@
 
-# 📜 any-bank.org
+# 📜 Manifest: any-bank.org
 <!--# 🧪🏧 https://quip.com/I3iqAi8aUTjg/-Cash-Machine-->
 
 ```yaml

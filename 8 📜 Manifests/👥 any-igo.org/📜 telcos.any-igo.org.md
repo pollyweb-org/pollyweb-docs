@@ -1,5 +1,5 @@
 
-# 📜 telcos.any-igo.org
+# 📜 Manifest: telcos.any-igo.org
 # 🇺🇳 ITU - International Telecommunication Union
 
 ```yaml

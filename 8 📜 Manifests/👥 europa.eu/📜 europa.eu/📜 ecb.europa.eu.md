@@ -1,5 +1,5 @@
 
-# 📜 ecb.europa.eu
+# 📜 Manifest: ecb.europa.eu
 <!--# 🇪🇺 https://quip.com/bBbpAAGfOCIz/-Europaeu-->
 
 ```yaml

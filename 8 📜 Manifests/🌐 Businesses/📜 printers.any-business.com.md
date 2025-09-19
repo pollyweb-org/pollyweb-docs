@@ -1,5 +1,5 @@
 
-# 📜 printers.any-business.com
+# 📜 Manifest: printers.any-business.com
 <!--# 🇺🇸🎨 https://quip.com/AyM1AawqzCDT/-AnyPrinterSellercom-->
 
 ```yaml

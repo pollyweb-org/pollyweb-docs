@@ -1,5 +1,5 @@
 
-# 📜 any-consumer.org
+# 📜 Manifest: any-consumer.org
 ```yaml
 🤝: nlweb.org/MANIFEST
 

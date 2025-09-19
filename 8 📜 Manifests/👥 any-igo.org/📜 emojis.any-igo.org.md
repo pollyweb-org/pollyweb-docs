@@ -1,5 +1,5 @@
 
-# 📜 emojis.any-igo.org
+# 📜 Manifest: emojis.any-igo.org
 ```yaml
 🤝: nlweb.org/MANIFEST
 

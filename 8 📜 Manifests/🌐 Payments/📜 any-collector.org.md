@@ -1,5 +1,5 @@
 
-# 📜 any-collector.org
+# 📜 Manifest: any-collector.org
 <!--# 🏳️🏦 https://quip.com/vbUAAxbmqgnY/-AnyCollectoruk-->
 
 ```yaml

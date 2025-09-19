@@ -1,5 +1,5 @@
 
-# 📜 selfie.any-supplier.org
+# 📜 Manifest: selfie.any-supplier.org
 ```yaml
 🤝: nlweb.org/MANIFEST
 

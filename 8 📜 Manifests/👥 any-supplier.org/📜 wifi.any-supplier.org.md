@@ -1,5 +1,5 @@
 
-# 📜 wifi.any-supplier.org
+# 📜 Manifest: wifi.any-supplier.org
 <!--# 🇺🇸📶 https://quip.com/7u1wAVuC6aDM/-AnyWiFicom-->
 
 ```yaml

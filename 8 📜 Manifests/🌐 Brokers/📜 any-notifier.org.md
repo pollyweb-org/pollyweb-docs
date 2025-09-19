@@ -1,5 +1,5 @@
 
-# 📜 any-notifier.org
+# 📜 Manifest: any-notifier.org
 <!-- 👱 https://quip.com/vTSSAUYt4OGo/-AnyWalletcom -->
 
 ```yaml

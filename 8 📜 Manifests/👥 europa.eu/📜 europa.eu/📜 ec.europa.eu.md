@@ -1,5 +1,5 @@
 
-# 📜 ec.europa.eu
+# 📜 Manifest: ec.europa.eu
 <!--# 🇪🇺 https://quip.com/bBbpAAGfOCIz/-Europaeu-->
 
 ```yaml

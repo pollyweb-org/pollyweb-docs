@@ -1,5 +1,5 @@
 
-# 📜 any-broker.org
+# 📜 Manifest: any-broker.org
 <!-- 🤵 https://quip.com/hPaFAIsyMxpq/-AnyBrokercom -->
 
 ```yaml

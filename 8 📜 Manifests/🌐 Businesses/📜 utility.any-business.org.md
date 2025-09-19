@@ -1,5 +1,5 @@
 
-# 📜 utility.any-business.org
+# 📜 Manifest: utility.any-business.org
 ```yaml
 🤝: nlweb.org/MANIFEST
 
