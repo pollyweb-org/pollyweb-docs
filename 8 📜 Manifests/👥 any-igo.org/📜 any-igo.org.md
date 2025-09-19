@@ -1,5 +1,5 @@
 
-# 📜 any-igo.org
+# 📜 Manifest: any-igo.org
 <!--# 🇺🇳 https://quip.com/OV9hAzKhb8Wf/-UNorg-->
 
 ```yaml

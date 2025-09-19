@@ -1,5 +1,5 @@
 
-# 📜 any-nation.org
+# 📜 Manifest: any-nation.org
 ```yaml
 🤝: nlweb.org/MANIFEST
 

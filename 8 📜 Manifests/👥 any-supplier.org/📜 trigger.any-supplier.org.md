@@ -1,5 +1,5 @@
 
-# 📜 trigger.any-supplier.org
+# 📜 Manifest: trigger.any-supplier.org
 #  
 
 ```yaml

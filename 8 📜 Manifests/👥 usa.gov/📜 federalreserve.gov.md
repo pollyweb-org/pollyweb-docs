@@ -1,5 +1,5 @@
 
-# 📜 federalreserve.gov
+# 📜 Manifest: federalreserve.gov
 <!--# 🇺🇸 https://quip.com/VtTHA12LzVsr/-USAgov-->
 
 ```yaml

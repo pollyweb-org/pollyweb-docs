@@ -1,5 +1,5 @@
 
-# 📜 any-profile.org
+# 📜 Manifest: any-profile.org
 ```yaml
 🤝: nlweb.org/MANIFEST
 

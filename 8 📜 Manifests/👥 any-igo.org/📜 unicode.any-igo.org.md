@@ -1,5 +1,5 @@
 
-# 📜 unicode.any-igo.org
+# 📜 Manifest: unicode.any-igo.org
 ```yaml
 🤝: nlweb.org/MANIFEST
 

@@ -1,5 +1,5 @@
 
-# 📜 hairdresser.any-business.org
+# 📜 Manifest: hairdresser.any-business.org
 # 🧪💈 https://quip.com/gs2UAKnJ0dz0/-Beauty-Hairdresser
 
 ```yaml

@@ -1,5 +1,5 @@
 
-# 📜 vending.any-business.org
+# 📜 Manifest: vending.any-business.org
 <!--# 🍫 https://quip.com/u2A0AZ8kTUAj/-AnyVendingcom-->
 
 ```yaml

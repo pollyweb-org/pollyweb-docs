@@ -1,5 +1,5 @@
 
-# 📜 any-firewall.org
+# 📜 Manifest: any-firewall.org
 ```yaml
 🤝: nlweb.org/MANIFEST
 

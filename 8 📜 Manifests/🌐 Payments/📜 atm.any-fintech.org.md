@@ -1,5 +1,5 @@
 
-# 📜 atm.any-fintech.org
+# 📜 Manifest: atm.any-fintech.org
 ```yaml
 🤝: nlweb.org/MANIFEST
 

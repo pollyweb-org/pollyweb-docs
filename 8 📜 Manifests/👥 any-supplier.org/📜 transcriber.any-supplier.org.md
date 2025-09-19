@@ -1,5 +1,5 @@
 
-# 📜 transcriber.any-supplier.org
+# 📜 Manifest: transcriber.any-supplier.org
 ```yaml
 🤝: nlweb.org/MANIFEST
 

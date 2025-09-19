@@ -1,5 +1,5 @@
 
-# 📜 casino.any-business.org
+# 📜 Manifest: casino.any-business.org
 <!--# 🏳️🎰 https://quip.com/RUmtAj6kpz6p/-AnyCasinoit-->
 
 ```yaml

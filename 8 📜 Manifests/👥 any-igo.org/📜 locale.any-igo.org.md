@@ -1,5 +1,5 @@
 
-# 📜 locale.any-igo.org
+# 📜 Manifest: locale.any-igo.org
 ```yaml
 🤝: nlweb.org/MANIFEST
 
