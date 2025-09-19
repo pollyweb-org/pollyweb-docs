@@ -1,5 +1,3 @@
-<!-- #TODO -->
-
 ⏳ Buffer helper domains FAQ
 ===
 

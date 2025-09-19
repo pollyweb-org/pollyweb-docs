@@ -1,5 +1,3 @@
-<!-- #TODO -->
-
 <!-- https://quip.com/s9oCAO3UR38A#temp:C:TDDf29b75b2d0214f9a87224b338 -->
 
 # 🤵🐌🤗 CheckIn @ Host
