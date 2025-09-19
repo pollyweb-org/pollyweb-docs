@@ -27,14 +27,13 @@ deactivate broker
 
 ' The user asks to abandon the chat.
 activate wallet
-    user --> wallet: abandon
-    wallet --> broker: {abandon}
+    user --> wallet: home
+    wallet --> broker: {home}
 deactivate wallet
 
 ' The broker notifies the host and the notifier about the abandoned chat.
 activate broker
-    broker --> host: 3) Abandoned@
-    broker --> wallet: 4) ⏪ update chats
+    broker --> host: 3) Home@
 deactivate broker
 
 ' ----------------------

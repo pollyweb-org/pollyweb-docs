@@ -114,16 +114,16 @@
 
     | Caller | Method | Store | Description
     |-|-|-|-
-    Broker | [🤵🐌🤗 CheckIn](<../../../6 🅰️ APIs/09 🤗🅰️ Host/01 🤵🐌🤗 CheckIn.md>) | Chats | The user started a Chat.
-    Wallet | [🧑‍🦰🐌🤗 Talker](<../../../6 🅰️ APIs/09 🤗🅰️ Host/02 🧑‍🦰🐌🤗 Talker.md>) | Chats | Show the top menu on the Chat.
-    Broker | [🤵🐌🤗 Abandoned](<../../../6 🅰️ APIs/09 🤗🅰️ Host/03 🤵🐌🤗 Abandoned.md>) | Chats | The user abandoned a Chat.
-    Wallet | [🧑‍🦰🚀🤗 Prompted](<../../../6 🅰️ APIs/09 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) | Prompts | Return the Prompt's content.
-    Wallet | [🧑‍🦰🐌🤗 Reply](<../../../6 🅰️ APIs/09 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) | Prompts | Accept the reply to the Prompt.
-    Wallet | [🧑‍🦰🚀🤗 Download](<../../../6 🅰️ APIs/09 🤗🅰️ Host/06 🧑‍🦰🚀🤗 Download.md>) | Attachments | Download the attachment.
-    Wallet | [🧑‍🦰🚀🤗 Upload](<../../../6 🅰️ APIs/09 🤗🅰️ Host/07 🧑‍🦰🚀🤗 Upload.md>) | Attachments | Upload an attachment.
-    Palmist | [🖐️🐌🤗 Found](<../../../6 🅰️ APIs/09 🤗🅰️ Host/08 🖐️🐌🤗 Found.md>) | Chats | A Palmist found the Chat's user.
-    Reviewer | [⭐🐌🤗 Rated](<../../../6 🅰️ APIs/09 🤗🅰️ Host/09 ⭐🐌🤗 Rated.md>) | Chats | The Chat received user reviews.
-    Broker | [🤵🐌🤗 Summarize](<../../../6 🅰️ APIs/09 🤗🅰️ Host/10 🤵🐌🤗 Summarize.md>) | Chats | Return an advertising summary.
+    🤵 Broker | [🐌 CheckIn](<../../../6 🅰️ APIs/09 🤗🅰️ Host/01 🤵🐌🤗 CheckIn.md>) | Chats | The user started a Chat.
+    🧑‍🦰 Wallet | [🐌 Home](<../../../6 🅰️ APIs/09 🤗🅰️ Host/02 🧑‍🦰🐌🤗 Home.md>) | Chats | Show the top menu on the Chat.
+    🤵 Broker | [🐌 Abandoned](<../../../6 🅰️ APIs/09 🤗🅰️ Host/03 🤵🐌🤗 Abandoned.md>) | Chats | The user abandoned a Chat.
+    🧑‍🦰 Wallet | [🚀 Prompted](<../../../6 🅰️ APIs/09 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) | Prompts | Return the Prompt's content.
+    🧑‍🦰 Wallet | [🐌 Reply](<../../../6 🅰️ APIs/09 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) | Prompts | Accept the reply to the Prompt.
+    🧑‍🦰 Wallet | [🚀 Download](<../../../6 🅰️ APIs/09 🤗🅰️ Host/06 🧑‍🦰🚀🤗 Download.md>) | Attachments | Download the attachment.
+    🧑‍🦰 Wallet | [🚀 Upload](<../../../6 🅰️ APIs/09 🤗🅰️ Host/07 🧑‍🦰🚀🤗 Upload.md>) | Attachments | Upload an attachment.
+    🖐️ Palmist | [🐌 Found](<../../../6 🅰️ APIs/09 🤗🅰️ Host/08 🖐️🐌🤗 Found.md>) | Chats | A Palmist found the Chat's user.
+    ⭐ Reviewer | [🐌 Rated](<../../../6 🅰️ APIs/09 🤗🅰️ Host/09 ⭐🐌🤗 Rated.md>) | Chats | The Chat received user reviews.
+    🤵 Broker | [🐌 Summarize](<../../../6 🅰️ APIs/09 🤗🅰️ Host/10 🤵🐌🤗 Summarize.md>) | Chats | Return an advertising summary.
 
     ---
     <br/>
