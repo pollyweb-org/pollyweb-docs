@@ -1,5 +1,6 @@
-# 👱 https://quip.com/vTSSAUYt4OGo/-AnyWalletcom
+<!-- 👱 https://quip.com/vTSSAUYt4OGo/-AnyWalletcom -->
 
+```yaml
 🤝: nlweb.org/MANIFEST
 
 Identity:

@@ -1,5 +1,6 @@
+```yaml
 🤝: nlweb.org/MANIFEST
 
 Identity:
   Domain: cafe.any-business.com
-  Name: Any Coffe Shop
+  Name: Any Coffee Shop

@@ -1,5 +1,6 @@
-# 👂 https://quip.com/wJICAbOcyHUM/-AnyListenerorg
+<!-- 👂 https://quip.com/wJICAbOcyHUM/-AnyListenerorg -->
 
+```yaml
 🤝: nlweb.org/MANIFEST
 
 Identity:
