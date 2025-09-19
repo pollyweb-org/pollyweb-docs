@@ -1,5 +1,6 @@
 
 # 📜 Manifest: cafe.any-business.com
+
 ```yaml
 🤝: nlweb.org/MANIFEST
 
