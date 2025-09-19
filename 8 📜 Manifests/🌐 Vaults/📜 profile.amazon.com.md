@@ -1,4 +1,4 @@
-# 🧢 https://quip.com/XsoCA8E6EEU9/-AnyProfilecom
+<!--# 🧢 https://quip.com/XsoCA8E6EEU9/-AnyProfilecom-->
 
 ```yaml
 🤝: nlweb.org/MANIFEST

@@ -1,4 +1,4 @@
-# 🏳️🏦 https://quip.com/vbUAAxbmqgnY/-AnyCollectoruk
+<!--# 🏳️🏦 https://quip.com/vbUAAxbmqgnY/-AnyCollectoruk-->
 
 ```yaml
 🤝: nlweb.org/MANIFEST

@@ -1,4 +1,4 @@
-# 🇺🇸 https://quip.com/VtTHA12LzVsr/-USAgov
+<!--# 🇺🇸 https://quip.com/VtTHA12LzVsr/-USAgov-->
 
 ```yaml
 🤝: nlweb.org/MANIFEST
