@@ -1,5 +1,10 @@
 # 🧑‍🦰👉🤵 List chats @ Wallet
 
+> On the [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), fetch the user's [Chats 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) from the [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
+
+> Cache is invalidated with [🤵⏩🧑‍🦰 Update chats](<../../../5 ⏩ Flows/08 🤵⏩ Brokers/05 🤵⏩🧑‍🦰 Update chats.md>).
+
+<br/>
 
 ## Flow diagram
 

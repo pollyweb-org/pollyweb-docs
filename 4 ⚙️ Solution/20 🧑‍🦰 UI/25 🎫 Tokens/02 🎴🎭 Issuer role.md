@@ -31,9 +31,8 @@
     | Service | Prompt | User
     | - | - | - |
     |...
-    | 🎭 Venue   | 😃 Want to watch the play? [Yes, No] | > Yes
-    | 💳 [Payer](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Pay $25.00 bill? 🧾 [No] <br/>- [ card ABC ] <br/>- [ card DEF ] | > card ABC
-    | 🤵 [Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Save theatre ticket? [Yes, No]  | > Yes
+    | 🎭 Venue   | 😃 Want a ticket? [Yes, No] | > Yes
+    | 🤵 [Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Save theatre ticket? [Yes, No] <br/> - self booking Token 🎫 <br/> - issued by Any Venue 🎭 <br/> - expiring 7:30pm today <br/> - play: the funny ones | > Yes
     | 🎭 Venue   | ✅ You're all set, get in!
         
 

@@ -3,7 +3,7 @@
 > Opens a new chat window in the app.
 
 > Used in:
-> <br/>• [🧑‍🦰👉🤗 Host QR](<../02 🧑‍🦰👉 Wallets/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>)
+> <br/>• [🧑‍🦰👉🤗 Host Locator](<../02 🧑‍🦰👉 Wallets/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>)
 
 
 

@@ -2,6 +2,8 @@
 
 > List the user's [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>).
 
+> Cache is invalidated with [🤵⏩🧑‍🦰 Update tokens](<../../../5 ⏩ Flows/08 🤵⏩ Brokers/04 🤵⏩🧑‍🦰 Update tokens.md>).
+
 <br/>
 
 ## Flow diagram
