@@ -17,35 +17,138 @@
     ---
     <br/>
 
+2. **What does a domain message look like?**
+
+    Messages from [domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) are sent in JSON envelopes similar to email messages. 
+    
+    Consider the the following example, converted from JSON to YAML for readability.
+
+
+    ```yaml
+    🤝: nlweb.org/MSG:1.0
+
+    Header:
+        From: any-sender.com
+        To: any-receiver.com
+        Correlation: 125a5c75-cb72-43d2-9695-37026dfcaa48
+        Timestamp: 2018-12-10T13:45:00.000Z
+        Subject: AnyMethod
+        DKIM: pk1
+
+    Body: {...}
+
+    Hash: ee6ca2a43ec05d...
+    Signature: Lw7sQp6zkOGyJ+OzGn+B...
+    ```
+
+    ---
+    <br/>
+
 2. **What is contained in a domain message envelope?**
 
-    Messages from domains are sent in envelopes similar to email messages, containing the following properties.
 
     |Property| Description
     |-|-
-    | **Code** | The [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) of the envelope (e.g., `nlweb.org/msg:1.0`).
-    | **From** | The name of the [domain 👥](<../44 📜 Manifests/00 👥 Domain.md>) who sent the message (e.g., `any-sender.com`).
-    | **To**| The name of the [domain 👥](<../44 📜 Manifests/00 👥 Domain.md>) for whom the message is intended (e.g., `any-receiver.com`).
-    | **Correlation**| The unique ID in the sender (e.g., `125a5c75-cb72-43d2-9695-37026dfcaa48`).
-    | **Timestamp**| The date and time of the message, in UTC format (e.g., `2018-12-10T13:45:00.000Z`).
-    | **Subject**| The method to be executed on the receiver (e.g., `AnyMethod`).
+    | **🤝** | The versioned [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) of the envelope.
+    | **From** | The name of the [domain 👥](<../44 📜 Manifests/00 👥 Domain.md>) who sent the message.
+    | **To**| The name of the [domain 👥](<../44 📜 Manifests/00 👥 Domain.md>) for whom the message is intended.
+    | **Correlation**| The unique ID in the sender, for deduping.
+    | **Timestamp**| The date and time of the message, in UTC format.
+    | **Subject**| The method to be executed on the receiver.
     | **Body**| The content inside the envelope.
-    | **Hash**| The canonical hash of the envelope.
+    | **Hash**| The canonical hash of the envelope's header and body.
     | **Signature**| The signature of the envelope using the sender's private key.
-    | **Key**| The name of the corresponding public key in the sender's [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>).
+    | **DKIM**| The name of the corresponding public key in the sender's [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>).
 
     ---
     <br/>
 
-1. **What are the technical workflows around messages?**
+   
+1. **What is the signature for?**
+
+    Senders sign the header and body of envelopes with [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) private key,
+    - [domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) verify incoming [domain 👥](<../44 📜 Manifests/00 👥 Domain.md>) messages with the sender's [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) public key,
+    - and [Broker 🤵 domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) verify incoming [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) messages with the their pre-shared public key.
+    
+    ---
+    <br/>
+
+2. **How to create the canonical version of the envelope?**
+   
+    To create a canonical version of the envelope:
+    1. create an object with just {header,body} content;
+    2. compact the content with [JSON Canonicalization Scheme (JCS) ⤴](https://www.rfc-editor.org/rfc/rfc8785).
+
+    ---
+    <br/>
+
+3. **How to create the canonical hash with OpenSSL?**
+   
+    To generate the hash with OpenSSL, prepare the following file:
+    - `canonical.json`: a canonical representation of {header,body}.
+  
+    Then run: 
+    * `$ cat canonical.json | openssl dgst -sha256 > hash.txt`
+    * `$ truncate -s -1 hash.txt`
+    * `$ cat hash.txt`
+
+    ---
+    <br/>
+
+
+3. **How to create a signature with OpenSSL?**
+
+    To create a signature with OpenSSL, first prepare the following files:
+      - `canonical.json`: a canonical representation of {header,body};
+      - `private.pem`: the private signature of the [domain 👥](<../44 📜 Manifests/00 👥 Domain.md>).
+  
+    Then run the following commands on a terminal: 
+    * `$ openssl dgst -sha256 -sign private.pem -out signature.sha1 canonical.json`
+    * `$ openssl base64 -A -in signature.sha1 -out signature.txt`
+    * `$ cat signature.txt`
+
+    ---
+    <br/>
+
+4. **How to validate a signature with OpenSSL?**
+
+    To validate a signature with OpenSSL, first prepare the following files:
+    - `signature.txt`: the signature received in a message from another [domain 👥](<../44 📜 Manifests/00 👥 Domain.md>);
+    - `canonical.json`: a canonical representation of the received {header,body};
+    - `public.pem`: the public key of the sender [domain 👥](<../44 📜 Manifests/00 👥 Domain.md>).
+  
+    Then run the following commands on a terminal: 
+    * $ `openssl enc -d -A -base64 -in signature.txt -out signature.sha1`
+    * $ `openssl dgst -sha256 -verify public.pem -signature signature.sha1 canonical.json`
+
+    ---
+    <br/>
+
+5. **What are the technical workflows around messages?**
 
     | Workflow | Description
     |-|-
-    | [🚀 Synchronous requests](<../../../5 ⏩ Flows/01 👥⏩ Domains/02 👥⏩🚀 Sender outbox.md>) | [Domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) send requests and wait for the immediate response over an HTTPS request.
-    | [🐌 Asynchronous messages](<../../../5 ⏩ Flows/01 👥⏩ Domains/03 👥⏩🐌 Sender events.md>) | [Domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) send fire-and-forget messages and events. Any eventual answer, if expected, will arrive via another asynchronous message.
+    | 🚀 Synchronous requests | [Domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) send requests and wait for the immediate response over an HTTPS request.
+    | 🐌 Asynchronous messages | [Domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) send fire-and-forget messages and events. Any eventual answer, if expected, will arrive via another asynchronous message.
 
     ---
     <br/>
+
+
+1. **How do Synchronous Requests work?**
+
+    ![SyncRequest](<../../../5 ⏩ Flows/01 👥⏩ Domains/.📎 Assets/⚙️🚀 SyncRequest.png>)
+
+    ---
+    <br/>
+
+1. **How do Async Messages work?**
+
+    ![AsyncMessage](<../../../5 ⏩ Flows/01 👥⏩ Domains/.📎 Assets/⚙️🐌 AsyncMessage.png>)
+    
+    ---
+    <br/>
+
 
 2. **Is this compatible with W3C DIDcomm?**
 
@@ -113,7 +216,7 @@
 
 8. **How do receiver domains handle upgraded schema versions?**
 
-    An NLWeb envelop contains a schema identifier that allows receivers to support multiple versions concurrently, handling incoming envelopes differently depending on its version. 
+    An NLWeb envelop contains a [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) that allows receivers to support multiple versions concurrently, handling incoming envelopes differently depending on its version. 
     - Envelopes with unsupported versions are discarded.
 
     ---
@@ -173,8 +276,8 @@
 
     | Format | Rational
     |-|-
-    | `JSON` | Structured JSON for machine-to-machine, because it's faster; e.g.: <br/>• [domain Messages 📨](<01 📨 Domain Message.md>) between any two [domains 👥](<../44 📜 Manifests/00 👥 Domain.md>), <br/>• data sharing between a [Vault 🗄️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) and a [Consumer 💼](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) domains, <br/>• payments between a [Payer 💳](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) and a [Collector](<../../30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) domains.
-    | `YAML` | Structured YAML for human-to-machine, because it's easier for humans to read while supporting schema validations; <br/>• e.g.: [domain Manifests 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>), including [Schema Codes 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>).
-    | `MARKDOWN` | Unstructured MARKDOWN for human-to-LLM, because it doesn't need schema validations; <br/>• e.g., description of products and services by business owners, like a detailed restaurant menu, for user [Curator agents](<../../30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) to filter on behalf of users.
+    | `JSON` | Structured JSON for machine-to-machine payloads, because it's faster and widely supported by cloud providers; e.g.: <br/>• [domain Messages 📨](<01 📨 Domain Message.md>) between any two [domains 👥](<../44 📜 Manifests/00 👥 Domain.md>), <br/>• data sharing between a [Vault 🗄️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) and a [Consumer 💼](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) domains, <br/>• payments between a [Payer 💳](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) and a [Collector](<../../30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) domains.
+    | `YAML` | Structured YAML for human-to-machine settings, because it's easier for humans to read while supporting schema validations; <br/>• e.g.: [domain Manifests 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>), including [Schema Codes 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>).
+    | `MARKDOWN` | Unstructured MARKDOWN for human-to-LLM instructions, when schema validations are not required; <br/>• e.g., description of products and services by business owners (like a detailed restaurant menu) for user [Curator 🧚 agents](<../../30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) to filter on behalf of users.
     
     ---
