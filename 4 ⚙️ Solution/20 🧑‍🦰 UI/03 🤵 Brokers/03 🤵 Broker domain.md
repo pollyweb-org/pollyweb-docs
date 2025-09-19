@@ -82,10 +82,18 @@
 
 1. **What API methods does a Broker exposes?**
 
-    | Method | From | Description
-    |-|-|-
-    | [Onboard 🚀](<../../../6 🅰️ APIs/02 🤵🅰️ Broker/10 🤵🅰️ Wallets 🧑‍🦰/11 📣🚀🤵 Onboard.md>) | [Notifier 📣](<../02 📣 Notifiers/02 📣 Notifier domain.md>) | Onboards a [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
-    | [Translate 🐌](<../../../6 🅰️ APIs/02 🤵🅰️ Broker/10 🤵🅰️ Wallets 🧑‍🦰/12 🧑‍🦰🐌🤵 Translate.md>) | [Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) | Translates the content of a [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+    Group | From | Method | Description
+    |-|-|-|-
+    |🧑‍🦰 Wallets| [📣 Notifier](<../02 📣 Notifiers/02 📣 Notifier domain.md>) | [🚀 Onboard](<../../../6 🅰️ APIs/02 🤵🅰️ Broker/10 🤵🅰️ Wallets 🧑‍🦰/11 📣🚀🤵 Onboard.md>) | Onboards a [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+    ||[🧑‍🦰 Wallet](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) | [🐌 Translate](<../../../6 🅰️ APIs/02 🤵🅰️ Broker/10 🤵🅰️ Wallets 🧑‍🦰/12 🧑‍🦰🐌🤵 Translate.md>) | Translates the content of a [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+    | 💬 Chats|[🧑‍🦰 Wallet](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) | 
+    
+
+
+
+
+
+
     
     ---
     <br/>
