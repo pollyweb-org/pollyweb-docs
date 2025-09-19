@@ -5,7 +5,7 @@
 
     In NLWeb, non-humans (e.g., organizations, places, objects, animals) are represented by a [Locator 🔆](<01 🔆 Locator.md>). 
     * An NLWeb [Locator 🔆](<01 🔆 Locator.md>) is a string contained in a [QR code ✨](<03 🧑‍🦰✨ Wallet QR scan.md>), [NFC tag 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>), [Web link 🌐](<02 🧑‍🦰🌐 Wallet URLs.md>), or [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>) option.
-    * Example: `nlweb://nlweb.org/QR,1,any-printer.com,7V8KD3G`
+    * Example: `nlweb.org/QR,1,any-printer.com,7V8KD3G`
     * Users can [tap 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>), [scan ✨](<03 🧑‍🦰✨ Wallet QR scan.md>), [select 💬](<../23 💬 Chats/01 💬 Chat.md>), or [click 🌐](<02 🧑‍🦰🌐 Wallet URLs.md>) Locators 🔆 to open a [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>) with the [Locator's Host 🤗 domain](<../23 💬 Chats/03 🤗🎭 Host role.md>).
 
     ---

@@ -1,10 +1,10 @@
+
+```yaml
 🤝: nlweb.org/MANIFEST
 
 Identity:
   Domain: any-firewall.org
   Name: AWS Trust Firewall
-  Resources:
-    NLWEB: 🔥 https://quip.com/ue9IAw5mvFdY/-Firewall  
 
   
 Trusts:

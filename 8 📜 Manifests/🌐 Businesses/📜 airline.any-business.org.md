@@ -1,5 +1,6 @@
-# 🏳️💺 https://quip.com/Yp6rADERIDPv/-Air-France-Airline
+<!--# 🏳️💺 https://quip.com/Yp6rADERIDPv/-Air-France-Airline -->
 
+```yaml
 🤝: nlweb.org/MANIFEST
 
 Identity:

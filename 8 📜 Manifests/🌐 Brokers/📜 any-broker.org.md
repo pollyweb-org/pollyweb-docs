@@ -1,5 +1,6 @@
-# 🤵 https://quip.com/hPaFAIsyMxpq/-AnyBrokercom
+<!-- 🤵 https://quip.com/hPaFAIsyMxpq/-AnyBrokercom -->
 
+```yaml
 🤝: nlweb.org/MANIFEST
 
 Identity:
