@@ -1,3 +1,4 @@
+```yaml
 🤝: nlweb.org/MANIFEST/TRUST
 
 Title: Placeholder cash-machine

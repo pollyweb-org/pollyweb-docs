@@ -1,5 +1,6 @@
 # 🏳️🏦 https://quip.com/vbUAAxbmqgnY/-AnyCollectoruk
 
+```yaml
 🤝: nlweb.org/MANIFEST
 
 Identity:

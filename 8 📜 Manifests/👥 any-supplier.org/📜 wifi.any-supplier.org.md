@@ -1,5 +1,6 @@
 # 🇺🇸📶 https://quip.com/7u1wAVuC6aDM/-AnyWiFicom
 
+```yaml
 🤝: nlweb.org/MANIFEST
 
 Identity:

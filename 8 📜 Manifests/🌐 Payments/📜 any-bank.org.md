@@ -1,5 +1,6 @@
 # 🧪🏧 https://quip.com/I3iqAi8aUTjg/-Cash-Machine
 
+```yaml
 🤝: nlweb.org/MANIFEST
 
 Identity:
