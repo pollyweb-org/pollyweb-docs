@@ -1,6 +1,8 @@
-# 🧑‍🦰👉🤵 Abandon chat @ [Wallet](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+# 🧑‍🦰👉🤵 Abandon chat @ Wallet
 
-> A user abandons a Chat with a Host domain.
+> A user on the [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) abandons a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) with a [Host 🤗 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) .
+
+<br/>
 
 ## Chat
 
@@ -13,7 +15,7 @@
 | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | ✅ Chat abandoned.
 ||
 
-
+<br/>
 
 ## Flow diagram
 

@@ -2,9 +2,11 @@
 
 <!-- Docs: https://quip.com/FNbzAVSVu9z6#temp:C:RCPf6c15c5e6e2d47c294917a750 -->
 
-# 🤗🐌🤵 Prompt @ [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
+# 🤗🐌🤵 Prompt @ Broker
 
-> Used by [🤗⏩🧑‍🦰 Prompt](<../../../5 ⏩ Flows/03 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt.md>) to forward the [Prompt 🤔](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/02 🤔 Prompt.md>) to the [Notifier 📣 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/02 📣 Notifier domain.md>).
+> The [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) forwards the [Prompt 🤔](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/02 🤔 Prompt.md>) to the [Notifier 📣 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/02 📣 Notifier domain.md>).
+
+> Used by [🤗⏩🧑‍🦰 Prompt @ Host](<../../../5 ⏩ Flows/03 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt.md>).
 
 <br/>
 

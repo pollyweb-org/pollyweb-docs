@@ -3,9 +3,9 @@
 
 1. **What is a Host domain role in NLWeb?**
 
-    A [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) with a [Host 🤗 role](<03 🤗🎭 Host role.md>) is any [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that
-    * hosts [Chats 💬](<01 💬 Chat.md>) with [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) 
-    * via [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>). 
+    A [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) with a [Host 🤗 domain role](<03 🤗🎭 Host role.md>) is any [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that
+    * hosts a [Chat 💬](<01 💬 Chat.md>) with [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) 
+    * via a [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>). 
 
     ---
     <br/>
@@ -114,7 +114,7 @@
 
     | Caller | Method | Store | Description
     |-|-|-|-
-    🤵 Broker | [🐌 CheckIn](<../../../6 🅰️ APIs/09 🤗🅰️ Host/01 🤵🐌🤗 CheckIn.md>) | Chats | The user started a Chat.
+    🤵 Broker | [🐌 Hello](<../../../6 🅰️ APIs/09 🤗🅰️ Host/01 🤵🐌🤗 Hello.md>) | Chats | The user started a Chat.
     🧑‍🦰 Wallet | [🐌 Home](<../../../6 🅰️ APIs/09 🤗🅰️ Host/02 🤵🐌🤗 Home.md>) | Chats | Show the top menu on the Chat.
     🤵 Broker | [🐌 Abandoned](<../../../6 🅰️ APIs/09 🤗🅰️ Host/03 🤵🐌🤗 Abandoned.md>) | Chats | The user abandoned a Chat.
     🧑‍🦰 Wallet | [🚀 Prompted](<../../../6 🅰️ APIs/09 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) | Prompts | Return the Prompt's content.
@@ -127,3 +127,12 @@
 
     ---
     <br/>
+
+
+1. **What flows are initiated by Host domains?**
+
+    | Flow  | Description
+    |-|-
+    | [🤗⏩🧑‍🦰 Prompt](<../../../5 ⏩ Flows/03 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt.md>) | Sends a [Prompt 🤔](<02 🤔 Prompt.md>) to a user [Chat 💬](<01 💬 Chat.md>)
+    | [🤗⏩🧑‍🦰 Goodbye](<../../../5 ⏩ Flows/03 🤗⏩ Hosts/02 🤗⏩🧑‍🦰 Goodbye.md>) | Triggers the [👀 advertising](<../../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) flow
+    |
