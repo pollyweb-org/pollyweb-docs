@@ -23,7 +23,7 @@ user -> wallet: scan ✨
 
 activate wallet
     wallet -> qr: scan ✨
-    wallet --> broker: 1) assess@ {locator}
+    wallet --> broker: 1) Assess@ {locator}
 deactivate wallet
 
 activate broker
@@ -41,7 +41,7 @@ activate broker
 
     'end alt
 
-    broker --> host:  4) check-in@
+    broker --> host:  4) Hello@
 deactivate broker
 
 activate host

@@ -1,4 +1,4 @@
-# 🤵⏩🗄️ Update chats @ [Broker](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
+# 🤵⏩🗄️ Update chats @ Broker
 
 > Updates the list of Chats on the Wallet app.
 

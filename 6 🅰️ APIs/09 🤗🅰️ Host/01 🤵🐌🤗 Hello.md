@@ -1,6 +1,6 @@
 <!-- https://quip.com/s9oCAO3UR38A#temp:C:TDDf29b75b2d0214f9a87224b338 -->
 
-# 🤵🐌🤗 CheckIn @ Host
+# 🤵🐌🤗 Hello @ Host
 
 > Starts a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) with a [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>).
 
@@ -13,7 +13,7 @@
 Header:
     From: any-broker.org
     To: any-host.org
-    Subject: CheckIn@Host
+    Subject: Hello@Host
 
 Body:
     Language: en-us
@@ -33,7 +33,7 @@ Body:
 |-|-|-|-
 | Header    | `From`    | string    | [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) name
 |           | `To`      | string    | [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) name
-|           | `Subject` | string    | `CheckIn@Host`
+|           | `Subject` | string    | `Hello@Host`
 | Body      | `Language`| enum    | ISO language code
 |           | `ChatID`  | UUID      | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) ID in the [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
 |           | `Locator` | string    | [Locator 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) in the [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>)
