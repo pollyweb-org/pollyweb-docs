@@ -1,3 +1,4 @@
+
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 
@@ -34,4 +35,3 @@ Schema:
       Code: 
         type: string
         example: /PROFILE
-

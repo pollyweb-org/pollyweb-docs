@@ -1,3 +1,4 @@
+
 <!--# 🇪🇺 https://quip.com/bBbpAAGfOCIz/-Europaeu-->
 
 ```yaml
@@ -30,4 +31,3 @@ Trusts:
       - any-nation.org      # Any nation
       - usa.gov     # USA
       # ...
-
