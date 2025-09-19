@@ -11,14 +11,28 @@
     ---
     <br/>
 
-2. **What API methods does a Domain need to expose?**
 
-    Supported API methods differ based on the number roles assumed by the [domain 👥](<00 👥 Domain.md>), from none to many.
+1. **What does a domain DNS look like?**
+    
+    Consider the following sample DNS configuration for the domain name `any-domain.com`.
+    
+    | Record Name | Type | Value | Notes
+    |-|-|-|-|
+    | [any-domain.com]() | NS | {name servers} | 👉 Given by the DNS register
+    | nlweb.[any-domain.com]() | A | {API domain name} | 👉 Endpoint for inbound [messages 📨](<../41 📨 Comms/01 📨 Domain Message.md>)  
+    | pk1._domainkey.[any-domain.com]() | TXT | "v=DKIM1;k=rsa;p=..." | 👉 Old [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) for old [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
+    | pk2._domainkey.[any-domain.com]() | TXT | "v=DKIM1;k=rsa;p=..." | 👉 [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) for outbound and [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
+    
+    
 
     ---
     <br/>
 
-3. **What roles can a Domain assume?**
+2. **What API methods does a Domain need to expose?**
+
+    Supported API methods differ based on the number roles assumed by the [domain 👥](<00 👥 Domain.md>), from none to many.
+    * The following list enumerates the possible roles a [domain 👥](<00 👥 Domain.md>) can assume.
+
 
     | Role&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Responsibility
     |-|-
@@ -32,7 +46,7 @@
     | [🌬️ Streamer](<../41 📨 Comms/02 🌬️🎭 Streamer role.md>) | Pushes and replays domain events to [Subscriber 🔔 domains](<../41 📨 Comms/04 🔔🎭 Subscriber role.md>).
     | [🔔 Subscriber](<../41 📨 Comms/04 🔔🎭 Subscriber role.md>) | Subscribes to domain events from a [Streamer 🌬️ domain](<../41 📨 Comms/02 🌬️🎭 Streamer role.md>).
     | [🗄️ Vault](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) | Stores user data and shares it with [Consumer 💼 domains](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>). 
-    | [🏭 Supplier](<../../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>) |
+    | [🏭 Supplier](<../../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>) | Accept asynchronous order requests from others.
     
     ---
     <br/>
