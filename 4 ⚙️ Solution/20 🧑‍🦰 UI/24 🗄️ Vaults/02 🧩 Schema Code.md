@@ -44,6 +44,6 @@
 
     Yes JSON is much faster than YAML. 
     - But, because of [Graph 🕸 domains](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>), the performance of either protocol is irrelevant in this context. 
-    - NLWeb advocates for human readability, with YAML format being closer to structured natural language in this context.
+    - NLWeb advocates for human readability, with YAML format allowing comments and being closer to structured natural language in this context.
 
     ---
