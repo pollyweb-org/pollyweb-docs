@@ -1,0 +1,28 @@
+# 🧪🏧 https://quip.com/I3iqAi8aUTjg/-Cash-Machine
+
+🤝: nlweb.org/MANIFEST
+
+Identity:
+  Domain: any-bank.org
+  Name: Any Bank
+
+
+Providers:
+  - Code: nlweb.org/IDENTITY/SELFIE
+    Domain: selfie.any-supplier.org 
+
+
+Trusts: 
+
+  # Trust the placeholders.
+  - Query: nlweb.org/BANK/*
+    Domain: bank.nlweb.org
+
+
+  # Pay to limited collectors.
+  - Role: CONSUMER
+    Queries: 
+      - nlweb.org/PAY/PAYER
+      - nlweb.org/PAY/PAYMENT
+    Domains: 
+      - any-collector.org
