@@ -1,14 +1,12 @@
-# 🤵⏩🗄️ Update binds @ [Broker](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
+# 🤵⏩🗄️ Update binds @ Broker
 
-> Updates the list of Binds on the Wallet app.
+> Updates the list of [Binds 🔗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>) on the Wallet app.
 
-| Caller | Notes
-|-|-
-| [🤵⏩🗄️ Bind vault @ Broker](<02 🤵⏩🗄️ Bind vault.md>) | Adds a [Bind 🔗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>) to the list
-| [🧑‍🦰👉🗄️ Unbind @ Wallet](<../02 🧑‍🦰👉 Wallets/30 👉🔗 Binds/03 🧑‍🦰👉🗄️ Unbind.md>) | Removes a [Bind 🔗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>) from the list
-||
+> Used in:
+> <br/>• [🤵⏩🗄️ Bind vault @ Broker](<02 🤵⏩🗄️ Bind vault.md>) to add a [Bind 🔗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>) to the list
+> <br>•  [🧑‍🦰👉🗄️ Unbind @ Wallet](<../02 🧑‍🦰👉 Wallets/30 👉🔗 Binds/03 🧑‍🦰👉🗄️ Unbind.md>) to remove a [Bind 🔗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>) from the list
 
-
+<br/>
 
 ## Flow diagram
 

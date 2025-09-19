@@ -17,8 +17,10 @@
 
 
 
+## Flow diagram
 
-## Steps
+![Onboard](<.📎 Assets/⚙️ Onboard.png>)
+
 
 | # | Call | Notes
 |-|-|-
@@ -27,8 +29,3 @@
 | 3 | [🤗⏩🧑‍🦰 Prompt @ Host](<../../03 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt.md>) | Ask for the user's region/country.
 | 4 | [🤵⏩🗄️ Bind Vault @ Broker](<../../08 🤵⏩ Brokers/02 🤵⏩🗄️ Bind vault.md>) | Bind to the default [Vaults 🗄️](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>)
 ||
-
-
-## Flow diagram
-
-![Onboard](<.📎 Assets/⚙️ Onboard.png>)
