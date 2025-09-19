@@ -1,6 +1,7 @@
 
 # 🧪💈 https://quip.com/gs2UAKnJ0dz0/-Beauty-Hairdresser
 
+```yaml
 🤝: nlweb.org/MANIFEST
 
 Identity:

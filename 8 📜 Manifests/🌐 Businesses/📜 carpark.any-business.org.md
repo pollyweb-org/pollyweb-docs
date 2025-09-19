@@ -1,5 +1,6 @@
 # 🏳️🅿️ https://quip.com/0feVAAuto4SI
 
+```yaml
 🤝: nlweb.org/MANIFEST
 
 Identity:

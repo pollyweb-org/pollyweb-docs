@@ -1,5 +1,6 @@
 # 🏳️🎰 https://quip.com/RUmtAj6kpz6p/-AnyCasinoit
 
+```yaml
 🤝: nlweb.org/MANIFEST
 
 Identity:
