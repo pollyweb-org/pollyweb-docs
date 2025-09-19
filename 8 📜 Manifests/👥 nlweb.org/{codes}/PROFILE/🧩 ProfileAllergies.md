@@ -1,4 +1,5 @@
 
+# 🧩 ProfileAllergies
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
           

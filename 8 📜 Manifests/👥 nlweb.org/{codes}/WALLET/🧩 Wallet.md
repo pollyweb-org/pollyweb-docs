@@ -1,4 +1,5 @@
 
+# 🧩 Wallet
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 

@@ -1,4 +1,5 @@
 
+# 🧩 CrudEntity
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 

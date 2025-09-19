@@ -1,4 +1,5 @@
 
+# 🧩 WiFi
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 

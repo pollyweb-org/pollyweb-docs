@@ -1,4 +1,5 @@
 
+# 🧩 Types
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 

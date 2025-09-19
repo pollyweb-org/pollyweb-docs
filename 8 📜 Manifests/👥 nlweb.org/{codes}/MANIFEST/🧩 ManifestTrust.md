@@ -1,4 +1,5 @@
 
+# 🧩 ManifestTrust
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 

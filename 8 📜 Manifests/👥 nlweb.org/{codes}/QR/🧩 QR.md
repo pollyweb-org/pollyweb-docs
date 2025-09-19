@@ -1,4 +1,5 @@
 
+# 🧩 QR
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 

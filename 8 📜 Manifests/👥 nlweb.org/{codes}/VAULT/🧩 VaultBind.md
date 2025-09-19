@@ -1,4 +1,5 @@
 
+# 🧩 VaultBind
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 
