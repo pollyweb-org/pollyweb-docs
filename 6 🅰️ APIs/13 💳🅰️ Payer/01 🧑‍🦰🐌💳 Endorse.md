@@ -4,27 +4,11 @@
 
 # 🧑‍🦰🐌💳 Endorse @ [Payer](<../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>)
 
-## About
+> Used in [Charge 💵👉🧑‍🦰](<../../5 ⏩ Flows/05 💵⏩ Sellers/02 💵⏩🧑‍🦰 Charge.md>)
 
-   - Flow: [Charge 💵👉🧑‍🦰](<../../5 ⏩ Flows/05 💵⏩ Sellers/02 💵⏩🧑‍🦰 Charge.md>)
-   - Caller: 
+<br/>
 
 ## Async Message 🐌
-
-
-|Property|Type|Description
-|-|-|-
-| `From` | string | [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) name.
-| `To`| string | [Payer 💳 domain](<../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) name.
-| `Subject` | string | `Endorse@Payer`
-| `Bind`| UUID | [Bind 🔗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>) ID.
-| `Collector` | string | [Collector 🏦 domain](<../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) name.
-| `Host` | string | [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) name.
-| `Broker` | string | [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) name.
-| `Locator` | string | [Locator 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>).
-| `ChatID` | UUID | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) ID.
-| `Charge` | object | [Charge 💵](<../../5 ⏩ Flows/05 💵⏩ Sellers/02 💵⏩🧑‍🦰 Charge.md>) workflow.
-
 
 ```yaml
 Header:
@@ -43,3 +27,19 @@ Body:
       ChatID: <session-uuid>
    Charge: { ... }
 ```
+
+
+
+|Property|Type|Description
+|-|-|-
+| `From` | string | [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) name.
+| `To`| string | [Payer 💳 domain](<../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) name.
+| `Subject` | string | `Endorse@Payer`
+| `Bind`| UUID | [Bind 🔗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>) ID.
+| `Collector` | string | [Collector 🏦 domain](<../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) name.
+| `Host` | string | [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) name.
+| `Broker` | string | [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) name.
+| `Locator` | string | [Locator 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>).
+| `ChatID` | UUID | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) ID.
+| `Charge` | object | [Charge 💵](<../../5 ⏩ Flows/05 💵⏩ Sellers/02 💵⏩🧑‍🦰 Charge.md>) workflow.
+|

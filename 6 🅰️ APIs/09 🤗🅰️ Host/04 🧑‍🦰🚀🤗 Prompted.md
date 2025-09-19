@@ -1,5 +1,3 @@
-<!-- #TODO -->
-
 # 🧑‍🦰🚀🤗 Prompted @ Host
 
 > Downloads the content of a [Prompt 🤔](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/02 🤔 Prompt.md>).

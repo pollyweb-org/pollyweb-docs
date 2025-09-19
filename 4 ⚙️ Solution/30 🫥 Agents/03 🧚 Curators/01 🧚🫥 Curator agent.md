@@ -8,6 +8,7 @@
     [A Curator 🧚](<01 🧚🫥 Curator agent.md>) is an [Agent 🫥 vault domain](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) that filters options on behalf of users.
 
     ---
+    <br/>
 
 1. **What domain roles do Curators implement?**
 
@@ -15,9 +16,10 @@
     |-|-
     | [🔔 Subscriber](<../../40 👥 Domains/41 📨 Comms/04 🔔🎭 Subscriber role.md>) | To consume changes from the [user's Persona 🧢 vault domains](<../02 🧢 Personas>).
     | [🗄️ Vault ](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) | To share user selections with [Consumer 💼 host domains](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>).
-    | 
+    
 
     ---
+    <br/>
 
 2. **How do Curators work?**
 
@@ -29,6 +31,7 @@
     - social networks share posts and receive filtered lists.
 
     ---
+    <br/>
 
 3. **Why are Curators important for users?**
 
@@ -38,6 +41,7 @@
     - e.g., choose the closest venue for a show, instead of disclosing the current location.
 
     ---
+    <br/>
 
 4. **Why are Curators important for Host domains?**
 
@@ -46,6 +50,7 @@
     - while this list is most probably overwhelming for the vast majority of users, a [user's Curator 🧚 agent](<01 🧚🫥 Curator agent.md>) can instantaneously read and filter out the list based on the user's private preferences, health restrictions, special needs, purchasing history, social background, and emotional mood at the time.
 
     ---
+    <br/>
 
 5. **How do curators protect themselves from prompt injection?**
 
@@ -53,12 +58,14 @@
     - Suspicious behaviors are reported to [Firewall 🔥 helper domains](<../../40 👥 Domains/43 👍 Trusts/03 🔥🛠️ Firewall helper.md>).
 
     ---
+    <br/>
 
 6. **How do curators protect themselves from data breaches?**
 
     While [Curator 🧚 agents](<01 🧚🫥 Curator agent.md>) communicate using natural language with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), they output to [Host 🤗 domains](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) only a filtered list of codes referenced in the input.
 
     ---
+    <br/>
 
 7. **How much user data should a curator store?**
 
@@ -68,6 +75,7 @@
     - this separation of concerns allows users to retain their legacy [Persona 🧢 vault](<../02 🧢 Personas/02 🧢🫥 Persona agent.md>) while constantly upgrading to new smarter [Curator 🧚 agents](<01 🧚🫥 Curator agent.md>) as they are released.
 
     ---
+    <br/>
 
 8. **How should curators deal with ethical issues?**
 
@@ -89,6 +97,7 @@
         - adapt to the human's growth and environmental changes by suggesting changes to the human's [Persona 🧢 vault](<../02 🧢 Personas/02 🧢🫥 Persona agent.md>) settings.
 
     ---
+    <br/>
 
 9.  **What does an instruction set for a Curator looks like?**
 
@@ -125,3 +134,4 @@
     > - The the final order to see if there are any items with alcoholic - if there are, say that you'll need a proof of over 21 right after showing the total.
 
     ---
+    <br/>
