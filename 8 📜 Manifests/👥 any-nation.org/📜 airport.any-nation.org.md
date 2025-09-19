@@ -1,4 +1,4 @@
-# 🏳️🛩️ https://quip.com/YJvcAJB72qzI
+<!--# 🏳️🛩️ https://quip.com/YJvcAJB72qzI-->
 
 ```yaml
 🤝: nlweb.org/MANIFEST

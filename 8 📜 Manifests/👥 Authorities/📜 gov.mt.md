@@ -1,4 +1,4 @@
-# 🇲🇹 https://quip.com/WtVuAnRgeyD9/-Govmt
+<!--# 🇲🇹 https://quip.com/WtVuAnRgeyD9/-Govmt-->
 
 ```yaml
 🤝: nlweb.org/MANIFEST

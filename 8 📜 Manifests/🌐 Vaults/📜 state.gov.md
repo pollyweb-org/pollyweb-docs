@@ -1,4 +1,4 @@
-# 🇺🇸🆔 https://quip.com/LAaBAIKj3afu/-Stategov
+<!--# 🇺🇸🆔 https://quip.com/LAaBAIKj3afu/-Stategov-->
 
 ```yaml
 🤝: nlweb.org/MANIFEST
