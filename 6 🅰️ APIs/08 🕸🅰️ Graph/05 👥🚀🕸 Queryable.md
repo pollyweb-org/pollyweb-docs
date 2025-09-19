@@ -3,43 +3,60 @@
 <!-- https://quip.com/hgz4A3clvOes#temp:C:bDA44399e7e0bfc4609a560d6c4a -->
 <!-- Code: https://github.com/jorgemjfonseca/domain-trust-framework/blob/a60df25a0f652b24793d9d0a3099aaa19bbcdd61/python/backbone/graph/GRAPH.py#L130 -->
 
-# 👥🚀🕸 Queryable @ [Graph](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>)
+# 👥🚀🕸 Queryable @ Graph
 
+> From the given list of and domain-and-code pairs, returns only the ones that can answer the given query - i.e., that there’s a trust path that allows for the first to query the others, and a trust path that allows the others to provide a response to a query.
 
-## Called by
+> ⚠️ This method doesn’t look at the header nor the signature of the request.
 
-| Caller | Notes
-|-|-
-||
+<br/> 
 
-
-
-## Sample request
-|Property|Type|Description
-|-|-|-
-
+## Synchronous Request 🚀
 
 ```yaml
+Header:
+    From: any-domain.com
+    To: any-graph.com
+    Subject: Queryable@Graph
+
 Body: 
-    Host: any-host.org
-    Binds: [{
-        Vault: ec.europa.eu
+    Consumer: any-consumer.org
+    Binds: 
+      - Vault: ec.europa.eu
         Code: airlines.any-igo.org/SSR/WCHR/CRED
-    }]
 ```
 
+|Object|Property|Type|Description
+|-|-|-|-
+| Header| `From`    | string | The name of the [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) asking
+|       | `To`      | string | [Graph 🕸 domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>) name
+|       | `Subject` | string | `Queryable@Graph`
+| Body  | `Consumer`| string | [Consumer 💼 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) name
+|       | `Binds`   | object[]   | List of [Bind 🔗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>) objects
+| Bind  | `Vault`   | string | The [Vault 🗄️ domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) name to assess
+|       | `Code`    | string | The [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) to assess
+|
 
-## Sample response
-|Property|Type|Description
-|-|-|-
+<br/>
 
 
-```json
-{
-    "Binds": [{
-        "Vault": "ec.europa.eu",
-        "Code": "airlines.any-igo.org/SSR/WCHR/CRED",
-        "Paths": [["<vault>", "<consumer>"]]
-    }]
-}
+## Synchronous Response
+
+```yaml
+Binds: 
+  - Vault: ec.europa.eu
+    Code: airlines.any-igo.org/SSR/WCHR/CRED
+    Paths: 
+      - [<vault>, <consumer>]
 ```
+
+|Object|Property|Type|Description
+|-|-|-|-
+|Top    | `Binds`   | list      | List of queryable [Binds 🔗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>)
+|Bind   | `Vault`   | string    | Queryable [Vault 🗄️ domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) name
+|       | `Code`    | string    | Queryable [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)
+|       | `Paths`   | string[][]| The chain of [Trusts 👍](<../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>)
+|
+
+<br/>
+

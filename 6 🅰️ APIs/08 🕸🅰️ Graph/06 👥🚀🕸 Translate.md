@@ -3,41 +3,62 @@
 <!-- Docs: https://quip.com/hgz4A3clvOes#temp:C:bDA9d34010d13574c2f95fe4de54 -->
 <!-- Code: https://github.com/jorgemjfonseca/domain-trust-framework/blob/9a3c5abe16dda8cbacd2529bc859fd9d708f85d9/python/backbone/graph/GRAPH.py#L360 -->
 
-# 👥🚀🕸 Translate @ [Graph](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>)
+# 👥🚀🕸 Translate @ Graph
+
+> [Broker 🤵 domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) request translation for [Schema Codes 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) and [domains 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>). 
+> <br/>These translations are obtained from the [domains' Manifests 📜](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>).
+
+> ⚠️ This method doesn’t look at the header nor the signature of the request.
+
+<br/>
+
+## Synchronous Request 🚀
+
+```yaml
+Header: 
+    From: any-domain.com
+    To: any-graph.com
+    Subject: Translate@Graph
+
+Body: 
+    Language: en-us
+    Domains: 
+      - any-domain.com
+    Codes: 
+      - iata.org/SSR/WCHR
+```
+
+|Object|Property|Type|Description
+|-|-|-|-
+| Header| `From`    | string | The name of the [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) asking
+|       | `To`      | string | [Graph 🕸 domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>) name
+|       | `Subject` | string | `Translate@Graph`
+|Body   | `Domains`     | string[]  | The [domains 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) to translate
+|       | `Codes`       | string[]  | The [Schema Codes 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) to translate
+|
+
+<br/>
 
 
-## Called by
+## Synchronous Response
 
-| Caller | Notes
-|-|-
-||
+```yaml
+Domains: 
+  - Domain: example.com
+    Translation: Example Airlines
+Codes: 
+  - Code: iata.org/SSR/WCHR
+    Translation: Wheelchair assistance required
+```
 
+|Object|Property|Type|Description
+|-|-|-|-
+|Top    | `Domains`     | object[]  | List of [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) objects
+|       | `Codes`       | object[]  | List of [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) objects
+|Domain | `Domain`      | string    | The [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) name
+|       | `Translation` | string    | The [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) title
+|Code   | `Code`        | string    | The [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)
+|       | `Translation` | string    | The [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) title
+|
 
-
-## Input
-
-|Property|Type|Description
-|-|-|-
-
-
-- Header: ...
-- Body: 
-   - Language: `en-us`
-   - Domains: [ `example.com` ]
-   - Codes: [ `iata.org/SSR/WCHR` ]
-
-
-## Output
-
-|Property|Type|Description
-|-|-|-
-
-
-- Language: `en-us`
-- Domains [ ]: 
-    - Domain: `example.com`
-    - Translation: `Example Airlines`
-- Codes [ ]: 
-    - Code: `iata.org/SSR/WCHR`
-    - Translation: `Wheelchair assistance required`
-    
+<br/>
