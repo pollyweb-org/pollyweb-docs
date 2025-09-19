@@ -1,5 +1,5 @@
 
-# 📜 Manifest: any-firewall.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>): any-firewall.org
 
 ```yaml
 🤝: nlweb.org/MANIFEST

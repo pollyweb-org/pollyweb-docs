@@ -1,5 +1,5 @@
 
-# 📜 Manifest: listener.amazon.com
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>): listener.amazon.com
 <!-- 👂 https://quip.com/wJICAbOcyHUM/-AnyListenerorg -->
 
 ```yaml

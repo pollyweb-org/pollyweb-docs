@@ -1,5 +1,5 @@
 
-# 📜 Manifest: airlines.any-igo.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>): airlines.any-igo.org
 <!--# 💺🏛️ https://quip.com/FuTpA83cGJ3L-->
 
 ```yaml

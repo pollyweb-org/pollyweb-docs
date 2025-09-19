@@ -1,5 +1,5 @@
 
-# 📜 Manifest: health.any-nation.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>): health.any-nation.org
 <!--# 🏳️🏥 https://quip.com/jneKAp8Lbg7M/-NHSuk-->
 
 ```yaml

@@ -1,5 +1,5 @@
 
-# 📜 Manifest: atm.any-fintech.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>): atm.any-fintech.org
 
 ```yaml
 🤝: nlweb.org/MANIFEST

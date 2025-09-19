@@ -1,5 +1,5 @@
 
-# 📜 Manifest: vending.any-business.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>): vending.any-business.org
 <!--# 🍫 https://quip.com/u2A0AZ8kTUAj/-AnyVendingcom-->
 
 ```yaml

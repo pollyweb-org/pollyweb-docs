@@ -1,5 +1,5 @@
 
-# 📜 Manifest: hairdresser.any-business.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>): hairdresser.any-business.org
 # 🧪💈 https://quip.com/gs2UAKnJ0dz0/-Beauty-Hairdresser
 
 ```yaml

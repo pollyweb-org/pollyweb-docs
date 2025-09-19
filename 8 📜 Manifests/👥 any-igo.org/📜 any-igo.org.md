@@ -1,5 +1,5 @@
 
-# 📜 Manifest: any-igo.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>): any-igo.org
 <!--# 🇺🇳 https://quip.com/OV9hAzKhb8Wf/-UNorg-->
 
 ```yaml

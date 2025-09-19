@@ -1,5 +1,5 @@
 
-# 📜 Manifest: taxes.any-nation.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>): taxes.any-nation.org
 <!--# 🏳️🏛️ https://quip.com/cVKTAXdzJmY6-->
 
 ```yaml
