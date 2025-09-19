@@ -21,9 +21,13 @@ Header:
     To: any-broker.org
     Subject: Binds@Broker
 Body: 
-`````
-|Property|Type|Description
-|-|-|-
+```
+
+| Object | Property | Type  | Description
+|-|-|-|-
+| Header    | `From`| UUID  | [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) ID
+|           | `To`  | string| [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
+|           | `Subject`| string|  `Binds@Broker`
 |
 
 <br/>

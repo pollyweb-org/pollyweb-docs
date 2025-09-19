@@ -40,17 +40,17 @@ Body:
 
 ```yaml
 Chats:
-  - ID: <chat-uuid>
+  - ChatID: <chat-uuid>
+    ChatTime: 2023-04-01T05:00:30.001000Z
     Host: any-host.org
     HostTranslation: Any Hosts
-    ChatTime: 2023-04-01T05:00:30.001000Z
 ```
 
 | Object    | Property  | Type  | Description
 |-|-|-|-
 | Top       | Chats     | Chat[]| List of Chat objects
-| Chat      | ID        | UUID  | [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) ID
+| Chat      | ChatID        | UUID  | [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) ID
+|           | ChatTime |timestamp  | When the [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) started
 |           | Host      | string| [Host 🤗 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) name
 |           | HostTranslation | string | [Host 🤗 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) title
-|           | ChatTime |timestamp  | When the [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) started
 |
