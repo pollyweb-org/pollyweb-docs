@@ -1,5 +1,5 @@
 
-# 🧩 Mgs
+# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): Mgs
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 
@@ -118,4 +118,3 @@ Schema:
           then run the following commands on a terminal: 
             $ openssl enc -d -A -base64 -in signature.txt -out signature.sha1 
             $ openssl dgst -sha256 -verify public.pem -signature signature.sha1 canonical.json
-
