@@ -1,5 +1,6 @@
 #  
 
+```yaml
 🤝: nlweb.org/MANIFEST
 
 Identity:

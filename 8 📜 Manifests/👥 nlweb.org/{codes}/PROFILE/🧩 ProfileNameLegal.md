@@ -1,3 +1,4 @@
+```yaml
 🤝: nlweb.org/MANIFEST/CODE
 
 Path: /PROFILE/NAME/LEGAL
