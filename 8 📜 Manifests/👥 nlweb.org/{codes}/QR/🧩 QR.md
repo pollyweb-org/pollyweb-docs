@@ -1,5 +1,5 @@
 
-# 🧩 QR
+# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): QR
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 
@@ -39,4 +39,3 @@ Schema:
         type: string
         description: https://quip.com/k0piAXze1T81#temp:C:KdIb122e50709a341e48c11af73a
         title: Unique index of the code in the context of the issuer
-
