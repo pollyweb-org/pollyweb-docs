@@ -1,5 +1,6 @@
 
 # 📜 Manifest: atm.any-fintech.org
+
 ```yaml
 🤝: nlweb.org/MANIFEST
 

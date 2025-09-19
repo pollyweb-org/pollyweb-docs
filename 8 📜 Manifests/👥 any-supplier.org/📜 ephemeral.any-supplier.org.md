@@ -1,5 +1,6 @@
 
 # 📜 Manifest: ephemeral.any-supplier.org
+
 ```yaml
 🤝: nlweb.org/MANIFEST
 
