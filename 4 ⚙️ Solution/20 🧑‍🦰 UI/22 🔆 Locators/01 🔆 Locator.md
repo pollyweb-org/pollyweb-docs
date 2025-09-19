@@ -3,11 +3,13 @@
 
 1. **What are NLWeb Locators?**
 
-    In NLWeb, non-humans (e.g., organizations, places, objects, animals) are represented by a Locator 🔆. 
-    * An NLWeb Locator 🔆 is a string contained in a [QR code ✨](<03 🧑‍🦰✨ Wallet QR scan.md>), [NFC tag 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>), [Web link 🌐](<02 🧑‍🦰🌐 Wallet URLs.md>), or [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>) option.
+    In NLWeb, non-humans (e.g., organizations, places, objects, animals) are represented by a [Locator 🔆](<01 🔆 Locator.md>). 
+    * An NLWeb [Locator 🔆](<01 🔆 Locator.md>) is a string contained in a [QR code ✨](<03 🧑‍🦰✨ Wallet QR scan.md>), [NFC tag 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>), [Web link 🌐](<02 🧑‍🦰🌐 Wallet URLs.md>), or [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>) option.
+    * Example: `nlweb://nlweb.org/QR,1,any-printer.com,7V8KD3G`
     * Users can [tap 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>), [scan ✨](<03 🧑‍🦰✨ Wallet QR scan.md>), [select 💬](<../23 💬 Chats/01 💬 Chat.md>), or [click 🌐](<02 🧑‍🦰🌐 Wallet URLs.md>) Locators 🔆 to open a [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>) with the [Locator's Host 🤗 domain](<../23 💬 Chats/03 🤗🎭 Host role.md>).
 
     ---
+    <br/>
     
 
 2. **How can users interact with Locators?**
@@ -15,9 +17,9 @@
     ![](<.📎 Assets/🔆 Locators.png>)
     
 
-    To interact with a Locator 🔆, users use their [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) with one of the following.
+    To interact with a [Locator 🔆](<01 🔆 Locator.md>), users use their [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) with one of the following.
     
-    | Locator 🔆 | Method 
+    | [Locator 🔆](<01 🔆 Locator.md>) | Method 
     |-|-
     | [✨ Physical QR code](<03 🧑‍🦰✨ Wallet QR scan.md>) | Scan an NLWeb-compatible physical [QR code ✨](<03 🧑‍🦰✨ Wallet QR scan.md>) printed by anyone.
     | [🔆 Physical NFC tag](<04 🧑‍🦰🔆 Wallet NFC tap.md>) | Tap a NLWeb-compatible physical [NFC tag 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>) written by anyone.
@@ -32,11 +34,12 @@
 
     
     ---
+    <br/>
 
 
 3. **What data is contained in a Locator?**
 
-    A Locator 🔆 contains.
+    A [Locator 🔆](<01 🔆 Locator.md>) contains.
     |Part| Example | Purpose
     |-|-|-
     | [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) | `nlweb.org/QR:1.0` | To validate the schema with a [Graph 🕸 helper domain](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>).
@@ -45,9 +48,9 @@
     | Parameters | `A=1,B=2` | any optional data fields.
 
     ---
+    <br/>
 
-
-1. **Can Locators be forged?**
+2. **Can Locators be forged?**
 
     Yes. 
     
@@ -63,13 +66,14 @@
         - new fake NFC/QR Locators 🔆 may placed strategically near the target services (e.g., in pillars of a parking lot).
 
     ---
+    <br/>
 
 1. **How can users detect business impersonation attacks?**
 
-    User's best option to detect whether a Locator 🔆 is genuine or fake, is to see if it opens their [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) or if it opens a web page.
+    User's best option to detect whether a [Locator 🔆](<01 🔆 Locator.md>) is genuine or fake, is to see if it opens their [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) or if it opens a web page.
 
     - If it opens their [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), then they'll know that all messages will safely go through a trustworthy [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>).
-    - Instead, if the Locator 🔆 opens a web page, then it's most probably not an NLWeb Locator 🔆.
+    - Instead, if the [Locator 🔆](<01 🔆 Locator.md>) opens a web page, then it's most probably not an NLWeb [Locator 🔆](<01 🔆 Locator.md>).
     - Exceptionally, users will be directed to the `nlweb.org` website if they do not have a [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) installed on their smartphone.
 
     Given that the [Wallet's Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) serves as a protector, user can trust its mechanism to protect them from [phishing sites 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/06 📺 QR phishing.md>), just like Google Chrome does with [SSL certificate validation 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/08 📺 Google's Risk API.md>) and other phishing detection/blocking features - these mechanisms include:
@@ -80,12 +84,14 @@
     
 
     ---    
+    <br/>
 
 2. **How can businesses be protected by misplacement attacks?**
     
-    Businesses can implement the following security mechanisms for misplacement attacks, where an attacker replaces a genuine Locator 🔆 A for another genuine Locator 🔆 B in order to trick a user to unlock the resource B instead of the resource A:
+    Businesses can implement the following security mechanisms for misplacement attacks, where an attacker replaces a genuine [Locator 🔆](<01 🔆 Locator.md>) A for another genuine [Locator 🔆](<01 🔆 Locator.md>) B in order to trick a user to unlock the resource B instead of the resource A:
 
     - deploy read-only [rotating NFC tags 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/11 📺 NFC authentication.md>) without a QR code;
-    - deploy [Ephemeral 🦋 devices](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>) that emulates both a [QR code ✨](<03 🧑‍🦰✨ Wallet QR scan.md>) and an [NFC tag 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>) with a Locator 🔆 that rotates every X seconds.
+    - deploy [Ephemeral 🦋 devices](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>) that emulates both a [QR code ✨](<03 🧑‍🦰✨ Wallet QR scan.md>) and an [NFC tag 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>) with a [Locator 🔆](<01 🔆 Locator.md>) that rotates every X seconds.
 
     ---
+    <br/>
