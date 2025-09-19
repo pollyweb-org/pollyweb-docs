@@ -17,7 +17,7 @@ host --> wallet: ⏪ prompt
 ' The user invokes the broker's talker
 user --> wallet: broker 🤵
 activate wallet
-    wallet --> broker: 1) Home@
+    wallet --> broker: 1) Help@
 deactivate wallet
 
 ' The broker shows the chat options

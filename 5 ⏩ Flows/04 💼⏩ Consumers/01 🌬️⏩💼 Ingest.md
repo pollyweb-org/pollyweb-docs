@@ -12,9 +12,9 @@
 
 | # | Call | Notes
 |-|-|-
-| 1 | [🌬️🐌⏳ Updated @ Buffer](<../../6 🅰️ APIs/03 ⏳🅰️  Buffer/02 🌬️🐌Updated.md>) | The [Streamer 🌬️](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/02 🌬️🎭 Streamer role.md>) pushes to the [Buffer ⏳](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>)
+| 1 | [🌬️🐌⏳ Updated @ Buffer](<../../6 🅰️ APIs/03 ⏳🅰️ Buffer/02 🌬️🐌Updated.md>) | The [Streamer 🌬️](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/02 🌬️🎭 Streamer role.md>) pushes to the [Buffer ⏳](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>)
 | 2 | [⏳🐌💼 Wake-up @ Consumer](<../../6 🅰️ APIs/05 💼🅰️ Consumer/04 ⏳🐌💼 Wake-up.md>) | The [Buffer ⏳](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>) wakes up the [Consumer 💼](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) 
-| 3 | [💼🐌⏳ Consume @ Buffer](<../../6 🅰️ APIs/03 ⏳🅰️  Buffer/03 💼🐌Consume.md>) | The [Consumer 💼](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) pulls all buffered messages
+| 3 | [💼🐌⏳ Consume @ Buffer](<../../6 🅰️ APIs/03 ⏳🅰️ Buffer/03 💼🐌Consume.md>) | The [Consumer 💼](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) pulls all buffered messages
 ||
 
 

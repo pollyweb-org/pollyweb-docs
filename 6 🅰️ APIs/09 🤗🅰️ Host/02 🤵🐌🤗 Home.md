@@ -16,3 +16,17 @@
 | - | - | - |
 | 🤗 [Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) | 😃 What do you need? <br/> - [ Something ] <br> - [ Something else ]  | 
 ||
+
+<br/>
+
+# Async Message
+
+```yaml
+Header:
+    From: any-broker.com
+    To: any-host.com
+    Subject: Home@Host
+
+Body:
+    ChatID: <chat-uuid>
+```
