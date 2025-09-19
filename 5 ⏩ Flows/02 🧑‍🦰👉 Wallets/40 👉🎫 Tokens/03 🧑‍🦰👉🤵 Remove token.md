@@ -29,7 +29,7 @@
 
 | # | API | Description
 |-|-|-
-| 1 | [🧑‍🦰🐌🤗 Home @ Host](<../../../6 🅰️ APIs/09 🤗🅰️ Host/02 🧑‍🦰🐌🤗 Home.md>) | The user calls the [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) from the [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
+| 1 | [🧑‍🦰🐌🤗 Home @ Host](<../../../6 🅰️ APIs/09 🤗🅰️ Host/02 🤵🐌🤗 Home.md>) | The user calls the [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) from the [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
 | 2 | [🤗⏩🧑‍🦰 Prompt @ Host](<../../03 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt.md>) | Then tells the [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) to remove the [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) 
 | 3 | [🤵⏩🎫 Update Tokens @ Broker](<../../08 🤵⏩ Brokers/04 🤵⏩🧑‍🦰 Update tokens.md>) | The [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) tells the [Wallet 🧑‍🦰](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to update the list
 | 4 | [🤵🐌📣 Remove @ Notifier](<../../../6 🅰️ APIs/12 📣🅰️ Notifier/04 📣🎫🅰️ Tokens/42 🤵🐌📣 Remove.md>) | The [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) tells the [Wallet 🧑‍🦰](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to remove it

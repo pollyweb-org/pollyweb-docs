@@ -115,7 +115,7 @@
     | Caller | Method | Store | Description
     |-|-|-|-
     🤵 Broker | [🐌 CheckIn](<../../../6 🅰️ APIs/09 🤗🅰️ Host/01 🤵🐌🤗 CheckIn.md>) | Chats | The user started a Chat.
-    🧑‍🦰 Wallet | [🐌 Home](<../../../6 🅰️ APIs/09 🤗🅰️ Host/02 🧑‍🦰🐌🤗 Home.md>) | Chats | Show the top menu on the Chat.
+    🧑‍🦰 Wallet | [🐌 Home](<../../../6 🅰️ APIs/09 🤗🅰️ Host/02 🤵🐌🤗 Home.md>) | Chats | Show the top menu on the Chat.
     🤵 Broker | [🐌 Abandoned](<../../../6 🅰️ APIs/09 🤗🅰️ Host/03 🤵🐌🤗 Abandoned.md>) | Chats | The user abandoned a Chat.
     🧑‍🦰 Wallet | [🚀 Prompted](<../../../6 🅰️ APIs/09 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) | Prompts | Return the Prompt's content.
     🧑‍🦰 Wallet | [🐌 Reply](<../../../6 🅰️ APIs/09 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) | Prompts | Accept the reply to the Prompt.
