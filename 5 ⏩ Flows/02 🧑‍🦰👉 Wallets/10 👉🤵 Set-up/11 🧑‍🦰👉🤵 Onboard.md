@@ -4,6 +4,8 @@
 
 > Onboards a [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
 
+<br/>
+
 ## Chat
 
 | Service | Prompt | User
@@ -15,7 +17,7 @@
 | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | ✅ You are ready to go. 
 ||
 
-
+<br/>
 
 ## Flow diagram
 
