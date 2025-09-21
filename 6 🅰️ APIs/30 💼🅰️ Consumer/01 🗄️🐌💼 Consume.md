@@ -19,7 +19,7 @@
 | `Broker`| string | [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
 | `ChatID` | UUID | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) ID
 | `Code`| string | [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)
-| `Collection` | string | [Collect 🚀](<../18 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>) callback
+| `Collection` | string | [Collect 🚀](<../95 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>) callback
 | TTL | timestamp| Cache duration deadline
 
 ```yaml
@@ -42,7 +42,7 @@ Body:
 1. **Why a cache?**
 
     A caching strategy avoids collection timeouts.
-    * When Consumers call [Collect@Vault](<../18 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>), Vaults are expected to gather and cache the data and only send the [Consume@Consumer](<01 🗄️🐌💼 Consume.md>) message when the data is cached and ready to be collected.
+    * When Consumers call [Collect@Vault](<../95 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>), Vaults are expected to gather and cache the data and only send the [Consume@Consumer](<01 🗄️🐌💼 Consume.md>) message when the data is cached and ready to be collected.
     * The Vault's cache duration is expressed in the TTL field.
 
     ---

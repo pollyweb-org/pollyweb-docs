@@ -6,7 +6,7 @@
 # 💼🚀🗄️ Collect @ Vault
 
 
-> Tells it to reply with the data [shared](<../05 💼🅰️ Consumer/01 🗄️🐌💼 Consume.md>) by the user.
+> Tells it to reply with the data [shared](<../30 💼🅰️ Consumer/01 🗄️🐌💼 Consume.md>) by the user.
 
 
 
@@ -27,7 +27,7 @@ Body:
 |Header|`From` | string | [Consumer 💼 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) name
 || `To`| string | [Vault 🗄️ domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) name
 ||`Subject` | string | `Collect@Vault`
-|Body|`Collection` | UUID | Callback from [Consume@Consumer](<../05 💼🅰️ Consumer/01 🗄️🐌💼 Consume.md>)
+|Body|`Collection` | UUID | Callback from [Consume@Consumer](<../30 💼🅰️ Consumer/01 🗄️🐌💼 Consume.md>)
 |
 
 <br/>
@@ -37,6 +37,6 @@ Body:
 | Type | Decision
 |-|-
 | `Size`| A synchronous request (instead of an async message) allows Consumers to download data sets from the Vault via HTTPS with no theoretical size limit.
-| `Cache` | Consumers expect the response to be cached during [Consume@Consumer](<../05 💼🅰️ Consumer/01 🗄️🐌💼 Consume.md>), to allow Vaults to take as much time as necessary to gather the data, while avoiding timeouts when the Consumer calls [Collect@Vault](<01 💼🚀🗄️ Collect.md>).
+| `Cache` | Consumers expect the response to be cached during [Consume@Consumer](<../30 💼🅰️ Consumer/01 🗄️🐌💼 Consume.md>), to allow Vaults to take as much time as necessary to gather the data, while avoiding timeouts when the Consumer calls [Collect@Vault](<01 💼🚀🗄️ Collect.md>).
 | `Timeout` | The request is rejected if the TTL of the Vault's cache is exceeded.
 

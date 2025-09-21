@@ -19,7 +19,7 @@
     When YAML starts with `🤝: {domain}/[{path}/]{code}[:{version}]`,
     * e.g., `🤝: nlweb.org/MANIFEST/CODE`
     * it means that the following YAML content should comply with the given [Schema Code 🧩](<02 🧩 Schema Code.md>) defined.
-    * This allows readers to validate the YAML content by pulling the validation schema from [Schema @ Graph](<../../../6 🅰️ APIs/08 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>).
+    * This allows readers to validate the YAML content by pulling the validation schema from [Schema @ Graph](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>).
     
     ---
 
