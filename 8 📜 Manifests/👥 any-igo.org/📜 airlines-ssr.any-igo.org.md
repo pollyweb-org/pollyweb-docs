@@ -8,18 +8,24 @@
 Identity:
   Domain: airlines-ssr.any-igo.org
   Name: SSR Department of Any IGO Airlines
+```
   
-  
+```yaml
 Datasets:
+````
 
+```yaml
   # 🧩 //MEALS list.
   - Dataset: airlines.any-igo.org/SSR/MEAL
     Requires: 
       Language: Code@standards.any-igo.org/639-1
-    
+```
 
+```yaml
 Codes:
+```
 
+```yaml
   # --------------------------------------------------
   # 🧩 /SSR
   # Manage SSR on behalf of Any IGO Airlines
@@ -27,7 +33,9 @@ Codes:
 
   - Path: /SSR
     Delegator: airlines.any-igo.org
-    
+```  
+  
+```yaml
   # --------------------------------------------------
   # 🧩 //WCHR/CRED
   # Token: Wheelchair for ramp
@@ -50,7 +58,9 @@ Codes:
         Version: 1.0
         Inherits: nlweb.org/TOKEN:1.0
         Format: IsElectric, Size, NeedsAssistant, DateOfBirth
+```
 
+```yaml
   # --------------------------------------------------
   # 🧩 //MEAL
   # --------------------------------------------------
@@ -97,4 +107,4 @@ Codes:
                 - VJML  # Vegetarian Jain
                 - VLML  # Vegetarian lacto-ovo
                 - VOML  # Vegetarian Oriental
-                
+```                
