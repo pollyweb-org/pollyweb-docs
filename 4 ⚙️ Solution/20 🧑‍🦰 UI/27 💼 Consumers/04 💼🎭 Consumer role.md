@@ -5,7 +5,7 @@
 
 1. **What is a Consumer domain role in NLWeb?**
 
-    Consumers 💼 are [Host 🤗 domains](<../23 💬 Chats/03 🤗🎭 Host role.md>) that request users to share their data, typically to execute a workflow without the user having to type in the data.
+    Consumers 💼 are [Host 🤗 domains](<../23 💬 Chats/04 🤗🎭 Host role.md>) that request users to share their data, typically to execute a workflow without the user having to type in the data.
 
     ---
     <br/>

@@ -17,7 +17,7 @@
     - 1/ the signature is for a file with the given hash; and
     - 2/ the human holding the [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) has the given personally identifiable information (PII).
     
-    A signature request from a [Host 🤗](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) is a data set containing:
+    A signature request from a [Host 🤗](<../../20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) is a data set containing:
     - **the content of the file to be signed** - this allows the user to read the document before accepting to sign it;
     - **the file's hash** - this allows the Identity domain to [sign](<08 🆔🔏 User Signature.md>) a document on behalf of a user without knowing the content of the document;
     - **user PII (e.g., passport number)** - this allows the Identity domain to match the Host's intent with the user (e.g., ensure the request matches the tenant and not the landlord in a renting contract); 

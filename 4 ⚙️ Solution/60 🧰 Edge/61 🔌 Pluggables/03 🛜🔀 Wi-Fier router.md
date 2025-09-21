@@ -27,9 +27,9 @@
     |-|-|-
     | | | 🔆 [scan](<../../20 🧑‍🦰 UI/22 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>)
     | 🔎 [Finder](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Wand (4.3 ⭐)  [+] || The [Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) informed the user.
-    | 🪄 Wand | ℹ️ Device: [Wi-Fier 🛜](<03 🛜🔀 Wi-Fier router.md>) || The [Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) had a [Host 🤗](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>)  callback.
+    | 🪄 Wand | ℹ️ Device: [Wi-Fier 🛜](<03 🛜🔀 Wi-Fier router.md>) || The [Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) had a [Host 🤗](<../../20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>)  callback.
     | 🪄 Wand | 😃 Hi! What do you need? <br/>- Set up [ 🛜 Wi-Fi ] <br/>- Call [Support] <br/>- [ Something else ] | > 🛜 Wi-Fi
-    | [🤵 Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Flow: Wi-Fi [+] || The [Host 🤗 role](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) changed the context.
+    | [🤵 Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Flow: Wi-Fi [+] || The [Host 🤗 role](<../../20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) changed the context.
     | 🧢 [Persona](<../../30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) | 🫥 Share Wi-Fi? [All, No] <br/> - [ 🏠 home ] <br/> - [ 💼 office ]  | > 🏠 home | The [Consumer 💼 role](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) <br/> asked the [🤵 Broker domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) to share <br/> the data with [ Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) Wi-Fi.
     | 🪄 Wand | ⏳ Get close! [+] | 🚶 walk | 
     | 🪄 Wand | ⏳ Connecting... [+] | | The [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) found the BLE beacon.

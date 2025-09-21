@@ -6,7 +6,7 @@
     In NLWeb, non-humans (e.g., organizations, places, objects, animals) are represented by a [Locator 🔆](<01 🔆 Locator.md>). 
     * An NLWeb [Locator 🔆](<01 🔆 Locator.md>) is a string contained in a [QR code ✨](<03 🧑‍🦰✨ Wallet QR scan.md>), [NFC tag 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>), [Web link 🌐](<02 🧑‍🦰🌐 Wallet URLs.md>), or [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>) option.
     * Example: `nlweb.org/QR,1,any-printer.com,7V8KD3G`
-    * Users can [tap 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>), [scan ✨](<03 🧑‍🦰✨ Wallet QR scan.md>), [select 💬](<../23 💬 Chats/01 💬 Chat.md>), or [click 🌐](<02 🧑‍🦰🌐 Wallet URLs.md>) Locators 🔆 to open a [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>) with the [Locator's Host 🤗 domain](<../23 💬 Chats/03 🤗🎭 Host role.md>).
+    * Users can [tap 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>), [scan ✨](<03 🧑‍🦰✨ Wallet QR scan.md>), [select 💬](<../23 💬 Chats/01 💬 Chat.md>), or [click 🌐](<02 🧑‍🦰🌐 Wallet URLs.md>) Locators 🔆 to open a [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>) with the [Locator's Host 🤗 domain](<../23 💬 Chats/04 🤗🎭 Host role.md>).
 
     ---
     <br/>
@@ -30,7 +30,7 @@
     | [🛜 Wi-Fier devices](<../../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>) | Tap/scan a [Wi-Fier 🛜 device](<../../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>) to connect it to the internet.
     | [💍 Userable things](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) | Tap a [Userable 💍 thing](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) that a user is wearing or holding.
     | [🔒 Padlock devices](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/01 🔒 Padlock device.md>)  | Tap a [Padlock 🔒 device](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/01 🔒 Padlock device.md>) to open it.
-    | [💬 Chat prompts](<../23 💬 Chats/01 💬 Chat.md>) | Select a [Host 🤗 domain](<../23 💬 Chats/03 🤗🎭 Host role.md>) option - e.g., [Finder 🔎](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>), [Advertiser 👀](<../../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>).
+    | [💬 Chat prompts](<../23 💬 Chats/01 💬 Chat.md>) | Select a [Host 🤗 domain](<../23 💬 Chats/04 🤗🎭 Host role.md>) option - e.g., [Finder 🔎](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>), [Advertiser 👀](<../../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>).
 
     
     ---
@@ -43,7 +43,7 @@
     |Part| Example | Purpose
     |-|-|-
     | [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) | `nlweb.org/QR:1.0` | To validate the schema with a [Graph 🕸 helper domain](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>).
-    | [Host 🤗 domain](<../23 💬 Chats/03 🤗🎭 Host role.md>) | `any-host.com` | For the user's [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to open a [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>).
+    | [Host 🤗 domain](<../23 💬 Chats/04 🤗🎭 Host role.md>) | `any-host.com` | For the user's [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to open a [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>).
     | Resource | `product-1234` | The resource key in the Host's domain |  `product-1234` |
     | Parameters | `A=1,B=2` | any optional data fields.
 

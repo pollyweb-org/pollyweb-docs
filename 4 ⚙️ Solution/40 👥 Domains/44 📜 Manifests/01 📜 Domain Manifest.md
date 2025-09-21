@@ -42,7 +42,7 @@
 
     |Section|Purpose
     |-|-
-    | 🤗 [Host Identity](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>) | Domain identification (mandatory).
+    | 🤗 [Host Identity](<../../20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) | Domain identification (mandatory).
     | 👍 [Domain Trusts](<../43 👍 Trusts/01 👍 Domain Trust.md>) | Trusted domains, Codes, and roles.
     |  🧩 [Schema Codes](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) | Defined by the domain.
     |  🧩 [Delegated Codes](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) | Codes delegated to other domains.
