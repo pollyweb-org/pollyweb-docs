@@ -7,15 +7,9 @@
 
 # 🤗🐌🤵 Goodbye @ Broker
 
+> The [Host 🤗 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) inform the [user's Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) of the [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) ending.
 
-## Properties
-
-| Property | Schema | Notes
-|-|-|-
-| ServiceID | nlweb.org/HOSTS/RATED
-| InteractionID | nlweb.org/HOSTS/RATED
-||
-
+> Used in [🤗⏩🧑‍🦰 Goodbye](<../../../5 ⏩ Flows/03 🤗⏩ Hosts/02 🤗⏩🧑‍🦰 Goodbye.md>).
 
 ## Async Message
 
@@ -26,6 +20,13 @@ Header:
     Subject: Goodbye@Broker
     
 Body:
-    ChatID: <session-uuid>
-    Message: Parking ended for vehicle AB-12-34.
+    ChatID: <chat-uuid>
 ```
+
+|Object|Property|Type|Description
+|-|-|-|-
+|Header|`From`     | string  | [Host 🤗 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>)
+||`To`       | string  | [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
+||`Subject` | string | `Goodbye@Broker`
+|Body|`ChatID`   | UUID    | ID of the [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) 
+|

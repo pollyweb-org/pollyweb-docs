@@ -3,12 +3,18 @@
 
 actor "User" as user
 participant "Broker 🤵\nhost" as broker
+participant "Biller 🤝\ndomain" as biller
 participant "Host 🤗\ndomain" as host
 participant "Curator 🧚\nagent" as curator
 participant "Ads 👀\nhelper" as ads
 
 
 activate broker
+
+    broker -> biller: -/1) new bill()
+    activate biller
+        biller -> broker: {bill ID}
+    deactivate biller
 
 group sort ads
 

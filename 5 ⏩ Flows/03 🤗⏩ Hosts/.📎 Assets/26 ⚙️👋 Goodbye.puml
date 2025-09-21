@@ -2,8 +2,8 @@
 ' ------------------
 
 actor "User" as user
-participant "Broker 🤵\nhost" as broker
 participant "Host 🤗\ndomain" as host
+participant "Broker 🤵\nhost" as broker
 participant "Ads 👀\nhelper" as ads
 participant "Review ⭐\nagent" as reviewer
 
