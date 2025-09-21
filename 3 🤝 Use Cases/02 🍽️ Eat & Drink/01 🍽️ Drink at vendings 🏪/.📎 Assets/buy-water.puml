@@ -1,0 +1,62 @@
+@startuml
+' ------------------
+participant "PayPal\n(payer)" as payer
+actor "User" as user
+participant "Machine\n(place QR)" as qr
+participant "Vendor\n(consumer)" as shop
+participant "Revolut\n(collector)" as collector
+' ------------------
+user -> qr: scan
+
+activate user
+user -> shop: hello()
+deactivate user
+
+  activate shop
+  shop -> user: "what?"
+  deactivate shop
+
+activate user
+user -> shop: {buy}
+deactivate user
+
+  activate shop
+  shop -> user: "item number?"
+  deactivate shop
+
+activate user
+user -> shop: {123}
+deactivate user
+
+  activate shop
+  shop -> user: "water bottle?"
+  deactivate shop
+
+activate user
+user -> shop: {yes}
+deactivate user
+
+  activate shop
+  shop -> user: charge()
+  deactivate shop
+
+activate user
+user -> payer: pay()
+deactivate user
+
+    activate payer
+    payer -> collector: collect()
+    deactivate payer
+
+      activate collector
+      collector -> shop: paid!
+      deactivate collector
+
+  activate shop
+  shop -> qr: open()
+  shop -> user: "success!"
+  shop -> user: goodbye()
+  deactivate shop
+
+' ------------------
+@enduml

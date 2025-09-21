@@ -1,9 +1,9 @@
-Buy age-restricted drinks at a sell-service store 🍺
+🏪 Buy age-restricted drinks at a vending machine 🍺
 ---
 
-> Referenced by [🍽️ Eat at vending machines 🏪](<01 🏪 Index.md>)
+> Referenced by [🏪 Drink at vending machines](<01 🏪 Index.md>)
 
-Vending machines ask the user's trusted Identity domain to perform the authentication inside the chat on the user's device (e.g., face scan).
+> Vending machines ask the user's trusted [Identity 🆔 agent](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) to perform the authentication inside the chat on the user's device (e.g., [face scan 😶](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/04 🆔😶 Face scan.md>)).
 
 | Service | Prompt | User
 | - | - | - |
@@ -18,8 +18,4 @@ Vending machines ask the user's trusted Identity domain to perform the authentic
 | 🍺 Vending  | ⏳ Delivering...
 | 🍺 Vending  | ✅ Thanks! Pick up your item. 
 | ⭐ [Reviewer](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | > ⭐⭐⭐⭐⭐
-
-
-#### References
-
-- [🍽️ Eat at vending machines 🏪](<01 🏪 Index.md>)
+|

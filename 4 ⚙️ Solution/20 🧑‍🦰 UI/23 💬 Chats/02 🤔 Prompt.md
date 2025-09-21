@@ -23,7 +23,9 @@
     | Format | Description
     |-|-
     | ℹ️&nbsp;INFO | General information.
+    | ⏳&nbsp;TEMP| Temporary message.
     | ✅&nbsp;SUCCESS | Success message.
+    | ❌&nbsp;FAILURE | Failure message.
     | 👍&nbsp;CONFIRM | Yes, No, Cancel.
     | 💯&nbsp;INT | Shows the numeric keypad.
     | 🔄&nbsp;QUANTITY | Shows up/down arrows.
@@ -49,7 +51,7 @@
     <br/>
 
 
-3. **What does a Prompt request look like?**
+2. **What does a Prompt request look like?**
 
     The following is an example of a [Prompt 🤔](<02 🤔 Prompt.md>) request, as described in [Prompted@Host 🚀](<../../../6 🅰️ APIs/09 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>).
 
