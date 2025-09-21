@@ -16,7 +16,14 @@
     ---
     <br/>
     
+1. **What are examples of Identity domain usage?**
 
+    |Scenario |
+    |-
+    |[🏪 Buy beer at a vending machine 🍺](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/01 🍽️ Drink at vendings 🏪/12 🏪 Buy beer 🍺.md>)
+
+    ---
+    <br/>
     
 2. **How do users set up an Identity domain?**
 

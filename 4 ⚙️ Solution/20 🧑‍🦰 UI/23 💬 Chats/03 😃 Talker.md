@@ -15,6 +15,15 @@
     ---
     <br/>
 
+1. **What are examples of Talkers?**
+
+    |Example
+    |-
+    | [🏪 Drink at vending machines](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/01 🍽️ Drink at vendings 🏪/01 🏪 Index.md>)
+
+    ---
+    <br/>
+
 2. **Coding commands**
 
     * `💬|<title>:`	
@@ -70,9 +79,14 @@
        * Calls the 🛒 EAN [Prompt 🤔](<02 🤔 Prompt.md>)
    * `INFO|<message>`	
        * Calls the ℹ️ INFO [Prompt 🤔](<02 🤔 Prompt.md>)
-       * A 2nd call overides the previous
+       * A second call overrides the previous
+   * `TEMP|<message>`
+       * Calls the ⏳ TEMP [Prompt 🤔](<02 🤔 Prompt.md>)
+       * Disappears any new [Prompt 🤔](<02 🤔 Prompt.md>)
    * `SUCCESS|<message>`
        * Calls the ✅ SUCCESS [Prompt 🤔](<02 🤔 Prompt.md>)
+   * `FAILURE|<message>`
+       * Calls the ❌ FAILURE [Prompt 🤔](<02 🤔 Prompt.md>)
    * `INT|<message>`	
        * Calls the 💯 INT [Prompt 🤔](<02 🤔 Prompt.md>)
    * `LOCATION|<message>`	
@@ -95,8 +109,6 @@
        * Calls the 🔆 SCAN [Prompt 🤔](<02 🤔 Prompt.md>)
    * `SELFIE|<message>`	
        * Calls the 👤 SELFIE [Prompt 🤔](<02 🤔 Prompt.md>)
-       * The wallet opens an iFrame on dtfw.<domain>/selfie
-       * The wallet closes on another prompt or user action.
    * `TOUCH|<message>|<locator>`	
        * Calls the 🦋 TOUCH [Prompt 🤔](<02 🤔 Prompt.md>)
    * `TRACK|<message>`	
