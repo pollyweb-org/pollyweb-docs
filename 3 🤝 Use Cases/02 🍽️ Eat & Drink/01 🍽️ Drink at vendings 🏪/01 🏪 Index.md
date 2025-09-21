@@ -2,6 +2,8 @@
 
 ![alt text](<.📎 Assets/cartoon.png>)
 
+<br/>
+
 1. **What are applicable scenarios?**
 
     |Scenario 🤝|Audience|Notes
@@ -47,12 +49,14 @@ TODO: other scenarios
     |`amount`| currency  | Translates the item number to price.
     |`success`| bool | Wait until the item is delivered.
     |`failure`| string | Register the unexpected failure.
+    |
 
     | Schema Codes | Purpose
     |-|-
     | [🧩 nlweb.org/IDENTITY/OVER21](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/IDENTITY/🧩 IdentityOver21.md>) | Verify minimum age to drink.
+    |
 
-    ---
+    
     <br/>
 
 1. **What does the data look like?**
@@ -69,7 +73,7 @@ TODO: other scenarios
     | 126    | Sandwich      | $5.00  |
     | 127    | Chocolate bar | $1.00  |
     ```
-    ---
+    
     <br/>
     
 
@@ -81,9 +85,9 @@ TODO: other scenarios
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) | To manage the [Chats 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>).
     | [💵 Seller](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) | To charge for the products.
     | [💼 Consumer](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) | To verify minimum age.
+    |
 
 
-    ---
     <br/>
 
 1. **What are the [domain helpers 🛠️](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) required?**
@@ -91,8 +95,8 @@ TODO: other scenarios
     | [Helper 🛠️](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | Purpose
     |-|-
     | [🏦 Collector](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) | To collect the amount paid.
+    |
 
-    ---
     <br/>
 
 
@@ -103,5 +107,7 @@ TODO: other scenarios
       Domain: any-vending.com
       Name: Any Vending
     ```
-    ---
+    
     <br/>
+
+  1. **What does the [text](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/05 🧑‍💻🛠️ Hoster helper.md>)

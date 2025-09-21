@@ -12,19 +12,21 @@
 
     [Talkers 😃](<03 😃 Talker.md>) dramatically reduce the time to build a [Host 🤗 domain](<04 🤗🎭 Host role.md>) by simplifying the workflow orchestration of a [💬 Chat](<01 💬 Chat.md>).
 
+    * They allow [Hoster 🧑‍💻 helper domains](<05 🧑‍💻🛠️ Hoster helper.md>) to manage the workflow state on behalf of [Host 🤗 domains](<04 🤗🎭 Host role.md>), removing the undifferentiated heavy-lifting of handling [Prompts 🤔](<02 🤔 Prompt.md>) communications, and invoking [Host 🤗 domains](<04 🤗🎭 Host role.md>) only when it's necessary to execute business-specific logic.
+  
     ---
     <br/>
 
-1. **What are examples of Talkers?**
+2. **What are examples of Talkers?**
 
     |Example
     |-
-    | [🏪 Drink at vending machines](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/01 🍽️ Drink at vendings 🏪/01 🏪 Index.md>)
+    | [🏪 Buy drinks at vending machines](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/01 🍽️ Drink at vendings 🏪/01 🏪 Index.md>)
 
     ---
     <br/>
 
-2. **Coding commands**
+3. **Coding commands**
 
     * `💬|<title>:`	
         * Top menu entry - i.e., the "what?"
@@ -37,7 +39,7 @@
     <br/>
 
     
-3. **Flow commands**
+4. **Flow commands**
 
     * `CASE|<eval>|<anchor>`	
         * Runs a procedure when the eval is matched 
@@ -64,7 +66,7 @@
     ---
     <br/>
 
-4. **Prompt commands**
+5. **Prompt commands**
 
    * `CONFIRM|<message>|<falseProc>`	
        * Calls 👍 CONFIRM [Prompt 🤔](<02 🤔 Prompt.md>)
@@ -121,7 +123,7 @@
     ---
     <br/>
 
-5. **Behavior commands**
+6. **Behavior commands**
 
    * `BINDABLE|<codes>`	
        * Calls 👉 Advertise bindable: 🗄️ Vault

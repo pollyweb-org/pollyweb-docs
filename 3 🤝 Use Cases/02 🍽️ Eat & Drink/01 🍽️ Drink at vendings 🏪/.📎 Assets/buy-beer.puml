@@ -38,7 +38,7 @@ user -> shop: {yes}
 deactivate user
 
   activate shop
-  shop -> user: charge($1.50)
+  shop -> user: charge()
   deactivate shop
 
 activate user
