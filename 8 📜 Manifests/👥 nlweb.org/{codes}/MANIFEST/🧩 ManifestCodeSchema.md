@@ -1,5 +1,10 @@
 
 # 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): ManifestCodeSchema
+
+ > Referenced by [domain Manifest 📜](<../../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>)
+
+<br/>
+
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 

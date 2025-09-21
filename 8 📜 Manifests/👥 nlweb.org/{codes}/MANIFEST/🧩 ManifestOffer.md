@@ -1,5 +1,10 @@
 
 # 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): ManifestOffer
+
+ > Referenced by [domain Manifest 📜](<../../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>)
+
+<br/>
+
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 
@@ -28,7 +33,7 @@ Schema:
 
       Requires:
         type: object
-        description: Arguments for quering the dataset.
+        description: Arguments for querying the dataset.
         additionalProperties:
           $ref: Schema@nlweb.org/TYPES
           description: The schema of the argument.
