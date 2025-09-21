@@ -3,9 +3,9 @@
 1. **What is a Hoster?**
 
     A [🧑‍💻 Hoster](<05 🧑‍💻🛠️ Hoster helper.md>) is 
-    * any [Helper 🛠️ domain](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>).
+    * any [Helper 🛠️ domain](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>).
     * that host the infrastructure of other [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).
-    * and allow their owners to manage them with a [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+    * and allow their owners to manage them with a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
 
     ---
     <br/>
@@ -14,10 +14,10 @@
 
     | [Role 🎭](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | Purpose
     |-|-
-    | [🤗 Host](<04 🤗🎭 Host role.md>) | To have [Chats 💬](<01 💬 Chat.md>) with users.
-    | [🗄️ Vault](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) | To store the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) settings.../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md
-    | [🎴 Issuer](<../25 🎫 Tokens/02 🎴🎭 Issuer role.md>) | To issue [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) ownership [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>).
-    | [🪢 Integrator](<06 🪢🎭 Integrator role.md>) | To manifest the hosting service to  [Finder 🔎 domains](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>).
+    | [🤗 Host](<04 🤗🎭 Host role.md>) | To have [Chats 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) with users.
+    | [🗄️ Vault](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) | To store the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) settings.
+    | [🎴 Issuer](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) | To issue [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) ownership [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>).
+    | [🪢 Integrator](<../../20 🧑‍🦰 UI/23 💬 Chats/06 🪢🎭 Integrator role.md>) | To manifest the hosting service to  [Finder 🔎 domains](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>).
     | [💵 Seller](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) | To sell the usage plans via a [Biller 💳 helper domain](<../../30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>).
     
 
@@ -26,7 +26,7 @@
 
 2. **What domain Helpers do Hosters typically leverage?**
 
-    | [Helper 🛠️](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>)  | Purpose 
+    | [Helper 🛠️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>)  | Purpose 
     |-|-
     | [💳 Biller](<../../30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>) | To manage usage and subscription plans.
     | [🏦 Collector](<../../30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) | To collect usage and subscription payments.
@@ -38,10 +38,10 @@
 
     | Requirement | Purpose
     |-|-
-    | [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) | To authenticate 01 💬 Chat.mds/01 💬 Chat.md>) with the [Hoster 🧑‍💻 domain](<05 🧑‍💻🛠️ Hoster helper.md>).
+    | [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) | To authenticate and [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) with the [Hoster 🧑‍💻 domain](<05 🧑‍💻🛠️ Hoster helper.md>).
     | [Payer 💳 agent](<../../30 🫥 Agents/04 💳 Payers/04 💳🫥 Payer agent.md>) | To pay for usage and subscription plans.
     | [Identity 🆔 agent](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | To authenticate the domain user.
-    | [Folder 🗂️ editor](<../26 🗂️ Folders/01 🗂️ Folder editor.md>) | To manage the settings of the hosted [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md
+    | [Folder 🗂️ editor](<../../20 🧑‍🦰 UI/26 🗂️ Folders/01 🗂️ Folder editor.md>) | To manage the settings of the hosted [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).
 
     ---
     <br/>
@@ -50,12 +50,12 @@
 
     |#| Category | Step
     |-|-|-
-    |1| `Find` | Using their [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), <br/>the admin user [finds 🔎](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) a [Hoster 🧑‍💻 domain](<05 🧑‍💻🛠️ Hoster helper.md>) <br/>and starts a [Chat 💬](<../../20 🧑‍🦰 UI/23 01 💬 Chat.md Host 🤗 role](<../../20 🧑‍🦰 UI/23 03 🤗🎭 Host role.md
-    |2| `Bind`| On the [Chat 💬](<01 💬 Chat.md>), <br/>the user [Binds 🔗](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md
-    |3| `Clone`| On a workstation terminal, <br/>the user [scans ✨](<../22 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) the terminal QR code <br/>to link the terminal to the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)<br/>and download the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) settings.../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md
+    |1| `Find` | Using their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), <br/>the admin user [finds 🔎](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) a [Hoster 🧑‍💻 domain](<05 🧑‍💻🛠️ Hoster helper.md>) <br/>and starts a [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) with the [Hoster's Host 🤗 role](<04 🤗🎭 Host role.md>).
+    |2| `Bind`| On the [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>), <br/>the user [Binds 🔗](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>) to the [Hoster's Vault 🗄️ role](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>), <br/>and creates a new [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).
+    |3| `Clone`| On a workstation terminal, <br/>the user [scans ✨](<../../20 🧑‍🦰 UI/22 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) the terminal QR code <br/>to link the terminal to the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)<br/>and download the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) settings.
     |4| `Edit`| On a code editor (e.g., Visual Studio Code)<br/>the user configures the logic webhooks <br/>and the public [domain 📜 Manifest](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>).
     |5| `Sync`| On the workstation terminal, <br/>the user synchronizes the changes <br/>with the [Hoster 🧑‍💻 domain](<05 🧑‍💻🛠️ Hoster helper.md>).
-    |6| `Test`| From the workstation terminal, <br/>the user opens [Chats 💬](<01 💬 Chat.md>) for manual testing.
+    |6| `Test`| From the workstation terminal, <br/>the user opens [Chats 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) for manual testing.
 
     ---
     <br/>
@@ -80,9 +80,9 @@
 
     |🧑‍💻 Command | Description
     |-|-
-    |`clone <name>` | Generates a [QR Locator 🔆](<../22 🔆 Locators/01 🔆 Locator.md>)<br> for the user to scan with the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)<br/>to clone the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) to a local folder<br/>- e.g., `my../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.mdy-domain`
+    |`clone <name>` | Generates a [QR Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>)<br> for the user to scan with the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)<br/>to clone the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) to a local folder<br/>- e.g., `my-hoster clone my-domain`
     |`sync` | Sends the changes with the [Hoster 🧑‍💻 domain](<05 🧑‍💻🛠️ Hoster helper.md>) <br/>- e.g., `my-hoster sync`
-    |`chat <env>`| Opens a [Chat 💬](<01 💬 Chat.md>) with an environment<br/>on the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 ../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md`my-hoster chat local`
+    |`chat <env>`| Opens a [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) with an environment<br/>on the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)<br/>- e.g., `my-hoster chat local`
     <!--|`test <env>`| Runs test scripts on an environment<br/>- e.g., `my-hoster test local`-->
 
     ---
@@ -92,13 +92,13 @@
 
     |🧑‍💻 Command | 🖥️ Display |  Workstation
     |-|-|-
-    |`$ clone my-domain` | ⏳ Scan the QR code... | [✨ scan](<../22 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>)
+    |`$ clone my-domain` | ⏳ Scan the QR code... | [✨ scan](<../../20 🧑‍🦰 UI/22 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>)
     || ✅ Domain cloned to folder
     |`code .` | &lt;opens visual studio code&gt;| 🧑‍💻 implement
     |`$ sync` | ✅ Changes synchronized.
-    |`$ chat dev` | ⏳ Chat on your Wallet... | [💬 chat](<01 💬 Chat.md>)
+    |`$ chat dev` | ⏳ Chat on your Wallet... | [💬 chat](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>)
     || ✅ Chat finished. | 
-    |`$ chat prod` | ⏳ Chat on your Wallet... | [💬 chat](<01 💬 Chat.md>)
+    |`$ chat prod` | ⏳ Chat on your Wallet... | [💬 chat](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>)
     || ✅ Chat finished. | 
     <!--|`$ test dev` | ✅ Tested successfully. | 🥳 celebrate-->
     
@@ -126,10 +126,10 @@
     |-|-|-
     | 📥 Inbound | YAML | Message inbound configuration.
     | 📤 Outbound | YAML | Message outbound configuration.
-    | [🛠️ Helpers](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>)  | YAML | Required [Helper 🛠️ domains](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>).
+    | [🛠️ Helpers](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>)  | YAML | Required [Helper 🛠️ domains](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>).
     | [📜 Manifest](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) | YAML | Public information about the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).
-    | 🔆 [Locators](<../22 🔆 Locators/01 🔆 Locator.md>) | YAML | Mapping of [Locators 🔆](<../22 🔆 Locators/01 🔆 Locator.md>) to Talkers
-    | [😃 Talkers](<03 😃 Talker.md>) | Folder | Tree of [💬 Chat](<01 💬 Chat.md>) scripts by [Locator 🔆](<../../20 🧑‍🦰 ../22 🔆 Locators/01 🔆 Locator.md
+    | 🔆 [Locators](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) | YAML | Mapping of [Locators 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) to Talkers
+    | 😃 Talkers | Folder | Tree of [💬 Chat](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) scripts by [Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>)
 
 
     ---
@@ -137,11 +137,11 @@
 
 7. **What does the Inbound file look like?**
 
-    The `📥 Inbound.yaml` file tells the [Hoster 🧑‍💻 domain](<05 🧑‍💻🛠️ Hoster helper.md>) which [Messages 📨](<../41 📨 Comms/01../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.mdd where to.
+    The `📥 Inbound.yaml` file tells the [Hoster 🧑‍💻 domain](<05 🧑‍💻🛠️ Hoster helper.md>) which [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) to forward, and where to.
     
-    * For [💬 Chats](<01 💬 Chat.md>) started from the workstation's terminal, the CLI will open a proxy connection to receive the messages from the [Hoster 🧑‍💻 domain](<05 🧑‍💻🛠️ Hoster helper.md>) and forward them to the target until the [💬 Chat](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 01 💬 Chat.md at http://localhost to be running as a target.
+    * For [💬 Chats](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) started from the workstation's terminal, the CLI will open a proxy connection to receive the messages from the [Hoster 🧑‍💻 domain](<05 🧑‍💻🛠️ Hoster helper.md>) and forward them to the target until the [💬 Chat](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) ends, allowing a local web-server at http://localhost to be running as a target.
   
-    * [💬 Chats](<01 💬 Chat.md>) starting with any other way will communicate only via the Internet, and will require the target to expose the WebHook endpoint as HTTPS.
+    * [💬 Chats](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) starting with any other way will communicate only via the Internet, and will require the target to expose the WebHook endpoint as HTTPS.
 
     ```yaml
     🤝: nlweb.org/HOSTER/INBOUND
@@ -166,9 +166,9 @@
 
 1. **What does the Outbound file look like?**
 
-    The `📤 Outbound.yaml` is generated by the [Hoster 🧑‍💻 domain](<05 🧑‍💻🛠️ Hoster helper.md>) to tell the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) where to proxy mes../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md
+    The `📤 Outbound.yaml` is generated by the [Hoster 🧑‍💻 domain](<05 🧑‍💻🛠️ Hoster helper.md>) to tell the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) where to proxy messages through.
 
-    * The [Hoster 🧑‍💻 domain](<05 🧑‍💻🛠️ Hoster helper.md>) proxy receives unsigned [Messages 📨](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>), signs them with t../../40 👥 Domains/44 📜 Manifests/00 � Domain.md./41 📨 Comms/01 ../../40 � Domains/41 �📨 Comms/01 📨 Domain Message.mdd forwards them downstream without ever disclosing the private key.
+    * The [Hoster 🧑‍💻 domain](<05 🧑‍💻🛠️ Hoster helper.md>) proxy receives unsigned [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) from the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>), signs them with the [DKIM 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) private key, and forwards them downstream without ever disclosing the private key.
 
 
     ```yaml
@@ -231,7 +231,7 @@
 
 1. **What does the Locators file looks like?**
 
-    The `🔆 Locators.yaml` file contains the mapping of [Locators 🔆](<../22 🔆 Locators/01 🔆 Locator.md>) to [Talkers 😃](<03 😃 Talker.md>).
+    The `🔆 Locators.yaml` file contains the mapping of [Locators 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) to Talkers.
 
     ```yaml
     🤝: nlweb.org/HOSTER/LOCATORS
@@ -244,13 +244,10 @@
     ```  
 
 
-    The [Talkers 😃](<03 😃 Talker.md>) files reside under the [Talkers 😃](<03 😃 Talker.md>) folder.
+    The Talker files reside under the Talkers folder.
 
     ```yaml
     😃 Talkers/ # Tree of talkers
     ├─ 😃 talker-1.yaml
     └─ 😃 talker-2.yaml
     ```
-
-    ---
-    <br/>
