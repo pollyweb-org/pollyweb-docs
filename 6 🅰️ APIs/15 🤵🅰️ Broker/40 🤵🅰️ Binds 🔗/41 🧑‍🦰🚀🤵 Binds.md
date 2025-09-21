@@ -4,7 +4,7 @@
 
 # 🧑‍🦰🚀🤵 Binds @ Broker
 
-> Lists the Binds of a Wallet app.
+> Lists the [Binds 🔗](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>) of a [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
 
 > Used in:
 > <br/> • [🧑‍🦰👉🤵 Translate](<../../../5 ⏩ Flows/02 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/12 🧑‍🦰👉🤵 Translate.md>)
