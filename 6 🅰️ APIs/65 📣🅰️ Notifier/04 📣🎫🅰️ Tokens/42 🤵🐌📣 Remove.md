@@ -10,3 +10,12 @@
 > Used in [🧑‍🦰👉🤵 Remove token](<../../../5 ⏩ Flows/02 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/03 🧑‍🦰👉🤵 Remove token.md>).
 
 <br/>
+
+```yaml
+Header:
+    From: any-broker.com
+    To: any-notifier.com
+    Subject: Remove@Notifier
+
+Body:
+    ...
