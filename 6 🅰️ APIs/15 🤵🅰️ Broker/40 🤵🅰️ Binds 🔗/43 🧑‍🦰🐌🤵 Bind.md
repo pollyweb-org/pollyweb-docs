@@ -25,5 +25,9 @@ Body:
 ```
 
 
-|Property|Type|Description
-|-|-|-
+| Object | Property | Type  | Description
+|-|-|-|-
+| Header    | `From`|   | 
+|           | `To`  | string| [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
+|           | `Subject`| string|  `Bind@Broker`
+|
