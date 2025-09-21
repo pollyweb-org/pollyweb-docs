@@ -53,7 +53,7 @@
 
 2. **What does a Prompt request look like?**
 
-    The following is an example of a [Prompt 🤔](<02 🤔 Prompt.md>) request, as described in [Prompted@Host 🚀](<../../../6 🅰️ APIs/09 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>).
+    The following is an example of a [Prompt 🤔](<02 🤔 Prompt.md>) request, as described in [Prompted@Host 🚀](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>).
 
     ```yaml
     Format: ONE
@@ -73,7 +73,7 @@
     | `Format`  | string | One supported by a [Chat 💬](<01 💬 Chat.md>)
     | `Message` | string | Main message displayed in the [Chat 💬](<01 💬 Chat.md>)
     | `Options` | list   | List of Options with:<br/>- ID of the option for replies<br/>- Translated text of the option to display 
-    | `Appendix`| UUID   | PDF or PNG appendix to download via [Download@Host 🚀](<../../../6 🅰️ APIs/09 🤗🅰️ Host/06 🧑‍🦰🚀🤗 Download.md>)
+    | `Appendix`| UUID   | PDF or PNG appendix to download via [Download@Host 🚀](<../../../6 🅰️ APIs/50 🤗🅰️ Host/06 🧑‍🦰🚀🤗 Download.md>)
     | `Details` | string | Extended details in Markdown format, topically hidden by an expand [+] sign
     |
 

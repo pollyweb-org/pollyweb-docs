@@ -57,6 +57,6 @@
 
     |Message|Description
     |-|-
-    | [🐌 Paid](<../../../6 🅰️ APIs/16 💵🅰️ Seller/01 🏦🐌💵 Paid.md>) | The [Collector 🏦 helper](<01 🏦🛠️ Collector helper.md>) confirms the payment.
+    | [🐌 Paid](<../../../6 🅰️ APIs/85 💵🅰️ Seller/01 🏦🐌💵 Paid.md>) | The [Collector 🏦 helper](<01 🏦🛠️ Collector helper.md>) confirms the payment.
 
     ---

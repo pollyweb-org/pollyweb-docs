@@ -22,10 +22,10 @@
 
 | # | Call | Notes
 |-|-|-
-| 1 | [🧑‍🦰🐌🤵 Translate @ Broker](<../../../6 🅰️ APIs/02 🤵🅰️ Broker/10 🤵🅰️ Wallets 🧑‍🦰/12 🧑‍🦰🐌🤵 Translate.md>) | User changed the language.
-| 2 | [🚀🕸 Translate @ Graph](<../../../6 🅰️ APIs/08 🕸🅰️ Graph/06 👥🚀🕸 Translate.md>) | Translate from [Manifests 📜](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>). 
-| 3 | [🤵🐌📣 Translated @ Notifier](<../../../6 🅰️ APIs/12 📣🅰️ Notifier/01 📣🤵🅰️ Onboard/21 🤵🐌📣 Translated.md>) | Finished translating the database.
-| 4 | [🧑‍🦰🚀🤵 Chats @ Broker](<../../../6 🅰️ APIs/02 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/02 🧑‍🦰🚀🤵 Chats.md>) | Fetch translated [Chats 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>).
-| 5 | [🧑‍🦰🚀🤵 Binds @ Broker](<../../../6 🅰️ APIs/02 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/41 🧑‍🦰🚀🤵 Binds.md>) | Fetch translated [Binds 🔗](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>)
-| 6 | [🧑‍🦰🚀🤵 Tokens @ Broker](<../../../6 🅰️ APIs/02 🤵🅰️ Broker/50 🤵🅰️ Tokens 🎫/54 🧑‍🦰🚀🤵 Tokens.md>) | Fetch translated [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
+| 1 | [🧑‍🦰🐌🤵 Translate @ Broker](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/10 🤵🅰️ Wallets 🧑‍🦰/12 🧑‍🦰🐌🤵 Translate.md>) | User changed the language.
+| 2 | [🚀🕸 Translate @ Graph](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/06 👥🚀🕸 Translate.md>) | Translate from [Manifests 📜](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>). 
+| 3 | [🤵🐌📣 Translated @ Notifier](<../../../6 🅰️ APIs/65 📣🅰️ Notifier/01 📣🤵🅰️ Onboard/21 🤵🐌📣 Translated.md>) | Finished translating the database.
+| 4 | [🧑‍🦰🚀🤵 Chats @ Broker](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/02 🧑‍🦰🚀🤵 Chats.md>) | Fetch translated [Chats 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>).
+| 5 | [🧑‍🦰🚀🤵 Binds @ Broker](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/41 🧑‍🦰🚀🤵 Binds.md>) | Fetch translated [Binds 🔗](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>)
+| 6 | [🧑‍🦰🚀🤵 Tokens @ Broker](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/50 🤵🅰️ Tokens 🎫/54 🧑‍🦰🚀🤵 Tokens.md>) | Fetch translated [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
 |
