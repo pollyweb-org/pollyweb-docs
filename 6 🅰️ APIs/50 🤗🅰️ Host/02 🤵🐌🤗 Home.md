@@ -1,6 +1,6 @@
 <!-- #TODO -->
 
-# 🧑‍🦰🐌🤗 Home @ [Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>)
+# 🧑‍🦰🐌🤗 Home @ Host
 
 > Shows the Host's main menu.
 
@@ -30,3 +30,11 @@ Header:
 Body:
     ChatID: <chat-uuid>
 ```
+
+|Object|Property|Type|Description
+|-|-|-|-
+|Header|`From`|string | [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) name
+||`To`|string| [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) name
+||`Subject`|string|`Home@Host`
+|Body  |`ChatID`   |UUID  | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) ID on the [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
+|
