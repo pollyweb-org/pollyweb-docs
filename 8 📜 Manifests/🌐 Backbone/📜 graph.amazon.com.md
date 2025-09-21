@@ -7,4 +7,4 @@
 
 Identity:
   Domain: graph.amazon.com
-  Name: Graph of European Union
+  Name: Amazon Graph

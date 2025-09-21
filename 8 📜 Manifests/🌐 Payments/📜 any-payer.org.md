@@ -7,7 +7,7 @@
 
 Identity:
   Domain: any-payer.org
-  Name: AnyPayer
+  Name: Any Payer
 
   
 Trusts:

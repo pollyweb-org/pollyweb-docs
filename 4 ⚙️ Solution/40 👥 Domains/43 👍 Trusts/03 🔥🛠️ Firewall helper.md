@@ -64,7 +64,8 @@
     The following is an example of 
     * a list of [Trust 👍](<01 👍 Domain Trust.md>) REVOKES 
     * on malicious domains names 
-    * in a [domain Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>).
+    * in a [domain Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>)
+    * from the [Any Firewall 🔥 manifest](<../../../8 📜 Manifests/🌐 Backbone/📜 any-firewall.org.md>).
 
     ```yaml
     🤝: nlweb.org/MANIFEST
@@ -91,12 +92,19 @@
     Other [domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) should add the following [Trust 👍](<01 👍 Domain Trust.md>) to their [domain Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>).
 
     ```yaml
-    ...
     Trusts:
     - Action: INHERIT
       Domains:
         - any-firewall.org
     ```
+
+
+    See the follow examples as a reference:
+      * [🎰 Any Casino](<../../../8 📜 Manifests/🌐 Businesses/📜 casino.any-business.org.md>)
+      * [🇺🇸 U.S. Department of Health & Human Services](<../../../8 📜 Manifests/🌐 Vaults/📜 hhs.gov.md>)
+      * [🇺🇳 Nation Members of Any IGO](<../../../8 📜 Manifests/👥 any-igo.org/📜 nations.any-igo.org.md>)
+      * [🇪🇺 European Union](<../../../8 📜 Manifests/👥 europa.eu/📜 europa.eu/📜 europa.eu.md>)
+
 
     ---
     <br/>

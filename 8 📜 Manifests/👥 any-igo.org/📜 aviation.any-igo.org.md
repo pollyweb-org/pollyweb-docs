@@ -4,15 +4,19 @@
 
 ```yaml
 🤝: nlweb.org/MANIFEST
+```
 
+```yaml
 Identity:
   Domain: aviation.any-igo.org
   Name: All Aviation Members
+```
 
-
+```yaml
 Codes:
+```
 
-
+```yaml
   # Share of passport.
   - Path: /PASSPORT
     Name: Passport
@@ -37,7 +41,9 @@ Codes:
           - issued      # date
           - expiration  # date
           - photo       # image serialized in base64
-     
+```
+
+```yaml
 
   # Share of nationality, for Data Localization.
   - Path: /PASSPORT/COUNTRY
@@ -50,5 +56,5 @@ Codes:
         Version: 1.0
         Format:
           # https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
-          type: string
-        
+          type: string     
+```
