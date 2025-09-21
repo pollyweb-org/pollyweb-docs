@@ -2,7 +2,7 @@
 
 |Audience|Scenario|Notes
 |-|-|-
-|`Customer`|[Buy water 💧](<11 🏪 Buy water 💧.md>)
+|`Customer`|[Buy water 💧](<11 🏪 Buy water 💧.md>) | Simple workflow.
 |`Customer`|[Buy beer 🍺](<12 🏪 Buy beer 🍺.md>)| Requires 21+ age verification.
 ||
 

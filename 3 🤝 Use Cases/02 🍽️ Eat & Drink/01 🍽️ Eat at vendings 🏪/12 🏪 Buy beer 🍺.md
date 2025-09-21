@@ -1,6 +1,8 @@
 Buy age-restricted drinks at a sell-service store 🍺
 ---
 
+> Referenced by [🍽️ Eat at vending machines 🏪](<01 🏪 Index.md>)
+
 Vending machines ask the user's trusted Identity domain to perform the authentication inside the chat on the user's device (e.g., face scan).
 
 | Service | Prompt | User

@@ -22,27 +22,28 @@
 
     | Format | Description
     |-|-
-    | ℹ️ *Info* | General information.
-    | 👍 *Confirm* | Yes, No, Cancel.
-    | 💯 *Int* | Shows the numeric keypad.
-    | 🔄 *Quantity* | Shows up/down arrows.
-    | 💰 *Amount* | Allows for decimals.
-    | 🔑 *OTP* | Asks for 6 digits.
-    | 1️⃣ *One* | One of multiple options.
-    | 🔢 *Many* | Zero or more of multiple options.
-    | ⭐ *Rate* | 1 to 5 stars.
-    | 🕓 *Time* | Asks for time of day.
-    | 📆 *Date* | Asks for a date.
-    | 🗓️ *Until* | Asks for a date/time in the future.
-    | 📍 *Location* | Asks for the current location.
-    | 🗺️ *Track* | Asks to track the location.
-    | 👤 *Identify* | Opens a pop-up for the user's [Identity 🆔 agent](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) to perform a face scan.
-    | 🛒 *EAN* | Scans for ENA-13 and EAN-8 barcodes.
-    | 🔆 *Scan* | Asks to touch/scan a [QR/NFC Locator 🔆](<../22 🔆 Locators/01 🔆 Locator.md>).
-    | 🦋 *Touch* | Asks to touch/scan a [QR/NFC Ephemeral 🦋 device](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>).
-    | ⬆️ *Upload* | Asks to upload a file or photo.
-    | ⬇️ *Download* | Asks to download a file.
-    | 🔠 *Text* | Asks for a text input.
+    | ℹ️ Info | General information.
+    | ✅ Success | Success message.
+    | 👍 Confirm | Yes, No, Cancel.
+    | 💯 Int | Shows the numeric keypad.
+    | 🔄 Quantity | Shows up/down arrows.
+    | 💰 Amount | Allows for decimals.
+    | 🔑 OTP | Asks for 6 digits.
+    | 1️⃣ One | One of multiple options.
+    | 🔢 Many | Zero or more of multiple options.
+    | ⭐ Rate | 1 to 5 stars.
+    | 🕓 Time | Asks for time of day.
+    | 📆 Date | Asks for a date.
+    | 🗓️ Until | Asks for a date/time in the future.
+    | 📍 Location | Asks for the current location.
+    | 🗺️ Track | Asks to track the location.
+    | 👤 Identify | Opens a pop-up for the user's [Identity 🆔 agent](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) to perform a face scan.
+    | 🛒 EAN | Scans for ENA-13 and EAN-8 barcodes.
+    | 🔆 Scan | Asks to touch/scan a [QR/NFC Locator 🔆](<../22 🔆 Locators/01 🔆 Locator.md>).
+    | 🦋 Touch | Asks to touch/scan a [QR/NFC Ephemeral 🦋 device](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>).
+    | ⬆️ Upload | Asks to upload a file or photo.
+    | ⬇️ Download | Asks to download a file.
+    | 🔠 Text | Asks for a text input.
 
     ---
     <br/>
