@@ -1,10 +1,10 @@
 # 🧑‍🦰🐌🤵 Help @ Broker
 
-> Asks the Broker to join a Chat to help.
+> Asks the [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) to join a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) to help.
 
 > Used in:
-> <br/> * [🧑‍🦰👉🤵 Host Home](<../../../5 ⏩ Flows/02 🧑‍🦰👉 Wallets/20 👉💬 Chats/02 🧑‍🦰👉🤵 Host home.md>)
-><br/> * [🧑‍🦰👉🤵 Abandon Chat](<../../../5 ⏩ Flows/02 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>)
+> <br/> • [🧑‍🦰👉🤵 Host Home](<../../../5 ⏩ Flows/02 🧑‍🦰👉 Wallets/20 👉💬 Chats/02 🧑‍🦰👉🤵 Host home.md>)
+> <br/> • [🧑‍🦰👉🤵 Abandon Chat](<../../../5 ⏩ Flows/02 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>)
 
 <br/>
 
@@ -20,7 +20,7 @@
 
 <br/>
 
-# Async Message 🐌
+## Async Message 🐌
 
 ```yaml
 Header:
@@ -31,3 +31,11 @@ Header:
 Body:
     ChatID: <chat-uuid>
 ```
+
+| Object | Property | Type |Description
+|-|-|-|-
+| Header | `From`    | string | [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) ID
+|| `To`      | string | [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
+|| `Subject` | string | `Help@Broker`
+| Body | `ChatID`  | UUID   | ID of the [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>)
+|
