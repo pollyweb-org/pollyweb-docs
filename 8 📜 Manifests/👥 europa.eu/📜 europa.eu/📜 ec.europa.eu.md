@@ -7,7 +7,7 @@
 
 Identity:
   Domain: ec.europa.eu
-  Name: European Comission
+  Name: European Commission
               
 
 Trusts:   

@@ -7,5 +7,5 @@
 
 Identity:
   Domain: any-notifier.org
-  Name: Any Wallet
+  Name: Any Wallet Notifier
   
