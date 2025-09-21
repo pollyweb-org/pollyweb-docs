@@ -12,15 +12,15 @@
     ![](<00 📎 Assets/💳 Biller User.png>)
 
     For a user to [sign](<../05 🆔 Identities/08 🆔🔏 User Signature.md>) a subscription, the following preconditions must be met:
-    - 1/ the user has default [Payer 💳](<03 💳🎭 Payer role.md>) and [Identity 🆔](<../05 🆔 Identities/03 🆔🫥 Identity agent.md>) domains;
-    - 2/ the Seller has a default [Collector 🏦](<01 🏦🛠️ Collector helper.md>) domain.
+    - 1/ the user has default [Payer 💳](<03 💳🎭 Payer role.md>) and [Identity 🆔 domains](<../05 🆔 Identities/03 🆔🫥 Identity agent.md>);
+    - 2/ the Seller has a default [Collector 🏦 domain](<01 🏦🛠️ Collector helper.md>).
 
     The following steps describe a subscription workflow:
-    - 1/ the user initiates a chat with a [Seller 💵](<01 💵🎭 Seller role.md>);
+    - 1/ the user initiates a chat with a [Seller 💵 domain](<01 💵🎭 Seller role.md>);
     - 2/ the user selects a subscription in the chat;
     - 3/ the Seller's Biller sends the PDF terms to the user;
     - 4/ the user accepts the PDF terms;
-    - 5/ the user's [Identity 🆔](<../05 🆔 Identities/03 🆔🫥 Identity agent.md>) authenticates the user;
+    - 5/ the user's [Identity 🆔 domain](<../05 🆔 Identities/03 🆔🫥 Identity agent.md>) authenticates the user;
     - 6/ the user's Payer asks the user for a payment method;
     - 7/ the Seller confirms the subscription;
     - 8/ the Biller initiates the monthly collection.
@@ -58,7 +58,7 @@
 
 6. **Can a Seller implement the Biller API?**
 
-    Yes. However, a Biller 🤝 domain may offer additional services that the [Seller 💵](<01 💵🎭 Seller role.md>) can benefit from, like digital signatures, risk assessment, support call center, dispute management, management of financial guarantees, and text-based reporting.
+    Yes. However, a Biller 🤝 domain may offer additional services that the [Seller 💵 domain](<01 💵🎭 Seller role.md>) can benefit from, like digital signatures, risk assessment, support call center, dispute management, management of financial guarantees, and text-based reporting.
     
     The Seller's customers may also benefit from budget alarms, spend anomaly detection, near-real-time streaming of billing, and text reporting.
 
