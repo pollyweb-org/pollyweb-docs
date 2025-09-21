@@ -37,13 +37,19 @@ Body:
 
 ```yaml
 Binds:
-  - ID: <bind-uuid>
+  - BindID: <bind-uuid>
     Vault: any-vault.org
     VaultTitle: AnyVault
     Code: any-authority.org/ANY-CODE
     CodeTitle: Any Code
 ```
 
-|Property|Type|Description
-|-|-|-
+| Object | Property | Type  | Description
+|-|-|-|-
+| Top      | `Binds`| list  | List of Bind objects
+| Bind     | `BindID`   | UUID  | [Bind 🔗](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>) ID
+|          | `Vault`    | string| [Vault 🗄️ domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) name
+|          | `VaultTitle`| string| [Vault 🗄️ domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) title
+|          | `Code`     | string| [Schema Code 🧩](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)
+|          | `CodeTitle`| string| [Schema Code 🧩](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) title
 |

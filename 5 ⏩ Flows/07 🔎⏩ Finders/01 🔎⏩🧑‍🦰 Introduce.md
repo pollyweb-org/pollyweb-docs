@@ -1,6 +1,22 @@
-# 👉 Introduce Host @ [Finder 🔎](<../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) 
+# 👉 Introduce Host @ Finder 
 
+> Ask the [Finder 🔎 domain](<../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) to introduce the [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>)
 
+> Used by:
+> <br/>• [🧑‍🦰👉🤗 Scan host QR](<../02 🧑‍🦰👉 Wallets/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>)
+> <br/>• [🧑‍🦰👉🤗 Scan printer QR](<../02 🧑‍🦰👉 Wallets/15 👉🔆 Locators/02 🧑‍🦰👉🤗 Scan printer QR.md>)
+
+<br/>
+
+## 💬 Chat
+
+| Service    | Prompt | User
+| - | - | - |
+| | | 🔆 [tap](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>)
+| 🔎 [Finder](<../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Host (4.3 ⭐): <br/> This host sells shoes.<br/>- They were founded in 1987.<br/>- Joined NLWeb 2 years ago.<br/>User feedback:<br/>- Delivery 4.7⭐ by 357 users<br/>- Support 3.5⭐ by 21 users
+|
+
+<br/>
 
 
 ## Flow diagram
