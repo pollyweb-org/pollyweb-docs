@@ -1,7 +1,7 @@
 
 # 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): ManifestTrust
 
- > Referenced by [domain Manifest 📜](<../../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>)
+ > Referenced by [domain Manifest 📜](<../../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) and [domain Trust 👍](<../../../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>).
 
 <br/>
 
@@ -14,8 +14,7 @@ Name: Domain trust
 
 Description: >
   Domains trusted (or not) by this one.
-  NOTE: When a Code is removed from the trusts, domains should explicitly 
-  inform the REVOKE, otherwise it might not be propagated by filters.
+  NOTE: When a Code is removed from the trusts, domains should explicitly inform the REVOKE, otherwise it might not be propagated by filters.
 
 Schema:
   Version: 1.0
