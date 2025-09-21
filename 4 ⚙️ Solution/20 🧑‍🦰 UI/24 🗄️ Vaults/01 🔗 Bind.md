@@ -24,7 +24,27 @@
     <br/>
 
 
-3. **How to bind to a Vault domain with a Wallet app?**
+3. **How to bind to a new simple Vault domain?**
+    
+    Using their [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>):
+    1. a user initiates a [💬 Chat](<../23 💬 Chats/01 💬 Chat.md>) with the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>);
+    2. selects an option that requires a [bind 🔗](<01 🔗 Bind.md>);
+    4. accepts the bind.
+
+    The [💬 Chat](<../23 💬 Chats/01 💬 Chat.md>) may look similar to the following.
+    
+    | Service | Prompt  | User 
+    |-|-|-
+    | 🗄️ Vault | 😃 Hi! What do you need? <br/>- [ Bla ] | > Bla
+    | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Flow: Bla [+] 
+    | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Bind [Yes, No, +]<br/>- [ Schema Code 🧩](<02 🧩 Schema Code.md>) | > Yes 
+    | 🗄️ Vault | ✅ Done! 
+
+
+    ---
+    <br/>
+
+4. **How to bind to an existing Vault domain with a Wallet app?**
     
     Using their [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>):
     1. a user (e.g., Alice) initiates a [💬 Chat](<../23 💬 Chats/01 💬 Chat.md>) with the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>);
@@ -32,25 +52,24 @@
     3. provides the authentication data required by the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) (e.g., login and password);
     4. selects one or more [Schema Codes 🧩](<02 🧩 Schema Code.md>) to [bind 🔗](<01 🔗 Bind.md>) to, from the list of available [Binds 🔗](<01 🔗 Bind.md>) provided to the user by the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).
 
-
     The [💬 Chat](<../23 💬 Chats/01 💬 Chat.md>) may look similar to the following.
     
     | Service | Prompt  | User 
     |-|-|-
     | 🗄️ Vault | 😃 Hi! What do you need? <br/>- [ Bind ] to this Vault <br/>- [ Something else ] | > Bind
-    | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Flow: Bind on app [+] || The [Host 🤗 role](<../23 💬 Chats/03 🤗🎭 Host role.md>) changed the context.
+    | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Flow: Bind on app [+] || The [Host 🤗 role](<../23 💬 Chats/04 🤗🎭 Host role.md>) changed the context.
     | 🗄️ Vault | 😃 Type your Vault ID. | `my-id`
     | 🗄️ Vault | 😃 Type your Secret. | `*******`
-    | 🗄️ Vault | ℹ️ Hi, Alice! [+] || The [Vault 🗄️ role](<03 🗄️🎭 Vault role.md>)  authenticated the user.
+    | 🗄️ Vault | ℹ️ Hi, Alice! [+] |
     | 🗄️ Vault | 😃 What to bind? [All] <br/> - [ [ Schema Code 🧩](<02 🧩 Schema Code.md>) #1 ] <br/> - [ [ Schema Code 🧩](<02 🧩 Schema Code.md>) #2 ] | > All
-    | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Bind [Yes, No, +]<br/>- [ Schema Code 🧩](<02 🧩 Schema Code.md>) #1  <br/> - [Schema Code 🧩](<02 🧩 Schema Code.md>) #2 | > Yes | The [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) protected the user.
+    | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Bind [Yes, No, +]<br/>- [ Schema Code 🧩](<02 🧩 Schema Code.md>) #1  <br/> - [Schema Code 🧩](<02 🧩 Schema Code.md>) #2 | > Yes | 
     | 🗄️ Vault | ✅ Done! [+]
 
 
     ---
     <br/>
 
-2. **How to bind to a Vault domain with a web browser?**
+5. **How to bind to an existing Vault domain with a web browser?**
 
     Using the domain's mobile website or mobile app:
     1. a user (e.g., Alice) initiates a session in the target [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>);
@@ -65,8 +84,8 @@
     |-|-|-
     | | | 🔆 [scan](<../22 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>)
     | 🔎 [Finder](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Vault (4.3 ⭐)  [+] || The [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) informed the user.
-    | 🗄️ Vault | ℹ️ Hi, Alice! Let's bind. || The [Locator 🔆](<../22 🔆 Locators/01 🔆 Locator.md>) had a [Host 🤗](<../23 💬 Chats/03 🤗🎭 Host role.md>)  callback.
-    | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Flow: Web bind [+] || The [Host 🤗 role](<../23 💬 Chats/03 🤗🎭 Host role.md>) changed the context.
+    | 🗄️ Vault | ℹ️ Hi, Alice! Let's bind. || The [Locator 🔆](<../22 🔆 Locators/01 🔆 Locator.md>) had a [Host 🤗](<../23 💬 Chats/04 🤗🎭 Host role.md>)  callback.
+    | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Flow: Web bind [+] || The [Host 🤗 role](<../23 💬 Chats/04 🤗🎭 Host role.md>) changed the context.
     | 🗄️ Vault | 😃 What to bind? [All] <br/> - [ Data Set #1 ] <br/> - [ Data Set #2 ] | > All
     | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Bind [Yes, No, +]<br/>- [ Schema Code 🧩](<02 🧩 Schema Code.md>) #1  <br/> - [Schema Code 🧩](<02 🧩 Schema Code.md>) #2 | > Yes | The [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) protected the user.
     | 🗄️ Vault | ✅ Done! [+]

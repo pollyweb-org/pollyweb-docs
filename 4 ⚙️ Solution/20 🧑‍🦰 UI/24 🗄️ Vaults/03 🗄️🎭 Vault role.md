@@ -157,11 +157,11 @@
 
 12. **How are users protected from stalking from vaults?**
 
-    [Vault 🗄️ domains](<03 🗄️🎭 Vault role.md>) are [Host 🤗 domains](<../23 💬 Chats/03 🤗🎭 Host role.md>) that store user data. 
+    [Vault 🗄️ domains](<03 🗄️🎭 Vault role.md>) are [Host 🤗 domains](<../23 💬 Chats/04 🤗🎭 Host role.md>) that store user data. 
     
-    * When a user [binds 🔗](<01 🔗 Bind.md>) to a [Host 🤗 domain](<../23 💬 Chats/03 🤗🎭 Host role.md>), the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) passes a unique [bind 🔗](<01 🔗 Bind.md>) ID to the [Host 🤗](<../23 💬 Chats/03 🤗🎭 Host role.md>) to be able to identify the user across sessions, turning the [Host 🤗 domain](<../23 💬 Chats/03 🤗🎭 Host role.md>) into a [Vault 🗄️ domain](<03 🗄️🎭 Vault role.md>).
+    * When a user [binds 🔗](<01 🔗 Bind.md>) to a [Host 🤗 domain](<../23 💬 Chats/04 🤗🎭 Host role.md>), the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) passes a unique [bind 🔗](<01 🔗 Bind.md>) ID to the [Host 🤗](<../23 💬 Chats/04 🤗🎭 Host role.md>) to be able to identify the user across sessions, turning the [Host 🤗 domain](<../23 💬 Chats/04 🤗🎭 Host role.md>) into a [Vault 🗄️ domain](<03 🗄️🎭 Vault role.md>).
     
-    * While the [Vault 🗄️ domain](<03 🗄️🎭 Vault role.md>) is now able to track the user across [Chats 💬](<../23 💬 Chats/01 💬 Chat.md>), it cannot track the user across [Host 🤗 domains](<../23 💬 Chats/03 🤗🎭 Host role.md>) because the [Bind 🔗](<01 🔗 Bind.md>) ID is unique for the relationship between that user and that [Host 🤗](<../23 💬 Chats/03 🤗🎭 Host role.md>).
+    * While the [Vault 🗄️ domain](<03 🗄️🎭 Vault role.md>) is now able to track the user across [Chats 💬](<../23 💬 Chats/01 💬 Chat.md>), it cannot track the user across [Host 🤗 domains](<../23 💬 Chats/04 🤗🎭 Host role.md>) because the [Bind 🔗](<01 🔗 Bind.md>) ID is unique for the relationship between that user and that [Host 🤗](<../23 💬 Chats/04 🤗🎭 Host role.md>).
 
     ---
     <br/>

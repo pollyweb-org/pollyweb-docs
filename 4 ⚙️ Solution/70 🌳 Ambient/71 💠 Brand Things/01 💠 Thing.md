@@ -36,7 +36,7 @@
           - e.g.: jewelry, glasses, key holders.
 
     - [**⌚ Tapbands**](<../76 ⌚ Brand Tapbands/01 ⌚💠 Tapband thing.md>): 
-        - besides supporting all features of [Userables 💍](<../74 💍 Brand Userables/01 💍 Userable thing.md>), a [⌚ Tapband](<../76 ⌚ Brand Tapbands/01 ⌚💠 Tapband thing.md>) allow users to also open [Padlocks 🔒](<../75 🔒 Brand Padlocks/01 🔒 Padlock device.md>) while assuring users cannot be traced between interactions with [Host 🤗 domains](<../../20 🧑‍🦰 UI/23 💬 Chats/03 🤗🎭 Host role.md>).
+        - besides supporting all features of [Userables 💍](<../74 💍 Brand Userables/01 💍 Userable thing.md>), a [⌚ Tapband](<../76 ⌚ Brand Tapbands/01 ⌚💠 Tapband thing.md>) allow users to also open [Padlocks 🔒](<../75 🔒 Brand Padlocks/01 🔒 Padlock device.md>) while assuring users cannot be traced between interactions with [Host 🤗 domains](<../../20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>).
 
 
     - [**🤖 Robot specialization**](<../72 🤖 Brand Robots/01 🤖💠 Robot thing.md>): 

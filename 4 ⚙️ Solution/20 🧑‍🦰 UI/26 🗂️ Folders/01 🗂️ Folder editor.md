@@ -84,7 +84,7 @@
     Yes. Options are:
     - Another dataset on the same [Vault 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>).
     - A dataset on another connected [Vault 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>).
-    - A public paid [🪣 Dataset](<../23 💬 Chats/05 🪣🎭 Dataset role.md>) (vaults pay, not editors).
+    - A public paid [🪣 Dataset](<../23 💬 Chats/07 🪣🎭 Dataset role.md>) (vaults pay, not editors).
 
     ---
 
