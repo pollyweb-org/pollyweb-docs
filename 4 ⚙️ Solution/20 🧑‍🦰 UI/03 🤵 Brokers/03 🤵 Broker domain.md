@@ -86,7 +86,7 @@
     |-|-|-
     |🧑‍🦰 Wallets| [📣🚀 Onboard](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/10 🤵🅰️ Wallets 🧑‍🦰/11 📣🚀🤵 Onboard.md>) | Onboards a [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
     |  | [🧑‍🦰🐌 Translate](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/10 🤵🅰️ Wallets 🧑‍🦰/12 🧑‍🦰🐌🤵 Translate.md>) | Translates the content of a [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
-    | 💬 Chats  | [🧑‍🦰🚀🤵 Assess](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/01 🧑‍🦰🚀🤵 Assess.md>)
+    | 💬 Chats  | [🧑‍🦰🚀🤵 Assess](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/01 🧑‍🦰🐌🤵 Assess.md>)
     | | [🧑‍🦰🚀🤵 Chats](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/02 🧑‍🦰🚀🤵 Chats.md>)
     | | [🤗🐌🤵 Prompt](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/03 🤗🐌🤵 Prompt.md>)
     | |[🔎🐌🤵 Introduced](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/04 🔎🐌🤵 Introduced.md>)
