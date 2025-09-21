@@ -13,7 +13,12 @@
 
 
 
-## Steps
+<br/>
+
+## Flow diagram 
+
+![Advertise](<.📎 Assets/⚙️ Advertise.png>)
+
 
 | # | Call | Notes
 |-|-|-
@@ -27,7 +32,3 @@
 | 8 | [🤗⏩🧑‍🦰 Prompt @ Host](<../03 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt.md>) | [Advertisers 👀](<../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) show  next best actions to [Wallets 🧑‍🦰](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
 | 9 | [👀🐌🤵 Promote @ Broker](<../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/06 👀🐌🤵 Promote.md>) | Then ask [Brokers 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) to check-in into any selection
 ||
-
-## Flow diagram 
-
-![Advertise](<.📎 Assets/⚙️ Advertise.png>)

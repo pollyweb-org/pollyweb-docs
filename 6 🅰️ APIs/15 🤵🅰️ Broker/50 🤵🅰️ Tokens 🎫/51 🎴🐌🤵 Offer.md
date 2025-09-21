@@ -5,6 +5,12 @@
 
 # 🎴🐌🤵 Offer @ Broker
 
+> An [Issuer 🎴 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) issues a [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
+
+> Used by [🎴⏩🧑‍🦰 Offer token](<../../../5 ⏩ Flows/06 🎴⏩ Issuers/01 🎴⏩🧑‍🦰 Offer token.md>)
+
+<br/>
+
 ## Async Message 🐌
 
 ```yaml
@@ -35,8 +41,8 @@ Body:
 |Token |`TokenID` |UUID  | [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) ID
 |      |`Code`   |string| [Schema Code 🧩](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) 
 |      |`Version`|string| Schema version|      
-|      |`Issued` |timestamp| When issued
-|      |`Starts` |timestamp| valid from
-|      |`Expires`|timestamp| valid until
+|      |`Issued` |timestamp| When it was issued
+|      |`Starts` |timestamp| Valid from
+|      |`Expires`|timestamp| Valid until
 |      |`QR`     |string| [QR Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>)
 |

@@ -1,16 +1,10 @@
-<!-- #TODO -->
-
-<!-- Docs: -->
-<!-- Code: -->
-<!-- Test: -->
-
-
 # 🤵🐌📣 Prompt @ Notifier
 
-> Domains send prompts for users to read or reply to.
+> [Brokers 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) forward   [Prompts 🤔](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/02 🤔 Prompt.md>) from [Host 🤗 domains](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) to [Notifier 📣 domains](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/02 📣 Notifier domain.md>).
 
-> The response goes directly to the sender.
-
+> Used in:
+> <br/> • [🔎⏩🧑‍🦰 Introduce](<../../../5 ⏩ Flows/07 🔎⏩ Finders/01 🔎⏩🧑‍🦰 Introduce.md>)
+> <br/> • [🤗⏩🧑‍🦰 Prompt](<../../../5 ⏩ Flows/03 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt.md>)
 
 <br/>
 
