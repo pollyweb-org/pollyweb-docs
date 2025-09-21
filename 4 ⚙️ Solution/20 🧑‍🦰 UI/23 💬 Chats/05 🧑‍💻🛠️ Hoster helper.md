@@ -129,7 +129,7 @@
     | [🛠️ Helpers](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>)  | YAML | Required [Helper 🛠️ domains](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>).
     | [📜 Manifest](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) | YAML | Public information about the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).
     | 🔆 [Locators](<../22 🔆 Locators/01 🔆 Locator.md>) | YAML | Mapping of [Locators 🔆](<../22 🔆 Locators/01 🔆 Locator.md>) to Talkers
-    | 😃 Talkers | Folder | Tree of [💬 Chat](<01 💬 Chat.md>) scripts by [Locator 🔆](<../../20 🧑‍🦰 ../22 🔆 Locators/01 🔆 Locator.md
+    | [😃 Talkers](<03 😃 Talker.md>) | Folder | Tree of [💬 Chat](<01 💬 Chat.md>) scripts by [Locator 🔆](<../../20 🧑‍🦰 ../22 🔆 Locators/01 🔆 Locator.md
 
 
     ---
@@ -231,7 +231,7 @@
 
 1. **What does the Locators file looks like?**
 
-    The `🔆 Locators.yaml` file contains the mapping of [Locators 🔆](<../22 🔆 Locators/01 🔆 Locator.md>) to Talkers.
+    The `🔆 Locators.yaml` file contains the mapping of [Locators 🔆](<../22 🔆 Locators/01 🔆 Locator.md>) to [Talkers 😃](<03 😃 Talker.md>).
 
     ```yaml
     🤝: nlweb.org/HOSTER/LOCATORS
@@ -244,10 +244,13 @@
     ```  
 
 
-    The Talker files reside under the Talkers folder.
+    The [Talkers 😃](<03 😃 Talker.md>) files reside under the [Talkers 😃](<03 😃 Talker.md>) folder.
 
     ```yaml
     😃 Talkers/ # Tree of talkers
     ├─ 😃 talker-1.yaml
     └─ 😃 talker-2.yaml
     ```
+
+    ---
+    <br/>
