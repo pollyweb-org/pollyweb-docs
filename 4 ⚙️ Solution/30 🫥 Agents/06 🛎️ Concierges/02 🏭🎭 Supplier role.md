@@ -33,21 +33,21 @@
 
 3. **What are examples of order requesters?**
 
-    * When users have tasks to complete, [Concierge 🛎️ domains](<01 🛎️🫥 Concierge agent.md>) send order requests to Suppliers 🏭 for them to perform steps in those tasks.
+    * When users have tasks to complete, [Concierge 🛎️ domains](<01 🛎️🫥 Concierge agent.md>) send order requests to [Supplier 🏭 domains](<02 🏭🎭 Supplier role.md>) for them to perform steps in those tasks.
 
     ---
     <br/>
 
 4. **How many responses are expected per order?**
 
-    A request to a Supplier 🏭 will receive one or more asynchronous updated events.
+    A request to a [Supplier 🏭 domain](<02 🏭🎭 Supplier role.md>) will receive one or more asynchronous updated events.
 
     ---
     <br/>
 
 5. **Are order rejections synchronous?**
 
-    No. Adding an order to a Supplier 🏭 doesn't return a synchronous response.
+    No. Adding an order to a [Supplier 🏭 domain](<02 🏭🎭 Supplier role.md>) doesn't return a synchronous response.
 
     ---
     <br/>
@@ -61,21 +61,21 @@
 
 7. **Can Suppliers use other Suppliers for sub tasks?**
 
-    Yes, Supplier 🏭 can use other sub-Suppliers if they want to - there's no restriction to do so.
+    Yes, [Supplier 🏭 domains](<02 🏭🎭 Supplier role.md>) can use other sub-Suppliers if they want to - there's no restriction to do so.
 
     ---
     <br/>
 
 8. **Can requesters know about the details of sub-Suppliers?**
 
-    No. Requesters send order requests to Suppliers 🏭 but don't know which sub-Suppliers they speak with.
+    No. Requesters send order requests to [Supplier 🏭 domains](<02 🏭🎭 Supplier role.md>) but don't know which sub-Suppliers they speak with.
 
     ---
     <br/>
 
 9.  **How can Suppliers be implemented?**
 
-    Suppliers 🏭 will typically:
+    [Supplier 🏭 domains](<02 🏭🎭 Supplier role.md>) will typically:
     - use LLMs to understand requests in natural language;
     - use Agentic AI to orchestrate and execute the requests;
     - use crowd sourcing platforms like Amazon Mechanical Turk and Task Rabbit.

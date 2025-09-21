@@ -1,11 +1,33 @@
+# 👥🐌🏭 Order @ Supplier
+
 <!-- #TODO -->
 
 <!-- Docs: -->
-<!-- Code: -->
+<!-- Code: https://github.com/jorgemjfonseca/domain-trust-framework/blob/482a44e4f22df82cf524f20278d6e1883146de79/python/suppliers/supplier/SUPPLIER.py#L39 --> 
 <!-- Test: -->
 
 
+## Async Message 🐌
 
-|Property|Type|Description
-|-|-|-
+```yaml
+Header:
+    From: any-domain.com
+    To: any-supplier.com
+    Subject: Order@Supplier
+Body:
+    OrderID: <order-uuid>
+    ItemCode: nlweb.org/PRINTER/ORDER/ITEM
+    Items: 
+        - {item-1}
+        - {item-2}
+```
+
+|Object|Property|Type|Description
+|-|-|-|-
+|Header |`From`     | string | Caller [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) name
+|       |`To`       | string | [Supplier 🏭 domain](<../../4 ⚙️ Solution/30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>)
+|       |`Subject`  | string | `Order @ Supplier`
+|Body   |`OrderID`  | UUID   | ID of the order on the  Caller [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>)
+|       | `ItemCode`| string | [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) of the items
+||
 
