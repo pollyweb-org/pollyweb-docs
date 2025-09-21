@@ -128,8 +128,8 @@
     | 📤 Outbound | YAML | Message outbound configuration.
     | [🛠️ Helpers](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>)  | YAML | Required [Helper 🛠️ domains](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>).
     | [📜 Manifest](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) | YAML | Public information about the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).
-    | 🔆 [Locators](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) | YAML | Mapping of [Locators 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) to Talkers
-    | 😃 Talkers | Folder | Tree of [💬 Chat](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) scripts by [Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>)
+    | 🔆 [Locators](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) | YAML | Mapping of [Locators 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) to [Talkers 😃](<03 😃 Talker.md>)
+    | 😃 [Talkers](<03 😃 Talker.md>) | Folder | Tree of [💬 Chat](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) scripts by [Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>)
 
 
     ---
@@ -231,7 +231,7 @@
 
 1. **What does the Locators file looks like?**
 
-    The `🔆 Locators.yaml` file contains the mapping of [Locators 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) to Talkers.
+    The `🔆 Locators.yaml` file contains the mapping of [Locators 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) to [Talkers 😃](<03 😃 Talker.md>).
 
     ```yaml
     🤝: nlweb.org/HOSTER/LOCATORS
@@ -244,7 +244,7 @@
     ```  
 
 
-    The Talker files reside under the Talkers folder.
+    The [Talker 😃](<03 😃 Talker.md>) files reside under the `Talkers/` folder.
 
     ```yaml
     😃 Talkers/ # Tree of talkers

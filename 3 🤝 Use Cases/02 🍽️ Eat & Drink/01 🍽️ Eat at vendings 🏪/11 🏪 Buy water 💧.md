@@ -1,6 +1,27 @@
 Get water on a vending machine 💧
 ---
 
+> Referenced by [🍽️ Eat at vending machines 🏪](<01 🏪 Index.md>)
+
+<br/>
+
+## [😃 Talker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 😃 Talker.md>)
+
+```yaml
+
+💬|[Buy] an item:
+- INT|What's the item number?
+- CONFIRM|{confirm}
+- CHARGE|{amount}
+- SUCCESS|Thanks! Pick up your item.
+- GOODBYE
+
+```
+
+<br/>
+
+## [💬 Chat](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>)
+
 | Service    | Prompt | User
 | - | - | - |
 | | | 🔆 [tap](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>)
@@ -15,7 +36,3 @@ Get water on a vending machine 💧
 | [👀 Ads](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) | ⓘ Explore follow-ups: <br/>- [ 🛍️ Reusable bottles at Greg's ] 
 ||
 
-
-#### References
-
-- [🍽️ Eat at vending machines 🏪](<01 🏪 Index.md>)
