@@ -237,6 +237,8 @@
     🤝: nlweb.org/HOSTER/LOCATORS
 
     Locators:
+        default: # if no Host Locator is provided.
+            Talker: talker-1
         locator-1:
             Talker: talker-1
         locator-2:
