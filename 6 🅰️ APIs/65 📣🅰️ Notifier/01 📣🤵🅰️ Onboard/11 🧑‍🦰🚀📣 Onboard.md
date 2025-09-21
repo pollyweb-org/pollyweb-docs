@@ -9,8 +9,9 @@
 
 > The new Wallet app asks the [Notifier 📣 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/02 📣 Notifier domain.md>) to onboard.
 
-> Used in:
-> <br/>• [Onboard 🧑‍🦰👉🤵](<../../../5 ⏩ Flows/02 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/11 🧑‍🦰👉🤵 Onboard.md>) to register the channel between the Notifier and the Wallet (e.g., sockets)
+> Used in [Onboard 🧑‍🦰👉🤵](<../../../5 ⏩ Flows/02 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/11 🧑‍🦰👉🤵 Onboard.md>) to register the channel between the Notifier domain and the Wallet apps (e.g., sockets). 
+ 
+> Should for the notifications to start working before allowing the user to fully use the app.
 
 <br/>
 
