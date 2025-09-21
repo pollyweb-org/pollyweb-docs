@@ -1,7 +1,6 @@
 🧩 Schema Codes FAQ
 ===
 
-![](<.📎 Assets/🗄️ Schema Manifest.png>)
 
 1. **How do domains validate the structure of messages?**
 
@@ -15,16 +14,43 @@
 
     ---
 
-2. **Are there any pre-defined Schema Codes?**
+2. **What does it mean when a YAML content starts with 🤝?**
+
+    When YAML starts with `🤝: {domain}/[{path}/]{code}[:{version}]`,
+    * e.g., `🤝: nlweb.org/MANIFEST/CODE`
+    * it means that the following YAML content should comply with the given [Schema Code 🧩](<02 🧩 Schema Code.md>) defined.
+    * This allows readers to validate the YAML content by pulling the validation schema from [Schema @ Graph](<../../../6 🅰️ APIs/08 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>).
+    
+    ---
+
+3. **How do define a Schema in a Manifest?**
+
+    The instructions on how to add a [Schema Code 🧩](<02 🧩 Schema Code.md>) to a [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) are themselves published as special [Schema Codes 🧩](<02 🧩 Schema Code.md>):
+
+    | Schema | Description
+    |-|-
+    | [`nlweb.org/MANIFEST/CODE 🧩`](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 ManifestCode.md>) | CODE properties.
+    | [`nlweb.org/MANIFEST/CODE/SCHEMA 🧩`](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 ManifestCodeSchema.md>) | CODE/SCHEMA properties.
+    | [`nlweb.org/MANIFEST/DELEGATE 🧩`](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 ManifestDelegate.md>) | Delegation to other [Authorities 🏛️](<../../40 👥 Domains/43 👍 Trusts/02 🏛️🛠️ Authority helper.md>).
+    | [`nlweb.org/TYPES 🧩`](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/TYPES/🧩 Types.md>) | Generic referenceable types.
+
+    ---
+    <br/>
+
+4. **Are there any pre-defined Schema Codes?**
 
     Yes. 
     - The NLWeb protocol is supported by a set of [Schema Codes 🧩](<02 🧩 Schema Code.md>) defined in the `nlweb.org` [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>). 
     
     - This high-level manifest includes the schema definition for all communications explicitly supported by the core NLWeb protocol, but also a set of auxiliary schemas used to implement various business use cases. 
 
+    Examples include.
+
+    * 
+
     ---
 
-3. **Is the NLWeb manifest a single point of failure?**
+5. **Is the NLWeb manifest a single point of failure?**
 
     No. 
     - Domains don't need `nlweb.org` to be online to access its [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) (nor the Manifest of any other domain, for that matter).

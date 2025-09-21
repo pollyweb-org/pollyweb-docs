@@ -3,7 +3,7 @@
 
 > Inherits from [nlweb.org/ORG 🧩](<../QR/🧩 QR.md>)
 
-> Used by [Printer 🖨️ domain](<../../4 ⚙️ Solution/70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>)
+> Used by [Printer 🖨️ domain](<../../../../4 ⚙️ Solution/70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>)
 
 <br/>
 
