@@ -1,7 +1,7 @@
 
 # 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): Host
 
-> Inherits from [nlweb.org/ORG 🧩](<../QR/🧩 QR.md>)
+> Inherits from [`nlweb.org/LOCATOR` 🧩](<../LOCATOR/Locator.md>)
 
 > Used by [Printer 🖨️ domain](<../../../../4 ⚙️ Solution/70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>)
 
@@ -11,10 +11,10 @@
 🤝: nlweb.org/MANIFEST/CODE
 
 Path: /HOST
-Description: QR of a Host.
+Description: Locator of a Host.
 
 References: 
   NLWEB: 🤗 https://quip.com/vBozACklb4aw/-HostNLWEBorg
 
 Schema:
-  Inherits: nlweb.org/QR:1.0
+  Inherits: nlweb.org/LOCATOR:1.0

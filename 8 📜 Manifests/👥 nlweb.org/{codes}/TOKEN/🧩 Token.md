@@ -15,7 +15,7 @@ Description: >
 Schemas:
   Output: QR
   Version: 1.0
-  Inherits: nlweb.org/QR:1.0
+  Inherits: nlweb.org/LOCATOR:1.0
 
   Properties:
     - Issued   #date
