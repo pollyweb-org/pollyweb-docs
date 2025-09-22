@@ -12,11 +12,17 @@
     ---
     <br/>
 
-1. **What are examples for Schema Codes?**
+1. **What are examples of Schema Codes?**
+
+    ⓘ Note: the following examples use fictitious domains.
 
     | Schema Code | Purpose |
     |-|-
-    | `unicode.any-igo.org/FLAG 🧩` | Flags for country [Prompts 🤔](<../23 💬 Chats/02 🤔 Prompt.md>).
+    | [`nlweb.org/MSG 🧩`](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MSG/🧩 Mgs.md>) | Schema of [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) 
+    | [`nlweb.org/TOKEN 🧩`](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/TOKEN/🧩 Token.md>) | Schema of [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>)
+    | [`unicode.org/FLAG 🧩`](<../../../8 📜 Manifests/👥 any-igo.org/📜 unicode.any-igo.org.md>) | Flags for country [Prompts 🤔](<../23 💬 Chats/02 🤔 Prompt.md>)
+    | [`locale.org/TERRITORY 🧩`](<../../../8 📜 Manifests/👥 any-igo.org/📜 locale.any-igo.org.md>) | Country names for [Prompts 🤔](<../23 💬 Chats/02 🤔 Prompt.md>)
+    | [`standards.org/639-1 🧩`](<../../../8 📜 Manifests/👥 any-igo.org/📜 standards.any-igo.org.md>) | Language codes (e.g., `en-us`)
 
     ---
     <br/>

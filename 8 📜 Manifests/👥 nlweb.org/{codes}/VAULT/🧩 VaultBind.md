@@ -6,9 +6,6 @@
 Path: /VAULT/BIND
 Name: Vault Registration
 
-Resources:
-  NLWEBB: 🗄️ https://quip.com/IZapAfPZPnOD
-
 Description: >
   Allows wallets to register on vaults.
   * 1. Vaults offer this bindable code for wallets;
