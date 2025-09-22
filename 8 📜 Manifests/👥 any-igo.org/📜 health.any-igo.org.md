@@ -15,8 +15,7 @@ Codes:
   # Vaccination dose certificate
   - Path: /DOSE
     Schemas:
-      - Output: SHARE
-        Version: 1.0
+      - Version: 1.0
         Inherits: nlweb.org/TOKEN:1.0
         Properties:
           - purpose   # ex. COVID
@@ -32,8 +31,7 @@ Codes:
   # Test certificate
   - Path: /TEST
     Schemas:
-      - Output: SHARE
-        Version: 1.0
+      - Version: 1.0
         Inherits: nlweb.org/TOKEN:1.0
         Properties:
           - purpose    # ex. COVID
@@ -58,8 +56,7 @@ Codes:
       - Language: pt-br
         Translation: Vacina COVID
     Schemas:
-      - Output: SHARE
-        Version: 1.0
+      - Version: 1.0
         Inherits: health.any-igo.org/DOSE:1.0
         
         
@@ -70,7 +67,5 @@ Codes:
       - Language: pt-br
         Translation: Teste COVID
     Schemas:
-      - Output: SHARE
-        Version: 1.0
-        Inherits: health.any-igo.org/TEST:1.0
+      - Inherits: health.any-igo.org/TEST:1.0
         

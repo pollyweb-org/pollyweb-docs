@@ -12,7 +12,6 @@ Translations:
     Translation: Armazem
 
 Schema:
-  Output: SHARE
   Location: https://en.wikipedia.org/wiki/Domain_name
   Format:
     type: string

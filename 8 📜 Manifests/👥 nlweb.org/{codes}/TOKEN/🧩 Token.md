@@ -13,7 +13,6 @@ Description: >
   The * can be replaced by schemas that inherit this.  
 
 Schemas:
-  Output: QR
   Version: 1.0
   Inherits: nlweb.org/LOCATOR:1.0
 

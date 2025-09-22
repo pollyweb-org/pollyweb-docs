@@ -50,14 +50,10 @@ Codes:
         Translation: Wheelchair for ramp
         
     Schemas:
-      - Output: SHARE
-        Version: '1.2'
-        Location: https://airlines.any-igo.org/nlweb/schemas/SSR-WCHR.json
-        
-      - Output: QR
-        Version: 1.0
+      - Version: 1.0
         Inherits: nlweb.org/TOKEN:1.0
         Format: IsElectric, Size, NeedsAssistant, DateOfBirth
+        Location: https://airlines.any-igo.org/nlweb/schemas/SSR-WCHR.json
 ```
 
 ```yaml

@@ -18,7 +18,6 @@ Schema:
   Version: 1.0
   
   Properties:
-    - Output        # intent: SHARE|QR (enum)
     - Version       # Version of the schema as "major/breaks.minor/safe" (string)
     - Attributes    # Optional human readable list of attributes (array)
     - Inherits      # Optional inheritance for QR codes
@@ -30,12 +29,6 @@ Schema:
     type: object
     required: []
     properties:
-
-      Output:
-        enum: [SHARE, QR]
-        description: >
-          SHARE: the code is used to be shared between vaults and consumers.
-          QR: the code is used for host check-ins it for offline tokens.
 
       Version:
         type: string

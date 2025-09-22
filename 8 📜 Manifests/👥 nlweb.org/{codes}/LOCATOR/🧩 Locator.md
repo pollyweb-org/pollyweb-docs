@@ -4,7 +4,7 @@
 > Inherited by:
 > <br/>• [`nlweb/TOKEN 🧩`](<../TOKEN/🧩 Token.md>)
 > <br/>• [`nlweb/HOST 🧩`](<../HOST/🧩 Host.md>)
-> <br/>• [Alias](<../../🧩 Alias.md>)
+> <br/>• [`nlweb/ALIAS  🧩`](<../../🧩 Alias.md>)
 
 <br/>
 
@@ -14,12 +14,11 @@
 Path: /LOCATOR
 
 Schema:
-  Output: Locator
   Version: 1.0
   
   Properties:
-    - Code     # e.g., airlines.any-igo.org/SSR/WCHR/CRED:1.0
-    - Issuer   # ex. health.any-nation.org
+    - Code      # e.g., airlines.any-igo.org/SSR/WCHR/CRED:1.0
+    - Domain    # ex. health.any-nation.org
     - Resource  # ex. ANY-RESOURCE-KEY
     - '*'
 
@@ -31,10 +30,10 @@ Schema:
         type: string
         title: A Schema Code.
 
-      Issuer:
+      Domain:
         type: string
-        title: Domain that issued the QR.
+        title: Domain that holds the resource.
 
       Resource:
         type: string
-        title: Unique index of a resource in the context of the issuer.
+        title: Unique index of a resource in the context of the domain.

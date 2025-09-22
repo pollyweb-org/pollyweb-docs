@@ -42,8 +42,7 @@ Codes:
     Name: Disability Card
         
     Schemas:
-      - Output: QR
-        Version: 1.0
+      - Version: 1.0
         Inherits: nlweb.org/TOKEN:1.0
         Format: Name, Surname, DateOfBirth, SerialNumber
  
