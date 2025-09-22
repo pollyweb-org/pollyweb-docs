@@ -1,5 +1,9 @@
 
 # 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): Mgs
+
+> Schema of a [domain Message 📨](<../../../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>)
+
+
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 

@@ -1,5 +1,8 @@
 
 # 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): HostOrderSelf
+
+> Inherits from [`nlweb.org/TOKEN 🧩`](<../TOKEN/🧩 Token.md>)
+
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 
