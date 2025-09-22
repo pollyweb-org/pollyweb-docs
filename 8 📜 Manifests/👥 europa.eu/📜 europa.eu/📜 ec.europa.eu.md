@@ -2,14 +2,17 @@
 # 📜 [Manifest](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>): ec.europa.eu
 <!--# 🇪🇺 https://quip.com/bBbpAAGfOCIz/-Europaeu-->
 
+> Inherits from [`nlweb.org/TOKEN 🧩`](<../../👥 nlweb.org/{codes}/TOKEN/🧩 Token.md>)
+
 ```yaml
 🤝: nlweb.org/MANIFEST
 
 Identity:
   Domain: ec.europa.eu
   Name: European Commission
-              
-
+```       
+       
+```yaml
 Trusts:   
 
   # Protect from malicious domains. 
@@ -28,8 +31,9 @@ Trusts:
     Query: europa.eu/DISABILITY/CARD
     Domains: 
       - airlines.any-igo.org     # Any IGO Airlines
-    
+```    
 
+```yaml
 Codes:
 
   # Regulate the Disability Card on behalf of the European Union.

@@ -231,17 +231,19 @@
 
 1. **What does the Locators file looks like?**
 
-    The `🔆 Locators.yaml` file contains the mapping of [Locators 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) to [Talkers 😃](<03 😃 Talker.md>).
+    The `🔆 Locators.yaml` file contains the mapping of [Locator 🔆 resources](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) to [Talkers 😃](<03 😃 Talker.md>).
+
+    * Note: only the `resource` part of each [Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) is required.
 
     ```yaml
     🤝: nlweb.org/HOSTER/LOCATORS
 
     Locators:
-        default: # if no Host Locator is provided.
+        _default: # if no Host Locator is provided.
             Talker: talker-1
-        locator-1:
+        resource-1:
             Talker: talker-1
-        locator-2:
+        resource-2:
             Talker: talker-2
     ```  
 
@@ -253,3 +255,6 @@
     ├─ 😃 talker-1.yaml
     └─ 😃 talker-2.yaml
     ```
+    
+    ---
+    <br/>

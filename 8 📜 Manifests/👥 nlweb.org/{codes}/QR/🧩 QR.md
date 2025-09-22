@@ -22,11 +22,11 @@ Schema:
 
       Code:
         type: string
-        title: A Schema Code, as defined in .
+        title: A Schema Code.
 
       Issuer:
         type: string
-        title: Domain that issued the QR
+        title: Domain that issued the QR.
 
       Resource:
         type: string

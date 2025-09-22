@@ -19,8 +19,8 @@ Header:
     Subject: Bindable@Broker
 Body:
     ChatID: <chat-uuid>
-    Codes:
-      - Code: any-authority.org/ANY-CODE
+    Codes: 
+      - any-authority.org/ANY-CODE
 ```
 
 | Object | Property | Type  | Description
