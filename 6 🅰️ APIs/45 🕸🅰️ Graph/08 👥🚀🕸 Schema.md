@@ -20,8 +20,7 @@ Header:
     Subject: Schema@Graph
 
 Body:
-    Code: iata.org/SSR/WCHR
-    Version: 2.1
+    Code: iata.org/SSR/WCHR:2.1
 ```
 
 |Object|Property|Type|Description
@@ -30,7 +29,6 @@ Body:
 |       | `To`      | string | [Graph 🕸 domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>) name
 |       | `Subject` | string | `Schema@Graph`
 | Body  | `Code`    | string | [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)
-|       | `Version` | string | Schema version, of the latest if empty.
 |
 
 

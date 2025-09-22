@@ -19,7 +19,7 @@ Header:
     To: any-broker.com
     Subject: Assess@Broker
 Body:
-    Locator: nlweb.org/QR,1,any-printer.com,7V8KD3G
+    Locator: nlweb.org/QR:1.0,any-printer.com,7V8KD3G
 ```
 
 |Object|Property|Type|Description

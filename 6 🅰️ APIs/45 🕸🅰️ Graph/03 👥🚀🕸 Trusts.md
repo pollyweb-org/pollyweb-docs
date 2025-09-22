@@ -1,4 +1,3 @@
-<!-- #TODO -->
 
 <!-- Docs: https://quip.com/hgz4A3clvOes#temp:C:bDA71b470c7a4c446e5b43adea7e -->
 <!-- Code: https://github.com/jorgemjfonseca/domain-trust-framework/blob/9a3c5abe16dda8cbacd2529bc859fd9d708f85d9/python/backbone/graph/GRAPH.py#L279 -->
@@ -7,9 +6,13 @@
 
 > Verifies if there’s a path of [Trust 👍](<../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) between two [domains 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) regarding a [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>).
 
+
+> Used in [💼⏩🧑‍🦰 Query token](<../../5 ⏩ Flows/04 💼⏩ Consumers/03 💼⏩🧑‍🦰 Query token.md>)
+
 > Similar as [Trusted@Graph](<02 👥🚀🕸 Trusted.md>), but for verification by another [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).
 
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
+
 
 <br/>
 

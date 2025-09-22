@@ -5,14 +5,29 @@
 
     In NLWeb, non-humans (e.g., organizations, places, objects, animals) are represented by a [Locator 🔆](<01 🔆 Locator.md>). 
     * An NLWeb [Locator 🔆](<01 🔆 Locator.md>) is a string contained in a [QR code ✨](<03 🧑‍🦰✨ Wallet QR scan.md>), [NFC tag 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>), [Web link 🌐](<02 🧑‍🦰🌐 Wallet URLs.md>), or [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>) option.
-    * Example: `nlweb.org/QR,1,any-printer.com,7V8KD3G`
     * Users can [tap 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>), [scan ✨](<03 🧑‍🦰✨ Wallet QR scan.md>), [select 💬](<../23 💬 Chats/01 💬 Chat.md>), or [click 🌐](<02 🧑‍🦰🌐 Wallet URLs.md>) Locators 🔆 to open a [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>) with the [Locator's Host 🤗 domain](<../23 💬 Chats/04 🤗🎭 Host role.md>).
 
     ---
     <br/>
     
 
-2. **How can users interact with Locators?**
+3. **What data is contained in a Locator?**
+
+    A [Locator 🔆](<01 🔆 Locator.md>) is a string 
+    * formatted as `{schema code},{host domain},{resource}[,{parameters}]`
+    * e.g.: `nlweb.org/QR:1.2,any-printer.com,7V8KD3G`
+
+    |Part| Example | Purpose
+    |-|-|-
+    | [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) | `nlweb.org/QR:1.0` | To validate the schema with a [Graph 🕸 helper domain](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>).
+    | [Host 🤗 domain](<../23 💬 Chats/04 🤗🎭 Host role.md>) | `any-host.com` | For the user's [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to open a [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>).
+    | Resource | `product-1234` | The resource key in the Host's domain |  `product-1234` |
+    | Parameters | `A=1,B=2` | any optional data fields.
+
+    ---
+    <br/>
+
+4. **How can users interact with Locators?**
 
     ![](<.📎 Assets/🔆 Locators.png>)
     
@@ -37,18 +52,6 @@
     <br/>
 
 
-3. **What data is contained in a Locator?**
-
-    A [Locator 🔆](<01 🔆 Locator.md>) contains.
-    |Part| Example | Purpose
-    |-|-|-
-    | [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) | `nlweb.org/QR:1.0` | To validate the schema with a [Graph 🕸 helper domain](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>).
-    | [Host 🤗 domain](<../23 💬 Chats/04 🤗🎭 Host role.md>) | `any-host.com` | For the user's [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to open a [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>).
-    | Resource | `product-1234` | The resource key in the Host's domain |  `product-1234` |
-    | Parameters | `A=1,B=2` | any optional data fields.
-
-    ---
-    <br/>
 
 2. **Can Locators be forged?**
 

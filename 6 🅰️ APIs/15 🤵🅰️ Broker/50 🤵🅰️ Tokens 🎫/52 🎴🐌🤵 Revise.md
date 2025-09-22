@@ -20,6 +20,10 @@ Header:
 Body:
     ChatID: <session-uuid>
     TokenID: <token-uuid>
+    Action: SUSPEND
+    Starting: 2025-10-10T13:45:00.000Z
+    Ending: 2025-12-31T00:00:00.000Z
+    Locator: <reference-uuid>
 ```
 
 |Object|Property|Type|Description
@@ -29,4 +33,8 @@ Body:
 | |`Subject`|string|`Revoke@Broker`
 |Body|`ChatID`|string|[Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) ID
 | |`TokenID`|string|[Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) ID
+| |`Action`| enum | `REVOKE` `SUSPEND` `ACTIVATE` `UPDATE`
+| |`Starting`| timestamp | Start date and time
+| |`Ending` | timestamp | Finish date and time (optional)
+| |`Locator`| string | Locator to allow the user to start a Chat with a host about it.
 |
