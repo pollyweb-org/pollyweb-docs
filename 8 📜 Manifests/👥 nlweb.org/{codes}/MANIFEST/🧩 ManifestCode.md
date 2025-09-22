@@ -16,7 +16,7 @@ Schema:
 
   Properties:
     - Path          # Relative path of the code or group - e.g., /PROFILE (string)
-    - Delegator     # OPtional domain of the domain that delegated the code (string)
+    - Delegator     # Optional domain of the domain that delegated the code (string)
     - Description   # Human readable Description of the code (string)
     - Name          # Human readable name of the code (string)
     - Resources     # Dictionary of external resources

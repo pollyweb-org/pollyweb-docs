@@ -9,8 +9,6 @@ Description: >
   Message sent by broker, informing that the wallet has accepted a bind
   offered by the vault within the current session.
 
-References:
-  NLWEB: 🗄️ https://quip.com/IZapAfPZPnOD
 
 Schema: 
 

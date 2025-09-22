@@ -13,7 +13,7 @@ Schema:
     - Header:     # Meta information.
       - From        # Domain that sent the message (except if sent by a wallet).
       - To          # Destination domain name.
-      - Subject     # Method to be called at the destination, tipically <method>@<role>.
+      - Subject     # Method to be called at the destination, typically <method>@<role>.
       - Correlation # Unique request ID from the sender, for deduping.
       - Timestamp   # Date-time when the message was sent, in UTC.
       - Schema      # Optional schema of the header, e.g. any-domain.com/any-request:1.0
@@ -36,7 +36,7 @@ Schema:
             format: hostname
             example: any-domain.com
             description: >
-              Tipically, the domain that sent the message, except if sent by a wallet.
+              Typically, the domain that sent the message, except if sent by a wallet.
               Wallets either: 
                 a) send their WalletID to brokers and notifiers, or
                 b) sent their brokers domain to everyone else.
@@ -52,7 +52,7 @@ Schema:
             example: CheckIn@Broker
             description: >
               Method to be called at the destination domain.
-              Tipically formatted as <method>@<role>.
+              Typically formatted as <method>@<role>.
               
           Correlation:
             type: string
