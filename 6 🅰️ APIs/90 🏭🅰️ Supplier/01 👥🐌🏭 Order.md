@@ -18,8 +18,8 @@ Body:
     OrderID: <order-uuid>
     ItemCode: nlweb.org/PRINTER/ORDER/ITEM
     Items: 
-        - {item-1}
-        - {item-2}
+      - {item-1}
+      - {item-2}
 ```
 
 |Object|Property|Type|Description

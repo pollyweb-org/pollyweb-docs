@@ -11,4 +11,4 @@ References:
   NLWEB: https://quip.com/aFtfA9e0CqQX/-ExchangeNLWEBorg
 
 Schema:
-  Inherits: nlweb.org/QR:1.0      
+  Inherits: nlweb.org/LOCATOR:1.0      

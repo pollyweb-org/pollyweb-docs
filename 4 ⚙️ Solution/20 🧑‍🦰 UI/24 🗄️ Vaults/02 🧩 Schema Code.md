@@ -192,3 +192,12 @@
     - NLWeb advocates for human readability, with YAML format allowing comments and being closer to structured natural language in this context.
 
     ---
+
+1. **How can a schema reference another?**
+
+    It depends if its a QR or a SHARE schema as defined in [text](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 Manifest.md>)
+
+    |Output| Behavior
+    |-|-
+    | QR | One schema inherits another, and expands its properties.
+    | SHARE | One schema references the properties of others.

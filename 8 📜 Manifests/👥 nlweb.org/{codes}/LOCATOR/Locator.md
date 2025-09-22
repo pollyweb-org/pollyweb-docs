@@ -1,13 +1,20 @@
 
-# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): QR
+# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): Locator
+
+> Inherited by:
+> <br/>• [`nlweb/TOKEN 🧩`](<../TOKEN/🧩 Token.md>)
+> <br/>• [`nlweb/HOST 🧩`](<../HOST/🧩 Host.md>)
+> <br/>• [Alias](<../../🧩 Alias.md>)
+
+<br/>
 
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 
-Path: /QR
+Path: /LOCATOR
 
 Schema:
-  Output: QR
+  Output: Locator
   Version: 1.0
   
   Properties:
