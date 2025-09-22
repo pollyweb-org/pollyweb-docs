@@ -13,7 +13,6 @@ Description: >
 
 Schema:
   Version: 1.0
-  Output: SHARE
 
   Properties:
     - Over21   

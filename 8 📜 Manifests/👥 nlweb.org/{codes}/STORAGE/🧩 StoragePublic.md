@@ -12,4 +12,4 @@ Translations:
     Translation: Itens publicos
 
 Schema:
-  Output: SHARE
+  

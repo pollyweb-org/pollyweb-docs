@@ -16,7 +16,6 @@ Translations:
     
 Schema:
   Version: 1.0
-  Output: SHARE
   Location: https://en.wikipedia.org/wiki/Domain_name
   Format: 
     type: string

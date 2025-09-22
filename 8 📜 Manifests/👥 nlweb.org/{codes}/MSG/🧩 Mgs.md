@@ -10,7 +10,6 @@
 Path: /MSG
 
 Schema: 
-  Output: SHARE
   Version: 1.0
   
   Properties: 

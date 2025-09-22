@@ -12,7 +12,6 @@ Description: >
 
 Schema:
   Version: 1.0
-  Output: SHARE
 
   Properties:
     - OrderID   # Return of Order@Selfie(Pictures:list[str])

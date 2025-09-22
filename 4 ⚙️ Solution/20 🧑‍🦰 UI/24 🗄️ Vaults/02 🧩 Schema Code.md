@@ -193,11 +193,31 @@
 
     ---
 
-1. **How can a schema reference another?**
 
-    It depends if its a QR or a SHARE schema as defined in [text](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 Manifest.md>)
+1. **Can a schema inherit another?**
+
+    Consider [`nlweb.org/LOCATOR 🧩`](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/LOCATOR/🧩 Locator.md>)
+    * who defines properties `Code`, `Domain`, `Resource`.
+  
+    It is inherited by [`nlweb.org/TOKEN 🧩`](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/TOKEN/🧩 Token.md>)
+    * who adds properties `Issued`, `Starts`, `Expires`, `Signature`.
+    
+    Then inherited by [`nlweb.org//HOST/BOOKING 🧩`](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/HOST/🧩 HostBooking.md>)
+    - who adds properties `For`, `Time`, `Place`, `Seat`, `Latitude`, `Longitude`.
+    
+    ---
+    <br/>
+
+
+1. **Can a schema reference another?**
+
+    It depends if its a QR or a SHARE schema,
+    * as defined in [`nlweb.org/MANIFEST/CODE/SCHEMA 🧩`](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 ManifestCodeSchema.md>)
 
     |Output| Behavior
     |-|-
     | QR | One schema inherits another, and expands its properties.
     | SHARE | One schema references the properties of others.
+
+    ---
+    <br/>

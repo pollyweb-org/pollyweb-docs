@@ -24,8 +24,7 @@ Codes:
       - Language: pt-br
         Translation: Passaporte
     Schemas:
-      - Output: SHARE
-        Version: 1.0
+      - Version: 1.0
         Location: https://en.wikipedia.org/wiki/Machine-readable_passport
         Properties: 
           - type        # for countries that distinguish between different types of passports
@@ -52,8 +51,7 @@ Codes:
       - Language: pt-br
         Translation: Nacionalidade
     Schemas:
-      - Output: SHARE
-        Version: 1.0
+      - Version: 1.0
         Format:
           # https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
           type: string     
