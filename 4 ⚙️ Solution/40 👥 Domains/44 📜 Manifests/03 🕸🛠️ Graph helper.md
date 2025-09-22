@@ -98,3 +98,17 @@
 
     ---
     <br/>
+
+
+1. **What API methods are exposed by Graphs?**
+
+    |Method|Description
+    |-|-
+    |[👥🚀🕸 Trusted](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/02 👥🚀🕸 Trusted.md>)
+    |[👥🚀🕸 Trusts](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/03 👥🚀🕸 Trusts.md>)
+    |[👥🚀🕸 Identity](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/04 👥🚀🕸 Identity.md>)
+    |[👥🚀🕸 Queryable](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/05 👥🚀🕸 Queryable.md>)
+    |[👥🚀🕸 Translate](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/06 👥🚀🕸 Translate.md>)
+    |[👥🚀🕸 Public Key](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/07 👥🚀🕸 Public Key.md>)
+    |[👥🚀🕸 Schema](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>)
+    |[👥🚀🕸 Service](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/09 👥🚀🕸 Service.md>)

@@ -13,17 +13,23 @@ participant "Graph 🕸\ndomain" as graph
 ' QUERY
 ' --------------------
 
-activate consumer
+group Update Token
+    issuer --> broker: Revise@
+    activate broker
+    deactivate broker
+end group
+
 
 group Share token
 
-    consumer --> broker: 1. query@
-    deactivate consumer
+    'activate consumer
+    consumer --> broker: 1. Query@
+    'deactivate consumer
 
     activate broker
-        broker -> graph: 2. queryable@ {codes}
-        broker -> graph: 3. translate@ {codes}
-        broker --> notifier: 4. share@
+        broker -> graph: 2. Queryable@ {codes}
+        broker -> graph: 3. Translate@ {codes}
+        broker --> notifier: 4. Share@
     deactivate broker
 
     activate notifier
@@ -32,23 +38,23 @@ group Share token
 
     activate wallet
         user --> wallet: share
-        wallet --> consumer: 5. verify@ {tokens}
+        wallet --> consumer: 5. Verify@ {tokens}
     deactivate wallet
 
     activate consumer
-        consumer -> graph: 6. trusts@ {issuers}
+        consumer -> graph: 6. Trusts@ {issuers}
 
 end group 
 
 
 group Async verification
 
-    consumer --> issuer: 7. verify@ 
+    consumer --> issuer: 7. Verify@ 
     deactivate consumer
 
     activate issuer
-        issuer -> graph: trusts@ 
-        issuer --> consumer: 8. verified@ 
+        issuer -> graph: Trusts@ 
+        issuer --> consumer: 8. Verified@ 
     deactivate issuer
 
     activate consumer   
