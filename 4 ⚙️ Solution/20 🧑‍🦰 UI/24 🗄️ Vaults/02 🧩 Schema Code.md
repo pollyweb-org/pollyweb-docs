@@ -5,7 +5,7 @@
 
     A [Schema Code 🧩](<02 🧩 Schema Code.md>) is a string 
     * formatted as `{authority}/{code}[:{version}]`
-    * e.g., `nlweb.org/QR:1.0`
+    * e.g., `nlweb.org/LOCATOR:1.0`
     * that points to a public data schema
     * describing the structure of a sharable dataset.
 
@@ -18,11 +18,11 @@
 
     | Schema Code | Purpose |
     |-|-
-    | [`nlweb.org/MSG 🧩`](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MSG/🧩 Mgs.md>) | Schema of [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) 
-    | [`nlweb.org/TOKEN 🧩`](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/TOKEN/🧩 Token.md>) | Schema of [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>)
-    | [`unicode.org/FLAG 🧩`](<../../../8 📜 Manifests/👥 any-igo.org/📜 unicode.any-igo.org.md>) | Flags for country [Prompts 🤔](<../23 💬 Chats/02 🤔 Prompt.md>)
-    | [`locale.org/TERRITORY 🧩`](<../../../8 📜 Manifests/👥 any-igo.org/📜 locale.any-igo.org.md>) | Country names for [Prompts 🤔](<../23 💬 Chats/02 🤔 Prompt.md>)
-    | [`standards.org/639-1 🧩`](<../../../8 📜 Manifests/👥 any-igo.org/📜 standards.any-igo.org.md>) | Language codes (e.g., `en-us`)
+    | [`nlweb.org/MSG` 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MSG/🧩 Mgs.md>) | Schema of [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) 
+    | [`nlweb.org/TOKEN` 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/TOKEN/🧩 Token.md>) | Schema of [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>)
+    | [`unicode.org/FLAG` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 unicode.any-igo.org.md>) | Flags for country [Prompts 🤔](<../23 💬 Chats/02 🤔 Prompt.md>)
+    | [`locale.org/TERRITORY` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 locale.any-igo.org.md>) | Country names for [Prompts 🤔](<../23 💬 Chats/02 🤔 Prompt.md>)
+    | [`standards.org/639-1` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 standards.any-igo.org.md>) | Language codes (e.g., `en-us`)
 
     ---
     <br/>
@@ -39,7 +39,7 @@
     |
 
     For example, 
-    * the code `nlweb.com/TOKEN:2.0` 
+    * the code `nlweb.com/TOKEN:2.0`  🧩 
     * references version `2.0` 
     * of a schema called `TOKEN` 
     * that is defined in the [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) 
@@ -96,7 +96,7 @@
     ---
     <br/>
 
-4. **How can domains read schemas in domain Manifests?**
+4. **How can domains read Schemas in domain Manifests?**
 
     For resilience and performance, [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) cannot read [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) directly from the source.
 
@@ -109,7 +109,7 @@
             To: any-graph.com
             Subject: Schema@Graph
         Body:
-            Code: nlweb.org/QR:1.0
+            Code: nlweb.org/LOCATOR:1.0
         ```
 
     ---
@@ -129,10 +129,10 @@
 
     | Schema | Description
     |-|-
-    | [`nlweb.org/MANIFEST/CODE 🧩`](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 ManifestCode.md>) | CODE properties.
-    | [`nlweb.org/MANIFEST/CODE/SCHEMA 🧩`](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 ManifestCodeSchema.md>) | CODE/SCHEMA properties.
-    | [`nlweb.org/MANIFEST/DELEGATE 🧩`](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 ManifestDelegate.md>) | Delegation to other [Authorities 🏛️](<../../40 👥 Domains/43 👍 Trusts/02 🏛️🛠️ Authority helper.md>).
-    | [`nlweb.org/TYPES 🧩`](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/TYPES/🧩 Types.md>) | Generic referenceable types.
+    | [`nlweb.org/MANIFEST/CODE` 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 ManifestCode.md>) | CODE properties.
+    | [`nlweb.org/MANIFEST/CODE/SCHEMA` 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 ManifestCodeSchema.md>) | CODE/SCHEMA properties.
+    | [`nlweb.org/MANIFEST/DELEGATE` 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 ManifestDelegate.md>) | Delegation to other [Authorities 🏛️](<../../40 👥 Domains/43 👍 Trusts/02 🏛️🛠️ Authority helper.md>).
+    | [`nlweb.org/TYPES` 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/TYPES/🧩 Types.md>) | Generic referenceable types.
 
     ---
     <br/>
@@ -146,7 +146,7 @@
 
     ---
 
-8. **Is the NLWeb manifest a single point of failure?**
+8. **Is the NLWeb Manifest a single point of failure?**
 
     No. 
     - [Domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) don't need `nlweb.org` to be online to access its [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) (nor the one of any other [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>), for that matter).
@@ -155,14 +155,14 @@
     ---
 
 
-5. **Are NLWeb schema definitions compatible with JSON Schema?**
+5. **Are NLWeb Schema definitions compatible with JSON Schema?**
 
     Yes. 
     - NLWeb schemas are defined by [JSON Schema](https://json-schema.org/understanding-json-schema/reference) converted to YAML.
-    - Details are available at [`nlweb.org/MANIFEST/CODE/SCHEMA 🧩`](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 ManifestCodeSchema.md>).
+    - Details are available at [`nlweb.org/MANIFEST/CODE/SCHEMA` 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 ManifestCodeSchema.md>).
   
 
-    Consider the following example from [`standards.any-igo.org 📜` ](<../../../8 📜 Manifests/👥 any-igo.org/📜 standards.any-igo.org.md>).
+    Consider the following example from [`standards.any-igo.org` 📜](<../../../8 📜 Manifests/👥 any-igo.org/📜 standards.any-igo.org.md>).
 
     ```yaml
     type: object
@@ -194,30 +194,56 @@
     ---
 
 
-1. **Can a schema inherit another?**
+1. **Can a Schema inherit from another Schema?**
 
-    Consider [`nlweb.org/LOCATOR 🧩`](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/LOCATOR/🧩 Locator.md>)
-    * who defines properties `Code`, `Domain`, `Resource`.
-  
-    It is inherited by [`nlweb.org/TOKEN 🧩`](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/TOKEN/🧩 Token.md>)
-    * who adds properties `Issued`, `Starts`, `Expires`, `Signature`.
-    
-    Then inherited by [`nlweb.org//HOST/BOOKING 🧩`](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/HOST/🧩 HostBooking.md>)
-    - who adds properties `For`, `Time`, `Place`, `Seat`, `Latitude`, `Longitude`.
+    Yes.
+    * Using the `Inherits` property
+        * defined in [`nlweb.org/MANIFEST/CODE/SCHEMA` 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 ManifestCodeSchema.md>).
+    * Consider [`nlweb.org/LOCATOR` 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/LOCATOR/🧩 Locator.md>)
+        * who defines properties `Code`, `Domain`, `Resource`.
+    * It is inherited by [`nlweb.org/TOKEN` 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/TOKEN/🧩 Token.md>)
+        * who adds properties `Issued`, `Starts`, `Expires`, `Signature`.
+    * Then inherited by [`nlweb.org/HOST/BOOKING` 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/HOST/🧩 HostBooking.md>)
+        * who adds properties `For`, `Time`, `Place`, `Seat`, `Latitude`, `Longitude`.
     
     ---
     <br/>
 
 
-1. **Can a schema reference another?**
+2. **Can a Schema reference another Schema?**
 
-    It depends if its a QR or a SHARE schema,
-    * as defined in [`nlweb.org/MANIFEST/CODE/SCHEMA 🧩`](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 ManifestCodeSchema.md>)
+    Yes, 
+    * using the `$ref` keyword from JSON Schema 
+    * as defined in [`nlweb.org/MANIFEST/CODE/SCHEMA` 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 ManifestCodeSchema.md>).
+    
+    Consider [`nlweb.org/MANIFEST` 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 Manifest.md>):
+    * it references [`nlweb.org/MANIFEST/IDENTITY` 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 ManifestIdentity.md>)
+        ```yaml
+        Identity:
+          $ref: nlweb.org/MANIFEST/IDENTITY:1.0
+        ```
+    * and references [`nlweb/MANIFEST/TRUST` 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 ManifestTrust.md>).
+        ```yaml
+        Trusts:
+        type: array
+        items:
+          $ref: nlweb.org/MANIFEST/TRUST:1.0
+        ```
+    
+    ---
+    <br/>
 
-    |Output| Behavior
-    |-|-
-    | QR | One schema inherits another, and expands its properties.
-    | SHARE | One schema references the properties of others.
+1. **Can a Schema reference a specific property of another Schema?**
+
+    Yes.
+    * See [`nlweb.org/MANIFEST/TRUST` 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 ManifestTrust.md>)
+        * whose property `Domain`
+        * references `Domain@nlweb.org/TYPES`
+        * defined in [`nlweb.org/TYPES` 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/TYPES/🧩 Types.md>).
+    * See [`nlweb.org/PROFILE/ADDRESS` 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/PROFILE/🧩 ProfileAddress.md>)
+        * whose property `Country`
+        * references `Alpha2@standards.any-igo.org/3166-1`
+        * defined in [`standards.any-igo.org` 📜](<../../../8 📜 Manifests/👥 any-igo.org/📜 standards.any-igo.org.md>).
 
     ---
     <br/>

@@ -21,7 +21,7 @@ Header:
     
 Body:
     ChatID: <chat-uuid>
-    Locator: nlweb.org/QR:1.0,any-domain.com,ANY-RESOURCE
+    Locator: nlweb.org/LOCATOR:1.0,any-domain.com,ANY-RESOURCE
 ```
 
 |Object|Property|Type|Description

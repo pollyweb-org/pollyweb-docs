@@ -3,7 +3,7 @@
 
 1. **What is a Wi-Fier device feature in NLWeb?**
 
-    In NLWeb, a [Wi-Fier 🛜](<03 🛜🔀 Wi-Fier router.md>) is a device feature that enable access to a Wi-Fi network.
+    A [Wi-Fier 🛜](<03 🛜🔀 Wi-Fier router.md>) is a device feature for connecting to the internet on a Wi-Fi network.
 
     ---
     <br/>
