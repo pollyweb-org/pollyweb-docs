@@ -1,11 +1,11 @@
-🏪 Get water on a vending machine 💧
+💧 Get water on a vending machine
 ---
 
-> Referenced by [🏪 Drink at vending machines](<01 🏪 Index.md>)
+> From [🏪 Drink at vending machines](<01 🏪 Index.md>)
 
 <br/>
 
-## [💬 Chat](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>)
+## 💬 Chat
 
 | Service    | Prompt | User
 | - | - | - |

@@ -1,7 +1,7 @@
 How to collect userable payments at restaurants?
 ---
 
-> From [Eat at restaurants 🍽️](<01 🍽️ Index of Restaurant.md>)
+> From [Eat at restaurants 🍽️](<01 🍽️ Index.md>)
 
 ## 💬 Chat
 
