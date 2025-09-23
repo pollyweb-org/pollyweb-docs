@@ -60,14 +60,14 @@
 
 7. **What is contained in a Manifest-changed event?**
 
-    An event from a [domain 👥](<00 👥 Domain.md>) comes inside an [envelope](<../41 📨 Comms/01 📨 Domain Message.md>) containing the following properties.
+    An event from a [domain 👥](<00 👥 Domain.md>) about a [Manifest 📜](<01 📜 Domain Manifest.md>) change comes inside an [envelope](<../41 📨 Comms/01 📨 Domain Message.md>) containing the following properties.
 
     |Property | Description
     |-|-
-    |`Change`| The change: <br/>- `CREATED`, `UPDATED`, `DELETED`, `RESEATED`.
-    |`Selector`| The location changed, using CSS Selectors - e.g.:<br/>- the location `Codes[Path=/SSR/MEAL]`<br/>- represents the item of the `Codes` list <br/> - where the property `Path` is `/SSR/MEAL`;
-    |`Content`| The content of the [Manifest 📜](<01 📜 Domain Manifest.md>) that changed,<br/>- if not deleted.
-    | `Size`| The size of the content in bytes (e.g., `256`)<br/>- after converting into compacted JSON.
+    |`Change`| `CREATED`, `UPDATED`, `DELETED`, `RESEATED`
+    |`Path`| The location changed, e.g. `Code/SSR/MEAL`
+    |`Content`| The content that changed, if not deleted
+    | `Size`| The Byte sizes of the content compacted in JSON
     |
 
     Consider the following example.
@@ -91,12 +91,12 @@
 
     | Path | Description | Example
     |-|-|-
-    | `Identity` | Encompassing the Identity object of a [domain Manifest 📜](<01 📜 Domain Manifest.md>).
-    | `Trust/{key}` | Containing a single [Trust 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>) relationship identified by a unique key. | `ssr-meals-airlines`
-    | `Code/{key}` | Containing a single [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) definition identified by a unique key. | `/SSR/MEAL`
+    | `Identity` | Encompassing the Identity object of a [domain Manifest 📜](<01 📜 Domain Manifest.md>). | `Identity`
+    | `Trust/{key}` | Containing a single [Trust 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>) relationship identified by a unique key. | `Trust/my-key`
+    | `Code/{key}` | Containing a single [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) definition identified by a unique key. | `Code/SSR/MEAL`
     | `Code/{key}:{version}` | Containing a version of the schema definition for [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) identified. | `Code/SSR/MEAL:1.0`
-    | `Delegate/{key}` | For a delegation identified by a unique key.
-    | `Offer/{key}` | For an offer identified by a unique key.
+    | `Delegate/{key}` | For a delegation identified by a unique key. | `Delegate/my-key`
+    | `Offer/{key}` | For an offer identified by a unique key. | `Offer/my-key`
     
     ---
     <br/>
@@ -104,11 +104,11 @@
 9. **Do Listeners validate the content of events?**
 
     Yes. [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) perform the following validations:
-    - 1/ is the schema of the event correct?
-    - 2/ is the size informed smaller than maximum allowed for events?
-    - 3/ does the size of the change match the size informed?
-    - 4/ does the path informed match a valid [domain Manifest 📜](<01 📜 Domain Manifest.md>) schema part?
-    - 5/ is the schema of change correct for the path informed?
+    - is the schema of the event correct?
+    - is the size informed smaller than maximum allowed for events?
+    - does the size of the change match the size informed?
+    - does the path informed match a valid [domain Manifest 📜](<01 📜 Domain Manifest.md>) schema part?
+    - is the schema of change correct for the path informed?
 
     ---
     <br/>

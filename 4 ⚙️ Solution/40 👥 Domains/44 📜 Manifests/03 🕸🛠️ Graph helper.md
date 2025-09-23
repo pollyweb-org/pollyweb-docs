@@ -116,7 +116,7 @@
     |[👥🚀 Translate](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/06 👥🚀🕸 Translate.md>) | Translate these domains and codes.
     |[👥🚀 Public Key](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/07 👥🚀🕸 Public Key.md>) | What was the DKIM at this date?
     |[👥🚀 Schema](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>) | What's the schema of this code?
-    |[👥🚀 Service](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/09 👥🚀🕸 Service.md>) | Detail this domain service.
+    |[👥🚀 Offer](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/09 👥🚀🕸 Offer.md>) | Detail this domain offer.
     
     ---
     <br/>
