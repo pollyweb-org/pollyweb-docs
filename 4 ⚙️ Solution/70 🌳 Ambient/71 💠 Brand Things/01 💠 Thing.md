@@ -25,7 +25,7 @@
 
     Things 💠 come in a number of forms:
 
-    - **💠 Standard Things**: 
+    - **[💠 Standard Things](<01 💠 Thing.md>)**: 
         - all Things 💠 provide a user-controlled experience of an item bought and registered by a specific user, allowing other users to interact with it as guests - e.g.:
             - tags in T-shirts, 
             - NFC chips under the skin of pets and endangered wild animals, 

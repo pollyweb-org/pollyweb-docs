@@ -3,9 +3,25 @@
 
 1. **What are Custodian domains in NLWeb?**
 
-    A Custodian 🧳 [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) is an [Agent 🫥 vault](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) that users can leverage to manage their [Things 💠](<01 💠 Thing.md>).
+    A Custodian 🧳 [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) 
+    * is an [Agent 🫥 vault](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) 
+    * that users can leverage to manage their [Things 💠](<01 💠 Thing.md>).
 
     ---
+    <br/>
+
+1. **What user Things can a Custodian manage?**
+
+    |Type 💠| Details
+    |-|-
+    | [💠 Things](<01 💠 Thing.md>) | Physical objects: <br/> • e.g., T-shirts, books, pens, rocks, pets, wild animals.
+    | [🤖 Robots](<../72 🤖 Brand Robots/01 🤖💠 Robot thing.md>) | [Thing 💠](<01 💠 Thing.md>) embedded to control an electrical device:<br/> • e.g.: a coffee machine, a printer, or a vehicle. 
+    | [💍 Userables](<../74 💍 Brand Userables/01 💍 Userable thing.md>) | [Thing 💠](<01 💠 Thing.md>) that also pays and enters secure areas: <br/> • e.g., jewelry, glasses, key-holders.
+    | [⌚ Tapbands](<../76 ⌚ Brand Tapbands/01 ⌚💠 Tapband thing.md>) | [Userable 💍](<../74 💍 Brand Userables/01 💍 Userable thing.md>) that also opens [Padlocks 🔒](<../75 🔒 Brand Padlocks/01 🔒 Padlock device.md>): <br/>• smart watches, fit bands.
+    
+
+    ---
+    <br/>
 
 2. **How can owners register a Thing?**
 
@@ -24,3 +40,4 @@
     |7| The [Custodian 🧳 agent](<../../70 🌳 Ambient/71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) agrees with the [Wand 🪄 domain](<09 🪄🛠️ Wand helper.md>) to lock the ownership of the [Thing 💠](<01 💠 Thing.md>).
 
     ---
+    <br/>

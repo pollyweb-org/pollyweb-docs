@@ -1,5 +1,7 @@
 # 🌭 Eat street food  `index`
 
+
+
 ## 💬 Chats
 
 | Person | Category  | Chat 💬 | Details
@@ -14,4 +16,18 @@
 |||[Serve 🌭](<92 🧑‍🍳 Chef: Serve 🌭.md>)
 |||[Bill wallet 💳](<93 🧑‍🍳 Chef: Bill wallet 💳.md>) | [`🏦 Collector`](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>)
 |||[Bill userable 💍](<94 🧑‍🍳 Chef: Bill userable 💍.md>) | [`🏦 Collector`](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) [`💳 Payer`](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) 
+|
+
+<br/>
+
+## 🫥 User Agents
+
+| Agent| Purpose
+|-|-
+|🔎 [Finder](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | Feedback on the business.
+|🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) | Filter options for the business.
+| 🧢 [ Persona](<../../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) | Share the user's social name.
+| 💳 [Payer](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) | Pays for the food.
+| 💖 [Vitalogist](<../../../4 ⚙️ Solution/30 🫥 Agents/09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) | Registers the food intake.
+| 🧳 [Custodian](<../../../4 ⚙️ Solution/70 🌳 Ambient/71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) | To pay with a [💍 Userable](<../../../4 ⚙️ Solution/70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>).
 |
