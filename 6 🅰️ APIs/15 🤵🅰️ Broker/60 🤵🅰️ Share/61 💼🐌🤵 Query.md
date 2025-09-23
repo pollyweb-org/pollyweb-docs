@@ -19,8 +19,11 @@ Header:
 Body:
     ChatID: <chat-uuid>
     Codes:
-      - icao.int/PASSPORT
-      - usa.gov/DRIVER-LICENSE
+      # either the driver's license,
+      - usa.gov/DRIVER-LICENSE:1.0
+      # or the passport.
+      - icao.int/PASSPORT:1.0 # either the old passport,
+      - icao.int/PASSPORT:2.0 # or the new version.
 ```
 
 |Object|Property|Type|Description
