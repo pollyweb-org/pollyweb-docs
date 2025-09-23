@@ -36,10 +36,30 @@
     | Service | Prompt  | User 
     |-|-|-
     | 🗄️ Vault | 😃 Hi! What do you need? <br/>- [ Bla ] | > Bla
-    | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Flow: Bla [+] 
-    | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Bind [Yes, No, +]<br/>- [ Schema Code 🧩](<02 🧩 Schema Code.md>) | > Yes 
+    | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Flow: Bla, bla, bla [+] 
+    | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Bind [Yes, No, +]<br/>- [ Any Schema Code 🧩](<02 🧩 Schema Code.md>) | > Yes 
     | 🗄️ Vault | ✅ Done! 
+    |
 
+    The [Vault's Talker 😃](<../23 💬 Chats/03 😃 Talker.md>) may look like the following.
+
+    ```yaml
+    💬|[Bla]:
+    - FLOW|bla
+    - BIND|any-authority.org/ANY-SCHEMA-CODE
+    - SUCCESS|Done!
+    ```
+
+    The `Flow` section of the [Vault's Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) may look like the following.
+
+    ```yaml
+    Flows:
+      bla: 
+        Title: Bla, bla, bla
+        Steps:
+        - Input: BIND|any-authority.org/ANY-SCHEMA-CODE
+          Details: <detailed reasoning for the user>
+    ```
 
     ---
     <br/>

@@ -180,13 +180,35 @@
 
     To protect users from [Consumer 💼 domains](<04 💼🎭 Consumer role.md>) that collect too much Personally Identifiable Information (PII), [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) verify if any [Consumer 💼 domain](<04 💼🎭 Consumer role.md>) request is explicitly mentioned on their [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>).
 
-    * [Consumer 💼 domains](<04 💼🎭 Consumer role.md>) manifest the unique contexts in which they will collecting data, and what data is collected in each context.
+    * [Consumer 💼 domains](<04 💼🎭 Consumer role.md>) manifest the unique contexts in which they will collect data, and what data is collected in each context.
   
     * When interacting in a [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>), [Consumer 💼 domains](<04 💼🎭 Consumer role.md>) need to notify the [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) of a context change before requesting data under that context.
 
     * [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) inform users of every context change, identifying the data that may be collected, then block any data request from the Consumer that does not comply with that context - e.g., [Order pizza 🍕](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/04 🍽️ Order pizza 🍕/01 🍕 Customer @ Home 🏠/01 🏠 Order pizza.md>), [Hotel check-in 🛎️](<../../../3 🤝 Use Cases/03 🧳 Travel/08 🧳 Stay at hotels 🏨/03 🏨 Guest @ Reception 🛎️/04 🛎️ Check-in.md>).
 
     * Because the [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) are public and prone to automatic evaluation by domains like [Firewall 🔥 domains](<../../40 👥 Domains/43 👍 Trusts/03 🔥🛠️ Firewall helper.md>) and [Reviewer ⭐ domains](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>), [Consumer 💼 domains](<04 💼🎭 Consumer role.md>) are exposed to public scrutiny regarding the data  their are collecting, namely: what, why, how, and how much.
+
+    * Consider the following example of a [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>).
+  
+        ```yaml
+        Flows:
+
+            order-flow: 
+                Title: Order
+                Details: <long description>
+                Steps:
+                - Input: SHARE|nlweb.org/CURATOR/FILTER
+                  Purpose: your curator orders 🧚
+                - Input: CHARGE
+                  Purpose: your payer pays the bill 💳
+
+            bind-flow: 
+                Title: Second flow
+                Details: <another long description>
+                Steps:
+                - Input: BIND|any-issuer.com/ANY-CODE-4
+                  Purpose: <detailed reasoning>
+        ```
 
     ---
     <br/>
