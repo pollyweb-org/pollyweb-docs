@@ -1,4 +1,4 @@
-# 🍽️ Restaurant index
+# 🍽️ Eat at restaurants `index`
 
 ## 💬 Chats
 
