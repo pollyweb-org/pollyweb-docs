@@ -1,3 +1,5 @@
+<!-- TODO: replace call links -->
+
 # 😃 Talker FAQ
 <!-- https://quip.com/J24GAMbu7HKF/-Talker -->
 
@@ -125,6 +127,9 @@
 
 6. **Behavior commands**
 
+   * `FLOW|<key>`
+       * Informs a new workflow starting.
+       * The flow key has to be on the [host's Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>).
    * `BINDABLE|<codes>`	
        * Calls 👉 Advertise bindable: 🗄️ Vault
        * Codes are comma separated
@@ -150,3 +155,6 @@
        * Groups sequencial shares in one call
    * `SUBSCRIBE|<amount>`	
        * Calls 🐌 Subscribe: 🤵📎 Broker. Pay()
+
+    ---
+    <br/>
