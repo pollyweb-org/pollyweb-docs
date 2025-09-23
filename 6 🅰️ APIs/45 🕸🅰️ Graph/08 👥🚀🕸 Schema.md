@@ -9,6 +9,10 @@
 
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 
+> When the schema references other schemas, 
+> <br/>- this method returns the final merged schema for independent validation 
+> <br/> - i.e., there's no need for further calls to get the referenced schemas.
+
 <br/>
 
 ## Synchronous Request 🚀

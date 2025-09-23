@@ -60,12 +60,28 @@
 
 7. **What is contained in a Manifest-changed event?**
 
-    An event from a [domain 👥](<00 👥 Domain.md>) comes inside an [envelope](<../41 📨 Comms/01 📨 Domain Message.md>) containing:
-    - the change (e.g., CREATED, UPDATED, DELETED, RESEATED);
-    - the path changed (e.g., `/Code/SSR/MEAL`);
-    - the content of the [Manifest 📜](<01 📜 Domain Manifest.md>) that changed, if not deleted; and
-    - the size of the content in bytes (e.g., `256`).
+    An event from a [domain 👥](<00 👥 Domain.md>) comes inside an [envelope](<../41 📨 Comms/01 📨 Domain Message.md>) containing the following properties.
 
+    |Property | Description
+    |-|-
+    |`Change`| The change: <br/>- `CREATED`, `UPDATED`, `DELETED`, `RESEATED`.
+    |`Selector`| The location changed, using CSS Selectors - e.g.:<br/>- the location `Codes[Path=/SSR/MEAL]`<br/>- represents the item of the `Codes` list <br/> - where the property `Path` is `/SSR/MEAL`;
+    |`Content`| The content of the [Manifest 📜](<01 📜 Domain Manifest.md>) that changed,<br/>- if not deleted.
+    | `Size`| The size of the content in bytes (e.g., `256`)<br/>- after converting into compacted JSON.
+    |
+
+    Consider the following example.
+    ```yaml
+    Change: CREATED
+    Path: Codes[Path=/SSR]
+    Content: 
+        Path: /SSR
+        Delegator: airlines.any-igo.org
+    Size: 50
+        # Size in Bytes of the string
+        # {"Path":"/SSR","Delegator":"airlines.any-igo.org"}
+    ```
+    
     ---
     <br/>
 
@@ -185,14 +201,14 @@
     ---
     <br/>
 
-21. **How to deploy a new Listener?**
+20. **How to deploy a new Listener?**
 
     Subscribe to another two [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) and replay the entire history from one of them.
 
     ---
     <br/>
 
-22. **Is there data loss when a Listener goes down?**
+21. **Is there data loss when a Listener goes down?**
 
     No. 
     * Each [Listener 👂 domain](<02 👂🛠️ Listener helper.md>) is fully independent, being responsible for replying the entire history of [domain Manifest 📜](<01 📜 Domain Manifest.md>) changes, even if it is the only [Listener 👂 node](<02 👂🛠️ Listener helper.md>) available in the cluster. 
@@ -202,14 +218,14 @@
     ---
     <br/>
 
-23. **How do Listeners avoid infinite loop cycles?**
+22. **How do Listeners avoid infinite loop cycles?**
 
     [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) propagate the correlation ID sent by the original [domain 👥](<00 👥 Domain.md>), discarding any repeated update notifications.
 
     ---
     <br/>
 
-24. **Can an attacker compromises all cluster nodes?**    
+23. **Can an attacker compromises all cluster nodes?**    
 
     No. 
     * Each [Listener 👂 domain](<02 👂🛠️ Listener helper.md>) in the cluster node is managed by a different organization, and implemented with different technologies, making it hard for an attacker to replicate an attack on all cluster nodes.
@@ -217,7 +233,7 @@
     ---
     <br/>
 
-25. **How to identify if a Listener was compromised?**
+24. **How to identify if a Listener was compromised?**
 
     [Firewall 🔥 helper domains](<../43 👍 Trusts/03 🔥🛠️ Firewall helper.md>) monitor the behavior of any [Listener 👂 domain](<02 👂🛠️ Listener helper.md>) and match domain information with other [Listener 👂 domains](<02 👂🛠️ Listener helper.md>). 
     * If necessary, [Firewall 🔥 domains](<../43 👍 Trusts/03 🔥🛠️ Firewall helper.md>) immediately revoke a Listener's [trust 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>).
@@ -225,7 +241,7 @@
     ---
     <br/>
 
-26. **Is the cluster endpoint a single point of failure?**
+25. **Is the cluster endpoint a single point of failure?**
 
     No. 
     * The NLWeb cluster endpoint is a latency-based routing visible at a well-known DNS name (`listeners.nlweb.org`). 
@@ -234,7 +250,7 @@
     ---
     <br/>
 
-27. **How can a subscriber filter notifications by content?**
+26. **How can a subscriber filter notifications by content?**
 
     [Subscriber 🔔 domains](<../41 📨 Comms/04 🔔🎭 Subscriber role.md>) can set a filter when subscribing to [Listener 👂 domains](<02 👂🛠️ Listener helper.md>):
     - e.g., a financial regulator may only want notifications about changes in domains referencing bank [Schema Codes 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>).

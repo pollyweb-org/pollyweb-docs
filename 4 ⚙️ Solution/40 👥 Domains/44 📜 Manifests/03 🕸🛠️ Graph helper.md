@@ -83,7 +83,12 @@
 
 7. **How is a new NLWeb trust graph populated?**
 
-    Whenever a new [Graph 🕸 domain](<03 🕸🛠️ Graph helper.md>) is "born", it can ask a [Listener 👂 domain](<02 👂🛠️ Listener helper.md>) to replay the last change notification of every domain since the beginning of time in order to (re)build its graph representations. 
+    Whenever a new [Graph 🕸 domain](<03 🕸🛠️ Graph helper.md>) is "born", 
+    * it can ask a [Listener 👂 domain](<02 👂🛠️ Listener helper.md>) 
+    * to replay the last change notification 
+    * of every domain path
+    * since the beginning of time 
+    * in order to (re)build its graph representations. 
 
     ---
     <br/>
@@ -104,11 +109,14 @@
 
     |Method|Description
     |-|-
-    |[👥🚀🕸 Trusted](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/02 👥🚀🕸 Trusted.md>)
-    |[👥🚀🕸 Trusts](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/03 👥🚀🕸 Trusts.md>)
-    |[👥🚀🕸 Identity](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/04 👥🚀🕸 Identity.md>)
-    |[👥🚀🕸 Queryable](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/05 👥🚀🕸 Queryable.md>)
-    |[👥🚀🕸 Translate](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/06 👥🚀🕸 Translate.md>)
-    |[👥🚀🕸 Public Key](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/07 👥🚀🕸 Public Key.md>)
-    |[👥🚀🕸 Schema](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>)
-    |[👥🚀🕸 Service](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/09 👥🚀🕸 Service.md>)
+    |[👥🚀 Trusted](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/02 👥🚀🕸 Trusted.md>) | Can I trust that other domain?
+    |[👥🚀 Trusts](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/03 👥🚀🕸 Trusts.md>) | Do these  domains trust each other? 
+    |[👥🚀 Identity](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/04 👥🚀🕸 Identity.md>) | Return the identity of a domain.
+    |[👥🚀 Queryable](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/05 👥🚀🕸 Queryable.md>) | Select only the trustable codes.
+    |[👥🚀 Translate](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/06 👥🚀🕸 Translate.md>) | Translate these domains and codes.
+    |[👥🚀 Public Key](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/07 👥🚀🕸 Public Key.md>) | What was the DKIM at this date?
+    |[👥🚀 Schema](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>) | What's the schema of this code?
+    |[👥🚀 Service](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/09 👥🚀🕸 Service.md>) | Detail this domain service.
+    
+    ---
+    <br/>
