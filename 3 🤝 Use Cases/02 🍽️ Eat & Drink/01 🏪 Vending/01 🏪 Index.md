@@ -1,10 +1,10 @@
-# 🏪 Index of vending machines 
+# 🏪 Drink at vending machines  `index`
 
 ![alt text](<.📎 Assets/cartoon.png>)
 
 <br/>
 
-## 💬 Chat
+## 💬 Chats
 
 |Audience|Chat 💬|Notes
 |-|-|-
