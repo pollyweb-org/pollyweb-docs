@@ -13,10 +13,12 @@ participant "Graph 🕸\ndomain" as graph
 ' QUERY
 ' --------------------
 
-group Update Token
-    issuer --> broker: Revise@
+group Offer Token
+    issuer --> broker: 0. ⏪ Offer
     activate broker
+    activate issuer
     deactivate broker
+    deactivate issuer
 end group
 
 
@@ -38,26 +40,31 @@ group Share token
 
     activate wallet
         user --> wallet: share
-        wallet --> consumer: 5. Verify@ {tokens}
+        wallet --> consumer: 5. Shared@ {tokens}
     deactivate wallet
 
     activate consumer
         consumer -> graph: 6. Trusts@ {issuers}
+    deactivate consumer
 
 end group 
 
+group Update Token
+    issuer --> broker: 7. Revise@
+    activate broker
+    deactivate broker
+end group
 
-group Async verification
+group Offline verification
 
-    consumer --> issuer: 7. Verify@ 
-    deactivate consumer
+    consumer -> broker: 8. Status@
 
-    activate issuer
-        issuer -> graph: Trusts@ 
-        issuer --> consumer: 8. Verified@ 
-    deactivate issuer
+    activate broker
+    activate consumer
+        broker -> graph: 9. Trusts@ 
+        broker -> consumer: {status}
+    deactivate broker
 
-    activate consumer   
     deactivate consumer
 
 end group
