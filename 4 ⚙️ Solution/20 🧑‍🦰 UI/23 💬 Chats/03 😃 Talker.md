@@ -45,7 +45,6 @@
 
     * `CASE|<eval>|<anchor>`	
         * Runs a procedure when the eval is matched 
-        * Use case: 👉 Wait for a table: 🧪🍛 Food @ Restaurant
     * `EVAL|{function}`	
         * Calculates something to be used in cases.
         * Without a function, uses the last answer.
@@ -71,56 +70,56 @@
 5. **Prompt commands**
 
    * `CONFIRM|<message>|<falseProc>`	
-       * Calls 👍 CONFIRM [Prompt 🤔](<02 🤔 Prompt.md>)
-       * If not confirmed, execs falseProc.
-       * If falseProc not given stops the current proc.
+       * Calls the [CONFIRM 👍 Prompt](<02 🤔 Prompt.md>)
+       * If not confirmed, execs `falseProc`.
+       * If `falseProc` not given stops the current proc.
        * When stopping the current proc, pops stack.
    * `DOWNLOAD|<message>|<fileID>|<options>`	
-       * Calls the ⬇️ DOWNLOAD [Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the [⬇️ DOWNLOAD Prompt](<02 🤔 Prompt.md>)
        * Options are optional, comma separated
-       * Example: Erase, Duplicate
+       * Example: `Erase, Duplicate`
    * `EAN|<message>`	
-       * Calls the 🛒 EAN [Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the [🛒 EAN Prompt](<02 🤔 Prompt.md>)
    * `INFO|<message>`	
-       * Calls the ℹ️ INFO [Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the [ℹ️ INFO Prompt 🤔](<02 🤔 Prompt.md>)
        * A second call overrides the previous
    * `TEMP|<message>`
-       * Calls the ⏳ TEMP [Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the [⏳ TEMP Prompt 🤔](<02 🤔 Prompt.md>)
        * Disappears any new [Prompt 🤔](<02 🤔 Prompt.md>)
    * `SUCCESS|<message>`
-       * Calls the ✅ SUCCESS [Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the [✅ SUCCESS Prompt 🤔](<02 🤔 Prompt.md>)
    * `FAILURE|<message>`
-       * Calls the ❌ FAILURE [Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the [❌ FAILURE Prompt 🤔](<02 🤔 Prompt.md>)
    * `INT|<message>`	
-       * Calls the 💯 INT [Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the [💯 INT Prompt 🤔](<02 🤔 Prompt.md>)
    * `LOCATION|<message>`	
-       * Calls the 📍 LOCATION [Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the [📍 LOCATION Prompt 🤔](<02 🤔 Prompt.md>)
    * `MANY|<message>|<options>`	
-       * Calls the 🔢 MANY [Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the [🔢 MANY Prompt 🤔](<02 🤔 Prompt.md>)
        * Options are comma separated
-       * Example: Milk, Sugar, Rice
+       * Example: `Milk, Sugar, Rice`
    * `MANY|<message>|<options>`	
-       * Calls the 🔢 MANY [Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the [🔢 MANY Prompt 🤔](<02 🤔 Prompt.md>)
        * Options are comma separated
-       * Example: Milk, Sugar, Rice
+       * Example: `Milk, Sugar, Rice`
    * `ONE|<message>|<options>`	
-       * Calls the 1️⃣ ONE [Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the [1️⃣ ONE Prompt 🤔](<02 🤔 Prompt.md>)
        * Options are comma separated
-       * Example: 1:Milk, 2:Sugar, R:Rice
+       * Example: `1:Milk, 2:Sugar, R:Rice`
    * `QUANTITY|<message>`	
-       * Calls the ↕️ QUANTITY [Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the [↕️ QUANTITY Prompt 🤔](<02 🤔 Prompt.md>)
    * `SCAN|<message>`	
-       * Calls the 🔆 SCAN [Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the [🔆 SCAN Prompt 🤔](<02 🤔 Prompt.md>)
    * `SELFIE|<message>`	
-       * Calls the 👤 SELFIE [Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the [👤 SELFIE Prompt 🤔](<02 🤔 Prompt.md>)
    * `TOUCH|<message>|<locator>`	
-       * Calls the 🦋 TOUCH [Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the [🦋 TOUCH Prompt 🤔](<02 🤔 Prompt.md>)
    * `TRACK|<message>`	
-       * Calls the 🗺️ TRACK [Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the [🗺️ TRACK Prompt 🤔](<02 🤔 Prompt.md>)
    * `UNTIL|<message>`	
-       * Calls the 🗓️ UNTIL [Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the [🗓️ UNTIL Prompt 🤔](<02 🤔 Prompt.md>)
    * `UPLOAD|<message>`	
-       * Calls the the ⬆️ UPLOAD [Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the the [⬆️ UPLOAD Prompt 🤔](<02 🤔 Prompt.md>)
 
     ---
     <br/>
@@ -131,21 +130,21 @@
        * Informs a new workflow starting.
        * The flow key has to be on the [host's Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>).
    * `BINDABLE|<codes>`	
-       * Calls 👉 Advertise bindable: 🗄️ Vault
+       * Calls [🗄️🐌🤵 Bindable @ Broker](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/42 🗄️🐌🤵 Bindable.md>) 
        * Codes are comma separated
-       * Example: iata.org/SSR/WCHR, iata.org/...
+       * Example: `iata.org/SSR/WCHR`, `iata.org/...`
    * `CHARGE|<amount>`	
-       * Calls 👉 Charge: 💸 Seller
+       * Calls [💵🐌🤵 Charge @ Broker](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/70 🤵🅰️ Pay/21 💵🐌🤵 Charge.md>)
    * `CRUD`	
        * Initiates the CRUD dialog
    * `GOODBYE|<message>`	
        * Calls 👉 Goodbye: 🤗 Host
    * `ISSUE|<code>|{credentialID}`	
-       * Calls 👉 Issue token: 🃏 Issuer
+       * Calls [🎴⏩🧑‍🦰 Offer token](<../../../5 ⏩ Flows/06 🎴⏩ Issuers/01 🎴⏩🧑‍🦰 Offer token.md>)
        * The function waits for all shares
    * `REDIRECT|{host}|{locator}`	
        * Calls 👉 Check-in: 👱📎 Wallet. Sessions
-       * With 🧩 /HOST: 🤝🤗 Host.DTFW.org
+       * With [🧩 nlweb.org/HOST](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/HOST/🧩 Host.md>)
    * `RESUBSCRIBE|<amount>`	
        * Calls 🐌 Resubscribe: 🤵📎 Broker. Pay()
    * `REVOKE|{credentialID}`	
