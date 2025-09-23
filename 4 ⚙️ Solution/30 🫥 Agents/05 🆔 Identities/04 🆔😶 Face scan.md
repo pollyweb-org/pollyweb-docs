@@ -55,7 +55,7 @@
     | `Security`| 🎬 [Cross gates with a Userable at an airport](<../../70 🌳 Ambient/74 💍 Brand Userables/14 💍🎬 Userable gates.md>)
     | `Payments` | 💍 [Pay a salesperson using a Userable](<../../70 🌳 Ambient/74 💍 Brand Userables/21 💍💳 Userable pay salesperson.md>) 
     | `Payments` | [💳 Pay seller with a Userable on a kiosk](<../../70 🌳 Ambient/74 💍 Brand Userables/22 💍💳 Userable pay kiosk.md>) 
-    |`Payments` | [💁‍♀️ Pay a restaurant bill with a Userable](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/03 🍽️🍲 Eat at restaurants/07 🍲 Staff @ Tables 💁‍♀️/94 💁‍♀️ Bill userable 💍.md>)|
+    |`Payments` | [💁‍♀️ Pay a restaurant bill with a Userable](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/03 🍽️🍲 Eat at restaurants/94 💁‍♀️ Staff: Bill userable 💍.md>)|
     |`Social`| [💍 Aid a confused senior with a Userable](<../../70 🌳 Ambient/74 💍 Brand Userables/13 💍📱 Userable senior user.md>)
 
 
