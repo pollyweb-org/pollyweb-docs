@@ -23,7 +23,7 @@
 
     |Example
     |-
-    | [🏪 Buy drinks at vending machines](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/01 🏪 Drink at vendings/01 🏪 Index.md>)
+    | [🏪 Buy drinks at vending machines](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/01 🏪 Vending/01 🏪 Index.md>)
 
     ---
     <br/>

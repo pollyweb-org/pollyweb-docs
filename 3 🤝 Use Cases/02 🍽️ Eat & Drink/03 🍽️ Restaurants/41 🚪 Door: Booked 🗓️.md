@@ -1,7 +1,7 @@
 How to arrive with a booking?
 ---
 
-> From [Eat at restaurants 🍽️](<01 🍽️ Index of Restaurant.md>)
+> From [Eat at restaurants 🍽️](<01 🍽️ Index.md>)
 
 Upon arrival, users with a booking tap/scan the restaurant's NFC/QR: 
 - the wallet's broker shares all self-booking tokens with the host;

@@ -1,16 +1,16 @@
-# 🏪 Drink at vending machines 
+# 🏪 Index of vending machines 
 
 ![alt text](<.📎 Assets/cartoon.png>)
 
 <br/>
 
-1. **What are applicable scenarios?**
+## 🤝 Scenarios
 
-    |Scenario 🤝|Audience|Notes
-    |-|-|-
-    |[Buy water 💧](<11 🏪 Buy water 💧.md>) | `Customer` | Simple workflow to buy an item.
-    [Buy beer 🍺](<12 🏪 Buy beer 🍺.md>)|`Customer`| Requires 21+ age verification.
-    ||
+|Audience|Script|Notes
+|-|-|-
+| `Customer`|[Buy water 💧](<11 💧 Buy water.md>)  | Simple workflow to buy an item.
+| `Customer` | [Buy beer 🍺](<12 🍺 Buy beer.md>)| Requires 21+ age verification.
+||
 
 <!-- 
 TODO: other scenarios
@@ -20,6 +20,8 @@ TODO: other scenarios
 -->
 
 <br/>
+
+## 💼 Business Setup
 
 1. **What does the [😃 Domain Talker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 😃 Talker.md>) look like?**
 

@@ -20,7 +20,7 @@
 
     |Scenario |
     |-
-    |[🏪 Buy beer at a vending machine 🍺](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/01 🏪 Drink at vendings/12 🏪 Buy beer 🍺.md>)
+    |[🏪 Buy beer at a vending machine 🍺](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/01 🏪 Vending/12 🍺 Buy beer.md>)
 
     ---
     <br/>

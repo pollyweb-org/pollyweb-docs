@@ -1,7 +1,7 @@
 **How can staff start a shift at a restaurant?**
 ---
 
-> From [Eat at restaurants 🍽️](<01 🍽️ Index of Restaurant.md>)
+> From [Eat at restaurants 🍽️](<01 🍽️ Index.md>)
 
 ## 💬 Chat
 

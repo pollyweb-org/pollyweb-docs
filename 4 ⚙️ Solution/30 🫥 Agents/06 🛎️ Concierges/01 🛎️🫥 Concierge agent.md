@@ -18,7 +18,7 @@
     |-|-
     | [Custodian 🧳](<../../70 🌳 Ambient/71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) | Help users recover a lost [Thing 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>).
     | [Vitalogist 💖](<../09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) | Book exams and medical appointments for users.
-    | [Pizzeria 🍕](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/04 🍽️ Order pizza 🍕/01 🍕 Customer @ Home 🏠/01 🏠 Order pizza.md>) |Find a courier for delivery.
+    | [Pizzeria 🍕](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/04 🍕 Order pizza/01 🍕 Customer @ Home 🏠/01 🏠 Order pizza.md>) |Find a courier for delivery.
 
     ---
     <br/>

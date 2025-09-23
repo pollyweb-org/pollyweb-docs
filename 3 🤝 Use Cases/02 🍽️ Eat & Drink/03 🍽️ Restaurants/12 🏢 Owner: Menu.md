@@ -1,6 +1,6 @@
 # Restaurant menu
 
-> From [Eat at restaurants 🍽️](<01 🍽️ Index of Restaurant.md>)
+> From [Eat at restaurants 🍽️](<01 🍽️ Index.md>)
 
 ## Owner's menu
 
