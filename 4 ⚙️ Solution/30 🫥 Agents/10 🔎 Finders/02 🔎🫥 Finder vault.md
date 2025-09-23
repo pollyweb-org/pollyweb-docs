@@ -19,7 +19,7 @@
 
     [Broker 🤵 domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) leverage Finders to provide users with culturally-contextualized details and user feedback about [Host 🤗 domains](<../../20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) when a [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) starts. 
 
-    * Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) excerpt from the [Buy water 🤝 use case](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/01 🍽️ Drink at vendings 🏪/11 🏪 Buy water 💧.md>) as an example of a with an interaction with a  [Host 🤗 domain](<../../20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>), right after the user has tapped a [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>).
+    * Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) excerpt from the [Buy water 🤝 use case](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/01 🏪 Drink at vendings/11 🏪 Buy water 💧.md>) as an example of a with an interaction with a  [Host 🤗 domain](<../../20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>), right after the user has tapped a [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>).
 
     | Service    | Prompt | User
     | - | - | - |
