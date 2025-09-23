@@ -17,7 +17,7 @@
     - *given you like diving and are flying to Miami, consider diving at the Neptune Memorial Reef - here's a company that accepts your SSI Open Water certification and a list of nice restaurants nearby.*
 
     See the following examples for details:
-    * [🏪 Buy water at a vending machine](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/01 🍽️ Drink at vendings 🏪/11 🏪 Buy water 💧.md>)
+    * [🏪 Buy water at a vending machine](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/01 🏪 Drink at vendings/11 🏪 Buy water 💧.md>)
     * [🛎️ Check-in at a hotel](<../../../3 🤝 Use Cases/03 🧳 Travel/08 🧳 Stay at hotels 🏨/03 🏨 Guest @ Reception 🛎️/04 🛎️ Check-in.md>)
     * [🍕 Order a pizza for home delivery](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/04 🍽️ Order pizza 🍕/01 🍕 Customer @ Home 🏠/02 🏠 Wait for pizza.md>)
 
