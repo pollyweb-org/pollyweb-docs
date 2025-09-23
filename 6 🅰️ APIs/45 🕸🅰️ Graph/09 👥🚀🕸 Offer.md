@@ -1,6 +1,6 @@
 <!-- #TODO -->
 
-# 👥🚀🕸 Service @ Graph
+# 👥🚀🕸 Offer @ Graph
 
 > Returns details about a given ServiceID in a Host's Manifest.
 
