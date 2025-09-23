@@ -1,3 +1,9 @@
+# 🌭 Street food menu
+
+> From [Eat street food 🌭](<01 🌭 Index.md>)
+
+## Owner's menu
+```yaml
 Menu:
 
   Hot dog:
@@ -14,3 +20,4 @@ Menu:
 
   Water:
     Price: 1.00
+```

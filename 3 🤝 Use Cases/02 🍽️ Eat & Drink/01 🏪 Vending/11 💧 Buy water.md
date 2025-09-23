@@ -3,7 +3,6 @@
 
 > From [🏪 Drink at vending machines](<01 🏪 Index.md>)
 
-<br/>
 
 ## 💬 Chat
 

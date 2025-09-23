@@ -1,9 +1,15 @@
-How to serve food at a street market stall?
----
+# 🌭 Serve food at a street market stall
+
+> From [Eat street food 🌭](<01 🌭 Index.md>)
+
 
 At the street market, vendors access the stall chat.
 - the supporter prepares the trays with a name.
 - the chef prepares the food and places it on the right tray.
+
+
+## 💬 Chat
+
 
 | Service | Prompt | User
 | - | - | - |
