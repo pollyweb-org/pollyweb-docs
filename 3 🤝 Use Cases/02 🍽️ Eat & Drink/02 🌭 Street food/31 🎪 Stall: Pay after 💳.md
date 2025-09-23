@@ -1,5 +1,8 @@
-# How to pay for food at a street market stall?
----
+# 🌭 Pay for food at a street market stall
+
+> From [Eat street food 🌭](<01 🌭 Index.md>)
+
+## 💬 Chat
 
 
 | Service | Prompt | User

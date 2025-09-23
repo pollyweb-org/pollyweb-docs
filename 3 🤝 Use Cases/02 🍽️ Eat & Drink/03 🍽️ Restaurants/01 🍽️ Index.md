@@ -1,12 +1,12 @@
 # 🍽️ Restaurant index
 
-## Topics
+## 💬 Chats
 
-| Person | Category  | Script | Details
+| Audience | Category  | Chat 💬 | Details
 |-|-|-|-
 | `💼 Business`|`🏢 Owner` | [About](<11 🏢 Owner: About.md>) | Unstructured Markdown
 |||[Menu](<12 🏢 Owner: Menu.md>) | Structured YAML
-| `🧑‍🦰 Customer` | `🌐 Web`   | [Book table 🗓️](<31 🌐 Web: Book table 🗓️.md>) | [🗓️ Scheduler](<../../../4 ⚙️ Solution/30 🫥 Agents/38 🕓 User Timeline/04 🗓️🗄️ Scheduler agent.md>), [🧢 Persona](<../../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>)
+| `🧑‍🦰 Customer` | `🌐 Web`   | [Book table 🗓️](<31 🌐 Web: Book table 🗓️.md>) | [`🗓️ Scheduler`](<../../../4 ⚙️ Solution/30 🫥 Agents/38 🕓 User Timeline/04 🗓️🗄️ Scheduler agent.md>) [`🧢 Persona`](<../../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>)
 |`🧑‍🦰 Customer`|`🚪 Door`  | [Booked 🗓️](<41 🚪 Door: Booked 🗓️.md>)
 ||           | [Walk in empty](<42 🚪 Door: Walk in empty.md>)
 ||           | [Walk in busy](<43 🚪 Door: Walk in busy.md>)

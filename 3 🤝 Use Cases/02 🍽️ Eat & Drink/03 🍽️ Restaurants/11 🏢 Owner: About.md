@@ -1,4 +1,4 @@
-# Restaurant general info
+# 🍽️ Restaurant general info
 
 > From [Eat at restaurants 🍽️](<01 🍽️ Index.md>)
 
