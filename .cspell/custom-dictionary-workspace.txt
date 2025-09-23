@@ -25,4 +25,5 @@ touchless
 Userable
 Userables
 vitalogist
+Vitalogists
 WPLG
