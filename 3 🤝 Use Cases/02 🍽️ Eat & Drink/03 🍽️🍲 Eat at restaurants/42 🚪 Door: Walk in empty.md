@@ -1,6 +1,10 @@
 How to walk in into an empty restaurant without a reservation?
 ---
 
+> From [Eat at restaurants 🍽️](<01 🍽️ Index of Restaurant.md>)
+
+## 💬 Chat
+
 | Service | Prompt | User
 | - | - | - |
 | | | 🔆 [tap](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) door

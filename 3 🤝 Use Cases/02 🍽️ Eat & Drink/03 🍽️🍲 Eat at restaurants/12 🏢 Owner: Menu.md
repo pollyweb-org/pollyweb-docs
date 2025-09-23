@@ -1,5 +1,9 @@
 # Restaurant menu
 
+> From [Eat at restaurants 🍽️](<01 🍽️ Index of Restaurant.md>)
+
+## Owner's menu
+
 ```yaml
 Menu:
   appetizers:
