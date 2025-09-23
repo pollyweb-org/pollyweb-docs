@@ -1,7 +1,9 @@
 🍲 How to book a table at a restaurant?
 ---
 
-## Chat
+> From [Eat at restaurants 🍽️](<01 🍽️ Index of Restaurant.md>)
+
+## 💬 Chat
 
 | Service | Prompt | User
 | - | - | - |

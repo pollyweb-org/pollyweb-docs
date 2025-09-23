@@ -1,6 +1,10 @@
 How to receive items from staff at a restaurant?
 --
 
+> From [Eat at restaurants 🍽️](<01 🍽️ Index of Restaurant.md>)
+
+## 💬 Chat
+
 | Service | Prompt | User
 | - | - | - |
 | ...

@@ -1,9 +1,13 @@
 How to arrive with a booking?
 ---
-    
+
+> From [Eat at restaurants 🍽️](<01 🍽️ Index of Restaurant.md>)
+
 Upon arrival, users with a booking tap/scan the restaurant's NFC/QR: 
 - the wallet's broker shares all self-booking tokens with the host;
 - the restaurant welcomes the user and asks them to wait for the waitress to take them to the table. 
+  
+## 💬 Chat
 
 | Service | Prompt | User
 | - | - | - |

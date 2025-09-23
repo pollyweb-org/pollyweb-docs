@@ -1,6 +1,10 @@
 # Restaurant general info
 
-> Information to pass customers.
+> From [Eat at restaurants 🍽️](<01 🍽️ Index of Restaurant.md>)
+
+> Information to pass to customers' [Agent 🫥 vaults](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>).
+
+## Owner's content
 
 ```markdown
 We open from Tuesday from Sunday.
