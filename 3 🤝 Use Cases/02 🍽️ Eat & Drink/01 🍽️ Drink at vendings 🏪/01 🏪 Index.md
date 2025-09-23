@@ -59,7 +59,7 @@ TODO: other scenarios
     
     <br/>
 
-1. **What does the data look like?**
+2. **What does the data look like?**
 
     
 
@@ -110,4 +110,6 @@ TODO: other scenarios
     
     <br/>
 
-  1. **What does the [text](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/05 🧑‍💻🛠️ Hoster helper.md>)
+<!--
+  1. **What does the [Hoster 🧑‍💻 helper](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/05 🧑‍💻🛠️ Hoster helper.md>)
+ -->
