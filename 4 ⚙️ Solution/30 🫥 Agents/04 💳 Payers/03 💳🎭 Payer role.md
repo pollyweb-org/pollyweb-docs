@@ -16,6 +16,7 @@
         * paying for agreements with [Biller 🤝 helpers](<06 🤝🛠️ Biller helper.md>).
 
     ---
+    <br/>
     
 
 2. **How are currency conversions handled?**
@@ -27,6 +28,7 @@
     - Payers 💳 calculate the final amount to be paid by the user after the currency conversion from the selected payment method, plus conversion, transfer, and administrative fees.
 
     ---
+    <br/>
 
 3. **Why not leverage the Open Banking protocol?**
 
@@ -34,6 +36,7 @@
     - e.g., the ability to jump between bank entities from within a [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) in the user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
 
     ---
+    <br/>
     
 4. **What responsibilities do Payers have with invoices?**
 
@@ -41,18 +44,21 @@
     * [Collector 🏦 domains](<01 🏦🛠️ Collector helper.md>) are responsible for invoices.
 
     ---
+    <br/>
     
 5. **How does a user bind to their traditional bank?**
 
     The bank needs to onboard into NLWeb as a [Payer 💳 domain](<03 💳🎭 Payer role.md>).
 
     ---
+    <br/>
     
 6. **What happens if a transaction is cancelled?**
 
     Typically, the money is reverted, but it depends on the relationship between the [Payer 💳 domain](<03 💳🎭 Payer role.md>) and the [Collector 🏦 domain](<01 🏦🛠️ Collector helper.md>).
 
     ---
+    <br/>
     
     
 7.  **How does it differ from India's ONDC?**
@@ -65,6 +71,7 @@
         - e.g., if SWIFT doesn't work, send it via TransferWise.
 
     ---
+    <br/>
     
 8.  **Does NLWeb allow a user to type a credit card number?**
 
@@ -73,6 +80,7 @@
     - Instead, businesses should rely on the user's payment vaults to handle the payment in a standard frictionless way within the check-out phase.
 
     ---
+    <br/>
     
 9.  **Does NLWeb allow users to pay with NFC contactless?**
 
@@ -83,6 +91,7 @@
     - The user experience should be similar in both cases, but with NLWeb there is no need for businesses to acquire expensive payment terminals because the UX is in the user's device - only a passive NFC tag costing less than $1 is required.
 
     ---
+    <br/>
     
 10. **Does NLWeb allow for offline payments in airplanes?**
 
@@ -93,6 +102,7 @@
     - Cities will provide free public Wi-Fi underground, like the Elizabeth Line in London. 
 
     ---
+    <br/>
     
 11. **Do Payers transfer money to collectors, or pay by card?**
 
@@ -102,6 +112,7 @@
     - The exact payment method will depend on the transfer methods supported by both parties (e.g., SWIFT, TransferWise), and the user configurations supported by the [Payer 💳 domain](<03 💳🎭 Payer role.md>) (e.g., Visa, MasterCard, Brazilian Pix).
 
     ---
+    <br/>
     
 12. **Can a payment be reverted or cancelled?**
 
@@ -109,12 +120,14 @@
     * [Collector 🏦 domains](<01 🏦🛠️ Collector helper.md>) can initiate it, but [Payer 💳 domains](<03 💳🎭 Payer role.md>) can't.
 
     ---
+    <br/>
     
 13. **Can payments be done with credit/debit notes?**
 
     Yes, as long as the [Payer 💳 domain](<03 💳🎭 Payer role.md>) and the [Collector 🏦 domain](<01 🏦🛠️ Collector helper.md>) support it.
 
     ---
+    <br/>
     
 
     
@@ -131,12 +144,14 @@
         - e.g., during the Russia-Ukraine conflict, the international community imposed SWIFT payment restrictions to Russia.
 
     ---
+    <br/>
     
 16. **How is money laundry prevented?**
 
     NLWeb leverages payment transfers to be made using existing platforms and transfers protocols that already have international guardrails implemented, thus inheriting these guardrails.
 
     ---
+    <br/>
 
 17. **Can Payers read card details from Persona vaults?**
 
@@ -144,4 +159,28 @@
     * For design simplicity, [Payer 💳 domains](<03 💳🎭 Payer role.md>) store user's card details instead of pulling them from [Persona 🧢 vaults](<../02 🧢 Personas/02 🧢🫥 Persona agent.md>) .
     * Storing card details required special security settings defined by PCI/DSS policies, which [Payer 💳 domains](<03 💳🎭 Payer role.md>) already hold but [Persona 🧢 vaults](<../02 🧢 Personas/02 🧢🫥 Persona agent.md>) would have to implement.
 
----
+    ---
+    <br/>
+
+1. **How to pay a bill partially when in a group?**
+
+    Consider the following examples.
+
+    | Example|
+    |-
+    | 
+
+    ---
+    <br/>
+
+1. **How can a group split a bill in equal parts?**
+
+    Split bills are managed by [Collector 🏦 domains](<01 🏦🛠️ Collector helper.md>), as in the following examples:
+
+    * [🍽️ Split restaurant bill ](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/03 🍽️ Restaurants/74 💳 Pay: Split bill ✂️.md>);
+    * [🚕 Split taxi ride](<../../../3 🤝 Use Cases/03 🧳 Travel/04 🧳 Travel by taxi 🚕/2 🚕 Customer @ Car/23. Split with friends.md>).
+    
+   
+
+    ---
+    <br/>

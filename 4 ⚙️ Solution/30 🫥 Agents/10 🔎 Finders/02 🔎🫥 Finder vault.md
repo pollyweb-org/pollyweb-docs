@@ -3,7 +3,7 @@
 🔎 Finder domains FAQ
 ===
 
-![](<00 📎 Assets/🔎 Finder.png>)
+
 
 1. **What is a Finder domain in NLWeb?**
 
@@ -15,7 +15,14 @@
     ---
     <br/>
 
-1. **How do Finders help to protect users?**
+1. **How do Finders work?**
+   
+    ![](<00 📎 Assets/🔎 Finder.png>)
+
+    ---
+    <br/>
+
+2. **How do Finders help to protect users?**
 
     [Broker 🤵 domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) leverage Finders to provide users with culturally-contextualized details and user feedback about [Host 🤗 domains](<../../20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) when a [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) starts. 
 
