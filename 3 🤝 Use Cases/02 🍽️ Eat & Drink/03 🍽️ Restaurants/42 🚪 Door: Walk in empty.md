@@ -1,7 +1,9 @@
-How to walk in into an empty restaurant without a reservation?
----
+## How to walk in into an empty restaurant without a reservation?
+
 
 > From [Eat at restaurants 🍽️](<01 🍽️ Index.md>)
+
+<br/>
 
 ## 💬 Chat
 

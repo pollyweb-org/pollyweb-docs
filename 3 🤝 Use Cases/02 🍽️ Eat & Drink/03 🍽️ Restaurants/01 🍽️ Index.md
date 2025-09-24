@@ -19,7 +19,7 @@
 |            | [By robot 🤖](<62 🍲 Receive by: robot 🤖.md>) | [`💖 Vitalogist`](<../../../4 ⚙️ Solution/30 🫥 Agents/09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) 
 |🧑‍🦰 User `💳 Till`  | [See the bill 🧾](<71 💳 Pay: See the bill 🧾.md>)
 |            | [Pay group 👨‍👨‍👦‍👦](<72 💳 Pay: Pay group 👨‍👨‍👦‍👦.md>) | [`💳 Payer`](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) 
-|            | [Pay seat 🪑](<73 💳 Pay: Pay seat 🪑.md>) | [`💳 Payer`](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) [`🧢 Persona`](<../../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>)
+|            | [Pay seat 🪑](<73 💳 Pay: Pay own 🪑.md>) | [`💳 Payer`](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) [`🧢 Persona`](<../../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>)
 |            | [Split bill ✂️](<74 💳 Pay: Split bill ✂️.md>) | [`💳 Payer`](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) [`🧢 Persona`](<../../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>)
 |🧑‍🍳 Chef `💼 Biz` |[Start shift](<81 🧑‍🍳 Chef: Start shift 🪪.md>)
 ||[Prepare food 🥘](<82 🧑‍🍳 Chef: Prepare food 🥘.md>)
