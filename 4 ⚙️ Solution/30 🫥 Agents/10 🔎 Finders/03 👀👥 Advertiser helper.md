@@ -19,7 +19,7 @@
     See the following examples for details:
     * [🏪 Buy water at a vending machine](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/01 🏪 Vending/11 💧 Buy water.md>)
     * [🛎️ Check-in at a hotel](<../../../3 🤝 Use Cases/03 🧳 Travel/08 🧳 Stay at hotels 🏨/03 🏨 Guest @ Reception 🛎️/04 🛎️ Check-in.md>)
-    * [🍕 Order a pizza for home delivery](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/04 🍕 Order pizza/01 🍕 Customer @ Home 🏠/22 🏠 Wait for pizza.md>)
+    * [🍕 Order a pizza for home delivery](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/04 🍕 Order pizza/22 🏠 Wait for pizza.md>)
 
     ---
 

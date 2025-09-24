@@ -26,7 +26,7 @@
 
     * [KeyMaker 🔐 suppliers](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/05  🔐🏭 Keymaker supplier.md>) accept requests to deliver and manage the lifecycle of [Padlock 🔒 device](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/01 🔒 Padlock device.md>).
 
-    * [Courier 🛵 suppliers](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/04 🍕 Order pizza/08 🍕 Driver @ Road 🛵/82 🛵 Pick-up.md>) accept orders to deliver pizzas, as requested by a [Concierge 🛎️ domain](<01 🛎️🫥 Concierge agent.md>). 
+    * [Courier 🛵 suppliers](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/04 🍕 Order pizza/82 🛵 Pick-up.md>) accept orders to deliver pizzas, as requested by a [Concierge 🛎️ domain](<01 🛎️🫥 Concierge agent.md>). 
 
     ---
     <br/>

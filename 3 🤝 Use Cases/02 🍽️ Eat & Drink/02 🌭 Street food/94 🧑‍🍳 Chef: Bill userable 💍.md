@@ -18,7 +18,7 @@
 | [🏦 Collector](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) | 🫥 Tap the userable [+] | 🔆 [tap](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>)
 | [🏦 Collector](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) | ⓘ Tapped successfully.
 | [🏦 Collector](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) | ⏳ Collecting payment...
-| 🌭 Stall      | ✅ Payment received!
-| 🌭 Stall      | ⏳ Waiting requests... [+] 
+| 🎪 Stall      | ✅ Payment received!
+| 🎪 Stall      | ⏳ Waiting requests... [+] 
 |...
 ||
