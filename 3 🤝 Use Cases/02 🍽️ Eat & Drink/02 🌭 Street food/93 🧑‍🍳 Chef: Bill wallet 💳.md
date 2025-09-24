@@ -1,4 +1,4 @@
-# 🌭 Bill a customer's wallet at a street market stall
+## 🌭 Bill a customer's wallet at a street market stall
 
 > From [Eat street food 🌭](<01 🌭 Index.md>)
 

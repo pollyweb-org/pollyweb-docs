@@ -1,5 +1,5 @@
-💧 Get water on a vending machine
----
+## 💧 Buy water on a vending machine
+
 
 > From [🏪 Drink at vending machines](<01 🏪 Index.md>)
 
