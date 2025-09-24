@@ -21,7 +21,7 @@
 |            | [Pay group 👨‍👨‍👦‍👦](<72 💳 Pay: Pay group 👨‍👨‍👦‍👦.md>) | [`💳 Payer`](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) 
 |            | [Pay seat 🪑](<73 💳 Pay: Pay own 🪑.md>) | [`💳 Payer`](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) [`🧢 Persona`](<../../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>)
 |            | [Split bill ✂️](<74 💳 Pay: Split bill ✂️.md>) | [`💳 Payer`](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) [`🧢 Persona`](<../../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>)
-|🧑‍🍳 Chef `💼 Biz` |[Start shift](<81 🧑‍🍳 Chef: Start shift 🪪.md>)
+|🧑‍🍳 Chef `💼 Biz` |[Start shift](<81 🧑‍🍳 Chef: Start shift 🪪.md>) | [`🦋 Ephemeral`](<../../../4 ⚙️ Solution/60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>)
 ||[Prepare food 🥘](<82 🧑‍🍳 Chef: Prepare food 🥘.md>)
 ||[Prepare drinks 🥂](<83 🧑‍🍳 Chef: Prepare drinks 🥂.md>)
 |💁‍♀️ Staff `💼 Biz`|[Deliver items 🥘](<91 💁‍♀️ Staff: Deliver items 🥘.md>)
