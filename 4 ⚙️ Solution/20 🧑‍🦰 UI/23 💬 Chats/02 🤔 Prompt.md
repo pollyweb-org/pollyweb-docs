@@ -154,7 +154,7 @@
 
     In NLWeb, these option sets can be added only to non-blocking [Prompts 🤔](<02 🤔 Prompt.md>).
 
-    - The non-blocking prompts include Wait ⏳, Info ℹ️, and Result ✅.
+    - The non-blocking prompts include `TEMP ⏳`, `INFO ℹ️`, and `SUCCESS ✅`.
     - This is particularly helpful when [Host 🤗 domains](<04 🤗🎭 Host role.md>) want to assign default values to options to speed up the process (e.g., [navigation options 🤝](<../../../3 🤝 Use Cases/03 🧳 Travel/01 🧳 Plans trips 🧭/2 🧭 @ Destination/21 Return.md>)), while still allowing users to go back and change those default options.
     
     ---
