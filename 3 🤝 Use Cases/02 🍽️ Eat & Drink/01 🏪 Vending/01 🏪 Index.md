@@ -1,4 +1,4 @@
-# 🏪 Drink at vending machines  `index`
+## 🏪 Drink at vending machines  `index`
 
 ![alt text](<.📎 Assets/cartoon.png>)
 
