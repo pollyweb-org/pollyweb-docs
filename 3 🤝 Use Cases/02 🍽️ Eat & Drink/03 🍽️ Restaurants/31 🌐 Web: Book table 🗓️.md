@@ -1,4 +1,4 @@
-🍲 How to book a table at a restaurant?
+How to book a table at a restaurant?
 ---
 
 > From [Eat at restaurants 🍽️](<01 🍽️ Index.md>)

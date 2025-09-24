@@ -93,23 +93,8 @@
     ---
     <br/>
 
-1. **Can a Collector be use in a supermarket self-checkout?**
 
-    Yes. Here's a possible configuration for [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) admins:
-    - add [NFC/QR Locators 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) on the checkout stations;
-    - create a check-out workflow for customers.
-
-    Set the customer workflow as follows:
-    - 1/ customers tap the checkout station to start a chat;
-    - 2/ customers select "scan" and scan all items;
-    - 3/ customers select "pay" and accept the total;
-    - 4/ customers' [Payer 💳 agent](<03 💳🎭 Payer role.md>) ask for the preferred payment method;
-    - 5/ customers pay and see the receipt on their [Payer 💳 agent](<03 💳🎭 Payer role.md>).
-
-    ---
-    <br/>
-
-2. **Can a Seller implement the Collector API?**
+7. **Can a Seller implement the Collector API?**
 
     Yes, but that's not recommended. 
     - A [Collector 🏦 domain](<01 🏦🛠️ Collector helper.md>) may be better suited to sign wide international agreements with multiple [Payer 💳](<03 💳🎭 Payer role.md>) and [Biller 🤝 domains](<06 🤝🛠️ Biller helper.md>), and support a multitude of payment options.
@@ -129,7 +114,8 @@
 
     | Service | Prompt | User
     | - | - | - |
-     🤗 Host | ℹ️ Let me get you the bill.
+    |...
+    | 🤗 Host | ℹ️ Let me get you the bill.
     | 💳 [Payer](<03 💳🎭 Payer role.md>) | 🫥 Pay $12.95 bill? 🧾 [No]  <br/>- [ ✂️ Split bill ] <br/>- ... | > Split bill
     | [🏦 Collector](<01 🏦🛠️ Collector helper.md>) | 😃 Slip by how many? | 🔢 3
     | [🏦 Collector](<01 🏦🛠️ Collector helper.md>) | ⏳ Waiting for 3x $4.31... <br/>- [ pay my part ]  <br/> - [ cancel split ]| > pay my part
