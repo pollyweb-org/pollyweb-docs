@@ -1,6 +1,12 @@
 Wait for a pizza
 ---
 
+> From [🍕 Order Pizza](<01 🍕 Index.md>)
+
+<br/>
+
+## 💬 Chat
+
 | Service | Prompt  | User |
 |-|-|-|
 |...|...
