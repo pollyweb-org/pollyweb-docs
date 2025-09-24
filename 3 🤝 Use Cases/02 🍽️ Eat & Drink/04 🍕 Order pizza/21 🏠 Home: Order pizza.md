@@ -5,6 +5,7 @@ Order a pizza for home delivery
 
 <br/>
 
+
 ## 💬 Chat
 
 | Service | Prompt  | User |
@@ -39,3 +40,63 @@ Order a pizza for home delivery
 | 🍕 Pizzeria   | ⏳ Preparing your order... [+]
 |...            |...
 ||
+
+<br/>
+
+## 💼 Business Setup
+
+1. **What does the [😃 Domain Talker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 😃 Talker.md>) look like?**
+
+    ```yaml
+    💬 Order:
+    - FLOW|order
+    # Collect order details.
+    - SHARE|nlweb.org/NAVIGATOR/DESTINATION # 🧭 
+    - SHARE|nlweb.org/CONCIERGE/COURIER|{destination} # 🛎️ 
+    - SHARE|nlweb.org/CURATOR/ORDER|{menu-locator} # 🧚 
+    # Confirm order details and create a Biller 🤝 ID.
+    - INFO|{order-summary}|Change
+    - SHARE|nlweb.org/VITALOGIST/REVIEW|{order-details} # 💖
+    - SHARE|nlweb.org/CONCIERGE/REVIEW|{order-details} # 🛎️
+    - SHARE|nlweb.org/SCHEDULER/REVIEW|{order-details} # 🗓️
+    # Request aggregated payment.
+    - CHARGE|{amount}|{biller-id} # 💳
+    # Successful order.
+    - SUCCESS|Order confirmed
+      - Details: {order-summary}
+    - SHARE|nlweb.org/CONCIERGE/CONFIRM # 🛎️
+    - TEMP|Preparing your order...
+      - Details: {order-summary}
+    ```
+
+    |Functions|Returns|Description
+    |-|-|-
+    |`destination`| string | Pass the [Navigator 🧭 agent](<../../../4 ⚙️ Solution/30 🫥 Agents/07 🧭 Navigators/05 🧭🫥 Navigator agent.md>) destination.
+    | `menu-locator` | string | [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) of the menu.
+    | `order-summary`| markdown | [Curator 🧚 agent](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) choices:<br/>- plus ongoing status.
+    | `order-details`| object | Details for partners: <br/>- selected items,<br/>- final delivery estimates, <br/>- aggregator [Biller 🤝](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>) ID.
+    |
+
+<br/> 
+
+1. **What does the Manifest Flow look like?**
+
+    ```yaml
+    Flows:
+
+        order: 
+            Title: Order
+            Steps:
+            - Purpose: your navigator sets where 🧭
+              Input: SHARE|nlweb.org/NAVIGATOR/DESTINATION
+            - Purpose: your concierge sets how 🛎️  
+              Input: SHARE|nlweb.org/CONCIERGE/COURIER
+            - Purpose: your curator orders 🧚
+              Input: SHARE|nlweb.org/CURATOR/FILTER
+            - Purpose: your vitalogist reviews 💖 
+              Input: SHARE|nlweb.org/VITALOGIST/REVIEW
+            - Purpose: your scheduler reviews 🗓️ 
+              Input: SHARE|nlweb.org/SCHEDULER/REVIEW
+            - Purpose: your payer pays the bill 💳
+              Input: CHARGE
+    ```

@@ -6,7 +6,7 @@
 
 | Persona |  Chat 💬 | Details
 |-|-|-
-|💼 Business | [About](<11 🏢 Owner: About.md>) | [`🗂️ Folder`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/26 🗂️ Folders/01 🗂️ Folder editor.md>)
+|`💼 Business` | [About](<11 🏢 Owner: About.md>) | [`🗂️ Folder`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/26 🗂️ Folders/01 🗂️ Folder editor.md>)
 ||[Menu](<12 🏢 Owner: Menu.md>) | [`🗂️ Folder`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/26 🗂️ Folders/01 🗂️ Folder editor.md>)
 | 🧑‍🦰 User  `🌐 Web`   | [Book table 🗓️](<31 🌐 Web: Book table 🗓️.md>) | [`🗓️ Scheduler`](<../../../4 ⚙️ Solution/30 🫥 Agents/38 🕓 User Timeline/04 🗓️🗄️ Scheduler agent.md>) [`🧢 Persona`](<../../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) [`🎫 Token`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) 
 |🧑‍🦰 User  `🚪 Door`  | [Booked 🗓️](<41 🚪 Door: Booked 🗓️.md>) | [`🎫 Token`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) 

@@ -15,15 +15,14 @@
     [Talkers 😃](<03 😃 Talker.md>) dramatically reduce the time to build a [Host 🤗 domain](<04 🤗🎭 Host role.md>) by simplifying the workflow orchestration of a [💬 Chat](<01 💬 Chat.md>).
 
     * They allow [Hoster 🧑‍💻 helper domains](<05 🧑‍💻🛠️ Hoster helper.md>) to manage the workflow state on behalf of [Host 🤗 domains](<04 🤗🎭 Host role.md>), removing the undifferentiated heavy-lifting of handling [Prompts 🤔](<02 🤔 Prompt.md>) communications, and invoking [Host 🤗 domains](<04 🤗🎭 Host role.md>) only when it's necessary to execute business-specific logic.
-  
     ---
     <br/>
 
 2. **What are examples of Talkers?**
 
-    |Example
-    |-
-    | [🏪 Buy drinks at vending machines](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/01 🏪 Vending/01 🏪 Index.md>)
+    * [🏪 Buy drinks at vending machines](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/01 🏪 Vending/01 🏪 Index.md>)
+    * [🍕 Order pizza to deliver at home](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/04 🍕 Order pizza/21 🏠 Home: Order pizza.md>)
+  
 
     ---
     <br/>
@@ -43,12 +42,21 @@
     
 4. **Flow commands**
 
-    * `CASE|<eval>|<anchor>`	
-        * Runs a procedure when the eval is matched 
     * `EVAL|{function}`	
         * Calculates something to be used in cases.
         * Without a function, uses the last answer.
         * Without cases, evaluates and discards.
+    * `CASE|<eval>|<anchor>`	
+        * Runs a procedure when the eval is matched 
+            ```yaml
+            # Example
+            💬| I need a table:
+            - INT|How many people? >> qt
+            - EVAL|{availability}
+            - CASE|AVAILABLE|Available
+            - CASE|WAIT|Wait
+            - CASE|FULL|Full
+            ```
     * `IF|{func}|<trueProc>`	
         * Runs a procedure based on a function
     * `IF|{func}|<trueProc>|<falseProc>`	
@@ -78,36 +86,39 @@
        * Calls the [⬇️ DOWNLOAD Prompt](<02 🤔 Prompt.md>)
        * Options are optional, comma separated
        * Example: `Erase, Duplicate`
-   * `EAN|<message>`	
+   * `EAN|<message> >> <key>`	
        * Calls the [🛒 EAN Prompt](<02 🤔 Prompt.md>)
-   * `INFO|<message>`	
+   * `INFO|<message>|<options> >> `	
        * Calls the [ℹ️ INFO Prompt 🤔](<02 🤔 Prompt.md>)
        * A second call overrides the previous
-   * `TEMP|<message>`
+       * Options are optional, comma separated (e.g., `Erase, Duplicate`)
+       * Example: `INFO|{item}|Details,Remove >> option`
+   * `TEMP|<message>|<options>`
        * Calls the [⏳ TEMP Prompt 🤔](<02 🤔 Prompt.md>)
        * Disappears any new [Prompt 🤔](<02 🤔 Prompt.md>)
-   * `SUCCESS|<message>`
+   * `SUCCESS|<message>|<options>`
        * Calls the [✅ SUCCESS Prompt 🤔](<02 🤔 Prompt.md>)
-   * `FAILURE|<message>`
+   * `FAILURE|<message>|<options>`
        * Calls the [❌ FAILURE Prompt 🤔](<02 🤔 Prompt.md>)
-   * `INT|<message>`	
+   * `INT|<message> >> <key>`	
        * Calls the [💯 INT Prompt 🤔](<02 🤔 Prompt.md>)
-   * `LOCATION|<message>`	
+       * Stores the answer with key `<key>`
+       * Example: `INT|What's the pin? >> pin`
+   * `LOCATION >> <key>`	
        * Calls the [📍 LOCATION Prompt 🤔](<02 🤔 Prompt.md>)
-   * `MANY|<message>|<options>`	
+       * Stores the answer with key `<key>`
+       * Example: `LOCATION >> location`
+   * `MANY|<message>|<options> >> <key>`	
        * Calls the [🔢 MANY Prompt 🤔](<02 🤔 Prompt.md>)
-       * Options are comma separated
-       * Example: `Milk, Sugar, Rice`
-   * `MANY|<message>|<options>`	
-       * Calls the [🔢 MANY Prompt 🤔](<02 🤔 Prompt.md>)
-       * Options are comma separated
-       * Example: `Milk, Sugar, Rice`
-   * `ONE|<message>|<options>`	
+       * Options are comma separated (e.g., `Milk, Sugar, Rice`)
+       * Example: `MANY|What items?|Milk,Sugar,Rice >> items`
+   * `ONE|<message>|<options> >> <key>`	
        * Calls the [1️⃣ ONE Prompt 🤔](<02 🤔 Prompt.md>)
-       * Options are comma separated
-       * Example: `1:Milk, 2:Sugar, R:Rice`
-   * `QUANTITY|<message>`	
+       * Options are comma separated (e.g., `1:Milk, 2:Sugar, R:Rice`)
+       * Example: `ONE|What item?|Milk,Sugar,Rice >> item`
+   * `QUANTITY|<message> >> <key>`	
        * Calls the [↕️ QUANTITY Prompt 🤔](<02 🤔 Prompt.md>)
+       * Example: `QUANTITY|How many? >> qt`
    * `SCAN|<message>`	
        * Calls the [🔆 SCAN Prompt 🤔](<02 🤔 Prompt.md>)
    * `SELFIE|<message>`	
@@ -133,8 +144,9 @@
        * Calls [🗄️🐌🤵 Bindable @ Broker](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/42 🗄️🐌🤵 Bindable.md>) 
        * Codes are comma separated
        * Example: `iata.org/SSR/WCHR`, `iata.org/...`
-   * `CHARGE|<amount>`	
+   * `CHARGE|<amount>|<bill-id>`	
        * Calls [💵🐌🤵 Charge @ Broker](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/70 🤵🅰️ Pay/21 💵🐌🤵 Charge.md>)
+       * May have a [Biller 🤝](<../../30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>) ID for multiple [Collectors 🏦](<../../30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>).
    * `CRUD`	
        * Initiates the CRUD dialog
    * `GOODBYE|<message>`	
