@@ -10,6 +10,7 @@
     * e.g., a traditional bank, with a simple bank account.
     
     ---
+    <br/>
 
 1. **How do Collectors work?**
 
@@ -21,7 +22,9 @@
     |2| The [Payer 💳 domain](<03 💳🎭 Payer role.md>) then performs a traditional payment to a [Collector 🏦 helper domain](<01 🏦🛠️ Collector helper.md>).
     |3| The [Collector 🏦 domain](<01 🏦🛠️ Collector helper.md>)issues a traditional receipt back to the [Payer 💳 domain](<03 💳🎭 Payer role.md>).
     |4| The [Collector 🏦 domain](<01 🏦🛠️ Collector helper.md>)notifies the recipient [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) that the payment was successful.
+
     ---
+    <br/>
 
 2. **Why are Collectors important?**
 
@@ -32,6 +35,7 @@
     - the restaurant may need to pay a fee to their [Collector 🏦 domain](<01 🏦🛠️ Collector helper.md>), but that's also completely irrelevant for the tourist.
 
     ---
+    <br/>
 
 3. **How does a domain withdraw its money from a Collector?**
     
@@ -44,6 +48,7 @@
     | **Wallet** | PayPal | the [Payer 💳 domain](<03 💳🎭 Payer role.md>) pays to the [Collector 🏦 domain](<01 🏦🛠️ Collector helper.md>), who holds the money until withdrawn by the recipient.
 
     ---
+    <br/>
 
 4. **What responsibilities do Collectors have with receipts?**
 
@@ -53,6 +58,7 @@
     - and archiving those receipts for a given legal duration. 
 
     ---
+    <br/>
 
 5. **Do Collectors have invoicing responsibilities?**
 
@@ -61,6 +67,7 @@
     * This is especially relevant for startups and SMBs.
 
     ---
+    <br/>
 
 6. **Can a Collector be use in boutique's cash register?**
 
@@ -75,13 +82,16 @@
     - 3/ cashiers confirm the total and ask the user to tap:
 
     Set the customer workflow as follows:
-    - 1/ customers tap the outer counter to start a chat;
-    - 2/ the Host immediately charges customers with the total;
-    - 3/ customers' [Payer 💳 agent](<03 💳🎭 Payer role.md>) ask for the preferred payment method;
-    - 4/ customers pay and see the receipt on their [Payer 💳 agent](<03 💳🎭 Payer role.md>). 
+    |#| Step
+    |-|-
+    |1| customers tap the outer counter to start a chat;
+    |2| the Host immediately charges customers with the total;
+    |3| customers' [Payer 💳 agent](<03 💳🎭 Payer role.md>) ask for the preferred payment method;
+    |4| customers pay and see the receipt on their [Payer 💳 agent](<03 💳🎭 Payer role.md>). 
 
 
     ---
+    <br/>
 
 1. **Can a Collector be use in a supermarket self-checkout?**
 
@@ -97,6 +107,7 @@
     - 5/ customers pay and see the receipt on their [Payer 💳 agent](<03 💳🎭 Payer role.md>).
 
     ---
+    <br/>
 
 2. **Can a Seller implement the Collector API?**
 
@@ -104,3 +115,32 @@
     - A [Collector 🏦 domain](<01 🏦🛠️ Collector helper.md>) may be better suited to sign wide international agreements with multiple [Payer 💳](<03 💳🎭 Payer role.md>) and [Biller 🤝 domains](<06 🤝🛠️ Biller helper.md>), and support a multitude of payment options.
 
     ---
+    <br/>
+
+
+1. **Do Collectors accept split payments?**
+
+    Yes, as in the following examples:
+    * [🍽️ Split restaurant bill](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/03 🍽️ Restaurants/74 💳 Pay: Split bill ✂️.md>);
+    * [🚕 Split taxi ride](<../../../3 🤝 Use Cases/03 🧳 Travel/04 🧳 Travel by taxi 🚕/2 🚕 Customer @ Car/23. Split with friends.md>).
+    
+    
+    The [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) will be similar to the following.
+
+    | Service | Prompt | User
+    | - | - | - |
+     🤗 Host | ℹ️ Let me get you the bill.
+    | 💳 [Payer](<03 💳🎭 Payer role.md>) | 🫥 Pay $12.95 bill? 🧾 [No]  <br/>- [ ✂️ Split bill ] <br/>- ... | > Split bill
+    | [🏦 Collector](<01 🏦🛠️ Collector helper.md>) | 😃 Slip by how many? | 🔢 3
+    | [🏦 Collector](<01 🏦🛠️ Collector helper.md>) | ⏳ Waiting for 3x $4.31... <br/>- [ pay my part ]  <br/> - [ cancel split ]| > pay my part
+    | 💳 [Payer](<03 💳🎭 Payer role.md>) | 🫥 Pay $4.33 partial bill? 🧾 [No] <br/>- [ card ABC ] + $0.10 <br/>- [ card DEF ] (free) | > card ABC
+    | 💳 [Payer](<03 💳🎭 Payer role.md>) | 🫥 Add tip? [No, 10%, +] | > 10%
+    | 🧢 [Persona](<../02 🧢 Personas/02 🧢🫥 Persona agent.md>) | 🫥 Share name? [No] <br/> - [ 🧑‍🦰 personal ] <br/> - [ 💼 work ]  <br/> - [ 🦋 private ]     | > 🧑‍🦰 personal
+    | [🏦 Collector](<01 🏦🛠️ Collector helper.md>) | ⓘ Your part paid, thanks! [+]
+    | [🏦 Collector](<01 🏦🛠️ Collector helper.md>) | ⏳ Waiting for 2x $4.31... <br/>- [ list payer names ] <br/>- [ pay the reaming ] <br/> - [ cancel split ]
+    | [🏦 Collector](<01 🏦🛠️ Collector helper.md>) | ⏳ Waiting for 1x $4.31... <br/>- [ list payer names ] <br/>- [ pay the reaming ] <br/> - [ cancel split ]
+    | 🤗 Host       | ✅ Paid, thanks! [+]
+
+
+    ---
+    <br/>
