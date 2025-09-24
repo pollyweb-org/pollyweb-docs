@@ -12,16 +12,21 @@
 ||[Save shared intake](<23 🏠 Home: Save shared intake.md>) | [`💖 Vitalogist`](<../../../4 ⚙️ Solution/30 🫥 Agents/09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>)  [`📇 Mingler`](<../../../4 ⚙️ Solution/30 🫥 Agents/08 📇 Minglers/01 📇🫥 Mingler agent.md>)
 ||[Intake via photo](<24 🏠 Home: Intake via photo.md>) | [`💖 Vitalogist`](<../../../4 ⚙️ Solution/30 🫥 Agents/09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>)
 ||[Intake via barcode](<25 🏠 Home: Intake via barcode.md>) | [`💖 Vitalogist`](<../../../4 ⚙️ Solution/30 🫥 Agents/09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>)
+|
+|`💼 Owner` |[Menu](<91 🏢 Owner: Menu.md>) | Public menu.
+||[Slots 🐘](<92 🏢 Owner: Slots.md>)       | Internal process.
+|
 |`🧑‍🍳 Chef` |[Start shift](<61 🧑‍🍳 Chef: Start shift.md>) | [`🎫 Token`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) [`🆔 Identity`](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>)
 ||[Prepare](<62 🧑‍🍳 Chef: Prepare.md>) | `Slots 🐘`
 ||[Multi-task](<63 🧑‍🍳 Chef: Multi-task.md>) | `Slots 🐘`
+|
 |`💁‍♀️ Staff`  |[Start shift](<71 💁‍♀️ Staff: Start shift.md>) | [`🎫 Token`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) [`🆔 Identity`](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>)
 ||[Take to table](<72 💁‍♀️ Staff: Take to table.md>) | `Slots 🐘`
 ||[Pass to driver](<73 💁‍♀️ Staff: Pass to driver.md>) | `Slots 🐘`
+|
 |`🛵 Driver`  |[Start shift](<81 🛵 Driver: Start shift.md>) | [`🎫 Token`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) [`🆔 Identity`](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>)
 ||[Pick-up](<82 🛵 Driver: Pick-up.md>)
-|`💼 Owner` |[Menu](<91 🏢 Owner: Menu.md>)
-||[Slots 🐘](<92 🏢 Owner: Slots.md>)
 |
+
 
 
