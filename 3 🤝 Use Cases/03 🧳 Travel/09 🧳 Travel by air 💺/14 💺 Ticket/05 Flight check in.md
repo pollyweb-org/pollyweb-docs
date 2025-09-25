@@ -1,11 +1,13 @@
 
-**How to check in for a flight?**
-----
+How to check in for a flight?
+===
 
 To start the check-in over a chat, users can: 
 - activate the menu of their booking Token; or 
 - follow a link sent by the airline; or 
 - start a chat with the airline and share the booking Token. 
+
+## 💬 Chat
 
 | Service       | Prompt | User
 | - | - | - |

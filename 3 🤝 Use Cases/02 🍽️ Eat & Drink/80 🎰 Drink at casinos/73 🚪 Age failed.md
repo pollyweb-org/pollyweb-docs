@@ -1,5 +1,6 @@
-How do bouncers check age at a casino's door?
----
+# 🎰 How do bouncers check age at a casino's door?
+
+## 💬 Chat
 
 | Service | Prompt | User
 | - | - | - |
@@ -7,7 +8,7 @@ How do bouncers check age at a casino's door?
 | 🕺 Club       | ⏳ Waiting entries... [+] 
 | 🕺 Club       | ℹ️ Age check started. <br/> - blond caucasian woman <br/> - 1.50m tall, age 20-25 
 | 🕺 Club       | ⏳ Waiting check... [+]
-| 🕺 Club       | ✅ Age confirmed! 
+| 🕺 Club       | 📣 Age check failed. 
 | 🕺 Club       | ⏳ Waiting entries... [+] 
 | ...
 ||

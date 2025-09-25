@@ -3,6 +3,9 @@ How can staff start a shift at a restaurant?
 
 > From [Eat at restaurants 🍽️](<01 🍽️ Index.md>)
 
+> Mentioned in [Verify Identity-bound Tokens 🆔](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/04 🆔🎫 Verify Tokens.md>)
+
+<br/>
 
 ## 💬 Chat
 

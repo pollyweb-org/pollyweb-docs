@@ -11,7 +11,7 @@
 
     ![](<00 📎 Assets/💳 Biller User.png>)
 
-    For a user to [sign](<../05 🆔 Identities/05 🆔🔏 Verify Files.md>) a subscription, the following preconditions must be met:
+    For a user to [sign](<../05 🆔 Identities/05 🆔🔏 Verify Signatures.md>) a subscription, the following preconditions must be met:
     - 1/ the user has default [Payer 💳](<03 💳🎭 Payer role.md>) and [Identity 🆔 domains](<../05 🆔 Identities/01 🆔🫥 Identity agent.md>);
     - 2/ the Seller has a default [Collector 🏦 domain](<01 🏦🛠️ Collector helper.md>).
 

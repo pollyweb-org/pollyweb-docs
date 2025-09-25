@@ -2,6 +2,11 @@
 ===
 
 
+> Mentioned in [Verify Userables 🆔](<../../30 🫥 Agents/05 🆔 Identities/05 🆔💍 Verify Userables.md>)
+
+<br/>
+
+
 1. **How can a confused senior user leverage their Userables?**
 
     Consider a scenario where a senior person is returning home alone and accidentally leaves their bag 👜 on a taxi 🚖, with the home keys and the phone inside in silent mode.

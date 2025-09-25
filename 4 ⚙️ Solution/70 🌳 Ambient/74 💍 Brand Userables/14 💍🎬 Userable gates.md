@@ -1,6 +1,10 @@
 💍 Userables to cross gates FAQ
 ===
 
+> Mentioned in [Verify Userables 🆔](<../../30 🫥 Agents/05 🆔 Identities/05 🆔💍 Verify Userables.md>)
+
+<br/>
+
 
 1. **How can users pass airport border controls with Userables?**
 
@@ -11,7 +15,7 @@
     ---
     <br/>
 
-1. **How does it work?**
+2. **How does it work?**
 
     ![](<00 📎 Assets/💍 Userable Cross Gates.png>)
 
