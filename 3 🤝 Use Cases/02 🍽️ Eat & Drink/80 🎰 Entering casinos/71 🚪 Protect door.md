@@ -1,5 +1,9 @@
 # 🎰 How do bouncers protect a door at a casino?
 
+> From [Entering casinos 🎰](<01 🎰 Index.md>)
+
+<br/> 
+
 ## 💬 Chat
 
 | Service | Prompt | User
