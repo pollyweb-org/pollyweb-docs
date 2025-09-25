@@ -16,12 +16,13 @@
     | Service | Prompt | User
     | - | - | - |
     | 🤗 [Host](<../../20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) | 😐 Start risky task [Yes, No] | > Yes
-    | 🆔 [Identity](<01 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../30 🫥 Agents/05 🆔 Identities/04 🆔😶 Face scan.md>)
+    | 🆔 [Identity](<01 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<10 🆔😶 Face scan.md>)
     | 🤗 [Host](<../../20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Verified, task started!
-    |
 
+    ---
+    <br/>
 
-    Other use cases include.
+1. **What are industry use cases for age verification?**
 
     |Industry|Use case 🤝
     |-|-

@@ -31,7 +31,7 @@
 
     Printed identity-bound [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) (or any other type of offline Tokens, like screenshot images, NFC cards, and NFC wristbands) removes user's need to carry their mobile phone charged and with internet connection. 
     - Use cases where this is important include: international flights, water sports, and luggage misplacement or theft.
-    - These scenarios rely on [🖐️ palm vein scanners](<05 🆔🖐️ Palm scan.md>) scanning the users' palms, or cameras performing [😶 face scans](<04 🆔😶 Face scan.md>) on users.
+    - These scenarios rely on [🖐️ palm vein scanners](<11 🆔🖐️ Palm scan.md>) scanning the users' palms, or cameras performing [😶 face scans](<10 🆔😶 Face scan.md>) on users.
 
     The flow for a user to share an offline [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) with a [Consumer 💼](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) is as follows:
     - 1/ the user taps or scans the Token on the Consumer's scanner:
