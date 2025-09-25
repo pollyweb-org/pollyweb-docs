@@ -87,16 +87,18 @@ Order a pizza for home delivery
         order: 
             Title: Order
             Steps:
-            - Purpose: your navigator sets where 🧭
-              Input: SHARE|nlweb.org/NAVIGATOR/DESTINATION
-            - Purpose: your concierge sets how 🛎️  
-              Input: SHARE|nlweb.org/CONCIERGE/COURIER
-            - Purpose: your curator orders 🧚
-              Input: SHARE|nlweb.org/CURATOR/FILTER
-            - Purpose: your vitalogist reviews 💖 
-              Input: SHARE|nlweb.org/VITALOGIST/REVIEW
-            - Purpose: your scheduler reviews 🗓️ 
-              Input: SHARE|nlweb.org/SCHEDULER/REVIEW
-            - Purpose: your payer pays the bill 💳
-              Input: CHARGE
+            - Input: SHARE|nlweb.org/NAVIGATOR/DESTINATION
+              Purpose: your navigator sets where 🧭
+            - Input: SHARE|nlweb.org/CONCIERGE/COURIER
+              Purpose: your concierge sets how 🛎️  
+            - Input: SHARE|nlweb.org/CURATOR/FILTER
+              Purpose: your curator orders 🧚
+            - Input: SHARE|nlweb.org/VITALOGIST/REVIEW
+              Purpose: your vitalogist reviews 💖 
+            - Input: SHARE|nlweb.org/CONCIERGE/REVIEW
+              Purpose: your concierge reviews 🛎️  
+            - Input: SHARE|nlweb.org/SCHEDULER/REVIEW
+              Purpose: your scheduler reviews 🗓️ 
+            - Input: CHARGE
+              Purpose: your payer pays the bill 💳              
     ```

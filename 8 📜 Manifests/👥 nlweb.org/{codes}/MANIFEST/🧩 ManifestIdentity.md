@@ -23,6 +23,7 @@ Schema:
     - SmallIcon     # Optional URL to a small icon (20x20)
     - BigIcon       # Optional URL to a big icon (100x100)
     - Translations  # Optional list of translations of the domain name.
+    - Feedback      # Optional Buffer ⏳ helper domain name (string)
 
   Format:
     type: object
@@ -78,3 +79,12 @@ Schema:
                 $ref: nlweb.org/MANIFEST/TRANSLATION:1.0#Language
               example: 
                 en: Name
+
+      Feedback:
+        example: any-buffer.com
+        $ref: 
+          nlweb.org/MANIFEST/IDENTITY:1.0#Domain
+        description: >
+          Optional Buffer ⏳ helper domain 
+          to send feedback messages to. 
+          If not defined, then no feedback is given.
