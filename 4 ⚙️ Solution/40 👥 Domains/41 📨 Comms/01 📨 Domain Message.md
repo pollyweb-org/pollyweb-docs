@@ -50,20 +50,82 @@
 
     |Property| Description
     |-|-
-    | **🤝** | The versioned [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) of the envelope.
-    | **From** | The name of the [domain 👥](<../44 📜 Manifests/00 👥 Domain.md>) who sent the message.
-    | **To**| The name of the [domain 👥](<../44 📜 Manifests/00 👥 Domain.md>) for whom the message is intended.
-    | **Correlation**| The unique ID in the sender, for deduping.
-    | **Timestamp**| The date and time of the message, in UTC format.
-    | **Subject**| The method to be executed on the receiver.
-    | **Body**| The content inside the envelope.
-    | **Hash**| The canonical hash of the envelope's header and body.
-    | **Signature**| The signature of the envelope using the sender's private key.
-    | **DKIM**| The name of the corresponding public key in the sender's [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>).
+    | `🤝` | The versioned [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) of the envelope.
+    | `From` | The name of the [domain 👥](<../44 📜 Manifests/00 👥 Domain.md>) who sent the message.
+    | `To`| The name of the [domain 👥](<../44 📜 Manifests/00 👥 Domain.md>) for whom the message is intended.
+    | `Correlation`| The unique ID in the sender, for deduping.
+    | `Timestamp`| The date and time of the message, in UTC format.
+    | `Subject`| The method to be executed on the receiver.
+    | `Body`| The content inside the envelope.
+    | `Hash`| The canonical hash of the envelope's header and body.
+    | `Signature`| The signature of the envelope using the sender's private key.
+    | `DKIM`| The name of the corresponding public key in the sender's [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>).
 
     ---
     <br/>
 
+
+8. **How do receiver domains handle upgraded schema versions?**
+
+    An NLWeb envelop contains a [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) that allows receivers to support multiple versions concurrently, handling incoming envelopes differently depending on its version;
+    - e.g., `🤝: nlweb.org/MSG:1.0`
+    - Envelopes with unsupported versions are discarded.
+
+    ---
+    <br/>
+
+
+4. **How do receiver domains know who sent a message?**
+
+    An NLWeb envelope resembles an email message, containing a `Header` and a `Body`. 
+    - The header contains the sender’s domain name (e.g., `any-sender.com`) and the receiver’s domain name (e.g., `any-receiver.com`), as well as other metadata. 
+    - Receivers discard envelopes not intended to them.
+
+    ---
+    <br/>
+
+5. **How do receiver domains prevent sender impersonation attacks?**
+
+    NLWeb domains implement the ubiquitous [DKIM (rfc6376) protocol 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) used by email servers to verify envelopes received from other domains. 
+    
+    - Sender domains hash their envelopes with JSON Canonicalization Scheme (rfc8785) and sign them with their private half of the [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) key-pair. 
+    
+    - Receiver domains look up the public half of the sender’s [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) key-pair to verify the signature of incoming envelopes. The receiver expects to find the sender’s public key in DKIM format in a DNS entry named “nlweb” (e.g., `nlweb._domainkey.any-sender.com`). 
+    
+    - The envelope is discarded if the sender’s [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) is not correctly implemented, or the sender’s public key is unable to verify the signature in the envelope.
+
+    ---
+    <br/>
+
+6. **How do receiver domains prevent DNS spoofing attacks?**
+
+    When getting the sender’s [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) public key, receiver domains check if DNSSEC is implemented on the sender’s domain;
+    - if not implemented, the envelope is discarded.
+
+    ---
+    <br/>
+
+7. **How do receiver domains prevent replay attacks?**
+
+    An NLWeb envelop contains the sender’s `Timestamp` in UTC format.
+    - Receivers discard envelopes with a timestamp outside accepted time boundaries. 
+    
+    An envelope also contains a `Correlation` UUID.
+    - This uniquely identifies the outbound message in the sender’s domain.
+    - Receivers discard envelopes with duplicate incoming correlations within accepted time boundaries.
+
+    ---
+    <br/>
+
+10. **How do receiver domains differentiate methods?**
+
+    An NLWeb envelop contains a `Subject` that identifies how the receiver should handle the message:
+    - e.g., `Hello@Host` refers to the [Hello 🐌 method](<../../../6 🅰️ APIs/50 🤗🅰️ Host/01 🤵🐌🤗 Hello.md>) in the [Host 🤗 domain role](<../../20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>).
+    - The possible `Subject` values are defined by the APIs implemented by [domain Roles 🎭](<../44 📜 Manifests/00 👥 Domain.md>).
+    - Receivers discard envelopes with unexpected subjects.
+
+    ---
+    <br/>
    
 1. **What is the signature for?**
 
@@ -175,53 +237,6 @@
     ---
     <br/>
 
-4. **How do receiver domains know who sent a message?**
-
-    An NLWeb envelope resembles an email message, containing a header and a body. 
-    - The header contains the sender’s domain name (e.g., `any-sender.com`) and the receiver’s domain name (e.g., `any-receiver.com`), as well as other metadata. 
-    - Receivers discard envelopes not intended to them.
-
-    ---
-    <br/>
-
-5. **How do receiver domains prevent sender impersonation attacks?**
-
-    NLWeb domains implement the ubiquitous [DKIM (rfc6376) protocol 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) used by email servers to verify envelopes received from other domains. 
-    
-    - Sender domains hash their envelopes with JSON Canonicalization Scheme (rfc8785) and sign them with their private half of the [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) key-pair. 
-    
-    - Receiver domains look up the public half of the sender’s [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) key-pair to verify the signature of incoming envelopes. The receiver expects to find the sender’s public key in DKIM format in a DNS entry named “nlweb” (e.g., `nlweb._domainkey.any-sender.com`). 
-    
-    - The envelope is discarded if the sender’s [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) is not correctly implemented, or the sender’s public key is unable to verify the signature in the envelope.
-
-    ---
-    <br/>
-
-6. **How do receiver domains prevent DNS spoofing attacks?**
-
-    When getting the sender’s [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) public key, receiver domains check if DNSSEC is implemented on the sender’s domain;
-    - if not implemented, the envelope is discarded.
-
-    ---
-    <br/>
-
-7. **How do receiver domains prevent replay attacks?**
-
-    An NLWeb envelop contains the sender’s timestamp in UTC format - receivers discard envelopes with a timestamp outside accepted time boundaries. 
-    
-    - An envelope also contains a correlation UUID that uniquely identifies the outbound message in the sender’s domain.
-    - Receivers discard envelopes with duplicate incoming correlations within accepted time boundaries.
-
-    ---
-    <br/>
-
-8. **How do receiver domains handle upgraded schema versions?**
-
-    An NLWeb envelop contains a [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) that allows receivers to support multiple versions concurrently, handling incoming envelopes differently depending on its version. 
-    - Envelopes with unsupported versions are discarded.
-
-    ---
-    <br/>
 
 9.  **How do receiver domains reply to incoming messages?**
 
@@ -234,27 +249,16 @@
     ---
     <br/>
 
-10. **How do receiver domains differentiate methods?**
+12. **Can messages be compressed?** 
 
-    An NLWeb envelop contains a subject that identifies how the receiver should handle the message (e.g., payment request). 
-    - Receivers discard envelopes with unexpected subjects.
-
-    ---
-    <br/>
-
-11. **How can senders know if receivers discarded messages?**
-
-    When discarding an invalid message, receiver domains send a feedback message back to the sender with the original correlation ID. 
-    - The feedback is sent via HTTPS POST to the well-known feedback endpoint at the sender's domain (e.g., `https://nlweb.any-sender.com/feedback`). 
-    
-    To avoid infinite loops, this endpoint has a loose validation and does not provide follow-up feedbacks on incoming feedback messages;
-    - e.g., if both sender and receiver have invalid [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) entries, the receiver will discard the initial message from the sender because it cannot validate the signature, and will provide feedback to the sender about it; 
-    - the sender will also not be able to validate the receiver's feedback signature, but will try to process the feedback nonetheless.
+    HTTPS already handles compression:
+    - `HTTP/2` and `HTTP/3` compress the header;
+    - `Accept-Encoding` with `br, gzip` compresses the body. 
 
     ---
     <br/>
 
-12. **With HTTPS compression, how is BREACH prevented?** 
+13. **With HTTPS compression, how is BREACH prevented?** 
 
     BREACH is a category of vulnerabilities where, to be vulnerable, a web application must:     
     * be served from a server that uses HTTP-level compression,
@@ -271,7 +275,7 @@
     <br/>
 
 
-13. **Why are Manifests in YAML and Messages in JSON?** 
+13. **Why are Messages in JSON while Manifests are in YAML?** 
 
     NLWeb uses JSON, YAML, or MARKDOWN depending on the requirements.
 
@@ -282,3 +286,36 @@
     | `MARKDOWN` | Unstructured MARKDOWN for human-to-LLM instructions, when schema validations are not required; <br/>• e.g., description of products and services by business owners (like a detailed restaurant menu) for user [Curator 🧚 agents](<../../30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) to filter on behalf of users.
     
     ---
+    <br/>
+
+
+11. **How can senders know if receivers discarded messages?**
+
+    When discarding an invalid message, receiver domains send feedback to the sender with the original correlation ID. 
+    
+    * Sender domains define their [Buffer ⏳ helper domain](<03 ⏳🛠️ Buffer helper.md>) in the `Identity` section of their [domain Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>).
+       * If the `Feedback` property is not defined, then no feedback is given.
+       * Domains get of the [Buffer ⏳ helper domain](<03 ⏳🛠️ Buffer helper.md>) by calling the [Identity@Broker 🚀 request](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/04 👥🚀🕸 Identity.md>).
+  
+        ```yaml
+        🤝: nlweb.org/MANIFEST/IDENTITY
+        Identity:
+          Name: any-sender.com
+          Feedback: any-buffer.com
+        ```
+
+    * The feedback is sent via a [Buffer ⏳ helper domain](<03 ⏳🛠️ Buffer helper.md>) defined by the sender's domain, using the [Feedback@Buffer 🐌 API message](<../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/03 💼🐌 Feedback.md>). 
+        ```yaml
+        🤝: nlweb.org/MSG:1.0
+        Header:
+            From: any-receiver.com
+            To: any-buffer.com
+            Subject: Feedback@Buffer
+        Body:
+            Correlation: <correlation-uuid>
+            Status: Discarded
+            Reason: Invalid DKIM signature.
+        ```
+
+    ---
+    <br/>
