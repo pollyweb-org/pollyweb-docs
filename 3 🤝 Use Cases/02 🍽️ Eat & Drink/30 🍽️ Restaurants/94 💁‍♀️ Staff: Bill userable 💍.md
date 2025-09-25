@@ -3,6 +3,14 @@ How to collect userable payments at restaurants?
 
 > From [Eat at restaurants 🍽️](<01 🍽️ Index.md>)
 
+
+> [Userables 💍](<../../../4 ⚙️ Solution/70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) allow customers to pay without battery on their devices.
+
+> Referenced by [Verify Userables 🆔](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/05 🆔💍 Verify Userables.md>)
+
+<br/>
+
+
 ## 💬 Chat
 
 - Restaurants may charge fees for customers that order directly to staff.
