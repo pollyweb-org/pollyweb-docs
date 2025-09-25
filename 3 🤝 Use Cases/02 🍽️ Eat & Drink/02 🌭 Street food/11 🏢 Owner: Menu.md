@@ -1,4 +1,4 @@
-## 🌭 Street food menu
+# 🌭 Street food menu
 
 > From [Eat street food 🌭](<01 🌭 Index.md>)
 

@@ -63,10 +63,10 @@ Order a pizza for home delivery
     - CHARGE|{amount}|{biller-id} # 💳
     # Successful order.
     - SUCCESS|Order confirmed
-      - Details: {order-summary}
+      - EXPAND: {order-summary}
     - SHARE|nlweb.org/CONCIERGE/CONFIRM # 🛎️
     - TEMP|Preparing your order...
-      - Details: {order-summary}
+      - EXPAND: {order-summary}
     ```
 
     |Functions|Returns|Description
