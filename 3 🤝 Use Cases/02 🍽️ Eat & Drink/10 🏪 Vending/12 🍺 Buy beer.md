@@ -5,6 +5,9 @@
 
 > Vending machines ask the user's trusted [Identity 🆔 agent](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) to perform the authentication inside the chat on the user's device (e.g., [face scan 😶](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/04 🆔😶 Face scan.md>)).
 
+<br/>
+
+
 ## 💬 Chat
 
 | Service | Prompt | User

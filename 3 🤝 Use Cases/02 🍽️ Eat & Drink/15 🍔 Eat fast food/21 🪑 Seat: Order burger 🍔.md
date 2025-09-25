@@ -1,5 +1,10 @@
-# Order to the table at a fast food restaurant 🍔
+# Order to the table  🍔
 
+> From [Eat fast food 🍔](<01 🍔 Index.md>)
+
+<br/>
+
+## 💬 Chat
 
 | Service | Prompt | User
 | - | - | - |

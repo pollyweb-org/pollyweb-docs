@@ -1,5 +1,12 @@
-Pay at fast food kiosk to take away 🍔
----
+# Pay at  kiosk to take away 🍔
+
+> From [Eat fast food 🍔](<01 🍔 Index.md>)
+
+> The user leverages the kiosk's screen to chose what to eat. <br/>When done, they tap the kiosk's locator to see a personalized menu on their phone.
+
+<br/>
+
+## 💬 Chat
 
 | Service    | Prompt | User
 | - | - | - |
