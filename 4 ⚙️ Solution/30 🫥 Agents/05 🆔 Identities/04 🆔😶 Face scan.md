@@ -19,7 +19,7 @@
     |Industry|Use case 🤝
     |-|-
     |`Travel`| [👨‍✈️ Start a shift as a taxi driver](<../../../3 🤝 Use Cases/03 🧳 Travel/04 🧳 Travel by taxi 🚕/9 🚕 Driver @ Car 👨‍✈️/01 👨‍✈️ Start shift.md>)
-    |`Hospitality`|[🎰 Enter anonymously at a casino](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/08 🎰 Drink at casinos/1 Customer @ Door 🚪/11. Enter anonymously.md>)
+    |`Hospitality`|[🎰 Enter anonymously at a casino](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/80 🎰 Drink at casinos/1 Customer @ Door 🚪/11. Enter anonymously.md>)
     |`Hospitality`|[🏨 Check-in at a hotel](<../../../3 🤝 Use Cases/03 🧳 Travel/08 🧳 Stay at hotels 🏨/03 🏨 Guest @ Reception 🛎️/04 🛎️ Check-in.md>)
     |`Financial`|[🏧 Withdraw cash from an ATM](<../../../3 🤝 Use Cases/05 🛠️ Services/03 🏧 Withdraw at ATMs/10 Customer @ ATM/11 Withdraw cash.md>)
     |`Governments`|[🏛️ Request a proof of address](<../../../3 🤝 Use Cases/08 🏛️ Public Services/08 📮 Prove address/1 Customer @ Anywhere/11. Proof of Address.md>)
@@ -55,7 +55,7 @@
     | `Security`| 🎬 [Cross gates with a Userable at an airport](<../../70 🌳 Ambient/74 💍 Brand Userables/14 💍🎬 Userable gates.md>)
     | `Payments` | 💍 [Pay a salesperson using a Userable](<../../70 🌳 Ambient/74 💍 Brand Userables/21 💍💳 Userable pay salesperson.md>) 
     | `Payments` | [💳 Pay seller with a Userable on a kiosk](<../../70 🌳 Ambient/74 💍 Brand Userables/22 💍💳 Userable pay kiosk.md>) 
-    |`Payments` | [💁‍♀️ Pay a restaurant bill with a Userable](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/03 🍽️ Restaurants/94 💁‍♀️ Staff: Bill userable 💍.md>)|
+    |`Payments` | [💁‍♀️ Pay a restaurant bill with a Userable](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/30 🍽️ Restaurants/94 💁‍♀️ Staff: Bill userable 💍.md>)|
     |`Social`| [💍 Aid a confused senior with a Userable](<../../70 🌳 Ambient/74 💍 Brand Userables/13 💍📱 Userable senior user.md>)
 
 

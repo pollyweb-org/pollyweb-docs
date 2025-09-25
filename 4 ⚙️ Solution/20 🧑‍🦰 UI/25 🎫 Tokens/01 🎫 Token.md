@@ -85,7 +85,7 @@
     - [Identity-bound 🆔 tokens](<../../30 🫥 Agents/05 🆔 Identities/07 🆔🎫 ID Tokens.md>) reference a trusted [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) that is able to authenticate the user - e.g., with a [Face scan 😶](<../../30 🫥 Agents/05 🆔 Identities/04 🆔😶 Face scan.md>).
 
 
-    The following [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>) excerpt from the [Casino Entry 🤝 use case](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/08 🎰 Drink at casinos/1 Customer @ Door 🚪/11. Enter anonymously.md>) illustrates the usage of an [Identity-bound 🆔 token](<../../30 🫥 Agents/05 🆔 Identities/07 🆔🎫 ID Tokens.md>).
+    The following [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>) excerpt from the [Casino Entry 🤝 use case](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/80 🎰 Drink at casinos/1 Customer @ Door 🚪/11. Enter anonymously.md>) illustrates the usage of an [Identity-bound 🆔 token](<../../30 🫥 Agents/05 🆔 Identities/07 🆔🎫 ID Tokens.md>).
 
 
     | Service | Prompt | User

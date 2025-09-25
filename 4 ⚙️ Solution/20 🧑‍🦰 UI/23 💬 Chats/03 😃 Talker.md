@@ -21,7 +21,7 @@
 2. **What are examples of Talkers?**
 
     * [🏪 Buy drinks at vending machines](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/01 🏪 Vending/01 🏪 Index.md>)
-    * [🍕 Order pizza to deliver at home](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/04 🍕 Order pizza/21 🏠 Home: Order pizza.md>)
+    * [🍕 Order pizza to deliver at home](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/40 🍕 Order pizza/21 🏠 Home: Order pizza.md>)
   
 
     ---
