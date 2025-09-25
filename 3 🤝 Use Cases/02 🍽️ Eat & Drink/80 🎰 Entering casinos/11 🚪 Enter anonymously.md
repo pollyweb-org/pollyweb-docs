@@ -1,5 +1,7 @@
 # 🎰 Enter anonymously in a casino
 
+> From [Entering casinos 🎰](<01 🎰 Index.md>)
+
 > Mentioned in [Verify Identity-bound Tokens 🆔](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/04 🆔🎫 Verify Tokens.md>)
 
 Users can ask their [Identity 🆔 vault](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) for an age-related [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
