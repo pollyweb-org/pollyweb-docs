@@ -14,7 +14,7 @@
 ||[Receive hot dog 🧑‍🍳](<24 🎪 Stall: Receive hot dog.md>) | [`💖 Vitalogist`](<../../../4 ⚙️ Solution/30 🫥 Agents/09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) 
 ||[Pay after 💳](<31 🎪 Stall: Pay after 💳.md>) | [`💳 Payer`](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) 
 |
-|`🧑‍🍳 Staff`|[Start shift 🪪](<91 🧑‍🍳 Chef: Start shift 🪪.md>) | [`🎫 Token`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) [`🆔 Identity`](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>)
+|`🧑‍🍳 Staff`|[Start shift 🪪](<91 🧑‍🍳 Chef: Start shift 🪪.md>) | [`🎫 Token`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) [`🆔 Identity`](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>)
 ||[Serve 🌭](<92 🧑‍🍳 Chef: Serve 🌭.md>)
 ||[Bill wallet 💳](<93 🧑‍🍳 Chef: Bill wallet 💳.md>) | [`🏦 Collector`](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>)
 ||[Bill userable 💍](<94 🧑‍🍳 Chef: Bill userable 💍.md>) | [`🏦 Collector`](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) [`💳 Payer`](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) 
@@ -45,7 +45,7 @@
 
     |  Agent| Purpose
     |-|-
-    [🆔 Identity](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | To verify the [staff Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>).
+    [🆔 Identity](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | To verify the [staff Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>).
     |
 
     

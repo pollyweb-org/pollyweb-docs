@@ -11,8 +11,8 @@
 
     ![](<00 📎 Assets/💳 Biller User.png>)
 
-    For a user to [sign](<../05 🆔 Identities/08 🆔🔏 User Signature.md>) a subscription, the following preconditions must be met:
-    - 1/ the user has default [Payer 💳](<03 💳🎭 Payer role.md>) and [Identity 🆔 domains](<../05 🆔 Identities/03 🆔🫥 Identity agent.md>);
+    For a user to [sign](<../05 🆔 Identities/08 🆔🔏 Verify Files.md>) a subscription, the following preconditions must be met:
+    - 1/ the user has default [Payer 💳](<03 💳🎭 Payer role.md>) and [Identity 🆔 domains](<../05 🆔 Identities/01 🆔🫥 Identity agent.md>);
     - 2/ the Seller has a default [Collector 🏦 domain](<01 🏦🛠️ Collector helper.md>).
 
     The following steps describe a subscription workflow:
@@ -20,7 +20,7 @@
     - 2/ the user selects a subscription in the chat;
     - 3/ the Seller's Biller sends the PDF terms to the user;
     - 4/ the user accepts the PDF terms;
-    - 5/ the user's [Identity 🆔 domain](<../05 🆔 Identities/03 🆔🫥 Identity agent.md>) authenticates the user;
+    - 5/ the user's [Identity 🆔 domain](<../05 🆔 Identities/01 🆔🫥 Identity agent.md>) authenticates the user;
     - 6/ the user's Payer asks the user for a payment method;
     - 7/ the Seller confirms the subscription;
     - 8/ the Biller initiates the monthly collection.

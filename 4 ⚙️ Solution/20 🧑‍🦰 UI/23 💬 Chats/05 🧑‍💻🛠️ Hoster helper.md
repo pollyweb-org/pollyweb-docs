@@ -40,7 +40,7 @@
     |-|-
     | [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) | To authenticate and [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) with the [Hoster 🧑‍💻 domain](<05 🧑‍💻🛠️ Hoster helper.md>).
     | [Payer 💳 agent](<../../30 🫥 Agents/04 💳 Payers/04 💳🫥 Payer agent.md>) | To pay for usage and subscription plans.
-    | [Identity 🆔 agent](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | To authenticate the domain user.
+    | [Identity 🆔 agent](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | To authenticate the domain user.
     | [Folder 🗂️ editor](<../../20 🧑‍🦰 UI/26 🗂️ Folders/01 🗂️ Folder editor.md>) | To manage the settings of the hosted [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).
 
     ---

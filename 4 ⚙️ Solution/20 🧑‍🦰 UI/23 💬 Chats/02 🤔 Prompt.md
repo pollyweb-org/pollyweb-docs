@@ -39,7 +39,7 @@
     | 🗓️&nbsp;UNTIL | Asks for a date/time in the future.
     | 📍&nbsp;LOCATION | Asks for the current location.
     | 🗺️&nbsp;TRACK | Asks to track the location.
-    | 👤&nbsp;IDENTIFY | Opens a pop-up for the user's [Identity 🆔 agent](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) to perform a face scan.
+    | 👤&nbsp;IDENTIFY | Opens a pop-up for the user's [Identity 🆔 agent](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) to perform a face scan.
     | 🛒&nbsp;EAN | Scans for ENA-13 and EAN-8 barcodes.
     | 🔆&nbsp;SCAN | Asks to touch/scan a [QR/NFC Locator 🔆](<../22 🔆 Locators/01 🔆 Locator.md>).
     | 🦋&nbsp;TOUCH | Asks to touch/scan a [QR/NFC Ephemeral 🦋 device](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>).

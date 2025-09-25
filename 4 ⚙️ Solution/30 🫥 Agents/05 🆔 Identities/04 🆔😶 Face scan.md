@@ -1,10 +1,15 @@
 🆔 Identity face verification FAQ
 ===
 
+> Part of [Identity 🆔 domains](<01 🆔🫥 Identity agent.md>)
+
+<br/> 
+
+
 1. **What is a face verification?**
 
     A [Face scan 😶](<04 🆔😶 Face scan.md>)
-    * is a [face verification 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/01 📺 Difference.md>)  by an [Identity 🆔 vault](<03 🆔🫥 Identity agent.md>) 
+    * is a [face verification 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/01 📺 Difference.md>)  by an [Identity 🆔 vault](<01 🆔🫥 Identity agent.md>) 
     * to verify if the person in front of the camera
     * is really the owner of something they are presenting
     * has part of a multi-factor authentication workflow.
@@ -20,34 +25,6 @@
     |[🎫 Token](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)| Was the [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) really issued to the person holding the device?
     |[💍 Userable](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>)| Is it really the [Userable 💍](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) owner [tapping 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) it on a scanner?
   
-    ---
-    <br/>
-
-3. **How to verify a Wallet ownership?**
-
-    Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) excerpt
-    * as an example of [face verification 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/01 📺 Difference.md>) 
-    * for the ownership of a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
-        
-    | Service | Prompt | User
-    | - | - | - |
-    | 🤗 [Host](<../../20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) | 😐 Start risky task [Yes, No] | > Yes
-    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../30 🫥 Agents/05 🆔 Identities/04 🆔😶 Face scan.md>)
-    | 🤗 [Host](<../../20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Verified, task started!
-    |
-
-
-    Other use cases include.
-
-    |Industry|Use case 🤝
-    |-|-
-    | `Retail` | [🍺 Buy beer at a vending machine](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/10 🏪 Vending/12 🍺 Buy beer.md>)
-    |`Hospitality`|[🎰 Enter anonymously at a casino](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/80 🎰 Drink at casinos/1 Customer @ Door 🚪/11. Enter anonymously.md>)
-    |`Financial`|[🏧 Withdraw cash from an ATM](<../../../3 🤝 Use Cases/05 🛠️ Services/03 🏧 Withdraw at ATMs/10 Customer @ ATM/11 Withdraw cash.md>)
-    |`Governments`|[🏛️ Request a proof of address](<../../../3 🤝 Use Cases/08 🏛️ Public Services/08 📮 Prove address/1 Customer @ Anywhere/11. Proof of Address.md>)
-    |`Health`| [💍 Trigger a Userable emergency](<../../70 🌳 Ambient/74 💍 Brand Userables/02 💍🚨 Userable emergencies.md>)
-    
-
     ---
     <br/>
 
@@ -69,7 +46,7 @@
 2. **How to verify someone else's Userable?**
 
     Yes. 
-    * A [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) owned by person `A` can authenticate a person `B` in a [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) when the [Chat's Host 🤗 domain](<../../20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) invites the [Identity 🆔 vault](<03 🆔🫥 Identity agent.md>) of person `B` into the [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>).
+    * A [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) owned by person `A` can authenticate a person `B` in a [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) when the [Chat's Host 🤗 domain](<../../20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) invites the [Identity 🆔 vault](<01 🆔🫥 Identity agent.md>) of person `B` into the [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>).
     * This is particularly useful when working with [Userable 💍 things](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) where the owner's identity needs to be confirmed on [payments 🤝 scenarios](<../../70 🌳 Ambient/74 💍 Brand Userables/21 💍💳 Userable pay salesperson.md>) and [item recovery 🤝 scenarios](<../../70 🌳 Ambient/74 💍 Brand Userables/13 💍📱 Userable senior user.md>) via another [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
 
     Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) as an example.
@@ -80,7 +57,7 @@
     | 🤗 [Host](<../../20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Userable 💍 presented.
     | 🤗 [Host](<../../20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Are you the owner? [Yes, No] | > No
     | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Allow guest vaults? [Yes, No]  <br/> -  #1: Any Identity 🆔 <br/>- [ Always ] for Any Host 🤗 | > Always
-    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's the owner.   | [📸 selfie](<../../30 🫥 Agents/05 🆔 Identities/04 🆔😶 Face scan.md>)
+    | 🆔 [Identity](<01 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's the owner.   | [📸 selfie](<../../30 🫥 Agents/05 🆔 Identities/04 🆔😶 Face scan.md>)
     | 🤗 [Host](<../../20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Ownership confirmed.
     |
 
@@ -107,9 +84,9 @@
 
     | # | Step
     |-|-
-    |1| The user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) <br/>• opens a web-browser window <br/>• to the liveness check URL of the [Locator's Identity 🆔 vault](<03 🆔🫥 Identity agent.md>), <br/>• passing anti-fraud information like device location and device configurations.
-    |2| The webpage of the [Identity 🆔 vault](<03 🆔🫥 Identity agent.md>) <br/>• activates the device's camera to record the user's video for liveness check <br/>• extracts the relevant images <br/>• and compares them to the user images on the given [Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>). 
-    |3| Additionally, depending on the anti-fraud contextualized info, <br/>• the [Identity 🆔 vault](<03 🆔🫥 Identity agent.md>) asks security questions and one-time-passwords (OTP).
+    |1| The user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) <br/>• opens a web-browser window <br/>• to the liveness check URL of the [Locator's Identity 🆔 vault](<01 🆔🫥 Identity agent.md>), <br/>• passing anti-fraud information like device location and device configurations.
+    |2| The webpage of the [Identity 🆔 vault](<01 🆔🫥 Identity agent.md>) <br/>• activates the device's camera to record the user's video for liveness check <br/>• extracts the relevant images <br/>• and compares them to the user images on the given [Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>). 
+    |3| Additionally, depending on the anti-fraud contextualized info, <br/>• the [Identity 🆔 vault](<01 🆔🫥 Identity agent.md>) asks security questions and one-time-passwords (OTP).
 
     ---
     <br/>
@@ -117,9 +94,9 @@
 
 2. **How are users' face biometrics protected from Sellers?**
 
-    NLWeb advocates for online face authentication between [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and [Identity 🆔 vaults](<03 🆔🫥 Identity agent.md>), without sharing user biometrics with [Seller 💵 domains](<../04 💳 Payers/01 💵🎭 Seller role.md>);
+    NLWeb advocates for online face authentication between [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and [Identity 🆔 vaults](<01 🆔🫥 Identity agent.md>), without sharing user biometrics with [Seller 💵 domains](<../04 💳 Payers/01 💵🎭 Seller role.md>);
     - e.g., when a [Seller 💵 domain](<../04 💳 Payers/01 💵🎭 Seller role.md>) needs to match a person with a [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>), 
-    - it contacts the [Token's  Identity 🆔 domain](<03 🆔🫥 Identity agent.md>) to perform the authentication 
+    - it contacts the [Token's  Identity 🆔 domain](<01 🆔🫥 Identity agent.md>) to perform the authentication 
     - via the user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) in a [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>), 
     - and only return a success/failure to the [Seller 💵 domain](<../04 💳 Payers/01 💵🎭 Seller role.md>) . 
     
@@ -127,7 +104,7 @@
     * i.e. when the user only has a printed QR or and NFC card with the [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>), 
     * then the [Seller 💵 domain](<../04 💳 Payers/01 💵🎭 Seller role.md>) needs to take the user's picture 
     * with a fixed camera in a supervised fashion, 
-    * then ask the [Token's  Identity 🆔 domain](<03 🆔🫥 Identity agent.md>) to match the picture with the [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>), 
+    * then ask the [Token's  Identity 🆔 domain](<01 🆔🫥 Identity agent.md>) to match the picture with the [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>), 
     * and then delete the picture according to regulatory requirements. 
 
     ---

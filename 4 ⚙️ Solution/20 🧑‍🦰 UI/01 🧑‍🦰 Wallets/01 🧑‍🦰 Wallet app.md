@@ -73,10 +73,10 @@
 
 5. **How do users migrate a Wallet to another phone?**
 
-    To migrate a [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to another phone, a user first needs to bind an [Identity 🆔 agent domain](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) on the old phone, and then generate a migration QR [Token 🎫](<../25 🎫 Tokens/01 🎫 Token.md>).
+    To migrate a [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to another phone, a user first needs to bind an [Identity 🆔 agent domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) on the old phone, and then generate a migration QR [Token 🎫](<../25 🎫 Tokens/01 🎫 Token.md>).
     
     * On the new phone, the user needs to install a [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), then scan the migration QR of the old Wallet.
-    * The [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) will invoke the [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) on the new phone to perform an identity authentication (e.g., face scan), and then will automatically decommission the old Wallet.
+    * The [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) will invoke the [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) on the new phone to perform an identity authentication (e.g., face scan), and then will automatically decommission the old Wallet.
 
     ---
     <br/>

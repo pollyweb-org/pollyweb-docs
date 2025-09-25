@@ -18,25 +18,6 @@
     
 
     
-2. **How do users set up an Identity domain?**
-
-    ![](<00 📎 Assets/🆔 Biometrics.png>)
-
-    [Identity 🆔 vaults](<03 🆔🫥 Identity agent.md>) require users to collect their biometric signatures in a [supervised 👮](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/00 👮 Supervised ID Index.md>) biometric collection center, typically managed by public authorities.
-    
-    Advantages of this restriction include: 
-    - mitigated risk of identity fraud in supervised settings;
-    - delegated trust in sovereign nations' management of citizen biometrics;
-    - reduced AI risk exposure for domains requiring human authentication;
-    - alignment with the Europe Union (EU) AI Act, released in 2024.
-
-    The biometric center:
-    * collects the user's biometrics (e.g., face, palm, voice), 
-    * tags it to a limited set of verifiable codes (e.g., passport number, national ID, social security), 
-    * and stores it in compliance with data residency regulations.
-
-    ---
-    <br/>
     
 3. **Do Identity domains always authenticate users the same way?**
 
@@ -54,7 +35,7 @@
 4. **Can users with dual nationality bind to two Identity domains?**
 
     Yes. 
-    * Users with dual nationality may even have two or more bound [Identity 🆔 vault](<03 🆔🫥 Identity agent.md>), one per nationality. 
+    * Users with dual nationality may even have two or more bound [Identity 🆔 vault](<01 🆔🫥 Identity agent.md>), one per nationality. 
 
     ---
     <br/>
@@ -62,7 +43,7 @@
 5. **What authentication mechanisms are supported by Wallets?**
 
     NLWeb natively supports key pairs (passkeys) and one time passwords (OTP). 
-    * However, [Identity 🆔 vault](<03 🆔🫥 Identity agent.md>) are free to implement whatever authentication mechanisms they want using the generic tools available. 
+    * However, [Identity 🆔 vault](<01 🆔🫥 Identity agent.md>) are free to implement whatever authentication mechanisms they want using the generic tools available. 
     
     For example: 
     - security questions can be implemented with generic inputs (e.g., text, lists, numbers); 

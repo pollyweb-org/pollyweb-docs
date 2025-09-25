@@ -26,7 +26,7 @@
     |🧚| [Curator](<../../30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) | ChatGPT | Filters options sent by [Host 🤗 domains](<../23 💬 Chats/04 🤗🎭 Host role.md>).
     |🧳| [Custodian](<../../70 🌳 Ambient/71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) | FindMy | Manages the user's [Things 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>), including [Userables 💍](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) and [⌚ Tapbands](<../../70 🌳 Ambient/76 ⌚ Brand Tapbands/01 ⌚💠 Tapband thing.md>).
     |🔎| [Finder](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | Google | Searches for [Host 🤗 domains](<../23 💬 Chats/04 🤗🎭 Host role.md>), and  introduces them when they start a new [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>).
-    |🆔|[Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | IDOne | Confirms that the user is physically present behind the remote screen.
+    |🆔|[Identity](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | IDOne | Confirms that the user is physically present behind the remote screen.
     |🌼| [Keybox](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/04 🌼🗄️ Keybox vault.md>) | FindMy | Stores and manages the user's [Padlock 🔒](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/01 🔒 Padlock device.md>) keys.
     |📇| [Mingler](<../../30 🫥 Agents/08 📇 Minglers/01 📇🫥 Mingler agent.md>) | WhatsApp | Connects multiple users in a [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>), allowing them to exchange [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>).
     |🧭| [Navigator](<../../30 🫥 Agents/07 🧭 Navigators/05 🧭🫥 Navigator agent.md>) | G.Maps | Helps users going from point A to B.
@@ -54,9 +54,9 @@
 
     * And no, Agents 🫥 are not singletons from the perspective [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) allow roles not to have a default Agent 🫥 when there are more than one [Vault 🗄️ domains](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) that support the role's [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>).
 
-        * One use case where this is important is when a user has two nationalities (e.g., French and Japanese), and each nation needs its own [Identity 🆔 agent](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>).
+        * One use case where this is important is when a user has two nationalities (e.g., French and Japanese), and each nation needs its own [Identity 🆔 agent](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>).
 
-        * When this happens, the user's [Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) will ask the user to select which of the two [Identity 🆔 agents](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) should receive the [Host 🤗 domain](<../23 💬 Chats/04 🤗🎭 Host role.md>) request.
+        * When this happens, the user's [Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) will ask the user to select which of the two [Identity 🆔 agents](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) should receive the [Host 🤗 domain](<../23 💬 Chats/04 🤗🎭 Host role.md>) request.
 
     ---
     <br/>
