@@ -138,7 +138,7 @@
     Yes, but only temporary [Prompts 🤔](<02 🤔 Prompt.md>). 
     - If a [Host 🤗 domain](<04 🤗🎭 Host role.md>) sends  two consecutive blocking [Prompts 🤔](<02 🤔 Prompt.md>) while the user has not answered the first, then the first becomes readonly and the second becomes the active input.
     - If the [Host 🤗 domain](<04 🤗🎭 Host role.md>) wants a [Prompts 🤔](<02 🤔 Prompt.md>) to be visually replaced, then they need to use a temporary [Prompts 🤔](<02 🤔 Prompt.md>), visually represented by an hourglass ⏳ emoji. 
-    - This is particularly useful when [preparing food 🤝](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/03 🍽️ Restaurants/53 🪑 Seat: Change order 🌀.md>), when [waiting food orders 🤝](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/03 🍽️ Restaurants/82 🧑‍🍳 Chef: Prepare food 🥘.md>), and when reminding users of [upcoming bookings 🤝](<../../../3 🤝 Use Cases/03 🧳 Travel/05 🧳 Travel by hailing 🙋/1 🙋 Customer @ Home 🏠/12 🏠 Book.md>).
+    - This is particularly useful when [preparing food 🤝](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/30 🍽️ Restaurants/53 🪑 Seat: Change order 🌀.md>), when [waiting food orders 🤝](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/30 🍽️ Restaurants/82 🧑‍🍳 Chef: Prepare food 🥘.md>), and when reminding users of [upcoming bookings 🤝](<../../../3 🤝 Use Cases/03 🧳 Travel/05 🧳 Travel by hailing 🙋/1 🙋 Customer @ Home 🏠/12 🏠 Book.md>).
 
     ---
     <br/>

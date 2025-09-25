@@ -106,7 +106,7 @@
 1. **Do Collectors accept split payments?**
 
     Yes, as in the following examples:
-    * [🍽️ Split restaurant bill](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/03 🍽️ Restaurants/74 💳 Pay: Split bill ✂️.md>);
+    * [🍽️ Split restaurant bill](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/30 🍽️ Restaurants/74 💳 Pay: Split bill ✂️.md>);
     * [🚕 Split taxi ride](<../../../3 🤝 Use Cases/03 🧳 Travel/04 🧳 Travel by taxi 🚕/2 🚕 Customer @ Car/23. Split with friends.md>).
     
     
