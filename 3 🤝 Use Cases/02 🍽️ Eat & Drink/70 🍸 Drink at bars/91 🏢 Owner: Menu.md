@@ -1,3 +1,9 @@
+> From  [Drink at bars 🍸](<01 🍸 Index.md>)
+
+<br/>
+
+## Menu
+
 ```yaml
 Any Bar Menu:
 

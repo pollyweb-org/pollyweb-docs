@@ -1,6 +1,6 @@
 # Ask for a beer with age proof
 
-> From 
+> From  [Drink at bars 🍸](<01 🍸 Index.md>)
 
 <br/>
 
