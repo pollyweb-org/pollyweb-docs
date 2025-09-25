@@ -1,5 +1,11 @@
-Wait for order to the table at a fast food restaurant 🍔
----
+# Wait for order to the table  🍔
+
+> From [Eat fast food 🍔](<01 🍔 Index.md>)
+
+<br/>
+
+## 💬 Chat
+
 
 | Service | Prompt | User
 | - | - | - |

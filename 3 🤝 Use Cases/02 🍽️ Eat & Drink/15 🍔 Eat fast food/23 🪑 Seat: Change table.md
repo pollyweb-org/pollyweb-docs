@@ -1,5 +1,10 @@
-Change table after ordering at a fast food restaurant 🍔
----
+# Change table after ordering  🍔
+
+> From [Eat fast food 🍔](<01 🍔 Index.md>)
+
+<br/>
+
+## 💬 Chat
 
 | Service | Prompt | User
 | - | - | - |
