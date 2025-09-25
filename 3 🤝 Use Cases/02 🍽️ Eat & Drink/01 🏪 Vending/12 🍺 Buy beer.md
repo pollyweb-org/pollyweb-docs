@@ -1,5 +1,5 @@
-🍺 Buy age-restricted drinks at a vending machine 
----
+# 🍺 Buy age-restricted drinks at a vending machine 
+
 
 > From [🏪 Drink at vending machines](<01 🏪 Index.md>)
 

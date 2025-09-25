@@ -1,5 +1,5 @@
-Order to the table at a fast food restaurant 🍔
----
+# Order to the table at a fast food restaurant 🍔
+
 
 | Service | Prompt | User
 | - | - | - |
@@ -17,3 +17,56 @@ Order to the table at a fast food restaurant 🍔
 | 🍔 Fast Food | ⏳ Order in queue... [+] 
 ...
 ||
+
+
+
+<br/>
+
+## 💼 Business Setup
+
+1. **What does the [😃 Domain Talker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 😃 Talker.md>) look like?**
+
+    ```yaml
+    💬 Order:
+    - FLOW|order
+    - SHARE|nlweb.org/CURATOR/ORDER|{menu-locator} # 🧚 
+    - INFO|{order-summary}|Change
+    - SHARE|nlweb.org/VITALOGIST/REVIEW|{order-details} # 💖
+    - CHARGE|{amount} 
+    - SUCCESS|Eat-in submitted
+      - EXPAND: {order-summary}
+    - TEMP|Order in queue...
+      - EXPAND: {order-summary}
+    ```
+
+    |Functions|Returns|Description
+    |-|-|-
+    | `menu-locator` | string | [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) of the menu.
+    | `order-summary`| markdown | [Curator 🧚 agent](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) choices:<br/>- plus ongoing status.
+    |
+
+<br/> 
+
+1. **What does the Manifest Flow look like?**
+
+    ```yaml
+    Flows:
+
+        order: 
+            Title: Order
+            Steps:
+            - Input: SHARE|nlweb.org/NAVIGATOR/DESTINATION
+              Purpose: your navigator sets where 🧭
+            - Input: SHARE|nlweb.org/CONCIERGE/COURIER
+              Purpose: your concierge sets how 🛎️  
+            - Input: SHARE|nlweb.org/CURATOR/FILTER
+              Purpose: your curator orders 🧚
+            - Input: SHARE|nlweb.org/VITALOGIST/REVIEW
+              Purpose: your vitalogist reviews 💖 
+            - Input: SHARE|nlweb.org/CONCIERGE/REVIEW
+              Purpose: your concierge reviews 🛎️  
+            - Input: SHARE|nlweb.org/SCHEDULER/REVIEW
+              Purpose: your scheduler reviews 🗓️ 
+            - Input: CHARGE
+              Purpose: your payer pays the bill 💳              
+    ```
