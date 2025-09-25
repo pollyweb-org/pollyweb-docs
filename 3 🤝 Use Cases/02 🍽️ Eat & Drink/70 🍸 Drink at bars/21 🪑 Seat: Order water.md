@@ -1,6 +1,10 @@
-How to ask for water?
----
+# Ask for water
 
+> From 
+
+<br/>
+
+## 💬 Chat
 | Service | Prompt | User
 | - | - | - |
 | | | 🔆 [tap](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>)
@@ -13,6 +17,7 @@ How to ask for water?
 | 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) | 💭 Here are suggestions: <br/>- [ white wine 🍷 ] <br/> - [ Still water 💧 ] <br/> - [ tap water 🚰 ] | > Tap water
 | 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) | 💭 Anything else? [Yes, No]     | > No
 | 🍸 Bar        | ℹ️ Order: [Change] <br/>- Tap water
+| 💳 [Payer](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Pay £1.00 bill? 🧾 [No] <br/>- [ Pay later ] with table <br/>- [ Card ABC ] + $0.10 <br/>- [ Card DEF ] (free) | > Pay later |
 | 🍸 Bar        | ✅ Order submitted [+]
 | 🍸 Bar        | ⏳ Preparing your order... [+] 
 | 🍸 Bar        | ℹ️ Ready, we'll take it there [+]
