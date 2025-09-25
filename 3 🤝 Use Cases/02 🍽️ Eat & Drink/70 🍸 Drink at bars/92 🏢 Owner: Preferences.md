@@ -1,4 +1,4 @@
-### **Example of a customer's drink preferences at bars.**  
+# Example of a customer's drink preferences at bars.  
 
 | Question        | Type  | Preference
 |-|-|-|

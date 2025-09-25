@@ -4,9 +4,9 @@
 
 | Service | Prompt | User
 | - | - | - |
-| | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>)
-| 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Bar (4.4 ⭐) [+]
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Staff [🪪 token](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) shared [+]
+| | | 🔆 [tap](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>)
+| 🔎 [Finder](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Bar (4.4 ⭐) [+]
+| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Staff [🪪 token](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) shared [+]
 | 🍸 Bar        | 😃 Hi Daniel, what's up? <br/>- [ Serve ] customers <br/>- [ Something else ] | > Serve
 | 🍸 Bar        | ⏳ Waiting orders... [+] 
 | 🍸 Bar        | 😃 Accept order? [Yes, No] <br/>- 1 lager pint 🍺 <br/>- sparkling water (50 cl) ✨ <br/>- for table 23 👥 | > Yes

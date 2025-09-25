@@ -1,3 +1,4 @@
+```yaml
 Any Bar Menu:
 
 - Beer:
@@ -78,3 +79,4 @@ Any Bar Menu:
     - Crisps (Walkers): £1.50
     - Nuts (KP Nuts): £2.00
     - Olives: £3.50
+```
