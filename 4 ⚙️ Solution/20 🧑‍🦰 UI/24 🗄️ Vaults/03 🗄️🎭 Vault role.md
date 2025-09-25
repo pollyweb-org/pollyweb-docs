@@ -201,7 +201,7 @@
     | [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | [Unbind 🐌](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/02 🤵🐌🗄️ Unbind.md>) | Remove a [Bind 🔗](<01 🔗 Bind.md>) |
     | [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | [Disclose 🐌](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/03 🤵🐌🗄️ Disclose.md>) | Disclose the data of a [Bind 🔗](<01 🔗 Bind.md>) |
     | [Consumer 💼](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) | [Collect 🚀](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>) | Return the data disclosed
-    | [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | [Suppress 🐌](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/04 🤵🐌🗄️ Suppress.md>) | Suppress [🖐️ Palm scans](<../../30 🫥 Agents/05 🆔 Identities/05 🆔🖐️ Palm scan.md>) |
+    | [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | [Suppress 🐌](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/04 🤵🐌🗄️ Suppress.md>) | Suppress [🖐️ Palm scans](<../../30 🫥 Agents/05 🆔 Identities/11 🆔🖐️ Palm scan.md>) |
 
     ---
     <br/>
