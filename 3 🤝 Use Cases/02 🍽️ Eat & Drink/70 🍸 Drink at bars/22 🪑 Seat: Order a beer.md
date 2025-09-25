@@ -1,5 +1,10 @@
-How to ask for a beer with age proof?
----
+# Ask for a beer with age proof
+
+> From 
+
+<br/>
+
+## 💬 Chat
 
 | Service | Prompt | User
 | - | - | - |
