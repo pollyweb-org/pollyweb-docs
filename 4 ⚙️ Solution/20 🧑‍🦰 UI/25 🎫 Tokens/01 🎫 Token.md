@@ -45,8 +45,8 @@
     | 4| `Usarable`| When the NFC of the [Userable 💍 thing](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) is [tapped 🔆](<../22 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) on the [scanner ✨ device](<../../60 🧰 Edge/66 ✨ Scanners/06 ✨🔌 Scanner device.md>) of a [Consumer 💼 domain](<../27 💼 Consumers/04 💼🎭 Consumer role.md>), the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) shares the [Tokens 🎫](<01 🎫 Token.md>).
     |5| `Printed`| From the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), users can print a [Token 🎫](<01 🎫 Token.md>).
     |6| `Printed` | The user can then present the printed [Token 🎫](<01 🎫 Token.md>) to the [scanner ✨ device](<../../60 🧰 Edge/66 ✨ Scanners/06 ✨🔌 Scanner device.md>) of a [Consumer 💼 domain](<../27 💼 Consumers/04 💼🎭 Consumer role.md>).
-    |7| `Identity` | If the [Token 🎫](<01 🎫 Token.md>) contains the [Locator 🔆](<../22 🔆 Locators/01 🔆 Locator.md>) of an [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>), then it means that the [Token 🎫](<01 🎫 Token.md>) was issued to a specific person only.
-    |8| `Identity`| The [Consumer 💼 domain](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) can then ask the [Token's Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) to verify if it is really that person holding the presented [Token 🎫](<01 🎫 Token.md>) or not.
+    |7| `Identity` | If the [Token 🎫](<01 🎫 Token.md>) contains the [Locator 🔆](<../22 🔆 Locators/01 🔆 Locator.md>) of an [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>), then it means that the [Token 🎫](<01 🎫 Token.md>) was issued to a specific person only.
+    |8| `Identity`| The [Consumer 💼 domain](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) can then ask the [Token's Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) to verify if it is really that person holding the presented [Token 🎫](<01 🎫 Token.md>) or not.
 
     ---
     <br/>
@@ -82,10 +82,10 @@
 
     Yes, [Tokens 🎫](<01 🎫 Token.md>) can be identity-bound;
     - i.e., they can allow [Consumer 💼 domains](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>) to confirm that the holder of the Token is effectively the human for whom the [Token 🎫](<01 🎫 Token.md>)  was issue to. 
-    - [Identity-bound 🆔 tokens](<../../30 🫥 Agents/05 🆔 Identities/07 🆔🎫 ID Tokens.md>) reference a trusted [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) that is able to authenticate the user - e.g., with a [Face scan 😶](<../../30 🫥 Agents/05 🆔 Identities/04 🆔😶 Face scan.md>).
+    - [Identity-bound 🆔 tokens](<../../30 🫥 Agents/05 🆔 Identities/04 🆔🎫 Verify Tokens.md>) reference a trusted [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) that is able to authenticate the user - e.g., with a [Face scan 😶](<../../30 🫥 Agents/05 🆔 Identities/04 🆔😶 Face scan.md>).
 
 
-    The following [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>) excerpt from the [Casino Entry 🤝 use case](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/80 🎰 Drink at casinos/1 Customer @ Door 🚪/11. Enter anonymously.md>) illustrates the usage of an [Identity-bound 🆔 token](<../../30 🫥 Agents/05 🆔 Identities/07 🆔🎫 ID Tokens.md>).
+    The following [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>) excerpt from the [Casino Entry 🤝 use case](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/80 🎰 Drink at casinos/1 Customer @ Door 🚪/11. Enter anonymously.md>) illustrates the usage of an [Identity-bound 🆔 token](<../../30 🫥 Agents/05 🆔 Identities/04 🆔🎫 Verify Tokens.md>).
 
 
     | Service | Prompt | User
@@ -93,8 +93,8 @@
     | | | 🔆 [tap](<../22 🔆 Locators/01 🔆 Locator.md>)
     | 🔎 [Finder](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Casino (4.4 ⭐) [+]
     | 🎰 Casino   | ℹ️ Request for minimum age. [+]
-    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Share over 21? [Yes, No]      | > Yes
-    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../30 🫥 Agents/05 🆔 Identities/04 🆔😶 Face scan.md>)
+    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Share over 21? [Yes, No]      | > Yes
+    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../30 🫥 Agents/05 🆔 Identities/04 🆔😶 Face scan.md>)
     | 🎰 Casino   | ✅ Welcome, please enter!
     ||
 
@@ -198,8 +198,8 @@
     ```
 
     An identity-bound [Token 🎫](<01 🎫 Token.md>) also contains:
-    * the [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) - e.g., `any-identity.com`
-    * the resource key in the [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>)  - e.g., `person-1234`
+    * the [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) - e.g., `any-identity.com`
+    * the resource key in the [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>)  - e.g., `person-1234`
 
     ```yaml
     ```

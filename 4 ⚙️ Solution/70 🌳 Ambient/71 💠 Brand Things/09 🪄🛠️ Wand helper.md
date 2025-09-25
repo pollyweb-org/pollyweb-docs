@@ -28,7 +28,7 @@
     |-|-|-
     |1| `Tap/Scan` | Owners use their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to [tap 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) or [scan ✨](<../../20 🧑‍🦰 UI/22 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) the [Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) of a [Thing 💠](<01 💠 Thing.md>) with a given [Brand 🍏 domain](<07 🍏🎭 Brand role.md>).
     |2| `Open` | That opens a [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) with the [Wand 🪄 domain](<09 🪄🛠️ Wand helper.md>), acting on behalf of the [Brand 🍏](<07 🍏🎭 Brand role.md>). Owners can then do everything that guests can.
-    |3| `Identify` | The [Wand 🪄 domain](<09 🪄🛠️ Wand helper.md>) will detect the user's ownership by its registration on the [owner's Custodian 🧳 agent](<05 🧳🗄️ Custodian vault.md>), and will will provide the owner with admin access after authenticating the owner via the [owner's Identity 🆔 agent](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>).
+    |3| `Identify` | The [Wand 🪄 domain](<09 🪄🛠️ Wand helper.md>) will detect the user's ownership by its registration on the [owner's Custodian 🧳 agent](<05 🧳🗄️ Custodian vault.md>), and will will provide the owner with admin access after authenticating the owner via the [owner's Identity 🆔 agent](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>).
     |4| `Contact` | If allowed by the [Brand 🍏 domain](<07 🍏🎭 Brand role.md>), users will also be able to get in contact with the [Brand 🍏 domain](<07 🍏🎭 Brand role.md>).
 
     ---
@@ -39,7 +39,7 @@
     | [User Agent 🫥](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | Purpose
     |-|-
     | [🧳 Custodian](<05 🧳🗄️ Custodian vault.md>) | To allow users to manage their [Things 💠](<01 💠 Thing.md>).
-    | [🆔 Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | To authenticate users as owners of their [Things 💠](<01 💠 Thing.md>). 
+    | [🆔 Identity](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | To authenticate users as owners of their [Things 💠](<01 💠 Thing.md>). 
     | [📦 Storage](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>) | To allow users to store notes about their [Things 💠](<01 💠 Thing.md>).
 
     ---

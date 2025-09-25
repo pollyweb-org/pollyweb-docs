@@ -47,7 +47,7 @@
 
     [Persona 🧢 vaults](<02 🧢🫥 Persona agent.md>) are controlled by users, allowing them to define their preferences according to specific circumstances (e.g., a user may have different preferences when traveling for work or on family holidays). 
     
-    - Conversely, [Identity 🆔 vaults](<../05 🆔 Identities/03 🆔🫥 Identity agent.md>)  are controlled by nations on behalf of their citizens (e.g., the UK), allowing users to legally identity themselves at home and abroad.
+    - Conversely, [Identity 🆔 vaults](<../05 🆔 Identities/01 🆔🫥 Identity agent.md>)  are controlled by nations on behalf of their citizens (e.g., the UK), allowing users to legally identity themselves at home and abroad.
 
 
     ---

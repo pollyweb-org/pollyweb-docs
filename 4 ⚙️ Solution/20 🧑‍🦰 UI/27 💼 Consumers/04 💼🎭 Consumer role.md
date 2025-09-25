@@ -117,7 +117,7 @@
     |-|-|-|
     | 🏨 Hotel  | 😃 Hi! What do you need? <br/> - [ Check-in ] <br/> - [ Something else ] | > Check-in 
     | 🤵 [Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Flow: check-in [-] <br/> - your identity shares your ID 🆔 <br/> - your payer pays the stay 💳 <br/> - your curator set the room 🧚 <br/> - you save the room key 🤵  
-    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Share identity? [Yes, No] |
+    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Share identity? [Yes, No] |
 
     ---
     <br/>
@@ -138,10 +138,10 @@
     - Certain scenarios require the [Consumer 💼 domain](<04 💼🎭 Consumer role.md>) to verify if the person holding the [Token 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) is the person to whom the [Token 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) was issue to - e.g.:
         - at an airport border control, automatic gates need to match the face of the passport holder with the biometric signature contained in the electronic passport. 
     
-    - This requires an online request to an [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) that is [bound 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>) to the user and [trusted 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) by the [Consumer 💼 domain](<04 💼🎭 Consumer role.md>), allowing the token to be matched to the holder without disclosing the holder's identity to the [Consumer 💼 domain](<04 💼🎭 Consumer role.md>):
+    - This requires an online request to an [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) that is [bound 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>) to the user and [trusted 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) by the [Consumer 💼 domain](<04 💼🎭 Consumer role.md>), allowing the token to be matched to the holder without disclosing the holder's identity to the [Consumer 💼 domain](<04 💼🎭 Consumer role.md>):
         - e.g., while entering a casino, the casino can validate that the 21-years-old token is valid, and that the holder is the owner of the token, without knowing who the holder is. 
     
-    - The [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) can perform the authentication:
+    - The [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) can perform the authentication:
         - on the user's device (e.g., via multi-factor authentication or using the camera in the device), 
         - or through an external device (e.g., [Amazon One 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/07 🖐️ Palm pay landscape/02 📺 Amazon One.md>) palm reader).
 
@@ -151,8 +151,8 @@
     | Service | Prompt | User
     | - | - | - |
     | 🎰 Casino   | ℹ️ Request for minimum age. [+]
-    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Share over 21? [Yes, No]      | > Yes
-    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../30 🫥 Agents/05 🆔 Identities/04 🆔😶 Face scan.md>)
+    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Share over 21? [Yes, No]      | > Yes
+    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../30 🫥 Agents/05 🆔 Identities/04 🆔😶 Face scan.md>)
     | 🎰 Casino   | ✅ Welcome, please enter!
     
 
@@ -166,12 +166,12 @@
     - e.g., an adult may give their wallet's device to an under-aged child so that they can buy age-restricted goods at a self-service store. 
     
     In low-budget validations, 
-    - [Seller 💵 domains](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) ask the user's trusted [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) to perform the authentication inside the [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>) on the user's device;
+    - [Seller 💵 domains](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) ask the user's trusted [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) to perform the authentication inside the [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>) on the user's device;
     - depending on the circumstances, this can be a biometric face scan, voice recognition, OTP, security questions, or other. 
     
     In offline scenarios, 
     - where users carry an NFC card or a printed QR, 
-    - the [Seller 💵 domain](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) takes a photo of the user with a fixed camera, and then asks the [Token's Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/03 🆔🫥 Identity agent.md>) to match the [Token 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) with the picture.
+    - the [Seller 💵 domain](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) takes a photo of the user with a fixed camera, and then asks the [Token's Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) to match the [Token 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) with the picture.
 
     ---
     <br/>

@@ -1,6 +1,13 @@
 🆔 Identity palm vein scans FAQ
 ===
 
+
+> Part of [🆔 Identity domains](<01 🆔🫥 Identity agent.md>)
+
+ <br/>
+
+
+
 1. **Why use palm vein scanners instead of cameras?**
 
     [🖐️ Palm scanners](<../../60 🧰 Edge/63 🖐️ Palmists/01 🖐️🔌 Palmist device.md>) have the following advantages:
