@@ -1,6 +1,6 @@
 # 💼🐌 Feedback
 
-> Referenced by [domain Message 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>)
+> Mentioned in [domain Message 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>)
 
  > The feedback is sent via a [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>) defined by the sender's domain. 
 

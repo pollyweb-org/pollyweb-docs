@@ -1,5 +1,11 @@
 How to book a room at a hotel?
----
+===
+
+> Mentioned in [Verify Signatures 🆔](<../../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/05 🆔🔏 Verify Signatures.md>)
+
+<br/>
+
+## 💬 Chat
 
 | Service | Prompt  | User |
 |-|-|-|

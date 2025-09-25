@@ -2,6 +2,8 @@
 
 > From [Eat street food 🌭](<01 🌭 Index.md>)
 
+> Mentioned in [Verify Identity-bound Tokens 🆔](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/04 🆔🎫 Verify Tokens.md>)
+
 At the street market, vendors access the stall chat.
 - the supporter prepares the trays with a name.
 - the chef prepares the food and places it on the right tray.

@@ -17,6 +17,19 @@ TODO: Create the API methods
     ---
     <br/> 
     
+
+1. **What are examples of users signing documents?**
+
+    |Type|Use case 🤝
+    |-|-
+    | `Hotels` | [🏨 Sign terms when booking a hotel](<../../../3 🤝 Use Cases/03 🧳 Travel/08 🧳 Stay at hotels 🏨/01 🏨 Guest @ Home 🏠/01 🏠 Book hotel.md>)
+    | `Airlines`| [💺 Sign terms when checking into a flight](<../../../3 🤝 Use Cases/03 🧳 Travel/09 🧳 Travel by air 💺/14 💺 Ticket/05 Flight check in.md>)
+
+
+
+    ---
+    <br/>
+    
 1. **How do users sign a document?**
 
 
@@ -31,14 +44,15 @@ TODO: Create the API methods
     - **the content of the file to be signed** 
       - this allows the user to read the document before accepting to sign it;
     - **the file's hash** 
-      - this allows the Identity domain to [sign 🔏](<05 🆔🔏 Verify Files.md>) a document on behalf of a user without knowing the content of the document;
+      - this allows the Identity domain to [sign 🔏](<05 🆔🔏 Verify Signatures.md>) a document on behalf of a user without knowing the content of the document;
     - **user PII (e.g., passport number)** - this allows the Identity domain to match the Host's intent with the user 
       - e.g., ensure the request matches the tenant and not the landlord in a renting contract; 
-    - **a signature placeholder ID**, representing the requested [signature](<05 🆔🔏 Verify Files.md>) in the contract 
+    - **a signature placeholder ID**, representing the requested [signature](<05 🆔🔏 Verify Signatures.md>) in the contract 
         - this allows the [Identity 🆔 domain](<01 🆔🫥 Identity agent.md>) to reference the Host's original request.
 
     ---
     <br/>
+
 
 2. **How does it work?**
 
