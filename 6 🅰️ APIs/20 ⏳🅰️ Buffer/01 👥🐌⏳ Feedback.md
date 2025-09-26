@@ -25,10 +25,10 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From` | UUID | [Message 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) receiver [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) name
+|Header|`From` | uuid | [Message 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) receiver [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) name
 ||`To`| string | [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>) name
 ||`Subject`| string | `Feedback@Buffer`
-|Body|`Correlation`| UUID | Correlation ID of the affected [Message 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>)
+|Body|`Correlation`| uuid | Correlation ID of the affected [Message 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>)
 ||`Status`| string | Status code of the feedback
 ||`Reason`| string | Reason for the status code
 |

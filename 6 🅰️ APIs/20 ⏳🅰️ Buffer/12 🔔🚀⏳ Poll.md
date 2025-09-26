@@ -13,6 +13,8 @@ Header:
     From: any-subscriber.com
     To: any-buffer.com
     Subject: Poll@Buffer
+Body:
+    Queue: <queue-uuid>
 ```
 
 
@@ -21,6 +23,7 @@ Header:
 |Header|`From` | string | [Subscriber 🔔 domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/04 🔔🎭 Subscriber role.md>) name
 ||`To`| string | [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>) name
 ||`Subject`| string | `Poll@Buffer`
+|Body| `Queue`| uuid | 
 |
 
 <br/>
@@ -28,16 +31,16 @@ Header:
 ## Synchronous Response
 
 ```yaml
-PollID: <poll-uuid>
+Poll: <poll-uuid>
 Messages: 
-    - MessageID: <message-uuid>
-    - Message: <encrypted-message>
+    - ID: <message-uuid>
+    - Content: <encrypted-message>
 ```
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Top | `PollID` | UUID | Poll ID for [Confirm@Buffer 🚀](<05 🔔🚀⏳ Confirm.md>).
+| Top | `Poll` | uuid | Poll ID for [Confirm@Buffer 🚀](<13 🔔🚀⏳ Confirm.md>).
 ||`Messages` | list | List of Message objects.
-| Message | `MessageID` | UUID | Message ID for [Confirm@Buffer 🚀](<05 🔔🚀⏳ Confirm.md>).
-|| `Message` | string | [Message 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) encrypted with the [DKIM 📺](<../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) of the [Subscriber 🔔 domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/04 🔔🎭 Subscriber role.md>) and encoded in Base64.
+| Message | `ID` | uuid | Message ID for [Confirm@Buffer 🚀](<13 🔔🚀⏳ Confirm.md>).
+|| `Content` | string | [Message 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) encrypted with the [DKIM 📺](<../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) of the [Subscriber 🔔 domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/04 🔔🎭 Subscriber role.md>) and encoded in Base64.
 |
