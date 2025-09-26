@@ -6,7 +6,7 @@
 # 👥🚀🕸 Identity @ Graph
 
 
-> Used by [🤵⏩🧑‍🦰 Assessed @ Broker](<../../5 ⏩ Flows/58 🤵⏩ Brokers/01 🤵⏩🧑‍🦰 Assessed.md>) 
+> Used by [🤵⏩🧑‍🦰 Assessed @ Broker](<../../5 ⏩ Flows/18 🤵⏩ Brokers/01 🤵⏩🧑‍🦰 Assessed.md>) 
 
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 

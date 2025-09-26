@@ -2,7 +2,7 @@
 
 > Downloads the content of a [Prompt 🤔](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/02 🤔 Prompt.md>).
 
-> Part of the [🤗⏩🧑‍🦰 Prompt](<../../5 ⏩ Flows/03 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt.md>) workflow.
+> Part of the [🤗⏩🧑‍🦰 Prompt](<../../5 ⏩ Flows/39 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt.md>) workflow.
 
 <br/>
 
