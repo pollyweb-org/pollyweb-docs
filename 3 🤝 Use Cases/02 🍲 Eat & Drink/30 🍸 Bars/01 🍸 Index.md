@@ -1,6 +1,6 @@
 # 🍸 Drink at bars `Index`
 
-> Part of [🍲 Eat & Drink use cases](<../🍲 Eat & Drink.md>)
+> Part of [🍲 Eat & Drink use cases](<../🍲 Eat & Drink index.md>)
 
 
 <br/> 

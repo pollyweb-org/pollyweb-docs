@@ -4,6 +4,11 @@
 
 > Request from a [💼 Consumer domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) to access the user's [Tokens 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>).
 
+> Mentioned in [🆔 Verify Tokens](<../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/14 🆔🎫 Verify Tokens.md>)
+
+<br/> 
+
+
 ## Flow diagram
 
 ![alt text](<.📎 Assets/⚙️ Query Token.png>)
