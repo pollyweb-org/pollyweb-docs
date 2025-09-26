@@ -3,7 +3,7 @@ How do drivers fulfill an order at the pizzeria?
 
 > From [🍕 Order Pizza](<01 🍕 Index.md>)
 
-> Mentioned in [Verify Identity-bound Tokens 🆔](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/04 🆔🎫 Verify Tokens.md>)
+> Mentioned in [Verify Identity-bound Tokens 🆔](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/14 🆔🎫 Verify Tokens.md>)
 
 <br/>
 
@@ -16,7 +16,7 @@ Service | Prompt | User
 | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Staff [🪪 token](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) shared [+]
 | 🛵 Courier    | 😃 Hi Leo, what's up? <br/>- [ Deliver ] orders <br/>- [ Something else ] | > Deliver
 | 🛵 Courier | 😃 Share location? 📍 | > Yes
-| 🆔 [Identity](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.  | [📸 selfie](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/10 🆔😶 Face scan.md>)
+| 🆔 [Identity](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.  | [📸 selfie](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/21 🆔😶 Face scan.md>)
 | 🛵 Courier    | ⏳ Waiting orders... <br/>- [ Take a break ] <br/>- [ End shift ]
 ...
 ||
