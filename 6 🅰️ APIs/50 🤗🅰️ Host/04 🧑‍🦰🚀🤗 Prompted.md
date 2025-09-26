@@ -24,7 +24,7 @@ Body:
 | Header    | `From`        | string    | `Anonymous`
 |           | `To`          | string    | [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>)
 |           | `Subject`     | string    | `Prompted@Host`
-| Body      | `PromptID`    | UUID      | [Prompt 🤔](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/02 🤔 Prompt.md>) ID sent on [Prompt@Broker](<../15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/03 🤗🐌🤵 Prompt.md>)
+| Body      | `PromptID`    | uuid      | [Prompt 🤔](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/02 🤔 Prompt.md>) ID sent on [Prompt@Broker](<../15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/03 🤗🐌🤵 Prompt.md>)
 |
 
 <br/>
@@ -50,7 +50,7 @@ Details: |
 |Top| `Format`  | string | One supported by [Prompts 🤔](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/02 🤔 Prompt.md>)
 || `Message` | string | Main message displayed in the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>)
 || `Options` | object[]   | List of Option objects
-|| `Appendix`| UUID   | PDF or PNG appendix to download via [Download@Host](<06 🧑‍🦰🚀🤗 Download.md>)
+|| `Appendix`| uuid   | PDF or PNG appendix to download via [Download@Host](<06 🧑‍🦰🚀🤗 Download.md>)
 || `Details` | string | Extended details in Markdown format, topically hidden by an expand [+] sign
 |Option | `ID`          | string  | ID of the option for replies via [Reply@Host](<05 🧑‍🦰🐌🤗 Reply.md>)
 |       | `Translation` | string  | Text of the option to display in the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>)

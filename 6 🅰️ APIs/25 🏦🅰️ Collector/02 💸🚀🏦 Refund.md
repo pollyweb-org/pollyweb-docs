@@ -13,7 +13,7 @@
 | Header | `From` | string
 || `To` | string
 ||`Subject` | string | `Refund@Collector`
-|Body| `ChargeID` | UUID
+|Body| `ChargeID` | uuid
 
 ```yaml
 Header:

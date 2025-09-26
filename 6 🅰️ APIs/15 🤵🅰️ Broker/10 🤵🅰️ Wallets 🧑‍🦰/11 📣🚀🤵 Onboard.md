@@ -42,5 +42,5 @@ WalletID: <wallet-uuid>
 
 |Property|Type|Description
 |-|-|-
-| `WalletID` | UUID | The newly generated Wallet ID.
+| `WalletID` | uuid | The newly generated Wallet ID.
 |

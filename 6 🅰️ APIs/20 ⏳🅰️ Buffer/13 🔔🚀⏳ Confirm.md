@@ -4,8 +4,9 @@
 
 > Used in [Stream @ Streamer 🌬️⏩🔔](<../../5 ⏩ Flows/78  🌬️⏩ Streamers/01 🌬️⏩🔔 Stream.md>)
 
-> Referenced by [Poll @ Buffer 🔔🚀](<04 🔔🚀⏳ Poll.md>)
+> Referenced by [Poll @ Buffer 🔔🚀](<12 🔔🚀⏳ Poll.md>)
 
+> Needs to be synchronous for FIFO performance.
 
 <br/>
 
@@ -28,7 +29,7 @@ Body:
 |Header|`From` | string | [Subscriber 🔔 domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/04 🔔🎭 Subscriber role.md>) name
 ||`To`| string | [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>) name
 ||`Subject`| string | `Confirm@Buffer`
-|Body | `Poll` | UUID | Confirmed PollID (optional)
+|Body | `Poll` | uuid | Confirmed PollID (optional)
 || `Messages`| string[] | Confirmed MessageIDs (optional)
 |
 

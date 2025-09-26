@@ -28,6 +28,6 @@ Body:
 || `To`| string | [Streamer 🌬️ domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/02 🌬️🎭 Streamer role.md>) name
 || `Subject` | string | `Subscribe@Streamer`
 |Body | `Buffer`| string | [Buffer ⏳ domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>) name
-|| `Queue` | UUID | Callback for [Push@Buffer 🐌](<../20 ⏳🅰️ Buffer/02 🌬️🐌⏳ Push.md>)
+|| `Queue` | uuid | Callback for [Push@Buffer 🐌](<../20 ⏳🅰️ Buffer/11 🌬️🐌⏳ Push.md>)
 || `Filters`| map | Dictionary of filters
 |

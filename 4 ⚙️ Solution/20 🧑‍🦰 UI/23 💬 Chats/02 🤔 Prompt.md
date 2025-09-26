@@ -73,7 +73,7 @@
     | `Format`  | string | One supported by a [Chat 💬](<01 💬 Chat.md>)
     | `Message` | string | Main message displayed in the [Chat 💬](<01 💬 Chat.md>)
     | `Options` | list   | List of Options with:<br/>- ID of the option for replies<br/>- Translated text of the option to display 
-    | `Appendix`| UUID   | PDF or PNG appendix to download via [Download@Host 🚀](<../../../6 🅰️ APIs/50 🤗🅰️ Host/06 🧑‍🦰🚀🤗 Download.md>)
+    | `Appendix`| uuid   | PDF or PNG appendix to download via [Download@Host 🚀](<../../../6 🅰️ APIs/50 🤗🅰️ Host/06 🧑‍🦰🚀🤗 Download.md>)
     | `Details` | string | Extended details in Markdown format, topically hidden by an expand [+] sign
     |
 
