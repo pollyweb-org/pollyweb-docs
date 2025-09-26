@@ -63,12 +63,12 @@
     |`Taxis`| [👨‍✈️ Start a shift as a taxi driver](<../../../3 🤝 Use Cases/03 🧳 Travel/04 🧳 Travel by taxi 🚕/9 🚕 Driver @ Car 👨‍✈️/01 👨‍✈️ Start shift.md>)
     |`Street food`|[🌭 Start shift as a street food chef](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/50 🌭 Street food/91 🧑‍🍳 Chef: Start shift 🪪.md>)
     |`Restaurants`|[🧑‍🍳 Start shift as a restaurant chef](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/81 🧑‍🍳 Chef: Start shift 🪪.md>)
-    |`Pizza places`|[🍕 Start shift as a chef in a pizza-place](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/61 🧑‍🍳 Chef: Start shift.md>)
+    |`Pizza places`|[🍕 Start shift as a chef at a pizza place](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/61 🧑‍🍳 Chef: Start shift.md>)
     |`Pizza places`|[💁‍♀️ Start shift as staff at a pizza place](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/71 💁‍♀️ Staff: Start shift.md>)
     |`Delivery`|[🛵 Start shift as a delivery driver](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/81 🛵 Driver: Start shift.md>)
     |`Bars`|[🍸 Start shift as a barista](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/30 🍸 Bars/31 💁‍♀️ Barista: Serve.md>)
-
-    
+    |`Night Clubs` | [👮 Start shift as a bouncer](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/90 🕺 Clubs/71 👮 Bouncer: Protect door.md>)
+    ||[🍺 Start shift as a barista](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/90 🕺 Clubs/81 💁‍♀️ Barista: Start shift.md>)
     ---
     <br/>
 
