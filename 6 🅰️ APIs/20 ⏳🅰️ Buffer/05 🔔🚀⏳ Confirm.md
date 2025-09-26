@@ -1,6 +1,41 @@
 # 🔔🚀⏳ Confirm @ Buffer
 
-> Implements [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>)
+> Implements a [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>)
 
 > Used in [Stream @ Streamer 🌬️⏩🔔](<../../5 ⏩ Flows/78  🌬️⏩ Streamers/01 🌬️⏩🔔 Stream.md>)
 
+> Referenced by [Poll @ Buffer 🔔🚀](<04 🔔🚀⏳ Poll.md>)
+
+
+<br/>
+
+## Synchronous Request 🚀
+
+```yaml
+Header:
+    From: any-subscriber.com
+    To: any-buffer.com
+    Subject: Confirm@Buffer
+Body:
+    Poll: <poll-uuid>
+    Messages: 
+        - <message-uuid>
+```
+
+
+|Object|Property|Type|Description
+|-|-|-|-
+|Header|`From` | string | [Subscriber 🔔 domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/04 🔔🎭 Subscriber role.md>) name
+||`To`| string | [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>) name
+||`Subject`| string | `Confirm@Buffer`
+|Body | `Poll` | UUID | Confirmed PollID (optional)
+|| `Messages`| string[] | Confirmed MessageIDs (optional)
+|
+
+<br/>
+
+## Synchronous Response
+
+```yaml
+# empty
+```
