@@ -17,8 +17,6 @@ Buy entry for a club
 | 🕺 Club       | ℹ️ ID check on entry.
 | 🧢 [Persona](<../../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) | 🫥 Share social name? [No] <br/> - [ 🧑‍🦰 personal ] <br/> - [ 💼 work ] <br/> - [ 🦋 private ]      | > 🦋 private 
 | 🕺 Club       | ℹ️ Thanks, Ms. Butterfly!
-| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) | 🫥 Share bar preferences? <br/>- [ 👤 solo ] <br/>- [ 👨‍👩‍👦 family ] <br/>- [ 🤝 business ] | > 👤 solo
-| 🕺 Club       | ℹ️ You're ready to order.
 | 💳 [Payer](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Pay £3.00 bill? 🧾 [No] <br/>- [ Card ABC ] + $0.10 <br/>- [ Card DEF ] (free) | > Card ABC |
 | 🕺 Club       | ℹ️ Entry paid.
 | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Save entry? [Yes, No]  | > No
