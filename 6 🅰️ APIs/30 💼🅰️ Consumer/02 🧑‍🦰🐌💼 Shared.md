@@ -4,7 +4,7 @@
 
 > Contains the shared [Tokens 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>).
 
-> Used in [💼⏩🧑‍🦰 Query token](<../../5 ⏩ Flows/04 💼⏩ Consumers/03 💼⏩🧑‍🦰 Query token.md>).
+> Used in [💼⏩🧑‍🦰 Query token](<../../5 ⏩ Flows/24 💼⏩ Consumers/03 💼⏩🧑‍🦰 Query token.md>).
 
 <br/>
 
