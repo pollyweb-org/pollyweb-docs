@@ -2,7 +2,7 @@
 
 > From [Entering casinos 🎰](<01 🎰 Index.md>)
 
-> Mentioned in [Verify Identity-bound Tokens 🆔](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/04 🆔🎫 Verify Tokens.md>)
+> Mentioned in [Verify Identity-bound Tokens 🆔](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/14 🆔🎫 Verify Tokens.md>)
 
 Users can ask their [Identity 🆔 vault](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) for an age-related [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
  (e.g., over 16 years old). 
@@ -28,6 +28,6 @@ Users can ask their [Identity 🆔 vault](<../../../4 ⚙️ Solution/30 🫥 Ag
 | 🔎 [Finder](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Casino (4.4 ⭐) [+]
 | 🎰 Casino   | ℹ️ Request for minimum age. [+]
 | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)  | 🫥 Share over 21? [Yes, No]      | > Yes
-| 🆔 [Identity](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/10 🆔😶 Face scan.md>)
+| 🆔 [Identity](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/21 🆔😶 Face scan.md>)
 | 🎰 Casino   | ✅ Welcome, please enter!
 ||

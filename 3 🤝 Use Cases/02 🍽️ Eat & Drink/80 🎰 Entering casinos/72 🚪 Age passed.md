@@ -1,3 +1,7 @@
+<!--
+TODO: Add the obfuscated characteristics to the API
+-->
+
 # 🎰 How do bouncers check age at a casino's door?
 
 > From [Entering casinos 🎰](<01 🎰 Index.md>)

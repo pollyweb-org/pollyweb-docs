@@ -31,7 +31,7 @@
 1. **What are the responsibilities of a biometric center?**
 
     The biometric center:
-    * collects the user's biometrics (e.g., [Face 😶](<10 🆔😶 Face scan.md>), [palm 🖐️](<11 🆔🖐️ Palm scan.md>), voice), 
+    * collects the user's biometrics (e.g., [Face 😶](<21 🆔😶 Face scan.md>), [palm 🖐️](<22 🆔🖐️ Palm scan.md>), voice), 
     * tags it to a limited set of verifiable codes (e.g., passport number, national ID, social security), 
     * and stores it in compliance with data residency regulations.
 

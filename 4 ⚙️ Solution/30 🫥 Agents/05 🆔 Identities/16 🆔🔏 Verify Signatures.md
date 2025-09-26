@@ -17,8 +17,21 @@ TODO: Create the API methods
     ---
     <br/> 
     
+1. **What does the Chat look like?**
 
-1. **What are examples of users signing documents?**
+    Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) as an example.
+    
+    | Service | Prompt | User
+    | - | - | - |
+    | 🤗 [Host](<../../20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>)    | ℹ️ Sign the terms. 
+    | 🆔 [Identity](<../../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Sign terms? 📄 [Yes, No] | > Yes
+    | 🆔 [Identity](<../../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/10 🆔😶 Face scan.md>)
+    | 🤗 [Host](<../../20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Thanks for signing!
+
+    ---
+    <br/>
+
+2. **What are use-cases of users signing documents?**
 
     |Type|Use case 🤝
     |-|-
@@ -44,10 +57,10 @@ TODO: Create the API methods
     - **the content of the file to be signed** 
       - this allows the user to read the document before accepting to sign it;
     - **the file's hash** 
-      - this allows the Identity domain to [sign 🔏](<05 🆔🔏 Verify Signatures.md>) a document on behalf of a user without knowing the content of the document;
+      - this allows the Identity domain to [sign 🔏](<16 🆔🔏 Verify Signatures.md>) a document on behalf of a user without knowing the content of the document;
     - **user PII (e.g., passport number)** - this allows the Identity domain to match the Host's intent with the user 
       - e.g., ensure the request matches the tenant and not the landlord in a renting contract; 
-    - **a signature placeholder ID**, representing the requested [signature](<05 🆔🔏 Verify Signatures.md>) in the contract 
+    - **a signature placeholder ID**, representing the requested [signature](<16 🆔🔏 Verify Signatures.md>) in the contract 
         - this allows the [Identity 🆔 domain](<01 🆔🫥 Identity agent.md>) to reference the Host's original request.
 
     ---

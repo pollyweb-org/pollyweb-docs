@@ -6,9 +6,9 @@
  <br/>
 
 
-1. **What is an Identity-bound Token?**
+2. **What is an Identity-bound Token?**
 
-    An [Identity-bound Token 🎫](<04 🆔🎫 Verify Tokens.md>)
+    An [Identity-bound Token 🎫](<14 🆔🎫 Verify Tokens.md>)
     * is a [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
     * that was [issued 🎴](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) to a specific person.
 
@@ -28,12 +28,30 @@
     <br/>
 
 
+1. **What does a Chat look like?**
+
+    Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) as an example.
+
+    | Service | Prompt | User
+    | - | - | - |
+    | 🤗 [Host](<../../20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) | 😃 A beer? [Yes, No]         | > Yes
+    | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Share over 21? [Yes, No]     | > Yes
+    | 🆔 [Identity](<01 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.  | [📸 selfie](<21 🆔😶 Face scan.md>)
+    | 🤗 [Host](<../../20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) | ✅ A beer coming up!
+
+    ---
+    <br/>
+
 2. **What are use cases for minimum age verification?**
 
     |Type|Use case 🤝
     |-|-
-    | `Vending` | [🍺 21+ proof to buy beer at a vending machine](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/10 🏪 Vending/12 🍺 Buy beer.md>)
-    | `Casinos`|[🎰 Age proof to enter anonymously at a casino](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/80 🎰 Drink at casinos/1 Customer @ Door 🚪/11 🎰 Enter anonymously.md>)
+    | `Vending` | [🍺 Buy beer at a vending machine](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/10 🏪 Vending/12 🍺 Buy beer.md>)
+    | `Casinos`|[🎰 Enter anonymously at a casino](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/80 🎰 Entering casinos/11 🚪 Enter anonymously.md>)
+    |`Restaurants`|[🍽️ Order wine at restaurant](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/30 🍽️ Restaurants/52 🪑 Seat: Order wine 🍷.md>)
+    |`Bars`|[🍸 Order a beer at a bar](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/70 🍸 Drink at bars/22 🪑 Seat: Order a beer.md>)
+    |`Clubs`|[🕺 Buy an entry at a night club](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/90 🕺 Drink at clubs/1 Customer @ Anywhere/12. Buy entry 🎟️.md>)
+
 
     ---
     <br/>
@@ -79,7 +97,7 @@
 
     Printed identity-bound [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) (or any other type of offline Tokens, like screenshot images, NFC cards, and NFC wristbands) removes user's need to carry their mobile phone charged and with internet connection. 
     - Use cases where this is important include: international flights, water sports, and luggage misplacement or theft.
-    - These scenarios rely on [🖐️ palm vein scanners](<11 🆔🖐️ Palm scan.md>) scanning the users' palms, or cameras performing [😶 face scans](<10 🆔😶 Face scan.md>) on users.
+    - These scenarios rely on [🖐️ palm vein scanners](<22 🆔🖐️ Palm scan.md>) scanning the users' palms, or cameras performing [😶 face scans](<21 🆔😶 Face scan.md>) on users.
 
     The flow for a user to share an offline [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) with a [Consumer 💼](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) is as follows:
     - 1/ the user taps or scans the Token on the Consumer's scanner:
@@ -120,7 +138,7 @@
       - 3/ obtaining age benefits (e.g., buying discounted tickets for elderly); or 
       - 4/ claiming accessibility needs (e.g., a wheelchair at an airport). 
       
-    - For that, users first need to bind their wallet to an [🆔 Identity Vault](<01 🆔🫥 Identity agent.md>) (typically a governmental authority that issues passports) to set up authentication mechanisms (e.g., voice and face biometric signatures collected in a supervised center) - users may then ask the Identity Vault for an age-related [Token 🎫](<04 🆔🎫 Verify Tokens.md>) (e.g., over 16 years old). 
+    - For that, users first need to bind their wallet to an [🆔 Identity Vault](<01 🆔🫥 Identity agent.md>) (typically a governmental authority that issues passports) to set up authentication mechanisms (e.g., voice and face biometric signatures collected in a supervised center) - users may then ask the Identity Vault for an age-related [Token 🎫](<14 🆔🎫 Verify Tokens.md>) (e.g., over 16 years old). 
     
     - When interacting with the [Seller 💵](<../04 💳 Payers/01 💵🎭 Seller role.md>)'s domain, the Seller can then ask for the Token before providing the service or granting the entrance. 
     
