@@ -17,7 +17,7 @@ Order a pizza for home delivery
 | 🔎 [Finder](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Pizzeria (4.4 ⭐) [+]
 | 🍕 Pizzeria   | ℹ️ Pizza request received.
 | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Ready to order? [Yes, No] <br/> - your navigator sets where 🧭 <br/> - your concierge sets how 🛎️ <br/> - your curator orders 🧚 <br/> - your vitalogist reviews 💖 <br/> - your scheduler reviews 🗓️  <br/> - your payer pays the bill 💳 <br/> - your concierge delivers 🛎️ <br/> - your payer tips the courier 💳 <br/> - your vitalogist records it 💖 | > Yes
-| 🧭 [Navigator](<../../../4 ⚙️ Solution/30 🫥 Agents/07 🧭 Navigators/05 🧭🫥 Navigator agent.md>) | 🫥 Share destination? [No] <br> - [ 🏠 home ] <br/> - [ 🏡 Daniel's ] <br/> - [ 📍 current location ] <br/> - [ 🗺️ Somewhere else ] | > 🏠 home
+| 🧭 [Navigator](<../../../4 ⚙️ Solution/30 🫥 Agents/07 🧭 Navigators/01 🧭🫥 Navigator agent.md>) | 🫥 Share destination? [No] <br> - [ 🏠 home ] <br/> - [ 🏡 Daniel's ] <br/> - [ 📍 current location ] <br/> - [ 🗺️ Somewhere else ] | > 🏠 home
 | 🛎️ [Concierge](<../../../4 ⚙️ Solution/30 🫥 Agents/06 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>) | ⓘ Given destination: [Change]<br/>- Ryan street, 98, 2D 
 | 🛎️ [Concierge](<../../../4 ⚙️ Solution/30 🫥 Agents/06 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>) | ⏳ Looking for couriers...
 | 🛎️ [Concierge](<../../../4 ⚙️ Solution/30 🫥 Agents/06 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>) | 🫥 Which courier? <br> - [ AnyCourier ] + $4.00 (5 min) <br> - [ iCourier ] + $2.99 (17 min) <br/> | > AnyCourier
@@ -71,7 +71,7 @@ Order a pizza for home delivery
 
     |Functions|Returns|Description
     |-|-|-
-    |`destination`| string | Pass the [Navigator 🧭 agent](<../../../4 ⚙️ Solution/30 🫥 Agents/07 🧭 Navigators/05 🧭🫥 Navigator agent.md>) destination.
+    |`destination`| string | Pass the [Navigator 🧭 agent](<../../../4 ⚙️ Solution/30 🫥 Agents/07 🧭 Navigators/01 🧭🫥 Navigator agent.md>) destination.
     | `menu-locator` | string | [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) of the menu.
     | `order-summary`| markdown | [Curator 🧚 agent](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) choices:<br/>- plus ongoing status.
     | `order-details`| object | Details for partners: <br/>- selected items,<br/>- final delivery estimates, <br/>- aggregator [Biller 🤝](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>) ID.

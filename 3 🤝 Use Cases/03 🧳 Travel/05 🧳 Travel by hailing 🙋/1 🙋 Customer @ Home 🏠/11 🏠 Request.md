@@ -18,7 +18,7 @@ How to request an immediate ride?
 | 🙋 Hailing | ℹ️ Driver assigned: <br/>- it's Daniel <br/>- on a black Tesla, ABC123 <br/> - on arrival, tap the seat to confirm.
 | 🙋 Hailing | ⏳ Pick-up by 12:37...<br/>- [ Cancel pick-up ]
 | 🙋 Hailing | 📣 Daniel arrived! [ Quiet, 5... 4... ] | > Quiet
-| 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/07 🧭 Navigators/05 🧭🫥 Navigator agent.md>) | ⓘ The driver is at your door.
+| 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/07 🧭 Navigators/01 🧭🫥 Navigator agent.md>) | ⓘ The driver is at your door.
 | 🙋 Hailing | ⏳ Tap inside until 12:41...<br> - [ Say "be right there" ] <br/>- [ Say something else ] <br>- [ Cancel pick-up ]
 |...
 ||
