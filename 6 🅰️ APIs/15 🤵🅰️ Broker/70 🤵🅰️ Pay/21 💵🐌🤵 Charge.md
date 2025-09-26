@@ -9,8 +9,8 @@
 
 ## About
 
-- Flow: [Charge 💵👉🧑‍🦰 ](<../../../5 ⏩ Flows/05 💵⏩ Sellers/02 💵⏩🧑‍🦰 Charge.md>)
-- Previous: [Charge 💵👉🧑‍🦰](<../../../5 ⏩ Flows/05 💵⏩ Sellers/02 💵⏩🧑‍🦰 Charge.md>)
+- Flow: [Charge 💵👉🧑‍🦰 ](<../../../5 ⏩ Flows/75 💵⏩ Sellers/02 💵⏩🧑‍🦰 Charge.md>)
+- Previous: [Charge 💵👉🧑‍🦰](<../../../5 ⏩ Flows/75 💵⏩ Sellers/02 💵⏩🧑‍🦰 Charge.md>)
 - Next: [Charge@Notifier 🤵💵🐌📣](<../../65 📣🅰️ Notifier/05 📣💳🅰️ Payments/61 🤵🐌📣 Charge.md>)
 
 

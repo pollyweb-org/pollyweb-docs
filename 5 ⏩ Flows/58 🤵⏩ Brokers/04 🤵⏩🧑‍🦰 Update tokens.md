@@ -3,9 +3,9 @@
 > The [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) updates the list of [Tokens 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>).
 
 > Used in:
-> <br/>• [🎴⏩🧑‍🦰 Offer Token @ Issuer](<../06 🎴⏩ Issuers/01 🎴⏩🧑‍🦰 Offer token.md>) 
-> <br/>• [🧑‍🦰👉🤵 Remove Token @ Wallet](<../02 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/03 🧑‍🦰👉🤵 Remove token.md>)
-> <br/>• [🧑‍🦰👉🤵 List Tokens @ Wallet](<../02 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/01 🧑‍🦰👉🤵 List tokens.md>)
+> <br/>• [🎴⏩🧑‍🦰 Offer Token @ Issuer](<../40 🎴⏩ Issuers/01 🎴⏩🧑‍🦰 Offer token.md>) 
+> <br/>• [🧑‍🦰👉🤵 Remove Token @ Wallet](<../90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/03 🧑‍🦰👉🤵 Remove token.md>)
+> <br/>• [🧑‍🦰👉🤵 List Tokens @ Wallet](<../90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/01 🧑‍🦰👉🤵 List tokens.md>)
 
 <br/>
 

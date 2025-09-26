@@ -5,7 +5,7 @@
 > Tells the Host that a Chat was abandoned by the user.
 
 
-> Used by [Abandon session 🧑‍🦰👉🤗](<../../5 ⏩ Flows/02 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>) 
+> Used by [Abandon session 🧑‍🦰👉🤗](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>) 
 
 <br/>
 

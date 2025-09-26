@@ -1,6 +1,6 @@
 # 🧑‍🦰👉🗄️ List binds @ [Wallet](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) 
 
-> Cache is invalidated with [🤵⏩🧑‍🦰 Update binds](<../../../5 ⏩ Flows/08 🤵⏩ Brokers/03 🤵⏩🧑‍🦰 Update binds.md>).
+> Cache is invalidated with [🤵⏩🧑‍🦰 Update binds](<../../58 🤵⏩ Brokers/03 🤵⏩🧑‍🦰 Update binds.md>).
 
 
 ## Flow diagram

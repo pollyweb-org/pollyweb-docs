@@ -8,7 +8,7 @@
 # 🤵🐌📣 Charge @ [Notifier](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/02 📣 Notifier domain.md>)
 
 
-> Used in [💵⏩🧑‍🦰 Charge](<../../../5 ⏩ Flows/05 💵⏩ Sellers/02 💵⏩🧑‍🦰 Charge.md>)
+> Used in [💵⏩🧑‍🦰 Charge](<../../../5 ⏩ Flows/75 💵⏩ Sellers/02 💵⏩🧑‍🦰 Charge.md>)
 
 <br/>
 

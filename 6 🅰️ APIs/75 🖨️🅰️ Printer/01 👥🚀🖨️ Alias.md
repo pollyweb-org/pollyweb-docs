@@ -6,7 +6,7 @@
 
 > A [Printer 🖨️ domain](<../../4 ⚙️ Solution/70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>) returns the [Locator 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) of an alias, if any.
 
-> Used in [🧑‍🦰👉🤗 Scan printer QR](<../../5 ⏩ Flows/02 🧑‍🦰👉 Wallets/15 👉🔆 Locators/02 🧑‍🦰👉🤗 Scan printer QR.md>).
+> Used in [🧑‍🦰👉🤗 Scan printer QR](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/02 🧑‍🦰👉🤗 Scan printer QR.md>).
 
 > No locator means that it’s free for grabs.
 
