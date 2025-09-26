@@ -21,13 +21,13 @@ activate domain
 deactivate domain
 
 activate listener1
-    listener1 --> graph: 2) ingest ⏩
-    listener1 --> pool: ingest ⏩
+    listener1 --> graph: 2) stream ⏩
+    listener1 --> pool: 2) stream ⏩
 deactivate listener1
 
 
 activate pool
-    pool --> graph: ingest ⏩
+    pool --> graph: 2) stream ⏩
 deactivate pool
 
 
