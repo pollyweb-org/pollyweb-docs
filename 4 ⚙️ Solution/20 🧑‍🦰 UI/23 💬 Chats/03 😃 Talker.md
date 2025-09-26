@@ -20,8 +20,8 @@
 
 2. **What are examples of Talkers?**
 
-    * [🏪 Buy drinks at vending machines](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/20 🏪 Vending/01 🏪 Index.md>)
-    * [🍕 Order pizza to deliver at home](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/70 🍕 Order pizza/21 🏠 Home: Order pizza.md>)
+    * [🏪 Buy drinks at vending machines](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/01 🏪 Index.md>)
+    * [🍕 Order pizza to deliver at home](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/21 🏠 Home: Order pizza.md>)
   
 
     ---

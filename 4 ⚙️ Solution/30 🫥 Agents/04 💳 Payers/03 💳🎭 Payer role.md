@@ -166,7 +166,7 @@
 1. **Can a group split a bill in equal parts?**
 
     Yes, but split bills are managed by [Collector 🏦 domains](<01 🏦🛠️ Collector helper.md>), as in the following examples:
-      * [🍽️ Split restaurant bill ](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/60 🍽️ Restaurants/74 💳 Pay: Split bill ✂️.md>);
+      * [🍽️ Split restaurant bill ](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/74 💳 Pay: Split bill ✂️.md>);
       * [🚕 Split taxi ride](<../../../3 🤝 Use Cases/03 🧳 Travel/04 🧳 Travel by taxi 🚕/2 🚕 Customer @ Car/23. Split with friends.md>).
     
    

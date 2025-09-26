@@ -36,9 +36,9 @@
 1. **How can users register their food intake?**
 
     There are several ways to register food intake:
-    - by [taking a photo](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/70 🍕 Order pizza/24 🏠 Home: Intake via photo.md>) of the food or drink;
-    - by [scanning the EAN13 barcode](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/70 🍕 Order pizza/25 🏠 Home: Intake via barcode.md>) of a product;
-    - by [asking for an order intake](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/70 🍕 Order pizza/23 🏠 Home: Save shared intake.md>) from another user;
+    - by [taking a photo](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/24 🏠 Home: Intake via photo.md>) of the food or drink;
+    - by [scanning the EAN13 barcode](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/25 🏠 Home: Intake via barcode.md>) of a product;
+    - by [asking for an order intake](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/23 🏠 Home: Save shared intake.md>) from another user;
     - and by manually informing the intake.
 
 ---
