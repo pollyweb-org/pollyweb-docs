@@ -25,7 +25,7 @@
 
     [Curator 🧚 agents](<01 🧚🫥 Curator agent.md>) are invoked by [Host 🤗 domains](<../../20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) to parse a set of choices and return a list of codes back to the Host - e.g.:
     
-    - restaurants share menus and receive [food orders 🥘](<../../../3 🤝 Use Cases/02 🍽️ Eat & Drink/60 🍽️ Restaurants/51 🪑 Seat: Order food 🥘.md>)
+    - restaurants share menus and receive [food orders 🥘](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/51 🪑 Seat: Order food 🥘.md>)
     - travel agencies share hotel options and receive [bookings 🏨](<../../../3 🤝 Use Cases/03 🧳 Travel/08 🧳 Stay at hotels 🏨/01 🏨 Guest @ Home 🏠/01 🏠 Book hotel.md>)
     - cash machines share bills and receive [withdraw orders 🏧](<../../../3 🤝 Use Cases/05 🛠️ Services/03 🏧 Withdraw at ATMs/10 Customer @ ATM/11 Withdraw cash.md>)
     - social networks share posts and receive filtered lists.
