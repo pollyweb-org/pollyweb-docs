@@ -1,5 +1,9 @@
 # 🏪 Drink at vending machines  `index`
 
+> Part of [Use cases 🤝](<../../00 🤝 Intro/🤝 Index.md>)
+
+<br/> 
+
 ![alt text](<.📎 Assets/cartoon.png>)
 
 <br/>
