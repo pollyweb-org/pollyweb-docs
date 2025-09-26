@@ -66,7 +66,7 @@
 
     To open an [Agent 🫥 vault](<04 🫥🗄️ Agent vault.md>), users can ask their [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>);
     * e.g., by stating what they're trying to accomplish;
-    * as in the following example, from the [Trip Return 🤝 use case](<../../../3 🤝 Use Cases/03 🧳 Travel/01 🧳 Plans trips 🧭/2 🧭 @ Destination/21 🧭 Return.md>).
+    * as in the following example, from the [Trip Return 🤝 use case](<../../../3 🤝 Use Cases/03 🧳 Travel/01 🧳 Plans trips 🧭/02 🧭 Return @ Destination.md>).
 
     | Service | Prompt  | User 
     | - | - | - 

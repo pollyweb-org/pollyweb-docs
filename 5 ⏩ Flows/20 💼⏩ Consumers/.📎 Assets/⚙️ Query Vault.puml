@@ -15,16 +15,16 @@ activate consumer
 
 group Request
 
-    consumer --> broker: query@
+    consumer --> broker: 1. Query@
     deactivate consumer
 
     ' Broker 🤵
     activate broker 
-    broker -> graph: queryable@ {codes}
-    broker -> graph: translate@ {codes}
+    broker -> graph: 2. Queryable@ {codes}
+    broker -> graph: 3. Translate@ {codes}
 
     alt Select if 2+ vaults
-        broker --> user: ⏪ prompt
+        broker --> user: 4 ⏪ prompt
         deactivate broker
 
         activate user
@@ -34,17 +34,17 @@ group Request
         activate broker
     end alt
 
-    broker --> vault: disclose@ {code}
+    broker --> vault: 5. Disclose@ {code}
     deactivate broker
 
     activate vault
-    vault -> graph: trusts@
+    vault -> graph: 6. Trusts@
 
 end group
 
 group User confirmation
 
-    vault --> user: ⏪ prompt
+    vault --> user: 7 ⏪ prompt
     deactivate vault
 
     activate user
@@ -58,12 +58,12 @@ end group
 
 group Response
 
-        vault --> consumer: consume@
+        vault --> consumer: 8. Consume@
     deactivate vault
 
     activate consumer
-        consumer -> graph: trusts@ {vault}
-        consumer -> vault: collect@
+        consumer -> graph: 9. Trusts@ {vault}
+        consumer -> vault: 10. Collect@
         activate vault
             vault -> consumer: {data}
         deactivate vault
