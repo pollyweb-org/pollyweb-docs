@@ -6,7 +6,7 @@
 
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 
-> Used by [⭐⏩🧑‍🦰 Review @ Reviewer ](<../../5 ⏩ Flows/10 ⭐⏩ Reviewers/01 ⭐⏩🧑‍🦰 Review.md>)
+> Used by [⭐⏩🧑‍🦰 Review @ Reviewer ](<../../5 ⏩ Flows/70 ⭐⏩ Reviewers/01 ⭐⏩🧑‍🦰 Review.md>)
 
 <br/>
 

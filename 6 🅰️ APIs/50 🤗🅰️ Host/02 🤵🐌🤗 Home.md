@@ -5,8 +5,8 @@
 > Shows the Host's main menu.
 
 > Used by:
-> <br/>* [🧑‍🦰👉🤵 Abandon session](<../../5 ⏩ Flows/02 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>)
-> <br/>* [🧑‍🦰👉🤵 Host home](<../../5 ⏩ Flows/02 🧑‍🦰👉 Wallets/20 👉💬 Chats/02 🧑‍🦰👉🤵 Host home.md>)
+> <br/>* [🧑‍🦰👉🤵 Abandon session](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>)
+> <br/>* [🧑‍🦰👉🤵 Host home](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/02 🧑‍🦰👉🤵 Host home.md>)
 
 <br/>
 

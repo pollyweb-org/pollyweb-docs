@@ -5,7 +5,7 @@
 
 # 🎴🐌🤵 Revoke @ Broker
 
-> Used by [🎴⏩🧑‍🦰 Revoke token](<../../../5 ⏩ Flows/06 🎴⏩ Issuers/02 🎴⏩🧑‍🦰 Revoke token.md>)
+> Used by [🎴⏩🧑‍🦰 Revoke token](<../../../5 ⏩ Flows/40 🎴⏩ Issuers/02 🎴⏩🧑‍🦰 Revoke token.md>)
 
 <br/>
 

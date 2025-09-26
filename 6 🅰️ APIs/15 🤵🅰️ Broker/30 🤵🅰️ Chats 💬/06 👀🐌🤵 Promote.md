@@ -7,7 +7,7 @@
 
 > Ask the [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) to check-in into the selected [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>).
 
-> Used in [👀⏩🧑‍🦰 Advertise](<../../../5 ⏩ Flows/11 👀⏩ Advertisers/01 👀⏩🧑‍🦰 Advertise.md>)
+> Used in [👀⏩🧑‍🦰 Advertise](<../../../5 ⏩ Flows/05 👀⏩ Advertisers/01 👀⏩🧑‍🦰 Advertise.md>)
 
 <br/>
 
