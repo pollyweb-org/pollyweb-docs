@@ -43,7 +43,7 @@
     To search domains on a Finder, users use natural language, similar to ChatGPT.
     * Example: `find me a restaurant for tonight`.
     * Finders then show potential [Host 🤗 domains](<../../20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) for the user to initiate a [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) with.
-    * After the user selection, Finders also show potential next steps for [navigation 🧭](<../07 🧭 Navigators/05 🧭🫥 Navigator agent.md>), available [services 🪢](<../../20 🧑‍🦰 UI/23 💬 Chats/06 🪢🎭 Integrator role.md>), and [advertising 👀](<03 👀👥 Advertiser helper.md>).
+    * After the user selection, Finders also show potential next steps for [navigation 🧭](<../07 🧭 Navigators/01 🧭🫥 Navigator agent.md>), available [services 🪢](<../../20 🧑‍🦰 UI/23 💬 Chats/06 🪢🎭 Integrator role.md>), and [advertising 👀](<03 👀👥 Advertiser helper.md>).
     * Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) excerpt of the [Find a bar 🤝 use case](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/30 🍸 Bars/11 🌐 Web: Find a bar.md>) as an example.
 
 

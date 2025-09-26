@@ -12,6 +12,6 @@ Go through train station gates with a group ticket 🚂
 | 🚂 Railway | 😃 Pass last person? [Yes, No] | > Yes 
 | 🚂 Railway | 😉 Thanks, have a nice journey!
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Ticket voided [+]
-| 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/07 🧭 Navigators/05 🧭🫥 Navigator agent.md>) | ⓘ Best train options: [+] <br/> - 9:15 on platform A 🐜<br/>- 9:30 on platform C 🦀
-| 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/07 🧭 Navigators/05 🧭🫥 Navigator agent.md>) | ⓘ Go to platform A (3 min): [+] <br>- turn left to SP 🐿️<br>- down via stairs to JP 🐆<br/>- platform A is on the left 🐜
+| 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/07 🧭 Navigators/01 🧭🫥 Navigator agent.md>) | ⓘ Best train options: [+] <br/> - 9:15 on platform A 🐜<br/>- 9:30 on platform C 🦀
+| 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/07 🧭 Navigators/01 🧭🫥 Navigator agent.md>) | ⓘ Go to platform A (3 min): [+] <br>- turn left to SP 🐿️<br>- down via stairs to JP 🐆<br/>- platform A is on the left 🐜
 ||
