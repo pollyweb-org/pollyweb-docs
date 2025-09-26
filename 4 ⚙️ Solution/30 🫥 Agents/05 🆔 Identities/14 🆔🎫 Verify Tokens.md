@@ -50,7 +50,7 @@
     | `Casinos`|[🎰 Enter anonymously at a casino](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/10 🎰 Casinos/11 🚪 Enter anonymously.md>)
     |`Restaurants`|[🍽️ Order wine at restaurant](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/52 🪑 Seat: Order wine 🍷.md>)
     |`Bars`|[🍸 Order a beer at a bar](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/30 🍸 Bars/22 🪑 Seat: Order a beer.md>)
-    |`Clubs`|[🕺 Buy an entry at a night club](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/90 🕺 Clubs/1 Customer @ Anywhere/12. Buy entry 🎟️.md>)
+    |`Clubs`|[🕺 Buy an entry at a night club](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/90 🕺 Clubs/12 🌐 Web: Buy entry 🎟️.md>)
 
 
     ---
