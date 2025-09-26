@@ -1,6 +1,4 @@
-
-Top up a bus ticket at the bus stop 🚎
----
+# Top up a bus ticket at the bus stop 🚎
 
 | Service | Prompt | User
 | - | - | - |
