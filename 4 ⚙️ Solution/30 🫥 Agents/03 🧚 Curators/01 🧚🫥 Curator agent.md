@@ -5,12 +5,42 @@
 
 1. **What are Curator domains?**
 
-    [A Curator 🧚](<01 🧚🫥 Curator agent.md>) is an [Agent 🫥 vault domain](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) that filters options on behalf of users.
+    [A Curator 🧚](<01 🧚🫥 Curator agent.md>) 
+    * is an [Agent 🫥 vault domain](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) 
+    * that filters options on behalf of users.
 
     ---
     <br/>
 
-1. **What domain roles do Curators implement?**
+1. **What uses cases for a Curator agent?**
+
+    |Category|Example|
+    |-|-
+    |`Fast Food`| [🍔 Order a burger from the seat](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/25 🍔 Fast food/21 🪑 Seat: Order burger 🍔.md>)
+    |`Bars`|[🍸 Order water from the seat](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/30 🍸 Bars/21 🪑 Seat: Order water.md>) 
+    ||[🍺 Order a beer from the seat](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/30 🍸 Bars/22 🪑 Seat: Order a beer.md>)
+    ||[🍺 Reorder a beer from the seat](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/30 🍸 Bars/23 🪑 Seat: Reorder a beer.md>)
+    |`Street Food`|[🌭 Buy a hot dog at a stall](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/50 🌭 Street food/21 🎪 Stall: Buy hot dog 🌭.md>)
+    |`Restaurants`|[🥘 Order food from the seat](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/51 🪑 Seat: Order food 🥘.md>)
+    ||[🍷 Order wine from the seat](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/52 🪑 Seat: Order wine 🍷.md>)
+    ||[🍽️ Change the order from the seat](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/53 🪑 Seat: Change order 🌀.md>)
+    |`Order Pizza`|[🍕 Order pizza for home delivery](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/21 🏠 Home: Order pizza.md>)
+    |`Night Clubs`| [🍺 Order beer at a bar](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/90 🕺 Clubs/31 🍸 Bar: Order beer 🍺.md>)
+    |`Hotels`|[🏨 Search and book a hotel room](<../../../3 🤝 Use Cases/03 🧳 Travel/08 🧳 Stay at hotels 🏨/01 🏨 Guest @ Home 🏠/01 🏠 Book hotel.md>)
+    ||[🛎️ Select room on check-in](<../../../3 🤝 Use Cases/03 🧳 Travel/08 🧳 Stay at hotels 🏨/03 🏨 Guest @ Reception 🛎️/04 🛎️ Check-in.md>)
+    |`Airlines`|[💺 Set meal preferences check-in](<../../../3 🤝 Use Cases/03 🧳 Travel/09 🧳 Travel by air 💺/14 💺 Ticket/05 Flight check in.md>)
+    |`Retailers`| [🛍️ Visualize an item's price](<../../../3 🤝 Use Cases/04 🛒 Shop/01 🛍️ Shop for clothes/01 Customer @ Item/01 Item price.md>)
+    || [🛍️ Visualize an item's availability](<../../../3 🤝 Use Cases/04 🛒 Shop/01 🛍️ Shop for clothes/01 Customer @ Item/02 Item availability.md>)
+    ||[🛍️ Visualize an item's composition](<../../../3 🤝 Use Cases/04 🛒 Shop/01 🛍️ Shop for clothes/01 Customer @ Item/03 Item composition.md>)
+    |`Saloons`|[💈 Book a hairdresser service](<../../../3 🤝 Use Cases/05 🛠️ Services/01 💈 Cut hair at salons/10 Customer @ Anywhere/11 Book.md>)
+    |`Financial`|[🏧 Withdraw cash from an ATM](<../../../3 🤝 Use Cases/05 🛠️ Services/03 🏧 Withdraw at ATMs/10 Customer @ ATM/11 Withdraw cash.md>)
+    |`Services`|[Order remote prints with delivery](<../../../3 🤝 Use Cases/05 🛠️ Services/09 Remote printing/01 Customer @ Home 🏠/01 Order prints.md>)
+    
+
+    ---
+    <br/>
+
+2. **What domain roles do Curators implement?**
 
     | Role 🎭 | Purpose
     |-|-

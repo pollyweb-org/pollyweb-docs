@@ -1,5 +1,5 @@
 Remotely print a PDF and delivery at home
----
+===
 
 | Service | Prompt  | User |
 |-|-|-|
@@ -8,7 +8,7 @@ Remotely print a PDF and delivery at home
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | ✅ Over to 🔎 Finder.
 | [ new chat ]
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ℹ️ Find printing service.
-| 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | 💬 Here are options: <br/> - [ #1 ] 🖨️ Local Printer ($$$, 1hr) <br/> - [ #2 ] 🇬🇧 Amazon Printer ($$, 1day) <br/> - [ #3 ] 🇨🇳 Overseas Printer ($, 1wk) | > #1
+| 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | 💬 Here are options: <br/> - [ #1 ] 🖨️ Local Printer `$$$` `1hr` <br/> - [ #2 ] 🇬🇧 Amazon Printer `$$` `1day` <br/> - [ #3 ] 🇨🇳 Overseas Printer `$`  `1wk` | > #1
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ✅ Over to 🖨️ Any Printer.
 | [ new chat ]
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Printer (4.4 ⭐) [+]

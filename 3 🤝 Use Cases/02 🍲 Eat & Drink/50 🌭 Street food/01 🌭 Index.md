@@ -7,7 +7,7 @@
 
 ## 💬 Chats
 
-| Persona  | Chat 💬 | Details
+| Persona  | [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) | [Agents 🫥](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>)
 |-|-|-
 |🧑‍🦰 `🎪 Stall`|[Buy hot dog 🌭](<21 🎪 Stall: Buy hot dog 🌭.md>) | [`🧚 Curator`](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) [`🧢 Persona`](<../../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>)   [`💳 Payer`](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) 
 ||[Cancel hot dog 🌭](<22 🎪 Stall: Cancel hot dog.md>) | [`💳 Payer`](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) 
