@@ -26,4 +26,5 @@ Userable
 Userables
 vitalogist
 Vitalogists
+Vitalogy
 WPLG
