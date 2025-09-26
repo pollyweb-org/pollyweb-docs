@@ -1,6 +1,6 @@
 # 🍸 Drink at bars `Index`
 
-> Part of [Use cases 🤝](<../../00 🤝 Intro/🤝 Index.md>)
+> Part of [🍲 Eat & Drink use cases](<../🍲 Eat & Drink.md>)
 
 
 <br/> 
