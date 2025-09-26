@@ -1,3 +1,11 @@
+Menu at a night club
+===
+
+> Part of [🕺 Night Clubs](<01 🕺 Index.md>)
+
+<br/>
+
+```yaml
 Any Bar Menu:
 - Beer:
     - Lager (Stella Artois):

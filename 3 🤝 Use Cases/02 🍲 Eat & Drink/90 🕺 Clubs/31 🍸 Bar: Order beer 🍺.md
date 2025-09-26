@@ -1,5 +1,11 @@
-How to ask for a beer at a club with age proof?
----
+Ask for a beer at a club with age proof
+===
+
+> Part of [🕺 Night Clubs](<01 🕺 Index.md>)
+
+<br/>
+
+
 
 At the club, the customer taps/scans any NFC/QR tag.
 - The order is placed from a tag near the counter.
@@ -12,6 +18,9 @@ What it solves for customers:
 - no need to use a payment card with people looking over their shoulder;
 - and no need to wait for the drink while others push and yell also.
 
+<br/> 
+
+## 💬 Chat
 
 | Service | Prompt | User
 | - | - | - |

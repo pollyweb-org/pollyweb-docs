@@ -1,5 +1,11 @@
-How do bouncers check IDs at a club's door?
----
+Bouncers check IDs at a club's door
+===
+
+> Part of [🕺 Night Clubs](<01 🕺 Index.md>)
+
+<br/>
+
+## 💬 Chat
 
 | Service | Prompt | User
 | - | - | - |
