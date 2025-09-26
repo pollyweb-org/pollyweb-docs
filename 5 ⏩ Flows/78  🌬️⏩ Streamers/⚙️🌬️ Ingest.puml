@@ -4,22 +4,22 @@ participant "Streamer 🌬️\ndomain" as streamer
 
 box Subscriber #FFFFFF
     participant "Buffer ⏳\nhelper" as buffer
-    participant "Consumer 💼\ndomain" as domain
+    participant "Subscriber 🔔\ndomain" as domain
 end box
 
 
 activate streamer
-    streamer --> buffer: 1) updated@
+    streamer --> buffer: 1) Updated@
 deactivate streamer
 
 activate buffer
-    buffer --> domain: 2) wake-up@
+    buffer --> domain: 2) Wake-up@
 deactivate buffer
 
 activate domain
 
     loop more?
-        domain --> buffer: 3) consume@ 
+        domain --> buffer: 3) Consume@ 
     end loop
 
 deactivate domain
