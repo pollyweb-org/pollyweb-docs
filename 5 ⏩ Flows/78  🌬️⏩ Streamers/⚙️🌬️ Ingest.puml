@@ -7,20 +7,29 @@ box Subscriber #FFFFFF
     participant "Subscriber 🔔\ndomain" as domain
 end box
 
+'activate domain
+    domain --> streamer: 0) Subscribe@
+'deactivate domain  
 
-activate streamer
-    streamer --> buffer: 1) Updated@
-deactivate streamer
+group Stream
 
-activate buffer
-    buffer --> domain: 2) Wake-up@
-deactivate buffer
+    'activate streamer
+        streamer --> buffer: 1) Push@
+    'deactivate streamer
 
-activate domain
+    activate buffer
+        buffer --> domain: 2) Wake-up@
+    deactivate buffer
 
-    loop more?
-        domain --> buffer: 3) Consume@ 
-    end loop
+    activate domain
+
+        loop more?
+            domain --> buffer: 3) Poll@ 
+            domain --> buffer: 4) Confirm@ 
+        end loop
+
+
+end group   
 
 deactivate domain
 
