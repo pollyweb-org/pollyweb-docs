@@ -1,8 +1,11 @@
-# 💼🐌 Feedback
+# 💼🐌 Feedback @ Buffer
+
+> The feedback is sent via a [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>) defined by the sender's domain. 
+
+> Implements [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>)
 
 > Mentioned in [domain Message 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>)
 
- > The feedback is sent via a [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>) defined by the sender's domain. 
 
 <br/> 
 

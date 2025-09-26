@@ -304,7 +304,7 @@
           Feedback: any-buffer.com
         ```
 
-    * The feedback is sent via a [Buffer ⏳ helper domain](<03 ⏳🛠️ Buffer helper.md>) defined by the sender's domain, using the [Feedback@Buffer 🐌 API message](<../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/03 💼🐌 Feedback.md>). 
+    * The feedback is sent via a [Buffer ⏳ helper domain](<03 ⏳🛠️ Buffer helper.md>) defined by the sender's domain, using the [Feedback@Buffer 🐌 API message](<../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/03 💼🐌⏳ Feedback.md>). 
         ```yaml
         🤝: nlweb.org/MSG:1.0
         Header:
