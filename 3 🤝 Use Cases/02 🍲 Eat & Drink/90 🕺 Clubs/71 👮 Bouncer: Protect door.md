@@ -1,5 +1,11 @@
-How do bouncers protect a door?
----
+Bouncers protect a door
+===
+
+> Part of [🕺 Night Clubs](<01 🕺 Index.md>)
+
+<br/>
+
+## 💬 Chat
 
 | Service | Prompt | User
 | - | - | - |

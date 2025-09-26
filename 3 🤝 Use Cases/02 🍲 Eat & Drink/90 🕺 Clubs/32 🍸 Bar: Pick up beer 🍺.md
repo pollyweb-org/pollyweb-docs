@@ -1,5 +1,11 @@
-How to pick up a drink at a club?
----
+Pick up a drink at a club
+===
+
+> Part of [🕺 Night Clubs](<01 🕺 Index.md>)
+
+<br/>
+
+## 💬 Chat
 
 | Service | Prompt | User
 | - | - | - |

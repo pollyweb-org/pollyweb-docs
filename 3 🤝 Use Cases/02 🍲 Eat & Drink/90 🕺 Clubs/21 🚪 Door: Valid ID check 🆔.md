@@ -1,5 +1,11 @@
-How to provide proof of age at a club?
----
+Provide proof of age at a club
+===
+
+> Part of [🕺 Night Clubs](<01 🕺 Index.md>)
+
+<br/>
+
+## 💬 Chat
 
 | Service | Prompt | User
 | - | - | - |

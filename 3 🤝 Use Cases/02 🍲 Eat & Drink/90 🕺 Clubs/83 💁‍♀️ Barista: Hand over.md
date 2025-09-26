@@ -1,6 +1,11 @@
+Baristas fulfill an order at the club
+===
 
-How do baristas fulfill an order at the club?
----
+> Part of [🕺 Night Clubs](<01 🕺 Index.md>)
+
+<br/>
+
+## 💬 Chat
 
 | Service | Prompt | User
 | - | - | - |
