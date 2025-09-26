@@ -1,16 +1,28 @@
 💼 Consumer domain role FAQ
 ===
 
-![](<.📎 Assets/🗄️ Consumer.png>)
-
 1. **What is a Consumer domain role in NLWeb?**
 
-    Consumers 💼 are [Host 🤗 domains](<../23 💬 Chats/04 🤗🎭 Host role.md>) that request users to share their data, typically to execute a workflow without the user having to type in the data.
+    Consumers 💼 
+    * are [Host 🤗 domains](<../23 💬 Chats/04 🤗🎭 Host role.md>) 
+    * that request users to share their data,
+    * typically to execute a workflow without the user having to type in the data.
 
     ---
     <br/>
 
-1. **What kind of user data is supported by Consumers?**
+1. **How do Consumers work?**
+
+    ![](<.📎 Assets/🗄️ Consumer.png>)
+
+    <!-- 
+    TODO: add a table with steps.
+    -->
+
+    ---
+    <br/>
+
+2. **What kind of user data is supported by Consumers?**
 
     Consumers 💼 receive data from the following sources:
     - schema-bound datasets shared directly by users' [Vault 🗄️ domains](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>), and
@@ -19,7 +31,7 @@
     ---
     <br/>
 
-1. **How do Consumers receive downloaded Tokens?**
+3. **How do Consumers receive downloaded Tokens?**
 
     [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) are shared with Consumers 💼 by [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) in a number of ways.
 
@@ -42,7 +54,7 @@
     ---
     <br/>
 
-2. **Can Consumers use SELF Tokens to tracked domains?**
+4. **Can Consumers use SELF Tokens to tracked domains?**
 
     Yes. Just like with first-party cookies on Web 2.0 internet. 
     
@@ -52,7 +64,7 @@
     ---
     <br/>
 
-3. **Can Consumers use SELF Tokens to behave like Vaults?**
+5. **Can Consumers use SELF Tokens to behave like Vaults?**
 
     Yes, but that may produce a poor user experience.
 
@@ -101,23 +113,6 @@
 
     [Firewall 🔥 domains](<../../40 👥 Domains/43 👍 Trusts/03 🔥🛠️ Firewall helper.md>) monitor the behavior of any [Graph 🕸 domain](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>) and match domain information with other [Graphs 🕸](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>). 
     * If necessary, [Firewall 🔥 domains](<../../40 👥 Domains/43 👍 Trusts/03 🔥🛠️ Firewall helper.md>) immediately revoke a Graph's [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>).
-
-    ---
-    <br/>
-
-9. **How are Users protected from Consumers that ask too much data?**
-
-    [Consumer 💼 domains](<04 💼🎭 Consumer role.md>) must publicly manifest their potential sharing requests in their [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>), in a similar way apps must manifest it when publishing into Apple's App Store or Google Play.
-    - [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) only process sharing requests that are publicly manifested in advance.
-    - [Authority 🏛️ domains](<../../40 👥 Domains/43 👍 Trusts/02 🏛️🛠️ Authority helper.md>) monitor the [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) for dataset requests that don't match the domain's business or exception requests, and if necessary may revoke the [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) on the [Consumer 💼 domain](<04 💼🎭 Consumer role.md>).
-
-    Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) as an example. 
-
-    | Service | Prompt  | User |
-    |-|-|-|
-    | 🏨 Hotel  | 😃 Hi! What do you need? <br/> - [ Check-in ] <br/> - [ Something else ] | > Check-in 
-    | 🤵 [Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Flow: check-in [-] <br/> - your identity shares your ID 🆔 <br/> - your payer pays the stay 💳 <br/> - your curator set the room 🧚 <br/> - you save the room key 🤵  
-    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Share identity? [Yes, No] |
 
     ---
     <br/>
@@ -176,39 +171,56 @@
     ---
     <br/>
 
-13. **How can users be protected from consumers collecting too much PII?**
+
+
+13. **How are consumers prevented from collecting too much user data?**
 
     To protect users from [Consumer 💼 domains](<04 💼🎭 Consumer role.md>) that collect too much Personally Identifiable Information (PII), [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) verify if any [Consumer 💼 domain](<04 💼🎭 Consumer role.md>) request is explicitly mentioned on their [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>).
 
+    * [Consumer 💼 domains](<04 💼🎭 Consumer role.md>) must publicly manifest their potential sharing requests in their [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>), in a similar way apps must manifest it when publishing into Apple's App Store or Google Play.
+    
     * [Consumer 💼 domains](<04 💼🎭 Consumer role.md>) manifest the unique contexts in which they will collect data, and what data is collected in each context.
   
     * When interacting in a [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>), [Consumer 💼 domains](<04 💼🎭 Consumer role.md>) need to notify the [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) of a context change before requesting data under that context.
+
+    * [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) only process sharing requests that are publicly manifested in advance.
 
     * [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) inform users of every context change, identifying the data that may be collected, then block any data request from the Consumer that does not comply with that context - e.g., [Order pizza 🍕](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/21 🏠 Home: Order pizza.md>), [Hotel check-in 🛎️](<../../../3 🤝 Use Cases/03 🧳 Travel/08 🧳 Stay at hotels 🏨/03 🏨 Guest @ Reception 🛎️/04 🛎️ Check-in.md>).
 
     * Because the [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) are public and prone to automatic evaluation by domains like [Firewall 🔥 domains](<../../40 👥 Domains/43 👍 Trusts/03 🔥🛠️ Firewall helper.md>) and [Reviewer ⭐ domains](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>), [Consumer 💼 domains](<04 💼🎭 Consumer role.md>) are exposed to public scrutiny regarding the data  their are collecting, namely: what, why, how, and how much.
 
+    * [Authority 🏛️ domains](<../../40 👥 Domains/43 👍 Trusts/02 🏛️🛠️ Authority helper.md>) monitor the [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) for dataset requests that don't match the domain's business or exception requests, and if necessary may revoke the [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) on the [Consumer 💼 domain](<04 💼🎭 Consumer role.md>).
+
     * Consider the following example of a [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>).
-  
+    
         ```yaml
         Flows:
 
-            order-flow: 
-                Title: Order
-                Details: <long description>
+            check-in-flow: 
+                Title: Check-in
+                Details: <long optional description>
                 Steps:
+                - Input: SHARE|nlweb.org/IDENTITY/ID
+                    Purpose: your identity 🆔 shares your ID
                 - Input: SHARE|nlweb.org/CURATOR/FILTER
-                  Purpose: your curator orders 🧚
+                    Purpose: your curator 🧚 sets the room 
                 - Input: CHARGE
-                  Purpose: your payer pays the bill 💳
-
-            bind-flow: 
-                Title: Second flow
-                Details: <another long description>
-                Steps:
-                - Input: BIND|any-issuer.com/ANY-CODE-4
-                  Purpose: <detailed reasoning>
+                    Purpose: your payer 💳 pays the stay
+                - Input: ISSUE|any-hotel.com/KEY
+                    Purpose: your broker 🤵 saves the room key 
         ```
+
+    
+    * That configuration would result in the following [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) excerpt. 
+
+        | Service | Prompt  | User |
+        |-|-|-|
+        | 🏨 Hotel  | 😃 Hi! What do you need? <br/> - [ Check-in ] <br/> - [ Something else ] | > Check-in 
+        | 🤵 [Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Ready to check-in? [Yes, No] <br/> - your identity 🆔 shares your ID <br/> - your curator 🧚 sets the room  <br/> - your payer 💳 pays the stay   <br/> - your broker 🤵 saves the room key  | > Yes
+        | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Share identity? [Yes, No] |
+        | ... | 
+
+
 
     ---
     <br/>

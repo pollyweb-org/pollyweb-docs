@@ -1,6 +1,12 @@
 ⏳ Buffer helper domains FAQ
 ===
 
+> Mentioned in [📨 Domain Message](<01 📨 Domain Message.md>).
+
+> Reference by [Identity@Graph 🚀 method](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/04 👥🚀🕸 Identity.md>).
+
+<br/>
+
 1. **What is a Buffer domain in NLWeb?**
 
     A [Buffer ⏳ domain](<03 ⏳🛠️ Buffer helper.md>) 

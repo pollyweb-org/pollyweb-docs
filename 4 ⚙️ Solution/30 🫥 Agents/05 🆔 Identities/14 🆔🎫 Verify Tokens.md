@@ -67,8 +67,8 @@
     |`Pizza places`|[💁‍♀️ Start shift as staff at a pizza place](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/71 💁‍♀️ Staff: Start shift.md>)
     |`Delivery`|[🛵 Start shift as a delivery driver](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/81 🛵 Driver: Start shift.md>)
     |`Bars`|[🍸 Start shift as a barista](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/30 🍸 Bars/31 💁‍♀️ Barista: Serve.md>)
-    |`Night Clubs` | [👮 Start shift as a bouncer](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/90 🕺 Clubs/71 👮 Bouncer: Protect door.md>)
-    ||[🍺 Start shift as a barista](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/90 🕺 Clubs/81 💁‍♀️ Barista: Start shift.md>)
+    |`Night Clubs` | [👮 Start shift as a bouncer in a night club](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/90 🕺 Clubs/71 👮 Bouncer: Protect door.md>)
+    |`Night Clubs` |[🍺 Start shift as a barista in a night club](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/90 🕺 Clubs/81 💁‍♀️ Barista: Start shift.md>)
     ---
     <br/>
 
