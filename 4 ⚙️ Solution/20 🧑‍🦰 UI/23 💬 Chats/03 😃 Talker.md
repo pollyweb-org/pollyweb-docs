@@ -152,7 +152,7 @@
    * `GOODBYE|<message>`	
        * Calls 👉 Goodbye: 🤗 Host
    * `ISSUE|<code>|{credentialID}`	
-       * Calls [🎴⏩🧑‍🦰 Offer token](<../../../5 ⏩ Flows/40 🎴⏩ Issuers/01 🎴⏩🧑‍🦰 Offer token.md>)
+       * Calls [🎴⏩🧑‍🦰 Offer token](<../../../5 ⏩ Flows/60 🎴⏩ Issuers/01 🎴⏩🧑‍🦰 Offer token.md>)
        * The function waits for all shares
    * `REDIRECT|{host}|{locator}`	
        * Calls 👉 Check-in: 👱📎 Wallet. Sessions

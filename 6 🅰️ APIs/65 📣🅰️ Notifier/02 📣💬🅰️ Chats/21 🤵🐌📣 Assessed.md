@@ -9,7 +9,7 @@
 
 > Brokers tell Wallets about a new chat.
 
-> Used in [🤵⏩🧑‍🦰 Assessed @ Broker](<../../../5 ⏩ Flows/18 🤵⏩ Brokers/01 🤵⏩🧑‍🦰 Assessed.md>) 
+> Used in [🤵⏩🧑‍🦰 Assessed @ Broker](<../../../5 ⏩ Flows/10 🤵⏩ Brokers/01 🤵⏩🧑‍🦰 Assessed.md>) 
 
 <br/>
 
