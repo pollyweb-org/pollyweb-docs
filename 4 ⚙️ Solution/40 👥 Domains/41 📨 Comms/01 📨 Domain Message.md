@@ -200,14 +200,14 @@
 
 1. **How do Synchronous Requests work?**
 
-    ![SyncRequest](<../../../5 ⏩ Flows/35 👥⏩ Domains/.📎 Assets/⚙️🚀 SyncRequest.png>)
+    ![SyncRequest](<../../../5 ⏩ Flows/30 👥⏩ Domains/.📎 Assets/⚙️🚀 SyncRequest.png>)
 
     ---
     <br/>
 
 1. **How do Async Messages work?**
 
-    ![AsyncMessage](<../../../5 ⏩ Flows/35 👥⏩ Domains/.📎 Assets/⚙️🐌 AsyncMessage.png>)
+    ![AsyncMessage](<../../../5 ⏩ Flows/30 👥⏩ Domains/.📎 Assets/⚙️🐌 AsyncMessage.png>)
     
     ---
     <br/>

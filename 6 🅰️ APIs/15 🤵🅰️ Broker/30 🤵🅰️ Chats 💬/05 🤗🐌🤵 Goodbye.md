@@ -7,7 +7,7 @@
 
 > The [Host 🤗 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) inform the [user's Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) of the [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) ending.
 
-> Used in [🤗⏩🧑‍🦰 Goodbye](<../../../5 ⏩ Flows/39 🤗⏩ Hosts/02 🤗⏩🧑‍🦰 Goodbye.md>).
+> Used in [🤗⏩🧑‍🦰 Goodbye](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/02 🤗⏩🧑‍🦰 Goodbye.md>).
 
 <br/> 
 

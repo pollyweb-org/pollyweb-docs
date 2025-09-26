@@ -2,7 +2,7 @@
 
 > List the user's [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>).
 
-> Cache is invalidated with [🤵⏩🧑‍🦰 Update tokens](<../../18 🤵⏩ Brokers/04 🤵⏩🧑‍🦰 Update tokens.md>).
+> Cache is invalidated with [🤵⏩🧑‍🦰 Update tokens](<../../10 🤵⏩ Brokers/04 🤵⏩🧑‍🦰 Update tokens.md>).
 
 <br/>
 

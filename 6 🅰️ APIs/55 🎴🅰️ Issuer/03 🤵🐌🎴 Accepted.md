@@ -1,7 +1,7 @@
 <!-- #TODO -->
 
 
-Called by [👉 Accept token](<../../5 ⏩ Flows/40 🎴⏩ Issuers/01 🎴⏩🧑‍🦰 Offer token.md>)
+Called by [👉 Accept token](<../../5 ⏩ Flows/60 🎴⏩ Issuers/01 🎴⏩🧑‍🦰 Offer token.md>)
 
 
 |Property|Type|Description

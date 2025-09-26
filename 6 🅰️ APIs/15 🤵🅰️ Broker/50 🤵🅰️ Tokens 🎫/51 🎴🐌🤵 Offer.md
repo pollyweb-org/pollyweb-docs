@@ -7,7 +7,7 @@
 
 > An [Issuer 🎴 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) issues a [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
 
-> Used by [🎴⏩🧑‍🦰 Offer token](<../../../5 ⏩ Flows/40 🎴⏩ Issuers/01 🎴⏩🧑‍🦰 Offer token.md>)
+> Used by [🎴⏩🧑‍🦰 Offer token](<../../../5 ⏩ Flows/60 🎴⏩ Issuers/01 🎴⏩🧑‍🦰 Offer token.md>)
 
 <br/>
 
