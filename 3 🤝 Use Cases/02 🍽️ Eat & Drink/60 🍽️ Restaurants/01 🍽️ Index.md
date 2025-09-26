@@ -1,5 +1,8 @@
 # 🍽️ Eat at restaurants `index`
 
+> Part of [Use cases 🤝](<../../00 🤝 Intro/🤝 Index.md>)
+
+
 <br/> 
 
 ## 💬 Chats
