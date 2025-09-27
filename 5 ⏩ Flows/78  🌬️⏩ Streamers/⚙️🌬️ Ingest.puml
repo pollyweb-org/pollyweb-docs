@@ -8,24 +8,25 @@ box Subscriber #FFFFFF
 end box
 
 'activate domain
-    domain --> streamer: 0) Subscribe@
+    domain -> buffer: 1) Queue@
+    domain --> streamer: 2) Subscribe@
 'deactivate domain  
 
 group Stream
 
     'activate streamer
-        streamer --> buffer: 1) Push@
+        streamer --> buffer: 3) Push@
     'deactivate streamer
 
     activate buffer
-        buffer --> domain: 2) Wake-up@
+        buffer --> domain: 4) Wake-up@
     deactivate buffer
 
     activate domain
 
         loop more?
-            domain --> buffer: 3) Poll@ 
-            domain --> buffer: 4) Confirm@ 
+            domain -> buffer: 5) Poll@ 
+            domain -> buffer: 6) Confirm@ 
         end loop
 
 
