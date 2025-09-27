@@ -16,12 +16,12 @@ activate host
 
 group Host Prompt 
 
-    host --> broker: 1) 🐌 prompt
+    host --> broker: 1) 🐌 Prompt
     deactivate host
 
     ' Broker
     activate broker
-        broker --> notifier: 2) 🐌 prompt
+        broker --> notifier: 2) 🐌 Prompt
     deactivate broker
 
     ' Notifier
@@ -33,14 +33,14 @@ group Host Prompt
     activate wallet
 
         ' Get Prompt
-        wallet -> host: 3) 🚀 prompted
+        wallet -> host: 3) 🚀 Prompted
         activate host
             host -> wallet: {prompt}
         deactivate host
 
         ' Download attachments
         alt has attachments?
-            wallet -> host: 🚀 download
+            wallet -> host: 🚀 4) Download
             activate host
                 host -> wallet: {file}
             deactivate host
@@ -54,7 +54,7 @@ group User Response
     user --> wallet: reply
 
     wallet -> wallet: sign(msg)
-    wallet --> host: 4) 🐌 reply
+    wallet --> host: 5) 🐌 Reply
     deactivate wallet
 
     activate host

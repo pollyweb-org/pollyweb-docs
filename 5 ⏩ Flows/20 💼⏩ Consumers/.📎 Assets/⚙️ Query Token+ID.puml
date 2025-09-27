@@ -17,13 +17,13 @@ activate consumer
 
 group Share token
 
-    consumer --> broker: 1. Query@
+    consumer --> broker: 1) Query@
     deactivate consumer
 
     activate broker
-        broker -> graph: 2. Queryable@ {codes}
-        broker -> graph: 3. Translate@ {codes}
-        broker --> notifier: 4. Query@
+        broker -> graph: 2) Queryable@ {codes}
+        broker -> graph: 3) Translate@ {codes}
+        broker --> notifier: 4) Query@
     deactivate broker
 
     activate notifier
@@ -31,20 +31,20 @@ group Share token
     deactivate notifier
 
     activate wallet
-        user --> wallet: 5. Share
+        user --> wallet: 5) Share
         wallet --> consumer: 6. Verify@ {tokens}
     deactivate wallet
 
     activate consumer
-    consumer -> graph: 7. Trusts@ {issuers}
+    consumer -> graph: 7) Trusts@ {issuers}
 
 end group
 
 
 group Request ID check
 
-    consumer -> graph: 8. Trusts@ {identity}
-    consumer --> broker: 9. Query@ 
+    consumer -> graph: 8) Trusts@ {identity}
+    consumer --> broker: 9) Query@ 
     deactivate consumer
 
     activate broker
@@ -57,49 +57,18 @@ group Request ID check
 
 end group
 
-group Verify ID
 
-        identity --> broker: Prompt@
-    deactivate identity
-
-    activate broker
-        broker --> notifier: Prompt@
-    deactivate broker
-
-    activate notifier
-        notifier --> wallet
-    deactivate notifier
-
-    ' Wallet 👱
-    activate wallet
-        wallet -> identity: prompted@
-        activate identity
-            identity -> wallet: {prompt}
-        deactivate identity
-
-        user --> wallet: selfie
-        wallet -> identity: iframe@
-
-        activate identity
-            identity -> wallet: {liveness html page}
-        deactivate identity
-
-        wallet --> identity: reply@
-    deactivate wallet
-    activate identity
-
-end group
-
+identity --> wallet: 10 ⏪ Selfie
 
 group Confirm ID 
 
-        identity --> consumer: consume@ 
+        identity --> consumer: 11) Consume@ 
     deactivate identity
 
     ' CONSUMER
     activate consumer   
-        consumer -> graph: trusts@ {identity}
-        consumer -> identity: collect@
+        consumer -> graph: 12) Trusts@ {identity}
+        consumer -> identity: 13) Collect@
         activate identity
             identity -> consumer: {data}
         deactivate identity

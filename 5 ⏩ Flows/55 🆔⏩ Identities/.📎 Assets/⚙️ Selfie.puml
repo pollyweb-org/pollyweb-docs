@@ -26,7 +26,7 @@ activate wallet
     deactivate identity
 
     user --> wallet: selfie
-    wallet -> identity: 4) Record@
+    wallet -> identity: 4) Liveness@
 
     activate identity
         identity -> wallet: {liveness html page}
