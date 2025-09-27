@@ -20,7 +20,7 @@ Header:
     Subject: Abandoned@Host
 
 Body: 
-    ChatID: <session-uuid>
+    ChatID: <chat-uuid>
 ```
 
 |Object|Property|Type|Description

@@ -6,6 +6,8 @@
 
 > Reverted by [Unqueue @ Queue 🚀](<13 🔔🚀⏳ Unqueue.md>)
 
+> To update a queue, re-use the `<queue-uuid>`
+
 <br/>
 
 ## Synchronous Request 🚀
