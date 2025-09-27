@@ -5,11 +5,11 @@
 # 👥🚀🕸 Trusts @ [Graph](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>)
 
 > Verifies if there’s a path of [Trust 👍](<../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) between two [domains 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) regarding a [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>).
+> <br/> • Similar as [Trusted@Graph](<02 👥🚀🕸 Trusted.md>), but for verification by another [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).
 
-
-> Used in [💼⏩🧑‍🦰 Query token](<../../5 ⏩ Flows/20 💼⏩ Consumers/03 💼⏩🧑‍🦰 Query token.md>)
-
-> Similar as [Trusted@Graph](<02 👥🚀🕸 Trusted.md>), but for verification by another [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).
+> Used in:
+> <br/> • [💼⏩🧑‍🦰 Query token](<../../5 ⏩ Flows/20 💼⏩ Consumers/03 💼⏩🧑‍🦰 Query token.md>)
+> <br/> • [💼⏩🧑‍🦰 Query vault @ Consumer](<../../5 ⏩ Flows/20 💼⏩ Consumers/02 💼⏩🧑‍🦰 Query vault.md>)
 
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 

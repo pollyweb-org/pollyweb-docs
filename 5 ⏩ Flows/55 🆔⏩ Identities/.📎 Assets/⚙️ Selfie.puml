@@ -1,0 +1,40 @@
+@startuml Wallet: Share Token
+
+
+actor User as user
+participant "Wallet 👱\n(app)" as wallet
+participant "Notifier 📣\n(domain)" as notifier
+participant "Broker 🤵\n(domain)" as broker
+participant "Identity 🆔\n(vault)" as identity
+
+
+identity --> broker: 1) Prompt@
+
+activate broker
+    broker --> notifier: 2) Prompt@
+deactivate broker
+
+activate notifier
+    notifier --> wallet
+deactivate notifier
+
+' Wallet 👱
+activate wallet
+    wallet -> identity: 3) Prompted@
+    activate identity
+        identity -> wallet: {prompt}
+    deactivate identity
+
+    user --> wallet: selfie
+    wallet -> identity: 4) Record@
+
+    activate identity
+        identity -> wallet: {liveness html page}
+    deactivate identity
+
+    wallet --> identity: 5) Reply@
+deactivate wallet
+activate identity
+
+
+@enduml 
