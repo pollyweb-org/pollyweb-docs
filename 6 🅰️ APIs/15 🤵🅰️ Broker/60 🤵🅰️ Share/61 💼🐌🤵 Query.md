@@ -4,7 +4,9 @@
 
 > In a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>), a [Consumer 💼 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) asks the [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) for access to user data in one or more [Schema Codes 🧩](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>).
 
-> Used by [💼⏩🧑‍🦰 Query token](<../../../5 ⏩ Flows/20 💼⏩ Consumers/03 💼⏩🧑‍🦰 Query token.md>).
+> Used by: 
+> <br/>• [💼⏩🧑‍🦰 Query token @ Consumer](<../../../5 ⏩ Flows/20 💼⏩ Consumers/03 💼⏩🧑‍🦰 Query token.md>)
+> <br/>• [💼⏩🧑‍🦰 Query vault @ Consumer](<../../../5 ⏩ Flows/20 💼⏩ Consumers/02 💼⏩🧑‍🦰 Query vault.md>)
 
 <br/> 
 
@@ -37,15 +39,31 @@ Body:
 
 <br/>
 
-> Although many [Schema Codes 🧩](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) may be requested,
-> <br/>• only one of them will be returned; 
-> <br/>• this allows for alternative documents;
-> <br/>• e.g., passport or driver's license.
+## FAQ
 
-> For [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>), 
-> <br/>• only shows the ones that are active,
-> <br/>• i.e., within the start and expiration date.
+1. **Why a list of Codes instead of a single one?**
+   
+    Although many [Schema Codes 🧩](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) may be requested, 
+    * only one of them will be returned; 
+    * this allows for alternative documents;
+    * e.g., passport or driver's license.
 
-> For the [Schema Codes 🧩](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) marked with SELF, 
-> <br/>• only shows the [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) issued by the [Consumer 💼 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>),
-> <br/>• e.g., [`nlweb.org/BOOKING/SELF 🧩`](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/HOST/🧩 HostBookingSelf.md>)
+    ---
+    <br/>
+
+1. **Are suspended Tokens shared?**
+
+    For [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>), 
+    * only shows the ones that are active,
+    * i.e., within the start and expiration date.
+
+    ---
+    <br/>
+
+1. **How are SELF Tokens are shared?**
+
+    For the [Schema Codes 🧩](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) marked with SELF, 
+    * only shows the [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) issued by the [Consumer 💼 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>),
+    * e.g., [`nlweb.org/BOOKING/SELF 🧩`](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/HOST/🧩 HostBookingSelf.md>).
+
+    ---

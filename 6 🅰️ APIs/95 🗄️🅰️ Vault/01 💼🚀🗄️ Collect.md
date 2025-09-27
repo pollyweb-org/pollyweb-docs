@@ -1,5 +1,3 @@
-<!-- #TODO -->
-
 <!-- https://quip.com/IZapAfPZPnOD#temp:C:PDZ67394972376e4fb8979d41209 -->
 
 
@@ -8,7 +6,9 @@
 
 > Tells it to reply with the data [shared](<../30 💼🅰️ Consumer/01 🗄️🐌💼 Consume.md>) by the user.
 
+> Used by [💼⏩🧑‍🦰 Query vault @ Consumer](<../../5 ⏩ Flows/20 💼⏩ Consumers/02 💼⏩🧑‍🦰 Query vault.md>)
 
+<br/>
 
 ## Sync Request 🚀
 
@@ -32,11 +32,11 @@ Body:
 
 <br/>
  
-## Design decisions
+## FAQ
 
-| Type | Decision
-|-|-
-| `Size`| A synchronous request (instead of an async message) allows Consumers to download data sets from the Vault via HTTPS with no theoretical size limit.
-| `Cache` | Consumers expect the response to be cached during [Consume@Consumer](<../30 💼🅰️ Consumer/01 🗄️🐌💼 Consume.md>), to allow Vaults to take as much time as necessary to gather the data, while avoiding timeouts when the Consumer calls [Collect@Vault](<01 💼🚀🗄️ Collect.md>).
-| `Timeout` | The request is rejected if the TTL of the Vault's cache is exceeded.
+1. **Why a synchronous request?**
 
+    A synchronous request (instead of an async message) allows  [Consumer 💼 domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) to download data sets from the [Vault 🗄️ domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) via HTTPS with no theoretical size limit.
+
+    ---
+    <br/>

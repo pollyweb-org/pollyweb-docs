@@ -1,11 +1,13 @@
-<!-- #TODO -->
-
 <!-- https://quip.com/IZapAfPZPnOD#temp:C:PDZa3f3ba7f94154a2fbd520e931 -->
 
 
 # 🧑‍🦰🐌🗄️ Disclose @ Vault
 
-> Request for a Vault to share data about a user to a Consumer.
+> Request for a [Vault 🗄️ domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) to share user data with a [Consumer 💼 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>).
+
+> Used by [💼⏩🧑‍🦰 Query vault @ Consumer](<../../5 ⏩ Flows/20 💼⏩ Consumers/02 💼⏩🧑‍🦰 Query vault.md>)
+
+<br/>
 
 ## Async Message 🐌
 
@@ -32,16 +34,4 @@ Body:
 || `Consumer` | string | [Consumer 💼 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) name
 || `Language` | enum | ISO language code
 || `BindID` | uuid | [Bind 🔗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>) ID
-
-
-
-<br/>
-
-## Steps
-
-* Validate the signature of the message
-* Verify if the Consumer is trustable
-* Ask any additional question to the user (e.g., OTP)
-* Send the data to the Consumer
-
----
+|
