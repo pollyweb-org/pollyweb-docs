@@ -15,6 +15,7 @@ Header:
     Subject: Poll@Buffer
 Body:
     Queue: <queue-uuid>
+    DLQ: False          # Optional, default False
 ```
 
 
@@ -24,6 +25,7 @@ Body:
 ||`To`| string | [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>) name
 ||`Subject`| string | `Poll@Buffer`
 |Body| `Queue`| uuid | Queue from [Queue @ Buffer](<12 🔔🚀⏳ Queue.md>)
+|| `DLQ`| bool | From dead-letter-queue? 
 |
 
 <br/>
