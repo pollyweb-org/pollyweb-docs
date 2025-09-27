@@ -53,7 +53,7 @@
 3. **What if a push fails with a timeout or 5XX error?**
 
     Upon receiving a timeout or 5XX error from a [Buffer ⏳ helper domain](<03 ⏳🛠️ Buffer helper.md>), 
-    * Streamers 🌬️ will retry to push events with exponential back-off for up to 24 hours. 
+    * [Streamer 🌬️ domains](<02 🌬️🎭 Streamer role.md>) will retry to push events with exponential back-off for up to 24 hours. 
     * After that, the event is discarded.
 
     ---
@@ -62,7 +62,7 @@
 4. **What if a push fails with a 4XX HTTP error?**
 
     Upon receiving a non-authorized 4XX error from a [Buffer ⏳ helper domain](<03 ⏳🛠️ Buffer helper.md>), 
-    * Streamers 🌬️ assume that the [Buffer ⏳](<03 ⏳🛠️ Buffer helper.md>) does not want the message, 
+    * [Streamer 🌬️ domains](<02 🌬️🎭 Streamer role.md>) assume that the [Buffer ⏳ domain](<03 ⏳🛠️ Buffer helper.md>) does not want the message, 
     * and the event is discarded.
 
     ---
@@ -71,7 +71,7 @@
 5. **What if a Subscriber returns a 429 Too Many Requests?**
 
     Upon receiving a 429 Too Many Requests from a [Buffer ⏳ helper domain](<03 ⏳🛠️ Buffer helper.md>), 
-    * Streamers 🌬️ conclude that the [Buffer ⏳](<03 ⏳🛠️ Buffer helper.md>) is failing to do its one and only job, 
+    * [Streamer 🌬️ domains](<02 🌬️🎭 Streamer role.md>) conclude that the [Buffer ⏳ domain](<03 ⏳🛠️ Buffer helper.md>) is failing to do its one and only job, 
     * and the event is discarded nonetheless.
 
     ---
@@ -79,7 +79,7 @@
 
 6. **How to prevent Buffers from spoofing the events?**
 
-    To avoid spoofing, [Streamer 🌬️ domains](<02 🌬️🎭 Streamer role.md>) encrypt the event content with the public key of the [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) before sending it to the Subscriber's [Buffer ⏳ helper domain](<03 ⏳🛠️ Buffer helper.md>).
+    To avoid spoofing, [Streamer 🌬️ domains](<02 🌬️🎭 Streamer role.md>) encrypt the event content with the [DKIM public key 📨](<01 📨 Domain Message.md>) of the [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) before sending it to the Subscriber's [Buffer ⏳ helper domain](<03 ⏳🛠️ Buffer helper.md>).
 
     ---
     <br/>

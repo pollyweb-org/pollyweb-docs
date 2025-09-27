@@ -13,8 +13,9 @@
 Header:
     From: any-subscriber.com
     To: any-streamer.com
-    Subject: Register@Streamer
+    Subject: Subscribe@Streamer
 Body:
+    Stream: ANY-STREAM
     Buffer: any-buffer.com
     Queue: <queue-uuid>
     Filters: 
@@ -24,10 +25,11 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|`Header`| `From`| string | [Subscriber 🔔 domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/04 🔔🎭 Subscriber role.md>) name
+|Header| `From`| string | [Subscriber 🔔 domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/04 🔔🎭 Subscriber role.md>) name
 || `To`| string | [Streamer 🌬️ domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/02 🌬️🎭 Streamer role.md>) name
 || `Subject` | string | `Subscribe@Streamer`
-|Body | `Buffer`| string | [Buffer ⏳ domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>) name
+|Body | `Stream`| string | Stream key on the [Streamer 🌬️](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/02 🌬️🎭 Streamer role.md>)
+|| `Buffer`| string | [Buffer ⏳ domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>) name
 || `Queue` | uuid | Callback for [Push@Buffer 🐌](<../20 ⏳🅰️ Buffer/21 🌬️🐌⏳ Push.md>)
-|| `Filters`| map | Dictionary of filters
+|| `Filters`| map | Dictionary of filters (optional)
 |

@@ -1,9 +1,9 @@
 ⏳ Buffer helper domains FAQ
 ===
 
-> Mentioned in [📨 Domain Message](<01 📨 Domain Message.md>).
+> Mentioned in [📨 Domain Message](<01 📨 Domain Message.md>)
 
-> Reference by [Identity@Graph 🚀 method](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/04 👥🚀🕸 Identity.md>).
+> Reference by [Identity@Graph 🚀 method](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/04 👥🚀🕸 Identity.md>)
 
 <br/>
 
@@ -153,3 +153,19 @@
   
     ---
     <br/>
+
+
+1. **What API methods do Buffers expose?**
+
+    | From | Method | Purpose
+    |-|-|-
+    | 👥 domain |[🐌 Feedback](<../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/01 👥🐌⏳ Feedback.md>) | Feedback on sent messages.
+    | [🔔 Subscriber](<04 🔔🎭 Subscriber role.md>) | [🚀 Queue](<../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/12 🔔🚀⏳ Queue.md>) | Create or change a queue.
+    | [🔔 Subscriber](<04 🔔🎭 Subscriber role.md>) |[🚀 Unqueue](<../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/13 🔔🚀⏳ Unqueue.md>) | Delete a queue.
+    | [🔔 Subscriber](<04 🔔🎭 Subscriber role.md>) |[🚀 Purge](<../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/14 🔔🚀⏳ Purge.md>) | Clean up a queue.
+    |[🌬️ Streamer](<02 🌬️🎭 Streamer role.md>)|[🐌 Push](<../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/21 🌬️🐌⏳ Push.md>) | Add a message to a queue.
+    | [🔔 Subscriber](<04 🔔🎭 Subscriber role.md>) |[🚀 Poll](<../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/22 🔔🚀⏳ Poll.md>) | Poll messages from a queue.
+    | [🔔 Subscriber](<04 🔔🎭 Subscriber role.md>) |[🚀 Confirm](<../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/23 🔔🚀⏳ Confirm.md>) | Remove a handled message.
+    | [🔔 Subscriber](<04 🔔🎭 Subscriber role.md>)  | [🐌 Replay](<../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/31 🔔🐌⏳ Replay.md>) | Replay confirmed messages.
+    | [🔔 Subscriber](<04 🔔🎭 Subscriber role.md>)  | [🐌 Redrive](<../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/32 🔔🐌⏳ Redrive.md>) | Replay messages in the DLQ.
+    |
