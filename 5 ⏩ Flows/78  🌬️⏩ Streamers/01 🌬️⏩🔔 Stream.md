@@ -13,10 +13,11 @@
 
 | # | Call | Notes
 |-|-|-
-| 0 | [🔔🐌🌬️ Subscribe @ Streamer](<../../6 🅰️ APIs/86 🌬️🅰️ Streamer/01 🔔🐌🌬️ Subscribe.md>) | The [Subscriber 🔔](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/04 🔔🎭 Subscriber role.md>) subscribes to a stream.
-| 1 | [🌬️🐌⏳ Push @ Buffer](<../../6 🅰️ APIs/20 ⏳🅰️ Buffer/21 🌬️🐌⏳ Push.md>) | The [Streamer 🌬️](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/02 🌬️🎭 Streamer role.md>) pushes to the [Buffer ⏳](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>).
-| 2 | [⏳🐌🔔 Wake-up @ Subscriber](<../../6 🅰️ APIs/87 🔔🅰️ Subscriber/04 ⏳🐌🔔 Wake-up.md>) | The [Buffer ⏳](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>) wakes up the [Subscriber 🔔](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/04 🔔🎭 Subscriber role.md>).
-| 3 | [🔔🚀⏳ Poll @ Buffer](<../../6 🅰️ APIs/20 ⏳🅰️ Buffer/22 🔔🚀⏳ Poll.md>) | The [Subscriber 🔔](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/04 🔔🎭 Subscriber role.md>) polls all buffered messages.
-|4| [🔔🚀⏳ Confirm @ Buffer](<../../6 🅰️ APIs/20 ⏳🅰️ Buffer/23 🔔🚀⏳ Confirm.md>) | The [Subscriber 🔔](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/04 🔔🎭 Subscriber role.md>) confirms the processed ones.
+|1| [🔔🚀⏳ Queue @ Buffer](<../../6 🅰️ APIs/20 ⏳🅰️ Buffer/12 🔔🚀⏳ Queue.md>) | The [Subscriber 🔔](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/04 🔔🎭 Subscriber role.md>) creates a [Buffer ⏳](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>) queue.
+|2| [🔔🐌🌬️ Subscribe @ Streamer](<../../6 🅰️ APIs/86 🌬️🅰️ Streamer/01 🔔🐌🌬️ Subscribe.md>) | The [Subscriber 🔔](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/04 🔔🎭 Subscriber role.md>) subscribes to a [Streamer 🌬️](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/02 🌬️🎭 Streamer role.md>).
+| 3 | [🌬️🐌⏳ Push @ Buffer](<../../6 🅰️ APIs/20 ⏳🅰️ Buffer/21 🌬️🐌⏳ Push.md>) | The [Streamer 🌬️](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/02 🌬️🎭 Streamer role.md>) pushes to the [Buffer ⏳](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>).
+| 4 | [⏳🐌🔔 Wake-up @ Subscriber](<../../6 🅰️ APIs/87 🔔🅰️ Subscriber/04 ⏳🐌🔔 Wake-up.md>) | The [Buffer ⏳](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>) wakes up the [Subscriber 🔔](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/04 🔔🎭 Subscriber role.md>).
+| 5 | [🔔🚀⏳ Poll @ Buffer](<../../6 🅰️ APIs/20 ⏳🅰️ Buffer/22 🔔🚀⏳ Poll.md>) | The [Subscriber 🔔](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/04 🔔🎭 Subscriber role.md>) polls all buffered messages.
+|6| [🔔🚀⏳ Confirm @ Buffer](<../../6 🅰️ APIs/20 ⏳🅰️ Buffer/23 🔔🚀⏳ Confirm.md>) | The [Subscriber 🔔](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/04 🔔🎭 Subscriber role.md>) confirms the processed ones.
 ||
 
