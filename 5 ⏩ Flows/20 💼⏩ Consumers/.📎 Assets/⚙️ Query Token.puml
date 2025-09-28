@@ -3,8 +3,8 @@
 
 actor User as user
 participant "Wallet 👱\napp" as wallet
-participant "Notifier 📣\nbff" as notifier
-participant "Broker 🤵\nhost" as broker
+participant "Notifier 📣\ndomain" as notifier
+participant "Broker 🤵\ndomain" as broker
 participant "Consumer 💼\ndomain" as consumer
 participant "Issuer 🎴\ndomain" as issuer
 participant "Graph 🕸\ndomain" as graph
@@ -13,25 +13,16 @@ participant "Graph 🕸\ndomain" as graph
 ' QUERY
 ' --------------------
 
-group Offer Token
-    issuer --> broker: 0. ⏪ Offer
-    activate broker
-    activate issuer
-    deactivate broker
-    deactivate issuer
-end group
-
-
-group Share token
+'group Share token
 
     'activate consumer
-    consumer --> broker: 1. Query@
+    consumer --> broker: 1) Query 🐌
     'deactivate consumer
 
     activate broker
-        broker -> graph: 2. Queryable@ {codes}
-        broker -> graph: 3. Translate@ {codes}
-        broker --> notifier: 4. Share@
+        broker -> graph: 2) Queryable 🚀 {codes}
+        broker -> graph: 3) Translate 🚀 {codes}
+        broker --> notifier: 4) Share 🐌
     deactivate broker
 
     activate notifier
@@ -40,33 +31,14 @@ group Share token
 
     activate wallet
         user --> wallet: share
-        wallet --> consumer: 5. Shared@ {tokens}
+        wallet --> consumer: 5) Shared 🐌 {tokens}
     deactivate wallet
 
     activate consumer
-        consumer -> graph: 6. Trusts@ {issuers}
+        consumer -> graph: 6) Trusts 🚀 {issuers}
     deactivate consumer
 
-end group 
+'end group 
 
-group Update Token
-    issuer --> broker: 7. Revise@
-    activate broker
-    deactivate broker
-end group
-
-group Offline verification
-
-    consumer -> broker: 8. Status@
-
-    activate broker
-    activate consumer
-        broker -> graph: 9. Trusts@ 
-        broker -> consumer: {status}
-    deactivate broker
-
-    deactivate consumer
-
-end group
 
 @enduml 

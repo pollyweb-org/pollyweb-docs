@@ -2,8 +2,6 @@
 
 
 actor User as user
-participant "Wallet 👱\n(app)" as wallet
-participant "Notifier 📣\n(domain)" as notifier
 participant "Broker 🤵\n(domain)" as broker
 participant "Consumer 💼\n(host)" as consumer
 participant "Identity 🆔\n(vault)" as identity
@@ -14,64 +12,37 @@ participant "Graph 🕸\n(domain)" as graph
 ' --------------------
 
 activate consumer
-
-group Share token
-
-    consumer --> broker: 1) Query@
-    deactivate consumer
-
-    activate broker
-        broker -> graph: 2) Queryable@ {codes}
-        broker -> graph: 3) Translate@ {codes}
-        broker --> notifier: 4) Query@
-    deactivate broker
-
-    activate notifier
-        notifier --> wallet
-    deactivate notifier
-
-    activate wallet
-        user --> wallet: 5) Share
-        wallet --> consumer: 6. Verify@ {tokens}
-    deactivate wallet
-
-    activate consumer
-    consumer -> graph: 7) Trusts@ {issuers}
-
-end group
+consumer --> user : 1) ⏪ Share Token
 
 
-group Request ID check
+
+'group Request ID check
 
     consumer -> graph: 8) Trusts@ {identity}
-    consumer --> broker: 9) Query@ 
+    consumer --> broker: 9) Query 🐌
     deactivate consumer
 
     activate broker
-        broker --> identity: Delegate@ {ID locator}
+        broker --> identity: 10) Delegate 🐌 {ID locator}
     deactivate broker
 
     activate identity
-        identity -> graph: Trusts@ 
+        identity -> graph: 11) Trusts 🚀
 
 
-end group
+'end group
 
 
-identity --> wallet: 10 ⏪ Selfie
+identity --> user: 12 ⏪ Selfie
 
 group Confirm ID 
 
-        identity --> consumer: 11) Consume@ 
+        identity --> consumer: 13) Selfied 🐌
     deactivate identity
 
     ' CONSUMER
     activate consumer   
-        consumer -> graph: 12) Trusts@ {identity}
-        consumer -> identity: 13) Collect@
-        activate identity
-            identity -> consumer: {data}
-        deactivate identity
+        consumer -> graph: 14) Trusts 🚀 {identity}
 
 end group
 
