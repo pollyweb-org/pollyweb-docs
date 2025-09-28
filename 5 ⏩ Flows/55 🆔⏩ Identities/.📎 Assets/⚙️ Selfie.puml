@@ -8,10 +8,10 @@ participant "Broker 🤵\n(domain)" as broker
 participant "Identity 🆔\n(vault)" as identity
 
 
-identity --> broker: 1) Prompt@
+identity --> broker: 1) Prompt 🐌
 
 activate broker
-    broker --> notifier: 2) Prompt@
+    broker --> notifier: 2) Prompt 🐌
 deactivate broker
 
 activate notifier
@@ -20,19 +20,19 @@ deactivate notifier
 
 ' Wallet 👱
 activate wallet
-    wallet -> identity: 3) Prompted@
+    wallet -> identity: 3) Prompted 🚀
     activate identity
         identity -> wallet: {prompt}
     deactivate identity
 
     user --> wallet: selfie
-    wallet -> identity: 4) Liveness@
+    wallet -> identity: 4) Liveness 🚀
 
     activate identity
         identity -> wallet: {liveness html page}
     deactivate identity
 
-    wallet --> identity: 5) Reply@
+    wallet --> identity: 5) Reply 🐌
 deactivate wallet
 activate identity
 
