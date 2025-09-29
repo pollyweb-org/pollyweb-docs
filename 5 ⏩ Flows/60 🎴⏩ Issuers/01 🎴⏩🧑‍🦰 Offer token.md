@@ -18,13 +18,10 @@
 
 <br/>
 
-## Flow diagram ⏩
+## ⏩ Flow diagram 
 
 ![Accept](<.📎 Assets/⚙️ Offer.png>)
 
-
-
-## Steps
 
 | # | Call | Notes
 |-|-|-
