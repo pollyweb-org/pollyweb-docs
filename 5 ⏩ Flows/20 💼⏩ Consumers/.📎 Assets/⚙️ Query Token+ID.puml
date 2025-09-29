@@ -12,7 +12,7 @@ participant "Graph 🕸\n(domain)" as graph
 ' --------------------
 
 activate consumer
-consumer --> user : 1) ⏪ Share Token
+consumer --> user : 1) ⏪ Share Token 🎫
 
 
 
@@ -33,7 +33,7 @@ consumer --> user : 1) ⏪ Share Token
 'end group
 
 
-identity --> user: 6 ⏪ Selfie
+identity --> user: 6 ⏪ Take Selfie 📸
 
 group Confirm ID 
 

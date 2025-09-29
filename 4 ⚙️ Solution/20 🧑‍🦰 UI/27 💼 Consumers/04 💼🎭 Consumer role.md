@@ -224,3 +224,10 @@
 
     ---
     <br/>
+
+1. **What API methods does a Consumer expose?**
+
+    |  Method | Purpose
+    |-|-
+    |[🗄️🐌 Consume](<../../../6 🅰️ APIs/30 💼🅰️ Consumer/01 🗄️🐌💼 Consume.md>) | Receive data from a 
+    [text](<../../../6 🅰️ APIs/30 💼🅰️ Consumer/02 🧑‍🦰🐌💼 Shared.md>)

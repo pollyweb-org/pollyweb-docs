@@ -11,31 +11,32 @@
 ## Async Message 🐌
 
 
-|Property|Type|Description
-|-|-|-
-| `From`| string | [Vault 🗄️ domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) name
-| `To`| string | [Consumer 💼 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) name
-| `Subject` | string | `Consume@Consumer`
-| `Broker`| string | [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
-| `ChatID` | uuid | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) ID
-| `Code`| string | [Bind 🔗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>) [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)
-| `Collection` | string | [Collect 🚀](<../95 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>) callback
-| `TTL` | timestamp| Cache duration deadline
-
 ```yaml
 Header:
     From: any-vault.com
     Subject: Consume@Consumer
 
 Body:
-    Chat: 
-        Broker: any-broker.org
-        ChatID: chat-uuid
-    Bind: 
-        Code: airlines.any-igo.org/SSR/WCH:1
-        Collection: <collection-uuid>
-        TTL: 2023-04-01T05:00:30.001000Z
+    Broker: any-broker.org
+    ChatID: <chat-uuid>
+    Code: airlines.any-igo.org/SSR/WCH:1
+    Callback: <callback-uuid>
+    TTL: 2023-04-01T05:00:30.001000Z
 ```
+
+
+|Property|Type|Description
+|-|-|-
+| `From`| string | [Vault 🗄️ domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) name
+| `To`| string | [Consumer 💼 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) name
+| `Subject` | string | `Consume@Consumer`
+| `Broker`| string | [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) name
+| `ChatID` | uuid | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) ID
+| `Code`| string |  [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)
+| `Callback` | uuid | Callback to [Collect@Vault](<../95 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>)
+| `TTL` | timestamp| Callback deadline
+|
+
 
 <br/>
 
