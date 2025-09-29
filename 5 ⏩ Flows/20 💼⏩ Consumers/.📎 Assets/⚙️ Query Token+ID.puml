@@ -23,6 +23,7 @@ consumer --> user : 1) ⏪ Share Token 🎫
     deactivate consumer
 
     activate broker
+        user --> broker: approve 
         broker --> identity: 4) Invited 🐌 {ID locator}
     deactivate broker
 
@@ -32,9 +33,9 @@ consumer --> user : 1) ⏪ Share Token 🎫
 'end group
 
 
-identity --> user: 6 ⏪ Take Selfie 📸
+identity --> user: 5 ⏪ Take Selfie 📸
 
-identity --> consumer:  7 ⏪ Consume 
+identity --> consumer:  6 ⏪ Consume 🧩
 
 
 @enduml 

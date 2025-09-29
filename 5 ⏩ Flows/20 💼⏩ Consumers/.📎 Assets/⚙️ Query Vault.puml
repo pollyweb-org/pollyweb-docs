@@ -42,7 +42,7 @@ group Request
 end group
 
 vault --> user: 6 ⏪ Prompt 🤔 {confirm?}
-vault --> consumer: 7 ⏪ Consume 
+vault --> consumer: 7 ⏪ Consume 🧩
 deactivate vault
 
 
