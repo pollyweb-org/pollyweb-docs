@@ -8,8 +8,8 @@
 > <br/> • Similar as [Trusted@Graph](<02 👥🚀🕸 Trusted.md>), but for verification by another [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).
 
 > Used in:
-> <br/> • [💼⏩🧑‍🦰 Query token](<../../5 ⏩ Flows/20 💼⏩ Consumers/03 💼⏩🧑‍🦰 Query token.md>)
-> <br/> • [💼⏩🧑‍🦰 Query vault @ Consumer](<../../5 ⏩ Flows/20 💼⏩ Consumers/02 💼⏩🧑‍🦰 Query vault.md>)
+> <br/> • [💼⏩🧑‍🦰 Query token](<../../5 ⏩ Flows/20 💼⏩ Consumers/03 💼⏩🧑‍🦰 Share Token.md>)
+> <br/> • [💼⏩🧑‍🦰 Query vault @ Consumer](<../../5 ⏩ Flows/20 💼⏩ Consumers/02 💼⏩🧑‍🦰 Query Vault.md>)
 
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 

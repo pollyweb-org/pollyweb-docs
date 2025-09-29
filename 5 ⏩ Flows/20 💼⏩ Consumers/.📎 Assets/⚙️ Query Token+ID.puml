@@ -18,31 +18,31 @@ consumer --> user : 1) ⏪ Share Token
 
 'group Request ID check
 
-    consumer -> graph: 8) Trusts@ {identity}
-    consumer --> broker: 9) Query 🐌
+    consumer -> graph: 2) Trusts 🚀 {identity}
+    consumer --> broker: 3) Verify 🐌
     deactivate consumer
 
     activate broker
-        broker --> identity: 10) Delegate 🐌 {ID locator}
+        broker --> identity: 4) Verify 🐌 {ID locator}
     deactivate broker
 
     activate identity
-        identity -> graph: 11) Trusts 🚀
+        identity -> graph: 5) Trusts 🚀
 
 
 'end group
 
 
-identity --> user: 12 ⏪ Selfie
+identity --> user: 6 ⏪ Selfie
 
 group Confirm ID 
 
-        identity --> consumer: 13) Selfied 🐌
+        identity --> consumer: 7) Verified 🐌
     deactivate identity
 
     ' CONSUMER
     activate consumer   
-        consumer -> graph: 14) Trusts 🚀 {identity}
+        consumer -> graph: 8) Trusts 🚀 {identity}
 
 end group
 
