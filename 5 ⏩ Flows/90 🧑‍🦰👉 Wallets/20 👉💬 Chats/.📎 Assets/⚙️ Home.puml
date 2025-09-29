@@ -12,17 +12,17 @@ end box
 participant "Host 🤗\n(domain)" as host
 
 ' The host is prompting the user
-host --> wallet: ⏪ prompt 
+host --> wallet: ⏪ Prompt 🤔
 
 ' The user invokes the broker's talker
 user --> wallet: broker 🤵
 activate wallet
-    wallet --> broker: 1) Help@
+    wallet --> broker: 1) Help 🐌
 deactivate wallet
 
 ' The broker shows the chat options
 activate broker
-    broker --> wallet: 2) ⏪ prompt 
+    broker --> wallet: 2) ⏪ Prompt 🤔
 deactivate broker
 
 ' The user asks to abandon the chat.
@@ -33,7 +33,7 @@ deactivate wallet
 
 ' The broker notifies the host and the notifier about the abandoned chat.
 activate broker
-    broker --> host: 3) Home@
+    broker --> host: 3) Home 🐌
 deactivate broker
 
 ' ----------------------

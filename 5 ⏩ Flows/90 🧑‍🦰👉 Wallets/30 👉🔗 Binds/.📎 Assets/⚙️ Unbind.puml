@@ -11,16 +11,16 @@ participant "Vault 🗄️\nhost" as vault
 
 ' There's a chat with the vault.
 activate vault
-    vault --> wallet: ⏪ prompt
+    vault --> wallet: ⏪ Prompt 🤔
 deactivate vault
 
 ' Activate the broker.
 user --> wallet: broker 🤵
 activate wallet
-    wallet --> broker: 1) talker@
+    wallet --> broker: 1) Home 🐌
 deactivate wallet
 activate broker
-    broker --> wallet: 2) ⏪ prompt 
+    broker --> wallet: 2) ⏪ Prompt 🤔
 deactivate broker
 
 ' User asks to unbind.
@@ -31,8 +31,8 @@ deactivate wallet
 
 ' BROKER. UNBIND
 activate broker
-    broker --> vault: 3) unbind@
-    broker --> wallet: 4) ⏪ update binds
+    broker --> vault: 3) Unbind 🐌
+    broker --> wallet: 4) ⏪ Update Binds 🔗
 deactivate broker
 
 

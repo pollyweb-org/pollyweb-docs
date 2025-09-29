@@ -15,10 +15,10 @@ activate wallet
     group Register public key
 
         wallet -> wallet: keys*
-        wallet -> notifier: 1) onboard@ \n {public key}
+        wallet -> notifier: 1) onboard 🚀 \n {public key}
 
         activate notifier
-            notifier -> broker: 2) onboard@
+            notifier -> broker: 2) onboard 🚀
         
             ' BROKER
             activate broker

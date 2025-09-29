@@ -18,7 +18,7 @@ participant "Locator 🔆\nNFC/QR" as qr
 group Print locators
 
     host --> finder: {manifest}
-    host --> printer: 1) Order@
+    host --> printer: 1) Order 🐌
 
     activate printer
       printer --> qr: print
@@ -31,7 +31,7 @@ user -> wallet: scan ✨
 
 activate wallet
   wallet -> qr: scan ✨
-  wallet --> broker: 2) Assess@ {printer locator}
+  wallet --> broker: 2) Assess 🐌 {locator}
 deactivate wallet
 
 
@@ -39,7 +39,7 @@ activate broker
 
     group Translate, if not cached
 
-        broker -> printer: 3) Details@
+        broker -> printer: 3) Details 🚀
 
         activate printer
             printer -> broker: {host locator}
@@ -49,9 +49,9 @@ activate broker
 
     'alt No host session?
 
-        broker --> wallet: 4) ⏪ assessed
+        broker --> wallet: 4) ⏪ Assessed
 
-        broker --> finder: 5) introduce ⏩
+        broker --> finder: 5) Introduce ⏩
         deactivate broker
         
         activate finder
@@ -62,13 +62,13 @@ activate broker
 
     'end alt
 
-    broker --> host: 6) Hello@
+    broker --> host: 6) Hello 🐌
 
 deactivate broker
 
 
 activate host
-    host --> wallet: 7) ⏪ prompt
+    host --> wallet: 7) ⏪ Prompt 🤔
 deactivate host
 
 

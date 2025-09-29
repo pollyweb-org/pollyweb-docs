@@ -15,10 +15,10 @@ user --> wallet: broker 🤵
 
 ' Broker asks what to do.
 activate wallet
-    wallet --> broker: 1) Home@
+    wallet --> broker: 1) Home 🐌
 deactivate wallet
 activate broker
-    broker --> wallet: 2) ⏪ prompt
+    broker --> wallet: 2) ⏪ Prompt 🤔
 deactivate broker
 
 ' User asks to remove the token.
@@ -29,9 +29,9 @@ deactivate wallet
 
 activate broker
     broker --> broker: hide
-    broker --> wallet: 3) ⏪ update tokens
+    broker --> wallet: 3) ⏪ Update Tokens 🎫
     broker --> broker: wait days
-    broker --> notifier: 4) Remove@
+    broker --> notifier: 4) Remove 🐌
 deactivate broker
 
 ' Remove from recycle bin.

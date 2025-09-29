@@ -17,7 +17,7 @@ alt if not cached
     ' WALLET
     ' -------------
     activate wallet
-        wallet -> broker: 1) binds@
+        wallet -> broker: 1) Binds 🚀
     activate broker
 
     ' -------------

@@ -18,7 +18,7 @@ user --> wallet: tokens
 alt if not cached
 
     activate wallet
-        wallet -> broker: tokens@
+        wallet -> broker: Tokens 🚀
 
         activate broker
             broker -> wallet: {tokens}

@@ -32,8 +32,8 @@ Body:
 |Header|`From`|string | [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) name
 ||`To`|string| [Notifier 📣 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/02 📣 Notifier domain.md>) name
 ||`Subject`|string|`Assessed@Notifier`
-|Body  |`WalletID` |UUID  | Wallet ID on the Broker domain
-|      |`ChatID`   |UUID  | Chat ID on the Broker domain
+|Body  |`WalletID` |uuid  | Wallet ID on the Broker domain
+|      |`ChatID`   |uuid  | Chat ID on the Broker domain
 |      |`Host`     |string| [Host 🤗 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) name
 |      |`Name`     |string| Friendly translated name
 |      |`SmallIcon`|URL   | Location of the small icon
