@@ -3,7 +3,7 @@
 # 🤵🐌🎴 Accepted @ Issuer
 
 
-> Part of the [🧑‍🦰👉🎴 Offer Token @ Issuer](<../../5 ⏩ Flows/60 🎴⏩ Issuers/01 🎴⏩🧑‍🦰 Offer token.md>) workflow
+> Part of the [🧑‍🦰👉🎴 Offer Token @ Issuer](<../../5 ⏩ Flows/60 🎴⏩ Issuers/01 🎴⏩🧑‍🦰 Offer token.md>) flow.
 
 <br/>
 

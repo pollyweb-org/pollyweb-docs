@@ -8,7 +8,7 @@
 
 > Allows for a [Token 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) to be downloaded from the [Issuer 🎴 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) into the [Wallet 🧑‍🦰 app](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
 
-> Used in the [🎴⏩🧑‍🦰 Offer Token](<../../5 ⏩ Flows/60 🎴⏩ Issuers/01 🎴⏩🧑‍🦰 Offer token.md>) workflow
+> Part of the [🎴⏩🧑‍🦰 Offer Token @ Issuer](<../../5 ⏩ Flows/60 🎴⏩ Issuers/01 🎴⏩🧑‍🦰 Offer token.md>) flow.
 
 <br/>
 
@@ -22,7 +22,6 @@ Header:
     Subject: Token@Issuer
     
 Body:
-    ChatID: <chat-uuid>
     TokenID: <token-uuid>
 ```
 
@@ -31,8 +30,7 @@ Body:
 |Header | `From`  | string  | [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) name
 |       | `To`    | string  | [Issuer 🎴 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) name
 ||`Subject`|string|`Token@Issuer` 
-| Body  | `ChatID`| 
-|       | `TokenID`| 
+| Body  | `TokenID`| string | [Token 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) ID sent on [Offer@Broker](<../15 🤵🅰️ Broker/50 🤵🅰️ Tokens 🎫/51 🎴🐌🤵 Offer.md>)
 |
 
 <br/>

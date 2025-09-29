@@ -8,7 +8,9 @@
 
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 
-> Used by [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../5 ⏩ Flows/20 💼⏩ Consumers/02 💼⏩🧑‍🦰 Query Vault.md>)
+> Used by:
+> <br/>• [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../5 ⏩ Flows/20 💼⏩ Consumers/02 💼⏩🧑‍🦰 Query Vault.md>) flow
+> <br/>• [💼⏩🧑‍🦰 Share Token @ Consumer](<../../5 ⏩ Flows/20 💼⏩ Consumers/03 💼⏩🧑‍🦰 Share Token.md>) flow
 
 <br/>
 

@@ -180,29 +180,54 @@
     
 7. **What data is contained in a Token?**
 
-    [Tokens 🎫](<01 🎫 Token.md>) derive from [Locators 🔆](<../22 🔆 Locators/01 🔆 Locator.md>), so they always contain:
-    * the [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) - e.g., `nlweb.org/TOKEN:1.0`
-    * the [Issuer 🎴 domain](<02 🎴🎭 Issuer role.md>) - e.g., `any-issuer.com`
-    * the resource key in the Issuer domain - e.g., `certificate-XYZ`
-    * any optional data fields.
+    [Tokens 🎫](<01 🎫 Token.md>) derive from [Locators 🔆](<../22 🔆 Locators/01 🔆 Locator.md>), so they contain the following properties.
 
     ```yaml
+    Code: nlweb.org/TOKEN:1.0
+    Issuer: any-issuer.com
+    IssuerKey: certificate-XYZ
+    Properties:
+        Property1: Value1
+        Property2: Value2
     ```
 
-    Additionally, a basic [Token 🎫](<01 🎫 Token.md>) contains:
-    * the Token's 🎫 specific [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) - e.g., `who.int/VACCINES/COVID-2:1.0`
-    * the timestamp when it was issued, in UTC - e.g., `2024-09-21T12:34:00Z`
-    * and the Issuer's [signature](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) 🔏 - e.g., `qD/fMEQDALK2FdZcWyy7wNns1gH8vssdOAuxxxKnEExDMMGZcZG0Dw14Xxfh3HDCpTGxvuLbtCSdJaBnEZg2G7kytG8RG/aGFM+lru7MQR81zze7GkBXmpxm+oilkXrouL63/5fQzwRBS94n7YH7abkrBi4RqPiV/mGiDsm2fLEqc12a5kOXZGPsbuuCWs8Mvbrt5teJUELiEgLnBYXArLYvofoZOt4EWYFBTXvx+/NSm1vtqsZsY+dnLLtZ7kEyUNW70jRdP0VK5ek4Rqdg3tUPVSeG7Rxl0ZH5KuvLVOnL4kbcC2CI/bijZ12YCrF3WLEdgF0KhZDjs5HvwNbZNw==`
+    |Property| Type | Details
+    |-|-|-
+    | `Code` | string |  `nlweb.org/TOKEN:1.0`
+    | `Issuer` | string | The [Issuer 🎴 domain](<02 🎴🎭 Issuer role.md>) name
+    | `IssuerKey` | uuid |  The resource key in the [Issuer 🎴](<02 🎴🎭 Issuer role.md>)
+    | `Properties` | object | Any optional data fields
+    |
+
+    
+    
+    Additionally, a basic [Token 🎫](<01 🎫 Token.md>) contains the following properties.
+    
+    ```yaml
+    Schema: who.int/VACCINES/COVID-2:1.0
+    Issued: '2024-09-21T12:34:00Z'
+    Signature: ABCMIQDALK2Fd...
+    ```
+    |Property| Type | Details
+    |-|-|-
+    |`Schema` | string | The Token's [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>)
+    | `Issued` | timestamp | When it was issued
+    | `Signature`| string | The Issuer's [signature](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) 📨 
+    |
+
+
+    An identity-bound [Token 🎫](<01 🎫 Token.md>) also contains the following.
 
     ```yaml
+    Identity: any-identity.com
+    IdentityKey: person-1234
     ```
 
-    An identity-bound [Token 🎫](<01 🎫 Token.md>) also contains:
-    * the [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) - e.g., `any-identity.com`
-    * the resource key in the [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>)  - e.g., `person-1234`
+    |Property| Type | Details
+    |-|-|-
+    |`Identity` | string |The [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) 
+    | `IdentityKey` | string | The resource key in the [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>)
 
-    ```yaml
-    ```
 
     ---
     <br/>
