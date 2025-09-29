@@ -19,15 +19,14 @@ consumer --> user : 1) ⏪ Share Token 🎫
 'group Request ID check
 
     consumer -> graph: 2) Trusts 🚀 {identity}
-    consumer --> broker: 3) Verify 🐌
+    consumer --> broker: 3) Invite 🐌
     deactivate consumer
 
     activate broker
-        broker --> identity: 4) Verify 🐌 {ID locator}
+        broker --> identity: 4) Invited 🐌 {ID locator}
     deactivate broker
 
     activate identity
-        identity -> graph: 5) Trusts 🚀
 
 
 'end group
@@ -35,17 +34,7 @@ consumer --> user : 1) ⏪ Share Token 🎫
 
 identity --> user: 6 ⏪ Take Selfie 📸
 
-group Confirm ID 
+identity --> consumer:  7 ⏪ Consume 
 
-        identity --> consumer: 7) Verified 🐌
-    deactivate identity
-
-    ' CONSUMER
-    activate consumer   
-        consumer -> graph: 8) Trusts 🚀 {identity}
-
-end group
-
-    deactivate consumer
 
 @enduml 

@@ -6,17 +6,14 @@ participant "Vault 🗄️\n(domain)" as vault
 participant "Graph 🕸\n(domain)" as graph
 
 activate vault
+vault -> graph: 1) Trusts 🚀 {vault}
 vault -> vault: cache
-vault --> consumer: 8) Consume 🐌
+vault --> consumer: 2) Consume 🐌
 deactivate vault
 
 activate consumer
-    consumer -> graph: 9) Trusts 🚀 {vault}
-    activate graph
-        graph -> consumer: {yes}
-    deactivate graph
-
-    consumer -> vault: 10) Collect 🚀
+    consumer -> graph: 3) Trusts 🚀 {vault}
+    consumer -> vault: 4) Collect 🚀
     activate vault
         vault -> vault: uncache
         vault -> consumer: {data}

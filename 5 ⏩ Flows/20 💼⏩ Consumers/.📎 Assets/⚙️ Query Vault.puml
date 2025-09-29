@@ -24,7 +24,7 @@ group Request
     broker -> graph: 3) Translate 🚀 {codes}
 
     alt Select if 2+ vaults
-        broker --> user: 4 ⏪ prompt
+        broker --> user: 4 ⏪ Prompt 🤔
         deactivate broker
 
         activate user
@@ -38,31 +38,13 @@ group Request
     deactivate broker
 
     activate vault
-    vault -> graph: 6) Trusts 🚀
 
 end group
 
-'group User confirmation
-
-    vault --> user: 7 ⏪ prompt (user confirmation)
-
-'end group 
+vault --> user: 6 ⏪ Prompt 🤔 {confirm?}
+vault --> consumer: 7 ⏪ Consume 
+deactivate vault
 
 
-group Response
-
-        vault --> consumer: 8) Consume 🐌
-    deactivate vault
-
-    activate consumer
-        consumer -> graph: 9) Trusts 🚀 {vault}
-        consumer -> vault: 10) Collect 🚀
-        activate vault
-            vault -> consumer: {data}
-        deactivate vault
-
-end group
-
-    deactivate consumer
 
 @enduml 
