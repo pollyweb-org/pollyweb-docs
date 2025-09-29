@@ -1,11 +1,13 @@
-<!-- #TODO -->
-
 <!-- Docs: https://quip.com/sN8DACFLN9wM#temp:C:AfT9e264d13fa7b4030920efe49d -->
 <!-- Tests: https://github.com/jorgemjfonseca/domain-trust-framework/blob/2896911396280f90ec68c32b50aa99dc4a3c90e2/python/roles/broker/BROKER_TOKENS_TESTS.py#L136 -->
 
-# 🎴🐌🤵 Revoke @ Broker
+# 🎴🐌🤵 Revise @ Broker
 
-> Used by [🎴⏩🧑‍🦰 Revoke token](<../../../5 ⏩ Flows/60 🎴⏩ Issuers/02 🎴⏩🧑‍🦰 Revoke token.md>)
+> Updates the status of a [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>).
+
+> Used by:
+> <br/>- [🎴⏩🧑‍🦰 Revise Token](<../../../5 ⏩ Flows/60 🎴⏩ Issuers/02 🎴⏩🧑‍🦰 Revise token.md>) flow
+> <br/>- [💼⏩🧑‍🦰 Token Status](<../../../5 ⏩ Flows/20 💼⏩ Consumers/05 💼⏩🧑‍🦰 Token status.md>) flow
 
 <br/>
 

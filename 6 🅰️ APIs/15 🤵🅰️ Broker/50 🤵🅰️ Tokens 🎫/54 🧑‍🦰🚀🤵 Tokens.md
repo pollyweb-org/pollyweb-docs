@@ -41,6 +41,7 @@ Tokens:
     CodeTitle: Any Code
     Path: /storage/nlweb/tokens/any-issuer.com/<token-uuid>
     Status: REVOKED
+    Locator: nlweb.org/HOST:1.0,any-host.com,ANY-LOCATOR
 ```
 
 |Object|Property|Type|Description|
@@ -50,6 +51,7 @@ Tokens:
 ||`TokenID`  |uuid   |[Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) ID|
 || `IssuerTitle` | string | Translated [Issuer 🎴](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) title
 || `CodeTitle` | string | Translated [Schema Code 🧩](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) title
-|| `Path`| string | Local path to the detailed file
+|| `Path`| string | Local path from [Saved @ Broker](<53 🧑‍🦰🐌🤵 Saved.md>)
 || `Status`| enum | Status set in [Status @ Broker](<../60 🤵🅰️ Share/62 💼🚀🤵 Status.md>)
+| |`Locator`| string | [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) from [Status @ Broker](<../60 🤵🅰️ Share/62 💼🚀🤵 Status.md>)
 |
