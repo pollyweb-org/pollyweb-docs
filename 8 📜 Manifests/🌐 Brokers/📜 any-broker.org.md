@@ -1,10 +1,10 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>): any-broker.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>): any-broker.com
 <!-- 🤵 https://quip.com/hPaFAIsyMxpq/-AnyBrokercom -->
 
 ```yaml
 🤝: nlweb.org/MANIFEST
 
 Identity:
-  Domain: any-broker.org
+  Domain: any-broker.com
   Name: Any Broker

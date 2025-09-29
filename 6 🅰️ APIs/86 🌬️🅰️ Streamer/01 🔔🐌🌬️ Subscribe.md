@@ -31,5 +31,5 @@ Body:
 |Body | `Stream`| string | Stream key on the [Streamer 🌬️](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/02 🌬️🎭 Streamer role.md>)
 || `Buffer`| string | [Buffer ⏳ domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>) name
 || `Queue` | uuid | Callback for [Push@Buffer 🐌](<../20 ⏳🅰️ Buffer/21 🌬️🐌⏳ Push.md>)
-|| `Filters`| map | Dictionary of filters (optional)
+|| `Filters`| object | Dictionary of filters (optional)
 |

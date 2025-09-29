@@ -21,6 +21,6 @@ Header:
 Body:
     ChatID: <session-uuid>
     TokenID: <offer-uuid>
-    Issuer: any-host.org
+    Issuer: any-host.com
     Path: /storage/tf/creds/<issuer>/<token-uuid>
 ```

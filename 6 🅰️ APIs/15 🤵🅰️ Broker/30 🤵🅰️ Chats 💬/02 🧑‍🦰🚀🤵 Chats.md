@@ -40,7 +40,7 @@ Body:
 Chats:
   - ChatID: <chat-uuid>
     ChatTime: 2023-04-01T05:00:30.001000Z
-    Host: any-host.org
+    Host: any-host.com
     HostTranslation: Any Hosts
 ```
 

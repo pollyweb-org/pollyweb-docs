@@ -14,7 +14,7 @@
 ```yaml
 Header:
     From: any-issuer.com
-    To: any-broker.org
+    To: any-broker.com
     Subject: Offer@Broker
   
 Body:

@@ -15,8 +15,8 @@
 
 ```yaml
 Header:
-    From: any-broker.org
-    To: any-host.org
+    From: any-broker.com
+    To: any-host.com
     Subject: Abandoned@Host
 
 Body: 
