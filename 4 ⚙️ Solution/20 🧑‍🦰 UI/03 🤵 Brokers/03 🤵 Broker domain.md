@@ -83,7 +83,7 @@
     ---
     <br/>
 
-1. **What API methods does a Broker exposes?**
+1. **What API methods does a Broker expose?**
 
     Group |  Method | Purpose
     |-|-|-
@@ -104,7 +104,10 @@
     || [🎴🐌 Revise](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/50 🤵🅰️ Tokens 🎫/52 🎴🐌🤵 Revise.md>) | Update the status of a [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
     | [`💼 Share`](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) | [💼🐌 Query](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) | Return user [Binds 🔗](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>) and [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
     || [💼🚀 Status](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/62 💼🚀🤵 Status.md>) | Return the status of a [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
+
+    <!--
     |Pay| [💵🐌🤵 Charge](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/70 🤵🅰️ Pay/21 💵🐌🤵 Charge.md>)
+    -->
     
     ---
     <br/>

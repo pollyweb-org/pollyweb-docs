@@ -1,0 +1,27 @@
+@startuml Wallet: Share()
+
+
+participant "Consumer 💼\n(domain)" as consumer
+participant "Vault 🗄️\n(domain)" as vault
+participant "Graph 🕸\n(domain)" as graph
+
+activate vault
+vault -> vault: cache
+vault --> consumer: 8) Consume 🐌
+deactivate vault
+
+activate consumer
+    consumer -> graph: 9) Trusts 🚀 {vault}
+    activate graph
+        graph -> consumer: {yes}
+    deactivate graph
+
+    consumer -> vault: 10) Collect 🚀
+    activate vault
+        vault -> vault: uncache
+        vault -> consumer: {data}
+    deactivate vault
+
+deactivate consumer
+
+@enduml 

@@ -1,10 +1,10 @@
 # 🧑‍🦰🐌💼 Shared @ Consumer
 
-> Asynchronous message sent directly by a Wallet to a [Consumer 💼](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>).
+> Asynchronous message sent directly by a [Wallet 🧑‍🦰 app](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to a [Consumer 💼 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>).
 
 > Contains the shared [Tokens 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>).
 
-> Used in [💼⏩🧑‍🦰 Share Token @ Consumer](<../../5 ⏩ Flows/20 💼⏩ Consumers/03 💼⏩🧑‍🦰 Share Token.md>).
+> Used in the [💼⏩🧑‍🦰 Share Token @ Consumer](<../../5 ⏩ Flows/20 💼⏩ Consumers/03 💼⏩🧑‍🦰 Share Token.md>) flow.
 
 <br/>
 
@@ -12,14 +12,15 @@
 
 ```yaml
 Header:
-    From: any-broker.org
+    From: any-broker.com
+    To: any-consumer.com
     Subject: Shared@Consumer
 Body: 
     ChatID: <chat-uuid>
     Tokens: 
       - Code: airlines.any-igo.org/SSR/WCH:1 
         Issuer: any-issuer.com
-        TokenID: <token-uuid>
+        Key: ANY-TOKEN-KEY
         ...
 ```
 
@@ -31,9 +32,9 @@ Body:
 | Body | `ChatID` | string | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) ID
 | | `Tokens`  | list | List of Token objects
 | Token | `Code`| string | [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)
-| | `Issuer` | string | [Issuer 🎴 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>)
-| | `TokenID`| string | [Token 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) ID on the Issuer
-| | ... | ... | Other properties
+| | `Issuer` | string | [Issuer 🎴 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) name
+| | `Key`| string | Resource key on the [Issuer 🎴](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>)
+| | ... | ... | Other [Token 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) fields
     
 
 ---
