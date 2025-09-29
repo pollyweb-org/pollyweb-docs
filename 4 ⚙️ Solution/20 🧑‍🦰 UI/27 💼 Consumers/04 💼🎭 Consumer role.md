@@ -225,9 +225,26 @@
     ---
     <br/>
 
-1. **What API methods does a Consumer expose?**
+
+   
+2. **What API methods does a Consumer expose?**
 
     |  Method | Purpose
     |-|-
-    |[🗄️🐌 Consume](<../../../6 🅰️ APIs/30 💼🅰️ Consumer/01 🗄️🐌💼 Consume.md>) | Receive data from a 
-    [text](<../../../6 🅰️ APIs/30 💼🅰️ Consumer/02 🧑‍🦰🐌💼 Shared.md>)
+    |[🗄️🐌 Consume](<../../../6 🅰️ APIs/30 💼🅰️ Consumer/01 🗄️🐌💼 Consume.md>) | Collect user data from a [Vault 🗄️ domain](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>)
+    | [🧑‍🦰🐌 Shared](<../../../6 🅰️ APIs/30 💼🅰️ Consumer/02 🧑‍🦰🐌💼 Shared.md>) | Receive [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) from a [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    
+    ---
+    <br/>
+
+1. **What flows does a Consumer initiate?**
+   
+    |  Flow | Purpose
+    |-|-
+    | [⏩🧑‍🦰 Query Vault](<../../../5 ⏩ Flows/20 💼⏩ Consumers/02 💼⏩🧑‍🦰 Query Vault.md>) | Ask for [Schema Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) in [Vaults 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) 
+    | [⏩🧑‍🦰 Share Token](<../../../5 ⏩ Flows/20 💼⏩ Consumers/03 💼⏩🧑‍🦰 Share Token.md>) | Ask for [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) in  [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) 
+    | [⏩🧑‍🦰 Share ID Token](<../../../5 ⏩ Flows/20 💼⏩ Consumers/04 💼⏩🧑‍🦰 Share Token+ID.md>) | Ask for [Identity 🆔](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) bound [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>)
+    | [⏩🧑‍🦰 Token status](<../../../5 ⏩ Flows/20 💼⏩ Consumers/05 💼⏩🧑‍🦰 Token status.md>) | Ask for the status of a [Token 🎫](<../25 🎫 Tokens/01 🎫 Token.md>)
+
+    ---
+    <br/>

@@ -14,6 +14,7 @@
 ```yaml
 Header:
     From: any-vault.com
+    To: any-consumer.com
     Subject: Consume@Consumer
 
 Body:
