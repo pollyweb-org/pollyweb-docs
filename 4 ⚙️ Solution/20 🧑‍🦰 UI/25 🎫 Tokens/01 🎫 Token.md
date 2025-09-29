@@ -184,8 +184,8 @@
 
     ```yaml
     Code: nlweb.org/TOKEN:1.0
-    Issuer: any-issuer.com
-    IssuerKey: certificate-XYZ
+    Domain: any-issuer.com
+    Key: certificate-XYZ
     Properties:
         Property1: Value1
         Property2: Value2
@@ -194,8 +194,8 @@
     |Property| Type | Details
     |-|-|-
     | `Code` | string |  `nlweb.org/TOKEN:1.0`
-    | `Issuer` | string | The [Issuer 🎴 domain](<02 🎴🎭 Issuer role.md>) name
-    | `IssuerKey` | uuid |  The resource key in the [Issuer 🎴](<02 🎴🎭 Issuer role.md>)
+    | `Domain` | string | The [Issuer 🎴 domain](<02 🎴🎭 Issuer role.md>) name
+    | `Key` | uuid |  The resource key in the [Issuer 🎴](<02 🎴🎭 Issuer role.md>)
     | `Properties` | object | Any optional data fields
     |
 
@@ -205,14 +205,20 @@
     
     ```yaml
     Schema: who.int/VACCINES/COVID-2:1.0
-    Issued: '2024-09-21T12:34:00Z'
+    Issued: 2024-09-21T12:34:00Z
+    Starts: 2024-01-10T13:45:00.000Z
+    Expires: 2028-12-10T13:45:00.000Z
     Signature: ABCMIQDALK2Fd...
+    DKIM: pk1
     ```
     |Property| Type | Details
     |-|-|-
     |`Schema` | string | The Token's [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>)
     | `Issued` | timestamp | When it was issued
+    |`Starts` |timestamp| Valid from
+    |`Expires`|timestamp| Valid until (optional)
     | `Signature`| string | The Issuer's [signature](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) 📨 
+    | `DKIM`| string | The [DKIM 📨](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/07 👥🚀🕸 Public Key.md>) key used to sign
     |
 
 
