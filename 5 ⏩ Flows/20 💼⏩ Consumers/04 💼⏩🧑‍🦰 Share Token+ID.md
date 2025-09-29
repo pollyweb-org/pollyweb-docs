@@ -1,6 +1,6 @@
 <!-- #TODO -->
 
-# 👉 Query an Identity Token
+# 👉 Share an Identity Token
 
 > Mentioned in [🆔 Verify Tokens](<../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/14 🆔🎫 Verify Tokens.md>)
 
@@ -13,5 +13,8 @@
 
 |#| Step | Purpose
 |-|-|-
-|1|
+|1|[💼⏩🧑‍🦰 Share Token @ Consumer](<03 💼⏩🧑‍🦰 Share Token.md>) | Receive an [Identity-bound Token 🎫](<../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/14 🆔🎫 Verify Tokens.md>)
+|2|[👥🚀🕸 Trusts @ Graph](<../../6 🅰️ APIs/45 🕸🅰️ Graph/03 👥🚀🕸 Trusts.md>) | Verify if the [Identity 🆔](<../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) is [Trustworthy 👍](<../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>)
+|3||Invite the [Identity 🆔](<../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) to the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>)
 |6|[🆔⏩🧑‍🦰 Selfie @ Identity](<../55 🆔⏩ Identities/04 🆔⏩🧑‍🦰 Selfie.md>)
+|

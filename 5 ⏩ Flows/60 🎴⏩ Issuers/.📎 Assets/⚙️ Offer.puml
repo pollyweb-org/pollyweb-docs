@@ -5,17 +5,17 @@
 actor "User\nin chat" as user
 participant "Wallet 👱\napp" as wallet
 participant "Notifier 📣\nbff" as notifier
-participant "Broker 🤵\nhost" as broker
+participant "Broker 🤵\ndomain" as broker
 participant "Issuer 🎴\ndomain" as issuer
 
 ' ISSUE
 activate issuer
-    issuer --> broker: 1) offer@
+    issuer --> broker: 1) Issued 🐌
 deactivate issuer
 
 ' REGISTER
 activate broker
-    broker --> wallet: 2) ⏪ prompt 
+    broker --> wallet: 2) ⏪ Prompt 
 deactivate broker
 
 activate wallet
@@ -24,7 +24,7 @@ activate wallet
 deactivate wallet
 
 activate broker
-    broker --> notifier: 3) offer@
+    broker --> notifier: 3) Save 🐌
 deactivate broker
 
 ' NOTIFY
@@ -35,24 +35,24 @@ deactivate notifier
 ' ACCEPT
 activate wallet
     ' DOWNLOAD
-    wallet -> issuer: 4) token@
+    wallet -> issuer: 4) Token 🚀
     activate issuer
         issuer -> wallet: {token}
     deactivate issuer
-    wallet -> wallet: persist
+    wallet -> wallet: save
 
     ' CONFIRM
-    wallet --> broker: 5) accepted@ { path }
+    wallet --> broker: 5) Saved 🐌 { path }
 deactivate wallet
 
 ' NOTIFY
 activate broker
-    broker --> wallet: 6) ⏪ update tokens 
-    broker --> issuer: 7) accepted@
+    broker --> wallet: 6) ⏪ Update tokens 
+    broker --> issuer: 7) Accepted 🐌
 deactivate broker
 
 activate issuer
-    issuer --> wallet: 8) ⏪ prompt 
+    issuer --> wallet: 8) ⏪ Prompt 
 deactivate issuer
 
 
