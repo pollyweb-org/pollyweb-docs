@@ -11,7 +11,7 @@
 
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 
-> Used by [💼⏩🧑‍🦰 Query vault @ Consumer](<../../5 ⏩ Flows/20 💼⏩ Consumers/02 💼⏩🧑‍🦰 Query vault.md>)
+> Used by [💼⏩🧑‍🦰 Query vault @ Consumer](<../../5 ⏩ Flows/20 💼⏩ Consumers/02 💼⏩🧑‍🦰 Query Vault.md>)
 
 <br/> 
 

@@ -13,4 +13,5 @@
 
 |#| Step | Purpose
 |-|-|-
-| [text](<../55 🆔⏩ Identities/04 🆔⏩🧑‍🦰 Selfie.md>)
+|1|
+|6|[🆔⏩🧑‍🦰 Selfie @ Identity](<../55 🆔⏩ Identities/04 🆔⏩🧑‍🦰 Selfie.md>)

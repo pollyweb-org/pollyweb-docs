@@ -7,7 +7,7 @@
 
 > Used by:
 > <br/>• [🧑‍🦰👉🤗 Abandon session](<../90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>) flow.
-> <br/>• [💼⏩🧑‍🦰 Query vault @ Consumer](<../20 💼⏩ Consumers/02 💼⏩🧑‍🦰 Query vault.md>)
+> <br/>• [💼⏩🧑‍🦰 Query vault @ Consumer](<../20 💼⏩ Consumers/02 💼⏩🧑‍🦰 Query Vault.md>)
 
 <br/>
 

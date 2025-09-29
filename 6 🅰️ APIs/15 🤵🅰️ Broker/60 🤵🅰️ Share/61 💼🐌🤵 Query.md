@@ -5,8 +5,8 @@
 > In a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>), a [Consumer 💼 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) asks the [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) for access to user data in one or more [Schema Codes 🧩](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>).
 
 > Used by: 
-> <br/>• [💼⏩🧑‍🦰 Query token @ Consumer](<../../../5 ⏩ Flows/20 💼⏩ Consumers/03 💼⏩🧑‍🦰 Query token.md>)
-> <br/>• [💼⏩🧑‍🦰 Query vault @ Consumer](<../../../5 ⏩ Flows/20 💼⏩ Consumers/02 💼⏩🧑‍🦰 Query vault.md>)
+> <br/>• [💼⏩🧑‍🦰 Query token @ Consumer](<../../../5 ⏩ Flows/20 💼⏩ Consumers/03 💼⏩🧑‍🦰 Share Token.md>)
+> <br/>• [💼⏩🧑‍🦰 Query vault @ Consumer](<../../../5 ⏩ Flows/20 💼⏩ Consumers/02 💼⏩🧑‍🦰 Query Vault.md>)
 
 <br/> 
 

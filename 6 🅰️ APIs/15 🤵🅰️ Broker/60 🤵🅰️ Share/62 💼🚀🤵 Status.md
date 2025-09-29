@@ -1,7 +1,7 @@
 # 💼🚀🤵  Status @ Broker
 
 
-> Used in [💼⏩🧑‍🦰 Query token](<../../../5 ⏩ Flows/20 💼⏩ Consumers/03 💼⏩🧑‍🦰 Query token.md>)
+> Used in [💼⏩🧑‍🦰 Query token](<../../../5 ⏩ Flows/20 💼⏩ Consumers/03 💼⏩🧑‍🦰 Share Token.md>)
 
 <br/> 
 
