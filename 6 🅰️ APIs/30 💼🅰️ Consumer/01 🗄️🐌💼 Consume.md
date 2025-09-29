@@ -21,7 +21,8 @@ Body:
     Broker: any-broker.com
     ChatID: <chat-uuid>
     Code: airlines.any-igo.org/SSR/WCH:1
-    Callback: <callback-uuid>
+    ConsumerKey: <consumer-key>
+    VaultKey: <vault-key>
     TTL: 2023-04-01T05:00:30.001000Z
 ```
 
@@ -34,7 +35,8 @@ Body:
 | `Broker`| string | [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) name
 | `ChatID` | uuid | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) ID
 | `Code`| string |  [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)
-| `Callback` | uuid | Callback to [Collect@Vault](<../95 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>)
+| `ConsumerKey` | uuid | From [Query@](<../15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) and [Invite@](<../15 🤵🅰️ Broker/60 🤵🅰️ Share/64 💼🐌🤵 Invite.md>)
+| `VaultKey` | uuid | Callback to [Collect@Vault](<../95 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>)
 | `TTL` | timestamp| Callback deadline
 |
 
@@ -51,5 +53,3 @@ Body:
 
     ---
     <br/>
-
-    
