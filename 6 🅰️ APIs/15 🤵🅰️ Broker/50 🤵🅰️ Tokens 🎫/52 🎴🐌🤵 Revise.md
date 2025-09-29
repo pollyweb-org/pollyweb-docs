@@ -6,8 +6,8 @@
 > Updates the status of a [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>).
 
 > Used by:
-> <br/>- [🎴⏩🧑‍🦰 Revise Token](<../../../5 ⏩ Flows/60 🎴⏩ Issuers/02 🎴⏩🧑‍🦰 Revise token.md>) flow
-> <br/>- [💼⏩🧑‍🦰 Token Status](<../../../5 ⏩ Flows/20 💼⏩ Consumers/05 💼⏩🧑‍🦰 Token status.md>) flow
+> <br/>• [🎴⏩🧑‍🦰 Revise Token @ Issuer](<../../../5 ⏩ Flows/60 🎴⏩ Issuers/02 🎴⏩🧑‍🦰 Revise token.md>) flow
+> <br/>• [💼⏩🧑‍🦰 Token Status @ Consumer](<../../../5 ⏩ Flows/20 💼⏩ Consumers/05 💼⏩🧑‍🦰 Token status.md>) flow
 
 <br/>
 

@@ -10,7 +10,7 @@
 
 ```yaml
 Header:
-    From: any-broker.com
+    From: Anonymous
     To: any-consumer.com
     Subject: Shared@Consumer
 Body: 
@@ -24,7 +24,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header| `From`    | string | [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) name
+| Header| `From`    | string | `Anonymous`
 | | `To`| string | [Consumer 💼 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) name
 | | `Subject`| string | `Shared@Consumer`
 | Body | `ChatID` | string | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) ID

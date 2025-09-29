@@ -12,6 +12,7 @@ participant "Issuer 🎴\n(domain)" as issuer
 issuer --> broker: 1) Revise 🐌
 activate broker
     broker --> wallet: 2) ⏪ Update Tokens 🎫
+    broker --> wallet: 3) ⏪ Prompt 🤔 {revoked}     
 deactivate broker
 
 ' ----------------------

@@ -1,4 +1,4 @@
-# 👉 Share an Identity Token
+# 💼⏩🧑‍🦰 Share an Identity Token @ Consumer
 
 > Mentioned in [🆔 Verify Tokens](<../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/14 🆔🎫 Verify Tokens.md>)
 

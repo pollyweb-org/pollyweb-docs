@@ -1,4 +1,4 @@
-# 👉 Query a Vault
+# 💼⏩🧑‍🦰 Query a Vault @ Consumer
 
 > In a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>), a [Consumer 💼 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>)  can query user data.
 

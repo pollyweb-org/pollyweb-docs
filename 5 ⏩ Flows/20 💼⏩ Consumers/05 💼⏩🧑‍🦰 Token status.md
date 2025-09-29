@@ -1,6 +1,4 @@
-<!-- #TODO -->
-
-# 👉 Token Status
+# 💼⏩🧑‍🦰 Token Status @ Consumer
 
 > Request from a [💼 Consumer domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) to assess if a [Token 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) is still valid or if it has been revoked or suspended.
 
