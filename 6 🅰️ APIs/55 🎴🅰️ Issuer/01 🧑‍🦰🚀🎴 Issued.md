@@ -17,7 +17,7 @@
 
 ```yaml
 Header:
-    From: any-broker.org
+    From: any-broker.com
     To: any-issuer.com
     Subject: Token@Issuer
     

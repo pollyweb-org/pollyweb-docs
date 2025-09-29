@@ -15,8 +15,8 @@
 
 ```yaml
 Header:
-    From: any-host.org
-    To: any-broker.org
+    From: any-host.com
+    To: any-broker.com
     Subject: Goodbye@Broker
     
 Body:

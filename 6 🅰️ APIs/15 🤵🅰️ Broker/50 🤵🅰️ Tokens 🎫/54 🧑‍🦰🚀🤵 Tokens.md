@@ -16,7 +16,7 @@
 ```yaml
 Header:
     From: <wallet-uuid>
-    To: any-broker.org
+    To: any-broker.com
     Subject: Tokens@Broker
 
 Body: 
@@ -37,7 +37,7 @@ Body:
 Tokens:
   - TokenID: <token-uuid>
     Issuer: any-issuer.com
-    IssuerTranslation: <translationOf(any-host.org)>
+    IssuerTranslation: <translationOf(any-host.com)>
     Code: `any-authority.org/<code>
     CodeTranslation: `<translationOf(any-authority.org/<code>)>
     Schema: {...}

@@ -16,7 +16,7 @@
 ```yaml
 Header:
     From: <wallet-uuid>
-    To: any-broker.org
+    To: any-broker.com
     Subject: Binds@Broker
 Body: 
 ```

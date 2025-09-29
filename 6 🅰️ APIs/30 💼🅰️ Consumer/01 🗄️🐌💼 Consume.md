@@ -18,7 +18,7 @@ Header:
     Subject: Consume@Consumer
 
 Body:
-    Broker: any-broker.org
+    Broker: any-broker.com
     ChatID: <chat-uuid>
     Code: airlines.any-igo.org/SSR/WCH:1
     Callback: <callback-uuid>

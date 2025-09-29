@@ -12,7 +12,7 @@
 
 ```yaml
 Header:
-   From: any-broker.org
+   From: any-broker.com
    To: any-payer.org
    Subject: Endorse@Payer
 
@@ -22,7 +22,7 @@ Body:
    Collector: any-collector.org
    Chat: 
       Host: any-seller.org
-      Broker: any-broker.org
+      Broker: any-broker.com
       Locator: <any-locator>
       ChatID: <session-uuid>
    Charge: { ... }

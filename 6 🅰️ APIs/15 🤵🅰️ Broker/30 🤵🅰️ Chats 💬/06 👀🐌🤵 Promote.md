@@ -16,7 +16,7 @@
 ```yaml
 Header:
     From: any-advertiser.org
-    To: any-broker.org
+    To: any-broker.com
     Subject: Promote@Broker
     
 Body:
