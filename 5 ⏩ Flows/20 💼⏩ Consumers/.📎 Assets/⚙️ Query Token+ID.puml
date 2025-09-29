@@ -3,8 +3,8 @@
 
 actor User as user
 participant "Broker 🤵\n(domain)" as broker
-participant "Consumer 💼\n(host)" as consumer
 participant "Identity 🆔\n(vault)" as identity
+participant "Consumer 💼\n(host)" as consumer
 participant "Graph 🕸\n(domain)" as graph
 
 ' --------------------
@@ -16,26 +16,21 @@ consumer --> user : 1) ⏪ Share Token 🎫
 
 
 
-'group Request ID check
-
-    consumer -> graph: 2) Trusts 🚀 {identity}
-    consumer --> broker: 3) Invite 🐌
-    deactivate consumer
-
-    activate broker
-        user --> broker: approve 
-        broker --> identity: 4) Invited 🐌 {ID locator}
-    deactivate broker
-
-    activate identity
 
 
-'end group
+consumer -> graph: 2) Trusts 🚀\n{identity}
+consumer --> identity: 3 ⏪ Invite 
+
+deactivate consumer
+activate identity
 
 
-identity --> user: 5 ⏪ Take Selfie 📸
 
-identity --> consumer:  6 ⏪ Consume 🧩
+identity --> user: 4 ⏪ Take Selfie 📸
+
+identity --> consumer: 5 ⏪ Consume 🧩
+
+deactivate identity
 
 
 @enduml 

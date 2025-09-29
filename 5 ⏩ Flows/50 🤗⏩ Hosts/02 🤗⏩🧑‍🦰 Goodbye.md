@@ -5,7 +5,7 @@
 
 ## Flow diagram
 
-![Goodbye](<.📎 Assets/26 ⚙️👋 Goodbye.png>)
+![Goodbye](<.📎 Assets/⚙️👋 Goodbye.png>)
 
 
 ## Steps
