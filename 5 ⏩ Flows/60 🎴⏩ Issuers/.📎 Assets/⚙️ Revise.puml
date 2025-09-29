@@ -1,0 +1,18 @@
+@startuml Revoke
+
+
+' ----------------------
+
+actor User as user
+participant "Wallet 👱\napp" as wallet
+participant "Notifier 📣\n(bff)" as notifier
+participant "Broker 🤵\n(domain)" as broker
+participant "Issuer 🎴\n(domain)" as issuer
+
+issuer --> broker: 1) Revise 🐌
+activate broker
+    broker --> wallet: 2) ⏪ Update Tokens 🎫
+deactivate broker
+
+' ----------------------
+@enduml

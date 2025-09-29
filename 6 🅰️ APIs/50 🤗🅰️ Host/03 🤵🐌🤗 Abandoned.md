@@ -1,11 +1,9 @@
-<!-- #TODO -->
-
-# 🤵🐌🤗 Abandoned @ [Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>)
+# 🤵🐌🤗 Abandoned @ Host
 
 > Tells the [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) that a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) was abandoned by the user.
 
 
-> Used by the [Abandon session 🧑‍🦰👉🤗](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>) flow.
+> Part of the [Abandon session 🧑‍🦰👉🤗](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>) flow.
 
 <br/>
 

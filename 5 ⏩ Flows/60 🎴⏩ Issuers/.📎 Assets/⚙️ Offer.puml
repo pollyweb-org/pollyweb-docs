@@ -48,7 +48,7 @@ deactivate wallet
 
 ' NOTIFY
 activate broker
-    broker --> wallet: 7) ⏪ Update tokens 
+    broker --> wallet: 7) ⏪ Update Tokens 🎫
     broker --> issuer: 8) Accepted 🐌
 deactivate broker
 

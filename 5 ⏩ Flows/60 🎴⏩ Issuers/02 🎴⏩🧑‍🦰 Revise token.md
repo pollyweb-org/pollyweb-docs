@@ -11,4 +11,4 @@
 
 ## Flow diagram
 
-![alt text](<.📎 Assets/⚙️ Revoke.png>)
+![alt text](<.📎 Assets/⚙️ Revise.png>)

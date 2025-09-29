@@ -25,12 +25,10 @@ activate broker
 deactivate broker
 
 
-'group Update Token
-    issuer --> broker: 3) Revise 🐌
-    activate broker
-        broker --> user
-    deactivate broker
-'end group
+issuer --> broker: 3) Revise 🐌
+activate broker
+    broker --> user
+deactivate broker
 
 'group Offline verification
 
