@@ -22,7 +22,7 @@
     | `Code` | `nlweb.org/HOST:1.0` | [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) to validate the schema with a [Graph 🕸 helper domain](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>).
     | `Domain` | `any-host.com` | [Domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) name for the [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) to interact with.
     | `Key` | `product-1234` | The resource key in the [Host 🤗 domain](<../23 💬 Chats/04 🤗🎭 Host role.md>).
-    | Parameters | `A=1,B=2` | any optional data fields.
+    | `Properties` | `A=1,B=2` | Any optional data fields.
 
     ---
     <br/>

@@ -1,5 +1,3 @@
-<!-- #TODO -->
-
 <!-- https://quip.com/s9oCAO3UR38A#temp:C:TDD828d0b17f0fa414ba67fa5eab -->
 
 # 🧑‍🦰🚀🤗 Download @ Host
@@ -33,7 +31,7 @@ Body:
 |           | `To`          | string    | [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>)
 |           | `Subject`     | string    | `Prompted@Host`
 | Body      | `ChatID` | uuid | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) ID
-|| `FileID`    | uuid      | Appendix from [Prompted@](<04 🧑‍🦰🚀🤗 Prompted.md>)
+|| `FileID`    | uuid      | Appendix from [Prompted @ Host](<04 🧑‍🦰🚀🤗 Prompted.md>)
 |
 
 <br/>
@@ -46,7 +44,7 @@ Body:
 Name: menu.pdf
 Format: PDF
 Content: KFJASON...
-DKIM: 
+DKIM: pk1
 ```
 
 |Object |Property|Type|Description
@@ -54,7 +52,7 @@ DKIM:
 |Top| `Name`  | string | Name of the file, for saving
 || `Format` | enum | `PDF` `PNG`
 || `Content` | string | Bytes serialized to base64
-|| `DKIM`| string | Name of the public key <br/>- in the sender's [DKIM 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) <br/> - used to [sign the file 🔏](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/05 👥🔏 Domain Signature.md>)
+|| `DKIM`| string | Name of the public key <br/>- in the sender's [DKIM 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) <br/> - used to [stamp the file 🔏](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/05 👥🔏 Domain Signature.md>)
 |
 
 <br/>
