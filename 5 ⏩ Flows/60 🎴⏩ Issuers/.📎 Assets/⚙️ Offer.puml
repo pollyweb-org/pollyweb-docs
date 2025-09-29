@@ -16,7 +16,7 @@ deactivate issuer
 
 activate broker
     broker -> graph : 2) Translate 🚀 {code}
-    broker --> wallet: 3) ⏪ Prompt 
+    broker --> wallet: 3) ⏪ Prompt 🤔
 deactivate broker
 
 activate wallet
@@ -53,7 +53,7 @@ activate broker
 deactivate broker
 
 activate issuer
-    issuer --> wallet: 9) ⏪ Prompt 
+    issuer --> wallet: 9) ⏪ Prompt 🤔
 deactivate issuer
 
 

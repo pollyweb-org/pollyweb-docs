@@ -1,0 +1,30 @@
+@startuml Wallet: Share Token
+
+
+actor User as user
+participant "Broker 🤵\n(domain)" as broker
+participant "Host 🤗\n(domain)" as host
+participant "Invitee 🛠️\n(host)" as invitee
+
+
+activate host
+    host --> broker: 1) Invite 🐌
+deactivate host
+
+activate broker
+    broker --> user: 2 ⏪ Prompt 🤔
+deactivate broker
+
+activate user
+    user --> broker: {approve}
+deactivate user
+
+activate broker
+    broker --> invitee: 3) Invited 🐌 {code, params}
+deactivate broker
+
+activate invitee
+invitee --> user : 4 ⏪ Prompt 🤔
+deactivate invitee
+
+@enduml 
