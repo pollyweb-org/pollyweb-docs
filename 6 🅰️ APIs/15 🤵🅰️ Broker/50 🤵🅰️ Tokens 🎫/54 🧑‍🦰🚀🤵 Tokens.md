@@ -1,24 +1,24 @@
-<!-- #TODO -->
-
 <!-- Docs: https://quip.com/sN8DACFLN9wM#temp:C:AfTa9a1f10023324c448a569fa05 -->
 <!-- Code: https://github.com/jorgemjfonseca/domain-trust-framework/blob/2896911396280f90ec68c32b50aa99dc4a3c90e2/python/roles/broker/BROKER_TOKENS.py#L199 -->
 <!-- Tests: https://github.com/jorgemjfonseca/domain-trust-framework/blob/2896911396280f90ec68c32b50aa99dc4a3c90e2/python/roles/broker/BROKER_TOKENS_TESTS.py#L10 -->
 
 # 🧑‍🦰🚀🤵 Tokens @ Broker
 
+> List of [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) in a [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) for a human user, mapping to the local file.
+
+> Used in:
+> <br/> • [🧑‍🦰👉🤵 Translate @ Broker](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/12 🧑‍🦰👉🤵 Translate.md>) flow
+> <br/> • [🧑‍🦰👉🤵 List Tokens @ Broker](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/01 🧑‍🦰👉🤵 List tokens.md>) flow
+
 <br/>
 
-## Sync Request
-
-|Property|Type|Description
-|-|-|-
+## Synchronous Request 🚀
 
 ```yaml
 Header:
     From: <wallet-uuid>
     To: any-broker.com
     Subject: Tokens@Broker
-
 Body: 
 ```
 
@@ -35,35 +35,21 @@ Body:
 
 ```yaml
 Tokens:
-  - TokenID: <token-uuid>
-    Issuer: any-issuer.com
-    IssuerTranslation: <translationOf(any-host.com)>
-    Code: `any-authority.org/<code>
-    CodeTranslation: `<translationOf(any-authority.org/<code>)>
-    Schema: {...}
-    Issued: 2018-12-10T13:45:00.000Z
-    Starts: 2018-12-10T13:45:00.000Z
-    Expires: 2018-12-10T13:45:00.000Z
-    Version: 1.0.0
-    QR: \U0001F91Dnlweb.org/...
-    Path: /storage/tf/creds/<issuer>/<token-uuid>
+  - Issuer: any-issuer.com
+    TokenID: <token-uuid>
+    IssuerTitle: Any Issuer
+    CodeTitle: Any Code
+    Path: /storage/nlweb/tokens/any-issuer.com/<token-uuid>
     Status: REVOKED
 ```
 
 |Object|Property|Type|Description|
 |-|-|-|-
-|Top   |Tokens   |Token[]|List of Token objects|
-|Token |TokenID  |UUID   |[Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) ID|
-|| `Issuer` | string 
-|| `IssuerTranslation` | string
-|| `Code` | string
-|| `CodeTranslation` | string
-|| `Schema` | object
-|| `Issued`| timestamp
-|| `Starts`| timestamp
-|| `Expires`| timestamp
-|| `Version`| timestamp
-|| `QR`| string
-|| `Path`| string
-|| `Status`| enum
+|Top   |`Tokens`   |Token[]|List of `Token` objects|
+|Token | `Issuer` | string | [Issuer 🎴 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) name
+||`TokenID`  |uuid   |[Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) ID|
+|| `IssuerTitle` | string | Translated [Issuer 🎴](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) title
+|| `CodeTitle` | string | Translated [Schema Code 🧩](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) title
+|| `Path`| string | Local path to the detailed file
+|| `Status`| enum | Status set in [Status @ Broker](<../60 🤵🅰️ Share/62 💼🚀🤵 Status.md>)
 |

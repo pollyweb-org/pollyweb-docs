@@ -17,7 +17,7 @@ activate wallet
 
     alt not cached?
 
-        wallet -> broker: 1. chats@
+        wallet -> broker: 1) Chats 🚀
 
         ' BROKER
         activate broker

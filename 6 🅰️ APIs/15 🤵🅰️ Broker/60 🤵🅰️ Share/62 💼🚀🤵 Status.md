@@ -40,7 +40,7 @@ Locator: <reference-uuid>
 
 |Property|Type|Description
 |-|-|-
-| `Status`  | string | One of: `ACTIVE`, `SUSPENDED`, `REVOKED`, `EXPIRED`
+| `Status`  | string | `ACTIVE` `SUSPENDED` `REVOKED` `EXPIRED`
 | `Starting`| string | (optional) date of start of status.
 | `Ending`  | string | (optional) date of ending status.
 |

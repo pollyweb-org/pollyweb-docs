@@ -17,12 +17,12 @@ host --> wallet: ⏪ prompt
 ' The user invokes the broker's talker
 user --> wallet: broker 🤵
 activate wallet
-    wallet --> broker: 1) Help@
+    wallet --> broker: 1) Help 🐌
 deactivate wallet
 
 ' The broker shows the chat options
 activate broker
-    broker --> wallet: 2) ⏪ prompt 
+    broker --> wallet: 2) ⏪ Prompt 🤔
 deactivate broker
 
 ' The user asks to abandon the chat.
@@ -33,8 +33,8 @@ deactivate wallet
 
 ' The broker notifies the host and the notifier about the abandoned chat.
 activate broker
-    broker --> host: 3) Abandoned@
-    broker --> wallet: 4) ⏪ update chats
+    broker --> host: 3) Abandoned 🐌
+    broker --> wallet: 4) ⏪ Update Chats 💬
 deactivate broker
 
 ' ----------------------

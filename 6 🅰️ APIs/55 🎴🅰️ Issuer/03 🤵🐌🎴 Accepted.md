@@ -17,5 +17,3 @@ Header:
 Body:
     Token: <token-uuid>
 ```
-
-|

@@ -32,6 +32,6 @@ Body:
 |Header|`From`|string | [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) name
 ||`To`|string| [Notifier 📣 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/02 📣 Notifier domain.md>) name
 ||`Subject`|string|`Updated@Notifier`
-|Body  |`WalletID` |UUID  | Wallet ID on the Broker domain
+|Body  |`WalletID` |uuid  | Wallet ID on the Broker domain
 |      |`Updates`   |enum[]  | Enum: CHATS, BINDS, TOKENS
 |
