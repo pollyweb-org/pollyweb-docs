@@ -6,8 +6,8 @@
 > A [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) says something to a user in a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>).
 
 > Used by:
-> <br/>• [🧑‍🦰👉🤗 Abandon session](<../90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>) flow.
-> <br/>• [💼⏩🧑‍🦰 Query Vault @ Consumer](<../20 💼⏩ Consumers/02 💼⏩🧑‍🦰 Query Vault.md>)
+> <br/>• [🧑‍🦰👉🤗 Abandon Chat @ Wallet](<../90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>) flow
+> <br/>• [💼⏩🧑‍🦰 Query Vault @ Consumer](<../20 💼⏩ Consumers/02 💼⏩🧑‍🦰 Query Vault.md>) flow
 
 <br/>
 

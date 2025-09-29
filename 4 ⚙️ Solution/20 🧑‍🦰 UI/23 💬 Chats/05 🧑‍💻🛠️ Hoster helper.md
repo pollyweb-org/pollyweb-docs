@@ -3,8 +3,8 @@
 1. **What is a Hoster?**
 
     A [🧑‍💻 Hoster](<05 🧑‍💻🛠️ Hoster helper.md>) is 
-    * any [Helper 🛠️ domain](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>).
-    * that host the infrastructure of other [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).
+    * any [Helper 🛠️ domain](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>)
+    * that host the infrastructure of other [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>)
     * and allow their owners to manage them with a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
 
     ---
