@@ -10,7 +10,7 @@ participant "Issuer 🎴\ndomain" as issuer
 
 ' ISSUE
 activate issuer
-    issuer --> broker: 1) Issued 🐌
+    issuer --> broker: 1) Offer 🐌
 deactivate issuer
 
 ' REGISTER
@@ -35,7 +35,7 @@ deactivate notifier
 ' ACCEPT
 activate wallet
     ' DOWNLOAD
-    wallet -> issuer: 4) Token 🚀
+    wallet -> issuer: 4) Issued 🚀
     activate issuer
         issuer -> wallet: {token}
     deactivate issuer

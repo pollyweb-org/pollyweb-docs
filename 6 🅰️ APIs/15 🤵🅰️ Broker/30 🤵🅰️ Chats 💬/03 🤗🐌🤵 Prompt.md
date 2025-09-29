@@ -18,6 +18,7 @@ Header:
 Body:
   ChatID: <chat-uuid>
   PromptID: <prompt-uuid>
+  TTL: 2023-04-01T05:00:30.001000Z
 ```
 
 
@@ -27,5 +28,6 @@ Body:
 ||`To`       | string  | [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
 ||`Subject` | string | `Prompt@Broker`
 |Body|`ChatID`   | uuid    | ID of the [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) on the [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
-||`PromptID` | uuid    | Callback to download the [Prompt 🤔](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/02 🤔 Prompt.md>) from the [Host 🤗 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) via [Prompted@Host](<../../50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>)
+||`PromptID` | uuid    | Callback to [Prompted@Host](<../../50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>)
+||`TTL`| timestamp | Expiration of [Prompted@Host](<../../50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) cache
 |
