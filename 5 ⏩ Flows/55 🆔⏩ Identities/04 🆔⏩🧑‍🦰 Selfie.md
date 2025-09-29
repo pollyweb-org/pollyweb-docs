@@ -4,7 +4,34 @@
 
 <br/>
 
-## Flow diagram ⏩
+
+## 💬 Chat
+
+Consider the following [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) as an example.
+
+
+| Service | Prompt | User
+| - | - | - |
+| [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Start risky task? [Yes, No] > Yes
+| 🆔 [Identity](<../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.  | [📸 selfie](<../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/21 🆔😶 Face scan.md>)
+| [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Starting task...
+|
+
+<br/>
+
+## 😃 Talker 
+
+The associated  [Talker 😃](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 😃 Talker.md>) would be the following.
+
+```yaml
+- CONFIRM|Start risky task?
+- SELFIE
+- SUCCESS|Starting task...
+```
+
+<br/>
+
+## ⏩ Flow diagram 
 
 ![alt text](<.📎 Assets/⚙️ Selfie.png>)
 

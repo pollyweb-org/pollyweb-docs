@@ -6,12 +6,40 @@
 > A [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) says something to a user in a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) with a [Prompt 🤔](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/02 🤔 Prompt.md>).
 
 > Used by:
+> <br/> • [🔎⏩🧑‍🦰 Introduce @ Finder](<../40 🔎⏩ Finders/01 🔎⏩🧑‍🦰 Introduce.md>) flow
+> <br/> • [🤗⏩🧑‍🦰 Prompt @ Host](<01 🤗⏩🧑‍🦰 Prompt.md>) flow
 > <br/>• [🧑‍🦰👉🤗 Abandon Chat @ Wallet](<../90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>) flow
 > <br/>• [💼⏩🧑‍🦰 Query Vault @ Consumer](<../20 💼⏩ Consumers/02 💼⏩🧑‍🦰 Query Vault.md>) flow
 
 <br/>
 
-## Flow diagram
+## 💬 Chat
+
+Consider the following [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) with three [Prompts 🤔](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/02 🤔 Prompt.md>) as an example.
+
+| Service | Prompt | User
+| - | - | - |
+| 🤗 Host | ℹ️ Hello World!
+| 🤗 Host | 😃 Like sports? [Yes, No] <br/> - I [love] it <br/> - I [hate] it | >> love
+| 🤗 Host | ℹ️ I love it, too!
+|
+
+<br/>
+
+## 😃 Talker 
+
+The associated  [Talker 😃](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 😃 Talker.md>), with one line per [Prompt 🤔](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/02 🤔 Prompt.md>), would be the following.
+
+```yaml
+- INFO|Hello World!
+- ONE|Like sports?|Yes,No,I [love] it,I [hate] it >> my-var
+- INFO|{function-that-calculates-the-answer}
+```
+
+
+<br/>
+
+## ⏩ Flow diagram
 
 ![Prompt](<.📎 Assets/⚙️💬 Prompt.png>)
 
