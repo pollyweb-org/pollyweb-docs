@@ -4,9 +4,41 @@
 
 > Example at [Confused senior user 👴🏻](<../../4 ⚙️ Solution/70 🌳 Ambient/74 💍 Brand Userables/13 💍📱 Userable senior user.md>) scenario.
 
-<br/> 
+<br/>
 
-## Flow diagram ⏩
+
+
+## 💬 Chat
+
+Consider the following [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) as an example.
+
+| Service | Prompt | User
+| - | - | - |
+| 🤗 Host A | ℹ️ I'll ask Host B for a random number. | 
+| 🤵 [Broker](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Allow invited guest? [Yes, No]  <br/> - Host B 😶 <br/>- [ Always ] for Host A 🤗 | > Yes
+| 😶 Host B | ⓘ Hi! I'm Host B. The number is 27.    
+| 🤗 Host A | ℹ️ 27, got it! Thanks, Host B!  
+|
+
+<br/>
+
+## Talker 😃
+
+The associated  [Talker 😃](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 😃 Talker.md>) would be the following.
+
+```yaml
+- INFO|I'll invite Host B.
+- INVITE|host-b.com|any-authority.org/RANDOM-NUMBER >> my-number
+    # Domain: host-b.com
+    # Code: any-authority.org/RANDOM-NUMBER
+    # Output: my-number
+- INFO|{my-number}, got it! Thanks, Host B!
+```
+
+<br/>
+
+
+## ⏩ Flow diagram 
 
 
 ![alt text](<.📎 Assets/⚙️ Invite.png>)
@@ -19,3 +51,5 @@
 |3| [🤵🐌🤗 Invited @ Host](<../../6 🅰️ APIs/50 🤗🅰️ Host/11 🤵🐌🤗 Invited.md>) | Proxy the invite to the Invitee 
 |4|[🤗⏩🧑‍🦰 Prompt 🤔](<../50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt.md>) | The invitee continues the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>)
 |
+
+<br/>
