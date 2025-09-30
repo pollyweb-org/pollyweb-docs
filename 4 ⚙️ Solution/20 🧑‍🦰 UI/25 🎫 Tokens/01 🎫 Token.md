@@ -41,8 +41,8 @@
     |-|-|-
     |1| `Issue`| An [Issuer 🎴 domain](<02 🎴🎭 Issuer role.md>) issues a [Token 🎫](<01 🎫 Token.md>) the the user stores offline in the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
     |2| `In-Chat`| While in a [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>) with a [Consumer 💼 host domain](<../27 💼 Consumers/04 💼🎭 Consumer role.md>), the user shares the [Token 🎫](<01 🎫 Token.md>).
-    |3| `Usarable` | Using their [Custodian 🧳 agent](<../../70 🌳 Ambient/71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>), users select which [Tokens 🎫](<01 🎫 Token.md>) to be automatically shared by a specific [Userable 💍 thing](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>).
-    | 4| `Usarable`| When the NFC of the [Userable 💍 thing](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) is [tapped 🔆](<../22 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) on the [scanner ✨ device](<../../60 🧰 Edge/66 ✨ Scanners/06 ✨🔌 Scanner device.md>) of a [Consumer 💼 domain](<../27 💼 Consumers/04 💼🎭 Consumer role.md>), the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) shares the [Tokens 🎫](<01 🎫 Token.md>).
+    |3| `Userable` | Using their [Custodian 🧳 agent](<../../70 🌳 Ambient/71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>), users select which [Tokens 🎫](<01 🎫 Token.md>) to be automatically shared by a specific [Userable 💍 thing](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>).
+    | 4| `Userable`| When the NFC of the [Userable 💍 thing](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) is [tapped 🔆](<../22 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) on the [scanner ✨ device](<../../60 🧰 Edge/66 ✨ Scanners/06 ✨🔌 Scanner device.md>) of a [Consumer 💼 domain](<../27 💼 Consumers/04 💼🎭 Consumer role.md>), the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) shares the [Tokens 🎫](<01 🎫 Token.md>).
     |5| `Printed`| From the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), users can print a [Token 🎫](<01 🎫 Token.md>).
     |6| `Printed` | The user can then present the printed [Token 🎫](<01 🎫 Token.md>) to the [scanner ✨ device](<../../60 🧰 Edge/66 ✨ Scanners/06 ✨🔌 Scanner device.md>) of a [Consumer 💼 domain](<../27 💼 Consumers/04 💼🎭 Consumer role.md>).
     |7| `Identity` | If the [Token 🎫](<01 🎫 Token.md>) contains the [Locator 🔆](<../22 🔆 Locators/01 🔆 Locator.md>) of an [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>), then it means that the [Token 🎫](<01 🎫 Token.md>) was issued to a specific person only.
@@ -185,7 +185,7 @@
     ```yaml
     Code: nlweb.org/TOKEN:1.0
     Domain: any-issuer.com
-    Key: certificate-XYZ
+    TokenID: <token-uuid>
     Properties:
         Property1: Value1
         Property2: Value2
@@ -195,7 +195,7 @@
     |-|-|-
     | `Code` | string |  `nlweb.org/TOKEN:1.0`
     | `Domain` | string | The [Issuer 🎴 domain](<02 🎴🎭 Issuer role.md>) name
-    | `Key` | uuid |  The resource key in the [Issuer 🎴](<02 🎴🎭 Issuer role.md>)
+    | `TokenID` | uuid |  The resource key in the [Issuer 🎴](<02 🎴🎭 Issuer role.md>)
     | `Properties` | object | Any optional data fields
     |
 
