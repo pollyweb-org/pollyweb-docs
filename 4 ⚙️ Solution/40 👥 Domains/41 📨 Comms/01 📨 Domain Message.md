@@ -120,7 +120,7 @@
 10. **How do receiver domains differentiate methods?**
 
     An NLWeb envelop contains a `Subject` that identifies how the receiver should handle the message:
-    - e.g., `Hello@Host` refers to the [Hello 🐌 method](<../../../6 🅰️ APIs/50 🤗🅰️ Host/01 🤵🐌🤗 Hello.md>) in the [Host 🤗 domain role](<../../20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>).
+    - e.g., `Hello@Host` refers to the [Hello 🐌 method](<../../../6 🅰️ APIs/50 🤗🅰️ Host/01 🤵🐌🤗 Hello.md>) in the [Host 🤗 domain role](<../../20 🧑‍🦰 UI/05 💬 Chats/04 🤗🎭 Host role.md>).
     - The possible `Subject` values are defined by the APIs implemented by [domain Roles 🎭](<../44 📜 Manifests/00 👥 Domain.md>).
     - Receivers discard envelopes with unexpected subjects.
 

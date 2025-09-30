@@ -23,7 +23,7 @@
     |[👍 Trusts](<../43 👍 Trusts/01 👍 Domain Trust.md>) | Can I trust my data of [Schema 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) `S` to a [domain 👥](<00 👥 Domain.md>) `D`?
     | [🧩 Schemas](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) | What's the schema definition of [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) `S`?
     | [🎫 Tokens](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) | What's the historical public [📨 DKIM](<../41 📨 Comms/01 📨 Domain Message.md>) key of [🎫 Token](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) `T`?
-    | [🪣 Datasets](<../../20 🧑‍🦰 UI/23 💬 Chats/07 🪣🎭 Dataset role.md>) | What are the synchronous [Datasets 🪣](<../../20 🧑‍🦰 UI/23 💬 Chats/07 🪣🎭 Dataset role.md>) of [domain 👥](<00 👥 Domain.md>) `D`?
+    | [🪣 Datasets](<../../20 🧑‍🦰 UI/05 💬 Chats/07 🪣🎭 Dataset role.md>) | What are the synchronous [Datasets 🪣](<../../20 🧑‍🦰 UI/05 💬 Chats/07 🪣🎭 Dataset role.md>) of [domain 👥](<00 👥 Domain.md>) `D`?
     | [🏭 Supplies](<../../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>) | What are the asynchronous [Supplies 🏭](<../../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>) of [domain 👥](<00 👥 Domain.md>) `D`?
     | [🌬️ Streams](<../../40 👥 Domains/41 📨 Comms/02 🌬️🎭 Streamer role.md>) | What are the event [Streams 🌬️](<../../40 👥 Domains/41 📨 Comms/02 🌬️🎭 Streamer role.md>) of [domain 👥](<00 👥 Domain.md>) `D`?
     

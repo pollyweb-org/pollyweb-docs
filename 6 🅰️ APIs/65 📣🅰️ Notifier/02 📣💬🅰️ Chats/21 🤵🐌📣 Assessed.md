@@ -34,7 +34,7 @@ Body:
 ||`Subject`|string|`Assessed@Notifier`
 |Body  |`WalletID` |uuid  | [Wallet 🧑‍🦰](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) ID from [Onboard@](<../01 📣🤵🅰️ Onboard/11 🧑‍🦰🚀📣 Onboard.md>)
 |      |`ChatID`   |uuid  | Chat ID on the Broker domain
-|      |`Host`     |string| [Host 🤗 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) name
+|      |`Host`     |string| [Host 🤗 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/05 💬 Chats/04 🤗🎭 Host role.md>) name
 |      |`Name`     |string| Friendly translated name
 |      |`SmallIcon`|URL   | Location of the small icon
 |      |`BigIcon`  |URL   | Location of the big icon

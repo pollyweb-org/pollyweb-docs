@@ -15,7 +15,7 @@
 
     NLWeb advocates for developers to use the redirect script at `https://nlweb.org/go/` so that users without an installed [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) can fallback to a page with instructions on how to install one. 
     
-    * If a user with an NLWeb [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) installed navigates to a redirect link (e.g., `https://nlweb.org/go/ABC`), the browser redirects to a `nlweb` URL, signaling the OS to open the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) - the [Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) then opens with a [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>) to the link's host. 
+    * If a user with an NLWeb [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) installed navigates to a redirect link (e.g., `https://nlweb.org/go/ABC`), the browser redirects to a `nlweb` URL, signaling the OS to open the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) - the [Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) then opens with a [Chat 💬](<../05 💬 Chats/01 💬 Chat.md>) to the link's host. 
 
     ---
 
@@ -35,7 +35,7 @@
 
 1. **What happens to NFC/QR Locators if `nlweb.org` goes down?**
 
-    * Users using their [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) as the default NFC/QR reader won't notice any difference, because the [Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) will parse the destination [Host 🤗](<../23 💬 Chats/04 🤗🎭 Host role.md>) from the URL.
+    * Users using their [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) as the default NFC/QR reader won't notice any difference, because the [Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) will parse the destination [Host 🤗](<../05 💬 Chats/04 🤗🎭 Host role.md>) from the URL.
 
     * Conversely, users without a Wallet will see an HTTP 404 error on their web browsers when interacting with an NLWeb NFC/QR, because the OS will navigate to the fallback URL which points to `nlweb.org`.
 

@@ -30,14 +30,14 @@
 
 1. **What does a Chat look like?**
 
-    Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) as an example.
+    Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/05 💬 Chats/01 💬 Chat.md>) as an example.
 
     | Service | Prompt | User
     | - | - | - |
-    | 🤗 [Host](<../../20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) | 😃 A beer? [Yes, No]         | > Yes
+    | 🤗 [Host](<../../20 🧑‍🦰 UI/05 💬 Chats/04 🤗🎭 Host role.md>) | 😃 A beer? [Yes, No]         | > Yes
     | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Share over 21? [Yes, No]     | > Yes
     | 🆔 [Identity](<01 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.  | [📸 selfie](<21 🆔😶 Face scan.md>)
-    | 🤗 [Host](<../../20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) | ✅ A beer coming up!
+    | 🤗 [Host](<../../20 🧑‍🦰 UI/05 💬 Chats/04 🤗🎭 Host role.md>) | ✅ A beer coming up!
 
     ---
     <br/>
@@ -88,7 +88,7 @@
 
     |#|Category|Step
     |-|-|-
-    | A| `Hello`| The user initiates a [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) with an [Issuer 🎴 domain](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>): <br/>• the user asks the [Issuer 🎴 domain](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) to issue a [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) (e.g., flight ticket).
+    | A| `Hello`| The user initiates a [Chat 💬](<../../20 🧑‍🦰 UI/05 💬 Chats/01 💬 Chat.md>) with an [Issuer 🎴 domain](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>): <br/>• the user asks the [Issuer 🎴 domain](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) to issue a [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) (e.g., flight ticket).
     | B| `Locator` | The [Issuer 🎴 domain](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) asks the user's [Identity 🆔 domain](<01 🆔🫥 Identity agent.md>) to generate a unique [Identity Locator 🔆](<../../20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>) with a given expiration date:<br/>• unique [Locators 🔆](<../../20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>) prevent attackers from relating any two [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) from the same user; <br/>• expiration dates allow [Identity 🆔 domains](<01 🆔🫥 Identity agent.md>) to charge the [Issuer 🎴 domain](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) for the commitment length.
     |C| `Token` | The [Issuer 🎴 domain](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) offers the [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) for the user to download: <br/> • the user downloads the [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) and stores it offline in the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
     |
