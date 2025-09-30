@@ -14,7 +14,7 @@
 
     [Talkers 😃](<03 😃 Talker.md>) dramatically reduce the time to build a [Host 🤗 domain](<04 🤗🎭 Host role.md>) by simplifying the workflow orchestration of a [💬 Chat](<01 💬 Chat.md>).
 
-    * They allow [Hoster 🧑‍💻 helper domains](<05 🧑‍💻🛠️ Hoster helper.md>) to manage the workflow state on behalf of [Host 🤗 domains](<04 🤗🎭 Host role.md>), removing the undifferentiated heavy-lifting of handling [Prompts 🤔](<02 🤔 Prompt.md>) communications, and invoking [Host 🤗 domains](<04 🤗🎭 Host role.md>) only when it's necessary to execute business-specific logic.
+    * They allow [Hoster 🧑‍💻 helper domains](<05 🧑‍💻🛠️ Hoster helper.md>) to manage the workflow state on behalf of [Host 🤗 domains](<04 🤗🎭 Host role.md>), removing the undifferentiated heavy-lifting of handling [Prompts 🤔](<../13 🤔 Prompts/02 🤔 Prompt.md>) communications, and invoking [Host 🤗 domains](<04 🤗🎭 Host role.md>) only when it's necessary to execute business-specific logic.
     ---
     <br/>
 
@@ -62,11 +62,11 @@
     * `IF|{func}|<trueProc>|<falseProc>`	
         * Runs procedures based on a function
     * `MENU|<message>`	
-        * Calls 👍 CONFIRM [Prompt 🤔](<02 🤔 Prompt.md>)
+        * Calls 👍 CONFIRM [Prompt 🤔](<../13 🤔 Prompts/02 🤔 Prompt.md>)
         * If confirmed, repeats the top menu
         <!-- TODO: this should probably be automatic -->
     * `REPEAT|<message>`
-        * Calls 👍 CONFIRM [Prompt 🤔](<02 🤔 Prompt.md>)
+        * Calls 👍 CONFIRM [Prompt 🤔](<../13 🤔 Prompts/02 🤔 Prompt.md>)
         * If confirmed, repeats the current anchor
         * Without a message, just repeats.  
     * `RUN|<procedure>`	
@@ -78,59 +78,59 @@
 5. **Prompt commands**
 
    * `CONFIRM|<message>|<falseProc>`	
-       * Calls the [CONFIRM 👍 Prompt](<02 🤔 Prompt.md>)
+       * Calls the [CONFIRM 👍 Prompt](<../13 🤔 Prompts/02 🤔 Prompt.md>)
        * If not confirmed, execs `falseProc`.
        * If `falseProc` not given stops the current proc.
        * When stopping the current proc, pops stack.
    * `DOWNLOAD|<message>|<fileID>|<options>`	
-       * Calls the [⬇️ DOWNLOAD Prompt](<02 🤔 Prompt.md>)
+       * Calls the [⬇️ DOWNLOAD Prompt](<../13 🤔 Prompts/02 🤔 Prompt.md>)
        * Options are optional, comma separated
        * Example: `Erase, Duplicate`
    * `EAN|<message> >> <key>`	
-       * Calls the [🛒 EAN Prompt](<02 🤔 Prompt.md>)
+       * Calls the [🛒 EAN Prompt](<../13 🤔 Prompts/02 🤔 Prompt.md>)
    * `INFO|<message>|<options> >> `	
-       * Calls the [ℹ️ INFO Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the [ℹ️ INFO Prompt 🤔](<../13 🤔 Prompts/02 🤔 Prompt.md>)
        * A second call overrides the previous
        * Options are optional, comma separated (e.g., `Erase, Duplicate`)
        * Example: `INFO|{item}|Details,Remove >> option`
    * `TEMP|<message>|<options>`
-       * Calls the [⏳ TEMP Prompt 🤔](<02 🤔 Prompt.md>)
-       * Disappears any new [Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the [⏳ TEMP Prompt 🤔](<../13 🤔 Prompts/02 🤔 Prompt.md>)
+       * Disappears any new [Prompt 🤔](<../13 🤔 Prompts/02 🤔 Prompt.md>)
    * `SUCCESS|<message>|<options>`
-       * Calls the [✅ SUCCESS Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the [✅ SUCCESS Prompt 🤔](<../13 🤔 Prompts/02 🤔 Prompt.md>)
    * `FAILURE|<message>|<options>`
-       * Calls the [❌ FAILURE Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the [❌ FAILURE Prompt 🤔](<../13 🤔 Prompts/02 🤔 Prompt.md>)
    * `INT|<message> >> <key>`	
-       * Calls the [💯 INT Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the [💯 INT Prompt 🤔](<../13 🤔 Prompts/02 🤔 Prompt.md>)
        * Stores the answer with key `<key>`
        * Example: `INT|What's the pin? >> pin`
    * `LOCATION >> <key>`	
-       * Calls the [📍 LOCATION Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the [📍 LOCATION Prompt 🤔](<../13 🤔 Prompts/02 🤔 Prompt.md>)
        * Stores the answer with key `<key>`
        * Example: `LOCATION >> location`
    * `MANY|<message>|<options> >> <key>`	
-       * Calls the [🔢 MANY Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the [🔢 MANY Prompt 🤔](<../13 🤔 Prompts/02 🤔 Prompt.md>)
        * Options are comma separated (e.g., `Milk, Sugar, Rice`)
        * Example: `MANY|What items?|Milk,Sugar,Rice >> items`
    * `ONE|<message>|<options> >> <key>`	
-       * Calls the [1️⃣ ONE Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the [1️⃣ ONE Prompt 🤔](<../13 🤔 Prompts/02 🤔 Prompt.md>)
        * Options are comma separated (e.g., `1:Milk, 2:Sugar, R:Rice`)
        * Example: `ONE|What item?|Milk,Sugar,Rice >> item`
    * `QUANTITY|<message> >> <key>`	
-       * Calls the [↕️ QUANTITY Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the [↕️ QUANTITY Prompt 🤔](<../13 🤔 Prompts/02 🤔 Prompt.md>)
        * Example: `QUANTITY|How many? >> qt`
    * `SCAN|<message>`	
-       * Calls the [🔆 SCAN Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the [🔆 SCAN Prompt 🤔](<../13 🤔 Prompts/02 🤔 Prompt.md>)
    * `SELFIE|<message>`	
-       * Calls the [👤 SELFIE Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the [👤 SELFIE Prompt 🤔](<../13 🤔 Prompts/02 🤔 Prompt.md>)
    * `TOUCH|<message>|<locator>`	
-       * Calls the [🦋 TOUCH Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the [🦋 TOUCH Prompt 🤔](<../13 🤔 Prompts/02 🤔 Prompt.md>)
    * `TRACK|<message>`	
-       * Calls the [🗺️ TRACK Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the [🗺️ TRACK Prompt 🤔](<../13 🤔 Prompts/02 🤔 Prompt.md>)
    * `UNTIL|<message>`	
-       * Calls the [🗓️ UNTIL Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the [🗓️ UNTIL Prompt 🤔](<../13 🤔 Prompts/02 🤔 Prompt.md>)
    * `UPLOAD|<message>`	
-       * Calls the the [⬆️ UPLOAD Prompt 🤔](<02 🤔 Prompt.md>)
+       * Calls the the [⬆️ UPLOAD Prompt 🤔](<../13 🤔 Prompts/02 🤔 Prompt.md>)
 
     ---
     <br/>

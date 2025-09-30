@@ -3,7 +3,7 @@
 # 🧑‍🦰🚀🤗 Download @ Host
 
 
-> Downloads the content of a [Prompt 🤔](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/02 🤔 Prompt.md>) attachment.
+> Downloads the content of a [Prompt 🤔](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/13 🤔 Prompts/02 🤔 Prompt.md>) attachment.
 
 
 > Part of the [🤗⏩🧑‍🦰 Prompt @ Host](<../../5 ⏩ Flows/50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt.md>) flow.
