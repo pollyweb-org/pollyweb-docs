@@ -9,15 +9,15 @@
 
 1. **How to verify a Wallet ownership?**
 
-    Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/05 💬 Chats/01 💬 Chat.md>) excerpt
+    Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) excerpt
     * as an example of [face verification 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/01 📺 Difference.md>) 
     * for the ownership of a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
         
     | Service | Prompt | User
     | - | - | - |
-    | 🤗 [Host](<../../20 🧑‍🦰 UI/05 💬 Chats/04 🤗🎭 Host role.md>) | 😐 Start risky task [Yes, No] | > Yes
+    | 🤗 [Host](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😐 Start risky task [Yes, No] | > Yes
     | 🆔 [Identity](<01 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<21 🆔😶 Face scan.md>)
-    | 🤗 [Host](<../../20 🧑‍🦰 UI/05 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Verified, task started!
+    | 🤗 [Host](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Verified, task started!
 
     ---
     <br/>
@@ -41,7 +41,7 @@
 
     ![](<00 📎 Assets/🆔 Online.png>)
 
-    When a user is requested by a [Host 🤗 domain](<../../20 🧑‍🦰 UI/05 💬 Chats/04 🤗🎭 Host role.md>) to verify their identity against a given [Locator 🔆](<../../20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>), the following steps are executed.
+    When a user is requested by a [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) to verify their identity against a given [Locator 🔆](<../../20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>), the following steps are executed.
 
     | # | Step
     |-|-
@@ -58,7 +58,7 @@
     NLWeb advocates for online face authentication between [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and [Identity 🆔 vaults](<01 🆔🫥 Identity agent.md>), without sharing user biometrics with [Seller 💵 domains](<../04 💳 Payers/01 💵🎭 Seller role.md>);
     - e.g., when a [Seller 💵 domain](<../04 💳 Payers/01 💵🎭 Seller role.md>) needs to match a person with a [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>), 
     - it contacts the [Token's  Identity 🆔 domain](<01 🆔🫥 Identity agent.md>) to perform the authentication 
-    - via the user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) in a [Chat 💬](<../../20 🧑‍🦰 UI/05 💬 Chats/01 💬 Chat.md>), 
+    - via the user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>), 
     - and only return a success/failure to the [Seller 💵 domain](<../04 💳 Payers/01 💵🎭 Seller role.md>) . 
     
     When offline authentications are required, 

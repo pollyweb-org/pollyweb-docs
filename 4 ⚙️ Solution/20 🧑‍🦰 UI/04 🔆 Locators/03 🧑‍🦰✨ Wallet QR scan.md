@@ -16,14 +16,14 @@
 
     An NLWeb QR contains a redirect URL starting with `https://nlweb.org/go/`. 
     
-    * When a user scans the QR with an NLWeb Wallet app, the Wallet reads the [Locator 🔆](<01 🔆 Locator.md>) from the URL and opens a chat with the Locator's [Host 🤗](<../05 💬 Chats/04 🤗🎭 Host role.md>).
+    * When a user scans the QR with an NLWeb Wallet app, the Wallet reads the [Locator 🔆](<01 🔆 Locator.md>) from the URL and opens a chat with the Locator's [Host 🤗](<../12 💬 Chats/04 🤗🎭 Host role.md>).
 
 
     ---
 
 1. **What if users use the default QR reader instead?**
 
-    If a user with an NLWeb [Wallet app 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) installed decides to use the mobile device's default QR scanner instead (e.g., Google Lens in Android) then a web browser opens the NLWeb HTTPS proxy (e.g., `https://nlweb.org/go/ABC`), which in turn redirect to a `nlweb` URL, signaling the OS to open the Wallet - the Wallet then opens with a chat to the QR's [Host 🤗](<../05 💬 Chats/04 🤗🎭 Host role.md>). 
+    If a user with an NLWeb [Wallet app 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) installed decides to use the mobile device's default QR scanner instead (e.g., Google Lens in Android) then a web browser opens the NLWeb HTTPS proxy (e.g., `https://nlweb.org/go/ABC`), which in turn redirect to a `nlweb` URL, signaling the OS to open the Wallet - the Wallet then opens with a chat to the QR's [Host 🤗](<../12 💬 Chats/04 🤗🎭 Host role.md>). 
     - Wallets should identify this redirect and educate users to prefer using the Wallet to perform the QR scan.
 
 
@@ -83,7 +83,7 @@
 
     Note that NLWeb does not enforce the usage of pins and biometric validation for entitlement confirmation;
     - i.e., the choice to use pins and/or biometrics falls into the custom defined workflow of each business;
-    - NLWeb does provide [Chat 💬 prompts](<../05 💬 Chats/01 💬 Chat.md>) to render OTPs and face scans;
+    - NLWeb does provide [Chat 💬 prompts](<../12 💬 Chats/01 💬 Chat.md>) to render OTPs and face scans;
     
     Consider the following workflow examples with pin usage:
     <!-- TODO: add examples -->

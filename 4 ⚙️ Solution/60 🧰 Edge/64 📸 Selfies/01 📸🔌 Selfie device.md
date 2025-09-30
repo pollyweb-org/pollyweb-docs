@@ -11,7 +11,7 @@
 
 1. **Why are Selfie devices important for NLWeb?**
 
-    Selfie 📸 devices allow [Host 🤗 domains](<../../20 🧑‍🦰 UI/05 💬 Chats/04 🤗🎭 Host role.md>) to request the user's [Identity 🆔 agent](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) to perform a [Face scan 🆔😶](<../../30 🫥 Agents/05 🆔 Identities/21 🆔😶 Face scan.md>) on the user in a physical place whenever the user doesn't have a smartphone with them, or doesn't have internet.
+    Selfie 📸 devices allow [Host 🤗 domains](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) to request the user's [Identity 🆔 agent](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) to perform a [Face scan 🆔😶](<../../30 🫥 Agents/05 🆔 Identities/21 🆔😶 Face scan.md>) on the user in a physical place whenever the user doesn't have a smartphone with them, or doesn't have internet.
 
     Use cases include:
     - boarding a plane, like in United Airlines;

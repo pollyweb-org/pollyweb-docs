@@ -24,9 +24,9 @@
 
 2. **How do Finders help to protect users?**
 
-    [Broker 🤵 domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) leverage Finders to provide users with culturally-contextualized details and user feedback about [Host 🤗 domains](<../../20 🧑‍🦰 UI/05 💬 Chats/04 🤗🎭 Host role.md>) when a [Chat 💬](<../../20 🧑‍🦰 UI/05 💬 Chats/01 💬 Chat.md>) starts. 
+    [Broker 🤵 domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) leverage Finders to provide users with culturally-contextualized details and user feedback about [Host 🤗 domains](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) when a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) starts. 
 
-    * Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/05 💬 Chats/01 💬 Chat.md>) excerpt from the [Buy water 🤝 use case](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/11 💧 Buy water.md>) as an example of a with an interaction with a  [Host 🤗 domain](<../../20 🧑‍🦰 UI/05 💬 Chats/04 🤗🎭 Host role.md>), right after the user has tapped a [Locator 🔆](<../../20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>).
+    * Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) excerpt from the [Buy water 🤝 use case](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/11 💧 Buy water.md>) as an example of a with an interaction with a  [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>), right after the user has tapped a [Locator 🔆](<../../20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>).
 
     | Service    | Prompt | User
     | - | - | - |
@@ -42,9 +42,9 @@
 
     To search domains on a Finder, users use natural language, similar to ChatGPT.
     * Example: `find me a restaurant for tonight`.
-    * Finders then show potential [Host 🤗 domains](<../../20 🧑‍🦰 UI/05 💬 Chats/04 🤗🎭 Host role.md>) for the user to initiate a [Chat 💬](<../../20 🧑‍🦰 UI/05 💬 Chats/01 💬 Chat.md>) with.
-    * After the user selection, Finders also show potential next steps for [navigation 🧭](<../07 🧭 Navigators/01 🧭🫥 Navigator agent.md>), available [services 🪢](<../../20 🧑‍🦰 UI/05 💬 Chats/06 🪢🎭 Integrator role.md>), and [advertising 👀](<03 👀👥 Advertiser helper.md>).
-    * Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/05 💬 Chats/01 💬 Chat.md>) excerpt of the [Find a bar 🤝 use case](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/30 🍸 Bars/11 🌐 Web: Find a bar.md>) as an example.
+    * Finders then show potential [Host 🤗 domains](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) for the user to initiate a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) with.
+    * After the user selection, Finders also show potential next steps for [navigation 🧭](<../07 🧭 Navigators/01 🧭🫥 Navigator agent.md>), available [services 🪢](<../../20 🧑‍🦰 UI/12 💬 Chats/06 🪢🎭 Integrator role.md>), and [advertising 👀](<03 👀👥 Advertiser helper.md>).
+    * Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) excerpt of the [Find a bar 🤝 use case](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/30 🍸 Bars/11 🌐 Web: Find a bar.md>) as an example.
 
 
     | Service | Prompt | User
@@ -60,7 +60,7 @@
 
     |[Streamer&nbsp;🎭](<../../40 👥 Domains/41 📨 Comms/02 🌬️🎭 Streamer role.md>)|Purpose
     |-|-
-    | [🕸&nbsp;Graphs](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>) | Finders subscribe to [Graphs 🕸 domains](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>) to receive updates on [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) across the NLWeb, including their public identity, [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) relationships, and supported [integrations 🪢](<../../20 🧑‍🦰 UI/05 💬 Chats/06 🪢🎭 Integrator role.md>). 
+    | [🕸&nbsp;Graphs](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>) | Finders subscribe to [Graphs 🕸 domains](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>) to receive updates on [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) across the NLWeb, including their public identity, [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) relationships, and supported [integrations 🪢](<../../20 🧑‍🦰 UI/12 💬 Chats/06 🪢🎭 Integrator role.md>). 
     | [🔥&nbsp;Firewalls](<../../40 👥 Domains/43 👍 Trusts/03 🔥🛠️ Firewall helper.md>) | Finders subscribe to [Firewall 🔥 domains](<../../40 👥 Domains/43 👍 Trusts/03 🔥🛠️ Firewall helper.md>) to quickly react to threats. 
     | [⭐&nbsp;Reviewers](<01 ⭐🫥 Reviewer vault.md>) | Finders subscribe to [Reviewer ⭐ domains](<01 ⭐🫥 Reviewer vault.md>) to receive updates of domain ranks across the NLWeb, as a result of user feedback. 
     | [👀&nbsp;Advertisers](<03 👀👥 Advertiser helper.md>) | Finders subscribe to [Advertiser 👀 domains](<03 👀👥 Advertiser helper.md>) to know which ads to show to users in addition to search results from [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>). 

@@ -39,7 +39,7 @@
 
 6. **How can users add a vault to the editor?**
 
-    When clicking the "Add Vault" button in the desktop app, the Folder 🗂️ editor initiates a [Chat 💬](<../05 💬 Chats/01 💬 Chat.md>) with the user's [Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) - the interaction described in [Bind to folder 🗂️💬](<02 🗂️💬 Bind to folder.md>).
+    When clicking the "Add Vault" button in the desktop app, the Folder 🗂️ editor initiates a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) with the user's [Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) - the interaction described in [Bind to folder 🗂️💬](<02 🗂️💬 Bind to folder.md>).
 
     ![alt text](<.📎 Assets/Folder-Flow.png>)
 
@@ -84,7 +84,7 @@
     Yes. Options are:
     - Another dataset on the same [Vault 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>).
     - A dataset on another connected [Vault 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>).
-    - A public paid [🪣 Dataset](<../05 💬 Chats/07 🪣🎭 Dataset role.md>) (vaults pay, not editors).
+    - A public paid [🪣 Dataset](<../12 💬 Chats/07 🪣🎭 Dataset role.md>) (vaults pay, not editors).
 
     ---
 

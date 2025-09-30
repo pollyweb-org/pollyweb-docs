@@ -10,7 +10,7 @@
 
 ## 💬 Chat
 
-Consider the following [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/05 💬 Chats/01 💬 Chat.md>) as an example.
+Consider the following [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) as an example.
 
 | Service | Prompt | User
 | - | - | - |
@@ -24,7 +24,7 @@ Consider the following [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/05
 
 ## Talker 😃
 
-The associated [Talker 😃](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/05 💬 Chats/03 😃 Talker.md>) would be the following.
+The associated [Talker 😃](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/03 😃 Talker.md>) would be the following.
 
 ```yaml
 - INFO|I'll invite Host B.
@@ -46,10 +46,10 @@ The associated [Talker 😃](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/05 💬 
 
 |#| Step | Purpose
 |-|-|-
-|1|[💼🐌🤵 Invite @ Broker](<../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/64 💼🐌🤵 Invite.md>)|Invite another host to the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/05 💬 Chats/01 💬 Chat.md>)
+|1|[💼🐌🤵 Invite @ Broker](<../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/64 💼🐌🤵 Invite.md>)|Invite another host to the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
 |2|[🤗⏩🧑‍🦰 Prompt 🤔](<../50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt.md>) | Brokers may ask for user permission
 |3| [🤵🐌🤗 Invited @ Host](<../../6 🅰️ APIs/50 🤗🅰️ Host/11 🤵🐌🤗 Invited.md>) | Proxy the invite to the Invitee 
-|4|[🤗⏩🧑‍🦰 Prompt 🤔](<../50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt.md>) | The invitee continues the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/05 💬 Chats/01 💬 Chat.md>)
+|4|[🤗⏩🧑‍🦰 Prompt 🤔](<../50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt.md>) | The invitee continues the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
 |
 
 <br/>

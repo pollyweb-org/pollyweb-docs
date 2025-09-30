@@ -16,7 +16,7 @@
 
     | # | Step 
     |-|-
-    |1| A user engages in a [Chat 💬](<../05 💬 Chats/01 💬 Chat.md>) with a [Host 🤗 domain](<../05 💬 Chats/04 🤗🎭 Host role.md>) with an [Issuer 🎴 role](<02 🎴🎭 Issuer role.md>).
+    |1| A user engages in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) with a [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) with an [Issuer 🎴 role](<02 🎴🎭 Issuer role.md>).
     |2| The [Issuer 🎴 domain](<02 🎴🎭 Issuer role.md>) issues a [Token 🎫](<01 🎫 Token.md>) for the user, and the user's [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) asks the user to confirm if they want to save the [Token 🎫](<01 🎫 Token.md>) offline in the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
 
     ---
@@ -25,7 +25,7 @@
 
 1. **What does the Chat look like?**
 
-    Consider the following [Chat 💬](<../05 💬 Chats/01 💬 Chat.md>) excerpt from the [Buy Theater Tickets 🤝 use case](<../../../3 🤝 Use Cases/10 🍿 Entertainment/Go to Theaters 🎭/10 Guest @ Anywhere/12 Buy tickets.md>).
+    Consider the following [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) excerpt from the [Buy Theater Tickets 🤝 use case](<../../../3 🤝 Use Cases/10 🍿 Entertainment/Go to Theaters 🎭/10 Guest @ Anywhere/12 Buy tickets.md>).
     
     
     | Service | Prompt | User
@@ -61,7 +61,7 @@
   
     * [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) will handle the revocation propagation up to the user's [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
 
-    * [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) only share active [Tokens 🎫](<01 🎫 Token.md>) when [Consumer 💼 domains](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>) ask for them in a [Chat 💬](<../05 💬 Chats/01 💬 Chat.md>).
+    * [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) only share active [Tokens 🎫](<01 🎫 Token.md>) when [Consumer 💼 domains](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>) ask for them in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>).
 
     ---
     <br/>    
@@ -98,7 +98,7 @@
     
     * Instead, in NLWeb, [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) protect the privacy of users by answering the online [Token 🎫](<01 🎫 Token.md>) status queries by [Consumer 💼 domains](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>), based on the [Token 🎫](<01 🎫 Token.md>) status update events sent asynchronously by [Issuer 🎴 domains](<02 🎴🎭 Issuer role.md>).
     
-    * Furthermore, because [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) simplify the process by only sharing active [Tokens 🎫](<01 🎫 Token.md>) when [Consumer 💼 domains](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>) send sharing requests in a [Chat 💬](<../05 💬 Chats/01 💬 Chat.md>), this allows [Consumer 💼 domains](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>) to only need to verify the status of [Tokens 🎫](<01 🎫 Token.md>) presented in an offline fashion (e.g., a printed QR on a paper).
+    * Furthermore, because [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) simplify the process by only sharing active [Tokens 🎫](<01 🎫 Token.md>) when [Consumer 💼 domains](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>) send sharing requests in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>), this allows [Consumer 💼 domains](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>) to only need to verify the status of [Tokens 🎫](<01 🎫 Token.md>) presented in an offline fashion (e.g., a printed QR on a paper).
 
     On availability: 
 
