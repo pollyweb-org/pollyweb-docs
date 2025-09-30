@@ -4,6 +4,10 @@
 
 > Starts a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) with a [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>).
 
+> Used by:
+> <br/>• [🧑‍🦰👉🤗 Scan host QR @ Wallet](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>)
+> <br/>• [🧑‍🦰👉🤗 Scan printer QR @ Wallet](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/02 🧑‍🦰👉🤗 Scan printer QR.md>)
+
 <br/> 
 
 ## Async Message 🐌
