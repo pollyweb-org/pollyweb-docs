@@ -33,7 +33,7 @@
     |#|Category|Step|
     |-|-|-
     |1| `Tap` | A guest user uses their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to [tap 🔆](<../../20 🧑‍🦰 UI/04 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) the [rotating NFC tag 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/11 📺 NFC authentication.md>) of the owner's [Userable 💍 thing](<01 💍 Userable thing.md>). 
-    |2| `Read`| The guest's [Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) opens a [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) with the [Userable's Wand 🪄 domain](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>), allowing the guest user to read the landing notes that the owner user left.
+    |2| `Read`| The guest's [Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) opens a [Chat 💬](<../../20 🧑‍🦰 UI/05 💬 Chats/01 💬 Chat.md>) with the [Userable's Wand 🪄 domain](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>), allowing the guest user to read the landing notes that the owner user left.
     |3| `Admin` | The guest user asks the [Userable's Wand 🪄 domain](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>) to access the owner's admin area, who then directs the request to the [owner's Custodian 🧳 agent](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>).
     |4| `Face` | The [owner's Custodian 🧳 agent](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) asks the [owner's Identity 🆔 agent](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) to authenticate the owner with a [face scan 😶](<../../30 🫥 Agents/05 🆔 Identities/21 🆔😶 Face scan.md>) using the guest's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
     |5| `Ring` |  The [owner's Custodian 🧳 agent](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) then informs the owner about the location of owner's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), and allows them to remotely ring the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>). 
@@ -45,7 +45,7 @@
 
 1. **What does the Chat look like?**
 
-    Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) as an example.
+    Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/05 💬 Chats/01 💬 Chat.md>) as an example.
         
     
     | Service | Prompt | User

@@ -43,5 +43,5 @@ Locator: nlweb.org/HOST:1.0,any-host.com,ANY-LOCATOR
 | `Status`  | string | `ACTIVE` `SUSPENDED` `REVOKED` `EXPIRED`
 | `Starting`| string | Optional date of start of status
 | `Ending`  | string | Optional date of ending of status
-| `Locator`| string | Optional [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>) for a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) about it
+| `Locator`| string | Optional [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>) for a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/05 💬 Chats/01 💬 Chat.md>) about it
 |

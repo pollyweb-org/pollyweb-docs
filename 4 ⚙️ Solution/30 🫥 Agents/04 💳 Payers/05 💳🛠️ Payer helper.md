@@ -14,7 +14,7 @@
     | Wallet apps | 
     | [👀 Advertisement](<../10 🔎 Finders/03 👀👥 Advertiser helper.md>) | [Domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) are charged by [Advertiser 👀 helpers](<../10 🔎 Finders/03 👀👥 Advertiser helper.md>) for ad promotion.
     | [🏭 Supply](<../06 🛎️ Concierges/02 🏭🎭 Supplier role.md>) | [Domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) are charged by [Supplier 🏭 domains](<../06 🛎️ Concierges/02 🏭🎭 Supplier role.md>) for orders fulfilled. 
-    | [💬 Chats](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) | [Notifier 📣](<../../20 🧑‍🦰 UI/02 📣 Notifiers/02 📣 Notifier domain.md>) are charged by [Broker domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) for [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) orchestrations.
+    | [💬 Chats](<../../20 🧑‍🦰 UI/05 💬 Chats/01 💬 Chat.md>) | [Notifier 📣](<../../20 🧑‍🦰 UI/02 📣 Notifiers/02 📣 Notifier domain.md>) are charged by [Broker domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) for [Chat 💬](<../../20 🧑‍🦰 UI/05 💬 Chats/01 💬 Chat.md>) orchestrations.
     
 
     ---

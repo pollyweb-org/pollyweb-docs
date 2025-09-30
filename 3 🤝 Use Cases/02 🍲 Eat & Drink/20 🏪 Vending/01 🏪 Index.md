@@ -10,7 +10,7 @@
 
 ## 💬 Chats
 
-|Persona|[Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) | [Agents 🫥](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>)
+|Persona|[Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/05 💬 Chats/01 💬 Chat.md>) | [Agents 🫥](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>)
 |-|-|-
 | `🧑‍🦰 Customer`|[Buy water 💧](<11 💧 Buy water.md>)  | [`💳 Payer`](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>)
 | `🧑‍🦰 Customer` | [Buy beer 🍺 21+ ](<12 🍺 Buy beer.md>)| [`🆔 Identity`](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>)  [`💳 Payer`](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) 
@@ -27,7 +27,7 @@ TODO: other scenarios
 
 ## 💼 Business Setup
 
-1. **What does the [😃 Domain Talker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 😃 Talker.md>) look like?**
+1. **What does the [😃 Domain Talker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/05 💬 Chats/03 😃 Talker.md>) look like?**
 
     ```yaml
     💬|[Buy] an item:
@@ -88,7 +88,7 @@ TODO: other scenarios
 
     | [Role 🎭](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | Purpose
     |-|-
-    | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) | To manage the [Chats 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>).
+    | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/05 💬 Chats/04 🤗🎭 Host role.md>) | To manage the [Chats 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/05 💬 Chats/01 💬 Chat.md>).
     | [💵 Seller](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) | To charge for the products.
     | [💼 Consumer](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) | To verify minimum age.
     |
@@ -117,5 +117,5 @@ TODO: other scenarios
     <br/>
 
 <!--
-  1. **What does the [Hoster 🧑‍💻 helper](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/05 🧑‍💻🛠️ Hoster helper.md>)
+  1. **What does the [Hoster 🧑‍💻 helper](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/05 💬 Chats/05 🧑‍💻🛠️ Hoster helper.md>)
  -->

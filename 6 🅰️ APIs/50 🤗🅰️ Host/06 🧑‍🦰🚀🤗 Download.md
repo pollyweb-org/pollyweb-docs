@@ -3,7 +3,7 @@
 # 🧑‍🦰🚀🤗 Download @ Host
 
 
-> Downloads the content of a [Prompt 🤔](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/02 🤔 Prompt.md>) attachment.
+> Downloads the content of a [Prompt 🤔](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/05 💬 Chats/02 🤔 Prompt.md>) attachment.
 
 
 > Part of the [🤗⏩🧑‍🦰 Prompt @ Host](<../../5 ⏩ Flows/50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt.md>) flow.
@@ -28,9 +28,9 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header    | `From`        | string    | `Anonymous`
-|           | `To`          | string    | [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>)
+|           | `To`          | string    | [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/05 💬 Chats/04 🤗🎭 Host role.md>)
 |           | `Subject`     | string    | `Prompted@Host`
-| Body      | `ChatID` | uuid | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) ID
+| Body      | `ChatID` | uuid | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/05 💬 Chats/01 💬 Chat.md>) ID
 || `FileID`    | uuid      | Appendix from [Prompted @ Host](<04 🧑‍🦰🚀🤗 Prompted.md>)
 |
 

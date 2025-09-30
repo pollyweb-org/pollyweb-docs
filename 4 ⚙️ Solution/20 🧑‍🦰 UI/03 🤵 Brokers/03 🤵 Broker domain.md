@@ -7,7 +7,7 @@
     A [Broker 🤵 domain](<03 🤵 Broker domain.md>)
     * is any [Helper 🛠️ domain](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) 
     * that helps [Notifier 📣 domains](<../02 📣 Notifiers/02 📣 Notifier domain.md>) 
-    * to orchestrate [Chats 💬](<../23 💬 Chats/01 💬 Chat.md>) with [Host 🤗 domains](<../23 💬 Chats/04 🤗🎭 Host role.md>)
+    * to orchestrate [Chats 💬](<../05 💬 Chats/01 💬 Chat.md>) with [Host 🤗 domains](<../05 💬 Chats/04 🤗🎭 Host role.md>)
     * by parsing [Locators 🔆](<../04 🔆 Locators/01 🔆 Locator.md>)
     * and working as the database of the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
 
@@ -21,12 +21,12 @@
     | # | Category  | Step
     |-|-|-
     |1| `Hi`     | The user initiates an interaction with their [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) - e.g., by scanning a QR and sending the [QR Locator 🔆](<../04 🔆 Locators/01 🔆 Locator.md>) to the their [Broker 🤵 domain](<03 🤵 Broker domain.md>).
-    |2| `Hi-A`   | The [user's Broker 🤵 domain](<03 🤵 Broker domain.md>) opens a new [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>) with the [Locator's Host 🤗 domain](<../23 💬 Chats/04 🤗🎭 Host role.md>), obfuscating the user (e.g., ABC).
-    |3| `Bye-A`  | The [Host 🤗 domain](<../23 💬 Chats/04 🤗🎭 Host role.md>) runs its workflow for the anonymous user (e.g., ABC), and finishes it with a goodbye [Message 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>).
+    |2| `Hi-A`   | The [user's Broker 🤵 domain](<03 🤵 Broker domain.md>) opens a new [Chat 💬](<../05 💬 Chats/01 💬 Chat.md>) with the [Locator's Host 🤗 domain](<../05 💬 Chats/04 🤗🎭 Host role.md>), obfuscating the user (e.g., ABC).
+    |3| `Bye-A`  | The [Host 🤗 domain](<../05 💬 Chats/04 🤗🎭 Host role.md>) runs its workflow for the anonymous user (e.g., ABC), and finishes it with a goodbye [Message 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>).
     |4| `Bye`    | The [user's Broker 🤵 domain](<03 🤵 Broker domain.md>) forwards the [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) to the [user's Notifier 📣 domain](<../02 📣 Notifiers/02 📣 Notifier domain.md>), to be pushed to the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
-    |A| `Hi`     | The user initiates a second interaction with the same [Host 🤗 domain](<../23 💬 Chats/04 🤗🎭 Host role.md>).
-    |B| `Hi-X`   | The [user's Broker 🤵 domain](<03 🤵 Broker domain.md>) opens a new [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>) with the same [Host 🤗 domain](<../23 💬 Chats/04 🤗🎭 Host role.md>), obfuscating again the user (e.g., XYZ).
-    |C| `Bye-X` | The [Host 🤗 domain](<../23 💬 Chats/04 🤗🎭 Host role.md>) runs its workflow for the new anonymous user (e.g., XYZ), without realizing that it's the same user as before.
+    |A| `Hi`     | The user initiates a second interaction with the same [Host 🤗 domain](<../05 💬 Chats/04 🤗🎭 Host role.md>).
+    |B| `Hi-X`   | The [user's Broker 🤵 domain](<03 🤵 Broker domain.md>) opens a new [Chat 💬](<../05 💬 Chats/01 💬 Chat.md>) with the same [Host 🤗 domain](<../05 💬 Chats/04 🤗🎭 Host role.md>), obfuscating again the user (e.g., XYZ).
+    |C| `Bye-X` | The [Host 🤗 domain](<../05 💬 Chats/04 🤗🎭 Host role.md>) runs its workflow for the new anonymous user (e.g., XYZ), without realizing that it's the same user as before.
     |D| `Bye`   | The [user's Broker 🤵 domain](<03 🤵 Broker domain.md>) forwards the [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) again.
 
     ---
@@ -35,9 +35,9 @@
 3. **How do Brokers protect users from Hosts?**
  
     [Broker 🤵 domains](<03 🤵 Broker domain.md>) give users the right to be forgotten by defaulting to anonymous browsing; 
-    * i.e., whenever a user returns to a [Host 🤗 domain](<../23 💬 Chats/04 🤗🎭 Host role.md>), the [Broker 🤵 domain](<03 🤵 Broker domain.md>) connects them using a different untraceable ID. 
+    * i.e., whenever a user returns to a [Host 🤗 domain](<../05 💬 Chats/04 🤗🎭 Host role.md>), the [Broker 🤵 domain](<03 🤵 Broker domain.md>) connects them using a different untraceable ID. 
     
-    * For a [Host 🤗 domain](<../23 💬 Chats/04 🤗🎭 Host role.md>) to identity a user across sessions, the user needs to explicitly accept a [Bind 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>) from the [Host's Vault 🗄️ role](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) or a [Token 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) from the [Host's Issuer 🎴 role](<../25 🎫 Tokens/02 🎴🎭 Issuer role.md>).
+    * For a [Host 🤗 domain](<../05 💬 Chats/04 🤗🎭 Host role.md>) to identity a user across sessions, the user needs to explicitly accept a [Bind 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>) from the [Host's Vault 🗄️ role](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) or a [Token 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) from the [Host's Issuer 🎴 role](<../25 🎫 Tokens/02 🎴🎭 Issuer role.md>).
 
     ---
     <br/>
@@ -89,13 +89,13 @@
     |-|-|-
     |[`🧑‍🦰 Setup`](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)| [📣🚀 Onboard](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/10 🤵🅰️ Wallets 🧑‍🦰/11 📣🚀🤵 Onboard.md>) | Onboard a [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     |  | [🧑‍🦰🐌 Translate](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/10 🤵🅰️ Wallets 🧑‍🦰/12 🧑‍🦰🐌🤵 Translate.md>) | Change the language of a [Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
-    | [`💬 Chats`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>)  | [🧑‍🦰🚀 Assess](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/01 🧑‍🦰🐌🤵 Assess.md>) | Parse the [Locator 🔆](<../04 🔆 Locators/01 🔆 Locator.md>) on the [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
-    | | [🧑‍🦰🚀 Chats](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/02 🧑‍🦰🚀🤵 Chats.md>) | Fetch [Chats 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) from the [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
-    | | [🤗🐌 Prompt](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/03 🤗🐌🤵 Prompt.md>) |   [Prompt 🤔](<../23 💬 Chats/02 🤔 Prompt.md>) intent from [Host 🤗 domain](<../23 💬 Chats/04 🤗🎭 Host role.md>) 
+    | [`💬 Chats`](<../05 💬 Chats/01 💬 Chat.md>)  | [🧑‍🦰🚀 Assess](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/01 🧑‍🦰🐌🤵 Assess.md>) | Parse the [Locator 🔆](<../04 🔆 Locators/01 🔆 Locator.md>) on the [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
+    | | [🧑‍🦰🚀 Chats](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/02 🧑‍🦰🚀🤵 Chats.md>) | Fetch [Chats 💬](<../05 💬 Chats/01 💬 Chat.md>) from the [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
+    | | [🤗🐌 Prompt](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/03 🤗🐌🤵 Prompt.md>) |   [Prompt 🤔](<../05 💬 Chats/02 🤔 Prompt.md>) intent from [Host 🤗 domain](<../05 💬 Chats/04 🤗🎭 Host role.md>) 
     | |[🔎🐌 Introduced](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/04 🔎🐌🤵 Introduced.md>) | A [Finder 🔎 domain](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) finished the intro
-    | |[🤗🐌 Goodbye](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/05 🤗🐌🤵 Goodbye.md>) | A [Host 🤗 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) ended the [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>)
+    | |[🤗🐌 Goodbye](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/05 🤗🐌🤵 Goodbye.md>) | A [Host 🤗 domain](<../05 💬 Chats/04 🤗🎭 Host role.md>) ended the [Chat 💬](<../05 💬 Chats/01 💬 Chat.md>)
     | | [👀🐌 Promote](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/06 👀🐌🤵 Promote.md>) |  Check-in into the selected [Locator 🔆](<../04 🔆 Locators/01 🔆 Locator.md>)
-    | | [🧑‍🦰🐌 Help](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/07 🧑‍🦰🐌🤵 Help.md>) | Ask for the [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) to join a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) 
+    | | [🧑‍🦰🐌 Help](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/07 🧑‍🦰🐌🤵 Help.md>) | Ask for the [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) to join a [Chat 💬](<../05 💬 Chats/01 💬 Chat.md>) 
     |[`🔗 Binds`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>)| [🧑‍🦰🚀 Binds](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/41 🧑‍🦰🚀🤵 Binds.md>) | List the [Binds 🔗](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>) of a [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     || [🗄️🐌 Bindable](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/42 🗄️🐌🤵 Bindable.md>) | [Vaults 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) offer to bind [Schema Codes 🧩](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)
     | [`🎫 Tokens`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) | [🧑‍🦰🚀 Tokens](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/50 🤵🅰️ Tokens 🎫/54 🧑‍🦰🚀🤵 Tokens.md>) | List of [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) of a [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)

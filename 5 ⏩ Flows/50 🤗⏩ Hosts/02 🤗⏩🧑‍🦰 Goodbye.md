@@ -1,12 +1,12 @@
 # 🤗⏩🧑‍🦰 Goodbye @ Host
 
-> [Host 🤗 domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) inform [Broker 🤵 domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) of the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) ending, for them to trigger the [Advertisement 👀 ](<../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) flow.
+> [Host 🤗 domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/05 💬 Chats/04 🤗🎭 Host role.md>) inform [Broker 🤵 domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) of the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/05 💬 Chats/01 💬 Chat.md>) ending, for them to trigger the [Advertisement 👀 ](<../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) flow.
 
 <br/>
 
 ## 💬 Chat
 
-Consider the following [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) as an example.
+Consider the following [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/05 💬 Chats/01 💬 Chat.md>) as an example.
 
 | Service | Prompt | User
 | - | - | - |
@@ -20,7 +20,7 @@ Consider the following [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23
 ## 😃 Talker 
 
 
-The associated [Talker 😃](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 😃 Talker.md>) would be the following.
+The associated [Talker 😃](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/05 💬 Chats/03 😃 Talker.md>) would be the following.
 
 ```yaml
 - SUCCESS|Booking confirmed! 
@@ -38,7 +38,7 @@ The associated [Talker 😃](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 
 
 | # | Call | Notes
 |-|-|-
-| 1 | [🤗🐌🤵 Goodbye @ Broker](<../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/05 🤗🐌🤵 Goodbye.md>) | [Hosts 🤗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) inform [Brokers 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) of the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) ending
+| 1 | [🤗🐌🤵 Goodbye @ Broker](<../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/05 🤗🐌🤵 Goodbye.md>) | [Hosts 🤗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/05 💬 Chats/04 🤗🎭 Host role.md>) inform [Brokers 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) of the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/05 💬 Chats/01 💬 Chat.md>) ending
 | 2 | [👀⏩🧑‍🦰 Advertise](<../05 👀⏩ Advertisers/01 👀⏩🧑‍🦰 Advertise.md>) | [Brokers 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) ask their [Advertisers 👀](<../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) to advertise
 | 3 | [⭐⏩🧑‍🦰 Review @ Reviewer](<../70 ⭐⏩ Reviewers/01 ⭐⏩🧑‍🦰 Review.md>) | [Brokers 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) ask [Reviewers ⭐](<../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) to review
 ||

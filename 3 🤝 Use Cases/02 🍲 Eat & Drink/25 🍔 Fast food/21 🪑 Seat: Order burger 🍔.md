@@ -29,7 +29,7 @@
 
 ## 💼 Business Setup
 
-1. **What does the [😃 Domain Talker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 😃 Talker.md>) look like?**
+1. **What does the [😃 Domain Talker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/05 💬 Chats/03 😃 Talker.md>) look like?**
 
     ```yaml
     💬 Order:
