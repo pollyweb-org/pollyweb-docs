@@ -5,7 +5,8 @@
 > Used in the [💼⏩🧑‍🦰 Share Token+ID @ Consumer](<../20 💼⏩ Consumers/04 💼⏩🧑‍🦰 Share Token+ID.md>) flow.
 
 > Examples: 
-> <br/> • [Confused senior user 👴🏻](<../../4 ⚙️ Solution/70 🌳 Ambient/74 💍 Brand Userables/13 💍📱 Userable senior user.md>) scenario.
+> <br/> • [Split bill at a restaurant 🍽️](<../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/74 💳 Pay: Split bill ✂️.md>) use case
+> <br/> • [Confused senior user 👴🏻](<../../4 ⚙️ Solution/70 🌳 Ambient/74 💍 Brand Userables/13 💍📱 Userable senior user.md>) use case for [Userable 💍 things](<../../4 ⚙️ Solution/70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>).
 
 <br/>
 

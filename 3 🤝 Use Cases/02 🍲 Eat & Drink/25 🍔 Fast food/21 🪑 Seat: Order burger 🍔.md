@@ -38,9 +38,9 @@
     - INFO|{order-summary}|Change
     - SHARE|nlweb.org/VITALOGIST/REVIEW|{order-details} # 💖
     - CHARGE|{amount} 
-    - SUCCESS|Eat-in submitted
+    - SUCCESS|Eat-in submitted:
       - EXPAND: {order-summary}
-    - TEMP|Order in queue...
+    - TEMP|Order in queue...:
       - EXPAND: {order-summary}
     ```
 

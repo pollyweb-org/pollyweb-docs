@@ -56,9 +56,9 @@
     | 🪄 [Wand](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>)  | 😃 Hi! What do you need? <br/>- [ Private ] access <br/>- [ Something else ]| > Private
     | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Flow: authenticate [+]
     | 🪄 [Wand](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>) | 😐 Are you the owner? [Yes, No] | > Yes
-    | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Allow guest vault? [Yes, No]  <br/> - Any Identity 🆔 <br/>- [ Always ] for Any Wand 🪄 | > Yes
+    | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 [Allow guest domain?](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite.md>) [Yes, No]  <br/> - Any Identity 🆔 <br/>- [ Always ] for Any Wand 🪄 | > Yes
     | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's the owner.     | [📸 selfie](<../../30 🫥 Agents/05 🆔 Identities/21 🆔😶 Face scan.md>)
-    | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Allow guest vault? [Yes, No]  <br/> - Any Custodian 🧳<br/>- [ Always ] for Any Wand 🪄 | > Yes
+    | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 [Allow guest domain?](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite.md>) [Yes, No]  <br/> - Any Custodian 🧳<br/>- [ Always ] for Any Wand 🪄 | > Yes
     | 🧳 [Custodian](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>)| 🫥 What do you need? <br/>- [ Ring ] my Wallet <br/>- [ Circle ] Contacts <br/>- [ Something else ] | > Circle
     | 🧳 [Custodian](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) | 🫥 Which one? <br/>- [ Jake ] <br/>- [ Spirit ] | > Spirit
     | 🧳 [Custodian](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) | 🫥 Options for Spirit: <br/>- Call [ Mobile ] <br/>- Call [ Work ] <br/> - [ Back ] to list | > Mobile
