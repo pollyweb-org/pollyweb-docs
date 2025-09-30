@@ -88,11 +88,7 @@
        * Example: `Erase, Duplicate`
    * `EAN|<message> >> <key>`	
        * Calls the [🛒 EAN Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>)
-   * `INFO|<message>|<options> >> `	
-       * Calls the [ℹ️ INFO Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
-       * A second call overrides the previous
-       * Options are optional, comma separated (e.g., `Erase, Duplicate`)
-       * Example: `INFO|{item}|Details,Remove >> option`
+   * [`ℹ️ INFO`](<../13 🤔 Prompts/11 ℹ️ INFO prompt.md>)
    * `TEMP|<message>|<options>`
        * Calls the [⏳ TEMP Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
        * Disappears any new [Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)

@@ -11,9 +11,11 @@ How do drivers fulfill an order at the pizzeria?
 | - | - | - |
 |...
 | 🛵 Courier    | ⏳ Waiting orders... [+]
-| 🛵 Courier    | 📣 Accept order? [Yes, No] <br/>- from Any Pizza (2 min)  <br/>- to 999, Far Away (99 min) 
+| 🛵 Courier    | 📣 Ping!
+| 🛵 Courier    | 😃 Accept order? [Yes, No] <br/>- from Any Pizza (2 min)  <br/>- to 999, Far Away (99 min) 
 | 🛵 Courier    | ⏳ Waiting orders... [+]
-| 🛵 Courier    | 📣 Accept order? [Yes, No] <br/>- from Any Pizza (2 min)  <br/>- to 123, Boulevard (7 min) | > Yes
+| 🛵 Courier    | 📣 Ping!
+| 🛵 Courier    | 😃 Accept order? [Yes, No] <br/>- from Any Pizza (2 min)  <br/>- to 123, Boulevard (7 min) | > Yes
 | 🛵 Courier    | ℹ️ Pick-up at Any Pizza. <br/>- [ Cancel ]  <br>- [ Navigate ] to pick-up <br>- [ Alert ] arrival | > Alert
 | 🛵 Courier    | 😃 Tap/scan the store's tag. | 🔆 [tap](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>)
 | 🛵 Courier    | ⏳ Wait for order 27... [+]
