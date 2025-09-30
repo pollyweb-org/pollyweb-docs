@@ -8,7 +8,9 @@
 
 # 🤵🐌🗄️ Bind @ Vault
 
-
+> Used by
+> <br/>- [🗄️⏩🧑‍🦰 Bind @ Vault](<../../5 ⏩ Flows/80 🗄️⏩ Vaults/01 🗄️⏩🧑‍🦰 Bind.md>) flow
+> <br/>- [🤵⏩🗄️ Bind vault @ Broker](<../../5 ⏩ Flows/10 🤵⏩ Brokers/02 🤵⏩🗄️ Bind vault.md>) flow
 
 ## Async Message 🐌
 
@@ -21,7 +23,6 @@ Header:
 
 Body:
     ChatID: <chat-uuid>
-    PublicKey: <publicKey>
     Binds:
       - ID: <bind-uuid>
         Code: europa.eu/DISABILITY/CARD
@@ -33,7 +34,6 @@ Body:
 || `To` | string | [Vault 🗄️ domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>)
 || `Subject` | string | `Bound@Vault`
 |Body| `ChatID` | uuid | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) ID
-||`PublicKey`| string | public key of the [Wallet 🧑‍🦰 app](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
 ||`Binds`| array | list of [Bind 🔗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>) objects
 |Bind| `ID`| uuid | [Bind 🔗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>) ID on the [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
 || `Code`| string | [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) on the [Vault 🗄️ domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>)
