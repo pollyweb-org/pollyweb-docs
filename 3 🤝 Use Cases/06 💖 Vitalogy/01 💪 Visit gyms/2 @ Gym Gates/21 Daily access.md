@@ -3,7 +3,7 @@ How to go through the gym's gates?
 
 > Users can go through gym gates in multiple ways - e.g.:
 
-* by [tapping 🔆](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>) with their phones
+* by [tapping 🔆](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) with their phones
 * by tapping their [userables 💍](<../../../../4 ⚙️ Solution/70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) 
 * by scanning their [palms 🖐️](<../../../../4 ⚙️ Solution/60 🧰 Edge/63 🖐️ Palmists/01 🖐️🔌 Palmist device.md>)
 
@@ -13,7 +13,7 @@ How to go through the gym's gates?
 
 | Service | Prompt | User
 | - | - | - |
-| | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>)
+| | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>)
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Gym (4.3 ⭐) [+]
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Member [token 🎟️](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) shared [+]
 | 💪 Gym | ℹ️ You're at downtown gym. 

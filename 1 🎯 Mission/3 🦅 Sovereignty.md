@@ -17,7 +17,7 @@
 --
 
 1. have access to the [internet](<../2 🏔️ Landscape/2 🧑‍🦰 User landscape/01 🛰️ Connectivity landscape/00 🛰️ Connectivity index.md>) from virtually anywhere;
-1. [access](<../4 ⚙️ Solution/20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>) services anytime, from anywhere, or from any product; 
+1. [access](<../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) services anytime, from anywhere, or from any product; 
 1. use [passkeys](<../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/00 🔐 Passwordless ID index.md>) to authenticate with businesses, not passwords;
 1. exercise entitlement anonymously - i.e. [zero-knowledge proof](<../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/08 📺 SSI zero knowledge proof.md>);
 1. [keep](<../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) the data output of services, and [share](<../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) it with other businesses;

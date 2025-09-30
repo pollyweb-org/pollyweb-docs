@@ -4,7 +4,7 @@ Buy a train ticket at the train station 🚂
 
 | Service | Prompt | User
 | - | - | - |
-| | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>)
+| | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>)
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Railway (4.3 ⭐) [+]
 | 🚂 Railway | 😃 Hi! What do you need? <br/>- [ Tickets ] <br/>- [ Timetable ] | > Tickets
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/07 🧭 Navigators/01 🧭🫥 Navigator agent.md>) | 🫥 Share directions? [Yes, No] <br/> - to MAD T2 <br/> - 🧑‍🦳 mom travels for free | > Yes
