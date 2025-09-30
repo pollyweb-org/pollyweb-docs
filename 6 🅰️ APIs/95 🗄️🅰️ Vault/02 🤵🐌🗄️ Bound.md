@@ -1,5 +1,3 @@
-<!-- #TODO -->
-
 <!-- 
 🗄️🐌 https://quip.com/oSzpA7HRICjq/-Broker-Binds#temp:C:DSD3f7309f961e24f0ebb5897e2f 
 🗄️🐌 https://quip.com/IZapAfPZPnOD#temp:C:PDZf81764583b31439f999550159  
@@ -11,6 +9,8 @@
 > Used by
 > <br/>- [🗄️⏩🧑‍🦰 Bind @ Vault](<../../5 ⏩ Flows/80 🗄️⏩ Vaults/01 🗄️⏩🧑‍🦰 Bind.md>) flow
 > <br/>- [🤵⏩🗄️ Bind vault @ Broker](<../../5 ⏩ Flows/10 🤵⏩ Brokers/02 🤵⏩🗄️ Bind vault.md>) flow
+
+<br/>
 
 ## 🐌 Async Message
 
