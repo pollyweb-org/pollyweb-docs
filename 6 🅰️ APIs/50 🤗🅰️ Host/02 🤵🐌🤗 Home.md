@@ -1,5 +1,3 @@
-<!-- #TODO -->
-
 # 🧑‍🦰🐌🤗 Home @ Host
 
 > Shows the main menu of the [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>).
@@ -12,6 +10,8 @@
 
 ## 💬 Chat
 
+Consider the following [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) as an example.
+
 | Service | Prompt | User
 | - | - | - |
 | 🤗 [Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What do you need? <br/> - [ Something ] <br> - [ Something else ]  | 
@@ -22,17 +22,19 @@
 
 ## 😃 Talker 
 
-The associated  [Talker 😃](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 😃 Talker.md>), with one line per [Prompt 🤔](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/02 🤔 Prompt.md>), would be the following.
+The associated [Talker 😃](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 😃 Talker.md>) would be the following.
 
 ```yaml
-- INFO|Hello World!
-- ONE|Like sports?|Yes,No,I [love] it,I [hate] it >> my-var
-- INFO|{function-that-calculates-the-answer}
+💬 Something:
+- INFO|This is something.
+
+💬 Something else:
+- INFO|But this is something else!
 ```
 
 <br/>
 
-## Async Message 🐌
+## 🐌 Async Message
 
 ```yaml
 Header:
