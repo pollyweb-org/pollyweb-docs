@@ -1,3 +1,3 @@
 # ⬇️ DOWNLOAD prompt
 
-> Part of [file prompts 🤔](<50 Files.md>)
+> Part of [blocking input prompts 🤔](<20 Blocking inputs.md>)
