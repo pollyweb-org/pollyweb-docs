@@ -20,32 +20,32 @@
 
     * The supported [Prompt 🤔](<01 🤔 Prompt.md>) formats are as follow.
 
-    | Format | Description
-    |-|-
-    | ℹ️&nbsp;INFO | General information.
-    | ⏳&nbsp;TEMP| Temporary message.
-    | ✅&nbsp;SUCCESS | Success message.
-    | ❌&nbsp;FAILURE | Failure message.
-    | 👍&nbsp;CONFIRM | Yes, No, Cancel.
-    | 💯&nbsp;INT | Shows the numeric keypad.
-    | 🔄&nbsp;QUANTITY | Shows up/down arrows.
-    | 💰&nbsp;AMOUNT | Allows for decimals.
-    | 🔑&nbsp;OTP | Asks for 6 digits.
-    | 1️⃣&nbsp;ONE | One of multiple options.
-    | 🔢&nbsp;MANY | Zero or more of multiple options.
-    | ⭐&nbsp;RATE | 1 to 5 stars.
-    | 🕓&nbsp;TIME | Asks for time of day.
-    | 📆&nbsp;DATE | Asks for a date.
-    | 🗓️&nbsp;UNTIL | Asks for a date/time in the future.
-    | 📍&nbsp;LOCATION | Asks for the current location.
-    | 🗺️&nbsp;TRACK | Asks to track the location.
-    | 👤&nbsp;IDENTIFY | Opens a pop-up for the user's [Identity 🆔 agent](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) to perform a face scan.
-    | 🛒&nbsp;EAN | Scans for ENA-13 and EAN-8 barcodes.
-    | 🔆&nbsp;SCAN | Asks to touch/scan a [QR/NFC Locator 🔆](<../11 🔆 Locators/01 🔆 Locator.md>).
-    | 🦋&nbsp;TOUCH | Asks to touch/scan a [QR/NFC Ephemeral 🦋 device](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>).
-    | ⬆️&nbsp;UPLOAD | Asks to upload a file or photo.
-    | ⬇️&nbsp;DOWNLOAD | Asks to download a file.
-    | 🔠&nbsp;TEXT | Asks for a text input.
+    |Behavior| Format | Description
+    |-|-|-
+    |[`Status`](<10 Status behavior.md>)| [ℹ️&nbsp;INFO](<11 ℹ️ INFO prompt.md>) | General information.
+    || [⏳&nbsp;TEMP](<12 ⏳ TEMP prompt.md>)| Temporary message.
+    || [✅&nbsp;SUCCESS](<13 ✅ SUCCESS prompt.md>) | Success message.
+    || [❌&nbsp;FAILURE](<14 ❌ FAILURE prompt.md>) | Failure message.
+    |[`Input`](<20 Structure inputs.md>)| [👍&nbsp;CONFIRM](<24 👍 CONFIRM prompt.md>) | Yes, No, Cancel.
+    || [💯&nbsp;INT](<21 💯 INT prompt.md>) | Shows the numeric keypad.
+    || [🔄&nbsp;QUANTITY](<21 🔄 QUANTITY prompt.md>) | Shows up/down arrows.
+    || [💰&nbsp;AMOUNT](<22 💰 AMOUNT prompt.md>) | Allows for decimals.
+    || [🔑&nbsp;OTP](<23 🔑 OTP prompt.md>) | Asks for 6 digits.
+    || [1️⃣&nbsp;ONE](<25 1️⃣ ONE prompt.md>) | One of multiple options.
+    || [🔢&nbsp;MANY](<24 🔢 MANY prompt.md>) | Zero or more of multiple options.
+    || [⭐&nbsp;RATE](<26 ⭐ RATE prompt.md>) | 1 to 5 stars.
+    || [🕓&nbsp;TIME](<29 🕓 TIME prompt.md>) | Asks for time of day.
+    || [📆&nbsp;DATE](<29 📆 DATE prompt.md>) | Asks for a date.
+    || [🗓️&nbsp;UNTIL](<29 🗓️ UNTIL prompt.md>) | Asks for a date/time in the future.
+    || [📍&nbsp;LOCATION](<61 📍 LOCATION prompt.md>) | Asks for the current location.
+    || [🗺️&nbsp;TRACK](<62 🗺️ TRACK prompt.md>) | Asks to track the location.
+    || [👤&nbsp;IDENTIFY](<41 👤 IDENTIFY prompt.md>) | Opens a pop-up for the user's [Identity 🆔 agent](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) to perform a face scan.
+    || [🛒&nbsp;EAN](<44 🛒 EAN prompt.md>) | Scans for ENA-13 and EAN-8 barcodes.
+    || [🔆&nbsp;SCAN](<42 🔆 SCAN prompt.md>) | Asks to touch/scan a [QR/NFC Locator 🔆](<../11 🔆 Locators/01 🔆 Locator.md>).
+    || [🦋&nbsp;TOUCH](<43 🦋 TOUCH prompt.md>) | Asks to touch/scan a [QR/NFC Ephemeral 🦋 device](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>).
+    || [⬆️&nbsp;UPLOAD](<51 ⬆️ UPLOAD prompt.md>)| Asks to upload a file or photo.
+    || [⬇️&nbsp;DOWNLOAD](<52 ⬇️ DOWNLOAD prompt.md>) | Asks to download a file.
+    || [🔠&nbsp;TEXT](<31 🔠 TEXT prompt.md>) | Asks for a text input.
 
     ---
     <br/>
@@ -83,43 +83,33 @@
 
     [Prompt 🤔](<01 🤔 Prompt.md>) emojis are visual clues for users.
 
-    - **Non-blocking info ℹ️ ⓘ**
-        - this is an informative prompt that does not require the user input;
-        - if it contains options, then the user may click an option any time 
-          - i.e., before or after the [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) sends other subsequent [Prompts 🤔](<01 🤔 Prompt.md>);
-        - the strong info emoji ℹ️ represents the chat's [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>);
-        - the faded info emoji ⓘ represents other domains that have been pulled into the [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)chat.
+    | Behavior | Prompt | Host | Guest | 
+    |-|-|:-:|:-:
+    | `Status`  | [`INFO`](<11 ℹ️ INFO prompt.md>) | ℹ️ | ⓘ
+    |           | [`SUCCESS`](<13 ✅ SUCCESS prompt.md>) | ✅ | ☑️
+    |           | [`FAILURE`](<14 ❌ FAILURE prompt.md>) | ❌ | ✖️
+    |           | [`TEMP`](<12 ⏳ TEMP prompt.md>) | ⏳ | ⏳
+    | `Input`   | `TEXT` | 💬 | 💭
+    |           | (others) | 😃 | 🫥 | 
+    |
+
+    The 😃 emoji can be replaced with one of the following.
     
-    - **Non-blocking temporary info ⏳**
-        - this is an info [Prompt 🤔](<01 🤔 Prompt.md>) that is automatically removed when a new prompt arrives;
-        - if it contains options, then the user may click an option while it's visible.
+    |Emoji | Application
+    |-|-
+    | 😐 | Neutral
+    | 😕 | Confused, sad
+    | 🥺 | Pleading face
+    | ✏️ | Form input field
+    |
+
     
-    - **Non-blocking result ✅**
-        - this is an info [Prompt 🤔](<01 🤔 Prompt.md>) that signals the user that the transaction is completed and there are no further inputs required - they can put down the phone.
-    
-    - **Non-blocking failure ❌**
-        - this is an info [Prompt 🤔](<01 🤔 Prompt.md>) that signals the user that the transaction was not successful;
-        - it's typically followed by a prompt to help the user fix the problem.
-    
-    - **Blocking structured questions 😃 😐 🫥**
-        - this is a blocking input [Prompt 🤔](<01 🤔 Prompt.md>) that requires the user to answer it in a structured format (e.g., date, number, radio, checklist);
-        - it addresses the basic needs of a standard structured form with multiple input fields.
-        - the happy emoji 😃 represent the chat's [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>);
-        - the neutral emoji 😐 also represents the [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>), while providing an alternative neutral face when a smile is not adequate (e.g., in an emergency situation);
-        - the faded emoji 🫥 represents other domains that have been pulled into the chat.
-  
-    - **Blocking unstructured questions 💬 💭**
-        - this is a blocking input [Prompt 🤔](<01 🤔 Prompt.md>) that allows the user to type something instead of having to follow a structured format;
-        - it allows for large-language models (LLMs) to interpret the user's intent from natural language text, while also providing a structured input to facilitate the user's interaction;
-          - e.g., a user may select the "Yes" option, or type "ok" in the textbox;
-        - the speech emoji 💬 represent the chat's [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>);
-        - the thought emoji 💭 represents other domains that have been pulled into the chat.
 
     ---
     <br/>
 
 
-8. **How can Hosts protect users from input fatigue?**
+3. **How can Hosts protect users from input fatigue?**
 
     NLWeb advocates for [Hosts 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) to request as little [Prompts 🤔](<01 🤔 Prompt.md>) from users as possible;
     * instead, request users to share datasets using [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>);
