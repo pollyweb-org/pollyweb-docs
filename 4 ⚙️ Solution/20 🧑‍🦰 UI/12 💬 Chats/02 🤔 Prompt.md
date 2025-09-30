@@ -41,7 +41,7 @@
     | 🗺️&nbsp;TRACK | Asks to track the location.
     | 👤&nbsp;IDENTIFY | Opens a pop-up for the user's [Identity 🆔 agent](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) to perform a face scan.
     | 🛒&nbsp;EAN | Scans for ENA-13 and EAN-8 barcodes.
-    | 🔆&nbsp;SCAN | Asks to touch/scan a [QR/NFC Locator 🔆](<../04 🔆 Locators/01 🔆 Locator.md>).
+    | 🔆&nbsp;SCAN | Asks to touch/scan a [QR/NFC Locator 🔆](<../11 🔆 Locators/01 🔆 Locator.md>).
     | 🦋&nbsp;TOUCH | Asks to touch/scan a [QR/NFC Ephemeral 🦋 device](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>).
     | ⬆️&nbsp;UPLOAD | Asks to upload a file or photo.
     | ⬇️&nbsp;DOWNLOAD | Asks to download a file.

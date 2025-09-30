@@ -17,12 +17,12 @@
 
 1. **How does a Padlock decide when to open a lock?**
 
-    Users' [🔑 KeyHolders](<02 🔑💠 Keyholder device.md>) first scan the Padlock, receiving an NFC response with Padlock's [Locator 🔆](<../../20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>), which contains:
+    Users' [🔑 KeyHolders](<02 🔑💠 Keyholder device.md>) first scan the Padlock, receiving an NFC response with Padlock's [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>), which contains:
     - a fixed Padlock [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) identifier 
     - the domain of the Padlock's [🔐 KeyMaker](<05  🔐🏭 Keymaker supplier.md>) (e.g., `any-keymaker.com`) 
     - the resource key of the PadLock in the KeyMaker (e.g.,`padlock-12345678`)
     
-    The Keyholder looks up the the Padlock's [Locator 🔆](<../../20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>) in its local key cache, and sends a new NFC command with the key details:
+    The Keyholder looks up the the Padlock's [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) in its local key cache, and sends a new NFC command with the key details:
     - the encrypted security sequence number for the PadLock (e.g., `1234567890`)
     - the encrypted passkey for that sequence number (e.g., `ABCDEF`)
     - the encrypted sequence expiration interval (e.g., 24 hours)
@@ -133,6 +133,6 @@
 
     - if the Padlock is a relay to an external lock (e.g., building door), then the external lock should have its own traditional key.
 
-    - if the Padlock has an integrated lock (e.g., gym locker), then it was sold with a traditional key as a backup mechanism - this keys come with an embedded [🔆 NFC Locator](<../../20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>) that users can scan to ask the key's [🔐 KeyMaker](<05  🔐🏭 Keymaker supplier.md>) what the key is for (e.g., `what's the code written in the Padlock of this key?`).
+    - if the Padlock has an integrated lock (e.g., gym locker), then it was sold with a traditional key as a backup mechanism - this keys come with an embedded [🔆 NFC Locator](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) that users can scan to ask the key's [🔐 KeyMaker](<05  🔐🏭 Keymaker supplier.md>) what the key is for (e.g., `what's the code written in the Padlock of this key?`).
 
     ---

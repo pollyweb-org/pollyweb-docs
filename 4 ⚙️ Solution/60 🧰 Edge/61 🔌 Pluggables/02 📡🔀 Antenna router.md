@@ -65,6 +65,6 @@
 
 9. **How can a domain register an Antenna?**
 
-    After buying an Antenna from a [Brand 🍏](<../../70 🌳 Ambient/71 💠 Brand Things/07 🍏🎭 Brand role.md>), a domain admin taps/scans the Antenna's [Locator](<../../20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>) and follows the option to register the Antenna. In the process, the [🛰️ Relayer](<04 🛰️🛠️ Relayer helper.md>) asks the user to share their domain ADMIN [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) issued by the domain.
+    After buying an Antenna from a [Brand 🍏](<../../70 🌳 Ambient/71 💠 Brand Things/07 🍏🎭 Brand role.md>), a domain admin taps/scans the Antenna's [Locator](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) and follows the option to register the Antenna. In the process, the [🛰️ Relayer](<04 🛰️🛠️ Relayer helper.md>) asks the user to share their domain ADMIN [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) issued by the domain.
 
     ---

@@ -3,7 +3,7 @@ Pay at a boutique's till (customer view) 🛍️
 
 | Service | Prompt | User
 | - | - | - |
-| | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>)
+| | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>)
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Store (4.4 ⭐) [+]
 | 🛍️ Store   | ℹ️ This is cashier desk 3 [+]
 | 🛍️ Store   | ⏳ Waiting for items...

@@ -17,7 +17,7 @@ Design Decisions
 
     - Like in [India's ONDC 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/09 🛒 Shopping landscape/01 📺 🇮🇳 India's ONDC.md>), domains can configure multiple types of user inputs - e.g., number, dropdown, calendar. 
     
-    - New chats are opened with a [Locator 🔆](<../20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>) by scanning a [QR code ✨](<../20 🧑‍🦰 UI/04 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) or by tapping an [NFC tag 🔆](<../20 🧑‍🦰 UI/04 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>). 
+    - New chats are opened with a [Locator 🔆](<../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) by scanning a [QR code ✨](<../20 🧑‍🦰 UI/11 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) or by tapping an [NFC tag 🔆](<../20 🧑‍🦰 UI/11 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>). 
     
     - Users may accept [Tokens 🎫](<../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) issued by [Issuer 🎴 domains](<../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) - these tokens are stored offline and can be shared and validated by [Consumer 💼 domains](<../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>).
 
@@ -32,7 +32,7 @@ Design Decisions
     
     - These solutions typically require either location features enabled on the user's phone (like accurate GPS location) or proximity features (like the proximity bluetooth feature used during the 2020 pandemic), both impacting the user's privacy and the battery life of their mobile devices.
 
-    - Instead, NLWeb advocates for [Chat 💬](<../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) interactions to always start with the user's explicit intent, either by [scanning ✨ a QR code](<../20 🧑‍🦰 UI/04 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) or by [tapping 🔆 an NFC tag](<../20 🧑‍🦰 UI/04 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>).
+    - Instead, NLWeb advocates for [Chat 💬](<../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) interactions to always start with the user's explicit intent, either by [scanning ✨ a QR code](<../20 🧑‍🦰 UI/11 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) or by [tapping 🔆 an NFC tag](<../20 🧑‍🦰 UI/11 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>).
 
     ---
     <br/>

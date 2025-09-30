@@ -4,7 +4,7 @@ How to alter a hotel booking at the reception?
 | Service | Prompt  | User |
 |-|-|-|
 |...
-| | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>) desk
+| | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) desk
 | 🏨 Hotel  | ℹ️ Booking presented: <br> - Dr. Alice! <br/> - from Feb 18 to Feb 20 <br/> - room king to garden <br/> - 1 person, no breakfast 
 | 🏨 Hotel  | 😃 Hi! What do you need? <br/> - [ Alter ] booking <br/> - [ Something else ] | > Alter 
 | 🏨 Hotel  | 😃 What to alter? <br/> - [ ] from Feb 18 to Feb 20 <br/> - [ ] room king to garden <br/> - [ ] 1 person <br/> - [ ] no breakfast | > [X] no breakfast

@@ -4,7 +4,7 @@ How to enter a hotel room?
 | Service | Prompt | User
 | - | - | - |
 |...
-| | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>) door
+| | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) door
 | 🏨 Hotel  | ✅ Room 712 opened. 
 | 🏨 Hotel  | ℹ️ Welcome, Dr. Alice!
 | 🏨 Hotel  | 💬 Anything else? [No] <br/> - [ Lights on ] | > Lights on
