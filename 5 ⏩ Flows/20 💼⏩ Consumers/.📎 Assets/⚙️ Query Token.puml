@@ -5,6 +5,7 @@ actor User as user
 participant "Wallet 👱\napp" as wallet
 participant "Notifier 📣\ndomain" as notifier
 participant "Broker 🤵\ndomain" as broker
+
 participant "Consumer 💼\ndomain" as consumer
 participant "Issuer 🎴\ndomain" as issuer
 participant "Graph 🕸\ndomain" as graph
@@ -22,7 +23,16 @@ participant "Graph 🕸\ndomain" as graph
     activate broker
         broker -> graph: 2) Queryable 🚀 {codes}
         broker -> graph: 3) Translate 🚀 {codes}
-        broker --> notifier: 4) Share 🐌
+        broker --> wallet: 4) ⏪ Prompt 🤔 {tokens}
+    deactivate broker
+
+    activate wallet
+        user --> wallet: share
+        wallet --> broker: {tokens}
+    deactivate wallet
+
+    activate broker
+        broker --> notifier: 5) Share 🐌
     deactivate broker
 
     activate notifier
@@ -30,12 +40,12 @@ participant "Graph 🕸\ndomain" as graph
     deactivate notifier
 
     activate wallet
-        user --> wallet: share
-        wallet --> consumer: 5) Shared 🐌 {tokens}
+        wallet --> consumer: 6) Shared 🐌 {tokens}
     deactivate wallet
 
     activate consumer
-        consumer -> graph: 6) Trusts 🚀 {issuers}
+        consumer -> graph: 7) Trusts 🚀 {issuers}
+        consumer -> graph: 8) PublicKey 🚀 {dkim}
     deactivate consumer
 
 'end group 
