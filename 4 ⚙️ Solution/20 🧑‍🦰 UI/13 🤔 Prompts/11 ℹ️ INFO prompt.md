@@ -1,6 +1,6 @@
 # Non-blocking info ℹ️ ⓘ
 
-> Part of [Prompt 🤔](<01 🤔 Prompt.md>).
+> Part of [Non-blocking status prompts 🤔](<10 Non-blocking status.md>)
 
 ## About 
 
