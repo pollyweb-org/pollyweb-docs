@@ -16,6 +16,15 @@ Header:
     From: any-broker.com
     To: any-notifier.com
     Subject: Remove@Notifier
-
 Body:
-    ...
+    Path: /storage/nlweb/tokens/<issuer>/<token-uuid>
+```
+
+
+|Object|Property|Type|Description
+|-|-|-|-
+|Header|`From`|string | [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) name
+||`To`|string| [Notifier 📣 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/02 📣 Notifier domain.md>) name
+||`Subject`|string|`Remove@Broker`
+|Body  |`Path`    |string| Path from [`Save@Notifier`](<41 🤵🐌📣 Save.md>)
+|
