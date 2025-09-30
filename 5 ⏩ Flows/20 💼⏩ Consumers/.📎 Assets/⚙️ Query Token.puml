@@ -40,7 +40,7 @@ participant "Graph 🕸\ndomain" as graph
     deactivate notifier
 
     activate wallet
-        wallet --> consumer: 6) Shared 🐌 {tokens}
+        wallet --> consumer: 6) Receive 🐌 {tokens}
     deactivate wallet
 
     activate consumer

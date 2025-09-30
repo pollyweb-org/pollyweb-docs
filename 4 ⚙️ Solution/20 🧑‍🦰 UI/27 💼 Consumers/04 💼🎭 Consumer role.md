@@ -232,7 +232,7 @@
     |  Method | Purpose
     |-|-
     |[🗄️🐌 Consume](<../../../6 🅰️ APIs/30 💼🅰️ Consumer/01 🗄️🐌💼 Consume.md>) | Collect user data from a [Vault 🗄️ domain](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>)
-    | [🧑‍🦰🐌 Shared](<../../../6 🅰️ APIs/30 💼🅰️ Consumer/02 🧑‍🦰🐌💼 Shared.md>) | Receive [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) from a [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [🧑‍🦰🐌 Receive](<../../../6 🅰️ APIs/30 💼🅰️ Consumer/02 🧑‍🦰🐌💼 Receive.md>) | Receive [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) from a [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     
     ---
     <br/>

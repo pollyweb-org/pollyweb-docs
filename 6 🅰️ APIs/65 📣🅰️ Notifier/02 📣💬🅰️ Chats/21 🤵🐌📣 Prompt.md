@@ -27,7 +27,7 @@ Body:
 |Header|`From`|string | [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) name
 ||`To`|string| [Notifier 📣 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/02 📣 Notifier domain.md>) name
 ||`Subject`|string|`Prompt@Notifier`
-|Body  |`WalletID` |uuid  | Wallet ID 
+|Body  |`WalletID` |uuid  | [Wallet 🧑‍🦰](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) ID from [Onboard@](<11 🧑‍🦰🚀📣 Onboard.md>)
 |      |`ChatID`  |uuid  | Chat ID 
 |      |`PromptID`|uuid  | [Prompt 🤔](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/02 🤔 Prompt.md>) callback on the Host domain
 |      |`Sender`  |string| [Host 🤗 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) or agent domain name
