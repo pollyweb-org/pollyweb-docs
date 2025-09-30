@@ -15,7 +15,7 @@
     ---
     <br/>
 
-2. **What are business cases?**
+1. **What are business cases?**
 
     |Category|Use case
     |-|-
@@ -28,7 +28,7 @@
     <br/>
 
 
-3. **What's the content for a [Talker 😃](<../12 💬 Chats/03 😃 Talker.md>)?**
+1. **What's the format for a [Talker 😃](<../12 💬 Chats/03 😃 Talker.md>)?**
 
     ```yaml
     - LOCATION >> <key>
@@ -41,8 +41,17 @@
     ---
     <br/>
 
+1. **What's an example of a [Talker 😃](<../12 💬 Chats/03 😃 Talker.md>)?**
 
-5. **What's the response in the [Prompted@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**
+    ```yaml
+    - LOCATION >> my-location-variable
+    ```
+
+    ---
+    <br/>
+
+
+1. **How is that example in a [Prompted@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) response?**
 
     ```yaml
     Format: LOCATION
@@ -51,7 +60,7 @@
     ---
     <br/>
 
-6. **What's the Answer in the [Reply@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) method?**
+1. **What's the Answer in the [Reply@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) method?**
 
     ```yaml
     Answer: 
