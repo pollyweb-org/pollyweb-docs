@@ -21,7 +21,7 @@ Header:
 
 Body:
     Language: en-us
-    ChatID: 61738d50-d507-42ff-ae87-48d8b9bb0e5a
+    ChatID: <chat-uuid>
     Code: nlweb.org/THING
     Locator: MY-THING-ID
     Binds: 
