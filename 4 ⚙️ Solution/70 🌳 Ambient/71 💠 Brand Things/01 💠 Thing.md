@@ -6,7 +6,7 @@
     A Thing 💠 
     * is an [🔆 NFC/QR Locator](<../../20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>) 
     * brought to life by a [Wand 🪄 domain](<09 🪄🛠️ Wand helper.md>)
-    * to allow users to interact with the physical world via [Chats 💬](<../../20 🧑‍🦰 UI/05 💬 Chats/01 💬 Chat.md>).
+    * to allow users to interact with the physical world via [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>).
 
     ---
 
@@ -36,7 +36,7 @@
           - e.g.: jewelry, glasses, key holders.
 
     - [**⌚ Tapbands**](<../76 ⌚ Brand Tapbands/01 ⌚💠 Tapband thing.md>): 
-        - besides supporting all features of [Userables 💍](<../74 💍 Brand Userables/01 💍 Userable thing.md>), a [⌚ Tapband](<../76 ⌚ Brand Tapbands/01 ⌚💠 Tapband thing.md>) allow users to also open [Padlocks 🔒](<../75 🔒 Brand Padlocks/01 🔒 Padlock device.md>) while assuring users cannot be traced between interactions with [Host 🤗 domains](<../../20 🧑‍🦰 UI/05 💬 Chats/04 🤗🎭 Host role.md>).
+        - besides supporting all features of [Userables 💍](<../74 💍 Brand Userables/01 💍 Userable thing.md>), a [⌚ Tapband](<../76 ⌚ Brand Tapbands/01 ⌚💠 Tapband thing.md>) allow users to also open [Padlocks 🔒](<../75 🔒 Brand Padlocks/01 🔒 Padlock device.md>) while assuring users cannot be traced between interactions with [Host 🤗 domains](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>).
 
 
     - [**🤖 Robot specialization**](<../72 🤖 Brand Robots/01 🤖💠 Robot thing.md>): 
@@ -90,13 +90,13 @@
 
     |#|Category|Step
     |-|-|-
-    |1| `Order` | A [Printer 🖨️ domain](<08 🖨️🏭 Printer helper.md>) orders a [Chat 💬](<../../20 🧑‍🦰 UI/05 💬 Chats/01 💬 Chat.md>) interaction from a [Wand 🪄 helper domain](<09 🪄🛠️ Wand helper.md>). 
+    |1| `Order` | A [Printer 🖨️ domain](<08 🖨️🏭 Printer helper.md>) orders a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) interaction from a [Wand 🪄 helper domain](<09 🪄🛠️ Wand helper.md>). 
     |2| `Create` | The [Wand 🪄 domain](<09 🪄🛠️ Wand helper.md>) creates a [Thing 💠](<01 💠 Thing.md>) and shares its [digital Locator 🔆](<../../20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>). |
     |3| `Print` | The [Printer 🖨️](<08 🖨️🏭 Printer helper.md>) prints the [Locator 🔆](<../../20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>) of the [Thing 💠](<01 💠 Thing.md>) into a QR/NFC  smart sticker.
     |4| `Sell` | The [Printer 🖨️](<08 🖨️🏭 Printer helper.md>) distributes the smart sticker to commercial end-users.
     |5| `Buy` | A user buys the smart sticker from a store to stick on a vintage book.
     |6| `Register` | The user scans it with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to register on their [Custodian 🧳 vault](<05 🧳🗄️ Custodian vault.md>).
-    |7| `Chat` | Guest users tap/scan the book's smart sticker to interact with it in a [Chat 💬](<../../20 🧑‍🦰 UI/05 💬 Chats/01 💬 Chat.md>).
+    |7| `Chat` | Guest users tap/scan the book's smart sticker to interact with it in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>).
 
     ---
 
@@ -111,6 +111,6 @@
     |3| `Sell` | The [Brand 🍏 domain](<07 🍏🎭 Brand role.md>) sells the physical [Locator 🔆](<../../20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>) on a smart collar product bundle.
     |4| `Buy` | A user buys the smart collar from a pet store, and give it to their pet.
     |5| `Register` | The user scans it with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to register on their [Custodian 🧳 vault](<05 🧳🗄️ Custodian vault.md>).
-    |7| `Chat` | Guest users (e.g., vets) tap/scan the pet's smart collar to interact with it in a [Chat 💬](<../../20 🧑‍🦰 UI/05 💬 Chats/01 💬 Chat.md>).
+    |7| `Chat` | Guest users (e.g., vets) tap/scan the pet's smart collar to interact with it in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>).
     
     ---

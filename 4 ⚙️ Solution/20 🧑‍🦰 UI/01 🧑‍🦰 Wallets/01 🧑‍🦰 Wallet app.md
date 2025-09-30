@@ -17,11 +17,11 @@
     ![](<.📎 Assets/🧑‍🦰 Wallet App.png>)
 
     The following features are available in a [Wallet 🧑‍🦰 app](<01 🧑‍🦰 Wallet app.md>):
-    - 💬 [Chats](<../05 💬 Chats/01 💬 Chat.md>): list, filter, search, view, and interact.
+    - 💬 [Chats](<../12 💬 Chats/01 💬 Chat.md>): list, filter, search, view, and interact.
     - 🔗 [Binds](<../24 🗄️ Vaults/01 🔗 Bind.md>): list, view, unbind, and chat with the bound [Vault 🗄️ domain](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>). 
     - 🎫 [Tokens](<../25 🎫 Tokens/01 🎫 Token.md>): view, and chat with the [Issuer 🎴 domain](<../25 🎫 Tokens/02 🎴🎭 Issuer role.md>).
-    - ✨ [Scan](<../04 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) a QR [Locator 🔆](<../04 🔆 Locators/01 🔆 Locator.md>) to open a [Chat 💬](<../05 💬 Chats/01 💬 Chat.md>).
-    - 🔆 [Tap](<../04 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) an NFC [Locator 🔆](<../04 🔆 Locators/01 🔆 Locator.md>) to open a [Chat 💬](<../05 💬 Chats/01 💬 Chat.md>).
+    - ✨ [Scan](<../04 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) a QR [Locator 🔆](<../04 🔆 Locators/01 🔆 Locator.md>) to open a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>).
+    - 🔆 [Tap](<../04 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) an NFC [Locator 🔆](<../04 🔆 Locators/01 🔆 Locator.md>) to open a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>).
     - 🌐 [Click](<../04 🔆 Locators/02 🧑‍🦰🌐 Wallet URLs.md>) on [Locator 🔆](<../04 🔆 Locators/01 🔆 Locator.md>) links in the device's web browser to open chats.
     - 🛜 [Wi-Fiers](<../../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>): tap/scan an NFC/QR of a Wi-Fier to enable Wi-Fi on a [Robot 🤖](<../../70 🌳 Ambient/72 🤖 Brand Robots/01 🤖💠 Robot thing.md>).
     - 🔒 [Padlocks](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/01 🔒 Padlock device.md>): tap/scan an NFC/QR of a Padlock to open it.
@@ -138,10 +138,10 @@
     |-|-|-|-
     | 🤵 Set up | [👉 Onboard](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/11 🧑‍🦰👉🤵 Onboard.md>) | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | Initializes a [Wallet 🧑‍🦰 app](<01 🧑‍🦰 Wallet app.md>) on a [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>).
     | | [👉 Translate](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/12 🧑‍🦰👉🤵 Translate.md>) | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | Changes the language of the [Wallet 🧑‍🦰 app](<01 🧑‍🦰 Wallet app.md>).
-    | 🔆 Locators |[👉 Host QR](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>) | [🤗 Host](<../05 💬 Chats/04 🤗🎭 Host role.md>) | The [Host 🤗 domain](<../05 💬 Chats/04 🤗🎭 Host role.md>) presented a QR to the user.
-    ||[👉 Printer QR](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/02 🧑‍🦰👉🤗 Scan printer QR.md>) | [🤗 Host](<../05 💬 Chats/04 🤗🎭 Host role.md>) | The user presented a QR to the [Host 🤗 domain](<../05 💬 Chats/04 🤗🎭 Host role.md>).  
+    | 🔆 Locators |[👉 Host QR](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>) | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | The [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) presented a QR to the user.
+    ||[👉 Printer QR](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/02 🧑‍🦰👉🤗 Scan printer QR.md>) | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | The user presented a QR to the [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>).  
     |💬 Chats|[👉 List chats](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/01 🧑‍🦰👉🤵 List chats.md>) | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>)
-    ||[👉 Home](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/02 🧑‍🦰👉🤵 Host home.md>) | [🤗 Host](<../05 💬 Chats/04 🤗🎭 Host role.md>)
+    ||[👉 Home](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/02 🧑‍🦰👉🤵 Host home.md>) | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>)
     ||[👉 Abandon](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>) | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>)
     | 🔗 Binds | [👉 List binds ](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/01 🧑‍🦰👉🤵 List binds.md>) |[🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>)
     [text](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/03 🧑‍🦰👉🗄️ Unbind.md>)

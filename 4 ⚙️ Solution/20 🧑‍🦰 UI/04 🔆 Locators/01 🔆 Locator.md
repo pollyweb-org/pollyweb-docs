@@ -4,8 +4,8 @@
 1. **What are NLWeb Locators?**
 
     In NLWeb, non-humans (e.g., organizations, places, objects, animals) are represented by a [Locator 🔆](<01 🔆 Locator.md>). 
-    * An NLWeb [Locator 🔆](<01 🔆 Locator.md>) is a string contained in a [QR code ✨](<03 🧑‍🦰✨ Wallet QR scan.md>), [NFC tag 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>), [Web link 🌐](<02 🧑‍🦰🌐 Wallet URLs.md>), or [Chat 💬](<../05 💬 Chats/01 💬 Chat.md>) option.
-    * Users can [tap 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>), [scan ✨](<03 🧑‍🦰✨ Wallet QR scan.md>), [select 💬](<../05 💬 Chats/01 💬 Chat.md>), or [click 🌐](<02 🧑‍🦰🌐 Wallet URLs.md>) Locators 🔆 to open a [Chat 💬](<../05 💬 Chats/01 💬 Chat.md>) with the [Locator's Host 🤗 domain](<../05 💬 Chats/04 🤗🎭 Host role.md>).
+    * An NLWeb [Locator 🔆](<01 🔆 Locator.md>) is a string contained in a [QR code ✨](<03 🧑‍🦰✨ Wallet QR scan.md>), [NFC tag 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>), [Web link 🌐](<02 🧑‍🦰🌐 Wallet URLs.md>), or [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) option.
+    * Users can [tap 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>), [scan ✨](<03 🧑‍🦰✨ Wallet QR scan.md>), [select 💬](<../12 💬 Chats/01 💬 Chat.md>), or [click 🌐](<02 🧑‍🦰🌐 Wallet URLs.md>) Locators 🔆 to open a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) with the [Locator's Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>).
 
     ---
     <br/>
@@ -21,7 +21,7 @@
     |-|-|-
     | `Code` | `nlweb.org/HOST:1.0` | [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) to validate the schema with a [Graph 🕸 helper domain](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>).
     | `Domain` | `any-host.com` | [Domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) name for the [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) to interact with.
-    | `Key` | `product-1234` | The resource key in the [Host 🤗 domain](<../05 💬 Chats/04 🤗🎭 Host role.md>).
+    | `Key` | `product-1234` | The resource key in the [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>).
     | `Properties` | `A=1,B=2` | Any optional data fields.
 
     ---
@@ -45,7 +45,7 @@
     | [🛜 Wi-Fier devices](<../../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>) | Tap/scan a [Wi-Fier 🛜 device](<../../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>) to connect it to the internet.
     | [💍 Userable things](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) | Tap a [Userable 💍 thing](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) that a user is wearing or holding.
     | [🔒 Padlock devices](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/01 🔒 Padlock device.md>)  | Tap a [Padlock 🔒 device](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/01 🔒 Padlock device.md>) to open it.
-    | [💬 Chat prompts](<../05 💬 Chats/01 💬 Chat.md>) | Select a [Host 🤗 domain](<../05 💬 Chats/04 🤗🎭 Host role.md>) option - e.g., [Finder 🔎](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>), [Advertiser 👀](<../../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>).
+    | [💬 Chat prompts](<../12 💬 Chats/01 💬 Chat.md>) | Select a [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) option - e.g., [Finder 🔎](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>), [Advertiser 👀](<../../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>).
 
     
     ---

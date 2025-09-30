@@ -19,14 +19,14 @@ TODO: Create the API methods
     
 1. **What does the Chat look like?**
 
-    Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/05 💬 Chats/01 💬 Chat.md>) as an example.
+    Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) as an example.
     
     | Service | Prompt | User
     | - | - | - |
-    | 🤗 [Host](<../../20 🧑‍🦰 UI/05 💬 Chats/04 🤗🎭 Host role.md>)    | ℹ️ Sign the terms. 
+    | 🤗 [Host](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>)    | ℹ️ Sign the terms. 
     | 🆔 [Identity](<01 🆔🫥 Identity agent.md>) | 🫥 Sign terms? 📄 [Yes, No] | > Yes
     | 🆔 [Identity](<01 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<21 🆔😶 Face scan.md>)
-    | 🤗 [Host](<../../20 🧑‍🦰 UI/05 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Thanks for signing!
+    | 🤗 [Host](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Thanks for signing!
 
     ---
     <br/>
@@ -53,7 +53,7 @@ TODO: Create the API methods
     - 1/ the signature is for a file with the given hash; and
     - 2/ the human holding the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) has the given personally identifiable information (PII).
     
-    A signature request from a [Host 🤗 domain](<../../20 🧑‍🦰 UI/05 💬 Chats/04 🤗🎭 Host role.md>) is a data set containing:
+    A signature request from a [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) is a data set containing:
     - **the content of the file to be signed** 
       - this allows the user to read the document before accepting to sign it;
     - **the file's hash** 
@@ -75,14 +75,14 @@ TODO: Create the API methods
 
     |#|Step
     |-|-
-    |1| the [Host 🤗 domain](<../../20 🧑‍🦰 UI/05 💬 Chats/04 🤗🎭 Host role.md>) asks the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) for a user signature;
+    |1| the [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) asks the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) for a user signature;
     | 2| the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) validates the hash against the PDF bytes; 
     | 3| the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) shows the PDF content to the user;
     | 4| the user accepts the PDF content and the signature request;
     | 5| the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) asks the user's [Identity 🆔 domain](<01 🆔🫥 Identity agent.md>) to sign the hash on the user's behalf; 
     | 6| the [Identity 🆔 domain](<01 🆔🫥 Identity agent.md>) authenticates the user (e.g., with face biometrics);
-    | 7| the [Identity 🆔 domain](<01 🆔🫥 Identity agent.md>) issues a signature [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) and sends it to the [Host 🤗 domain](<../../20 🧑‍🦰 UI/05 💬 Chats/04 🤗🎭 Host role.md>);
-    | 8| the [Host 🤗 domain](<../../20 🧑‍🦰 UI/05 💬 Chats/04 🤗🎭 Host role.md>) verifies if the Token's data match the original request.
+    | 7| the [Identity 🆔 domain](<01 🆔🫥 Identity agent.md>) issues a signature [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) and sends it to the [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>);
+    | 8| the [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) verifies if the Token's data match the original request.
 
     ---
     <br/> 

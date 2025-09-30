@@ -42,12 +42,12 @@
 
     |Section|Purpose | Schemas
     |-|-|-
-    | 🤗 [Host Identity](<../../20 🧑‍🦰 UI/05 💬 Chats/04 🤗🎭 Host role.md>) | Domain identification (mandatory). | • [/MANIFEST 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 Manifest.md>) <br/>• [/MANIFEST/IDENTITY 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 ManifestIdentity.md>) <br/>• [/MANIFEST/TRANSLATION 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 ManifestTranslation.md>)
+    | 🤗 [Host Identity](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | Domain identification (mandatory). | • [/MANIFEST 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 Manifest.md>) <br/>• [/MANIFEST/IDENTITY 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 ManifestIdentity.md>) <br/>• [/MANIFEST/TRANSLATION 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 ManifestTranslation.md>)
     | 👍 [Domain Trusts](<../43 👍 Trusts/01 👍 Domain Trust.md>) | Trusted domains, Codes, and roles. | • [/MANIFEST/TRUST 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 ManifestTrust.md>)
     |  🧩 [Schema Codes](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) | Defined by the domain. | • [/MANIFEST/CODE 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 ManifestCode.md>) <br/>• [/MANIFEST/CODE/SCHEMA 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 ManifestCodeSchema.md>) | Schema validation of a Code
     |  🧩 [Delegated Codes](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) | Codes delegated to other domains. | • [/MANIFEST/DELEGATE 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 ManifestDelegate.md>)
-    | 🪢 [Integrations](<../../20 🧑‍🦰 UI/05 💬 Chats/06 🪢🎭 Integrator role.md>) |Synchronous datasets, <br/>asynchronous supplies, <br/>and streaming endpoints. | • [/MANIFEST/OFFER 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 ManifestOffer.md>)
-    | [Chat 💬 Flows](<../../20 🧑‍🦰 UI/05 💬 Chats/01 💬 Chat.md>) | To explain what user data is request.
+    | 🪢 [Integrations](<../../20 🧑‍🦰 UI/12 💬 Chats/06 🪢🎭 Integrator role.md>) |Synchronous datasets, <br/>asynchronous supplies, <br/>and streaming endpoints. | • [/MANIFEST/OFFER 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MANIFEST/🧩 ManifestOffer.md>)
+    | [Chat 💬 Flows](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) | To explain what user data is request.
 
     ---
     <br/>

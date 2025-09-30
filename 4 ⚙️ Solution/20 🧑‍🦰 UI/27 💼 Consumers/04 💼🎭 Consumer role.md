@@ -4,7 +4,7 @@
 1. **What is a Consumer domain role in NLWeb?**
 
     Consumers 💼 
-    * are [Host 🤗 domains](<../05 💬 Chats/04 🤗🎭 Host role.md>) 
+    * are [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) 
     * that request users to share their data,
     * typically to execute a workflow without the user having to type in the data.
 
@@ -36,7 +36,7 @@
     [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) are shared with Consumers 💼 by [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) in a number of ways.
 
     - **Request on a chat**: 
-        - in a [Chat 💬](<../05 💬 Chats/01 💬 Chat.md>), [Consumers 💼](<04 💼🎭 Consumer role.md>) can ask the user to share a specific [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>);
+        - in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>), [Consumers 💼](<04 💼🎭 Consumer role.md>) can ask the user to share a specific [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>);
         - if the user accepts, the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) shares with the [Consumer 💼](<04 💼🎭 Consumer role.md>) both the [bound 🔗 Vaults](<../24 🗄️ Vaults/01 🔗 Bind.md>) and the downloaded [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) that match that [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>);
         - e.g., an airline may ask a user to share their passport [Token 🎫](<../25 🎫 Tokens/01 🎫 Token.md>).
 
@@ -141,7 +141,7 @@
         - or through an external device (e.g., [Amazon One 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/07 🖐️ Palm pay landscape/02 📺 Amazon One.md>) palm reader).
 
 
-    Consider the following [Chat 💬](<../05 💬 Chats/01 💬 Chat.md>) as an example. 
+    Consider the following [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) as an example. 
 
     | Service | Prompt | User
     | - | - | - |
@@ -161,7 +161,7 @@
     - e.g., an adult may give their wallet's device to an under-aged child so that they can buy age-restricted goods at a self-service store. 
     
     In low-budget validations, 
-    - [Seller 💵 domains](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) ask the user's trusted [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) to perform the authentication inside the [Chat 💬](<../05 💬 Chats/01 💬 Chat.md>) on the user's device;
+    - [Seller 💵 domains](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) ask the user's trusted [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) to perform the authentication inside the [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) on the user's device;
     - depending on the circumstances, this can be a biometric face scan, voice recognition, OTP, security questions, or other. 
     
     In offline scenarios, 
@@ -181,7 +181,7 @@
     
     * [Consumer 💼 domains](<04 💼🎭 Consumer role.md>) manifest the unique contexts in which they will collect data, and what data is collected in each context.
   
-    * When interacting in a [Chat 💬](<../05 💬 Chats/01 💬 Chat.md>), [Consumer 💼 domains](<04 💼🎭 Consumer role.md>) need to notify the [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) of a context change before requesting data under that context.
+    * When interacting in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>), [Consumer 💼 domains](<04 💼🎭 Consumer role.md>) need to notify the [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) of a context change before requesting data under that context.
 
     * [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) only process sharing requests that are publicly manifested in advance.
 
@@ -211,7 +211,7 @@
         ```
 
     
-    * That configuration would result in the following [Chat 💬](<../05 💬 Chats/01 💬 Chat.md>) excerpt. 
+    * That configuration would result in the following [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) excerpt. 
 
         | Service | Prompt  | User |
         |-|-|-|

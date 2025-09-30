@@ -10,7 +10,7 @@
 
     Users can tell their [Custodian 🧳 agents](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) which [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) should be available on their [Userable 💍 things](<01 💍 Userable thing.md>) for automatic sharing on request. 
     
-    - When a [Consumer 💼 domain](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) asks for expected [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) of a given [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) (e.g., an airport gate expects passport [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)), the [Custodian 🧳 agent](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) can immediately share it without having to be in the context of a [Chat 💬](<../../20 🧑‍🦰 UI/05 💬 Chats/01 💬 Chat.md>). 
+    - When a [Consumer 💼 domain](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) asks for expected [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) of a given [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) (e.g., an airport gate expects passport [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)), the [Custodian 🧳 agent](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) can immediately share it without having to be in the context of a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>). 
 
     ---
     <br/>

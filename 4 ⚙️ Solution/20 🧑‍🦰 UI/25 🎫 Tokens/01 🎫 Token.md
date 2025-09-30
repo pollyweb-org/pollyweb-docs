@@ -40,7 +40,7 @@
     |#|Category|Step
     |-|-|-
     |1| `Issue`| An [Issuer 🎴 domain](<02 🎴🎭 Issuer role.md>) issues a [Token 🎫](<01 🎫 Token.md>) the the user stores offline in the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
-    |2| `In-Chat`| While in a [Chat 💬](<../05 💬 Chats/01 💬 Chat.md>) with a [Consumer 💼 host domain](<../27 💼 Consumers/04 💼🎭 Consumer role.md>), the user shares the [Token 🎫](<01 🎫 Token.md>).
+    |2| `In-Chat`| While in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) with a [Consumer 💼 host domain](<../27 💼 Consumers/04 💼🎭 Consumer role.md>), the user shares the [Token 🎫](<01 🎫 Token.md>).
     |3| `Userable` | Using their [Custodian 🧳 agent](<../../70 🌳 Ambient/71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>), users select which [Tokens 🎫](<01 🎫 Token.md>) to be automatically shared by a specific [Userable 💍 thing](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>).
     | 4| `Userable`| When the NFC of the [Userable 💍 thing](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) is [tapped 🔆](<../04 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) on the [scanner ✨ device](<../../60 🧰 Edge/66 ✨ Scanners/06 ✨🔌 Scanner device.md>) of a [Consumer 💼 domain](<../27 💼 Consumers/04 💼🎭 Consumer role.md>), the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) shares the [Tokens 🎫](<01 🎫 Token.md>).
     |5| `Printed`| From the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), users can print a [Token 🎫](<01 🎫 Token.md>).
@@ -85,7 +85,7 @@
     - [Identity-bound 🆔 tokens](<../../30 🫥 Agents/05 🆔 Identities/14 🆔🎫 Verify Tokens.md>) reference a trusted [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) that is able to authenticate the user - e.g., with a [Face scan 😶](<../../30 🫥 Agents/05 🆔 Identities/21 🆔😶 Face scan.md>).
 
 
-    The following [Chat 💬](<../05 💬 Chats/01 💬 Chat.md>) excerpt from the [Casino Entry 🤝 use case](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/10 🎰 Casinos/11 🚪 Enter anonymously.md>) illustrates the usage of an [Identity-bound 🆔 token](<../../30 🫥 Agents/05 🆔 Identities/14 🆔🎫 Verify Tokens.md>).
+    The following [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) excerpt from the [Casino Entry 🤝 use case](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/10 🎰 Casinos/11 🚪 Enter anonymously.md>) illustrates the usage of an [Identity-bound 🆔 token](<../../30 🫥 Agents/05 🆔 Identities/14 🆔🎫 Verify Tokens.md>).
 
 
     | Service | Prompt | User
@@ -110,7 +110,7 @@
     - Exceptionally, if the [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) of the [Token 🎫](<01 🎫 Token.md>) is marked as SELF, then the user's [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) silently share the [Token 🎫](<01 🎫 Token.md>) with the [Token's Issuer 🎴 domain](<02 🎴🎭 Issuer role.md>).
 
 
-    The following [Chat 💬](<../05 💬 Chats/01 💬 Chat.md>) excerpt illustrates the usage of a [SELF Token 🎫](<01 🎫 Token.md>) when [passing a gate at a train station 🤝](<../../../3 🤝 Use Cases/03 🧳 Travel/03 🧳 Travel by train 🚂/02 🚂 Customer @ Station/22 Pass gates 1 person.md>).
+    The following [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) excerpt illustrates the usage of a [SELF Token 🎫](<01 🎫 Token.md>) when [passing a gate at a train station 🤝](<../../../3 🤝 Use Cases/03 🧳 Travel/03 🧳 Travel by train 🚂/02 🚂 Customer @ Station/22 Pass gates 1 person.md>).
 
     | Service | Prompt | User 
     | - | - | - |

@@ -16,10 +16,10 @@
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Store (4.4 ⭐) [+]
 | 🛍️ Store   | ℹ️ Self check-out 4 [+]
 | 🛍️ Store   | 😃 Hi! What do you need? <br/>- [ Check out ] <br/>- [ Something else ] | > Check out
-| 🛍️ Store   | 😃 Scan the 1st item [No] | ✨ [scan](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/05 💬 Chats/02 🤔 Prompt.md>) 
+| 🛍️ Store   | 😃 Scan the 1st item [No] | ✨ [scan](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/02 🤔 Prompt.md>) 
 | 🛍️ Store   | ℹ️ Item: dress 👗 ($25) [+]
 | 🛍️ Store   | ⏳ Total ($25): <br/>- [ Scan ] another <br/> - [ List ] items <br/> - [ Pay ] total | > Scan
-| 🛍️ Store   | 😃 Scan another item [No] | ✨ [scan](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/05 💬 Chats/02 🤔 Prompt.md>) 
+| 🛍️ Store   | 😃 Scan another item [No] | ✨ [scan](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/02 🤔 Prompt.md>) 
 | 🛍️ Store   | ℹ️ Item: hat 👒 ($15) [+]
 | 🛍️ Store   | ⏳ Total ($50): <br/>- [ Scan ] another <br/> - [ List ] items <br/> - [ Pay ] total | > List
 | 🛍️ Store | ℹ️ Items: <br/> -  [ dress 👗 ] ($25) <br/> - [ hat 👒 ] ($15) 
