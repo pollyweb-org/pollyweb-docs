@@ -104,10 +104,7 @@
        * Calls the [💯 INT Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
        * Stores the answer with key `<key>`
        * Example: `INT|What's the pin? >> pin`
-   * `LOCATION >> <key>`	
-       * Calls the [📍 LOCATION Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
-       * Stores the answer with key `<key>`
-       * Example: `LOCATION >> location`
+   * [`📍 LOCATION`](<../13 🤔 Prompts/61 📍 LOCATION prompt.md>)
    * `MANY|<message>|<options> >> <key>`	
        * Calls the [🔢 MANY Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
        * Options are comma separated (e.g., `Milk, Sugar, Rice`)
