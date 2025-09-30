@@ -1,3 +1,3 @@
 # 📍 LOCATION prompt
 
-> Part of [Location prompts 🤔](<60 Location prompts.md>)
+> Part of [blocking input prompts 🤔](<20 Blocking inputs.md>)
