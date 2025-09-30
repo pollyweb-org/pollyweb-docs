@@ -1,3 +1,3 @@
 # 1️⃣ ONE prompt
 
-> Part of [structure input prompts 🤔](<20 Blocking inputs.md>)
+> Part of [blocking input prompts 🤔](<20 Blocking inputs.md>)
