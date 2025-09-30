@@ -32,10 +32,10 @@
     |#|Step
     |-|-
     |1| A [Brand 🍏 domain](<07 🍏🎭 Brand role.md>) orders a set of [Things 💠](<01 💠 Thing.md>) from a [Wand 🪄 domain](<09 🪄🛠️ Wand helper.md>).
-    |2| The [Wand 🪄 domain](<09 🪄🛠️ Wand helper.md>) creates the Things' [Locators 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) and informs the [Brand 🍏 domain](<07 🍏🎭 Brand role.md>).
-    |3| The [Brand 🍏](<07 🍏🎭 Brand role.md>) embeds the Things' [Locators 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) into the products that it sells. 
+    |2| The [Wand 🪄 domain](<09 🪄🛠️ Wand helper.md>) creates the Things' [Locators 🔆](<../../20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>) and informs the [Brand 🍏 domain](<07 🍏🎭 Brand role.md>).
+    |3| The [Brand 🍏](<07 🍏🎭 Brand role.md>) embeds the Things' [Locators 🔆](<../../20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>) into the products that it sells. 
     |4| A user buys the [Brand's 🍏](<07 🍏🎭 Brand role.md>) product.
-    |5| The user [taps 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) or [scans ✨](<../../20 🧑‍🦰 UI/22 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) the product's [Thing 💠](<01 💠 Thing.md>) to initiate the registration.
+    |5| The user [taps 🔆](<../../20 🧑‍🦰 UI/04 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) or [scans ✨](<../../20 🧑‍🦰 UI/04 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) the product's [Thing 💠](<01 💠 Thing.md>) to initiate the registration.
     |6| The user registers/configures the [Thing 💠](<01 💠 Thing.md>) into their user-bound [Custodian 🧳 agent](<../../70 🌳 Ambient/71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>).
     |7| The [Custodian 🧳 agent](<../../70 🌳 Ambient/71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) agrees with the [Wand 🪄 domain](<09 🪄🛠️ Wand helper.md>) to lock the ownership of the [Thing 💠](<01 💠 Thing.md>).
 

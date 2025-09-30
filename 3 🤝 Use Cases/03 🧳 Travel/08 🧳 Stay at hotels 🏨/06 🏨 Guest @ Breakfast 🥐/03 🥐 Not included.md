@@ -4,7 +4,7 @@ How to buy breakfast at a hotel if not included?
 | Service |  User Prompt | User 
 | - | - | - | 
 |...
-| 🏨 Hotel  | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) desk
+| 🏨 Hotel  | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>) desk
 | 🏨 Hotel  | ℹ️ Breakfast 🥐 [+]
 | 🏨 Hotel  | ℹ️ Welcome, Dr. Alice!
 | 🏨 Hotel  | ❌ You didn't buy breakfast. <br/> - [ Buy ] now | > Buy

@@ -4,7 +4,7 @@
 
 # 👥🚀🖨️ Alias @ Printer
 
-> A [Printer 🖨️ domain](<../../4 ⚙️ Solution/70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>) returns the [Locator 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) of an alias, if any.
+> A [Printer 🖨️ domain](<../../4 ⚙️ Solution/70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>) returns the [Locator 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>) of an alias, if any.
 
 > Used in [🧑‍🦰👉🤗 Scan printer QR](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/02 🧑‍🦰👉🤗 Scan printer QR.md>).
 
@@ -28,7 +28,7 @@ Body:
 |Header| `From`| string | Caller [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) name
 || `To` | string | [Printer 🖨️ domain](<../../4 ⚙️ Solution/70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>) name
 || `Subject`| string | `Alias@Printer`
-|Body|`Alias`| string | Unique ID of the [Locator 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) on the [Printer 🖨️ domain](<../../4 ⚙️ Solution/70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>)
+|Body|`Alias`| string | Unique ID of the [Locator 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>) on the [Printer 🖨️ domain](<../../4 ⚙️ Solution/70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>)
 |
 
 
@@ -42,5 +42,5 @@ Locator: nlweb.org/HOST:1.0,any-host.com,ANY-RESOURCE,A=1,B=2
 
 Property|Type|Description
 |-|-|-
-| Locator | string | [Locator 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) 
+| Locator | string | [Locator 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>) 
 |

@@ -5,7 +5,7 @@
 
 1. **What is an Ephemeral device?**
 
-    An Ephemeral 🦋 is a [Pluggable 🔌 device](<../61 🔌 Pluggables/01 🔌 Pluggable device.md>) that generates rotating temporary QR/NFC [Locators 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) to force users to be next to the device when they [tap 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) or [scan ✨](<../../20 🧑‍🦰 UI/22 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) the [Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>). 
+    An Ephemeral 🦋 is a [Pluggable 🔌 device](<../61 🔌 Pluggables/01 🔌 Pluggable device.md>) that generates rotating temporary QR/NFC [Locators 🔆](<../../20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>) to force users to be next to the device when they [tap 🔆](<../../20 🧑‍🦰 UI/04 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) or [scan ✨](<../../20 🧑‍🦰 UI/04 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) the [Locator 🔆](<../../20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>) with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>). 
 
     ---
 
@@ -31,10 +31,10 @@
     - The setup requires an [Antenna 📡 router](<../61 🔌 Pluggables/02 📡🔀 Antenna router.md>) on site, connected to the [Relayer 🛰️ domain](<../61 🔌 Pluggables/04 🛰️🛠️ Relayer helper.md>), to allow the ATM [Host 🤗 domain](<../../20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) to remotely control the Ephemeral 🦋 device.
     
     The use case is as follows:
-    1. Users [tap 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) or [scan ✨](<../../20 🧑‍🦰 UI/22 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) the ATM's static [Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) - this could be a big QR printed on a top banner;
+    1. Users [tap 🔆](<../../20 🧑‍🦰 UI/04 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) or [scan ✨](<../../20 🧑‍🦰 UI/04 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) the ATM's static [Locator 🔆](<../../20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>) with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) - this could be a big QR printed on a top banner;
     2. The [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) opens a [Chat 💬](<../../20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>) with the ATM Company's [Host 🤗 domain](<../../20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>), and the user asks to withdraw cash;
     3. ATM [Host 🤗 domain](<../../20 🧑‍🦰 UI/23 💬 Chats/04 🤗🎭 Host role.md>) asks the ATM's [Relayer 🛰️ domain](<../61 🔌 Pluggables/04 🛰️🛠️ Relayer helper.md>) to send a command to the ATM's [Antenna 📡 router](<../61 🔌 Pluggables/02 📡🔀 Antenna router.md>) to remotely activate the specific Ephemeral 🦋 device attached to the cash dispenser where the money will come out from;
-    4. The user then [taps 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) or [scans ✨](<../../20 🧑‍🦰 UI/22 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) the NRC/QR off the designated Ephemeral 🦋 device with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>);
+    4. The user then [taps 🔆](<../../20 🧑‍🦰 UI/04 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) or [scans ✨](<../../20 🧑‍🦰 UI/04 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) the NRC/QR off the designated Ephemeral 🦋 device with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>);
     5. When the Ephemeral 🦋 device confirms 
 
 
@@ -44,9 +44,9 @@
 
     ![](<.📎 Assets/🦋 Ephemeral Doors.png>)
 
-    When opening a door with restricted access, attackers may put the NFC/QR [Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) of a high-security door A on a low-security door B on the other side of the building. 
+    When opening a door with restricted access, attackers may put the NFC/QR [Locator 🔆](<../../20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>) of a high-security door A on a low-security door B on the other side of the building. 
     
     -   When a high-level user tries to open door B, they will actually be opening door A for the attacker. 
-    - An Ephemeral 🦋 prevents this by periodically changing the [Locator 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>).
+    - An Ephemeral 🦋 prevents this by periodically changing the [Locator 🔆](<../../20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>).
 
     ---

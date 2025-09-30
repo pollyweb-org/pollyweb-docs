@@ -4,7 +4,7 @@ How to check-in to a hotel?
 | Service | Prompt  | User |
 |-|-|-|
 |...
-| | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) desk
+| | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>) desk
 | 🏨 Hotel  | ℹ️ Booking presented: <br> - Dr. Alice! <br/> - from Feb 18 to Feb 20 <br/> - room king to garden <br/> - 1 person, no breakfast 
 | 🏨 Hotel  | 😃 Hi! What do you need? <br/> - [ Check-in ] <br/> - [ Something else ] | > Check-in 
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Flow: check-in [-] <br/> - your identity shares your ID 🆔 <br/> - your payer pays the stay 💳 <br/> - your curator set the room 🧚 <br/> - you save the room key 🤵  

@@ -28,13 +28,13 @@
 
 1. **How does a user open a new chat window with a domain?**
 
-    To open a new [Chat 💬](<01 💬 Chat.md>) window with a [Host 🤗 domain](<04 🤗🎭 Host role.md>), a user needs the [Host's Locator 🔆](<../22 🔆 Locators/01 🔆 Locator.md>) contained in one of the following technology forms.
+    To open a new [Chat 💬](<01 💬 Chat.md>) window with a [Host 🤗 domain](<04 🤗🎭 Host role.md>), a user needs the [Host's Locator 🔆](<../04 🔆 Locators/01 🔆 Locator.md>) contained in one of the following technology forms.
 
     |Technology|Details
     |-|-
-    |[✨ QR code](<../22 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>)| Users open the Wallet app on the device, then scan the QR code to open a chat window.
-    |[🔆 NFC tag](<../22 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>)| Users tap the NFC tag with their device, regardless of having the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) open - this opens a chat window on the Wallet.
-    |[🌐 Link](<../22 🔆 Locators/02 🧑‍🦰🌐 Wallet URLs.md>)| Users click the link/button on the traditional web browser of their device - this opens a chat window on the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+    |[✨ QR code](<../04 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>)| Users open the Wallet app on the device, then scan the QR code to open a chat window.
+    |[🔆 NFC tag](<../04 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>)| Users tap the NFC tag with their device, regardless of having the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) open - this opens a chat window on the Wallet.
+    |[🌐 Link](<../04 🔆 Locators/02 🧑‍🦰🌐 Wallet URLs.md>)| Users click the link/button on the traditional web browser of their device - this opens a chat window on the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
     |[🤔 Prompt](<02 🤔 Prompt.md>)| In a [Chat 💬](<01 💬 Chat.md>) window, the [Host 🤗 domain](<04 🤗🎭 Host role.md>) provides one or more options for the user to select from, and the user selects one - this opens a new [Chat 💬](<01 💬 Chat.md>) window.
 
     ----
@@ -42,7 +42,7 @@
 
 2. **What if the user doesn't have the domain's Locator?**
 
-    If a user doesn't know exactly where to find a [Locator 🔆](<../22 🔆 Locators/01 🔆 Locator.md>), they can use the [Finder 🔎 domain](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) to search for it;
+    If a user doesn't know exactly where to find a [Locator 🔆](<../04 🔆 Locators/01 🔆 Locator.md>), they can use the [Finder 🔎 domain](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) to search for it;
     * e.g., if a UK user wants to bind to the UK's national health service but doesn't know where to start, the user can ask for "health service" and the assistance replies with "NHS?".
 
     ---

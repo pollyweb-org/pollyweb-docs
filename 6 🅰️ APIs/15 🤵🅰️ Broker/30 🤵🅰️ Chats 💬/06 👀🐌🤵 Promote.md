@@ -5,7 +5,7 @@
 
 # 👀🐌🤵 Promote @ Broker
 
-> Ask the [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) to check-in into the selected [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>).
+> Ask the [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) to check-in into the selected [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>).
 
 > Used in [👀⏩🧑‍🦰 Advertise](<../../../5 ⏩ Flows/05 👀⏩ Advertisers/01 👀⏩🧑‍🦰 Advertise.md>)
 
@@ -30,5 +30,5 @@ Body:
 ||`To`       | string  | [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
 ||`Subject` | string | `Promote@Broker`
 |Body|`ChatID`        | uuid    | ID of the [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>)
-||`Locator`  | string  | [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) to promote
+||`Locator`  | string  | [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>) to promote
 |

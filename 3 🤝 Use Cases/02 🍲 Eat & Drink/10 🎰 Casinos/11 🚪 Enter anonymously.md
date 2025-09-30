@@ -24,7 +24,7 @@ Users can ask their [Identity 🆔 vault](<../../../4 ⚙️ Solution/30 🫥 Ag
 
 | Service | Prompt | User
 | - | - | - |
-| | | 🔆 [tap](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>)
+| | | 🔆 [tap](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>)
 | 🔎 [Finder](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Casino (4.4 ⭐) [+]
 | 🎰 Casino   | ℹ️ Request for minimum age. [+]
 | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)  | 🫥 Share over 21? [Yes, No]      | > Yes

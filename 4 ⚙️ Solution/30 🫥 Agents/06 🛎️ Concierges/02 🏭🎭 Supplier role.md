@@ -22,7 +22,7 @@
 
 2. **What are examples of Suppliers?**
 
-    * [Printer 🖨️ suppliers](<../../70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>) accept orders to print NFC/QR [Locators 🔆](<../../20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>), ship them to a destination, and manage the lifecycle of these Locators.
+    * [Printer 🖨️ suppliers](<../../70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>) accept orders to print NFC/QR [Locators 🔆](<../../20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>), ship them to a destination, and manage the lifecycle of these Locators.
 
     * [KeyMaker 🔐 suppliers](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/05  🔐🏭 Keymaker supplier.md>) accept requests to deliver and manage the lifecycle of [Padlock 🔒 device](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/01 🔒 Padlock device.md>).
 
