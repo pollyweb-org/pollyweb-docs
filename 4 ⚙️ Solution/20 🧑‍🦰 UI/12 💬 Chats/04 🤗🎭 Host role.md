@@ -133,6 +133,6 @@
 
     | Flow  | Description
     |-|-
-    | [🤗⏩🧑‍🦰 Prompt](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt.md>) | Sends a [Prompt 🤔](<02 🤔 Prompt.md>) to a user [Chat 💬](<01 💬 Chat.md>)
+    | [🤗⏩🧑‍🦰 Prompt](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt.md>) | Sends a [Prompt 🤔](<../13 🤔 Prompts/02 🤔 Prompt.md>) to a user [Chat 💬](<01 💬 Chat.md>)
     | [🤗⏩🧑‍🦰 Goodbye](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/02 🤗⏩🧑‍🦰 Goodbye.md>) | Triggers the [👀 advertising](<../../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) flow
     |
