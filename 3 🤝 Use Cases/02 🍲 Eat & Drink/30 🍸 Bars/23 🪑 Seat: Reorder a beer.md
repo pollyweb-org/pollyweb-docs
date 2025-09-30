@@ -8,7 +8,7 @@
 
 | Service | Prompt | User
 | - | - | - |
-| | | 🔆 [tap](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>)
+| | | 🔆 [tap](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>)
 | 🔎 [Finder](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Bar (4.4 ⭐) [+]
 | 🍸 Bar        | ℹ️ This is Table 23 at Any Bar.
 | 🍸 Bar        | 😃 What do you need? <br/>- [ Order ] <br/>- [ Something else ] | > Order

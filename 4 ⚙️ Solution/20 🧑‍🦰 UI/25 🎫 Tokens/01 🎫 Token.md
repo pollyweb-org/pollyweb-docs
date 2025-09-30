@@ -3,7 +3,7 @@
 
 1. **What is a Token?**
 
-    [Tokens 🎫](<01 🎫 Token.md>) are NFC/QR [Locators 🔆](<../22 🔆 Locators/01 🔆 Locator.md>) 
+    [Tokens 🎫](<01 🎫 Token.md>) are NFC/QR [Locators 🔆](<../04 🔆 Locators/01 🔆 Locator.md>) 
     * issued and signed by an [Issuer 🎴 domain](<02 🎴🎭 Issuer role.md>), 
     * that contain data to be shared with [Consumer 💼 domains](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>).
 
@@ -42,10 +42,10 @@
     |1| `Issue`| An [Issuer 🎴 domain](<02 🎴🎭 Issuer role.md>) issues a [Token 🎫](<01 🎫 Token.md>) the the user stores offline in the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
     |2| `In-Chat`| While in a [Chat 💬](<../23 💬 Chats/01 💬 Chat.md>) with a [Consumer 💼 host domain](<../27 💼 Consumers/04 💼🎭 Consumer role.md>), the user shares the [Token 🎫](<01 🎫 Token.md>).
     |3| `Userable` | Using their [Custodian 🧳 agent](<../../70 🌳 Ambient/71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>), users select which [Tokens 🎫](<01 🎫 Token.md>) to be automatically shared by a specific [Userable 💍 thing](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>).
-    | 4| `Userable`| When the NFC of the [Userable 💍 thing](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) is [tapped 🔆](<../22 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) on the [scanner ✨ device](<../../60 🧰 Edge/66 ✨ Scanners/06 ✨🔌 Scanner device.md>) of a [Consumer 💼 domain](<../27 💼 Consumers/04 💼🎭 Consumer role.md>), the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) shares the [Tokens 🎫](<01 🎫 Token.md>).
+    | 4| `Userable`| When the NFC of the [Userable 💍 thing](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) is [tapped 🔆](<../04 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) on the [scanner ✨ device](<../../60 🧰 Edge/66 ✨ Scanners/06 ✨🔌 Scanner device.md>) of a [Consumer 💼 domain](<../27 💼 Consumers/04 💼🎭 Consumer role.md>), the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) shares the [Tokens 🎫](<01 🎫 Token.md>).
     |5| `Printed`| From the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), users can print a [Token 🎫](<01 🎫 Token.md>).
     |6| `Printed` | The user can then present the printed [Token 🎫](<01 🎫 Token.md>) to the [scanner ✨ device](<../../60 🧰 Edge/66 ✨ Scanners/06 ✨🔌 Scanner device.md>) of a [Consumer 💼 domain](<../27 💼 Consumers/04 💼🎭 Consumer role.md>).
-    |7| `Identity` | If the [Token 🎫](<01 🎫 Token.md>) contains the [Locator 🔆](<../22 🔆 Locators/01 🔆 Locator.md>) of an [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>), then it means that the [Token 🎫](<01 🎫 Token.md>) was issued to a specific person only.
+    |7| `Identity` | If the [Token 🎫](<01 🎫 Token.md>) contains the [Locator 🔆](<../04 🔆 Locators/01 🔆 Locator.md>) of an [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>), then it means that the [Token 🎫](<01 🎫 Token.md>) was issued to a specific person only.
     |8| `Identity`| The [Consumer 💼 domain](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) can then ask the [Token's Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) to verify if it is really that person holding the presented [Token 🎫](<01 🎫 Token.md>) or not.
 
     ---
@@ -90,7 +90,7 @@
 
     | Service | Prompt | User
     | - | - | - |
-    | | | 🔆 [tap](<../22 🔆 Locators/01 🔆 Locator.md>)
+    | | | 🔆 [tap](<../04 🔆 Locators/01 🔆 Locator.md>)
     | 🔎 [Finder](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Casino (4.4 ⭐) [+]
     | 🎰 Casino   | ℹ️ Request for minimum age. [+]
     | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Share over 21? [Yes, No]      | > Yes
@@ -114,7 +114,7 @@
 
     | Service | Prompt | User 
     | - | - | - |
-    | | | 🔆 [tap](<../22 🔆 Locators/01 🔆 Locator.md>)
+    | | | 🔆 [tap](<../04 🔆 Locators/01 🔆 Locator.md>)
     | 🔎 [Finder](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Railway (4.3 ⭐) [+]
     | 🤵 [Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Ticket [token 🎟️](<01 🎫 Token.md>) shared [+]
     | 🚂 Railway | ℹ️ Ticket presented: <br>- from MAD T4 to MAD T2 
@@ -180,7 +180,7 @@
     
 7. **What data is contained in a Token?**
 
-    [Tokens 🎫](<01 🎫 Token.md>) derive from [Locators 🔆](<../22 🔆 Locators/01 🔆 Locator.md>), so they contain the following properties.
+    [Tokens 🎫](<01 🎫 Token.md>) derive from [Locators 🔆](<../04 🔆 Locators/01 🔆 Locator.md>), so they contain the following properties.
 
     ```yaml
     Code: nlweb.org/TOKEN:1.0

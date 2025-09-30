@@ -4,7 +4,7 @@ Buy a smart bus ticket at the bus stop 🚎
 
 | Service | Prompt | User
 | - | - | - |
-| | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>)
+| | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>)
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Operator (4.4 ⭐) [+]
 | 🚎 Operator | ℹ️ Stop X: Earl Gray
 | 🚎 Operator | 😃 Hi! What do you need? <br/>- [ Smart 🧭 ] ticket <br/>- [ Something else ] | > Smart 🧭

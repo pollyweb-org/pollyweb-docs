@@ -4,7 +4,7 @@ How to control the a hotel room's lights?
 | Service | Prompt | User
 | - | - | - |
 |...
-| | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) wall
+| | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>) wall
 | 🏨 Hotel  | 😃 Hi! What do you need? <br/> - Control [ lights ] <br/> - ... | > lights
 | 🏨 Hotel  | ℹ️ Lights are in bright mood.
 | 🏨 Hotel  | 💬 How can I help? [Don't] <br/> - [ ✨ ] turn all lights off   <br/> - [ 🕯 ] set ambient mood   <br/> - [ 💡 ] set bright mood  <br/> - [ 🔦L ] turn on left read light  <br/> - [ 🔦R ] turn off right read light <br/> - [ Something else 💬 ]  | > 🕯 

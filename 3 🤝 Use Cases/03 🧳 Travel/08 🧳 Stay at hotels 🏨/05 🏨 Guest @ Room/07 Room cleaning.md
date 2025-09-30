@@ -4,7 +4,7 @@ How to request room cleaning?
 | Service | Prompt | User
 | - | - | - |
 |...
-| | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>) wall
+| | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>) wall
 | 🏨 Hotel  | 😃 Hi! What do you need? <br/> - Room [ service ] <br/> - ... | > service
 | 🏨 Hotel  | 💬 How can I help? [Don't] <br/> - [ 🍲 ] food delivery <br/> - [ 🛁 ] change towels  <br/> - [ 💦 ] room cleaning  | >  💦
 | 🏨 Hotel  | ✅ Room cleaning requested. <br/> - [ Notify ] when done <br/> - [ Cancel ] request | > Notify

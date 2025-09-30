@@ -32,8 +32,8 @@
     |-|-|-
     | `ChatID` | `{GUID}` | The ID of the [Chat 💬](<01 💬 Chat.md>) on the [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>).
     | `Language` | `en-us` | The user's preferred language.
-    | `Locator`| `{GUID}` | The [Locator 🔆](<../22 🔆 Locators/01 🔆 Locator.md>) on the [Host 🤗 domain](<04 🤗🎭 Host role.md>).
-    | `Code` | `nlweb.org/HOST`| The [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) of the [Locator 🔆](<../22 🔆 Locators/01 🔆 Locator.md>).
+    | `Locator`| `{GUID}` | The [Locator 🔆](<../04 🔆 Locators/01 🔆 Locator.md>) on the [Host 🤗 domain](<04 🤗🎭 Host role.md>).
+    | `Code` | `nlweb.org/HOST`| The [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) of the [Locator 🔆](<../04 🔆 Locators/01 🔆 Locator.md>).
     | `Binds []` | `[{GUID}]` | The user's [Binds 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>) to the [Host 🤗 domain](<04 🤗🎭 Host role.md>).
     | `Tokens []` | `[{GUID}]` | The user's [Tokens](<../25 🎫 Tokens/01 🎫 Token.md>) automatically sharable.
     | `Request`  | `Back to hotel` | User request from a previous [Chat 💬](<01 💬 Chat.md>).

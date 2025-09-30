@@ -12,7 +12,7 @@ Use a washing machine on a self-service laundry
 
 | Service | Prompt | User
 | - | - | - |
-| | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/22 🔆 Locators/01 🔆 Locator.md>)
+| | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/04 🔆 Locators/01 🔆 Locator.md>)
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Laundry (4.4 ⭐) [+]
 | 🫧 Laundry | 😃 Hi! What do you need? <br/>- [ Wash ] <br/>- [ Something else ] | > Wash
 | 🫧 Laundry | 😃 How many minutes? [15, 60]| > 60
