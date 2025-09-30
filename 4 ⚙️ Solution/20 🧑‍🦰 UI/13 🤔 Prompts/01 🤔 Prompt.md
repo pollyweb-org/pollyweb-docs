@@ -84,19 +84,6 @@
     <br/>
 
 
-3. **How can Hosts protect users from input fatigue?**
-
-    NLWeb advocates for [Hosts 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) to request as little [Prompts 🤔](<01 🤔 Prompt.md>) from users as possible;
-    * instead, request users to share datasets using [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>);
-    * e.g., ask to share the code `nlweb.org/BOOKING/CONTACTS` instead of asking for the name, then the phone number, then the email address, and so on.
-  
-    When [Prompts 🤔](<01 🤔 Prompt.md>) are inevitable, avoid text prompts; 
-    * instead, prefer low-effort prompts;
-    * e.g., searchable lists with one or many possible options.
-
-    ---
-    <br/>
-
 
 3. **Can Hosts replace sent prompts?**
 
