@@ -7,7 +7,7 @@
 
 > Suppress [🖐️ Palm scans](<../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/22 🆔🖐️ Palm scan.md>) on Palmist devices.
 
-## Async Message 🐌
+## 🐌 Async Message
 
 
 ```yaml

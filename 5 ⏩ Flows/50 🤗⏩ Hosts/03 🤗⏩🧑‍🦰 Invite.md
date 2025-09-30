@@ -24,7 +24,7 @@ Consider the following [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23
 
 ## Talker 😃
 
-The associated  [Talker 😃](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 😃 Talker.md>) would be the following.
+The associated [Talker 😃](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 😃 Talker.md>) would be the following.
 
 ```yaml
 - INFO|I'll invite Host B.

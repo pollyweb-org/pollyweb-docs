@@ -8,7 +8,7 @@
 > A Broker unbinds a wallet user from a Vault.
 
 
-## Async Message 🐌
+## 🐌 Async Message
 
 
 ```yaml

@@ -7,7 +7,7 @@
 # 💳🐌🏦 Collect @ [Collector](<../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>)
 
 
-## Async Message 🐌
+## 🐌 Async Message
 
 |Property|Type|Description
 |-|-|-
