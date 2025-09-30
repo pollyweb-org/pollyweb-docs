@@ -1,10 +1,3 @@
-<!-- #TODO -->
-
-<!-- Docs: -->
-<!-- Code: -->
-<!-- Test: -->
-
-
 # 🤵💼🐌📣 Share @ Notifier
 
 > Sends [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) to a [💼 Consumer domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>).
