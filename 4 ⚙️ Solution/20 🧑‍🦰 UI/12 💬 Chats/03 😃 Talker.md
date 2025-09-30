@@ -89,9 +89,7 @@
    * `EAN|<message> >> <key>`	
        * Calls the [🛒 EAN Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>)
    * [`ℹ️ INFO`](<../13 🤔 Prompts/11 ℹ️ INFO prompt.md>)
-   * `TEMP|<message>|<options>`
-       * Calls the [⏳ TEMP Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
-       * Disappears any new [Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
+   * [`⏳ TEMP`](<../13 🤔 Prompts/12 ⏳ TEMP prompt.md>)
    * `SUCCESS|<message>|<options>`
        * Calls the [✅ SUCCESS Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
    * `FAILURE|<message>|<options>`

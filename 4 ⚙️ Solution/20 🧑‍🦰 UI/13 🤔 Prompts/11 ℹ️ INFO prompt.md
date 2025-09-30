@@ -4,7 +4,7 @@
 
 <br/>
 
-1. **What is a non-blocking info?**
+1. **What is a non-blocking INFO?**
 
     This is an informative [Prompt 🤔](<01 🤔 Prompt.md>) that does not require the user input.
 
@@ -25,23 +25,38 @@
 
 1. **What's an example in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
 
+    Consider the following [Talker 😃](<../12 💬 Chats/03 😃 Talker.md>).
+    
+    ```yaml
+    INFO|Simple info.
+    ```
+
     | Service | Prompt | User
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Simple info.
-    | [🫥 Agent](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | ⓘ Info from an agent.
-    | [🛠️ Helper](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | ⓘ Info from a guest.
+    | [🫥 Agent](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | ⓘ Simple info.
+    | [🛠️ Helper](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | ⓘ Simple info.
     
-
+    
     ---
     <br/>
 
 
 2. **What's an expandable example in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
 
+    Consider the following [Talker 😃](<../12 💬 Chats/03 😃 Talker.md>).
+    
+    ```yaml
+    INFO|Expandable info:
+        Details: |
+            - long text
+            - full of details
+    ```
+
     | Service | Prompt | User
     | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Collapsed details [+]
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Expanded details [-]<br/>- long text  <br/>- full of details
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Expandable info [+] | > +
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Expandable info [-]<br/>- long text  <br/>- full of details
     |
 
     Usage examples:
@@ -52,6 +67,10 @@
     <br/>
 
 3. **What's an example with non-blocking options in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
+
+    ```yaml
+    INFO|With options|[Cancel] later, [Play] music >> answer
+    ```
 
     | Service | Prompt | User
     | - | - | - |
@@ -65,46 +84,24 @@
     <br/>
 
 
-5. **What are business cases?**
-
-    |Category|Use case
-    |-|-
-    |`Options`|
-
-    ---
-    <br/>
-
-
-1. **What's the format for a [Talker 😃](<../12 💬 Chats/03 😃 Talker.md>)?**
+4. **What's the format for a [Talker 😃](<../12 💬 Chats/03 😃 Talker.md>)?**
 
     ```yaml
-    INFO|<message>|<options> >> <key>
+    INFO|<message>|<options> >> <key>:
+        Details: <details>
     ```
-    * Options are optional, comma separated (e.g., `Erase, Duplicate`)
-
     
-
-    |Parameter|Details
-    |-|-
-    | `message` | 
-    | `options` | List of options (optional)
-    | `key`     | Stores the answer with this key
     ---
     <br/>
 
-2. **What's an example of a [Talker 😃](<../12 💬 Chats/03 😃 Talker.md>)?**
-
-    ```yaml
-    INFO|{item}|Details,Remove >> option
-    ```
-
-    ---
-    <br/>
 
 3. **What's the response in the [Prompted@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**
 
     ```yaml
-    
+    Format: INFO
+    Message: <message>
+    Options: <options>
+    Details: <details>
     ```
 
     ---
@@ -113,5 +110,5 @@
 4. **What's the Answer in the [Reply@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) method?**
 
     ```yaml
-    
+    Answer: <selected-option> # if any
     ```
