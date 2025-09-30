@@ -7,14 +7,28 @@
 
 <br/>
 
-## Chat 💬
+## 💬 Chat 
+
+Consider the following excerpt from the [Book restaurant table 🤝 use case](<../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/31 🌐 Web: Book table 🗓️.md>).
 
 | Service | Prompt | User
 | - | - | - |
-| 🎴 [Issuer](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) | ⏳ Issuing your token...
-| 🤵 [Broker](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Save token? [Yes, No]  | > Yes
+| 🎴 [Issuer](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) | ℹ️ Issuing your token...
+| 🤵 [Broker](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Save booking? [Yes, No]  | > Yes
 | 🎴 [Issuer](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) | ✅ Saved to your wallet.
 ||
+
+<br/>
+
+## 😃 Talker 
+
+The associated  [Talker 😃](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/03 😃 Talker.md>) would be the following.
+
+```yaml
+- INFO|Issuing your token...
+- ISSUE|nlweb.org/HOST/BOOKING/SELF|{bookingUUID}
+- SUCCESS|Saved to your wallet.
+```
 
 <br/>
 

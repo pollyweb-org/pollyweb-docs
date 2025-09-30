@@ -52,7 +52,7 @@ end group
 group show ads
 
     activate ads
-        ads --> user: 8) ⏪ prompt {next best actions}
+        ads --> user: 8) ⏪ Prompt 🤔 {next best actions}
     deactivate ads
     
     ' Answer to reviewer.
