@@ -3,7 +3,7 @@
 
 1. **What is a Prompt?**
 
-    A [Prompt 🤔](<02 🤔 Prompt.md>) is 
+    A [Prompt 🤔](<01 🤔 Prompt.md>) is 
     * a line in [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) 
     * sent by a [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) 
     * with a question or information to the user
@@ -16,9 +16,9 @@
 
 1. **What input formats can Hosts ask Wallets to render?**
 
-    Similar to HTTP, on NLWeb the [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) servers request the [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to render the requested [Prompts 🤔](<02 🤔 Prompt.md>).
+    Similar to HTTP, on NLWeb the [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) servers request the [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to render the requested [Prompts 🤔](<01 🤔 Prompt.md>).
 
-    * The supported [Prompt 🤔](<02 🤔 Prompt.md>) formats are as follow.
+    * The supported [Prompt 🤔](<01 🤔 Prompt.md>) formats are as follow.
 
     | Format | Description
     |-|-
@@ -53,7 +53,7 @@
 
 2. **What does a Prompt request look like?**
 
-    The following is an example of a [Prompt 🤔](<02 🤔 Prompt.md>) request, as described in [Prompted@Host 🚀](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>).
+    The following is an example of a [Prompt 🤔](<01 🤔 Prompt.md>) request, as described in [Prompted@Host 🚀](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>).
 
     ```yaml
     Format: ONE
@@ -81,35 +81,35 @@
 
 2. **How do Prompt emojis work?**
 
-    [Prompt 🤔](<02 🤔 Prompt.md>) emojis are visual clues for users.
+    [Prompt 🤔](<01 🤔 Prompt.md>) emojis are visual clues for users.
 
     - **Non-blocking info ℹ️ ⓘ**
         - this is an informative prompt that does not require the user input;
         - if it contains options, then the user may click an option any time 
-          - i.e., before or after the [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) sends other subsequent [Prompts 🤔](<02 🤔 Prompt.md>);
+          - i.e., before or after the [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) sends other subsequent [Prompts 🤔](<01 🤔 Prompt.md>);
         - the strong info emoji ℹ️ represents the chat's [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>);
         - the faded info emoji ⓘ represents other domains that have been pulled into the [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)chat.
     
     - **Non-blocking temporary info ⏳**
-        - this is an info [Prompt 🤔](<02 🤔 Prompt.md>) that is automatically removed when a new prompt arrives;
+        - this is an info [Prompt 🤔](<01 🤔 Prompt.md>) that is automatically removed when a new prompt arrives;
         - if it contains options, then the user may click an option while it's visible.
     
     - **Non-blocking result ✅**
-        - this is an info [Prompt 🤔](<02 🤔 Prompt.md>) that signals the user that the transaction is completed and there are no further inputs required - they can put down the phone.
+        - this is an info [Prompt 🤔](<01 🤔 Prompt.md>) that signals the user that the transaction is completed and there are no further inputs required - they can put down the phone.
     
     - **Non-blocking failure ❌**
-        - this is an info [Prompt 🤔](<02 🤔 Prompt.md>) that signals the user that the transaction was not successful;
+        - this is an info [Prompt 🤔](<01 🤔 Prompt.md>) that signals the user that the transaction was not successful;
         - it's typically followed by a prompt to help the user fix the problem.
     
     - **Blocking structured questions 😃 😐 🫥**
-        - this is a blocking input [Prompt 🤔](<02 🤔 Prompt.md>) that requires the user to answer it in a structured format (e.g., date, number, radio, checklist);
+        - this is a blocking input [Prompt 🤔](<01 🤔 Prompt.md>) that requires the user to answer it in a structured format (e.g., date, number, radio, checklist);
         - it addresses the basic needs of a standard structured form with multiple input fields.
         - the happy emoji 😃 represent the chat's [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>);
         - the neutral emoji 😐 also represents the [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>), while providing an alternative neutral face when a smile is not adequate (e.g., in an emergency situation);
         - the faded emoji 🫥 represents other domains that have been pulled into the chat.
   
     - **Blocking unstructured questions 💬 💭**
-        - this is a blocking input [Prompt 🤔](<02 🤔 Prompt.md>) that allows the user to type something instead of having to follow a structured format;
+        - this is a blocking input [Prompt 🤔](<01 🤔 Prompt.md>) that allows the user to type something instead of having to follow a structured format;
         - it allows for large-language models (LLMs) to interpret the user's intent from natural language text, while also providing a structured input to facilitate the user's interaction;
           - e.g., a user may select the "Yes" option, or type "ok" in the textbox;
         - the speech emoji 💬 represent the chat's [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>);
@@ -121,11 +121,11 @@
 
 8. **How can Hosts protect users from input fatigue?**
 
-    NLWeb advocates for [Hosts 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) to request as little [Prompts 🤔](<02 🤔 Prompt.md>) from users as possible;
+    NLWeb advocates for [Hosts 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) to request as little [Prompts 🤔](<01 🤔 Prompt.md>) from users as possible;
     * instead, request users to share datasets using [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>);
     * e.g., ask to share the code `nlweb.org/BOOKING/CONTACTS` instead of asking for the name, then the phone number, then the email address, and so on.
   
-    When [Prompts 🤔](<02 🤔 Prompt.md>) are inevitable, avoid text prompts; 
+    When [Prompts 🤔](<01 🤔 Prompt.md>) are inevitable, avoid text prompts; 
     * instead, prefer low-effort prompts;
     * e.g., searchable lists with one or many possible options.
 
@@ -135,9 +135,9 @@
 
 3. **Can Hosts replace sent prompts?**
 
-    Yes, but only temporary [Prompts 🤔](<02 🤔 Prompt.md>). 
-    - If a [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) sends  two consecutive blocking [Prompts 🤔](<02 🤔 Prompt.md>) while the user has not answered the first, then the first becomes readonly and the second becomes the active input.
-    - If the [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) wants a [Prompts 🤔](<02 🤔 Prompt.md>) to be visually replaced, then they need to use a temporary [Prompts 🤔](<02 🤔 Prompt.md>), visually represented by an hourglass ⏳ emoji. 
+    Yes, but only temporary [Prompts 🤔](<01 🤔 Prompt.md>). 
+    - If a [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) sends  two consecutive blocking [Prompts 🤔](<01 🤔 Prompt.md>) while the user has not answered the first, then the first becomes readonly and the second becomes the active input.
+    - If the [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) wants a [Prompts 🤔](<01 🤔 Prompt.md>) to be visually replaced, then they need to use a temporary [Prompts 🤔](<01 🤔 Prompt.md>), visually represented by an hourglass ⏳ emoji. 
     - This is particularly useful when [preparing food 🤝](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/53 🪑 Seat: Change order 🌀.md>), when [waiting food orders 🤝](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/82 🧑‍🍳 Chef: Prepare food 🥘.md>), and when reminding users of [upcoming bookings 🤝](<../../../3 🤝 Use Cases/03 🧳 Travel/05 🧳 Travel by hailing 🙋/1 🙋 Customer @ Home 🏠/12 🏠 Book.md>).
 
     ---
@@ -152,7 +152,7 @@
     * For example, the user did A, B, C, D, E; then went back to B and changed the history to A, B, X, Y, Z. 
     * This worked because step B had an option set by the [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) that allowed the user to go back and change the workflow path.
 
-    In NLWeb, these option sets can be added only to non-blocking [Prompts 🤔](<02 🤔 Prompt.md>).
+    In NLWeb, these option sets can be added only to non-blocking [Prompts 🤔](<01 🤔 Prompt.md>).
 
     - The non-blocking prompts include `TEMP ⏳`, `INFO ℹ️`, and `SUCCESS ✅`.
     - This is particularly helpful when [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) want to assign default values to options to speed up the process (e.g., [navigation options 🤝](<../../../3 🤝 Use Cases/03 🧳 Travel/01 🧳 Plans trips 🧭/02 🧭 Return @ Destination.md>)), while still allowing users to go back and change those default options.
