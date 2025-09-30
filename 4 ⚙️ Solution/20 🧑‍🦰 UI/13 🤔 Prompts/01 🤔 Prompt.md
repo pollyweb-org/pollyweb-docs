@@ -28,8 +28,8 @@
     || [`🕓 TIME`](<27 🕓 TIME prompt.md>) [`📆 DATE`](<27 📆 DATE prompt.md>) [`🗓️ UNTIL`](<27 🗓️ UNTIL prompt.md>) 
     || [`⬆️ UPLOAD`](<51 ⬆️ UPLOAD prompt.md>) [`⬇️ DOWNLOAD`](<52 ⬇️ DOWNLOAD prompt.md>) 
     || [`🔠 TEXT`](<31 🔠 TEXT prompt.md>) 
-    |[Location](<60 Location prompts.md>)| [`📍 LOCATION`](<61 📍 LOCATION prompt.md>) [`🗺️ TRACK`](<62 🗺️ TRACK prompt.md>)
-    |[Scans](<40 Scans.md>)| [`👤 IDENTIFY`](<41 👤 IDENTIFY prompt.md>) [`🛒 EAN`](<44 🛒 EAN prompt.md>) [`🔆 SCAN`](<42 🔆 SCAN prompt.md>) [`🦋 TOUCH`](<43 🦋 TOUCH prompt.md>) 
+    || [`📍 LOCATION`](<61 📍 LOCATION prompt.md>) [`🗺️ TRACK`](<62 🗺️ TRACK prompt.md>)
+    || [`👤 IDENTIFY`](<41 👤 IDENTIFY prompt.md>) [`🛒 EAN`](<44 🛒 EAN prompt.md>) [`🔆 SCAN`](<42 🔆 SCAN prompt.md>) [`🦋 TOUCH`](<43 🦋 TOUCH prompt.md>) 
 
 
     ---
