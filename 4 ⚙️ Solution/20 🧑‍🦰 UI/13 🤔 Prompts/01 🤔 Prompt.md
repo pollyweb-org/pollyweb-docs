@@ -22,14 +22,14 @@
 
     |Behavior| Format 
     |-|-
-    |[Non-blocking](<10 Non-blocking status.md>)| [`ℹ️ INFO`](<11 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<12 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<13 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<14 ❌ FAILURE prompt.md>)
-    |[Blocking](<20 Blocking inputs.md>)| [`💯 INT`](<21 💯 INT prompt.md>) [`🔄 QUANTITY`](<21 🔄 QUANTITY prompt.md>) [`💰 AMOUNT`](<22 💰 AMOUNT prompt.md>) [`🔑 OTP`](<21 🔑 OTP prompt.md>) [`⭐ RATE`](<26 ⭐ RATE prompt.md>) 
+    |[`Status`](<10 Non-blocking status.md>)| [`ℹ️ INFO`](<11 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<12 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<13 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<14 ❌ FAILURE prompt.md>)
+    |[`Inputs`](<20 Blocking inputs.md>)| [`💯 INT`](<21 💯 INT prompt.md>) [`🔄 QUANTITY`](<21 🔄 QUANTITY prompt.md>) [`💰 AMOUNT`](<22 💰 AMOUNT prompt.md>) [`🔑 OTP`](<21 🔑 OTP prompt.md>) [`⭐ RATE`](<26 ⭐ RATE prompt.md>) 
     || [`👍 CONFIRM`](<24 👍 CONFIRM prompt.md>) [`1️⃣ ONE`](<25 1️⃣ ONE prompt.md>) [`🔢 MANY`](<25 🔢 MANY prompt.md>) 
     || [`🕓 TIME`](<27 🕓 TIME prompt.md>) [`📆 DATE`](<27 📆 DATE prompt.md>) [`🗓️ UNTIL`](<27 🗓️ UNTIL prompt.md>) 
     || [`⬆️ UPLOAD`](<51 ⬆️ UPLOAD prompt.md>) [`⬇️ DOWNLOAD`](<52 ⬇️ DOWNLOAD prompt.md>) 
     || [`🔠 TEXT`](<31 🔠 TEXT prompt.md>) 
-    || [`📍 LOCATION`](<61 📍 LOCATION prompt.md>) [`🗺️ TRACK`](<62 🗺️ TRACK prompt.md>)
     || [`👤 IDENTIFY`](<41 👤 IDENTIFY prompt.md>) [`🛒 EAN`](<44 🛒 EAN prompt.md>) [`🔆 SCAN`](<42 🔆 SCAN prompt.md>) [`🦋 TOUCH`](<43 🦋 TOUCH prompt.md>) 
+    |`Special`| [`📍 LOCATION`](<61 📍 LOCATION prompt.md>) [`🗺️ TRACK`](<62 🗺️ TRACK prompt.md>)
 
 
     ---

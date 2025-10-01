@@ -4,8 +4,15 @@
 
 <br/> 
 
-1. **What are the non-blocking status prompts?**
+1. **What are non-blocking status prompts?**
 
+    These are [Prompts 🤔](<01 🤔 Prompt.md>) that don't wait for user input.
+
+    ---
+    <br/>
+
+2. **What non-blocking prompts exist?**
+   
     || Format | Description
     |-|-|-
     || [ℹ️&nbsp;INFO](<11 ℹ️ INFO prompt.md>) | General information.
@@ -16,7 +23,7 @@
     ---
     <br/>
 
-1. **How do options work?**
+3. **How do options work?**
    
     Non-blocking prompts support [ONE 1️⃣ prompt](<25 1️⃣ ONE prompt.md>) options.
     - If it contains options, then the user may click an option any time 
