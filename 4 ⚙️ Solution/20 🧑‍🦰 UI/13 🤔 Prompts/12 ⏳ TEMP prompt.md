@@ -1,6 +1,6 @@
 # Non-blocking temporary info ⏳
 
-> Part of [Non-blocking status prompts 🤔](<10 Non-blocking status.md>)
+> Part of [Non-blocking status prompts 🤔](<02 Non-blocking prompts.md>)
 
 <br/>
 

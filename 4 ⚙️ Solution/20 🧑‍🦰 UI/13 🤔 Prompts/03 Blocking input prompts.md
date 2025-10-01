@@ -72,7 +72,7 @@
     On a [Talker 😃](<../12 💬 Chats/03 😃 Talker.md>):
 
     ```yaml
-    CONFIRM|Are you OK? >> status:
+    CONFIRM|Are you OK? >> my-status:
         Emoji: 😕
     ```
     
@@ -118,7 +118,7 @@
     On a [Talker 😃](<../12 💬 Chats/03 😃 Talker.md>):
 
     ```yaml
-    INT|Enter a 6-digit code >> code:
+    INT|Enter a 6-digit code >> my-code:
         MinLength: 6
         MaxLength: 6
     ```
@@ -145,6 +145,23 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ❌ Enter a 6 digit number
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What's the code? [+]<br/> | `012345`
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Code validated!
+
+    The related [Talker 😃](<../12 💬 Chats/03 😃 Talker.md>) would be.
+
+    ```yaml
+    💬 Form:
+    - RUN|get-code
+    - RUN|get-something-else
+
+    get-code:
+    - INT|What's the code? >> my-code:
+        Details: This is a 6 digit number
+    - IF|{invalid-code}|get-code-failure
+
+    get-code-failure:
+    - FAILURE|Enter a 6 digit number
+    - RUN|get-code
+    ```
 
     ---
     <br>

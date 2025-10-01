@@ -1,8 +1,16 @@
 # 🗺️ TRACK prompt
 
-> Part of [blocking input prompts 🤔](<20 Blocking inputs.md>)
+> Part of [blocking input prompts 🤔](<03 Blocking input prompts.md>)
 
 <br/>
+
+1. **Whats a TRACK prompt?**
+
+    It's a [Prompt 🤔](<01 🤔 Prompt.md>) that asks for the user's current location.
+
+    ---
+    <br/>
+
 
 1. **What's an example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
 

@@ -1,10 +1,18 @@
 # 📍 LOCATION prompt
 
-> Part of [blocking input prompts 🤔](<20 Blocking inputs.md>)
+> Part of [blocking input prompts 🤔](<03 Blocking input prompts.md>)
 
 <br/>
 
-1. **What's an example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
+1. **Whats a LOCATION prompt?**
+
+    It's a [Prompt 🤔](<01 🤔 Prompt.md>) that asks for the user's current location.
+
+    ---
+    <br/>
+
+
+2. **What's an example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
 
     | Service | Prompt | User
     | - | - | - |
@@ -15,7 +23,7 @@
     ---
     <br/>
 
-1. **What are business cases?**
+3. **What are business cases?**
 
     |Category|Use case
     |-|-

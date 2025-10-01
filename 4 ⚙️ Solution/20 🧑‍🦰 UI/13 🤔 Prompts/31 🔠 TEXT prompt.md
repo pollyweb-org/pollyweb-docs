@@ -1,6 +1,6 @@
 # 🔠 TEXT prompt
 
-> Part of [blocking input prompts 🤔](<20 Blocking inputs.md>)
+> Part of [blocking input prompts 🤔](<03 Blocking input prompts.md>)
 
 
 This is a blocking input [Prompt 🤔](<01 🤔 Prompt.md>) that allows the user to type something instead of having to follow a structured format;
