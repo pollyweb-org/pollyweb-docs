@@ -33,8 +33,9 @@
         * Top menu entry - i.e., the "what?"
     * `<procedure>:`   
         * Executable procedure.
-    * `{function}`	
+    * [`{function}`](<12 Function block.md>)
         * Calculates the value with a function.
+
   
     ---
     <br/>
