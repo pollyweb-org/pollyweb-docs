@@ -92,7 +92,8 @@
    * [`⏳ TEMP`](<../13 🤔 Prompts/12 ⏳ TEMP prompt.md>)
    * [`✅ SUCCESS`](<../13 🤔 Prompts/13 ✅ SUCCESS prompt.md>)
    * [`❌ FAILURE`](<../13 🤔 Prompts/14 ❌ FAILURE prompt.md>)
-   * [`💯 INT`](<../13 🤔 Prompts/21 💯 INT prompt.md>)
+   * [`🔢 INT`](<../13 🤔 Prompts/21 🔢 INT prompt.md>)
+   * [`🔄 QUANTITY`](<../13 🤔 Prompts/21 🔄 QUANTITY prompt.md>)
    * [`📍 LOCATION`](<../13 🤔 Prompts/61 📍 LOCATION prompt.md>)
    * `MANY|<message>|<options> >> <key>`	
        * Calls the [🔢 MANY Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
@@ -102,9 +103,6 @@
        * Calls the [1️⃣ ONE Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
        * Options are comma separated (e.g., `1:Milk, 2:Sugar, R:Rice`)
        * Example: `ONE|What item?|Milk,Sugar,Rice >> item`
-   * `QUANTITY|<message> >> <key>`	
-
-       * Example: `QUANTITY|How many? >> qt`
    * `SCAN|<message>`	
        * Calls the [🔆 SCAN Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
    * `SELFIE|<message>`	

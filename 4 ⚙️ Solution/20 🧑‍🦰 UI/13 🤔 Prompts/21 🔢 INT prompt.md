@@ -1,4 +1,4 @@
-# 💯 INT prompt
+# 🔢 INT prompt
 
 > Part of [blocking input prompts 🤔](<03 Blocking input prompts.md>)
 
@@ -8,6 +8,7 @@
 1. **What's an INT prompt?**
 
     It's a [Prompt 🤔](<01 🤔 Prompt.md>) that shows the numeric keypad.
+    * Allows for leading zeros - e.g., for UK phone numbers like 07482000000.
 
     ---
     <br/>
@@ -22,9 +23,13 @@
 
     | Service | Prompt | User
     | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What's the code? | `0123`
-    [🫥 Agent](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | 🫥 What's the code? | `01234`
-    | [🛠️ Helper](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | 🫥 What's the code? | `000`
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What's the code? | 🔢 0123
+    [🫥 Agent](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | 🫥 What's the code? | 🔢 01234
+    | [🛠️ Helper](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | 🫥 What's the code? | 🔢 000
+    |
+
+    Usage example:
+    * [Enter the item number at a vending machine 🏪](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/11 💧 Buy water.md>)
 
     ---
     <br/>
