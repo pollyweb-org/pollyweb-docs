@@ -4,7 +4,7 @@
 
 <br/>
 
-1. **Whats a LOCATION prompt?**
+1. **What's a LOCATION prompt?**
 
     It's a [Prompt 🤔](<01 🤔 Prompt.md>) that asks for the user's current location.
 
