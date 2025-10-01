@@ -42,19 +42,32 @@
 
     | Service | Prompt | User
     | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What time tomorrow? <br/> - [ 10:00 ] <br/> - [ 10:30 ] <br/> - [ Another ] time | > Another
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 [What time tomorrow?](<25 1️⃣ ONE prompt.md>) <br/> - [ 10:00 ] <br/> - [ 10:30 ] <br/> - [ Another ] time | > Another
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 When exactly? | 🕓 10:37:00
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Thanks!
     |
+
+    <br/>
 
     The associated [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>) would be the following.
 
     ```yaml
     💬 Schedule for tomorrow:
     - ONE|What time tomorrow?|{time-options} >> my-var
-    - IF|{another-time}:
+    - IF|{:my-var==Another}:
         Then: TIME|When exactly? >> my-var
     - SUCCESS|Thanks!
+    ```
+
+    ```python
+    # Python handler
+    def talkerHandler(args):
+        if args['function'] == 'time-options':
+            return [
+                "10:00",
+                "10:30",
+                "Another"
+            ]
     ```
 
     ---
