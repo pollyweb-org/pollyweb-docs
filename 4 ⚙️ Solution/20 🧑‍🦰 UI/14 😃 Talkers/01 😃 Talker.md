@@ -5,14 +5,14 @@
 
 1. **What is a Talker?**
 
-    [Talkers 😃](<01 😃 Talker.md>) are scripts to render dialogs in a [💬 Chat](<01 💬 Chat.md>)../12 💬 Chats/01 💬 Chat.md
+    [Talkers 😃](<01 😃 Talker.md>) are scripts to render dialogs in a [💬 Chat](<../12 💬 Chats/01 💬 Chat.md>)../12 💬 Chats/01 💬 Chat.md
 
     ---
     <br/>
 
 1. **Why are Talkers important?**
 
-    [Talkers 😃](<01 😃 Talker.md>) dramatically reduce the time to build a [Host 🤗 domain](<04 🤗🎭 Host ro../12 💬 Chats/04 🤗🎭 Host role.mdng the workflow orchestration of a [💬 Chat](<01 💬 Chat.md>)../12 💬 Chats/01 💬 Chat.md
+    [Talkers 😃](<01 😃 Talker.md>) dramatically reduce the time to build a [Host 🤗 domain](<../12 💬 Chats/01 💬 Chat.md>)../12 💬 Chats/01 💬 Chat.md
 
     * They allow [Hoster 🧑‍💻 helper domains](<../12 💬 Chats/05 🧑‍💻🛠️ Hoster helper.md>) to manage the workflow state on behalf of [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>), removing the undifferentiated heavy-lifting of handling [Prompts 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>) communications, and invoking [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) only when it's necessary to execute business-specific logic.
     ---
