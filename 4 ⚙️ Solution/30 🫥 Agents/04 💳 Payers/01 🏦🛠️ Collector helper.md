@@ -117,7 +117,7 @@
     |...
     | 🤗 Host | ℹ️ Let me get you the bill.
     | 💳 [Payer](<03 💳🎭 Payer role.md>) | 🫥 Pay $12.95 bill? 🧾 [No]  <br/>- [ ✂️ Split bill ] <br/>- ... | > Split bill
-    | [🏦 Collector](<01 🏦🛠️ Collector helper.md>) | 😃 Slip by how many? | 🔢 3
+    | [🏦 Collector](<01 🏦🛠️ Collector helper.md>) | 😃 Slip by how many? | 🔄 3
     | [🏦 Collector](<01 🏦🛠️ Collector helper.md>) | ⏳ Waiting for 3x $4.31... <br/>- [ pay my part ]  <br/> - [ cancel split ]| > pay my part
     | 💳 [Payer](<03 💳🎭 Payer role.md>) | 🫥 Pay $4.33 partial bill? 🧾 [No] <br/>- [ card ABC ] + $0.10 <br/>- [ card DEF ] (free) | > card ABC
     | 💳 [Payer](<03 💳🎭 Payer role.md>) | 🫥 Add tip? [No, 10%, +] | > 10%

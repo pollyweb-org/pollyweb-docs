@@ -20,7 +20,7 @@
     |Format | Description
     |-|-
     | [👍&nbsp;CONFIRM](<24 👍 CONFIRM prompt.md>) | Yes, No, Cancel
-    | [💯&nbsp;INT](<21 💯 INT prompt.md>) | Shows the numeric keypad
+    | [🔢&nbsp;INT](<21 🔢 INT prompt.md>) | Shows the numeric keypad
     | [🔄&nbsp;QUANTITY](<21 🔄 QUANTITY prompt.md>) | Shows up/down arrows.
     | [💰&nbsp;AMOUNT](<22 💰 AMOUNT prompt.md>) | Allows for decimals
     | [🔑&nbsp;OTP](<21 🔑 OTP prompt.md>) | Asks for 6 digits
