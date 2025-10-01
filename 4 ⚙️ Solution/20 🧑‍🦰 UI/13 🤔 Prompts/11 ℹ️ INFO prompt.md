@@ -112,3 +112,6 @@
     ```yaml
     Answer: <selected-option> # if any
     ```
+
+    ---
+    <br/>

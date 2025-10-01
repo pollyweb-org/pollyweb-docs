@@ -90,8 +90,7 @@
        * Calls the [🛒 EAN Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>)
    * [`ℹ️ INFO`](<../13 🤔 Prompts/11 ℹ️ INFO prompt.md>)
    * [`⏳ TEMP`](<../13 🤔 Prompts/12 ⏳ TEMP prompt.md>)
-   * `SUCCESS|<message>|<options>`
-       * Calls the [✅ SUCCESS Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
+   * [`✅ SUCCESS`](<../13 🤔 Prompts/13 ✅ SUCCESS prompt.md>)
    * `FAILURE|<message>|<options>`
        * Calls the [❌ FAILURE Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
    * `INT|<message> >> <key>`	
