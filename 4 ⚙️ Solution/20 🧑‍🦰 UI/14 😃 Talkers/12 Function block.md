@@ -31,8 +31,9 @@
     ```python
     # Python handler
     def talkerHandler(args):
-        if args['function'] == 'return-some-text':
-            return "Some text"
+        match args['function']:
+            case 'return-some-text':
+                return "Some text"
     ```
 
     | Service | Prompt | User

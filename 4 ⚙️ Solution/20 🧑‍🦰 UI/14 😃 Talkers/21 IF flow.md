@@ -7,15 +7,17 @@
 
 1. **What's an IF flow?**
 
-    An `IF` is a command that runs a [Procedure](<11 Procedure block.md>) based on a [Function](<12 Function block.md>).
+    An `IF` is a [Command](<10 Command.md>)  that runs a [Procedure](<11 Procedure block.md>) or [Command](<10 Command.md>) based on the evaluation of a boolean [Function](<12 Function block.md>).
 
     ---
     <br/>
 
-1. **What's the syntax for procedures?**
+2. **What's the inline syntax?**
+
+    > Note: this option only allows [Procedures](<11 Procedure block.md>), not [Commands](<10 Command.md>).
    
     ```yaml
-    IF|{function}|<true-procedure>|<false-procedure>
+    - IF|{function}|<true-procedure>|<false-procedure>
     ```
 
     | Argument| Purpose
@@ -26,21 +28,21 @@
     
 
     ```yaml
-    💬 If-them example:
-    - IF|{code-is-correct}|correct-code
+    💬 If-then example:
+    - IF|{code-is-correct}|CorrectCode
 
-    correct-code:
+    CorrectCode:
     - SUCCESS|Code is correct!
     ```
 
     ```yaml
     💬 If-then-else example:
-    - IF|{code-is-correct}|correct-code|wrong-code
+    - IF|{code-is-correct}|CorrectCode|WrongCode
 
-    correct-code:
+    CorrectCode:
     - SUCCESS|Code is correct!
 
-    wrong-code:
+    WrongCode:
     - FAILURE|Code is wrong!
     ```
 
@@ -48,10 +50,12 @@
     <br/>
 
 
-1. **What's the syntax for single commands?**
+3. **What's the multiline syntax?**
+
+    > This option allows both [Procedures](<11 Procedure block.md>) and [Commands](<10 Command.md>).
    
     ```yaml
-    IF|{function}:
+    - IF|{function}:
         Then: <true-action>
         Else: <false-action>
     ```
@@ -72,9 +76,9 @@
     💬 If-then-else example:
     - IF|{code-is-correct}:
         Then: SUCCESS|Code is correct!
-        Else: error-handling-procedure 
+        Else: ErrorHandlingProcedure
         
-    error-handling-procedure:
+    ErrorHandlingProcedure:
     - FAILURE|Code is wrong!
     ```
 
