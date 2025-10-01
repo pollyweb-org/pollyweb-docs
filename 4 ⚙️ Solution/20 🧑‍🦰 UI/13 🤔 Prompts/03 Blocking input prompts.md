@@ -25,7 +25,7 @@
     | [💰&nbsp;AMOUNT](<22 💰 AMOUNT prompt.md>) | Allows for decimals
     | [🔑&nbsp;OTP](<21 🔑 OTP prompt.md>) | Asks for 6 digits
     | [1️⃣&nbsp;ONE](<25 1️⃣ ONE prompt.md>) | One of multiple options
-    | [🔢&nbsp;MANY](<25 🔢 MANY prompt.md>) | Zero or more of multiple options
+    | [🔠&nbsp;MANY](<25 🔠 MANY prompt.md>) | Zero or more of multiple options
     | [⭐&nbsp;RATE](<26 ⭐ RATE prompt.md>) | 1 to 5 stars
     | [🕓&nbsp;TIME](<27 🕓 TIME prompt.md>) | Asks for time of day
     | [📆&nbsp;DATE](<27 📆 DATE prompt.md>) | Asks for a date
