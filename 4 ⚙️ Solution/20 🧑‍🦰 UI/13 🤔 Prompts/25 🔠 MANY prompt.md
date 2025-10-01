@@ -1,4 +1,4 @@
-# 🔢 MANY prompt
+# 🔠 MANY prompt
 
 > Part of [blocking input prompts 🤔](<03 Blocking input prompts.md>)
 

@@ -103,7 +103,7 @@
        * Options are comma separated (e.g., `1:Milk, 2:Sugar, R:Rice`)
        * Example: `ONE|What item?|Milk,Sugar,Rice >> item`
    * `QUANTITY|<message> >> <key>`	
-       * Calls the [↕️ QUANTITY Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
+
        * Example: `QUANTITY|How many? >> qt`
    * `SCAN|<message>`	
        * Calls the [🔆 SCAN Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)

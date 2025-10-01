@@ -1,5 +1,4 @@
-How to book a table at a restaurant?
----
+# How to book a table at a restaurant?
 
 > From [Eat at restaurants 🍽️](<01 🍽️ Index.md>)
 
@@ -37,7 +36,7 @@ How to book a table at a restaurant?
 - IF|{has-resource}|inform-restaurant-name  # ℹ️ The Guild, Soho
 - ONE|Which date?|{booking-dates}
 - ONE|What time?|{booking-times}
-- INT|How many people?
+- QUANTITY|How many people?
 - SHARE|nlweb.org/PROFILE/BOOKING|Let us reach out to you if there is any problem.
 - CONFIRM|{summary}
 - CHARGE|1.00|USD|Reservation charge
