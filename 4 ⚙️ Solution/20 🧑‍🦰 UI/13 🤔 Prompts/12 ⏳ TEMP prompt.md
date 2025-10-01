@@ -27,7 +27,7 @@
 
 1. **What's an example in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
 
-    Consider the following [Talker 😃](<../14 😃 Talkers/03 😃 Talker.md>).
+    Consider the following [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
     SUCCESS|Simple temp.
@@ -60,7 +60,7 @@
     <br/>
 
 
-3. **What's the format for a [Talker 😃](<../14 😃 Talkers/03 😃 Talker.md>)?**
+3. **What's the format for a [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
     TEMP|<message>|<options> >> <key>:
