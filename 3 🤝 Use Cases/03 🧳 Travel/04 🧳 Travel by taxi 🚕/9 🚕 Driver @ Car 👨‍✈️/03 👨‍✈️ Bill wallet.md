@@ -6,8 +6,8 @@
 |...
 | 🚕 Taxi       | ⏳ Waiting requests... [+] | > +
 | 🚕 Taxi       | ⏳ Waiting requests... <br/>- [ Bill ] customer <br/> - [ Something else ] | > Bill
-| [Collector 🏦](<../../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) | 🫥 What's the bill?  | 💰 $12.95
-| [Collector 🏦](<../../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) | ⏳ Waiting payment... [+]
+| [🏦 Collector](<../../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) | 🫥 What's the bill?  | 💰 $12.95
+| [🏦 Collector](<../../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) | ⏳ Waiting payment... [+]
 | 🚕 Taxi       | ✅ Paid, wait for exit.
 | 🚕 Taxi       | ⏳ Waiting requests... [+]
 |...
