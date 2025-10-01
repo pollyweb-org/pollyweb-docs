@@ -22,7 +22,7 @@ Consider the following excerpt from the [Book restaurant table 🤝 use case](<.
 
 ## 😃 Talker 
 
-The associated [Talker 😃](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/03 😃 Talker.md>) would be the following.
+The associated [Talker 😃](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/01 😃 Talker.md>) would be the following.
 
 ```yaml
 - INFO|Issuing your token...

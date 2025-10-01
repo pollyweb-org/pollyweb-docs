@@ -32,7 +32,7 @@ This is a blocking input [Prompt 🤔](<01 🤔 Prompt.md>) that allows the user
     <br/>
 
 
-3. **What's the content for a [Talker 😃](<../12 💬 Chats/03 😃 Talker.md>)?**
+3. **What's the content for a [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
     
