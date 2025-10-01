@@ -27,7 +27,7 @@ TODO: other scenarios
 
 ## 💼 Business Setup
 
-1. **What does the [😃 Domain Talker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/03 😃 Talker.md>) look like?**
+1. **What does the [😃 Domain Talker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/01 😃 Talker.md>) look like?**
 
     ```yaml
     💬|[Buy] an item:

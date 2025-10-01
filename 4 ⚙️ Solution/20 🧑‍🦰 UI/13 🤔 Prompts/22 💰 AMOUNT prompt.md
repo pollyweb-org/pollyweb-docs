@@ -16,7 +16,7 @@
 2. **What's an example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
 
 
-    Consider the following [Talker 😃](<../12 💬 Chats/03 😃 Talker.md>).
+    Consider the following [Talker 😃](<../14 😃 Talkers/03 😃 Talker.md>).
     
     ```yaml
     AMOUNT|How much? >> my-variable
@@ -36,7 +36,7 @@
     <br/>
 
 
-3. **What's the format of a [Talker 😃](<../12 💬 Chats/03 😃 Talker.md>)?**
+3. **What's the format of a [Talker 😃](<../14 😃 Talkers/03 😃 Talker.md>)?**
 
     ```yaml
     AMOUNT|<message> >> <key>:
@@ -66,6 +66,7 @@
 
 5. **What's the Answer in the [Reply@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) method?**
 
-    ```yaml
-    Answer: -123.45
-    ```
+    |Type| Example
+    |-|-
+    |decimal| `-123.45`
+    |

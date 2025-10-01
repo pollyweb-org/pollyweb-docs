@@ -41,7 +41,7 @@
     | 🗄️ Vault | ✅ Done! 
     |
 
-    The [Vault's Talker 😃](<../12 💬 Chats/03 😃 Talker.md>) may look like the following.
+    The [Vault's Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>) may look like the following.
 
     ```yaml
     💬|[Bla]:

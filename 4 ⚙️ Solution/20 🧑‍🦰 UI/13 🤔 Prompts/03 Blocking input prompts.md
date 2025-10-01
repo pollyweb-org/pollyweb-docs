@@ -66,7 +66,7 @@
     |
 
 
-    On a [Talker 😃](<../12 💬 Chats/03 😃 Talker.md>):
+    On a [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>):
 
     ```yaml
     CONFIRM|Are you OK? >> my-status:
@@ -112,7 +112,7 @@
     |
 
 
-    On a [Talker 😃](<../12 💬 Chats/03 😃 Talker.md>):
+    On a [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>):
 
     ```yaml
     INT|Enter a 6-digit code >> my-code:
@@ -143,7 +143,7 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What's the code? [+]<br/> | `012345`
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Code validated!
 
-    The related [Talker 😃](<../12 💬 Chats/03 😃 Talker.md>) would be.
+    The related [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>) would be.
 
     ```yaml
     💬 Form:
