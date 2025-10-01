@@ -62,12 +62,13 @@
     ```python
     # Python handler
     def talkerHandler(args):
-        if args['function'] == 'time-options':
-            return [
-                "10:00",
-                "10:30",
-                "Another"
-            ]
+        match args['function']:
+            case 'time-options':
+                return [
+                    "10:00",
+                    "10:30",
+                    "Another"
+                ]
     ```
 
     ---

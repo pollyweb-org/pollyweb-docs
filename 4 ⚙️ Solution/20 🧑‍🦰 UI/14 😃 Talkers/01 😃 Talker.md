@@ -5,14 +5,14 @@
 
 1. **What is a Talker?**
 
-    [Talkers 😃](<01 😃 Talker.md>) are scripts to render dialogs in a [💬 Chat](<../12 💬 Chats/01 💬 Chat.md>)../12 💬 Chats/01 💬 Chat.md
+    [Talkers 😃](<01 😃 Talker.md>) are scripts to render dialogs in a [💬 Chat](<../12 💬 Chats/01 💬 Chat.md>)
 
     ---
     <br/>
 
 1. **Why are Talkers important?**
 
-    [Talkers 😃](<01 😃 Talker.md>) dramatically reduce the time to build a [Host 🤗 domain](<../12 💬 Chats/01 💬 Chat.md>)../12 💬 Chats/01 💬 Chat.md
+    [Talkers 😃](<01 😃 Talker.md>) dramatically reduce the time to build [Host 🤗 domains](<../12 💬 Chats/01 💬 Chat.md>).
 
     * They allow [Hoster 🧑‍💻 helper domains](<../12 💬 Chats/05 🧑‍💻🛠️ Hoster helper.md>) to manage the workflow state on behalf of [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>), removing the undifferentiated heavy-lifting of handling [Prompts 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>) communications, and invoking [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) only when it's necessary to execute business-specific logic.
     ---
@@ -47,21 +47,8 @@
         * Calculates something to be used in cases.
         * Without a function, uses the last answer.
         * Without cases, evaluates and discards.
-    * `CASE|<eval>|<anchor>`	
-        * Runs a procedure when the eval is matched 
-            ```yaml
-            # Example
-            💬| I need a table:
-            - INT|How many people? >> qt
-            - EVAL|{availability}
-            - CASE|AVAILABLE|Available
-            - CASE|WAIT|Wait
-            - CASE|FULL|Full
-            ```
-    * `IF|{func}|<trueProc>`	
-        * Runs a procedure based on a function
-    * `IF|{func}|<trueProc>|<falseProc>`	
-        * Runs procedures based on a function
+    * [`CASE`](<22 CASE flow.md>) Runs an action matching a function evaluation.
+    * [`IF`](<21 IF flow.md>) Runs an action based on a function evaluation.
     * `MENU|<message>`	
         * Calls 👍 CONFIRM [Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
         * If confirmed, repeats the top menu
@@ -70,8 +57,7 @@
         * Calls 👍 CONFIRM [Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
         * If confirmed, repeats the current anchor
         * Without a message, just repeats.  
-    * `RUN|<procedure>`	
-        * Executes a procedure
+    * [`RUN`](<23 RUN flow.md>) Executes a procedure.
 
     ---
     <br/>
@@ -89,8 +75,8 @@
        * Example: `Erase, Duplicate`
    * `EAN|<message> >> <key>`	
        * Calls the [🛒 EAN Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>)
-   * [`ℹ️ INFO`](<../13 🤔 Prompts/11 ℹ️ INFO prompt.md>)
-   * [`⏳ TEMP`](<../13 🤔 Prompts/12 ⏳ TEMP prompt.md>)
+   * [`ℹ️ INFO`](<../13 🤔 Prompts/11 ℹ️ INFO prompt.md>) Information.
+   * [`⏳ TEMP`](<../13 🤔 Prompts/12 ⏳ TEMP prompt.md>) Temporary message.
    * [`✅ SUCCESS`](<../13 🤔 Prompts/13 ✅ SUCCESS prompt.md>)
    * [`❌ FAILURE`](<../13 🤔 Prompts/14 ❌ FAILURE prompt.md>)
    * [`🔢 INT`](<../13 🤔 Prompts/21 🔢 INT prompt.md>)

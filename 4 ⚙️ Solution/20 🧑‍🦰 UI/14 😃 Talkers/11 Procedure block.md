@@ -21,27 +21,49 @@
 
     | Argument| Purpose
     |-|-
-    | `<procedure>` | The name of the procedure, with lower-case dashes.
+    | `<procedure>` | The name of the procedure.
     | `<command-n>` | A [Command](<10 Command.md>)  to be executed.
     
     ```yaml
-    example-procedure:
+    ExampleProcedure:
     - INFO|Hi!
     - CONFIRM|Are you OK? >> answer
     ```
     
+    ---
+    <br/>
 
+
+2. **How to invoke a procedure?**
+
+    |Context|Syntax
+    |-|-
+    |[`RUN`](<23 RUN flow.md>)| `RUN\|<procedure>`
+    |[`IF`](<21 IF flow.md>) | `IF\|{function}\|<procedure>`
+    |[`CASE`](<22 CASE flow.md>) | `CASE\|{function}\|<procedure>`
 
     ---
     <br/>
 
-1. **How to invoke a procedure?**
+3. **What's the syntax of a procedure name?**
 
-    |Context|Syntax
-    |-|-
-    |[Commands](<10 Command.md>)| `RUN\|<procedure>`
-    |[`IF` flows](<21 IF flow.md>) | `IF\|{function}\|<procedure>`
-    |[`CASE` flows](<22 CASE flow.md>) | `CASE\|{function}\|<procedure>`
+    Rules:
+    - Only letters, numbers, and single dashes.
+    - Starts with a letter.
+
+    |Example|OK?|Reason
+    |-|-|-
+    |`MyProc`| ✅ | Valid.
+    |`my-proc`| ✅ | Valid.
+    |`my-proc-2`| ✅ | Valid.
+    |`$my-proc`| ❌ | Didn't start with a letter.  
+    |`my$proc`| ❌ | Invalid character `$`.  
+    |`my proc`| ❌ | Spaces not allowed.    
+    |`my_proc`| ❌ | Underscores are not allowed.
+    |`myProc`| ❌ | Upper-case letters are not allowed.
+    |`2-my-proc`| ❌ | Didn't start with a letter.
+    |`my--proc`| ❌ | Single dashes only.
+    |`my-proc!`| ❌ | Special characters are not allowed.
 
     ---
     <br/>

@@ -1,49 +1,86 @@
-* `CASE|{function}`	
-    * Calculates something to be used in cases.
-    * Without a function, uses the last answer.
-    * Without cases, evaluates and discards.
-* `CASE|<eval>|<anchor>`	
-    * Runs a procedure when the eval is matched 
-        ```yaml
-        # Example
-        💬| I need a table:
-        - INT|How many people? >> qt
-        - EVAL|{availability}
-        - CASE|AVAILABLE|Available
-        - CASE|WAIT|Wait
-        - CASE|FULL|Full
-        ```
+# Talker `CASE` flow 
+
+> Part of [Talker 😃](<01 😃 Talker.md>)
+
+<br/>
+
+
+1. **What's a CASE flow?**
+
+    A `CASE` is a [Command](<10 Command.md>)  that runs a matching [Procedure](<11 Procedure block.md>) or [Command](<10 Command.md>) based on the evaluation of a [Function](<12 Function block.md>).
 
     ---
     <br/>
 
-4. **What's syntax for equal comparisons?**
+4. **What's the syntax?**
 
     ```yaml
-    CASE {function}|<default-procedure>:
-        <value-1>: <procedure-1>
-        <value-n>: <procedure-n>
+    - CASE|{function}:
+        <value-1>: <action-1>
+        <value-n>: <action-n>
+        *: <default-action>
     ```
 
     | Argument| Purpose
     |-|-
-    | `{function}` | Required [Function](<12 Function block.md>) to evaluate.
-    | `<default-procedure>` | Optional [Procedure](<11 Procedure block.md>) to execute when not matched.
+    | `{function}` | Optional [Function](<12 Function block.md>) to evaluate; <br/>- defaults to the last input.
     | `<value-n>`| Static value to be compared with.
-    | `<procedure-n>`| [Procedure](<11 Procedure block.md>) to execute when matched.
+    | `<action-n>`| Run [Procedure](<11 Procedure block.md>) or [Command](<10 Command.md>) when matched.
+    | `<default-action>` | Run [Procedure](<11 Procedure block.md>) or [Command](<10 Command.md>) if unmatched.
+    
+
+    ---
+    <br/>
+
+4. **What's an example with function logic?**
+
 
     ```yaml
     💬 Example:
+    - CASE|{customer-type}:
+        STANDARD: ShowStandardOptions
+        ADVANCED: ShowAdvancedOptions
+        PREMIUM: ShowPremiumOptions
+
+    ShowPremiumOptions:
+    - INFO|Hi, premium customer!
+    ```
+
+
+    ```python
+    # Python handler
+    def talkerHandler(args):
+        match args['function']:
+            case 'customer-type':
+                return context.CustomerType
+    ```
+
+    | Service | Prompt | User
+    | - | - | - |
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Hi, premium customer!
+
+    ---
+    <br/>
+
+5. **What's an example with inputs?**
+
+    > The `{function}` defaults to the last input.
+   
+    ```yaml
+    💬 Example:
     - ONE|Select an option.|A,B,C >> my-var
-    - CASE|{$my-var==B}:
-        Then: INFO|You selected option B
-        Else: INFO|You selected something else
+    - CASE:
+        B: INFO|You selected option B.
+        *: WhenUnmatched
+
+    WhenUnmatched:
+    - INFO|You selected option {$my-var}.
     ```
 
     | Service | Prompt | User
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Select an option. <br/> - [ A ] <br/> - [ B ] <br/> - [ C ] | > B
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You selected option B
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You selected option B.
     
     ---
     <br/>
