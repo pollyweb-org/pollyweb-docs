@@ -6,10 +6,6 @@
 
 1. **What are special prompts?**
    
-    These are blocking [Prompts 🤔](<01 🤔 Prompt.md>) 
-    * that requires the user to answer it in a structured format,
-    * addressing the basic needs of a standard structured form with multiple input fields;
-    * e.g., date, number, radio, checklist;
      
 
     ---
@@ -19,17 +15,6 @@
 
     |Format | Description
     |-|-
-    | [👍&nbsp;CONFIRM](<24 👍 CONFIRM prompt.md>) | Yes, No, Cancel
-    | [💯&nbsp;INT](<21 💯 INT prompt.md>) | Shows the numeric keypad
-    | [🔄&nbsp;QUANTITY](<21 🔄 QUANTITY prompt.md>) | Shows up/down arrows.
-    | [💰&nbsp;AMOUNT](<22 💰 AMOUNT prompt.md>) | Allows for decimals
-    | [🔑&nbsp;OTP](<21 🔑 OTP prompt.md>) | Asks for 6 digits
-    | [1️⃣&nbsp;ONE](<25 1️⃣ ONE prompt.md>) | One of multiple options
-    | [🔢&nbsp;MANY](<25 🔢 MANY prompt.md>) | Zero or more of multiple options
-    | [⭐&nbsp;RATE](<26 ⭐ RATE prompt.md>) | 1 to 5 stars
-    | [🕓&nbsp;TIME](<27 🕓 TIME prompt.md>) | Asks for time of day
-    | [📆&nbsp;DATE](<27 📆 DATE prompt.md>) | Asks for a date
-    | [🗓️&nbsp;UNTIL](<27 🗓️ UNTIL prompt.md>) | Asks for a date/time in the future
     | [📍&nbsp;LOCATION](<61 📍 LOCATION prompt.md>) | Asks for the current location
     | [🗺️&nbsp;TRACK](<62 🗺️ TRACK prompt.md>) | Asks to track the location
     | [👤&nbsp;IDENTIFY](<41 👤 IDENTIFY prompt.md>) | Opens a pop-up for the user's [Identity 🆔 agent](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) to perform a face scan
