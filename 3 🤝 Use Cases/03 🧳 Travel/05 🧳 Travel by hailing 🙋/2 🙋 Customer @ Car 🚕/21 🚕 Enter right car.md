@@ -7,9 +7,9 @@ A user can scan/tap the NFC/QR of a raid hailing car.
 | Service | Prompt | User
 | - | - | - |
 |...
-| 🙋 Hailing | ⏳ Tap inside until 12:41... [+] | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) seat
+| 🙋 Hailing | ⏳ [Tap inside until 12:41... [+]](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/13 🤔 Prompts/12 ⏳ TEMP prompt.md>)  | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) seat
 | 🙋 Hailing | ✅ You're in the right car! [+]
-| 🙋 Hailing | ⏳ Drop-off at 10:31... <br/> - [ Change destination ]<br/>- [ Report emergency ]
+| 🙋 Hailing | ⏳ [Drop-off at 10:31...](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/13 🤔 Prompts/12 ⏳ TEMP prompt.md>) <br/> - [ Change destination ]<br/>- [ Report emergency ]
 | 🙋 Hailing | ✅ Arrived! Exit the car. [+]
 | 🙋 Hailing | 😃 How was the ride? | > ⭐⭐
 | 🙋 Hailing | 😐 What could be better? <br/>- [ ] Car <br/>- [ ] Driver  <br/>- [ ] Driving <br/>- [ ] Route | [X] Car<br/> [X] Route 

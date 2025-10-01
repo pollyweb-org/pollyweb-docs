@@ -50,9 +50,19 @@ DKIM: pk1
 |Object |Property|Type|Description
 |-|-|-|-
 |Top| `Name`  | string | Name of the file, for saving
-|| `Format` | enum | `PDF` `PNG`
+|| `Format` | enum | `PDF` `PNG` `JPEG`
 || `Content` | string | Bytes serialized to base64
 || `DKIM`| string | Name of the public key <br/>- in the sender's [DKIM 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) <br/> - used to [stamp the file 🔏](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/05 👥🔏 Domain Signature.md>)
 |
 
 <br/>
+
+
+## FAQ
+
+1. **What are examples of Download usage?**
+
+    | Format | Example | 
+    |-|-
+    | `PDF` | 
+    | `PNG` | [text](<../../3 🤝 Use Cases/03 🧳 Travel/04 🧳 Travel by taxi 🚕/3 🚕 Customer @ Drop-off/31. Recover item.md>)

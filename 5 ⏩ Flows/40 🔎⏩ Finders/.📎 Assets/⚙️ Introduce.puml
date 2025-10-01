@@ -1,7 +1,6 @@
 @startuml Introduce
 
-participant "Wallet 👱\napp" as wallet
-participant "Notifier 📣\nbff" as notifier
+actor "User\nin chat" as user
 participant "Broker 🤵\nhost" as broker
 participant "Finder 🔎\nvault" as finder
 participant "Reviewer ⭐\nvault" as reviewer
@@ -9,34 +8,26 @@ participant "Graph 🕸\ndomain" as graph
 'participant "Host 🤗\ndomain" as host
 
 
-
 activate broker
 
-    broker --> finder: introduce@
+    broker --> finder: 1) Introduce 🐌
     deactivate broker
 
     activate finder
 
-      finder -> reviewer: reviews@
+      finder -> reviewer: 2) Reviews 🚀
       activate reviewer
         reviewer -> finder: {reviews}
       deactivate reviewer
 
-      finder -> graph: identity@
+      finder -> graph: 3) Identity 🚀
       activate graph
         graph -> finder: {identity}
       deactivate graph
 
-      finder --> broker: prompt@
-      activate broker
-        broker --> notifier: prompt@
-      deactivate broker
+      finder --> user: 4 ⏪ Prompt 🤔
 
-      activate notifier
-        notifier --> wallet
-      deactivate notifier
-
-      finder --> broker: introduced@
+      finder --> broker: 5) Introduced 🐌
       
     deactivate finder
     activate broker

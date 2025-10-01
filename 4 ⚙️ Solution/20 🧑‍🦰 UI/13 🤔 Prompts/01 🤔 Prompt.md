@@ -72,7 +72,7 @@
     |-|-|:-:|:-:
     | `Status`  | [`INFO`](<11 ℹ️ INFO prompt.md>) | ℹ️ | ⓘ
     |           | [`SUCCESS`](<13 ✅ SUCCESS prompt.md>) | ✅ | ☑️
-    |           | [`FAILURE`](<14 ❌ FAILURE prompt.md>) | ❌ | ✖️
+    |           | [`FAILURE`](<14 ❌ FAILURE prompt.md>) | ❌ | ❌     |
     |           | [`TEMP`](<12 ⏳ TEMP prompt.md>) | ⏳ | ⏳
     | `Input`   | [`TEXT`](<31 🔠 TEXT prompt.md>) | 💬 | 💭
     |           | (others) | 😃 | 🫥 | 

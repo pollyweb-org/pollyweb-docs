@@ -27,7 +27,7 @@
     Consider the following [Talker 😃](<../12 💬 Chats/03 😃 Talker.md>).
     
     ```yaml
-    INFO|Simple info.
+    SUCCESS|Simple success.
     ```
 
     | Service | Prompt | User
@@ -76,6 +76,8 @@
     Details: <details>
     ```
 
+    ---
+    <br/>
 
 4. **What's the Answer in the [Reply@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) method?**
 
@@ -83,4 +85,5 @@
     Answer: <selected-option> # if any
     ```
     
-
+    ---
+    <br/>
