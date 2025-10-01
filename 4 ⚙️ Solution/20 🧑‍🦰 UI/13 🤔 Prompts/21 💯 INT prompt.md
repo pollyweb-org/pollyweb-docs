@@ -5,12 +5,19 @@
 
 <br/>
 
-1. **What's an example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
+1. **What's an INT prompt?**
+
+    It's a [Prompt 🤔](<01 🤔 Prompt.md>) that shows the numeric keypad.
+
+    ---
+    <br/>
+
+2. **What's an example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
 
     Consider the following [Talker 😃](<../12 💬 Chats/03 😃 Talker.md>).
     
     ```yaml
-    INT|What's the code? >> answer
+    INT|What's the code? >> my-answer
     ```
 
     | Service | Prompt | User
@@ -29,6 +36,11 @@
     ```yaml
     INT|<message> >> <key>:
         Details: <details>
+        MinLength: <min-length>
+        MaxLength: <max-length>
+        MinValue: <min-value>
+        MaxValue: <max-value>
+        Emoji: <emoji>
     ```
     
     ---
@@ -41,6 +53,11 @@
     Format: INT
     Message: <message>
     Details: <details>
+    MinLength: <min-length>
+    MaxLength: <max-length>
+    MinValue: <min-value>
+    MaxValue: <max-value>
+    Emoji: <emoji>
     ```
 
     ---
