@@ -42,29 +42,27 @@
     ---
     <br/>
 
-3. **What's syntax for equal comparisons?**
+3. **What's syntax for placeholder values?**
 
     ```yaml
-    {:var==value} 
+    {$placeholder} 
     ```
 
     | Argument| Purpose
     |-|-
-    | `var` | The name of a variable.
-    | `value`| The value to be compared with.
+    | `placeholder` | The name of a placeholder.
 
     ```yaml
     💬 Example:
-    - ONE|Select an option.|A,B,C >> my-var
-    - IF|{:my-var==B}:
-        Then: INFO|You selected option B
-        Else: INFO|You selected something else
+    - QUANTITY|Give me a number. >> my-var
+    - INFO|You gave me number {$my-var}
     ```
 
     | Service | Prompt | User
     | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Select an option. <br/> - [ A ] <br/> - [ B ] <br/> - [ C ] | > B
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You selected option B
-    
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Give me a number.  | 🔄 27
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You gave me number 27
+
     ---
     <br/>
+   

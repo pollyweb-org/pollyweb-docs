@@ -54,8 +54,8 @@
     ```yaml
     💬 Schedule for tomorrow:
     - ONE|What time tomorrow?|{time-options} >> my-var
-    - IF|{:my-var==Another}:
-        Then: TIME|When exactly? >> my-var
+    - CASE|{$my-var}:
+        Another: TIME|When exactly? >> my-var
     - SUCCESS|Thanks!
     ```
 

@@ -52,15 +52,15 @@
    
     ```yaml
     IF|{function}:
-        Then: <true-command>
-        Else: <false-command>
+        Then: <true-action>
+        Else: <false-action>
     ```
 
     | Argument| Purpose
     |-|-
     | `{function}` | Boolean evaluation [Function](<12 Function block.md>) name
-    | `<true-command>` | Required [Procedure](<11 Procedure block.md>) to execute when `True`
-    | `<false-command>`| Optional [Procedure](<11 Procedure block.md>) to execute when `False`
+    | `<true-action>` | Required [Procedure](<11 Procedure block.md>) or [Command](<10 Command.md>) to execute when `True`
+    | `<false-action>`| Optional [Procedure](<11 Procedure block.md>) or [Command](<10 Command.md>)  to execute when `False`
     
     ```yaml
     💬 If-them example:
@@ -72,7 +72,10 @@
     💬 If-then-else example:
     - IF|{code-is-correct}:
         Then: SUCCESS|Code is correct!
-        Else: FAILURE|Code is wrong!
+        Else: error-handling-procedure 
+        
+    error-handling-procedure:
+    - FAILURE|Code is wrong!
     ```
 
     ---
