@@ -91,12 +91,8 @@
    * [`ℹ️ INFO`](<../13 🤔 Prompts/11 ℹ️ INFO prompt.md>)
    * [`⏳ TEMP`](<../13 🤔 Prompts/12 ⏳ TEMP prompt.md>)
    * [`✅ SUCCESS`](<../13 🤔 Prompts/13 ✅ SUCCESS prompt.md>)
-   * `FAILURE|<message>|<options>`
-       * Calls the [❌ FAILURE Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
-   * `INT|<message> >> <key>`	
-       * Calls the [💯 INT Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
-       * Stores the answer with key `<key>`
-       * Example: `INT|What's the pin? >> pin`
+   * [`❌ FAILURE`](<../13 🤔 Prompts/14 ❌ FAILURE prompt.md>)
+   * [`💯 INT`](<../13 🤔 Prompts/21 💯 INT prompt.md>)
    * [`📍 LOCATION`](<../13 🤔 Prompts/61 📍 LOCATION prompt.md>)
    * `MANY|<message>|<options> >> <key>`	
        * Calls the [🔢 MANY Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)

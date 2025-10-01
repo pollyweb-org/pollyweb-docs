@@ -56,17 +56,36 @@
     <br/>
 
 
-## Emotions
+1. **How to implement emotions?**
 
-The 😃 emoji can be replaced with one of the following.
+    The 😃 emoji can be replaced with one of the following.
 
-||Emoji | Application
-|-|-|-
-|| 😐 | Neutral
-|| 😕 | Confused, sad
-|| 🥺 | Pleading face
-|| ✏️ | Form input field
-|
+    ||Emoji | Application
+    |-|-|-
+    || 😐 | Neutral
+    || 😕 | Confused, sad
+    || 🥺 | Pleading face
+    || ✏️ | Form input field
+    |
+
+
+    On a [Talker 😃](<../12 💬 Chats/03 😃 Talker.md>):
+
+    ```yaml
+    CONFIRM|Are you OK? >> status:
+        Emoji: 😕
+    ```
+    
+    On the [Prompted@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method:
+
+    ```yaml
+    Format: CONFIRM
+    Message: Are you OK?
+    Emoji: 😕
+    ```
+
+    ---
+    <br/>
 
 
 1. **How can Hosts protect users from input fatigue?**
@@ -81,3 +100,51 @@ The 😃 emoji can be replaced with one of the following.
 
     ---
     <br/>
+
+
+1. **How to implement client-side validations?**
+
+    Enter one or more client-side restrictions.
+    
+    |Restriction| Type |  Details
+    |-|-|-
+    | `MinLength` | int | Optional minimum length
+    | `MaxLength` | int | Optional maximum length
+    | `MinValue` | int | Optional minimum value
+    | `MaxValue` | int | Optional maximum value
+    |
+
+
+    On a [Talker 😃](<../12 💬 Chats/03 😃 Talker.md>):
+
+    ```yaml
+    INT|Enter a 6-digit code >> code:
+        MinLength: 6
+        MaxLength: 6
+    ```
+    
+    On the [Prompted@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method:
+
+    ```yaml
+    Format: INT
+    Message: Enter a 6-digit code
+    MinLength: 6
+    MaxLength: 6
+    ```
+
+    ---
+    <br/>
+
+2. **How to implement server-side validations?**
+
+    Consider the following [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) as an example.
+
+    | Service | Prompt | User
+    | - | - | - |
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What's the code? [-]<br/>> This is a 6 digit number | `0123`
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ❌ Enter a 6 digit number
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What's the code? [+]<br/> | `012345`
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Code validated!
+
+    ---
+    <br>
