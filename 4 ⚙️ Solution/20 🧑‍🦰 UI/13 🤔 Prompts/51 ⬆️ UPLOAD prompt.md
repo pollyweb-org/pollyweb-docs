@@ -1,6 +1,6 @@
 # ⬆️ UPLOAD prompt
 
-> Part of [blocking input prompts 🤔](<20 Blocking inputs.md>)
+> Part of [blocking input prompts 🤔](<03 Blocking input prompts.md>)
 
 
 <br/>
