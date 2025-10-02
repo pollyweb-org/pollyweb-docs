@@ -16,7 +16,7 @@
     |Emoji | Usage | Details
     |-|-|-
     |✅ | `Host` | Similar to ℹ️ on [INFO ℹ️](<11 ℹ️ INFO prompt.md>)
-    |☑️ | `Guest` | Similar to ⓘ on [INFO ℹ️](<11 ℹ️ INFO prompt.md>)
+    |☑️ | `Agent` | Similar to ⓘ on [INFO ℹ️](<11 ℹ️ INFO prompt.md>)
 
     ---
     <br/>
@@ -33,8 +33,8 @@
     | Service | Prompt | User
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Simple success.
+    | [🛠️ Helper](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | ✅ Simple success.
     | [🫥 Agent](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | ☑️ Simple success.
-    | [🛠️ Helper](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | ☑️ Simple success.
     
 
     ---
@@ -58,8 +58,7 @@
 2. **What's the format for a [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
-    SUCCESS|<message>|<options> >> <key>:
-        Details: <details>
+    SUCCESS|<message>|<options> >> <key>
     ```
     
     ---
@@ -73,7 +72,6 @@
     Format: SUCCESS
     Message: <message>
     Options: <options>
-    Details: <details>
     ```
 
     ---

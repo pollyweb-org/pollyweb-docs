@@ -15,15 +15,15 @@
    
     |Emoji | Details
     |-|-
-    ℹ️ | The strong info emoji ℹ️ represents the chat's [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>);
-    ⓘ | The faded info emoji ⓘ represents other domains that have been pulled into the [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) - e.g.: <br/>• a user's [Agent 🫥 vault](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>), or <br/>• a [Helper 🛠️ domain](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) that was  [invited ⏩](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite.md>) by a [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>).
+    ℹ️ | The strong info emoji ℹ️ represents the chat's [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) and any [Helper 🛠️ domains](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) that it may [invite ⏩](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite.md>).
+    ⓘ | The faded info emoji ⓘ represents the user's [Agent 🫥 vaults](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>).
 
     ---
     <br/>
 
 
 
-1. **What's an example in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
+2. **What's an example in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
 
     Consider the following [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>).
     
@@ -34,37 +34,14 @@
     | Service | Prompt | User
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Simple info.
+    | [🛠️ Helper](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | ℹ️ Simple info.
     | [🫥 Agent](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | ⓘ Simple info.
-    | [🛠️ Helper](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | ⓘ Simple info.
+    
     
     
     ---
     <br/>
 
-
-2. **What's an expandable example in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
-
-    Consider the following [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>).
-    
-    ```yaml
-    INFO|Expandable info:
-        Details: |
-            - long text
-            - full of details
-    ```
-
-    | Service | Prompt | User
-    | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Expandable info [+] | > +
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Expandable info [-]<br/>- long text  <br/>- full of details
-    |
-
-    Usage examples:
-    * [Finder 🔎 vault](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>)
-    * [Book restaurant table online 🍽️](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/31 🌐 Web: Book table 🗓️.md>)
-
-    ---
-    <br/>
 
 3. **What's an example with non-blocking options in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
 
@@ -87,8 +64,7 @@
 4. **What's the format for a [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
-    INFO|<message>|<options> >> <key>:
-        Details: <details>
+    INFO|<message>|<options> >> <key>
     ```
     
     ---
@@ -101,7 +77,6 @@
     Format: INFO
     Message: <message>
     Options: <options>
-    Details: <details>
     ```
 
     ---

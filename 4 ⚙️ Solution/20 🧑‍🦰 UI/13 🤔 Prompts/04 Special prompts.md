@@ -23,7 +23,7 @@
     | [🦋&nbsp;TOUCH](<43 🦋 TOUCH prompt.md>) | Asks to touch/scan a [QR/NFC Ephemeral 🦋 device](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>)
     | [⬆️&nbsp;UPLOAD](<51 ⬆️ UPLOAD prompt.md>)| Asks to upload a file or photo
     | [⬇️&nbsp;DOWNLOAD](<52 ⬇️ DOWNLOAD prompt.md>) | Asks to download a file
-    | [🔠&nbsp;TEXT](<31 🔠 TEXT prompt.md>) | Asks for a text input
+    | [🔠&nbsp;TEXT](<20 🔠 TEXT prompt.md>) | Asks for a text input
 
 
     ---

@@ -56,16 +56,16 @@ Options:
 |Object |Property|Type|Description
 |-|-|-|-
 |Top| `Format`  | string | One format supported by [Prompts 🤔](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/13 🤔 Prompts/01 🤔 Prompt.md>)
-|| `Message` | string | Main message, <br/>- to display in the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
+|| `Message` | string | Main message,  to display in the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
 || `MinLength` | int | Optional minimum length
 || `MaxLength` | int | Optional maximum length
 || `MinValue` | int | Optional minimum value
 || `MaxValue` | int | Optional maximum value
 || `Emoji` | string | Optional emoji for [Input Prompts 🤔](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/13 🤔 Prompts/03 Blocking input prompts.md>)
-|| `Appendix`| uuid   | File to download via [Download@Host](<06 🧑‍🦰🚀🤗 Download.md>)
+|| `Appendix`| uuid   | File to download via [Download@Host 🚀](<06 🧑‍🦰🚀🤗 Download.md>)
 || `Details` | string | Extended details in Markdown format,<br/> - typically hidden by an expand [+] sign
 || `Options` | object[]   | List of `Option` objects
-|Option | `ID`          | string  | ID of the option, <br/> - for replies via [Reply@Host](<05 🧑‍🦰🐌🤗 Reply.md>)
+|Option | `ID`          | string  | ID of the option, <br/> - for replies via [Reply@Host 🐌](<05 🧑‍🦰🐌🤗 Reply.md>)
 |       | `Translation` | string  | Text of the option, <br/>- to display in the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
 |
 
