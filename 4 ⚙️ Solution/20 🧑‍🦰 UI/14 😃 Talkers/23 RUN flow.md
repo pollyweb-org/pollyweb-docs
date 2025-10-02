@@ -7,7 +7,7 @@
 
 1. **What's a RUN flow?**
 
-    A `RUN` is a [Command](<10 Command.md>) that runs a  [Procedure](<11 Procedure block.md>).
+    A `RUN` is a [Command](<10 Command.md>) that runs a  [Procedure](<12 Procedure block.md>).
 
     ---
     <br/>
@@ -20,7 +20,7 @@
 
     | Argument| Purpose
     |-|-
-    | `procedure>`| [Procedure](<11 Procedure block.md>) to run.
+    | `procedure>`| [Procedure](<12 Procedure block.md>) to run.
     | `arguments`| Optional comma-separated arguments <br/>referenced by `{$position}`
     
     ---

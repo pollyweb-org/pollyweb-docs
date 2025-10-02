@@ -7,7 +7,7 @@
 
 1. **What's a CASE flow?**
 
-    A `CASE` is a [Command](<10 Command.md>)  that runs a matching [Procedure](<11 Procedure block.md>) or [Command](<10 Command.md>) based on the evaluation of a [Function](<12 Function block.md>).
+    A `CASE` is a [Command](<10 Command.md>)  that runs a matching [Procedure](<12 Procedure block.md>) or [Command](<10 Command.md>) based on the evaluation of a [Function](<15 Function block.md>).
 
     ---
     <br/>
@@ -23,10 +23,10 @@
 
     | Argument| Purpose
     |-|-
-    | `{function}` | Optional [Function](<12 Function block.md>) to evaluate; <br/>- defaults to the last input.
+    | `{function}` | Optional [Function](<15 Function block.md>) to evaluate; <br/>- defaults to the last input.
     | `<value-n>`| Static value to be compared with.
-    | `<action-n>`| Run [Procedure](<11 Procedure block.md>) or [Command](<10 Command.md>) when matched.
-    | `<default-action>` | Run [Procedure](<11 Procedure block.md>) or [Command](<10 Command.md>) if unmatched.
+    | `<action-n>`| Run [Procedure](<12 Procedure block.md>) or [Command](<10 Command.md>) when matched.
+    | `<default-action>` | Run [Procedure](<12 Procedure block.md>) or [Command](<10 Command.md>) if unmatched.
     
 
     ---
