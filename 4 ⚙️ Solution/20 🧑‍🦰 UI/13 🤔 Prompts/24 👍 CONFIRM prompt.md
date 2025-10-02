@@ -26,8 +26,13 @@
 
 3. **What's the content for a [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>)?**
 
+    * Calls the [CONFIRM 👍 Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>)
+    * If not confirmed, execs `falseProc`.
+    * If `falseProc` not given stops the current proc.
+    * When stopping the current proc, pops stack.
+    * 
     ```yaml
-    
+    CONFIRM|<message>|<falseProc>
     ```
 
     |Parameter|Details

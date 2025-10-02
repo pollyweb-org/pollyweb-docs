@@ -13,17 +13,8 @@
     <br/>
 
 
-1. **How do FAILURE emojis work?**
-   
-    |Emoji | Usage | Details
-    |-|-|-
-    |❌ | `Host` | Similar to ℹ️ on [INFO ℹ️](<11 ℹ️ INFO prompt.md>)
-    |❌ | `Guest` | Similar to ⓘ on [INFO ℹ️](<11 ℹ️ INFO prompt.md>)
 
-    ---
-    <br/>
-
-1. **What's an example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
+2. **What's an example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
 
     Consider the following [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>).
     
@@ -34,8 +25,9 @@
     | Service | Prompt | User
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ❌ Simple failure.
-    | [🫥 Agent](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | ❌ Simple failure.
     | [🛠️ Helper](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | ❌ Simple failure.
+    | [🫥 Agent](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | ❌ Simple failure.
+   
     
 
     ---
@@ -60,8 +52,7 @@
 2. **What's the format for a [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
-    FAILURE|<message>|<options> >> <key>:
-        Details: <details>
+    FAILURE|<message>|<options> >> <key>
     ```
     
     ---
@@ -75,7 +66,6 @@
     Format: FAILURE
     Message: <message>
     Options: <options>
-    Details: <details>
     ```
 
     ---

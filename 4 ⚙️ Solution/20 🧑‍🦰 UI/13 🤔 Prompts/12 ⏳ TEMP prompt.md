@@ -13,31 +13,20 @@
     ---
     <br/>
 
-
-1. **How do TEMP emojis work?**
-   
-    |Emoji | Usage | Details
-    |-|-|-
-    |⏳ | `Host` | Similar to ℹ️ on [INFO ℹ️](<11 ℹ️ INFO prompt.md>)
-    |⏳ | `Guest` | Similar to ⓘ on [INFO ℹ️](<11 ℹ️ INFO prompt.md>)
-
-    ---
-    <br/>
-
-
-1. **What's an example in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
+2. **What's an example in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
 
     Consider the following [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
-    SUCCESS|Simple temp.
+    TEMP|Simple temp.
     ```
 
     | Service | Prompt | User
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ⏳ Simple temp.
-    | [🫥 Agent](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | ⏳ Simple temp.
     | [🛠️ Helper](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | ⏳ Simple temp.
+    | [🫥 Agent](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | ⏳ Simple temp.
+    
     
     
     ---
@@ -63,8 +52,7 @@
 3. **What's the format for a [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
-    TEMP|<message>|<options> >> <key>:
-        Details: <details>
+    TEMP|<message>|<options> >> <key>
     ```
     
     ---
@@ -78,7 +66,6 @@
     Format: TEMP
     Message: <message>
     Options: <options>
-    Details: <details>
     ```
     ---
     <br/>

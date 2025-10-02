@@ -27,40 +27,13 @@
     || [`👍 CONFIRM`](<24 👍 CONFIRM prompt.md>) [`1️⃣ ONE`](<25 1️⃣ ONE prompt.md>) [`🔢 MANY`](<25 🔠 MANY prompt.md>) 
     || [`🕓 TIME`](<27 🕓 TIME prompt.md>) [`📆 DATE`](<27 📆 DATE prompt.md>) [`🗓️ UNTIL`](<27 🗓️ UNTIL prompt.md>) 
     || [`⬆️ UPLOAD`](<51 ⬆️ UPLOAD prompt.md>) [`⬇️ DOWNLOAD`](<52 ⬇️ DOWNLOAD prompt.md>) 
-    || [`🔠 TEXT`](<31 🔠 TEXT prompt.md>) 
+    || [`🔠 TEXT`](<20 🔠 TEXT prompt.md>) 
     || [`👤 IDENTIFY`](<41 👤 IDENTIFY prompt.md>) [`🛒 EAN`](<44 🛒 EAN prompt.md>) [`🔆 SCAN`](<42 🔆 SCAN prompt.md>) [`🦋 TOUCH`](<43 🦋 TOUCH prompt.md>) 
     |`Special`| [`📍 LOCATION`](<61 📍 LOCATION prompt.md>) [`🗺️ TRACK`](<62 🗺️ TRACK prompt.md>)
 
 
     ---
     <br/>
-
-
-2. **What does a Prompt request look like?**
-
-    The following is an example of a [Prompt 🤔](<01 🤔 Prompt.md>) request, as described in [Prompted@Host 🚀](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>).
-
-    ```yaml
-    Format: ONE
-    Message: Which credit card to use?
-    Options: 
-        - ID: 1
-          Translation: Personal
-    Appendix: <appendix-uuid>
-    Details: |
-        **Note**: each cards has its own fees.
-        * Check the fees for the transaction.
-    ```
-
-
-    |Property|Type|Description
-    |-|-|-
-    | `Format`  | string | One supported by a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)
-    | `Message` | string | Main message displayed in the [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)
-    | `Options` | list   | List of Options with:<br/>- ID of the option for replies<br/>- Translated text of the option to display 
-    | `Appendix`| uuid   | PDF or PNG appendix to download via [Download@Host 🚀](<../../../6 🅰️ APIs/50 🤗🅰️ Host/06 🧑‍🦰🚀🤗 Download.md>)
-    | `Details` | string | Extended details in Markdown format, topically hidden by an expand [+] sign
-    |
 
 
 
@@ -74,7 +47,7 @@
     |           | [`SUCCESS`](<13 ✅ SUCCESS prompt.md>) | ✅ | ☑️
     |           | [`FAILURE`](<14 ❌ FAILURE prompt.md>) | ❌ | ❌     |
     |           | [`TEMP`](<12 ⏳ TEMP prompt.md>) | ⏳ | ⏳
-    | `Input`   | [`TEXT`](<31 🔠 TEXT prompt.md>) | 💬 | 💭
+    | `Input`   | [`TEXT`](<20 🔠 TEXT prompt.md>) | 💬 | 💭
     |           | (others) | 😃 | 🫥 | 
     | `Share`   | [`LOCATION`](<61 📍 LOCATION prompt.md>) | 📍 | -
     |           | [`TRACK`](<62 🗺️ TRACK prompt.md>) | 🗺️ | -
@@ -109,5 +82,74 @@
     - The non-blocking prompts include `TEMP ⏳`, `INFO ℹ️`, and `SUCCESS ✅`.
     - This is particularly helpful when [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) want to assign default values to options to speed up the process (e.g., [navigation options 🤝](<../../../3 🤝 Use Cases/03 🧳 Travel/01 🧳 Plans trips 🧭/02 🧭 Return @ Destination.md>)), while still allowing users to go back and change those default options.
     
+    ---
+    <br/>
+
+
+
+5. **What are expandable details?**
+
+    These are additional details that are initially collapsed to users, e.g.:
+    * [Finder 🔎 vault](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>)
+    * [Book restaurant table online 🍽️](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/31 🌐 Web: Book table 🗓️.md>)
+  
+    Consider the following [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>).
+
+
+    | Service | Prompt | User
+    | - | - | - |
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Expandable info [+] | > +
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Expandable info [-]<br/>- long text  <br/>- full of details
+    |
+
+    The corresponding [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>) would be.
+    
+    ```yaml
+    INFO|Expandable info:
+        Details: |
+            - long text
+            - full of details
+    ```
+
+    
+
+    ---
+    <br/>
+
+
+
+6. **How to attach an appendix?**
+
+    > This calls [Download@Host 🚀](<../../../6 🅰️ APIs/50 🤗🅰️ Host/06 🧑‍🦰🚀🤗 Download.md>)
+    
+    Consider the following [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) as an example.
+
+    | Service | Prompt | User
+    | - | - | - |
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Who's in the picture? 🖼️<br>- [Einstein] <br/>- [Elvis] <br/>- [Marilyn] | > Elvis
+    |
+
+    The related [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>) would be.
+
+    ```yaml
+    ONE|Who is in the picture?|Einstein,Elvis,Marilyn:
+        Appendix: {/photos/elvis.png}
+    ```
+    
+    The [Prompted@Host 🚀](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method would be:
+
+    ```yaml
+    Format: ONE
+    Message: Who's in the picture?
+    Options: [Einstein,Elvis,Marilyn]
+    Appendix: <appendix-uuid>
+    ```
+
+    Usages include the following.
+    | Format | Example | 
+    |-|-
+    | `PDF` | [Show the bill on vending machine payments 🏪](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/11 💧 Buy water.md>)
+    | `PNG` | [Show an image of a recovered item in a taxi 🚕](<../../../3 🤝 Use Cases/03 🧳 Travel/04 🧳 Travel by taxi 🚕/3 🚕 Customer @ Drop-off/31. Recover item.md>)
+
     ---
     <br/>
