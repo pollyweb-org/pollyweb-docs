@@ -50,7 +50,7 @@
     ```python
     # 🐍 Python handler
     def talkerHandler(args):
-      match args['function']:
+      match args['Function']:
         case 'customer-type':
           return context.CustomerType
     ```

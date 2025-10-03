@@ -57,7 +57,7 @@
     ```python
     # 🐍 Python handler
     def talkerHandler(args):
-      match args['function']:
+      match args['Function']:
         case 'addRow':
           rowCount = insertDatabaseRow()
           return rowCount

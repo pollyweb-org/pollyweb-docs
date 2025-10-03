@@ -1,3 +1,9 @@
+# ⏸️ Talker `WAIT` flow 
+
+> Part of [Talker 😃](<01 😃 Talker.md>)
+
+<br/>
+
 
 
 1. **What's a WAIT flow command?**
@@ -41,12 +47,15 @@
     - REPEAT
     ```
     
+
+    | Command | Purpose
+    |-|-
+    | [`REPEAT`](<23 🔁 REPEAT flow.md>) | To update the message.
+
     ---
     <br/>
 
 3. **What's an example of verifying a queue length?**
-
-    > This example uses [`EVAL`](<12 🧠 EVAL command.md>) to assess the backend queue length.
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
@@ -82,5 +91,37 @@
     - REPEAT
     ```
 
+    | Command | Purpose
+    |-|-
+    | [`RUN`](<24 ▶️ RUN flow.md>) | To start the waiting loop.
+    | [`EVAL`](<12 🧠 EVAL command.md>) | to assess the backend queue length.
+    | [`CASE`](<22 🔀 CASE flow.md>) | To show the human-friendly message.
+    | [`RETURN`](<23 🔁 REPEAT flow.md>) | To exit the loop when it's the user's turn.
+    | [`REPEAT`](<23 🔁 REPEAT flow.md>) | To re-assess the queue periodically.
+
     ---
     <br/>
+
+
+4. **How to signal a WAIT placeholder?**
+
+    Consider the following `WAIT` command.
+
+    ```yaml
+    # 😃 Talker 
+    - WAIT|24:00:00|for-something:
+        OnSignal: SUCCESS|Signalled!
+        OnTimeout: FAILURE|Timed out!
+    ```
+
+    To trigger it, a developer needs to invoke the [Hoster 🧑‍💻 helper](<../12 💬 Chats/05 🧑‍💻🛠️ Hoster helper.md>) SDK.
+
+    ```python
+    # 🐍 Python
+    def talkerHandler(args):
+        HOSTER.Signal({
+            Signal: 'for-something',
+            ChatID: '<chat-uuid>',
+            Broker: 'any-broker.com'
+        })
+    ```    

@@ -53,7 +53,7 @@
 
     ```yaml
     💬 Schedule for tomorrow:
-    - ONE|What time tomorrow?|{time-options} >> my-var
+    - ONE|What time tomorrow?|{TimeOptions} >> my-var
     - CASE|{$my-var}:
         Another: TIME|When exactly? >> my-var
     - SUCCESS|Thanks!
@@ -62,8 +62,8 @@
     ```python
     # 🐍 Python handler
     def talkerHandler(args):
-        match args['function']:
-            case 'time-options':
+        match args['Function']:
+            case 'TimeOptions':
                 return [
                     "10:00",
                     "10:30",

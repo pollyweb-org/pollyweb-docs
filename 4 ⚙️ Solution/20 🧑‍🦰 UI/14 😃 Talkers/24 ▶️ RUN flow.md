@@ -30,7 +30,15 @@
 3. **What's an example with static arguments?**
 
 
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ [Hi, Alice! I'm happy.](<../13 🤔 Prompts/11 ℹ️ INFO prompt.md>)
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ [Hi David! I'm glad.](<../13 🤔 Prompts/11 ℹ️ INFO prompt.md>)
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ [Example finished.](<../13 🤔 Prompts/13 ✅ SUCCESS prompt.md>)
+
     ```yaml
+    # 😃 Talker 
+
     💬 Example:
     - RUN|Great|Alice,happy
     - RUN|Great|David,glad
@@ -41,20 +49,25 @@
 
     ```
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
-    | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Hi, Alice! I'm happy.
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Hi David! I'm glad.
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Example finished.
-
     ---
     <br/>
 
 4. **What's an example with placeholder arguments?**
 
-    > This example uses the [`QUANTITY`](<../13 🤔 Prompts/21 🔄 QUANTITY prompt.md>) input command.
 
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Give me a number. | 🔄 12
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You gave me number 12.
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Give me another. | 🔄 34
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You gave me number 34.
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Example finished.
+    
+
+    
     ```yaml
+    # 😃 Talker 
+
     💬 Example:
     - QUANTITY|Give me a number. >> n1
     - RUN|ShowNumber|{$n1}
@@ -66,14 +79,11 @@
     - INFO|You gave me number {$1}.
     ```
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
-    | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Give me a number. | 🔄 12
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You gave me number 12.
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Give me another. | 🔄 34
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You gave me number 34.
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Example finished.
-    
+    | Command | Purpose
+    |-|-
+    | [`QUANTITY`](<../13 🤔 Prompts/21 🔄 QUANTITY prompt.md>) | To collect the number input.
+
+
     ---
     <br/>
 
@@ -82,7 +92,15 @@
 5. **What's an example with function arguments?**
 
 
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ [Here's number  3512596.](<../13 🤔 Prompts/11 ℹ️ INFO prompt.md>)
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ [Here's number  52364.](<../13 🤔 Prompts/11 ℹ️ INFO prompt.md>)
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Example finished.
+
     ```yaml
+    # 😃 Talker 
+
     💬 Example:
     - RUN|ShowNumber|{get-random-number}
     - RUN|ShowNumber|{get-random-number}
@@ -95,18 +113,10 @@
     ```python
     # 🐍 Python handler
     def talkerHandler(args):
-        match args['function']:
+        match args['Function']:
             case 'get-random-number':
                 return randomNumber()
-    ```
-
-
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
-    | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ Here's number  3512596.
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ Here's number  52364.
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Example finished.
-    
+    ```    
 
     ---
     <br/>
@@ -114,10 +124,16 @@
 
 6. **What's an example with a static RETURN?**
 
-    > This example uses [`RETURN`](<25 ↩️ RETURN flow.md>) and [`CASE`](<22 🔀 CASE flow.md>).
 
+
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ✅ Congrats, you won!
+    
 
     ```yaml
+    # 😃 Talker 
+
     💬 Example:
     - RUN|Calculate >> result
     - CASE|{$result}
@@ -130,10 +146,13 @@
     ```
 
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
-    | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ✅ Congrats, you won!
-    
+    | Command | Purpose
+    |-|-
+    | [`CASE`](<22 🔀 CASE flow.md>) | To decide which message to show.
+    | [`RETURN`](<25 ↩️ RETURN flow.md>) | To return the final result.
+
+
+
 
     ---
     <br/>
@@ -142,10 +161,18 @@
 
 6. **What's an example with a calculated RETURN?**
 
-    > This example uses the [`RETURN`](<25 ↩️ RETURN flow.md>) command.
 
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ Adding 5 to 2...
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ✅ [The first result is 7.](<../13 🤔 Prompts/13 ✅ SUCCESS prompt.md>)
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ Adding 5 to 4...
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ✅ [The second result is 9.](<../13 🤔 Prompts/13 ✅ SUCCESS prompt.md>)
+    
 
     ```yaml
+    # 😃 Talker 
+
     💬 Example:
     - RUN|AddFive(2) >> n
     - SUCCESS|The first result is {$n}.
@@ -158,14 +185,11 @@
     - FAILURE|This is a bug.
     ```
 
+    | Command | Purpose
+    |-|-
+    | [`RETURN`](<25 ↩️ RETURN flow.md>) | To calculate the value to return.
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
-    | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ Adding 5 to 2...
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ✅ The first result is 7.
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ Adding 5 to 4...
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ✅ The second result is 9.
-    
+
 
     ---
     <br/>

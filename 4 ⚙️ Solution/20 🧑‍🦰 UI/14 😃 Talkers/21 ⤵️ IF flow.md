@@ -34,7 +34,7 @@
     ```python
     # 🐍 Python handler
     def talkerHandler(args):
-      match args['function']:
+      match args['Function']:
         case 'code-is-correct':
           return True
     ```
@@ -100,7 +100,7 @@
     ```python
     # 🐍 Python handler
     def talkerHandler(args):
-      match args['function']:
+      match args['Function']:
         case 'code-is-correct':
           return True
     ```
