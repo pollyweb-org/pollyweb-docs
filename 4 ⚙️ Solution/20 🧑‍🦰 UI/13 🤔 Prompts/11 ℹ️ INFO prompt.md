@@ -31,7 +31,7 @@
     INFO|Simple info.
     ```
 
-    | Service | Prompt | User
+    | Domain | Prompt | User
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Simple info.
     | [🛠️ Helper](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | ℹ️ Simple info.
@@ -49,7 +49,7 @@
     INFO|With options|[Cancel] later, [Play] music >> answer
     ```
 
-    | Service | Prompt | User
+    | Domain | Prompt | User
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ With options:<br/>- [ Cancel ] later <br>- [ Play ] music | > Cancel
 

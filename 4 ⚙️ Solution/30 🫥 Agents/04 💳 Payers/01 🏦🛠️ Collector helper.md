@@ -112,7 +112,7 @@
     
     The [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) will be similar to the following.
 
-    | Service | Prompt | User
+    | Domain | Prompt | User
     | - | - | - |
     |...
     | 🤗 Host | ℹ️ Let me get you the bill.

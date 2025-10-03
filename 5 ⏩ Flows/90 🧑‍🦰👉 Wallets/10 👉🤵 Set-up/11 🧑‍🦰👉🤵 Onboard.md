@@ -8,7 +8,7 @@
 
 ## Chat
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | - |
 | | | Install [🧑‍🦰 Wallet](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) |
 | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 😃 Hi! What's your region? <br/> - [ 🇬🇧 ] United Kingdom <br> - ...  | > 🇬🇧 

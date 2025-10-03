@@ -55,7 +55,7 @@
           return context.CustomerType
     ```
 
-    | Service | Prompt | User
+    | Domain | Prompt | User
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Hi, premium customer!
 
@@ -77,7 +77,7 @@
     - INFO|You selected option {$my-var}.
     ```
 
-    | Service | Prompt | User
+    | Domain | Prompt | User
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Select an option. <br/> - [ A ] <br/> - [ B ] <br/> - [ C ] | > B
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You selected option B.

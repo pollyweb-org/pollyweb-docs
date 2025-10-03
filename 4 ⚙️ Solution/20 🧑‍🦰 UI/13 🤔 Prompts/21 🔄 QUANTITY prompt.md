@@ -25,7 +25,7 @@
     
     The corresponding [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) would be.
 
-    | Service | Prompt | User
+    | Domain | Prompt | User
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 How many? | 🔄 123
     [🫥 Agent](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | 🫥 How many? | 🔄 123
@@ -40,7 +40,7 @@
     Consider the following [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>).
 
 
-    | Service | Prompt | User
+    | Domain | Prompt | User
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Table reservation.
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 For how many? [1, 2, more] | > more

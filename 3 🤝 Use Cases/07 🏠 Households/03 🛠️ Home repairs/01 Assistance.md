@@ -6,7 +6,7 @@
 
     A user can scan/tap the NFC/QR of the maintenance company.
 
-    | Service | Prompt | User
+    | Domain | Prompt | User
     | - | - | - |
     | 👷 Company | 😃 Hi! What do you need? <br/>- [ Help now ] <br/>- [ Something else ] | > Help now
     | 👷 Company | 😃 What sort of help? <br/>- cleaner <br/>- plumber <br/>- other | > plumber

@@ -2,7 +2,7 @@ Buy a train ticket at the train station 🚂
 --
 
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | - |
 | | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>)
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Railway (4.3 ⭐) [+]

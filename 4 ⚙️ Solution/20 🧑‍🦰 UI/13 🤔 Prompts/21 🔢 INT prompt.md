@@ -21,7 +21,7 @@
     INT|What's the code? >> my-answer
     ```
 
-    | Service | Prompt | User
+    | Domain | Prompt | User
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What's the code? | 🔢 0123
     [🫥 Agent](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | 🫥 What's the code? | 🔢 01234

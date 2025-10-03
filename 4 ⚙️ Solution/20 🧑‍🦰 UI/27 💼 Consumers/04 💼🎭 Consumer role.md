@@ -143,7 +143,7 @@
 
     Consider the following [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) as an example. 
 
-    | Service | Prompt | User
+    | Domain | Prompt | User
     | - | - | - |
     | 🎰 Casino   | ℹ️ Request for minimum age. [+]
     | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Share over 21? [Yes, No]      | > Yes

@@ -1,7 +1,7 @@
 How to control the a hotel room's air con?
 ---
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | - |
 |...
 | 🏨 Hotel  | ⏳ Pending actions: <br/> - [ #1 ] at 7am, alarm 🔔

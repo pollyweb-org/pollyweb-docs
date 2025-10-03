@@ -25,7 +25,7 @@
         MaxValue: 1000000000
     ```
 
-    | Service | Prompt | User
+    | Domain | Prompt | User
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 How much? | 🔄 123
     [🫥 Agent](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | 🫥 How much? | 🔄 123

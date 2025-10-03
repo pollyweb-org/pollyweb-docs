@@ -5,7 +5,7 @@
 ## 💬 Chat
 
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | - |
 | ....
 | 🎪 Stall      | ⏳ We'll call you when ready [+]

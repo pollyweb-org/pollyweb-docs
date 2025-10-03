@@ -21,7 +21,7 @@ TODO: Create the API methods
 
     Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) as an example.
     
-    | Service | Prompt | User
+    | Domain | Prompt | User
     | - | - | - |
     | 🤗 [Host](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>)    | ℹ️ Sign the terms. 
     | 🆔 [Identity](<01 🆔🫥 Identity agent.md>) | 🫥 Sign terms? 📄 [Yes, No] | > Yes

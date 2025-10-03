@@ -38,7 +38,7 @@
     - REPEAT|Add another?
     ```
 
-    | Service | Prompt | User
+    | Domain | Prompt | User
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Hi! What do you need? <br/>- [Order] a list of items | > Order
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What's the item code?  | 🔢 123
@@ -68,7 +68,7 @@
     - INFO|You gave me number {$n}.
     ```
 
-    | Service | Prompt | User
+    | Domain | Prompt | User
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Give me a number | 🔄 12
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You gave me number 12

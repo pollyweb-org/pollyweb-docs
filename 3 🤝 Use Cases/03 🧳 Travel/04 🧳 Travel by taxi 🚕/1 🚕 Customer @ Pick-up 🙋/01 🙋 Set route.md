@@ -3,7 +3,7 @@ How to set a destination for a taxi ride?
 
 A user opens their Navigator vault and set the route.
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | - |
 ||| > Navigate 🔗
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Navigator (4.4 ⭐) [+]

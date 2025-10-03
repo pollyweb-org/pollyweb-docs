@@ -47,7 +47,7 @@
     * Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) excerpt of the [Find a bar 🤝 use case](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/30 🍸 Bars/11 🌐 Web: Find a bar.md>) as an example.
 
 
-    | Service | Prompt | User
+    | Domain | Prompt | User
     | - | - | - |
     | 🔎 [Finder](<02 🔎🫥 Finder vault.md>) | 😃 Hi! What do you need? | `a bar`
     | 🔎 [Finder](<02 🔎🫥 Finder vault.md>) | 💬 Here are suggestions: <br/> - [ Any Club 🕺 ] (4.4 ⭐) <br/> &nbsp; └ 👟 1.7km 🚪 10pm-5am <br/> - [ Any Bar 🍸 ] (4.8 ⭐) <br/> &nbsp; ├ 👟 1.7km 🚪 1pm-10pm <br/> &nbsp; ├ open bar from 8pm <br/> &nbsp; └ closes in ~1 hour <br/> - [ Find 🔎 ] alternatives | > Any Bar 🍸

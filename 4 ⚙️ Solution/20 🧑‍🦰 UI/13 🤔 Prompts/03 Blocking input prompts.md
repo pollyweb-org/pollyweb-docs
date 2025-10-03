@@ -137,7 +137,7 @@
 
     Consider the following [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) as an example.
 
-    | Service | Prompt | User
+    | Domain | Prompt | User
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What's the code? [-]<br/>> This is a 6 digit number | `0123`
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ❌ Enter a 6 digit number

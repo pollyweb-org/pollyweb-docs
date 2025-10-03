@@ -5,7 +5,7 @@ How to change an order at a restaurant?
 
 ## 💬 Chat
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | - |
 | ...
 | 🍽️ Restaurant | ⏳ Preparing your order... [+] | > +

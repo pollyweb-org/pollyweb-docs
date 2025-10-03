@@ -35,7 +35,7 @@ Body:
 
     The result allows the [Issuer 🎴 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) to force the user to save the [Token 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>), as in the following example from the [Buy entry at a dance club 🤝 use case](<../../3 🤝 Use Cases/02 🍲 Eat & Drink/90 🕺 Clubs/12 🌐 Web: Buy entry 🎟️.md>).
 
-    | Service | Prompt | User
+    | Domain | Prompt | User
     | - | - | - |
     |...
     | 🕺 Club       | ℹ️ Entry paid.

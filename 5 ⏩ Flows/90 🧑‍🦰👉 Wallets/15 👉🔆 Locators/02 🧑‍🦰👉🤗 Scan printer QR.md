@@ -8,7 +8,7 @@
 
 ## Chat
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | - |
 | | | 🔆 [scan](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) |
 | 🔎 [Finder](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Host (4.8 ⭐) [+]

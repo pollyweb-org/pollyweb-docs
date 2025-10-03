@@ -8,7 +8,7 @@
 ## 💬 Chat
 
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | - |
 | ...
 | [🏦 Collector](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) | ⏳ Waiting payment... [+]  | > +

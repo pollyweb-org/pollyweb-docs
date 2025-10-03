@@ -9,7 +9,7 @@
 
 1. **What's an example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
 
-    | Service | Prompt | User
+    | Domain | Prompt | User
     | - | - | - |
     | 
 

@@ -3,7 +3,7 @@ After exiting the train, how to know the way out?
 
 When at the train platform, users tap/scan an NFC/QR tag in the platform.
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | - |
 | | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>)
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Navigator (4.3 ⭐) [+]

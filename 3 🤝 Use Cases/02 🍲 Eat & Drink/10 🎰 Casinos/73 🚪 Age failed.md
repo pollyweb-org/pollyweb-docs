@@ -7,7 +7,7 @@
 
 ## 💬 Chat
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | - |
 | ...
 | 🕺 Club       | ⏳ Waiting entries... [+] 

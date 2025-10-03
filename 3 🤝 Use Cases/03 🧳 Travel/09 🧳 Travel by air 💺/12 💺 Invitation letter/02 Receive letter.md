@@ -1,7 +1,7 @@
 Receive an invitation letter before a trip
 --
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | -
 ...
 | 🦋 Butterfly | ℹ️ sis, are are there? <br/> - [ Reply ]

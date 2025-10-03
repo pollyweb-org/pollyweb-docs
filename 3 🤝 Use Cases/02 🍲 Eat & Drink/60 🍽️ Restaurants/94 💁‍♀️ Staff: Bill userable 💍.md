@@ -16,7 +16,7 @@ How to collect userable payments at restaurants?
 - Restaurants may charge fees for customers that order directly to staff.
 - Userables allow customers to pay without battery on their devices.
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | - |
 | ...
 | 🍽️ Restaurant | ⏳ Waiting requests... [+] | > +

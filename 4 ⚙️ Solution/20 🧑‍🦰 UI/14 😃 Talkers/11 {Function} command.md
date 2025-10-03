@@ -42,7 +42,7 @@
     - INFO|You gave me the number {$my-var}.
     ```
 
-    | Service | Prompt | User
+    | Domain | Prompt | User
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Give me a number.  | 🔄 5
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You gave me the number 5.
@@ -74,7 +74,7 @@
         Attachment: {/photos/elvis.png}
     ```
 
-    | Service | Prompt | User
+    | Domain | Prompt | User
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 💬 Who is in the picture? 🖼️ | `Elvis`
 
@@ -117,7 +117,7 @@
     - INFO|{$n}+{$n} equals {Sum($n,$n)}
     ```
 
-    | Service | Prompt | User
+    | Domain | Prompt | User
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ No numbers equals 0
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ 1+2+3 equals 6
@@ -166,8 +166,9 @@
     # 😃 Talker configuration
     - INFO|{MyFunction(1,2,3)}
     ```
-
-    | Service | Prompt | User
+    | Domain | Prompt | User
+    
+    | Domain | [Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>) | User
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You sent:<br/>- Function: MyFunction <br>- Parameters: [1, 2, 3]
     

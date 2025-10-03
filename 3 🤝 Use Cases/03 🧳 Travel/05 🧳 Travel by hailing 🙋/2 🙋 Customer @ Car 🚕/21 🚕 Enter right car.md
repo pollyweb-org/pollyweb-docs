@@ -4,7 +4,7 @@
 
 A user can scan/tap the NFC/QR of a raid hailing car.
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | - |
 |...
 | 🙋 Hailing | ⏳ [Tap inside until 12:41... [+]](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/13 🤔 Prompts/12 ⏳ TEMP prompt.md>)  | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) seat

@@ -1,7 +1,7 @@
 How does staff add a booking at a salon?
 --
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | -
 | ...
 | 💈 Salon   | ⏳ Waiting customers... [+] | > +

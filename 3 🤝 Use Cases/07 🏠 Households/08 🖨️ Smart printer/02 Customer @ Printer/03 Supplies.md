@@ -5,7 +5,7 @@
 
 A user can scan/tap the NFC/QR on the product (e.g., printer).
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | - |
 | 🖨️ Seller   | 😃 Hi! What do you need? <br/>- [ Supplies ] <br/>- [ Something else ] | > Supplies
 | 🖨️ Seller   | 😃 How many? [1, 2, more] | > 1

@@ -11,7 +11,7 @@ TODO: Add the obfuscated characteristics to the API
 
 ## 💬 Chat
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | - |
 | ...
 | 🕺 Club       | ⏳ Waiting entries... [+] 

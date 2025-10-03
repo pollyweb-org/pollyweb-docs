@@ -5,7 +5,7 @@ How to receive items from robots at a restaurant?
 
 ## 💬 Chat
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | - |
 | ...
 | 🍽️ Restaurant | ⏳ Delivering your order... [+]
