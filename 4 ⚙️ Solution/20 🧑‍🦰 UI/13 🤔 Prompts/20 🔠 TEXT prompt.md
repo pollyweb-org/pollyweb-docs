@@ -41,41 +41,47 @@
     ---
     <br/>
 
-2. **What are business cases?**
+2. **What agents implement text?**
+   
+    |Agent| Purpose
+    |-|-
+    |🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)| To search for the right agent for a job.
+    🔎 [Finder](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | To search for a host of a service or place.
+    🧭 [Navigator](<../../30 🫥 Agents/07 🧭 Navigators/01 🧭🫥 Navigator agent.md>) | To report on something suspicious.
+    |[💖 Vitalogist](<../../../4 ⚙️ Solution/30 🫥 Agents/09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>)| To register food intake.
+
+    ---
+    <br/>
+3. **What are business cases?**
 
     |Category|Use case
     |-|-
-    |
+    |`Curator`| [Order a burger at a fast food 🍔](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/25 🍔 Fast food/21 🪑 Seat: Order burger 🍔.md>)
+    |`Reviewer`| [Get details on a bad review ⭐](<../../../3 🤝 Use Cases/04 🛒 Shop/01 🛍️ Shop for clothes/01 Customer @ Item/01 Item price.md>)
+    |`Broker`| [Delegate finding a bar 🍸](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/30 🍸 Bars/11 🌐 Web: Find a bar.md>)
+    |`Finder` | [Ask alternatives to navigate 🧭](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/30 🍸 Bars/11 🌐 Web: Find a bar.md>)
+    |`Generic`|[Report an accident 🆘](<../../../3 🤝 Use Cases/08 🏛️ Public Services/01 🆘 Call emergency/1 @ Anywhere/10. Emergency.md>)
 
     ---
     <br/>
 
 
-3. **What's the content for a [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>)?**
+
+3. **What's the response in the [Prompted@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**
 
     ```yaml
-    
-    ```
-
-    |Parameter|Details
-    |-|-
-    | 
-    
-    ---
-    <br/>
-
-
-4. **What's the response in the [Prompted@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**
-
-    ```yaml
-    
+    Format: FAILURE
+    Message: <message>
+    Options: <options>
     ```
 
     ---
     <br/>
 
-5. **What's the Answer in the [Reply@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) method?**
+4. **What's the Answer in the [Reply@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) method?**
 
     ```yaml
-    
+    Answer: 
+        Option: <selected-option> # if any
+        Text: <typed-text>
     ```
