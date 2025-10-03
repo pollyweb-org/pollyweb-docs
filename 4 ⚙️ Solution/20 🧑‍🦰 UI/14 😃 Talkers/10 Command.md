@@ -89,11 +89,12 @@
 
     |Command|Purpose
     |-|-
-    | 📜 [`FLOW`](<41 FLOW msg.md>)
     | 🔗 [`BIND`](<42 🔗 BIND msg.md>) | Calls the [Bind Vault @ Wallet ⏩](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind.md>) flow.
+    | 🎫 [`OFFER`](<45 🎫 OFFER msg.md>) | Calls the [Save Token @ Wallet ⏩](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/02 🧑‍🦰👉🎴 Save token.md>) flow.
+    | 📜 [`FLOW`](<41 FLOW msg.md>)
     | 💳 [`CHARGE`](<43 💳 CHARGE msg.md>)
-    | [`GOODBYE`](<44 GOODBYE.md>)
-    | 🎫 [`ISSUE`](<45 🎫 OFFER msg.md>)
+    | [`GOODBYE`](<44 👋 GOODBYE.md>)
+    
    
    * `CRUD`	
        * Initiates the CRUD dialog
