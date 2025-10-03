@@ -10,7 +10,7 @@
     An `IF` 
     * is a flow [Command](<10 Command.md>)  
     * that runs a [Procedure](<20 ⚙️ Procedure block.md>) or [Command](<10 Command.md>) 
-    * based on the evaluation of a boolean [{Function}](<11 {Function} command.md>).
+    * based on the evaluation of a boolean [{Function}](<11 {Function}.md>).
 
     ---
     <br/>
@@ -25,7 +25,7 @@
 
     | Argument| Purpose
     |-|-
-    | `{function}` | Boolean evaluation [{Function}](<11 {Function} command.md>) name
+    | `{function}` | Boolean evaluation [{Function}](<11 {Function}.md>) name
     | `<true-procedure>` | Required [Procedure](<20 ⚙️ Procedure block.md>) to execute when `True`
     | `<false-procedure>`| Optional [Procedure](<20 ⚙️ Procedure block.md>) to execute when `False`
     
@@ -93,7 +93,7 @@
 
     | Argument| Purpose
     |-|-
-    | `{function}` | Name of a [{Function}](<11 {Function} command.md>) that returns `True` or `False`.
+    | `{function}` | Name of a [{Function}](<11 {Function}.md>) that returns `True` or `False`.
     | `<true-action>` | Required [Procedure](<20 ⚙️ Procedure block.md>) or [Command](<10 Command.md>) to execute when `True`
     | `<false-action>`| Optional [Procedure](<20 ⚙️ Procedure block.md>) or [Command](<10 Command.md>)  to execute when `False`
 
