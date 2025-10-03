@@ -1,7 +1,7 @@
 How to control the a hotel room's air con?
 ---
 
-| Domain | [Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>) | User
+| [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
 | - | - | - |
 |...
 | 🏨 Hotel  | ⏳ Pending actions: <br/> - [ #1 ] at 7am, alarm 🔔

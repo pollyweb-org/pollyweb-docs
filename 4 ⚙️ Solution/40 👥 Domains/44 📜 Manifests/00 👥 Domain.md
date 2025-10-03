@@ -14,15 +14,20 @@
 
 1. **What does a domain DNS look like?**
     
-    Consider the following sample DNS configuration for the domain name `any-domain.com`.
+    Consider the following sample DNS configuration for the domain name [`any-domain.com`]().
     
-    | Record Name | Type | Value | Notes
-    |-|-|-|-|
-    | [any-domain.com]() | NS | {name servers} | 👉 Given by the DNS register
-    | nlweb.[any-domain.com]() | A | {API domain name} | 👉 Endpoint for inbound [messages 📨](<../41 📨 Comms/01 📨 Domain Message.md>)  
-    | pk1._domainkey.[any-domain.com]() | TXT | "v=DKIM1;k=rsa;p=..." | 👉 Old [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) for old [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
-    | pk2._domainkey.[any-domain.com]() | TXT | "v=DKIM1;k=rsa;p=..." | 👉 [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) for outbound and [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
     
+    | Record Name | Type | Value 
+    |-|-|-|
+    | 👉 Name servers from the DNS register
+    | [`any-domain.com`]() | `NS` | `{name servers}`
+    | 👉 Endpoint for inbound [messages 📨](<../41 📨 Comms/01 📨 Domain Message.md>)  
+    | `nlweb`.[`any-domain.com`]() | `A` | `1234.any-api.com`
+    | 👉 [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) for outbound and [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
+    | `pk6`.`_domainkey`.[`any-domain.com`]() | `TXT` | `v=DKIM1;k=rsa;p=...` 
+    | 👉 Old [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) for old [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
+    | `pk5`.`_domainkey`.[`any-domain.com`]() | `TXT` | `v=DKIM1;k=rsa;p=...` 
+
     
 
     ---
