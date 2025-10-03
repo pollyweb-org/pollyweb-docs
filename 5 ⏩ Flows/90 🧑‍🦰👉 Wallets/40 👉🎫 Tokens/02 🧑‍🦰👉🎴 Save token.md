@@ -14,7 +14,7 @@ Consider the following excerpt from the [Book restaurant table 🤝 use case](<.
 | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
 | - | - | - |
 | 🎴 [Issuer](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) | ℹ️ Issuing your token...
-| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Save booking? [Yes, No]  | > Yes
+| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Save token? [Yes, No]  | > Yes
 | 🎴 [Issuer](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) | ✅ Saved to your wallet.
 ||
 
@@ -22,12 +22,14 @@ Consider the following excerpt from the [Book restaurant table 🤝 use case](<.
 
 ## 😃 Talker 
 
-The associated [Talker 😃](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/01 😃 Talker.md>) uses the [OFFER](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/45 🎫 OFFER msg.md>) command.
+The associated [Talker 😃](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/01 😃 Talker.md>) uses the [`OFFER`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/45 🎫 OFFER msg.md>) command.
 
 ```yaml
 - INFO|Issuing your token...
-- OFFER|nlweb.org/HOST/BOOKING/SELF|{bookingUUID}
-- SUCCESS|Saved to your wallet.
+- OFFER|{GetTokenID} >> accepted
+- IF|{$accepted}:
+    Then: SUCCESS|Saved to your wallet.
+    Else: FAILURE|You rejected the token.
 ```
 
 <br/>
@@ -39,15 +41,16 @@ The associated [Talker 😃](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 �
 
 | # | Call | Notes
 |-|-|-
-| 1 | [🎴🐌🤵 Offer @ Broker](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/50 🤵🅰️ Tokens 🎫/51 🎴🐌🤵 Offer.md>) | In a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>), [Issuers 🎴](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) offer a [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
-|2|[👥🚀🕸 Translate @ Graph](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/06 👥🚀🕸 Translate.md>) | [Brokers 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) translate [Schema Codes 🧩](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)
-| 3 | [🤗⏩🧑‍🦰 Prompt](<../../50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt.md>) | [Brokers 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) ask for user acceptance
-| 4 | [🤵🐌📣 Save @ Notifier](<../../../6 🅰️ APIs/65 📣🅰️ Notifier/04 📣🎫🅰️ Tokens/41 🤵🐌📣 Save.md>) | [Brokers 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) send the [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) ID
-| 5 | [🧑‍🦰🚀🎴 Issued @ Issuer](<../../../6 🅰️ APIs/55 🎴🅰️ Issuer/01 🧑‍🦰🚀🎴 Issued.md>) | [Wallets 🧑‍🦰](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) download it and save it
-| 6 | [🧑‍🦰🐌🤵 Saved @ Broker](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/50 🤵🅰️ Tokens 🎫/53 🧑‍🦰🐌🤵 Saved.md>) | [Wallets 🧑‍🦰](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) tell [Brokers 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) it's saved
-| 7 | [🤵⏩🎫 Update Tokens](<../../10 🤵⏩ Brokers/04 🤵⏩🧑‍🦰 Update tokens.md>) | [Brokers 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) tell [Wallets 🧑‍🦰](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to update the list
-| 8 | [🤵🐌🎴 Accepted @ Issuer](<../../../6 🅰️ APIs/55 🎴🅰️ Issuer/03 🤵🐌🎴 Accepted.md>) | [Brokers 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) tell [Issuers 🎴](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) of acceptance
-| 9 | [🤗⏩🧑‍🦰 Prompt](<../../50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt.md>) | [Issuers 🎴](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) continue the [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
+|1| [🤗⏩🧑‍🦰 Prompt](<../../50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt.md>) | Users run transactions with [Issuers 🎴](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>)
+|2| [🎴🐌🤵 Offer @ Broker](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/50 🤵🅰️ Tokens 🎫/51 🎴🐌🤵 Offer.md>) | In the [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>), [Issuers 🎴](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) offer a [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
+|3|[👥🚀🕸 Translate @ Graph](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/06 👥🚀🕸 Translate.md>) | [Brokers 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) translate [Schema Codes 🧩](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)
+| 4 | [🤗⏩🧑‍🦰 Prompt](<../../50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt.md>) | [Brokers 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) ask for user acceptance
+| 5 | [🤵🐌📣 Save @ Notifier](<../../../6 🅰️ APIs/65 📣🅰️ Notifier/04 📣🎫🅰️ Tokens/41 🤵🐌📣 Save.md>) | [Brokers 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) send the [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) ID
+| 6 | [🧑‍🦰🚀🎴 Issued @ Issuer](<../../../6 🅰️ APIs/55 🎴🅰️ Issuer/01 🧑‍🦰🚀🎴 Issued.md>) | [Wallets 🧑‍🦰](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) download it and save it
+| 7 | [🧑‍🦰🐌🤵 Saved @ Broker](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/50 🤵🅰️ Tokens 🎫/53 🧑‍🦰🐌🤵 Saved.md>) | [Wallets 🧑‍🦰](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) tell [Brokers 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) it's saved
+| 8 | [🤵⏩🎫 Update Tokens](<../../10 🤵⏩ Brokers/04 🤵⏩🧑‍🦰 Update tokens.md>) | [Brokers 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) tell [Wallets 🧑‍🦰](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to update the list
+| 9 | [🤵🐌🎴 Accepted @ Issuer](<../../../6 🅰️ APIs/55 🎴🅰️ Issuer/02 🤵🐌🎴 Accepted.md>) | [Brokers 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) tell [Issuers 🎴](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) of acceptance
+| A | [🤗⏩🧑‍🦰 Prompt](<../../50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt.md>) | [Issuers 🎴](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) continue the [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
 ||
 
 <br/>

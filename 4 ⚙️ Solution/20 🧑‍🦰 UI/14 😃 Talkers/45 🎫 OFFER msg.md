@@ -20,7 +20,7 @@
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 🎴 [Issuer](<../25 🎫 Tokens/02 🎴🎭 Issuer role.md>) | ℹ️ Issuing your token...
-    | 🤵 [Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Save Token? [Yes, No]  | > Yes
+    | 🤵 [Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Save token? [Yes, No]  | > Yes
     | 🎴 [Issuer](<../25 🎫 Tokens/02 🎴🎭 Issuer role.md>) | ✅ Saved to your wallet.
 
     ---
@@ -29,14 +29,14 @@
 3. **What's the OFFER syntax?**
 
     ```yaml
-    OFFER|<code>|{tokenID}
+    OFFER|{function} >> <accepted>
     ```
 
    
     | Argument| Purpose
     |-|-
-    | `<code>` | The [Schema Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) sent on [Bindable @ Broker](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/42 🗄️🐌🤵 Bindable.md>).
-    | `<bound>`  | Array of [Schema Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) received on [Bound @ Vault](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/02 🤵🐌🗄️ Bound.md>).
+    | `{function}`  | [{Function}](<11 {Function}.md>) that issues the [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) ID.
+    | `<accepted>`| Boolean placeholder with confirmation.
 
     ---
     <br/>
@@ -47,51 +47,16 @@
    # 😃 Talker 
    💬 Offer:
    - INFO|Issuing your token...
-   - OFFER|nlweb.org/HOST/BOOKING/SELF|{bookingUUID}
-   - SUCCESS|Saved to your wallet.
+   - OFFER|{GetTokenID} >> accepted
+   - IF|{$accepted}:
+       Then: SUCCESS|Saved to your wallet.
+       Else: FAILURE|You rejected the token.
    ```
 
    | Command | Purpose
    |-|-
-   | ⤵️ [IF](<21 ⤵️ IF flow.md>) | To verify the result.  
+   | ⤵️ [`IF`](<21 ⤵️ IF flow.md>) | To verify the result.  
    
    ---
    <br/>
 
-
-
-5. **What's the BIND syntax for placeholder codes?**
-
-   ```yaml
-   BIND|{bindable} >> <bound> 
-   ```
-
-   
-    | Argument| Purpose
-    |-|-
-    | `{bindable}` | [{Function}](<11 {Function}.md>) to get the [Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) for [Bindable @ Broker](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/42 🗄️🐌🤵 Bindable.md>).
-    | `<bound>`  | Array of [Schema Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) received on [Bound @ Vault](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/02 🤵🐌🗄️ Bound.md>).
-
-    ---
-    <br/>
-
-6. **What does a Talker look like for placeholder codes?**
-    
-   ```yaml
-   # 😃 Talker 
-   💬 Bind:
-   - INFO|Let's bind you.
-   - EVAL|{GetBindableCodes} >> bindable
-   - BIND|{$bindable} >> bound
-   - IF|{$bound}:
-       Then: SUCCESS|Your wallet is bound.
-       Else: FAILURE|Not bounded.
-   ```
-
-   | Command | Purpose
-   |-|-
-   | ⏏️ [EVAL](<20 ⏏️ EVAL flow.md>) | To put the bindable array into a placeholder.
-   | ⤵️ [IF](<21 ⤵️ IF flow.md>) | To verify the result.
-   
-   ---
-   <br/>

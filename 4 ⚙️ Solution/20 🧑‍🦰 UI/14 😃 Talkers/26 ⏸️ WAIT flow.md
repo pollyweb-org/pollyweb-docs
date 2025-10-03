@@ -53,7 +53,7 @@
 
     | Command | Purpose
     |-|-
-    | [`REPEAT`](<23 🔁 REPEAT flow.md>) | To update the message.
+    | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | To update the message.
 
     ---
     <br/>
@@ -96,11 +96,11 @@
 
     | Command | Purpose
     |-|-
-    | [`RUN`](<24 ▶️ RUN flow.md>) | To start the waiting loop.
-    | [`EVAL`](<20 ⏏️ EVAL flow.md>) | to assess the backend queue length.
-    | [`CASE`](<22 🔀 CASE flow.md>) | To show the human-friendly message.
-    | [`RETURN`](<23 🔁 REPEAT flow.md>) | To exit the loop when it's the user's turn.
-    | [`REPEAT`](<23 🔁 REPEAT flow.md>) | To re-assess the queue periodically.
+    | ▶️ [`RUN`](<24 ▶️ RUN flow.md>) | To start the waiting loop.
+    | ⏏️ [`EVAL`](<20 ⏏️ EVAL flow.md>) | to assess the backend queue length.
+    | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | To show the human-friendly message.
+    | 🔁 [`RETURN`](<23 🔁 REPEAT flow.md>) | To exit the loop when it's the user's turn.
+    | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | To re-assess the queue periodically.
 
     ---
     <br/>
