@@ -29,23 +29,34 @@
 3. **What's an example of a REPEAT with a message?**
 
 
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | 🕙 Clock | ✅ The time is 09:01:26Z
+    | 🕙 Clock | 😃 Check again? [Yes, No] | > Yes
+    | 🕙 Clock | ✅ The time is 09:02:58Z
+    | 🕙 Clock | 😃 Check again? [Yes, No] 
+    
+
+
     ```yaml
     💬|Show time:
     - SUCCESS|The time is {.Time}.
     - REPEAT|Check again?
     ```
-
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
-    | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ The time is 09:01:26Z
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Check again? [Yes, No] | > Yes
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ The time is 09:02:58Z
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Check again? [Yes, No] 
     
     ---
     <br/>
 
 5. **What's an example of a repeat without a message?**
+
+
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | 🕙 Clock | 😃 Want to know the time? [Yes, No] | > Yes
+    | 🕙 Clock | ✅ The time is 09:01:26Z
+    | 🕙 Clock | 😃 Want to know the time? [Yes, No] | > Yes
+    | 🕙 Clock | ✅ The time is 09:02:58Z
+    | 🕙 Clock | 😃 Want to know the time? [Yes, No] 
 
     ```yaml
     💬|Show time:
@@ -54,13 +65,6 @@
     - REPEAT
     ```
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
-    | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Want to know the time? [Yes, No] | > Yes
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ The time is 09:01:26Z
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Want to know the time? [Yes, No] | > Yes
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ The time is 09:02:58Z
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Want to know the time? [Yes, No] 
     
     ---
     <br/>
@@ -69,7 +73,20 @@
 
 6. **How to build a simple shopping basket?**
 
-    > This example uses the [`EVAL`](<12 🧠 EVAL command.md>) command.
+    
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Hi! What do you need? <br/>- [Order] a list of items | > Order
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What's the item code?  | 🔢 123
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Added `Flower vase`
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Add another? [Yes, No] | > Yes
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What's the item code?  | 🔢 456
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Added `Safety box`
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Add another? [Yes, No] | > No
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Here's your basket:<br/>- Flower vase <br>- Safety box
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Submit order? [Yes, No] | > Yes
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Order submitted!
+
 
     ```yaml
     💬|[Order] a list of items:
@@ -85,32 +102,40 @@
     - REPEAT|Add another?
     ```
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
-    | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Hi! What do you need? <br/>- [Order] a list of items | > Order
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What's the item code?  | 🔢 123
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Added `Flower vase`
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Add another? [Yes, No] | > Yes
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What's the item code?  | 🔢 456
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Added `Safety box`
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Add another? [Yes, No] | > No
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Here's your basket:<br/>- Flower vase <br>- Safety box
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Submit order? [Yes, No] | > Yes
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Order submitted!
+
+    Here's a list of flow commands used in the example.
+
+    | Command | Purpose
+    |-|-
+    | [`EVAL`](<12 🧠 EVAL command.md>) | To add an item to the database.
 
     ---
     <br/>
 
 7. **How to build a simple game?**
 
-    Here's a list of flow commands used in the example.
 
-    | Command | Purpose
-    |-|-
-    | [`EVAL`](<12 🧠 EVAL command.md>) | To generate a random number a subtract tries.
-    | [`REPEAT`](<23 🔁 REPEAT flow.md>) | To allow for additional tries.
-    | [`RETURN`](<25 ↩️ RETURN flow.md>) | To return the result from the loop.
-    | [`CASE`](<22 🔀 CASE flow.md>) | To check the if the user won or lost.    
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Hi! What do you need? <br/>- [ Play ] guess | > Play
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You have 3 attempts.
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Say a number from 1 to 9. | 🔄 3
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ❌ You have 2 more tries.
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Say a number from 1 to 9. | 🔄 1
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ❌ It's your last try.
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Say a number from 1 to 9. | 🔄 7
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ You won! 🥳
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Play again? [Yes, No] | > Yes
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You have 3 attempts.
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Say a number from 1 to 9. | ...
+    | ...|...|...
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ❌ You lost! 😮
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Play again? [Yes, No] | > No
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ OK, see you next time!
+    | ⭐ [Rate](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5
+    | [👀 Ads](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) | ⓘ Explore follow-ups: <br/>- [ #️⃣ Play Tic-Tac-Toe ] 
+    
+
 
     ```yaml
     💬 Play guess:                      
@@ -152,25 +177,15 @@
     - REPEAT
     ```
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
-    | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Hi! What do you need? <br/>- [ Play ] guess | > Play
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You have 3 attempts.
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Say a number from 1 to 9. | 🔄 3
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ❌ You have 2 more tries.
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Say a number from 1 to 9. | 🔄 1
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ❌ It's your last try.
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Say a number from 1 to 9. | 🔄 7
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ You won! 🥳
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Play again? [Yes, No] | > Yes
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You have 3 attempts.
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Say a number from 1 to 9. | ...
-    | ...|...|...
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ❌ You lost! 😮
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Play again? [Yes, No] | > No
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ OK, see you next time!
-    | ⭐ [Rate](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5
-    | [👀 Ads](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) | ⓘ Explore follow-ups: <br/>- [ #️⃣ Play Tic-Tac-Toe ] 
-    
+    Here's a list of flow commands used in the example.
+
+    | Command | Purpose
+    |-|-
+    | [`EVAL`](<12 🧠 EVAL command.md>) | To generate a random number a subtract tries.
+    | [`REPEAT`](<23 🔁 REPEAT flow.md>) | To allow for additional tries.
+    | [`RETURN`](<25 ↩️ RETURN flow.md>) | To return the result from the loop.
+    | [`CASE`](<22 🔀 CASE flow.md>) | To check the if the user won or lost.    
+
+
     ---
     <br/>

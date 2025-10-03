@@ -104,9 +104,9 @@
     ```python
     # 🐍 Python handler
     def talkerHandler(args):
-      match args['function']:
+      match args['Function']:
         case 'Sum':
-          return sum(args['parameters'])
+          return sum(args['Parameters'])
     ```
 
     ```yaml
@@ -157,8 +157,8 @@
     def talkerHandler(args):
       return "\n".join([
         f"You sent:",
-        f"- Function: {args['function']}",
-        f"- Parameters: {args['parameters']}"
+        f"- Function: {args['Function']}",
+        f"- Parameters: {args['Parameters']}"
       ])
     ```
 
