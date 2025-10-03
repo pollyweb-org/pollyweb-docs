@@ -1,12 +1,14 @@
-# 😃 Talker `{function}` 
+# 😃 Talker `{Function}` 
 
 > Part of [Talker 😃](<01 😃 Talker.md>)
 
 <br/>
 
-1. **What's a Talker {function}?**
+1. **What's a Talker {Function}?**
 
-    A [{Function}](<11 {Function}.md>) is a string encapsulated in brackets that calculates one if the following values.
+    A [{Function}](<11 {Function}.md>) 
+    * is a string encapsulated in brackets 
+    * that calculates one if the following values.
 
     |Format|Details
     |-|-
