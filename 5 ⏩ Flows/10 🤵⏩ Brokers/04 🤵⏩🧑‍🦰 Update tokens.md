@@ -3,7 +3,7 @@
 > The [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) updates the list of [Tokens 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>).
 
 > Used in:
-> <br/>• [🎴⏩🧑‍🦰 Offer Token @ Issuer](<../90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/01 🧑‍🦰👉🎴 Save token.md>) 
+> <br/>• [🎴⏩🧑‍🦰 Offer Token @ Issuer](<../90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/02 🧑‍🦰👉🎴 Save token.md>) 
 > <br/>• [🧑‍🦰👉🤵 Remove Token @ Wallet](<../90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/04 🧑‍🦰👉🤵 Remove token.md>)
 > <br/>• [🧑‍🦰👉🤵 List Tokens @ Wallet](<../90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/01 🧑‍🦰👉🤵 List tokens.md>)
 
