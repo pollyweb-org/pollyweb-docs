@@ -30,7 +30,6 @@
     | [⭐&nbsp;RATE](<26 ⭐ RATE prompt.md>) | 1 to 5 stars
     | [🕓&nbsp;TIME](<27 🕓 TIME prompt.md>) | Asks for time of day
     | [📆&nbsp;DATE](<27 📆 DATE prompt.md>) | Asks for a date
-    | [🗓️&nbsp;UNTIL](<27 🗓️ UNTIL prompt.md>) | Asks for a date/time in the future
     | [🛒&nbsp;EAN](<44 🛒 EAN prompt.md>) | Scans for ENA-13 and EAN-8 barcodes
     | [🔆&nbsp;SCAN](<42 🔆 SCAN prompt.md>) | Asks to touch/scan a [QR/NFC Locator 🔆](<../11 🔆 Locators/01 🔆 Locator.md>)
     | [🦋&nbsp;TOUCH](<43 🦋 TOUCH prompt.md>) | Asks to touch/scan a [QR/NFC Ephemeral 🦋 device](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>)
@@ -44,7 +43,7 @@
     ---
     <br/>
 
-1. **How do emojis work?**
+2. **How do emojis work?**
 
     Emoji | Behavior
     |-|-

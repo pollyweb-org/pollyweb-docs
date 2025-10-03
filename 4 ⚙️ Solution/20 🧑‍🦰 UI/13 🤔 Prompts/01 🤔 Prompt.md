@@ -25,7 +25,7 @@
     |[`Status`](<02 Non-blocking prompts.md>)| [`ℹ️ INFO`](<11 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<12 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<13 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<14 ❌ FAILURE prompt.md>)
     |[`Inputs`](<03 Blocking input prompts.md>)| [`🔢 INT`](<21 🔢 INT prompt.md>) [`🔄 QUANTITY`](<21 🔄 QUANTITY prompt.md>) [`💰 AMOUNT`](<22 💰 AMOUNT prompt.md>) [`🔑 OTP`](<21 🔑 OTP prompt.md>) [`⭐ RATE`](<26 ⭐ RATE prompt.md>) 
     || [`👍 CONFIRM`](<24 👍 CONFIRM prompt.md>) [`1️⃣ ONE`](<25 1️⃣ ONE prompt.md>) [`🔢 MANY`](<25 🔠 MANY prompt.md>) 
-    || [`🕓 TIME`](<27 🕓 TIME prompt.md>) [`📆 DATE`](<27 📆 DATE prompt.md>) [`🗓️ UNTIL`](<27 🗓️ UNTIL prompt.md>) 
+    || [`🕓 TIME`](<27 🕓 TIME prompt.md>) [`📆 DATE`](<27 📆 DATE prompt.md>) 
     || [`⬆️ UPLOAD`](<51 ⬆️ UPLOAD prompt.md>)
     || [`🔠 TEXT`](<20 🔠 TEXT prompt.md>) 
     || [`👤 IDENTIFY`](<41 👤 IDENTIFY prompt.md>) [`🛒 EAN`](<44 🛒 EAN prompt.md>) [`🔆 SCAN`](<42 🔆 SCAN prompt.md>) [`🦋 TOUCH`](<43 🦋 TOUCH prompt.md>) 
@@ -95,7 +95,7 @@
 
 
 
-6. **How to attach an appendix?**
+6. **How to attach a file?**
 
     > This calls [Download@Host 🚀](<../../../6 🅰️ APIs/50 🤗🅰️ Host/06 🧑‍🦰🚀🤗 Download.md>)
     
@@ -110,7 +110,7 @@
 
     ```yaml
     TEXT|Who is in the picture?:
-        Appendix: {/photos/elvis.png}
+        Attachment: {/photos/elvis.png}
     ```
     
     The [Prompted@Host 🚀](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method would be.
@@ -118,7 +118,7 @@
     ```yaml
     Format: TEXT
     Message: Who is in the picture?
-    Appendix: <appendix-uuid>
+    Attachment: <attachment-uuid>
     ```
 
     Usages include the following.

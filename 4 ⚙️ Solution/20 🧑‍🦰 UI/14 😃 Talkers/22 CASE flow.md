@@ -50,9 +50,9 @@
     ```python
     # Python handler
     def talkerHandler(args):
-        match args['function']:
-            case 'customer-type':
-                return context.CustomerType
+      match args['function']:
+        case 'customer-type':
+          return context.CustomerType
     ```
 
     | Service | Prompt | User

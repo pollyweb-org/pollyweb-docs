@@ -42,10 +42,6 @@
        * If not confirmed, execs `falseProc`.
        * If `falseProc` not given stops the current proc.
        * When stopping the current proc, pops stack.
-   * `DOWNLOAD|<message>|<fileID>|<options>`	
-       * Calls the [⬇️ DOWNLOAD Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>)
-       * Options are optional, comma separated
-       * Example: `Erase, Duplicate`
    * `EAN|<message> >> <key>`	
        * Calls the [🛒 EAN Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>)
    * [`ℹ️ INFO`](<../13 🤔 Prompts/11 ℹ️ INFO prompt.md>) Information.
@@ -71,8 +67,6 @@
        * Calls the [🦋 TOUCH Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
    * `TRACK|<message>`	
        * Calls the [🗺️ TRACK Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
-   * `UNTIL|<message>`	
-       * Calls the [🗓️ UNTIL Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
    * `UPLOAD|<message>`	
        * Calls the the [⬆️ UPLOAD Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
 
