@@ -11,7 +11,7 @@ At the street market, vendors access the stall chat.
 ## 💬 Chat
 
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | - |
 | ...
 | 🎪 Stall  | ⏳ Waiting requests... [+] 

@@ -1,7 +1,7 @@
 How to book at a salon?
 --
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | - |
 ||| > Book 🔗
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Salon (4.4 ⭐) [+]

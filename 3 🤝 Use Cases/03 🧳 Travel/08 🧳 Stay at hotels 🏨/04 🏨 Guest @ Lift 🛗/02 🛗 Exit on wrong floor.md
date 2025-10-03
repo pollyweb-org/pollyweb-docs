@@ -1,7 +1,7 @@
 How to find the room at the wrong floor?
 ---
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | - |
 |...
 | | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) wall

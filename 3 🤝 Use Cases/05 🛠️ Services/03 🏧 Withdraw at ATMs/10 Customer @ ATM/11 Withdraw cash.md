@@ -5,7 +5,7 @@ A user can tap/scan the NFC/QR tag of a cash machine to start.
 - To dispense the money, users need to scan/tap the dynamic tag of the dispenser.
 - The dispenser's [ephemeral 🦋](<../../../../4 ⚙️ Solution/60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>) tag rotates to force users to stand beside it.
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | - |
 | | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>)
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any ATM (4.4 ⭐) [+]

@@ -7,7 +7,7 @@ How do drivers fulfill an order at the pizzeria?
 
 ## 💬 Chat
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | - |
 |...
 | 🛵 Courier    | ⏳ Waiting orders... [+]

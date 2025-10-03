@@ -6,7 +6,7 @@
 
 ## 💬 Chat
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | - |
 |...
 | 🍽️ Restaurant  | ⏳ Waiting items... [+] 

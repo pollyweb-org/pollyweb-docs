@@ -1,7 +1,7 @@
 How does staff serve a customer at a salon?
 --
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | -
 | ...
 | 💈 Salon   | ⏳ Customer queue... <br/> - [ ⏳1 ] 09:30 Alice 💇 💅 <br/> - [ ⏳2 ] Mrs Parker 💅 <br/> - [ ⏳3 ] 10:00 Leo 💇  <br/>- [ Something else ] | > ⏳1

@@ -32,7 +32,7 @@
 
     Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) as an example.
 
-    | Service | Prompt | User
+    | Domain | Prompt | User
     | - | - | - |
     | 🤗 [Host](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 A beer? [Yes, No]         | > Yes
     | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Share over 21? [Yes, No]     | > Yes

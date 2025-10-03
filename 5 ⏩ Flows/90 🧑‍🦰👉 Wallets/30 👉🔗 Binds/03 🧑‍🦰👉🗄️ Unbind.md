@@ -8,7 +8,7 @@
 
 ## Chat
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | - |
 ...
 | 🗄️ [Vault](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) | ✅ Done. Your wallet is bound.

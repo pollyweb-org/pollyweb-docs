@@ -7,7 +7,7 @@
 ## Chat
 
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | - |
 ...
 | 🤗 [Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Lost is maze? [Yes, No] 

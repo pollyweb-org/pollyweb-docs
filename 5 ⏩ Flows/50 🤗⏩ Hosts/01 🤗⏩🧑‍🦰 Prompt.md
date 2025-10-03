@@ -17,7 +17,7 @@
 
 Consider the following [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) with three [Prompts 🤔](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/13 🤔 Prompts/01 🤔 Prompt.md>) as an example.
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | - |
 | 🤗 Host | ℹ️ Hello World!
 | 🤗 Host | 😃 Like sports? [Yes, No] <br/> - I [love] it <br/> - I [hate] it | >> love

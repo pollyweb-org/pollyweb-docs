@@ -9,7 +9,7 @@ When users ask their [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI
 
 ## Chat
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | - |
 | | | > [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
 | | | > [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) 

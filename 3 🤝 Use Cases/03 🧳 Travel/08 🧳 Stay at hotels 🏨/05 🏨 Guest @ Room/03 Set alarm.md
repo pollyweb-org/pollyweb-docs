@@ -1,7 +1,7 @@
 How to set an alarm at a hotel room?
 ---
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | - |
 |...
 | | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) wall

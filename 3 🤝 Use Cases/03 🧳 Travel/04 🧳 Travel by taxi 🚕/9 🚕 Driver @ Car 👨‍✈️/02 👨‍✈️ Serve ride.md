@@ -1,7 +1,7 @@
 👨‍✈️ How can a driver serve a ride?
 ===
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | - |
 |...
 | 🚕 Taxi       | ⏳ Waiting requests... [+]

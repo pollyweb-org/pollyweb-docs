@@ -1,7 +1,7 @@
 How to enter a hotel room?
 ---
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | - |
 |...
 | | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) door

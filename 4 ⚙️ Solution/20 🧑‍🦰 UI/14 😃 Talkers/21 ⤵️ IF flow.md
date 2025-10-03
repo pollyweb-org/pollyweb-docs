@@ -66,7 +66,7 @@
     - FAILURE|Code is wrong!
     ```
 
-    | Service | Prompt | User
+    | Domain | Prompt | User
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Test started
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Code is correct!
@@ -129,7 +129,7 @@
     - FAILURE|Code is wrong!
     ```
 
-    | Service | Prompt | User
+    | Domain | Prompt | User
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Test started
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Code is correct!

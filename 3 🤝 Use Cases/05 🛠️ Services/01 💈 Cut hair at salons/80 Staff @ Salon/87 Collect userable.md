@@ -1,7 +1,7 @@
 How to collect payments from customer at salons?
 --
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | -
 | ...
 | 💈 Salon   | ℹ️ Issued $40 bill [+] | > +

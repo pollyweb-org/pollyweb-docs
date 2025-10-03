@@ -7,7 +7,7 @@ Bouncers check IDs at a club's door
 
 ## 💬 Chat
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | - |
 | ...
 | 🕺 Club       | ⏳ Waiting entries... [+] 

@@ -2,7 +2,7 @@
 **How to book a ride for later?**
 --
 
-| Service | Prompt | User
+| Domain | Prompt | User
 | - | - | - |
 ||| > Ride 🔗
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Ride Hailing (4.4 ⭐) [+]
