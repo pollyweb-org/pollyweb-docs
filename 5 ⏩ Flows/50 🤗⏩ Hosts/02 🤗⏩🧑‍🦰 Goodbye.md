@@ -12,7 +12,7 @@ Consider the following [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12
 | - | - | - |
 | 🏨 Hotel  | ✅ Booking confirmed! 
 | [👀 Ads](<../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) | 🫥 Explore follow-up actions? [No] <br/>- [ Book a city tour 🚌 ]  <br/>- [ See a flamenco show 💃 ]
-| ⭐ [Reviewer](<../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐⭐⭐⭐
+| ⭐ [Rate](<../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐⭐⭐⭐
 |
 
 <br/>

@@ -8,5 +8,5 @@ Edit a setting on a folder editor
 | 🗂️ [Folder](<01 🗂️ Folder editor.md>) | ℹ️ Open editor requested.
 | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../30 🫥 Agents/05 🆔 Identities/21 🆔😶 Face scan.md>)
 | 🗂️ Folder   | ✅ Editor opened.
-| ⭐ [Reviewer](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | > ⭐⭐⭐⭐⭐ |
+| ⭐ [Rate](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | > ⭐⭐⭐⭐⭐ |
 ||

@@ -22,5 +22,5 @@
 | 🍸 Bar        | ⏳ Preparing your order... [+] 
 | 🍸 Bar        | ℹ️ Ready, we'll take it there [+]
 | 💖 [Vitalogist](<../../../4 ⚙️ Solution/30 🫥 Agents/09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) | 🫥 Save intake? [Yes, No] | > Yes
-| ⭐ [Reviewer](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | > ⭐⭐⭐⭐⭐ |
+| ⭐ [Rate](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | > ⭐⭐⭐⭐⭐ |
 ||

@@ -16,6 +16,9 @@
 
 4. **Flow commands**
 
+   
+
+    Commands:
     * `EVAL|{function}`	
         * Calculates something to be used in cases.
         * Without a function, uses the last answer.
@@ -37,6 +40,11 @@
 
 5. **Prompt commands**
 
+    Messages need to escape:
+    * `|` with `\|` because these are command separators;
+    * `>>` with `\>>` because these are for placeholders.
+  
+    Commands:
    * `CONFIRM|<message>|<falseProc>`	
        * Calls the [CONFIRM 👍 Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>)
        * If not confirmed, execs `falseProc`.

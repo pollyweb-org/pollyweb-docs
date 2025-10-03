@@ -164,6 +164,7 @@
 
     ```yaml
     # 😃 Talker configuration
+    💬 Example:
     - INFO|{MyFunction(1,2,3)}
     ```
 

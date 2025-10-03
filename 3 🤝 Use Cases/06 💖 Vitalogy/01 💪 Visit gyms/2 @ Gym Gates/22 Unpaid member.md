@@ -13,5 +13,5 @@ How to pay a membership at the gym's gates?
 | 💳 [Payer](<../../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Pay 65,00€ bill? 🧾 [No] <br/>- [ card ABC ] + 0.10€<br/>- [ card DEF ] (free) | > card ABC
 | 🤝 [Biller](<../../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>) | ⓘ Membership extended: <br/> - now valid through July 1st <br/> - next debit on June 27th.
 | 💪 Gym | ✅ Entry gate opened!
-| ⭐ [Reviewer](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | > ⭐⭐⭐⭐
+| ⭐ [Rate](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | > ⭐⭐⭐⭐
 ||
