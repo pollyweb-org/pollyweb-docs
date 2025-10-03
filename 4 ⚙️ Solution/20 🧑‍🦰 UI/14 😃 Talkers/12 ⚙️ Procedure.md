@@ -6,7 +6,7 @@
 
 1. **What's a Talker Procedure?**
 
-    A [Procedure](<20 ⚙️ Procedure block.md>) is a set of [Commands](<10 Command.md>) executed sequentially.
+    A [Procedure](<12 ⚙️ Procedure.md>) is a set of [Commands](<10 Command.md>) executed sequentially.
 
     ---
     <br/>
@@ -21,7 +21,7 @@
 
     | Argument| Purpose
     |-|-
-    | `<procedure>` | The name of the [Procedure](<20 ⚙️ Procedure block.md>).
+    | `<procedure>` | The name of the [Procedure](<12 ⚙️ Procedure.md>).
     | `<command-n>` | A [Command](<10 Command.md>)  to be executed.
     
     ```yaml

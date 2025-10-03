@@ -9,7 +9,7 @@
 
     An `IF` 
     * is a flow [Command](<10 Command.md>)  
-    * that runs a [Procedure](<20 ⚙️ Procedure block.md>) or [Command](<10 Command.md>) 
+    * that runs a [Procedure](<12 ⚙️ Procedure.md>) or [Command](<10 Command.md>) 
     * based on the evaluation of a boolean [{Function}](<11 {Function}.md>).
 
     ---
@@ -17,7 +17,7 @@
 
 2. **What's the inline syntax?**
 
-    > Note: this syntax only allows for [Procedures](<20 ⚙️ Procedure block.md>), not [Commands](<10 Command.md>).
+    > Note: this syntax only allows for [Procedures](<12 ⚙️ Procedure.md>), not [Commands](<10 Command.md>).
    
     ```yaml
     - IF|{function}|<true-procedure>|<false-procedure>
@@ -26,8 +26,8 @@
     | Argument| Purpose
     |-|-
     | `{function}` | Boolean evaluation [{Function}](<11 {Function}.md>) name
-    | `<true-procedure>` | Required [Procedure](<20 ⚙️ Procedure block.md>) to execute when `True`
-    | `<false-procedure>`| Optional [Procedure](<20 ⚙️ Procedure block.md>) to execute when `False`
+    | `<true-procedure>` | Required [Procedure](<12 ⚙️ Procedure.md>) to execute when `True`
+    | `<false-procedure>`| Optional [Procedure](<12 ⚙️ Procedure.md>) to execute when `False`
     
     ---
     <br/>
@@ -83,7 +83,7 @@
 
 2. **What's the multi-line syntax?**
 
-    > This option allows both [Procedures](<20 ⚙️ Procedure block.md>) and [Commands](<10 Command.md>).
+    > This option allows both [Procedures](<12 ⚙️ Procedure.md>) and [Commands](<10 Command.md>).
    
     ```yaml
     - IF|{function}:
@@ -94,8 +94,8 @@
     | Argument| Purpose
     |-|-
     | `{function}` | Name of a [{Function}](<11 {Function}.md>) that returns `True` or `False`.
-    | `<true-action>` | Required [Procedure](<20 ⚙️ Procedure block.md>) or [Command](<10 Command.md>) to execute when `True`
-    | `<false-action>`| Optional [Procedure](<20 ⚙️ Procedure block.md>) or [Command](<10 Command.md>)  to execute when `False`
+    | `<true-action>` | Required [Procedure](<12 ⚙️ Procedure.md>) or [Command](<10 Command.md>) to execute when `True`
+    | `<false-action>`| Optional [Procedure](<12 ⚙️ Procedure.md>) or [Command](<10 Command.md>)  to execute when `False`
 
     ---
     <br/>
