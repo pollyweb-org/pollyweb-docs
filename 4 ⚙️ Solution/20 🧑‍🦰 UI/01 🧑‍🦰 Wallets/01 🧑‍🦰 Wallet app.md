@@ -134,16 +134,16 @@
 
 1. **What workflows can users execute in a Wallet app?**
 
-    | Category | Workflow | Target | Description
-    |-|-|-|-
-    | 🤵 Set up | [👉 Onboard](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/11 🧑‍🦰👉🤵 Onboard.md>) | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | Initializes a [Wallet 🧑‍🦰 app](<01 🧑‍🦰 Wallet app.md>) on a [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>).
-    | | [👉 Translate](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/12 🧑‍🦰👉🤵 Translate.md>) | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | Changes the language of the [Wallet 🧑‍🦰 app](<01 🧑‍🦰 Wallet app.md>).
-    | 🔆 Locators |[👉 Host QR](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>) | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | The [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) presented a QR to the user.
-    ||[👉 Printer QR](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/02 🧑‍🦰👉🤗 Scan printer QR.md>) | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | The user presented a QR to the [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>).  
-    |💬 Chats|[👉 List chats](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/01 🧑‍🦰👉🤵 List chats.md>) | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>)
-    ||[👉 Home](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/02 🧑‍🦰👉🤵 Host home.md>) | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>)
-    ||[👉 Abandon](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>) | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>)
-    | 🔗 Binds | [👉 List binds ](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/01 🧑‍🦰👉🤵 List binds.md>) |[🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>)
+    | Category | Workflow |  Description
+    |-|-|-
+    | 🤵 Set up | [👉 Onboard](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/11 🧑‍🦰👉🤵 Onboard.md>)  | Initializes a [Wallet 🧑‍🦰 app](<01 🧑‍🦰 Wallet app.md>) on a [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>).
+    | | [👉 Translate](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/12 🧑‍🦰👉🤵 Translate.md>)  | Changes the language of the [Wallet 🧑‍🦰 app](<01 🧑‍🦰 Wallet app.md>).
+    | 🔆 Locators |[👉 Host QR](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>)  | The [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) presented a QR to the user.
+    ||[👉 Printer QR](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/02 🧑‍🦰👉🤗 Scan printer QR.md>)  | The user presented a QR to the [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>).  
+    |💬 Chats|[👉 List chats](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/01 🧑‍🦰👉🤵 List chats.md>) 
+    ||[👉 Home](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/02 🧑‍🦰👉🤵 Host home.md>) 
+    ||[👉 Abandon](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>) 
+    | 🔗 Binds | [👉 List binds ](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/01 🧑‍🦰👉🤵 List binds.md>) 
     [text](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/03 🧑‍🦰👉🗄️ Unbind.md>)
 
     ---

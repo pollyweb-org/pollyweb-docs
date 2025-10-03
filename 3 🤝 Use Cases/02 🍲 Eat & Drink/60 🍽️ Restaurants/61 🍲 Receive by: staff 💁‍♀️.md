@@ -5,7 +5,7 @@ How to receive items from staff at a restaurant?
 
 ## 💬 Chat
 
-| Domain | [Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>) | User
+| [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
 | - | - | - |
 | ...
 | 🍽️ Restaurant | ⏳ Preparing your order... <br/> - [ 1 tap water 🚰 ] <br/> - [ 1 dark paella 🥘 ] <br/> - [ 1 red wine glass 🍷 ]

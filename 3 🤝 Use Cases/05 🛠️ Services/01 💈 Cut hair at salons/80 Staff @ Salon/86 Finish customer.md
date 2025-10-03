@@ -1,7 +1,7 @@
 How does staff finish a customer at a salon?
 --
 
-| Domain | [Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>) | User
+| [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
 | - | - | -
 | ...
 | 💈 Salon   | ⏳ Customer queue... <br/> - [ ✨1 ] 09:30 Alice 💇 💅 <br/> - [ ⏳2 ] Mrs Parker 💅 <br/> - [ ✨3 ] 10:00 Leo 💇 <br/>- [ Something else ] | > ✨1
