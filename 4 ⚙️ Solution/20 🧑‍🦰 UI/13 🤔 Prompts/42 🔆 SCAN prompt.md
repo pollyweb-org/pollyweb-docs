@@ -5,6 +5,9 @@
 > Part of [blocking input prompts 🤔](<03 Blocking input prompts.md>)
 
 
+   * `SCAN|<message>`	
+       * Calls the [🔆 SCAN Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
+
 <br/>
 
 1. **What's an example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**

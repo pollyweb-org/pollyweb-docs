@@ -7,14 +7,17 @@
 
 1. **What's an IF flow?**
 
-    An `IF` is a flow [Command](<10 Command.md>)  that runs a [Procedure](<20 ⚙️ Procedure block.md>) or [Command](<10 Command.md>) based on the evaluation of a boolean [{Function}](<11 {Function} command.md>).
+    An `IF` 
+    * is a flow [Command](<10 Command.md>)  
+    * that runs a [Procedure](<20 ⚙️ Procedure block.md>) or [Command](<10 Command.md>) 
+    * based on the evaluation of a boolean [{Function}](<11 {Function} command.md>).
 
     ---
     <br/>
 
 2. **What's the inline syntax?**
 
-    > Note: this option only allows [Procedures](<20 ⚙️ Procedure block.md>), not [Commands](<10 Command.md>).
+    > Note: this syntax only allows for [Procedures](<20 ⚙️ Procedure block.md>), not [Commands](<10 Command.md>).
    
     ```yaml
     - IF|{function}|<true-procedure>|<false-procedure>

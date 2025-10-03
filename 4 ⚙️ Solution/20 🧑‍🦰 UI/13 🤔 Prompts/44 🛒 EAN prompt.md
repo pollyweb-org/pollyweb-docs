@@ -4,6 +4,8 @@
 
 > Part of [blocking input prompts 🤔](<03 Blocking input prompts.md>)
 
+   * `EAN|<message> >> <key>`	
+       * Calls the [🛒 EAN Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>)
 
 <br/>
 

@@ -14,26 +14,19 @@
     <br/>
 
 
-4. **Flow commands**
+4. **What are Flow commands?**
 
-   
+    > Flow commands allow the creation of complex workflows.
 
-    Commands:
-    * `EVAL|{function}`	
-        * Calculates something to be used in cases.
-        * Without a function, uses the last answer.
-        * Without cases, evaluates and discards.
-    * [`CASE`](<22 🔀 CASE flow.md>) Runs an action matching a function evaluation.
-    * [`IF`](<21 ⤵️ IF flow.md>) Runs an action based on a function evaluation.
-    * `MENU|<message>`	
-        * Calls 👍 CONFIRM [Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
-        * If confirmed, repeats the top menu
-        <!-- TODO: this should probably be automatic -->
-    * `REPEAT|<message>`
-        * Calls 👍 CONFIRM [Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
-        * If confirmed, repeats the current anchor
-        * Without a message, just repeats.  
-    * [`RUN`](<24 ▶️ RUN flow.md>) Executes a procedure.
+    Command | Purpose
+    |-|-
+    | 🧠 [EVAL](<12 🧠 EVAL command.md>) | Evaluates a [{Function}](<11 {Function} command.md>) into a placeholder.
+    | ▶️ [RUN](<24 ▶️ RUN flow.md>) | Runs a [Procedure](<20 ⚙️ Procedure block.md>) and puts the result in a placeholder.
+    | ⤵️ [IF](<21 ⤵️ IF flow.md>) | Runs a [Command](<10 Command.md>) or [Procedure](<20 ⚙️ Procedure block.md>) based on a [{Function}](<11 {Function} command.md>).
+    | 🔀 [CASE](<22 🔀 CASE flow.md>) | Runs a [Command](<10 Command.md>) or [Procedure](<20 ⚙️ Procedure block.md>) matching a [{Function}](<11 {Function} command.md>).
+    | 🔁 [REPEAT](<23 🔁 REPEAT flow.md>) | Repeats the current [Procedure](<20 ⚙️ Procedure block.md>) with a confirmation.
+    | ↩️ [RETURN](<25 ↩️ RETURN flow.md>) | Returns from a [Procedure](<20 ⚙️ Procedure block.md>) with a result.
+    
 
     ---
     <br/>
@@ -43,45 +36,49 @@
     Messages need to escape:
     * `|` with `\|` because these are command separators;
     * `>>` with `\>>` because these are for placeholders.
+
+    ---
+    <br/>
   
-    Commands:
-   * `CONFIRM|<message>|<falseProc>`	
-       * Calls the [CONFIRM 👍 Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>)
-       * If not confirmed, execs `falseProc`.
-       * If `falseProc` not given stops the current proc.
-       * When stopping the current proc, pops stack.
-   * `EAN|<message> >> <key>`	
-       * Calls the [🛒 EAN Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>)
-   * [`ℹ️ INFO`](<../13 🤔 Prompts/11 ℹ️ INFO prompt.md>) Information.
-   * [`⏳ TEMP`](<../13 🤔 Prompts/12 ⏳ TEMP prompt.md>) Temporary message.
-   * [`✅ SUCCESS`](<../13 🤔 Prompts/13 ✅ SUCCESS prompt.md>)
-   * [`❌ FAILURE`](<../13 🤔 Prompts/14 ❌ FAILURE prompt.md>)
-   * [`🔢 INT`](<../13 🤔 Prompts/21 🔢 INT prompt.md>)
-   * [`🔄 QUANTITY`](<../13 🤔 Prompts/21 🔄 QUANTITY prompt.md>)
-   * [`📍 LOCATION`](<../13 🤔 Prompts/61 📍 LOCATION prompt.md>)
-   * `MANY|<message>|<options> >> <key>`	
-       * Calls the [🔢 MANY Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
-       * Options are comma separated (e.g., `Milk, Sugar, Rice`)
-       * Example: `MANY|What items?|Milk,Sugar,Rice >> items`
-   * `ONE|<message>|<options> >> <key>`	
-       * Calls the [1️⃣ ONE Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
-       * Options are comma separated (e.g., `1:Milk, 2:Sugar, R:Rice`)
-       * Example: `ONE|What item?|Milk,Sugar,Rice >> item`
-   * `SCAN|<message>`	
-       * Calls the [🔆 SCAN Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
-   * `SELFIE|<message>`	
-       * Calls the [👤 SELFIE Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
-   * `TOUCH|<message>|<locator>`	
-       * Calls the [🦋 TOUCH Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
-   * `TRACK|<message>`	
-       * Calls the [🗺️ TRACK Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
-   * `UPLOAD|<message>`	
-       * Calls the the [⬆️ UPLOAD Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
+6. **What are the Status prompt commands?**
+
+    Command | Purpose
+    |-|-
+    | [ℹ️ INFO](<../13 🤔 Prompts/11 ℹ️ INFO prompt.md>) | Information.
+    | [⏳ TEMP](<../13 🤔 Prompts/12 ⏳ TEMP prompt.md>) |Temporary message.
+    | [✅ SUCCESS](<../13 🤔 Prompts/13 ✅ SUCCESS prompt.md>) | Successful action.
+    | [❌ FAILURE](<../13 🤔 Prompts/14 ❌ FAILURE prompt.md>) | Unsuccessful action.
 
     ---
     <br/>
 
-6. **Behavior commands**
+7. **What are the Input prompt commands?**
+    
+    |Command | Purpose
+    |-|-
+    | 🔠 [TEXT](<../13 🤔 Prompts/20 🔠 TEXT prompt.md>)
+    | 🔄 [QUANTITY](<../13 🤔 Prompts/21 🔄 QUANTITY prompt.md>)
+    | 🔑 [OTP](<../13 🤔 Prompts/21 🔑 OTP prompt.md>)
+    | 🔢 [INT](<../13 🤔 Prompts/21 🔢 INT prompt.md>)
+    | 💰 [AMOUNT](<../13 🤔 Prompts/22 💰 AMOUNT prompt.md>)
+    | 👍 [CONFIRM](<../13 🤔 Prompts/24 👍 CONFIRM prompt.md>)
+    | 🔠 [MANY](<../13 🤔 Prompts/25 🔠 MANY prompt.md>)
+    | 1️⃣ [ONE](<../13 🤔 Prompts/25 1️⃣ ONE prompt.md>)
+    | ⭐ [RATE](<../13 🤔 Prompts/26 ⭐ RATE prompt.md>)
+    | 📆 [DATE](<../13 🤔 Prompts/27 📆 DATE prompt.md>)
+    | 🕓 [TIME](<../13 🤔 Prompts/27 🕓 TIME prompt.md>)
+    | 👤 [IDENTITY](<../13 🤔 Prompts/41 👤 IDENTIFY prompt.md>)
+    | 🔆 [SCAN](<../13 🤔 Prompts/42 🔆 SCAN prompt.md>)
+    | 🦋 [TOUCH](<../13 🤔 Prompts/43 🦋 TOUCH prompt.md>)
+    | 🛒 [EAN](<../13 🤔 Prompts/44 🛒 EAN prompt.md>)
+    | ⬆️ [UPLOAD](<../13 🤔 Prompts/51 ⬆️ UPLOAD prompt.md>)
+    | 📍 [LOCATION](<../13 🤔 Prompts/61 📍 LOCATION prompt.md>)
+    | 🗺️ [TRACK](<../13 🤔 Prompts/62 🗺️ TRACK prompt.md>)
+
+    ---
+    <br/>
+
+8. **Behavior commands**
 
    * `FLOW|<key>`
        * Informs a new workflow starting.

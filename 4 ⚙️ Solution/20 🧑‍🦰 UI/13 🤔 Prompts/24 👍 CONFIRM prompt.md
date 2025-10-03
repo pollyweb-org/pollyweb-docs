@@ -3,6 +3,12 @@
 > Part of [blocking input prompts 🤔](<03 Blocking input prompts.md>)
 
 
+   * `CONFIRM|<message>|<falseProc>`	
+       * Calls the [CONFIRM 👍 Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>)
+       * If not confirmed, execs `falseProc`.
+       * If `falseProc` not given stops the current proc.
+       * When stopping the current proc, pops stack.
+
 <br/>
 
 1. **What's an example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
