@@ -60,7 +60,7 @@
     ```
 
     ```python
-    # Python handler
+    # 🐍 Python handler
     def talkerHandler(args):
         match args['function']:
             case 'time-options':

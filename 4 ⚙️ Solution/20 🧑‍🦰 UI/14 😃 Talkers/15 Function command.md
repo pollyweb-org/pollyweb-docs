@@ -1,4 +1,4 @@
-# Talker `{function}` 
+# 😃 Talker `{function}` 
 
 > Part of [Talker 😃](<01 😃 Talker.md>)
 
@@ -36,7 +36,7 @@
 2. **What's an example for input placeholders?**
    
     ```yaml
-    # Talker configuration
+    # 😃 Talker configuration
     💬 Example:
     - QUANTITY|Give me a number. >> my-var
     - INFO|You gave me the number {$my-var}.
@@ -68,7 +68,7 @@
 3. **What's an example for files?**
 
     ```yaml
-    # Talker configuration
+    # 😃 Talker configuration
     💬 Example:
     TEXT|Who is in the picture?:
         Attachment: {/photos/elvis.png}
@@ -101,7 +101,7 @@
 4. **What's an example of code handlers?**
 
     ```python
-    # Python handler
+    # 🐍 Python handler
     def talkerHandler(args):
       match args['function']:
         case 'Sum':
@@ -109,7 +109,7 @@
     ```
 
     ```yaml
-    # Talker configuration
+    # 😃 Talker configuration
     💬 Example:
     - INFO|No numbers equals {Sum}
     - INFO|1+2+3 equals {Sum(1,2,3)}

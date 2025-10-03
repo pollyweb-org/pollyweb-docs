@@ -1,4 +1,4 @@
-# Talker `CASE` flow 
+# 😃 Talker `CASE` flow 
 
 > Part of [Talker 😃](<01 😃 Talker.md>)
 
@@ -7,7 +7,7 @@
 
 1. **What's a CASE flow?**
 
-    A `CASE` is a [Command](<10 Command.md>)  that runs a matching [Procedure](<12 Procedure block.md>) or [Command](<10 Command.md>) based on the evaluation of a [Function](<15 Function block.md>).
+    A `CASE` is a flow [Command](<10 Command.md>)  that runs a matching [Procedure](<12 Procedure block.md>) or [Command](<10 Command.md>) based on the evaluation of a [{Function}](<15 Function command.md>).
 
     ---
     <br/>
@@ -23,7 +23,7 @@
 
     | Argument| Purpose
     |-|-
-    | `{function}` | Optional [Function](<15 Function block.md>) to evaluate; <br/>- defaults to the last input.
+    | `{function}` | Optional [Function](<15 Function command.md>) to evaluate; <br/>- defaults to the last input.
     | `<value-n>`| Static value to be compared with.
     | `<action-n>`| Run [Procedure](<12 Procedure block.md>) or [Command](<10 Command.md>) when matched.
     | `<default-action>` | Run [Procedure](<12 Procedure block.md>) or [Command](<10 Command.md>) if unmatched.
@@ -48,7 +48,7 @@
 
 
     ```python
-    # Python handler
+    # 🐍 Python handler
     def talkerHandler(args):
       match args['function']:
         case 'customer-type':

@@ -1,4 +1,4 @@
-# Talker `RUN` flow 
+# 😃 Talker `RUN` flow 
 
 > Part of [Talker 😃](<01 😃 Talker.md>)
 
@@ -7,7 +7,7 @@
 
 1. **What's a RUN flow?**
 
-    A `RUN` is a [Command](<10 Command.md>) that runs a  [Procedure](<12 Procedure block.md>).
+    A `RUN` is a flow [Command](<10 Command.md>) that runs a  [Procedure](<12 Procedure block.md>).
 
     ---
     <br/>
@@ -91,7 +91,7 @@
     ```
 
     ```python
-    # Python handler
+    # 🐍 Python handler
     def talkerHandler(args):
         match args['function']:
             case 'get-random-number':
