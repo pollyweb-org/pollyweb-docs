@@ -20,12 +20,12 @@
 
     Command | Purpose
     |-|-
-    | 🧠 [EVAL](<12 🧠 EVAL block.md>) | Evaluates a [{Function}](<11 {Function}.md>) into a placeholder.
-    | ▶️ [RUN](<24 ▶️ RUN flow.md>) | Runs a [Procedure](<20 ⚙️ Procedure block.md>) and puts the result in a placeholder.
-    | ⤵️ [IF](<21 ⤵️ IF flow.md>) | Runs a [Command](<10 Command.md>) or [Procedure](<20 ⚙️ Procedure block.md>) based on a [{Function}](<11 {Function}.md>).
-    | 🔀 [CASE](<22 🔀 CASE flow.md>) | Runs a [Command](<10 Command.md>) or [Procedure](<20 ⚙️ Procedure block.md>) matching a [{Function}](<11 {Function}.md>).
-    | 🔁 [REPEAT](<23 🔁 REPEAT flow.md>) | Repeats the current [Procedure](<20 ⚙️ Procedure block.md>) with a confirmation.
-    | ↩️ [RETURN](<25 ↩️ RETURN flow.md>) | Returns from a [Procedure](<20 ⚙️ Procedure block.md>) with a result.
+    | ⏏️ [EVAL](<20 ⏏️ EVAL flow.md>) | Evaluates a [{Function}](<11 {Function}.md>) into a placeholder.
+    | ▶️ [RUN](<24 ▶️ RUN flow.md>) | Runs a [Procedure](<12 ⚙️ Procedure.md>) and puts the result in a placeholder.
+    | ⤵️ [IF](<21 ⤵️ IF flow.md>) | Runs a [Command](<10 Command.md>) or [Procedure](<12 ⚙️ Procedure.md>) based on a [{Function}](<11 {Function}.md>).
+    | 🔀 [CASE](<22 🔀 CASE flow.md>) | Runs a [Command](<10 Command.md>) or [Procedure](<12 ⚙️ Procedure.md>) matching a [{Function}](<11 {Function}.md>).
+    | 🔁 [REPEAT](<23 🔁 REPEAT flow.md>) | Repeats the current [Procedure](<12 ⚙️ Procedure.md>) with a confirmation.
+    | ↩️ [RETURN](<25 ↩️ RETURN flow.md>) | Returns from a [Procedure](<12 ⚙️ Procedure.md>) with a result.
     
 
     ---
