@@ -90,7 +90,7 @@
     |Command|Purpose
     |-|-
     | 📜 [`FLOW`](<41 FLOW msg.md>)
-    | 🔗 [`BIND`](<42 🔗 BIND msg.md>) | Calls the [Bind Vault @ Wallet ⏩](<../../../5 ⏩ Flows/80 🗄️⏩ Vaults/01 🗄️⏩🧑‍🦰 Bind.md>) flow.
+    | 🔗 [`BIND`](<42 🔗 BIND msg.md>) | Calls the [Bind Vault @ Wallet ⏩](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind.md>) flow.
     | 💳 [`CHARGE`](<43 💳 CHARGE msg.md>)
     | [`GOODBYE`](<44 GOODBYE.md>)
     | 🎫 [`ISSUE`](<45 🎫 OFFER msg.md>)
