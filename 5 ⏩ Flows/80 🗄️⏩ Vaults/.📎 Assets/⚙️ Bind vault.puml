@@ -17,13 +17,13 @@ activate vault
 
 group Offer binds
 
-    vault --> broker: 1) bindable 🐌 {codes}
+    vault --> broker: 1) Bindable 🐌 {codes}
     deactivate vault    
 
     activate broker
  
         ' Translate.
-        broker -> graph: 2) translate 🚀
+        broker -> graph: 2) Translate 🚀
         activate graph
             graph -> broker: {translations}
         deactivate
@@ -48,7 +48,7 @@ group Bind vault
     deactivate wallet
 
     activate broker
-        broker --> vault: 4) Bound 🐌 {code} 
+        broker --> vault: 4) Bound 🐌 {codes} 
         broker --> wallet:  5) ⏪ Update Binds 🔗
     deactivate broker
 
