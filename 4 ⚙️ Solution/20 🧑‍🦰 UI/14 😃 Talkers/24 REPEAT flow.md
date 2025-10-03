@@ -20,42 +20,48 @@
 
     | Argument| Purpose
     |-|-
-    | `message>`| Optional message for a [CONFIRM 👍 prompt](<../13 🤔 Prompts/24 👍 CONFIRM prompt.md>)
+    | `message`| Optional message for a [CONFIRM 👍 prompt](<../13 🤔 Prompts/24 👍 CONFIRM prompt.md>)
     
     ---
     <br/>
 
-3. **What's an example with a message?**
 
+3. **What's an example of a REPEAT with a message?**
 
     ```yaml
-    💬|The [menu]:
-    - RUN|ShowMenu
+    💬|[Order] a list of items:
+    - RUN|AddItems
+    - SUCCESS|Order submitted!
 
-    ShowMenu:
-    - ONE|Which menu?|Drinks,Mains,Desserts >> menu
-    - INFO|Here's the menu.|{get-menu($menu)}
-    - REPEAT|Another menu?
-
-
+    AddItems:
+    - INT|What's the item code? >> code
+    - REPEAT|Add another?
     ```
 
     | Service | Prompt | User
     | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Hi! What do you need? <br/>- The [menu] | > menu
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Ready to order? [Yes, No] | > Yes
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Hi David! I'm sad.
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Hi! What do you need? <br/>- [Order] a list of items | > Order
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What's the item code?  | 🔢 123
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Add another? [Yes, No] | > Yes
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What's the item code?  | 🔢 456
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Add another? [Yes, No] | > No
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Order submitted!
 
     ---
     <br/>
 
-4. **What's an example without a message?**
+4. **What's an example of a repeat without a message?**
 
     ```yaml
-    💬 Example:
-    - QUANTITY|Give me a number >> n
-    - RUN|ShowNumber
-    - QUANTITY|Give me another >> n
+    💬 Play:
+    - CONFIRM|Let's play?
+    - RUN|Play
+
+    Play:
+    - QUANTITY|Guess a number >> n
+    - CASE|{IsCorrect($n)}:
+        TRUE: WIN
+        FALSE: LOSE
     - RUN|ShowNumber
 
     ShowNumber:
@@ -72,3 +78,4 @@
     ---
     <br/>
 
+-->

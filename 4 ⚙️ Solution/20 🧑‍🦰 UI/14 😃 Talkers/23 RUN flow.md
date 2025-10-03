@@ -20,8 +20,8 @@
 
     | Argument| Purpose
     |-|-
-    | `procedure>`| [Procedure](<12 Procedure block.md>) to run.
-    | `arguments`| Optional comma-separated arguments <br/>referenced by `{$position}`
+    | `procedure`| [Procedure](<12 Procedure block.md>) to run.
+    | `arguments`| Optional comma-separated arguments <br/>referenced by `{$position}` - e.g., `{$1}`
     
     ---
     <br/>
@@ -32,7 +32,8 @@
     ```yaml
     💬 Example:
     - RUN|Great|Alice,happy
-    - RUN|Great|David,sad
+    - RUN|Great|David,glad
+    - SUCCESS|Example finished.
 
     Great:
     - INFO|Hi, {$1}! I'm {$2}.
@@ -42,7 +43,8 @@
     | Service | Prompt | User
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Hi, Alice! I'm happy.
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Hi David! I'm sad.
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Hi David! I'm glad.
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Example finished.
 
     ---
     <br/>
@@ -51,21 +53,23 @@
 
     ```yaml
     💬 Example:
-    - QUANTITY|Give me a number >> n
-    - RUN|ShowNumber
-    - QUANTITY|Give me another >> n
-    - RUN|ShowNumber
+    - QUANTITY|Give me a number. >> n1
+    - RUN|ShowNumber|{$n1}
+    - QUANTITY|Give me another. >> n2
+    - RUN|ShowNumber|{$n2}
+    - SUCCESS|Example finished.
 
     ShowNumber:
-    - INFO|You gave me number {$n}.
+    - INFO|You gave me number {$1}.
     ```
 
     | Service | Prompt | User
     | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Give me a number | 🔄 12
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You gave me number 12
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Give me another | 🔄 34
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You gave me number 34
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Give me a number. | 🔄 12
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You gave me number 12.
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Give me another. | 🔄 34
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You gave me number 34.
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Example finished.
     
     ---
     <br/>
@@ -76,13 +80,14 @@
 
     ```yaml
     💬 Example:
-    - EVAL|{get-random-number}
-    - RUN|ShowNumber
-    - EVAL|{get-random-number}
-    - RUN|ShowNumber
+    - EVAL|{get-random-number} >> n1
+    - RUN|ShowNumber|{$n1}
+    - EVAL|{get-random-number} >> n2
+    - RUN|ShowNumber|{$n2}
+    - SUCCESS|Example finished.
 
     ShowNumber:
-    - INFO|Here's number {$n}.
+    - INFO|Here's number {$1}.
     ```
 
     ```python
@@ -90,14 +95,15 @@
     def talkerHandler(args):
         match args['function']:
             case 'get-random-number':
-                placeholders['n'] = randomNumber()
+                return randomNumber()
     ```
 
 
     | Service | Prompt | User
     | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ Here's number  3512596
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ Here's number  523
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ Here's number  3512596.
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ Here's number  52364.
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Example finished.
     
 
     ---

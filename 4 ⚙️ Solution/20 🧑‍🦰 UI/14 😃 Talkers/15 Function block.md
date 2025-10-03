@@ -71,7 +71,7 @@
     # Talker configuration
     💬 Example:
     TEXT|Who is in the picture?:
-        Appendix: {/photos/elvis.png}
+        Attachment: {/photos/elvis.png}
     ```
 
     | Service | Prompt | User
