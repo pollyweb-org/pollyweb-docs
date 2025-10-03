@@ -1,14 +1,15 @@
-# 🎫 Talker ISSUE command
+# 🎫 Talker OFFER command
 
 > Part of [Talker 😃](<01 😃 Talker.md>)
 
+  
 <br/>
 
 1. **What is an OFFER message command?**
 
     An `OFFER`
     * is a message [Command](<10 Command.md>) 
-    * that invokes the [Offer Token @ Issuer ⏩](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/02 🧑‍🦰👉🎴 Save token.md>) flow.
+    * that invokes the [Save Token @ Wallet ⏩](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/02 🧑‍🦰👉🎴 Save token.md>) flow.
 
     ---
     <br/>
@@ -36,7 +37,7 @@
     | Argument| Purpose
     |-|-
     | `{function}`  | [{Function}](<11 {Function}.md>) that issues the [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) ID.
-    | `<accepted>`| Boolean placeholder with confirmation.
+    | `<accepted>`| Boolean placeholder for [Accepted @ Issuer](<../../../6 🅰️ APIs/55 🎴🅰️ Issuer/02 🤵🐌🎴 Accepted.md>).
 
     ---
     <br/>
