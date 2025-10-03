@@ -20,8 +20,8 @@
         * Calculates something to be used in cases.
         * Without a function, uses the last answer.
         * Without cases, evaluates and discards.
-    * [`CASE`](<22 CASE flow.md>) Runs an action matching a function evaluation.
-    * [`IF`](<21 IF flow.md>) Runs an action based on a function evaluation.
+    * [`CASE`](<22 🔀 CASE flow.md>) Runs an action matching a function evaluation.
+    * [`IF`](<21 ⤵️ IF flow.md>) Runs an action based on a function evaluation.
     * `MENU|<message>`	
         * Calls 👍 CONFIRM [Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
         * If confirmed, repeats the top menu
@@ -30,7 +30,7 @@
         * Calls 👍 CONFIRM [Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
         * If confirmed, repeats the current anchor
         * Without a message, just repeats.  
-    * [`RUN`](<23 RUN flow.md>) Executes a procedure.
+    * [`RUN`](<24 ▶️ RUN flow.md>) Executes a procedure.
 
     ---
     <br/>

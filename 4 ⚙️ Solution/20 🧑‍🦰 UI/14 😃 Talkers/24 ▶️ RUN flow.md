@@ -1,4 +1,4 @@
-# 😃 Talker `RUN` flow 
+# ▶️ Talker `RUN` flow 
 
 > Part of [Talker 😃](<01 😃 Talker.md>)
 
@@ -7,7 +7,7 @@
 
 1. **What's a RUN flow?**
 
-    A `RUN` is a flow [Command](<10 Command.md>) that runs a  [Procedure](<12 Procedure block.md>).
+    A `RUN` is a flow [Command](<10 Command.md>) that runs a  [Procedure](<20 ⚙️ Procedure block.md>).
 
     ---
     <br/>
@@ -20,7 +20,7 @@
 
     | Argument| Purpose
     |-|-
-    | `procedure`| [Procedure](<12 Procedure block.md>) to run.
+    | `procedure`| [Procedure](<20 ⚙️ Procedure block.md>) to run.
     | `arguments`| Optional comma-separated arguments <br/>referenced by `{$position}` - e.g., `{$1}`
     
     ---
@@ -51,6 +51,8 @@
 
 4. **What's an example with placeholders?**
 
+    > This example uses the [QUANTITY 🔄](<../13 🤔 Prompts/21 🔄 QUANTITY prompt.md>) input command.
+
     ```yaml
     💬 Example:
     - QUANTITY|Give me a number. >> n1
@@ -77,6 +79,8 @@
 
 
 5. **What's an example with code?**
+
+    > This example uses the [EVAL 🧠](<12 🧠 EVAL command.md>) command.
 
     ```yaml
     💬 Example:

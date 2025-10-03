@@ -1,4 +1,4 @@
-# 😃 Talker `IF` flow 
+# ⤵️ Talker `IF` flow 
 
 > Part of [Talker 😃](<01 😃 Talker.md>)
 
@@ -7,14 +7,14 @@
 
 1. **What's an IF flow?**
 
-    An `IF` is a flow [Command](<10 Command.md>)  that runs a [Procedure](<12 Procedure block.md>) or [Command](<10 Command.md>) based on the evaluation of a boolean [{Function}](<15 Function command.md>).
+    An `IF` is a flow [Command](<10 Command.md>)  that runs a [Procedure](<20 ⚙️ Procedure block.md>) or [Command](<10 Command.md>) based on the evaluation of a boolean [{Function}](<11 {Function} command.md>).
 
     ---
     <br/>
 
 2. **What's the inline syntax?**
 
-    > Note: this option only allows [Procedures](<12 Procedure block.md>), not [Commands](<10 Command.md>).
+    > Note: this option only allows [Procedures](<20 ⚙️ Procedure block.md>), not [Commands](<10 Command.md>).
    
     ```yaml
     - IF|{function}|<true-procedure>|<false-procedure>
@@ -22,9 +22,9 @@
 
     | Argument| Purpose
     |-|-
-    | `{function}` | Boolean evaluation [{Function}](<15 Function command.md>) name
-    | `<true-procedure>` | Required [Procedure](<12 Procedure block.md>) to execute when `True`
-    | `<false-procedure>`| Optional [Procedure](<12 Procedure block.md>) to execute when `False`
+    | `{function}` | Boolean evaluation [{Function}](<11 {Function} command.md>) name
+    | `<true-procedure>` | Required [Procedure](<20 ⚙️ Procedure block.md>) to execute when `True`
+    | `<false-procedure>`| Optional [Procedure](<20 ⚙️ Procedure block.md>) to execute when `False`
     
     ---
     <br/>
@@ -78,7 +78,7 @@
 
 2. **What's the multi-line syntax?**
 
-    > This option allows both [Procedures](<12 Procedure block.md>) and [Commands](<10 Command.md>).
+    > This option allows both [Procedures](<20 ⚙️ Procedure block.md>) and [Commands](<10 Command.md>).
    
     ```yaml
     - IF|{function}:
@@ -88,9 +88,9 @@
 
     | Argument| Purpose
     |-|-
-    | `{function}` | Name of a [{Function}](<15 Function command.md>) that returns `True` or `False`.
-    | `<true-action>` | Required [Procedure](<12 Procedure block.md>) or [Command](<10 Command.md>) to execute when `True`
-    | `<false-action>`| Optional [Procedure](<12 Procedure block.md>) or [Command](<10 Command.md>)  to execute when `False`
+    | `{function}` | Name of a [{Function}](<11 {Function} command.md>) that returns `True` or `False`.
+    | `<true-action>` | Required [Procedure](<20 ⚙️ Procedure block.md>) or [Command](<10 Command.md>) to execute when `True`
+    | `<false-action>`| Optional [Procedure](<20 ⚙️ Procedure block.md>) or [Command](<10 Command.md>)  to execute when `False`
 
     ---
     <br/>

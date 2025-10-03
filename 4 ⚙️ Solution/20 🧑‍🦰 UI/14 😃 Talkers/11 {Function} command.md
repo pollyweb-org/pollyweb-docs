@@ -145,8 +145,47 @@
     | Component | Details | Example
     |-|-|-
     |`function`  | Function name  | `f` in `{f(1,2,3)}`
-    |`parameters`| Parameter list | `[1,2,3]` in `{f(1,2,3)}`
+    |`parameters`| Parameter list | • `[]` in `{f}` (no parameters) <br/> • `[1,2,3]` in `{f(1,2,3)}`
 
+    ---
+    <br/>
+
+3. **How to dump code handler invocations for debugging?**
+   
+    ```python
+    # 🐍 Python handler
+    def talkerHandler(args):
+      return "\n".join([
+        f"You sent:",
+        f"- Function: {args['function']}",
+        f"- Parameters: {args['parameters']}"
+      ])
+    ```
+
+    ```yaml
+    # 😃 Talker configuration
+    - INFO|{MyFunction(1,2,3)}
+    ```
+
+    | Service | Prompt | User
+    | - | - | - |
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You sent:<br/>- Function: MyFunction <br>- Parameters: [1, 2, 3]
+    
+
+    ---
+    <br/>
+
+
+4. **What's the syntax of a Function name?**
+
+    No emojis nor special characters except dashes `-`, underscores `_`, and spaces ` `.
+    * Emojis and special characters are reserved for current and future use.
+    * Spaces are OK because only commas and pipes are used as separators.
+
+    |Type|Example|
+    |-|-
+    |✅ Valid | `MyF` `My F` `myF` `my-f` `f2` `my_f`  `my--f` 
+    |❌ Invalid | `{f}` `my$f` `$` `my-f!` `my/f` `my\|f` `my>f` `my,p` `👋`
 
     ---
     <br/>
