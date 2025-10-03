@@ -28,13 +28,60 @@
 
 3. **What's an example of a REPEAT with a message?**
 
+
+    ```yaml
+    💬|Show time:
+    - SUCCESS|The time is {.Time}.
+    - REPEAT|Check again?
+    ```
+
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ The time is 09:01:26Z
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Check again? [Yes, No] | > Yes
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ The time is 09:02:58Z
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Check again? [Yes, No] 
+    
+    ---
+    <br/>
+
+5. **What's an example of a repeat without a message?**
+
+    ```yaml
+    💬|Show time:
+    - CONFIRM|Want to know the time? 
+    - SUCCESS|The time is {.Time}.
+    - REPEAT
+    ```
+
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Want to know the time? [Yes, No] | > Yes
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ The time is 09:01:26Z
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Want to know the time? [Yes, No] | > Yes
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ The time is 09:02:58Z
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Want to know the time? [Yes, No] 
+    
+    ---
+    <br/>
+
+
+
+6. **How to build a simple shopping basket?**
+
+    > This example uses the [`EVAL`](<12 🧠 EVAL command.md>) command.
+
     ```yaml
     💬|[Order] a list of items:
     - RUN|AddItems
+    - INFO|{OrderSummary}
+    - CONFIRM|Submit order?
     - SUCCESS|Order submitted!
 
     AddItems:
     - INT|What's the item code? >> code
+    - EVAL|{AddItem($code)} >> description
+    - INFO|Added `{$description}`
     - REPEAT|Add another?
     ```
 
@@ -42,38 +89,32 @@
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Hi! What do you need? <br/>- [Order] a list of items | > Order
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What's the item code?  | 🔢 123
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Added `Flower vase`
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Add another? [Yes, No] | > Yes
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What's the item code?  | 🔢 456
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Added `Safety box`
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Add another? [Yes, No] | > No
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Here's your basket:<br/>- Flower vase <br>- Safety box
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Submit order? [Yes, No] | > Yes
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Order submitted!
 
     ---
     <br/>
 
-4. **What's an example of a repeat without a message?**
+7. **How to build a simple game?**
 
+    Here's a list of flow commands used in the example.
 
-
-    ---
-    <br/>
-
-1. **How to build a simple game?**
-
-    Used commands
-    | Commands | Purpose
+    | Command | Purpose
     |-|-
-    | [`EVAL`](<12 🧠 EVAL command.md>)
-    | [`CASE`](<22 🔀 CASE flow.md>)
-    | [`RETURN`](<23 ⏪ RETURN flow.md>)
-    | [`REPEAT`](<this file>)
-    | [`SUCCESS`](<../13 🤔 Prompts/13 ✅ SUCCESS prompt.md>)
-    | [`FAILURE`](<../13 🤔 Prompts/14 ❌ FAILURE prompt.md>)
-    | [`GOODBYE`](<25 🛑 GOODBYE flow.md>)
-
+    | [`EVAL`](<12 🧠 EVAL command.md>) | To generate a random number a subtract tries.
+    | [`REPEAT`](<23 🔁 REPEAT flow.md>) | To allow for additional tries.
+    | [`RETURN`](<25 ↩️ RETURN flow.md>) | To return the result from the loop.
+    | [`CASE`](<22 🔀 CASE flow.md>) | To check the if the user won or lost.    
 
     ```yaml
     💬 Play guess:                      
-    - EVAL|{RandomInt(1,9)} >> target  # Set the target
+    - EVAL|{.RandomInt(1,9)} >> target  # Set the target
     - INFO|You have 3 attempts.        # Inform the rules
     - EVAL|3 >> tries                  # Reset the counter
     - RUN|TryLoop >> result            # Run the loop
@@ -96,7 +137,7 @@
         # If matched, the user won.             
         {$target}: RETURN|Won
         # If not matched, then decrease the tries
-        *: EVAL|{Subtract($tries, 1)} >> $tries
+        *: EVAL|{.Subtract($tries, 1)} >> $tries
 
     # Verify the number of tries.
     - CASE|{$tries}:               
@@ -129,7 +170,7 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Play again? [Yes, No] | > No
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ OK, see you next time!
     | ⭐ [Rate](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5
-    | [👀 Ads](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) | ⓘ Explore follow-ups: <br/>- [ 🛍️ Reusable bottles at Greg's ] 
+    | [👀 Ads](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) | ⓘ Explore follow-ups: <br/>- [ #️⃣ Play Tic-Tac-Toe ] 
     
     ---
     <br/>
