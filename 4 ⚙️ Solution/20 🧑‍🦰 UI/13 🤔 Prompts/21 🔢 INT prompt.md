@@ -40,12 +40,10 @@
 
     ```yaml
     INT|<message> >> <key>:
-        Details: <details>
         MinLength: <min-length>
         MaxLength: <max-length>
         MinValue: <min-value>
         MaxValue: <max-value>
-        Emoji: <emoji>
     ```
     
     ---
@@ -57,12 +55,10 @@
     ```yaml
     Format: INT
     Message: <message>
-    Details: <details>
     MinLength: <min-length>
     MaxLength: <max-length>
     MinValue: <min-value>
     MaxValue: <max-value>
-    Emoji: <emoji>
     ```
 
     ---

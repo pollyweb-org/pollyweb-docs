@@ -8,7 +8,8 @@
 
 1. **What's an AMOUNT prompt?**
 
-    It's a [Prompt 🤔](<01 🤔 Prompt.md>) that shows the decimal input pad.
+    It's a [Prompt 🤔](<01 🤔 Prompt.md>) that shows the decimal input pad - e.g.:
+    * [A taxi driver issues a bill for a ride 👨‍✈️](<../../../3 🤝 Use Cases/03 🧳 Travel/04 🧳 Travel by taxi 🚕/9 🚕 Driver @ Car 👨‍✈️/03 👨‍✈️ Bill wallet.md>)
 
     ---
     <br/>
@@ -19,7 +20,9 @@
     Consider the following [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
-    AMOUNT|How much? >> my-variable
+    AMOUNT|How much? >> my-var:
+        MinValue: 0.00
+        MaxValue: 1000000000
     ```
 
     | Service | Prompt | User
@@ -29,9 +32,6 @@
     | [🛠️ Helper](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | 🫥 How much? | 🔄 -54
 
 
-    Usage examples:
-    * [A taxi driver issues a bill for a ride 👨‍✈️](<../../../3 🤝 Use Cases/03 🧳 Travel/04 🧳 Travel by taxi 🚕/9 🚕 Driver @ Car 👨‍✈️/03 👨‍✈️ Bill wallet.md>)
-
     ---
     <br/>
 
@@ -40,10 +40,8 @@
 
     ```yaml
     AMOUNT|<message> >> <key>:
-        Details: <details>
         MinValue: <min-value>
         MaxValue: <max-value>
-        Emoji: <emoji>
     ```
     
     ---
@@ -55,10 +53,8 @@
     ```yaml
     Format: AMOUNT
     Message: <message>
-    Details: <details>
     MinValue: <min-value>
     MaxValue: <max-value>
-    Emoji: <emoji>
     ```
 
     ---
