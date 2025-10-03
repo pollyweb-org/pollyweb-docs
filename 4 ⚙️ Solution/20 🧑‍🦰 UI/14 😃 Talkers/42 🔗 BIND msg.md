@@ -1,4 +1,4 @@
-# 🔗 Talker BIND message
+# 🔗 Talker BIND command
 
 > Part of [Talker 😃](<01 😃 Talker.md>)
 
@@ -8,49 +8,95 @@
 
     A `BIND`
     * is a message [Command](<10 Command.md>) 
-    * that invokes the [Bind@Vault ⏩ flow](<../../../5 ⏩ Flows/80 🗄️⏩ Vaults/01 🗄️⏩🧑‍🦰 Bind.md>).
+    * that invokes the [Bind @ Vault ⏩ flow](<../../../5 ⏩ Flows/80 🗄️⏩ Vaults/01 🗄️⏩🧑‍🦰 Bind.md>).
 
     ---
     <br/>
 
 
-2. **What's the BIND syntax?**
+3. **What does a Chat look like for static codes?**
+
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | 🗄️ [Vault](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) | ℹ️ [Let's bind you.](<../13 🤔 Prompts/11 ℹ️ INFO prompt.md>)
+    | 🤵 [Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 [Bind to Any Vault?](<42 🔗 BIND msg.md>) [All, No] <br/> - [ ] Some schema code 🧩 <br/> - [ ] Some other schema code 🧩 | > All
+    | 🗄️ [Vault](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) | ✅ [Done! Your wallet is bound.](<../13 🤔 Prompts/13 ✅ SUCCESS prompt.md>)
+
+    ---
+    <br/>
+
+2. **What's the BIND syntax for static codes?**
 
    ```yaml
-   BIND >> <binds>:
+   BIND >> <bound>:
        - <code-1>
-       - <code-n>
+       - <code-2>
    ```
 
    
     | Argument| Purpose
     |-|-
-    | `<code-n>` | Array of bindable [Schema Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>)
-    | `<binds>`  |
+    | `<code-n>` | Array of [Schema Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) sent on [Bindable @ Broker](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/42 🗄️🐌🤵 Bindable.md>).
+    | `<bound>`  | Array of [Schema Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) received on [Bound @ Vault](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/02 🤵🐌🗄️ Bound.md>).
 
     ---
     <br/>
 
-3. **What does a Chat look like?**
+3. **What does a Talker look like for static codes?**
+    
+   ```yaml
+   # 😃 Talker 
+   💬 Bind:
+   - INFO|Let's bind you.
+   - BIND >> bound:
+       - some-authority.com/SOME-CODE
+       - another-authority.com/ANOTHER-CODE
+   - IF|{$bound}:
+       Then: SUCCESS|Your wallet is bound.
+       Else: FAILURE|Not bounded.
+   ```
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
-    | - | - | - |
-    | ...
-    | 🗄️ [Vault](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) | ℹ️ [Let's bind you.](<../13 🤔 Prompts/11 ℹ️ INFO prompt.md>)
-    | 🤵 [Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 [Bind to Any Vault?](<42 🔗 BIND msg.md>) [All, No] <br/> - [ ] Some schema code 🧩 <br/> - [ ] Some other schema code 🧩 | > All
-    | 🗄️ [Vault](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) | ✅ [Done! Your wallet is bound.](<../13 🤔 Prompts/13 ✅ SUCCESS prompt.md>)
-
-
-       * Calls [🗄️🐌🤵 Bindable @ Broker](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/42 🗄️🐌🤵 Bindable.md>) 
-       * Codes are comma separated
-       * Example: `iata.org/SSR/WCHR`, `iata.org/...`
+   | Command | Purpose
+   |-|-
+   | ⤵️ [IF](<21 ⤵️ IF flow.md>) | To verify the result.  
+   
+   ---
+   <br/>
 
 
 
-       | Command | Purpose
-       |-|-
-       | ℹ️ [INFO](<../13 🤔 Prompts/11 ℹ️ INFO prompt.md>) | To show the first message.
-       |  | 
-       | ⤵️ [IF](<21 ⤵️ IF flow.md>) | To verify the result.
-       | ✅ [SUCCESS](<../13 🤔 Prompts/13 ✅ SUCCESS prompt.md>) | To report success.
-       | ❌ [FAILURE](<../13 🤔 Prompts/14 ❌ FAILURE prompt.md>) | To report nothing was bound.    
+4. **What's the BIND syntax for placeholder codes?**
+
+   ```yaml
+   BIND|{bindable} >> <bound> 
+   ```
+
+   
+    | Argument| Purpose
+    |-|-
+    | `{bindable}` | [{Function}](<11 {Function}.md>) to get the [Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) for [Bindable @ Broker](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/42 🗄️🐌🤵 Bindable.md>).
+    | `<bound>`  | Array of [Schema Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) received on [Bound @ Vault](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/02 🤵🐌🗄️ Bound.md>).
+
+    ---
+    <br/>
+
+5. **What does a Talker look like for placeholder codes?**
+    
+   ```yaml
+   # 😃 Talker 
+   💬 Bind:
+   - INFO|Let's bind you.
+   - EVAL|{GetBindableCodes} >> bindable
+   - BIND|{$bindable} >> bound
+   - IF|{$bound}:
+       Then: SUCCESS|Your wallet is bound.
+       Else: FAILURE|Not bounded.
+   ```
+
+   | Command | Purpose
+   |-|-
+   | ⏏️ [EVAL](<20 ⏏️ EVAL flow.md>) | To put the bindable array into a placeholder.
+   | ⤵️ [IF](<21 ⤵️ IF flow.md>) | To verify the result.
+   
+   ---
+   <br/>

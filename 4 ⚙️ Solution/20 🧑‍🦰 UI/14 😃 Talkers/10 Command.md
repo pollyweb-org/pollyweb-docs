@@ -1,14 +1,14 @@
-# 😃 Talker `- <command>`
+# 😃 Talker `<Command>`
 
 > Part of [Talker 😃](<01 😃 Talker.md>)
 
 <br/>
 
-1. **What is a Command?**
+1. **What is a Talker Command?**
 
-    A Command 
+    A `<Command>`
     * is a line starting with a dash `-`
-    * that executes a [Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>) or a Flow.
+    * that executes a [Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>) or a workflow.
 
     ---
     <br/>
@@ -31,11 +31,18 @@
     ---
     <br/>
 
-5. **Prompt commands**
+5. **What are Prompt commands?**
 
-    Messages need to escape:
-    * `|` with `\|` because these are command separators;
-    * `>>` with `\>>` because these are for placeholders.
+    These are Commands that execute [Prompts 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>).
+
+    ---
+    <br/>
+
+1. **What the restrictions in Prompt commands?**
+
+    Messages in Prompt commands need to be escaped:
+    * escape `|` with `\|` because these are command separators;
+    * escape `>>` with `\>>` because these are for placeholders.
 
     ---
     <br/>
@@ -44,10 +51,10 @@
 
     Command | Purpose
     |-|-
-    | [ℹ️ INFO](<../13 🤔 Prompts/11 ℹ️ INFO prompt.md>) | Information.
-    | [⏳ TEMP](<../13 🤔 Prompts/12 ⏳ TEMP prompt.md>) |Temporary message.
-    | [✅ SUCCESS](<../13 🤔 Prompts/13 ✅ SUCCESS prompt.md>) | Successful action.
-    | [❌ FAILURE](<../13 🤔 Prompts/14 ❌ FAILURE prompt.md>) | Unsuccessful action.
+    | [ℹ️ INFO](<../13 🤔 Prompts/11 ℹ️ INFO prompt.md>) | Information message.
+    | [⏳ TEMP](<../13 🤔 Prompts/12 ⏳ TEMP prompt.md>) |Temporary status message.
+    | [✅ SUCCESS](<../13 🤔 Prompts/13 ✅ SUCCESS prompt.md>) | Successful status message.
+    | [❌ FAILURE](<../13 🤔 Prompts/14 ❌ FAILURE prompt.md>) | Unsuccessful status message.
 
     ---
     <br/>
@@ -78,12 +85,12 @@
     ---
     <br/>
 
-8. **Message commands**
+8. **What are Message commands?**
 
     |Command|Purpose
     |-|-
     | 📜 [FLOW](<41 FLOW msg.md>)
-    | 🔗 [BINDABLE](<42 🔗 BIND msg.md>) | Calls [🗄️⏩🧑‍🦰 Bind](<../../../5 ⏩ Flows/80 🗄️⏩ Vaults/01 🗄️⏩🧑‍🦰 Bind.md>)
+    | 🔗 [BIND](<42 🔗 BIND msg.md>) | Calls the [Bind @ Vault ⏩ flow](<../../../5 ⏩ Flows/80 🗄️⏩ Vaults/01 🗄️⏩🧑‍🦰 Bind.md>).
     | 💳 [CHARGE](<43 💳 CHARGE msg.md>)
     | [GOODBYE](<44 GOODBYE.md>)
     | 🎫 [ISSUE](<45 🎫 ISSUE msg.md>)
@@ -101,7 +108,7 @@
        * Calls 👉 Revoke token: 🃏 Issuer
    * `SHARE|<code>|<message>`	
        * Calls 👉 Query: 📡 Consumer
-       * Groups sequencial shares in one call
+       * Groups sequential shares in one call
    * `SUBSCRIBE|<amount>`	
        * Calls 🐌 Subscribe: 🤵📎 Broker. Pay()
 
