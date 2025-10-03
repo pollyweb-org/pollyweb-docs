@@ -2,7 +2,9 @@
 
 # 🧑‍🦰👉🤵 Set language @ Wallet
 
+> Implements a [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
 
+<br/>
 
 ## Chat
 

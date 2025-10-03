@@ -5,7 +5,7 @@
 
 1. **What is an NLWeb Wallet app?**
 
-    Wallets 🧑‍🦰 are 
+    [Wallets 🧑‍🦰](<01 🧑‍🦰 Wallet app.md>) are 
     * apps for mobile devices (e.g. Android-based phones, iPhones) 
     * that implement the NLWeb protocol.
 
@@ -140,11 +140,13 @@
     | | [👉 Translate](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/12 🧑‍🦰👉🤵 Translate.md>)  | Change the language of the [Wallet 🧑‍🦰](<01 🧑‍🦰 Wallet app.md>)
     | 🔆 Locators |[👉 Host QR](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>)  | Scan a [Host 🤗 NFC/QR](<../12 💬 Chats/04 🤗🎭 Host role.md>)   to open a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)
     ||[👉 Printer QR](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/02 🧑‍🦰👉🤗 Scan printer QR.md>)  | Scan a [Printer 🖨️ NFC/QR](<../../70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>) to open a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)
-    |💬 Chats|[👉 List chats](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/01 🧑‍🦰👉🤵 List chats.md>) | List the user's [Chats 💬](<../12 💬 Chats/01 💬 Chat.md>) 
+    |💬 Chats|[👉 List](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/01 🧑‍🦰👉🤵 List chats.md>) | List the user's [Chats 💬](<../12 💬 Chats/01 💬 Chat.md>) 
     ||[👉 Home](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/02 🧑‍🦰👉🤵 Host home.md>) | Show the [Host's 🤗 ](<../12 💬 Chats/04 🤗🎭 Host role.md>) menu in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)
     ||[👉 Abandon](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>) | Unilaterally abandon a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)
-    | 🔗 Binds | [👉 List binds ](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/01 🧑‍🦰👉🤵 List binds.md>) | List the user's [Binds 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>)
+    | 🔗 Binds | [👉 List ](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/01 🧑‍🦰👉🤵 List binds.md>) | List the user's [Binds 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>)
     || [👉 Unbind](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/03 🧑‍🦰👉🗄️ Unbind.md>) | Remove a [Bind 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>) with a [Vault 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>)
+    |🎫 Tokens| [👉 List](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/01 🧑‍🦰👉🤵 List tokens.md>)| List the user's [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
+    || [👉 Remove](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/03 🧑‍🦰👉🤵 Remove token.md>) | Remove a [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) from the [Wallet 🧑‍🦰](<01 🧑‍🦰 Wallet app.md>)
 
     ---
     <br/>
