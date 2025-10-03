@@ -6,7 +6,7 @@
 
 > Allows for a [Token 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) to be downloaded from the [Issuer 🎴 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) into the [Wallet 🧑‍🦰 app](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
 
-> Part of the [🎴⏩🧑‍🦰 Offer Token @ Issuer](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/01 🎴⏩🧑‍🦰 Save token.md>) flow.
+> Part of the [🎴⏩🧑‍🦰 Offer Token @ Issuer](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/01 🧑‍🦰👉🎴 Save token.md>) flow.
 
 <br/>
 
