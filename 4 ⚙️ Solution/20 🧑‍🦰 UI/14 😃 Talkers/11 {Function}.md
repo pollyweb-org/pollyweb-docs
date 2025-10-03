@@ -6,7 +6,7 @@
 
 1. **What's a Talker {function}?**
 
-    A [{Function}](<11 {Function} command.md>) is a string encapsulated in brackets that calculates one if the following values.
+    A [{Function}](<11 {Function}.md>) is a string encapsulated in brackets that calculates one if the following values.
 
     |Format|Details
     |-|-

@@ -33,7 +33,7 @@
         * Top menu entry - i.e., the "what?"
     * `<procedure>:`   
         * Executable procedure.
-    * [`{function}`](<11 {Function} command.md>)
+    * [`{function}`](<11 {Function}.md>)
         * Calculates the value with a function.
 
   
