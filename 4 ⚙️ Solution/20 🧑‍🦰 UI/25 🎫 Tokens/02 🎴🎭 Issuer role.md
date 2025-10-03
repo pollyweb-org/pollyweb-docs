@@ -28,7 +28,7 @@
     Consider the following [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) excerpt from the [Buy Theater Tickets 🤝 use case](<../../../3 🤝 Use Cases/10 🍿 Entertainment/Go to Theaters 🎭/10 Guest @ Anywhere/12 Buy tickets.md>).
     
     
-    | Domain | Prompt | User
+    | Domain | [Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>) | User
     | - | - | - |
     |...
     | 🎭 Venue   | 😃 Want a ticket? [Yes, No] | > Yes

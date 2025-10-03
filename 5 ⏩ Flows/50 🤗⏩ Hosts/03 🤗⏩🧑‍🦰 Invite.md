@@ -16,7 +16,7 @@
 
 Consider the following [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) as an example.
 
-| Domain | Prompt | User
+| Domain | [Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>) | User
 | - | - | - |
 | 🤗 Host A | ℹ️ I'll ask Host B for a random number. | 
 | 🤵 [Broker](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Allow invited guest? [Yes, No]  <br/> - Host B 😶 <br/>- [ Always ] for Host A 🤗 | > Yes

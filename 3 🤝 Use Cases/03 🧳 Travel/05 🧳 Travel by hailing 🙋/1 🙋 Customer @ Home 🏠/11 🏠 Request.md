@@ -1,7 +1,7 @@
 How to request an immediate ride?
 --
 
-| Domain | Prompt | User
+| Domain | [Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>) | User
 | - | - | - |
 ||| > Hailing 🔗
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Ride Hailing (4.4 ⭐) [+]

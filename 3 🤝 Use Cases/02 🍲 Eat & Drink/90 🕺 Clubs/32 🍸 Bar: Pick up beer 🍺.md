@@ -7,7 +7,7 @@ Pick up a drink at a club
 
 ## 💬 Chat
 
-| Domain | Prompt | User
+| Domain | [Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>) | User
 | - | - | - |
 |...
 | 🕺 Club       | ⏳ Preparing your order... [+]

@@ -10,7 +10,7 @@
 
 ## 💬 Chat
 
-| Domain | Prompt | User
+| Domain | [Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>) | User
 | - | - | - |
 | ...
 | 🗄️ [Vault](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) | ℹ️ Let's bind you.

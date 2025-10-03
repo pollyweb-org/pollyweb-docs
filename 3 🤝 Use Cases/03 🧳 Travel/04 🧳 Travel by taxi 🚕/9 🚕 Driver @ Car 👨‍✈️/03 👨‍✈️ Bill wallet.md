@@ -1,7 +1,7 @@
 👨‍✈️ How can a driver bill a customer's wallet?
 ===
 
-| Domain | Prompt | User
+| Domain | [Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>) | User
 | - | - | - |
 |...
 | 🚕 Taxi       | ⏳ Waiting requests... [+] | > +

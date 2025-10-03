@@ -8,7 +8,7 @@ Baristas fulfill an order at the club
 
 ## 💬 Chat
 
-| Domain | Prompt | User
+| Domain | [Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>) | User
 | - | - | - |
 |...
 | 🕺 Club        | ⏳ Waiting orders... [+] 

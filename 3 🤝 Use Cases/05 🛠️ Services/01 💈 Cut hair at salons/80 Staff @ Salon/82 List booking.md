@@ -1,7 +1,7 @@
 How does staff list all bookings at a salon?
 --
 
-| Domain | Prompt | User
+| Domain | [Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>) | User
 | - | - | -
 | ...
 | 💈 Salon   | ⏳ Waiting customers... [+] | > +
