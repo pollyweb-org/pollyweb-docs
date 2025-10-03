@@ -1,7 +1,7 @@
 How to collect payments from customer at salons?
 --
 
-| Domain | Prompt | User
+| Domain | [Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>) | User
 | - | - | -
 | ...
 | 💈 Salon   | ℹ️ Issued $40 bill [+] | > +

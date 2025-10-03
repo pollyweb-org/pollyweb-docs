@@ -1,7 +1,7 @@
 How to pay and leave at a salon?
 ---
 
-| Domain | Prompt | User
+| Domain | [Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>) | User
 | - | - | - |
 | ...
 | 💈 Salon   | 📣 Your turn!

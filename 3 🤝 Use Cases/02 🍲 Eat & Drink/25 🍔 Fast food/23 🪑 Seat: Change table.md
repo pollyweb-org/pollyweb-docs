@@ -6,7 +6,7 @@
 
 ## 💬 Chat
 
-| Domain | Prompt | User
+| Domain | [Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>) | User
 | - | - | - |
 ...
 | 🍔 Fast Food | ✅ Eat-in submitted [+]

@@ -1,7 +1,7 @@
 # Set a destination to somewhere
 
 
-| Domain | Prompt | User
+| Domain | [Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>) | User
 | - | - | - |
 | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 💬 What do you need? | `maps`
 | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 💬 Any of these? [No] <br/> - Open [ 🧭 Navigator ] <br/> - [ Learn ] about maps | > 🧭 Navigator

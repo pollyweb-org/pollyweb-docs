@@ -8,7 +8,7 @@ How do pizza makers fulfill an order at the pizzeria?
 
 ## 💬 Chat
 
-| Domain | Prompt | User
+| Domain | [Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>) | User
 | - | - | - |
 |...
 | 🍕 Pizzeria | ⏳ Waiting orders... [+] 

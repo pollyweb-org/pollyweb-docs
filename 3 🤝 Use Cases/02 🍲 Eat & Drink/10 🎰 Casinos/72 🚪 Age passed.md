@@ -11,7 +11,7 @@ TODO: Add the obfuscated characteristics to the API
 
 ## 💬 Chat
 
-| Domain | Prompt | User
+| Domain | [Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>) | User
 | - | - | - |
 | ...
 | 🕺 Club       | ⏳ Waiting entries... [+] 

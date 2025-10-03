@@ -14,7 +14,7 @@
 
 2. **What's an example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
 
-    | Domain | Prompt | User
+    | Domain | [Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>) | User
     | - | - | - |
     | 🤗 Host | ℹ️ Tell us where you are.
     | 🤗 Host | [📍 Share location?](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/13 🤔 Prompts/61 📍 LOCATION prompt.md>)  | > Yes
