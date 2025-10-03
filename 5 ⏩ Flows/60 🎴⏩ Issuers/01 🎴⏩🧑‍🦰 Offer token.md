@@ -22,11 +22,11 @@ Consider the following excerpt from the [Book restaurant table 🤝 use case](<.
 
 ## 😃 Talker 
 
-The associated [Talker 😃](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/01 😃 Talker.md>) would be the following.
+The associated [Talker 😃](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/01 😃 Talker.md>) uses the [OFFER](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/45 🎫 OFFER msg.md>) command.
 
 ```yaml
 - INFO|Issuing your token...
-- ISSUE|nlweb.org/HOST/BOOKING/SELF|{bookingUUID}
+- OFFER|nlweb.org/HOST/BOOKING/SELF|{bookingUUID}
 - SUCCESS|Saved to your wallet.
 ```
 

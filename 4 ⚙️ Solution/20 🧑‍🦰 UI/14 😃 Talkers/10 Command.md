@@ -20,12 +20,12 @@
 
     Command | Purpose
     |-|-
-    | ⏏️ [EVAL](<20 ⏏️ EVAL flow.md>) | Evaluates a [{Function}](<11 {Function}.md>) into a placeholder.
-    | ▶️ [RUN](<24 ▶️ RUN flow.md>) | Runs a [Procedure](<12 ⚙️ Procedure.md>) and puts the result in a placeholder.
-    | ⤵️ [IF](<21 ⤵️ IF flow.md>) | Runs a [Command](<10 Command.md>) or [Procedure](<12 ⚙️ Procedure.md>) based on a [{Function}](<11 {Function}.md>).
-    | 🔀 [CASE](<22 🔀 CASE flow.md>) | Runs a [Command](<10 Command.md>) or [Procedure](<12 ⚙️ Procedure.md>) matching a [{Function}](<11 {Function}.md>).
-    | 🔁 [REPEAT](<23 🔁 REPEAT flow.md>) | Repeats the current [Procedure](<12 ⚙️ Procedure.md>) with a confirmation.
-    | ↩️ [RETURN](<25 ↩️ RETURN flow.md>) | Returns from a [Procedure](<12 ⚙️ Procedure.md>) with a result.
+    | ⏏️ [`EVAL`](<20 ⏏️ EVAL flow.md>) | Evaluates a [{Function}](<11 {Function}.md>) into a placeholder.
+    | ▶️ [`RUN`](<24 ▶️ RUN flow.md>) | Runs a [Procedure](<12 ⚙️ Procedure.md>) and puts the result in a placeholder.
+    | ⤵️ [`IF`](<21 ⤵️ IF flow.md>) | Runs a [Command](<10 Command.md>) or [Procedure](<12 ⚙️ Procedure.md>) based on a [{Function}](<11 {Function}.md>).
+    | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | Runs a [Command](<10 Command.md>) or [Procedure](<12 ⚙️ Procedure.md>) matching a [{Function}](<11 {Function}.md>).
+    | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | Repeats the current [Procedure](<12 ⚙️ Procedure.md>) with a confirmation.
+    | ↩️ [`RETURN`](<25 ↩️ RETURN flow.md>) | Returns from a [Procedure](<12 ⚙️ Procedure.md>) with a result.
     
 
     ---
@@ -51,10 +51,10 @@
 
     Command | Purpose
     |-|-
-    | [ℹ️ INFO](<../13 🤔 Prompts/11 ℹ️ INFO prompt.md>) | Information message.
-    | [⏳ TEMP](<../13 🤔 Prompts/12 ⏳ TEMP prompt.md>) |Temporary status message.
-    | [✅ SUCCESS](<../13 🤔 Prompts/13 ✅ SUCCESS prompt.md>) | Successful status message.
-    | [❌ FAILURE](<../13 🤔 Prompts/14 ❌ FAILURE prompt.md>) | Unsuccessful status message.
+    | ℹ️ [`INFO`](<../13 🤔 Prompts/11 ℹ️ INFO prompt.md>) | Information message.
+    | ⏳ [`TEMP`](<../13 🤔 Prompts/12 ⏳ TEMP prompt.md>) |Temporary status message.
+    | ✅ [`SUCCESS`](<../13 🤔 Prompts/13 ✅ SUCCESS prompt.md>) | Successful status message.
+    | ❌ [`FAILURE`](<../13 🤔 Prompts/14 ❌ FAILURE prompt.md>) | Unsuccessful status message.
 
     ---
     <br/>
@@ -63,12 +63,12 @@
     
     |Command | Purpose
     |-|-
-    | 🔠 [TEXT](<../13 🤔 Prompts/20 🔠 TEXT prompt.md>)
-    | 🔄 [QUANTITY](<../13 🤔 Prompts/21 🔄 QUANTITY prompt.md>)
-    | 🔑 [OTP](<../13 🤔 Prompts/21 🔑 OTP prompt.md>)
-    | 🔢 [INT](<../13 🤔 Prompts/21 🔢 INT prompt.md>)
-    | 💰 [AMOUNT](<../13 🤔 Prompts/22 💰 AMOUNT prompt.md>)
-    | 👍 [CONFIRM](<../13 🤔 Prompts/24 👍 CONFIRM prompt.md>)
+    | 🔠 [`TEXT`](<../13 🤔 Prompts/20 🔠 TEXT prompt.md>)
+    | 🔄 [`QUANTITY`](<../13 🤔 Prompts/21 🔄 QUANTITY prompt.md>)
+    | 🔑 [`OTP`](<../13 🤔 Prompts/21 🔑 OTP prompt.md>)
+    | 🔢 [`INT`](<../13 🤔 Prompts/21 🔢 INT prompt.md>)
+    | 💰 [`AMOUNT`](<../13 🤔 Prompts/22 💰 AMOUNT prompt.md>)
+    | 👍 [`CONFIRM`](<../13 🤔 Prompts/24 👍 CONFIRM prompt.md>)
     | 🔠 [MANY](<../13 🤔 Prompts/25 🔠 MANY prompt.md>)
     | 1️⃣ [ONE](<../13 🤔 Prompts/25 1️⃣ ONE prompt.md>)
     | ⭐ [RATE](<../13 🤔 Prompts/26 ⭐ RATE prompt.md>)
@@ -89,11 +89,11 @@
 
     |Command|Purpose
     |-|-
-    | 📜 [FLOW](<41 FLOW msg.md>)
-    | 🔗 [BIND](<42 🔗 BIND msg.md>) | Calls the [Bind @ Vault ⏩ flow](<../../../5 ⏩ Flows/80 🗄️⏩ Vaults/01 🗄️⏩🧑‍🦰 Bind.md>).
-    | 💳 [CHARGE](<43 💳 CHARGE msg.md>)
-    | [GOODBYE](<44 GOODBYE.md>)
-    | 🎫 [ISSUE](<45 🎫 ISSUE msg.md>)
+    | 📜 [`FLOW`](<41 FLOW msg.md>)
+    | 🔗 [`BIND`](<42 🔗 BIND msg.md>) | Calls the [Bind Vault @ Wallet ⏩](<../../../5 ⏩ Flows/80 🗄️⏩ Vaults/01 🗄️⏩🧑‍🦰 Bind.md>) flow.
+    | 💳 [`CHARGE`](<43 💳 CHARGE msg.md>)
+    | [`GOODBYE`](<44 GOODBYE.md>)
+    | 🎫 [`ISSUE`](<45 🎫 OFFER msg.md>)
    
    * `CRUD`	
        * Initiates the CRUD dialog
