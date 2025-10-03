@@ -1,7 +1,7 @@
 # 🤵🐌🎴 Accepted @ Issuer
 
 
-> Part of the [🧑‍🦰👉🎴 Offer Token @ Issuer](<../../5 ⏩ Flows/60 🎴⏩ Issuers/01 🎴⏩🧑‍🦰 Offer token.md>) flow.
+> Part of the [🧑‍🦰👉🎴 Offer Token @ Issuer](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/01 🎴⏩🧑‍🦰 Save token.md>) flow.
 
 <br/>
 

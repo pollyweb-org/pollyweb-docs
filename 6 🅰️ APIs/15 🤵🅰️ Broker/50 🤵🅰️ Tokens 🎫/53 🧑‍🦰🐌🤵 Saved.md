@@ -5,7 +5,7 @@
 
 > [Wallet 🧑‍🦰 apps](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) inform [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) where the file with the [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) details was stored locally on the device.
 
-> Part of the [🎴⏩🧑‍🦰 Offer Token @ Issuer](<../../../5 ⏩ Flows/60 🎴⏩ Issuers/01 🎴⏩🧑‍🦰 Offer token.md>) flow.
+> Part of the [🎴⏩🧑‍🦰 Offer Token @ Issuer](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/01 🎴⏩🧑‍🦰 Save token.md>) flow.
 
 <br/>
 
