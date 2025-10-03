@@ -7,18 +7,23 @@
 
 1. **What's an QUANTITY prompt?**
 
-    It's a [Prompt 🤔](<01 🤔 Prompt.md>) that shows up and down arrows.
+    It's a [Prompt 🤔](<01 🤔 Prompt.md>) that shows up and down arrows - e.g.:
+    * [Book a restaurant table online 🍽️](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/31 🌐 Web: Book table 🗓️.md>)
+    * [Split the bill at a restaurant ✂️](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/74 💳 Pay: Split bill ✂️.md>)
+    * [Walk into a full restaurant 🍽️](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/44 🚪 Door: Walk in full.md>)
 
     ---
     <br/>
 
-2. **What's an example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
+2. **What's an example?**
 
     Consider the following [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
     QUANTITY|How many? >> my-variable
     ```
+    
+    The corresponding [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) would be.
 
     | Service | Prompt | User
     | - | - | - |
@@ -26,15 +31,11 @@
     [🫥 Agent](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | 🫥 How many? | 🔄 123
     | [🛠️ Helper](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | 🫥 How many? | 🔄 -54
 
-    Usage examples:
-    * [Book a restaurant table online 🍽️](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/31 🌐 Web: Book table 🗓️.md>)
-    * [Split the bill at a restaurant ✂️](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/74 💳 Pay: Split bill ✂️.md>)
-
     ---
     <br/>
 
 
-2. **How to default quantities in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
+3. **How to default quantities in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
 
     Consider the following [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>).
 
@@ -62,9 +63,6 @@
         MaxValue: 12
     ```
 
-    Usage examples:
-    * [Walk into a full restaurant 🍽️](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/44 🚪 Door: Walk in full.md>)
-
     ---
     <br/>
 
@@ -72,10 +70,8 @@
 
     ```yaml
     QUANTITY|<message> >> <key>:
-        Details: <details>
         MinValue: <min-value>
         MaxValue: <max-value>
-        Emoji: <emoji>
     ```
     
     ---
@@ -87,10 +83,8 @@
     ```yaml
     Format: QUANTITY
     Message: <message>
-    Details: <details>
     MinValue: <min-value>
     MaxValue: <max-value>
-    Emoji: <emoji>
     ```
 
     ---
