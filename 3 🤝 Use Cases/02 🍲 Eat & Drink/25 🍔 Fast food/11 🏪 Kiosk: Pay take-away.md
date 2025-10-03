@@ -18,5 +18,5 @@
 | 🍔 Fast Food | ⏳ Order in queue... [+] 
 | 🍔 Fast Food | ⏳ Preparing your order... [+] 
 | 🍔 Fast Food | 📣 Take-away 123 ready [+]
-| ⭐ [Rate](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | > ⭐⭐⭐⭐⭐ |
+| ⭐ [Rate](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5 |
 ||
