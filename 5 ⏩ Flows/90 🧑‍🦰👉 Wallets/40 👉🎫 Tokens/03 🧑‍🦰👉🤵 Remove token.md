@@ -1,11 +1,15 @@
-# 🧑‍🦰👉🤵 Remove token @ [Wallet](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) 
+# 🧑‍🦰👉🤵 Remove token @ Wallet
 
 
-When users ask their [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) to remove a [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
-- it first does a soft delete only, hiding the [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
-- the removal only happens after a period of time (e.g., 30 days);
-- this allows users to undo the removal for a short period.
+> Implements a [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
 
+
+* When users ask their [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) to remove a [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>),
+  - it first does a soft delete only, hiding the [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
+  - the removal only happens after a period of time (e.g., 30 days);
+  - this allows users to undo the removal for a short period.
+
+<br/>
 
 ## Chat
 
