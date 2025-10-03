@@ -20,6 +20,7 @@
     |Format | Description
     |-|-
     | [👍&nbsp;CONFIRM](<24 👍 CONFIRM prompt.md>) | Yes, No, Cancel
+    | [🔠&nbsp;TEXT](<20 🔠 TEXT prompt.md>) | Asks for a text input
     | [🔢&nbsp;INT](<21 🔢 INT prompt.md>) | Shows the numeric keypad
     | [🔄&nbsp;QUANTITY](<21 🔄 QUANTITY prompt.md>) | Shows up/down arrows.
     | [💰&nbsp;AMOUNT](<22 💰 AMOUNT prompt.md>) | Allows for decimals
@@ -34,8 +35,10 @@
     | [🔆&nbsp;SCAN](<42 🔆 SCAN prompt.md>) | Asks to touch/scan a [QR/NFC Locator 🔆](<../11 🔆 Locators/01 🔆 Locator.md>)
     | [🦋&nbsp;TOUCH](<43 🦋 TOUCH prompt.md>) | Asks to touch/scan a [QR/NFC Ephemeral 🦋 device](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>)
     | [⬆️&nbsp;UPLOAD](<51 ⬆️ UPLOAD prompt.md>)| Asks to upload a file or photo
-    | [⬇️&nbsp;DOWNLOAD](<52 ⬇️ DOWNLOAD prompt.md>) | Asks to download a file
-    | [🔠&nbsp;TEXT](<20 🔠 TEXT prompt.md>) | Asks for a text input
+    | [📍&nbsp;LOCATION](<61 📍 LOCATION prompt.md>) | Asks for the current location
+    | [🗺️&nbsp;TRACK](<62 🗺️ TRACK prompt.md>) | Asks to track the location
+    | [👤&nbsp;IDENTIFY](<41 👤 IDENTIFY prompt.md>) | Asks the user's [Identity 🆔 agent](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) to verify the user
+
 
 
     ---

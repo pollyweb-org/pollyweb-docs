@@ -23,11 +23,28 @@
     ---
     <br/>
 
-3. **How do options work?**
+3. **How do non-blocking options work?**
    
     Non-blocking prompts support [ONE 1️⃣ prompt](<25 1️⃣ ONE prompt.md>) options.
-    - If it contains options, then the user may click an option any time 
-    - i.e., before or after the [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) sends other subsequent [Prompts 🤔](<01 🤔 Prompt.md>).
+    - If it contains options, then the user may click an option any time before or after the [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) sends other subsequent [Prompts 🤔](<01 🤔 Prompt.md>).
+    - See a full example at [Driver pick-up on pizza delivery 🛵](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/82 🛵 Driver: Pick-up.md>).
+
+    ---
+    <br/>
+
+
+4. **What's an example of non-blocking options?**
+
+    ```yaml
+    INFO|With options|[Cancel] later, [Play] music >> answer
+    ```
+
+    | Service | Prompt | User
+    | - | - | - |
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ With options:<br/>- [ Cancel ] later <br>- [ Play ] music | > Cancel
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 I'm blocking, but  did <br/>   you that you can still<br/>   go back and cancel? <br/> - [ Yes, I did ] <br/> - [ No, I didn't ]
+
+    
 
     ---
     <br/>
