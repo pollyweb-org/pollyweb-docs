@@ -11,8 +11,8 @@ A user can scan/tap the NFC/QR of a raid hailing car.
 | 🙋 Hailing | ✅ You're in the right car! [+]
 | 🙋 Hailing | ⏳ [Drop-off at 10:31...](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/13 🤔 Prompts/12 ⏳ TEMP prompt.md>) <br/> - [ Change destination ]<br/>- [ Report emergency ]
 | 🙋 Hailing | ✅ Arrived! Exit the car. [+]
-| 🙋 Hailing | 😃 How was the ride? | > ⭐⭐
+| 🙋 Hailing | 😃 How was the ride? | ⭐ 2
 | 🙋 Hailing | 😐 What could be better? <br/>- [ ] Car <br/>- [ ] Driver  <br/>- [ ] Driving <br/>- [ ] Route | [X] Car<br/> [X] Route 
 | 🙋 Hailing | ✅ Thanks for for sharing! [+]
-| ⭐ [Rate](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | > ⭐⭐⭐⭐⭐
+| ⭐ [Rate](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5
 ||

@@ -22,6 +22,6 @@ How to split the table bill at a restaurant?
 | [🏦 Collector](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) | ⓘ Part paid, thanks Alice! [+]
 | [🏦 Collector](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) | ⏳ Waiting for 1x $12.50... <br/>- [ list payer names ] <br/>- [ pay remaining ] <br/>- [ cancel split ]
 | 🍽️ Restaurant | ✅ All paid, thanks Alice! [+]
-| ⭐ [Rate](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | > ⭐⭐⭐⭐⭐
+| ⭐ [Rate](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5
 ||
 
