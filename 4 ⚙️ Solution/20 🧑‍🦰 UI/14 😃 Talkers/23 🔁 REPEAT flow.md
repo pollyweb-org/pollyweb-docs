@@ -7,7 +7,10 @@
 
 1. **What's a REPEAT flow?**
 
-    A `REPEAT` is a flow [Command](<10 Command.md>) that repeats it's enclosing [Procedure](<20 ⚙️ Procedure block.md>) if confirmed.
+    A `REPEAT` 
+    * is a flow [Command](<10 Command.md>) 
+    * that repeats it's enclosing [Procedure](<20 ⚙️ Procedure block.md>) 
+    * either always or only when confirmed.
 
     ---
     <br/>

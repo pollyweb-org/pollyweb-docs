@@ -3,6 +3,12 @@
 > Part of [blocking input prompts 🤔](<03 Blocking input prompts.md>)
 
 
+   * `MANY|<message>|<options> >> <key>`	
+       * Calls the [🔢 MANY Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
+       * Options are comma separated (e.g., `Milk, Sugar, Rice`)
+       * Example: `MANY|What items?|Milk,Sugar,Rice >> items`
+       * 
+
 <br/>
 
 1. **What's an example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**

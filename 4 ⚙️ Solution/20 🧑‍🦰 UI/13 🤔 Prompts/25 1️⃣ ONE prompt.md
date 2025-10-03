@@ -3,6 +3,11 @@
 > Part of [blocking input prompts 🤔](<03 Blocking input prompts.md>)
 
 
+   * `ONE|<message>|<options> >> <key>`	
+       * Calls the [1️⃣ ONE Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
+       * Options are comma separated (e.g., `1:Milk, 2:Sugar, R:Rice`)
+       * Example: `ONE|What item?|Milk,Sugar,Rice >> item`
+
 <br/>
 
 1. **What's an example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**

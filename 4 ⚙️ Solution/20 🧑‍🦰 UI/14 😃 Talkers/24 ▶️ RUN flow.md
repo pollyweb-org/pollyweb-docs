@@ -7,12 +7,14 @@
 
 1. **What's a RUN flow?**
 
-    A `RUN` is a flow [Command](<10 Command.md>) that runs a  [Procedure](<20 ⚙️ Procedure block.md>).
+    A `RUN` 
+    * is a flow [Command](<10 Command.md>) 
+    * that runs a  [Procedure](<20 ⚙️ Procedure block.md>).
 
     ---
     <br/>
 
-2. **What's the syntax?**
+2. **What's the RUN syntax?**
 
     ```yaml
     - RUN|<procedure>|<arguments> >> <result>
@@ -20,7 +22,7 @@
 
     | Argument| Purpose
     |-|-
-    | `<procedure<`| [Procedure](<20 ⚙️ Procedure block.md>) to run.
+    | `<procedure>`| [Procedure](<20 ⚙️ Procedure block.md>) to run.
     | `<arguments>`| Optional comma-separated arguments <br/>referenced by `{$position}` - e.g., `{$1}`
     | `<result>`| Optional placeholder for a [`RETURN`](<25 ↩️ RETURN flow.md>) result.
     
