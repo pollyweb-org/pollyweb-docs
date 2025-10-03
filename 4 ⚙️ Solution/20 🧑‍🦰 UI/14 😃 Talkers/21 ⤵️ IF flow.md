@@ -31,13 +31,13 @@
 
 1. **What are examples of inline syntax?**
 
-    ```python
-    # 🐍 Python handler
-    def talkerHandler(args):
-      match args['Function']:
-        case 'code-is-correct':
-          return True
-    ```
+
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Test started
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Code is correct!
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Test finished
+
 
     ```yaml
     # 😃 Talker with inline IF-THEN (no ELSE).
@@ -66,12 +66,14 @@
     - FAILURE|Code is wrong!
     ```
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
-    | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Test started
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Code is correct!
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Test finished
 
+    ```python
+    # 🐍 Python handler
+    def talkerHandler(args):
+      match args['Function']:
+        case 'code-is-correct':
+          return True
+    ```
     ---
     <br/>
 
@@ -97,14 +99,14 @@
 
 2. **What are examples of multi-line syntax?**
 
-    ```python
-    # 🐍 Python handler
-    def talkerHandler(args):
-      match args['Function']:
-        case 'code-is-correct':
-          return True
-    ```
-       
+    
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Test started
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Code is correct!
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Test finished
+
+
     ```yaml
     # 😃 Talker with multi-line IF-THEN (no ELSE).
     
@@ -129,11 +131,14 @@
     - FAILURE|Code is wrong!
     ```
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
-    | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Test started
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Code is correct!
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Test finished
+
+    ```python
+    # 🐍 Python handler
+    def talkerHandler(args):
+      match args['Function']:
+        case 'code-is-correct':
+          return True
+    ```
 
     ---
     <br/>
