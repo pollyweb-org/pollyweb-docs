@@ -36,29 +36,7 @@
     <br/>
 
 
-
-2. **How do Prompt emojis work?**
-
-    [Prompt 🤔](<01 🤔 Prompt.md>) emojis are visual clues for users.
-
-    | Behavior | Prompt | Host | Guest | 
-    |-|-|:-:|:-:
-    | `Status`  | [`INFO`](<11 ℹ️ INFO prompt.md>) | ℹ️ | ⓘ
-    |           | [`SUCCESS`](<13 ✅ SUCCESS prompt.md>) | ✅ | ☑️
-    |           | [`FAILURE`](<14 ❌ FAILURE prompt.md>) | ❌ | ❌     |
-    |           | [`TEMP`](<12 ⏳ TEMP prompt.md>) | ⏳ | ⏳
-    | `Input`   | [`TEXT`](<20 🔠 TEXT prompt.md>) | 💬 | 💭
-    |           | (others) | 😃 | 🫥 | 
-    | `Share`   | [`LOCATION`](<61 📍 LOCATION prompt.md>) | 📍 | -
-    |           | [`TRACK`](<62 🗺️ TRACK prompt.md>) | 🗺️ | -
-    
-
-    ---
-    <br/>
-
-
-
-3. **Can Hosts replace sent prompts?**
+2. **Can Hosts replace sent prompts?**
 
     Yes, but only temporary [Prompts 🤔](<01 🤔 Prompt.md>). 
     - If a [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) sends  two consecutive blocking [Prompts 🤔](<01 🤔 Prompt.md>) while the user has not answered the first, then the first becomes readonly and the second becomes the active input.
@@ -68,7 +46,7 @@
     ---
     <br/>
 
-4. **Can users respond to an old prompt?**
+3. **Can users respond to an old prompt?**
 
     NLWeb [Chats 💬](<../12 💬 Chats/01 💬 Chat.md>) are designed to be forward-only workloads managed by a [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) (and not by the user). 
     * This behavior is visible on LLM apps like on ChatGPT, Gemini, and others. 
@@ -77,8 +55,7 @@
     * For example, the user did A, B, C, D, E; then went back to B and changed the history to A, B, X, Y, Z. 
     * This worked because step B had an option set by the [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) that allowed the user to go back and change the workflow path.
 
-    In NLWeb, these option sets can be added only to non-blocking [Prompts 🤔](<01 🤔 Prompt.md>).
-
+    In NLWeb, these option sets can be added only to [non-blocking Prompts 🤔](<02 Non-blocking prompts.md>)
     - The non-blocking prompts include `TEMP ⏳`, `INFO ℹ️`, and `SUCCESS ✅`.
     - This is particularly helpful when [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) want to assign default values to options to speed up the process (e.g., [navigation options 🤝](<../../../3 🤝 Use Cases/03 🧳 Travel/01 🧳 Plans trips 🧭/02 🧭 Return @ Destination.md>)), while still allowing users to go back and change those default options.
     
