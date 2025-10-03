@@ -26,7 +26,7 @@
     |[`Inputs`](<03 Blocking input prompts.md>)| [`🔢 INT`](<21 🔢 INT prompt.md>) [`🔄 QUANTITY`](<21 🔄 QUANTITY prompt.md>) [`💰 AMOUNT`](<22 💰 AMOUNT prompt.md>) [`🔑 OTP`](<21 🔑 OTP prompt.md>) [`⭐ RATE`](<26 ⭐ RATE prompt.md>) 
     || [`👍 CONFIRM`](<24 👍 CONFIRM prompt.md>) [`1️⃣ ONE`](<25 1️⃣ ONE prompt.md>) [`🔢 MANY`](<25 🔠 MANY prompt.md>) 
     || [`🕓 TIME`](<27 🕓 TIME prompt.md>) [`📆 DATE`](<27 📆 DATE prompt.md>) [`🗓️ UNTIL`](<27 🗓️ UNTIL prompt.md>) 
-    || [`⬆️ UPLOAD`](<51 ⬆️ UPLOAD prompt.md>) [`⬇️ DOWNLOAD`](<52 ⬇️ DOWNLOAD prompt.md>) 
+    || [`⬆️ UPLOAD`](<51 ⬆️ UPLOAD prompt.md>)
     || [`🔠 TEXT`](<20 🔠 TEXT prompt.md>) 
     || [`👤 IDENTIFY`](<41 👤 IDENTIFY prompt.md>) [`🛒 EAN`](<44 🛒 EAN prompt.md>) [`🔆 SCAN`](<42 🔆 SCAN prompt.md>) [`🦋 TOUCH`](<43 🦋 TOUCH prompt.md>) 
     |`Special`| [`📍 LOCATION`](<61 📍 LOCATION prompt.md>) [`🗺️ TRACK`](<62 🗺️ TRACK prompt.md>)
@@ -126,22 +126,21 @@
 
     | Service | Prompt | User
     | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Who's in the picture? 🖼️<br>- [Einstein] <br/>- [Elvis] <br/>- [Marilyn] | > Elvis
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 💬 Who is in the picture? 🖼️ | `Elvis`
     |
 
     The related [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>) would be.
 
     ```yaml
-    ONE|Who is in the picture?|Einstein,Elvis,Marilyn:
+    TEXT|Who is in the picture?:
         Appendix: {/photos/elvis.png}
     ```
     
-    The [Prompted@Host 🚀](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method would be:
+    The [Prompted@Host 🚀](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method would be.
 
     ```yaml
-    Format: ONE
-    Message: Who's in the picture?
-    Options: [Einstein,Elvis,Marilyn]
+    Format: TEXT
+    Message: Who is in the picture?
     Appendix: <appendix-uuid>
     ```
 
