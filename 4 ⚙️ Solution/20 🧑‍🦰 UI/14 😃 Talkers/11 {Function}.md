@@ -53,7 +53,7 @@
 
     | Command | Purpose
     |-|-
-    | [`QUANTITY`](<../13 🤔 Prompts/21 🔄 QUANTITY prompt.md>) | To collect the number input.
+    | 🔄 [`QUANTITY`](<../13 🤔 Prompts/21 🔄 QUANTITY prompt.md>) | To collect the number input.
 
     ---
     <br/>
@@ -132,7 +132,7 @@
 
     | Command | Purpose
     |-|-
-    | [`QUANTITY`](<../13 🤔 Prompts/21 🔄 QUANTITY prompt.md>) | To collect the number input.
+    | 🔄 [`QUANTITY`](<../13 🤔 Prompts/21 🔄 QUANTITY prompt.md>) | To collect the number input.
 
 
     ```python

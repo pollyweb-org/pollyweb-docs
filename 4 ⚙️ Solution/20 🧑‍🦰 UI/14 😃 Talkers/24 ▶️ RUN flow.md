@@ -83,7 +83,7 @@
 
     | Command | Purpose
     |-|-
-    | [`QUANTITY`](<../13 🤔 Prompts/21 🔄 QUANTITY prompt.md>) | To collect the number input.
+    | 🔄 [`QUANTITY`](<../13 🤔 Prompts/21 🔄 QUANTITY prompt.md>) | To collect the number input.
 
 
     ---
@@ -150,8 +150,8 @@
 
     | Command | Purpose
     |-|-
-    | [`CASE`](<22 🔀 CASE flow.md>) | To decide which message to show.
-    | [`RETURN`](<25 ↩️ RETURN flow.md>) | To return the final result.
+    | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | To decide which message to show.
+    | ↩️ [`RETURN`](<25 ↩️ RETURN flow.md>) | To return the final result.
 
 
 
@@ -189,7 +189,7 @@
 
     | Command | Purpose
     |-|-
-    | [`RETURN`](<25 ↩️ RETURN flow.md>) | To calculate the value to return.
+    | ↩️ [`RETURN`](<25 ↩️ RETURN flow.md>) | To calculate the value to return.
 
 
 
