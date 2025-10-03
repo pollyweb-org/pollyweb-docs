@@ -26,7 +26,7 @@ Consider the following [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12
 
 <br/>
 
-## Talker 😃
+## 😃 Talker 😃
 
 The associated [Talker 😃](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/01 😃 Talker.md>) would be the following.
 

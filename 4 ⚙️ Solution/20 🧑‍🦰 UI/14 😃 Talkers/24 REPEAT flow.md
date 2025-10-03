@@ -1,4 +1,4 @@
-# Talker `REPEAT` flow 
+# 😃 Talker `REPEAT` flow 
 
 > Part of [Talker 😃](<01 😃 Talker.md>)
 
@@ -7,7 +7,7 @@
 
 1. **What's a REPEAT flow?**
 
-    A `REPEAT` is a [Command](<10 Command.md>) that repeats it's enclosing [Procedure](<12 Procedure block.md>) if confirmed.
+    A `REPEAT` is a flow [Command](<10 Command.md>) that repeats it's enclosing [Procedure](<12 Procedure block.md>) if confirmed.
 
     ---
     <br/>
@@ -20,7 +20,7 @@
 
     | Argument| Purpose
     |-|-
-    | `message`| Optional message for a [CONFIRM 👍 prompt](<../13 🤔 Prompts/24 👍 CONFIRM prompt.md>)
+    | `<message>`| Optional message for a [CONFIRM 👍 prompt](<../13 🤔 Prompts/24 👍 CONFIRM prompt.md>)
     
     ---
     <br/>
