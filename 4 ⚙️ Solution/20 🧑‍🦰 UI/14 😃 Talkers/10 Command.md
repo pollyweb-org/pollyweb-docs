@@ -78,25 +78,20 @@
     ---
     <br/>
 
-8. **Behavior commands**
+8. **Message commands**
 
-   * `FLOW|<key>`
-       * Informs a new workflow starting.
-       * The flow key has to be on the [host's Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>).
-   * `BINDABLE|<codes>`	
-       * Calls [🗄️🐌🤵 Bindable @ Broker](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/42 🗄️🐌🤵 Bindable.md>) 
-       * Codes are comma separated
-       * Example: `iata.org/SSR/WCHR`, `iata.org/...`
-   * `CHARGE|<amount>|<bill-id>`	
-       * Calls [💵🐌🤵 Charge @ Broker](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/70 🤵🅰️ Pay/21 💵🐌🤵 Charge.md>)
-       * May have a [Biller 🤝](<../../30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>) ID for multiple [Collectors 🏦](<../../30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>).
+    |Command|Purpose
+    |-|-
+    | 📜 [FLOW](<41 FLOW msg.md>)
+    | 🔗 [BINDABLE](<42 🔗 BIND msg.md>) | Calls [🗄️⏩🧑‍🦰 Bind](<../../../5 ⏩ Flows/80 🗄️⏩ Vaults/01 🗄️⏩🧑‍🦰 Bind.md>)
+    | 💳 [CHARGE](<43 💳 CHARGE msg.md>)
+    | [GOODBYE](<44 GOODBYE.md>)
+    | 🎫 [ISSUE](<45 🎫 ISSUE msg.md>)
+   
    * `CRUD`	
        * Initiates the CRUD dialog
-   * `GOODBYE|<message>`	
-       * Calls 👉 Goodbye: 🤗 Host
-   * `ISSUE|<code>|{credentialID}`	
-       * Calls [🎴⏩🧑‍🦰 Offer token](<../../../5 ⏩ Flows/60 🎴⏩ Issuers/01 🎴⏩🧑‍🦰 Offer token.md>)
-       * The function waits for all shares
+
+   
    * `REDIRECT|{host}|{locator}`	
        * Calls 👉 Check-in: 👱📎 Wallet. Sessions
        * With [🧩 nlweb.org/HOST](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/HOST/🧩 Host.md>)

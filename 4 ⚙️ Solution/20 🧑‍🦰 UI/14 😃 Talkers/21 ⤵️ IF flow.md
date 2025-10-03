@@ -10,7 +10,19 @@
     An `IF` 
     * is a flow [Command](<10 Command.md>)  
     * that runs a [Procedure](<12 ⚙️ Procedure.md>) or [Command](<10 Command.md>) 
-    * based on the evaluation of a boolean [{Function}](<11 {Function}.md>).
+    * based on the evaluation of a placeholder or [{Function}](<11 {Function}.md>).
+
+    ---
+    <br/>
+
+1. **How are values evaluated to booleans?**
+
+    Type| ❌ False | Example | ✅ True | Example
+    |-|-|-|-|-
+    Boolean | false | `False` | true | `True`
+    String   | empty | ` ` | non-empty | `.` `bla` 
+    Number  | zero | `0` | non-zero | `1` `-1`
+    Array | empty | `[]` | non-empty | `[1,A]`
 
     ---
     <br/>
@@ -32,7 +44,7 @@
     ---
     <br/>
 
-1. **What are examples of inline syntax?**
+3. **What are examples of inline syntax?**
 
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
