@@ -13,7 +13,7 @@
     ---
     <br/>
 
-2. **What's an example in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
+2. **How does it look in a Chat?**
 
     Consider the following [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>).
     
@@ -33,7 +33,9 @@
     <br/>
 
 
-2. **What are examples of TEMP?**
+
+
+4. **What are use cases of TEMP?**
 
     |Type|Example
     |-|-

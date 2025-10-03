@@ -15,18 +15,19 @@
 2. **What's the syntax?**
 
     ```yaml
-    - RUN|<procedure>|<arguments>
+    - RUN|<procedure>|<arguments> >> <result>
     ```
 
     | Argument| Purpose
     |-|-
-    | `procedure`| [Procedure](<20 ⚙️ Procedure block.md>) to run.
-    | `arguments`| Optional comma-separated arguments <br/>referenced by `{$position}` - e.g., `{$1}`
+    | `<procedure<`| [Procedure](<20 ⚙️ Procedure block.md>) to run.
+    | `<arguments>`| Optional comma-separated arguments <br/>referenced by `{$position}` - e.g., `{$1}`
+    | `<result>`| Optional placeholder for a [`RETURN`](<25 ↩️ RETURN flow.md>) result.
     
     ---
     <br/>
 
-3. **What's an example with arguments?**
+3. **What's an example with static arguments?**
 
 
     ```yaml
@@ -49,9 +50,9 @@
     ---
     <br/>
 
-4. **What's an example with placeholders?**
+4. **What's an example with placeholder arguments?**
 
-    > This example uses the [QUANTITY 🔄](<../13 🤔 Prompts/21 🔄 QUANTITY prompt.md>) input command.
+    > This example uses the [`QUANTITY`](<../13 🤔 Prompts/21 🔄 QUANTITY prompt.md>) input command.
 
     ```yaml
     💬 Example:
@@ -78,16 +79,13 @@
 
 
 
-5. **What's an example with code?**
+5. **What's an example with function arguments?**
 
-    > This example uses the [EVAL 🧠](<12 🧠 EVAL command.md>) command.
 
     ```yaml
     💬 Example:
-    - EVAL|{get-random-number} >> n1
-    - RUN|ShowNumber|{$n1}
-    - EVAL|{get-random-number} >> n2
-    - RUN|ShowNumber|{$n2}
+    - RUN|ShowNumber|{get-random-number}
+    - RUN|ShowNumber|{get-random-number}
     - SUCCESS|Example finished.
 
     ShowNumber:
@@ -112,3 +110,63 @@
 
     ---
     <br/>
+    
+
+6. **What's an example with a static RETURN?**
+
+    > This example uses [`RETURN`](<25 ↩️ RETURN flow.md>) and [`CASE`](<22 🔀 CASE flow.md>).
+
+
+    ```yaml
+    💬 Example:
+    - RUN|Calculate >> result
+    - CASE|{$result}
+        Won: SUCCESS|Congrats, you won!
+        Lost: FAILURE|Sorry, you lost! 
+
+    Calculate:
+    - RETURN|Won
+    - FAILURE|This is a bug.
+    ```
+
+
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ✅ Congrats, you won!
+    
+
+    ---
+    <br/>
+    
+
+
+6. **What's an example with a calculated RETURN?**
+
+    > This example uses the [`RETURN`](<25 ↩️ RETURN flow.md>) command.
+
+
+    ```yaml
+    💬 Example:
+    - RUN|AddFive(2) >> n
+    - SUCCESS|The first result is {$n}.
+    - RUN|AddFive(3) >> n
+    - SUCCESS|The second result is {$n}.
+
+    AddFive:
+    - INFO|Adding 5 to {$1}...
+    - RETURN|{.Sum($1, 5)}
+    - FAILURE|This is a bug.
+    ```
+
+
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ Adding 5 to 2...
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ✅ The first result is 7.
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ Adding 5 to 4...
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ✅ The second result is 9.
+    
+
+    ---
+    <br/>
+    

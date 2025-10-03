@@ -7,7 +7,12 @@
 
 1. **What's an EVAL command?**
 
-    An `EVAL` is a [Command](<10 Command.md>) that evaluates a [{Function}](<11 {Function} command.md>) into a placeholder.
+    An `EVAL` is a [Command](<10 Command.md>) that evaluates one of the following expressions into a placeholder.
+    
+    |Expression|Examples
+    |-|-
+    |`<string>`| `3` `Alice`
+    [`{Function}`](<11 {Function} command.md>) | `{$placeholder}` `{handler(1)}` `{.helper(1)}` 
 
     ---
     <br/>
@@ -15,33 +20,68 @@
 2. **What's the syntax?**
 
     ```yaml
-    - EVAL|{function} >> <placeholder>
+    - EVAL|<expression> >> <placeholder>
     ```
 
     | Argument| Purpose
     |-|-
-    | `{function}`| The [{Function}](<11 {Function} command.md>) to be evaluated.
+    | `<expression>`| The string or [{Function}](<11 {Function} command.md>) to be evaluated.
     | `<placeholder>`| The placeholder to store the evaluation result.
     
     ---
     <br/>
 
+2. **What's a string example?**
 
-2. **What's an example?**
+
+
+    ```yaml
+    # 😃 Talker.
+    💬 Example:
+    - EVAL|3 >> n
+    - INFO|The placeholder number is {$n}.
+    ```
+
+  
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ The placeholder number is 3.
+
+    ---
+    <br/>
+
+3. **What's a code example?**
+
+    > This example uses the [`REPEAT`](<23 🔁 REPEAT flow.md>) flow command for the loop.
 
     ```python
     # 🐍 Python handler
     def talkerHandler(args):
       match args['function']:
-        case 'get-time':
-          return True
+        case 'addRow':
+          rowCount = insertDatabaseRow()
+          return rowCount
     ```
        
+
+
     ```yaml
     # 😃 Talker.
-    - EVAL|{get-time} >> time
-    - INFO|It's {time}
+    💬 Example:
+    - CONFIRM|Add a database row?
+    - EVAL|{addRow} >> count
+    - SUCCESS|The database now has {$count} rows.
+    - REPEAT
     ```
+
+  
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Add a database row? [Yes, No] | Yes
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ The database now has 9 rows.
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Add a database row? [Yes, No] | Yes
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ The database now has 10 rows.
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Add a database row? 
 
     ---
     <br/>

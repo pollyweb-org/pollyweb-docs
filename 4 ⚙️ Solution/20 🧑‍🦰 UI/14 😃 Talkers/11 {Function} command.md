@@ -6,13 +6,14 @@
 
 1. **What's a Talker {function}?**
 
-    It's a string encapsulated in brackets that calculates one if the following values.
+    A [{Function}](<11 {Function} command.md>) is a string encapsulated in brackets that calculates one if the following values.
 
     |Format|Details
     |-|-
     | `{$placeholder}`| The result of a named user input.
     | `{/path/to/file}` | A file in the [Hoster 🧑‍💻](<../12 💬 Chats/05 🧑‍💻🛠️ Hoster helper.md>) file system.
-    | `{function}`| Logic in a code handler - e.g., python.
+    | `{handler(args)}`| Logic in a code handler - e.g., python.
+    | `{.helper(args)}`| Pre-built functions - e.g., `Sum()`
     
 
     ---
@@ -84,12 +85,12 @@
 4. **What's the syntax for code handlers?**
 
     ```yaml
-    {function[(param-1[,param-n])]}
+    {handler[(param-1[,param-n])]}
     ```
 
     | Argument| Purpose
     |-|-
-    | `function` | Key for the code handler.
+    | `handler`  | Name of the code handler.
     | `param-1`  | Optional parameter.
     | `param-n`  | Additional comma-separated parameters.
 
@@ -127,8 +128,7 @@
     ---
     <br/>
 
-
-5. **What are examples of code invocations?**
+6. **What are examples of code invocations?**
    
     | Example | Details
     |-|-
@@ -140,7 +140,7 @@
     ---
     <br/> 
 
-3. **What is passed down to code handlers?**
+7. **What is passed down to code handlers?**
 
     | Component | Details | Example
     |-|-|-
@@ -150,7 +150,7 @@
     ---
     <br/>
 
-3. **How to dump code handler invocations for debugging?**
+8. **How to dump code handler invocations for debugging?**
    
     ```python
     # 🐍 Python handler
@@ -187,6 +187,38 @@
     |-|-
     |✅ Valid | `MyF` `My F` `myF` `my-f` `f2` `my_f`  `my--f` 
     |❌ Invalid | `{f}` `my$f` `$` `my-f!` `my/f` `my\|f` `my>f` `my,p` `👋`
+
+    ---
+    <br/>
+
+
+
+5. **What's the syntax for built-in helper functions?**
+
+    ```yaml
+    {.helper[(params)]}
+    ```
+
+    | Argument| Purpose
+    |-|-
+    | `.helper`  | Name of the built-in helper function.
+    | `params`  | Comma-separated parameters.
+
+    ---
+    <br/>
+
+
+5. **What are examples of built-in helper functions?**
+
+    | Function | Details | Example
+    |-|-|-
+    | `Sum` | Sums numbers | `{.Sum(1,2,3)}` → `6`
+    | `Subtract` | Subtracts B from A | `{.Subtract(10,4)}` → `6`
+    | `Multiply` | Multiplies numbers | `{.Multiply(2,3,4)}` → `24`
+    | `RandomInt` | Random integer | `{.RandomInt(1,9)}` → `7`
+    | `InRange` | Checks intervals | `{.InRange(5,1,10)}` → `True`
+    | `Time` | Current time | `{.Time}` → `10:30:00Z`
+
 
     ---
     <br/>
