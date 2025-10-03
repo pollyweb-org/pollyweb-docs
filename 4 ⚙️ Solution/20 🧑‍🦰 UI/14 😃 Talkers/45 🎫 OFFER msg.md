@@ -8,7 +8,7 @@
 
     An `OFFER`
     * is a message [Command](<10 Command.md>) 
-    * that invokes the [Offer Token @ Issuer ⏩](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/01 🎴⏩🧑‍🦰 Save token.md>) flow.
+    * that invokes the [Offer Token @ Issuer ⏩](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/01 🧑‍🦰👉🎴 Save token.md>) flow.
 
     ---
     <br/>
