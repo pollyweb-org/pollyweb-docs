@@ -136,15 +136,15 @@
 
     | Category | Workflow |  Description
     |-|-|-
-    | 🤵 Set up | [👉 Onboard](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/11 🧑‍🦰👉🤵 Onboard.md>)  | Initializes a [Wallet 🧑‍🦰 app](<01 🧑‍🦰 Wallet app.md>) on a [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>).
-    | | [👉 Translate](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/12 🧑‍🦰👉🤵 Translate.md>)  | Changes the language of the [Wallet 🧑‍🦰 app](<01 🧑‍🦰 Wallet app.md>).
-    | 🔆 Locators |[👉 Host QR](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>)  | The [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) presented a QR to the user.
-    ||[👉 Printer QR](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/02 🧑‍🦰👉🤗 Scan printer QR.md>)  | The user presented a QR to the [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>).  
-    |💬 Chats|[👉 List chats](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/01 🧑‍🦰👉🤵 List chats.md>) 
-    ||[👉 Home](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/02 🧑‍🦰👉🤵 Host home.md>) 
-    ||[👉 Abandon](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>) 
-    | 🔗 Binds | [👉 List binds ](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/01 🧑‍🦰👉🤵 List binds.md>) 
-    [text](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/03 🧑‍🦰👉🗄️ Unbind.md>)
+    | 🤵 Set up | [👉 Onboard](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/11 🧑‍🦰👉🤵 Onboard.md>)  | Register the [Wallet 🧑‍🦰](<01 🧑‍🦰 Wallet app.md>) on a [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>)
+    | | [👉 Translate](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/12 🧑‍🦰👉🤵 Translate.md>)  | Change the language of the [Wallet 🧑‍🦰](<01 🧑‍🦰 Wallet app.md>)
+    | 🔆 Locators |[👉 Host QR](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>)  | Scan a [Host 🤗 NFC/QR](<../12 💬 Chats/04 🤗🎭 Host role.md>)   to open a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)
+    ||[👉 Printer QR](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/02 🧑‍🦰👉🤗 Scan printer QR.md>)  | Scan a [Printer 🖨️ NFC/QR](<../../70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>) to open a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)
+    |💬 Chats|[👉 List chats](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/01 🧑‍🦰👉🤵 List chats.md>) | List the user's [Chats 💬](<../12 💬 Chats/01 💬 Chat.md>) 
+    ||[👉 Home](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/02 🧑‍🦰👉🤵 Host home.md>) | Show the [Host's 🤗 ](<../12 💬 Chats/04 🤗🎭 Host role.md>) menu in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)
+    ||[👉 Abandon](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>) | Unilaterally abandon a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)
+    | 🔗 Binds | [👉 List binds ](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/01 🧑‍🦰👉🤵 List binds.md>) | List the user's [Binds 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>)
+    || [👉 Unbind](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/03 🧑‍🦰👉🗄️ Unbind.md>) | Remove a [Bind 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>) with a [Vault 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>)
 
     ---
     <br/>
