@@ -3,7 +3,12 @@
 
 > From [🏪 Drink at vending machines](<01 🏪 Index.md>)
 
-> Vending machines ask the user's trusted [Identity 🆔 agent](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) to perform the authentication inside the chat on the user's device (e.g., [face scan 😶](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/21 🆔😶 Face scan.md>)).
+> Built with [Owner Talker 😃](<93 😃 Owner: Talker.md>)
+
+* Vending machines 
+  * ask the user's trusted [Identity 🆔 agent](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) 
+  * to perform the authentication inside the chat 
+  * on the user's device (e.g., [face scan 😶](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/21 🆔😶 Face scan.md>)).
 
 <br/>
 
