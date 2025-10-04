@@ -4,7 +4,7 @@
 
 > Used in [Stream @ Streamer 🌬️⏩🔔](<../../5 ⏩ Flows/78  🌬️⏩ Streamers/01 🌬️⏩🔔 Stream.md>)
 
-> Reverted by [Unqueue @ Queue 🚀](<13 🔔🚀⏳ Unqueue.md>)
+> Reverted by [`Unqueue@Queue`](<13 🔔🚀⏳ Unqueue.md>)
 
 > To update a queue, re-use the `<queue-uuid>`
 
@@ -34,7 +34,7 @@ Body:
 |Header|`From` | string | [Subscriber 🔔 domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/04 🔔🎭 Subscriber role.md>) name
 ||`To`| string | [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>) name
 ||`Subject`| string | `Queue@Buffer`
-|Body |`Queue` | uuid | Queue for [Push @ Buffer](<21 🌬️🐌⏳ Push.md>)
+|Body |`Queue` | uuid | Queue for [`Push@Buffer`](<21 🌬️🐌⏳ Push.md>)
 || `Fifo` | bool | Optional first in, first out? 
 || `DLQ`| bool | Optional dead-letter queue? 
 || `Replay` | bool | Optional store of confirmed messages
