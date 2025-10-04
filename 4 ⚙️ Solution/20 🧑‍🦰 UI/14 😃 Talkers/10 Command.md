@@ -77,7 +77,9 @@
     | 👋 [`GOODBYE`](<44 👋 GOODBYE.md>) | Calls the [Goodbye @ Host](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/02 🤗⏩🧑‍🦰 Goodbye.md>) ⏩ flow.
     | 📜 [`FLOW`](<41 FLOW msg.md>)
     | 💳 [`CHARGE`](<43 💳 CHARGE msg.md>)
-    
+    | 💼 [`SHARE`](<46 💼 SHARE msg.md>)
+    | 🛰️ [`RELAY`](<32 🛰️ RELAY msg.md>)
+    |
     
    
    * `CRUD`	
@@ -91,9 +93,7 @@
        * Calls 🐌 Resubscribe: 🤵📎 Broker. Pay()
    * `REVOKE|{credentialID}`	
        * Calls 👉 Revoke token: 🃏 Issuer
-   * `SHARE|<code>|<message>`	
-       * Calls 👉 Query: 📡 Consumer
-       * Groups sequential shares in one call
+
    * `SUBSCRIBE|<amount>`	
        * Calls 🐌 Subscribe: 🤵📎 Broker. Pay()
 
@@ -101,7 +101,7 @@
     <br/>
 
 
-4. **What are Flow commands?**
+9. **What are Flow commands?**
 
     > Flow commands allow the creation of complex workflows.
 

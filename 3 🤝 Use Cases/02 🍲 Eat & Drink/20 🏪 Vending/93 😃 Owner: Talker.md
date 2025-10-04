@@ -9,10 +9,16 @@
 | [🪣 Items](<92 🪣 Owner: Items.md>) | List of items to [`MAP`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/31 🪣 MAP item.md>).
 
 
+<!--
+TODO: Add the flow to the Manifest
+-->
 
 ```yaml
 # 😃 Talker
 💬|[Buy] an item:
+
+# Set the Chat's flow.
+- FLOW|Buy
 
 # Ask for the item number
 - INT|What's the item number? >> number
