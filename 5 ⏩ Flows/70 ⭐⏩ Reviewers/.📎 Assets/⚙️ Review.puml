@@ -9,19 +9,17 @@ participant "Graph 🕸\ndomain" as graph
 participant "Finder 🔎\nsubscribers" as finder
 
 
+host --> graph: {manifest}
+
 activate broker
-
-
-    host --> graph: {manifest}
-
-    broker --> reviewer: 1) rate@
-    deactivate broker
+    broker --> reviewer: 1) Rate 🐌
+deactivate broker
 
 group Ask user feedback
 
     activate reviewer
         reviewer -> graph: 2) service@ 
-        reviewer --> user: 3) ⏪ prompt
+        reviewer --> user: 3) ⏪ Prompt 🤔
     deactivate reviewer
 
     ' Answer to reviewer.
@@ -33,7 +31,7 @@ group Ask user feedback
     activate reviewer
         
         loop Follow-up questions
-            reviewer --> user: ⏪ prompt {why?}
+            reviewer --> user: ⏪ Prompt 🤔 {why?}
         end loop
 
 
@@ -44,7 +42,6 @@ group Delayed fan out of anonymous feedback
         reviewer --> host: 4) rated@
 
         reviewer --> finder: 5) ⏩ ingest {rated}
-        reviewer --> finder: ⏩ ingest {rated}
 
     deactivate reviewer
 
