@@ -17,5 +17,43 @@
     ---
     <br/>
 
-   * `SHARE|<code>`	
-       * Groups sequential shares in one call
+
+3. **What's the SHARE syntax?**
+
+    ```yaml
+    # Inline, single code
+    SHARE|<code> >> <shared>
+
+    # Multi-line, multiple codes
+    SHARE >> <shared>:
+        - <code-1>
+        - <code-n>
+    ```
+
+   
+    | Argument| Purpose
+    |-|-
+    | `<code>`  | 
+    | `<shared>`| 
+
+
+    ---
+    <br/>
+
+4. **What does a Chat look like?**
+
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | 💼 [Consumer](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) | ℹ️ Tell me your name.
+    | 🧢 [Persona](<../../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) | 🫥 Share social name? [No] <br/> - [ Personal ] 🧑‍🦰 <br/> - [ Work ] 💼       | > Personal
+    | 💼 [Consumer](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) | ℹ️ Hi, Alice!
+
+
+    ```yaml
+    INFO|Tell me your name.
+    SHARE >> name
+        - nlweb.org/PERSONA/NAME/SOCIAL
+    ```
+
+    ---
+    <br/>
