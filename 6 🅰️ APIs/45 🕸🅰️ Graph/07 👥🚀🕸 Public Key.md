@@ -10,7 +10,7 @@
 
 > Used by:
 > <br/> • [👥🔏 Domain Signature](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/05 👥🔏 Domain Signature.md>)
-> <br/> • [💼⏩🧑‍🦰 Share Token @ Consumer](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/03 🧑‍🦰⏩💼 Share Token.md>) flow
+> <br/> • [💼⏩🧑‍🦰 Share Token @ Consumer](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/03 🧑‍🦰👉💼 Share Token.md>) flow
 
 <br/>
 
