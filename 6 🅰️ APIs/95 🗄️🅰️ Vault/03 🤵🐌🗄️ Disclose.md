@@ -5,7 +5,7 @@
 
 > Request for a [Vault 🗄️ domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) to share user data with a [Consumer 💼 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>).
 
-> Used by [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../5 ⏩ Flows/20 💼⏩ Consumers/02 🧑‍🦰⏩💼 Share Bind.md>)
+> Used by [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉💼 Share Bind.md>)
 
 <br/>
 

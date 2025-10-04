@@ -241,9 +241,9 @@
    
     |  Flow | Purpose
     |-|-
-    | [⏩🧑‍🦰 Query Vault](<../../../5 ⏩ Flows/20 💼⏩ Consumers/02 🧑‍🦰⏩💼 Share Bind.md>) | Ask for [Schema Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) in [Vaults 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) 
-    | [⏩🧑‍🦰 Share Token](<../../../5 ⏩ Flows/20 💼⏩ Consumers/03 🧑‍🦰⏩💼 Share Token.md>) | Ask for [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) in  [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) 
-    | [⏩🧑‍🦰 Share ID Token](<../../../5 ⏩ Flows/20 💼⏩ Consumers/04 💼⏩🧑‍🦰 Share Token+ID.md>) | Ask for [Identity 🆔](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) bound [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>)
+    | [⏩🧑‍🦰 Query Vault](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉💼 Share Bind.md>) | Ask for [Schema Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) in [Vaults 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) 
+    | [⏩🧑‍🦰 Share Token](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/03 🧑‍🦰⏩💼 Share Token.md>) | Ask for [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) in  [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) 
+    | [⏩🧑‍🦰 Share ID Token](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/04 🧑‍🦰⏩💼 Share Token+ID.md>) | Ask for [Identity 🆔](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) bound [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>)
     | [⏩🧑‍🦰 Token status](<../../../5 ⏩ Flows/20 💼⏩ Consumers/05 💼⏩🧑‍🦰 Token status.md>) | Ask for the status of a [Token 🎫](<../25 🎫 Tokens/01 🎫 Token.md>)
 
     ---
