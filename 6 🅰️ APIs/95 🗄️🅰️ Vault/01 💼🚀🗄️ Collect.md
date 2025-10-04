@@ -4,7 +4,7 @@
 # 💼🚀🗄️ Collect @ Vault
 
 
-> Tells it to reply with the data [shared](<../30 💼🅰️ Consumer/01 🗄️🐌💼 Consume.md>) by the user.
+> Tells it to reply with the data [shared](<../30 💼🅰️ Consumer/02 🗄️🐌💼 Consume.md>) by the user.
 
 > Used by [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind.md>)
 
@@ -27,7 +27,7 @@ Body:
 |Header|`From` | string | [Consumer 💼 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) name
 || `To`| string | [Vault 🗄️ domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) name
 ||`Subject` | string | `Collect@Vault`
-|Body|`VaultKey` | uuid | Callback from [Consume@Consumer](<../30 💼🅰️ Consumer/01 🗄️🐌💼 Consume.md>)
+|Body|`VaultKey` | uuid | Callback from [Consume@Consumer](<../30 💼🅰️ Consumer/02 🗄️🐌💼 Consume.md>)
 |
 
 <br/>
