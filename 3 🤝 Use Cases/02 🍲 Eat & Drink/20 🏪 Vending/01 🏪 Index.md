@@ -18,21 +18,47 @@
 
 
 
-## 💼 Business Setup
-
-| Resource | Purpose|
-|-|-|
-| [🧑‍💻 Hoster](<91 🧑‍💻 Owner: Hoster.md>) | To bootstrap an inbox API.
-| [📜 Manifest](<92 📜 Owner: Manifest.md>) | To identify the vending machine domain.
-| [😃 Talker](<93 😃 Owner: Talker.md>) | To interact with customers.
-| [🪣 Items](<94 🪣 Owner: Items.md>) | To list the items available.
-| [🪣 Locators](<95 🪣 Owner: Locators.md>) | To map [Locators 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) to [Relayer 🛰️](<../../../4 ⚙️ Solution/60 🧰 Edge/61 🔌 Pluggables/04 🛰️🛠️ Relayer helper.md>) devices.
-|
-
-
 <!-- 
 TODO: other scenarios
   * 21 🏢 Plan route 🗺️.md
   * 22 🏢 Load truck 🚚.md
   * 31 🏪 Stock machine 📦.md
 -->
+
+
+## 💼 Resources
+
+| Resource | Purpose|
+|-|-|
+| [🔆 Locators](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) | For scanning: `machine-1` `machine-2`
+| [📜 Manifest](<92 📜 Owner: Manifest.md>) | To identify the vending machine domain
+| [😃 Talker](<93 😃 Owner: Talker.md>) | To interact with customers
+| [🪣 Item map](<94 🪣 Owner: Items.md>) | To list the items available
+| [🪣 Locator map](<95 🪣 Owner: Locators.md>) | To map [Locators 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) to [Relayer 🛰️](<../../../4 ⚙️ Solution/60 🧰 Edge/61 🔌 Pluggables/04 🛰️🛠️ Relayer helper.md>) devices
+
+<br/> 
+
+## Roles
+
+| [Roles 🎭](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | Purpose |
+|-|-
+| [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | To manage the [Chats 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
+| [💵 Seller](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) | To charge for the products
+| [💼 Consumer](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) | To verify minimum age
+
+<br/> 
+
+
+## Helpers
+
+| [Helper 🛠️](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>)  | Purpose |
+|-|-
+| [🧑‍💻 Hoster](<91 🧑‍💻 Owner: Hoster.md>) | To bootstrap an inbox API
+| [🏦 Collector](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) | To collect the amount paid
+| [👂 Listener](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/02 👂🛠️ Listener helper.md>) | To propagate [Manifest 📜](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>)  changes
+| [🕸 Graph](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>) | To query [Trust 👍](<../../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) relationships
+| [⏳ Buffer](<../../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>) | To buffer inbound [Messages 📨](<../../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>)
+| [🛰️ Relayer](<../../../4 ⚙️ Solution/60 🧰 Edge/61 🔌 Pluggables/04 🛰️🛠️ Relayer helper.md>) | To remotely control the machines
+
+<br/> 
+
