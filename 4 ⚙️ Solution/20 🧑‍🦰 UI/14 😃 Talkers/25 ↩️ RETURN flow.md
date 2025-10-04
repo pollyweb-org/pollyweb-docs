@@ -9,13 +9,13 @@
 
     A `RETURN` 
     * is a flow [Command](<10 Command.md>) 
-    * that exists a [Procedure](<12 ⚙️ Procedure.md>) to its parent, 
+    * that exists a [Procedure](<11 ⚙️ Procedure.md>) to its parent, 
     * and returns one of the following expressions.
     
     |Expression|Examples
     |-|-
     |`<string>`| `3` `Alice`
-    [`{Function}`](<11 {Function}.md>) | `{$placeholder}` `{handler(1)}` `{.helper(1)}` 
+    [`{Function}`](<12 {Function}.md>) | `{$placeholder}` `{handler(1)}` `{.helper(1)}` 
 
     ---
     <br/>
@@ -32,7 +32,7 @@
 
     | Argument| Purpose
     |-|-
-    | `<expression>`| Optional string or [{Function}](<11 {Function}.md>) to be evaluated.
+    | `<expression>`| Optional string or [{Function}](<12 {Function}.md>) to be evaluated.
     
     ---
     <br/>
@@ -41,7 +41,7 @@
 
 2. **What happens after a RETURN?**
 
-    Nothing runs on a [Procedure](<12 ⚙️ Procedure.md>) after the `RETURN`.
+    Nothing runs on a [Procedure](<11 ⚙️ Procedure.md>) after the `RETURN`.
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |

@@ -81,7 +81,7 @@ Success:
 | 🛰️ [`RELAY`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/32 🛰️ RELAY msg.md>) | Relay messages to vending machines.
 |
 
-[Functions](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/11 {Function}.md>)| Type | Purpose
+[Functions](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/12 {Function}.md>)| Type | Purpose
 |-|-|-
 | `.ChatKey` | Built-in | Get machine's [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) key.
 | `.Log` | Built-in | Raise an internal ticket.

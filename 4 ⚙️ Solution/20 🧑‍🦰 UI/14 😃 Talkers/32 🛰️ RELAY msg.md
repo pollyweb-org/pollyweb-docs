@@ -31,8 +31,8 @@
     | `<key>`  | Unique device key in the pool
     | `<message>` | Message to send to the device
     | `<result>` | The response returned by the [Relayer 🛰️](<../../60 🧰 Edge/61 🔌 Pluggables/04 🛰️🛠️ Relayer helper.md>)
-    | `<failure>` | [Procedure](<12 ⚙️ Procedure.md>) or [Command](<10 Command.md>) to run on failure
-    | `<success>` | [Procedure](<12 ⚙️ Procedure.md>) or [Command](<10 Command.md>) to run on success
+    | `<failure>` | [Procedure](<11 ⚙️ Procedure.md>) or [Command](<10 Command.md>) to run on failure
+    | `<success>` | [Procedure](<11 ⚙️ Procedure.md>) or [Command](<10 Command.md>) to run on success
 
     ---
     <br/>
@@ -59,7 +59,7 @@
 
 3. **What are use cases?**
 
-    * [Vending machines 🏪](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/01 🏪 Index.md>)
+    * The [Talker 😃](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/93 😃 Owner: Talker.md>) at [Vending machines 🏪](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/01 🏪 Index.md>)
 
     ---
     <br/>

@@ -9,7 +9,7 @@
 
     A `REPEAT` 
     * is a flow [Command](<10 Command.md>) 
-    * that repeats it's enclosing [Procedure](<12 ⚙️ Procedure.md>) 
+    * that repeats it's enclosing [Procedure](<11 ⚙️ Procedure.md>) 
     * either always or only when confirmed.
 
     ---
