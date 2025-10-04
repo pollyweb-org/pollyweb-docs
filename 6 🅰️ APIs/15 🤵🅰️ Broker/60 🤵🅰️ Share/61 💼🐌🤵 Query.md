@@ -6,7 +6,7 @@
 
 > Used by: 
 > <br/>• [💼⏩🧑‍🦰 Query token @ Consumer](<../../../5 ⏩ Flows/20 💼⏩ Consumers/03 💼⏩🧑‍🦰 Share Token.md>)
-> <br/>• [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../../5 ⏩ Flows/20 💼⏩ Consumers/02 💼⏩🧑‍🦰 Query Vault.md>)
+> <br/>• [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../../5 ⏩ Flows/20 💼⏩ Consumers/02 💼⏩🧑‍🦰 Query vault.md>)
 
 <br/> 
 
