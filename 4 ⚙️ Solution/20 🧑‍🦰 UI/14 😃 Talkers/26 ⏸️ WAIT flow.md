@@ -51,7 +51,7 @@
     ```
     
 
-    | Command | Purpose
+    | [Command](<10 Command.md>) | Purpose
     |-|-
     | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | To update the message.
 
@@ -94,7 +94,7 @@
     - REPEAT
     ```
 
-    | Command | Purpose
+    | [Command](<10 Command.md>) | Purpose
     |-|-
     | ▶️ [`RUN`](<24 ▶️ RUN flow.md>) | To start the waiting loop.
     | ⏏️ [`EVAL`](<20 ⏏️ EVAL flow.md>) | to assess the backend queue length.

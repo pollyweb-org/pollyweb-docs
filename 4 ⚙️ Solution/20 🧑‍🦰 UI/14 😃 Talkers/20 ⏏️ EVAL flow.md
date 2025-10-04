@@ -73,7 +73,7 @@
     ```
 
 
-    | Command | Purpose
+    | [Command](<10 Command.md>) | Purpose
     |-|-
     | 👍 [`CONFIRM`](<../13 🤔 Prompts/24 👍 CONFIRM prompt.md>) | To pause for user confirmation.
     | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | To add more rows.
