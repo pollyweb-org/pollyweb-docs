@@ -7,7 +7,7 @@
 
 > Used by:
 > <br/> • [🔎⏩🧑‍🦰 Introduce @ Finder](<../40 🔎⏩ Finders/01 🔎⏩🧑‍🦰 Introduce.md>) flow
-> <br/> • [🤗⏩🧑‍🦰 Prompt @ Host](<01 🤗⏩🧑‍🦰 Prompt.md>) flow
+> <br/> • [🤗⏩🧑‍🦰 Prompt 🤔](<01 🤗⏩🧑‍🦰 Prompt.md>) flow
 > <br/>• [🧑‍🦰👉🤗 Abandon Chat @ Wallet](<../90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>) flow
 > <br/>• [💼⏩🧑‍🦰 Query Vault @ Consumer](<../90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind.md>) flow
 
