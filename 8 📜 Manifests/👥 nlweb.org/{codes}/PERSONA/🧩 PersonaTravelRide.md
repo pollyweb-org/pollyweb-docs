@@ -1,9 +1,9 @@
 
-# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): ProfileTravelRide
+# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): PersonaTravelRide
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 
-Path: /PROFILE/TRAVEL/RIDE
+Path: /PERSONA/TRAVEL/RIDE
 Name: Ride Preferences
 Description: >
   Ride preferences during a trip, for example in a taxi.

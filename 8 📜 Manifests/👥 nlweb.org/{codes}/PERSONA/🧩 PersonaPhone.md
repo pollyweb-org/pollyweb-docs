@@ -1,9 +1,9 @@
 
-# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): ProfilePhone
+# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): PersonaPhone
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 
-Path: /PROFILE/PHONE
+Path: /PERSONA/PHONE
 Name: Phone number
 
 Description: >

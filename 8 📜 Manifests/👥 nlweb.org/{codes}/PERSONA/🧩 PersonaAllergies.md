@@ -1,9 +1,9 @@
 
-# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): ProfileAllergies
+# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): PersonaAllergies
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
           
-Path: /PROFILE/ALLERGIES
+Path: /PERSONA/ALLERGIES
 Name: Allergies
 Description: Share allergy info.
 

@@ -1,9 +1,9 @@
 
-# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): ProfileNameFriendly
+# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): PersonaNameFriendly
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 
-Path: /PROFILE/NAME/FRIENDLY
+Path: /PERSONA/NAME/FRIENDLY
 Name: Friendly name
 
 Description: >
@@ -26,4 +26,4 @@ Schema:
       Name:
         type: string
       Pronouns: 
-        $ref: nlweb.org/PROFILE/NAME/PRONOUNS:1.0
+        $ref: nlweb.org/PERSONA/NAME/PRONOUNS:1.0

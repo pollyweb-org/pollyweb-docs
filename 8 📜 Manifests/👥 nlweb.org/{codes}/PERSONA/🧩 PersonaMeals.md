@@ -1,9 +1,9 @@
 
-# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): ProfileMeals
+# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): PersonaMeals
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 
-Path: /PROFILE/MEALS
+Path: /PERSONA/MEALS
 Name: Meal preferences
 Description: >
   This is taken from the list of SSR (Special Service Requests)

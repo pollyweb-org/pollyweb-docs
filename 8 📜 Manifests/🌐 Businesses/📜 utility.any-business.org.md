@@ -13,5 +13,5 @@ Identity:
 
 Trusts:
 
-  - Query: nlweb.org/PROFILE/*
+  - Query: nlweb.org/PERSONA/*
     Domain: nlweb.org

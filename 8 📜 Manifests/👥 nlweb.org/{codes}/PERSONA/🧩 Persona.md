@@ -5,7 +5,7 @@
 
 Path: /PROFILE
 Name: Profile Group
-Description: Grouping, not intented for sharing.
+Description: Grouping, not indented for sharing.
 
 Resources:
   NLWEB: 🧢 https://quip.com/64bUA3qrmSzF/-ProfileNLWEBorg

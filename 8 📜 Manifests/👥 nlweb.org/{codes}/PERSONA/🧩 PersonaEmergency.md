@@ -1,9 +1,9 @@
 
-# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): ProfileEmergency
+# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): PersonaEmergency
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 
-Path: /PROFILE/EMERGENCY
+Path: /PERSONA/EMERGENCY
 Name: Emergency contacts
 
 Translations:
@@ -13,9 +13,9 @@ Schema:
     
   Properties:
     # List of:
-    - Name          # /PROFILE/NAME/SOCIAL
-    - Pronouns      # /PROFILE/NAME/PRONOUNS
-    - Phone         # /PROFILE/PHONE
+    - Name          # /PERSONA/NAME/SOCIAL
+    - Pronouns      # /PERSONA/NAME/PRONOUNS
+    - Phone         # /PERSONA/PHONE
     - Relationship  # ex. Partner
     - Notes         # ex. Leave a message
 
@@ -27,13 +27,13 @@ Schema:
       properties:
 
         Name:
-          $ref: nlweb.org.com/PROFILE/NAME/SOCIAL
+          $ref: nlweb.org.com/PERSONA/NAME/SOCIAL
 
         Pronouns:
-          $ref: nlweb.org.com/PROFILE/NAME/PRONOUNS
+          $ref: nlweb.org.com/PERSONA/NAME/PRONOUNS
 
         Phone:
-          $ref: nlweb.org.com/PROFILE/PHONE
+          $ref: nlweb.org.com/PERSONA/PHONE
 
         Relationship:
           type: string

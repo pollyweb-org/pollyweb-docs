@@ -240,7 +240,7 @@
         * whose property `Domain`
         * references `Domain@nlweb.org/TYPES`
         * defined in [`nlweb.org/TYPES` 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/TYPES/🧩 Types.md>).
-    * See [`nlweb.org/PROFILE/ADDRESS` 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/PROFILE/🧩 ProfileAddress.md>)
+    * See [`nlweb.org/PERSONA/ADDRESS` 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/PERSONA/🧩 PersonaAddress.md>)
         * whose property `Country`
         * references `Alpha2@standards.any-igo.org/3166-1`
         * defined in [`standards.any-igo.org` 📜](<../../../8 📜 Manifests/👥 any-igo.org/📜 standards.any-igo.org.md>).

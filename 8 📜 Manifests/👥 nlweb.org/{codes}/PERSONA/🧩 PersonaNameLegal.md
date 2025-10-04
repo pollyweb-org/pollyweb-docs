@@ -1,9 +1,9 @@
 
-# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): ProfileNameLegal
+# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): PersonaNameLegal
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 
-Path: /PROFILE/NAME/LEGAL
+Path: /PERSONA/NAME/LEGAL
 Name: Full legal name
 
 Description: > 

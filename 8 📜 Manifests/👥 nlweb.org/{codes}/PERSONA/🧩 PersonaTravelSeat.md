@@ -1,9 +1,9 @@
 
-# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): ProfileTravelSeat
+# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): PersonaTravelSeat
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 
-Path: /PROFILE/TRAVEL/SEAT
+Path: /PERSONA/TRAVEL/SEAT
 Name: Seat preferences
 Description: Share details on seat preferences.
 

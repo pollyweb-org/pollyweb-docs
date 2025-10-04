@@ -6,7 +6,7 @@
 1. **How do domains avoid interacting with bad actors?**
 
     The NLWeb implements a domain trust framework that allows:
-    * [sender domains 📤](<../44 📜 Manifests/00 👥 Domain.md>) to know if they can [trust 👍](<01 👍 Domain Trust.md>) a [receiver domain 📥](<../44 📜 Manifests/00 👥 Domain.md>) with a specific [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) path - e.g. `nlweb.org/PROFILE/*`, and vice-versa.
+    * [sender domains 📤](<../44 📜 Manifests/00 👥 Domain.md>) to know if they can [trust 👍](<01 👍 Domain Trust.md>) a [receiver domain 📥](<../44 📜 Manifests/00 👥 Domain.md>) with a specific [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) path - e.g. `nlweb.org/PERSONA/*`, and vice-versa.
     
     For example:
       * `any-buyer.com` may accept payment requests 
@@ -28,7 +28,7 @@
       Expires: '2050-01-01T10:00:00.000Z' # Empty = forever
       Action: GRANT                       # Empty = grant
       Roles: CONSUMER                     # Empty = both
-      Query: nlweb.org/PROFILE/*          # Empty = anything
+      Query: nlweb.org/PERSONA/*          # Empty = anything
       Domain: nlweb.org                   # Empty = everyone
     ```
 

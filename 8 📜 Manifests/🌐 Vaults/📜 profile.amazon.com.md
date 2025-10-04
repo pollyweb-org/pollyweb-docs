@@ -1,6 +1,6 @@
 
 # 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>): profile.amazon.com
-<!--# 🧢 https://quip.com/XsoCA8E6EEU9/-AnyProfilecom-->
+<!--# 🧢 https://quip.com/XsoCA8E6EEU9/-AnyPersonacom-->
 
 ```yaml
 🤝: nlweb.org/MANIFEST
@@ -18,5 +18,5 @@ Trusts:
 
   # Trust all requests from anyone.
   - Role: CONSUMER
-    Query: nlweb.org/PROFILE/*
+    Query: nlweb.org/PERSONA/*
     

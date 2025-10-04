@@ -14,5 +14,5 @@ Trusts:
 
   # Trust all profile info from anyone.
   - Role: VAULT
-    Query: nlweb.org/PROFILE/*
+    Query: nlweb.org/PERSONA/*
     Domains: '*'

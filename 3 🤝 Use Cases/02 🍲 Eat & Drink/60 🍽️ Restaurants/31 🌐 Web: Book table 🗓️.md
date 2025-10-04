@@ -37,7 +37,7 @@
 - ONE|Which date?|{booking-dates}
 - ONE|What time?|{booking-times}
 - QUANTITY|How many people?
-- SHARE|nlweb.org/PROFILE/BOOKING|Let us reach out to you if there is any problem.
+- SHARE|nlweb.org/PERSONA/BOOKING|Let us reach out to you if there is any problem.
 - CONFIRM|{summary}
 - CHARGE|1.00|USD|Reservation charge
 - ISSUE|nlweb.org/HOST/BOOKING/SELF|{bookingUUID}

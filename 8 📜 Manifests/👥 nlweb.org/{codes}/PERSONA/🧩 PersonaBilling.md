@@ -1,9 +1,9 @@
 
-# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): ProfileBilling
+# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): PersonaBilling
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 
-Path: /PROFILE/BILLING
+Path: /PERSONA/BILLING
 Name: Billing address
 
 Translations:
@@ -29,8 +29,8 @@ Schemas:
         type: string
 
       Country: 
-        $ref: Country@nlweb.org/PROFILE/ADDRESS:1.0
+        $ref: Country@nlweb.org/PERSONA/ADDRESS:1.0
 
       Address:
-        $ref: Address@nlweb.org/PROFILE/ADDRESS:1.0
+        $ref: Address@nlweb.org/PERSONA/ADDRESS:1.0
     
