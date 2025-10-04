@@ -146,6 +146,9 @@
     | 🔗 Binds | [👉 List ](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/01 🧑‍🦰👉🤵 List binds.md>) | List the user's [Binds 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>)
     || [👉 Bind](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind.md>) | [Bind 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>) the [Wallet 🧑‍🦰](<01 🧑‍🦰 Wallet app.md>) to a [Vault 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>)
     || [👉 Unbind](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/03 🧑‍🦰👉🗄️ Unbind.md>) | Remove a [Bind 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>) from a [Vault 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>)
+    ||[👉 Share](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind.md>) | Shares a [Bind 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>) with a [Consumer 💼](<../27 💼 Consumers/04 💼🎭 Consumer role.md>)
+
+
     |🎫 Tokens| [👉 List](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/01 🧑‍🦰👉🤵 List tokens.md>)| List the user's [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
     || [👉 Save](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/02 🧑‍🦰👉🎴 Save token.md>) | Save a [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) in the [Wallet 🧑‍🦰](<01 🧑‍🦰 Wallet app.md>)
     || [👉 Remove](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/03 🧑‍🦰👉🤵 Remove token.md>) | Remove a [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) from the [Wallet 🧑‍🦰](<01 🧑‍🦰 Wallet app.md>)
