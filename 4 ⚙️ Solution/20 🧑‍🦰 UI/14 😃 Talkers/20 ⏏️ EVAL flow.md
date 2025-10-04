@@ -7,20 +7,29 @@
 
 1. **What's an EVAL command?**
 
-    An `EVAL` is a [Command](<10 Command.md>) that evaluates one of the following expressions into a placeholder.
+    An `EVAL` 
+    * is a [Command](<10 Command.md>) 
+    * that evaluates one of the following expressions 
+    * into a placeholder.
     
     |Expression|Examples
     |-|-
     |`<string>`| `3` `Alice`
     [`{Function}`](<11 {Function}.md>) | `{$placeholder}` `{handler(1)}` `{.helper(1)}` 
+    | `<object>`| `A: 1`<br/>`B: {$p}`<br/>`C: {handler(1)}` <br/> `D: Value {$v}`
 
     ---
     <br/>
 
-2. **What's the syntax?**
+2. **What's the EVAL syntax?**
 
     ```yaml
+    # Inline syntax
     - EVAL|<expression> >> <placeholder>
+
+    # Multi-line syntax
+    - EVAL >> <placeholder>:
+        <expression>
     ```
 
     | Argument| Purpose
@@ -31,12 +40,9 @@
     ---
     <br/>
 
-2. **What's a string example?**
+2. **What's a string EVAL example?**
 
 
-
-
-  
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ The placeholder number is 3.
@@ -52,7 +58,7 @@
     ---
     <br/>
 
-3. **What's a code example?**
+3. **What's a code EVAL example?**
   
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
@@ -90,3 +96,36 @@
        
     ---
     <br/>
+
+3. **What's a mixed EVAL example?**
+
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Welcome to Any Business! <br/> - We are a 3.6 M£ business  <br/> &nbsp;&nbsp; based out of London, UK.
+
+
+    ```yaml
+    # 😃 Talker.
+    💬 Example:
+    
+    # Prepare the data into an object.
+    - EVAL >> data:
+        Name: Any Business
+        Revenue: {get-revenue}
+        Address: 
+            City: London
+            Country: UK
+
+    # Render the intro into a string.
+    - EVAL >> intro:
+        Welcome to {$data.Name}! \n
+        We are a {$data.Revenue} M£ 
+        business based out of 
+        {$data.Address.City}, 
+        {$data.Address.Country}
+
+    # Show the intro.
+    - INFO|{$intro}
+    ```
+
+  
