@@ -8,7 +8,7 @@
 
 ## Flow diagram
 
-![alt text](<../40 👉🎫 Tokens/.📎 Assets/⚙️ Query Vault.png>)
+![alt text](<.📎 Assets/⚙️ Query Vault.png>)
 
 |#|Step|Purpose
 |-|-|-

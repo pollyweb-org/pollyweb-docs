@@ -21,7 +21,7 @@ Consider the following excerpt from the [Flight check in 🤝 use case](<../../.
 
 ## Flow diagram
 
-![alt text](<.📎 Assets/⚙️ Query Token.png>)
+![alt text](<.📎 Assets/⚙️ Share Token.png>)
 
 |#| Step | Purpose
 |-|-|-
