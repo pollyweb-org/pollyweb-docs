@@ -35,7 +35,7 @@ Body:
 | | `To` | string | [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) name
 | | `Subject` | string | `Query@Broker`
 | Body | `ChatID` | string | [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) ID
-| | `ConsumerKey`| uuid | [Consume @ Consumer](<../../30 💼🅰️ Consumer/01 🗄️🐌💼 Consume.md>) callback
+| | `ConsumerKey`| uuid | [Consume @ Consumer](<../../30 💼🅰️ Consumer/02 🗄️🐌💼 Consume.md>) callback
 | | `Codes` | string[] | List of [Schema Codes 🧩](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)
 |
 

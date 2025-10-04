@@ -48,7 +48,7 @@ Body:
 1. **Why a cache?**
 
     `Async` A caching strategy avoids synchronous collection timeouts.
-    * When [Consumer 💼 domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>)  call [Collect@Vault](<../95 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>), [Vault 🗄️ domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) are expected to gather and cache the data and only send the [Consume@Consumer](<01 🗄️🐌💼 Consume.md>) message when the data is cached and ready to be collected.
+    * When [Consumer 💼 domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>)  call [Collect@Vault](<../95 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>), [Vault 🗄️ domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) are expected to gather and cache the data and only send the [Consume@Consumer](<02 🗄️🐌💼 Consume.md>) message when the data is cached and ready to be collected.
     * The Vault's cache duration is expressed in the `TTL` field.
 
     ---
