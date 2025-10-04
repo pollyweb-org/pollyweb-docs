@@ -15,19 +15,19 @@ end box
 
 
 activate domain
-    domain -> domain: change manifest
-    domain --> listener2: 1) updated@ {change}
-    domain --> listener1: updated@ {change}
+    domain -> domain: change manifest 📜
+    domain --> listener2: 1) Updated 🐌 {change}
+    domain --> listener1: 1) Updated 🐌 {change}
 deactivate domain
 
 activate listener1
-    listener1 --> graph: 2) stream ⏩
-    listener1 --> pool: 2) stream ⏩
+    listener1 --> graph: 2) Stream ⏩
+    listener1 --> pool: 2) Stream ⏩
 deactivate listener1
 
 
 activate pool
-    pool --> graph: 2) stream ⏩
+    pool --> graph: 2) Stream ⏩
 deactivate pool
 
 
