@@ -4,17 +4,17 @@
 actor "User" as user
 participant "Host 🤗\ndomain" as host
 participant "Broker 🤵\nhost" as broker
-participant "Ads 👀\nhelper" as ads
 participant "Review ⭐\nagent" as reviewer
+participant "Ads 👀\nhelper" as ads
 
 
 activate host
-    host --> broker: 1) goodbye@
+    host --> broker: 1) Goodbye 🐌
 deactivate host
 
 activate broker    
-    broker --> ads: 2) advertise ⏩
-    broker --> reviewer: 3) review ⏩
+    broker --> ads: 2) Advertise ⏩
+    broker --> reviewer: 3) Review ⏩
 deactivate broker
 
 
