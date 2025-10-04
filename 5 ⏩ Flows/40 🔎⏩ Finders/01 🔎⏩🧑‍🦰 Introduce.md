@@ -29,6 +29,6 @@
 | 1 | [🤵🐌🔎 Introduce @ Finder](<01 🔎⏩🧑‍🦰 Introduce.md>) | Ask to introduce a [Host 🤗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>).
 | 2 | [🔎🚀⭐ Reviews @ Reviewer](<../../6 🅰️ APIs/80 ⭐🅰️ Reviewer/01 🔎🚀⭐ Reviews.md>) | Get domain reviews (may be cached).
 | 3 | [👥🚀🕸 Identity @ Graph](<../../6 🅰️ APIs/45 🕸🅰️ Graph/04 👥🚀🕸 Identity.md>) | Get domain identity (may be cached).
-| 4 | [🤗⏩🧑‍🦰 Prompt](<../50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt.md>) | Inform the user.
+| 4 | [🤗⏩🧑‍🦰 Prompt 🤔](<../50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt.md>) | Inform the user.
 | 5 | [🔎🐌🤵 Introduced @ Broker](<../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/04 🔎🐌🤵 Introduced.md>) | Finish introduction.
 ||

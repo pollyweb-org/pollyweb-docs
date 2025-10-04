@@ -15,10 +15,10 @@ activate wallet
     group Register public key
 
         wallet -> wallet: keys*
-        wallet -> notifier: 1) onboard 🚀 \n {public key}
+        wallet -> notifier: 1) Onboard 🚀 \n {public key}
 
         activate notifier
-            notifier -> broker: 2) onboard 🚀
+            notifier -> broker: 2) Onboard 🚀
         
             ' BROKER
             activate broker
@@ -36,7 +36,7 @@ end group
 
 group Ask for region
 
-    broker --> wallet: 3) ⏪ prompt region?
+    broker --> wallet: 3) ⏪ Prompt {region?}
     deactivate broker
 
     activate wallet
@@ -51,12 +51,12 @@ end group
 
 group Bind agents (loop)
 
-    broker --> vault: 4) bind ⏩
-    broker --> wallet: ⏪ prompt agent defaulted!
+    broker --> vault: 4) Bind ⏩
+    broker --> wallet: ⏪ Prompt {agent defaulted!}
 
 end group
 
-broker --> wallet: ⏪ prompt done!
+broker --> wallet: ⏪ Prompt {done!}
 
 deactivate broker 
 

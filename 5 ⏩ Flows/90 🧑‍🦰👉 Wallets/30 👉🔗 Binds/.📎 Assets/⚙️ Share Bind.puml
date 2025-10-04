@@ -13,7 +13,7 @@ participant "Graph 🕸\n(domain)" as graph
 
 activate consumer
 
-group Request
+group Request the data
 
     consumer --> broker: 1) Query  🐌
     deactivate consumer
@@ -41,13 +41,15 @@ group Request
 
 end group
 
-group Assess
+group Gather the data
 
-    ' Get te context.
-    vault -> consumer: 6) Context 🚀 
-    activate consumer
-    consumer --> vault: {context}
-    deactivate consumer
+    alt If requires context
+        ' Get te context.
+        vault -> consumer: 6) Context 🚀 
+        activate consumer
+        consumer --> vault: {context}
+        deactivate consumer
+    end alt
 
     ' Ask user to confirm.
     vault --> user: 7 ⏪ Prompt 🤔 {confirm?}
