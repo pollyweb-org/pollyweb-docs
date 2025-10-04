@@ -1,5 +1,7 @@
 # 😃 Vending Machine [Talker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/01 😃 Talker.md>)
 
+> From [🏪 Drink at vending machines](<01 🏪 Index.md>)
+
 
 | Dependencies | Purpose
 |-|-
@@ -28,7 +30,7 @@
 
 # Deliver the item.
 - TEMP|Delivering...    
-- RELAY|Machines|{$$locator.key}
+- RELAY|Machines|{.ChatKey}
     Command: Open({$item.Number})
     OnFailure: failure
     OnSignal: success
@@ -56,3 +58,7 @@ Commands|Purpose
 | ⏳ [`TEMP`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/13 🤔 Prompts/12 ⏳ TEMP prompt.md>) | Show delivering status.
 | 🛰️ [`RELAY`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/32 🛰️ RELAY msg.md>) | Relay command to vending machine.
 |
+
+## Flow
+
+![alt text](<.📎 Assets/buy-water.png>)

@@ -44,7 +44,36 @@ Example:
     ---
     <br/>
 
-4. **What does it look in a chat?**
+4. **How to read a specific item property?**
+
+    The syntax for properties is th following.
+
+    ```yaml
+    {$placeholder.property}
+    ```
+
+    Consider resources `🪣 MyPool` as the following.
+   
+    ```yaml
+    - Key1: 
+        PropA: 1.A
+        PropB: 1.B 
+    - Key2:
+        PropA: 2.A
+        ProbB: 2.B 
+    ```
+
+    The following [Talker 😃](<01 😃 Talker.md>) renders `ℹ️ 2.A` in the Chat.
+
+    ```yaml
+    - MAP|MyPool|Key2 >> myItem
+    - INFO|{$myItem.PropA} 
+    ```
+
+    ---
+    <br>
+
+5. **What does it look in a Chat?**
 
 
     | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)

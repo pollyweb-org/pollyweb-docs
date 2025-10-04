@@ -17,28 +17,16 @@
 ||
 
 
-<br/>
 
 ## 💼 Business Setup
 
-### 🎭 [Roles ](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>)
-
-| | |
-|-|-
-| [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | To manage the [Chats 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>).
-| [💵 Seller](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) | To charge for the products.
-| [💼 Consumer](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) | To verify minimum age.
+| Resource | Purpose|
+|-|-|
+| [🧑‍💻 Hoster](<91 🧑‍💻 Owner: Hoster.md>) | To bootstrap an inbox API.
+| [📜 Manifest](<94 📜 Owner: Manifest.md>) | To identify the vending machine domain.
+| [🪣 Items](<92 🪣 Owner: Items.md>) | To list the items available.
+| [😃 Talker](<93 😃 Owner: Talker.md>) | To interact with customers.
 |
-
-
-### [Helpers 🛠️](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) 
-
-
-| | |
-|-|-
-| [🏦 Collector](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) | To collect the amount paid.
-|
-
 
 
 <!-- 
@@ -47,12 +35,3 @@ TODO: other scenarios
   * 22 🏢 Load truck 🚚.md
   * 31 🏪 Stock machine 📦.md
 -->
-
-### Resources
-
-|||
-|-|-|
-| [😃 Talker](<93 😃 Owner: Talker.md>) | To interact with customers.
-| [📜 Manifest](<94 📜 Owner: Manifest.md>) | To identify the vending machine domain.
-| [🪣 Items](<92 🪣 Owner: Items.md>) | To list the items available.
-|

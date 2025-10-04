@@ -1,5 +1,8 @@
 # 🪣 Vending Machine Items
 
+> From [🏪 Drink at vending machines](<01 🏪 Index.md>)
+
+
 ```yaml
 | Number | Name          | Price  | 21+
 |--------|---------------|--------|----

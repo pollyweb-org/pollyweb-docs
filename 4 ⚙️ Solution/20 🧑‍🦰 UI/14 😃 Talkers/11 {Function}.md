@@ -233,6 +233,7 @@
 
     | Function | Details | Example
     |-|-|-
+    | `ChatKey`| [Locator 🔆](<../11 🔆 Locators/01 🔆 Locator.md>) Key | `{.ChatKey}` → `ANY-KEY`
     | `Sum` | Sums numbers | `{.Sum(1,2,3)}` → `6`
     | `Subtract` | Subtracts B from A | `{.Subtract(10,4)}` → `6`
     | `Multiply` | Multiplies numbers | `{.Multiply(2,3,4)}` → `24`
