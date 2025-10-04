@@ -6,7 +6,7 @@
 
 > Tells it to reply with the data [shared](<../30 💼🅰️ Consumer/01 🗄️🐌💼 Consume.md>) by the user.
 
-> Used by [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../5 ⏩ Flows/20 💼⏩ Consumers/02 💼⏩🧑‍🦰 Share Bind.md>)
+> Used by [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../5 ⏩ Flows/20 💼⏩ Consumers/02 🧑‍🦰⏩💼 Share Bind.md>)
 
 <br/>
 
