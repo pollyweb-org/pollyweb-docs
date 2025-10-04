@@ -8,7 +8,7 @@
 
 ## Flow diagram
 
-![alt text](<.📎 Assets/⚙️ Query Vault.png>)
+![alt text](<.📎 Assets/⚙️ Share Bind.png>)
 
 |#|Step|Purpose
 |-|-|-
