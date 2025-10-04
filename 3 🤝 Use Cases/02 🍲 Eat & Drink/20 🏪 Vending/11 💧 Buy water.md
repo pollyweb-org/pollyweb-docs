@@ -23,6 +23,3 @@
 
 <br/>
 
-## Flow
-
-![alt text](<.📎 Assets/buy-water.png>)
