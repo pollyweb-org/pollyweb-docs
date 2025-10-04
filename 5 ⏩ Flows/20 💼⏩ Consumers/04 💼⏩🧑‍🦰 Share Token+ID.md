@@ -11,7 +11,7 @@
 
 |#| Step | Purpose
 |-|-|-
-|1|[💼⏩🧑‍🦰 Share Token 🎫](<03 💼⏩🧑‍🦰 Share Token.md>) | Receive an [Identity-bound Token 🎫](<../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/14 🆔🎫 Verify Tokens.md>)
+|1|[💼⏩🧑‍🦰 Share Token 🎫](<03 🧑‍🦰⏩💼 Share Token.md>) | Receive an [Identity-bound Token 🎫](<../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/14 🆔🎫 Verify Tokens.md>)
 |2|[👥🚀🕸 Trusts @ Graph](<../../6 🅰️ APIs/45 🕸🅰️ Graph/03 👥🚀🕸 Trusts.md>) | Verify if the [Identity 🆔](<../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) is [Trustworthy 👍](<../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) | 
 |3|[💼🐌🤵 Invite @ Broker](<../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/64 💼🐌🤵 Invite.md>)|Invite the [Identity 🆔](<../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) to the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
 |4| [🤵🐌🤗 Invited @ Host](<../../6 🅰️ APIs/50 🤗🅰️ Host/11 🤵🐌🤗 Invited.md>) | Proxy the invite to the [Identity 🆔](<../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) 
