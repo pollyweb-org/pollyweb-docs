@@ -3,11 +3,14 @@
 
 # 👥🚀🕸 Trusted @ Graph
 
-> Verifies if there’s a path of [Trust 👍](<../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) between two [domains 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) regarding a [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>).
-
-> Similar as [Trusted@Graph](<03 👥🚀🕸 Trusts.md>), but for verification by the sender [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).
-
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
+
+* Verifies if there’s a path of [Trust 👍](<../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) 
+    * between two [domains 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) 
+    * regarding a [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>).
+*  Similar to [`Trusted@Graph`](<03 👥🚀🕸 Trusts.md>), 
+   *  but for verification by the sender [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).
+
 
 <br/>
 

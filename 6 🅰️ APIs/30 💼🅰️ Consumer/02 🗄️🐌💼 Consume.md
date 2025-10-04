@@ -1,10 +1,11 @@
 <!-- https://quip.com/UbokAEferibV#temp:C:Yfbbd64684ba1df4ea683cf4e49b -->
 # 🗄️🐌💼 Consume @ Consumer
 
-> Asks the [Consumer 💼 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) to consume a given [Bind 🔗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>).
-> <br/>• Tells them to collect data shared by a user in a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>).
 
 > Used by [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind.md>)
+
+* Asks the [Consumer 💼 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) to consume a given [Bind 🔗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>).
+* Tells them to collect data shared by a user in a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>).
 
 <br/>
 
@@ -35,8 +36,8 @@ Body:
 | `Broker`| string | [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) name
 | `ChatID` | uuid | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) ID
 | `Code`| string |  [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)
-| `ConsumerKey` | uuid | From [Query@](<../15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) and [Invite@](<../15 🤵🅰️ Broker/60 🤵🅰️ Share/64 💼🐌🤵 Invite.md>)
-| `VaultKey` | uuid | Callback to [Collect@Vault](<../95 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>)
+| `ConsumerKey` | uuid | From [`Query@`](<../15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) and [`Invite@`](<../15 🤵🅰️ Broker/60 🤵🅰️ Share/64 💼🐌🤵 Invite.md>)
+| `VaultKey` | uuid | Callback to [`Collect@Vault`](<../95 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>)
 | `TTL` | timestamp| Callback deadline
 |
 
