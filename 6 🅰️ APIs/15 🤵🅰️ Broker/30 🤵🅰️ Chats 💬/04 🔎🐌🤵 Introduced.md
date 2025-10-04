@@ -6,7 +6,7 @@
 
 > The [Finder 🔎 domain](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) finished the introduction.
 
-> Used by [🔎⏩🧑‍🦰 Introduce](<../../../5 ⏩ Flows/40 🔎⏩ Finders/01 🔎⏩🧑‍🦰 Introduce.md>)
+> Used by [🔎⏩🧑‍🦰 Introduce ⓘ](<../../../5 ⏩ Flows/40 🔎⏩ Finders/01 🔎⏩🧑‍🦰 Introduce.md>)
 
 <br/>
 

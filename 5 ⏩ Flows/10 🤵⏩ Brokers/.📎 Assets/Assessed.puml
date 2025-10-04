@@ -12,7 +12,7 @@ participant "Graph 🕸\nhelper" as graph
 activate broker
 
 ' Get the host's public name and icon
-broker -> graph: 1) Identity@
+broker -> graph: 1) Identity 🚀
 activate graph
   graph -> broker: {identity}
 deactivate graph
@@ -21,7 +21,7 @@ deactivate graph
 broker -> broker: chat+
 
 ' Ask for a new chat to be opened
-broker --> notifier: 2) Assessed@
+broker --> notifier: 2) Assessed  🐌
 activate notifier
   notifier --> wallet
 deactivate notifier
@@ -30,7 +30,7 @@ activate wallet
 deactivate wallet
 
 
-broker --> wallet: 3) update chats ⏩ 
+broker --> wallet: 3) ⏪ Update chats 💬 
 deactivate broker
     
 ' ------------
