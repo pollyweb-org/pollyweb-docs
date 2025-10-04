@@ -35,7 +35,7 @@
 
 2. **What does the Invite@Broker call look like?**
 
-    Consider the following example payload to  [`Invite @ Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/64 💼🐌🤵 Invite.md>).
+    Consider the following example payload to  [`Invite@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/64 💼🐌🤵 Invite.md>).
 
     ```yaml
     Header:
