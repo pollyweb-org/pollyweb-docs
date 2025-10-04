@@ -140,18 +140,18 @@
     | | [👉 Translate](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/12 🧑‍🦰👉🤵 Translate.md>)  | Change the language of the [Wallet 🧑‍🦰](<01 🧑‍🦰 Wallet app.md>)
     | 🔆 Locators |[👉 Host QR](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>)  | Scan a [Host 🤗 NFC/QR](<../12 💬 Chats/04 🤗🎭 Host role.md>)   to open a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)
     ||[👉 Printer QR](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/02 🧑‍🦰👉🤗 Scan printer QR.md>)  | Scan a [Printer 🖨️ NFC/QR](<../../70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>) to open a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)
-    |💬 Chats|[👉 List](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/01 🧑‍🦰👉🤵 List chats.md>) | List the user's [Chats 💬](<../12 💬 Chats/01 💬 Chat.md>) 
+    |💬 Chats|[👉 Chats](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/01 🧑‍🦰👉🤵 List chats.md>) | List the user's [Chats 💬](<../12 💬 Chats/01 💬 Chat.md>) 
     ||[👉 Home](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/02 🧑‍🦰👉🤵 Host home.md>) | Show the [Host's 🤗 ](<../12 💬 Chats/04 🤗🎭 Host role.md>) menu in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)
     ||[👉 Abandon](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>) | Unilaterally abandon a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)
-    | 🔗 Binds | [👉 List ](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/01 🧑‍🦰👉🤵 List binds.md>) | List the user's [Binds 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>)
+    | 🔗 Binds | [👉 Binds ](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/01 🧑‍🦰👉🤵 List binds.md>) | List the user's [Binds 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>)
     || [👉 Bind](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind.md>) | [Bind 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>) the [Wallet 🧑‍🦰](<01 🧑‍🦰 Wallet app.md>) to a [Vault 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>)
     || [👉 Unbind](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/03 🧑‍🦰👉🗄️ Unbind.md>) | Remove a [Bind 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>) from a [Vault 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>)
     ||[👉 Share](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind.md>) | Shares a [Bind 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>) with a [Consumer 💼](<../27 💼 Consumers/04 💼🎭 Consumer role.md>)
-
-
-    |🎫 Tokens| [👉 List](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/01 🧑‍🦰👉🤵 List tokens.md>)| List the user's [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
+    |🎫 Tokens| [👉 Tokens](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/01 🧑‍🦰👉🤵 List tokens.md>)| List the user's [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
     || [👉 Save](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/02 🧑‍🦰👉🎴 Save token.md>) | Save a [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) in the [Wallet 🧑‍🦰](<01 🧑‍🦰 Wallet app.md>)
     || [👉 Remove](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/03 🧑‍🦰👉🤵 Remove token.md>) | Remove a [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) from the [Wallet 🧑‍🦰](<01 🧑‍🦰 Wallet app.md>)
+    || [👉 Share](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token.md>) | Share a [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) with a [Consumer 💼](<../27 💼 Consumers/04 💼🎭 Consumer role.md>)
+    || [👉 Verify ID](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/05 🧑‍🦰👉💼 Share Token+ID.md>) | Share and [verify the user Identity 🆔](<../../30 🫥 Agents/05 🆔 Identities/14 🆔🎫 Verify Tokens.md>)
 
     ---
     <br/>
