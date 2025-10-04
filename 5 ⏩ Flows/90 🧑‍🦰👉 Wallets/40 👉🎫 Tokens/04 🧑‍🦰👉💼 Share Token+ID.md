@@ -7,7 +7,7 @@
 
 ## Flow diagram
 
-![alt text](<../../20 💼⏩ Consumers/.📎 Assets/⚙️ Query Token+ID.png>)
+![alt text](<.📎 Assets/⚙️ Query Token+ID.png>)
 
 |#| Step | Purpose
 |-|-|-

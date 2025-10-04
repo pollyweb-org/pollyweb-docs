@@ -21,7 +21,7 @@ Consider the following excerpt from the [Flight check in 🤝 use case](<../../.
 
 ## Flow diagram
 
-![alt text](<../../20 💼⏩ Consumers/.📎 Assets/⚙️ Query Token.png>)
+![alt text](<.📎 Assets/⚙️ Query Token.png>)
 
 |#| Step | Purpose
 |-|-|-
