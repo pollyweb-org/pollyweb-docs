@@ -23,9 +23,10 @@
 | Resource | Purpose|
 |-|-|
 | [🧑‍💻 Hoster](<91 🧑‍💻 Owner: Hoster.md>) | To bootstrap an inbox API.
-| [📜 Manifest](<94 📜 Owner: Manifest.md>) | To identify the vending machine domain.
-| [🪣 Items](<92 🪣 Owner: Items.md>) | To list the items available.
+| [📜 Manifest](<92 📜 Owner: Manifest.md>) | To identify the vending machine domain.
 | [😃 Talker](<93 😃 Owner: Talker.md>) | To interact with customers.
+| [🪣 Items](<94 🪣 Owner: Items.md>) | To list the items available.
+| [🪣 Locators](<95 🪣 Owner: Locators.md>) | To map [Locators 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) to [Relayer 🛰️](<../../../4 ⚙️ Solution/60 🧰 Edge/61 🔌 Pluggables/04 🛰️🛠️ Relayer helper.md>) devices.
 |
 
 
