@@ -1,6 +1,6 @@
 # 🌬️⏩🔔 Stream @ Streamer
 
-> Used by [Manifest @ Domain 👥⏩🕸](<../30 👥⏩ Domains/04 👥⏩🕸 Manifest.md>)
+> Used by [Manifest @ Domain 👥⏩🕸](<../30 👥⏩ Domains/04 👥⏩🕸 Manifest 📜.md>)
 
 
 <br/>

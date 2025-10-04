@@ -1,4 +1,4 @@
-# 📝 Talker FORM message
+# 📝 Talker FORM command
 
 * `FORM|<key>`
        * Informs a new workflow starting.
