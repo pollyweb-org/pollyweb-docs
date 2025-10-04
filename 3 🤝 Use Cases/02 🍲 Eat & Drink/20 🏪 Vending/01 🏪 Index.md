@@ -8,7 +8,7 @@
 
 <br/>
 
-## 💬 Chats
+## 💬 User Chats
 
 |Persona|[Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) | [Agents 🫥](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>)
 |-|-|-
@@ -25,8 +25,9 @@ TODO: other scenarios
   * 31 🏪 Stock machine 📦.md
 -->
 
+<br/>
 
-## 💼 Resources
+## 🧑‍💻 Business Resources
 
 | Resource | Purpose|
 |-|-|
@@ -38,7 +39,7 @@ TODO: other scenarios
 
 <br/> 
 
-## Roles
+## 🎭 Domain Roles
 
 | [Roles 🎭](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | Purpose |
 |-|-
@@ -49,7 +50,7 @@ TODO: other scenarios
 <br/> 
 
 
-## Helpers
+## 🛠️ Domain Helpers
 
 | [Helper 🛠️](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>)  | Purpose |
 |-|-

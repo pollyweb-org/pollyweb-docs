@@ -57,7 +57,7 @@ fail:
 
 # Show success.
 Success:
-- SUCCESS|Pick your item.   # Inform the user
+- SUCCESS|Pick up the item. # Inform the user
 - GOODBYE                   # Show review, ads
 - EVAL >> sold:             # Create the sell
     Machine: .ChatKey
