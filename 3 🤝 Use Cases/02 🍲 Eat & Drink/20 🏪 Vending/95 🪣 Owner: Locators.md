@@ -4,7 +4,7 @@
 
 > Used by [😃 Vending Machine Talker](<93 😃 Owner: Talker.md>) 
 
-| LocatorKey | Machine
+| LocatorKey 🔑 | MachineKey
 |------------|---------------
 | \<uuid-1\>   | machine-1 
 | \<uuid-2\>   | machine-2     

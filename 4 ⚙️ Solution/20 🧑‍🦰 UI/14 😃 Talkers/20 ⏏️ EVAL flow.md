@@ -15,7 +15,7 @@
     |Expression|Examples
     |-|-
     |`<string>`| `3` `Alice`
-    [`{Function}`](<11 {Function}.md>) | `{$placeholder}` `{handler(1)}` `{.helper(1)}` 
+    [`{Function}`](<12 {Function}.md>) | `{$placeholder}` `{handler(1)}` `{.helper(1)}` 
     | `<object>`| `A: 1`<br/>`B: {$p}`<br/>`C: {handler(1)}` <br/> `D: Value {$v}`
 
     ---
@@ -34,7 +34,7 @@
 
     | Argument| Purpose
     |-|-
-    | `<expression>`| The string or [{Function}](<11 {Function}.md>) to be evaluated.
+    | `<expression>`| The string or [{Function}](<12 {Function}.md>) to be evaluated.
     | `<placeholder>`| The placeholder to store the evaluation result.
     
     ---

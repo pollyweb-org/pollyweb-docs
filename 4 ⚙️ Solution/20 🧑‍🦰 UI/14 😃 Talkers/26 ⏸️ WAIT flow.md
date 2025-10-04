@@ -29,8 +29,8 @@
     |-|-
     | `<period>`        | Time before it times out.
     | `<placeholder>`   | Signal placeholder to trigger before timeout.
-    | `<on-signal>`        | Run [Procedure](<12 ⚙️ Procedure.md>) or [Command](<10 Command.md>) when signaled.
-    | `<on-timeout>`        | Run [Procedure](<12 ⚙️ Procedure.md>) or [Command](<10 Command.md>) when times out.
+    | `<on-signal>`        | Run [Procedure](<11 ⚙️ Procedure.md>) or [Command](<10 Command.md>) when signaled.
+    | `<on-timeout>`        | Run [Procedure](<11 ⚙️ Procedure.md>) or [Command](<10 Command.md>) when times out.
 
     ---
     <br/>

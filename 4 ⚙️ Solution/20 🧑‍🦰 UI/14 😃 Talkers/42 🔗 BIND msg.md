@@ -73,7 +73,7 @@
    
     | Argument| Purpose
     |-|-
-    | `{bindable}` | [{Function}](<11 {Function}.md>) to get the [Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) for [Bindable @ Broker](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/42 🗄️🐌🤵 Bindable.md>).
+    | `{bindable}` | [{Function}](<12 {Function}.md>) to get the [Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) for [Bindable @ Broker](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/42 🗄️🐌🤵 Bindable.md>).
     | `<bound>`  | Array of [Schema Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) received on [Bound @ Vault](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/02 🤵🐌🗄️ Bound.md>).
 
     ---
