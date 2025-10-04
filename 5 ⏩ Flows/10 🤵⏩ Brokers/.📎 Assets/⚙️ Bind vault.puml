@@ -14,18 +14,18 @@ participant "Graph 🕸\ndomain" as graph
 activate broker
    
     ' Translate.
-    broker -> graph: 1) translate@
+    broker -> graph: 1) Translate 🚀
     activate graph
         graph -> broker: {translations}
     deactivate
 
     ' Inform the user about the bind.
-    broker --> wallet: 2) ⏪ prompt
+    broker --> wallet: 2) ⏪ Prompt 🤔
     
     ' Bind with the vault.
-    broker --> vault: 3) bound@
+    broker --> vault: 3) Bound 🐌
 
-    broker --> wallet: 4) ⏪ update binds
+    broker --> wallet: 4) ⏪ Update Binds 🔗
     
 deactivate broker
 

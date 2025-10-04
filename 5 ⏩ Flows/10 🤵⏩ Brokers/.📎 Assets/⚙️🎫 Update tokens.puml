@@ -8,7 +8,7 @@ participant "Wallet 👱\napp" as wallet
 participant "Notifier 📣\nbff" as notifier
 participant "Broker 🤵\nhost" as broker
 
-
+ 
 activate broker
    
     broker --> notifier: 1) Updated 🐌
