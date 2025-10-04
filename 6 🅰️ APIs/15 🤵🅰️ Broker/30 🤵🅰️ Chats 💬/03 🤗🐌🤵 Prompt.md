@@ -28,6 +28,6 @@ Body:
 ||`To`       | string  | [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
 ||`Subject` | string | `Prompt@Broker`
 |Body|`ChatID`   | uuid    | ID of the [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) on the [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
-||`PromptID` | uuid    | Callback to [Prompted@Host](<../../50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>)
-||`TTL`| timestamp | Expiration of [Prompted@Host](<../../50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) cache
+||`PromptID` | uuid    | Callback to [`Prompted@Host`](<../../50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>)
+||`TTL`| timestamp | Expiration of [`Prompted@Host`](<../../50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) cache
 |
