@@ -80,7 +80,7 @@
 
     - **[trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>)**: domains untrusted by the user's Broker are discarded;
     - **🔥 Threads**: domains blocked by firewalls may be discarded even when trusted;
-    - **🧢 Preferences**: the user's preferences, as shared by the user's Profiler;
+    - **🧢 Preferences**: the user's preferences, as shared by the user's Persona;
     - **📍 Proximity**: the distance to the user, based on the context shared by the Wallet;
     - **⭐ Rank**: the weighted rank of the domain based on feedback of similar users.
 

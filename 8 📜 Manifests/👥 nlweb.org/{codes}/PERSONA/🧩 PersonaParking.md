@@ -1,6 +1,6 @@
 
-# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): ProfileParking
-Path: /PROFILE/PARKING
+# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): PersonaParking
+Path: /PERSONA/PARKING
 Name: Vehicle
 Description: Share vehicle licence plate and type for parking.
 

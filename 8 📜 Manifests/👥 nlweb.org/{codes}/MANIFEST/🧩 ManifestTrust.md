@@ -24,7 +24,7 @@ Schema:
     - Action         # Giving or removing trust [GRANT, REVOKE] (enum)
     - Expires        # Date limit of the trust in UTC timestamp
     - Role/Roles     # Purpose of referred actor [VAULT, CONSUMER] (enum)
-    - Query/Queries  # Codes to trust - e.g. nlweb.org/PROFILE/* (string|array)
+    - Query/Queries  # Codes to trust - e.g. nlweb.org/PERSONA/* (string|array)
     - Domain/Domains # Domains to trust - e.g. nlweb.org (string|array)
 
   Format:
@@ -37,11 +37,11 @@ Schema:
         properties: 
           Query:
             type: string
-            example: nlweb.org/PROFILE/*
+            example: nlweb.org/PERSONA/*
             description: > 
               Code or codes to trust.
               To trust a family of codes, the /* is required.
-              For example, nlweb.org/PROFILE (without the *) only trusts the root code.
+              For example, nlweb.org/PERSONA (without the *) only trusts the root code.
 
       - required: [Queries]
         properties:

@@ -6,9 +6,9 @@
 
 Identity:
   Domain: any-profile.org
-  Name: Any Profile
+  Name: Any Persona
   Resources:
-    NLWEB: 🧢 https://quip.com/XsoCA8E6EEU9/-AnyProfilecom
+    NLWEB: 🧢 https://quip.com/XsoCA8E6EEU9/-AnyPersonacom
   
 Trusts:
   
@@ -18,5 +18,5 @@ Trusts:
       
   - Title: Trust all requests from anyone.
     Role: CONSUMER
-    Query: nlweb.org/PROFILE/*
+    Query: nlweb.org/PERSONA/*
     

@@ -1,9 +1,9 @@
 
-# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): ProfileAddress
+# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): PersonaAddress
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 
-Path: /PROFILE/ADDRESS
+Path: /PERSONA/ADDRESS
 Name: Address
 
 Descriptions: >

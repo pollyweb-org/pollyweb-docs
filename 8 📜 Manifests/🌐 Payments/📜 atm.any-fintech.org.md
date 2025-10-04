@@ -14,5 +14,5 @@ Trusts:
   - Query: nlweb.org/BANK/*
     Domain: bank.nlweb.org
 
-  - Query: nlweb.org/PROFILE/*
+  - Query: nlweb.org/PERSONA/*
     Domain: nlweb.org

@@ -1,9 +1,9 @@
 
-# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): ProfileNamePronouns
+# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): PersonaNamePronouns
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 
-Path: /PROFILE/NAME/PRONOUNS
+Path: /PERSONA/NAME/PRONOUNS
 Name: Personal gender pronouns
 
 Description: >

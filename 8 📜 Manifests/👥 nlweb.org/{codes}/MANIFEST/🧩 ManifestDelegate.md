@@ -15,7 +15,7 @@ Description: >
   Delegated domain for authority-managed codes.
   - It allows for a manifest to be smaller, while keeping the ownership 
     of the code group. For example, (profile.nlweb.org) defines all codes 
-    for /PROFILE on behalf of (nlweb.org).
+    for /PERSONA on behalf of (nlweb.org).
   - The delegated domain must reference the domain of the Delegator, as 
     described in nlweb.org/MANIFEST/CODE.
 
@@ -24,7 +24,7 @@ Schema:
 
   Properties:
     - Delegate  # Domain to delegate to - e.g. profile.nlweb.org (string)
-    - Code      # Relative path of the code or group - e.g. /PROFILE (string)
+    - Code      # Relative path of the code or group - e.g. /PERSONA (string)
 
   Format:
     type: object
@@ -40,4 +40,4 @@ Schema:
 
       Code: 
         type: string
-        example: /PROFILE
+        example: /PERSONA

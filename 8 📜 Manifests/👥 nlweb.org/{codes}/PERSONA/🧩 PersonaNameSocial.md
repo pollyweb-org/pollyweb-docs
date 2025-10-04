@@ -1,9 +1,9 @@
 
-# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): ProfileNameSocial
+# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): PersonaNameSocial
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 
-Path: /PROFILE/NAME/SOCIAL
+Path: /PERSONA/NAME/SOCIAL
 Name: Social name
 
 Description: >
@@ -29,4 +29,4 @@ Schema:
       Name:
         type: string
       Pronouns: 
-        $ref: nlweb.org/PROFILE/NAME/PRONOUNS:1.0
+        $ref: nlweb.org/PERSONA/NAME/PRONOUNS:1.0

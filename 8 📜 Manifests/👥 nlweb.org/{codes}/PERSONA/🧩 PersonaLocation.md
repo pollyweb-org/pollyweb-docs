@@ -1,9 +1,9 @@
 
-# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): ProfileLocation
+# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): PersonaLocation
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 
-Path: /PROFILE/LOCATION
+Path: /PERSONA/LOCATION
 Name: Position
 
 Description: 

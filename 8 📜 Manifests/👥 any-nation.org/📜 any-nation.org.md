@@ -37,7 +37,7 @@ Trusts:
       
 
   - Title: Allow domains to share profiles of citizens.
-    Query: nlweb.org/PROFILE
+    Query: nlweb.org/PERSONA
     Domains: 
       - taxes.any-nation.org  # Tax Service's
       - nations.any-igo.org   # Any IGO

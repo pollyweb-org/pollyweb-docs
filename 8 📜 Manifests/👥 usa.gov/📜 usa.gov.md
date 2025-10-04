@@ -39,7 +39,7 @@ Trusts:
 
 ```yaml      
   # Allow domains to share profiles of citizens.
-  - Query: nlweb.org/PROFILE/*
+  - Query: nlweb.org/PERSONA/*
     Domains: 
       - irs.gov     # Internal Revenue Service
       - nations.any-igo.org      # Any IGO   

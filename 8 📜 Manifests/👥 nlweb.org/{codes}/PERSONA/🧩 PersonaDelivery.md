@@ -1,9 +1,9 @@
 
-# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): ProfileDelivery
+# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): PersonaDelivery
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 
-Path: /PROFILE/DELIVERY
+Path: /PERSONA/DELIVERY
 Name: Delivery address
 
 Translations:
@@ -28,15 +28,15 @@ Schema:
           Name of the person or organization waiting for the delivery.
 
       Country: 
-        $ref: Country@nlweb.org/PROFILE/ADDRESS:1.0
+        $ref: Country@nlweb.org/PERSONA/ADDRESS:1.0
 
       Address:
-        $ref: Address@nlweb.org/PROFILE/ADDRESS:1.0
+        $ref: Address@nlweb.org/PERSONA/ADDRESS:1.0
 
       Phones:
         type: array
         items:
-          $ref: nlweb.org/PROFILE/PHONE:1.0
+          $ref: nlweb.org/PERSONA/PHONE:1.0
 
       Notes:
         type: string

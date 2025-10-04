@@ -14,7 +14,7 @@ Trusts:
 
   - Role: VAULT
     Queries:
-      - nlweb.org/PROFILE/VEHICLE/PARKING
+      - nlweb.org/PERSONA/VEHICLE/PARKING
     Domains:
       - nations.any-igo.org
       

@@ -21,7 +21,7 @@ Trusts:
   - Queries:
       - nlweb.org/EXCHANGE
       - nlweb.org/PAY
-      - nlweb.org/PROFILE      
+      - nlweb.org/PERSONA      
       - nlweb.org/STORAGE         
     Domains: 
       - europa.eu       # European Union

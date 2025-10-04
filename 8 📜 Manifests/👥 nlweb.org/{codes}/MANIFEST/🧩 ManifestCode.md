@@ -15,7 +15,7 @@ Schema:
   Version: 1.0
 
   Properties:
-    - Path          # Relative path of the code or group - e.g., /PROFILE (string)
+    - Path          # Relative path of the code or group - e.g., /PERSONA (string)
     - Delegator     # Optional domain of the domain that delegated the code (string)
     - Description   # Human readable Description of the code (string)
     - Name          # Human readable name of the code (string)
@@ -47,7 +47,7 @@ Schema:
 
       Name: 
         type: string
-        example: Profile codes
+        example: Persona codes
         details: >
           Human readable name of the code.
           This will be the name presented to users on their wallets upon

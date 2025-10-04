@@ -15,7 +15,7 @@ Trusts:
   # Allow parkings to consume licence plates.
   - Role: CONSUMER
     Queries: 
-      - nlweb.org/PROFILE/VEHICLE/PARKING
+      - nlweb.org/PERSONA/VEHICLE/PARKING
     Domains: 
       - carpark.any-business.org
       

@@ -1,9 +1,9 @@
 
-# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): ProfileTravelCompanion
+# 🧩 [Schema Code](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): PersonaTravelCompanion
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 
-Path: /PROFILE/TRAVEL/COMPANION
+Path: /PERSONA/TRAVEL/COMPANION
 Name: Travel Group
 
 Description: > 
