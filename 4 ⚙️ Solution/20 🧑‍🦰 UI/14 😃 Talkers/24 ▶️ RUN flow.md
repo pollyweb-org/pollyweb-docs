@@ -81,7 +81,7 @@
     - INFO|You gave me number {$1}.
     ```
 
-    | Command | Purpose
+    | [Command](<10 Command.md>) | Purpose
     |-|-
     | 🔄 [`QUANTITY`](<../13 🤔 Prompts/21 🔄 QUANTITY prompt.md>) | To collect the number input.
 
@@ -148,7 +148,7 @@
     ```
 
 
-    | Command | Purpose
+    | [Command](<10 Command.md>) | Purpose
     |-|-
     | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | To decide which message to show.
     | ↩️ [`RETURN`](<25 ↩️ RETURN flow.md>) | To return the final result.
@@ -187,7 +187,7 @@
     - FAILURE|This is a bug.
     ```
 
-    | Command | Purpose
+    | [Command](<10 Command.md>) | Purpose
     |-|-
     | ↩️ [`RETURN`](<25 ↩️ RETURN flow.md>) | To calculate the value to return.
 

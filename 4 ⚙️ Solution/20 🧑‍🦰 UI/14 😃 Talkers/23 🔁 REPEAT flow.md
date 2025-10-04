@@ -68,7 +68,7 @@
     - REPEAT
     ```
 
-    | Command | Purpose
+    | [Command](<10 Command.md>) | Purpose
     |-|-
     | 🔄 [`QUANTITY`](<../13 🤔 Prompts/21 🔄 QUANTITY prompt.md>) | To wait for user input.
     
@@ -111,7 +111,7 @@
 
     Here's a list of flow commands used in the example.
 
-    | Command | Purpose
+    | [Command](<10 Command.md>) | Purpose
     |-|-
     | 👍 [`CONFIRM`](<../13 🤔 Prompts/24 👍 CONFIRM prompt.md>) | To wait for user confirmation.
     | ⏏️ [`EVAL`](<20 ⏏️ EVAL flow.md>) | To add an item to the database.
@@ -186,7 +186,7 @@
 
     Here's a list of flow commands used in the example.
 
-    | Command | Purpose
+    | [Command](<10 Command.md>) | Purpose
     |-|-
     | ⏏️ [`EVAL`](<20 ⏏️ EVAL flow.md>) | To generate a random number a subtract tries.
     | 🔄 [`QUANTITY`](<../13 🤔 Prompts/21 🔄 QUANTITY prompt.md>) | To collect the number input.

@@ -33,8 +33,8 @@
    
     | Argument| Purpose
     |-|-
-    | `<code>`  | 
-    | `<shared>`| 
+    | `<code-n>`  | List of [Schema Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) for [Query @ Broker 🐌](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>)
+    | `<shared>`| An object returned by Collect@Vault.<br/> Or a Token list from Receive@Consumer.
 
 
     ---
@@ -46,14 +46,28 @@
     | - | - | - |
     | 💼 [Consumer](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) | ℹ️ Tell me your name.
     | 🧢 [Persona](<../../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) | 🫥 Share social name? [No] <br/> - [ Personal ] 🧑‍🦰 <br/> - [ Work ] 💼       | > Personal
-    | 💼 [Consumer](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) | ℹ️ Hi, Alice!
+    | 💼 [Consumer](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) | ✅ Hi, Alice!
 
 
     ```yaml
+    # 😃 Talker
     INFO|Tell me your name.
-    SHARE >> name
-        - nlweb.org/PERSONA/NAME/SOCIAL
+    SHARE|nlweb.org/PERSONA/NAME/SOCIAL >> social
+    IF|{$social}:
+      Then: SUCCESS|Hi, {$social.Name}!
+      Else: FAILURE|No name shared.
     ```
 
+    | [Command](<10 Command.md>) | Purpose
+    |-|-
+    | ⤵️ [`IF`](<21 ⤵️ IF flow.md>) | To verify the result.  
+
+
+    The structure of the shared data is as follows.
+   
+    | Data | [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>)
+    |-|-
+    | Social Name |  [nlweb.org/PERSONA/NAME/SOCIAL 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/PERSONA/🧩 PersonaNameSocial.md>)
+   
     ---
     <br/>

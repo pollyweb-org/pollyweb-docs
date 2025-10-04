@@ -54,7 +54,7 @@
        Else: FAILURE|You rejected the token.
    ```
 
-   | Command | Purpose
+   | [Command](<10 Command.md>) | Purpose
    |-|-
    | ⤵️ [`IF`](<21 ⤵️ IF flow.md>) | To verify the result.  
    

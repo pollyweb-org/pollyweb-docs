@@ -51,7 +51,7 @@
     - INFO|You gave me the number {$my-var}.
     ```
 
-    | Command | Purpose
+    | [Command](<10 Command.md>) | Purpose
     |-|-
     | 🔄 [`QUANTITY`](<../13 🤔 Prompts/21 🔄 QUANTITY prompt.md>) | To collect the number input.
 
@@ -130,7 +130,7 @@
     - INFO|{$n}+{$n} equals {Sum($n,$n)}
     ```
 
-    | Command | Purpose
+    | [Command](<10 Command.md>) | Purpose
     |-|-
     | 🔄 [`QUANTITY`](<../13 🤔 Prompts/21 🔄 QUANTITY prompt.md>) | To collect the number input.
 

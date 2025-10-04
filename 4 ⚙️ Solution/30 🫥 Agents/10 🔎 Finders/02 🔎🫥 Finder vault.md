@@ -78,9 +78,9 @@
 
 8. **How do Finders filter and rank the results for users?**
 
-    - **[trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>)**: domains untrusted by the user's Broker are discarded;
-    - **🔥 Threads**: domains blocked by firewalls may be discarded even when trusted;
-    - **🧢 Preferences**: the user's preferences, as shared by the user's Persona;
+    - **[👍 Trust](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>)**: domains untrusted by the user's [Broker 🤵](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) are discarded;
+    - **🔥 Threats**: domains blocked by [Firewalls 🔥](<../../40 👥 Domains/43 👍 Trusts/03 🔥🛠️ Firewall helper.md>) may be discarded even when trusted;
+    - **🧢 Preferences**: the user's preferences, as shared by the user's [Persona 🧢](<../02 🧢 Personas/02 🧢🫥 Persona agent.md>);
     - **📍 Proximity**: the distance to the user, based on the context shared by the Wallet;
     - **⭐ Rank**: the weighted rank of the domain based on feedback of similar users.
 
@@ -88,9 +88,9 @@
     <br/>
 
 
-6. **Why not merge Finders and Graphs?**
+9. **Why not merge Finders and Graphs?**
 
-    Finders leverage conversations with GenAI, requiring them to comply with contextualized Artificial Intelligence (AI) legislation (e.g., the European Union AI Act). 
+    Finders leverage conversations with artificial intelligence, requiring them to comply with contextualized Artificial Intelligence (AI) legislation (e.g., the European Union AI Act). 
     * Conversely, [Graph 🕸 domains](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>) are typically AI-free, allowing to be more generic.
 
 
