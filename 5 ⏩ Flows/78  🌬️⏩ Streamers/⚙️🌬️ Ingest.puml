@@ -7,26 +7,37 @@ box Subscriber #FFFFFF
     participant "Subscriber 🔔\ndomain" as domain
 end box
 
-'activate domain
-    domain -> buffer: 1) Queue 🚀
-    domain --> streamer: 2) Subscribe 🐌 {buffer}
-'deactivate domain  
+group Subscribe
+
+    activate domain
+        domain --> buffer: 1) Queue 🐌
+    deactivate domain
+
+    activate buffer
+        buffer --> domain: 2) Queued 🐌
+    deactivate buffer
+
+    activate domain
+        domain --> streamer: 3) Subscribe 🐌 {buffer, queue}
+    deactivate domain  
+
+end group
 
 group Stream
 
     'activate streamer
-        streamer --> buffer: 3) Push 🐌
+        streamer --> buffer: 4) Push 🐌
     'deactivate streamer
 
     activate buffer
-        buffer --> domain: 4) Wake-up 🐌
+        buffer --> domain: 5) Wake-up 🐌
     deactivate buffer
 
     activate domain
 
         loop more?
-            domain -> buffer: 5) Poll 🚀
-            domain -> buffer: 6) Confirm 🚀
+            domain -> buffer: 6) Poll 🚀
+            domain -> buffer: 7) Confirm 🚀
         end loop
 
 
