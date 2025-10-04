@@ -14,11 +14,13 @@ Header:
     From: any-buffer.com
     To: any-subscriber.com
     Subject: Wake-up@Subscriber
+From:
+    
 ```
 
 |Object|Property|Type|Description
 |-|-|-|-
-|`Header`| `From`| string | [Buffer ⏳ domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>) name
-|| `To`| string | [Subscriber 🔔 domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/04 🔔🎭 Subscriber role.md>) name
+|`Header`| `From`| string | [Buffer ⏳](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>) from [`Queue@Buffer`](<../20 ⏳🅰️ Buffer/12 🔔🐌⏳ Queue.md>)
+|| `To`| string | [Subscriber 🔔](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/04 🔔🎭 Subscriber role.md>) from [`Queue@Buffer`](<../20 ⏳🅰️ Buffer/12 🔔🐌⏳ Queue.md>)
 || `Subject` | string | `Wake-up@Subscriber`
 |

@@ -160,8 +160,8 @@
     | From | Method | Purpose
     |-|-|-
     | 👥 domain |[🐌 Feedback](<../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/01 👥🐌⏳ Feedback.md>) | Feedback on sent messages.
-    | [🔔 Subscriber](<04 🔔🎭 Subscriber role.md>) | [🚀 Queue](<../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/12 🔔🚀⏳ Queue.md>) | Create or change a queue.
-    | [🔔 Subscriber](<04 🔔🎭 Subscriber role.md>) |[🚀 Unqueue](<../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/13 🔔🚀⏳ Unqueue.md>) | Delete a queue.
+    | [🔔 Subscriber](<04 🔔🎭 Subscriber role.md>) | [🚀 Queue](<../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/12 🔔🐌⏳ Queue.md>) | Create or change a queue.
+    | [🔔 Subscriber](<04 🔔🎭 Subscriber role.md>) |[🚀 Unqueue](<../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/13 🔔🐌⏳ Unqueue.md>) | Delete a queue.
     | [🔔 Subscriber](<04 🔔🎭 Subscriber role.md>) |[🚀 Purge](<../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/14 🔔🚀⏳ Purge.md>) | Clean up a queue.
     |[🌬️ Streamer](<02 🌬️🎭 Streamer role.md>)|[🐌 Push](<../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/21 🌬️🐌⏳ Push.md>) | Add a message to a queue.
     | [🔔 Subscriber](<04 🔔🎭 Subscriber role.md>) |[🚀 Poll](<../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/22 🔔🚀⏳ Poll.md>) | Poll messages from a queue.
