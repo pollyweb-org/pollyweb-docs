@@ -9,7 +9,7 @@
 
 > Used in:
 > <br/> • [💼⏩🧑‍🦰 Share Token @ Consumer](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/03 🧑‍🦰👉💼 Share Token.md>)
-> <br/> • [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉💼 Share Bind.md>)
+> <br/> • [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind.md>)
 
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 

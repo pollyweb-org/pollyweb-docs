@@ -1,6 +1,6 @@
 # 🗄️⏩💼 Consume @ Vault
 
-> Used in [💼⏩🧑‍🦰 Query Vault @ Consumer](<../90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉💼 Share Bind.md>) flow.
+> Used in [💼⏩🧑‍🦰 Query Vault @ Consumer](<../90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind.md>) flow.
  
 <br/>
 
