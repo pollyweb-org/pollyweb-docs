@@ -31,22 +31,37 @@ TODO: other scenarios
 
     ```yaml
     💬|[Buy] an item:
-    - INT|What's the item number?
-    - CONFIRM|{confirm}     # Map item number to name.
-    - IF|{min-21}|share-21  # Ask proof of over 21 if needed.
-    - CHARGE|{amount}       # Map item number to price.
-    - TEMP|Delivering...    # Active the mechanical delivery.
-    - IF|{success}|goodbye|fail  # Block until delivered. 
 
-    share-21:
-    - SHARE|nlweb.org/IDENTITY/OVER-21
+    # Ask for the item number
+    - INT|What's the item number? >> number
 
-    goodbye:
+    # Map item number to name.
+    - MAP|Items|{$number} >> item
+    - CONFIRM|A {$item.Name}?     
+
+    # Ask proof of over 21 if needed.
+    - IF|{$item.21+}:
+        Then: SHARE|nlweb.org/IDENTITY/OVER-21
+
+    # Charge the item price.
+    - CHARGE|{$item.Price}     
+
+    # Deliver the item.
+    - TEMP|Delivering...    
+    - RELAY|Machines|{$$locator.key}
+        Command: Open({$item.Number})
+        OnFailure: failure
+        OnSignal: success
+
+    # Show success.
+    success:
     - SUCCESS|Thanks! Pick up your item.
     - GOODBYE
 
+    # Show error.
     fail:
-    - FAILURE|{failure}
+    - FAILURE|It didn't work, sorry!
+    - REFUND|{$item.Price}
     ```
 
     |Functions|Returns|Description
@@ -74,10 +89,10 @@ TODO: other scenarios
 
     | Number | Name          | Price  | 21+
     |--------|---------------|--------|----
-    | 123    | Water bottle  | $1.50  |
-    | 124    | Beer          | $4.50  | Yes
-    | 126    | Sandwich      | $5.00  |
-    | 127    | Chocolate bar | $1.00  |
+    | 123    | water bottle  |  1.50  |
+    | 124    | beer          |  4.50  | Yes
+    | 126    | sandwich      |  5.00  |
+    | 127    | chocolate bar |  1.00  |
     ```
     
     <br/>

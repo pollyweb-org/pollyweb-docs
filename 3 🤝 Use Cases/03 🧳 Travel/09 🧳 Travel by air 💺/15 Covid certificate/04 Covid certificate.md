@@ -16,7 +16,7 @@ In a global scenario,
 
 Used initiate a chat with 🏥 NHS.
 
-| Service   | Prompt | User
+| Service | Prompt | User
 | - | - | - |
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ UK NHS (4.4 ⭐) [+]
 | 🏥 NHS    | 😃 Hi! What do you need? <br/> - [ Emergency ] help  <br> - [ Something ] else | > Something
