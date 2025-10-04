@@ -41,9 +41,20 @@ group Request
 
 end group
 
-vault --> user: 6 ⏪ Prompt 🤔 {confirm?}
-vault --> consumer: 7 ⏪ Consume 🧩
-deactivate vault
+group Assess
+
+    ' Get te context.
+    vault -> consumer: 6) Context 🚀 
+    activate consumer
+    consumer --> vault: {context}
+    deactivate consumer
+
+    ' Ask user to confirm.
+    vault --> user: 7 ⏪ Prompt 🤔 {confirm?}
+end group
+
+vault --> consumer: 8 ⏪ Consume 🧩
+deactivate vault 
 
 
 
