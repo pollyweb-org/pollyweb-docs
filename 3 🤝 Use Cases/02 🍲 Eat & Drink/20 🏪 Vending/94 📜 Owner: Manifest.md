@@ -2,6 +2,9 @@
 
 > From [🏪 Drink at vending machines](<01 🏪 Index.md>)
 
+<!-- 
+TODO: Add the Flow to the manifest.
+-->
 
 ```yaml
 Identity:

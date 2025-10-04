@@ -36,10 +36,3 @@
 
 <br/> 
 
-
-<!-- 
-TODO: other scenarios
-  * 21 🏢 Plan route 🗺️.md
-  * 22 🏢 Load truck 🚚.md
-  * 31 🏪 Stock machine 📦.md
--->
