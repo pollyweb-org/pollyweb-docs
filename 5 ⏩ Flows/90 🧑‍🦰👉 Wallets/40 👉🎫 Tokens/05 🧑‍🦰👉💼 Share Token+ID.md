@@ -42,6 +42,7 @@
         From: any-consumer.com
         To: any-broker.com
         Subject: Invite@Broker
+        
     Body:
         ChatID: <chat-uuid>
         Invitee: any-identity.com
