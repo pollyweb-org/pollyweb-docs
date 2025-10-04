@@ -13,10 +13,23 @@ Example:
 
 1. **What's a MAP item command?**
 
+    A `MAP` 
+    * is a [Command](<10 Command.md>) 
+    * that retrieves an item by key from a resource pool
+    * into a placeholder.
+
     ---
     <br/>
 
-2. **What's the syntax?**
+
+2. **What are use cases?**
+
+    * [Vending machines 🏪](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/01 🏪 Index.md>)
+
+    ---
+    <br/>
+
+3. **What's the syntax?**
 
     ```yaml
     - MAP|<pool>|<key> >> <item>
@@ -31,50 +44,32 @@ Example:
     ---
     <br/>
 
-3. **What does it look in a chat?**
+4. **What does it look in a chat?**
+
+
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | 🍫 Vending | 😃 What's the item number?   | 🔢 123
+    | 🍫 Vending | 😃 A water bottle? [Yes, No]  
+    ||
+
+    ```yaml
+    # 😃 Talker
+    - INT|What's the item number? >> number
+    - MAP|Items|{$number} >> item
+    - CONFIRM|A {$item.Name}?     
+    ```
 
 
     ```yaml
-    💬|[Buy] an item:
-
-    # Ask for the item number
-    - INT|What's the item number? >> number
-
-    # Map item number to name.
-    - MAP|Items|{$number} >> item
-    - CONFIRM|A {$item.Name}?     
-
-    # Ask proof of over 21 if needed.
-    - IF|{$item.21+}:
-        Then: SHARE|nlweb.org/IDENTITY/OVER-21
-
-    # Charge the item price.
-    - CHARGE|{$item.Price}     
-
-    # Deliver the item.
-    - TEMP|Delivering...    
-    - RELAY|Machines|{$$locator.key}
-        Command: Open({$item.Number})
-        OnFailure: failure
-        OnSignal: success
-
-    # Show success.
-    success:
-    - SUCCESS|Thanks! Pick up your item.
-    - GOODBYE
-
-    # Show error.
-    fail:
-    - FAILURE|It didn't work, sorry!
-    - REFUND|{$item.Price}
+    # 🪣 Items
+    | Number | Name          | Price  | 21+
+    |--------|---------------|--------|----
+    | 123    | water bottle  |  1.50  |
+    | 124    | beer          |  4.50  | Yes
     ```
+    
 
     ---
     <br/>
    
-4. **What are example use cases?**
-
-    * [Vending machines 🏪](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/01 🏪 Index.md>)
-
-    ---
-    <br/>
