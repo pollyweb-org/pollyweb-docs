@@ -7,7 +7,7 @@
 
 ## Flow diagram
 
-![alt text](<.📎 Assets/⚙️ Query Token+ID.png>)
+![alt text](<.📎 Assets/⚙️ Share Token+ID.png>)
 
 |#| Step | Purpose
 |-|-|-
