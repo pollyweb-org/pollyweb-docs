@@ -7,7 +7,7 @@
 
 1. **What's an IF flow?**
 
-    An `IF` 
+    An `IF` ⤵️
     * is a flow [Command ⌘](<10 ⌘ Command.md>)  
     * that runs a [Procedure ⚙️](<11 ⚙️ Procedure.md>) or [Command ⌘](<10 ⌘ Command.md>) 
     * based on the evaluation of a placeholder or [{Function}](<12 🐍 {Function}.md>).

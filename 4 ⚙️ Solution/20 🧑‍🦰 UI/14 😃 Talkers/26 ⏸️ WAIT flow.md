@@ -8,7 +8,7 @@
 
 1. **What's a WAIT flow command?**
 
-    A `WAIT` 
+    A `WAIT` ⏸️
     * is a flow [Command ⌘](<10 ⌘ Command.md>) 
     * that pauses the flow for a period of time 
     * or until triggered by an external signal.

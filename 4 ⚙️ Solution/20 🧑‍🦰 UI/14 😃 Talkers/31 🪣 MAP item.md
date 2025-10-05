@@ -1,9 +1,3 @@
-<!--
-Example:
-* [text](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/01 🏪 Index.md>)
--->
-
-
 # 🪣 Talker `MAP` command
 
 > Part of [Talker 😃](<01 😃 Talker.md>)
@@ -13,7 +7,7 @@ Example:
 
 1. **What's a MAP item command?**
 
-    A `MAP` 
+    A `MAP` 🪣
     * is a [Command ⌘](<10 ⌘ Command.md>) 
     * that retrieves an item by key from a resource pool
     * into a placeholder.
@@ -78,7 +72,7 @@ Example:
 5. **What does it look in a Chat?**
 
 
-    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 🍫 Vending | 😃 What's the item number?   | 🔢 123
     | 🍫 Vending | 😃 A water bottle? [Yes, No]  
@@ -86,8 +80,8 @@ Example:
 
     ```yaml
     # 😃 Talker
-    - INT|What's the item number? >> $number
-    - MAP|Items|{$number} >> $item
+    - INT|What's the item number? >> $n
+    - MAP|Items|{$n} >> $item
     - CONFIRM|A {$item.Name}?     
     ```
 

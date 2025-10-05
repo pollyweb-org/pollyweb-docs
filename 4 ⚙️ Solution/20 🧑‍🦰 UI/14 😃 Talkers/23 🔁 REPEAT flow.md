@@ -7,7 +7,7 @@
 
 1. **What's a REPEAT flow?**
 
-    A `REPEAT` 
+    A `REPEAT` 🔁
     * is a flow [Command ⌘](<10 ⌘ Command.md>) 
     * that repeats it's enclosing [Procedure ⚙️](<11 ⚙️ Procedure.md>) 
     * either always or only when confirmed.

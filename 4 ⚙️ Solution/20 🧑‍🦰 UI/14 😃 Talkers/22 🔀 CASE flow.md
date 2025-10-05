@@ -7,7 +7,7 @@
 
 1. **What's a CASE flow?**
 
-    A `CASE` 
+    A `CASE` 🔀
     * is a flow [Command ⌘](<10 ⌘ Command.md>)  
     * that runs a matching [Procedure ⚙️](<11 ⚙️ Procedure.md>) or [Command ⌘](<10 ⌘ Command.md>) 
     * based on the evaluation of a [{Function}](<12 🐍 {Function}.md>).
