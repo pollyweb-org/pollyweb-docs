@@ -81,12 +81,17 @@
 
 # Confirm the booking
 - CONFIRM|Confirm booking?
-- EVAL|{Confirm} >> $token
+- COMMIT # Don't allow further RESETs
+- EVAL|{Confirm} >> $o
+    Restaurant: $r
     Booking: $b
     Contacts: $c
     Preferences: $p
-- CHECKPOINT
-- ISSUE|nlweb.org/HOST/BOOKING/SELF|{$token}
+- IF|o$.NotBooked:
+    Exit: FAILURE|An error occurred
+
+# Issue token
+- ISSUE|nlweb.org/HOST/BOOKING/SELF|{$o.token}
 - SUCCESS|Done. See you then!
 - GOODBYE
 ```
