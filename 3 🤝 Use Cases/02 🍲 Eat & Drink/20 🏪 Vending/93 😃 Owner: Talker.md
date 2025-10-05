@@ -37,7 +37,7 @@ TODO: Add the flow to the Manifest
 - TEMP|Delivering...   
 
 # Find the MachineKey from the Chat Locator
-- MAP|Locators|{.ChatKey} >> locator
+- MAP|Locators|{.Chat.Key} >> locator
 
 # Relay the Open command to the vending machine.
 - RELAY|Machines|{$locator.MachineKey} >> relayed
@@ -50,7 +50,7 @@ fail:
 - FAILURE|It didn't work!   # Inform the user
 - REFUND|{$item.Price}      # Refund the value
 - LOG:
-    Machine: .ChatKey
+    Machine: {.Chat.Key}
     Item: $item.Number
     Relay: $relayed
 
@@ -59,7 +59,7 @@ Success:
 - SUCCESS|Pick up the item. # Inform the user
 - GOODBYE                   # Show review, ads
 - EVAL >> sold:             # Create the sell
-    Machine: .ChatKey
+    Machine: {.Chat.Key}
     Item: $item.Number
 - EVAL|{Deduct($sold)}      # Deduct the stock
 ```
@@ -81,7 +81,7 @@ Success:
 
 [Functions](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/12 🐍 {Function}.md>)| Type | Purpose
 |-|-|-
-| `.ChatKey` | Built-in | Get machine's [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) key.
+| [`.Chat.Key`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/13 💬 {.Chat} function.md>) | Built-in | Get machine's [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) key.
 | `Deduct` | Custom | Deduct the stock from the ERP.
 |
 
@@ -100,10 +100,10 @@ Success:
 |Flow| ⤵️ [`IF`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/21 ⤵️ IF flow.md>)
 ||⬇️ [`EVAL`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/20 ⬇️ EVAL flow.md>)
 ||🪵 [`LOG`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/15 🪵 LOG flow.md>)
-|Message| 💼 [`SHARE`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/46 💼 SHARE msg.md>) | Ask for proof of over 21
-|| 💳 [`CHARGE`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/43 💳 CHARGE msg.md>) | Charge the item price
-|| 🏦 [`REFUND`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/44 🏦 REFUND.md>) | Refund the payment on failure
-|| 👋 [`GOODBYE`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/47 👋 GOODBYE.md>) | Show ads on success
+|Message| 💼 [`SHARE`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/45 💼 SHARE msg.md>) | Ask for proof of over 21
+|| 💳 [`CHARGE`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/47 💳 CHARGE msg.md>) | Charge the item price
+|| 🏦 [`REFUND`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/48 🏦 REFUND.md>) | Refund the payment on failure
+|| 👋 [`GOODBYE`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/50 👋 GOODBYE.md>) | Show ads on success
 || 🛰️ [`RELAY`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/51 🛰️ RELAY msg.md>) | Relay messages to vending machines
 |
 

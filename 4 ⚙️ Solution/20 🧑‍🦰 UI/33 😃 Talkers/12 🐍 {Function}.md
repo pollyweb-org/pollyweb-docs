@@ -248,7 +248,7 @@
     | `.RandomInt` | Random integer | `{.RandomInt(1,9)}` → `7`
     | `.InRange` | Checks intervals | `{.InRange(5,1,10)}` → `True`
     | `.Time` | Current time | `{.Time}` → `10:30:00Z`
-    | `.ChatKey`| [Locator 🔆](<../11 🔆 Locators/01 🔆 Locator.md>) Key | `{.ChatKey}` → `ANY-KEY`
+    | [`.Chat.Key`](<13 💬 {.Chat} function.md>)| [Locator 🔆](<../11 🔆 Locators/01 🔆 Locator.md>) Key | `{.Chat.Key}` → `ANY-KEY`
     
 
 
