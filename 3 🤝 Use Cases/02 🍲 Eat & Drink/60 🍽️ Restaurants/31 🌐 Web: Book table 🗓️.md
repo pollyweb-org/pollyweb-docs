@@ -31,19 +31,53 @@
 
 ```yaml
 💬|Reserve a table:
-- INFO|{restaurant-from-locator}
+
+# Show the restaurant name
+- MAP|Restaurant|{.ChatKey} >> $r
+- INFO|{$r.Name}
+
+# Confirmations
 - CONFIRM|Hi! Book a table?
-- IF|{has-resource}|inform-restaurant-name  # ℹ️ The Guild, Soho
-- ONE|Which date?|{booking-dates}
-- ONE|What time?|{booking-times}
-- QUANTITY|How many people?
-- SHARE|nlweb.org/PERSONA/BOOKING|Let us reach out to you if there is any problem.
-- CONFIRM|{summary}
-- CHARGE|1.00|USD|Reservation charge
-- ISSUE|nlweb.org/HOST/BOOKING/SELF|{bookingUUID}
-- GOODBYE|{booked}
+- CONFIRM|At {$r.Name}?
 
-inform-resource:
-- INFO|{inform-restaurant-name} # ℹ️ The Guild, Soho
+# Inputs
+- FORM|Book
+- SHARE|nlweb.org/SCHEDULER/BOOK >> $b
+    Context: 
+        About: {/info/{$r.ID}.md} # Get the file.
+        Slots: {Slots($r.ID)}     # From the ERP.
 
+# Booking summary
+- EVAL >> $s: |
+    Booking summary: 
+    - table for {$b.Party}
+    - {$r.Date}, {$.Time}
+    - at {$r.Name}, {$r.PostCode}
+- INFO|{$s}|Change≈$b
+
+# Get Contacts
+- SHARE|nlweb.org/PERSONA/BOOKING >> $c
+- EVAL >> $s |
+    Received contacts: 
+    - name: {$c.Name}
+    - pronouns: {$c.Pronouns}
+    - phones: {$c.Phones}
+    - emails: {$c.Emails}
+- INFO{$s}|Change≈$c
+
+# Get preferences
+- SHARE|nlweb.org/PERSONA/SEAT/PREFERENCES >> $p
+- EVAL >> $s |
+    Received preferences: 
+    {$p.Preferences}
+- INFO:{$s}|Change≈$p
+
+# Confirm the booking
+- EVAL|{Confirm} >> $token
+    Booking: $b
+    Contacts: $c
+    Preferences: $p
+- ISSUE|nlweb.org/HOST/BOOKING/SELF|{$token}
+- SUCCESS|Done. See you then!
+- GOODBYE
 ```

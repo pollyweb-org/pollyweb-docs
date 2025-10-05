@@ -30,7 +30,7 @@
 3. **What's the OFFER syntax?**
 
     ```yaml
-    OFFER|{function} >> <accepted>
+    OFFER|{function} >> $accepted
     ```
 
    
@@ -48,7 +48,7 @@
    # 😃 Talker 
    💬 Offer:
    - INFO|Issuing your token...
-   - OFFER|{GetTokenID} >> accepted
+   - OFFER|{GetTokenID} >> $accepted
    - IF|{$accepted}:
        Then: SUCCESS|Saved to your wallet.
        Else: FAILURE|You rejected the token.

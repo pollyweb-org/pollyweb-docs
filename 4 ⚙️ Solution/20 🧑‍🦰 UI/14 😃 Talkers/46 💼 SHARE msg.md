@@ -21,21 +21,20 @@
 3. **What's the SHARE syntax?**
 
     ```yaml
-    # Inline, single code
-    SHARE|<code> >> <shared>
-
-    # Multi-line, multiple codes
-    SHARE >> <shared>:
+    SHARE|<code> >> $shared
         Codes:
-        - <code-1>
-        - <code-n>
+            - <code-1>
+            - <code-n>
+        Context:
+            {context}
     ```
 
    
     | Argument| Purpose
     |-|-
-    | `<code-n>`  | List of [Schema Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) for [Query @ Broker 🐌](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>)
-    | `<shared>`| An object returned by Collect@Vault.<br/> Or a Token list from Receive@Consumer.
+    | `<code-n>`  | [Schema Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) for [`Query@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>)
+    | `{context}`| Object with context, when applicable.
+    | `$shared`| An object returned by [`Collect@Vault`](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>).<br/> Or a Token list from [`Receive@Consumer`](<../../../6 🅰️ APIs/30 💼🅰️ Consumer/03 🧑‍🦰🐌💼 Receive.md>).
 
 
     ---
@@ -53,10 +52,8 @@
     ```yaml
     # 😃 Talker
     INFO|Tell me your name.
-    SHARE|nlweb.org/PERSONA/NAME/SOCIAL >> social
-    IF|{$social}:
-      Then: SUCCESS|Hi, {$social.Name}!
-      Else: FAILURE|No name shared.
+    SHARE|nlweb.org/PERSONA/NAME/SOCIAL >> $social
+    SUCCESS|Hi, {$social.Name}!
     ```
 
     | [Command ⌘](<10 ⌘ Command.md>) | Purpose

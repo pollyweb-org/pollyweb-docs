@@ -62,12 +62,17 @@
 3. **What's syntax for files?**
 
     ```yaml
+    # Static paths
     {/path/to/file} 
+
+    # Dynamic paths
+    {{function}}
     ```
 
     | Argument| Purpose
     |-|-
-    | `/path/to/file` | The location in the [Hoster 🧑‍💻](<../12 💬 Chats/05 🧑‍💻🛠️ Hoster helper.md>) file system.
+    | `/path/to/file` | Path to a file in the [Hoster 🧑‍💻](<../12 💬 Chats/05 🧑‍💻🛠️ Hoster helper.md>) folders.
+    | `{function}` | Function that evaluates to a path.
 
     ---
     <br/>
