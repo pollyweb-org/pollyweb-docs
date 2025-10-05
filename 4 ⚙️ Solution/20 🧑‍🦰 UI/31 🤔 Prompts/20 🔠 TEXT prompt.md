@@ -25,7 +25,7 @@
 
 1. **What's an example of a TEXT prompt?**
 
-    Consider the following [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>).
+    Consider the following [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
     TEXT|How are you today? >> msg

@@ -16,7 +16,7 @@
 2. **What's an example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
 
 
-    Consider the following [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>).
+    Consider the following [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
     TIME|What time? >> my-variable
@@ -49,7 +49,7 @@
 
     <br/>
 
-    The associated [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>) would be the following.
+    The associated [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) would be the following.
 
     ```yaml
     💬 Schedule for tomorrow:
@@ -75,7 +75,7 @@
     <br/>
     
 
-4. **What's the format of a [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>)?**
+4. **What's the format of a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
     TIME|<message> >> <key>:

@@ -17,7 +17,7 @@
 
 2. **What's an example?**
 
-    Consider the following [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>).
+    Consider the following [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
     QUANTITY|How many? >> my-variable
@@ -48,7 +48,7 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ⏳ Checking availability... 
     |
 
-    The corresponding [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>) would be the following.
+    The corresponding [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) would be the following.
 
     ```yaml
     💬 Walk-in:
@@ -66,7 +66,7 @@
     ---
     <br/>
 
-3. **What's the format of a [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>)?**
+3. **What's the format of a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
     QUANTITY|<message> >> <key>:
