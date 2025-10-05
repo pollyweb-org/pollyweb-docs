@@ -71,9 +71,9 @@
     # 😃 Talker 
 
     💬 Example:
-    - QUANTITY|Give me a number. >> n1
+    - QUANTITY|Give me a number. >> $n1
     - RUN|ShowNumber|{$n1}
-    - QUANTITY|Give me another. >> n2
+    - QUANTITY|Give me another. >> $n2
     - RUN|ShowNumber|{$n2}
     - SUCCESS|Example finished.
 

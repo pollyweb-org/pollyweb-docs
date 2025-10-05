@@ -140,7 +140,7 @@
     def talkerHandler(args):
       match args['Function']:
         case 'Sum':
-          return sum(args['Parameters'])
+          return sum(args['Inputs'])
     ```
 
     ---
@@ -165,7 +165,8 @@
     | Component | Details | Example
     |-|-|-
     |`function`  | Function name  | `f` in `{f(1,2,3)}`
-    |`parameters`| Parameter list | • `[]` in `{f}` (no parameters) <br/> • `[1,2,3]` in `{f(1,2,3)}`
+    |`inputs`| Parameter list | • `[]` in `{f}` (no parameters) <br/> • `[1,2,3]` in `{f(1,2,3)}`
+    |`input`| The first parameter | `{a:1,b:2}` <br/> in `{f({a:1,b:2})}`
 
     ---
     <br/>
@@ -176,7 +177,7 @@
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You sent:<br/>- Function: MyFunction <br>- Parameters: [1, 2, 3]
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You sent:<br/>- Function: MyFunction <br>- Inputs: [1, 2, 3] <br/>- Input: 1
     
 
     ```yaml
@@ -191,7 +192,8 @@
       return "\n".join([
         f"You sent:",
         f"- Function: {args['Function']}",
-        f"- Parameters: {args['Parameters']}"
+        f"- Inputs: {args['Inputs']}"
+        f"- Input: {args['Input']}"
       ])
     ```
 
@@ -219,13 +221,13 @@
 5. **What's the syntax for built-in helper functions?**
 
     ```yaml
-    {.helper[(params)]}
+    {.helper(params)}
     ```
 
     | Argument| Purpose
     |-|-
     | `.helper`  | Name of the built-in helper function.
-    | `params`  | Comma-separated parameters.
+    | `params`  | Optional comma-separated parameters.
 
     ---
     <br/>

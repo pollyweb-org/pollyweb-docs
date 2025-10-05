@@ -32,14 +32,14 @@ Example:
 3. **What's the syntax?**
 
     ```yaml
-    - MAP|<pool>|<key> >> <item>
+    - MAP|<pool>|<key> >> $item
     ```
 
     | Argument| Purpose
     |-|-
     | `<pool>` | Name of resource pool.
     | `<key>`  | Key to look up in the pool.
-    | `<item>` | Item to retrieve.
+    | `$item` | Item to retrieve.
 
     ---
     <br/>
@@ -68,7 +68,7 @@ Example:
 
     ```yaml
     # 😃 Talker 
-    - MAP|MyPool|Key2 >> myItem
+    - MAP|MyPool|Key2 >> $myItem
     - INFO|{$myItem.PropA} 
     ```
 
@@ -86,8 +86,8 @@ Example:
 
     ```yaml
     # 😃 Talker
-    - INT|What's the item number? >> number
-    - MAP|Items|{$number} >> item
+    - INT|What's the item number? >> $number
+    - MAP|Items|{$number} >> $item
     - CONFIRM|A {$item.Name}?     
     ```
 
