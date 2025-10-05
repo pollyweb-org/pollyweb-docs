@@ -20,7 +20,7 @@
     ---
     <br/>
 
-2. **What are examples of Suppliers?**
+1. **What are examples of Suppliers?**
 
     * [Printer 🖨️ suppliers](<../../70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>) accept orders to print NFC/QR [Locators 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>), ship them to a destination, and manage the lifecycle of these Locators.
 
@@ -31,7 +31,7 @@
     ---
     <br/>
 
-3. **What are examples of order requesters?**
+1. **What are examples of order requesters?**
 
     * When users have tasks to complete, [Concierge 🛎️ domains](<01 🛎️🫥 Concierge agent.md>) send order requests to [Supplier 🏭 domains](<02 🏭🎭 Supplier role.md>) for them to perform steps in those tasks.
 
@@ -45,28 +45,28 @@
     ---
     <br/>
 
-5. **Are order rejections synchronous?**
+1. **Are order rejections synchronous?**
 
     No. Adding an order to a [Supplier 🏭 domain](<02 🏭🎭 Supplier role.md>) doesn't return a synchronous response.
 
     ---
     <br/>
 
-6. **Can Suppliers answer natural language questions?**
+1. **Can Suppliers answer natural language questions?**
 
     Yes, if that is supported by their API.
 
     ---
     <br/>
 
-7. **Can Suppliers use other Suppliers for sub tasks?**
+1. **Can Suppliers use other Suppliers for sub tasks?**
 
     Yes, [Supplier 🏭 domains](<02 🏭🎭 Supplier role.md>) can use other sub-Suppliers if they want to - there's no restriction to do so.
 
     ---
     <br/>
 
-8. **Can requesters know about the details of sub-Suppliers?**
+1. **Can requesters know about the details of sub-Suppliers?**
 
     No. Requesters send order requests to [Supplier 🏭 domains](<02 🏭🎭 Supplier role.md>) but don't know which sub-Suppliers they speak with.
 

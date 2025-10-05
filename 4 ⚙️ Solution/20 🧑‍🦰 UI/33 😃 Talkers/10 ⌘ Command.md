@@ -14,7 +14,7 @@
     <br/>
 
 
-5. **What are Prompt commands?**
+1. **What are Prompt commands?**
 
     These are Commands that execute [Prompts 🤔](<../31 🤔 Prompts/01 🤔 Prompt.md>).
 
@@ -30,7 +30,7 @@
     ---
     <br/>
   
-6. **What are the Status prompt commands?**
+1. **What are the Status prompt commands?**
 
     Command | Purpose
     |-|-
@@ -42,7 +42,7 @@
     ---
     <br/>
 
-7. **What are the Input prompt commands?**
+1. **What are the Input prompt commands?**
     
     |Command |  Example | Purpose
     |-|-|-
@@ -68,7 +68,7 @@
     ---
     <br/>
 
-8. **What are Message commands?**
+1. **What are Message commands?**
 
     |Command|Purpose
     |-|-
@@ -101,7 +101,7 @@
     <br/>
 
 
-9. **What are Flow commands?**
+1. **What are Flow commands?**
 
     > Flow commands allow the creation of complex workflows.
 

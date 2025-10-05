@@ -11,7 +11,7 @@
     ---
     <br/>
 
-2. **What's the syntax of a Procedure?**
+1. **What's the syntax of a Procedure?**
    
     ```yaml
     <procedure>:
@@ -34,7 +34,7 @@
     <br/>
 
 
-2. **How to invoke a Procedure?**
+1. **How to invoke a Procedure?**
 
     |Context|Syntax
     |-|-
@@ -46,7 +46,7 @@
     ---
     <br/>
 
-3. **What's the syntax of a Procedure name?**
+1. **What's the syntax of a Procedure name?**
 
     No emojis nor special characters except dashes `-`, underscores `_`, and spaces ` `.
     * Emojis and special characters are reserved for current and future use.

@@ -41,7 +41,7 @@
     ---
     <br/>
 
-2. **What agents implement text?**
+1. **What agents implement text?**
    
     |Agent| Purpose
     |-|-
@@ -52,7 +52,7 @@
 
     ---
     <br/>
-3. **What are business cases?**
+1. **What are business cases?**
 
     |Category|Use case
     |-|-
@@ -67,7 +67,7 @@
 
 
 
-3. **What's the response in the [Prompted@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**
+1. **What's the response in the [Prompted@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**
 
     ```yaml
     Format: FAILURE

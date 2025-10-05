@@ -50,7 +50,7 @@
     ---
     <br/>
 
-2. **What incentives do Hosts have to close sessions?**
+1. **What incentives do Hosts have to close sessions?**
 
     [Advertising 👀](<../../../2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape/00 👀 Advertising index.md>) is triggered at the end of a [Chat 💬](<01 💬 Chat.md>) for next-best actions.
     - Thus, [Host 🤗 domains](<04 🤗🎭 Host role.md>) willing to monetize via cross-domain advertising are incentivized to close [Chats 💬](<01 💬 Chat.md>). 
@@ -59,7 +59,7 @@
     ---
     <br/>
 
-3. **Do Hosts send messages to users via web sockets?**
+1. **Do Hosts send messages to users via web sockets?**
 
     No. 
     - [Host 🤗 domains](<04 🤗🎭 Host role.md>) send [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) via HTTPS POST to a proxy [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) that then communicate with the user's [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) with real-time protocols (e.g., web sockets, MQTT). 
@@ -81,7 +81,7 @@
     <br/>
 
 
-6. **Are chat prompt messages encrypted from Hosts to Wallets?**
+1. **Are chat prompt messages encrypted from Hosts to Wallets?**
 
     Not applicable - [Host 🤗 domains](<04 🤗🎭 Host role.md>) don't send [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) to [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>). 
 
@@ -94,7 +94,7 @@
     ---
     <br/>
 
-2. **Are chat reply messages encrypted from Wallets to Hosts?**
+1. **Are chat reply messages encrypted from Wallets to Hosts?**
 
     Yes. 
 

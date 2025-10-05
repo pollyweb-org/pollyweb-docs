@@ -11,7 +11,7 @@
     ---
     <br/>
 
-2. **What non-blocking prompts exist?**
+1. **What non-blocking prompts exist?**
    
     || Format | Description
     |-|-|-
@@ -23,7 +23,7 @@
     ---
     <br/>
 
-3. **How do non-blocking options work?**
+1. **How do non-blocking options work?**
    
     Non-blocking prompts support [ONE 1️⃣ prompt](<25 1️⃣ ONE prompt.md>) options.
     - If it contains options, then the user may click an option any time before or after the [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) sends other subsequent [Prompts 🤔](<01 🤔 Prompt.md>).

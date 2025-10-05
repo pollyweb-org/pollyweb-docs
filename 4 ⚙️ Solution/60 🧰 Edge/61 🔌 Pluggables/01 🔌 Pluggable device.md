@@ -9,7 +9,7 @@
     ---
 
 
-5. **How do users install a Pluggable?**
+1. **How do users install a Pluggable?**
 
     ![](<.📎 Assets/🔌 Pluggable.png>)
 
@@ -25,7 +25,7 @@
     ---
 
 
-6. **What are examples of Pluggable devices?**
+1. **What are examples of Pluggable devices?**
 
     | Pluggable 🛠️ | Responsibility 
     |-|-
@@ -37,14 +37,14 @@
 
     ---
 
-7. **Do Pluggable devices connect to Wi-Fi?**
+1. **Do Pluggable devices connect to Wi-Fi?**
 
     No.
     * Instead, Pluggables 🛠️ connect to an [Antenna 📡 router device](<02 📡🔀 Antenna router.md>), which in turn connects to the Internet.
 
     ---
 
-8. **Do Pluggables devices follow a standard communication protocol?**
+1. **Do Pluggables devices follow a standard communication protocol?**
 
     No. 
     - [Brand 🍏 domain](<../../70 🌳 Ambient/71 💠 Brand Things/07 🍏🎭 Brand role.md>) specify a Pluggable 🛠️ API via when printing the [Pluggable's Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>), which includes the [API's Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>).
@@ -52,7 +52,7 @@
 
     ---
 
-9. **Do Pluggables support bidirectional communication?**
+1. **Do Pluggables support bidirectional communication?**
 
     Yes.
     - Bidirectional communication is done via the [Antenna 📡 router device](<02 📡🔀 Antenna router.md>).
@@ -62,7 +62,7 @@
     ---
 
 
-5. **How do domains receive events from Pluggables?**
+1. **How do domains receive events from Pluggables?**
 
     Regarding events, domains receive a payload similar to a command request.
 

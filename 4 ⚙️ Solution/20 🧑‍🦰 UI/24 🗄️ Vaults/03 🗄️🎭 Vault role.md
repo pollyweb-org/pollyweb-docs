@@ -11,7 +11,7 @@
     ---
     <br/>
 
-2. **What are examples of Vault domains?**
+1. **What are examples of Vault domains?**
 
     |Example|Details
     |-|-
@@ -35,7 +35,7 @@
     ---
     <br/>
 
-2. **Can users ask Vaults to share data with other Hosts?**
+1. **Can users ask Vaults to share data with other Hosts?**
 
     Yes. 
     - Upon a share request with the [Consumer 💼 host](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>), users can authorize their [Vault 🗄️ domains](<03 🗄️🎭 Vault role.md>) to disclose a data set with that [Consumer 💼 domain](<../27 💼 Consumers/04 💼🎭 Consumer role.md>). 
@@ -44,7 +44,7 @@
     ---
     <br/>
 
-3. **Can users ask Vaults to download data to the device?**
+1. **Can users ask Vaults to download data to the device?**
 
     No. 
     * That is covered by the [Issuer 🎴 domain](<../25 🎫 Tokens/02 🎴🎭 Issuer role.md>) role. 
@@ -59,7 +59,7 @@
     ---
     <br/>
 
-5. **Do users have private vaults, like the Solid Project?**
+1. **Do users have private vaults, like the Solid Project?**
 
     No. 
     * Unlike the [Solid Project 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/05 📺 Berners-Lee vaults.md>), by Sir Tim Berners-Lee, NLWeb users don't have a private repository (a.k.a. [Vault 🗄️](<03 🗄️🎭 Vault role.md>)) for all their data, so they don't effectively own their data. 
@@ -74,7 +74,7 @@
     ---
     <br/>
 
-6. **Why can't users control their Vaults, like in the Solid project?**
+1. **Why can't users control their Vaults, like in the Solid project?**
 
     Let's take Google Mail as an example:
     - users open and close their accounts;
@@ -111,7 +111,7 @@
     ---
     <br/>
 
-7. **How about a central place for user preferences?**
+1. **How about a central place for user preferences?**
 
     Exceptionally, NLWeb advocates for the use of [Persona 🧢 vault](<../../30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) aimed for preference-based personalization 
     - e.g., nicknames, seat preferences, film genres;
@@ -121,7 +121,7 @@
     <br/>
 
 
-10. **What if the user only wants to have one Vault?**
+1. **What if the user only wants to have one Vault?**
 
     A single [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) can, in theory, implement all existing [Schema Codes 🧩](<02 🧩 Schema Code.md>) and establish [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) relationships with all existing [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).
 
@@ -132,7 +132,7 @@
     ---
     <br/>
 
-11. **How is data residency solved by vaults?**
+1. **How is data residency solved by vaults?**
 
     Where nations require their citizens' data to be stored within nation's borders, [Vault 🗄️ domains](<03 🗄️🎭 Vault role.md>) can leverage the user's [Storage 📦 vault](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>) to store their data. 
     
@@ -146,7 +146,7 @@
     <br/>
 
 
-11. **How are users protected from tracking by Vault consortiums?**
+1. **How are users protected from tracking by Vault consortiums?**
 
     User tracking is typically done by a consortium of domains crossing information about a user's interaction with each one of them, allowing them to reconstruct the user's journey. 
     
@@ -155,7 +155,7 @@
     ---
     <br/>
 
-12. **How are users protected from stalking from vaults?**
+1. **How are users protected from stalking from vaults?**
 
     [Vault 🗄️ domains](<03 🗄️🎭 Vault role.md>) are [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) that store user data. 
     
@@ -166,7 +166,7 @@
     ---
     <br/>
 
-13. **How do Vaults protect user data from Consumers?**
+1. **How do Vaults protect user data from Consumers?**
 
     [Consumer 💼 domains](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) can't request user data directly to [Vault 🗄️ domains](<03 🗄️🎭 Vault role.md>). 
     
@@ -181,7 +181,7 @@
     ---
     <br/>
     
-14. **How can users do selective disclosure?**
+1. **How can users do selective disclosure?**
 
     [Selective disclosure 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/07 📺 SSI selective disclosure.md>) (i.e., the ability for a user to select which fields to disclose from a given schema code) is not allowed by design on NLWeb. 
     

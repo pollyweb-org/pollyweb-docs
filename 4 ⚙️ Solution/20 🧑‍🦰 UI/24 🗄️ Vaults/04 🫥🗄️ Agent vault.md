@@ -18,7 +18,7 @@
     <br/>
 
 
-2. **What are examples of Agent roles?**
+1. **What are examples of Agent roles?**
 
     | |Agent 🫥 | Example | Responsibilities 
     |-|-|-|-
@@ -42,7 +42,7 @@
     <br/>
 
 
-2. **Are Agents singletons?**
+1. **Are Agents singletons?**
 
     Yes and no.
 

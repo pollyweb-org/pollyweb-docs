@@ -24,7 +24,7 @@
     ---
     <br/>
 
-2. **What domain Helpers do Hosters typically leverage?**
+1. **What domain Helpers do Hosters typically leverage?**
 
     | [Helper 🛠️](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>)  | Purpose 
     |-|-
@@ -50,7 +50,7 @@
     <br/>
 
 
-5. **What does the Wallet Chat looks like?**
+1. **What does the Wallet Chat looks like?**
 
     | Service | Prompt  | User 
     | - | - | - 
@@ -63,7 +63,7 @@
     ---
     <br/>
 
-6. **What commands are supported on the terminal CLI?**
+1. **What commands are supported on the terminal CLI?**
 
     The terminal Command Line Interface (CLI) supports the following commands.
 
@@ -77,7 +77,7 @@
     ---
     <br/>
 
-7. **What does a terminal CLI interaction looks like?**
+1. **What does a terminal CLI interaction looks like?**
 
     |🧑‍💻 Command | 🖥️ Display |  Workstation
     |-|-|-
@@ -98,7 +98,7 @@
 
 
 
-5. **What happens when the Wallet scans the QR?**
+1. **What happens when the Wallet scans the QR?**
 
     | Service | Prompt  | User 
     | - | - | - 

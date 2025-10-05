@@ -10,7 +10,7 @@
     ---
 
 
-2. **Why not using wallets for editing CRUD datasets?**
+1. **Why not using wallets for editing CRUD datasets?**
 
     While possible, the small screens of wallets don't provide a good experience to write big text properties (editors) nor dataset items with many properties.
 
@@ -26,7 +26,7 @@
 
 
 
-5. **How can users start using a folder editor?**
+1. **How can users start using a folder editor?**
 
     On the Folder editor's desktop app, users scan the editor's [Locator 🔆](<../11 🔆 Locators/01 🔆 Locator.md>) with their [Wallets 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) - the interaction is described in [Edit in folder 🗂️💬](<03 🗂️💬 Edit in folder.md>).
 
@@ -37,7 +37,7 @@
 
 
 
-6. **How can users add a vault to the editor?**
+1. **How can users add a vault to the editor?**
 
     When clicking the "Add Vault" button in the desktop app, the Folder 🗂️ editor initiates a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) with the user's [Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) - the interaction described in [Bind to folder 🗂️💬](<02 🗂️💬 Bind to folder.md>).
 
@@ -46,7 +46,7 @@
     ---
 
 
-7. **How can users edit a vault's dataset?**
+1. **How can users edit a vault's dataset?**
 
     On the editor. 
     - Users list the connected [Vaults 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>), then select the intended dataset from the vault. 
@@ -57,19 +57,19 @@
     ---
 
 
-7. **How do editors render and verify the rules of dataset item?**
+1. **How do editors render and verify the rules of dataset item?**
 
     [Vaults 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) share the list of the user datasets on their CRUD API, as well as the [Schema 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) of each dataset. 
 
     ---
 
-8. **Is there data corruption if editors don't comply dataset rules?**
+1. **Is there data corruption if editors don't comply dataset rules?**
 
     No. [Vaults 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) re-check the [Schema 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) rules on their side when receiving write requests.
 
     ---
 
-9. **How are complex rules shared with editors?**
+1. **How are complex rules shared with editors?**
 
     They are not. 
 
@@ -79,7 +79,7 @@
 
     ---
 
-10. **Can datasets have list properties referencing other datasets?**
+1. **Can datasets have list properties referencing other datasets?**
 
     Yes. Options are:
     - Another dataset on the same [Vault 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>).
@@ -88,14 +88,14 @@
 
     ---
 
-11. **Is the user's data stored on the editor?**
+1. **Is the user's data stored on the editor?**
 
     No. 
     - Folders 🗂️ only store a references to [Wallets 🔗](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and [Binds 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>).
 
     ---
 
-12. **How are concurrency conflicts resolved?**
+1. **How are concurrency conflicts resolved?**
 
     To prevent a Folder 🗂️ from override a change done by another Folder 🗂️ to the same document between the read and the write, Folders 🗂️ use optimistic concurrency.
     

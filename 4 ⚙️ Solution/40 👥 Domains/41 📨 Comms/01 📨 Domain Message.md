@@ -17,7 +17,7 @@
     ---
     <br/>
 
-2. **What does a domain message look like?**
+1. **What does a domain message look like?**
 
     Messages from [domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) are sent in JSON envelopes similar to email messages. 
     
@@ -44,7 +44,7 @@
     ---
     <br/>
 
-2. **What is contained in a domain message envelope?**
+1. **What is contained in a domain message envelope?**
 
     The following properties are a summary of the schema at [`nlweb.org/MSG 🧩`](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MSG/🧩 Mgs.md>).
 
@@ -65,7 +65,7 @@
     <br/>
 
 
-8. **How do receiver domains handle upgraded schema versions?**
+1. **How do receiver domains handle upgraded schema versions?**
 
     An NLWeb envelop contains a [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) that allows receivers to support multiple versions concurrently, handling incoming envelopes differently depending on its version;
     - e.g., `🤝: nlweb.org/MSG:1.0`
@@ -84,7 +84,7 @@
     ---
     <br/>
 
-5. **How do receiver domains prevent sender impersonation attacks?**
+1. **How do receiver domains prevent sender impersonation attacks?**
 
     NLWeb domains implement the ubiquitous [DKIM (rfc6376) protocol 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) used by email servers to verify envelopes received from other domains. 
     
@@ -97,7 +97,7 @@
     ---
     <br/>
 
-6. **How do receiver domains prevent DNS spoofing attacks?**
+1. **How do receiver domains prevent DNS spoofing attacks?**
 
     When getting the sender’s [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) public key, receiver domains check if DNSSEC is implemented on the sender’s domain;
     - if not implemented, the envelope is discarded.
@@ -105,7 +105,7 @@
     ---
     <br/>
 
-7. **How do receiver domains prevent replay attacks?**
+1. **How do receiver domains prevent replay attacks?**
 
     An NLWeb envelop contains the sender’s `Timestamp` in UTC format.
     - Receivers discard envelopes with a timestamp outside accepted time boundaries. 
@@ -117,7 +117,7 @@
     ---
     <br/>
 
-10. **How do receiver domains differentiate methods?**
+1. **How do receiver domains differentiate methods?**
 
     An NLWeb envelop contains a `Subject` that identifies how the receiver should handle the message:
     - e.g., `Hello@Host` refers to the [Hello 🐌 method](<../../../6 🅰️ APIs/50 🤗🅰️ Host/01 🤵🐌🤗 Hello.md>) in the [Host 🤗 domain role](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>).
@@ -136,7 +136,7 @@
     ---
     <br/>
 
-2. **How to create the canonical version of the envelope?**
+1. **How to create the canonical version of the envelope?**
    
     To create a canonical version of the envelope:
     1. create an object with just {header,body} content;
@@ -145,7 +145,7 @@
     ---
     <br/>
 
-3. **How to create the canonical hash with OpenSSL?**
+1. **How to create the canonical hash with OpenSSL?**
    
     To generate the hash with OpenSSL, prepare the following file:
     - `canonical.json`: a canonical representation of {header,body}.
@@ -159,7 +159,7 @@
     <br/>
 
 
-3. **How to create a signature with OpenSSL?**
+1. **How to create a signature with OpenSSL?**
 
     To create a signature with OpenSSL, first prepare the following files:
       - `canonical.json`: a canonical representation of {header,body};
@@ -187,7 +187,7 @@
     ---
     <br/>
 
-5. **What are the technical workflows around messages?**
+1. **What are the technical workflows around messages?**
 
     | Workflow | Description
     |-|-
@@ -213,7 +213,7 @@
     <br/>
 
 
-2. **Is this compatible with W3C DIDcomm?**
+1. **Is this compatible with W3C DIDcomm?**
 
     No. 
     
@@ -229,7 +229,7 @@
     ---
     <br/>
 
-3. **How do sender domains prevent man-in-the-middle attacks?**
+1. **How do sender domains prevent man-in-the-middle attacks?**
 
     By using HTTPS POST requests, sender domains ensure outbound messages are encrypted, and rely on trusted Certificate Authorities (CAs) to validate the TLS certificate of the receiver. 
     - By using a well-known URL prefix plus the receiver’s domain, sender domains rely only on DNS for network discovery.
@@ -249,7 +249,7 @@
     ---
     <br/>
 
-12. **Can messages be compressed?** 
+1. **Can messages be compressed?** 
 
     HTTPS already handles compression:
     - `HTTP/2` and `HTTP/3` compress the header;
@@ -258,7 +258,7 @@
     ---
     <br/>
 
-13. **With HTTPS compression, how is BREACH prevented?** 
+1. **With HTTPS compression, how is BREACH prevented?** 
 
     BREACH is a category of vulnerabilities where, to be vulnerable, a web application must:     
     * be served from a server that uses HTTP-level compression,
@@ -275,7 +275,7 @@
     <br/>
 
 
-13. **Why are Messages in JSON while Manifests are in YAML?** 
+1. **Why are Messages in JSON while Manifests are in YAML?** 
 
     NLWeb uses JSON, YAML, or MARKDOWN depending on the requirements.
 
@@ -289,7 +289,7 @@
     <br/>
 
 
-11. **How can senders know if receivers discarded messages?**
+1. **How can senders know if receivers discarded messages?**
 
     When discarding an invalid message, receiver domains send feedback to the sender with the original correlation ID. 
     

@@ -30,7 +30,7 @@
     ---
     <br/>
 
-2. **Why is this method important?**
+1. **Why is this method important?**
    
     This method is used by Reviewers to be able to anonymize user interactions, thus protecting their privacy.
     * It assumes that Hosts can't use sequential dynamic ServiceIDs to track users because that would required them to update their Manifests in every user interaction.

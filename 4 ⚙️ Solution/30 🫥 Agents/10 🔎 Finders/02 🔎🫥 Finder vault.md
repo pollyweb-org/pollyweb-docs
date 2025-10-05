@@ -22,7 +22,7 @@
     ---
     <br/>
 
-2. **How do Finders help to protect users?**
+1. **How do Finders help to protect users?**
 
     [Broker 🤵 domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) leverage Finders to provide users with culturally-contextualized details and user feedback about [Host 🤗 domains](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) when a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) starts. 
 
@@ -38,7 +38,7 @@
     <br/>
 
 
-5. **How do Finders help users with a search?**
+1. **How do Finders help users with a search?**
 
     To search domains on a Finder, users use natural language, similar to ChatGPT.
     * Example: `find me a restaurant for tonight`.
@@ -56,7 +56,7 @@
     ---
     <br/>
 
-6. **Where do Finders get information about other domains?**
+1. **Where do Finders get information about other domains?**
 
     |[Streamer&nbsp;🎭](<../../40 👥 Domains/41 📨 Comms/02 🌬️🎭 Streamer role.md>)|Purpose
     |-|-
@@ -68,7 +68,7 @@
     ---
     <br/>
 
-7. **How do Finders get information about users?**
+1. **How do Finders get information about users?**
 
     * [Persona 🧢](<../02 🧢 Personas/02 🧢🫥 Persona agent.md>): Finders ask users to share anonymized search preferences from their Personas, then index the search results accordingly.
     * [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>): Finders receive the user's current context from the Wallet, similar to what is sent to a Web 2.0 browser (e.g., time zone, country, state, approximate location).
@@ -76,7 +76,7 @@
     ---
     <br/>
 
-8. **How do Finders filter and rank the results for users?**
+1. **How do Finders filter and rank the results for users?**
 
     - **[👍 Trust](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>)**: domains untrusted by the user's [Broker 🤵](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) are discarded;
     - **🔥 Threats**: domains blocked by [Firewalls 🔥](<../../40 👥 Domains/43 👍 Trusts/03 🔥🛠️ Firewall helper.md>) may be discarded even when trusted;
@@ -88,7 +88,7 @@
     <br/>
 
 
-9. **Why not merge Finders and Graphs?**
+1. **Why not merge Finders and Graphs?**
 
     Finders leverage conversations with artificial intelligence, requiring them to comply with contextualized Artificial Intelligence (AI) legislation (e.g., the European Union AI Act). 
     * Conversely, [Graph 🕸 domains](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>) are typically AI-free, allowing to be more generic.

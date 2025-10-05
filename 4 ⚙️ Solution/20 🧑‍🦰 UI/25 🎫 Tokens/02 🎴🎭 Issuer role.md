@@ -10,7 +10,7 @@
     ---
     <br/>
 
-2. **How do Issuers work?**
+1. **How do Issuers work?**
 
     ![](<.📎 Assets/🎫 Issuer.png>)
 
@@ -40,7 +40,7 @@
     <br/>
 
 
-2. **How much data should Issuers add to a Token?**
+1. **How much data should Issuers add to a Token?**
 
     The less data, the better. 
 
@@ -51,7 +51,7 @@
     ---
     <br/>
     
-3. **Can an Issuer domain suspend or revoke a Token?**
+1. **Can an Issuer domain suspend or revoke a Token?**
 
     Yes. 
 
@@ -80,7 +80,7 @@
     <br/>
 
 
-5. **Why not check revocation directly with Issuers?**
+1. **Why not check revocation directly with Issuers?**
 
     Given that [Issuer 🎴 domains](<02 🎴🎭 Issuer role.md>) are the ones revoking [Tokens 🎫](<01 🎫 Token.md>) it intuitively makes sense for [Consumer 💼 domains](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>) to ask them directly for the status of a given printed [Token 🎫](<01 🎫 Token.md>), instead of asking the [user's Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>).
 

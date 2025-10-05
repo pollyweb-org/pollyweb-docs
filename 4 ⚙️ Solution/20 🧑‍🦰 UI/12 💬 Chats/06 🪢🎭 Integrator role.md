@@ -9,13 +9,13 @@
 
     ---
 
-2. **How do Integrators work?**
+1. **How do Integrators work?**
 
     ![](<.📎 Assets/💬 Integrator.png>)
 
     ---
 
-3. **How do Integrators publicize their API?**
+1. **How do Integrators publicize their API?**
 
     Integrators publicize their API endpoints and schemas in their [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>).
 
@@ -42,7 +42,7 @@
 
     ---
 
-2. **How can domains leverage Integrators?**
+1. **How can domains leverage Integrators?**
 
     Integrators allow domains to find available services on NLWeb with a standard way to use those services across domains.
 

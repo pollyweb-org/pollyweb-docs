@@ -14,7 +14,7 @@
     ---
     <br/>
 
-2. **What's the RUN syntax?**
+1. **What's the RUN syntax?**
 
     ```yaml
     - RUN|<procedure>|<arguments> >> <result>
@@ -29,7 +29,7 @@
     ---
     <br/>
 
-3. **What's an example with static arguments?**
+1. **What's an example with static arguments?**
 
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
@@ -91,7 +91,7 @@
 
 
 
-5. **What's an example with function arguments?**
+1. **What's an example with function arguments?**
 
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
@@ -124,7 +124,7 @@
     <br/>
     
 
-6. **What's an example with a static RETURN?**
+1. **What's an example with a static RETURN?**
 
 
 
@@ -161,7 +161,7 @@
     
 
 
-6. **What's an example with a calculated RETURN?**
+1. **What's an example with a calculated RETURN?**
 
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)

@@ -23,7 +23,7 @@
     ---
     <br/>
 
-2. **How can owners register a Thing?**
+1. **How can owners register a Thing?**
 
     ![](<00 📎 Assets/💠 Custodian Register.png>)
 

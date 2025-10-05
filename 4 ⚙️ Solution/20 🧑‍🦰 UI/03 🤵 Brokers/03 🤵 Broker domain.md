@@ -14,7 +14,7 @@
     ---
     <br/>
 
-2. **How do Brokers work?**
+1. **How do Brokers work?**
 
     ![](<.📎 Assets/🤵 Broker.png>)
 
@@ -32,7 +32,7 @@
     ---
     <br/>
 
-3. **How do Brokers protect users from Hosts?**
+1. **How do Brokers protect users from Hosts?**
  
     [Broker 🤵 domains](<03 🤵 Broker domain.md>) give users the right to be forgotten by defaulting to anonymous browsing; 
     * i.e., whenever a user returns to a [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>), the [Broker 🤵 domain](<03 🤵 Broker domain.md>) connects them using a different untraceable ID. 
@@ -50,7 +50,7 @@
     <br/>
 
 
-11. **Why aren't Brokers and Notifiers the same domain?**
+1. **Why aren't Brokers and Notifiers the same domain?**
     
     Separating the responsibilities of [Broker 🤵 domains](<03 🤵 Broker domain.md>) and [Notifier 📣 domains](<../02 📣 Notifiers/02 📣 Notifier domain.md>) allows cloud providers (e.g., AWS, Azure, GCP) and independent software vendors (ISVs) to offload from mobile startups the undifferentiated heavy lifting of implementing the NLWeb protocol in the most robust, secure, and compliant way. 
     
@@ -63,7 +63,7 @@
     ---
     <br/>
 
-12. **How can Wallet startups connect to a Broker?**
+1. **How can Wallet startups connect to a Broker?**
 
     For startups and others to build a [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), they need to:
     - Build a [Notifier 📣 domain](<../02 📣 Notifiers/02 📣 Notifier domain.md>) and register it on a [Broker 🤵 domain](<03 🤵 Broker domain.md>);
@@ -73,7 +73,7 @@
     ---
     <br/>
 
-13. **How do Brokers ensure Wallets are NLWeb compliant?**
+1. **How do Brokers ensure Wallets are NLWeb compliant?**
 
     [Broker 🤵 domains](<03 🤵 Broker domain.md>) are responsible for testing the compliance of [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and [Notifier 📣 domains](<../02 📣 Notifiers/02 📣 Notifier domain.md>) by performing a set of automated tests before allowing new Wallet versions to be used.
 

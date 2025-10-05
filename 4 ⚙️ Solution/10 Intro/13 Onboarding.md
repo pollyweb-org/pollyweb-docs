@@ -12,7 +12,7 @@ Onboarding FAQ
 
     ---
 
-2. **What are the steps for a user to onboard NLWeb?**
+1. **What are the steps for a user to onboard NLWeb?**
 
     1. Install an NLWeb [Wallet 🧑‍🦰](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) from an app store;
     1. Fill out the [Persona 🧢 agent](<../30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) agent with standard data sets;
@@ -21,7 +21,7 @@ Onboarding FAQ
 
     ---
 
-3. **What is the effort for organizations to onboard NLWeb?**
+1. **What is the effort for organizations to onboard NLWeb?**
 
     The main effort will be on enablement, workflow customization, and integration with the organization's downstream services. 
     - Organizations can leverage the NLWeb Stack to bootstrap, which includes a [Wallet app 🧑‍🦰](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), deployment services, and support services. 
@@ -48,7 +48,7 @@ Onboarding FAQ
 
     ---
 
-5. **Do wallets from Google, Apple, and the EU support NLWeb?**
+1. **Do wallets from Google, Apple, and the EU support NLWeb?**
 
     No. 
     - As of 2025, these wallets don't support the NLWeb protocol.

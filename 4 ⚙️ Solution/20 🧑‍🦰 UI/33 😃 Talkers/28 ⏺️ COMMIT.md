@@ -15,7 +15,7 @@
 [Book table](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/31 🌐 Web: Book table 🗓️.md>)
 -->
 
-2. **What's the syntax of a COMMIT?**
+1. **What's the syntax of a COMMIT?**
    
     ```yaml
     - COMMIT|{function} >> $result: 

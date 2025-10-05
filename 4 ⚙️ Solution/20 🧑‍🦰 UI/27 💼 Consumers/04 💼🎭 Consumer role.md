@@ -22,7 +22,7 @@
     ---
     <br/>
 
-2. **What kind of user data is supported by Consumers?**
+1. **What kind of user data is supported by Consumers?**
 
     Consumers 💼 receive data from the following sources:
     - schema-bound datasets shared directly by users' [Vault 🗄️ domains](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>), and
@@ -31,7 +31,7 @@
     ---
     <br/>
 
-3. **How do Consumers receive downloaded Tokens?**
+1. **How do Consumers receive downloaded Tokens?**
 
     [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) are shared with Consumers 💼 by [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) in a number of ways.
 
@@ -64,7 +64,7 @@
     ---
     <br/>
 
-5. **Can Consumers use SELF Tokens to behave like Vaults?**
+1. **Can Consumers use SELF Tokens to behave like Vaults?**
 
     Yes, but that may produce a poor user experience.
 
@@ -85,7 +85,7 @@
     ---
     <br/>
 
-5. **How do Consumers verify a Token's signature?**
+1. **How do Consumers verify a Token's signature?**
 
     When issuing [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>), the [Issuer 🎴 domains](<../25 🎫 Tokens/02 🎴🎭 Issuer role.md>) sign them with the same key-pair used in their [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) public key. 
     - Other [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) can use the [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) key to verify the signature on the [Token 🎫](<../25 🎫 Tokens/01 🎫 Token.md>).
@@ -93,7 +93,7 @@
     ---
     <br/>
 
-6. **Can Consumers verify Tokens when Issuers are offline?**
+1. **Can Consumers verify Tokens when Issuers are offline?**
 
     Yes. 
     
@@ -102,14 +102,14 @@
     ---
     <br/>
 
-7. **Can Consumers verify Tokens when Issuers rotate a DKIM?**
+1. **Can Consumers verify Tokens when Issuers rotate a DKIM?**
 
     [Graph 🕸 domains](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>) will find the [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) of the [Issuer 🎴 domain](<../25 🎫 Tokens/02 🎴🎭 Issuer role.md>) that was in use when the [Token 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) was issued.
 
     ---
     <br/>
 
-8. **How are Consumers protected when Graph are compromised by attackers?**
+1. **How are Consumers protected when Graph are compromised by attackers?**
 
     [Firewall 🔥 domains](<../../40 👥 Domains/43 👍 Trusts/03 🔥🛠️ Firewall helper.md>) monitor the behavior of any [Graph 🕸 domain](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>) and match domain information with other [Graphs 🕸](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>). 
     * If necessary, [Firewall 🔥 domains](<../../40 👥 Domains/43 👍 Trusts/03 🔥🛠️ Firewall helper.md>) immediately revoke a Graph's [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>).
@@ -117,7 +117,7 @@
     ---
     <br/>
 
-10. **Why aren't all Tokens validated online?**
+1. **Why aren't all Tokens validated online?**
 
     In scenarios where physical gates need to allow for large influx of people (e.g., a concert or a subway station), it is quicker to validate the [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) offline at the edge, opening the gate if the [Token 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) seems valid. 
     
@@ -126,7 +126,7 @@
     ---
     <br/>
 
-11. **Can Consumers verify if a Token was issued to the holder?**
+1. **Can Consumers verify if a Token was issued to the holder?**
 
     Yes. 
     
@@ -155,7 +155,7 @@
     ---
     <br/>
 
-12. **How do sellers prevent swapping of identity Tokens?**
+1. **How do sellers prevent swapping of identity Tokens?**
 
     [Seller 💵 domains](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) can prevent frauds where users share their [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) with someone else.
     - e.g., an adult may give their wallet's device to an under-aged child so that they can buy age-restricted goods at a self-service store. 
@@ -173,7 +173,7 @@
 
 
 
-13. **How are consumers prevented from collecting too much user data?**
+1. **How are consumers prevented from collecting too much user data?**
 
     To protect users from [Consumer 💼 domains](<04 💼🎭 Consumer role.md>) that collect too much Personally Identifiable Information (PII), [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) verify if any [Consumer 💼 domain](<04 💼🎭 Consumer role.md>) request is explicitly mentioned on their [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>).
 
@@ -227,7 +227,7 @@
 
 
    
-2. **What API methods does a Consumer expose?**
+1. **What API methods does a Consumer expose?**
 
     |  Method | Purpose
     |-|-

@@ -16,7 +16,7 @@
     <br/>
 
 
-5. **What are example use cases?**
+1. **What are example use cases?**
 
     * Handling the result of a [`RELAY`](<51 🛰️ RELAY msg.md>) command.
     * The [Talker 😃](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/93 😃 Owner: Talker.md>) at [Vending machines 🏪](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/01 🏪 Index.md>)
@@ -24,7 +24,7 @@
     ---
     <br/>
     
-2. **What's the syntax?**
+1. **What's the syntax?**
 
     ```yaml
     # Function syntax
@@ -49,7 +49,7 @@
     ---
     <br/>
 
-3. **How to use it in a Talker?**
+1. **How to use it in a Talker?**
    
 
     ```yaml

@@ -41,7 +41,7 @@
 
     
     
-3. **Do Identity domains always authenticate users the same way?**
+1. **Do Identity domains always authenticate users the same way?**
 
     No. It depends on the legislation, registration, and context.
 
@@ -62,7 +62,7 @@
     ---
     <br/>
     
-5. **What authentication mechanisms are supported by Wallets?**
+1. **What authentication mechanisms are supported by Wallets?**
 
     NLWeb natively supports key pairs (passkeys) and one time passwords (OTP). 
     * However, [Identity 🆔 vault](<01 🆔🫥 Identity agent.md>) are free to implement whatever authentication mechanisms they want using the generic tools available. 
@@ -77,7 +77,7 @@
     ---
     <br/>
     
-6. **How is voice recognition secured with an audio input?**
+1. **How is voice recognition secured with an audio input?**
 
     NLWeb discourages voice recognition as authentication method,
     * except in [supervised 👮 scenarios](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/00 👮 Supervised ID Index.md>) (e.g., a government office),

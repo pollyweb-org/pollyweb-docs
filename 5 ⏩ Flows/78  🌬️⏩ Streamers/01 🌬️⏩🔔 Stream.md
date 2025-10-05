@@ -33,7 +33,7 @@
     ---
     <br/>
 
-2. **How is privacy the Subscriber protected on [`Push@Buffer`](<../../6 🅰️ APIs/20 ⏳🅰️ Buffer/21 🌬️🐌⏳ Push.md>)?**
+1. **How is privacy the Subscriber protected on [`Push@Buffer`](<../../6 🅰️ APIs/20 ⏳🅰️ Buffer/21 🌬️🐌⏳ Push.md>)?**
 
     `Public-key encryption` 
     

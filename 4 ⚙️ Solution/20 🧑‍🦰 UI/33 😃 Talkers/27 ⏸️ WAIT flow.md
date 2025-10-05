@@ -35,7 +35,7 @@
     ---
     <br/>
 
-2. **What's a simple WAIT example?**
+1. **What's a simple WAIT example?**
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
@@ -58,7 +58,7 @@
     ---
     <br/>
 
-3. **What's an example of verifying a queue length?**
+1. **What's an example of verifying a queue length?**
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |

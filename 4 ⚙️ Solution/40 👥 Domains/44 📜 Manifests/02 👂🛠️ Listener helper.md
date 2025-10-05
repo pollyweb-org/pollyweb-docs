@@ -12,7 +12,7 @@
     ---
     <br/>
 
-2. **How do Listeners work?**
+1. **How do Listeners work?**
 
     ![](<.📎 Assets/📜 Listeners.png>)
 
@@ -26,7 +26,7 @@
     ---
     <br/>
 
-3. **Why are Listeners necessary?**
+1. **Why are Listeners necessary?**
 
     NLWeb relies on a distributed cache of [Graph 🕸 helper domains](<03 🕸🛠️ Graph helper.md>), which allows Manifest-owners to go offline without impacting whoever needs the information contained in the [Manifest 📜](<01 📜 Domain Manifest.md>). 
     * [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) ensure that the cache in these [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) is updated in near-real-time by propagating domain update notifications to [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>). 
@@ -42,7 +42,7 @@
     ---
     <br/>
 
-5. **How do Listeners address resilience?**
+1. **How do Listeners address resilience?**
 
     [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) exist as a limited cluster of independent well-known nodes that listen to each other. 
     * For business continuity, all [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) are built and managed by different organizations. 
@@ -50,7 +50,7 @@
     ---
     <br/>
 
-6. **How do domains discover Listeners?**
+1. **How do domains discover Listeners?**
 
     Domains can either contact a [Listener 👂 domain](<02 👂🛠️ Listener helper.md>) directly, or they can use the NLWeb cluster at `listeners.nlweb.org`. 
     * NLWeb advocates for a combination of both, defaulting to the cluster, and falling back to a named [Listener 👂 domain](<02 👂🛠️ Listener helper.md>) in case the cluster is compromised.
@@ -58,7 +58,7 @@
     ---
     <br/>
 
-7. **What is contained in a Manifest-changed event?**
+1. **What is contained in a Manifest-changed event?**
 
     An event from a [domain 👥](<00 👥 Domain.md>) about a [Manifest 📜](<01 📜 Domain Manifest.md>) change comes inside an [envelope 📨](<../41 📨 Comms/01 📨 Domain Message.md>) containing the following properties.
 
@@ -85,7 +85,7 @@
     ---
     <br/>
 
-8. **What is the syntax of the path in the Manifest-changed event?**
+1. **What is the syntax of the path in the Manifest-changed event?**
 
     Paths allowed in Manifest-changed events are as follows.
 
@@ -101,7 +101,7 @@
     ---
     <br/>
 
-9. **Do Listeners validate the content of events?**
+1. **Do Listeners validate the content of events?**
 
     Yes. [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) perform the following validations:
     - is the schema of the event correct?
@@ -113,7 +113,7 @@
     ---
     <br/>
 
-10. **How can domains know that their updates were rejected?**
+1. **How can domains know that their updates were rejected?**
 
     [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) raise alerts when rejecting events. 
     * Interested [domains 👥](<00 👥 Domain.md>) should [subscribe 🔔](<../41 📨 Comms/04 🔔🎭 Subscriber role.md>) to that [Stream 🌬️](<../41 📨 Comms/02 🌬️🎭 Streamer role.md>), filtering the domains they're interested in receiving alerts about.
@@ -122,7 +122,7 @@
     ---
     <br/>
 
-11. **Do Listeners read domain Manifests from the domain?**
+1. **Do Listeners read domain Manifests from the domain?**
 
     Not while reading events. 
     * [Manifest 📜](<01 📜 Domain Manifest.md>) events contain the content changed. 
@@ -131,7 +131,7 @@
     ---
     <br/>
 
-12. **What are the size limits for events and Manifests?**
+1. **What are the size limits for events and Manifests?**
 
     * Manifest-changed events: 100 KB;
     * [Manifest 📜](<01 📜 Domain Manifest.md>) full content: 1 GB.
@@ -139,7 +139,7 @@
     ---
     <br/>
 
-13. **Why is there a size limitation on events?**
+1. **Why is there a size limitation on events?**
 
     Limiting the size of Manifest-change events come with several benefits:
 
@@ -152,7 +152,7 @@
     ---
     <br/>
 
-14. **Why is there a size limitation on the entire Manifest?**
+1. **Why is there a size limitation on the entire Manifest?**
 
     Domains may ask [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) and [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) to download their [Manifest 📜](<01 📜 Domain Manifest.md>) for drift detection and sync reset. 
     - For that, the entire content of the [Manifest 📜](<01 📜 Domain Manifest.md>) needs to be in memory, with 1 GB being the minimum common denominator for functions among the well-known cloud providers.
@@ -160,7 +160,7 @@
     ---
     <br/>
 
-15. **How can domains keep Manifest-change events small?**
+1. **How can domains keep Manifest-change events small?**
 
     Domains can apply the following techniques to keep [Manifest 📜](<01 📜 Domain Manifest.md>) parts small:
     - follow the Manifest Schema to break the Manifest into valid paths (e.g., `Identity`);
@@ -172,7 +172,7 @@
     ---
     <br/>
 
-16. **Do Listeners propagate all notifications downstream?**
+1. **Do Listeners propagate all notifications downstream?**
 
     Not necessarily. 
     - [Subscriber 🔔 domains](<../41 📨 Comms/04 🔔🎭 Subscriber role.md>) can filter the events they subscribe to.
@@ -180,35 +180,35 @@
     ---
     <br/>
 
-17. **What's the retention commitment of Listeners?**
+1. **What's the retention commitment of Listeners?**
 
     [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) keep all changes from all domain [Manifests 📜](<01 📜 Domain Manifest.md>) and public keys indefinitely. 
 
     ---
     <br/>
 
-18. **How are new Listener nodes added to the cluster?**
+1. **How are new Listener nodes added to the cluster?**
 
     New nodes first rebase by replaying NLWeb's history from another [Listener 👂 domain](<02 👂🛠️ Listener helper.md>), then join the cluster.
 
     ---
     <br/>
 
-19. **What if a subscriber wants to read all history?**
+1. **What if a subscriber wants to read all history?**
 
     [Subscriber 🔔 domains](<../41 📨 Comms/04 🔔🎭 Subscriber role.md>) can ask [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) to replay all domain updates in a given period, or from the beginning of times.
 
     ---
     <br/>
 
-20. **How to deploy a new Listener?**
+1. **How to deploy a new Listener?**
 
     Subscribe to another two [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) and replay the entire history from one of them.
 
     ---
     <br/>
 
-21. **Is there data loss when a Listener goes down?**
+1. **Is there data loss when a Listener goes down?**
 
     No. 
     * Each [Listener 👂 domain](<02 👂🛠️ Listener helper.md>) is fully independent, being responsible for replying the entire history of [domain Manifest 📜](<01 📜 Domain Manifest.md>) changes, even if it is the only [Listener 👂 node](<02 👂🛠️ Listener helper.md>) available in the cluster. 
@@ -218,14 +218,14 @@
     ---
     <br/>
 
-22. **How do Listeners avoid infinite loop cycles?**
+1. **How do Listeners avoid infinite loop cycles?**
 
     [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) propagate the correlation ID sent by the original [domain 👥](<00 👥 Domain.md>), discarding any repeated update notifications.
 
     ---
     <br/>
 
-23. **Can an attacker compromises all cluster nodes?**    
+1. **Can an attacker compromises all cluster nodes?**    
 
     No. 
     * Each [Listener 👂 domain](<02 👂🛠️ Listener helper.md>) in the cluster node is managed by a different organization, and implemented with different technologies, making it hard for an attacker to replicate an attack on all cluster nodes.
@@ -233,7 +233,7 @@
     ---
     <br/>
 
-24. **How to identify if a Listener was compromised?**
+1. **How to identify if a Listener was compromised?**
 
     [Firewall 🔥 helper domains](<../43 👍 Trusts/03 🔥🛠️ Firewall helper.md>) monitor the behavior of any [Listener 👂 domain](<02 👂🛠️ Listener helper.md>) and match domain information with other [Listener 👂 domains](<02 👂🛠️ Listener helper.md>). 
     * If necessary, [Firewall 🔥 domains](<../43 👍 Trusts/03 🔥🛠️ Firewall helper.md>) immediately revoke a Listener's [trust 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>).
@@ -241,7 +241,7 @@
     ---
     <br/>
 
-25. **Is the cluster endpoint a single point of failure?**
+1. **Is the cluster endpoint a single point of failure?**
 
     No. 
     * The NLWeb cluster endpoint is a latency-based routing visible at a well-known DNS name (`listeners.nlweb.org`). 
@@ -250,7 +250,7 @@
     ---
     <br/>
 
-26. **How can a subscriber filter notifications by content?**
+1. **How can a subscriber filter notifications by content?**
 
     [Subscriber 🔔 domains](<../41 📨 Comms/04 🔔🎭 Subscriber role.md>) can set a filter when subscribing to [Listener 👂 domains](<02 👂🛠️ Listener helper.md>):
     - e.g., a financial regulator may only want notifications about changes in domains referencing bank [Schema Codes 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>).

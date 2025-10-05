@@ -32,7 +32,7 @@
     ---
     <br/>
 
-2. **Do Streams guarantee unique delivery?**
+1. **Do Streams guarantee unique delivery?**
 
     No. 
     * The same event may be delivered more than once.
@@ -41,7 +41,7 @@
     ---
     <br/>
 
-2. **Do Streams guarantee ordered delivery?**
+1. **Do Streams guarantee ordered delivery?**
 
     No. 
     * While events have timestamps, they may be delivered out of order.
@@ -50,7 +50,7 @@
     ---
     <br/>
 
-3. **What if a push fails with a timeout or 5XX error?**
+1. **What if a push fails with a timeout or 5XX error?**
 
     Upon receiving a timeout or 5XX error from a [Buffer ⏳ helper domain](<03 ⏳🛠️ Buffer helper.md>), 
     * [Streamer 🌬️ domains](<02 🌬️🎭 Streamer role.md>) will retry to push events with exponential back-off for up to 24 hours. 
@@ -68,7 +68,7 @@
     ---
     <br/>
 
-5. **What if a Subscriber returns a 429 Too Many Requests?**
+1. **What if a Subscriber returns a 429 Too Many Requests?**
 
     Upon receiving a 429 Too Many Requests from a [Buffer ⏳ helper domain](<03 ⏳🛠️ Buffer helper.md>), 
     * [Streamer 🌬️ domains](<02 🌬️🎭 Streamer role.md>) conclude that the [Buffer ⏳ domain](<03 ⏳🛠️ Buffer helper.md>) is failing to do its one and only job, 
@@ -77,7 +77,7 @@
     ---
     <br/>
 
-6. **How to prevent Buffers from spoofing the events?**
+1. **How to prevent Buffers from spoofing the events?**
 
     To avoid spoofing, [Streamer 🌬️ domains](<02 🌬️🎭 Streamer role.md>) encrypt the event content with the [DKIM public key 📨](<01 📨 Domain Message.md>) of the [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) before sending it to the Subscriber's [Buffer ⏳ helper domain](<03 ⏳🛠️ Buffer helper.md>).
 

@@ -41,7 +41,7 @@
     <br/>
 
 
-2. **What are examples of SUCCESS?**
+1. **What are examples of SUCCESS?**
 
     |Type|Example
     |-|-
@@ -55,7 +55,7 @@
     <br/>
 
 
-2. **What's the format for a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
+1. **What's the format for a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
     SUCCESS|<message>|<options> >> <key>
@@ -66,7 +66,7 @@
 
 
 
-3. **What's the response in the [Prompted@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**
+1. **What's the response in the [Prompted@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**
 
     ```yaml
     Format: SUCCESS

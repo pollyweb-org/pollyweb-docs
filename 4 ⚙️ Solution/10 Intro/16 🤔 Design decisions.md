@@ -9,7 +9,7 @@ Design Decisions
     ---
     <br/>
 
-2. **What is NLWeb's approach to conversational commerce?**
+1. **What is NLWeb's approach to conversational commerce?**
 
     In NLWeb, [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets>) are the way for users to communicate with [Host 🤗 domains](<../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>). 
     
@@ -26,7 +26,7 @@ Design Decisions
     <br/>
 
 
-2. **What is NLWeb's approach to location-based interactions?**
+1. **What is NLWeb's approach to location-based interactions?**
 
     While NLWeb advocates for ambient computing, it does not advocate for the ambient to proactively initiate the interactions (e.g., showing personalized ads to a person when they are standing on a bus stop).
     
@@ -38,7 +38,7 @@ Design Decisions
     <br/>
 
 
-3. **What is NLWeb's approach to end-user autofill?**
+1. **What is NLWeb's approach to end-user autofill?**
 
     NLWeb advocates for domains to ask users for well-known common data types (e.g., address) instead of generic text values. 
 
@@ -91,7 +91,7 @@ Design Decisions
 
 <!--
     ---
-6. **What is NLWeb's approach to ads?**
+1. **What is NLWeb's approach to ads?**
 
     NLWeb advocates for cross-selling on next-best actions for the user based on personalization and context awareness;
     

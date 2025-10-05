@@ -10,7 +10,7 @@
     ---
 
 
-2. **How are ads presented to users?**
+1. **How are ads presented to users?**
 
     When a [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) ends a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>), an Advertiser 👀 presents contextualized next-best actions for the user, e.g.: 
 
@@ -73,14 +73,14 @@
 
     ---
 
-2. **How can Sellers 💵 register ads?**
+1. **How can Sellers 💵 register ads?**
 
     For a [Seller 💵 domain](<../04 💳 Payers/01 💵🎭 Seller role.md>) to register an ad, it needs first do set up a [Payer 💳 helper](<../04 💳 Payers/03 💳🎭 Payer role.md>) and bind to the Advertiser. 
     - The configuration of the ads will then depend on the Advertiser's UX and API.
 
     ---
 
-3. **How are Sellers 💵 charged for ads?**
+1. **How are Sellers 💵 charged for ads?**
 
     Similar to Google Ads, [Sellers 💵](<../04 💳 Payers/01 💵🎭 Seller role.md>) are charged for:
     - 1/ ads showed to the user, and 
@@ -97,7 +97,7 @@
 
     ---
 
-5. **What are the preconditions for ads to work?**
+1. **What are the preconditions for ads to work?**
 
     - Users need to select their default [Curator 🧚 agent](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>) on their [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
     - [Seller 💵 domains](<../04 💳 Payers/01 💵🎭 Seller role.md>) need to promote ads on an Advertiser.
@@ -105,7 +105,7 @@
 
     ---
 
-6. **How are frauds prevented?**
+1. **How are frauds prevented?**
 
     [Broker 🤵 domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) register contracts on [Billers 🤝](<../04 💳 Payers/06 🤝🛠️ Biller helper.md>) that require a number of matching values from the multiple parties involve in each advertising transaction:
     
@@ -121,7 +121,7 @@
 
     ---
 
-7. **How is PII protected?**
+1. **How is PII protected?**
 
     The following strategies protect users' personal identifiable information (PII) from [profiling practices 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/01 🗂️ Profiling landscape/00 🗂️ Profiling Index.md>):
 

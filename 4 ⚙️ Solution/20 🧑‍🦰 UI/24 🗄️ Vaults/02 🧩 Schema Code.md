@@ -27,7 +27,7 @@
     ---
     <br/>
 
-2. **What is contained in a Schema Code?**
+1. **What is contained in a Schema Code?**
 
     The string of a [Schema Code 🧩](<02 🧩 Schema Code.md>) is composed of the following parts.
 
@@ -58,7 +58,7 @@
     ---
     <br/>
 
-2. **Are versions mandatory?**
+1. **Are versions mandatory?**
 
     Versions are always optional, but behave differently according to the situation.
 
@@ -72,7 +72,7 @@
     <br/>
 
 
-3. **How are Schema Codes used in data sharing between domains?**
+1. **How are Schema Codes used in data sharing between domains?**
    
     When a [Consumer 💼 domain](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) needs information stored in a [user's Vault 🗄️ domains](<03 🗄️🎭 Vault role.md>), 
     * it invokes the [Query @ Broker 🐌 API method](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) from the [user's Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>), asking for datasets that comply with a given [Schema Code 🧩](<02 🧩 Schema Code.md>).
@@ -114,7 +114,7 @@
 
     ---
 
-5. **What does it mean when a YAML content starts with 🤝?**
+1. **What does it mean when a YAML content starts with 🤝?**
 
     When YAML content starts with `🤝: {Schema Code}`,
     * e.g., `🤝: nlweb.org/MANIFEST/CODE`
@@ -123,7 +123,7 @@
     
     ---
 
-6. **How do define a Schema in a Manifest?**
+1. **How do define a Schema in a Manifest?**
 
     The instructions on how to add a [Schema Code 🧩](<02 🧩 Schema Code.md>) to a [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) are themselves published as special [Schema Codes 🧩](<02 🧩 Schema Code.md>):
 
@@ -137,7 +137,7 @@
     ---
     <br/>
 
-7. **Does nlweb.org define Schema Codes?**
+1. **Does nlweb.org define Schema Codes?**
 
     Yes. 
     - The NLWeb protocol is supported by a set of [Schema Codes 🧩](<02 🧩 Schema Code.md>) defined in the `nlweb.org` [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>). 
@@ -146,7 +146,7 @@
 
     ---
 
-8. **Is the NLWeb Manifest a single point of failure?**
+1. **Is the NLWeb Manifest a single point of failure?**
 
     No. 
     - [Domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) don't need `nlweb.org` to be online to access its [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) (nor the one of any other [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>), for that matter).
@@ -155,7 +155,7 @@
     ---
 
 
-5. **Are NLWeb Schema definitions compatible with JSON Schema?**
+1. **Are NLWeb Schema definitions compatible with JSON Schema?**
 
     Yes. 
     - NLWeb schemas are defined by [JSON Schema](https://json-schema.org/understanding-json-schema/reference) converted to YAML.
@@ -185,7 +185,7 @@
 
     ---
 
-6. **Wouldn't JSON be faster than YAML?**
+1. **Wouldn't JSON be faster than YAML?**
 
     Yes, JSON is much faster than YAML. 
     - But, because of [Graph 🕸 helper domains](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>), the performance of either protocol is irrelevant in this context. 
@@ -210,7 +210,7 @@
     <br/>
 
 
-2. **Can a Schema reference another Schema?**
+1. **Can a Schema reference another Schema?**
 
     Yes, 
     * using the `$ref` keyword from JSON Schema 

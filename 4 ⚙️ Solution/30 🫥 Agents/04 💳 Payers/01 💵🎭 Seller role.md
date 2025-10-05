@@ -8,7 +8,7 @@
     
     ---
 
-2. **How do Sellers sell to users?**
+1. **How do Sellers sell to users?**
 
     ![](<00 📎 Assets/💳💵 Seller.png>)
 
@@ -22,7 +22,7 @@
 
     ---
     
-3. **How can admins set up payment collection?**
+1. **How can admins set up payment collection?**
 
     Admins of Sellers 💵 need to bind to a [Collector 🏦](<01 🏦🛠️ Collector helper.md>) domain and set up a bank account or any other means to receive money.
 
@@ -36,7 +36,7 @@
 
     ---
     
-5. **Do Sellers define how they want the user to pay?**
+1. **Do Sellers define how they want the user to pay?**
 
     No. 
     - The payment method is decided between the user's [Payer 💳](<03 💳🎭 Payer role.md>) and the Seller's [Collector 🏦](<01 🏦🛠️ Collector helper.md>). 
@@ -53,7 +53,7 @@
     
     ---
 
-2. **What API messages do Sellers implement?**
+1. **What API messages do Sellers implement?**
 
     |Message|Description
     |-|-

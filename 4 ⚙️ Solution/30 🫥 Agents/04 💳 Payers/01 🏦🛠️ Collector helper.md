@@ -26,7 +26,7 @@
     ---
     <br/>
 
-2. **Why are Collectors important?**
+1. **Why are Collectors important?**
 
     [Collector 🏦 domains](<01 🏦🛠️ Collector helper.md>) offload from domains the undifferentiated heavy lifting of integrating B2B and B2C payment methods at a global scale:
 
@@ -37,7 +37,7 @@
     ---
     <br/>
 
-3. **How does a domain withdraw its money from a Collector?**
+1. **How does a domain withdraw its money from a Collector?**
     
     How a recipient [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) receives the money on their bank account depends on the [Collector 🏦 domain](<01 🏦🛠️ Collector helper.md>) - options are as follows.
 
@@ -60,7 +60,7 @@
     ---
     <br/>
 
-5. **Do Collectors have invoicing responsibilities?**
+1. **Do Collectors have invoicing responsibilities?**
 
     No.
     * [Collector 🏦 domains](<01 🏦🛠️ Collector helper.md>) don't have invoicing responsibilities on the NLWeb protocol, but they may implement the feature for simple invoices as an option when issuing receipts.
@@ -69,7 +69,7 @@
     ---
     <br/>
 
-6. **Can a Collector be use in boutique's cash register?**
+1. **Can a Collector be use in boutique's cash register?**
 
     Yes. Here's a possible configuration for [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) admins:
     - add [🔆 NFC/QR Locators](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) on both sides of the counter;
@@ -94,7 +94,7 @@
     <br/>
 
 
-7. **Can a Seller implement the Collector API?**
+1. **Can a Seller implement the Collector API?**
 
     Yes, but that's not recommended. 
     - A [Collector 🏦 domain](<01 🏦🛠️ Collector helper.md>) may be better suited to sign wide international agreements with multiple [Payer 💳](<03 💳🎭 Payer role.md>) and [Biller 🤝 domains](<06 🤝🛠️ Biller helper.md>), and support a multitude of payment options.

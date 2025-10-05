@@ -23,7 +23,7 @@
     
 
 
-2. **What's syntax for input placeholders?**
+1. **What's syntax for input placeholders?**
 
     ```yaml
     {$placeholder} 
@@ -36,7 +36,7 @@
     ---
     <br/>
 
-2. **What's an example for input placeholders?**
+1. **What's an example for input placeholders?**
    
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
@@ -59,7 +59,7 @@
     <br/>
    
 
-3. **What's syntax for files?**
+1. **What's syntax for files?**
 
     ```yaml
     # Static paths
@@ -78,7 +78,7 @@
     <br/>
    
 
-3. **What's an example for files?**
+1. **What's an example for files?**
 
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
@@ -151,7 +151,7 @@
     ---
     <br/>
 
-6. **What are examples of code invocations?**
+1. **What are examples of code invocations?**
    
     | Example | Details
     |-|-
@@ -165,7 +165,7 @@
     ---
     <br/> 
 
-7. **What is passed down to code handlers?**
+1. **What is passed down to code handlers?**
 
     | Component | Details | Example
     |-|-|-
@@ -176,7 +176,7 @@
     ---
     <br/>
 
-8. **How to dump code handler invocations for debugging?**
+1. **How to dump code handler invocations for debugging?**
    
     
 
@@ -223,7 +223,7 @@
 
 
 
-5. **What's the syntax for built-in helper functions?**
+1. **What's the syntax for built-in helper functions?**
 
     ```yaml
     {.helper(params)}
@@ -238,7 +238,7 @@
     <br/>
 
 
-5. **What are examples of built-in helper functions?**
+1. **What are examples of built-in helper functions?**
 
     | Function | Details | Example
     |-|-|-

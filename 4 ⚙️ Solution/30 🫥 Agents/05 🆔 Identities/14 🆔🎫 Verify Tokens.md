@@ -6,7 +6,7 @@
  <br/>
 
 
-2. **What is an Identity-bound Token?**
+1. **What is an Identity-bound Token?**
 
     An [Identity-bound Token 🎫](<14 🆔🎫 Verify Tokens.md>)
     * is a [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
@@ -16,7 +16,7 @@
     <br/>
 
 
-2. **What are the benefits of Token Identity binding?**
+1. **What are the benefits of Token Identity binding?**
 
     Identity binding 
     * allows [Issuer 🎴 domains](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) to lock a given [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) to a specific human, 
@@ -42,7 +42,7 @@
     ---
     <br/>
 
-2. **What are use cases for minimum age verification?**
+1. **What are use cases for minimum age verification?**
 
     The following use cases demonstrate 
     * how to access age-restricted services 
@@ -61,7 +61,7 @@
     ---
     <br/>
 
-3. **What are use cases for staff starting a shift?**
+1. **What are use cases for staff starting a shift?**
 
     |Type|Use case 🤝
     |-|-
@@ -78,7 +78,7 @@
     <br/>
 
 
-3. **How does it work?**
+1. **How does it work?**
 
     ![](<00 📎 Assets/🆔 Tokens.png>)
 
@@ -131,7 +131,7 @@
     ---
     
     
-5. **Can users prove eligibility anonymously?**
+1. **Can users prove eligibility anonymously?**
 
     Yes. 
     

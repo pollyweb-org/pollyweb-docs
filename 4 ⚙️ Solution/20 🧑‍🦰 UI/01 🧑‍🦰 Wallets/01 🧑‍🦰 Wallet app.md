@@ -30,7 +30,7 @@
     <br/>
 
 
-2. **What permissions are required on the device?**
+1. **What permissions are required on the device?**
 
     - Localization settings (for translations)
     - Country location (for fraud prevention)
@@ -41,7 +41,7 @@
     ---
     <br/>
 
-3. **What happens when users install an NLWeb Wallet?**
+1. **What happens when users install an NLWeb Wallet?**
 
     On its first use, [Wallet 🧑‍🦰 apps](<01 🧑‍🦰 Wallet app.md>):
     1. create a key-pair for user and store it in the secure area of the device;
@@ -62,7 +62,7 @@
     ---
     <br/>
 
-5. **Do wallets work after backing up and restoring a phone?**
+1. **Do wallets work after backing up and restoring a phone?**
 
     Yes. 
     - If the OS of the old phone is backed up and restored on another Android or iOS phone, then nothing else is required given that the key-pair of the [Wallet 🧑‍🦰 app](<01 🧑‍🦰 Wallet app.md>) isn't dependent on any hardware key, and is stored on the OS Vault.
@@ -71,7 +71,7 @@
     <br/>
 
 
-5. **How do users migrate a Wallet to another phone?**
+1. **How do users migrate a Wallet to another phone?**
 
     To migrate a [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to another phone, a user first needs to bind an [Identity 🆔 agent domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) on the old phone, and then generate a migration QR [Token 🎫](<../25 🎫 Tokens/01 🎫 Token.md>).
     
@@ -81,7 +81,7 @@
     ---
     <br/>
 
-6. **How do users change between Wallet providers?**
+1. **How do users change between Wallet providers?**
 
     If both the old and the new [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) providers use the same [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>), 
     * then changing between Wallet providers in the same phone is very similar to migrating a Wallet to another phone. 
@@ -97,7 +97,7 @@
     ---
     <br/>
 
-7. **What if an attacker intercepts a user's recovery QR Token?**
+1. **What if an attacker intercepts a user's recovery QR Token?**
 
     When a migration QR is used on a new [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), the [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) notifies the old Wallet, allowing legitimate owners to block the attack and destroy the QR. 
     
@@ -106,14 +106,14 @@
     ---
     <br/>
 
-8. **After destroying a migration QR, how can users migrate?**
+1. **After destroying a migration QR, how can users migrate?**
 
     Just generate a new migration QR.
 
     ---
     <br/>
 
-9. **After losing a phone, how do users recover a wallet on a new phone?**
+1. **After losing a phone, how do users recover a wallet on a new phone?**
 
     If the old phone is not available, then users need an offline migration QR previously printed or saved as an image - without it, it's not possible to recover the Wallet. 
     
@@ -122,7 +122,7 @@
     ---
     <br/>
 
-10. **What if an attacker has the user's old phone and rejects the transfer?**
+1. **What if an attacker has the user's old phone and rejects the transfer?**
 
     After a successful identity authentication on the new phone, blocking the migration from the old phone will also require a successful identity authentication. 
 

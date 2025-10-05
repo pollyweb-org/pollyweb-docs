@@ -9,7 +9,7 @@
 
     ----
 
-2. **What are the technical features of Antennas?**
+1. **What are the technical features of Antennas?**
 
     | Feature | Details
     |-|-
@@ -19,7 +19,7 @@
 
     ---
 
-3. **What are use-cases of domains with Antennas?**
+1. **What are use-cases of domains with Antennas?**
 
     The following scenarios can be accomplished with under-100-milliseconds latency with a single antenna for every 100-meters radio:
 
@@ -37,7 +37,7 @@
     
     ---
 
-5. **How do Antennas know the protocol of each Pluggable device?**
+1. **How do Antennas know the protocol of each Pluggable device?**
 
     They don't. 
     * When users plug the devices to an Antenna, the Antenna registers the device in the connected [🛰️ Relayer](<04 🛰️🛠️ Relayer helper.md>);
@@ -45,25 +45,25 @@
 
     ---
 
-6. **How do Antennas connect to the internet?**
+1. **How do Antennas connect to the internet?**
 
     Via a [Wi-Fier 🛜](<03 🛜🔀 Wi-Fier router.md>).
 
     ---
 
-7. **How do Antennas connect to the Relayer?**
+1. **How do Antennas connect to the Relayer?**
 
     Antennas connect automatically to their [🛰️ Relayer](<04 🛰️🛠️ Relayer helper.md>) as soon as they detect internet - this is a factory setting.
 
     ---
 
-8. **How can domains leverage Antennas?**
+1. **How can domains leverage Antennas?**
 
     When a domain registers an Antenna, it gains access to the [Pluggable 🔌](<01 🔌 Pluggable device.md>) devices attached to the the Antenna.
 
     ---
 
-9. **How can a domain register an Antenna?**
+1. **How can a domain register an Antenna?**
 
     After buying an Antenna from a [Brand 🍏](<../../70 🌳 Ambient/71 💠 Brand Things/07 🍏🎭 Brand role.md>), a domain admin taps/scans the Antenna's [Locator](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) and follows the option to register the Antenna. In the process, the [🛰️ Relayer](<04 🛰️🛠️ Relayer helper.md>) asks the user to share their domain ADMIN [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) issued by the domain.
 

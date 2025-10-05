@@ -23,7 +23,7 @@
 
 
 
-2. **What's an example in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
+1. **What's an example in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
 
     Consider the following [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
@@ -43,7 +43,7 @@
     <br/>
 
 
-3. **What's an example with non-blocking options in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
+1. **What's an example with non-blocking options in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
 
     ```yaml
     INFO|With options|[Cancel] later, [Play] music >> answer
@@ -67,7 +67,7 @@
     <br/>
 
 
-3. **What's the response in the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**
+1. **What's the response in the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**
 
     ```yaml
     Format: INFO

@@ -16,7 +16,7 @@
 
     ---
 
-2. **What domain roles do Personas implement?**
+1. **What domain roles do Personas implement?**
 
     | Role | Purpose
     |-|-
@@ -27,7 +27,7 @@
 
     ---
 
-3. **What domains subscribe to Persona events?**
+1. **What domains subscribe to Persona events?**
 
     | Domain | Purpose
     |-|-
@@ -43,7 +43,7 @@
 
     ---
 
-5. **How do Persona vaults differ from Identity vaults?**
+1. **How do Persona vaults differ from Identity vaults?**
 
     [Persona 🧢 vaults](<02 🧢🫥 Persona agent.md>) are controlled by users, allowing them to define their preferences according to specific circumstances (e.g., a user may have different preferences when traveling for work or on family holidays). 
     
@@ -52,13 +52,13 @@
 
     ---
 
-6. **Can users leverage their social network instead?**
+1. **Can users leverage their social network instead?**
 
     Yes. A [Persona 🧢](<02 🧢🫥 Persona agent.md>) is an NLWeb role that can be implemented by any social network. Thus, once the user's social network onboards to NLWeb as a Persona, users can use it.
 
     ---
 
-7. **How are Personas kept from selling user data?**
+1. **How are Personas kept from selling user data?**
 
     Personas 🧢 should follow the principle of benevolence - i.e., only collect data for users' benefit, not for users' manipulation.
 
@@ -66,19 +66,19 @@
 
     ---
 
-8. **How do Personas comply with data residency policies?**
+1. **How do Personas comply with data residency policies?**
 
     By leveraging [Storage 📦](<../01 📦 Storage/01 📦🫥 Storage agent.md>) vaults.
 
     ---
     
-9. **What is the role of Personas in advertising?**
+1. **What is the role of Personas in advertising?**
 
     See [Advertiser 👀](<../10 🔎 Finders/03 👀👥 Advertiser helper.md>) domains.
 
     ---
     
-10. **Should Personas hold medical information?**
+1. **Should Personas hold medical information?**
 
     No.
     - Medical information, like allergies, fall under specific data protection and privacy regulations like HIPAA (Health Insurance Portability and Accountability Act - U.S.).
@@ -86,7 +86,7 @@
 
     ---
 
-11. **Should Personas hold credit card information?**
+1. **Should Personas hold credit card information?**
 
     No.
     - Storing card details required special security settings defined by PCI/DSS policies.

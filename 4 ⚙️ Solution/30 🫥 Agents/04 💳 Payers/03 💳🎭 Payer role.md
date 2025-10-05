@@ -19,7 +19,7 @@
     <br/>
     
 
-2. **How are currency conversions handled?**
+1. **How are currency conversions handled?**
 
     Payers 💳 are responsible for converting the currency to the price of the [Seller 💵 domain](<01 💵🎭 Seller role.md>).
 
@@ -30,7 +30,7 @@
     ---
     <br/>
 
-3. **Why not leverage the Open Banking protocol?**
+1. **Why not leverage the Open Banking protocol?**
 
     While NLWeb follows the Open Banking rational for payments, it requires features not available in Open Banking;
     - e.g., the ability to jump between bank entities from within a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) in the user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
@@ -46,14 +46,14 @@
     ---
     <br/>
     
-5. **How does a user bind to their traditional bank?**
+1. **How does a user bind to their traditional bank?**
 
     The bank needs to onboard into NLWeb as a [Payer 💳 domain](<03 💳🎭 Payer role.md>).
 
     ---
     <br/>
     
-6. **What happens if a transaction is cancelled?**
+1. **What happens if a transaction is cancelled?**
 
     Typically, the money is reverted, but it depends on the relationship between the [Payer 💳 domain](<03 💳🎭 Payer role.md>) and the [Collector 🏦 domain](<01 🏦🛠️ Collector helper.md>).
 
@@ -93,7 +93,7 @@
     ---
     <br/>
     
-10. **Does NLWeb allow for offline payments in airplanes?**
+1. **Does NLWeb allow for offline payments in airplanes?**
 
     No. NLWeb requires internet connectivity on the user's device. 
     
@@ -104,7 +104,7 @@
     ---
     <br/>
     
-11. **Do Payers transfer money to collectors, or pay by card?**
+1. **Do Payers transfer money to collectors, or pay by card?**
 
     [Payer 💳 domains](<03 💳🎭 Payer role.md>) and [Collector 🏦 domains](<01 🏦🛠️ Collector helper.md>) may support multiple ways to transact. 
     
@@ -114,7 +114,7 @@
     ---
     <br/>
     
-12. **Can a payment be reverted or cancelled?**
+1. **Can a payment be reverted or cancelled?**
 
     Yes. 
     * [Collector 🏦 domains](<01 🏦🛠️ Collector helper.md>) can initiate it, but [Payer 💳 domains](<03 💳🎭 Payer role.md>) can't.
@@ -122,7 +122,7 @@
     ---
     <br/>
     
-13. **Can payments be done with credit/debit notes?**
+1. **Can payments be done with credit/debit notes?**
 
     Yes, as long as the [Payer 💳 domain](<03 💳🎭 Payer role.md>) and the [Collector 🏦 domain](<01 🏦🛠️ Collector helper.md>) support it.
 
@@ -131,7 +131,7 @@
     
 
     
-15. **Why not use blockchain to perform the money transfer?**
+1. **Why not use blockchain to perform the money transfer?**
 
     NLWeb discourages the usage of blockchain in this scenario for multiple reasons:
 
@@ -146,14 +146,14 @@
     ---
     <br/>
     
-16. **How is money laundry prevented?**
+1. **How is money laundry prevented?**
 
     NLWeb leverages payment transfers to be made using existing platforms and transfers protocols that already have international guardrails implemented, thus inheriting these guardrails.
 
     ---
     <br/>
 
-17. **Can Payers read card details from Persona vaults?**
+1. **Can Payers read card details from Persona vaults?**
 
     No.
     * For design simplicity, [Payer 💳 domains](<03 💳🎭 Payer role.md>) store user's card details instead of pulling them from [Persona 🧢 vaults](<../02 🧢 Personas/02 🧢🫥 Persona agent.md>) .

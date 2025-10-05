@@ -14,7 +14,7 @@
 
 
 
-2. **What's an example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
+1. **What's an example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
 
     Consider the following [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
@@ -33,7 +33,7 @@
     ---
     <br/>
 
-2. **What are usages of FAILURE?**
+1. **What are usages of FAILURE?**
 
     |Category|Use case
     |-|-
@@ -49,7 +49,7 @@
     <br/>
 
 
-2. **What's the format for a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
+1. **What's the format for a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
     FAILURE|<message>|<options> >> <key>
@@ -60,7 +60,7 @@
 
 
 
-3. **What's the response in the [Prompted@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**
+1. **What's the response in the [Prompted@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**
 
     ```yaml
     Format: FAILURE

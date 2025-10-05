@@ -17,7 +17,7 @@
     ---
     <br/>
 
-2. **How do Buffers work?**
+1. **How do Buffers work?**
 
     ![](<.📎 Assets/📨⏳ Buffer.png>)
 
@@ -31,7 +31,7 @@
     ---
     <br/>
 
-3. **Why are Buffers important?**
+1. **Why are Buffers important?**
 
     [Buffer ⏳ domains](<03 ⏳🛠️ Buffer helper.md>) handle the difference in speed and availability between two [domains 👥](<../44 📜 Manifests/00 👥 Domain.md>), allowing for faster [Streamer 🌬️ domains](<02 🌬️🎭 Streamer role.md>) to continue without waiting for the slower receiver.
 
@@ -55,7 +55,7 @@
     ---
     <br/>
 
-5. **Is the content of events kept private from Buffers?**
+1. **Is the content of events kept private from Buffers?**
 
     Yes. 
     
@@ -84,7 +84,7 @@
 
 
 
-2. **What if a wake-up request fails?**
+1. **What if a wake-up request fails?**
 
     Sometimes, [Subscriber 🔔 domains](<04 🔔🎭 Subscriber role.md>) may be unreachable due to downtime, malfunctions, and unexpected network issues. 
     * To account for network issues during a weekend, [Buffer ⏳ domains](<03 ⏳🛠️ Buffer helper.md>) retry to wake-up [Subscriber 🔔 domains](<04 🔔🎭 Subscriber role.md>) with exponential back-off for 3 days.
@@ -93,7 +93,7 @@
     ---
     <br/>
 
-3. **Do Buffers allow events to be replayed?**
+1. **Do Buffers allow events to be replayed?**
 
     Yes, optionally.
     * Replay allows a [Subscriber 🔔 domains](<04 🔔🎭 Subscriber role.md>) to change their handling logic, then go back into the past and process again all events received from a given date (e.g., for A/B testing of new features).
@@ -104,7 +104,7 @@
     <br/>
 
 
-2. **Do Buffers allow Subscribers to poll in batch?**
+1. **Do Buffers allow Subscribers to poll in batch?**
 
     Yes, optionally.
     * [Buffer ⏳ domains](<03 ⏳🛠️ Buffer helper.md>) allow [Subscriber 🔔 domains](<04 🔔🎭 Subscriber role.md>) to poll in batch (i.e., multiple events per poll). 
@@ -114,7 +114,7 @@
     ---
     <br/>
 
-3. **Do Buffers allow Subscribers to poll in parallel?**
+1. **Do Buffers allow Subscribers to poll in parallel?**
 
     Yes, except for first-in-first-out (FIFO) delivery.
     * [Subscriber 🔔 domains](<04 🔔🎭 Subscriber role.md>) can use multiple parallel connections to increase the polling throughput.
@@ -134,7 +134,7 @@
     ---
     <br/>
 
-5. **What if an event is not confirmed?**
+1. **What if an event is not confirmed?**
 
     If an event is not confirmed before it expires, then the event becomes available again for polling.
     * [Buffer ⏳ domains](<03 ⏳🛠️ Buffer helper.md>) will repeat this for a few times (typically three), until the event is removed from the queue.

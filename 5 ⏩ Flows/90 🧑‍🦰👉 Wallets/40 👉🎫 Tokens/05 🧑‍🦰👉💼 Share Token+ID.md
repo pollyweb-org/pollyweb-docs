@@ -33,7 +33,7 @@
     ---
     <br/>
 
-2. **What does the Invite@Broker call look like?**
+1. **What does the Invite@Broker call look like?**
 
     Consider the following example payload to  [`Invite@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/64 💼🐌🤵 Invite.md>).
 
@@ -42,7 +42,7 @@
         From: any-consumer.com
         To: any-broker.com
         Subject: Invite@Broker
-        
+
     Body:
         ChatID: <chat-uuid>
         Invitee: any-identity.com

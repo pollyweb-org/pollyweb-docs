@@ -8,7 +8,7 @@
     ---
     <br/>
 
-2. **What are examples of domain stamps?**
+1. **What are examples of domain stamps?**
 
     | Example | Details
     |-|-
@@ -17,7 +17,7 @@
     ---
     <br/>
 
-3. **How does it work**?
+1. **How does it work**?
 
     ![](<.📎 Assets/📨 Signature Domains.png>)
 
@@ -44,7 +44,7 @@
     ---
     <br/>
 
-5. **What is contained in a domain stamp?**
+1. **What is contained in a domain stamp?**
 
     Domain stamps contain the following properties.
     
@@ -69,7 +69,7 @@
     ---
     <br/>
 
-6. **How do sender domains stamp files**?
+1. **How do sender domains stamp files**?
     
     To stamp a file, sender [domains 👥](<../44 📜 Manifests/00 👥 Domain.md>): 
     1. calculate the hash of the file without the stamp; 
@@ -81,7 +81,7 @@
     ---
     <br/>
 
-7. **How do receiver domains verify a sender's signature**?
+1. **How do receiver domains verify a sender's signature**?
 
     To verify a file, receiver [domains 👥](<../44 📜 Manifests/00 👥 Domain.md>): 
     1. calculate the hash of the file without the stamp;
@@ -92,14 +92,14 @@
     ---
     <br/>
 
-8. **What if the public key of the sender changes?**
+1. **What if the public key of the sender changes?**
 
     The stamp contains the key of the DKIM used to sign the file, so it can obtain the public key with [Public Key @ Graph 🚀](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/07 👥🚀🕸 Public Key.md>).
 
     ---
     <br/>
 
-9. **What's the reason for removing the stamp from hash?**
+1. **What's the reason for removing the stamp from hash?**
 
     When metadata is added to a file, it changes its hash. 
     * Thus, it's impossible to add the hash of a file to the file itself, 
@@ -108,14 +108,14 @@
     ---
     <br/>
 
-10. **Can other metadata be added to files after being signed?**
+1. **Can other metadata be added to files after being signed?**
 
     No. That would invalidate the hash in the signature.
 
     ---
     <br/>
 
-11. **Can signatures be invalidated by zipping the file**?
+1. **Can signatures be invalidated by zipping the file**?
 
     No. The binary nature of digital files ensure their integrity.
 
