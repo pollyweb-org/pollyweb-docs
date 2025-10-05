@@ -78,7 +78,7 @@
     | 📜 [`FLOW`](<41 📝 FORM msg.md>)
     | 💳 [`CHARGE`](<43 💳 CHARGE msg.md>)
     | 💼 [`SHARE`](<46 💼 SHARE msg.md>)
-    | 🛰️ [`RELAY`](<32 🛰️ RELAY msg.md>)
+    | 🛰️ [`RELAY`](<51 🛰️ RELAY msg.md>)
     |
     
    

@@ -104,6 +104,6 @@ Success:
 || 💳 [`CHARGE`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/43 💳 CHARGE msg.md>) | Charge the item price
 || 🏦 [`REFUND`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/44 🏦 REFUND.md>) | Refund the payment on failure
 || 👋 [`GOODBYE`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/47 👋 GOODBYE.md>) | Show ads on success
-|| 🛰️ [`RELAY`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/32 🛰️ RELAY msg.md>) | Relay messages to vending machines
+|| 🛰️ [`RELAY`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/51 🛰️ RELAY msg.md>) | Relay messages to vending machines
 |
 

@@ -21,6 +21,7 @@
 | 🍽️ Restaurant | ℹ️ Received contacts: [Change] <br/>- name: Alice <br/>- pronouns: [ She ]<br/>- phones: [ +1 000 000 000 ]<br/>- emails: [ alice@email.com ]
 | 🧢 [Persona](<../../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) | 🫥 Share seat preferences? [No] <br/>- [ 👤 solo ] <br/>- [ 👨‍👩‍👦 family ] <br/>- [ 🤝 business ] | > 👨‍👩‍👦 family
 | 🍽️ Restaurant | ℹ️ Received preferences: [Change] <br/>- no smoking area <br/>- nice view <br/>- conversational waitress
+| 🍽️ Restaurant | 😃 Confirm booking? [Yes, No] | > Yes
 | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Save booking? [Yes, No]  | > Yes
 | 🍽️ Restaurant | ✅ Done. See you then!
 | ⭐ [Rate](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5
@@ -53,7 +54,9 @@
     - table for {$b.Party}
     - {$r.Date}, {$.Time}
     - at {$r.Name}, {$r.PostCode}
-- INFO|{$s}|Change≈$b
+- INFO|{$s}|Change:
+    OnOption: 
+        Change: RESET|$b
 
 # Get Contacts
 - SHARE|nlweb.org/PERSONA/BOOKING >> $c
@@ -63,20 +66,26 @@
     - pronouns: {$c.Pronouns}
     - phones: {$c.Phones}
     - emails: {$c.Emails}
-- INFO{$s}|Change≈$c
+- INFO{$s}|Change:
+    OnOption: 
+        Change: RESET|$c
 
 # Get preferences
 - SHARE|nlweb.org/PERSONA/SEAT/PREFERENCES >> $p
 - EVAL >> $s |
     Received preferences: 
     {$p.Preferences}
-- INFO:{$s}|Change≈$p
+- INFO:{$s}|Change:
+    OnOption: 
+        Change: RESET|$p
 
 # Confirm the booking
+- CONFIRM|Confirm booking?
 - EVAL|{Confirm} >> $token
     Booking: $b
     Contacts: $c
     Preferences: $p
+- CHECKPOINT
 - ISSUE|nlweb.org/HOST/BOOKING/SELF|{$token}
 - SUCCESS|Done. See you then!
 - GOODBYE
