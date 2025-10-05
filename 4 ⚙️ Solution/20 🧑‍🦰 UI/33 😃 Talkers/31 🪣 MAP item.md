@@ -9,8 +9,55 @@
 
     A `MAP` 🪣
     * is a [Command ⌘](<10 ⌘ Command.md>) 
-    * that retrieves an item by key from a resource pool
-    * into a placeholder.
+    * that retrieves an item by key 🔑
+    * from a key-value resource pool 🪣
+    * into a [Talker 😃](<01 😃 Talker.md>) placeholder.
+
+    ---
+    <br/>
+
+1. **How to define a Resource Pool?**
+
+    Resource Pools are defined in three ways in [Hoster ☁️ domains](<../35 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>).
+
+    |Format| Details
+    |-|-
+    | `Markdown` | This is an upload `.md` file.
+    | `YAML` | This is also an uploaded `.yaml` file.
+    | `HTTP`| This is an endpoint defined in the settings.
+    |
+
+    Example of a Markdown resource pool called `Items.md`
+
+    ```yaml
+    # 🪣 Items
+    | Code | Name          | Price  | 21+
+    |------|---------------|--------|----
+    | 123  | water bottle  |  1.50  |
+    | ABC  | beer          |  4.50  | Yes
+    ````
+
+    Example of a YAML resource pool called `Items.yaml`
+
+    ```yaml
+    # 🪣 Items
+    - 123: 
+        Code: 123
+        Name: water bottle
+        Price: 1.50
+    - ABC:
+        Code: ABC
+        Name: beer
+        Price: 4.50
+        21+: Yes
+    ```
+
+    Example of an HTTP endpoint.
+
+    ```yaml
+    Items:
+        Endpoint: https://rest.any-domain.com/Items/{key}
+    ```
 
     ---
     <br/>
@@ -48,16 +95,11 @@
 
     Consider the resource pool `MyPool` 🪣 as the following.
    
-    ```yaml
-    # 🪣 MyPool
-    - Key1: 
-        PropA: 1.A
-        PropB: 1.B 
-    - Key2:
-        PropA: 2.A
-        ProbB: 2.B 
-    ```
-
+    |Key|PropA|PropB
+    |-|-|-
+    |Key1|1.A|1.B 
+    |Key2|2.A|2.B 
+    
     The following [Talker 😃](<01 😃 Talker.md>) renders `ℹ️ 2.A` in the Chat.
 
     ```yaml
@@ -72,7 +114,7 @@
 5. **What does it look in a Chat?**
 
 
-    | [Domain](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 🍫 Vending | 😃 What's the item number?   | 🔢 123
     | 🍫 Vending | 😃 A water bottle? [Yes, No]  
@@ -84,15 +126,12 @@
     - MAP|Items|{$n} >> $item
     - CONFIRM|A {$item.Name}?     
     ```
-
-
-    ```yaml
-    # 🪣 Items
-    | Number | Name          | Price  | 21+
-    |--------|---------------|--------|----
-    | 123    | water bottle  |  1.50  |
-    | 124    | beer          |  4.50  | Yes
-    ```
+    
+    | Number | Name          |
+    |--------|---------------|
+    | 123    | water bottle  |
+    | 456    | beer          |
+    
     
 
     ---
