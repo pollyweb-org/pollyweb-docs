@@ -16,7 +16,7 @@
     ---
     <br/>
 
-2. **How to define Trust relationships?**
+1. **How to define Trust relationships?**
 
     [Trusts 👍](<01 👍 Domain Trust.md>) 
     * are defined in [domain Manifests 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>) 
@@ -44,7 +44,7 @@
     ---
     <br/>
 
-3. **How to trust an unknown domain trusted by others?**
+1. **How to trust an unknown domain trusted by others?**
     
     A [domain 👥](<../44 📜 Manifests/00 👥 Domain.md>) may trust an unknown domain on a specific subject if there’s a [trust 👍](<01 👍 Domain Trust.md>) third domain advocating on behalf of the unknown one;   
     * e.g., `any-buyer.com` accepts payment requests from all domains 
@@ -89,7 +89,7 @@
     ---
     <br/>
 
-5. **How are time-bounded agreements represented?**
+1. **How are time-bounded agreements represented?**
 
     [Trusts 👍](<01 👍 Domain Trust.md>) can have an expiration date, allowing domains to set an end-date to a [trust 👍](<01 👍 Domain Trust.md>);
     - e.g., `any-country.com` may allow temporary visa-less immigration during an international soccer event.
@@ -97,7 +97,7 @@
     ---
     <br/>
 
-6. **How can legal bans be imposed nation-wide?**
+1. **How can legal bans be imposed nation-wide?**
 
     [Trust 👍](<01 👍 Domain Trust.md>) can be granted or revoked. 
     
@@ -120,7 +120,7 @@
     ---
     <br/>
 
-7. **How are immediate security bans imposed?**
+1. **How are immediate security bans imposed?**
 
     To protect themselves from harmful actors,
     *  [domains 👥](<../44 📜 Manifests/00 👥 Domain.md>)s may inherit all revokes from [Firewall 🔥 domains](<03 🔥🛠️ Firewall helper.md>) to immediately block any new threat, regardless of any direct or indirect [trust 👍](<01 👍 Domain Trust.md>) to the harmful actor;
@@ -149,7 +149,7 @@
     ---
     <br/>
 
-8. **Why not using the PKI (rfc5280) to handle domain trust?**
+1. **Why not using the PKI (rfc5280) to handle domain trust?**
 
     The *Public Key Infrastructure (PKI)* is already used by *Certificate Authorities (CAs)* to access if domains can be trusted, both directly and indirectly. 
     
@@ -166,7 +166,7 @@
     ---
     <br/>
 
-9. **How to calculate indirect trust paths when nodes are down?**
+1. **How to calculate indirect trust paths when nodes are down?**
 
     Domains can rely on [Graph 🕸 domains](<../44 📜 Manifests/03 🕸🛠️ Graph helper.md>):
     - these keep up-to-date graph representations of all possible trust-paths between two domains, allowing [Trust 👍](<01 👍 Domain Trust.md>) paths to be queried even when the domains comprising the nodes of those paths are unavailable 
@@ -175,7 +175,7 @@
     ---
     <br/>
 
-10. **How can domains know when another domain lost trust in them?**
+1. **How can domains know when another domain lost trust in them?**
 
     [Domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) can rely on [Graph 🕸 domain helpers](<../44 📜 Manifests/03 🕸🛠️ Graph helper.md>):
     - these can detect trust removals and notify affected [subscriber 🔔 domains](<../41 📨 Comms/04 🔔🎭 Subscriber role.md>);
@@ -185,7 +185,7 @@
     ---
     <br/>
 
-10. **How can domains know when indirect trust changes affect them?**
+1. **How can domains know when indirect trust changes affect them?**
 
     [Domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) can rely on [Graph 🕸 domains](<../44 📜 Manifests/03 🕸🛠️ Graph helper.md>):
     - these can monitor for changes in specific [Trust 👍](<01 👍 Domain Trust.md>) paths that may affect an indirect [Trust 👍](<01 👍 Domain Trust.md>) relationship;

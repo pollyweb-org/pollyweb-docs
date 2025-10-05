@@ -9,7 +9,7 @@
 
     ---
 
-2. **What domain roles do Printers typically implement?**
+1. **What domain roles do Printers typically implement?**
    
     |Role|Description
     |-|-
@@ -22,7 +22,7 @@
 
     ---
 
-3. **Why are Printers important?**
+1. **Why are Printers important?**
 
     For users:
     * Printer 🖨️ domains allow users to turn any object into a smart object - i.e., a [Thing 💠](<01 💠 Thing.md>);
@@ -34,7 +34,7 @@
     ---
 
 
-6. **How do Printers monetize?**
+1. **How do Printers monetize?**
 
     The monetizing strategy is up to each Printer 🖨️ domain. 
     
@@ -46,7 +46,7 @@
 
     ---
 
-7. **What are the possible formats and sizes?**
+1. **What are the possible formats and sizes?**
 
     Printed [Locators 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) come in many shapes and sizes, including:
     - 👕 textile labels for [clothing 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/14 📺 NFC in clothing.md>);
@@ -59,7 +59,7 @@
 
     ---
 
-8. **Do Hosts have to know the Locators in advance?**
+1. **Do Hosts have to know the Locators in advance?**
 
     Not necessarily. 
     

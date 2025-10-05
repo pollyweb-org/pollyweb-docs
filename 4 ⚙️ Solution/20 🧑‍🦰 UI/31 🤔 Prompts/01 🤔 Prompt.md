@@ -36,7 +36,7 @@
     <br/>
 
 
-2. **Can Hosts replace sent prompts?**
+1. **Can Hosts replace sent prompts?**
 
     Yes, but only temporary [Prompts 🤔](<01 🤔 Prompt.md>). 
     - If a [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) sends  two consecutive blocking [Prompts 🤔](<01 🤔 Prompt.md>) while the user has not answered the first, then the first becomes readonly and the second becomes the active input.
@@ -46,7 +46,7 @@
     ---
     <br/>
 
-3. **Can users respond to an old prompt?**
+1. **Can users respond to an old prompt?**
 
     NLWeb [Chats 💬](<../12 💬 Chats/01 💬 Chat.md>) are designed to be forward-only workloads managed by a [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) (and not by the user). 
     * This behavior is visible on LLM apps like on ChatGPT, Gemini, and others. 
@@ -64,7 +64,7 @@
 
 
 
-5. **What are expandable details?**
+1. **What are expandable details?**
 
     These are additional details that are initially collapsed to users, e.g.:
     * [Finder 🔎 vault](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>)
@@ -95,7 +95,7 @@
 
 
 
-6. **How to attach a file?**
+1. **How to attach a file?**
 
     > This calls [Download@Host 🚀](<../../../6 🅰️ APIs/50 🤗🅰️ Host/06 🧑‍🦰🚀🤗 Download.md>)
     

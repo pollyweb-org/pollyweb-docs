@@ -18,7 +18,7 @@
     <br/>
 
 
-3. **What's the SHARE syntax?**
+1. **What's the SHARE syntax?**
 
     ```yaml
     SHARE|<code> >> $shared
@@ -73,7 +73,7 @@
     <br/>
 
 
-5. **What are use cases of SHARE?**
+1. **What are use cases of SHARE?**
 
     |Data | Use case|
     |-|-

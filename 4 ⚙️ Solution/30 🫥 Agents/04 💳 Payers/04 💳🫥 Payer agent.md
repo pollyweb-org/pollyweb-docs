@@ -7,7 +7,7 @@
 
     ---
 
-2. **How are user payments processed for users?**
+1. **How are user payments processed for users?**
 
     ![](<00 📎 Assets/💳 Payer.png>)
 
@@ -25,7 +25,7 @@
 
     ---
 
-3. **What user problems do Payers solve?**
+1. **What user problems do Payers solve?**
 
     Read the [User challenges 🧑 ](<../../../2 🏔️ Landscape/1 💼 Business landscape/05 💳 Payments landscape/01 🧑 User challenges.md>) section of the [Payments landscape FAQ 💳](<../../../2 🏔️ Landscape/1 💼 Business landscape/05 💳 Payments landscape/00 💳 Payments index.md>).
 
@@ -46,7 +46,7 @@
 
     ---
 
-14. **After a payment, do users receive the Seller's receipt?**
+1. **After a payment, do users receive the Seller's receipt?**
 
     No. 
     

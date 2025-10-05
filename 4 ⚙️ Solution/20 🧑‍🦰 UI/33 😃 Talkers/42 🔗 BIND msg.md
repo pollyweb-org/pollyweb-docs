@@ -14,7 +14,7 @@
     <br/>
 
 
-3. **What does a Chat look like for static codes?**
+1. **What does a Chat look like for static codes?**
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
@@ -25,7 +25,7 @@
     ---
     <br/>
 
-2. **What's the BIND syntax for static codes?**
+1. **What's the BIND syntax for static codes?**
 
    ```yaml
    BIND >> $bound:
@@ -42,7 +42,7 @@
     ---
     <br/>
 
-3. **What does a Talker look like for static codes?**
+1. **What does a Talker look like for static codes?**
     
    ```yaml
    # 😃 Talker 
@@ -79,7 +79,7 @@
     ---
     <br/>
 
-5. **What does a Talker look like for placeholder codes?**
+1. **What does a Talker look like for placeholder codes?**
     
    ```yaml
    # 😃 Talker 

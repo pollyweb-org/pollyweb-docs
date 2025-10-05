@@ -31,7 +31,7 @@ TODO: Create the API methods
     ---
     <br/>
 
-2. **What are use-cases of users signing documents?**
+1. **What are use-cases of users signing documents?**
 
     |Type|Use case 🤝
     |-|-
@@ -67,7 +67,7 @@ TODO: Create the API methods
     <br/>
 
 
-2. **How does it work?**
+1. **How does it work?**
 
     ![](<00 📎 Assets/🆔 Signature.png>)
 
@@ -87,7 +87,7 @@ TODO: Create the API methods
     ---
     <br/> 
     
-3. **How do users sign files?**
+1. **How do users sign files?**
 
     ![](<00 📎 Assets/🆔 Signature Users.png>)
 
@@ -116,7 +116,7 @@ TODO: Create the API methods
     ---
     <br/> 
     
-5. **What data is contained in a user-signature file Token?**
+1. **What data is contained in a user-signature file Token?**
 
     A user-signature file [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) contains:
     * the [Identity 🆔 domain](<01 🆔🫥 Identity agent.md>)  - e.g., `any-identity.com`

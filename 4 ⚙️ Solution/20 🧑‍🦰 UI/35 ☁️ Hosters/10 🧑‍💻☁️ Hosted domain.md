@@ -20,7 +20,7 @@
 
 
 
-6. **What domain files are cloned locally?**
+1. **What domain files are cloned locally?**
 
     | File | Format | Purpose
     |-|-|-
@@ -35,7 +35,7 @@
     ---
     <br/>
 
-7. **What does the Inbound file look like?**
+1. **What does the Inbound file look like?**
 
     The `📥 Inbound.yaml` file tells the [Hoster ☁️ domain](<05 ☁️🛠️ Hoster helper.md>) which [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) to forward, and where to.
     
@@ -81,7 +81,7 @@
     <br/>
 
 
-2. **What does the Helpers file look like?**
+1. **What does the Helpers file look like?**
 
     ```yaml
     🤝: nlweb.org/HOSTER/HELPERS
@@ -97,7 +97,7 @@
     ---
     <br/>
 
-3. **How to break the Manifest file when too big?**
+1. **How to break the Manifest file when too big?**
 
     To break a [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) file, replace it with a folder of the same name, then create the following structure.
 
@@ -159,7 +159,7 @@
     ---
     <br/>
 
-    
+
 1. **What are the API methods?**
    
     | Method | Purpose

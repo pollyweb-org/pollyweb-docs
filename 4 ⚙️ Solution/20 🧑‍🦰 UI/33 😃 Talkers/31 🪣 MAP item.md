@@ -63,14 +63,14 @@
     <br/>
 
 
-2. **What are use cases?**
+1. **What are use cases?**
 
     * [Vending machines 🏪](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/01 🏪 Index.md>)
 
     ---
     <br/>
 
-3. **What's the syntax?**
+1. **What's the syntax?**
 
     ```yaml
     - MAP|<pool>|<key> >> $item
@@ -111,7 +111,7 @@
     ---
     <br>
 
-5. **What does it look in a Chat?**
+1. **What does it look in a Chat?**
 
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)

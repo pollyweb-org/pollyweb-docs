@@ -40,7 +40,7 @@
     ----
     <br/>
 
-2. **What if the user doesn't have the domain's Locator?**
+1. **What if the user doesn't have the domain's Locator?**
 
     If a user doesn't know exactly where to find a [Locator 🔆](<../11 🔆 Locators/01 🔆 Locator.md>), they can use the [Finder 🔎 domain](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) to search for it;
     * e.g., if a UK user wants to bind to the UK's national health service but doesn't know where to start, the user can ask for "health service" and the assistance replies with "NHS?".
@@ -48,7 +48,7 @@
     ---
     <br/>
 
-3. **Can users send a sequence of messages in a chat?**
+1. **Can users send a sequence of messages in a chat?**
 
     No. 
     - NLWeb [Chats 💬](<01 💬 Chat.md>) don't implement WhatsApp's free flow conversation, where users can send multiple messages in sequence that humans typically interpret as a flow. 
@@ -59,7 +59,7 @@
     <br/>
     
 
-2. **What are the message types supported in chats?**
+1. **What are the message types supported in chats?**
 
     | Component | Behavior
     |-|-
@@ -75,7 +75,7 @@
 
 
 
-7. **How can Hosts leverage reference data, like countries?**
+1. **How can Hosts leverage reference data, like countries?**
 
     [Hosts 🤗 domains](<04 🤗🎭 Host role.md>) can use data sets exposed by [Dataset 🪣 helper domains](<07 🪣🎭 Dataset role.md>).
 
@@ -91,14 +91,14 @@
     ---
     <br/>
 
-5. **How can users report a domain's misconduct?**
+1. **How can users report a domain's misconduct?**
 
     Like in WhatsApp, users can report or block a domain, providing the reason for it (e.g., offensive, unsolicited, spam).
 
     ---
     <br/>
 
-6. **How can users contribute to a domain's reputation?**
+1. **How can users contribute to a domain's reputation?**
 
     Users can provide feedback to domains via stars and comments. 
     * Also, by reporting on domains, users are contributing negatively to the domain's reputation. 
@@ -108,7 +108,7 @@
     ---
     <br/>
 
-7. **Do chats support map navigation?**
+1. **Do chats support map navigation?**
 
     No. 
     - [Host 🤗 domains](<04 🤗🎭 Host role.md>) can send location pins in user chats, then users can click on them to open the device's default map navigation app.

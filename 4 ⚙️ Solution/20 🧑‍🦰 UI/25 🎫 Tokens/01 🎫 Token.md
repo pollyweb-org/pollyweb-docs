@@ -69,7 +69,7 @@
     ---
     <br/>
     
-2. **Are these crypto tokens from blockchain?**
+1. **Are these crypto tokens from blockchain?**
 
     No. 
     * NLWeb does not use blockchain nor cryptocurrencies. 
@@ -78,7 +78,7 @@
     ---
     <br/>
     
-3. **Can Tokens be used for documents with photo validation?**
+1. **Can Tokens be used for documents with photo validation?**
 
     Yes, [Tokens 🎫](<01 🎫 Token.md>) can be identity-bound;
     - i.e., they can allow [Consumer 💼 domains](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>) to confirm that the holder of the Token is effectively the human for whom the [Token 🎫](<01 🎫 Token.md>)  was issue to. 
@@ -125,7 +125,7 @@
     ---
     <br/>
 
-3. **Why do SELF Tokens exist?**
+1. **Why do SELF Tokens exist?**
 
     [SELF Tokens 🎫](<01 🎫 Token.md>) are typically issued as a pass to be presented back to the [Token's Issuer 🎴 domain](<02 🎴🎭 Issuer role.md>) in a later moment in time, aiming for the least possible friction in the future - e.g.:
 
@@ -151,7 +151,7 @@
     ---
     <br/>
     
-5. **Can users print Tokens in paper?**
+1. **Can users print Tokens in paper?**
 
     Yes. 
     - Offline [Tokens 🎫](<01 🎫 Token.md>) allow users to remove the dependency on the device's battery, or technical issues with the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) resulting from low or no internet connectivity;
@@ -169,7 +169,7 @@
     ---
     <br/>
     
-6. **Can users save multiple Tokens in a single NFC card?**
+1. **Can users save multiple Tokens in a single NFC card?**
 
     Yes. 
     - Users can reference multiple [Tokens 🎫](<01 🎫 Token.md>) with a single NFC via [Userable 💍 things](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>).
@@ -178,7 +178,7 @@
     <br/>
     
     
-7. **What data is contained in a Token?**
+1. **What data is contained in a Token?**
 
     [Tokens 🎫](<01 🎫 Token.md>) derive from [Locators 🔆](<../11 🔆 Locators/01 🔆 Locator.md>), so they contain the following properties.
 

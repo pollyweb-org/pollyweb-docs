@@ -43,7 +43,7 @@
     ---
     <br/>
 
-2. **How do emojis work?**
+1. **How do emojis work?**
 
     Emoji | Behavior
     |-|-
@@ -54,7 +54,7 @@
     <br/>
 
 
-2. **How to implement emotions?**
+1. **How to implement emotions?**
 
     The `😃` emoji can be replaced with one of the following.
 
@@ -133,7 +133,7 @@
     ---
     <br/>
 
-2. **How to implement server-side validations?**
+1. **How to implement server-side validations?**
 
     Consider the following [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) as an example.
 

@@ -25,7 +25,7 @@
 
     ---
 
-2. **How can domains leverage Firewalls?**
+1. **How can domains leverage Firewalls?**
 
     [Domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) can inherit a Firewall's blacklist on their [domain Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>);
     * this overrides any direct or indirect [Trust 👍](<01 👍 Domain Trust.md>) relationship between [domains 👥](<../44 📜 Manifests/00 👥 Domain.md>), working as an instantaneous mechanism to cut the communication with the blacklisted domain. 
@@ -33,7 +33,7 @@
     ---
     <br/>
 
-3. **Do Firewalls monitor Listeners and Graphs?**
+1. **Do Firewalls monitor Listeners and Graphs?**
 
     Yes. 
     * [Firewall 🔥 helper domains](<03 🔥🛠️ Firewall helper.md>) subscribe to [Listener 👂 domain streams](<../44 📜 Manifests/02 👂🛠️ Listener helper.md>) and [Graph 🕸 domain streams](<../44 📜 Manifests/03 🕸🛠️ Graph helper.md>) to monitor their robustness, reliability, and conformity to the NLWeb protocol, revoking their [Trust 👍](<01 👍 Domain Trust.md>) when necessary;
@@ -50,7 +50,7 @@
     ---
     <br/>
 
-5. **Do Firewalls report on suspicions before blocking?**
+1. **Do Firewalls report on suspicions before blocking?**
 
     No. 
     * NLWeb advocates the usage of [Reviewer ⭐ domains](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) to assess the level of trustworthiness of another [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>).
@@ -59,7 +59,7 @@
     <br/>
 
 
-5. **What's an example of the Manifest of a Firewall domain?**
+1. **What's an example of the Manifest of a Firewall domain?**
 
     The following is an example of 
     * a list of [Trust 👍](<01 👍 Domain Trust.md>) REVOKES 
@@ -87,7 +87,7 @@
     ---
     <br/>
 
-6. **What should other domains add to their Manifests?**
+1. **What should other domains add to their Manifests?**
 
     Other [domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) should add the following [Trust 👍](<01 👍 Domain Trust.md>) to their [domain Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>).
 

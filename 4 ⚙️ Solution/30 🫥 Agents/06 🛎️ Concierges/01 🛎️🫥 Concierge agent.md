@@ -12,7 +12,7 @@
     ---
     <br/>
 
-2. **What are examples for Concierge usages in NLWeb?**
+1. **What are examples for Concierge usages in NLWeb?**
 
     |Domain|Usage
     |-|-
@@ -24,7 +24,7 @@
     <br/>
 
 
-5. **How do Concierges handle inbound tasks?**
+1. **How do Concierges handle inbound tasks?**
 
     ![](<00 📎 Assets/🛎️🫥 Concierge.png>)
 
@@ -42,7 +42,7 @@
     <br/>
 
 
-6. **How do Concierges receive task requests?**
+1. **How do Concierges receive task requests?**
 
     [Concierge 🛎️ agents](<01 🛎️🫥 Concierge agent.md>) receive tasks in natural text; 
     - e.g., book an appointment with a cardiologist.
@@ -50,7 +50,7 @@
     ---
     <br/>
 
-7. **How do Concierges prevent task spam?**
+1. **How do Concierges prevent task spam?**
 
     [Concierge 🛎️ agents](<01 🛎️🫥 Concierge agent.md>) ask users to confirm any inbound work order from a [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>). 
     - For frequent [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>), users can ask their [Concierge 🛎️ agent](<01 🛎️🫥 Concierge agent.md>) to always trust or always ban the task-requester domain.
@@ -58,7 +58,7 @@
     ---
     <br/>
 
-8. **Do Concierges speak in natural language with Suppliers?**
+1. **Do Concierges speak in natural language with Suppliers?**
 
     No necessarily. 
     
@@ -69,7 +69,7 @@
     ---
     <br/>
 
-9. **Can Concierges orchestrate tasks with multiple Suppliers?**
+1. **Can Concierges orchestrate tasks with multiple Suppliers?**
 
     Yes. 
     * [Concierge 🛎️ agents](<01 🛎️🫥 Concierge agent.md>) create strategies to be performed by one or more [Supplier 🏭 domains](<02 🏭🎭 Supplier role.md>).
@@ -77,7 +77,7 @@
     ---
     <br/>
 
-10. **Can Concierges know about the details of sub-Suppliers?**
+1. **Can Concierges know about the details of sub-Suppliers?**
 
     No. 
     * [Concierge 🛎️ agents](<01 🛎️🫥 Concierge agent.md>) speak with [Supplier 🏭 domains](<02 🏭🎭 Supplier role.md>), but don't know which sub-Suppliers they speak with.
@@ -85,7 +85,7 @@
     ---
     <br/>
 
-11. **How can Concierges be implemented?**
+1. **How can Concierges be implemented?**
 
     [Concierge 🛎️ agents](<01 🛎️🫥 Concierge agent.md>) will typically:
     - understand requests in natural language;

@@ -9,7 +9,7 @@
 
     ---
 
-2. **What are examples of Helper domains?**
+1. **What are examples of Helper domains?**
    
     | Helper 🛠️ | Example | Responsibilities
     |-|-|-
@@ -26,7 +26,7 @@
 
     ---
 
-3. **How do domains leverage Helper domains?**
+1. **How do domains leverage Helper domains?**
 
     ---
 

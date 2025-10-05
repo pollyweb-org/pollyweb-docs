@@ -55,7 +55,7 @@
     ---
     <br/>
 
-2. **How can domains contribute to a global community map?**
+1. **How can domains contribute to a global community map?**
     
     ```yaml
     Point: 
@@ -72,7 +72,7 @@
     |B|
     -->
 
-2. **How do Navigators help in multi-level places?**
+1. **How do Navigators help in multi-level places?**
 
     In multi-level places (subways, airports, malls):
     * Signs with [Locators 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) are spread through the premisses (e.g., walls, posts).

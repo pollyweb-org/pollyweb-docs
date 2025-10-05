@@ -37,7 +37,7 @@
 
 
 
-3. **How does remote face verification works?**
+1. **How does remote face verification works?**
 
     ![](<00 📎 Assets/🆔 Online.png>)
 
@@ -53,7 +53,7 @@
     <br/>
 
 
-2. **How are users' face biometrics protected from Sellers?**
+1. **How are users' face biometrics protected from Sellers?**
 
     NLWeb advocates for online face authentication between [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and [Identity 🆔 vaults](<01 🆔🫥 Identity agent.md>), without sharing user biometrics with [Seller 💵 domains](<../04 💳 Payers/01 💵🎭 Seller role.md>);
     - e.g., when a [Seller 💵 domain](<../04 💳 Payers/01 💵🎭 Seller role.md>) needs to match a person with a [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>), 

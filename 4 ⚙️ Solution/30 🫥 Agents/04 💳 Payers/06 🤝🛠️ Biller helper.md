@@ -7,7 +7,7 @@
 
     ---
 
-2. **How can a user sign a subscription in a Seller?**
+1. **How can a user sign a subscription in a Seller?**
 
     ![](<00 📎 Assets/💳 Biller User.png>)
 
@@ -27,7 +27,7 @@
 
     ---
 
-3. **How can a domain sign a subscription?**
+1. **How can a domain sign a subscription?**
 
     ![](<00 📎 Assets/💳 Biller Domain.png>)
 
@@ -48,7 +48,7 @@
 
     ---
 
-5. **Do Billers support pay-as-go contracts?**
+1. **Do Billers support pay-as-go contracts?**
 
     Yes, that is set up in the terms.
     
@@ -56,7 +56,7 @@
 
     ---
 
-6. **Can a Seller implement the Biller API?**
+1. **Can a Seller implement the Biller API?**
 
     Yes. However, a Biller 🤝 domain may offer additional services that the [Seller 💵 domain](<01 💵🎭 Seller role.md>) can benefit from, like digital signatures, risk assessment, support call center, dispute management, management of financial guarantees, and text-based reporting.
     

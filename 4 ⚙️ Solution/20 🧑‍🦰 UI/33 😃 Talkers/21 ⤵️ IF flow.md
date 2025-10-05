@@ -30,7 +30,7 @@
     ---
     <br/>
 
-2. **What's the inline syntax?**
+1. **What's the inline syntax?**
 
     > Note: this syntax only allows for [Procedures](<11 ⚙️ Procedure.md>), not [Commands](<10 ⌘ Command.md>).
    
@@ -47,7 +47,7 @@
     ---
     <br/>
 
-3. **What are examples of inline syntax?**
+1. **What are examples of inline syntax?**
 
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
@@ -96,7 +96,7 @@
     <br/>
 
 
-2. **What's the multi-line syntax?**
+1. **What's the multi-line syntax?**
 
     > This option allows both [Procedures](<11 ⚙️ Procedure.md>) and [Commands](<10 ⌘ Command.md>).
    
@@ -115,7 +115,7 @@
     ---
     <br/>
 
-2. **What are examples of multi-line syntax?**
+1. **What are examples of multi-line syntax?**
 
     
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)

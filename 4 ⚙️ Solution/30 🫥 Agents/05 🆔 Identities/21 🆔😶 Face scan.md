@@ -17,7 +17,7 @@
     ---
     <br/>
 
-2. **What can users present in the first step of the flow?**
+1. **What can users present in the first step of the flow?**
     
     | Presented | Question
     |-|-
@@ -30,7 +30,7 @@
 
 
 
-3. **How is face recognition secured with a selfie input?**
+1. **How is face recognition secured with a selfie input?**
 
     NLWeb discourages face recognition via selfie pictures,
     * except in [supervised 👮 scenarios](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/00 👮 Supervised ID Index.md>) (e.g., a government office),
@@ -63,7 +63,7 @@
     <br/>
     
     
-5. **What's the error rate on liveness checks?**
+1. **What's the error rate on liveness checks?**
 
     Amazon’s Face [liveness-checks 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/07 🧑‍💻 Unsupervised ID landscape/09 📺 Amazon liveness.md>) feature has been independently tested by iBeta Quality Assurance, a NIST/NVLAP-accredited lab, under ISO/IEC 30107‑3 PAD (Presentation Attack Detection) standards.
 
@@ -77,7 +77,7 @@
     ---
     <br/>
 
-6. **What are the conditions for face biometrics to be spoofed?**
+1. **What are the conditions for face biometrics to be spoofed?**
 
     On NLWeb, the [face biometric verification 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/01 📺 Difference.md>) works as follows:
 
@@ -106,7 +106,7 @@
     ---
     <br/>
 
-2. **How does NLWeb face verification compares with other technologies?**
+1. **How does NLWeb face verification compares with other technologies?**
 
     The following table compares some of the top payment technologies.
     * NLWeb has a high security when we evaluate what the user has, is, and knows.

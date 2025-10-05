@@ -24,7 +24,7 @@
 
     ---
 
-2. **Are Padlock's key rotations encrypted in transit?**
+1. **Are Padlock's key rotations encrypted in transit?**
 
     Yes.
     * Both the sequence and the passkey are encrypted using the [Padlock 🔒](<01 🔒 Padlock device.md>)'s public key, so that only the [Padlock 🔒](<01 🔒 Padlock device.md>) is able to read them using its private key. 

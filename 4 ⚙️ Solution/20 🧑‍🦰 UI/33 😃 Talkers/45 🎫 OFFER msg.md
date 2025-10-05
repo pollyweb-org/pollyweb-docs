@@ -15,7 +15,7 @@
     <br/>
 
 
-2. **What does a Chat look like?**
+1. **What does a Chat look like?**
 
     
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
@@ -27,7 +27,7 @@
     ---
     <br/>
 
-3. **What's the OFFER syntax?**
+1. **What's the OFFER syntax?**
 
     ```yaml
     OFFER|{function} >> $accepted

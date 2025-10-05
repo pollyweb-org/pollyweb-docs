@@ -11,7 +11,7 @@
     <br/>
     
 
-3. **What data is contained in a Locator?**
+1. **What data is contained in a Locator?**
 
     A [Locator 🔆](<01 🔆 Locator.md>) is a string 
     * formatted as `{code},{domain},{key}[,{fields}]`
@@ -53,7 +53,7 @@
 
 
 
-2. **Can Locators be forged?**
+1. **Can Locators be forged?**
 
     Yes. 
     
@@ -89,7 +89,7 @@
     ---    
     <br/>
 
-2. **How can businesses be protected by misplacement attacks?**
+1. **How can businesses be protected by misplacement attacks?**
     
     Businesses can implement the following security mechanisms for misplacement attacks, where an attacker replaces a genuine [Locator 🔆](<01 🔆 Locator.md>) A for another genuine [Locator 🔆](<01 🔆 Locator.md>) B in order to trick a user to unlock the resource B instead of the resource A:
 

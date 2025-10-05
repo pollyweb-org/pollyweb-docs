@@ -15,7 +15,7 @@
     ---
     <br/>
 
-2. **What's an example?**
+1. **What's an example?**
 
     Consider the following [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
@@ -35,7 +35,7 @@
     <br/>
 
 
-3. **How to default quantities in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
+1. **How to default quantities in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
 
     Consider the following [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>).
 
@@ -66,7 +66,7 @@
     ---
     <br/>
 
-3. **What's the format of a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
+1. **What's the format of a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
     QUANTITY|<message> >> <key>:
@@ -90,7 +90,7 @@
     ---
     <br/>
 
-5. **What's the Answer in the [Reply@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) method?**
+1. **What's the Answer in the [Reply@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) method?**
 
     |Type| Example
     |-|-

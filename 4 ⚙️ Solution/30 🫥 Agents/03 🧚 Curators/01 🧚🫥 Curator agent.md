@@ -40,7 +40,7 @@
     ---
     <br/>
 
-2. **What domain roles do Curators implement?**
+1. **What domain roles do Curators implement?**
 
     | Role 🎭 | Purpose
     |-|-
@@ -51,7 +51,7 @@
     ---
     <br/>
 
-2. **How do Curators work?**
+1. **How do Curators work?**
 
     [Curator 🧚 agents](<01 🧚🫥 Curator agent.md>) are invoked by [Host 🤗 domains](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) to parse a set of choices and return a list of codes back to the Host - e.g.:
     
@@ -63,7 +63,7 @@
     ---
     <br/>
 
-3. **Why are Curators important for users?**
+1. **Why are Curators important for users?**
 
     [Curator 🧚 agents](<01 🧚🫥 Curator agent.md>) protect users by filtering out from the available options given by [Host 🤗 domains](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>), instead of sharing details about the user:
     - e.g., chose meat for dinner, instead of disclosing a life-threatening allergy to shrimp;
@@ -82,7 +82,7 @@
     ---
     <br/>
 
-5. **How do curators protect themselves from prompt injection?**
+1. **How do curators protect themselves from prompt injection?**
 
     [Curator 🧚 agents](<01 🧚🫥 Curator agent.md>) assess [Host 🤗 domains](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) inputs before acting on them. 
     - Suspicious behaviors are reported to [Firewall 🔥 helper domains](<../../40 👥 Domains/43 👍 Trusts/03 🔥🛠️ Firewall helper.md>).
@@ -90,14 +90,14 @@
     ---
     <br/>
 
-6. **How do curators protect themselves from data breaches?**
+1. **How do curators protect themselves from data breaches?**
 
     While [Curator 🧚 agents](<01 🧚🫥 Curator agent.md>) communicate using natural language with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), they output to [Host 🤗 domains](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) only a filtered list of codes referenced in the input.
 
     ---
     <br/>
 
-7. **How much user data should a curator store?**
+1. **How much user data should a curator store?**
 
     NLWeb advocates for [Curator 🧚 agents](<01 🧚🫥 Curator agent.md>) to rely on [Persona 🧢 vaults](<../02 🧢 Personas/02 🧢🫥 Persona agent.md>) to assess user intent, while storing the nuances of those intents in the Curator's 🧚 memory:
     - this addresses the different speed of developments between humans and machines; 
@@ -107,7 +107,7 @@
     ---
     <br/>
 
-8. **How should curators deal with ethical issues?**
+1. **How should curators deal with ethical issues?**
 
     Ethics vary by civilization. 
     - Thus, users are advised to exercise conscience when selecting the provider of their [Curator 🧚 agent](<01 🧚🫥 Curator agent.md>).

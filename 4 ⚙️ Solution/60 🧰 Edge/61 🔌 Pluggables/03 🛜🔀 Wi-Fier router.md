@@ -8,7 +8,7 @@
     ---
     <br/>
 
-2. **What are examples of Wi-Fiers?**
+1. **What are examples of Wi-Fiers?**
 
     |Example|Description
     |-|-
@@ -39,7 +39,7 @@
     ---
     <br/>
 
-3. **How does it work?**
+1. **How does it work?**
 
     ![](<.📎 Assets/🔌🛜 Wi-Fier.png>)
 
@@ -58,7 +58,7 @@
     <br/>
 
 
-5. **What are the advantages of Wi-Fiers?**
+1. **What are the advantages of Wi-Fiers?**
 
     |Problem|Solution
     |-|-

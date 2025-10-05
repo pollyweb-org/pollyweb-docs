@@ -11,7 +11,7 @@
 
     ---
 
-2. **How does it work?**
+1. **How does it work?**
 
     ![](<00 📎 Assets/💠 Brand.png>)
 
@@ -25,7 +25,7 @@
 
     ---
 
-3. **What Helper domains does a Brand typically uses?**
+1. **What Helper domains does a Brand typically uses?**
 
     | [Helper 🛠️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | Reason
     |-|-
@@ -48,7 +48,7 @@
 
     ---
 
-5. **How can Brands print NFC/QR tags for their Things?**
+1. **How can Brands print NFC/QR tags for their Things?**
 
     Brands 🍏 can either:
     * print the [Locators 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) of the [Wand 🪄 helper domains](<09 🪄🛠️ Wand helper.md>) by themselves, 
@@ -56,7 +56,7 @@
 
     ---
 
-6. **Can Brands configure Things by EAN-13 or SKU?**
+1. **Can Brands configure Things by EAN-13 or SKU?**
 
     Yes, and that's the default behavior. 
 

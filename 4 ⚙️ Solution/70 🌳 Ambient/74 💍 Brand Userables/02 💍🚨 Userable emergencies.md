@@ -38,7 +38,7 @@
     <br/>
 
 
-2. **How does it work?**
+1. **How does it work?**
 
     ![](<00 📎 Assets/💍 Userable Emergency.png>)
 
@@ -53,7 +53,7 @@
     ---
     <br/>
 
-3. **What data is collected in an emergency?**
+1. **What data is collected in an emergency?**
     
     To streamline the process, [Custodian 🧳 domains](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) collect the following information from the guest user.
     
@@ -75,7 +75,7 @@
     ---
     <br/>
 
-3. **How are Userable owners protected from harassment frauds?**
+1. **How are Userable owners protected from harassment frauds?**
 
     To avoid harassment frauds, before issuing the emergency alarm, 
     * owners may request their [Custodian 🧳 agent](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) 
@@ -106,7 +106,7 @@
     <br/>
 
 
-2. **How does it compare with Apple iPhone emergency?**
+1. **How does it compare with Apple iPhone emergency?**
 
     Anyone in physical control of an Apple iPhone or Android-based device (owner or not) can trigger an emergency event at any time.
     * This is done without an assessment of the owner's incapacity be assessed first, because typically the phone doesn't have health monitoring mechanisms (unless a smart watch is linked to it).

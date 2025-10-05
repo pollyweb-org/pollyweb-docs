@@ -18,7 +18,7 @@
     ---
     <br/>
 
-2. **What are examples of Talkers?**
+1. **What are examples of Talkers?**
 
     * [🏪 Buy drinks at vending machines](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/01 🏪 Index.md>)
     * [🍕 Order pizza to deliver at home](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/21 🏠 Home: Order pizza.md>)
@@ -27,7 +27,7 @@
     ---
     <br/>
 
-3. **Coding commands**
+1. **Coding commands**
 
     * `💬|<title>:`	
         * Top menu entry - i.e., the "what?"

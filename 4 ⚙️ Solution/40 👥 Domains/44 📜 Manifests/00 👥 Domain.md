@@ -33,7 +33,7 @@
     ---
     <br/>
 
-2. **What API methods does a Domain need to expose?**
+1. **What API methods does a Domain need to expose?**
 
     Supported API methods differ based on the number roles assumed by the [domain 👥](<00 👥 Domain.md>), from none to many.
     * The following list enumerates the possible roles a [domain 👥](<00 👥 Domain.md>) can assume.

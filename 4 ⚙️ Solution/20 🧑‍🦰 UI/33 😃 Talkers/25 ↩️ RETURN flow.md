@@ -24,7 +24,7 @@
 
 
 
-2. **What's the RETURN syntax?**
+1. **What's the RETURN syntax?**
 
     ```yaml
     - RETURN|{expression}
@@ -39,7 +39,7 @@
 
 
 
-2. **What happens after a RETURN?**
+1. **What happens after a RETURN?**
 
     Nothing runs on a [Procedure ⚙️](<11 ⚙️ Procedure.md>) after the `RETURN`.
 
@@ -64,7 +64,7 @@
     <br/>
 
 
-2. **How to read the result from a RETURN?**
+1. **How to read the result from a RETURN?**
 
 
 

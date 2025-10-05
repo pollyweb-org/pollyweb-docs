@@ -41,7 +41,7 @@
     ---
     <br/>
 
-2. **How can messages flow in Notifier domains with WebSockets?**
+1. **How can messages flow in Notifier domains with WebSockets?**
 
     The following diagram shows the message flow with WebSockets.
 

@@ -13,7 +13,7 @@
     ---
     <br/>
 
-2. **What's an example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
+1. **What's an example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
 
 
     Consider the following [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
@@ -36,7 +36,7 @@
     <br/>
 
 
-3. **How to provide default time options in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
+1. **How to provide default time options in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
 
     Mix with [ONE 1️⃣ prompts](<25 1️⃣ ONE prompt.md>), like in the following [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>).
 
@@ -103,7 +103,7 @@
     ---
     <br/>
 
-5. **What's the Answer in the [Reply@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) method?**
+1. **What's the Answer in the [Reply@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) method?**
 
     |Type| Example | Format | Details
     |-|-|-|-

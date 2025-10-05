@@ -10,7 +10,7 @@
     ---
     <br/>
 
-2. **How can users bind to Vaults?**
+1. **How can users bind to Vaults?**
 
     ![](<.📎 Assets/🗄️ Vault.png>)
 
@@ -24,7 +24,7 @@
     <br/>
 
 
-3. **How to bind to a new simple Vault domain?**
+1. **How to bind to a new simple Vault domain?**
     
     Using their [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>):
     1. a user initiates a [💬 Chat](<../12 💬 Chats/01 💬 Chat.md>) with the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>);
@@ -89,7 +89,7 @@
     ---
     <br/>
 
-5. **How to bind to an existing Vault domain with a web browser?**
+1. **How to bind to an existing Vault domain with a web browser?**
 
     Using the domain's mobile website or mobile app:
     1. a user (e.g., Alice) initiates a session in the target [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>);

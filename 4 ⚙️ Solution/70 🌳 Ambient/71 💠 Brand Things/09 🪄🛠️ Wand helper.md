@@ -34,7 +34,7 @@
     ---
     <br/>
 
-2. **What user Agents do Wands typically invoke?**
+1. **What user Agents do Wands typically invoke?**
 
     | [User Agent 🫥](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | Purpose
     |-|-
@@ -45,7 +45,7 @@
     ---
     <br/>
 
-3. **What domain roles do Wands typically implement?**
+1. **What domain roles do Wands typically implement?**
    
     |[Domain Role 🎭](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>)|Description
     |-|-
@@ -69,7 +69,7 @@
     ---
     <br/>
 
-5. **Do Wands know which user registered the Locator?**
+1. **Do Wands know which user registered the Locator?**
 
     No. 
     * The owner of a [Thing 💠](<01 💠 Thing.md>) is hidden from [Wand 🪄 domains](<09 🪄🛠️ Wand helper.md>) by [Custodian 🧳 vault domains](<05 🧳🗄️ Custodian vault.md>).
@@ -77,7 +77,7 @@
     ---
     <br/>
 
-6. **Can Brands know which user registered the placeholder?**
+1. **Can Brands know which user registered the placeholder?**
 
     No.
     * The owner of a [Thing 💠](<01 💠 Thing.md>) is hidden from [Brand 🍏 domains](<07 🍏🎭 Brand role.md>) by [Custodian 🧳 vault domains](<05 🧳🗄️ Custodian vault.md>). 
@@ -86,7 +86,7 @@
     ---
     <br/>
 
-7. **Can a user contact the Brand?**
+1. **Can a user contact the Brand?**
 
     Yes, when applicable. 
     
@@ -99,7 +99,7 @@
     ---
     <br/>
 
-8. **What if a Brand ceases to exist?**
+1. **What if a Brand ceases to exist?**
 
     [Wand 🪄 domains](<09 🪄🛠️ Wand helper.md>) verify if the [Brand 🍏 domains](<07 🍏🎭 Brand role.md>) is still active upon user interaction. 
     * A [Wand 🪄 domain](<09 🪄🛠️ Wand helper.md>) may decide to keep a [Thing 💠](<01 💠 Thing.md>) working even after the [Brand 🍏 domains](<07 🍏🎭 Brand role.md>) is inactive;
@@ -108,7 +108,7 @@
     ---
     <br/>
 
-9. **How can Wands monetize?**
+1. **How can Wands monetize?**
 
     [Wand 🪄 domains](<09 🪄🛠️ Wand helper.md>) may implement a number of ways to monetize - e.g.:
     - charge [Brand 🍏 domains](<07 🍏🎭 Brand role.md>) for a commitment to keep the placeholder active for a certain amount of time (e.g., 10 years) when an order is placed;

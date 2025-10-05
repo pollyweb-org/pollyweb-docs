@@ -13,7 +13,7 @@
 
     ---
 
-2. **What are some key points about palm vein scanners?**
+1. **What are some key points about palm vein scanners?**
 
     - **Highly secure:** Since the vein patterns are internal and unique, they are difficult to replicate or forge, making them more secure than some other biometric methods like fingerprint or facial recognition.
     - **Contactless:** Users don’t need to touch the scanner, making it more hygienic and less prone to wear over time.
@@ -21,7 +21,7 @@
 
     ---
 
-3. **What brands sell palm scanners?**
+1. **What brands sell palm scanners?**
 
     - Amazon One: https://one.amazon.com/
     - Fujitsu Palmsecure: https://www.fujitsu.com/global/services/security/offerings/biometrics/palmsecure/

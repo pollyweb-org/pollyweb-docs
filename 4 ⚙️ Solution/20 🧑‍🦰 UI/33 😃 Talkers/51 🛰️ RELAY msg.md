@@ -16,7 +16,7 @@
     <br/>
 
 
-3. **What are use cases?**
+1. **What are use cases?**
 
     Examples include:
     * The [Talker 😃](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/93 😃 Owner: Talker.md>) at [Vending machines 🏪](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/01 🏪 Index.md>)
@@ -46,7 +46,7 @@
     ---
     <br/>
 
-2. **How to open a locker door remotely?**
+1. **How to open a locker door remotely?**
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |

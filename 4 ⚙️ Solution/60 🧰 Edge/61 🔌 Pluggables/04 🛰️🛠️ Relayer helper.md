@@ -11,7 +11,7 @@
     ---
 
 
-3. **Why are Relayer domains important?**
+1. **Why are Relayer domains important?**
 
     | Feature | Description
     |-|-
@@ -43,7 +43,7 @@
     ---
 
 
-5. **How do domains send commands to Pluggables?**
+1. **How do domains send commands to Pluggables?**
 
     For a [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) to send an API command to a [Pluggable 🔌 device](<01 🔌 Pluggable device.md>) via a Relayer 🛰️ domain, it needs to send the following parameters.
 

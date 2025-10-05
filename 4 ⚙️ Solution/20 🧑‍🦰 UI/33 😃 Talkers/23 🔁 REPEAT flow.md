@@ -15,7 +15,7 @@
     ---
     <br/>
 
-2. **What's the syntax?**
+1. **What's the syntax?**
 
     ```yaml
     - REPEAT|<message>
@@ -29,7 +29,7 @@
     <br/>
 
 
-3. **What's an example of a REPEAT with a message?**
+1. **What's an example of a REPEAT with a message?**
 
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
@@ -50,7 +50,7 @@
     ---
     <br/>
 
-5. **What's an example of a repeat without a message?**
+1. **What's an example of a repeat without a message?**
 
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
@@ -77,7 +77,7 @@
 
 
 
-6. **How to build a simple shopping basket?**
+1. **How to build a simple shopping basket?**
 
     
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
@@ -119,7 +119,7 @@
     ---
     <br/>
 
-7. **How to build a simple game?**
+1. **How to build a simple game?**
 
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)

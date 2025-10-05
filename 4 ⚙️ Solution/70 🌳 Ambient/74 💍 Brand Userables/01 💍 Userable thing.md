@@ -10,7 +10,7 @@
     ---
     <br/>
 
-2. **What can users do with their Userables?**
+1. **What can users do with their Userables?**
 
     Users can do with their [Userable 💍 things](<01 💍 Userable thing.md>) everything they do with standard [Things 💠](<../71 💠 Brand Things/01 💠 Thing.md>). 
     
@@ -28,7 +28,7 @@
     ---
     <br/>
 
-3. **Are Userables trackable, like Apple AirTags?**
+1. **Are Userables trackable, like Apple AirTags?**
 
     No.
      
@@ -55,7 +55,7 @@
     ---
     <br/>
 
-5. **How is the dynamic code generation enforced?**
+1. **How is the dynamic code generation enforced?**
 
     When a user registers a [Userable 💍 thing](<01 💍 Userable thing.md>) on the user's [Custodian 🧳 agent](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>),
     * the agent fetches the rotation algorithm from the [Brand 🍏 domain](<../71 💠 Brand Things/07 🍏🎭 Brand role.md>) that manufactured the [Userable 💍 thing](<01 💍 Userable thing.md>),

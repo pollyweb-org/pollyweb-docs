@@ -10,7 +10,7 @@
 
     ---
 
-2. **Why are Things important?** 
+1. **Why are Things important?** 
 
     While it's already possible to 
     * interact with any electronic device that has a display (e.g., washing machines, air conditioners, home printers), as well as with electronic devices without a display (e.g., smart lights), 
@@ -19,7 +19,7 @@
 
     ---
 
-3. **What are examples of Things?**
+1. **What are examples of Things?**
 
     ![](<00 📎 Assets/💠 Thing.png>)
 
@@ -45,7 +45,7 @@
 
     ---
 
-2. **What can a user do with a Thing?**
+1. **What can a user do with a Thing?**
 
     ![](<00 📎 Assets/💠 Thing$Actions.png>)
 
@@ -71,7 +71,7 @@
 
     ---
 
-3. **Are Things similar to digital twins of physical devices?**
+1. **Are Things similar to digital twins of physical devices?**
 
     Yes, but more. 
     
@@ -100,7 +100,7 @@
 
     ---
 
-5. **How can Things make a dog collar smarter?**
+1. **How can Things make a dog collar smarter?**
 
     ![](<00 📎 Assets/💠 Printer Collar.png>)
 

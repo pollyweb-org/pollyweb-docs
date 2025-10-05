@@ -10,7 +10,7 @@
     ---
     <br/>
 
-2. **How do Subscribers work?**
+1. **How do Subscribers work?**
 
     ![alt text](<.📎 Assets/📨🔔 Subscriber.png>)
 
@@ -30,7 +30,7 @@
     ---
     <br/>
  
-3. **Do Subscribers implement a push or a poll architecture?**
+1. **Do Subscribers implement a push or a poll architecture?**
 
     [Subscriber 🔔 domains](<04 🔔🎭 Subscriber role.md>) implement a combination of both:
     - they support push wake-up notifications from their bound [Buffer ⏳ helper domain](<03 ⏳🛠️ Buffer helper.md>);
@@ -51,7 +51,7 @@
     ---
     <br/>
 
-5. **Do receivers need to poll indefinitely?**
+1. **Do receivers need to poll indefinitely?**
     
     No. 
     * [Subscriber 🔔 domains](<04 🔔🎭 Subscriber role.md>) can sleep when no events are returned from a poll. 
@@ -62,7 +62,7 @@
 
 
 
-5. **Can a Subscriber perform multiple polls in parallel?**
+1. **Can a Subscriber perform multiple polls in parallel?**
 
     Yes, except when using FIFO (first-in-first-out).
     * [Buffer ⏳ helper domains](<03 ⏳🛠️ Buffer helper.md>) manage the visibility of in-flight events, allowing [Subscriber 🔔 domains](<04 🔔🎭 Subscriber role.md>) to perform polls in parallel.

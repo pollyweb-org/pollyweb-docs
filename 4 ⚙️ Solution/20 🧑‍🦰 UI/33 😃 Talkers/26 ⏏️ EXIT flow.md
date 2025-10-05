@@ -18,7 +18,7 @@
 
 
 
-2. **What's the RETURN syntax?**
+1. **What's the RETURN syntax?**
 
     ```yaml
     - EXIT|<procedure>:
@@ -36,7 +36,7 @@
 
 
 
-3. **What happens after an EXIT?**
+1. **What happens after an EXIT?**
 
     Nothing runs on a [Procedure ⚙️](<11 ⚙️ Procedure.md>) after the `EXIT`.
 
