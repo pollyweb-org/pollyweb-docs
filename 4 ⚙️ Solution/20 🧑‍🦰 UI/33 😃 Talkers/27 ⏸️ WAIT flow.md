@@ -121,7 +121,7 @@
     TODO: Add HOSTER.Signal() documentation.
     -->
 
-    To trigger it, a developer needs to invoke the [Hoster 🧑‍💻 helper](<../12 💬 Chats/05 🧑‍💻🛠️ Hoster helper.md>) SDK.
+    To trigger it, a developer needs to invoke the [Hoster ☁️ helper](<../12 💬 Chats/05 🧑‍💻🛠️ Hoster helper.md>) SDK.
 
     ```python
     # 🐍 Python
