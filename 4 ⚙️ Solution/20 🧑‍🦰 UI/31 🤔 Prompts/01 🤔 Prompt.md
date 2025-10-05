@@ -79,7 +79,7 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Expandable info [-]<br/>- long text  <br/>- full of details
     |
 
-    The corresponding [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>) would be.
+    The corresponding [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) would be.
     
     ```yaml
     INFO|Expandable info:
@@ -106,7 +106,7 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 💬 Who is in the picture? 🖼️ | `Elvis`
     |
 
-    The related [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>) would be.
+    The related [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) would be.
 
     ```yaml
     TEXT|Who is in the picture?:
