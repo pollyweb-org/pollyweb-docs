@@ -40,6 +40,20 @@
     ---
     <br/>
 
+1. **What does the `@` character mean in a code?**
+
+    Given that the [Schema Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) defined by `nlweb.org` will be widely used, 
+    * [Talkers 😃](<01 😃 Talker.md>) accept the character `@` as a prefix of `nlweb.org/`.
+    * Consider the following equal examples.
+
+        ```yaml
+        SHARE|@IDENTITY/OVER21 >> $social          
+        SHARE|nlweb.org/IDENTITY/OVER21 >> $social 
+        ```
+
+    ---
+    <br/>
+
 1. **What does a Chat look like?**
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
@@ -54,7 +68,7 @@
     ```yaml
     # 😃 Talker
     INFO|Tell me your name.
-    SHARE|@/PERSONA/NAME/SOCIAL >> $social
+    SHARE|@PERSONA/NAME/SOCIAL >> $social
     SUCCESS|Hi, {$social.Name}!
     ```
 

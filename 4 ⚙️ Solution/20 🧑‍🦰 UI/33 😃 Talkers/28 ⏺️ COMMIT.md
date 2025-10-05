@@ -42,42 +42,44 @@
     | `<on-failure>`        | Run [Procedure ⚙️](<11 ⚙️ Procedure.md>) or [Command ⌘](<10 ⌘ Command.md>) on failure.
     | `<on-success>`        | Run [Procedure ⚙️](<11 ⚙️ Procedure.md>) or [Command ⌘](<10 ⌘ Command.md>) on success.
 
+    ---
+    <br/>
 
 1. **What's an example for COMMIT?**
 
     ```yaml
-    # Get the booking.
-    - SHARE|nlweb.org/SCHEDULER/BOOK >> $b
-        Context: 
-            About: {/info/{$r.ID}.md} # Get the file.
-            Slots: {Slots($r.ID)}     # From the ERP.
+    # 😃 Talker 
+    💬 Book something:
+    
+    # Instructions
+    - FORM|Book                           
+    
+    # Editable inputs
+    - ONE|When?|Today,Tomorrow >> $date   # When?
+    - SHARE|@PERSONA/BOOKING >> $contacts # Contacts?
+    
+    # Last chance to change the previous inputs.
+    - CONFIRM|Confirm booking?            
 
-    # Get Contacts.
-    - SHARE|nlweb.org/PERSONA/BOOKING >> $c
-
-    # Get preferences
-    - SHARE|nlweb.org/PERSONA/SEAT/PREFERENCES >> $p
-
-    # Commit the booking
-    - CONFIRM|Confirm booking?
-    - COMMIT|{Confirm} >> $committed: 
+    # Freeze all previous inputs from here on.
+    - COMMIT|{SaveBooking} >> $committed: 
         Input: 
-            Restaurant: $r
-            Booking: $b
-            Contacts: $c
-            Preferences: $p
-        OnFailure: Failure
-        OnSuccess: Success
-
-    Failure:
-    - FAILURE|An error occurred.
-        
-    Success:
-    # Issue token
-    - OFFER|{$committed.token}
-    - SUCCESS|Done. See you then!
-    - GOODBYE
+            Date: $date
+            Contacts: $contacts
+        OnFailure: 
+            - FAILURE|An error occurred.
+        OnSuccess: 
+            - SUCCESS|Done.
+            - GOODBYE
     ```
+
+
+    | [Command ⌘](<10 ⌘ Command.md>) | Purpose
+    |-|-
+    | 📝 [`FORM`](<41 📝 FORM msg.md>) | Show user instructions and allow inputs.
+    | 1️⃣ [`ONE`](<../31 🤔 Prompts/25 1️⃣ ONE prompt.md>) | Select an option, the day in this case.
+    | 💼 [`SHARE`](<46 💼 SHARE msg.md>) | Get the user's booking contacts.
+    | 👍 [`CONFIRM`](<../31 🤔 Prompts/24 👍 CONFIRM prompt.md>) | Pause to allow changing previous inputs.
 
     ---
     <br/>
