@@ -26,7 +26,7 @@
 
     | Argument| Purpose
     |-|-
-    | `{function}` | Optional [Function](<12 🐍 {Function}.md>) to evaluate; <br/>- defaults to the last input.
+    | `{function}` | Optional [{Function}](<12 🐍 {Function}.md>) to evaluate; <br/>- defaults to the last input.
     | `<value-n>`| Static value to be compared with.
     | `<action-n>`| Run [Procedure ⚙️](<11 ⚙️ Procedure.md>) or [Command ⌘](<10 ⌘ Command.md>) when matched.
     | `<default-action>` | Run [Procedure ⚙️](<11 ⚙️ Procedure.md>) or [Command ⌘](<10 ⌘ Command.md>) if unmatched.
@@ -79,13 +79,13 @@
     # 😃 Talker
 
     💬 Example:
-    - ONE|Select an option.|A,B,C >> my-var
+    - ONE|Select an option.|A,B,C >> $x
     - CASE:
         B: INFO|You selected option B.
         *: WhenUnmatched
 
     WhenUnmatched:
-    - INFO|You selected option {$my-var}.
+    - INFO|You selected option {$x}.
     ```
 
     ---

@@ -30,20 +30,20 @@
     # Function syntax
     - LOG|{function}
 
+    # String syntax
+    - LOG|<string>
+
     # Object syntax
     - LOG:
         {object}
-
-    # String syntax
-    - LOG|<string>
     ```
     
     
     | Argument| Purpose | Example
     |-|-|-
     | `{function}`| [{Function}](<12 🐍 {Function}.md>) to valuate and log. | `{MyFunction}` | 
-    | `{object}` | Object to evaluate and log. | `{A:1, B:$n}`
     | `<string>` | String to evaluate and log. | `A` `I'm {$name}`
+    | `{object}` | Object to evaluate and log. | `{A:1, B:$n}`
     
 
     ---
