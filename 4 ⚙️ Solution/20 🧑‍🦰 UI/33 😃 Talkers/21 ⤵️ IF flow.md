@@ -30,20 +30,40 @@
     ---
     <br/>
 
-1. **What's the inline syntax?**
 
-    > Note: this syntax only allows for [Procedures](<11 ⚙️ Procedure.md>), not [Commands](<10 ⌘ Command.md>).
-   
+1. **What's the IF syntax?**
+
+    
     ```yaml
-    - IF|{function}|<true-procedure>|<false-procedure>
+    # One-line Procedures
+    - IF|{function}|<true-proc>|<false-proc>
+
+    # Two-line action - i.e., Procedure or Command
+    - IF|{function}:
+        Then: <true-action>
+        Else: <false-action>
+
+    # Multi-line Command lists
+    - IF|{function}:
+        Then: 
+            - <true-cmd-1>
+            - <true-cmd-n>
+        Else: 
+            - <false-cmd-1>
+            - <false-cmd-n>
     ```
+
 
     | Argument| Purpose
     |-|-
-    | `{function}` | Boolean evaluation [{Function}](<12 🐍 {Function}.md>) name
-    | `<true-procedure>` | Required [Procedure ⚙️](<11 ⚙️ Procedure.md>) to execute when `True`
-    | `<false-procedure>`| Optional [Procedure ⚙️](<11 ⚙️ Procedure.md>) to execute when `False`
-    
+    | `{function}` | Boolean [{Function}](<12 🐍 {Function}.md>) to evaluate
+    | `<true-proc>` | [Procedure ⚙️](<11 ⚙️ Procedure.md>) to [Run ▶️](<24 ▶️ RUN flow.md>) when `True`
+    | `<false-proc>`| [Procedure ⚙️](<11 ⚙️ Procedure.md>) to [Run ▶️](<24 ▶️ RUN flow.md>) when `False`
+    | `<true-action>` | [Procedure ⚙️](<11 ⚙️ Procedure.md>) or [Command ⌘](<10 ⌘ Command.md>) to run on `True`
+    | `<false-action>`| [Procedure ⚙️](<11 ⚙️ Procedure.md>) or [Command ⌘](<10 ⌘ Command.md>) to run on `False`
+    | `<true-cmd-n>` | List of [Command ⌘](<10 ⌘ Command.md>) to run on `True`
+    | `<false-cmd-n>` | List of [Command ⌘](<10 ⌘ Command.md>) to run on `False`
+
     ---
     <br/>
 
@@ -96,24 +116,6 @@
     <br/>
 
 
-1. **What's the multi-line syntax?**
-
-    > This option allows both [Procedures](<11 ⚙️ Procedure.md>) and [Commands](<10 ⌘ Command.md>).
-   
-    ```yaml
-    - IF|{function}:
-        Then: <true-action>
-        Else: <false-action>
-    ```
-
-    | Argument| Purpose
-    |-|-
-    | `{function}` | Name of a [{Function}](<12 🐍 {Function}.md>) that returns `True` or `False`.
-    | `<true-action>` | Required [Procedure ⚙️](<11 ⚙️ Procedure.md>) or [Command ⌘](<10 ⌘ Command.md>) to execute when `True`
-    | `<false-action>`| Optional [Procedure ⚙️](<11 ⚙️ Procedure.md>) or [Command ⌘](<10 ⌘ Command.md>)  to execute when `False`
-
-    ---
-    <br/>
 
 1. **What are examples of multi-line syntax?**
 
@@ -131,8 +133,9 @@
     💬 If-them example:
     - INFO|Test started
     - IF|{code-is-correct}:
-        Then: SUCCESS|Code is correct!
-    - INFO|Test finished
+        Then: 
+          - SUCCESS|Code is correct!
+          - INFO|Test finished
     ```
 
     ```yaml

@@ -133,6 +133,9 @@
 
     | Flow  | Description
     |-|-
-    | [🤗⏩🧑‍🦰 Prompt 🤔](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt.md>) | Sends a [Prompt 🤔](<../31 🤔 Prompts/01 🤔 Prompt.md>) to a user [Chat 💬](<01 💬 Chat.md>)
-    | [🤗⏩🧑‍🦰 Goodbye](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/02 🤗⏩🧑‍🦰 Goodbye.md>) | Triggers the [👀 advertising](<../../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) flow
+    | [🤗⏩🧑‍🦰 Prompt 🤔](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | Sends a [Prompt 🤔](<../31 🤔 Prompts/01 🤔 Prompt.md>) to a user [Chat 💬](<01 💬 Chat.md>)
+    | [🤗⏩🧑‍🦰 Invite 🛠️](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>)
+    | [🤗⏩🧑‍🦰 Form](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/05 🤗⏩🧑‍🦰 Form 📝.md>)
+    | [🤗⏩🧑‍🦰 Freeze ❄️](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/06 🤗⏩🧑‍🦰 Freeze ❄️.md>)
+    | [🤗⏩🧑‍🦰 Goodbye](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/07 🤗⏩🧑‍🦰 Goodbye.md>) | Triggers the [👀 advertising](<../../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) flow
     |
