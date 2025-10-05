@@ -93,7 +93,7 @@
 
    | [Command ⌘](<10 ⌘ Command.md>) | Purpose
    |-|-
-   | 🎓 [`EVAL`](<14 🎓 EVAL flow.md>) | To put the bindable array into a placeholder.
+   | ⬇️ [`EVAL`](<20 ⬇️ EVAL flow.md>) | To put the bindable array into a placeholder.
    | ⤵️ [`IF`](<21 ⤵️ IF flow.md>) | To verify the result.
    
    ---
