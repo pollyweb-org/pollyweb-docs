@@ -27,12 +27,12 @@
 2. **What's the RETURN syntax?**
 
     ```yaml
-    - RETURN|<expression>
+    - RETURN|{expression}
     ```
 
     | Argument| Purpose
     |-|-
-    | `<expression>`| Optional string or [{Function}](<12 🐍 {Function}.md>) to be evaluated.
+    | `{expression}`| Optional string or [{Function}](<12 🐍 {Function}.md>) to be evaluated.
     
     ---
     <br/>

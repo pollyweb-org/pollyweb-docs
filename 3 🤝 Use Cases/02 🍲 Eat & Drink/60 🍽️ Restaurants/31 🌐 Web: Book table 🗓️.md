@@ -43,55 +43,36 @@
 
 # Inputs
 - FORM|Book
+
+# Get the booking.
 - SHARE|nlweb.org/SCHEDULER/BOOK >> $b
     Context: 
         About: {/info/{$r.ID}.md} # Get the file.
         Slots: {Slots($r.ID)}     # From the ERP.
 
-# Booking summary
-- EVAL >> $s: |
-    Booking summary: 
-    - table for {$b.Party}
-    - {$r.Date}, {$.Time}
-    - at {$r.Name}, {$r.PostCode}
-- INFO|{$s}|Change:
-    OnOption: 
-        Change: RESET|$b
-
-# Get Contacts
+# Get Contacts.
 - SHARE|nlweb.org/PERSONA/BOOKING >> $c
-- EVAL >> $s |
-    Received contacts: 
-    - name: {$c.Name}
-    - pronouns: {$c.Pronouns}
-    - phones: {$c.Phones}
-    - emails: {$c.Emails}
-- INFO{$s}|Change:
-    OnOption: 
-        Change: RESET|$c
 
 # Get preferences
 - SHARE|nlweb.org/PERSONA/SEAT/PREFERENCES >> $p
-- EVAL >> $s |
-    Received preferences: 
-    {$p.Preferences}
-- INFO:{$s}|Change:
-    OnOption: 
-        Change: RESET|$p
 
-# Confirm the booking
+# Commit the booking
 - CONFIRM|Confirm booking?
-- COMMIT # Don't allow further RESETs
-- EVAL|{Confirm} >> $o
-    Restaurant: $r
-    Booking: $b
-    Contacts: $c
-    Preferences: $p
-- IF|o$.NotBooked:
-    Exit: FAILURE|An error occurred
+- COMMIT|{Confirm} >> $committed: 
+    Input: 
+        Restaurant: $r
+        Booking: $b
+        Contacts: $c
+        Preferences: $p
+    OnFailure: Failure
+    OnSuccess: Success
 
+Failure:
+- FAILURE|An error occurred.
+    
+Success:
 # Issue token
-- ISSUE|nlweb.org/HOST/BOOKING/SELF|{$o.token}
+- OFFER|{$committed.token}
 - SUCCESS|Done. See you then!
 - GOODBYE
 ```

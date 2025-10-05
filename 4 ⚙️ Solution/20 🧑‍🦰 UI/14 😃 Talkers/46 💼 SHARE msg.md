@@ -46,8 +46,10 @@
     | - | - | - |
     | 💼 [Consumer](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) | ℹ️ Tell me your name.
     | 🧢 [Persona](<../../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) | 🫥 Share social name? [No] <br/> - [ Personal ] 🧑‍🦰 <br/> - [ Work ] 💼       | > Personal
+    | 💼 [Consumer](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) | ℹ️ Received: [Change] <br/> - Name: Alice <br/> - Pronouns: she/her
     | 💼 [Consumer](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) | ✅ Hi, Alice!
 
+    
 
     ```yaml
     # 😃 Talker
@@ -65,13 +67,13 @@
    
     | Data | [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>)
     |-|-
-    | Social Name |  [nlweb.org/PERSONA/NAME/SOCIAL 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/PERSONA/🧩 PersonaNameSocial.md>)
+    | Social Name |  [`nlweb.org/PERSONA/NAME/SOCIAL` 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/PERSONA/🧩 PersonaNameSocial.md>)
    
     ---
     <br/>
 
 
-1. **What are use cases of SHARE?**
+5. **What are use cases of SHARE?**
 
     |Data | Use case|
     |-|-
