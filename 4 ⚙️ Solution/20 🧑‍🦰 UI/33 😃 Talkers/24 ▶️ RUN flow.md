@@ -54,7 +54,7 @@
     ---
     <br/>
 
-4. **What's an example with placeholder arguments?**
+1. **What's an example with placeholder arguments?**
 
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)

@@ -42,7 +42,7 @@
     ---
     <br/>
 
-4. **How can Buffers improve network latency?**
+1. **How can Buffers improve network latency?**
 
     [Buffer ⏳ domains](<03 ⏳🛠️ Buffer helper.md>) may use the following techniques to improve network latency when the [Streamer 🌬️ domain](<02 🌬️🎭 Streamer role.md>) and geographically distant from the [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) (e.g., in different continents):
 

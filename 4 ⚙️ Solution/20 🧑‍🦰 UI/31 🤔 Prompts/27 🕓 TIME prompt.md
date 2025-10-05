@@ -75,7 +75,7 @@
     <br/>
     
 
-4. **What's the format of a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
+1. **What's the format of a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
     TIME|<message> >> <key>:
@@ -89,7 +89,7 @@
     <br/>
 
 
-4. **What's the response in the [Prompted@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**
+1. **What's the response in the [Prompted@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**
 
     ```yaml
     Format: TIME

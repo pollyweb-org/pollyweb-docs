@@ -67,7 +67,7 @@
     ---
     <br/>
 
-4. **What proxy services are involved in the flow?**
+1. **What proxy services are involved in the flow?**
 
     [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) sent from [Host 🤗 domains](<04 🤗🎭 Host role.md>) first reach the user's [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) via HTTPS POST:
     - these [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) are responsible for orchestrating [Chats 💬](<01 💬 Chat.md>) between users and [Host 🤗 domains](<04 🤗🎭 Host role.md>) using the NLWeb protocol, 

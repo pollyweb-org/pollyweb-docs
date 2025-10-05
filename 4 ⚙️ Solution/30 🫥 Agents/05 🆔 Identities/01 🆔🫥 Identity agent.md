@@ -54,7 +54,7 @@
     ---
     <br/>
     
-4. **Can users with dual nationality bind to two Identity domains?**
+1. **Can users with dual nationality bind to two Identity domains?**
 
     Yes. 
     * Users with dual nationality may even have two or more bound [Identity 🆔 vault](<01 🆔🫥 Identity agent.md>), one per nationality. 

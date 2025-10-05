@@ -96,7 +96,7 @@
     ---
     <br/>
 
-4. **What's the syntax for code handlers?**
+1. **What's the syntax for code handlers?**
 
     ```yaml
     {handler[(param-1[,param-n])]}
@@ -113,7 +113,7 @@
 
 
 
-4. **What's an example of code handlers?**
+1. **What's an example of code handlers?**
 
 
 
@@ -207,7 +207,7 @@
     <br/>
 
 
-4. **What's the syntax of a Function name?**
+1. **What's the syntax of a Function name?**
 
     No emojis nor special characters except dashes `-`, underscores `_`, and spaces ` `.
     * Emojis and special characters are reserved for current and future use.

@@ -38,7 +38,7 @@
     ---
     <br/>
     
-4. **What responsibilities do Payers have with invoices?**
+1. **What responsibilities do Payers have with invoices?**
 
     None. 
     * [Collector 🏦 domains](<01 🏦🛠️ Collector helper.md>) are responsible for invoices.

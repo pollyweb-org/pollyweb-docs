@@ -54,7 +54,7 @@
     ---
     <br/>
 
-4. **Can Consumers use SELF Tokens to tracked domains?**
+1. **Can Consumers use SELF Tokens to tracked domains?**
 
     Yes. Just like with first-party cookies on Web 2.0 internet. 
     
@@ -76,7 +76,7 @@
     ---
     <br/>
     
-4. **How can Consumers validate the data schema when consuming?**
+1. **How can Consumers validate the data schema when consuming?**
 
     When consuming data from a [Vault 🗄️ domain](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>), the data envelope indicates the [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) and the version (e.g., `any-authority.com/any-schema:1.0`). 
     

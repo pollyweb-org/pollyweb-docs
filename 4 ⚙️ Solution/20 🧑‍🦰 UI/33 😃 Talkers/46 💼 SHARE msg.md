@@ -32,7 +32,7 @@
    
     | Argument| Purpose
     |-|-
-    | `<code-n>`  | [Schema Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) for [`Query@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>)
+    | `<code-n>`  | [Schema Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) for [`Query@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) <br/>To readability, `@` replaces `nlweb.org/`
     | `{context}`| Object with context, when applicable.
     | `$shared`| An object returned by [`Collect@Vault`](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>).<br/> Or a Token list from [`Receive@Consumer`](<../../../6 🅰️ APIs/30 💼🅰️ Consumer/03 🧑‍🦰🐌💼 Receive.md>).
 
@@ -40,7 +40,7 @@
     ---
     <br/>
 
-4. **What does a Chat look like?**
+1. **What does a Chat look like?**
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
@@ -54,7 +54,7 @@
     ```yaml
     # 😃 Talker
     INFO|Tell me your name.
-    SHARE|nlweb.org/PERSONA/NAME/SOCIAL >> $social
+    SHARE|@/PERSONA/NAME/SOCIAL >> $social
     SUCCESS|Hi, {$social.Name}!
     ```
 

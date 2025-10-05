@@ -106,7 +106,7 @@
     <br/>
 
 
-4. **How to signal a WAIT placeholder?**
+1. **How to signal a WAIT placeholder?**
 
     Consider the following `WAIT` command.
 

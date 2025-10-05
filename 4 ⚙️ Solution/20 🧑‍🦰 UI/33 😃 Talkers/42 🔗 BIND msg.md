@@ -64,7 +64,7 @@
 
 
 
-4. **What's the BIND syntax for placeholder codes?**
+1. **What's the BIND syntax for placeholder codes?**
 
    ```yaml
    BIND|{bindable} >> $bound

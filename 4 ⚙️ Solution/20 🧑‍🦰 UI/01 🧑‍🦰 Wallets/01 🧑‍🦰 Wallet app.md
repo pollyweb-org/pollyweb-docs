@@ -52,7 +52,7 @@
     ---
     <br/>
 
-4. **What data exists in the device at any given time?**
+1. **What data exists in the device at any given time?**
 
     The only data that [Wallet 🧑‍🦰 apps](<01 🧑‍🦰 Wallet app.md>) store locally is:
     - 🔏 The private half of the key pair;

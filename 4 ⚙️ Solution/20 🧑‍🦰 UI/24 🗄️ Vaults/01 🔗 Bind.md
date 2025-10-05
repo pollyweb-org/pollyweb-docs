@@ -64,7 +64,7 @@
     ---
     <br/>
 
-4. **How to bind to an existing Vault domain with a Wallet app?**
+1. **How to bind to an existing Vault domain with a Wallet app?**
     
     Using their [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>):
     1. a user (e.g., Alice) initiates a [💬 Chat](<../12 💬 Chats/01 💬 Chat.md>) with the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>);

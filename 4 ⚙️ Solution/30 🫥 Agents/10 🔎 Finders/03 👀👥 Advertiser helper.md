@@ -91,7 +91,7 @@
 
     ---
 
-4. **How do parties monetize by displaying Ads?**
+1. **How do parties monetize by displaying Ads?**
 
     Monthly, the Broker's [Biller 🤝 helper](<../04 💳 Payers/06 🤝🛠️ Biller helper.md>) debits the transaction fees and percentages to the Advertisers, who then have to pay the [Curator 🧚 agents](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>) and the [Host 🤗 domains](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>)
 

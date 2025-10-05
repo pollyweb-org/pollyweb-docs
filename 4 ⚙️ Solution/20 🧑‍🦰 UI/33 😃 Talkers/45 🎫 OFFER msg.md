@@ -42,7 +42,7 @@
     ---
     <br/>
 
-4. **What does a Talker look like for static codes?**
+1. **What does a Talker look like for static codes?**
     
    ```yaml
    # 😃 Talker 

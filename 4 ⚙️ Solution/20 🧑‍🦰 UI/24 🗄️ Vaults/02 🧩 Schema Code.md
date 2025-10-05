@@ -96,7 +96,7 @@
     ---
     <br/>
 
-4. **How can domains read Schemas in domain Manifests?**
+1. **How can domains read Schemas in domain Manifests?**
 
     For resilience and performance, [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) cannot read [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) directly from the source.
 

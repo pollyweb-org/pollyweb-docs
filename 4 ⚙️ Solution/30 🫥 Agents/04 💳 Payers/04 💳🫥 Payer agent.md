@@ -31,7 +31,7 @@
 
     ---
     
-4. **What responsibilities do Payers have in a payment?**
+1. **What responsibilities do Payers have in a payment?**
 
     Payers 💳 are responsible for:
     - receiving payment requests from [Collectors 🏦](<01 🏦🛠️ Collector helper.md>);

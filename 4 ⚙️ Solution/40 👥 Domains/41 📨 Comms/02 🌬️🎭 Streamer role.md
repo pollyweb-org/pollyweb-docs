@@ -59,7 +59,7 @@
     ---
     <br/>
 
-4. **What if a push fails with a 4XX HTTP error?**
+1. **What if a push fails with a 4XX HTTP error?**
 
     Upon receiving a non-authorized 4XX error from a [Buffer ⏳ helper domain](<03 ⏳🛠️ Buffer helper.md>), 
     * [Streamer 🌬️ domains](<02 🌬️🎭 Streamer role.md>) assume that the [Buffer ⏳ domain](<03 ⏳🛠️ Buffer helper.md>) does not want the message, 

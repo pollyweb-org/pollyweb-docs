@@ -107,7 +107,7 @@
     ---
     <br/>
     
-4. **How do domains authenticate printed identity-bound Tokens?**
+1. **How do domains authenticate printed identity-bound Tokens?**
 
     ![](<00 📎 Assets/🆔 Offline.png>)
 

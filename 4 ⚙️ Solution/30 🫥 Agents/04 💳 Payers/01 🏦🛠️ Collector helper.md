@@ -50,7 +50,7 @@
     ---
     <br/>
 
-4. **What responsibilities do Collectors have with receipts?**
+1. **What responsibilities do Collectors have with receipts?**
 
     For fiscal purposes, [Collector 🏦 domains](<01 🏦🛠️ Collector helper.md>) are responsible for:
     - issuing receipts on behalf of the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>), 

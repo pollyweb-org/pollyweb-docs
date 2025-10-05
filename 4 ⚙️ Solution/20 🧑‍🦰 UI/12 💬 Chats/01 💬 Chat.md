@@ -84,7 +84,7 @@
 
 
 
-4. **How can users report spam messages?**
+1. **How can users report spam messages?**
 
     Like in WhatsApp, users can mark messages as spam.
 
