@@ -1,19 +1,17 @@
-# 🔠 MANY prompt
+# 🛒 EAN prompt
+
+> Scans for ENA-13 and EAN-8 barcodes
 
 > Part of [blocking input prompts 🤔](<03 Blocking input prompts.md>)
 
-
-   * `MANY|<message>|<options> >> <key>`	
-       * Calls the [🔢 MANY Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
-       * Options are comma separated (e.g., `Milk, Sugar, Rice`)
-       * Example: `MANY|What items?|Milk,Sugar,Rice >> items`
-       * 
+   * `EAN|<message> >> <key>`	
+       * Calls the [🛒 EAN Prompt](<01 🤔 Prompt.md>)
 
 <br/>
 
 1. **What's an example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 
 

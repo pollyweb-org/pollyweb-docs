@@ -1,18 +1,18 @@
-# 1️⃣ ONE prompt
+# 🔆 SCAN prompt
+
+> Asks to touch/scan a [QR/NFC Locator 🔆](<../11 🔆 Locators/01 🔆 Locator.md>).
 
 > Part of [blocking input prompts 🤔](<03 Blocking input prompts.md>)
 
 
-   * `ONE|<message>|<options> >> <key>`	
-       * Calls the [1️⃣ ONE Prompt 🤔](<../13 🤔 Prompts/01 🤔 Prompt.md>)
-       * Options are comma separated (e.g., `1:Milk, 2:Sugar, R:Rice`)
-       * Example: `ONE|What item?|Milk,Sugar,Rice >> item`
+   * `SCAN|<message>`	
+       * Calls the [🔆 SCAN Prompt 🤔](<01 🤔 Prompt.md>)
 
 <br/>
 
 1. **What's an example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 
 
