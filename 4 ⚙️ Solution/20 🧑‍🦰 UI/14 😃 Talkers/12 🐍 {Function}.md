@@ -150,11 +150,13 @@
    
     | Example | Details
     |-|-
-    | `{f}` | Evaluates a function named `f`.
-    | `{f(Alice)}` | Evaluates `f`, passing the string `Alice`.
-    | `{f($name)}` | Passes the value of the `name` placeholder.
-    | `{f($x,$y,$z)}` | Passes `x`, `y`, and `z` placeholder values.
-
+    | `{f}` | ✅ Evaluates a function named `f`.
+    | `{f(C)}` | ✅ Evaluates `f` with constant `C`.
+    | `{f($p)}` | ✅ Passes the `$p` placeholder.
+    | `{f(C,$p)}` | ✅ Passes `C` and `$p` in positions.
+    | `{f([C,$p])}` |  ✅ Passes `C` and `$p` as a list. 
+    | `{f({a:1,b:$p}}` |  ✅ Passes `{a,b}` dictionary. 
+    
     ---
     <br/> 
 

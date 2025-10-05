@@ -20,7 +20,7 @@
     ```yaml
     # Functions
     - EVAL|{function} >> $output
-        {arguments}
+        {input}
 
     # Objects
     - EVAL >> $output
@@ -33,7 +33,7 @@
     | Argument| Purpose | Example
     |-|-|-
     | `{function}`| [{Function}](<12 🐍 {Function}.md>) to be evaluated. | `{MyFunction}` | 
-    | `{arguments}`| Function arguments. | `3` `[A,B]` `{A:1}` 
+    | `{arguments}`| Single input for functions. | `3` `[A,B]` `{A:1}` 
     | `<object>` | Object to evaluate. | `{A:1, B:$n}`
     | `<string>` | String to evaluate. | `A` `I'm {$name}`
     | `$output` | Placeholder for storage. | `$out`
@@ -41,6 +41,23 @@
     ---
     <br/>
 
+
+3. **How to pass arguments to a function on EVAL?**
+
+    ```yaml
+    # Multi-position functions
+    - EVAL|{f(1,A,$p)}:
+    
+    # Single-position functions
+    - EVAL|{f}:
+        x: 1
+        y: A
+        z: $p
+    ````
+
+    ---
+    <br/>
+    
 3. **What's a string EVAL example?**
 
 
@@ -105,24 +122,6 @@
     ---
     <br/>
 
-3. **How to pass arguments to a function on EVAL?**
-
-    ```yaml
-    # Inline input
-    - EVAL|{f(10,[A,B],{x:1,y:2})}:
-        
-    # Multiline inputs
-    - EVAL|{f}:
-        - 10
-        - - A
-          - B
-        - B: 
-            x: 2
-            y: 3
-    ````
-
-    ---
-    <br/>
 
 4. **What's a object EVAL example?**
 
