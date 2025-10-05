@@ -33,7 +33,7 @@
     <br/>
 
 
-4. **What's an example of non-blocking options?**
+1. **What's an example of non-blocking options?**
 
     ```yaml
     INFO|With options|[Cancel] later, [Play] music >> answer

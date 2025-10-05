@@ -56,7 +56,7 @@
     <br/>
 
 
-4. **How can domains reset their Manifest representation on Graphs?**
+1. **How can domains reset their Manifest representation on Graphs?**
 
     To reset their [domain Manifests 📜](<01 📜 Domain Manifest.md>):
     * a [domain 👥](<00 👥 Domain.md>) can send a RESET event to their [Listener 👂 helper domain](<02 👂🛠️ Listener helper.md>);

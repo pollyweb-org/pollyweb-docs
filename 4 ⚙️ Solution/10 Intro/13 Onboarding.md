@@ -40,7 +40,7 @@ Onboarding FAQ
 
     ---
 
-4. **Can NLWeb be integrated into existing apps?**
+1. **Can NLWeb be integrated into existing apps?**
 
     Yes. 
     - NLWeb can be added as a chat window to an existing mobile app, allowing the user to interact with the service via text. 

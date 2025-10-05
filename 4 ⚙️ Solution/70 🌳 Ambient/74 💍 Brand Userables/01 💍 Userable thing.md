@@ -39,7 +39,7 @@
     ---
     <br/>
 
-4. **Are Userables protected from spoofing?**
+1. **Are Userables protected from spoofing?**
 
     Yes.
 

@@ -42,7 +42,7 @@
     ---
     <br/>
 
-4. **Who migrates users between phones - Brokers or Notifiers?**
+1. **Who migrates users between phones - Brokers or Notifiers?**
 
     Given that [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and [Notifier 📣 domains](<../02 📣 Notifiers/02 📣 Notifier domain.md>) contain only minimum-to-no data, the migration of a user between and old and a new phone needs to be done by [Broker 🤵 domains](<03 🤵 Broker domain.md>).
 

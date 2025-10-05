@@ -42,7 +42,7 @@
     ---
     <br/>
 
-4. **Do Firewalls monitor domain reputation?**
+1. **Do Firewalls monitor domain reputation?**
 
     Yes. 
     * [Firewall 🔥 helper domains](<03 🔥🛠️ Firewall helper.md>) subscribe to [Reviewer ⭐ domain streams](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) to monitor the behavior of [Host 🤗 domains](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>), revoking their [Trust 👍](<01 👍 Domain Trust.md>) when necessary.

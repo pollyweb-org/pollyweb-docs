@@ -28,7 +28,7 @@
 
     ---
     
-4. **Do Sellers need to trust user Payers?**
+1. **Do Sellers need to trust user Payers?**
 
     No. 
     - Sellers 💵 delegate that [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) relationship to their [Collectors 🏦](<01 🏦🛠️ Collector helper.md>);

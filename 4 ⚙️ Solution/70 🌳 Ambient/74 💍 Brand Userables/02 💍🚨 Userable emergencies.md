@@ -68,7 +68,7 @@
 
 
 
-4. **How can the process be simplified for speed?**
+1. **How can the process be simplified for speed?**
 
     Owners with high risk (e.g., epilepsy, heart disease) may speed up the rescue by adding instructions directly to the landing page and/or by removing the need for guests to authenticate before activating an emergency.
 
@@ -87,7 +87,7 @@
 
 
 
-4. **How does it compare with Apple Watch emergency?**
+1. **How does it compare with Apple Watch emergency?**
    
     Apple Watch emergency alerts can be triggered automatically.
     - Apple can do this because the the watch is constantly monitoring the owner's vital signs and movements, is able to detect if something is wrong, and is able to automatically trigger an emergency alarm on its own.

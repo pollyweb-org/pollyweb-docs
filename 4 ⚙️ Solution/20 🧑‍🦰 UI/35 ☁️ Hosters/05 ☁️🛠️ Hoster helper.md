@@ -35,7 +35,7 @@
     <br/>
 
 
-4. **How can a domain admin user leverage a [🧑‍💻 Hoster](<05 ☁️🛠️ Hoster helper.md>)?**
+1. **How can a domain admin user leverage a [🧑‍💻 Hoster](<05 ☁️🛠️ Hoster helper.md>)?**
 
     |#| Category | Step
     |-|-|-

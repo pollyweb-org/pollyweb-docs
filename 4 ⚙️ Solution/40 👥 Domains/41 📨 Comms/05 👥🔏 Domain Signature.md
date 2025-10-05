@@ -31,7 +31,7 @@
     ---
     <br/>
 
-4. **How is a signature Token added to a file?**
+1. **How is a signature Token added to a file?**
 
     The signature is added as a property called `NLWeb Signature`.
 

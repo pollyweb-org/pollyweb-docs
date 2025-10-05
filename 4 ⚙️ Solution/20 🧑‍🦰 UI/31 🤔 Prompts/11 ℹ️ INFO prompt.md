@@ -57,7 +57,7 @@
     <br/>
 
 
-4. **What's the format for a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
+1. **What's the format for a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
     INFO|<message>|<options> >> <key>
@@ -78,7 +78,7 @@
     ---
     <br/>
 
-4. **What's the Answer in the [`Reply@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) method?**
+1. **What's the Answer in the [`Reply@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) method?**
 
     ```yaml
     Answer: <selected-option> # if any

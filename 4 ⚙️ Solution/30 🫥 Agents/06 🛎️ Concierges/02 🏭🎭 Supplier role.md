@@ -38,7 +38,7 @@
     ---
     <br/>
 
-4. **How many responses are expected per order?**
+1. **How many responses are expected per order?**
 
     A request to a [Supplier 🏭 domain](<02 🏭🎭 Supplier role.md>) will receive one or more asynchronous updated events.
 

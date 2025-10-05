@@ -52,7 +52,7 @@
     ---
     <br/>
 
-4. **How can Vaults comply with data residency?**
+1. **How can Vaults comply with data residency?**
 
     [Vault 🗄️ domains](<03 🗄️🎭 Vault role.md>) can ask users to share their [Storage 📦 vault](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>), then store the user data there.
 

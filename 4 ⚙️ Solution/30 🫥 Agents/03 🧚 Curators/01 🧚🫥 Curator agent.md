@@ -73,7 +73,7 @@
     ---
     <br/>
 
-4. **Why are Curators important for Host domains?**
+1. **Why are Curators important for Host domains?**
 
     [Curator 🧚 agents](<01 🧚🫥 Curator agent.md>) remove from [Host 🤗 domains](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) the undifferentiated heavy lifting of creating personalized workflows for user selection - e.g.:
     - a restaurant [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) can just dump to a [user's Curator 🧚 agent](<01 🧚🫥 Curator agent.md>) a comprehensive list of all 100+ possible dishes and drinks offered by the restaurant, with nutritional, allergic, and social media details about each of them;

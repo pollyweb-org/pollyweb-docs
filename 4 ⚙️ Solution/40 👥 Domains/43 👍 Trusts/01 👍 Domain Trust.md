@@ -81,7 +81,7 @@
     ---
     <br/>
 
-4. **How is it related to the Gaia-X initiative?**
+1. **How is it related to the Gaia-X initiative?**
 
     The NLWeb and the *Gaia-X Trust Frameworks* share the same goal: to safeguard data protection, transparency, security, portability, and flexibility within their ecosystems. 
     * However, they have different geopolitical ambitions and technical approaches.

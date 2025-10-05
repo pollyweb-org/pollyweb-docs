@@ -37,7 +37,7 @@
 
     ---
 
-4. **How do Persona agents work?**
+1. **How do Persona agents work?**
 
     ![](<00 📎 Assets/🧢 Persona.png>)
 

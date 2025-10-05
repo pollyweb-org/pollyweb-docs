@@ -30,7 +30,7 @@
 
     ---
 
-4. **Do domains have to register with Helper domains?**
+1. **Do domains have to register with Helper domains?**
 
 
     ---

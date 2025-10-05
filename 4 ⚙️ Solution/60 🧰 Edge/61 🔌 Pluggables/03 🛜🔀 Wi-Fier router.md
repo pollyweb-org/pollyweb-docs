@@ -19,7 +19,7 @@
     ---
     <br/>
 
-4. **What does the Chat look like?**
+1. **What does the Chat look like?**
 
     The [💬 Chat](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) may look similar to the following.
 

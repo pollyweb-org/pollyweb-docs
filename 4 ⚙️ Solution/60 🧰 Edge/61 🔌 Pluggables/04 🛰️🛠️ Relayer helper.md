@@ -20,7 +20,7 @@
 
     ---
 
-4. **How do Relayers work?**
+1. **How do Relayers work?**
 
     ![](<.📎 Assets/🔌🛰️ Relayer.png>)
 

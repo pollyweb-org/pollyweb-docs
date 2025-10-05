@@ -34,7 +34,7 @@
     ---
     <br/>
 
-4. **How aren't Listeners and Graphs the same?**
+1. **How aren't Listeners and Graphs the same?**
 
     Because of the separation of responsibilities. 
     * While [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) can be built by anyone, [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) are a lightweight layer managed by a coordinated consortium of cloud providers.

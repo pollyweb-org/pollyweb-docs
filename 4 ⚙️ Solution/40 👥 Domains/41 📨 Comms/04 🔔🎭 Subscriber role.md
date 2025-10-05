@@ -39,7 +39,7 @@
     ---
     <br/>
 
-4. **What are examples of event subscribers?**
+1. **What are examples of event subscribers?**
 
     * [Graph 🕸 helper domains](<../44 📜 Manifests/03 🕸🛠️ Graph helper.md>) build their graph databases with subscriptions to [domain Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>) updates from [Listener 👂 streams](<../44 📜 Manifests/02 👂🛠️ Listener helper.md>).
   

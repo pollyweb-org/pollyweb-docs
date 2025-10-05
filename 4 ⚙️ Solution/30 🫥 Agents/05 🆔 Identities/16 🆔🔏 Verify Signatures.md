@@ -102,7 +102,7 @@ TODO: Create the API methods
     ---
     <br/> 
     
-4. **How do domains verify user signatures?**
+1. **How do domains verify user signatures?**
 
     Domains accept user signatures verified by [Identity 🆔 domains](<01 🆔🫥 Identity agent.md>) that they [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>). 
     

@@ -43,7 +43,7 @@
     ---
     <br/>
     
-4. **How is face recognition secured with remote liveness checks?**
+1. **How is face recognition secured with remote liveness checks?**
 
     Services implementing [liveness-checks 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/07 🧑‍💻 Unsupervised ID landscape/09 📺 Amazon liveness.md>) mitigate frauds and replay attacks even if the device of the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) is running a sophisticated forgery software, is being used by an AI bot, or has been compromised by an attacker. 
     

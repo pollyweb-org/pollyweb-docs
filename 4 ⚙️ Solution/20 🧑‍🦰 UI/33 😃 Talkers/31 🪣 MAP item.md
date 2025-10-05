@@ -85,7 +85,7 @@
     ---
     <br/>
 
-4. **How to read a specific item property?**
+1. **How to read a specific item property?**
 
     The syntax for properties is th following.
 

@@ -60,7 +60,7 @@
     ---
     <br/>
 
-4. **Why are Wands important?**
+1. **Why are Wands important?**
 
     * **For businesses**, [Wand 🪄 domains](<09 🪄🛠️ Wand helper.md>) remove the overhead for [Brand 🍏 domains](<07 🍏🎭 Brand role.md>) in implementing the NLWeb protocol.
     

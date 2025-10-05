@@ -75,7 +75,7 @@
     <br/>
 
 
-4. **How do receiver domains know who sent a message?**
+1. **How do receiver domains know who sent a message?**
 
     An NLWeb envelope resembles an email message, containing a `Header` and a `Body`. 
     - The header contains the sender’s domain name (e.g., `any-sender.com`) and the receiver’s domain name (e.g., `any-receiver.com`), as well as other metadata. 
@@ -173,7 +173,7 @@
     ---
     <br/>
 
-4. **How to validate a signature with OpenSSL?**
+1. **How to validate a signature with OpenSSL?**
 
     To validate a signature with OpenSSL, first prepare the following files:
     - `signature.txt`: the signature received in a message from another [domain 👥](<../44 📜 Manifests/00 👥 Domain.md>);

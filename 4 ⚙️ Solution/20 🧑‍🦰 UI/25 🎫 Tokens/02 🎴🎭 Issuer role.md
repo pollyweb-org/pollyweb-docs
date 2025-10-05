@@ -66,7 +66,7 @@
     ---
     <br/>    
     
-4. **What if the user presents a QR Token printed on paper?**
+1. **What if the user presents a QR Token printed on paper?**
 
     In cases where the user is holding an offline image of the Token's QR (e.g., printed or screenshot), [Consumer 💼 domains](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) may ask for a synchronous status check of the [Token 🎫](<01 🎫 Token.md>) directly with the [user's Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>);
     

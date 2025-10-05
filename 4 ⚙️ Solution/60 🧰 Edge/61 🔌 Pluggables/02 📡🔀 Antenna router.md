@@ -31,7 +31,7 @@
 
     ---
 
-4. **How do Antennas work?**
+1. **How do Antennas work?**
 
     Antennas have a set of standard input connections (e.g., USB) where domains admins can plug their [Pluggable 🔌](<01 🔌 Pluggable device.md>) devices. It then uses those inputs to send commands and receive notifications from the Pluggables.
     

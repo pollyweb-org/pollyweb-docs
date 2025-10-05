@@ -45,16 +45,16 @@
 - FORM|Book
 
 # Get the booking.
-- SHARE|nlweb.org/SCHEDULER/BOOK >> $b
+- SHARE|@SCHEDULER/BOOK >> $b
     Context: 
         About: {/info/{$r.ID}.md} # Get the file.
         Slots: {Slots($r.ID)}     # From the ERP.
 
 # Get Contacts.
-- SHARE|nlweb.org/PERSONA/BOOKING >> $c
+- SHARE|@PERSONA/BOOKING >> $c
 
 # Get preferences
-- SHARE|nlweb.org/PERSONA/SEAT/PREFERENCES >> $p
+- SHARE|@PERSONA/SEAT/PREFERENCES >> $p
 
 # Commit the booking
 - CONFIRM|Confirm booking?

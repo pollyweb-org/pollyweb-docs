@@ -84,7 +84,7 @@
     ---
 
 
-4. **How cans Things make a vintage book smarter?**
+1. **How cans Things make a vintage book smarter?**
 
     ![](<00 📎 Assets/💠 Printer Sticker.png>)
 

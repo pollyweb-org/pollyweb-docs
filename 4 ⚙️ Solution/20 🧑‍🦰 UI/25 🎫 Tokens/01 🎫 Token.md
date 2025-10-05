@@ -101,7 +101,7 @@
     ---
     <br/>
 
-4. **Can Tokens be read in Chats without the use consent?**
+1. **Can Tokens be read in Chats without the use consent?**
 
     No, except for [SELF Tokens 🎫](<01 🎫 Token.md>).
 
@@ -142,7 +142,7 @@
     ---
     <br/>
     
-4. **Can users share Tokens in Wallets without internet?**
+1. **Can users share Tokens in Wallets without internet?**
 
     Not via [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), no, because Wallets need Internet connectivity to share the [Token 🎫](<01 🎫 Token.md>) with other domains. 
     

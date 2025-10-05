@@ -27,7 +27,7 @@
     ---
     <br/>
 
-4. **How can users interact with Locators?**
+1. **How can users interact with Locators?**
 
     ![](<.📎 Assets/🔆 Locators.png>)
     

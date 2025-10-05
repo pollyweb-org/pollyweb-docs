@@ -72,7 +72,7 @@ Design Decisions
     ---
     <br/>
 
-4. **What is NLWeb's approach to end-user payments?**
+1. **What is NLWeb's approach to end-user payments?**
 
     NLWeb integrates payments in [Chats 💬](<../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) between users and [Seller 💵 domains](<../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>). 
     

@@ -36,7 +36,7 @@
 
     ---
 
-4. **What can a Brand configure for a Thing?**
+1. **What can a Brand configure for a Thing?**
 
     Brands 🍏 can set the following properties for [Things 💠](<01 💠 Thing.md>) in [Wand 🪄 helper domains](<09 🪄🛠️ Wand helper.md>).
 

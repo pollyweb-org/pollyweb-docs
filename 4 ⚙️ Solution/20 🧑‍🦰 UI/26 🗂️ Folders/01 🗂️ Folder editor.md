@@ -18,7 +18,7 @@
 
 
 
-4. **What are the benefits for businesses?**
+1. **What are the benefits for businesses?**
 
     With Folders 🗂️, businesses that implement a [Vault 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) don't need to maintain a website for users to edit their datasets - only an API is required.
 

@@ -15,7 +15,7 @@
     ---
     <br/>
 
-4. **What's the syntax?**
+1. **What's the syntax?**
 
     ```yaml
     - CASE|{function}:
@@ -35,7 +35,7 @@
     ---
     <br/>
 
-4. **What's an example with function logic?**
+1. **What's an example with function logic?**
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
