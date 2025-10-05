@@ -2,6 +2,8 @@
 
 > Part of [Talker 😃](<01 😃 Talker.md>)
 
+> Related to [🤗⏩🧑‍🦰 Freeze ❄️](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/06 🤗⏩🧑‍🦰 Freeze ❄️.md>) flow
+
 <br/>
 
 
