@@ -1,0 +1,69 @@
+# 🪵 Talker `LOG` command
+
+> Part of [Talker 😃](<01 😃 Talker.md>)
+
+<br/>
+
+1. **What is a LOG command?**
+
+    A `LOG` 
+    * is a [Command ⌘](<10 ⌘ Command.md>) 
+    * that sends an event 
+    * to the log handler of a [Talker 😃](<01 😃 Talker.md>).
+
+
+    ---
+    <br/>
+
+
+5. **What are example use cases?**
+
+    * Handling the result of a [`RELAY`](<32 🛰️ RELAY msg.md>) command.
+    * The [Talker 😃](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/93 😃 Owner: Talker.md>) at [Vending machines 🏪](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/01 🏪 Index.md>)
+
+    ---
+    <br/>
+    
+2. **What's the syntax?**
+
+    ```yaml
+    # Function syntax
+    - LOG|{function}
+
+    # Object syntax
+    - LOG:
+        {object}
+
+    # String syntax
+    - LOG|<string>
+    ```
+    
+    
+    | Argument| Purpose | Example
+    |-|-|-
+    | `{function}`| [{Function}](<12 🐍 {Function}.md>) to valuate and log. | `{MyFunction}` | 
+    | `{object}` | Object to evaluate and log. | `{A:1, B:$n}`
+    | `<string>` | String to evaluate and log. | `A` `I'm {$name}`
+    
+
+    ---
+    <br/>
+
+3. **How to use it in a Talker?**
+   
+
+    ```yaml
+    # Strings
+    - LOG|An error occurred.
+
+    # Functions
+    - LOG|{$event}
+    
+    # Objects
+    - LOG:
+        MyMessage: An error occurred.
+        MyEvent: {$event}
+    ```
+
+    ---
+    <br/>

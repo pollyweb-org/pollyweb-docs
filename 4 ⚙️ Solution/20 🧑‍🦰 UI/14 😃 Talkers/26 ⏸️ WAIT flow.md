@@ -9,7 +9,7 @@
 1. **What's a WAIT flow command?**
 
     A `WAIT` 
-    * is a flow [Command](<10 Command.md>) 
+    * is a flow [Command ⌘](<10 ⌘ Command.md>) 
     * that pauses the flow for a period of time 
     * or until triggered by an external signal.
 
@@ -29,8 +29,8 @@
     |-|-
     | `<period>`        | Time before it times out.
     | `<placeholder>`   | Signal placeholder to trigger before timeout.
-    | `<on-signal>`        | Run [Procedure](<11 ⚙️ Procedure.md>) or [Command](<10 Command.md>) when signaled.
-    | `<on-timeout>`        | Run [Procedure](<11 ⚙️ Procedure.md>) or [Command](<10 Command.md>) when times out.
+    | `<on-signal>`        | Run [Procedure ⚙️](<11 ⚙️ Procedure.md>) or [Command ⌘](<10 ⌘ Command.md>) when signaled.
+    | `<on-timeout>`        | Run [Procedure ⚙️](<11 ⚙️ Procedure.md>) or [Command ⌘](<10 ⌘ Command.md>) when times out.
 
     ---
     <br/>
@@ -51,7 +51,7 @@
     ```
     
 
-    | [Command](<10 Command.md>) | Purpose
+    | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
     | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | To update the message.
 
@@ -94,10 +94,10 @@
     - REPEAT
     ```
 
-    | [Command](<10 Command.md>) | Purpose
+    | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
     | ▶️ [`RUN`](<24 ▶️ RUN flow.md>) | To start the waiting loop.
-    | ⏏️ [`EVAL`](<20 ⏏️ EVAL flow.md>) | to assess the backend queue length.
+    | 🎓 [`EVAL`](<14 🎓 EVAL flow.md>) | to assess the backend queue length.
     | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | To show the human-friendly message.
     | 🔁 [`RETURN`](<23 🔁 REPEAT flow.md>) | To exit the loop when it's the user's turn.
     | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | To re-assess the queue periodically.

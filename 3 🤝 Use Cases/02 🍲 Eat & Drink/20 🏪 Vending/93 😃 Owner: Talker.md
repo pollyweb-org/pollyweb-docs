@@ -49,11 +49,10 @@ TODO: Add the flow to the Manifest
 fail:
 - FAILURE|It didn't work!   # Inform the user
 - REFUND|{$item.Price}      # Refund the value
-- EVAL >> error:            # Create the report
+- LOG:
     Machine: .ChatKey
     Item: $item.Number
     Relay: $relayed
-- EVAL|{.Log($error)}       # Send the report
 
 # Show success.
 Success:
@@ -80,10 +79,9 @@ Success:
 
 ## Functions
 
-[Functions](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/12 {Function}.md>)| Type | Purpose
+[Functions](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/12 🐍 {Function}.md>)| Type | Purpose
 |-|-|-
 | `.ChatKey` | Built-in | Get machine's [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) key.
-| [`.Log`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/13 {.Log} function.md>) | Built-in | Raise an internal ticket.
 | `Deduct` | Custom | Deduct the stock from the ERP.
 |
 
@@ -91,7 +89,7 @@ Success:
 
 ## Commands
 
-|Type|[Command](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/10 Command.md>)|Purpose
+|Type|[Command ⌘](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/10 ⌘ Command.md>)|Purpose
 |-|-|-
 |Data| 🪣 [`MAP`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/31 🪣 MAP item.md>) | Look up items and machines
 |Input | 🔢 [`INT`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/13 🤔 Prompts/21 🔢 INT prompt.md>) | Ask for item number
@@ -99,6 +97,9 @@ Success:
 |Status| ⏳ [`TEMP`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/13 🤔 Prompts/12 ⏳ TEMP prompt.md>) | Show delivering status
 || ✅ [`SUCCESS`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/13 🤔 Prompts/13 ✅ SUCCESS prompt.md>) | Ask to pick the item
 || ❌ [`FAILURE`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/13 🤔 Prompts/14 ❌ FAILURE prompt.md>) | To show in case of error
+|Flow| ⤵️ [`IF`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/21 ⤵️ IF flow.md>)
+||🎓 [`EVAL`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/14 🎓 EVAL flow.md>)
+||🪵 [`LOG`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/15 🪵 LOG flow.md>)
 |Message| 💼 [`SHARE`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/46 💼 SHARE msg.md>) | Ask for proof of over 21
 || 💳 [`CHARGE`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/43 💳 CHARGE msg.md>) | Charge the item price
 || 🏦 [`REFUND`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/44 🏦 REFUND.md>) | Refund the payment on failure
