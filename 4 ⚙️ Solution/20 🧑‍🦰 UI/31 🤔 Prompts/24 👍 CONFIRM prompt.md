@@ -1,17 +1,19 @@
-# 🛒 EAN prompt
-
-> Scans for ENA-13 and EAN-8 barcodes
+# 👍 CONFIRM prompt
 
 > Part of [blocking input prompts 🤔](<03 Blocking input prompts.md>)
 
-   * `EAN|<message> >> <key>`	
-       * Calls the [🛒 EAN Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>)
+
+   * `CONFIRM|<message>|<falseProc>`	
+       * Calls the [CONFIRM 👍 Prompt](<01 🤔 Prompt.md>)
+       * If not confirmed, execs `falseProc`.
+       * If `falseProc` not given stops the current proc.
+       * When stopping the current proc, pops stack.
 
 <br/>
 
 1. **What's an example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 
 
@@ -30,8 +32,13 @@
 
 3. **What's the content for a [Talker 😃](<../14 😃 Talkers/01 😃 Talker.md>)?**
 
+    * Calls the [CONFIRM 👍 Prompt](<01 🤔 Prompt.md>)
+    * If not confirmed, execs `falseProc`.
+    * If `falseProc` not given stops the current proc.
+    * When stopping the current proc, pops stack.
+    * 
     ```yaml
-    
+    CONFIRM|<message>|<falseProc>
     ```
 
     |Parameter|Details

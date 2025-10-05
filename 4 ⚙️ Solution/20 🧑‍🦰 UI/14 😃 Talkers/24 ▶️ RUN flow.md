@@ -32,11 +32,11 @@
 3. **What's an example with static arguments?**
 
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ [Hi, Alice! I'm happy.](<../13 🤔 Prompts/11 ℹ️ INFO prompt.md>)
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ [Hi David! I'm glad.](<../13 🤔 Prompts/11 ℹ️ INFO prompt.md>)
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ [Example finished.](<../13 🤔 Prompts/13 ✅ SUCCESS prompt.md>)
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ [Hi, Alice! I'm happy.](<../31 🤔 Prompts/11 ℹ️ INFO prompt.md>)
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ [Hi David! I'm glad.](<../31 🤔 Prompts/11 ℹ️ INFO prompt.md>)
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ [Example finished.](<../31 🤔 Prompts/13 ✅ SUCCESS prompt.md>)
 
     ```yaml
     # 😃 Talker 
@@ -57,7 +57,7 @@
 4. **What's an example with placeholder arguments?**
 
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Give me a number. | 🔄 12
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You gave me number 12.
@@ -83,7 +83,7 @@
 
     | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
-    | 🔄 [`QUANTITY`](<../13 🤔 Prompts/21 🔄 QUANTITY prompt.md>) | To collect the number input.
+    | 🔄 [`QUANTITY`](<../31 🤔 Prompts/21 🔄 QUANTITY prompt.md>) | To collect the number input.
 
 
     ---
@@ -94,10 +94,10 @@
 5. **What's an example with function arguments?**
 
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ [Here's number  3512596.](<../13 🤔 Prompts/11 ℹ️ INFO prompt.md>)
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ [Here's number  52364.](<../13 🤔 Prompts/11 ℹ️ INFO prompt.md>)
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ [Here's number  3512596.](<../31 🤔 Prompts/11 ℹ️ INFO prompt.md>)
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ [Here's number  52364.](<../31 🤔 Prompts/11 ℹ️ INFO prompt.md>)
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Example finished.
 
     ```yaml
@@ -128,7 +128,7 @@
 
 
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ✅ Congrats, you won!
     
@@ -164,12 +164,12 @@
 6. **What's an example with a calculated RETURN?**
 
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ Adding 5 to 2...
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ✅ [The first result is 7.](<../13 🤔 Prompts/13 ✅ SUCCESS prompt.md>)
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ✅ [The first result is 7.](<../31 🤔 Prompts/13 ✅ SUCCESS prompt.md>)
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ Adding 5 to 4...
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ✅ [The second result is 9.](<../13 🤔 Prompts/13 ✅ SUCCESS prompt.md>)
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ✅ [The second result is 9.](<../31 🤔 Prompts/13 ✅ SUCCESS prompt.md>)
     
 
     ```yaml

@@ -23,7 +23,7 @@
 
     | Argument| Purpose
     |-|-
-    | `<message>`| Optional message for a [CONFIRM 👍 prompt](<../13 🤔 Prompts/24 👍 CONFIRM prompt.md>)
+    | `<message>`| Optional message for a [CONFIRM 👍 prompt](<../31 🤔 Prompts/24 👍 CONFIRM prompt.md>)
     
     ---
     <br/>
@@ -32,7 +32,7 @@
 3. **What's an example of a REPEAT with a message?**
 
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 🕙 Clock | ✅ The time is 09:01:26Z
     | 🕙 Clock | 😃 Check again? [Yes, No] | > Yes
@@ -53,7 +53,7 @@
 5. **What's an example of a repeat without a message?**
 
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 🕙 Clock | 😃 Want to know the time? [Yes, No] | > Yes
     | 🕙 Clock | ✅ The time is 09:01:26Z
@@ -70,7 +70,7 @@
 
     | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
-    | 🔄 [`QUANTITY`](<../13 🤔 Prompts/21 🔄 QUANTITY prompt.md>) | To wait for user input.
+    | 🔄 [`QUANTITY`](<../31 🤔 Prompts/21 🔄 QUANTITY prompt.md>) | To wait for user input.
     
     ---
     <br/>
@@ -80,7 +80,7 @@
 6. **How to build a simple shopping basket?**
 
     
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Hi! What do you need? <br/>- [Order] a list of items | > Order
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What's the item code?  | 🔢 123
@@ -113,7 +113,7 @@
 
     | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
-    | 👍 [`CONFIRM`](<../13 🤔 Prompts/24 👍 CONFIRM prompt.md>) | To wait for user confirmation.
+    | 👍 [`CONFIRM`](<../31 🤔 Prompts/24 👍 CONFIRM prompt.md>) | To wait for user confirmation.
     | ⬇️ [`EVAL`](<20 ⬇️ EVAL flow.md>) | To add an item to the database.
 
     ---
@@ -122,7 +122,7 @@
 7. **How to build a simple game?**
 
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Hi! What do you need? <br/>- [ Play ] guess | > Play
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You have 3 attempts.
@@ -189,7 +189,7 @@
     | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
     | ⬇️ [`EVAL`](<20 ⬇️ EVAL flow.md>) | To generate a random number a subtract tries.
-    | 🔄 [`QUANTITY`](<../13 🤔 Prompts/21 🔄 QUANTITY prompt.md>) | To collect the number input.
+    | 🔄 [`QUANTITY`](<../31 🤔 Prompts/21 🔄 QUANTITY prompt.md>) | To collect the number input.
     | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | To allow for additional tries.
     | ↩️ [`RETURN`](<25 ↩️ RETURN flow.md>) | To return the result from the loop.
     | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | To check the if the user won or lost.    
