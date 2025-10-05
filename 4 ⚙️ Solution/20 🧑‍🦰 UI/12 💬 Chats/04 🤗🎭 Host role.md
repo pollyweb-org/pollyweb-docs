@@ -110,9 +110,24 @@
     <br/>
 
 
+
+1. **What flows are initiated by Host domains?**
+
+    | Flow ⏩ | Description
+    |-|-
+    | [🤔 Prompt](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | Sends a [Prompt 🤔](<../31 🤔 Prompts/01 🤔 Prompt.md>) to a user [Chat 💬](<01 💬 Chat.md>)
+    | [🛠️ Invite](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>) | Invites a [Helper 🛠️ domain](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) to a [Chat 💬](<01 💬 Chat.md>)
+    | [📝 Form](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/05 🤗⏩🧑‍🦰 Form 📝.md>) | Informs a user upcoming inputs
+    | [❄️ Freeze](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/06 🤗⏩🧑‍🦰 Freeze ❄️.md>) | Blocks changes on all previous inputs
+    | [👋 Goodbye](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/07 🤗⏩🧑‍🦰 Goodbye 👋.md>) | Triggers the [advertising 👀](<../../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) flow
+    
+
+    ---
+    <br/>
+
 1. **What API methods are exposed by a Host domain?**
 
-    | Caller | Method | Store | Description
+    | Caller 👥 | Method 🅰️ | Store 🪣 | Description
     |-|-|-|-
     🤵 Broker | [🐌 Hello](<../../../6 🅰️ APIs/50 🤗🅰️ Host/01 🤵🐌🤗 Hello.md>) | Chats | The user started a Chat.
     🧑‍🦰 Wallet | [🐌 Home](<../../../6 🅰️ APIs/50 🤗🅰️ Host/02 🤵🐌🤗 Home.md>) | Chats | Show the top menu on the Chat.
@@ -127,15 +142,3 @@
 
     ---
     <br/>
-
-
-1. **What flows are initiated by Host domains?**
-
-    | Flow ⏩ | Description
-    |-|-
-    | [🤔 Prompt](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | Sends a [Prompt 🤔](<../31 🤔 Prompts/01 🤔 Prompt.md>) to a user [Chat 💬](<01 💬 Chat.md>)
-    | [🛠️ Invite](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>) | Invites a [Helper 🛠️ domain](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) to a [Chat 💬](<01 💬 Chat.md>)
-    | [📝 Form](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/05 🤗⏩🧑‍🦰 Form 📝.md>) | Informs a user upcoming inputs
-    | [❄️ Freeze](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/06 🤗⏩🧑‍🦰 Freeze ❄️.md>) | Blocks changes on all previous inputs
-    | [👋 Goodbye](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/07 🤗⏩🧑‍🦰 Goodbye 👋.md>) | Triggers the [👀 advertising](<../../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) flow
-    |
