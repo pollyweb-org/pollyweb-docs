@@ -38,7 +38,7 @@
 
     | Requirement | Purpose
     |-|-
-    | [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) | To authenticate and [Chat 💬](<01 💬 Chat.md>) with the [Hoster 🧑‍💻 domain](<05 🧑‍💻🛠️ Hoster helper.md>).
+    | [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) | To authenticate and [Chat 💬](<01 💬 Chat.md>) with the [Hoster ☁️ domain](<05 🧑‍💻🛠️ Hoster helper.md>).
     | [Payer 💳 agent](<../../30 🫥 Agents/04 💳 Payers/04 💳🫥 Payer agent.md>) | To pay for usage and subscription plans.
     | [Identity 🆔 agent](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | To authenticate the domain user.
     | [Folder 🗂️ editor](<../../20 🧑‍🦰 UI/26 🗂️ Folders/01 🗂️ Folder editor.md>) | To manage the settings of the hosted [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).
@@ -50,11 +50,11 @@
 
     |#| Category | Step
     |-|-|-
-    |1| `Find` | Using their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), <br/>the admin user [finds 🔎](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) a [Hoster 🧑‍💻 domain](<05 🧑‍💻🛠️ Hoster helper.md>) <br/>and starts a [Chat 💬](<01 💬 Chat.md>) with the [Hoster's Host 🤗 role](<04 🤗🎭 Host role.md>).
+    |1| `Find` | Using their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), <br/>the admin user [finds 🔎](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) a [Hoster ☁️ domain](<05 🧑‍💻🛠️ Hoster helper.md>) <br/>and starts a [Chat 💬](<01 💬 Chat.md>) with the [Hoster's Host 🤗 role](<04 🤗🎭 Host role.md>).
     |2| `Bind`| On the [Chat 💬](<01 💬 Chat.md>), <br/>the user [Binds 🔗](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>) to the [Hoster's Vault 🗄️ role](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>), <br/>and creates a new [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).
     |3| `Clone`| On a workstation terminal, <br/>the user [scans ✨](<../11 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) the terminal QR code <br/>to link the terminal to the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)<br/>and download the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) settings.
     |4| `Edit`| On a code editor (e.g., Visual Studio Code)<br/>the user configures the logic webhooks <br/>and the public [domain 📜 Manifest](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>).
-    |5| `Sync`| On the workstation terminal, <br/>the user synchronizes the changes <br/>with the [Hoster 🧑‍💻 domain](<05 🧑‍💻🛠️ Hoster helper.md>).
+    |5| `Sync`| On the workstation terminal, <br/>the user synchronizes the changes <br/>with the [Hoster ☁️ domain](<05 🧑‍💻🛠️ Hoster helper.md>).
     |6| `Test`| From the workstation terminal, <br/>the user opens [Chats 💬](<01 💬 Chat.md>) for manual testing.
 
     ---
@@ -81,7 +81,7 @@
     |🧑‍💻 Command | Description
     |-|-
     |`clone <name>` | Generates a [QR Locator 🔆](<../11 🔆 Locators/01 🔆 Locator.md>)<br> for the user to scan with the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)<br/>to clone the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) to a local folder<br/>- e.g., `my-hoster clone my-domain`
-    |`sync` | Sends the changes with the [Hoster 🧑‍💻 domain](<05 🧑‍💻🛠️ Hoster helper.md>) <br/>- e.g., `my-hoster sync`
+    |`sync` | Sends the changes with the [Hoster ☁️ domain](<05 🧑‍💻🛠️ Hoster helper.md>) <br/>- e.g., `my-hoster sync`
     |`chat <env>`| Opens a [Chat 💬](<01 💬 Chat.md>) with an environment<br/>on the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)<br/>- e.g., `my-hoster chat local`
     <!--|`test <env>`| Runs test scripts on an environment<br/>- e.g., `my-hoster test local`-->
 
@@ -137,9 +137,9 @@
 
 7. **What does the Inbound file look like?**
 
-    The `📥 Inbound.yaml` file tells the [Hoster 🧑‍💻 domain](<05 🧑‍💻🛠️ Hoster helper.md>) which [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) to forward, and where to.
+    The `📥 Inbound.yaml` file tells the [Hoster ☁️ domain](<05 🧑‍💻🛠️ Hoster helper.md>) which [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) to forward, and where to.
     
-    * For [💬 Chats](<01 💬 Chat.md>) started from the workstation's terminal, the CLI will open a proxy connection to receive the messages from the [Hoster 🧑‍💻 domain](<05 🧑‍💻🛠️ Hoster helper.md>) and forward them to the target until the [💬 Chat](<01 💬 Chat.md>) ends, allowing a local web-server at http://localhost to be running as a target.
+    * For [💬 Chats](<01 💬 Chat.md>) started from the workstation's terminal, the CLI will open a proxy connection to receive the messages from the [Hoster ☁️ domain](<05 🧑‍💻🛠️ Hoster helper.md>) and forward them to the target until the [💬 Chat](<01 💬 Chat.md>) ends, allowing a local web-server at http://localhost to be running as a target.
   
     * [💬 Chats](<01 💬 Chat.md>) starting with any other way will communicate only via the Internet, and will require the target to expose the WebHook endpoint as HTTPS.
 
@@ -166,9 +166,9 @@
 
 1. **What does the Outbound file look like?**
 
-    The `📤 Outbound.yaml` is generated by the [Hoster 🧑‍💻 domain](<05 🧑‍💻🛠️ Hoster helper.md>) to tell the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) where to proxy messages to.
+    The `📤 Outbound.yaml` is generated by the [Hoster ☁️ domain](<05 🧑‍💻🛠️ Hoster helper.md>) to tell the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) where to proxy messages to.
 
-    * The [Hoster 🧑‍💻 domain](<05 🧑‍💻🛠️ Hoster helper.md>) proxy receives unsigned [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) from the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>), signs them with the [DKIM 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) private key, and forwards them downstream without ever disclosing the private key.
+    * The [Hoster ☁️ domain](<05 🧑‍💻🛠️ Hoster helper.md>) proxy receives unsigned [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) from the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>), signs them with the [DKIM 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) private key, and forwards them downstream without ever disclosing the private key.
 
 
     ```yaml

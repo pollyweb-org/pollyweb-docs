@@ -2,7 +2,7 @@
 
 # 🧑‍💻👥 Hosted domain
 
-> Part of [Hoster 🧑‍💻 helper domain](<05 🧑‍💻🛠️ Hoster helper.md>)
+> Part of [Hoster ☁️ helper domain](<05 ☁️🛠️ Hoster helper.md>)
 
 | Method |
 |-
