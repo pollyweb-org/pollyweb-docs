@@ -46,7 +46,7 @@
     ---
     <br/>
 
-2. **What's an example?**
+2. **How to open a locker door remotely?**
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
@@ -75,5 +75,9 @@
     - SUCCESS|Locker opened. # Notify the user
     ```
 
+    | [Command ⌘](<10 ⌘ Command.md>) | Purpose
+    |-|-
+    | 🪵 [`LOG`](<15 🪵 LOG flow.md>) | To log the result.
+    
     ---
     <br/>

@@ -7,7 +7,7 @@
 
 1. **What's a RUN flow?**
 
-    A `RUN` 
+    A `RUN` ▶️
     * is a flow [Command ⌘](<10 ⌘ Command.md>) 
     * that runs a  [Procedure ⚙️](<11 ⚙️ Procedure.md>).
 

@@ -6,7 +6,7 @@
 
 1. **What is a LOG command?**
 
-    A `LOG` 
+    A `LOG` 🪵
     * is a [Command ⌘](<10 ⌘ Command.md>) 
     * that sends an event 
     * to the log handler of a [Talker 😃](<01 😃 Talker.md>).
