@@ -7,7 +7,7 @@
 1. **What is a BIND message command?**
 
     A `BIND`
-    * is a message [Command](<10 Command.md>) 
+    * is a message [Command ⌘](<10 ⌘ Command.md>) 
     * that invokes the [Bind @ Vault ⏩ flow](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind.md>).
 
     ---
@@ -55,7 +55,7 @@
        Else: FAILURE|Not bounded.
    ```
 
-   | [Command](<10 Command.md>) | Purpose
+   | [Command ⌘](<10 ⌘ Command.md>) | Purpose
    |-|-
    | ⤵️ [IF](<21 ⤵️ IF flow.md>) | To verify the result.  
    
@@ -73,7 +73,7 @@
    
     | Argument| Purpose
     |-|-
-    | `{bindable}` | [{Function}](<12 {Function}.md>) to get the [Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) for [Bindable @ Broker](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/42 🗄️🐌🤵 Bindable.md>).
+    | `{bindable}` | [{Function}](<12 🐍 {Function}.md>) to get the [Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) for [Bindable @ Broker](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/42 🗄️🐌🤵 Bindable.md>).
     | `<bound>`  | Array of [Schema Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) received on [Bound @ Vault](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/02 🤵🐌🗄️ Bound.md>).
 
     ---
@@ -91,9 +91,9 @@
        Else: FAILURE|Not bounded.
    ```
 
-   | [Command](<10 Command.md>) | Purpose
+   | [Command ⌘](<10 ⌘ Command.md>) | Purpose
    |-|-
-   | ⏏️ [`EVAL`](<20 ⏏️ EVAL flow.md>) | To put the bindable array into a placeholder.
+   | 🎓 [`EVAL`](<14 🎓 EVAL flow.md>) | To put the bindable array into a placeholder.
    | ⤵️ [`IF`](<21 ⤵️ IF flow.md>) | To verify the result.
    
    ---

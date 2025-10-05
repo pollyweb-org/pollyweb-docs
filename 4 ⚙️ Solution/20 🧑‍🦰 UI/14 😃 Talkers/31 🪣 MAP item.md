@@ -14,7 +14,7 @@ Example:
 1. **What's a MAP item command?**
 
     A `MAP` 
-    * is a [Command](<10 Command.md>) 
+    * is a [Command ⌘](<10 ⌘ Command.md>) 
     * that retrieves an item by key from a resource pool
     * into a placeholder.
 
@@ -52,9 +52,10 @@ Example:
     {$placeholder.property}
     ```
 
-    Consider resources `🪣 MyPool` as the following.
+    Consider the resource pool `MyPool` 🪣 as the following.
    
     ```yaml
+    # 🪣 MyPool
     - Key1: 
         PropA: 1.A
         PropB: 1.B 
@@ -66,6 +67,7 @@ Example:
     The following [Talker 😃](<01 😃 Talker.md>) renders `ℹ️ 2.A` in the Chat.
 
     ```yaml
+    # 😃 Talker 
     - MAP|MyPool|Key2 >> myItem
     - INFO|{$myItem.PropA} 
     ```

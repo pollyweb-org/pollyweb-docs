@@ -1,4 +1,4 @@
-# 😃 Talker `{Function}` 
+# 🐍 Talker `{Function}` 
 
 > Part of [Talker 😃](<01 😃 Talker.md>)
 
@@ -6,7 +6,7 @@
 
 1. **What's a Talker {Function}?**
 
-    A [{Function}](<12 {Function}.md>) 
+    A [{Function}](<12 🐍 {Function}.md>) 
     * is a string encapsulated in brackets 
     * that calculates one if the following values.
 
@@ -47,11 +47,11 @@
     ```yaml
     # 😃 Talker configuration
     💬 Example:
-    - QUANTITY|Give me a number. >> my-var
-    - INFO|You gave me the number {$my-var}.
+    - QUANTITY|Give me a number. >> $n
+    - INFO|You gave me the number {$n}.
     ```
 
-    | [Command](<10 Command.md>) | Purpose
+    | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
     | 🔄 [`QUANTITY`](<../13 🤔 Prompts/21 🔄 QUANTITY prompt.md>) | To collect the number input.
 
@@ -126,11 +126,11 @@
     💬 Example:
     - INFO|No numbers equals {Sum}
     - INFO|1+2+3 equals {Sum(1,2,3)}
-    - QUANTITY|Give me a number >> n
+    - QUANTITY|Give me a number >> $n
     - INFO|{$n}+{$n} equals {Sum($n,$n)}
     ```
 
-    | [Command](<10 Command.md>) | Purpose
+    | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
     | 🔄 [`QUANTITY`](<../13 🤔 Prompts/21 🔄 QUANTITY prompt.md>) | To collect the number input.
 
@@ -240,7 +240,7 @@
     | `.InRange` | Checks intervals | `{.InRange(5,1,10)}` → `True`
     | `.Time` | Current time | `{.Time}` → `10:30:00Z`
     | `.ChatKey`| [Locator 🔆](<../11 🔆 Locators/01 🔆 Locator.md>) Key | `{.ChatKey}` → `ANY-KEY`
-    | [`.Log`](<13 {.Log} function.md>) | Push to handlers | `{.Log($event)}`
+    
 
 
     ---

@@ -1,4 +1,4 @@
-# 😃 Talker `EVAL` flow 
+# 🎓 Talker `EVAL` flow 
 
 > Part of [Talker 😃](<01 😃 Talker.md>)
 
@@ -7,16 +7,10 @@
 
 1. **What's an EVAL command?**
 
-    An `EVAL` 
-    * is a [Command](<10 Command.md>) 
-    * that evaluates one of the following expressions 
+    An `EVAL` 🎓
+    * is a [Command ⌘](<10 ⌘ Command.md>) 
+    * that evaluates strings, objects, and [`{Functions}`](<12 🐍 {Function}.md>)
     * into a placeholder.
-    
-    |Expression|Examples
-    |-|-
-    |`<string>`| `3` `Alice`
-    [`{Function}`](<12 {Function}.md>) | `{$placeholder}` `{handler(1)}` `{.helper(1)}` 
-    | `<object>`| `A: 1`<br/>`B: {$p}`<br/>`C: {handler(1)}` <br/> `D: Value {$v}`
 
     ---
     <br/>
@@ -24,35 +18,49 @@
 2. **What's the EVAL syntax?**
 
     ```yaml
-    # Inline syntax
-    - EVAL|<expression> >> <placeholder>
+    # Functions
+    - EVAL|{function} >> $output
+        {arguments}
 
-    # Multi-line syntax
-    - EVAL >> <placeholder>:
-        <expression>
+    # Objects
+    - EVAL >> $output
+        {object}
+
+    # Strings
+    - EVAL|<string> >> $output
     ```
 
-    | Argument| Purpose
-    |-|-
-    | `<expression>`| The string or [{Function}](<12 {Function}.md>) to be evaluated.
-    | `<placeholder>`| The placeholder to store the evaluation result.
+    | Argument| Purpose | Example
+    |-|-|-
+    | `{function}`| [{Function}](<12 🐍 {Function}.md>) to be evaluated. | `{MyFunction}` | 
+    | `{arguments}`| Function arguments. | `3` `[A,B]` `{A:1}` 
+    | `<object>` | Object to evaluate. | `{A:1, B:$n}`
+    | `<string>` | String to evaluate. | `A` `I'm {$name}`
+    | `$output` | Placeholder for storage. | `$out`
     
     ---
     <br/>
 
-2. **What's a string EVAL example?**
+3. **What's a string EVAL example?**
 
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ The placeholder number is 3.
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ The A placeholder has 3.
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Placeholder B also has 3.
 
 
     ```yaml
     # 😃 Talker.
     💬 Example:
-    - EVAL|3 >> n
-    - INFO|The placeholder number is {$n}.
+    
+    # First message.
+    - EVAL|3 >> $A
+    - INFO|The A placeholder has {$A}.
+
+    # Second message.
+    - EVAL|Placeholder B also has {$A} >> $B
+    - INFO|{$B}
     ```
 
     ---
@@ -73,13 +81,13 @@
     # 😃 Talker.
     💬 Example:
     - CONFIRM|Add a database row?
-    - EVAL|{addRow} >> count
+    - EVAL|{addRow} >> $count
     - SUCCESS|The database now has {$count} rows.
     - REPEAT
     ```
 
 
-    | [Command](<10 Command.md>) | Purpose
+    | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
     | 👍 [`CONFIRM`](<../13 🤔 Prompts/24 👍 CONFIRM prompt.md>) | To pause for user confirmation.
     | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | To add more rows.
@@ -97,7 +105,26 @@
     ---
     <br/>
 
-3. **What's a mixed EVAL example?**
+3. **How to pass arguments to a function on EVAL?**
+
+    ```yaml
+    # Inline input
+    - EVAL|{f(10,[A,B],{x:1,y:2})}:
+        
+    # Multiline inputs
+    - EVAL|{f}:
+        - 10
+        - - A
+          - B
+        - B: 
+            x: 2
+            y: 3
+    ````
+
+    ---
+    <br/>
+
+4. **What's a object EVAL example?**
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
@@ -109,20 +136,22 @@
     💬 Example:
     
     # Prepare the data into an object.
-    - EVAL >> data:
-        Name: Any Business
-        Revenue: {get-revenue}
-        Address: 
-            City: London
-            Country: UK
+    - EVAL >> $data:
+        Input:
+            Name: Any Business
+            Revenue: {get-revenue}
+            Address: 
+                City: London
+                Country: UK
 
     # Render the intro into a string.
-    - EVAL >> intro:
-        Welcome to {$data.Name}! \n
-        We are a {$data.Revenue} M£ 
-        business based out of 
-        {$data.Address.City}, 
-        {$data.Address.Country}
+    - EVAL >> $intro:
+        Input:
+            Welcome to {$data.Name}! \n
+            We are a {$data.Revenue} M£ 
+            business based out of 
+            {$data.Address.City}, 
+            {$data.Address.Country}
 
     # Show the intro.
     - INFO|{$intro}

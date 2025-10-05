@@ -8,9 +8,18 @@
 1. **What's a RELAY item command?**
 
     A `RELAY` 
-    * is a [Command](<10 Command.md>) 
+    * is a [Command ⌘](<10 ⌘ Command.md>) 
     * that sends messages to physical devices
     * via [Relayer 🛰️ helper domains](<../../60 🧰 Edge/61 🔌 Pluggables/04 🛰️🛠️ Relayer helper.md>).
+
+    ---
+    <br/>
+
+
+3. **What are use cases?**
+
+    Examples include:
+    * The [Talker 😃](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/93 😃 Owner: Talker.md>) at [Vending machines 🏪](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/01 🏪 Index.md>)
 
     ---
     <br/>
@@ -31,35 +40,40 @@
     | `<key>`  | Unique device key in the pool
     | `<message>` | Message to send to the device
     | `<result>` | The response returned by the [Relayer 🛰️](<../../60 🧰 Edge/61 🔌 Pluggables/04 🛰️🛠️ Relayer helper.md>)
-    | `<failure>` | [Procedure](<11 ⚙️ Procedure.md>) or [Command](<10 Command.md>) to run on failure
-    | `<success>` | [Procedure](<11 ⚙️ Procedure.md>) or [Command](<10 Command.md>) to run on success
+    | `<failure>` | [Procedure ⚙️](<11 ⚙️ Procedure.md>) or [Command ⌘](<10 ⌘ Command.md>) to run on failure
+    | `<success>` | [Procedure ⚙️](<11 ⚙️ Procedure.md>) or [Command ⌘](<10 ⌘ Command.md>) to run on success
 
     ---
     <br/>
 
 2. **What's an example?**
 
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../13 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ This is Locker LND-123
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ⏳ Opening door 7...
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Locker opened.
+
     ```yaml
-    Open:
-    - RELAY|Machines|{.ChatKey} >> result
-        Instructions: Open({$item.Number})
-        OnFailure: FAILURE|Error!
-        OnSignal: SUCCESS|Done!
+    # 😃 Talker 
 
+    💬 Open locker door:
+    - INFO|This is Locker {$locker}
+    - TEMP|Opening door {$door}...
+
+    # Relay the open message.
+    - RELAY|Lockers|{$locker} >> result
+        Instructions: Open({$door})
+        OnFailure: FailureHandler
+        OnSuccess: SuccessHandler
+
+    FailureHandler:
+    - FAILURE|Try again.     # Notify the user
+    - LOG|$result            # Log the result
+
+    SuccessHandler:
+    - SUCCESS|Locker opened. # Notify the user
     ```
-
-    | Argument| Purpose
-    |-|-
-    | `<pool>` | Name of resource pool.
-    | `<key>`  | Key to look up in the pool.
-    | `<item>` | Item to retrieve.
-
-    ---
-    <br/>
-
-3. **What are use cases?**
-
-    * The [Talker 😃](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/93 😃 Owner: Talker.md>) at [Vending machines 🏪](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/01 🏪 Index.md>)
 
     ---
     <br/>
