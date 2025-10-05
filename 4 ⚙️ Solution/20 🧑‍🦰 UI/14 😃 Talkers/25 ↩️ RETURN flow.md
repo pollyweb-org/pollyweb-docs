@@ -27,7 +27,7 @@
 2. **What's the RETURN syntax?**
 
     ```yaml
-    - RETURN[|<expression>]
+    - RETURN|<expression>
     ```
 
     | Argument| Purpose
@@ -79,12 +79,12 @@
     # 😃 Talker 
 
     💬 Example:
-    - RUN|StringProc >> result
-    - INFO|String return `{$result}`
-    - RUN|PlaceholderProc(123) >> result
-    - INFO|Placeholder return `{$result}`
-    - RUN|FunctionProc(1,2,3) >> result
-    - INFO|Function return 1+2+3= {$result}
+    - RUN|StringProc >> $x
+    - INFO|String return `{$x}`
+    - RUN|PlaceholderProc(123) >> $x
+    - INFO|Placeholder return `{$x}`
+    - RUN|FunctionProc(1,2,3) >> $x
+    - INFO|Function return 1+2+3= {$x}
 
     StringProc:
     - RETURN|Bla Bla

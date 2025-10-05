@@ -20,7 +20,7 @@
 1. **What's the WAIT syntax?**
 
     ```yaml
-    - WAIT|<period>|<placeholder>:
+    - WAIT|<period>|$placeholder:
         OnSignal: <on-signal>
         OnTimeout: <on-timeout>
     ```
@@ -28,7 +28,7 @@
     | Argument| Purpose
     |-|-
     | `<period>`        | Time before it times out.
-    | `<placeholder>`   | Signal placeholder to trigger before timeout.
+    | `$placeholder`   | Signal placeholder to trigger before timeout.
     | `<on-signal>`        | Run [Procedure ⚙️](<11 ⚙️ Procedure.md>) or [Command ⌘](<10 ⌘ Command.md>) when signaled.
     | `<on-timeout>`        | Run [Procedure ⚙️](<11 ⚙️ Procedure.md>) or [Command ⌘](<10 ⌘ Command.md>) when times out.
 
@@ -78,7 +78,7 @@
     WaitInLine:
 
     # Check the status of the queue.
-    - EVAL|{queue-length} >> len
+    - EVAL|{queue-length} >> $len
 
     # Show the status in a human-friendly wait.
     - CASE|{$len}:
@@ -87,7 +87,7 @@
         0: RETURN
     
     # Wait 1 minute or until signalled.
-    - WAIT|00:01:00|signal:
+    - WAIT|00:01:00|$signal:
         OnSignal: RETURN
 
     # Check the queue length again.
@@ -112,7 +112,7 @@
 
     ```yaml
     # 😃 Talker 
-    - WAIT|24:00:00|for-something:
+    - WAIT|24:00:00|$for-something:
         OnSignal: SUCCESS|Signalled!
         OnTimeout: FAILURE|Timed out!
     ```

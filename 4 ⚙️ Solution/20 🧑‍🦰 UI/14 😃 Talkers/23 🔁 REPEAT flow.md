@@ -102,8 +102,8 @@
     - SUCCESS|Order submitted!
 
     AddItems:
-    - INT|What's the item code? >> code
-    - EVAL|{AddItem($code)} >> description
+    - INT|What's the item code? >> $code
+    - EVAL|{AddItem($code)} >> $description
     - INFO|Added `{$description}`
     - REPEAT|Add another?
     ```
@@ -146,21 +146,21 @@
 
     ```yaml
     💬 Play guess:                      
-    - EVAL|{.RandomInt(1,9)} >> target  # Set the target
-    - INFO|You have 3 attempts.        # Inform the rules
-    - EVAL|3 >> tries                  # Reset the counter
-    - RUN|TryLoop >> result            # Run the loop
-    - CASE|{$result}:                  # Check the result
+    - EVAL|{.RandomInt(1,9)} >> $target  # Set the target
+    - INFO|You have 3 attempts.          # Inform the rules
+    - EVAL|3 >> $tries                   # Reset the counter
+    - RUN|TryLoop >> $result             # Run the loop
+    - CASE|{$result}:                    # Check the result
         Won: SUCCESS|You won! 🥳
         Lost: FAILURE|You lost! 😮
-    - REPEAT|Play again?               # Ask to play again
-    - INFO|OK, see you next time!      # Exit the game
-    - GOODBYE                          # Show ads
+    - REPEAT|Play again?                 # Ask to play again
+    - INFO|OK, see you next time!        # Exit the game
+    - GOODBYE                            # Show ads
 
     TryLoop:      
 
     # Ask for a number between 1 and 9
-    - QUANTITY|Say a number from 1 to 9? >> guess:   
+    - QUANTITY|Say a number from 1 to 9? >> $guess:   
         MinValue: 1
         MaxValue: 9
 

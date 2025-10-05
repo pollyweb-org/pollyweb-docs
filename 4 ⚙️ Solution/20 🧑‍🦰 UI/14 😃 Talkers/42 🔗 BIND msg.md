@@ -28,7 +28,7 @@
 2. **What's the BIND syntax for static codes?**
 
    ```yaml
-   BIND >> <bound>:
+   BIND >> $bound:
        - <code-1>
        - <code-2>
    ```
@@ -47,7 +47,7 @@
    ```yaml
    # 😃 Talker 
    💬 Bind:
-   - BIND >> bound:
+   - BIND >> $bound:
        - some-authority.com/SOME-CODE
        - another-authority.com/ANOTHER-CODE
    - IF|{$bound}:
@@ -67,7 +67,7 @@
 4. **What's the BIND syntax for placeholder codes?**
 
    ```yaml
-   BIND|{bindable} >> <bound> 
+   BIND|{bindable} >> $bound
    ```
 
    
@@ -84,8 +84,8 @@
    ```yaml
    # 😃 Talker 
    💬 Bind:
-   - EVAL|{GetBindableCodes} >> bindable
-   - BIND|{$bindable} >> bound
+   - EVAL|{GetBindableCodes} >> $bindable
+   - BIND|{$bindable} >> $bound
    - IF|{$bound}:
        Then: SUCCESS|Your wallet is bound.
        Else: FAILURE|Not bounded.
