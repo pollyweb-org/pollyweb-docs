@@ -34,7 +34,7 @@
 💬|Reserve a table:
 
 # Show the restaurant name
-- MAP|Restaurant|{.ChatKey} >> $r
+- MAP|Restaurant|{.Chat.Key} >> $r
 - INFO|{$r.Name}
 
 # Confirmations
@@ -50,29 +50,38 @@
         About: {/info/{$r.ID}.md} # Get the file.
         Slots: {Slots($r.ID)}     # From the ERP.
 
-# Get Contacts.
+# Get user contacts.
 - SHARE|@PERSONA/BOOKING >> $c
 
-# Get preferences
+# Get user preferences.
 - SHARE|@PERSONA/SEAT/PREFERENCES >> $p
 
-# Commit the booking
+# Allow one last time for input changes.
 - CONFIRM|Confirm booking?
-- COMMIT|{Confirm} >> $committed: 
-    Input: 
-        Restaurant: $r
-        Booking: $b
-        Contacts: $c
-        Preferences: $p
-    OnFailure: Failure
-    OnSuccess: Success
+- FREEZE >> $inputs
+    Restaurant: $r
+    Booking: $b
+    Contacts: $c
+    Preferences: $p
 
-Failure:
-- FAILURE|An error occurred.
-    
-Success:
+# Save the booking
+- EVAL|{Save($inputs)} >> $token 
+        
 # Issue token
-- OFFER|{$committed.token}
+- OFFER|{$token}
 - SUCCESS|Done. See you then!
 - GOODBYE
 ```
+
+
+| [Command ⌘](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/10 ⌘ Command.md>) | Purpose
+|-|-
+| 
+| 🪣 [`MAP`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/31 🪣 MAP item.md>) | Map the locator to a restaurant info.
+| 📝 [`FORM`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/41 📝 FORM msg.md>) | Show user instructions and allow inputs.
+| 1️⃣ [`ONE`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/25 1️⃣ ONE prompt.md>) | Select an option, the day in this case.
+| 💼 [`SHARE`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/45 💼 SHARE msg.md>) | Get the user's booking contacts.
+| 👍 [`CONFIRM`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/24 👍 CONFIRM prompt.md>) | Pause to allow changing previous inputs.
+| ❄️ [`FREEZE`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/42 ❄️ FREEZE msg.md>) | Freeze all previous inputs from changes.
+| ⬇️ [`EVAL`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/20 ⬇️ EVAL flow.md>) | Save the booking.
+|
