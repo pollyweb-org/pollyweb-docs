@@ -98,7 +98,7 @@ Success:
 || ✅ [`SUCCESS`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/13 🤔 Prompts/13 ✅ SUCCESS prompt.md>) | Ask to pick the item
 || ❌ [`FAILURE`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/13 🤔 Prompts/14 ❌ FAILURE prompt.md>) | To show in case of error
 |Flow| ⤵️ [`IF`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/21 ⤵️ IF flow.md>)
-||🎓 [`EVAL`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/14 🎓 EVAL flow.md>)
+||⬇️ [`EVAL`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/20 ⬇️ EVAL flow.md>)
 ||🪵 [`LOG`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/15 🪵 LOG flow.md>)
 |Message| 💼 [`SHARE`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/46 💼 SHARE msg.md>) | Ask for proof of over 21
 || 💳 [`CHARGE`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/14 😃 Talkers/43 💳 CHARGE msg.md>) | Charge the item price

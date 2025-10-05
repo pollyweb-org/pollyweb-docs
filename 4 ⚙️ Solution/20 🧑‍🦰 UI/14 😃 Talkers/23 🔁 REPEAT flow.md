@@ -114,7 +114,7 @@
     | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
     | 👍 [`CONFIRM`](<../13 🤔 Prompts/24 👍 CONFIRM prompt.md>) | To wait for user confirmation.
-    | 🎓 [`EVAL`](<14 🎓 EVAL flow.md>) | To add an item to the database.
+    | ⬇️ [`EVAL`](<20 ⬇️ EVAL flow.md>) | To add an item to the database.
 
     ---
     <br/>
@@ -188,7 +188,7 @@
 
     | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
-    | 🎓 [`EVAL`](<14 🎓 EVAL flow.md>) | To generate a random number a subtract tries.
+    | ⬇️ [`EVAL`](<20 ⬇️ EVAL flow.md>) | To generate a random number a subtract tries.
     | 🔄 [`QUANTITY`](<../13 🤔 Prompts/21 🔄 QUANTITY prompt.md>) | To collect the number input.
     | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | To allow for additional tries.
     | ↩️ [`RETURN`](<25 ↩️ RETURN flow.md>) | To return the result from the loop.

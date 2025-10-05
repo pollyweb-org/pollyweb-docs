@@ -1,4 +1,4 @@
-# 🎓 Talker `EVAL` flow 
+# ⬇️ Talker `EVAL` flow 
 
 > Part of [Talker 😃](<01 😃 Talker.md>)
 
@@ -7,7 +7,7 @@
 
 1. **What's an EVAL command?**
 
-    An `EVAL` 🎓
+    An `EVAL` ⬇️
     * is a [Command ⌘](<10 ⌘ Command.md>) 
     * that evaluates strings, objects, and [`{Functions}`](<12 🐍 {Function}.md>)
     * into a placeholder.

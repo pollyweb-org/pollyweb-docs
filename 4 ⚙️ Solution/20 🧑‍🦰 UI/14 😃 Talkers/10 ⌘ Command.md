@@ -107,7 +107,7 @@
 
     Command | Purpose
     |-|-
-    | 🎓 [`EVAL`](<14 🎓 EVAL flow.md>) | Evaluates a [{Function}](<12 🐍 {Function}.md>) into a placeholder.
+    | ⬇️ [`EVAL`](<20 ⬇️ EVAL flow.md>) | Evaluates a [{Function}](<12 🐍 {Function}.md>) into a placeholder.
     | ▶️ [`RUN`](<24 ▶️ RUN flow.md>) | Runs a [Procedure ⚙️](<11 ⚙️ Procedure.md>) and puts the result in a placeholder.
     | ⤵️ [`IF`](<21 ⤵️ IF flow.md>) | Runs a [Command ⌘](<10 ⌘ Command.md>) or [Procedure ⚙️](<11 ⚙️ Procedure.md>) based on a [{Function}](<12 🐍 {Function}.md>).
     | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | Runs a [Command ⌘](<10 ⌘ Command.md>) or [Procedure ⚙️](<11 ⚙️ Procedure.md>) matching a [{Function}](<12 🐍 {Function}.md>).
