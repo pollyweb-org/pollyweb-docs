@@ -6,8 +6,22 @@
 
 1. **What is a non-blocking INFO?**
 
-    This is an informative [Prompt 🤔](<01 🤔 Prompt.md>) that does not require the user input.
+    An `INFO` 
+    * is an informative [Prompt 🤔](<01 🤔 Prompt.md>) 
+    * that does not require the user input.
 
+    ---
+    <br/>
+
+1. **What features does it implement?**
+
+    | Feature | Details
+    |-|-
+    | [`Details`](<03 🤔✨ with Details.md>) | Has expandable [+] details.
+    | [`Options`](<04 🤔✨ with Options.md>) | Has options for users to select.
+    | [`Attachment`](<05 🤔✨ with Attachments.md>) | Has a PDF, PNG, or JPEG attachment.
+    | [`Status` behavior](<08 🤔✨ with Status behavior.md>) | Informs and continues the flow.
+    
     ---
     <br/>
 
@@ -47,52 +61,19 @@
 
     ```yaml
     # Inline
-    INFO|<message>|<options> >> $selected
+    INFO|<message> >> $selected
 
-    # Multi-line with strings
+    # Multi-line 
     INFO >> $selected:
         Message: <message>
-        Options:
-            - <option-1>
-            - <option-n>
-
-    # Multi-line with a dictionary
-    INFO >> $selected:
-        Message: <message>
-        Options:
-            <id-1>: <option-1>
-            <id-n>: <option-n>
     ```
 
     | Argument| Purpose | Example
     |-|-|-
     | `<message>` |  Message to show to the user. | `Hi!`
-    | `<options>` | Optional comma-separated options. | `A,B,C`
-    | `$selected` | Placeholder for the selected option. | `$answer`
-    | `<id-n>` | Optional ID for an option. | `#1`
-    | `<option-n>` | Text for an option. | `Bla`
-    
     
     ---
     <br/>
-
-
-1. **What's an example with non-blocking options in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
-
-    ```yaml
-    INFO|With options >> $answer:
-        Options:
-            - [Cancel] later
-            - [Play] music 
-    ```
-
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
-    | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ With options:<br/>- [ Cancel ] later <br>- [ Play ] music | > Cancel
-
-    ---
-    <br/>
-
 
 
 1. **What's the response in the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**
@@ -100,16 +81,6 @@
     ```yaml
     Format: INFO
     Message: <message>
-    Options: <options>
-    ```
-
-    ---
-    <br/>
-
-1. **What's the Answer in the [`Reply@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) method?**
-
-    ```yaml
-    Answer: <selected-option> # if any
     ```
 
     ---

@@ -23,7 +23,7 @@
     <br/>
     
 
-1. **What does the Chat look like?**
+1. **What does the [Chat 💬](<01 💬 Chat.md>) look like?**
 
     Consider the following [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) excerpt from the [Buy Theater Tickets 🤝 use case](<../../../3 🤝 Use Cases/10 🍿 Entertainment/Go to Theaters 🎭/10 Guest @ Anywhere/12 Buy tickets.md>).
     

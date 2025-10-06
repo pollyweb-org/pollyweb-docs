@@ -14,7 +14,7 @@
     <br/>
 
 
-1. **What does a Chat look like for static codes?**
+1. **What does a [Chat 💬](<01 💬 Chat.md>) look like for static codes?**
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
