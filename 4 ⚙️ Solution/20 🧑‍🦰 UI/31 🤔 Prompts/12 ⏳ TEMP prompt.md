@@ -6,14 +6,28 @@
 
 1. **What is a non-blocking TEMP?**
 
-    This is an [INFO ℹ️ prompt](<11 ℹ️ INFO prompt.md>) that is automatically removed when a new prompt arrives;
-    - if it contains options, then the user may click an option while it's visible.
+    A `TEMP`
+    * is similar to an [INFO ℹ️ prompt](<11 ℹ️ INFO prompt.md>) 
+    * but it is automatically removed when a new [Prompt 🤔](<01 🤔 Prompt.md>) arrives;
+    * if it contains [`Options`](<04 🤔✨ with Options.md>), then the user may click an option while it's visible.
 
 
     ---
     <br/>
 
-1. **How does it look in a Chat?**
+
+1. **What features do TEMP prompts it implement?**
+
+    | Feature | Details
+    |-|-
+    | [`Details`](<03 🤔✨ with Details.md>) | Has expandable [+] details.
+    | [`Options`](<04 🤔✨ with Options.md>) | Has options for users to select.
+    
+    ---
+    <br/>
+
+
+1. **What do TEMP prompts look like in a [Chat 💬](<01 💬 Chat.md>)?**
 
     Consider the following [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
@@ -54,7 +68,7 @@
 1. **What's the format for a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
-    TEMP|<message>|<options> >> <key>
+    TEMP|<message>
     ```
     
     ---
@@ -67,16 +81,6 @@
     ```yaml
     Format: TEMP
     Message: <message>
-    Options: <options>
     ```
-    ---
-    <br/>
-
-1. **What's the Answer in the [Reply@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) method?**
-
-    ```yaml
-    Answer: <selected-option> # if any
-    ```
-    
     ---
     <br/>

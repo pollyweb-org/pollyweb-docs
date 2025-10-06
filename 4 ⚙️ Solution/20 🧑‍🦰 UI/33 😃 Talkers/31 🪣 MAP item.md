@@ -111,7 +111,7 @@
     ---
     <br>
 
-1. **What does it look in a Chat?**
+1. **What does it look in a [Chat 💬](<01 💬 Chat.md>)?**
 
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)

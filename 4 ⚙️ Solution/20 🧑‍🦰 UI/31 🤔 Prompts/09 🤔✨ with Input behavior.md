@@ -1,4 +1,4 @@
-# Blocking structured inputs 😃 😐 🫥
+# Blocking input prompts 😃 😐 🫥
 
 > Part of [Prompts 🤔](<01 🤔 Prompt.md>)
 
@@ -7,7 +7,7 @@
 1. **What are blocking inputs?**
    
     These are blocking [Prompts 🤔](<01 🤔 Prompt.md>) 
-    * that requires the user to answer it in a structured format,
+    * that request a user input,
     * addressing the basic needs of a standard structured form with multiple input fields;
     * e.g., date, number, radio, checklist;
      
