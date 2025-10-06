@@ -106,7 +106,7 @@
 
     | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
-    | 👍 [`CONFIRM`](<../31 🤔 Prompts/24 👍 CONFIRM prompt.md>) | To pause for user confirmation.
+    | 👍 [`CONFIRM`](<../31 🤔 Prompts/10 👍 CONFIRM prompt.md>) | To pause for user confirmation.
     | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | To add more rows.
 
 

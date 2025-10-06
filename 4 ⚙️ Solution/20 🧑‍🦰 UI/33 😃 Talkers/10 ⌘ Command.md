@@ -52,7 +52,7 @@
     | 💰 [`AMOUNT`](<../31 🤔 Prompts/22 💰 AMOUNT prompt.md>) |  1.23 | Decimals and currency
     | ⭐ [`RATE`](<../31 🤔 Prompts/26 ⭐ RATE prompt.md>) | 5 ⭐ | Integer from 1 to 5
     | 🔑 [`OTP`](<../31 🤔 Prompts/21 🔑 OTP prompt.md>) | 0123 | SIM one time password
-    | 👍 [`CONFIRM`](<../31 🤔 Prompts/24 👍 CONFIRM prompt.md>) | Yes | `Yes` `No` `Cancel` answer
+    | 👍 [`CONFIRM`](<../31 🤔 Prompts/10 👍 CONFIRM prompt.md>) | Yes | `Yes` `No` `Cancel` answer
     | 🔠 [`MANY`](<../31 🤔 Prompts/25 🔠 MANY prompt.md>) | [A,B] |
     | 1️⃣ [`ONE`](<../31 🤔 Prompts/25 1️⃣ ONE prompt.md>) | A |
     | 📆 [`DATE`](<../31 🤔 Prompts/27 📆 DATE prompt.md>)

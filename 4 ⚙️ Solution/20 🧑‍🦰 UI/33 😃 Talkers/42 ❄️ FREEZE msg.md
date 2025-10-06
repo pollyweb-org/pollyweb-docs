@@ -70,7 +70,7 @@
     | 📝 [`FORM`](<41 📝 FORM msg.md>) | Show user instructions and allow inputs.
     | 1️⃣ [`ONE`](<../31 🤔 Prompts/25 1️⃣ ONE prompt.md>) | Select an option, the day in this case.
     | 💼 [`SHARE`](<45 💼 SHARE msg.md>) | Get the user's booking contacts.
-    | 👍 [`CONFIRM`](<../31 🤔 Prompts/24 👍 CONFIRM prompt.md>) | Pause to allow changing previous inputs.
+    | 👍 [`CONFIRM`](<../31 🤔 Prompts/10 👍 CONFIRM prompt.md>) | Pause to allow changing previous inputs.
     | ⬇️ [`EVAL`](<20 ⬇️ EVAL flow.md>) | Save the booking.
 
     ---
