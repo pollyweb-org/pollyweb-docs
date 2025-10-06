@@ -24,6 +24,17 @@
     <br/>
 
 
+1. **What features does AMOUNT implement?**
+
+    | Feature | Details
+    |-|-
+    | [`Details`](<03 🤔✨ with Details.md>) | Has expandable [+] details.
+    | [`Attachment`](<05 🤔✨ with Attachments.md>) | Has a PDF, PNG, or JPEG attachment.
+    | [`Input` behavior](<09 🤔✨ with Input behavior.md>) | Waits for an answer from users.
+    
+    ---
+    <br/>
+
 1. **What's the syntax of a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
@@ -44,7 +55,7 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 How much? | 🔄 123
     [🫥 Agent](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | 🫥 How much? | 🔄 123
     | [🛠️ Helper](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | 🫥 How much? | 🔄 -54
-
+    |
 
     Consider the associated [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
