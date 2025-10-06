@@ -1,6 +1,6 @@
 # Non-blocking info ℹ️ ⓘ
 
-> Part of [Non-blocking status prompts 🤔](<08 Non-blocking prompts.md>)
+> Part of [Non-blocking status prompts 🤔](<08 🤔 with Status behaviour.md>)
 
 <br/>
 
