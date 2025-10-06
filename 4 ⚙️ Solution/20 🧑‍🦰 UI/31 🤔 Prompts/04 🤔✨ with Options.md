@@ -31,10 +31,15 @@
 1. **What's the format for a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
-    # Inline
+    # One-line
     <PROMPT>|<message>|<options> >> $selected
 
-    # Multi-line with strings
+    # Multi-line with a single options string
+    <PROMPT> >> $selected:
+        Message: <message>
+        Options: <options>
+
+    # Multi-line with multiple strings
     <PROMPT> >> $selected:
         Message: <message>
         Options:
