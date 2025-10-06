@@ -1,0 +1,28 @@
+@startuml Goodbye
+' ------------------
+
+actor "User" as user
+participant "Prompt 🤔\n{dog? 🐶}" as dog
+participant "Prompt 🤔\n{cat? 🐱}" as cat
+' participant "Prompt 🤔\n{fish? 🐠}" as fish
+participant "Wallet 👱\napp" as wallet
+participant "Host 🤗\ndomain" as host
+
+host --> dog: 1) ⏪ Prompt 🤔 {dog 🐶}
+activate dog
+
+host --> cat: 2) ⏪ Prompt 🤔 {cat 🐱}
+activate cat
+
+user --> dog: reply 🐶
+dog --> host: 3) Reply 🐌 {dog: 🐶}
+deactivate dog
+
+' host --> fish: 4) ⏪ Prompt 🤔 {fish? 🐠}
+
+host --> wallet: 5) Freeze ❄️
+
+user --> cat: reply 🐱
+cat -->x cat : 6) Reply 🐌 \n {cat: 🐱}
+
+@enduml 
