@@ -1,13 +1,18 @@
 🤔 Prompt FAQ
 ===
 
+> Part of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) 
+
+<br/>
+
 1. **What is a Prompt?**
 
-    A [Prompt 🤔](<01 🤔 Prompt.md>) is 
-    * a line in [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) 
-    * sent by a [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) 
+    A [Prompt 🤔](<01 🤔 Prompt.md>) 
+    * is a line in [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) 
     * with a question or information to the user
-    * for a [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to render.
+    * sent to a [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) 
+    * by a [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) 
+    * via the [Prompt 🤗⏩🧑‍🦰](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) flow.
 
     ---
     <br/>
@@ -46,22 +51,26 @@
     ---
     <br/>
 
-1. **Can users respond to an old prompt?**
+1. **Can users change an answer to an answered prompt?**
 
-    NLWeb [Chats 💬](<../12 💬 Chats/01 💬 Chat.md>) are designed to be forward-only workloads managed by a [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) (and not by the user). 
-    * This behavior is visible on LLM apps like on ChatGPT, Gemini, and others. 
-  
-    Just like in the previously referred LLMs, NLWeb also allows [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) to add options in certain steps so that users can go back and change the direction of the workload from a previous step.
-    * For example, the user did A, B, C, D, E; then went back to B and changed the history to A, B, X, Y, Z. 
-    * This worked because step B had an option set by the [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) that allowed the user to go back and change the workflow path.
+    Yes, but that rewinds the flow.
 
-    In NLWeb, these option sets can be added only to [non-blocking Prompts 🤔](<08 🤔✨ with Status behavior.md>)
-    - The non-blocking prompts include `TEMP ⏳`, `INFO ℹ️`, `SUCCESS ✅`, and [`FAILURE ❌`](<14 ❌ FAILURE prompt.md>).
-    - This is particularly helpful when [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) want to assign default values to options to speed up the process (e.g., [navigation options 🤝](<../../../3 🤝 Use Cases/03 🧳 Travel/01 🧳 Plans trips 🧭/02 🧭 Return @ Destination.md>)), while still allowing users to go back and change those default options.
+    * [Chats 💬](<../12 💬 Chats/01 💬 Chat.md>) are designed to be forward-only workloads managed by a [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) (and not by the user). 
+        * This behavior is similar to LLM apps like ChatGPT, Gemini, and others. 
+        * Just like in ChatGPT, users to change answers to old [Prompts 🤔](<01 🤔 Prompt.md>).
+        
+    * For example:
+        * a user can answer A, B, C, D, E; 
+        * then go back to B and change the history to A, B, X, Y, Z;
+        * as long as there was no [Freeze ❄️](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/06 🤗⏩🧑‍🦰 Freeze ❄️.md>) between B and E.
     
+    * However, [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) can [Freeze ❄️](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/06 🤗⏩🧑‍🦰 Freeze ❄️.md>) a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) until a certain checkpoint;
+        * This blocks the user from changing any [Prompts 🤔](<01 🤔 Prompt.md>) before that point.
+        * The objective is typically to commit a transaction to a database with the inputs collected up to that point.
+
     ---
     <br/>
-
+    
 
 1. **What are features of Prompts?**
 

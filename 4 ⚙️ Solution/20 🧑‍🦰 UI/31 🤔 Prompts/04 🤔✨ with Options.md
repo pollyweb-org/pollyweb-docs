@@ -14,6 +14,23 @@
     ---
     <br/>
 
+
+1. **Can prompt options be deferred?**
+       
+    Yes, [prompt options](<04 🤔✨ with Options.md>) can be differed with [non-blocking status Prompts 🤔](<08 🤔✨ with Status behavior.md>).
+    
+    * [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) can speed-up [Chats 💬](<../12 💬 Chats/01 💬 Chat.md>) by taking unilateral two-way-door decisions that can be reverted by users even after other [Prompts 🤔](<01 🤔 Prompt.md>) have been sent.
+
+    * For example, [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) may assign default values to options to speed up the process (e.g., [navigation options 🤝](<../../../3 🤝 Use Cases/03 🧳 Travel/01 🧳 Plans trips 🧭/02 🧭 Return @ Destination.md>)), while still allowing users to go back and change those default options.
+
+    * [Hosts 🤗](<../12 💬 Chats/04 🤗🎭 Host role.md>) enable it with [non-blocking Prompts 🤔](<08 🤔✨ with Status behavior.md>) - e.g., [`INFO`](<11 ℹ️ INFO prompt.md>), [`TEMP`](<12 ⏳ TEMP prompt.md>), [`SUCCESS`](<13 ✅ SUCCESS prompt.md>), and [`FAILURE`](<14 ❌ FAILURE prompt.md>).
+    
+    * [Hosts 🤗](<../12 💬 Chats/04 🤗🎭 Host role.md>) disabled it with a [Freeze ❄️](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/06 🤗⏩🧑‍🦰 Freeze ❄️.md>) flow.
+    
+    ---
+    <br/>
+
+
 1. **What are the prompts with options?**
 
     |Behavior| [Prompt 🤔](<01 🤔 Prompt.md>) 
