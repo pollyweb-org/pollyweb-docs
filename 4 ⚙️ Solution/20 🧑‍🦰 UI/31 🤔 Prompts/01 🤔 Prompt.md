@@ -64,36 +64,6 @@
 
 
 
-1. **What are expandable details?**
-
-    These are additional details that are initially collapsed to users, e.g.:
-    * [Finder 🔎 vault](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>)
-    * [Book restaurant table online 🍽️](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/31 🌐 Web: Book table 🗓️.md>)
-  
-    Consider the following [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>).
-
-
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
-    | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Expandable info [+] | > +
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Expandable info [-]<br/>- long text  <br/>- full of details
-    |
-
-    The corresponding [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) would be.
-    
-    ```yaml
-    INFO|Expandable info:
-        Details: |
-            - long text
-            - full of details
-    ```
-
-    
-
-    ---
-    <br/>
-
-
 
 1. **How to attach a file?**
 

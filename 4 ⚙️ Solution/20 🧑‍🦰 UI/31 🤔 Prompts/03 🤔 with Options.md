@@ -1,20 +1,20 @@
-🤔 Prompts with `Options`
-===
+# 🤔 Prompts with `Options`
+
 
 > Part of [Prompts 🤔](<01 🤔 Prompt.md>)
 
 <br/>
 
-1. **What is an option-enabled prompt?**
+1. **What is a prompt with options?**
 
     Option-enabled prompts 
-    * are [Message Prompts 🤔](<02 🤔 with Message.md>)
+    * are [Prompts 🤔](<01 🤔 Prompt.md>)
     * that allow users to select na option.
 
     ---
     <br/>
 
-1. **What are the option-enabled prompts?**
+1. **What are the prompts with options?**
 
     |Behavior| [Prompt 🤔](<01 🤔 Prompt.md>) 
     |-|-
@@ -51,6 +51,7 @@
 
     | Argument| Purpose | Example
     |-|-|-
+    | `<PROMPT>` | A [Prompt 🤔](<01 🤔 Prompt.md>) format. | `INFO` `TEMP`
     | `<message>` |  Message to show to the user. | `Hi!`
     | `<options>` | Optional comma-separated options. | `A,B,C`
     | `<option-n>` | Option text in lists and dictionaries. | `Bla`
@@ -69,6 +70,7 @@
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ With options:<br/>- [ Cancel ] later <br>- [ Play ] music | > Cancel
 
+    The related [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) is as follows.
 
     ```yaml
     # 😃 Talker

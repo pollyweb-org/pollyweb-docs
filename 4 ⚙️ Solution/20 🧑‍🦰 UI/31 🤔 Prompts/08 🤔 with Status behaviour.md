@@ -11,14 +11,14 @@
     ---
     <br/>
 
-1. **What non-blocking prompts exist?**
+1. **What prompts are non-blocking?**
    
     || Format | Description
     |-|-|-
-    || [ℹ️&nbsp;INFO](<11 ℹ️ INFO prompt.md>) | General information.
-    || [⏳&nbsp;TEMP](<12 ⏳ TEMP prompt.md>)| Temporary message.
-    || [✅&nbsp;SUCCESS](<13 ✅ SUCCESS prompt.md>) | Success message.
-    || [❌&nbsp;FAILURE](<14 ❌ FAILURE prompt.md>) | Failure message.
+    || ℹ️ [`INFO`](<11 ℹ️ INFO prompt.md>) | General information.
+    || ⏳ [`TEMP`](<12 ⏳ TEMP prompt.md>)| Temporary message.
+    || ✅ [`SUCCESS`](<13 ✅ SUCCESS prompt.md>) | Success message.
+    || ❌ [`FAILURE`](<14 ❌ FAILURE prompt.md>) | Failure message.
     
     ---
     <br/>
@@ -35,6 +35,13 @@
 
 1. **What's an example of non-blocking options?**
 
+
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ With options:<br/>- [ Cancel ] later <br>- [ Play ] music | > Cancel
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 I'm blocking, but  did <br/>   you know that you can still<br/>   go back and cancel? <br/> - [ Yes, I did ] <br/> - [ No, I didn't ]
+
+    
     ```yaml
     # Non-blocking
     INFO|With options >> $input$:
@@ -52,13 +59,6 @@
             - Yes, I did
             - No, I didn't
     ```
-
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
-    | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ With options:<br/>- [ Cancel ] later <br>- [ Play ] music | > Cancel
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 I'm blocking, but  did <br/>   you know that you can still<br/>   go back and cancel? <br/> - [ Yes, I did ] <br/> - [ No, I didn't ]
-
-    
 
     ---
     <br/>
