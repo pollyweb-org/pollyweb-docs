@@ -17,15 +17,29 @@
 
 1. **Can prompt options be deferred?**
        
-    Yes, [prompt options](<04 🤔✨ with Options.md>) can be differed with [non-blocking status Prompts 🤔](<08 🤔✨ with Status behavior.md>).
+    Yes. 
     
-    * [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) can speed-up [Chats 💬](<../12 💬 Chats/01 💬 Chat.md>) by taking unilateral two-way-door decisions that can be reverted by users even after other [Prompts 🤔](<01 🤔 Prompt.md>) have been sent.
-
-    * For example, [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) may assign default values to options to speed up the process (e.g., [navigation options 🤝](<../../../3 🤝 Use Cases/03 🧳 Travel/01 🧳 Plans trips 🧭/02 🧭 Return @ Destination.md>)), while still allowing users to go back and change those default options.
-
-    * [Hosts 🤗](<../12 💬 Chats/04 🤗🎭 Host role.md>) enable it with [non-blocking Prompts 🤔](<08 🤔✨ with Status behavior.md>) - e.g., [`INFO`](<11 ℹ️ INFO prompt.md>), [`TEMP`](<12 ⏳ TEMP prompt.md>), [`SUCCESS`](<13 ✅ SUCCESS prompt.md>), and [`FAILURE`](<14 ❌ FAILURE prompt.md>).
+    * [Prompt options](<04 🤔✨ with Options.md>) can be differed with [non-blocking status Prompts 🤔](<08 🤔✨ with Status behavior.md>);
     
-    * [Hosts 🤗](<../12 💬 Chats/04 🤗🎭 Host role.md>) disabled it with a [Freeze ❄️](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/06 🤗⏩🧑‍🦰 Freeze ❄️.md>) flow.
+        * e.g., [`INFO`](<11 ℹ️ INFO prompt.md>), [`TEMP`](<12 ⏳ TEMP prompt.md>), [`SUCCESS`](<13 ✅ SUCCESS prompt.md>), and [`FAILURE`](<14 ❌ FAILURE prompt.md>).
+  
+        * [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) speed-up [Chats 💬](<../12 💬 Chats/01 💬 Chat.md>) by taking unilateral two-way-door decisions that can be reverted by users even after other [Prompts 🤔](<01 🤔 Prompt.md>) have been sent.
+
+        * For example, [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) may assign default values to options to speed up the process (e.g., [navigation options 🤝](<../../../3 🤝 Use Cases/03 🧳 Travel/01 🧳 Plans trips 🧭/02 🧭 Return @ Destination.md>)), while still allowing users to go back and change those default options.
+
+    
+    --- 
+    <br/>
+
+1. **Do all prompt options behave the same way?**
+
+    No. 
+    * [`Options`](<04 🤔✨ with Options.md>) with a `§` sign 
+        * open a new [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)
+        * even after a [Freeze ❄️](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/06 🤗⏩🧑‍🦰 Freeze ❄️.md>) command.
+    * All others [`Options`](<04 🤔✨ with Options.md>)
+        * continue the [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)
+        * and are disabled with a [Freeze ❄️](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/06 🤗⏩🧑‍🦰 Freeze ❄️.md>) command.
     
     ---
     <br/>
@@ -50,19 +64,48 @@
     ```yaml
     # One-line
     <PROMPT>|<message>|<options> >> $selected
+    ```
 
+    | Argument| Purpose | Example
+    |-|-|-
+    | `<PROMPT>` | A [Prompt 🤔](<01 🤔 Prompt.md>) format. | [`INFO`](<11 ℹ️ INFO prompt.md>) [`TEMP`](<12 ⏳ TEMP prompt.md>)
+    | `<message>` |  Message to show to the user. | `Hi!`
+    | `<options>` | Comma-separated strings | `A,B,C`
+    || or comma-separated dictionary. | `1:A,2:B`
+    | `$selected` | Placeholder for the selected option: | `$answer`
+    || for string lists, returns the text | → `A` in `A,B,C`
+    || for dictionaries, returns the ID. | → `1` in `{1:A}`
+    
+    ```yaml
     # Multi-line with a single options string
     <PROMPT> >> $selected:
         Message: <message>
         Options: <options>
+    ```
 
+    | Argument| Purpose | Example
+    |-|-|-
+    | `<message>` | Also allows interpolated strings. | `Hi {$name}!`
+    | `<options>` | Also allows string array functions |`{f}` → `[A,B]`
+    |           | and object functions. | `{f}` → `{1:A}`
+    
+    ```yaml
     # Multi-line with multiple strings
     <PROMPT> >> $selected:
         Message: <message>
         Options:
-            - <string-1>
+            - <option-1>
             - <option-n>
+    ```
 
+    | Argument| Purpose | Example
+    |-|-|-
+    | `<option-n>` | Also allows option interpolation |`- Item {$id}`
+    || and uses `[]` to highlight words | `[Close] chat`
+    || and uses `§` for [Locators 🔆](<../11 🔆 Locators/01 🔆 Locator.md>). | `Open § {$url}`
+
+
+    ```yaml
     # Multi-line with a dictionary
     <PROMPT> >> $selected:
         Message: <message>
@@ -73,12 +116,7 @@
 
     | Argument| Purpose | Example
     |-|-|-
-    | `<PROMPT>` | A [Prompt 🤔](<01 🤔 Prompt.md>) format. | `INFO` `TEMP`
-    | `<message>` |  Message to show to the user. | `Hi!`
-    | `<options>` | Optional comma-separated options. | `A,B,C`
-    | `<option-n>` | Option text in lists and dictionaries. | `Bla`
-    | `<id-n>` | Optional ID in an option dictionary. | `#1`
-    | `$selected` | Placeholder for the selected option: <br> - for text lists, returns the text; <br/>- for dictionaries, returns the ID. | `$answer`
+    | `<id-n>` | Also allows interpolated objects. | `- A: Item {$id}`
     
     
     ---
@@ -90,22 +128,69 @@
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ With options:<br/>- [ Cancel ] later <br>- [ Play ] music | > Cancel
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What to do? <br>- [ Play ] music <br/>- [ Share ] list | > Play
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You opted to play.
+    |  
 
     The related [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) is as follows.
 
     ```yaml
     # 😃 Talker
-    INFO|With options >> $answer:
-        Options:
-            - [Cancel] later
-            - [Play] music 
-    ```
 
+    # Ask the question.
+    ONE|What to do? >> $answer:
+        Options:
+            - [Play] music 
+            - [Share] list
+
+    # Check the answer.
+    CASE|$answer:
+        Play : INFO|You opted to play.
+        Share: INFO|You choose to share.
+    ```
 
     ---
     <br/>
 
+
+
+1. **What's a Locator example in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
+
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What to do?<br>- [ Play ] music <br/>- [ Share ] list <br/> - [ Speak ] with singer 🔆 | > Speak
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Over to 👨‍🎤 Any Singer.
+    | [ new chat ]
+    | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Singer (4.4 ⭐) [+]
+    | 👨‍🎤 Singer   | ℹ️ Received fan request.
+    | 👨‍🎤 Singer  | 😃 Hi! What do you need?
+    |
+
+    The related [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) is as follows.
+
+    ```yaml
+    # 😃 Talker
+
+    # Ask the question.
+    ONE|What to do? >> $answer:
+        Options:
+            - [Play] music 
+            - [Share] list
+            - [Speak] with singer § any-artist.com/FANS
+
+    # Check the answer.
+    CASE|$answer:
+        Play : INFO|You opted to play.
+        Share: INFO|You choose to share.
+        # [Speak] never gets here.
+    ```
+
+    The option with `§` 
+    * opens a new [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)
+    * using the [Locator 🔆](<../11 🔆 Locators/01 🔆 Locator.md>) `any-artist.com/FANS`
+
+    ---
+    <br/>
 
 1. **What's the response in the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**
 

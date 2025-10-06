@@ -48,6 +48,14 @@
     Non-blocking status prompts support [`Options`](<04 🤔✨ with Options.md>).
     - If it contains [`Options`](<04 🤔✨ with Options.md>), then the user may click an option any time before or after the [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) sends other subsequent [Prompts 🤔](<01 🤔 Prompt.md>).
     - See a full example at [Driver pick-up on pizza delivery 🛵](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/82 🛵 Driver: Pick-up.md>).
+    
+    These options are not disabled with a [Freeze ❄️](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/06 🤗⏩🧑‍🦰 Freeze ❄️.md>) flow, and will continue to work.
+    - This allows users to continue to retrieve outputs from previous transactions, like the details of a payment.
+    - Thus, [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) should validate their replies with optimistic concurrency when necessary.
+
+    Also, these non-blocking [`Options`](<04 🤔✨ with Options.md>) don't return from their [Procedure ⚙️](<../33 😃 Talkers/11 ⚙️ Procedure.md>) in a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
+    * This is because they have an independent workflow.
+    * And because their parent workflow might have already ended.
 
     ---
     <br/>
