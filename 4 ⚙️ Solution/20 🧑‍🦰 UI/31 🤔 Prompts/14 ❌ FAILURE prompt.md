@@ -6,12 +6,26 @@
 
 1. **What is a non-blocking FAILURE?**
 
-    This is an [INFO ℹ️ prompt](<11 ℹ️ INFO prompt.md>) that signals the user that the transaction was not successful;
-    - it's typically followed by a prompt to help the user fix the problem.
+    A `FAILURE` 
+    * is like an [INFO ℹ️ prompt](<11 ℹ️ INFO prompt.md>) 
+    * that signals the user that the transaction failed;
+    * it's typically followed by a prompt to help the user fix the problem.
 
     ---
     <br/>
 
+
+1. **What features does FAILURE implement?**
+
+    | Feature | Details
+    |-|-
+    | [`Details`](<03 🤔✨ with Details.md>) | Has expandable [+] details.
+    | [`Options`](<04 🤔✨ with Options.md>) | Has options for users to select.
+    | [`Attachment`](<05 🤔✨ with Attachments.md>) | Has a PDF, PNG, or JPEG attachment.
+    | [`Status` behavior](<08 🤔✨ with Status behavior.md>) | Informs and continues the flow.
+    
+    ---
+    <br/>
 
 
 1. **What's an example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
@@ -52,30 +66,10 @@
 1. **What's the format for a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
-    FAILURE|<message>|<options> >> <key>
+    FAILURE|<message>
     ```
     
     ---
     <br/>
 
 
-
-1. **What's the response in the [Prompted@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**
-
-    ```yaml
-    Format: FAILURE
-    Message: <message>
-    Options: <options>
-    ```
-
-    ---
-    <br/>
-
-1. **What's the Answer in the [Reply@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) method?**
-
-    ```yaml
-    Answer: <selected-option> # if any
-    ```
-    
-    ---
-    <br/>

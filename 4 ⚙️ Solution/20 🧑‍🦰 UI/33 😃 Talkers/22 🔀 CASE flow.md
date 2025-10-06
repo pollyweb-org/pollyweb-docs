@@ -18,18 +18,31 @@
 1. **What's the syntax?**
 
     ```yaml
+    # One line values
     - CASE|{function}:
+        $: <action-$>
         <value-1>: <action-1>
         <value-n>: <action-n>
-        *: <default-action>
+        
+    # Multi-line values
+    - CASE|{function}:
+        $: 
+            - <cmd-$>
+        <value-1>: 
+            - <cmd-1>
+            - <cmd-2>
+        <value-n>: 
+            - <cmd-n>
+        
     ```
 
     | Argument| Purpose
     |-|-
     | `{function}` | Optional [{Function}](<12 🐍 {Function}.md>) to evaluate; <br/>- defaults to the last input.
-    | `<value-n>`| Static value to be compared with.
-    | `<action-n>`| Run [Procedure ⚙️](<11 ⚙️ Procedure.md>) or [Command ⌘](<10 ⌘ Command.md>) when matched.
-    | `<default-action>` | Run [Procedure ⚙️](<11 ⚙️ Procedure.md>) or [Command ⌘](<10 ⌘ Command.md>) if unmatched.
+    | `<value-n>`| Static value to be matched with.
+    | `$` |  if unmatched with any other value.
+    | `<action-n>`| Run a [Procedure ⚙️](<11 ⚙️ Procedure.md>) or one-line [Command ⌘](<10 ⌘ Command.md>).
+    | `<cmd-n>`| Run a multi-line [Command ⌘](<10 ⌘ Command.md>) list.
     
 
     ---
@@ -82,7 +95,7 @@
     - ONE|Select an option.|A,B,C >> $x
     - CASE:
         B: INFO|You selected option B.
-        *: WhenUnmatched
+        $: WhenUnmatched
 
     WhenUnmatched:
     - INFO|You selected option {$x}.

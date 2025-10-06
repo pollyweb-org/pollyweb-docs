@@ -28,7 +28,7 @@
     Consider the following [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
-    TEXT|How are you today? >> msg
+    TEXT|How are you today? >> $msg
     ```
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
@@ -66,22 +66,3 @@
     <br/>
 
 
-
-1. **What's the response in the [Prompted@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**
-
-    ```yaml
-    Format: FAILURE
-    Message: <message>
-    Options: <options>
-    ```
-
-    ---
-    <br/>
-
-1. **What's the Answer in the [Reply@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) method?**
-
-    ```yaml
-    Answer: 
-        Option: <selected-option> # if any
-        Text: <typed-text>
-    ```

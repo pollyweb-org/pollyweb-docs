@@ -82,7 +82,7 @@
 
     # Show the status in a human-friendly wait.
     - CASE|{$len}:
-        *: TEMP|There are {$len} people ahead of you.
+        $: TEMP|There are {$len} people ahead of you.
         1: TEMP|You're next, get ready!
         0: RETURN
     
