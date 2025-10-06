@@ -37,6 +37,9 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ [Hi, Alice! I'm happy.](<../31 🤔 Prompts/11 ℹ️ INFO prompt.md>)
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ [Hi David! I'm glad.](<../31 🤔 Prompts/11 ℹ️ INFO prompt.md>)
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ [Example finished.](<../31 🤔 Prompts/13 ✅ SUCCESS prompt.md>)
+    |
+
+    The related [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) is as follows.
 
     ```yaml
     # 😃 Talker 
@@ -64,8 +67,9 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Give me another. | 🔄 34
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You gave me number 34.
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Example finished.
+    |
     
-
+    The related [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) is as follows.
     
     ```yaml
     # 😃 Talker 
@@ -99,6 +103,9 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ [Here's number  3512596.](<../31 🤔 Prompts/11 ℹ️ INFO prompt.md>)
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ [Here's number  52364.](<../31 🤔 Prompts/11 ℹ️ INFO prompt.md>)
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Example finished.
+    |
+
+    The related [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) is as follows.
 
     ```yaml
     # 😃 Talker 
@@ -131,7 +138,9 @@
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ✅ Congrats, you won!
+    |
     
+    The related [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) is as follows.
 
     ```yaml
     # 😃 Talker 

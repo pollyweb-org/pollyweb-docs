@@ -38,7 +38,9 @@
     | 🕙 Clock | 😃 Check again? [Yes, No] | > Yes
     | 🕙 Clock | ✅ The time is 09:02:58Z
     | 🕙 Clock | 😃 Check again? [Yes, No] 
-    
+    |
+
+    The related [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) is as follows.
 
 
     ```yaml
@@ -60,6 +62,9 @@
     | 🕙 Clock | 😃 Want to know the time? [Yes, No] | > Yes
     | 🕙 Clock | ✅ The time is 09:02:58Z
     | 🕙 Clock | 😃 Want to know the time? [Yes, No] 
+    |
+
+    The related [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) is as follows.
 
     ```yaml
     💬|Show time:
@@ -92,6 +97,9 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Here's your basket:<br/>- Flower vase <br>- Safety box
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Submit order? [Yes, No] | > Yes
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Order submitted!
+    |
+
+    The related [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) is as follows.
 
 
     ```yaml
@@ -141,8 +149,9 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ OK, see you next time!
     | ⭐ [Rate](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5
     | [👀 Ads](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) | ⓘ Explore follow-ups: <br/>- [ #️⃣ Play Tic-Tac-Toe ] 
-    
+    |
 
+    The related [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) is as follows.
 
     ```yaml
     💬 Play guess:                      
