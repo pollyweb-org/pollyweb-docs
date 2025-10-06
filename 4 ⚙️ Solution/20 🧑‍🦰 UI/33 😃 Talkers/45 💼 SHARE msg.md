@@ -32,7 +32,7 @@
    
     | Argument| Purpose
     |-|-
-    | `<code-n>`  | [Schema Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) for [`Query@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) <br/>To readability, `@` replaces `nlweb.org/`
+    | `<code-n>`  | [Schema Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) for [`Query@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) <br/>For readability, `@` replaces `nlweb.org/`
     | `{context}`| Object with context, when applicable.
     | `$shared`| An object returned by [`Collect@Vault`](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>).<br/> Or a Token list from [`Receive@Consumer`](<../../../6 🅰️ APIs/30 💼🅰️ Consumer/03 🧑‍🦰🐌💼 Receive.md>).
 
