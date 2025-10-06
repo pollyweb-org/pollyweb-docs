@@ -4,7 +4,6 @@
 
 
    * `CONFIRM|<message>|<falseProc>`	
-       * Calls the [CONFIRM 👍 Prompt](<01 🤔 Prompt.md>)
        * If not confirmed, execs `falseProc`.
        * If `falseProc` not given stops the current proc.
        * When stopping the current proc, pops stack.

@@ -15,11 +15,21 @@
     ---
     <br/>
 
+1. **Can users reject a mandatory input?**
+
+    No. Like in a conversation between two persons, 
+    * users can only stay silent 
+    * or [abandon the conversation 👉](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>).
+
+    ---
+    <br/>
+
+
 1. **What are the blocking formats available?**
 
     |Format | Description
     |-|-
-    | [👍&nbsp;CONFIRM](<24 👍 CONFIRM prompt.md>) | Yes, No, Cancel
+    | [👍&nbsp;CONFIRM](<10 👍 CONFIRM prompt.md>) | Yes, No, Cancel
     | [🔠&nbsp;TEXT](<20 🔠 TEXT prompt.md>) | Asks for a text input
     | [🔢&nbsp;INT](<21 🔢 INT prompt.md>) | Shows the numeric keypad
     | [🔄&nbsp;QUANTITY](<21 🔄 QUANTITY prompt.md>) | Shows up/down arrows.

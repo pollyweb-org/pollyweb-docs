@@ -23,7 +23,7 @@
 
     | Argument| Purpose
     |-|-
-    | `<message>`| Optional message for a [CONFIRM 👍 prompt](<../31 🤔 Prompts/24 👍 CONFIRM prompt.md>)
+    | `<message>`| Optional message for a [CONFIRM 👍 prompt](<../31 🤔 Prompts/10 👍 CONFIRM prompt.md>)
     
     ---
     <br/>
@@ -121,7 +121,7 @@
 
     | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
-    | 👍 [`CONFIRM`](<../31 🤔 Prompts/24 👍 CONFIRM prompt.md>) | To wait for user confirmation.
+    | 👍 [`CONFIRM`](<../31 🤔 Prompts/10 👍 CONFIRM prompt.md>) | To wait for user confirmation.
     | ⬇️ [`EVAL`](<20 ⬇️ EVAL flow.md>) | To add an item to the database.
 
     ---
