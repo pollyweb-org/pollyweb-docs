@@ -29,18 +29,20 @@
 
 1. **What do TEMP prompts look like in a [Chat 💬](<01 💬 Chat.md>)?**
 
-    Consider the following [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
-    ```yaml
-    TEMP|Simple temp.
-    ```
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ⏳ Simple temp.
     | [🛠️ Helper](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | ⏳ Simple temp.
     | [🫥 Agent](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | ⏳ Simple temp.
+    |
+
+    Consider the following [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
+    ```yaml
+    TEMP|Simple temp.
+    ```
     
     
     ---

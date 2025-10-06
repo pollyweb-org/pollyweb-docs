@@ -66,7 +66,9 @@
     | 🏦 Bank | ⏳ There are 7 people ahead of you.
     | 🏦 Bank | ⏳ You're next, get ready!
     | 🏦 Bank | 💬 What do you need? | `I need...`
-    
+    |
+
+    The related [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) is as follows.
 
     ```yaml
     # 😃 Talker 
