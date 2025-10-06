@@ -64,9 +64,11 @@
         * then go back to B and change the history to A, B, X, Y, Z;
         * as long as there was no [Freeze ❄️](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/06 🤗⏩🧑‍🦰 Freeze ❄️.md>) between B and E.
     
-    * However, [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) can [Freeze ❄️](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/06 🤗⏩🧑‍🦰 Freeze ❄️.md>) a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) until a certain checkpoint;
-        * This blocks the user from changing any [Prompts 🤔](<01 🤔 Prompt.md>) before that point.
-        * The objective is typically to commit a transaction to a database with the inputs collected up to that point.
+    * However, [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) can [Freeze ❄️](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/06 🤗⏩🧑‍🦰 Freeze ❄️.md>) a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) until a certain checkpoint.
+        * This blocks the user from changing any [Prompts 🤔](<01 🤔 Prompt.md>) up to that point.
+        * [Hosts 🤗](<../12 💬 Chats/04 🤗🎭 Host role.md>) to this when committing a transaction to a database with the inputs collected.
+  
+    * ⚠️ Note: [`Options`](<04 🤔✨ with Options.md>) with a `§` open a new [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)  and are never frozen.
 
     ---
     <br/>
@@ -78,7 +80,7 @@
     |-|-
     | [`Details`](<03 🤔✨ with Details.md>) | Has expandable [+] details.
     | [`Options`](<04 🤔✨ with Options.md>) | Has options for users to select.
-    | [`Attachment`](<05 🤔✨ with Attachments.md>) | Has a PDF, PNG, or JPEG attachment.
+    | [`Attachment 📎`](<05 🤔📎 with Attachments.md>) | Has a PDF, PNG, or JPEG attachment.
     | [`Status` behavior](<08 🤔✨ with Status behavior.md>) | Informs and continues the flow.
     | [`Input` behavior](<09 🤔✨ with Input behavior.md>) | Waits for an answer from users.
     
