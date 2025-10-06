@@ -36,13 +36,27 @@
 1. **What's an example of non-blocking options?**
 
     ```yaml
-    INFO|With options|[Cancel] later, [Play] music >> answer
+    # Non-blocking
+    INFO|With options >> $input$:
+        Options: 
+            - [Cancel] later
+            - [Play] music 
+
+    # Blocking
+    ONE: 
+        Message: 
+            I'm blocking, but did you 
+            know that you can still go back 
+            and cancel?
+        Options:
+            - Yes, I did
+            - No, I didn't
     ```
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ With options:<br/>- [ Cancel ] later <br>- [ Play ] music | > Cancel
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 I'm blocking, but  did <br/>   you that you can still<br/>   go back and cancel? <br/> - [ Yes, I did ] <br/> - [ No, I didn't ]
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 I'm blocking, but  did <br/>   you know that you can still<br/>   go back and cancel? <br/> - [ Yes, I did ] <br/> - [ No, I didn't ]
 
     
 
