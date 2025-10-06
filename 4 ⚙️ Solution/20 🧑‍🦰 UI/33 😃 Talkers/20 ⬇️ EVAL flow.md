@@ -19,11 +19,11 @@
 
     ```yaml
     # Functions
-    - EVAL|{function} >> $output
+    - EVAL|{function} >> $output:
         {input}
 
     # Objects
-    - EVAL >> $output
+    - EVAL >> $output:
         {object}
 
     # Strings

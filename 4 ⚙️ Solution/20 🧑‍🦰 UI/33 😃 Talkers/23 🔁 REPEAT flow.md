@@ -169,7 +169,7 @@
         # If matched, the user won.             
         {$target}: RETURN|Won
         # If not matched, then decrease the tries
-        *: EVAL|{.Subtract($tries, 1)} >> $tries
+        $: EVAL|{.Subtract($tries, 1)} >> $tries
 
     # Verify the number of tries.
     - CASE|{$tries}:               
@@ -178,7 +178,7 @@
         # Last try.
         1: FAILURE|It's your last try.
         # Otherwise, try again.
-        *: FAILURE|You have {$tries} more tries.
+        $: FAILURE|You have {$tries} more tries.
 
     # Try again.
     - REPEAT
