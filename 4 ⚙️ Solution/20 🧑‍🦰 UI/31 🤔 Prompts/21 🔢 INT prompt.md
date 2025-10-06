@@ -5,11 +5,26 @@
 
 <br/>
 
-1. **What's an INT prompt?**
+1. **What's an `INT` prompt?**
 
-    It's a [Prompt 🤔](<01 🤔 Prompt.md>) that shows the numeric keypad.
-    * Allows for leading zeros - e.g., for UK phone numbers like 07482000000.
+    It's a [Prompt 🤔](<01 🤔 Prompt.md>) 
+    * that shows the numeric keypad
+    * and allows for leading zeros;
+    * e.g., `0123` for pins;
+    * e.g., for UK phone numbers like `07482000000`.
 
+    ---
+    <br/>
+
+
+1. **What features does `INT` implement?**
+
+    | Feature | Details
+    |-|-
+    | [`Details`](<03 🤔✨ with Details.md>) | Has expandable [+] details.
+    | [`Attachment`](<05 🤔✨ with Attachments.md>) | Has a PDF, PNG, or JPEG attachment.
+    | [`Input` behavior](<09 🤔✨ with Input behavior.md>) | Waits for an answer from users.
+    
     ---
     <br/>
 
@@ -39,7 +54,7 @@
 1. **What's the format of a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
-    INT|<message> >> <key>:
+    INT|<message> >> $placeholder:
         MinLength: <min-length>
         MaxLength: <max-length>
         MinValue: <min-value>
@@ -49,24 +64,3 @@
     ---
     <br/>
 
-
-1. **What's the response in the [Prompted@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**
-
-    ```yaml
-    Format: INT
-    Message: <message>
-    MinLength: <min-length>
-    MaxLength: <max-length>
-    MinValue: <min-value>
-    MaxValue: <max-value>
-    ```
-
-    ---
-    <br/>
-
-1. **What's the Answer in the [Reply@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) method?**
-
-    |Type| Example
-    |-|-
-    |string| `0123`
-    |

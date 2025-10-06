@@ -16,10 +16,21 @@
     <br/>
 
 
-1. **What's the format of a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
+1. **What features does QUANTITY implement?**
+
+    | Feature | Details
+    |-|-
+    | [`Details`](<03 🤔✨ with Details.md>) | Has expandable [+] details.
+    | [`Attachment`](<05 🤔✨ with Attachments.md>) | Has a PDF, PNG, or JPEG attachment.
+    | [`Input` behavior](<09 🤔✨ with Input behavior.md>) | Waits for an answer from users.
+    
+    ---
+    <br/>
+
+1. **What's the syntax on a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
-    QUANTITY|<message> >> $output:
+    QUANTITY|<message> >> $placeholder:
         MinValue: <min-value>
         MaxValue: <max-value>
     ```

@@ -4,12 +4,31 @@
 
 <br/>
 
-1. **What's a `TEXT` prompt?**
+1. **What's a TEXT prompt?**
 
-    This is a blocking input [Prompt 🤔](<01 🤔 Prompt.md>) that allows the user to type something instead of having to follow a structured format;
-    - it allows for large-language models (LLMs) to interpret the user's intent from natural language text, while also providing a structured input to facilitate the user's interaction;
-    - e.g., a user may select the `Yes` option, or type `that's fine` in the textbox.
+    A `TEXT` 
+    * is a blocking input [Prompt 🤔](<01 🤔 Prompt.md>) 
+    * that allows the user to type something 
+    * instead of having to follow a structured format;
 
+    It allows for large-language models (LLMs) 
+    * to interpret the user's intent from natural language text, 
+    * while also providing a structured input to facilitate the user's interaction;
+    * e.g., a user may select the `Yes` option, or type `that's fine` in the textbox.
+
+    ---
+    <br/>
+
+
+1. **What features does TEXT implement?**
+
+    | Feature | Details
+    |-|-
+    | [`Details`](<03 🤔✨ with Details.md>) | Has expandable [+] details.
+    | [`Options`](<04 🤔✨ with Options.md>) | Has options for users to select.
+    | [`Attachment`](<05 🤔✨ with Attachments.md>) | Has a PDF, PNG, or JPEG attachment.
+    | [`Input` behavior](<09 🤔✨ with Input behavior.md>) | Waits for an answer from users.
+    
     ---
     <br/>
 
@@ -17,19 +36,31 @@
 
    |Emoji|Usage
    |-|-
-   |💬| The speech emoji 💬 represent the chat's [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) and any [Helper 🛠️ domains](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) that it may [invite ⏩](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>).
+   |💬| The speech emoji 💬 represents the chat's [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) and any [Helper 🛠️ domains](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) that it may [invite ⏩](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>).
    |💭| The thought emoji 💭 represents user [Agent 🫥 vaults](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>).
 
     ---
     <br/>
 
-1. **What's an example of a TEXT prompt?**
 
-    Consider the following [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
-    
+1. **What's the syntax on a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
+
     ```yaml
-    TEXT|How are you today? >> $msg
+    # Without options
+    TEXT|<message> >> $placeholder
+
+    # With options
+    TEXT|<message> >> $placeholder:
+        Options: 
+            - <option-1>
+            - <option-n>
     ```
+    
+    ---
+    <br/>
+
+
+1. **What's an example of a `TEXT` prompt?**
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
@@ -37,6 +68,11 @@
     | [🛠️ Helper](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | 💬 How are you today? | `I'm fine`
     | [🫥 Agent](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | 💭 How are you today? | `I'm fine`
    
+    Consider the following [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
+    
+    ```yaml
+    TEXT|How are you today? >> $msg
+    ```
 
     ---
     <br/>
