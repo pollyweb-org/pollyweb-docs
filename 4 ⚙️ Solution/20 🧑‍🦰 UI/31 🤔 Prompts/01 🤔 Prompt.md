@@ -22,8 +22,8 @@
 
     |Behavior| Format 
     |-|-
-    |[`Status`](<08 🤔 with Status behaviour.md>)| [`ℹ️ INFO`](<11 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<12 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<13 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<14 ❌ FAILURE prompt.md>)
-    |[`Inputs`](<09 🤔 with Input behaviour.md>)| [`🔢 INT`](<21 🔢 INT prompt.md>) [`🔄 QUANTITY`](<21 🔄 QUANTITY prompt.md>) [`💰 AMOUNT`](<22 💰 AMOUNT prompt.md>) [`🔑 OTP`](<21 🔑 OTP prompt.md>) [`⭐ RATE`](<26 ⭐ RATE prompt.md>) 
+    |[`Status`](<08 🤔✨ with Status behavior.md>)| [`ℹ️ INFO`](<11 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<12 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<13 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<14 ❌ FAILURE prompt.md>)
+    |[`Inputs`](<09 🤔✨ with Input behavior.md>)| [`🔢 INT`](<21 🔢 INT prompt.md>) [`🔄 QUANTITY`](<21 🔄 QUANTITY prompt.md>) [`💰 AMOUNT`](<22 💰 AMOUNT prompt.md>) [`🔑 OTP`](<21 🔑 OTP prompt.md>) [`⭐ RATE`](<26 ⭐ RATE prompt.md>) 
     || [`👍 CONFIRM`](<24 👍 CONFIRM prompt.md>) [`1️⃣ ONE`](<25 1️⃣ ONE prompt.md>) [`🔢 MANY`](<25 🔠 MANY prompt.md>) 
     || [`🕓 TIME`](<27 🕓 TIME prompt.md>) [`📆 DATE`](<27 📆 DATE prompt.md>) 
     || [`⬆️ UPLOAD`](<51 ⬆️ UPLOAD prompt.md>)
@@ -55,7 +55,7 @@
     * For example, the user did A, B, C, D, E; then went back to B and changed the history to A, B, X, Y, Z. 
     * This worked because step B had an option set by the [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) that allowed the user to go back and change the workflow path.
 
-    In NLWeb, these option sets can be added only to [non-blocking Prompts 🤔](<08 🤔 with Status behaviour.md>)
+    In NLWeb, these option sets can be added only to [non-blocking Prompts 🤔](<08 🤔✨ with Status behavior.md>)
     - The non-blocking prompts include `TEMP ⏳`, `INFO ℹ️`, `SUCCESS ✅`, and [`FAILURE ❌`](<14 ❌ FAILURE prompt.md>).
     - This is particularly helpful when [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) want to assign default values to options to speed up the process (e.g., [navigation options 🤝](<../../../3 🤝 Use Cases/03 🧳 Travel/01 🧳 Plans trips 🧭/02 🧭 Return @ Destination.md>)), while still allowing users to go back and change those default options.
     
@@ -63,39 +63,13 @@
     <br/>
 
 
+1. **What are features of Prompts?**
 
-
-1. **How to attach a file?**
-
-    > This calls [Download@Host 🚀](<../../../6 🅰️ APIs/50 🤗🅰️ Host/06 🧑‍🦰🚀🤗 Download.md>)
-    
-    Consider the following [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) as an example.
-
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
-    | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 💬 Who is in the picture? 🖼️ | `Elvis`
-    |
-
-    The related [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) would be.
-
-    ```yaml
-    TEXT|Who is in the picture?:
-        Attachment: {/photos/elvis.png}
-    ```
-    
-    The [Prompted@Host 🚀](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method would be.
-
-    ```yaml
-    Format: TEXT
-    Message: Who is in the picture?
-    Attachment: <attachment-uuid>
-    ```
-
-    Usages include the following.
-    | Format | Example | 
+    | Feature | Details
     |-|-
-    | `PDF` | [Show the bill on vending machine payments 🏪](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/11 💧 Buy water.md>)
-    | `PNG` | [Show an image of a recovered item in a taxi 🚕](<../../../3 🤝 Use Cases/03 🧳 Travel/04 🧳 Travel by taxi 🚕/3 🚕 Customer @ Drop-off/31. Recover item.md>)
-
-    ---
-    <br/>
+    | [`Details`](<03 🤔✨ with Details.md>) | Has expandable [+] details.
+    | [`Options`](<04 🤔✨ with Options.md>) | Has options for users to select.
+    | [`Attachment`](<05 🤔✨ with Attachments.md>) | Has a PDF, PNG, or JPEG attachment.
+    | [`Status` behavior](<08 🤔✨ with Status behavior.md>) | Informs and continues the flow.
+    | [`Input` behavior](<09 🤔✨ with Input behavior.md>) | Waits for an answer from users.
+    |

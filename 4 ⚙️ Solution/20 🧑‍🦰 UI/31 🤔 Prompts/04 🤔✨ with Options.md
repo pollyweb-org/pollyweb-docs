@@ -18,8 +18,8 @@
 
     |Behavior| [Prompt 🤔](<01 🤔 Prompt.md>) 
     |-|-
-    |[`Status`](<08 🤔 with Status behaviour.md>)| [`ℹ️ INFO`](<11 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<12 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<13 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<14 ❌ FAILURE prompt.md>)
-    |[`Inputs`](<09 🤔 with Input behaviour.md>) | [`1️⃣ ONE`](<25 1️⃣ ONE prompt.md>) [`🔢 MANY`](<25 🔠 MANY prompt.md>)  [`🔠 TEXT`](<20 🔠 TEXT prompt.md>) 
+    |[`Status`](<08 🤔✨ with Status behavior.md>)| [`ℹ️ INFO`](<11 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<12 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<13 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<14 ❌ FAILURE prompt.md>)
+    |[`Inputs`](<09 🤔✨ with Input behavior.md>) | [`1️⃣ ONE`](<25 1️⃣ ONE prompt.md>) [`🔢 MANY`](<25 🔠 MANY prompt.md>)  [`🔠 TEXT`](<20 🔠 TEXT prompt.md>) 
 
     ---
     <br/>

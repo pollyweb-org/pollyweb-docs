@@ -1,6 +1,6 @@
 # Non-blocking failure ❌
 
-> Part of [Non-blocking status prompts 🤔](<08 🤔 with Status behaviour.md>)
+> Part of [Non-blocking status prompts 🤔](<08 🤔✨ with Status behavior.md>)
 
 <br/>
 

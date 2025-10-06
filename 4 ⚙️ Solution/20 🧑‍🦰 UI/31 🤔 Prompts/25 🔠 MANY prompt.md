@@ -1,6 +1,6 @@
 # 🔠 MANY prompt
 
-> Part of [blocking input prompts 🤔](<09 🤔 with Input behaviour.md>)
+> Part of [blocking input prompts 🤔](<09 🤔✨ with Input behavior.md>)
 
 
    * `MANY|<message>|<options> >> <key>`	
