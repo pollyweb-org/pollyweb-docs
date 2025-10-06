@@ -6,10 +6,28 @@
 
 1. **What is a non-blocking SUCCESS?**
 
-    This is an [INFO ℹ️ prompt](<11 ℹ️ INFO prompt.md>) that signals the user that the transaction is completed and there are no further inputs required - i.e., they can put down the phone.
+    A `SUCCESS` 
+    * is like an [INFO ℹ️ prompt](<11 ℹ️ INFO prompt.md>) 
+    * that signals the user that the transaction is completed 
+    * and there are no further inputs required;
+    * i.e., they can put down the phone.
 
     ---
     <br/>
+
+
+1. **What features does SUCCESS implement?**
+
+    | Feature | Details
+    |-|-
+    | [`Details`](<03 🤔✨ with Details.md>) | Has expandable [+] details.
+    | [`Options`](<04 🤔✨ with Options.md>) | Has options for users to select.
+    | [`Attachment`](<05 🤔✨ with Attachments.md>) | Has a PDF, PNG, or JPEG attachment.
+    | [`Status` behavior](<08 🤔✨ with Status behavior.md>) | Informs and continues the flow.
+    
+    ---
+    <br/>
+
 
 1. **How do SUCCESS emojis work?**
    
@@ -58,30 +76,9 @@
 1. **What's the format for a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
-    SUCCESS|<message>|<options> >> <key>
+    SUCCESS|<message>
     ```
     
     ---
     <br/>
 
-
-
-1. **What's the response in the [Prompted@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**
-
-    ```yaml
-    Format: SUCCESS
-    Message: <message>
-    Options: <options>
-    ```
-
-    ---
-    <br/>
-
-1. **What's the Answer in the [Reply@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) method?**
-
-    ```yaml
-    Answer: <selected-option> # if any
-    ```
-    
-    ---
-    <br/>

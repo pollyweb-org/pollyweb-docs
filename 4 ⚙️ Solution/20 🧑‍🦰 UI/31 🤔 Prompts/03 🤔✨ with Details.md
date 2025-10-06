@@ -79,3 +79,14 @@
     ---
     <br/>
 
+
+1. **What's the response in the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**
+
+    ```yaml
+    Format: <PROMPT>
+    Message: <message>
+    Details: <details>
+    ```
+
+    ---
+    <br/>

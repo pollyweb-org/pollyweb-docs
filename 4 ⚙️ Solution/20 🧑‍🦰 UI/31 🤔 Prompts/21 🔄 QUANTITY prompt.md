@@ -15,12 +15,26 @@
     ---
     <br/>
 
+
+1. **What's the format of a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
+
+    ```yaml
+    QUANTITY|<message> >> $output:
+        MinValue: <min-value>
+        MaxValue: <max-value>
+    ```
+    
+    ---
+    <br/>
+
+
+
 1. **What's an example?**
 
     Consider the following [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
-    QUANTITY|How many? >> my-variable
+    QUANTITY|How many? >> $qt
     ```
     
     The corresponding [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) would be.
@@ -37,9 +51,6 @@
 
 1. **How to default quantities in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
 
-    Consider the following [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>).
-
-
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Table reservation.
@@ -53,46 +64,14 @@
     ```yaml
     💬 Walk-in:
     - INFO|Table reservation.
-    - ONE|For how many?|1,2,more >> qt
-    - IF|{three-or-more}|ask-quantity
+    - ONE|For how many?|1,2,more >> $qt
+    - CASE|$qt:
+        more: 
+          - QUANTITY|How many exactly? >> $qt:
+                MinValue: 3
+                MaxValue: 12
     - TEMP|Checking availability...
-    
-    ask-quantity:
-    - QUANTITY|How many exactly? >> qt:
-        MinValue: 3
-        MaxValue: 12
     ```
 
     ---
     <br/>
-
-1. **What's the format of a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
-
-    ```yaml
-    QUANTITY|<message> >> <key>:
-        MinValue: <min-value>
-        MaxValue: <max-value>
-    ```
-    
-    ---
-    <br/>
-
-
-1. **What's the response in the [Prompted@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**
-
-    ```yaml
-    Format: QUANTITY
-    Message: <message>
-    MinValue: <min-value>
-    MaxValue: <max-value>
-    ```
-
-    ---
-    <br/>
-
-1. **What's the Answer in the [Reply@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) method?**
-
-    |Type| Example
-    |-|-
-    |int| `-123`
-    |
