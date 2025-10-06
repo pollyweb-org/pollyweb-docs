@@ -56,7 +56,7 @@
     * This worked because step B had an option set by the [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) that allowed the user to go back and change the workflow path.
 
     In NLWeb, these option sets can be added only to [non-blocking Prompts 🤔](<02 Non-blocking prompts.md>)
-    - The non-blocking prompts include `TEMP ⏳`, `INFO ℹ️`, and `SUCCESS ✅`.
+    - The non-blocking prompts include `TEMP ⏳`, `INFO ℹ️`, `SUCCESS ✅`, and [`FAILURE ❌`](<14 ❌ FAILURE prompt.md>).
     - This is particularly helpful when [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) want to assign default values to options to speed up the process (e.g., [navigation options 🤝](<../../../3 🤝 Use Cases/03 🧳 Travel/01 🧳 Plans trips 🧭/02 🧭 Return @ Destination.md>)), while still allowing users to go back and change those default options.
     
     ---

@@ -43,10 +43,47 @@
     <br/>
 
 
+1. **What's the format for a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
+
+    ```yaml
+    # Inline
+    INFO|<message>|<options> >> $selected
+
+    # Multi-line with strings
+    INFO >> $selected:
+        Message: <message>
+        Options:
+            - <option-1>
+            - <option-n>
+
+    # Multi-line with a dictionary
+    INFO >> $selected:
+        Message: <message>
+        Options:
+            <id-1>: <option-1>
+            <id-n>: <option-n>
+    ```
+
+    | Argument| Purpose | Example
+    |-|-|-
+    | `<message>` |  Message to show to the user. | `Hi!`
+    | `<options>` | Optional comma-separated options. | `A,B,C`
+    | `$selected` | Placeholder for the selected option. | `$answer`
+    | `<id-n>` | Optional ID for an option. | `#1`
+    | `<option-n>` | Text for an option. | `Bla`
+    
+    
+    ---
+    <br/>
+
+
 1. **What's an example with non-blocking options in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
 
     ```yaml
-    INFO|With options|[Cancel] later, [Play] music >> answer
+    INFO|With options >> $answer:
+        Options:
+            - [Cancel] later
+            - [Play] music 
     ```
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
@@ -56,15 +93,6 @@
     ---
     <br/>
 
-
-1. **What's the format for a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
-
-    ```yaml
-    INFO|<message>|<options> >> <key>
-    ```
-    
-    ---
-    <br/>
 
 
 1. **What's the response in the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**

@@ -36,7 +36,7 @@
     | `{arguments}`| Single input for functions. | `3` `[A,B]` `{A:1}` 
     | `<object>` | Object to evaluate. | `{A:1, B:$n}`
     | `<string>` | String to evaluate. | `A` `I'm {$name}`
-    | `$output` | Placeholder for storage. | `$out`
+    | `$output` | Placeholder for storage. | `$my-var`
     
     ---
     <br/>
