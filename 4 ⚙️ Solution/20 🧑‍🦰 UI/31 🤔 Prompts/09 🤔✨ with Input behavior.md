@@ -15,7 +15,7 @@
     ---
     <br/>
 
-1. **Can users reject a mandatory input?**
+1. **Can users reject a mandatory input prompt?**
 
     No. Like in a conversation between two persons, 
     * users can only stay silent 

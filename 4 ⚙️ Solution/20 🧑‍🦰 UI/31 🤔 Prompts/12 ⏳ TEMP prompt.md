@@ -27,7 +27,7 @@
     <br/>
 
 
-1. **What do TEMP prompts look like in a [Chat 💬](<01 💬 Chat.md>)?**
+1. **What do TEMP prompts look like in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
 
     
 
