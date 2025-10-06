@@ -22,8 +22,8 @@
 
     |Behavior| Format 
     |-|-
-    |[`Status`](<02 Non-blocking prompts.md>)| [`ℹ️ INFO`](<11 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<12 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<13 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<14 ❌ FAILURE prompt.md>)
-    |[`Inputs`](<03 Blocking input prompts.md>)| [`🔢 INT`](<21 🔢 INT prompt.md>) [`🔄 QUANTITY`](<21 🔄 QUANTITY prompt.md>) [`💰 AMOUNT`](<22 💰 AMOUNT prompt.md>) [`🔑 OTP`](<21 🔑 OTP prompt.md>) [`⭐ RATE`](<26 ⭐ RATE prompt.md>) 
+    |[`Status`](<04 Non-blocking prompts.md>)| [`ℹ️ INFO`](<11 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<12 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<13 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<14 ❌ FAILURE prompt.md>)
+    |[`Inputs`](<05 Blocking input prompts.md>)| [`🔢 INT`](<21 🔢 INT prompt.md>) [`🔄 QUANTITY`](<21 🔄 QUANTITY prompt.md>) [`💰 AMOUNT`](<22 💰 AMOUNT prompt.md>) [`🔑 OTP`](<21 🔑 OTP prompt.md>) [`⭐ RATE`](<26 ⭐ RATE prompt.md>) 
     || [`👍 CONFIRM`](<24 👍 CONFIRM prompt.md>) [`1️⃣ ONE`](<25 1️⃣ ONE prompt.md>) [`🔢 MANY`](<25 🔠 MANY prompt.md>) 
     || [`🕓 TIME`](<27 🕓 TIME prompt.md>) [`📆 DATE`](<27 📆 DATE prompt.md>) 
     || [`⬆️ UPLOAD`](<51 ⬆️ UPLOAD prompt.md>)
@@ -55,7 +55,7 @@
     * For example, the user did A, B, C, D, E; then went back to B and changed the history to A, B, X, Y, Z. 
     * This worked because step B had an option set by the [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) that allowed the user to go back and change the workflow path.
 
-    In NLWeb, these option sets can be added only to [non-blocking Prompts 🤔](<02 Non-blocking prompts.md>)
+    In NLWeb, these option sets can be added only to [non-blocking Prompts 🤔](<04 Non-blocking prompts.md>)
     - The non-blocking prompts include `TEMP ⏳`, `INFO ℹ️`, `SUCCESS ✅`, and [`FAILURE ❌`](<14 ❌ FAILURE prompt.md>).
     - This is particularly helpful when [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) want to assign default values to options to speed up the process (e.g., [navigation options 🤝](<../../../3 🤝 Use Cases/03 🧳 Travel/01 🧳 Plans trips 🧭/02 🧭 Return @ Destination.md>)), while still allowing users to go back and change those default options.
     
