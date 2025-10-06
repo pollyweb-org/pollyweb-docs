@@ -51,7 +51,12 @@
     | - | - | - |
     | 🔎 [Finder](<02 🔎🫥 Finder vault.md>) | 😃 Hi! What do you need? | `a bar`
     | 🔎 [Finder](<02 🔎🫥 Finder vault.md>) | 💬 Here are suggestions: <br/> - [ Any Club 🕺 ] (4.4 ⭐) <br/> &nbsp; └ 👟 1.7km 🚪 10pm-5am <br/> - [ Any Bar 🍸 ] (4.8 ⭐) <br/> &nbsp; ├ 👟 1.7km 🚪 1pm-10pm <br/> &nbsp; ├ open bar from 8pm <br/> &nbsp; └ closes in ~1 hour <br/> - [ Find 🔎 ] alternatives | > Any Bar 🍸
-    | 🔎 [Finder](<02 🔎🫥 Finder vault.md>) | 💬 Suggested next steps: <br/> - [ Get there 🧭 ] <br/> - [ Buy entry in advance ]  
+    | 🔎 [Finder](<02 🔎🫥 Finder vault.md>) | 💬 Suggested next steps: <br/> - [ Get there 🧭 ] <br/> - [ Buy ] entry in advance 
+    | [🤗 Host](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Over to 🍸 Any Bar.
+    | [ new chat ]
+    | 🔎 [Finder](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Bar (4.4 ⭐) [+]
+    | 🍸 Bar   | ℹ️ Buy entry request.
+    | 🍸 Bar  | 😃 How many entries?
    
     ---
     <br/>

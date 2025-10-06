@@ -8,6 +8,7 @@ Fier
 Fiers
 Hoster
 Hosters
+Inboxer
 Keybox
 Keyboxes
 Keyholder

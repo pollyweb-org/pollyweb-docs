@@ -4,4 +4,5 @@
 🤝: nlweb.org/MANIFEST/CODE
 
 Path: /HOST/PERSONIFY
-Description: Binding code for personification
+Name: Personalize
+Description: Binding code for personalization
