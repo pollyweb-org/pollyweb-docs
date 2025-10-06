@@ -33,7 +33,6 @@
             - <cmd-2>
         <value-n>: 
             - <cmd-n>
-        
     ```
 
     | Argument| Purpose
