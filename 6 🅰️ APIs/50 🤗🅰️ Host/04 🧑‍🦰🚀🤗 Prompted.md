@@ -61,7 +61,7 @@ Options:
 || `MaxLength` | int | Optional maximum length
 || `MinValue` | int | Optional minimum value
 || `MaxValue` | int | Optional maximum value
-|| `Emoji` | string | Optional emoji for [Input Prompts 🤔](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/05 Blocking input prompts.md>)
+|| `Emoji` | string | Optional emoji for [Input Prompts 🤔](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/09 Blocking input prompts.md>)
 || `Attachment`| uuid   | File to download via [Download@Host 🚀](<06 🧑‍🦰🚀🤗 Download.md>)
 || `Details` | string | Extended details in Markdown format,<br/> - typically hidden by an expand [+] sign
 || `Options` | object[]   | List of `Option` objects
