@@ -1,6 +1,6 @@
 # ⭐ RATE prompt
 
-> Part of [blocking input prompts 🤔](<03 Blocking input prompts.md>)
+> Part of [blocking input prompts 🤔](<05 Blocking input prompts.md>)
 
 
 <br/>

@@ -1,4 +1,4 @@
-# Non-blocking status prompts 🤔
+# 🤔 Non-blocking status prompts 
 
 > Part of [Prompts 🤔](<01 🤔 Prompt.md>)
 
