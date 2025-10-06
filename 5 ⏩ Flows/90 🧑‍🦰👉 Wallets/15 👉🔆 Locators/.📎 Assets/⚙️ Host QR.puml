@@ -30,22 +30,23 @@ activate broker
 
     'alt No host session?
 
-        broker --> wallet: 2) ⏪ assessed
+        broker --> wallet: 2) ⏪ Assessed
 
-        broker --> finder: 3) introduce ⏩
-        deactivate broker
-            activate finder
-                finder --> broker
-            deactivate finder
-        activate broker
+        broker --> finder: 3) Introduce ⏩
+        'deactivate broker
+            'activate finder
+            '   finder --> broker
+            'deactivate finder
+        'activate broker
 
     'end alt
 
-    broker --> host:  4) Hello 🐌
+    broker --> wallet: 4) ⏪ Prompt 🤔 {tokens}
+    broker --> host:  5) Hello 🐌
 deactivate broker
 
 activate host
-    host --> wallet: 5) ⏪ prompt 
+    host --> wallet: 6) ⏪ Prompt 🤔 {what do you need?}
 deactivate host
 
   

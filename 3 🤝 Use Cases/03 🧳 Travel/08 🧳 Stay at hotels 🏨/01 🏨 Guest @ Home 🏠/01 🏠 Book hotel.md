@@ -15,7 +15,7 @@ How to book a room at a hotel?
 | [ new chat ]
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Agency (4.4 ⭐) [+]
 | 🌍 Agency   | ℹ️ Received booking request.
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Ready to book? [Yes, No] <br/> - your scheduler sets when 🗓️  <br/> - your curator filters options 🧚 <br/> - your persona sets contacts 🧢 <br/> - your payer associates a card 💳 <br/> - save the booking on wallet 🤵 <br/> - click the booking to change 🎫  <br/> - tap a hotel tag on arrival ✨ | > Yes
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 [Ready to book?](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/41 📝 FORM msg.md>) [Yes, No] <br/> - your scheduler sets when 🗓️  <br/> - your curator filters options 🧚 <br/> - your persona sets contacts 🧢 <br/> - your payer associates a card 💳 <br/> - save the booking on wallet 🤵 <br/> - click the booking to change 🎫  <br/> - tap a hotel tag on arrival ✨ | > Yes
 | [🗓️ Scheduler](<../../../../4 ⚙️ Solution/30 🫥 Agents/38 🕓 User Timeline/04 🗓️🗄️ Scheduler agent.md>) | 🫥 Any of these trips? [No] <br/>- [ Feb 18-20 ] to Madrid 🇪🇸 <br/>- [ Mar 26-28 ] to London 🇬🇧 | > Feb 18-20
 | 🌍 Agency   | ℹ️ Received information: <br/> - 1 person for 2 nights <br/>- in Madrid, Spain <br/> - near Cuatro Torres  <br/> - from Feb 18 to Feb 20
 | 🌍 Agency   | ⏳ Searching... 
@@ -29,7 +29,7 @@ How to book a room at a hotel?
 | 🌍 Agency   | 😃 Confirm $250? [Yes, No] <br/> - Any Hotel <br/> - at Calla de St. Ana, Madrid, SP <br/> - room king to garden <br/> - from Feb 18 to Feb 20 <br/> - 1 person, no breakfast <br/> - cancel for free until Jan 7 | > Yes
 | 🧢 [Persona](<../../../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) | 🫥 Share booking contacts? [No] <br/>- [ 🧑‍🦰 personal ] <br/>- [ 💼 work ] <br/>- [ 🧔 Daniel ] | > 💼 work
 | 🌍 Agency   | ℹ️ Thanks, Dr. Alice! 
-| 🆔 [Identity](<../../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Sign terms? 📄 [Yes, No] | > Yes
+| 🆔 [Identity](<../../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 [Sign terms?](<../../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/16 🆔🔏 Verify Signatures.md>) 📄 [Yes, No] | > Yes
 | 🆔 [Identity](<../../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/21 🆔😶 Face scan.md>)
 | 💳 [Payer](<../../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Authorize card? 📄 [No] <br/>- [ Card ABC ] + $0.10 <br/>- [ Card DEF ] (free) | > Card ABC |
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Save booking? [Yes, No] | > Yes 
