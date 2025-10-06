@@ -1,6 +1,6 @@
 # 1️⃣ ONE prompt
 
-> Part of [blocking input prompts 🤔](<09 Blocking input prompts.md>)
+> Part of [blocking input prompts 🤔](<09 🤔 with Input behaviour.md>)
 
 
    * `ONE|<message>|<options> >> <key>`	
