@@ -31,19 +31,34 @@
     <br/>
 
 
-1. **What's the IF syntax?**
+1. **What's the `IF` syntax?**
 
-    
     ```yaml
     # One-line Procedures
     - IF|{function}|<true-proc>|<false-proc>
+    ```
 
+    | Argument| Purpose | Example
+    |-|-|-
+    | `{function}` | Boolean [{Function}](<12 🐍 {Function}.md>) to evaluate.  | `{f}` `{$o}`
+    | `<true-proc>` | [Procedure ⚙️](<11 ⚙️ Procedure.md>) to [Run ▶️](<24 ▶️ RUN flow.md>) when `True` | `IfTrue`
+    | `<false-proc>`| [Procedure ⚙️](<11 ⚙️ Procedure.md>) to [Run ▶️](<24 ▶️ RUN flow.md>) when `False` | `IfFalse(X)`
+    
+    ```yaml
     # Multi-line actions: 
     #   i.e., Procedure or one-line Command
     - IF|{function}:
         Then: <true-action>
         Else: <false-action>
+    ```
 
+    | Argument| Purpose
+    |-|-
+    | `<true-action>` | [Procedure ⚙️](<11 ⚙️ Procedure.md>) or one-line [Command ⌘](<10 ⌘ Command.md>) on `True`
+    | `<false-action>`| [Procedure ⚙️](<11 ⚙️ Procedure.md>) or one-line [Command ⌘](<10 ⌘ Command.md>) on `False`
+
+
+    ```yaml
     # Multi-line Command lists
     - IF|{function}:
         Then: 
@@ -54,14 +69,8 @@
             - <false-cmd-n>
     ```
 
-
     | Argument| Purpose
     |-|-
-    | `{function}` | Boolean [{Function}](<12 🐍 {Function}.md>) to evaluate
-    | `<true-proc>` | [Procedure ⚙️](<11 ⚙️ Procedure.md>) to [Run ▶️](<24 ▶️ RUN flow.md>) when `True`
-    | `<false-proc>`| [Procedure ⚙️](<11 ⚙️ Procedure.md>) to [Run ▶️](<24 ▶️ RUN flow.md>) when `False`
-    | `<true-action>` | [Procedure ⚙️](<11 ⚙️ Procedure.md>) or one-line [Command ⌘](<10 ⌘ Command.md>) on `True`
-    | `<false-action>`| [Procedure ⚙️](<11 ⚙️ Procedure.md>) or one-line [Command ⌘](<10 ⌘ Command.md>) on `False`
     | `<true-cmd-n>` | List of multi-line [Commands ⌘](<10 ⌘ Command.md>) to run on `True`
     | `<false-cmd-n>` | List of multi-line [Commands ⌘](<10 ⌘ Command.md>) to run on `False`
 

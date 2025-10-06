@@ -2,63 +2,77 @@
 
 > Part of [blocking input prompts 🤔](<09 🤔✏️ with Input behavior.md>)
 
-
-   * `CONFIRM|<message>|<falseProc>`	
-       * If not confirmed, execs `falseProc`.
-       * If `falseProc` not given stops the current proc.
-       * When stopping the current proc, pops stack.
-
 <br/>
 
-1. **What's an example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
+1. **What's the syntax of a `CONFIRM`?**
+
+    ```yaml
+    # Single-line syntax
+    CONFIRM|<message>
+    ```
+
+    | Argument| Purpose | Example
+    |-|-|-
+    | `<message>` |  Message to show to the user. | `Sure?`
+
+    ```yaml
+    # Multi-line syntax
+    CONFIRM|<message>:
+        - Then: <true-action>
+        - Else: <false-action>
+    ```
+    
+    | Argument| Purpose 
+    |-|-
+    | `<true-action>` | [Procedure ⚙️](<../33 😃 Talkers/11 ⚙️ Procedure.md>) or one-line [Command ⌘](<../33 😃 Talkers/10 ⌘ Command.md>) on `True`
+    | `<false-action>`| [Procedure ⚙️](<../33 😃 Talkers/11 ⚙️ Procedure.md>) or one-line [Command ⌘](<../33 😃 Talkers/10 ⌘ Command.md>) on `False`
+       
+    ---
+    <br/>
+
+1. **What's a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) example without actions?**
+
+    > Rejecting this stops the flow.
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | 
-
-    ---
-    <br/>
-
-1. **What are business cases?**
-
-    |Category|Use case
-    |-|-
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Sure one? | > Yes
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Sure two? | > No
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | (stops interacting)
     |
 
-    ---
-    <br/>
-
-
-1. **What's the content for a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
-
-    * Calls the [CONFIRM 👍 Prompt](<01 🤔 Prompt.md>)
-    * If not confirmed, execs `falseProc`.
-    * If `falseProc` not given stops the current proc.
-    * When stopping the current proc, pops stack.
-    * 
-    ```yaml
-    CONFIRM|<message>|<falseProc>
-    ```
-
-    |Parameter|Details
-    |-|-
-    | 
-    
-    ---
-    <br/>
-
-
-1. **What's the response in the [Prompted@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**
+    The related [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) would be.
 
     ```yaml
-    
+    # 😃 Talker
+    - CONFIRM|Sure one?
+    - CONFIRM|Sure two?
+    - CONFIRM|Sure three? # Never gets here.
     ```
 
     ---
     <br/>
 
-1. **What's the Answer in the [Reply@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) method?**
+1. **What's a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) example with actions?**
+
+    > Rejecting this does not block the flow.
+    
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Approve the task? | > No
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You rejected the task.
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 How about the other?
+    |
+
+    The related [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) would be.
 
     ```yaml
-    
+    # 😃 Talker
+    - CONFIRM|Approve the task?:
+        Then: INFO|You approved the task.
+        Else: INFO|You rejected the task.
+    - CONFIRM|How about the other?
     ```
+
+    ---
+    <br/>
