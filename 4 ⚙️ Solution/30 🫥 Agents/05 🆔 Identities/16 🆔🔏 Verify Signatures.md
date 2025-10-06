@@ -75,14 +75,14 @@ TODO: Create the API methods
 
     |#|Step
     |-|-
-    |1| the [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) asks the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) for a user signature;
-    | 2| the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) validates the hash against the PDF bytes; 
-    | 3| the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) shows the PDF content to the user;
-    | 4| the user accepts the PDF content and the signature request;
-    | 5| the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) asks the user's [Identity 🆔 domain](<01 🆔🫥 Identity agent.md>) to sign the hash on the user's behalf; 
-    | 6| the [Identity 🆔 domain](<01 🆔🫥 Identity agent.md>) authenticates the user (e.g., with face biometrics);
-    | 7| the [Identity 🆔 domain](<01 🆔🫥 Identity agent.md>) issues a signature [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) and sends it to the [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>);
-    | 8| the [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) verifies if the Token's data match the original request.
+    |1| [Hosts 🤗](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) ask [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) for a user signature
+    | 2| [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) validate the hash against the PDF bytes
+    | 3| [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) show the PDF content to the user
+    | 4| Users accept the PDF content and the signature request;
+    | 5| [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) ask [Identities 🆔](<01 🆔🫥 Identity agent.md>) to sign the hash on users' behalf 
+    | 6| [Identities 🆔](<01 🆔🫥 Identity agent.md>) authenticate users (e.g., with face biometrics)
+    | 7| [Identities 🆔](<01 🆔🫥 Identity agent.md>) issue a signature [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) and send it to [Hosts 🤗](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>)
+    | 8| [Hosts 🤗](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) verify if the Token's data matches the original request
 
     ---
     <br/> 

@@ -36,7 +36,7 @@
     ---
     <br/>
 
-1. **How can domain-admin users leverage a Helper?**
+1. **How can domain-admin users register with a Helper?**
 
     |#| Group | Step
     |-|-|-
@@ -50,36 +50,34 @@
     ---
     <br/>
 
-1. **What does the Chat look like?**
+1. **What does the registration Chat look like?**
 
     | Service | Prompt  | User 
     | - | - | - 
     | 🛠️ [Helper](<05 🛠️👥 Helper domain.md>) | 😃 Hi! What do you need? <br/>- [ Register ]  | > Register
-    | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 [Ready to register?](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/05 🤗⏩🧑‍🦰 Form 📝.md>) [Yes, No] <br>- Bind to create a profile. <br/>- Choose a billing plan. <br/>- Add a payment method. <br/>- Sign the terms and conditions. | > Yes
-    | 🤵 [Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 [Bind?](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind.md>) [Yes, No, +]<br/>- [HOST/PERSONALIZE 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/HOST/🧩 HostPersonalize.md>) | > Yes 
+    | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 [Ready to register?](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/05 🤗⏩🧑‍🦰 Form 📝.md>) [Yes, No] <br>- Your broker binds with us 🔗 <br/>- You choose a billing plan 🤝 <br/>- Your payer adds a method 💳 <br/>- Your identity signs the terms 🆔 | > Yes
+    | 🤵 [Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 [Bind?](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind.md>) [Yes, No, +]<br/>- [HOST/PROFILE 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/HOST/🧩 HostPersonalize.md>) | > Yes 
     | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 [Allow guest domain?](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>) [Yes, No]  <br/> - Any Biller 🤝<br/>- [ Always ] for Any Helper 🛠️ | > Always
     | 🤝 [Biller](<../../30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>) | 😃 What plan to subscribe? <br/>- [ Simple ] pay-as-you-go  <br/>- [ Monthly ] commitment | > Simple
     | 💳 [Payer](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Link to Any Biller? [Yes, No, +] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC 
-    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Sign terms? 📄 [Yes, No] | > Yes
+    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 [Sign terms?](<../../30 🫥 Agents/05 🆔 Identities/16 🆔🔏 Verify Signatures.md>) 📄 [Yes, No] | > Yes
     | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../30 🫥 Agents/05 🆔 Identities/21 🆔😶 Face scan.md>)
     | 🛠️ [Helper](<05 🛠️👥 Helper domain.md>) | ✅ Done!
-    
+    |
+
+    The corresponding [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) is as follows.
+
+    ```yaml
+    💬 Register:
+    - FORM|Register
+    - BIND|@HOST/PROFILE
+    ```
+
     ---
     <br/>
 
-1. **What does the Bind Chat looks like?**
 
-    | Service | Prompt  | User 
-    | - | - | - 
-    | [🛠️ Helper](<05 🛠️👥 Helper domain.md>) | 😃 Hi! What do you need? <br/>- [ Bind ]  | > Bind
-    | [🛠️ Helper](<05 🛠️👥 Helper domain.md>) | ✅ Done!
-    
-    | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Bind [Yes, No]<br/>- domain admin 🧩 | > Yes 
-    | [🧑‍💻 Hoster](<../35 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>) | 😃 Name for the domain? | `my-domain`
-    | 🤵 [Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Save token? [Yes, No] <br/>- domain owner 🎫 <br/>- of my-domain
-    | [🧑‍💻 Hoster](<../35 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>) | ✅ Done!
-
-1. **What roles do Helpers typically implement?**
+1. **What roles do Helpers implement?**
 
     | [Role 🎭](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | Purpose
     |-|-
@@ -92,11 +90,11 @@
     <br/>
 
 
-1. **What other domain Helpers do Helpers typically leverage?**
+1. **What other Helpers do Helpers leverage?**
 
     | [Helper 🛠️](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>)  | Purpose 
     |-|-
-    | [💳 Biller](<../../30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>) | To manage usage and subscription plans.
+    | [🤝 Biller](<../../30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>) | To manage usage and subscription plans.
     | [🏦 Collector](<../../30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) | To collect usage and subscription payments.
     
     ---

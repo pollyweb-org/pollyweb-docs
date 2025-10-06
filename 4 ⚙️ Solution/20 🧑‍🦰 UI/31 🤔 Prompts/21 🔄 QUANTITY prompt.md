@@ -70,7 +70,7 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ⏳ Checking availability... 
     |
 
-    The corresponding [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) would be the following.
+    The corresponding [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) is as follows.
 
     ```yaml
     💬 Walk-in:

@@ -14,7 +14,10 @@
     <br/>
 
 
-1. **What does a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) look like for static codes?**
+
+1. **What does a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) look like for optional binds?**
+
+    > There are checkboxes for the user to select, and `No` continues.
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
@@ -25,19 +28,84 @@
     ---
     <br/>
 
-1. **What's the BIND syntax for static codes?**
+
+1. **What does a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) look like for required binds?**
+
+    > It's an all-or-nothing, where `No` stops the flow.
+
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | 🗄️ [Vault](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) |  😃 Hi! What do you need? <br/>- [ Bind ] my Wallet | > Bind
+    | 🤵 [Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 [Bind to Any Vault?](<44 🔗 BIND msg.md>) [Yes, No] <br/> -  Some schema code 🧩 <br/> - Some other schema code 🧩 | > Yes
+    | 🗄️ [Vault](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) | ✅ [Done! Your wallet is bound.](<../31 🤔 Prompts/13 ✅ SUCCESS prompt.md>)
+
+    ---
+    <br/>
+
+
+1. **What's the BIND syntax?**
+
+
+    ```yaml
+    # For a single required code.
+    BIND|<code> 
+    SUCCESS|Bound!
+    ```
+
+    | Argument| Purpose 
+    |-|-
+    | `<code>` | [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) from [`Bindable@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/42 🗄️🐌🤵 Bindable.md>) 
+
+    ```yaml
+    # For a single optional code.
+    BIND|code >> $bound
+    IF|{$bound}:
+        Then: SUCCESS|Bound.
+        Else: FAILURE|Not bound.
+    ```
+
+    | Argument| Purpose
+    |-|-
+    | `$bound`  | Boolean confirmation of acceptance.
+
+    ```yaml
+    # For multiple optional static codes.
+    BIND >> $bound:
+        - <code-1>
+        - <code-n>
+    ```
+
+   
+    | Argument| Purpose
+    |-|-
+    | `<code-n>` | Array of [Schema Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) sent on [`Bindable@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/42 🗄️🐌🤵 Bindable.md>)
+    | `$bound`  | Array of [Schema Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) received on [`Bound@Vault`](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/02 🤵🐌🗄️ Bound.md>)
+
 
    ```yaml
-   BIND >> $bound:
-       - <code-1>
-       - <code-2>
+   # For placeholder codes
+   BIND|{bindable} >> $bound
    ```
 
    
     | Argument| Purpose
     |-|-
-    | `<code-n>` | Array of [Schema Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) sent on [Bindable @ Broker](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/42 🗄️🐌🤵 Bindable.md>).
-    | `<bound>`  | Array of [Schema Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) received on [Bound @ Vault](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/02 🤵🐌🗄️ Bound.md>).
+    | `{bindable}` | [{Function}](<12 🐍 {Function}.md>) to get the [Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) for [Bindable @ Broker](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/42 🗄️🐌🤵 Bindable.md>).
+
+
+    ---
+    <br/>
+
+1. **What does the `@` character mean in a code?**
+
+    Given that the [Schema Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) defined by `nlweb.org` will be widely used, 
+    * [Talkers 😃](<01 😃 Talker.md>) accept the character `@` as a prefix of `nlweb.org/`.
+    * Consider the following equal examples.
+
+        ```yaml
+        BIND|@IDENTITY/OVER21
+        BIND|nlweb.org/IDENTITY/OVER21
+        ```
 
     ---
     <br/>
@@ -64,20 +132,6 @@
 
 
 
-1. **What's the BIND syntax for placeholder codes?**
-
-   ```yaml
-   BIND|{bindable} >> $bound
-   ```
-
-   
-    | Argument| Purpose
-    |-|-
-    | `{bindable}` | [{Function}](<12 🐍 {Function}.md>) to get the [Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) for [Bindable @ Broker](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/42 🗄️🐌🤵 Bindable.md>).
-    | `<bound>`  | Array of [Schema Codes 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) received on [Bound @ Vault](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/02 🤵🐌🗄️ Bound.md>).
-
-    ---
-    <br/>
 
 1. **What does a Talker look like for placeholder codes?**
     
