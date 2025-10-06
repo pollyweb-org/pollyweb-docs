@@ -19,7 +19,7 @@
        
     Yes. 
     
-    * [Prompt options](<04 🤔✨ with Options.md>) can be differed with [non-blocking status Prompts 🤔](<08 🤔✨ with Status behavior.md>);
+    * [Prompt options](<04 🤔🔘 with Options.md>) can be differed with [non-blocking status Prompts 🤔](<08 🤔✨ with Status behavior.md>);
     
         * e.g., [`INFO`](<11 ℹ️ INFO prompt.md>), [`TEMP`](<12 ⏳ TEMP prompt.md>), [`SUCCESS`](<13 ✅ SUCCESS prompt.md>), and [`FAILURE`](<14 ❌ FAILURE prompt.md>).
   
@@ -34,10 +34,10 @@
 1. **Do all prompt options behave the same way?**
 
     No. 
-    * [`Options`](<04 🤔✨ with Options.md>) with a `§` sign 
+    * [`Options`](<04 🤔🔘 with Options.md>) with a `§` sign 
         * open a new [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)
         * even after a [Freeze ❄️](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/06 🤗⏩🧑‍🦰 Freeze ❄️.md>) command.
-    * All others [`Options`](<04 🤔✨ with Options.md>)
+    * All others [`Options`](<04 🤔🔘 with Options.md>)
         * continue the [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)
         * and are disabled with a [Freeze ❄️](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/06 🤗⏩🧑‍🦰 Freeze ❄️.md>) command.
     
@@ -50,7 +50,7 @@
     |Behavior| [Prompt 🤔](<01 🤔 Prompt.md>) 
     |-|-
     |[`Status`](<08 🤔✨ with Status behavior.md>)| [`ℹ️ INFO`](<11 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<12 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<13 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<14 ❌ FAILURE prompt.md>)
-    |[`Inputs`](<09 🤔✨ with Input behavior.md>) | [`1️⃣ ONE`](<25 1️⃣ ONE prompt.md>) [`🔢 MANY`](<25 🔠 MANY prompt.md>)  [`🔠 TEXT`](<20 🔠 TEXT prompt.md>) 
+    |[`Inputs`](<09 🤔✏️ with Input behavior.md>) | [`1️⃣ ONE`](<25 1️⃣ ONE prompt.md>) [`🔢 MANY`](<25 🔠 MANY prompt.md>)  [`🔠 TEXT`](<20 🔠 TEXT prompt.md>) 
 
     ---
     <br/>
@@ -161,7 +161,7 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What to do?<br>- [ Play ] music <br/>- [ Share ] list <br/> - [ Speak ] with singer 🔆 | > Speak
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Over to 👨‍🎤 Any Singer.
     | [ new chat ]
-    | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Singer (4.4 ⭐) [+]
+    | 🔎 [Finder](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Singer (4.4 ⭐) [+]
     | 👨‍🎤 Singer   | ℹ️ Received fan request.
     | 👨‍🎤 Singer  | 😃 Hi! What do you need?
     |

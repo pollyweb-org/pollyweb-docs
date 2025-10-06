@@ -28,7 +28,7 @@
     |Behavior| Format 
     |-|-
     |[`Status`](<08 🤔✨ with Status behavior.md>)| [`ℹ️ INFO`](<11 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<12 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<13 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<14 ❌ FAILURE prompt.md>)
-    |[`Inputs`](<09 🤔✨ with Input behavior.md>)| [`🔢 INT`](<21 🔢 INT prompt.md>) [`🔄 QUANTITY`](<21 🔄 QUANTITY prompt.md>) [`💰 AMOUNT`](<22 💰 AMOUNT prompt.md>) [`🔑 OTP`](<21 🔑 OTP prompt.md>) [`⭐ RATE`](<26 ⭐ RATE prompt.md>) 
+    |[`Inputs`](<09 🤔✏️ with Input behavior.md>)| [`🔢 INT`](<21 🔢 INT prompt.md>) [`🔄 QUANTITY`](<21 🔄 QUANTITY prompt.md>) [`💰 AMOUNT`](<22 💰 AMOUNT prompt.md>) [`🔑 OTP`](<21 🔑 OTP prompt.md>) [`⭐ RATE`](<26 ⭐ RATE prompt.md>) 
     || [`👍 CONFIRM`](<10 👍 CONFIRM prompt.md>) [`1️⃣ ONE`](<25 1️⃣ ONE prompt.md>) [`🔢 MANY`](<25 🔠 MANY prompt.md>) 
     || [`🕓 TIME`](<27 🕓 TIME prompt.md>) [`📆 DATE`](<27 📆 DATE prompt.md>) 
     || [`⬆️ UPLOAD`](<51 ⬆️ UPLOAD prompt.md>)
@@ -68,7 +68,7 @@
         * This blocks the user from changing any [Prompts 🤔](<01 🤔 Prompt.md>) up to that point.
         * [Hosts 🤗](<../12 💬 Chats/04 🤗🎭 Host role.md>) to this when committing a transaction to a database with the inputs collected.
   
-    * ⚠️ Note: [`Options`](<04 🤔✨ with Options.md>) with a `§` open a new [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)  and are never frozen.
+    * ⚠️ Note: [`Options`](<04 🤔🔘 with Options.md>) with a `§` open a new [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)  and are never frozen.
 
     ---
     <br/>
@@ -78,11 +78,11 @@
 
     | Feature | Details
     |-|-
-    | [`Details`](<03 🤔✨ with Details.md>) | Has expandable [+] details.
-    | [`Options`](<04 🤔✨ with Options.md>) | Has options for users to select.
-    | [`Attachment 📎`](<05 🤔📎 with Attachments.md>) | Has a PDF, PNG, or JPEG attachment.
-    | [`Status` behavior](<08 🤔✨ with Status behavior.md>) | Informs and continues the flow.
-    | [`Input` behavior](<09 🤔✨ with Input behavior.md>) | Waits for an answer from users.
+    | ⊕ [`Details`](<03 🤔⊕ with Details.md>) | Has expandable [+] details.
+    | 🔘 [`Options`](<04 🤔🔘 with Options.md>)  | Has options for users to select.
+    | 📎 [`Attachment`](<05 🤔📎 with Attachments.md>)  | Has a PDF, PNG, or JPEG attachment.
+    | ✨ [`Status` behavior](<08 🤔✨ with Status behavior.md>) | Informs and continues the flow.
+    | ✏️ [`Input` behavior](<09 🤔✏️ with Input behavior.md>) | Waits for an answer from users.
     
     ---
     <br/>
