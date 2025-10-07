@@ -7,9 +7,9 @@
 
 1. **What is a prompt with an attachment?**
 
-    Attachment-enabled prompts 
+    Appendix-enabled prompts 
     * are [Prompts 🤔](<01 🤔 Prompt.md>)
-    * that contain an Attachment ID
+    * that contain an Appendix ID
     * to be downloaded with [`Download@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/06 🧑‍🦰🚀🤗 Download.md>).
 
     ---
@@ -57,7 +57,7 @@
     ```yaml
     Format: TEXT
     Message: 💬 Who is in the picture?
-    Appendix: <attachment-uuid>
+    Appendix: <appendix-uuid>
     ```
 
     <br/>
