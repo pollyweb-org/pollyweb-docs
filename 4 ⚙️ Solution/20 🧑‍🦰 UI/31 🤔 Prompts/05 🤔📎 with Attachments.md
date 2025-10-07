@@ -1,4 +1,4 @@
-# 🤔 Prompts with an `Attachment`
+# 🤔 Prompts with an `Appendix`
 
 
 > Part of [Prompts 🤔](<01 🤔 Prompt.md>)
