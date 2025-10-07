@@ -43,7 +43,7 @@ Schema:
         $ref: nlweb.org/CRUD/ENTITY/PROPERTY/EXTERNAL
 
       Format: 
-        enum: [AMOUNT, CONFIRM, EMAIL, INT, MANY, ONE, OTP, PHONE, TEXT]
+        enum: [AMOUNT, CONFIRM, EMAIL, DIGITS, MANY, ONE, OTP, PHONE, TEXT]
         default: TEXT
         description: >
           See details in https://quip.com/CDrjAxNKwLpI

@@ -27,7 +27,7 @@
     |-|-
     | [👍&nbsp;CONFIRM](<31 👍 CONFIRM prompt.md>) | Yes, No, Cancel
     | [🔠&nbsp;TEXT](<32 🔠 TEXT prompt.md>) | Asks for a text input
-    | [🔢&nbsp;INT](<44 🔢 DIGITS prompt.md>) | Shows the numeric keypad
+    | [🔢&nbsp;DIGITS](<44 🔢 DIGITS prompt.md>) | Shows the numeric keypad
     | [🔄&nbsp;QUANTITY](<42 🔄 QUANTITY prompt.md>) | Shows up/down arrows.
     | [💰&nbsp;AMOUNT](<45 💰 AMOUNT prompt.md>) | Allows for decimals
     | [🔑&nbsp;OTP](<57 🔑 OTP prompt.md>) | Asks for 6 digits
@@ -92,7 +92,7 @@
 
     ```yaml
     # 😃 Talker
-    - INT|What's the code? >> $code
+    - DIGITS|What's the code? >> $code
     - SUCCESS|Your code is `{$code}`
     ```
     
@@ -127,7 +127,7 @@
 
     ```yaml
     # 😃 Talker
-    - INT|What's the code? >> $code:
+    - DIGITS|What's the code? >> $code:
         Optional: True
     - IF|$code:
         Then: SUCCESS|Your code is `{$code}`
@@ -139,7 +139,7 @@
     Here's the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>).
 
     ```yaml
-    Format: INT
+    Format: DIGITS
     Message: 😃 What's the code?
     ```
 
