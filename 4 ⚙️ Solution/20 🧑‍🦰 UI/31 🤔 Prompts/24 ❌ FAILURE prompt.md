@@ -28,24 +28,6 @@
     <br/>
 
 
-1. **What's an example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
-
-    Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
-    
-    ```yaml
-    FAILURE|Simple failure.
-    ```
-
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
-    | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ❌ Simple failure.
-    | [🛠️ Helper](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | ❌ Simple failure.
-    | [🫥 Agent](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | ❌ Simple failure.
-   
-    
-
-    ---
-    <br/>
 
 1. **What are usages of FAILURE?**
 
@@ -66,10 +48,49 @@
 1. **What's the format for a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
-    FAILURE|<message>
+    # Inline
+    FAILURE|<message> 
+
+    # Multi-line 
+    FAILURE:
+        Message: <message>
     ```
     
+    | Argument| Purpose | Example
+    |-|-|-
+    | `<message>` |  Message for the user. | `Error!`
+
     ---
     <br/>
 
 
+
+1. **What's an example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
+
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ❌ Simple failure.
+    | [🛠️ Helper](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | ❌ Simple failure.
+    | [🫥 Agent](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | ❌ Simple failure.
+    |
+
+    <br/>
+
+    Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
+    
+    ```yaml
+    # Talker 😃
+    - FAILURE|Simple failure.
+    ```
+
+    <br/>
+
+    Here's the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>).
+
+    ```yaml
+    Format: FAILURE
+    Message: ❌ Simple failure.
+    ```
+    
+    ---
+    <br/>
