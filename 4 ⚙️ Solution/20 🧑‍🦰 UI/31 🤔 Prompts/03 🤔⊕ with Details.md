@@ -75,6 +75,13 @@
             1. Markdown bullet two
     ```
 
+    | [Command ⌘](<../33 😃 Talkers/10 ⌘ Command.md>) | Purpose
+    |-|-
+    | ℹ️ [`INFO`](<21 ℹ️ INFO prompt.md>) | To show the messages and details.
+    
+
+    <br/>
+
     Here's the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) response.
 
     ```yaml
