@@ -50,25 +50,51 @@
 
 1. **What's an example?**
 
-    Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
-    
-    ```yaml
-    QUANTITY|How many? >> $qt
-    ```
-    
-    The corresponding [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) would be.
+    Here's a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>).
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 How many? | 🔄 123
     [🫥 Agent](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | 🫥 How many? | 🔄 123
     | [🛠️ Helper](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | 🫥 How many? | 🔄 -54
+    |
+    
+    <br/>
+
+    Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
+    
+    ```yaml
+    - QUANTITY|How many? >> $qt
+        MinValue: -100
+        MaxValue: 100
+    ```
+
+    <br/>
+
+    Here's the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>).
+
+    ```yaml
+    Format: QUANTITY
+    Message: 😃 How many?
+    MinValue: -100
+    MaxValue: 100
+    ```
+
+    <br/>
+    
+    Here's the answer in [`Reply@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>).
+
+    ```yaml
+    Answer: -54
+    ```
 
     ---
     <br/>
 
 
 1. **How to default quantities in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
+
+    Use the [`ONE`](<55 1️⃣ ONE prompt.md>) prompt.
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
