@@ -16,7 +16,6 @@
     | Format | Description
     |-|-
     | ℹ️ [`INFO`](<21 ℹ️ INFO prompt.md>) | General information.
-    | ⏳ [`TEMP`](<22 ⏳ TEMP prompt.md>)| Temporary message.
     | ✅ [`SUCCESS`](<23 ✅ SUCCESS prompt.md>) | Success message.
     | ❌ [`FAILURE`](<24 ❌ FAILURE prompt.md>) | Failure message.
     

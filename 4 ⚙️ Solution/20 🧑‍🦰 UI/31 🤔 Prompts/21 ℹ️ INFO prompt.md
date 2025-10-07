@@ -48,11 +48,18 @@
     # Multi-line 
     INFO:
         Message: <message>
+        Options: <options>
+        Details: <details>
+        Attachment: <attach>
     ```
 
     | Argument| Purpose | Example
     |-|-|-
-    | `<message>` |  Message to show to the user. | `Hi!`
+    | `<message>` | Message to show to the user | `Hi!`
+    | `<options>` | Optional [selectable options 🔘](<04 🤔🔘 with Options.md>) | `A,B` `{A:B}`
+    | `<details>` | Optional [expandable details ⊕](<03 🤔⊕ with Details.md>) | `Hint: ...`
+    | `<attach>` | Optional [file attachment 📎](<05 🤔📎 with Attachments.md>) | `<uuid>`
+    
     
     
     ---
