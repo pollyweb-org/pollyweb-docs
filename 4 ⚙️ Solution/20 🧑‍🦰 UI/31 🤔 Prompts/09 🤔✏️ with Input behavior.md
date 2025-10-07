@@ -20,7 +20,7 @@
 
     |Format | Description
     |-|-
-    | [👍&nbsp;CONFIRM](<10 👍 CONFIRM prompt.md>) | Yes, No, Cancel
+    | [👍&nbsp;CONFIRM](<19 👍 CONFIRM prompt.md>) | Yes, No, Cancel
     | [🔠&nbsp;TEXT](<20 🔠 TEXT prompt.md>) | Asks for a text input
     | [🔢&nbsp;INT](<21 🔢 INT prompt.md>) | Shows the numeric keypad
     | [🔄&nbsp;QUANTITY](<21 🔄 QUANTITY prompt.md>) | Shows up/down arrows.
@@ -116,7 +116,7 @@
     
     | Input | How to make it optional | Example
     |-|-|-
-    | [👍&nbsp;CONFIRM](<10 👍 CONFIRM prompt.md>)    | Output to a placeholder. | `>> $out?`
+    | [👍&nbsp;CONFIRM](<19 👍 CONFIRM prompt.md>)    | Output to a placeholder. | `>> $out?`
     | All others | Make it optional. | `Optional: True`
     |
     
