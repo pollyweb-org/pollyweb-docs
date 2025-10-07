@@ -122,7 +122,7 @@
 
     ```yaml
     # 😃 Talker
-    - INT|What's the item number? >> $n
+    - DIGITS|What's the item number? >> $n
     - MAP|Items|{$n} >> $item
     - CONFIRM|A {$item.Name}?     
     ```

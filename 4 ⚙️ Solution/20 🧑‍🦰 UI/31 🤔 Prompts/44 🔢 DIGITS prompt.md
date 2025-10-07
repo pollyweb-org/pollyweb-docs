@@ -1,13 +1,13 @@
-# 🔢 INT prompt
+# 🔢 DIGITS prompt
 
 > Part of [blocking input prompts 🤔](<11 ✏️ Input behavior.md>)
 
 
 <br/>
 
-1. **What's an INT prompt?**
+1. **What's an DIGITS prompt?**
 
-    An `INT`
+    An `DIGITS`
     * is a [Prompt 🤔](<01 🤔 Prompt.md>) 
     * that shows the numeric keypad
     * and allows for leading zeros.
@@ -19,7 +19,7 @@
     ---
     <br/>
 
-1. **What are use cases for INT?**
+1. **What are use cases for DIGITS?**
 
     | Scenario | Details
     |-|-
@@ -28,7 +28,7 @@
     ---
     <br/>
 
-1. **What features does INT implement?**
+1. **What features does DIGITS implement?**
 
     | Feature | Details
     |-|-
@@ -43,7 +43,7 @@
 1. **What's the format of a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
-    INT|<message> >> $placeholder:
+    DIGITS|<message> >> $placeholder:
         MinLength: <min-length>
         MaxLength: <max-length>
     ```
@@ -69,7 +69,7 @@
     Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
-    - INT|What's the code? >> $my-answer
+    - DIGITS|What's the code? >> $my-answer
     ```
 
     ---

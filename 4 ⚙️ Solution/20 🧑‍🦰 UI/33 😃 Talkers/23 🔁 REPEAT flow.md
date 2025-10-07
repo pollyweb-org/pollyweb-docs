@@ -110,7 +110,7 @@
     - SUCCESS|Order submitted!
 
     AddItems:
-    - INT|What's the item code? >> $code
+    - DIGITS|What's the item code? >> $code
     - EVAL|{AddItem($code)} >> $description
     - INFO|Added `{$description}`
     - REPEAT|Add another?

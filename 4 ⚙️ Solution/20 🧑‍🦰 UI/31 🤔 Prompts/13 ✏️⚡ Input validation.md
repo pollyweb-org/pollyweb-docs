@@ -65,7 +65,7 @@
 
     ```yaml
     # Talker 😃
-    - INT|What's the code? >> code:
+    - DIGITS|What's the code? >> code:
         MinLength: 6
         MaxLength: 6
     - SUCCESS|Code validated!
@@ -74,7 +74,7 @@
     Here's the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>).
 
     ```yaml
-    Format: INT
+    Format: DIGITS
     Message: 😃 What's the code?
     Details: This is a 6 digit number
     ```
