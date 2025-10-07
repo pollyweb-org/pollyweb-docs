@@ -40,7 +40,7 @@
     |-|-
     | ⊕ [`Details`](<03 🤔⊕ with Details.md>) | Has expandable [+] details.
     | 🔘 [`Options`](<04 🤔🔘 with Options.md>) | Has options for users to select.
-    | 📎 [`Appendix`](<05 🤔📎 with Attachments.md>) | Has a PDF, PNG, or JPEG attachment.
+    | 📎 [`Appendix`](<05 🤔📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
     
     
     ---
@@ -70,7 +70,7 @@
     | `<message>` |  Message for the user. | `Running...`
     | `<options>` | Optional [selectable options 🔘](<04 🤔🔘 with Options.md>) | `A,B` `{A:B}`
     | `<details>` | Optional [expandable details ⊕](<03 🤔⊕ with Details.md>) | `Hint: ...`
-    | `<appendix>` | Optional [file attachment 📎](<05 🤔📎 with Attachments.md>) | `<uuid>`
+    | `<appendix>` | Optional [file attachment 📎](<05 🤔📎 with Appendix.md>) | `<uuid>`
 
 
     ---
