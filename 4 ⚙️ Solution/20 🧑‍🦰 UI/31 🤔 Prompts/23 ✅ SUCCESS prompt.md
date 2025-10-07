@@ -16,50 +16,7 @@
     <br/>
 
 
-1. **What features does SUCCESS implement?**
-
-    | Feature | Details
-    |-|-
-    | [`Details`](<03 🤔⊕ with Details.md>) | Has expandable [+] details.
-    | [`Options`](<04 🤔🔘 with Options.md>) | Has options for users to select.
-    | [`Attachment`](<05 🤔📎 with Attachments.md>) | Has a PDF, PNG, or JPEG attachment.
-    | [`Status` behavior](<08 🤔⚠️ with Status behavior.md>) | Informs and continues the flow.
-    
-    ---
-    <br/>
-
-
-1. **How do SUCCESS emojis work?**
-   
-    |Emoji | Usage | Details
-    |-|-|-
-    |✅ | `Host` | Similar to ℹ️ on [INFO ℹ️](<21 ℹ️ INFO prompt.md>)
-    |☑️ | `Agent` | Similar to ⓘ on [INFO ℹ️](<21 ℹ️ INFO prompt.md>)
-
-    ---
-    <br/>
-
-
-1. **What's an example in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
-
-    Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
-    
-    ```yaml
-    SUCCESS|Simple success.
-    ```
-
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
-    | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Simple success.
-    | [🛠️ Helper](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | ✅ Simple success.
-    | [🫥 Agent](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | ☑️ Simple success.
-    
-
-    ---
-    <br/>
-
-
-1. **What are examples of SUCCESS?**
+1. **What are use cases of SUCCESS?**
 
     |Type|Example
     |-|-
@@ -73,10 +30,76 @@
     <br/>
 
 
+
+1. **How do SUCCESS emojis work?**
+   
+    |Emoji | Usage | Details
+    |-|-|-
+    |✅ | `Host` | Similar to ℹ️ on [INFO ℹ️](<21 ℹ️ INFO prompt.md>)
+    |☑️ | `Agent` | Similar to ⓘ on [INFO ℹ️](<21 ℹ️ INFO prompt.md>)
+
+    ---
+    <br/>
+
+
+
+1. **What features does SUCCESS implement?**
+
+    | Feature | Details
+    |-|-
+    | [`Details`](<03 🤔⊕ with Details.md>) | Has expandable [+] details.
+    | [`Options`](<04 🤔🔘 with Options.md>) | Has options for users to select.
+    | [`Attachment`](<05 🤔📎 with Attachments.md>) | Has a PDF, PNG, or JPEG attachment.
+    | [`Status` behavior](<08 🤔⚠️ with Status behavior.md>) | Informs and continues the flow.
+    
+    ---
+    <br/>
+
 1. **What's the format for a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
-    SUCCESS|<message>
+    # Inline
+    SUCCESS|<message> 
+
+    # Multi-line 
+    SUCCESS:
+        Message: <message>
+    ```
+    
+    | Argument| Purpose | Example
+    |-|-|-
+    | `<message>` |  Message for the user. | `Done!`
+
+    ---
+    <br/>
+
+
+1. **What's an example in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
+
+    
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Simple success.
+    | [🛠️ Helper](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | ✅ Simple success.
+    | [🫥 Agent](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | ☑️ Simple success.
+    
+    <br/>
+
+    Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
+    
+    ```yaml
+    # Talker 😃
+    - SUCCESS|Simple success.
+    ```
+
+
+    <br/>
+
+    Here's the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>).
+
+    ```yaml
+    Format: SUCCESS
+    Message: ✅ Simple success.
     ```
     
     ---

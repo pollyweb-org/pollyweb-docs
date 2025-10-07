@@ -37,6 +37,25 @@
 
 
 
+1. **What's the INFO format for a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
+
+    ```yaml
+    # Inline
+    INFO|<message> 
+
+    # Multi-line 
+    INFO:
+        Message: <message>
+    ```
+
+    | Argument| Purpose | Example
+    |-|-|-
+    | `<message>` |  Message to show to the user. | `Hi!`
+    
+    
+    ---
+    <br/>
+
 1. **What's an example in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
 
     
@@ -48,31 +67,25 @@
     | [🫥 Agent](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | ⓘ Simple info.
     |
     
+    <br/>
+
     Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
+    # Talker 😃
     - INFO|Simple info.
     ```
     
-    ---
     <br/>
 
-
-1. **What's the format for a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
+    Here's the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>).
 
     ```yaml
-    # Inline
-    INFO|<message> >> $selected
-
-    # Multi-line 
-    INFO >> $selected:
-        Message: <message>
+    Format: INFO
+    Message: ℹ️ Simple info.
     ```
 
-    | Argument| Purpose | Example
-    |-|-|-
-    | `<message>` |  Message to show to the user. | `Hi!`
-    
     ---
     <br/>
+
 

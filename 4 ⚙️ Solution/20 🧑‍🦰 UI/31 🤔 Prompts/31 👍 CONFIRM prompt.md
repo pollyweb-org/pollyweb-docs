@@ -48,7 +48,7 @@
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Sure one? | > Yes
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Sure two? | > No
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | (stops interacting)
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | (none)
     |
 
     Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
