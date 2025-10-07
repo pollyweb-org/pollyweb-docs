@@ -138,13 +138,13 @@
     # 😃 Talker
 
     # Ask the question.
-    ONE|What to do? >> $answer:
+    - ONE|What to do? >> $answer:
         Options:
             - [Play] music 
             - [Share] list
 
     # Check the answer.
-    CASE|$answer:
+    - CASE|$answer:
         Play : INFO|You opted to play.
         Share: INFO|You choose to share.
     ```
@@ -152,7 +152,7 @@
 
     <br/> 
 
-    Here's the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) response.
+    Here's the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>).
 
     ```yaml
     Format: ONE
@@ -203,21 +203,18 @@
     # 😃 Talker
 
     # Ask the question.
-    ONE|What to do? >> $answer:
+    - ONE|What to do? >> $answer:
         Options:
             - [Play] music 
             - [Share] list
             - [Speak] with singer § any-artist.com/FANS
 
     # Check the answer.
-    CASE|$answer:
+    - CASE|$answer:
         Play : INFO|You opted to play.
         Share: INFO|You choose to share.
         # [Speak] never gets here.
     ```
-
-    
-
 
     ---
     <br/>

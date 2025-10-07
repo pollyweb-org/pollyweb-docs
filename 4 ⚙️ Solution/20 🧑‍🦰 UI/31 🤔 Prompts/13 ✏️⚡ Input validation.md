@@ -29,15 +29,15 @@
     |
 
 
-    On a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>):
+    Here's a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
 
     ```yaml
-    QUANTITY|How many players? >> $qt:
+    - QUANTITY|How many players? >> $qt:
         MinValue: 2
         MaxLength: 10
     ```
     
-    On the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) reply:
+    Here's the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>).
 
     ```yaml
     Format: QUANTITY
@@ -71,7 +71,7 @@
     - SUCCESS|Code validated!
     ```
 
-    Here's the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) reply.
+    Here's the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>).
 
     ```yaml
     Format: INT
@@ -85,7 +85,7 @@
 
 1. **How to implement custom validations in code handlers?**
 
-    Consider the following [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) as an example.
+    Here's a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>).
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
@@ -93,8 +93,9 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ❌ Enter a 6 digit number
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 💬 What's the code? [+]<br/> | `012345`
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Code validated!
+    |
 
-    The related [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) would be.
+    Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
 
     ```yaml
     # Talker 😃
@@ -113,7 +114,7 @@
     - RUN|get-code
     ```
 
-    The related [Function 🐍 handler](<../33 😃 Talkers/12 🐍 {Function}.md>) would be.
+    Here's the [Function 🐍 handler](<../33 😃 Talkers/12 🐍 {Function}.md>).
 
     ```python
     # 🐍 Python handler
@@ -124,7 +125,7 @@
                 return not (len(s) == 6 and s.isdigit())
     ```
     
-    Here's the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) reply.
+    Here's the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>).
 
     ```yaml
     Format: TEXT

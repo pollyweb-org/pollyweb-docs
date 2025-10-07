@@ -40,7 +40,7 @@
     | 🕙 Clock | 😃 Check again? [Yes, No] 
     |
 
-    The related [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) is as follows.
+    Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
 
 
     ```yaml
@@ -64,7 +64,7 @@
     | 🕙 Clock | 😃 Want to know the time? [Yes, No] 
     |
 
-    The related [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) is as follows.
+    Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
 
     ```yaml
     💬|Show time:
@@ -99,7 +99,7 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Order submitted!
     |
 
-    The related [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) is as follows.
+    Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
 
 
     ```yaml
@@ -151,7 +151,7 @@
     | [👀 Ads](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) | ⓘ Explore follow-ups: <br/>- [ #️⃣ Play Tic-Tac-Toe ] 
     |
 
-    The related [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) is as follows.
+    Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
 
     ```yaml
     💬 Play guess:                      

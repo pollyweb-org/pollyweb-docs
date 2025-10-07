@@ -42,7 +42,7 @@
 
 1. **What's an example?**
 
-    Consider the following [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
     QUANTITY|How many? >> $qt
@@ -70,7 +70,7 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ⏳ Checking availability... 
     |
 
-    The corresponding [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) is as follows.
+    Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
 
     ```yaml
     💬 Walk-in:

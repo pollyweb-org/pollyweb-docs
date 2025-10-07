@@ -103,7 +103,7 @@
     | [🫥 Agent](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | 💭 How are you today? | `I'm fine`
     |
    
-    Consider the following [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
     TEXT|How are you today? >> $msg
@@ -163,7 +163,7 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ You entered `4,567.80`
     |
    
-    Consider the following [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
     # Explicit, not recommended, just for the exercise.
