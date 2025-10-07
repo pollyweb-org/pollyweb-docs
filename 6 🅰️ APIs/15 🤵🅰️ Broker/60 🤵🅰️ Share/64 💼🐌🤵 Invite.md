@@ -15,7 +15,7 @@ Header:
     Subject: Invite@Broker
 Body:
     ChatID: <chat-uuid>
-    Invitee: any-host.com
+    Invitee: any-helper.com
     Code: any-authority.com/ANY-CODE:1.0
     ConsumerKey: <consumer-key-uuid>
     Parameters:

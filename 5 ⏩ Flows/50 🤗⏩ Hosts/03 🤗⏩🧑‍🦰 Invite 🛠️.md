@@ -18,26 +18,28 @@ Consider the following [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12
 
 | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
 | - | - | - |
-| 🤗 Host A | ℹ️ I'll ask Host B for a random number. | 
-| 🤵 [Broker](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Allow invited guest? [Yes, No]  <br/> - Host B 😶 <br/>- [ Always ] for Host A 🤗 | > Yes
-| 😶 Host B | ⓘ Hi! I'm Host B. The number is 27.    
-| 🤗 Host A | ℹ️ 27, got it! Thanks, Host B!  
+| 🤗 Host  | ℹ️ I'll ask my Helper for a random number. | 
+| 🤵 [Broker](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 [Allow invited guest?](<03 🤗⏩🧑‍🦰 Invite 🛠️.md>) [Yes, No]  <br/> - Any Helper 🛠️ <br/>- [ Always ] for Any Host  🤗 | > Yes
+| 🛠️ Helper | ℹ️ Hi! I'm Any Helper. The number is 27.    
+| 🤗 Host  | ℹ️ 27, got it! Thanks, Any Helper!  
 |
 
-<br/>
-
-## 😃 Talker 😃
-
-The associated [Talker 😃](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/01 😃 Talker.md>) would be the following.
+The associated [Talker 😃](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/01 😃 Talker.md>) is as follows.
 
 ```yaml
-- INFO|I'll invite Host B.
-- INVITE|host-b.com|any-authority.org/RANDOM-NUMBER >> my-number
-    # Domain: host-b.com
-    # Code: any-authority.org/RANDOM-NUMBER
-    # Output: my-number
-- INFO|{my-number}, got it! Thanks, Host B!
+- INFO|I'll ask my Helper for a random number.
+- INVITE >> $number:
+    Invitee: host-b.com
+    Code: any-authority.org/RANDOM-NUMBER
+- INFO|{number}, got it! Thanks, Any Helper!  
 ```
+
+| [Command ⌘](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/10 ⌘ Command.md>) | Purpose
+|-|-
+| ℹ️ [`INFO`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/11 ℹ️ INFO prompt.md>) | To show the messages to the user.
+| 🛠️ [`INVITE`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/46 🛠️ INVITE msg.md>) | To collect a random number.
+|
+
 
 <br/>
 
@@ -52,8 +54,9 @@ The associated [Talker 😃](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 
 |-|-|-
 |1|[💼🐌🤵 `Invite@Broker`](<../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/64 💼🐌🤵 Invite.md>)|Invite another [Host 🤗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) to the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
 |2|[🤗⏩🧑‍🦰 Prompt 🤔](<01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) may ask for user permission
-|3| [🤵🐌🤗 `Invited@Host`](<../../6 🅰️ APIs/50 🤗🅰️ Host/11 🤵🐌🤗 Invited.md>) | Proxy the invite to the Invitee 
-|4|[🤗⏩🧑‍🦰 Prompt 🤔](<01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | The invitee continues the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
+|3| [🤵🐌🤗 `Invited@Host`](<../../6 🅰️ APIs/50 🤗🅰️ Host/11 🤵🐌🤗 Invited.md>) | Proxy  invites to [Helper 🛠️](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) invitees
+|4|[🤗⏩🧑‍🦰 Prompt 🤔](<01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | Invitees continue the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
+|5|[🗄️⏩💼 Consume 🧩](<../80 🗄️⏩ Vaults/02 🗄️⏩💼 Consume.md>) | Invitees share the final result
 |
 
 <br/>

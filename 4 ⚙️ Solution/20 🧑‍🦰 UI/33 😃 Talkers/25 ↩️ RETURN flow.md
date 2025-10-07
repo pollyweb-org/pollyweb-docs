@@ -62,6 +62,10 @@
     - FAILURE|This command never runs.
     ```
 
+    | [Command ⌘](<10 ⌘ Command.md>) | Purpose
+    |-|-
+    | ▶️ [RUN](<24 ▶️ RUN flow.md>) | To run the procedures.
+    
     ---
     <br/>
 
@@ -99,6 +103,10 @@
     FunctionProc:
     - RETURN|{.Sum($1,$2,$3)}
     ```
+
+    | [Command ⌘](<10 ⌘ Command.md>) | Purpose
+    |-|-
+    | ▶️ [RUN](<24 ▶️ RUN flow.md>) | To run the procedures.
 
     ---
     <br/>

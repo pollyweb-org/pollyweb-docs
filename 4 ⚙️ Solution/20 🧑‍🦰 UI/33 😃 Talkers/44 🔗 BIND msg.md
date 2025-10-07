@@ -48,8 +48,8 @@
 
     ```yaml
     # For a single required code.
-    BIND|<code> 
-    SUCCESS|Bound!
+    - BIND|<code> 
+    - SUCCESS|Bound!
     ```
 
     | Argument| Purpose 
@@ -58,8 +58,8 @@
 
     ```yaml
     # For a single optional code.
-    BIND|code >> $bound
-    IF|{$bound}:
+    - BIND|code >> $bound
+    - IF|{$bound}:
         Then: SUCCESS|Bound.
         Else: FAILURE|Not bound.
     ```
