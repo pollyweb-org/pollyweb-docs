@@ -50,7 +50,9 @@
     ```yaml
     # Inline
     FAILURE|<message> 
+    ```
 
+    ```yaml
     # Multi-line 
     FAILURE:
         Message: <message>

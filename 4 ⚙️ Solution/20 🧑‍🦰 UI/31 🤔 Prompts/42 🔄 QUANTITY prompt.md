@@ -34,6 +34,14 @@
         MinValue: <min-value>
         MaxValue: <max-value>
     ```
+
+    | Argument| Purpose | Example
+    |-|-|-
+    | `<message>`| Message to show to the user
+    | `$placeholder`| Placeholder with the user's answer
+    | `<min-value>` | Optional minimum value | `1`
+    | `<max-value>` | Optional maximum value | `5`
+    
     
     ---
     <br/>

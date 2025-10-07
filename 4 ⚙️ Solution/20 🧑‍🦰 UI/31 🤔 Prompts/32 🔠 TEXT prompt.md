@@ -19,20 +19,6 @@
     ---
     <br/>
 
-
-1. **What features does TEXT implement?**
-
-    | Feature | Details
-    |-|-
-    | [`Details`](<03 🤔⊕ with Details.md>) | Has expandable [+] details.
-    | [`Options`](<04 🤔🔘 with Options.md>) | Has options for users to select.
-    | [`Attachment`](<05 🤔📎 with Attachments.md>) | Has a PDF, PNG, or JPEG attachment.
-    | [`Input` behavior](<11 ✏️ Input behavior.md>) | Waits for an answer from users.
-    
-    ---
-    <br/>
-
-
 1. **What agents implement text?**
    
     |Agent| Purpose
@@ -69,13 +55,28 @@
     <br/>
 
 
+
+
+1. **What features does TEXT implement?**
+
+    | Feature | Details
+    |-|-
+    | [`Details`](<03 🤔⊕ with Details.md>) | Has expandable [+] details.
+    | [`Options`](<04 🤔🔘 with Options.md>) | Has options for users to select.
+    | [`Attachment`](<05 🤔📎 with Attachments.md>) | Has a PDF, PNG, or JPEG attachment.
+    | [`Input` behavior](<11 ✏️ Input behavior.md>) | Waits for an answer from users.
+    
+    ---
+    <br/>
+
+
+
 1. **What's the syntax on a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
     TEXT|<message> >> $placeholder
         MinLength: <min-length>
         MaxLength: <max-length>
-        Hint: <hint>
         Output: <output-format>
         Pattern: <regex-pattern>
     ```
@@ -86,7 +87,6 @@
     | `$placeholder`| Placeholder with the user's answer
     | `<min-length>` | Optional minimum length | `1`
     | `<max-length>` | Optional maximum length | `5`
-    | `<hint>` | Optional hint for users | `123.123.123.123`
     | `<output-format>` | Optional HTML format for outputs | `990.990.990.990`
     | `<regex-pattern>`| Optional HTML regular expression | `^...$`
     
@@ -103,10 +103,31 @@
     | [🫥 Agent](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | 💭 How are you today? | `I'm fine`
     |
    
+    <br/>
+
     Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
-    TEXT|How are you today? >> $msg
+    # Talker 😃
+    - TEXT|How are you today? >> $msg
+    ```
+
+
+    <br/>
+
+    Here's the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>).
+
+    ```yaml
+    Format: TEXT
+    Message: 💬 How are you today?
+    ```
+
+    <br/>
+    
+    Here's the answer in [`Reply@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>).
+
+    ```yaml
+    Answer: I'm fine
     ```
 
     ---
@@ -121,22 +142,46 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 💬 What's the IP address? [+] <br/>  | `255.010.000.001`
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ You entered `255.10.0.1`
     |
+
+    <br/>
    
     Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
     # Explicit, not recommended, just for the exercise.
-    TEXT|What's the IP address? >> $ip:
-        Hint: 123.123.123.123
+    - TEXT|What's the IP address? >> $ip:
         Output: 990.990.990.990
         Pattern: ^((25[0-5]|2[0-4][0-9]|[01]?...{4}$
+        Details: "Hint: 123.123.123.123"
+    ```
     
+    ```yaml
     # Built-in alternative, preferred.
-    TEXT|What's the IP address? >> $ip:
+    - TEXT|What's the IP address? >> $ip:
         Pattern: IPv4
+    ```
 
+    ```yaml
     # Formatted output
-    SUCCESS|You entered `$ip`
+    - SUCCESS|You entered `$ip`
+    ```
+
+    <br/>
+
+    Here's the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>).
+
+    ```yaml
+    Format: TEXT
+    Message: 💬 What's the IP address? 
+    Details: "Hint: `123.123.123.123`"
+    ```
+
+    <br/>
+    
+    Here's the answer in [`Reply@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>).
+
+    ```yaml
+    Answer: 300.010.000.001
     ```
 
     ---
@@ -163,17 +208,21 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ You entered `4,567.80`
     |
    
+    <br/>
+
     Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
     # Explicit, not recommended, just for the exercise.
-    TEXT|How much? >> $price:
+    - TEXT|How much? >> $price:
         Hint: $1.23
         Output: $#,##0.00
         Pattern: ^\(?\$?-?\s?...)?$
+    ```
     
+    ```yaml
     # Built-in, preferred.
-    AMOUNT|How much? >> $price:
+    - AMOUNT|How much? >> $price:
         Currency: USD
         MaxValue: 1000.00
     ```
