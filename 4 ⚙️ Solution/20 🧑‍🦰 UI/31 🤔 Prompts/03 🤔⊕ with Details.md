@@ -69,7 +69,7 @@
     Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
-    INFO|Expandable info:
+    - INFO|Expandable info:
         Details: |
             1. Markdown bullet one
             1. Markdown bullet two

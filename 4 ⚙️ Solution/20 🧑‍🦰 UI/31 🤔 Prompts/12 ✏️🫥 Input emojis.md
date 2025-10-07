@@ -46,14 +46,18 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Continue? [Yes, No]
     |
 
-    The corresponding [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) is as follows.
+    <br/>
+
+    Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
 
     ```yaml
     # 😃 Talker
-    CONFIRM|Continue?
+    - CONFIRM|Continue?
     ```
 
-    The [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) reply becomes as follows.
+    <br/>
+
+    Here's the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>).
 
     ```yaml
     Format: CONFIRM
@@ -98,10 +102,10 @@
 
 1. **How to change an emoji in a Prompt?**
 
-    On a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>), for a single command:
+    Here's a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
 
     ```yaml
-    CONFIRM|Are you OK? >> $status:
+    - CONFIRM|Are you OK? >> $status:
         Emoji: 😕 
     ```
     

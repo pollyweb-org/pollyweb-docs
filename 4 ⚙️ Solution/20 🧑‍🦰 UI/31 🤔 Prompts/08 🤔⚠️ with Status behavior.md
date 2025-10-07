@@ -33,11 +33,12 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 I'm blocking input, OK? [ Yes, No ] | > Yes
     |
 
-    The related [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) is as follows.
+    Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
-    INFO|Any non-blocking status.
-    CONFIRM|I'm blocking input, OK?
+    # 😃 Talker 
+    - INFO|Any non-blocking status.
+    - CONFIRM|I'm blocking input, OK?
     ```
 
     ---
@@ -62,17 +63,17 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 I'm blocking, but  did <br/>   you know that you can still<br/>   go back and cancel? <br/> - [ Yes, I did ] <br/> - [ No, I didn't ]
     |
 
-    The related [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) is as follows.
+    Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
     # Non-blocking
-    INFO|With options >> $input$:
+    - INFO|With options >> $input$:
         Options: 
             - [Cancel] later
             - [Play] music 
 
     # Blocking
-    ONE: 
+    - ONE: 
         Message: 
             I'm blocking, but did you 
             know that you can still go back 

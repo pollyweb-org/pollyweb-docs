@@ -48,10 +48,10 @@
     | [🫥 Agent](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | ⓘ Simple info.
     |
     
-    Consider the following [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
-    INFO|Simple info.
+    - INFO|Simple info.
     ```
     
     ---

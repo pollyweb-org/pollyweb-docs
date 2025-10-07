@@ -68,7 +68,7 @@
     | 🏦 Bank | 💬 What do you need? | `I need...`
     |
 
-    The related [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) is as follows.
+    Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
 
     ```yaml
     # 😃 Talker 

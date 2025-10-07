@@ -51,7 +51,7 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | (stops interacting)
     |
 
-    The related [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) would be.
+    Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
 
     ```yaml
     # 😃 Talker
@@ -74,7 +74,7 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 How about the other?
     |
 
-    The related [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) would be.
+    Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
 
     ```yaml
     # 😃 Talker
