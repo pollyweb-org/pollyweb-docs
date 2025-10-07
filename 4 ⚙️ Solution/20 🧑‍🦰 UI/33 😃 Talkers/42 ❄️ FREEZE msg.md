@@ -10,7 +10,7 @@
 
     A `FREEZE` ❄️
     * is a flow [Command ⌘](<10 ⌘ Command.md>) 
-    * that freezes all previous [non-blocking Prompts 🤔](<../31 🤔 Prompts/08 🤔⚠️ with Status behavior.md>)
+    * that freezes all previous [non-blocking Prompts 🤔](<../31 🤔 Prompts/10 ⚠️ Status behavior.md>)
     * as described in the [Freeze ⏩](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/06 🤗⏩🧑‍🦰 Freeze ❄️.md>) flow.
 
     ---
