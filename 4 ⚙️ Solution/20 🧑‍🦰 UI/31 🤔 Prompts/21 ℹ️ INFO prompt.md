@@ -17,10 +17,10 @@
 
     | Feature | Details
     |-|-
-    |  ⊕ [`Details`](<03 🤔⊕ with Details.md>) | Has expandable [+] details.
-    | [`Options`](<04 🤔🔘 with Options.md>) | Has options for users to select.
-    |  📎 [`Attachment`](<05 🤔📎 with Attachments.md>) | Has a PDF, PNG, or JPEG attachment.
-    | [`Status` behavior](<08 🤔⚠️ with Status behavior.md>) | Informs and continues the flow.
+    | ⊕ [`Details`](<03 🤔⊕ with Details.md>) | Has expandable [+] details.
+    | 🔘 [`Options`](<04 🤔🔘 with Options.md>) | Has options for users to select.
+    | 📎 [`Attachment`](<05 🤔📎 with Attachments.md>) | Has a PDF, PNG, or JPEG attachment.
+    | ⚠️ [`Status`](<08 🤔⚠️ with Status behavior.md>) | Informs and continues the flow.
     
     ---
     <br/>

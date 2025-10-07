@@ -20,8 +20,8 @@
 
     | Feature | Details
     |-|-
-    |  ⊕ [`Details`](<03 🤔⊕ with Details.md>) | Has expandable [+] details.
-    |  📎 [`Attachment`](<05 🤔📎 with Attachments.md>) | Has a PDF, PNG, or JPEG attachment.
+    | ⊕ [`Details`](<03 🤔⊕ with Details.md>) | Has expandable [+] details.
+    | 📎 [`Attachment`](<05 🤔📎 with Attachments.md>) | Has a PDF, PNG, or JPEG attachment.
     | ✏️ [`Input`](<11 ✏️ Input behavior.md>) | Waits for an answer from users.
     
     ---
@@ -129,13 +129,13 @@
     - INFO:
         Message: Table reservation.
     
-    - ONE >> $qt:
+    - ONE >> $p:
         Message: For how many?
         Options: 1,2,more
 
-    - CASE|{$qt}:
+    - CASE|{$p}:
         more: 
-          - QUANTITY|How many exactly? >> $qt:
+          - QUANTITY|How many exactly? >> $p:
                 MinValue: 3
                 MaxValue: 12
 
@@ -157,7 +157,7 @@
 
 1. **How does Precision work?**
 
-    When collecting an input, [Talkers 😃](<../33 😃 Talkers/01 😃 Talker.md>) 
+    When collecting a [`QUANTITY`](<42 🔄 QUANTITY prompt.md>) input, [Talkers 😃](<../33 😃 Talkers/01 😃 Talker.md>) 
     * round up the input based on the precision, 
     * and ask confirmation to the user if the value differs.
 
@@ -180,9 +180,9 @@
     
     ```yaml
     # 😃 Talker 
-    - QUANTITY|How much? >> $amount:
+    - QUANTITY|How much? >> $p:
         Precision: 2  
-    - INFO|You entered $amount
+    - INFO|You entered $p
     - REPEAT
     ```
 
@@ -196,7 +196,7 @@
     <br/>
 
 
-1. **What's contained in the return placeholder?**
+1. **What's contained in the QUANTITY placeholder?**
 
     ```yaml
     # 😃 Talker
@@ -221,7 +221,7 @@
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Give me a quantity  | 🔄 1234
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ I'm saving `1,234`
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ I'm storing `1,234`
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Although you typed `1234`
     |
 
@@ -232,9 +232,9 @@
     ```yaml
     # 😃 Talker 
     💬 Example:
-    - QUANTITY|Give me a quantity >> $n
-    - INFO|I'm saving `{$n}`
-    - INFO|Although you typed `{$n.Text}`
+    - QUANTITY|Give me a quantity >> $p
+    - INFO|I'm storing `{$p}`
+    - INFO|Although you typed `{$p.Text}`
     ```
 
 
