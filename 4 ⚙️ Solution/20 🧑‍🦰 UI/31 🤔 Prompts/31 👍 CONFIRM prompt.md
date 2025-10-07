@@ -17,7 +17,7 @@
 1. **What's the syntax of a `CONFIRM`?**
 
     ```yaml
-    # Single-line syntax
+    # Simplest
     CONFIRM|<message>
     ```
 
@@ -26,10 +26,11 @@
     | `<message>` |  Message to show to the user. | `Sure?`
 
     ```yaml
-    # Multi-line syntax
-    CONFIRM|<message>:
-        - Then: <true-action>
-        - Else: <false-action>
+    # Comprehensive
+    CONFIRM:
+        Message: <message>
+        Then: <true-action>
+        Else: <false-action>
     ```
     
     | Argument| Purpose 

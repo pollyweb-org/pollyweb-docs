@@ -18,12 +18,31 @@
 1. **What's the syntax?**
 
     ```yaml
+    # Simplest
+    - CASE|{function}:
+        <value>: <action>
+    ```
+
+
+    | Argument| Purpose | Example
+    |-|-|-
+    | `{function}` | Optional [{Function}](<12 🐍 {Function}.md>) to evaluate. | `{f}` `{$p}`
+    || Allows for missing `{}` in functions. | `f()` `$p`
+    || Defaults to the last input. | `TEXT\|Id?`
+    | `<value>`| Static value to be matched with. | `ABC`
+    | `<action>`| Run a [Procedure ⚙️](<11 ⚙️ Procedure.md>) | `MyProc`
+    || or a one-line [Command ⌘](<10 ⌘ Command.md>). | `INFO\|OK`
+    
+
+    ```yaml
     # One line values
     - CASE|{function}:
         $: <action-$>
         <value-1>: <action-1>
         <value-n>: <action-n>
-        
+    ```
+
+    ```yaml 
     # Multi-line values
     - CASE|{function}:
         $: 

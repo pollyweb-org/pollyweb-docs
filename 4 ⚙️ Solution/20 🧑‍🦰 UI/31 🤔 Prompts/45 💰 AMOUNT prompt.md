@@ -38,7 +38,14 @@
 1. **What's the syntax of a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
-    AMOUNT|<message> >> <key>:
+    # Simplest.
+    AMOUNT|<message>
+    ```
+
+    ```yaml
+    # Comprehensive.
+    AMOUNT >> $placeholder:
+        Message: <message>
         MinValue: <min-value>
         MaxValue: <max-value>
     ```

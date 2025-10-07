@@ -30,7 +30,7 @@
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Any non-blocking status.
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 I'm blocking input, OK? [ Yes, No ] | > Yes
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 I'm blocking inputs, OK? [ Yes, No ] | > Yes
     |
 
     Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
@@ -38,7 +38,7 @@
     ```yaml
     # 😃 Talker 
     - INFO|Any non-blocking status.
-    - CONFIRM|I'm blocking input, OK?
+    - CONFIRM|I'm blocking inputs, OK?
     ```
 
     ---
@@ -67,7 +67,7 @@
     
     ```yaml
     # Non-blocking
-    - INFO|With options >> $input$:
+    - INFO|With options >> $selected:
         Options: 
             - [Cancel] later
             - [Play] music 

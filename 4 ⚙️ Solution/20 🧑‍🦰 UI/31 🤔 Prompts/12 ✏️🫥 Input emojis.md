@@ -105,7 +105,7 @@
     Here's a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
 
     ```yaml
-    - CONFIRM|Are you OK? >> $status:
+    - CONFIRM|Are you OK?:
         Emoji: 😕 
     ```
     

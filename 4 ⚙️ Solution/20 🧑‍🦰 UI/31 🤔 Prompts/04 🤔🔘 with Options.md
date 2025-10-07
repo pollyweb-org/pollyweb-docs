@@ -62,8 +62,8 @@
 1. **What's the format for a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
-    # One-line
-    <PROMPT>|<message>|<options> >> $selected
+    # Simplest
+    <PROMPT>|<message>|<options>
     ```
 
     | Argument| Purpose | Example
@@ -72,6 +72,14 @@
     | `<message>` |  Message to show to the user. | `Hi!`
     | `<options>` | Comma-separated strings | `A,B,C`
     || or comma-separated dictionary. | `1:A,2:B`
+    
+    ```yaml
+    # One-line
+    <PROMPT>|<message>|<options> >> $selected
+    ```
+
+    | Argument| Purpose | Example
+    |-|-|-
     | `$selected` | Placeholder for the selected option: | `$answer`
     || for string lists, returns the text | → `A` in `A,B,C`
     || for dictionaries, returns the ID. | → `1` in `{1:A}`
@@ -138,13 +146,13 @@
     # 😃 Talker
 
     # Ask the question.
-    - ONE|What to do? >> $answer:
+    - ONE|What to do?:
         Options:
             - [Play] music 
             - [Share] list
 
     # Check the answer.
-    - CASE|$answer:
+    - CASE:
         Play : INFO|You opted to play.
         Share: INFO|You choose to share.
     ```
@@ -203,14 +211,15 @@
     # 😃 Talker
 
     # Ask the question.
-    - ONE|What to do? >> $answer:
+    - ONE >> $answer:
+        Message: What to do?
         Options:
             - [Play] music 
             - [Share] list
             - [Speak] with singer § any-artist.com/FANS
 
     # Check the answer.
-    - CASE|$answer:
+    - CASE|{$answer}:
         Play : INFO|You opted to play.
         Share: INFO|You choose to share.
         # [Speak] never gets here.

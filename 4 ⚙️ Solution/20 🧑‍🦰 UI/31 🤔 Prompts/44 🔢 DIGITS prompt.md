@@ -43,19 +43,34 @@
 1. **What's the format of a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
-    DIGITS|<message> >> $placeholder:
+    # Simplest.
+    DIGITS|<message>
+    ```
+
+    ```yaml
+    # Comprehensive.
+    DIGITS >> $placeholder:
+        Message: <message>
         MinLength: <min-length>
         MaxLength: <max-length>
     ```
     
+
+
+    | Argument| Purpose | Example
+    |-|-|-
+    | `<message>`| Message to show to the user
+    | `$placeholder`| Placeholder with the user's answer
+    | `<min-length>` | Optional minimum length | `1`
+    | `<max-length>` | Optional maximum length | `5`
+    
+
     ---
     <br/>
 
 
 
 1. **What's an example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
-
-    
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
@@ -69,7 +84,30 @@
     Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
-    - DIGITS|What's the code? >> $my-answer
+    - DIGITS|What's the code? >> $code:
+        MinLength: 3
+        MaxLength: 5
+    ```
+
+
+    <br/>
+
+    Here's the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>).
+
+    ```yaml
+    Format: DIGITS
+    Message: 😃 What's the code?
+    MinLength: 3
+    MaxLength: 5
+    ```
+
+
+    <br/>
+    
+    Here's the answer in [`Reply@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>).
+
+    ```yaml
+    Answer: 0123
     ```
 
     ---
