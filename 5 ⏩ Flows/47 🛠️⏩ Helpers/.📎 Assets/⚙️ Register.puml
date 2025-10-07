@@ -1,0 +1,42 @@
+@startuml Introduce
+
+participant "Payer 💳\ndomain" as payer
+participant "Identity 🆔\ndomain" as id
+actor "User\nin chat" as user
+participant "Broker 🤵\ndomain" as broker
+participant "Helper 🛠️\ndomain" as helper
+participant "Biller 🤝\ndomain" as biller
+
+activate helper
+    helper --> user: ⏪ FORM
+    helper --> user: ⏪ BIND
+    helper --> broker: ⏪ Invite
+deactivate helper
+
+activate broker
+    user --> broker: OK
+    broker --> biller: Invite 🐌
+deactivate broker
+
+activate biller
+    biller --> user: ⏪ Prompt 🤔 {plan?}
+    biller --> payer: Share {link} 🐌
+deactivate biller
+
+activate payer
+    user <-- payer: ⏪ Prompt 
+    payer --> biller: Consume {link} 🐌
+deactivate payer
+
+activate biller
+    biller --> id: Share {sign}
+deactivate biller
+
+activate id
+    user <-- id: ⏪ Prompt {card}
+    id --> biller: Consume {link} 🐌
+deactivate id
+
+
+' ------------
+@enduml
