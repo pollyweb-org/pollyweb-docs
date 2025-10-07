@@ -32,9 +32,9 @@
 
     | Feature | Details
     |-|-
-    | [`Details`](<03 🤔⊕ with Details.md>) | Has expandable [+] details.
+    |  ⊕ [`Details`](<03 🤔⊕ with Details.md>) | Has expandable [+] details.
     |  📎 [`Attachment`](<05 🤔📎 with Attachments.md>) | Has a PDF, PNG, or JPEG attachment.
-    | [ ✏️ `Input`](<11 ✏️ Input behavior.md>) | Waits for an answer from users.
+    | ✏️ [`Input`](<11 ✏️ Input behavior.md>) | Waits for an answer from users.
     
     ---
     <br/>
@@ -47,6 +47,10 @@
     DIGITS|<message>
     ```
 
+    | Argument| Purpose | Example
+    |-|-|-
+    | `<message>`| Message to show to the user
+
     ```yaml
     # Comprehensive.
     DIGITS >> $placeholder:
@@ -55,11 +59,8 @@
         MaxLength: <max-length>
     ```
     
-
-
     | Argument| Purpose | Example
     |-|-|-
-    | `<message>`| Message to show to the user
     | `$placeholder`| Placeholder with the user's answer
     | `<min-length>` | Optional minimum length | `1`
     | `<max-length>` | Optional maximum length | `5`
