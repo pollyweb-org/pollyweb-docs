@@ -41,7 +41,7 @@ Format: ONE
 Message: Which credit card to use? 
 MinValue: 10000                     # Optional
 MaxValue: 99999                     # Optional
-Appendix: <attachment-uuid>       # Optional
+Appendix: <appendix-uuid>           # Optional
 Details: |                          # Optional
     **Note**: each cards has its own fees.
     * Check the fees for the transaction.

@@ -31,7 +31,7 @@ Body:
 |           | `To`          | string    | [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>)
 |           | `Subject`     | string    | `Prompted@Host`
 | Body      | `ChatID` | uuid | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) ID
-|| `FileID`    | uuid      | Attachment from [`Prompted@Host`](<04 🧑‍🦰🚀🤗 Prompted.md>)
+|| `FileID`    | uuid      | Appendix from [`Prompted@Host`](<04 🧑‍🦰🚀🤗 Prompted.md>)
 |
 
 <br/>
