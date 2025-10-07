@@ -26,29 +26,67 @@
 1. **What's syntax for input placeholders?**
 
     ```yaml
-    {$placeholder} 
+    # Value placeholders
+    {$placeholder}     
     ```
 
-    | Argument| Purpose
-    |-|-
-    | `placeholder` | The name of a placeholder.
+    | Argument| Purpose | Example
+    |-|-|-
+    | `placeholder` | The name of a placeholder. | `$p`
+    
 
+    ```yaml 
+    # Object placeholders
+    {$placeholder}      # Simple
+    {$placeholder.$}    # Default property
+    {$placeholder.ABC}  # Other properties
+    ```
+
+    <br/>
+    
+    Consider the following [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
+    
+    ```yaml
+    # 😃 Talker 
+    EVAL >> $p
+        $: my default
+        A: another property
+
+    INFO|{$p}   # Prints "my default"
+    INFO|{$p.$} # Prints "my default"
+    INFO|{$p.A} # Prints "another property"
+    ```
+
+    | [Command ⌘](<../33 😃 Talkers/10 ⌘ Command.md>) | Purpose
+    |-|-
+    | ⬇️ [`EVAL`](<20 ⬇️ EVAL flow.md>) | To push an object into a placeholder.
+    | ℹ️ [`INFO`](<../31 🤔 Prompts/21 ℹ️ INFO prompt.md>) | To show the placeholder values.
+    
     ---
     <br/>
+
+
+    
 
 1. **What's an example for input placeholders?**
    
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Give me a number.  | 🔄 5
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You gave me the number 5.
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Give me a quantity  | 🔄 1234
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ I'm saving `1,234`
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Although you typed `1234`
+    |
 
-
+    <br/>
+    
+    Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
+        
     ```yaml
-    # 😃 Talker configuration
+    # 😃 Talker 
     💬 Example:
-    - QUANTITY|Give me a number. >> $n
-    - INFO|You gave me the number {$n}.
+    - QUANTITY|Give me a quantity >> $n
+    - INFO|I'm saving `{$n}`
+    - INFO|Although you typed `{$n.Text}`
     ```
 
     | [Command ⌘](<10 ⌘ Command.md>) | Purpose

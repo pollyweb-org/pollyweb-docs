@@ -48,6 +48,7 @@
     |-|-|-
     | `<message>`| Message to show to the user
 
+
     ```yaml
     # Comprehensive.
     AMOUNT >> $placeholder:
@@ -65,8 +66,8 @@
     | `<min-value>` | Optional minimum value | `-100`
     | `<max-value>` | Optional maximum value | `100`
     | `<precision>`| Rounded decimals (default is 2) | `2`
-    | `<currency>` | Optional ISO 4217 currency | `USD`
     | `<locale>`| Optional CLDR locale <br/> - defaults to the [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) language | `en-US`
+    | `<currency>` | Optional ISO 4217 currency <br/>- defaults to the locale's currency | `USD`
     
     ---
     <br/>
@@ -88,7 +89,7 @@
     
     ```yaml
     # 😃 Talker 
-    AMOUNT|How much?:
+    - AMOUNT|How much?:
         MinValue: -100.00
         MaxValue: 1000000000
         Precision: 5  # Server-side only
@@ -121,7 +122,3 @@
     ---
     <br/>
 
-
-1. **How does Precision work?**
-
-    
