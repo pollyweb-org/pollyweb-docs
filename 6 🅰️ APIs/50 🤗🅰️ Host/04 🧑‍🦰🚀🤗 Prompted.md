@@ -39,11 +39,12 @@ Body:
 ```yaml
 Format: ONE
 Message: Which credit card to use?
-MinLength: 1
-MaxLength: 5
-MinValue: 10000
-MaxValue: 99999
-Emoji: 😕
+Optional: True   # Defaults to False
+MinLength: 1     # Optional
+MaxLength: 5     # Optional
+MinValue: 10000  # Optional
+MaxValue: 99999  # Optional
+Emoji: 😕        # Defaults to 😃🫥
 Attachment: <attachment-uuid>
 Details: |
     **Note**: each cards has its own fees.
@@ -57,16 +58,17 @@ Options:
 |-|-|-|-
 |Top| `Format`  | string | One format supported by [Prompts 🤔](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>)
 || `Message` | string | Main message,  to display in the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
+|| `Optional` | bool | Prompts are [mandatory](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/09 🤔✏️ with Input behavior.md>) by default
 || `MinLength` | int | Optional minimum length
 || `MaxLength` | int | Optional maximum length
 || `MinValue` | int | Optional minimum value
 || `MaxValue` | int | Optional maximum value
 || `Emoji` | string | Optional emoji for [Input Prompts 🤔](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/09 🤔✏️ with Input behavior.md>)
 || `Attachment`| uuid   | File to download via [Download@Host 🚀](<06 🧑‍🦰🚀🤗 Download.md>)
-|| `Details` | string | Extended details in Markdown format,<br/> - typically hidden by an expand [+] sign
+|| `Details` | string | Extended [details](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/03 🤔⊕ with Details.md>) in Markdown format,<br/> - typically hidden by an expand [+] sign
 || `Options` | object[]   | List of `Option` objects
-|Option | `ID`          | string  | ID of the option, <br/> - for replies via [Reply@Host 🐌](<05 🧑‍🦰🐌🤗 Reply.md>)
-|       | `Translation` | string  | Text of the option, <br/>- to display in the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
+|Option | `ID`          | string  | ID of the [option](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/04 🤔🔘 with Options.md>), <br/> - for replies via [Reply@Host 🐌](<05 🧑‍🦰🐌🤗 Reply.md>)
+|       | `Translation` | string  | Text of the [option](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/04 🤔🔘 with Options.md>), <br/>- to display in the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
 |
 
 <br/>
