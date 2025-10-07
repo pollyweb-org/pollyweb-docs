@@ -86,8 +86,8 @@
     
     ```yaml
     - DIGITS|What's the code? >> $code:
-        MinLength: 3
-        MaxLength: 5
+        MinLength: 3 # Server-side validation
+        MaxLength: 5 # Server-side validation
     ```
 
 
@@ -98,8 +98,6 @@
     ```yaml
     Format: DIGITS
     Message: 😃 What's the code?
-    MinLength: 3
-    MaxLength: 5
     ```
 
 
