@@ -35,7 +35,7 @@
     Command | Purpose
     |-|-
     | ℹ️ [`INFO`](<../31 🤔 Prompts/21 ℹ️ INFO prompt.md>) | Information message.
-    | ⏳ [`TEMP`](<../31 🤔 Prompts/22 ⏳ TEMP prompt.md>) |Temporary status message.
+    | ⏳ [`TEMP`](<../31 🤔 Prompts/25 ⏳ TEMP prompt.md>) |Temporary status message.
     | ✅ [`SUCCESS`](<../31 🤔 Prompts/23 ✅ SUCCESS prompt.md>) | Successful status message.
     | ❌ [`FAILURE`](<../31 🤔 Prompts/24 ❌ FAILURE prompt.md>) | Unsuccessful status message.
 

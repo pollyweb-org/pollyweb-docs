@@ -29,12 +29,14 @@
     # Comprehensive
     CONFIRM:
         Message: <message>
+        Details: <details>
         Then: <true-action>
         Else: <false-action>
     ```
     
     | Argument| Purpose 
     |-|-
+    | `<details>` | Optional [expandable details ⊕](<03 🤔⊕ with Details.md>) | `Hint: ...`
     | `<true-action>` | [Procedure ⚙️](<../33 😃 Talkers/11 ⚙️ Procedure.md>) or one-line [Command ⌘](<../33 😃 Talkers/10 ⌘ Command.md>) on `True`
     | `<false-action>`| [Procedure ⚙️](<../33 😃 Talkers/11 ⚙️ Procedure.md>) or one-line [Command ⌘](<../33 😃 Talkers/10 ⌘ Command.md>) on `False`
        

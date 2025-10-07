@@ -27,7 +27,7 @@
 
     |Behavior| Format 
     |-|-
-    |[`Status`](<08 🤔⚠️ with Status behavior.md>)| [`ℹ️ INFO`](<21 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<22 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<23 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<24 ❌ FAILURE prompt.md>)
+    |[`Status`](<08 🤔⚠️ with Status behavior.md>)| [`ℹ️ INFO`](<21 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<25 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<23 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<24 ❌ FAILURE prompt.md>)
     |[`Inputs`](<11 ✏️ Input behavior.md>)| [`🔢 DIGITS`](<44 🔢 DIGITS prompt.md>) [`🔄 QUANTITY`](<42 🔄 QUANTITY prompt.md>) [`💰 AMOUNT`](<43 💰 AMOUNT prompt.md>) [`🔑 OTP`](<57 🔑 OTP prompt.md>) [`⭐ RATE`](<56 ⭐ RATE prompt.md>) 
     || [`👍 CONFIRM`](<31 👍 CONFIRM prompt.md>) [`1️⃣ ONE`](<55 1️⃣ ONE prompt.md>) [`🔢 MANY`](<54 🔠 MANY prompt.md>) 
     || [`🕓 TIME`](<62 🕓 TIME prompt.md>) [`📆 DATE`](<61 📆 DATE prompt.md>) 

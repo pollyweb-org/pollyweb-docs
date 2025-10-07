@@ -147,7 +147,7 @@
     | ℹ️ [`INFO`](<21 ℹ️ INFO prompt.md>) | To show the result.
     | 1️⃣ [`ONE`](<55 1️⃣ ONE prompt.md>) | To show the options.
     | 🔀 [`CASE`](<../33 😃 Talkers/22 🔀 CASE flow.md>) | To check the selected option.
-    | ⏳ [`TEMP`](<22 ⏳ TEMP prompt.md>) | To show work in progress.
+    | ⏳ [`TEMP`](<25 ⏳ TEMP prompt.md>) | To show work in progress.
     
 
     ---

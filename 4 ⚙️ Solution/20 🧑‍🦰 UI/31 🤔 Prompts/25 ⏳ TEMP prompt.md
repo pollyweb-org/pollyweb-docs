@@ -40,6 +40,8 @@
     |-|-
     | ⊕ [`Details`](<03 🤔⊕ with Details.md>) | Has expandable [+] details.
     | 🔘 [`Options`](<04 🤔🔘 with Options.md>) | Has options for users to select.
+    | 📎 [`Attachment`](<05 🤔📎 with Attachments.md>) | Has a PDF, PNG, or JPEG attachment.
+    
     
     ---
     <br/>
@@ -57,12 +59,18 @@
     # Multi-line 
     TEMP:
         Message: <message>
+        Options: <options>
+        Details: <details>
+        Attachment: <attach>
     ```
     
 
     | Argument| Purpose | Example
     |-|-|-
     | `<message>` |  Message for the user. | `Running...`
+    | `<options>` | Optional [selectable options 🔘](<04 🤔🔘 with Options.md>) | `A,B` `{A:B}`
+    | `<details>` | Optional [expandable details ⊕](<03 🤔⊕ with Details.md>) | `Hint: ...`
+    | `<attach>` | Optional [file attachment 📎](<05 🤔📎 with Attachments.md>) | `<uuid>`
 
 
     ---
