@@ -82,7 +82,7 @@
     | 🔘 [`Options`](<04 🤔🔘 with Options.md>)  | Has options for users to select.
     | 📎 [`Attachment`](<05 🤔📎 with Attachments.md>)  | Has a PDF, PNG, or JPEG attachment.
     | ⚠️ [`Status` behavior](<08 🤔⚠️ with Status behavior.md>) | Informs and continues the flow.
-    | ✏️ [`Input` behavior](<11 ✏️ Input behavior.md>) | Waits for an answer from users.
+    | ✏️ [ ✏️ `Input`](<11 ✏️ Input behavior.md>) | Waits for an answer from users.
     
     ---
     <br/>
