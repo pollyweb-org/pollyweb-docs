@@ -73,18 +73,6 @@
     ---
     <br/>
 
-1. **How to define optional inputs?**
-
-    Allow an [input prompt ✏️](<11 ✏️ Input behavior.md>) depends on the input.
-    
-    | Input | How to make it optional | Example
-    |-|-|-
-    | [👍&nbsp;CONFIRM](<31 👍 CONFIRM prompt.md>)    | Output to a placeholder. | `>> $out?`
-    | All others | Make it optional. | `Optional: True`
-    
-    ---
-    <br/>
-
 
 1. **What does a mandatory input look like?**
 
@@ -107,6 +95,17 @@
     - INT|What's the code? >> $code
     - SUCCESS|Your code is `{$code}`
     ```
+    
+    ---
+    <br/>
+
+
+
+1. **How to define optional inputs?**
+
+    [Input prompts ✏️](<11 ✏️ Input behavior.md>) 
+    * can be made optional 
+    * by setting the property `Optional` to `True`.
     
     ---
     <br/>

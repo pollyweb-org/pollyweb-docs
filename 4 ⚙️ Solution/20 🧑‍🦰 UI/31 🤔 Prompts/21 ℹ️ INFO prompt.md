@@ -42,7 +42,9 @@
     ```yaml
     # Inline
     INFO|<message> 
+    ```
 
+    ```yaml
     # Multi-line 
     INFO:
         Message: <message>

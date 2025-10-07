@@ -51,7 +51,9 @@
     ```yaml
     # Inline
     TEMP|<message> 
-
+    ```
+    
+    ```yaml
     # Multi-line 
     TEMP:
         Message: <message>

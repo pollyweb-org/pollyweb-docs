@@ -60,7 +60,9 @@
     ```yaml
     # Inline
     SUCCESS|<message> 
+    ```
 
+    ```yaml
     # Multi-line 
     SUCCESS:
         Message: <message>
@@ -82,6 +84,7 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Simple success.
     | [🛠️ Helper](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | ✅ Simple success.
     | [🫥 Agent](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | ☑️ Simple success.
+    |
     
     <br/>
 
