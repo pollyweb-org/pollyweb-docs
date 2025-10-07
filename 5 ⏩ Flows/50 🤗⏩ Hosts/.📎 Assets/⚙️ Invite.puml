@@ -3,8 +3,8 @@
 
 actor User as user
 participant "Broker 🤵\n(domain)" as broker
-participant "Host 🤗\n(domain)" as host
-participant "Invitee 🛠️\n(host)" as invitee
+participant "Consumer 💼 \n Host 🤗" as host
+participant "Helper 🛠️\n Host 🤗" as invitee
 
 
 activate host
@@ -20,11 +20,12 @@ activate user
 deactivate user
 
 activate broker
-    broker --> invitee: 3) Invited 🐌 {code, params}
+    broker --> invitee: 3) Invited 🐌 {code 🧩, params}
 deactivate broker
 
 activate invitee
-invitee --> user : 4 ⏪ Prompt 🤔
+invitee --> user : 4 ⏪ Prompt 🤔 {additional info}
+invitee --> host: 5 ⏪ Consume 🧩
 deactivate invitee
 
 @enduml 

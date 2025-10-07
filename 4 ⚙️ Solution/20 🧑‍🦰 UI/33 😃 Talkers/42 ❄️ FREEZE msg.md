@@ -55,8 +55,8 @@
     # Last chance to change the previous inputs.
     - CONFIRM|Confirm booking?  
     - FREEZE >> $inputs:
-        Date: $date
-        Contacts: $contacts
+        Date: {$date}
+        Contacts: {$contacts}
 
     # Save the booking
     - EVAL|{SaveBooking($inputs)}

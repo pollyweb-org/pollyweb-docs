@@ -22,16 +22,16 @@
    
     | Helper 🛠️ | Example | Responsibilities
     |-|-|-
-    | [👀 Advertiser](<../../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) | GoogleAds | Intermediates ad workflows on behalf of [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>).
-    | [🤝 Biller](<../../30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>) | ApplePay | Manages billing cycles for contracts between [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).
-    | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | WhatsApp | Orchestrates [Chats](<../12 💬 Chats/01 💬 Chat.md>) between [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>).
-    | [⏳ Buffer](<../../40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>) | Kafka | Throttles [Streamer 🌬️ domains](<../../40 👥 Domains/41 📨 Comms/02 🌬️🎭 Streamer role.md>) on behalf of [Subscriber 🔔 domains](<../../40 👥 Domains/41 📨 Comms/04 🔔🎭 Subscriber role.md>).
-    | [🏦 Collector](<../../30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) | CapitalOne | Collects money from [Payer 💳 domains](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) on behalf of [Seller 💵 domains](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>).
-    | [🔐 Keymaker](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/05  🔐🏭 Keymaker supplier.md>) | - | Manages the lifecycle of [Padlocks 🔒](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/01 🔒 Padlock device.md>) on behalf of [Brands 🍏](<../../70 🌳 Ambient/71 💠 Brand Things/07 🍏🎭 Brand role.md>).
-    | [💳 Payer](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) | PayPal | Pays [Collector 🏦 domains](<../../30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) on behalf of [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).
-    | [🖨️ Printer](<../../70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>) | - | Prints [NFC/QR Locators 🔆](<../11 🔆 Locators/01 🔆 Locator.md>) on behalf of [Brand 🍏](<../../70 🌳 Ambient/71 💠 Brand Things/07 🍏🎭 Brand role.md>) and [Host 🤗](<../12 💬 Chats/04 🤗🎭 Host role.md>) domains.
+    | [👀 Ads](<../../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) | GoogleAds | Intermediates ad workflows for [Brokers 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>)
+    | [🤝 Biller](<../../30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>) | ApplePay | Manages billing cycles between [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>)
+    | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | WhatsApp | Manages [Chats](<../12 💬 Chats/01 💬 Chat.md>) between [Wallets 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and [Hosts 🤗](<../12 💬 Chats/04 🤗🎭 Host role.md>)
+    | [⏳ Buffer](<../../40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>) | Kafka | Throttles [Streamers 🌬️](<../../40 👥 Domains/41 📨 Comms/02 🌬️🎭 Streamer role.md>) for [Subscribers 🔔](<../../40 👥 Domains/41 📨 Comms/04 🔔🎭 Subscriber role.md>)
+    | [🏦 Collector](<../../30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) | CapitalOne | Collects money from [Payers 💳](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) for [Sellers 💵](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>)
+    | [🔐 Keymaker](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/05  🔐🏭 Keymaker supplier.md>) | - | Manages [Padlocks 🔒](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/01 🔒 Padlock device.md>) for [Brands 🍏](<../../70 🌳 Ambient/71 💠 Brand Things/07 🍏🎭 Brand role.md>)
+    | [💳 Payer](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) | PayPal | Pays [Collectors 🏦](<../../30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) for [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>)
+    | [🖨️ Printer](<../../70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>) | - | Prints [Locators 🔆](<../11 🔆 Locators/01 🔆 Locator.md>) for [Brand 🍏](<../../70 🌳 Ambient/71 💠 Brand Things/07 🍏🎭 Brand role.md>) and [Host 🤗](<../12 💬 Chats/04 🤗🎭 Host role.md>)
     | [🛰️ Relayer](<../../60 🧰 Edge/61 🔌 Pluggables/04 🛰️🛠️ Relayer helper.md>)
-    | [🪄 Wand](<../../70 🌳 Ambient/71 💠 Brand Things/09 🪄🛠️ Wand helper.md>) | - | Manages [Chats 💬](<../12 💬 Chats/01 💬 Chat.md>) for [Things 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>) on behalf of [Brand 🍏 domains](<../../70 🌳 Ambient/71 💠 Brand Things/07 🍏🎭 Brand role.md>).
+    | [🪄 Wand](<../../70 🌳 Ambient/71 💠 Brand Things/09 🪄🛠️ Wand helper.md>) | - | Manages [Chats 💬](<../12 💬 Chats/01 💬 Chat.md>) for [Things 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>) for [Brands 🍏](<../../70 🌳 Ambient/71 💠 Brand Things/07 🍏🎭 Brand role.md>)
 
     ---
     <br/>
@@ -68,10 +68,34 @@
     The corresponding [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) is as follows.
 
     ```yaml
-    💬 Register:
-    - FORM|Register
-    - BIND|@HOST/PROFILE
+    💬 Register:                # Entry menu
+    - FORM|Register             # Provide instructions
+    - BIND|@HOST/PROFILE        # Bind to Wallet
+
+    - INVITE >> $billed:        
+        Invitee: any-biller.com # Invite the Biller
+        Code: @BILLER/SUBSCRIBE # Run the subscription
+    
+    - FREEZE >> $inputs:        # Freeze all inputs
+        Billed: {$billed}       # Add billing info
+        Chat: {.Chat}           # Add context
+
+    - EVAL|{Save($inputs)}      # Save the register
+
+    - SUCCESS|Done!             # Inform success
+    - GOODBYE                   # Show advertisement
     ```
+
+    | [Command ⌘](<../33 😃 Talkers/10 ⌘ Command.md>) | Purpose
+    |-|-
+    | 📝 [`FORM`](<../33 😃 Talkers/41 📝 FORM msg.md>) | To provide instructions
+    | 🔗 [`BIND`](<../33 😃 Talkers/44 🔗 BIND msg.md>) | To create a user profile
+    | 🛠️ [`INVITE`](<../33 😃 Talkers/46 🛠️ INVITE msg.md>) | To subscribe the user to plan
+    | ❄️ [`FREEZE`](<../33 😃 Talkers/42 ❄️ FREEZE msg.md>) | To disable past inputs
+    | ⬇️ [`EVAL`](<../33 😃 Talkers/20 ⬇️ EVAL flow.md>) | To register on the database
+    | ✅ [`SUCCESS`](<../31 🤔 Prompts/13 ✅ SUCCESS prompt.md>) | To say that it was successful
+    | 👋 [`GOODBYE`](<../33 😃 Talkers/50 👋 GOODBYE.md>) | To show advertising
+    
 
     ---
     <br/>
@@ -81,9 +105,10 @@
 
     | [Role 🎭](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | Purpose
     |-|-
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | To open [Chats 💬](<../12 💬 Chats/01 💬 Chat.md>) with domain-admin users.
-    | [🪢 Integrator](<../12 💬 Chats/06 🪢🎭 Integrator role.md>) | To manifest its services to  [Finder 🔎 domains](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>).
-    | [💵 Seller](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) | To sell the usage plans via a [Biller 💳 helper domain](<../../30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>).
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | To open [Chats 💬](<../12 💬 Chats/01 💬 Chat.md>) with domain-admin users
+    | [🪢 Integrator](<../12 💬 Chats/06 🪢🎭 Integrator role.md>) | To manifest its services to  [Finder 🔎 domains](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>)
+    | [🗄️ Vault](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) | To store user profiles with [HOST/PROFILE 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/HOST/🧩 HostPersonalize.md>)
+    | [💵 Seller](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) | To sell the usage plans via a [Biller 💳 helper domain](<../../30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>)
     
 
     ---
@@ -99,3 +124,5 @@
     
     ---
     <br/>
+    
+    

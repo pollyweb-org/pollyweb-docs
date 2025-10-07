@@ -17,7 +17,6 @@
 
     | [Role 🎭](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | Purpose
     |-|-
-    | [🗄️ Vault](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) | To store the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) settings.
     | [🎴 Issuer](<../25 🎫 Tokens/02 🎴🎭 Issuer role.md>) | To issue [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) ownership [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>).    
 
     ---
