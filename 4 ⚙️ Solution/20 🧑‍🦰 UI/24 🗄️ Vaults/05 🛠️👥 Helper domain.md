@@ -12,8 +12,12 @@
 
 1. **How do Helpers compare to Vaults?**
 
-    * They are similar to [Vault 🗄️ domains](<03 🗄️🎭 Vault role.md>), but focused on [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) instead of [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
-    * Given the similarity, some [Vault 🗄️ domains](<03 🗄️🎭 Vault role.md>) may also be Helpers 🛠️ (e.g., [Payer 💳 domains](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>)).
+    * They are similar to [Vault 🗄️ domains](<03 🗄️🎭 Vault role.md>), 
+        * but focused on [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) 
+        * instead of [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+    * Given the similarity, 
+        * some [Vault 🗄️ domains](<03 🗄️🎭 Vault role.md>) may also be Helpers 🛠️ 
+        * e.g., [Payer 💳 domains](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>).
 
     ---
     <br/>
@@ -36,6 +40,33 @@
     ---
     <br/>
 
+
+1. **What roles do Helpers implement?**
+
+    | [Role 🎭](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | Purpose
+    |-|-
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | To open [Chats 💬](<../12 💬 Chats/01 💬 Chat.md>) with domain-admin users
+    | [🪢 Integrator](<../12 💬 Chats/06 🪢🎭 Integrator role.md>) | To manifest its services to  [Finder 🔎 domains](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>)
+    | [🗄️ Vault](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) | To store user profiles with [HOST/PROFILE 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/HOST/🧩 HostPersonalize.md>)
+    | [💵 Seller](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) | To sell the usage plans via a [Biller 💳 helper domain](<../../30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>)
+    
+
+    ---
+    <br/>
+
+
+1. **What other Helpers do Helpers leverage?**
+
+    | [Helper 🛠️](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>)  | Purpose 
+    |-|-
+    | [🤝 Biller](<../../30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>) | To manage usage and subscription plans.
+    | [🏦 Collector](<../../30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) | To collect usage and subscription payments.
+    
+    ---
+    <br/>
+    
+    
+
 1. **How can domain-admin users register with a Helper?**
 
     |#| Group | Step
@@ -56,7 +87,7 @@
     | - | - | - 
     | 🛠️ [Helper](<05 🛠️👥 Helper domain.md>) | 😃 Hi! What do you need? <br/>- [ Register ]  | > Register
     | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 [Ready to register?](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/05 🤗⏩🧑‍🦰 Form 📝.md>) [Yes, No] <br>- Your broker binds with us 🔗 <br/>- You choose a billing plan 🤝 <br/>- Your payer adds a method 💳 <br/>- Your identity signs the terms 🆔 | > Yes
-    | 🤵 [Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 [Bind?](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind.md>) [Yes, No, +]<br/>- [HOST/PROFILE 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/HOST/🧩 HostPersonalize.md>) | > Yes 
+    | 🤵 [Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 [Bind?](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind.md>) [Yes, No, +]<br/>- [Host Profile 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/HOST/🧩 HostPersonalize.md>) | > Yes 
     | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 [Allow guest domain?](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>) [Yes, No]  <br/> - Any Biller 🤝<br/>- [ Always ] for Any Helper 🛠️ | > Always
     | 🤝 [Biller](<../../30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>) | 😃 What plan to subscribe? <br/>- [ Simple ] pay-as-you-go  <br/>- [ Monthly ] commitment | > Simple
     | 💳 [Payer](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Link to Any Biller? [Yes, No, +] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC 
@@ -100,29 +131,3 @@
     ---
     <br/>
 
-
-1. **What roles do Helpers implement?**
-
-    | [Role 🎭](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | Purpose
-    |-|-
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | To open [Chats 💬](<../12 💬 Chats/01 💬 Chat.md>) with domain-admin users
-    | [🪢 Integrator](<../12 💬 Chats/06 🪢🎭 Integrator role.md>) | To manifest its services to  [Finder 🔎 domains](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>)
-    | [🗄️ Vault](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) | To store user profiles with [HOST/PROFILE 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/HOST/🧩 HostPersonalize.md>)
-    | [💵 Seller](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) | To sell the usage plans via a [Biller 💳 helper domain](<../../30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>)
-    
-
-    ---
-    <br/>
-
-
-1. **What other Helpers do Helpers leverage?**
-
-    | [Helper 🛠️](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>)  | Purpose 
-    |-|-
-    | [🤝 Biller](<../../30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>) | To manage usage and subscription plans.
-    | [🏦 Collector](<../../30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) | To collect usage and subscription payments.
-    
-    ---
-    <br/>
-    
-    
