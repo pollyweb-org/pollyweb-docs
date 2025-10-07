@@ -14,7 +14,7 @@
     This page is complemented with the following sections:
     ||Section
     |-|-
-    ||[🫥 Input emojis](<12 ✏️🫥 Input emojis.md>)
+    ||[🫥 Input emojis](<14 ✏️🫥 Input emojis.md>)
     ||[⚡ Input validations](<13 ✏️⚡ Input validation.md>)
 
     ---

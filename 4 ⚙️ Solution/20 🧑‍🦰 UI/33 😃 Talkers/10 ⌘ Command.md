@@ -108,7 +108,7 @@
     Command | Purpose
     |-|-
     | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | Runs a [Command ⌘](<10 ⌘ Command.md>) or [Procedure ⚙️](<11 ⚙️ Procedure.md>) matching a [{Function}](<12 🐍 {Function}.md>).
-    | 🫥 [`EMOJI`](<16 🫥 EMOJI flow.md>) | Changes the [default emoji 😃](<../31 🤔 Prompts/12 ✏️🫥 Input emojis.md>) for [input prompts ✏️](<../31 🤔 Prompts/11 ✏️ Input behavior.md>).
+    | 🫥 [`EMOJI`](<16 🫥 EMOJI flow.md>) | Changes the [default emoji 😃](<../31 🤔 Prompts/14 ✏️🫥 Input emojis.md>) for [input prompts ✏️](<../31 🤔 Prompts/11 ✏️ Input behavior.md>).
     | ⬇️ [`EVAL`](<20 ⬇️ EVAL flow.md>) | Evaluates a [{Function}](<12 🐍 {Function}.md>) into a placeholder.
     | ⏏️ [`EXIT`](<26 ⏏️ EXIT flow.md>) | Leaves a [Procedure ⚙️](<11 ⚙️ Procedure.md>) to another permanently.
     | ⤵️ [`IF`](<21 ⤵️ IF flow.md>) | Runs a [Command ⌘](<10 ⌘ Command.md>) or [Procedure ⚙️](<11 ⚙️ Procedure.md>) based on a [{Function}](<12 🐍 {Function}.md>).

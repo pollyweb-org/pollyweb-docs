@@ -1,6 +1,6 @@
 # 😶 Talker `EMOJI` command
 
-> Implements the [🫥 Input emojis](<../31 🤔 Prompts/12 ✏️🫥 Input emojis.md>) feature.
+> Implements the [🫥 Input emojis](<../31 🤔 Prompts/14 ✏️🫥 Input emojis.md>) feature.
 
 <br/>
 
@@ -9,7 +9,7 @@
     An `EMOJI`
     * is a [Command ⌘](<10 ⌘ Command.md>) 
     * that defaults all upcoming [Input prompts ✏️](<../31 🤔 Prompts/11 ✏️ Input behavior.md>)
-    * to [use another emoji 😶](<../31 🤔 Prompts/12 ✏️🫥 Input emojis.md>) other than the default smile 😃 emoji.
+    * to [use another emoji 😶](<../31 🤔 Prompts/14 ✏️🫥 Input emojis.md>) other than the default smile 😃 emoji.
 
     ---
     <br/>
