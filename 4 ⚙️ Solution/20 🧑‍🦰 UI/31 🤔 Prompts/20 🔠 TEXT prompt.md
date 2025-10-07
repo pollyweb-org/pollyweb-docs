@@ -9,9 +9,9 @@
     A `TEXT` 
     * is a blocking input [Prompt 🤔](<01 🤔 Prompt.md>) 
     * that allows the user to type something 
-    * instead of having to follow a structured format;
+    * instead of having to follow a structured format.
 
-    It allows for large-language models (LLMs) 
+    It allows for GenAI large-language models (LLMs) 
     * to interpret the user's intent from natural language text, 
     * while also providing a structured input to facilitate the user's interaction;
     * e.g., a user may select the `Yes` option, or type `that's fine` in the textbox.
@@ -46,15 +46,18 @@
 1. **What's the syntax on a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
-    # Without options
     TEXT|<message> >> $placeholder
-
-    # With options
-    TEXT|<message> >> $placeholder:
-        Options: 
-            - <option-1>
-            - <option-n>
+        Mask: <mask>
+        Pattern: <pattern>
     ```
+    
+    | Argument| Purpose
+    |-|-
+    | `<message>`| Message to show to the user
+    | `<mask>` | Optional HTML mask for presentation
+    | `<pattern>`| Optional HTML regular expression for validation
+    | `$placeholder`| Placeholder with the user's answer
+    
     
     ---
     <br/>
@@ -67,12 +70,46 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 💬 How are you today? | `I'm fine`
     | [🛠️ Helper](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | 💬 How are you today? | `I'm fine`
     | [🫥 Agent](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | 💭 How are you today? | `I'm fine`
+    |
    
     Consider the following [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
     TEXT|How are you today? >> $msg
     ```
+
+    ---
+    <br/>
+
+1. **What's an example of an IPv4 address?**
+
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 💬 What's the IP address? | `192.168.0.1`
+    |
+   
+    Consider the following [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
+    
+    ```yaml
+    # Explicit
+    TEXT|What's the IP address? >> $ip:
+        Mask: 000.000.000.000
+        Pattern: ^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(\.|$)){4}$
+    
+    # Built-in
+    TEXT|What's the IP address? >> $ip:
+        Pattern: IPv4
+    ```
+
+    ---
+    <br/>
+
+1. **What are the available pre-built patterns?**
+
+    | Pattern | Details
+    |-|-
+    | `IPv4` | IP address in version 4.
+    | `IPv6` | IP address in version 6.
 
     ---
     <br/>

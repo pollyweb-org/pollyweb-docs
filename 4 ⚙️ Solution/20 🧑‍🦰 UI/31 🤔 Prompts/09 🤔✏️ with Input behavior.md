@@ -46,6 +46,8 @@
 
 1. **How do emojis work?**
 
+    Most (but not all) inputs work with the following emojis.
+
     Emoji | Behavior
     |-|-
     😃 | The happy emoji 😃 represent the chat's [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>).
@@ -101,42 +103,6 @@
     <br/>
 
 
-1. **Can users reject a mandatory input prompt?**
-
-    No. Like in a conversation between two persons, 
-    * users can only stay silent 
-    * or [abandon the conversation 👉](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>).
-
-    ---
-    <br/>
-
-1. **How to define optional inputs?**
-
-    Allow an [input prompt ✏️](<09 🤔✏️ with Input behavior.md>) depends on the input.
-    
-    | Input | How to make it optional | Example
-    |-|-|-
-    | [👍&nbsp;CONFIRM](<19 👍 CONFIRM prompt.md>)    | Output to a placeholder. | `>> $out?`
-    | All others | Make it optional. | `Optional: True`
-    |
-    
-    On a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>):
-
-    ```yaml
-    INT|Enter the code >> $code:
-        Optional: True
-    ```
-
-    On the [Prompted@Host 🚀](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method:
-
-    ```yaml
-    Format: INT
-    Message: Enter the code
-    Optional: True
-    ```
-
-    ---
-    <br/>
 
 1. **How to implement client-side validations?**
 
@@ -201,3 +167,42 @@
 
     ---
     <br>
+
+
+
+1. **Can users reject a mandatory input prompt?**
+
+    No. Like in a conversation between two persons, 
+    * users can only stay silent 
+    * or [abandon the conversation 👉](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>).
+
+    ---
+    <br/>
+
+1. **How to define optional inputs?**
+
+    Allow an [input prompt ✏️](<09 🤔✏️ with Input behavior.md>) depends on the input.
+    
+    | Input | How to make it optional | Example
+    |-|-|-
+    | [👍&nbsp;CONFIRM](<19 👍 CONFIRM prompt.md>)    | Output to a placeholder. | `>> $out?`
+    | All others | Make it optional. | `Optional: True`
+    |
+    
+    On a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>):
+
+    ```yaml
+    INT|Enter the code >> $code:
+        Optional: True
+    ```
+
+    On the [Prompted@Host 🚀](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method:
+
+    ```yaml
+    Format: INT
+    Message: Enter the code
+    Optional: True
+    ```
+
+    ---
+    <br/>
