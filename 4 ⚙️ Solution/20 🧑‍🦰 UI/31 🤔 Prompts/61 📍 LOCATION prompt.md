@@ -39,12 +39,12 @@
 1. **What's the format for a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
-    - LOCATION >> <key>
+    - LOCATION >> $placeholder
     ```
 
     |Parameter|Details
     |-|-
-    | `key` | Stores the answer with this key
+    | `$placeholder` | Stores the answer in this placeholder
     
     ---
     <br/>
@@ -52,7 +52,7 @@
 1. **What's an example of a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
-    - LOCATION >> my-location-variable
+    - LOCATION >> $loc
     ```
 
     ---

@@ -1,4 +1,4 @@
-# Blocking input prompts 😃 😐 🫥
+# Blocking input prompts 😃 🫥
 
 > Part of [Prompts 🤔](<01 🤔 Prompt.md>)
 
@@ -11,15 +11,6 @@
     * addressing the basic needs of a standard structured form with multiple input fields;
     * e.g., date, number, radio, checklist;
      
-
-    ---
-    <br/>
-
-1. **Can users reject a mandatory input prompt?**
-
-    No. Like in a conversation between two persons, 
-    * users can only stay silent 
-    * or [abandon the conversation 👉](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>).
 
     ---
     <br/>
@@ -80,7 +71,7 @@
     On a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>):
 
     ```yaml
-    CONFIRM|Are you OK? >> my-status:
+    CONFIRM|Are you OK? >> $status:
         Emoji: 😕
     ```
     
@@ -110,9 +101,46 @@
     <br/>
 
 
+1. **Can users reject a mandatory input prompt?**
+
+    No. Like in a conversation between two persons, 
+    * users can only stay silent 
+    * or [abandon the conversation 👉](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>).
+
+    ---
+    <br/>
+
+1. **How to define optional inputs?**
+
+    Allow an [input prompt ✏️](<09 🤔✏️ with Input behavior.md>) depends on the input.
+    
+    | Input | How to make it optional | Example
+    |-|-|-
+    | [👍&nbsp;CONFIRM](<10 👍 CONFIRM prompt.md>)    | Output to a placeholder. | `>> $out?`
+    | All others | Make it optional. | `Optional: True`
+    |
+    
+    On a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>):
+
+    ```yaml
+    INT|Enter the code >> $code:
+        Optional: True
+    ```
+
+    On the [Prompted@Host 🚀](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method:
+
+    ```yaml
+    Format: INT
+    Message: Enter the code
+    Optional: True
+    ```
+
+    ---
+    <br/>
+
 1. **How to implement client-side validations?**
 
-    Enter one or more client-side restrictions.
+    Enter one or more client-side restrictions, when supported.
     
     |Restriction| Type |  Details
     |-|-|-
@@ -126,7 +154,7 @@
     On a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>):
 
     ```yaml
-    INT|Enter a 6-digit code >> my-code:
+    INT|Enter a 6-digit code >> $code:
         MinLength: 6
         MaxLength: 6
     ```
@@ -162,11 +190,11 @@
     - RUN|get-something-else
 
     get-code:
-    - INT|What's the code? >> my-code:
+    - INT|What's the code? >> $code:
         Details: This is a 6 digit number
-    - IF|{invalid-code}|get-code-failure
+    - IF|{invalid($code)}|failure-proc
 
-    get-code-failure:
+    failure-proc:
     - FAILURE|Enter a 6 digit number
     - RUN|get-code
     ```
