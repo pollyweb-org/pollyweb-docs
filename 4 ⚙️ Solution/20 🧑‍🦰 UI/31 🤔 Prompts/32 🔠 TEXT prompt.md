@@ -230,7 +230,9 @@
     ```yaml
     # Built-in, preferred.
     - AMOUNT|How much? >> $money:
+        Precision: 2
         Currency: USD
+        Locale: en-US
         MaxValue: 1000.00
     ```
 
@@ -242,7 +244,7 @@
 
     | [Command ⌘](<../33 😃 Talkers/10 ⌘ Command.md>) | Purpose
     |-|-
-    | 💰 [`AMOUNT`](<45 💰 AMOUNT prompt.md>) | To collect a structured currency value.
+    | 💰 [`AMOUNT`](<43 💰 AMOUNT prompt.md>) | To collect a structured currency value.
     | ✅ [`SUCCESS`](<23 ✅ SUCCESS prompt.md>) | To show the formatted collected value.
 
     ---

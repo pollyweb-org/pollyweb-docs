@@ -1,6 +1,7 @@
 # Custom Dictionary Words
 Agentic
 Alexa
+CLDR
 Cognifying
 Elon
 Ephemerals
