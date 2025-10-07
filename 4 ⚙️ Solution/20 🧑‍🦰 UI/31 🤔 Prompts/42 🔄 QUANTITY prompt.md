@@ -30,7 +30,14 @@
 1. **What's the syntax on a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
-    QUANTITY|<message> >> $placeholder:
+    # Simplest.
+    QUANTITY|<message> 
+    ```
+
+    ```yaml
+    # Comprehensive.
+    QUANTITY >> $placeholder:
+        Message: <message>
         MinValue: <min-value>
         MaxValue: <max-value>
     ```
@@ -64,7 +71,9 @@
     Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
-    - QUANTITY|How many? >> $qt
+    # 😃 Talker 
+    - QUANTITY >> $qt:
+        Message: How many? 
         MinValue: -100
         MaxValue: 100
     ```
@@ -107,14 +116,23 @@
     Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
 
     ```yaml
+    # 😃 Talker 
+
     💬 Walk-in:
-    - INFO|Table reservation.
-    - ONE|For how many?|1,2,more >> $qt
-    - CASE|$qt:
+    
+    - INFO:
+        Message: Table reservation.
+    
+    - ONE >> $qt:
+        Message: For how many?
+        Options: 1,2,more
+
+    - CASE|{$qt}:
         more: 
           - QUANTITY|How many exactly? >> $qt:
                 MinValue: 3
                 MaxValue: 12
+
     - TEMP|Checking availability...
     ```
 

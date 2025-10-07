@@ -74,7 +74,14 @@
 1. **What's the syntax on a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
-    TEXT|<message> >> $placeholder
+    # Simplest.
+    TEXT|<message>
+    ```
+    
+    ```yaml
+    # Comprehensive.
+    TEXT >> $placeholder
+        Message: <message>
         MinLength: <min-length>
         MaxLength: <max-length>
         Output: <output-format>
@@ -109,7 +116,7 @@
     
     ```yaml
     # Talker 😃
-    - TEXT|How are you today? >> $msg
+    - TEXT|How are you today? 
     ```
 
 
@@ -214,7 +221,7 @@
     
     ```yaml
     # Explicit, not recommended, just for the exercise.
-    - TEXT|How much? >> $price:
+    - TEXT|How much?:
         Hint: $1.23
         Output: $#,##0.00
         Pattern: ^\(?\$?-?\s?...)?$
@@ -222,7 +229,7 @@
     
     ```yaml
     # Built-in, preferred.
-    - AMOUNT|How much? >> $price:
+    - AMOUNT|How much?:
         Currency: USD
         MaxValue: 1000.00
     ```

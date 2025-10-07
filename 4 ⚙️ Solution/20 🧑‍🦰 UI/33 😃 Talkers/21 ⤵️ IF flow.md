@@ -32,7 +32,7 @@
 
 
 1. **What's the `IF` syntax?**
-
+    
     ```yaml
     # One-line Procedures
     - IF|{function}|<true-proc>|<false-proc>
@@ -40,14 +40,17 @@
 
     | Argument| Purpose | Example
     |-|-|-
-    | `{function}` | Boolean [{Function}](<12 🐍 {Function}.md>) to evaluate.  | `{f}` `{$o}`
+    | `{function}` | Boolean [{Function}](<12 🐍 {Function}.md>) to evaluate  | `{f}` `{$o}`
+    || Defaults to the last [input prompt ✏️](<../31 🤔 Prompts/11 ✏️ Input behavior.md>) | `TEXT\|Id?`
     | `<true-proc>` | [Procedure ⚙️](<11 ⚙️ Procedure.md>) to [Run ▶️](<24 ▶️ RUN flow.md>) when `True` | `IfTrue`
     | `<false-proc>`| [Procedure ⚙️](<11 ⚙️ Procedure.md>) to [Run ▶️](<24 ▶️ RUN flow.md>) when `False` | `IfFalse(X)`
     
     ```yaml
     # Multi-line actions: 
     #   i.e., Procedure or one-line Command
-    - IF|{function}:
+
+    - IF:
+        Function: {function} # (empty) → last input
         Then: <true-action>
         Else: <false-action>
     ```
@@ -60,7 +63,8 @@
 
     ```yaml
     # Multi-line Command lists
-    - IF|{function}:
+    - IF:
+        Function: {function} # (empty) → last input
         Then: 
             - <true-cmd-1>
             - <true-cmd-n>
