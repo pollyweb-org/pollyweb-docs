@@ -66,7 +66,7 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Expandable info [-]<br/>&nbsp;&nbsp;&nbsp;1. Markdown bullet one  <br/>&nbsp;&nbsp;&nbsp;2. Markdown bullet two
     |
 
-    The corresponding [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) would be.
+    Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
     INFO|Expandable info:
@@ -75,18 +75,14 @@
             1. Markdown bullet two
     ```
 
-    
-
-    ---
-    <br/>
-
-
-1. **What's the response in the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**
+    Here's the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) response.
 
     ```yaml
-    Format: <PROMPT>
-    Message: <message>
-    Details: <details>
+    Format: INFO
+    Message: ℹ️ Expandable info
+    Details: |
+        1. Markdown bullet one
+        1. Markdown bullet two
     ```
 
     ---

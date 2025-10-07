@@ -11,6 +11,11 @@
     * addressing the basic needs of a standard structured form with multiple input fields;
     * e.g., date, number, radio, checklist;
      
+    This page is complemented with the following sections:
+    ||Section
+    |-|-
+    ||[🫥 Input emojis](<12 ✏️🫥 Input emojis.md>)
+    ||[⚡ Input validations](<13 ✏️⚡ Input validation.md>)
 
     ---
     <br/>
@@ -51,8 +56,8 @@
     * instead, request users to share datasets using [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>);
     * e.g., ask to share the code `nlweb.org/BOOKING/CONTACTS` instead of asking for the name, then the phone number, then the email address, and so on.
   
-    When [Prompts 🤔](<01 🤔 Prompt.md>) are inevitable, avoid text prompts; 
-    * instead, prefer low-effort prompts;
+    When [Prompts 🤔](<01 🤔 Prompt.md>) are inevitable, avoid [`TEXT`](<32 🔠 TEXT prompt.md>) prompts; 
+    * instead, prefer low-effort prompts like [`ONE`](<55 1️⃣ ONE prompt.md>);
     * e.g., searchable lists with one or many possible options.
 
     ---
@@ -85,7 +90,7 @@
         Optional: True
     ```
 
-    On the [Prompted@Host 🚀](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method:
+    On the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method:
 
     ```yaml
     Format: INT

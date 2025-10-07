@@ -132,7 +132,7 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You opted to play.
     |  
 
-    The related [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) is as follows.
+    Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
 
     ```yaml
     # 😃 Talker
@@ -147,6 +147,29 @@
     CASE|$answer:
         Play : INFO|You opted to play.
         Share: INFO|You choose to share.
+    ```
+
+
+    <br/> 
+
+    Here's the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) response.
+
+    ```yaml
+    Format: ONE
+    Message: 😃 What to do?
+    Options: 
+        - ID: Play
+          Translation: Play music 
+        - ID: Share
+          Translation: Share list
+    ```
+
+    <br/>
+    
+    Here's the answer in [`Reply@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>).
+
+    ```yaml
+    Answer: Play
     ```
 
     ---
@@ -166,8 +189,16 @@
     | 👨‍🎤 Singer  | 😃 Hi! What do you need?
     |
 
-    The related [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) is as follows.
+    The option with `§` 
+    * opens a new [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)
+    * using the [Locator 🔆](<../11 🔆 Locators/01 🔆 Locator.md>) `any-artist.com/FANS`
 
+    <br/>
+
+    Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
+
+    
+  
     ```yaml
     # 😃 Talker
 
@@ -185,29 +216,8 @@
         # [Speak] never gets here.
     ```
 
-    The option with `§` 
-    * opens a new [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)
-    * using the [Locator 🔆](<../11 🔆 Locators/01 🔆 Locator.md>) `any-artist.com/FANS`
+    
 
-    ---
-    <br/>
-
-1. **What's the response in the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**
-
-    ```yaml
-    Format: <PROMPT>
-    Message: <message>
-    Options: <options>
-    ```
-
-    ---
-    <br/>
-
-1. **What's the Answer in the [`Reply@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) method?**
-
-    ```yaml
-    Answer: $selected # if any
-    ```
 
     ---
     <br/>

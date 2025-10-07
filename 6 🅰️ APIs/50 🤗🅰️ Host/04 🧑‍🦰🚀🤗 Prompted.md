@@ -38,40 +38,29 @@ Body:
 
 ```yaml
 Format: ONE
-Message: Which credit card to use?
-Optional: True                  # Defaults to False
-Hint: 123.123.123.123           # Optional
-InputMask: 099.099.099.099      # Optional
-OutputMask: 990.990.990.990     # Optional
-MinLength: 1                    # Optional
-MaxLength: 5                    # Optional
-MinValue: 10000                 # Optional
-MaxValue: 99999                 # Optional
-Emoji: 😕                       # Defaults to 😃🫥
-Attachment: <attachment-uuid>   # Optional
-Details: |                      # Optional
+Message: Which credit card to use? 
+MinValue: 10000                     # Optional
+MaxValue: 99999                     # Optional
+Attachment: <attachment-uuid>       # Optional
+Details: |                          # Optional
     **Note**: each cards has its own fees.
     * Check the fees for the transaction.
-Options:                        # Optional
-    - ID: 1                     # Example format from:
-      Translation: Personal     # - str, str[], object
+Options:                            # Optional
+    - ID: 1                     
+      Translation: Personal     
 ```
 
 ||Property|Type|Description
 |-|-|-|-
 || [`Format`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>)  | string | One format supported by [Prompts 🤔](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>)
 || `Message` | string | Main message,  to display in the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
-|| [`Optional`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/11 ✏️ Input behavior.md>) | bool | Prompts are [mandatory](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/11 ✏️ Input behavior.md>) by default
+|| [`MinValue`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/13 ✏️⚡ Input validation.md>) | int | Optional minimum value
+|| [`MaxValue`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/13 ✏️⚡ Input validation.md>) | int | Optional maximum value
 || [`Attachment`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/05 🤔📎 with Attachments.md>)| uuid   | File to download via [`Download@Host`](<06 🧑‍🦰🚀🤗 Download.md>)
 || [`Details`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/03 🤔⊕ with Details.md>) | string | Extended [details](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/03 🤔⊕ with Details.md>) in Markdown format
-|| [`Options`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/04 🤔🔘 with Options.md>) | any   | List of [options](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/04 🤔🔘 with Options.md>): string, string[], object
-|| [`Emoji`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/11 ✏️ Input behavior.md>) | string | Optional emoji for [Input Prompts 🤔](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/11 ✏️ Input behavior.md>)
-|| `MinLength` | int | Optional minimum length
-|| `MaxLength` | int | Optional maximum length
-|| `MinValue` | int | Optional minimum value
-|| `MaxValue` | int | Optional maximum value
-|| `Mask` | string | HTML mask for presentation
-|| `Pattern`| string | HTML regular expression for validation
+|| [`Options`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/04 🤔🔘 with Options.md>) | object[]   | List of `Option` objects
+|Option | `ID`          | string  | ID of the [option](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/04 🤔🔘 with Options.md>) for [`Reply@Host`](<05 🧑‍🦰🐌🤗 Reply.md>)
+|       | `Translation` | string  | Text of the [option](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/04 🤔🔘 with Options.md>) to display in the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/23 💬 Chats/01 💬 Chat.md>)
 |
 
 <br/>
