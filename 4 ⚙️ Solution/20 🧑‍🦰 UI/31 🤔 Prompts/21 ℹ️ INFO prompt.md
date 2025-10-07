@@ -1,6 +1,6 @@
 # Non-blocking info ℹ️ ⓘ
 
-> Part of [Non-blocking status prompts 🤔](<08 🤔⚠️ with Status behavior.md>)
+> Part of [Non-blocking status prompts 🤔](<10 ⚠️ Status behavior.md>)
 
 <br/>
 
@@ -20,7 +20,7 @@
     | ⊕ [`Details`](<03 🤔⊕ with Details.md>) | Has expandable [+] details.
     | 🔘 [`Options`](<04 🤔🔘 with Options.md>) | Has options for users to select.
     | 📎 [`Appendix`](<05 🤔📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
-    | ⚠️ [`Status`](<08 🤔⚠️ with Status behavior.md>) | Informs and continues the flow.
+    | ⚠️ [`Status`](<10 ⚠️ Status behavior.md>) | Informs and continues the flow.
     
     ---
     <br/>
