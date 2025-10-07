@@ -60,7 +60,7 @@
     Consider the associated [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
-    AMOUNT|How much? >> my-var:
+    AMOUNT|How much? >> $my-var:
         MinValue: 0.00
         MaxValue: 1000000000
     ```

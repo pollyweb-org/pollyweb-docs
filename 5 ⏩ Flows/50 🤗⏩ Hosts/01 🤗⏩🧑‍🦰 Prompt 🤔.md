@@ -32,8 +32,8 @@ The associated [Talker 😃](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 
 
 ```yaml
 - INFO|Hello World!
-- ONE|Like sports?|Yes,No,I [love] it,I [hate] it >> my-var
-- INFO|{function-that-calculates-the-answer}
+- ONE|Like sports?|Yes,No,I [love] it,I [hate] it >> $my-var
+- INFO|{function-that-calculates-the-answer($my-var)}
 ```
 
 
