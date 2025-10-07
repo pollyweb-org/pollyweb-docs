@@ -1,13 +1,11 @@
-# 🔠 MANY prompt
+# 🛒 EAN prompt
 
-> Part of [blocking input prompts 🤔](<09 🤔✏️ with Input behavior.md>)
+> Scans for ENA-13 and EAN-8 barcodes
 
+> Part of [blocking input prompts 🤔](<11 ✏️ Input behavior.md>)
 
-   * `MANY|<message>|<options> >> <key>`	
-       * Calls the [🔢 MANY Prompt 🤔](<01 🤔 Prompt.md>)
-       * Options are comma separated (e.g., `Milk, Sugar, Rice`)
-       * Example: `MANY|What items?|Milk,Sugar,Rice >> items`
-       * 
+   * `EAN|<message> >> <key>`	
+       * Calls the [🛒 EAN Prompt](<01 🤔 Prompt.md>)
 
 <br/>
 

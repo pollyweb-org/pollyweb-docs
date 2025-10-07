@@ -1,7 +1,13 @@
-# ⬆️ UPLOAD prompt
+# 🔠 MANY prompt
 
-> Part of [blocking input prompts 🤔](<09 🤔✏️ with Input behavior.md>)
+> Part of [blocking input prompts 🤔](<11 ✏️ Input behavior.md>)
 
+
+   * `MANY|<message>|<options> >> <key>`	
+       * Calls the [🔢 MANY Prompt 🤔](<01 🤔 Prompt.md>)
+       * Options are comma separated (e.g., `Milk, Sugar, Rice`)
+       * Example: `MANY|What items?|Milk,Sugar,Rice >> items`
+       * 
 
 <br/>
 
@@ -38,7 +44,7 @@
     <br/>
 
 
-1. **What's the response in the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**
+1. **What's the response in the [Prompted@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**
 
     ```yaml
     
@@ -47,7 +53,7 @@
     ---
     <br/>
 
-1. **What's the Answer in the [`Reply@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) method?**
+1. **What's the Answer in the [Reply@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) method?**
 
     ```yaml
     

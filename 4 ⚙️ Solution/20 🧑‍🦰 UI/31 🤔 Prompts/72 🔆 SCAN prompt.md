@@ -1,7 +1,12 @@
-# 📆 DATE prompt
+# 🔆 SCAN prompt
 
-> Part of [blocking input prompts 🤔](<09 🤔✏️ with Input behavior.md>)
+> Asks to touch/scan a [QR/NFC Locator 🔆](<../11 🔆 Locators/01 🔆 Locator.md>).
 
+> Part of [blocking input prompts 🤔](<11 ✏️ Input behavior.md>)
+
+
+   * `SCAN|<message>`	
+       * Calls the [🔆 SCAN Prompt 🤔](<01 🤔 Prompt.md>)
 
 <br/>
 

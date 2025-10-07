@@ -36,7 +36,7 @@ The associated [Talker 😃](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 
 
 | [Command ⌘](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/10 ⌘ Command.md>) | Purpose
 |-|-
-| ℹ️ [`INFO`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/11 ℹ️ INFO prompt.md>) | To show the messages to the user.
+| ℹ️ [`INFO`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/21 ℹ️ INFO prompt.md>) | To show the messages to the user.
 | 🛠️ [`INVITE`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/46 🛠️ INVITE msg.md>) | To collect a random number.
 |
 

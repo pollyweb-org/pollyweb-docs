@@ -1,16 +1,14 @@
-# 🗺️ TRACK prompt
+# 1️⃣ ONE prompt
 
-> Part of [blocking input prompts 🤔](<09 🤔✏️ with Input behavior.md>)
+> Part of [blocking input prompts 🤔](<11 ✏️ Input behavior.md>)
+
+
+   * `ONE|<message>|<options> >> <key>`	
+       * Calls the [1️⃣ ONE Prompt 🤔](<01 🤔 Prompt.md>)
+       * Options are comma separated (e.g., `1:Milk, 2:Sugar, R:Rice`)
+       * Example: `ONE|What item?|Milk,Sugar,Rice >> item`
 
 <br/>
-
-1. **Whats a TRACK prompt?**
-
-    It's a [Prompt 🤔](<01 🤔 Prompt.md>) that asks for the user's current location.
-
-    ---
-    <br/>
-
 
 1. **What's an example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
 
@@ -45,7 +43,7 @@
     <br/>
 
 
-1. **What's the response in the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**
+1. **What's the response in the [Prompted@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**
 
     ```yaml
     
@@ -54,7 +52,7 @@
     ---
     <br/>
 
-1. **What's the Answer in the [`Reply@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) method?**
+1. **What's the Answer in the [Reply@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) method?**
 
     ```yaml
     

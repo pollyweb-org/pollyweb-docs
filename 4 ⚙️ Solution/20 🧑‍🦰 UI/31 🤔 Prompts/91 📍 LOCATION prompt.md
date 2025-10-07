@@ -1,6 +1,6 @@
 # 📍 LOCATION prompt
 
-> Part of [blocking input prompts 🤔](<09 🤔✏️ with Input behavior.md>)
+> Part of [blocking input prompts 🤔](<11 ✏️ Input behavior.md>)
 
 <br/>
 
@@ -17,7 +17,7 @@
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 🤗 Host | ℹ️ Tell us where you are.
-    | 🤗 Host | [📍 Share location?](<61 📍 LOCATION prompt.md>)  | > Yes
+    | 🤗 Host | [📍 Share location?](<91 📍 LOCATION prompt.md>)  | > Yes
     | 🤗 Host | ✅ That's downtown, OK!
 
     ---

@@ -1,11 +1,16 @@
-# 👤 IDENTIFY prompt
+# 🗺️ TRACK prompt
 
-> Opens a pop-up for the user's [Identity 🆔 agent](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) to perform a face scan.
-
-> Part of [blocking input prompts 🤔](<09 🤔✏️ with Input behavior.md>)
-
+> Part of [blocking input prompts 🤔](<11 ✏️ Input behavior.md>)
 
 <br/>
+
+1. **Whats a TRACK prompt?**
+
+    It's a [Prompt 🤔](<01 🤔 Prompt.md>) that asks for the user's current location.
+
+    ---
+    <br/>
+
 
 1. **What's an example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
 
@@ -40,7 +45,7 @@
     <br/>
 
 
-1. **What's the response in the [Prompted@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**
+1. **What's the response in the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**
 
     ```yaml
     
@@ -49,7 +54,7 @@
     ---
     <br/>
 
-1. **What's the Answer in the [Reply@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) method?**
+1. **What's the Answer in the [`Reply@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) method?**
 
     ```yaml
     

@@ -7,7 +7,7 @@
 1. **What is a non-blocking SUCCESS?**
 
     A `SUCCESS` 
-    * is like an [INFO ℹ️ prompt](<11 ℹ️ INFO prompt.md>) 
+    * is like an [INFO ℹ️ prompt](<21 ℹ️ INFO prompt.md>) 
     * that signals the user that the transaction is completed 
     * and there are no further inputs required;
     * i.e., they can put down the phone.
@@ -33,8 +33,8 @@
    
     |Emoji | Usage | Details
     |-|-|-
-    |✅ | `Host` | Similar to ℹ️ on [INFO ℹ️](<11 ℹ️ INFO prompt.md>)
-    |☑️ | `Agent` | Similar to ⓘ on [INFO ℹ️](<11 ℹ️ INFO prompt.md>)
+    |✅ | `Host` | Similar to ℹ️ on [INFO ℹ️](<21 ℹ️ INFO prompt.md>)
+    |☑️ | `Agent` | Similar to ⓘ on [INFO ℹ️](<21 ℹ️ INFO prompt.md>)
 
     ---
     <br/>

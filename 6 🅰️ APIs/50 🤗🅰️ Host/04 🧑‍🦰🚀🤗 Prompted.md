@@ -61,11 +61,11 @@ Options:                        # Optional
 |-|-|-|-
 || [`Format`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>)  | string | One format supported by [Prompts 🤔](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>)
 || `Message` | string | Main message,  to display in the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
-|| [`Optional`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/09 🤔✏️ with Input behavior.md>) | bool | Prompts are [mandatory](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/09 🤔✏️ with Input behavior.md>) by default
+|| [`Optional`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/11 ✏️ Input behavior.md>) | bool | Prompts are [mandatory](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/11 ✏️ Input behavior.md>) by default
 || [`Attachment`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/05 🤔📎 with Attachments.md>)| uuid   | File to download via [`Download@Host`](<06 🧑‍🦰🚀🤗 Download.md>)
 || [`Details`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/03 🤔⊕ with Details.md>) | string | Extended [details](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/03 🤔⊕ with Details.md>) in Markdown format
 || [`Options`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/04 🤔🔘 with Options.md>) | any   | List of [options](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/04 🤔🔘 with Options.md>): string, string[], object
-|| [`Emoji`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/09 🤔✏️ with Input behavior.md>) | string | Optional emoji for [Input Prompts 🤔](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/09 🤔✏️ with Input behavior.md>)
+|| [`Emoji`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/11 ✏️ Input behavior.md>) | string | Optional emoji for [Input Prompts 🤔](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/11 ✏️ Input behavior.md>)
 || `MinLength` | int | Optional minimum length
 || `MaxLength` | int | Optional maximum length
 || `MinValue` | int | Optional minimum value
