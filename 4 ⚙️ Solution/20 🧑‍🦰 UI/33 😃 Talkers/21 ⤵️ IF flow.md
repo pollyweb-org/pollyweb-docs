@@ -23,7 +23,7 @@
     String   | empty | ` ` | non-empty | `.` `bla` 
     Number  | zero | `0` | non-zero | `1` `-1`
     Array | empty | `[]` | non-empty | `[1,A]`
-    [Confirm 👍](<../31 🤔 Prompts/10 👍 CONFIRM prompt.md>) |  no | `No` | yes | `Yes`|
+    [Confirm 👍](<../31 🤔 Prompts/19 👍 CONFIRM prompt.md>) |  no | `No` | yes | `Yes`|
     [Share 💼](<45 💼 SHARE msg.md>) | empty | `{}`| non-empty | `{A:1}`
     
 

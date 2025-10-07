@@ -4,6 +4,16 @@
 
 <br/>
 
+1. **What's a `CONFIRM` prompt?**
+
+    A `CONFIRM`
+    * is a [blocking input prompt 🤔](<09 🤔✏️ with Input behavior.md>)
+    * that asks a simple `Yes` or `No` to user,
+    * typically to progress with a workflow.
+
+    ---
+    <br/>
+
 1. **What's the syntax of a `CONFIRM`?**
 
     ```yaml
