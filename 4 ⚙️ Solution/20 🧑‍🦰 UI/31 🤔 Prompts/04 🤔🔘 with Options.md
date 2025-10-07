@@ -152,11 +152,17 @@
             - [Share] list
 
     # Check the answer.
-    - CASE:
+    - CASE: # Default to last input.
         Play : INFO|You opted to play.
         Share: INFO|You choose to share.
     ```
 
+    | [Command ⌘](<../33 😃 Talkers/10 ⌘ Command.md>) | Purpose
+    |-|-
+    | 1️⃣ [`ONE`](<55 1️⃣ ONE prompt.md>) | To show the options.
+    | 🔀 [`CASE`](<../33 😃 Talkers/22 🔀 CASE flow.md>) | To check the selected option.
+    | ℹ️ [`INFO`](<21 ℹ️ INFO prompt.md>) | To show the result.
+    
 
     <br/> 
 
@@ -211,7 +217,7 @@
     # 😃 Talker
 
     # Ask the question.
-    - ONE >> $answer:
+    - ONE:
         Message: What to do?
         Options:
             - [Play] music 
@@ -219,11 +225,19 @@
             - [Speak] with singer § any-artist.com/FANS
 
     # Check the answer.
-    - CASE|{$answer}:
+    - CASE: 
         Play : INFO|You opted to play.
         Share: INFO|You choose to share.
         # [Speak] never gets here.
     ```
+
+
+    | [Command ⌘](<../33 😃 Talkers/10 ⌘ Command.md>) | Purpose
+    |-|-
+    | 1️⃣ [`ONE`](<55 1️⃣ ONE prompt.md>) | To show the options.
+    | 🔀 [`CASE`](<../33 😃 Talkers/22 🔀 CASE flow.md>) | To check the selected option.
+    | ℹ️ [`INFO`](<21 ℹ️ INFO prompt.md>) | To show the result.
+    
 
     ---
     <br/>

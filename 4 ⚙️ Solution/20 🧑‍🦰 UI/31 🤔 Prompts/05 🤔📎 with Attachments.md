@@ -36,12 +36,21 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 💬 Who is in the picture? 🖼️ | `Elvis`
     |
 
+    <br/>
+
     Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
 
     ```yaml
     - TEXT|Who is in the picture?:
         Attachment: {/photos/elvis.png}
     ```
+
+    | [Command ⌘](<../33 😃 Talkers/10 ⌘ Command.md>) | Purpose
+    |-|-
+    | 🔠 [`TEXT`](<32 🔠 TEXT prompt.md>) | To ask a question with an image.
+    
+
+    <br/>
     
     Here's the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>).
 
@@ -50,6 +59,8 @@
     Message: 💬 Who is in the picture?
     Attachment: <attachment-uuid>
     ```
+
+    <br/>
 
     Here's the answer in [`Reply@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>).
 

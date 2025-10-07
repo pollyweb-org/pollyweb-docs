@@ -41,6 +41,7 @@
     | Argument| Purpose | Example
     |-|-|-
     | `{function}` | Boolean [{Function}](<12 🐍 {Function}.md>) to evaluate  | `{f}` `{$o}`
+    || Allows for missing `{}` in functions | `f()` `$p`
     || Defaults to the last [input prompt ✏️](<../31 🤔 Prompts/11 ✏️ Input behavior.md>) | `TEXT\|Id?`
     | `<true-proc>` | [Procedure ⚙️](<11 ⚙️ Procedure.md>) to [Run ▶️](<24 ▶️ RUN flow.md>) when `True` | `IfTrue`
     | `<false-proc>`| [Procedure ⚙️](<11 ⚙️ Procedure.md>) to [Run ▶️](<24 ▶️ RUN flow.md>) when `False` | `IfFalse(X)`
@@ -49,7 +50,7 @@
     # Multi-line actions: 
     #   i.e., Procedure or one-line Command
 
-    - IF:
+    - IF: 
         Function: {function} # (empty) → last input
         Then: <true-action>
         Else: <false-action>

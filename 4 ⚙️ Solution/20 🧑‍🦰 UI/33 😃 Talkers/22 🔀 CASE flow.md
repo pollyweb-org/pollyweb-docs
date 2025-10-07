@@ -26,9 +26,9 @@
 
     | Argument| Purpose | Example
     |-|-|-
-    | `{function}` | Optional [{Function}](<12 🐍 {Function}.md>) to evaluate. | `{f}` `{$p}`
-    || Allows for missing `{}` in functions. | `f()` `$p`
-    || Defaults to the last input. | `TEXT\|Id?`
+    | `{function}` | Optional [{Function}](<12 🐍 {Function}.md>) to evaluate | `{f}` `{$p}`
+    || Allows for missing `{}` in functions | `f()` `$p`
+    || Defaults to the last [input prompt ✏️](<../31 🤔 Prompts/11 ✏️ Input behavior.md>) | `TEXT\|Id?`
     | `<value>`| Static value to be matched with. | `ABC`
     | `<action>`| Run a [Procedure ⚙️](<11 ⚙️ Procedure.md>) | `MyProc`
     || or a one-line [Command ⌘](<10 ⌘ Command.md>). | `INFO\|OK`
@@ -41,6 +41,12 @@
         <value-1>: <action-1>
         <value-n>: <action-n>
     ```
+
+    | Argument| Purpose
+    |-|-
+    | `$` | Catch-all clause if unmatched with any other value.
+    
+    
 
     ```yaml 
     # Multi-line values
@@ -56,10 +62,6 @@
 
     | Argument| Purpose
     |-|-
-    | `{function}` | Optional [{Function}](<12 🐍 {Function}.md>) to evaluate; <br/>- defaults to the last input.
-    | `<value-n>`| Static value to be matched with.
-    | `$` |  if unmatched with any other value.
-    | `<action-n>`| Run a [Procedure ⚙️](<11 ⚙️ Procedure.md>) or one-line [Command ⌘](<10 ⌘ Command.md>).
     | `<cmd-n>`| Run a multi-line [Command ⌘](<10 ⌘ Command.md>) list.
     
 
@@ -115,8 +117,12 @@
     # 😃 Talker
 
     💬 Example:
-    - ONE|Select an option.|A,B,C >> $x
-    - CASE:
+
+    - ONE >> $x:
+        Message: Select an option.
+        Options: A,B,C 
+
+    - CASE: # Default to last input.
         B: INFO|You selected option B.
         $: WhenUnmatched
 

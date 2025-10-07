@@ -221,7 +221,7 @@
     
     ```yaml
     # Explicit, not recommended, just for the exercise.
-    - TEXT|How much?:
+    - TEXT|How much? >> $money:
         Hint: $1.23
         Output: $#,##0.00
         Pattern: ^\(?\$?-?\s?...)?$
@@ -229,9 +229,20 @@
     
     ```yaml
     # Built-in, preferred.
-    - AMOUNT|How much?:
+    - AMOUNT|How much? >> $money:
         Currency: USD
         MaxValue: 1000.00
     ```
+
+
+    ```yaml
+    # Formatted output
+    - SUCCESS|You entered `$money`
+    ```
+
+    | [Command ⌘](<../33 😃 Talkers/10 ⌘ Command.md>) | Purpose
+    |-|-
+    | 💰 [`AMOUNT`](<45 💰 AMOUNT prompt.md>) | To collect a structured currency value.
+    | ✅ [`SUCCESS`](<23 ✅ SUCCESS prompt.md>) | To show the formatted collected value.
 
     ---
