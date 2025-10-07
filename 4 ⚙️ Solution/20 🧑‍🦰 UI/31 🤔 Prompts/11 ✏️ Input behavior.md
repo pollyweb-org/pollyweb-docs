@@ -30,7 +30,7 @@
     | [🔢&nbsp;INT](<44 🔢 INT prompt.md>) | Shows the numeric keypad
     | [🔄&nbsp;QUANTITY](<42 🔄 QUANTITY prompt.md>) | Shows up/down arrows.
     | [💰&nbsp;AMOUNT](<45 💰 AMOUNT prompt.md>) | Allows for decimals
-    | [🔑&nbsp;OTP](<43 🔑 OTP prompt.md>) | Asks for 6 digits
+    | [🔑&nbsp;OTP](<57 🔑 OTP prompt.md>) | Asks for 6 digits
     | [1️⃣&nbsp;ONE](<55 1️⃣ ONE prompt.md>) | One of multiple options
     | [🔠&nbsp;MANY](<54 🔠 MANY prompt.md>) | Zero or more of multiple options
     | [⭐&nbsp;RATE](<56 ⭐ RATE prompt.md>) | 1 to 5 stars

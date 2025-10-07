@@ -51,7 +51,7 @@
     | 🔢 [`INT`](<../31 🤔 Prompts/44 🔢 INT prompt.md>) |0123| Numerics with 0 prefix | 
     | 💰 [`AMOUNT`](<../31 🤔 Prompts/45 💰 AMOUNT prompt.md>) |  1.23 | Decimals and currency
     | ⭐ [`RATE`](<../31 🤔 Prompts/56 ⭐ RATE prompt.md>) | 5 ⭐ | Integer from 1 to 5
-    | 🔑 [`OTP`](<../31 🤔 Prompts/43 🔑 OTP prompt.md>) | 0123 | SIM one time password
+    | 🔑 [`OTP`](<../31 🤔 Prompts/57 🔑 OTP prompt.md>) | 0123 | SIM one time password
     | 👍 [`CONFIRM`](<../31 🤔 Prompts/31 👍 CONFIRM prompt.md>) | Yes | `Yes` `No` `Cancel` answer
     | 🔠 [`MANY`](<../31 🤔 Prompts/54 🔠 MANY prompt.md>) | [A,B] |
     | 1️⃣ [`ONE`](<../31 🤔 Prompts/55 1️⃣ ONE prompt.md>) | A |
