@@ -128,7 +128,7 @@
     # 😃 Talker configuration
     💬 Example:
     TEXT|Who is in the picture?:
-        Attachment: {/photos/elvis.png}
+        Appendix: {/photos/elvis.png}
     ```
     
     ---

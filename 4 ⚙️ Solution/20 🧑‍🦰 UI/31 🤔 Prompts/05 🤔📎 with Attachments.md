@@ -42,7 +42,7 @@
 
     ```yaml
     - TEXT|Who is in the picture?:
-        Attachment: {/photos/elvis.png}
+        Appendix: {/photos/elvis.png}
     ```
 
     | [Command ⌘](<../33 😃 Talkers/10 ⌘ Command.md>) | Purpose
@@ -57,7 +57,7 @@
     ```yaml
     Format: TEXT
     Message: 💬 Who is in the picture?
-    Attachment: <attachment-uuid>
+    Appendix: <attachment-uuid>
     ```
 
     <br/>

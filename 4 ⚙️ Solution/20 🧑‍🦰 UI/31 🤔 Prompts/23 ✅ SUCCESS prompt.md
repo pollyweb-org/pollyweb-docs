@@ -68,7 +68,7 @@
         Message: <message>
         Options: <options>
         Details: <details>
-        Attachment: <attach>
+        Appendix: <appendix>
     ```
     
     | Argument| Purpose | Example
@@ -76,7 +76,7 @@
     | `<message>` |  Message for the user. | `Done!`
     | `<options>` | Optional [selectable options 🔘](<04 🤔🔘 with Options.md>) | `A,B` `{A:B}`
     | `<details>` | Optional [expandable details ⊕](<03 🤔⊕ with Details.md>) | `Hint: ...`
-    | `<attach>` | Optional [file attachment 📎](<05 🤔📎 with Attachments.md>) | `<uuid>`
+    | `<appendix>` | Optional [file attachment 📎](<05 🤔📎 with Attachments.md>) | `<uuid>`
 
     ---
     <br/>
