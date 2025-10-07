@@ -7,7 +7,7 @@
 
 1. **What's an DIGITS prompt?**
 
-    An `DIGITS`
+    A `DIGITS`
     * is a [Prompt 🤔](<01 🤔 Prompt.md>) 
     * that shows the numeric keypad
     * and allows for leading zeros.
