@@ -32,6 +32,32 @@
     ---
     <br/>
 
+
+1. **What agents implement text?**
+   
+    |Agent| Purpose
+    |-|-
+    |🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)| To search for the right agent for a job.
+    🔎 [Finder](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | To search for a host of a service or place.
+    🧭 [Navigator](<../../30 🫥 Agents/07 🧭 Navigators/01 🧭🫥 Navigator agent.md>) | To report on something suspicious.
+    |[💖 Vitalogist](<../../../4 ⚙️ Solution/30 🫥 Agents/09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>)| To register food intake.
+
+    ---
+    <br/>
+1. **What are business cases?**
+
+    |Category|Use case
+    |-|-
+    |`Curator`| [Order a burger at a fast food 🍔](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/25 🍔 Fast food/21 🪑 Seat: Order burger 🍔.md>)
+    |`Reviewer`| [Get details on a bad review ⭐](<../../../3 🤝 Use Cases/04 🛒 Shop/01 🛍️ Shop for clothes/01 Customer @ Item/01 Item price.md>)
+    |`Broker`| [Delegate finding a bar 🍸](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/30 🍸 Bars/11 🌐 Web: Find a bar.md>)
+    |`Finder` | [Ask alternatives to navigate 🧭](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/30 🍸 Bars/11 🌐 Web: Find a bar.md>)
+    |`Generic`|[Report an accident 🆘](<../../../3 🤝 Use Cases/08 🏛️ Public Services/01 🆘 Call emergency/1 @ Anywhere/10. Emergency.md>)
+
+    ---
+    <br/>
+
+
 1. **How do emojis work?**
 
    |Emoji|Usage
@@ -45,19 +71,28 @@
 
 1. **What's the syntax on a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
 
+    > Supported by [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>)
+
     ```yaml
     TEXT|<message> >> $placeholder
-        Mask: <mask>
-        Pattern: <pattern>
+        MinLength: <min-length>
+        MaxLength: <max-length>
+        Hint: <hint>
+        Input: <input-mask>
+        Output: <output-format>
+        Pattern: <regex-pattern>
     ```
     
-    | Argument| Purpose
-    |-|-
+    | Argument| Purpose | Example
+    |-|-|-
     | `<message>`| Message to show to the user
-    | `<mask>` | Optional HTML mask for presentation
-    | `<pattern>`| Optional HTML regular expression for validation
     | `$placeholder`| Placeholder with the user's answer
-    
+    | `<min-length>` | Optional minimum length | `1`
+    | `<max-length>` | Optional maximum length | `5`
+    | `<hint>` | Optional hint for users | `123.123.123.123`
+    | `<input-mask>` | Optional HTML mask for inputs | `099.099.099.099`
+    | `<output-forma>` | Optional HTML format for outputs | `990.990.990.990`
+    | `<regex-pattern>`| Optional HTML regular expression | `^...$`
     
     ---
     <br/>
@@ -91,12 +126,14 @@
     Consider the following [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
-    # Explicit
+    # Explicit, not recommended, just for the exercise.
     TEXT|What's the IP address? >> $ip:
-        Mask: 000.000.000.000
-        Pattern: ^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(\.|$)){4}$
+        Hint: 000.000.000.000
+        Input: 099.099.099.099
+        Output: 990.990.990.990
+        Pattern: ^((25[0-5]|2[0-4][0-9]|[01]?...{4}$
     
-    # Built-in
+    # Built-in, preferred.
     TEXT|What's the IP address? >> $ip:
         Pattern: IPv4
     ```
@@ -114,28 +151,29 @@
     ---
     <br/>
 
-1. **What agents implement text?**
+
+1. **What's an example for currencies?**
+
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 💬 How much? | `USD $29.10`
+    | 
    
-    |Agent| Purpose
-    |-|-
-    |🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)| To search for the right agent for a job.
-    🔎 [Finder](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | To search for a host of a service or place.
-    🧭 [Navigator](<../../30 🫥 Agents/07 🧭 Navigators/01 🧭🫥 Navigator agent.md>) | To report on something suspicious.
-    |[💖 Vitalogist](<../../../4 ⚙️ Solution/30 🫥 Agents/09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>)| To register food intake.
+    Consider the following [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
+    
+    ```yaml
+    # Explicit, not recommended, just for the exercise.
+    TEXT|How much? >> $price:
+        Hint: $0.00
+        Input: decimal
+        Output: $#,##0.00
+        Pattern: ^\(?\$?-?\s?...)?$
+        MaxLength: 8
+    
+    # Built-in, preferred.
+    AMOUNT|How much? >> $price:
+        Currency: USD
+        MaxValue: 1000.00
+    ```
 
     ---
-    <br/>
-1. **What are business cases?**
-
-    |Category|Use case
-    |-|-
-    |`Curator`| [Order a burger at a fast food 🍔](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/25 🍔 Fast food/21 🪑 Seat: Order burger 🍔.md>)
-    |`Reviewer`| [Get details on a bad review ⭐](<../../../3 🤝 Use Cases/04 🛒 Shop/01 🛍️ Shop for clothes/01 Customer @ Item/01 Item price.md>)
-    |`Broker`| [Delegate finding a bar 🍸](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/30 🍸 Bars/11 🌐 Web: Find a bar.md>)
-    |`Finder` | [Ask alternatives to navigate 🧭](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/30 🍸 Bars/11 🌐 Web: Find a bar.md>)
-    |`Generic`|[Report an accident 🆘](<../../../3 🤝 Use Cases/08 🏛️ Public Services/01 🆘 Call emergency/1 @ Anywhere/10. Emergency.md>)
-
-    ---
-    <br/>
-
-

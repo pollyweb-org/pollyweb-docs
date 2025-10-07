@@ -8,6 +8,7 @@
 
     Expandible details
     * are additional notes of any [Prompt 🤔](<01 🤔 Prompt.md>)
+    * rendered in Markdown format by [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     * that are initially collapsed to users.
 
     ---
@@ -62,7 +63,7 @@
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Expandable info [+] | > +
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Expandable info [-]<br/>- long text  <br/>- full of details
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Expandable info [-]<br/>&nbsp;&nbsp;&nbsp;1. Markdown bullet one  <br/>&nbsp;&nbsp;&nbsp;2. Markdown bullet two
     |
 
     The corresponding [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) would be.
@@ -70,8 +71,8 @@
     ```yaml
     INFO|Expandable info:
         Details: |
-            - long text
-            - full of details
+            1. Markdown bullet one
+            1. Markdown bullet two
     ```
 
     
