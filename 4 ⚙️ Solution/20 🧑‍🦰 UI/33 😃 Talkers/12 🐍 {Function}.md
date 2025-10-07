@@ -53,7 +53,7 @@
 
     | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
-    | 🔄 [`QUANTITY`](<../31 🤔 Prompts/21 🔄 QUANTITY prompt.md>) | To collect the number input.
+    | 🔄 [`QUANTITY`](<../31 🤔 Prompts/42 🔄 QUANTITY prompt.md>) | To collect the number input.
 
     ---
     <br/>
@@ -83,7 +83,7 @@
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 💬 [Who is in the picture?](<../31 🤔 Prompts/20 🔠 TEXT prompt.md>) 🖼️ | `Elvis`
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 💬 [Who is in the picture?](<../31 🤔 Prompts/32 🔠 TEXT prompt.md>) 🖼️ | `Elvis`
 
 
     ```yaml
@@ -137,7 +137,7 @@
 
     | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
-    | 🔄 [`QUANTITY`](<../31 🤔 Prompts/21 🔄 QUANTITY prompt.md>) | To collect the number input.
+    | 🔄 [`QUANTITY`](<../31 🤔 Prompts/42 🔄 QUANTITY prompt.md>) | To collect the number input.
 
 
     ```python

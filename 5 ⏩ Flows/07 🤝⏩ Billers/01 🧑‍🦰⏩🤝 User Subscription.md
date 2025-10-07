@@ -65,6 +65,6 @@ The corresponding [Talker 😃](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 �
 | 🛠️ [`INVITE`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/46 🛠️ INVITE msg.md>) | To subscribe the user to plan
 | ❄️ [`FREEZE`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/42 ❄️ FREEZE msg.md>) | To disable past inputs
 | ⬇️ [`EVAL`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/20 ⬇️ EVAL flow.md>) | To register on the database
-| ✅ [`SUCCESS`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/13 ✅ SUCCESS prompt.md>) | To say that it was successful
+| ✅ [`SUCCESS`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/23 ✅ SUCCESS prompt.md>) | To say that it was successful
 | 👋 [`GOODBYE`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/50 👋 GOODBYE.md>) | To show advertising
 |

@@ -27,14 +27,14 @@
 
     |Behavior| Format 
     |-|-
-    |[`Status`](<08 🤔⚠️ with Status behavior.md>)| [`ℹ️ INFO`](<11 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<12 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<13 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<14 ❌ FAILURE prompt.md>)
-    |[`Inputs`](<09 🤔✏️ with Input behavior.md>)| [`🔢 INT`](<21 🔢 INT prompt.md>) [`🔄 QUANTITY`](<21 🔄 QUANTITY prompt.md>) [`💰 AMOUNT`](<22 💰 AMOUNT prompt.md>) [`🔑 OTP`](<21 🔑 OTP prompt.md>) [`⭐ RATE`](<26 ⭐ RATE prompt.md>) 
-    || [`👍 CONFIRM`](<19 👍 CONFIRM prompt.md>) [`1️⃣ ONE`](<25 1️⃣ ONE prompt.md>) [`🔢 MANY`](<25 🔠 MANY prompt.md>) 
-    || [`🕓 TIME`](<27 🕓 TIME prompt.md>) [`📆 DATE`](<27 📆 DATE prompt.md>) 
-    || [`⬆️ UPLOAD`](<51 ⬆️ UPLOAD prompt.md>)
-    || [`🔠 TEXT`](<20 🔠 TEXT prompt.md>) 
-    || [`👤 IDENTIFY`](<41 👤 IDENTIFY prompt.md>) [`🛒 EAN`](<44 🛒 EAN prompt.md>) [`🔆 SCAN`](<42 🔆 SCAN prompt.md>) [`🦋 TOUCH`](<43 🦋 TOUCH prompt.md>) 
-    |`Special`| [`📍 LOCATION`](<61 📍 LOCATION prompt.md>) [`🗺️ TRACK`](<62 🗺️ TRACK prompt.md>)
+    |[`Status`](<08 🤔⚠️ with Status behavior.md>)| [`ℹ️ INFO`](<21 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<22 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<23 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<24 ❌ FAILURE prompt.md>)
+    |[`Inputs`](<11 ✏️ Input behavior.md>)| [`🔢 INT`](<44 🔢 INT prompt.md>) [`🔄 QUANTITY`](<42 🔄 QUANTITY prompt.md>) [`💰 AMOUNT`](<45 💰 AMOUNT prompt.md>) [`🔑 OTP`](<43 🔑 OTP prompt.md>) [`⭐ RATE`](<56 ⭐ RATE prompt.md>) 
+    || [`👍 CONFIRM`](<31 👍 CONFIRM prompt.md>) [`1️⃣ ONE`](<55 1️⃣ ONE prompt.md>) [`🔢 MANY`](<54 🔠 MANY prompt.md>) 
+    || [`🕓 TIME`](<62 🕓 TIME prompt.md>) [`📆 DATE`](<61 📆 DATE prompt.md>) 
+    || [`⬆️ UPLOAD`](<81 ⬆️ UPLOAD prompt.md>)
+    || [`🔠 TEXT`](<32 🔠 TEXT prompt.md>) 
+    || [`👤 IDENTIFY`](<71 👤 IDENTIFY prompt.md>) [`🛒 EAN`](<74 🛒 EAN prompt.md>) [`🔆 SCAN`](<72 🔆 SCAN prompt.md>) [`🦋 TOUCH`](<73 🦋 TOUCH prompt.md>) 
+    |`Special`| [`📍 LOCATION`](<91 📍 LOCATION prompt.md>) [`🗺️ TRACK`](<92 🗺️ TRACK prompt.md>)
 
 
     ---
@@ -82,7 +82,7 @@
     | 🔘 [`Options`](<04 🤔🔘 with Options.md>)  | Has options for users to select.
     | 📎 [`Attachment`](<05 🤔📎 with Attachments.md>)  | Has a PDF, PNG, or JPEG attachment.
     | ⚠️ [`Status` behavior](<08 🤔⚠️ with Status behavior.md>) | Informs and continues the flow.
-    | ✏️ [`Input` behavior](<09 🤔✏️ with Input behavior.md>) | Waits for an answer from users.
+    | ✏️ [`Input` behavior](<11 ✏️ Input behavior.md>) | Waits for an answer from users.
     
     ---
     <br/>

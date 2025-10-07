@@ -34,9 +34,9 @@
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ [Hi, Alice! I'm happy.](<../31 🤔 Prompts/11 ℹ️ INFO prompt.md>)
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ [Hi David! I'm glad.](<../31 🤔 Prompts/11 ℹ️ INFO prompt.md>)
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ [Example finished.](<../31 🤔 Prompts/13 ✅ SUCCESS prompt.md>)
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ [Hi, Alice! I'm happy.](<../31 🤔 Prompts/21 ℹ️ INFO prompt.md>)
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ [Hi David! I'm glad.](<../31 🤔 Prompts/21 ℹ️ INFO prompt.md>)
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ [Example finished.](<../31 🤔 Prompts/23 ✅ SUCCESS prompt.md>)
     |
 
     The related [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) is as follows.
@@ -87,7 +87,7 @@
 
     | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
-    | 🔄 [`QUANTITY`](<../31 🤔 Prompts/21 🔄 QUANTITY prompt.md>) | To collect the number input.
+    | 🔄 [`QUANTITY`](<../31 🤔 Prompts/42 🔄 QUANTITY prompt.md>) | To collect the number input.
 
 
     ---
@@ -100,8 +100,8 @@
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ [Here's number  3512596.](<../31 🤔 Prompts/11 ℹ️ INFO prompt.md>)
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ [Here's number  52364.](<../31 🤔 Prompts/11 ℹ️ INFO prompt.md>)
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ [Here's number  3512596.](<../31 🤔 Prompts/21 ℹ️ INFO prompt.md>)
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ [Here's number  52364.](<../31 🤔 Prompts/21 ℹ️ INFO prompt.md>)
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Example finished.
     |
 
@@ -176,9 +176,9 @@
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ Adding 5 to 2...
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ✅ [The first result is 7.](<../31 🤔 Prompts/13 ✅ SUCCESS prompt.md>)
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ✅ [The first result is 7.](<../31 🤔 Prompts/23 ✅ SUCCESS prompt.md>)
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ Adding 5 to 4...
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ✅ [The second result is 9.](<../31 🤔 Prompts/13 ✅ SUCCESS prompt.md>)
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) |  ✅ [The second result is 9.](<../31 🤔 Prompts/23 ✅ SUCCESS prompt.md>)
     
 
     ```yaml

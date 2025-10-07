@@ -1,6 +1,6 @@
 # 🔠 TEXT prompt
 
-> Part of [blocking input prompts 🤔](<09 🤔✏️ with Input behavior.md>)
+> Part of [blocking input prompts 🤔](<11 ✏️ Input behavior.md>)
 
 <br/>
 
@@ -27,7 +27,7 @@
     | [`Details`](<03 🤔⊕ with Details.md>) | Has expandable [+] details.
     | [`Options`](<04 🤔🔘 with Options.md>) | Has options for users to select.
     | [`Attachment`](<05 🤔📎 with Attachments.md>) | Has a PDF, PNG, or JPEG attachment.
-    | [`Input` behavior](<09 🤔✏️ with Input behavior.md>) | Waits for an answer from users.
+    | [`Input` behavior](<11 ✏️ Input behavior.md>) | Waits for an answer from users.
     
     ---
     <br/>
@@ -37,10 +37,10 @@
    
     |Agent| Purpose
     |-|-
-    |🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)| To search for the right agent for a job.
-    🔎 [Finder](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | To search for a host of a service or place.
+    |🤵 [Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>)| To search for the right agent for a job.
+    🔎 [Finder](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | To search for a host of a service or place.
     🧭 [Navigator](<../../30 🫥 Agents/07 🧭 Navigators/01 🧭🫥 Navigator agent.md>) | To report on something suspicious.
-    |[💖 Vitalogist](<../../../4 ⚙️ Solution/30 🫥 Agents/09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>)| To register food intake.
+    |[💖 Vitalogist](<../../30 🫥 Agents/09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>)| To register food intake.
 
     ---
     <br/>
