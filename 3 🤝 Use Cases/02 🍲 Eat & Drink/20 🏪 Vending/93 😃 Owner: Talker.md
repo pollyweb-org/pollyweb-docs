@@ -92,7 +92,7 @@ Success:
 |Type|[Command ⌘](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/10 ⌘ Command.md>)|Purpose
 |-|-|-
 |Data| 🪣 [`MAP`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/31 🪣 MAP item.md>) | Look up items and machines
-|Input | 🔢 [`INT`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/44 🔢 INT prompt.md>) | Ask for item number
+|Input | 🔢 [`INT`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/44 🔢 DIGITS prompt.md>) | Ask for item number
 || 👍 [`CONFIRM`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/31 👍 CONFIRM prompt.md>) | Confirm item name
 |Status| ⏳ [`TEMP`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/22 ⏳ TEMP prompt.md>) | Show delivering status
 || ✅ [`SUCCESS`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/23 ✅ SUCCESS prompt.md>) | Ask to pick the item
