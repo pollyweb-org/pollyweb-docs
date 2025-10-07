@@ -81,21 +81,30 @@
     ```yaml
     # Comprehensive.
     TEXT >> $placeholder
+        # Generic properties
         Message: <message>
-        MinLength: <min-length>
-        MaxLength: <max-length>
-        Output: <output-format>
-        Pattern: <regex-pattern>
+        Options: <options>
+        Details: <details>
+        Attachment: <attach>
+        # Specific properties
+        MinLength: <min-length>   
+        MaxLength: <max-length>   
+        Output: <output-format>   
+        Pattern: <regex-pattern>  
+
     ```
     
     | Argument| Purpose | Example
     |-|-|-
     | `<message>`| Message to show to the user
     | `$placeholder`| Placeholder with the user's answer
-    | `<min-length>` | Optional minimum length | `1`
-    | `<max-length>` | Optional maximum length | `5`
-    | `<output-format>` | Optional HTML format for outputs | `990.990.990.990`
-    | `<regex-pattern>`| Optional HTML regular expression | `^...$`
+    | `<options>` | Optional [selectable options 🔘](<04 🤔🔘 with Options.md>) | `A,B` `{A:B}`
+    | `<details>` | Optional [expandable details ⊕](<03 🤔⊕ with Details.md>) | `Hint: ...`
+    | `<attach>` | Optional [file attachment 📎](<05 🤔📎 with Attachments.md>) | `<uuid>`
+    | `.MinLength` | Optional [minimum length 📋](<13 ✏️📋 Input validation.md>) | `1`
+    | `.MaxLength` | Optional [maximum length 📋](<13 ✏️📋 Input validation.md>) | `5`
+    | `.Output` | Optional HTML format for outputs | `990.990.990.990`
+    | `.Pattern`| Optional HTML regular expression | `^...$`
     
     ---
     <br/>
