@@ -22,6 +22,7 @@ NTAG
 Passwordless
 Pluggables
 Reimagined
+skippability
 startuml
 Tapband
 Tapbands
