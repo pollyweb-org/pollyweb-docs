@@ -1,4 +1,4 @@
-# ⚡ Input validation
+# 📋 Input validation
 
 > Part of [✏️ Input prompts](<11 ✏️ Input behavior.md>)
 

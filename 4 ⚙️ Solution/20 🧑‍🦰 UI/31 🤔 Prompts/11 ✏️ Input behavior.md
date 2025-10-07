@@ -16,7 +16,7 @@
     ||Section
     |-|-
     ||[⏭️ Input optionality](<12 ✏️⏭️ Input optionality.md>)
-    ||[⚡ Input validation](<13 ✏️⚡ Input validation.md>)
+    ||[⚡ Input validation](<13 ✏️📋 Input validation.md>)
     ||[🫥 Input emojis](<14 ✏️🫥 Input emojis.md>)
     
     ---
