@@ -6,10 +6,28 @@
 <br/>
 
 
-1. **What's an AMOUNT prompt?**
+1. **What's a `TIME` prompt?**
 
-    It's a [Prompt 🤔](<01 🤔 Prompt.md>) that asks for a time.
+    A `TIME`
+    * is a [Prompt 🤔](<01 🤔 Prompt.md>) 
+    * that asks for a time
+    * in the user's timezone (not UTC).
 
+    ---
+    <br/>
+
+
+1. **What's the format of a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
+
+    ```yaml
+    TIME|<message> >> $placeholder
+    ```
+    
+    |Argument| Details | Example 
+    |-|-|-
+    | `<message>`| The message to the user | `What time?`
+    | `$placeholder`| The time in  ISO 8601 | `14:23:59` 
+    
     ---
     <br/>
 
@@ -19,7 +37,7 @@
     Consider the following [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
-    TIME|What time? >> my-variable
+    TIME|What time? >> $time
     ```
 
     | Domain | [Prompt 🤔](<01 🤔 Prompt.md>) | User
@@ -74,38 +92,3 @@
     ---
     <br/>
     
-
-1. **What's the format of a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
-
-    ```yaml
-    TIME|<message> >> <key>:
-        Details: <details>
-        MinValue: <min-value>
-        MaxValue: <max-value>
-        Emoji: <emoji>
-    ```
-    
-    ---
-    <br/>
-
-
-1. **What's the response in the [Prompted@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method?**
-
-    ```yaml
-    Format: TIME
-    Message: <message>
-    Details: <details>
-    MinValue: <min-value>
-    MaxValue: <max-value>
-    Emoji: <emoji>
-    ```
-
-    ---
-    <br/>
-
-1. **What's the Answer in the [Reply@Host](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) method?**
-
-    |Type| Example | Format | Details
-    |-|-|-|-
-    | time| `14:23:59Z` | `HH:MM:SSZ` | ISO 8601 in UTC timezone
-    |

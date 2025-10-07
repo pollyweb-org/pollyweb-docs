@@ -43,7 +43,7 @@
         Attachment: {/photos/elvis.png}
     ```
     
-    The [Prompted@Host 🚀](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method would be.
+    The [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method would be.
 
     ```yaml
     Format: TEXT

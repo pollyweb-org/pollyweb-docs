@@ -71,14 +71,11 @@
 
 1. **What's the syntax on a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>)?**
 
-    > Supported by [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>)
-
     ```yaml
     TEXT|<message> >> $placeholder
         MinLength: <min-length>
         MaxLength: <max-length>
         Hint: <hint>
-        Input: <input-mask>
         Output: <output-format>
         Pattern: <regex-pattern>
     ```
@@ -90,8 +87,7 @@
     | `<min-length>` | Optional minimum length | `1`
     | `<max-length>` | Optional maximum length | `5`
     | `<hint>` | Optional hint for users | `123.123.123.123`
-    | `<input-mask>` | Optional HTML mask for inputs | `099.099.099.099`
-    | `<output-forma>` | Optional HTML format for outputs | `990.990.990.990`
+    | `<output-format>` | Optional HTML format for outputs | `990.990.990.990`
     | `<regex-pattern>`| Optional HTML regular expression | `^...$`
     
     ---
@@ -116,26 +112,31 @@
     ---
     <br/>
 
-1. **What's an example of an IPv4 address?**
+1. **What's an example of an IPv4 address input?**
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 💬 What's the IP address? | `192.168.0.1`
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 💬 What's the IP address? [-] <br/> > Hint: `123.123.123.123` | `300.010.000.001`
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ❌ Invalid input! Retry.
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 💬 What's the IP address? [+] <br/>  | `255.010.000.001`
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ You entered `255.10.0.1`
     |
    
-    Consider the following [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
     # Explicit, not recommended, just for the exercise.
     TEXT|What's the IP address? >> $ip:
-        Hint: 000.000.000.000
-        Input: 099.099.099.099
+        Hint: 123.123.123.123
         Output: 990.990.990.990
         Pattern: ^((25[0-5]|2[0-4][0-9]|[01]?...{4}$
     
-    # Built-in, preferred.
+    # Built-in alternative, preferred.
     TEXT|What's the IP address? >> $ip:
         Pattern: IPv4
+
+    # Formatted output
+    SUCCESS|You entered `$ip`
     ```
 
     ---
@@ -156,19 +157,20 @@
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 💬 How much? | `USD $29.10`
-    | 
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 💬 How much? [-] <br/> > Hint: `$1.23` | `bla 45.6`
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ❌ Invalid input! Retry.
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 💬 How much? [+] <br/>  | `4,,5,67.8`
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ You entered `4,567.80`
+    |
    
     Consider the following [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
     # Explicit, not recommended, just for the exercise.
     TEXT|How much? >> $price:
-        Hint: $0.00
-        Input: decimal
+        Hint: $1.23
         Output: $#,##0.00
         Pattern: ^\(?\$?-?\s?...)?$
-        MaxLength: 8
     
     # Built-in, preferred.
     AMOUNT|How much? >> $price:

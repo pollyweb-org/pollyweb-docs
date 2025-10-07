@@ -1,14 +1,29 @@
+# ⚡ Input validation
+
 > Part of [✏️ Input prompts](<11 ✏️ Input behavior.md>)
 
+<br/>
+
+
+1. **How do client-side validations work?**
+
+    NLWeb does not guarantee client-side validations.
+
+    * It's close to impossible to enforce [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to comply with the rules across a large landscape of vendors and user interface (UI) technologies: 
+        * e.g., web browsers, mobile operating systems, shell consoles.
+  
+    * Even if enforcing would be possible, [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) developers would still have a hard time guessing the nuanced behaviors across vendors:
+        * e.g., consider the different behaviors of Chrome, Safari, and Firefox, even with global standards like HTML5.
+
+    ---
+    <br/>
 
 1. **How to implement client-side validations?**
 
-    Enter one or more client-side restrictions, when supported.
-    
+    When applicable, only minimum and maximum values are eventually implemented by [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) on a best-effort basis, given that this interval is useful when rendering HTML sliders.
+
     |Restriction| Type |  Details
     |-|-|-
-    | `MinLength` | int | Optional minimum length
-    | `MaxLength` | int | Optional maximum length
     | `MinValue` | int | Optional minimum value
     | `MaxValue` | int | Optional maximum value
     |
@@ -17,50 +32,105 @@
     On a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>):
 
     ```yaml
-    INT|Enter a 6-digit code >> $code:
-        MinLength: 6
-        MaxLength: 6
+    QUANTITY|How many players? >> $qt:
+        MinValue: 2
+        MaxLength: 10
     ```
     
-    On the [Prompted@Host 🚀](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method:
+    On the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) reply:
 
     ```yaml
-    Format: INT
-    Message: Enter a 6-digit code
-    MinLength: 6
-    MaxLength: 6
+    Format: QUANTITY
+    Message: How many players
+    MinValue: 2
+    MaxValue: 10
     ```
 
     ---
     <br/>
 
-1. **How to implement server-side validations?**
+
+1. **How do built-in Talker validations work?**
 
     Consider the following [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) as an example.
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What's the code? [-]<br/>> This is a 6 digit number | `0123`
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ❌ Enter a 6 digit number
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ❌ Enter a 6 digit number.
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What's the code? [+]<br/> | `012345`
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Code validated!
+
+    Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
+
+    ```yaml
+    # Talker 😃
+    - INT|What's the code? >> code:
+        MinLength: 6
+        MaxLength: 6
+    - SUCCESS|Code validated!
+    ```
+
+    Here's the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) reply.
+
+    ```yaml
+    Format: INT
+    Message: 😃 What's the code?
+    Details: This is a 6 digit number
+    ```
+
+
+    ---
+    <br/>
+
+1. **How to implement custom validations in code handlers?**
+
+    Consider the following [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) as an example.
+
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 💬 What's the code? [-]<br/>> This is a 6 digit number | `0123`
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ❌ Enter a 6 digit number
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 💬 What's the code? [+]<br/> | `012345`
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Code validated!
 
     The related [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) would be.
 
     ```yaml
+    # Talker 😃
+
     💬 Form:
     - RUN|get-code
-    - RUN|get-something-else
+    - SUCCESS|Code validated!
 
     get-code:
-    - INT|What's the code? >> $code:
+    - TEXT|What's the code? >> $code:
         Details: This is a 6 digit number
-    - IF|{invalid($code)}|failure-proc
+    - IF|{IsInvalid($code)}|failure-proc
 
     failure-proc:
     - FAILURE|Enter a 6 digit number
     - RUN|get-code
     ```
 
+    The related [Function 🐍 handler](<../33 😃 Talkers/12 🐍 {Function}.md>) would be.
+
+    ```python
+    # 🐍 Python handler
+    def talkerHandler(args):
+        match args['Function']:
+            case 'IsInvalid':
+                s = args['Input']
+                return not (len(s) == 6 and s.isdigit())
+    ```
+    
+    Here's the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) reply.
+
+    ```yaml
+    Format: TEXT
+    Message: 💬 What's the code? 
+    Details: This is a 6 digit number
+    ```
+    
     ---
     <br>

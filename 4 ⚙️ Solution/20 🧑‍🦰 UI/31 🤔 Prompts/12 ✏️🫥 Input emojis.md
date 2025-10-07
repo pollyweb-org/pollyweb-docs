@@ -1,8 +1,33 @@
+# 🫥 Input emojis
+
 > Part of [✏️ Input prompts](<11 ✏️ Input behavior.md>)
 
-1. **How do emojis work?**
+<br/>
 
-    Most (but not all) inputs work with the following emojis.
+1. **Are emojis mandatory?**
+
+    No.
+
+    * Emojis are not specified in the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method.
+        * Thus, [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) can send simple strings to [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+  
+    * However, NLWeb advocates for emojis.
+        * They align with human's non-verbal communication, from wish our brain process the underlying meaning of ambiguous text-only sentences. 
+            * e.g., who never misunderstood an ambiguous and apparently threatening text conversation, to  immediately clarify in the first 3 seconds of a follow-up video call with a very friendly 🤗 and joyful 😃 sender on the other end of call?
+        * Emojis also reduce brain effort when reading and interpreting text.
+            * e.g., `congrats` versus `🥳🎂 congrats 💕`
+            * e.g., `that's funny` versus `🤣🤣🤣`
+  
+    * To help [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) developers, 
+        * [Talkers 😃](<../33 😃 Talkers/01 😃 Talker.md>) add emojis to [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) messages. 
+
+
+    ---
+    <br/>
+
+1. **How do emojis work on Talkers?**
+    
+    Most (but not all) [Talker input commands ✏️](<11 ✏️ Input behavior.md>) work with the following emojis.
 
     Emoji | Behavior
     |-|-
@@ -12,33 +37,79 @@
     ---
     <br/>
 
+1. **What's an example of emojis in Talkers?**
 
-1. **How to implement emotions?**
+    Consider the following [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>).
 
-    The `😃` emoji can be replaced with one of the following.
-
-    ||Emoji | Application
-    |-|-|-
-    || 😐 | Neutral
-    || 😕 | Confused, sad
-    || 🥺 | Pleading face
-    || ✏️ | Form input field
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Continue? [Yes, No]
     |
 
-
-    On a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>):
+    The corresponding [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) is as follows.
 
     ```yaml
-    CONFIRM|Are you OK? >> $status:
-        Emoji: 😕
+    # 😃 Talker
+    CONFIRM|Continue?
     ```
-    
-    On the [Prompted@Host 🚀](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) method:
+
+    The [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) reply becomes as follows.
 
     ```yaml
     Format: CONFIRM
-    Message: Are you OK?
-    Emoji: 😕
+    Message: 😃 Continue?
+    ```
+
+    ---
+    <br/>
+
+
+1. **Can Talker prompts use alternative emojis?**
+
+    The default [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>) emoji `😃` can be replaced with one of the following.
+
+    ||Emoji | Application | Example
+    |-|-|-|-
+    || 😐😶 | Neutral inputs | `Are you OK?`
+    || 😌😊 | Calm inputs    | `Thanks! And you?`
+    || 😕🙁 | Sad inputs     | `That's odd! Undo?`
+    || 😔🥺 | Sorry inputs   | `We failed! Retry?`
+    || 🤣😅 | Joyful inputs  | `Likewise! Another?`
+    || ✏️ | Form input field | `IP address?`
+    |
+
+    The selection is restricted to emojis that can convey empathy:
+    * without expressing strong internal emotions,
+        * e.g., a machine crying becomes awkward to a human;
+    * nor strong external emotions,
+        * e.g., an angry machine is not socially acceptable.
+
+    ---
+    <br/>
+
+1. **How to replace emojis in Talkers?**
+
+    The replacement can either be:
+    * per [Prompt 🤔](<01 🤔 Prompt.md>) by setting the `Emoji` parameter,
+    * or by default for upcoming [Prompts 🤔](<01 🤔 Prompt.md>) with the [`EMOJI`](<../33 😃 Talkers/16 🫥 EMOJI flow.md>) command.
+
+    ---
+    <br/>
+
+1. **How to change an emoji in a Prompt?**
+
+    On a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>), for a single command:
+
+    ```yaml
+    CONFIRM|Are you OK? >> $status:
+        Emoji: 😕 
+    ```
+    
+    This translates to the following [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) response.
+
+    ```yaml
+    Format: CONFIRM
+    Message: 😕 Are you OK?
     ```
 
     ---
