@@ -8,7 +8,7 @@
 
     A `<Command>`
     * is a line starting with a dash `-`
-    * that executes a [Prompt 🤔](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) or a workflow.
+    * that executes a [Prompt 🤔](<../Prompts/10 Prompt definitions/01 🤔 Prompt.md>) or a workflow.
 
     ---
     <br/>
@@ -16,7 +16,7 @@
 
 1. **What are Prompt commands?**
 
-    These are Commands that execute [Prompts 🤔](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>).
+    These are Commands that execute [Prompts 🤔](<../Prompts/10 Prompt definitions/01 🤔 Prompt.md>).
 
     ---
     <br/>
