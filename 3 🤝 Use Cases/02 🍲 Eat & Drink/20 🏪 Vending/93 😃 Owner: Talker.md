@@ -17,7 +17,7 @@ TODO: Add the flow to the Manifest
 💬|[Buy] an item:
 
 # Set the Chat's flow.
-- FLOW|Buy
+- FORM|Buy
 
 # Ask for the item number.
 - DIGITS|What's the item number? >> number
@@ -71,8 +71,8 @@ Success:
 | Dependencies | Purpose
 |-|-
 | [🧩 `//IDENTITY/OVER21`](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/IDENTITY/🧩 IdentityOver21.md>) | Verify minimum age to drink
-| [🪣 `Items`](<94 🪣 Owner: Items.md>) | List of items to [`MAP`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/31 🪣 MAP item.md>)
-| [🪣 `Locators`](<95 🪣 Owner: Locators.md>) | List of machines to [`MAP`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/31 🪣 MAP item.md>)
+| [🪣 `Items`](<94 🪣 Owner: Items.md>) | List of items to [`MAP`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/61 🪣 MAP item.md>)
+| [🪣 `Locators`](<95 🪣 Owner: Locators.md>) | List of machines to [`MAP`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/61 🪣 MAP item.md>)
 |
 
 <br/>
@@ -91,7 +91,7 @@ Success:
 
 |Type|[Command ⌘](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/10 ⌘ Command.md>)|Purpose
 |-|-|-
-|Data| 🪣 [`MAP`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/31 🪣 MAP item.md>) | Look up items and machines
+|Data| 🪣 [`MAP`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/61 🪣 MAP item.md>) | Look up items and machines
 |Input | 🔢 [`DIGITS`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/44 🔢 DIGITS prompt.md>) | Ask for item number
 || 👍 [`CONFIRM`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/31 👍 CONFIRM prompt.md>) | Confirm item name
 |Status| ⏳ [`TEMP`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/25 ⏳ TEMP prompt.md>) | Show delivering status

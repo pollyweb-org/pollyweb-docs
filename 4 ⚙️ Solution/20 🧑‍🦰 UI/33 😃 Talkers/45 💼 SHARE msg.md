@@ -22,11 +22,20 @@
 
     ```yaml
     SHARE|<code> >> $shared
+    ```
+
+    ```yaml
+    SHARE >> $shared:
+        Code: <code>
+        Context: {context}
+    ```
+
+    ```yaml
+    SHARE >> $shared:
         Codes:
             - <code-1>
             - <code-n>
-        Context:
-            {context}
+        Context: {context}
     ```
 
    

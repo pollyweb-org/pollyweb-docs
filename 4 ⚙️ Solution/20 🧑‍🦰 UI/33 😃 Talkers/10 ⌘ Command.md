@@ -116,7 +116,7 @@
     | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | Repeats the current [Procedure ⚙️](<11 ⚙️ Procedure.md>) with a confirmation.
     | ↩️ [`RETURN`](<25 ↩️ RETURN flow.md>) | Returns from a [Procedure ⚙️](<11 ⚙️ Procedure.md>) with a result.
     | ▶️ [`RUN`](<24 ▶️ RUN flow.md>) | Runs a [Procedure ⚙️](<11 ⚙️ Procedure.md>) and puts the result in a placeholder.
-    | ⏸️ [`WAIT`](<27 ⏸️ WAIT flow.md>) | Waits for a period of time or until signaled.
+    | ⏸️ [`WAIT`](<28 ⏸️ WAIT flow.md>) | Waits for a period of time or until signaled.
 
     ---
     <br/>

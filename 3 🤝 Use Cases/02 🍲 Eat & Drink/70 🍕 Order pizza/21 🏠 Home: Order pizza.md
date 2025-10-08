@@ -49,7 +49,7 @@ Order a pizza for home delivery
 
     ```yaml
     💬 Order:
-    - FLOW|order
+    - FORM|order
     # Collect order details.
     - SHARE|nlweb.org/NAVIGATOR/DESTINATION # 🧭 
     - SHARE|nlweb.org/CONCIERGE/COURIER|{destination} # 🛎️ 
@@ -63,10 +63,10 @@ Order a pizza for home delivery
     - CHARGE|{amount}|{biller-id} # 💳
     # Successful order.
     - SUCCESS|Order confirmed
-      - EXPAND: {order-summary}
+        Details: {order-summary}
     - SHARE|nlweb.org/CONCIERGE/CONFIRM # 🛎️
     - TEMP|Preparing your order...
-      - EXPAND: {order-summary}
+        Details: {order-summary}
     ```
 
     |Functions|Returns|Description

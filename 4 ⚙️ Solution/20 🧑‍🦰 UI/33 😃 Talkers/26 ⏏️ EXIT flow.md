@@ -22,6 +22,11 @@
 
     ```yaml
     - EXIT|<procedure>:
+        {parameters}
+    ```
+
+    ```yaml
+    - EXIT:
         - <command-1>
         - <command-n>
     ```
