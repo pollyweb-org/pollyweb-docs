@@ -96,7 +96,7 @@ Success:
 || 👍 [`CONFIRM`](<../../../9 😃 Talkers/Prompts/30 Input prompts/31 👍 CONFIRM prompt.md>) | Confirm item name
 |Status| ⏳ [`TEMP`](<../../../9 😃 Talkers/Prompts/20 Status prompts/25 ⏳ TEMP prompt.md>) | Show delivering status
 || ✅ [`SUCCESS`](<../../../9 😃 Talkers/Prompts/20 Status prompts/23 ✅ SUCCESS prompt.md>) | Ask to pick the item
-|| ❌ [`FAILURE`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/24 ❌ FAILURE prompt.md>) | To show in case of error
+|| ❌ [`FAILURE`](<../../../9 😃 Talkers/Prompts/20 Status prompts/23 ❌ FAILURE prompt.md>) | To show in case of error
 |Flow| ⤵️ [`IF`](<../../../9 😃 Talkers/Flow/21 ⤵️ IF flow.md>)
 ||⬇️ [`EVAL`](<../../../9 😃 Talkers/Data/20 ⬇️ EVAL flow.md>)
 ||🪵 [`LOG`](<../../../9 😃 Talkers/Data/15 🪵 LOG flow.md>)

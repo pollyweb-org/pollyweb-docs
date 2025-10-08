@@ -37,7 +37,7 @@
     | ℹ️ [`INFO`](<../Prompts/20 Status prompts/21 ℹ️ INFO prompt.md>) | Information message.
     | ⏳ [`TEMP`](<../Prompts/20 Status prompts/25 ⏳ TEMP prompt.md>) |Temporary status message.
     | ✅ [`SUCCESS`](<../Prompts/20 Status prompts/23 ✅ SUCCESS prompt.md>) | Successful status message.
-    | ❌ [`FAILURE`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/24 ❌ FAILURE prompt.md>) | Unsuccessful status message.
+    | ❌ [`FAILURE`](<../Prompts/20 Status prompts/23 ❌ FAILURE prompt.md>) | Unsuccessful status message.
 
     ---
     <br/>
