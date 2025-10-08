@@ -44,7 +44,7 @@
 
     |Parameter|Details
     |-|-
-    | `$placeholder` | Stores the answer in this placeholder
+    | `$placeholder` | Stores the answer in this [$placeholder 💾](<../../30 🗃️ Talker data/10 💾 $Placeholder.md>)
     
     ---
     <br/>

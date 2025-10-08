@@ -12,7 +12,7 @@
 
     |Format|Details
     |-|-
-    | `{$placeholder}`| The result of a named user input.
+    | `{$placeholder}`| The value of a [$placeholder 💾](<10 💾 $Placeholder.md>).
     | `{/path/to/file}` | A file in the [Hoster ☁️](<../90 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>) file system.
     | `{handler(args)}`| Logic in a code handler - e.g., python.
     | `{.helper(args)}`| Pre-built functions - e.g., `Sum()`
@@ -25,22 +25,6 @@
 
 1. **What's syntax for input placeholders?**
 
-    ```yaml
-    # Value placeholders
-    {$placeholder}     
-    ```
-
-    | Argument| Purpose | Example
-    |-|-|-
-    | `placeholder` | The name of a placeholder. | `$p`
-    
-
-    ```yaml 
-    # Object placeholders
-    {$placeholder}      # Simple
-    {$placeholder.$}    # Default property
-    {$placeholder.ABC}  # Other properties
-    ```
 
     <br/>
     
@@ -59,7 +43,7 @@
 
     | [Command ⌘](<../20 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
     |-|-
-    | ⬇️ [`EVAL`](<20 ⬇️ EVAL flow.md>) | To push an object into a placeholder.
+    | ⬇️ [`EVAL`](<20 ⬇️ EVAL flow.md>) | To push an object into a [$placeholder 💾](<10 💾 $Placeholder.md>).
     | ℹ️ [`INFO`](<../50 🤔 Prompts/4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) | To show the placeholder values.
     
     ---
@@ -91,7 +75,9 @@
 
     | [Command ⌘](<../20 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
     |-|-
+    | ℹ️ [`INFO`](<../50 🤔 Prompts/4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) | To show the [$placeholder 💾](<10 💾 $Placeholder.md>) values.
     | 🔄 [`QUANTITY`](<../50 🤔 Prompts/7 ✏️ Input prompts/42 🔄 QUANTITY prompt.md>) | To collect the number input.
+    
 
     ---
     <br/>
