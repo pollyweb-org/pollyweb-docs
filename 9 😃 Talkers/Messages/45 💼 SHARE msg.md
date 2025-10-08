@@ -83,7 +83,7 @@
 
     | [Command ⌘](<../Flow/10 ⌘ Command.md>) | Purpose
     |-|-
-    | ⤵️ [`IF`](<../21 ⤵️ IF flow.md>) | To verify the result.  
+    | ⤵️ [`IF`](<../Flow/21 ⤵️ IF flow.md>) | To verify the result.  
 
 
     The structure of the shared data is as follows.

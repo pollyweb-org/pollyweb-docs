@@ -36,7 +36,7 @@
    
     | Argument| Purpose
     |-|-
-    | `{function}`  | [{Function}](<../Functions/12 🐍 {Function}.md>) that issues the [Token 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) ID.
+    | `{function}`  | [{Function}](<../Data/12 🐍 {Function}.md>) that issues the [Token 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) ID.
     | `<accepted>`| Boolean placeholder for [Accepted @ Issuer](<../../6 🅰️ APIs/55 🎴🅰️ Issuer/02 🤵🐌🎴 Accepted.md>).
 
     ---
@@ -56,7 +56,7 @@
 
    | [Command ⌘](<../Flow/10 ⌘ Command.md>) | Purpose
    |-|-
-   | ⤵️ [`IF`](<../21 ⤵️ IF flow.md>) | To verify the result.  
+   | ⤵️ [`IF`](<../Flow/21 ⤵️ IF flow.md>) | To verify the result.  
    
    ---
    <br/>

@@ -162,7 +162,7 @@
     | [Command ⌘](<../../../9 😃 Talkers/Flow/10 ⌘ Command.md>) | Purpose
     |-|-
     | 1️⃣ [`ONE`](<53 1️⃣ ONE prompt.md>) | To show the options.
-    | 🔀 [`CASE`](<../../../9 😃 Talkers/22 🔀 CASE flow.md>) | To check the selected option.
+    | 🔀 [`CASE`](<../../../9 😃 Talkers/Flow/22 🔀 CASE flow.md>) | To check the selected option.
     | ℹ️ [`INFO`](<21 ℹ️ INFO prompt.md>) | To show the result.
     
 
@@ -237,7 +237,7 @@
     | [Command ⌘](<../../../9 😃 Talkers/Flow/10 ⌘ Command.md>) | Purpose
     |-|-
     | 1️⃣ [`ONE`](<53 1️⃣ ONE prompt.md>) | To show the options.
-    | 🔀 [`CASE`](<../../../9 😃 Talkers/22 🔀 CASE flow.md>) | To check the selected option.
+    | 🔀 [`CASE`](<../../../9 😃 Talkers/Flow/22 🔀 CASE flow.md>) | To check the selected option.
     | ℹ️ [`INFO`](<21 ℹ️ INFO prompt.md>) | To show the result.
     
 

@@ -38,10 +38,10 @@
 
     |Context|Syntax
     |-|-
-    |▶️ [`RUN`](<../24 ▶️ RUN flow.md>)| Calls a procedure by name, then returns.
-    |⤵️ [`IF`](<../21 ⤵️ IF flow.md>) | Runs procedures for `True` and `False` evaluations.
-    | 🔀 [`CASE`](<../22 🔀 CASE flow.md>) | Runs procedures for matching evaluations.
-    | ⏸️ [`WAIT`](<../28 ⏸️ WAIT flow.md>) | Runs procedures on signalled and timed out.
+    |▶️ [`RUN`](<24 ▶️ RUN flow.md>)| Calls a procedure by name, then returns.
+    |⤵️ [`IF`](<21 ⤵️ IF flow.md>) | Runs procedures for `True` and `False` evaluations.
+    | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | Runs procedures for matching evaluations.
+    | ⏸️ [`WAIT`](<28 ⏸️ WAIT flow.md>) | Runs procedures on signalled and timed out.
 
     ---
     <br/>

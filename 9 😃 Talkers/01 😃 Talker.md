@@ -33,7 +33,7 @@
         * Top menu entry - i.e., the "what?"
     * `<procedure>:`   
         * Executable procedure.
-    * [`{function}`](<Functions/12 🐍 {Function}.md>)
+    * [`{function}`](<Data/12 🐍 {Function}.md>)
         * Calculates the value with a function.
 
   

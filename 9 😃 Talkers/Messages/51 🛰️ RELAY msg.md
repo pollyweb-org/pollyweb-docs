@@ -77,7 +77,7 @@
 
     | [Command ⌘](<../Flow/10 ⌘ Command.md>) | Purpose
     |-|-
-    | 🪵 [`LOG`](<../15 🪵 LOG flow.md>) | To log the result.
+    | 🪵 [`LOG`](<../Data/15 🪵 LOG flow.md>) | To log the result.
     
     ---
     <br/>

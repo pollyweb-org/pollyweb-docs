@@ -90,7 +90,7 @@
    
     | Argument| Purpose
     |-|-
-    | `{bindable}` | [{Function}](<../Functions/12 🐍 {Function}.md>) to get the [Codes 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) for [Bindable @ Broker](<../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/42 🗄️🐌🤵 Bindable.md>).
+    | `{bindable}` | [{Function}](<../Data/12 🐍 {Function}.md>) to get the [Codes 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) for [Bindable @ Broker](<../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/42 🗄️🐌🤵 Bindable.md>).
 
 
     ---
@@ -125,7 +125,7 @@
 
    | [Command ⌘](<../Flow/10 ⌘ Command.md>) | Purpose
    |-|-
-   | ⤵️ [IF](<../21 ⤵️ IF flow.md>) | To verify the result.  
+   | ⤵️ [IF](<../Flow/21 ⤵️ IF flow.md>) | To verify the result.  
    
    ---
    <br/>
@@ -147,8 +147,8 @@
 
    | [Command ⌘](<../Flow/10 ⌘ Command.md>) | Purpose
    |-|-
-   | ⬇️ [`EVAL`](<../Functions/20 ⬇️ EVAL flow.md>) | To put the bindable array into a placeholder.
-   | ⤵️ [`IF`](<../21 ⤵️ IF flow.md>) | To verify the result.
+   | ⬇️ [`EVAL`](<../Data/20 ⬇️ EVAL flow.md>) | To put the bindable array into a placeholder.
+   | ⤵️ [`IF`](<../Flow/21 ⤵️ IF flow.md>) | To verify the result.
    
    ---
    <br/>

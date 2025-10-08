@@ -1,15 +1,15 @@
 # 🪵 Talker `LOG` command
 
-> Part of [Talker 😃](<01 😃 Talker.md>)
+> Part of [Talker 😃](<../01 😃 Talker.md>)
 
 <br/>
 
 1. **What is a LOG command?**
 
     A `LOG` 🪵
-    * is a [Command ⌘](<Flow/10 ⌘ Command.md>) 
+    * is a [Command ⌘](<../Flow/10 ⌘ Command.md>) 
     * that sends an event 
-    * to the log handler of a [Talker 😃](<01 😃 Talker.md>).
+    * to the log handler of a [Talker 😃](<../01 😃 Talker.md>).
 
 
     ---
@@ -18,8 +18,8 @@
 
 1. **What are example use cases?**
 
-    * Handling the result of a [`RELAY`](<Messages/51 🛰️ RELAY msg.md>) command.
-    * The [Talker 😃](<../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/93 😃 Owner: Talker.md>) at [Vending machines 🏪](<../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/01 🏪 Index.md>)
+    * Handling the result of a [`RELAY`](<../Messages/51 🛰️ RELAY msg.md>) command.
+    * The [Talker 😃](<../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/93 😃 Owner: Talker.md>) at [Vending machines 🏪](<../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/01 🏪 Index.md>)
 
     ---
     <br/>
@@ -41,7 +41,7 @@
     
     | Argument| Purpose | Example
     |-|-|-
-    | `{function}`| [{Function}](<Functions/12 🐍 {Function}.md>) to valuate and log. | `{MyFunction}` | 
+    | `{function}`| [{Function}](<12 🐍 {Function}.md>) to valuate and log. | `{MyFunction}` | 
     | `<string>` | String to evaluate and log. | `A` `I'm {$name}`
     | `{object}` | Object to evaluate and log. | `{A:1, B:$n}`
     
