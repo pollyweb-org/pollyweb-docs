@@ -158,7 +158,7 @@
     - TEMP|Checking availability...
     ```
 
-    | [Command ⌘](<../../../33 😃 Talkers/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../../9 😃 Talkers/20 Talker Flows/10 ⌘ Command.md>) | Purpose
     |-|-
     | ℹ️ [`INFO`](<21 ℹ️ INFO prompt.md>) | To show the result.
     | 1️⃣ [`ONE`](<53 1️⃣ ONE prompt.md>) | To show the options.
@@ -202,7 +202,7 @@
     - REPEAT
     ```
 
-    | [Command ⌘](<../../../33 😃 Talkers/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../../9 😃 Talkers/20 Talker Flows/10 ⌘ Command.md>) | Purpose
     |-|-
     | ℹ️ [`INFO`](<21 ℹ️ INFO prompt.md>) | To show the message.
     | 🔁 [`REPEAT`](<../../../9 😃 Talkers/20 Talker Flows/23 🔁 REPEAT flow.md>) | To repeat the input cycle forever.

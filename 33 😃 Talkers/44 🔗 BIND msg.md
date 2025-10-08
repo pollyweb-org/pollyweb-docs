@@ -7,7 +7,7 @@
 1. **What is a BIND message command?**
 
     A `BIND`
-    * is a message [Command ⌘](<10 ⌘ Command.md>) 
+    * is a message [Command ⌘](<../9 😃 Talkers/20 Talker Flows/10 ⌘ Command.md>) 
     * that invokes the [Bind @ Vault ⏩ flow](<../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind.md>).
 
     ---
@@ -123,7 +123,7 @@
        Else: FAILURE|Not bounded.
    ```
 
-   | [Command ⌘](<10 ⌘ Command.md>) | Purpose
+   | [Command ⌘](<../9 😃 Talkers/20 Talker Flows/10 ⌘ Command.md>) | Purpose
    |-|-
    | ⤵️ [IF](<../9 😃 Talkers/20 Talker Flows/21 ⤵️ IF flow.md>) | To verify the result.  
    
@@ -145,7 +145,7 @@
        Else: FAILURE|Not bounded.
    ```
 
-   | [Command ⌘](<10 ⌘ Command.md>) | Purpose
+   | [Command ⌘](<../9 😃 Talkers/20 Talker Flows/10 ⌘ Command.md>) | Purpose
    |-|-
    | ⬇️ [`EVAL`](<20 ⬇️ EVAL flow.md>) | To put the bindable array into a placeholder.
    | ⤵️ [`IF`](<../9 😃 Talkers/20 Talker Flows/21 ⤵️ IF flow.md>) | To verify the result.

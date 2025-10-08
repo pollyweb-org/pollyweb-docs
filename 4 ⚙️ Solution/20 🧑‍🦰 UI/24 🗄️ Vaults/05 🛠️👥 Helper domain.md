@@ -117,7 +117,7 @@
     - GOODBYE                   # Show advertisement
     ```
 
-    | [Command ⌘](<../../../33 😃 Talkers/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../../9 😃 Talkers/20 Talker Flows/10 ⌘ Command.md>) | Purpose
     |-|-
     | 📝 [`FORM`](<../../../33 😃 Talkers/41 📝 FORM msg.md>) | To provide instructions
     | 🔗 [`BIND`](<../../../33 😃 Talkers/44 🔗 BIND msg.md>) | To create a user profile

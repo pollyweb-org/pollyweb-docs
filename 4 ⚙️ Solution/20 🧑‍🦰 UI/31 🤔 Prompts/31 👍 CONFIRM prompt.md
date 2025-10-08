@@ -42,8 +42,8 @@
     
     | Argument| Purpose | Example
     |-|-|-
-    | `Then` | [Procedure ⚙️](<../../../33 😃 Talkers/11 ⚙️ Procedure.md>) or [Command ⌘](<../../../33 😃 Talkers/10 ⌘ Command.md>) on `True` | `INFO\|OK`
-    | `Else` | [Procedure ⚙️](<../../../33 😃 Talkers/11 ⚙️ Procedure.md>) or [Command ⌘](<../../../33 😃 Talkers/10 ⌘ Command.md>) on `False` | `INFO\|NOK`
+    | `Then` | [Procedure ⚙️](<../../../33 😃 Talkers/11 ⚙️ Procedure.md>) or [Command ⌘](<../../../9 😃 Talkers/20 Talker Flows/10 ⌘ Command.md>) on `True` | `INFO\|OK`
+    | `Else` | [Procedure ⚙️](<../../../33 😃 Talkers/11 ⚙️ Procedure.md>) or [Command ⌘](<../../../9 😃 Talkers/20 Talker Flows/10 ⌘ Command.md>) on `False` | `INFO\|NOK`
     | `Emoji` | Optional [alternative emoji 😶](<14 ✏️😶 Input emojis.md>) | `😶`
     | `Details` | Optional [expandable details ⊕](<03 🤔⊕ with Details.md>) | `Hint...`
     | `Appendix` | Optional [file attachment 📎](<05 🤔📎 with Appendix.md>) | `{/...}`

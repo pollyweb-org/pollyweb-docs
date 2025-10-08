@@ -8,8 +8,8 @@
 1. **What's a CASE flow?**
 
     A `CASE` 🔀
-    * is a flow [Command ⌘](<../../33 😃 Talkers/10 ⌘ Command.md>)  
-    * that runs a matching [Procedure ⚙️](<../../33 😃 Talkers/11 ⚙️ Procedure.md>) or [Command ⌘](<../../33 😃 Talkers/10 ⌘ Command.md>) 
+    * is a flow [Command ⌘](<10 ⌘ Command.md>)  
+    * that runs a matching [Procedure ⚙️](<../../33 😃 Talkers/11 ⚙️ Procedure.md>) or [Command ⌘](<10 ⌘ Command.md>) 
     * based on the evaluation of a [{Function}](<../../33 😃 Talkers/12 🐍 {Function}.md>).
 
     ---
@@ -31,7 +31,7 @@
     || Defaults to the last [input prompt ✏️](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/11 ✏️ Input behavior.md>) | `TEXT\|Id?`
     | `<value>`| Static value to be matched with. | `ABC`
     | `<action>`| Run a [Procedure ⚙️](<../../33 😃 Talkers/11 ⚙️ Procedure.md>) | `MyProc`
-    || or a one-line [Command ⌘](<../../33 😃 Talkers/10 ⌘ Command.md>). | `INFO\|OK`
+    || or a one-line [Command ⌘](<10 ⌘ Command.md>). | `INFO\|OK`
     
 
     ```yaml
@@ -62,7 +62,7 @@
 
     | Argument| Purpose
     |-|-
-    | `<cmd-n>`| Run a multi-line [Command ⌘](<../../33 😃 Talkers/10 ⌘ Command.md>) list.
+    | `<cmd-n>`| Run a multi-line [Command ⌘](<10 ⌘ Command.md>) list.
     
 
     ---
