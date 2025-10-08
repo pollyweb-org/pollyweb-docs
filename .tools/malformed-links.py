@@ -67,6 +67,9 @@ def extract_links_with_malformed_detection(content):
 
         # Find malformed links
         for patterns in [
+            r'\[[^\]]+\]\([^)\n]*\.md(?![^)]*\))',  # captures links missing closing ')'
+            #r'\[[^\]]+\]\([^)]*\.{2}/[^)]*\.md',  # catches odd '..' folder prefix before closing
+
             r'\[[^\]]+\][^ \[<]+\..+?\)\>?', # match links that are not closed
             r'\[.*?\]\(<?([^)>]+\.md)>(?!\))', # match links that are not closed
             r'\[[^\]]*\.[^\]]*\>\)' # match links that start with '[' and end with '>)', missing ']('
@@ -325,8 +328,11 @@ def print_results(broken_links, malformed_links):
                     file_name = os.path.basename(md_file)
                     
                     # Create a clickable link with empty [] and <> surrounding the path and line number
-                    file_link = f'[ {file_name} ](<{relative_file}#L{line_num}>)'
-                    print(f"\nIn file: {file_link}")
+                    import urllib.parse
+                    import pathlib
+                    encoded = urllib.parse.quote(relative_file)
+                    file_link = f'[ {file_name} ](<{encoded}#L{line_num}>)'
+                    print(f"\nIn file!: {file_link}")
 
                     print(f"  - Broken link : <{link}>")
                     print(f"  - Tip         : {tip}")
@@ -394,8 +400,21 @@ def print_results(broken_links, malformed_links):
             for md_file, links in malformed_links.items():
                 for malformed_link, line_num in links:
                     # Create a clickable link with empty [] and <> surrounding the path and line number
+                    
+                    import urllib.parse
+                    import pathlib
+                    encoded = urllib.parse.quote(md_file)
+                    file_link = f"[ ](<{encoded}#L{line_num}>)"
+                    
                     file_link = f"[ ](<{md_file}#L{line_num}>)"
-                    print(f"\nIn file: {file_link}")
+
+                    import os
+                    file_name_only= os.path.basename(md_file)
+                    encoded = urllib.parse.quote(file_name_only)
+                    encoded = urllib.parse.quote(md_file)
+                    file_link = f"file://{encoded}#L{line_num})"
+
+                    print(f"\nIn file±: {file_link}")
                     print(f"  - Line {line_num}: Malformed link: {malformed_link}")
 
                     suggestion = None
