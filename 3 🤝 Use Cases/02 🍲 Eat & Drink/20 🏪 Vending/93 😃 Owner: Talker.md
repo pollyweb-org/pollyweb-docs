@@ -94,9 +94,9 @@ Success:
 |Data| 🪣 [`MAP`](<../../../9 😃 Talkers/2 Data/61 🪣 MAP item.md>) | Look up items and machines
 |Input | 🔢 [`DIGITS`](<../../../9 😃 Talkers/3 Prompts/30 ✏️ Input prompts/44 🔢 DIGITS prompt.md>) | Ask for item number
 || 👍 [`CONFIRM`](<../../../9 😃 Talkers/3 Prompts/30 ✏️ Input prompts/31 👍 CONFIRM prompt.md>) | Confirm item name
-|Status| ⏳ [`TEMP`](<../../../9 😃 Talkers/3 Prompts/20 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>) | Show delivering status
-|| ✅ [`SUCCESS`](<../../../9 😃 Talkers/3 Prompts/20 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>) | Ask to pick the item
-|| ❌ [`FAILURE`](<../../../9 😃 Talkers/3 Prompts/20 ⚠️ Status prompts/24 ❌ FAILURE prompt.md>) | To show in case of error
+|Status| ⏳ [`TEMP`](<../../../9 😃 Talkers/3 Prompts/20 ⚠️🤔 Status prompts/25 ⏳ TEMP prompt.md>) | Show delivering status
+|| ✅ [`SUCCESS`](<../../../9 😃 Talkers/3 Prompts/20 ⚠️🤔 Status prompts/23 ✅ SUCCESS prompt.md>) | Ask to pick the item
+|| ❌ [`FAILURE`](<../../../9 😃 Talkers/3 Prompts/20 ⚠️🤔 Status prompts/24 ❌ FAILURE prompt.md>) | To show in case of error
 |Flow| ⤵️ [`IF`](<../../../9 😃 Talkers/03 Talker Flows/21 ⤵️ IF flow.md>)
 ||⬇️ [`EVAL`](<../../../9 😃 Talkers/2 Data/20 ⬇️ EVAL flow.md>)
 ||🪵 [`LOG`](<../../../9 😃 Talkers/2 Data/15 🪵 LOG flow.md>)

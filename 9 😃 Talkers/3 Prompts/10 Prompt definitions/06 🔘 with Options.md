@@ -21,7 +21,7 @@
     
     * [Prompt options](<06 🔘 with Options.md>) can be differed with [non-blocking status Prompts 🤔](<08 ⚠️ as Status.md>);../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/08 ⚠️ Status behavior.md
     
-        * e.g., [`INFO`](<../20 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>), [`TEMP`](<../20 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>), [`SUCCESS`](<../20 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>), and [`FAILURE`](<../20 ⚠️ Status prompts/24 ❌ FAILURE prompt.md>).../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/24 ❌ FAILURE prompt.md
+        * e.g., [`INFO`](<../20 ⚠️🤔 Status prompts/21 ℹ️ INFO prompt.md>), [`TEMP`](<../20 ⚠️🤔 Status prompts/25 ⏳ TEMP prompt.md>), [`SUCCESS`](<../20 ⚠️🤔 Status prompts/23 ✅ SUCCESS prompt.md>), and [`FAILURE`](<../20 ⚠️🤔 Status prompts/24 ❌ FAILURE prompt.md>).../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/24 ❌ FAILURE prompt.md
   
         * [Host 🤗 domains](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) speed-up [Chats 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) by taking unilateral two-way-door decisions that can be reverted by users even after other [Prompts 🤔](<01 🤔 Prompt.md>)../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md.
 
@@ -49,7 +49,7 @@
 
     |Behavior| [Prompt 🤔](<01 🤔 Prompt.md>) 
     |-|-
-    |[`Status`](<../20 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<../20 ⚠️ Status prompts/24 ❌ FAILURE prompt.md>)
+    |[`Status`](<../20 ⚠️🤔 Status prompts/23 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<../20 ⚠️🤔 Status prompts/24 ❌ FAILURE prompt.md>)
     |[`Inputs`](<../30 ✏️ Input prompts/32 🔠 TEXT prompt.md>) 
 
     ---
@@ -68,7 +68,7 @@
 
     | Argument| Purpose | Example
     |-|-|-
-    | `<PROMPT>` | A [Prompt 🤔](<../20 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>)
+    | `<PROMPT>` | A [Prompt 🤔](<../20 ⚠️🤔 Status prompts/25 ⏳ TEMP prompt.md>)
     | `<message>` |  Message to show to the user. | `Hi!`
     | `<options>` | Comma-separated strings, or | `A,B,C`
     || a comma-separated dictionary | `1:A,2:B`
@@ -163,7 +163,7 @@
     |-|-
     | 1️⃣ [`ONE`](<../30 ✏️ Input prompts/53 1️⃣ ONE prompt.md>) | To show the options.
     | 🔀 [`CASE`](<../../03 Talker Flows/22 🔀 CASE flow.md>) | To check the selected option.
-    | ℹ️ [`INFO`](<../20 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) | To show the result.
+    | ℹ️ [`INFO`](<../20 ⚠️🤔 Status prompts/21 ℹ️ INFO prompt.md>) | To show the result.
     
 
     <br/> 
@@ -238,7 +238,7 @@
     |-|-
     | 1️⃣ [`ONE`](<../30 ✏️ Input prompts/53 1️⃣ ONE prompt.md>) | To show the options.
     | 🔀 [`CASE`](<../../03 Talker Flows/22 🔀 CASE flow.md>) | To check the selected option.
-    | ℹ️ [`INFO`](<../20 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) | To show the result.
+    | ℹ️ [`INFO`](<../20 ⚠️🤔 Status prompts/21 ℹ️ INFO prompt.md>) | To show the result.
     
 
     ---
