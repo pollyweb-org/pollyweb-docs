@@ -33,7 +33,7 @@
     | [🔄&nbsp;QUANTITY](<42 🔄 QUANTITY prompt.md>) | Shows up/down arrows.
     | [💰&nbsp;AMOUNT](<43 💰 AMOUNT prompt.md>) | Allows for decimals
     | [🔑&nbsp;OTP](<57 🔑 OTP prompt.md>) | Asks for 6 digits
-    | [1️⃣&nbsp;ONE](<55 1️⃣ ONE prompt.md>) | One of multiple options
+    | [1️⃣&nbsp;ONE](<53 1️⃣ ONE prompt.md>) | One of multiple options
     | [🔠&nbsp;MANY](<54 🔠 MANY prompt.md>) | Zero or more of multiple options
     | [⭐&nbsp;RATE](<46 ⭐ RATE prompt.md>) | 1 to 5 stars
     | [🕓&nbsp;TIME](<62 🕓 TIME prompt.md>) | Asks for time of day
@@ -59,7 +59,7 @@
     * e.g., ask to share the code `nlweb.org/BOOKING/CONTACTS` instead of asking for the name, then the phone number, then the email address, and so on.
   
     When [Prompts 🤔](<01 🤔 Prompt.md>) are inevitable, avoid [`TEXT`](<32 🔠 TEXT prompt.md>) prompts; 
-    * instead, prefer low-effort prompts like [`ONE`](<55 1️⃣ ONE prompt.md>);
+    * instead, prefer low-effort prompts like [`ONE`](<53 1️⃣ ONE prompt.md>);
     * e.g., searchable lists with one or many possible options.
 
     ---
