@@ -1,4 +1,4 @@
-🤔 Prompt FAQ
+🤔 Prompt
 ===
 
 > Part of a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) 

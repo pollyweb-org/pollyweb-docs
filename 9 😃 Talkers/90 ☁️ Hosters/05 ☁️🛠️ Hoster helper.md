@@ -1,4 +1,4 @@
-# 🧑‍💻🛠️ Hoster helper FAQ
+# 🧑‍💻🛠️ Hoster helper
 
 |.|.|.
 |-|-|-
