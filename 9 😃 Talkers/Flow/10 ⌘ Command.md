@@ -63,7 +63,7 @@
     | 🛒 [`EAN`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/74 🛒 EAN prompt.md>)
     | ⬆️ [`UPLOAD`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/81 ⬆️ UPLOAD prompt.md>)
     | 📍 [`LOCATION`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/91 📍 LOCATION prompt.md>)
-    | 🗺️ [`TRACK`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/92 🗺️ TRACK prompt.md>)
+    | 🗺️ [`TRACK`](<../Prompts/92 🗺️ TRACK prompt.md>)
 
     ---
     <br/>

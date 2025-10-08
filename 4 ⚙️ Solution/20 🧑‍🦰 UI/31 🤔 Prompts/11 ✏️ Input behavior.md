@@ -43,7 +43,7 @@
     | [🦋&nbsp;TOUCH](<73 🦋 TOUCH prompt.md>) | Asks to touch/scan a [QR/NFC Ephemeral 🦋 device](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>)
     | [⬆️&nbsp;UPLOAD](<81 ⬆️ UPLOAD prompt.md>)| Asks to upload a file or photo
     | [📍&nbsp;LOCATION](<91 📍 LOCATION prompt.md>) | Asks for the current location
-    | [🗺️&nbsp;TRACK](<92 🗺️ TRACK prompt.md>) | Asks to track the location
+    | [🗺️&nbsp;TRACK](<../../../9 😃 Talkers/Prompts/92 🗺️ TRACK prompt.md>) | Asks to track the location
     | [👤&nbsp;IDENTIFY](<71 👤 IDENTIFY prompt.md>) | Asks the user's [Identity 🆔 agent](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) to verify the user
 
 
