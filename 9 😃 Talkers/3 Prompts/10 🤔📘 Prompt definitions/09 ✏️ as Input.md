@@ -15,9 +15,9 @@
     
     ||Section | Details
     |-|- | -
-    ||[⏭️ Input nullability](<../25 ✏️ Input defintions/12 ✏️⏭️ Input nullability.md>) | Allow inputs to be optional.
-    ||[📋 Input validation](<../25 ✏️ Input defintions/13 ✏️📋 Input validation.md>) | Client versus Server side validation.
-    ||[😶 Input emojis](<../25 ✏️ Input defintions/14 ✏️😶 Input emojis.md>) | Changing the default emojis.
+    ||[⏭️ Input nullability](<../25 ✏️📘 Input defintions/12 ✏️⏭️ Input nullability.md>) | Allow inputs to be optional.
+    ||[📋 Input validation](<../25 ✏️📘 Input defintions/13 ✏️📋 Input validation.md>) | Client versus Server side validation.
+    ||[😶 Input emojis](<../25 ✏️📘 Input defintions/14 ✏️😶 Input emojis.md>) | Changing the default emojis.
     
     ---
     <br/>

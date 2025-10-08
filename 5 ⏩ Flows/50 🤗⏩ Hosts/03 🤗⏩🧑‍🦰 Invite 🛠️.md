@@ -36,7 +36,7 @@ The associated [Talker 😃](<../../9 😃 Talkers/01 😃 Talker.md>) is as fol
 
 | [Command ⌘](<../../9 😃 Talkers/03 Talker Flows/10 ⌘ Command.md>) | Purpose
 |-|-
-| ℹ️ [`INFO`](<../../9 😃 Talkers/3 Prompts/20 ⚠️🤔 Status prompts/21 ℹ️ INFO prompt.md>) | To show the messages to the user.
+| ℹ️ [`INFO`](<../../9 😃 Talkers/3 Prompts/40 ⚠️🤔 Status prompts/21 ℹ️ INFO prompt.md>) | To show the messages to the user.
 | 🛠️ [`INVITE`](<../../9 😃 Talkers/5 Messages/46 🛠️ INVITE msg.md>) | To collect a random number.
 |
 

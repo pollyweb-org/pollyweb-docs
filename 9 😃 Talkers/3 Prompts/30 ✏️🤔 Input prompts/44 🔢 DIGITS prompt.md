@@ -71,11 +71,11 @@
     
     | Argument| Purpose | Example
     |-|-|-
-    | `MinLength` | Optional [minimum length 📋](<../25 ✏️ Input defintions/13 ✏️📋 Input validation.md>) | `1`
-    | `MaxLength` | Optional [maximum length 📋](<../25 ✏️ Input defintions/13 ✏️📋 Input validation.md>) | `5`
-    | `Emoji` | Optional [alternative emoji 😶](<../25 ✏️ Input defintions/14 ✏️😶 Input emojis.md>) | `😶`
+    | `MinLength` | Optional [minimum length 📋](<../25 ✏️📘 Input defintions/13 ✏️📋 Input validation.md>) | `1`
+    | `MaxLength` | Optional [maximum length 📋](<../25 ✏️📘 Input defintions/13 ✏️📋 Input validation.md>) | `5`
+    | `Emoji` | Optional [alternative emoji 😶](<../25 ✏️📘 Input defintions/14 ✏️😶 Input emojis.md>) | `😶`
     | `Details` | Optional [expandable details ⊕](<../10 🤔📘 Prompt definitions/04 ⊕ with Details.md>) | `Hint...`
-    | `Nullable` | Optional [skip flag ⏭️](<../25 ✏️ Input defintions/12 ✏️⏭️ Input nullability.md>) | `Yes`
+    | `Nullable` | Optional [skip flag ⏭️](<../25 ✏️📘 Input defintions/12 ✏️⏭️ Input nullability.md>) | `Yes`
     | `Appendix` | Optional [file attachment 📎](<../10 🤔📘 Prompt definitions/05 📎 with Appendix.md>) | `<uuid>`
     
 

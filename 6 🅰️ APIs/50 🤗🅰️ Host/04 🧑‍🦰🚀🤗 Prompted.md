@@ -54,8 +54,8 @@ Options:                            # Optional
 |-|-|-|-
 || [`Format`](<../../9 😃 Talkers/3 Prompts/10 🤔📘 Prompt definitions/01 🤔 Prompt.md>)  | string | One format supported by [Prompts 🤔](<../../9 😃 Talkers/3 Prompts/10 🤔📘 Prompt definitions/01 🤔 Prompt.md>)
 || `Message` | string | Main message,  to display in the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
-|| [`MinValue`](<../../9 😃 Talkers/3 Prompts/25 ✏️ Input defintions/13 ✏️📋 Input validation.md>) | int | Optional minimum value
-|| [`MaxValue`](<../../9 😃 Talkers/3 Prompts/25 ✏️ Input defintions/13 ✏️📋 Input validation.md>) | int | Optional maximum value
+|| [`MinValue`](<../../9 😃 Talkers/3 Prompts/25 ✏️📘 Input defintions/13 ✏️📋 Input validation.md>) | int | Optional minimum value
+|| [`MaxValue`](<../../9 😃 Talkers/3 Prompts/25 ✏️📘 Input defintions/13 ✏️📋 Input validation.md>) | int | Optional maximum value
 || [`Appendix`](<../../9 😃 Talkers/3 Prompts/10 🤔📘 Prompt definitions/05 📎 with Appendix.md>)| uuid   | File to download via [`Download@Host`](<06 🧑‍🦰🚀🤗 Download.md>)
 || [`Details`](<../../9 😃 Talkers/3 Prompts/10 🤔📘 Prompt definitions/04 ⊕ with Details.md>) | string | Extended [details](<../../9 😃 Talkers/3 Prompts/10 🤔📘 Prompt definitions/04 ⊕ with Details.md>) in Markdown format
 || [`Options`](<../../9 😃 Talkers/3 Prompts/10 🤔📘 Prompt definitions/06 🔘 with Options.md>) | object[]   | List of `Option` objects

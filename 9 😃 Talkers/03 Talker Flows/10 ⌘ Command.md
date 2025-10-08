@@ -34,10 +34,10 @@
 
     Command | Purpose
     |-|-
-    | ℹ️ [`INFO`](<../3 Prompts/20 ⚠️🤔 Status prompts/21 ℹ️ INFO prompt.md>) | Information message.
-    | ⏳ [`TEMP`](<../3 Prompts/20 ⚠️🤔 Status prompts/25 ⏳ TEMP prompt.md>) |Temporary status message.
-    | ✅ [`SUCCESS`](<../3 Prompts/20 ⚠️🤔 Status prompts/23 ✅ SUCCESS prompt.md>) | Successful status message.
-    | ❌ [`FAILURE`](<../3 Prompts/20 ⚠️🤔 Status prompts/24 ❌ FAILURE prompt.md>) | Unsuccessful status message.
+    | ℹ️ [`INFO`](<../3 Prompts/40 ⚠️🤔 Status prompts/21 ℹ️ INFO prompt.md>) | Information message.
+    | ⏳ [`TEMP`](<../3 Prompts/40 ⚠️🤔 Status prompts/25 ⏳ TEMP prompt.md>) |Temporary status message.
+    | ✅ [`SUCCESS`](<../3 Prompts/40 ⚠️🤔 Status prompts/23 ✅ SUCCESS prompt.md>) | Successful status message.
+    | ❌ [`FAILURE`](<../3 Prompts/40 ⚠️🤔 Status prompts/24 ❌ FAILURE prompt.md>) | Unsuccessful status message.
 
     ---
     <br/>
@@ -108,7 +108,7 @@
     Command | Purpose
     |-|-
     | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | Runs a [Command ⌘](<10 ⌘ Command.md>) or [Procedure ⚙️](<11 ⚙️ Procedure.md>) matching a [{Function}](<Functi../Functions/12 🐍 {Function}.md
-    | 🫥 [`EMOJI`](<../16 😶 EMOJI flow.md>) | Changes the [default emoji 😃](<../3 Prompts/25 ✏️ Input defintions/14 ✏️😶 Input emojis.md>) for [input prompts ✏️](<../3 Prompts/10 🤔📘 Prompt definitions/09 ✏️ as Input.md>).
+    | 🫥 [`EMOJI`](<../16 😶 EMOJI flow.md>) | Changes the [default emoji 😃](<../3 Prompts/25 ✏️📘 Input defintions/14 ✏️😶 Input emojis.md>) for [input prompts ✏️](<../3 Prompts/10 🤔📘 Prompt definitions/09 ✏️ as Input.md>).
     | ⬇️ [`EVAL`](<../03 Talker Data/20 ⬇️ EVAL flow.md>) | Evaluates a [{Function}](<../03 Talker Data/12 🐍 {Function}.md>) into a placeholder.
     | ⤵️ [`IF`](<21 ⤵️ IF flow.md>) | Runs a [Command ⌘](<10 ⌘ Command.md>) or [Procedure ⚙️](<11 ⚙️ Procedure.md>) based on a [{Function}](<Functi../Functions/12 🐍 {Function}.md
     | 🪵 [`LOG`](<../03 Talker Data/15 🪵 LOG flow.md>) | Logs messages into the system handler.
