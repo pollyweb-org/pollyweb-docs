@@ -50,7 +50,7 @@
     |Behavior| [Prompt 🤔](<01 🤔 Prompt.md>) 
     |-|-
     |[`Status`](<../20 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<../20 ⚠️ Status prompts/24 ❌ FAILURE prompt.md>)
-    |[`Inputs`](<../30 Input prompts/32 🔠 TEXT prompt.md>) 
+    |[`Inputs`](<../30 ✏️ Input prompts/32 🔠 TEXT prompt.md>) 
 
     ---
     <br/>
@@ -161,7 +161,7 @@
 
     | [Command ⌘](<../../03 Talker Flows/10 ⌘ Command.md>) | Purpose
     |-|-
-    | 1️⃣ [`ONE`](<../30 Input prompts/53 1️⃣ ONE prompt.md>) | To show the options.
+    | 1️⃣ [`ONE`](<../30 ✏️ Input prompts/53 1️⃣ ONE prompt.md>) | To show the options.
     | 🔀 [`CASE`](<../../03 Talker Flows/22 🔀 CASE flow.md>) | To check the selected option.
     | ℹ️ [`INFO`](<../20 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) | To show the result.
     
@@ -236,7 +236,7 @@
 
     | [Command ⌘](<../../03 Talker Flows/10 ⌘ Command.md>) | Purpose
     |-|-
-    | 1️⃣ [`ONE`](<../30 Input prompts/53 1️⃣ ONE prompt.md>) | To show the options.
+    | 1️⃣ [`ONE`](<../30 ✏️ Input prompts/53 1️⃣ ONE prompt.md>) | To show the options.
     | 🔀 [`CASE`](<../../03 Talker Flows/22 🔀 CASE flow.md>) | To check the selected option.
     | ℹ️ [`INFO`](<../20 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) | To show the result.
     
