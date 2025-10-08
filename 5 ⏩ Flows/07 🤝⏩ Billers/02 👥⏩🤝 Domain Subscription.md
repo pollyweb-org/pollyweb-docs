@@ -5,12 +5,12 @@
     ![](<../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/00 📎 Assets/💳 Biller Domain.png>)
 
     Users with ADMIN [Tokens 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) sign contracts on behalf of [Issuer 🎴 domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) that issued them 
-    * e.g., for `any-biller.com` to accept the signature of a user on behalf of `any-domain.com`, the user needs to hold a [`@HOST/ADMIN 🧩`](<../../{codes}/HOST/🧩 HostAdmin.md>) [Token](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) issued by `any-domain.com`;
+    * e.g., for `any-biller.com` to accept the signature of a user on behalf of `any-domain.com`, the user needs to hold a [`@HOST/ADMIN 🧩`](<../../7 🧩 Schemas/HOST/🧩 HostAdmin.md>) [Token](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) issued by `any-domain.com`;
 
     The following additional preconditions must be met:
-    - the user has an [`@HOST/ADMIN 🧩`](<../../{codes}/HOST/🧩 HostAdmin.md>) [Token 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) issued by the domain.
+    - the user has an [`@HOST/ADMIN 🧩`](<../../7 🧩 Schemas/HOST/🧩 HostAdmin.md>) [Token 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) issued by the domain.
 
     The subscription workflow as the following additional steps:
-    - the [Seller 💵 domain](<../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) asks the user to share the domain's [`@HOST/ADMIN 🧩`](<../../{codes}/HOST/🧩 HostAdmin.md>) [Token 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>).
+    - the [Seller 💵 domain](<../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) asks the user to share the domain's [`@HOST/ADMIN 🧩`](<../../7 🧩 Schemas/HOST/🧩 HostAdmin.md>) [Token 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>).
 
     ---

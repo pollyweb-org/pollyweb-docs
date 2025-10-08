@@ -70,7 +70,7 @@ Success:
 
 | Dependencies | Purpose
 |-|-
-| [🧩 `//IDENTITY/OVER21`](<../../../{codes}/IDENTITY/🧩 IdentityOver21.md>) | Verify minimum age to drink
+| [🧩 `//IDENTITY/OVER21`](<../../../7 🧩 Schemas/IDENTITY/🧩 IdentityOver21.md>) | Verify minimum age to drink
 | [🪣 `Items`](<94 🪣 Owner: Items.md>) | List of items to [`MAP`](<../../../9 😃 Talkers/61 🪣 MAP item.md>)
 | [🪣 `Locators`](<95 🪣 Owner: Locators.md>) | List of machines to [`MAP`](<../../../9 😃 Talkers/61 🪣 MAP item.md>)
 |

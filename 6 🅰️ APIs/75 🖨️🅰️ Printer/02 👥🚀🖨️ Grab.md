@@ -31,5 +31,5 @@ Body:
 |-|-
 | 200   | Success.
 | 409   | Alias already occupied: <br/> - use another alias.
-| 405   | Locator not supported: <br/> - only [`nlweb.org/HOST 🧩`](<../../{codes}/HOST/🧩 Host.md>) is supported.
+| 405   | Locator not supported: <br/> - only [`nlweb.org/HOST 🧩`](<../../7 🧩 Schemas/HOST/🧩 Host.md>) is supported.
 |

@@ -90,7 +90,7 @@
    
     | Data | [Schema Code 🧩](<../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)
     |-|-
-    | Social Name |  [`nlweb.org/PERSONA/NAME/SOCIAL` 🧩](<../{codes}/PERSONA/🧩 PersonaNameSocial.md>)
+    | Social Name |  [`nlweb.org/PERSONA/NAME/SOCIAL` 🧩](<../7 🧩 Schemas/PERSONA/🧩 PersonaNameSocial.md>)
    
     ---
     <br/>

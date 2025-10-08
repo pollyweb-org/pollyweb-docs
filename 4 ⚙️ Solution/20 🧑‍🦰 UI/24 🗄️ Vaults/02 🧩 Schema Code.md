@@ -18,8 +18,8 @@
 
     | Schema Code | Purpose |
     |-|-
-    | [`nlweb.org/MSG` 🧩](<../../../{codes}/MSG/🧩 Mgs.md>) | Schema of [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) 
-    | [`nlweb.org/TOKEN` 🧩](<../../../{codes}/TOKEN/🧩 Token.md>) | Schema of [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>)
+    | [`nlweb.org/MSG` 🧩](<../../../7 🧩 Schemas/MSG/🧩 Mgs.md>) | Schema of [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) 
+    | [`nlweb.org/TOKEN` 🧩](<../../../7 🧩 Schemas/TOKEN/🧩 Token.md>) | Schema of [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>)
     | [`unicode.org/FLAG` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 unicode.any-igo.org.md>) | Flags for country [Prompts 🤔](<../31 🤔 Prompts/01 🤔 Prompt.md>)
     | [`locale.org/TERRITORY` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 locale.any-igo.org.md>) | Country names for [Prompts 🤔](<../31 🤔 Prompts/01 🤔 Prompt.md>)
     | [`standards.org/639-1` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 standards.any-igo.org.md>) | Language codes (e.g., `en-us`)
@@ -129,10 +129,10 @@
 
     | Schema | Description
     |-|-
-    | [`nlweb.org/MANIFEST/CODE` 🧩](<../../../{codes}/MANIFEST/🧩 ManifestCode.md>) | CODE properties.
-    | [`nlweb.org/MANIFEST/CODE/SCHEMA` 🧩](<../../../{codes}/MANIFEST/🧩 ManifestCodeSchema.md>) | CODE/SCHEMA properties.
-    | [`nlweb.org/MANIFEST/DELEGATE` 🧩](<../../../{codes}/MANIFEST/🧩 ManifestDelegate.md>) | Delegation to other [Authorities 🏛️](<../../40 👥 Domains/43 👍 Trusts/02 🏛️🛠️ Authority helper.md>).
-    | [`nlweb.org/TYPES` 🧩](<../../../{codes}/TYPES/🧩 Types.md>) | Generic referenceable types.
+    | [`nlweb.org/MANIFEST/CODE` 🧩](<../../../7 🧩 Schemas/MANIFEST/🧩 ManifestCode.md>) | CODE properties.
+    | [`nlweb.org/MANIFEST/CODE/SCHEMA` 🧩](<../../../7 🧩 Schemas/MANIFEST/🧩 ManifestCodeSchema.md>) | CODE/SCHEMA properties.
+    | [`nlweb.org/MANIFEST/DELEGATE` 🧩](<../../../7 🧩 Schemas/MANIFEST/🧩 ManifestDelegate.md>) | Delegation to other [Authorities 🏛️](<../../40 👥 Domains/43 👍 Trusts/02 🏛️🛠️ Authority helper.md>).
+    | [`nlweb.org/TYPES` 🧩](<../../../7 🧩 Schemas/TYPES/🧩 Types.md>) | Generic referenceable types.
 
     ---
     <br/>
@@ -159,7 +159,7 @@
 
     Yes. 
     - NLWeb schemas are defined by [JSON Schema](https://json-schema.org/understanding-json-schema/reference) converted to YAML.
-    - Details are available at [`nlweb.org/MANIFEST/CODE/SCHEMA` 🧩](<../../../{codes}/MANIFEST/🧩 ManifestCodeSchema.md>).
+    - Details are available at [`nlweb.org/MANIFEST/CODE/SCHEMA` 🧩](<../../../7 🧩 Schemas/MANIFEST/🧩 ManifestCodeSchema.md>).
   
 
     Consider the following example from [`standards.any-igo.org` 📜](<../../../8 📜 Manifests/👥 any-igo.org/📜 standards.any-igo.org.md>).
@@ -198,12 +198,12 @@
 
     Yes.
     * Using the `Inherits` property
-        * defined in [`nlweb.org/MANIFEST/CODE/SCHEMA` 🧩](<../../../{codes}/MANIFEST/🧩 ManifestCodeSchema.md>).
-    * Consider [`nlweb.org/LOCATOR` 🧩](<../../../{codes}/LOCATOR/🧩 Locator.md>)
+        * defined in [`nlweb.org/MANIFEST/CODE/SCHEMA` 🧩](<../../../7 🧩 Schemas/MANIFEST/🧩 ManifestCodeSchema.md>).
+    * Consider [`nlweb.org/LOCATOR` 🧩](<../../../7 🧩 Schemas/LOCATOR/🧩 Locator.md>)
         * who defines properties `Code`, `Domain`, `Resource`.
-    * It is inherited by [`nlweb.org/TOKEN` 🧩](<../../../{codes}/TOKEN/🧩 Token.md>)
+    * It is inherited by [`nlweb.org/TOKEN` 🧩](<../../../7 🧩 Schemas/TOKEN/🧩 Token.md>)
         * who adds properties `Issued`, `Starts`, `Expires`, `Signature`.
-    * Then inherited by [`nlweb.org/HOST/BOOKING` 🧩](<../../../{codes}/HOST/🧩 HostBooking.md>)
+    * Then inherited by [`nlweb.org/HOST/BOOKING` 🧩](<../../../7 🧩 Schemas/HOST/🧩 HostBooking.md>)
         * who adds properties `For`, `Time`, `Place`, `Seat`, `Latitude`, `Longitude`.
     
     ---
@@ -214,15 +214,15 @@
 
     Yes, 
     * using the `$ref` keyword from JSON Schema 
-    * as defined in [`nlweb.org/MANIFEST/CODE/SCHEMA` 🧩](<../../../{codes}/MANIFEST/🧩 ManifestCodeSchema.md>).
+    * as defined in [`nlweb.org/MANIFEST/CODE/SCHEMA` 🧩](<../../../7 🧩 Schemas/MANIFEST/🧩 ManifestCodeSchema.md>).
     
-    Consider [`nlweb.org/MANIFEST` 🧩](<../../../{codes}/MANIFEST/🧩 Manifest.md>):
-    * it references [`nlweb.org/MANIFEST/IDENTITY` 🧩](<../../../{codes}/MANIFEST/🧩 ManifestIdentity.md>)
+    Consider [`nlweb.org/MANIFEST` 🧩](<../../../7 🧩 Schemas/MANIFEST/🧩 Manifest.md>):
+    * it references [`nlweb.org/MANIFEST/IDENTITY` 🧩](<../../../7 🧩 Schemas/MANIFEST/🧩 ManifestIdentity.md>)
         ```yaml
         Identity:
           $ref: nlweb.org/MANIFEST/IDENTITY:1.0
         ```
-    * and references [`nlweb/MANIFEST/TRUST` 🧩](<../../../{codes}/MANIFEST/🧩 ManifestTrust.md>).
+    * and references [`nlweb/MANIFEST/TRUST` 🧩](<../../../7 🧩 Schemas/MANIFEST/🧩 ManifestTrust.md>).
         ```yaml
         Trusts:
         type: array
@@ -236,11 +236,11 @@
 1. **Can a Schema reference a specific property of another Schema?**
 
     Yes.
-    * See [`nlweb.org/MANIFEST/TRUST` 🧩](<../../../{codes}/MANIFEST/🧩 ManifestTrust.md>)
+    * See [`nlweb.org/MANIFEST/TRUST` 🧩](<../../../7 🧩 Schemas/MANIFEST/🧩 ManifestTrust.md>)
         * whose property `Domain`
         * references `Domain@nlweb.org/TYPES`
-        * defined in [`nlweb.org/TYPES` 🧩](<../../../{codes}/TYPES/🧩 Types.md>).
-    * See [`nlweb.org/PERSONA/ADDRESS` 🧩](<../../../{codes}/PERSONA/🧩 PersonaAddress.md>)
+        * defined in [`nlweb.org/TYPES` 🧩](<../../../7 🧩 Schemas/TYPES/🧩 Types.md>).
+    * See [`nlweb.org/PERSONA/ADDRESS` 🧩](<../../../7 🧩 Schemas/PERSONA/🧩 PersonaAddress.md>)
         * whose property `Country`
         * references `Alpha2@standards.any-igo.org/3166-1`
         * defined in [`standards.any-igo.org` 📜](<../../../8 📜 Manifests/👥 any-igo.org/📜 standards.any-igo.org.md>).

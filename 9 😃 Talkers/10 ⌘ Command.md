@@ -88,7 +88,7 @@
    
    * `REDIRECT|{host}|{locator}`	
        * Calls 👉 Check-in: 👱📎 Wallet. Sessions
-       * With [🧩 nlweb.org/HOST](<../{codes}/HOST/🧩 Host.md>)
+       * With [🧩 nlweb.org/HOST](<../7 🧩 Schemas/HOST/🧩 Host.md>)
    * `RESUBSCRIBE|<amount>`	
        * Calls 🐌 Resubscribe: 🤵📎 Broker. Pay()
    * `REVOKE|{credentialID}`	
