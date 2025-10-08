@@ -79,9 +79,9 @@ Success:
 
 ## Functions
 
-[Functions](<../../../9 😃 Talkers/12 🐍 {Function}.md>)| Type | Purpose
+[Functions](<../../../9 😃 Talkers/Functions/12 🐍 {Function}.md>)| Type | Purpose
 |-|-|-
-| [`.Chat.Key`](<../../../9 😃 Talkers/13 💬 {.Chat} function.md>) | Built-in | Get machine's [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) key.
+| [`.Chat.Key`](<../../../9 😃 Talkers/Functions/13 💬 {.Chat} function.md>) | Built-in | Get machine's [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) key.
 | `Deduct` | Custom | Deduct the stock from the ERP.
 |
 
@@ -98,7 +98,7 @@ Success:
 || ✅ [`SUCCESS`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/23 ✅ SUCCESS prompt.md>) | Ask to pick the item
 || ❌ [`FAILURE`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/24 ❌ FAILURE prompt.md>) | To show in case of error
 |Flow| ⤵️ [`IF`](<../../../9 😃 Talkers/21 ⤵️ IF flow.md>)
-||⬇️ [`EVAL`](<../../../9 😃 Talkers/20 ⬇️ EVAL flow.md>)
+||⬇️ [`EVAL`](<../../../9 😃 Talkers/Functions/20 ⬇️ EVAL flow.md>)
 ||🪵 [`LOG`](<../../../9 😃 Talkers/15 🪵 LOG flow.md>)
 |Message| 💼 [`SHARE`](<../../../9 😃 Talkers/Messages/45 💼 SHARE msg.md>) | Ask for proof of over 21
 || 💳 [`CHARGE`](<../../../9 😃 Talkers/Messages/47 💳 CHARGE msg.md>) | Charge the item price
