@@ -18,7 +18,7 @@
 
 1. **How to define a Resource Pool?**
 
-    Resource Pools are defined in three ways in [Hoster ☁️ domains](<../35 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>).
+    Resource Pools are defined in three ways in [Hoster ☁️ domains](<../4 ⚙️ Solution/20 🧑‍🦰 UI/35 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>).
 
     |Format| Details
     |-|-
@@ -65,7 +65,7 @@
 
 1. **What are use cases?**
 
-    * [Vending machines 🏪](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/01 🏪 Index.md>)
+    * [Vending machines 🏪](<../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/01 🏪 Index.md>)
 
     ---
     <br/>
@@ -111,10 +111,10 @@
     ---
     <br>
 
-1. **What does it look in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
+1. **What does it look in a [Chat 💬](<../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)?**
 
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 🍫 Vending | 😃 What's the item number?   | 🔢 123
     | 🍫 Vending | 😃 A water bottle? [Yes, No]  

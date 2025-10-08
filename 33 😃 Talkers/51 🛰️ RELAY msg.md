@@ -10,7 +10,7 @@
     A `RELAY` 
     * is a [Command ⌘](<10 ⌘ Command.md>) 
     * that sends messages to physical devices
-    * via [Relayer 🛰️ helper domains](<../../60 🧰 Edge/61 🔌 Pluggables/04 🛰️🛠️ Relayer helper.md>).
+    * via [Relayer 🛰️ helper domains](<../4 ⚙️ Solution/60 🧰 Edge/61 🔌 Pluggables/04 🛰️🛠️ Relayer helper.md>).
 
     ---
     <br/>
@@ -19,7 +19,7 @@
 1. **What are use cases?**
 
     Examples include:
-    * The [Talker 😃](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/93 😃 Owner: Talker.md>) at [Vending machines 🏪](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/01 🏪 Index.md>)
+    * The [Talker 😃](<../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/93 😃 Owner: Talker.md>) at [Vending machines 🏪](<../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/01 🏪 Index.md>)
 
     ---
     <br/>
@@ -36,10 +36,10 @@
 
     | Argument| Purpose
     |-|-
-    | `<pool>` | Name of device pool in the [Relayer 🛰️](<../../60 🧰 Edge/61 🔌 Pluggables/04 🛰️🛠️ Relayer helper.md>)
+    | `<pool>` | Name of device pool in the [Relayer 🛰️](<../4 ⚙️ Solution/60 🧰 Edge/61 🔌 Pluggables/04 🛰️🛠️ Relayer helper.md>)
     | `<key>`  | Unique device key in the pool
     | `<message>` | Message to send to the device
-    | `$result` | The response returned by the [Relayer 🛰️](<../../60 🧰 Edge/61 🔌 Pluggables/04 🛰️🛠️ Relayer helper.md>)
+    | `$result` | The response returned by the [Relayer 🛰️](<../4 ⚙️ Solution/60 🧰 Edge/61 🔌 Pluggables/04 🛰️🛠️ Relayer helper.md>)
     | `<failure>` | [Procedure ⚙️](<11 ⚙️ Procedure.md>) or [Command ⌘](<10 ⌘ Command.md>) to run on failure
     | `<success>` | [Procedure ⚙️](<11 ⚙️ Procedure.md>) or [Command ⌘](<10 ⌘ Command.md>) to run on success
 
@@ -48,11 +48,11 @@
 
 1. **How to open a locker door remotely?**
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ This is Locker LND-123
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ⏳ Opening door 7...
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Locker opened.
+    | [🤗 Host](<../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ This is Locker LND-123
+    | [🤗 Host](<../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ⏳ Opening door 7...
+    | [🤗 Host](<../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Locker opened.
 
     ```yaml
     # 😃 Talker 

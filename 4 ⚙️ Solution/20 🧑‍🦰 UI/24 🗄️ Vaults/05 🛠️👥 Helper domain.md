@@ -96,7 +96,7 @@
     | 🛠️ [Helper](<05 🛠️👥 Helper domain.md>) | ✅ Done!
     |
 
-    Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../../33 😃 Talkers/01 😃 Talker.md>).
 
     ```yaml
     💬 Register:                # Entry menu
@@ -117,15 +117,15 @@
     - GOODBYE                   # Show advertisement
     ```
 
-    | [Command ⌘](<../33 😃 Talkers/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../../33 😃 Talkers/10 ⌘ Command.md>) | Purpose
     |-|-
-    | 📝 [`FORM`](<../33 😃 Talkers/41 📝 FORM msg.md>) | To provide instructions
-    | 🔗 [`BIND`](<../33 😃 Talkers/44 🔗 BIND msg.md>) | To create a user profile
-    | 🛠️ [`INVITE`](<../33 😃 Talkers/46 🛠️ INVITE msg.md>) | To subscribe the user to plan
-    | ❄️ [`FREEZE`](<../33 😃 Talkers/42 ❄️ FREEZE msg.md>) | To disable past inputs
-    | ⬇️ [`EVAL`](<../33 😃 Talkers/20 ⬇️ EVAL flow.md>) | To register on the database
+    | 📝 [`FORM`](<../../../33 😃 Talkers/41 📝 FORM msg.md>) | To provide instructions
+    | 🔗 [`BIND`](<../../../33 😃 Talkers/44 🔗 BIND msg.md>) | To create a user profile
+    | 🛠️ [`INVITE`](<../../../33 😃 Talkers/46 🛠️ INVITE msg.md>) | To subscribe the user to plan
+    | ❄️ [`FREEZE`](<../../../33 😃 Talkers/42 ❄️ FREEZE msg.md>) | To disable past inputs
+    | ⬇️ [`EVAL`](<../../../33 😃 Talkers/20 ⬇️ EVAL flow.md>) | To register on the database
     | ✅ [`SUCCESS`](<../31 🤔 Prompts/23 ✅ SUCCESS prompt.md>) | To say that it was successful
-    | 👋 [`GOODBYE`](<../33 😃 Talkers/50 👋 GOODBYE.md>) | To show advertising
+    | 👋 [`GOODBYE`](<../../../33 😃 Talkers/50 👋 GOODBYE.md>) | To show advertising
     
 
     ---

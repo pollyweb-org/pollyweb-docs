@@ -29,7 +29,7 @@
     |
 
 
-    Here's a [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
+    Here's a [Talker 😃](<../../../33 😃 Talkers/01 😃 Talker.md>).
 
     ```yaml
     - QUANTITY|How many players? >> $qt:
@@ -61,7 +61,7 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What's the code? [+]<br/> | `012345`
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Code validated!
 
-    Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../../33 😃 Talkers/01 😃 Talker.md>).
 
     ```yaml
     # Talker 😃
@@ -95,7 +95,7 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Code validated!
     |
 
-    Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../../33 😃 Talkers/01 😃 Talker.md>).
 
     ```yaml
     # Talker 😃
@@ -114,7 +114,7 @@
     - RUN|get-code
     ```
 
-    Here's the [Function 🐍 handler](<../33 😃 Talkers/12 🐍 {Function}.md>).
+    Here's the [Function 🐍 handler](<../../../33 😃 Talkers/12 🐍 {Function}.md>).
 
     ```python
     # 🐍 Python handler
