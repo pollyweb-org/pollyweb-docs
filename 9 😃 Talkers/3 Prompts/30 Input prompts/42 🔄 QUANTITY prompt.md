@@ -61,11 +61,11 @@
     |-|-|-
     | `Precision`| Rounded decimals (default is 0) | `0`
     | `Locale`   | Optional CLDR locale <br/> - defaults to the [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) language | `en-US`
-    | `MinValue` | Optional [minimum value 📋](<../25 Input defintions/13 ✏️📋 Input validation.md>) | `-100`
-    | `MaxValue` | Optional [maximum value 📋](<../25 Input defintions/13 ✏️📋 Input validation.md>) | `100`
-    | `Emoji` | Optional [alternative emoji 😶](<../25 Input defintions/14 ✏️😶 Input emojis.md>) | `😶`
+    | `MinValue` | Optional [minimum value 📋](<../25 ✏️ Input defintions/13 ✏️📋 Input validation.md>) | `-100`
+    | `MaxValue` | Optional [maximum value 📋](<../25 ✏️ Input defintions/13 ✏️📋 Input validation.md>) | `100`
+    | `Emoji` | Optional [alternative emoji 😶](<../25 ✏️ Input defintions/14 ✏️😶 Input emojis.md>) | `😶`
     | `Details` | Optional [expandable details ⊕](<../10 Prompt definitions/04 ⊕ with Details.md>) | `Hint...`
-    | `Nullable` | Optional [skip flag ⏭️](<../25 Input defintions/12 ✏️⏭️ Input nullability.md>) | `Yes`
+    | `Nullable` | Optional [skip flag ⏭️](<../25 ✏️ Input defintions/12 ✏️⏭️ Input nullability.md>) | `Yes`
     | `Appendix` | Optional [file attachment 📎](<../10 Prompt definitions/05 📎 with Appendix.md>) | `<uuid>`
     
     

@@ -44,7 +44,7 @@
     |-|-|-
     | `Then` | [Procedure ⚙️](<../../03 Talker Flows/11 ⚙️ Procedure.md>) or [Command ⌘](<../../03 Talker Flows/10 ⌘ Command.md>) on `True` | `INFO\|OK`
     | `Else` | [Procedure ⚙️](<../../03 Talker Flows/11 ⚙️ Procedure.md>) or [Command ⌘](<../../03 Talker Flows/10 ⌘ Command.md>) on `False` | `INFO\|NOK`
-    | `Emoji` | Optional [alternative emoji 😶](<../25 Input defintions/14 ✏️😶 Input emojis.md>) | `😶`
+    | `Emoji` | Optional [alternative emoji 😶](<../25 ✏️ Input defintions/14 ✏️😶 Input emojis.md>) | `😶`
     | `Details` | Optional [expandable details ⊕](<../10 Prompt definitions/04 ⊕ with Details.md>) | `Hint...`
     | `Appendix` | Optional [file attachment 📎](<../10 Prompt definitions/05 📎 with Appendix.md>) | `{/...}`
        
