@@ -1,6 +1,6 @@
 # ⏭️ Input nullability
 
-> Part of [✏️ Input prompts](<../1 📘 Prompt specs/09 ✏️ Input behavior.md>)
+> Part of [✏️ Input prompts](<../1 📘 Prompt specs/09 ✏️ as Input.md>)
 
 <br/>
 
@@ -51,7 +51,7 @@
 
 1. **How to define optional inputs?**
 
-    [Input prompts ✏️](<../1 📘 Prompt specs/09 ✏️ Input behavior.md>) 
+    [Input prompts ✏️](<../1 📘 Prompt specs/09 ✏️ as Input.md>) 
     * can be made optional 
     * by setting the property `Nullable` to `True` or `Yes`.
     

@@ -19,7 +19,7 @@
        
     Yes. 
     
-    * [Prompt options](<04 🔘 with Options.md>) can be differed with [non-blocking status Prompts 🤔](<08 ⚠️ Status behavior.md>);
+    * [Prompt options](<04 🔘 with Options.md>) can be differed with [non-blocking status Prompts 🤔](<08 ⚠️ as Status.md>);
     
         * e.g., [`INFO`](<../4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>), [`TEMP`](<../4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>), [`SUCCESS`](<../4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>), and [`FAILURE`](<../4 ⚠️ Status prompts/24 ❌ FAILURE prompt.md>).
   
@@ -49,8 +49,8 @@
 
     |Behavior| [Prompt 🤔](<01 🤔 Prompt.md>) 
     |-|-
-    |[`Status`](<08 ⚠️ Status behavior.md>)| [`ℹ️ INFO`](<../4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<../4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<../4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<../4 ⚠️ Status prompts/24 ❌ FAILURE prompt.md>)
-    |[`Inputs`](<09 ✏️ Input behavior.md>) | [`1️⃣ ONE`](<../7 ✏️ Input prompts/53 1️⃣ ONE prompt.md>) [`🔢 MANY`](<../7 ✏️ Input prompts/54 🔠 MANY prompt.md>)  [`🔠 TEXT`](<../7 ✏️ Input prompts/32 🔠 TEXT prompt.md>) 
+    |[`Status`](<08 ⚠️ as Status.md>)| [`ℹ️ INFO`](<../4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<../4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<../4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<../4 ⚠️ Status prompts/24 ❌ FAILURE prompt.md>)
+    |[`Inputs`](<09 ✏️ as Input.md>) | [`1️⃣ ONE`](<../7 ✏️ Input prompts/53 1️⃣ ONE prompt.md>) [`🔢 MANY`](<../7 ✏️ Input prompts/54 🔠 MANY prompt.md>)  [`🔠 TEXT`](<../7 ✏️ Input prompts/32 🔠 TEXT prompt.md>) 
 
     ---
     <br/>
@@ -134,7 +134,7 @@
 
 1. **What's an example in a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)?**
 
-    > Note: [non-blocking status prompts ⚠️](<08 ⚠️ Status behavior.md>) behave slightly differently.
+    > Note: [non-blocking status prompts ⚠️](<08 ⚠️ as Status.md>) behave slightly differently.
 
     | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |

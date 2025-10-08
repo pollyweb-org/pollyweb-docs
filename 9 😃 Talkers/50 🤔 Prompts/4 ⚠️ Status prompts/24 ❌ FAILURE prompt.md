@@ -1,6 +1,6 @@
 # Non-blocking failure ❌
 
-> Part of [Non-blocking status prompts 🤔](<../1 📘 Prompt specs/08 ⚠️ Status behavior.md>)
+> Part of [Non-blocking status prompts 🤔](<../1 📘 Prompt specs/08 ⚠️ as Status.md>)
 
 <br/>
 
@@ -22,7 +22,7 @@
     | ⊕ [`Details`](<../1 📘 Prompt specs/03 ⊕ with Details.md>) | Has expandable [+] details.
     | 🔘 [`Options`](<../1 📘 Prompt specs/04 🔘 with Options.md>) | Has options for users to select.
     | 📎 [`Appendix`](<../1 📘 Prompt specs/05 📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
-    | ⚠️ [`Status`](<../1 📘 Prompt specs/08 ⚠️ Status behavior.md>) | Informs and continues the flow.
+    | ⚠️ [`Status`](<../1 📘 Prompt specs/08 ⚠️ as Status.md>) | Informs and continues the flow.
     
     ---
     <br/>
