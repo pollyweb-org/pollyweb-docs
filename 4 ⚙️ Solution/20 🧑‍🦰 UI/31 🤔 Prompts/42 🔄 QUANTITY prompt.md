@@ -31,27 +31,41 @@
 
     ```yaml
     # Simplest.
-    QUANTITY|<message> 
+    QUANTITY|<message> >> $placeholder
     ```
+
+    | Argument| Purpose 
+    |-|-
+    | `<message>`| Message to show to the user
+    | `$placeholder`| Optional placeholder with the user's answer 
 
     ```yaml
     # Comprehensive.
     QUANTITY >> $placeholder:
         Message: <message>
-        MinValue: <min-value>
-        MaxValue: <max-value>
-        Precision: <precision>
-        Locale: <locale>
+        # Specific optional properties
+        MinValue: decimal
+        MaxValue: decimal
+        Precision: int
+        Locale: string
+        # Generic optional properties
+        Emoji: emoji
+        Details: string
+        Nullable: bool
+        Appendix: {function}
     ```
 
     | Argument| Purpose | Example
     |-|-|-
-    | `<message>`| Message to show to the user
-    | `$placeholder`| Placeholder with the user's answer 
-    | `<min-value>` | Optional minimum value | `-100`
-    | `<max-value>` | Optional maximum value | `100`
-    | `<precision>`| Rounded decimals (default is 0) | `1`
-    | `<locale>`| Optional CLDR locale <br/> - defaults to the [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) language | `en-US`
+    | `MinValue` | Optional minimum value | `-100`
+    | `MaxValue` | Optional maximum value | `100`
+    | `Precision`| Rounded decimals (default is 0) | `1`
+    | `Locale`   | Optional CLDR locale <br/> - defaults to the [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) language | `en-US`
+    | `Emoji` | Optional [alternative emoji 😶](<14 ✏️😶 Input emojis.md>) | `😶`
+    | `Details` | Optional [expandable details ⊕](<03 🤔⊕ with Details.md>) | `Hint...`
+    | `Nullable` | Optional [skip flag ⏭️](<12 ✏️⏭️ Input nullability.md>) | `Yes`
+    | `Appendix` | Optional [file attachment 📎](<05 🤔📎 with Appendix.md>) | `<uuid>`
+    
     
     
     ---

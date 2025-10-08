@@ -75,36 +75,41 @@
 
     ```yaml
     # Simplest.
-    TEXT|<message>
+    TEXT|<message> >> $placeholder
     ```
+
+    | Argument| Purpose 
+    |-|-
+    | `<message>`| Message to show to the user
+    | `$placeholder`| Optional placeholder with the user's answer
     
     ```yaml
     # Comprehensive.
-    TEXT >> $placeholder
-        # Generic properties
+    TEXT >> $placeholder:
         Message: <message>
-        Options: <options>
-        Details: <details>
-        Appendix: <appendix>
-        # Specific properties
-        MinLength: <min-length>   
-        MaxLength: <max-length>   
-        Output: <output-format>   
-        Pattern: <regex-pattern>  
-
+        # Specific optional properties
+        Output: string
+        Pattern: string
+        MinLength: int
+        MaxLength: int
+        # Generic optional properties
+        Details: string
+        Options: csv|string[]|object
+        Nullable: bool
+        Appendix: {function}
     ```
     
     | Argument| Purpose | Example
     |-|-|-
-    | `<message>`| Message to show to the user
-    | `$placeholder`| Placeholder with the user's answer
-    | `<options>` | Optional [selectable options 🔘](<04 🤔🔘 with Options.md>) | `A,B` `{A:B}`
-    | `<details>` | Optional [expandable details ⊕](<03 🤔⊕ with Details.md>) | `Hint: ...`
-    | `<appendix>` | Optional [file attachment 📎](<05 🤔📎 with Appendix.md>) | `<uuid>`
-    | `.MinLength` | Optional [minimum length 📋](<13 ✏️📋 Input validation.md>) | `1`
-    | `.MaxLength` | Optional [maximum length 📋](<13 ✏️📋 Input validation.md>) | `5`
-    | `.Output` | Optional HTML format for outputs | `990.990.990.990`
-    | `.Pattern`| Optional HTML regular expression | `^...$`
+    | `Output` | Optional HTML format for outputs | `990.990.990.990`
+    | `Pattern`| Optional HTML regular expression | `^...$`
+    | `MinLength` | Optional [minimum length 📋](<13 ✏️📋 Input validation.md>) | `1`
+    | `MaxLength` | Optional [maximum length 📋](<13 ✏️📋 Input validation.md>) | `5`| `Options` | Optional [selectable options 🔘](<04 🤔🔘 with Options.md>) | `A,B` `{A:B}`
+    | `Details` | Optional [expandable details ⊕](<03 🤔⊕ with Details.md>) | `Hint...`
+    | `Options` | Optional [selectable options 🔘](<04 🤔🔘 with Options.md>) | `A,B` `{A:B}`
+    | `Nullable` | Optional [skip flag ⏭️](<12 ✏️⏭️ Input nullability.md>) | `Yes`
+    | `Appendix` | Optional [file attachment 📎](<05 🤔📎 with Appendix.md>) | `<uuid>`
+    
     
     ---
     <br/>
