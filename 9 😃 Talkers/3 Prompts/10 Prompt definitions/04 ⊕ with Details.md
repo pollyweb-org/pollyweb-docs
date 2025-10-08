@@ -77,7 +77,7 @@
 
     | [Command ⌘](<../../03 Talker Flows/10 ⌘ Command.md>) | Purpose
     |-|-
-    | ℹ️ [`INFO`](<../20 Status prompts/21 ℹ️ INFO prompt.md>) | To show the messages and details.
+    | ℹ️ [`INFO`](<../20 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) | To show the messages and details.
     
 
     <br/>

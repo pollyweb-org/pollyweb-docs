@@ -124,7 +124,7 @@
     | 🛠️ [`INVITE`](<../../../9 😃 Talkers/5 Messages/46 🛠️ INVITE msg.md>) | To subscribe the user to plan
     | ❄️ [`FREEZE`](<../../../9 😃 Talkers/5 Messages/42 ❄️ FREEZE msg.md>) | To disable past inputs
     | ⬇️ [`EVAL`](<../../../9 😃 Talkers/2 Data/20 ⬇️ EVAL flow.md>) | To register on the database
-    | ✅ [`SUCCESS`](<../../../9 😃 Talkers/3 Prompts/20 Status prompts/23 ✅ SUCCESS prompt.md>) | To say that it was successful
+    | ✅ [`SUCCESS`](<../../../9 😃 Talkers/3 Prompts/20 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>) | To say that it was successful
     | 👋 [`GOODBYE`](<../../../9 😃 Talkers/5 Messages/50 👋 GOODBYE.md>) | To show advertising
     
 
