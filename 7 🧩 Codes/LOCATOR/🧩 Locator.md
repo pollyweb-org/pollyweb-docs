@@ -4,7 +4,7 @@
 > Inherited by:
 > <br/>• [`nlweb/TOKEN 🧩`](<../TOKEN/🧩 Token.md>)
 > <br/>• [`nlweb/HOST 🧩`](<../HOST/🧩 Host.md>)
-> <br/>• [`nlweb/ALIAS  🧩`](<../🧩 Alias.md>)
+> <br/>• [`nlweb/ALIAS  🧩`](<../$/🧩 Alias.md>)
 
 <br/>
 
