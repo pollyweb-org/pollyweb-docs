@@ -53,7 +53,7 @@
     | ⭐ [`RATE`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/46 ⭐ RATE prompt.md>) | 5 ⭐ | Integer from 1 to 5
     | 🔑 [`OTP`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/57 🔑 OTP prompt.md>) | 0123 | SIM one time password
     | 👍 [`CONFIRM`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/31 👍 CONFIRM prompt.md>) | Yes | `Yes` `No` `Cancel` answer
-    | 🔠 [`MANY`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/54 🔠 MANY prompt.md>) | [A,B] |
+    | 🔠 [`MANY`](<../Prompts/54 🔠 MANY prompt.md>) | [A,B] |
     | 1️⃣ [`ONE`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/53 1️⃣ ONE prompt.md>) | A |
     | 📆 [`DATE`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/61 📆 DATE prompt.md>)
     | 🕓 [`TIME`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/62 🕓 TIME prompt.md>)
