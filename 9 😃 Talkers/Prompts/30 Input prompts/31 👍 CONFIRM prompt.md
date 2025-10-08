@@ -44,7 +44,7 @@
     |-|-|-
     | `Then` | [Procedure ⚙️](<../../Flow/11 ⚙️ Procedure.md>) or [Command ⌘](<../../Flow/10 ⌘ Command.md>) on `True` | `INFO\|OK`
     | `Else` | [Procedure ⚙️](<../../Flow/11 ⚙️ Procedure.md>) or [Command ⌘](<../../Flow/10 ⌘ Command.md>) on `False` | `INFO\|NOK`
-    | `Emoji` | Optional [alternative emoji 😶](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/14 ✏️😶 Input emojis.md>) | `😶`
+    | `Emoji` | Optional [alternative emoji 😶](<../25 Input defintions/14 ✏️😶 Input emojis.md>) | `😶`
     | `Details` | Optional [expandable details ⊕](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/03 🤔⊕ with Details.md>) | `Hint...`
     | `Appendix` | Optional [file attachment 📎](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/05 🤔📎 with Appendix.md>) | `{/...}`
        

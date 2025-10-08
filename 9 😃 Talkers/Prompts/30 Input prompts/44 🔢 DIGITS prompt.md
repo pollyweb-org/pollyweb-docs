@@ -71,11 +71,11 @@
     
     | Argument| Purpose | Example
     |-|-|-
-    | `MinLength` | Optional [minimum length 📋](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/13 ✏️📋 Input validation.md>) | `1`
-    | `MaxLength` | Optional [maximum length 📋](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/13 ✏️📋 Input validation.md>) | `5`
-    | `Emoji` | Optional [alternative emoji 😶](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/14 ✏️😶 Input emojis.md>) | `😶`
+    | `MinLength` | Optional [minimum length 📋](<../25 Input defintions/13 ✏️📋 Input validation.md>) | `1`
+    | `MaxLength` | Optional [maximum length 📋](<../25 Input defintions/13 ✏️📋 Input validation.md>) | `5`
+    | `Emoji` | Optional [alternative emoji 😶](<../25 Input defintions/14 ✏️😶 Input emojis.md>) | `😶`
     | `Details` | Optional [expandable details ⊕](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/03 🤔⊕ with Details.md>) | `Hint...`
-    | `Nullable` | Optional [skip flag ⏭️](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/12 ✏️⏭️ Input nullability.md>) | `Yes`
+    | `Nullable` | Optional [skip flag ⏭️](<../25 Input defintions/12 ✏️⏭️ Input nullability.md>) | `Yes`
     | `Appendix` | Optional [file attachment 📎](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/05 🤔📎 with Appendix.md>) | `<uuid>`
     
 

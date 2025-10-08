@@ -108,7 +108,7 @@
     Command | Purpose
     |-|-
     | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | Runs a [Command ⌘](<10 ⌘ Command.md>) or [Procedure ⚙️](<11 ⚙️ Procedure.md>) matching a [{Function}](<Functi../Functions/12 🐍 {Function}.md
-    | 🫥 [`EMOJI`](<../16 😶 EMOJI flow.md>) | Changes the [default emoji 😃](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/14 ✏️😶 Input emojis.md>) for [input prompts ✏️](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/11 ✏️ Input behavior.md>).
+    | 🫥 [`EMOJI`](<../16 😶 EMOJI flow.md>) | Changes the [default emoji 😃](<../Prompts/25 Input defintions/14 ✏️😶 Input emojis.md>) for [input prompts ✏️](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/11 ✏️ Input behavior.md>).
     | ⬇️ [`EVAL`](<../Data/20 ⬇️ EVAL flow.md>) | Evaluates a [{Function}](<../Data/12 🐍 {Function}.md>) into a placeholder.
     | ⤵️ [`IF`](<21 ⤵️ IF flow.md>) | Runs a [Command ⌘](<10 ⌘ Command.md>) or [Procedure ⚙️](<11 ⚙️ Procedure.md>) based on a [{Function}](<Functi../Functions/12 🐍 {Function}.md
     | 🪵 [`LOG`](<../Data/15 🪵 LOG flow.md>) | Logs messages into the system handler.
