@@ -58,7 +58,7 @@
     * instead, request users to share datasets using [Schema Code 🧩](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>);
     * e.g., ask to share the code `nlweb.org/BOOKING/CONTACTS` instead of asking for the name, then the phone number, then the email address, and so on.
   
-    When [Prompts 🤔](<../../../4 ⚙️ Solution/../30 Input prompts/32 🔠 TEXT prompt.md`TEXT`](<../../../9 😃 Talkers/Prompts/30 Input prompts/32 🔠 TEXT prompt.md>) prompts; 
+    When [Prompts 🤔](<../30 Input prompts/32 🔠 TEXT prompt.md>) prompts; 
     * instead, prefer low-effort prompts like [`ONE`](<../30 Input prompts/53 1️⃣ ONE prompt.md>);
     * e.g., searchable lists with one or many possible options.
 

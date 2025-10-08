@@ -28,7 +28,7 @@
     |-|-|-
     | `{function}` | Optional [{Function}](<../Data/12 🐍 {Function}.md>) to evaluate | `{f}` `{$p}`
     || Allows for missing `{}` in functions | `f()` `$p`
-    || Defaults to the last [input prompt ✏️](<../Prompts/10 Prompt definitions/11 ✏️ Input behavior.md>) | `TEXT\|Id?`
+    || Defaults to the last [input prompt ✏️](<../Prompts/10 Prompt definitions/03 ✏️ as Input.md>) | `TEXT\|Id?`
     | `<value>`| Static value to be matched with. | `ABC`
     | `<action>`| Run a [Procedure ⚙️](<11 ⚙️ Procedure.md>) | `MyProc`
     || or a one-line [Command ⌘](<10 ⌘ Command.md>). | `INFO\|OK`

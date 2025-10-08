@@ -1,6 +1,6 @@
 # 💰 AMOUNT prompt
 
-> Part of [blocking input prompts 🤔](<../10 Prompt definitions/11 ✏️ Input behavior.md>)
+> Part of [blocking input prompts 🤔](<../10 Prompt definitions/03 ✏️ as Input.md>)
 
 
 <br/>
@@ -30,9 +30,9 @@
 
     | Feature | Details
     |-|-
-    | ⊕ [`Details`](<../10 Prompt definitions/03 🤔⊕ with Details.md>) | Has expandable [+] details.
-    | 📎 [`Appendix`](<../10 Prompt definitions/05 🤔📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
-    | ✏️ [`Input`](<../10 Prompt definitions/11 ✏️ Input behavior.md>) | Waits for an answer from users.
+    | ⊕ [`Details`](<../10 Prompt definitions/04 ⊕ with Details.md>) | Has expandable [+] details.
+    | 📎 [`Appendix`](<../10 Prompt definitions/05 📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
+    | ✏️ [`Input`](<../10 Prompt definitions/03 ✏️ as Input.md>) | Waits for an answer from users.
     
     ---
     <br/>
@@ -79,9 +79,9 @@
     | `MinValue` | Optional [minimum value 📋](<../25 Input defintions/13 ✏️📋 Input validation.md>) | `-100`
     | `MaxValue` | Optional [maximum value 📋](<../25 Input defintions/13 ✏️📋 Input validation.md>) | `100`
     | `Emoji` | Optional [alternative emoji 😶](<../25 Input defintions/14 ✏️😶 Input emojis.md>) | `😶`
-    | `Details` | Optional [expandable details ⊕](<../10 Prompt definitions/03 🤔⊕ with Details.md>) | `Hint...`
+    | `Details` | Optional [expandable details ⊕](<../10 Prompt definitions/04 ⊕ with Details.md>) | `Hint...`
     | `Nullable` | Optional [skip flag ⏭️](<../25 Input defintions/12 ✏️⏭️ Input nullability.md>) | `Yes`
-    | `Appendix` | Optional [file attachment 📎](<../10 Prompt definitions/05 🤔📎 with Appendix.md>) | `<uuid>`
+    | `Appendix` | Optional [file attachment 📎](<../10 Prompt definitions/05 📎 with Appendix.md>) | `<uuid>`
     
     ---
     <br/>

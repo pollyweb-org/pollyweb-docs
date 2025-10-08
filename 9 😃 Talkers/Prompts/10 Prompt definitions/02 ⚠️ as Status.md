@@ -2,7 +2,7 @@
 
 > Part of [Prompts 🤔](<01 🤔 Prompt.md>)
 
-> Changes the default behavior of [Prompt with Options 🔘](<04 🤔🔘 with Options.md>)
+> Changes the default behavior of [Prompt with Options 🔘](<06 🔘 with Options.md>)
 
 <br/> 
 
@@ -47,8 +47,8 @@
 
 1. **How do non-blocking options work?**
    
-    Non-blocking status prompts support [`Options`](<04 🤔🔘 with Options.md>).
-    - If it contains [`Options`](<04 🤔🔘 with Options.md>), then the user may click an option any time before or after the [Host 🤗 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) sends other subsequent [Prompts 🤔](<01 🤔 Pro../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md
+    Non-blocking status prompts support [`Options`](<06 🔘 with Options.md>).
+    - If it contains [`Options`](<06 🔘 with Options.md>), then the user may click an option any time before or after the [Host 🤗 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) sends other subsequent [Prompts 🤔](<01 🤔 Pro../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md
     - See a full example at [Driver pick-up on pizza delivery 🛵](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/82 🛵 Driver: Pick-up.md>).
     
     ---

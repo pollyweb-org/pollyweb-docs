@@ -1,6 +1,6 @@
 # Non-blocking result ✅
 
-> Part of [Non-blocking status prompts 🤔](<../10 Prompt definitions/08 ⚠️ Status behavior.md>)
+> Part of [Non-blocking status prompts 🤔](<../10 Prompt definitions/02 ⚠️ as Status.md>)
 
 <br/>
 
@@ -47,10 +47,10 @@
 
     | Feature | Details
     |-|-
-    | ⊕ [`Details`](<../10 Prompt definitions/03 🤔⊕ with Details.md>) | Has expandable [+] details.
-    | 🔘 [`Options`](<../10 Prompt definitions/04 🤔🔘 with Options.md>) | Has options for users to select.
-    | 📎 [`Appendix`](<../10 Prompt definitions/05 🤔📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
-    | ⚠️ [`Status`](<../10 Prompt definitions/08 ⚠️ Status behavior.md>) | Informs and continues the flow.
+    | ⊕ [`Details`](<../10 Prompt definitions/04 ⊕ with Details.md>) | Has expandable [+] details.
+    | 🔘 [`Options`](<../10 Prompt definitions/06 🔘 with Options.md>) | Has options for users to select.
+    | 📎 [`Appendix`](<../10 Prompt definitions/05 📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
+    | ⚠️ [`Status`](<../10 Prompt definitions/02 ⚠️ as Status.md>) | Informs and continues the flow.
     
     ---
     <br/>
@@ -79,9 +79,9 @@
     
     | Argument| Purpose | Example
     |-|-|-
-    | `Details` | Optional [expandable details ⊕](<../10 Prompt definitions/03 🤔⊕ with Details.md>) | `Hint...`
-    | `Options` | Optional [selectable options 🔘](<../10 Prompt definitions/04 🤔🔘 with Options.md>) | `A,B` `{A:B}`
-    | `Appendix` | Optional [file attachment 📎](<../10 Prompt definitions/05 🤔📎 with Appendix.md>) | `{/...}`
+    | `Details` | Optional [expandable details ⊕](<../10 Prompt definitions/04 ⊕ with Details.md>) | `Hint...`
+    | `Options` | Optional [selectable options 🔘](<../10 Prompt definitions/06 🔘 with Options.md>) | `A,B` `{A:B}`
+    | `Appendix` | Optional [file attachment 📎](<../10 Prompt definitions/05 📎 with Appendix.md>) | `{/...}`
 
     ---
     <br/>
