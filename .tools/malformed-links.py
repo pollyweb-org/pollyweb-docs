@@ -322,6 +322,7 @@ def print_results(broken_links, malformed_links):
                 for link, full_link, line_num, suggestion, tip in links:
 
                     # Get the relative path of the file, starting from the project directory's parent
+                    import os
                     start = os.path.dirname(project_directory + "/../")
                     relative_file = os.path.relpath(md_file, start=os.path.dirname(start))
                     relative_file = f"../{relative_file}"
@@ -412,7 +413,7 @@ def print_results(broken_links, malformed_links):
                     file_name_only= os.path.basename(md_file)
                     encoded = urllib.parse.quote(file_name_only)
                     encoded = urllib.parse.quote(md_file)
-                    file_link = f"file://{encoded}#L{line_num})"
+                    file_link = f"file://{encoded}, line {line_num})"
 
                     print(f"\nIn file±: {file_link}")
                     print(f"  - Line {line_num}: Malformed link: {malformed_link}")
