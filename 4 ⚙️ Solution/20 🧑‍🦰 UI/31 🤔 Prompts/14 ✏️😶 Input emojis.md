@@ -95,7 +95,7 @@
 
     The replacement can either be:
     * per [Prompt 🤔](<01 🤔 Prompt.md>) by setting the `Emoji` parameter,
-    * or by default for upcoming [Prompts 🤔](<01 🤔 Prompt.md>) with the [`EMOJI`](<../../../9 😃 Talkers/50 🤔 Prompts/20 Input logic/16 😶 EMOJI flow.md>) command.
+    * or by default for upcoming [Prompts 🤔](<01 🤔 Prompt.md>) with the [`EMOJI`](<../../../9 😃 Talkers/50 🤔 Prompts/20 ✏️📘 Input specs/16 😶 EMOJI flow.md>) command.
 
     ---
     <br/>
