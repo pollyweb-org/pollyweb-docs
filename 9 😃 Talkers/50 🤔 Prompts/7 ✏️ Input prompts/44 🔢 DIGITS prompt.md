@@ -32,8 +32,8 @@
 
     | Feature | Details
     |-|-
-    | ⊕ [`Details`](<../1 📘 Prompt specs/03 🤔⊕ with Details.md>) | Has expandable [+] details.
-    | 📎 [`Appendix`](<../1 📘 Prompt specs/05 🤔📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
+    | ⊕ [`Details`](<../1 📘 Prompt specs/03 ⊕ with Details.md>) | Has expandable [+] details.
+    | 📎 [`Appendix`](<../1 📘 Prompt specs/05 📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
     | ✏️ [`Input`](<../1 📘 Prompt specs/11 ✏️ Input behavior.md>) | Waits for an answer from users.
     
     ---
@@ -71,12 +71,12 @@
     
     | Argument| Purpose | Example
     |-|-|-
-    | `MinLength` | Optional [minimum length 📋](<../1 📘 Prompt specs/13 ✏️📋 Input validation.md>) | `1`
-    | `MaxLength` | Optional [maximum length 📋](<../1 📘 Prompt specs/13 ✏️📋 Input validation.md>) | `5`
-    | `Emoji` | Optional [alternative emoji 😶](<../1 📘 Prompt specs/14 ✏️😶 Input emojis.md>) | `😶`
-    | `Details` | Optional [expandable details ⊕](<../1 📘 Prompt specs/03 🤔⊕ with Details.md>) | `Hint...`
-    | `Nullable` | Optional [skip flag ⏭️](<../1 📘 Prompt specs/12 ✏️⏭️ Input nullability.md>) | `Yes`
-    | `Appendix` | Optional [file attachment 📎](<../1 📘 Prompt specs/05 🤔📎 with Appendix.md>) | `<uuid>`
+    | `MinLength` | Optional [minimum length 📋](<../2 ✏️ Input specs/13 ✏️📋 Input validation.md>) | `1`
+    | `MaxLength` | Optional [maximum length 📋](<../2 ✏️ Input specs/13 ✏️📋 Input validation.md>) | `5`
+    | `Emoji` | Optional [alternative emoji 😶](<../2 ✏️ Input specs/14 ✏️😶 Input emojis.md>) | `😶`
+    | `Details` | Optional [expandable details ⊕](<../1 📘 Prompt specs/03 ⊕ with Details.md>) | `Hint...`
+    | `Nullable` | Optional [skip flag ⏭️](<../2 ✏️ Input specs/12 ✏️⏭️ Input nullability.md>) | `Yes`
+    | `Appendix` | Optional [file attachment 📎](<../1 📘 Prompt specs/05 📎 with Appendix.md>) | `<uuid>`
     
 
     ---

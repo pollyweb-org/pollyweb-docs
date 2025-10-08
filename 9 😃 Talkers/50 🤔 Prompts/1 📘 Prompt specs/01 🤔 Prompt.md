@@ -68,7 +68,7 @@
         * This blocks the user from changing any [Prompts 🤔](<01 🤔 Prompt.md>) up to that point.
         * [Hosts 🤗](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) to this when committing a transaction to a database with the inputs collected.
   
-    * ⚠️ Note: [`Options`](<04 🤔🔘 with Options.md>) with a `§` open a new [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)  and are never frozen.
+    * ⚠️ Note: [`Options`](<04 🔘 with Options.md>) with a `§` open a new [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)  and are never frozen.
 
     ---
     <br/>
@@ -78,9 +78,9 @@
 
     | Feature | Details
     |-|-
-    | ⊕ [`Details`](<03 🤔⊕ with Details.md>) | Has expandable [+] details.
-    | 🔘 [`Options`](<04 🤔🔘 with Options.md>)  | Has options for users to select.
-    | 📎 [`Appendix`](<05 🤔📎 with Appendix.md>)  | Has a PDF, PNG, or JPEG attachment.
+    | ⊕ [`Details`](<03 ⊕ with Details.md>) | Has expandable [+] details.
+    | 🔘 [`Options`](<04 🔘 with Options.md>)  | Has options for users to select.
+    | 📎 [`Appendix`](<05 📎 with Appendix.md>)  | Has a PDF, PNG, or JPEG attachment.
     | ⚠️ [`Status` behavior](<08 ⚠️ Status behavior.md>) | Informs and continues the flow.
     | ✏️ [ ✏️ `Input`](<11 ✏️ Input behavior.md>) | Waits for an answer from users.
     

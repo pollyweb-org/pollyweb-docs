@@ -1,6 +1,6 @@
 # 😶 Input emojis
 
-> Part of [✏️ Input prompts](<11 ✏️ Input behavior.md>)
+> Part of [✏️ Input prompts](<../1 📘 Prompt specs/11 ✏️ Input behavior.md>)
 
 <br/>
 
@@ -19,7 +19,7 @@
             * e.g., `that's funny` versus `🤣🤣🤣`
   
     * To help [Host 🤗 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) developers, 
-        * [Talkers 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>) add emojis to [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) messages. 
+        * [Talkers 😃](<../../10 📘 Talker specs/01 😃 Talker.md>) add emojis to [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) messages. 
 
 
     ---
@@ -27,7 +27,7 @@
 
 1. **How do emojis work on Talkers?**
     
-    Most (but not all) [Talker input commands ✏️](<11 ✏️ Input behavior.md>) work with the following emojis.
+    Most (but not all) [Talker input commands ✏️](<../1 📘 Prompt specs/11 ✏️ Input behavior.md>) work with the following emojis.
 
     Emoji | Behavior
     |-|-
@@ -41,14 +41,14 @@
 
     Consider the following [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>).
 
-    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../1 📘 Prompt specs/01 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Continue? [Yes, No]
     |
 
     <br/>
 
-    Here's the [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../10 📘 Talker specs/01 😃 Talker.md>).
 
     ```yaml
     # 😃 Talker
@@ -70,7 +70,7 @@
 
 1. **Can Talker prompts use alternative emojis?**
 
-    The default [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>) emoji `😃` can be replaced with one of the following.
+    The default [Talker 😃](<../../10 📘 Talker specs/01 😃 Talker.md>) emoji `😃` can be replaced with one of the following.
 
     ||Emoji | Application | Example
     |-|-|-|-
@@ -94,15 +94,15 @@
 1. **How to replace emojis in Talkers?**
 
     The replacement can either be:
-    * per [Prompt 🤔](<01 🤔 Prompt.md>) by setting the `Emoji` parameter,
-    * or by default for upcoming [Prompts 🤔](<01 🤔 Prompt.md>) with the [`EMOJI`](<16 😶 EMOJI flow.md>) command.
+    * per [Prompt 🤔](<../1 📘 Prompt specs/01 🤔 Prompt.md>) by setting the `Emoji` parameter,
+    * or by default for upcoming [Prompts 🤔](<../1 📘 Prompt specs/01 🤔 Prompt.md>) with the [`EMOJI`](<../1 📘 Prompt specs/16 😶 EMOJI flow.md>) command.
 
     ---
     <br/>
 
 1. **How to change an emoji in a Prompt?**
 
-    Here's a [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>).
+    Here's a [Talker 😃](<../../10 📘 Talker specs/01 😃 Talker.md>).
 
     ```yaml
     - CONFIRM|Are you OK?:

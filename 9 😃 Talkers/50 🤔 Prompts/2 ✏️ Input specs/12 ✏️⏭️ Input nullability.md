@@ -1,6 +1,6 @@
 # ⏭️ Input nullability
 
-> Part of [✏️ Input prompts](<11 ✏️ Input behavior.md>)
+> Part of [✏️ Input prompts](<../1 📘 Prompt specs/11 ✏️ Input behavior.md>)
 
 <br/>
 
@@ -26,7 +26,7 @@
 
     Here's a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>).
 
-    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../1 📘 Prompt specs/01 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What's the code? | ` `
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ❌ Required input.
@@ -36,7 +36,7 @@
 
     <br/>
     
-    Here's the [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../10 📘 Talker specs/01 😃 Talker.md>).
 
     ```yaml
     # 😃 Talker
@@ -51,7 +51,7 @@
 
 1. **How to define optional inputs?**
 
-    [Input prompts ✏️](<11 ✏️ Input behavior.md>) 
+    [Input prompts ✏️](<../1 📘 Prompt specs/11 ✏️ Input behavior.md>) 
     * can be made optional 
     * by setting the property `Nullable` to `True` or `Yes`.
     
@@ -64,7 +64,7 @@
 
     Here's a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>).
 
-    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../1 📘 Prompt specs/01 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What's the code? | ` `
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ You didn't provide a code.
@@ -72,7 +72,7 @@
 
     <br/>
 
-    Here's the [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../10 📘 Talker specs/01 😃 Talker.md>).
 
     ```yaml
     # 😃 Talker
