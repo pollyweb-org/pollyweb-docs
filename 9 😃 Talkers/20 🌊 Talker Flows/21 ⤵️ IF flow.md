@@ -1,6 +1,6 @@
 # ⤵️ Talker `IF` flow 
 
-> Part of [Talker 😃](<../../33 😃 Talkers/01 😃 Talker.md>)
+> Part of [Talker 😃](<../10 📘 Talker specs/01 😃 Talker.md>)
 
 <br/>
 

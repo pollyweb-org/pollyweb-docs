@@ -19,7 +19,7 @@
             * e.g., `that's funny` versus `🤣🤣🤣`
   
     * To help [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) developers, 
-        * [Talkers 😃](<../../../33 😃 Talkers/01 😃 Talker.md>) add emojis to [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) messages. 
+        * [Talkers 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>) add emojis to [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) messages. 
 
 
     ---
@@ -48,7 +48,7 @@
 
     <br/>
 
-    Here's the [Talker 😃](<../../../33 😃 Talkers/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>).
 
     ```yaml
     # 😃 Talker
@@ -70,7 +70,7 @@
 
 1. **Can Talker prompts use alternative emojis?**
 
-    The default [Talker 😃](<../../../33 😃 Talkers/01 😃 Talker.md>) emoji `😃` can be replaced with one of the following.
+    The default [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>) emoji `😃` can be replaced with one of the following.
 
     ||Emoji | Application | Example
     |-|-|-|-
@@ -102,7 +102,7 @@
 
 1. **How to change an emoji in a Prompt?**
 
-    Here's a [Talker 😃](<../../../33 😃 Talkers/01 😃 Talker.md>).
+    Here's a [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>).
 
     ```yaml
     - CONFIRM|Are you OK?:

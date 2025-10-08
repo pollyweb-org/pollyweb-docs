@@ -71,7 +71,7 @@
 
 
 
-1. **What's the syntax on a [Talker 😃](<../../../33 😃 Talkers/01 😃 Talker.md>)?**
+1. **What's the syntax on a [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>)?**
 
     ```yaml
     # Simplest.
@@ -128,7 +128,7 @@
    
     <br/>
 
-    Here's the [Talker 😃](<../../../33 😃 Talkers/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>).
     
     ```yaml
     # Talker 😃
@@ -168,7 +168,7 @@
 
     <br/>
    
-    Here's the [Talker 😃](<../../../33 😃 Talkers/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>).
     
     ```yaml
     # Explicit, not recommended, just for the exercise.
@@ -233,7 +233,7 @@
    
     <br/>
 
-    Here's the [Talker 😃](<../../../33 😃 Talkers/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>).
     
     ```yaml
     # Explicit, not recommended, just for the exercise.

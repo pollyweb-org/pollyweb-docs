@@ -21,7 +21,7 @@
 
 ## 😃 Talker 
 
-The associated [Talker 😃](<../../../33 😃 Talkers/01 😃 Talker.md>) uses the [`BIND` 🔗 ](<../../../9 😃 Talkers/60 ⏩ Msg Flows/44 🔗 BIND msg.md>) command.
+The associated [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>) uses the [`BIND` 🔗 ](<../../../9 😃 Talkers/60 ⏩ Msg Flows/44 🔗 BIND msg.md>) command.
 
 ```yaml
 💬 Bind:

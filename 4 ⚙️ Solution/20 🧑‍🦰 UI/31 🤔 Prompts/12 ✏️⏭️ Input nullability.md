@@ -36,7 +36,7 @@
 
     <br/>
     
-    Here's the [Talker 😃](<../../../33 😃 Talkers/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>).
 
     ```yaml
     # 😃 Talker
@@ -72,7 +72,7 @@
 
     <br/>
 
-    Here's the [Talker 😃](<../../../33 😃 Talkers/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>).
 
     ```yaml
     # 😃 Talker

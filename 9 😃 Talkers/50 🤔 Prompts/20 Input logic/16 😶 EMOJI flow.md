@@ -37,7 +37,7 @@
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😶 Still neutral? [Yes, No] | > Yes
     |
 
-    Here's the [Talker 😃](<../../../33 😃 Talkers/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../10 📘 Talker specs/01 😃 Talker.md>).
 
     ```yaml
     # 😃 Talker
