@@ -61,7 +61,7 @@
 
     ```yaml
     Format: CONFIRM
-    Message: 😃 Continue?
+    Statement: 😃 Continue?
     ```
 
     ---

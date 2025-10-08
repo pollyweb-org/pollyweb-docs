@@ -80,7 +80,7 @@
 
     ```yaml
     Format: CONFIRM
-    Message: 😃 Confirm first?
+    Statement: 😃 Confirm first?
     ```
 
     <br/>

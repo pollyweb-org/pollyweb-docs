@@ -118,7 +118,7 @@
 
     ```yaml
     Format: AMOUNT
-    Message: 😃 How much?
+    Statement: 😃 How much?
     MinValue: -100.00
     MaxValue: 1000000
     ```

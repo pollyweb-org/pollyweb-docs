@@ -110,7 +110,7 @@
 
     ```yaml
     Format: DIGITS
-    Message: 😃 What's the code?
+    Statement: 😃 What's the code?
     ```
 
 
