@@ -34,46 +34,93 @@
     ```yaml
     💬 Order:
 
-    # Inform about the steps.
-    - FORM|order
-    - CHECKPOINT|Selection
+    - FORM|order     # Inform the steps.
+    - RUN|Selection  # Select from the menu.
+    - RUN|Payment    # Ask for the payment
+    - RUN|WaitReady  # Wait for it to be ready.
+
+    # Inform readiness.
+    - Case|$status.Code:
+        Ready: SUCCESS|Pick up your order.
+        Canceled: INFO|Order canceled.
+        $: FAILURE|Unexpected problem.
+    ```
+
+    ```yaml
+    Selection: 
 
     # Ask to select from the menu.
     - SHARE >> $selection: # 🧚 
-        Code: nlweb.org/CURATOR/ORDER 
+        Code: @CURATOR/ORDER 
         Context: 
           Menu: {./menu.yaml}
           Order: {$order}
+          Review: {$review}
 
     # Submit order.
-    - EVAL|{Order} >> $order:
+    - EVAL|Order >> $order:
         Selection: $selection
 
     # Allow it to be changed.
     - INFO|{$order.Summary} >> $change:
         Options: Change
-    - CASE|{$change}:
-        Change: EXIT|Selection
+    - IF|$change:
+        Then: REPEAT
     
     # Ask the user's Vitalogist to review.
     - SHARE >> $review: # 💖
-        Code: nlweb.org/VITALOGIST/REVIEW
+        Code: @VITALOGIST/REVIEW
         Context: 
           Order: {$order.Details}
+
+    # Repeat if rejected
+    - IF|$review.Rejected:
+        Then: REPEAT
+
+    RETURN|$order
+    ```
     
-    - IF|{$review.Rejected}:
-        Then: EXIT
-    
+    ```yaml
+    Payment: 
+
     # Ask the user's Payer to pay.
     - CHARGE:
-        Amount: {$order.Total} 
-        Invoice: {$order.Summary}
+        Amount: {$order.Total}
+        Bill: {$order.Summary}
 
-    - SUCCESS|Eat-in submitted:
+    # Submit the order.
+    - EVAL|Submit >> $status:
+        Order: $order
+    
+    # Inform submitted.
+    - SUCCESS:
+        Message: Eat-in submitted:
         Details: {$order.Summary}
 
-    - TEMP|Order in queue...:
-        Options: 
+    - RETURN|$status
+    ```
+
+    ```yaml
+    WaitReady: 
+
+    # Show the wait message 
+    - TEMP >> $temp:
+        Message: {$status.Message}
+        Options: Cancel
+
+    # Allow it to be cancelled.
+    - CASE|$temp:
+        Cancel: 
+            - EVAL|Cancel($order)
+            - RETURN
+
+    # Monitor status changes.
+    - WAIT|$status
+    - IF|$status.Pending:
+        Else: RETURN|$status
+
+    # Continue to wait.
+    REPEAT
     ```
 
     |Functions|Returns|Description
@@ -92,18 +139,10 @@
         order: 
             Title: Order
             Steps:
-            - Input: SHARE|nlweb.org/NAVIGATOR/DESTINATION
-              Purpose: your navigator sets where 🧭
-            - Input: SHARE|nlweb.org/CONCIERGE/COURIER
-              Purpose: your concierge sets how 🛎️  
-            - Input: SHARE|nlweb.org/CURATOR/FILTER
+            - Input: SHARE|@CURATOR/FILTER
               Purpose: your curator orders 🧚
-            - Input: SHARE|nlweb.org/VITALOGIST/REVIEW
+            - Input: SHARE|@VITALOGIST/REVIEW
               Purpose: your vitalogist reviews 💖 
-            - Input: SHARE|nlweb.org/CONCIERGE/REVIEW
-              Purpose: your concierge reviews 🛎️  
-            - Input: SHARE|nlweb.org/SCHEDULER/REVIEW
-              Purpose: your scheduler reviews 🗓️ 
             - Input: CHARGE
               Purpose: your payer pays the bill 💳              
     ```
