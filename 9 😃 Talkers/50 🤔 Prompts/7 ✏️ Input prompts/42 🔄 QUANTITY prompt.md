@@ -1,6 +1,6 @@
 # 🔄 QUANTITY prompt
 
-> Part of [blocking input prompts 🤔](<../1 📘 Prompt specs/11 ✏️ Input behavior.md>)
+> Part of [blocking input prompts 🤔](<../1 📘 Prompt specs/09 ✏️ Input behavior.md>)
 
 
 <br/>
@@ -22,7 +22,7 @@
     |-|-
     | ⊕ [`Details`](<../1 📘 Prompt specs/03 ⊕ with Details.md>) | Has expandable [+] details.
     | 📎 [`Appendix`](<../1 📘 Prompt specs/05 📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
-    | ✏️ [`Input`](<../1 📘 Prompt specs/11 ✏️ Input behavior.md>) | Waits for an answer from users.
+    | ✏️ [`Input`](<../1 📘 Prompt specs/09 ✏️ Input behavior.md>) | Waits for an answer from users.
     
     ---
     <br/>

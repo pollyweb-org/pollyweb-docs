@@ -1,13 +1,13 @@
 # 👍 CONFIRM prompt
 
-> Part of [blocking input prompts 🤔](<../1 📘 Prompt specs/11 ✏️ Input behavior.md>)
+> Part of [blocking input prompts 🤔](<../1 📘 Prompt specs/09 ✏️ Input behavior.md>)
 
 <br/>
 
 1. **What's a `CONFIRM` prompt?**
 
     A `CONFIRM`
-    * is a [blocking input prompt 🤔](<../1 📘 Prompt specs/11 ✏️ Input behavior.md>)
+    * is a [blocking input prompt 🤔](<../1 📘 Prompt specs/09 ✏️ Input behavior.md>)
     * that asks a simple `Yes` or `No` to user,
     * typically to progress with a workflow.
 

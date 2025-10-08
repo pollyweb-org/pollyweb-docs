@@ -1,6 +1,6 @@
 # 😶 Talker `EMOJI` command
 
-> Implements the [🫥 Input emojis](<../2 ✏️ Input specs/14 ✏️😶 Input emojis.md>) feature.
+> Implements the [🫥 Input emojis](<14 ✏️😶 Input emojis.md>) feature.
 
 <br/>
 
@@ -8,8 +8,8 @@
 
     An `EMOJI`
     * is a [Command ⌘](<../../20 🌊 Talker flows/10 ⌘ Command.md>) 
-    * that defaults all upcoming [Input prompts ✏️](<11 ✏️ Input behavior.md>)
-    * to [use another emoji 😶](<../2 ✏️ Input specs/14 ✏️😶 Input emojis.md>) other than the default smile 😃 emoji.
+    * that defaults all upcoming [Input prompts ✏️](<../1 📘 Prompt specs/09 ✏️ Input behavior.md>)
+    * to [use another emoji 😶](<14 ✏️😶 Input emojis.md>) other than the default smile 😃 emoji.
 
     ---
     <br/>
@@ -21,7 +21,7 @@
     ```
     | Argument| Purpose | Example
     |-|-|-
-    | `<emoji>` | Emoji for upcoming [Input prompts ✏️](<11 ✏️ Input behavior.md>) | `😶`
+    | `<emoji>` | Emoji for upcoming [Input prompts ✏️](<../1 📘 Prompt specs/09 ✏️ Input behavior.md>) | `😶`
     
 
     ---
@@ -29,7 +29,7 @@
 
 1. **What's an example?**
 
-    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../1 📘 Prompt specs/01 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Joyful? [Yes, No] | > Yes
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Changing to neutral.
