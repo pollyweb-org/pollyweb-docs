@@ -125,7 +125,7 @@
 
 1. **How to default quantities in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
 
-    Use the [`ONE`](<53 1️⃣ ONE prompt.md>) prompt.
+    Use the [`ONE`](<../../../9 😃 Talkers/Prompts/53 1️⃣ ONE prompt.md>) prompt.
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
@@ -161,7 +161,7 @@
     | [Command ⌘](<../../../9 😃 Talkers/Flow/10 ⌘ Command.md>) | Purpose
     |-|-
     | ℹ️ [`INFO`](<../../../9 😃 Talkers/Prompts/21 ℹ️ INFO prompt.md>) | To show the result.
-    | 1️⃣ [`ONE`](<53 1️⃣ ONE prompt.md>) | To show the options.
+    | 1️⃣ [`ONE`](<../../../9 😃 Talkers/Prompts/53 1️⃣ ONE prompt.md>) | To show the options.
     | 🔀 [`CASE`](<../../../9 😃 Talkers/Flow/22 🔀 CASE flow.md>) | To check the selected option.
     | ⏳ [`TEMP`](<25 ⏳ TEMP prompt.md>) | To show work in progress.
     
