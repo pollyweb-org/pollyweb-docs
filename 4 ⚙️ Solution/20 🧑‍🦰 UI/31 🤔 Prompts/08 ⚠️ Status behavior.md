@@ -17,9 +17,9 @@
    
     | Format | Description
     |-|-
-    | ℹ️ [`INFO`](<21 ℹ️ INFO prompt.md>) | General information.
-    | ✅ [`SUCCESS`](<23 ✅ SUCCESS prompt.md>) | Success message.
-    | ❌ [`FAILURE`](<24 ❌ FAILURE prompt.md>) | Failure message.
+    | ℹ️ [`INFO`](<../../../9 😃 Talkers/50 🤔 Prompts/40 ⚠️🤔 Status prompts/21 ℹ️ INFO prompt.md>) | General information.
+    | ✅ [`SUCCESS`](<../../../9 😃 Talkers/50 🤔 Prompts/40 ⚠️🤔 Status prompts/23 ✅ SUCCESS prompt.md>) | Success message.
+    | ❌ [`FAILURE`](<../../../9 😃 Talkers/50 🤔 Prompts/40 ⚠️🤔 Status prompts/24 ❌ FAILURE prompt.md>) | Failure message.
     
     ---
     <br/>

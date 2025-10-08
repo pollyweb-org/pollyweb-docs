@@ -259,6 +259,6 @@
     | [Command ⌘](<../../../9 😃 Talkers/20 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
     |-|-
     | 💰 [`AMOUNT`](<43 💰 AMOUNT prompt.md>) | To collect a structured currency value.
-    | ✅ [`SUCCESS`](<23 ✅ SUCCESS prompt.md>) | To show the formatted collected value.
+    | ✅ [`SUCCESS`](<../../../9 😃 Talkers/50 🤔 Prompts/40 ⚠️🤔 Status prompts/23 ✅ SUCCESS prompt.md>) | To show the formatted collected value.
 
     ---

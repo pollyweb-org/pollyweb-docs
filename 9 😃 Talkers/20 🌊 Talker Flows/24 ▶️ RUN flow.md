@@ -34,9 +34,9 @@
 
     | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ [Hi, Alice! I'm happy.](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/21 ℹ️ INFO prompt.md>)
-    | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ [Hi David! I'm glad.](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/21 ℹ️ INFO prompt.md>)
-    | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ [Example finished.](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/23 ✅ SUCCESS prompt.md>)
+    | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ [Hi, Alice! I'm happy.](<../50 🤔 Prompts/40 ⚠️🤔 Status prompts/21 ℹ️ INFO prompt.md>)
+    | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ [Hi David! I'm glad.](<../50 🤔 Prompts/40 ⚠️🤔 Status prompts/21 ℹ️ INFO prompt.md>)
+    | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ [Example finished.](<../50 🤔 Prompts/40 ⚠️🤔 Status prompts/23 ✅ SUCCESS prompt.md>)
     |
 
     Here's the [Talker 😃](<../10 📘 Talker specs/01 😃 Talker.md>).
@@ -100,8 +100,8 @@
 
     | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ [Here's number  3512596.](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/21 ℹ️ INFO prompt.md>)
-    | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ [Here's number  52364.](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/21 ℹ️ INFO prompt.md>)
+    | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ [Here's number  3512596.](<../50 🤔 Prompts/40 ⚠️🤔 Status prompts/21 ℹ️ INFO prompt.md>)
+    | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ [Here's number  52364.](<../50 🤔 Prompts/40 ⚠️🤔 Status prompts/21 ℹ️ INFO prompt.md>)
     | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Example finished.
     |
 
@@ -176,9 +176,9 @@
     | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ Adding 5 to 2...
-    | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) |  ✅ [The first result is 7.](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/23 ✅ SUCCESS prompt.md>)
+    | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) |  ✅ [The first result is 7.](<../50 🤔 Prompts/40 ⚠️🤔 Status prompts/23 ✅ SUCCESS prompt.md>)
     | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) |  ℹ️ Adding 5 to 4...
-    | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) |  ✅ [The second result is 9.](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/23 ✅ SUCCESS prompt.md>)
+    | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) |  ✅ [The second result is 9.](<../50 🤔 Prompts/40 ⚠️🤔 Status prompts/23 ✅ SUCCESS prompt.md>)
     
 
     ```yaml
