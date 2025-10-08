@@ -27,13 +27,13 @@
 
     |Format | Description
     |-|-
-    | [👍&nbsp;CONFIRM](<../../../9 😃 Talkers/Prompts/31 👍 CONFIRM prompt.md>) | Yes, No, Cancel
+    | [👍&nbsp;CONFIRM](<../../../9 😃 Talkers/Prompts/30 Input prompts/31 👍 CONFIRM prompt.md>) | Yes, No, Cancel
     | [🔠&nbsp;TEXT](<32 🔠 TEXT prompt.md>) | Asks for a text input
-    | [🔢&nbsp;DIGITS](<../../../9 😃 Talkers/Prompts/44 🔢 DIGITS prompt.md>) | Shows the numeric keypad
-    | [🔄&nbsp;QUANTITY](<../../../9 😃 Talkers/Prompts/42 🔄 QUANTITY prompt.md>) | Shows up/down arrows.
-    | [💰&nbsp;AMOUNT](<../../../9 😃 Talkers/Prompts/43 💰 AMOUNT prompt.md>) | Allows for decimals
+    | [🔢&nbsp;DIGITS](<../../../9 😃 Talkers/Prompts/30 Input prompts/44 🔢 DIGITS prompt.md>) | Shows the numeric keypad
+    | [🔄&nbsp;QUANTITY](<../../../9 😃 Talkers/Prompts/30 Input prompts/42 🔄 QUANTITY prompt.md>) | Shows up/down arrows.
+    | [💰&nbsp;AMOUNT](<../../../9 😃 Talkers/Prompts/30 Input prompts/43 💰 AMOUNT prompt.md>) | Allows for decimals
     | [🔑&nbsp;OTP](<57 🔑 OTP prompt.md>) | Asks for 6 digits
-    | [1️⃣&nbsp;ONE](<../../../9 😃 Talkers/Prompts/53 1️⃣ ONE prompt.md>) | One of multiple options
+    | [1️⃣&nbsp;ONE](<../../../9 😃 Talkers/Prompts/30 Input prompts/53 1️⃣ ONE prompt.md>) | One of multiple options
     | [🔠&nbsp;MANY](<../../../9 😃 Talkers/Prompts/54 🔠 MANY prompt.md>) | Zero or more of multiple options
     | [⭐&nbsp;RATE](<46 ⭐ RATE prompt.md>) | 1 to 5 stars
     | [🕓&nbsp;TIME](<../../../9 😃 Talkers/Prompts/62 🕓 TIME prompt.md>) | Asks for time of day
@@ -59,7 +59,7 @@
     * e.g., ask to share the code `nlweb.org/BOOKING/CONTACTS` instead of asking for the name, then the phone number, then the email address, and so on.
   
     When [Prompts 🤔](<01 🤔 Prompt.md>) are inevitable, avoid [`TEXT`](<32 🔠 TEXT prompt.md>) prompts; 
-    * instead, prefer low-effort prompts like [`ONE`](<../../../9 😃 Talkers/Prompts/53 1️⃣ ONE prompt.md>);
+    * instead, prefer low-effort prompts like [`ONE`](<../../../9 😃 Talkers/Prompts/30 Input prompts/53 1️⃣ ONE prompt.md>);
     * e.g., searchable lists with one or many possible options.
 
     ---
