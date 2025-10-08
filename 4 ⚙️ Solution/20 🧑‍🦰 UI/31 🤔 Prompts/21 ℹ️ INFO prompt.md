@@ -53,15 +53,15 @@
     INFO:
         Message: <message>
         # Generic optional properties
-        Options: <options>
-        Details: <details>
-        Appendix: <appendix>
+        Details: string
+        Options: csv|string[]|object
+        Appendix: {function}
     ```
 
     | Argument| Purpose | Example
     |-|-|-
+    | `Details` | Optional [expandable details ⊕](<03 🤔⊕ with Details.md>) | `Hint...`
     | `Options` | Optional [selectable options 🔘](<04 🤔🔘 with Options.md>) | `A,B` `{A:B}`
-    | `Details` | Optional [expandable details ⊕](<03 🤔⊕ with Details.md>) | `Hint: ...`
     | `Appendix` | Optional [file attachment 📎](<05 🤔📎 with Appendix.md>) | `{/...}`
     
     

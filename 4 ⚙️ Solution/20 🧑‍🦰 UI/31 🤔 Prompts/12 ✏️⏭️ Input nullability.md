@@ -1,4 +1,4 @@
-# ⏭️ Input optionality
+# ⏭️ Input nullability
 
 > Part of [✏️ Input prompts](<11 ✏️ Input behavior.md>)
 
@@ -53,7 +53,7 @@
 
     [Input prompts ✏️](<11 ✏️ Input behavior.md>) 
     * can be made optional 
-    * by setting the property `Optional` to `True`.
+    * by setting the property `Nullable` to `True` or `Yes`.
     
     ---
     <br/>
@@ -77,7 +77,7 @@
     ```yaml
     # 😃 Talker
     - DIGITS|What's the code? >> $code:
-        Optional: True
+        Nullable: True
     - IF|$code:
         Then: SUCCESS|Your code is `{$code}`
         Else: SUCCESS|You didn't provide a code.

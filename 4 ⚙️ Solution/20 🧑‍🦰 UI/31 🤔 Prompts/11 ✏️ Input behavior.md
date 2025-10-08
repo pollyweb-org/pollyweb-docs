@@ -15,8 +15,8 @@
     
     ||Section | Details
     |-|- | -
-    ||[⏭️ Input optionality](<12 ✏️⏭️ Input optionality.md>) | Allow inputs to be optional.
-    ||[⚡ Input validation](<13 ✏️📋 Input validation.md>) | Client versus Server side validation.
+    ||[⏭️ Input nullability](<12 ✏️⏭️ Input nullability.md>) | Allow inputs to be optional.
+    ||[📋 Input validation](<13 ✏️📋 Input validation.md>) | Client versus Server side validation.
     ||[😶 Input emojis](<14 ✏️😶 Input emojis.md>) | Changing the default emojis.
     
     ---
