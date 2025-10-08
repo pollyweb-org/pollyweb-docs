@@ -20,12 +20,12 @@
 1. **What's the format of a [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>)?**
 
     ```yaml
-    TIME|<message> >> $placeholder
+    TIME|<statement> >> $placeholder
     ```
     
     |Argument| Details | Example 
     |-|-|-
-    | `<message>`| The message to the user | `What time?`
+    | `<statement>`| The message to the user | `What time?`
     | `$placeholder`| The time in  ISO 8601 | `14:23:59` 
     
     ---

@@ -52,17 +52,17 @@
 
     ```yaml
     # Inline
-    TEMP|<message> 
+    TEMP|<statement> 
     ```
     
     | Argument| Purpose | Example
     |-|-|-
-    | `<message>` |  Message for the user. | `Running...`
+    | `<statement>` |  Message for the user. | `Running...`
 
     ```yaml
     # Multi-line 
     TEMP:
-        Statement: <message>
+        Statement: <statement>
         
         # Generic optional properties
         Details: string

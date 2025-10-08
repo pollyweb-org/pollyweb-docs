@@ -34,12 +34,12 @@
 
     ```yaml
     # Simplest.
-    ONE|<message>|<options> >> $placeholder
+    ONE|<statement>|<options> >> $placeholder
     ```
 
     | Argument| Purpose | Example
     |-|-|-
-    | `<message>`| Message to show to the user
+    | `<statement>`| Message to show to the user
     | `<options>` | Comma-separated strings, or | `A,B,C`
     || a comma-separated dictionary | `1:A,2:B`
     | `$placeholder`| Optional selection placeholder
@@ -47,7 +47,7 @@
     ```yaml
     # Comprehensive.
     ONE >> $placeholder:
-        Statement: <message>
+        Statement: <statement>
         
         # Generic optional properties
         Details: string

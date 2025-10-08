@@ -59,17 +59,17 @@
 
     ```yaml
     # Inline
-    SUCCESS|<message> 
+    SUCCESS|<statement> 
     ```
 
     | Argument| Purpose | Example
     |-|-|-
-    | `<message>` |  Message to show to the user. | `Done!`
+    | `<statement>` |  Message to show to the user. | `Done!`
 
     ```yaml
     # Multi-line 
     SUCCESS:
-        Statement: <message>
+        Statement: <statement>
         
         # Generic optional properties
         Details: string

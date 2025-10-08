@@ -39,19 +39,19 @@
 
     ```yaml
     # Simplest.
-    RATE|<message> >> $placeholder
+    RATE|<statement> >> $placeholder
     ```
 
     | Argument| Purpose 
     |-|-
-    | `<message>`| Message to show to the user
+    | `<statement>`| Message to show to the user
     | `$placeholder`| Optional placeholder with the user's answer
     
 
     ```yaml
     # Comprehensive.
     RATE >> $placeholder:
-        Statement: <message>
+        Statement: <statement>
 
         # Generic optional properties
         Emoji: emoji

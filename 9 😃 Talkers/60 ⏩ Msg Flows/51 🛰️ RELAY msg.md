@@ -29,7 +29,7 @@
 
     ```yaml
     - RELAY|<pool>|<key> >> $result
-        Command: <message>
+        Script: <script>
         OnFailure: <failure>
         OnSuccess: <success>
     ```
@@ -38,7 +38,7 @@
     |-|-
     | `<pool>` | Name of device pool in the [Relayer 🛰️](<../../4 ⚙️ Solution/60 🧰 Edge/61 🔌 Pluggables/04 🛰️🛠️ Relayer helper.md>)
     | `<key>`  | Unique device key in the pool
-    | `<message>` | Message to send to the device
+    | `<script>` | Message to send to the device
     | `$result` | The response returned by the [Relayer 🛰️](<../../4 ⚙️ Solution/60 🧰 Edge/61 🔌 Pluggables/04 🛰️🛠️ Relayer helper.md>)
     | `<failure>` | [Procedure ⚙️](<../20 🌊 Talker flows/11 ⚙️ Procedure.md>) or [Command ⌘](<../20 🌊 Talker flows/10 ⌘ Command.md>) to run on failure
     | `<success>` | [Procedure ⚙️](<../20 🌊 Talker flows/11 ⚙️ Procedure.md>) or [Command ⌘](<../20 🌊 Talker flows/10 ⌘ Command.md>) to run on success
@@ -63,7 +63,7 @@
 
     # Relay the open message.
     - RELAY|Lockers|{$locker} >> $result
-        Command: Open({$door})
+        Script: Open({$door})
         OnFailure: FailureHandler
         OnSuccess: SuccessHandler
 

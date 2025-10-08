@@ -41,19 +41,19 @@
 
     ```yaml
     # Simplest.
-    AMOUNT|<message> >> $placeholder
+    AMOUNT|<statement> >> $placeholder
     ```
 
     | Argument| Purpose 
     |-|-
-    | `<message>`| Message to show to the user
+    | `<statement>`| Message to show to the user
     | `$placeholder`| Optional placeholder with the user's answer
     
 
     ```yaml
     # Comprehensive.
     AMOUNT >> $placeholder:
-        Statement: <message>
+        Statement: <statement>
         
         # Specific optional properties
         Currency: string

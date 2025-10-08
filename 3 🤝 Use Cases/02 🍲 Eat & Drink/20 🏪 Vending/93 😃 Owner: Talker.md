@@ -41,7 +41,7 @@ TODO: Add the flow to the Manifest
 
 # Relay the Open command to the vending machine.
 - RELAY|Machines|{$locator.MachineKey} >> relayed
-    Command: Open({$item.Number})
+    Script: Open({$item.Number})
     OnFailure: Failure
     OnSuccess: Success
 

@@ -27,7 +27,7 @@
 1. **What's the format for a [Talker 😃](<../../10 📘 Talker specs/01 😃 Talker.md>)?**
 
     ```yaml
-    <PROMPT>|<message>:
+    <PROMPT>|<statement>:
         Details: <details>
     ```
 
@@ -35,7 +35,7 @@
     | Argument| Purpose | Example
     |-|-|-
     | `<PROMPT>` | A [Prompt 🤔](<01 🤔 Prompt.md>) format. | `INFO` `TEMP`
-    | `<message>` |  Message to show to the user. | `Hi!`
+    | `<statement>` |  Message to show to the user. | `Hi!`
     | `<details>` |  Details to show to the user. | `Bla, bla.`
     
     

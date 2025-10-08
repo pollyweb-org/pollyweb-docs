@@ -63,19 +63,19 @@
 
     ```yaml
     # Simplest
-    <PROMPT>|<message>|<options>
+    <PROMPT>|<statement>|<options>
     ```
 
     | Argument| Purpose | Example
     |-|-|-
     | `<PROMPT>` | A [Prompt 🤔](<01 🤔 Prompt.md>) format. | [`INFO`](<../4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) [`TEMP`](<../4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>)
-    | `<message>` |  Message to show to the user. | `Hi!`
+    | `<statement>` |  Message to show to the user. | `Hi!`
     | `<options>` | Comma-separated strings, or | `A,B,C`
     || a comma-separated dictionary | `1:A,2:B`
     
     ```yaml
     # One-line
-    <PROMPT>|<message>|<options> >> $selected
+    <PROMPT>|<statement>|<options> >> $selected
     ```
 
     | Argument| Purpose | Example
@@ -87,20 +87,20 @@
     ```yaml
     # Multi-line with a single options string
     <PROMPT> >> $selected:
-        Statement: <message>
+        Statement: <statement>
         Options: <options>
     ```
 
     | Argument| Purpose | Example
     |-|-|-
-    | `<message>` | Also allows interpolated strings. | `Hi {$name}!`
+    | `<statement>` | Also allows interpolated strings. | `Hi {$name}!`
     | `<options>` | Also allows string array functions |`{f}` → `[A,B]`
     |           | and object functions. | `{f}` → `{1:A}`
     
     ```yaml
     # Multi-line with multiple strings
     <PROMPT> >> $selected:
-        Statement: <message>
+        Statement: <statement>
         Options:
             - <option-1>
             - <option-n>
@@ -116,7 +116,7 @@
     ```yaml
     # Multi-line with a dictionary
     <PROMPT> >> $selected:
-        Statement: <message>
+        Statement: <statement>
         Options:
             <id-1>: <option-1>
             <id-n>: <option-n>
