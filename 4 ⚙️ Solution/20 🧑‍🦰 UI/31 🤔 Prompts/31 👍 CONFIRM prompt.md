@@ -29,9 +29,11 @@
     # Comprehensive
     CONFIRM:
         Message: <message>
+        
         # Specific optional properties
         Then: Procedure|Command
         Else: Procedure|Command
+
         # Generic optional properties
         Emoji: emoji
         Details: string

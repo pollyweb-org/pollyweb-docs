@@ -60,6 +60,7 @@
     # Multi-line 
     FAILURE:
         Message: <message>
+        
         # Generic optional properties
         Details: string
         Options: csv|string[]|object

@@ -63,6 +63,7 @@
     # Multi-line 
     TEMP:
         Message: <message>
+        
         # Generic optional properties
         Details: string
         Options: csv|string[]|object
