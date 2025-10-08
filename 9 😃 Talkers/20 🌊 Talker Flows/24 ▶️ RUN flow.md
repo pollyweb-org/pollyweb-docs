@@ -87,7 +87,7 @@
 
     | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
-    | 🔄 [`QUANTITY`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/42 🔄 QUANTITY prompt.md>) | To collect the number input.
+    | 🔄 [`QUANTITY`](<../50 🤔 Prompts/30 ✏️🤔 Input prompts/42 🔄 QUANTITY prompt.md>) | To collect the number input.
 
 
     ---

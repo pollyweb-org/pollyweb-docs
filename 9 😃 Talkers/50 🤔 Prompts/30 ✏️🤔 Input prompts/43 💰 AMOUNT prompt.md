@@ -1,6 +1,6 @@
 # 💰 AMOUNT prompt
 
-> Part of [blocking input prompts 🤔](<11 ✏️ Input behavior.md>)
+> Part of [blocking input prompts 🤔](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/11 ✏️ Input behavior.md>)
 
 
 <br/>
@@ -9,7 +9,7 @@
 1. **What's an AMOUNT prompt?**
 
     An `AMOUNT` 
-    * is a [Prompt 🤔](<01 🤔 Prompt.md>) 
+    * is a [Prompt 🤔](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) 
     * that adds currency awareness
     * to the decimal behavior of the [`QUANTITY`](<42 🔄 QUANTITY prompt.md>) prompt.
 
@@ -30,9 +30,9 @@
 
     | Feature | Details
     |-|-
-    | ⊕ [`Details`](<03 🤔⊕ with Details.md>) | Has expandable [+] details.
-    | 📎 [`Appendix`](<05 🤔📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
-    | ✏️ [`Input`](<11 ✏️ Input behavior.md>) | Waits for an answer from users.
+    | ⊕ [`Details`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/03 🤔⊕ with Details.md>) | Has expandable [+] details.
+    | 📎 [`Appendix`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/05 🤔📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
+    | ✏️ [`Input`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/11 ✏️ Input behavior.md>) | Waits for an answer from users.
     
     ---
     <br/>
@@ -75,26 +75,26 @@
     |-|-|-
     | `Currency` | Optional ISO 4217 currency <br/>- defaults to the locale's currency | `USD`
     | `Precision`| Rounded decimals (default is 2) | `2`
-    | `Locale`   | Optional CLDR locale <br/> - defaults to the [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) language | `en-US`
-    | `MinValue` | Optional [minimum value 📋](<13 ✏️📋 Input validation.md>) | `-100`
-    | `MaxValue` | Optional [maximum value 📋](<13 ✏️📋 Input validation.md>) | `100`
-    | `Emoji` | Optional [alternative emoji 😶](<14 ✏️😶 Input emojis.md>) | `😶`
-    | `Details` | Optional [expandable details ⊕](<03 🤔⊕ with Details.md>) | `Hint...`
-    | `Nullable` | Optional [skip flag ⏭️](<12 ✏️⏭️ Input nullability.md>) | `Yes`
-    | `Appendix` | Optional [file attachment 📎](<05 🤔📎 with Appendix.md>) | `<uuid>`
+    | `Locale`   | Optional CLDR locale <br/> - defaults to the [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) language | `en-US`
+    | `MinValue` | Optional [minimum value 📋](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/13 ✏️📋 Input validation.md>) | `-100`
+    | `MaxValue` | Optional [maximum value 📋](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/13 ✏️📋 Input validation.md>) | `100`
+    | `Emoji` | Optional [alternative emoji 😶](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/14 ✏️😶 Input emojis.md>) | `😶`
+    | `Details` | Optional [expandable details ⊕](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/03 🤔⊕ with Details.md>) | `Hint...`
+    | `Nullable` | Optional [skip flag ⏭️](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/12 ✏️⏭️ Input nullability.md>) | `Yes`
+    | `Appendix` | Optional [file attachment 📎](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/05 🤔📎 with Appendix.md>) | `<uuid>`
     
     ---
     <br/>
 
-1. **What's an AMOUNT example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
+1. **What's an AMOUNT example of a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)?**
 
 
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 How much? | 💰 1234.5678
-    [🫥 Agent](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | 🫥 How much? | 💰 12345.6
-    | [🛠️ Helper](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | 🫥 How much? | 💰 -54.456
+    | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 How much? | 💰 1234.5678
+    [🫥 Agent](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | 🫥 How much? | 💰 12345.6
+    | [🛠️ Helper](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | 🫥 How much? | 💰 -54.456
     |
 
     <br/>
@@ -163,7 +163,7 @@
     * identity and clean monetary characters
     * while storing the currencies in their original currency.
 
-    Consider the following conversion table in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) with locale `en-US`.
+    Consider the following conversion table in a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) with locale `en-US`.
 
     |Group      | Scenario| `.Text`   | `.Pretty`   | `.Currency`
     |-          | -|-:|-:|:-:

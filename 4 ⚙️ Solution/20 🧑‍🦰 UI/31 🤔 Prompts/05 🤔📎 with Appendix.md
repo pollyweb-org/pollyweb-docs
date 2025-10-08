@@ -47,7 +47,7 @@
 
     | [Command ⌘](<../../../9 😃 Talkers/20 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
     |-|-
-    | 🔠 [`TEXT`](<32 🔠 TEXT prompt.md>) | To ask a question with an image.
+    | 🔠 [`TEXT`](<../../../9 😃 Talkers/50 🤔 Prompts/30 ✏️🤔 Input prompts/32 🔠 TEXT prompt.md>) | To ask a question with an image.
     
 
     <br/>

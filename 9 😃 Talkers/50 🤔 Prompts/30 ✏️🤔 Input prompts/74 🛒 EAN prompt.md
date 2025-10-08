@@ -2,16 +2,16 @@
 
 > Scans for ENA-13 and EAN-8 barcodes
 
-> Part of [blocking input prompts 🤔](<11 ✏️ Input behavior.md>)
+> Part of [blocking input prompts 🤔](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/11 ✏️ Input behavior.md>)
 
    * `EAN|<message> >> <key>`	
-       * Calls the [🛒 EAN Prompt](<01 🤔 Prompt.md>)
+       * Calls the [🛒 EAN Prompt](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>)
 
 <br/>
 
-1. **What's an example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
+1. **What's an example of a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)?**
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 
 

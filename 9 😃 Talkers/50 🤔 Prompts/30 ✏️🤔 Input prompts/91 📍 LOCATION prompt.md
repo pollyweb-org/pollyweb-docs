@@ -1,20 +1,20 @@
 # 📍 LOCATION prompt
 
-> Part of [blocking input prompts 🤔](<11 ✏️ Input behavior.md>)
+> Part of [blocking input prompts 🤔](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/11 ✏️ Input behavior.md>)
 
 <br/>
 
 1. **What's a LOCATION prompt?**
 
-    It's a [Prompt 🤔](<01 🤔 Prompt.md>) that asks for the user's current location.
+    It's a [Prompt 🤔](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) that asks for the user's current location.
 
     ---
     <br/>
 
 
-1. **What's an example of a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
+1. **What's an example of a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)?**
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 🤗 Host | ℹ️ Tell us where you are.
     | 🤗 Host | [📍 Share location?](<91 📍 LOCATION prompt.md>)  | > Yes
@@ -30,7 +30,7 @@
     |🍽️ Restaurants| [Chef starts shift 🧑‍🍳](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/81 🧑‍🍳 Chef: Start shift 🪪.md>)
     |🍕 Order pizza| [Driver starts shift 🛵](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/81 🛵 Driver: Start shift.md>)
     |🕺 Night clubs| [Bouncer protects door 👮](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/90 🕺 Clubs/71 👮 Bouncer: Protect door.md>)
-    |💍 Userables| [Userable emergencies 🚨](<../../70 🌳 Ambient/74 💍 Brand Userables/02 💍🚨 Userable emergencies.md>)
+    |💍 Userables| [Userable emergencies 🚨](<../../../4 ⚙️ Solution/70 🌳 Ambient/74 💍 Brand Userables/02 💍🚨 Userable emergencies.md>)
 
     ---
     <br/>

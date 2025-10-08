@@ -79,9 +79,9 @@
 | 
 | 🪣 [`MAP`](<../../../9 😃 Talkers/30 💾 Talker data/61 🪣 MAP item.md>) | Map the locator to a restaurant info.
 | 📝 [`FORM`](<../../../9 😃 Talkers/60 ⏩ Msg flows/41 📝 FORM msg.md>) | Show user instructions and allow inputs.
-| 1️⃣ [`ONE`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/53 1️⃣ ONE prompt.md>) | Select an option, the day in this case.
+| 1️⃣ [`ONE`](<../../../9 😃 Talkers/50 🤔 Prompts/30 ✏️🤔 Input prompts/53 1️⃣ ONE prompt.md>) | Select an option, the day in this case.
 | 💼 [`SHARE`](<../../../9 😃 Talkers/60 ⏩ Msg flows/45 💼 SHARE msg.md>) | Get the user's booking contacts.
-| 👍 [`CONFIRM`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/31 👍 CONFIRM prompt.md>) | Pause to allow changing previous inputs.
+| 👍 [`CONFIRM`](<../../../9 😃 Talkers/50 🤔 Prompts/30 ✏️🤔 Input prompts/31 👍 CONFIRM prompt.md>) | Pause to allow changing previous inputs.
 | ❄️ [`FREEZE`](<../../../9 😃 Talkers/60 ⏩ Msg flows/42 ❄️ FREEZE msg.md>) | Freeze all previous inputs from changes.
 | ⬇️ [`EVAL`](<../../../9 😃 Talkers/30 💾 Talker data/20 ⬇️ EVAL flow.md>) | Save the booking.
 |

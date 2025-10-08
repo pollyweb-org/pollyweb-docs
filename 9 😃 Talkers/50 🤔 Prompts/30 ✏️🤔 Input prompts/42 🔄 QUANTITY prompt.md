@@ -1,13 +1,13 @@
 # 🔄 QUANTITY prompt
 
-> Part of [blocking input prompts 🤔](<11 ✏️ Input behavior.md>)
+> Part of [blocking input prompts 🤔](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/11 ✏️ Input behavior.md>)
 
 
 <br/>
 
 1. **What's an QUANTITY prompt?**
 
-    It's a [Prompt 🤔](<01 🤔 Prompt.md>) that shows up and down arrows - e.g.:
+    It's a [Prompt 🤔](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) that shows up and down arrows - e.g.:
     * [Book a restaurant table online 🍽️](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/31 🌐 Web: Book table 🗓️.md>)
     * [Split the bill at a restaurant ✂️](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/74 💳 Pay: Split bill ✂️.md>)
     * [Walk into a full restaurant 🍽️](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/44 🚪 Door: Walk in full.md>)
@@ -20,9 +20,9 @@
 
     | Feature | Details
     |-|-
-    | ⊕ [`Details`](<03 🤔⊕ with Details.md>) | Has expandable [+] details.
-    | 📎 [`Appendix`](<05 🤔📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
-    | ✏️ [`Input`](<11 ✏️ Input behavior.md>) | Waits for an answer from users.
+    | ⊕ [`Details`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/03 🤔⊕ with Details.md>) | Has expandable [+] details.
+    | 📎 [`Appendix`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/05 🤔📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
+    | ✏️ [`Input`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/11 ✏️ Input behavior.md>) | Waits for an answer from users.
     
     ---
     <br/>
@@ -60,13 +60,13 @@
     | Argument| Purpose | Example
     |-|-|-
     | `Precision`| Rounded decimals (default is 0) | `0`
-    | `Locale`   | Optional CLDR locale <br/> - defaults to the [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) language | `en-US`
-    | `MinValue` | Optional [minimum value 📋](<13 ✏️📋 Input validation.md>) | `-100`
-    | `MaxValue` | Optional [maximum value 📋](<13 ✏️📋 Input validation.md>) | `100`
-    | `Emoji` | Optional [alternative emoji 😶](<14 ✏️😶 Input emojis.md>) | `😶`
-    | `Details` | Optional [expandable details ⊕](<03 🤔⊕ with Details.md>) | `Hint...`
-    | `Nullable` | Optional [skip flag ⏭️](<12 ✏️⏭️ Input nullability.md>) | `Yes`
-    | `Appendix` | Optional [file attachment 📎](<05 🤔📎 with Appendix.md>) | `<uuid>`
+    | `Locale`   | Optional CLDR locale <br/> - defaults to the [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) language | `en-US`
+    | `MinValue` | Optional [minimum value 📋](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/13 ✏️📋 Input validation.md>) | `-100`
+    | `MaxValue` | Optional [maximum value 📋](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/13 ✏️📋 Input validation.md>) | `100`
+    | `Emoji` | Optional [alternative emoji 😶](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/14 ✏️😶 Input emojis.md>) | `😶`
+    | `Details` | Optional [expandable details ⊕](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/03 🤔⊕ with Details.md>) | `Hint...`
+    | `Nullable` | Optional [skip flag ⏭️](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/12 ✏️⏭️ Input nullability.md>) | `Yes`
+    | `Appendix` | Optional [file attachment 📎](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/05 🤔📎 with Appendix.md>) | `<uuid>`
     
     
     
@@ -76,13 +76,13 @@
 
 1. **What's an example?**
 
-    Here's a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>).
+    Here's a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>).
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 How many? | 🔄 123
-    [🫥 Agent](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | 🫥 How many? | 🔄 123
-    | [🛠️ Helper](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | 🫥 How many? | 🔄 -54
+    | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 How many? | 🔄 123
+    [🫥 Agent](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | 🫥 How many? | 🔄 123
+    | [🛠️ Helper](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | 🫥 How many? | 🔄 -54
     |
     
     <br/>
@@ -123,16 +123,16 @@
 
 
 
-1. **How to default quantities in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
+1. **How to default quantities in a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)?**
 
     Use the [`ONE`](<53 1️⃣ ONE prompt.md>) prompt.
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Table reservation.
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 For how many? [1, 2, more] | > more
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 How many exactly? | 🔄 8
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ⏳ Checking availability... 
+    | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Table reservation.
+    | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 For how many? [1, 2, more] | > more
+    | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 How many exactly? | 🔄 8
+    | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ⏳ Checking availability... 
     |
 
     Here's the [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>).
@@ -179,15 +179,15 @@
 
     <br/>
 
-    Here's a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>).
+    Here's a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>).
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 How much? | 🔄 01234.5
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You entered `1,234.50`
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 How much? | 🔄 4.5678   
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 OK with `4.57`? [Yes, No] | > Yes
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You entered `4.57`
+    | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 How much? | 🔄 01234.5
+    | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You entered `1,234.50`
+    | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 How much? | 🔄 4.5678   
+    | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 OK with `4.57`? [Yes, No] | > Yes
+    | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You entered `4.57`
     |
 
     <br/>
@@ -234,11 +234,11 @@
 
 1. **What's an example of a QUANTITY default property?**
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Give me a quantity  | 🔄 1234
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ I'm storing `1,234`
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Although you typed `1234`
+    | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Give me a quantity  | 🔄 1234
+    | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ I'm storing `1,234`
+    | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Although you typed `1234`
     |
 
     <br/>
