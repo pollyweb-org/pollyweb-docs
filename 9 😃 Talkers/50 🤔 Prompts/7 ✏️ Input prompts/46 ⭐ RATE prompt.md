@@ -61,9 +61,9 @@
     
     | Argument| Purpose | Example
     |-|-|-
-    | `Emoji` | Optional [alternative emoji 😶](<../2 ✏️ Input specs/14 ✏️😶 Input emojis.md>) | `😶`
+    | `Emoji` | Optional [alternative emoji 😶](<../2 ✏️ Input specs/14 😶 Input emojis.md>) | `😶`
     | `Details` | Optional [expandable details ⊕](<../1 📘 Prompt specs/03 ⊕ with Details.md>) | `Hint...`
-    | `Nullable` | Optional [skip flag ⏭️](<../2 ✏️ Input specs/12 ✏️⏭️ Input nullability.md>) | `Yes`
+    | `Nullable` | Optional [skip flag ⏭️](<../2 ✏️ Input specs/12 ⏭️ Input nullability.md>) | `Yes`
     
 
     ---
