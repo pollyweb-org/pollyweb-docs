@@ -71,17 +71,17 @@ Success:
 | Dependencies | Purpose
 |-|-
 | [🧩 `//IDENTITY/OVER21`](<../../../7 🧩 Schemas/IDENTITY/🧩 IdentityOver21.md>) | Verify minimum age to drink
-| [🪣 `Items`](<94 🪣 Owner: Items.md>) | List of items to [`MAP`](<../../../9 😃 Talkers/Data/61 🪣 MAP item.md>)
-| [🪣 `Locators`](<95 🪣 Owner: Locators.md>) | List of machines to [`MAP`](<../../../9 😃 Talkers/Data/61 🪣 MAP item.md>)
+| [🪣 `Items`](<94 🪣 Owner: Items.md>) | List of items to [`MAP`](<../../../9 😃 Talkers/2 Data/61 🪣 MAP item.md>)
+| [🪣 `Locators`](<95 🪣 Owner: Locators.md>) | List of machines to [`MAP`](<../../../9 😃 Talkers/2 Data/61 🪣 MAP item.md>)
 |
 
 <br/>
 
 ## Functions
 
-[Functions](<../../../9 😃 Talkers/Data/12 🐍 {Function}.md>)| Type | Purpose
+[Functions](<../../../9 😃 Talkers/2 Data/12 🐍 {Function}.md>)| Type | Purpose
 |-|-|-
-| [`.Chat.Key`](<../../../9 😃 Talkers/Data/13 💬 {.Chat} function.md>) | Built-in | Get machine's [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) key.
+| [`.Chat.Key`](<../../../9 😃 Talkers/2 Data/13 💬 {.Chat} function.md>) | Built-in | Get machine's [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) key.
 | `Deduct` | Custom | Deduct the stock from the ERP.
 |
 
@@ -89,21 +89,21 @@ Success:
 
 ## Commands
 
-|Type|[Command ⌘](<../../../9 😃 Talkers/Flow/10 ⌘ Command.md>)|Purpose
+|Type|[Command ⌘](<../../../9 😃 Talkers/03 Talker Flows/10 ⌘ Command.md>)|Purpose
 |-|-|-
-|Data| 🪣 [`MAP`](<../../../9 😃 Talkers/Data/61 🪣 MAP item.md>) | Look up items and machines
-|Input | 🔢 [`DIGITS`](<../../../9 😃 Talkers/Prompts/30 Input prompts/44 🔢 DIGITS prompt.md>) | Ask for item number
-|| 👍 [`CONFIRM`](<../../../9 😃 Talkers/Prompts/30 Input prompts/31 👍 CONFIRM prompt.md>) | Confirm item name
-|Status| ⏳ [`TEMP`](<../../../9 😃 Talkers/Prompts/20 Status prompts/25 ⏳ TEMP prompt.md>) | Show delivering status
-|| ✅ [`SUCCESS`](<../../../9 😃 Talkers/Prompts/20 Status prompts/23 ✅ SUCCESS prompt.md>) | Ask to pick the item
-|| ❌ [`FAILURE`](<../../../9 😃 Talkers/Prompts/20 Status prompts/24 ❌ FAILURE prompt.md>) | To show in case of error
-|Flow| ⤵️ [`IF`](<../../../9 😃 Talkers/Flow/21 ⤵️ IF flow.md>)
-||⬇️ [`EVAL`](<../../../9 😃 Talkers/Data/20 ⬇️ EVAL flow.md>)
-||🪵 [`LOG`](<../../../9 😃 Talkers/Data/15 🪵 LOG flow.md>)
-|Message| 💼 [`SHARE`](<../../../9 😃 Talkers/Messages/45 💼 SHARE msg.md>) | Ask for proof of over 21
-|| 💳 [`CHARGE`](<../../../9 😃 Talkers/Messages/47 💳 CHARGE msg.md>) | Charge the item price
-|| 🏦 [`REFUND`](<../../../9 😃 Talkers/Messages/48 🏦 REFUND.md>) | Refund the payment on failure
-|| 👋 [`GOODBYE`](<../../../9 😃 Talkers/Messages/50 👋 GOODBYE.md>) | Show ads on success
-|| 🛰️ [`RELAY`](<../../../9 😃 Talkers/Messages/51 🛰️ RELAY msg.md>) | Relay messages to vending machines
+|Data| 🪣 [`MAP`](<../../../9 😃 Talkers/2 Data/61 🪣 MAP item.md>) | Look up items and machines
+|Input | 🔢 [`DIGITS`](<../../../9 😃 Talkers/3 Prompts/30 Input prompts/44 🔢 DIGITS prompt.md>) | Ask for item number
+|| 👍 [`CONFIRM`](<../../../9 😃 Talkers/3 Prompts/30 Input prompts/31 👍 CONFIRM prompt.md>) | Confirm item name
+|Status| ⏳ [`TEMP`](<../../../9 😃 Talkers/3 Prompts/20 Status prompts/25 ⏳ TEMP prompt.md>) | Show delivering status
+|| ✅ [`SUCCESS`](<../../../9 😃 Talkers/3 Prompts/20 Status prompts/23 ✅ SUCCESS prompt.md>) | Ask to pick the item
+|| ❌ [`FAILURE`](<../../../9 😃 Talkers/3 Prompts/20 Status prompts/24 ❌ FAILURE prompt.md>) | To show in case of error
+|Flow| ⤵️ [`IF`](<../../../9 😃 Talkers/03 Talker Flows/21 ⤵️ IF flow.md>)
+||⬇️ [`EVAL`](<../../../9 😃 Talkers/2 Data/20 ⬇️ EVAL flow.md>)
+||🪵 [`LOG`](<../../../9 😃 Talkers/2 Data/15 🪵 LOG flow.md>)
+|Message| 💼 [`SHARE`](<../../../9 😃 Talkers/5 Messages/45 💼 SHARE msg.md>) | Ask for proof of over 21
+|| 💳 [`CHARGE`](<../../../9 😃 Talkers/5 Messages/47 💳 CHARGE msg.md>) | Charge the item price
+|| 🏦 [`REFUND`](<../../../9 😃 Talkers/5 Messages/48 🏦 REFUND.md>) | Refund the payment on failure
+|| 👋 [`GOODBYE`](<../../../9 😃 Talkers/5 Messages/50 👋 GOODBYE.md>) | Show ads on success
+|| 🛰️ [`RELAY`](<../../../9 😃 Talkers/5 Messages/51 🛰️ RELAY msg.md>) | Relay messages to vending machines
 |
 

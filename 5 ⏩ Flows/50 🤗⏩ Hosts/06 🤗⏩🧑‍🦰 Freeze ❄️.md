@@ -1,3 +1,3 @@
-> Related to [❄️ Talker FREEZE command](<../../9 😃 Talkers/Messages/42 ❄️ FREEZE msg.md>)
+> Related to [❄️ Talker FREEZE command](<../../9 😃 Talkers/5 Messages/42 ❄️ FREEZE msg.md>)
 
 ![alt text](<.📎 Assets/⚙️❄️ Freeze.png>)

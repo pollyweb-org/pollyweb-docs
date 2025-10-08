@@ -4,7 +4,7 @@
 
 ## 💬 Chat
 
-| [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/Prompts/10 Prompt definitions/01 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+| [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/3 Prompts/10 Prompt definitions/01 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
 | - | - | - |
 || | > Book 🔗
 | 🔎 [Finder](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Restaurant (4.3 ⭐)  [+]
@@ -74,14 +74,14 @@
 ```
 
 
-| [Command ⌘](<../../../9 😃 Talkers/Flow/10 ⌘ Command.md>) | Purpose
+| [Command ⌘](<../../../9 😃 Talkers/03 Talker Flows/10 ⌘ Command.md>) | Purpose
 |-|-
 | 
-| 🪣 [`MAP`](<../../../9 😃 Talkers/Data/61 🪣 MAP item.md>) | Map the locator to a restaurant info.
-| 📝 [`FORM`](<../../../9 😃 Talkers/Messages/41 📝 FORM msg.md>) | Show user instructions and allow inputs.
-| 1️⃣ [`ONE`](<../../../9 😃 Talkers/Prompts/30 Input prompts/53 1️⃣ ONE prompt.md>) | Select an option, the day in this case.
-| 💼 [`SHARE`](<../../../9 😃 Talkers/Messages/45 💼 SHARE msg.md>) | Get the user's booking contacts.
-| 👍 [`CONFIRM`](<../../../9 😃 Talkers/Prompts/30 Input prompts/31 👍 CONFIRM prompt.md>) | Pause to allow changing previous inputs.
-| ❄️ [`FREEZE`](<../../../9 😃 Talkers/Messages/42 ❄️ FREEZE msg.md>) | Freeze all previous inputs from changes.
-| ⬇️ [`EVAL`](<../../../9 😃 Talkers/Data/20 ⬇️ EVAL flow.md>) | Save the booking.
+| 🪣 [`MAP`](<../../../9 😃 Talkers/2 Data/61 🪣 MAP item.md>) | Map the locator to a restaurant info.
+| 📝 [`FORM`](<../../../9 😃 Talkers/5 Messages/41 📝 FORM msg.md>) | Show user instructions and allow inputs.
+| 1️⃣ [`ONE`](<../../../9 😃 Talkers/3 Prompts/30 Input prompts/53 1️⃣ ONE prompt.md>) | Select an option, the day in this case.
+| 💼 [`SHARE`](<../../../9 😃 Talkers/5 Messages/45 💼 SHARE msg.md>) | Get the user's booking contacts.
+| 👍 [`CONFIRM`](<../../../9 😃 Talkers/3 Prompts/30 Input prompts/31 👍 CONFIRM prompt.md>) | Pause to allow changing previous inputs.
+| ❄️ [`FREEZE`](<../../../9 😃 Talkers/5 Messages/42 ❄️ FREEZE msg.md>) | Freeze all previous inputs from changes.
+| ⬇️ [`EVAL`](<../../../9 😃 Talkers/2 Data/20 ⬇️ EVAL flow.md>) | Save the booking.
 |

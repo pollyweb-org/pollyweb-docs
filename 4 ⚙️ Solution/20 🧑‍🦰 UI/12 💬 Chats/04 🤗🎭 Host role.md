@@ -115,7 +115,7 @@
 
     | Flow ⏩ | Description
     |-|-
-    | [🤔 Prompt](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | Sends a [Prompt 🤔](<../../../9 😃 Talkers/Prompts/10 Prompt definitions/01 🤔 Prompt.md>) to a user [Chat 💬](<01 💬 Chat.md>)
+    | [🤔 Prompt](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | Sends a [Prompt 🤔](<../../../9 😃 Talkers/3 Prompts/10 Prompt definitions/01 🤔 Prompt.md>) to a user [Chat 💬](<01 💬 Chat.md>)
     | [🛠️ Invite](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>) | Invites a [Helper 🛠️ domain](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) to a [Chat 💬](<01 💬 Chat.md>)
     | [📝 Form](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/05 🤗⏩🧑‍🦰 Form 📝.md>) | Informs a user upcoming inputs
     | [❄️ Freeze](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/06 🤗⏩🧑‍🦰 Freeze ❄️.md>) | Blocks changes on all previous inputs

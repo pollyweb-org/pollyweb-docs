@@ -117,15 +117,15 @@
     - GOODBYE                   # Show advertisement
     ```
 
-    | [Command ⌘](<../../../9 😃 Talkers/Flow/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../../9 😃 Talkers/03 Talker Flows/10 ⌘ Command.md>) | Purpose
     |-|-
-    | 📝 [`FORM`](<../../../9 😃 Talkers/Messages/41 📝 FORM msg.md>) | To provide instructions
-    | 🔗 [`BIND`](<../../../9 😃 Talkers/Messages/44 🔗 BIND msg.md>) | To create a user profile
-    | 🛠️ [`INVITE`](<../../../9 😃 Talkers/Messages/46 🛠️ INVITE msg.md>) | To subscribe the user to plan
-    | ❄️ [`FREEZE`](<../../../9 😃 Talkers/Messages/42 ❄️ FREEZE msg.md>) | To disable past inputs
-    | ⬇️ [`EVAL`](<../../../9 😃 Talkers/Data/20 ⬇️ EVAL flow.md>) | To register on the database
-    | ✅ [`SUCCESS`](<../../../9 😃 Talkers/Prompts/20 Status prompts/23 ✅ SUCCESS prompt.md>) | To say that it was successful
-    | 👋 [`GOODBYE`](<../../../9 😃 Talkers/Messages/50 👋 GOODBYE.md>) | To show advertising
+    | 📝 [`FORM`](<../../../9 😃 Talkers/5 Messages/41 📝 FORM msg.md>) | To provide instructions
+    | 🔗 [`BIND`](<../../../9 😃 Talkers/5 Messages/44 🔗 BIND msg.md>) | To create a user profile
+    | 🛠️ [`INVITE`](<../../../9 😃 Talkers/5 Messages/46 🛠️ INVITE msg.md>) | To subscribe the user to plan
+    | ❄️ [`FREEZE`](<../../../9 😃 Talkers/5 Messages/42 ❄️ FREEZE msg.md>) | To disable past inputs
+    | ⬇️ [`EVAL`](<../../../9 😃 Talkers/2 Data/20 ⬇️ EVAL flow.md>) | To register on the database
+    | ✅ [`SUCCESS`](<../../../9 😃 Talkers/3 Prompts/20 Status prompts/23 ✅ SUCCESS prompt.md>) | To say that it was successful
+    | 👋 [`GOODBYE`](<../../../9 😃 Talkers/5 Messages/50 👋 GOODBYE.md>) | To show advertising
     
 
     ---
