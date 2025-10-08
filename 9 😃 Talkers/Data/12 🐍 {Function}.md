@@ -91,7 +91,7 @@
 
     | [Command ⌘](<../Flow/10 ⌘ Command.md>) | Purpose
     |-|-
-    | 🔄 [`QUANTITY`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/42 🔄 QUANTITY prompt.md>) | To collect the number input.
+    | 🔄 [`QUANTITY`](<../Prompts/42 🔄 QUANTITY prompt.md>) | To collect the number input.
 
     ---
     <br/>
@@ -175,7 +175,7 @@
 
     | [Command ⌘](<../Flow/10 ⌘ Command.md>) | Purpose
     |-|-
-    | 🔄 [`QUANTITY`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/42 🔄 QUANTITY prompt.md>) | To collect the number input.
+    | 🔄 [`QUANTITY`](<../Prompts/42 🔄 QUANTITY prompt.md>) | To collect the number input.
 
 
     ```python
