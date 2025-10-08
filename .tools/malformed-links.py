@@ -4,6 +4,8 @@ import itertools
 
 import emoji
 
+all_memory = False
+
 def find_md_files(directory):
     """Recursively find all markdown files in the project directory."""
     md_files = []
@@ -313,6 +315,9 @@ def check_broken_links(md_files, png_files):
 
 def print_results(broken_links, malformed_links):
     """Print the broken and malformed links found in the project."""
+
+    global all_memory
+
     if not broken_links and not malformed_links:
         print("✅✅✅ No issues found! ✅✅✅\n")
     else:
@@ -380,9 +385,14 @@ def print_results(broken_links, malformed_links):
                                 fix_link = 'y'
                             elif yes_memory and (link, suggestion) in yes_memory:
                                 fix_link = 'y'
+                            elif all_memory:
+                                fix_link = 'y'
                             else: 
-                                fix_link = input("  - Do you want to fix this link? (y/n): ")
+                                fix_link = input("  - Do you want to fix this link§? (y/n/all): ")
                             
+                        if fix_link == "all":
+                            all_memory = True
+                            fix_link = 'y'
 
                         if fix_link.lower() == 'y':
                             # Replace the broken link with the new link in the file
@@ -462,7 +472,7 @@ def print_results(broken_links, malformed_links):
                         elif True and suggestion == malformed_link.replace('](../', '](<../').replace('.jpg)', '.jpg>)'):
                             fix_link = 'y'
                         else: 
-                            fix_link = input("  - Do you want to fix this link? (y/n): ")
+                            fix_link = input("  - Do you want to fix this link#? (y/n): ")
 
                         if fix_link.lower() == 'y':
                             # Replace the mal-formatted link with the new link in the file
