@@ -35,7 +35,7 @@
     | [🔑&nbsp;OTP](<57 🔑 OTP prompt.md>) | Asks for 6 digits
     | [1️⃣&nbsp;ONE](<55 1️⃣ ONE prompt.md>) | One of multiple options
     | [🔠&nbsp;MANY](<54 🔠 MANY prompt.md>) | Zero or more of multiple options
-    | [⭐&nbsp;RATE](<56 ⭐ RATE prompt.md>) | 1 to 5 stars
+    | [⭐&nbsp;RATE](<46 ⭐ RATE prompt.md>) | 1 to 5 stars
     | [🕓&nbsp;TIME](<62 🕓 TIME prompt.md>) | Asks for time of day
     | [📆&nbsp;DATE](<61 📆 DATE prompt.md>) | Asks for a date
     | [🛒&nbsp;EAN](<74 🛒 EAN prompt.md>) | Scans for ENA-13 and EAN-8 barcodes
