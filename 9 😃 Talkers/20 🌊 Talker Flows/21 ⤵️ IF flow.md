@@ -42,7 +42,7 @@
     |-|-|-
     | `{function}` | Boolean [{Function}](<../30 💾 Talker data/12 🐍 {Function}.md>) to evaluate  | `{f}` `{$o}`
     || Allows for missing `{}` in functions | `f()` `$p`
-    || Defaults to the last [input prompt ✏️](<../50 🤔 Prompts/1 📘 Prompt specs/09 ✏️ Input behavior.md>) | `TEXT\|Id?`
+    || Defaults to the last [input prompt ✏️](<../50 🤔 Prompts/1 📘 Prompt specs/09 ✏️ as Input.md>) | `TEXT\|Id?`
     | `<true-proc>` | [Procedure ⚙️](<11 ⚙️ Procedure.md>) to [Run ▶️](<24 ▶️ RUN flow.md>) when `True` | `IfTrue`
     | `<false-proc>`| [Procedure ⚙️](<11 ⚙️ Procedure.md>) to [Run ▶️](<24 ▶️ RUN flow.md>) when `False` | `IfFalse(X)`
     

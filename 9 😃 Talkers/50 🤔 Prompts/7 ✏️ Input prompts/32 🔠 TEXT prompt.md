@@ -1,6 +1,6 @@
 # 🔠 TEXT prompt
 
-> Part of [blocking input prompts 🤔](<../1 📘 Prompt specs/09 ✏️ Input behavior.md>)
+> Part of [blocking input prompts 🤔](<../1 📘 Prompt specs/09 ✏️ as Input.md>)
 
 <br/>
 
@@ -64,7 +64,7 @@
     | ⊕ [`Details`](<../1 📘 Prompt specs/03 ⊕ with Details.md>) | Has expandable [+] details.
     | 🔘 [`Options`](<../1 📘 Prompt specs/04 🔘 with Options.md>) | Has options for users to select.
     | 📎 [`Appendix`](<../1 📘 Prompt specs/05 📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
-    | ✏️ [`Input`](<../1 📘 Prompt specs/09 ✏️ Input behavior.md>) | Waits for an answer from users.
+    | ✏️ [`Input`](<../1 📘 Prompt specs/09 ✏️ as Input.md>) | Waits for an answer from users.
     
     ---
     <br/>
