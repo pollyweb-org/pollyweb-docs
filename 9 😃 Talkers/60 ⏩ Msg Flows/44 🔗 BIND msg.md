@@ -1,6 +1,6 @@
 # 🔗 Talker BIND command
 
-> Part of [Talker 😃](<../../33 😃 Talkers/01 😃 Talker.md>)
+> Part of [Talker 😃](<../10 📘 Talker specs/01 😃 Talker.md>)
 
 <br/>
 
@@ -99,7 +99,7 @@
 1. **What does the `@` character mean in a code?**
 
     Given that the [Schema Codes 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) defined by `nlweb.org` will be widely used, 
-    * [Talkers 😃](<../../33 😃 Talkers/01 😃 Talker.md>) accept the character `@` as a prefix of `nlweb.org/`.
+    * [Talkers 😃](<../10 📘 Talker specs/01 😃 Talker.md>) accept the character `@` as a prefix of `nlweb.org/`.
     * Consider the following equal examples.
 
         ```yaml

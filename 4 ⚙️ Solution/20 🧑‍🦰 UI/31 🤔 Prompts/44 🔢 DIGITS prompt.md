@@ -40,7 +40,7 @@
     <br/>
 
 
-1. **What's the format of a [Talker 😃](<../../../33 😃 Talkers/01 😃 Talker.md>)?**
+1. **What's the format of a [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>)?**
 
     ```yaml
     # Simplest.
@@ -95,7 +95,7 @@
 
     <br/>
     
-    Here's the [Talker 😃](<../../../33 😃 Talkers/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>).
     
     ```yaml
     - DIGITS|What's the code? >> $code:
