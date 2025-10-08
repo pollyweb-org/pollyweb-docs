@@ -109,9 +109,9 @@
     |-|-
     | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | Runs a [Command ⌘](<10 ⌘ Command.md>) or [Procedure ⚙️](<11 ⚙️ Procedure.md>) matching a [{Function}](<Functi../Functions/12 🐍 {Function}.md
     | 🫥 [`EMOJI`](<../16 😶 EMOJI flow.md>) | Changes the [default emoji 😃](<../3 Prompts/25 ✏️ Input defintions/14 ✏️😶 Input emojis.md>) for [input prompts ✏️](<../3 Prompts/10 Prompt definitions/09 ✏️ as Input.md>).
-    | ⬇️ [`EVAL`](<../2 Data/20 ⬇️ EVAL flow.md>) | Evaluates a [{Function}](<../2 Data/12 🐍 {Function}.md>) into a placeholder.
+    | ⬇️ [`EVAL`](<../03 Talker Data/20 ⬇️ EVAL flow.md>) | Evaluates a [{Function}](<../03 Talker Data/12 🐍 {Function}.md>) into a placeholder.
     | ⤵️ [`IF`](<21 ⤵️ IF flow.md>) | Runs a [Command ⌘](<10 ⌘ Command.md>) or [Procedure ⚙️](<11 ⚙️ Procedure.md>) based on a [{Function}](<Functi../Functions/12 🐍 {Function}.md
-    | 🪵 [`LOG`](<../2 Data/15 🪵 LOG flow.md>) | Logs messages into the system handler.
+    | 🪵 [`LOG`](<../03 Talker Data/15 🪵 LOG flow.md>) | Logs messages into the system handler.
     | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | Repeats the current [Procedure ⚙️](<11 ⚙️ Procedure.md>) with a confirmation.
     | ↩️ [`RETURN`](<25 ↩️ RETURN flow.md>) | Returns from a [Procedure ⚙️](<11 ⚙️ Procedure.md>) with a result.
     | ▶️ [`RUN`](<24 ▶️ RUN flow.md>) | Runs a [Procedure ⚙️](<11 ⚙️ Procedure.md>) and puts the result in a placeholder.

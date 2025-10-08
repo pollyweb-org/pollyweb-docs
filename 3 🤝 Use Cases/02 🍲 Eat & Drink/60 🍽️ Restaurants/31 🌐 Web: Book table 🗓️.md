@@ -77,11 +77,11 @@
 | [Command ⌘](<../../../9 😃 Talkers/03 Talker Flows/10 ⌘ Command.md>) | Purpose
 |-|-
 | 
-| 🪣 [`MAP`](<../../../9 😃 Talkers/2 Data/61 🪣 MAP item.md>) | Map the locator to a restaurant info.
+| 🪣 [`MAP`](<../../../9 😃 Talkers/03 Talker Data/61 🪣 MAP item.md>) | Map the locator to a restaurant info.
 | 📝 [`FORM`](<../../../9 😃 Talkers/5 Messages/41 📝 FORM msg.md>) | Show user instructions and allow inputs.
 | 1️⃣ [`ONE`](<../../../9 😃 Talkers/3 Prompts/30 ✏️🤔 Input prompts/53 1️⃣ ONE prompt.md>) | Select an option, the day in this case.
 | 💼 [`SHARE`](<../../../9 😃 Talkers/5 Messages/45 💼 SHARE msg.md>) | Get the user's booking contacts.
 | 👍 [`CONFIRM`](<../../../9 😃 Talkers/3 Prompts/30 ✏️🤔 Input prompts/31 👍 CONFIRM prompt.md>) | Pause to allow changing previous inputs.
 | ❄️ [`FREEZE`](<../../../9 😃 Talkers/5 Messages/42 ❄️ FREEZE msg.md>) | Freeze all previous inputs from changes.
-| ⬇️ [`EVAL`](<../../../9 😃 Talkers/2 Data/20 ⬇️ EVAL flow.md>) | Save the booking.
+| ⬇️ [`EVAL`](<../../../9 😃 Talkers/03 Talker Data/20 ⬇️ EVAL flow.md>) | Save the booking.
 |

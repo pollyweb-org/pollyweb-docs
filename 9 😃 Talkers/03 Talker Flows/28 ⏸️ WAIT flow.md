@@ -108,7 +108,7 @@
 
     | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
-    | ⬇️ [`EVAL`](<../2 Data/20 ⬇️ EVAL flow.md>) | to assess the backend queue length.
+    | ⬇️ [`EVAL`](<../03 Talker Data/20 ⬇️ EVAL flow.md>) | to assess the backend queue length.
     | ℹ️ [`INFO`](<../3 Prompts/20 ⚠️🤔 Status prompts/21 ℹ️ INFO prompt.md>) | To show the initial message.
     | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | To re-assess the queue periodically.
     | 🔁 [`RETURN`](<23 🔁 REPEAT flow.md>) | To exit the loop when it's the user's turn.
@@ -166,8 +166,8 @@
     | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
     | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | To show the human-friendly message.
-    | ⬇️ [`EVAL`](<../2 Data/20 ⬇️ EVAL flow.md>) | to assess the backend queue length.
-    | 🪣 [`MAP`](<../2 Data/61 🪣 MAP item.md>) | To get the queue length from resources.
+    | ⬇️ [`EVAL`](<../03 Talker Data/20 ⬇️ EVAL flow.md>) | to assess the backend queue length.
+    | 🪣 [`MAP`](<../03 Talker Data/61 🪣 MAP item.md>) | To get the queue length from resources.
     | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | To re-assess the queue periodically.
     | 🔁 [`RETURN`](<23 🔁 REPEAT flow.md>) | To exit the loop when it's the user's turn.
     | ▶️ [`RUN`](<24 ▶️ RUN flow.md>) | To start the waiting loop.

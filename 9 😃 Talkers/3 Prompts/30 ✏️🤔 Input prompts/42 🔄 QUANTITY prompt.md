@@ -225,8 +225,8 @@
     | `$p.Decimal` | Decimal rounded to `Precision` | `1234.57`
     | `$p.Pretty` | Decimal formatted to `Locale` | `1,234.57`
     | `$p.Locale` | CLDR locale used to format | `en-US`
-    | [`$p.$`](<../../2 Data/12 🐍 {Function}.md>) | The value of `$p.Pretty` | `1,234.57`
-    | `$p` | The [default value](<../../2 Data/12 🐍 {Function}.md>) `$p.$` | `1,234.57`
+    | [`$p.$`](<../../03 Talker Data/12 🐍 {Function}.md>) | The value of `$p.Pretty` | `1,234.57`
+    | `$p` | The [default value](<../../03 Talker Data/12 🐍 {Function}.md>) `$p.$` | `1,234.57`
 
     ---
     <br/>
