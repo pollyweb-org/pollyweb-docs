@@ -19,10 +19,12 @@
 
 1. **What's the WAIT syntax?**
 
+    
     ```yaml
-    - WAIT|<period>|$placeholder:
-        OnSignal: <on-signal>
-        OnTimeout: <on-timeout>
+    # Comprehensive
+    - WAIT >> $expired:
+        Signal: $signal
+        Timeout: <period>
     ```
 
     | Argument| Purpose
@@ -32,10 +34,15 @@
     | `<on-signal>`        | Run [Procedure ⚙️](<11 ⚙️ Procedure.md>) or [Command ⌘](<10 ⌘ Command.md>) when signaled.
     | `<on-timeout>`        | Run [Procedure ⚙️](<11 ⚙️ Procedure.md>) or [Command ⌘](<10 ⌘ Command.md>) when times out.
 
+    ```yaml
+    # Simpler
+    - WAIT|$signal >> $expired
+    ```
+
     ---
     <br/>
 
-1. **What's a simple WAIT example?**
+1. **How to build a clock?**
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
@@ -53,12 +60,14 @@
 
     | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
+    | ⏳ [`TEMP`](<../31 🤔 Prompts/25 ⏳ TEMP prompt.md>) | Show the temporary message.
     | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | To update the message.
 
     ---
     <br/>
 
-1. **What's an example of verifying a queue length?**
+
+1. **How to wait in a queue?**
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
@@ -89,8 +98,13 @@
         0: RETURN
     
     # Wait 1 minute or until signalled.
-    - WAIT|00:01:00|$signal:
-        OnSignal: RETURN
+    - WAIT:
+        Signal: $your-turn
+        Period: 00:01:00
+
+    # Jump off if signalled.
+    - IF|$your-turn:
+        Then: RETURN
 
     # Check the queue length again.
     - REPEAT
@@ -103,6 +117,40 @@
     | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | To show the human-friendly message.
     | 🔁 [`RETURN`](<23 🔁 REPEAT flow.md>) | To exit the loop when it's the user's turn.
     | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | To re-assess the queue periodically.
+
+    ---
+    <br/>
+
+
+1. **How to wait for a task to complete?**
+
+    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | 🍕 Pizza | ℹ️ Order submitted 
+    | 🍕 Pizza | ⏳ Step `1/3` Order in the queue...
+    | 🍕 Pizza | ⏳ Step `2/3` Order being cooked...
+    | 🍕 Pizza | ⏳ Step `3/3` Just finishing up...
+    | 🍕 Pizza | ✅ Order ready!
+    |
+
+    Here's the [Talker 😃](<01 😃 Talker.md>).
+
+    ```yaml
+    # 😃 Talker 
+
+    💬 Test:
+    - EVAL|{Submit} >> $status:  # Send
+    - INFO|Order submitted       # Inform sent
+    - RUN|WaitForReady           # Wait...
+    - SUCCESS|Order ready!       # Inform ready
+
+    WaitForReady:
+    - TEMP|$status.Message       # Show temp...
+    - WAIT|$status               # Wait
+    - IF|$status.Ready:          # Signalled
+        Then: RETURN             # End if ready
+    - REPEAT
+    ```
 
     ---
     <br/>
