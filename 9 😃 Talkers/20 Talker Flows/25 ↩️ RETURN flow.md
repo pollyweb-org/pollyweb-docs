@@ -15,7 +15,7 @@
     |Expression|Examples
     |-|-
     |`<string>`| `3` `Alice`
-    [`{Function}`](<../../33 😃 Talkers/12 🐍 {Function}.md>) | `{$placeholder}` `{handler(1)}` `{.helper(1)}` 
+    [`{Function}`](<../30 Talker Data/12 🐍 {Function}.md>) | `{$placeholder}` `{handler(1)}` `{.helper(1)}` 
 
     ---
     <br/>
@@ -32,7 +32,7 @@
 
     | Argument| Purpose
     |-|-
-    | `{expression}`| Optional string or [{Function}](<../../33 😃 Talkers/12 🐍 {Function}.md>) to be evaluated.
+    | `{expression}`| Optional string or [{Function}](<../30 Talker Data/12 🐍 {Function}.md>) to be evaluated.
     
     ---
     <br/>

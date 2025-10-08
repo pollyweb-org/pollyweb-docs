@@ -1,6 +1,6 @@
 # 🪣 Talker `MAP` command
 
-> Part of [Talker 😃](<01 😃 Talker.md>)
+> Part of [Talker 😃](<../../33 😃 Talkers/01 😃 Talker.md>)
 
 <br/>
 
@@ -8,17 +8,17 @@
 1. **What's a MAP item command?**
 
     A `MAP` 🪣
-    * is a [Command ⌘](<../9 😃 Talkers/20 Talker Flows/10 ⌘ Command.md>) 
+    * is a [Command ⌘](<../20 Talker Flows/10 ⌘ Command.md>) 
     * that retrieves an item by key 🔑
     * from a key-value resource pool 🪣
-    * into a [Talker 😃](<01 😃 Talker.md>) placeholder.
+    * into a [Talker 😃](<../../33 😃 Talkers/01 😃 Talker.md>) placeholder.
 
     ---
     <br/>
 
 1. **How to define a Resource Pool?**
 
-    Resource Pools are defined in three ways in [Hoster ☁️ domains](<../4 ⚙️ Solution/20 🧑‍🦰 UI/35 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>).
+    Resource Pools are defined in three ways in [Hoster ☁️ domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/35 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>).
 
     |Format| Details
     |-|-
@@ -65,7 +65,7 @@
 
 1. **What are use cases?**
 
-    * [Vending machines 🏪](<../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/01 🏪 Index.md>)
+    * [Vending machines 🏪](<../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/01 🏪 Index.md>)
 
     ---
     <br/>
@@ -100,7 +100,7 @@
     |Key1|1.A|1.B 
     |Key2|2.A|2.B 
     
-    The following [Talker 😃](<01 😃 Talker.md>) renders `ℹ️ 2.A` in the Chat.
+    The following [Talker 😃](<../../33 😃 Talkers/01 😃 Talker.md>) renders `ℹ️ 2.A` in the Chat.
 
     ```yaml
     # 😃 Talker 
@@ -111,10 +111,10 @@
     ---
     <br>
 
-1. **What does it look in a [Chat 💬](<../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)?**
+1. **What does it look in a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)?**
 
 
-    | [Domain](<../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 🍫 Vending | 😃 What's the item number?   | 🔢 123
     | 🍫 Vending | 😃 A water bottle? [Yes, No]  
