@@ -29,7 +29,7 @@
     |-|-
     |[`Status`](<08 ⚠️ Status behavior.md>)| [`ℹ️ INFO`](<21 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<25 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<23 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<24 ❌ FAILURE prompt.md>)
     |[`Inputs`](<11 ✏️ Input behavior.md>)| [`🔢 DIGITS`](<44 🔢 DIGITS prompt.md>) [`🔄 QUANTITY`](<42 🔄 QUANTITY prompt.md>) [`💰 AMOUNT`](<43 💰 AMOUNT prompt.md>) [`🔑 OTP`](<57 🔑 OTP prompt.md>) [`⭐ RATE`](<46 ⭐ RATE prompt.md>) 
-    || [`👍 CONFIRM`](<31 👍 CONFIRM prompt.md>) [`1️⃣ ONE`](<55 1️⃣ ONE prompt.md>) [`🔢 MANY`](<54 🔠 MANY prompt.md>) 
+    || [`👍 CONFIRM`](<31 👍 CONFIRM prompt.md>) [`1️⃣ ONE`](<53 1️⃣ ONE prompt.md>) [`🔢 MANY`](<54 🔠 MANY prompt.md>) 
     || [`🕓 TIME`](<62 🕓 TIME prompt.md>) [`📆 DATE`](<61 📆 DATE prompt.md>) 
     || [`⬆️ UPLOAD`](<81 ⬆️ UPLOAD prompt.md>)
     || [`🔠 TEXT`](<32 🔠 TEXT prompt.md>) 
