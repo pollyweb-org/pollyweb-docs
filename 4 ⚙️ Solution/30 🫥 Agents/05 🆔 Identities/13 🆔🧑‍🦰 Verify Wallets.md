@@ -1,4 +1,4 @@
-🆔 Identity to verify Wallets FAQ
+🆔 Identity to verify Wallets
 ===
 
 > Part of [Identity 🆔 domains](<01 🆔🫥 Identity agent.md>)

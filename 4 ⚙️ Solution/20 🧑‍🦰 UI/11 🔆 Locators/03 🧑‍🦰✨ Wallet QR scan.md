@@ -1,4 +1,4 @@
-🧑‍🦰 Wallet QR scan ✨ FAQ
+🧑‍🦰 Wallet QR scan ✨
 ===
 
 1. **How can website developers render an NLWeb QR?**

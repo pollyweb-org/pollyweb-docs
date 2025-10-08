@@ -1,4 +1,4 @@
-🍏 Brand domain role FAQ
+🍏 Brand domain role
 ===
 
 

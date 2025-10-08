@@ -1,4 +1,4 @@
-👮 Supervised ID authentication landscape FAQ
+👮 Supervised ID authentication landscape
 ===
 
 🎯 Supervised in-person ID authentication/verification is the ability for organizations to confirm, within a supervised environment (e.g., airports), if the holder of a digital credential is the indeed the person to whom the credential was issued to.

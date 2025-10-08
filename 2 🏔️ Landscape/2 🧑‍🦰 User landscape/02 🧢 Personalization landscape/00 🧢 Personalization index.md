@@ -1,4 +1,4 @@
-🧢 Personalization landscape FAQ
+🧢 Personalization landscape
 ===
 
 🎯 Sharing personal identifiable information(PII) with businesses and public services is a common requirement for physical and online transactions (e.g., personalization, delivery, and payment).

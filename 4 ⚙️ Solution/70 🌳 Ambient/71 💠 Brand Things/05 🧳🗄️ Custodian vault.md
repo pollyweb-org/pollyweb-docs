@@ -1,4 +1,4 @@
-🧳 Custodian domains FAQ
+🧳 Custodian domains
 ===
 
 1. **What are Custodian domains in NLWeb?**

@@ -1,4 +1,4 @@
-💳🫥 Payer agent FAQ
+💳🫥 Payer agent
 ===
 
 1. **What is a Payer agent in NLWeb?**
@@ -27,7 +27,7 @@
 
 1. **What user problems do Payers solve?**
 
-    Read the [User challenges 🧑 ](<../../../2 🏔️ Landscape/1 💼 Business landscape/05 💳 Payments landscape/01 🧑 User challenges.md>) section of the [Payments landscape FAQ 💳](<../../../2 🏔️ Landscape/1 💼 Business landscape/05 💳 Payments landscape/00 💳 Payments index.md>).
+    Read the [User challenges 🧑 ](<../../../2 🏔️ Landscape/1 💼 Business landscape/05 💳 Payments landscape/01 🧑 User challenges.md>) section of the [Payments landscape 💳](<../../../2 🏔️ Landscape/1 💼 Business landscape/05 💳 Payments landscape/00 💳 Payments index.md>).
 
     ---
     

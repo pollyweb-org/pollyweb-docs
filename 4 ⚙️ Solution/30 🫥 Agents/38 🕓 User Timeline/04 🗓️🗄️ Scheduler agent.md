@@ -1,6 +1,6 @@
 <!-- #TODO -->
 
-⏳🗓️ Scheduler vault domains FAQ
+⏳🗓️ Scheduler vault domains
 ===
 
 1. **What is a Scheduler?**

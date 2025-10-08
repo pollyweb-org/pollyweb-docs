@@ -1,4 +1,4 @@
-💖 Vitalogist domains FAQ
+💖 Vitalogist domains
 ===
 
 ![](<00 📎 Assets/🕓 Advisor vault.png>)

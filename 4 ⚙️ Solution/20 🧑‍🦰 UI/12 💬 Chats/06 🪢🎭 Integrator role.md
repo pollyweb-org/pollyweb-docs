@@ -1,4 +1,4 @@
-🔌🎭 Integrator domain role FAQ
+🔌🎭 Integrator domain role
 ===
 
 1. **What is an Integrator domain role in NLWeb?**

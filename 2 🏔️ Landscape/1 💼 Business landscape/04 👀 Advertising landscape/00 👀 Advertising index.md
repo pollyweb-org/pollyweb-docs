@@ -1,4 +1,4 @@
-👀 Digital advertising landscape FAQ
+👀 Digital advertising landscape
 ===
 
 🎯 Ads are vital to online transactions because (when used properly) they:

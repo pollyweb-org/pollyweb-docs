@@ -1,4 +1,4 @@
-🤗 Host domain role FAQ
+🤗 Host domain role
 ===
 
 1. **What is a Host domain role in NLWeb?**

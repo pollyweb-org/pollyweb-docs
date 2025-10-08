@@ -1,4 +1,4 @@
-💬 Chat FAQ
+💬 Chat
 ===
 
 1. **What is a chat?**

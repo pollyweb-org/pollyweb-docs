@@ -1,4 +1,4 @@
-😎 Smart glasses landscape FAQ
+😎 Smart glasses landscape
 ===
 
 🎯 Smart glasses enable hands-free AR, AI, and spatial computing.

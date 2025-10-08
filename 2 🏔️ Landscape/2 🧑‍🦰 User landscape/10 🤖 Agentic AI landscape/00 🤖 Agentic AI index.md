@@ -1,4 +1,4 @@
-🤖 AI agents landscape FAQ
+🤖 AI agents landscape
 ===
 
 🎯 The IT industry has long looked for the fleeing virtual assistant or digital twin. 

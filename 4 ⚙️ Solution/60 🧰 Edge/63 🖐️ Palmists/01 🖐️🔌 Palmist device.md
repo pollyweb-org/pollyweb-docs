@@ -1,4 +1,4 @@
-🖐️ Palmist pluggable devices FAQ
+🖐️ Palmist pluggable devices
 ===
 
 1. **What are palm vein scanners?**

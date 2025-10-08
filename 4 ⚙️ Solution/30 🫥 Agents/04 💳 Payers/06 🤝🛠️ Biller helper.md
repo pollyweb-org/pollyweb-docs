@@ -1,4 +1,4 @@
-🤝 Biller domains FAQ
+🤝 Biller domains
 ===
 
 

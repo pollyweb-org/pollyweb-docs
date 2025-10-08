@@ -1,4 +1,4 @@
-🔒 Padlock device FAQ
+🔒 Padlock device
 ===
 
 1. **What is a Padlock in NLWeb?**

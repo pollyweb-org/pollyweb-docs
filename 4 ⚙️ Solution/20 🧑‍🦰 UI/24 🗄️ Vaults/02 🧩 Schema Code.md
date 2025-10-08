@@ -1,4 +1,4 @@
-🧩 Schema Codes FAQ
+🧩 Schema Codes
 ===
 
 1. **What is a Schema Code?**

@@ -2,7 +2,7 @@
 TODO: Create the API methods
 -->
 
-🔏 Verify user signatures in files FAQ
+🔏 Verify user signatures in files
 ===
 
 > Part of [Identity 🆔 domains](<01 🆔🫥 Identity agent.md>)

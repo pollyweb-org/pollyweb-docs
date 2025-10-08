@@ -1,4 +1,4 @@
-🗄️ Vault domain role FAQ
+🗄️ Vault domain role
 ===
 
 1. **What is a Vault domain role in NLWeb?**

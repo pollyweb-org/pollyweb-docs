@@ -1,4 +1,4 @@
-🛒 Shopping landscape FAQ
+🛒 Shopping landscape
 ===
 
 

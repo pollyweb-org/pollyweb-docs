@@ -1,4 +1,4 @@
-🔏 Digital signatures landscape FAQ
+🔏 Digital signatures landscape
 ===
 
 1. **Why are digital signatures important for NLWeb?**

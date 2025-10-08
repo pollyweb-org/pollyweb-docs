@@ -1,4 +1,4 @@
-📨 Domain Message FAQ
+📨 Domain Message
 ===
 
 1. **How does a domain send a request to another domain?**

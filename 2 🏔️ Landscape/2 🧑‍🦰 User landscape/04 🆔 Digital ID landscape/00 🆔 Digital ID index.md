@@ -1,4 +1,4 @@
-🆔 Digital identity landscape FAQ
+🆔 Digital identity landscape
 ===
 
 

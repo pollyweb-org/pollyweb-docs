@@ -1,4 +1,4 @@
-🫥 Agent vault domain FAQ
+🫥 Agent vault domain
 ===
 
 1. **What is an Agent vault?**

@@ -1,4 +1,4 @@
-💍 Userables to pay a salesperson FAQ
+💍 Userables to pay a salesperson
 ===
 
 > [Userables 💍](<01 💍 Userable thing.md>) allow customers to pay without battery on their devices.

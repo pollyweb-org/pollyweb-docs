@@ -1,4 +1,4 @@
-💍 Userables for confused senior user FAQ
+💍 Userables for confused senior user
 ===
 
 

@@ -1,4 +1,4 @@
-💼 Consumer domain role FAQ
+💼 Consumer domain role
 ===
 
 1. **What is a Consumer domain role in NLWeb?**

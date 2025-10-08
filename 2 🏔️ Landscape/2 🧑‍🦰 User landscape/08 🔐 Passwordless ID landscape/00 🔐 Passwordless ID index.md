@@ -1,4 +1,4 @@
-🔐 Passwordless authentication landscape FAQ
+🔐 Passwordless authentication landscape
 ===
 
 🎯 Humans typically expect frictionless interactions between entities, both in business-to-consumer (B2C) and business-to-business (B2B) scenarios - e.g.:

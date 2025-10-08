@@ -1,6 +1,6 @@
 <!-- #TODO -->
 
-🦋 Ephemeral domains FAQ
+🦋 Ephemeral domains
 ===
 
 1. **What is an Ephemeral domain in NLWeb?**

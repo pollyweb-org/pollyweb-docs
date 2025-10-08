@@ -1,6 +1,6 @@
 <!-- #TODO -->
 
-⏳📇 Mingler vault domains FAQ
+⏳📇 Mingler vault domains
 ===
 
 1. **What is a Mingler?**

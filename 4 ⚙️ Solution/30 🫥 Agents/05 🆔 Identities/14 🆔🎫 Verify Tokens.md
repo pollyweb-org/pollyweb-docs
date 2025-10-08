@@ -1,4 +1,4 @@
-🎫 Identity-bound Tokens FAQ
+🎫 Identity-bound Tokens
 ===
 
 > Part of [Identity 🆔 domains](<01 🆔🫥 Identity agent.md>)

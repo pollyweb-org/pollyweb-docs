@@ -1,4 +1,4 @@
-👂 Listener helper domains FAQ
+👂 Listener helper domains
 ===
 
 

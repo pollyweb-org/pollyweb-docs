@@ -1,4 +1,4 @@
-🔆 Scanning landscape FAQ
+🔆 Scanning landscape
 ===
 
 ## 🎯 Target

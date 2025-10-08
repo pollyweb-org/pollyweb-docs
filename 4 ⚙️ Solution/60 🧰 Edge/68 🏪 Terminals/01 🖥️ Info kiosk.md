@@ -1,6 +1,6 @@
 <!-- #TODO -->
 
-🖥️ Kiosk user experience (UX) FAQ
+🖥️ Kiosk user experience (UX)
 ===
 
 ![](<00 📎 Assets/🏪 Kiosk.png>)

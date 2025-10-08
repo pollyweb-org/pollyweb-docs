@@ -1,4 +1,4 @@
-🌬️ Streamer domain role FAQ
+🌬️ Streamer domain role
 ===
 
 1. **What is a Streamer domain role in NLWeb?**

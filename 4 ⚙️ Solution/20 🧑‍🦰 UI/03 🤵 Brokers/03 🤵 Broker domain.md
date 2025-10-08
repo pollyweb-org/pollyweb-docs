@@ -1,4 +1,4 @@
-🤵 Broker domains FAQ
+🤵 Broker domains
 ===
 
 

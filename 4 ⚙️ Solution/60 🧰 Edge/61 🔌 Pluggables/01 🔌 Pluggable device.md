@@ -1,5 +1,5 @@
 
-🔌 Pluggable devices FAQ
+🔌 Pluggable devices
 ===
 
 1. **What is a Pluggable?**

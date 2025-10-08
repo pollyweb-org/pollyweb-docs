@@ -1,4 +1,4 @@
-🧢 Persona vault domain FAQ
+🧢 Persona vault domain
 ===
 
 

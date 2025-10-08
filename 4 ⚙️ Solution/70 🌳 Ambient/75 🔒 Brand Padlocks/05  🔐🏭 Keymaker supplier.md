@@ -1,4 +1,4 @@
-🔐 Keymaker domain FAQ
+🔐 Keymaker domain
 ===
 
 ![](<00 📎 Assets/🔒 Keymaker.png>)

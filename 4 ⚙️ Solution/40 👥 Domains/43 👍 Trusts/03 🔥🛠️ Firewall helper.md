@@ -1,4 +1,4 @@
-🔥 Firewall helper domains FAQ
+🔥 Firewall helper domains
 ===
 
 1. **What is a Firewall domain in NLWeb?**

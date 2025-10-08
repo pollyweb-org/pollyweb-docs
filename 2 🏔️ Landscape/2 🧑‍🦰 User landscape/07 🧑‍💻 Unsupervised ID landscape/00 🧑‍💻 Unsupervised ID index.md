@@ -1,4 +1,4 @@
-🧑‍💻 Unsupervised ID authentication landscape FAQ
+🧑‍💻 Unsupervised ID authentication landscape
 ===
 
 🎯 Unsupervised ID authentication/verification is the ability for organizations to trust that the holder of a digital credential is the indeed the person to whom the credential was issued to, while the user is remotely and asynchronously submitting the credential.

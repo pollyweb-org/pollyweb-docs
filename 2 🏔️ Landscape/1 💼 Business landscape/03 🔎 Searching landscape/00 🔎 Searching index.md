@@ -1,4 +1,4 @@
-🔎 Online search engines landscape FAQ
+🔎 Online search engines landscape
 ===
 
 🎯 Search is vital to online transactions because it allows consumers:

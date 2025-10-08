@@ -1,4 +1,4 @@
-🧠 Brain Interface landscape FAQ
+🧠 Brain Interface landscape
 ===
 
 

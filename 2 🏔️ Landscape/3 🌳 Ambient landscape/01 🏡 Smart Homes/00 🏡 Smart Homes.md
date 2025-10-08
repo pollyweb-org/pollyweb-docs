@@ -1,4 +1,4 @@
-🏡 Smart home landscape FAQ
+🏡 Smart home landscape
 ===
 
 🎯 On its mission to connect and cognify nearly every service, place, and thing, NLWeb looks for seamless integration between the digital and the physical world. 

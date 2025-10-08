@@ -1,4 +1,4 @@
-🪪 Digital travel landscape FAQ
+🪪 Digital travel landscape
 ===
 
 

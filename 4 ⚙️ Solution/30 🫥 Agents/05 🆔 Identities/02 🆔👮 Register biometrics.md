@@ -1,4 +1,4 @@
-🆔 Register Identity biometrics FAQ
+🆔 Register Identity biometrics
 ===
 
 > Part of [Identity 🆔 domains](<01 🆔🫥 Identity agent.md>)

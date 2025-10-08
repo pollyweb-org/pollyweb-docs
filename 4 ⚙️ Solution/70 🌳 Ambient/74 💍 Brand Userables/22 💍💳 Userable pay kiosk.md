@@ -1,4 +1,4 @@
-💍 Userables to pay at a kiosk FAQ
+💍 Userables to pay at a kiosk
 ===
 
 > [Userables 💍](<01 💍 Userable thing.md>) allow customers to pay without battery on their devices.

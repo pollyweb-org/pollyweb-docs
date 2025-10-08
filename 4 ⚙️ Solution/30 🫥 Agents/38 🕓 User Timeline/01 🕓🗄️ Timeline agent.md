@@ -1,4 +1,4 @@
-🕓 Timeline domains FAQ
+🕓 Timeline domains
 ===
 
 ![](<00 📎 Assets/🕓 Timeline.png>)

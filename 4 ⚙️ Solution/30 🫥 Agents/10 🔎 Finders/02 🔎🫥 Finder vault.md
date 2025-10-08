@@ -1,6 +1,6 @@
 <!-- #TODO -->
 
-🔎 Finder domains FAQ
+🔎 Finder domains
 ===
 
 

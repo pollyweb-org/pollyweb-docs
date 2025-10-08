@@ -1,4 +1,4 @@
-🏦 Collector domains FAQ
+🏦 Collector domains
 ===
 
 1. **What is a Collector domain in NLWeb?**

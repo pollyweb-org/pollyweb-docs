@@ -1,5 +1,5 @@
 <!-- #TODO -->
-📸 Selfie domains FAQ
+📸 Selfie domains
 ===
 
 1. **What are Selfie domains?**

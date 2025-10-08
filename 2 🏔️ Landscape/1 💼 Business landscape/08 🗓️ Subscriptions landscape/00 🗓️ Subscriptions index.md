@@ -1,4 +1,4 @@
-🗓️ Subscriptions landscape FAQ
+🗓️ Subscriptions landscape
 ===
 
 🎯 Subscription-based services are replacing traditional one-time purchases. 

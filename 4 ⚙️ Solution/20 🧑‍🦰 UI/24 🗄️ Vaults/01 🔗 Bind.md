@@ -1,4 +1,4 @@
-🔗 Binds FAQ
+🔗 Binds
 ===
 
 1. **What is a Bind?**

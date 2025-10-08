@@ -1,6 +1,6 @@
 <!-- #TODO -->
 
-🖐️ Palmist domains FAQ
+🖐️ Palmist domains
 ===
 
 1. **What is an Palmist domain in NLWeb?**

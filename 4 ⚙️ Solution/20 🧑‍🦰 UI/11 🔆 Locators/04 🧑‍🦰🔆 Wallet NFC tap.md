@@ -1,4 +1,4 @@
-🧑‍🦰 Wallet NFC tap 🔆 FAQ
+🧑‍🦰 Wallet NFC tap 🔆
 ===
 
 1. **How do Wallets tap an NFC Locator?**

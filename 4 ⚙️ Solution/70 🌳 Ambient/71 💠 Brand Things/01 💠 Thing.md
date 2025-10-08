@@ -1,4 +1,4 @@
-💠 Thing locators FAQ
+💠 Thing locators
 ===
 
 1. **What is a Thing?**

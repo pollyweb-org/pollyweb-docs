@@ -1,4 +1,4 @@
-💍 Userables to cross gates FAQ
+💍 Userables to cross gates
 ===
 
 > Mentioned in [Verify Userables 🆔](<../../30 🫥 Agents/05 🆔 Identities/15 🆔💍 Verify Userables.md>)
