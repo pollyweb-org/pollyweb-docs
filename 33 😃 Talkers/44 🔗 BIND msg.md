@@ -125,7 +125,7 @@
 
    | [Command ⌘](<10 ⌘ Command.md>) | Purpose
    |-|-
-   | ⤵️ [IF](<21 ⤵️ IF flow.md>) | To verify the result.  
+   | ⤵️ [IF](<../9 😃 Talkers/20 Talker Flows/21 ⤵️ IF flow.md>) | To verify the result.  
    
    ---
    <br/>
@@ -148,7 +148,7 @@
    | [Command ⌘](<10 ⌘ Command.md>) | Purpose
    |-|-
    | ⬇️ [`EVAL`](<20 ⬇️ EVAL flow.md>) | To put the bindable array into a placeholder.
-   | ⤵️ [`IF`](<21 ⤵️ IF flow.md>) | To verify the result.
+   | ⤵️ [`IF`](<../9 😃 Talkers/20 Talker Flows/21 ⤵️ IF flow.md>) | To verify the result.
    
    ---
    <br/>

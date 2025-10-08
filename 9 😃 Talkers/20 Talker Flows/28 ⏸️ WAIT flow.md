@@ -1,6 +1,6 @@
 # ⏸️ Talker `WAIT` flow 
 
-> Part of [Talker 😃](<01 😃 Talker.md>)
+> Part of [Talker 😃](<../../33 😃 Talkers/01 😃 Talker.md>)
 
 <br/>
 
@@ -9,7 +9,7 @@
 1. **What's a WAIT flow command?**
 
     A `WAIT` ⏸️
-    * is a flow [Command ⌘](<10 ⌘ Command.md>) 
+    * is a flow [Command ⌘](<../../33 😃 Talkers/10 ⌘ Command.md>) 
     * that pauses the flow for a period of time 
     * or until triggered by an external signal.
 
@@ -51,7 +51,7 @@
 
 1. **How to build a clock?**
 
-    | [Domain](<../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 🕙 Clock | ⏳ It's 17:01
     | 🕙 Clock | ⏳ It's 17:02
@@ -65,10 +65,10 @@
     ```
     
 
-    | [Command ⌘](<10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../33 😃 Talkers/10 ⌘ Command.md>) | Purpose
     |-|-
     | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | To update the message.
-    | ⏳ [`TEMP`](<../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/25 ⏳ TEMP prompt.md>) | Show the temporary message.
+    | ⏳ [`TEMP`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/25 ⏳ TEMP prompt.md>) | Show the temporary message.
     
     ---
     <br/>
@@ -77,7 +77,7 @@
 
 1. **How to wait for a task to complete?**
 
-    | [Domain](<../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 🍕 Pizza | ℹ️ Order submitted 
     | 🍕 Pizza | ⏳ Step `1/3` Order in the queue...
@@ -86,7 +86,7 @@
     | 🍕 Pizza | ✅ Order ready!
     |
 
-    Here's the [Talker 😃](<01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../33 😃 Talkers/01 😃 Talker.md>).
 
     ```yaml
     # 😃 Talker 
@@ -106,15 +106,15 @@
     ```
 
 
-    | [Command ⌘](<10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../33 😃 Talkers/10 ⌘ Command.md>) | Purpose
     |-|-
-    | ⬇️ [`EVAL`](<20 ⬇️ EVAL flow.md>) | to assess the backend queue length.
-    | ℹ️ [`INFO`](<../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/21 ℹ️ INFO prompt.md>) | To show the initial message.
+    | ⬇️ [`EVAL`](<../../33 😃 Talkers/20 ⬇️ EVAL flow.md>) | to assess the backend queue length.
+    | ℹ️ [`INFO`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/21 ℹ️ INFO prompt.md>) | To show the initial message.
     | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | To re-assess the queue periodically.
     | 🔁 [`RETURN`](<23 🔁 REPEAT flow.md>) | To exit the loop when it's the user's turn.
     | ▶️ [`RUN`](<24 ▶️ RUN flow.md>) | To start the waiting loop.
-    | ✅ [`SUCCESS`](<../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/23 ✅ SUCCESS prompt.md>) | To say that it's ready.
-    | ⏳ [`TEMP`](<../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/25 ⏳ TEMP prompt.md>) | To show work in progress.
+    | ✅ [`SUCCESS`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/23 ✅ SUCCESS prompt.md>) | To say that it's ready.
+    | ⏳ [`TEMP`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/25 ⏳ TEMP prompt.md>) | To show work in progress.
 
     ---
     <br/>
@@ -122,7 +122,7 @@
 
 1. **How to wait in a queue?**
 
-    | [Domain](<../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 🏦 Bank | ⏳ There are 21 people ahead of you.
     | 🏦 Bank | ⏳ There are 7 people ahead of you.
@@ -130,7 +130,7 @@
     | 🏦 Bank | 💬 What do you need? | `I need...`
     |
 
-    Here's the [Talker 😃](<01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../33 😃 Talkers/01 😃 Talker.md>).
 
     ```yaml
     # 😃 Talker 
@@ -163,15 +163,15 @@
     - REPEAT
     ```
 
-    | [Command ⌘](<10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../33 😃 Talkers/10 ⌘ Command.md>) | Purpose
     |-|-
     | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | To show the human-friendly message.
-    | ⬇️ [`EVAL`](<20 ⬇️ EVAL flow.md>) | to assess the backend queue length.
-    | 🪣 [`MAP`](<61 🪣 MAP item.md>) | To get the queue length from resources.
+    | ⬇️ [`EVAL`](<../../33 😃 Talkers/20 ⬇️ EVAL flow.md>) | to assess the backend queue length.
+    | 🪣 [`MAP`](<../../33 😃 Talkers/61 🪣 MAP item.md>) | To get the queue length from resources.
     | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | To re-assess the queue periodically.
     | 🔁 [`RETURN`](<23 🔁 REPEAT flow.md>) | To exit the loop when it's the user's turn.
     | ▶️ [`RUN`](<24 ▶️ RUN flow.md>) | To start the waiting loop.
-    | ⏳ [`TEMP`](<../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/25 ⏳ TEMP prompt.md>) | To show work in progress.
+    | ⏳ [`TEMP`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/25 ⏳ TEMP prompt.md>) | To show work in progress.
 
     ---
     <br/>
@@ -193,7 +193,7 @@
     TODO: Add HOSTER.Signal() documentation.
     -->
 
-    To trigger it, a developer needs to invoke the [Hoster ☁️ helper](<../4 ⚙️ Solution/20 🧑‍🦰 UI/35 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>) SDK.
+    To trigger it, a developer needs to invoke the [Hoster ☁️ helper](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/35 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>) SDK.
 
     ```python
     # 🐍 Python

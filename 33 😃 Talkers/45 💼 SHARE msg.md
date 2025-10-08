@@ -83,7 +83,7 @@
 
     | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
-    | ⤵️ [`IF`](<21 ⤵️ IF flow.md>) | To verify the result.  
+    | ⤵️ [`IF`](<../9 😃 Talkers/20 Talker Flows/21 ⤵️ IF flow.md>) | To verify the result.  
 
 
     The structure of the shared data is as follows.
