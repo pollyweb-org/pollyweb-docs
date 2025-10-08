@@ -70,8 +70,8 @@
     |-|-|-
     | `<PROMPT>` | A [Prompt 🤔](<01 🤔 Prompt.md>) format. | [`INFO`](<21 ℹ️ INFO prompt.md>) [`TEMP`](<25 ⏳ TEMP prompt.md>)
     | `<message>` |  Message to show to the user. | `Hi!`
-    | `<options>` | Comma-separated strings | `A,B,C`
-    || or comma-separated dictionary. | `1:A,2:B`
+    | `<options>` | Comma-separated strings, or | `A,B,C`
+    || a comma-separated dictionary | `1:A,2:B`
     
     ```yaml
     # One-line
@@ -80,7 +80,7 @@
 
     | Argument| Purpose | Example
     |-|-|-
-    | `$selected` | Placeholder for the selected option: | `$answer`
+    | `$selected` | Placeholder for the selection: | `$answer`
     || for string lists, returns the text | → `A` in `A,B,C`
     || for dictionaries, returns the ID. | → `1` in `{1:A}`
     
@@ -109,7 +109,7 @@
     | Argument| Purpose | Example
     |-|-|-
     | `<option-n>` | Also allows option interpolation |`- Item {$id}`
-    || and uses `[]` to highlight words | `[Close] chat`
+    || and uses `[]` to set Option IDs | `[Close] chat`
     || and uses `§` for [Locators 🔆](<../11 🔆 Locators/01 🔆 Locator.md>). | `Open § {$url}`
 
 

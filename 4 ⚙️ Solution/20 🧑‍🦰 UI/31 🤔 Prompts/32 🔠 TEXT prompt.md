@@ -106,7 +106,7 @@
     | `Output` | Optional HTML format for outputs | `990.990.990.990`
     | `Pattern`| Optional HTML regular expression | `^...$`
     | `MinLength` | Optional [minimum length 📋](<13 ✏️📋 Input validation.md>) | `1`
-    | `MaxLength` | Optional [maximum length 📋](<13 ✏️📋 Input validation.md>) | `5`| `Options` | Optional [selectable options 🔘](<04 🤔🔘 with Options.md>) | `A,B` `{A:B}`
+    | `MaxLength` | Optional [maximum length 📋](<13 ✏️📋 Input validation.md>) | `5`
     | `Details` | Optional [expandable details ⊕](<03 🤔⊕ with Details.md>) | `Hint...`
     | `Options` | Optional [selectable options 🔘](<04 🤔🔘 with Options.md>) | `A,B` `{A:B}`
     | `Nullable` | Optional [skip flag ⏭️](<12 ✏️⏭️ Input nullability.md>) | `Yes`
