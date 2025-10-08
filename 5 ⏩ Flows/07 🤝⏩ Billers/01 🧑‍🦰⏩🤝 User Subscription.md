@@ -60,11 +60,11 @@ The corresponding [Talker 😃](<../../9 😃 Talkers/01 😃 Talker.md>) is as 
 
 | [Command ⌘](<../../9 😃 Talkers/10 ⌘ Command.md>) | Purpose
 |-|-
-| 📝 [`FORM`](<../../9 😃 Talkers/41 📝 FORM msg.md>) | To provide instructions.
-| 🔗 [`BIND`](<../../9 😃 Talkers/44 🔗 BIND msg.md>) | To create a user profile.
-| 🛠️ [`INVITE`](<../../9 😃 Talkers/46 🛠️ INVITE msg.md>) | To subscribe the user to plan.
-| ❄️ [`FREEZE`](<../../9 😃 Talkers/42 ❄️ FREEZE msg.md>) | To disable past inputs.
+| 📝 [`FORM`](<../../9 😃 Talkers/Messages/41 📝 FORM msg.md>) | To provide instructions.
+| 🔗 [`BIND`](<../../9 😃 Talkers/Messages/44 🔗 BIND msg.md>) | To create a user profile.
+| 🛠️ [`INVITE`](<../../9 😃 Talkers/Messages/46 🛠️ INVITE msg.md>) | To subscribe the user to plan.
+| ❄️ [`FREEZE`](<../../9 😃 Talkers/Messages/42 ❄️ FREEZE msg.md>) | To disable past inputs.
 | ⬇️ [`EVAL`](<../../9 😃 Talkers/20 ⬇️ EVAL flow.md>) | To register on the database.
 | ✅ [`SUCCESS`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/23 ✅ SUCCESS prompt.md>) | To say that it was successful.
-| 👋 [`GOODBYE`](<../../9 😃 Talkers/50 👋 GOODBYE.md>) | To show advertising.
+| 👋 [`GOODBYE`](<../../9 😃 Talkers/Messages/50 👋 GOODBYE.md>) | To show advertising.
 |
