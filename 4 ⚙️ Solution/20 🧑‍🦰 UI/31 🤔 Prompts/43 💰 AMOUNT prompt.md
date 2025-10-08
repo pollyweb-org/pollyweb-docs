@@ -41,33 +41,47 @@
 
     ```yaml
     # Simplest.
-    AMOUNT|<message>
+    AMOUNT|<message> >> $placeholder
     ```
 
     | Argument| Purpose | Example
     |-|-|-
     | `<message>`| Message to show to the user
-
+    | `$placeholder`| Placeholder with the user's answer
+    
 
     ```yaml
     # Comprehensive.
     AMOUNT >> $placeholder:
         Message: <message>
-        MinValue: <min-value>   # Same as QUANTITY
-        MaxValue: <max-value>   # Same as QUANTITY
-        Precision: <precision>  # Same as QUANTITY
-        Locale: <locale>        # Same as QUANTITY
-        Currency: <currency>
+        
+        # Specific optional properties
+        Currency: string
+        
+        # Optional properties from QUANTITY
+        MinValue: decimal   
+        MaxValue: decimal   
+        Precision: int      
+        Locale: string      
+        
+        # Generic optional properties
+        Emoji: emoji
+        Details: string
+        Nullable: bool
+        Appendix: {function}
     ```
 
     | Argument| Purpose | Example
     |-|-|-
-    | `$placeholder`| Placeholder with the user's answer
-    | `<min-value>` | Optional minimum value | `-100`
-    | `<max-value>` | Optional maximum value | `100`
-    | `<precision>`| Rounded decimals (default is 2) | `2`
-    | `<locale>`| Optional CLDR locale <br/> - defaults to the [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) language | `en-US`
-    | `<currency>` | Optional ISO 4217 currency <br/>- defaults to the locale's currency | `USD`
+    | `Currency` | Optional ISO 4217 currency <br/>- defaults to the locale's currency | `USD`
+    | `Precision`| Rounded decimals (default is 2) | `2`
+    | `Locale`   | Optional CLDR locale <br/> - defaults to the [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) language | `en-US`
+    | `MinValue` | Optional [minimum value 📋](<13 ✏️📋 Input validation.md>) | `-100`
+    | `MaxValue` | Optional [maximum value 📋](<13 ✏️📋 Input validation.md>) | `100`
+    | `Emoji` | Optional [alternative emoji 😶](<14 ✏️😶 Input emojis.md>) | `😶`
+    | `Details` | Optional [expandable details ⊕](<03 🤔⊕ with Details.md>) | `Hint...`
+    | `Nullable` | Optional [skip flag ⏭️](<12 ✏️⏭️ Input nullability.md>) | `Yes`
+    | `Appendix` | Optional [file attachment 📎](<05 🤔📎 with Appendix.md>) | `<uuid>`
     
     ---
     <br/>

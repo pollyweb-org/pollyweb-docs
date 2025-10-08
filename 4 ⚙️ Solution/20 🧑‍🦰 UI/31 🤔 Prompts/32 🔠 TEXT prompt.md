@@ -87,11 +87,13 @@
     # Comprehensive.
     TEXT >> $placeholder:
         Message: <message>
+        
         # Specific optional properties
         Output: string
         Pattern: string
         MinLength: int
         MaxLength: int
+
         # Generic optional properties
         Details: string
         Options: csv|string[]|object
@@ -244,8 +246,6 @@
     ```yaml
     # Built-in, preferred.
     - AMOUNT|How much? >> $money:
-        Precision: 2
-        Currency: USD
         Locale: en-US
         MaxValue: 1000.00
     ```

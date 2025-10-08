@@ -43,11 +43,13 @@
     # Comprehensive.
     QUANTITY >> $placeholder:
         Message: <message>
+
         # Specific optional properties
-        MinValue: decimal
-        MaxValue: decimal
         Precision: int
         Locale: string
+        MinValue: decimal
+        MaxValue: decimal
+        
         # Generic optional properties
         Emoji: emoji
         Details: string
@@ -57,10 +59,10 @@
 
     | Argument| Purpose | Example
     |-|-|-
-    | `MinValue` | Optional minimum value | `-100`
-    | `MaxValue` | Optional maximum value | `100`
-    | `Precision`| Rounded decimals (default is 0) | `1`
+    | `Precision`| Rounded decimals (default is 0) | `0`
     | `Locale`   | Optional CLDR locale <br/> - defaults to the [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) language | `en-US`
+    | `MinValue` | Optional [minimum value 📋](<13 ✏️📋 Input validation.md>) | `-100`
+    | `MaxValue` | Optional [maximum value 📋](<13 ✏️📋 Input validation.md>) | `100`
     | `Emoji` | Optional [alternative emoji 😶](<14 ✏️😶 Input emojis.md>) | `😶`
     | `Details` | Optional [expandable details ⊕](<03 🤔⊕ with Details.md>) | `Hint...`
     | `Nullable` | Optional [skip flag ⏭️](<12 ✏️⏭️ Input nullability.md>) | `Yes`
