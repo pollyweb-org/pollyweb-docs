@@ -34,16 +34,16 @@
     | [💰&nbsp;AMOUNT](<../../../9 😃 Talkers/Prompts/30 Input prompts/43 💰 AMOUNT prompt.md>) | Allows for decimals
     | [🔑&nbsp;OTP](<57 🔑 OTP prompt.md>) | Asks for 6 digits
     | [1️⃣&nbsp;ONE](<../../../9 😃 Talkers/Prompts/30 Input prompts/53 1️⃣ ONE prompt.md>) | One of multiple options
-    | [🔠&nbsp;MANY](<../../../9 😃 Talkers/Prompts/54 🔠 MANY prompt.md>) | Zero or more of multiple options
+    | [🔠&nbsp;MANY](<../../../9 😃 Talkers/Prompts/30 Input prompts/54 🔠 MANY prompt.md>) | Zero or more of multiple options
     | [⭐&nbsp;RATE](<46 ⭐ RATE prompt.md>) | 1 to 5 stars
-    | [🕓&nbsp;TIME](<../../../9 😃 Talkers/Prompts/62 🕓 TIME prompt.md>) | Asks for time of day
-    | [📆&nbsp;DATE](<../../../9 😃 Talkers/Prompts/61 📆 DATE prompt.md>) | Asks for a date
-    | [🛒&nbsp;EAN](<../../../9 😃 Talkers/Prompts/74 🛒 EAN prompt.md>) | Scans for ENA-13 and EAN-8 barcodes
+    | [🕓&nbsp;TIME](<../../../9 😃 Talkers/Prompts/30 Input prompts/62 🕓 TIME prompt.md>) | Asks for time of day
+    | [📆&nbsp;DATE](<../../../9 😃 Talkers/Prompts/30 Input prompts/61 📆 DATE prompt.md>) | Asks for a date
+    | [🛒&nbsp;EAN](<../../../9 😃 Talkers/Prompts/30 Input prompts/74 🛒 EAN prompt.md>) | Scans for ENA-13 and EAN-8 barcodes
     | [🔆&nbsp;SCAN](<72 🔆 SCAN prompt.md>) | Asks to touch/scan a [QR/NFC Locator 🔆](<../11 🔆 Locators/01 🔆 Locator.md>)
     | [🦋&nbsp;TOUCH](<73 🦋 TOUCH prompt.md>) | Asks to touch/scan a [QR/NFC Ephemeral 🦋 device](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>)
-    | [⬆️&nbsp;UPLOAD](<../../../9 😃 Talkers/Prompts/81 ⬆️ UPLOAD prompt.md>)| Asks to upload a file or photo
-    | [📍&nbsp;LOCATION](<../../../9 😃 Talkers/Prompts/91 📍 LOCATION prompt.md>) | Asks for the current location
-    | [🗺️&nbsp;TRACK](<../../../9 😃 Talkers/Prompts/92 🗺️ TRACK prompt.md>) | Asks to track the location
+    | [⬆️&nbsp;UPLOAD](<../../../9 😃 Talkers/Prompts/30 Input prompts/81 ⬆️ UPLOAD prompt.md>)| Asks to upload a file or photo
+    | [📍&nbsp;LOCATION](<../../../9 😃 Talkers/Prompts/30 Input prompts/91 📍 LOCATION prompt.md>) | Asks for the current location
+    | [🗺️&nbsp;TRACK](<../../../9 😃 Talkers/Prompts/30 Input prompts/92 🗺️ TRACK prompt.md>) | Asks to track the location
     | [👤&nbsp;IDENTIFY](<71 👤 IDENTIFY prompt.md>) | Asks the user's [Identity 🆔 agent](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) to verify the user
 
 

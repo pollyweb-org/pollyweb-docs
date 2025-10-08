@@ -53,17 +53,17 @@
     | ⭐ [`RATE`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/46 ⭐ RATE prompt.md>) | 5 ⭐ | Integer from 1 to 5
     | 🔑 [`OTP`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/57 🔑 OTP prompt.md>) | 0123 | SIM one time password
     | 👍 [`CONFIRM`](<../Prompts/30 Input prompts/31 👍 CONFIRM prompt.md>) | Yes | `Yes` `No` `Cancel` answer
-    | 🔠 [`MANY`](<../Prompts/54 🔠 MANY prompt.md>) | [A,B] |
+    | 🔠 [`MANY`](<../Prompts/30 Input prompts/54 🔠 MANY prompt.md>) | [A,B] |
     | 1️⃣ [`ONE`](<../Prompts/30 Input prompts/53 1️⃣ ONE prompt.md>) | A |
-    | 📆 [`DATE`](<../Prompts/61 📆 DATE prompt.md>)
-    | 🕓 [`TIME`](<../Prompts/62 🕓 TIME prompt.md>)
+    | 📆 [`DATE`](<../Prompts/30 Input prompts/61 📆 DATE prompt.md>)
+    | 🕓 [`TIME`](<../Prompts/30 Input prompts/62 🕓 TIME prompt.md>)
     | 👤 [`IDENTITY`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/71 👤 IDENTIFY prompt.md>)
     | 🔆 [`SCAN`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/72 🔆 SCAN prompt.md>)
     | 🦋 [`TOUCH`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/73 🦋 TOUCH prompt.md>)
-    | 🛒 [`EAN`](<../Prompts/74 🛒 EAN prompt.md>)
-    | ⬆️ [`UPLOAD`](<../Prompts/81 ⬆️ UPLOAD prompt.md>)
-    | 📍 [`LOCATION`](<../Prompts/91 📍 LOCATION prompt.md>)
-    | 🗺️ [`TRACK`](<../Prompts/92 🗺️ TRACK prompt.md>)
+    | 🛒 [`EAN`](<../Prompts/30 Input prompts/74 🛒 EAN prompt.md>)
+    | ⬆️ [`UPLOAD`](<../Prompts/30 Input prompts/81 ⬆️ UPLOAD prompt.md>)
+    | 📍 [`LOCATION`](<../Prompts/30 Input prompts/91 📍 LOCATION prompt.md>)
+    | 🗺️ [`TRACK`](<../Prompts/30 Input prompts/92 🗺️ TRACK prompt.md>)
 
     ---
     <br/>

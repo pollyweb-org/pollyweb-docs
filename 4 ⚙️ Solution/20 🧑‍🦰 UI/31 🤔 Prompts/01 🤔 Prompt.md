@@ -29,12 +29,12 @@
     |-|-
     |[`Status`](<08 ⚠️ Status behavior.md>)| [`ℹ️ INFO`](<../../../9 😃 Talkers/Prompts/20 Status prompts/21 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<25 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<23 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<24 ❌ FAILURE prompt.md>)
     |[`Inputs`](<11 ✏️ Input behavior.md>)| [`🔢 DIGITS`](<../../../9 😃 Talkers/Prompts/30 Input prompts/44 🔢 DIGITS prompt.md>) [`🔄 QUANTITY`](<../../../9 😃 Talkers/Prompts/30 Input prompts/42 🔄 QUANTITY prompt.md>) [`💰 AMOUNT`](<../../../9 😃 Talkers/Prompts/30 Input prompts/43 💰 AMOUNT prompt.md>) [`🔑 OTP`](<57 🔑 OTP prompt.md>) [`⭐ RATE`](<46 ⭐ RATE prompt.md>) 
-    || [`👍 CONFIRM`](<../../../9 😃 Talkers/Prompts/30 Input prompts/31 👍 CONFIRM prompt.md>) [`1️⃣ ONE`](<../../../9 😃 Talkers/Prompts/30 Input prompts/53 1️⃣ ONE prompt.md>) [`🔢 MANY`](<../../../9 😃 Talkers/Prompts/54 🔠 MANY prompt.md>) 
-    || [`🕓 TIME`](<../../../9 😃 Talkers/Prompts/62 🕓 TIME prompt.md>) [`📆 DATE`](<../../../9 😃 Talkers/Prompts/61 📆 DATE prompt.md>) 
-    || [`⬆️ UPLOAD`](<../../../9 😃 Talkers/Prompts/81 ⬆️ UPLOAD prompt.md>)
+    || [`👍 CONFIRM`](<../../../9 😃 Talkers/Prompts/30 Input prompts/31 👍 CONFIRM prompt.md>) [`1️⃣ ONE`](<../../../9 😃 Talkers/Prompts/30 Input prompts/53 1️⃣ ONE prompt.md>) [`🔢 MANY`](<../../../9 😃 Talkers/Prompts/30 Input prompts/54 🔠 MANY prompt.md>) 
+    || [`🕓 TIME`](<../../../9 😃 Talkers/Prompts/30 Input prompts/62 🕓 TIME prompt.md>) [`📆 DATE`](<../../../9 😃 Talkers/Prompts/30 Input prompts/61 📆 DATE prompt.md>) 
+    || [`⬆️ UPLOAD`](<../../../9 😃 Talkers/Prompts/30 Input prompts/81 ⬆️ UPLOAD prompt.md>)
     || [`🔠 TEXT`](<32 🔠 TEXT prompt.md>) 
-    || [`👤 IDENTIFY`](<71 👤 IDENTIFY prompt.md>) [`🛒 EAN`](<../../../9 😃 Talkers/Prompts/74 🛒 EAN prompt.md>) [`🔆 SCAN`](<72 🔆 SCAN prompt.md>) [`🦋 TOUCH`](<73 🦋 TOUCH prompt.md>) 
-    |`Special`| [`📍 LOCATION`](<../../../9 😃 Talkers/Prompts/91 📍 LOCATION prompt.md>) [`🗺️ TRACK`](<../../../9 😃 Talkers/Prompts/92 🗺️ TRACK prompt.md>)
+    || [`👤 IDENTIFY`](<71 👤 IDENTIFY prompt.md>) [`🛒 EAN`](<../../../9 😃 Talkers/Prompts/30 Input prompts/74 🛒 EAN prompt.md>) [`🔆 SCAN`](<72 🔆 SCAN prompt.md>) [`🦋 TOUCH`](<73 🦋 TOUCH prompt.md>) 
+    |`Special`| [`📍 LOCATION`](<../../../9 😃 Talkers/Prompts/30 Input prompts/91 📍 LOCATION prompt.md>) [`🗺️ TRACK`](<../../../9 😃 Talkers/Prompts/30 Input prompts/92 🗺️ TRACK prompt.md>)
 
 
     ---
