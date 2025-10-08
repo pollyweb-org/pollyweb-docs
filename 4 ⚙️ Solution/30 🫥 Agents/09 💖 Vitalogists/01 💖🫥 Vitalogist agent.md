@@ -1,6 +1,6 @@
 <!-- #TODO -->
 
-💖 Vitalogist vault domains FAQ
+💖 Vitalogist vault domains
 ===
 
 - https://blogs.truststamp.ai/how-to-prevent-medical-identity-theft-in-healthcare

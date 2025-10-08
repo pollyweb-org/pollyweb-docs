@@ -1,4 +1,4 @@
-💬 Business messaging landscape FAQ
+💬 Business messaging landscape
 ===
 
 🎯 There are several ways for users to interact with businesses:

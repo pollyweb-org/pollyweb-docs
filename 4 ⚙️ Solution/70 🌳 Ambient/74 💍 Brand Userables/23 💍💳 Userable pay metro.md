@@ -1,4 +1,4 @@
-💍 Userables to pay on a metro FAQ
+💍 Userables to pay on a metro
 ===
 
 1. **How can users pay variable length metropolitan rides?**

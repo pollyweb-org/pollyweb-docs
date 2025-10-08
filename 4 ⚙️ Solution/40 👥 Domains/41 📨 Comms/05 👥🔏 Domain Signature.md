@@ -1,4 +1,4 @@
-🔏 Domain stamps FAQ
+🔏 Domain stamps
 ===
 
 1. **What is a domain stamp?**

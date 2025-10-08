@@ -1,4 +1,4 @@
-🪪 Digital wallets landscape FAQ
+🪪 Digital wallets landscape
 ===
 
 

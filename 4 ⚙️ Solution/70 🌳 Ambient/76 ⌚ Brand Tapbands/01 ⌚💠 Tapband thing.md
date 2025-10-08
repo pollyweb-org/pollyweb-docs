@@ -1,4 +1,4 @@
-⌚ Tapband device FAQ
+⌚ Tapband device
 ===
 
 ![](<00 📎 Assets/⌚ Tapband.png>)

@@ -1,4 +1,4 @@
-📜 Domain Manifests FAQ
+📜 Domain Manifests
 ===
 
 

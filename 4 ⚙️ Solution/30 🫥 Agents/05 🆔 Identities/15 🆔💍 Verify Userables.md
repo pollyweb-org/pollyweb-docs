@@ -1,4 +1,4 @@
-💍 Verify the ownership of Userables FAQ
+💍 Verify the ownership of Userables
 ===
 
 > Part of [Identity 🆔 domains](<01 🆔🫥 Identity agent.md>)

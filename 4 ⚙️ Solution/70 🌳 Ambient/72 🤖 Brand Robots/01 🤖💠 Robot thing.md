@@ -1,4 +1,4 @@
-🤖 Robot Things FAQ
+🤖 Robot Things
 ===
 
 1. **What are Robots in NLWeb?**

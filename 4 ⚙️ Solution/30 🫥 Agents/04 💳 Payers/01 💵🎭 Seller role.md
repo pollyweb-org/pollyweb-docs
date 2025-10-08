@@ -1,4 +1,4 @@
-💵 Seller domain role FAQ
+💵 Seller domain role
 ===
 
 

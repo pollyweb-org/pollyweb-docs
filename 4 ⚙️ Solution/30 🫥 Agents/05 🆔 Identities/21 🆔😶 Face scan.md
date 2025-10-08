@@ -1,4 +1,4 @@
-🆔 Identity face verification FAQ
+🆔 Identity face verification
 ===
 
 > Part of [Identity 🆔 domains](<01 🆔🫥 Identity agent.md>)

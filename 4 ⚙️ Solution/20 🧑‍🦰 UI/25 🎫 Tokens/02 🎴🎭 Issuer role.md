@@ -1,4 +1,4 @@
-🎴 Issuer domain role FAQ
+🎴 Issuer domain role
 ===
 
 1. **What is an Issuer domain role in NLWeb?**

@@ -1,6 +1,6 @@
 <!-- #TODO -->
 
-🧚🗄️ Curator domain FAQ
+🧚🗄️ Curator domain
 ===
 
 1. **What are Curator domains?**

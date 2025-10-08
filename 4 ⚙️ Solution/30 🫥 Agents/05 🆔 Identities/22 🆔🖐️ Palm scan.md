@@ -1,4 +1,4 @@
-🆔 Identity palm vein scans FAQ
+🆔 Identity palm vein scans
 ===
 
 

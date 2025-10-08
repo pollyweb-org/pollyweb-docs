@@ -1,4 +1,4 @@
-🛎️ Concierge agent domains FAQ
+🛎️ Concierge agent domains
 ===
 
 

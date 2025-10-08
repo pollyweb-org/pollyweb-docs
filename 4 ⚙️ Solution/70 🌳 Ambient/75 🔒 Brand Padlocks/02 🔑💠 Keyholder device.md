@@ -1,4 +1,4 @@
-🔑 Keyholder device FAQ
+🔑 Keyholder device
 ===
 
 ![](<00 📎 Assets/🔒 Keyholder.png>)

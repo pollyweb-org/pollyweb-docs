@@ -1,4 +1,4 @@
-💍 Userable Things FAQ
+💍 Userable Things
 ===
 
 1. **What are Userable Things in NLWeb?**

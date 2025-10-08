@@ -1,4 +1,4 @@
-🧑‍🦰 Wallet URL navigation 🌐 FAQ
+🧑‍🦰 Wallet URL navigation 🌐
 ===
 
 1. **How can app developers handle NLWeb URLs?**

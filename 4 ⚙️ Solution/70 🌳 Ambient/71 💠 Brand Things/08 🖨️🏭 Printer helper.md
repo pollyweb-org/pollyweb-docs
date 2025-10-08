@@ -1,4 +1,4 @@
-🖨️ Printer domains FAQ
+🖨️ Printer domains
 ===
 
 1. **What is a Printer domain in NLWeb?**

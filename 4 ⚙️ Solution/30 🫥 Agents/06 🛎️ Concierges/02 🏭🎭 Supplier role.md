@@ -1,4 +1,4 @@
-🏭 Supplier domain role FAQ
+🏭 Supplier domain role
 ===
 
 

@@ -1,4 +1,4 @@
-🛠️ Helper domain FAQ
+🛠️ Helper domain
 ===
 
 1. **What are Helper domains?**

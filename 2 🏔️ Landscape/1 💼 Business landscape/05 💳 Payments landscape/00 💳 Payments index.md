@@ -1,4 +1,4 @@
-💳 Payments landscape FAQ
+💳 Payments landscape
 ===
 
 ## 🎯 Target

@@ -1,4 +1,4 @@
-🧑‍⚕️ Smart health landscape FAQ
+🧑‍⚕️ Smart health landscape
 ===
 
 🎯 Health data, when is shared timely, has the potential to save lives and extended longevity. 

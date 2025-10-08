@@ -1,4 +1,4 @@
-📡 Antenna router device FAQ
+📡 Antenna router device
 ===
 
 ![](<.📎 Assets/🔌📡 Antenna.png>)

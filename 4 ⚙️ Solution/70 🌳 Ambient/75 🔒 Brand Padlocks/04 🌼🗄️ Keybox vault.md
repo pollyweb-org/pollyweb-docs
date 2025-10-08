@@ -1,4 +1,4 @@
-🌼 Keybox domain FAQ
+🌼 Keybox domain
 ===
 
 ![](<00 📎 Assets/🔒 Keybox.png>)

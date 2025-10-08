@@ -1,4 +1,4 @@
-🛰️ Satellite connecting landscape FAQ
+🛰️ Satellite connecting landscape
 ===
 
 🎯 As of 2025, users continue to face challenges accessing the internet, e.g.:

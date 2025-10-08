@@ -1,4 +1,4 @@
-📂 Payment apps landscape FAQ
+📂 Payment apps landscape
 ===
 
 💬 NLWeb advocates for payment simplicity for the benefit of users:

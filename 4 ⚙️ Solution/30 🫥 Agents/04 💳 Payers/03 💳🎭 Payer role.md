@@ -1,4 +1,4 @@
-💳🎭 Payer domain role FAQ
+💳🎭 Payer domain role
 ===
 
 1. **What is a Payer domain in NLWeb?**

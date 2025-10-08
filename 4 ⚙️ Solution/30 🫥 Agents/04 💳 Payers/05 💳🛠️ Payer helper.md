@@ -1,4 +1,4 @@
-💳🛠️ Payer helper FAQ
+💳🛠️ Payer helper
 ===
 
 1. **What is a Payer helper in NLWeb?**

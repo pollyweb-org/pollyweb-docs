@@ -1,6 +1,6 @@
 <!-- #TODO -->
 
-# ⏳🧭 Navigator vault domain FAQ
+# ⏳🧭 Navigator vault domain
 
 > Part of [Agent 🫥 vault domains](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) 
 

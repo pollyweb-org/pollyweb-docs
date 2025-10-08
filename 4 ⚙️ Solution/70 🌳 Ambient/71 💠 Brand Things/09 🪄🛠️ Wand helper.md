@@ -1,4 +1,4 @@
-🪄 Wand supplier domains FAQ
+🪄 Wand supplier domains
 ===
 
 1. **What is a Wand domain in NLWeb?**

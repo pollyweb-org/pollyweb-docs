@@ -1,4 +1,4 @@
-🏛️ Authority domains FAQ
+🏛️ Authority domains
 ===
 
 ![](<.📎 Assets/👍 Authority.png>)

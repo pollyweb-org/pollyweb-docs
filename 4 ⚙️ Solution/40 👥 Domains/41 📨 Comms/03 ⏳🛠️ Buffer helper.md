@@ -1,4 +1,4 @@
-⏳ Buffer helper domains FAQ
+⏳ Buffer helper domains
 ===
 
 > Mentioned in [📨 Domain Message](<01 📨 Domain Message.md>)

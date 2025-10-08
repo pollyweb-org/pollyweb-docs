@@ -1,4 +1,4 @@
-👍 NLWeb Trust Framework FAQ
+👍 NLWeb Trust Framework
 ===
 
 ![](<.📎 Assets/👍 Trust Framework.png>)

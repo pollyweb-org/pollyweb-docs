@@ -1,4 +1,4 @@
-🛰️ Relayer domains FAQ
+🛰️ Relayer domains
 ===
 
 

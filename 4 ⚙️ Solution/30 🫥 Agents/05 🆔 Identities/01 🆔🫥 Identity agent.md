@@ -1,4 +1,4 @@
-🆔 Identity agent FAQ
+🆔 Identity agent
 ===
 
 1. **What is an Identity domain in NLWeb?**

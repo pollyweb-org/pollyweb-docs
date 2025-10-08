@@ -1,4 +1,4 @@
-🛜 Wi-Fier device feature FAQ
+🛜 Wi-Fier device feature
 ===
 
 1. **What is a Wi-Fier device feature in NLWeb?**

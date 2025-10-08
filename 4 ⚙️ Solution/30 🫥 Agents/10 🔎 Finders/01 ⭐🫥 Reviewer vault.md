@@ -1,4 +1,4 @@
-⭐ Reviewer vault domains FAQ
+⭐ Reviewer vault domains
 ===
 
 ![](<00 📎 Assets/🔎 Reviewer.png>)

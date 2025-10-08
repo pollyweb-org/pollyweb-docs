@@ -1,4 +1,4 @@
-🔑 Smart Keys landscape FAQ
+🔑 Smart Keys landscape
 ===
 
 

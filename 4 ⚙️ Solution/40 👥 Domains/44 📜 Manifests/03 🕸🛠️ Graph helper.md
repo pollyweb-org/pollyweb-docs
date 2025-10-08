@@ -1,4 +1,4 @@
-🕸 Graph helper domains FAQ
+🕸 Graph helper domains
 ===
 
 1. **What is a Graph domain in NLWeb?**

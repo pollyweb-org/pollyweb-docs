@@ -1,6 +1,6 @@
 <!-- #TODO -->
 
-🦋 Ephemeral pluggable devices FAQ
+🦋 Ephemeral pluggable devices
 ===
 
 1. **What is an Ephemeral device?**

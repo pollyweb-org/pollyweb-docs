@@ -1,4 +1,4 @@
-🖐️ Pay-by-palm landscape FAQ
+🖐️ Pay-by-palm landscape
 ===
     
 

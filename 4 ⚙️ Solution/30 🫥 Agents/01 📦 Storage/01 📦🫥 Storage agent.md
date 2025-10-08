@@ -1,4 +1,4 @@
-📦 Storage vault domains FAQ
+📦 Storage vault domains
 ===
 
 ![](<00 📎 Assets/📦 Storage.png>)

@@ -1,6 +1,6 @@
 <!-- #TODO -->
 
-👀 Advertiser helper domains FAQ
+👀 Advertiser helper domains
 ===
 
 1. **What is an Advertiser helper domain in NLWeb?**

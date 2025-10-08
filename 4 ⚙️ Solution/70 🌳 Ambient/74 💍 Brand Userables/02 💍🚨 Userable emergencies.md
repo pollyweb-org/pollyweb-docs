@@ -1,4 +1,4 @@
-💍 Userables for emergencies FAQ
+💍 Userables for emergencies
 ===
 
 1. **How can users set up a health emergency script?**

@@ -1,4 +1,4 @@
-📣 Notifier domains FAQ
+📣 Notifier domains
 ===
 
 

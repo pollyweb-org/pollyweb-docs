@@ -1,4 +1,4 @@
-Onboarding FAQ
+Onboarding
 ===
 
 ![](<.📎 Assets/Wallet.png>)

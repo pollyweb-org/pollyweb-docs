@@ -1,4 +1,4 @@
-🔆 NLWeb NFC/QR Locators FAQ
+🔆 NLWeb NFC/QR Locators
 ===
 
 1. **What are NLWeb Locators?**

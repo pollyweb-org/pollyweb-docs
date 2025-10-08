@@ -1,4 +1,4 @@
-🔔 Subscriber domain role FAQ
+🔔 Subscriber domain role
 ===
 
 1. **What is a Subscriber domain role in NLWeb?**

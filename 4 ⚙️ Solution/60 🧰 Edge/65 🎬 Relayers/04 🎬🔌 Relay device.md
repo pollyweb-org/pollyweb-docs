@@ -1,6 +1,6 @@
 <!-- #TODO -->
 
-🎬 Relayer pluggable devices FAQ
+🎬 Relayer pluggable devices
 ===
 
 

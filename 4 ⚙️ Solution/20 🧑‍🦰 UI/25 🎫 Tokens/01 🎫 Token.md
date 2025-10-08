@@ -1,4 +1,4 @@
-🎫 Tokens FAQ
+🎫 Tokens
 ===
 
 1. **What is a Token?**

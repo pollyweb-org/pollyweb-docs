@@ -1,6 +1,6 @@
 <!-- #TODO -->
 
-Vendor Lock-in FAQ
+Vendor Lock-in
 ===
 
 1. **Can a user surf NLWeb with a browser other than Octan's?**

@@ -1,5 +1,5 @@
 <!-- #TODO -->
-📸 Selfie pluggable devices FAQ
+📸 Selfie pluggable devices
 ===
 
 1. **What are Selfie devices?**

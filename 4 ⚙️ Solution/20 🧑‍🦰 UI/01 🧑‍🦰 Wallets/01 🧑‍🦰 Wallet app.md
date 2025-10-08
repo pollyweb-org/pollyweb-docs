@@ -1,4 +1,4 @@
-🧑‍🦰 Wallet app FAQ
+🧑‍🦰 Wallet app
 ===
 
 

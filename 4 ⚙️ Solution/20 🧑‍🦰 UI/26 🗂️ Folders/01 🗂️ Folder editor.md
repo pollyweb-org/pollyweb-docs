@@ -1,4 +1,4 @@
-🗂️ Folder editor FAQ
+🗂️ Folder editor
 ===
 
 1. **What is an NLWeb Folder editor?**
