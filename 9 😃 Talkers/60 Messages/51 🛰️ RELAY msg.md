@@ -40,8 +40,8 @@
     | `<key>`  | Unique device key in the pool
     | `<message>` | Message to send to the device
     | `$result` | The response returned by the [Relayer 🛰️](<../../4 ⚙️ Solution/60 🧰 Edge/61 🔌 Pluggables/04 🛰️🛠️ Relayer helper.md>)
-    | `<failure>` | [Procedure ⚙️](<../../33 😃 Talkers/11 ⚙️ Procedure.md>) or [Command ⌘](<../20 Talker Flows/10 ⌘ Command.md>) to run on failure
-    | `<success>` | [Procedure ⚙️](<../../33 😃 Talkers/11 ⚙️ Procedure.md>) or [Command ⌘](<../20 Talker Flows/10 ⌘ Command.md>) to run on success
+    | `<failure>` | [Procedure ⚙️](<../20 Talker Flows/11 ⚙️ Procedure.md>) or [Command ⌘](<../20 Talker Flows/10 ⌘ Command.md>) to run on failure
+    | `<success>` | [Procedure ⚙️](<../20 Talker Flows/11 ⚙️ Procedure.md>) or [Command ⌘](<../20 Talker Flows/10 ⌘ Command.md>) to run on success
 
     ---
     <br/>
