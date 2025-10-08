@@ -71,7 +71,7 @@
     | 1️⃣ [`ONE`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/53 1️⃣ ONE prompt.md>) | Select an option, the day in this case.
     | 💼 [`SHARE`](<45 💼 SHARE msg.md>) | Get the user's booking contacts.
     | 👍 [`CONFIRM`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/31 👍 CONFIRM prompt.md>) | Pause to allow changing previous inputs.
-    | ⬇️ [`EVAL`](<../30 💾 Talker Data/20 ⬇️ EVAL flow.md>) | Save the booking.
+    | ⬇️ [`EVAL`](<../30 💾 Talker data/20 ⬇️ EVAL flow.md>) | Save the booking.
 
     ---
     <br/>
