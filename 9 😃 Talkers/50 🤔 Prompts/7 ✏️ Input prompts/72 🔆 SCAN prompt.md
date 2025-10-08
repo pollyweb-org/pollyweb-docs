@@ -2,7 +2,7 @@
 
 > Asks to touch/scan a [QR/NFC Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>).
 
-> Part of [blocking input prompts 🤔](<../1 📘 Prompt specs/11 ✏️ Input behavior.md>)
+> Part of [blocking input prompts 🤔](<../1 📘 Prompt specs/09 ✏️ Input behavior.md>)
 
 
    * `SCAN|<message>`	
