@@ -77,7 +77,7 @@
 | [Command ⌘](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/10 ⌘ Command.md>) | Purpose
 |-|-
 | 
-| 🪣 [`MAP`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/31 🪣 MAP item.md>) | Map the locator to a restaurant info.
+| 🪣 [`MAP`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/61 🪣 MAP item.md>) | Map the locator to a restaurant info.
 | 📝 [`FORM`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/41 📝 FORM msg.md>) | Show user instructions and allow inputs.
 | 1️⃣ [`ONE`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/53 1️⃣ ONE prompt.md>) | Select an option, the day in this case.
 | 💼 [`SHARE`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/45 💼 SHARE msg.md>) | Get the user's booking contacts.

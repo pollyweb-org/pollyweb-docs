@@ -45,7 +45,7 @@
 
     ```yaml
     💬|[Bla]:
-    - FLOW|bla
+    - FORM|bla
     - BIND|any-authority.org/ANY-SCHEMA-CODE
     - SUCCESS|Done!
     ```

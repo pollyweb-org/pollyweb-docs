@@ -2,6 +2,8 @@
 
 > Part of [Prompts 🤔](<01 🤔 Prompt.md>)
 
+> Changes the default behavior of [Prompt with Options 🔘](<04 🤔🔘 with Options.md>)
+
 <br/> 
 
 1. **What are non-blocking status prompts?**
@@ -65,12 +67,22 @@
     Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
+    # 😃 Talker
+
+    💬 Example:
     # Non-blocking
     - INFO|With options >> $selected:
         Options: 
-            - [Cancel] later
-            - [Play] music 
+          - "[Cancel] later"
+          - "[Play] music"
 
+    # Deferred decision tree
+    - CASE|{$selected}:
+        $: ContinueProc
+        Cancel: CancelProc
+        Play: PlayProc
+
+    ContinueProc:
     # Blocking
     - ONE: 
         Message: 

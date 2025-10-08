@@ -134,6 +134,8 @@
 
 1. **What's an example in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)?**
 
+    > Note: [non-blocking status prompts ⚠️](<08 ⚠️ Status behavior.md>) behave slightly differently.
+
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What to do? <br>- [ Play ] music <br/>- [ Share ] list | > Play
