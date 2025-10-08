@@ -1,34 +1,29 @@
-# 🔢 DIGITS prompt
+# ⭐ RATE prompt
 
 > Part of [blocking input prompts 🤔](<11 ✏️ Input behavior.md>)
 
 
 <br/>
 
-1. **What's a DIGITS prompt?**
+1. **What's a RATE prompt?**
 
-    A `DIGITS`
+    A `RATE`
     * is a [Prompt 🤔](<01 🤔 Prompt.md>) 
-    * that shows the numeric keypad
-    * and allows for leading zeros.
+    * that allows ratings of 1 to 5 stars.
   
-    Examples:
-    * `0123` for pins,
-    * UK phone numbers like `07482000000`.
-
     ---
     <br/>
 
-1. **What are use cases for DIGITS?**
+1. **What are use cases for RATE?**
 
     | Scenario | Details
     |-|-
-    | `Codes`| [Enter the item number at a vending machine 🏪](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/11 💧 Buy water.md>)
+    | `Reviewer` | [Reviewer ⭐](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>)
 
     ---
     <br/>
 
-1. **What features does DIGITS implement?**
+1. **What features does RATE implement?**
 
     | Feature | Details
     |-|-
@@ -44,7 +39,7 @@
 
     ```yaml
     # Simplest.
-    DIGITS|<message> >> $placeholder
+    RATE|<message> >> $placeholder
     ```
 
     | Argument| Purpose 
@@ -55,28 +50,20 @@
 
     ```yaml
     # Comprehensive.
-    DIGITS >> $placeholder:
+    RATE >> $placeholder:
         Message: <message>
-
-        # Specific optional properties
-        MinLength: int
-        MaxLength: int
 
         # Generic optional properties
         Emoji: emoji
         Details: string
         Nullable: bool
-        Appendix: {function}
     ```
     
     | Argument| Purpose | Example
     |-|-|-
-    | `MinLength` | Optional [minimum length 📋](<13 ✏️📋 Input validation.md>) | `1`
-    | `MaxLength` | Optional [maximum length 📋](<13 ✏️📋 Input validation.md>) | `5`
     | `Emoji` | Optional [alternative emoji 😶](<14 ✏️😶 Input emojis.md>) | `😶`
     | `Details` | Optional [expandable details ⊕](<03 🤔⊕ with Details.md>) | `Hint...`
     | `Nullable` | Optional [skip flag ⏭️](<12 ✏️⏭️ Input nullability.md>) | `Yes`
-    | `Appendix` | Optional [file attachment 📎](<05 🤔📎 with Appendix.md>) | `<uuid>`
     
 
     ---
@@ -88,9 +75,9 @@
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What's the code? | 🔢 0123
-    [🫥 Agent](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | 🫥 What's the code? | 🔢 01234
-    | [🛠️ Helper](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | 🫥 What's the code? | 🔢 000
+    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What's the rate? | ⭐ 5
+    [🫥 Agent](<../24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | 🫥 What's the code? | ⭐ 4
+    | [🛠️ Helper](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | 🫥 What's the code? | ⭐ 2
     |
 
     <br/>
@@ -98,9 +85,7 @@
     Here's the [Talker 😃](<../33 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
-    - DIGITS|What's the code? >> $code:
-        MinLength: 3 # Server-side validation
-        MaxLength: 5 # Server-side validation
+    - RATE|What's the rate? >> $code
     ```
 
 
@@ -109,8 +94,8 @@
     Here's the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>).
 
     ```yaml
-    Format: DIGITS
-    Message: 😃 What's the code?
+    Format: RATE
+    Message: 😃 What's the rate?
     ```
 
 
@@ -119,7 +104,7 @@
     Here's the answer in [`Reply@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>).
 
     ```yaml
-    Answer: 0123
+    Answer: 5
     ```
 
     ---
