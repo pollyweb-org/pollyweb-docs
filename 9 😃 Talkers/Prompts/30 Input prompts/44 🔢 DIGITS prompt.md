@@ -1,6 +1,6 @@
 # 🔢 DIGITS prompt
 
-> Part of [blocking input prompts 🤔](<../10 Prompt definitions/03 ✏️ as Input.md>)
+> Part of [blocking input prompts 🤔](<../10 Prompt definitions/09 ✏️ as Input.md>)
 
 
 <br/>
@@ -34,7 +34,7 @@
     |-|-
     | ⊕ [`Details`](<../10 Prompt definitions/04 ⊕ with Details.md>) | Has expandable [+] details.
     | 📎 [`Appendix`](<../10 Prompt definitions/05 📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
-    | ✏️ [`Input`](<../10 Prompt definitions/03 ✏️ as Input.md>) | Waits for an answer from users.
+    | ✏️ [`Input`](<../10 Prompt definitions/09 ✏️ as Input.md>) | Waits for an answer from users.
     
     ---
     <br/>

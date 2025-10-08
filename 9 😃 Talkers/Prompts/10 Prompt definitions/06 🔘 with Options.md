@@ -19,7 +19,7 @@
        
     Yes. 
     
-    * [Prompt options](<06 🔘 with Options.md>) can be differed with [non-blocking status Prompts 🤔](<02 ⚠️ as Status.md>);../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/08 ⚠️ Status behavior.md
+    * [Prompt options](<06 🔘 with Options.md>) can be differed with [non-blocking status Prompts 🤔](<08 ⚠️ as Status.md>);../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/08 ⚠️ Status behavior.md
     
         * e.g., [`INFO`](<../20 Status prompts/21 ℹ️ INFO prompt.md>), [`TEMP`](<../20 Status prompts/25 ⏳ TEMP prompt.md>), [`SUCCESS`](<../20 Status prompts/23 ✅ SUCCESS prompt.md>), and [`FAILURE`](<../20 Status prompts/24 ❌ FAILURE prompt.md>).../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/24 ❌ FAILURE prompt.md
   
@@ -134,7 +134,7 @@
 
 1. **What's an example in a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)?**
 
-    > Note: [non-blocking status prompts ⚠️](<02 ⚠️ as Status.md>) behave slightly differently.
+    > Note: [non-blocking status prompts ⚠️](<08 ⚠️ as Status.md>) behave slightly differently.
 
     | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../0../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Promp../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md
     | - | - | - |

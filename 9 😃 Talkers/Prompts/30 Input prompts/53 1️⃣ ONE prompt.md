@@ -1,7 +1,7 @@
 # 1️⃣ ONE prompt
 
 
-> Part of [blocking input prompts 🤔](<../10 Prompt definitions/03 ✏️ as Input.md>)
+> Part of [blocking input prompts 🤔](<../10 Prompt definitions/09 ✏️ as Input.md>)
 
 <br/>
 
@@ -23,7 +23,7 @@
     | ⊕ [`Details`](<../10 Prompt definitions/04 ⊕ with Details.md>) | Has expandable [+] details.
     | 🔘 [`Options`](<../10 Prompt definitions/06 🔘 with Options.md>) | Has options for users to select.
     | 📎 [`Appendix`](<../10 Prompt definitions/05 📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
-    | ✏️ [`Input`](<../10 Prompt definitions/03 ✏️ as Input.md>) | Waits for an answer from users.
+    | ✏️ [`Input`](<../10 Prompt definitions/09 ✏️ as Input.md>) | Waits for an answer from users.
     
     ---
     <br/>

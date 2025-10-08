@@ -27,8 +27,8 @@
 
     |Behavior| Format 
     |-|-
-    |[`Status`](<02 ⚠️ as Status.md>)| [`ℹ️ INFO`](<../../../9 😃 Talkers/Prompts/20 Status prompts/21 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<../../../9 😃 Talkers/Prompts/20 Status prompts/25 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<../../../9 😃 Talkers/Prompts/20 Status prompts/23 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<../20 Status prompts/24 ❌ FAILURE prompt.md>)
-    |[`Inputs`](<03 ✏️ as Input.md>)| [`🔢 DIGITS`](<../../../9 😃 Talkers/Prompts/30 Input prompts/44 🔢 DIGITS prompt.md>) [`🔄 QUANTITY`](<../../../9 😃 Talkers/Prompts/30 Input prompts/42 🔄 QUANTITY prompt.md>) [`💰 AMOUNT`](<../../../9 😃 Talkers/Prompts/30 Input prompts/43 💰 AMOUNT prompt.md>) [`🔑 OTP`](<../../../9 😃 Talkers/Prompts/30 Input prompts/57 🔑 OTP prompt.md>) [`⭐ RATE`](<../../../9 😃 Talkers/Prompts/30 Input prompts/46 ⭐ RATE prompt.md>) 
+    |[`Status`](<08 ⚠️ as Status.md>)| [`ℹ️ INFO`](<../../../9 😃 Talkers/Prompts/20 Status prompts/21 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<../../../9 😃 Talkers/Prompts/20 Status prompts/25 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<../../../9 😃 Talkers/Prompts/20 Status prompts/23 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<../20 Status prompts/24 ❌ FAILURE prompt.md>)
+    |[`Inputs`](<09 ✏️ as Input.md>)| [`🔢 DIGITS`](<../../../9 😃 Talkers/Prompts/30 Input prompts/44 🔢 DIGITS prompt.md>) [`🔄 QUANTITY`](<../../../9 😃 Talkers/Prompts/30 Input prompts/42 🔄 QUANTITY prompt.md>) [`💰 AMOUNT`](<../../../9 😃 Talkers/Prompts/30 Input prompts/43 💰 AMOUNT prompt.md>) [`🔑 OTP`](<../../../9 😃 Talkers/Prompts/30 Input prompts/57 🔑 OTP prompt.md>) [`⭐ RATE`](<../../../9 😃 Talkers/Prompts/30 Input prompts/46 ⭐ RATE prompt.md>) 
     || [`👍 CONFIRM`](<../../../9 😃 Talkers/Prompts/30 Input prompts/31 👍 CONFIRM prompt.md>) [`1️⃣ ONE`](<../../../9 😃 Talkers/Prompts/30 Input prompts/53 1️⃣ ONE prompt.md>) [`🔢 MANY`](<../../../9 😃 Talkers/Prompts/30 Input prompts/54 🔠 MANY prompt.md>) 
     || [`🕓 TIME`](<../../../9 😃 Talkers/Prompts/30 Input prompts/62 🕓 TIME prompt.md>) [`📆 DATE`](<../../../9 😃 Talkers/Prompts/30 Input prompts/61 📆 DATE prompt.md>) 
     || [`⬆️ UPLOAD`](<../../../9 😃 Talkers/Prompts/30 Input prompts/81 ⬆️ UPLOAD prompt.md>)
@@ -81,8 +81,8 @@
     | ⊕ [`Details`](<04 ⊕ with Details.md>) | Has expandable [+] details.
     | 🔘 [`Options`](<06 🔘 with Options.md>)  | Has options for users to select.
     | 📎 [`Appendix`](<05 📎 with Appendix.md>)  | Has a PDF, PNG, or JPEG attachment.
-    | ⚠️ [`Status` behavior](<02 ⚠️ as Status.md>) | Informs and continues the flow.
-    | ✏️ [ ✏️ `Input`](<03 ✏️ as Input.md>) | Waits for an answer from users.
+    | ⚠️ [`Status` behavior](<08 ⚠️ as Status.md>) | Informs and continues the flow.
+    | ✏️ [ ✏️ `Input`](<09 ✏️ as Input.md>) | Waits for an answer from users.
     
     ---
     <br/>
