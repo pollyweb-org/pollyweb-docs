@@ -159,7 +159,7 @@
         Share: INFO|You choose to share.
     ```
 
-    | [Command ⌘](<../../../9 😃 Talkers/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../../9 😃 Talkers/Flow/10 ⌘ Command.md>) | Purpose
     |-|-
     | 1️⃣ [`ONE`](<53 1️⃣ ONE prompt.md>) | To show the options.
     | 🔀 [`CASE`](<../../../9 😃 Talkers/22 🔀 CASE flow.md>) | To check the selected option.
@@ -234,7 +234,7 @@
     ```
 
 
-    | [Command ⌘](<../../../9 😃 Talkers/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../../9 😃 Talkers/Flow/10 ⌘ Command.md>) | Purpose
     |-|-
     | 1️⃣ [`ONE`](<53 1️⃣ ONE prompt.md>) | To show the options.
     | 🔀 [`CASE`](<../../../9 😃 Talkers/22 🔀 CASE flow.md>) | To check the selected option.

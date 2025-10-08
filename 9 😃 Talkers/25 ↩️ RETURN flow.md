@@ -8,8 +8,8 @@
 1. **What's a RETURN flow?**
 
     A `RETURN` ↩️
-    * is a flow [Command ⌘](<10 ⌘ Command.md>) 
-    * that leaves a [Procedure ⚙️](<11 ⚙️ Procedure.md>) to its parent, 
+    * is a flow [Command ⌘](<Flow/10 ⌘ Command.md>) 
+    * that leaves a [Procedure ⚙️](<Flow/11 ⚙️ Procedure.md>) to its parent, 
     * and returns one of the following expressions.
     
     |Expression|Examples
@@ -41,7 +41,7 @@
 
 1. **What happens after a RETURN?**
 
-    Nothing runs on a [Procedure ⚙️](<11 ⚙️ Procedure.md>) after the `RETURN`.
+    Nothing runs on a [Procedure ⚙️](<Flow/11 ⚙️ Procedure.md>) after the `RETURN`.
 
     | [Domain](<../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
@@ -62,7 +62,7 @@
     - FAILURE|This command never runs.
     ```
 
-    | [Command ⌘](<10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<Flow/10 ⌘ Command.md>) | Purpose
     |-|-
     | ▶️ [RUN](<24 ▶️ RUN flow.md>) | To run the procedures.
     
@@ -104,7 +104,7 @@
     - RETURN|{.Sum($1,$2,$3)}
     ```
 
-    | [Command ⌘](<10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<Flow/10 ⌘ Command.md>) | Purpose
     |-|-
     | ▶️ [RUN](<24 ▶️ RUN flow.md>) | To run the procedures.
 

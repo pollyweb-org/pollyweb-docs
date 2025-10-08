@@ -34,7 +34,7 @@ The associated [Talker 😃](<../../9 😃 Talkers/01 😃 Talker.md>) is as fol
 - INFO|{number}, got it! Thanks, Any Helper!  
 ```
 
-| [Command ⌘](<../../9 😃 Talkers/10 ⌘ Command.md>) | Purpose
+| [Command ⌘](<../../9 😃 Talkers/Flow/10 ⌘ Command.md>) | Purpose
 |-|-
 | ℹ️ [`INFO`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/21 ℹ️ INFO prompt.md>) | To show the messages to the user.
 | 🛠️ [`INVITE`](<../../9 😃 Talkers/Messages/46 🛠️ INVITE msg.md>) | To collect a random number.

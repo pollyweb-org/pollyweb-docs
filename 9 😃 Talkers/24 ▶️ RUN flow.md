@@ -8,8 +8,8 @@
 1. **What's a RUN flow?**
 
     A `RUN` ▶️
-    * is a flow [Command ⌘](<10 ⌘ Command.md>) 
-    * that runs a  [Procedure ⚙️](<11 ⚙️ Procedure.md>).
+    * is a flow [Command ⌘](<Flow/10 ⌘ Command.md>) 
+    * that runs a  [Procedure ⚙️](<Flow/11 ⚙️ Procedure.md>).
 
     ---
     <br/>
@@ -22,7 +22,7 @@
 
     | Argument| Purpose
     |-|-
-    | `<procedure>`| [Procedure ⚙️](<11 ⚙️ Procedure.md>) to run.
+    | `<procedure>`| [Procedure ⚙️](<Flow/11 ⚙️ Procedure.md>) to run.
     | `<arguments>`| Optional comma-separated arguments <br/>referenced by `{$position}` - e.g., `{$1}`
     | `<result>`| Optional placeholder for a [`RETURN`](<25 ↩️ RETURN flow.md>) result.
     
@@ -85,7 +85,7 @@
     - INFO|You gave me number {$1}.
     ```
 
-    | [Command ⌘](<10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<Flow/10 ⌘ Command.md>) | Purpose
     |-|-
     | 🔄 [`QUANTITY`](<../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/42 🔄 QUANTITY prompt.md>) | To collect the number input.
 
@@ -157,7 +157,7 @@
     ```
 
 
-    | [Command ⌘](<10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<Flow/10 ⌘ Command.md>) | Purpose
     |-|-
     | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | To decide which message to show.
     | ↩️ [`RETURN`](<25 ↩️ RETURN flow.md>) | To return the final result.
@@ -196,7 +196,7 @@
     - FAILURE|This is a bug.
     ```
 
-    | [Command ⌘](<10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<Flow/10 ⌘ Command.md>) | Purpose
     |-|-
     | ↩️ [`RETURN`](<25 ↩️ RETURN flow.md>) | To calculate the value to return.
 

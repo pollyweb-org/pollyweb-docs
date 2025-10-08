@@ -9,7 +9,7 @@
 1. **What's a WAIT flow command?**
 
     A `WAIT` ⏸️
-    * is a flow [Command ⌘](<10 ⌘ Command.md>) 
+    * is a flow [Command ⌘](<Flow/10 ⌘ Command.md>) 
     * that pauses the flow for a period of time 
     * or until triggered by an external signal.
 
@@ -65,7 +65,7 @@
     ```
     
 
-    | [Command ⌘](<10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<Flow/10 ⌘ Command.md>) | Purpose
     |-|-
     | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | To update the message.
     | ⏳ [`TEMP`](<../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/25 ⏳ TEMP prompt.md>) | Show the temporary message.
@@ -106,7 +106,7 @@
     ```
 
 
-    | [Command ⌘](<10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<Flow/10 ⌘ Command.md>) | Purpose
     |-|-
     | ⬇️ [`EVAL`](<Functions/20 ⬇️ EVAL flow.md>) | to assess the backend queue length.
     | ℹ️ [`INFO`](<../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/21 ℹ️ INFO prompt.md>) | To show the initial message.
@@ -163,7 +163,7 @@
     - REPEAT
     ```
 
-    | [Command ⌘](<10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<Flow/10 ⌘ Command.md>) | Purpose
     |-|-
     | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | To show the human-friendly message.
     | ⬇️ [`EVAL`](<Functions/20 ⬇️ EVAL flow.md>) | to assess the backend queue length.
