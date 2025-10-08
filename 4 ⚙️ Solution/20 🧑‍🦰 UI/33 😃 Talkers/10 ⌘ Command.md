@@ -47,7 +47,7 @@
     |Command |  Example | Purpose
     |-|-|-
     | 🔠 [`TEXT`](<../31 🤔 Prompts/32 🔠 TEXT prompt.md>) | Bla | Unstructured text | 
-    | 🔄 [`QUANTITY`](<../31 🤔 Prompts/42 🔄 QUANTITY prompt.md>) | 123| Integers with ⬆️ ⬇️ arrows |
+    | 🔄 [`QUANTITY`](<../31 🤔 Prompts/42 🔄 QUANTITY prompt.md>) | 123| Numbers with ⬆️ ⬇️ arrows |
     | 🔢 [`DIGITS`](<../31 🤔 Prompts/44 🔢 DIGITS prompt.md>) |0123| Numerics with 0 prefix | 
     | 💰 [`AMOUNT`](<../31 🤔 Prompts/43 💰 AMOUNT prompt.md>) |  1.23 | Decimals and currency
     | ⭐ [`RATE`](<../31 🤔 Prompts/46 ⭐ RATE prompt.md>) | 5 ⭐ | Integer from 1 to 5
@@ -110,7 +110,6 @@
     | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | Runs a [Command ⌘](<10 ⌘ Command.md>) or [Procedure ⚙️](<11 ⚙️ Procedure.md>) matching a [{Function}](<12 🐍 {Function}.md>).
     | 🫥 [`EMOJI`](<16 😶 EMOJI flow.md>) | Changes the [default emoji 😃](<../31 🤔 Prompts/14 ✏️😶 Input emojis.md>) for [input prompts ✏️](<../31 🤔 Prompts/11 ✏️ Input behavior.md>).
     | ⬇️ [`EVAL`](<20 ⬇️ EVAL flow.md>) | Evaluates a [{Function}](<12 🐍 {Function}.md>) into a placeholder.
-    | ⏏️ [`EXIT`](<26 ⏏️ EXIT flow.md>) | Leaves a [Procedure ⚙️](<11 ⚙️ Procedure.md>) to another permanently.
     | ⤵️ [`IF`](<21 ⤵️ IF flow.md>) | Runs a [Command ⌘](<10 ⌘ Command.md>) or [Procedure ⚙️](<11 ⚙️ Procedure.md>) based on a [{Function}](<12 🐍 {Function}.md>).
     | 🪵 [`LOG`](<15 🪵 LOG flow.md>) | Logs messages into the system handler.
     | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | Repeats the current [Procedure ⚙️](<11 ⚙️ Procedure.md>) with a confirmation.

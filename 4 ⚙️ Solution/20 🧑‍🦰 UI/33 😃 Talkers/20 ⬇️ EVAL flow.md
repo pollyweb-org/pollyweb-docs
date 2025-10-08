@@ -18,25 +18,31 @@
 1. **What's the EVAL syntax?**
 
     ```yaml
-    # Functions
-    - EVAL|{function} >> $output:
-        {input}
-
     # Objects
     - EVAL >> $output:
         {object}
-
-    # Strings
-    - EVAL|<string> >> $output
     ```
 
     | Argument| Purpose | Example
     |-|-|-
-    | `{function}`| [{Function}](<12 🐍 {Function}.md>) to be evaluated. | `{MyFunction}` | 
-    | `{arguments}`| Single input for functions. | `3` `[A,B]` `{A:1}` 
-    | `<object>` | Object to evaluate. | `{A:1, B:$n}`
-    | `<string>` | String to evaluate. | `A` `I'm {$name}`
-    | `$output` | Placeholder for storage. | `$my-var`
+    | `<object>` | Object to evaluate | `{A:1, B:$n}`
+    |            | Or a simple string | `How nice!`
+    |            | Or an interpolated string | `Hi, {$name}`
+    | `$output`  | Placeholder for storage | `$my-var`
+
+
+    ```yaml
+    # Functions
+    - EVAL|{function} >> $output:
+        {input}
+    ```
+
+    | Argument| Purpose | Example
+    |-|-|-
+    | `{function}`| [{Function}](<12 🐍 {Function}.md>) to be evaluated | `{f}` `{$p}` | 
+    || Supports missing `{}` | `f` `$p`
+    | `{input}`| Input for the `{function}` | `3` `[A,B]` `{A:1}` 
+    || Passed as single argument | `f({input})`
     
     ---
     <br/>
@@ -46,10 +52,12 @@
 
     ```yaml
     # Multi-position functions
-    - EVAL|{f(1,A,$p)}:
+    - EVAL|f(1,A,$p):
+    ```
     
+    ```yaml
     # Single-position functions
-    - EVAL|{f}:
+    - EVAL|f:
         x: 1
         y: A
         z: $p
@@ -58,7 +66,7 @@
     ---
     <br/>
     
-1. **What's a string EVAL example?**
+1. **What's an object EVAL example?**
 
 
     | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
@@ -72,12 +80,15 @@
     💬 Example:
     
     # First message.
-    - EVAL|3 >> $A
+    - EVAL >> $A:
+        3
+
     - INFO|The A placeholder has {$A}.
 
     # Second message.
-    - EVAL|Placeholder B also has {$A} >> $B
-    - INFO|{$B}
+    - EVAL >> $B:
+        Placeholder B also has {$A} 
+    - INFO|$B
     ```
 
     ---
@@ -98,7 +109,7 @@
     # 😃 Talker.
     💬 Example:
     - CONFIRM|Add a database row?
-    - EVAL|{addRow} >> $count
+    - EVAL|addRow >> $count
     - SUCCESS|The database now has {$count} rows.
     - REPEAT
     ```
@@ -153,7 +164,7 @@
             {$data.Address.Country}
 
     # Show the intro.
-    - INFO|{$intro}
+    - INFO|$intro
     ```
 
   

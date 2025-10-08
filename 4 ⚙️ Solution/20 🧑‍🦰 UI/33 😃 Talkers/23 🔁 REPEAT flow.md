@@ -155,11 +155,12 @@
 
     ```yaml
     💬 Play guess:                      
-    - EVAL|{.RandomInt(1,9)} >> $target  # Set the target
+    - EVAL|.RandomInt(1,9) >> $target    # Set the target
     - INFO|You have 3 attempts.          # Inform the rules
-    - EVAL|3 >> $tries                   # Reset the counter
+    - EVAL >> $tries:                    # Reset the counter
+        3
     - RUN|TryLoop >> $result             # Run the loop
-    - CASE|{$result}:                    # Check the result
+    - CASE|$result:                      # Check the result
         Won: SUCCESS|You won! 🥳
         Lost: FAILURE|You lost! 😮
     - REPEAT|Play again?                 # Ask to play again
@@ -169,19 +170,20 @@
     TryLoop:      
 
     # Ask for a number between 1 and 9
-    - QUANTITY|Say a number from 1 to 9? >> $guess:   
+    - QUANTITY >> $guess:
+        Message: Say a number from 1 to 9.   
         MinValue: 1
         MaxValue: 9
 
     # Compare the guess with the target
-    - CASE|{$guess}:      
+    - CASE|$guess:      
         # If matched, the user won.             
-        {$target}: RETURN|Won
+        $target: RETURN|Won
         # If not matched, then decrease the tries
         $: EVAL|{.Subtract($tries, 1)} >> $tries
 
     # Verify the number of tries.
-    - CASE|{$tries}:               
+    - CASE|$tries:               
         # If out of tries, the user lost.     
         0: RETURN|Lost
         # Last try.
