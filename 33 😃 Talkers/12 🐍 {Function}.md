@@ -13,7 +13,7 @@
     |Format|Details
     |-|-
     | `{$placeholder}`| The result of a named user input.
-    | `{/path/to/file}` | A file in the [Hoster ☁️](<../35 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>) file system.
+    | `{/path/to/file}` | A file in the [Hoster ☁️](<../4 ⚙️ Solution/20 🧑‍🦰 UI/35 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>) file system.
     | `{handler(args)}`| Logic in a code handler - e.g., python.
     | `{.helper(args)}`| Pre-built functions - e.g., `Sum()`
     
@@ -60,7 +60,7 @@
     | [Command ⌘](<../33 😃 Talkers/10 ⌘ Command.md>) | Purpose
     |-|-
     | ⬇️ [`EVAL`](<20 ⬇️ EVAL flow.md>) | To push an object into a placeholder.
-    | ℹ️ [`INFO`](<../31 🤔 Prompts/21 ℹ️ INFO prompt.md>) | To show the placeholder values.
+    | ℹ️ [`INFO`](<../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/21 ℹ️ INFO prompt.md>) | To show the placeholder values.
     
     ---
     <br/>
@@ -70,11 +70,11 @@
 
 1. **What's an example for input placeholders?**
    
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Give me a quantity  | 🔄 1234
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ I'm saving `1,234`
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Although you typed `1234`
+    | [🤗 Host](<../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Give me a quantity  | 🔄 1234
+    | [🤗 Host](<../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ I'm saving `1,234`
+    | [🤗 Host](<../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Although you typed `1234`
     |
 
     <br/>
@@ -91,7 +91,7 @@
 
     | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
-    | 🔄 [`QUANTITY`](<../31 🤔 Prompts/42 🔄 QUANTITY prompt.md>) | To collect the number input.
+    | 🔄 [`QUANTITY`](<../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/42 🔄 QUANTITY prompt.md>) | To collect the number input.
 
     ---
     <br/>
@@ -109,7 +109,7 @@
 
     | Argument| Purpose
     |-|-
-    | `/path/to/file` | Path to a file in the [Hoster ☁️](<../35 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>) folders.
+    | `/path/to/file` | Path to a file in the [Hoster ☁️](<../4 ⚙️ Solution/20 🧑‍🦰 UI/35 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>) folders.
     | `{function}` | Function that evaluates to a path.
 
     ---
@@ -119,9 +119,9 @@
 1. **What's an example for files?**
 
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 💬 [Who is in the picture?](<../31 🤔 Prompts/32 🔠 TEXT prompt.md>) 🖼️ | `Elvis`
+    | [🤗 Host](<../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 💬 [Who is in the picture?](<../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/32 🔠 TEXT prompt.md>) 🖼️ | `Elvis`
 
 
     ```yaml
@@ -155,12 +155,12 @@
 
 
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ No numbers equals 0
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ 1+2+3 equals 6
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Give me a number |  🔄 4
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ 4+4 equals 8
+    | [🤗 Host](<../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ No numbers equals 0
+    | [🤗 Host](<../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ 1+2+3 equals 6
+    | [🤗 Host](<../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Give me a number |  🔄 4
+    | [🤗 Host](<../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ 4+4 equals 8
 
 
 
@@ -175,7 +175,7 @@
 
     | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
-    | 🔄 [`QUANTITY`](<../31 🤔 Prompts/42 🔄 QUANTITY prompt.md>) | To collect the number input.
+    | 🔄 [`QUANTITY`](<../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/42 🔄 QUANTITY prompt.md>) | To collect the number input.
 
 
     ```python
@@ -218,9 +218,9 @@
    
     
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You sent:<br/>- Function: MyFunction <br>- Inputs: [1, 2, 3] <br/>- Input: 1
+    | [🤗 Host](<../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You sent:<br/>- Function: MyFunction <br>- Inputs: [1, 2, 3] <br/>- Input: 1
     
 
     ```yaml
@@ -286,7 +286,7 @@
     | `.RandomInt` | Random integer | `{.RandomInt(1,9)}` → `7`
     | `.InRange` | Checks intervals | `{.InRange(5,1,10)}` → `True`
     | `.Time` | Current time | `{.Time}` → `10:30:00Z`
-    | [`.Chat.Key`](<13 💬 {.Chat} function.md>)| [Locator 🔆](<../11 🔆 Locators/01 🔆 Locator.md>) Key | `{.Chat.Key}` → `ANY-KEY`
+    | [`.Chat.Key`](<13 💬 {.Chat} function.md>)| [Locator 🔆](<../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) Key | `{.Chat.Key}` → `ANY-KEY`
     
 
 

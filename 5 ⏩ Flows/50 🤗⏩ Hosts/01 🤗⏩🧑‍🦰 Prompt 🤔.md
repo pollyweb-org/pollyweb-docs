@@ -28,7 +28,7 @@ Consider the following [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12
 
 ## 😃 Talker 
 
-The associated [Talker 😃](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/01 😃 Talker.md>), with one line per [Prompt 🤔](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>), would be the following.
+The associated [Talker 😃](<../../33 😃 Talkers/01 😃 Talker.md>), with one line per [Prompt 🤔](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>), would be the following.
 
 ```yaml
 - INFO|Hello World!

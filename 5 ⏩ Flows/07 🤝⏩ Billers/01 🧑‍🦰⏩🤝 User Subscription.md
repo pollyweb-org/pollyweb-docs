@@ -37,7 +37,7 @@ The following steps describe a subscription workflow:
 
 ## Talker
 
-The corresponding [Talker 😃](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/01 😃 Talker.md>) is as follows.
+The corresponding [Talker 😃](<../../33 😃 Talkers/01 😃 Talker.md>) is as follows.
 
 ```yaml
 💬 Register:                # Entry menu
@@ -58,13 +58,13 @@ The corresponding [Talker 😃](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 �
 - GOODBYE                   # Show advertisement
 ```
 
-| [Command ⌘](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/10 ⌘ Command.md>) | Purpose
+| [Command ⌘](<../../33 😃 Talkers/10 ⌘ Command.md>) | Purpose
 |-|-
-| 📝 [`FORM`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/41 📝 FORM msg.md>) | To provide instructions.
-| 🔗 [`BIND`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/44 🔗 BIND msg.md>) | To create a user profile.
-| 🛠️ [`INVITE`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/46 🛠️ INVITE msg.md>) | To subscribe the user to plan.
-| ❄️ [`FREEZE`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/42 ❄️ FREEZE msg.md>) | To disable past inputs.
-| ⬇️ [`EVAL`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/20 ⬇️ EVAL flow.md>) | To register on the database.
+| 📝 [`FORM`](<../../33 😃 Talkers/41 📝 FORM msg.md>) | To provide instructions.
+| 🔗 [`BIND`](<../../33 😃 Talkers/44 🔗 BIND msg.md>) | To create a user profile.
+| 🛠️ [`INVITE`](<../../33 😃 Talkers/46 🛠️ INVITE msg.md>) | To subscribe the user to plan.
+| ❄️ [`FREEZE`](<../../33 😃 Talkers/42 ❄️ FREEZE msg.md>) | To disable past inputs.
+| ⬇️ [`EVAL`](<../../33 😃 Talkers/20 ⬇️ EVAL flow.md>) | To register on the database.
 | ✅ [`SUCCESS`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/23 ✅ SUCCESS prompt.md>) | To say that it was successful.
-| 👋 [`GOODBYE`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/33 😃 Talkers/50 👋 GOODBYE.md>) | To show advertising.
+| 👋 [`GOODBYE`](<../../33 😃 Talkers/50 👋 GOODBYE.md>) | To show advertising.
 |
