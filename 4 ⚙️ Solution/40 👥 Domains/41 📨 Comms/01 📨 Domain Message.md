@@ -21,7 +21,7 @@
 
     Messages from [domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) are sent in JSON envelopes similar to email messages. 
     
-    * The [Schema 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) is defined at [`nlweb.org/MSG 🧩`](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MSG/🧩 Mgs.md>).
+    * The [Schema 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) is defined at [`nlweb.org/MSG 🧩`](<../../../7 🧩 Codes/MSG/🧩 Mgs.md>).
     * Consider the the following example, converted from JSON to YAML for readability.
 
     ```yaml
@@ -46,7 +46,7 @@
 
 1. **What is contained in a domain message envelope?**
 
-    The following properties are a summary of the schema at [`nlweb.org/MSG 🧩`](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/MSG/🧩 Mgs.md>).
+    The following properties are a summary of the schema at [`nlweb.org/MSG 🧩`](<../../../7 🧩 Codes/MSG/🧩 Mgs.md>).
 
     |Property| Description
     |-|-

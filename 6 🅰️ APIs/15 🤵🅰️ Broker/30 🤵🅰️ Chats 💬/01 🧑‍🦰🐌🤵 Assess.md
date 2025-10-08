@@ -27,6 +27,6 @@ Body:
 |Header|`From`|uuid | [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) ID
 ||`To`|string| [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) name
 ||`Subject`|string|`Assess@Broker`
-|Body  |`Locator` |string| [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) of types: <br/>- [`nlweb.org/HOST` 🧩](<../../../8 📜 Manifests/👥 nlweb.org/{codes}/HOST/🧩 Host.md>) <br/>- [`nlweb.org/ALIAS` 🧩](<../../../7 🧩 Codes/🧩 Alias.md>)
+|Body  |`Locator` |string| [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) of types: <br/>- [`nlweb.org/HOST` 🧩](<../../../7 🧩 Codes/HOST/🧩 Host.md>) <br/>- [`nlweb.org/ALIAS` 🧩](<../../../7 🧩 Codes/🧩 Alias.md>)
 |
 

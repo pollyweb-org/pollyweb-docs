@@ -1,0 +1,42 @@
+
+# 🧩 [Schema Code](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): PersonaBooking
+```yaml
+🤝: nlweb.org/MANIFEST/CODE
+
+Path: /PERSONA/BOOKING
+Name: Booking contact
+Description: Share contact info for bookings.
+
+Translations:
+  pt-br: Contacto para agendamentos
+
+Schema:
+    
+  Properties:
+    - Name     # String /PERSONA/NAME/SOCIAL
+    - Pronouns # String /PERSONA/NAME/PRONOUNS
+    - Phones   # List of /PERSONA/PHONE
+    - Emails   # List of /PERSONA/EMAIL
+
+  Format:
+    type: object
+    required: [Name, Pronouns, Phones, Emails]
+    properties:
+
+      Name:
+        $ref: nlweb.org/PERSONA/NAME/SOCIAL
+
+      Pronouns:
+        $ref: nlweb.org/PERSONA/NAME/PRONOUNS
+
+      Phones:
+        type: array
+        minItems: 1
+        items:
+          $ref: nlweb.org/PERSONA/PHONE
+
+      Emails:
+        type: array
+        minItems: 1
+        items:
+          type: nlweb.org/PERSONA/EMAIL
