@@ -21,7 +21,7 @@
     
     * [Prompt options](<04 🤔🔘 with Options.md>) can be differed with [non-blocking status Prompts 🤔](<08 ⚠️ Status behavior.md>);
     
-        * e.g., [`INFO`](<../../../9 😃 Talkers/Prompts/20 Status prompts/21 ℹ️ INFO prompt.md>), [`TEMP`](<25 ⏳ TEMP prompt.md>), [`SUCCESS`](<23 ✅ SUCCESS prompt.md>), and [`FAILURE`](<24 ❌ FAILURE prompt.md>).
+        * e.g., [`INFO`](<../../../9 😃 Talkers/Prompts/20 Status prompts/21 ℹ️ INFO prompt.md>), [`TEMP`](<../../../9 😃 Talkers/Prompts/20 Status prompts/25 ⏳ TEMP prompt.md>), [`SUCCESS`](<../../../9 😃 Talkers/Prompts/20 Status prompts/23 ✅ SUCCESS prompt.md>), and [`FAILURE`](<24 ❌ FAILURE prompt.md>).
   
         * [Host 🤗 domains](<../12 💬 Chats/04 🤗🎭 Host role.md>) speed-up [Chats 💬](<../12 💬 Chats/01 💬 Chat.md>) by taking unilateral two-way-door decisions that can be reverted by users even after other [Prompts 🤔](<01 🤔 Prompt.md>) have been sent.
 
@@ -49,8 +49,8 @@
 
     |Behavior| [Prompt 🤔](<01 🤔 Prompt.md>) 
     |-|-
-    |[`Status`](<08 ⚠️ Status behavior.md>)| [`ℹ️ INFO`](<../../../9 😃 Talkers/Prompts/20 Status prompts/21 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<25 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<23 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<24 ❌ FAILURE prompt.md>)
-    |[`Inputs`](<11 ✏️ Input behavior.md>) | [`1️⃣ ONE`](<../../../9 😃 Talkers/Prompts/30 Input prompts/53 1️⃣ ONE prompt.md>) [`🔢 MANY`](<../../../9 😃 Talkers/Prompts/30 Input prompts/54 🔠 MANY prompt.md>)  [`🔠 TEXT`](<32 🔠 TEXT prompt.md>) 
+    |[`Status`](<08 ⚠️ Status behavior.md>)| [`ℹ️ INFO`](<../../../9 😃 Talkers/Prompts/20 Status prompts/21 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<../../../9 😃 Talkers/Prompts/20 Status prompts/25 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<../../../9 😃 Talkers/Prompts/20 Status prompts/23 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<24 ❌ FAILURE prompt.md>)
+    |[`Inputs`](<11 ✏️ Input behavior.md>) | [`1️⃣ ONE`](<../../../9 😃 Talkers/Prompts/30 Input prompts/53 1️⃣ ONE prompt.md>) [`🔢 MANY`](<../../../9 😃 Talkers/Prompts/30 Input prompts/54 🔠 MANY prompt.md>)  [`🔠 TEXT`](<../../../9 😃 Talkers/Prompts/30 Input prompts/32 🔠 TEXT prompt.md>) 
 
     ---
     <br/>
@@ -68,7 +68,7 @@
 
     | Argument| Purpose | Example
     |-|-|-
-    | `<PROMPT>` | A [Prompt 🤔](<01 🤔 Prompt.md>) format. | [`INFO`](<../../../9 😃 Talkers/Prompts/20 Status prompts/21 ℹ️ INFO prompt.md>) [`TEMP`](<25 ⏳ TEMP prompt.md>)
+    | `<PROMPT>` | A [Prompt 🤔](<01 🤔 Prompt.md>) format. | [`INFO`](<../../../9 😃 Talkers/Prompts/20 Status prompts/21 ℹ️ INFO prompt.md>) [`TEMP`](<../../../9 😃 Talkers/Prompts/20 Status prompts/25 ⏳ TEMP prompt.md>)
     | `<message>` |  Message to show to the user. | `Hi!`
     | `<options>` | Comma-separated strings, or | `A,B,C`
     || a comma-separated dictionary | `1:A,2:B`

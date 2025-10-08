@@ -163,7 +163,7 @@
     | ℹ️ [`INFO`](<../20 Status prompts/21 ℹ️ INFO prompt.md>) | To show the result.
     | 1️⃣ [`ONE`](<53 1️⃣ ONE prompt.md>) | To show the options.
     | 🔀 [`CASE`](<../../Flow/22 🔀 CASE flow.md>) | To check the selected option.
-    | ⏳ [`TEMP`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/25 ⏳ TEMP prompt.md>) | To show work in progress.
+    | ⏳ [`TEMP`](<../20 Status prompts/25 ⏳ TEMP prompt.md>) | To show work in progress.
     
 
     ---

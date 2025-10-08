@@ -65,6 +65,6 @@ The corresponding [Talker 😃](<../../9 😃 Talkers/01 😃 Talker.md>) is as 
 | 🛠️ [`INVITE`](<../../9 😃 Talkers/Messages/46 🛠️ INVITE msg.md>) | To subscribe the user to plan.
 | ❄️ [`FREEZE`](<../../9 😃 Talkers/Messages/42 ❄️ FREEZE msg.md>) | To disable past inputs.
 | ⬇️ [`EVAL`](<../../9 😃 Talkers/Data/20 ⬇️ EVAL flow.md>) | To register on the database.
-| ✅ [`SUCCESS`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/23 ✅ SUCCESS prompt.md>) | To say that it was successful.
+| ✅ [`SUCCESS`](<../../9 😃 Talkers/Prompts/20 Status prompts/23 ✅ SUCCESS prompt.md>) | To say that it was successful.
 | 👋 [`GOODBYE`](<../../9 😃 Talkers/Messages/50 👋 GOODBYE.md>) | To show advertising.
 |
