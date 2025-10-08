@@ -1,6 +1,6 @@
 # ❄️ Talker `FREEZE` command 
 
-> Part of [Talker 😃](<01 😃 Talker.md>)
+> Part of [Talker 😃](<../../33 😃 Talkers/01 😃 Talker.md>)
 
 
 <br/>
@@ -9,16 +9,16 @@
 1. **What is a FREEZE command?**
 
     A `FREEZE` ❄️
-    * is a flow [Command ⌘](<../9 😃 Talkers/20 Talker Flows/10 ⌘ Command.md>) 
-    * that freezes all previous [non-blocking Prompts 🤔](<../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/08 ⚠️ Status behavior.md>)
-    * as described in the [Freeze ⏩](<../5 ⏩ Flows/50 🤗⏩ Hosts/06 🤗⏩🧑‍🦰 Freeze ❄️.md>) flow.
+    * is a flow [Command ⌘](<../20 Talker Flows/10 ⌘ Command.md>) 
+    * that freezes all previous [non-blocking Prompts 🤔](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/08 ⚠️ Status behavior.md>)
+    * as described in the [Freeze ⏩](<../../5 ⏩ Flows/50 🤗⏩ Hosts/06 🤗⏩🧑‍🦰 Freeze ❄️.md>) flow.
 
     ---
     <br/>
 
 1. **What's a use-case for FREEZE?**
 
-    * [Book a table at a restaurant 🍽️](<../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/31 🌐 Web: Book table 🗓️.md>)
+    * [Book a table at a restaurant 🍽️](<../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/31 🌐 Web: Book table 🗓️.md>)
     
     ---
     <br/>
@@ -65,13 +65,13 @@
     ```
 
 
-    | [Command ⌘](<../9 😃 Talkers/20 Talker Flows/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../20 Talker Flows/10 ⌘ Command.md>) | Purpose
     |-|-
     | 📝 [`FORM`](<41 📝 FORM msg.md>) | Show user instructions and allow inputs.
-    | 1️⃣ [`ONE`](<../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/53 1️⃣ ONE prompt.md>) | Select an option, the day in this case.
+    | 1️⃣ [`ONE`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/53 1️⃣ ONE prompt.md>) | Select an option, the day in this case.
     | 💼 [`SHARE`](<45 💼 SHARE msg.md>) | Get the user's booking contacts.
-    | 👍 [`CONFIRM`](<../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/31 👍 CONFIRM prompt.md>) | Pause to allow changing previous inputs.
-    | ⬇️ [`EVAL`](<20 ⬇️ EVAL flow.md>) | Save the booking.
+    | 👍 [`CONFIRM`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/31 👍 CONFIRM prompt.md>) | Pause to allow changing previous inputs.
+    | ⬇️ [`EVAL`](<../../33 😃 Talkers/20 ⬇️ EVAL flow.md>) | Save the booking.
 
     ---
     <br/>

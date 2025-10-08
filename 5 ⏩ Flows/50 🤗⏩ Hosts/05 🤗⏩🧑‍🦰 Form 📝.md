@@ -1,1 +1,1 @@
-> Related to [📝 Talker FORM command](<../../33 😃 Talkers/41 📝 FORM msg.md>)
+> Related to [📝 Talker FORM command](<../../9 😃 Talkers/60 Messages/41 📝 FORM msg.md>)

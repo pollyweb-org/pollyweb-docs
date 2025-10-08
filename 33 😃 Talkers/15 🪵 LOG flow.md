@@ -18,7 +18,7 @@
 
 1. **What are example use cases?**
 
-    * Handling the result of a [`RELAY`](<51 🛰️ RELAY msg.md>) command.
+    * Handling the result of a [`RELAY`](<../9 😃 Talkers/60 Messages/51 🛰️ RELAY msg.md>) command.
     * The [Talker 😃](<../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/93 😃 Owner: Talker.md>) at [Vending machines 🏪](<../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/01 🏪 Index.md>)
 
     ---

@@ -1,0 +1,63 @@
+# 🎫 Talker OFFER command
+
+> Part of [Talker 😃](<../../33 😃 Talkers/01 😃 Talker.md>)
+
+  
+<br/>
+
+1. **What is an OFFER message command?**
+
+    An `OFFER`
+    * is a message [Command ⌘](<../20 Talker Flows/10 ⌘ Command.md>) 
+    * that invokes the [Save Token @ Wallet ⏩](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/02 🧑‍🦰👉🎴 Save token.md>) flow.
+
+    ---
+    <br/>
+
+
+1. **What does a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) look like?**
+
+    
+    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | 🎴 [Issuer](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) | ℹ️ Issuing your token...
+    | 🤵 [Broker](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Save token? [Yes, No]  | > Yes
+    | 🎴 [Issuer](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) | ✅ Saved to your wallet.
+
+    ---
+    <br/>
+
+1. **What's the OFFER syntax?**
+
+    ```yaml
+    OFFER|{function} >> $accepted
+    ```
+
+   
+    | Argument| Purpose
+    |-|-
+    | `{function}`  | [{Function}](<../../33 😃 Talkers/12 🐍 {Function}.md>) that issues the [Token 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) ID.
+    | `<accepted>`| Boolean placeholder for [Accepted @ Issuer](<../../6 🅰️ APIs/55 🎴🅰️ Issuer/02 🤵🐌🎴 Accepted.md>).
+
+    ---
+    <br/>
+
+1. **What does a Talker look like for static codes?**
+    
+   ```yaml
+   # 😃 Talker 
+   💬 Offer:
+   - INFO|Issuing your token...
+   - OFFER|{GetTokenID} >> $accepted
+   - IF|{$accepted}:
+       Then: SUCCESS|Saved to your wallet.
+       Else: FAILURE|You rejected the token.
+   ```
+
+   | [Command ⌘](<../20 Talker Flows/10 ⌘ Command.md>) | Purpose
+   |-|-
+   | ⤵️ [`IF`](<../20 Talker Flows/21 ⤵️ IF flow.md>) | To verify the result.  
+   
+   ---
+   <br/>
+
