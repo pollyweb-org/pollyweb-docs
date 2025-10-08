@@ -23,7 +23,7 @@
 
     | Argument| Purpose
     |-|-
-    | `<message>`| Optional message for a [CONFIRM 👍 prompt](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/31 👍 CONFIRM prompt.md>)
+    | `<message>`| Optional message for a [CONFIRM 👍 prompt](<../50 🤔 Prompts/30 ✏️🤔 Input prompts/31 👍 CONFIRM prompt.md>)
     
     ---
     <br/>
@@ -75,7 +75,7 @@
 
     | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
-    | 🔄 [`QUANTITY`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/42 🔄 QUANTITY prompt.md>) | To wait for user input.
+    | 🔄 [`QUANTITY`](<../50 🤔 Prompts/30 ✏️🤔 Input prompts/42 🔄 QUANTITY prompt.md>) | To wait for user input.
     
     ---
     <br/>
@@ -121,7 +121,7 @@
 
     | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
-    | 👍 [`CONFIRM`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/31 👍 CONFIRM prompt.md>) | To wait for user confirmation.
+    | 👍 [`CONFIRM`](<../50 🤔 Prompts/30 ✏️🤔 Input prompts/31 👍 CONFIRM prompt.md>) | To wait for user confirmation.
     | ⬇️ [`EVAL`](<../30 💾 Talker data/20 ⬇️ EVAL flow.md>) | To add an item to the database.
 
     ---
@@ -200,7 +200,7 @@
     | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
     | ⬇️ [`EVAL`](<../30 💾 Talker data/20 ⬇️ EVAL flow.md>) | To generate a random number a subtract tries.
-    | 🔄 [`QUANTITY`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/42 🔄 QUANTITY prompt.md>) | To collect the number input.
+    | 🔄 [`QUANTITY`](<../50 🤔 Prompts/30 ✏️🤔 Input prompts/42 🔄 QUANTITY prompt.md>) | To collect the number input.
     | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | To allow for additional tries.
     | ↩️ [`RETURN`](<25 ↩️ RETURN flow.md>) | To return the result from the loop.
     | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | To check the if the user won or lost.    

@@ -92,8 +92,8 @@ Success:
 |Type|[Command ⌘](<../../../9 😃 Talkers/20 🌊 Talker flows/10 ⌘ Command.md>)|Purpose
 |-|-|-
 |Data| 🪣 [`MAP`](<../../../9 😃 Talkers/30 💾 Talker data/61 🪣 MAP item.md>) | Look up items and machines
-|Input | 🔢 [`DIGITS`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/44 🔢 DIGITS prompt.md>) | Ask for item number
-|| 👍 [`CONFIRM`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/31 👍 CONFIRM prompt.md>) | Confirm item name
+|Input | 🔢 [`DIGITS`](<../../../9 😃 Talkers/50 🤔 Prompts/30 ✏️🤔 Input prompts/44 🔢 DIGITS prompt.md>) | Ask for item number
+|| 👍 [`CONFIRM`](<../../../9 😃 Talkers/50 🤔 Prompts/30 ✏️🤔 Input prompts/31 👍 CONFIRM prompt.md>) | Confirm item name
 |Status| ⏳ [`TEMP`](<../../../9 😃 Talkers/50 🤔 Prompts/40 ⚠️🤔 Status prompts/25 ⏳ TEMP prompt.md>) | Show delivering status
 || ✅ [`SUCCESS`](<../../../9 😃 Talkers/50 🤔 Prompts/40 ⚠️🤔 Status prompts/23 ✅ SUCCESS prompt.md>) | Ask to pick the item
 || ❌ [`FAILURE`](<../../../9 😃 Talkers/50 🤔 Prompts/40 ⚠️🤔 Status prompts/24 ❌ FAILURE prompt.md>) | To show in case of error
