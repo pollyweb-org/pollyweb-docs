@@ -71,17 +71,17 @@ Success:
 | Dependencies | Purpose
 |-|-
 | [🧩 `//IDENTITY/OVER21`](<../../../7 🧩 Codes/IDENTITY/🧩 IdentityOver21.md>) | Verify minimum age to drink
-| [🪣 `Items`](<94 🪣 Owner: Items.md>) | List of items to [`MAP`](<../../../9 😃 Talkers/30 💾 Talker data/61 🪣 MAP item.md>)
-| [🪣 `Locators`](<95 🪣 Owner: Locators.md>) | List of machines to [`MAP`](<../../../9 😃 Talkers/30 💾 Talker data/61 🪣 MAP item.md>)
+| [🪣 `Items`](<94 🪣 Owner: Items.md>) | List of items to [`MAP`](<../../../9 😃 Talkers/30 🗃️ Talker data/61 🪣 MAP item.md>)
+| [🪣 `Locators`](<95 🪣 Owner: Locators.md>) | List of machines to [`MAP`](<../../../9 😃 Talkers/30 🗃️ Talker data/61 🪣 MAP item.md>)
 |
 
 <br/>
 
 ## Functions
 
-[Functions](<../../../9 😃 Talkers/30 💾 Talker data/12 🐍 {Function}.md>)| Type | Purpose
+[Functions](<../../../9 😃 Talkers/30 🗃️ Talker data/12 🐍 {Function}.md>)| Type | Purpose
 |-|-|-
-| [`.Chat.Key`](<../../../9 😃 Talkers/30 💾 Talker data/13 💬 {.Chat} function.md>) | Built-in | Get machine's [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) key.
+| [`.Chat.Key`](<../../../9 😃 Talkers/30 🗃️ Talker data/13 💬 {.Chat} function.md>) | Built-in | Get machine's [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) key.
 | `Deduct` | Custom | Deduct the stock from the ERP.
 |
 
@@ -91,15 +91,15 @@ Success:
 
 |Type|[Command ⌘](<../../../9 😃 Talkers/20 🌊 Talker flows/10 ⌘ Command.md>)|Purpose
 |-|-|-
-|Data| 🪣 [`MAP`](<../../../9 😃 Talkers/30 💾 Talker data/61 🪣 MAP item.md>) | Look up items and machines
+|Data| 🪣 [`MAP`](<../../../9 😃 Talkers/30 🗃️ Talker data/61 🪣 MAP item.md>) | Look up items and machines
 |Input | 🔢 [`DIGITS`](<../../../9 😃 Talkers/50 🤔 Prompts/7 ✏️ Input prompts/44 🔢 DIGITS prompt.md>) | Ask for item number
 || 👍 [`CONFIRM`](<../../../9 😃 Talkers/50 🤔 Prompts/7 ✏️ Input prompts/31 👍 CONFIRM prompt.md>) | Confirm item name
 |Status| ⏳ [`TEMP`](<../../../9 😃 Talkers/50 🤔 Prompts/4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>) | Show delivering status
 || ✅ [`SUCCESS`](<../../../9 😃 Talkers/50 🤔 Prompts/4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>) | Ask to pick the item
 || ❌ [`FAILURE`](<../../../9 😃 Talkers/50 🤔 Prompts/4 ⚠️ Status prompts/24 ❌ FAILURE prompt.md>) | To show in case of error
 |Flow| ⤵️ [`IF`](<../../../9 😃 Talkers/20 🌊 Talker flows/21 ⤵️ IF flow.md>)
-||⬇️ [`EVAL`](<../../../9 😃 Talkers/30 💾 Talker data/20 ⬇️ EVAL flow.md>)
-||🪵 [`LOG`](<../../../9 😃 Talkers/30 💾 Talker data/15 🪵 LOG flow.md>)
+||⬇️ [`EVAL`](<../../../9 😃 Talkers/30 🗃️ Talker data/20 ⬇️ EVAL flow.md>)
+||🪵 [`LOG`](<../../../9 😃 Talkers/30 🗃️ Talker data/15 🪵 LOG flow.md>)
 |Message| 💼 [`SHARE`](<../../../9 😃 Talkers/60 ⏩ Msg flows/45 💼 SHARE msg.md>) | Ask for proof of over 21
 || 💳 [`CHARGE`](<../../../9 😃 Talkers/60 ⏩ Msg flows/47 💳 CHARGE msg.md>) | Charge the item price
 || 🏦 [`REFUND`](<../../../9 😃 Talkers/60 ⏩ Msg flows/48 🏦 REFUND.md>) | Refund the payment on failure

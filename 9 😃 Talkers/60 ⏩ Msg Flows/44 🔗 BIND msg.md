@@ -90,7 +90,7 @@
    
     | Argument| Purpose
     |-|-
-    | `{bindable}` | [{Function}](<../30 💾 Talker data/12 🐍 {Function}.md>) to get the [Codes 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) for [Bindable @ Broker](<../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/42 🗄️🐌🤵 Bindable.md>).
+    | `{bindable}` | [{Function}](<../30 🗃️ Talker data/12 🐍 {Function}.md>) to get the [Codes 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) for [Bindable @ Broker](<../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/42 🗄️🐌🤵 Bindable.md>).
 
 
     ---
@@ -147,7 +147,7 @@
 
    | [Command ⌘](<../20 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
    |-|-
-   | ⬇️ [`EVAL`](<../30 💾 Talker data/20 ⬇️ EVAL flow.md>) | To put the bindable array into a placeholder.
+   | ⬇️ [`EVAL`](<../30 🗃️ Talker data/20 ⬇️ EVAL flow.md>) | To put the bindable array into a placeholder.
    | ⤵️ [`IF`](<../20 🌊 Talker flows/21 ⤵️ IF flow.md>) | To verify the result.
    
    ---

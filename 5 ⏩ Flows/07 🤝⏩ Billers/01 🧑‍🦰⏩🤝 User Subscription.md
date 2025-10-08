@@ -64,7 +64,7 @@ The corresponding [Talker 😃](<../../9 😃 Talkers/10 📘 Talker specs/01 �
 | 🔗 [`BIND`](<../../9 😃 Talkers/60 ⏩ Msg flows/44 🔗 BIND msg.md>) | To create a user profile.
 | 🛠️ [`INVITE`](<../../9 😃 Talkers/60 ⏩ Msg flows/46 🛠️ INVITE msg.md>) | To subscribe the user to plan.
 | ❄️ [`FREEZE`](<../../9 😃 Talkers/60 ⏩ Msg flows/42 ❄️ FREEZE msg.md>) | To disable past inputs.
-| ⬇️ [`EVAL`](<../../9 😃 Talkers/30 💾 Talker data/20 ⬇️ EVAL flow.md>) | To register on the database.
+| ⬇️ [`EVAL`](<../../9 😃 Talkers/30 🗃️ Talker data/20 ⬇️ EVAL flow.md>) | To register on the database.
 | ✅ [`SUCCESS`](<../../9 😃 Talkers/50 🤔 Prompts/4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>) | To say that it was successful.
 | 👋 [`GOODBYE`](<../../9 😃 Talkers/60 ⏩ Msg flows/50 👋 GOODBYE.md>) | To show advertising.
 |

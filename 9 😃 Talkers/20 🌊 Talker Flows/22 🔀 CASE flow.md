@@ -10,7 +10,7 @@
     A `CASE` 🔀
     * is a flow [Command ⌘](<10 ⌘ Command.md>)  
     * that runs a matching [Procedure ⚙️](<11 ⚙️ Procedure.md>) or [Command ⌘](<10 ⌘ Command.md>) 
-    * based on the evaluation of a [{Function}](<../30 💾 Talker data/12 🐍 {Function}.md>).
+    * based on the evaluation of a [{Function}](<../30 🗃️ Talker data/12 🐍 {Function}.md>).
 
     ---
     <br/>
@@ -26,7 +26,7 @@
 
     | Argument| Purpose | Example
     |-|-|-
-    | `{function}` | Optional [{Function}](<../30 💾 Talker data/12 🐍 {Function}.md>) to evaluate | `{f}` `{$p}`
+    | `{function}` | Optional [{Function}](<../30 🗃️ Talker data/12 🐍 {Function}.md>) to evaluate | `{f}` `{$p}`
     || Allows for missing `{}` in functions | `f()` `$p`
     || Defaults to the last [input prompt ✏️](<../50 🤔 Prompts/1 📘 Prompt specs/09 ✏️ as Input.md>) | `TEXT\|Id?`
     | `<value>`| Static value to be matched with. | `ABC`

@@ -77,7 +77,7 @@
 
     | [Command ⌘](<../20 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
     |-|-
-    | 🪵 [`LOG`](<../30 💾 Talker data/15 🪵 LOG flow.md>) | To log the result.
+    | 🪵 [`LOG`](<../30 🗃️ Talker data/15 🪵 LOG flow.md>) | To log the result.
     
     ---
     <br/>
