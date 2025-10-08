@@ -19,7 +19,7 @@
        
     Yes. 
     
-    * [Prompt options](<04 🤔🔘 with Options.md>) can be differed with [non-blocking status Prompts 🤔](<08 ⚠️ Status behavior.md>);
+    * [Prompt options](<04 🔘 with Options.md>) can be differed with [non-blocking status Prompts 🤔](<08 ⚠️ Status behavior.md>);
     
         * e.g., [`INFO`](<../4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>), [`TEMP`](<../4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>), [`SUCCESS`](<../4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>), and [`FAILURE`](<../4 ⚠️ Status prompts/24 ❌ FAILURE prompt.md>).
   
@@ -34,10 +34,10 @@
 1. **Do all prompt options behave the same way?**
 
     No. 
-    * [`Options`](<04 🤔🔘 with Options.md>) with a `§` sign 
+    * [`Options`](<04 🔘 with Options.md>) with a `§` sign 
         * open a new [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
         * even after a [Freeze ❄️](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/06 🤗⏩🧑‍🦰 Freeze ❄️.md>) command.
-    * All others [`Options`](<04 🤔🔘 with Options.md>)
+    * All others [`Options`](<04 🔘 with Options.md>)
         * continue the [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
         * and are disabled with a [Freeze ❄️](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/06 🤗⏩🧑‍🦰 Freeze ❄️.md>) command.
     
@@ -59,7 +59,7 @@
 
 
 
-1. **What's the format for a [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>)?**
+1. **What's the format for a [Talker 😃](<../../10 📘 Talker specs/01 😃 Talker.md>)?**
 
     ```yaml
     # Simplest
@@ -142,7 +142,7 @@
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You opted to play.
     |  
 
-    Here's the [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../10 📘 Talker specs/01 😃 Talker.md>).
 
     ```yaml
     # 😃 Talker
@@ -159,10 +159,10 @@
         Share: INFO|You choose to share.
     ```
 
-    | [Command ⌘](<../../../9 😃 Talkers/20 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../20 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
     |-|-
     | 1️⃣ [`ONE`](<../7 ✏️ Input prompts/53 1️⃣ ONE prompt.md>) | To show the options.
-    | 🔀 [`CASE`](<../../../9 😃 Talkers/20 🌊 Talker flows/22 🔀 CASE flow.md>) | To check the selected option.
+    | 🔀 [`CASE`](<../../20 🌊 Talker flows/22 🔀 CASE flow.md>) | To check the selected option.
     | ℹ️ [`INFO`](<../4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) | To show the result.
     
 
@@ -211,7 +211,7 @@
 
     <br/>
 
-    Here's the [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../10 📘 Talker specs/01 😃 Talker.md>).
 
     
   
@@ -234,10 +234,10 @@
     ```
 
 
-    | [Command ⌘](<../../../9 😃 Talkers/20 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../20 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
     |-|-
     | 1️⃣ [`ONE`](<../7 ✏️ Input prompts/53 1️⃣ ONE prompt.md>) | To show the options.
-    | 🔀 [`CASE`](<../../../9 😃 Talkers/20 🌊 Talker flows/22 🔀 CASE flow.md>) | To check the selected option.
+    | 🔀 [`CASE`](<../../20 🌊 Talker flows/22 🔀 CASE flow.md>) | To check the selected option.
     | ℹ️ [`INFO`](<../4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) | To show the result.
     
 
