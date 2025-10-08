@@ -1,4 +1,4 @@
-🏳️ Sovereignty landscape FAQ
+🏳️ Sovereignty landscape
 ===
 
 📺 In this chapter, you will learn:

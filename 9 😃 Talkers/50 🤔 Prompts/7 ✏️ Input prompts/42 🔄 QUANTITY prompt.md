@@ -42,7 +42,7 @@
     ```yaml
     # Comprehensive.
     QUANTITY >> $placeholder:
-        Message: <message>
+        Statement: <message>
 
         # Specific optional properties
         Precision: int
@@ -92,7 +92,7 @@
     ```yaml
     # 😃 Talker 
     - QUANTITY >> $qt:
-        Message: How many? 
+        Statement: How many? 
         MinValue: -100
         MaxValue: 100
         Precision: 1    # Server-side only
@@ -143,10 +143,10 @@
     💬 Walk-in:
     
     - INFO:
-        Message: Table reservation.
+        Statement: Table reservation.
     
     - ONE >> $p:
-        Message: For how many?
+        Statement: For how many?
         Options: 1,2,more
 
     - CASE|{$p}:

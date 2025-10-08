@@ -1,4 +1,4 @@
-🗂️ Data gathering landscape FAQ
+🗂️ Data gathering landscape
 ===
 
 🎯 Data is a precondition for innovation, allowing organizations to:

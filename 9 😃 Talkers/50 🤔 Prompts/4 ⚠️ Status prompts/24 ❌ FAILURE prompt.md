@@ -59,7 +59,7 @@
     ```yaml
     # Multi-line 
     FAILURE:
-        Message: <message>
+        Statement: <message>
         
         # Generic optional properties
         Details: string
@@ -102,7 +102,7 @@
 
     ```yaml
     Format: FAILURE
-    Message: ❌ Simple failure.
+    Statement: ❌ Simple failure.
     ```
     
     ---

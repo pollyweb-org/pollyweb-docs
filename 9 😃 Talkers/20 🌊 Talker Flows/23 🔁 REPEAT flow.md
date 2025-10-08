@@ -171,7 +171,7 @@
 
     # Ask for a number between 1 and 9
     - QUANTITY >> $guess:
-        Message: Say a number from 1 to 9.   
+        Statement: : Say a number from 1 to 9.   
         MinValue: 1
         MaxValue: 9
 

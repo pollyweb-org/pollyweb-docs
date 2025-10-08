@@ -69,7 +69,7 @@
     ```yaml
     # Multi-line 
     SUCCESS:
-        Message: <message>
+        Statement: <message>
         
         # Generic optional properties
         Details: string
@@ -113,7 +113,7 @@
 
     ```yaml
     Format: SUCCESS
-    Message: ✅ Simple success.
+    Statement: ✅ Simple success.
     ```
     
     ---

@@ -29,7 +29,7 @@
 
     ```yaml
     - RELAY|<pool>|<key> >> $result
-        Message: <message>
+        Command: <message>
         OnFailure: <failure>
         OnSuccess: <success>
     ```
@@ -63,7 +63,7 @@
 
     # Relay the open message.
     - RELAY|Lockers|{$locker} >> $result
-        Instructions: Open({$door})
+        Command: Open({$door})
         OnFailure: FailureHandler
         OnSuccess: SuccessHandler
 
