@@ -1,7 +1,11 @@
 <!-- TODO: replace call links -->
 
-# 😃 Talker FAQ
+# 😃 Talker
 <!-- https://quip.com/J24GAMbu7HKF/-Talker -->
+
+> Implemented by [😃🛠️ Talker helper](<02 😃🛠️ Talker helper.md>)
+
+<br/>
 
 1. **What is a Talker?**
 
