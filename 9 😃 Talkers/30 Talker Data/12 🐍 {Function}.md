@@ -57,7 +57,7 @@
     INFO|{$p.A} # Prints "another property"
     ```
 
-    | [Command ⌘](<../20 Talker Flows/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../20 🌊 Talker Flows/10 ⌘ Command.md>) | Purpose
     |-|-
     | ⬇️ [`EVAL`](<20 ⬇️ EVAL flow.md>) | To push an object into a placeholder.
     | ℹ️ [`INFO`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/21 ℹ️ INFO prompt.md>) | To show the placeholder values.
@@ -89,7 +89,7 @@
     - INFO|Although you typed `{$n.Text}`
     ```
 
-    | [Command ⌘](<../20 Talker Flows/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../20 🌊 Talker Flows/10 ⌘ Command.md>) | Purpose
     |-|-
     | 🔄 [`QUANTITY`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/42 🔄 QUANTITY prompt.md>) | To collect the number input.
 
@@ -173,7 +173,7 @@
     - INFO|{$n}+{$n} equals {Sum($n,$n)}
     ```
 
-    | [Command ⌘](<../20 Talker Flows/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../20 🌊 Talker Flows/10 ⌘ Command.md>) | Purpose
     |-|-
     | 🔄 [`QUANTITY`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/42 🔄 QUANTITY prompt.md>) | To collect the number input.
 
