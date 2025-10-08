@@ -1,7 +1,7 @@
 # 1️⃣ ONE prompt
 
 
-> Part of [blocking input prompts 🤔](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/11 ✏️ Input behavior.md>)
+> Part of [blocking input prompts 🤔](<../10 Prompt definitions/11 ✏️ Input behavior.md>)
 
 <br/>
 
@@ -20,10 +20,10 @@
 
     | Feature | Details
     |-|-
-    | ⊕ [`Details`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/03 🤔⊕ with Details.md>) | Has expandable [+] details.
-    | 🔘 [`Options`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/04 🤔🔘 with Options.md>) | Has options for users to select.
-    | 📎 [`Appendix`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/05 🤔📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
-    | ✏️ [`Input`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/11 ✏️ Input behavior.md>) | Waits for an answer from users.
+    | ⊕ [`Details`](<../10 Prompt definitions/03 🤔⊕ with Details.md>) | Has expandable [+] details.
+    | 🔘 [`Options`](<../10 Prompt definitions/04 🤔🔘 with Options.md>) | Has options for users to select.
+    | 📎 [`Appendix`](<../10 Prompt definitions/05 🤔📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
+    | ✏️ [`Input`](<../10 Prompt definitions/11 ✏️ Input behavior.md>) | Waits for an answer from users.
     
     ---
     <br/>
@@ -58,10 +58,10 @@
     
     | Argument| Purpose | Example
     |-|-|-
-    | `Details` | Optional [expandable details ⊕](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/03 🤔⊕ with Details.md>) | `Hint...`
-    | `Options` | Optional [selectable options 🔘](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/04 🤔🔘 with Options.md>) | `A,B` `{A:B}`
+    | `Details` | Optional [expandable details ⊕](<../10 Prompt definitions/03 🤔⊕ with Details.md>) | `Hint...`
+    | `Options` | Optional [selectable options 🔘](<../10 Prompt definitions/04 🤔🔘 with Options.md>) | `A,B` `{A:B}`
     | `Nullable` | Optional [skip flag ⏭️](<../25 Input defintions/12 ✏️⏭️ Input nullability.md>) | `Yes`
-    | `Appendix` | Optional [file attachment 📎](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/05 🤔📎 with Appendix.md>) | `<uuid>`
+    | `Appendix` | Optional [file attachment 📎](<../10 Prompt definitions/05 🤔📎 with Appendix.md>) | `<uuid>`
     
     
     ---

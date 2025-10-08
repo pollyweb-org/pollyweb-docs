@@ -1,6 +1,6 @@
 # ⏭️ Input nullability
 
-> Part of [✏️ Input prompts](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/11 ✏️ Input behavior.md>)
+> Part of [✏️ Input prompts](<../10 Prompt definitions/11 ✏️ Input behavior.md>)
 
 <br/>
 
@@ -51,7 +51,7 @@
 
 1. **How to define optional inputs?**
 
-    [Input prompts ✏️](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/11 ✏️ Input behavior.md>) 
+    [Input prompts ✏️](<../10 Prompt definitions/11 ✏️ Input behavior.md>) 
     * can be made optional 
     * by setting the property `Nullable` to `True` or `Yes`.
     

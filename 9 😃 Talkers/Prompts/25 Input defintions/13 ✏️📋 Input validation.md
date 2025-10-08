@@ -1,6 +1,6 @@
 # 📋 Input validation
 
-> Part of [✏️ Input prompts](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/11 ✏️ Input behavior.md>)
+> Part of [✏️ Input prompts](<../10 Prompt definitions/11 ✏️ Input behavior.md>)
 
 <br/>
 

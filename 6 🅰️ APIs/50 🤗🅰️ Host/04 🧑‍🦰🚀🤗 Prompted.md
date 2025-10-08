@@ -56,11 +56,11 @@ Options:                            # Optional
 || `Message` | string | Main message,  to display in the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
 || [`MinValue`](<../../9 😃 Talkers/Prompts/25 Input defintions/13 ✏️📋 Input validation.md>) | int | Optional minimum value
 || [`MaxValue`](<../../9 😃 Talkers/Prompts/25 Input defintions/13 ✏️📋 Input validation.md>) | int | Optional maximum value
-|| [`Appendix`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/05 🤔📎 with Appendix.md>)| uuid   | File to download via [`Download@Host`](<06 🧑‍🦰🚀🤗 Download.md>)
-|| [`Details`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/03 🤔⊕ with Details.md>) | string | Extended [details](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/03 🤔⊕ with Details.md>) in Markdown format
-|| [`Options`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/04 🤔🔘 with Options.md>) | object[]   | List of `Option` objects
-|Option | `ID`          | string  | ID of the [option](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/04 🤔🔘 with Options.md>) for [`Reply@Host`](<05 🧑‍🦰🐌🤗 Reply.md>)
-|       | `Translation` | string  | Text of the [option](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/04 🤔🔘 with Options.md>) to display in the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
+|| [`Appendix`](<../../9 😃 Talkers/Prompts/10 Prompt definitions/05 🤔📎 with Appendix.md>)| uuid   | File to download via [`Download@Host`](<06 🧑‍🦰🚀🤗 Download.md>)
+|| [`Details`](<../../9 😃 Talkers/Prompts/10 Prompt definitions/03 🤔⊕ with Details.md>) | string | Extended [details](<../../9 😃 Talkers/Prompts/10 Prompt definitions/03 🤔⊕ with Details.md>) in Markdown format
+|| [`Options`](<../../9 😃 Talkers/Prompts/10 Prompt definitions/04 🤔🔘 with Options.md>) | object[]   | List of `Option` objects
+|Option | `ID`          | string  | ID of the [option](<../../9 😃 Talkers/Prompts/10 Prompt definitions/04 🤔🔘 with Options.md>) for [`Reply@Host`](<05 🧑‍🦰🐌🤗 Reply.md>)
+|       | `Translation` | string  | Text of the [option](<../../9 😃 Talkers/Prompts/10 Prompt definitions/04 🤔🔘 with Options.md>) to display in the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
 |
 
 <br/>

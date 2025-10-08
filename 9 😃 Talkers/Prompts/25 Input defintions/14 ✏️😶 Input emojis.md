@@ -1,6 +1,6 @@
 # 😶 Input emojis
 
-> Part of [✏️ Input prompts](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/11 ✏️ Input behavior.md>)
+> Part of [✏️ Input prompts](<../10 Prompt definitions/11 ✏️ Input behavior.md>)
 
 <br/>
 
@@ -27,7 +27,7 @@
 
 1. **How do emojis work on Talkers?**
     
-    Most (but not all) [Talker input commands ✏️](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/11 ✏️ Input behavior.md>) work with the following emojis.
+    Most (but not all) [Talker input commands ✏️](<../10 Prompt definitions/11 ✏️ Input behavior.md>) work with the following emojis.
 
     Emoji | Behavior
     |-|-

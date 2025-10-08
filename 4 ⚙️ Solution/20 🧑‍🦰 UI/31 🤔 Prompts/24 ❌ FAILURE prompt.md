@@ -19,9 +19,9 @@
 
     | Feature | Details
     |-|-
-    | ⊕ [`Details`](<03 🤔⊕ with Details.md>) | Has expandable [+] details.
-    | 🔘 [`Options`](<04 🤔🔘 with Options.md>) | Has options for users to select.
-    | 📎 [`Appendix`](<05 🤔📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
+    | ⊕ [`Details`](<../../../9 😃 Talkers/Prompts/10 Prompt definitions/03 🤔⊕ with Details.md>) | Has expandable [+] details.
+    | 🔘 [`Options`](<../../../9 😃 Talkers/Prompts/10 Prompt definitions/04 🤔🔘 with Options.md>) | Has options for users to select.
+    | 📎 [`Appendix`](<../../../9 😃 Talkers/Prompts/10 Prompt definitions/05 🤔📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
     | ⚠️ [`Status`](<08 ⚠️ Status behavior.md>) | Informs and continues the flow.
     
     ---
@@ -69,9 +69,9 @@
     
     | Argument| Purpose | Example
     |-|-|-
-    | `Details` | Optional [expandable details ⊕](<03 🤔⊕ with Details.md>) | `Hint...`
-    | `Options` | Optional [selectable options 🔘](<04 🤔🔘 with Options.md>) | `A,B` `{A:B}`
-    | `Appendix` | Optional [file attachment 📎](<05 🤔📎 with Appendix.md>) | `{/...}`
+    | `Details` | Optional [expandable details ⊕](<../../../9 😃 Talkers/Prompts/10 Prompt definitions/03 🤔⊕ with Details.md>) | `Hint...`
+    | `Options` | Optional [selectable options 🔘](<../../../9 😃 Talkers/Prompts/10 Prompt definitions/04 🤔🔘 with Options.md>) | `A,B` `{A:B}`
+    | `Appendix` | Optional [file attachment 📎](<../../../9 😃 Talkers/Prompts/10 Prompt definitions/05 🤔📎 with Appendix.md>) | `{/...}`
 
     ---
     <br/>

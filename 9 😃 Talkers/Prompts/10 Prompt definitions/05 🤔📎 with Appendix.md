@@ -1,14 +1,14 @@
 # 🤔 Prompts with an `Appendix`
 
 
-> Part of [Prompts 🤔](<01 🤔 Prompt.md>)
+> Part of [Prompts 🤔](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>)
 
 <br/>
 
 1. **What is a prompt with an attachment?**
 
     Appendix-enabled prompts 
-    * are [Prompts 🤔](<01 🤔 Prompt.md>)
+    * are [Prompts 🤔](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>)
     * that contain an Appendix ID
     * to be downloaded with [`Download@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/06 🧑‍🦰🚀🤗 Download.md>).
 
@@ -29,25 +29,25 @@
 
 
     
-    Consider the following [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) as an example.
+    Consider the following [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) as an example.
 
-    | [Domain](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<01 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../0../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Promp../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md
     | - | - | - |
-    | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | 💬 Who is in the picture? 🖼️ | `Elvis`
+    | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 💬 Who is in the picture? 🖼️ | `Elvis`
     |
 
     <br/>
 
-    Here's the [Talker 😃](<../../../9 😃 Talkers/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../01 😃 Talker.md>).
 
     ```yaml
     - TEXT|Who is in the picture?:
         Appendix: {/photos/elvis.png}
     ```
 
-    | [Command ⌘](<../../../9 😃 Talkers/Flow/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../Flow/10 ⌘ Command.md>) | Purpose
     |-|-
-    | 🔠 [`TEXT`](<../../../9 😃 Talkers/Prompts/30 Input prompts/32 🔠 TEXT prompt.md>) | To ask a question with an image.
+    | 🔠 [`TEXT`](<../30 Input prompts/32 🔠 TEXT prompt.md>) | To ask a question with an image.
     
 
     <br/>

@@ -28,7 +28,7 @@
     |Behavior| Format 
     |-|-
     |[`Status`](<08 ⚠️ Status behavior.md>)| [`ℹ️ INFO`](<../../../9 😃 Talkers/Prompts/20 Status prompts/21 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<../../../9 😃 Talkers/Prompts/20 Status prompts/25 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<../../../9 😃 Talkers/Prompts/20 Status prompts/23 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<24 ❌ FAILURE prompt.md>)
-    |[`Inputs`](<11 ✏️ Input behavior.md>)| [`🔢 DIGITS`](<../../../9 😃 Talkers/Prompts/30 Input prompts/44 🔢 DIGITS prompt.md>) [`🔄 QUANTITY`](<../../../9 😃 Talkers/Prompts/30 Input prompts/42 🔄 QUANTITY prompt.md>) [`💰 AMOUNT`](<../../../9 😃 Talkers/Prompts/30 Input prompts/43 💰 AMOUNT prompt.md>) [`🔑 OTP`](<../../../9 😃 Talkers/Prompts/30 Input prompts/57 🔑 OTP prompt.md>) [`⭐ RATE`](<../../../9 😃 Talkers/Prompts/30 Input prompts/46 ⭐ RATE prompt.md>) 
+    |[`Inputs`](<../../../9 😃 Talkers/Prompts/10 Prompt definitions/11 ✏️ Input behavior.md>)| [`🔢 DIGITS`](<../../../9 😃 Talkers/Prompts/30 Input prompts/44 🔢 DIGITS prompt.md>) [`🔄 QUANTITY`](<../../../9 😃 Talkers/Prompts/30 Input prompts/42 🔄 QUANTITY prompt.md>) [`💰 AMOUNT`](<../../../9 😃 Talkers/Prompts/30 Input prompts/43 💰 AMOUNT prompt.md>) [`🔑 OTP`](<../../../9 😃 Talkers/Prompts/30 Input prompts/57 🔑 OTP prompt.md>) [`⭐ RATE`](<../../../9 😃 Talkers/Prompts/30 Input prompts/46 ⭐ RATE prompt.md>) 
     || [`👍 CONFIRM`](<../../../9 😃 Talkers/Prompts/30 Input prompts/31 👍 CONFIRM prompt.md>) [`1️⃣ ONE`](<../../../9 😃 Talkers/Prompts/30 Input prompts/53 1️⃣ ONE prompt.md>) [`🔢 MANY`](<../../../9 😃 Talkers/Prompts/30 Input prompts/54 🔠 MANY prompt.md>) 
     || [`🕓 TIME`](<../../../9 😃 Talkers/Prompts/30 Input prompts/62 🕓 TIME prompt.md>) [`📆 DATE`](<../../../9 😃 Talkers/Prompts/30 Input prompts/61 📆 DATE prompt.md>) 
     || [`⬆️ UPLOAD`](<../../../9 😃 Talkers/Prompts/30 Input prompts/81 ⬆️ UPLOAD prompt.md>)
@@ -68,7 +68,7 @@
         * This blocks the user from changing any [Prompts 🤔](<01 🤔 Prompt.md>) up to that point.
         * [Hosts 🤗](<../12 💬 Chats/04 🤗🎭 Host role.md>) to this when committing a transaction to a database with the inputs collected.
   
-    * ⚠️ Note: [`Options`](<04 🤔🔘 with Options.md>) with a `§` open a new [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)  and are never frozen.
+    * ⚠️ Note: [`Options`](<../../../9 😃 Talkers/Prompts/10 Prompt definitions/04 🤔🔘 with Options.md>) with a `§` open a new [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>)  and are never frozen.
 
     ---
     <br/>
@@ -78,11 +78,11 @@
 
     | Feature | Details
     |-|-
-    | ⊕ [`Details`](<03 🤔⊕ with Details.md>) | Has expandable [+] details.
-    | 🔘 [`Options`](<04 🤔🔘 with Options.md>)  | Has options for users to select.
-    | 📎 [`Appendix`](<05 🤔📎 with Appendix.md>)  | Has a PDF, PNG, or JPEG attachment.
+    | ⊕ [`Details`](<../../../9 😃 Talkers/Prompts/10 Prompt definitions/03 🤔⊕ with Details.md>) | Has expandable [+] details.
+    | 🔘 [`Options`](<../../../9 😃 Talkers/Prompts/10 Prompt definitions/04 🤔🔘 with Options.md>)  | Has options for users to select.
+    | 📎 [`Appendix`](<../../../9 😃 Talkers/Prompts/10 Prompt definitions/05 🤔📎 with Appendix.md>)  | Has a PDF, PNG, or JPEG attachment.
     | ⚠️ [`Status` behavior](<08 ⚠️ Status behavior.md>) | Informs and continues the flow.
-    | ✏️ [ ✏️ `Input`](<11 ✏️ Input behavior.md>) | Waits for an answer from users.
+    | ✏️ [ ✏️ `Input`](<../../../9 😃 Talkers/Prompts/10 Prompt definitions/11 ✏️ Input behavior.md>) | Waits for an answer from users.
     
     ---
     <br/>
