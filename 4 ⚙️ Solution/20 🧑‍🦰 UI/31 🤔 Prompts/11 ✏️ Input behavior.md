@@ -36,7 +36,7 @@
     | [1️⃣&nbsp;ONE](<../../../9 😃 Talkers/Prompts/53 1️⃣ ONE prompt.md>) | One of multiple options
     | [🔠&nbsp;MANY](<../../../9 😃 Talkers/Prompts/54 🔠 MANY prompt.md>) | Zero or more of multiple options
     | [⭐&nbsp;RATE](<46 ⭐ RATE prompt.md>) | 1 to 5 stars
-    | [🕓&nbsp;TIME](<62 🕓 TIME prompt.md>) | Asks for time of day
+    | [🕓&nbsp;TIME](<../../../9 😃 Talkers/Prompts/62 🕓 TIME prompt.md>) | Asks for time of day
     | [📆&nbsp;DATE](<../../../9 😃 Talkers/Prompts/61 📆 DATE prompt.md>) | Asks for a date
     | [🛒&nbsp;EAN](<../../../9 😃 Talkers/Prompts/74 🛒 EAN prompt.md>) | Scans for ENA-13 and EAN-8 barcodes
     | [🔆&nbsp;SCAN](<72 🔆 SCAN prompt.md>) | Asks to touch/scan a [QR/NFC Locator 🔆](<../11 🔆 Locators/01 🔆 Locator.md>)
