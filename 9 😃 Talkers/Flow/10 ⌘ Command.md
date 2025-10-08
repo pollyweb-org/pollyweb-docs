@@ -60,7 +60,7 @@
     | 👤 [`IDENTITY`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/71 👤 IDENTIFY prompt.md>)
     | 🔆 [`SCAN`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/72 🔆 SCAN prompt.md>)
     | 🦋 [`TOUCH`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/73 🦋 TOUCH prompt.md>)
-    | 🛒 [`EAN`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/74 🛒 EAN prompt.md>)
+    | 🛒 [`EAN`](<../Prompts/74 🛒 EAN prompt.md>)
     | ⬆️ [`UPLOAD`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/81 ⬆️ UPLOAD prompt.md>)
     | 📍 [`LOCATION`](<../Prompts/91 📍 LOCATION prompt.md>)
     | 🗺️ [`TRACK`](<../Prompts/92 🗺️ TRACK prompt.md>)
