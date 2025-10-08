@@ -42,8 +42,8 @@
     
     | Argument| Purpose | Example
     |-|-|-
-    | `Then` | [Procedure ⚙️](<../../../33 😃 Talkers/11 ⚙️ Procedure.md>) or [Command ⌘](<../../../33 😃 Talkers/10 ⌘ Command.md>) on `True` | `INFO\|OK`
-    | `Else` | [Procedure ⚙️](<../../../33 😃 Talkers/11 ⚙️ Procedure.md>) or [Command ⌘](<../../../33 😃 Talkers/10 ⌘ Command.md>) on `False` | `INFO\|NOK`
+    | `Then` | [Procedure ⚙️](<../../../9 😃 Talkers/11 ⚙️ Procedure.md>) or [Command ⌘](<../../../9 😃 Talkers/10 ⌘ Command.md>) on `True` | `INFO\|OK`
+    | `Else` | [Procedure ⚙️](<../../../9 😃 Talkers/11 ⚙️ Procedure.md>) or [Command ⌘](<../../../9 😃 Talkers/10 ⌘ Command.md>) on `False` | `INFO\|NOK`
     | `Emoji` | Optional [alternative emoji 😶](<14 ✏️😶 Input emojis.md>) | `😶`
     | `Details` | Optional [expandable details ⊕](<03 🤔⊕ with Details.md>) | `Hint...`
     | `Appendix` | Optional [file attachment 📎](<05 🤔📎 with Appendix.md>) | `{/...}`
@@ -65,7 +65,7 @@
     <br/>
     
 
-    Here's the [Talker 😃](<../../../33 😃 Talkers/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../../9 😃 Talkers/01 😃 Talker.md>).
 
     ```yaml
     # 😃 Talker
@@ -108,7 +108,7 @@
 
     <br/>
 
-    Here's the [Talker 😃](<../../../33 😃 Talkers/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../../9 😃 Talkers/01 😃 Talker.md>).
 
     ```yaml
     # 😃 Talker

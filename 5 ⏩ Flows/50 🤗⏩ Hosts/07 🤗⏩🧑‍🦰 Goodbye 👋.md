@@ -22,7 +22,7 @@ Consider the following [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12
 ## 😃 Talker 
 
 
-The associated [Talker 😃](<../../33 😃 Talkers/01 😃 Talker.md>) would be the following.
+The associated [Talker 😃](<../../9 😃 Talkers/01 😃 Talker.md>) would be the following.
 
 ```yaml
 - SUCCESS|Booking confirmed! 

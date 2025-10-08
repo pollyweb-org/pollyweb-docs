@@ -27,7 +27,7 @@
     ---
     <br/>
 
-1. **What's the syntax on a [Talker 😃](<../../../33 😃 Talkers/01 😃 Talker.md>)?**
+1. **What's the syntax on a [Talker 😃](<../../../9 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
     # Simplest.
@@ -87,7 +87,7 @@
     
     <br/>
 
-    Here's the [Talker 😃](<../../../33 😃 Talkers/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../../9 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
     # 😃 Talker 
@@ -135,7 +135,7 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ⏳ Checking availability... 
     |
 
-    Here's the [Talker 😃](<../../../33 😃 Talkers/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../../9 😃 Talkers/01 😃 Talker.md>).
 
     ```yaml
     # 😃 Talker 
@@ -158,11 +158,11 @@
     - TEMP|Checking availability...
     ```
 
-    | [Command ⌘](<../../../33 😃 Talkers/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../../9 😃 Talkers/10 ⌘ Command.md>) | Purpose
     |-|-
     | ℹ️ [`INFO`](<21 ℹ️ INFO prompt.md>) | To show the result.
     | 1️⃣ [`ONE`](<53 1️⃣ ONE prompt.md>) | To show the options.
-    | 🔀 [`CASE`](<../../../33 😃 Talkers/22 🔀 CASE flow.md>) | To check the selected option.
+    | 🔀 [`CASE`](<../../../9 😃 Talkers/22 🔀 CASE flow.md>) | To check the selected option.
     | ⏳ [`TEMP`](<25 ⏳ TEMP prompt.md>) | To show work in progress.
     
 
@@ -173,7 +173,7 @@
 
 1. **How does Precision work?**
 
-    When collecting a [`QUANTITY`](<42 🔄 QUANTITY prompt.md>) input, [Talkers 😃](<../../../33 😃 Talkers/01 😃 Talker.md>) 
+    When collecting a [`QUANTITY`](<42 🔄 QUANTITY prompt.md>) input, [Talkers 😃](<../../../9 😃 Talkers/01 😃 Talker.md>) 
     * round up the input based on the precision, 
     * and ask confirmation to the user if the value differs.
 
@@ -192,7 +192,7 @@
 
     <br/>
 
-    Here's the [Talker 😃](<../../../33 😃 Talkers/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../../9 😃 Talkers/01 😃 Talker.md>).
     
     ```yaml
     # 😃 Talker 
@@ -202,10 +202,10 @@
     - REPEAT
     ```
 
-    | [Command ⌘](<../../../33 😃 Talkers/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../../9 😃 Talkers/10 ⌘ Command.md>) | Purpose
     |-|-
     | ℹ️ [`INFO`](<21 ℹ️ INFO prompt.md>) | To show the message.
-    | 🔁 [`REPEAT`](<../../../33 😃 Talkers/23 🔁 REPEAT flow.md>) | To repeat the input cycle forever.
+    | 🔁 [`REPEAT`](<../../../9 😃 Talkers/23 🔁 REPEAT flow.md>) | To repeat the input cycle forever.
      
 
     ---
@@ -225,8 +225,8 @@
     | `$p.Decimal` | Decimal rounded to `Precision` | `1234.57`
     | `$p.Pretty` | Decimal formatted to `Locale` | `1,234.57`
     | `$p.Locale` | CLDR locale used to format | `en-US`
-    | [`$p.$`](<../../../33 😃 Talkers/12 🐍 {Function}.md>) | The value of `$p.Pretty` | `1,234.57`
-    | `$p` | The [default value](<../../../33 😃 Talkers/12 🐍 {Function}.md>) `$p.$` | `1,234.57`
+    | [`$p.$`](<../../../9 😃 Talkers/12 🐍 {Function}.md>) | The value of `$p.Pretty` | `1,234.57`
+    | `$p` | The [default value](<../../../9 😃 Talkers/12 🐍 {Function}.md>) `$p.$` | `1,234.57`
 
     ---
     <br/>
@@ -243,7 +243,7 @@
 
     <br/>
 
-    Here's the [Talker 😃](<../../../33 😃 Talkers/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../../9 😃 Talkers/01 😃 Talker.md>).
         
     ```yaml
     # 😃 Talker 

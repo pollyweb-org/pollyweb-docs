@@ -24,7 +24,7 @@ The following steps describe a subscription workflow:
 | - | - | - 
 | 🛠️ [Helper](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | 😃 Hi! What do you need? <br/>- [ Register ]  | > Register
 | 🤵 [Broker](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 [Ready to register?](<../50 🤗⏩ Hosts/05 🤗⏩🧑‍🦰 Form 📝.md>)? [Yes, No]<br>- Your broker binds with us 🔗 <br/>- You choose a billing plan 🤝 <br/>- Your payer adds a method 💳 <br/>- Your identity signs the terms 🆔 | > Yes
-| 🤵 [Broker](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 [Bind?](<../../8 📜 Manifests/👥 nlweb.org/{codes}/HOST/🧩 HostPersonalize.md>) | > Yes 
+| 🤵 [Broker](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 [Bind?](<../../{codes}/HOST/🧩 HostPersonalize.md>) | > Yes 
 | 🤵 [Broker](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 [Allow guest domain?](<../50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>) <br/> - Any Biller 🤝<br/>- [ Always ] for Any Helper 🛠️ | > Always
 | 🤝 [Biller](<../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>) | 😃 What plan to subscribe? <br/>- [ Simple ] pay-as-you-go  <br/>- [ Monthly ] commitment | > Simple
 | 💳 [Payer](<../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Link to Any Biller? [Yes, No, +] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC 
@@ -37,7 +37,7 @@ The following steps describe a subscription workflow:
 
 ## Talker
 
-The corresponding [Talker 😃](<../../33 😃 Talkers/01 😃 Talker.md>) is as follows.
+The corresponding [Talker 😃](<../../9 😃 Talkers/01 😃 Talker.md>) is as follows.
 
 ```yaml
 💬 Register:                # Entry menu
@@ -58,13 +58,13 @@ The corresponding [Talker 😃](<../../33 😃 Talkers/01 😃 Talker.md>) is as
 - GOODBYE                   # Show advertisement
 ```
 
-| [Command ⌘](<../../33 😃 Talkers/10 ⌘ Command.md>) | Purpose
+| [Command ⌘](<../../9 😃 Talkers/10 ⌘ Command.md>) | Purpose
 |-|-
-| 📝 [`FORM`](<../../33 😃 Talkers/41 📝 FORM msg.md>) | To provide instructions.
-| 🔗 [`BIND`](<../../33 😃 Talkers/44 🔗 BIND msg.md>) | To create a user profile.
-| 🛠️ [`INVITE`](<../../33 😃 Talkers/46 🛠️ INVITE msg.md>) | To subscribe the user to plan.
-| ❄️ [`FREEZE`](<../../33 😃 Talkers/42 ❄️ FREEZE msg.md>) | To disable past inputs.
-| ⬇️ [`EVAL`](<../../33 😃 Talkers/20 ⬇️ EVAL flow.md>) | To register on the database.
+| 📝 [`FORM`](<../../9 😃 Talkers/41 📝 FORM msg.md>) | To provide instructions.
+| 🔗 [`BIND`](<../../9 😃 Talkers/44 🔗 BIND msg.md>) | To create a user profile.
+| 🛠️ [`INVITE`](<../../9 😃 Talkers/46 🛠️ INVITE msg.md>) | To subscribe the user to plan.
+| ❄️ [`FREEZE`](<../../9 😃 Talkers/42 ❄️ FREEZE msg.md>) | To disable past inputs.
+| ⬇️ [`EVAL`](<../../9 😃 Talkers/20 ⬇️ EVAL flow.md>) | To register on the database.
 | ✅ [`SUCCESS`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/23 ✅ SUCCESS prompt.md>) | To say that it was successful.
-| 👋 [`GOODBYE`](<../../33 😃 Talkers/50 👋 GOODBYE.md>) | To show advertising.
+| 👋 [`GOODBYE`](<../../9 😃 Talkers/50 👋 GOODBYE.md>) | To show advertising.
 |

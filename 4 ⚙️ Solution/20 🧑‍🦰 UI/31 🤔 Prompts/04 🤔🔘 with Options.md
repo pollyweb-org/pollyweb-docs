@@ -59,7 +59,7 @@
 
 
 
-1. **What's the format for a [Talker 😃](<../../../33 😃 Talkers/01 😃 Talker.md>)?**
+1. **What's the format for a [Talker 😃](<../../../9 😃 Talkers/01 😃 Talker.md>)?**
 
     ```yaml
     # Simplest
@@ -142,7 +142,7 @@
     | [🤗 Host](<../12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You opted to play.
     |  
 
-    Here's the [Talker 😃](<../../../33 😃 Talkers/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../../9 😃 Talkers/01 😃 Talker.md>).
 
     ```yaml
     # 😃 Talker
@@ -159,10 +159,10 @@
         Share: INFO|You choose to share.
     ```
 
-    | [Command ⌘](<../../../33 😃 Talkers/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../../9 😃 Talkers/10 ⌘ Command.md>) | Purpose
     |-|-
     | 1️⃣ [`ONE`](<53 1️⃣ ONE prompt.md>) | To show the options.
-    | 🔀 [`CASE`](<../../../33 😃 Talkers/22 🔀 CASE flow.md>) | To check the selected option.
+    | 🔀 [`CASE`](<../../../9 😃 Talkers/22 🔀 CASE flow.md>) | To check the selected option.
     | ℹ️ [`INFO`](<21 ℹ️ INFO prompt.md>) | To show the result.
     
 
@@ -211,7 +211,7 @@
 
     <br/>
 
-    Here's the [Talker 😃](<../../../33 😃 Talkers/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../../9 😃 Talkers/01 😃 Talker.md>).
 
     
   
@@ -234,10 +234,10 @@
     ```
 
 
-    | [Command ⌘](<../../../33 😃 Talkers/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../../9 😃 Talkers/10 ⌘ Command.md>) | Purpose
     |-|-
     | 1️⃣ [`ONE`](<53 1️⃣ ONE prompt.md>) | To show the options.
-    | 🔀 [`CASE`](<../../../33 😃 Talkers/22 🔀 CASE flow.md>) | To check the selected option.
+    | 🔀 [`CASE`](<../../../9 😃 Talkers/22 🔀 CASE flow.md>) | To check the selected option.
     | ℹ️ [`INFO`](<21 ℹ️ INFO prompt.md>) | To show the result.
     
 
