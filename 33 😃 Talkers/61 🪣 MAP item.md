@@ -8,7 +8,7 @@
 1. **What's a MAP item command?**
 
     A `MAP` 🪣
-    * is a [Command ⌘](<10 ⌘ Command.md>) 
+    * is a [Command ⌘](<../9 😃 Talkers/20 Talker Flows/10 ⌘ Command.md>) 
     * that retrieves an item by key 🔑
     * from a key-value resource pool 🪣
     * into a [Talker 😃](<01 😃 Talker.md>) placeholder.

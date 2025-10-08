@@ -8,7 +8,7 @@
 1. **What's a RUN flow?**
 
     A `RUN` ▶️
-    * is a flow [Command ⌘](<../../33 😃 Talkers/10 ⌘ Command.md>) 
+    * is a flow [Command ⌘](<10 ⌘ Command.md>) 
     * that runs a  [Procedure ⚙️](<../../33 😃 Talkers/11 ⚙️ Procedure.md>).
 
     ---
@@ -85,7 +85,7 @@
     - INFO|You gave me number {$1}.
     ```
 
-    | [Command ⌘](<../../33 😃 Talkers/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
     | 🔄 [`QUANTITY`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/42 🔄 QUANTITY prompt.md>) | To collect the number input.
 
@@ -157,7 +157,7 @@
     ```
 
 
-    | [Command ⌘](<../../33 😃 Talkers/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
     | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | To decide which message to show.
     | ↩️ [`RETURN`](<25 ↩️ RETURN flow.md>) | To return the final result.
@@ -196,7 +196,7 @@
     - FAILURE|This is a bug.
     ```
 
-    | [Command ⌘](<../../33 😃 Talkers/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
     | ↩️ [`RETURN`](<25 ↩️ RETURN flow.md>) | To calculate the value to return.
 

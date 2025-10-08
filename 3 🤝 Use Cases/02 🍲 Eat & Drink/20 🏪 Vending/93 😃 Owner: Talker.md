@@ -89,7 +89,7 @@ Success:
 
 ## Commands
 
-|Type|[Command ⌘](<../../../33 😃 Talkers/10 ⌘ Command.md>)|Purpose
+|Type|[Command ⌘](<../../../9 😃 Talkers/20 Talker Flows/10 ⌘ Command.md>)|Purpose
 |-|-|-
 |Data| 🪣 [`MAP`](<../../../33 😃 Talkers/61 🪣 MAP item.md>) | Look up items and machines
 |Input | 🔢 [`DIGITS`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/44 🔢 DIGITS prompt.md>) | Ask for item number

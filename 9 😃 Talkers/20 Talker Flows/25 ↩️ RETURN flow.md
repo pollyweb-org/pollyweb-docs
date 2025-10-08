@@ -8,7 +8,7 @@
 1. **What's a RETURN flow?**
 
     A `RETURN` ↩️
-    * is a flow [Command ⌘](<../../33 😃 Talkers/10 ⌘ Command.md>) 
+    * is a flow [Command ⌘](<10 ⌘ Command.md>) 
     * that leaves a [Procedure ⚙️](<../../33 😃 Talkers/11 ⚙️ Procedure.md>) to its parent, 
     * and returns one of the following expressions.
     
@@ -62,7 +62,7 @@
     - FAILURE|This command never runs.
     ```
 
-    | [Command ⌘](<../../33 😃 Talkers/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
     | ▶️ [RUN](<24 ▶️ RUN flow.md>) | To run the procedures.
     
@@ -104,7 +104,7 @@
     - RETURN|{.Sum($1,$2,$3)}
     ```
 
-    | [Command ⌘](<../../33 😃 Talkers/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
     | ▶️ [RUN](<24 ▶️ RUN flow.md>) | To run the procedures.
 

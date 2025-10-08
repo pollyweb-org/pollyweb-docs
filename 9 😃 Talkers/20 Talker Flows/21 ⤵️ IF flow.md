@@ -8,8 +8,8 @@
 1. **What's an IF flow?**
 
     An `IF` ⤵️
-    * is a flow [Command ⌘](<../../33 😃 Talkers/10 ⌘ Command.md>)  
-    * that runs a [Procedure ⚙️](<../../33 😃 Talkers/11 ⚙️ Procedure.md>) or [Command ⌘](<../../33 😃 Talkers/10 ⌘ Command.md>) 
+    * is a flow [Command ⌘](<10 ⌘ Command.md>)  
+    * that runs a [Procedure ⚙️](<../../33 😃 Talkers/11 ⚙️ Procedure.md>) or [Command ⌘](<10 ⌘ Command.md>) 
     * based on the evaluation of a placeholder or [{Function}](<../../33 😃 Talkers/12 🐍 {Function}.md>).
 
     ---
@@ -58,8 +58,8 @@
 
     | Argument| Purpose
     |-|-
-    | `<true-action>` | [Procedure ⚙️](<../../33 😃 Talkers/11 ⚙️ Procedure.md>) or one-line [Command ⌘](<../../33 😃 Talkers/10 ⌘ Command.md>) on `True`
-    | `<false-action>`| [Procedure ⚙️](<../../33 😃 Talkers/11 ⚙️ Procedure.md>) or one-line [Command ⌘](<../../33 😃 Talkers/10 ⌘ Command.md>) on `False`
+    | `<true-action>` | [Procedure ⚙️](<../../33 😃 Talkers/11 ⚙️ Procedure.md>) or one-line [Command ⌘](<10 ⌘ Command.md>) on `True`
+    | `<false-action>`| [Procedure ⚙️](<../../33 😃 Talkers/11 ⚙️ Procedure.md>) or one-line [Command ⌘](<10 ⌘ Command.md>) on `False`
 
 
     ```yaml
@@ -76,8 +76,8 @@
 
     | Argument| Purpose
     |-|-
-    | `<true-cmd-n>` | List of multi-line [Commands ⌘](<../../33 😃 Talkers/10 ⌘ Command.md>) to run on `True`
-    | `<false-cmd-n>` | List of multi-line [Commands ⌘](<../../33 😃 Talkers/10 ⌘ Command.md>) to run on `False`
+    | `<true-cmd-n>` | List of multi-line [Commands ⌘](<10 ⌘ Command.md>) to run on `True`
+    | `<false-cmd-n>` | List of multi-line [Commands ⌘](<10 ⌘ Command.md>) to run on `False`
 
     ---
     <br/>

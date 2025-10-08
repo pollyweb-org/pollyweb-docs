@@ -8,7 +8,7 @@
 1. **What's a REPEAT flow?**
 
     A `REPEAT` 🔁
-    * is a flow [Command ⌘](<../../33 😃 Talkers/10 ⌘ Command.md>) 
+    * is a flow [Command ⌘](<10 ⌘ Command.md>) 
     * that repeats it's enclosing [Procedure ⚙️](<../../33 😃 Talkers/11 ⚙️ Procedure.md>) 
     * either always or only when confirmed.
 
@@ -73,7 +73,7 @@
     - REPEAT
     ```
 
-    | [Command ⌘](<../../33 😃 Talkers/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
     | 🔄 [`QUANTITY`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/42 🔄 QUANTITY prompt.md>) | To wait for user input.
     
@@ -119,7 +119,7 @@
 
     Here's a list of flow commands used in the example.
 
-    | [Command ⌘](<../../33 😃 Talkers/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
     | 👍 [`CONFIRM`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/31 👍 CONFIRM prompt.md>) | To wait for user confirmation.
     | ⬇️ [`EVAL`](<../../33 😃 Talkers/20 ⬇️ EVAL flow.md>) | To add an item to the database.
@@ -197,7 +197,7 @@
 
     Here's a list of flow commands used in the example.
 
-    | [Command ⌘](<../../33 😃 Talkers/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
     | ⬇️ [`EVAL`](<../../33 😃 Talkers/20 ⬇️ EVAL flow.md>) | To generate a random number a subtract tries.
     | 🔄 [`QUANTITY`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/42 🔄 QUANTITY prompt.md>) | To collect the number input.
