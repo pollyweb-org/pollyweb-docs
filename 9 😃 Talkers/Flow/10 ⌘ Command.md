@@ -55,7 +55,7 @@
     | 👍 [`CONFIRM`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/31 👍 CONFIRM prompt.md>) | Yes | `Yes` `No` `Cancel` answer
     | 🔠 [`MANY`](<../Prompts/54 🔠 MANY prompt.md>) | [A,B] |
     | 1️⃣ [`ONE`](<../Prompts/53 1️⃣ ONE prompt.md>) | A |
-    | 📆 [`DATE`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/61 📆 DATE prompt.md>)
+    | 📆 [`DATE`](<../Prompts/61 📆 DATE prompt.md>)
     | 🕓 [`TIME`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/62 🕓 TIME prompt.md>)
     | 👤 [`IDENTITY`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/71 👤 IDENTIFY prompt.md>)
     | 🔆 [`SCAN`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/72 🔆 SCAN prompt.md>)
