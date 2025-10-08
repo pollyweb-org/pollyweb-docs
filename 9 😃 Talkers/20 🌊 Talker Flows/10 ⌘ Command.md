@@ -72,13 +72,13 @@
 
     |Command|Purpose
     |-|-
-    | 🔗 [`BIND`](<../60 Messages/44 🔗 BIND msg.md>) | Calls the [Bind Vault @ Wallet ⏩](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind.md>) flow.
-    | 🎫 [`OFFER`](<../60 Messages/49 🎫 OFFER msg.md>) | Calls the [Save Token @ Wallet ⏩](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/02 🧑‍🦰👉🎴 Save token.md>) flow.
-    | 👋 [`GOODBYE`](<../60 Messages/50 👋 GOODBYE.md>) | Calls the [Goodbye @ Host](<../../5 ⏩ Flows/50 🤗⏩ Hosts/07 🤗⏩🧑‍🦰 Goodbye 👋.md>) ⏩ flow.
-    | 📜 [`FLOW`](<../60 Messages/41 📝 FORM msg.md>)
-    | 💳 [`CHARGE`](<../60 Messages/47 💳 CHARGE msg.md>)
-    | 💼 [`SHARE`](<../60 Messages/45 💼 SHARE msg.md>)
-    | 🛰️ [`RELAY`](<../60 Messages/51 🛰️ RELAY msg.md>)
+    | 🔗 [`BIND`](<../60 ⏩ Msg Flows/44 🔗 BIND msg.md>) | Calls the [Bind Vault @ Wallet ⏩](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind.md>) flow.
+    | 🎫 [`OFFER`](<../60 ⏩ Msg Flows/49 🎫 OFFER msg.md>) | Calls the [Save Token @ Wallet ⏩](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/02 🧑‍🦰👉🎴 Save token.md>) flow.
+    | 👋 [`GOODBYE`](<../60 ⏩ Msg Flows/50 👋 GOODBYE.md>) | Calls the [Goodbye @ Host](<../../5 ⏩ Flows/50 🤗⏩ Hosts/07 🤗⏩🧑‍🦰 Goodbye 👋.md>) ⏩ flow.
+    | 📜 [`FLOW`](<../60 ⏩ Msg Flows/41 📝 FORM msg.md>)
+    | 💳 [`CHARGE`](<../60 ⏩ Msg Flows/47 💳 CHARGE msg.md>)
+    | 💼 [`SHARE`](<../60 ⏩ Msg Flows/45 💼 SHARE msg.md>)
+    | 🛰️ [`RELAY`](<../60 ⏩ Msg Flows/51 🛰️ RELAY msg.md>)
     |
     
    

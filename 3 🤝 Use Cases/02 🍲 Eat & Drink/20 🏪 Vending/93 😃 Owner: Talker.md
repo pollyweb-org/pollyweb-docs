@@ -100,10 +100,10 @@ Success:
 |Flow| ⤵️ [`IF`](<../../../9 😃 Talkers/20 🌊 Talker Flows/21 ⤵️ IF flow.md>)
 ||⬇️ [`EVAL`](<../../../9 😃 Talkers/30 💾 Talker Data/20 ⬇️ EVAL flow.md>)
 ||🪵 [`LOG`](<../../../9 😃 Talkers/30 💾 Talker Data/15 🪵 LOG flow.md>)
-|Message| 💼 [`SHARE`](<../../../9 😃 Talkers/60 Messages/45 💼 SHARE msg.md>) | Ask for proof of over 21
-|| 💳 [`CHARGE`](<../../../9 😃 Talkers/60 Messages/47 💳 CHARGE msg.md>) | Charge the item price
-|| 🏦 [`REFUND`](<../../../9 😃 Talkers/60 Messages/48 🏦 REFUND.md>) | Refund the payment on failure
-|| 👋 [`GOODBYE`](<../../../9 😃 Talkers/60 Messages/50 👋 GOODBYE.md>) | Show ads on success
-|| 🛰️ [`RELAY`](<../../../9 😃 Talkers/60 Messages/51 🛰️ RELAY msg.md>) | Relay messages to vending machines
+|Message| 💼 [`SHARE`](<../../../9 😃 Talkers/60 ⏩ Msg Flows/45 💼 SHARE msg.md>) | Ask for proof of over 21
+|| 💳 [`CHARGE`](<../../../9 😃 Talkers/60 ⏩ Msg Flows/47 💳 CHARGE msg.md>) | Charge the item price
+|| 🏦 [`REFUND`](<../../../9 😃 Talkers/60 ⏩ Msg Flows/48 🏦 REFUND.md>) | Refund the payment on failure
+|| 👋 [`GOODBYE`](<../../../9 😃 Talkers/60 ⏩ Msg Flows/50 👋 GOODBYE.md>) | Show ads on success
+|| 🛰️ [`RELAY`](<../../../9 😃 Talkers/60 ⏩ Msg Flows/51 🛰️ RELAY msg.md>) | Relay messages to vending machines
 |
 
