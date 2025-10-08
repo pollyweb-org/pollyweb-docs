@@ -2,17 +2,17 @@
 
 > Asks to touch/scan a [QR/NFC Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>).
 
-> Part of [blocking input prompts 🤔](<../10 Prompt definitions/09 ✏️ as Input.md>)
+> Part of [blocking input prompts 🤔](<../10 🤔📘 Prompt definitions/09 ✏️ as Input.md>)
 
 
    * `SCAN|<message>`	
-       * Calls the [🔆 SCAN Prompt 🤔](<../10 Prompt definitions/01 🤔 Prompt.md>)
+       * Calls the [🔆 SCAN Prompt 🤔](<../10 🤔📘 Prompt definitions/01 🤔 Prompt.md>)
 
 <br/>
 
 1. **What's an example of a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)?**
 
-    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../10 Prompt definitions/01 🤔 Prompt.md>) | [User](<../0../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Promp../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../10 🤔📘 Prompt definitions/01 🤔 Prompt.md>) | [User](<../0../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Promp../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md
     | - | - | - |
     | 
 

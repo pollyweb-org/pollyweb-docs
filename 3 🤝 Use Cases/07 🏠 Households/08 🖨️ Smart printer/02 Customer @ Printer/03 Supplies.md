@@ -5,7 +5,7 @@
 
 A user can scan/tap the NFC/QR on the product (e.g., printer).
 
-| [Domain](<../../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../../../9 😃 Talkers/3 Prompts/10 Prompt definitions/01 🤔 Prompt.md>) | [User](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+| [Domain](<../../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../../../9 😃 Talkers/3 Prompts/10 🤔📘 Prompt definitions/01 🤔 Prompt.md>) | [User](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
 | - | - | - |
 | 🖨️ Seller   | 😃 Hi! What do you need? <br/>- [ Supplies ] <br/>- [ Something else ] | > Supplies
 | 🖨️ Seller   | 😃 How many? [1, 2, more] | > 1

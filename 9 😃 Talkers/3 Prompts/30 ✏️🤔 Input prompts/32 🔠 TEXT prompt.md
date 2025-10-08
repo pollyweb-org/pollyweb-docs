@@ -1,13 +1,13 @@
 # 🔠 TEXT prompt
 
-> Part of [blocking input prompts 🤔](<../10 Prompt definitions/09 ✏️ as Input.md>)
+> Part of [blocking input prompts 🤔](<../10 🤔📘 Prompt definitions/09 ✏️ as Input.md>)
 
 <br/>
 
 1. **What's a TEXT prompt?**
 
     A `TEXT` 
-    * is a blocking input [Prompt 🤔](<../10 Prompt definitions/01 🤔 Prompt.md>) 
+    * is a blocking input [Prompt 🤔](<../10 🤔📘 Prompt definitions/01 🤔 Prompt.md>) 
     * that allows the user to type something 
     * instead of having to follow a structured format.
 
@@ -61,10 +61,10 @@
 
     | Feature | Details
     |-|-
-    | ⊕ [`Details`](<../10 Prompt definitions/04 ⊕ with Details.md>) | Has expandable [+] details.
-    | 🔘 [`Options`](<../10 Prompt definitions/06 🔘 with Options.md>) | Has options for users to select.
-    | 📎 [`Appendix`](<../10 Prompt definitions/05 📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
-    | ✏️ [`Input`](<../10 Prompt definitions/09 ✏️ as Input.md>) | Waits for an answer from users.
+    | ⊕ [`Details`](<../10 🤔📘 Prompt definitions/04 ⊕ with Details.md>) | Has expandable [+] details.
+    | 🔘 [`Options`](<../10 🤔📘 Prompt definitions/06 🔘 with Options.md>) | Has options for users to select.
+    | 📎 [`Appendix`](<../10 🤔📘 Prompt definitions/05 📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
+    | ✏️ [`Input`](<../10 🤔📘 Prompt definitions/09 ✏️ as Input.md>) | Waits for an answer from users.
     
     ---
     <br/>
@@ -107,10 +107,10 @@
     | `Pattern`| Optional HTML regular expression | `^...$`
     | `MinLength` | Optional [minimum length 📋](<../25 ✏️ Input defintions/13 ✏️📋 Input validation.md>) | `1`
     | `MaxLength` | Optional [maximum length 📋](<../25 ✏️ Input defintions/13 ✏️📋 Input validation.md>) | `5`
-    | `Details` | Optional [expandable details ⊕](<../10 Prompt definitions/04 ⊕ with Details.md>) | `Hint...`
-    | `Options` | Optional [selectable options 🔘](<../10 Prompt definitions/06 🔘 with Options.md>) | `A,B` `{A:B}`
+    | `Details` | Optional [expandable details ⊕](<../10 🤔📘 Prompt definitions/04 ⊕ with Details.md>) | `Hint...`
+    | `Options` | Optional [selectable options 🔘](<../10 🤔📘 Prompt definitions/06 🔘 with Options.md>) | `A,B` `{A:B}`
     | `Nullable` | Optional [skip flag ⏭️](<../25 ✏️ Input defintions/12 ✏️⏭️ Input nullability.md>) | `Yes`
-    | `Appendix` | Optional [file attachment 📎](<../10 Prompt definitions/05 📎 with Appendix.md>) | `<uuid>`
+    | `Appendix` | Optional [file attachment 📎](<../10 🤔📘 Prompt definitions/05 📎 with Appendix.md>) | `<uuid>`
     
     
     ---
@@ -119,7 +119,7 @@
 
 1. **What's an example of a `TEXT` prompt?**
 
-    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../10 Prompt definitions/01 🤔 Prompt.md>) | [User](<../0../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Promp../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../10 🤔📘 Prompt definitions/01 🤔 Prompt.md>) | [User](<../0../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Promp../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md
     | - | - | - |
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 💬 How are you today? | `I'm fine`
     | [🛠️ Helper](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | 💬 How are you today? | `I'm fine`
@@ -158,7 +158,7 @@
 
 1. **What's an example of an IPv4 address input?**
 
-    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../10 Prompt definitions/01 🤔 Prompt.md>) | [User](<../0../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Promp../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../10 🤔📘 Prompt definitions/01 🤔 Prompt.md>) | [User](<../0../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Promp../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md
     | - | - | - |
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 💬 What's the IP address? [-] <br/> > Hint: `123.123.123.123` | `300.010.000.001`
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ❌ Invalid input! Retry.
@@ -223,7 +223,7 @@
 
 1. **What's an example for currencies?**
 
-    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../10 Prompt definitions/01 🤔 Prompt.md>) | [User](<../0../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Promp../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../10 🤔📘 Prompt definitions/01 🤔 Prompt.md>) | [User](<../0../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Promp../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md
     | - | - | - |
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 💬 How much? [-] <br/> > Hint: `$1.23` | `bla 45.6`
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ❌ Invalid input! Retry.

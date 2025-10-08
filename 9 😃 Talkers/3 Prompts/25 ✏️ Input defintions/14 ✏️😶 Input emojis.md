@@ -1,6 +1,6 @@
 # 😶 Input emojis
 
-> Part of [✏️ Input prompts](<../10 Prompt definitions/09 ✏️ as Input.md>)
+> Part of [✏️ Input prompts](<../10 🤔📘 Prompt definitions/09 ✏️ as Input.md>)
 
 <br/>
 
@@ -27,7 +27,7 @@
 
 1. **How do emojis work on Talkers?**
     
-    Most (but not all) [Talker input commands ✏️](<../10 Prompt definitions/09 ✏️ as Input.md>) work with the following emojis.
+    Most (but not all) [Talker input commands ✏️](<../10 🤔📘 Prompt definitions/09 ✏️ as Input.md>) work with the following emojis.
 
     Emoji | Behavior
     |-|-
@@ -41,7 +41,7 @@
 
     Consider the following [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>).
 
-    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../10 Prompt definitions/01 🤔 Prompt.md>) | [User](<../0../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Promp../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../10 🤔📘 Prompt definitions/01 🤔 Prompt.md>) | [User](<../0../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Promp../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md
     | - | - | - |
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Continue? [Yes, No]
     |
@@ -94,7 +94,7 @@
 1. **How to replace emojis in Talkers?**
 
     The replacement can either be:
-    * per [Prompt 🤔](<../10 Prompt definitions/01 🤔 Prompt.md>) by setting the `Emoji` parameter,
+    * per [Prompt 🤔](<../10 🤔📘 Prompt definitions/01 🤔 Prompt.md>) by setting the `Emoji` parameter,
     * or by default for upcoming [Prompts 🤔](<../../../4 ⚙️ Solution../../16 😶 EMOJI flow.mdd>) with the [`EMOJI`](<../../../9 😃 Talkers/16 😶 EMOJI flow.md>) command.
 
     ---

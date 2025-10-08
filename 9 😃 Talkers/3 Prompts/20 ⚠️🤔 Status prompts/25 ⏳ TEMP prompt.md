@@ -1,6 +1,6 @@
 # Non-blocking temporary info ⏳
 
-> Part of [Non-blocking status prompts 🤔](<../10 Prompt definitions/08 ⚠️ as Status.md>)
+> Part of [Non-blocking status prompts 🤔](<../10 🤔📘 Prompt definitions/08 ⚠️ as Status.md>)
 
 <br/>
 
@@ -8,8 +8,8 @@
 
     A `TEMP`
     * is similar to an [INFO ℹ️ prompt](<21 ℹ️ INFO prompt.md>) 
-    * but it is automatically removed when a new [Prompt 🤔](<../10 Prompt definitions/01 🤔 Prompt.md>) arrives;
-    * if it contains [`Options`](<../10 Prompt definitions/06 🔘 with Options.md>), then the user may click an option while it's visible.
+    * but it is automatically removed when a new [Prompt 🤔](<../10 🤔📘 Prompt definitions/01 🤔 Prompt.md>) arrives;
+    * if it contains [`Options`](<../10 🤔📘 Prompt definitions/06 🔘 with Options.md>), then the user may click an option while it's visible.
 
 
     ---
@@ -38,9 +38,9 @@
 
     | Feature | Details
     |-|-
-    | ⊕ [`Details`](<../10 Prompt definitions/04 ⊕ with Details.md>) | Has expandable [+] details.
-    | 🔘 [`Options`](<../10 Prompt definitions/06 🔘 with Options.md>) | Has options for users to select.
-    | 📎 [`Appendix`](<../10 Prompt definitions/05 📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
+    | ⊕ [`Details`](<../10 🤔📘 Prompt definitions/04 ⊕ with Details.md>) | Has expandable [+] details.
+    | 🔘 [`Options`](<../10 🤔📘 Prompt definitions/06 🔘 with Options.md>) | Has options for users to select.
+    | 📎 [`Appendix`](<../10 🤔📘 Prompt definitions/05 📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
     
     
     ---
@@ -73,9 +73,9 @@
 
     | Argument| Purpose | Example
     |-|-|-
-    | `Details` | Optional [expandable details ⊕](<../10 Prompt definitions/04 ⊕ with Details.md>) | `Hint...`
-    | `Options` | Optional [selectable options 🔘](<../10 Prompt definitions/06 🔘 with Options.md>) | `A,B` `{A:B}`
-    | `Appendix` | Optional [file attachment 📎](<../10 Prompt definitions/05 📎 with Appendix.md>) | `{/...}`
+    | `Details` | Optional [expandable details ⊕](<../10 🤔📘 Prompt definitions/04 ⊕ with Details.md>) | `Hint...`
+    | `Options` | Optional [selectable options 🔘](<../10 🤔📘 Prompt definitions/06 🔘 with Options.md>) | `A,B` `{A:B}`
+    | `Appendix` | Optional [file attachment 📎](<../10 🤔📘 Prompt definitions/05 📎 with Appendix.md>) | `{/...}`
 
 
     ---
@@ -86,7 +86,7 @@
 
     
 
-    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../10 Prompt definitions/01 🤔 Prompt.md>) | [User](<../0../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Promp../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../10 🤔📘 Prompt definitions/01 🤔 Prompt.md>) | [User](<../0../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Promp../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md
     | - | - | - |
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ⏳ Simple temp.
     | [🛠️ Helper](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | ⏳ Simple temp.
