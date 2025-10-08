@@ -29,16 +29,21 @@
     # Comprehensive
     CONFIRM:
         Message: <message>
-        Details: <details>
         Then: <true-action>
         Else: <false-action>
+        # Generic optional properties
+        Details: <details>
+        Appendix: <appendix>
+        Emoji: <emoji>
     ```
     
     | Argument| Purpose 
     |-|-
-    | `<details>` | Optional [expandable details ⊕](<03 🤔⊕ with Details.md>) | `Hint: ...`
-    | `<true-action>` | [Procedure ⚙️](<../33 😃 Talkers/11 ⚙️ Procedure.md>) or one-line [Command ⌘](<../33 😃 Talkers/10 ⌘ Command.md>) on `True`
-    | `<false-action>`| [Procedure ⚙️](<../33 😃 Talkers/11 ⚙️ Procedure.md>) or one-line [Command ⌘](<../33 😃 Talkers/10 ⌘ Command.md>) on `False`
+    | `Then` | [Procedure ⚙️](<../33 😃 Talkers/11 ⚙️ Procedure.md>) or one-line [Command ⌘](<../33 😃 Talkers/10 ⌘ Command.md>) on `True`
+    | `Else` | [Procedure ⚙️](<../33 😃 Talkers/11 ⚙️ Procedure.md>) or one-line [Command ⌘](<../33 😃 Talkers/10 ⌘ Command.md>) on `False`
+    | `Details` | Optional [expandable details ⊕](<03 🤔⊕ with Details.md>) | `Hint: ...`
+    | `Appendix` | Optional [file attachment 📎](<05 🤔📎 with Appendix.md>) | `{/...}`
+    | `Emoji` | Optional [alternative emoji 😶](<14 ✏️😶 Input emojis.md>)
        
     ---
     <br/>

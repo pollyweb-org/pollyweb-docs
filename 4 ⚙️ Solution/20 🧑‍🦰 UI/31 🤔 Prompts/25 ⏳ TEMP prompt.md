@@ -1,6 +1,6 @@
 # Non-blocking temporary info ⏳
 
-> Part of [Non-blocking status prompts 🤔](<10 ⚠️ Status behavior.md>)
+> Part of [Non-blocking status prompts 🤔](<08 ⚠️ Status behavior.md>)
 
 <br/>
 
@@ -55,10 +55,15 @@
     TEMP|<message> 
     ```
     
+    | Argument| Purpose | Example
+    |-|-|-
+    | `<message>` |  Message for the user. | `Running...`
+
     ```yaml
     # Multi-line 
     TEMP:
         Message: <message>
+        # Generic optional properties
         Options: <options>
         Details: <details>
         Appendix: <appendix>
@@ -67,10 +72,9 @@
 
     | Argument| Purpose | Example
     |-|-|-
-    | `<message>` |  Message for the user. | `Running...`
-    | `<options>` | Optional [selectable options 🔘](<04 🤔🔘 with Options.md>) | `A,B` `{A:B}`
-    | `<details>` | Optional [expandable details ⊕](<03 🤔⊕ with Details.md>) | `Hint: ...`
-    | `<appendix>` | Optional [file attachment 📎](<05 🤔📎 with Appendix.md>) | `<uuid>`
+    | `Options` | Optional [selectable options 🔘](<04 🤔🔘 with Options.md>) | `A,B` `{A:B}`
+    | `Details` | Optional [expandable details ⊕](<03 🤔⊕ with Details.md>) | `Hint: ...`
+    | `Appendix` | Optional [file attachment 📎](<05 🤔📎 with Appendix.md>) | `{/...}`
 
 
     ---

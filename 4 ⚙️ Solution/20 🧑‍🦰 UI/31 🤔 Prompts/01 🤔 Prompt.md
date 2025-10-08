@@ -27,7 +27,7 @@
 
     |Behavior| Format 
     |-|-
-    |[`Status`](<10 ⚠️ Status behavior.md>)| [`ℹ️ INFO`](<21 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<25 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<23 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<24 ❌ FAILURE prompt.md>)
+    |[`Status`](<08 ⚠️ Status behavior.md>)| [`ℹ️ INFO`](<21 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<25 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<23 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<24 ❌ FAILURE prompt.md>)
     |[`Inputs`](<11 ✏️ Input behavior.md>)| [`🔢 DIGITS`](<44 🔢 DIGITS prompt.md>) [`🔄 QUANTITY`](<42 🔄 QUANTITY prompt.md>) [`💰 AMOUNT`](<43 💰 AMOUNT prompt.md>) [`🔑 OTP`](<57 🔑 OTP prompt.md>) [`⭐ RATE`](<56 ⭐ RATE prompt.md>) 
     || [`👍 CONFIRM`](<31 👍 CONFIRM prompt.md>) [`1️⃣ ONE`](<55 1️⃣ ONE prompt.md>) [`🔢 MANY`](<54 🔠 MANY prompt.md>) 
     || [`🕓 TIME`](<62 🕓 TIME prompt.md>) [`📆 DATE`](<61 📆 DATE prompt.md>) 
@@ -81,7 +81,7 @@
     | ⊕ [`Details`](<03 🤔⊕ with Details.md>) | Has expandable [+] details.
     | 🔘 [`Options`](<04 🤔🔘 with Options.md>)  | Has options for users to select.
     | 📎 [`Appendix`](<05 🤔📎 with Appendix.md>)  | Has a PDF, PNG, or JPEG attachment.
-    | ⚠️ [`Status` behavior](<10 ⚠️ Status behavior.md>) | Informs and continues the flow.
+    | ⚠️ [`Status` behavior](<08 ⚠️ Status behavior.md>) | Informs and continues the flow.
     | ✏️ [ ✏️ `Input`](<11 ✏️ Input behavior.md>) | Waits for an answer from users.
     
     ---
