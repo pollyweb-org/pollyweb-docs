@@ -44,26 +44,39 @@
 
     ```yaml
     # Simplest.
-    DIGITS|<message>
+    DIGITS|<message> >> $placeholder
     ```
 
-    | Argument| Purpose | Example
-    |-|-|-
+    | Argument| Purpose 
+    |-|-
     | `<message>`| Message to show to the user
+    | `$placeholder`| Optional placeholder with the user's answer
+    
 
     ```yaml
     # Comprehensive.
     DIGITS >> $placeholder:
         Message: <message>
-        MinLength: <min-length>
-        MaxLength: <max-length>
+
+        # Specific optional properties
+        MinLength: int
+        MaxLength: int
+
+        # Generic optional properties
+        Emoji: emoji
+        Details: string
+        Nullable: bool
+        Appendix: {function}
     ```
     
     | Argument| Purpose | Example
     |-|-|-
-    | `$placeholder`| Placeholder with the user's answer
-    | `<min-length>` | Optional minimum length | `1`
-    | `<max-length>` | Optional maximum length | `5`
+    | `MinLength` | Optional [minimum length 📋](<13 ✏️📋 Input validation.md>) | `1`
+    | `MaxLength` | Optional [maximum length 📋](<13 ✏️📋 Input validation.md>) | `5`| `Options` | Optional [selectable options 🔘](<04 🤔🔘 with Options.md>) | `A,B` `{A:B}`
+    | `Emoji` | Optional [alternative emoji 😶](<14 ✏️😶 Input emojis.md>) | `😶`
+    | `Details` | Optional [expandable details ⊕](<03 🤔⊕ with Details.md>) | `Hint...`
+    | `Nullable` | Optional [skip flag ⏭️](<12 ✏️⏭️ Input nullability.md>) | `Yes`
+    | `Appendix` | Optional [file attachment 📎](<05 🤔📎 with Appendix.md>) | `<uuid>`
     
 
     ---

@@ -44,10 +44,10 @@
     AMOUNT|<message> >> $placeholder
     ```
 
-    | Argument| Purpose | Example
-    |-|-|-
+    | Argument| Purpose 
+    |-|-
     | `<message>`| Message to show to the user
-    | `$placeholder`| Placeholder with the user's answer
+    | `$placeholder`| Optional placeholder with the user's answer
     
 
     ```yaml
