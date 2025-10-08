@@ -1,6 +1,6 @@
 # Non-blocking result ✅
 
-> Part of [Non-blocking status prompts 🤔](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/08 ⚠️ Status behavior.md>)
+> Part of [Non-blocking status prompts 🤔](<../10 Prompt definitions/08 ⚠️ Status behavior.md>)
 
 <br/>
 
@@ -50,7 +50,7 @@
     | ⊕ [`Details`](<../10 Prompt definitions/03 🤔⊕ with Details.md>) | Has expandable [+] details.
     | 🔘 [`Options`](<../10 Prompt definitions/04 🤔🔘 with Options.md>) | Has options for users to select.
     | 📎 [`Appendix`](<../10 Prompt definitions/05 🤔📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
-    | ⚠️ [`Status`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/08 ⚠️ Status behavior.md>) | Informs and continues the flow.
+    | ⚠️ [`Status`](<../10 Prompt definitions/08 ⚠️ Status behavior.md>) | Informs and continues the flow.
     
     ---
     <br/>
