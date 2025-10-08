@@ -1,6 +1,6 @@
 # Non-blocking info ℹ️ ⓘ
 
-> Part of [Non-blocking status prompts 🤔](<10 ⚠️ Status behavior.md>)
+> Part of [Non-blocking status prompts 🤔](<08 ⚠️ Status behavior.md>)
 
 <br/>
 
@@ -20,7 +20,7 @@
     | ⊕ [`Details`](<03 🤔⊕ with Details.md>) | Has expandable [+] details.
     | 🔘 [`Options`](<04 🤔🔘 with Options.md>) | Has options for users to select.
     | 📎 [`Appendix`](<05 🤔📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
-    | ⚠️ [`Status`](<10 ⚠️ Status behavior.md>) | Informs and continues the flow.
+    | ⚠️ [`Status`](<08 ⚠️ Status behavior.md>) | Informs and continues the flow.
     
     ---
     <br/>
@@ -44,10 +44,15 @@
     INFO|<message> 
     ```
 
+    | Argument| Purpose | Example
+    |-|-|-
+    | `<message>` |  Message to show to the user. | `Hi!`
+
     ```yaml
     # Multi-line 
     INFO:
         Message: <message>
+        # Generic optional properties
         Options: <options>
         Details: <details>
         Appendix: <appendix>
@@ -55,10 +60,9 @@
 
     | Argument| Purpose | Example
     |-|-|-
-    | `<message>` | Message to show to the user | `Hi!`
-    | `<options>` | Optional [selectable options 🔘](<04 🤔🔘 with Options.md>) | `A,B` `{A:B}`
-    | `<details>` | Optional [expandable details ⊕](<03 🤔⊕ with Details.md>) | `Hint: ...`
-    | `<appendix>` | Optional [file attachment 📎](<05 🤔📎 with Appendix.md>) | `<uuid>`
+    | `Options` | Optional [selectable options 🔘](<04 🤔🔘 with Options.md>) | `A,B` `{A:B}`
+    | `Details` | Optional [expandable details ⊕](<03 🤔⊕ with Details.md>) | `Hint: ...`
+    | `Appendix` | Optional [file attachment 📎](<05 🤔📎 with Appendix.md>) | `{/...}`
     
     
     

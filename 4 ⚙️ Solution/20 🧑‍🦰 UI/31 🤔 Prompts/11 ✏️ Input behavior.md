@@ -13,11 +13,11 @@
      
     This page is complemented with the following sections:
     
-    ||Section
-    |-|-
-    ||[⏭️ Input optionality](<12 ✏️⏭️ Input optionality.md>)
-    ||[⚡ Input validation](<13 ✏️📋 Input validation.md>)
-    ||[🫥 Input emojis](<14 ✏️🫥 Input emojis.md>)
+    ||Section | Details
+    |-|- | -
+    ||[⏭️ Input optionality](<12 ✏️⏭️ Input optionality.md>) | Allow inputs to be optional.
+    ||[⚡ Input validation](<13 ✏️📋 Input validation.md>) | Client versus Server side validation.
+    ||[😶 Input emojis](<14 ✏️😶 Input emojis.md>) | Changing the default emojis.
     
     ---
     <br/>

@@ -1,10 +1,10 @@
-# 🫥 Input emojis
+# 😶 Input emojis
 
 > Part of [✏️ Input prompts](<11 ✏️ Input behavior.md>)
 
 <br/>
 
-1. **Are emojis mandatory?**
+1. **Are emojis mandatory in inputs?**
 
     No.
 
@@ -95,7 +95,7 @@
 
     The replacement can either be:
     * per [Prompt 🤔](<01 🤔 Prompt.md>) by setting the `Emoji` parameter,
-    * or by default for upcoming [Prompts 🤔](<01 🤔 Prompt.md>) with the [`EMOJI`](<../33 😃 Talkers/16 🫥 EMOJI flow.md>) command.
+    * or by default for upcoming [Prompts 🤔](<01 🤔 Prompt.md>) with the [`EMOJI`](<../33 😃 Talkers/16 😶 EMOJI flow.md>) command.
 
     ---
     <br/>

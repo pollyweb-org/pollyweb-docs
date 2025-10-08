@@ -19,7 +19,7 @@
        
     Yes. 
     
-    * [Prompt options](<04 🤔🔘 with Options.md>) can be differed with [non-blocking status Prompts 🤔](<10 ⚠️ Status behavior.md>);
+    * [Prompt options](<04 🤔🔘 with Options.md>) can be differed with [non-blocking status Prompts 🤔](<08 ⚠️ Status behavior.md>);
     
         * e.g., [`INFO`](<21 ℹ️ INFO prompt.md>), [`TEMP`](<25 ⏳ TEMP prompt.md>), [`SUCCESS`](<23 ✅ SUCCESS prompt.md>), and [`FAILURE`](<24 ❌ FAILURE prompt.md>).
   
@@ -49,7 +49,7 @@
 
     |Behavior| [Prompt 🤔](<01 🤔 Prompt.md>) 
     |-|-
-    |[`Status`](<10 ⚠️ Status behavior.md>)| [`ℹ️ INFO`](<21 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<25 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<23 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<24 ❌ FAILURE prompt.md>)
+    |[`Status`](<08 ⚠️ Status behavior.md>)| [`ℹ️ INFO`](<21 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<25 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<23 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<24 ❌ FAILURE prompt.md>)
     |[`Inputs`](<11 ✏️ Input behavior.md>) | [`1️⃣ ONE`](<55 1️⃣ ONE prompt.md>) [`🔢 MANY`](<54 🔠 MANY prompt.md>)  [`🔠 TEXT`](<32 🔠 TEXT prompt.md>) 
 
     ---
