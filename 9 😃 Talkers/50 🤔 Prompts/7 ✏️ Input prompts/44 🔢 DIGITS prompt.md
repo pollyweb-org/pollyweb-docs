@@ -44,19 +44,19 @@
 
     ```yaml
     # Simplest.
-    DIGITS|<message> >> $placeholder
+    DIGITS|<statement> >> $placeholder
     ```
 
     | Argument| Purpose 
     |-|-
-    | `<message>`| Message to show to the user
+    | `<statement>`| Message to show to the user
     | `$placeholder`| Optional placeholder with the user's answer
     
 
     ```yaml
     # Comprehensive.
     DIGITS >> $placeholder:
-        Statement: <message>
+        Statement: <statement>
 
         # Specific optional properties
         MinLength: int

@@ -31,18 +31,18 @@
 
     ```yaml
     # Simplest.
-    QUANTITY|<message> >> $placeholder
+    QUANTITY|<statement> >> $placeholder
     ```
 
     | Argument| Purpose 
     |-|-
-    | `<message>`| Message to show to the user
+    | `<statement>`| Message to show to the user
     | `$placeholder`| Optional placeholder with the user's answer 
 
     ```yaml
     # Comprehensive.
     QUANTITY >> $placeholder:
-        Statement: <message>
+        Statement: <statement>
 
         # Specific optional properties
         Precision: int

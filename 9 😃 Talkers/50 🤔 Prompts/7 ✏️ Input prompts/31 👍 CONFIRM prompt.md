@@ -18,17 +18,17 @@
 
     ```yaml
     # Simplest
-    CONFIRM|<message>
+    CONFIRM|<statement>
     ```
 
     | Argument| Purpose | Example
     |-|-|-
-    | `<message>` |  Message to show to the user. | `Sure?`
+    | `<statement>` |  Message to show to the user. | `Sure?`
 
     ```yaml
     # Comprehensive
     CONFIRM:
-        Statement: <message>
+        Statement: <statement>
         
         # Specific optional properties
         Then: Procedure|Command

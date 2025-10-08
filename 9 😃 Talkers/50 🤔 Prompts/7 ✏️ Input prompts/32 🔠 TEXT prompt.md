@@ -75,18 +75,18 @@
 
     ```yaml
     # Simplest.
-    TEXT|<message> >> $placeholder
+    TEXT|<statement> >> $placeholder
     ```
 
     | Argument| Purpose 
     |-|-
-    | `<message>`| Message to show to the user
+    | `<statement>`| Message to show to the user
     | `$placeholder`| Optional placeholder with the user's answer
     
     ```yaml
     # Comprehensive.
     TEXT >> $placeholder:
-        Statement: <message>
+        Statement: <statement>
         
         # Specific optional properties
         Output: string
