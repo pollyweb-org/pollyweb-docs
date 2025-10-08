@@ -7,7 +7,7 @@
 1. **What is a non-blocking FAILURE?**
 
     A `FAILURE` 
-    * is like an [INFO ℹ️ prompt](<../../../9 😃 Talkers/Prompts/21 ℹ️ INFO prompt.md>) 
+    * is like an [INFO ℹ️ prompt](<../../../9 😃 Talkers/Prompts/20 Status prompts/21 ℹ️ INFO prompt.md>) 
     * that signals the user that the transaction failed;
     * it's typically followed by a prompt to help the user fix the problem.
 

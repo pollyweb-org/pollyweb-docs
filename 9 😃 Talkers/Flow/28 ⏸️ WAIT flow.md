@@ -109,7 +109,7 @@
     | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
     | ⬇️ [`EVAL`](<../Data/20 ⬇️ EVAL flow.md>) | to assess the backend queue length.
-    | ℹ️ [`INFO`](<../Prompts/21 ℹ️ INFO prompt.md>) | To show the initial message.
+    | ℹ️ [`INFO`](<../Prompts/20 Status prompts/21 ℹ️ INFO prompt.md>) | To show the initial message.
     | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | To re-assess the queue periodically.
     | 🔁 [`RETURN`](<23 🔁 REPEAT flow.md>) | To exit the loop when it's the user's turn.
     | ▶️ [`RUN`](<24 ▶️ RUN flow.md>) | To start the waiting loop.

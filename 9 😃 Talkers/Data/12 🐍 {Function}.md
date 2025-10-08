@@ -60,7 +60,7 @@
     | [Command ⌘](<../Flow/10 ⌘ Command.md>) | Purpose
     |-|-
     | ⬇️ [`EVAL`](<20 ⬇️ EVAL flow.md>) | To push an object into a placeholder.
-    | ℹ️ [`INFO`](<../Prompts/21 ℹ️ INFO prompt.md>) | To show the placeholder values.
+    | ℹ️ [`INFO`](<../Prompts/20 Status prompts/21 ℹ️ INFO prompt.md>) | To show the placeholder values.
     
     ---
     <br/>
