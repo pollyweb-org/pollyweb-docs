@@ -193,7 +193,7 @@
     TODO: Add HOSTER.Signal() documentation.
     -->
 
-    To trigger it, a developer needs to invoke the [Hoster ☁️ helper](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/35 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>) SDK.
+    To trigger it, a developer needs to invoke the [Hoster ☁️ helper](<../90 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>) SDK.
 
     ```python
     # 🐍 Python
