@@ -119,7 +119,7 @@
     💬 Example:
 
     - ONE >> $x:
-        Message: Select an option.
+        Statement: Select an option.
         Options: A,B,C 
 
     - CASE: # Default to last input.

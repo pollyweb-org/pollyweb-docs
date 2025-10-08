@@ -47,7 +47,7 @@
     ```yaml
     # Comprehensive.
     ONE >> $placeholder:
-        Message: <message>
+        Statement: <message>
         
         # Generic optional properties
         Details: string

@@ -53,7 +53,7 @@
     ```yaml
     # Comprehensive.
     AMOUNT >> $placeholder:
-        Message: <message>
+        Statement: <message>
         
         # Specific optional properties
         Currency: string

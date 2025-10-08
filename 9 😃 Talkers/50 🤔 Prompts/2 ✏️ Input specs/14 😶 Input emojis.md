@@ -113,7 +113,7 @@
 
     ```yaml
     Format: CONFIRM
-    Message: 😕 Are you OK?
+    Statement: 😕 Are you OK?
     ```
 
     ---

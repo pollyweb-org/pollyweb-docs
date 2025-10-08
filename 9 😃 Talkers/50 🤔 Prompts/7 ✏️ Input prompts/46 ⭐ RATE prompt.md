@@ -51,7 +51,7 @@
     ```yaml
     # Comprehensive.
     RATE >> $placeholder:
-        Message: <message>
+        Statement: <message>
 
         # Generic optional properties
         Emoji: emoji

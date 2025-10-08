@@ -28,7 +28,7 @@
     ```yaml
     # Comprehensive
     CONFIRM:
-        Message: <message>
+        Statement: <message>
         
         # Specific optional properties
         Then: Procedure|Command

@@ -86,7 +86,7 @@
 
     ```yaml
     Format: INFO
-    Message: ℹ️ Expandable info
+    Statement: ℹ️ Expandable info
     Details: |
         1. Markdown bullet one
         1. Markdown bullet two

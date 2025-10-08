@@ -81,8 +81,8 @@
     | ⊕ [`Details`](<03 ⊕ with Details.md>) | Has expandable [+] details.
     | 🔘 [`Options`](<04 🔘 with Options.md>)  | Has options for users to select.
     | 📎 [`Appendix`](<05 📎 with Appendix.md>)  | Has a PDF, PNG, or JPEG attachment.
-    | ⚠️ [`Status` behavior](<08 ⚠️ as Status.md>) | Informs and continues the flow.
-    | ✏️ [ ✏️ `Input`](<09 ✏️ as Input.md>) | Waits for an answer from users.
+    | ⚠️ [` Status`](<08 ⚠️ as Status.md>) | Informs and continues the flow.
+    | ✏️ [`Input`](<09 ✏️ as Input.md>) | Waits for an answer from users.
     
     ---
     <br/>

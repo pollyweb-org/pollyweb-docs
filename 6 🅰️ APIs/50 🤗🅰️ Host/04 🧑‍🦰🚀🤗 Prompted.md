@@ -38,7 +38,7 @@ Body:
 
 ```yaml
 Format: ONE
-Message: Which credit card to use? 
+Statement: Which credit card to use? 
 MinValue: 10000                     # Optional
 MaxValue: 99999                     # Optional
 Appendix: <appendix-uuid>           # Optional
@@ -50,17 +50,23 @@ Options:                            # Optional
       Translation: Personal     
 ```
 
-||Property|Type|Description
-|-|-|-|-
-|| [`Format`](<../../9 😃 Talkers/50 🤔 Prompts/1 📘 Prompt specs/01 🤔 Prompt.md>)  | string | One format supported by [Prompts 🤔](<../../9 😃 Talkers/50 🤔 Prompts/1 📘 Prompt specs/01 🤔 Prompt.md>)
-|| `Message` | string | Main message,  to display in the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
-|| [`MinValue`](<../../9 😃 Talkers/50 🤔 Prompts/2 ✏️ Input specs/13 📋 Input validation.md>) | int | Optional minimum value
-|| [`MaxValue`](<../../9 😃 Talkers/50 🤔 Prompts/2 ✏️ Input specs/13 📋 Input validation.md>) | int | Optional maximum value
-|| [`Appendix`](<../../9 😃 Talkers/50 🤔 Prompts/1 📘 Prompt specs/05 📎 with Appendix.md>)| uuid   | File to download via [`Download@Host`](<06 🧑‍🦰🚀🤗 Download.md>)
-|| [`Details`](<../../9 😃 Talkers/50 🤔 Prompts/1 📘 Prompt specs/03 ⊕ with Details.md>) | string | Extended [details](<../../9 😃 Talkers/50 🤔 Prompts/1 📘 Prompt specs/03 ⊕ with Details.md>) in Markdown format
-|| [`Options`](<../../9 😃 Talkers/50 🤔 Prompts/1 📘 Prompt specs/04 🔘 with Options.md>) | object[]   | List of `Option` objects
-|Option | `ID`          | string  | ID of the [option](<../../9 😃 Talkers/50 🤔 Prompts/1 📘 Prompt specs/04 🔘 with Options.md>) for [`Reply@Host`](<05 🧑‍🦰🐌🤗 Reply.md>)
-|       | `Translation` | string  | Text of the [option](<../../9 😃 Talkers/50 🤔 Prompts/1 📘 Prompt specs/04 🔘 with Options.md>) to display in the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
+|Property|Type|Description
+|-|-|-
+| [`Format`](<../../9 😃 Talkers/50 🤔 Prompts/1 📘 Prompt specs/01 🤔 Prompt.md>)  | string | One format supported by [Prompts 🤔](<../../9 😃 Talkers/50 🤔 Prompts/1 📘 Prompt specs/01 🤔 Prompt.md>)
+| [`Statement`](<../../9 😃 Talkers/50 🤔 Prompts/1 📘 Prompt specs/02 🪧 Statement.md>) | string | Main message,  to display in the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
+| [`MinValue`](<../../9 😃 Talkers/50 🤔 Prompts/2 ✏️ Input specs/13 📋 Input validation.md>) | int | Optional minimum value
+| [`MaxValue`](<../../9 😃 Talkers/50 🤔 Prompts/2 ✏️ Input specs/13 📋 Input validation.md>) | int | Optional maximum value
+| [`Appendix`](<../../9 😃 Talkers/50 🤔 Prompts/1 📘 Prompt specs/05 📎 with Appendix.md>)| uuid   | File to download via [`Download@Host`](<06 🧑‍🦰🚀🤗 Download.md>)
+| [`Details`](<../../9 😃 Talkers/50 🤔 Prompts/1 📘 Prompt specs/03 ⊕ with Details.md>) | string | Extended [details](<../../9 😃 Talkers/50 🤔 Prompts/1 📘 Prompt specs/03 ⊕ with Details.md>) in Markdown format
+| [`Options`](<../../9 😃 Talkers/50 🤔 Prompts/1 📘 Prompt specs/04 🔘 with Options.md>) | object[]   | List of `Option` objects
+|
+
+### Option object
+
+|Property|Type|Description
+|-|-|-
+| `ID`          | string  | ID of the [option](<../../9 😃 Talkers/50 🤔 Prompts/1 📘 Prompt specs/04 🔘 with Options.md>) for [`Reply@Host`](<05 🧑‍🦰🐌🤗 Reply.md>)
+| `Translation` | string  | Text of the [option](<../../9 😃 Talkers/50 🤔 Prompts/1 📘 Prompt specs/04 🔘 with Options.md>) to be displayed
 |
 
 <br/>

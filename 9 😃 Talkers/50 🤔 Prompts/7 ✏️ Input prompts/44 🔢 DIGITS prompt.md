@@ -56,7 +56,7 @@
     ```yaml
     # Comprehensive.
     DIGITS >> $placeholder:
-        Message: <message>
+        Statement: <message>
 
         # Specific optional properties
         MinLength: int
