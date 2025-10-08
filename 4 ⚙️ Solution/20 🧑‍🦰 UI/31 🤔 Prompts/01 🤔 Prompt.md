@@ -34,7 +34,7 @@
     || [`⬆️ UPLOAD`](<81 ⬆️ UPLOAD prompt.md>)
     || [`🔠 TEXT`](<32 🔠 TEXT prompt.md>) 
     || [`👤 IDENTIFY`](<71 👤 IDENTIFY prompt.md>) [`🛒 EAN`](<74 🛒 EAN prompt.md>) [`🔆 SCAN`](<72 🔆 SCAN prompt.md>) [`🦋 TOUCH`](<73 🦋 TOUCH prompt.md>) 
-    |`Special`| [`📍 LOCATION`](<91 📍 LOCATION prompt.md>) [`🗺️ TRACK`](<../../../9 😃 Talkers/Prompts/92 🗺️ TRACK prompt.md>)
+    |`Special`| [`📍 LOCATION`](<../../../9 😃 Talkers/Prompts/91 📍 LOCATION prompt.md>) [`🗺️ TRACK`](<../../../9 😃 Talkers/Prompts/92 🗺️ TRACK prompt.md>)
 
 
     ---

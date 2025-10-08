@@ -17,7 +17,7 @@ How do pizza makers fulfill an order at the pizzeria?
 | 🔎 [Finder](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Pizzeria (4.4 ⭐) [+]
 | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Staff [🪪 token](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) shared [+]
 | 🍕 Pizzeria   | 😃 Hi Daniel, what's up? <br/>- [ Serve ] customers <br/>- [ Something else ] | > Serve
-| 🍕 Pizzeria | [📍 Share location?](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/91 📍 LOCATION prompt.md>) | > Yes
+| 🍕 Pizzeria | [📍 Share location?](<../../../9 😃 Talkers/Prompts/91 📍 LOCATION prompt.md>) | > Yes
 | 🆔 [Identity](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.  | [📸 selfie](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/21 🆔😶 Face scan.md>)
 | 🍕 Pizzeria   | 😃 By roles! [Yes, No] <br/>- [ Chef ] <br/>- [ Support ] | > Chef
 | 🍕 Pizzeria   | ⏳ Waiting orders... <br/>- [ Take a break ] <br/>- [ End shift ]
