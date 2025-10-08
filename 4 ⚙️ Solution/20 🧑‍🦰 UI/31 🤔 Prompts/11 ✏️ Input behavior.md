@@ -31,7 +31,7 @@
     | [🔠&nbsp;TEXT](<32 🔠 TEXT prompt.md>) | Asks for a text input
     | [🔢&nbsp;DIGITS](<../../../9 😃 Talkers/Prompts/44 🔢 DIGITS prompt.md>) | Shows the numeric keypad
     | [🔄&nbsp;QUANTITY](<../../../9 😃 Talkers/Prompts/42 🔄 QUANTITY prompt.md>) | Shows up/down arrows.
-    | [💰&nbsp;AMOUNT](<43 💰 AMOUNT prompt.md>) | Allows for decimals
+    | [💰&nbsp;AMOUNT](<../../../9 😃 Talkers/Prompts/43 💰 AMOUNT prompt.md>) | Allows for decimals
     | [🔑&nbsp;OTP](<57 🔑 OTP prompt.md>) | Asks for 6 digits
     | [1️⃣&nbsp;ONE](<../../../9 😃 Talkers/Prompts/53 1️⃣ ONE prompt.md>) | One of multiple options
     | [🔠&nbsp;MANY](<../../../9 😃 Talkers/Prompts/54 🔠 MANY prompt.md>) | Zero or more of multiple options
