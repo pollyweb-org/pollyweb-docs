@@ -105,7 +105,7 @@
 
     ```yaml
     Format: QUANTITY
-    Message: 😃 How many?
+    Statement: 😃 How many?
     MinValue: -100
     MaxValue: 100
     ```

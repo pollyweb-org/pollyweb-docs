@@ -75,7 +75,7 @@
 
     ```yaml
     Format: DIGITS
-    Message: 😃 What's the code?
+    Statement: 😃 What's the code?
     Details: This is a 6 digit number
     ```
 

@@ -95,7 +95,7 @@
 
     ```yaml
     Format: ONE
-    Message: 😃 Which one?
+    Statement: 😃 Which one?
     Options: 
         - ID: A
           Translation: Option A

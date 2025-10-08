@@ -172,7 +172,7 @@
 
     ```yaml
     Format: ONE
-    Message: 😃 What to do?
+    Statement: 😃 What to do?
     Options: 
         - ID: Play
           Translation: Play music 
