@@ -46,24 +46,24 @@
     
     |Command |  Example | Purpose
     |-|-|-
-    | 🔠 [`TEXT`](<../3 Prompts/30 ✏️ Input prompts/32 🔠 TEXT prompt.md>) | Bla | Unstructured text | 
-    | 🔄 [`QUANTITY`](<../3 Prompts/30 ✏️ Input prompts/42 🔄 QUANTITY prompt.md>) | 123| Numbers with ⬆️ ⬇️ arrows |
-    | 🔢 [`DIGITS`](<../3 Prompts/30 ✏️ Input prompts/44 🔢 DIGITS prompt.md>) |0123| Numerics with 0 prefix | 
-    | 💰 [`AMOUNT`](<../3 Prompts/30 ✏️ Input prompts/43 💰 AMOUNT prompt.md>) |  1.23 | Decimals and currency
-    | ⭐ [`RATE`](<../3 Prompts/30 ✏️ Input prompts/46 ⭐ RATE prompt.md>) | 5 ⭐ | Integer from 1 to 5
-    | 🔑 [`OTP`](<../3 Prompts/30 ✏️ Input prompts/57 🔑 OTP prompt.md>) | 0123 | SIM one time password
-    | 👍 [`CONFIRM`](<../3 Prompts/30 ✏️ Input prompts/31 👍 CONFIRM prompt.md>) | Yes | `Yes` `No` `Cancel` answer
-    | 🔠 [`MANY`](<../3 Prompts/30 ✏️ Input prompts/54 🔠 MANY prompt.md>) | [A,B] |
-    | 1️⃣ [`ONE`](<../3 Prompts/30 ✏️ Input prompts/53 1️⃣ ONE prompt.md>) | A |
-    | 📆 [`DATE`](<../3 Prompts/30 ✏️ Input prompts/61 📆 DATE prompt.md>)
-    | 🕓 [`TIME`](<../3 Prompts/30 ✏️ Input prompts/62 🕓 TIME prompt.md>)
-    | 👤 [`IDENTITY`](<../3 Prompts/30 ✏️ Input prompts/71 👤 IDENTIFY prompt.md>)
-    | 🔆 [`SCAN`](<../3 Prompts/30 ✏️ Input prompts/72 🔆 SCAN prompt.md>)
-    | 🦋 [`TOUCH`](<../3 Prompts/30 ✏️ Input prompts/73 🦋 TOUCH prompt.md>)
-    | 🛒 [`EAN`](<../3 Prompts/30 ✏️ Input prompts/74 🛒 EAN prompt.md>)
-    | ⬆️ [`UPLOAD`](<../3 Prompts/30 ✏️ Input prompts/81 ⬆️ UPLOAD prompt.md>)
-    | 📍 [`LOCATION`](<../3 Prompts/30 ✏️ Input prompts/91 📍 LOCATION prompt.md>)
-    | 🗺️ [`TRACK`](<../3 Prompts/30 ✏️ Input prompts/92 🗺️ TRACK prompt.md>)
+    | 🔠 [`TEXT`](<../3 Prompts/30 ✏️🤔 Input prompts/32 🔠 TEXT prompt.md>) | Bla | Unstructured text | 
+    | 🔄 [`QUANTITY`](<../3 Prompts/30 ✏️🤔 Input prompts/42 🔄 QUANTITY prompt.md>) | 123| Numbers with ⬆️ ⬇️ arrows |
+    | 🔢 [`DIGITS`](<../3 Prompts/30 ✏️🤔 Input prompts/44 🔢 DIGITS prompt.md>) |0123| Numerics with 0 prefix | 
+    | 💰 [`AMOUNT`](<../3 Prompts/30 ✏️🤔 Input prompts/43 💰 AMOUNT prompt.md>) |  1.23 | Decimals and currency
+    | ⭐ [`RATE`](<../3 Prompts/30 ✏️🤔 Input prompts/46 ⭐ RATE prompt.md>) | 5 ⭐ | Integer from 1 to 5
+    | 🔑 [`OTP`](<../3 Prompts/30 ✏️🤔 Input prompts/57 🔑 OTP prompt.md>) | 0123 | SIM one time password
+    | 👍 [`CONFIRM`](<../3 Prompts/30 ✏️🤔 Input prompts/31 👍 CONFIRM prompt.md>) | Yes | `Yes` `No` `Cancel` answer
+    | 🔠 [`MANY`](<../3 Prompts/30 ✏️🤔 Input prompts/54 🔠 MANY prompt.md>) | [A,B] |
+    | 1️⃣ [`ONE`](<../3 Prompts/30 ✏️🤔 Input prompts/53 1️⃣ ONE prompt.md>) | A |
+    | 📆 [`DATE`](<../3 Prompts/30 ✏️🤔 Input prompts/61 📆 DATE prompt.md>)
+    | 🕓 [`TIME`](<../3 Prompts/30 ✏️🤔 Input prompts/62 🕓 TIME prompt.md>)
+    | 👤 [`IDENTITY`](<../3 Prompts/30 ✏️🤔 Input prompts/71 👤 IDENTIFY prompt.md>)
+    | 🔆 [`SCAN`](<../3 Prompts/30 ✏️🤔 Input prompts/72 🔆 SCAN prompt.md>)
+    | 🦋 [`TOUCH`](<../3 Prompts/30 ✏️🤔 Input prompts/73 🦋 TOUCH prompt.md>)
+    | 🛒 [`EAN`](<../3 Prompts/30 ✏️🤔 Input prompts/74 🛒 EAN prompt.md>)
+    | ⬆️ [`UPLOAD`](<../3 Prompts/30 ✏️🤔 Input prompts/81 ⬆️ UPLOAD prompt.md>)
+    | 📍 [`LOCATION`](<../3 Prompts/30 ✏️🤔 Input prompts/91 📍 LOCATION prompt.md>)
+    | 🗺️ [`TRACK`](<../3 Prompts/30 ✏️🤔 Input prompts/92 🗺️ TRACK prompt.md>)
 
     ---
     <br/>

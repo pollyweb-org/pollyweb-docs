@@ -15,7 +15,7 @@
 | 🔎 [Finder](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Vending (4.3 ⭐)  [+]
 | 🍫 Vending | 😃 Hi! What do you need? <br/>- [ Buy ] an item <br/>- [ Something else ] | > Buy 
 | 🍫 Vending | 😃 What's the item number?   | 🔢 123
-| 🍫 Vending | 😃 [A water bottle?](<../../../9 😃 Talkers/3 Prompts/30 ✏️ Input prompts/31 👍 CONFIRM prompt.md>) [Yes, No]        | > Yes
+| 🍫 Vending | 😃 [A water bottle?](<../../../9 😃 Talkers/3 Prompts/30 ✏️🤔 Input prompts/31 👍 CONFIRM prompt.md>) [Yes, No]        | > Yes
 | 💳 [Payer](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Pay $1.50 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
 | 🍫 Vending | [⏳ Delivering...](<../../../9 😃 Talkers/3 Prompts/20 ⚠️🤔 Status prompts/25 ⏳ TEMP prompt.md>)
 | 🍫 Vending | [✅ Pick up the item. ](<../../../9 😃 Talkers/3 Prompts/20 ⚠️🤔 Status prompts/23 ✅ SUCCESS prompt.md>)

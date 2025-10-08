@@ -91,7 +91,7 @@
 
     | [Command ⌘](<../03 Talker Flows/10 ⌘ Command.md>) | Purpose
     |-|-
-    | 🔄 [`QUANTITY`](<../3 Prompts/30 ✏️ Input prompts/42 🔄 QUANTITY prompt.md>) | To collect the number input.
+    | 🔄 [`QUANTITY`](<../3 Prompts/30 ✏️🤔 Input prompts/42 🔄 QUANTITY prompt.md>) | To collect the number input.
 
     ---
     <br/>
@@ -121,7 +121,7 @@
 
     | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../3 Prompts/10 Prompt definitions/01 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 💬 [Who is in the picture?](<../3 Prompts/30 ✏️ Input prompts/32 🔠 TEXT prompt.md>) 🖼️ | `Elvis`
+    | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 💬 [Who is in the picture?](<../3 Prompts/30 ✏️🤔 Input prompts/32 🔠 TEXT prompt.md>) 🖼️ | `Elvis`
 
 
     ```yaml
@@ -175,7 +175,7 @@
 
     | [Command ⌘](<../03 Talker Flows/10 ⌘ Command.md>) | Purpose
     |-|-
-    | 🔄 [`QUANTITY`](<../3 Prompts/30 ✏️ Input prompts/42 🔄 QUANTITY prompt.md>) | To collect the number input.
+    | 🔄 [`QUANTITY`](<../3 Prompts/30 ✏️🤔 Input prompts/42 🔄 QUANTITY prompt.md>) | To collect the number input.
 
 
     ```python

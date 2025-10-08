@@ -68,9 +68,9 @@
     | [Command ⌘](<../03 Talker Flows/10 ⌘ Command.md>) | Purpose
     |-|-
     | 📝 [`FORM`](<41 📝 FORM msg.md>) | Show user instructions and allow inputs.
-    | 1️⃣ [`ONE`](<../3 Prompts/30 ✏️ Input prompts/53 1️⃣ ONE prompt.md>) | Select an option, the day in this case.
+    | 1️⃣ [`ONE`](<../3 Prompts/30 ✏️🤔 Input prompts/53 1️⃣ ONE prompt.md>) | Select an option, the day in this case.
     | 💼 [`SHARE`](<45 💼 SHARE msg.md>) | Get the user's booking contacts.
-    | 👍 [`CONFIRM`](<../3 Prompts/30 ✏️ Input prompts/31 👍 CONFIRM prompt.md>) | Pause to allow changing previous inputs.
+    | 👍 [`CONFIRM`](<../3 Prompts/30 ✏️🤔 Input prompts/31 👍 CONFIRM prompt.md>) | Pause to allow changing previous inputs.
     | ⬇️ [`EVAL`](<../2 Data/20 ⬇️ EVAL flow.md>) | Save the booking.
 
     ---
