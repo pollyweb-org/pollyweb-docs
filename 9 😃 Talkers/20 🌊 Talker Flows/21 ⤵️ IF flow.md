@@ -10,7 +10,7 @@
     An `IF` ⤵️
     * is a flow [Command ⌘](<10 ⌘ Command.md>)  
     * that runs a [Procedure ⚙️](<11 ⚙️ Procedure.md>) or [Command ⌘](<10 ⌘ Command.md>) 
-    * based on the evaluation of a placeholder or [{Function}](<../30 Talker Data/12 🐍 {Function}.md>).
+    * based on the evaluation of a placeholder or [{Function}](<../30 💾 Talker Data/12 🐍 {Function}.md>).
 
     ---
     <br/>
@@ -40,7 +40,7 @@
 
     | Argument| Purpose | Example
     |-|-|-
-    | `{function}` | Boolean [{Function}](<../30 Talker Data/12 🐍 {Function}.md>) to evaluate  | `{f}` `{$o}`
+    | `{function}` | Boolean [{Function}](<../30 💾 Talker Data/12 🐍 {Function}.md>) to evaluate  | `{f}` `{$o}`
     || Allows for missing `{}` in functions | `f()` `$p`
     || Defaults to the last [input prompt ✏️](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/11 ✏️ Input behavior.md>) | `TEXT\|Id?`
     | `<true-proc>` | [Procedure ⚙️](<11 ⚙️ Procedure.md>) to [Run ▶️](<24 ▶️ RUN flow.md>) when `True` | `IfTrue`

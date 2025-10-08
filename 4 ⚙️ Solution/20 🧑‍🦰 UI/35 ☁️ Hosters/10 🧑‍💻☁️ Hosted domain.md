@@ -164,5 +164,5 @@
    
     | Method | Purpose
     |-|-
-    [🧑‍💻🚀👥 Evaluate](<../../../6 🅰️ APIs/51 🧑‍💻🅰️ Hosted/01 ☁️🚀🧑‍💻 Evaluate.md>) | Evaluates [{Functions}](<../../../9 😃 Talkers/30 Talker Data/12 🐍 {Function}.md>) in [Talkers 😃](<../../../33 😃 Talkers/01 😃 Talker.md>)
+    [🧑‍💻🚀👥 Evaluate](<../../../6 🅰️ APIs/51 🧑‍💻🅰️ Hosted/01 ☁️🚀🧑‍💻 Evaluate.md>) | Evaluates [{Functions}](<../../../9 😃 Talkers/30 💾 Talker Data/12 🐍 {Function}.md>) in [Talkers 😃](<../../../33 😃 Talkers/01 😃 Talker.md>)
     |
