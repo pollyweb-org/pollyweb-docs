@@ -75,7 +75,7 @@
             1. Markdown bullet two
     ```
 
-    | [Command ⌘](<../../../9 😃 Talkers/20 🌊 Talker Flows/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../../9 😃 Talkers/20 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
     |-|-
     | ℹ️ [`INFO`](<21 ℹ️ INFO prompt.md>) | To show the messages and details.
     

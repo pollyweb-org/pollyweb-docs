@@ -7,7 +7,7 @@
 1. **What is a BIND message command?**
 
     A `BIND`
-    * is a message [Command ⌘](<../20 🌊 Talker Flows/10 ⌘ Command.md>) 
+    * is a message [Command ⌘](<../20 🌊 Talker flows/10 ⌘ Command.md>) 
     * that invokes the [Bind @ Vault ⏩ flow](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind.md>).
 
     ---
@@ -123,9 +123,9 @@
        Else: FAILURE|Not bounded.
    ```
 
-   | [Command ⌘](<../20 🌊 Talker Flows/10 ⌘ Command.md>) | Purpose
+   | [Command ⌘](<../20 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
    |-|-
-   | ⤵️ [IF](<../20 🌊 Talker Flows/21 ⤵️ IF flow.md>) | To verify the result.  
+   | ⤵️ [IF](<../20 🌊 Talker flows/21 ⤵️ IF flow.md>) | To verify the result.  
    
    ---
    <br/>
@@ -145,10 +145,10 @@
        Else: FAILURE|Not bounded.
    ```
 
-   | [Command ⌘](<../20 🌊 Talker Flows/10 ⌘ Command.md>) | Purpose
+   | [Command ⌘](<../20 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
    |-|-
    | ⬇️ [`EVAL`](<../30 💾 Talker Data/20 ⬇️ EVAL flow.md>) | To put the bindable array into a placeholder.
-   | ⤵️ [`IF`](<../20 🌊 Talker Flows/21 ⤵️ IF flow.md>) | To verify the result.
+   | ⤵️ [`IF`](<../20 🌊 Talker flows/21 ⤵️ IF flow.md>) | To verify the result.
    
    ---
    <br/>

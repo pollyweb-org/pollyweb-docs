@@ -89,7 +89,7 @@ Success:
 
 ## Commands
 
-|Type|[Command ⌘](<../../../9 😃 Talkers/20 🌊 Talker Flows/10 ⌘ Command.md>)|Purpose
+|Type|[Command ⌘](<../../../9 😃 Talkers/20 🌊 Talker flows/10 ⌘ Command.md>)|Purpose
 |-|-|-
 |Data| 🪣 [`MAP`](<../../../9 😃 Talkers/30 💾 Talker Data/61 🪣 MAP item.md>) | Look up items and machines
 |Input | 🔢 [`DIGITS`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/44 🔢 DIGITS prompt.md>) | Ask for item number
@@ -97,7 +97,7 @@ Success:
 |Status| ⏳ [`TEMP`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/25 ⏳ TEMP prompt.md>) | Show delivering status
 || ✅ [`SUCCESS`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/23 ✅ SUCCESS prompt.md>) | Ask to pick the item
 || ❌ [`FAILURE`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/24 ❌ FAILURE prompt.md>) | To show in case of error
-|Flow| ⤵️ [`IF`](<../../../9 😃 Talkers/20 🌊 Talker Flows/21 ⤵️ IF flow.md>)
+|Flow| ⤵️ [`IF`](<../../../9 😃 Talkers/20 🌊 Talker flows/21 ⤵️ IF flow.md>)
 ||⬇️ [`EVAL`](<../../../9 😃 Talkers/30 💾 Talker Data/20 ⬇️ EVAL flow.md>)
 ||🪵 [`LOG`](<../../../9 😃 Talkers/30 💾 Talker Data/15 🪵 LOG flow.md>)
 |Message| 💼 [`SHARE`](<../../../9 😃 Talkers/60 ⏩ Msg Flows/45 💼 SHARE msg.md>) | Ask for proof of over 21
