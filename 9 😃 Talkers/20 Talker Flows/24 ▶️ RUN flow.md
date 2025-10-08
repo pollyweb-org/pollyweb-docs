@@ -9,7 +9,7 @@
 
     A `RUN` ▶️
     * is a flow [Command ⌘](<10 ⌘ Command.md>) 
-    * that runs a  [Procedure ⚙️](<../../33 😃 Talkers/11 ⚙️ Procedure.md>).
+    * that runs a  [Procedure ⚙️](<11 ⚙️ Procedure.md>).
 
     ---
     <br/>
@@ -22,7 +22,7 @@
 
     | Argument| Purpose
     |-|-
-    | `<procedure>`| [Procedure ⚙️](<../../33 😃 Talkers/11 ⚙️ Procedure.md>) to run.
+    | `<procedure>`| [Procedure ⚙️](<11 ⚙️ Procedure.md>) to run.
     | `<arguments>`| Optional comma-separated arguments <br/>referenced by `{$position}` - e.g., `{$1}`
     | `<result>`| Optional placeholder for a [`RETURN`](<25 ↩️ RETURN flow.md>) result.
     

@@ -1,12 +1,12 @@
 # ⚙️ Talker `<procedure>:`
 
-> Part of [Talker 😃](<01 😃 Talker.md>)
+> Part of [Talker 😃](<../../33 😃 Talkers/01 😃 Talker.md>)
 
 <br/>
 
 1. **What's a Talker Procedure?**
 
-    A [Procedure ⚙️](<11 ⚙️ Procedure.md>) is a set of [Commands](<../9 😃 Talkers/20 Talker Flows/10 ⌘ Command.md>) executed sequentially.
+    A [Procedure ⚙️](<10 ⌘ Command.md>) executed sequentially.
 
     ---
     <br/>
@@ -22,7 +22,7 @@
     | Argument| Purpose
     |-|-
     | `<procedure>` | The name of the [Procedure ⚙️](<11 ⚙️ Procedure.md>).
-    | `<command-n>` | A [Command ⌘](<../9 😃 Talkers/20 Talker Flows/10 ⌘ Command.md>)  to be executed.
+    | `<command-n>` | A [Command ⌘](<10 ⌘ Command.md>)  to be executed.
     
     ```yaml
     ExampleProcedure:
@@ -38,10 +38,10 @@
 
     |Context|Syntax
     |-|-
-    |▶️ [`RUN`](<../9 😃 Talkers/20 Talker Flows/24 ▶️ RUN flow.md>)| Calls a procedure by name, then returns.
-    |⤵️ [`IF`](<../9 😃 Talkers/20 Talker Flows/21 ⤵️ IF flow.md>) | Runs procedures for `True` and `False` evaluations.
-    | 🔀 [`CASE`](<../9 😃 Talkers/20 Talker Flows/22 🔀 CASE flow.md>) | Runs procedures for matching evaluations.
-    | ⏸️ [`WAIT`](<../9 😃 Talkers/20 Talker Flows/28 ⏸️ WAIT flow.md>) | Runs procedures on signalled and timed out.
+    |▶️ [`RUN`](<24 ▶️ RUN flow.md>)| Calls a procedure by name, then returns.
+    |⤵️ [`IF`](<21 ⤵️ IF flow.md>) | Runs procedures for `True` and `False` evaluations.
+    | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | Runs procedures for matching evaluations.
+    | ⏸️ [`WAIT`](<28 ⏸️ WAIT flow.md>) | Runs procedures on signalled and timed out.
 
     ---
     <br/>

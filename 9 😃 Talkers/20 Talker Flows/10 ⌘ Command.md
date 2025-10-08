@@ -107,14 +107,14 @@
 
     Command | Purpose
     |-|-
-    | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | Runs a [Command ⌘](<10 ⌘ Command.md>) or [Procedure ⚙️](<../../33 😃 Talkers/11 ⚙️ Procedure.md>) matching a [{Function}](<../30 Talker Data/12 🐍 {Function}.md>).
-    | 🫥 [`EMOJI`](<../../33 😃 Talkers/16 😶 EMOJI flow.md>) | Changes the [default emoji 😃](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/14 ✏️😶 Input emojis.md>) for [input prompts ✏️](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/11 ✏️ Input behavior.md>).
+    | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | Runs a [Command ⌘](<10 ⌘ Command.md>) or [Procedure ⚙️](<11 ⚙️ Procedure.md>) matching a [{Function}](<../30 Talker Data/12 🐍 {Function}.md>).
+    | 🫥 [`EMOJI`](<../50 🤔 Prompts/20 Input logic/16 😶 EMOJI flow.md>) | Changes the [default emoji 😃](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/14 ✏️😶 Input emojis.md>) for [input prompts ✏️](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/11 ✏️ Input behavior.md>).
     | ⬇️ [`EVAL`](<../30 Talker Data/20 ⬇️ EVAL flow.md>) | Evaluates a [{Function}](<../30 Talker Data/12 🐍 {Function}.md>) into a placeholder.
-    | ⤵️ [`IF`](<21 ⤵️ IF flow.md>) | Runs a [Command ⌘](<10 ⌘ Command.md>) or [Procedure ⚙️](<../../33 😃 Talkers/11 ⚙️ Procedure.md>) based on a [{Function}](<../30 Talker Data/12 🐍 {Function}.md>).
+    | ⤵️ [`IF`](<21 ⤵️ IF flow.md>) | Runs a [Command ⌘](<10 ⌘ Command.md>) or [Procedure ⚙️](<11 ⚙️ Procedure.md>) based on a [{Function}](<../30 Talker Data/12 🐍 {Function}.md>).
     | 🪵 [`LOG`](<../30 Talker Data/15 🪵 LOG flow.md>) | Logs messages into the system handler.
-    | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | Repeats the current [Procedure ⚙️](<../../33 😃 Talkers/11 ⚙️ Procedure.md>) with a confirmation.
-    | ↩️ [`RETURN`](<25 ↩️ RETURN flow.md>) | Returns from a [Procedure ⚙️](<../../33 😃 Talkers/11 ⚙️ Procedure.md>) with a result.
-    | ▶️ [`RUN`](<24 ▶️ RUN flow.md>) | Runs a [Procedure ⚙️](<../../33 😃 Talkers/11 ⚙️ Procedure.md>) and puts the result in a placeholder.
+    | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | Repeats the current [Procedure ⚙️](<11 ⚙️ Procedure.md>) with a confirmation.
+    | ↩️ [`RETURN`](<25 ↩️ RETURN flow.md>) | Returns from a [Procedure ⚙️](<11 ⚙️ Procedure.md>) with a result.
+    | ▶️ [`RUN`](<24 ▶️ RUN flow.md>) | Runs a [Procedure ⚙️](<11 ⚙️ Procedure.md>) and puts the result in a placeholder.
     | ⏸️ [`WAIT`](<28 ⏸️ WAIT flow.md>) | Waits for a period of time or until signaled.
 
     ---

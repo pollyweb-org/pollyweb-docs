@@ -9,7 +9,7 @@
 
     A `RETURN` ↩️
     * is a flow [Command ⌘](<10 ⌘ Command.md>) 
-    * that leaves a [Procedure ⚙️](<../../33 😃 Talkers/11 ⚙️ Procedure.md>) to its parent, 
+    * that leaves a [Procedure ⚙️](<11 ⚙️ Procedure.md>) to its parent, 
     * and returns one of the following expressions.
     
     |Expression|Examples
@@ -41,7 +41,7 @@
 
 1. **What happens after a RETURN?**
 
-    Nothing runs on a [Procedure ⚙️](<../../33 😃 Talkers/11 ⚙️ Procedure.md>) after the `RETURN`.
+    Nothing runs on a [Procedure ⚙️](<11 ⚙️ Procedure.md>) after the `RETURN`.
 
     | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/31 🤔 Prompts/01 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
