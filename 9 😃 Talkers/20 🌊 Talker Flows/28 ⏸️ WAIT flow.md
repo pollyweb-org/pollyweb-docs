@@ -2,13 +2,15 @@
 
 > Part of [Talker 😃](<../10 📘 Talker specs/01 😃 Talker.md>)
 
+> Referenced by the [😃⏩🧑‍💻 Wait ⏸️](<../../5 ⏩ Flows/79 😃⏩ Talkers/30 😃⏩🧑‍💻 Wait ⏸️.md>) flow
+
 <br/>
 
 
 
 1. **What's a WAIT flow command?**
 
-    A `WAIT` ⏸️
+    A [`WAIT` ⏸️](<../20 🌊 Talker flows/28 ⏸️ WAIT flow.md>)
     * is a flow [Command ⌘](<10 ⌘ Command.md>) 
     * that pauses the flow for a period of time 
     * or until triggered by an external signal.
@@ -180,30 +182,29 @@
 
 1. **How to signal a WAIT placeholder?**
 
-    Consider the following `WAIT` command.
+    Consider the following [`WAIT` ⏸️](<../20 🌊 Talker flows/28 ⏸️ WAIT flow.md>) command.
 
     ```yaml
     # 😃 Talker 
-    - WAIT|24:00:00|$for-something:
+    - WAIT|24:00:00|$signal:
         OnSignal: SUCCESS|Signalled!
         OnTimeout: FAILURE|Timed out!
     ```
 
-    <!-- 
-    TODO: Add HOSTER.Signal() documentation.
-    -->
-
-    To trigger it, a developer needs to invoke the [Hoster ☁️ helper](<../90 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>) SDK.
+    To trigger it, a developer needs to call [`Write@Talker`](<../../6 🅰️ APIs/92 😃🅰️ Talker/20 🧑‍💻🐌😃 Write.md>).
 
     ```python
     # 🐍 Python
+
     def talkerHandler(args):
-        HOSTER.Signal({
-            Signal: 'for-something',
-            ChatID: '<chat-uuid>',
-            Broker: 'any-broker.com'
+        TALKER.Write({
+            'ChatID': CHAT_ID,
+            'Placeholder': 'signal',
+            'Value': 'READY'
         })
     ```    
+
+    The full interaction is described in the [😃⏩🧑‍💻 Wait ⏸️](<../../5 ⏩ Flows/79 😃⏩ Talkers/30 😃⏩🧑‍💻 Wait ⏸️.md>) flow 
 
     ---
     <br/>

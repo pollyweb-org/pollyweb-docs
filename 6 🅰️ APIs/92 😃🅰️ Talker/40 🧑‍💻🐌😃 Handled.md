@@ -4,7 +4,7 @@
 
 > Implements [Hoster ☁️ helper domain](<../../9 😃 Talkers/90 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>)
 
-> Part of [😃⏩🧑‍💻 Handle @ Talker](<../../5 ⏩ Flows/79 😃⏩ Talkers/20 😃⏩🧑‍💻 Handle.md>) flow
+> Part of [😃⏩🧑‍💻 Handle @ Talker](<../../5 ⏩ Flows/79 😃⏩ Talkers/20 😃⏩🧑‍💻 Handle 🐍.md>) flow
 
 > Receives the response from [Handle@Hosted](<../51 🧑‍💻🅰️ Hosted/01 😃🐌🧑‍💻 Handle.md>)
 
