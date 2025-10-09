@@ -1,6 +1,6 @@
 # ↩️ Talker `RETURN` flow 
 
-> Part of [Talker 😃](<../10 📘 Talker specs/01 😃 Talker.md>)
+> Part of [Talker 😃](<../10 📘 Talker specs/1 😃 Talker.md>)
 
 <br/>
 
@@ -43,12 +43,12 @@
 
     Nothing runs on a [Procedure ⚙️](<11 ⚙️ Procedure.md>) after the `RETURN`.
 
-    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/02 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/2 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ No failure occurred.
     |
     
-    Here's the [Talker 😃](<../10 📘 Talker specs/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../10 📘 Talker specs/1 😃 Talker.md>).
 
     ```yaml
     # 😃 Talker 
@@ -74,14 +74,14 @@
 
 
 
-    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/02 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/2 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ String return `Bla Bla`
     | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Placeholder return `123`
     | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Function return 1+2+3= `6`
     |
 
-    Here's the [Talker 😃](<../10 📘 Talker specs/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../10 📘 Talker specs/1 😃 Talker.md>).
 
     ```yaml
     # 😃 Talker 

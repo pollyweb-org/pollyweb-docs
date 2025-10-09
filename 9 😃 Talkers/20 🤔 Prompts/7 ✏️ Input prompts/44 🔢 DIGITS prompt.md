@@ -8,7 +8,7 @@
 1. **What's a DIGITS prompt?**
 
     A `DIGITS`
-    * is a [Prompt 🤔](<../../10 📘 Talker specs/02 🤔 Prompt.md>) 
+    * is a [Prompt 🤔](<../../10 📘 Talker specs/2 🤔 Prompt.md>) 
     * that shows the numeric keypad
     * and allows for leading zeros.
   
@@ -40,7 +40,7 @@
     <br/>
 
 
-1. **What's the format of a [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>)?**
+1. **What's the format of a [Talker 😃](<../../10 📘 Talker specs/1 😃 Talker.md>)?**
 
     ```yaml
     # Simplest.
@@ -86,7 +86,7 @@
 
 1. **What's an example of a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)?**
 
-    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../10 📘 Talker specs/02 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../10 📘 Talker specs/2 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What's the code? | 🔢 0123
     [🫥 Agent](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | 🫥 What's the code? | 🔢 01234
@@ -95,7 +95,7 @@
 
     <br/>
     
-    Here's the [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../10 📘 Talker specs/1 😃 Talker.md>).
     
     ```yaml
     - DIGITS|What's the code? >> $code:

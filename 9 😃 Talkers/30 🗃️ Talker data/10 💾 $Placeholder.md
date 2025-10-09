@@ -1,6 +1,6 @@
 # 💾 Talker `$placeholder` 
 
-> Part of [Talker 😃](<../10 📘 Talker specs/01 😃 Talker.md>)
+> Part of [Talker 😃](<../10 📘 Talker specs/1 😃 Talker.md>)
 
 <br/>
 
@@ -10,7 +10,7 @@
     A `$placeholder`
     * is a named memory slot 
     * associated with a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
-    * and managed by a [Talker 😃](<../10 📘 Talker specs/01 😃 Talker.md>).
+    * and managed by a [Talker 😃](<../10 📘 Talker specs/1 😃 Talker.md>).
 
     ---
     <br/>
@@ -18,7 +18,7 @@
 
 1. **How to read a $placeholder?**
 
-    In a [Talker 😃](<../10 📘 Talker specs/01 😃 Talker.md>) script,
+    In a [Talker 😃](<../10 📘 Talker specs/1 😃 Talker.md>) script,
     * placeholders are prefixed with a dollar sign;
     * e.g., `$p` to reference placeholder named `p`.
 
@@ -32,7 +32,7 @@
 
 1. **How to read properties from $placeholder objects?**
 
-    In a [Talker 😃](<../10 📘 Talker specs/01 😃 Talker.md>) script, use `dot` notation to access properties:
+    In a [Talker 😃](<../10 📘 Talker specs/1 😃 Talker.md>) script, use `dot` notation to access properties:
     * `$p.MyProp` reads property `MyProp`
     * `$p.L1.L2` reads property `L2` of property `L1`
 
@@ -60,7 +60,7 @@
     In Python 🐍 code, use the placeholder handler:
     * `.Placeholders.Set('$p', new_value)` 
 
-    In a [Talker 😃](<../10 📘 Talker specs/01 😃 Talker.md>) script, use `>>` to send a value to a $placeholder:
+    In a [Talker 😃](<../10 📘 Talker specs/1 😃 Talker.md>) script, use `>>` to send a value to a $placeholder:
     * `TEXT|bla >> $p` writes the answer to a [`TEXT` 🔠 input](<../20 🤔 Prompts/7 ✏️ Input prompts/32 🔠 TEXT prompt.md>).
     * `EVAL|f >> $p` writes the return of a [{Function}](<12 🐍 {Function}.md>) named `f`.
 

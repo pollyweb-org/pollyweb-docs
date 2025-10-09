@@ -1,6 +1,6 @@
 # ⏸️ Talker `WAIT` flow 
 
-> Part of [Talker 😃](<../10 📘 Talker specs/01 😃 Talker.md>)
+> Part of [Talker 😃](<../10 📘 Talker specs/1 😃 Talker.md>)
 
 > Referenced by the [😃⏩🧑‍💻 Wait ⏸️](<../../5 ⏩ Flows/79 😃⏩ Talkers/30 😃⏩🧑‍💻 Wait ⏸️.md>) flow
 
@@ -53,7 +53,7 @@
 
 1. **How to build a clock?**
 
-    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/02 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/2 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 🕙 Clock | ⏳ It's 17:01
     | 🕙 Clock | ⏳ It's 17:02
@@ -79,7 +79,7 @@
 
 1. **How to wait for a task to complete?**
 
-    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/02 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/2 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 🍕 Pizza | ℹ️ Order submitted 
     | 🍕 Pizza | ⏳ Step `1/3` Order in the queue...
@@ -88,7 +88,7 @@
     | 🍕 Pizza | ✅ Order ready!
     |
 
-    Here's the [Talker 😃](<../10 📘 Talker specs/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../10 📘 Talker specs/1 😃 Talker.md>).
 
     ```yaml
     # 😃 Talker 
@@ -124,7 +124,7 @@
 
 1. **How to wait in a queue?**
 
-    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/02 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/2 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 🏦 Bank | ⏳ There are 21 people ahead of you.
     | 🏦 Bank | ⏳ There are 7 people ahead of you.
@@ -132,7 +132,7 @@
     | 🏦 Bank | 💬 What do you need? | `I need...`
     |
 
-    Here's the [Talker 😃](<../10 📘 Talker specs/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../10 📘 Talker specs/1 😃 Talker.md>).
 
     ```yaml
     # 😃 Talker 

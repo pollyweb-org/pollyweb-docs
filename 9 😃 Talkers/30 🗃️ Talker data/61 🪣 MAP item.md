@@ -1,6 +1,6 @@
 # 🪣 Talker `MAP` command
 
-> Part of [Talker 😃](<../10 📘 Talker specs/01 😃 Talker.md>)
+> Part of [Talker 😃](<../10 📘 Talker specs/1 😃 Talker.md>)
 
 <br/>
 
@@ -11,7 +11,7 @@
     * is a [Command ⌘](<../30 🌊 Talker flows/10 ⌘ Command.md>) 
     * that retrieves an item by key 🔑
     * from a key-value resource pool 🪣
-    * into a [Talker 😃](<../10 📘 Talker specs/01 😃 Talker.md>) placeholder.
+    * into a [Talker 😃](<../10 📘 Talker specs/1 😃 Talker.md>) placeholder.
 
     ---
     <br/>
@@ -100,7 +100,7 @@
     |Key1|1.A|1.B 
     |Key2|2.A|2.B 
     
-    The following [Talker 😃](<../10 📘 Talker specs/01 😃 Talker.md>) renders `ℹ️ 2.A` in the Chat.
+    The following [Talker 😃](<../10 📘 Talker specs/1 😃 Talker.md>) renders `ℹ️ 2.A` in the Chat.
 
     ```yaml
     # 😃 Talker 
@@ -114,7 +114,7 @@
 1. **What does it look in a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)?**
 
 
-    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/02 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/2 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 🍫 Vending | 😃 What's the item number?   | 🔢 123
     | 🍫 Vending | 😃 A water bottle? [Yes, No]  

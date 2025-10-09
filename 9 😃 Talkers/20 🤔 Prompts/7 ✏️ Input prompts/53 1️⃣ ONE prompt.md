@@ -8,7 +8,7 @@
 1. **What's a ONE prompt?**
 
     A `ONE` 
-    * is a blocking input [Prompt 🤔](<../../10 📘 Talker specs/02 🤔 Prompt.md>) 
+    * is a blocking input [Prompt 🤔](<../../10 📘 Talker specs/2 🤔 Prompt.md>) 
     * that allows users to select an option from a list.
 
     ---
@@ -30,7 +30,7 @@
 
 
 
-1. **What's the syntax on a [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>)?**
+1. **What's the syntax on a [Talker 😃](<../../10 📘 Talker specs/1 😃 Talker.md>)?**
 
     ```yaml
     # Simplest.
@@ -70,7 +70,7 @@
 
 1. **What's an example of a `ONE` prompt?**
 
-    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../10 📘 Talker specs/02 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../10 📘 Talker specs/2 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Which one?<br/>- Option [A] <br/>- Option [B] | > A
     [🫥 Agent](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | 🫥 Which one?<br/>- Option [A] <br/>- Option [B] | > A
@@ -79,7 +79,7 @@
    
     <br/>
 
-    Here's the [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../10 📘 Talker specs/1 😃 Talker.md>).
     
     ```yaml
     # Talker 😃
