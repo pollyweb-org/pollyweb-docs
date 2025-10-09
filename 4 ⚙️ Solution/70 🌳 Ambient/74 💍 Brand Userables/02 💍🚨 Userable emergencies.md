@@ -28,7 +28,7 @@
     | 🪄 [Wand](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>)| 😐 Are you the owner? [Yes, No] | > No
     | 🪄 [Wand](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>)| ℹ️ Public notes:<br/>- suffers from epilepsy <br/> - allergic to penicillin
     | 🪄 [Wand](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>)| 😐 Activate emergency? [Yes, No] <br/> - I'll need your location <br/> - your contact details <br/>- and an identity check | > Yes
-    | 🪄 [Wand](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>) | [📍 Share location?](<../../../9 😃 Talkers/50 🤔 Prompts/7 ✏️ Input prompts/91 📍 LOCATION prompt.md>) [Yes, No] | > Yes
+    | 🪄 [Wand](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>) | [📍 Share location?](<../../../9 😃 Talkers/20 🤔 Prompts/7 ✏️ Input prompts/91 📍 LOCATION prompt.md>) [Yes, No] | > Yes
     | 🧢 [Persona](<../../30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) | 🫥 Share contacts ? [Yes, No] | > Yes
     | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Share identity? [Yes, No] | > Yes
     | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../30 🫥 Agents/05 🆔 Identities/21 🆔😶 Face scan.md>)

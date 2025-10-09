@@ -8,7 +8,7 @@
 1. **What is an OFFER message command?**
 
     An `OFFER`
-    * is a message [Command ⌘](<../20 🌊 Talker flows/10 ⌘ Command.md>) 
+    * is a message [Command ⌘](<../30 🌊 Talker flows/10 ⌘ Command.md>) 
     * that invokes the [Save Token @ Wallet ⏩](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/02 🧑‍🦰👉🎴 Save token.md>) flow.
 
     ---
@@ -18,7 +18,7 @@
 1. **What does a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) look like?**
 
     
-    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../50 🤔 Prompts/1 📘 Prompt specs/01 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../20 🤔 Prompts/1 📘 Prompt specs/01 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 🎴 [Issuer](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) | ℹ️ Issuing your token...
     | 🤵 [Broker](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Save token? [Yes, No]  | > Yes
@@ -54,9 +54,9 @@
        Else: FAILURE|You rejected the token.
    ```
 
-   | [Command ⌘](<../20 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
+   | [Command ⌘](<../30 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
    |-|-
-   | ⤵️ [`IF`](<../20 🌊 Talker flows/21 ⤵️ IF flow.md>) | To verify the result.  
+   | ⤵️ [`IF`](<../30 🌊 Talker flows/21 ⤵️ IF flow.md>) | To verify the result.  
    
    ---
    <br/>
