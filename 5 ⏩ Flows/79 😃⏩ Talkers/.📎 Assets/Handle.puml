@@ -25,7 +25,7 @@ deactivate talker
     
 activate hosted
         
-    hosted -> talker: 3) Read 🚀 {$placeholder}
+    hosted -> talker: 3) Placed 🚀 {$placeholder}
 
     activate talker
         talker -> hosted: {$placeholder value}

@@ -22,17 +22,18 @@ activate hosted
     deactivate talker
 
     hosted -> hosted: running...
-    hosted -> talker: 5) Read 🚀 {placeholder}
+    hosted -> talker: 5) Placed 🚀 {placeholder}
     activate talker
         talker --> hosted: {value}
     deactivate talker
 
 
     hosted -> hosted: ...end
-    hosted --> talker: 6) Write 🐌 {signal} 
+    hosted --> talker: 6) Place 🐌 {signal} 
 deactivate hosted
 
 activate talker
+    talker --> talker: wake up
     talker --> user: 7 ⏪ Prompt {done!}
 deactivate talker
 
