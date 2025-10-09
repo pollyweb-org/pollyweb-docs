@@ -336,8 +336,16 @@ def print_results(broken_links, malformed_links):
                     # Create a clickable link with empty [] and <> surrounding the path and line number
                     import urllib.parse
                     import pathlib
+
                     encoded = urllib.parse.quote(relative_file)
                     file_link = f'[ {file_name} ](<{encoded}#L{line_num}>)'
+                    
+                    encoded = urllib.parse.quote(file_name)
+                    file_name_only= os.path.basename(md_file)
+                    encoded = urllib.parse.quote(file_name_only)
+                    encoded = urllib.parse.quote(md_file)
+                    file_link = f'file://{encoded}, line {line_num}'
+                    
                     print(f"\nIn file!: {file_link}")
 
                     print(f"  - Broken link : <{link}>")
