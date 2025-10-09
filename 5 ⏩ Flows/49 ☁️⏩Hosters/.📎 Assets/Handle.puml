@@ -1,26 +1,45 @@
 @startuml Handle
 
 participant "User 🧑\ndomains" as user
-participant "Host 🤗\ndomain" as host
-participant "Talker 😃\nhelper" as talker
+box Hoster 💭 domain #FFFFFA
+    participant "Host 🤗\nrole API" as host
+    participant "Talker 😃\nrole API" as talker
+end box
+participant "Hosted 🧑‍💻\non-prem" as hosted
 
-activate talker
-    talker --> host: 1) Handle 🐌 {function}
-deactivate talker
-    
+'activate host
+    host --> user:  ⏪ Prompt 🤔
+'deactivate host
+
+activate user
+    user --> host: Reply 🤔
+deactivate user
+
 activate host
-        
-    host -> talker: 2) Read 🚀 {$placeholder}
-
-    activate talker
-        talker -> host: {$placeholder value}
-    deactivate talker
-
-    host --> talker: 3) Handled 🐌 {result}
+    host --> talker
 deactivate host
 
 activate talker
-    talker --> user: 4 ⏪ Forward
+    talker --> hosted: 1) Handle 🐌 {function}
 deactivate talker
+    
+activate hosted
+        
+    hosted -> talker: 2) Read 🚀 {$placeholder}
+
+    activate talker
+        talker -> hosted: {$placeholder value}
+    deactivate talker
+
+    hosted --> talker: 3) Handled 🐌 {result}
+deactivate hosted
+
+activate talker
+    talker --> host: {prompt}
+deactivate talker
+
+activate host
+    host --> user: 4 ⏪ Prompt 🤔
+deactivate host
 
 @enduml

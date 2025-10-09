@@ -1,30 +1,32 @@
 @startuml Wait
 
 participant "User 🧑\ndomains" as user
-participant "Host 🤗\ndomain" as host
-participant "Talker 😃\nhelper" as talker
-
+box Hoster 💭 domain #FFFFFA
+    participant "Host 🤗\nrole API" as host
+    participant "Talker 😃\nrole API" as talker
+end box
+participant "Hosted 🧑‍💻\non-prem" as hosted
 
 
 activate talker
-    talker --> host: 1) Handle 🐌 {start}
+    talker --> hosted: 1) Handle 🐌 {start}
 deactivate talker
 
-activate host
-    host -> host: start...
-    host --> talker: 2) Handled 🐌 
+activate hosted
+    hosted -> hosted: start...
+    hosted --> talker: 2) Handled 🐌 
 
     activate talker
-        talker --> user: 3 ⏪ Forward {started}
+        talker --> user: 3 ⏪ Prompt {started}
         talker -> talker: 4) Wait ⏳ {signal}
     deactivate talker
 
-    host -> host: ...end
-    host --> talker: 5) Write 🐌 {signal} 
-deactivate host
+    hosted -> hosted: ...end
+    hosted --> talker: 5) Write 🐌 {signal} 
+deactivate hosted
 
 activate talker
-    talker --> user: 6 ⏪ Forward {done!}
+    talker --> user: 6 ⏪ Prompt {done!}
 deactivate talker
 
 @enduml
