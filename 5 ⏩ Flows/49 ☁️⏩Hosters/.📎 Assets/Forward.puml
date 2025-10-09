@@ -5,7 +5,7 @@ participant "Host 🤗\ndomain" as host
 participant "Talker 😃\nhelper" as talker
 
 activate talker
-    talker --> host: 1) Forward 🐌
+    talker --> host: 1) Forward 🐌 {📨}
 deactivate talker
 
 activate host
@@ -13,11 +13,13 @@ activate host
 deactivate host
 
 activate user
-    user --> host: 3) Response ⏩
-deactivate user
 
+user --> host: 3) Reply 🐌 {prompt}
 activate host
-    host --> talker: 4) Replied 🐌
+user --> host: 5) Receive 🐌 {token}
+user --> host: 7) Consume 🐌 {bind}
+deactivate user
+host --> talker: 8) Returned 🐌 {data}
 deactivate host
 
 

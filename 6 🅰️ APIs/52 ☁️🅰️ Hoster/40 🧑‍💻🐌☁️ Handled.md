@@ -1,4 +1,4 @@
-# 🤗🐌😃 Handled @ Talker
+# 🧑‍💻🐌☁️ Handled @ Hoster
 
 <br/>
 
@@ -9,8 +9,8 @@
 ```yaml
 Header:
     From: any-host.com
-    To: any-talker.com
-    Subject: Handled@Talker
+    To: any-hoster.com
+    Subject: Handled@Hoster
     
 Body:
     Request: <request-uuid>
