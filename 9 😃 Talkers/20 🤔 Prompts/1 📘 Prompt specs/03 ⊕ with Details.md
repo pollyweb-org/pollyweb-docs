@@ -1,13 +1,13 @@
 # 🤔 Prompts with `Details`
 
-> Part of [Prompts 🤔](<../../10 📘 Talker specs/2 🤔 Prompt.md>)
+> Part of [Prompts 🤔](<../../10 📘 Talker specs/20 🤔 Prompt.md>)
 
 <br/>
 
 1. **What are expandable details?**
 
     Expandible details
-    * are additional notes of any [Prompt 🤔](<../../10 📘 Talker specs/2 🤔 Prompt.md>)
+    * are additional notes of any [Prompt 🤔](<../../10 📘 Talker specs/20 🤔 Prompt.md>)
     * rendered in Markdown format by [Wallet 🧑‍🦰 apps](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     * that are initially collapsed to users.
 
@@ -24,7 +24,7 @@
 
 
 
-1. **What's the format for a [Talker 😃](<../../10 📘 Talker specs/1 😃 Talker.md>)?**
+1. **What's the format for a [Talker 😃](<../../10 📘 Talker specs/10 😃 Talker.md>)?**
 
     ```yaml
     <PROMPT>|<statement>:
@@ -34,7 +34,7 @@
     
     | Argument| Purpose | Example
     |-|-|-
-    | `<PROMPT>` | A [Prompt 🤔](<../../10 📘 Talker specs/2 🤔 Prompt.md>) format. | `INFO` `TEMP`
+    | `<PROMPT>` | A [Prompt 🤔](<../../10 📘 Talker specs/20 🤔 Prompt.md>) format. | `INFO` `TEMP`
     | `<statement>` |  Message to show to the user. | `Hi!`
     | `<details>` |  Details to show to the user. | `Bla, bla.`
     
@@ -60,13 +60,13 @@
 
 1. **What's an example in a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)?**
    
-    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../10 📘 Talker specs/2 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Expandable info [+] | > +
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Expandable info [-]<br/>&nbsp;&nbsp;&nbsp;1. Markdown bullet one  <br/>&nbsp;&nbsp;&nbsp;2. Markdown bullet two
     |
 
-    Here's the [Talker 😃](<../../10 📘 Talker specs/1 😃 Talker.md>).
+    Here's the [Talker 😃](<../../10 📘 Talker specs/10 😃 Talker.md>).
     
     ```yaml
     - INFO|Expandable info:

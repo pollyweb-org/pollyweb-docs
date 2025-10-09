@@ -28,8 +28,8 @@
     | 📤 Outbound | YAML | Message outbound configuration.
     | [🛠️ Helpers](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>)  | YAML | Required [Helper 🛠️ domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>).
     | [📜 Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) | YAML | Public information about the [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).
-    | 🔆 [Locators](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) | YAML | Mapping of [Locators 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) to [Talkers 😃](<../10 📘 Talker specs/1 😃 Talker.md>)
-    | 😃 [Talkers](<../10 📘 Talker specs/1 😃 Talker.md>) | Folder | Tree of [💬 Chat](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) scripts by [Locator 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>)
+    | 🔆 [Locators](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) | YAML | Mapping of [Locators 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) to [Talkers 😃](<../10 📘 Talker specs/10 😃 Talker.md>)
+    | 😃 [Talkers](<../10 📘 Talker specs/10 😃 Talker.md>) | Folder | Tree of [💬 Chat](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) scripts by [Locator 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>)
 
 
     ---
@@ -131,7 +131,7 @@
 
 1. **What does the Locators file looks like?**
 
-    The `🔆 Locators.yaml` file contains the mapping of [Locator 🔆 resources](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) to [Talkers 😃](<../10 📘 Talker specs/1 😃 Talker.md>).
+    The `🔆 Locators.yaml` file contains the mapping of [Locator 🔆 resources](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) to [Talkers 😃](<../10 📘 Talker specs/10 😃 Talker.md>).
 
     * Note: only the `resource` part of each [Locator 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) is required.
 
@@ -148,7 +148,7 @@
     ```  
 
 
-    The [Talker 😃](<../10 📘 Talker specs/1 😃 Talker.md>) files reside under the `Talkers/` folder.
+    The [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>) files reside under the `Talkers/` folder.
 
     ```yaml
     😃 Talkers/ # Tree of talkers
@@ -164,5 +164,5 @@
    
     | Method | Purpose
     |-|-
-    [🧑‍💻🚀👥 Evaluate](<../../6 🅰️ APIs/51 🧑‍💻🅰️ Hosted/01 😃🐌🧑‍💻 Handle.md>) | Evaluates [{Functions}](<../30 🗃️ Talker data/12 🐍 {Function}.md>) in [Talkers 😃](<../10 📘 Talker specs/1 😃 Talker.md>)
+    [🧑‍💻🚀👥 Evaluate](<../../6 🅰️ APIs/51 🧑‍💻🅰️ Hosted/01 😃🐌🧑‍💻 Handle.md>) | Evaluates [{Functions}](<../30 🗃️ Talker data/12 🐍 {Function}.md>) in [Talkers 😃](<../10 📘 Talker specs/10 😃 Talker.md>)
     |

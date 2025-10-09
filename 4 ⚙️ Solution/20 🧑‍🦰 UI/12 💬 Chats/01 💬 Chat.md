@@ -35,7 +35,7 @@
     |[✨ QR code](<../11 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>)| Users open the Wallet app on the device, then scan the QR code to open a chat window.
     |[🔆 NFC tag](<../11 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>)| Users tap the NFC tag with their device, regardless of having the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) open - this opens a chat window on the Wallet.
     |[🌐 Link](<../11 🔆 Locators/02 🧑‍🦰🌐 Wallet URLs.md>)| Users click the link/button on the traditional web browser of their device - this opens a chat window on the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
-    |[🤔 Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/2 🤔 Prompt.md>)| In a [Chat 💬](<01 💬 Chat.md>) window, the [Host 🤗 domain](<04 🤗🎭 Host role.md>) provides one or more options for the user to select from, and the user selects one - this opens a new [Chat 💬](<01 💬 Chat.md>) window.
+    |[🤔 Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>)| In a [Chat 💬](<01 💬 Chat.md>) window, the [Host 🤗 domain](<04 🤗🎭 Host role.md>) provides one or more options for the user to select from, and the user selects one - this opens a new [Chat 💬](<01 💬 Chat.md>) window.
 
     ----
     <br/>
@@ -63,7 +63,7 @@
 
     | Component | Behavior
     |-|-
-    | [🤔 Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/2 🤔 Prompt.md>) | [Host 🤗 domains](<04 🤗🎭 Host role.md>) send a question or information to the user.
+    | [🤔 Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [Host 🤗 domains](<04 🤗🎭 Host role.md>) send a question or information to the user.
     | 🗄️ *Bind* | [Vault 🗄️ domains](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>)  request the user to [Bind🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>) to them.
     | 💼 *Share* | [Consumer 💼 domains](<../27 💼 Consumers/04 💼🎭 Consumer role.md>)  request the user to share data from a specific [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) or to share a [Token 🎫](<../25 🎫 Tokens/01 🎫 Token.md>).
     | 💳 *Pay* | [Seller 💵 domains](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>)  request the user's [Payer 💳 agent](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) to pay an amount.
