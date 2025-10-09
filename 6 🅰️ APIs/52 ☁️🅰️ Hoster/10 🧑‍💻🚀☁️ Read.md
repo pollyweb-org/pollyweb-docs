@@ -1,8 +1,13 @@
 # 🧑‍💻🚀☁️ Read @ Hoster
 
-> Paired with [Write@Hoster](<20 🧑‍💻🐌☁️ Write.md>)
+> Implements [Hoster ☁️ helper domain](<../../9 😃 Talkers/90 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>)
 
-<!-- TODO: description and where used -->
+> Part of [Handle @ Hoster ☁️⏩🧑‍💻](<../../5 ⏩ Flows/79 😃⏩ Talkers/20 😃⏩🧑‍💻 Handle.md>) flow
+
+> Reads a [$Placeholder 💾](<../../9 😃 Talkers/30 🗃️ Talker data/10 💾 $Placeholder.md>)
+
+> Paired with [`Write@Hoster`](<20 🧑‍💻🐌☁️ Write.md>) method
+
 
 <br/>
 

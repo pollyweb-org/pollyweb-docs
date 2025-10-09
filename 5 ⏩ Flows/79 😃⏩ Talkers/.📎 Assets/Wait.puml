@@ -21,12 +21,19 @@ activate hosted
         talker -> talker: 4) Wait ⏳ {signal}
     deactivate talker
 
+    hosted -> hosted: running...
+    hosted -> talker: 5) Read 🚀 {placeholder}
+    activate talker
+        talker --> hosted: {value}
+    deactivate talker
+
+
     hosted -> hosted: ...end
-    hosted --> talker: 5) Write 🐌 {signal} 
+    hosted --> talker: 6) Write 🐌 {signal} 
 deactivate hosted
 
 activate talker
-    talker --> user: 6 ⏪ Prompt {done!}
+    talker --> user: 7 ⏪ Prompt {done!}
 deactivate talker
 
 @enduml
