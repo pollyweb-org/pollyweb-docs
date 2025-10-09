@@ -49,8 +49,8 @@ The corresponding [Talker 😃](<../../9 😃 Talkers/10 📘 Talker specs/10 �
     Code: @BILLER/SUBSCRIBE # Run the subscription
 
 - FREEZE >> $inputs:        # Freeze all inputs
-    Billed: {$billed}       # Add billing info
-    Chat: {.Chat}           # Add context
+    Billed: $billed         # Add billing info
+    Chat: $.Chat            # Add context
 
 - EVAL|{Save($inputs)}      # Save the register
 

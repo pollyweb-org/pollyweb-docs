@@ -1,8 +1,10 @@
 # 😃⏩🤗 Wait @ Talker
 
-> Allows for [Hosted 🧑‍💻 domains](<../../9 😃 Talkers/90 ☁️ Hosters/10 🧑‍💻☁️ Hosted domain.md>) to perform long-running tasks.
-
 > Implements [Hoster ☁️ helper domain](<../../9 😃 Talkers/90 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>)
+
+* Allows for [Hosted 🧑‍💻 domains](<../../9 😃 Talkers/90 ☁️ Hosters/10 🧑‍💻☁️ Hosted domain.md>) 
+    * to perform long-running tasks.
+
 
 <br/>
 

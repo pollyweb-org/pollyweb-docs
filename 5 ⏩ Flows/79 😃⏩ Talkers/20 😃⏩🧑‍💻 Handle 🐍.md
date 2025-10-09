@@ -1,7 +1,10 @@
 # 😃⏩🤗 Handle @ Talker
 
-
 > Implements [Hoster ☁️ helper domain](<../../9 😃 Talkers/90 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>)
+
+* [Talkers 😃](<../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>) ask [Hosted 🧑‍💻 domains](<../../9 😃 Talkers/90 ☁️ Hosters/10 🧑‍💻☁️ Hosted domain.md>) 
+    * to handle [{Function} 🐍](<../../9 😃 Talkers/30 🗃️ Talker data/12 🐍 {Function}.md>) evaluations 
+    * and return the computed result.
 
 <br/>
 
