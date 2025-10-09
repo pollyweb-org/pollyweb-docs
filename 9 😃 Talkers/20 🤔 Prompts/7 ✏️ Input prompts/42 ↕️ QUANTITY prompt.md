@@ -7,7 +7,7 @@
 
 1. **What's an QUANTITY prompt?**
 
-    It's a [Prompt 🤔](<../../10 📘 Talker specs/02 🤔 Prompt.md>) that shows up and down arrows - e.g.:
+    It's a [Prompt 🤔](<../../10 📘 Talker specs/2 🤔 Prompt.md>) that shows up and down arrows - e.g.:
     * [Book a restaurant table online 🍽️](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/31 🌐 Web: Book table 🗓️.md>)
     * [Split the bill at a restaurant ✂️](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/74 💳 Pay: Split bill ✂️.md>)
     * [Walk into a full restaurant 🍽️](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/44 🚪 Door: Walk in full.md>)
@@ -27,7 +27,7 @@
     ---
     <br/>
 
-1. **What's the syntax on a [Talker 😃](<../../10 📘 Talker specs/01 😃 Talker.md>)?**
+1. **What's the syntax on a [Talker 😃](<../../10 📘 Talker specs/1 😃 Talker.md>)?**
 
     ```yaml
     # Simplest.
@@ -78,7 +78,7 @@
 
     Here's a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>).
 
-    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../10 📘 Talker specs/02 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../10 📘 Talker specs/2 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 How many? | ↕️ 123
     [🫥 Agent](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | 🫥 How many? | ↕️ 123
@@ -87,7 +87,7 @@
     
     <br/>
 
-    Here's the [Talker 😃](<../../10 📘 Talker specs/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../10 📘 Talker specs/1 😃 Talker.md>).
     
     ```yaml
     # 😃 Talker 
@@ -127,7 +127,7 @@
 
     Use the [`ONE`](<53 1️⃣ ONE prompt.md>) prompt.
 
-    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../10 📘 Talker specs/02 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../10 📘 Talker specs/2 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Table reservation.
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 For how many? [1, 2, more] | > more
@@ -135,7 +135,7 @@
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ⏳ Checking availability... 
     |
 
-    Here's the [Talker 😃](<../../10 📘 Talker specs/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../10 📘 Talker specs/1 😃 Talker.md>).
 
     ```yaml
     # 😃 Talker 
@@ -173,7 +173,7 @@
 
 1. **How does Precision work?**
 
-    When collecting a [`QUANTITY`](<42 ↕️ QUANTITY prompt.md>) input, [Talkers 😃](<../../10 📘 Talker specs/01 😃 Talker.md>) 
+    When collecting a [`QUANTITY`](<42 ↕️ QUANTITY prompt.md>) input, [Talkers 😃](<../../10 📘 Talker specs/1 😃 Talker.md>) 
     * round up the input based on the precision, 
     * and ask confirmation to the user if the value differs.
 
@@ -181,7 +181,7 @@
 
     Here's a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>).
 
-    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../10 📘 Talker specs/02 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../10 📘 Talker specs/2 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 How much? | ↕️ 01234.5
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You entered `1,234.50`
@@ -192,7 +192,7 @@
 
     <br/>
 
-    Here's the [Talker 😃](<../../10 📘 Talker specs/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../10 📘 Talker specs/1 😃 Talker.md>).
     
     ```yaml
     # 😃 Talker 
@@ -234,7 +234,7 @@
 
 1. **What's an example of a QUANTITY default property?**
 
-    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../10 📘 Talker specs/02 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../10 📘 Talker specs/2 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Give me a quantity  | ↕️ 1234
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ I'm storing `1,234`
@@ -243,7 +243,7 @@
 
     <br/>
 
-    Here's the [Talker 😃](<../../10 📘 Talker specs/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../10 📘 Talker specs/1 😃 Talker.md>).
         
     ```yaml
     # 😃 Talker 

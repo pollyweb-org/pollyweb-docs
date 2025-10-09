@@ -1,6 +1,6 @@
 # 😃 Talker `<Command>`
 
-> Part of [Talker 😃](<../10 📘 Talker specs/01 😃 Talker.md>)
+> Part of [Talker 😃](<../10 📘 Talker specs/1 😃 Talker.md>)
 
 <br/>
 
@@ -8,7 +8,7 @@
 
     A `<Command>`
     * is a line starting with a dash `-`
-    * that executes a [Prompt 🤔](<../10 📘 Talker specs/02 🤔 Prompt.md>) or a workflow.
+    * that executes a [Prompt 🤔](<../10 📘 Talker specs/2 🤔 Prompt.md>) or a workflow.
 
     ---
     <br/>
@@ -16,7 +16,7 @@
 
 1. **What are Prompt commands?**
 
-    These are Commands that execute [Prompts 🤔](<../10 📘 Talker specs/02 🤔 Prompt.md>).
+    These are Commands that execute [Prompts 🤔](<../10 📘 Talker specs/2 🤔 Prompt.md>).
 
     ---
     <br/>

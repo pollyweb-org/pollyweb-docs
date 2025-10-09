@@ -9,7 +9,7 @@
 1. **What's an AMOUNT prompt?**
 
     An `AMOUNT` 
-    * is a [Prompt 🤔](<../../10 📘 Talker specs/02 🤔 Prompt.md>) 
+    * is a [Prompt 🤔](<../../10 📘 Talker specs/2 🤔 Prompt.md>) 
     * that adds currency awareness
     * to the decimal behavior of the [`QUANTITY`](<42 ↕️ QUANTITY prompt.md>) prompt.
 
@@ -37,7 +37,7 @@
     ---
     <br/>
 
-1. **What's the syntax of AMOUNT in a [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>)?**
+1. **What's the syntax of AMOUNT in a [Talker 😃](<../../10 📘 Talker specs/1 😃 Talker.md>)?**
 
     ```yaml
     # Simplest.
@@ -90,7 +90,7 @@
 
 
 
-    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../10 📘 Talker specs/02 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../10 📘 Talker specs/2 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 How much? | 💰 1234.5678
     [🫥 Agent](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | 🫥 How much? | 💰 12345.6
@@ -99,7 +99,7 @@
 
     <br/>
 
-    Here's the [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../10 📘 Talker specs/1 😃 Talker.md>).
     
     ```yaml
     # 😃 Talker 
@@ -159,7 +159,7 @@
 
 1. **How does AMOUNT process money signs?**
 
-    When collecting an [`AMOUNT`](<43 💰 AMOUNT prompt.md>) input, [Talkers 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>) 
+    When collecting an [`AMOUNT`](<43 💰 AMOUNT prompt.md>) input, [Talkers 😃](<../../10 📘 Talker specs/1 😃 Talker.md>) 
     * identity and clean monetary characters
     * while storing the currencies in their original currency.
 

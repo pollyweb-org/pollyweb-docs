@@ -12,7 +12,7 @@
 
 Consider the following [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) as an example.
 
-| [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../9 😃 Talkers/10 📘 Talker specs/02 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+| [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../9 😃 Talkers/10 📘 Talker specs/2 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
 | - | - | - |
 | 🤗 [Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What do you need? <br/> - [ Something ] <br> - [ Something else ]  | 
 ||
@@ -22,7 +22,7 @@ Consider the following [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12
 
 ## 😃 Talker 
 
-The associated [Talker 😃](<../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>) would be the following.
+The associated [Talker 😃](<../../9 😃 Talkers/10 📘 Talker specs/1 😃 Talker.md>) would be the following.
 
 ```yaml
 💬 Something:

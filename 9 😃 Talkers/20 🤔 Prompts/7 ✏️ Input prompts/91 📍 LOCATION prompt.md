@@ -6,7 +6,7 @@
 
 1. **What's a LOCATION prompt?**
 
-    It's a [Prompt 🤔](<../../10 📘 Talker specs/02 🤔 Prompt.md>) that asks for the user's current location.
+    It's a [Prompt 🤔](<../../10 📘 Talker specs/2 🤔 Prompt.md>) that asks for the user's current location.
 
     ---
     <br/>
@@ -14,7 +14,7 @@
 
 1. **What's an example of a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)?**
 
-    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../10 📘 Talker specs/02 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../10 📘 Talker specs/2 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 🤗 Host | ℹ️ Tell us where you are.
     | 🤗 Host | [📍 Share location?](<91 📍 LOCATION prompt.md>)  | > Yes
@@ -36,7 +36,7 @@
     <br/>
 
 
-1. **What's the format for a [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>)?**
+1. **What's the format for a [Talker 😃](<../../10 📘 Talker specs/1 😃 Talker.md>)?**
 
     ```yaml
     - LOCATION >> $placeholder
@@ -49,7 +49,7 @@
     ---
     <br/>
 
-1. **What's an example of a [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>)?**
+1. **What's an example of a [Talker 😃](<../../10 📘 Talker specs/1 😃 Talker.md>)?**
 
     ```yaml
     - LOCATION >> $loc

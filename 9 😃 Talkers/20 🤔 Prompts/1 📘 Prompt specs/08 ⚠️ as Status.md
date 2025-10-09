@@ -1,6 +1,6 @@
 # 🤔 Non-blocking status prompts 
 
-> Part of [Prompts 🤔](<../../10 📘 Talker specs/02 🤔 Prompt.md>)
+> Part of [Prompts 🤔](<../../10 📘 Talker specs/2 🤔 Prompt.md>)
 
 > Changes the default behavior of [Prompt with Options 🔘](<04 🔘 with Options.md>)
 
@@ -8,7 +8,7 @@
 
 1. **What are non-blocking status prompts?**
 
-    These are [Prompts 🤔](<../../10 📘 Talker specs/02 🤔 Prompt.md>) that don't wait for user input.
+    These are [Prompts 🤔](<../../10 📘 Talker specs/2 🤔 Prompt.md>) that don't wait for user input.
 
     ---
     <br/>
@@ -28,13 +28,13 @@
 
 1. **What's an example of non-blocking prompts?**
 
-    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../10 📘 Talker specs/02 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../10 📘 Talker specs/2 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Any non-blocking status.
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 I'm blocking inputs, OK? [ Yes, No ] | > Yes
     |
 
-    Here's the [Talker 😃](<../../10 📘 Talker specs/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../10 📘 Talker specs/1 😃 Talker.md>).
     
     ```yaml
     # 😃 Talker 
@@ -48,7 +48,7 @@
 1. **How do non-blocking options work?**
    
     Non-blocking status prompts support [`Options`](<04 🔘 with Options.md>).
-    - If it contains [`Options`](<04 🔘 with Options.md>), then the user may click an option any time before or after the [Host 🤗 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) sends other subsequent [Prompts 🤔](<../../10 📘 Talker specs/02 🤔 Prompt.md>).
+    - If it contains [`Options`](<04 🔘 with Options.md>), then the user may click an option any time before or after the [Host 🤗 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) sends other subsequent [Prompts 🤔](<../../10 📘 Talker specs/2 🤔 Prompt.md>).
     - See a full example at [Driver pick-up on pizza delivery 🛵](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/82 🛵 Driver: Pick-up.md>).
     
     ---
@@ -58,13 +58,13 @@
 1. **What's an example of non-blocking options?**
 
 
-    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../10 📘 Talker specs/02 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../10 📘 Talker specs/2 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ With options:<br/>- [ Cancel ] later <br>- [ Play ] music | > Cancel
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 I'm blocking, but  did <br/>   you know that you can still<br/>   go back and cancel? <br/> - [ Yes, I did ] <br/> - [ No, I didn't ]
     |
 
-    Here's the [Talker 😃](<../../10 📘 Talker specs/01 😃 Talker.md>).
+    Here's the [Talker 😃](<../../10 📘 Talker specs/1 😃 Talker.md>).
     
     ```yaml
     # 😃 Talker
