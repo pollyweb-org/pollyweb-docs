@@ -11,4 +11,5 @@
 
 | # | Call | Description
 |-|-|-
-| 1 | 
+|1| [🤗⏩🧑‍🦰 Prompt 🤔](<../50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Talkers 😃](<../../9 😃 Talkers/10 📘 Talker specs/01 😃 Talker.md>) handle replies to [Prompts 🤔](<../../9 😃 Talkers/50 🤔 Prompts/1 📘 Prompt specs/01 🤔 Prompt.md>)
+|

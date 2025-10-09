@@ -8,7 +8,7 @@ end box
 participant "Hosted 🧑‍💻\non-prem" as hosted
 
 'activate host
-    host --> user:  ⏪ Prompt 🤔
+    host --> user: 1 ⏪ Prompt 🤔
 'deactivate host
 
 activate user
@@ -16,22 +16,22 @@ activate user
 deactivate user
 
 activate host
-    host --> talker
+    host --> talker: {reply}
 deactivate host
 
 activate talker
-    talker --> hosted: 1) Handle 🐌 {function}
+    talker --> hosted: 2) Handle 🐌 {function}
 deactivate talker
     
 activate hosted
         
-    hosted -> talker: 2) Read 🚀 {$placeholder}
+    hosted -> talker: 3) Read 🚀 {$placeholder}
 
     activate talker
         talker -> hosted: {$placeholder value}
     deactivate talker
 
-    hosted --> talker: 3) Handled 🐌 {result}
+    hosted --> talker: 4) Handled 🐌 {result}
 deactivate hosted
 
 activate talker
@@ -39,7 +39,7 @@ activate talker
 deactivate talker
 
 activate host
-    host --> user: 4 ⏪ Prompt 🤔
+    host --> user: 5 ⏪ Prompt 🤔
 deactivate host
 
 @enduml
