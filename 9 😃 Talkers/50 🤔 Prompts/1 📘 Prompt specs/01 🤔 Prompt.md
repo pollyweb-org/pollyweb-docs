@@ -28,7 +28,7 @@
     |Behavior| Format 
     |-|-
     |[`Status`](<08 ⚠️ as Status.md>)| [`ℹ️ INFO`](<../4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<../4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<../4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<../4 ⚠️ Status prompts/24 ❌ FAILURE prompt.md>)
-    |[`Inputs`](<09 ✏️ as Input.md>)| [`🔢 DIGITS`](<../7 ✏️ Input prompts/44 🔢 DIGITS prompt.md>) [`🔄 QUANTITY`](<../7 ✏️ Input prompts/42 🔄 QUANTITY prompt.md>) [`💰 AMOUNT`](<../7 ✏️ Input prompts/43 💰 AMOUNT prompt.md>) [`🔑 OTP`](<../7 ✏️ Input prompts/57 🔑 OTP prompt.md>) [`⭐ RATE`](<../7 ✏️ Input prompts/46 ⭐ RATE prompt.md>) 
+    |[`Inputs`](<09 ✏️ as Input.md>)| [`🔢 DIGITS`](<../7 ✏️ Input prompts/44 🔢 DIGITS prompt.md>) [`↕️ QUANTITY`](<../7 ✏️ Input prompts/42 ↕️ QUANTITY prompt.md>) [`💰 AMOUNT`](<../7 ✏️ Input prompts/43 💰 AMOUNT prompt.md>) [`🔑 OTP`](<../7 ✏️ Input prompts/57 🔑 OTP prompt.md>) [`⭐ RATE`](<../7 ✏️ Input prompts/46 ⭐ RATE prompt.md>) 
     || [`👍 CONFIRM`](<../7 ✏️ Input prompts/31 👍 CONFIRM prompt.md>) [`1️⃣ ONE`](<../7 ✏️ Input prompts/53 1️⃣ ONE prompt.md>) [`🔢 MANY`](<../7 ✏️ Input prompts/54 🔠 MANY prompt.md>) 
     || [`🕓 TIME`](<../7 ✏️ Input prompts/62 🕓 TIME prompt.md>) [`📆 DATE`](<../7 ✏️ Input prompts/61 📆 DATE prompt.md>) 
     || [`⬆️ UPLOAD`](<../7 ✏️ Input prompts/81 ⬆️ UPLOAD prompt.md>)

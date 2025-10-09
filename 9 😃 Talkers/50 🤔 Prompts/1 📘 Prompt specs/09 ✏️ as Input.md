@@ -30,7 +30,7 @@
     | [👍&nbsp;CONFIRM](<../7 ✏️ Input prompts/31 👍 CONFIRM prompt.md>) | Yes, No, Cancel
     | [🔠&nbsp;TEXT](<../7 ✏️ Input prompts/32 🔠 TEXT prompt.md>) | Asks for a text input
     | [🔢&nbsp;DIGITS](<../7 ✏️ Input prompts/44 🔢 DIGITS prompt.md>) | Shows the numeric keypad
-    | [🔄&nbsp;QUANTITY](<../7 ✏️ Input prompts/42 🔄 QUANTITY prompt.md>) | Shows up/down arrows.
+    | [↕️&nbsp;QUANTITY](<../7 ✏️ Input prompts/42 ↕️ QUANTITY prompt.md>) | Shows up/down arrows.
     | [💰&nbsp;AMOUNT](<../7 ✏️ Input prompts/43 💰 AMOUNT prompt.md>) | Allows for decimals
     | [🔑&nbsp;OTP](<../7 ✏️ Input prompts/57 🔑 OTP prompt.md>) | Asks for 6 digits
     | [1️⃣&nbsp;ONE](<../7 ✏️ Input prompts/53 1️⃣ ONE prompt.md>) | One of multiple options
