@@ -1,1 +1,0 @@
-![alt text](<.📎 Assets/Wait.png>)

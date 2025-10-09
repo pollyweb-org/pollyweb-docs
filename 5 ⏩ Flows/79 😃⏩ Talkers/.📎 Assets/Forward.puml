@@ -9,11 +9,11 @@ activate talker
 deactivate talker
 
 activate host
-    host --> user: 2 ⏪ Prompt 
+    host --> user: 2) ⏪ Request 📨
 deactivate host
 
 activate user
-    user --> host: 3) Reply 🐌
+    user --> host: 3) Response ⏩
 deactivate user
 
 activate host
@@ -22,3 +22,4 @@ deactivate host
 
 
 @enduml
+

@@ -4,7 +4,7 @@ participant "User 🧑\ndomains" as user
 participant "Host 🤗\ndomain" as host
 participant "Talker 😃\nhelper" as talker
 
-user --> host: 1) Hello
+user --> host: 1) Hello 🐌
 activate host
     host --> talker: 2) Talk 🐌
 deactivate host
