@@ -1,6 +1,6 @@
 # 💼 Talker SHARE command
 
-> Part of [Talker 😃](<../10 📘 Talker specs/1 😃 Talker.md>)
+> Part of [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>)
 
 <br/>
 
@@ -52,7 +52,7 @@
 1. **What does the `@` character mean in a code?**
 
     Given that the [Schema Codes 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) defined by `nlweb.org` will be widely used, 
-    * [Talkers 😃](<../10 📘 Talker specs/1 😃 Talker.md>) accept the character `@` as a prefix of `nlweb.org/`.
+    * [Talkers 😃](<../10 📘 Talker specs/10 😃 Talker.md>) accept the character `@` as a prefix of `nlweb.org/`.
     * Consider the following equal examples.
 
         ```yaml
@@ -65,7 +65,7 @@
 
 1. **What does a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) look like?**
 
-    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/2 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 💼 [Consumer](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) | ℹ️ Tell me your name.
     | 🧢 [Persona](<../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) | 🫥 Share social name? [No] <br/> - [ Personal ] 🧑‍🦰 <br/> - [ Work ] 💼       | > Personal

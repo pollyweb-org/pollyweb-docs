@@ -96,7 +96,7 @@
     | 🛠️ [Helper](<05 🛠️👥 Helper domain.md>) | ✅ Done!
     |
 
-    Here's the [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/1 😃 Talker.md>).
+    Here's the [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>).
 
     ```yaml
     💬 Register:                # Entry menu

@@ -9,7 +9,7 @@
 1. **What's a `TIME` prompt?**
 
     A `TIME`
-    * is a [Prompt 🤔](<../../10 📘 Talker specs/2 🤔 Prompt.md>) 
+    * is a [Prompt 🤔](<../../10 📘 Talker specs/20 🤔 Prompt.md>) 
     * that asks for a time
     * in the user's timezone (not UTC).
 
@@ -17,7 +17,7 @@
     <br/>
 
 
-1. **What's the format of a [Talker 😃](<../../10 📘 Talker specs/1 😃 Talker.md>)?**
+1. **What's the format of a [Talker 😃](<../../10 📘 Talker specs/10 😃 Talker.md>)?**
 
     ```yaml
     TIME|<statement> >> $placeholder
@@ -34,13 +34,13 @@
 1. **What's an example of a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)?**
 
 
-    Here's the [Talker 😃](<../../10 📘 Talker specs/1 😃 Talker.md>).
+    Here's the [Talker 😃](<../../10 📘 Talker specs/10 😃 Talker.md>).
     
     ```yaml
     TIME|What time? >> $time
     ```
 
-    | Domain | [Prompt 🤔](<../../10 📘 Talker specs/2 🤔 Prompt.md>) | User
+    | Domain | [Prompt 🤔](<../../10 📘 Talker specs/20 🤔 Prompt.md>) | User
     | - | - | - |
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What time? | 🕓 10:30:00
     [🫥 Agent](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | 🫥 What time? | 🕓 10:30:00
@@ -58,7 +58,7 @@
 
     Mix with [ONE 1️⃣ prompts](<53 1️⃣ ONE prompt.md>), like in the following [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>).
 
-    | Domain | [Prompt 🤔](<../../10 📘 Talker specs/2 🤔 Prompt.md>) | User
+    | Domain | [Prompt 🤔](<../../10 📘 Talker specs/20 🤔 Prompt.md>) | User
     | - | - | - |
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 [What time tomorrow?](<53 1️⃣ ONE prompt.md>) <br/> - [ 10:00 ] <br/> - [ 10:30 ] <br/> - [ Another ] time | > Another
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 When exactly? | 🕓 10:37:00
@@ -67,7 +67,7 @@
 
     <br/>
 
-    The associated [Talker 😃](<../../10 📘 Talker specs/1 😃 Talker.md>) would be the following.
+    The associated [Talker 😃](<../../10 📘 Talker specs/10 😃 Talker.md>) would be the following.
 
     ```yaml
     💬 Schedule for tomorrow:

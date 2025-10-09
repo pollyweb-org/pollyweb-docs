@@ -1,6 +1,6 @@
 # 🔀 Talker `CASE` flow 
 
-> Part of [Talker 😃](<../10 📘 Talker specs/1 😃 Talker.md>)
+> Part of [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>)
 
 <br/>
 
@@ -70,12 +70,12 @@
 
 1. **What's an example with function logic?**
 
-    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/2 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Hi, premium customer!
     |
 
-    Here's the [Talker 😃](<../10 📘 Talker specs/1 😃 Talker.md>).
+    Here's the [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>).
 
     ```yaml
     # 😃 Talker
@@ -105,13 +105,13 @@
 1. **What's an example with inputs?**
 
 
-    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/2 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 [Select an option.](<../20 🤔 Prompts/7 ✏️ Input prompts/53 1️⃣ ONE prompt.md>) <br/> - [ A ] <br/> - [ B ] <br/> - [ C ] | > B
     | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You selected option B.
     |
 
-    Here's the [Talker 😃](<../10 📘 Talker specs/1 😃 Talker.md>).
+    Here's the [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>).
    
     ```yaml
     # 😃 Talker

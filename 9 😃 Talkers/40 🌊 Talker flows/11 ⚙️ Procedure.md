@@ -1,6 +1,6 @@
 # ⚙️ Talker `<procedure>:`
 
-> Part of [Talker 😃](<../10 📘 Talker specs/1 😃 Talker.md>)
+> Part of [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>)
 
 <br/>
 

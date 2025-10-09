@@ -1,14 +1,14 @@
 # 🤔 Prompts with `Options`
 
 
-> Part of [Prompts 🤔](<../../10 📘 Talker specs/2 🤔 Prompt.md>)
+> Part of [Prompts 🤔](<../../10 📘 Talker specs/20 🤔 Prompt.md>)
 
 <br/>
 
 1. **What is a prompt with options?**
 
     Option-enabled prompts 
-    * are [Prompts 🤔](<../../10 📘 Talker specs/2 🤔 Prompt.md>)
+    * are [Prompts 🤔](<../../10 📘 Talker specs/20 🤔 Prompt.md>)
     * that allow users to select na option.
 
     ---
@@ -23,7 +23,7 @@
     
         * e.g., [`INFO`](<../4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>), [`TEMP`](<../4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>), [`SUCCESS`](<../4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>), and [`FAILURE`](<../4 ⚠️ Status prompts/24 ❌ FAILURE prompt.md>).
   
-        * [Host 🤗 domains](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) speed-up [Chats 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) by taking unilateral two-way-door decisions that can be reverted by users even after other [Prompts 🤔](<../../10 📘 Talker specs/2 🤔 Prompt.md>) have been sent.
+        * [Host 🤗 domains](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) speed-up [Chats 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) by taking unilateral two-way-door decisions that can be reverted by users even after other [Prompts 🤔](<../../10 📘 Talker specs/20 🤔 Prompt.md>) have been sent.
 
         * For example, [Host 🤗 domains](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) may assign default values to options to speed up the process (e.g., [navigation options 🤝](<../../../3 🤝 Use Cases/03 🧳 Travel/01 🧳 Plans trips 🧭/02 🧭 Return @ Destination.md>)), while still allowing users to go back and change those default options.
 
@@ -47,7 +47,7 @@
 
 1. **What are the prompts with options?**
 
-    |Behavior| [Prompt 🤔](<../../10 📘 Talker specs/2 🤔 Prompt.md>) 
+    |Behavior| [Prompt 🤔](<../../10 📘 Talker specs/20 🤔 Prompt.md>) 
     |-|-
     |[`Status`](<08 ⚠️ as Status.md>)| [`ℹ️ INFO`](<../4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<../4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<../4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<../4 ⚠️ Status prompts/24 ❌ FAILURE prompt.md>)
     |[`Inputs`](<09 ✏️ as Input.md>) | [`1️⃣ ONE`](<../7 ✏️ Input prompts/53 1️⃣ ONE prompt.md>) [`🔢 MANY`](<../7 ✏️ Input prompts/54 🔠 MANY prompt.md>)  [`🔠 TEXT`](<../7 ✏️ Input prompts/32 🔠 TEXT prompt.md>) 
@@ -59,7 +59,7 @@
 
 
 
-1. **What's the format for a [Talker 😃](<../../10 📘 Talker specs/1 😃 Talker.md>)?**
+1. **What's the format for a [Talker 😃](<../../10 📘 Talker specs/10 😃 Talker.md>)?**
 
     ```yaml
     # Simplest
@@ -68,7 +68,7 @@
 
     | Argument| Purpose | Example
     |-|-|-
-    | `<PROMPT>` | A [Prompt 🤔](<../../10 📘 Talker specs/2 🤔 Prompt.md>) format. | [`INFO`](<../4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) [`TEMP`](<../4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>)
+    | `<PROMPT>` | A [Prompt 🤔](<../../10 📘 Talker specs/20 🤔 Prompt.md>) format. | [`INFO`](<../4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) [`TEMP`](<../4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>)
     | `<statement>` |  Message to show to the user. | `Hi!`
     | `<options>` | Comma-separated strings, or | `A,B,C`
     || a comma-separated dictionary | `1:A,2:B`
@@ -136,13 +136,13 @@
 
     > Note: [non-blocking status prompts ⚠️](<08 ⚠️ as Status.md>) behave slightly differently.
 
-    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../10 📘 Talker specs/2 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What to do? <br>- [ Play ] music <br/>- [ Share ] list | > Play
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ You opted to play.
     |  
 
-    Here's the [Talker 😃](<../../10 📘 Talker specs/1 😃 Talker.md>).
+    Here's the [Talker 😃](<../../10 📘 Talker specs/10 😃 Talker.md>).
 
     ```yaml
     # 😃 Talker
@@ -195,7 +195,7 @@
 
 1. **What's a Locator example in a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)?**
 
-    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../10 📘 Talker specs/2 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What to do?<br>- [ Play ] music <br/>- [ Share ] list <br/> - [ Speak ] with singer 🔆 | > Speak
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Over to 👨‍🎤 Any Singer.
@@ -211,7 +211,7 @@
 
     <br/>
 
-    Here's the [Talker 😃](<../../10 📘 Talker specs/1 😃 Talker.md>).
+    Here's the [Talker 😃](<../../10 📘 Talker specs/10 😃 Talker.md>).
 
     
   
