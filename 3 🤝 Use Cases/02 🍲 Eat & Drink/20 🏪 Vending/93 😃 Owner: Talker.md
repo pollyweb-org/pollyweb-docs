@@ -23,15 +23,16 @@ TODO: Add the flow to the Manifest
 - DIGITS|What's the item number? >> number
 
 # Confirm using the item's name.
-- MAP|Items|{$number} >> item
+- MAP|Items|$number >> item
 - CONFIRM|A {$item.Name}?     
 
 # Ask proof of over 21 if needed.
-- IF|{$item.21+}:
+- IF|$item.21+:
     Then: SHARE|nlweb.org/IDENTITY/OVER-21
 
 # Charge the item price.
-- CHARGE|{$item.Price}     
+# * FREEZE is executed automatically.
+- CHARGE|$item.Price
 
 # Deliver the item.
 - TEMP|Delivering...   
@@ -40,7 +41,7 @@ TODO: Add the flow to the Manifest
 - MAP|Locators|$.Chat.Key >> locator
 
 # Relay the Open command to the vending machine.
-- RELAY|Machines|{$locator.MachineKey} >> relayed
+- RELAY|Machines|$locator.MachineKey >> relayed
     Script: Open({$item.Number})
     OnFailure: Failure
     OnSuccess: Success
@@ -58,10 +59,9 @@ fail:
 Success:
 - SUCCESS|Pick up the item. # Inform the user
 - GOODBYE                   # Show review, ads
-- EVAL >> sold:             # Create the sell
+- EVAL|Deduct:              # Deduct the stock
     Machine: $.Chat.Key
-    Item: $item.Number
-- EVAL|{Deduct($sold)}      # Deduct the stock
+    Item: $item.Number    
 ```
 
 <br/>
@@ -73,7 +73,7 @@ Success:
 | [🧩 `//IDENTITY/OVER21`](<../../../7 🧩 Codes/IDENTITY/🧩 IdentityOver21.md>) | Verify minimum age to drink
 | [🪣 `Items`](<94 🪣 Owner: Items.md>) | List of items to [`MAP`](<../../../9 😃 Talkers/30 🗃️ Talker data/61 🪣 MAP item.md>)
 | [🪣 `Locators`](<95 🪣 Owner: Locators.md>) | List of machines to [`MAP`](<../../../9 😃 Talkers/30 🗃️ Talker data/61 🪣 MAP item.md>)
-| [`$.Chat.Key`](<../../../9 😃 Talkers/30 🗃️ Talker data/13 💬 {.Chat} placeholder.md>) | Get the machine's [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) key
+| 💬 [`$.Chat.Key`](<../../../9 😃 Talkers/30 🗃️ Talker data/11 💬 $.Chat holder.md>) | Get the machine's [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) key
 |
 
 <br/>
@@ -97,13 +97,13 @@ Success:
 |Status| ⏳ [`TEMP`](<../../../9 😃 Talkers/20 🤔 Prompts/4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>) | Show delivering status
 || ✅ [`SUCCESS`](<../../../9 😃 Talkers/20 🤔 Prompts/4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>) | Ask to pick the item
 || ❌ [`FAILURE`](<../../../9 😃 Talkers/20 🤔 Prompts/4 ⚠️ Status prompts/24 ❌ FAILURE prompt.md>) | To show in case of error
-|Flow| ⤵️ [`IF`](<../../../9 😃 Talkers/40 🌊 Talker flows/21 ⤵️ IF flow.md>)
-||⬇️ [`EVAL`](<../../../9 😃 Talkers/30 🗃️ Talker data/20 ⬇️ EVAL flow.md>)
-||🪵 [`LOG`](<../../../9 😃 Talkers/30 🗃️ Talker data/15 🪵 LOG flow.md>)
+|Flow| ⤵️ [`IF`](<../../../9 😃 Talkers/40 🌊 Talker flows/21 ⤵️ IF flow.md>) | To see if 21+ check is needed
+||⬇️ [`EVAL`](<../../../9 😃 Talkers/30 🗃️ Talker data/20 ⬇️ EVAL flow.md>) | To deduct the value on errors
+||🪵 [`LOG`](<../../../9 😃 Talkers/30 🗃️ Talker data/15 🪵 LOG flow.md>) | To log eventual errors
 |Message| 💼 [`SHARE`](<../../../9 😃 Talkers/60 ⏩ Msg flows/45 💼 SHARE msg.md>) | Ask for proof of over 21
 || 💳 [`CHARGE`](<../../../9 😃 Talkers/60 ⏩ Msg flows/47 💳 CHARGE msg.md>) | Charge the item price
 || 🏦 [`REFUND`](<../../../9 😃 Talkers/60 ⏩ Msg flows/48 🏦 REFUND.md>) | Refund the payment on failure
 || 👋 [`GOODBYE`](<../../../9 😃 Talkers/60 ⏩ Msg flows/50 👋 GOODBYE.md>) | Show ads on success
-|| 🛰️ [`RELAY`](<../../../9 😃 Talkers/60 ⏩ Msg flows/51 🛰️ RELAY msg.md>) | Relay messages to vending machines
+|| 🛰️ [`RELAY`](<../../../9 😃 Talkers/60 ⏩ Msg flows/51 🛰️ RELAY msg.md>) | Relay messages to  machines
 |
 
