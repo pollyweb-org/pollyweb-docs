@@ -1,5 +1,35 @@
 # 🧑‍💻🛠️ Hoster helper
 
+
+
+
+<br/> 
+
+1. **Flows?**
+
+    |Flow|Details
+    |-|-
+    |Ready    | Informs ready for commands.
+    |Evaluate | Request to evaluate a function.
+    
+    ---
+    <br/>
+    
+
+1. **API Methods?**
+
+    |Method|Details
+    |-|-
+    | About:chat| Returns info about the Chat.
+    | Read(name) | Get the value of a $placeholder.
+    | Write(name, value) | Set the value of a $placeholder.
+    | Command(yaml) | Send a command.
+    | Function(args) | Calculates a built-in function.
+
+    ---
+    <br/>
+    
+
 |.|.|.
 |-|-|-
 |3| `Clone`| On a workstation terminal, <br/>the user [scans ✨](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) the terminal QR code <br/>to link the terminal to the [Wallet 🧑‍🦰 app](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)<br/>and download the [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) settings.

@@ -11,5 +11,5 @@
     "cSpell.ignoreWords": [
         "md"
     ],
-    "markdown.validate.enabled": true
+    "markdown.validate.enabled": false
 }
