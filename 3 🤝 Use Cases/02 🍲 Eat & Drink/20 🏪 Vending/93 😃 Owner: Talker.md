@@ -37,7 +37,7 @@ TODO: Add the flow to the Manifest
 - TEMP|Delivering...   
 
 # Find the MachineKey from the Chat Locator
-- MAP|Locators|{.Chat.Key} >> locator
+- MAP|Locators|$.Chat.Key >> locator
 
 # Relay the Open command to the vending machine.
 - RELAY|Machines|{$locator.MachineKey} >> relayed
@@ -48,9 +48,9 @@ TODO: Add the flow to the Manifest
 # Show error.
 fail:
 - FAILURE|It didn't work!   # Inform the user
-- REFUND|{$item.Price}      # Refund the value
+- REFUND|$item.Price        # Refund the value
 - LOG:
-    Machine: {.Chat.Key}
+    Machine: $.Chat.Key
     Item: $item.Number
     Relay: $relayed
 
@@ -59,7 +59,7 @@ Success:
 - SUCCESS|Pick up the item. # Inform the user
 - GOODBYE                   # Show review, ads
 - EVAL >> sold:             # Create the sell
-    Machine: {.Chat.Key}
+    Machine: $.Chat.Key
     Item: $item.Number
 - EVAL|{Deduct($sold)}      # Deduct the stock
 ```
@@ -73,6 +73,7 @@ Success:
 | [🧩 `//IDENTITY/OVER21`](<../../../7 🧩 Codes/IDENTITY/🧩 IdentityOver21.md>) | Verify minimum age to drink
 | [🪣 `Items`](<94 🪣 Owner: Items.md>) | List of items to [`MAP`](<../../../9 😃 Talkers/30 🗃️ Talker data/61 🪣 MAP item.md>)
 | [🪣 `Locators`](<95 🪣 Owner: Locators.md>) | List of machines to [`MAP`](<../../../9 😃 Talkers/30 🗃️ Talker data/61 🪣 MAP item.md>)
+| [`$.Chat.Key`](<../../../9 😃 Talkers/30 🗃️ Talker data/13 💬 {.Chat} placeholder.md>) | Get the machine's [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) key
 |
 
 <br/>
@@ -81,7 +82,6 @@ Success:
 
 [Functions](<../../../9 😃 Talkers/30 🗃️ Talker data/12 🐍 {Function}.md>)| Type | Purpose
 |-|-|-
-| [`.Chat.Key`](<../../../9 😃 Talkers/30 🗃️ Talker data/13 💬 {.Chat} function.md>) | Built-in | Get machine's [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) key.
 | `Deduct` | Custom | Deduct the stock from the ERP.
 |
 

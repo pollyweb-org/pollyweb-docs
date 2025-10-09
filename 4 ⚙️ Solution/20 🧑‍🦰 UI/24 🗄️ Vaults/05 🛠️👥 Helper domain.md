@@ -108,8 +108,8 @@
         Code: @BILLER/SUBSCRIBE # Run the subscription
     
     - FREEZE >> $inputs:        # Freeze all inputs
-        Billed: {$billed}       # Add billing info
-        Chat: {.Chat}           # Add context
+        Billed: $billed         # Add billing info
+        Chat: $.Chat            # Add context
 
     - EVAL|{Save($inputs)}      # Save the register
 

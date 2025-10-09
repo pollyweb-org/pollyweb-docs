@@ -34,7 +34,7 @@
 💬|Reserve a table:
 
 # Show the restaurant name
-- MAP|Restaurant|{.Chat.Key} >> $r
+- MAP|Restaurant|$.Chat.Key >> $r
 - INFO|{$r.Name}
 
 # Confirmations
