@@ -7,7 +7,7 @@
 1. **What is a SHARE message command?**
 
     A `SHARE`
-    * is a message [Command ⌘](<../20 🌊 Talker flows/10 ⌘ Command.md>) 
+    * is a message [Command ⌘](<../30 🌊 Talker flows/10 ⌘ Command.md>) 
     * that asks for user data in [Schema Codes 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)
     * triggering the following flows:
       * [🧑‍🦰👉💼 Share Bind @ Wallet](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind.md>)
@@ -65,7 +65,7 @@
 
 1. **What does a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) look like?**
 
-    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../50 🤔 Prompts/1 📘 Prompt specs/01 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../20 🤔 Prompts/1 📘 Prompt specs/01 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 💼 [Consumer](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) | ℹ️ Tell me your name.
     | 🧢 [Persona](<../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) | 🫥 Share social name? [No] <br/> - [ Personal ] 🧑‍🦰 <br/> - [ Work ] 💼       | > Personal
@@ -81,9 +81,9 @@
     SUCCESS|Hi, {$social.Name}!
     ```
 
-    | [Command ⌘](<../20 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../30 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
     |-|-
-    | ⤵️ [`IF`](<../20 🌊 Talker flows/21 ⤵️ IF flow.md>) | To verify the result.  
+    | ⤵️ [`IF`](<../30 🌊 Talker flows/21 ⤵️ IF flow.md>) | To verify the result.  
 
 
     The structure of the shared data is as follows.

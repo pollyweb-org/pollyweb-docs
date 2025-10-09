@@ -8,7 +8,7 @@
 1. **What's a RELAY item command?**
 
     A `RELAY` 
-    * is a [Command ⌘](<../20 🌊 Talker flows/10 ⌘ Command.md>) 
+    * is a [Command ⌘](<../30 🌊 Talker flows/10 ⌘ Command.md>) 
     * that sends messages to physical devices
     * via [Relayer 🛰️ helper domains](<../../4 ⚙️ Solution/60 🧰 Edge/61 🔌 Pluggables/04 🛰️🛠️ Relayer helper.md>).
 
@@ -40,15 +40,15 @@
     | `<key>`  | Unique device key in the pool
     | `<script>` | Message to send to the device
     | `$result` | The response returned by the [Relayer 🛰️](<../../4 ⚙️ Solution/60 🧰 Edge/61 🔌 Pluggables/04 🛰️🛠️ Relayer helper.md>)
-    | `<failure>` | [Procedure ⚙️](<../20 🌊 Talker flows/11 ⚙️ Procedure.md>) or [Command ⌘](<../20 🌊 Talker flows/10 ⌘ Command.md>) to run on failure
-    | `<success>` | [Procedure ⚙️](<../20 🌊 Talker flows/11 ⚙️ Procedure.md>) or [Command ⌘](<../20 🌊 Talker flows/10 ⌘ Command.md>) to run on success
+    | `<failure>` | [Procedure ⚙️](<../30 🌊 Talker flows/11 ⚙️ Procedure.md>) or [Command ⌘](<../30 🌊 Talker flows/10 ⌘ Command.md>) to run on failure
+    | `<success>` | [Procedure ⚙️](<../30 🌊 Talker flows/11 ⚙️ Procedure.md>) or [Command ⌘](<../30 🌊 Talker flows/10 ⌘ Command.md>) to run on success
 
     ---
     <br/>
 
 1. **How to open a locker door remotely?**
 
-    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../50 🤔 Prompts/1 📘 Prompt specs/01 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../20 🤔 Prompts/1 📘 Prompt specs/01 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ This is Locker LND-123
     | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ⏳ Opening door 7...
@@ -75,7 +75,7 @@
     - SUCCESS|Locker opened. # Notify the user
     ```
 
-    | [Command ⌘](<../20 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../30 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
     |-|-
     | 🪵 [`LOG`](<../30 🗃️ Talker data/15 🪵 LOG flow.md>) | To log the result.
     
