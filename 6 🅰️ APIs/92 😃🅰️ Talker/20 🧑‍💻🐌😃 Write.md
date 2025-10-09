@@ -2,9 +2,9 @@
 
 > Implements [Hoster ☁️ helper domain](<../../9 😃 Talkers/90 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>)
 
-> Part of [☁️⏩🧑‍💻 Wait @ Hoster](<../../5 ⏩ Flows/79 😃⏩ Talkers/30 😃⏩🧑‍💻 Wait.md>) flow
+> Part of [😃⏩🧑‍💻 Wait @ Talker](<../../5 ⏩ Flows/79 😃⏩ Talkers/30 😃⏩🧑‍💻 Wait.md>) flow
 
-> Paired with [`Read@Hoster`](<10 🧑‍💻🚀☁️ Read.md>) method
+> Paired with [`Read@Talker`](<10 🧑‍💻🚀😃 Read.md>) method
 
 > Writes to a [$Placeholder 💾](<../../9 😃 Talkers/30 🗃️ Talker data/10 💾 $Placeholder.md>)
 
@@ -17,7 +17,7 @@
 Header:
     From: any-host.com
     To: any-hoster.com
-    Subject: Write@Hoster
+    Subject: Write@Talker
 
 Body:
     ChatID: <chat-uuid>
