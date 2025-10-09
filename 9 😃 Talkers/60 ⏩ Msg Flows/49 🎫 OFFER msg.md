@@ -8,7 +8,7 @@
 1. **What is an OFFER message command?**
 
     An `OFFER`
-    * is a message [Command ⌘](<../30 🌊 Talker flows/10 ⌘ Command.md>) 
+    * is a message [Command ⌘](<../../../../../../9 😃 Talkers/40 🌊 Talker flows/10 ⌘ Command.md>) 
     * that invokes the [Save Token @ Wallet ⏩](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/02 🧑‍🦰👉🎴 Save token.md>) flow.
 
     ---
@@ -54,9 +54,9 @@
        Else: FAILURE|You rejected the token.
    ```
 
-   | [Command ⌘](<../30 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
+   | [Command ⌘](<../../../../../../9 😃 Talkers/40 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
    |-|-
-   | ⤵️ [`IF`](<../30 🌊 Talker flows/21 ⤵️ IF flow.md>) | To verify the result.  
+   | ⤵️ [`IF`](<../../../../../../9 😃 Talkers/40 🌊 Talker flows/21 ⤵️ IF flow.md>) | To verify the result.  
    
    ---
    <br/>

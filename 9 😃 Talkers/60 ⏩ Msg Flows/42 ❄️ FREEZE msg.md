@@ -9,7 +9,7 @@
 1. **What is a FREEZE command?**
 
     A `FREEZE` ❄️
-    * is a flow [Command ⌘](<../30 🌊 Talker flows/10 ⌘ Command.md>) 
+    * is a flow [Command ⌘](<../../../../../../9 😃 Talkers/40 🌊 Talker flows/10 ⌘ Command.md>) 
     * that freezes all previous [non-blocking Prompts 🤔](<../20 🤔 Prompts/1 📘 Prompt specs/08 ⚠️ as Status.md>)
     * as described in the [Freeze ⏩](<../../5 ⏩ Flows/50 🤗⏩ Hosts/06 🤗⏩🧑‍🦰 Freeze ❄️.md>) flow.
 
@@ -65,7 +65,7 @@
     ```
 
 
-    | [Command ⌘](<../30 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../../../../../9 😃 Talkers/40 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
     |-|-
     | 📝 [`FORM`](<41 📝 FORM msg.md>) | Show user instructions and allow inputs.
     | 1️⃣ [`ONE`](<../20 🤔 Prompts/7 ✏️ Input prompts/53 1️⃣ ONE prompt.md>) | Select an option, the day in this case.

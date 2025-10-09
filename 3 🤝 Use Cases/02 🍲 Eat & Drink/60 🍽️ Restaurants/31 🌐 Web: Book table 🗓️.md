@@ -74,7 +74,7 @@
 ```
 
 
-| [Command ⌘](<../../../9 😃 Talkers/30 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
+| [Command ⌘](<../../../../../../../9 😃 Talkers/40 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
 |-|-
 | 
 | 🪣 [`MAP`](<../../../9 😃 Talkers/30 🗃️ Talker data/61 🪣 MAP item.md>) | Map the locator to a restaurant info.
