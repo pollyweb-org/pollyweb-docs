@@ -1,12 +1,12 @@
 # Blocking input prompts 😃 🫥
 
-> Part of [Prompts 🤔](<01 🤔 Prompt.md>)
+> Part of [Prompts 🤔](<../../10 📘 Talker specs/02 🤔 Prompt.md>)
 
 <br/>
 
 1. **What are blocking inputs?**
    
-    These are blocking [Prompts 🤔](<01 🤔 Prompt.md>) 
+    These are blocking [Prompts 🤔](<../../10 📘 Talker specs/02 🤔 Prompt.md>) 
     * that request a user input,
     * addressing the basic needs of a standard structured form with multiple input fields;
     * e.g., date, number, radio, checklist;
@@ -54,11 +54,11 @@
 
 1. **How can Hosts protect users from input fatigue?**
 
-    NLWeb advocates for [Hosts 🤗 domains](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) to request as little [Prompts 🤔](<01 🤔 Prompt.md>) from users as possible;
+    NLWeb advocates for [Hosts 🤗 domains](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) to request as little [Prompts 🤔](<../../10 📘 Talker specs/02 🤔 Prompt.md>) from users as possible;
     * instead, request users to share datasets using [Schema Code 🧩](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>);
     * e.g., ask to share the code `nlweb.org/BOOKING/CONTACTS` instead of asking for the name, then the phone number, then the email address, and so on.
   
-    When [Prompts 🤔](<01 🤔 Prompt.md>) are inevitable, avoid [`TEXT`](<../7 ✏️ Input prompts/32 🔠 TEXT prompt.md>) prompts; 
+    When [Prompts 🤔](<../../10 📘 Talker specs/02 🤔 Prompt.md>) are inevitable, avoid [`TEXT`](<../7 ✏️ Input prompts/32 🔠 TEXT prompt.md>) prompts; 
     * instead, prefer low-effort prompts like [`ONE`](<../7 ✏️ Input prompts/53 1️⃣ ONE prompt.md>);
     * e.g., searchable lists with one or many possible options.
 

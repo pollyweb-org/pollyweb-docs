@@ -9,7 +9,7 @@
 1. **What's an AMOUNT prompt?**
 
     An `AMOUNT` 
-    * is a [Prompt 🤔](<../1 📘 Prompt specs/01 🤔 Prompt.md>) 
+    * is a [Prompt 🤔](<../../10 📘 Talker specs/02 🤔 Prompt.md>) 
     * that adds currency awareness
     * to the decimal behavior of the [`QUANTITY`](<42 ↕️ QUANTITY prompt.md>) prompt.
 
@@ -90,7 +90,7 @@
 
 
 
-    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../1 📘 Prompt specs/01 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../10 📘 Talker specs/02 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 How much? | 💰 1234.5678
     [🫥 Agent](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | 🫥 How much? | 💰 12345.6

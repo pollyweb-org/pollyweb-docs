@@ -18,7 +18,7 @@
 
     [Talkers 😃](<01 😃 Talker.md>) dramatically reduce the time to build [Host 🤗 domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>).
 
-    * They allow [Hoster ☁️ helper domains](<../90 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>) to manage the workflow state on behalf of [Host 🤗 domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>), removing the undifferentiated heavy-lifting of handling [Prompts 🤔](<../20 🤔 Prompts/1 📘 Prompt specs/01 🤔 Prompt.md>) communications, and invoking [Host 🤗 domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) only when it's necessary to execute business-specific logic.
+    * They allow [Hoster ☁️ helper domains](<../90 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>) to manage the workflow state on behalf of [Host 🤗 domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>), removing the undifferentiated heavy-lifting of handling [Prompts 🤔](<02 🤔 Prompt.md>) communications, and invoking [Host 🤗 domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) only when it's necessary to execute business-specific logic.
     ---
     <br/>
 

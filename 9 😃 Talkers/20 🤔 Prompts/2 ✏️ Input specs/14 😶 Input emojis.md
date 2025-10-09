@@ -41,7 +41,7 @@
 
     Consider the following [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>).
 
-    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../1 📘 Prompt specs/01 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../10 📘 Talker specs/02 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Continue? [Yes, No]
     |
@@ -94,8 +94,8 @@
 1. **How to replace emojis in Talkers?**
 
     The replacement can either be:
-    * per [Prompt 🤔](<../1 📘 Prompt specs/01 🤔 Prompt.md>) by setting the `Emoji` parameter,
-    * or by default for upcoming [Prompts 🤔](<../1 📘 Prompt specs/01 🤔 Prompt.md>) with the [`EMOJI`](<16 😶⌘ EMOJI cmd.md>) command.
+    * per [Prompt 🤔](<../../10 📘 Talker specs/02 🤔 Prompt.md>) by setting the `Emoji` parameter,
+    * or by default for upcoming [Prompts 🤔](<../../10 📘 Talker specs/02 🤔 Prompt.md>) with the [`EMOJI`](<16 😶⌘ EMOJI cmd.md>) command.
 
     ---
     <br/>
