@@ -74,8 +74,9 @@ def extract_links_with_malformed_detection(content):
 
             r'\[[^\]]+\][^ \[<]+\..+?\)\>?', # match links that are not closed
             r'\[.*?\]\(<?([^)>]+\.md)>(?!\))', # match links that are not closed
-            r'\[[^\]]*\.[^\]]*\>\)' # match links that start with '[' and end with '>)', missing ']('
+            r'\[[^\]]*\.[^\]]*\>\)', # match links that start with '[' and end with '>)', missing ']('
             
+            r'!\[.*?\]\([^)\n]+$'  # any image link not properly closed before line end
         ]:
             malformed_links = re.findall(patterns, line)
             for malformed_link in malformed_links:
