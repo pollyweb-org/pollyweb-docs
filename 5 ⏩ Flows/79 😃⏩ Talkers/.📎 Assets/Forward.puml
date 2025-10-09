@@ -1,0 +1,24 @@
+@startuml Forward
+
+participant "User 🧑\ndomains" as user
+participant "Host 🤗\ndomain" as host
+participant "Talker 😃\nhelper" as talker
+
+activate talker
+    talker --> host: 1) Forward 🐌
+deactivate talker
+
+activate host
+    host --> user: 2 ⏪ Prompt 
+deactivate host
+
+activate user
+    user --> host: 3) Reply 🐌
+deactivate user
+
+activate host
+    host --> talker: 4) Replied 🐌
+deactivate host
+
+
+@enduml

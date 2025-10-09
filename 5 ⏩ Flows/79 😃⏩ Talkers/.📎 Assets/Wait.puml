@@ -1,0 +1,30 @@
+@startuml Wait
+
+participant "User 🧑\ndomains" as user
+participant "Host 🤗\ndomain" as host
+participant "Talker 😃\nhelper" as talker
+
+
+
+activate talker
+    talker --> host: 1) Handle 🐌 {start}
+deactivate talker
+
+activate host
+    host -> host: start...
+    host --> talker: 2) Handled 🐌 
+
+    activate talker
+        talker --> user: 3 ⏪ Forward {started}
+        talker -> talker: 4) Wait ⏳ {signal}
+    deactivate talker
+
+    host -> host: ...end
+    host --> talker: 5) Write 🐌 {signal} 
+deactivate host
+
+activate talker
+    talker --> user: 6 ⏪ Forward {done!}
+deactivate talker
+
+@enduml
