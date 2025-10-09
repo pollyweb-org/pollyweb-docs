@@ -8,7 +8,7 @@
 1. **What's a RELAY item command?**
 
     A `RELAY` 
-    * is a [Command ⌘](<../../../../../../9 😃 Talkers/40 🌊 Talker flows/10 ⌘ Command.md>) 
+    * is a [Command ⌘](<../40 🌊 Talker flows/10 ⌘ Command.md>) 
     * that sends messages to physical devices
     * via [Relayer 🛰️ helper domains](<../../4 ⚙️ Solution/60 🧰 Edge/61 🔌 Pluggables/04 🛰️🛠️ Relayer helper.md>).
 
@@ -40,8 +40,8 @@
     | `<key>`  | Unique device key in the pool
     | `<script>` | Message to send to the device
     | `$result` | The response returned by the [Relayer 🛰️](<../../4 ⚙️ Solution/60 🧰 Edge/61 🔌 Pluggables/04 🛰️🛠️ Relayer helper.md>)
-    | `<failure>` | [Procedure ⚙️](<../../../../../../9 😃 Talkers/40 🌊 Talker flows/11 ⚙️ Procedure.md>) or [Command ⌘](<../../../../../../9 😃 Talkers/40 🌊 Talker flows/10 ⌘ Command.md>) to run on failure
-    | `<success>` | [Procedure ⚙️](<../../../../../../9 😃 Talkers/40 🌊 Talker flows/11 ⚙️ Procedure.md>) or [Command ⌘](<../../../../../../9 😃 Talkers/40 🌊 Talker flows/10 ⌘ Command.md>) to run on success
+    | `<failure>` | [Procedure ⚙️](<../40 🌊 Talker flows/11 ⚙️ Procedure.md>) or [Command ⌘](<../40 🌊 Talker flows/10 ⌘ Command.md>) to run on failure
+    | `<success>` | [Procedure ⚙️](<../40 🌊 Talker flows/11 ⚙️ Procedure.md>) or [Command ⌘](<../40 🌊 Talker flows/10 ⌘ Command.md>) to run on success
 
     ---
     <br/>
@@ -75,7 +75,7 @@
     - SUCCESS|Locker opened. # Notify the user
     ```
 
-    | [Command ⌘](<../../../../../../9 😃 Talkers/40 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../40 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
     |-|-
     | 🪵 [`LOG`](<../30 🗃️ Talker data/15 🪵 LOG flow.md>) | To log the result.
     

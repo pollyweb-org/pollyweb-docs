@@ -7,7 +7,7 @@
 1. **What is a SHARE message command?**
 
     A `SHARE`
-    * is a message [Command ⌘](<../../../../../../9 😃 Talkers/40 🌊 Talker flows/10 ⌘ Command.md>) 
+    * is a message [Command ⌘](<../40 🌊 Talker flows/10 ⌘ Command.md>) 
     * that asks for user data in [Schema Codes 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)
     * triggering the following flows:
       * [🧑‍🦰👉💼 Share Bind @ Wallet](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind.md>)
@@ -81,9 +81,9 @@
     SUCCESS|Hi, {$social.Name}!
     ```
 
-    | [Command ⌘](<../../../../../../9 😃 Talkers/40 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../40 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
     |-|-
-    | ⤵️ [`IF`](<../../../../../../9 😃 Talkers/40 🌊 Talker flows/21 ⤵️ IF flow.md>) | To verify the result.  
+    | ⤵️ [`IF`](<../40 🌊 Talker flows/21 ⤵️ IF flow.md>) | To verify the result.  
 
 
     The structure of the shared data is as follows.

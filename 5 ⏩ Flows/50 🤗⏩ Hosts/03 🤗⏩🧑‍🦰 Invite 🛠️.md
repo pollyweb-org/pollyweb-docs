@@ -34,7 +34,7 @@ The associated [Talker 😃](<../../9 😃 Talkers/10 📘 Talker specs/1 😃 T
 - INFO|{number}, got it! Thanks, Any Helper!  
 ```
 
-| [Command ⌘](<../../../../../../9 😃 Talkers/40 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
+| [Command ⌘](<../../9 😃 Talkers/40 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
 |-|-
 | ℹ️ [`INFO`](<../../9 😃 Talkers/20 🤔 Prompts/4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) | To show the messages to the user.
 | 🛠️ [`INVITE`](<../../9 😃 Talkers/60 ⏩ Msg flows/46 🛠️ INVITE msg.md>) | To collect a random number.

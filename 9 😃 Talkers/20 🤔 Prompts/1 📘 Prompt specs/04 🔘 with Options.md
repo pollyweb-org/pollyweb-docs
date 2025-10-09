@@ -159,10 +159,10 @@
         Share: INFO|You choose to share.
     ```
 
-    | [Command ⌘](<../../../../../../../9 😃 Talkers/40 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../40 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
     |-|-
     | 1️⃣ [`ONE`](<../7 ✏️ Input prompts/53 1️⃣ ONE prompt.md>) | To show the options.
-    | 🔀 [`CASE`](<../../../../../../../9 😃 Talkers/40 🌊 Talker flows/22 🔀 CASE flow.md>) | To check the selected option.
+    | 🔀 [`CASE`](<../../40 🌊 Talker flows/22 🔀 CASE flow.md>) | To check the selected option.
     | ℹ️ [`INFO`](<../4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) | To show the result.
     
 
@@ -234,10 +234,10 @@
     ```
 
 
-    | [Command ⌘](<../../../../../../../9 😃 Talkers/40 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../40 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
     |-|-
     | 1️⃣ [`ONE`](<../7 ✏️ Input prompts/53 1️⃣ ONE prompt.md>) | To show the options.
-    | 🔀 [`CASE`](<../../../../../../../9 😃 Talkers/40 🌊 Talker flows/22 🔀 CASE flow.md>) | To check the selected option.
+    | 🔀 [`CASE`](<../../40 🌊 Talker flows/22 🔀 CASE flow.md>) | To check the selected option.
     | ℹ️ [`INFO`](<../4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) | To show the result.
     
 

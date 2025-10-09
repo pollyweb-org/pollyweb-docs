@@ -8,7 +8,7 @@
 1. **What's an EVAL command?**
 
     An `EVAL` ⬇️
-    * is a [Command ⌘](<../../../../../../9 😃 Talkers/40 🌊 Talker flows/10 ⌘ Command.md>) 
+    * is a [Command ⌘](<../40 🌊 Talker flows/10 ⌘ Command.md>) 
     * that evaluates strings, objects, and [`{Functions}`](<12 🐍 {Function}.md>)
     * into a placeholder.
 
@@ -115,10 +115,10 @@
     ```
 
 
-    | [Command ⌘](<../../../../../../9 😃 Talkers/40 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../40 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
     |-|-
     | 👍 [`CONFIRM`](<../20 🤔 Prompts/7 ✏️ Input prompts/31 👍 CONFIRM prompt.md>) | To pause for user confirmation.
-    | 🔁 [`REPEAT`](<../../../../../../9 😃 Talkers/40 🌊 Talker flows/23 🔁 REPEAT flow.md>) | To add more rows.
+    | 🔁 [`REPEAT`](<../40 🌊 Talker flows/23 🔁 REPEAT flow.md>) | To add more rows.
 
 
     ```python
