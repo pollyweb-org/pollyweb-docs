@@ -1,0 +1,18 @@
+@startuml Subscribe
+
+participant "User 🧑\ndomains" as user
+participant "Host 🤗\ndomain" as host
+participant "Talker 😃\nhelper" as talker
+
+user --> host: 1) Hello
+activate host
+    host --> talker: 2) Talk 🐌
+deactivate host
+
+activate talker
+    talker --> user: 3 ⏪ Forward
+    talker --> host: 4 ⏪ Handle
+    talker --> user: 5 ⏪ Forward
+deactivate talker
+
+@enduml

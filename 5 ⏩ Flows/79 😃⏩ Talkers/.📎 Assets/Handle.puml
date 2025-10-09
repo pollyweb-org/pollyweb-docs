@@ -1,0 +1,26 @@
+@startuml Handle
+
+participant "User 🧑\ndomains" as user
+participant "Host 🤗\ndomain" as host
+participant "Talker 😃\nhelper" as talker
+
+activate talker
+    talker --> host: 1) Handle 🐌 {function}
+deactivate talker
+    
+activate host
+        
+    host -> talker: 2) Read 🚀 {$placeholder}
+
+    activate talker
+        talker -> host: {$placeholder value}
+    deactivate talker
+
+    host --> talker: 3) Handled 🐌 {result}
+deactivate host
+
+activate talker
+    talker --> user: 4 ⏪ Forward
+deactivate talker
+
+@enduml
