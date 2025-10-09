@@ -3,7 +3,7 @@
 # 😃 Talker
 <!-- https://quip.com/J24GAMbu7HKF/-Talker -->
 
-> Implemented by [😃🛠️ Talker helper](<02 😃🛠️ Talker helper.md>)
+> Implemented by [Hoster ☁️ helper domain](<../90 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>)
 
 <br/>
 

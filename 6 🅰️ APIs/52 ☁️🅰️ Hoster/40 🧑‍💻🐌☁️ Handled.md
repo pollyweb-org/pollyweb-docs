@@ -1,5 +1,7 @@
 # 🧑‍💻🐌☁️ Handled @ Hoster
 
+<!-- TODO: description and where used -->
+
 <br/>
 
 ## Async Message 🐌
@@ -16,3 +18,5 @@ Body:
     Request: <request-uuid>
     Response: {A:1, B:2}
 ```
+
+<!-- TODO: Table -->
