@@ -56,7 +56,7 @@
    
     | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../50 🤔 Prompts/1 📘 Prompt specs/01 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Give me a quantity  | 🔄 1234
+    | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Give me a quantity  | ↕️ 1234
     | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ I'm saving `1,234`
     | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ Although you typed `1234`
     |
@@ -76,7 +76,7 @@
     | [Command ⌘](<../20 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
     |-|-
     | ℹ️ [`INFO`](<../50 🤔 Prompts/4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) | To show the [$placeholder 💾](<10 💾 $Placeholder.md>) values.
-    | 🔄 [`QUANTITY`](<../50 🤔 Prompts/7 ✏️ Input prompts/42 🔄 QUANTITY prompt.md>) | To collect the number input.
+    | ↕️ [`QUANTITY`](<../50 🤔 Prompts/7 ✏️ Input prompts/42 ↕️ QUANTITY prompt.md>) | To collect the number input.
     
 
     ---
@@ -145,7 +145,7 @@
     | - | - | - |
     | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ No numbers equals 0
     | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ 1+2+3 equals 6
-    | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Give me a number |  🔄 4
+    | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 Give me a number |  ↕️ 4
     | [🤗 Host](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ℹ️ 4+4 equals 8
 
 
@@ -161,7 +161,7 @@
 
     | [Command ⌘](<../20 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
     |-|-
-    | 🔄 [`QUANTITY`](<../50 🤔 Prompts/7 ✏️ Input prompts/42 🔄 QUANTITY prompt.md>) | To collect the number input.
+    | ↕️ [`QUANTITY`](<../50 🤔 Prompts/7 ✏️ Input prompts/42 ↕️ QUANTITY prompt.md>) | To collect the number input.
 
 
     ```python

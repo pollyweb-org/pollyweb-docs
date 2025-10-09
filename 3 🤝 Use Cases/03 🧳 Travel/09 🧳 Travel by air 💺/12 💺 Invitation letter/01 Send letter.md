@@ -26,7 +26,7 @@ Send an invitation letter before a trip
 | 🧢 [Persona](<../../../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) | 🫥 Share current job titles? [Yes, No] | > Yes
 | 🏛️ Council | ℹ️ Received job titles [+] <br/> - Senior Software Engineer
 | 🏛️ Council | 😃 When are guests arriving? | 🗓️ 2025/06/15
-| 🏛️ Council | 😃 How many days will they stay? | 🔄 90
+| 🏛️ Council | 😃 How many days will they stay? | ↕️ 90
 | 📇 [Mingler](<../../../../4 ⚙️ Solution/30 🫥 Agents/08 📇 Minglers/01 📇🫥 Mingler agent.md>) | 🫥 Forward request? [No] <br/> - to selected contacts 📇 <br/> - to share identity 🆔 <br/> - with Any Council 🏛️  | > Yes
 | 📇 [Mingler](<../../../../4 ⚙️ Solution/30 🫥 Agents/08 📇 Minglers/01 📇🫥 Mingler agent.md>) | 🫥 Select contacts [+] <br/> - [ ] 🐭 mouse <br/> - [ ] 🧑‍🦱 Deb <br/> - [ ] 🧕 sissy <br/> - ...| [X] 🐭 mouse <br/> [X] 🧕 sissy 
 | 📇 [Mingler](<../../../../4 ⚙️ Solution/30 🫥 Agents/08 📇 Minglers/01 📇🫥 Mingler agent.md>) | ⏳ Waiting 2/2 items, 48 hrs left... <br/>- [ change request ]

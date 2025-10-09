@@ -47,7 +47,7 @@
     |Command |  Example | Purpose
     |-|-|-
     | 🔠 [`TEXT`](<../50 🤔 Prompts/7 ✏️ Input prompts/32 🔠 TEXT prompt.md>) | Bla | Unstructured text | 
-    | 🔄 [`QUANTITY`](<../50 🤔 Prompts/7 ✏️ Input prompts/42 🔄 QUANTITY prompt.md>) | 123| Numbers with ⬆️ ⬇️ arrows |
+    | ↕️ [`QUANTITY`](<../50 🤔 Prompts/7 ✏️ Input prompts/42 ↕️ QUANTITY prompt.md>) | 123| Numbers with ⬆️ ⬇️ arrows |
     | 🔢 [`DIGITS`](<../50 🤔 Prompts/7 ✏️ Input prompts/44 🔢 DIGITS prompt.md>) |0123| Numerics with 0 prefix | 
     | 💰 [`AMOUNT`](<../50 🤔 Prompts/7 ✏️ Input prompts/43 💰 AMOUNT prompt.md>) |  1.23 | Decimals and currency
     | ⭐ [`RATE`](<../50 🤔 Prompts/7 ✏️ Input prompts/46 ⭐ RATE prompt.md>) | 5 ⭐ | Integer from 1 to 5
