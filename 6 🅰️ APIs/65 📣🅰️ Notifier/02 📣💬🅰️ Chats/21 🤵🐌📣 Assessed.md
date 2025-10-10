@@ -9,7 +9,7 @@
 
 > [Broker 🤵 domains](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) tell [Wallet 🧑‍🦰 apps](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) about a new [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>).
 
-> Used in [🤵⏩🧑‍🦰 Assessed @ Broker](<../../../5 ⏩ Flows/10 🤵⏩ Brokers/01 🤵⏩🧑‍🦰 Assessed.md>) 
+> Used in [🤵⏩🧑‍🦰 Assessed @ Broker](<../../../5 ⏩ Flows/10 🤵⏩ Brokers/01 🤵⏩🧑‍🦰 Assessed 🔆.md>) 
 
 <br/>
 

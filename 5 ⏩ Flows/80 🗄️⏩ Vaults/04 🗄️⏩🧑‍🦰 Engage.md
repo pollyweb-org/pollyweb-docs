@@ -16,9 +16,9 @@
 
 |#|Step|Purpose
 |-|-|-
-|1| [text](<../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/30 🗄️🐌🤵 Engage.md>)
-|2|
-|3|
-|4|
-|5|
-|6|
+|1| [🗄️🐌🤵 `Engage@Broker`](<../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/30 🗄️🐌🤵 Engage.md>)
+|2|[🤵⏩🧑‍🦰 Assessed 🔆](<../10 🤵⏩ Brokers/01 🤵⏩🧑‍🦰 Assessed 🔆.md>) |  
+|3|[🔎⏩🧑‍🦰 Introduce](<../40 🔎⏩ Finders/01 🔎⏩🧑‍🦰 Introduce 🤗.md>)
+|4|[🤗⏩🧑‍🦰 Prompt 🤔](<../50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) may ask for user permission
+|5|[text](<../../6 🅰️ APIs/50 🤗🅰️ Host/01 🤵🐌🤗 Hello.md>)
+|6|[🤗⏩🧑‍🦰 Prompt 🤔](<../50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) may ask for user permission

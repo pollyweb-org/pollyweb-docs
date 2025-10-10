@@ -4,7 +4,7 @@
 
 > Used in:
 > <br/>• [🧑‍🦰👉🤵 Abandon chat @ Wallet](<../90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>)
-> <br/>• [🤵⏩🧑‍🦰 New chat @ Broker](<01 🤵⏩🧑‍🦰 Assessed.md>)
+> <br/>• [🤵⏩🧑‍🦰 Assessed 🔆 @ Broker](<01 🤵⏩🧑‍🦰 Assessed 🔆.md>)
 
 
 ## Flow diagram
