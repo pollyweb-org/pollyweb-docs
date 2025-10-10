@@ -50,6 +50,9 @@ activate broker
     'alt No host session?
 
         broker --> wallet: 4) ⏪ Assessed
+        activate wallet
+            wallet --> wallet: new Chat 💬
+        deactivate wallet
 
         broker --> finder: 5) Introduce ⏩
         deactivate broker
@@ -71,6 +74,9 @@ activate host
     host --> wallet: 7) ⏪ Prompt 🤔
 deactivate host
 
+activate wallet
+    user --> wallet: reply
+deactivate wallet
 
 ' ------------
 @enduml

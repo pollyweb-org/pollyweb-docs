@@ -3,8 +3,9 @@
 > Shows the main menu of the [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>).
 
 > Used by:
-> <br/>• [🧑‍🦰👉🤵 Abandon session](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>)
-> <br/>• [🧑‍🦰👉🤵 Host home](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/02 🧑‍🦰👉🤵 Host home.md>)
+> <br/>• [🧑‍🦰👉🗄️ Unbind](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/03 🧑‍🦰👉🗄️ Unbind.md>) flow
+> <br/>• [🧑‍🦰👉🤵 Remove Token](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/03 🧑‍🦰👉🤵 Remove Token.md>) flow
+> <br/>• [🧑‍🦰👉🤵 Host home](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/02 🧑‍🦰👉🤵 Host home.md>) flow
 
 <br/>
 

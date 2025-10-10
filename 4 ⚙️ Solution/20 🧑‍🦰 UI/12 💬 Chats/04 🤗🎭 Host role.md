@@ -127,7 +127,7 @@
 
 1. **What API methods are exposed by a Host domain?**
 
-    | Caller 👥 | Method 🅰️ | Store 🪣 | Description
+    | [From 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Subject 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) | Store 🪣 | Description
     |-|-|-|-
     🤵 Broker | [🐌 Hello](<../../../6 🅰️ APIs/50 🤗🅰️ Host/01 🤵🐌🤗 Hello.md>) | Chats | The user started a [Chat 💬](<01 💬 Chat.md>).
     🧑‍🦰 Wallet | [🐌 Home](<../../../6 🅰️ APIs/50 🤗🅰️ Host/02 🤵🐌🤗 Home.md>) | Chats | Show the top menu on the [Chat 💬](<01 💬 Chat.md>).
