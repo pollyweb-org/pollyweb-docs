@@ -54,7 +54,7 @@
 
     | Argument| Purpose 
     |-|-
-    | `<code>` | [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) from [`Bindable@Broker`](<../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/42 🗄️🐌🤵 Bindable.md>) 
+    | `<code>` | [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) from [`Bindable@Broker`](<../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/20 🗄️🐌🤵 Bindable.md>) 
 
     ```yaml
     # For a single optional code.
@@ -78,7 +78,7 @@
    
     | Argument| Purpose
     |-|-
-    | `<code-n>` | Array of [Schema Codes 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) sent on [`Bindable@Broker`](<../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/42 🗄️🐌🤵 Bindable.md>)
+    | `<code-n>` | Array of [Schema Codes 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) sent on [`Bindable@Broker`](<../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/20 🗄️🐌🤵 Bindable.md>)
     | `$bound`  | Array of [Schema Codes 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) received on [`Bound@Vault`](<../../6 🅰️ APIs/95 🗄️🅰️ Vault/02 🤵🐌🗄️ Bound.md>)
 
 
@@ -90,7 +90,7 @@
    
     | Argument| Purpose
     |-|-
-    | `{bindable}` | [{Function}](<../30 🗃️ Talker data/12 🐍 {Function}.md>) to get the [Codes 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) for [Bindable @ Broker](<../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/42 🗄️🐌🤵 Bindable.md>).
+    | `{bindable}` | [{Function}](<../30 🗃️ Talker data/12 🐍 {Function}.md>) to get the [Codes 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) for [Bindable @ Broker](<../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/20 🗄️🐌🤵 Bindable.md>).
 
 
     ---
