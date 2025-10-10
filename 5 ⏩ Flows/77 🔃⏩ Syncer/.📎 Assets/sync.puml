@@ -1,8 +1,8 @@
-@startuml Handle
+@startuml Sync
 
 participant "Wallet 🧑\napp" as wallet
 participant "Syncer 🔃\ntool" as syncer
-participant "Resourcer 🗃️\ndomain" as resourcer
+participant "Resourcer 🗃️\nvault" as resourcer
 
 syncer -> resourcer: 1) Map 🚀
 activate syncer
