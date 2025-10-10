@@ -1,6 +1,6 @@
 # 🤵🐌🤗 Invited @ Host
 
-> Invests a Host domain into a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>).
+> Invests a [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) into a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>).
 
 > Part of the [🤗⏩🧑‍🦰 Invite @ Host](<../../5 ⏩ Flows/50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>) flow.
 
@@ -31,6 +31,6 @@ Body:
 |Body|`ChatID`   | uuid    | ID of the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) 
 ||`Inviter`  | string  | Inviter [Consumer 💼 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) name
 ||`Code`     | string  | Related [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)
-||`Callback` | uuid    | Callback from [Invite@Broker](<../15 🤵🅰️ Broker/60 🤵🅰️ Share/64 💼🐌🤵 Invite.md>)
+||`Callback` | uuid    | Callback from [`Invite@Broker`](<../15 🤵🅰️ Broker/60 🤵🅰️ Share/64 💼🐌🤵 Invite.md>)
 ||`Parameters`| object   | Optional parameters for the invite
 |
