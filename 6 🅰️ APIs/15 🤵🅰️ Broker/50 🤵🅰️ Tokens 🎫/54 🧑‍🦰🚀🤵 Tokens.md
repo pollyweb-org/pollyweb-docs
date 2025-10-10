@@ -24,7 +24,7 @@ Body:
 
 | Object | Property | Type  | Description
 |-|-|-|-
-| Header    | `From`| uuid  | [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) ID
+| Header    | `From`| uuid  | [Wallet 🧑‍🦰](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)  from [`Onboard@Notifier`](<../../65 📣🅰️ Notifier/01 📣🤵🅰️ Onboard/11 🧑‍🦰🚀📣 Onboard.md>)
 |           | `To`  | string| [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
 |           | `Subject`| string|  `Tokens@Broker`
 |
@@ -49,8 +49,8 @@ Tokens:
 |Top   |`Tokens`   |Token[]|List of `Token` objects|
 |Token | `Issuer` | string | [Issuer 🎴](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) from [`Saved@Broker`](<53 🧑‍🦰🐌🤵 Saved.md>)
 ||`TokenID`  |uuid   |[Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) ID from [`Saved@Broker`](<53 🧑‍🦰🐌🤵 Saved.md>)
-|| `IssuerTitle` | string | Translated [Issuer 🎴](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) title
-|| `CodeTitle` | string | Translated [Schema Code 🧩](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) title
+|| `IssuerTitle` | string | [Issuer 🎴](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) after [`Translate@Graph`](<../../45 🕸🅰️ Graph/06 👥🚀🕸 Translate.md>)
+|| `CodeTitle` | string | [Code 🧩](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) after [`Translate@Graph`](<../../45 🕸🅰️ Graph/06 👥🚀🕸 Translate.md>)
 || `Path`| string | Local path from [`Saved@Broker`](<53 🧑‍🦰🐌🤵 Saved.md>)
 || `Status`| enum | Status set in [`Status@Broker`](<../60 🤵🅰️ Share/62 💼🚀🤵 Status.md>)
 | |`Locator`| string | [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) from [`Status@Broker`](<../60 🤵🅰️ Share/62 💼🚀🤵 Status.md>)
