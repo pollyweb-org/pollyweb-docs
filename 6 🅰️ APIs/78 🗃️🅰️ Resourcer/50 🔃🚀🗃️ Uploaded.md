@@ -7,7 +7,7 @@
 
 ```yaml
 Header:
-    From: <link-uuid>
+    From: <clone-uuid>
     To: any-resourcer.com
     Subject: Uploaded@Resourcer
 Body:
@@ -16,7 +16,7 @@ Body:
 
 | Object| Property | Type | Description
 |-|-|-|-
-| Header    | `From`        | uuid | 
+| Header    | `From`        | uuid | `Clone` from [`Clone@`](<10 🔃🚀🗃️ Clone.md>) response
 |           | `To`          | string    | [Resourcer 🗃️ domain](<../../9 😃 Talkers/90 ☁️ Hosters/02 🗃️🎭 Resourcer role.md>) name
 |           | `Subject`     | string    | `Uploaded@Resourcer`
 | Body      | `Map`         | uuid    | ID from [`Map@Resourcer`](<20 🔃🚀🗃️ Map.md>)
@@ -31,6 +31,11 @@ Body:
 # HTTP 200
 ```
 
+|| Property | Type | Description
+|-|-|-|-
+|| -        | -      | Empty response on success
+
+
 ```yaml
 # HTTP 409
 Errors:
@@ -39,3 +44,10 @@ Errors:
 - Missing part 2 of 6 > /path/file-2.yaml
 - Map already done.
 ```
+
+
+|| Property | Type | Description
+|-|-|-|-
+|| None        | None      | Empty response on success
+|| `Errors`    | string[]  | List of errors on failure
+|

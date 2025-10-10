@@ -29,6 +29,7 @@ Resourcers
 skippability
 startuml
 Syncer
+Syncers
 Tapband
 Tapbands
 touchless

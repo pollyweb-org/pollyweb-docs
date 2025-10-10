@@ -19,8 +19,8 @@ $ syncer sync
 
 | # | Call | Notes
 |-|-|-
-|1|[`Map@Resourcer`](<../../6 🅰️ APIs/78 🗃️🅰️ Resourcer/20 🔃🚀🗃️ Map.md>) | 
-|2|[`Upload@Resourcer`](<../../6 🅰️ APIs/78 🗃️🅰️ Resourcer/30 🔃🚀🗃️ Upload.md>)
-|3|[`Uploaded@Resourcer`](<../../6 🅰️ APIs/78 🗃️🅰️ Resourcer/50 🔃🚀🗃️ Uploaded.md>)
-|4|[`Download@Resourcer`](<../../6 🅰️ APIs/78 🗃️🅰️ Resourcer/60 🔃🚀🗃️ Download.md>)
+|1|[🔃🚀🗃️ `Map@Resourcer`](<../../6 🅰️ APIs/78 🗃️🅰️ Resourcer/20 🔃🚀🗃️ Map.md>) | [Syncers](<../../9 😃 Talkers/90 ☁️ Hosters/01 🔃🛠️ Syncer tool.md>) send a map current files.
+|2|[🔃🚀🗃️ `Upload@Resourcer`](<../../6 🅰️ APIs/78 🗃️🅰️ Resourcer/30 🔃🚀🗃️ Upload.md>) | Then upload each file individually.
+|3|[🔃🚀🗃️ `Uploaded@Resourcer`](<../../6 🅰️ APIs/78 🗃️🅰️ Resourcer/50 🔃🚀🗃️ Uploaded.md>)
+|4|[🔃🚀🗃️ `Download@Resourcer`](<../../6 🅰️ APIs/78 🗃️🅰️ Resourcer/60 🔃🚀🗃️ Download.md>)
 |
