@@ -1,5 +1,11 @@
 # 🔃🚀🗃️ Uploaded @ Resourcer
 
+> Part of the [🔃⏩🗃️ Sync](<../../5 ⏩ Flows/77 🔃⏩ Syncer/20 🔃⏩🗃️ Sync.md>) flow:
+> <br/> • Preceded by [`Upload@Resourcer`](<30 🔃🚀🗃️ Upload.md>)
+> <br/> • Succeeded by [`Download@Resourcer`](<60 🔃🚀🗃️ Download.md>)
+
+> This request is signed with the [Syncer's 🔃](<../../9 😃 Talkers/90 ☁️ Hosters/01 🔃🛠️ Syncer tool.md>) private-key pair matching the `PublicKey` sent on the [`Clone@Resourcer`](<10 🔃🚀🗃️ Clone.md>) request.
+
 
 <br/>
 
@@ -25,16 +31,29 @@ Body:
 
 <br/>
 
-## Synchronous Response
+## Successful Response ✅
 
 ```yaml
 # HTTP 200
+Files: 
+    /any-folder/any-file.yaml: 
+        Hash: 8ab686eafeb1f44702738c8b0f24f2567c36da6d
+        Parts: 1        # 1 by default, if missing
+        Base46: False   # False by default, if missing
 ```
 
-|| Property | Type | Description
+|Object| Property | Type | Description
 |-|-|-|-
-|| -        | -      | Empty response on success
+|Top| `Files` | dict | List of files required to download
+|File| `Action` | string | `DOWNLOAD`
+|    | `Hash`   | string | Hashed with [`Clone@`](<10 🔃🚀🗃️ Clone.md>) hash
+|    | `Parts`  | int    | Number of file parts
+|    | `Base64` | bool   | Convert Base46 to binary
+|
 
+<br/> 
+
+## Failure Response ❌
 
 ```yaml
 # HTTP 409
@@ -48,6 +67,5 @@ Errors:
 
 || Property | Type | Description
 |-|-|-|-
-|| None        | None      | Empty response on success
 || `Errors`    | string[]  | List of errors on failure
 |

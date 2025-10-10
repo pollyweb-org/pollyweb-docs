@@ -6,6 +6,19 @@
 
 <br/>
 
+
+1. **How does it work?**
+ 
+    |.|.|.
+    |-|-|-
+    |3| `Clone`| On a workstation terminal, <br/>the user [scans ✨](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) the terminal QR code <br/>to link the terminal to the [Wallet 🧑‍🦰 app](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)<br/>and download the [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) settings.
+    |4| `Edit`| On a code editor (e.g., Visual Studio Code)<br/>the user configures the logic webhooks <br/>and the public [domain 📜 Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>).
+    |5| `Sync`| On the workstation terminal, <br/>the user synchronizes the changes <br/>with the [Hoster ☁️ domain](<05 ☁️🛠️ Hoster helper.md>).
+    |6| `Test`| From the workstation terminal, <br/>the user opens [Chats 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) for manual testing.
+
+    ---
+    <br/>
+
 1. **What is required from domain owners?**
       
     | Dependency | Purpose
