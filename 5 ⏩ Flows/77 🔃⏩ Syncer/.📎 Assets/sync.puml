@@ -18,9 +18,9 @@ activate syncer
         syncer -> resourcer
         activate syncer
             syncer -> resourcer
-            activate syncer
-                syncer -> resourcer
-            deactivate syncer
+            'activate syncer
+            '    syncer -> resourcer
+            'deactivate syncer
         deactivate syncer
         'syncer -> resourcer
     deactivate syncer
@@ -38,11 +38,12 @@ activate syncer
         syncer -> resourcer
         activate syncer
             syncer -> resourcer
-            activate syncer
-                syncer -> resourcer
-            deactivate syncer
+            'activate syncer
+                'syncer -> resourcer
+            'deactivate syncer
         deactivate syncer
         'syncer -> resourcer
+    deactivate syncer
 deactivate syncer
 
 @enduml

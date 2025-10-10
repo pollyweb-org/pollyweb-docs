@@ -22,7 +22,7 @@ Body:
 | Object| Property | Type | Description
 |-|-|-|-
 | Header    | `From`        | uuid | 
-|           | `To`          | string    | [Resourcer 🗃️](<../../4 ⚙️ Solution/30 🫥 Agents/20 🗃️ Resourcers/01 🗃️ Index.md>) domain name
+|           | `To`          | string    | [Resourcer 🗃️ domain](<../../9 😃 Talkers/90 ☁️ Hosters/02 🗃️🎭 Resourcer role.md>) name
 |           | `Subject`     | string    | `Upload@Resourcer`
 | Body      | `Map`         | uuid    | ID from [`Map@Resourcer`](<20 🔃🚀🗃️ Map.md>)
 |           | `File`        | string | Path like `/dir/file.ext`
