@@ -30,14 +30,14 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From`|string | [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) name
-||`To`|string| [Notifier 📣 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/02 📣 Notifier domain.md>) name
+|Header|`From`|string | [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) from [`Assess@Broker`](<../../15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/01 🧑‍🦰🐌🤵 Assess.md>)
+||`To`|string| [Notifier 📣](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/02 📣 Notifier domain.md>) from [`Onboard@Broker`](<../../15 🤵🅰️ Broker/10 🤵🅰️ Wallets 🧑‍🦰/11 📣🚀🤵 Onboard.md>)
 ||`Subject`|string|`Assessed@Notifier`
-|Body  |`WalletID` |uuid  | [Wallet 🧑‍🦰](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) ID from [`Onboard@`](<../01 📣🤵🅰️ Onboard/11 🧑‍🦰🚀📣 Onboard.md>)
-|      |`ChatID`   |uuid  | [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) ID on the Broker domain
+|Body  |`WalletID` |uuid  | [Wallet 🧑‍🦰](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) ID from [`Assess@Broker`](<../../15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/01 🧑‍🦰🐌🤵 Assess.md>)
+|      |`ChatID`   |uuid  | New [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) ID on the [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
 |      |`Host`     |string| [Host 🤗 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) name
-|      |`Name`     |string| Friendly translated name
-|      |`SmallIcon`|URL   | Location of the small icon
-|      |`BigIcon`  |URL   | Location of the big icon
-|      |`PrivateKey`|URL  | For [`Prompted@`](<../../50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) [`Reply@`](<../../50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) [`Download@`](<../../50 🤗🅰️ Host/06 🧑‍🦰🚀🤗 Download.md>)
+|      |`Name`     |string| Name from [`Translate@Graph`](<../../45 🕸🅰️ Graph/06 👥🚀🕸 Translate.md>)
+|      |`SmallIcon`|string   | Small icon from [`Identity@Graph`](<../../45 🕸🅰️ Graph/04 👥🚀🕸 Identity.md>)
+|      |`BigIcon`  |string   | Big icon from [`Identity@Graph`](<../../45 🕸🅰️ Graph/04 👥🚀🕸 Identity.md>)
+|      |`PrivateKey`|string  | For [`Prompted@`](<../../50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) [`Reply@`](<../../50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) [`Download@`](<../../50 🤗🅰️ Host/06 🧑‍🦰🚀🤗 Download.md>)
 |
