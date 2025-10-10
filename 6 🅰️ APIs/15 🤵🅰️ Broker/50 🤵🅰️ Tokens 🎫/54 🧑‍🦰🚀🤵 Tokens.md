@@ -8,7 +8,7 @@
 
 > Used in:
 > <br/> • [🧑‍🦰👉🤵 Translate @ Broker](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/12 🧑‍🦰👉🤵 Translate.md>) flow
-> <br/> • [🧑‍🦰👉🤵 List Tokens @ Broker](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/01 🧑‍🦰👉🤵 List tokens.md>) flow
+> <br/> • [🧑‍🦰👉🤵 List Tokens @ Broker](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/01 🧑‍🦰👉🤵 List Tokens.md>) flow
 
 <br/>
 

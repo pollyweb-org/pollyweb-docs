@@ -31,13 +31,17 @@ activate broker
     'alt No host session?
 
         broker --> wallet: 2) ⏪ Assessed
+        
+        activate wallet
+            wallet --> wallet: new Chat 💬
+        deactivate wallet
 
         broker --> finder: 3) Introduce ⏩
-        'deactivate broker
-            'activate finder
-            '   finder --> broker
-            'deactivate finder
-        'activate broker
+        deactivate broker
+            activate finder
+               finder --> broker
+            deactivate finder
+        activate broker
 
     'end alt
 
@@ -49,7 +53,10 @@ activate host
     host --> wallet: 6) ⏪ Prompt 🤔 {what do you need?}
 deactivate host
 
-  
+activate wallet
+    user --> wallet: reply
+deactivate wallet
+
 
 ' ------------
 @enduml

@@ -15,10 +15,10 @@
 
     |Example|Details
     |-|-
-    | Banks | They hold and control customer's bank accounts.
-    | Hospitals | They hold and control patients medical records.
-    | Governments | They hold and control citizen's identity documents.
-    |[🫥 Agents](<04 🫥🗄️ Agent vault.md>) | These are vaults with well-known NLWeb features.
+    | `Banks` | These hold and revoke customers' bank accounts.
+    | `Hospitals` | These hold and control patients' medical records.
+    | `Governments` | These hold and revoke citizens' identity documents.
+    |[🫥 `Agents`](<04 🫥🗄️ Agent vault.md>) | These are [Vaults 🗄️](<03 🗄️🎭 Vault role.md>) with well-known NLWeb APIs.
     
 
     ---
@@ -27,10 +27,24 @@
 
 1. **How are Vault domains configured on a Wallet?**
 
-    For a [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) to be listed as a [Vault 🗄️ domain](<03 🗄️🎭 Vault role.md>) in the [user's Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), the user first needs to [bind 🔗](<01 🔗 Bind.md>) the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) to the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>). 
+    For a [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) to be listed as a [Vault 🗄️ domain](<03 🗄️🎭 Vault role.md>) in the [user's Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), the user first needs to [bind 🔗](<01 🔗 Bind.md>) the [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) to the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+
+    | | Workflow |  Description
+    |-|-|-
+    | | [👉 Binds ](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/01 🧑‍🦰👉🤵 List Binds.md>) | List the user's [Binds 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>)
+    || [👉 Bind](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind.md>) | [Bind 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>) the [Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to a [Vault 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>)
+    || [👉 Unbind](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/03 🧑‍🦰👉🗄️ Unbind.md>) | Remove a [Bind 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>) from a [Vault 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>)
+    
+    ---
+    <br/>
+
+1. **What are default Vaults?**
+
+    To streamline user onboarding, [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) may automatically [bind 🔗](<01 🔗 Bind.md>) new [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to default [Agent 🫥 vault domains](<04 🫥🗄️ Agent vault.md>).
         
-    * To streamline user onboarding, [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) may automatically [bind 🔗](<01 🔗 Bind.md>) new [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to default [Agent 🫥 vault domains](<04 🫥🗄️ Agent vault.md>).
-        
+    | | Workflow |  Description
+    |-|-|-
+    ||[👉 Onboard](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/11 🧑‍🦰👉🤵 Onboard.md>) | Register the [Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) on a [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>)
 
     ---
     <br/>
@@ -40,6 +54,12 @@
     Yes. 
     - Upon a share request with the [Consumer 💼 host](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) in a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>), users can authorize their [Vault 🗄️ domains](<03 🗄️🎭 Vault role.md>) to disclose a data set with that [Consumer 💼 domain](<../27 💼 Consumers/04 💼🎭 Consumer role.md>). 
     - This requires both [Vault 🗄️](<03 🗄️🎭 Vault role.md>) and [Consumer 💼 host](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) domains to [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) one another for the [Schema Code 🧩](<02 🧩 Schema Code.md>) of the dataset to be shared.
+
+    | | Workflow |  Description
+    |-|-|-
+    ||[👉 Share](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind.md>) | Shares a [Bind 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>) with a [Consumer 💼](<../27 💼 Consumers/04 💼🎭 Consumer role.md>)
+    || [💼 Consume](<../../../5 ⏩ Flows/80 🗄️⏩ Vaults/02 🗄️⏩💼 Consume.md>) | Tells a [Consumer 💼](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) to collect data
+    
 
     ---
     <br/>
@@ -54,7 +74,9 @@
 
 1. **How can Vaults comply with data residency?**
 
-    [Vault 🗄️ domains](<03 🗄️🎭 Vault role.md>) can ask users to share their [Storage 📦 vault](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>), then store the user data there.
+    [Vault 🗄️ domains](<03 🗄️🎭 Vault role.md>) 
+    * can ask users to share their [Storage 📦 vault](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>), 
+    * then store the user data there.
 
     ---
     <br/>
@@ -193,15 +215,26 @@
     <br/>
 
 
+1. **What flows are initiated by Vaults?**
+
+    |Flow ⏩| Details
+    |-|-
+    | [💼 Consume](<../../../5 ⏩ Flows/80 🗄️⏩ Vaults/02 🗄️⏩💼 Consume.md>) | Tells a [Consumer 💼](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) to collect data
+    | [🧑‍🦰 Engage](<../../../5 ⏩ Flows/80 🗄️⏩ Vaults/04 🗄️⏩🧑‍🦰 Engage.md>) | Opens a new [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) with a [Bound 🔗](<01 🔗 Bind.md>) user
+    
+
+    ---
+    <br/>
+
 1. **What API methods does a Vault exposes?**
    
-    | From | Subject | Description |
+    | [From 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Subject 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) | Description |
     |-|--------|-------------|
-    | [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | [Bound 🐌](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/02 🤵🐌🗄️ Bound.md>) | Add a [Bind 🔗](<01 🔗 Bind.md>) |
-    | [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | [Unbind 🐌](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/02 🤵🐌🗄️ Unbind.md>) | Remove a [Bind 🔗](<01 🔗 Bind.md>) |
-    | [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | [Disclose 🐌](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/03 🤵🐌🗄️ Disclose.md>) | Disclose the data of a [Bind 🔗](<01 🔗 Bind.md>) |
-    | [Consumer 💼](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) | [Collect 🚀](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>) | Return the data disclosed
-    | [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | [Suppress 🐌](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/04 🤵🐌🗄️ Suppress.md>) | Suppress [🖐️ Palm scans](<../../30 🫥 Agents/05 🆔 Identities/22 🆔🖐️ Palm scan.md>) |
+    | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | [`Bound@`](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/02 🤵🐌🗄️ Bound.md>) | Add a [Bind 🔗](<01 🔗 Bind.md>) |
+    | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | [`Unbind@`](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/02 🤵🐌🗄️ Unbind.md>) | Remove a [Bind 🔗](<01 🔗 Bind.md>) |
+    | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | [`Disclose@`](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/03 🤵🐌🗄️ Disclose.md>) | Disclose the data of a [Bind 🔗](<01 🔗 Bind.md>) |
+    | [💼 Consumer](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) | [`Collect@`](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>) | Return the data disclosed
+    | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | [`Suppress@`](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/04 🤵🐌🗄️ Suppress.md>) | Suppress [🖐️ Palm scans](<../../30 🫥 Agents/05 🆔 Identities/22 🆔🖐️ Palm scan.md>) |
 
     ---
     <br/>

@@ -8,22 +8,22 @@ participant "Broker 🤵\ndomain" as broker
 
 'group Register
 
-    user --> syncer: 1) chat
+    user --> syncer: 1) chat {key}
 
     activate syncer
         syncer --> resourcer: 
     deactivate syncer
 
     activate resourcer
-        resourcer --> broker: 2)
+        resourcer --> broker: 2) Engage ⏩
     deactivate resourcer
 
     activate broker
-        broker --> resourcer: 3) 
+        broker --> resourcer:
     deactivate broker
 
     activate resourcer
-        resourcer --> wallet: 4 ⏪ Prompt {what?} 
+        resourcer --> wallet: 3) ⏪ Prompt {what?} 
     deactivate resourcer
 
 @enduml
