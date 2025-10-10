@@ -3,10 +3,14 @@
 # 🧑‍🦰🚀🤗 Download @ Host
 
 
-> Downloads the content of a [Prompt 🤔](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) attachment.
+> Downloads the content of an [Appendix 📎](<../../../9 😃 Talkers/20 🤔 Prompts/1 📘 Prompt specs/05 📎 with Appendix.md>).
 
 
 > Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../../5 ⏩ Flows/50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) flow.
+
+> Signature of the [Message 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>):
+> <br>• signed with the `PrivateKey` from [`Assessed@Notifier`](<../65 📣🅰️ Notifier/02 📣💬🅰️ Chats/21 🤵🐌📣 Assessed.md>)
+> <br>• verified with the `PublicKey` from [`Hello@Host`](<01 🤵🐌🤗 Hello.md>)
 
 
 <br/>
@@ -30,8 +34,8 @@ Body:
 | Header    | `From`        | string    | `Anonymous`
 |           | `To`          | string    | [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>)
 |           | `Subject`     | string    | `Prompted@Host`
-| Body      | `ChatID` | uuid | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) ID
-|| `FileID`    | uuid      | Appendix from [`Prompted@Host`](<04 🧑‍🦰🚀🤗 Prompted.md>)
+| Body      | `ChatID` | uuid | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) ID from [`Prompted@Host`](<04 🧑‍🦰🚀🤗 Prompted.md>)
+|| `FileID`    | uuid      | [Appendix 📎](<../../9 😃 Talkers/20 🤔 Prompts/1 📘 Prompt specs/05 📎 with Appendix.md>) from [`Prompted@Host`](<04 🧑‍🦰🚀🤗 Prompted.md>)
 |
 
 <br/>

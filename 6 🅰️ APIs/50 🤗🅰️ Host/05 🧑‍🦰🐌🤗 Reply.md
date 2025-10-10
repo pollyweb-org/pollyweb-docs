@@ -4,6 +4,11 @@
 
 > Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../../5 ⏩ Flows/50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) flow.
 
+> Signature of the [Message 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>):
+> <br>• signed with the `PrivateKey` from [`Assessed@Notifier`](<../65 📣🅰️ Notifier/02 📣💬🅰️ Chats/21 🤵🐌📣 Assessed.md>)
+> <br>• verified with the `PublicKey` from [`Hello@Host`](<01 🤵🐌🤗 Hello.md>)
+
+
 <br/>
 
 ## 🐌 Async Message
@@ -26,7 +31,8 @@ Body:
 | Header    | `From`        | string    | `Anonymous`
 |           | `To`          | string    | [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>)
 |           | `Subject`     | string    | `Prompted@Host`
-| Body      | `PromptID`    | uuid      | [Prompt 🤔](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) ID sent on [`Prompt@Broker`](<../15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/03 🤗🐌🤵 Prompt.md>)
+| Body      | `ChatID` | uuid | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) ID from [`Prompted@Host`](<04 🧑‍🦰🚀🤗 Prompted.md>)
+||`PromptID`    | uuid      | [Prompt 🤔](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) ID from [`Prompt@Broker`](<../15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/03 🤗🐌🤵 Prompt.md>)
 || `Result`| enum | `OK` `CANCEL` `YES` `NO` 
 || `Answer` | any | Answer to the [Prompt 🤔](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>)
 |
