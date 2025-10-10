@@ -5,7 +5,7 @@
 
 <br/>
 
-## User interface
+## User interface 🧑
 
 ```yaml
 # Run on the console
@@ -16,7 +16,7 @@ $ syncer sync
 
 <br/>
 
-## Flow diagram
+## Flow diagram ⏩
 
 ![alt text](<.📎 Assets/sync.png>)
 

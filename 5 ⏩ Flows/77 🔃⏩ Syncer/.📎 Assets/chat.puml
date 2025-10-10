@@ -11,11 +11,11 @@ participant "Broker 🤵\ndomain" as broker
     user --> syncer: 1) chat {key}
 
     activate syncer
-        syncer --> resourcer: 
+        syncer --> resourcer: 2) Chat 🐌
     deactivate syncer
 
     activate resourcer
-        resourcer --> broker: 2) Engage ⏩
+        resourcer --> broker: 3) Engage ⏩
     deactivate resourcer
 
     activate broker
@@ -23,7 +23,7 @@ participant "Broker 🤵\ndomain" as broker
     deactivate broker
 
     activate resourcer
-        resourcer --> wallet: 3) ⏪ Prompt {what?} 
+        resourcer --> wallet: 4) ⏪ Prompt {what?} 
     deactivate resourcer
 
 @enduml
