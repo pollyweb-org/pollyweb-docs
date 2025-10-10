@@ -13,9 +13,6 @@ Header:
     From: <clone-uuid>
     To: any-resourcer.com
     Subject: Chat@Resourcer
-
-Body:
-    
 ```
 
 | Object| Property | Type | Description
@@ -23,6 +20,5 @@ Body:
 | Header    | `From`        | uuid | `Clone` from [`Clone@`](<10 🔃🚀🗃️ Clone.md>) 
 |           | `To`          | string    | [Resourcer 🗃️](<../../9 😃 Talkers/90 ☁️ Hosters/02 🗃️🎭 Resourcer role.md>) from [`Clone@`](<10 🔃🚀🗃️ Clone.md>) 
 |           | `Subject`     | string    | `Chat@Resourcer`
-| Body      | `Parameters`  | object    | Params for [`Engage@Broker`](<../15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/30 🗄️🐌🤵 Engage.md>)
 |
 

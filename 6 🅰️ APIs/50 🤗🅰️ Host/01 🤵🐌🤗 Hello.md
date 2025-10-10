@@ -31,6 +31,9 @@ Body:
     Tokens:
         - <token-#1-uuid>
         - <token-#2-uuid>
+    Parameters: 
+        Param1: Value1
+        Param2: Value2
 ```
 
 
@@ -46,4 +49,5 @@ Body:
 |           | `Code`    | string    | [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) of the Locator
 |           | `Binds`   | uuid[] | List of [Binds 🔗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>) for a [Vault 🗄️](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) host
 |           | `Tokens`  | uuid[] | List of [Tokens 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) for an [Issuer 🎴](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) host
+|| `Parameters`| object | Custom parameters
 |
