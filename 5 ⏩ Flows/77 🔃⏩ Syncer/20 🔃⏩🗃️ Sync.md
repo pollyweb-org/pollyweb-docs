@@ -1,5 +1,8 @@
 # 🔃⏩🗃️ Sync @ Syncer
 
+* Syncs the resourcers in a [Resourcer 🗃️ domain](<../../9 😃 Talkers/90 ☁️ Hosters/02 🗃️🎭 Resourcer role.md>), 
+    * sending and receiving file changes in a local folder.
+
 <br/>
 
 ## User interface

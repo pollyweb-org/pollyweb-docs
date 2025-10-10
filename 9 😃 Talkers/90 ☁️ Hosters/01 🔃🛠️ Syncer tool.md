@@ -1,16 +1,32 @@
 # 🔃 Syncer tool
 
-1. **How does it work?**
- 
-    |.|.|.
-    |-|-|-
-    |3| `Clone`| On a workstation terminal, <br/>the user [scans ✨](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) the terminal QR code <br/>to link the terminal to the [Wallet 🧑‍🦰 app](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)<br/>and download the [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) settings.
-    |4| `Edit`| On a code editor (e.g., Visual Studio Code)<br/>the user configures the logic webhooks <br/>and the public [domain 📜 Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>).
-    |5| `Sync`| On the workstation terminal, <br/>the user synchronizes the changes <br/>with the [Hoster ☁️ domain](<05 ☁️🛠️ Hoster helper.md>).
-    |6| `Test`| From the workstation terminal, <br/>the user opens [Chats 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) for manual testing.
+
+1. **Is it encrypted?**
+
+    Yes. All communication is done over HTTPS.
 
     ---
     <br/>
+
+1. **Is it authenticated?**
+
+    Yes. 
+    * First, users use their [Wallet 🧑‍🦰 apps](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to approve the [Clone ⏩](<10 🔃⏩🗃️ Clone.md>) with one-time passwords, registering the [Syncer's 🔃](<../../9 😃 Talkers/90 ☁️ Hosters/01 🔃🛠️ Syncer tool.md>) public key on the [Resourcer 🗃️ domain](<../../9 😃 Talkers/90 ☁️ Hosters/02 🗃️🎭 Resourcer role.md>).
+
+    * Follow-up requests are then signed with the [Syncer's 🔃](<../../9 😃 Talkers/90 ☁️ Hosters/01 🔃🛠️ Syncer tool.md>) private key.
+
+    ---
+    <br/>
+
+1. **How are changes identified?**
+
+    Using SHA-256 hashing.
+
+    ---
+    <br/>
+
+
+
 
 1. **What commands are supported on the terminal CLI?**
 

@@ -1,6 +1,9 @@
 # 🔃🚀🗃️ Map @ Resourcer
 
+> Part of the [🔃⏩🗃️ Sync](<../../5 ⏩ Flows/77 🔃⏩ Syncer/20 🔃⏩🗃️ Sync.md>) flow:
+> <br/> • Succeeded by [`Upload@Resourcer`](<30 🔃🚀🗃️ Upload.md>)
 
+> This request is signed with the [Syncer's 🔃](<../../9 😃 Talkers/90 ☁️ Hosters/01 🔃🛠️ Syncer tool.md>) private-key pair matching the `PublicKey` sent on the [`Clone@Resourcer`](<10 🔃🚀🗃️ Clone.md>) request.
 
 <br/>
 
@@ -28,7 +31,7 @@ Body:
 
 <br/>
 
-## Synchronous Response
+## Successful Response ✅
 
 ```yaml
 # HTTP 200
@@ -43,5 +46,5 @@ Files:
 |-|-|-|-
 |Top| `Map`         | uuid      | ID for [`Upload@`](<30 🔃🚀🗃️ Upload.md>) and [`Uploaded@`](<50 🔃🚀🗃️ Uploaded.md>)
 || `Files` | dict | List of files required to change
-|File| `Action` | string | `UPLOAD` `DOWNLOAD`
+|File| `Action` | string | `UPLOAD` `REMOVE`
 |

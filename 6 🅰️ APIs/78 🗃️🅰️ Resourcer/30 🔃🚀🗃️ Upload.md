@@ -1,5 +1,11 @@
 # 🔃🚀🗃️ Upload @ Resourcer
 
+> Part of the [🔃⏩🗃️ Sync](<../../5 ⏩ Flows/77 🔃⏩ Syncer/20 🔃⏩🗃️ Sync.md>) flow:
+> <br/> • Preceded by [`Map@Resourcer`](<20 🔃🚀🗃️ Map.md>)
+> <br/> • Succeeded by [`Uploaded@Resourcer`](<50 🔃🚀🗃️ Uploaded.md>)
+
+> This request is signed with the [Syncer's 🔃](<../../9 😃 Talkers/90 ☁️ Hosters/01 🔃🛠️ Syncer tool.md>) private-key pair matching the `PublicKey` sent on the [`Clone@Resourcer`](<10 🔃🚀🗃️ Clone.md>) request.
+
 
 <br/>
 
@@ -13,9 +19,9 @@ Header:
 Body:
     Map: <map-uuid>
     File: /folder-C/folder-C1/file-C12.yaml
-    Parts: 1
-    Part: 1
-    Base46: False
+    Parts: 1        # 1 by default, if missing
+    Part: 1         # 1 by default, if missing
+    Base46: False   # False by default, if missing
     Content: <content>
 ```
 
@@ -34,7 +40,7 @@ Body:
 
 <br/>
 
-## Synchronous Response
+## Successful Response ✅
 
 ```yaml
 # HTTP 200
@@ -43,6 +49,10 @@ Body:
 || Property | Type | Description
 |-|-|-|-
 || -        | -      | Empty response on success
+
+<br/>
+
+## Failure Response ❌
 
 ```yaml
 # HTTP 409
@@ -54,6 +64,5 @@ Errors:
 
 || Property | Type | Description
 |-|-|-|-
-|| None        | None      | Empty response on success
 || `Errors`    | string[]  | List of errors on failure
 |
