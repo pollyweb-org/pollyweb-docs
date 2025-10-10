@@ -41,5 +41,5 @@ Map: <map-uuid>
 
 || Property | Type | Description
 |-|-|-|-
-|| `Map`         | uuid      | ID for [`Push@`](<30 🔃🚀🗃️ Push.md>) and [`Pushed@`](<50 🔃🚀🗃️ Pushed.md>)
+|| `Map`         | uuid      | ID for [`Upload@`](<30 🔃🚀🗃️ Upload.md>) and [`Uploaded@`](<50 🔃🚀🗃️ Uploaded.md>)
 |

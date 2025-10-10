@@ -12,7 +12,7 @@ activate syncer
         resourcer -> syncer: {map}
     deactivate resourcer
 
-    syncer -> resourcer: 2) Push 🚀 {file}
+    syncer -> resourcer: 2) Upload 🚀 {file}
     
     activate syncer
         syncer -> resourcer
@@ -25,12 +25,24 @@ activate syncer
         'syncer -> resourcer
     deactivate syncer
 
-    syncer -> resourcer: 3) Pushed 🚀
+    syncer -> resourcer: 3) Uploaded 🚀
 deactivate syncer
 
 activate resourcer
-    resourcer -> resourcer: replace
+    resourcer -> syncer: {changes}
 deactivate resourcer
 
+activate syncer
+    syncer -> resourcer: 4) Download 🚀 {file}
+    activate syncer
+        syncer -> resourcer
+        activate syncer
+            syncer -> resourcer
+            activate syncer
+                syncer -> resourcer
+            deactivate syncer
+        deactivate syncer
+        'syncer -> resourcer
+deactivate syncer
 
 @enduml
