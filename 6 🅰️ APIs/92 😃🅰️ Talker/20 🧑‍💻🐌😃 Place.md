@@ -6,7 +6,8 @@
 
 > Paired with [`Placed@Talker`](<10 🧑‍💻🚀😃 Placed.md>) method
 
-> Writes to a [$Placeholder 💾](<../../9 😃 Talkers/30 🗃️ Talker data/10 💾 $Placeholder.md>)
+* Writes a value to a [$Placeholder 💾](<../../9 😃 Talkers/30 🗃️ Talker data/10 💾 $Placeholder.md>).
+* [$Placeholder 💾](<../../9 😃 Talkers/30 🗃️ Talker data/10 💾 $Placeholder.md>) names must to start with a letter.
 
 <br/>
 
