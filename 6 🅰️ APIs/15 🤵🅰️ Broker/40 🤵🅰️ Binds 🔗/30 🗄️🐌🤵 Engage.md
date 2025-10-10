@@ -1,0 +1,25 @@
+# 🗄️🐌🤵 Engage
+
+> Part of [🗄️⏩🧑‍🦰 Engage @ Vault](<../../../5 ⏩ Flows/80 🗄️⏩ Vaults/04 🗄️⏩🧑‍🦰 Engage.md>)
+
+<br/>
+
+## 🐌 Async Message
+
+```yaml
+Header:
+    From: any-vault.com
+    To: any-broker.com
+    Subject: Help@Broker
+
+Body:
+    
+```
+
+| Object | Property | Type |Description
+|-|-|-|-
+| Header | `From`    | string | [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) ID
+|| `To`      | string | [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
+|| `Subject` | string | `Help@Broker`
+| Body | `ChatID`  | uuid   | ID of the [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
+|
