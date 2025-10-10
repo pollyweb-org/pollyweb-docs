@@ -1,9 +1,9 @@
-@startuml Handle
+@startuml Clone
 
 actor "User" as user
 participant "Wallet 🧑\napp" as wallet
 participant "Syncer 🔃\ntool" as syncer
-participant "Resourcer 🗃️\ndomain" as resourcer
+participant "Resourcer 🗃️\nvault" as resourcer
 
 'group Register
 

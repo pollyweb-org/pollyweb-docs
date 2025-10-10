@@ -36,7 +36,7 @@ $ syncer sync
 
 ## Flow diagram
 
-![alt text](<.📎 Assets/register.png>)
+![alt text](<.📎 Assets/clone.png>)
 
 | # | Call | Notes
 |-|-|-
