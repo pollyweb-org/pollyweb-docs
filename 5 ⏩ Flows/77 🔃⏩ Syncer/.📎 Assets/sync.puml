@@ -1,45 +1,36 @@
 @startuml Handle
 
-participant "User 🧑\ndomains" as user
-box Hoster 💭 domain #FFFFFA
-    participant "Host 🤗\nrole API" as host
-    participant "Talker 😃\nrole API" as talker
-end box
-participant "Hosted 🧑‍💻\non-prem" as hosted
+participant "Wallet 🧑\napp" as wallet
+participant "Syncer 🔃\ntool" as syncer
+participant "Resourcer 🗃️\ndomain" as resourcer
 
-'activate host
-    host --> user: 1 ⏪ Prompt 🤔
-'deactivate host
+syncer -> resourcer: 1) Map 🚀
+activate syncer
 
-activate user
-    user --> host: Reply 🤔
-deactivate user
+    activate resourcer
+        'resourcer -> resourcer: stage
+        resourcer -> syncer: {map}
+    deactivate resourcer
 
-activate host
-    host --> talker: {reply}
-deactivate host
-
-activate talker
-    talker --> hosted: 2) Handle 🐌 {function}
-deactivate talker
+    syncer -> resourcer: 2) Put 🚀 {file}
     
-activate hosted
-        
-    hosted -> talker: 3) Placed 🚀 {$placeholder}
+    activate syncer
+        syncer -> resourcer
+        activate syncer
+            syncer -> resourcer
+            activate syncer
+                syncer -> resourcer
+            deactivate syncer
+        deactivate syncer
+        'syncer -> resourcer
+    deactivate syncer
 
-    activate talker
-        talker -> hosted: {$placeholder value}
-    deactivate talker
+    syncer -> resourcer: 3) Done 🚀
+deactivate syncer
 
-    hosted --> talker: 4) Handled 🐌 {result}
-deactivate hosted
+activate resourcer
+    resourcer -> resourcer: replace
+deactivate resourcer
 
-activate talker
-    talker --> host: {prompt}
-deactivate talker
-
-activate host
-    host --> user: 5 ⏪ Prompt 🤔
-deactivate host
 
 @enduml

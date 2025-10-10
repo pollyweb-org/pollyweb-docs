@@ -4,6 +4,7 @@ Alexa
 CLDR
 Cognifying
 Elon
+enduml
 Ephemerals
 Fier
 Fiers
@@ -23,8 +24,10 @@ NTAG
 Passwordless
 Pluggables
 Reimagined
+Resourcer
 skippability
 startuml
+Syncer
 Tapband
 Tapbands
 touchless

@@ -1,0 +1,7 @@
+@startuml Handle
+
+participant "Wallet 🧑\napp" as wallet
+participant "Syncer 🔃\ntool" as syncer
+participant "Resourcer 🗃️\ndomain" as resourcer
+
+@enduml
