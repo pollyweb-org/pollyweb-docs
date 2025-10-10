@@ -12,7 +12,7 @@ activate syncer
         resourcer -> syncer: {map}
     deactivate resourcer
 
-    syncer -> resourcer: 2) Put 🚀 {file}
+    syncer -> resourcer: 2) Push 🚀 {file}
     
     activate syncer
         syncer -> resourcer
@@ -25,7 +25,7 @@ activate syncer
         'syncer -> resourcer
     deactivate syncer
 
-    syncer -> resourcer: 3) Done 🚀
+    syncer -> resourcer: 3) Pushed 🚀
 deactivate syncer
 
 activate resourcer

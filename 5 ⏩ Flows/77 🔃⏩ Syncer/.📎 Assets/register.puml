@@ -1,7 +1,56 @@
 @startuml Handle
 
+actor "User" as user
 participant "Wallet 🧑\napp" as wallet
 participant "Syncer 🔃\ntool" as syncer
 participant "Resourcer 🗃️\ndomain" as resourcer
+
+'group Register
+
+    user --> wallet: 1) chat
+    activate wallet
+        wallet --> resourcer: 
+    deactivate wallet
+    
+    activate resourcer
+        resourcer --> wallet: ⏪ Prompt {what?} 
+    deactivate resourcer
+
+    activate wallet
+        user --> wallet: 2) add
+        wallet --> resourcer: 
+    deactivate wallet
+
+    activate resourcer
+        resourcer --> wallet: ⏪ Prompt { 🄰 }
+    deactivate resourcer        
+
+'end group
+
+'group Clone
+    user --> syncer: 3) link 🄰 
+
+    activate syncer 
+        syncer -> syncer: show 🄱
+        syncer -> resourcer: Link 🐌 🄰🄱
+    deactivate syncer
+        
+    activate resourcer
+        resourcer --> wallet: ⏪ Prompt { 🄱?} 
+    deactivate resourcer
+
+    activate wallet
+        user --> wallet: 4) yes
+        wallet --> resourcer: 
+    deactivate wallet
+    
+    activate resourcer
+        resourcer --> wallet: ⏪ Prompt { sync } 
+    deactivate resourcer
+
+    user --> syncer: 5) Sync ⏩
+    
+
+'end group
 
 @enduml
