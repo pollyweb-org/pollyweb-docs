@@ -1,4 +1,4 @@
-# 🔃🚀🗃️ Done @ Resourcer
+# 🔃🚀🗃️ Pushed @ Resourcer
 
 
 <br/>
@@ -9,7 +9,7 @@
 Header:
     From: <link-uuid>
     To: any-resourcer.com
-    Subject: Done@Resourcer
+    Subject: Pushed@Resourcer
 Body:
     Map: <map-uuid>
 ```
@@ -18,7 +18,7 @@ Body:
 |-|-|-|-
 | Header    | `From`        | uuid | 
 |           | `To`          | string    | [Resourcer 🗃️](<../../4 ⚙️ Solution/30 🫥 Agents/20 🗃️ Resourcers/01 🗃️ Index.md>) domain name
-|           | `Subject`     | string    | `Done@Resourcer`
+|           | `Subject`     | string    | `Pushed@Resourcer`
 | Body      | `Map`         | uuid    | ID from [`Map@Resourcer`](<20 🔃🚀🗃️ Map.md>)
 |
 

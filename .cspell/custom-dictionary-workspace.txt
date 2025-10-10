@@ -25,6 +25,7 @@ Passwordless
 Pluggables
 Reimagined
 Resourcer
+Resourcers
 skippability
 startuml
 Syncer

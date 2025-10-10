@@ -1,4 +1,4 @@
-# 🔃🚀🗃️ Put @ Resourcer
+# 🔃🚀🗃️ Push @ Resourcer
 
 
 <br/>
@@ -9,7 +9,7 @@
 Header:
     From: <link-uuid>
     To: any-resourcer.com
-    Subject: Put@Resourcer
+    Subject: Push@Resourcer
 Body:
     Map: <map-uuid>
     File: /folder-C/folder-C1/file-C12.yaml
@@ -23,7 +23,7 @@ Body:
 |-|-|-|-
 | Header    | `From`        | uuid | 
 |           | `To`          | string    | [Resourcer 🗃️](<../../4 ⚙️ Solution/30 🫥 Agents/20 🗃️ Resourcers/01 🗃️ Index.md>) domain name
-|           | `Subject`     | string    | `Put@Resourcer`
+|           | `Subject`     | string    | `Push@Resourcer`
 | Body      | `Map`         | uuid    | ID from [`Map@Resourcer`](<20 🔃🚀🗃️ Map.md>)
 |           | `File`        | string | Path like `/dir/file.ext`
 |           | `Base64`      | bool   | Convert Base46 to binary
