@@ -24,22 +24,6 @@
     <br/>
 
 
-1. **What data is sent in the Check-in hello?**
-
-    The [user's Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) sends the following data to the [Host 🤗 domain](<04 🤗🎭 Host role.md>) on check-in.
-
-    | Data | Example | Reason
-    |-|-|-
-    | `ChatID` | `{GUID}` | The ID of the [Chat 💬](<01 💬 Chat.md>) on the [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>).
-    | `Language` | `en-us` | The user's preferred language.
-    | `Locator`| `{GUID}` | The [Locator 🔆](<../11 🔆 Locators/01 🔆 Locator.md>) on the [Host 🤗 domain](<04 🤗🎭 Host role.md>).
-    | `Code` | `nlweb.org/HOST`| The [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) of the [Locator 🔆](<../11 🔆 Locators/01 🔆 Locator.md>).
-    | `Binds []` | `[{GUID}]` | The user's [Binds 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>) to the [Host 🤗 domain](<04 🤗🎭 Host role.md>).
-    | `Tokens []` | `[{GUID}]` | The user's [Tokens](<../25 🎫 Tokens/01 🎫 Token.md>) automatically sharable.
-    | `Request`  | `Back to hotel` | User request from a previous [Chat 💬](<01 💬 Chat.md>).
-
-    ---
-    <br/>
 
 1. **How are users protected from stalking from Hosts?**
 
@@ -115,11 +99,11 @@
 
     | Flow ⏩ | Description
     |-|-
-    | [🤔 Prompt](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | Sends a [Prompt 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) to a user [Chat 💬](<01 💬 Chat.md>)
-    | [🛠️ Invite](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>) | Invites a [Helper 🛠️ domain](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) to a [Chat 💬](<01 💬 Chat.md>)
-    | [📝 Form](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/05 🤗⏩🧑‍🦰 Form 📝.md>) | Informs a user upcoming inputs
-    | [❄️ Freeze](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/06 🤗⏩🧑‍🦰 Freeze ❄️.md>) | Blocks changes on all previous inputs
-    | [👋 Goodbye](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/07 🤗⏩🧑‍🦰 Goodbye 👋.md>) | Triggers the [advertising 👀](<../../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) flow
+    | [🤔 `Prompt`](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | Sends a [Prompt 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) to a user [Chat 💬](<01 💬 Chat.md>)
+    | [🛠️ `Invite`](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>) | Invites a [Helper 🛠️ domain](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) to a [Chat 💬](<01 💬 Chat.md>)
+    | [📝 `Form`](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/05 🤗⏩🧑‍🦰 Form 📝.md>) | Informs a user upcoming inputs
+    | [❄️ `Freeze`](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/06 🤗⏩🧑‍🦰 Freeze ❄️.md>) | Blocks changes on all previous inputs
+    | [👋 `Goodbye`](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/07 🤗⏩🧑‍🦰 Goodbye 👋.md>) | Triggers the [advertising 👀](<../../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) flow
     
 
     ---
@@ -129,16 +113,17 @@
 
     | [From 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Subject 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) | Store 🪣 | Description
     |-|-|-|-
-    🤵 Broker | [🐌 Hello](<../../../6 🅰️ APIs/50 🤗🅰️ Host/01 🤵🐌🤗 Hello.md>) | Chats | The user started a [Chat 💬](<01 💬 Chat.md>).
-    🧑‍🦰 Wallet | [🐌 Home](<../../../6 🅰️ APIs/50 🤗🅰️ Host/02 🤵🐌🤗 Home.md>) | Chats | Show the top menu on the [Chat 💬](<01 💬 Chat.md>).
-    🤵 Broker | [🐌 Abandoned](<../../../6 🅰️ APIs/50 🤗🅰️ Host/03 🤵🐌🤗 Abandoned.md>) | Chats | The user abandoned a [Chat 💬](<01 💬 Chat.md>).
-    🧑‍🦰 Wallet | [🚀 Prompted](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) | Prompts | Return the Prompt's content.
-    🧑‍🦰 Wallet | [🐌 Reply](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) | Prompts | Accept the reply to the Prompt.
-    🧑‍🦰 Wallet | [🚀 Download](<../../../6 🅰️ APIs/50 🤗🅰️ Host/06 🧑‍🦰🚀🤗 Download.md>) | Attachments | Download the attachment.
-    🧑‍🦰 Wallet | [🚀 Upload](<../../../6 🅰️ APIs/50 🤗🅰️ Host/07 🧑‍🦰🚀🤗 Upload.md>) | Attachments | Upload an attachment.
-    🖐️ Palmist | [🐌 Found](<../../../6 🅰️ APIs/50 🤗🅰️ Host/08 🖐️🐌🤗 Found.md>) | Chats | A Palmist found the Chat's user.
-    ⭐ Reviewer | [🐌 Rated](<../../../6 🅰️ APIs/50 🤗🅰️ Host/09 ⭐🐌🤗 Rated.md>) | Chats | The [Chat 💬](<01 💬 Chat.md>) received user reviews.
-    🤵 Broker | [🐌 Summarize](<../../../6 🅰️ APIs/50 🤗🅰️ Host/10 🤵🐌🤗 Summarize.md>) | Chats | Return an advertising summary.
+    |🤵 Broker | [`Hello`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/01 🤵🐌🤗 Hello.md>) | Chats | The user started a [Chat 💬](<01 💬 Chat.md>).
+    | | [`Home`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/02 🤵🐌🤗 Home.md>) | Chats | Show the top menu on the [Chat 💬](<01 💬 Chat.md>).
+    | | [`Abandoned`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/03 🤵🐌🤗 Abandoned.md>) | Chats | The user abandoned a [Chat 💬](<01 💬 Chat.md>).
+    | | [`Summarize`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/10 🤵🐌🤗 Summarize.md>) | Chats | Return an advertising summary.
+    |🧑‍🦰 Wallet | [`Prompted`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) | Prompts | Return the Prompt's content.
+    | | [`Reply`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) | Prompts | Accept the reply to the Prompt.
+    | | [`Download`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/06 🧑‍🦰🚀🤗 Download.md>) | Attachments | Download the attachment.
+    | | [`Upload`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/07 🧑‍🦰🚀🤗 Upload.md>) | Attachments | Upload an attachment.
+    🖐️ Palmist | [`Found`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/08 🖐️🐌🤗 Found.md>) | Chats | A Palmist found the Chat's user.
+    ⭐ Reviewer | [`Rated`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/09 ⭐🐌🤗 Rated.md>) | Chats | The [Chat 💬](<01 💬 Chat.md>) received user reviews.
+    
 
     ---
     <br/>

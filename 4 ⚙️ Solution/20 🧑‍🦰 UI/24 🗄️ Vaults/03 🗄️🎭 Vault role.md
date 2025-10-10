@@ -230,12 +230,12 @@
    
     | [From 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Subject 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) | Description |
     |-|--------|-------------|
-    | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | [`Bound@`](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/02 🤵🐌🗄️ Bound.md>) | Add a [Bind 🔗](<01 🔗 Bind.md>) |
-    | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | [`Unbind@`](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/02 🤵🐌🗄️ Unbind.md>) | Remove a [Bind 🔗](<01 🔗 Bind.md>) |
-    | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | [`Disclose@`](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/03 🤵🐌🗄️ Disclose.md>) | Disclose the data of a [Bind 🔗](<01 🔗 Bind.md>) |
-    | [💼 Consumer](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) | [`Collect@`](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>) | Return the data disclosed
-    | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | [`Suppress@`](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/04 🤵🐌🗄️ Suppress.md>) | Suppress [🖐️ Palm scans](<../../30 🫥 Agents/05 🆔 Identities/22 🆔🖐️ Palm scan.md>) |
-
+    | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | [`Bound`](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/02 🤵🐌🗄️ Bound.md>) | Add a [Bind 🔗](<01 🔗 Bind.md>) |
+    |  | [`Unbind`](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/02 🤵🐌🗄️ Unbind.md>) | Remove a [Bind 🔗](<01 🔗 Bind.md>) |
+    | | [`Disclose`](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/03 🤵🐌🗄️ Disclose.md>) | Disclose the data of a [Bind 🔗](<01 🔗 Bind.md>) |
+    | | [`Suppress`](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/04 🤵🐌🗄️ Suppress.md>) | Suppress [🖐️ Palm scans](<../../30 🫥 Agents/05 🆔 Identities/22 🆔🖐️ Palm scan.md>) |
+    | [💼 Consumer](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) | [`Collect`](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>) | Return the data disclosed
+    
     ---
     <br/>
 
