@@ -68,7 +68,7 @@
     |-|-
     | 🧑‍💻🚀 [Placed](<../../6 🅰️ APIs/92 😃🅰️ Talker/10 🧑‍💻🚀😃 Placed.md>) | Returns the value of a [$placeholder 💾](<../30 🗃️ Talker data/10 💾 $Placeholder.md>)
     | 🧑‍💻🐌 [Place](<../../6 🅰️ APIs/92 😃🅰️ Talker/20 🧑‍💻🐌😃 Place.md>) | Sets the value of a [$placeholder 💾](<../30 🗃️ Talker data/10 💾 $Placeholder.md>)
-    | 🧑‍💻🐌 [Handled](<40 🧑‍💻🐌😃 Handled.md>) | Receives the evaluation of a [{Function} 🐍](<../30 🗃️ Talker data/12 🐍 {Function}.md>)
+    | 🧑‍💻🐌 [Handled](<../../6 🅰️ APIs/92 😃🅰️ Talker/40 🧑‍💻🐌😃 Handled.md>) | Receives the evaluation of a [{Function} 🐍](<../30 🗃️ Talker data/12 🐍 {Function}.md>)
     
 
     ---
