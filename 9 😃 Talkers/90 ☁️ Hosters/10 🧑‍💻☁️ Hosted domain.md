@@ -101,29 +101,23 @@
 
     To break a [domain Manifest 📜](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) file, replace it with a folder of the same name, then create the following structure.
 
-    ```yaml
-    📜 Manifest/ # folder instead of a file.
-    ├─ 📜 Manifest.yaml # identity section 👥
-    │
-    ├─ {Codes}/ # tree of schema codes 🧩
-    │  └─ GROUP-A/
-    │     ├─ 🧩 CODE-A1.yaml
-    │     └─ 🧩 CODE-A2.yaml
-    │
-    ├─ {Flows}/ # tree of flows   
-    │  └─ ✏️ FLOW-1.yaml
-    │
-    ├─ {Services}/ # tree of API integrations 🪢
-    │  └─ GROUP-S/
-    │     ├─ 🪢 INTEGRATION-1.yaml
-    │     └─ 🪢 INTEGRATION-2.yaml
-    │
-    └─ {Trusts} # tree of trusts 👍
-       └─ GROUP-B/
-          ├─ GROUP-C/
-          │  └─ 👍 TRUST-BC1.yaml
-          └─ 👍 TRUST-B1.yaml
-    ```
+    * `📜 Manifest/` → folder instead of a file.
+        * `📜 Manifest.yaml` → identity section 👥
+        * `🧩 Codes/` → tree of schema codes 🧩
+            * `GROUP-A/`
+                * `🧩 CODE-A1.yaml`
+                * `🧩 CODE-A2.yaml`
+        * `✏️ Flows/` → tree of flows   
+            * `✏️ FLOW-1.yaml`
+        * `🪢 Services/` → tree of API integrations 🪢
+            * `GROUP-S/`
+                * `🪢 INTEGRATION-1.yaml`
+                * `🪢 INTEGRATION-2.yaml`
+        * `👍 Trusts/` → tree of trusts 👍
+            * `GROUP-B/`
+            * `GROUP-C/`
+                * `👍 TRUST-BC1.yaml`
+                * `👍 TRUST-B1.yaml`
 
     ---
     <br/>
@@ -164,5 +158,5 @@
    
     | Method | Purpose
     |-|-
-    [🧑‍💻🚀👥 Evaluate](<../../6 🅰️ APIs/51 🧑‍💻🅰️ Hosted/01 😃🐌🧑‍💻 Handle.md>) | Evaluates [{Functions}](<../30 🗃️ Talker data/12 🐍 {Function}.md>) in [Talkers 😃](<../10 📘 Talker specs/10 😃 Talker.md>)
+    [😃🐌 Handle](<../../6 🅰️ APIs/51 🧑‍💻🅰️ Hosted/01 😃🐌🧑‍💻 Handle.md>) | Evaluates [{Functions}](<../30 🗃️ Talker data/12 🐍 {Function}.md>) in [Talkers 😃](<../10 📘 Talker specs/10 😃 Talker.md>)
     |
