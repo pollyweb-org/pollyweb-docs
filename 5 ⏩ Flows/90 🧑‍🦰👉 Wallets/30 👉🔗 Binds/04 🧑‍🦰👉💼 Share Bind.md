@@ -19,7 +19,7 @@
 |5|[🤵🐌🗄️ `Disclose@Broker`](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/03 🤵🐌🗄️ Disclose.md>) | [Brokers 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) ask the [Vault 🗄️](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) to disclose
 |6|[🗄️🚀💼 `Context@Consumer`](<../../../6 🅰️ APIs/30 💼🅰️ Consumer/01 🗄️🚀💼 Context.md>) | [Vaults 🗄️](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) ask for the request's context
 |7|[🤗⏩🧑‍🦰 Prompt 🤔](<../../50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Vaults 🗄️](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) ask users for additional info
-|8|[🗄️⏩💼 Consume 🧩](<../../80 🗄️⏩ Vaults/02 🗄️⏩💼 Consume.md>) | [Vaults 🗄️](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) share the user's data
+|8|[🗄️⏩💼 Consume 🧩](<../../80 🗄️⏩ Vaults/02 🗄️⏩💼 Consume 🔗.md>) | [Vaults 🗄️](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) share the user's data
 |
 
 <br/>

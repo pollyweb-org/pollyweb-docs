@@ -19,6 +19,7 @@ $ syncer chat
 | # | Call | Notes
 |-|-|-
 |1| [`$ syncer chat`](<../../9 😃 Talkers/90 ☁️ Hosters/01 🔃🛠️ Syncer tool.md>) | Users run the `chat` command line
-|2| 
-|3| [🤗⏩🧑‍🦰 Prompt 🤔](<../50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Resourcers 🗃️](<../../9 😃 Talkers/90 ☁️ Hosters/02 🗃️🎭 Resourcer role.md>) ask users what they need
+|2| [🔃🐌🗃️ `Chat@Resourcer`](<../../6 🅰️ APIs/78 🗃️🅰️ Resourcer/70 🔃🐌🗃️ Chat.md>) | [Syncers 🔃](<../../9 😃 Talkers/90 ☁️ Hosters/01 🔃🛠️ Syncer tool.md>) ask for a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) 
+|3| [🗄️⏩🧑‍🦰 Engage 💬](<../80 🗄️⏩ Vaults/04 🗄️⏩🧑‍🦰 Engage 💬.md>) | [Resourcers 🗃️](<../../9 😃 Talkers/90 ☁️ Hosters/02 🗃️🎭 Resourcer role.md>) ask [Brokers 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) for help
+|4| [🤗⏩🧑‍🦰 Prompt 🤔](<../50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Resourcers 🗃️](<../../9 😃 Talkers/90 ☁️ Hosters/02 🗃️🎭 Resourcer role.md>) ask users what they need
 |
