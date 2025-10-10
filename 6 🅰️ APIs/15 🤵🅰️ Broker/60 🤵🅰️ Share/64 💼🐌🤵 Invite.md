@@ -2,7 +2,8 @@
 
 > Invites a [Host 🤗 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) into a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>).
 
-> Part of the [🤗⏩🧑‍🦰 Invite @ Host](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>) flow.
+> Part of the [🤗⏩🧑‍🦰 Invite @ Host](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>) flow:
+> <br/>• followed by [`Invited@Helper`](<../../49 🛠️🅰️ Helper/11 🤵🐌🛠️ Invited.md>) message
 
 <br/>
 
@@ -13,9 +14,10 @@ Header:
     From: any-consumer.com
     To: any-broker.com
     Subject: Invite@Broker
+
 Body:
     ChatID: <chat-uuid>
-    Invitee: any-helper.com
+    Helper: any-helper.com
     Code: any-authority.com/ANY-CODE:1.0
     ConsumerKey: <consumer-key-uuid>
     Parameters:
@@ -25,12 +27,12 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From`     | string  | Inviter [Consumer 💼 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) name
-||`To`       | string  | [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) name
+|Header|`From`     | string  | Inviter [Consumer 💼](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) name
+||`To`       | string  | [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) from [`Hello@Host`](<../../50 🤗🅰️ Host/01 🤵🐌🤗 Hello.md>)
 ||`Subject` | string | `Invite@Broker`
-|Body|`ChatID`   | uuid    | ID of the [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) 
-||`Invitee`  | string  | Invitee [Host 🤗 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) name
+|Body|`ChatID`   | uuid    | [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) ID from [`Hello@Host`](<../../50 🤗🅰️ Host/01 🤵🐌🤗 Hello.md>)
+||`Helper`  | string  | Invitee [Helper 🛠️ domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) name
 ||`Code`     | string  | Related [Schema Code 🧩](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)
-||`ConsumerKey` | uuid    | Callback for [Consume @ Consumer](<../../30 💼🅰️ Consumer/02 🗄️🐌💼 Consume.md>)
+||`ConsumerKey` | uuid    | Callback for [`Consume@Consumer`](<../../30 💼🅰️ Consumer/02 🗄️🐌💼 Consume.md>)
 ||`Parameters`| object   | Optional parameters for the invite
 |

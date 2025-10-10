@@ -14,6 +14,7 @@ Header:
     From: <clone-uuid>
     To: any-resourcer.com
     Subject: Map@Resourcer
+
 Body:
     Files: 
         /any-folder/any-file.yaml: 
@@ -22,8 +23,8 @@ Body:
 
 | Object| Property | Type | Description
 |-|-|-|-
-| Header    | `From`        | uuid | `Clone` from [`Clone@`](<10 🔃🚀🗃️ Clone.md>) response
-|           | `To`          | string    | [Resourcer 🗃️ domain](<../../9 😃 Talkers/90 ☁️ Hosters/02 🗃️🎭 Resourcer role.md>) name
+| Header    | `From`        | uuid | `Clone` from [`Clone@`](<10 🔃🚀🗃️ Clone.md>) 
+|           | `To`          | string    | [Resourcer 🗃️](<../../9 😃 Talkers/90 ☁️ Hosters/02 🗃️🎭 Resourcer role.md>) from [`Clone@`](<10 🔃🚀🗃️ Clone.md>) 
 |           | `Subject`     | string    | `Map@Resourcer`
 | Body      | `Files`       | dict | Dictionary of local files
 | File      | `Hash`        | string | Hashed with [`Clone@`](<10 🔃🚀🗃️ Clone.md>) hash

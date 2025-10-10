@@ -16,6 +16,7 @@ Header:
     From: <clone-uuid>
     To: any-resourcer.com
     Subject: Upload@Resourcer
+
 Body:
     Map: <map-uuid>
     File: /folder-C/folder-C1/file-C12.yaml
@@ -27,8 +28,8 @@ Body:
 
 | Object| Property | Type | Description
 |-|-|-|-
-| Header    | `From`        | uuid | `Clone` from [`Clone@`](<10 🔃🚀🗃️ Clone.md>) response
-|           | `To`          | string    | [Resourcer 🗃️ domain](<../../9 😃 Talkers/90 ☁️ Hosters/02 🗃️🎭 Resourcer role.md>) name
+| Header    | `From`        | uuid | `Clone` from [`Clone@`](<10 🔃🚀🗃️ Clone.md>) 
+|           | `To`          | string    | [Resourcer 🗃️](<../../9 😃 Talkers/90 ☁️ Hosters/02 🗃️🎭 Resourcer role.md>) from [`Clone@`](<10 🔃🚀🗃️ Clone.md>) 
 |           | `Subject`     | string    | `Upload@Resourcer`
 | Body      | `Map`         | uuid    | ID from [`Map@Resourcer`](<20 🔃🚀🗃️ Map.md>)
 |           | `File`        | string | Path like `/dir/file.ext`
