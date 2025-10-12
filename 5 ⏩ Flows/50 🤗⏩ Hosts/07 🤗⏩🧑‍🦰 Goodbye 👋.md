@@ -1,5 +1,7 @@
 # 🤗⏩🧑‍🦰 Goodbye @ Host
 
+> Referenced by the [`GOODBYE`](<../../9 😃 Talkers/60 ⏩ Msg flows/50 👋 GOODBYE.md>) Talker command.
+
 * [Host 🤗 domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) 
   * inform [Broker 🤵 domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) of the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) ending, 
   * for them to trigger the [Advertisement 👀 ](<../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) flow.
