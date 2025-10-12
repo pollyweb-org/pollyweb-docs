@@ -1,2 +1,24 @@
-   * `GOODBYE|<statement>`	
-       * Calls 👉 Goodbye: 🤗 Host[text](<../../5 ⏩ Flows/50 🤗⏩ Hosts/07 🤗⏩🧑‍🦰 Goodbye 👋.md>)
+# 👋 Talker GOODBYE command
+
+> Part of [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>)
+
+
+  
+<br/>
+
+1. **What is an GOODBYE message command?**
+   
+    A `GOODBYE`
+    * is a message [Command ⌘](<../40 🌊 Talker flows/10 ⌘ Command.md>) 
+    * that calls the [🤗⏩🧑‍🦰 Goodbye 👋](<../../5 ⏩ Flows/50 🤗⏩ Hosts/07 🤗⏩🧑‍🦰 Goodbye 👋.md>) flow.
+
+    ---
+    <br/>
+
+1. **What's the GOODBYE syntax?**
+
+    ```yaml
+    GOODBYE
+    ```
+    ---
+    <br/>
