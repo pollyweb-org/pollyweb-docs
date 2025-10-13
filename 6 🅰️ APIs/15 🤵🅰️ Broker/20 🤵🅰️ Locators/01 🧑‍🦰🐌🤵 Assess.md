@@ -44,6 +44,6 @@ Body:
 | # | Call | Notes
 |-|-|-
 | 1 | [👥🚀🖨️ `Alias@Printer`](<../../75 🖨️🅰️ Printer/01 👥🚀🖨️ Alias.md>) | Ask [Printers 🖨️](<../../../4 ⚙️ Solution/70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>) to translate [`.ALIAS` 🧩](<../../../7 🧩 Codes/$/🧩 Alias.md>)
-| 2 | [🤵⏩🧑‍🦰 Assessed 🔆](<../../../5 ⏩ Flows/10 🤵⏩ Brokers/01 🤵⏩🧑‍🦰 Assessed 🔆.md>) | Ask [Wallets 🧑‍🦰](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)  to open a chat window
+| 2 | [🤵⏩🧑‍🦰 Assessed 🔆](<../../../5 ⏩ Flows/10 🤵⏩ Brokers/02 🤵⏩🧑‍🦰 Assessed 🔆.md>) | Ask [Wallets 🧑‍🦰](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)  to open a chat window
 | 3 | [🔎⏩🧑‍🦰 Introduce 🤗](<../../../5 ⏩ Flows/40 🔎⏩ Finders/01 🔎⏩🧑‍🦰 Introduce 🤗.md>) | Ask [Finders 🔎](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) to introduce [Hosts 🤗](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>)
 ||
