@@ -26,7 +26,7 @@ activate broker
     end group
 
 
-    broker --> wallet: 2) ⏪ Assessed
+    broker --> wallet: 2) ⏪ Converse
 
     broker --> finder: 3) Introduce ⏩
     deactivate broker

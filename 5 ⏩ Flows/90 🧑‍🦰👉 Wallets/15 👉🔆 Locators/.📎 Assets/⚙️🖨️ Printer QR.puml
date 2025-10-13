@@ -49,7 +49,7 @@ activate broker
 
     'alt No host session?
 
-        broker --> wallet: 4) ⏪ Assessed
+        broker --> wallet: 4) ⏪ Converse
 
         broker --> finder: 5) Introduce ⏩
         deactivate broker

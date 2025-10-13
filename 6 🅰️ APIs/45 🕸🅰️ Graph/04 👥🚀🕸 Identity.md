@@ -5,7 +5,7 @@
 
 > Return the content of [`.MANIFEST/IDENTITY 🧩`](<../../7 🧩 Codes/MANIFEST/🧩 ManifestIdentity.md>)
 
-> Used by [🤵⏩🧑‍🦰 Assessed @ Broker](<../../5 ⏩ Flows/10 🤵⏩ Brokers/03 🤵⏩🧑‍🦰 Assessed 💬.md>) 
+> Used by [🤵⏩🧑‍🦰 Converse @ Broker](<../../5 ⏩ Flows/10 🤵⏩ Brokers/03 🤵⏩🧑‍🦰 Converse 💬.md>) 
 
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 
@@ -40,8 +40,8 @@ Body:
 Domain: another-domain.com
 Feedback: any-buffer.com
 Name: Any Other Domain, Inc.
-SmallIcon: 
-BigIcon: https://another-domain.com/big-icon.png
+SmallIcon: <base64>
+BigIcon: <base64>
 Translations: 
   - Language: en-us
     Translation: Any Other Domain, Inc.
@@ -52,8 +52,8 @@ Translations:
 |Top        |`Domain`       | string | URL name of the [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>)
 |           |`Feedback`     | string | [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>) name
 |           |`Name`         | string | Friendly name of the [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>)
-|           |`SmallIcon`    | URL    | Location of the small icon
-|           |`BigIcon`      | URL    | Location of the big icon
+|           |`SmallIcon`    | string  | Small icon in Base64 PNG
+|           |`BigIcon`      | string  | Big icon in Base64 PNG
 |           |`Translations` | object[]| List of Translation objects
 |Translation|`Language`     | enum   | ISO language code
 |           |`Translation`  | string | Translated text
