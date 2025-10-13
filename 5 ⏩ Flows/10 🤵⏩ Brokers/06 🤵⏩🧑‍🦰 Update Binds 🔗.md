@@ -3,7 +3,7 @@
 > Updates the list of [Binds 🔗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>) on the Wallet app.
 
 > Used in:
-> <br/>• [🤵⏩🗄️ Bind vault @ Broker](<08 🤵⏩🗄️ Bind vault.md>) to add a [Bind 🔗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>) to the list
+> <br/>• [🤵⏩🗄️ Bind vault @ Broker](<05 🤵⏩🗄️ Bind vault.md>) to add a [Bind 🔗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>) to the list
 > <br>•  [🧑‍🦰👉🗄️ Unbind @ Wallet](<../90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/03 🧑‍🦰👉🗄️ Unbind.md>) to remove a [Bind 🔗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>) from the list
 
 <br/>

@@ -25,7 +25,7 @@
 
 1. **How is cache invalidated?**
 
-    Cache is invalidated with [🤵⏩🧑‍🦰 Update tokens](<../../10 🤵⏩ Brokers/04 🤵⏩🧑‍🦰 Update Tokens 🎫.md>).
+    Cache is invalidated with [🤵⏩🧑‍🦰 Update tokens](<../../10 🤵⏩ Brokers/08 🤵⏩🧑‍🦰 Update Tokens 🎫.md>).
 
     ---
     <br/>
