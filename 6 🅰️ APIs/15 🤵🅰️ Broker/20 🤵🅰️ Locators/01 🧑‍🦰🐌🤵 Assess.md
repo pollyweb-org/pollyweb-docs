@@ -1,7 +1,5 @@
 # 🧑‍🦰🐌🤵 Assess @ Broker
 
-[`Identity@Graph`](<../../45 🕸🅰️ Graph/04 👥🚀🕸 Identity.md>)
-
 > Used in:
 > <br/>• [🧑‍🦰👉🤗 Scan host QR](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>)
 > <br/>• [🧑‍🦰👉🤗 Scan printer QR](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/02 🧑‍🦰👉🤗 Scan printer QR.md>)
@@ -12,6 +10,20 @@
     * then it needs to be be translated 
     * into the final [Host 🤗 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>).
 
+
+<br/>
+
+## Logic
+
+![alt text](<.📎 Assets/⚙️ Assess.png>)
+
+
+| # | Call | Notes
+|-|-|-
+| 1 | [👥🚀🖨️ `Alias@Printer`](<../../75 🖨️🅰️ Printer/01 👥🚀🖨️ Alias.md>) | Ask [Printers 🖨️](<../../4 ⚙️ Solution/70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>) to translate [`@ALIAS` 🧩](<../../../7 🧩 Codes/$/🧩 Alias.md>)
+| 2 | [🤵⏩🧑‍🦰 Assessed 🔆](<../../../5 ⏩ Flows/10 🤵⏩ Brokers/01 🤵⏩🧑‍🦰 Assessed 🔆.md>) | Ask [Wallets 🧑‍🦰](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)  to open a chat window
+| 3 | [🔎⏩🧑‍🦰 Introduce 🤗](<../../../5 ⏩ Flows/40 🔎⏩ Finders/01 🔎⏩🧑‍🦰 Introduce 🤗.md>) | Ask [Finders 🔎](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) to introduce [Hosts 🤗](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>)
+||
 
 <br/>
 
@@ -35,20 +47,3 @@ Body:
 |Body  |`Locator` |string| [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) of types: <br/>- [`nlweb.org/HOST` 🧩](<../../../7 🧩 Codes/HOST/🧩 Host.md>) <br/>- [`nlweb.org/ALIAS` 🧩](<../../../7 🧩 Codes/$/🧩 Alias.md>)
 |
 
-
-<br/>
-
-## Logic
-
-![alt text](<.📎 Assets/⚙️ Assess.png>)
-
-
-| # | Call | Notes
-|-|-|-
-| 1 | [🧑‍🦰🚀🤵 `Assess@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/20 🤵🅰️ Locators/01 🧑‍🦰🐌🤵 Assess.md>) | Parse [Locators 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) in the [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
-| 2 | [🤵⏩🧑‍🦰 Assessed 🔆](<../../10 🤵⏩ Brokers/01 🤵⏩🧑‍🦰 Assessed 🔆.md>) | Ask [Wallets 🧑‍🦰](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)  to open a chat window
-| 3 | [🔎⏩🧑‍🦰 Introduce 🤗](<../../40 🔎⏩ Finders/01 🔎⏩🧑‍🦰 Introduce 🤗.md>) | Ask [Finders 🔎](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) to introduce [Hosts 🤗](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>)
-| 4 | [🤗⏩🧑‍🦰 Prompt 🤔](<../../50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) disclose shared [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) 
-| 5 | [🤵🐌🤗 `Hello@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/01 🤵🐌🤗 Hello.md>) | [Brokers 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) ask [Hosts 🤗](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) to interact
-| 6 | [🤗⏩🧑‍🦰 Prompt 🤔](<../../50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | Welcome message from [Hosts 🤗](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) 
-||

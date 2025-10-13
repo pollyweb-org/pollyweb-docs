@@ -32,9 +32,6 @@ activate broker
 
         broker --> wallet: 2) ⏪ Assessed
         
-        activate wallet
-            wallet --> wallet: new Chat 💬
-        deactivate wallet
 
         broker --> finder: 3) Introduce ⏩
         deactivate broker
