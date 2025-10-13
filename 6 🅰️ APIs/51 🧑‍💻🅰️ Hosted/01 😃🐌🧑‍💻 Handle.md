@@ -6,7 +6,7 @@
 
 > Part of [😃⏩🧑‍💻 Handle @ Talker](<../../5 ⏩ Flows/79 😃⏩ Talkers/20 😃⏩🧑‍💻 Handle 🐍.md>) flow
 
-> Followed by [`Handled@Talker`](<../92 😃🅰️ Talker/40 🧑‍💻🐌😃 Handled.md>) method
+> Followed by [`Handled@Talker`](<../92 😃🅰️ Talker/40 🧑‍💻🐌😃 Handled.md>) message
 
 <br/>
 
