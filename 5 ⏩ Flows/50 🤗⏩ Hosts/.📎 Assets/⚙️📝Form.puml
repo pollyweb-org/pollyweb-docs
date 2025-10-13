@@ -1,4 +1,4 @@
-@startuml Freeze
+@startuml Form
 ' ------------------
 
 actor "User" as user
@@ -17,25 +17,22 @@ host --> cat: 2) ⏪ Prompt 🤔 {cat? 🐱}
 activate cat
 
 user --> dog: reply 🐶
-dog --> host: 3) late Reply 🐌 
+dog --> host: 3) Reply 🐌 
 deactivate dog
 
-host --> wallet: 4) Freeze ❄️
+' host --> fish: 4) ⏪ Prompt 🤔 {fish? 🐠}
+
+host --> wallet: 5) Freeze ❄️
 activate wallet
 deactivate wallet
 
-host --> fish: 5) ⏪ Prompt 🤔 {fish? 🐠}
-activate fish
-    fish --> host: 6) Reply 🐌 
-deactivate fish
-
 user --> cat: reply 🐱
-cat -->x cat : 7) blocked ⛔
-cat --> host: 8) late Reply 🐌 
+cat -->x cat : 6) blocked ⛔
+cat --> host: 7) late Reply 🐌 
 deactivate cat
 
 activate host
-    host --> host: 9) Ignored
+    host --> host: 8) Ignored
 deactivate host
 
 @enduml 

@@ -1,4 +1,4 @@
-@startuml Goodbye
+@startuml Prompt
 ' ------------------
 
 actor "User" as user

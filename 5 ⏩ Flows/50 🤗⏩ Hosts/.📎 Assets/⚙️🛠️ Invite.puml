@@ -1,4 +1,4 @@
-@startuml Wallet: Share Token
+@startuml Invite
 
 
 actor User as user
