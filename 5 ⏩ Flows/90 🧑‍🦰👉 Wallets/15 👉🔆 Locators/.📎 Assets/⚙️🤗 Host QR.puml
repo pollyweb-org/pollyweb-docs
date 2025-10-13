@@ -2,20 +2,13 @@
 ' ------------
 
 actor User as user  
-
-box "User Interface (UI)"  #FFFFFF
-  participant "Wallet 👱\napp" as wallet
-  participant "Notifier 📣\nbff" as notifier
-  participant "Broker 🤵\nhost" as broker
-end box
-
-participant "Host 🤗\ndomain" as host
-participant "Finder 🔎\nvault" as finder
+participant "Wallet 👱\napp" as wallet
 participant "Locator 🔆\nNFC/QR" as qr
+participant "Broker 🤵\nhost" as broker
+participant "Host 🤗\ndomain" as host
 
 
 group Print locators
-    host --> finder: {manifest}
     host --> qr: print
 end group
 
@@ -23,31 +16,15 @@ user -> wallet: scan ✨
 
 activate wallet
     wallet -> qr: scan ✨
-    wallet --> broker: 1) Assess 🐌 {locator}
+    wallet --> broker: 1) Assess ⏩
 deactivate wallet
 
 activate broker
-
-    'alt No host session?
-
-        broker --> wallet: 2) ⏪ Converse
-        
-
-        broker --> finder: 3) Introduce ⏩
-        deactivate broker
-            activate finder
-               finder --> broker
-            deactivate finder
-        activate broker
-
-    'end alt
-
-    broker --> wallet: 4) ⏪ Prompt 🤔 {tokens}
-    broker --> host:  5) Hello 🐌
+    broker --> host:  2) Hello 🐌
 deactivate broker
 
 activate host
-    host --> wallet: 6) ⏪ Prompt 🤔 {what do you need?}
+    host --> wallet: 3) ⏪ Prompt 🤔 {what?}
 deactivate host
 
 activate wallet

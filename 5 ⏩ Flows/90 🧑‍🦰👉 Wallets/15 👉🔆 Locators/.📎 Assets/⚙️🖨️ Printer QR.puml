@@ -3,21 +3,17 @@
 
 actor User as user  
 
-box "User Interface (UI)"  #FFFFFF
-  participant "Wallet 👱\napp" as wallet
-  participant "Notifier 📣\nbff" as notifier
-  participant "Broker 🤵\nhost" as broker
-end box 
-
-participant "Host 🤗\ndomain" as host
-participant "Finder 🔎\nvault" as finder
-participant "Printer 🖨️\nsupplier" as printer
+participant "Wallet 👱\napp" as wallet
 participant "Locator 🔆\nNFC/QR" as qr
+participant "Broker 🤵\nhost" as broker
+
+participant "Printer 🖨️\nsupplier" as printer
+participant "Host 🤗\ndomain" as host
+
 
 
 group Print locators
 
-    host --> finder: {manifest}
     host --> printer: 1) Order 🐌
 
     activate printer
@@ -31,44 +27,24 @@ user -> wallet: scan ✨
 
 activate wallet
   wallet -> qr: scan ✨
-  wallet --> broker: 2) Assess 🐌 {locator}
+  wallet --> broker: 2) ⏩ Assess {locator}
 deactivate wallet
 
 
 activate broker
 
-    group Translate, if not cached
+    broker -> printer: 3) Resolve 🚀
 
-        broker -> printer: 3) Alias 🚀
-
-        activate printer
-            printer -> broker: {host locator}
-        deactivate printer
-
-    end group
-
-    'alt No host session?
-
-        broker --> wallet: 4) ⏪ Converse
-
-        broker --> finder: 5) Introduce ⏩
-        deactivate broker
-        
-        activate finder
-          finder --> broker
-        deactivate finder
-        
-        activate broker
-
-    'end alt
-
-    broker --> host: 6) Hello 🐌
-
+activate printer
+    printer -> broker: {host locator}
+deactivate printer
+    
+    broker --> host: 4) Hello 🐌
 deactivate broker
 
 
 activate host
-    host --> wallet: 7) ⏪ Prompt 🤔
+    host --> wallet: 5) ⏪ Prompt 🤔 {what?}
 deactivate host
 
 activate wallet

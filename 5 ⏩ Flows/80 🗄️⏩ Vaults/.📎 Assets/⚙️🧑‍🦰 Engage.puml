@@ -3,14 +3,13 @@
 actor User as user  
 participant "Wallet 👱\napp" as wallet
 participant "Broker 🤵\nhost" as broker
-participant "Finder 🔎\nvault" as finder
 participant "Vault 🗄️\n(domain)" as vault
 
 vault --> broker: 1) Engage 🐌 {locator}
 
 activate broker
 
-broker --> wallet: 2) ⏪ Open {locator}
+broker --> broker: 2) ⏪ Assess {locator}
 broker --> vault: 3) Hello 🐌 {locator}
 deactivate broker
 
