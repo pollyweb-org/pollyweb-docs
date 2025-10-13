@@ -30,7 +30,7 @@ activate broker
 
     'alt No host session?
 
-        broker --> wallet: 2) ⏪ Assessed
+        broker --> wallet: 2) ⏪ Converse
         
 
         broker --> finder: 3) Introduce ⏩

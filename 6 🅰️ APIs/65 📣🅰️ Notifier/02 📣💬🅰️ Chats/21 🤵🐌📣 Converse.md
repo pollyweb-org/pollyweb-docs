@@ -1,15 +1,8 @@
-<!-- #TODO -->
-
-<!-- Docs: -->
-<!-- Code: -->
-<!-- Test: -->
-
-
-# 🤵🐌📣 Assessed @ Notifier
+# 🤵🐌📣 Converse @ Notifier
 
 > [Broker 🤵 domains](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) tell [Wallet 🧑‍🦰 apps](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) about a new [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>).
 
-> Used in [🤵⏩🧑‍🦰 Assessed @ Broker](<../../../5 ⏩ Flows/10 🤵⏩ Brokers/03 🤵⏩🧑‍🦰 Assessed 💬.md>) 
+> Used in [🤵⏩🧑‍🦰 Converse @ Broker](<../../../5 ⏩ Flows/10 🤵⏩ Brokers/03 🤵⏩🧑‍🦰 Converse 💬.md>) 
 
 <br/>
 
@@ -17,7 +10,7 @@
 Header:
     From: any-broker.com
     To: any-notifier.com
-    Subject: Assessed@Notifier
+    Subject: Converse@Notifier
     
 Body:
     WalletID: <wallet-uuid>
@@ -25,15 +18,15 @@ Body:
     PrivateKey: <private-key>
     Host: another-domain.com
     Name: Any Other Domain, Inc.
-    SmallIcon: 
-    BigIcon: https://another-domain.com/big-icon.png
+    SmallIcon: <base64>
+    BigIcon: <base46>
 ```
 
 |Object|Property|Type|Description
 |-|-|-|-
 |Header|`From`|string | [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) from [`Assess@Broker`](<../../15 🤵🅰️ Broker/20 🤵🅰️ Locators/01 🧑‍🦰🐌🤵 Assess.md>)
 ||`To`|string| [Notifier 📣](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/02 📣 Notifier domain.md>) from [`Onboard@Broker`](<../../15 🤵🅰️ Broker/10 🤵🅰️ Wallets 🧑‍🦰/11 📣🚀🤵 Onboard.md>)
-||`Subject`|string|`Assessed@Notifier`
+||`Subject`|string|`Converse@Notifier`
 |Body  |`WalletID` |uuid  | [Wallet 🧑‍🦰](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) ID from [`Assess@Broker`](<../../15 🤵🅰️ Broker/20 🤵🅰️ Locators/01 🧑‍🦰🐌🤵 Assess.md>)
 |      |`ChatID`   |uuid  | New [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) ID on the [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
 |      |`Host`     |string| [Host 🤗 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) name

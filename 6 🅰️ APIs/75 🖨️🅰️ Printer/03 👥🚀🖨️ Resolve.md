@@ -1,6 +1,6 @@
 <!-- https://quip.com/U97qAoGmSPAn#temp:C:HKUfb3022130c644b3faa5b9cce8 -->
 
-# 👥🚀🖨️ Alias @ Printer
+# 👥🚀🖨️ Resolve @ Printer
 
 > A [Printer 🖨️ domain](<../../4 ⚙️ Solution/70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>) returns the [Locator 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) of an alias, if any.
 
@@ -16,7 +16,7 @@
 Header:
     From: any-domain.com
     To: any-printer.com
-    Subject: Alias@Printer
+    Subject: Resolve@Printer
 
 Body: 
     Alias: ANY-ALIAS
@@ -26,7 +26,7 @@ Body:
 |-|-|-|-
 |Header| `From`| string | Caller [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) name
 || `To` | string | [Printer 🖨️ domain](<../../4 ⚙️ Solution/70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>) name
-|| `Subject`| string | `Alias@Printer`
+|| `Subject`| string | `Resolve@Printer`
 |Body|`Alias`| string | Unique [Locator 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) ID on the [Printer 🖨️ ](<../../4 ⚙️ Solution/70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>)
 |
 

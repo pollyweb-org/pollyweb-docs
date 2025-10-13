@@ -25,7 +25,7 @@ activate broker
 
     'alt No host session?
 
-        broker --> wallet: 3) ⏪ Assessed
+        broker --> wallet: 3) ⏪ Converse
         
 
         broker --> finder: 4) Introduce ⏩

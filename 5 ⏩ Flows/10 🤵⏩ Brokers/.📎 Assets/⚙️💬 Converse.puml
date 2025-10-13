@@ -27,7 +27,7 @@ deactivate graph
 broker -> broker: chat+
 
 ' Ask for a new chat to be opened
-broker --> notifier: 3) Assessed  🐌
+broker --> notifier: 3) Converse  🐌
 activate notifier
   notifier --> wallet
 deactivate notifier
