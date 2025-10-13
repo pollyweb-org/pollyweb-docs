@@ -1,0 +1,55 @@
+@startuml 👉 Host NFC-QR check-in
+' ------------
+
+actor User as user  
+
+'box "User Interface (UI)"  #FFFFFF
+  participant "Wallet 👱\napp" as wallet
+  'participant "Notifier 📣\nbff" as notifier
+  participant "Broker 🤵\nhost" as broker
+'end box
+
+participant "Host 🤗\ndomain" as host
+participant "Finder 🔎\nvault" as finder
+participant "Another\nHost 🤗" as host2
+
+
+host --> wallet: 1) ⏪ Prompt 🤔 { option with § }
+
+activate wallet
+    wallet -> wallet: reuse if already open
+    wallet --> broker: 2) Assess 🐌 { § locator }
+deactivate wallet
+
+activate broker
+
+    'alt No host session?
+
+        broker --> wallet: 3) ⏪ Assessed
+        
+
+        broker --> finder: 4) Introduce ⏩
+        deactivate broker
+            activate finder
+               finder --> broker
+            deactivate finder
+        activate broker
+
+    'end alt
+
+    broker --> wallet: 5) ⏪ Prompt 🤔 {origin}
+    broker --> wallet: 6) ⏪ Prompt 🤔 {tokens}
+    broker --> host2:  7) Hello 🐌
+deactivate broker
+
+activate host2
+    host2 --> wallet: 8) ⏪ Prompt 🤔 {what do you need?}
+deactivate host2
+
+activate wallet
+    user --> wallet: reply
+deactivate wallet
+
+
+' ------------
+@enduml
