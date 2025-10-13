@@ -183,7 +183,7 @@
     [Tokens 🎫](<01 🎫 Token.md>) derive from [Locators 🔆](<../11 🔆 Locators/01 🔆 Locator.md>), so they contain the following properties.
 
     ```yaml
-    Code: nlweb.org/TOKEN:1.0
+    Code: .TOKEN
     Domain: any-issuer.com
     TokenID: <token-uuid>
     Properties:
@@ -193,7 +193,7 @@
 
     |Property| Type | Details
     |-|-|-
-    | `Code` | string |  `nlweb.org/TOKEN:1.0`
+    | `Code` | string |  [`.TOKEN`](<../../../7 🧩 Codes/TOKEN/🧩 Token.md>)
     | `Domain` | string | The [Issuer 🎴 domain](<02 🎴🎭 Issuer role.md>) name
     | `TokenID` | uuid |  The resource key in the [Issuer 🎴](<02 🎴🎭 Issuer role.md>)
     | `Properties` | object | Any optional data fields

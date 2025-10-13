@@ -242,7 +242,7 @@
     
     <br/>
 
-    Here's the [`Prompted@Host`](<04 🧑‍🦰🚀🤗 Prompted.md>).
+    Here's the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>).
     * The `§` is split into the `Locator` property.
     
     ```yaml

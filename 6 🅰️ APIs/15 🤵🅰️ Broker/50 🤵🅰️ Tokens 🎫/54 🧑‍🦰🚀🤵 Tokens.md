@@ -41,7 +41,7 @@ Tokens:
     CodeTitle: Any Code
     Path: /storage/nlweb/tokens/any-issuer.com/<token-uuid>
     Status: REVOKED
-    Locator: nlweb.org/HOST:1.0,any-host.com,ANY-LOCATOR
+    Locator: .TOKEN,any-issuer.com,any-key
 ```
 
 |Object|Property|Type|Description|
