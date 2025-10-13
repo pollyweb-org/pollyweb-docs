@@ -49,24 +49,36 @@ Order a pizza for home delivery
 
     ```yaml
     💬 Order:
+    - INFO|Pizza request received.
     - INFORM|order
+
     # Collect order details.
-    - SHARE|.NAVIGATOR/DESTINATION # 🧭 
-    - SHARE|.CONCIERGE/COURIER|{destination} # 🛎️ 
-    - SHARE|.CURATOR/ORDER|{menu-locator} # 🧚 
+    - SHARE|.NAVIGATOR/DESTINATION >> $destination # 🧭 
+    - SHARE|.CONCIERGE/COURIER >> $courier: # 🛎️ 
+        Destination: $destination
+    - MAP|menus|pizzas.yaml >> $menu
+    - SHARE|.CURATOR/ORDER >> $choice:  # 🧚 
+        Menu: $menu
+    - EVAL|Order >> $order:
+        Destination: $destination
+        Courier: $courier
+        Choice: $choice
+    
     # Confirm order details and create a Biller 🤝 ID.
-    - INFO|{order-summary}|Change
-    - SHARE|.VITALOGIST/REVIEW|{order-details} # 💖
-    - SHARE|.CONCIERGE/REVIEW|{order-details} # 🛎️
-    - SHARE|.SCHEDULER/REVIEW|{order-details} # 🗓️
+    - INFO|$order.summary|Change
+    - SHARE|.VITALOGIST/REVIEW|$order.details # 💖
+    - SHARE|.CONCIERGE/REVIEW|$order.details # 🛎️
+    - SHARE|.SCHEDULER/REVIEW|$order.details # 🗓️
+
     # Request aggregated payment.
     - CHARGE|{amount}|{biller-id} # 💳
+    
     # Successful order.
-    - SUCCESS|Order confirmed
-        Details: {order-summary}
+    - SUCCESS|Order confirmed:
+        Details: $order.summary
     - SHARE|.CONCIERGE/CONFIRM # 🛎️
-    - TEMP|Preparing your order...
-        Details: {order-summary}
+    - TEMP|Preparing your order...:
+        Details: $order.summary
     ```
 
     |Functions|Returns|Description

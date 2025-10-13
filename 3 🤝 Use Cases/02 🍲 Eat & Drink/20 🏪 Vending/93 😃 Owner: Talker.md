@@ -20,10 +20,10 @@ TODO: Add the flow to the Manifest
 - INFORM|Buy
 
 # Ask for the item number.
-- DIGITS|What's the item number? >> number
+- DIGITS|What's the item number? >> $number
 
 # Confirm using the item's name.
-- MAP|Items|$number >> item
+- MAP|Items|$number >> $item
 - CONFIRM|A {$item.Name}?     
 
 # Ask proof of over 21 if needed.
@@ -32,13 +32,16 @@ TODO: Add the flow to the Manifest
 
 # Charge the item price.
 # * FREEZE is executed automatically.
-- CHARGE|$item.Price
+- CHARGE:
+    Items:
+      - Price: $item.Price
+        Name: $item.Name
 
 # Deliver the item.
 - TEMP|Delivering...   
 
 # Find the MachineKey from the Chat Locator
-- MAP|Locators|$.Chat.Key >> locator
+- MAP|Locators|$.Chat.Key >> $locator
 
 # Relay the Open command to the vending machine.
 - RELAY|Machines|$locator.MachineKey >> relayed
