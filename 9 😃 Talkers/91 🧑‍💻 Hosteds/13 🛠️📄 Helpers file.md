@@ -1,4 +1,4 @@
-# 🛠️ Hosted `Helpers` file
+# 🛠️ Hosted `Helpers.yaml` file
 
 > Part of [Hosted 🧑‍💻 domain](<01 🧑‍💻 Hosted domain.md>)
 

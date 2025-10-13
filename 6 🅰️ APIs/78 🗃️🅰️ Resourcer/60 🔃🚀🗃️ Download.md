@@ -18,6 +18,7 @@ Header:
     From: <clone-uuid>
     To: any-resourcer.com
     Subject: Download@Resourcer
+    
 Body:
     Map: <map-uuid>
     File: /folder-C/folder-C1/file-C12.yaml
