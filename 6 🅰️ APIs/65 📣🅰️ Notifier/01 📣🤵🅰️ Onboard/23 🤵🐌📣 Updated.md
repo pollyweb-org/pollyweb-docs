@@ -11,7 +11,7 @@
 > Used in:
 > <br/>• [🤵⏩🧑‍🦰 Update Binds 🔗](<../../../5 ⏩ Flows/10 🤵⏩ Brokers/06 🤵⏩🧑‍🦰 Update Binds 🔗.md>)
 > <br/>• [🤵⏩🧑‍🦰 Update tokens](<../../../5 ⏩ Flows/10 🤵⏩ Brokers/08 🤵⏩🧑‍🦰 Update Tokens 🎫.md>)
-> <br/>• [🤵⏩🧑‍🦰 Update chats 💬](<../../../5 ⏩ Flows/10 🤵⏩ Brokers/03 🤵⏩🧑‍🦰 Update Chats 💬.md>)
+> <br/>• [🤵⏩🧑‍🦰 Update chats 💬](<../../../5 ⏩ Flows/10 🤵⏩ Brokers/04 🤵⏩🧑‍🦰 Update Chats 💬.md>)
 
 <br/>
 
