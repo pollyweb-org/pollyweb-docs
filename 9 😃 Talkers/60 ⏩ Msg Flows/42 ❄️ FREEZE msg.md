@@ -44,14 +44,14 @@
     ---
     <br/>
 
-1. **What's an example for FREEZE?**
+1. **What's an example of FREEZE?**
 
     ```yaml
     # 😃 Talker 
     💬 Book something:
     
     # Instructions
-    - FORM|Book                           
+    - INFORM|Book                           
     
     # Editable inputs
     - ONE|When?|Today,Tomorrow >> $date   # When?
@@ -72,7 +72,7 @@
 
     | [Command ⌘](<../40 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
     |-|-
-    | 📝 [`FORM`](<41 📝 FORM msg.md>) | Show user instructions and allow inputs.
+    | 📝 [`INFORM`](<41 📝 INFORM msg.md>) | Show user instructions and allow inputs.
     | 1️⃣ [`ONE`](<../20 🤔 Prompts/7 ✏️ Input prompts/53 1️⃣ ONE prompt.md>) | Select an option, the day in this case.
     | 💼 [`SHARE`](<45 💼 SHARE msg.md>) | Get the user's booking contacts.
     | 👍 [`CONFIRM`](<../20 🤔 Prompts/7 ✏️ Input prompts/31 👍 CONFIRM prompt.md>) | Pause to allow changing previous inputs.

@@ -49,7 +49,7 @@ Order a pizza for home delivery
 
     ```yaml
     💬 Order:
-    - FORM|order
+    - INFORM|order
     # Collect order details.
     - SHARE|.NAVIGATOR/DESTINATION # 🧭 
     - SHARE|.CONCIERGE/COURIER|{destination} # 🛎️ 

@@ -42,7 +42,7 @@
 - CONFIRM|At {$r.Name}?
 
 # Inputs
-- FORM|Book
+- INFORM|Book
 
 # Get the booking.
 - SHARE|@SCHEDULER/BOOK >> $b
@@ -78,7 +78,7 @@
 |-|-
 | 
 | 🪣 [`MAP`](<../../../9 😃 Talkers/30 🗃️ Talker data/61 🪣 MAP item.md>) | Map the locator to a restaurant info.
-| 📝 [`FORM`](<../../../9 😃 Talkers/60 ⏩ Msg flows/41 📝 FORM msg.md>) | Show user instructions and allow inputs.
+| 📝 [`INFORM`](<../../../9 😃 Talkers/60 ⏩ Msg flows/41 📝 INFORM msg.md>) | Show user instructions and allow inputs.
 | 1️⃣ [`ONE`](<../../../9 😃 Talkers/20 🤔 Prompts/7 ✏️ Input prompts/53 1️⃣ ONE prompt.md>) | Select an option, the day in this case.
 | 💼 [`SHARE`](<../../../9 😃 Talkers/60 ⏩ Msg flows/45 💼 SHARE msg.md>) | Get the user's booking contacts.
 | 👍 [`CONFIRM`](<../../../9 😃 Talkers/20 🤔 Prompts/7 ✏️ Input prompts/31 👍 CONFIRM prompt.md>) | Pause to allow changing previous inputs.

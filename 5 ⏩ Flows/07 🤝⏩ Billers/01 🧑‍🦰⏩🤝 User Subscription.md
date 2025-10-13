@@ -41,7 +41,7 @@ The corresponding [Talker 😃](<../../9 😃 Talkers/10 📘 Talker specs/10 �
 
 ```yaml
 💬 Register:                # Entry menu
-- FORM|Register             # Provide instructions
+- INFORM|Register             # Provide instructions
 - BIND|@HOST/PROFILE        # Bind to Wallet
 
 - INVITE >> $billed:        
@@ -60,7 +60,7 @@ The corresponding [Talker 😃](<../../9 😃 Talkers/10 📘 Talker specs/10 �
 
 | [Command ⌘](<../../9 😃 Talkers/40 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
 |-|-
-| 📝 [`FORM`](<../../9 😃 Talkers/60 ⏩ Msg flows/41 📝 FORM msg.md>) | To provide instructions.
+| 📝 [`INFORM`](<../../9 😃 Talkers/60 ⏩ Msg flows/41 📝 INFORM msg.md>) | To provide instructions.
 | 🔗 [`BIND`](<../../9 😃 Talkers/60 ⏩ Msg flows/44 🔗 BIND msg.md>) | To create a user profile.
 | 🛠️ [`INVITE`](<../../9 😃 Talkers/60 ⏩ Msg flows/46 🛠️ INVITE msg.md>) | To subscribe the user to plan.
 | ❄️ [`FREEZE`](<../../9 😃 Talkers/60 ⏩ Msg flows/42 ❄️ FREEZE msg.md>) | To disable past inputs.
