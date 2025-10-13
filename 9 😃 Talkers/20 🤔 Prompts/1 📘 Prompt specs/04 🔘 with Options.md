@@ -207,6 +207,7 @@
 
     The option with `§` 
     * opens a new [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
+    * via the [`Promote@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/20 🤵🅰️ Locators/06 👀🐌🤵 Promote.md>) message
     * using the [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) `any-artist.com/FANS`
 
     <br/>

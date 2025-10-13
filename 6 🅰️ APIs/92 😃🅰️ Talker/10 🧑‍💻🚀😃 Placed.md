@@ -4,7 +4,7 @@
 
 > Part of [Handle @ Talker 😃⏩🧑‍💻](<../../5 ⏩ Flows/79 😃⏩ Talkers/20 😃⏩🧑‍💻 Handle 🐍.md>) flow
 
-> Paired with [`Place@Talker`](<20 🧑‍💻🐌😃 Place.md>) method
+> Paired with [`Place@Talker`](<20 🧑‍💻🐌😃 Place.md>) message
 
 * Reads a [$Placeholder 💾](<../../9 😃 Talkers/30 🗃️ Talker data/10 💾 $Placeholder.md>)
 * The placeholder [`$.Chat`](<../../9 😃 Talkers/30 🗃️ Talker data/11 💬 $.Chat holder.md>) contains [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) details.

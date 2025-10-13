@@ -4,7 +4,7 @@
 
 > Part of [😃⏩🧑‍💻 Wait @ Talker](<../../5 ⏩ Flows/79 😃⏩ Talkers/30 😃⏩🧑‍💻 Wait ⏸️.md>) flow
 
-> Paired with [`Placed@Talker`](<10 🧑‍💻🚀😃 Placed.md>) method
+> Paired with [`Placed@Talker`](<10 🧑‍💻🚀😃 Placed.md>) message
 
 * Writes a value to a [$Placeholder 💾](<../../9 😃 Talkers/30 🗃️ Talker data/10 💾 $Placeholder.md>).
 * [$Placeholder 💾](<../../9 😃 Talkers/30 🗃️ Talker data/10 💾 $Placeholder.md>) names must to start with a letter.

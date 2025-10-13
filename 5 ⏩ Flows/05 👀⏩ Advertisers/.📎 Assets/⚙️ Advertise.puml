@@ -4,9 +4,10 @@
 actor "User" as user
 participant "Broker 🤵\nhost" as broker
 participant "Biller 🤝\ndomain" as biller
+participant "Ads 👀\nhelper" as ads
 participant "Host 🤗\ndomain" as host
 participant "Curator 🧚\nagent" as curator
-participant "Ads 👀\nhelper" as ads
+
 
 
 activate broker
@@ -16,36 +17,37 @@ activate broker
         biller -> broker: {bill ID}
     deactivate biller
 
-group sort ads
 
-    broker --> ads: 1) advertise@ {context}
+    broker --> ads: 1) Advertise 🐌👀 {context}
     activate ads
 
     group time-boxed enrichment with anonymized chat
     
-        broker --> host: 2) summarize@
+        broker --> host: 2) Summarize 🐌🤗
         deactivate broker
 
         activate host
-            host --> ads: 3) summarized@
-            host --> curator: 4) anonymize@
+            host --> ads: 3) Summarized 🐌👀
+            host --> curator: 4) Anonymize 🐌🧚
         deactivate host
         
         activate curator
-            curator --> ads: 5) anonymized@
+            curator --> ads: 5) Anonymized 🐌👀
         deactivate curator
 
     end group
 
-    'activate ads
-        ads --> curator: 6) sort@
-    'deactivate ads
+    group sort ads
 
-    activate curator
-        curator --> ads: 7) sorted@
-    deactivate curator
+        'activate ads
+            ads --> curator: 6) Sort 🐌🧚
+        'deactivate ads
 
-end group
+        activate curator
+            curator --> ads: 7) Sorted 🐌👀
+        deactivate curator
+
+    end group
 
 
 
@@ -62,7 +64,7 @@ group show ads
 
     ' Confirm reviewed to broker.
     activate ads
-        ads --> broker: 9) promote@ {locator}
+        ads --> broker: 9) Promote 🐌🤵 {locator}
     deactivate ads
 
     
