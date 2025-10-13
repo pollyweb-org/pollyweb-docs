@@ -2,38 +2,40 @@
 
 # 🤗⏩🧑‍🦰 Prompt @ Host
 
-
-> A [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) says something to a user in a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) with a [Prompt 🤔](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>).
-
 > Used by:
 > <br/> • [🔎⏩🧑‍🦰 Introduce @ Finder](<../40 🔎⏩ Finders/01 🔎⏩🧑‍🦰 Introduce 🤗.md>) flow
 > <br/> • [🤗⏩🧑‍🦰 Prompt 🤔](<01 🤗⏩🧑‍🦰 Prompt 🤔.md>) flow
 > <br/>• [🧑‍🦰👉🤗 Abandon Chat @ Wallet](<../90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>) flow
 > <br/>• [💼⏩🧑‍🦰 Query Vault @ Consumer](<../90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind.md>) flow
 
+* A [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) 
+    * says something to a user 
+    * in a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) 
+    * with a [Prompt 🤔](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>).
+
+
 <br/>
 
 ## 💬 Chat
 
-Consider the following [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) with three [Prompts 🤔](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) as an example.
+Consider the following [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) with two [Prompts 🤔](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) as an example.
 
 | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
 | - | - | - |
 | 🤗 Host | ℹ️ Hello World!
 | 🤗 Host | 😃 Like sports? [Yes, No] <br/> - I [love] it <br/> - I [hate] it | >> love
-| 🤗 Host | ℹ️ I love it, too!
 |
 
 <br/>
 
 ## 😃 Talker 
 
-The associated [Talker 😃](<../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>), with one line per [Prompt 🤔](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>), would be the following.
+The associated [Talker 😃](<../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>), with one line per [Prompt 🤔](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>), could be the following.
 
 ```yaml
 - INFO|Hello World!
-- ONE|Like sports?|Yes,No,I [love] it,I [hate] it >> $my-var
-- INFO|{function-that-calculates-the-answer($my-var)}
+- ONE|Like sports? >> $answer
+    Options: Yes, No, I [love] it, I [hate] it
 ```
 
 
