@@ -14,11 +14,11 @@ participant "Finder 🔎\nvault" as finder
 participant "Another\nHost 🤗" as host2
 
 
-host --> wallet: 1) ⏪ Prompt 🤔 { option with § }
+host --> wallet: 1) ⏪ Prompt 🤔 { option with locator }
 
 activate wallet
     wallet -> wallet: reuse if already open
-    wallet --> broker: 2) Assess 🐌 { § locator }
+    wallet --> broker: 2) Assess 🐌 { locator }
 deactivate wallet
 
 activate broker

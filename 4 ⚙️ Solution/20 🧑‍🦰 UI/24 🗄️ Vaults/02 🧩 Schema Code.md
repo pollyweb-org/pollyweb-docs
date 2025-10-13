@@ -5,7 +5,7 @@
 
     A [Schema Code 🧩](<02 🧩 Schema Code.md>) is a string 
     * formatted as `{authority}/{code}[:{version}]`
-    * e.g., `nlweb.org/LOCATOR:1.0`
+    * e.g., `nlweb.org/HOST:1.0`
     * that points to a public data schema
     * describing the structure of a sharable dataset.
 
@@ -18,8 +18,8 @@
 
     | Schema Code | Purpose |
     |-|-
-    | [`nlweb.org/MSG` 🧩](<../../../7 🧩 Codes/MSG/🧩 Mgs.md>) | Schema of [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) 
-    | [`nlweb.org/TOKEN` 🧩](<../../../7 🧩 Codes/TOKEN/🧩 Token.md>) | Schema of [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>)
+    | [`.MSG` 🧩](<../../../7 🧩 Codes/MSG/🧩 Mgs.md>) | Schema of [Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) 
+    | [`.TOKEN` 🧩](<../../../7 🧩 Codes/TOKEN/🧩 Token.md>) | Schema of [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>)
     | [`unicode.org/FLAG` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 unicode.any-igo.org.md>) | Flags for country [Prompts 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>)
     | [`locale.org/TERRITORY` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 locale.any-igo.org.md>) | Country names for [Prompts 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>)
     | [`standards.org/639-1` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 standards.any-igo.org.md>) | Language codes (e.g., `en-us`)
@@ -45,6 +45,11 @@
     * that is defined in the [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) 
     * of the [Authority 🏛️ domain](<../../40 👥 Domains/43 👍 Trusts/02 🏛️🛠️ Authority helper.md>) called `nlweb.com`. 
     
+    For readability:
+    * given that `nlweb.org` schemas will be widely used, 
+    * a dot can be used as a prefix of `nlweb.org/`
+    * e.g., `.TOKEN` is the same as `nlweb.org/TOKEN:1.0`
+  
     ---
     <br/>
 
@@ -66,7 +71,7 @@
     |-|-
     | [📜 Manifest](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>)  | When a version is omitted in the [Schema Code 🧩](<02 🧩 Schema Code.md>) in its [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) definition, then it is assumed to be `1.0`.
     | [📨 Message](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) | When a version is omitted in a [domain Messages 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>), then it is also assumed to be `1.0`.
-    | [🕸 Graph](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>) | When a version is omitted when calling [Schema @ Graph 🚀](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>), then the [🕸 Graph](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>) returns the latest version.
+    | [🕸 Graph](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>) | When a version is omitted when calling [`Schema@Graph`](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>), then the [🕸 Graph](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>) returns the latest version.
 
     ---
     <br/>
@@ -75,7 +80,7 @@
 1. **How are Schema Codes used in data sharing between domains?**
    
     When a [Consumer 💼 domain](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) needs information stored in a [user's Vault 🗄️ domains](<03 🗄️🎭 Vault role.md>), 
-    * it invokes the [Query @ Broker 🐌 API method](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) from the [user's Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>), asking for datasets that comply with a given [Schema Code 🧩](<02 🧩 Schema Code.md>).
+    * it invokes the [`Query@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) from the [user's Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>), asking for datasets that comply with a given [Schema Code 🧩](<02 🧩 Schema Code.md>).
 
     For example, consider an airline requesting passport data for a flight check-in from a citizen with dual British and American nationalities:
     * the airline may ask for the `icao.int/PASSPORT`  [Schema Code 🧩](<02 🧩 Schema Code.md>)
@@ -100,7 +105,7 @@
 
     For resilience and performance, [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) cannot read [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) directly from the source.
 
-    * Instead, [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) need to query [Graph 🕸 domains](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>) for a schema definition, by passing the [Schema Code 🧩](<02 🧩 Schema Code.md>) to the [Schema @ Graph 🚀 API method](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>).
+    * Instead, [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) need to query [Graph 🕸 domains](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>) for a schema definition, by passing the [Schema Code 🧩](<02 🧩 Schema Code.md>) to the [`Schema@Graph`](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>).
 
         ```yaml
         # Sample request to read a schema.
@@ -109,7 +114,7 @@
             To: any-graph.com
             Subject: Schema@Graph
         Body:
-            Code: nlweb.org/LOCATOR:1.0
+            Code: .LOCATOR:1.0
         ```
 
     ---
@@ -117,9 +122,9 @@
 1. **What does it mean when a YAML content starts with 🤝?**
 
     When YAML content starts with `🤝: {Schema Code}`,
-    * e.g., `🤝: nlweb.org/MANIFEST/CODE`
+    * e.g., `🤝: .MANIFEST/CODE`
     * it means that the following YAML content should comply with the given [Schema Code 🧩](<02 🧩 Schema Code.md>) defined.
-    * This allows readers to validate the YAML content by pulling the validation schema from the [Schema @ Graph 🚀 API method](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>).
+    * This allows readers to validate the YAML content by pulling the validation schema from the [`Schema@Graph`](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>).
     
     ---
 
@@ -129,7 +134,7 @@
 
     | Schema | Description
     |-|-
-    | [`nlweb.org/MANIFEST/CODE` 🧩](<../../../7 🧩 Codes/MANIFEST/🧩 ManifestCode.md>) | CODE properties.
+    | [`.MANIFEST/CODE` 🧩](<../../../7 🧩 Codes/MANIFEST/🧩 ManifestCode.md>) | CODE properties.
     | [`nlweb.org/MANIFEST/CODE/SCHEMA` 🧩](<../../../7 🧩 Codes/MANIFEST/🧩 ManifestCodeSchema.md>) | CODE/SCHEMA properties.
     | [`nlweb.org/MANIFEST/DELEGATE` 🧩](<../../../7 🧩 Codes/MANIFEST/🧩 ManifestDelegate.md>) | Delegation to other [Authorities 🏛️](<../../40 👥 Domains/43 👍 Trusts/02 🏛️🛠️ Authority helper.md>).
     | [`nlweb.org/TYPES` 🧩](<../../../7 🧩 Codes/TYPES/🧩 Types.md>) | Generic referenceable types.
@@ -198,12 +203,12 @@
 
     Yes.
     * Using the `Inherits` property
-        * defined in [`nlweb.org/MANIFEST/CODE/SCHEMA` 🧩](<../../../7 🧩 Codes/MANIFEST/🧩 ManifestCodeSchema.md>).
-    * Consider [`nlweb.org/LOCATOR` 🧩](<../../../7 🧩 Codes/LOCATOR/🧩 Locator.md>)
+        * defined in [`.MANIFEST/CODE/SCHEMA` 🧩](<../../../7 🧩 Codes/MANIFEST/🧩 ManifestCodeSchema.md>).
+    * Consider [`.LOCATOR` 🧩](<../../../7 🧩 Codes/LOCATOR/🧩 Locator.md>)
         * who defines properties `Code`, `Domain`, `Resource`.
-    * It is inherited by [`nlweb.org/TOKEN` 🧩](<../../../7 🧩 Codes/TOKEN/🧩 Token.md>)
+    * It is inherited by [`.TOKEN` 🧩](<../../../7 🧩 Codes/TOKEN/🧩 Token.md>)
         * who adds properties `Issued`, `Starts`, `Expires`, `Signature`.
-    * Then inherited by [`nlweb.org/HOST/BOOKING` 🧩](<../../../7 🧩 Codes/HOST/🧩 HostBooking.md>)
+    * Then inherited by [`.HOST/BOOKING` 🧩](<../../../7 🧩 Codes/HOST/🧩 HostBooking.md>)
         * who adds properties `For`, `Time`, `Place`, `Seat`, `Latitude`, `Longitude`.
     
     ---
@@ -214,15 +219,15 @@
 
     Yes, 
     * using the `$ref` keyword from JSON Schema 
-    * as defined in [`nlweb.org/MANIFEST/CODE/SCHEMA` 🧩](<../../../7 🧩 Codes/MANIFEST/🧩 ManifestCodeSchema.md>).
+    * as defined in [`.MANIFEST/CODE/SCHEMA` 🧩](<../../../7 🧩 Codes/MANIFEST/🧩 ManifestCodeSchema.md>).
     
-    Consider [`nlweb.org/MANIFEST` 🧩](<../../../7 🧩 Codes/MANIFEST/🧩 Manifest.md>):
-    * it references [`nlweb.org/MANIFEST/IDENTITY` 🧩](<../../../7 🧩 Codes/MANIFEST/🧩 ManifestIdentity.md>)
+    Consider [`.MANIFEST` 🧩](<../../../7 🧩 Codes/MANIFEST/🧩 Manifest.md>):
+    * it references [`.MANIFEST/IDENTITY` 🧩](<../../../7 🧩 Codes/MANIFEST/🧩 ManifestIdentity.md>)
         ```yaml
         Identity:
           $ref: nlweb.org/MANIFEST/IDENTITY:1.0
         ```
-    * and references [`nlweb/MANIFEST/TRUST` 🧩](<../../../7 🧩 Codes/MANIFEST/🧩 ManifestTrust.md>).
+    * and references [`.MANIFEST/TRUST` 🧩](<../../../7 🧩 Codes/MANIFEST/🧩 ManifestTrust.md>).
         ```yaml
         Trusts:
         type: array
@@ -236,14 +241,14 @@
 1. **Can a Schema reference a specific property of another Schema?**
 
     Yes.
-    * See [`nlweb.org/MANIFEST/TRUST` 🧩](<../../../7 🧩 Codes/MANIFEST/🧩 ManifestTrust.md>)
+    * See [`.MANIFEST/TRUST` 🧩](<../../../7 🧩 Codes/MANIFEST/🧩 ManifestTrust.md>)
         * whose property `Domain`
-        * references `Domain@nlweb.org/TYPES`
-        * defined in [`nlweb.org/TYPES` 🧩](<../../../7 🧩 Codes/TYPES/🧩 Types.md>).
-    * See [`nlweb.org/PERSONA/ADDRESS` 🧩](<../../../7 🧩 Codes/PERSONA/🧩 PersonaAddress.md>)
+        * references `Domain@.TYPES`
+        * defined in [`.TYPES` 🧩](<../../../7 🧩 Codes/TYPES/🧩 Types.md>).
+    * See [`.PERSONA/ADDRESS` 🧩](<../../../7 🧩 Codes/PERSONA/🧩 PersonaAddress.md>)
         * whose property `Country`
         * references `Alpha2@standards.any-igo.org/3166-1`
-        * defined in [`standards.any-igo.org` 📜](<../../../8 📜 Manifests/👥 any-igo.org/📜 standards.any-igo.org.md>).
+        * defined in [`standards.any-igo.org/3166-1` 📜](<../../../8 📜 Manifests/👥 any-igo.org/📜 standards.any-igo.org.md>).
 
     ---
     <br/>

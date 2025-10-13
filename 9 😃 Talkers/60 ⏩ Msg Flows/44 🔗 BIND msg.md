@@ -96,14 +96,14 @@
     ---
     <br/>
 
-1. **What does the `@` character mean in a code?**
+1. **What does the dot mean in a code?**
 
     Given that the [Schema Codes 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) defined by `nlweb.org` will be widely used, 
-    * [Talkers 😃](<../10 📘 Talker specs/10 😃 Talker.md>) accept the character `@` as a prefix of `nlweb.org/`.
+    * [Talkers 😃](<../10 📘 Talker specs/10 😃 Talker.md>) accept a dot as a prefix of `nlweb.org/`.
     * Consider the following equal examples.
 
         ```yaml
-        BIND|@IDENTITY/OVER21
+        BIND|.IDENTITY/OVER21
         BIND|nlweb.org/IDENTITY/OVER21
         ```
 

@@ -35,7 +35,7 @@ Body:
 Status: SUSPENDED
 Starting: 2025-10-10T13:45:00.000Z
 Ending: 2025-12-31T00:00:00.000Z
-Locator: nlweb.org/HOST:1.0,any-host.com,ANY-LOCATOR
+Locator: .HOST,any-host.com,any-key
 ```
 
 |Property|Type|Description

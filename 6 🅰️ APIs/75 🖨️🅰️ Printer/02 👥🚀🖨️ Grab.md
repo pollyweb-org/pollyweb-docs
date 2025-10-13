@@ -13,7 +13,7 @@ Header:
     Subject: Grab@Printer
 Body: 
     Alias: ANY-ALIAS
-    Locator: nlweb.org/HOST:1.0,any-host.com,ANY-RESOURCE,A=1,B=2
+    Locator: .HOST,any-host.com,ANY-RESOURCE,A=1,B=2
 ```
 
 |Object|Property|Type|Description
@@ -31,5 +31,5 @@ Body:
 |-|-
 | 200   | Success.
 | 409   | Alias already occupied: <br/> - use another alias.
-| 405   | Locator not supported: <br/> - only [`nlweb.org/HOST 🧩`](<../../7 🧩 Codes/HOST/🧩 Host.md>) is supported.
+| 405   | Locator not supported: <br/> - only [`.HOST 🧩`](<../../7 🧩 Codes/HOST/🧩 Host.md>) is supported.
 |

@@ -3,7 +3,7 @@
 
 # 👥🚀🕸 Identity @ Graph
 
-> Return the content of [`nlweb.org/MANIFEST/IDENTITY 🧩`](<../../7 🧩 Codes/MANIFEST/🧩 ManifestIdentity.md>)
+> Return the content of [`.MANIFEST/IDENTITY 🧩`](<../../7 🧩 Codes/MANIFEST/🧩 ManifestIdentity.md>)
 
 > Used by [🤵⏩🧑‍🦰 Assessed @ Broker](<../../5 ⏩ Flows/10 🤵⏩ Brokers/01 🤵⏩🧑‍🦰 Assessed 🔆.md>) 
 

@@ -41,7 +41,7 @@
    
     | Argument| Purpose
     |-|-
-    | `<code-n>`  | [Schema Codes 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) for [`Query@Broker`](<../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) <br/>For readability, `@` replaces `nlweb.org/`
+    | `<code-n>`  | [Schema Codes 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) for [`Query@Broker`](<../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) <br/>For readability, a dot replaces `nlweb.org/`
     | `{context}`| Object with context, when applicable.
     | `$shared`| An object returned by [`Collect@Vault`](<../../6 🅰️ APIs/95 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>).<br/> Or a Token list from [`Receive@Consumer`](<../../6 🅰️ APIs/30 💼🅰️ Consumer/03 🧑‍🦰🐌💼 Receive.md>).
 
@@ -49,14 +49,14 @@
     ---
     <br/>
 
-1. **What does the `@` character mean in a code?**
+1. **What does the dot mean in a code?**
 
     Given that the [Schema Codes 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) defined by `nlweb.org` will be widely used, 
-    * [Talkers 😃](<../10 📘 Talker specs/10 😃 Talker.md>) accept the character `@` as a prefix of `nlweb.org/`.
+    * [Talkers 😃](<../10 📘 Talker specs/10 😃 Talker.md>) accept a dot as a prefix of `nlweb.org/`.
     * Consider the following equal examples.
 
         ```yaml
-        SHARE|@IDENTITY/OVER21 >> $social          
+        SHARE|.IDENTITY/OVER21 >> $social          
         SHARE|nlweb.org/IDENTITY/OVER21 >> $social 
         ```
 
