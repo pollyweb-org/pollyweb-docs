@@ -101,8 +101,8 @@ Success:
 ||⬇️ [`EVAL`](<../../../9 😃 Talkers/30 🗃️ Talker data/20 ⬇️ EVAL flow.md>) | To deduct the value on errors
 ||🪵 [`LOG`](<../../../9 😃 Talkers/30 🗃️ Talker data/15 🪵 LOG flow.md>) | To log eventual errors
 |Message| 💼 [`SHARE`](<../../../9 😃 Talkers/60 ⏩ Msg flows/45 💼 SHARE msg.md>) | Ask for proof of over 21
-|| 💳 [`CHARGE`](<../../../9 😃 Talkers/60 ⏩ Msg flows/47 💳 CHARGE msg.md>) | Charge the item price
-|| 🏦 [`REFUND`](<../../../9 😃 Talkers/60 ⏩ Msg flows/48 🏦 REFUND.md>) | Refund the payment on failure
+|| 💳 [`CHARGE`](<../../../9 😃 Talkers/60 ⏩ Msg flows/53 💳 CHARGE msg.md>) | Charge the item price
+|| 🏦 [`REFUND`](<../../../9 😃 Talkers/60 ⏩ Msg flows/55 🏦 REFUND.md>) | Refund the payment on failure
 || 👋 [`GOODBYE`](<../../../9 😃 Talkers/60 ⏩ Msg flows/50 👋 GOODBYE.md>) | Show ads on success
 || 🛰️ [`RELAY`](<../../../9 😃 Talkers/60 ⏩ Msg flows/51 🛰️ RELAY msg.md>) | Relay messages to  machines
 |
