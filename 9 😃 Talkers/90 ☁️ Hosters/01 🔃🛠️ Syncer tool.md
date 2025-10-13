@@ -1,11 +1,21 @@
 # 🔃 Syncer tool
 
+> Relates to [Resourcer 🗃️ domain role](<../../9 😃 Talkers/90 ☁️ Hosters/02 🗃️🎭 Resourcer role.md>).
+
+<br/>
 
 
+1. **What is a Syncer tool?**
+
+    A [Syncer 🔃 tool](<01 🔃🛠️ Syncer tool.md>)
+    * is a command-line tool
+    * to sync local files 
+    * with a [Resourcer 🗃️ domain](<02 🗃️🎭 Resourcer role.md>).
+
+    ---
+    <br/>
 
 1. **What commands are supported on the terminal?**
-
-    The terminal Command Line Interface (CLI) supports the following commands.
 
     |Command 🧑‍💻| Description
     |-|-
@@ -17,7 +27,7 @@
     ---
     <br/>
 
-    
+
 1. **Is it encrypted?**
 
     Yes. All communication is done over HTTPS.
