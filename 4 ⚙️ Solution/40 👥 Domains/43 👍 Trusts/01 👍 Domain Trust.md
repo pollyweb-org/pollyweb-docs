@@ -1,4 +1,4 @@
-👍 NLWeb Trust Framework
+👍 Domain Trust Framework
 ===
 
 ![](<.📎 Assets/👍 Trust Framework.png>)

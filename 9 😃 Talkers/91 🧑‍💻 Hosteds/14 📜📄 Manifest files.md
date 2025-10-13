@@ -9,23 +9,22 @@
 
     To break a [domain Manifest 📜](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) file, replace it with a folder of the same name, then create the following structure.
 
-    * `📜 Manifest/` → folder instead of a file.
-        * [`📜 Identity.yaml`](<../../6 🅰️ APIs/45 🕸🅰️ Graph/04 👥🚀🕸 Identity.md>) 
+    * `📜 Manifest/` 
+        * [`👥 Identity.yaml`](<../../6 🅰️ APIs/45 🕸🅰️ Graph/04 👥🚀🕸 Identity.md>) 
+        * `📝 Forms/`   
+            * [`📝 FORM-1.yaml`](<../../6 🅰️ APIs/45 🕸🅰️ Graph/01 👥🚀🕸 Form.md>)
         * `🧩 Codes/` 
+            * [`🧩 CODE-1.yaml`](<../../6 🅰️ APIs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>)
             * `GROUP-A/`
-                * [`🧩 CODE-A1.yaml`](<../../6 🅰️ APIs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>)
                 * [`🧩 CODE-A2.yaml`](<../../6 🅰️ APIs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>)
-        * `✏️ Forms/` → tree of flows   
-            * [`✏️ FORM-1.yaml`](<../../6 🅰️ APIs/45 🕸🅰️ Graph/01 👥🚀🕸 Form.md>)
-        * `🪢 Services/` → tree of API integrations 🪢
-            * `GROUP-S/`
-                * `🪢 INTEGRATION-1.yaml`
-                * `🪢 INTEGRATION-2.yaml`
-        * `👍 Trusts/` → tree of trusts 👍
-            * `GROUP-B/`
+        * `👍 Trusts/` 
+            * [`👍 TRUST-1.yaml`](<../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) 
             * `GROUP-C/`
-                * `👍 TRUST-BC1.yaml`
-                * `👍 TRUST-B1.yaml`
+                * [`👍 TRUST-C2.yaml`](<../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) 
+        * `🪢 Services/` 
+            * `🪢 INTEGRATION-1.yaml`
+            * `GROUP-S/`
+                * `🪢 INTEGRATION-S2.yaml`
 
     ---
     <br/>
