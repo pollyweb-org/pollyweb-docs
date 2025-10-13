@@ -2,11 +2,15 @@
 
 # 💼🐌🤵  Query @ Broker
 
-> In a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>), a [Consumer 💼 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) asks the [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) for access to user data in one or more [Schema Codes 🧩](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>).
+* In a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>), 
+    * a [Consumer 💼 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) 
+    * asks the [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) 
+    * for access to user data 
+    * in one or more [Schema Codes 🧩](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>).
 
-> Used by: 
-> <br/>• [💼⏩🧑‍🦰 Query token @ Consumer](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token.md>)
-> <br/>• [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind.md>)
+* Used by: 
+    * [💼⏩🧑‍🦰 Query token @ Consumer](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token.md>)
+    * [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind.md>)
 
 <br/> 
 
@@ -35,7 +39,7 @@ Body:
 | | `To` | string | [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) name
 | | `Subject` | string | `Query@Broker`
 | Body | `ChatID` | string | [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) ID
-| | `ConsumerKey`| uuid | [Consume @ Consumer](<../../30 💼🅰️ Consumer/02 🗄️🐌💼 Consume.md>) callback
+| | `ConsumerKey`| uuid | [`Consume@Consumer`](<../../30 💼🅰️ Consumer/02 🗄️🐌💼 Consume.md>) callback
 | | `Codes` | string[] | List of [Schema Codes 🧩](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)
 |
 

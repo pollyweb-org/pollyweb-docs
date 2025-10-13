@@ -1,0 +1,38 @@
+@startuml ⚙️ Form
+
+actor User as user
+participant "Broker 🤵\ndomain" as broker
+participant "Graph 🕸\ndomain" as graph
+participant "Consumer 💼\ndomain" as consumer
+participant "Vault 🗄️\n(domain)" as vault
+
+
+' 🐌  🚀
+
+activate consumer
+consumer --> broker: 1) Query 🐌 
+activate broker
+    broker --> consumer: {not announced} ❌
+    broker --> user: 2) ⏪ Prompt ❌
+deactivate broker
+
+consumer --> broker: 3) Inform 🐌
+activate broker
+    
+    broker --> graph: 4) Form 🚀
+    activate graph
+        graph --> broker: {form}
+    deactivate graph
+
+    broker --> user: 5) ⏪ Prompt ⓘ
+deactivate broker
+
+consumer --> broker: 6) Query 🐌 ✅
+deactivate consumer
+activate broker
+    broker --> vault: 7) Disclose 🐌
+deactivate broker
+
+
+
+@enduml 
