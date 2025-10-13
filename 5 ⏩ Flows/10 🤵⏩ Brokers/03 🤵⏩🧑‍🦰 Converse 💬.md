@@ -1,11 +1,10 @@
 # 🤵⏩🧑‍🦰 Converse @ Broker
 
-> Opens a new chat window in the app.
+* Opens a new chat window in the app.
+* Used in:
+    * [🧑‍🦰👉🤗 Host Locator](<../90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>)
 
-> Used in:
-> <br/>• [🧑‍🦰👉🤗 Host Locator](<../90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>)
-
-
+<br/>
 
 ## Flow diagram
 

@@ -2,11 +2,12 @@
 
 # 👥🚀🕸 Offer @ Graph
 
-> Returns details about a given ServiceID in a Host's Manifest.
 
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 
-> Used by [⭐⏩🧑‍🦰 Review @ Reviewer ](<../../5 ⏩ Flows/70 ⭐⏩ Reviewers/01 ⭐⏩🧑‍🦰 Review.md>)
+* Returns details about a given ServiceID in a Host's Manifest.
+* Used by:
+    *  [⭐⏩🧑‍🦰 Review @ Reviewer ](<../../5 ⏩ Flows/70 ⭐⏩ Reviewers/01 ⭐⏩🧑‍🦰 Review.md>)
 
 <br/>
 

@@ -3,15 +3,14 @@
 
 # 👥🚀🕸 Queryable @ Graph
 
-> From the given list of and domain-and-code pairs, 
-> <br/>- returns only the ones that can answer the given query.
-
-> i.e., that there’s a trust path that allows for the first to query the others, 
-> <br/>- and a trust path that allows the others to provide a response to a query.
-
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 
-> Used by [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind.md>)
+* From the given list of and domain-and-code pairs, 
+  * returns only the ones that can answer the given query;
+  * i.e., that there’s a trust path that allows for the first to query the others, 
+  * and a trust path that allows the others to provide a response to a query.
+* Used by:
+  * [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind.md>)
 
 <br/> 
 

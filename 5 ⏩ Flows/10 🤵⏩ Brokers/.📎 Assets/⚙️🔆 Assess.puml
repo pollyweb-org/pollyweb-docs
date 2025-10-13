@@ -28,28 +28,28 @@ activate broker
 
     'alt No host session?
 
-        broker --> wallet: 1) ⏪ Converse 💬
+        broker --> wallet: 2) ⏪ Converse 💬
         activate wallet
         
 
-        broker --> finder: 2) Introduce ⏩
+        broker --> finder: 3) Introduce ⏩
         deactivate broker
             activate finder
-                finder --> wallet: 3) ⏪ Prompt ⓘ {intro}
+                finder --> wallet: 4) ⏪ Prompt ⓘ {intro}
                 finder --> broker
             deactivate finder
         activate broker
 
     'end alt
 
-    broker --> wallet: 4) ⏪ Prompt ⓘ {origin}
-    broker --> wallet: 5) ⏪ Prompt ⓘ {tokens}
-    broker --> host:  6) Hello 🐌
+    broker --> wallet: 5) ⏪ Prompt ⓘ {origin}
+    broker --> wallet: 6) ⏪ Prompt ⓘ {tokens}
+    broker --> host:  7) Hello 🐌
 deactivate broker
 
 activate host
-    host --> wallet: 7) ⏪ Prompt ⓘ {context}
-    host --> wallet: 8) ⏪ Prompt 😃 {what do you need?}
+    host --> wallet: 8) ⏪ Prompt ⓘ {context}
+    host --> wallet: 9) ⏪ Prompt 😃 {what do you need?}
 deactivate host
 
     user --> wallet: reply

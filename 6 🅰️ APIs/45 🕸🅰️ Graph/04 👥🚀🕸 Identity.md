@@ -3,11 +3,12 @@
 
 # 👥🚀🕸 Identity @ Graph
 
-> Return the content of [`.MANIFEST/IDENTITY 🧩`](<../../7 🧩 Codes/MANIFEST/🧩 ManifestIdentity.md>)
-
-> Used by [🤵⏩🧑‍🦰 Converse @ Broker](<../../5 ⏩ Flows/10 🤵⏩ Brokers/03 🤵⏩🧑‍🦰 Converse 💬.md>) 
-
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
+
+* Given a domain, 
+    * returns the content of [`.MANIFEST/IDENTITY 🧩`](<../../7 🧩 Codes/MANIFEST/🧩 ManifestIdentity.md>)
+* Used by:
+    * [🤵⏩🧑‍🦰 Converse @ Broker](<../../5 ⏩ Flows/10 🤵⏩ Brokers/03 🤵⏩🧑‍🦰 Converse 💬.md>) 
 
 <br/>
 

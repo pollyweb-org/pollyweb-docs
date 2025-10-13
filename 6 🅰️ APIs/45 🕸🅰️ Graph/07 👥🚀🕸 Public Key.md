@@ -3,14 +3,14 @@
 
 # 👥🚀🕸 Public Key @ Graph
 
-> Returns the historical public key of an [Issuer 🎴 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) by the name of the key.
-> <br/> Allows a [Consumer 💼 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) to verify a [Token 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) issued before a [DKIM 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) rotation.
 
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 
-> Used by:
-> <br/> • [👥🔏 Domain Signature](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/05 👥🔏 Domain Signature.md>)
-> <br/> • [💼⏩🧑‍🦰 Share Token @ Consumer](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token.md>) flow
+* Returns the historical public key of an [Issuer 🎴 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) by the name of the key.
+    * Allows a [Consumer 💼 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) to verify a [Token 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) issued before a [DKIM 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) rotation.
+* Used by:
+    * [👥🔏 Domain Signature](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/05 👥🔏 Domain Signature.md>)
+    * [💼⏩🧑‍🦰 Share Token @ Consumer](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token.md>) flow
 
 <br/>
 
