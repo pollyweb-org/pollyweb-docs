@@ -10,13 +10,13 @@
     To break a [domain Manifest 📜](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) file, replace it with a folder of the same name, then create the following structure.
 
     * `📜 Manifest/` → folder instead of a file.
-        * `📜 Identity.yaml` → identity section 👥
-        * `🧩 Codes/` → tree of schema codes 🧩
+        * [`📜 Identity.yaml`](<../../6 🅰️ APIs/45 🕸🅰️ Graph/04 👥🚀🕸 Identity.md>) 
+        * `🧩 Codes/` 
             * `GROUP-A/`
-                * `🧩 CODE-A1.yaml`
-                * `🧩 CODE-A2.yaml`
+                * [`🧩 CODE-A1.yaml`](<../../6 🅰️ APIs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>)
+                * [`🧩 CODE-A2.yaml`](<../../6 🅰️ APIs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>)
         * `✏️ Forms/` → tree of flows   
-            * `✏️ FORM-1.yaml`
+            * [`✏️ FORM-1.yaml`](<../../6 🅰️ APIs/45 🕸🅰️ Graph/01 👥🚀🕸 Form.md>)
         * `🪢 Services/` → tree of API integrations 🪢
             * `GROUP-S/`
                 * `🪢 INTEGRATION-1.yaml`

@@ -41,3 +41,9 @@
     ---
     <br/>
 
+1. **What happens if the Outbound file gets corrupted?**
+
+    It will be fixed automatically on the next sync.
+
+    ---
+    <br/>
