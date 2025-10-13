@@ -1,12 +1,15 @@
 # 🤗⏩🧑‍🦰 Invite @ Host
 
-> A [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) invites a [Helper 🛠️ domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) to a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>).
-
-> Used in the [💼⏩🧑‍🦰 Share Token+ID @ Consumer](<../90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/05 🧑‍🦰👉💼 Share Token+ID.md>) flow.
-
-> Examples: 
-> <br/> • [Split bill at a restaurant 🍽️](<../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/74 💳 Pay: Split bill ✂️.md>) use case
-> <br/> • [Confused senior user 👴🏻](<../../4 ⚙️ Solution/70 🌳 Ambient/74 💍 Brand Userables/13 💍📱 Userable senior user.md>) use case for [Userable 💍 things](<../../4 ⚙️ Solution/70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>).
+* A [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) 
+    * invites a [Helper 🛠️ domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) 
+    * to a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>).
+  
+* Used in:
+    * [💼⏩🧑‍🦰 Share Token+ID @ Consumer](<../90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/05 🧑‍🦰👉💼 Share Token+ID.md>) flow
+  
+* Examples: 
+    * [Split bill at a restaurant 🍽️](<../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/74 💳 Pay: Split bill ✂️.md>) use case
+    * [Confused senior user 👴🏻](<../../4 ⚙️ Solution/70 🌳 Ambient/74 💍 Brand Userables/13 💍📱 Userable senior user.md>) use case for [Userable 💍 things](<../../4 ⚙️ Solution/70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>)
 
 <br/>
 
