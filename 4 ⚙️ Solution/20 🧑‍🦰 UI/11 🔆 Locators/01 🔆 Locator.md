@@ -1,11 +1,11 @@
-🔆 NLWeb NFC/QR Locators
+🔆 NFC/QR Locators
 ===
 
-1. **What are NLWeb Locators?**
+1. **What are Locators?**
 
-    In NLWeb, non-humans (e.g., organizations, places, objects, animals) are represented by a [Locator 🔆](<01 🔆 Locator.md>). 
-    * An NLWeb [Locator 🔆](<01 🔆 Locator.md>) is a string contained in a [QR code ✨](<03 🧑‍🦰✨ Wallet QR scan.md>), [NFC tag 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>), [Web link 🌐](<02 🧑‍🦰🌐 Wallet URLs.md>), or [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) option.
-    * Users can [tap 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>), [scan ✨](<03 🧑‍🦰✨ Wallet QR scan.md>), [select 💬](<../12 💬 Chats/01 💬 Chat.md>), or [click 🌐](<02 🧑‍🦰🌐 Wallet URLs.md>) Locators 🔆 to open a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) with the [Locator's Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>).
+    In NLWeb, non-humans (e.g., organizations, places, objects, animals) are represented by a [Locator 🔆](<01 🔆 Locator.md>) that opens a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) with a [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>).
+    * It may be a [QR code ✨](<03 🧑‍🦰✨ Wallet QR scan.md>), an [NFC tag 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>), a [Web link 🌐](<02 🧑‍🦰🌐 Wallet URLs.md>), or a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) option.
+    * Users can [tap 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>), [scan ✨](<03 🧑‍🦰✨ Wallet QR scan.md>), [click 🌐](<02 🧑‍🦰🌐 Wallet URLs.md>), or [select 💬](<../12 💬 Chats/01 💬 Chat.md>) them.
 
     ---
     <br/>
@@ -15,14 +15,18 @@
 
     A [Locator 🔆](<01 🔆 Locator.md>) is a string 
     * formatted as `{code},{domain},{key}[,{fields}]`
-    * e.g.: `nlweb.org/HOST:1.0,any-domain.com,ANY-RESOURCE`
+  
+    For example:
+    * `.HOST,any-domain.com,ANY-KEY,A=1,B=2`
+    * `nlweb.org/ALIAS:1.0,any-printer.com,ANY-KEY`
+    
 
-    |Component| Example | Purpose
+    |Component| Examples | Purpose
     |-|-|-
-    | `Code` | `nlweb.org/HOST:1.0` | [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) to validate the schema with a [Graph 🕸 helper domain](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>).
-    | `Domain` | `any-host.com` | [Domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) name for the [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) to interact with.
-    | `Key` | `product-1234` | The resource key in the [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>).
-    | `Properties` | `A=1,B=2` | Any optional data fields.
+    | `Code` |  `.HOST` | [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) for [`Schema@Graph`](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>)
+    | `Domain` | `any-host.com` | [Domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) for a [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) to interact 
+    | `Key` | `product-1234` | Resource key in the [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>)
+    | `Properties` | `A=1,B=2` | Any optional data fields
 
     ---
     <br/>
@@ -36,16 +40,16 @@
     
     | [Locator 🔆](<01 🔆 Locator.md>) | Method 
     |-|-
-    | [✨ Physical QR code](<03 🧑‍🦰✨ Wallet QR scan.md>) | Scan an NLWeb-compatible physical [QR code ✨](<03 🧑‍🦰✨ Wallet QR scan.md>) printed by anyone.
-    | [🔆 Physical NFC tag](<04 🧑‍🦰🔆 Wallet NFC tap.md>) | Tap a NLWeb-compatible physical [NFC tag 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>) written by anyone.
-    | [✨ Digital QR code](<03 🧑‍🦰✨ Wallet QR scan.md>)  | Scan an image of a [QR code ✨](<03 🧑‍🦰✨ Wallet QR scan.md>) rendered by a webpage.
-    | [🌐 Web page link](<02 🧑‍🦰🌐 Wallet URLs.md>)  |  Click on an NLWeb-compatible [URL link 🌐](<02 🧑‍🦰🌐 Wallet URLs.md>) on a webpage.
-    | [🖨️ Printer domains](<../../70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>) | Tap/scan a static NFC/QR issue by any [Printer 🖨️ helper domain](<../../70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>).
-    | [🦋 Ephemeral devices](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>) | Tap/scan a dynamic NFC/QR rendered by an [Ephemeral 🦋 device](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>).
-    | [🛜 Wi-Fier devices](<../../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>) | Tap/scan a [Wi-Fier 🛜 device](<../../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>) to connect it to the internet.
-    | [💍 Userable things](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) | Tap a [Userable 💍 thing](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) that a user is wearing or holding.
-    | [🔒 Padlock devices](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/01 🔒 Padlock device.md>)  | Tap a [Padlock 🔒 device](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/01 🔒 Padlock device.md>) to open it.
-    | [💬 Chat prompts](<../12 💬 Chats/01 💬 Chat.md>) | Select a [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) option - e.g., [Finder 🔎](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>), [Advertiser 👀](<../../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>).
+    | [✨ Physical QR code](<03 🧑‍🦰✨ Wallet QR scan.md>) | Scan a physical [QR code ✨](<03 🧑‍🦰✨ Wallet QR scan.md>) printed by anyone
+    | [🔆 Physical NFC tag](<04 🧑‍🦰🔆 Wallet NFC tap.md>) | Tap a physical [NFC tag 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>) written by anyone
+    | [✨ Digital QR code](<03 🧑‍🦰✨ Wallet QR scan.md>)  | Scan an image of a [QR code ✨](<03 🧑‍🦰✨ Wallet QR scan.md>) rendered by a webpage
+    | [🌐 Web page link](<02 🧑‍🦰🌐 Wallet URLs.md>)  |  Click on an NLWeb-compatible [URL link 🌐](<02 🧑‍🦰🌐 Wallet URLs.md>) on a webpage
+    | [🖨️ Printer domains](<../../70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>) | Tap/scan a static NFC/QR issue by any [Printer 🖨️ domain](<../../70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>)
+    | [🦋 Ephemeral devices](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>) | Tap/scan a dynamic NFC/QR  by an [Ephemeral 🦋 device](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>)
+    | [🛜 Wi-Fier devices](<../../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>) | Tap/scan a [Wi-Fier 🛜 device](<../../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>) to connect it to the internet
+    | [💍 Userable things](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) | Tap a [Userable 💍 thing](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) that a user is wearing or holding
+    | [🔒 Padlock devices](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/01 🔒 Padlock device.md>)  | Tap a [Padlock 🔒 device](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/01 🔒 Padlock device.md>) to open it
+    | [💬 Chat prompts](<../12 💬 Chats/01 💬 Chat.md>) | Select a [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) option - e.g., [Finder 🔎](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>), [Advertiser 👀](<../../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>)
 
     
     ---

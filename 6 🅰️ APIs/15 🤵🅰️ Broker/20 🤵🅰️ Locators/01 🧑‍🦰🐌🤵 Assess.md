@@ -22,7 +22,7 @@ Header:
     Subject: Assess@Broker
     
 Body:
-    Locator: nlweb.org/ALIAS:1.0,any-printer.com,7V8KD3G
+    Locator: @ALIAS,any-printer.com,7V8KD3G
 ```
 
 |Object|Property|Type|Description
@@ -30,7 +30,7 @@ Body:
 |Header|`From`|uuid | [Wallet 🧑‍🦰](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)  from [`Onboard@Notifier`](<../../65 📣🅰️ Notifier/01 📣🤵🅰️ Onboard/11 🧑‍🦰🚀📣 Onboard.md>)
 ||`To`|string| [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) from [`Onboard@Notifier`](<../../65 📣🅰️ Notifier/01 📣🤵🅰️ Onboard/11 🧑‍🦰🚀📣 Onboard.md>)
 ||`Subject`|string|`Assess@Broker`
-|Body  |`Locator` |string| [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) of types: <br/>- [`nlweb.org/HOST` 🧩](<../../../7 🧩 Codes/HOST/🧩 Host.md>) <br/>- [`nlweb.org/ALIAS` 🧩](<../../../7 🧩 Codes/$/🧩 Alias.md>)
+|Body  |`Locator` |string| [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) of types: <br/>- [`.HOST` 🧩](<../../../7 🧩 Codes/HOST/🧩 Host.md>) <br/>- [`.ALIAS` 🧩](<../../../7 🧩 Codes/$/🧩 Alias.md>)
 |
 
 
@@ -43,7 +43,7 @@ Body:
 
 | # | Call | Notes
 |-|-|-
-| 1 | [👥🚀🖨️ `Alias@Printer`](<../../75 🖨️🅰️ Printer/01 👥🚀🖨️ Alias.md>) | Ask [Printers 🖨️](<../../4 ⚙️ Solution/70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>) to translate [`@ALIAS` 🧩](<../../../7 🧩 Codes/$/🧩 Alias.md>)
+| 1 | [👥🚀🖨️ `Alias@Printer`](<../../75 🖨️🅰️ Printer/01 👥🚀🖨️ Alias.md>) | Ask [Printers 🖨️](<../../../4 ⚙️ Solution/70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>) to translate [`.ALIAS` 🧩](<../../../7 🧩 Codes/$/🧩 Alias.md>)
 | 2 | [🤵⏩🧑‍🦰 Assessed 🔆](<../../../5 ⏩ Flows/10 🤵⏩ Brokers/01 🤵⏩🧑‍🦰 Assessed 🔆.md>) | Ask [Wallets 🧑‍🦰](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)  to open a chat window
 | 3 | [🔎⏩🧑‍🦰 Introduce 🤗](<../../../5 ⏩ Flows/40 🔎⏩ Finders/01 🔎⏩🧑‍🦰 Introduce 🤗.md>) | Ask [Finders 🔎](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) to introduce [Hosts 🤗](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>)
 ||

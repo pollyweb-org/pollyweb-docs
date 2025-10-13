@@ -51,20 +51,20 @@ Order a pizza for home delivery
     💬 Order:
     - FORM|order
     # Collect order details.
-    - SHARE|nlweb.org/NAVIGATOR/DESTINATION # 🧭 
-    - SHARE|nlweb.org/CONCIERGE/COURIER|{destination} # 🛎️ 
-    - SHARE|nlweb.org/CURATOR/ORDER|{menu-locator} # 🧚 
+    - SHARE|.NAVIGATOR/DESTINATION # 🧭 
+    - SHARE|.CONCIERGE/COURIER|{destination} # 🛎️ 
+    - SHARE|.CURATOR/ORDER|{menu-locator} # 🧚 
     # Confirm order details and create a Biller 🤝 ID.
     - INFO|{order-summary}|Change
-    - SHARE|nlweb.org/VITALOGIST/REVIEW|{order-details} # 💖
-    - SHARE|nlweb.org/CONCIERGE/REVIEW|{order-details} # 🛎️
-    - SHARE|nlweb.org/SCHEDULER/REVIEW|{order-details} # 🗓️
+    - SHARE|.VITALOGIST/REVIEW|{order-details} # 💖
+    - SHARE|.CONCIERGE/REVIEW|{order-details} # 🛎️
+    - SHARE|.SCHEDULER/REVIEW|{order-details} # 🗓️
     # Request aggregated payment.
     - CHARGE|{amount}|{biller-id} # 💳
     # Successful order.
     - SUCCESS|Order confirmed
         Details: {order-summary}
-    - SHARE|nlweb.org/CONCIERGE/CONFIRM # 🛎️
+    - SHARE|.CONCIERGE/CONFIRM # 🛎️
     - TEMP|Preparing your order...
         Details: {order-summary}
     ```
@@ -87,17 +87,17 @@ Order a pizza for home delivery
         order: 
             Title: Order
             Steps:
-            - Input: SHARE|nlweb.org/NAVIGATOR/DESTINATION
+            - Input: SHARE|.NAVIGATOR/DESTINATION
               Purpose: your navigator sets where 🧭
-            - Input: SHARE|nlweb.org/CONCIERGE/COURIER
+            - Input: SHARE|.CONCIERGE/COURIER
               Purpose: your concierge sets how 🛎️  
-            - Input: SHARE|nlweb.org/CURATOR/FILTER
+            - Input: SHARE|.CURATOR/FILTER
               Purpose: your curator orders 🧚
-            - Input: SHARE|nlweb.org/VITALOGIST/REVIEW
+            - Input: SHARE|.VITALOGIST/REVIEW
               Purpose: your vitalogist reviews 💖 
-            - Input: SHARE|nlweb.org/CONCIERGE/REVIEW
+            - Input: SHARE|.CONCIERGE/REVIEW
               Purpose: your concierge reviews 🛎️  
-            - Input: SHARE|nlweb.org/SCHEDULER/REVIEW
+            - Input: SHARE|.SCHEDULER/REVIEW
               Purpose: your scheduler reviews 🗓️ 
             - Input: CHARGE
               Purpose: your payer pays the bill 💳              

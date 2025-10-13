@@ -66,6 +66,6 @@ Body:
 
     For the [Schema Codes 🧩](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) marked with SELF, 
     * only shows the [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) issued by the [Consumer 💼 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>),
-    * e.g., [`nlweb.org/BOOKING/SELF 🧩`](<../../../7 🧩 Codes/HOST/🧩 HostBookingSelf.md>).
+    * e.g., [`.BOOKING/SELF 🧩`](<../../../7 🧩 Codes/HOST/🧩 HostBookingSelf.md>).
 
     ---

@@ -1,5 +1,3 @@
-<!-- #TODO -->
-
 <!-- https://quip.com/U97qAoGmSPAn#temp:C:HKUfb3022130c644b3faa5b9cce8 -->
 
 # 👥🚀🖨️ Alias @ Printer
@@ -19,6 +17,7 @@ Header:
     From: any-domain.com
     To: any-printer.com
     Subject: Alias@Printer
+
 Body: 
     Alias: ANY-ALIAS
 ```
@@ -37,7 +36,7 @@ Body:
 ## Synchronous Response
 
 ```yaml
-Locator: nlweb.org/HOST:1.0,any-host.com,ANY-RESOURCE,A=1,B=2
+Locator: .HOST,any-host.com,any-key
 ```
 
 Property|Type|Description

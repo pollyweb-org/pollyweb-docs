@@ -207,7 +207,6 @@
 
     The option with `§` 
     * opens a new [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
-    * via the [`Promote@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/20 🤵🅰️ Locators/06 👀🐌🤵 Promote.md>) message
     * using the [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) `any-artist.com/FANS`
 
     <br/>
@@ -225,7 +224,7 @@
         Options:
             - [Play] music 
             - [Share] list
-            - [Speak] with singer § any-artist.com/FANS
+            - [Speak] with singer § .HOST,any-artist.com,fans
 
     # Check the answer.
     - CASE: 
@@ -241,6 +240,23 @@
     | 🔀 [`CASE`](<../../40 🌊 Talker flows/22 🔀 CASE flow.md>) | To check the selected option.
     | ℹ️ [`INFO`](<../4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) | To show the result.
     
+    <br/>
+
+    Here's the [`Prompted@Host`](<04 🧑‍🦰🚀🤗 Prompted.md>).
+    * The `§` is split into the `Locator` property.
+    
+    ```yaml
+    Format: ONE
+    Statement: 😃 What to do?
+    Options: 
+        - ID: Play
+          Translation: Play music 
+        - ID: Share
+          Translation: Share list
+        - ID: Speak                     
+          Translation: Speak with singer
+          Locator: .HOST,any-artist.com,fans
+    ```
 
     ---
     <br/>
