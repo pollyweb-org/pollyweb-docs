@@ -3,13 +3,13 @@
 
 # 👥🚀🕸 Schema @ Graph
 
-> Gets the schema of a [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) as defined it its [domain Manifests 📜](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>).
 
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 
-> When the schema references other schemas, 
-> <br/>- this method returns the final merged schema for independent validation 
-> <br/> - i.e., there's no need for further calls to get the referenced schemas.
+* Gets the schema of a [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) as defined it its [domain Manifests 📜](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>).
+* When the schema references other schemas, 
+    * this method returns the final merged schema for independent validation 
+    * i.e., there's no need for further calls to get the referenced schemas.
 
 <br/>
 

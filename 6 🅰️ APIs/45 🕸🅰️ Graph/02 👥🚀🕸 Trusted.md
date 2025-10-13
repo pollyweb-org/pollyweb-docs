@@ -11,9 +11,7 @@
 *  Similar to [`Trusted@Graph`](<03 👥🚀🕸 Trusts.md>), 
    *  but for verification by the sender [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).
 
-
 <br/>
-
 
 ## Synchronous Request 🚀
 
