@@ -21,7 +21,7 @@
         - Issuer
         - Seller
     
-    Hook: # where to forward messages to.
+    Hooks: # where to forward messages to.
 
         Targets: # test environments.
             dev: http://localhost:7070
