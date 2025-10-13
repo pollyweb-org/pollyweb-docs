@@ -14,4 +14,12 @@
     ---
     <br/>
 
+1. **How to Bind?**
 
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    |-|-|-
+    | ☁️ Hoster | 😃 Hi! What do you need? <br/>- [ Host ] a domain | > Host
+    | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Bind [Yes, No, +]<br/>- [ Host 🧩](<02 🧩 Schema Code.md>) | > Yes 
+    | 
+    | ☁️ Hoster | ✅ Done! 
+    |
