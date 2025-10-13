@@ -10,16 +10,20 @@
 
 ## 💬 Chat
 
+
+| [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+| - | - | - |
+| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Ready to order? [Yes, No] <br/> - your curator orders 🧚<br/>  - your payer pays the bill 💳  | > Yes
+|
+
 <br/>
 
 ## 😃 Talker 
 
-The associated [Talker 😃](<../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>), with one line per [Prompt 🤔](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>), could be the following.
+Here's the [Talker 😃](<../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>).
 
 ```yaml
-- INFO|Hello World!
-- ONE|Like sports? >> $answer
-    Options: Yes, No, I [love] it, I [hate] it
+- FORM|Order
 ```
 
 
