@@ -8,7 +8,7 @@
 
     A [☁️ Hoster](<05 ☁️🛠️ Hoster helper.md>) is 
     * any [Helper 🛠️ domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>)
-    * that provides the infrastructure of a [Hosted 🧑‍💻 domain](<../../../../../../9 😃 Talkers/91 🧑‍💻 Hosteds/01 🧑‍💻☁️ Hosted domain.md>)
+    * that provides the infrastructure of a [Hosted 🧑‍💻 domain](<../91 🧑‍💻 Hosteds/01 🧑‍💻 Hosted domain.md>)
     * and allow their owners to manage them with a [Wallet 🧑‍🦰 app](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
 
     ---
