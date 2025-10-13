@@ -45,16 +45,16 @@
 - INFORM|Book
 
 # Get the booking.
-- SHARE|@SCHEDULER/BOOK >> $b
+- SHARE|.SCHEDULER/BOOK >> $b
     Context: 
         About: {/info/{$r.ID}.md} # Get the file.
         Slots: {Slots($r.ID)}     # From the ERP.
 
 # Get user contacts.
-- SHARE|@PERSONA/BOOKING >> $c
+- SHARE|.PERSONA/BOOKING >> $c
 
 # Get user preferences.
-- SHARE|@PERSONA/SEAT/PREFERENCES >> $p
+- SHARE|.PERSONA/SEAT/PREFERENCES >> $p
 
 # Allow one last time for input changes.
 - CONFIRM|Confirm booking?

@@ -49,7 +49,7 @@
    💬 Offer:
    - INFO|Issuing your token...
    - OFFER|{GetTokenID} >> $accepted
-   - IF|{$accepted}:
+   - IF|$accepted:
        Then: SUCCESS|Saved to your wallet.
        Else: FAILURE|You rejected the token.
    ```
