@@ -4,7 +4,11 @@
 > <br/> • Preceded by [`Upload@Resourcer`](<30 🔃🚀🗃️ Upload.md>)
 > <br/> • Succeeded by [`Download@Resourcer`](<60 🔃🚀🗃️ Download.md>)
 
-> This request is signed with the [Syncer's 🔃](<../../9 😃 Talkers/90 ☁️ Hosters/01 🔃🛠️ Syncer tool.md>) private-key pair matching the `PublicKey` sent on the [`Clone@Resourcer`](<10 🔃🚀🗃️ Clone.md>) request.
+* This request 
+    * is signed with the [Syncer's 🔃](<../../9 😃 Talkers/90 ☁️ Hosters/01 🔃🛠️ Syncer tool.md>) private-key pair 
+    * matching the `PublicKey` 
+    * sent on the [`Clone@Resourcer`](<10 🔃🚀🗃️ Clone.md>) request.
+
 
 
 <br/>

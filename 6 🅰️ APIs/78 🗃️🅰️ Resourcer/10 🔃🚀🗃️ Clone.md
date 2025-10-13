@@ -15,6 +15,7 @@ Header:
     From: Anonymous
     To: any-resourcer.com
     Subject: Clone@Resourcer
+    
 Body:
     WalletPin: 12345
     SyncerPin: 67890
