@@ -5,7 +5,7 @@
     * then switch to a [non-blocking info ℹ️](<../../9 😃 Talkers/20 🤔 Prompts/4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>).
 
 * Related to:
-    * [📝 Talker `FORM` command](<../../9 😃 Talkers/60 ⏩ Msg flows/41 📝 INFORM msg.md>)
+    * [📝 Talker `INFORM` command](<../../9 😃 Talkers/60 ⏩ Msg flows/41 📝 INFORM msg.md>)
 
 * Examples:
     * [Buy hot dog 🌭](<../../3 🤝 Use Cases/02 🍲 Eat & Drink/50 🌭 Street food/21 🎪 Stall: Buy hot dog 🌭.md>)
@@ -59,10 +59,10 @@ Forms:
 | # | Call | Description
 |-|-|-
 |1|[💼🐌🤵 `Query@Broker`](<../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) | [Consumers 💼](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) ask for [Schema Codes 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)
-|2|[🤗⏩🧑‍🦰 Prompt 🤔](<../50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) ask which [Vault 🗄️](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) if many
-|3|[💼🐌🤵 `Inform@Broker`](<../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/65 💼🐌🤵 Inform.md>)
-|4|[👥🚀🕸 `Form@Graph`](<../../6 🅰️ APIs/45 🕸🅰️ Graph/01 👥🚀🕸 Form.md>)
-|5|[🤗⏩🧑‍🦰 Prompt 🤔](<../50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) ask which [Vault 🗄️](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) if many
+|2|[🤗⏩🧑‍🦰 Prompt 🤔](<../50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) reject non-announced asks
+|3|[💼🐌🤵 `Inform@Broker`](<../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/65 💼🐌🤵 Inform.md>) | [Consumers 💼](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) inform the upcoming form 
+|4|[👥🚀🕸 `Form@Graph`](<../../6 🅰️ APIs/45 🕸🅰️ Graph/01 👥🚀🕸 Form.md>) | [Brokers 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) get the form [Schema Codes 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)
+|5|[🤗⏩🧑‍🦰 Prompt 🤔](<../50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) inform the user on the steps
 |6|[💼🐌🤵 `Query@Broker`](<../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) | [Consumers 💼](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) ask for [Schema Codes 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)
-|7|[🤵🐌🗄️ `Disclose@Broker`](<../../6 🅰️ APIs/95 🗄️🅰️ Vault/03 🤵🐌🗄️ Disclose.md>) | [Brokers 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) ask the [Vault 🗄️](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) to disclose
+|7|[🤵🐌🗄️ `Disclose@Broker`](<../../6 🅰️ APIs/95 🗄️🅰️ Vault/03 🤵🐌🗄️ Disclose.md>) | [Brokers 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) ask [Vaults 🗄️](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) to disclose
 |
