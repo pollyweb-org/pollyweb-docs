@@ -69,7 +69,7 @@
     
     # Ask the user's Vitalogist to review.
     - SHARE >> $review: # 💖
-        Code: @VITALOGIST/REVIEW
+        Code: .VITALOGIST/REVIEW
         Context: 
           Order: {$order.Details}
 

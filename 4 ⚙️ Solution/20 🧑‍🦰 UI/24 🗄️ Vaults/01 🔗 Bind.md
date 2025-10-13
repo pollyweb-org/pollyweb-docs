@@ -14,11 +14,11 @@
 
     ![](<.📎 Assets/🗄️ Vault.png>)
 
-    |#|Category|Interface|Step
+    |#|Step|Interface|Step
     |-|-|-|-
-    | 1| `Hello`| [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) | Open a [💬 Chat](<../12 💬 Chats/01 💬 Chat.md>) with the [Vault 🗄️ domain](<03 🗄️🎭 Vault role.md>), and select "Bind".
-    | 1| `Hello`| Web browser | Login to the website of the [Vault 🗄️ domain](<03 🗄️🎭 Vault role.md>) , and click "Bind".
-    | 2|  `Bind`|[Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) | On the [💬 Chat](<../12 💬 Chats/01 💬 Chat.md>), follow the steps detailed below.
+    | 1| `Hello`| [Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) | Open a [💬 Chat](<../12 💬 Chats/01 💬 Chat.md>) with the [Vault 🗄️](<03 🗄️🎭 Vault role.md>) and select `Bind`
+    | 1| `Hello`| Browser | Login to the website of the [Vault 🗄️ ](<03 🗄️🎭 Vault role.md>) and click `Bind`
+    | 2|  `Bind`|[Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) | On the [💬 Chat](<../12 💬 Chats/01 💬 Chat.md>), follow the steps detailed below
 
     ---
     <br/>
@@ -33,7 +33,7 @@
 
     The [💬 Chat](<../12 💬 Chats/01 💬 Chat.md>) may look similar to the following.
     
-    | Service | Prompt  | User 
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     |-|-|-
     | 🗄️ Vault | 😃 Hi! What do you need? <br/>- [ Bla ] | > Bla
     | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Flow: Bla, bla, bla [+] 
@@ -74,7 +74,7 @@
 
     The [💬 Chat](<../12 💬 Chats/01 💬 Chat.md>) may look similar to the following.
     
-    | Service | Prompt  | User 
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     |-|-|-
     | 🗄️ Vault | 😃 Hi! What do you need? <br/>- [ Bind ] to this Vault <br/>- [ Something else ] | > Bind
     | [🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Flow: Bind on app [+] || The [Host 🤗 role](<../12 💬 Chats/04 🤗🎭 Host role.md>) changed the context.
@@ -100,7 +100,7 @@
 
     The [💬 Chat](<../12 💬 Chats/01 💬 Chat.md>) may look similar to the following.
 
-    | Service | Prompt  | User 
+    | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     |-|-|-
     | | | 🔆 [scan](<../11 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>)
     | 🔎 [Finder](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Vault (4.3 ⭐)  [+] || The [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) informed the user.
