@@ -6,8 +6,8 @@
 
 1. **What is a PublicKey file?**
 
-    The `PublicKey.txt` file
-    * is a file managed by the [Hoster ☁️ domain](<05 ☁️🛠️ Hoster helper.md>)
+    The `🔑 PublicKey.txt` file
+    * is a file managed by the [Hoster ☁️ domain](<../90 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>)
     * for [Hosted 🧑‍💻 domains](<01 🧑‍💻 Hosted domain.md>) to decrypt inbound messages
     * and encrypt outbound messages
     * ensuring that messages cannot be spoofed.

@@ -16,10 +16,12 @@
 1. **What does the Inbound.yaml file look like?**
 
     ```yaml
+    # 📥 Inbound.yaml
+
     Handlers: # where to forward messages to.
         dev: https://quiet-lane-3168.grok.app 
         prod: https://my-domain.com/nlweb/prod/inbox
-        $: prod # handle live requests by default.
+        $: $prod # if no key is provided, run prod.
     ```
 
     | Property | Type | Description
