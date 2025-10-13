@@ -4,22 +4,30 @@
 
 <br/>
 
+1. **What is the Locators file?**
+
+    The `🔆 Locators.yaml` file 
+    * contains the mapping 
+    * of [Locator 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) resource keys
+    * to [Talker 😃 files](<16 😃📄 Talker files.md>)
+    
+    ---
+    <br/>
 
 1. **What does the Locators file looks like?**
 
-    The `🔆 Locators.yaml` file contains the mapping of [Locator 🔆 resources](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) to [Talkers 😃](<../10 📘 Talker specs/10 😃 Talker.md>).
-
-    * Note: only the `resource` part of each [Locator 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) is required.
-
     ```yaml
-    🤝: nlweb.org/HOSTER/LOCATORS
+    # 🔆 Locators.yaml
 
     Locators:
-        _default: # if no Host Locator is provided.
-            Talker: talker-1
-        resource-1:
-            Talker: talker-1
-        resource-2:
-            Talker: talker-2
+        $: $resource-1 # default
+        resource-1: talker-1
+        resource-2: talker-2
     ```  
 
+    | Property | Type | Description
+    |-|-|-
+    | `Locators` | map | Resource keys to [Talker 😃 files](<16 😃📄 Talker files.md>).
+
+    ---
+    <br/>

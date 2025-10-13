@@ -19,6 +19,8 @@
 
 
     ```yaml
+    # 📤 Outbound.yaml
+
     Proxy: https://{uuid}.proxies.any-hoster.com
     ```
 
