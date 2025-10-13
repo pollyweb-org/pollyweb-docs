@@ -10,7 +10,6 @@ actor User as user
 'end box
 
 participant "Host 🤗\ndomain" as host
-participant "Finder 🔎\nvault" as finder
 participant "Another\nHost 🤗" as host2
 
 
@@ -18,32 +17,15 @@ host --> wallet: 1) ⏪ Prompt 🤔 { option with locator }
 
 activate wallet
     wallet -> wallet: reuse if already open
-    wallet --> broker: 2) Assess 🐌 { locator }
+    wallet --> broker: 2) ⏩ Assess {locator}
 deactivate wallet
 
 activate broker
-
-    'alt No host session?
-
-        broker --> wallet: 3) ⏪ Converse
-        
-
-        broker --> finder: 4) Introduce ⏩
-        deactivate broker
-            activate finder
-               finder --> broker
-            deactivate finder
-        activate broker
-
-    'end alt
-
-    broker --> wallet: 5) ⏪ Prompt 🤔 {origin}
-    broker --> wallet: 6) ⏪ Prompt 🤔 {tokens}
-    broker --> host2:  7) Hello 🐌
+    broker --> host2:  3) Hello 🐌
 deactivate broker
 
 activate host2
-    host2 --> wallet: 8) ⏪ Prompt 🤔 {what do you need?}
+    host2 --> wallet: 4) ⏪ Prompt 🤔 {what do you need?}
 deactivate host2
 
 activate wallet
