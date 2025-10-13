@@ -12,7 +12,7 @@
     [Talkers 😃](<10 😃 Talker.md>) 
     * are YAML scripts to render dialogs in a [💬 Chat](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
     * structured as [Commands ⌘](<../40 🌊 Talker flows/10 ⌘ Command.md>) grouped in [Procedures ⚙️](<../40 🌊 Talker flows/11 ⚙️ Procedure.md>)
-    * referencing [{Functions} 🐍](<../30 🗃️ Talker data/12 🐍 {Function}.md>) evaluated by [Hosted 🧑‍💻 domains](<../../../../../../9 😃 Talkers/91 🧑‍💻 Hosteds/01 🧑‍💻☁️ Hosted domain.md>)
+    * referencing [{Functions} 🐍](<../30 🗃️ Talker data/12 🐍 {Function}.md>) evaluated by [Hosted 🧑‍💻 domains](<../91 🧑‍💻 Hosteds/01 🧑‍💻 Hosted domain.md>)
     * and implemented by [Hoster ☁️ helper domains](<../90 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>).
     ---
     <br/>
@@ -54,8 +54,8 @@
 
     |Flow|Details
     |-|-
-    | [😃⏩🧑‍💻 Handle 🐍](<../../5 ⏩ Flows/79 😃⏩ Talkers/20 😃⏩🧑‍💻 Handle 🐍.md>) | Ask [Hosteds 🧑‍💻](<../../../../../../9 😃 Talkers/91 🧑‍💻 Hosteds/01 🧑‍💻☁️ Hosted domain.md>) to handle [{Functions} 🐍](<../../9 😃 Talkers/30 🗃️ Talker data/12 🐍 {Function}.md>)
-    | [😃⏩🧑‍💻 Wait ⏸️](<../../5 ⏩ Flows/79 😃⏩ Talkers/30 😃⏩🧑‍💻 Wait ⏸️.md>) | Allow [Hosted 🧑‍💻](<../../../../../../9 😃 Talkers/91 🧑‍💻 Hosteds/01 🧑‍💻☁️ Hosted domain.md>)  long-running tasks
+    | [😃⏩🧑‍💻 Handle 🐍](<../../5 ⏩ Flows/79 😃⏩ Talkers/20 😃⏩🧑‍💻 Handle 🐍.md>) | Ask [Hosteds 🧑‍💻](<../91 🧑‍💻 Hosteds/01 🧑‍💻 Hosted domain.md>) to handle [{Functions} 🐍](<../../9 😃 Talkers/30 🗃️ Talker data/12 🐍 {Function}.md>)
+    | [😃⏩🧑‍💻 Wait ⏸️](<../../5 ⏩ Flows/79 😃⏩ Talkers/30 😃⏩🧑‍💻 Wait ⏸️.md>) | Allow [Hosted 🧑‍💻](<../91 🧑‍💻 Hosteds/01 🧑‍💻 Hosted domain.md>)  long-running tasks
     
     ---
     <br/>
