@@ -16,9 +16,9 @@ participant "Host 🤗\ndomain" as host
 
 activate broker
 
-    group Translate, if @ALIAS 🧩 and not cached 
+    group Resolve, if @ALIAS 🧩 and not cached 
 
-        broker -> printer: 1) Details 🚀
+        broker -> printer: 1) Resolve 🚀
 
         activate printer
             printer -> broker: {host locator}
@@ -48,7 +48,7 @@ activate broker
 deactivate broker
 
 activate host
-    host --> wallet: 7) ⏪ Prompt ℹ️ {context}
+    host --> wallet: 7) ⏪ Prompt ⓘ {context}
     host --> wallet: 8) ⏪ Prompt 😃 {what do you need?}
 deactivate host
 
