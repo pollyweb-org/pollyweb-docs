@@ -4,9 +4,9 @@
 actor User as user  
 
 participant "Wallet 👱\napp" as wallet
-participant "Locator 🔆\nNFC/QR" as qr
 participant "Broker 🤵\nhost" as broker
 
+participant "Locator 🔆\nNFC/QR" as qr
 participant "Printer 🖨️\nsupplier" as printer
 participant "Host 🤗\ndomain" as host
 
@@ -27,7 +27,7 @@ user -> wallet: scan ✨
 
 activate wallet
   wallet -> qr: scan ✨
-  wallet --> broker: 2) ⏩ Assess {locator}
+  wallet --> broker: 2) ⏩ Assess 
 deactivate wallet
 
 

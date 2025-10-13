@@ -1,11 +1,11 @@
 # 🤵⏩🗄️ Update chats @ Broker
 
-> Updates the list of Chats on the Wallet app.
+* Updates the list of [Chats 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) on a [Wallet 🧑‍🦰 app](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+* Used in:
+    * [🧑‍🦰👉🤵 Abandon chat @ Wallet](<../90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>)
+    * [🤵⏩🧑‍🦰 Converse @ Broker](<03 🤵⏩🧑‍🦰 Converse 💬.md>)
 
-> Used in:
-> <br/>• [🧑‍🦰👉🤵 Abandon chat @ Wallet](<../90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>)
-> <br/>• [🤵⏩🧑‍🦰 Converse @ Broker](<03 🤵⏩🧑‍🦰 Converse 💬.md>)
-
+<br/>
 
 ## Flow diagram
 
