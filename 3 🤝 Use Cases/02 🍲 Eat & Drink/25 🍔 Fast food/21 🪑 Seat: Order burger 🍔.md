@@ -51,7 +51,7 @@
 
     # Ask to select from the menu.
     - SHARE >> $selection: # 🧚 
-        Code: @CURATOR/ORDER 
+        Code: .CURATOR/ORDER 
         Context: 
           Menu: {./menu.yaml}
           Order: {$order}
@@ -131,18 +131,17 @@
 
 <br/> 
 
-1. **What does the Manifest Flow look like?**
+1. **What does the Manifest Form look like?**
 
     ```yaml
     Flows:
-
         order: 
-            Title: Order
+            Verb: order
             Steps:
-            - Input: SHARE|@CURATOR/FILTER
+            - Code: .CURATOR/FILTER
               Purpose: your curator orders 🧚
-            - Input: SHARE|@VITALOGIST/REVIEW
+            - Code: .VITALOGIST/REVIEW
               Purpose: your vitalogist reviews 💖 
-            - Input: CHARGE
+            - Code: .PAYER/CHARGE
               Purpose: your payer pays the bill 💳              
     ```

@@ -1,6 +1,6 @@
 # 📝 Talker FORM command
 
-> Related to [🤗⏩🧑‍🦰 Form 📝](<../../5 ⏩ Flows/50 🤗⏩ Hosts/05 🤗⏩🧑‍🦰 Form 📝.md>)
+> Related to [🤗⏩🧑‍🦰 Form 📝](<../../5 ⏩ Flows/20 💼⏩ Consumers/02 💼⏩🧑‍🦰 Inform 📝.md>)
 
 * `FORM|<key>`
        * Informs a new workflow starting.
