@@ -77,7 +77,7 @@
     ```yaml
     # 😃 Talker
     INFO|Tell me your name.
-    SHARE|@PERSONA/NAME/SOCIAL >> $social
+    SHARE|.PERSONA/NAME/SOCIAL >> $social
     SUCCESS|Hi, {$social.Name}!
     ```
 
