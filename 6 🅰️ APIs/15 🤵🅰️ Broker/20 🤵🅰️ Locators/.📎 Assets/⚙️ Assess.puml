@@ -1,0 +1,35 @@
+@startuml 👉 Printer NFC-QR check-in
+' ------------
+
+participant "Wallet 👱\napp" as wallet  
+participant "Broker 🤵\nhost" as broker
+
+participant "Finder 🔎\nvault" as finder
+participant "Printer 🖨️\nsupplier" as printer
+
+
+activate wallet
+  wallet --> broker: Assess 🐌 {locator}
+deactivate wallet
+
+
+activate broker
+
+    group Translate, if ALIAS 🧩 not cached 
+
+        broker -> printer: Details 🚀
+
+        activate printer
+            printer -> broker: {host locator}
+        deactivate printer
+
+    end group
+
+
+    broker --> wallet: ⏪ Assessed
+
+    broker --> finder: Introduce ⏩
+    deactivate broker
+
+' ------------
+@enduml
