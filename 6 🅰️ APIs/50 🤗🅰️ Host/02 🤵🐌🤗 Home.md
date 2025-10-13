@@ -35,7 +35,7 @@ The associated [Talker 😃](<../../9 😃 Talkers/10 📘 Talker specs/10 😃 
 
 <br/>
 
-## 🐌 Async Message
+## Async Message 🐌
 
 ```yaml
 Header:

@@ -18,6 +18,7 @@ Header:
     From: any-broker.com
     To: any-notifier.com
     Subject: Assessed@Notifier
+    
 Body:
     WalletID: <wallet-uuid>
     ChatID: <chat-uuid>
