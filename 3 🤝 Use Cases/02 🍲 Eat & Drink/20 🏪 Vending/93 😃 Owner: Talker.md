@@ -17,7 +17,7 @@ TODO: Add the flow to the Manifest
 💬|[Buy] an item:
 
 # Set the Chat's flow.
-- FORM|Buy
+- INFORM|Buy
 
 # Ask for the item number.
 - DIGITS|What's the item number? >> number

@@ -5,7 +5,7 @@
     * then switch to a [non-blocking info ℹ️](<../../9 😃 Talkers/20 🤔 Prompts/4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>).
 
 * Related to:
-    * [📝 Talker `FORM` command](<../../9 😃 Talkers/60 ⏩ Msg flows/41 📝 FORM msg.md>)
+    * [📝 Talker `FORM` command](<../../9 😃 Talkers/60 ⏩ Msg flows/41 📝 INFORM msg.md>)
 
 * Examples:
     * [Buy hot dog 🌭](<../../3 🤝 Use Cases/02 🍲 Eat & Drink/50 🌭 Street food/21 🎪 Stall: Buy hot dog 🌭.md>)
@@ -27,12 +27,12 @@ Here's the [Talker 😃](<../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talk
 
 ```yaml
 # Talker
-- FORM|TableOrder
+- INFORM|TableOrder
 ```
 
 | [Command ⌘](<../../9 😃 Talkers/40 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
 |-|-
-| 📝 [`FORM`](<../../9 😃 Talkers/60 ⏩ Msg flows/41 📝 FORM msg.md>) | Show user instructions and allow inputs.
+| 📝 [`INFORM`](<../../9 😃 Talkers/60 ⏩ Msg flows/41 📝 INFORM msg.md>) | Show user instructions and allow inputs.
 |
 
 <br/>
