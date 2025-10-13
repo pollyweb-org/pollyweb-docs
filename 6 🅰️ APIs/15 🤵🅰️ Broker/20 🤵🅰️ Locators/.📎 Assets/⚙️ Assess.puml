@@ -2,10 +2,11 @@
 ' ------------
 
 participant "Wallet 👱\napp" as wallet  
+participant "Notifier 📣\nbff" as notifier
 participant "Broker 🤵\nhost" as broker
-
-participant "Finder 🔎\nvault" as finder
 participant "Printer 🖨️\nsupplier" as printer
+participant "Graph 🕸\ndomain" as graph
+participant "Finder 🔎\nvault" as finder
 
 
 activate wallet
@@ -15,9 +16,9 @@ deactivate wallet
 
 activate broker
 
-    group Translate, if ALIAS 🧩 not cached 
+    group Translate, if ALIAS 🧩 and not cached 
 
-        broker -> printer: Details 🚀
+        broker -> printer: 1) Details 🚀
 
         activate printer
             printer -> broker: {host locator}
@@ -25,10 +26,22 @@ activate broker
 
     end group
 
+    broker -> graph: 2) Identity 🚀 {host}
+    activate graph
+        graph -> broker: {identity}
+    deactivate graph
 
-    broker --> wallet: ⏪ Assessed
+    broker -> graph: 3) Translate 🚀 {host}
+    activate graph
+        graph -> broker: {translation}
+    deactivate graph
 
-    broker --> finder: Introduce ⏩
+    broker --> wallet: 4) ⏪ Assessed
+    activate wallet
+        wallet --> wallet: new Chat 💬
+    deactivate wallet
+    
+    broker --> finder: 5) Introduce ⏩
     deactivate broker
 
 ' ------------
