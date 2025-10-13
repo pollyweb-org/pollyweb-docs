@@ -1,3 +1,9 @@
+# 📜 Hosted `Manifest` file
+
+> Part of [Hosted 🧑‍💻 domain](<01 🧑‍💻 Hosted domain.md>)
+
+<br/>
+
 
 1. **How to break the Manifest file when too big?**
 
@@ -9,8 +15,8 @@
             * `GROUP-A/`
                 * `🧩 CODE-A1.yaml`
                 * `🧩 CODE-A2.yaml`
-        * `✏️ Flows/` → tree of flows   
-            * `✏️ FLOW-1.yaml`
+        * `✏️ Forms/` → tree of flows   
+            * `✏️ FORM-1.yaml`
         * `🪢 Services/` → tree of API integrations 🪢
             * `GROUP-S/`
                 * `🪢 INTEGRATION-1.yaml`
