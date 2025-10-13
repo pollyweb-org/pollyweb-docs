@@ -17,20 +17,26 @@ activate graph
   graph -> broker: {identity}
 deactivate graph
 
+' Get the host's public title
+broker -> graph: 2) Translate 🚀
+activate graph
+  graph -> broker: {title}
+deactivate graph
+
 ' Create a new session ID
 broker -> broker: chat+
 
 ' Ask for a new chat to be opened
-broker --> notifier: 2) Assessed  🐌
+broker --> notifier: 3) Assessed  🐌
 activate notifier
   notifier --> wallet
 deactivate notifier
 activate wallet
-  wallet -> wallet: new chat
+  wallet -> wallet: new chat 💬
 deactivate wallet
 
 
-broker --> wallet: 3) ⏪ Update chats 💬 
+broker --> wallet: 4) ⏪ Update chats 💬 
 deactivate broker
     
 ' ------------
