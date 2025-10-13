@@ -9,7 +9,7 @@
 
 ## Flow diagram
 
-![Update chats](<.📎 Assets/⚙️ Update chats.png>)
+![Update chats](<.📎 Assets/⚙️💬 Update chats.png>)
 
 
 | # | Call | Notes |
