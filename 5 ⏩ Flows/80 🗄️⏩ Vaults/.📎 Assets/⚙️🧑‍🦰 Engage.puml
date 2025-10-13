@@ -10,24 +10,12 @@ vault --> broker: 1) Engage 🐌 {locator}
 
 activate broker
 
-broker --> wallet: 2) ⏪ Assessed        
-activate wallet
-    wallet --> wallet: new Chat 💬
-deactivate wallet
-
-broker --> finder: 3) Introduce ⏩
-deactivate broker
-    activate finder
-        finder --> broker
-    deactivate finder
-activate broker
-        
-broker --> wallet: 4) ⏪ Prompt 🤔 {binds}
-broker --> vault: 5) Hello 🐌 {locator}
+broker --> wallet: 2) ⏪ Open {locator}
+broker --> vault: 3) Hello 🐌 {locator}
 deactivate broker
 
 activate vault
-    vault --> wallet: 6) ⏪ Prompt {what?} 
+    vault --> wallet: 4) ⏪ Prompt {what?} 
 deactivate vault
 
 activate wallet
