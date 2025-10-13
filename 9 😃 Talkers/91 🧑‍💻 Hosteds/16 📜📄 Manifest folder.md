@@ -1,13 +1,32 @@
-# 📜 Hosted `Manifest` file
+# 📜 Hosted `Manifest` folder
 
 > Part of [Hosted 🧑‍💻 domain](<01 🧑‍💻 Hosted domain.md>)
 
 <br/>
 
 
-1. **How to break the Manifest file when too big?**
+1. **What is the Manifest folder?**
 
-    To break a [domain Manifest 📜](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) file, replace it with a folder of the same name, then create the following structure.
+    The `📜 Manifest/` folder 
+    * contains the [domain Manifest 📜](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) parts
+    * broken into multiple files and folders.
+    
+    ---
+    <br/>
+
+1. **What are the advantages of multiple files?**
+
+    Advantage | Details
+    |-|-
+    |`Maintenance` | Multiple files change in a granular fashion.
+    |`Resilience` | If one file has an error, the others still work.
+    |`Size limits`| Independent parts don't hit cloud size limits. 
+    
+
+    ---
+    <br/>
+
+1. **What is the structure of a Manifest?**
 
     * `📜 Manifest/` 
         * [`👥 Identity.yaml`](<../../6 🅰️ APIs/45 🕸🅰️ Graph/04 👥🚀🕸 Identity.md>) 
