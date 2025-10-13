@@ -3,8 +3,8 @@
 
 actor User as user  
 participant "Wallet 👱\napp" as wallet
-participant "Locator 🔆\nNFC/QR" as qr
 participant "Broker 🤵\nhost" as broker
+participant "Locator 🔆\nNFC/QR" as qr
 participant "Host 🤗\ndomain" as host
 
 

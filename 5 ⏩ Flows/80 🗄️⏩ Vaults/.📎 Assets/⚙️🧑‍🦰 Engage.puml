@@ -8,16 +8,16 @@ participant "Vault 🗄️\n(domain)" as vault
 vault --> broker: 1) Engage 🐌 {locator}
 
 activate broker
-
-broker --> broker: 2) ⏪ Assess {locator}
-broker --> vault: 3) Hello 🐌 {locator}
+    broker --> wallet: 2) ⏪ Assess {locator}
+    activate wallet
+    broker --> vault: 3) Hello 🐌 {locator}
 deactivate broker
 
 activate vault
-    vault --> wallet: 4) ⏪ Prompt {what?} 
+    vault --> wallet: 4) ⏪ Prompt ⓘ {context} 
+    vault --> wallet: 5) ⏪ Prompt 🤔 {what?} 
 deactivate vault
 
-activate wallet
     user --> wallet: reply
 deactivate wallet
 
