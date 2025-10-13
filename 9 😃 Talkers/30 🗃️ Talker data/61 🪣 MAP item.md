@@ -18,14 +18,17 @@
 
 1. **How to define a Resource Pool?**
 
-    Resource Pools are defined in three ways in the [text](<../91 🧑‍💻 Hosteds/17 🪣file Pools folder.md>) [Hoster ☁️ domains](<../90 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>).
+    Resource Pools are defined in four ways in the [🪣 Pools file](<../91 🧑‍💻 Hosteds/17 🪣📄 Pools file.md>) of [Hoster ☁️ domains](<../90 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>).
 
     |Format| Details
     |-|-
     | `Markdown` | This is an upload `.md` file.
     | `YAML` | This is also an uploaded `.yaml` file.
     | `HTTP`| This is an endpoint defined in the settings.
+    | `Folder` | This is a folder with `.pdf` and `.png` files
     |
+
+    <br/>
 
     Example of a Markdown resource pool called `Items.md`
 
@@ -35,7 +38,9 @@
     |------|---------------|--------|----
     | 123  | water bottle  |  1.50  |
     | ABC  | beer          |  4.50  | Yes
-    ````
+    ```
+
+    <br/>
 
     Example of a YAML resource pool called `Items.yaml`
 
@@ -51,6 +56,8 @@
         Price: 4.50
         21+: Yes
     ```
+
+    <br/>
 
     Example of an HTTP endpoint.
 
