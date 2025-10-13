@@ -18,7 +18,7 @@
 
 1. **How to define a Resource Pool?**
 
-    Resource Pools are defined in three ways in [Hoster ☁️ domains](<../90 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>).
+    Resource Pools are defined in three ways in the [text](<../91 🧑‍💻 Hosteds/17 🪣file Pools folder.md>) [Hoster ☁️ domains](<../90 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>).
 
     |Format| Details
     |-|-
@@ -76,11 +76,11 @@
     - MAP|<pool>|<key> >> $item
     ```
 
-    | Argument| Purpose
-    |-|-
-    | `<pool>` | Name of resource pool.
-    | `<key>`  | Key to look up in the pool.
-    | `$item` | Item to retrieve.
+    | Argument| Purpose | Example
+    |-|-|-
+    | `<pool>` | Name of resource pool | `MyPool`
+    | `<key>`  | Key to look up in the pool | `MyKey` `$key`
+    | `$item` | Item to retrieve
 
     ---
     <br/>
@@ -123,7 +123,7 @@
     ```yaml
     # 😃 Talker
     - DIGITS|What's the item number? >> $n
-    - MAP|Items|{$n} >> $item
+    - MAP|Items|$n >> $item
     - CONFIRM|A {$item.Name}?     
     ```
     
