@@ -20,7 +20,7 @@ The following steps describe a subscription workflow:
 
 ## Chat
 
-| [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+| [Domain](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) | [Prompt](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
 | - | - | - 
 | 🛠️ [Helper](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | 😃 Hi! What do you need? <br/>- [ Register ]  | > Register
 | 🤵 [Broker](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 [Ready to register](<../20 💼⏩ Consumers/02 💼⏩🧑‍🦰 Inform 📝.md>)? [Yes, No]<br>- Your broker binds with us 🔗 <br/>- You choose a billing plan 🤝 <br/>- Your payer adds a method 💳 <br/>- Your identity signs the terms 🆔 | > Yes
@@ -41,7 +41,7 @@ The corresponding [Talker 😃](<../../9 😃 Talkers/10 📘 Talker specs/10 �
 
 ```yaml
 💬 Register:                # Entry menu
-- INFORM|Register             # Provide instructions
+- INFORM|Register           # Provide instructions
 - BIND|.HOST/PROFILE        # Bind to Wallet
 
 - INVITE >> $billed:        
@@ -52,7 +52,7 @@ The corresponding [Talker 😃](<../../9 😃 Talkers/10 📘 Talker specs/10 �
     Billed: $billed         # Add billing info
     Chat: $.Chat            # Add context
 
-- EVAL|{Save($inputs)}      # Save the register
+- EVAL|Save($inputs)        # Save the register
 
 - SUCCESS|Done!             # Inform success
 - GOODBYE                   # Show advertisement

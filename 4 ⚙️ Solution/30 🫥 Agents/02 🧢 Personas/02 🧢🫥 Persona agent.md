@@ -7,6 +7,7 @@
     A [Persona 🧢 domain](<02 🧢🫥 Persona agent.md>) is an [Agent 🫥 vault](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) specialized in user preferences.
 
     ---
+    <br/>
 
 1. **What other domains do Personas need?**
 
@@ -15,6 +16,7 @@
     | [📦 Storage](<../01 📦 Storage/01 📦🫥 Storage agent.md>) | To comply with data residency.
 
     ---
+    <br/>
 
 1. **What domain roles do Personas implement?**
 
@@ -26,6 +28,7 @@
     | [🌬️ Streamer](<../../40 👥 Domains/41 📨 Comms/02 🌬️🎭 Streamer role.md>) | For streaming events to [Subscriber 🔔 domains](<../../40 👥 Domains/41 📨 Comms/04 🔔🎭 Subscriber role.md>).
 
     ---
+    <br/>
 
 1. **What domains subscribe to Persona events?**
 
@@ -36,12 +39,14 @@
     | [📇 Mingler](<../08 📇 Minglers/01 📇🫥 Mingler agent.md>) | Subscribes to contact preferences.
 
     ---
+    <br/>
 
 1. **How do Persona agents work?**
 
     ![](<00 📎 Assets/🧢 Persona.png>)
 
     ---
+    <br/>
 
 1. **How do Persona vaults differ from Identity vaults?**
 
@@ -51,12 +56,14 @@
 
 
     ---
+    <br/>
 
 1. **Can users leverage their social network instead?**
 
     Yes. A [Persona 🧢](<02 🧢🫥 Persona agent.md>) is an NLWeb role that can be implemented by any social network. Thus, once the user's social network onboards to NLWeb as a Persona, users can use it.
 
     ---
+    <br/>
 
 1. **How are Personas kept from selling user data?**
 
@@ -65,18 +72,21 @@
     - [Brokers 🤵](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) may revoke their [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) in misbehaved Personas who don't comply with this principle.
 
     ---
+    <br/>
 
 1. **How do Personas comply with data residency policies?**
 
     By leveraging [Storage 📦](<../01 📦 Storage/01 📦🫥 Storage agent.md>) vaults.
 
     ---
+    <br/>
     
 1. **What is the role of Personas in advertising?**
 
     See [Advertiser 👀](<../10 🔎 Finders/03 👀👥 Advertiser helper.md>) domains.
 
     ---
+    <br/>
     
 1. **Should Personas hold medical information?**
 
@@ -85,6 +95,7 @@
     - Personas 🧢 should leave that responsibility to [Vitalogist 💖](<../09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) vaults.
 
     ---
+    <br/>
 
 1. **Should Personas hold credit card information?**
 
@@ -93,3 +104,4 @@
     - Personas 🧢 should leave that responsibility to [Payer 💳](<../04 💳 Payers/03 💳🎭 Payer role.md>) vaults.
 
     ---
+    <br/>
