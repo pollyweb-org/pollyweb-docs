@@ -1,8 +1,11 @@
 # 🤗🐌🤵 Freeze @ Broker
 
-> The [Host 🤗 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) inform the [user's Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) of the [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) ending.
+* The [Host 🤗 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) 
+    * freezes changes to any pre.
 
-> Used in [🤗⏩🧑‍🦰 Goodbye](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/07 🤗⏩🧑‍🦰 Goodbye 👋.md>).
+* Used in:
+    * [❄️ Talker `FREEZE` command](<../../../9 😃 Talkers/60 ⏩ Msg flows/42 ❄️ FREEZE msg.md>)
+    * [❄️ Host Freeze ⏩ flow](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/06 🤗⏩🧑‍🦰 Freeze ❄️.md>)
 
 <br/> 
 
@@ -12,7 +15,7 @@
 Header:
     From: any-host.com
     To: any-broker.com
-    Subject: Goodbye@Broker
+    Subject: Freeze@Broker
     
 Body:
     ChatID: <chat-uuid>
@@ -22,6 +25,6 @@ Body:
 |-|-|-|-
 |Header|`From`     | string  | [Host 🤗 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>)
 ||`To`       | string  | [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
-||`Subject` | string | `Goodbye@Broker`
+||`Subject` | string | `Freeze@Broker`
 |Body|`ChatID`   | uuid    | ID of the [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) 
 |

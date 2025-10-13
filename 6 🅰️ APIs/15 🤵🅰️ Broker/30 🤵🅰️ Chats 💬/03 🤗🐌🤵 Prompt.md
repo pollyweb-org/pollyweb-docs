@@ -2,9 +2,11 @@
 
 # 🤗🐌🤵 Prompt @ Broker
 
-> The [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) forwards the [Prompt 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) to the [Notifier 📣 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/02 📣 Notifier domain.md>).
-
 > Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) flow.
+
+* The [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) 
+  * forwards the [Prompt 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) 
+  * to the [Notifier 📣 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/02 📣 Notifier domain.md>).
 
 <br/>
 
@@ -15,6 +17,7 @@ Header:
   From: any-host.com
   To: any-broker.com
   Subject: Prompt@Broker
+  
 Body:
   ChatID: <chat-uuid>
   PromptID: <prompt-uuid>

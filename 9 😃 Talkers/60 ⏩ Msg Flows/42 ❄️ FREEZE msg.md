@@ -11,7 +11,7 @@
     A `FREEZE` ❄️
     * is a flow [Command ⌘](<../40 🌊 Talker flows/10 ⌘ Command.md>) 
     * that freezes all previous [non-blocking Prompts 🤔](<../20 🤔 Prompts/1 📘 Prompt specs/08 ⚠️ as Status.md>)
-    * as described in the [Freeze ⏩](<../../5 ⏩ Flows/50 🤗⏩ Hosts/06 🤗⏩🧑‍🦰 Freeze ❄️.md>) flow.
+    * as described in the [Freeze ⏩ flow](<../../5 ⏩ Flows/50 🤗⏩ Hosts/06 🤗⏩🧑‍🦰 Freeze ❄️.md>).
 
     ---
     <br/>
@@ -24,12 +24,17 @@
     <br/>
 
 1. **What's the syntax of a FREEZE?**
-   
+
     ```yaml
+    # Simplest
+    - FREEZE
+    ```
+
+    ```yaml
+    # Comprehensive
     - FREEZE >> $inputs: 
         {inputs}
     ```
-
 
     | Argument| Purpose
     |-|-
@@ -59,7 +64,7 @@
         Contacts: {$contacts}
 
     # Save the booking
-    - EVAL|{SaveBooking($inputs)}
+    - EVAL|SaveBooking($inputs)
     - SUCCESS|Done.
     - GOODBYE
     ```
