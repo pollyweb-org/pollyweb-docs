@@ -8,7 +8,7 @@
 
 > Used by
 > <br/>- [🗄️⏩🧑‍🦰 Bind @ Vault](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind.md>) flow
-> <br/>- [🤵⏩🗄️ Bind vault @ Broker](<../../5 ⏩ Flows/10 🤵⏩ Brokers/08 🤵⏩🗄️ Bind vault.md>) flow
+> <br/>- [🤵⏩🗄️ Bind vault @ Broker](<../../5 ⏩ Flows/10 🤵⏩ Brokers/05 🤵⏩🗄️ Bind vault.md>) flow
 
 <br/>
 

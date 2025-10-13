@@ -122,7 +122,7 @@ TODO: Workflows
 
 | Workflow | Notes 
 |-|-
-| [ 🤵⏩🗄️ Bind Vault @ Broker ](<../../../5 ⏩ Flows/10 🤵⏩ Brokers/08 🤵⏩🗄️ Bind vault.md>) ||
+| [ 🤵⏩🗄️ Bind Vault @ Broker ](<../../../5 ⏩ Flows/10 🤵⏩ Brokers/05 🤵⏩🗄️ Bind vault.md>) ||
 ||
 
 -->

@@ -5,7 +5,7 @@
 
 > Return the content of [`.MANIFEST/IDENTITY 🧩`](<../../7 🧩 Codes/MANIFEST/🧩 ManifestIdentity.md>)
 
-> Used by [🤵⏩🧑‍🦰 Assessed @ Broker](<../../5 ⏩ Flows/10 🤵⏩ Brokers/02 🤵⏩🧑‍🦰 Assessed 🔆.md>) 
+> Used by [🤵⏩🧑‍🦰 Assessed @ Broker](<../../5 ⏩ Flows/10 🤵⏩ Brokers/02 🤵⏩🧑‍🦰 Assessed 💬.md>) 
 
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 
