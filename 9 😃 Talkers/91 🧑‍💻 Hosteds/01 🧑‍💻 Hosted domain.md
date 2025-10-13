@@ -40,11 +40,11 @@
     | [🔑 PublicKey](<10 🔑📄 PublicKey file.md>) | TXT | Public key for encryption
     | [📥 Inbound](<11 📥📄 Inbound file.md>) | YAML | Message inbound configuration
     | [📤 Outbound](<12 📤📄 Outbound file.md>) | YAML | Message outbound configuration
-    | [🛠️ Helpers](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>)  | YAML | Required [Helper 🛠️ domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>)
-    | [📜 Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) | YAML | Public information about the [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>)
-    | 🔆 [Locators](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) | YAML | Mapping of [Locators 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) to [Talkers 😃](<../10 📘 Talker specs/10 😃 Talker.md>)
-    | 😃 [Talkers](<../10 📘 Talker specs/10 😃 Talker.md>) | Folder | Tree of [💬 Chat](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) scripts by [Locator 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>)
-
+    | [🛠️ Helpers](<13 🛠️📄 Helpers file.md>)  | YAML | Required [Helper 🛠️ domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>)
+    | 🔆 [Locators](<14 🔆📄 Locators file.md>) | YAML | Map of [Locators 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) to [Talkers 😃](<../10 📘 Talker specs/10 😃 Talker.md>)
+    | 😃 [Talkers](<15 😃📄 Talkers folder.md>) | Folder | List of [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>) scripts 
+    | [📜 Manifest](<16 📜📄 Manifest folder.md>) | Folder | Public [domain Manifest 📜](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) parts
+    
 
     ---
     <br/>
