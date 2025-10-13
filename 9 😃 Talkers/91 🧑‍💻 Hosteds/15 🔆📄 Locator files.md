@@ -1,3 +1,9 @@
+# 🔆 Hosted `Locators` file
+
+> Part of [Hosted 🧑‍💻 domain](<01 🧑‍💻 Hosted domain.md>)
+
+<br/>
+
 
 1. **What does the Locators file looks like?**
 

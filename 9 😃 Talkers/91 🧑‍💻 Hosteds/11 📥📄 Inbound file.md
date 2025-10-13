@@ -1,3 +1,8 @@
+# 📥 Hosted `Inbound` file
+
+> Part of [Hosted 🧑‍💻 domain](<01 🧑‍💻 Hosted domain.md>)
+
+<br/>
 
 1. **What does the Inbound file look like?**
 

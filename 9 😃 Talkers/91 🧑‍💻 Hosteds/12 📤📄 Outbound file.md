@@ -1,3 +1,9 @@
+# 📤 Hosted `Outbound` file
+
+> Part of [Hosted 🧑‍💻 domain](<01 🧑‍💻 Hosted domain.md>)
+
+<br/>
+
 
 1. **What does the Outbound file look like?**
 
