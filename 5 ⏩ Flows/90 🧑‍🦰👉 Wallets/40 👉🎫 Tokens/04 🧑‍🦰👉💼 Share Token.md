@@ -33,6 +33,7 @@ Consider the following excerpt from the [Flight check in 🤝 use case](<../../.
 |6| [🤵🐌💼 `Receive@Consumer`](<../../../6 🅰️ APIs/30 💼🅰️ Consumer/03 🧑‍🦰🐌💼 Receive.md>) | Send the shared offline [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
 |7| [👥🚀🕸 `Trusts@Graph`](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/03 👥🚀🕸 Trusts.md>) | Verify if the [Issuers 🎴](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) are [Trustworthy 👍](<../../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>)
 |8| [👥🚀🕸 `PublicKey@Graph`](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/07 👥🚀🕸 Public Key.md>) | Get the DKIM public key of each [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
+|9| [💼⏩🤵 Token status 🎫](<../../20 💼⏩ Consumers/05 💼⏩🤵 Token status.md>) | Ask the Token's [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) if it is still active
 |
 
 <br/>

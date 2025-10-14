@@ -7,7 +7,7 @@
 
 > Used by:
 > <br/>• [🎴⏩🧑‍🦰 Revise Token @ Issuer](<../../../5 ⏩ Flows/60 🎴⏩ Issuers/02 🎴⏩🧑‍🦰 Revise token.md>) flow
-> <br/>• [💼⏩🧑‍🦰 Token Status @ Consumer](<../../../5 ⏩ Flows/20 💼⏩ Consumers/05 💼⏩🧑‍🦰 Token status.md>) flow
+> <br/>• [💼⏩🧑‍🦰 Token Status @ Consumer](<../../../5 ⏩ Flows/20 💼⏩ Consumers/05 💼⏩🤵 Token status.md>) flow
 
 <br/>
 
