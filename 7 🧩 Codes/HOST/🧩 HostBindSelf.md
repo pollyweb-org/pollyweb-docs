@@ -3,6 +3,6 @@
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 
-Path: /HOST/PROFILE
+Path: /HOST/BIND/SELF
 Name: Profile
 Description: Binding code for personalization
