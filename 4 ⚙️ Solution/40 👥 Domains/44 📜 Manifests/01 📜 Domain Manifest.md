@@ -42,11 +42,11 @@
 
     |Section|Purpose | Schemas
     |-|-|-
-    | 🤗 [Host Identity](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | Domain identification (mandatory). | • [/MANIFEST 🧩](<🧩 Manifest.md>) <br/>• [/MANIFEST/IDENTITY 🧩](<🧩 ManifestIdentity.md>) <br/>• [/MANIFEST/TRANSLATION 🧩](<🧩 ManifestTranslation.md>)
-    | 👍 [Domain Trusts](<../43 👍 Trusts/01 👍 Domain Trust.md>) | Trusted domains, Codes, and roles. | • [/MANIFEST/TRUST 🧩](<🧩 ManifestTrust.md>)
-    |  🧩 [Schema Codes](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) | Defined by the domain. | • [/MANIFEST/CODE 🧩](<🧩 ManifestCode.md>) <br/>• [/MANIFEST/CODE/SCHEMA 🧩](<🧩 ManifestCodeSchema.md>) | Schema validation of a Code
-    |  🧩 [Delegated Codes](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) | Codes delegated to other domains. | • [/MANIFEST/DELEGATE 🧩](<🧩 ManifestDelegate.md>)
-    | 🪢 [Integrations](<../../20 🧑‍🦰 UI/12 💬 Chats/06 🪢🎭 Integrator role.md>) |Synchronous datasets, <br/>asynchronous supplies, <br/>and streaming endpoints. | • [/MANIFEST/OFFER 🧩](<🧩 ManifestOffer.md>)
+    | 🤗 [Host Identity](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | Domain identification (mandatory). | [`.MANIFEST` 🧩](<10 🧩 Manifest.md>) <br/>[`./IDENTITY` 🧩](<14 🧩 Identity.md>) <br/>[`./TRANSLATION` 🧩](<16 🧩 Translation.md>)
+    | 👍 [Domain Trusts](<../43 👍 Trusts/01 👍 Domain Trust.md>) | Trusted domains, Codes, and roles. | [`./TRUST` 🧩](<17 🧩 Trust.md>)
+    |  🧩 [Schema Codes](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) | Defined by the domain. | [`./CODE` 🧩](<11 🧩 Code.md>) <br/>[`./CODE/SCHEMA` 🧩](<12 🧩 CodeSchema.md>) | Schema validation of a Code
+    |  🧩 [Delegated Codes](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) | Codes delegated to other domains. | [`./DELEGATE` 🧩](<13 🧩 Delegate.md>)
+    | 🪢 [Integrations](<../../20 🧑‍🦰 UI/12 💬 Chats/06 🪢🎭 Integrator role.md>) |Synchronous datasets, <br/>asynchronous supplies, <br/>and streaming endpoints. | [`./OFFER` 🧩](<15 🧩 Offer.md>)
     | [Chat 💬 Flows](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) | To explain what user data is request.
 
     ---
