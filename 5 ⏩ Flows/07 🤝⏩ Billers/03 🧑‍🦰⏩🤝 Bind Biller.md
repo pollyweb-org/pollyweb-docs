@@ -8,8 +8,9 @@
 
 | # | Call | Notes
 |-|-|-|
-| [🤗⏩🧑‍🦰 Prompt 🤔](<../50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) |[Hosts 🤗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) ask for an action, users say `Bind`
-| [🧑‍🦰👉🗄️ Bind 🔗](<../90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind 🔗.md>) | 
-| [🧑‍🦰👉💼 Share Bind 🔗](<../90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind.md>)
-| [🧑‍🦰👉💼 Share Token 🎫](<../40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token.md>)
+|1| [🤗⏩🧑‍🦰 Prompt 🤔](<../50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) |[Billers 🤝](<06 🤝🛠️ Biller helper.md>) ask for an action, users say `Bind`
+|2| [🧑‍🦰👉🗄️ Bind 🔗](<../90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind 🔗.md>) | Users [Bind 🔗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/01 🔗 Bind.md>) with [`.HOST/PROFILE` 🧩](<../../7 🧩 Codes/HOST/🧩 HostProfile.md>)
+|3| [🧑‍🦰👉💼 Share Bind 🔗](<../90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind.md>) | Users share [`.PAY/COLLECTOR` 🧩](<../../7 🧩 Codes/PAY/🧩 PayCollector.md>)
+|4| [🧑‍🦰👉💼 Share Bind 🔗](<../90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind.md>) | Users share [`.PAY/COLLECTOR` 🧩](<../../7 🧩 Codes/PAY/🧩 PayCollector.md>)
+|5| [🧑‍🦰👉💼 Share Token 🎫](<../40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token.md>)
 |
