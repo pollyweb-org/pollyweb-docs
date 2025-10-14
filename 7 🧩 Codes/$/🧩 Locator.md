@@ -2,9 +2,9 @@
 # 🧩 [Schema Code](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): Locator
 
 > Inherited by:
-> <br/>• [`.TOKEN 🧩`](<🧩 TOKEN.md>)
+> <br/>• [`.TOKEN 🧩`](<🧩 Token.md>)
 > <br/>• [`.HOST 🧩`](<../HOST/🧩 Host.md>)
-> <br/>• [`.ALIAS 🧩`](<🧩 ALIAS.md>)
+> <br/>• [`.ALIAS 🧩`](<🧩 Alias.md>)
 
 <br/>
 
