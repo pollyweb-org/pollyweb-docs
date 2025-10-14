@@ -4,7 +4,7 @@
 
 > Implements a [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/40 👥 Domains/42 🌬️ Streams/03 ⏳🛠️ Buffer helper.md>)
 
-> Mentioned in [domain Message 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>)
+> Mentioned in [domain Message 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Msgs/01 📨 Domain Message.md>)
 
 
 <br/> 
@@ -26,11 +26,11 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From` | uuid | [Domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/00 👥 Domain.md>) name of the [Message 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) receiver 
+|Header|`From` | uuid | [Domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Msgs/00 👥 Domain.md>) name of the [Message 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Msgs/01 📨 Domain Message.md>) receiver 
 ||`To`| string | Sender's [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/40 👥 Domains/42 🌬️ Streams/03 ⏳🛠️ Buffer helper.md>) name
 ||`Subject`| string | `Feedback@Buffer`
-|Body| `Sender`| string | [Domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/00 👥 Domain.md>) name of the [Message 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) sender
-||`Correlation`| uuid | Correlation ID of the affected [Message 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>)
+|Body| `Sender`| string | [Domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Msgs/00 👥 Domain.md>) name of the [Message 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Msgs/01 📨 Domain Message.md>) sender
+||`Correlation`| uuid | Correlation ID of the affected [Message 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Msgs/01 📨 Domain Message.md>)
 ||`Status`| string | `Discarded`
 ||`Reason`| string | Reason for the status code
 |

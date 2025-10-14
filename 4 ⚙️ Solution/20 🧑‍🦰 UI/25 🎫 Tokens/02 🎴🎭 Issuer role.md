@@ -3,7 +3,7 @@
 
 1. **What is an Issuer domain role in NLWeb?**
 
-    A [domain 👥](<../../40 👥 Domains/41 📨 Comms/00 👥 Domain.md>) with a [Issuer 🎴 role](<02 🎴🎭 Issuer role.md>) is any [domain 👥](<../../40 👥 Domains/41 📨 Comms/00 👥 Domain.md>) that 
+    A [domain 👥](<../../40 👥 Domains/41 📨 Msgs/00 👥 Domain.md>) with a [Issuer 🎴 role](<02 🎴🎭 Issuer role.md>) is any [domain 👥](<../../40 👥 Domains/41 📨 Msgs/00 👥 Domain.md>) that 
     * issues [Tokens 🎫](<01 🎫 Token.md>)
     * for users to store on their [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
     
@@ -28,7 +28,7 @@
     Consider the following [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) excerpt from the [Buy Theater Tickets 🤝 use case](<../../../3 🤝 Use Cases/10 🍿 Entertainment/Go to Theaters 🎭/10 Guest @ Anywhere/12 Buy tickets.md>).
     
     
-    | [Domain](<../../40 👥 Domains/41 📨 Comms/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/41 📨 Msgs/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     |...
     | 🎭 Venue   | 😃 Want a ticket? [Yes, No] | > Yes
@@ -88,7 +88,7 @@
         
     On privacy:
     
-    * Given the ability of a recipient [domain 👥](<../../40 👥 Domains/41 📨 Comms/00 👥 Domain.md>) to know who sent a given [Message 📨](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) (e.g., a status request from a [Consumer 💼 domain](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>)), an [Issuer 🎴 domain](<02 🎴🎭 Issuer role.md>) would be able to track when and where a given [Token 🎫](<01 🎫 Token.md>) was used by the user to whom it was issued to.
+    * Given the ability of a recipient [domain 👥](<../../40 👥 Domains/41 📨 Msgs/00 👥 Domain.md>) to know who sent a given [Message 📨](<../../40 👥 Domains/41 📨 Msgs/01 📨 Domain Message.md>) (e.g., a status request from a [Consumer 💼 domain](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>)), an [Issuer 🎴 domain](<02 🎴🎭 Issuer role.md>) would be able to track when and where a given [Token 🎫](<01 🎫 Token.md>) was used by the user to whom it was issued to.
     
     * For example, a private company could track the shopping behavior of their named customers without their consent, and a nation's government could track the movement of targeted political opponents.
     

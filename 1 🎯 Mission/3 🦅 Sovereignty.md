@@ -31,7 +31,7 @@
 💼 <a id='Businesses'>Businesses</a> (i.e., private sector)
 --
 
-1. use domain certificates for [authentication](<../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>), not API keys;
+1. use domain certificates for [authentication](<../4 ⚙️ Solution/40 👥 Domains/41 📨 Msgs/01 📨 Domain Message.md>), not API keys;
 1. access [third-party](<../4 ⚙️ Solution/30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>) services on-demand, without onboarding;
 1. publicly [manifest](<../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) their products and services to the world;
 1. manage all only debits and credits from a central user experience;
