@@ -293,9 +293,9 @@
 
     When discarding an invalid message, receiver domains send feedback to the sender with the original correlation ID. 
     
-    * Sender domains define their [Buffer ⏳ helper domain](<../42 Events/03 ⏳🛠️ Buffer helper.md>) in the `Identity` section of their [domain Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>).
+    * Sender domains define their [Buffer ⏳ helper domain](<../42 🌬️ Streams/03 ⏳🛠️ Buffer helper.md>) in the `Identity` section of their [domain Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>).
        * If the `Feedback` property is not defined, then no feedback is given.
-       * Domains get of the [Buffer ⏳ helper domain](<../42 Events/03 ⏳🛠️ Buffer helper.md>) by calling the [Identity@Broker 🚀 request](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/04 👥🚀🕸 Identity.md>).
+       * Domains get of the [Buffer ⏳ helper domain](<../42 🌬️ Streams/03 ⏳🛠️ Buffer helper.md>) by calling the [Identity@Broker 🚀 request](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/04 👥🚀🕸 Identity.md>).
   
         ```yaml
         🤝: nlweb.org/MANIFEST/IDENTITY
@@ -304,7 +304,7 @@
           Feedback: any-buffer.com
         ```
 
-    * The feedback is sent via a [Buffer ⏳ helper domain](<../42 Events/03 ⏳🛠️ Buffer helper.md>) defined by the sender's domain, using the [Feedback@Buffer 🐌 API message](<../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/01 👥🐌⏳ Feedback.md>). 
+    * The feedback is sent via a [Buffer ⏳ helper domain](<../42 🌬️ Streams/03 ⏳🛠️ Buffer helper.md>) defined by the sender's domain, using the [Feedback@Buffer 🐌 API message](<../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/01 👥🐌⏳ Feedback.md>). 
         ```yaml
         🤝: nlweb.org/MSG:1.0
         Header:
