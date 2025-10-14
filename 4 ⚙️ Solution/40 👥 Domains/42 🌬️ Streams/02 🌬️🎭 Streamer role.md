@@ -3,7 +3,7 @@
 
 1. **What is a Streamer domain role in NLWeb?**
 
-    A Streamer 🌬️ is any [domain 👥](<../44 📜 Manifests/00 👥 Domain.md>) that 
+    A Streamer 🌬️ is any [domain 👥](<../41 📨 Comms/00 👥 Domain.md>) that 
     * pushes and replays events to [Subscriber 🔔 domains](<04 🔔🎭 Subscriber role.md>) 
     * via the Subscribers' [Buffer ⏳ helper domains](<03 ⏳🛠️ Buffer helper.md>).
 

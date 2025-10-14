@@ -34,7 +34,7 @@
 1. **How does the Outbound proxy work?**
 
     The [Hoster ☁️ domain](<../90 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>) proxy 
-    * receives unsigned [Messages 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) from the [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>), 
+    * receives unsigned [Messages 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) from the [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/00 👥 Domain.md>), 
     * signs them with the [DKIM 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) private key, 
     * and forwards them downstream without ever disclosing the private key.
 
