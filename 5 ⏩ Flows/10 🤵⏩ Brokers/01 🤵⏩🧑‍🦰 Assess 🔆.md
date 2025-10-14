@@ -34,7 +34,7 @@
 
 | # | Call | Notes
 |-|-|-|
-|1|[🤵🚀🖨️ `Resolve@Printer`](<../../6 🅰️ APIs/75 🖨️🅰️ Printer/03 👥🚀🖨️ Resolve.md>) | Ask [Printers 🖨️](<../../4 ⚙️ Solution/70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>) to resolve [`.ALIAS` 🧩](<../../7 🧩 Codes/$/🧩 Alias.md>)
+|1|[🤵🚀🖨️ `Resolve@Printer`](<../../6 🅰️ APIs/75 🖨️🅰️ Printer/03 👥🚀🖨️ Resolve.md>) | Ask [Printers 🖨️](<../../4 ⚙️ Solution/70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>) to resolve [`.ALIAS` 🧩](<../../7 🧩 Codes/$/🧩 ALIAS.md>)
 | 2 | [🤵⏩🧑‍🦰 Converse 🔆](<03 🤵⏩🧑‍🦰 Converse 💬.md>) | Ask [Wallets 🧑‍🦰](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)  to open a chat window
 | 3 | [🔎⏩🧑‍🦰 Introduce 🤗](<../40 🔎⏩ Finders/01 🔎⏩🧑‍🦰 Introduce 🤗.md>) | Ask [Finders 🔎](<../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) to introduce [Hosts 🤗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>)
 | 4 | [🔎⏩🧑‍🦰 Prompt ⓘ](<../50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Finders 🔎](<../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) introduce [Hosts 🤗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>)
