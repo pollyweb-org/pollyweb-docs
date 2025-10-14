@@ -2,12 +2,13 @@
 
 
 actor User as user
+participant "Graph 🕸\ndomain" as graph
 'participant "Wallet 👱\napp" as wallet
 'participant "Notifier 📣\nbff" as notifier
 participant "Broker 🤵\ndomain" as broker
 participant "Issuer 🎴\ndomain" as issuer
 participant "Consumer 💼\ndomain" as consumer
-participant "Graph 🕸\ndomain" as graph
+
 
 
 ' --------------------
