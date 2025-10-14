@@ -5,7 +5,7 @@
 
 1. **What is an Antenna?**
 
-    Antenna 📡 routers are devices that allow offline [Pluggable 🔌 devices](<01 🔌 Pluggable device.md>) to be controlled by a [domain 👥](<../../40 👥 Domains/41 📨 Comms/00 👥 Domain.md>) from the internet.
+    Antenna 📡 routers are devices that allow offline [Pluggable 🔌 devices](<01 🔌 Pluggable device.md>) to be controlled by a [domain 👥](<../../40 👥 Domains/41 📨 Msgs/00 👥 Domain.md>) from the internet.
 
     ----
 
@@ -23,7 +23,7 @@
 
     The following scenarios can be accomplished with under-100-milliseconds latency with a single antenna for every 100-meters radio:
 
-    | [Domain 👥](<../../40 👥 Domains/41 📨 Comms/00 👥 Domain.md>) | Use case |
+    | [Domain 👥](<../../40 👥 Domains/41 📨 Msgs/00 👥 Domain.md>) | Use case |
     |-|-
     | `Airports` | Connecting dozens of kiosks and gates.
     | `Banks` | Connecting all parts of a cash machine - e.g., [Ephemeral 🦋 device](<../62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>) for rotating QR/NFC, [Relayer 🎬 device](<../65 🎬 Relayers/04 🎬🔌 Relay device.md>) for cash drawer.

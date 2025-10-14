@@ -5,11 +5,11 @@
 
     A [Firewall 🔥 domain](<03 🔥🛠️ Firewall helper.md>) is 
     * a [Helper 🛠️ domain](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) 
-    * focused on blacklisting other [Domains 👥](<../41 📨 Comms/00 👥 Domain.md>)
+    * focused on blacklisting other [Domains 👥](<../41 📨 Msgs/00 👥 Domain.md>)
     * to keep the ecosystem safe (e.g., national security entities). 
 
     Admins of [Firewall 🔥 helper domains](<03 🔥🛠️ Firewall helper.md>) are typically concerned about 
-    * monitoring and blocking potential bad behaviors from [domains 👥](<../41 📨 Comms/00 👥 Domain.md>).
+    * monitoring and blocking potential bad behaviors from [domains 👥](<../41 📨 Msgs/00 👥 Domain.md>).
 
     ---
     <br/>
@@ -27,8 +27,8 @@
 
 1. **How can domains leverage Firewalls?**
 
-    [Domains 👥](<../41 📨 Comms/00 👥 Domain.md>) can inherit a Firewall's blacklist on their [domain Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>);
-    * this overrides any direct or indirect [Trust 👍](<01 👍 Domain Trust.md>) relationship between [domains 👥](<../41 📨 Comms/00 👥 Domain.md>), working as an instantaneous mechanism to cut the communication with the blacklisted domain. 
+    [Domains 👥](<../41 📨 Msgs/00 👥 Domain.md>) can inherit a Firewall's blacklist on their [domain Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>);
+    * this overrides any direct or indirect [Trust 👍](<01 👍 Domain Trust.md>) relationship between [domains 👥](<../41 📨 Msgs/00 👥 Domain.md>), working as an instantaneous mechanism to cut the communication with the blacklisted domain. 
 
     ---
     <br/>
@@ -37,7 +37,7 @@
 
     Yes. 
     * [Firewall 🔥 helper domains](<03 🔥🛠️ Firewall helper.md>) subscribe to [Listener 👂 domain streams](<../44 📜 Manifests/02 👂🛠️ Listener helper.md>) and [Graph 🕸 domain streams](<../44 📜 Manifests/03 🕸🛠️ Graph helper.md>) to monitor their robustness, reliability, and conformity to the NLWeb protocol, revoking their [Trust 👍](<01 👍 Domain Trust.md>) when necessary;
-        * e.g., compare information about a random [domain 👥](<../41 📨 Comms/00 👥 Domain.md>) in three or more [Listener 👂 domains](<../44 📜 Manifests/02 👂🛠️ Listener helper.md>) or [Graph 🕸 domains](<../44 📜 Manifests/03 🕸🛠️ Graph helper.md>) to identify discrepancies.
+        * e.g., compare information about a random [domain 👥](<../41 📨 Msgs/00 👥 Domain.md>) in three or more [Listener 👂 domains](<../44 📜 Manifests/02 👂🛠️ Listener helper.md>) or [Graph 🕸 domains](<../44 📜 Manifests/03 🕸🛠️ Graph helper.md>) to identify discrepancies.
 
     ---
     <br/>
@@ -89,7 +89,7 @@
 
 1. **What should other domains add to their Manifests?**
 
-    Other [domains 👥](<../41 📨 Comms/00 👥 Domain.md>) should add the following [Trust 👍](<01 👍 Domain Trust.md>) to their [domain Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>).
+    Other [domains 👥](<../41 📨 Msgs/00 👥 Domain.md>) should add the following [Trust 👍](<01 👍 Domain Trust.md>) to their [domain Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>).
 
     ```yaml
     Trusts:

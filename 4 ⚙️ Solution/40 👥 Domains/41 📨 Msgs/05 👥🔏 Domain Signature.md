@@ -64,7 +64,7 @@
     | `Hash` | string |  The hash of the file
     | `Signed` | timestamp | When it was signed
     | `DKIM`| string | The [DKIM 📨](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/07 👥🚀🕸 Public Key.md>) key used to sign
-    | `Signature`| string | The [signature](<../../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) 📨 
+    | `Signature`| string | The [signature](<01 📨 Domain Message.md>) 📨 
 
     ---
     <br/>

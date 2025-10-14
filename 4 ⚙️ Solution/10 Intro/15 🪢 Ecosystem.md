@@ -5,7 +5,7 @@
 
 The NLWeb ecosystem aims to simplify everyday business transactions by streamlining interactions between users, organizations, and things, while ensuring security and performance at a global scale.
 
-* Users interact with [Domains 👥](<../40 👥 Domains/41 📨 Comms/00 👥 Domain.md>) using their [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+* Users interact with [Domains 👥](<../40 👥 Domains/41 📨 Msgs/00 👥 Domain.md>) using their [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
 
     * A [Wallet 🧑‍🦰](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) is an NLWeb-compatible mobile app from any vendor (e.g., `any-wallet.org`).
   
@@ -15,7 +15,7 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
 
 * Users store their data in [Vault 🗄️ domains](<../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>).
   
-    * These are [Domains 👥](<../40 👥 Domains/41 📨 Comms/00 👥 Domain.md>) that can share user data with [Consumer 💼 domains](<../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>).
+    * These are [Domains 👥](<../40 👥 Domains/41 📨 Msgs/00 👥 Domain.md>) that can share user data with [Consumer 💼 domains](<../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>).
     
     * [Vault 🗄️ domains](<../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) may allow users to edit their data through the user's [Folder 🗂️ editor](<../20 🧑‍🦰 UI/26 🗂️ Folders/01 🗂️ Folder editor.md>).
 
@@ -57,13 +57,13 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
 
 - Security is assured by:
     * a [Trust 👍](<../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) framework; 
-    * digital signatures for [Messages 📨](<../40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>) and [files](<../30 🫥 Agents/05 🆔 Identities/16 🆔🔏 Verify Signatures.md>);
+    * digital signatures for [Messages 📨](<../40 👥 Domains/41 📨 Msgs/01 📨 Domain Message.md>) and [files](<../30 🫥 Agents/05 🆔 Identities/16 🆔🔏 Verify Signatures.md>);
     * global [Firewall 🔥 helper domains](<../40 👥 Domains/43 👍 Trusts/03 🔥🛠️ Firewall helper.md>) that actively monitor the ecosystem;
-    * user [Identity 🆔 vault domains](<../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) that authenticate users on behalf of other [domains 👥](<../40 👥 Domains/41 📨 Comms/00 👥 Domain.md>) while maintaining privacy and legal compliance;
+    * user [Identity 🆔 vault domains](<../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) that authenticate users on behalf of other [domains 👥](<../40 👥 Domains/41 📨 Msgs/00 👥 Domain.md>) while maintaining privacy and legal compliance;
     * and [Ephemeral 🦋 devices](<../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>) that dynamically rotate QR and NFC [Locators 🔆](<../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) to prevent fraud.
 
 - Performance at a global scale is assured by:
   * a distributed cluster of [Listener 👂 helper domains](<../40 👥 Domains/44 📜 Manifests/02 👂🛠️ Listener helper.md>) that propagate [Schema Codes 🧩](<../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) and [Trusts 👍](<../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) from [domain Manifests 📜](<../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) in near-real time;
-  * and [Graph 🕸 helper domains](<../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>) that cache them to support high-performant queries from any [domain 👥](<../40 👥 Domains/41 📨 Comms/00 👥 Domain.md>).
+  * and [Graph 🕸 helper domains](<../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>) that cache them to support high-performant queries from any [domain 👥](<../40 👥 Domains/41 📨 Msgs/00 👥 Domain.md>).
 
   ---

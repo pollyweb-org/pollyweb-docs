@@ -11,7 +11,7 @@
 🤔 However, a few parts were missing from the puzzle until now, e.g.:
 - first-party knowledge about the requester - tackled by NLWeb's 🗄️ [Vaults](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>);
 - third-party tool discovery by requesters - tackled by NLWeb's 📜 [Manifests](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>);
-- and requester-initiated contracts - tackled by NLWeb's 📨 [Messages](<../../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/01 📨 Domain Message.md>).
+- and requester-initiated contracts - tackled by NLWeb's 📨 [Messages](<../../../4 ⚙️ Solution/40 👥 Domains/41 📨 Msgs/01 📨 Domain Message.md>).
 
 ---
 
