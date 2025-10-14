@@ -5,24 +5,24 @@
 
     A Subscriber 🔔 is any [domain 👥](<../44 📜 Manifests/00 👥 Domain.md>) that 
     * leverages a [Buffer ⏳ helper domain](<03 ⏳🛠️ Buffer helper.md>) 
-    * to subscribe to events from a [Streamer 🌬️ domain](<02 🌬️🎭 Streamer role.md>).
+    * to subscribe to events from a [Streamer 🌬️ domain](<../42 Events/02 🌬️🎭 Streamer role.md>).
 
     ---
     <br/>
 
 1. **How do Subscribers work?**
 
-    ![alt text](<.📎 Assets/📨🔔 Subscriber.png>)
+    ![alt text](<../41 📨 Comms/.📎 Assets/📨🔔 Subscriber.png>)
 
     |#| Step
     |-|-
     |1| A [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) binds one single time with a selected [Buffer ⏳ helper domain](<03 ⏳🛠️ Buffer helper.md>).
-    |2| The [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) then subscribes to a stream from a [Streamer 🌬️ domain](<02 🌬️🎭 Streamer role.md>), informing the [Buffer ⏳ helper domain](<03 ⏳🛠️ Buffer helper.md>).
-    |3| The [Streamer 🌬️ domain](<02 🌬️🎭 Streamer role.md>) pushes an encrypted event through the [Buffer ⏳ helper domain](<03 ⏳🛠️ Buffer helper.md>), who places it in a queue.
+    |2| The [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) then subscribes to a stream from a [Streamer 🌬️ domain](<../42 Events/02 🌬️🎭 Streamer role.md>), informing the [Buffer ⏳ helper domain](<03 ⏳🛠️ Buffer helper.md>).
+    |3| The [Streamer 🌬️ domain](<../42 Events/02 🌬️🎭 Streamer role.md>) pushes an encrypted event through the [Buffer ⏳ helper domain](<03 ⏳🛠️ Buffer helper.md>), who places it in a queue.
     |4| If the queue in the [Buffer ⏳ helper domain](<03 ⏳🛠️ Buffer helper.md>) is empty, then it wakes up the [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) to start polling.
     |5| The [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) polls event [3] from the [Buffer ⏳ helper domain](<03 ⏳🛠️ Buffer helper.md>), and decrypts it with its [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) private key.
-    |6| The [Streamer 🌬️ domain](<02 🌬️🎭 Streamer role.md>) pushes another encrypted event.
-    |7| The [Streamer 🌬️ domain](<02 🌬️🎭 Streamer role.md>) pushes yet another encrypted event.
+    |6| The [Streamer 🌬️ domain](<../42 Events/02 🌬️🎭 Streamer role.md>) pushes another encrypted event.
+    |7| The [Streamer 🌬️ domain](<../42 Events/02 🌬️🎭 Streamer role.md>) pushes yet another encrypted event.
     |8| The [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) polls again, consuming events [6] and [7].
     |9| The [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) polls again but the queue is empty, so it goes back to sleep.
     

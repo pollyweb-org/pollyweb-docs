@@ -51,7 +51,7 @@ Translations:
 |Object|Property|Type|Description
 |-|-|-|-
 |Top        |`Domain`       | string | URL name of the [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>)
-|           |`Feedback`     | string | [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>) name
+|           |`Feedback`     | string | [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/40 👥 Domains/42 Events/03 ⏳🛠️ Buffer helper.md>) name
 |           |`Name`         | string | Friendly name of the [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>)
 |           |`SmallIcon`    | string  | Small icon in Base64 PNG
 |           |`BigIcon`      | string  | Big icon in Base64 PNG
