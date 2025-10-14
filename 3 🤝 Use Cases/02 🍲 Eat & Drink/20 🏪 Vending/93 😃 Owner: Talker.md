@@ -32,7 +32,7 @@ TODO: Add the flow to the Manifest
 
 # Charge the item price.
 # * FREEZE is executed automatically.
-- CHARGE:
+- CHARGE >> $charge
     Items:
       - Price: $item.Price
         Name: $item.Name
@@ -52,10 +52,11 @@ TODO: Add the flow to the Manifest
 # Show error.
 fail:
 - FAILURE|It didn't work!   # Inform the user
-- REFUND|$item.Price        # Refund the value
+- REFUND|$charge            # Refund the value
 - LOG:
     Machine: $.Chat.Key
     Item: $item.Number
+    Charge: $charge
     Relay: $relayed
 
 # Show success.
