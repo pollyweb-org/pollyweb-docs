@@ -32,11 +32,11 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
     * business [Seller 💵](<../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>),
     * data [Consumer 💼](<../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>), 
     * user-bound [Vault 🗄️](<../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>), 
-    * event [Streamer 🌬️](<../40 👥 Domains/41 📨 Comms/02 🌬️🎭 Streamer role.md>), 
+    * event [Streamer 🌬️](<../40 👥 Domains/42 Events/02 🌬️🎭 Streamer role.md>), 
     * and asynchronous service [Supplier 🏭](<../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>). 
 
 - Domains are extended by helper domains, e.g.:
-    * [Buffer ⏳ helper domains](<../40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>) for global ingestion and throttling, 
+    * [Buffer ⏳ helper domains](<../40 👥 Domains/42 Events/03 ⏳🛠️ Buffer helper.md>) for global ingestion and throttling, 
     * [Collector 🏦 helper domains](<../30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) for payments, 
     * [Biller 🤝 helper domains](<../30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>) for financial contracts, 
     * [Advertiser 👀 helper domains](<../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) for ads.

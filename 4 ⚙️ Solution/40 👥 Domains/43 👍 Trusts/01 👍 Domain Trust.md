@@ -178,7 +178,7 @@
 1. **How can domains know when another domain lost trust in them?**
 
     [Domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) can rely on [Graph 🕸 domain helpers](<../44 📜 Manifests/03 🕸🛠️ Graph helper.md>):
-    - these can detect trust removals and notify affected [subscriber 🔔 domains](<../41 📨 Comms/04 🔔🎭 Subscriber role.md>);
+    - these can detect trust removals and notify affected [subscriber 🔔 domains](<../42 Events/04 🔔🎭 Subscriber role.md>);
     - e.g., `any-graph.com` may inform `any-domain.com` whenever `any-seller.com` explicitly adds or removes a trust to `any-domain.com`.
 
 

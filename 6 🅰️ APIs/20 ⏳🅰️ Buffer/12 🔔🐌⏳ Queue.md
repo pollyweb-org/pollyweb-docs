@@ -1,6 +1,6 @@
 # 🔔🐌⏳ Queue @ Buffer
 
-> Implements a [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>)
+> Implements a [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/40 👥 Domains/42 Events/03 ⏳🛠️ Buffer helper.md>)
 
 > Used in [Stream @ Streamer 🌬️⏩🔔](<../../5 ⏩ Flows/76  🌬️⏩ Streamers/01 🌬️⏩🔔 Stream.md>) flow
 > <br/>• Succeeded by [`Queued@Subscriber`](<../87 🔔🅰️ Subscriber/01 ⏳🐌🔔 Queued.md>)
@@ -29,8 +29,8 @@ Body:
 
 |Object|Property|Type|Description|Default
 |-|-|-|-|-
-|Header|`From` | string | [Subscriber 🔔 domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/04 🔔🎭 Subscriber role.md>) name
-||`To`| string | [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Comms/03 ⏳🛠️ Buffer helper.md>) name
+|Header|`From` | string | [Subscriber 🔔 domain](<../../4 ⚙️ Solution/40 👥 Domains/42 Events/04 🔔🎭 Subscriber role.md>) name
+||`To`| string | [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/40 👥 Domains/42 Events/03 ⏳🛠️ Buffer helper.md>) name
 ||`Subject`| string | `Queue@Buffer`
 |Body |`Queue` | uuid | Queue for [`Push@Buffer`](<21 🌬️🐌⏳ Push.md>)
 || `Fifo` | bool | First in, first out? | No
