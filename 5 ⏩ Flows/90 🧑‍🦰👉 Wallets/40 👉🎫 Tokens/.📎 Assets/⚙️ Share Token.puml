@@ -14,7 +14,6 @@ participant "Graph 🕸\ndomain" as graph
 ' QUERY
 ' --------------------
 
-'group Share token
 
     'activate consumer
     consumer --> broker: 1) Query 🐌
@@ -26,6 +25,8 @@ participant "Graph 🕸\ndomain" as graph
         broker --> wallet: 4) ⏪ Prompt 🤔 {tokens}
     deactivate broker
 
+
+    
     activate wallet
         user --> wallet: share
         wallet --> broker: {tokens}
@@ -43,9 +44,14 @@ participant "Graph 🕸\ndomain" as graph
         wallet --> consumer: 6) Receive 🐌 {tokens}
     deactivate wallet
 
+
     activate consumer
-        consumer -> graph: 7) Trusts 🚀 {issuers}
-        consumer -> graph: 8) PublicKey 🚀 {dkim}
+        
+            consumer -> graph: 7) Trusts 🚀 {issuers}
+            consumer -> graph: 8) PublicKey 🚀 {dkim}
+            consumer -> broker: 9) ⏪ Token status
+        
+        consumer --> consumer: process
     deactivate consumer
 
 'end group 

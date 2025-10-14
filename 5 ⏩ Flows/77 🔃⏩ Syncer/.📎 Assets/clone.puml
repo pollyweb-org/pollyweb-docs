@@ -7,45 +7,24 @@ participant "Resourcer 🗃️\nvault" as resourcer
 
 'group Register
 
-    user --> wallet: 1) chat
-    activate wallet
-        wallet --> resourcer: 
-    deactivate wallet
-    
     activate resourcer
-        resourcer --> wallet: ⏪ Prompt {what?} 
-    deactivate resourcer
+        resourcer --> wallet: 1) ⏪ Prompt 🤔 {what? ➜ clone} 
+        resourcer -> resourcer: stage
+        resourcer --> wallet: 2) ⏪ Prompt ⓘ { pin 🄰 }
+    deactivate resourcer    
 
-    activate wallet
-        user --> wallet: 2) add
-        wallet --> resourcer: 
-    deactivate wallet
-
-    activate resourcer
-        resourcer --> wallet: ⏪ Prompt { 🄰 }
-    deactivate resourcer        
-
-'end group
-
-'group Clone
-    user --> syncer: 3) link 🄰 
+        user --> syncer: 3) $ clone { pin 🄰 }
 
     activate syncer 
-        syncer -> syncer: show 🄱
-        syncer -> resourcer: Link 🐌 🄰🄱
+        syncer -> user: show pin 🄱
+        syncer -> resourcer: Clone 🚀 { 🄰🄱 }
     deactivate syncer
         
     activate resourcer
-        resourcer --> wallet: ⏪ Prompt { 🄱?} 
-    deactivate resourcer
-
-    activate wallet
-        user --> wallet: 4) yes
-        wallet --> resourcer: 
-    deactivate wallet
-    
-    activate resourcer
-        resourcer --> wallet: ⏪ Prompt { sync } 
+        resourcer -> syncer: { cloned }
+        resourcer --> wallet: ⏪ Prompt 🤔 { sent pin 🄱? ➜ yes }
+        resourcer -> resourcer: activate
+        resourcer --> wallet: ⏪ Prompt ✔ { OK, sync now } 
     deactivate resourcer
 
     user --> syncer: 5) Sync ⏩
