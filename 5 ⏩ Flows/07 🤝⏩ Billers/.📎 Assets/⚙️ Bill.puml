@@ -1,0 +1,52 @@
+@startuml Introduce
+
+participant "Identity 🆔\ndomain" as id
+participant "Syncer 🔃\ndomain" as syncer
+participant "Folder 🗂️\ndomain" as folder
+actor "User\nin chat" as user
+'participant "Broker 🤵\ndomain" as broker
+participant "Biller 🤝\ndomain" as biller
+
+group Bind Biller
+
+    activate user
+        user --> biller: Reply 🐌 {bind domain}
+    deactivate user
+
+    activate biller
+        biller --> user: ⏪ Bind {profile}
+        biller --> user: ⏪ ShareToken {admin}
+        biller --> folder: ⏪ ShareBind {folder}
+    deactivate biller
+    
+end group
+
+user --> folder: Reply {folder}
+activate user
+
+deactivate user
+
+activate syncer
+deactivate syncer
+
+
+    biller --> payer: Share {link} 🐌
+
+
+activate payer
+    user <-- payer: ⏪ Prompt 
+    payer --> biller: Consume {link} 🐌
+deactivate payer
+
+activate biller
+    biller --> id: Share {sign}
+deactivate biller
+
+activate id
+    user <-- id: ⏪ Prompt {card}
+    id --> biller: Consume {link} 🐌
+deactivate id
+
+
+' ------------
+@enduml

@@ -1,0 +1,22 @@
+@startuml Introduce
+
+participant "Folder 🗂️\ndomain" as folder
+participant "Collector 🏦\ndomain" as collector
+actor "User\nin chat" as user
+'participant "Broker 🤵\ndomain" as broker
+participant "Biller 🤝\ndomain" as biller
+
+biller --> user: ⏪ Prompt 🤔 {what?}
+activate user
+    user --> biller: Reply 🐌 {bind}
+deactivate user
+
+activate biller
+    biller --> user: ⏪ Bind {profile}
+    biller --> user: ⏪ ShareToken {admin}
+    biller --> collector: ⏪ ShareBind {collector}
+    biller --> folder: ⏪ ShareBind {folder}
+deactivate biller
+    
+' ------------
+@enduml
