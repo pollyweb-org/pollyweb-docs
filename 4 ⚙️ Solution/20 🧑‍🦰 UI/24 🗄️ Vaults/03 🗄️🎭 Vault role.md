@@ -32,7 +32,7 @@
     | | Workflow |  Description
     |-|-|-
     | | [👉 Binds ](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/01 🧑‍🦰👉🤵 List Binds.md>) | List the user's [Binds 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>)
-    || [👉 Bind](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind.md>) | [Bind 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>) the [Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to a [Vault 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>)
+    || [👉 Bind](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind 🔗.md>) | [Bind 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>) the [Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to a [Vault 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>)
     || [👉 Unbind](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/03 🧑‍🦰👉🗄️ Unbind.md>) | Remove a [Bind 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>) from a [Vault 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>)
     
     ---
