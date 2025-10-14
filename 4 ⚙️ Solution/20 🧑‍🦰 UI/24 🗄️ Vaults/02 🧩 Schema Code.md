@@ -118,6 +118,7 @@
         ```
 
     ---
+    <br/>
 
 1. **What does it mean when a YAML content starts with 🤝?**
 
@@ -127,6 +128,7 @@
     * This allows readers to validate the YAML content by pulling the validation schema from the [`Schema@Graph`](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>).
     
     ---
+    <br/>
 
 1. **How do define a Schema in a Manifest?**
 
@@ -134,10 +136,10 @@
 
     | Schema | Description
     |-|-
-    | [`.MANIFEST/CODE` 🧩](<../../../7 🧩 Codes/MANIFEST/🧩 ManifestCode.md>) | CODE properties.
-    | [`nlweb.org/MANIFEST/CODE/SCHEMA` 🧩](<../../../7 🧩 Codes/MANIFEST/🧩 ManifestCodeSchema.md>) | CODE/SCHEMA properties.
-    | [`nlweb.org/MANIFEST/DELEGATE` 🧩](<../../../7 🧩 Codes/MANIFEST/🧩 ManifestDelegate.md>) | Delegation to other [Authorities 🏛️](<../../40 👥 Domains/43 👍 Trusts/02 🏛️🛠️ Authority helper.md>).
-    | [`nlweb.org/TYPES` 🧩](<../../../7 🧩 Codes/$/🧩 Types.md>) | Generic referenceable types.
+    | [`.MANIFEST/CODE` 🧩](<../../../7 🧩 Codes/MANIFEST/🧩 ManifestCode.md>) | CODE properties
+    | [`.MANIFEST/CODE/SCHEMA` 🧩](<../../../7 🧩 Codes/MANIFEST/🧩 ManifestCodeSchema.md>) | CODE/SCHEMA properties
+    | [`.MANIFEST/DELEGATE` 🧩](<../../../7 🧩 Codes/MANIFEST/🧩 ManifestDelegate.md>) | Delegation to other [Authorities 🏛️](<../../40 👥 Domains/43 👍 Trusts/02 🏛️🛠️ Authority helper.md>)
+    | [`.TYPES` 🧩](<../../../7 🧩 Codes/$/🧩 Types.md>) | Generic referenceable types
 
     ---
     <br/>
@@ -150,6 +152,7 @@
     - This high-level manifest includes the schema definition for all communications explicitly supported by the core NLWeb protocol, but also a set of auxiliary schemas used to implement various business use cases. 
 
     ---
+    <br/>
 
 1. **Is the NLWeb Manifest a single point of failure?**
 
@@ -158,6 +161,7 @@
     - Instead, [domains 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>) should rely on [Graph 🕸 helper domains](<../../40 👥 Domains/44 📜 Manifests/03 🕸🛠️ Graph helper.md>) to look up schema definitions.
 
     ---
+    <br/>
 
 
 1. **Are NLWeb Schema definitions compatible with JSON Schema?**
@@ -189,6 +193,7 @@
     ```
 
     ---
+    <br/>
 
 1. **Wouldn't JSON be faster than YAML?**
 
@@ -197,6 +202,7 @@
     - NLWeb advocates for human readability, with YAML format allowing comments and being closer to structured natural language in this context.
 
     ---
+    <br/>
 
 
 1. **Can a Schema inherit from another Schema?**
