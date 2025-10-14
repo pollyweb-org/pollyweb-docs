@@ -136,9 +136,9 @@
 
     | Schema | Description
     |-|-
-    | [`.MANIFEST/CODE` 🧩](<../../../7 🧩 Codes/MANIFEST/🧩 ManifestCode.md>) | CODE properties
-    | [`.MANIFEST/CODE/SCHEMA` 🧩](<../../../7 🧩 Codes/MANIFEST/🧩 ManifestCodeSchema.md>) | CODE/SCHEMA properties
-    | [`.MANIFEST/DELEGATE` 🧩](<../../../7 🧩 Codes/MANIFEST/🧩 ManifestDelegate.md>) | Delegation to other [Authorities 🏛️](<../../40 👥 Domains/43 👍 Trusts/02 🏛️🛠️ Authority helper.md>)
+    | [`.MANIFEST/CODE` 🧩](<../../40 👥 Domains/44 📜 Manifests/🧩 ManifestCode.md>) | CODE properties
+    | [`.MANIFEST/CODE/SCHEMA` 🧩](<../../40 👥 Domains/44 📜 Manifests/🧩 ManifestCodeSchema.md>) | CODE/SCHEMA properties
+    | [`.MANIFEST/DELEGATE` 🧩](<../../40 👥 Domains/44 📜 Manifests/🧩 ManifestDelegate.md>) | Delegation to other [Authorities 🏛️](<../../40 👥 Domains/43 👍 Trusts/02 🏛️🛠️ Authority helper.md>)
     | [`.TYPES` 🧩](<../../../7 🧩 Codes/$/🧩 Types.md>) | Generic referenceable types
 
     ---
@@ -168,7 +168,7 @@
 
     Yes. 
     - NLWeb schemas are defined by [JSON Schema](https://json-schema.org/understanding-json-schema/reference) converted to YAML.
-    - Details are available at [`nlweb.org/MANIFEST/CODE/SCHEMA` 🧩](<../../../7 🧩 Codes/MANIFEST/🧩 ManifestCodeSchema.md>).
+    - Details are available at [`nlweb.org/MANIFEST/CODE/SCHEMA` 🧩](<../../40 👥 Domains/44 📜 Manifests/🧩 ManifestCodeSchema.md>).
   
 
     Consider the following example from [`standards.any-igo.org` 📜](<../../../8 📜 Manifests/👥 any-igo.org/📜 standards.any-igo.org.md>).
@@ -209,7 +209,7 @@
 
     Yes.
     * Using the `Inherits` property
-        * defined in [`.MANIFEST/CODE/SCHEMA` 🧩](<../../../7 🧩 Codes/MANIFEST/🧩 ManifestCodeSchema.md>).
+        * defined in [`.MANIFEST/CODE/SCHEMA` 🧩](<../../40 👥 Domains/44 📜 Manifests/🧩 ManifestCodeSchema.md>).
     * Consider [`.LOCATOR` 🧩](<../../../7 🧩 Codes/$/🧩 Locator.md>)
         * who defines properties `Code`, `Domain`, `Resource`.
     * It is inherited by [`.TOKEN` 🧩](<../../../7 🧩 Codes/$/🧩 Token.md>)
@@ -225,15 +225,15 @@
 
     Yes, 
     * using the `$ref` keyword from JSON Schema 
-    * as defined in [`.MANIFEST/CODE/SCHEMA` 🧩](<../../../7 🧩 Codes/MANIFEST/🧩 ManifestCodeSchema.md>).
+    * as defined in [`.MANIFEST/CODE/SCHEMA` 🧩](<../../40 👥 Domains/44 📜 Manifests/🧩 ManifestCodeSchema.md>).
     
-    Consider [`.MANIFEST` 🧩](<../../../7 🧩 Codes/MANIFEST/🧩 Manifest.md>):
-    * it references [`.MANIFEST/IDENTITY` 🧩](<../../../7 🧩 Codes/MANIFEST/🧩 ManifestIdentity.md>)
+    Consider [`.MANIFEST` 🧩](<../../40 👥 Domains/44 📜 Manifests/🧩 Manifest.md>):
+    * it references [`.MANIFEST/IDENTITY` 🧩](<../../40 👥 Domains/44 📜 Manifests/🧩 ManifestIdentity.md>)
         ```yaml
         Identity:
           $ref: nlweb.org/MANIFEST/IDENTITY:1.0
         ```
-    * and references [`.MANIFEST/TRUST` 🧩](<../../../7 🧩 Codes/MANIFEST/🧩 ManifestTrust.md>).
+    * and references [`.MANIFEST/TRUST` 🧩](<../../40 👥 Domains/44 📜 Manifests/🧩 ManifestTrust.md>).
         ```yaml
         Trusts:
         type: array
@@ -247,7 +247,7 @@
 1. **Can a Schema reference a specific property of another Schema?**
 
     Yes.
-    * See [`.MANIFEST/TRUST` 🧩](<../../../7 🧩 Codes/MANIFEST/🧩 ManifestTrust.md>)
+    * See [`.MANIFEST/TRUST` 🧩](<../../40 👥 Domains/44 📜 Manifests/🧩 ManifestTrust.md>)
         * whose property `Domain`
         * references `Domain@.TYPES`
         * defined in [`.TYPES` 🧩](<../../../7 🧩 Codes/$/🧩 Types.md>).

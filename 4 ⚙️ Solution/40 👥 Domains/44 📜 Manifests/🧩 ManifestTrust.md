@@ -1,7 +1,7 @@
 
-# 🧩 [Schema Code](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): ManifestTrust
+# 🧩 [Schema Code](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): ManifestTrust
 
- > Referenced by [domain Manifest 📜](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) and [domain Trust 👍](<../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>).
+ > Referenced by [domain Manifest 📜](<01 📜 Domain Manifest.md>) and [domain Trust 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>).
 
 <br/>
 
