@@ -1,8 +1,8 @@
 
-# 🧩 [Schema Code](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): Manifest
+# 🧩 [Schema Code](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): Manifest
 
 
- > Referenced by [domain Manifest 📜](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>)
+ > Referenced by [domain Manifest 📜](<01 📜 Domain Manifest.md>)
 
 <br/>
 
