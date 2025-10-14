@@ -33,7 +33,7 @@
 
 1. **Why are Buffers important?**
 
-    [Buffer ⏳ domains](<03 ⏳🛠️ Buffer helper.md>) handle the difference in speed and availability between two [domains 👥](<../44 📜 Manifests/00 👥 Domain.md>), allowing for faster [Streamer 🌬️ domains](<02 🌬️🎭 Streamer role.md>) to continue without waiting for the slower receiver.
+    [Buffer ⏳ domains](<03 ⏳🛠️ Buffer helper.md>) handle the difference in speed and availability between two [domains 👥](<../41 📨 Comms/00 👥 Domain.md>), allowing for faster [Streamer 🌬️ domains](<02 🌬️🎭 Streamer role.md>) to continue without waiting for the slower receiver.
 
     * **Sending**: [Buffer ⏳ domains](<03 ⏳🛠️ Buffer helper.md>) allow [Streamer 🌬️ domains](<02 🌬️🎭 Streamer role.md>) to publish events in real-time with a high-throughput push architecture, without considering the receivers' availability or ingestion capacity.
     

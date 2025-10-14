@@ -5,7 +5,7 @@
 
     ![](<.📎 Assets/📨 Comms.png>)
 
-    For two [domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) to communicate with one another (e.g., for `any-sender.com` to send a message to `any-receiver.com`), the following steps are required.
+    For two [domains 👥](<00 👥 Domain.md>) to communicate with one another (e.g., for `any-sender.com` to send a message to `any-receiver.com`), the following steps are required.
 
     | # |  Step
     |-|-
@@ -19,7 +19,7 @@
 
 1. **What does a domain message look like?**
 
-    Messages from [domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) are sent in JSON envelopes similar to email messages. 
+    Messages from [domains 👥](<00 👥 Domain.md>) are sent in JSON envelopes similar to email messages. 
     
     * The [Schema 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) is defined at [`nlweb.org/MSG 🧩`](<../../../7 🧩 Codes/$/🧩 Msg.md>).
     * Consider the the following example, converted from JSON to YAML for readability.
@@ -51,8 +51,8 @@
     |Property| Description
     |-|-
     | `🤝` | The versioned [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) of the envelope.
-    | `From` | The name of the [domain 👥](<../44 📜 Manifests/00 👥 Domain.md>) who sent the message.
-    | `To`| The name of the [domain 👥](<../44 📜 Manifests/00 👥 Domain.md>) for whom the message is intended.
+    | `From` | The name of the [domain 👥](<00 👥 Domain.md>) who sent the message.
+    | `To`| The name of the [domain 👥](<00 👥 Domain.md>) for whom the message is intended.
     | `Correlation`| The unique ID in the sender, for deduping.
     | `Timestamp`| The date and time of the message, in UTC format.
     | `Subject`| The method to be executed on the receiver.
@@ -121,7 +121,7 @@
 
     An NLWeb envelop contains a `Subject` that identifies how the receiver should handle the message:
     - e.g., `Hello@Host` refers to the [Hello 🐌 method](<../../../6 🅰️ APIs/50 🤗🅰️ Host/01 🤵🐌🤗 Hello.md>) in the [Host 🤗 domain role](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>).
-    - The possible `Subject` values are defined by the APIs implemented by [domain Roles 🎭](<../44 📜 Manifests/00 👥 Domain.md>).
+    - The possible `Subject` values are defined by the APIs implemented by [domain Roles 🎭](<00 👥 Domain.md>).
     - Receivers discard envelopes with unexpected subjects.
 
     ---
@@ -130,7 +130,7 @@
 1. **What is the signature for?**
 
     Senders sign the header and body of envelopes with [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) private key,
-    - [domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) verify incoming [domain 👥](<../44 📜 Manifests/00 👥 Domain.md>) messages with the sender's [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) public key,
+    - [domains 👥](<00 👥 Domain.md>) verify incoming [domain 👥](<00 👥 Domain.md>) messages with the sender's [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) public key,
     - and [Broker 🤵 domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) verify incoming [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) messages with the their pre-shared public key.
     
     ---
@@ -163,7 +163,7 @@
 
     To create a signature with OpenSSL, first prepare the following files:
       - `canonical.json`: a canonical representation of {header,body};
-      - `private.pem`: the private signature of the [domain 👥](<../44 📜 Manifests/00 👥 Domain.md>).
+      - `private.pem`: the private signature of the [domain 👥](<00 👥 Domain.md>).
   
     Then run the following commands on a terminal: 
     * `$ openssl dgst -sha256 -sign private.pem -out signature.sha1 canonical.json`
@@ -176,9 +176,9 @@
 1. **How to validate a signature with OpenSSL?**
 
     To validate a signature with OpenSSL, first prepare the following files:
-    - `signature.txt`: the signature received in a message from another [domain 👥](<../44 📜 Manifests/00 👥 Domain.md>);
+    - `signature.txt`: the signature received in a message from another [domain 👥](<00 👥 Domain.md>);
     - `canonical.json`: a canonical representation of the received {header,body};
-    - `public.pem`: the public key of the sender [domain 👥](<../44 📜 Manifests/00 👥 Domain.md>).
+    - `public.pem`: the public key of the sender [domain 👥](<00 👥 Domain.md>).
   
     Then run the following commands on a terminal: 
     * $ `openssl enc -d -A -base64 -in signature.txt -out signature.sha1`
@@ -191,8 +191,8 @@
 
     | Workflow | Description
     |-|-
-    | 🚀 Synchronous requests | [Domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) send requests and wait for the immediate response over an HTTPS request.
-    | 🐌 Asynchronous messages | [Domains 👥](<../44 📜 Manifests/00 👥 Domain.md>) send fire-and-forget messages and events. Any eventual answer, if expected, will arrive via another asynchronous message.
+    | 🚀 Synchronous requests | [Domains 👥](<00 👥 Domain.md>) send requests and wait for the immediate response over an HTTPS request.
+    | 🐌 Asynchronous messages | [Domains 👥](<00 👥 Domain.md>) send fire-and-forget messages and events. Any eventual answer, if expected, will arrive via another asynchronous message.
 
     ---
     <br/>
@@ -281,7 +281,7 @@
 
     | Format | Rational
     |-|-
-    | `JSON` | Structured JSON for machine-to-machine payloads, because it's faster and widely supported by cloud providers; e.g.: <br/>• [domain Messages 📨](<01 📨 Domain Message.md>) between any two [domains 👥](<../44 📜 Manifests/00 👥 Domain.md>), <br/>• data sharing between a [Vault 🗄️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) and a [Consumer 💼](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) domains, <br/>• payments between a [Payer 💳](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) and a [Collector](<../../30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) domains.
+    | `JSON` | Structured JSON for machine-to-machine payloads, because it's faster and widely supported by cloud providers; e.g.: <br/>• [domain Messages 📨](<01 📨 Domain Message.md>) between any two [domains 👥](<00 👥 Domain.md>), <br/>• data sharing between a [Vault 🗄️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) and a [Consumer 💼](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) domains, <br/>• payments between a [Payer 💳](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) and a [Collector](<../../30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) domains.
     | `YAML` | Structured YAML for human-to-machine settings, because it supports comments and it's easier for humans to read, while still supporting schema validations; <br/>• e.g.: [Schema Codes 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) and [domain Manifests 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>).
     | `MARKDOWN` | Unstructured MARKDOWN for human-to-LLM instructions, when schema validations are not required; <br/>• e.g., description of products and services by business owners (like a detailed restaurant menu) for user [Curator 🧚 agents](<../../30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) to filter on behalf of users.
     

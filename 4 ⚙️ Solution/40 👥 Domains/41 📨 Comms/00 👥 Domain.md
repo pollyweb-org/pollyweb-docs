@@ -5,7 +5,7 @@
 
     In NLWeb, a [domain 👥](<00 👥 Domain.md>) is any public web service that
     * sends and receives domain [Messages 📨](<../41 📨 Comms/01 📨 Domain Message.md>)
-    * and publishes a [domain Manifest 📜](<01 📜 Domain Manifest.md>).
+    * and publishes a [domain Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>).
 
 
     ---
@@ -60,7 +60,7 @@
 
     |Flow| Description
     |-|-
-    |[👥⏩🕸 Manifest](<../../../5 ⏩ Flows/30 👥⏩ Domains/04 👥⏩🕸 Manifest 📜.md>) | Publish [domain Manifest 📜](<01 📜 Domain Manifest.md>) changes
+    |[👥⏩🕸 Manifest](<../../../5 ⏩ Flows/30 👥⏩ Domains/04 👥⏩🕸 Manifest 📜.md>) | Publish [domain Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>) changes
     | [👥⏩🤝 Subscribe](<../../../5 ⏩ Flows/07 🤝⏩ Billers/02 👥⏩🤝 Domain Subscription.md>) | Sign subscriptions on [Biller 🤝 domains](<../../30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>)
 
 
