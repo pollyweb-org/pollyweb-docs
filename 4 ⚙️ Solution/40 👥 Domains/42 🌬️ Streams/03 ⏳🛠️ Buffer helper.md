@@ -11,7 +11,7 @@
 
     A [Buffer ⏳ domain](<03 ⏳🛠️ Buffer helper.md>) 
     * is a point-to-point [Helper 🛠️ domain](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>)
-    * that ingests events from [Streamer 🌬️ domains](<../42 Events/02 🌬️🎭 Streamer role.md>) with high availability and high ingestion throughput
+    * that ingests events from [Streamer 🌬️ domains](<02 🌬️🎭 Streamer role.md>) with high availability and high ingestion throughput
     * and then throttle the deliver of those events to [Subscriber 🔔 domains](<04 🔔🎭 Subscriber role.md>) according to an agreed delivery policy. 
     
     ---
@@ -23,8 +23,8 @@
 
     |#| Step
     |-|-
-    |1| Before sending an event, [Streamer 🌬️ domains](<../42 Events/02 🌬️🎭 Streamer role.md>) read the public key from the [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) of the [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>).
-    |2| When sending an event, [Streamer 🌬️ domains](<../42 Events/02 🌬️🎭 Streamer role.md>) encrypt the content of the event with the Subscriber's public key, then send the encrypted event to the Subscriber's [Buffer ⏳ domain](<03 ⏳🛠️ Buffer helper.md>).
+    |1| Before sending an event, [Streamer 🌬️ domains](<02 🌬️🎭 Streamer role.md>) read the public key from the [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) of the [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>).
+    |2| When sending an event, [Streamer 🌬️ domains](<02 🌬️🎭 Streamer role.md>) encrypt the content of the event with the Subscriber's public key, then send the encrypted event to the Subscriber's [Buffer ⏳ domain](<03 ⏳🛠️ Buffer helper.md>).
     |3| Upon receiving an event, if the queue of the Subscriber's Buffer ⏳ is empty, then the [Buffer ⏳ domain](<03 ⏳🛠️ Buffer helper.md>) wakes up the [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>).
     |4| The [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) then wakes up and consumers all the events in the Buffer's ⏳ queue, decrypting them with its own private key from the [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) key-pair; once the queue is empty, it goes back to sleep.
     
@@ -33,9 +33,9 @@
 
 1. **Why are Buffers important?**
 
-    [Buffer ⏳ domains](<03 ⏳🛠️ Buffer helper.md>) handle the difference in speed and availability between two [domains 👥](<../44 📜 Manifests/00 👥 Domain.md>), allowing for faster [Streamer 🌬️ domains](<../42 Events/02 🌬️🎭 Streamer role.md>) to continue without waiting for the slower receiver.
+    [Buffer ⏳ domains](<03 ⏳🛠️ Buffer helper.md>) handle the difference in speed and availability between two [domains 👥](<../44 📜 Manifests/00 👥 Domain.md>), allowing for faster [Streamer 🌬️ domains](<02 🌬️🎭 Streamer role.md>) to continue without waiting for the slower receiver.
 
-    * **Sending**: [Buffer ⏳ domains](<03 ⏳🛠️ Buffer helper.md>) allow [Streamer 🌬️ domains](<../42 Events/02 🌬️🎭 Streamer role.md>) to publish events in real-time with a high-throughput push architecture, without considering the receivers' availability or ingestion capacity.
+    * **Sending**: [Buffer ⏳ domains](<03 ⏳🛠️ Buffer helper.md>) allow [Streamer 🌬️ domains](<02 🌬️🎭 Streamer role.md>) to publish events in real-time with a high-throughput push architecture, without considering the receivers' availability or ingestion capacity.
     
     * **Receiving**: [Buffer ⏳ domains](<03 ⏳🛠️ Buffer helper.md>) allow slow intermittent [Subscriber 🔔 domains](<04 🔔🎭 Subscriber role.md>) to consume the events at their own pace by using a poll architecture, while allowing for near-real-time event delivery by leveraging wake-up calls.
 
@@ -44,11 +44,11 @@
 
 1. **How can Buffers improve network latency?**
 
-    [Buffer ⏳ domains](<03 ⏳🛠️ Buffer helper.md>) may use the following techniques to improve network latency when the [Streamer 🌬️ domain](<../42 Events/02 🌬️🎭 Streamer role.md>) and geographically distant from the [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) (e.g., in different continents):
+    [Buffer ⏳ domains](<03 ⏳🛠️ Buffer helper.md>) may use the following techniques to improve network latency when the [Streamer 🌬️ domain](<02 🌬️🎭 Streamer role.md>) and geographically distant from the [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) (e.g., in different continents):
 
-    * Use content-delivery networks (CDNs) to place the ingestion API as close as possible to the [Streamer 🌬️ domain](<../42 Events/02 🌬️🎭 Streamer role.md>), and the delivery API as close as possible to the [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) (e.g., AWS Points of Presence).
+    * Use content-delivery networks (CDNs) to place the ingestion API as close as possible to the [Streamer 🌬️ domain](<02 🌬️🎭 Streamer role.md>), and the delivery API as close as possible to the [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) (e.g., AWS Points of Presence).
   
-    * Instead of using the public Internet to transfer the events, use instead a private global network from a single cloud provider (e.g., AWS Network) to reduce the number of network hoops between the [Streamer 🌬️ domain](<../42 Events/02 🌬️🎭 Streamer role.md>) and the [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>).
+    * Instead of using the public Internet to transfer the events, use instead a private global network from a single cloud provider (e.g., AWS Network) to reduce the number of network hoops between the [Streamer 🌬️ domain](<02 🌬️🎭 Streamer role.md>) and the [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>).
 
     * Compress the event payload.
 
@@ -59,7 +59,7 @@
 
     Yes. 
     
-    * When a [Streamer 🌬️ domain](<../42 Events/02 🌬️🎭 Streamer role.md>) is about to push an event to a receiver's [Buffer ⏳ domain](<03 ⏳🛠️ Buffer helper.md>), it first reads the public key of the [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) from its [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) DNS record, then uses the public key to encrypt the content of the event.
+    * When a [Streamer 🌬️ domain](<02 🌬️🎭 Streamer role.md>) is about to push an event to a receiver's [Buffer ⏳ domain](<03 ⏳🛠️ Buffer helper.md>), it first reads the public key of the [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) from its [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) DNS record, then uses the public key to encrypt the content of the event.
   
     * When the [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) polls the events, it uses its private key to decrypt the event's content.
     
@@ -128,7 +128,7 @@
 4.  **Do Buffers ensure delivery order?**
 
     Yes, but optionally and without parallel pooling.
-    * [Subscriber 🔔 domains](<04 🔔🎭 Subscriber role.md>) can ask their [Buffer ⏳ domain](<03 ⏳🛠️ Buffer helper.md>) to be first-in-first-out (FIFO), based on when the [Streamer 🌬️ domain](<../42 Events/02 🌬️🎭 Streamer role.md>) pushed the event.
+    * [Subscriber 🔔 domains](<04 🔔🎭 Subscriber role.md>) can ask their [Buffer ⏳ domain](<03 ⏳🛠️ Buffer helper.md>) to be first-in-first-out (FIFO), based on when the [Streamer 🌬️ domain](<02 🌬️🎭 Streamer role.md>) pushed the event.
     * The [Buffer ⏳ domain](<03 ⏳🛠️ Buffer helper.md>) will wait for the [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) to confirm the successful handling of older events before releasing new ones.
 
     ---
@@ -163,7 +163,7 @@
     | [🔔 Subscriber](<04 🔔🎭 Subscriber role.md>) | [🚀 Queue](<../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/12 🔔🐌⏳ Queue.md>) | Create or change a queue.
     | [🔔 Subscriber](<04 🔔🎭 Subscriber role.md>) |[🚀 Unqueue](<../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/13 🔔🐌⏳ Unqueue.md>) | Delete a queue.
     | [🔔 Subscriber](<04 🔔🎭 Subscriber role.md>) |[🚀 Purge](<../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/14 🔔🚀⏳ Purge.md>) | Clean up a queue.
-    |[🌬️ Streamer](<../42 Events/02 🌬️🎭 Streamer role.md>)|[🐌 Push](<../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/21 🌬️🐌⏳ Push.md>) | Add a message to a queue.
+    |[🌬️ Streamer](<02 🌬️🎭 Streamer role.md>)|[🐌 Push](<../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/21 🌬️🐌⏳ Push.md>) | Add a message to a queue.
     | [🔔 Subscriber](<04 🔔🎭 Subscriber role.md>) |[🚀 Poll](<../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/22 🔔🚀⏳ Poll.md>) | Poll messages from a queue.
     | [🔔 Subscriber](<04 🔔🎭 Subscriber role.md>) |[🚀 Confirm](<../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/23 🔔🚀⏳ Confirm.md>) | Remove a handled message.
     | [🔔 Subscriber](<04 🔔🎭 Subscriber role.md>)  | [🐌 Replay](<../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/31 🔔🐌⏳ Replay.md>) | Replay confirmed messages.

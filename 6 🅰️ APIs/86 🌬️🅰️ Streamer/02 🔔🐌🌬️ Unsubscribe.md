@@ -1,6 +1,6 @@
 # 🔔🐌🌬️ Unsubscribe @ Streamer
 
-> Implements the [Streamer 🌬️ domain role](<../../4 ⚙️ Solution/40 👥 Domains/42 Events/02 🌬️🎭 Streamer role.md>)
+> Implements the [Streamer 🌬️ domain role](<../../4 ⚙️ Solution/40 👥 Domains/42 🌬️ Streams/02 🌬️🎭 Streamer role.md>)
 
 
 <br/>
@@ -19,8 +19,8 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header| `From`| string | [Subscriber 🔔 domain](<../../4 ⚙️ Solution/40 👥 Domains/42 Events/04 🔔🎭 Subscriber role.md>) name
-|| `To`| string | [Streamer 🌬️ domain](<../../4 ⚙️ Solution/40 👥 Domains/42 Events/02 🌬️🎭 Streamer role.md>) name
+|Header| `From`| string | [Subscriber 🔔 domain](<../../4 ⚙️ Solution/40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) name
+|| `To`| string | [Streamer 🌬️ domain](<../../4 ⚙️ Solution/40 👥 Domains/42 🌬️ Streams/02 🌬️🎭 Streamer role.md>) name
 || `Subject` | string | `Unsubscribe@Streamer`
-|Body | `Stream`| string |  Stream key on the [Streamer 🌬️](<../../4 ⚙️ Solution/40 👥 Domains/42 Events/02 🌬️🎭 Streamer role.md>)
+|Body | `Stream`| string |  Stream key on the [Streamer 🌬️](<../../4 ⚙️ Solution/40 👥 Domains/42 🌬️ Streams/02 🌬️🎭 Streamer role.md>)
 |

@@ -1,6 +1,6 @@
 # 🌬️🚀⏳ Purge @ Buffer
 
-> Implements a [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/40 👥 Domains/42 Events/03 ⏳🛠️ Buffer helper.md>)
+> Implements a [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/40 👥 Domains/42 🌬️ Streams/03 ⏳🛠️ Buffer helper.md>)
 
 > Removes all messages from the Queue create on [`Queue@Buffer`](<12 🔔🐌⏳ Queue.md>).
 
@@ -20,8 +20,8 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From` | string | [Subscriber 🔔 domain](<../../4 ⚙️ Solution/40 👥 Domains/42 Events/04 🔔🎭 Subscriber role.md>) name name
-||`To`| string | [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/40 👥 Domains/42 Events/03 ⏳🛠️ Buffer helper.md>) name
+|Header|`From` | string | [Subscriber 🔔 domain](<../../4 ⚙️ Solution/40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) name name
+||`To`| string | [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/40 👥 Domains/42 🌬️ Streams/03 ⏳🛠️ Buffer helper.md>) name
 ||`Subject`| string | `Purge@Buffer`
 |Body|`Queue`| uuid | Queue from [`Queue@Buffer`](<12 🔔🐌⏳ Queue.md>)
 |

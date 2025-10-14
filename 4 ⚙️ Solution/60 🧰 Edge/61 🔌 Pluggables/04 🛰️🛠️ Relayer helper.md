@@ -38,7 +38,7 @@
     |C| `Execute` | The [Antenna 📡 router device](<02 📡🔀 Antenna router.md>) executes the translated command to the [Pluggable 🔌 device](<01 🔌 Pluggable device.md>).
     |X| `Listen` | The [Antenna 📡 router device](<02 📡🔀 Antenna router.md>) listens to machine-level events ⚠️ from the [Pluggable 🔌 device](<01 🔌 Pluggable device.md>).
     |Y| `Translate` | The [Antenna 📡 device](<02 📡🔀 Antenna router.md>) sends the events to the Relayer 🛰️ domain for natural language translation.
-    |Z| `Propagate` | The Relayer 🛰️ sends sends the translated events to the [Buffer ⏳ helper](<../../40 👥 Domains/42 Events/03 ⏳🛠️ Buffer helper.md>) of the owner [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).
+    |Z| `Propagate` | The Relayer 🛰️ sends sends the translated events to the [Buffer ⏳ helper](<../../40 👥 Domains/42 🌬️ Streams/03 ⏳🛠️ Buffer helper.md>) of the owner [domain 👥](<../../40 👥 Domains/44 📜 Manifests/00 👥 Domain.md>).
 
     ---
 

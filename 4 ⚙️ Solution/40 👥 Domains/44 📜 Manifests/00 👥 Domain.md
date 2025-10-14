@@ -48,8 +48,8 @@
     | [🤗 Host](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | Hosts [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) for [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) via [Brokers 🤵](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
     | [🪢 Integrator](<../../20 🧑‍🦰 UI/12 💬 Chats/06 🪢🎭 Integrator role.md>) |  [Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>)  endpoints for [Finders 🔎](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) to index
     | [🎴 Issuer](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) | Issues [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) to be saved on users' [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
-    | [🌬️ Streamer](<../42 Events/02 🌬️🎭 Streamer role.md>) | Pushes and replays domain events to [Subscribers 🔔](<../42 Events/04 🔔🎭 Subscriber role.md>)
-    | [🔔 Subscriber](<../42 Events/04 🔔🎭 Subscriber role.md>) | Subscribes to domain events from a [Streamers 🌬️](<../42 Events/02 🌬️🎭 Streamer role.md>)
+    | [🌬️ Streamer](<../42 🌬️ Streams/02 🌬️🎭 Streamer role.md>) | Pushes and replays domain events to [Subscribers 🔔](<../42 🌬️ Streams/04 🔔🎭 Subscriber role.md>)
+    | [🔔 Subscriber](<../42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) | Subscribes to domain events from a [Streamers 🌬️](<../42 🌬️ Streams/02 🌬️🎭 Streamer role.md>)
     | [🗄️ Vault](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) | Stores user data and shares it with [Consumers 💼](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>)
     | [🏭 Supplier](<../../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>) | Accept async order requests from [domains 👥](<00 👥 Domain.md>)
     
