@@ -1,11 +1,11 @@
 🔑 Keyholder device
 ===
 
-![](<. 📎 Assets/🔒 Keyholder.png>)
+![](<../75 🔒 Padlocks/. 📎 Assets/🔒 Keyholder.png>)
 
 1. **What is a Keyholder?**
 
-    In NLWeb, a Keyholder is a device that can scan and unlock [Padlock 🔒](<01 🔒 Padlock device.md>) devices.
+    In NLWeb, a Keyholder is a device that can scan and unlock [Padlock 🔒](<../75 🔒 Padlocks/$ 🔒 Padlock device.md>) devices.
 
     Examples of Keyholders include:
     * 🧑‍🦰 [Wallet apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) - Wallets support the Keyholder protocol natively.
@@ -17,7 +17,7 @@
 
     Keyholders store a list of Padlock keys, each containing:
     - the domain of the [🔐 KeyMaker](<../../45 🛠️ Helper domains/58 🔐 Keymakers/05  🔐🏭 Keymaker supplier.md>) (e.g., `any-keymaker.com`) 
-    - the resource key of the [Padlock 🔒](<01 🔒 Padlock device.md>) in the KeyMaker (e.g., `padlock-12345678`)
+    - the resource key of the [Padlock 🔒](<../75 🔒 Padlocks/$ 🔒 Padlock device.md>) in the KeyMaker (e.g., `padlock-12345678`)
     - the encrypted sequence number for the key last rotation (e.g., `1234567890`)
     - the encrypted passkey for the last sequence number (e.g. `ABCDEF`)
 

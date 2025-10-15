@@ -3,7 +3,7 @@
 
 1. **How can users set up a health emergency script?**
 
-    In case the owner is unconscious, any guest can [tap 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) the owner's [Userable 💍 thing](<01 💍 Userable thing.md>) to start an emergency script previously configured by the owner.
+    In case the owner is unconscious, any guest can [tap 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) the owner's [Userable 💍 thing](<$ 💍 Userable thing.md>) to start an emergency script previously configured by the owner.
 
     These emergency steps may include:
     - inform close family members, 
@@ -44,7 +44,7 @@
 
     |#|Category|Step
     |-|-|-
-    |1| `Tap NFC` | A guest user [taps 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) the [rotating NFC tag 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/11 📺 NFC authentication.md>) of the [Userable 💍 thing](<01 💍 Userable thing.md>) with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
+    |1| `Tap NFC` | A guest user [taps 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) the [rotating NFC tag 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/11 📺 NFC authentication.md>) of the [Userable 💍 thing](<$ 💍 Userable thing.md>) with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
     |2| `Interact`| A [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) opens with the [Userable's Wand 🪄 domain](<../../45 🛠️ Helper domains/90 🪄 Wands/$ 🪄🛠️ Wand helper.md>) (i.e., the helper defined by the [Userable's Brand 🍏 domain](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>)) - this allows the guest user to read the landing notes that the owner user left, and allowing the guest to active the emergency script defined by the owner user.
     |3| `Identify` | The [Userable's Wand 🪄 domain](<../../45 🛠️ Helper domains/90 🪄 Wands/$ 🪄🛠️ Wand helper.md>) asks the [guest user's Identity 🆔 agent](<../../50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) to authenticate the guest - this allows emergency services to impose legal actions on harassment frauds if necessary.
     |4| `Activate`| The guest activates the emergency workflow - this triggers the [Userable's Wand 🪄 domain](<../../45 🛠️ Helper domains/90 🪄 Wands/$ 🪄🛠️ Wand helper.md>) to ask the [guest's Broker 🤵 domain](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) for the guest's location, ask the [guest's Persona 🧢 agent](<../../50 🫥 Agents/70 🧢 Personas/$ 🧢🫥 Persona agent.md>) for the guest's contact details, and pass that information to the [owner's Custodian 🧳 vault](<../../50 🫥 Agents/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>).
@@ -92,7 +92,7 @@
     Apple Watch emergency alerts can be triggered automatically.
     - Apple can do this because the the watch is constantly monitoring the owner's vital signs and movements, is able to detect if something is wrong, and is able to automatically trigger an emergency alarm on its own.
   
-    Conversely, [Userable 💍 things](<01 💍 Userable thing.md>) are nothing more than an secure NFC tag embedded into an object carried by the user (e.g., earings, neckless).
+    Conversely, [Userable 💍 things](<$ 💍 Userable thing.md>) are nothing more than an secure NFC tag embedded into an object carried by the user (e.g., earings, neckless).
     - Thus, they don't have any monitoring or assessment mechanism, and are unable to trigger emergencies on their own.
     - But they are much cheaper (less than 1.00$) and resilient enough to be worn all the time without ever running out of power (e.g., a wedding ring may be in place for decades straight).
     - They can also be used in non-tech environments, like airports and highly secure environments.
@@ -112,7 +112,7 @@
     * This is done without an assessment of the owner's incapacity be assessed first, because typically the phone doesn't have health monitoring mechanisms (unless a smart watch is linked to it).
     * Some phones already have collision detection mechanisms for car accidents, and that can automatically trigger an emergency alert.
 
-    Conversely, [Userable 💍 things](<01 💍 Userable thing.md>) are nothing more than an secure NFC tag embedded into an object carried by the user (e.g., earings, neckless).
+    Conversely, [Userable 💍 things](<$ 💍 Userable thing.md>) are nothing more than an secure NFC tag embedded into an object carried by the user (e.g., earings, neckless).
     - They do allow anyone to trigger an emergency alarm, but are unable to detect collisions in car accidents.
     - But they are much cheaper (less than 1.00$) and resilient enough to be worn all the time without ever running out of power (e.g., a wedding ring may be in place for decades straight).
     - They can also be used in non-tech environments, like airports and highly secure environments.

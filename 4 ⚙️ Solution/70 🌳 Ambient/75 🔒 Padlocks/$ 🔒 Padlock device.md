@@ -3,13 +3,13 @@
 
 1. **What is a Padlock in NLWeb?**
 
-    Padlocks are offline devices (i.e., internet connectivity) that open locks when users use a [🔑 KeyHolder](<02 🔑💠 Keyholder device.md>) device to tap on the Padlock.
+    Padlocks are offline devices (i.e., internet connectivity) that open locks when users use a [🔑 KeyHolder](<../77 🔑 Keyholders/$ 🔑💠 Keyholder device.md>) device to tap on the Padlock.
 
     ---
 
 1. **How does a Padlock interact with a user?**
 
-    Padlocks use passive NFC emulation to wait for a contact from an active NFC scanner on a [🔑 KeyHolder](<02 🔑💠 Keyholder device.md>).
+    Padlocks use passive NFC emulation to wait for a contact from an active NFC scanner on a [🔑 KeyHolder](<../77 🔑 Keyholders/$ 🔑💠 Keyholder device.md>).
 
     ![](<. 📎 Assets/🔒 Padlock.png>)
 
@@ -17,7 +17,7 @@
 
 1. **How does a Padlock decide when to open a lock?**
 
-    Users' [🔑 KeyHolders](<02 🔑💠 Keyholder device.md>) first scan the Padlock, receiving an NFC response with Padlock's [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>), which contains:
+    Users' [🔑 KeyHolders](<../77 🔑 Keyholders/$ 🔑💠 Keyholder device.md>) first scan the Padlock, receiving an NFC response with Padlock's [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>), which contains:
     - a fixed Padlock [Schema Code 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) identifier 
     - the domain of the Padlock's [🔐 KeyMaker](<../../45 🛠️ Helper domains/58 🔐 Keymakers/05  🔐🏭 Keymaker supplier.md>) (e.g., `any-keymaker.com`) 
     - the resource key of the PadLock in the KeyMaker (e.g.,`padlock-12345678`)
@@ -32,7 +32,7 @@
     - confirm if the received sequence if the same of bigger than the last one stored;
     - if the sequence is the same, confirm that it has not expired;
     - if all steps above were successful, then the Padlock opens the lock;
-    - sends an NFC response back to the [🔑 KeyHolder](<02 🔑💠 Keyholder device.md>) confirming the success and passing the battery status.
+    - sends an NFC response back to the [🔑 KeyHolder](<../77 🔑 Keyholders/$ 🔑💠 Keyholder device.md>) confirming the success and passing the battery status.
 
     ---
 
@@ -104,7 +104,7 @@
     - the private certificate of the Padlock.
     - the rotation rules of the Padlock.
 
-    In non-volatile writable memory, a Padlock stores dynamic data sent by [🔑 KeyHolders](<02 🔑💠 Keyholder device.md>):
+    In non-volatile writable memory, a Padlock stores dynamic data sent by [🔑 KeyHolders](<../77 🔑 Keyholders/$ 🔑💠 Keyholder device.md>):
     - the last received sequence,to avoid replay attacks (e.g., `1234567890`);
     - the timestamp of last received sequence, to expire the sequence after a while;
     - the sequence expiration interval (e.g., 24 hours).
@@ -122,7 +122,7 @@
 1. **How do Padlocks report on low battery ?**
 
     Padlocks  use the following mechanisms for alerting on low-power:
-    - 1/ when opening a lock, Padlocks notify their [🔐 KeyMaker](<../../45 🛠️ Helper domains/58 🔐 Keymakers/05  🔐🏭 Keymaker supplier.md>) via the user's [🔑 KeyHolder](<02 🔑💠 Keyholder device.md>) device;
+    - 1/ when opening a lock, Padlocks notify their [🔐 KeyMaker](<../../45 🛠️ Helper domains/58 🔐 Keymakers/05  🔐🏭 Keymaker supplier.md>) via the user's [🔑 KeyHolder](<../77 🔑 Keyholders/$ 🔑💠 Keyholder device.md>) device;
     - 2/ Padlocks can have a led that blinks on low-power, albeit draining faster.
 
     ---

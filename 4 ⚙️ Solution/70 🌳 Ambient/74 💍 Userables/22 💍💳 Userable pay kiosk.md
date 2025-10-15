@@ -1,7 +1,7 @@
 💍 Userables to pay at a kiosk
 ===
 
-> [Userables 💍](<01 💍 Userable thing.md>) allow customers to pay without battery on their devices.
+> [Userables 💍](<$ 💍 Userable thing.md>) allow customers to pay without battery on their devices.
 
 > Mentioned in [Verify Userables 🆔](<../../50 🫥 Agents/45 🆔 Identities/15 🆔💍 Verify Userables.md>)
 
