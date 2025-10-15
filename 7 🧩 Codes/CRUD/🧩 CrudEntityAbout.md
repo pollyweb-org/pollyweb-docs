@@ -1,5 +1,5 @@
 
-# [🧩](<../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) `.CRUD` `/ENTITY` `/ABOUT`
+# [🧩](<../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) `.CRUD` `/ENTITY` `/ABOUT`
 
 <br/>
 

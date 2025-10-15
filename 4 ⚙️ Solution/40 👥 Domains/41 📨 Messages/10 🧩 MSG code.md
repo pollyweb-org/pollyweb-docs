@@ -1,5 +1,5 @@
 
-# [🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) `.MSG`
+# [🧩](<../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) `.MSG`
 
 > Schema of a [domain Message 📨](<$ 📨 Domain Message.md>)
 
@@ -7,7 +7,7 @@
 
 ## Definition
 
-> [🤝:](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) [`.MANIFEST/CODE`](<../44 📜 Manifests/40 🧩 CODE code.md>)
+> [🤝:](<../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) [`.MANIFEST/CODE`](<../44 📜 Manifests/40 🧩 CODE code.md>)
 
 ```yaml
 Path: /MSG

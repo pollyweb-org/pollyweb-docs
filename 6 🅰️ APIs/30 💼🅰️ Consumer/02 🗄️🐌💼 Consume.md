@@ -35,7 +35,7 @@ Body:
 | `Subject` | string | `Consume@Consumer`
 | `Broker`| string | [Broker 🤵 domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) name
 | `ChatID` | uuid | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID
-| `Code`| string |  [Schema Code 🧩](<../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>)
+| `Code`| string |  [Schema Code 🧩](<../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>)
 | `ConsumerKey` | uuid | From [`Query@`](<../15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) and [`Invite@`](<../15 🤵🅰️ Broker/60 🤵🅰️ Share/64 💼🐌🤵 Invite.md>)
 | `VaultKey` | uuid | Callback to [`Collect@Vault`](<../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🅰️ Vault methods/💼🚀🗄️ Collect.md>)
 | `TTL` | timestamp| Callback deadline

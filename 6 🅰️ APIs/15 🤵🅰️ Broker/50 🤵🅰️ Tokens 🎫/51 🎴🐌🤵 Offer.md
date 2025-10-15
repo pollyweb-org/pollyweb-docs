@@ -35,7 +35,7 @@ Body:
 ||`Subject`|string|`Offer@Broker`
 |Body  |`ChatID` |uuid  | [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID from [`Hello@Host`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/51 🤵🐌🤗 Hello@Host.md>)
 | |`TokenID` |uuid  | [Token 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) ID
-|      |`Code`   |string| [Schema Code 🧩](<../../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) 
+|      |`Code`   |string| [Schema Code 🧩](<../../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) 
 |      |`Version`|string| Schema version|      
 |      |`Starts` |timestamp| Valid from
 |      |`Expires`|timestamp| Valid until
@@ -50,8 +50,8 @@ Body:
     | Reason | Details
     |-|-
     |`Reject`| [Broker 🤵 domains](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) verify if the lifespan of the offered [Token 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) is worth showing to the user, rejecting [Tokens 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) already expired or too far ahead in the future.
-    `Translate` | [Broker 🤵 domains](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) need to translate the [Schema Code 🧩](<../../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>)  into for users in their [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) language.
-    `Share`| When [Broker 🤵 domains](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) answer a [Query@Broker](<../60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) call, they need to filter only the active [Tokens 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) of a certain [Schema Code 🧩](<../../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>)  within a version interval to be shared.
+    `Translate` | [Broker 🤵 domains](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) need to translate the [Schema Code 🧩](<../../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>)  into for users in their [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) language.
+    `Share`| When [Broker 🤵 domains](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) answer a [Query@Broker](<../60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) call, they need to filter only the active [Tokens 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) of a certain [Schema Code 🧩](<../../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>)  within a version interval to be shared.
     |
 
     
