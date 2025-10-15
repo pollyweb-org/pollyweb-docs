@@ -12,7 +12,7 @@
 
 1. **How do Streamer domains work?**
 
-    ![](<../../40 👥 Domains/41 📨 Messages/.📎 Assets/📨🌬️ Streamer-simple.png>)
+    ![](<.📎 Assets/🌬️ Streamer-simple.png>)
 
     |Steps|Description
     |-|-
