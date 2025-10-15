@@ -11,7 +11,7 @@ To start the check-in over a chat, users can:
 
 | Service       | Prompt | User
 | - | - | - |
-| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Airline (4.4 ⭐) [+]
+| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agents/40 🔎 Finders/$ 🔎🫥 Finder agent.md>) | ⓘ Any Airline (4.4 ⭐) [+]
 | 🛩️ Airline     | 😃 Hi! What do you need? <br/> - [ Check-in ] for 🇺🇸 Seattle? <br/>- [ Something else ] | > Check-in
 | 🛩️ Airline     | 😃 Who is checking in? [All] <br/> - [ ] Alice <br/>- [ ] Teresa | > All
 | 🛩️ Airline    | 😃 Add/remove hold bags? [Yes, No] | > No

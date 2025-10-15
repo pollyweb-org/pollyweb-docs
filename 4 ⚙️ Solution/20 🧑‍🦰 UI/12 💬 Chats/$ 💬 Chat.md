@@ -42,7 +42,7 @@
 
 1. **What if the user doesn't have the domain's Locator?**
 
-    If a user doesn't know exactly where to find a [Locator 🔆](<../11 🔆 Locators/$ 🔆 Locator.md>), they can use the [Finder 🔎 domain](<../../50 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) to search for it;
+    If a user doesn't know exactly where to find a [Locator 🔆](<../11 🔆 Locators/$ 🔆 Locator.md>), they can use the [Finder 🔎 domain](<../../50 🫥 Agents/40 🔎 Finders/$ 🔎🫥 Finder agent.md>) to search for it;
     * e.g., if a UK user wants to bind to the UK's national health service but doesn't know where to start, the user can ask for "health service" and the assistance replies with "NHS?".
 
     ---

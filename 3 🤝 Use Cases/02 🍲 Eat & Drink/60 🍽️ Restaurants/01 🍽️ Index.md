@@ -13,7 +13,7 @@
 |🧑‍🦰   `🚪 Door`  | [Booked 🗓️](<41 🚪 Door: Booked 🗓️.md>) | [`🎫 Token`](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) 
 |           | [Walk in empty](<42 🚪 Door: Walk in empty.md>) | [`🧢 Persona`](<../../../4 ⚙️ Solution/50 🫥 Agents/70 🧢 Personas/$ 🧢🫥 Persona agent.md>)
 |           | [Walk in busy](<43 🚪 Door: Walk in busy.md>) | [`🧢 Persona`](<../../../4 ⚙️ Solution/50 🫥 Agents/70 🧢 Personas/$ 🧢🫥 Persona agent.md>)
-|           | [Walk in full](<44 🚪 Door: Walk in full.md>) | [`🔎 Finder`](<../../../4 ⚙️ Solution/50 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>)
+|           | [Walk in full](<44 🚪 Door: Walk in full.md>) | [`🔎 Finder`](<../../../4 ⚙️ Solution/50 🫥 Agents/40 🔎 Finders/$ 🔎🫥 Finder agent.md>)
 |🧑‍🦰   `🪑 Seat`  | [Order food 🥘](<51 🪑 Seat: Order food 🥘.md>) | [`🧚 Curator`](<../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) [`💖 Vitalogist`](<../../../4 ⚙️ Solution/50 🫥 Agents/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) 
 |          | [Order wine 🍷](<52 🪑 Seat: Order wine 🍷.md>) | [`🧚 Curator`](<../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) [`💖 Vitalogist`](<../../../4 ⚙️ Solution/50 🫥 Agents/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) [`🆔 Identity`](<../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>)
 |          | [Change order 🌀](<53 🪑 Seat: Change order 🌀.md>) | [`🧚 Curator`](<../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>)

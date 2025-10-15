@@ -4,7 +4,7 @@ How to book at a salon?
 | [Domain](<../../../../4 ⚙️ Solution/40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) | [Prompt](<../../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
 | - | - | - |
 ||| > Book 🔗
-| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Salon (4.4 ⭐) [+]
+| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agents/40 🔎 Finders/$ 🔎🫥 Finder agent.md>) | ⓘ Any Salon (4.4 ⭐) [+]
 | 💈 Salon   | 😃 Book service? [Yes, No] <br/> - your curator helps with  what<br/> - your scheduler helps with when<br/> - we'll ask your booking contacts <br/> - save the booking on your wallet <br/> - tap a salon's tag when arriving.| > Yes
 | 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | ⏳ Analyzing services...
 | 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Suggested services: <br/>- [  ] Haircut 💇<br/>- [  ]  Manicure 💅<br/>- [  ] Pedicure 🦶 | [X] Haircut 💇 <br/> [X] Manicure 💅

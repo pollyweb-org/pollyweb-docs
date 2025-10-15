@@ -5,7 +5,7 @@ How to buy a simple bus ticket at the bus stop 🚎
 | [Domain](<../../../../4 ⚙️ Solution/40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) | [Prompt](<../../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
 | - | - | - |
 | | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>)
-| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Bus (4.4 ⭐) [+]
+| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agents/40 🔎 Finders/$ 🔎🫥 Finder agent.md>) | ⓘ Any Bus (4.4 ⭐) [+]
 | 🚎 Operator | ℹ️ Stop X: Earl Gray
 | 🚎 Operator | 😃 Hi! What do you need? <br/>- [ Simple 🚎 ] ticket <br/>- [ Timetable ] | > Simple 🚎
 | 🚎 Operator | 😃 How many trips? [1, 2, +] | > 2
