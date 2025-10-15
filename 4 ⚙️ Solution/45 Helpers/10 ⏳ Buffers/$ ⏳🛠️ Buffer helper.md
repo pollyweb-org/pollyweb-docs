@@ -9,7 +9,7 @@
 
 1. **What is a Buffer domain in NLWeb?**
 
-    A [Buffer ⏳ domain](<03 ⏳🛠️ Buffer helper.md>) 
+    A [Buffer ⏳ domain](<$ ⏳🛠️ Buffer helper.md>) 
     * is a point-to-point [Helper 🛠️ domain](<../$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>)
     * that ingests events from [Streamer 🌬️ domains](<../../40 👥 Domains/42 🌬️ Streams/02 🌬️🎭 Streamer role.md>) with high availability and high ingestion throughput
     * and then throttle the deliver of those events to [Subscriber 🔔 domains](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) according to an agreed delivery policy. 
@@ -24,8 +24,8 @@
     |#| Step
     |-|-
     |1| Before sending an event, [Streamer 🌬️ domains](<../../40 👥 Domains/42 🌬️ Streams/02 🌬️🎭 Streamer role.md>) read the public key from the [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) of the [Subscriber 🔔 domain](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>).
-    |2| When sending an event, [Streamer 🌬️ domains](<../../40 👥 Domains/42 🌬️ Streams/02 🌬️🎭 Streamer role.md>) encrypt the content of the event with the Subscriber's public key, then send the encrypted event to the Subscriber's [Buffer ⏳ domain](<03 ⏳🛠️ Buffer helper.md>).
-    |3| Upon receiving an event, if the queue of the Subscriber's Buffer ⏳ is empty, then the [Buffer ⏳ domain](<03 ⏳🛠️ Buffer helper.md>) wakes up the [Subscriber 🔔 domain](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>).
+    |2| When sending an event, [Streamer 🌬️ domains](<../../40 👥 Domains/42 🌬️ Streams/02 🌬️🎭 Streamer role.md>) encrypt the content of the event with the Subscriber's public key, then send the encrypted event to the Subscriber's [Buffer ⏳ domain](<$ ⏳🛠️ Buffer helper.md>).
+    |3| Upon receiving an event, if the queue of the Subscriber's Buffer ⏳ is empty, then the [Buffer ⏳ domain](<$ ⏳🛠️ Buffer helper.md>) wakes up the [Subscriber 🔔 domain](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>).
     |4| The [Subscriber 🔔 domain](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) then wakes up and consumers all the events in the Buffer's ⏳ queue, decrypting them with its own private key from the [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) key-pair; once the queue is empty, it goes back to sleep.
     
     ---
@@ -33,18 +33,18 @@
 
 1. **Why are Buffers important?**
 
-    [Buffer ⏳ domains](<03 ⏳🛠️ Buffer helper.md>) handle the difference in speed and availability between two [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>), allowing for faster [Streamer 🌬️ domains](<../../40 👥 Domains/42 🌬️ Streams/02 🌬️🎭 Streamer role.md>) to continue without waiting for the slower receiver.
+    [Buffer ⏳ domains](<$ ⏳🛠️ Buffer helper.md>) handle the difference in speed and availability between two [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>), allowing for faster [Streamer 🌬️ domains](<../../40 👥 Domains/42 🌬️ Streams/02 🌬️🎭 Streamer role.md>) to continue without waiting for the slower receiver.
 
-    * **Sending**: [Buffer ⏳ domains](<03 ⏳🛠️ Buffer helper.md>) allow [Streamer 🌬️ domains](<../../40 👥 Domains/42 🌬️ Streams/02 🌬️🎭 Streamer role.md>) to publish events in real-time with a high-throughput push architecture, without considering the receivers' availability or ingestion capacity.
+    * **Sending**: [Buffer ⏳ domains](<$ ⏳🛠️ Buffer helper.md>) allow [Streamer 🌬️ domains](<../../40 👥 Domains/42 🌬️ Streams/02 🌬️🎭 Streamer role.md>) to publish events in real-time with a high-throughput push architecture, without considering the receivers' availability or ingestion capacity.
     
-    * **Receiving**: [Buffer ⏳ domains](<03 ⏳🛠️ Buffer helper.md>) allow slow intermittent [Subscriber 🔔 domains](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) to consume the events at their own pace by using a poll architecture, while allowing for near-real-time event delivery by leveraging wake-up calls.
+    * **Receiving**: [Buffer ⏳ domains](<$ ⏳🛠️ Buffer helper.md>) allow slow intermittent [Subscriber 🔔 domains](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) to consume the events at their own pace by using a poll architecture, while allowing for near-real-time event delivery by leveraging wake-up calls.
 
     ---
     <br/>
 
 1. **How can Buffers improve network latency?**
 
-    [Buffer ⏳ domains](<03 ⏳🛠️ Buffer helper.md>) may use the following techniques to improve network latency when the [Streamer 🌬️ domain](<../../40 👥 Domains/42 🌬️ Streams/02 🌬️🎭 Streamer role.md>) and geographically distant from the [Subscriber 🔔 domain](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) (e.g., in different continents):
+    [Buffer ⏳ domains](<$ ⏳🛠️ Buffer helper.md>) may use the following techniques to improve network latency when the [Streamer 🌬️ domain](<../../40 👥 Domains/42 🌬️ Streams/02 🌬️🎭 Streamer role.md>) and geographically distant from the [Subscriber 🔔 domain](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) (e.g., in different continents):
 
     * Use content-delivery networks (CDNs) to place the ingestion API as close as possible to the [Streamer 🌬️ domain](<../../40 👥 Domains/42 🌬️ Streams/02 🌬️🎭 Streamer role.md>), and the delivery API as close as possible to the [Subscriber 🔔 domain](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) (e.g., AWS Points of Presence).
   
@@ -59,11 +59,11 @@
 
     Yes. 
     
-    * When a [Streamer 🌬️ domain](<../../40 👥 Domains/42 🌬️ Streams/02 🌬️🎭 Streamer role.md>) is about to push an event to a receiver's [Buffer ⏳ domain](<03 ⏳🛠️ Buffer helper.md>), it first reads the public key of the [Subscriber 🔔 domain](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) from its [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) DNS record, then uses the public key to encrypt the content of the event.
+    * When a [Streamer 🌬️ domain](<../../40 👥 Domains/42 🌬️ Streams/02 🌬️🎭 Streamer role.md>) is about to push an event to a receiver's [Buffer ⏳ domain](<$ ⏳🛠️ Buffer helper.md>), it first reads the public key of the [Subscriber 🔔 domain](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) from its [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) DNS record, then uses the public key to encrypt the content of the event.
   
     * When the [Subscriber 🔔 domain](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) polls the events, it uses its private key to decrypt the event's content.
     
-    * This way, [Buffer ⏳ domains](<03 ⏳🛠️ Buffer helper.md>) cannot read the content of events.
+    * This way, [Buffer ⏳ domains](<$ ⏳🛠️ Buffer helper.md>) cannot read the content of events.
 
     ---
     <br/>
@@ -73,7 +73,7 @@
 1. **For how long do Buffers hold events?**
 
     It depends.
-    * [Subscriber 🔔 domains](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) define how long they want their [Buffer ⏳ helper domains](<03 ⏳🛠️ Buffer helper.md>) to store pending messages, by setting how long to keep the events before they expire.
+    * [Subscriber 🔔 domains](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) define how long they want their [Buffer ⏳ helper domains](<$ ⏳🛠️ Buffer helper.md>) to store pending messages, by setting how long to keep the events before they expire.
     * These settings include:
         * expiration for unhandled events in the queue;
         * expiration for failed events in the dead-letter queue (DLQ); 
@@ -87,7 +87,7 @@
 1. **What if a wake-up request fails?**
 
     Sometimes, [Subscriber 🔔 domains](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) may be unreachable due to downtime, malfunctions, and unexpected network issues. 
-    * To account for network issues during a weekend, [Buffer ⏳ domains](<03 ⏳🛠️ Buffer helper.md>) retry to wake-up [Subscriber 🔔 domains](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) with exponential back-off for 3 days.
+    * To account for network issues during a weekend, [Buffer ⏳ domains](<$ ⏳🛠️ Buffer helper.md>) retry to wake-up [Subscriber 🔔 domains](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) with exponential back-off for 3 days.
     * To account for downtimes and malfunctions, [Subscriber 🔔 domains](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) should perform a poll whenever they restart. 
 
     ---
@@ -97,7 +97,7 @@
 
     Yes, optionally.
     * Replay allows a [Subscriber 🔔 domains](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) to change their handling logic, then go back into the past and process again all events received from a given date (e.g., for A/B testing of new features).
-    * [Subscriber 🔔 domains](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) can choose to store all events received by their [Buffer ⏳ helper domain](<03 ⏳🛠️ Buffer helper.md>), for some time, for future replay.
+    * [Subscriber 🔔 domains](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) can choose to store all events received by their [Buffer ⏳ helper domain](<$ ⏳🛠️ Buffer helper.md>), for some time, for future replay.
     * This includes both successfully and unsuccessfully handled events.
 
     ---
@@ -107,7 +107,7 @@
 1. **Do Buffers allow Subscribers to poll in batch?**
 
     Yes, optionally.
-    * [Buffer ⏳ domains](<03 ⏳🛠️ Buffer helper.md>) allow [Subscriber 🔔 domains](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) to poll in batch (i.e., multiple events per poll). 
+    * [Buffer ⏳ domains](<$ ⏳🛠️ Buffer helper.md>) allow [Subscriber 🔔 domains](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) to poll in batch (i.e., multiple events per poll). 
     * [Subscriber 🔔 domains](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) can choose to poll only individual events or batches of events.
     * [Subscriber 🔔 domains](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) choose the size of the batch - i.e., the maximum number of events per poll.
 
@@ -118,7 +118,7 @@
 
     Yes, except for first-in-first-out (FIFO) delivery.
     * [Subscriber 🔔 domains](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) can use multiple parallel connections to increase the polling throughput.
-    * When a [Subscriber 🔔 domains](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) polls events, [Buffer ⏳ domains](<03 ⏳🛠️ Buffer helper.md>) hide the events polled for a while until their successful handling is confirmed.
+    * When a [Subscriber 🔔 domains](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) polls events, [Buffer ⏳ domains](<$ ⏳🛠️ Buffer helper.md>) hide the events polled for a while until their successful handling is confirmed.
     * [Subscriber 🔔 domains](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) can confirm either the success of the entire poll with one or more events, or confirm only specific events in the case of a partially successful pool.
     * If an event is not confirmed after a while, it becomes available again for polling.
 
@@ -128,8 +128,8 @@
 4.  **Do Buffers ensure delivery order?**
 
     Yes, but optionally and without parallel pooling.
-    * [Subscriber 🔔 domains](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) can ask their [Buffer ⏳ domain](<03 ⏳🛠️ Buffer helper.md>) to be first-in-first-out (FIFO), based on when the [Streamer 🌬️ domain](<../../40 👥 Domains/42 🌬️ Streams/02 🌬️🎭 Streamer role.md>) pushed the event.
-    * The [Buffer ⏳ domain](<03 ⏳🛠️ Buffer helper.md>) will wait for the [Subscriber 🔔 domain](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) to confirm the successful handling of older events before releasing new ones.
+    * [Subscriber 🔔 domains](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) can ask their [Buffer ⏳ domain](<$ ⏳🛠️ Buffer helper.md>) to be first-in-first-out (FIFO), based on when the [Streamer 🌬️ domain](<../../40 👥 Domains/42 🌬️ Streams/02 🌬️🎭 Streamer role.md>) pushed the event.
+    * The [Buffer ⏳ domain](<$ ⏳🛠️ Buffer helper.md>) will wait for the [Subscriber 🔔 domain](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) to confirm the successful handling of older events before releasing new ones.
 
     ---
     <br/>
@@ -137,7 +137,7 @@
 1. **What if an event is not confirmed?**
 
     If an event is not confirmed before it expires, then the event becomes available again for polling.
-    * [Buffer ⏳ domains](<03 ⏳🛠️ Buffer helper.md>) will repeat this for a few times (typically three), until the event is removed from the queue.
+    * [Buffer ⏳ domains](<$ ⏳🛠️ Buffer helper.md>) will repeat this for a few times (typically three), until the event is removed from the queue.
     * If the [Subscriber 🔔 domain](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) asked for a dead-letter queue (DLQ) then the event is moved to there until DQL timeout.
     * If the [Subscriber 🔔 domain](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) asked for replay storage, then the event is stored for replay until replay timeout.
     
@@ -147,7 +147,7 @@
 1. **Do Buffers support re-drive?**
 
     Yes.
-    * [Subscriber 🔔 domains](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) may ask their [Buffer ⏳ domains](<03 ⏳🛠️ Buffer helper.md>) to move all the events in the dead-letter queue (DLQ) to the main queue, ad-hoc.
+    * [Subscriber 🔔 domains](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) may ask their [Buffer ⏳ domains](<$ ⏳🛠️ Buffer helper.md>) to move all the events in the dead-letter queue (DLQ) to the main queue, ad-hoc.
     * This allows [Subscriber 🔔 domains](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) to fix bugs and handle transient errors.
     * Re-drive can also be performed periodically (e.g., every night) or conditionally (e.g., when the queue is empty).
   
