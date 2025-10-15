@@ -18,7 +18,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header| `From`| string | Caller [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) name
+|Header| `From`| string | Caller [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/$ 👥 Domains/00 👥 Domain.md>) name
 || `To` | string | [Printer 🖨️ domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/75 🖨️ Printers/$ 🖨️🛠️ Printer helper.md>) name
 || `Subject`| string | `Grab@Printer`
 |Body|`Alias`| string | Unique alias on the [Printer 🖨️](<../../4 ⚙️ Solution/45 🛠️ Helper domains/75 🖨️ Printers/$ 🖨️🛠️ Printer helper.md>)

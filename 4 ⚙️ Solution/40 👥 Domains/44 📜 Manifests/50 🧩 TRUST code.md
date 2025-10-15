@@ -14,7 +14,7 @@
 | Property | Type | Notes| Examples
 |-|-|-|-
 | `Expires`        | string | Date limit  in UTC timestamp | `2024-01-10`
-| `Domain` | string | [Domain 👥](<../41 📨 Messages/00 👥 Domain.md>) to [Trust 👍](<../43 👍 Trusts/$ 👍 Domain Trust.md>) <br/>- defaults to `*` | `*` `nlweb.org` 
+| `Domain` | string | [Domain 👥](<../$ 👥 Domains/00 👥 Domain.md>) to [Trust 👍](<../43 👍 Trusts/$ 👍 Domain Trust.md>) <br/>- defaults to `*` | `*` `nlweb.org` 
 | or `Domains` | array | Additional list of domains  | `[a.co, b.co]`
 | `Query`  | string | [Schema Codes 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) to [Trust 👍](<../43 👍 Trusts/$ 👍 Domain Trust.md>) | `*` `/PERSONA/*`
 | or `Queries`  | array | Additional list of queries | `[*]`
