@@ -61,7 +61,7 @@
     |Flow| Description
     |-|-
     |[👥⏩🕸 Manifest](<../../../5 ⏩ Flows/30 👥⏩ Domains/04 👥⏩🕸 Manifest 📜.md>) | Publish [domain Manifest 📜](<../44 📜 Manifests/$ 📜 Domain Manifest.md>) changes
-    | [👥⏩🤝 Subscribe](<../../../5 ⏩ Flows/07 🤝⏩ Billers/02 👥⏩🤝 Domain Subscription.md>) | Sign subscriptions on [Biller 🤝 domains](<../../45 🛠️ Helper domains/20 🤝 Billers/$ 🤝🛠️ Biller helper.md>)
+    | [👥⏩🤝 Subscribe](<../../45 🛠️ Helper domains/20 🤝 Billers/🤝⏩ Biller flows/👥⏩🤝 Domain Subscription.md>) | Sign subscriptions on [Biller 🤝 domains](<../../45 🛠️ Helper domains/20 🤝 Billers/🤝🛠️ Biller helper.md>)
 
 
     ---

@@ -32,9 +32,9 @@
     
     * [Seller 💵 domains](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) set up one [Payer 💳 helper](<../../50 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) to pay for ads.
     
-    * Advertiser 👀 domains set up one [Biller 🤝 helper](<../20 🤝 Billers/$ 🤝🛠️ Biller helper.md>) to charge [Seller 💵 domains](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) for ads, one [Collector 🏦 helper](<../30 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) to receive the ad payments, and one [Payer 💳 helper](<../../50 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) for paying ad-printing commissions to [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) and [Curator 🧚 agents](<../../50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>).
+    * Advertiser 👀 domains set up one [Biller 🤝 helper](<../20 🤝 Billers/🤝🛠️ Biller helper.md>) to charge [Seller 💵 domains](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) for ads, one [Collector 🏦 helper](<../30 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) to receive the ad payments, and one [Payer 💳 helper](<../../50 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) for paying ad-printing commissions to [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) and [Curator 🧚 agents](<../../50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>).
     
-    * [Broker 🤵 domains](<../24 🤵 Brokers/$ 🤵 Broker domain.md>) set up one Advertiser 👀 helper to manage ads, and one [Biller 🤝 helper](<../20 🤝 Billers/$ 🤝🛠️ Biller helper.md>) to orchestrate the payments to all domains involved in ad printing for its registered [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
+    * [Broker 🤵 domains](<../24 🤵 Brokers/$ 🤵 Broker domain.md>) set up one Advertiser 👀 helper to manage ads, and one [Biller 🤝 helper](<../20 🤝 Billers/🤝🛠️ Biller helper.md>) to orchestrate the payments to all domains involved in ad printing for its registered [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
 
 
     ---
@@ -51,7 +51,7 @@
     | # | Showing ads
     |-|-
     | 1 | When closing a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>), [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) send a Goodbye via the chat's [Broker 🤵 domain](<../24 🤵 Brokers/$ 🤵 Broker domain.md>).
-    2 | The [Broker 🤵 domain](<../24 🤵 Brokers/$ 🤵 Broker domain.md>) registers a new bill on a supporting [Biller 🤝 helper](<../20 🤝 Billers/$ 🤝🛠️ Biller helper.md>) (this a synchronous call the returns the ID as a response, allowing the other parties to add tracking information to the ad transaction).
+    2 | The [Broker 🤵 domain](<../24 🤵 Brokers/$ 🤵 Broker domain.md>) registers a new bill on a supporting [Biller 🤝 helper](<../20 🤝 Billers/🤝🛠️ Biller helper.md>) (this a synchronous call the returns the ID as a response, allowing the other parties to add tracking information to the ad transaction).
     3 | The [Broker 🤵 domain](<../24 🤵 Brokers/$ 🤵 Broker domain.md>) asks the Chat's 💬 [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) to share the [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) summary with the user's [Curator 🧚 agent](<../../50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>), passing the bill's [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>).
     4 | The [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) sends an anonymized [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) summary to the user's [Curator 🧚 agent](<../../50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>), plus the bill's [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>).
     5 | The user's [Curator 🧚 agent](<../../50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) sends analysis requests to one or more Advertisers 👀 containing the user's context (e.g., country), the user's advertising preferences, the anonymized [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) summary, and the bill [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>).
@@ -63,11 +63,11 @@
 
     | # | Periodic billing
     |-|-
-    | A | Monthly, the Broker's [Biller 🤝 helper](<../20 🤝 Billers/$ 🤝🛠️ Biller helper.md>) will debit its Advertiser's 👀 [Payer 💳 helper](<../../50 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) a lump sump for all contributions of the multiple domains in the advertisement workflow during the billing period.  
+    | A | Monthly, the Broker's [Biller 🤝 helper](<../20 🤝 Billers/🤝🛠️ Biller helper.md>) will debit its Advertiser's 👀 [Payer 💳 helper](<../../50 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) a lump sump for all contributions of the multiple domains in the advertisement workflow during the billing period.  
     | B | The Advertiser's 👀 [Payer 💳 helper](<../../50 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) sends the corresponding part to the [Collector 🏦 helper](<../30 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) of each [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) for their [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) summaries.
     | C | Sends the corresponding part to the [Collector 🏦 helper](<../30 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) of each [Curator 🧚 agent](<../../50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) for their filtering and sorting of the ads.
     | D | And sends the corresponding part to the [Collector 🏦 helper](<../30 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) of the [Broker 🤵 domain](<../24 🤵 Brokers/$ 🤵 Broker domain.md>) for orchestrating the ad workflows.
-    | E | Periodically, the Advertiser's 👀 [Biller 🤝 helper](<../20 🤝 Billers/$ 🤝🛠️ Biller helper.md>) will debit each [Seller 💵 domain](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) for their printed and clicked ads in the billing period.
+    | E | Periodically, the Advertiser's 👀 [Biller 🤝 helper](<../20 🤝 Billers/🤝🛠️ Biller helper.md>) will debit each [Seller 💵 domain](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) for their printed and clicked ads in the billing period.
     | F | Each Seller's 💵 [Payer 💳 helper](<../../50 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) then sends the corresponding payment to the Advertiser's 👀 [Collector 🏦 helper](<../30 🏦 Collectors/$ 🏦🛠️ Collector helper.md>).
     
 
@@ -86,14 +86,14 @@
     - 1/ ads showed to the user, and 
     - 2/ ads clicked by the user.
     
-    Advertisers register the displays and clicks on their [Biller 🤝](<../20 🤝 Billers/$ 🤝🛠️ Biller helper.md>).
+    Advertisers register the displays and clicks on their [Biller 🤝](<../20 🤝 Billers/🤝🛠️ Biller helper.md>).
     - These then charge the monthly totals to [Sellers 💵](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>).
 
     ---
 
 1. **How do parties monetize by displaying Ads?**
 
-    Monthly, the Broker's [Biller 🤝 helper](<../20 🤝 Billers/$ 🤝🛠️ Biller helper.md>) debits the transaction fees and percentages to the Advertisers, who then have to pay the [Curator 🧚 agents](<../../50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) and the [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>)
+    Monthly, the Broker's [Biller 🤝 helper](<../20 🤝 Billers/🤝🛠️ Biller helper.md>) debits the transaction fees and percentages to the Advertisers, who then have to pay the [Curator 🧚 agents](<../../50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) and the [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>)
 
     ---
 
@@ -107,7 +107,7 @@
 
 1. **How are frauds prevented?**
 
-    [Broker 🤵 domains](<../24 🤵 Brokers/$ 🤵 Broker domain.md>) register contracts on [Billers 🤝](<../20 🤝 Billers/$ 🤝🛠️ Biller helper.md>) that require a number of matching values from the multiple parties involve in each advertising transaction:
+    [Broker 🤵 domains](<../24 🤵 Brokers/$ 🤵 Broker domain.md>) register contracts on [Billers 🤝](<../20 🤝 Billers/🤝🛠️ Biller helper.md>) that require a number of matching values from the multiple parties involve in each advertising transaction:
     
     For ad displays: 
     - Advertisers and [Curator 🧚 agents](<../../50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) send the number of ads offered to the Persona;
