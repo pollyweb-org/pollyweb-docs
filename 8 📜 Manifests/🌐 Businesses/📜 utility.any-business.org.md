@@ -4,7 +4,7 @@
 ```yaml
 🤝: nlweb.org/MANIFEST
 
-Identity:
+About:
   Domain: utility.any-business.org
   Name: Any Utility
   Resources: 

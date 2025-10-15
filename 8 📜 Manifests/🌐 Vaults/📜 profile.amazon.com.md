@@ -5,7 +5,7 @@
 ```yaml
 🤝: nlweb.org/MANIFEST
 
-Identity:
+About:
   Domain: profile.amazon.com
   Name: Amazon
   

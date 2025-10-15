@@ -5,7 +5,7 @@
 ```yaml
 🤝: nlweb.org/MANIFEST
 
-Identity:
+About:
   Domain: federalreserve.gov
   Name: Federal Reserve of the United States
 

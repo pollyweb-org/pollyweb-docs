@@ -5,7 +5,7 @@
 ```yaml
 🤝: nlweb.org/MANIFEST
 
-Identity:
+About:
   Domain: taxes.any-nation.org
   Name: Any Nation's Tax Services
   

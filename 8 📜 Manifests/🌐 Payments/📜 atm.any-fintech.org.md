@@ -4,7 +4,7 @@
 ```yaml
 🤝: nlweb.org/MANIFEST
 
-Identity:
+About:
   Domain: atm.any-fintech.org
   Name: Any Cash Machine
   

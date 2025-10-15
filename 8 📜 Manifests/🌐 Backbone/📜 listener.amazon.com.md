@@ -5,7 +5,7 @@
 ```yaml
 🤝: nlweb.org/MANIFEST
 
-Identity:
+About:
   Domain: listener.amazon.com
   Name: Amazon Listener
   

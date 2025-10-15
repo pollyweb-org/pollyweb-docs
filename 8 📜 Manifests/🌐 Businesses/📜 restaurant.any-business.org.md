@@ -4,7 +4,7 @@
 ```yaml
 🤝: nlweb.org/MANIFEST
 
-Identity:
+About:
   Domain: restaurant.any-business.org
   Name: Any Restaurant
   Resources:

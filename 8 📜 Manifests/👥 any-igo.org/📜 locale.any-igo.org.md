@@ -4,7 +4,7 @@
 ```yaml
 🤝: nlweb.org/MANIFEST
 
-Identity:
+About:
   Domain: locale.any-igo.org
   Name: Unicode Common Locale Data Repository (CLDR)
   Description: > 

@@ -5,6 +5,6 @@
 ```yaml
 🤝: nlweb.org/MANIFEST
 
-Identity:
+About:
   Domain: any-broker.com
   Name: Any Broker

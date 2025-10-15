@@ -4,5 +4,5 @@
 ```yaml
 🤝: nlweb.org/MANIFEST
 
-Identity:
+About:
   Domain: emojis.any-igo.org

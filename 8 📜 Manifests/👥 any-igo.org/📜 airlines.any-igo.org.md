@@ -5,7 +5,7 @@
 ```yaml
 🤝: nlweb.org/MANIFEST
 
-Identity:
+About:
   Domain: airlines.any-igo.org
   Name: Any IGO Airlines
   

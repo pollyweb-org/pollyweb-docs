@@ -5,7 +5,7 @@
 ```yaml
 🤝: nlweb.org/MANIFEST
 
-Identity:
+About:
   Domain: hairdresser.any-business.org
   Name: Any Hairdresser, Singapore
   

@@ -5,7 +5,7 @@
 ```yaml
 🤝: nlweb.org/MANIFEST
 
-Identity:
+About:
   Domain: hhs.gov
   Name: U.S. Department of Health & Human Services
   

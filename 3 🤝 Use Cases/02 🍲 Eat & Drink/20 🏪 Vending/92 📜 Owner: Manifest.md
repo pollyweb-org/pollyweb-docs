@@ -9,7 +9,7 @@ TODO: Add the Flow to the manifest.
 ## Manifest
 
 ```yaml
-Identity:
+About:
     Domain: any-vending.com
     Name: Any Vending
 ```

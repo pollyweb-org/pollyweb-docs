@@ -34,7 +34,7 @@ Schema:
     required: [Identity]
     properties:
 
-      Identity:
+      About:
         $ref: .MANIFEST/IDENTITY
 
       Datasets:

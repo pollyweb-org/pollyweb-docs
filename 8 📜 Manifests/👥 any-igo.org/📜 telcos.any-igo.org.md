@@ -5,7 +5,7 @@
 ```yaml
 🤝: nlweb.org/MANIFEST
 
-Identity:
+About:
   Domain: telcos.any-igo.org
   Name: ITU - International Telecommunication Union
   Description: >

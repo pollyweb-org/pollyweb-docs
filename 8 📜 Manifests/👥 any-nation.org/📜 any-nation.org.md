@@ -4,7 +4,7 @@
 ```yaml
 🤝: nlweb.org/MANIFEST
 
-Identity:
+About:
   Domain: any-nation.org
   Name: Any Nation's Government
   Resources:

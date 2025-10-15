@@ -77,7 +77,7 @@
 1. **What does the [domain Manifest 📜](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) look like?**
 
     ```yaml
-    Identity:
+    About:
       Domain: any-street-food.com
       Name: Any Street Food
     ```

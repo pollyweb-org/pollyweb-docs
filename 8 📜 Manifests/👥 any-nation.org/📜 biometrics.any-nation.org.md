@@ -5,7 +5,7 @@
 ```yaml
 🤝: nlweb.org/MANIFEST
 
-Identity:
+About:
   Domain: biometrics.any-nation.org
   Name: Any Nation's Biometric Center
  
