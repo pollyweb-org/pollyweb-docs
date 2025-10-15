@@ -4,7 +4,7 @@
 
 1. **What is a Brand domain role in NLWeb?**
 
-    A [Brand 🍏](<07 🍏🎭 Brand role.md>) is any [domain 👥](<../../40 👥 Domains/$ 👥 Domains/00 👥 Domain.md>) that orders [Things 💠](<01 💠 Thing.md>) from a [Wand 🪄 helper domain](<../../45 🛠️ Helper domains/90 🪄 Wands/$ 🪄🛠️ Wand helper.md>) in order to [enhance and personalize](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/00 🔆 Scanning index.md>) the Brand's products - e.g.:
+    A [Brand 🍏](<07 🍏🎭 Brand role.md>) is any [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) that orders [Things 💠](<01 💠 Thing.md>) from a [Wand 🪄 helper domain](<../../45 🛠️ Helper domains/90 🪄 Wands/$ 🪄🛠️ Wand helper.md>) in order to [enhance and personalize](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/00 🔆 Scanning index.md>) the Brand's products - e.g.:
     * `Coca-Cola` may talk about their history and nutritional info. 
     * `Nike` may talk about a shoe and allow orders for home delivery.
     * `HP` may allow for usage monitoring and ordering of ink cartridges.

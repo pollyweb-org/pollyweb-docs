@@ -4,7 +4,7 @@
 1. **What are Helper domains?**
 
     A [Helper 🛠️👥](<$ 🛠️👥 Helper domain.md>) is
-    - any [domain 👥](<../../40 👥 Domains/$ 👥 Domains/00 👥 Domain.md>) that support other [domains 👥](<../../40 👥 Domains/$ 👥 Domains/00 👥 Domain.md>) 
+    - any [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) that support other [domains 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) 
     - by offloading common undifferentiated responsibilities.
 
     ---
@@ -13,7 +13,7 @@
 1. **How do Helpers compare to Vaults?**
 
     * They are similar to [Vault 🗄️ domains](<../../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>), 
-        * but focused on [domains 👥](<../../40 👥 Domains/$ 👥 Domains/00 👥 Domain.md>) 
+        * but focused on [domains 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) 
         * instead of [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
     * Given the similarity, 
         * some [Vault 🗄️ domains](<../../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) may also be Helpers 🛠️ 
@@ -27,12 +27,12 @@
     | Helper 🛠️ | Example | Responsibilities
     |-|-|-
     | [👀 Ads](<../12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) | GoogleAds | Intermediates ad workflows for [Brokers 🤵](<../24 🤵 Brokers/$ 🤵 Broker domain.md>)
-    | [🤝 Biller](<../20 🤝 Billers/$ 🤝🛠️ Biller helper.md>) | ApplePay | Manages billing cycles between [domains 👥](<../../40 👥 Domains/$ 👥 Domains/00 👥 Domain.md>)
+    | [🤝 Biller](<../20 🤝 Billers/$ 🤝🛠️ Biller helper.md>) | ApplePay | Manages billing cycles between [domains 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>)
     | [🤵 Broker](<../24 🤵 Brokers/$ 🤵 Broker domain.md>) | WhatsApp | Manages [Chats](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) between [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) and [Hosts 🤗](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>)
     | [⏳ Buffer](<../27 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) | Kafka | Throttles [Streamers 🌬️](<../../41 🎭 Domain Roles/75 🌬️ Streamers/$ 🌬️🎭 Streamer role.md>) for [Subscribers 🔔](<../../41 🎭 Domain Roles/76 🔔 Subscribers/$ 🔔🎭 Subscriber role.md>)
     | [🏦 Collector](<../30 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) | CapitalOne | Collects money from [Payers 💳](<../../50 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) for [Sellers 💵](<../../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>)
     | [🔐 Keymaker](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/05  🔐🏭 Keymaker supplier.md>) | - | Manages [Padlocks 🔒](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/01 🔒 Padlock device.md>) for [Brands 🍏](<../../70 🌳 Ambient/71 💠 Brand Things/07 🍏🎭 Brand role.md>)
-    | [💳 Payer](<../../50 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) | PayPal | Pays [Collectors 🏦](<../30 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) for [domains 👥](<../../40 👥 Domains/$ 👥 Domains/00 👥 Domain.md>)
+    | [💳 Payer](<../../50 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) | PayPal | Pays [Collectors 🏦](<../30 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) for [domains 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>)
     | [🖨️ Printer](<../75 🖨️ Printers/$ 🖨️🛠️ Printer helper.md>) | - | Prints [Locators 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) for [Brand 🍏](<../../70 🌳 Ambient/71 💠 Brand Things/07 🍏🎭 Brand role.md>) and [Host 🤗](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>)
     | [🛰️ Relayer](<../80 🛰️ Relayers/$ 🛰️🛠️ Relayer helper.md>)
     | [🪄 Wand](<../90 🪄 Wands/$ 🪄🛠️ Wand helper.md>) | - | Manages [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) for [Things 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>) for [Brands 🍏](<../../70 🌳 Ambient/71 💠 Brand Things/07 🍏🎭 Brand role.md>)
@@ -43,7 +43,7 @@
 
 1. **What roles do Helpers implement?**
 
-    | [Role 🎭](<../../40 👥 Domains/$ 👥 Domains/00 👥 Domain.md>) | Purpose
+    | [Role 🎭](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) | Purpose
     |-|-
     | [🤗 Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) | To open [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with domain-admin users
     | [🪢 Integrator](<../../41 🎭 Domain Roles/35 🪢 Integrators/$ 🪢🎭 Integrator role.md>) | To manifest its services to  [Finder 🔎 domains](<../../50 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>)
@@ -83,7 +83,7 @@
 
 1. **What does the registration Chat look like?**
 
-    | [Domain](<../../40 👥 Domains/$ 👥 Domains/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
     | - | - | - 
     | 🛠️ [Helper](<$ 🛠️👥 Helper domain.md>) | 😃 Hi! What do you need? <br/>- [ Register ]  | > Register
     | 🤵 [Broker](<../24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 [Ready to register?](<../../41 🎭 Domain Roles/27 💼 Consumers/02 💼⏩🧑‍🦰 Inform 📝.md>) [Yes, No] <br>- Your broker binds with us 🔗 <br/>- You choose a billing plan 🤝 <br/>- Your payer adds a method 💳 <br/>- Your identity signs the terms 🆔 | > Yes

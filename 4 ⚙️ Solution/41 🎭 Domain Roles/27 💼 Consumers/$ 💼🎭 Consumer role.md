@@ -88,7 +88,7 @@
 1. **How do Consumers verify a Token's signature?**
 
     When issuing [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>), the [Issuer 🎴 domains](<../40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) sign them with the same key-pair used in their [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) public key. 
-    - Other [domains 👥](<../../40 👥 Domains/$ 👥 Domains/00 👥 Domain.md>) can use the [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) key to verify the signature on the [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>).
+    - Other [domains 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) can use the [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) key to verify the signature on the [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>).
 
     ---
     <br/>
@@ -143,7 +143,7 @@
 
     Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) as an example. 
 
-    | [Domain](<../../40 👥 Domains/$ 👥 Domains/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 🎰 Casino   | ℹ️ Request for minimum age. [+]
     | 🆔 [Identity](<../../50 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Share over 21? [Yes, No]      | > Yes
@@ -213,7 +213,7 @@
     
     * That configuration would result in the following [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) excerpt. 
 
-        | [Domain](<../../40 👥 Domains/$ 👥 Domains/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
+        | [Domain](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
         |-|-|-|
         | 🏨 Hotel  | 😃 Hi! What do you need? <br/> - [ Check-in ] <br/> - [ Something else ] | > Check-in 
         | 🤵 [Broker](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Ready to check-in? [Yes, No] <br/> - your identity 🆔 shares your ID <br/> - your curator 🧚 sets the room  <br/> - your payer 💳 pays the stay   <br/> - your broker 🤵 saves the room key  | > Yes

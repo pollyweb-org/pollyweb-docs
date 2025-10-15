@@ -30,7 +30,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header| `From`    | string | The name of the [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/$ 👥 Domains/00 👥 Domain.md>) asking
+| Header| `From`    | string | The name of the [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) asking
 |       | `To`      | string | [Graph 🕸 domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/50 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) name
 |       | `Subject` | string | `Schema@Graph`
 | Body  | `Code`    | string | [Schema Code 🧩](<../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>)
