@@ -17,7 +17,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From`|string | [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) name
+|Header|`From`|string | [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) name
 ||`To`|string| [Notifier 📣 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/$ 📣 Notifier domain.md>) name
 ||`Subject`|string|`Remove@Broker`
 |Body  |`Path`    |string| Path from [`Save@Notifier`](<41 🤵🐌📣 Save.md>)

@@ -25,7 +25,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header | `From`    | string | [Finder 🔎](<../../4 ⚙️ Solution/30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) register as user [Agent 🫥](<../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) 
-|        | `To`      | string | [Broker 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) from [`Converse@Notifier`](<../65 📣🅰️ Notifier/02 📣💬🅰️ Chats/21 🤵🐌📣 Converse.md>) |
+|        | `To`      | string | [Broker 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) from [`Converse@Notifier`](<../65 📣🅰️ Notifier/02 📣💬🅰️ Chats/21 🤵🐌📣 Converse.md>) |
 |        | `Subject` | string | `Introduced@Broker`
 | Body   | `ChatID`  | uuid   | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) from [`Converse@Notifier`](<../65 📣🅰️ Notifier/02 📣💬🅰️ Chats/21 🤵🐌📣 Converse.md>)
 |       | `Host`| string | [Host 🤗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) from [`Converse@Notifier`](<../65 📣🅰️ Notifier/02 📣💬🅰️ Chats/21 🤵🐌📣 Converse.md>)

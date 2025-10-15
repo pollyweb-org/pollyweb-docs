@@ -24,7 +24,7 @@
     |Component| Examples | Purpose
     |-|-|-
     | `Code` |  `.HOST` | [Schema Code 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) for [`Schema@Graph`](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>)
-    | `Domain` | `any-host.com` | [Domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) for a [Broker 🤵](<../03 🤵 Brokers/03 🤵 Broker domain.md>) to interact 
+    | `Domain` | `any-host.com` | [Domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) for a [Broker 🤵](<../03 🤵 Brokers/$ 🤵 Broker domain.md>) to interact 
     | `Key` | `product-1234` | Resource key in the [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>)
     | `Properties` | `A=1,B=2` | Any optional data fields
 
@@ -79,11 +79,11 @@
 
     User's best option to detect whether a [Locator 🔆](<01 🔆 Locator.md>) is genuine or fake, is to see if it opens their [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) or if it opens a web page.
 
-    - If it opens their [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>), then they'll know that all messages will safely go through a trustworthy [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>).
+    - If it opens their [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>), then they'll know that all messages will safely go through a trustworthy [Broker 🤵 domain](<../03 🤵 Brokers/$ 🤵 Broker domain.md>).
     - Instead, if the [Locator 🔆](<01 🔆 Locator.md>) opens a web page, then it's most probably not an NLWeb [Locator 🔆](<01 🔆 Locator.md>).
     - Exceptionally, users will be directed to the `nlweb.org` website if they do not have a [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) installed on their smartphone.
 
-    Given that the [Wallet's Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) serves as a protector, user can trust its mechanism to protect them from [phishing sites 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/06 📺 QR phishing.md>), just like Google Chrome does with [SSL certificate validation 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/08 📺 Google's Risk API.md>) and other phishing detection/blocking features - these mechanisms include:
+    Given that the [Wallet's Broker 🤵 domain](<../03 🤵 Brokers/$ 🤵 Broker domain.md>) serves as a protector, user can trust its mechanism to protect them from [phishing sites 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/06 📺 QR phishing.md>), just like Google Chrome does with [SSL certificate validation 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/08 📺 Google's Risk API.md>) and other phishing detection/blocking features - these mechanisms include:
 
     - [Messages 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) can only flow through encrypted channels with cross-authentication of both sender and receiver domains;
     - Data exchange can only be performed between domains that publicly [Trust 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) one another or are trusted by mutually trusted [Authority 🏛️ domains](<../../45 🛠️ Helper domains/14 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>), following the principle of least-privilege;

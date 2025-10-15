@@ -22,7 +22,7 @@ Body:
 
 |Object |Property |Type|Description
 |-|-|-|-
-|Header | `From`  | string  | [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) name
+|Header | `From`  | string  | [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) name
 |       | `To`    | string  | [Issuer 🎴 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) name
 ||`Subject`|string|`Token@Issuer` 
 | Body  | `TokenID`| string | [Token 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) ID from [`Offer@Broker`](<../15 🤵🅰️ Broker/50 🤵🅰️ Tokens 🎫/51 🎴🐌🤵 Offer.md>)
@@ -41,8 +41,8 @@ Body:
     | - | - | - |
     |...
     | 🕺 Club       | ℹ️ Entry paid.
-    | 🤵 [Broker](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Save entry? [Yes, No]  | > No
+    | 🤵 [Broker](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Save entry? [Yes, No]  | > No
     | 🕺 Club       | ℹ️ You need to save the entry.
-    | 🤵 [Broker](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Save entry? [Yes, No]  | > Yes
+    | 🤵 [Broker](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Save entry? [Yes, No]  | > Yes
     | 🕺 Club       | ✅ All set.
     |

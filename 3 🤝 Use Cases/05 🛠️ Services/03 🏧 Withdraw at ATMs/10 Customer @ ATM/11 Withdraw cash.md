@@ -10,7 +10,7 @@ A user can tap/scan the NFC/QR tag of a cash machine to start.
 | | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>)
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any ATM (4.4 ⭐) [+]
 | 🏧 ATM        | 😃 Hi! What do you need? <br/>- [ Withdraw ] <br/>- [ Something else ] | > Withdraw
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Ready to withdraw? [Yes, No] <br/> - your curator informs the amount  <br/> - your payer provides the funds <br/> - we take 10% commission <br/> - your payer may check your ID <br/> - you tap the dispenser to cash out. | > Yes
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Ready to withdraw? [Yes, No] <br/> - your curator informs the amount  <br/> - your payer provides the funds <br/> - we take 10% commission <br/> - your payer may check your ID <br/> - you tap the dispenser to cash out. | > Yes
 | 🧚 [Curator](<../../../../4 ⚙️ Solution/30 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | ⏳ Analyzing options...
 | 🧚 [Curator](<../../../../4 ⚙️ Solution/30 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Take how much? [$10, $20, +] | > +
 | 🧚 [Curator](<../../../../4 ⚙️ Solution/30 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Take exactly how much? | `4 20s` <br> `3 5s`

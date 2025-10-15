@@ -9,7 +9,7 @@
         * internet browsing: Chrome, Firefox, or Safari;
         * email messaging: Gmail, Outlook, Apple Mail.
 
-    * While in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>), a [Host 🤗 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) to invoke user Agents 🫥 by role - e.g.:
+    * While in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>), a [Host 🤗 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) to invoke user Agents 🫥 by role - e.g.:
 
         * `any-host.com` asks `any-broker.com` to invoke the user's [Persona 🧢 agent](<../../30 🫥 Agents/70 🧢 Personas/$ 🧢🫥 Persona agent.md>), 
         * then `any-broker.com` invokes the domain `any-persona.com`.
@@ -56,7 +56,7 @@
 
         * One use case where this is important is when a user has two nationalities (e.g., French and Japanese), and each nation needs its own [Identity 🆔 agent](<../../30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>).
 
-        * When this happens, the user's [Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) will ask the user to select which of the two [Identity 🆔 agents](<../../30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) should receive the [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) request.
+        * When this happens, the user's [Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) will ask the user to select which of the two [Identity 🆔 agents](<../../30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) should receive the [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) request.
 
     ---
     <br/>
@@ -64,16 +64,16 @@
 
 1. **How can users chat with an Agent?**
 
-    To open an [Agent 🫥 vault](<04 🫥🗄️ Agent vault.md>), users can ask their [Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>);
+    To open an [Agent 🫥 vault](<04 🫥🗄️ Agent vault.md>), users can ask their [Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>);
     * e.g., by stating what they're trying to accomplish;
     * as in the following example, from the [Trip Return 🤝 use case](<../../../3 🤝 Use Cases/03 🧳 Travel/01 🧳 Plans trips 🧭/02 🧭 Return @ Destination.md>).
 
     | [Domain](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
     | - | - | - 
-    | | | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
-    | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 😃 Hi! What do you need? | `return to` <br/> `hotel`
-    | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 💬 How can I help? <br/> - Open [ 🧭 Navigator ] <br/> - [ Something else ] | > 🧭 Navigator 
-    | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | ✅ Over to 🧭 Navigator.
+    | | | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>)
+    | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | 😃 Hi! What do you need? | `return to` <br/> `hotel`
+    | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | 💬 How can I help? <br/> - Open [ 🧭 Navigator ] <br/> - [ Something else ] | > 🧭 Navigator 
+    | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | ✅ Over to 🧭 Navigator.
     | [ new chat ]
     | 🔎 [Finder](<../../30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Navigator (4.4 ⭐) [+]
     | 🧭 [Navigator](<../../30 🫥 Agents/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | ℹ️ Request: return to hotel [+]
