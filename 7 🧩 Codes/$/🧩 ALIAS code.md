@@ -3,6 +3,10 @@
 
 > Referenced in [`Assess@Broker`](<../../6 🅰️ APIs/15 🤵🅰️ Broker/20 🤵🅰️ Locators/01 🧑‍🦰🐌🤵 Assess.md>).
 
+* Used in [Locators 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) 
+    * that need to be translated 
+    * by a [Printer 🖨️ helper domain](<../../4 ⚙️ Solution/70 🌳 Ambient/71 💠 Brand Things/08 🖨️🏭 Printer helper.md>).
+
 <br/>
 
 ## Definition
