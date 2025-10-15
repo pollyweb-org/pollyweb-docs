@@ -5,7 +5,7 @@
 
 1. **What is a Dataset domain role in NLWeb?**
 
-    A Dataset is an [🪢 Integrator](<../../41 🎭 Domain Roles/35 🪢 Integrators/06 🪢🎭 Integrator role.md>) domain that exposes a synchronous data API. 
+    A Dataset is an [🪢 Integrator](<../../41 🎭 Domain Roles/35 🪢 Integrators/$ 🪢🎭 Integrator role.md>) domain that exposes a synchronous data API. 
 
     ---
 
