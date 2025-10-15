@@ -1,6 +1,6 @@
 # 🔔🐌🌬️ Subscribe @ Streamer
 
-> Implements the [Streamer 🌬️ domain role](<../../4 ⚙️ Solution/41 🎭 Domain Roles/75 🌬️ Streamers/02 🌬️🎭 Streamer role.md>)
+> Implements the [Streamer 🌬️ domain role](<../../4 ⚙️ Solution/41 🎭 Domain Roles/75 🌬️ Streamers/$ 🌬️🎭 Streamer role.md>)
 
 > Used in [Stream @ Streamer 🌬️⏩🔔](<../../5 ⏩ Flows/76  🌬️⏩ Streamers/01 🌬️⏩🔔 Stream.md>)
 
@@ -25,10 +25,10 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header| `From`| string | [Subscriber 🔔 domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/76 🔔 Subscribers/04 🔔🎭 Subscriber role.md>) name
-|| `To`| string | [Streamer 🌬️ domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/75 🌬️ Streamers/02 🌬️🎭 Streamer role.md>) name
+|Header| `From`| string | [Subscriber 🔔 domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/76 🔔 Subscribers/$ 🔔🎭 Subscriber role.md>) name
+|| `To`| string | [Streamer 🌬️ domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/75 🌬️ Streamers/$ 🌬️🎭 Streamer role.md>) name
 || `Subject` | string | `Subscribe@Streamer`
-|Body | `Stream`| string | Stream key on the [Streamer 🌬️](<../../4 ⚙️ Solution/41 🎭 Domain Roles/75 🌬️ Streamers/02 🌬️🎭 Streamer role.md>)
+|Body | `Stream`| string | Stream key on the [Streamer 🌬️](<../../4 ⚙️ Solution/41 🎭 Domain Roles/75 🌬️ Streamers/$ 🌬️🎭 Streamer role.md>)
 || `Buffer`| string | [Buffer ⏳ domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/15 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) name
 || `Queue` | uuid | Callback for [Push@Buffer 🐌](<../20 ⏳🅰️ Buffer/21 🌬️🐌⏳ Push.md>)
 || `Filters`| object | Dictionary of filters (optional)

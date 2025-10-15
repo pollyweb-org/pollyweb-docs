@@ -25,7 +25,7 @@
     | [🎫 Tokens](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) | What's the historical public [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) key of [🎫 Token](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) `T`?
     | [🪣 Datasets](<../../20 🧑‍🦰 UI/12 💬 Chats/07 🪣🎭 Dataset role.md>) | What are the synchronous [Datasets 🪣](<../../20 🧑‍🦰 UI/12 💬 Chats/07 🪣🎭 Dataset role.md>) of [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) `D`?
     | [🏭 Supplies](<../../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>) | What are the asynchronous [Supplies 🏭](<../../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>) of [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) `D`?
-    | [🌬️ Streams](<../../41 🎭 Domain Roles/75 🌬️ Streamers/02 🌬️🎭 Streamer role.md>) | What are the event [Streams 🌬️](<../../41 🎭 Domain Roles/75 🌬️ Streamers/02 🌬️🎭 Streamer role.md>) of [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) `D`?
+    | [🌬️ Streams](<../../41 🎭 Domain Roles/75 🌬️ Streamers/$ 🌬️🎭 Streamer role.md>) | What are the event [Streams 🌬️](<../../41 🎭 Domain Roles/75 🌬️ Streamers/$ 🌬️🎭 Streamer role.md>) of [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) `D`?
     
     ---
     <br/>
@@ -75,8 +75,8 @@
 1. **How can domains know about Manifest events placed on hold?**
 
     [Graph 🕸 domains](<$ 🕸🛠️ Graph helper.md>) raise alert events. 
-    - Interested domains should [subscribe 🔔](<../../41 🎭 Domain Roles/76 🔔 Subscribers/04 🔔🎭 Subscriber role.md>) to the Graph's [Streamer 🌬️ role](<../../41 🎭 Domain Roles/75 🌬️ Streamers/02 🌬️🎭 Streamer role.md>), filtering the [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) they're interested in receiving alert notifications about. 
-    - For privacy reasons, some security alerts may only be pushed to the [Subscriber 🔔 domain](<../../41 🎭 Domain Roles/76 🔔 Subscribers/04 🔔🎭 Subscriber role.md>) that is referenced in the alert.
+    - Interested domains should [subscribe 🔔](<../../41 🎭 Domain Roles/76 🔔 Subscribers/$ 🔔🎭 Subscriber role.md>) to the Graph's [Streamer 🌬️ role](<../../41 🎭 Domain Roles/75 🌬️ Streamers/$ 🌬️🎭 Streamer role.md>), filtering the [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) they're interested in receiving alert notifications about. 
+    - For privacy reasons, some security alerts may only be pushed to the [Subscriber 🔔 domain](<../../41 🎭 Domain Roles/76 🔔 Subscribers/$ 🔔🎭 Subscriber role.md>) that is referenced in the alert.
 
     ---
     <br/>
