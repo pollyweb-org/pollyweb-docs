@@ -7,14 +7,15 @@
 
 <br/>
 
-```yaml
-🤝: nlweb.org/MANIFEST/CODE
+<br/>
 
+## Definition
+
+> 🤝: [`.MANIFEST/CODE`](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/11 🧩 CODE code.md>)
+
+```yaml
 Path: /HOST
 Description: Locator of a Host.
-
-References: 
-  NLWEB: 🤗 https://quip.com/vBozACklb4aw/-HostNLWEBorg
 
 Schema:
   Inherits: nlweb.org/LOCATOR:1.0

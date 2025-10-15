@@ -7,9 +7,6 @@
 About:
   Domain: restaurant.any-business.org
   Name: Any Restaurant
-  Resources:
-    NLWEB: 🧪🍛 https://quip.com/PIY9Aqq4nHiy/-Food-Restaurant
-
 
 Trusts:
 

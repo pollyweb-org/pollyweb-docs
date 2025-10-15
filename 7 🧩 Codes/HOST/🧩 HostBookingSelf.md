@@ -3,9 +3,13 @@
 
 > Brokers only share these credentials with the issuers - i.e. if there’s a booking for a medical appointment and a restaurant, the user is only asked to share the restaurant booking when checking into the restaurant (not the medical appointment).
 
-```yaml
-🤝: nlweb.org/MANIFEST/CODE
+<br/>
 
+## Definition
+
+> 🤝: [`.MANIFEST/CODE`](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/11 🧩 CODE code.md>)
+
+```yaml
 Path: /HOST/BOOKING/SELF
 Description: Token for a self booking.
 

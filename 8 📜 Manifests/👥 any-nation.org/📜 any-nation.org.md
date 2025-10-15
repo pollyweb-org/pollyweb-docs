@@ -7,9 +7,7 @@
 About:
   Domain: any-nation.org
   Name: Any Nation's Government
-  Resources:
-    NLWEB: 🏳️ https://quip.com/0ULzAy0gQ8w9/-Govuk
-  
+
 
 Trusts:
 

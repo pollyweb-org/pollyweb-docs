@@ -1,15 +1,16 @@
 
 # [🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) [Schema Code](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): PalmPassport
+
+<br/>
+
+## Definition
+
+> 🤝: [`.MANIFEST/CODE`](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/11 🧩 CODE code.md>)
+
 ```yaml
-🤝: nlweb.org/MANIFEST/CODE
-
-
 Path: /PALM/PASSPORT
 Name: Passport
 Description: Share bind of Passport with Palm.
-
-Resources:
-  NLWEB: 🤝🖐️ https://quip.com/2VbFAchUGm3k
 
 Translations:
   - Language: pt-br

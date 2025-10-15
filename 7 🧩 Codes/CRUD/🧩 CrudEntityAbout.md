@@ -1,8 +1,13 @@
 
-# [🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) [Schema Code](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): CrudEntityAbout
-```yaml
-🤝: nlweb.org/MANIFEST/CODE
+# [🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) `.CRUD` `/ENTITY` `/ABOUT`
 
+<br/>
+
+## Definition
+
+> 🤝: [`.MANIFEST/CODE`](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/11 🧩 CODE code.md>)
+
+```yaml
 Path: /CRUD/ENTITY/ABOUT
 Name: Entity About
 Description: Singleton configuration of the entitity.
