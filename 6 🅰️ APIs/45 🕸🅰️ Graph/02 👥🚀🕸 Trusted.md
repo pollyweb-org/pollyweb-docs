@@ -8,7 +8,7 @@
 * Verifies if there’s a path of [Trust 👍](<../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) 
     * between two [domains 👥](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) 
     * regarding a [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)
-    * as defined in the [`.MANIFEST/TRUST` 🧩](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/17 🧩 TRUST code.md>) part
+    * as defined in the [`.MANIFEST/TRUST` 🧩](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/50 🧩 TRUST code.md>) part
     * of [domain Manifests 📜](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>).
   
 *  Similar to [`Trusted@Graph`](<03 👥🚀🕸 Trusts.md>), 

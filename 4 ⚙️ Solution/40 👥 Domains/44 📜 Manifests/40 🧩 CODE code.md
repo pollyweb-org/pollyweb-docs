@@ -26,19 +26,19 @@ Schema:
 | Property | Type | Notes|
 |-|-|-
 | `Path`| string | Relative path of the [Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)  or group
-| [`Delegator 🧩`](<13 🧩 DELEGATE code.md>) | string | Optional [Authority 🏛️ domain](<../43 👍 Trusts/02 🏛️🛠️ Authority helper.md>) that delegated: <br/>- i.e., added it to [`.MANIFEST/DELEGATE` 🧩](<13 🧩 DELEGATE code.md>)
+| [`Delegator 🧩`](<30 🧩 DELEGATE code.md>) | string | Optional [Authority 🏛️ domain](<../43 👍 Trusts/02 🏛️🛠️ Authority helper.md>) that delegated: <br/>- i.e., added it to [`.MANIFEST/DELEGATE` 🧩](<30 🧩 DELEGATE code.md>)
 | `Name` | string | Human name of the [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) 
 | `Description`| string | Human  description of the [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)  
 | `Resources`  | map | Dictionary of external resources
-| [`Translations 🧩`](<16 🧩 TRANSLATION code.md>) | array | List of [`.MANIFEST/TRANSLATION` 🧩](<16 🧩 TRANSLATION code.md>)
-| [`Schema 🧩`](<12 🧩 SCHEMA code.md>)| object | Schema with [`.MANIFEST/CODE/SCHEMA` 🧩](<12 🧩 SCHEMA code.md>)
+| [`Translations 🧩`](<21 🧩 TRANSLATION code.md>) | array | List of [`.MANIFEST/TRANSLATION` 🧩](<21 🧩 TRANSLATION code.md>)
+| [`Schema 🧩`](<41 🧩 SCHEMA code.md>)| object | Schema with [`.MANIFEST/CODE/SCHEMA` 🧩](<41 🧩 SCHEMA code.md>)
 |
 
 <br/>
 
 ## Definition
 
-> 🤝: [`.MANIFEST/CODE`](<11 🧩 CODE code.md>)
+> 🤝: [`.MANIFEST/CODE`](<40 🧩 CODE code.md>)
 
 ```yaml
 Path: /MANIFEST/CODE

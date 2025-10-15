@@ -1,13 +1,18 @@
 # [🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) [`.MANIFEST`](<10 🧩 MANIFEST code.md>) `/TRANSLATION`
 
-> Used by [`.MANIFEST/ABOUT` 🧩](<14 🧩 ABOUT code.md>) and
-[`.MANIFEST/CODE` 🧩](<11 🧩 CODE code.md>)
+> Used by [`.MANIFEST/ABOUT` 🧩](<20 🧩 ABOUT code.md>) and
+[`.MANIFEST/CODE` 🧩](<40 🧩 CODE code.md>)
 
 > Implements [domain Manifest 📜](<01 📜 Domain Manifest.md>) 
 
 <br/>
 
-## Properties
+## Example
+
+```yaml
+Language: en
+Translation: Any Domain
+```
 
 | Property | Type | Notes|
 |-|-|-
@@ -19,7 +24,7 @@
 
 ## Definition
 
-> 🤝: [`.MANIFEST/CODE`](<11 🧩 CODE code.md>)
+> 🤝: [`.MANIFEST/CODE`](<40 🧩 CODE code.md>)
 
 ```yaml
 Path: /MANIFEST/TRANSLATION

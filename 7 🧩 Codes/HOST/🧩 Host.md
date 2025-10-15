@@ -11,7 +11,7 @@
 
 ## Definition
 
-> 🤝: [`.MANIFEST/CODE`](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/11 🧩 CODE code.md>)
+> 🤝: [`.MANIFEST/CODE`](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/40 🧩 CODE code.md>)
 
 ```yaml
 Path: /HOST
