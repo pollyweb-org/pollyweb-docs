@@ -6,7 +6,7 @@
 > Updates the status of a [Token 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>).
 
 > Used by:
-> <br/>• [🎴⏩🧑‍🦰 Revise Token @ Issuer](<../../../5 ⏩ Flows/60 🎴⏩ Issuers/02 🎴⏩🧑‍🦰 Revise token.md>) flow
+> <br/>• [🎴⏩🧑‍🦰 Revise Token @ Issuer](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/60 🎴⏩ Issuers/02 🎴⏩🧑‍🦰 Revise token.md>) flow
 > <br/>• [💼⏩🧑‍🦰 Token Status @ Consumer](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/05 💼⏩🤵 Token status.md>) flow
 
 <br/>
