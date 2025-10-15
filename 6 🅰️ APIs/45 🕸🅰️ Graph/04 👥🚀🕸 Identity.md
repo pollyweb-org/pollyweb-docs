@@ -7,8 +7,9 @@
 
 * Given a domain, 
     * returns the content of [`.MANIFEST/IDENTITY 🧩`](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/14 🧩 Identity schema.md>)
+    * from its [domain Manifest 📜](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) 
 * Used by:
-    * [🤵⏩🧑‍🦰 Converse @ Broker](<../../5 ⏩ Flows/10 🤵⏩ Brokers/03 🤵⏩🧑‍🦰 Converse 💬.md>) 
+    * [🤵⏩🧑‍🦰 Converse 💬 flow](<../../5 ⏩ Flows/10 🤵⏩ Brokers/03 🤵⏩🧑‍🦰 Converse 💬.md>) 
 
 <br/>
 

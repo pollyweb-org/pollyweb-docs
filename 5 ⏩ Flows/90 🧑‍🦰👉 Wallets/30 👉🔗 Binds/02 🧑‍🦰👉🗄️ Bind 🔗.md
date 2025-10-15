@@ -30,6 +30,7 @@ The associated [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/10 �
 - BIND:
     - some-authority.com/SOME-CODE
     - another-authority.com/ANOTHER-CODE
+- SUCCESS: Bound
 ```
 
 
