@@ -11,7 +11,7 @@
 
 1. **How do Integrators work?**
 
-    ![](<.📎 Assets/💬 Integrator.png>)
+    ![](<../../20 🧑‍🦰 UI/12 💬 Chats/.📎 Assets/💬 Integrator.png>)
 
     ---
 
@@ -30,7 +30,7 @@
     - **Outputs**: definitions of possible outputs.
 
     Endpoints are then implemented by specific roles:
-    - [🪣 Dataset](<07 🪣🎭 Dataset role.md>): for dataset requests;
+    - [🪣 Dataset](<../../20 🧑‍🦰 UI/12 💬 Chats/07 🪣🎭 Dataset role.md>): for dataset requests;
     - [🏭 Supplier](<../../41 🎭 Domain Roles/78 🏭 Suppliers/$ 🏭🎭 Supplier role.md>): for asynchronous requests with status updates;
     - [🌬️ Streamer](<../../41 🎭 Domain Roles/75 🌬️ Streamers/$ 🌬️🎭 Streamer role.md>): for event streaming.
 
