@@ -38,7 +38,7 @@
 
 1. **How can Integrators charge other domains?**
 
-    Integrator domains can leverage a [Biller 🤝 helper](<../../30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>) for managing charges.
+    Integrator domains can leverage a [Biller 🤝 helper](<../../45 🛠️ Helper domains/15 🤝 Billers/06 🤝🛠️ Biller helper.md>) for managing charges.
 
     ---
 

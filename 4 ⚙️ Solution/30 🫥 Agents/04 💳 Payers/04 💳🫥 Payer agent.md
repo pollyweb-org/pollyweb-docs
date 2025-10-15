@@ -3,7 +3,7 @@
 
 1. **What is a Payer agent in NLWeb?**
 
-    Payer agents are [Payer 💳 domains](<03 💳🎭 Payer role.md>) that act as [Agent 🫥 vault domains](<../../25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) for users with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), interacting in [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) with [Seller 💵 host domains](<01 💵🎭 Seller role.md>).
+    Payer agents are [Payer 💳 domains](<03 💳🎭 Payer role.md>) that act as [Agent 🫥 vault domains](<../../25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) for users with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), interacting in [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) with [Seller 💵 host domains](<../../41 🎭 Domain Roles/70 💵 Sellers/01 💵🎭 Seller role.md>).
 
     ---
 
@@ -12,16 +12,16 @@
     ![](<00 📎 Assets/💳 Payer.png>)
 
     On NLWeb, payment transactions with users are handled between:
-    * [Sellers 💵](<01 💵🎭 Seller role.md>) -  these are [Consumer 💼](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) domains that request payments;
+    * [Sellers 💵](<../../41 🎭 Domain Roles/70 💵 Sellers/01 💵🎭 Seller role.md>) -  these are [Consumer 💼](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) domains that request payments;
     * Payers 💳 - these are user-bound [Vaults 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) with access to the user's money; and
-    * [Collector 🏦 helpers](<../../45 🛠️ Helper domains/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) - these are [Helper 🛠️ domains](<../../45 🛠️ Helper domains/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) able to deposit money on the [Sellers 💵](<01 💵🎭 Seller role.md>) bank account. 
+    * [Collector 🏦 helpers](<../../45 🛠️ Helper domains/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) - these are [Helper 🛠️ domains](<../../45 🛠️ Helper domains/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) able to deposit money on the [Sellers 💵](<../../41 🎭 Domain Roles/70 💵 Sellers/01 💵🎭 Seller role.md>) bank account. 
     
     Upon check-out, 
-    - 1/ the [Seller 💵](<01 💵🎭 Seller role.md>) registers the upcoming payment to their [Collector 🏦](<../../45 🛠️ Helper domains/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>), 
-    - 2/ the [Seller 💵](<01 💵🎭 Seller role.md>) requests a payment from the user, 
+    - 1/ the [Seller 💵](<../../41 🎭 Domain Roles/70 💵 Sellers/01 💵🎭 Seller role.md>) registers the upcoming payment to their [Collector 🏦](<../../45 🛠️ Helper domains/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>), 
+    - 2/ the [Seller 💵](<../../41 🎭 Domain Roles/70 💵 Sellers/01 💵🎭 Seller role.md>) requests a payment from the user, 
     - 3/ the user delegates the payment to a Payer 💳, 
-    - 4/ the user's Payer 💳 transfers the money to the [Seller's 💵](<01 💵🎭 Seller role.md>) [Collector 🏦](<../../45 🛠️ Helper domains/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>), and 
-    - 5/ the [Collector 🏦](<../../45 🛠️ Helper domains/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) notifies the [Seller 💵](<01 💵🎭 Seller role.md>) that the transaction was paid.
+    - 4/ the user's Payer 💳 transfers the money to the [Seller's 💵](<../../41 🎭 Domain Roles/70 💵 Sellers/01 💵🎭 Seller role.md>) [Collector 🏦](<../../45 🛠️ Helper domains/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>), and 
+    - 5/ the [Collector 🏦](<../../45 🛠️ Helper domains/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) notifies the [Seller 💵](<../../41 🎭 Domain Roles/70 💵 Sellers/01 💵🎭 Seller role.md>) that the transaction was paid.
 
     ---
 

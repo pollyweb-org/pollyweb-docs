@@ -141,7 +141,7 @@
       
     - For that, users first need to bind their wallet to an [🆔 Identity Vault](<01 🆔🫥 Identity agent.md>) (typically a governmental authority that issues passports) to set up authentication mechanisms (e.g., voice and face biometric signatures collected in a supervised center) - users may then ask the Identity Vault for an age-related [Token 🎫](<14 🆔🎫 Verify Tokens.md>) (e.g., over 16 years old). 
     
-    - When interacting with the [Seller 💵](<../04 💳 Payers/01 💵🎭 Seller role.md>)'s domain, the Seller can then ask for the Token before providing the service or granting the entrance. 
+    - When interacting with the [Seller 💵](<../../41 🎭 Domain Roles/70 💵 Sellers/01 💵🎭 Seller role.md>)'s domain, the Seller can then ask for the Token before providing the service or granting the entrance. 
     
     - The Token can also be printed or saved into to an NCF card, so that users can access the venue or service even when their devices run out of battery.
 

@@ -29,16 +29,16 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
 
 - Organizations interact with an email-like inbox API behind a domain name, and can assume a multitude of roles in parallel - e.g.:
     * session [Host 🤗](<../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>), 
-    * business [Seller 💵](<../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>),
+    * business [Seller 💵](<../41 🎭 Domain Roles/70 💵 Sellers/01 💵🎭 Seller role.md>),
     * data [Consumer 💼](<../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>), 
     * user-bound [Vault 🗄️](<../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>), 
     * event [Streamer 🌬️](<../41 🎭 Domain Roles/75 🌬️ Streamers/$ 🌬️🎭 Streamer role.md>), 
     * and asynchronous service [Supplier 🏭](<../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>). 
 
 - Domains are extended by helper domains, e.g.:
-    * [Buffer ⏳ helper domains](<../45 🛠️ Helper domains/15 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) for global ingestion and throttling, 
+    * [Buffer ⏳ helper domains](<../45 🛠️ Helper domains/16 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) for global ingestion and throttling, 
     * [Collector 🏦 helper domains](<../45 🛠️ Helper domains/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) for payments, 
-    * [Biller 🤝 helper domains](<../30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>) for financial contracts, 
+    * [Biller 🤝 helper domains](<../45 🛠️ Helper domains/15 🤝 Billers/06 🤝🛠️ Biller helper.md>) for financial contracts, 
     * [Advertiser 👀 helper domains](<../45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) for ads.
 
 - Data integration and structural validation is assured via:

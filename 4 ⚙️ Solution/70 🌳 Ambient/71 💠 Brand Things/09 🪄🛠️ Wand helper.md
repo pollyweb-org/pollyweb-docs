@@ -53,7 +53,7 @@
     | [🤗 Host](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | For interacting with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) in [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>).
     | [🏭 Supplier](<../../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>) | For receiving orders to add [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) to [Things 💠](<01 💠 Thing.md>).
     | [💼 Consumer](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) | For consuming data sets required to fill out the order.
-    | [💵 Seller](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) | For receiving payments for the orders via their [Collector 🏦 helper](<../../45 🛠️ Helper domains/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>).
+    | [💵 Seller](<../../41 🎭 Domain Roles/70 💵 Sellers/01 💵🎭 Seller role.md>) | For receiving payments for the orders via their [Collector 🏦 helper](<../../45 🛠️ Helper domains/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>).
     | [🌬️ Streamer](<../../41 🎭 Domain Roles/75 🌬️ Streamers/$ 🌬️🎭 Streamer role.md>) | To update the order statuses.
     
 
@@ -113,7 +113,7 @@
     [Wand 🪄 domains](<09 🪄🛠️ Wand helper.md>) may implement a number of ways to monetize - e.g.:
     - charge [Brand 🍏 domains](<07 🍏🎭 Brand role.md>) for a commitment to keep the placeholder active for a certain amount of time (e.g., 10 years) when an order is placed;
     - charge [Custodian 🧳 vault domains](<05 🧳🗄️ Custodian vault.md>) for each user registration or interaction with a [Thing 💠](<01 💠 Thing.md>);
-    - charge a [subscription 🗓️](<../../../2 🏔️ Landscape/1 💼 Business landscape/08 🗓️ Subscriptions landscape>) to users, by leveraging a [Biller 🤝 helper domain](<../../30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>);
+    - charge a [subscription 🗓️](<../../../2 🏔️ Landscape/1 💼 Business landscape/08 🗓️ Subscriptions landscape>) to users, by leveraging a [Biller 🤝 helper domain](<../../45 🛠️ Helper domains/15 🤝 Billers/06 🤝🛠️ Biller helper.md>);
     - introduce [advertising 👀](<../../../2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape>) in the user [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>), by leveraging an [Advertiser 👀 helper domain](<../../45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>).
 
     ---
