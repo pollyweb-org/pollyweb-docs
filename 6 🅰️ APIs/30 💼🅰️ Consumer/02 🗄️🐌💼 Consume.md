@@ -4,7 +4,7 @@
 
 > Used by [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>)
 
-* Asks the [Consumer 💼 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) to consume a given [Bind 🔗](<../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/01 🔗 Bind.md>).
+* Asks the [Consumer 💼 domain](<../../4 ⚙️ Solution/25 Data/27 💼 Consumers/04 💼🎭 Consumer role.md>) to consume a given [Bind 🔗](<../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/01 🔗 Bind.md>).
 * Tells them to collect data shared by a user in a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>).
 
 <br/>
@@ -31,7 +31,7 @@ Body:
 |Property|Type|Description
 |-|-|-
 | `From`| string | [Vault 🗄️ domain](<../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) name
-| `To`| string | [Consumer 💼 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) name
+| `To`| string | [Consumer 💼 domain](<../../4 ⚙️ Solution/25 Data/27 💼 Consumers/04 💼🎭 Consumer role.md>) name
 | `Subject` | string | `Consume@Consumer`
 | `Broker`| string | [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) name
 | `ChatID` | uuid | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) ID
@@ -49,7 +49,7 @@ Body:
 1. **Why a cache?**
 
     `Async` A caching strategy avoids synchronous collection timeouts.
-    * When [Consumer 💼 domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>)  call [`Collect@Vault`](<../95 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>), [Vault 🗄️ domains](<../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) are expected to gather and cache the data and only send the [`Consume@Consumer`](<02 🗄️🐌💼 Consume.md>) message when the data is cached and ready to be collected.
+    * When [Consumer 💼 domains](<../../4 ⚙️ Solution/25 Data/27 💼 Consumers/04 💼🎭 Consumer role.md>)  call [`Collect@Vault`](<../95 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>), [Vault 🗄️ domains](<../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) are expected to gather and cache the data and only send the [`Consume@Consumer`](<02 🗄️🐌💼 Consume.md>) message when the data is cached and ready to be collected.
     * The Vault's cache duration is expressed in the `TTL` field.
 
     ---
