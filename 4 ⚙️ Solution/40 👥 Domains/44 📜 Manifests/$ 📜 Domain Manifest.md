@@ -4,7 +4,7 @@
 
 1. **How do domains publicize their identity?**
 
-    In NLWeb, [domains 👥](<../41 📨 Messages/00 👥 Domain.md>) publish their metadata in the form a [domain Manifest 📜](<01 📜 Domain Manifest.md>).
+    In NLWeb, [domains 👥](<../41 📨 Messages/00 👥 Domain.md>) publish their metadata in the form a [domain Manifest 📜](<$ 📜 Domain Manifest.md>).
 
     ---
     <br/>
@@ -12,7 +12,7 @@
 
 1. **How can a domain inspect another domain's Manifest?**
 
-    [Domains 👥](<../41 📨 Messages/00 👥 Domain.md>) leverage Manifest 📜 caches, called [Graph 🕸 domains](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>), that keep up-to-date representations of NLWeb [domain Manifests 📜](<01 📜 Domain Manifest.md>).
+    [Domains 👥](<../41 📨 Messages/00 👥 Domain.md>) leverage Manifest 📜 caches, called [Graph 🕸 domains](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>), that keep up-to-date representations of NLWeb [domain Manifests 📜](<$ 📜 Domain Manifest.md>).
     * Manifest queries to these [Graphs 🕸](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) are synchronous and expected to have millisecond latency.
     * This is similar to what DNS records do for Web 2.0, but with a more complex data schema. 
 
@@ -24,7 +24,7 @@
 
     ![](<.📎 Assets/📜 Manifest.png>)
 
-    Each [domain 👥](<../41 📨 Messages/00 👥 Domain.md>) sends the content of their [domain Manifests 📜](<01 📜 Domain Manifest.md>) in parts or in full to a [Listener 👂 helper domain](<../../42 Backbone/10 👂 Listeners/$ 👂🛠️ Listener helper.md>), who then propagates it to [Graph 🕸 domains](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>).
+    Each [domain 👥](<../41 📨 Messages/00 👥 Domain.md>) sends the content of their [domain Manifests 📜](<$ 📜 Domain Manifest.md>) in parts or in full to a [Listener 👂 helper domain](<../../42 Backbone/10 👂 Listeners/$ 👂🛠️ Listener helper.md>), who then propagates it to [Graph 🕸 domains](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>).
 
     |Step|Description
     |-|-

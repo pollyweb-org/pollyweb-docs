@@ -3,7 +3,7 @@
 > Used by [`.MANIFEST/ABOUT` 🧩](<20 🧩 ABOUT code.md>) and
 [`.MANIFEST/CODE` 🧩](<40 🧩 CODE code.md>)
 
-> Implements [domain Manifest 📜](<01 📜 Domain Manifest.md>) 
+> Implements [domain Manifest 📜](<$ 📜 Domain Manifest.md>) 
 
 <br/>
 

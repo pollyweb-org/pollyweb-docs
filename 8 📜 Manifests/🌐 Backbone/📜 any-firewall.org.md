@@ -1,5 +1,5 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>): any-firewall.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>): any-firewall.org
 
 > Related to [Firewall 🔥 helper domain](<../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/03 🔥🛠️ Firewall helper.md>).
 

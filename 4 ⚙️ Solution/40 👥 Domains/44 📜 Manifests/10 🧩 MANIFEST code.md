@@ -1,6 +1,6 @@
 # [🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) `.MANIFEST`
 
-> Implements [domain Manifest 📜](<01 📜 Domain Manifest.md>) 
+> Implements [domain Manifest 📜](<$ 📜 Domain Manifest.md>) 
 
 
 <br/>

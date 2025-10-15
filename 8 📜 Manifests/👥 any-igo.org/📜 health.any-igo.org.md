@@ -1,5 +1,5 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>): health.any-igo.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>): health.any-igo.org
 <!--# 🇺🇳 https://quip.com/PcpmA0e2TORI/-WHOint-->
 
 ```yaml

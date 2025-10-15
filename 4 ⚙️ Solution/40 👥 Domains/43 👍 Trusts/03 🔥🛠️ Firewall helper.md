@@ -21,13 +21,13 @@
     |#|Step
     |-|-
     |1| [Firewall 🔥 domains](<03 🔥🛠️ Firewall helper.md>) subscribe to the [domain-event streams 🌬️](<../42 🌬️ Streams/02 🌬️🎭 Streamer role.md>) of [Reviewer ⭐ domains](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>), [Listener 👂 domains](<../../42 Backbone/10 👂 Listeners/$ 👂🛠️ Listener helper.md>), and [Graph 🕸 domains](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>), eventually throttling them with a [Buffer ⏳ helper domain](<../../45 Helpers/10 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>);
-    |2| [Firewall 🔥 domains](<03 🔥🛠️ Firewall helper.md>) then update the [Trust 👍 list](<01 👍 Domain Trust.md>) in their [domain Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>), which is propagated down by the [Listener 👂 helper domains](<../../42 Backbone/10 👂 Listeners/$ 👂🛠️ Listener helper.md>) and subscribed by [Graph 🕸 helper domains](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) and [Finder 🔎 vaults](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>).
+    |2| [Firewall 🔥 domains](<03 🔥🛠️ Firewall helper.md>) then update the [Trust 👍 list](<01 👍 Domain Trust.md>) in their [domain Manifest 📜](<../44 📜 Manifests/$ 📜 Domain Manifest.md>), which is propagated down by the [Listener 👂 helper domains](<../../42 Backbone/10 👂 Listeners/$ 👂🛠️ Listener helper.md>) and subscribed by [Graph 🕸 helper domains](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) and [Finder 🔎 vaults](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>).
 
     ---
 
 1. **How can domains leverage Firewalls?**
 
-    [Domains 👥](<../41 📨 Messages/00 👥 Domain.md>) can inherit a Firewall's blacklist on their [domain Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>);
+    [Domains 👥](<../41 📨 Messages/00 👥 Domain.md>) can inherit a Firewall's blacklist on their [domain Manifest 📜](<../44 📜 Manifests/$ 📜 Domain Manifest.md>);
     * this overrides any direct or indirect [Trust 👍](<01 👍 Domain Trust.md>) relationship between [domains 👥](<../41 📨 Messages/00 👥 Domain.md>), working as an instantaneous mechanism to cut the communication with the blacklisted domain. 
 
     ---
@@ -64,7 +64,7 @@
     The following is an example of 
     * a list of [Trust 👍](<01 👍 Domain Trust.md>) REVOKES 
     * on malicious domains names 
-    * in a [domain Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>)
+    * in a [domain Manifest 📜](<../44 📜 Manifests/$ 📜 Domain Manifest.md>)
     * from the [Any Firewall 🔥 manifest](<../../../8 📜 Manifests/🌐 Backbone/📜 any-firewall.org.md>).
 
     ```yaml
@@ -89,7 +89,7 @@
 
 1. **What should other domains add to their Manifests?**
 
-    Other [domains 👥](<../41 📨 Messages/00 👥 Domain.md>) should add the following [Trust 👍](<01 👍 Domain Trust.md>) to their [domain Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>).
+    Other [domains 👥](<../41 📨 Messages/00 👥 Domain.md>) should add the following [Trust 👍](<01 👍 Domain Trust.md>) to their [domain Manifest 📜](<../44 📜 Manifests/$ 📜 Domain Manifest.md>).
 
     ```yaml
     Trusts:

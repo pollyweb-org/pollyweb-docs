@@ -1,5 +1,5 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>): biometrics.any-nation.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>): biometrics.any-nation.org
 <!--# 🏳️🆔 https://quip.com/KUnAAt2utXFQ/-AnyBiometricuk-->
 
 ```yaml
