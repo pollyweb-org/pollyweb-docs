@@ -19,7 +19,7 @@
     | Schema Code | Purpose |
     |-|-
     | [`.MSG` 🧩](<../../../7 🧩 Codes/$/🧩 MSG code.md>) | Schema of [Messages 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) 
-    | [`.TOKEN` 🧩](<../../../7 🧩 Codes/$/🧩 TOKEN code.md>) | Schema of [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
+    | [`.TOKEN` 🧩](<../../../7 🧩 Codes/$/🧩 TOKEN code.md>) | Schema of [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/$ 🎫 Token.md>)
     | [`unicode.org/FLAG` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 unicode.any-igo.org.md>) | Flags for country [Prompts 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>)
     | [`locale.org/TERRITORY` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 locale.any-igo.org.md>) | Country names for [Prompts 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>)
     | [`standards.org/639-1` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 standards.any-igo.org.md>) | Language codes (e.g., `en-us`)

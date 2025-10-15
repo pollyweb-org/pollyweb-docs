@@ -4,7 +4,7 @@
 
 # 🧑‍🦰🚀🤵 Tokens @ Broker
 
-> List of [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) in a [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) for a human user, mapping to the local file.
+> List of [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/$ 🎫 Token.md>) in a [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) for a human user, mapping to the local file.
 
 > Used in:
 > <br/> • [🧑‍🦰👉🤵 Translate @ Broker](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/12 🧑‍🦰👉🤵 Translate.md>) flow
@@ -48,7 +48,7 @@ Tokens:
 |-|-|-|-
 |Top   |`Tokens`   |Token[]|List of `Token` objects|
 |Token | `Issuer` | string | [Issuer 🎴](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) from [`Saved@Broker`](<53 🧑‍🦰🐌🤵 Saved.md>)
-||`TokenID`  |uuid   |[Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) ID from [`Saved@Broker`](<53 🧑‍🦰🐌🤵 Saved.md>)
+||`TokenID`  |uuid   |[Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/$ 🎫 Token.md>) ID from [`Saved@Broker`](<53 🧑‍🦰🐌🤵 Saved.md>)
 || `IssuerTitle` | string | [Issuer 🎴](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) after [`Translate@Graph`](<../../45 🕸🅰️ Graph/06 👥🚀🕸 Translate.md>)
 || `CodeTitle` | string | [Code 🧩](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) after [`Translate@Graph`](<../../45 🕸🅰️ Graph/06 👥🚀🕸 Translate.md>)
 || `Path`| string | Local path from [`Saved@Broker`](<53 🧑‍🦰🐌🤵 Saved.md>)
