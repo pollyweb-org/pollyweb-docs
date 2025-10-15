@@ -2,7 +2,7 @@
 
 > Invites a [Host 🤗 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) into a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>).
 
-> Part of the [🤗⏩🧑‍🦰 Invite @ Host](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/33 🤗⏩🧑‍🦰 Invite 🛠️ flow.md>) flow:
+> Part of the [🤗⏩🧑‍🦰 Invite @ Host](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/⏩ Host flows/33 🤗⏩🧑‍🦰 Invite 🛠️ flow.md>) flow:
 > <br/>• followed by [`Invited@Helper`](<../../49 🛠️🅰️ Helper/11 🤵🐌🛠️ Invited.md>) message
 
 <br/>
