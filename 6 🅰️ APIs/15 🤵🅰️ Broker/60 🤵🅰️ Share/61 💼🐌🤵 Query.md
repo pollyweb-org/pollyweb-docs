@@ -9,7 +9,7 @@
     * in one or more [Schema Codes 🧩](<../../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>).
 
 * Used by: 
-    * [💼⏩🧑‍🦰 Inform ⏩ flow](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/02 💼⏩🧑‍🦰 Inform 📝.md>)
+    * [💼⏩🧑‍🦰 Inform ⏩ flow](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/32 💼⏩🧑‍🦰 Inform 📝 flow.md>)
     * [🧑‍🦰👉💼 Share Token ⏩ flow](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token 🎫.md>)
     * [🧑‍🦰👉💼 Share Bind ⏩ flow](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>)
 
