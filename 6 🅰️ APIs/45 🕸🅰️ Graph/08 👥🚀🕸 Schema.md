@@ -8,7 +8,7 @@
 
 * Gets the schema of a [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) 
     * as defined in [`.MANIFEST/CODE` 🧩](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/11 🧩 CODE schema.md>) 
-    * and [`.MANIFEST/CODE/SCHEMA` 🧩](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/12 🧩 CodeSchema schema.md>) parts
+    * and [`.MANIFEST/CODE/SCHEMA` 🧩](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/12 🧩 SCHEMA schema.md>) parts
     * of [domain Manifests 📜](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>).
 * When the schema references other schemas with `$ref`, 
     * this method returns the final merged schema for independent validation 

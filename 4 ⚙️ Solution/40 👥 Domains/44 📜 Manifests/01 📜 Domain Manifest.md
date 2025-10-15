@@ -42,11 +42,11 @@
 
     |Section|Purpose | Schemas
     |-|-|-
-    | 🤗 [Host Identity](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | Domain identification (mandatory). | [`./IDENTITY` 🧩](<14 🧩 IDENTITY schema.md>) <br/>[`./TRANSLATION` 🧩](<16 🧩 Translation schema.md>)
-    | 👍 [Domain Trusts](<../43 👍 Trusts/01 👍 Domain Trust.md>) | Trusted domains, Codes, and roles. | [`./TRUST` 🧩](<17 🧩 Trust schema.md>)
-    |  🧩 [Schema Codes](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) | Defined by the domain. | [`./CODE` 🧩](<11 🧩 CODE schema.md>) <br/>[`./CODE/SCHEMA` 🧩](<12 🧩 CodeSchema schema.md>) <br/>[`./TRANSLATION` 🧩](<16 🧩 Translation schema.md>)| Schema validation of a Code
+    | 🤗 [Host Identity](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | Domain identification (mandatory). | [`./IDENTITY` 🧩](<14 🧩 IDENTITY schema.md>) <br/>[`./TRANSLATION` 🧩](<16 🧩 TRANSLATION schema.md>)
+    | 👍 [Domain Trusts](<../43 👍 Trusts/01 👍 Domain Trust.md>) | Trusted domains, Codes, and roles. | [`./TRUST` 🧩](<17 🧩 TRUST schema.md>)
+    |  🧩 [Schema Codes](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) | Defined by the domain. | [`./CODE` 🧩](<11 🧩 CODE schema.md>) <br/>[`./CODE/SCHEMA` 🧩](<12 🧩 SCHEMA schema.md>) <br/>[`./TRANSLATION` 🧩](<16 🧩 TRANSLATION schema.md>)| Schema validation of a Code
     |  🧩 [Delegated Codes](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) | Codes delegated to other domains. | [`./DELEGATE` 🧩](<13 🧩 DELEGATE schema.md>)
-    | 🪢 [Integrations](<../../20 🧑‍🦰 UI/12 💬 Chats/06 🪢🎭 Integrator role.md>) |Synchronous datasets, <br/>asynchronous supplies, <br/>and streaming endpoints. | [`./OFFER` 🧩](<15 🧩 Offer schema.md>)
+    | 🪢 [Integrations](<../../20 🧑‍🦰 UI/12 💬 Chats/06 🪢🎭 Integrator role.md>) |Synchronous datasets, <br/>asynchronous supplies, <br/>and streaming endpoints. | [`./OFFER` 🧩](<15 🧩 OFFER schema.md>)
     | [Chat 💬 Flows](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) | To explain what user data is request.
 
     ---

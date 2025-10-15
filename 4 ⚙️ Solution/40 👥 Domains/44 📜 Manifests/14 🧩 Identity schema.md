@@ -16,7 +16,7 @@
 | `SmallIcon`  | string | Optional URL to a small icon (20x20)
 | `BigIcon`   | string | Optional URL to a big icon (100x100)
 | `Feedback` | string | Optional [Buffer ⏳ helper domain](<../42 🌬️ Streams/03 ⏳🛠️ Buffer helper.md>) name <br/>- if not defined, then no feedback is given
-| [`Translations` 🧩](<16 🧩 Translation schema.md>) | array | Optional translations of the domain name
+| [`Translations` 🧩](<16 🧩 TRANSLATION schema.md>) | array | Optional translations of the domain name
 |
 
 <br/>
