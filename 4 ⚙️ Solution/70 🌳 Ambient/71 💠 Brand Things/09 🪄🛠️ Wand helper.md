@@ -21,7 +21,7 @@
     |-|-|-
     |A| `Tap/Scan` | Guest users use their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) to [tap 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) or [scan ✨](<../../20 🧑‍🦰 UI/11 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) the [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) of a [Thing 💠](<01 💠 Thing.md>) from a given [Brand 🍏 domain](<07 🍏🎭 Brand role.md>).
     |B| `Open`| That opens a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) with the [Wand 🪄 domain](<09 🪄🛠️ Wand helper.md>), acting on behalf of the [Thing's Brand 🍏 domain](<07 🍏🎭 Brand role.md>).
-    |C| `Interact` | Guests can then chat with the [Wand 🪄 domain](<09 🪄🛠️ Wand helper.md>) to search instructions, add private notes, join groups, contact the owner, call emergency, or return the item when found; all notes added by the guest are saved on the [guest's Storage 📦 agent](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>).
+    |C| `Interact` | Guests can then chat with the [Wand 🪄 domain](<09 🪄🛠️ Wand helper.md>) to search instructions, add private notes, join groups, contact the owner, call emergency, or return the item when found; all notes added by the guest are saved on the [guest's Storage 📦 agent](<../../30 🫥 Agents/01 📦 Storage/$ 📦🫥 Storage agent.md>).
     
 
     | # | Category | 🧑‍🦰 Steps for owners 
@@ -40,7 +40,7 @@
     |-|-
     | [🧳 Custodian](<05 🧳🗄️ Custodian vault.md>) | To allow users to manage their [Things 💠](<01 💠 Thing.md>).
     | [🆔 Identity](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | To authenticate users as owners of their [Things 💠](<01 💠 Thing.md>). 
-    | [📦 Storage](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>) | To allow users to store notes about their [Things 💠](<01 💠 Thing.md>).
+    | [📦 Storage](<../../30 🫥 Agents/01 📦 Storage/$ 📦🫥 Storage agent.md>) | To allow users to store notes about their [Things 💠](<01 💠 Thing.md>).
 
     ---
     <br/>

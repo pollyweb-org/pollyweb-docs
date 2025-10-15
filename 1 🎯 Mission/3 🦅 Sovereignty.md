@@ -40,7 +40,7 @@
 🏛️ <a id='Governments'>Governments</a> (i.e., public sector)
 --
 1. interact directly with their citizens;
-1. keep their citizens' data within [sovereign](<../4 ⚙️ Solution/30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>) borders;
+1. keep their citizens' data within [sovereign](<../4 ⚙️ Solution/30 🫥 Agents/01 📦 Storage/$ 📦🫥 Storage agent.md>) borders;
 1. proxy and obfuscate their citizens' [biometric verification](<../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>);
 1. ensure businesses only provide services legally advertised;
 1. ensure businesses only request user data relevant to the outcome;
