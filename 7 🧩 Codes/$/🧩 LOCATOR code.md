@@ -4,7 +4,7 @@
 * Inherited by:
   * [`.TOKEN` 🧩](<../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🧩 Token codes/🧩 TOKEN.md>)
   * [`.HOST` 🧩](<../HOST/🧩 Host.md>)
-  * [`.ALIAS` 🧩](<🧩 ALIAS code.md>)
+  * [`.ALIAS` 🧩](<../../4 ⚙️ Solution/45 🛠️ Helper domains/75 🖨️ Printers/🖨️🧩 Printer codes/🧩 ALIAS code.md>)
 
 <br/>
 

@@ -3,7 +3,7 @@
 
 > Inherits from [`nlweb.org/LOCATOR` 🧩](<../$/🧩 LOCATOR code.md>)
 
-> Used by [Printer 🖨️ domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/75 🖨️ Printers/$ 🖨️🛠️ Printer helper.md>)
+> Used by [Printer 🖨️ domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/75 🖨️ Printers/🖨️🛠️ Printer helper.md>)
 
 <br/>
 
