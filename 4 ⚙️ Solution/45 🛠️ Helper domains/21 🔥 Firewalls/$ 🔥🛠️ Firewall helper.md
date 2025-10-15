@@ -45,7 +45,7 @@
 1. **Do Firewalls monitor domain reputation?**
 
     Yes. 
-    * [Firewall 🔥 helper domains](<$ 🔥🛠️ Firewall helper.md>) subscribe to [Reviewer ⭐ domain streams](<../../30 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) to monitor the behavior of [Host 🤗 domains](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>), revoking their [Trust 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) when necessary.
+    * [Firewall 🔥 helper domains](<$ 🔥🛠️ Firewall helper.md>) subscribe to [Reviewer ⭐ domain streams](<../../30 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) to monitor the behavior of [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/04 🤗🎭 Host role.md>), revoking their [Trust 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) when necessary.
 
     ---
     <br/>
@@ -53,7 +53,7 @@
 1. **Do Firewalls report on suspicions before blocking?**
 
     No. 
-    * NLWeb advocates the usage of [Reviewer ⭐ domains](<../../30 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) to assess the level of trustworthiness of another [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>).
+    * NLWeb advocates the usage of [Reviewer ⭐ domains](<../../30 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) to assess the level of trustworthiness of another [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/04 🤗🎭 Host role.md>).
 
     ---
     <br/>

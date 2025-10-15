@@ -1,6 +1,6 @@
 # 💼🐌🤵 Invite @ Broker
 
-> Invites a [Host 🤗 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) into a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>).
+> Invites a [Host 🤗 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/04 🤗🎭 Host role.md>) into a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>).
 
 > Part of the [🤗⏩🧑‍🦰 Invite @ Host](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>) flow:
 > <br/>• followed by [`Invited@Helper`](<../../49 🛠️🅰️ Helper/11 🤵🐌🛠️ Invited.md>) message

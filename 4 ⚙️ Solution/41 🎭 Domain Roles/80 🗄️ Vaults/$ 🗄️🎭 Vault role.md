@@ -67,7 +67,7 @@
 1. **Can users ask Vaults to download data to the device?**
 
     No. 
-    * That is covered by the [Issuer 🎴 domain](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) role. 
+    * That is covered by the [Issuer 🎴 domain](<../40 🎴 Issuers/02 🎴🎭 Issuer role.md>) role. 
 
     ---
     <br/>
@@ -179,11 +179,11 @@
 
 1. **How are users protected from stalking from vaults?**
 
-    [Vault 🗄️ domains](<$ 🗄️🎭 Vault role.md>) are [Host 🤗 domains](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) that store user data. 
+    [Vault 🗄️ domains](<$ 🗄️🎭 Vault role.md>) are [Host 🤗 domains](<../30 🤗 Hosts/04 🤗🎭 Host role.md>) that store user data. 
     
-    * When a user [binds 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) to a [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>), the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) passes a unique [bind 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) ID to the [Host 🤗](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) to be able to identify the user across sessions, turning the [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) into a [Vault 🗄️ domain](<$ 🗄️🎭 Vault role.md>).
+    * When a user [binds 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) to a [Host 🤗 domain](<../30 🤗 Hosts/04 🤗🎭 Host role.md>), the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) passes a unique [bind 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) ID to the [Host 🤗](<../30 🤗 Hosts/04 🤗🎭 Host role.md>) to be able to identify the user across sessions, turning the [Host 🤗 domain](<../30 🤗 Hosts/04 🤗🎭 Host role.md>) into a [Vault 🗄️ domain](<$ 🗄️🎭 Vault role.md>).
     
-    * While the [Vault 🗄️ domain](<$ 🗄️🎭 Vault role.md>) is now able to track the user across [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>), it cannot track the user across [Host 🤗 domains](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) because the [Bind 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) ID is unique for the relationship between that user and that [Host 🤗](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>).
+    * While the [Vault 🗄️ domain](<$ 🗄️🎭 Vault role.md>) is now able to track the user across [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>), it cannot track the user across [Host 🤗 domains](<../30 🤗 Hosts/04 🤗🎭 Host role.md>) because the [Bind 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) ID is unique for the relationship between that user and that [Host 🤗](<../30 🤗 Hosts/04 🤗🎭 Host role.md>).
 
     ---
     <br/>

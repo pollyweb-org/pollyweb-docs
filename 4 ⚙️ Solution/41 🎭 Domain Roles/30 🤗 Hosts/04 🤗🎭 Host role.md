@@ -1,0 +1,128 @@
+🤗 Host domain role
+===
+
+1. **What is a Host domain role in NLWeb?**
+
+    A [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) with a [Host 🤗 domain role](<04 🤗🎭 Host role.md>) is any [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) that
+    * hosts a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) 
+    * via a [Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>). 
+
+    ---
+    <br/>
+
+1. **How do Host domains work?**
+
+    ![](<../../20 🧑‍🦰 UI/12 💬 Chats/.📎 Assets/💬🤗 Host.png>)
+
+    |#|Category|Step
+    |-|-|-
+    |1| `Hello`| The [user's Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) checks-in into a [Host 🤗 domain](<04 🤗🎭 Host role.md>), passing it context parameters, [Binds 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>), and [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>).
+    |2| `Chat` | The [Host 🤗 domain](<04 🤗🎭 Host role.md>) sets a new [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) context.
+    |3| `Interact` | The [Host 🤗 domain](<04 🤗🎭 Host role.md>) starts interacting with prompts.
+
+    ---
+    <br/>
+
+
+
+1. **How are users protected from stalking from Hosts?**
+
+    NLWeb sees [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) as temporary sessions, always initiated by users; 
+    - i.e., the [Host 🤗 domain](<04 🤗🎭 Host role.md>) receives a temporary ID from the [user's Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) when the [Chat 💬 session](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)  is open, but no other ID to track the user across sessions;
+    - although [Host 🤗 domains](<04 🤗🎭 Host role.md>) can proactively send messages on an open [Chat 💬 session](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>), users can close the session at any time. 
+
+    ---
+    <br/>
+
+1. **What incentives do Hosts have to close sessions?**
+
+    [Advertising 👀](<../../../2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape/00 👀 Advertising index.md>) is triggered at the end of a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) for next-best actions.
+    - Thus, [Host 🤗 domains](<04 🤗🎭 Host role.md>) willing to monetize via cross-domain advertising are incentivized to close [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>). 
+    - See the [Advertiser 👀 helper domains](<../../45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) for details.
+
+    ---
+    <br/>
+
+1. **Do Hosts send messages to users via web sockets?**
+
+    No. 
+    - [Host 🤗 domains](<04 🤗🎭 Host role.md>) send [Messages 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) via HTTPS POST to a proxy [Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) that then communicate with the user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) with real-time protocols (e.g., web sockets, MQTT). 
+
+    ---
+    <br/>
+
+1. **What proxy services are involved in the flow?**
+
+    [Messages 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) sent from [Host 🤗 domains](<04 🤗🎭 Host role.md>) first reach the user's [Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) via HTTPS POST:
+    - these [Broker 🤵 domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) are responsible for orchestrating [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) between users and [Host 🤗 domains](<04 🤗🎭 Host role.md>) using the NLWeb protocol, 
+    - and they are typically implemented by a main cloud provider that is able to ensure high availability and low latency communication between globally dispersed entities. 
+    
+    The [user's Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) then sends the message to a [user's Notifier 📣 domain](<../../20 🧑‍🦰 UI/02 📣 Notifiers/$ 📣 Notifier domain.md>), also via HTTPS POST:
+    - the [user's Notifier 📣 domain](<../../20 🧑‍🦰 UI/02 📣 Notifiers/$ 📣 Notifier domain.md>) is responsible for pushing the message to the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) via whatever real-time mechanisms the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) supports (e.g., web sockets, MQTT);
+    - because of this technical dependency, a [Notifier 📣 domain](<../../20 🧑‍🦰 UI/02 📣 Notifiers/$ 📣 Notifier domain.md>) is typically implemented by the same team that implemented the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
+
+    ---
+    <br/>
+
+
+1. **Are chat prompt messages encrypted from Hosts to Wallets?**
+
+    Not applicable - [Host 🤗 domains](<04 🤗🎭 Host role.md>) don't send [Messages 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) to [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>). 
+
+    * [Host 🤗 domains](<04 🤗🎭 Host role.md>) only send asynchronous HTTPS intents to the [user's Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>), who then sends it to the [user's Notifier 📣 domain](<../../20 🧑‍🦰 UI/02 📣 Notifiers/$ 📣 Notifier domain.md>) also via asynchronous HTTPS. 
+
+    * When the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) app receives the intent from the [Notifier 📣 domain](<../../20 🧑‍🦰 UI/02 📣 Notifiers/$ 📣 Notifier domain.md>), it pulls the [Message 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) content directly from the [Host 🤗 domain](<04 🤗🎭 Host role.md>) with a synchronous HTTPS call. 
+
+    * This keeps the [Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) and the [Notifier 📣 domain](<../../20 🧑‍🦰 UI/02 📣 Notifiers/$ 📣 Notifier domain.md>) in the dark regarding the content of the [Message 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) (even in the event of a cryptography attack) because no content actually passes by these proxy services.
+
+    ---
+    <br/>
+
+1. **Are chat reply messages encrypted from Wallets to Hosts?**
+
+    Yes. 
+
+    - Although the user's [Messages 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) content is JSON not encrypted, it is sent over HTTPS POST directly from the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) to the [Host 🤗 domain](<04 🤗🎭 Host role.md>).
+
+    - The HTTPS channel ensures the message is encrypted between the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) and the [Host 🤗 domain](<04 🤗🎭 Host role.md>) . 
+
+    - Unencrypted JSON requests sent over HTTPS are a standard practice in the service APIs of the major cloud providers (e.g., AWS, GCP), and are widely viewed as secure.
+
+    - NLWeb relies on the HTTPS ability to continue to evolve has [post-quantum 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/10 📺 Post-quantum keys.md>) cryptography attacks become more sophisticated.
+
+    ---
+    <br/>
+
+
+
+1. **What flows are initiated by Host domains?**
+
+    | Flow ⏩ | Description
+    |-|-
+    | [🤔 `Prompt`](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | Sends a [Prompt 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) to a user [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
+    | [🛠️ `Invite`](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>) | Invites a [Helper 🛠️ domain](<../../45 🛠️ Helper domains/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) to a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
+    | [📝 `Form`](<../../41 🎭 Domain Roles/27 💼 Consumers/02 💼⏩🧑‍🦰 Inform 📝.md>) | Informs a user on upcoming [Inputs ✏️](<../../../9 😃 Talkers/20 🤔 Prompts/1 📘 Prompt specs/09 ✏️ as Input.md>)
+    | [❄️ `Freeze`](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/06 🤗⏩🧑‍🦰 Freeze ❄️.md>) | Blocks changes on all previous [Inputs ✏️](<../../../9 😃 Talkers/20 🤔 Prompts/1 📘 Prompt specs/09 ✏️ as Input.md>)
+    | [👋 `Goodbye`](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/07 🤗⏩🧑‍🦰 Goodbye 👋.md>) | Triggers the [advertising 👀](<../../45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) flow
+    
+
+    ---
+    <br/>
+
+1. **What API methods are exposed by a Host domain?**
+
+    | [From 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Subject 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) | Description
+    |-|-|-
+    |[🤵 Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | [`Hello`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/01 🤵🐌🤗 Hello.md>) | The user started a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
+    | | [`Home`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/02 🤵🐌🤗 Home.md>) | Show the top menu on the [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
+    | | [`Abandoned`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/03 🤵🐌🤗 Abandoned.md>) |  The user abandoned a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
+    | | [`Summarize`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/10 🤵🐌🤗 Summarize.md>) | Return a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) advertising summary
+    |[🧑‍🦰 Wallet](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) | [`Prompted`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) | Return a [Prompt's 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) content
+    | | [`Reply`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) | Accept the reply to a [Prompt 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>)
+    | | [`Download`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/06 🧑‍🦰🚀🤗 Download.md>) | Download an [Appendix 📎](<../../../9 😃 Talkers/20 🤔 Prompts/1 📘 Prompt specs/05 📎 with Appendix.md>)
+    [🖐️ Palmist](<../../60 🧰 Edge/63 🖐️ Palmists/01 🖐️🔌 Palmist device.md>) | [`Found`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/08 🖐️🐌🤗 Found.md>) | A [Palmist 🖐️](<../../60 🧰 Edge/63 🖐️ Palmists/01 🖐️🔌 Palmist device.md>) found the Chat's user
+    [⭐ Reviewer](<../../30 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) | [`Rated`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/09 ⭐🐌🤗 Rated.md>) | The [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) received user reviews
+    
+
+    ---
+    <br/>

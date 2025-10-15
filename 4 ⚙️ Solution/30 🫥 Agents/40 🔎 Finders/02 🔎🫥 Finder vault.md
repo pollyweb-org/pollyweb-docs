@@ -24,9 +24,9 @@
 
 1. **How do Finders help to protect users?**
 
-    [Broker 🤵 domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) leverage Finders to provide users with culturally-contextualized details and user feedback about [Host 🤗 domains](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) when a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) starts. 
+    [Broker 🤵 domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) leverage Finders to provide users with culturally-contextualized details and user feedback about [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/04 🤗🎭 Host role.md>) when a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) starts. 
 
-    * Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) excerpt from the [Buy water 🤝 use case](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/11 💧 Buy water.md>) as an example of a with an interaction with a  [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>), right after the user has tapped a [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>).
+    * Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) excerpt from the [Buy water 🤝 use case](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/11 💧 Buy water.md>) as an example of a with an interaction with a  [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/04 🤗🎭 Host role.md>), right after the user has tapped a [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>).
 
     | [Domain](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
     | - | - | - |
@@ -42,7 +42,7 @@
 
     To search domains on a Finder, users use natural language, similar to ChatGPT.
     * Example: `find me a restaurant for tonight`.
-    * Finders then show potential [Host 🤗 domains](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) for the user to initiate a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with.
+    * Finders then show potential [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/04 🤗🎭 Host role.md>) for the user to initiate a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with.
     * After the user selection, Finders also show potential next steps for [navigation 🧭](<../55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>), available [services 🪢](<../../20 🧑‍🦰 UI/12 💬 Chats/06 🪢🎭 Integrator role.md>), and [advertising 👀](<../../45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>).
     * Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) excerpt of the [Find a bar 🤝 use case](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/30 🍸 Bars/11 🌐 Web: Find a bar.md>) as an example.
 
@@ -52,7 +52,7 @@
     | 🔎 [Finder](<02 🔎🫥 Finder vault.md>) | 😃 Hi! What do you need? | `a bar`
     | 🔎 [Finder](<02 🔎🫥 Finder vault.md>) | 💬 Here are suggestions: <br/> - [ Any Club 🕺 ] (4.4 ⭐) <br/> &nbsp; └ 👟 1.7km 🚪 10pm-5am <br/> - [ Any Bar 🍸 ] (4.8 ⭐) <br/> &nbsp; ├ 👟 1.7km 🚪 1pm-10pm <br/> &nbsp; ├ open bar from 8pm <br/> &nbsp; └ closes in ~1 hour <br/> - [ Find 🔎 ] alternatives | > Any Bar 🍸
     | 🔎 [Finder](<02 🔎🫥 Finder vault.md>) | 💬 Suggested next steps: <br/> - [ Get there 🧭 ] <br/> - [ Buy ] entry in advance 
-    | [🤗 Host](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Over to 🍸 Any Bar.
+    | [🤗 Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/04 🤗🎭 Host role.md>) | ✅ Over to 🍸 Any Bar.
     | [ new chat ]
     | 🔎 [Finder](<02 🔎🫥 Finder vault.md>) | ⓘ Any Bar (4.4 ⭐) [+]
     | 🍸 Bar   | ℹ️ Buy entry request.

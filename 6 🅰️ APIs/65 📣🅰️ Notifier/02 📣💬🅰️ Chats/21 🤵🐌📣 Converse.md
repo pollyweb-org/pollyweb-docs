@@ -29,7 +29,7 @@ Body:
 ||`Subject`|string|`Converse@Notifier`
 |Body  |`WalletID` |uuid  | [Wallet 🧑‍🦰](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) ID from [`Assess@Broker`](<../../15 🤵🅰️ Broker/20 🤵🅰️ Locators/01 🧑‍🦰🐌🤵 Assess.md>)
 |      |`ChatID`   |uuid  | New [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID on the [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>)
-|      |`Host`     |string| [Host 🤗 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) name
+|      |`Host`     |string| [Host 🤗 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/04 🤗🎭 Host role.md>) name
 |      |`Name`     |string| Name from [`Translate@Graph`](<../../45 🕸🅰️ Graph/06 👥🚀🕸 Translate.md>)
 |      |`SmallIcon`|string   | Small icon from [`Identity@Graph`](<../../45 🕸🅰️ Graph/04 👥🚀🕸 Identity.md>)
 |      |`BigIcon`  |string   | Big icon from [`Identity@Graph`](<../../45 🕸🅰️ Graph/04 👥🚀🕸 Identity.md>)
