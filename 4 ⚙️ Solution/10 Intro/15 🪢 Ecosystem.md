@@ -29,7 +29,7 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
 
 - Organizations interact with an email-like inbox API behind a domain name, and can assume a multitude of roles in parallel - e.g.:
     * session [Host 🤗](<../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>), 
-    * business [Seller 💵](<../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>),
+    * business [Seller 💵](<../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>),
     * data [Consumer 💼](<../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>), 
     * user-bound [Vault 🗄️](<../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>), 
     * event [Streamer 🌬️](<../41 🎭 Domain Roles/75 🌬️ Streamers/$ 🌬️🎭 Streamer role.md>), 

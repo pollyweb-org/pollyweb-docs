@@ -9,8 +9,8 @@
 
 ## About
 
-- Flow: [Charge 💵👉🧑‍🦰 ](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/70 💵 Sellers/32 💵⏩🧑‍🦰 Charge flow.md>)
-- Previous: [Charge 💵👉🧑‍🦰](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/70 💵 Sellers/32 💵⏩🧑‍🦰 Charge flow.md>)
+- Flow: [Charge 💵👉🧑‍🦰 ](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/70 💵 Sellers/💵⏩ Seller flows/💵⏩🧑‍🦰 Charge.md>)
+- Previous: [Charge 💵👉🧑‍🦰](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/70 💵 Sellers/💵⏩ Seller flows/💵⏩🧑‍🦰 Charge.md>)
 - Next: [Charge@Notifier 🤵💵🐌📣](<../../65 📣🅰️ Notifier/05 📣💳🅰️ Payments/61 🤵🐌📣 Charge.md>)
 
 
@@ -21,7 +21,7 @@
 
 
 - Header:
-    - [From 💵](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>): `any-seller.org`
+    - [From 💵](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>): `any-seller.org`
     - [To 🤵](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>): `any-broker.com`
     - [Subject 📨](<../../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>): `Charge@Broker`
 - Body:

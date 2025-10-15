@@ -4,16 +4,16 @@
 
 For a user to [sign](<../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/16 🆔🔏 Verify Signatures.md>) a subscription, the following preconditions must be met:
 - 1/ the user has default [Payer 💳](<../../4 ⚙️ Solution/50 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) and [Identity 🆔](<../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) domains;
-- 2/ the [Seller 💵 domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>) has a default [Collector 🏦 domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/30 🏦 Collectors/$ 🏦🛠️ Collector helper.md>).
+- 2/ the [Seller 💵 domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) has a default [Collector 🏦 domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/30 🏦 Collectors/$ 🏦🛠️ Collector helper.md>).
 
 The following steps describe a subscription workflow:
-- 1/ the user initiates a chat with a [Seller 💵](<../../4 ⚙️ Solution/41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>);
+- 1/ the user initiates a chat with a [Seller 💵](<../../4 ⚙️ Solution/41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>);
 - 2/ the user selects a subscription in the chat;
 - 3/ the Seller's [Biller 🤝](<../../4 ⚙️ Solution/45 🛠️ Helper domains/20 🤝 Billers/$ 🤝🛠️ Biller helper.md>) sends the PDF terms to the user;
 - 4/ the user accepts the PDF terms;
 - 5/ the user's [Identity 🆔 domain](<../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) authenticates the user;
 - 6/ the user's [Payer 💳](<../../4 ⚙️ Solution/50 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) asks the user for a payment method;
-- 7/ the [Seller 💵](<../../4 ⚙️ Solution/41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>) confirms the subscription;
+- 7/ the [Seller 💵](<../../4 ⚙️ Solution/41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) confirms the subscription;
 - 8/ the  [Biller 🤝](<../../4 ⚙️ Solution/45 🛠️ Helper domains/20 🤝 Billers/$ 🤝🛠️ Biller helper.md>)  initiates the monthly collection.
 
 <br/>
