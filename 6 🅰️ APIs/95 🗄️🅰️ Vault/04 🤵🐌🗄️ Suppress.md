@@ -24,9 +24,9 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 |Header| `From` | string | [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
-|| `To` | string | [Vault 🗄️ domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>)
+|| `To` | string | [Vault 🗄️ domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vault/$ 🗄️🎭 Vault role.md>)
 || `Subject` | string | `Suppress@Vault`
-|Body| `Consumer` | string | [Consumer 💼 domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/04 💼🎭 Consumer role.md>)
+|Body| `Consumer` | string | [Consumer 💼 domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>)
 || `ChatID`| uuid | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) ID
 |
 

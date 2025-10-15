@@ -68,9 +68,9 @@
     
 1. **What if the user presents a QR Token printed on paper?**
 
-    In cases where the user is holding an offline image of the Token's QR (e.g., printed or screenshot), [Consumer 💼 domains](<../../41 🎭 Domain Roles/27 💼 Consumers/04 💼🎭 Consumer role.md>) may ask for a synchronous status check of the [Token 🎫](<01 🎫 Token.md>) directly with the [user's Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>);
+    In cases where the user is holding an offline image of the Token's QR (e.g., printed or screenshot), [Consumer 💼 domains](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) may ask for a synchronous status check of the [Token 🎫](<01 🎫 Token.md>) directly with the [user's Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>);
     
-    - e.g., while validating a printed QR of a [passport Token 🎫](<01 🎫 Token.md>) at the airport border control, the [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/04 💼🎭 Consumer role.md>) of the airport may try to reach the [user's Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) to verify if the passport hasn't been suspended or revoked.
+    - e.g., while validating a printed QR of a [passport Token 🎫](<01 🎫 Token.md>) at the airport border control, the [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) of the airport may try to reach the [user's Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) to verify if the passport hasn't been suspended or revoked.
 
     The airport knows what [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) to reach out to, 
     * because the printed QR version of a [Token 🎫](<01 🎫 Token.md>) does not contain the Token's content;

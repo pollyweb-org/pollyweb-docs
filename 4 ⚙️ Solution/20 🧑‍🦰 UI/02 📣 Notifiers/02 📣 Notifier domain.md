@@ -32,7 +32,7 @@
 
     Not for NLWeb. 
     
-    * In NLWeb, domain orchestration is done by [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>), and storage of user data is done by [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>) domains, while a [Notifier 📣 domain's](<02 📣 Notifier domain.md>) only responsibility is to proxy [domain messages 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) to and from the [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>). 
+    * In NLWeb, domain orchestration is done by [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>), and storage of user data is done by [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vault/$ 🗄️🎭 Vault role.md>) domains, while a [Notifier 📣 domain's](<02 📣 Notifier domain.md>) only responsibility is to proxy [domain messages 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) to and from the [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>). 
     
     * This is by design, allowing resilient [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) implementations (e.g., AWS, GCP, Azure) to assume the complexity of the undifferentiated NLWeb protocol, while allowing app start-ups to focus on user experience differentiation. 
     
