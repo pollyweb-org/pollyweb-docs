@@ -1,7 +1,7 @@
 📦 Storage vault domains
 ===
 
-![](<00 📎 Assets/📦 Storage.png>)
+![](<. 📎 Assets/📦 Storage.png>)
 
 1. **What is a Storage domain in NLWeb?**
 
@@ -91,7 +91,7 @@
 
 1. **How to implement a Storage vault on AWS?**
 
-    ![](<00 📎 Assets/📦 Storage$Vault @AWS.png>)
+    ![](<. 📎 Assets/📦 Storage$Vault @AWS.png>)
 
     This solution requires the following components:
     - 📜 **Manifester**: to expose its [Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>); 
@@ -111,7 +111,7 @@
 
 1. **How to implement a Storage client cache on AWS?**
 
-    ![](<00 📎 Assets/📦 Storage$Client @AWS.png>)
+    ![](<. 📎 Assets/📦 Storage$Client @AWS.png>)
 
     Storage clients rely on the following components for domain [📨 Messaging](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>):
     - 📨 **Inbox**: the combination of the Distributer plus the Endpoint;
