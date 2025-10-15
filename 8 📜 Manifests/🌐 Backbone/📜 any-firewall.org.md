@@ -8,7 +8,7 @@
 ```yaml
 🤝: nlweb.org/MANIFEST
 
-Identity:
+About:
   Domain: any-firewall.org
   Name: Any Firewall
 

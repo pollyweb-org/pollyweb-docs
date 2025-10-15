@@ -4,6 +4,6 @@
 ```yaml
 🤝: nlweb.org/MANIFEST
 
-Identity:
+About:
   Domain: ephemeral.any-supplier.org
   Name: Any Ephemeral

@@ -6,7 +6,7 @@
 🤝: nlweb.org/MANIFEST
 ```
 ```yaml
-Identity:
+About:
   Domain: usa.gov
   Name: US Government
 ```

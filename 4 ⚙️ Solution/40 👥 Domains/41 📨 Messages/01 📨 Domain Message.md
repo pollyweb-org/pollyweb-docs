@@ -299,7 +299,7 @@
   
         ```yaml
         🤝: nlweb.org/MANIFEST/IDENTITY
-        Identity:
+        About:
           Name: any-sender.com
           Feedback: any-buffer.com
         ```

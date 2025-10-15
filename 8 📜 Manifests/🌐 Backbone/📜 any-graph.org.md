@@ -5,6 +5,6 @@
 ```yaml
 🤝: nlweb.org/MANIFEST
 
-Identity:
+About:
   Domain: any-graph.org
   Name: Any Graph

@@ -230,7 +230,7 @@
     Consider [`.MANIFEST` 🧩](<../../40 👥 Domains/44 📜 Manifests/10 🧩 MANIFEST code.md>):
     * it references [`.MANIFEST/IDENTITY` 🧩](<../../40 👥 Domains/44 📜 Manifests/14 🧩 IDENTITY code.md>)
         ```yaml
-        Identity:
+        About:
           $ref: nlweb.org/MANIFEST/IDENTITY:1.0
         ```
     * and references [`.MANIFEST/TRUST` 🧩](<../../40 👥 Domains/44 📜 Manifests/17 🧩 TRUST code.md>).

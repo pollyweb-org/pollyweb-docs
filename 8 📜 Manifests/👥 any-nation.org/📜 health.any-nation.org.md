@@ -5,7 +5,7 @@
 ```yaml
 🤝: nlweb.org/MANIFEST
 
-Identity:
+About:
   Domain: health.any-nation.org
   Name: Any Nation's Health Services
 

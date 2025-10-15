@@ -4,6 +4,6 @@
 ```yaml
 🤝: nlweb.org/MANIFEST
 
-Identity:
+About:
   Domain: transcriber.any-supplier.org
   Name: Any Transcriber

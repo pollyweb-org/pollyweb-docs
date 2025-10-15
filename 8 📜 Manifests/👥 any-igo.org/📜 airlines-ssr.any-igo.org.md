@@ -5,7 +5,7 @@
 ```yaml
 🤝: nlweb.org/MANIFEST
 
-Identity:
+About:
   Domain: airlines-ssr.any-igo.org
   Name: SSR Department of Any IGO Airlines
 ```

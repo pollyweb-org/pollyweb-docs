@@ -5,7 +5,7 @@
 ```yaml
 🤝: nlweb.org/MANIFEST
 
-Identity:
+About:
   Domain: nations.any-igo.org
   Name: Nation Members of Any IGO
   

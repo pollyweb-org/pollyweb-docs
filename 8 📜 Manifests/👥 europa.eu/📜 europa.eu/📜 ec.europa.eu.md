@@ -7,7 +7,7 @@
 ```yaml
 🤝: nlweb.org/MANIFEST
 
-Identity:
+About:
   Domain: ec.europa.eu
   Name: European Commission
 ```       

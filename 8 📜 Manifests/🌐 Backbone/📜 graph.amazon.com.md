@@ -5,6 +5,6 @@
 ```yaml
 🤝: nlweb.org/MANIFEST
 
-Identity:
+About:
   Domain: graph.amazon.com
   Name: Amazon Graph

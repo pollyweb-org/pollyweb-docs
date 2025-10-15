@@ -4,6 +4,6 @@
 ```yaml
 🤝: nlweb.org/MANIFEST
 
-Identity:
+About:
   Domain: cafe.any-business.com
   Name: Any Coffee Shop

@@ -5,7 +5,7 @@
 ```yaml
 🤝: nlweb.org/MANIFEST
 
-Identity:
+About:
   Domain: any-igo.org
   Name: Any Intergovernmental Organization (IGO)
   

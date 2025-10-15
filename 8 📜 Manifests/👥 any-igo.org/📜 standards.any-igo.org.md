@@ -4,7 +4,7 @@
 ```yaml
 🤝: nlweb.org/MANIFEST
 
-Identity:
+About:
   Domain: standards.any-igo.org
   Name: ISO, International Organization for Standardization
 

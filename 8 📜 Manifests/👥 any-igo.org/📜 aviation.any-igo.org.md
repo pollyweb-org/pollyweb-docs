@@ -7,7 +7,7 @@
 ```
 
 ```yaml
-Identity:
+About:
   Domain: aviation.any-igo.org
   Name: All Aviation Members
 ```
