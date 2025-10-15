@@ -14,7 +14,7 @@
 | 🍽️ Restaurant | 😃 What do you need? <br/>- [ A table for a meal ] <br/>- [ Something else ] | > A table (...)
 | 🍽️ Restaurant | 😃 For how many? [1, 2, more] | > 2
 | 🍽️ Restaurant | ℹ️ Got it, a table for 2. [Change]
-| 🧢 [Persona](<../../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) | 🫥 Share seat preferences? [No] <br/>- [ 👤 solo ] <br/>- [ 👨‍👩‍👦 family ] <br/>- [ 🤝 business ] | > 👨‍👩‍👦 family
+| 🧢 [Persona](<../../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/$ 🧢🫥 Persona agent.md>) | 🫥 Share seat preferences? [No] <br/>- [ 👤 solo ] <br/>- [ 👨‍👩‍👦 family ] <br/>- [ 🤝 business ] | > 👨‍👩‍👦 family
 | 🍽️ Restaurant | ℹ️ Received preferences: [Change] <br/>- no smoking area <br/>- nice view <br/>- conversational waitress
 | 🍽️ Restaurant | ✅ Staff will come to escort you. <br/>- [ Cancel wait ]
 ||

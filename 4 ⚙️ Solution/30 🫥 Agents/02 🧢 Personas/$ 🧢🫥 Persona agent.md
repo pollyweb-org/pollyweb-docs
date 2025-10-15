@@ -4,7 +4,7 @@
 
 1. **What is a Persona in NLWeb?**
 
-    A [Persona 🧢 domain](<02 🧢🫥 Persona agent.md>) is an [Agent 🫥 vault](<../../25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) specialized in user preferences.
+    A [Persona 🧢 domain](<$ 🧢🫥 Persona agent.md>) is an [Agent 🫥 vault](<../../25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) specialized in user preferences.
 
     ---
     <br/>
@@ -43,14 +43,14 @@
 
 1. **How do Persona agents work?**
 
-    ![](<00 📎 Assets/🧢 Persona.png>)
+    ![](<. 📎 Assets/🧢 Persona.png>)
 
     ---
     <br/>
 
 1. **How do Persona vaults differ from Identity vaults?**
 
-    [Persona 🧢 vaults](<02 🧢🫥 Persona agent.md>) are controlled by users, allowing them to define their preferences according to specific circumstances (e.g., a user may have different preferences when traveling for work or on family holidays). 
+    [Persona 🧢 vaults](<$ 🧢🫥 Persona agent.md>) are controlled by users, allowing them to define their preferences according to specific circumstances (e.g., a user may have different preferences when traveling for work or on family holidays). 
     
     - Conversely, [Identity 🆔 vaults](<../05 🆔 Identities/01 🆔🫥 Identity agent.md>)  are controlled by nations on behalf of their citizens (e.g., the UK), allowing users to legally identity themselves at home and abroad.
 
@@ -60,7 +60,7 @@
 
 1. **Can users leverage their social network instead?**
 
-    Yes. A [Persona 🧢](<02 🧢🫥 Persona agent.md>) is an NLWeb role that can be implemented by any social network. Thus, once the user's social network onboards to NLWeb as a Persona, users can use it.
+    Yes. A [Persona 🧢](<$ 🧢🫥 Persona agent.md>) is an NLWeb role that can be implemented by any social network. Thus, once the user's social network onboards to NLWeb as a Persona, users can use it.
 
     ---
     <br/>

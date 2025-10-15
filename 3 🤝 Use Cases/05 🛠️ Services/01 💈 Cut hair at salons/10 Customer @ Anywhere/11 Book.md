@@ -14,7 +14,7 @@ How to book at a salon?
 | [🗓️ Scheduler](<../../../../4 ⚙️ Solution/30 🫥 Agents/38 🕓 User Timeline/04 🗓️🗄️ Scheduler agent.md>) | 🫥 What time? <br/> - [ 9:00 ] <br/> - [ 9:30 ] <br/> - ... | > 9:30 
 | [🗓️ Scheduler](<../../../../4 ⚙️ Solution/30 🫥 Agents/38 🕓 User Timeline/04 🗓️🗄️ Scheduler agent.md>) | 🫥 Are you sure? [Yes, No] <br/>- lunch at mom at 1pm. | > Yes
 | 💈 Salon   | ℹ️ Booking: [Change] <br/> - haircut and manicure <br/> - tomorrow, 9:30 to 11:30 <br/> - 🚫 allergic to latex
-| 🧢 [Persona](<../../../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) | 🫥 Share contacts? [No] <br/>- [ 🧑‍🦰 personal ] <br/>- [ 💼 work ] <br/>- [ 🧔 Daniel ] | > 🧑‍🦰 personal
+| 🧢 [Persona](<../../../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/$ 🧢🫥 Persona agent.md>) | 🫥 Share contacts? [No] <br/>- [ 🧑‍🦰 personal ] <br/>- [ 💼 work ] <br/>- [ 🧔 Daniel ] | > 🧑‍🦰 personal
 | 💈 Salon   | ℹ️ Thanks, Alice!
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Save booking? [Yes, No] | > Yes    
 | 💈 Salon   | ✅ Booked!

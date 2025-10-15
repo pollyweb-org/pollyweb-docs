@@ -9,7 +9,7 @@ How to arrive-and-wait at a salon?
 | 💈 Salon   | 😃 What services? <br/>- [  ] Haircut 💇 <br/>- [  ]  Manicure 💅 <br/>- [  ] Pedicure 🦶 | [X] Haircut 💇 <br/> [X] Manicure 💅    
 | 💈 Salon   | ℹ️ You're 3rd!
 | 💈 Salon   | 😃 Wait? [Yes, No] | > Yes  
-| 🧢 [Persona](<../../../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) | 🫥 Share name? [No] <br/> - [ 🧑‍🦰 personal ] <br/> - [ 💼 work ]  <br/> - [ 🦋 private ]     | > 🧑‍🦰 personal
+| 🧢 [Persona](<../../../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/$ 🧢🫥 Persona agent.md>) | 🫥 Share name? [No] <br/> - [ 🧑‍🦰 personal ] <br/> - [ 💼 work ]  <br/> - [ 🦋 private ]     | > 🧑‍🦰 personal
 | 💈 Salon   | ℹ️ Thanks, Alice!
 | 💈 Salon   | ⏳ Seat, you're 2nd... [+] 
 | 💈 Salon   | ⏳ Seat, you're next... [+] 
