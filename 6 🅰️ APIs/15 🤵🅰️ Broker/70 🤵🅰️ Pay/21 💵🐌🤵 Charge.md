@@ -32,6 +32,6 @@
         - Amount: `12.34`
         - Currency: `EUR`
         - Operation: `DEBIT`
-        - [Collectors 🏦](<../../../4 ⚙️ Solution/45 Helpers/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>): [ `revolut.com`, `paypal.com` ]
+        - [Collectors 🏦](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>): [ `revolut.com`, `paypal.com` ]
 
 ---

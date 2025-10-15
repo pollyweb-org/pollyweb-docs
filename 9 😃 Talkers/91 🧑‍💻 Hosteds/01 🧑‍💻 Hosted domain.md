@@ -29,7 +29,7 @@
     | [🔑 PublicKey](<10 🔑📄 PublicKey file.md>) | TXT | Public key for encryption
     | [📥 Inbound](<11 📥📄 Inbound file.md>) | YAML | Message inbound configuration
     | [📤 Outbound](<12 📤📄 Outbound file.md>) | YAML | Message outbound configuration
-    | [🛠️ Helpers](<13 🛠️📄 Helpers file.md>)  | YAML | Required [Helper 🛠️ domains](<../../4 ⚙️ Solution/45 Helpers/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>)
+    | [🛠️ Helpers](<13 🛠️📄 Helpers file.md>)  | YAML | Required [Helper 🛠️ domains](<../../4 ⚙️ Solution/45 🛠️ Helper domains/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>)
     | 🔆 [Locators](<14 🔆📄 Locators file.md>) | YAML | Map of [Locators 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) to [Talkers 😃](<../10 📘 Talker specs/10 😃 Talker.md>)
     | 😃 [Talkers](<15 😃📂 Talkers folder.md>) | Folder | List of [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>) scripts 
     | [📜 Manifest](<16 📜📂 Manifest folder.md>) | Folder | Public [domain Manifest 📜](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) parts
@@ -62,7 +62,7 @@
     | [🧑‍🦰 Wallet](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) | To authenticate and [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) with the [Hoster ☁️ ](<../90 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>)
     | [💳 Payer](<../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/04 💳🫥 Payer agent.md>) | To pay for usage and subscription plans.
     | [🆔 Identity](<../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | To authenticate the domain user.
-    | [🗂️ Folder](<../../4 ⚙️ Solution/45 Helpers/26 🗂️ Folders/$ 🗂️ Folder editor.md>) | To manage the settings of the hosted [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>).
+    | [🗂️ Folder](<../../4 ⚙️ Solution/45 🛠️ Helper domains/26 🗂️ Folders/$ 🗂️ Folder editor.md>) | To manage the settings of the hosted [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>).
 
     ---
     <br/>

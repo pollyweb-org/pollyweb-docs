@@ -1,7 +1,7 @@
 
 # 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>): any-firewall.org
 
-> Related to [Firewall 🔥 helper domain](<../../4 ⚙️ Solution/45 Helpers/21 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>).
+> Related to [Firewall 🔥 helper domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/21 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>).
 
 <br/> 
 

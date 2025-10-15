@@ -5,7 +5,7 @@
    
     Payer 💳🛠️ helpers 
     * are [Payer 🎭 domains](<03 💳🎭 Payer role.md>) 
-    * that act as [Helper 🛠️ domains](<../../45 Helpers/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) for other [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>), 
+    * that act as [Helper 🛠️ domains](<../../45 🛠️ Helper domains/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) for other [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>), 
     * paying for agreements with [Biller 🤝 helpers](<06 🤝🛠️ Biller helper.md>).
 
     ---
@@ -15,7 +15,7 @@
 
     | Use case | Description
     |-|-
-    | [👀 Ads](<../../45 Helpers/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) | [Domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) are charged by [Advertiser 👀 helpers](<../../45 Helpers/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) for ad promotion.
+    | [👀 Ads](<../../45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) | [Domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) are charged by [Advertiser 👀 helpers](<../../45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) for ad promotion.
     | [🏭 Supply](<../06 🛎️ Concierges/02 🏭🎭 Supplier role.md>) | [Domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) are charged by [Supplier 🏭 domains](<../06 🛎️ Concierges/02 🏭🎭 Supplier role.md>) for orders fulfilled. 
     | [💬 Chats](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) | [Notifier 📣](<../../20 🧑‍🦰 UI/02 📣 Notifiers/02 📣 Notifier domain.md>) are charged by [Broker domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) for [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) orchestrations.
     

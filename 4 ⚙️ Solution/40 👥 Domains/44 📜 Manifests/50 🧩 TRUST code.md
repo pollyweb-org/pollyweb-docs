@@ -41,7 +41,7 @@
 || `GRANT` | Adds a trusted node to all possible trust paths.
 ||          | This is the default, if not specified.
 || `REVOKE` | Blocks the domain/role, even if there' a GRANT.
-|| `INHERIT` | Inherits all revokes from a [Firewall 🔥 domain](<../../45 Helpers/21 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>).
+|| `INHERIT` | Inherits all revokes from a [Firewall 🔥 domain](<../../45 🛠️ Helper domains/21 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>).
 |
   
 * Note: When a [Schema Code 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) is removed from [`.MANIFEST/TRUSTS`](<50 🧩 TRUST code.md>), 
@@ -53,14 +53,14 @@
 
 ## Defaults
 
-* Inherit from [Firewall 🔥 domains](<../../45 Helpers/21 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) the revokes to malicious domains. 
+* Inherit from [Firewall 🔥 domains](<../../45 🛠️ Helper domains/21 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) the revokes to malicious domains. 
   ```yaml
   # Protection from malicious domains. 
   - Action: INHERIT
     Domain: any-firewall.org
   ```
 
-* Trust [Helper 🛠️ domains](<../../45 Helpers/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) certified by NLWeb.
+* Trust [Helper 🛠️ domains](<../../45 🛠️ Helper domains/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) certified by NLWeb.
   ```yaml
   # Certified Helpers
   - Action: GRANT
