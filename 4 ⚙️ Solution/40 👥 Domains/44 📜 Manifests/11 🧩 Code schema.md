@@ -1,10 +1,10 @@
-
-# 🧩 [Schema Code](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): ManifestCode
+# 🧩 [`.MANIFEST`](<10 🧩 Manifest schema.md>) `/CODE`
 
 > Part of [`.MANIFEST` 🧩](<10 🧩 Manifest schema.md>)
 
 > Implements [domain Manifest 📜](<01 📜 Domain Manifest.md>) 
 
+> Indexed by [`Schema@Graph`](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>)
 
 <br/>
 

@@ -6,8 +6,11 @@
 
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 
-* Gets the schema of a [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) as defined it its [domain Manifests 📜](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>).
-* When the schema references other schemas, 
+* Gets the schema of a [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) 
+    * as defined in [`.MANIFEST/CODE` 🧩](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/11 🧩 Code schema.md>) 
+    * and [`.MANIFEST/CODE/SCHEMA` 🧩](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/12 🧩 CodeSchema schema.md>) parts
+    * of [domain Manifests 📜](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>).
+* When the schema references other schemas with `$ref`, 
     * this method returns the final merged schema for independent validation 
     * i.e., there's no need for further calls to get the referenced schemas.
 

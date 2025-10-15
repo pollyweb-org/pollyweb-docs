@@ -1,5 +1,4 @@
-
-# 🧩 [Schema Code](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): ManifestTranslation
+# 🧩 [`.MANIFEST`](<10 🧩 Manifest schema.md>) `/TRANSLATION`
 
 > Used by [`.MANIFEST/IDENTITY` 🧩](<14 🧩 Identity schema.md>) and
 [`.MANIFEST/CODE` 🧩](<11 🧩 Code schema.md>)
@@ -12,7 +11,7 @@
 
 | Property | Type | Notes|
 |-|-|-
-| `Language`      | string | Translated language, e.g. `en`<br/>- from [`standards.any-igo.org` 📜](<📜 standards.any-igo.org.md>)
+| `Language`      | string | Translated language, e.g. `en`<br/>- from [`standards.any-igo.org` 📜](<../../../8 📜 Manifests/👥 any-igo.org/📜 standards.any-igo.org.md>)
 | `Translation`   | string | Human readable translation of the name
 |
 
