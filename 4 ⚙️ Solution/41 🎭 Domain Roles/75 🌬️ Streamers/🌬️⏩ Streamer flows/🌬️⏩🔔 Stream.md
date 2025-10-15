@@ -13,7 +13,7 @@
 | # | Call | Notes
 |-|-|-
 |1| [🔔🚀⏳ `Queue@Buffer`](<../../../45 🛠️ Helper domains/27 ⏳ Buffers/🅰️ Buffer methods/🔔🐌⏳ Queue.md>) | [Subscribers 🔔](<../../76 🔔 Subscribers/🔔🎭 Subscriber role.md>) create a [Buffer ⏳](<../../../45 🛠️ Helper domains/27 ⏳ Buffers/⏳🛠️ Buffer helper.md>) queue
-|2| [🔔🐌🌬️ `Subscribe@Streamer`](<../🅰️ Streamer methods/🔔🐌🌬️ Subscribe.md>) | [Subscribers 🔔](<../../76 🔔 Subscribers/🔔🎭 Subscriber role.md>) subscribe to [Streamers 🌬️](<../🌬️🎭 Streamer role.md>)
+|2| [🔔🐌🌬️ `Subscribe@Streamer`](<../🌬️🅰️ Streamer methods/🔔🐌🌬️ Subscribe.md>) | [Subscribers 🔔](<../../76 🔔 Subscribers/🔔🎭 Subscriber role.md>) subscribe to [Streamers 🌬️](<../🌬️🎭 Streamer role.md>)
 | 3 | [🌬️🐌⏳ `Push@Buffer`](<../../../45 🛠️ Helper domains/27 ⏳ Buffers/🅰️ Buffer methods/🌬️🐌⏳ Push.md>) | [Streamers 🌬️](<../🌬️🎭 Streamer role.md>) push to [Buffers ⏳](<../../../45 🛠️ Helper domains/27 ⏳ Buffers/⏳🛠️ Buffer helper.md>)
 | 4 | [⏳🐌🔔 `Wake-up@Subscriber`](<../../76 🔔 Subscribers/🔔🅰️ Subscriber methods/⏳🐌🔔 Wake-up.md>) | [Buffers ⏳](<../../../45 🛠️ Helper domains/27 ⏳ Buffers/⏳🛠️ Buffer helper.md>) wake up [Subscribers 🔔](<../../76 🔔 Subscribers/🔔🎭 Subscriber role.md>)
 | 5 | [🔔🚀⏳ `Poll@Buffer`](<../../../45 🛠️ Helper domains/27 ⏳ Buffers/🅰️ Buffer methods/🔔🚀⏳ Poll.md>) | [Subscribers 🔔](<../../76 🔔 Subscribers/🔔🎭 Subscriber role.md>) poll all buffered messages
