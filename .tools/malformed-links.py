@@ -126,6 +126,7 @@ def count_end_match(str1, str2):
 def remove_numbers(string):
     # Remove numbers from the string
     ret = re.sub(r'\d+', '', string)
+    ret = ret.replace('$', '')
     ret = ret.replace('✅', '')
     ret = ret.replace('⏳', '')
     ret = ret.replace(' ', '')
