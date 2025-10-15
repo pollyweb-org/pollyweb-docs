@@ -14,7 +14,7 @@
 
     - **Legal restrictions:** some jurisdictions don't allow for the collection of users' photos, except when done by public services.
   
-    - **Privacy protection:** palm scanners prevent [💼 Consumers](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) from cross referencing the user's selfie with photos on the internet (e.g., social media).
+    - **Privacy protection:** palm scanners prevent [💼 Consumers](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) from cross referencing the user's selfie with photos on the internet (e.g., social media).
     
     - **Anonymity choice:** a public figure may chose to keep their glasses, scarf, or hat on to avoid being recognized in public.
     

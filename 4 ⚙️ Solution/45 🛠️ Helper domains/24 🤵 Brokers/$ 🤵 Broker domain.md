@@ -102,7 +102,7 @@
     || [🎴🐌 Offer](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/50 🤵🅰️ Tokens 🎫/51 🎴🐌🤵 Offer.md>) | [Issuers 🎴](<../../41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) offer an issued [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) 
     || [🧑‍🦰🐌 Saved](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/50 🤵🅰️ Tokens 🎫/53 🧑‍🦰🐌🤵 Saved.md>) | A [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) saved a [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) locally
     || [🎴🐌 Revise](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/50 🤵🅰️ Tokens 🎫/52 🎴🐌🤵 Revise.md>) | Update the status of a [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>)
-    | [`💼 Share`](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) | [💼🐌 Query](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) | Return user [Binds 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) and [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>)
+    | [`💼 Share`](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) | [💼🐌 Query](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) | Return user [Binds 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) and [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>)
     || [💼🚀 Status](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/62 💼🚀🤵 Status.md>) | Return the status of a [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>)
 
     <!--

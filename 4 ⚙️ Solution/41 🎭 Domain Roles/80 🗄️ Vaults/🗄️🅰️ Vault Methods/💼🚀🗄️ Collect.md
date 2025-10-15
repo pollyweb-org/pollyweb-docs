@@ -24,7 +24,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From` | string | [Consumer 💼 domain](<../../27 💼 Consumers/$ 💼🎭 Consumer role.md>) name
+|Header|`From` | string | [Consumer 💼 domain](<../../27 💼 Consumers/💼🎭 Consumer role.md>) name
 || `To`| string | [Vault 🗄️ domain](<../🗄️🎭 Vault role.md>) name
 ||`Subject` | string | `Collect@Vault`
 |Body|`VaultKey` | uuid | Callback from [Consume@Consumer](<../../27 💼 Consumers/🅰️ Consumer methods/🗄️🐌💼 Consume.md>)
@@ -36,7 +36,7 @@ Body:
 
 1. **Why a synchronous request?**
 
-    A synchronous request (instead of an async message) allows  [Consumer 💼 domains](<../../27 💼 Consumers/$ 💼🎭 Consumer role.md>) to download data sets from the [Vault 🗄️ domain](<../🗄️🎭 Vault role.md>) via HTTPS with no theoretical size limit.
+    A synchronous request (instead of an async message) allows  [Consumer 💼 domains](<../../27 💼 Consumers/💼🎭 Consumer role.md>) to download data sets from the [Vault 🗄️ domain](<../🗄️🎭 Vault role.md>) via HTTPS with no theoretical size limit.
 
     ---
     <br/>

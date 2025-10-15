@@ -4,7 +4,7 @@
 
 > Used by [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>)
 
-* Asks the [Consumer 💼 domain](<../$ 💼🎭 Consumer role.md>) to consume a given [Bind 🔗](<../../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>).
+* Asks the [Consumer 💼 domain](<../💼🎭 Consumer role.md>) to consume a given [Bind 🔗](<../../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>).
 * Tells them to collect data shared by a user in a [Chat 💬](<../../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>).
 
 <br/>
@@ -31,7 +31,7 @@ Body:
 |Property|Type|Description
 |-|-|-
 | `From`| string | [Vault 🗄️ domain](<../../80 🗄️ Vaults/🗄️🎭 Vault role.md>) name
-| `To`| string | [Consumer 💼 domain](<../$ 💼🎭 Consumer role.md>) name
+| `To`| string | [Consumer 💼 domain](<../💼🎭 Consumer role.md>) name
 | `Subject` | string | `Consume@Consumer`
 | `Broker`| string | [Broker 🤵 domain](<../../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) name
 | `ChatID` | uuid | [Chat 💬](<../../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID
@@ -49,7 +49,7 @@ Body:
 1. **Why a cache?**
 
     `Async` A caching strategy avoids synchronous collection timeouts.
-    * When [Consumer 💼 domains](<../$ 💼🎭 Consumer role.md>)  call [`Collect@Vault`](<../../80 🗄️ Vaults/🗄️🅰️ Vault methods/💼🚀🗄️ Collect.md>), [Vault 🗄️ domains](<../../80 🗄️ Vaults/🗄️🎭 Vault role.md>) are expected to gather and cache the data and only send the [`Consume@Consumer`](<🗄️🐌💼 Consume.md>) message when the data is cached and ready to be collected.
+    * When [Consumer 💼 domains](<../💼🎭 Consumer role.md>)  call [`Collect@Vault`](<../../80 🗄️ Vaults/🗄️🅰️ Vault methods/💼🚀🗄️ Collect.md>), [Vault 🗄️ domains](<../../80 🗄️ Vaults/🗄️🎭 Vault role.md>) are expected to gather and cache the data and only send the [`Consume@Consumer`](<🗄️🐌💼 Consume.md>) message when the data is cached and ready to be collected.
     * The Vault's cache duration is expressed in the `TTL` field.
 
     ---

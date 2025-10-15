@@ -6,7 +6,7 @@
     A [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) with a [Vault 🗄️ role](<🗄️🎭 Vault role.md>) 
     * is any [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) that stores user data,
     * has a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) with the user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>), 
-    * and shares it with [Consumer 💼 domains](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>). 
+    * and shares it with [Consumer 💼 domains](<../27 💼 Consumers/💼🎭 Consumer role.md>). 
 
     ---
     <br/>
@@ -52,13 +52,13 @@
 1. **Can users ask Vaults to share data with other Hosts?**
 
     Yes. 
-    - Upon a share request with the [Consumer 💼 host](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>), users can authorize their [Vault 🗄️ domains](<🗄️🎭 Vault role.md>) to disclose a data set with that [Consumer 💼 domain](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>). 
-    - This requires both [Vault 🗄️](<🗄️🎭 Vault role.md>) and [Consumer 💼 host](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) domains to [trust 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) one another for the [Schema Code 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) of the dataset to be shared.
+    - Upon a share request with the [Consumer 💼 host](<../27 💼 Consumers/💼🎭 Consumer role.md>) in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>), users can authorize their [Vault 🗄️ domains](<🗄️🎭 Vault role.md>) to disclose a data set with that [Consumer 💼 domain](<../27 💼 Consumers/💼🎭 Consumer role.md>). 
+    - This requires both [Vault 🗄️](<🗄️🎭 Vault role.md>) and [Consumer 💼 host](<../27 💼 Consumers/💼🎭 Consumer role.md>) domains to [trust 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) one another for the [Schema Code 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) of the dataset to be shared.
 
     | | Workflow |  Description
     |-|-|-
-    ||[👉 Share](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>) | Shares a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) with a [Consumer 💼](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>)
-    || [💼 Consume](<🗄️⏩ Vault flows/🗄️⏩💼 Consume 🔗.md>) | Tells a [Consumer 💼](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) to collect data
+    ||[👉 Share](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>) | Shares a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) with a [Consumer 💼](<../27 💼 Consumers/💼🎭 Consumer role.md>)
+    || [💼 Consume](<🗄️⏩ Vault flows/🗄️⏩💼 Consume 🔗.md>) | Tells a [Consumer 💼](<../27 💼 Consumers/💼🎭 Consumer role.md>) to collect data
     
 
     ---
@@ -190,15 +190,15 @@
 
 1. **How do Vaults protect user data from Consumers?**
 
-    [Consumer 💼 domains](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) can't request user data directly to [Vault 🗄️ domains](<🗄️🎭 Vault role.md>). 
+    [Consumer 💼 domains](<../27 💼 Consumers/💼🎭 Consumer role.md>) can't request user data directly to [Vault 🗄️ domains](<🗄️🎭 Vault role.md>). 
     
-    * Instead, [Consumer 💼 domains](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) request such data directly to the user. 
+    * Instead, [Consumer 💼 domains](<../27 💼 Consumers/💼🎭 Consumer role.md>) request such data directly to the user. 
 
-    * When prompted, the user selects the preferred [Vault 🗄️ domain](<🗄️🎭 Vault role.md>) to answer the Consumer's 💼 request, then signs and sends a disclose request to the selected [Vault 🗄️ domain](<🗄️🎭 Vault role.md>), asking it to disclose the requested data to the [Consumer 💼 domain](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>). 
+    * When prompted, the user selects the preferred [Vault 🗄️ domain](<🗄️🎭 Vault role.md>) to answer the Consumer's 💼 request, then signs and sends a disclose request to the selected [Vault 🗄️ domain](<🗄️🎭 Vault role.md>), asking it to disclose the requested data to the [Consumer 💼 domain](<../27 💼 Consumers/💼🎭 Consumer role.md>). 
     
     * At that point, the [Vault 🗄️ domain](<🗄️🎭 Vault role.md>) may ask the user for additional data (e.g., which credit card to use on a payment) or perform additional validations (e.g., a one-time-password via SMS to approve a bank transfer). 
     
-    * Finally, the [Vault 🗄️ domain](<🗄️🎭 Vault role.md>) sends the data directly to the [Consumer 💼 domain](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) who requested it.
+    * Finally, the [Vault 🗄️ domain](<🗄️🎭 Vault role.md>) sends the data directly to the [Consumer 💼 domain](<../27 💼 Consumers/💼🎭 Consumer role.md>) who requested it.
 
     ---
     <br/>
@@ -219,7 +219,7 @@
 
     |Flow ⏩| Details
     |-|-
-    | [💼 Consume](<🗄️⏩ Vault flows/🗄️⏩💼 Consume 🔗.md>) | Tells a [Consumer 💼](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) to collect data
+    | [💼 Consume](<🗄️⏩ Vault flows/🗄️⏩💼 Consume 🔗.md>) | Tells a [Consumer 💼](<../27 💼 Consumers/💼🎭 Consumer role.md>) to collect data
     | [🧑‍🦰 Engage](<🗄️⏩ Vault flows/🗄️⏩🧑‍🦰 Engage 💬.md>) | Opens a new [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with a [Bound 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) user
     
 
@@ -234,7 +234,7 @@
     |  | [`Unbind`](<🗄️🅰️ Vault methods/🤵🐌🗄️ Unbind.md>) | Remove a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) |
     | | [`Disclose`](<🗄️🅰️ Vault methods/🤵🐌🗄️ Disclose.md>) | Disclose the data of a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) |
     | | [`Suppress`](<🗄️🅰️ Vault methods/🤵🐌🗄️ Suppress.md>) | Suppress [🖐️ Palm scans](<../../50 🫥 Agents/45 🆔 Identities/22 🆔🖐️ Palm scan.md>) |
-    | [💼 Consumer](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) | [`Collect`](<🗄️🅰️ Vault methods/💼🚀🗄️ Collect.md>) | Return the data disclosed
+    | [💼 Consumer](<../27 💼 Consumers/💼🎭 Consumer role.md>) | [`Collect`](<🗄️🅰️ Vault methods/💼🚀🗄️ Collect.md>) | Return the data disclosed
     
     ---
     <br/>

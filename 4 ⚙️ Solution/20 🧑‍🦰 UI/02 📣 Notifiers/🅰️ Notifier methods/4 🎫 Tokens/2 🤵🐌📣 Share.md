@@ -1,6 +1,6 @@
 # 🤵💼🐌📣 Share @ Notifier
 
-> Sends [Tokens 🎫](<../../../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) to a [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>).
+> Sends [Tokens 🎫](<../../../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) to a [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>).
 
 > Part of [💼⏩🧑‍🦰 Share Token @ Consumer](<../../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token 🎫.md>) flow:
 > <br/>• triggers [`Receive@Consumer`](<../../../../41 🎭 Domain Roles/27 💼 Consumers/🅰️ Consumer methods/🧑‍🦰🐌💼 Receive.md>)
@@ -29,6 +29,6 @@ Body:
 | | `Subject`| string | `Share@Notifier`
 | Body | `WalletID`| uuid | [Wallet 🧑‍🦰](<../../../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) ID from [`Onboard@Broker`](<../1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
 || `ChatID` | string | [Chat 💬](<../../../12 💬 Chats/$ 💬 Chat.md>) ID from [`Query@Broker`](<../../../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>)
-|| `Consumer` | string | [Consumer 💼](<../../../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) from [ `Query@Broker`](<../../../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>)
+|| `Consumer` | string | [Consumer 💼](<../../../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) from [ `Query@Broker`](<../../../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>)
 | | `Tokens`  | string[] | Paths from [`Saved@Broker`](<../../../../../6 🅰️ APIs/15 🤵🅰️ Broker/50 🤵🅰️ Tokens 🎫/53 🧑‍🦰🐌🤵 Saved.md>)
 |

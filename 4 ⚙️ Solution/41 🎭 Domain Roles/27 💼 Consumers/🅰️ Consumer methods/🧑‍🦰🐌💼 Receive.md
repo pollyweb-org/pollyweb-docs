@@ -5,7 +5,7 @@
 > <br/>• succeeds [`Share@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/4 🎫 Tokens/2 🤵🐌📣 Share.md>)
 
 
-* [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) send [Tokens 🎫](<../../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) to a [Consumer 💼 domain](<../$ 💼🎭 Consumer role.md>).
+* [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) send [Tokens 🎫](<../../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) to a [Consumer 💼 domain](<../💼🎭 Consumer role.md>).
 
 
 
@@ -30,7 +30,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header| `From`    | string | `Anonymous`
-| | `To`| string | [Consumer 💼](<../$ 💼🎭 Consumer role.md>) from [`Share@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/4 🎫 Tokens/2 🤵🐌📣 Share.md>)
+| | `To`| string | [Consumer 💼](<../💼🎭 Consumer role.md>) from [`Share@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/4 🎫 Tokens/2 🤵🐌📣 Share.md>)
 | | `Subject`| string | `Receive@Consumer`
 | Body | `ChatID` | string | [Chat 💬](<../../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID from [`Share@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/4 🎫 Tokens/2 🤵🐌📣 Share.md>)
 | | `Tokens`  | array | List of `Token` objects

@@ -1,6 +1,6 @@
 # 💼🐌🤵 Inform @ Broker
 
-> Part of the [Consumer Inform ⏩ flow](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/32 💼⏩🧑‍🦰 Inform 📝 flow.md>)
+> Part of the [Consumer Inform ⏩ flow](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/⏩ Consumer flows/💼⏩🧑‍🦰 Inform 📝.md>)
 
 <br/>
 
@@ -19,7 +19,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From`     | string  | [Consumer 💼 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) name
+|Header|`From`     | string  | [Consumer 💼 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) name
 ||`To`       | string  | [Broker 🤵](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) from [`Hello@Host`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/51 🤵🐌🤗 Hello@Host.md>)
 ||`Subject` | string | `Inform@Broker`
 |Body|`ChatID`   | uuid    | [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID from [`Hello@Host`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/51 🤵🐌🤗 Hello@Host.md>)

@@ -21,7 +21,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header| `From`| string | [Consumer 💼 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) name
+| Header| `From`| string | [Consumer 💼 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) name
 | | `To`    | string | [Broker 🤵 domain](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) name
 | | `Subject`| string | `Status@Broker`
 | Body | `Issuer` | string | [Issuer 🎴 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>)
