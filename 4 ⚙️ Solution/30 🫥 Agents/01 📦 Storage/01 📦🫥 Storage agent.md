@@ -94,7 +94,7 @@
     ![](<00 📎 Assets/📦 Storage$Vault @AWS.png>)
 
     This solution requires the following components:
-    - 📜 **Manifester**: to expose its [Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>); 
+    - 📜 **Manifester**: to expose its [Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>); 
     - 📨 **Inbox**: a combination of the Distributer plus the Endpoint for domain [📨 Messaging](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>).
 
     Design decisions:

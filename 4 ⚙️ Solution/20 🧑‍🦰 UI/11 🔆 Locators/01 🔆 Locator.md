@@ -87,7 +87,7 @@
 
     - [Messages 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) can only flow through encrypted channels with cross-authentication of both sender and receiver domains;
     - Data exchange can only be performed between domains that publicly [Trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) one another or are trusted by mutually trusted [Authority 🏛️ domains](<../../40 👥 Domains/43 👍 Trusts/02 🏛️🛠️ Authority helper.md>), following the principle of least-privilege;
-    - User inputs can only be collected if the intention is clearly mentioned in a [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) subject to public scrutiny.
+    - User inputs can only be collected if the intention is clearly mentioned in a [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) subject to public scrutiny.
     
 
     ---    

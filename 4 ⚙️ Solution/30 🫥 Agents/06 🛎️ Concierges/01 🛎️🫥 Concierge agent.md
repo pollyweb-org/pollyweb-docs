@@ -62,7 +62,7 @@
 
     No necessarily. 
     
-    * [Concierge 🛎️ agents](<01 🛎️🫥 Concierge agent.md>) look at the supplied services exposed in the [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) of [Supplier 🏭 domains](<02 🏭🎭 Supplier role.md>), which may or may not support natural language requests. 
+    * [Concierge 🛎️ agents](<01 🛎️🫥 Concierge agent.md>) look at the supplied services exposed in the [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) of [Supplier 🏭 domains](<02 🏭🎭 Supplier role.md>), which may or may not support natural language requests. 
     
     * If necessary, [Concierge 🛎️ agents](<01 🛎️🫥 Concierge agent.md>) translate the user's natural language request into a structure API request using JSON or XML.
 

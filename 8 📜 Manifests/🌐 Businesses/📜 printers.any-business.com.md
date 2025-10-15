@@ -1,5 +1,5 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>): printers.any-business.com
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>): printers.any-business.com
 <!--# 🇺🇸🎨 https://quip.com/AyM1AawqzCDT/-AnyPrinterSellercom-->
 
 ```yaml

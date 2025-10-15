@@ -3,7 +3,7 @@
 
 > Part of [`.MANIFEST` 🧩](<10 🧩 MANIFEST code.md>)
 
-> Implements [domain Manifest 📜](<01 📜 Domain Manifest.md>) 
+> Implements [domain Manifest 📜](<$ 📜 Domain Manifest.md>) 
   
 > Used by [`Trusted@Graph`](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/02 👥🚀🕸 Trusted.md>) and [`Trusts@Graph`](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/03 👥🚀🕸 Trusts.md>)
 

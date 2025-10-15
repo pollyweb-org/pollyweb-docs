@@ -28,7 +28,7 @@
 
 1. **How to aggregate Manifests managed by subdomains?**
 
-    Admins of Authorities are typically concerned about the management of a hierarchy of [Manifests 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>) (e.g., `any-nation.org` may expose top-level codes that are defined by the nation's health service at `health-any-nation.org`). This can be done by cross-referencing the Manifests of multiple domains.
+    Admins of Authorities are typically concerned about the management of a hierarchy of [Manifests 📜](<../44 📜 Manifests/$ 📜 Domain Manifest.md>) (e.g., `any-nation.org` may expose top-level codes that are defined by the nation's health service at `health-any-nation.org`). This can be done by cross-referencing the Manifests of multiple domains.
 
     ---
 
