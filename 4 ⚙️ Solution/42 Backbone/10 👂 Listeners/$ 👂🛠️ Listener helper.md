@@ -147,7 +147,7 @@
 
     * **Simplicity**: by limiting the size of the events, NLWeb allows changes to be propagated across many cloud providers without the need for round trips (i.e., returning to the origin to download the content).
 
-    * **Scalability**: multiple small events can scale horizontally, virtually to infinite, by using cloud functions with small memory footprints - otherwise, single download of the [Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) of an [🏛️ Authority](<../../45 Helpers/10 Authorities/02 🏛️🛠️ Authority helper.md>) could require several gigabytes of memory to be parsed.
+    * **Scalability**: multiple small events can scale horizontally, virtually to infinite, by using cloud functions with small memory footprints - otherwise, single download of the [Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) of an [🏛️ Authority](<../../45 Helpers/10 🏛️ Authorities/02 🏛️🛠️ Authority helper.md>) could require several gigabytes of memory to be parsed.
 
     ---
     <br/>
@@ -235,8 +235,8 @@
 
 1. **How to identify if a Listener was compromised?**
 
-    [Firewall 🔥 helper domains](<../../40 👥 Domains/43 👍 Trusts/03 🔥🛠️ Firewall helper.md>) monitor the behavior of any [Listener 👂 domain](<$ 👂🛠️ Listener helper.md>) and match domain information with other [Listener 👂 domains](<$ 👂🛠️ Listener helper.md>). 
-    * If necessary, [Firewall 🔥 domains](<../../40 👥 Domains/43 👍 Trusts/03 🔥🛠️ Firewall helper.md>) immediately revoke a Listener's [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>).
+    [Firewall 🔥 helper domains](<../../45 Helpers/21 Firewalls/03 🔥🛠️ Firewall helper.md>) monitor the behavior of any [Listener 👂 domain](<$ 👂🛠️ Listener helper.md>) and match domain information with other [Listener 👂 domains](<$ 👂🛠️ Listener helper.md>). 
+    * If necessary, [Firewall 🔥 domains](<../../45 Helpers/21 Firewalls/03 🔥🛠️ Firewall helper.md>) immediately revoke a Listener's [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>).
 
     ---
     <br/>
