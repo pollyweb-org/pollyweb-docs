@@ -1,6 +1,6 @@
 # 🧑‍🦰🐌🤗 Home @ Host
 
-> Shows the main menu of the [Host 🤗 domain](<../$ 🤗🎭 Host role.md>).
+> Shows the main menu of the [Host 🤗 domain](<../🤗🎭 Host role.md>).
 
 > Used by:
 > <br/>• [🧑‍🦰👉🗄️ Unbind](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/03 🧑‍🦰👉🗄️ Unbind.md>) flow
@@ -15,7 +15,7 @@ Consider the following [Chat 💬](<../../../20 🧑‍🦰 UI/12 💬 Chats/$ �
 
 | [Domain](<../../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) | [Prompt](<../../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 | - | - | - |
-| 🤗 [Host](<../$ 🤗🎭 Host role.md>) | 😃 What do you need? <br/> - [ Something ] <br> - [ Something else ]  | 
+| 🤗 [Host](<../🤗🎭 Host role.md>) | 😃 What do you need? <br/> - [ Something ] <br> - [ Something else ]  | 
 ||
 
 
@@ -50,7 +50,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 |Header|`From`|string | [Broker 🤵 domain](<../../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) name
-||`To`|string| [Host 🤗 domain](<../$ 🤗🎭 Host role.md>) name
+||`To`|string| [Host 🤗 domain](<../🤗🎭 Host role.md>) name
 ||`Subject`|string|`Home@Host`
 |Body  |`ChatID`   |uuid  | [Chat 💬](<../../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID from [`Hello@Host`](<🤵🐌🤗 Hello.md>)
 |

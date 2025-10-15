@@ -53,7 +53,7 @@
 
 1. **How do Curators work?**
 
-    [Curator 🧚 agents](<$ 🧚🫥 Curator agent.md>) are invoked by [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) to parse a set of choices and return a list of codes back to the Host - e.g.:
+    [Curator 🧚 agents](<$ 🧚🫥 Curator agent.md>) are invoked by [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) to parse a set of choices and return a list of codes back to the Host - e.g.:
     
     - restaurants share menus and receive [food orders 🥘](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/51 🪑 Seat: Order food 🥘.md>)
     - travel agencies share hotel options and receive [bookings 🏨](<../../../3 🤝 Use Cases/03 🧳 Travel/08 🧳 Stay at hotels 🏨/01 🏨 Guest @ Home 🏠/01 🏠 Book hotel.md>)
@@ -65,7 +65,7 @@
 
 1. **Why are Curators important for users?**
 
-    [Curator 🧚 agents](<$ 🧚🫥 Curator agent.md>) protect users by filtering out from the available options given by [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>), instead of sharing details about the user:
+    [Curator 🧚 agents](<$ 🧚🫥 Curator agent.md>) protect users by filtering out from the available options given by [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>), instead of sharing details about the user:
     - e.g., chose meat for dinner, instead of disclosing a life-threatening allergy to shrimp;
     - e.g., choose a back seat at a show, instead of disclosing a limited financial budget;
     - e.g., choose the closest venue for a show, instead of disclosing the current location.
@@ -75,8 +75,8 @@
 
 1. **Why are Curators important for Host domains?**
 
-    [Curator 🧚 agents](<$ 🧚🫥 Curator agent.md>) remove from [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) the undifferentiated heavy lifting of creating personalized workflows for user selection - e.g.:
-    - a restaurant [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) can just dump to a [user's Curator 🧚 agent](<$ 🧚🫥 Curator agent.md>) a comprehensive list of all 100+ possible dishes and drinks offered by the restaurant, with nutritional, allergic, and social media details about each of them;
+    [Curator 🧚 agents](<$ 🧚🫥 Curator agent.md>) remove from [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) the undifferentiated heavy lifting of creating personalized workflows for user selection - e.g.:
+    - a restaurant [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) can just dump to a [user's Curator 🧚 agent](<$ 🧚🫥 Curator agent.md>) a comprehensive list of all 100+ possible dishes and drinks offered by the restaurant, with nutritional, allergic, and social media details about each of them;
     - while this list is most probably overwhelming for the vast majority of users, a [user's Curator 🧚 agent](<$ 🧚🫥 Curator agent.md>) can instantaneously read and filter out the list based on the user's private preferences, health restrictions, special needs, purchasing history, social background, and emotional mood at the time.
 
     ---
@@ -84,7 +84,7 @@
 
 1. **How do curators protect themselves from prompt injection?**
 
-    [Curator 🧚 agents](<$ 🧚🫥 Curator agent.md>) assess [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) inputs before acting on them. 
+    [Curator 🧚 agents](<$ 🧚🫥 Curator agent.md>) assess [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) inputs before acting on them. 
     - Suspicious behaviors are reported to [Firewall 🔥 helper domains](<../../45 🛠️ Helper domains/40 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>).
 
     ---
@@ -92,7 +92,7 @@
 
 1. **How do curators protect themselves from data breaches?**
 
-    While [Curator 🧚 agents](<$ 🧚🫥 Curator agent.md>) communicate using natural language with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>), they output to [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) only a filtered list of codes referenced in the input.
+    While [Curator 🧚 agents](<$ 🧚🫥 Curator agent.md>) communicate using natural language with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>), they output to [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) only a filtered list of codes referenced in the input.
 
     ---
     <br/>

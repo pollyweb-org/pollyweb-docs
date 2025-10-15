@@ -29,7 +29,7 @@ Body:
 ||`Subject`|string|`Converse@Notifier`
 |Body  |`WalletID` |uuid  | [Wallet 🧑‍🦰](<../../../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) ID from [`Assess@Broker`](<../../../../../6 🅰️ APIs/15 🤵🅰️ Broker/20 🤵🅰️ Locators/01 🧑‍🦰🐌🤵 Assess.md>)
 |      |`ChatID`   |uuid  | New [Chat 💬](<../../../12 💬 Chats/$ 💬 Chat.md>) ID on the [Broker 🤵](<../../../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>)
-|      |`Host`     |string| [Host 🤗 domain](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) name
+|      |`Host`     |string| [Host 🤗 domain](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) name
 |      |`Name`     |string| Name from [`Translate@Graph`](<../../../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>)
 |      |`SmallIcon`|string   | Small icon from [`Identity@Graph`](<../../../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Identity.md>)
 |      |`BigIcon`  |string   | Big icon from [`Identity@Graph`](<../../../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Identity.md>)

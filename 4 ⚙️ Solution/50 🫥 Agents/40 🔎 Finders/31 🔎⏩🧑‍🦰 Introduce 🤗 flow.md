@@ -1,6 +1,6 @@
 # 👉 Introduce Host @ Finder 
 
-> Ask the [Finder 🔎 domain](<$ 🔎🫥 Finder agent.md>) to introduce the [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>)
+> Ask the [Finder 🔎 domain](<$ 🔎🫥 Finder agent.md>) to introduce the [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>)
 
 > Used by:
 > <br/>• [🧑‍🦰👉🤗 Scan host QR](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>)
@@ -26,7 +26,7 @@
 
 | # | Call | Notes
 |-|-|-
-| 1 | [🤵🐌🔎 `Introduce@Finder`](<51 🤵🐌🔎 Introduce@Finder.md>) | Ask to introduce a [Host 🤗](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>).
+| 1 | [🤵🐌🔎 `Introduce@Finder`](<51 🤵🐌🔎 Introduce@Finder.md>) | Ask to introduce a [Host 🤗](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>).
 | 2 | [🔎🚀⭐ `Reviews@Reviewer`](<../73 ⭐ Reviewers/🅰️ Reviewer methods/01 🔎🚀⭐ Reviews.md>) | Get domain reviews (may be cached).
 | 3 | [👥🚀🕸 `Identity@Graph`](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Identity.md>) | Get domain identity (may be cached).
 | 4 | [🤗⏩🧑‍🦰 Prompt 🤔](<../../41 🎭 Domain Roles/30 🤗 Hosts/⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | Inform the user.
