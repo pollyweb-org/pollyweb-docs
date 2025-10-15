@@ -295,7 +295,7 @@
     
     * Sender domains define their [Buffer ⏳ helper domain](<../../45 🛠️ Helper domains/27 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) in the `Identity` section of their [domain Manifest 📜](<../44 📜 Manifests/$ 📜 Domain Manifest.md>).
        * If the `Feedback` property is not defined, then no feedback is given.
-       * Domains get of the [Buffer ⏳ helper domain](<../../45 🛠️ Helper domains/27 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) by calling the [Identity@Broker 🚀 request](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/04 👥🚀🕸 Identity.md>).
+       * Domains get of the [Buffer ⏳ helper domain](<../../45 🛠️ Helper domains/27 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) by calling the [Identity@Broker 🚀 request](<../../45 🛠️ Helper domains/50 🕸 Graphs/45 🕸🅰️ Graph/04 👥🚀🕸 Identity.md>).
   
         ```yaml
         🤝: nlweb.org/MANIFEST/ABOUT
