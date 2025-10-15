@@ -1,13 +1,13 @@
 
-# [🧩](<../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) [Schema Code](<../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>): HostBooking
+# [🧩](<../../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) [Schema Code](<../../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>): HostBooking
 
-> Inherits from [`nlweb.org/TOKEN 🧩`](<../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🧩 Token schemas/🧩 TOKEN.md>)
+> Inherits from [`nlweb.org/TOKEN 🧩`](<../../../30 🧩 Data/30 🎫 Tokens/🧩 Token schemas/🧩 TOKEN.md>)
 
 <br/>
 
 ## Definition
 
-> 🤝: [`.MANIFEST/CODE`](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/🧩 Manifest schemas/🧩 CODE.md>)
+> 🤝: [`.MANIFEST/CODE`](<../../../40 👥 Domains/44 📜 Manifests/🧩 Manifest schemas/🧩 CODE.md>)
 
 ```yaml
 Path: /HOST/BOOKING

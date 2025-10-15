@@ -31,5 +31,5 @@ Body:
 |-|-
 | 200   | Success.
 | 409   | Alias already occupied: <br/> - use another alias.
-| 405   | Locator not supported: <br/> - only [`.HOST 🧩`](<../../../../7 🧩 Codes/HOST/🧩 Host.md>) is supported.
+| 405   | Locator not supported: <br/> - only [`.HOST 🧩`](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🧩 Host schemas/🧩 HOST.md>) is supported.
 |

@@ -3,7 +3,7 @@
 
 * Inherited by:
   * [`.TOKEN` 🧩](<../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🧩 Token schemas/🧩 TOKEN.md>)
-  * [`.HOST` 🧩](<../HOST/🧩 Host.md>)
+  * [`.HOST` 🧩](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🧩 Host schemas/🧩 HOST.md>)
   * [`.ALIAS` 🧩](<../../4 ⚙️ Solution/45 🛠️ Helper domains/75 🖨️ Printers/🖨️🧩 Printer schemas/🧩 ALIAS.md>)
 
 <br/>
