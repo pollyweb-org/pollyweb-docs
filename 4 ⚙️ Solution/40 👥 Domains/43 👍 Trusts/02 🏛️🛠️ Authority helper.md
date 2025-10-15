@@ -36,6 +36,6 @@
 
     They shouldn't. 
     
-    * Instead, domains should rely on [Graphs 🕸](<../45 👂 Backbone/03 🕸🛠️ Graph helper.md>) to index the [Schema Codes 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) on their behalf.
+    * Instead, domains should rely on [Graphs 🕸](<../../42 Backbone/20 Graphs/03 🕸🛠️ Graph helper.md>) to index the [Schema Codes 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) on their behalf.
 
     ---

@@ -46,7 +46,7 @@
   
 * Note: When a [Schema Code 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) is removed from [`.MANIFEST/TRUSTS`](<50 🧩 TRUST code.md>), 
     * domains should explicitly inform the `REVOKE`;
-    * otherwise, it might not be propagated by [Graph 🕸 domains](<../45 👂 Backbone/03 🕸🛠️ Graph helper.md>).
+    * otherwise, it might not be propagated by [Graph 🕸 domains](<../../42 Backbone/20 Graphs/03 🕸🛠️ Graph helper.md>).
 
 
 <br/>
