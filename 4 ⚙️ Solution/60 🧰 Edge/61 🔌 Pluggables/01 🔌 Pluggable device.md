@@ -47,7 +47,7 @@
 1. **Do Pluggables devices follow a standard communication protocol?**
 
     No. 
-    - [Brand 🍏 domain](<../../70 🌳 Ambient/71 💠 Brand Things/07 🍏🎭 Brand role.md>) specify a Pluggable 🛠️ API via when printing the [Pluggable's Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>), which includes the [API's Schema Code 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>).
+    - [Brand 🍏 domain](<../../41 🎭 Domain Roles/20 🍏 Brands/07 🍏🎭 Brand role.md>) specify a Pluggable 🛠️ API via when printing the [Pluggable's Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>), which includes the [API's Schema Code 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>).
     - [Relayer 🛰️ helpers](<../../45 🛠️ Helper domains/80 🛰️ Relayers/$ 🛰️🛠️ Relayer helper.md>) receive commands from domains in natural language and then translate them to the Pluggable's API via de [Antenna 📡](<02 📡🔀 Antenna router.md>).
 
     ---

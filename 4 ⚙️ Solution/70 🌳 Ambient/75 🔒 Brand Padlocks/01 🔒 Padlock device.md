@@ -70,7 +70,7 @@
 
     To directly open a lock: 
     - the Padlock uses its power to mechanically move the lock;
-    - typical scenarios include [🍏 Branded](<../71 💠 Brand Things/07 🍏🎭 Brand role.md>) transportation bags and gym lockers;
+    - typical scenarios include [🍏 Branded](<../../41 🎭 Domain Roles/20 🍏 Brands/07 🍏🎭 Brand role.md>) transportation bags and gym lockers;
     - if the lock is in a door, then the power may not be enough to move it.
 
     ---
@@ -82,7 +82,7 @@
     To indirectly open a lock: 
     - the Padlock acts like a relay by sending a low-voltage signal to an external electrical lock, typically connected to the electric grid;
     - locks powered by battery are discouraged because they miss low-power alerts;
-    - typical scenarios include residential or office doors and gates, where a [Brand 🍏](<../71 💠 Brand Things/07 🍏🎭 Brand role.md>) assembles and sells a door kit that is installed by a professional builder.
+    - typical scenarios include residential or office doors and gates, where a [Brand 🍏](<../../41 🎭 Domain Roles/20 🍏 Brands/07 🍏🎭 Brand role.md>) assembles and sells a door kit that is installed by a professional builder.
 
     ---
 

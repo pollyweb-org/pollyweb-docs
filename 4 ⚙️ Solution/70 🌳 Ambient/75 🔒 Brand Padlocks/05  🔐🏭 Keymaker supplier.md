@@ -5,13 +5,13 @@
 
 1. **What is a Keymaker domain helper?**
 
-    Keymakers 🔐 are [Suppliers 🏭](<../../41 🎭 Domain Roles/78 🏭 Suppliers/$ 🏭🎭 Supplier role.md>) that supply and manage the lifecycle of [Padlocks 🔒](<01 🔒 Padlock device.md>) on behalf of [Brands 🍏](<../71 💠 Brand Things/07 🍏🎭 Brand role.md>).
+    Keymakers 🔐 are [Suppliers 🏭](<../../41 🎭 Domain Roles/78 🏭 Suppliers/$ 🏭🎭 Supplier role.md>) that supply and manage the lifecycle of [Padlocks 🔒](<01 🔒 Padlock device.md>) on behalf of [Brands 🍏](<../../41 🎭 Domain Roles/20 🍏 Brands/07 🍏🎭 Brand role.md>).
 
     ---
 
 1. **What is the commitment of Keymakers to Brands?**
 
-    When supplying [Padlocks 🔒](<01 🔒 Padlock device.md>) to [Brands 🍏](<../71 💠 Brand Things/07 🍏🎭 Brand role.md>), Keymakers 🔐 commit to manage the following features for an agreed time period (e.g., 10 years, forever):
+    When supplying [Padlocks 🔒](<01 🔒 Padlock device.md>) to [Brands 🍏](<../../41 🎭 Domain Roles/20 🍏 Brands/07 🍏🎭 Brand role.md>), Keymakers 🔐 commit to manage the following features for an agreed time period (e.g., 10 years, forever):
     - accept registrations from [🌼 Keyboxes](<04 🌼🗄️ Keybox vault.md>);
     - continuously rotate the Padlock's key;
     - continuously propagate the Padlock's battery status.
