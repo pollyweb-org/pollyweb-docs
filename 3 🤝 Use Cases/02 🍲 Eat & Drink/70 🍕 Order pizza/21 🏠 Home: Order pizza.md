@@ -17,7 +17,7 @@ Order a pizza for home delivery
 | 🔎 [Finder](<../../../4 ⚙️ Solution/30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Pizzeria (4.4 ⭐) [+]
 | 🍕 Pizzeria   | ℹ️ Pizza request received.
 | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Ready to order? [Yes, No] <br/> - your navigator sets where 🧭 <br/> - your concierge sets how 🛎️ <br/> - your curator orders 🧚 <br/> - your vitalogist reviews 💖 <br/> - your scheduler reviews 🗓️  <br/> - your payer pays the bill 💳 <br/> - your concierge delivers 🛎️ <br/> - your payer tips the courier 💳 <br/> - your vitalogist records it 💖 | > Yes
-| 🧭 [Navigator](<../../../4 ⚙️ Solution/30 🫥 Agents/55 🧭 Navigators/01 🧭🫥 Navigator agent.md>) | 🫥 Share destination? [No] <br> - [ 🏠 home ] <br/> - [ 🏡 Daniel's ] <br/> - [ 📍 current location ] <br/> - [ 🗺️ Somewhere else ] | > 🏠 home
+| 🧭 [Navigator](<../../../4 ⚙️ Solution/30 🫥 Agents/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | 🫥 Share destination? [No] <br> - [ 🏠 home ] <br/> - [ 🏡 Daniel's ] <br/> - [ 📍 current location ] <br/> - [ 🗺️ Somewhere else ] | > 🏠 home
 | 🛎️ [Concierge](<../../../4 ⚙️ Solution/30 🫥 Agents/25 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>) | ⓘ Given destination: [Change]<br/>- Ryan street, 98, 2D 
 | 🛎️ [Concierge](<../../../4 ⚙️ Solution/30 🫥 Agents/25 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>) | ⏳ Looking for couriers...
 | 🛎️ [Concierge](<../../../4 ⚙️ Solution/30 🫥 Agents/25 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>) | 🫥 Which courier? <br> - [ AnyCourier ] + $4.00 (5 min) <br> - [ iCourier ] + $2.99 (17 min) <br/> | > AnyCourier
@@ -31,7 +31,7 @@ Order a pizza for home delivery
 | 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Want a drink with that? [No] <br/>- [ Soda ] <br/>- [ Water ] | > `a coke` 
 | 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Anything else? [No] <br/>- [ Pizzas 🍕 ] <br/> - [ Drinks 🥤 ] | > No
 | 🍕 Pizzeria     | ℹ️ Order ($27.00): [Change] <br/>- 1 small 4 Cheese 🧀 ($10.00) <br/>- 1 still water (25 cl) 💧 ($1.50) <br/>- 1 large Pepperoni 🌶️ ($13.00) <br/>- 1 diet coke (33 cl) 🥤 ($2.50) <br/> - preparation time ⏳ ~15 min 
-| 💖 [Vitalogist](<../../../4 ⚙️ Solution/30 🫥 Agents/95 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) | 🫥 Confirm? [Yes, No] <br> - pizza: gluten allergy! <br/> - coke: sugar at 190 mg/dL | > Yes
+| 💖 [Vitalogist](<../../../4 ⚙️ Solution/30 🫥 Agents/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | 🫥 Confirm? [Yes, No] <br> - pizza: gluten allergy! <br/> - coke: sugar at 190 mg/dL | > Yes
 | 🛎️ [Concierge](<../../../4 ⚙️ Solution/30 🫥 Agents/25 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>) | ⓘ Delivery ($4.50): [Change] <br/> - courier delivery 🛵 ($4.00) <br/> - concierge fee 🛎️ ($0.50) <br/> - delivery time ⏳ ~10 min.
 | [🗓️ Scheduler](<../../../4 ⚙️ Solution/30 🫥 Agents/75 🗓️ Schedulers/$ 🗓️🗄️ Scheduler agent.md>) | 🫥 Confirm? [Yes, No] <br/> - it will take ~30 min <br> - your flight is in 5 hours <br/> - you'll have ~1 hour to eat | > Yes
 | 💳 [Payer](<../../../4 ⚙️ Solution/30 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Pay $31.50 bill? 🧾 [No] <br/>- [ Card ABC ] + $0.10 <br/>- [ Card DEF ] (free) <br/> - [ ✂️ Split bill ] | > Card ABC |
@@ -83,7 +83,7 @@ Order a pizza for home delivery
 
     |Functions|Returns|Description
     |-|-|-
-    |`destination`| string | Pass the [Navigator 🧭 agent](<../../../4 ⚙️ Solution/30 🫥 Agents/55 🧭 Navigators/01 🧭🫥 Navigator agent.md>) destination.
+    |`destination`| string | Pass the [Navigator 🧭 agent](<../../../4 ⚙️ Solution/30 🫥 Agents/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) destination.
     | `menu-locator` | string | [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) of the menu.
     | `order-summary`| markdown | [Curator 🧚 agent](<../../../4 ⚙️ Solution/30 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) choices:<br/>- plus ongoing status.
     | `order-details`| object | Details for partners: <br/>- selected items,<br/>- final delivery estimates, <br/>- aggregator [Biller 🤝](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/15 🤝 Billers/$ 🤝🛠️ Biller helper.md>) ID.

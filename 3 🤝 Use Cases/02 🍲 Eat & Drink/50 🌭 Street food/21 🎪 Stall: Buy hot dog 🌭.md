@@ -16,10 +16,10 @@
 | 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Here are suggestions: <br/> - [ ] hot dog 🌭 -sauce <br/>- [ ] chips 🥔 <br/>- [ ] beer 🍺 | `all good`
 | 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Anything else? [Yes, No] | > No
 | 🎪 Stall         | ℹ️ Order ($8): [Change] <br/> - hot dog 🌭 (-sauce) ($5) <br/>- chips 🥔 ($1) <br/>- beer 🍺 ($2)
-| 💖 [Vitalogist](<../../../4 ⚙️ Solution/30 🫥 Agents/95 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) | 🫥 Confirm? [Yes, No] <br> - outside your diet <br/> - beer: you came by car | > No
+| 💖 [Vitalogist](<../../../4 ⚙️ Solution/30 🫥 Agents/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | 🫥 Confirm? [Yes, No] <br> - outside your diet <br/> - beer: you came by car | > No
 | 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Change something? | `water,`<br>`not beer`
 | 🎪 Stall         | ℹ️ Order ($7): [Change] <br/> - hot dog 🌭 (-sauce) ($5) <br/>- chips 🥔 ($1) <br/>- water 💧 ($1)
-| 💖 [Vitalogist](<../../../4 ⚙️ Solution/30 🫥 Agents/95 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) | 🫥 Confirm? [Yes, No] <br> - outside your diet | > Yes
+| 💖 [Vitalogist](<../../../4 ⚙️ Solution/30 🫥 Agents/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | 🫥 Confirm? [Yes, No] <br> - outside your diet | > Yes
 | 🧢 [Persona](<../../../4 ⚙️ Solution/30 🫥 Agents/70 🧢 Personas/$ 🧢🫥 Persona agent.md>) | 🫥 Share social name? [No] <br/> - [ 🧑‍🦰 personal ] <br/> - [ 💼 work ] <br/> - [ 🦋 private ]      | > 🧑‍🦰 personal
 | 🎪 Stall      | ℹ️ Thanks, Alice!
 | 💳 [Payer](<../../../4 ⚙️ Solution/30 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Pay $7.50 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC

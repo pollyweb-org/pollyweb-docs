@@ -11,7 +11,7 @@
 
 1. **What is a Vitalogist?**
 
-    Vitalogists 💖 are user-bound [Advisor 🦉](<../20 🦉 Advisors/02 🦉🗄️ Advisor feature.md>) vault that anonymously assess the health and wellness of users based on their [Timeline 🕓](<../90 🕓 Timeline/01 🕓🗄️ Timeline agent.md>) measurements.
+    Vitalogists 💖 are user-bound [Advisor 🦉](<../20 🦉 Advisors/02 🦉🗄️ Advisor feature.md>) vault that anonymously assess the health and wellness of users based on their [Timeline 🕓](<../90 🕓 Timeline/$ 🕓🗄️ Timeline agent.md>) measurements.
 
     ---
 
