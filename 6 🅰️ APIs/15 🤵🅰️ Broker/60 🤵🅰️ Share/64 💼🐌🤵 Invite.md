@@ -33,6 +33,6 @@ Body:
 |Body|`ChatID`   | uuid    | [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID from [`Hello@Host`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🅰️ Host methods/🤵🐌🤗 Hello.md>)
 ||`Helper`  | string  | Invitee [Helper 🛠️ domain](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) name
 ||`Code`     | string  | Related [Schema Code 🧩](<../../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>)
-||`ConsumerKey` | uuid    | Callback for [`Consume@Consumer`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/🅰️ Consumer methods/🗄️🐌💼 Consume.md>)
+||`ConsumerKey` | uuid    | Callback for [`Consume@Consumer`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>)
 ||`Parameters`| object   | Optional parameters for the invite
 |

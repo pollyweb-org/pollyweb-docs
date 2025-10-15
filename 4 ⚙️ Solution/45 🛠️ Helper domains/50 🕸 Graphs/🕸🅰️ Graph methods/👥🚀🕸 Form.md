@@ -3,7 +3,7 @@
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 
 * Used in:
-    * [Broker Inform ⏩ flow](<../../../41 🎭 Domain Roles/27 💼 Consumers/⏩ Consumer flows/💼⏩🧑‍🦰 Inform 📝.md>)
+    * [Broker Inform ⏩ flow](<../../../41 🎭 Domain Roles/27 💼 Consumers/💼⏩ Consumer flows/💼⏩🧑‍🦰 Inform 📝.md>)
 
 <br/>
 
