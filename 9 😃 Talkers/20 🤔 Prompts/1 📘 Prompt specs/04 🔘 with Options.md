@@ -168,7 +168,7 @@
 
     <br/> 
 
-    Here's the [`Prompted@Host`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/54 🧑‍🦰🚀🤗 Prompted@Host.md>).
+    Here's the [`Prompted@Host`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🅰️ Host methods/54 🧑‍🦰🚀🤗 Prompted@Host.md>).
 
     ```yaml
     Format: ONE
@@ -182,7 +182,7 @@
 
     <br/>
     
-    Here's the answer in [`Reply@Host`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/55 🧑‍🦰🐌🤗 Reply@Host.md>).
+    Here's the answer in [`Reply@Host`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🅰️ Host methods/55 🧑‍🦰🐌🤗 Reply@Host.md>).
 
     ```yaml
     Answer: Play
@@ -242,7 +242,7 @@
     
     <br/>
 
-    Here's the [`Prompted@Host`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/54 🧑‍🦰🚀🤗 Prompted@Host.md>).
+    Here's the [`Prompted@Host`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🅰️ Host methods/54 🧑‍🦰🚀🤗 Prompted@Host.md>).
     * The `§` is split into the `Locator` property.
     
     ```yaml

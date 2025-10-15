@@ -113,15 +113,15 @@
 
     | [From 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) | [Subject 📨](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>) | Description
     |-|-|-
-    |[🤵 Broker](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | [`Hello`](<51 🤵🐌🤗 Hello@Host.md>) | The user started a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
-    | | [`Home`](<52 🤵🐌🤗 Home@Host.md>) | Show the top menu on the [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
-    | | [`Abandoned`](<53 🤵🐌🤗 Abandoned@Host.md>) |  The user abandoned a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
-    | | [`Summarize`](<60 🤵🐌🤗 Summarize@Host.md>) | Return a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) advertising summary
-    |[🧑‍🦰 Wallet](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) | [`Prompted`](<54 🧑‍🦰🚀🤗 Prompted@Host.md>) | Return a [Prompt's 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) content
-    | | [`Reply`](<55 🧑‍🦰🐌🤗 Reply@Host.md>) | Accept the reply to a [Prompt 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>)
-    | | [`Download`](<56 🧑‍🦰🚀🤗 Download@Host.md>) | Download an [Appendix 📎](<../../../9 😃 Talkers/20 🤔 Prompts/1 📘 Prompt specs/05 📎 with Appendix.md>)
-    [🖐️ Palmist](<../../60 🧰 Edge/63 🖐️ Palmists/01 🖐️🔌 Palmist device.md>) | [`Found`](<58 🖐️🐌🤗 Found@Host.md>) | A [Palmist 🖐️](<../../60 🧰 Edge/63 🖐️ Palmists/01 🖐️🔌 Palmist device.md>) found the Chat's user
-    [⭐ Reviewer](<../../50 🫥 Agents/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) | [`Rated`](<59 ⭐🐌🤗 Rated@Host.md>) | The [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) received user reviews
+    |[🤵 Broker](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | [`Hello`](<🅰️ Host methods/51 🤵🐌🤗 Hello@Host.md>) | The user started a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
+    | | [`Home`](<🅰️ Host methods/52 🤵🐌🤗 Home@Host.md>) | Show the top menu on the [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
+    | | [`Abandoned`](<🅰️ Host methods/53 🤵🐌🤗 Abandoned@Host.md>) |  The user abandoned a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
+    | | [`Summarize`](<🅰️ Host methods/60 🤵🐌🤗 Summarize@Host.md>) | Return a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) advertising summary
+    |[🧑‍🦰 Wallet](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) | [`Prompted`](<🅰️ Host methods/54 🧑‍🦰🚀🤗 Prompted@Host.md>) | Return a [Prompt's 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) content
+    | | [`Reply`](<🅰️ Host methods/55 🧑‍🦰🐌🤗 Reply@Host.md>) | Accept the reply to a [Prompt 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>)
+    | | [`Download`](<🅰️ Host methods/56 🧑‍🦰🚀🤗 Download@Host.md>) | Download an [Appendix 📎](<../../../9 😃 Talkers/20 🤔 Prompts/1 📘 Prompt specs/05 📎 with Appendix.md>)
+    [🖐️ Palmist](<../../60 🧰 Edge/63 🖐️ Palmists/01 🖐️🔌 Palmist device.md>) | [`Found`](<🅰️ Host methods/58 🖐️🐌🤗 Found@Host.md>) | A [Palmist 🖐️](<../../60 🧰 Edge/63 🖐️ Palmists/01 🖐️🔌 Palmist device.md>) found the Chat's user
+    [⭐ Reviewer](<../../50 🫥 Agents/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) | [`Rated`](<🅰️ Host methods/59 ⭐🐌🤗 Rated@Host.md>) | The [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) received user reviews
     
 
     ---
