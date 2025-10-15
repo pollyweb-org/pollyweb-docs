@@ -3,7 +3,7 @@
 <!-- Test: -->
 
 
-# 🤵🐌⭐ Review @ [Reviewer](<../../4 ⚙️ Solution/50 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer agent.md>)
+# 🤵🐌⭐ Review @ [Reviewer](<../⭐🫥 Reviewer agent.md>)
 
 
 ## Properties
