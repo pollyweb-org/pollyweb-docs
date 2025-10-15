@@ -1,12 +1,12 @@
 # 🔃🚀🗃️ Download @ Resourcer
 
-> Part of the [🔃⏩🗃️ Sync](<../../5 ⏩ Flows/77 🔃⏩ Syncer/20 🔃⏩🗃️ Sync.md>) flow:
-> <br/> • Preceded by [`Uploaded@Resourcer`](<50 🔃🚀🗃️ Uploaded.md>)
+> Part of the [🔃⏩🗃️ Sync](<../../../../5 ⏩ Flows/77 🔃⏩ Syncer/20 🔃⏩🗃️ Sync.md>) flow:
+> <br/> • Preceded by [`Uploaded@Resourcer`](<🔃🚀🗃️ Uploaded.md>)
 
 * This request 
-    * is signed with the [Syncer's 🔃](<../../9 😃 Talkers/90 ☁️ Hosters/01 🔃🛠️ Syncer tool.md>) private-key pair 
+    * is signed with the [Syncer's 🔃](<../../../../9 😃 Talkers/90 ☁️ Hosters/01 🔃🛠️ Syncer tool.md>) private-key pair 
     * matching the `PublicKey` 
-    * sent on the [`Clone@Resourcer`](<10 🔃🚀🗃️ Clone.md>) request.
+    * sent on the [`Clone@Resourcer`](<🔃🚀🗃️ Clone.md>) request.
 
 
 <br/>
@@ -27,10 +27,10 @@ Body:
 
 | Object| Property | Type | Description
 |-|-|-|-
-| Header    | `From`        | uuid | `Clone` from [`Clone@`](<10 🔃🚀🗃️ Clone.md>) 
-|           | `To`          | string    | [Resourcer 🗃️](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/$ 🗃️🎭 Resourcer role.md>) from [`Clone@`](<10 🔃🚀🗃️ Clone.md>) 
+| Header    | `From`        | uuid | `Clone` from [`Clone@`](<🔃🚀🗃️ Clone.md>) 
+|           | `To`          | string    | [Resourcer 🗃️](<../🗃️🎭 Resourcer role.md>) from [`Clone@`](<🔃🚀🗃️ Clone.md>) 
 |           | `Subject`     | string    | `Upload@Resourcer`
-| Body      | `Map`         | uuid    | ID from [`Map@Resourcer`](<20 🔃🚀🗃️ Map.md>)
+| Body      | `Map`         | uuid    | ID from [`Map@Resourcer`](<🔃🚀🗃️ Map.md>)
 |           | `File`        | string | Path like `/dir/file.ext`
 |           | `Part`        | int    | File part do download
 |
