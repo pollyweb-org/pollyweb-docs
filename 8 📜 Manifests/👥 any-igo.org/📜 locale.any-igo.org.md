@@ -17,12 +17,12 @@ Identity:
 
 Datasets:
 
-  # 🧩 //COUNTRY list.
+  # [🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) //COUNTRY list.
   - Dataset: nlweb.org/LOCALE/COUNTRY:1.0
     Requires: 
       Language: Code@standards.any-igo.org/639-1
     
-  # 🧩 //DIALCODE list.
+  # [🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) //DIALCODE list.
   - Dataset: nlweb.org/LOCALE/DIALCODE:1.0
     Requires: 
       Language: Code@standards.any-igo.org/639-1
