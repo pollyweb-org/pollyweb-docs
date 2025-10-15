@@ -5,7 +5,7 @@
 
     [Tokens 🎫](<01 🎫 Token.md>) are NFC/QR [Locators 🔆](<../11 🔆 Locators/01 🔆 Locator.md>) 
     * issued and signed by an [Issuer 🎴 domain](<02 🎴🎭 Issuer role.md>), 
-    * that contain data to be shared with [Consumer 💼 domains](<../../30 🫥 Agents/01 📦 Storage/$ 📦🫥 Storage agent.md>).
+    * that contain data to be shared with [Consumer 💼 domains](<../../30 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>).
 
     ---
     <br/>
@@ -45,8 +45,8 @@
     | 4| `Userable`| When the NFC of the [Userable 💍 thing](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) is [tapped 🔆](<../11 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) on the [scanner ✨ device](<../../60 🧰 Edge/66 ✨ Scanners/06 ✨🔌 Scanner device.md>) of a [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>), the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) shares the [Tokens 🎫](<01 🎫 Token.md>).
     |5| `Printed`| From the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>), users can print a [Token 🎫](<01 🎫 Token.md>).
     |6| `Printed` | The user can then present the printed [Token 🎫](<01 🎫 Token.md>) to the [scanner ✨ device](<../../60 🧰 Edge/66 ✨ Scanners/06 ✨🔌 Scanner device.md>) of a [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>).
-    |7| `Identity` | If the [Token 🎫](<01 🎫 Token.md>) contains the [Locator 🔆](<../11 🔆 Locators/01 🔆 Locator.md>) of an [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>), then it means that the [Token 🎫](<01 🎫 Token.md>) was issued to a specific person only.
-    |8| `Identity`| The [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) can then ask the [Token's Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) to verify if it is really that person holding the presented [Token 🎫](<01 🎫 Token.md>) or not.
+    |7| `Identity` | If the [Token 🎫](<01 🎫 Token.md>) contains the [Locator 🔆](<../11 🔆 Locators/01 🔆 Locator.md>) of an [Identity 🆔 domain](<../../30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>), then it means that the [Token 🎫](<01 🎫 Token.md>) was issued to a specific person only.
+    |8| `Identity`| The [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) can then ask the [Token's Identity 🆔 domain](<../../30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) to verify if it is really that person holding the presented [Token 🎫](<01 🎫 Token.md>) or not.
 
     ---
     <br/>
@@ -81,20 +81,20 @@
 1. **Can Tokens be used for documents with photo validation?**
 
     Yes, [Tokens 🎫](<01 🎫 Token.md>) can be identity-bound;
-    - i.e., they can allow [Consumer 💼 domains](<../../30 🫥 Agents/01 📦 Storage/$ 📦🫥 Storage agent.md>) to confirm that the holder of the Token is effectively the human for whom the [Token 🎫](<01 🎫 Token.md>)  was issue to. 
-    - [Identity-bound 🆔 tokens](<../../30 🫥 Agents/05 🆔 Identities/14 🆔🎫 Verify Tokens.md>) reference a trusted [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) that is able to authenticate the user - e.g., with a [Face scan 😶](<../../30 🫥 Agents/05 🆔 Identities/21 🆔😶 Face scan.md>).
+    - i.e., they can allow [Consumer 💼 domains](<../../30 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>) to confirm that the holder of the Token is effectively the human for whom the [Token 🎫](<01 🎫 Token.md>)  was issue to. 
+    - [Identity-bound 🆔 tokens](<../../30 🫥 Agents/45 🆔 Identities/14 🆔🎫 Verify Tokens.md>) reference a trusted [Identity 🆔 domain](<../../30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) that is able to authenticate the user - e.g., with a [Face scan 😶](<../../30 🫥 Agents/45 🆔 Identities/21 🆔😶 Face scan.md>).
 
 
-    The following [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) excerpt from the [Casino Entry 🤝 use case](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/10 🎰 Casinos/11 🚪 Enter anonymously.md>) illustrates the usage of an [Identity-bound 🆔 token](<../../30 🫥 Agents/05 🆔 Identities/14 🆔🎫 Verify Tokens.md>).
+    The following [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) excerpt from the [Casino Entry 🤝 use case](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/10 🎰 Casinos/11 🚪 Enter anonymously.md>) illustrates the usage of an [Identity-bound 🆔 token](<../../30 🫥 Agents/45 🆔 Identities/14 🆔🎫 Verify Tokens.md>).
 
 
     | [Domain](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | | | 🔆 [tap](<../11 🔆 Locators/01 🔆 Locator.md>)
-    | 🔎 [Finder](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Casino (4.4 ⭐) [+]
+    | 🔎 [Finder](<../../30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Casino (4.4 ⭐) [+]
     | 🎰 Casino   | ℹ️ Request for minimum age. [+]
-    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Share over 21? [Yes, No]      | > Yes
-    | 🆔 [Identity](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../30 🫥 Agents/05 🆔 Identities/21 🆔😶 Face scan.md>)
+    | 🆔 [Identity](<../../30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Share over 21? [Yes, No]      | > Yes
+    | 🆔 [Identity](<../../30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../30 🫥 Agents/45 🆔 Identities/21 🆔😶 Face scan.md>)
     | 🎰 Casino   | ✅ Welcome, please enter!
     
 
@@ -115,7 +115,7 @@
     | [Domain](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) 
     | - | - | - |
     | | | 🔆 [tap](<../11 🔆 Locators/01 🔆 Locator.md>)
-    | 🔎 [Finder](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Railway (4.3 ⭐) [+]
+    | 🔎 [Finder](<../../30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Railway (4.3 ⭐) [+]
     | 🤵 [Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Ticket [token 🎟️](<01 🎫 Token.md>) shared [+]
     | 🚂 Railway | ℹ️ Ticket presented: <br>- from MAD T4 to MAD T2 
     | 🚂 Railway | ✅ Entry gate opened!
@@ -231,8 +231,8 @@
 
     |Property| Type | Details
     |-|-|-
-    |`Identity` | string |The [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) 
-    | `IdentityKey` | string | The resource key in the [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>)
+    |`Identity` | string |The [Identity 🆔 domain](<../../30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) 
+    | `IdentityKey` | string | The resource key in the [Identity 🆔 domain](<../../30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>)
 
 
     ---

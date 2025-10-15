@@ -7,11 +7,11 @@
 - https://trustedcheck-in.truststamp.ai/
 
 
-![](<../38 🕓 User Timeline/. 📎 Assets/🕓 Vitalogist.png>)
+![](<../90 🕓 Timeline/. 📎 Assets/🕓 Vitalogist.png>)
 
 1. **What is a Vitalogist?**
 
-    Vitalogists 💖 are user-bound [Advisor 🦉](<../38 🕓 User Timeline/02 🦉🗄️ Advisor feature.md>) vault that anonymously assess the health and wellness of users based on their [Timeline 🕓](<../38 🕓 User Timeline/01 🕓🗄️ Timeline agent.md>) measurements.
+    Vitalogists 💖 are user-bound [Advisor 🦉](<../20 🦉 Advisors/02 🦉🗄️ Advisor feature.md>) vault that anonymously assess the health and wellness of users based on their [Timeline 🕓](<../90 🕓 Timeline/01 🕓🗄️ Timeline agent.md>) measurements.
 
     ---
 
@@ -29,7 +29,7 @@
 
 1. **Can Vitalogists book the recommended exams?**
 
-    No, those tasks are delegated to the user's [Concierge 🛎️](<../06 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>).
+    No, those tasks are delegated to the user's [Concierge 🛎️](<../25 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>).
 
     ---
 
@@ -45,8 +45,8 @@
 
 1. **Can Vitalogists pull medical information from Personas?**
 
-    No, [Persona 🧢](<../02 🧢 Personas/$ 🧢🫥 Persona agent.md>) vaults don't store medical data. 
+    No, [Persona 🧢](<../70 🧢 Personas/$ 🧢🫥 Persona agent.md>) vaults don't store medical data. 
     - Medical information, like allergies, fall under specific data protection and privacy regulations like HIPAA (Health Insurance Portability and Accountability Act - U.S.).
-    - Vitalogists 💖 already need to follow these regulations, so they should not add that responsibility to [Persona](<../02 🧢 Personas/$ 🧢🫥 Persona agent.md>) vaults.
+    - Vitalogists 💖 already need to follow these regulations, so they should not add that responsibility to [Persona](<../70 🧢 Personas/$ 🧢🫥 Persona agent.md>) vaults.
 
 ---

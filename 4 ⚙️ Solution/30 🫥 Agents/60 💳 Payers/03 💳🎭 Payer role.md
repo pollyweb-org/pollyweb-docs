@@ -10,7 +10,7 @@
         * for users with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>), 
         * interacting in [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) with [Seller 💵 hosts](<../../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>).
       
-    * **[Payer 💳🛠️ helpers](<05 💳🛠️ Payer helper.md>)**:
+    * **[Payer 💳🛠️ helpers](<../../45 🛠️ Helper domains/55 💳 Payers/05 💳🛠️ Payer helper.md>)**:
         * these are [Payer 💳 domains](<03 💳🎭 Payer role.md>) that act as [Helper 🛠️ domains](<../../45 🛠️ Helper domains/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>)
         * for other [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>), 
         * paying for agreements with [Biller 🤝 helpers](<../../45 🛠️ Helper domains/15 🤝 Billers/$ 🤝🛠️ Biller helper.md>).
@@ -156,8 +156,8 @@
 1. **Can Payers read card details from Persona vaults?**
 
     No.
-    * For design simplicity, [Payer 💳 domains](<03 💳🎭 Payer role.md>) store user's card details instead of pulling them from [Persona 🧢 vaults](<../02 🧢 Personas/$ 🧢🫥 Persona agent.md>) .
-    * Storing card details required special security settings defined by PCI/DSS policies, which [Payer 💳 domains](<03 💳🎭 Payer role.md>) already hold but [Persona 🧢 vaults](<../02 🧢 Personas/$ 🧢🫥 Persona agent.md>) would have to implement.
+    * For design simplicity, [Payer 💳 domains](<03 💳🎭 Payer role.md>) store user's card details instead of pulling them from [Persona 🧢 vaults](<../70 🧢 Personas/$ 🧢🫥 Persona agent.md>) .
+    * Storing card details required special security settings defined by PCI/DSS policies, which [Payer 💳 domains](<03 💳🎭 Payer role.md>) already hold but [Persona 🧢 vaults](<../70 🧢 Personas/$ 🧢🫥 Persona agent.md>) would have to implement.
 
     ---
     <br/>

@@ -42,7 +42,7 @@
 
 1. **What if the user doesn't have the domain's Locator?**
 
-    If a user doesn't know exactly where to find a [Locator 🔆](<../11 🔆 Locators/01 🔆 Locator.md>), they can use the [Finder 🔎 domain](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) to search for it;
+    If a user doesn't know exactly where to find a [Locator 🔆](<../11 🔆 Locators/01 🔆 Locator.md>), they can use the [Finder 🔎 domain](<../../30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) to search for it;
     * e.g., if a UK user wants to bind to the UK's national health service but doesn't know where to start, the user can ask for "health service" and the assistance replies with "NHS?".
 
     ---
@@ -66,7 +66,7 @@
     | [🤔 Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [Host 🤗 domains](<04 🤗🎭 Host role.md>) send a question or information to the user.
     | 🗄️ *Bind* | [Vault 🗄️ domains](<../../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>)  request the user to [Bind🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) to them.
     | 💼 *Share* | [Consumer 💼 domains](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>)  request the user to share data from a specific [Schema Code 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) or to share a [Token 🎫](<../25 🎫 Tokens/01 🎫 Token.md>).
-    | 💳 *Pay* | [Seller 💵 domains](<../../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>)  request the user's [Payer 💳 agent](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) to pay an amount.
+    | 💳 *Pay* | [Seller 💵 domains](<../../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>)  request the user's [Payer 💳 agent](<../../30 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) to pay an amount.
     | 👋 *Goodbye* | Ends the [Chat 💬](<01 💬 Chat.md>) flow.
 
     ---
@@ -102,7 +102,7 @@
 
     Users can provide feedback to domains via stars and comments. 
     * Also, by reporting on domains, users are contributing negatively to the domain's reputation. 
-    * [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) share this feedback collaboratively with other Wallets via [Reviewer ⭐ domains](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>). 
+    * [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) share this feedback collaboratively with other Wallets via [Reviewer ⭐ domains](<../../30 🫥 Agents/73 ⭐ Reviewers/01 ⭐🫥 Reviewer vault.md>). 
     * [Host 🤗 domain](<04 🤗🎭 Host role.md>) managers are notified about the feedback, and can reply to them. Similar mechanisms have been widely adopted by Trust Pilot, Google Maps, and Google Play.
 
     ---

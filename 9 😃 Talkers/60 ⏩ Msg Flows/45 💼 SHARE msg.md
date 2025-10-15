@@ -68,7 +68,7 @@
     | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 💼 [Consumer](<../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) | ℹ️ Tell me your name.
-    | 🧢 [Persona](<../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/$ 🧢🫥 Persona agent.md>) | 🫥 Share social name? [No] <br/> - [ Personal ] 🧑‍🦰 <br/> - [ Work ] 💼       | > Personal
+    | 🧢 [Persona](<../../4 ⚙️ Solution/30 🫥 Agents/70 🧢 Personas/$ 🧢🫥 Persona agent.md>) | 🫥 Share social name? [No] <br/> - [ Personal ] 🧑‍🦰 <br/> - [ Work ] 💼       | > Personal
     | 💼 [Consumer](<../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) | ℹ️ Received: [Change] <br/> - Name: Alice <br/> - Pronouns: she/her
     | 💼 [Consumer](<../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) | ✅ Hi, Alice!
 
@@ -100,11 +100,11 @@
 
     |Data | Use case|
     |-|-
-    | 🆔 [Identity](<../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>)  |[Prove 21+ to enter a casino 🎰](<../../3 🤝 Use Cases/02 🍲 Eat & Drink/10 🎰 Casinos/11 🚪 Enter anonymously.md>)
-    | 🧚 [Curator](<../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/$ 🧚🫥 Curator agent.md>) | [Drinking preferences at a bar 🍸](<../../3 🤝 Use Cases/02 🍲 Eat & Drink/30 🍸 Bars/21 🪑 Seat: Order water.md>)
-    | 🧢 [Persona](<../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/$ 🧢🫥 Persona agent.md>) | [Name to be called when food is ready 🌭](<../../3 🤝 Use Cases/02 🍲 Eat & Drink/50 🌭 Street food/21 🎪 Stall: Buy hot dog 🌭.md>)
-    | [🗓️ Scheduler](<../../4 ⚙️ Solution/30 🫥 Agents/38 🕓 User Timeline/04 🗓️🗄️ Scheduler agent.md>) | [Date and time for a table reservation 🍽️](<../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/31 🌐 Web: Book table 🗓️.md>)
-    | 🧢 [Persona](<../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/$ 🧢🫥 Persona agent.md>) | [Booking contacts to reserve a table 🍽️](<../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/31 🌐 Web: Book table 🗓️.md>)
+    | 🆔 [Identity](<../../4 ⚙️ Solution/30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>)  |[Prove 21+ to enter a casino 🎰](<../../3 🤝 Use Cases/02 🍲 Eat & Drink/10 🎰 Casinos/11 🚪 Enter anonymously.md>)
+    | 🧚 [Curator](<../../4 ⚙️ Solution/30 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | [Drinking preferences at a bar 🍸](<../../3 🤝 Use Cases/02 🍲 Eat & Drink/30 🍸 Bars/21 🪑 Seat: Order water.md>)
+    | 🧢 [Persona](<../../4 ⚙️ Solution/30 🫥 Agents/70 🧢 Personas/$ 🧢🫥 Persona agent.md>) | [Name to be called when food is ready 🌭](<../../3 🤝 Use Cases/02 🍲 Eat & Drink/50 🌭 Street food/21 🎪 Stall: Buy hot dog 🌭.md>)
+    | [🗓️ Scheduler](<../../4 ⚙️ Solution/30 🫥 Agents/75 🗓️ Schedulers/04 🗓️🗄️ Scheduler agent.md>) | [Date and time for a table reservation 🍽️](<../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/31 🌐 Web: Book table 🗓️.md>)
+    | 🧢 [Persona](<../../4 ⚙️ Solution/30 🫥 Agents/70 🧢 Personas/$ 🧢🫥 Persona agent.md>) | [Booking contacts to reserve a table 🍽️](<../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/31 🌐 Web: Book table 🗓️.md>)
 
     ---
     <br/>

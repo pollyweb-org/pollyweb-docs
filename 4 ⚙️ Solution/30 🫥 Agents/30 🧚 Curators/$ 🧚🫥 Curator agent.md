@@ -99,10 +99,10 @@
 
 1. **How much user data should a curator store?**
 
-    NLWeb advocates for [Curator 🧚 agents](<$ 🧚🫥 Curator agent.md>) to rely on [Persona 🧢 vaults](<../02 🧢 Personas/$ 🧢🫥 Persona agent.md>) to assess user intent, while storing the nuances of those intents in the Curator's 🧚 memory:
+    NLWeb advocates for [Curator 🧚 agents](<$ 🧚🫥 Curator agent.md>) to rely on [Persona 🧢 vaults](<../70 🧢 Personas/$ 🧢🫥 Persona agent.md>) to assess user intent, while storing the nuances of those intents in the Curator's 🧚 memory:
     - this addresses the different speed of developments between humans and machines; 
     - i.e., humans change their tastes and behaviors slower as they age, while new and better machine algorithms appear exponentially faster;
-    - this separation of concerns allows users to retain their legacy [Persona 🧢 vault](<../02 🧢 Personas/$ 🧢🫥 Persona agent.md>) while constantly upgrading to new smarter [Curator 🧚 agents](<$ 🧚🫥 Curator agent.md>) as they are released.
+    - this separation of concerns allows users to retain their legacy [Persona 🧢 vault](<../70 🧢 Personas/$ 🧢🫥 Persona agent.md>) while constantly upgrading to new smarter [Curator 🧚 agents](<$ 🧚🫥 Curator agent.md>) as they are released.
 
     ---
     <br/>
@@ -116,15 +116,15 @@
     Nonetheless, [Curator 🧚 agents](<$ 🧚🫥 Curator agent.md>) should thrive to follow a generic set of globally accepted ethical norms.
 
     - **Safety guardrails**: 
-        - protect the physical and mental safety of the human, leveraging their [Identity 🆔 vault](<../05 🆔 Identities/01 🆔🫥 Identity agent.md>) to guardrail legal and cultural nuances.
+        - protect the physical and mental safety of the human, leveraging their [Identity 🆔 vault](<../45 🆔 Identities/01 🆔🫥 Identity agent.md>) to guardrail legal and cultural nuances.
         - e.g., when suggesting alcoholic beverages to an American user visiting Portugal, consider both the minimum drinking age on the current country (18 in Portugal) and in the user's nationality country (21 in the USA).
   
     - **Cognitive dissonance**: 
-        - respect the human's intent behavior by leveraging [Persona 🧢 vaults](<../02 🧢 Personas/$ 🧢🫥 Persona agent.md>) while addressing the emotional side of the human;
-        - e.g., if a human says they prefer to eat vegetables but reject all dishes that contain vegetables, then the [Curator 🧚 agent](<$ 🧚🫥 Curator agent.md>) should memorize repetitive misalignments and work with the [Vitalogist 💖 vault](<../09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) to help the human achieve their desired behavior (instead of reinforcing the misalignment by defaulting to what the human likes to hear).
+        - respect the human's intent behavior by leveraging [Persona 🧢 vaults](<../70 🧢 Personas/$ 🧢🫥 Persona agent.md>) while addressing the emotional side of the human;
+        - e.g., if a human says they prefer to eat vegetables but reject all dishes that contain vegetables, then the [Curator 🧚 agent](<$ 🧚🫥 Curator agent.md>) should memorize repetitive misalignments and work with the [Vitalogist 💖 vault](<../95 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) to help the human achieve their desired behavior (instead of reinforcing the misalignment by defaulting to what the human likes to hear).
   
     - **Collaborative growth**:
-        - adapt to the human's growth and environmental changes by suggesting changes to the human's [Persona 🧢 vault](<../02 🧢 Personas/$ 🧢🫥 Persona agent.md>) settings.
+        - adapt to the human's growth and environmental changes by suggesting changes to the human's [Persona 🧢 vault](<../70 🧢 Personas/$ 🧢🫥 Persona agent.md>) settings.
 
     ---
     <br/>
