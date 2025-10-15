@@ -4,7 +4,7 @@
 
 For a user to [sign](<../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/16 🆔🔏 Verify Signatures.md>) a subscription, the following preconditions must be met:
 - 1/ the user has default [Payer 💳](<../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) and [Identity 🆔](<../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) domains;
-- 2/ the [Seller 💵 domain](<../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) has a default [Collector 🏦 domain](<../../4 ⚙️ Solution/45 Helpers/18 🏦 Collectors/01 🏦🛠️ Collector helper.md>).
+- 2/ the [Seller 💵 domain](<../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) has a default [Collector 🏦 domain](<../../4 ⚙️ Solution/45 Helpers/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>).
 
 The following steps describe a subscription workflow:
 - 1/ the user initiates a chat with a [Seller 💵](<../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>);
