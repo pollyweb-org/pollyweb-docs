@@ -1,27 +1,35 @@
 
 # 🧩 [Schema Code](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): ManifestCode
 
- > Referenced by [domain Manifest 📜](<01 📜 Domain Manifest.md>)
+> Referenced by [domain Manifest 📜](<01 📜 Domain Manifest.md>)
 
 <br/>
 
-```yaml
-🤝: nlweb.org/MANIFEST/CODE
+## Properties
 
+| Property | Type | Notes|
+|-|-|-
+| `Path`| string | Relative path of the [Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)  or group
+| [`Delegator`](<13 🧩 Delegate schema.md>) | string | Optional [Authority 🏛️ domain](<../43 👍 Trusts/02 🏛️🛠️ Authority helper.md>) that delegated: <br/>- i.e., added it to [`.MANIFEST/DELEGATE`](<13 🧩 Delegate schema.md>)
+| `Description`| string | Human  description of the [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)  
+| `Name` | string | Human name of the [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) 
+| `Resources`  | map | Dictionary of external resources
+| [`Translations`](<16 🧩 Translation schema.md>) | array | List of [`.MANIFEST/TRANSLATION`](<16 🧩 Translation schema.md>)
+| [`Schemas`](<12 🧩 CodeSchema schema.md>)| array | List of [`.MANIFEST/CODE/SCHEMA`](<12 🧩 CodeSchema schema.md>)
+|
+
+<br/>
+
+## Definition
+
+> 🤝: [`.MANIFEST/CODE`](<11 🧩 Code schema.md>)
+
+```yaml
 Path: /MANIFEST/CODE
 Description: Authority-managed code.
 
 Schema:
   Version: 1.0
-
-  Properties:
-    - Path          # Relative path of the code or group - e.g., /PERSONA (string)
-    - Delegator     # Optional domain of the domain that delegated the code (string)
-    - Description   # Human readable Description of the code (string)
-    - Name          # Human readable name of the code (string)
-    - Resources     # Dictionary of external resources
-    - Translations  # List of /MANIFEST/TRANSLATION (array)
-    - Schemas       # List of /MANIFEST/CODE/SCHEMA (array)
 
   Format:
     type: object
@@ -31,42 +39,26 @@ Schema:
       Path:
         type: string
         example: /SSR/WCHR
-        description: >
-          Code for a user’s information in the given domain.
-          - Domains that defined codes are called "authorities".
-          - For shares from vaults to consumers, use <authority>/<code-path.
-          - When a version is required, use <authority>/<code-path>:<schema-version>.
-          - Version usages include check-in QRs, tokens, and json validations.
 
       Delegator:
         $ref: Domain@nlweb.org/TYPES
         example: nlweb.org
-        description: > 
-          Authority that delegated the definition of a code to this domain, 
-          by adding this domain to its list of nlweb.org/MANIFEST/DELEGATE.
 
       Name: 
         type: string
         example: Persona codes
-        details: >
-          Human readable name of the code.
-          This will be the name presented to users on their wallets upon
-          sharing requests from consumer domains.
 
       Resources:
         type: object
         additionalProperties:
           type: string
-        description: >
-          Dictionary of external resources.
-          These are tipically URLs to relevant webpages.
 
       Translations:
         type: array
         items: 
-          $ref: nlweb.org/MANIFEST/TRANSLATION:1.0
+          $ref: .MANIFEST/TRANSLATION
       
       Schemas: 
         type: array
         items: 
-          $ref: nlweb.org/MANIFEST/CODE/SCHEMA:1.0
+          $ref: .MANIFEST/CODE/SCHEMA
