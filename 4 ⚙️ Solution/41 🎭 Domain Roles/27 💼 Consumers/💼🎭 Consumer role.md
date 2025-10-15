@@ -231,8 +231,8 @@
 
     |  Method | Purpose
     |-|-
-    |[🗄️🐌 Consume](<🅰️ Consumer methods/🗄️🐌💼 Consume.md>) | Collect user data from a [Vault 🗄️ domain](<../80 🗄️ Vaults/🗄️🎭 Vault role.md>)
-    | [🧑‍🦰🐌 Receive](<🅰️ Consumer methods/🧑‍🦰🐌💼 Receive.md>) | Receive [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) from a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    |[🗄️🐌 Consume](<💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>) | Collect user data from a [Vault 🗄️ domain](<../80 🗄️ Vaults/🗄️🎭 Vault role.md>)
+    | [🧑‍🦰🐌 Receive](<💼🅰️ Consumer methods/🧑‍🦰🐌💼 Receive.md>) | Receive [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) from a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     
     ---
     <br/>
@@ -244,7 +244,7 @@
     | [⏩🧑‍🦰 Query Vault](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>) | Ask for [Schema Codes 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) in [Vaults 🗄️](<../80 🗄️ Vaults/🗄️🎭 Vault role.md>) 
     | [⏩🧑‍🦰 Share Token](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token 🎫.md>) | Ask for [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) in  [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) 
     | [⏩🧑‍🦰 Share ID Token](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/05 🧑‍🦰👉💼 Share Token+ID.md>) | Ask for [Identity 🆔](<../../50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) bound [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>)
-    | [⏩🧑‍🦰 Token status](<⏩ Consumer flows/💼⏩🤵 Token status 🎫.md>) | Ask for the status of a [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>)
+    | [⏩🧑‍🦰 Token status](<💼⏩ Consumer flows/💼⏩🤵 Token status 🎫.md>) | Ask for the status of a [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>)
 
     ---
     <br/>

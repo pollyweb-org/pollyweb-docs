@@ -1,6 +1,6 @@
 # 💼🐌🤵 Inform @ Broker
 
-> Part of the [Consumer Inform ⏩ flow](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/⏩ Consumer flows/💼⏩🧑‍🦰 Inform 📝.md>)
+> Part of the [Consumer Inform ⏩ flow](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/💼⏩ Consumer flows/💼⏩🧑‍🦰 Inform 📝.md>)
 
 <br/>
 

@@ -3,7 +3,7 @@
 > Sends [Tokens 🎫](<../../../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) to a [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>).
 
 > Part of [💼⏩🧑‍🦰 Share Token @ Consumer](<../../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token 🎫.md>) flow:
-> <br/>• triggers [`Receive@Consumer`](<../../../../41 🎭 Domain Roles/27 💼 Consumers/🅰️ Consumer methods/🧑‍🦰🐌💼 Receive.md>)
+> <br/>• triggers [`Receive@Consumer`](<../../../../41 🎭 Domain Roles/27 💼 Consumers/💼🅰️ Consumer methods/🧑‍🦰🐌💼 Receive.md>)
 
 <br/>
 
