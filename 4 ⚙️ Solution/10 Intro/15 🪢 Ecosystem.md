@@ -51,7 +51,7 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
     * and circuit [Relays 🎬](<../60 🧰 Edge/65 🎬 Relayers/04 🎬🔌 Relay device.md>).
 
 - Device integration is assured by:
-    - natural language [Relayer 🛰️](<../45 🛠️ Helper domains/70 🛰️ Relayers/04 🛰️🛠️ Relayer helper.md>) domains;
+    - natural language [Relayer 🛰️](<../45 🛠️ Helper domains/70 🛰️ Relayers/$ 🛰️🛠️ Relayer helper.md>) domains;
     - that communicate with local [Antenna 📡](<../60 🧰 Edge/61 🔌 Pluggables/02 📡🔀 Antenna router.md>) hubs;
     - that aggregate [Pluggable 🔌](<../60 🧰 Edge/61 🔌 Pluggables/01 🔌 Pluggable device.md>) devices and [Wi-Fier 🛜](<../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>) routers. 
 
