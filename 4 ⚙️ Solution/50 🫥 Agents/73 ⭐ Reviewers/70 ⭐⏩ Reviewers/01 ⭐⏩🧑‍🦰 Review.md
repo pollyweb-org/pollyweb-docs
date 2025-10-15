@@ -13,7 +13,7 @@
 | 2 | [👥🚀🕸 `Service@Graph`](<../../../../6 🅰️ APIs/45 🕸🅰️ Graph/09 👥🚀🕸 Offer.md>) | [Reviewers ⭐](<../$ ⭐🫥 Reviewer agent.md>) pull specific service questions 
 | 3 | [🤗⏩🧑‍🦰 Prompt 🤔](<../../../41 🎭 Domain Roles/30 🤗 Hosts/31 🤗⏩🧑‍🦰 Prompt 🤔 flow.md>) | [Reviewers ⭐](<../$ ⭐🫥 Reviewer agent.md>) ask [Wallets 🧑‍🦰](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) for feedback
 | 4 | [⭐🐌🤗 `Rated@Host`](<../../../41 🎭 Domain Roles/30 🤗 Hosts/59 ⭐🐌🤗 Rated@Host.md>) | Later, [Reviewers ⭐](<../$ ⭐🫥 Reviewer agent.md>) may report to [Hosts 🤗](<../../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>)
-| 5 | [🌬️⏩💼 Ingest @ Consumer](<../../../41 🎭 Domain Roles/75 🌬️ Streamers/76  🌬️⏩ Streamers/01 🌬️⏩🔔 Stream.md>) | Later, [Reviewers ⭐](<../$ ⭐🫥 Reviewer agent.md>) alert subscriber [Finders 🔎](<../../40 🔎 Finders/$ 🔎🫥 Finder agent.md>)
+| 5 | [🌬️⏩💼 Ingest @ Consumer](<../../../41 🎭 Domain Roles/75 🌬️ Streamers/01 🌬️⏩🔔 Stream.md>) | Later, [Reviewers ⭐](<../$ ⭐🫥 Reviewer agent.md>) alert subscriber [Finders 🔎](<../../40 🔎 Finders/$ 🔎🫥 Finder agent.md>)
 ||
 
 
