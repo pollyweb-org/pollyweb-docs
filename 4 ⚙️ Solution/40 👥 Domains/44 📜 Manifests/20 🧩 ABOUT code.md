@@ -31,8 +31,7 @@ About:
 | `SmallIcon`  | string | Optional URL to a small icon (20x20)
 | `BigIcon`   | string | Optional URL to a big icon (100x100)
 | `Feedback` | string | Optional [Buffer ⏳ helper domain](<../42 🌬️ Streams/03 ⏳🛠️ Buffer helper.md>) name <br/>- if not defined, then no feedback is given
-| [`Translations` 🧩](<21 🧩 TRANSLATION code.md>) | array | Optional translations of the domain name
-| | object | - alternative, e.g.  `{en:Name, pt:Nome}`
+| `Translations` | map | Optional translations of the domain name
 |
 
 <br/>
