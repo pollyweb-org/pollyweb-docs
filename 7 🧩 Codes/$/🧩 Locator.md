@@ -1,16 +1,18 @@
 
 # [🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) [Schema Code](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): Locator
 
-> Inherited by:
-> <br/>• [`.TOKEN 🧩`](<🧩 Token.md>)
-> <br/>• [`.HOST 🧩`](<../HOST/🧩 Host.md>)
-> <br/>• [`.ALIAS 🧩`](<🧩 Alias.md>)
+* Inherited by:
+  * [`.TOKEN` 🧩](<🧩 Token.md>)
+  * [`.HOST` 🧩](<../HOST/🧩 Host.md>)
+  * [`.ALIAS` 🧩](<🧩 Alias.md>)
 
 <br/>
 
-```yaml
-🤝: nlweb.org/MANIFEST/CODE
+## Definition
 
+> [🤝:](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) [`.MANIFEST/CODE`](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/11 🧩 Code schema.md>)
+
+```yaml
 Path: /LOCATOR
 
 Schema:

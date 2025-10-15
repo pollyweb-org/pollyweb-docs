@@ -3,10 +3,13 @@
 
 > Schema of a [domain Message 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>)
 
+<br/>
+
+## Definition
+
+> [🤝:](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) [`.MANIFEST/CODE`](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/11 🧩 Code schema.md>)
 
 ```yaml
-🤝: nlweb.org/MANIFEST/CODE
-
 Path: /MSG
 
 Schema: 

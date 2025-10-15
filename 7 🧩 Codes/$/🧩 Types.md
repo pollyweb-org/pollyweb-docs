@@ -1,9 +1,13 @@
 
 # [🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) [Schema Code](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): Types
 
-```yaml
-🤝: nlweb.org/MANIFEST/CODE
+<br/>
 
+## Definition
+
+> [🤝:](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) [`.MANIFEST/CODE`](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/11 🧩 Code schema.md>)
+
+```yaml
 Path: /TYPES
 
 Schema: 
