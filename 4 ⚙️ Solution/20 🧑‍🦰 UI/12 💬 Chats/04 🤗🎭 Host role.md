@@ -5,7 +5,7 @@
 
     A [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) with a [Host 🤗 domain role](<04 🤗🎭 Host role.md>) is any [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) that
     * hosts a [Chat 💬](<01 💬 Chat.md>) with [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) 
-    * via a [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>). 
+    * via a [Broker 🤵 domain](<../03 🤵 Brokers/$ 🤵 Broker domain.md>). 
 
     ---
     <br/>
@@ -16,7 +16,7 @@
 
     |#|Category|Step
     |-|-|-
-    |1| `Hello`| The [user's Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) checks-in into a [Host 🤗 domain](<04 🤗🎭 Host role.md>), passing it context parameters, [Binds 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>), and [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>).
+    |1| `Hello`| The [user's Broker 🤵 domain](<../03 🤵 Brokers/$ 🤵 Broker domain.md>) checks-in into a [Host 🤗 domain](<04 🤗🎭 Host role.md>), passing it context parameters, [Binds 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>), and [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>).
     |2| `Chat` | The [Host 🤗 domain](<04 🤗🎭 Host role.md>) sets a new [Chat 💬](<01 💬 Chat.md>) context.
     |3| `Interact` | The [Host 🤗 domain](<04 🤗🎭 Host role.md>) starts interacting with prompts.
 
@@ -28,7 +28,7 @@
 1. **How are users protected from stalking from Hosts?**
 
     NLWeb sees [Chats 💬](<01 💬 Chat.md>) as temporary sessions, always initiated by users; 
-    - i.e., the [Host 🤗 domain](<04 🤗🎭 Host role.md>) receives a temporary ID from the [user's Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) when the [Chat 💬 session](<01 💬 Chat.md>)  is open, but no other ID to track the user across sessions;
+    - i.e., the [Host 🤗 domain](<04 🤗🎭 Host role.md>) receives a temporary ID from the [user's Broker 🤵 domain](<../03 🤵 Brokers/$ 🤵 Broker domain.md>) when the [Chat 💬 session](<01 💬 Chat.md>)  is open, but no other ID to track the user across sessions;
     - although [Host 🤗 domains](<04 🤗🎭 Host role.md>) can proactively send messages on an open [Chat 💬 session](<01 💬 Chat.md>), users can close the session at any time. 
 
     ---
@@ -46,18 +46,18 @@
 1. **Do Hosts send messages to users via web sockets?**
 
     No. 
-    - [Host 🤗 domains](<04 🤗🎭 Host role.md>) send [Messages 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) via HTTPS POST to a proxy [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) that then communicate with the user's [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) with real-time protocols (e.g., web sockets, MQTT). 
+    - [Host 🤗 domains](<04 🤗🎭 Host role.md>) send [Messages 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) via HTTPS POST to a proxy [Broker 🤵 domain](<../03 🤵 Brokers/$ 🤵 Broker domain.md>) that then communicate with the user's [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) with real-time protocols (e.g., web sockets, MQTT). 
 
     ---
     <br/>
 
 1. **What proxy services are involved in the flow?**
 
-    [Messages 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) sent from [Host 🤗 domains](<04 🤗🎭 Host role.md>) first reach the user's [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) via HTTPS POST:
-    - these [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) are responsible for orchestrating [Chats 💬](<01 💬 Chat.md>) between users and [Host 🤗 domains](<04 🤗🎭 Host role.md>) using the NLWeb protocol, 
+    [Messages 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) sent from [Host 🤗 domains](<04 🤗🎭 Host role.md>) first reach the user's [Broker 🤵 domain](<../03 🤵 Brokers/$ 🤵 Broker domain.md>) via HTTPS POST:
+    - these [Broker 🤵 domains](<../03 🤵 Brokers/$ 🤵 Broker domain.md>) are responsible for orchestrating [Chats 💬](<01 💬 Chat.md>) between users and [Host 🤗 domains](<04 🤗🎭 Host role.md>) using the NLWeb protocol, 
     - and they are typically implemented by a main cloud provider that is able to ensure high availability and low latency communication between globally dispersed entities. 
     
-    The [user's Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) then sends the message to a [user's Notifier 📣 domain](<../02 📣 Notifiers/$ 📣 Notifier domain.md>), also via HTTPS POST:
+    The [user's Broker 🤵 domain](<../03 🤵 Brokers/$ 🤵 Broker domain.md>) then sends the message to a [user's Notifier 📣 domain](<../02 📣 Notifiers/$ 📣 Notifier domain.md>), also via HTTPS POST:
     - the [user's Notifier 📣 domain](<../02 📣 Notifiers/$ 📣 Notifier domain.md>) is responsible for pushing the message to the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) via whatever real-time mechanisms the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) supports (e.g., web sockets, MQTT);
     - because of this technical dependency, a [Notifier 📣 domain](<../02 📣 Notifiers/$ 📣 Notifier domain.md>) is typically implemented by the same team that implemented the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
 
@@ -69,11 +69,11 @@
 
     Not applicable - [Host 🤗 domains](<04 🤗🎭 Host role.md>) don't send [Messages 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) to [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>). 
 
-    * [Host 🤗 domains](<04 🤗🎭 Host role.md>) only send asynchronous HTTPS intents to the [user's Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>), who then sends it to the [user's Notifier 📣 domain](<../02 📣 Notifiers/$ 📣 Notifier domain.md>) also via asynchronous HTTPS. 
+    * [Host 🤗 domains](<04 🤗🎭 Host role.md>) only send asynchronous HTTPS intents to the [user's Broker 🤵 domain](<../03 🤵 Brokers/$ 🤵 Broker domain.md>), who then sends it to the [user's Notifier 📣 domain](<../02 📣 Notifiers/$ 📣 Notifier domain.md>) also via asynchronous HTTPS. 
 
     * When the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) app receives the intent from the [Notifier 📣 domain](<../02 📣 Notifiers/$ 📣 Notifier domain.md>), it pulls the [Message 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) content directly from the [Host 🤗 domain](<04 🤗🎭 Host role.md>) with a synchronous HTTPS call. 
 
-    * This keeps the [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) and the [Notifier 📣 domain](<../02 📣 Notifiers/$ 📣 Notifier domain.md>) in the dark regarding the content of the [Message 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) (even in the event of a cryptography attack) because no content actually passes by these proxy services.
+    * This keeps the [Broker 🤵 domain](<../03 🤵 Brokers/$ 🤵 Broker domain.md>) and the [Notifier 📣 domain](<../02 📣 Notifiers/$ 📣 Notifier domain.md>) in the dark regarding the content of the [Message 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) (even in the event of a cryptography attack) because no content actually passes by these proxy services.
 
     ---
     <br/>
@@ -113,7 +113,7 @@
 
     | [From 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Subject 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) | Description
     |-|-|-
-    |[🤵 Broker](<../03 🤵 Brokers/03 🤵 Broker domain.md>) | [`Hello`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/01 🤵🐌🤗 Hello.md>) | The user started a [Chat 💬](<01 💬 Chat.md>)
+    |[🤵 Broker](<../03 🤵 Brokers/$ 🤵 Broker domain.md>) | [`Hello`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/01 🤵🐌🤗 Hello.md>) | The user started a [Chat 💬](<01 💬 Chat.md>)
     | | [`Home`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/02 🤵🐌🤗 Home.md>) | Show the top menu on the [Chat 💬](<01 💬 Chat.md>)
     | | [`Abandoned`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/03 🤵🐌🤗 Abandoned.md>) |  The user abandoned a [Chat 💬](<01 💬 Chat.md>)
     | | [`Summarize`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/10 🤵🐌🤗 Summarize.md>) | Return a [Chat 💬](<01 💬 Chat.md>) advertising summary

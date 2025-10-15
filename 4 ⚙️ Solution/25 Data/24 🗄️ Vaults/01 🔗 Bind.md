@@ -36,8 +36,8 @@
     | [Domain](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
     |-|-|-
     | 🗄️ Vault | 😃 Hi! What do you need? <br/>- [ Bla ] | > Bla
-    | [🤵 Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Flow: Bla, bla, bla [+] 
-    | [🤵 Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Bind [Yes, No, +]<br/>- [ Any Schema Code 🧩](<02 🧩 Schema Code.md>) | > Yes 
+    | [🤵 Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | ⓘ Flow: Bla, bla, bla [+] 
+    | [🤵 Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Bind [Yes, No, +]<br/>- [ Any Schema Code 🧩](<02 🧩 Schema Code.md>) | > Yes 
     | 🗄️ Vault | ✅ Done! 
     |
 
@@ -77,12 +77,12 @@
     | [Domain](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
     |-|-|-
     | 🗄️ Vault | 😃 Hi! What do you need? <br/>- [ Bind ] to this Vault <br/>- [ Something else ] | > Bind
-    | [🤵 Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Flow: Bind on app [+] || The [Host 🤗 role](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) changed the context.
+    | [🤵 Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | ⓘ Flow: Bind on app [+] || The [Host 🤗 role](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) changed the context.
     | 🗄️ Vault | 😃 Type your Vault ID. | `my-id`
     | 🗄️ Vault | 😃 Type your Secret. | `*******`
     | 🗄️ Vault | ℹ️ Hi, Alice! [+] |
     | 🗄️ Vault | 😃 What to bind? [All] <br/> - [ [ Schema Code 🧩](<02 🧩 Schema Code.md>) #1 ] <br/> - [ [ Schema Code 🧩](<02 🧩 Schema Code.md>) #2 ] | > All
-    | [🤵 Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Bind [Yes, No, +]<br/>- [ Schema Code 🧩](<02 🧩 Schema Code.md>) #1  <br/> - [Schema Code 🧩](<02 🧩 Schema Code.md>) #2 | > Yes | 
+    | [🤵 Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Bind [Yes, No, +]<br/>- [ Schema Code 🧩](<02 🧩 Schema Code.md>) #1  <br/> - [Schema Code 🧩](<02 🧩 Schema Code.md>) #2 | > Yes | 
     | 🗄️ Vault | ✅ Done! [+]
 
 
@@ -103,11 +103,11 @@
     | [Domain](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
     |-|-|-
     | | | 🔆 [scan](<../../20 🧑‍🦰 UI/11 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>)
-    | 🔎 [Finder](<../../30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Vault (4.3 ⭐)  [+] || The [Broker 🤵](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) informed the user.
+    | 🔎 [Finder](<../../30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Vault (4.3 ⭐)  [+] || The [Broker 🤵](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) informed the user.
     | 🗄️ Vault | ℹ️ Hi, Alice! Let's bind. || The [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) had a [Host 🤗](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>)  callback.
-    | [🤵 Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | ⓘ Flow: Web bind [+] || The [Host 🤗 role](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) changed the context.
+    | [🤵 Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | ⓘ Flow: Web bind [+] || The [Host 🤗 role](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) changed the context.
     | 🗄️ Vault | 😃 What to bind? [All] <br/> - [ Data Set #1 ] <br/> - [ Data Set #2 ] | > All
-    | [🤵 Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Bind [Yes, No, +]<br/>- [ Schema Code 🧩](<02 🧩 Schema Code.md>) #1  <br/> - [Schema Code 🧩](<02 🧩 Schema Code.md>) #2 | > Yes | The [Broker 🤵](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) protected the user.
+    | [🤵 Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Bind [Yes, No, +]<br/>- [ Schema Code 🧩](<02 🧩 Schema Code.md>) #1  <br/> - [Schema Code 🧩](<02 🧩 Schema Code.md>) #2 | > Yes | The [Broker 🤵](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) protected the user.
     | 🗄️ Vault | ✅ Done! [+]
 
     ---

@@ -25,7 +25,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header | `From`    | string | [Finder 🔎](<../../../4 ⚙️ Solution/30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) from [`Introduce@Finder`](<../../40 🔎🅰️ Finder/01 🤵🐌🔎 Introduce.md>)
-|        | `To`      | string | [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)  from [`Introduce@Finder`](<../../40 🔎🅰️ Finder/01 🤵🐌🔎 Introduce.md>) |
+|        | `To`      | string | [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>)  from [`Introduce@Finder`](<../../40 🔎🅰️ Finder/01 🤵🐌🔎 Introduce.md>) |
 |        | `Subject` | string | `Introduced@Broker`
 | Body   | `ChatID`  | uuid   | [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) from [`Introduce@Finder`](<../../40 🔎🅰️ Finder/01 🤵🐌🔎 Introduce.md>)
 |
