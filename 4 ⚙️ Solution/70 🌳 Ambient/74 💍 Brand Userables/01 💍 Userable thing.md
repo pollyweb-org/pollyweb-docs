@@ -4,7 +4,7 @@
 1. **What are Userable Things in NLWeb?**
     
     [Userables 💍](<01 💍 Userable thing.md>) are [Things 💠](<../71 💠 Brand Things/01 💠 Thing.md>) 
-    * that [Brand 🍏 domains](<../../41 🎭 Domain Roles/20 🍏 Brands/07 🍏🎭 Brand role.md>) embedded into objects for a user to carry 
+    * that [Brand 🍏 domains](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>) embedded into objects for a user to carry 
     * e.g., jewelry, glasses, cards, keyholders, stickers, and wearables. 
 
     ---
@@ -47,7 +47,7 @@
   
     - The authentication mechanism is implemented with a secure NFC chip with asymmetric cryptography (e.g., NTAG 424 DNA class).
 
-    - When a [Userable 💍 thing](<01 💍 Userable thing.md>) is [tapped 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>), the user's [Custodian 🧳 agent](<../../50 🫥 Agents/35 🧳 Custodians/05 🧳🗄️ Custodian vault.md>) checks the validity of the unique dynamic code sent by domain that scanned the [Userable 💍 thing](<01 💍 Userable thing.md>), verifying if 
+    - When a [Userable 💍 thing](<01 💍 Userable thing.md>) is [tapped 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>), the user's [Custodian 🧳 agent](<../../50 🫥 Agents/35 🧳 Custodians/$ 🧳🗄️ Custodian vault.md>) checks the validity of the unique dynamic code sent by domain that scanned the [Userable 💍 thing](<01 💍 Userable thing.md>), verifying if 
       - it has not been used before, 
       - if the signature of the code matches the Userable's public key and unique ID, 
       - and if the sequence was respected.
@@ -57,8 +57,8 @@
 
 1. **How is the dynamic code generation enforced?**
 
-    When a user registers a [Userable 💍 thing](<01 💍 Userable thing.md>) on the user's [Custodian 🧳 agent](<../../50 🫥 Agents/35 🧳 Custodians/05 🧳🗄️ Custodian vault.md>),
-    * the agent fetches the rotation algorithm from the [Brand 🍏 domain](<../../41 🎭 Domain Roles/20 🍏 Brands/07 🍏🎭 Brand role.md>) that manufactured the [Userable 💍 thing](<01 💍 Userable thing.md>),
+    When a user registers a [Userable 💍 thing](<01 💍 Userable thing.md>) on the user's [Custodian 🧳 agent](<../../50 🫥 Agents/35 🧳 Custodians/$ 🧳🗄️ Custodian vault.md>),
+    * the agent fetches the rotation algorithm from the [Brand 🍏 domain](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>) that manufactured the [Userable 💍 thing](<01 💍 Userable thing.md>),
     * then asks the user to scan the [Userable 💍 thing](<01 💍 Userable thing.md>) twice to see if the rotation works. 
 
     ---

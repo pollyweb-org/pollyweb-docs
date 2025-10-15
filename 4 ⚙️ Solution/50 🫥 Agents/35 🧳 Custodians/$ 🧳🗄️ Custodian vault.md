@@ -31,13 +31,13 @@
 
     |#|Step
     |-|-
-    |1| A [Brand 🍏 domain](<../../41 🎭 Domain Roles/20 🍏 Brands/07 🍏🎭 Brand role.md>) orders a set of [Things 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>) from a [Wand 🪄 domain](<../../45 🛠️ Helper domains/90 🪄 Wands/$ 🪄🛠️ Wand helper.md>).
-    |2| The [Wand 🪄 domain](<../../45 🛠️ Helper domains/90 🪄 Wands/$ 🪄🛠️ Wand helper.md>) creates the Things' [Locators 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) and informs the [Brand 🍏 domain](<../../41 🎭 Domain Roles/20 🍏 Brands/07 🍏🎭 Brand role.md>).
-    |3| The [Brand 🍏](<../../41 🎭 Domain Roles/20 🍏 Brands/07 🍏🎭 Brand role.md>) embeds the Things' [Locators 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) into the products that it sells. 
-    |4| A user buys the [Brand's 🍏](<../../41 🎭 Domain Roles/20 🍏 Brands/07 🍏🎭 Brand role.md>) product.
+    |1| A [Brand 🍏 domain](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>) orders a set of [Things 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>) from a [Wand 🪄 domain](<../../45 🛠️ Helper domains/90 🪄 Wands/$ 🪄🛠️ Wand helper.md>).
+    |2| The [Wand 🪄 domain](<../../45 🛠️ Helper domains/90 🪄 Wands/$ 🪄🛠️ Wand helper.md>) creates the Things' [Locators 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) and informs the [Brand 🍏 domain](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>).
+    |3| The [Brand 🍏](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>) embeds the Things' [Locators 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) into the products that it sells. 
+    |4| A user buys the [Brand's 🍏](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>) product.
     |5| The user [taps 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) or [scans ✨](<../../20 🧑‍🦰 UI/11 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) the product's [Thing 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>) to initiate the registration.
-    |6| The user registers/configures the [Thing 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>) into their user-bound [Custodian 🧳 agent](<05 🧳🗄️ Custodian vault.md>).
-    |7| The [Custodian 🧳 agent](<05 🧳🗄️ Custodian vault.md>) agrees with the [Wand 🪄 domain](<../../45 🛠️ Helper domains/90 🪄 Wands/$ 🪄🛠️ Wand helper.md>) to lock the ownership of the [Thing 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>).
+    |6| The user registers/configures the [Thing 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>) into their user-bound [Custodian 🧳 agent](<$ 🧳🗄️ Custodian vault.md>).
+    |7| The [Custodian 🧳 agent](<$ 🧳🗄️ Custodian vault.md>) agrees with the [Wand 🪄 domain](<../../45 🛠️ Helper domains/90 🪄 Wands/$ 🪄🛠️ Wand helper.md>) to lock the ownership of the [Thing 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>).
 
     ---
     <br/>
