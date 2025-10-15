@@ -1,6 +1,6 @@
 # 🛠️ Talker INVITE command
 
-> Relates to [Invite ⏩ flow](<../../5 ⏩ Flows/50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>)
+> Relates to [Invite ⏩ flow](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>)
 
 > Used by [Helper 🛠️ domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>)
 

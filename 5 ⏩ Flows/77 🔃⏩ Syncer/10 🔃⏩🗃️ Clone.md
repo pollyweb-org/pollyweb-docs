@@ -40,10 +40,10 @@ $ syncer sync
 
 | # | Call | Notes
 |-|-|-
-|1|[🤗⏩🧑‍🦰 Prompt 🤔](<../50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | Users [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with  [bound 🔗](<../../4 ⚙️ Solution/30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) [Resourcers 🗃️](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/$ 🗃️🎭 Resourcer role.md>)
-|2|[🤗⏩🧑‍🦰 Prompt 🤔](<../50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | Users ask to clone → [Resourcers 🗃️](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/$ 🗃️🎭 Resourcer role.md>) return 🄰
+|1|[🤗⏩🧑‍🦰 Prompt 🤔](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | Users [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with  [bound 🔗](<../../4 ⚙️ Solution/30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) [Resourcers 🗃️](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/$ 🗃️🎭 Resourcer role.md>)
+|2|[🤗⏩🧑‍🦰 Prompt 🤔](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | Users ask to clone → [Resourcers 🗃️](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/$ 🗃️🎭 Resourcer role.md>) return 🄰
 |3|[🔃🚀🗃️ `Clone@Resourcer`](<../../6 🅰️ APIs/78 🗃️🅰️ Resourcer/10 🔃🚀🗃️ Clone.md>) | Users run [Syncer](<../../9 😃 Talkers/90 ☁️ Hosters/01 🔃🛠️ Syncer tool.md>) with 🄰 → they display  🄱
-|4|[🤗⏩🧑‍🦰 Prompt 🤔](<../50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Resourcers 🗃️](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/$ 🗃️🎭 Resourcer role.md>) ask users to confirm 🄱
+|4|[🤗⏩🧑‍🦰 Prompt 🤔](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Resourcers 🗃️](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/$ 🗃️🎭 Resourcer role.md>) ask users to confirm 🄱
 |5| [🔃⏩🗃️ Sync](<20 🔃⏩🗃️ Sync.md>) | Uses download the resources locally
 |
 

@@ -30,6 +30,6 @@
 |-|-|-
 | 1 | [🧑‍🦰🚀📣 `Onboard@Notifier`](<../../../6 🅰️ APIs/65 📣🅰️ Notifier/01 📣🤵🅰️ Onboard/11 🧑‍🦰🚀📣 Onboard.md>) | Register the [Wallet 🧑‍🦰](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) on the [Notifier 📣](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/$ 📣 Notifier domain.md>)
 | 2 | [📣🚀🤵 `Onboard@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/10 🤵🅰️ Wallets 🧑‍🦰/11 📣🚀🤵 Onboard.md>) | Register a wallet ID on the [Broker 🤵](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>)
-| 3 | [🤗⏩🧑‍🦰 Prompt 🤔](<../../50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | Ask for the user's region/country.
+| 3 | [🤗⏩🧑‍🦰 Prompt 🤔](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | Ask for the user's region/country.
 | 4 | [🤵⏩🗄️ Bind Vault 🔗](<../../10 🤵⏩ Brokers/05 🤵⏩🗄️ Bind vault.md>) | Bind to the default [Vaults 🗄️](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>)
 ||

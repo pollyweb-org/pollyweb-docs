@@ -59,10 +59,10 @@ Forms:
 | # | Call | Description
 |-|-|-
 |1|[💼🐌🤵 `Query@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) | [Consumers 💼](<$ 💼🎭 Consumer role.md>) ask for [Schema Codes 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>)
-|2|[🤗⏩🧑‍🦰 Prompt 🤔](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) reject non-announced asks
+|2|[🤗⏩🧑‍🦰 Prompt 🤔](<../30 🤗 Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) reject non-announced asks
 |3|[💼🐌🤵 `Inform@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/65 💼🐌🤵 Inform.md>) | [Consumers 💼](<$ 💼🎭 Consumer role.md>) inform the upcoming form 
 |4|[👥🚀🕸 `Form@Graph`](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/01 👥🚀🕸 Form.md>) | [Brokers 🤵](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) get the form [Schema Codes 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>)
-|5|[🤗⏩🧑‍🦰 Prompt 🤔](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) inform the user on the steps
+|5|[🤗⏩🧑‍🦰 Prompt 🤔](<../30 🤗 Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) inform the user on the steps
 |6|[💼🐌🤵 `Query@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) | [Consumers 💼](<$ 💼🎭 Consumer role.md>) ask for [Schema Codes 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>)
 |7|[🤵🐌🗄️ `Disclose@Broker`](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/03 🤵🐌🗄️ Disclose.md>) | [Brokers 🤵](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) ask [Vaults 🗄️](<../80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) to disclose
 |

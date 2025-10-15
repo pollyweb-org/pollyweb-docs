@@ -2,7 +2,7 @@
 
 > Invests a [Host 🤗 domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) into a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>).
 
-> Part of the [🤗⏩🧑‍🦰 Invite @ Host](<../../5 ⏩ Flows/50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>) flow.
+> Part of the [🤗⏩🧑‍🦰 Invite @ Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>) flow.
 ><br/> • preceded by the [`Invite@Host`](<../15 🤵🅰️ Broker/60 🤵🅰️ Share/64 💼🐌🤵 Invite.md>) message
 
 <br/>
