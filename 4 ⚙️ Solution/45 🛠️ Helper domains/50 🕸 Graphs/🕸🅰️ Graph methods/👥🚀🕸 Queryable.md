@@ -58,7 +58,7 @@ Binds:
 |Top    | `Binds`   | list      | List of queryable [Binds 🔗](<../../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>)
 |Bind   | `Vault`   | string    | Queryable [Vault 🗄️ domain](<../../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) name
 |       | `Code`    | string    | Queryable [Schema Code 🧩](<../../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>)
-|       | `Paths`   | string[][]| The chain of [Trusts 👍](<../../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>)
+|       | `Paths`   | string[][]| The chain of [Trusts 👍](<../../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>)
 |
 
 <br/>
