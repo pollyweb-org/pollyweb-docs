@@ -7,32 +7,26 @@
 <br/>
 
 
+| Property | Type | Notes
+|-|-|-
+| [`Identity`](<14 🧩 Identity schema.md>)  | object | Domain identification.
+| [`Datasets`](<15 🧩 Offer schema.md>)  | array | List of services offered.
+| [`Trusts`](<17 🧩 Trust schema.md>)   | array | List of trusted domains and roles.
+| [`Delegates`](<13 🧩 Delegate schema.md>) | array | List of delegated codes.
+| [`Codes`](<11 🧩 Code schema.md>)     | array | List of defined codes.
+|
+
+<br/>
+
+> 🤝: [`.MANIFEST/CODE`](<11 🧩 Code schema.md>)
+
 ```yaml
-🤝: nlweb.org/MANIFEST/CODE
 
 Path: /MANIFEST
 Name: Domain Manifest
 
-Description: >
-  Public information about a domain, available for querying on a well-known 
-    web address - e.g. for (any-domain.com), the GET URL returning the 
-    manifest in YAML format should be https://nlweb.{domain}/manifest. 
-  - It is published to listeners by the Manifester component, 
-    and then shared with subscribed Graphs.
-  - It's in YAML (not JSON) for human-readability and to allow for comments.
-
-Resources:
-  NLWEB: 📜 https://quip.com/lcSaAX7AiEXL/-Domain
-
 Schema:
   Version: 1.0
-
-  Properties:
-    - Identity     # Domain identification.
-    - Datasets     # List of services offered.
-    - Trusts       # List of trusted domains and roles.
-    - Delegates    # List of delegated codes.
-    - Codes        # List of defined codes.
 
   Format:
     type: object
@@ -68,5 +62,3 @@ Schema:
           List of defined codes:
         items:
           $ref: nlweb.org/MANIFEST/CODE:1.0
-
-          
