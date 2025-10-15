@@ -24,7 +24,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header    | `From`        | string    | [Broker 🤵](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) from [`Help@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/07 🧑‍🦰🐌🤵 Help.md>)
-|           | `To`          | string    | [Host 🤗 domain](<$ 🤗🎭 Host role.md>) from:<br/>- [`Hello@Host`](<51 🤵🐌🤗 Hello@Host.md>) <br/>- [`Invited@Helper`](<../../../6 🅰️ APIs/49 🛠️🅰️ Helper/11 🤵🐌🛠️ Invited.md>) <br/>-  [`Disclose@Vault`](<../80 🗄️ Vaults/🗄️🅰️ Vault Methods/🤵🐌🗄️ Disclose.md>)
+|           | `To`          | string    | [Host 🤗 domain](<$ 🤗🎭 Host role.md>) from:<br/>- [`Hello@Host`](<51 🤵🐌🤗 Hello@Host.md>) <br/>- [`Invited@Helper`](<../../../6 🅰️ APIs/49 🛠️🅰️ Helper/11 🤵🐌🛠️ Invited.md>) <br/>-  [`Disclose@Vault`](<../80 🗄️ Vaults/🗄️🅰️ Vault methods/🤵🐌🗄️ Disclose.md>)
 |           | `Subject`     | string    | `Abandoned@Host`
 | Body      | `ChatID`      | uuid      | [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID from [`Hello@Host`](<51 🤵🐌🤗 Hello@Host.md>)
 |
