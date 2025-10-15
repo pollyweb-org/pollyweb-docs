@@ -32,10 +32,10 @@
 
     | [Domain](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | 🤗 [Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) | 😃 A beer? [Yes, No]         | > Yes
+    | 🤗 [Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 😃 A beer? [Yes, No]         | > Yes
     | 🤵 [Broker](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Share over 21? [Yes, No]     | > Yes
     | 🆔 [Identity](<$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.  | [📸 selfie](<21 🆔😶 Face scan.md>)
-    | 🤗 [Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) | ✅ A beer coming up!
+    | 🤗 [Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ✅ A beer coming up!
 
     ---
     <br/>

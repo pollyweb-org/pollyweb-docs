@@ -23,9 +23,9 @@
     | |Agent 🫥 | Example | Responsibilities 
     |-|-|-|-
     | 🛎️| [Concierge](<../25 🛎️ Concierges/$ 🛎️🫥 Concierge agent.md>) | TaskRabbit | Orchestrates tasks with 3rd parties (e.g., deliveries, repairs).
-    |🧚| [Curator](<../30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | ChatGPT | Filters options sent by [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>).
+    |🧚| [Curator](<../30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | ChatGPT | Filters options sent by [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>).
     |🧳| [Custodian](<../35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>) | FindMy | Manages the user's [Things 💠](<../../70 🌳 Ambient/71 💠 Things/$ 💠 Thing.md>), including [Userables 💍](<../../70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>) and [⌚ Tapbands](<../../70 🌳 Ambient/76 ⌚ Tapbands/$ ⌚💠 Tapband thing.md>).
-    |🔎| [Finder](<../40 🔎 Finders/$ 🔎🫥 Finder agent.md>) | Google | Searches for [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>), and  introduces them when they start a ../05 💬 Chats/01 💬 Chat.mds/01 💬 Chat.md>).
+    |🔎| [Finder](<../40 🔎 Finders/$ 🔎🫥 Finder agent.md>) | Google | Searches for [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>), and  introduces them when they start a ../05 💬 Chats/01 💬 Chat.mds/01 💬 Chat.md>).
     |🆔|[Identity](<../45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | IDOne | Confirms that the user is physically present behind the remote screen.
     |🌼| [Keybox](<../48 🌼 Keyboxes/$ 🌼🫥 Keybox agent.md>) | FindMy | Stores and manages the user's [Padlock 🔒](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>) keys.
     |📇| [Mingler](<../50 📇 Minglers/$ 📇🫥 Mingler agent.md>) | WhatsApp | Connects multiple users in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>), allowing them to exchange [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>).
@@ -56,7 +56,7 @@
 
         * One use case where this is important is when a user has two nationalities (e.g., French and Japanese), and each nation needs its own [Identity 🆔 agent](<../45 🆔 Identities/$ 🆔🫥 Identity agent.md>).
 
-        * When this happens, the user's [Broker 🤵 domain](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) will ask the user to select which of the two [Identity 🆔 agents](<../45 🆔 Identities/$ 🆔🫥 Identity agent.md>) should receive the [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) request.
+        * When this happens, the user's [Broker 🤵 domain](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) will ask the user to select which of the two [Identity 🆔 agents](<../45 🆔 Identities/$ 🆔🫥 Identity agent.md>) should receive the [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) request.
 
     ---
     <br/>

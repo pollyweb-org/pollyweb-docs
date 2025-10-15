@@ -11,7 +11,7 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
   
     * Each app depends on a [Notifier 📣 domain](<../20 🧑‍🦰 UI/02 📣 Notifiers/📣 Notifier domain.md>) for device-specific communications (e.g., WebSockets, MQTT).
     
-    * Each [Notifier 📣 domain](<../20 🧑‍🦰 UI/02 📣 Notifiers/📣 Notifier domain.md>) depends on a [Broker 🤵 domain](<../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) for [Chat 💬](<../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) orchestration with [Host 🤗 domains](<../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>). 
+    * Each [Notifier 📣 domain](<../20 🧑‍🦰 UI/02 📣 Notifiers/📣 Notifier domain.md>) depends on a [Broker 🤵 domain](<../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) for [Chat 💬](<../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) orchestration with [Host 🤗 domains](<../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>). 
 
 * Users store their data in [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>).
   
@@ -19,7 +19,7 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
     
     * [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) may allow users to edit their data through the user's [Folder 🗂️ editor](<../45 🛠️ Helper domains/45 🗂️ Folders/$ 🗂️ Folder editor.md>).
 
-* Users designate [Agents 🫥 domains](<../50 🫥 Agents/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) to handle specific well-defined roles in [Chats 💬](<../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with [Host 🤗 domains](<../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) (e.g., payments).
+* Users designate [Agents 🫥 domains](<../50 🫥 Agents/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) to handle specific well-defined roles in [Chats 💬](<../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with [Host 🤗 domains](<../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) (e.g., payments).
 
     * These [Agents 🫥](<../50 🫥 Agents/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) are [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) that the user told their [Broker 🤵 domain](<../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) to invoke by default when a role is required.
 
@@ -28,7 +28,7 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
 - Users use their Wallets or their wearables (e.g., [Userables 💍](<../70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>), [Tapbands ⌚](<../70 🌳 Ambient/76 ⌚ Tapbands/$ ⌚💠 Tapband thing.md>)) to interact with [Padlocks 🔒](<../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>), [Robots 🤖](<../70 🌳 Ambient/72 🤖 Robots/$ 🤖💠 Robot thing.md>), and other smart [Things 💠](<../70 🌳 Ambient/71 💠 Things/$ 💠 Thing.md>).
 
 - Organizations interact with an email-like inbox API behind a domain name, and can assume a multitude of roles in parallel - e.g.:
-    * session [Host 🤗](<../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>), 
+    * session [Host 🤗](<../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>), 
     * business [Seller 💵](<../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>),
     * data [Consumer 💼](<../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>), 
     * user-bound [Vault 🗄️](<../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>), 

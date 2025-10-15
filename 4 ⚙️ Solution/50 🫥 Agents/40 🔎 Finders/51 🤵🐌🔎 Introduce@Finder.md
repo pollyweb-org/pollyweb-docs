@@ -2,7 +2,7 @@
 # Introduce @ [Finder](<$ 🔎🫥 Finder agent.md>)
 
 * Ask for a [Finder 🔎 domain](<$ 🔎🫥 Finder agent.md>) 
-    * to introduce a [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) 
+    * to introduce a [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) 
     * to the user in a new [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>).
 * Used by the [🔎⏩🧑‍🦰 Introduce 🤗](<31 🔎⏩🧑‍🦰 Introduce 🤗 flow.md>) flow:
     * followed by [`Introduced@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/04 🔎🐌🤵 Introduced.md>)
@@ -28,5 +28,5 @@ Body:
 |        | `To`      | string | [Broker 🤵](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) from [`Converse@Notifier`](<../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/2 💬 Chats/1 🤵🐌📣 Converse.md>) |
 |        | `Subject` | string | `Introduced@Broker`
 | Body   | `ChatID`  | uuid   | [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) from [`Converse@Notifier`](<../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/2 💬 Chats/1 🤵🐌📣 Converse.md>)
-|       | `Host`| string | [Host 🤗](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) from [`Converse@Notifier`](<../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/2 💬 Chats/1 🤵🐌📣 Converse.md>)
+|       | `Host`| string | [Host 🤗](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) from [`Converse@Notifier`](<../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/2 💬 Chats/1 🤵🐌📣 Converse.md>)
 |

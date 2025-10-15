@@ -8,7 +8,7 @@
 
 [Broker 🤵 domains](<../../../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) 
 * forward   [Prompts 🤔](<../../../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) 
-* from [Host 🤗 domains](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) 
+* from [Host 🤗 domains](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) 
 * to [Notifier 📣 domains](<../../📣 Notifier domain.md>).
 
 
@@ -38,5 +38,5 @@ Body:
 |Body  |`WalletID` |uuid  | [Wallet 🧑‍🦰](<../../../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) ID from [`Converse@Notifier`](<1 🤵🐌📣 Converse.md>)
 |      |`ChatID`  |uuid  | [Chat 💬](<../../../12 💬 Chats/$ 💬 Chat.md>) ID from [`Prompt@Broker`](<../../../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/03 🤗🐌🤵 Prompt.md>)
 |      |`PromptID`|uuid  | [Prompt 🤔](<../../../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) ID from [`Prompt@Broker`](<../../../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/03 🤗🐌🤵 Prompt.md>)
-|      |`Sender`  |string| [Host 🤗](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) from [`Prompt@Broker`](<../../../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/03 🤗🐌🤵 Prompt.md>)
+|      |`Sender`  |string| [Host 🤗](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) from [`Prompt@Broker`](<../../../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/03 🤗🐌🤵 Prompt.md>)
 |

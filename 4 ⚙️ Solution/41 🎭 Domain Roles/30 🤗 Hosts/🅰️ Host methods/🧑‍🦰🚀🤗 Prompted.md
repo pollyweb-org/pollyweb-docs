@@ -27,7 +27,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header    | `From`        | string    | `Anonymous`
-|           | `To`          | string    | [Sender 🤗](<../$ 🤗🎭 Host role.md>) from [`Prompt@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
+|           | `To`          | string    | [Sender 🤗](<../🤗🎭 Host role.md>) from [`Prompt@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
 |           | `Subject`     | string    | `Prompted@Host`
 | Body      | `ChatID` | uuid | [Chat 💬](<../../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID from [`Prompt@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
 || `PromptID`    | uuid      | [Prompt 🤔](<../../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) ID from [`Prompt@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)

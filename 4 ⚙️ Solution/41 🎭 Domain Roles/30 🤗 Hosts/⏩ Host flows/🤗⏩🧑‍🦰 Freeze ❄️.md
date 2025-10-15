@@ -12,13 +12,13 @@
 
 | # | Call | Notes
 |-|-|-
-|1|[🤗⏩🧑‍🦰 Prompt 🐶](<🤗⏩🧑‍🦰 Prompt 🤔.md>) | The [Host 🤗](<../$ 🤗🎭 Host role.md>) sends a first dog 🐶 prompt
-|2|[🤗⏩🧑‍🦰 Prompt 🐱](<🤗⏩🧑‍🦰 Prompt 🤔.md>) | The [Host 🤗](<../$ 🤗🎭 Host role.md>) sends a second cat 🐱 prompt
+|1|[🤗⏩🧑‍🦰 Prompt 🐶](<🤗⏩🧑‍🦰 Prompt 🤔.md>) | The [Host 🤗](<../🤗🎭 Host role.md>) sends a first dog 🐶 prompt
+|2|[🤗⏩🧑‍🦰 Prompt 🐱](<🤗⏩🧑‍🦰 Prompt 🤔.md>) | The [Host 🤗](<../🤗🎭 Host role.md>) sends a second cat 🐱 prompt
 |3|[🧑‍🦰🐌🤗 `Reply@Host`](<../🅰️ Host methods/🧑‍🦰🐌🤗 Reply.md>) | The user can still reply late to dog 🐶
-|4|[🤗🐌🤵 `Freeze@Broker`](<../../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/07 🤗🐌🤵 Freeze.md>) | The [Host 🤗](<../$ 🤗🎭 Host role.md>) freezes the [Chat 💬](<../../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
-|5|[🤗⏩🧑‍🦰 Prompt 🐠](<🤗⏩🧑‍🦰 Prompt 🤔.md>) | The [Host 🤗](<../$ 🤗🎭 Host role.md>) sends a third fish  prompt 🐠
+|4|[🤗🐌🤵 `Freeze@Broker`](<../../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/07 🤗🐌🤵 Freeze.md>) | The [Host 🤗](<../🤗🎭 Host role.md>) freezes the [Chat 💬](<../../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
+|5|[🤗⏩🧑‍🦰 Prompt 🐠](<🤗⏩🧑‍🦰 Prompt 🤔.md>) | The [Host 🤗](<../🤗🎭 Host role.md>) sends a third fish  prompt 🐠
 |6|[🧑‍🦰🐌🤗 `Reply@Host`](<../🅰️ Host methods/🧑‍🦰🐌🤗 Reply.md>) | The user can still reply to fish 🐠
 |7| - | [Wallets 🧑‍🦰](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) block pre-freeze reply to cat 🐱
 |8|[🧑‍🦰🐌🤗 `Reply@Host`](<../🅰️ Host methods/🧑‍🦰🐌🤗 Reply.md>) | Non-compliant [Wallets 🧑‍🦰](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) may try to reply
-|9| - | [Hosts 🤗](<../$ 🤗🎭 Host role.md>) ignore rogue pre-freeze replies
+|9| - | [Hosts 🤗](<../🤗🎭 Host role.md>) ignore rogue pre-freeze replies
 |
