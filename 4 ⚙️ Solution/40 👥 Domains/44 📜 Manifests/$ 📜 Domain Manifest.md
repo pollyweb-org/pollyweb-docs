@@ -29,7 +29,7 @@
     |Step|Description
     |-|-
     |A| When a [domain 👥](<../41 📨 Messages/00 👥 Domain.md>) sends a request to another
-    |B| the recipient queries a [Graph 🕸 helper domain](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) for information about the sender to assess its [trustworthiness 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>)
+    |B| the recipient queries a [Graph 🕸 helper domain](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) for information about the sender to assess its [trustworthiness 👍](<../43 👍 Trusts/$ 👍 Domain Trust.md>)
     |C| and only then responds successfully.
     
 
@@ -43,7 +43,7 @@
     |Section|Purpose | Schemas
     |-|-|-
     | 🤗 [Host About](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | Domain identification (mandatory). | [`./ABOUT` 🧩](<20 🧩 ABOUT code.md>) <br/>[`./TRANSLATION` 🧩](<21 🧩 TRANSLATION code.md>)
-    | 👍 [Domain Trusts](<../43 👍 Trusts/01 👍 Domain Trust.md>) | Trusted domains, Codes, and roles. | [`./TRUST` 🧩](<50 🧩 TRUST code.md>)
+    | 👍 [Domain Trusts](<../43 👍 Trusts/$ 👍 Domain Trust.md>) | Trusted domains, Codes, and roles. | [`./TRUST` 🧩](<50 🧩 TRUST code.md>)
     |  🧩 [Schema Codes](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) | Defined by the domain. | [`./CODE` 🧩](<40 🧩 CODE code.md>) <br/>[`./CODE/SCHEMA` 🧩](<41 🧩 SCHEMA code.md>) <br/>[`./TRANSLATION` 🧩](<21 🧩 TRANSLATION code.md>)| Schema validation of a Code
     |  🧩 [Delegated Codes](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) | Codes delegated to other domains. | [`./DELEGATE` 🧩](<30 🧩 DELEGATE code.md>)
     | 🪢 [Integrations](<../../20 🧑‍🦰 UI/12 💬 Chats/06 🪢🎭 Integrator role.md>) |Synchronous datasets, <br/>asynchronous supplies, <br/>and streaming endpoints. | [`./OFFER` 🧩](<60 🧩 OFFER code.md>)
