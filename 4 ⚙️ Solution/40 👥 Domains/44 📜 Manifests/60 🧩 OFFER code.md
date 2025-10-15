@@ -1,4 +1,4 @@
-# [🧩](<../../25 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) [`.MANIFEST`](<10 🧩 MANIFEST code.md>) `/OFFER`
+# [🧩](<../../25 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) [`.MANIFEST`](<10 🧩 MANIFEST code.md>) `/OFFER`
 
 > Part of [`.MANIFEST` 🧩](<10 🧩 MANIFEST code.md>)
 
@@ -11,7 +11,7 @@
 
 | Property | Type | Notes
 |-|-|-
-| `Dataset` | string | Reference to a [Schema Code 🧩](<../../25 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) that defines the dataset being offered
+| `Dataset` | string | Reference to a [Schema Code 🧩](<../../25 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) that defines the dataset being offered
 | `Requires` | map | List of properties required as arguments to query the dataset 
 |
 

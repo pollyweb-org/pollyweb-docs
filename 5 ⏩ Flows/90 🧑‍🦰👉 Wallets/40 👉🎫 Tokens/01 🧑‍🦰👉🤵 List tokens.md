@@ -3,7 +3,7 @@
 > Implements a [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
 
 
-* List the user's [Tokens 🎫](<../../../4 ⚙️ Solution/25 Data/30 🎫 Tokens/$ 🎫 Token.md>).
+* List the user's [Tokens 🎫](<../../../4 ⚙️ Solution/25 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>).
 
 
 <br/>
@@ -14,7 +14,7 @@
 
 | # | Call | Notes |
 |-|-|-
-| 1 | [🧑‍🦰🚀🤵 `Tokens@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/50 🤵🅰️ Tokens 🎫/54 🧑‍🦰🚀🤵 Tokens.md>) | [Wallets 🧑‍🦰](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) get [Tokens 🎫](<../../../4 ⚙️ Solution/25 Data/30 🎫 Tokens/$ 🎫 Token.md>) [Brokers 🤵](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>)
+| 1 | [🧑‍🦰🚀🤵 `Tokens@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/50 🤵🅰️ Tokens 🎫/54 🧑‍🦰🚀🤵 Tokens.md>) | [Wallets 🧑‍🦰](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) get [Tokens 🎫](<../../../4 ⚙️ Solution/25 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) [Brokers 🤵](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>)
 ||
 
 <br/>

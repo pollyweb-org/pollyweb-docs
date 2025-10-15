@@ -13,6 +13,6 @@ Upon arrival, users with a booking tap/scan the restaurant's NFC/QR:
 | - | - | - |
 | | | 🔆 [tap](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) door
 | 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Restaurant (4.3 ⭐)  [+]
-| 🤵 [Broker](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | ⓘ Booking [Token 🎫](<../../../4 ⚙️ Solution/25 Data/30 🎫 Tokens/$ 🎫 Token.md>) shared [+]
+| 🤵 [Broker](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | ⓘ Booking [Token 🎫](<../../../4 ⚙️ Solution/25 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) shared [+]
 | 🍽️ Restaurant | ✅ Hi, Alice! [Change] <br/>- We have your table for 2. <br/>- A waitress will escort you. 
 ||

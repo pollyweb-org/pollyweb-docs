@@ -11,7 +11,7 @@
  
     |#|Step
     |-|-
-    |1| [Bind 🔗](<../../4 ⚙️ Solution/25 Data/20 🔗 Binds/$ 🔗 Bind.md>) to a [Hoster ☁️ domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/55 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>)
+    |1| [Bind 🔗](<../../4 ⚙️ Solution/25 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) to a [Hoster ☁️ domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/55 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>)
     |2| [Clone](<../../5 ⏩ Flows/77 🔃⏩ Syncer/10 🔃⏩🗃️ Clone.md>) the files to a local folder
     |3| Spin up an HTTP backend endpoint
     |4| Edit the files and [sync](<../../5 ⏩ Flows/77 🔃⏩ Syncer/20 🔃⏩🗃️ Sync.md>) the changes

@@ -18,7 +18,7 @@
 1. **How does a Padlock decide when to open a lock?**
 
     Users' [🔑 KeyHolders](<02 🔑💠 Keyholder device.md>) first scan the Padlock, receiving an NFC response with Padlock's [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>), which contains:
-    - a fixed Padlock [Schema Code 🧩](<../../25 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) identifier 
+    - a fixed Padlock [Schema Code 🧩](<../../25 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) identifier 
     - the domain of the Padlock's [🔐 KeyMaker](<05  🔐🏭 Keymaker supplier.md>) (e.g., `any-keymaker.com`) 
     - the resource key of the PadLock in the KeyMaker (e.g.,`padlock-12345678`)
     
@@ -52,7 +52,7 @@
 
     No.
     - A typical scenario would be a firefighter needing access to any fire fighting material, regardless of what Padlock would be locking it.
-    - These scenarios require a [Token 🎫](<../../25 Data/30 🎫 Tokens/$ 🎫 Token.md>) and are not supported because Padlocks have no access to the internet, so they cannot verify Tokens.
+    - These scenarios require a [Token 🎫](<../../25 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) and are not supported because Padlocks have no access to the internet, so they cannot verify Tokens.
     - Padlocks can only be unlock by other individuals when the owner explicitly shares the key to the Padlock via their [🌼 Keybox](<04 🌼🗄️ Keybox vault.md>).
     - Alternatively, organizations should leverage [🎬 Relays](<../../60 🧰 Edge/65 🎬 Relayers/04 🎬🔌 Relay device.md>) to achieve dynamic access control via Tokens.
 

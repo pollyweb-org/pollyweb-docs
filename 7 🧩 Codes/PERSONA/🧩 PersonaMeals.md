@@ -1,5 +1,5 @@
 
-# [🧩](<../../4 ⚙️ Solution/25 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) [Schema Code](<../../4 ⚙️ Solution/25 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>): PersonaMeals
+# [🧩](<../../4 ⚙️ Solution/25 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) [Schema Code](<../../4 ⚙️ Solution/25 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>): PersonaMeals
 
 <br/>
 

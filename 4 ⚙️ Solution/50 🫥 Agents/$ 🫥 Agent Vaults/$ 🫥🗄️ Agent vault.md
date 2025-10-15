@@ -28,7 +28,7 @@
     |🔎| [Finder](<../40 🔎 Finders/02 🔎🫥 Finder vault.md>) | Google | Searches for [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>), and  introduces them when they start a ../05 💬 Chats/01 💬 Chat.mds/01 💬 Chat.md>).
     |🆔|[Identity](<../45 🆔 Identities/01 🆔🫥 Identity agent.md>) | IDOne | Confirms that the user is physically present behind the remote screen.
     |🌼| [Keybox](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/04 🌼🗄️ Keybox vault.md>) | FindMy | Stores and manages the user's [Padlock 🔒](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/01 🔒 Padlock device.md>) keys.
-    |📇| [Mingler](<../50 📇 Minglers/01 📇🫥 Mingler agent.md>) | WhatsApp | Connects multiple users in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>), allowing them to exchange [Tokens 🎫](<../../25 Data/30 🎫 Tokens/$ 🎫 Token.md>).
+    |📇| [Mingler](<../50 📇 Minglers/01 📇🫥 Mingler agent.md>) | WhatsApp | Connects multiple users in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>), allowing them to exchange [Tokens 🎫](<../../25 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>).
     |🧭| [Navigator](<../55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | G.Maps | Helps users going from point A to B.
     |💳| [Payer](<../60 💳 Payers/03 💳🎭 Payer role.md>) | Paypal | Performs payments to [Collector 🏦 domains](<../../45 🛠️ Helper domains/30 🏦 Collectors/$ 🏦🛠️ Collector helper.md>).
     |🧢| [Persona](<../70 🧢 Personas/$ 🧢🫥 Persona agent.md>) | Facebook | Stores and shares user preferences and personally identifiable information (PII).
@@ -50,9 +50,9 @@
 
         * [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) typically assign one (and only one) default user Agents 🫥 for each role, and; 
   
-        * [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) allow users to replace each default Agent 🫥 to any other of the user's [Vault 🗄️ domains](<../../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) that are [bound 🔗](<../../25 Data/20 🔗 Binds/$ 🔗 Bind.md>) by the role's [Schema Code 🧩](<../../25 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>).
+        * [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) allow users to replace each default Agent 🫥 to any other of the user's [Vault 🗄️ domains](<../../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) that are [bound 🔗](<../../25 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) by the role's [Schema Code 🧩](<../../25 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>).
 
-    * And no, Agents 🫥 are not singletons from the perspective [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) allow roles not to have a default Agent 🫥 when there are more than one [Vault 🗄️ domains](<../../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) that support the role's [Schema Code 🧩](<../../25 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>).
+    * And no, Agents 🫥 are not singletons from the perspective [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) allow roles not to have a default Agent 🫥 when there are more than one [Vault 🗄️ domains](<../../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) that support the role's [Schema Code 🧩](<../../25 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>).
 
         * One use case where this is important is when a user has two nationalities (e.g., French and Japanese), and each nation needs its own [Identity 🆔 agent](<../45 🆔 Identities/01 🆔🫥 Identity agent.md>).
 

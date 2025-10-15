@@ -15,7 +15,7 @@ The chat below is for passive NFC tags only.
 | - | - | - |
 | | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>)
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Operator (4.4 ⭐) [+]
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | ⓘ Ticket [token 🎟️](<../../../../4 ⚙️ Solution/25 Data/30 🎫 Tokens/$ 🎫 Token.md>) shared [+]
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | ⓘ Ticket [token 🎟️](<../../../../4 ⚙️ Solution/25 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) shared [+]
 | 🚎 Operator | ℹ️ Bus 198 [+]
 | 🚎 Operator | ✅ Valid, last trip used. <br/> - [ Top up trips ]
 | ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5
