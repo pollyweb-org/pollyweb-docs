@@ -1,9 +1,10 @@
 
 # 🧩 [Schema Code](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): ManifestTrust
 
-* Referenced by: 
-  * [domain Manifest 📜](<01 📜 Domain Manifest.md>) 
-  * [domain Trust 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>)
+> Part of [`.MANIFEST` 🧩](<10 🧩 Manifest schema.md>)
+
+> Implements [domain Manifest 📜](<01 📜 Domain Manifest.md>) 
+  
 
 <br/>
 

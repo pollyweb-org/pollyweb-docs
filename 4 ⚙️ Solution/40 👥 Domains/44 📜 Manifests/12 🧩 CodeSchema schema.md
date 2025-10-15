@@ -1,7 +1,10 @@
 
 # 🧩 [Schema Code](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): ManifestCodeSchema
 
-> Referenced by [domain Manifest 📜](<01 📜 Domain Manifest.md>)
+> Part of [`.MANIFEST/CODE` 🧩](<11 🧩 Code schema.md>)
+
+> Implements [domain Manifest 📜](<01 📜 Domain Manifest.md>) 
+
 
 <br/> 
 

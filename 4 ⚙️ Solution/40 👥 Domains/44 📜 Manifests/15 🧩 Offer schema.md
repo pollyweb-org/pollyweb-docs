@@ -1,9 +1,24 @@
 
 # 🧩 [Schema Code](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): ManifestOffer
 
- > Referenced by [domain Manifest 📜](<01 📜 Domain Manifest.md>)
+> Part of [`.MANIFEST` 🧩](<10 🧩 Manifest schema.md>)
+
+> Implements [domain Manifest 📜](<01 📜 Domain Manifest.md>) 
+
 
 <br/>
+
+## Properties
+
+| Property | Type | Notes
+|-|-|-
+| `Dataset` | string | Reference to a [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) that defines the dataset being offered
+| `Requires` | map | List of properties required as arguments to query the dataset 
+|
+
+<br/>
+
+## Definition
 
 > 🤝: [`.MANIFEST/CODE`](<11 🧩 Code schema.md>)
 
@@ -12,9 +27,6 @@ Path: /MANIFEST/OFFER
 Name: Domain service offer
 
 Schema: 
-  Properties: 
-    - Dataset # reference to a code schema for list items to return
-    - Requires # List of properties required as arguments
 
   Example: 
     Dataset: Code@standards.any-igo.org/639-1
@@ -29,11 +41,9 @@ Schema:
       Dataset:
         $ref: Schema@nlweb.org/TYPES
         example: nlweb.org/LOCALE/COUNTRY:1.0
-        description: schema of the dataset.
-
+ 
       Requires:
         type: object
-        description: Arguments for querying the dataset.
         additionalProperties:
           $ref: Schema@nlweb.org/TYPES
-          description: The schema of the argument.
+ 
