@@ -80,7 +80,7 @@
     To avoid harassment frauds, before issuing the emergency alarm, 
     * owners may request their [Custodian 🧳 agent](<../../50 🫥 Agents/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>) 
     * to request guests to be authenticated 
-    * by a [trusted 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) [Identity 🆔 domain](<../../50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>).
+    * by a [trusted 👍](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) [Identity 🆔 domain](<../../50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>).
 
     ---
     <br/>

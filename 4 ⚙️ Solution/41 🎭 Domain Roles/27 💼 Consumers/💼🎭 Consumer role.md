@@ -112,7 +112,7 @@
 1. **How are Consumers protected when Graph are compromised by attackers?**
 
     [Firewall 🔥 domains](<../../45 🛠️ Helper domains/40 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) monitor the behavior of any [Graph 🕸 domain](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>) and match domain information with other [Graphs 🕸](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>). 
-    * If necessary, [Firewall 🔥 domains](<../../45 🛠️ Helper domains/40 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) immediately revoke a Graph's [trust 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>).
+    * If necessary, [Firewall 🔥 domains](<../../45 🛠️ Helper domains/40 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) immediately revoke a Graph's [trust 👍](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>).
 
     ---
     <br/>
@@ -133,7 +133,7 @@
     - Certain scenarios require the [Consumer 💼 domain](<💼🎭 Consumer role.md>) to verify if the person holding the [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) is the person to whom the [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) was issue to - e.g.:
         - at an airport border control, automatic gates need to match the face of the passport holder with the biometric signature contained in the electronic passport. 
     
-    - This requires an online request to an [Identity 🆔 domain](<../../50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) that is [bound 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) to the user and [trusted 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) by the [Consumer 💼 domain](<💼🎭 Consumer role.md>), allowing the token to be matched to the holder without disclosing the holder's identity to the [Consumer 💼 domain](<💼🎭 Consumer role.md>):
+    - This requires an online request to an [Identity 🆔 domain](<../../50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) that is [bound 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) to the user and [trusted 👍](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) by the [Consumer 💼 domain](<💼🎭 Consumer role.md>), allowing the token to be matched to the holder without disclosing the holder's identity to the [Consumer 💼 domain](<💼🎭 Consumer role.md>):
         - e.g., while entering a casino, the casino can validate that the 21-years-old token is valid, and that the holder is the owner of the token, without knowing who the holder is. 
     
     - The [Identity 🆔 domain](<../../50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) can perform the authentication:
@@ -189,7 +189,7 @@
 
     * Because the [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>) are public and prone to automatic evaluation by domains like [Firewall 🔥 domains](<../../45 🛠️ Helper domains/40 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) and [Reviewer ⭐ domains](<../../50 🫥 Agents/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>), [Consumer 💼 domains](<💼🎭 Consumer role.md>) are exposed to public scrutiny regarding the data  their are collecting, namely: what, why, how, and how much.
 
-    * [Authority 🏛️ domains](<../../45 🛠️ Helper domains/14 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>) monitor the [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>) for dataset requests that don't match the domain's business or exception requests, and if necessary may revoke the [trust 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) on the [Consumer 💼 domain](<💼🎭 Consumer role.md>).
+    * [Authority 🏛️ domains](<../../45 🛠️ Helper domains/14 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>) monitor the [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>) for dataset requests that don't match the domain's business or exception requests, and if necessary may revoke the [trust 👍](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) on the [Consumer 💼 domain](<💼🎭 Consumer role.md>).
 
     * Consider the following example of a [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>).
     

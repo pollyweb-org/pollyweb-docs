@@ -118,7 +118,7 @@
         - at airports, this can be the border-control gate for passport verification;
         - at an embassy or a bank, this can be a fixed kiosk;
         - at a traffic checkpoint, this can be a police agent holding an Android device;
-    - 2/ the [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) verifies the [Trust 👍 relationships](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>)  with the [Token's Issuer 🎴 domain](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) and [Identity 🆔 domain](<$ 🆔🫥 Identity agent.md>);
+    - 2/ the [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) verifies the [Trust 👍 relationships](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>)  with the [Token's Issuer 🎴 domain](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) and [Identity 🆔 domain](<$ 🆔🫥 Identity agent.md>);
     - 3/ the [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) verifies if the [Token's 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) signature matches the [DKIM 📨](<../../40 👥 Domains/41 📨 Messages/📨 Message.md>)  of the [Issuer 🎴 domain](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>);
     - 4/ the [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) collects the user's biometrics;
         - for general services, this can be a scanner taking the user's palm biometrics;
