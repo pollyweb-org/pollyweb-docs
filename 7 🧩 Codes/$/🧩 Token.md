@@ -3,9 +3,13 @@
 
 > Schema of a [Token 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
 
-```yaml
-🤝: nlweb.org/MANIFEST/CODE
+<br/>
 
+## Definition
+
+> [🤝:](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) [`.MANIFEST/CODE`](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/11 🧩 Code schema.md>)
+
+```yaml
 Path: /TOKEN
 Name: Token
 Description: >
