@@ -33,5 +33,5 @@ Body:
 |      |`Name`     |string| Name from [`Translate@Graph`](<../../../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>)
 |      |`SmallIcon`|string   | Small icon from [`Identity@Graph`](<../../../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Identity.md>)
 |      |`BigIcon`  |string   | Big icon from [`Identity@Graph`](<../../../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Identity.md>)
-|      |`PrivateKey`|string  | For [`Prompted@`](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🅰️ Host methods/54 🧑‍🦰🚀🤗 Prompted@Host.md>) [`Reply@`](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🅰️ Host methods/55 🧑‍🦰🐌🤗 Reply@Host.md>) [`Download@`](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🅰️ Host methods/56 🧑‍🦰🚀🤗 Download@Host.md>)
+|      |`PrivateKey`|string  | For [`Prompted@`](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🅰️ Host methods/🧑‍🦰🚀🤗 Prompted.md>) [`Reply@`](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🅰️ Host methods/🧑‍🦰🐌🤗 Reply.md>) [`Download@`](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🅰️ Host methods/🧑‍🦰🚀🤗 Download.md>)
 |
