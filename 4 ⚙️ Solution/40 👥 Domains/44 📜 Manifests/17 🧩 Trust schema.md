@@ -22,9 +22,8 @@
 | `Action`         | enum | Giving or removing [Trust 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>) <br/>- `GRANT` `REVOKE` `INHERIT` <br/> - defaults to `GRANT` | `GRANT`
 |
 
-<br/>
 
-## `Role` property
+### `Role` property
 
   || Value | Notes
   |-|-|-
@@ -33,9 +32,8 @@
   || `*` | Default, includes all options above.
   |
 
-<br/>
 
-## `Action` property
+### `Action` property
 
 ||Value|Notes
 |-|-|-
