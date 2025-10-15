@@ -1,7 +1,7 @@
 ⭐ Reviewer vault domains
 ===
 
-![](<00 📎 Assets/🔎 Reviewer.png>)
+![](<. 📎 Assets/🔎 Reviewer.png>)
 
 1. **What is a Reviewer domain in NLWeb?**
 

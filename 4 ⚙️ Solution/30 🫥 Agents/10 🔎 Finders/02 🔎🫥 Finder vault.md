@@ -17,7 +17,7 @@
 
 1. **How do Finders work?**
    
-    ![](<00 📎 Assets/🔎 Finder.png>)
+    ![](<. 📎 Assets/🔎 Finder.png>)
 
     ---
     <br/>

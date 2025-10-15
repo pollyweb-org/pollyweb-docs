@@ -69,7 +69,7 @@ TODO: Create the API methods
 
 1. **How does it work?**
 
-    ![](<00 📎 Assets/🆔 Signature.png>)
+    ![](<. 📎 Assets/🆔 Signature.png>)
 
     The flow of a user signing a PDF file is as follows.
 
@@ -89,7 +89,7 @@ TODO: Create the API methods
     
 1. **How do users sign files?**
 
-    ![](<00 📎 Assets/🆔 Signature Users.png>)
+    ![](<. 📎 Assets/🆔 Signature Users.png>)
 
     Users do not sign files directly - instead, they ask their Identity domains to sign the files.  
     

@@ -7,7 +7,7 @@
 - https://trustedcheck-in.truststamp.ai/
 
 
-![](<../38 🕓 User Timeline/00 📎 Assets/🕓 Vitalogist.png>)
+![](<../38 🕓 User Timeline/. 📎 Assets/🕓 Vitalogist.png>)
 
 1. **What is a Vitalogist?**
 
