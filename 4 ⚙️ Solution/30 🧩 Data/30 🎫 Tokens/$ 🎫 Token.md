@@ -45,8 +45,8 @@
     | 4| `Userable`| When the NFC of the [Userable 💍 thing](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) is [tapped 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) on the [scanner ✨ device](<../../60 🧰 Edge/66 ✨ Scanners/06 ✨🔌 Scanner device.md>) of a [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>), the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) shares the [Tokens 🎫](<$ 🎫 Token.md>).
     |5| `Printed`| From the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>), users can print a [Token 🎫](<$ 🎫 Token.md>).
     |6| `Printed` | The user can then present the printed [Token 🎫](<$ 🎫 Token.md>) to the [scanner ✨ device](<../../60 🧰 Edge/66 ✨ Scanners/06 ✨🔌 Scanner device.md>) of a [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>).
-    |7| `Identity` | If the [Token 🎫](<$ 🎫 Token.md>) contains the [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) of an [Identity 🆔 domain](<../../50 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>), then it means that the [Token 🎫](<$ 🎫 Token.md>) was issued to a specific person only.
-    |8| `Identity`| The [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) can then ask the [Token's Identity 🆔 domain](<../../50 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) to verify if it is really that person holding the presented [Token 🎫](<$ 🎫 Token.md>) or not.
+    |7| `Identity` | If the [Token 🎫](<$ 🎫 Token.md>) contains the [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) of an [Identity 🆔 domain](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>), then it means that the [Token 🎫](<$ 🎫 Token.md>) was issued to a specific person only.
+    |8| `Identity`| The [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) can then ask the [Token's Identity 🆔 domain](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) to verify if it is really that person holding the presented [Token 🎫](<$ 🎫 Token.md>) or not.
 
     ---
     <br/>
@@ -82,7 +82,7 @@
 
     Yes, [Tokens 🎫](<$ 🎫 Token.md>) can be identity-bound;
     - i.e., they can allow [Consumer 💼 domains](<../../50 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>) to confirm that the holder of the Token is effectively the human for whom the [Token 🎫](<$ 🎫 Token.md>)  was issue to. 
-    - [Identity-bound 🆔 tokens](<../../50 🫥 Agents/45 🆔 Identities/14 🆔🎫 Verify Tokens.md>) reference a trusted [Identity 🆔 domain](<../../50 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) that is able to authenticate the user - e.g., with a [Face scan 😶](<../../50 🫥 Agents/45 🆔 Identities/21 🆔😶 Face scan.md>).
+    - [Identity-bound 🆔 tokens](<../../50 🫥 Agents/45 🆔 Identities/14 🆔🎫 Verify Tokens.md>) reference a trusted [Identity 🆔 domain](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) that is able to authenticate the user - e.g., with a [Face scan 😶](<../../50 🫥 Agents/45 🆔 Identities/21 🆔😶 Face scan.md>).
 
 
     The following [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) excerpt from the [Casino Entry 🤝 use case](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/10 🎰 Casinos/11 🚪 Enter anonymously.md>) illustrates the usage of an [Identity-bound 🆔 token](<../../50 🫥 Agents/45 🆔 Identities/14 🆔🎫 Verify Tokens.md>).
@@ -93,8 +93,8 @@
     | | | 🔆 [tap](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>)
     | 🔎 [Finder](<../../50 🫥 Agents/40 🔎 Finders/$ 🔎🫥 Finder agent.md>) | ⓘ Any Casino (4.4 ⭐) [+]
     | 🎰 Casino   | ℹ️ Request for minimum age. [+]
-    | 🆔 [Identity](<../../50 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Share over 21? [Yes, No]      | > Yes
-    | 🆔 [Identity](<../../50 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../50 🫥 Agents/45 🆔 Identities/21 🆔😶 Face scan.md>)
+    | 🆔 [Identity](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Share over 21? [Yes, No]      | > Yes
+    | 🆔 [Identity](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../50 🫥 Agents/45 🆔 Identities/21 🆔😶 Face scan.md>)
     | 🎰 Casino   | ✅ Welcome, please enter!
     
 
@@ -231,8 +231,8 @@
 
     |Property| Type | Details
     |-|-|-
-    |`Identity` | string |The [Identity 🆔 domain](<../../50 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) 
-    | `IdentityKey` | string | The resource key in the [Identity 🆔 domain](<../../50 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>)
+    |`Identity` | string |The [Identity 🆔 domain](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) 
+    | `IdentityKey` | string | The resource key in the [Identity 🆔 domain](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>)
 
 
     ---

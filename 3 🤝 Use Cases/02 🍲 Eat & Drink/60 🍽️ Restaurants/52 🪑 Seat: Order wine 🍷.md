@@ -18,8 +18,8 @@ How to order wine to the table at a restaurant?
 | 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Anything else? [No] | > No
 | 🍽️ Restaurant | ℹ️ Order ($3): [Change] <br/> - 1 red wine glass 🍷 ($3)
 | 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agents/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | 🫥 Confirm? [Yes, No] <br/> - you came by car. | > Yes
-| 🆔 [Identity](<../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Share over 21? [Yes, No]     | > Yes
-| 🆔 [Identity](<../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/21 🆔😶 Face scan.md>)
+| 🆔 [Identity](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Share over 21? [Yes, No]     | > Yes
+| 🆔 [Identity](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/21 🆔😶 Face scan.md>)
 | 🍽️ Restaurant | ✅ Order submitted [+]
 | 🍽️ Restaurant | ⏳ Preparing your order... [+]
 |...
