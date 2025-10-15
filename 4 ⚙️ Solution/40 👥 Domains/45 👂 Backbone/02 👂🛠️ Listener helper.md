@@ -18,7 +18,7 @@
 
     |#|Step
     |-|-
-    |1| [Domains 👥](<../41 📨 Msgs/00 👥 Domain.md>) publish their [Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>) updates to the DNS endpoint of the global Listeners 👂 cluster. As a fallback, the same updates may be sent to an individual [Listener 👂 domain](<02 👂🛠️ Listener helper.md>).
+    |1| [Domains 👥](<../41 📨 Messages/00 👥 Domain.md>) publish their [Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>) updates to the DNS endpoint of the global Listeners 👂 cluster. As a fallback, the same updates may be sent to an individual [Listener 👂 domain](<02 👂🛠️ Listener helper.md>).
     |2| The cluster DNS routes the update messages to the best [Listener 👂 domain](<02 👂🛠️ Listener helper.md>) based on latency.
     |3| Listeners 👂 replicate the update messages amongst all [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) of the cluster.
     |4| Each [Listener 👂 domain](<02 👂🛠️ Listener helper.md>) performs a fan-out propagation of update events to all [Graph 🕸 helper domains](<03 🕸🛠️ Graph helper.md>) that [subscribed 🔔](<../42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) to the Listener's 👂 [domain-event Stream 🌬️](<../42 🌬️ Streams/02 🌬️🎭 Streamer role.md>).
@@ -60,7 +60,7 @@
 
 1. **What is contained in a Manifest-changed event?**
 
-    An event from a [domain 👥](<../41 📨 Msgs/00 👥 Domain.md>) about a [Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>) change comes inside an [envelope 📨](<../41 📨 Msgs/01 📨 Domain Message.md>) containing the following properties.
+    An event from a [domain 👥](<../41 📨 Messages/00 👥 Domain.md>) about a [Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>) change comes inside an [envelope 📨](<../41 📨 Messages/01 📨 Domain Message.md>) containing the following properties.
 
     |Property | Description
     |-|-
@@ -116,7 +116,7 @@
 1. **How can domains know that their updates were rejected?**
 
     [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) raise alerts when rejecting events. 
-    * Interested [domains 👥](<../41 📨 Msgs/00 👥 Domain.md>) should [subscribe 🔔](<../42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) to that [Stream 🌬️](<../42 🌬️ Streams/02 🌬️🎭 Streamer role.md>), filtering the domains they're interested in receiving alerts about.
+    * Interested [domains 👥](<../41 📨 Messages/00 👥 Domain.md>) should [subscribe 🔔](<../42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) to that [Stream 🌬️](<../42 🌬️ Streams/02 🌬️🎭 Streamer role.md>), filtering the domains they're interested in receiving alerts about.
     * For privacy reasons, some alerts are only be pushed to the [Subscriber 🔔 domain](<../42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) that is referenced in the alert.
 
     ---
@@ -126,7 +126,7 @@
 
     Not while reading events. 
     * [Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>) events contain the content changed. 
-    * However, [domains 👥](<../41 📨 Msgs/00 👥 Domain.md>) may explicitly request [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) to reset the domain's [Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>) based on a content located in a given URL, as long as the content doesn't reach a maximum size for a [Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>).
+    * However, [domains 👥](<../41 📨 Messages/00 👥 Domain.md>) may explicitly request [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) to reset the domain's [Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>) based on a content located in a given URL, as long as the content doesn't reach a maximum size for a [Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>).
 
     ---
     <br/>
@@ -220,7 +220,7 @@
 
 1. **How do Listeners avoid infinite loop cycles?**
 
-    [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) propagate the correlation ID sent by the original [domain 👥](<../41 📨 Msgs/00 👥 Domain.md>), discarding any repeated update notifications.
+    [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) propagate the correlation ID sent by the original [domain 👥](<../41 📨 Messages/00 👥 Domain.md>), discarding any repeated update notifications.
 
     ---
     <br/>

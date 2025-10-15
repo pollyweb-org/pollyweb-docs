@@ -5,7 +5,7 @@
 
 1. **What is a Notifier domain in NLWeb?**
 
-    A [Notifier 📣](<02 📣 Notifier domain.md>) is any backend-for-frontend (BFF) [domain 👥](<../../40 👥 Domains/41 📨 Msgs/00 👥 Domain.md>) that acts as a proxy for a [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>). 
+    A [Notifier 📣](<02 📣 Notifier domain.md>) is any backend-for-frontend (BFF) [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) that acts as a proxy for a [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>). 
     
     * This allows [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) to communicate in standard HTTPS with the [Notifier 📣 domain](<02 📣 Notifier domain.md>), while the [Notifier 📣 domain](<02 📣 Notifier domain.md>) communicates via mobile-friendly real-time protocols with the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) (e.g., MQTT, web sockets, mobile notifications). 
     
@@ -32,7 +32,7 @@
 
     Not for NLWeb. 
     
-    * In NLWeb, domain orchestration is done by [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>), and storage of user data is done by [Vault 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) domains, while a [Notifier 📣 domain's](<02 📣 Notifier domain.md>) only responsibility is to proxy [domain messages 📨](<../../40 👥 Domains/41 📨 Msgs/01 📨 Domain Message.md>) to and from the [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>). 
+    * In NLWeb, domain orchestration is done by [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>), and storage of user data is done by [Vault 🗄️](<../24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) domains, while a [Notifier 📣 domain's](<02 📣 Notifier domain.md>) only responsibility is to proxy [domain messages 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) to and from the [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>). 
     
     * This is by design, allowing resilient [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) implementations (e.g., AWS, GCP, Azure) to assume the complexity of the undifferentiated NLWeb protocol, while allowing app start-ups to focus on user experience differentiation. 
     

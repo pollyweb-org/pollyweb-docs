@@ -8,7 +8,7 @@
 
     The `📥 Inbound.yaml` file 
     * tells the [Hoster ☁️ domain](<../90 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>) 
-    * where to forward [Messages 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Msgs/01 📨 Domain Message.md>) to.
+    * where to forward [Messages 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) to.
 
     ---
     <br/>

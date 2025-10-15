@@ -88,7 +88,7 @@
     The following [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) excerpt from the [Casino Entry 🤝 use case](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/10 🎰 Casinos/11 🚪 Enter anonymously.md>) illustrates the usage of an [Identity-bound 🆔 token](<../../30 🫥 Agents/05 🆔 Identities/14 🆔🎫 Verify Tokens.md>).
 
 
-    | [Domain](<../../40 👥 Domains/41 📨 Msgs/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | | | 🔆 [tap](<../11 🔆 Locators/01 🔆 Locator.md>)
     | 🔎 [Finder](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Casino (4.4 ⭐) [+]
@@ -112,7 +112,7 @@
 
     The following [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) excerpt illustrates the usage of a [SELF Token 🎫](<01 🎫 Token.md>) when [passing a gate at a train station 🤝](<../../../3 🤝 Use Cases/03 🧳 Travel/03 🧳 Travel by train 🚂/02 🚂 Customer @ Station/22 Pass gates 1 person.md>).
 
-    | [Domain](<../../40 👥 Domains/41 📨 Msgs/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) 
+    | [Domain](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) 
     | - | - | - |
     | | | 🔆 [tap](<../11 🔆 Locators/01 🔆 Locator.md>)
     | 🔎 [Finder](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Railway (4.3 ⭐) [+]
@@ -217,7 +217,7 @@
     | `Issued` | timestamp | When it was issued
     |`Starts` |timestamp| Valid from
     |`Expires`|timestamp| Valid until (optional)
-    | `Signature`| string | The Issuer's [signature](<../../40 👥 Domains/41 📨 Msgs/01 📨 Domain Message.md>) 📨 
+    | `Signature`| string | The Issuer's [signature](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) 📨 
     | `DKIM`| string | The [DKIM 📨](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/07 👥🚀🕸 Public Key.md>) key used to sign
     |
 

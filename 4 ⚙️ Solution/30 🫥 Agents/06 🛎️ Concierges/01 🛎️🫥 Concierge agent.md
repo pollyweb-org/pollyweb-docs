@@ -52,8 +52,8 @@
 
 1. **How do Concierges prevent task spam?**
 
-    [Concierge 🛎️ agents](<01 🛎️🫥 Concierge agent.md>) ask users to confirm any inbound work order from a [domain 👥](<../../40 👥 Domains/41 📨 Msgs/00 👥 Domain.md>). 
-    - For frequent [domains 👥](<../../40 👥 Domains/41 📨 Msgs/00 👥 Domain.md>), users can ask their [Concierge 🛎️ agent](<01 🛎️🫥 Concierge agent.md>) to always trust or always ban the task-requester domain.
+    [Concierge 🛎️ agents](<01 🛎️🫥 Concierge agent.md>) ask users to confirm any inbound work order from a [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>). 
+    - For frequent [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>), users can ask their [Concierge 🛎️ agent](<01 🛎️🫥 Concierge agent.md>) to always trust or always ban the task-requester domain.
 
     ---
     <br/>
