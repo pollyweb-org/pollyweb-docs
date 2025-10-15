@@ -1,8 +1,8 @@
-# [🧩](<../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) [`.MANIFEST`](<10 🧩 MANIFEST code.md>) `/ABOUT`
+# [🧩](<../../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) [`.MANIFEST`](<🧩 MANIFEST.md>) `/ABOUT`
 
-> Part of [`.MANIFEST` 🧩](<10 🧩 MANIFEST code.md>)
+> Part of [`.MANIFEST` 🧩](<🧩 MANIFEST.md>)
 
-> Implements [domain Manifest 📜](<$ 📜 Domain Manifest.md>) 
+> Implements [domain Manifest 📜](<../📜 Manifest.md>) 
 
 <br/>
 
@@ -30,7 +30,7 @@ About:
 | `Description` | string | Optional human readable description
 | `SmallIcon`  | string | Optional URL to a small icon (20x20)
 | `BigIcon`   | string | Optional URL to a big icon (100x100)
-| `Feedback` | string | Optional [Buffer ⏳ helper domain](<../../45 🛠️ Helper domains/27 ⏳ Buffers/⏳🛠️ Buffer helper.md>) name <br/>- if not defined, then no feedback is given
+| `Feedback` | string | Optional [Buffer ⏳ helper domain](<../../../45 🛠️ Helper domains/27 ⏳ Buffers/⏳🛠️ Buffer helper.md>) name <br/>- if not defined, then no feedback is given
 | `Translations` | map | Optional translations of the domain name
 |
 
@@ -38,7 +38,7 @@ About:
 
 ## Definition
 
-> 🤝: [`.MANIFEST/CODE`](<40 🧩 CODE code.md>)
+> 🤝: [`.MANIFEST/CODE`](<🧩 CODE.md>)
 
 ```yaml
 Path: /MANIFEST/ABOUT

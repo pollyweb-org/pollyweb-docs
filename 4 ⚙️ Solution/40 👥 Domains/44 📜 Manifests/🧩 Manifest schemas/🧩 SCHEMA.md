@@ -1,8 +1,8 @@
-# [🧩](<../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) [`.MANIFEST`](<10 🧩 MANIFEST code.md>) [`/CODE`](<40 🧩 CODE code.md>) `/SCHEMA`
+# [🧩](<../../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) [`.MANIFEST`](<🧩 MANIFEST.md>) [`/CODE`](<🧩 CODE.md>) `/SCHEMA`
 
-> Part of [`.MANIFEST/CODE` 🧩](<40 🧩 CODE code.md>)
+> Part of [`.MANIFEST/CODE` 🧩](<🧩 CODE.md>)
 
-> Implements [domain Manifest 📜](<$ 📜 Domain Manifest.md>) 
+> Implements [domain Manifest 📜](<../📜 Manifest.md>) 
 
 
 <br/> 
@@ -77,7 +77,7 @@ Format:
 
 ## Definition
 
-> 🤝: [`.MANIFEST/CODE`](<40 🧩 CODE code.md>)
+> 🤝: [`.MANIFEST/CODE`](<🧩 CODE.md>)
 
 ```yaml
 Path: /MANIFEST/CODE/SCHEMA

@@ -106,7 +106,7 @@
     
     * Consider also a scenario where a commercial flight cannot wait for the [Issuer 🎴 domain](<🎴🎭 Issuer role.md>) of a travel agency to come back online before allowing a traveler to board a plane with a [ticket Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>). 
     
-    * [Broker 🤵 domain](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) are expected to have the required level of high availability and low latency, while having to pass the protocol compliancy requirements of NLWeb before being trusted by the [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) of the NLWeb Organization.
+    * [Broker 🤵 domain](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) are expected to have the required level of high availability and low latency, while having to pass the protocol compliancy requirements of NLWeb before being trusted by the [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>) of the NLWeb Organization.
 
 
     ---

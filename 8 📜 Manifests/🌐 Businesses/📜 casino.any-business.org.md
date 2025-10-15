@@ -1,5 +1,5 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>): casino.any-business.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/📜 Manifest.md>): casino.any-business.org
 <!--# 🏳️🎰 https://quip.com/RUmtAj6kpz6p/-AnyCasinoit-->
 
 ```yaml
