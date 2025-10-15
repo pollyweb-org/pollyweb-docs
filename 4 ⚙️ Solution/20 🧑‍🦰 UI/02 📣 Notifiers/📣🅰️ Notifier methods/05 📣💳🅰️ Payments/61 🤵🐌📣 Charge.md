@@ -5,10 +5,10 @@
 <!-- Test: -->
 
 
-# 🤵🐌📣 Charge @ [Notifier](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/$ 📣 Notifier domain.md>)
+# 🤵🐌📣 Charge @ [Notifier](<../../📣 Notifier domain.md>)
 
 
-> Used in [💵⏩🧑‍🦰 Charge](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/70 💵 Sellers/💵⏩ Seller flows/💵⏩🧑‍🦰 Charge.md>)
+> Used in [💵⏩🧑‍🦰 Charge](<../../../../41 🎭 Domain Roles/70 💵 Sellers/💵⏩ Seller flows/💵⏩🧑‍🦰 Charge.md>)
 
 <br/>
 
