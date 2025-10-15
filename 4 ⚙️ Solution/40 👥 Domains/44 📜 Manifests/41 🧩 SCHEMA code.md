@@ -7,16 +7,29 @@
 
 <br/> 
 
-## Properties
+## Example
 
-| Property | Type | Notes| Example
-|-|-|-|-
-| `Version`       | string | Version of the schema <br/> - `major/breaks`.`minor/safe`   | `1.0`
-| `Attributes`    | array  | Optional human readable list of attributes |
+```yaml
+Version: 1.0
+Inherits: .TOKEN:1.0
+Location: https://any-domain/any-schema.json
+Properties:
+  - Prop1       # Description of Prop1
+  - Prop2:      # Description of Prop2
+      - Prop2A  # Description of Prop2A
+      - Prop2B  # Description of Prop2B
+Format: 
+  $ref: <property>@<code>:<version>
+```
+
+| Property | Type | Notes
+|-|-|-
+| `Version`       | string | Version in `major/breaks`.`minor/safe`   
+| `Properties`    | array  | Optional human readable list of attributes |
 | `Inherits`      | string | Optional inheritance for QR codes | `.TOKEN`
 | `Location`      | url | Optional external location of the [JSON schema](<https://json-schema.org/>) |
 | `Format`       | object | Optional [JSON schema](<https://json-schema.org/>) for machine validation |
-| `$ref 🧩`  | string | Sub-schema from another <br/>- `property`@`code`:`version`
+| `$ref 🧩`  | string | Sub-schema from `property`@`code`:`version`
 |
 
 
@@ -81,7 +94,6 @@ Schema:
       Version:
         type: string
         default: 1.0
-        example: 1.0
 
       Properties:
         type: array

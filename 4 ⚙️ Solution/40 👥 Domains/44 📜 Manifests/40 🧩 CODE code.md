@@ -14,8 +14,13 @@
 Path: /GROUP/SUBGROUP/ANY-CODE
 Delegator: any-delegator.com
 Name: Any name
-Description: |
-  Any description
+Description: Any description
+
+Resources:
+
+Translations: 
+  en: Any Code
+  pt: Um código qualquer
 
 Schema: 
   Version: 1.0
@@ -30,7 +35,7 @@ Schema:
 | `Name` | string | Human name of the [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) 
 | `Description`| string | Human  description of the [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)  
 | `Resources`  | map | Dictionary of external resources
-| [`Translations 🧩`](<21 🧩 TRANSLATION code.md>) | array | List of [`.MANIFEST/TRANSLATION` 🧩](<21 🧩 TRANSLATION code.md>)
+| `Translations` | map | Dictionary of translations
 | [`Schema 🧩`](<41 🧩 SCHEMA code.md>)| object | Schema with [`.MANIFEST/CODE/SCHEMA` 🧩](<41 🧩 SCHEMA code.md>)
 |
 
@@ -54,15 +59,12 @@ Schema:
 
       Path:
         type: string
-        example: /SSR/WCHR
 
       Delegator:
         $ref: Domain@nlweb.org/TYPES
-        example: nlweb.org
 
       Name: 
         type: string
-        example: Persona codes
 
       Translations:
         type: array
