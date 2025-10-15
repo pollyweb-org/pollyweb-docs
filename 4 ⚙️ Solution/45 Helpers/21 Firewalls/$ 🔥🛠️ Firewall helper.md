@@ -3,12 +3,12 @@
 
 1. **What is a Firewall domain in NLWeb?**
 
-    A [Firewall 🔥 domain](<03 🔥🛠️ Firewall helper.md>) is 
-    * a [Helper 🛠️ domain](<../../45 Helpers/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) 
+    A [Firewall 🔥 domain](<$ 🔥🛠️ Firewall helper.md>) is 
+    * a [Helper 🛠️ domain](<../$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) 
     * focused on blacklisting other [Domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>)
     * to keep the ecosystem safe (e.g., national security entities). 
 
-    Admins of [Firewall 🔥 helper domains](<03 🔥🛠️ Firewall helper.md>) are typically concerned about 
+    Admins of [Firewall 🔥 helper domains](<$ 🔥🛠️ Firewall helper.md>) are typically concerned about 
     * monitoring and blocking potential bad behaviors from [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>).
 
     ---
@@ -20,8 +20,8 @@
 
     |#|Step
     |-|-
-    |1| [Firewall 🔥 domains](<03 🔥🛠️ Firewall helper.md>) subscribe to the [domain-event streams 🌬️](<../../40 👥 Domains/42 🌬️ Streams/02 🌬️🎭 Streamer role.md>) of [Reviewer ⭐ domains](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>), [Listener 👂 domains](<../../42 Backbone/10 👂 Listeners/$ 👂🛠️ Listener helper.md>), and [Graph 🕸 domains](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>), eventually throttling them with a [Buffer ⏳ helper domain](<../../45 Helpers/15 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>);
-    |2| [Firewall 🔥 domains](<03 🔥🛠️ Firewall helper.md>) then update the [Trust 👍 list](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) in their [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>), which is propagated down by the [Listener 👂 helper domains](<../../42 Backbone/10 👂 Listeners/$ 👂🛠️ Listener helper.md>) and subscribed by [Graph 🕸 helper domains](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) and [Finder 🔎 vaults](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>).
+    |1| [Firewall 🔥 domains](<$ 🔥🛠️ Firewall helper.md>) subscribe to the [domain-event streams 🌬️](<../../40 👥 Domains/42 🌬️ Streams/02 🌬️🎭 Streamer role.md>) of [Reviewer ⭐ domains](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>), [Listener 👂 domains](<../../42 Backbone/10 👂 Listeners/$ 👂🛠️ Listener helper.md>), and [Graph 🕸 domains](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>), eventually throttling them with a [Buffer ⏳ helper domain](<../15 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>);
+    |2| [Firewall 🔥 domains](<$ 🔥🛠️ Firewall helper.md>) then update the [Trust 👍 list](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) in their [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>), which is propagated down by the [Listener 👂 helper domains](<../../42 Backbone/10 👂 Listeners/$ 👂🛠️ Listener helper.md>) and subscribed by [Graph 🕸 helper domains](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) and [Finder 🔎 vaults](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>).
 
     ---
 
@@ -36,7 +36,7 @@
 1. **Do Firewalls monitor Listeners and Graphs?**
 
     Yes. 
-    * [Firewall 🔥 helper domains](<03 🔥🛠️ Firewall helper.md>) subscribe to [Listener 👂 domain streams](<../../42 Backbone/10 👂 Listeners/$ 👂🛠️ Listener helper.md>) and [Graph 🕸 domain streams](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) to monitor their robustness, reliability, and conformity to the NLWeb protocol, revoking their [Trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) when necessary;
+    * [Firewall 🔥 helper domains](<$ 🔥🛠️ Firewall helper.md>) subscribe to [Listener 👂 domain streams](<../../42 Backbone/10 👂 Listeners/$ 👂🛠️ Listener helper.md>) and [Graph 🕸 domain streams](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) to monitor their robustness, reliability, and conformity to the NLWeb protocol, revoking their [Trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) when necessary;
         * e.g., compare information about a random [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) in three or more [Listener 👂 domains](<../../42 Backbone/10 👂 Listeners/$ 👂🛠️ Listener helper.md>) or [Graph 🕸 domains](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) to identify discrepancies.
 
     ---
@@ -45,7 +45,7 @@
 1. **Do Firewalls monitor domain reputation?**
 
     Yes. 
-    * [Firewall 🔥 helper domains](<03 🔥🛠️ Firewall helper.md>) subscribe to [Reviewer ⭐ domain streams](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) to monitor the behavior of [Host 🤗 domains](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>), revoking their [Trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) when necessary.
+    * [Firewall 🔥 helper domains](<$ 🔥🛠️ Firewall helper.md>) subscribe to [Reviewer ⭐ domain streams](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) to monitor the behavior of [Host 🤗 domains](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>), revoking their [Trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) when necessary.
 
     ---
     <br/>

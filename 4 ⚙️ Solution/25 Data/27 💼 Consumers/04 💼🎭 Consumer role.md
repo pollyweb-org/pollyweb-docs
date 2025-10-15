@@ -111,8 +111,8 @@
 
 1. **How are Consumers protected when Graph are compromised by attackers?**
 
-    [Firewall 🔥 domains](<../../45 Helpers/21 Firewalls/03 🔥🛠️ Firewall helper.md>) monitor the behavior of any [Graph 🕸 domain](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) and match domain information with other [Graphs 🕸](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>). 
-    * If necessary, [Firewall 🔥 domains](<../../45 Helpers/21 Firewalls/03 🔥🛠️ Firewall helper.md>) immediately revoke a Graph's [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>).
+    [Firewall 🔥 domains](<../../45 Helpers/21 Firewalls/$ 🔥🛠️ Firewall helper.md>) monitor the behavior of any [Graph 🕸 domain](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) and match domain information with other [Graphs 🕸](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>). 
+    * If necessary, [Firewall 🔥 domains](<../../45 Helpers/21 Firewalls/$ 🔥🛠️ Firewall helper.md>) immediately revoke a Graph's [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>).
 
     ---
     <br/>
@@ -187,9 +187,9 @@
 
     * [Broker 🤵 domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) inform users of every context change, identifying the data that may be collected, then block any data request from the Consumer that does not comply with that context - e.g., [Order pizza 🍕](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/21 🏠 Home: Order pizza.md>), [Hotel check-in 🛎️](<../../../3 🤝 Use Cases/03 🧳 Travel/08 🧳 Stay at hotels 🏨/03 🏨 Guest @ Reception 🛎️/04 🛎️ Check-in.md>).
 
-    * Because the [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) are public and prone to automatic evaluation by domains like [Firewall 🔥 domains](<../../45 Helpers/21 Firewalls/03 🔥🛠️ Firewall helper.md>) and [Reviewer ⭐ domains](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>), [Consumer 💼 domains](<04 💼🎭 Consumer role.md>) are exposed to public scrutiny regarding the data  their are collecting, namely: what, why, how, and how much.
+    * Because the [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) are public and prone to automatic evaluation by domains like [Firewall 🔥 domains](<../../45 Helpers/21 Firewalls/$ 🔥🛠️ Firewall helper.md>) and [Reviewer ⭐ domains](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>), [Consumer 💼 domains](<04 💼🎭 Consumer role.md>) are exposed to public scrutiny regarding the data  their are collecting, namely: what, why, how, and how much.
 
-    * [Authority 🏛️ domains](<../../45 Helpers/10 🏛️ Authorities/02 🏛️🛠️ Authority helper.md>) monitor the [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) for dataset requests that don't match the domain's business or exception requests, and if necessary may revoke the [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) on the [Consumer 💼 domain](<04 💼🎭 Consumer role.md>).
+    * [Authority 🏛️ domains](<../../45 Helpers/10 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>) monitor the [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) for dataset requests that don't match the domain's business or exception requests, and if necessary may revoke the [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) on the [Consumer 💼 domain](<04 💼🎭 Consumer role.md>).
 
     * Consider the following example of a [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>).
     
