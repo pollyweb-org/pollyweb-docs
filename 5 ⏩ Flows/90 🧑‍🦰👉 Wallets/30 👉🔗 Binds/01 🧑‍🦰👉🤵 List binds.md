@@ -1,6 +1,6 @@
 # 🧑‍🦰👉🗄️ List Binds @ Wallet
 
-> Implements a [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+> Implements a [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
 
 <br/>
 
@@ -11,7 +11,7 @@
 
 | # | Call | Notes |
 |-|-|-
-| 1 | [🧑‍🦰🚀🤵 `Binds@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/10 🧑‍🦰🚀🤵 Binds.md>) | The [Wallet 🧑‍🦰](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) gets the [Binds 🔗](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) from the [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
+| 1 | [🧑‍🦰🚀🤵 `Binds@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/10 🧑‍🦰🚀🤵 Binds.md>) | The [Wallet 🧑‍🦰](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) gets the [Binds 🔗](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) from the [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
 ||
 
 

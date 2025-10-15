@@ -18,7 +18,7 @@
 
     Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) as an example.
         
-    | [Domain](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
     |-|-|-
     | | | 🔆 [tap](<../../20 🧑‍🦰 UI/11 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>)
     | 🔎 [Finder](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Wand (4.3 ⭐)  [+] 
@@ -44,7 +44,7 @@
 
     |#|Category|Step
     |-|-|-
-    |1| `Tap NFC` | A guest user [taps 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) the [rotating NFC tag 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/11 📺 NFC authentication.md>) of the [Userable 💍 thing](<01 💍 Userable thing.md>) with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+    |1| `Tap NFC` | A guest user [taps 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) the [rotating NFC tag 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/11 📺 NFC authentication.md>) of the [Userable 💍 thing](<01 💍 Userable thing.md>) with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
     |2| `Interact`| A [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) opens with the [Userable's Wand 🪄 domain](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>) (i.e., the helper defined by the [Userable's Brand 🍏 domain](<../71 💠 Brand Things/07 🍏🎭 Brand role.md>)) - this allows the guest user to read the landing notes that the owner user left, and allowing the guest to active the emergency script defined by the owner user.
     |3| `Identify` | The [Userable's Wand 🪄 domain](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>) asks the [guest user's Identity 🆔 agent](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) to authenticate the guest - this allows emergency services to impose legal actions on harassment frauds if necessary.
     |4| `Activate`| The guest activates the emergency workflow - this triggers the [Userable's Wand 🪄 domain](<../71 💠 Brand Things/09 🪄🛠️ Wand helper.md>) to ask the [guest's Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) for the guest's location, ask the [guest's Persona 🧢 agent](<../../30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) for the guest's contact details, and pass that information to the [owner's Custodian 🧳 vault](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>).

@@ -28,13 +28,13 @@
 
     The set required for ads to work is as follows:
 
-    * Users set up one [Curator 🧚 agent](<../../30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) on their [Wallet 🧑‍🦰 App](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+    * Users set up one [Curator 🧚 agent](<../../30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) on their [Wallet 🧑‍🦰 App](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
     
     * [Seller 💵 domains](<../../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>) set up one [Payer 💳 helper](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) to pay for ads.
     
     * Advertiser 👀 domains set up one [Biller 🤝 helper](<../15 🤝 Billers/$ 🤝🛠️ Biller helper.md>) to charge [Seller 💵 domains](<../../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>) for ads, one [Collector 🏦 helper](<../18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) to receive the ad payments, and one [Payer 💳 helper](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) for paying ad-printing commissions to [Host 🤗 domains](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) and [Curator 🧚 agents](<../../30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>).
     
-    * [Broker 🤵 domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) set up one Advertiser 👀 helper to manage ads, and one [Biller 🤝 helper](<../15 🤝 Billers/$ 🤝🛠️ Biller helper.md>) to orchestrate the payments to all domains involved in ad printing for its registered [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+    * [Broker 🤵 domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) set up one Advertiser 👀 helper to manage ads, and one [Biller 🤝 helper](<../15 🤝 Billers/$ 🤝🛠️ Biller helper.md>) to orchestrate the payments to all domains involved in ad printing for its registered [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
 
 
     ---
@@ -57,7 +57,7 @@
     5 | The user's [Curator 🧚 agent](<../../30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) sends analysis requests to one or more Advertisers 👀 containing the user's context (e.g., country), the user's advertising preferences, the anonymized [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) summary, and the bill [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>).
     6 | The Advertisers 👀 compile a list of potential options for next actions and send it to the user's [Curator 🧚 agent](<../../30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>).
     7 | The [Curator 🧚 agent](<../../30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) evaluates the options sent by the multiple Advertisers 👀, considering its knowledge about the user's inferred preferences, and then informs of the Advertiser 👀 about the final selection of options - this allows for additional filtering based on users' private preferences that Advertisers 👀 should not be exposed to.
-    8 | The Advertiser 👀 helper shows the options to the user on the [Wallet 🧑‍🦰 App](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+    8 | The Advertiser 👀 helper shows the options to the user on the [Wallet 🧑‍🦰 App](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
     9 | The user selects one of the options presented by the Advertiser 👀.
     10 | The Advertiser 👀 asks the [Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) to open a new [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) to the user-selected [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>).
 
@@ -99,7 +99,7 @@
 
 1. **What are the preconditions for ads to work?**
 
-    - Users need to select their default [Curator 🧚 agent](<../../30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) on their [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+    - Users need to select their default [Curator 🧚 agent](<../../30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) on their [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
     - [Seller 💵 domains](<../../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>) need to promote ads on an Advertiser.
     - All domains interacting directly need a [trust 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) path between them.
 

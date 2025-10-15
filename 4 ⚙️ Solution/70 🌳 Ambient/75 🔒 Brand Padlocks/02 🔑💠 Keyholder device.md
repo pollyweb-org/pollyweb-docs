@@ -8,7 +8,7 @@
     In NLWeb, a Keyholder is a device that can scan and unlock [Padlock 🔒](<01 🔒 Padlock device.md>) devices.
 
     Examples of Keyholders include:
-    * 🧑‍🦰 [Wallet apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) - Wallets support the Keyholder protocol natively.
+    * 🧑‍🦰 [Wallet apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) - Wallets support the Keyholder protocol natively.
     * ⌚ [Tapbands](<../76 ⌚ Brand Tapbands/01 ⌚💠 Tapband thing.md>) - these are smart bands with the ability to connect to the internet (e.g., Bluetooth, eSim);
 
     ---

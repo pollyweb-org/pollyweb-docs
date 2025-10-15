@@ -28,7 +28,7 @@
 
 1. **How can users start using a folder editor?**
 
-    On the Folder editor's desktop app, users scan the editor's [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) with their [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) - the interaction is described in [Edit in folder 🗂️💬](<03 🗂️💬 Edit in folder.md>).
+    On the Folder editor's desktop app, users scan the editor's [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) with their [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) - the interaction is described in [Edit in folder 🗂️💬](<03 🗂️💬 Edit in folder.md>).
 
     ![alt text](<.📎 Assets/Folder-Login.png>)
 
@@ -39,7 +39,7 @@
 
 1. **How can users add a vault to the editor?**
 
-    When clicking the "Add Vault" button in the desktop app, the Folder 🗂️ editor initiates a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) with the user's [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) - the interaction described in [Bind to folder 🗂️💬](<02 🗂️💬 Bind to folder.md>).
+    When clicking the "Add Vault" button in the desktop app, the Folder 🗂️ editor initiates a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) with the user's [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) - the interaction described in [Bind to folder 🗂️💬](<02 🗂️💬 Bind to folder.md>).
 
     ![alt text](<.📎 Assets/Folder-Flow.png>)
 
@@ -91,7 +91,7 @@
 1. **Is the user's data stored on the editor?**
 
     No. 
-    - Folders 🗂️ only store a references to [Wallets 🔗](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and [Binds 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>).
+    - Folders 🗂️ only store a references to [Wallets 🔗](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) and [Binds 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>).
 
     ---
 

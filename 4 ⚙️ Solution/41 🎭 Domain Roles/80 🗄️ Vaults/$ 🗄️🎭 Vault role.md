@@ -5,7 +5,7 @@
 
     A [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) with a [Vault 🗄️ role](<$ 🗄️🎭 Vault role.md>) 
     * is any [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) that stores user data,
-    * has a [Bind 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) with the user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), 
+    * has a [Bind 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) with the user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>), 
     * and shares it with [Consumer 💼 domains](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>). 
 
     ---
@@ -27,12 +27,12 @@
 
 1. **How are Vault domains configured on a Wallet?**
 
-    For a [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) to be listed as a [Vault 🗄️ domain](<$ 🗄️🎭 Vault role.md>) in the [user's Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), the user first needs to [bind 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) the [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) to the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+    For a [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) to be listed as a [Vault 🗄️ domain](<$ 🗄️🎭 Vault role.md>) in the [user's Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>), the user first needs to [bind 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) the [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) to the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
 
     | | Workflow |  Description
     |-|-|-
-    | | [👉 Binds ](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/01 🧑‍🦰👉🤵 List Binds.md>) | List the user's [Binds 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>)
-    || [👉 Bind](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind 🔗.md>) | [Bind 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) the [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to a [Vault 🗄️](<$ 🗄️🎭 Vault role.md>)
+    | | [👉 Binds ](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/01 🧑‍🦰👉🤵 List binds.md>) | List the user's [Binds 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>)
+    || [👉 Bind](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind 🔗.md>) | [Bind 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) the [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) to a [Vault 🗄️](<$ 🗄️🎭 Vault role.md>)
     || [👉 Unbind](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/03 🧑‍🦰👉🗄️ Unbind.md>) | Remove a [Bind 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) from a [Vault 🗄️](<$ 🗄️🎭 Vault role.md>)
     
     ---
@@ -40,11 +40,11 @@
 
 1. **What are default Vaults?**
 
-    To streamline user onboarding, [Broker 🤵 domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) may automatically [bind 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) new [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to default [Agent 🫥 vault domains](<../../25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>).
+    To streamline user onboarding, [Broker 🤵 domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) may automatically [bind 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) new [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) to default [Agent 🫥 vault domains](<../../25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>).
         
     | | Workflow |  Description
     |-|-|-
-    ||[👉 Onboard](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/11 🧑‍🦰👉🤵 Onboard.md>) | Register the [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) on a [Broker 🤵](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
+    ||[👉 Onboard](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/11 🧑‍🦰👉🤵 Onboard.md>) | Register the [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) on a [Broker 🤵](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
 
     ---
     <br/>
@@ -172,7 +172,7 @@
 
     User tracking is typically done by a consortium of domains crossing information about a user's interaction with each one of them, allowing them to reconstruct the user's journey. 
     
-    - To avoid this, each [Vault 🗄️ domain](<$ 🗄️🎭 Vault role.md>) is bounded to a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) using a unique key-pair, so that there are no common properties between two [Vault Binds 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) of the same user, thus no way to cross the interactions with the [Vault 🗄️ domain](<$ 🗄️🎭 Vault role.md>).
+    - To avoid this, each [Vault 🗄️ domain](<$ 🗄️🎭 Vault role.md>) is bounded to a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) using a unique key-pair, so that there are no common properties between two [Vault Binds 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) of the same user, thus no way to cross the interactions with the [Vault 🗄️ domain](<$ 🗄️🎭 Vault role.md>).
 
     ---
     <br/>
@@ -181,7 +181,7 @@
 
     [Vault 🗄️ domains](<$ 🗄️🎭 Vault role.md>) are [Host 🤗 domains](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) that store user data. 
     
-    * When a user [binds 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) to a [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>), the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) passes a unique [bind 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) ID to the [Host 🤗](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) to be able to identify the user across sessions, turning the [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) into a [Vault 🗄️ domain](<$ 🗄️🎭 Vault role.md>).
+    * When a user [binds 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) to a [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>), the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) passes a unique [bind 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) ID to the [Host 🤗](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) to be able to identify the user across sessions, turning the [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) into a [Vault 🗄️ domain](<$ 🗄️🎭 Vault role.md>).
     
     * While the [Vault 🗄️ domain](<$ 🗄️🎭 Vault role.md>) is now able to track the user across [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>), it cannot track the user across [Host 🤗 domains](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) because the [Bind 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) ID is unique for the relationship between that user and that [Host 🤗](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>).
 
