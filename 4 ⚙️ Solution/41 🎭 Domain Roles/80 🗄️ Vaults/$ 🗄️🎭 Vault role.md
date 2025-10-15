@@ -58,7 +58,7 @@
     | | Workflow |  Description
     |-|-|-
     ||[👉 Share](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>) | Shares a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) with a [Consumer 💼](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>)
-    || [💼 Consume](<32 🗄️⏩💼 Consume 🔗.md>) | Tells a [Consumer 💼](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) to collect data
+    || [💼 Consume](<32 🗄️⏩💼 Consume 🔗 flow.md>) | Tells a [Consumer 💼](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) to collect data
     
 
     ---
@@ -219,8 +219,8 @@
 
     |Flow ⏩| Details
     |-|-
-    | [💼 Consume](<32 🗄️⏩💼 Consume 🔗.md>) | Tells a [Consumer 💼](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) to collect data
-    | [🧑‍🦰 Engage](<34 🗄️⏩🧑‍🦰 Engage 💬.md>) | Opens a new [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with a [Bound 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) user
+    | [💼 Consume](<32 🗄️⏩💼 Consume 🔗 flow.md>) | Tells a [Consumer 💼](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) to collect data
+    | [🧑‍🦰 Engage](<34 🗄️⏩🧑‍🦰 Engage 💬 flow.md>) | Opens a new [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with a [Bound 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) user
     
 
     ---
@@ -230,11 +230,11 @@
    
     | [From 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) | [Subject 📨](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>) | Description |
     |-|--------|-------------|
-    | [🤵 Broker](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | [`Bound`](<95 🗄️🅰️ Vault/52 🤵🐌🗄️ Bound@Vault.md>) | Add a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) |
-    |  | [`Unbind`](<95 🗄️🅰️ Vault/52 🤵🐌🗄️ Unbind@Vault.md>) | Remove a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) |
-    | | [`Disclose`](<95 🗄️🅰️ Vault/53 🤵🐌🗄️ Disclose@Vault.md>) | Disclose the data of a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) |
-    | | [`Suppress`](<95 🗄️🅰️ Vault/54 🤵🐌🗄️ Suppress@Vault.md>) | Suppress [🖐️ Palm scans](<../../50 🫥 Agents/45 🆔 Identities/22 🆔🖐️ Palm scan.md>) |
-    | [💼 Consumer](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) | [`Collect`](<95 🗄️🅰️ Vault/51 💼🚀🗄️ Collect@Vault.md>) | Return the data disclosed
+    | [🤵 Broker](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | [`Bound`](<52 🤵🐌🗄️ Bound@Vault.md>) | Add a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) |
+    |  | [`Unbind`](<52 🤵🐌🗄️ Unbind@Vault.md>) | Remove a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) |
+    | | [`Disclose`](<53 🤵🐌🗄️ Disclose@Vault.md>) | Disclose the data of a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) |
+    | | [`Suppress`](<54 🤵🐌🗄️ Suppress@Vault.md>) | Suppress [🖐️ Palm scans](<../../50 🫥 Agents/45 🆔 Identities/22 🆔🖐️ Palm scan.md>) |
+    | [💼 Consumer](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) | [`Collect`](<51 💼🚀🗄️ Collect@Vault.md>) | Return the data disclosed
     
     ---
     <br/>
