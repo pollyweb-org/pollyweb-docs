@@ -2,20 +2,33 @@
 
 > Part of [`.MANIFEST` 🧩](<10 🧩 MANIFEST code.md>)
 
-> Implements [domain Manifest 📜](<01 📜 Domain Manifest.md>) 
+> Implements [Schema Code🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)
 
 > Indexed by [`Schema@Graph`](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>)
 
 <br/>
 
-## Properties
+## Example
+
+```yaml
+Path: /GROUP/SUBGROUP/ANY-CODE
+Delegator: any-delegator.com
+Name: Any name
+Description: |
+  Any description
+
+Schema: 
+  Version: 1.0
+  Format: {JSON Schema}
+
+```
 
 | Property | Type | Notes|
 |-|-|-
 | `Path`| string | Relative path of the [Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)  or group
 | [`Delegator 🧩`](<13 🧩 DELEGATE code.md>) | string | Optional [Authority 🏛️ domain](<../43 👍 Trusts/02 🏛️🛠️ Authority helper.md>) that delegated: <br/>- i.e., added it to [`.MANIFEST/DELEGATE` 🧩](<13 🧩 DELEGATE code.md>)
-| `Description`| string | Human  description of the [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)  
 | `Name` | string | Human name of the [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) 
+| `Description`| string | Human  description of the [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)  
 | `Resources`  | map | Dictionary of external resources
 | [`Translations 🧩`](<16 🧩 TRANSLATION code.md>) | array | List of [`.MANIFEST/TRANSLATION` 🧩](<16 🧩 TRANSLATION code.md>)
 | [`Schemas 🧩`](<12 🧩 SCHEMA code.md>)| array | List of [`.MANIFEST/CODE/SCHEMA` 🧩](<12 🧩 SCHEMA code.md>)

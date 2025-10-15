@@ -1,6 +1,6 @@
 # [🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) [`.MANIFEST`](<10 🧩 MANIFEST code.md>) `/TRANSLATION`
 
-> Used by [`.MANIFEST/IDENTITY` 🧩](<14 🧩 IDENTITY code.md>) and
+> Used by [`.MANIFEST/ABOUT` 🧩](<14 🧩 ABOUT code.md>) and
 [`.MANIFEST/CODE` 🧩](<11 🧩 CODE code.md>)
 
 > Implements [domain Manifest 📜](<01 📜 Domain Manifest.md>) 

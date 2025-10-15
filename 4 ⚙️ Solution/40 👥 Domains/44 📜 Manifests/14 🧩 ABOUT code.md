@@ -1,4 +1,4 @@
-# [🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) [`.MANIFEST`](<10 🧩 MANIFEST code.md>) `/IDENTITY`
+# [🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) [`.MANIFEST`](<10 🧩 MANIFEST code.md>) `/ABOUT`
 
 > Part of [`.MANIFEST` 🧩](<10 🧩 MANIFEST code.md>)
 
@@ -6,11 +6,26 @@
 
 <br/>
 
-## Properties
+## Example
+
+```yaml
+About:
+    Domain: any-domain.com
+    Name: Any Domain
+    Description: This is a dummy domain.
+    SmallIcon: 'https://picsum.photos/20/20'
+    BigIcon: 'https://picsum.photos/100/100'
+
+    Feedback: any-feedback.nlweb.org
+
+    Translations: 
+    - Language: pt-br
+      Translation: Um domínio qualquer
+```
 
 | Property | Type | Notes
 |-|-|-
-| `Domain` | string | DNS domain name, e.g. `any-domain.com`
+| `Domain` | string | DNS domain name
 | `Name` | string | Optional human readable title of the domain
 | `Description` | string | Optional human readable description
 | `SmallIcon`  | string | Optional URL to a small icon (20x20)
@@ -26,7 +41,7 @@
 > 🤝: [`.MANIFEST/CODE`](<11 🧩 CODE code.md>)
 
 ```yaml
-Path: /MANIFEST/IDENTITY
+Path: /MANIFEST/ABOUT
 Name: Domain identification
 
 Schema:
@@ -57,7 +72,7 @@ Schema:
         
       Feedback:
         example: any-buffer.com
-        $ref: Domain@.MANIFEST/IDENTITY
+        $ref: Domain@.MANIFEST/ABOUT
 
       Translations: 
         type: array

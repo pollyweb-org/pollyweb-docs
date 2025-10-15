@@ -298,7 +298,7 @@
        * Domains get of the [Buffer ⏳ helper domain](<../42 🌬️ Streams/03 ⏳🛠️ Buffer helper.md>) by calling the [Identity@Broker 🚀 request](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/04 👥🚀🕸 Identity.md>).
   
         ```yaml
-        🤝: nlweb.org/MANIFEST/IDENTITY
+        🤝: nlweb.org/MANIFEST/ABOUT
         About:
           Name: any-sender.com
           Feedback: any-buffer.com

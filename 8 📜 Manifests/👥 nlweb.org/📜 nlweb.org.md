@@ -11,8 +11,6 @@ About:
   SmallIcon: 'https://picsum.photos/20/20'
   BigIcon: 'https://picsum.photos/100/100'
 
-  Resources: 
-    NLWEB: 🤝 https://quip.com/IaRSAscwCk9X/-NLWEBorg
 
   Translations: 
     - Language: eu-us

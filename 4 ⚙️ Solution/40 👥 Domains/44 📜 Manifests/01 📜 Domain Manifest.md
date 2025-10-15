@@ -42,7 +42,7 @@
 
     |Section|Purpose | Schemas
     |-|-|-
-    | 🤗 [Host Identity](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | Domain identification (mandatory). | [`./IDENTITY` 🧩](<14 🧩 IDENTITY code.md>) <br/>[`./TRANSLATION` 🧩](<16 🧩 TRANSLATION code.md>)
+    | 🤗 [Host About](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | Domain identification (mandatory). | [`./ABOUT` 🧩](<14 🧩 ABOUT code.md>) <br/>[`./TRANSLATION` 🧩](<16 🧩 TRANSLATION code.md>)
     | 👍 [Domain Trusts](<../43 👍 Trusts/01 👍 Domain Trust.md>) | Trusted domains, Codes, and roles. | [`./TRUST` 🧩](<17 🧩 TRUST code.md>)
     |  🧩 [Schema Codes](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) | Defined by the domain. | [`./CODE` 🧩](<11 🧩 CODE code.md>) <br/>[`./CODE/SCHEMA` 🧩](<12 🧩 SCHEMA code.md>) <br/>[`./TRANSLATION` 🧩](<16 🧩 TRANSLATION code.md>)| Schema validation of a Code
     |  🧩 [Delegated Codes](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) | Codes delegated to other domains. | [`./DELEGATE` 🧩](<13 🧩 DELEGATE code.md>)
