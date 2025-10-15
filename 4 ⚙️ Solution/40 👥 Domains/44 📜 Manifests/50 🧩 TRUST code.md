@@ -60,7 +60,7 @@
     Domain: any-firewall.org
   ```
 
-* Trust [Helper 🛠️ domains](<../../25 Data/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) certified by NLWeb.
+* Trust [Helper 🛠️ domains](<../../45 Helpers/$ 🛠️ Helpers/05 🛠️👥 Helper domain.md>) certified by NLWeb.
   ```yaml
   # Certified Helpers
   - Action: GRANT

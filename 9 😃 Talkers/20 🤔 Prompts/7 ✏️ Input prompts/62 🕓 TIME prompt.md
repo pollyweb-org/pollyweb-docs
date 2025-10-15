@@ -44,7 +44,7 @@
     | - | - | - |
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What time? | 🕓 10:30:00
     [🫥 Agent](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | 🫥 What time? | 🕓 10:30:00
-    | [🛠️ Helper](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | 🫥 What time? | 🕓 10:30:00
+    | [🛠️ Helper](<../../../4 ⚙️ Solution/45 Helpers/$ 🛠️ Helpers/05 🛠️👥 Helper domain.md>) | 🫥 What time? | 🕓 10:30:00
 
 
     Usage examples:

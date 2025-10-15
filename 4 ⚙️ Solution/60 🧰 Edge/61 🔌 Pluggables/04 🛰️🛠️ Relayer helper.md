@@ -4,7 +4,7 @@
 
 1. **What is a Relayer domains?**
 
-    Relayers 🛰️ are [Helper 🛠️ domains](<../../25 Data/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) 
+    Relayers 🛰️ are [Helper 🛠️ domains](<../../45 Helpers/$ 🛠️ Helpers/05 🛠️👥 Helper domain.md>) 
     * that control on-premise [Antenna 📡 router devices](<02 📡🔀 Antenna router.md>) 
     * owned by other [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>).
   
