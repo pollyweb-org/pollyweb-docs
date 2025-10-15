@@ -86,7 +86,7 @@ Order a pizza for home delivery
     |`destination`| string | Pass the [Navigator 🧭 agent](<../../../4 ⚙️ Solution/30 🫥 Agents/07 🧭 Navigators/01 🧭🫥 Navigator agent.md>) destination.
     | `menu-locator` | string | [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) of the menu.
     | `order-summary`| markdown | [Curator 🧚 agent](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) choices:<br/>- plus ongoing status.
-    | `order-details`| object | Details for partners: <br/>- selected items,<br/>- final delivery estimates, <br/>- aggregator [Biller 🤝](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>) ID.
+    | `order-details`| object | Details for partners: <br/>- selected items,<br/>- final delivery estimates, <br/>- aggregator [Biller 🤝](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/15 🤝 Billers/06 🤝🛠️ Biller helper.md>) ID.
     |
 
 <br/> 

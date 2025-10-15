@@ -44,7 +44,7 @@ TODO: other scenarios
 | [Roles 🎭](<../../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | Purpose |
 |-|-
 | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | To manage the [Chats 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
-| [💵 Seller](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) | To charge for the products
+| [💵 Seller](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/70 💵 Sellers/01 💵🎭 Seller role.md>) | To charge for the products
 | [💼 Consumer](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) | To verify minimum age
 
 <br/> 
@@ -58,7 +58,7 @@ TODO: other scenarios
 | [🏦 Collector](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) | To collect the amount paid
 | [👂 Listener](<../../../4 ⚙️ Solution/42 Backbone/10 👂 Listeners/$ 👂🛠️ Listener helper.md>) | To propagate [Manifest 📜](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>)  changes
 | [🕸 Graph](<../../../4 ⚙️ Solution/42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) | To query [Trust 👍](<../../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) relationships
-| [⏳ Buffer](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/15 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) | To buffer inbound [Messages 📨](<../../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>)
+| [⏳ Buffer](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/16 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) | To buffer inbound [Messages 📨](<../../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>)
 | [🛰️ Relayer](<../../../4 ⚙️ Solution/60 🧰 Edge/61 🔌 Pluggables/04 🛰️🛠️ Relayer helper.md>) | To remotely control the machines
 
 <br/> 
