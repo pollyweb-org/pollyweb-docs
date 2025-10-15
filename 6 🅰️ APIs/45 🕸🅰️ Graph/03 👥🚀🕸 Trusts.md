@@ -9,7 +9,7 @@
 
 * Verifies if there’s a path of [Trust 👍](<../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) 
   * between two [domains 👥](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) 
-  * regarding a [Schema Code 🧩](<../../4 ⚙️ Solution/25 Data/10 🧩 Schema Codes/02 🧩 Schema Code.md>)
+  * regarding a [Schema Code 🧩](<../../4 ⚙️ Solution/25 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>)
   * as defined in the [`.MANIFEST/TRUST` 🧩](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/50 🧩 TRUST code.md>) part
   * of [domain Manifests 📜](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>).
 
@@ -47,7 +47,7 @@ Body:
 | Body  | `Truster` | string | The name of the [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) trusting
 |       | `Trusted` | string | The name of the [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) to be trusted
 |       | `Role`    | enum   | The role to assess: `VAULT`, `CONSUMER`, `*`
-|       | `Code`    | string | The [Schema Code 🧩](<../../4 ⚙️ Solution/25 Data/10 🧩 Schema Codes/02 🧩 Schema Code.md>) to assess
+|       | `Code`    | string | The [Schema Code 🧩](<../../4 ⚙️ Solution/25 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) to assess
 |
 
 <br/>
