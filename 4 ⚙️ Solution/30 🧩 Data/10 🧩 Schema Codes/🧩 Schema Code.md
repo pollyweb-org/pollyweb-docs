@@ -137,7 +137,6 @@
     | Schema | Description
     |-|-
     | [`.MANIFEST/CODE` 🧩](<../../40 👥 Domains/44 📜 Manifests/🧩 Manifest schemas/🧩 CODE.md>) | CODE properties
-    | [`.MANIFEST/CODE/SCHEMA` 🧩](<../../40 👥 Domains/44 📜 Manifests/🧩 Manifest schemas/🧩 SCHEMA.md>) | CODE/SCHEMA properties
     | [`.MANIFEST/DELEGATE` 🧩](<../../40 👥 Domains/44 📜 Manifests/🧩 Manifest schemas/🧩 DELEGATE.md>) | Delegation to other [Authorities 🏛️](<../../45 🛠️ Helper domains/14 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>)
     | [`.TYPES` 🧩](<../../../7 🧩 Codes/$/🧩 TYPES code.md>) | Generic referenceable types
 
@@ -168,7 +167,7 @@
 
     Yes. 
     - NLWeb schemas are defined by [JSON Schema](https://json-schema.org/understanding-json-schema/reference) converted to YAML.
-    - Details are available at [`nlweb.org/MANIFEST/CODE/SCHEMA` 🧩](<../../40 👥 Domains/44 📜 Manifests/🧩 Manifest schemas/🧩 SCHEMA.md>).
+    - Details are available at [`nlweb.org/MANIFEST/CODE` 🧩](<../../40 👥 Domains/44 📜 Manifests/🧩 Manifest schemas/🧩 CODE.md>).
   
 
     Consider the following example from [`standards.any-igo.org` 📜](<../../../8 📜 Manifests/👥 any-igo.org/📜 standards.any-igo.org.md>).
@@ -209,7 +208,7 @@
 
     Yes.
     * Using the `Inherits` property
-        * defined in [`.MANIFEST/CODE/SCHEMA` 🧩](<../../40 👥 Domains/44 📜 Manifests/🧩 Manifest schemas/🧩 SCHEMA.md>).
+        * defined in [`.MANIFEST/CODE` 🧩](<../../40 👥 Domains/44 📜 Manifests/🧩 Manifest schemas/🧩 CODE.md>).
     * Consider [`.LOCATOR` 🧩](<../../../7 🧩 Codes/$/🧩 LOCATOR code.md>)
         * who defines properties `Code`, `Domain`, `Resource`.
     * It is inherited by [`.TOKEN` 🧩](<../30 🎫 Tokens/🧩 Token schemas/🧩 TOKEN.md>)
@@ -225,7 +224,7 @@
 
     Yes, 
     * using the `$ref` keyword from JSON Schema 
-    * as defined in [`.MANIFEST/CODE/SCHEMA` 🧩](<../../40 👥 Domains/44 📜 Manifests/🧩 Manifest schemas/🧩 SCHEMA.md>).
+    * as defined in [`.MANIFEST/CODE` 🧩](<../../40 👥 Domains/44 📜 Manifests/🧩 Manifest schemas/🧩 CODE.md>).
     
     Consider [`.MANIFEST` 🧩](<../../40 👥 Domains/44 📜 Manifests/🧩 Manifest schemas/🧩 MANIFEST.md>):
     * it references [`.MANIFEST/ABOUT` 🧩](<../../40 👥 Domains/44 📜 Manifests/🧩 Manifest schemas/🧩 ABOUT.md>)
