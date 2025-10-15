@@ -1,6 +1,6 @@
 # 📤 Hosted `Outbound` file
 
-> Part of [Hosted 🧑‍💻 domain](<01 🧑‍💻 Hosted domain.md>)
+> Part of [Hosted 📦 domain](<01 📦 Hosted domain.md>)
 
 <br/>
 
@@ -9,7 +9,7 @@
 
     The `📤 Outbound.yaml` file 
     * is a file managed by the [Hoster ☁️ domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/55 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>) 
-    * that tells [Hosted 🧑‍💻 domain](<01 🧑‍💻 Hosted domain.md>)
+    * that tells [Hosted 📦 domain](<01 📦 Hosted domain.md>)
     * where to forward [Messages 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/📨 Message.md>) to.
 
     ---

@@ -1,6 +1,6 @@
 # 📥 Hosted `Inbound` file
 
-> Part of [Hosted 🧑‍💻 domain](<01 🧑‍💻 Hosted domain.md>)
+> Part of [Hosted 📦 domain](<01 📦 Hosted domain.md>)
 
 <br/>
 
@@ -44,7 +44,7 @@
 1. **How is traffic processed over HTTP?**
 
     Using the [`PublicKey.txt`](<10 🔑📄 PublicKey file.md>) file,
-    * [Hosted 🧑‍💻 domains](<01 🧑‍💻 Hosted domain.md>) decrypt the messages received from [Hoster ☁️ domains](<../../4 ⚙️ Solution/45 🛠️ Helper domains/55 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>), 
+    * [Hosted 📦 domains](<01 📦 Hosted domain.md>) decrypt the messages received from [Hoster ☁️ domains](<../../4 ⚙️ Solution/45 🛠️ Helper domains/55 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>), 
     * and encrypt the replies and outbound messages.
 
     ---

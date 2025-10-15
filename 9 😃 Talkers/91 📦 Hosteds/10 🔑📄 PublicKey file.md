@@ -1,6 +1,6 @@
 # 🔑📄 Hosted `PublicKey` file
 
-> Part of [Hosted 🧑‍💻 domain](<01 🧑‍💻 Hosted domain.md>)
+> Part of [Hosted 📦 domain](<01 📦 Hosted domain.md>)
 
 <br/>
 
@@ -8,7 +8,7 @@
 
     The `🔑 PublicKey.txt` file
     * is a file managed by the [Hoster ☁️ domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/55 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>)
-    * for [Hosted 🧑‍💻 domains](<01 🧑‍💻 Hosted domain.md>) to decrypt inbound messages
+    * for [Hosted 📦 domains](<01 📦 Hosted domain.md>) to decrypt inbound messages
     * and encrypt outbound messages
     * ensuring that messages cannot be spoofed.
 
