@@ -49,8 +49,8 @@ Tokens:
 |Top   |`Tokens`   |Token[]|List of `Token` objects|
 |Token | `Issuer` | string | [Issuer 🎴](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) from [`Saved@Broker`](<53 🧑‍🦰🐌🤵 Saved.md>)
 ||`TokenID`  |uuid   |[Token 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) ID from [`Saved@Broker`](<53 🧑‍🦰🐌🤵 Saved.md>)
-|| `IssuerTitle` | string | [Issuer 🎴](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) after [`Translate@Graph`](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/50 🕸 Graphs/45 🕸🅰️ Graph/06 👥🚀🕸 Translate.md>)
-|| `CodeTitle` | string | [Code 🧩](<../../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) after [`Translate@Graph`](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/50 🕸 Graphs/45 🕸🅰️ Graph/06 👥🚀🕸 Translate.md>)
+|| `IssuerTitle` | string | [Issuer 🎴](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) after [`Translate@Graph`](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/50 🕸 Graphs/45 🕸🅰️ Graph methods/06 👥🚀🕸 Translate.md>)
+|| `CodeTitle` | string | [Code 🧩](<../../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) after [`Translate@Graph`](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/50 🕸 Graphs/45 🕸🅰️ Graph methods/06 👥🚀🕸 Translate.md>)
 || `Path`| string | Local path from [`Saved@Broker`](<53 🧑‍🦰🐌🤵 Saved.md>)
 || `Status`| enum | Status set in [`Status@Broker`](<../60 🤵🅰️ Share/62 💼🚀🤵 Status.md>)
 | |`Locator`| string | [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) from [`Status@Broker`](<../60 🤵🅰️ Share/62 💼🚀🤵 Status.md>)

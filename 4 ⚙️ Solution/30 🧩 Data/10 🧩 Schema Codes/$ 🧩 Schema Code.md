@@ -71,7 +71,7 @@
     |-|-
     | [📜 Manifest](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>)  | When a version is omitted in the [Schema Code 🧩](<$ 🧩 Schema Code.md>) in its [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) definition, then it is assumed to be `1.0`.
     | [📨 Message](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>) | When a version is omitted in a [domain Messages 📨](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>), then it is also assumed to be `1.0`.
-    | [🕸 Graph](<../../45 🛠️ Helper domains/50 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) | When a version is omitted when calling [`Schema@Graph`](<../../45 🛠️ Helper domains/50 🕸 Graphs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>), then the [🕸 Graph](<../../45 🛠️ Helper domains/50 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) returns the latest version.
+    | [🕸 Graph](<../../45 🛠️ Helper domains/50 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) | When a version is omitted when calling [`Schema@Graph`](<../../45 🛠️ Helper domains/50 🕸 Graphs/45 🕸🅰️ Graph methods/08 👥🚀🕸 Schema.md>), then the [🕸 Graph](<../../45 🛠️ Helper domains/50 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) returns the latest version.
 
     ---
     <br/>
@@ -105,7 +105,7 @@
 
     For resilience and performance, [domains 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) cannot read [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) directly from the source.
 
-    * Instead, [domains 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) need to query [Graph 🕸 domains](<../../45 🛠️ Helper domains/50 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) for a schema definition, by passing the [Schema Code 🧩](<$ 🧩 Schema Code.md>) to the [`Schema@Graph`](<../../45 🛠️ Helper domains/50 🕸 Graphs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>).
+    * Instead, [domains 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) need to query [Graph 🕸 domains](<../../45 🛠️ Helper domains/50 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) for a schema definition, by passing the [Schema Code 🧩](<$ 🧩 Schema Code.md>) to the [`Schema@Graph`](<../../45 🛠️ Helper domains/50 🕸 Graphs/45 🕸🅰️ Graph methods/08 👥🚀🕸 Schema.md>).
 
         ```yaml
         # Sample request to read a schema.
@@ -125,7 +125,7 @@
     When YAML content starts with `🤝: {Schema Code}`,
     * e.g., `🤝:` [`.MANIFEST/CODE`](<../../40 👥 Domains/44 📜 Manifests/40 🧩 CODE code.md>)
     * it means that the following YAML content should comply with the given [Schema Code 🧩](<$ 🧩 Schema Code.md>) defined.
-    * This allows readers to validate the YAML content by pulling the validation schema from the [`Schema@Graph`](<../../45 🛠️ Helper domains/50 🕸 Graphs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>).
+    * This allows readers to validate the YAML content by pulling the validation schema from the [`Schema@Graph`](<../../45 🛠️ Helper domains/50 🕸 Graphs/45 🕸🅰️ Graph methods/08 👥🚀🕸 Schema.md>).
     
     ---
     <br/>

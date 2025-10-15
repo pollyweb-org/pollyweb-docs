@@ -218,7 +218,7 @@
     |`Starts` |timestamp| Valid from
     |`Expires`|timestamp| Valid until (optional)
     | `Signature`| string | The Issuer's [signature](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>) 📨 
-    | `DKIM`| string | The [DKIM 📨](<../../45 🛠️ Helper domains/50 🕸 Graphs/45 🕸🅰️ Graph/07 👥🚀🕸 Public Key.md>) key used to sign
+    | `DKIM`| string | The [DKIM 📨](<../../45 🛠️ Helper domains/50 🕸 Graphs/45 🕸🅰️ Graph methods/07 👥🚀🕸 Public Key.md>) key used to sign
     |
 
 
