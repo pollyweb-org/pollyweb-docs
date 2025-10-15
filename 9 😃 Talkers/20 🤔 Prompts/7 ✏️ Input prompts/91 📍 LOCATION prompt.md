@@ -30,7 +30,7 @@
     |🍽️ Restaurants| [Chef starts shift 🧑‍🍳](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/81 🧑‍🍳 Chef: Start shift 🪪.md>)
     |🍕 Order pizza| [Driver starts shift 🛵](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/81 🛵 Driver: Start shift.md>)
     |🕺 Night clubs| [Bouncer protects door 👮](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/90 🕺 Clubs/71 👮 Bouncer: Protect door.md>)
-    |💍 Userables| [Userable emergencies 🚨](<../../../4 ⚙️ Solution/70 🌳 Ambient/74 💍 Brand Userables/02 💍🚨 Userable emergencies.md>)
+    |💍 Userables| [Userable emergencies 🚨](<../../../4 ⚙️ Solution/70 🌳 Ambient/74 💍 Userables/02 💍🚨 Userable emergencies.md>)
 
     ---
     <br/>

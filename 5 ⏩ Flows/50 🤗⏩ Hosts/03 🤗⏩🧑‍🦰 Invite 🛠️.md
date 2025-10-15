@@ -9,7 +9,7 @@
   
 * Examples: 
     * [Split bill at a restaurant 🍽️](<../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/74 💳 Pay: Split bill ✂️.md>) use case
-    * [Confused senior user 👴🏻](<../../4 ⚙️ Solution/70 🌳 Ambient/74 💍 Brand Userables/13 💍📱 Userable senior user.md>) use case for [Userable 💍 things](<../../4 ⚙️ Solution/70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>)
+    * [Confused senior user 👴🏻](<../../4 ⚙️ Solution/70 🌳 Ambient/74 💍 Userables/13 💍📱 Userable senior user.md>) use case for [Userable 💍 things](<../../4 ⚙️ Solution/70 🌳 Ambient/74 💍 Userables/01 💍 Userable thing.md>)
 
 <br/>
 
