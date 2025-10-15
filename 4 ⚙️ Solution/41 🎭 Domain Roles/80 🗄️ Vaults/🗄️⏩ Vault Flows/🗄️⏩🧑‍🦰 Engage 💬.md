@@ -30,7 +30,7 @@
 |-|-|-
 |1| [🗄️🐌🤵 `Engage@Broker`](<../../../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/30 🗄️🐌🤵 Engage.md>) | [Vaults 🗄️](<../🗄️🎭 Vault role.md>) present a [Bind 🔗](<../../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>)
 | 2 | [🤵⏩🧑‍🦰 Assess 🔆](<../../../../5 ⏩ Flows/10 🤵⏩ Brokers/01 🤵⏩🧑‍🦰 Assess 🔆.md>) | [Brokers 🤵](<../../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) open a [Chat 💬](<../../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)  on the [Wallet 🧑‍🦰](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) 
-|3|[🤵🐌🤗 `Hello@Host`](<../../30 🤗 Hosts/🅰️ Host methods/🤵🐌🤗 Hello.md>) | [Brokers 🤵](<../../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) hand it over to [Hosts 🤗](<../../30 🤗 Hosts/🤗🎭 Host role.md>)
-|4|[🤗⏩🧑‍🦰 Prompt ℹ️](<../../30 🤗 Hosts/⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Hosts 🤗](<../../30 🤗 Hosts/🤗🎭 Host role.md>) provide context
-|4|[🤗⏩🧑‍🦰 Prompt 😃](<../../30 🤗 Hosts/⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Hosts 🤗](<../../30 🤗 Hosts/🤗🎭 Host role.md>) ask users for an action
+|3|[🤵🐌🤗 `Hello@Host`](<../../30 🤗 Hosts/🤗🅰️ Host methods/🤵🐌🤗 Hello.md>) | [Brokers 🤵](<../../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) hand it over to [Hosts 🤗](<../../30 🤗 Hosts/🤗🎭 Host role.md>)
+|4|[🤗⏩🧑‍🦰 Prompt ℹ️](<../../30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Hosts 🤗](<../../30 🤗 Hosts/🤗🎭 Host role.md>) provide context
+|4|[🤗⏩🧑‍🦰 Prompt 😃](<../../30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Hosts 🤗](<../../30 🤗 Hosts/🤗🎭 Host role.md>) ask users for an action
 |

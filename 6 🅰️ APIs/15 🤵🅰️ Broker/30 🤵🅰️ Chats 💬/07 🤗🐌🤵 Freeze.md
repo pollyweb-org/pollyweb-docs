@@ -5,7 +5,7 @@
 
 * Used in:
     * [❄️ Talker `FREEZE` command](<../../../9 😃 Talkers/60 ⏩ Msg flows/42 ❄️ FREEZE msg.md>)
-    * [❄️ Host Freeze ⏩ flow](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/⏩ Host flows/🤗⏩🧑‍🦰 Freeze ❄️.md>)
+    * [❄️ Host Freeze ⏩ flow](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Freeze ❄️.md>)
 
 <br/> 
 
