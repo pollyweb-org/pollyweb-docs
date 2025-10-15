@@ -12,7 +12,7 @@
 
     | Example | Details
     |-|-
-    | [🚀 Download @ Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/50 🤗🅰️ Host/56 🧑‍🦰🚀🤗 Download@Host.md>) | Download [Prompt 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) appendixes in [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
+    | [🚀 Download @ Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/56 🧑‍🦰🚀🤗 Download@Host.md>) | Download [Prompt 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) appendixes in [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
 
     ---
     <br/>
