@@ -20,7 +20,7 @@
 
     |#|Step
     |-|-
-    |1| [Firewall 🔥 domains](<03 🔥🛠️ Firewall helper.md>) subscribe to the [domain-event streams 🌬️](<../42 🌬️ Streams/02 🌬️🎭 Streamer role.md>) of [Reviewer ⭐ domains](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>), [Listener 👂 domains](<../../42 Backbone/10 Listeners/02 👂🛠️ Listener helper.md>), and [Graph 🕸 domains](<../../42 Backbone/20 Graphs/03 🕸🛠️ Graph helper.md>), eventually throttling them with a [Buffer ⏳ helper domain](<../42 🌬️ Streams/03 ⏳🛠️ Buffer helper.md>);
+    |1| [Firewall 🔥 domains](<03 🔥🛠️ Firewall helper.md>) subscribe to the [domain-event streams 🌬️](<../42 🌬️ Streams/02 🌬️🎭 Streamer role.md>) of [Reviewer ⭐ domains](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>), [Listener 👂 domains](<../../42 Backbone/10 Listeners/02 👂🛠️ Listener helper.md>), and [Graph 🕸 domains](<../../42 Backbone/20 Graphs/03 🕸🛠️ Graph helper.md>), eventually throttling them with a [Buffer ⏳ helper domain](<../../45 Helpers/10 ⏳ Buffers/03 ⏳🛠️ Buffer helper.md>);
     |2| [Firewall 🔥 domains](<03 🔥🛠️ Firewall helper.md>) then update the [Trust 👍 list](<01 👍 Domain Trust.md>) in their [domain Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>), which is propagated down by the [Listener 👂 helper domains](<../../42 Backbone/10 Listeners/02 👂🛠️ Listener helper.md>) and subscribed by [Graph 🕸 helper domains](<../../42 Backbone/20 Graphs/03 🕸🛠️ Graph helper.md>) and [Finder 🔎 vaults](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>).
 
     ---
