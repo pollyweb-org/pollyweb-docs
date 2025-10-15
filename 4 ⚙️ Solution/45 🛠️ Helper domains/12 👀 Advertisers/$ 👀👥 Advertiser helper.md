@@ -42,7 +42,7 @@
 
 1. **How are ads selected?**
 
-    ![](<../../50 🫥 Agents/40 🔎 Finders/. 📎 Assets/🔎 Advertiser.png>)
+    ![](<.📎 Assets/👀 Advertiser.png>)
 
     | # | Posting ads
     |-|-
