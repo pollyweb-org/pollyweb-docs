@@ -5,9 +5,9 @@
 
 <br/>
 
-```yaml
-🤝: nlweb.org/MANIFEST/CODE
+> 🤝: [`.MANIFEST/CODE`](<11 🧩 Code schema.md>)
 
+```yaml
 Path: /MANIFEST/DELEGATE
 Name: Domain delegate
 

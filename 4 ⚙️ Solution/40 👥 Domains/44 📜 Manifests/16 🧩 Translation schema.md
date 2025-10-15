@@ -1,23 +1,33 @@
 
 # 🧩 [Schema Code](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): ManifestTranslation
 
- > Referenced by [domain Manifest 📜](<01 📜 Domain Manifest.md>)
+* Referenced by:
+    * [domain Manifest 📜](<01 📜 Domain Manifest.md>)
+    * [`.MANIFEST/IDENTITY` 🧩 schema](<14 🧩 Identity schema.md>)
+    * [`.MANIFEST/CODE` 🧩 schema](<11 🧩 Code schema.md>)
 
 <br/>
 
+## Properties
+
+| Property | Type | Notes|
+|-|-|-
+| `Language`      | string | Translated language, e.g. `en`<br/>- from [`standards.any-igo.org` 📜](<📜 standards.any-igo.org.md>)
+| `Translation`   | string | Human readable translation of the name
+|
+
+<br/>
+
+## Definition
+
+> 🤝: [`.MANIFEST/CODE`](<11 🧩 Code schema.md>)
 
 ```yaml
-🤝: nlweb.org/MANIFEST/CODE
-
 Path: /MANIFEST/TRANSLATION
 Name: Manifest translation
 
 Schema:
   Version: 1.0
-
-  Properties:
-    - Language      # Translated language, e.g. "en" (string)
-    - Translation   # Human readable translation of the name (string)
 
   Format:
     type: object

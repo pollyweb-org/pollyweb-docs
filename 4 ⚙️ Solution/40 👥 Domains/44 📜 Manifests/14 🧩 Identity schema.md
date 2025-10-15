@@ -1,29 +1,37 @@
 
 # 🧩 [Schema Code](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): ManifestIdentity
 
- > Referenced by [domain Manifest 📜](<01 📜 Domain Manifest.md>)
+> Referenced by [domain Manifest 📜](<01 📜 Domain Manifest.md>)
+
+> Part of [`.MANIFEST` 🧩](<10 🧩 Manifest schema.md>)
 
 <br/>
 
-```yaml
-🤝: nlweb.org/MANIFEST/CODE
+## Properties
 
+| Property | Type | Notes
+|-|-|-
+| `Domain` | string | DNS domain name, e.g. `any-domain.com`
+| `Name` | string | Optional human readable title of the domain
+| `Description` | string | Optional human readable description
+| `SmallIcon`  | string | Optional URL to a small icon (20x20)
+| `BigIcon`   | string | Optional URL to a big icon (100x100)
+| `Feedback` | string | Optional [Buffer ⏳ helper domain](<../42 🌬️ Streams/03 ⏳🛠️ Buffer helper.md>) name <br/>- if not defined, then no feedback is given
+| [`Translations` 🧩](<16 🧩 Translation schema.md>) | array | Optional translations of the domain name
+|
+
+<br/>
+
+## Definition
+
+> 🤝: [`.MANIFEST/CODE`](<11 🧩 Code schema.md>)
+
+```yaml
 Path: /MANIFEST/IDENTITY
 Name: Domain identification
-Description: > 
-  Information for wallets to present the domain to end users.
 
 Schema:
   Version: 1.0
-
-  Properties:
-    - Domain        # DNS domain name, e.g. any-domain.com (string)
-    - Name          # Optional human readable title of the domain (string)
-    - Description   # Optional human readable description (string)
-    - SmallIcon     # Optional URL to a small icon (20x20)
-    - BigIcon       # Optional URL to a big icon (100x100)
-    - Translations  # Optional list of translations of the domain name.
-    - Feedback      # Optional Buffer ⏳ helper domain name (string)
 
   Format:
     type: object
@@ -33,58 +41,40 @@ Schema:
       Domain: 
         $ref: Domain@nlweb.org/TYPES
         example: any-domain.com
-        description: > 
-          DNS domain name to reach the domain.
-          The DNS registration needs to contain a DKIM with DNSSEC.
-          The following endpoints need to exist:
-          1. https://dtwf.{domain}/inbox (POST, receiving messages)
-          2. https://dtwf.{domain}/manifest (GET, exposing the manifest)
       
       Name: 
         type: string
         example: Any Domain
-        description: 
-          Name displayed by wallets, if there's no matching translation.
-          Translations in the wallet's language take precedence.
-
+        
       SmallIcon: 
         type: string
         format: uri
         example: 'https://picsum.photos/20/20'
-        description: >
-          URL to a small icon (20x20) to be used by wallets.
-
+        
       BigIcon: 
         type: string
         format: uri
         example: 'https://picsum.photos/100/100'
-        description: >
-          URL to a big icon (100x100) to be used by wallets.
+        
+      Feedback:
+        example: any-buffer.com
+        $ref: Domain@.MANIFEST/IDENTITY
 
       Translations: 
         type: array
         uniqueItems: true
-        description: > 
-          List of translations of the domain name.
         items:
           oneOf:
           
-            - $ref: nlweb.org/MANIFEST/TRANSLATION:1.0
+            - $ref: .MANIFEST/TRANSLATION
               example: 
                 Language: en
                 Translation: Name
 
             - type: object
               propertyNames: 
-                $ref: nlweb.org/MANIFEST/TRANSLATION:1.0#Language
+                $ref: Language@.MANIFEST/TRANSLATION
               example: 
                 en: Name
 
-      Feedback:
-        example: any-buffer.com
-        $ref: 
-          nlweb.org/MANIFEST/IDENTITY:1.0#Domain
-        description: >
-          Optional Buffer ⏳ helper domain 
-          to send feedback messages to. 
-          If not defined, then no feedback is given.
+      

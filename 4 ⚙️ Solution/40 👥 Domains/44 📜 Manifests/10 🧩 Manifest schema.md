@@ -6,22 +6,24 @@
 
 <br/>
 
+## Properties
 
 | Property | Type | Notes
 |-|-|-
-| [`Identity`](<14 🧩 Identity schema.md>)  | object | Domain identification.
-| [`Datasets`](<15 🧩 Offer schema.md>)  | array | List of services offered.
-| [`Trusts`](<17 🧩 Trust schema.md>)   | array | List of trusted domains and roles.
-| [`Delegates`](<13 🧩 Delegate schema.md>) | array | List of delegated codes.
-| [`Codes`](<11 🧩 Code schema.md>)     | array | List of defined codes.
+| [`Identity` 🧩](<14 🧩 Identity schema.md>) | object | [Domain 👥](<../41 📨 Msgs/00 👥 Domain.md>) identification
+| [`Datasets` 🧩](<15 🧩 Offer schema.md>)  | array | Optional services offered
+| [`Trusts` 🧩](<17 🧩 Trust schema.md>)   | array | Optional [Trusted 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>) domains and roles
+| [`Codes` 🧩](<11 🧩 Code schema.md>)     | array | Optional [Schema Codes 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) defined
+| [`Delegates` 🧩](<13 🧩 Delegate schema.md>) | array | Optional [Schema Codes 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) delegated
 |
 
 <br/>
 
+## Definition
+
 > 🤝: [`.MANIFEST/CODE`](<11 🧩 Code schema.md>)
 
 ```yaml
-
 Path: /MANIFEST
 Name: Domain Manifest
 
@@ -34,31 +36,24 @@ Schema:
     properties:
 
       Identity:
-        $ref: nlweb.org/MANIFEST/IDENTITY:1.0
+        $ref: .MANIFEST/IDENTITY
 
       Datasets:
         type: array
-        description: list of services offered.
         items: 
-          $ref: nlweb.org/MANIFEST/OFFER:1.0
+          $ref: .MANIFEST/OFFER
 
       Trusts:
         type: array
-        description: >
-          List of trusted domains and roles.
         items:
-          $ref: nlweb.org/MANIFEST/TRUST:1.0
+          $ref: .MANIFEST/TRUST
 
       Delegates:
         type: array
-        description: >
-          List of delegated codes.
         items: 
-          $ref: nlweb.org/MANIFEST/DELEGATE:1.0
+          $ref: .MANIFEST/DELEGATE
 
       Codes: 
         type: array
-        description: >
-          List of defined codes:
         items:
-          $ref: nlweb.org/MANIFEST/CODE:1.0
+          $ref: .MANIFEST/CODE
