@@ -27,7 +27,7 @@ Body:
 | Header    | `From`        | string | `Anonymous`
 |           | `To`          | string    | [Resourcer 🗃️ domain](<../../9 😃 Talkers/90 ☁️ Hosters/02 🗃️🎭 Resourcer role.md>) name
 |           | `Subject`     | string    | `Clone@Resourcer`
-| Body      | `WalletPin`  | string | Pin displayed on the [Wallet 🧑‍🦰](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
+| Body      | `WalletPin`  | string | Pin displayed on the [Wallet 🧑‍🦰](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
 |           | `SyncerPin`   | string | Pin displayed on the [Syncer 🔃](<../../9 😃 Talkers/90 ☁️ Hosters/01 🔃🛠️ Syncer tool.md>)
 |           | `PublicKey`   | string | [Syncer 🔃](<../../9 😃 Talkers/90 ☁️ Hosters/01 🔃🛠️ Syncer tool.md>) public key
 |

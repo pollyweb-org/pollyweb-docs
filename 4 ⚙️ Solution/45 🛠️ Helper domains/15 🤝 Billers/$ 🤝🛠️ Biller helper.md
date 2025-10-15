@@ -10,7 +10,7 @@
     * that handles the terms and lifecycle of payment agreements 
     * between a [Payer 💳 domain](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) and a [Collector 🏦 domain](<../18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) 
     * (e.g., subscriptions, free tiers, direct debits) 
-    * on behalf of [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and [Seller 💵 domains](<../../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>).
+    * on behalf of [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) and [Seller 💵 domains](<../../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>).
 
     ---
     <br/>

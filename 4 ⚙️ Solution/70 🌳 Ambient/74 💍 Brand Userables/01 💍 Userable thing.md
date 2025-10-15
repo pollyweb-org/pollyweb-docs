@@ -19,9 +19,9 @@
     |||
     |-|-
     | 🚨 [Trigger an emergency](<02 💍🚨 Userable emergencies.md>)| Scripted steps to execute on health emergencies.
-    | 📱 [Aid a confused senior](<13 💍📱 Userable senior user.md>) | Inform relatives using someone else's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+    | 📱 [Aid a confused senior](<13 💍📱 Userable senior user.md>) | Inform relatives using someone else's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
     | 🎬 [Cross gates](<14 💍🎬 Userable gates.md>)| Cross an airport border control.
-    | 💳 [Pay a salesperson](<21 💍💳 Userable pay salesperson.md>) | Pay a [Seller 💵 domain](<../../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>) using the [Seller's Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
+    | 💳 [Pay a salesperson](<21 💍💳 Userable pay salesperson.md>) | Pay a [Seller 💵 domain](<../../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>) using the [Seller's Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
     | [💳 Pay seller at a kiosk](<22 💍💳 Userable pay kiosk.md>) | Pay a [Seller 💵 domain](<../../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>) using the [Seller's Kiosk 🖥️](<../../60 🧰 Edge/68 🏪 Terminals/01 🖥️ Info kiosk.md>).
     | [💳 Pay variable-cost rides](<23 💍💳 Userable pay metro.md>) | Pay variable length metropolitan rides.
 

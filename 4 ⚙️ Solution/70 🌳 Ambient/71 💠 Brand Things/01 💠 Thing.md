@@ -95,7 +95,7 @@
     |3| `Print` | The [Printer 🖨️](<../../45 🛠️ Helper domains/60 🖨️ Printers/$ 🖨️🏭 Printer helper.md>) prints the [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) of the [Thing 💠](<01 💠 Thing.md>) into a QR/NFC  smart sticker.
     |4| `Sell` | The [Printer 🖨️](<../../45 🛠️ Helper domains/60 🖨️ Printers/$ 🖨️🏭 Printer helper.md>) distributes the smart sticker to commercial end-users.
     |5| `Buy` | A user buys the smart sticker from a store to stick on a vintage book.
-    |6| `Register` | The user scans it with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to register on their [Custodian 🧳 vault](<05 🧳🗄️ Custodian vault.md>).
+    |6| `Register` | The user scans it with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) to register on their [Custodian 🧳 vault](<05 🧳🗄️ Custodian vault.md>).
     |7| `Chat` | Guest users tap/scan the book's smart sticker to interact with it in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>).
 
     ---
@@ -110,7 +110,7 @@
     |2| `Print` | The [Brand 🍏 domain](<07 🍏🎭 Brand role.md>) orders the physical [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) from a [Printer 🖨️ helper domain](<../../45 🛠️ Helper domains/60 🖨️ Printers/$ 🖨️🏭 Printer helper.md>).
     |3| `Sell` | The [Brand 🍏 domain](<07 🍏🎭 Brand role.md>) sells the physical [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) on a smart collar product bundle.
     |4| `Buy` | A user buys the smart collar from a pet store, and give it to their pet.
-    |5| `Register` | The user scans it with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to register on their [Custodian 🧳 vault](<05 🧳🗄️ Custodian vault.md>).
+    |5| `Register` | The user scans it with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) to register on their [Custodian 🧳 vault](<05 🧳🗄️ Custodian vault.md>).
     |7| `Chat` | Guest users (e.g., vets) tap/scan the pet's smart collar to interact with it in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>).
     
     ---
