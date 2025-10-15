@@ -30,6 +30,6 @@ Body:
 || `Subject` | string | `Subscribe@Streamer`
 |Body | `Stream`| string | Stream key on the [Streamer 🌬️](<../🌬️🎭 Streamer role.md>)
 || `Buffer`| string | [Buffer ⏳ domain](<../../../45 🛠️ Helper domains/27 ⏳ Buffers/⏳🛠️ Buffer helper.md>) name
-|| `Queue` | uuid | Callback for [Push@Buffer 🐌](<../../../45 🛠️ Helper domains/27 ⏳ Buffers/🅰️ Buffer methods/🌬️🐌⏳ Push.md>)
+|| `Queue` | uuid | Callback for [Push@Buffer 🐌](<../../../45 🛠️ Helper domains/27 ⏳ Buffers/⏳🅰️ Buffer methods/🌬️🐌⏳ Push.md>)
 || `Filters`| object | Dictionary of filters (optional)
 |
