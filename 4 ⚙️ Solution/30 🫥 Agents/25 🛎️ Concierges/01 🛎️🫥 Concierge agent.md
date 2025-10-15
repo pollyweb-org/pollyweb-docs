@@ -30,7 +30,7 @@
 
     | #| Category|Step
     |-|-|-
-    |1| `Chat`| On [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) with a [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>), the user asks for a task that requires the help of a [Supplier 🏭 domain](<../../41 🎭 Domain Roles/78 🏭 Suppliers/$ 🏭🎭 Supplier role.md>) (e.g., deliver a pizza).
+    |1| `Chat`| On [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with a [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>), the user asks for a task that requires the help of a [Supplier 🏭 domain](<../../41 🎭 Domain Roles/78 🏭 Suppliers/$ 🏭🎭 Supplier role.md>) (e.g., deliver a pizza).
     |2| `Task` | The [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) invokes the user's [Concierge 🛎️ agent](<01 🛎️🫥 Concierge agent.md>) to handle the task (e.g., find a courier to deliver the pizza).
     |3| `Find`| The [Concierge 🛎️ agent](<01 🛎️🫥 Concierge agent.md>) creates a strategy to execute the task, and ask the user's [Finder 🔎 agent](<../40 🔎 Finders/02 🔎🫥 Finder vault.md>) to find suitable [Supplier 🏭 domains](<../../41 🎭 Domain Roles/78 🏭 Suppliers/$ 🏭🎭 Supplier role.md>) for the steps require to perform the task.
     |4| `Sort`| The [Concierge 🛎️ agent](<01 🛎️🫥 Concierge agent.md>) asks the user's [Curator 🧚 agent](<../30 🧚 Curators/$ 🧚🫥 Curator agent.md>) to filter and sort the list of [Supplier 🏭 domains](<../../41 🎭 Domain Roles/78 🏭 Suppliers/$ 🏭🎭 Supplier role.md>)  according to the user's preferences and restrictions.

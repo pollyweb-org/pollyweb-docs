@@ -14,7 +14,7 @@
     <br/>
 
 
-1. **What does a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) look like for required binds?**
+1. **What does a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) look like for required binds?**
 
     > It's an all-or-nothing, where `No` stops the flow.
 
@@ -29,7 +29,7 @@
 
 
 
-1. **What does a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) look like for optional binds?**
+1. **What does a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) look like for optional binds?**
 
     > There are checkboxes for the user to select, and `No` continues.
 

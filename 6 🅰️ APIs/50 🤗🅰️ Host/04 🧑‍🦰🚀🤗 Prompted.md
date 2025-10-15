@@ -29,7 +29,7 @@ Body:
 | Header    | `From`        | string    | `Anonymous`
 |           | `To`          | string    | [Sender 🤗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) from [`Prompt@Notifier`](<../65 📣🅰️ Notifier/02 📣💬🅰️ Chats/21 🤵🐌📣 Prompt.md>)
 |           | `Subject`     | string    | `Prompted@Host`
-| Body      | `ChatID` | uuid | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) ID from [`Prompt@Notifier`](<../65 📣🅰️ Notifier/02 📣💬🅰️ Chats/21 🤵🐌📣 Prompt.md>)
+| Body      | `ChatID` | uuid | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID from [`Prompt@Notifier`](<../65 📣🅰️ Notifier/02 📣💬🅰️ Chats/21 🤵🐌📣 Prompt.md>)
 || `PromptID`    | uuid      | [Prompt 🤔](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) ID from [`Prompt@Notifier`](<../65 📣🅰️ Notifier/02 📣💬🅰️ Chats/21 🤵🐌📣 Prompt.md>)
 |
 
@@ -57,7 +57,7 @@ Options:                            # Optional
 |Property|Type|Description
 |-|-|-
 | [`Format`](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>)  | string | One format supported by [Prompts 🤔](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>)
-| [`Statement`](<../../9 😃 Talkers/20 🤔 Prompts/1 📘 Prompt specs/02 🪧 Statement.md>) | string | Main message,  to display in the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
+| [`Statement`](<../../9 😃 Talkers/20 🤔 Prompts/1 📘 Prompt specs/02 🪧 Statement.md>) | string | Main message,  to display in the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
 | [`MinValue`](<../../9 😃 Talkers/20 🤔 Prompts/2 ✏️ Input specs/13 📋 Input validation.md>) | int | Optional minimum value
 | [`MaxValue`](<../../9 😃 Talkers/20 🤔 Prompts/2 ✏️ Input specs/13 📋 Input validation.md>) | int | Optional maximum value
 | [`Appendix`](<../../9 😃 Talkers/20 🤔 Prompts/1 📘 Prompt specs/05 📎 with Appendix.md>)| uuid   | File to download via [`Download@Host`](<06 🧑‍🦰🚀🤗 Download.md>)

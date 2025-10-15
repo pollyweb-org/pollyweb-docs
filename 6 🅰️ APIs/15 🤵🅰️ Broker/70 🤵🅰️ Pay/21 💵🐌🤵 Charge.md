@@ -25,7 +25,7 @@
     - [To 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>): `any-broker.com`
     - [Subject 📨](<../../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>): `Charge@Broker`
 - Body:
-    - [ChatID 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>): `<session-uuid@seller>`
+    - [ChatID 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>): `<session-uuid@seller>`
     - Statement: `<reason-for-charge>`
     - Charge:
         - ChargeID: `<charge-uuid@seller>`

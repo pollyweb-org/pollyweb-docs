@@ -4,7 +4,7 @@
 1. **What is a Host domain role in NLWeb?**
 
     A [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) with a [Host 🤗 domain role](<04 🤗🎭 Host role.md>) is any [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) that
-    * hosts a [Chat 💬](<01 💬 Chat.md>) with [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) 
+    * hosts a [Chat 💬](<$ 💬 Chat.md>) with [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) 
     * via a [Broker 🤵 domain](<../03 🤵 Brokers/$ 🤵 Broker domain.md>). 
 
     ---
@@ -17,7 +17,7 @@
     |#|Category|Step
     |-|-|-
     |1| `Hello`| The [user's Broker 🤵 domain](<../03 🤵 Brokers/$ 🤵 Broker domain.md>) checks-in into a [Host 🤗 domain](<04 🤗🎭 Host role.md>), passing it context parameters, [Binds 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>), and [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>).
-    |2| `Chat` | The [Host 🤗 domain](<04 🤗🎭 Host role.md>) sets a new [Chat 💬](<01 💬 Chat.md>) context.
+    |2| `Chat` | The [Host 🤗 domain](<04 🤗🎭 Host role.md>) sets a new [Chat 💬](<$ 💬 Chat.md>) context.
     |3| `Interact` | The [Host 🤗 domain](<04 🤗🎭 Host role.md>) starts interacting with prompts.
 
     ---
@@ -27,17 +27,17 @@
 
 1. **How are users protected from stalking from Hosts?**
 
-    NLWeb sees [Chats 💬](<01 💬 Chat.md>) as temporary sessions, always initiated by users; 
-    - i.e., the [Host 🤗 domain](<04 🤗🎭 Host role.md>) receives a temporary ID from the [user's Broker 🤵 domain](<../03 🤵 Brokers/$ 🤵 Broker domain.md>) when the [Chat 💬 session](<01 💬 Chat.md>)  is open, but no other ID to track the user across sessions;
-    - although [Host 🤗 domains](<04 🤗🎭 Host role.md>) can proactively send messages on an open [Chat 💬 session](<01 💬 Chat.md>), users can close the session at any time. 
+    NLWeb sees [Chats 💬](<$ 💬 Chat.md>) as temporary sessions, always initiated by users; 
+    - i.e., the [Host 🤗 domain](<04 🤗🎭 Host role.md>) receives a temporary ID from the [user's Broker 🤵 domain](<../03 🤵 Brokers/$ 🤵 Broker domain.md>) when the [Chat 💬 session](<$ 💬 Chat.md>)  is open, but no other ID to track the user across sessions;
+    - although [Host 🤗 domains](<04 🤗🎭 Host role.md>) can proactively send messages on an open [Chat 💬 session](<$ 💬 Chat.md>), users can close the session at any time. 
 
     ---
     <br/>
 
 1. **What incentives do Hosts have to close sessions?**
 
-    [Advertising 👀](<../../../2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape/00 👀 Advertising index.md>) is triggered at the end of a [Chat 💬](<01 💬 Chat.md>) for next-best actions.
-    - Thus, [Host 🤗 domains](<04 🤗🎭 Host role.md>) willing to monetize via cross-domain advertising are incentivized to close [Chats 💬](<01 💬 Chat.md>). 
+    [Advertising 👀](<../../../2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape/00 👀 Advertising index.md>) is triggered at the end of a [Chat 💬](<$ 💬 Chat.md>) for next-best actions.
+    - Thus, [Host 🤗 domains](<04 🤗🎭 Host role.md>) willing to monetize via cross-domain advertising are incentivized to close [Chats 💬](<$ 💬 Chat.md>). 
     - See the [Advertiser 👀 helper domains](<../../45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) for details.
 
     ---
@@ -54,7 +54,7 @@
 1. **What proxy services are involved in the flow?**
 
     [Messages 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) sent from [Host 🤗 domains](<04 🤗🎭 Host role.md>) first reach the user's [Broker 🤵 domain](<../03 🤵 Brokers/$ 🤵 Broker domain.md>) via HTTPS POST:
-    - these [Broker 🤵 domains](<../03 🤵 Brokers/$ 🤵 Broker domain.md>) are responsible for orchestrating [Chats 💬](<01 💬 Chat.md>) between users and [Host 🤗 domains](<04 🤗🎭 Host role.md>) using the NLWeb protocol, 
+    - these [Broker 🤵 domains](<../03 🤵 Brokers/$ 🤵 Broker domain.md>) are responsible for orchestrating [Chats 💬](<$ 💬 Chat.md>) between users and [Host 🤗 domains](<04 🤗🎭 Host role.md>) using the NLWeb protocol, 
     - and they are typically implemented by a main cloud provider that is able to ensure high availability and low latency communication between globally dispersed entities. 
     
     The [user's Broker 🤵 domain](<../03 🤵 Brokers/$ 🤵 Broker domain.md>) then sends the message to a [user's Notifier 📣 domain](<../02 📣 Notifiers/$ 📣 Notifier domain.md>), also via HTTPS POST:
@@ -99,8 +99,8 @@
 
     | Flow ⏩ | Description
     |-|-
-    | [🤔 `Prompt`](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | Sends a [Prompt 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) to a user [Chat 💬](<01 💬 Chat.md>)
-    | [🛠️ `Invite`](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>) | Invites a [Helper 🛠️ domain](<../../45 🛠️ Helper domains/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) to a [Chat 💬](<01 💬 Chat.md>)
+    | [🤔 `Prompt`](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | Sends a [Prompt 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) to a user [Chat 💬](<$ 💬 Chat.md>)
+    | [🛠️ `Invite`](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>) | Invites a [Helper 🛠️ domain](<../../45 🛠️ Helper domains/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) to a [Chat 💬](<$ 💬 Chat.md>)
     | [📝 `Form`](<../../41 🎭 Domain Roles/27 💼 Consumers/02 💼⏩🧑‍🦰 Inform 📝.md>) | Informs a user on upcoming [Inputs ✏️](<../../../9 😃 Talkers/20 🤔 Prompts/1 📘 Prompt specs/09 ✏️ as Input.md>)
     | [❄️ `Freeze`](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/06 🤗⏩🧑‍🦰 Freeze ❄️.md>) | Blocks changes on all previous [Inputs ✏️](<../../../9 😃 Talkers/20 🤔 Prompts/1 📘 Prompt specs/09 ✏️ as Input.md>)
     | [👋 `Goodbye`](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/07 🤗⏩🧑‍🦰 Goodbye 👋.md>) | Triggers the [advertising 👀](<../../45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) flow
@@ -113,15 +113,15 @@
 
     | [From 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Subject 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) | Description
     |-|-|-
-    |[🤵 Broker](<../03 🤵 Brokers/$ 🤵 Broker domain.md>) | [`Hello`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/01 🤵🐌🤗 Hello.md>) | The user started a [Chat 💬](<01 💬 Chat.md>)
-    | | [`Home`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/02 🤵🐌🤗 Home.md>) | Show the top menu on the [Chat 💬](<01 💬 Chat.md>)
-    | | [`Abandoned`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/03 🤵🐌🤗 Abandoned.md>) |  The user abandoned a [Chat 💬](<01 💬 Chat.md>)
-    | | [`Summarize`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/10 🤵🐌🤗 Summarize.md>) | Return a [Chat 💬](<01 💬 Chat.md>) advertising summary
+    |[🤵 Broker](<../03 🤵 Brokers/$ 🤵 Broker domain.md>) | [`Hello`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/01 🤵🐌🤗 Hello.md>) | The user started a [Chat 💬](<$ 💬 Chat.md>)
+    | | [`Home`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/02 🤵🐌🤗 Home.md>) | Show the top menu on the [Chat 💬](<$ 💬 Chat.md>)
+    | | [`Abandoned`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/03 🤵🐌🤗 Abandoned.md>) |  The user abandoned a [Chat 💬](<$ 💬 Chat.md>)
+    | | [`Summarize`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/10 🤵🐌🤗 Summarize.md>) | Return a [Chat 💬](<$ 💬 Chat.md>) advertising summary
     |[🧑‍🦰 Wallet](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) | [`Prompted`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) | Return a [Prompt's 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) content
     | | [`Reply`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) | Accept the reply to a [Prompt 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>)
     | | [`Download`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/06 🧑‍🦰🚀🤗 Download.md>) | Download an [Appendix 📎](<../../../9 😃 Talkers/20 🤔 Prompts/1 📘 Prompt specs/05 📎 with Appendix.md>)
     [🖐️ Palmist](<../../60 🧰 Edge/63 🖐️ Palmists/01 🖐️🔌 Palmist device.md>) | [`Found`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/08 🖐️🐌🤗 Found.md>) | A [Palmist 🖐️](<../../60 🧰 Edge/63 🖐️ Palmists/01 🖐️🔌 Palmist device.md>) found the Chat's user
-    [⭐ Reviewer](<../../30 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) | [`Rated`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/09 ⭐🐌🤗 Rated.md>) | The [Chat 💬](<01 💬 Chat.md>) received user reviews
+    [⭐ Reviewer](<../../30 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) | [`Rated`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/09 ⭐🐌🤗 Rated.md>) | The [Chat 💬](<$ 💬 Chat.md>) received user reviews
     
 
     ---
