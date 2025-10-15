@@ -73,7 +73,7 @@
     |-|-|-
     |1| `Find` | [Find 🔎](<../../50 🫥 Agents/40 🔎 Finders/$ 🔎🫥 Finder agent.md>) a [Helper 🛠️ ](<$ 🛠️👥 Helper domain.md>) with the desired services
     |2| `Chat` | [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with the Helper's [Host 🤗 role](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>)
-    |3| `Bind`| [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) to the Helper's [Vault 🗄️ role](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>)
+    |3| `Bind`| [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) to the Helper's [Vault 🗄️ role](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>)
     |4| `Bill` | Subscribe a plan in the Helper's [Biller 🤝](<../20 🤝 Billers/$ 🤝🛠️ Biller helper.md>)
     |5| `Link` | Link a [Payer 💳](<../../50 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) with the Helper's [Biller 🤝](<../20 🤝 Billers/$ 🤝🛠️ Biller helper.md>)
 

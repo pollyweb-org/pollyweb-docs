@@ -84,7 +84,7 @@
 
     For example, consider an airline requesting passport data for a flight check-in from a citizen with dual British and American nationalities:
     * the airline may ask for the `icao.int/PASSPORT`  [Schema Code 🧩](<$ 🧩 Schema Code.md>)
-    * and receive datasets from the user's `uk.gov` and `usa.gov` [Binds 🔗](<../20 🔗 Binds/$ 🔗 Bind.md>).
+    * and receive datasets from the user's `uk.gov` and `usa.gov` [Binds 🔗](<../20 🔗 Binds/🔗 Bind.md>).
         ```yaml
         # Sample request to share user data.
         Header:

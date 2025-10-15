@@ -91,7 +91,7 @@
 1. **Is the user's data stored on the editor?**
 
     No. 
-    - Folders 🗂️ only store a references to [Wallets 🔗](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) and [Binds 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>).
+    - Folders 🗂️ only store a references to [Wallets 🔗](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) and [Binds 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>).
 
     ---
 
