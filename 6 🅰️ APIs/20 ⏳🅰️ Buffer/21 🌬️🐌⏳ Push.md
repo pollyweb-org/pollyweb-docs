@@ -1,6 +1,6 @@
 # 🌬️🐌⏳ Push @ Buffer
 
-> Implements a [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/45 Helpers/10 ⏳ Buffers/03 ⏳🛠️ Buffer helper.md>)
+> Implements a [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/45 Helpers/10 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>)
 
 > Used in [Stream @ Streamer 🌬️⏩🔔](<../../5 ⏩ Flows/76  🌬️⏩ Streamers/01 🌬️⏩🔔 Stream.md>) flow
 
@@ -23,7 +23,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 |Header|`From` | string | [Streamer 🌬️ domain](<../../4 ⚙️ Solution/40 👥 Domains/42 🌬️ Streams/02 🌬️🎭 Streamer role.md>) name
-||`To`| string | [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/45 Helpers/10 ⏳ Buffers/03 ⏳🛠️ Buffer helper.md>) name
+||`To`| string | [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/45 Helpers/10 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) name
 ||`Subject`| string | `Push@Buffer`
 |Body| `Subscriber`| string | [Subscriber 🔔 domain](<../../4 ⚙️ Solution/40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) name
 || `Queue`| uuid | Queue from [`Queue@Buffer`](<12 🔔🐌⏳ Queue.md>)

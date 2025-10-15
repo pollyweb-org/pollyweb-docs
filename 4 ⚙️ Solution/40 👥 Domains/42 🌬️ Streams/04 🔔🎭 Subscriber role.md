@@ -4,7 +4,7 @@
 1. **What is a Subscriber domain role in NLWeb?**
 
     A Subscriber 🔔 is any [domain 👥](<../41 📨 Messages/00 👥 Domain.md>) that 
-    * leverages a [Buffer ⏳ helper domain](<../../45 Helpers/10 ⏳ Buffers/03 ⏳🛠️ Buffer helper.md>) 
+    * leverages a [Buffer ⏳ helper domain](<../../45 Helpers/10 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) 
     * to subscribe to events from a [Streamer 🌬️ domain](<02 🌬️🎭 Streamer role.md>).
 
     ---
@@ -16,11 +16,11 @@
 
     |#| Step
     |-|-
-    |1| A [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) binds one single time with a selected [Buffer ⏳ helper domain](<../../45 Helpers/10 ⏳ Buffers/03 ⏳🛠️ Buffer helper.md>).
-    |2| The [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) then subscribes to a stream from a [Streamer 🌬️ domain](<02 🌬️🎭 Streamer role.md>), informing the [Buffer ⏳ helper domain](<../../45 Helpers/10 ⏳ Buffers/03 ⏳🛠️ Buffer helper.md>).
-    |3| The [Streamer 🌬️ domain](<02 🌬️🎭 Streamer role.md>) pushes an encrypted event through the [Buffer ⏳ helper domain](<../../45 Helpers/10 ⏳ Buffers/03 ⏳🛠️ Buffer helper.md>), who places it in a queue.
-    |4| If the queue in the [Buffer ⏳ helper domain](<../../45 Helpers/10 ⏳ Buffers/03 ⏳🛠️ Buffer helper.md>) is empty, then it wakes up the [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) to start polling.
-    |5| The [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) polls event [3] from the [Buffer ⏳ helper domain](<../../45 Helpers/10 ⏳ Buffers/03 ⏳🛠️ Buffer helper.md>), and decrypts it with its [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) private key.
+    |1| A [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) binds one single time with a selected [Buffer ⏳ helper domain](<../../45 Helpers/10 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>).
+    |2| The [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) then subscribes to a stream from a [Streamer 🌬️ domain](<02 🌬️🎭 Streamer role.md>), informing the [Buffer ⏳ helper domain](<../../45 Helpers/10 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>).
+    |3| The [Streamer 🌬️ domain](<02 🌬️🎭 Streamer role.md>) pushes an encrypted event through the [Buffer ⏳ helper domain](<../../45 Helpers/10 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>), who places it in a queue.
+    |4| If the queue in the [Buffer ⏳ helper domain](<../../45 Helpers/10 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) is empty, then it wakes up the [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) to start polling.
+    |5| The [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) polls event [3] from the [Buffer ⏳ helper domain](<../../45 Helpers/10 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>), and decrypts it with its [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) private key.
     |6| The [Streamer 🌬️ domain](<02 🌬️🎭 Streamer role.md>) pushes another encrypted event.
     |7| The [Streamer 🌬️ domain](<02 🌬️🎭 Streamer role.md>) pushes yet another encrypted event.
     |8| The [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) polls again, consuming events [6] and [7].
@@ -33,8 +33,8 @@
 1. **Do Subscribers implement a push or a poll architecture?**
 
     [Subscriber 🔔 domains](<04 🔔🎭 Subscriber role.md>) implement a combination of both:
-    - they support push wake-up notifications from their bound [Buffer ⏳ helper domain](<../../45 Helpers/10 ⏳ Buffers/03 ⏳🛠️ Buffer helper.md>);
-    - then poll events from [Buffer ⏳ helper domain](<../../45 Helpers/10 ⏳ Buffers/03 ⏳🛠️ Buffer helper.md>) until no events are returned.
+    - they support push wake-up notifications from their bound [Buffer ⏳ helper domain](<../../45 Helpers/10 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>);
+    - then poll events from [Buffer ⏳ helper domain](<../../45 Helpers/10 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) until no events are returned.
 
     ---
     <br/>
@@ -55,7 +55,7 @@
     
     No. 
     * [Subscriber 🔔 domains](<04 🔔🎭 Subscriber role.md>) can sleep when no events are returned from a poll. 
-    * [Buffer ⏳ helper domains](<../../45 Helpers/10 ⏳ Buffers/03 ⏳🛠️ Buffer helper.md>) will wake up [Subscriber 🔔 domains](<04 🔔🎭 Subscriber role.md>) whenever necessary. 
+    * [Buffer ⏳ helper domains](<../../45 Helpers/10 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) will wake up [Subscriber 🔔 domains](<04 🔔🎭 Subscriber role.md>) whenever necessary. 
 
     ---
     <br/>
@@ -65,7 +65,7 @@
 1. **Can a Subscriber perform multiple polls in parallel?**
 
     Yes, except when using FIFO (first-in-first-out).
-    * [Buffer ⏳ helper domains](<../../45 Helpers/10 ⏳ Buffers/03 ⏳🛠️ Buffer helper.md>) manage the visibility of in-flight events, allowing [Subscriber 🔔 domains](<04 🔔🎭 Subscriber role.md>) to perform polls in parallel.
+    * [Buffer ⏳ helper domains](<../../45 Helpers/10 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) manage the visibility of in-flight events, allowing [Subscriber 🔔 domains](<04 🔔🎭 Subscriber role.md>) to perform polls in parallel.
     * After a [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) pools an event, it needs to confirm its successful handing.
     * Otherwise,  after a pre-defined time, the event will become available again for polling.
 
