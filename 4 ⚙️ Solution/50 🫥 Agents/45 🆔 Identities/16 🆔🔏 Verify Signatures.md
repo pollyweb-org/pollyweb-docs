@@ -5,7 +5,7 @@ TODO: Create the API methods
 🔏 Verify user signatures in files
 ===
 
-> Part of [Identity 🆔 domains](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>)
+> Part of [Identity 🆔 domains](<$ 🆔🫥 Identity agent.md>)
 
 <br/> 
 
@@ -24,8 +24,8 @@ TODO: Create the API methods
     | [Domain](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 🤗 [Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>)    | ℹ️ Sign the terms. 
-    | 🆔 [Identity](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Sign terms? 📄 [Yes, No] | > Yes
-    | 🆔 [Identity](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<21 🆔😶 Face scan.md>)
+    | 🆔 [Identity](<$ 🆔🫥 Identity agent.md>) | 🫥 Sign terms? 📄 [Yes, No] | > Yes
+    | 🆔 [Identity](<$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<21 🆔😶 Face scan.md>)
     | 🤗 [Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) | ✅ Thanks for signing!
 
     ---
@@ -49,7 +49,7 @@ TODO: Create the API methods
     On NLWeb, documents are files (e.g., PDF, PNG) 
     * this allows users to visualize the full final version of the document, similar to what humans do today with any paper document. 
 
-    A user signature is an offline [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) issued by an [Identity 🆔 domain](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) that they [trust 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) confirming that:
+    A user signature is an offline [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) issued by an [Identity 🆔 domain](<$ 🆔🫥 Identity agent.md>) that they [trust 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) confirming that:
     - 1/ the signature is for a file with the given hash; and
     - 2/ the human holding the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) has the given personally identifiable information (PII).
     
@@ -61,7 +61,7 @@ TODO: Create the API methods
     - **user PII (e.g., passport number)** - this allows the Identity domain to match the Host's intent with the user 
       - e.g., ensure the request matches the tenant and not the landlord in a renting contract; 
     - **a signature placeholder ID**, representing the requested [signature](<16 🆔🔏 Verify Signatures.md>) in the contract 
-        - this allows the [Identity 🆔 domain](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) to reference the Host's original request.
+        - this allows the [Identity 🆔 domain](<$ 🆔🫥 Identity agent.md>) to reference the Host's original request.
 
     ---
     <br/>
@@ -79,9 +79,9 @@ TODO: Create the API methods
     | 2| [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) validate the hash against the PDF bytes
     | 3| [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) show the PDF content to the user
     | 4| Users accept the PDF content and the signature request;
-    | 5| [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) ask [Identities 🆔](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) to sign the hash on users' behalf 
-    | 6| [Identities 🆔](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) authenticate users (e.g., with face biometrics)
-    | 7| [Identities 🆔](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) issue a signature [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) and send it to [Hosts 🤗](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>)
+    | 5| [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) ask [Identities 🆔](<$ 🆔🫥 Identity agent.md>) to sign the hash on users' behalf 
+    | 6| [Identities 🆔](<$ 🆔🫥 Identity agent.md>) authenticate users (e.g., with face biometrics)
+    | 7| [Identities 🆔](<$ 🆔🫥 Identity agent.md>) issue a signature [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) and send it to [Hosts 🤗](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>)
     | 8| [Hosts 🤗](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) verify if the Token's data matches the original request
 
     ---
@@ -93,24 +93,24 @@ TODO: Create the API methods
 
     Users do not sign files directly - instead, they ask their Identity domains to sign the files.  
     
-    * Users tell to their [Identity 🆔 domain](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>)  that they are happy with the document, and that they allow the [Identity 🆔 domain](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) to sign the document on their behalf. 
+    * Users tell to their [Identity 🆔 domain](<$ 🆔🫥 Identity agent.md>)  that they are happy with the document, and that they allow the [Identity 🆔 domain](<$ 🆔🫥 Identity agent.md>) to sign the document on their behalf. 
     
-    * [Identity 🆔 domains](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>)  perform additional validations to ensure that the wallet's owner is signing, and not an attacker impersonating them (e.g., face biometrics, geolocation, OTP). 
+    * [Identity 🆔 domains](<$ 🆔🫥 Identity agent.md>)  perform additional validations to ensure that the wallet's owner is signing, and not an attacker impersonating them (e.g., face biometrics, geolocation, OTP). 
     
-    * The [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) attached to the file is signed by the [Identity 🆔 domain](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>), with an Identity-bound reference to the user.
+    * The [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) attached to the file is signed by the [Identity 🆔 domain](<$ 🆔🫥 Identity agent.md>), with an Identity-bound reference to the user.
 
     ---
     <br/> 
     
 1. **How do domains verify user signatures?**
 
-    Domains accept user signatures verified by [Identity 🆔 domains](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) that they [trust 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>). 
+    Domains accept user signatures verified by [Identity 🆔 domains](<$ 🆔🫥 Identity agent.md>) that they [trust 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>). 
     
     * When a domain sends a file for the user to sign, it sends also a placeholder ID of that user in the document 
       * e.g., a renting contract needs signatures from the landlord, guarantor, and tenant. 
-      * [Identity 🆔 domains](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) include the received placeholder ID in the [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>), matching the user to the placeholder ID. 
+      * [Identity 🆔 domains](<$ 🆔🫥 Identity agent.md>) include the received placeholder ID in the [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>), matching the user to the placeholder ID. 
     
-    * Any domain can later ask the [Identity 🆔 domain](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) for details about the signature 
+    * Any domain can later ask the [Identity 🆔 domain](<$ 🆔🫥 Identity agent.md>) for details about the signature 
       * e.g., Alex accepted the contract as tenant on July 3rd, using face biometrics, OTP, and a safe question.
 
     ---
@@ -119,8 +119,8 @@ TODO: Create the API methods
 1. **What data is contained in a user-signature file Token?**
 
     A user-signature file [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) contains:
-    * the [Identity 🆔 domain](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>)  - e.g., `any-identity.com`
-    * the user reference in the [Identity 🆔 domain](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) - e.g., `user-1234`
+    * the [Identity 🆔 domain](<$ 🆔🫥 Identity agent.md>)  - e.g., `any-identity.com`
+    * the user reference in the [Identity 🆔 domain](<$ 🆔🫥 Identity agent.md>) - e.g., `user-1234`
     * the issue timestamp in UTC - e.g., `2024-09-21T12:34:00Z`
     * the sender's domain - e.g., `any-landlord.com`
     * the placeholder reference in the sender's domain - e.g., `contract-1234-tenent`

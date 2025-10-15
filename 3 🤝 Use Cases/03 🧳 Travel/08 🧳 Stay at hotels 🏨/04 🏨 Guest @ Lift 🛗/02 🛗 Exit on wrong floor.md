@@ -8,5 +8,5 @@ How to find the room at the wrong floor?
 | 🏨 Hotel  | ❌ You're at the 6th floor: <br> - you're not allowed here!
 | 🏨 Hotel  | 😃 Hi! What do you need? <br/> - Go to my [ room 🛏️ ] <br/> - Go to [ reception 🛎️ ] <br> - ... | > room 🛏️
 | 🏨 Hotel  | ✅ Take lift B to 7th [+]
-| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? 
+| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? 
 ||

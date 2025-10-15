@@ -8,8 +8,8 @@ How to collect payments from customer at salons?
 | 💈 Salon   | ℹ️ Issued $40 bill <br/> - [ Tap ] to collect | > Tap
 | [🏦 Collector](<../../../../4 ⚙️ Solution/45 🛠️ Helper domains/30 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) | 🫥 Tap the userable [+] | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>)
 | [🏦 Collector](<../../../../4 ⚙️ Solution/45 🛠️ Helper domains/30 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) | ⏳ Collecting payment...
-| 🆔 [Identity](<../../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Ready for ID check? [Yes]     | > Yes
-| 🆔 [Identity](<../../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/21 🆔😶 Face scan.md>)
+| 🆔 [Identity](<../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Ready for ID check? [Yes]     | > Yes
+| 🆔 [Identity](<../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/21 🆔😶 Face scan.md>)
 | [🏦 Collector](<../../../../4 ⚙️ Solution/45 🛠️ Helper domains/30 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) | ⏳ Collecting payment...
 | 🍲 Restaurant | ✅ Alice paid [+]
 | ...

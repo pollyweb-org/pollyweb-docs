@@ -10,5 +10,5 @@ How to handle a closed hotel door at night?
 | 🏨 Hotel  | ℹ️ This is the back door. <br/> - this door is closed at night.
 | 🏨 Hotel  | 😃 Hi! What do you need? <br/> - The [ reception 🛎️ ] <br/> - [ Something else ] | > reception 🛎️
  | 🏨 Hotel  | ✅ Go to the main door: <br/> - take a right <br/> - go around the building.
-| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? 
+| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? 
 ||

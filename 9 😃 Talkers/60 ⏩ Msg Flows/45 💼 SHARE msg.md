@@ -100,10 +100,10 @@
 
     |Data | Use case|
     |-|-
-    | 🆔 [Identity](<../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>)  |[Prove 21+ to enter a casino 🎰](<../../3 🤝 Use Cases/02 🍲 Eat & Drink/10 🎰 Casinos/11 🚪 Enter anonymously.md>)
+    | 🆔 [Identity](<../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>)  |[Prove 21+ to enter a casino 🎰](<../../3 🤝 Use Cases/02 🍲 Eat & Drink/10 🎰 Casinos/11 🚪 Enter anonymously.md>)
     | 🧚 [Curator](<../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | [Drinking preferences at a bar 🍸](<../../3 🤝 Use Cases/02 🍲 Eat & Drink/30 🍸 Bars/21 🪑 Seat: Order water.md>)
     | 🧢 [Persona](<../../4 ⚙️ Solution/50 🫥 Agents/70 🧢 Personas/$ 🧢🫥 Persona agent.md>) | [Name to be called when food is ready 🌭](<../../3 🤝 Use Cases/02 🍲 Eat & Drink/50 🌭 Street food/21 🎪 Stall: Buy hot dog 🌭.md>)
-    | [🗓️ Scheduler](<../../4 ⚙️ Solution/50 🫥 Agents/75 🗓️ Schedulers/$ 🗓️🗄️ Scheduler agent.md>) | [Date and time for a table reservation 🍽️](<../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/31 🌐 Web: Book table 🗓️.md>)
+    | [🗓️ Scheduler](<../../4 ⚙️ Solution/50 🫥 Agents/75 🗓️ Schedulers/$ 🗓️🫥 Scheduler agent.md>) | [Date and time for a table reservation 🍽️](<../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/31 🌐 Web: Book table 🗓️.md>)
     | 🧢 [Persona](<../../4 ⚙️ Solution/50 🫥 Agents/70 🧢 Personas/$ 🧢🫥 Persona agent.md>) | [Booking contacts to reserve a table 🍽️](<../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/31 🌐 Web: Book table 🗓️.md>)
 
     ---

@@ -12,7 +12,7 @@ How to request an immediate ride?
 | 🙋 Hailing | ℹ️ Received preferences: [Change] <br/> - comfort or above car <br/> - english speaker driver <br/> - warm and quiet ride 
 | 🙋 Hailing | 😃 How many people? [1, 2, more] | > 1
 | 🙋 Hailing | 😃 Any bags? [Yes, No] | > No
-| [🗓️ Scheduler](<../../../../4 ⚙️ Solution/50 🫥 Agents/75 🗓️ Schedulers/$ 🗓️🗄️ Scheduler agent.md>) | 🫥 Confirm ride? [Yes, No] <br/>- pick-up ~9:05 <br/>- drop-off ~9:45 <br/> - your flight is at 17:35. | > Yes
+| [🗓️ Scheduler](<../../../../4 ⚙️ Solution/50 🫥 Agents/75 🗓️ Schedulers/$ 🗓️🫥 Scheduler agent.md>) | 🫥 Confirm ride? [Yes, No] <br/>- pick-up ~9:05 <br/>- drop-off ~9:45 <br/> - your flight is at 17:35. | > Yes
 | 💳 [Payer](<../../../../4 ⚙️ Solution/50 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Pay $12.95 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
 | 🙋 Hailing | ⏳ [Assigning you a driver...](<../../../../9 😃 Talkers/20 🤔 Prompts/4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>)<br/>- [ Cancel request ]
 | 🙋 Hailing | ℹ️ Driver assigned: <br/>- it's Daniel <br/>- on a black Tesla, ABC123 <br/> - on arrival, tap the seat to confirm.

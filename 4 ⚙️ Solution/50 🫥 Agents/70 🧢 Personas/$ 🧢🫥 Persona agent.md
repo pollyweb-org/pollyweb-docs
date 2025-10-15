@@ -34,7 +34,7 @@
 
     | Domain | Purpose
     |-|-
-    | [🛎️ Concierge](<../25 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>) | Subscribes to delivery and contact changes.
+    | [🛎️ Concierge](<../25 🛎️ Concierges/$ 🛎️🫥 Concierge agent.md>) | Subscribes to delivery and contact changes.
     | [🧚 Curator](<../30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | subscribes to multiple types of user preferences.
     | [📇 Mingler](<../50 📇 Minglers/$ 📇🫥 Mingler agent.md>) | Subscribes to contact preferences.
 
@@ -52,7 +52,7 @@
 
     [Persona 🧢 vaults](<$ 🧢🫥 Persona agent.md>) are controlled by users, allowing them to define their preferences according to specific circumstances (e.g., a user may have different preferences when traveling for work or on family holidays). 
     
-    - Conversely, [Identity 🆔 vaults](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>)  are controlled by nations on behalf of their citizens (e.g., the UK), allowing users to legally identity themselves at home and abroad.
+    - Conversely, [Identity 🆔 vaults](<../45 🆔 Identities/$ 🆔🫥 Identity agent.md>)  are controlled by nations on behalf of their citizens (e.g., the UK), allowing users to legally identity themselves at home and abroad.
 
 
     ---

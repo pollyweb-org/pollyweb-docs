@@ -32,6 +32,6 @@
 
 1. **Can Advisors perform tasks on behalf of users?**
 
-    NLWeb advocates for tasks to be delegated to the user's [Concierge 🛎️](<../25 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>).
+    NLWeb advocates for tasks to be delegated to the user's [Concierge 🛎️](<../25 🛎️ Concierges/$ 🛎️🫥 Concierge agent.md>).
 
     ---

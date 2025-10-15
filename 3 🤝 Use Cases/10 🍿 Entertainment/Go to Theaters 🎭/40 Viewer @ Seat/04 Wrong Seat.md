@@ -10,5 +10,5 @@ Find the right seat at a theatre 🎭
 | 🎭 Venue | ❌ You're at seat C9 [+] 
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/50 🫥 Agents/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | ⓘ This is not your seat [+] <br> - you're in the wrong row and seat <br/> - you have tickets for B10 and B12 <br/> - so, you should be in row B, not row C <br/> - your seats are even numbers <br/> - so, they're on the right, not the left.
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/50 🫥 Agents/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | ⓘ Direction to your seat [+] <br/> - move one row forward to row B <br/> - go towards the right side of the row <br/> - find seats 10 and 12 <br/> - and tap them to re-confirm.
-| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? 
+| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? 
 ||
