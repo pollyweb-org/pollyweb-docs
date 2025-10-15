@@ -60,7 +60,7 @@ Body:
 
 1. **Are suspended Tokens shared?**
 
-    For [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>), 
+    For [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/$ 🎫 Token.md>), 
     * only shows the ones that are active,
     * i.e., within the start and expiration date.
 
@@ -70,7 +70,7 @@ Body:
 1. **How are SELF Tokens are shared?**
 
     For the [Schema Codes 🧩](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) marked with SELF, 
-    * only shows the [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) issued by the [Consumer 💼 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>),
+    * only shows the [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/$ 🎫 Token.md>) issued by the [Consumer 💼 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>),
     * e.g., [`.BOOKING/SELF 🧩`](<../../../7 🧩 Codes/HOST/🧩 HostBookingSelf.md>).
 
     ---
