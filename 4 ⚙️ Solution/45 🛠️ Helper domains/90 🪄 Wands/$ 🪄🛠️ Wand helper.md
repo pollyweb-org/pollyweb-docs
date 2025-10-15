@@ -52,7 +52,7 @@
     | [🪢 Integrator](<../../41 🎭 Domain Roles/35 🪢 Integrators/$ 🪢🎭 Integrator role.md>) | To promote the printing of [Locators 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) in [Finder 🔎 domains](<../../50 🫥 Agents/40 🔎 Finders/$ 🔎🫥 Finder agent.md>).
     | [🤗 Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) | For interacting with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) in [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>).
     | [🏭 Supplier](<../../41 🎭 Domain Roles/78 🏭 Suppliers/$ 🏭🎭 Supplier role.md>) | For receiving orders to add [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) to [Things 💠](<../../70 🌳 Ambient/71 💠 Things/$ 💠 Thing.md>).
-    | [💼 Consumer](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) | For consuming data sets required to fill out the order.
+    | [💼 Consumer](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) | For consuming data sets required to fill out the order.
     | [💵 Seller](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) | For receiving payments for the orders via their [Collector 🏦 helper](<../30 🏦 Collectors/$ 🏦🛠️ Collector helper.md>).
     | [🌬️ Streamer](<../../41 🎭 Domain Roles/75 🌬️ Streamers/🌬️🎭 Streamer role.md>) | To update the order statuses.
     

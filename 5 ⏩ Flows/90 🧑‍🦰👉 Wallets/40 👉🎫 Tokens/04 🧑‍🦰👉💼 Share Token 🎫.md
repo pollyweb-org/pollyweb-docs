@@ -1,6 +1,6 @@
 # 💼⏩🧑‍🦰 Share a Token @ Consumer
 
-> Request from a [💼 Consumer domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) to access the user's [Tokens 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🎫 Token.md>).
+> Request from a [💼 Consumer domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) to access the user's [Tokens 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🎫 Token.md>).
 
 > Mentioned in [🆔 Verify Tokens @ Identity](<../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/14 🆔🎫 Verify Tokens.md>)
 
@@ -33,7 +33,7 @@ Consider the following excerpt from the [Flight check in 🤝 use case](<../../.
 |6| [🤵🐌💼 `Receive@Consumer`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/🅰️ Consumer methods/🧑‍🦰🐌💼 Receive.md>) | Send the shared offline [Tokens 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🎫 Token.md>)
 |7| [👥🚀🕸 `Trusts@Graph`](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>) | Verify if the [Issuers 🎴](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) are [Trustworthy 👍](<../../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>)
 |8| [👥🚀🕸 `PublicKey@Graph`](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Public Key.md>) | Get the DKIM public key of each [Token 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🎫 Token.md>)
-|9| [💼⏩🤵 Token status 🎫](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/35 💼⏩🤵 Token status 🎫 flow.md>) | Ask the Token's [Broker 🤵](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) if it is still active
+|9| [💼⏩🤵 Token status 🎫](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/⏩ Consumer flows/💼⏩🤵 Token status 🎫.md>) | Ask the Token's [Broker 🤵](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) if it is still active
 |
 
 <br/>
@@ -42,7 +42,7 @@ Consider the following excerpt from the [Flight check in 🤝 use case](<../../.
 
 1. **Why isn't the verification done on the Issuer?**
 
-    `Privacy` [Issuer 🎴 domains](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) should not be allowed to track users by knowing in which [Consumer 💼 domains](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) their [Tokens 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) where used.
+    `Privacy` [Issuer 🎴 domains](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) should not be allowed to track users by knowing in which [Consumer 💼 domains](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) their [Tokens 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) where used.
 
     ---
     <br/>

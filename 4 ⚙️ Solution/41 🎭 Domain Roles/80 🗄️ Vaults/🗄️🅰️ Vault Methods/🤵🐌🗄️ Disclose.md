@@ -3,7 +3,7 @@
 
 # 🧑‍🦰🐌🗄️ Disclose @ Vault
 
-> Request for a [Vault 🗄️ domain](<../🗄️🎭 Vault role.md>) to share user data with a [Consumer 💼 domain](<../../27 💼 Consumers/$ 💼🎭 Consumer role.md>).
+> Request for a [Vault 🗄️ domain](<../🗄️🎭 Vault role.md>) to share user data with a [Consumer 💼 domain](<../../27 💼 Consumers/💼🎭 Consumer role.md>).
 
 > Used by [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>)
 
@@ -31,7 +31,7 @@ Body:
 || `To` | string | [Vault 🗄️ domain](<../🗄️🎭 Vault role.md>) name
 || `Subject` | string | `Disclose@Vault`
 |Body| `ChatID`| uuid | [Chat 💬](<../../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID
-|| `Consumer` | string | [Consumer 💼 domain](<../../27 💼 Consumers/$ 💼🎭 Consumer role.md>) name
+|| `Consumer` | string | [Consumer 💼 domain](<../../27 💼 Consumers/💼🎭 Consumer role.md>) name
 || `Language` | enum | ISO language code
 || `BindID` | uuid | [Bind 🔗](<../../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) ID
 |
