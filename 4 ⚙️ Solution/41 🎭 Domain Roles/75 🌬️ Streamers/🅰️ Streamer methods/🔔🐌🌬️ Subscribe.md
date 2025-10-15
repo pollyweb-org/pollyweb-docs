@@ -29,7 +29,7 @@ Body:
 || `To`| string | [Streamer 🌬️ domain](<../🌬️🎭 Streamer role.md>) name
 || `Subject` | string | `Subscribe@Streamer`
 |Body | `Stream`| string | Stream key on the [Streamer 🌬️](<../🌬️🎭 Streamer role.md>)
-|| `Buffer`| string | [Buffer ⏳ domain](<../../../45 🛠️ Helper domains/27 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) name
-|| `Queue` | uuid | Callback for [Push@Buffer 🐌](<../../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/21 🌬️🐌⏳ Push.md>)
+|| `Buffer`| string | [Buffer ⏳ domain](<../../../45 🛠️ Helper domains/27 ⏳ Buffers/⏳🛠️ Buffer helper.md>) name
+|| `Queue` | uuid | Callback for [Push@Buffer 🐌](<../../../45 🛠️ Helper domains/27 ⏳ Buffers/🅰️ Buffer methods/🌬️🐌⏳ Push.md>)
 || `Filters`| object | Dictionary of filters (optional)
 |

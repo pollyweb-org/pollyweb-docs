@@ -1,9 +1,9 @@
 # 🔔🐌⏳ Queue @ Buffer
 
-> Implements a [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/27 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>)
+> Implements a [Buffer ⏳ helper domain](<../⏳🛠️ Buffer helper.md>)
 
-> Used in [Stream @ Streamer 🌬️⏩🔔](<../../4 ⚙️ Solution/41 🎭 Domain Roles/75 🌬️ Streamers/⏩ Streamer flows/🌬️⏩🔔 Stream.md>) flow
-> <br/>• Succeeded by [`Queued@Subscriber`](<../../4 ⚙️ Solution/41 🎭 Domain Roles/76 🔔 Subscribers/🔔🅰️ Subscriber methods/⏳🐌🔔 Queued.md>)
+> Used in [Stream @ Streamer 🌬️⏩🔔](<../../../41 🎭 Domain Roles/75 🌬️ Streamers/⏩ Streamer flows/🌬️⏩🔔 Stream.md>) flow
+> <br/>• Succeeded by [`Queued@Subscriber`](<../../../41 🎭 Domain Roles/76 🔔 Subscribers/🔔🅰️ Subscriber methods/⏳🐌🔔 Queued.md>)
 
 
 <br/>
@@ -29,10 +29,10 @@ Body:
 
 |Object|Property|Type|Description|Default
 |-|-|-|-|-
-|Header|`From` | string | [Subscriber 🔔 domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/76 🔔 Subscribers/🔔🎭 Subscriber role.md>) name
-||`To`| string | [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/27 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) name
+|Header|`From` | string | [Subscriber 🔔 domain](<../../../41 🎭 Domain Roles/76 🔔 Subscribers/🔔🎭 Subscriber role.md>) name
+||`To`| string | [Buffer ⏳ helper domain](<../⏳🛠️ Buffer helper.md>) name
 ||`Subject`| string | `Queue@Buffer`
-|Body |`Queue` | uuid | Queue for [`Push@Buffer`](<21 🌬️🐌⏳ Push.md>)
+|Body |`Queue` | uuid | Queue for [`Push@Buffer`](<🌬️🐌⏳ Push.md>)
 || `Fifo` | bool | First in, first out? | No
 || `DLQ`| bool | With dead-letter queue? | No
 || `Replay` | bool | Store confirmed messages? | No
@@ -57,14 +57,14 @@ Body:
 
 1. **Is the `Queue` used for at-least-once delivery?**
     
-    No. NLWeb requests are already idempotent with the `Correlation` property of [Messages 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>)
+    No. NLWeb requests are already idempotent with the `Correlation` property of [Messages 📨](<../../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>)
 
     ---
     <br/>
 
 1. **How to delete a queue?**
 
-    Queues are reverted with [`Unqueue@Buffer`](<13 🔔🐌⏳ Unqueue.md>).
+    Queues are reverted with [`Unqueue@Buffer`](<🔔🐌⏳ Unqueue.md>).
 
     ---
     <br/>

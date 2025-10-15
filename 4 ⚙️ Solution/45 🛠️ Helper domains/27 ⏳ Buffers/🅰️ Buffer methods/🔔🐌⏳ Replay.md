@@ -2,7 +2,7 @@
 
 > Replays historical successfully handled messages.
 
-> Implements a [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/27 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>)
+> Implements a [Buffer ⏳ helper domain](<../⏳🛠️ Buffer helper.md>)
 
 <br/> 
 
@@ -22,10 +22,10 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From` | string | [Subscriber 🔔 domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/76 🔔 Subscribers/🔔🎭 Subscriber role.md>) name
-||`To`| string | [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/27 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) name
+|Header|`From` | string | [Subscriber 🔔 domain](<../../../41 🎭 Domain Roles/76 🔔 Subscribers/🔔🎭 Subscriber role.md>) name
+||`To`| string | [Buffer ⏳ helper domain](<../⏳🛠️ Buffer helper.md>) name
 ||`Subject`| string | `Replay@Buffer`
-|Body| `Queue`| uuid | Queue from [`Queue@Buffer`](<12 🔔🐌⏳ Queue.md>) |
+|Body| `Queue`| uuid | Queue from [`Queue@Buffer`](<🔔🐌⏳ Queue.md>) |
 | |`Starting`| timestamp | Start date and time (optional)
 | |`Ending` | timestamp | Finish date and time (optional)
 |
