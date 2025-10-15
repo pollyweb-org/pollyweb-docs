@@ -13,19 +13,19 @@
 | 🍸 Bar        | ℹ️ This is Table 23 at Any Bar.
 | 🍸 Bar        | 😃 Hi! What do you need? <br/>- [ Order ] <br/>- [ Something else ] | > Order
 | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Ready to order? [Yes, No] <br/> - your curator orders 🧚<br/> - your vitalogist reviews 💖 <br/> - your ID proves you're 21+ 🆔 <br/> - your payer pays the bill 💳 <br/> - we'll bring it when ready 🍸 <br/> - your vitalogist records it 💖 | > Yes
-| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) | 🫥 Share preferences? <br/>- [ 👤 solo ] <br/>- [ 👨‍👩‍👦 family ] <br/>- [ 🤝 business ] | > 🤝 business 
-| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) | ⏳ Analyzing menu... 
-| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) | 💭 Here are suggestions: <br/>- [ white wine 🍷 ] <br/> - [ Still water 💧 ] <br/> - [ tap water 🚰 ] | `a beer`
-| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) | ⓘ I notice you dislike beer.
-| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) | 💭 Try wine instead? [Yes, No] | > No
-| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) | 💭 Which beer? <br/> - [ Lager ] <br/> - [ Pale Ale ] <br/> - [ Stout] <br/> - [ IPA ] | `something`<br/>`similar to`<br/>`Budweiser`
-| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) | ⓘ The lager is similar. 
-| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) | 💭 Want a lager? [Yes, No] | `the brand?`
-| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) | ⓘ It's Stella Artois. 
-| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) | 💭 Want a lager? [Yes, No] | > Yes
-| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) | 💭 What size? <br/> - [ pint ] <br/> - [ half pint ] | `small`
-| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) | ⓘ Half pint it is.
-| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) | 💭 Anything else? [Yes, No]     | > No
+| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 🫥 Share preferences? <br/>- [ 👤 solo ] <br/>- [ 👨‍👩‍👦 family ] <br/>- [ 🤝 business ] | > 🤝 business 
+| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/$ 🧚🫥 Curator agent.md>) | ⏳ Analyzing menu... 
+| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Here are suggestions: <br/>- [ white wine 🍷 ] <br/> - [ Still water 💧 ] <br/> - [ tap water 🚰 ] | `a beer`
+| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/$ 🧚🫥 Curator agent.md>) | ⓘ I notice you dislike beer.
+| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Try wine instead? [Yes, No] | > No
+| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Which beer? <br/> - [ Lager ] <br/> - [ Pale Ale ] <br/> - [ Stout] <br/> - [ IPA ] | `something`<br/>`similar to`<br/>`Budweiser`
+| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/$ 🧚🫥 Curator agent.md>) | ⓘ The lager is similar. 
+| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Want a lager? [Yes, No] | `the brand?`
+| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/$ 🧚🫥 Curator agent.md>) | ⓘ It's Stella Artois. 
+| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Want a lager? [Yes, No] | > Yes
+| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 What size? <br/> - [ pint ] <br/> - [ half pint ] | `small`
+| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/$ 🧚🫥 Curator agent.md>) | ⓘ Half pint it is.
+| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Anything else? [Yes, No]     | > No
 | 🍸 Bar         | ℹ️ Order: [Change] <br/>- 1 half pint lager 🍺 (£3.00)
 | 💖 [Vitalogist](<../../../4 ⚙️ Solution/30 🫥 Agents/09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) | 🫥 Confirm order? [Yes, No] <br> - warning: you came by car. | > Yes
 | 🆔 [Identity](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Share over 21? [Yes, No]     | > Yes

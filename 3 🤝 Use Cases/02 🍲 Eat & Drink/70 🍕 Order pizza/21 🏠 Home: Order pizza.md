@@ -21,15 +21,15 @@ Order a pizza for home delivery
 | 🛎️ [Concierge](<../../../4 ⚙️ Solution/30 🫥 Agents/06 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>) | ⓘ Given destination: [Change]<br/>- Ryan street, 98, 2D 
 | 🛎️ [Concierge](<../../../4 ⚙️ Solution/30 🫥 Agents/06 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>) | ⏳ Looking for couriers...
 | 🛎️ [Concierge](<../../../4 ⚙️ Solution/30 🫥 Agents/06 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>) | 🫥 Which courier? <br> - [ AnyCourier ] + $4.00 (5 min) <br> - [ iCourier ] + $2.99 (17 min) <br/> | > AnyCourier
-| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) | 🫥 Share preferences? [No] <br/>- [ 👤 solo ] <br/>- [ 👨‍👩‍👦 family ] | > 👨‍👩‍👦 family
-| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) | ⏳ Analyzing menu... 
-| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) | 💭 Here are suggestions: [No] <br/>- [ ] large Margherita with soda <br/>- [ ] small 4 Cheese with water | [X] small (...)
-| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) | 💭 Anything else? [Yes, No] <br/>- [ Pizzas 🍕 ] <br/>- [ Drinks 🥤 ] | > Pizzas 🍕
-| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) | 💭 Which pizza? <br/>- [ Margherita 🌼 ] <br/>- [ Pepperoni 🌶️ ] <br/> - ...| > Pepperoni 🌶️
-| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) | 💭 What size? [ S, M, L ] | > `biggest`
-| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) | 💭 How many? [ 1, 2, 3, + ] | > 1
-| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) | 💭 Want a drink with that? [No] <br/>- [ Soda ] <br/>- [ Water ] | > `a coke` 
-| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) | 💭 Anything else? [No] <br/>- [ Pizzas 🍕 ] <br/> - [ Drinks 🥤 ] | > No
+| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 🫥 Share preferences? [No] <br/>- [ 👤 solo ] <br/>- [ 👨‍👩‍👦 family ] | > 👨‍👩‍👦 family
+| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/$ 🧚🫥 Curator agent.md>) | ⏳ Analyzing menu... 
+| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Here are suggestions: [No] <br/>- [ ] large Margherita with soda <br/>- [ ] small 4 Cheese with water | [X] small (...)
+| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Anything else? [Yes, No] <br/>- [ Pizzas 🍕 ] <br/>- [ Drinks 🥤 ] | > Pizzas 🍕
+| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Which pizza? <br/>- [ Margherita 🌼 ] <br/>- [ Pepperoni 🌶️ ] <br/> - ...| > Pepperoni 🌶️
+| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 What size? [ S, M, L ] | > `biggest`
+| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 How many? [ 1, 2, 3, + ] | > 1
+| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Want a drink with that? [No] <br/>- [ Soda ] <br/>- [ Water ] | > `a coke` 
+| 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Anything else? [No] <br/>- [ Pizzas 🍕 ] <br/> - [ Drinks 🥤 ] | > No
 | 🍕 Pizzeria     | ℹ️ Order ($27.00): [Change] <br/>- 1 small 4 Cheese 🧀 ($10.00) <br/>- 1 still water (25 cl) 💧 ($1.50) <br/>- 1 large Pepperoni 🌶️ ($13.00) <br/>- 1 diet coke (33 cl) 🥤 ($2.50) <br/> - preparation time ⏳ ~15 min 
 | 💖 [Vitalogist](<../../../4 ⚙️ Solution/30 🫥 Agents/09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) | 🫥 Confirm? [Yes, No] <br> - pizza: gluten allergy! <br/> - coke: sugar at 190 mg/dL | > Yes
 | 🛎️ [Concierge](<../../../4 ⚙️ Solution/30 🫥 Agents/06 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>) | ⓘ Delivery ($4.50): [Change] <br/> - courier delivery 🛵 ($4.00) <br/> - concierge fee 🛎️ ($0.50) <br/> - delivery time ⏳ ~10 min.
@@ -85,7 +85,7 @@ Order a pizza for home delivery
     |-|-|-
     |`destination`| string | Pass the [Navigator 🧭 agent](<../../../4 ⚙️ Solution/30 🫥 Agents/07 🧭 Navigators/01 🧭🫥 Navigator agent.md>) destination.
     | `menu-locator` | string | [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) of the menu.
-    | `order-summary`| markdown | [Curator 🧚 agent](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) choices:<br/>- plus ongoing status.
+    | `order-summary`| markdown | [Curator 🧚 agent](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/$ 🧚🫥 Curator agent.md>) choices:<br/>- plus ongoing status.
     | `order-details`| object | Details for partners: <br/>- selected items,<br/>- final delivery estimates, <br/>- aggregator [Biller 🤝](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/15 🤝 Billers/$ 🤝🛠️ Biller helper.md>) ID.
     |
 

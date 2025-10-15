@@ -9,7 +9,7 @@
 
 | Persona  | [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) | [Agents 🫥](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>)
 |-|-|-
-|🧑‍🦰 `🎪 Stall`|[Buy hot dog 🌭](<21 🎪 Stall: Buy hot dog 🌭.md>) | [`🧚 Curator`](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) [`🧢 Persona`](<../../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/$ 🧢🫥 Persona agent.md>)   [`💳 Payer`](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) 
+|🧑‍🦰 `🎪 Stall`|[Buy hot dog 🌭](<21 🎪 Stall: Buy hot dog 🌭.md>) | [`🧚 Curator`](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/$ 🧚🫥 Curator agent.md>) [`🧢 Persona`](<../../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/$ 🧢🫥 Persona agent.md>)   [`💳 Payer`](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) 
 ||[Cancel hot dog 🌭](<22 🎪 Stall: Cancel hot dog.md>) | [`💳 Payer`](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) 
 ||[Cancelled chips 🥔](<23 🎪 Stall: Cancelled chips 🥔.md>) | [`💳 Payer`](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) 
 ||[Receive hot dog 🧑‍🍳](<24 🎪 Stall: Receive hot dog.md>) | [`💖 Vitalogist`](<../../../4 ⚙️ Solution/30 🫥 Agents/09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) 
@@ -30,7 +30,7 @@
     |  Agent| Purpose
     |-|-
     |🔎 [Finder](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | Feedback on the business.
-    |🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) | Filter options for the business.
+    |🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/03 🧚 Curators/$ 🧚🫥 Curator agent.md>) | Filter options for the business.
     | 🧢 [ Persona](<../../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/$ 🧢🫥 Persona agent.md>) | Share the user's social name.
     | 💳 [Payer](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) | Pays for the food.
     | 💖 [Vitalogist](<../../../4 ⚙️ Solution/30 🫥 Agents/09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) | Registers the food intake.
