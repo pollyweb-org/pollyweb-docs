@@ -45,7 +45,7 @@
     | Role 🎭 | Purpose
     |-|-
     | [🔔 Subscriber](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) | To consume changes from the [user's Persona 🧢 vault domains](<../02 🧢 Personas>).
-    | [🗄️ Vault ](<../../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) | To share user selections with [Consumer 💼 host domains](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>).
+    | [🗄️ Vault ](<../../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) | To share user selections with [Consumer 💼 host domains](<../../25 Data/27 💼 Consumers/04 💼🎭 Consumer role.md>).
     
 
     ---

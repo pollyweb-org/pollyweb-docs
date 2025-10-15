@@ -97,9 +97,9 @@
 
     [Issuer 🎴 domains](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) sign [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) with their active [📨 DKIM](<../41 📨 Messages/01 📨 Domain Message.md>) key-pair. 
     
-    * When [Issuer 🎴 domains](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) rotate their [📨 DKIM](<../41 📨 Messages/01 📨 Domain Message.md>), it is no longer possible for [Consumer 💼 domains](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) to validate old [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) with the new [📨 DKIM](<../41 📨 Messages/01 📨 Domain Message.md>).
+    * When [Issuer 🎴 domains](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) rotate their [📨 DKIM](<../41 📨 Messages/01 📨 Domain Message.md>), it is no longer possible for [Consumer 💼 domains](<../../25 Data/27 💼 Consumers/04 💼🎭 Consumer role.md>) to validate old [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) with the new [📨 DKIM](<../41 📨 Messages/01 📨 Domain Message.md>).
 
-    * Instead, [Consumer 💼 domains](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) should ask a [Graph 🕸 domain](<03 🕸🛠️ Graph helper.md>) for the Issuer's [📨 DKIM](<../41 📨 Messages/01 📨 Domain Message.md>) at the time the [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) was issued.
+    * Instead, [Consumer 💼 domains](<../../25 Data/27 💼 Consumers/04 💼🎭 Consumer role.md>) should ask a [Graph 🕸 domain](<03 🕸🛠️ Graph helper.md>) for the Issuer's [📨 DKIM](<../41 📨 Messages/01 📨 Domain Message.md>) at the time the [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) was issued.
 
     ---
     <br/>

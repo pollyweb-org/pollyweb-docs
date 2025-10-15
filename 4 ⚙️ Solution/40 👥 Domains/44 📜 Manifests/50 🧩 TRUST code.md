@@ -29,7 +29,7 @@
   || Value | Notes
   |-|-|-
   || `VAULT` | The info disclosed by the named [Vault 🗄️](<../../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) is trusted.  
-  || `CONSUMER` | The named [Consumer 💼](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) is allowed to perform queries.
+  || `CONSUMER` | The named [Consumer 💼](<../../25 Data/27 💼 Consumers/04 💼🎭 Consumer role.md>) is allowed to perform queries.
   || `*` | Default, includes all options above.
   |
 
