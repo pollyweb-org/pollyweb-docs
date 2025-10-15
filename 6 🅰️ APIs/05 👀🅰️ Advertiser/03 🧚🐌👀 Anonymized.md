@@ -5,4 +5,4 @@
 <!-- Test: -->
 
 
-# 🧚🐌👀 Anonymized @ [Advertiser](<../../4 ⚙️ Solution/45 Helpers/12 👀 Advertisers/03 👀👥 Advertiser helper.md>)
+# 🧚🐌👀 Anonymized @ [Advertiser](<../../4 ⚙️ Solution/45 Helpers/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>)

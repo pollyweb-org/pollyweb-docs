@@ -3,8 +3,8 @@
 
 1. **What is a Collector domain in NLWeb?**
 
-    A [Collector 🏦](<01 🏦🛠️ Collector helper.md>) is 
-    * any [Helper 🛠️ domain](<../../45 Helpers/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) 
+    A [Collector 🏦](<$ 🏦🛠️ Collector helper.md>) is 
+    * any [Helper 🛠️ domain](<../$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) 
     * that other [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) can leverage 
     * to collect payments from [Payer 💳 domains](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>);
     * e.g., a traditional bank, with a simple bank account.
@@ -19,40 +19,40 @@
     |#|Step
     |-|-
     |1| A [Payer 💳 domain](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) receives an order to make a payment, either from a user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) in a business-to-consumer (B2C) transaction, or from a [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) in a business-to-business (B2B) transaction.
-    |2| The [Payer 💳 domain](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) then performs a traditional payment to a [Collector 🏦 helper domain](<01 🏦🛠️ Collector helper.md>).
-    |3| The [Collector 🏦 domain](<01 🏦🛠️ Collector helper.md>)issues a traditional receipt back to the [Payer 💳 domain](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>).
-    |4| The [Collector 🏦 domain](<01 🏦🛠️ Collector helper.md>)notifies the recipient [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) that the payment was successful.
+    |2| The [Payer 💳 domain](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) then performs a traditional payment to a [Collector 🏦 helper domain](<$ 🏦🛠️ Collector helper.md>).
+    |3| The [Collector 🏦 domain](<$ 🏦🛠️ Collector helper.md>)issues a traditional receipt back to the [Payer 💳 domain](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>).
+    |4| The [Collector 🏦 domain](<$ 🏦🛠️ Collector helper.md>)notifies the recipient [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) that the payment was successful.
 
     ---
     <br/>
 
 1. **Why are Collectors important?**
 
-    [Collector 🏦 domains](<01 🏦🛠️ Collector helper.md>) offload from domains the undifferentiated heavy lifting of integrating B2B and B2C payment methods at a global scale:
+    [Collector 🏦 domains](<$ 🏦🛠️ Collector helper.md>) offload from domains the undifferentiated heavy lifting of integrating B2B and B2C payment methods at a global scale:
 
-    - e.g. for a restaurant business in Portugal to receive a 100€ payment from a Chinese tourist, they just need to request a 100€ token from their [Collector 🏦 domain](<01 🏦🛠️ Collector helper.md>) and share it with the tourist's [Payer 💳 agent](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>);
+    - e.g. for a restaurant business in Portugal to receive a 100€ payment from a Chinese tourist, they just need to request a 100€ token from their [Collector 🏦 domain](<$ 🏦🛠️ Collector helper.md>) and share it with the tourist's [Payer 💳 agent](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>);
     - the tourist may decide to pay using China's WeChat, paying any eventual WeChat payment fees, but that's completely irrelevant for the business;
-    - the restaurant may need to pay a fee to their [Collector 🏦 domain](<01 🏦🛠️ Collector helper.md>), but that's also completely irrelevant for the tourist.
+    - the restaurant may need to pay a fee to their [Collector 🏦 domain](<$ 🏦🛠️ Collector helper.md>), but that's also completely irrelevant for the tourist.
 
     ---
     <br/>
 
 1. **How does a domain withdraw its money from a Collector?**
     
-    How a recipient [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) receives the money on their bank account depends on the [Collector 🏦 domain](<01 🏦🛠️ Collector helper.md>) - options are as follows.
+    How a recipient [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) receives the money on their bank account depends on the [Collector 🏦 domain](<$ 🏦🛠️ Collector helper.md>) - options are as follows.
 
     | Option | Example | Description
     |-|-|-
     | **Direct** | Visa | the [Payer 💳 domain](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) transfers directly to the recipient's bank account.
-    | **Proxy** | G.Wallet | the [Payer 💳 domain](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) pays to the [Collector 🏦 domain](<01 🏦🛠️ Collector helper.md>), who then transfers to the recipients's bank account.
-    | **Wallet** | PayPal | the [Payer 💳 domain](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) pays to the [Collector 🏦 domain](<01 🏦🛠️ Collector helper.md>), who holds the money until withdrawn by the recipient.
+    | **Proxy** | G.Wallet | the [Payer 💳 domain](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) pays to the [Collector 🏦 domain](<$ 🏦🛠️ Collector helper.md>), who then transfers to the recipients's bank account.
+    | **Wallet** | PayPal | the [Payer 💳 domain](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) pays to the [Collector 🏦 domain](<$ 🏦🛠️ Collector helper.md>), who holds the money until withdrawn by the recipient.
 
     ---
     <br/>
 
 1. **What responsibilities do Collectors have with receipts?**
 
-    For fiscal purposes, [Collector 🏦 domains](<01 🏦🛠️ Collector helper.md>) are responsible for:
+    For fiscal purposes, [Collector 🏦 domains](<$ 🏦🛠️ Collector helper.md>) are responsible for:
     - issuing receipts on behalf of the [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>), 
     - sharing those receipts with the [Payer 💳 domains](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>),
     - and archiving those receipts for a given legal duration. 
@@ -63,7 +63,7 @@
 1. **Do Collectors have invoicing responsibilities?**
 
     No.
-    * [Collector 🏦 domains](<01 🏦🛠️ Collector helper.md>) don't have invoicing responsibilities on the NLWeb protocol, but they may implement the feature for simple invoices as an option when issuing receipts.
+    * [Collector 🏦 domains](<$ 🏦🛠️ Collector helper.md>) don't have invoicing responsibilities on the NLWeb protocol, but they may implement the feature for simple invoices as an option when issuing receipts.
     * This is especially relevant for startups and SMBs.
 
     ---
@@ -97,7 +97,7 @@
 1. **Can a Seller implement the Collector API?**
 
     Yes, but that's not recommended. 
-    - A [Collector 🏦 domain](<01 🏦🛠️ Collector helper.md>) may be better suited to sign wide international agreements with multiple [Payer 💳](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) and [Biller 🤝 domains](<../../30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>), and support a multitude of payment options.
+    - A [Collector 🏦 domain](<$ 🏦🛠️ Collector helper.md>) may be better suited to sign wide international agreements with multiple [Payer 💳](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) and [Biller 🤝 domains](<../../30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>), and support a multitude of payment options.
 
     ---
     <br/>
@@ -117,14 +117,14 @@
     |...
     | 🤗 Host | ℹ️ Let me get you the bill.
     | 💳 [Payer](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Pay $12.95 bill? 🧾 [No]  <br/>- [ ✂️ Split bill ] <br/>- ... | > Split bill
-    | [🏦 Collector](<01 🏦🛠️ Collector helper.md>) | 😃 Slip by how many? | ↕️ 3
-    | [🏦 Collector](<01 🏦🛠️ Collector helper.md>) | ⏳ Waiting for 3x $4.31... <br/>- [ pay my part ]  <br/> - [ cancel split ]| > pay my part
+    | [🏦 Collector](<$ 🏦🛠️ Collector helper.md>) | 😃 Slip by how many? | ↕️ 3
+    | [🏦 Collector](<$ 🏦🛠️ Collector helper.md>) | ⏳ Waiting for 3x $4.31... <br/>- [ pay my part ]  <br/> - [ cancel split ]| > pay my part
     | 💳 [Payer](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Pay $4.33 partial bill? 🧾 [No] <br/>- [ card ABC ] + $0.10 <br/>- [ card DEF ] (free) | > card ABC
     | 💳 [Payer](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Add tip? [No, 10%, +] | > 10%
     | 🧢 [Persona](<../../30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) | 🫥 Share name? [No] <br/> - [ 🧑‍🦰 personal ] <br/> - [ 💼 work ]  <br/> - [ 🦋 private ]     | > 🧑‍🦰 personal
-    | [🏦 Collector](<01 🏦🛠️ Collector helper.md>) | ⓘ Your part paid, thanks! [+]
-    | [🏦 Collector](<01 🏦🛠️ Collector helper.md>) | ⏳ Waiting for 2x $4.31... <br/>- [ list payer names ] <br/>- [ pay the reaming ] <br/> - [ cancel split ]
-    | [🏦 Collector](<01 🏦🛠️ Collector helper.md>) | ⏳ Waiting for 1x $4.31... <br/>- [ list payer names ] <br/>- [ pay the reaming ] <br/> - [ cancel split ]
+    | [🏦 Collector](<$ 🏦🛠️ Collector helper.md>) | ⓘ Your part paid, thanks! [+]
+    | [🏦 Collector](<$ 🏦🛠️ Collector helper.md>) | ⏳ Waiting for 2x $4.31... <br/>- [ list payer names ] <br/>- [ pay the reaming ] <br/> - [ cancel split ]
+    | [🏦 Collector](<$ 🏦🛠️ Collector helper.md>) | ⏳ Waiting for 1x $4.31... <br/>- [ list payer names ] <br/>- [ pay the reaming ] <br/> - [ cancel split ]
     | 🤗 Host       | ✅ Paid, thanks! [+]
 
 

@@ -2,7 +2,7 @@
  
 > Used in [👀⏩🧑‍🦰 Advertise](<../../../5 ⏩ Flows/05 👀⏩ Advertisers/01 👀⏩🧑‍🦰 Advertise.md>)
 
-* [Advertiser 👀 helper domains](<../../../4 ⚙️ Solution/45 Helpers/12 👀 Advertisers/03 👀👥 Advertiser helper.md>) 
+* [Advertiser 👀 helper domains](<../../../4 ⚙️ Solution/45 Helpers/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) 
     * ask [Broker 🤵 domains](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) 
     * to check-in into the selected [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>).
 

@@ -2,7 +2,7 @@
 
 * [Host 🤗 domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) 
     * inform [Broker 🤵 domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) of the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) ending, 
-    * for them to trigger the [Advertisement 👀 ](<../../4 ⚙️ Solution/45 Helpers/12 👀 Advertisers/03 👀👥 Advertiser helper.md>) flow.
+    * for them to trigger the [Advertisement 👀 ](<../../4 ⚙️ Solution/45 Helpers/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) flow.
 * Activated by:
     * [👋 Talker `GOODBYE` command](<../../9 😃 Talkers/60 ⏩ Msg flows/50 👋 GOODBYE.md>)
 
@@ -15,7 +15,7 @@ Consider the following [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12
 | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Prompt](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
 | - | - | - |
 | 🏨 Hotel  | ✅ Booking confirmed! 
-| [👀 Ads](<../../4 ⚙️ Solution/45 Helpers/12 👀 Advertisers/03 👀👥 Advertiser helper.md>) | 🫥 Explore follow-up actions? [No] <br/>- [ Book a city tour 🚌 ]  <br/>- [ See a flamenco show 💃 ]
+| [👀 Ads](<../../4 ⚙️ Solution/45 Helpers/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) | 🫥 Explore follow-up actions? [No] <br/>- [ Book a city tour 🚌 ]  <br/>- [ See a flamenco show 💃 ]
 | ⭐ [Rate](<../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐⭐⭐⭐
 |
 
@@ -43,6 +43,6 @@ The associated [Talker 😃](<../../9 😃 Talkers/10 📘 Talker specs/10 😃 
 | # | Call | Notes
 |-|-|-
 | 1 | [🤗🐌🤵 `Goodbye@Broker`](<../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/05 🤗🐌🤵 Goodbye.md>) | [Hosts 🤗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) tell [Brokers 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) of [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) endings
-| 2 | [👀⏩🧑‍🦰 Advertise 👀](<../05 👀⏩ Advertisers/01 👀⏩🧑‍🦰 Advertise.md>) | [Brokers 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) ask [Advertisers 👀](<../../4 ⚙️ Solution/45 Helpers/12 👀 Advertisers/03 👀👥 Advertiser helper.md>) to advertise
+| 2 | [👀⏩🧑‍🦰 Advertise 👀](<../05 👀⏩ Advertisers/01 👀⏩🧑‍🦰 Advertise.md>) | [Brokers 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) ask [Advertisers 👀](<../../4 ⚙️ Solution/45 Helpers/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) to advertise
 | 3 | [⭐⏩🧑‍🦰 Review ⭐](<../70 ⭐⏩ Reviewers/01 ⭐⏩🧑‍🦰 Review.md>) | [Brokers 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) ask [Reviewers ⭐](<../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) to review
 ||
