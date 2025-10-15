@@ -5,7 +5,7 @@
 
 > Implements [domain Manifest 📜](<$ 📜 Domain Manifest.md>) 
   
-> Used by [`Trusted@Graph`](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/02 👥🚀🕸 Trusted.md>) and [`Trusts@Graph`](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/03 👥🚀🕸 Trusts.md>)
+> Used by [`Trusted@Graph`](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Trusted.md>) and [`Trusts@Graph`](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>)
 
 <br/>
 
@@ -46,7 +46,7 @@
   
 * Note: When a [Schema Code 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) is removed from [`.MANIFEST/TRUSTS`](<50 🧩 TRUST code.md>), 
     * domains should explicitly inform the `REVOKE`;
-    * otherwise, it might not be propagated by [Graph 🕸 domains](<../../45 🛠️ Helper domains/50 🕸 Graphs/$ 🕸🛠️ Graph helper.md>).
+    * otherwise, it might not be propagated by [Graph 🕸 domains](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>).
 
 
 <br/>

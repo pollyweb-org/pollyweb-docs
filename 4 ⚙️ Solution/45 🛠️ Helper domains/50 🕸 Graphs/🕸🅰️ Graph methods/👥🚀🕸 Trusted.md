@@ -11,7 +11,7 @@
     * as defined in the [`.MANIFEST/TRUST` 🧩](<../../../40 👥 Domains/44 📜 Manifests/50 🧩 TRUST code.md>) part
     * of [domain Manifests 📜](<../../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>).
   
-*  Similar to [`Trusted@Graph`](<03 👥🚀🕸 Trusts.md>), 
+*  Similar to [`Trusted@Graph`](<👥🚀🕸 Trusts.md>), 
    *  but for verification by the sender [domain 👥](<../../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>).
 
 <br/>
@@ -34,7 +34,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header| `From`    | string | The name of the sender [domain 👥](<../../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>)
-|       | `To`      | string | [Graph 🕸 domain](<../$ 🕸🛠️ Graph helper.md>) name
+|       | `To`      | string | [Graph 🕸 domain](<../🕸🛠️ Graph helper.md>) name
 |       | `Subject` | string | `Trusted@Graph`
 | Body  | `Domain`  | string | The [domain 👥](<../../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) name to assess.
 |       | `Role`    | enum   | The domain role to assess: `VAULT`, `CONSUMER`, `*`

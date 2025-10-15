@@ -24,7 +24,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header| `From`    | string | The name of the sender [domain 👥](<../../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>)
-|       | `To`      | string | [Graph 🕸 domain](<../$ 🕸🛠️ Graph helper.md>) name
+|       | `To`      | string | [Graph 🕸 domain](<../🕸🛠️ Graph helper.md>) name
 |       | `Subject` | string | `Form@Graph`
 | Body  | `Domain`  | string | The [domain 👥](<../../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) name to lookup
 |       | `Form`    | string   | The name of form to return

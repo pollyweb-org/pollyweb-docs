@@ -35,7 +35,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header| `From`    | string | The name of the [domain 👥](<../../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) asking
-|       | `To`      | string | [Graph 🕸 domain](<../$ 🕸🛠️ Graph helper.md>) name
+|       | `To`      | string | [Graph 🕸 domain](<../🕸🛠️ Graph helper.md>) name
 |       | `Subject` | string | `Translate@Graph`
 |Body   | `Domains`     | string[]  | The [domains 👥](<../../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) to translate
 |       | `Codes`       | string[]  | The [Schema Codes 🧩](<../../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) to translate
