@@ -54,7 +54,7 @@
     | [🏭 Supplier](<../../41 🎭 Domain Roles/78 🏭 Suppliers/$ 🏭🎭 Supplier role.md>) | For receiving orders to add [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) to [Things 💠](<../../70 🌳 Ambient/71 💠 Things/$ 💠 Thing.md>).
     | [💼 Consumer](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) | For consuming data sets required to fill out the order.
     | [💵 Seller](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) | For receiving payments for the orders via their [Collector 🏦 helper](<../30 🏦 Collectors/$ 🏦🛠️ Collector helper.md>).
-    | [🌬️ Streamer](<../../41 🎭 Domain Roles/75 🌬️ Streamers/$ 🌬️🎭 Streamer role.md>) | To update the order statuses.
+    | [🌬️ Streamer](<../../41 🎭 Domain Roles/75 🌬️ Streamers/🌬️🎭 Streamer role.md>) | To update the order statuses.
     
 
     ---

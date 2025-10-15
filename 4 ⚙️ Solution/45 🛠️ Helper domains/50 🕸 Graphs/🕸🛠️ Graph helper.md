@@ -25,7 +25,7 @@
     | [🎫 Tokens](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) | What's the historical public [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>) key of [🎫 Token](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) `T`?
     | [🪣 Datasets](<../../41 🎭 Domain Roles/28 🪣 Datasets/$ 🪣🎭 Dataset role.md>) | What are the synchronous [Datasets 🪣](<../../41 🎭 Domain Roles/28 🪣 Datasets/$ 🪣🎭 Dataset role.md>) of [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) `D`?
     | [🏭 Supplies](<../../41 🎭 Domain Roles/78 🏭 Suppliers/$ 🏭🎭 Supplier role.md>) | What are the asynchronous [Supplies 🏭](<../../41 🎭 Domain Roles/78 🏭 Suppliers/$ 🏭🎭 Supplier role.md>) of [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) `D`?
-    | [🌬️ Streams](<../../41 🎭 Domain Roles/75 🌬️ Streamers/$ 🌬️🎭 Streamer role.md>) | What are the event [Streams 🌬️](<../../41 🎭 Domain Roles/75 🌬️ Streamers/$ 🌬️🎭 Streamer role.md>) of [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) `D`?
+    | [🌬️ Streams](<../../41 🎭 Domain Roles/75 🌬️ Streamers/🌬️🎭 Streamer role.md>) | What are the event [Streams 🌬️](<../../41 🎭 Domain Roles/75 🌬️ Streamers/🌬️🎭 Streamer role.md>) of [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) `D`?
     
     ---
     <br/>
@@ -75,7 +75,7 @@
 1. **How can domains know about Manifest events placed on hold?**
 
     [Graph 🕸 domains](<🕸🛠️ Graph helper.md>) raise alert events. 
-    - Interested domains should [subscribe 🔔](<../../41 🎭 Domain Roles/76 🔔 Subscribers/🔔🎭 Subscriber role.md>) to the Graph's [Streamer 🌬️ role](<../../41 🎭 Domain Roles/75 🌬️ Streamers/$ 🌬️🎭 Streamer role.md>), filtering the [domains 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) they're interested in receiving alert notifications about. 
+    - Interested domains should [subscribe 🔔](<../../41 🎭 Domain Roles/76 🔔 Subscribers/🔔🎭 Subscriber role.md>) to the Graph's [Streamer 🌬️ role](<../../41 🎭 Domain Roles/75 🌬️ Streamers/🌬️🎭 Streamer role.md>), filtering the [domains 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) they're interested in receiving alert notifications about. 
     - For privacy reasons, some security alerts may only be pushed to the [Subscriber 🔔 domain](<../../41 🎭 Domain Roles/76 🔔 Subscribers/🔔🎭 Subscriber role.md>) that is referenced in the alert.
 
     ---
