@@ -12,10 +12,10 @@
 | 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agents/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Bar (4.4 ⭐) [+]
 | 🍸 Bar        | ℹ️ This is Table 23 at Any Bar.
 | 🍸 Bar        | 😃 What do you need? <br/>- [ Order ] <br/>- [ Something else ] | > Order
-| 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Here are suggestions: <br/>- [ tap water 🚰 ] <br/> - [ half pint of lager 🍺 ] | `3+ beers`
-| 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | ℹ️ Three half pints of lager it is.
-| 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Anything else? [Yes, No]     | > No
-| 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | ℹ️ Order summary: [Change] <br/>- 3 half pint lager 🍺
+| 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/🧚🫥 Curator agent.md>) | 💭 Here are suggestions: <br/>- [ tap water 🚰 ] <br/> - [ half pint of lager 🍺 ] | `3+ beers`
+| 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/🧚🫥 Curator agent.md>) | ℹ️ Three half pints of lager it is.
+| 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/🧚🫥 Curator agent.md>) | 💭 Anything else? [Yes, No]     | > No
+| 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/🧚🫥 Curator agent.md>) | ℹ️ Order summary: [Change] <br/>- 3 half pint lager 🍺
 | 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agents/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | 🫥 Confirm order? [Yes, No] <br> - warning: you came by car. | > Yes
 | 💳 [Payer](<../../../4 ⚙️ Solution/50 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Pay £3.00 bill? 🧾 [No] <br/>- [ Card ABC ] + $0.10 <br/>- [ Card DEF ] (free) | > Card ABC |
 | 🍸 Bar        | ✅ Order submitted [+]

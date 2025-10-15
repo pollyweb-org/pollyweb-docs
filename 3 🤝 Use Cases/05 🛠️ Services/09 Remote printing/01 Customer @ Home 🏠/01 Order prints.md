@@ -14,11 +14,11 @@ Remotely print a PDF and delivery at home
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agents/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Printer (4.4 ⭐) [+]
 | 🖨️ Printer   | ℹ️ Print request received.
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Ready to order? [Yes, No] <br/> - your curator orders 🧚 <br/> - your navigator sets where 🧭 <br/> - your concierge sets how 🛎️ <br/> - your scheduler reviews 🗓️  <br/> - your payer pays the bill 💳 <br/> - your concierge delivers 🛎️ <br/> - your payer tips the courier 💳  | > Yes
-| 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | ⏳ Analyzing services... 
-| 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 What do you want to print? | `a PDF`
-| 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Upload the PDF | ⬆️ upload
-| 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 2-sided gray scale? [Yes, No]  | > Yes
-| 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Anything else? [No] | > No
+| 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/🧚🫥 Curator agent.md>) | ⏳ Analyzing services... 
+| 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/🧚🫥 Curator agent.md>) | 💭 What do you want to print? | `a PDF`
+| 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/🧚🫥 Curator agent.md>) | 💭 Upload the PDF | ⬆️ upload
+| 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/🧚🫥 Curator agent.md>) | 💭 2-sided gray scale? [Yes, No]  | > Yes
+| 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/🧚🫥 Curator agent.md>) | 💭 Anything else? [No] | > No
 | 🖨️ Printer     | ℹ️ Order ($27.00): [Change] <br/>- print 978 pages <br/> - 2-sided gray scale <br/> - preparation time ⏳ ~15 min 
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/50 🫥 Agents/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | 🫥 Share destination? [No] <br> - [ 🏠 home ] <br/> - [ 🏡 Daniel's ] <br/> - [ 📍 current location ] <br/> - [ 🗺️ Somewhere else ] | > 🏠 home
 | 🛎️ [Concierge](<../../../../4 ⚙️ Solution/50 🫥 Agents/25 🛎️ Concierges/$ 🛎️🫥 Concierge agent.md>) | ⓘ Given destination: [Change]<br/>- Ryan street, 98, 2D 

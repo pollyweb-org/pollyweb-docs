@@ -5,7 +5,7 @@
 
 1. **What are Curator domains?**
 
-    [A Curator 🧚](<$ 🧚🫥 Curator agent.md>) 
+    [A Curator 🧚](<🧚🫥 Curator agent.md>) 
     * is an [Agent 🫥 vault domain](<../$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) 
     * that filters options on behalf of users.
 
@@ -53,7 +53,7 @@
 
 1. **How do Curators work?**
 
-    [Curator 🧚 agents](<$ 🧚🫥 Curator agent.md>) are invoked by [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) to parse a set of choices and return a list of codes back to the Host - e.g.:
+    [Curator 🧚 agents](<🧚🫥 Curator agent.md>) are invoked by [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) to parse a set of choices and return a list of codes back to the Host - e.g.:
     
     - restaurants share menus and receive [food orders 🥘](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/51 🪑 Seat: Order food 🥘.md>)
     - travel agencies share hotel options and receive [bookings 🏨](<../../../3 🤝 Use Cases/03 🧳 Travel/08 🧳 Stay at hotels 🏨/01 🏨 Guest @ Home 🏠/01 🏠 Book hotel.md>)
@@ -65,7 +65,7 @@
 
 1. **Why are Curators important for users?**
 
-    [Curator 🧚 agents](<$ 🧚🫥 Curator agent.md>) protect users by filtering out from the available options given by [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>), instead of sharing details about the user:
+    [Curator 🧚 agents](<🧚🫥 Curator agent.md>) protect users by filtering out from the available options given by [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>), instead of sharing details about the user:
     - e.g., chose meat for dinner, instead of disclosing a life-threatening allergy to shrimp;
     - e.g., choose a back seat at a show, instead of disclosing a limited financial budget;
     - e.g., choose the closest venue for a show, instead of disclosing the current location.
@@ -75,16 +75,16 @@
 
 1. **Why are Curators important for Host domains?**
 
-    [Curator 🧚 agents](<$ 🧚🫥 Curator agent.md>) remove from [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) the undifferentiated heavy lifting of creating personalized workflows for user selection - e.g.:
-    - a restaurant [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) can just dump to a [user's Curator 🧚 agent](<$ 🧚🫥 Curator agent.md>) a comprehensive list of all 100+ possible dishes and drinks offered by the restaurant, with nutritional, allergic, and social media details about each of them;
-    - while this list is most probably overwhelming for the vast majority of users, a [user's Curator 🧚 agent](<$ 🧚🫥 Curator agent.md>) can instantaneously read and filter out the list based on the user's private preferences, health restrictions, special needs, purchasing history, social background, and emotional mood at the time.
+    [Curator 🧚 agents](<🧚🫥 Curator agent.md>) remove from [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) the undifferentiated heavy lifting of creating personalized workflows for user selection - e.g.:
+    - a restaurant [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) can just dump to a [user's Curator 🧚 agent](<🧚🫥 Curator agent.md>) a comprehensive list of all 100+ possible dishes and drinks offered by the restaurant, with nutritional, allergic, and social media details about each of them;
+    - while this list is most probably overwhelming for the vast majority of users, a [user's Curator 🧚 agent](<🧚🫥 Curator agent.md>) can instantaneously read and filter out the list based on the user's private preferences, health restrictions, special needs, purchasing history, social background, and emotional mood at the time.
 
     ---
     <br/>
 
 1. **How do curators protect themselves from prompt injection?**
 
-    [Curator 🧚 agents](<$ 🧚🫥 Curator agent.md>) assess [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) inputs before acting on them. 
+    [Curator 🧚 agents](<🧚🫥 Curator agent.md>) assess [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) inputs before acting on them. 
     - Suspicious behaviors are reported to [Firewall 🔥 helper domains](<../../45 🛠️ Helper domains/40 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>).
 
     ---
@@ -92,17 +92,17 @@
 
 1. **How do curators protect themselves from data breaches?**
 
-    While [Curator 🧚 agents](<$ 🧚🫥 Curator agent.md>) communicate using natural language with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>), they output to [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) only a filtered list of codes referenced in the input.
+    While [Curator 🧚 agents](<🧚🫥 Curator agent.md>) communicate using natural language with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>), they output to [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) only a filtered list of codes referenced in the input.
 
     ---
     <br/>
 
 1. **How much user data should a curator store?**
 
-    NLWeb advocates for [Curator 🧚 agents](<$ 🧚🫥 Curator agent.md>) to rely on [Persona 🧢 vaults](<../70 🧢 Personas/$ 🧢🫥 Persona agent.md>) to assess user intent, while storing the nuances of those intents in the Curator's 🧚 memory:
+    NLWeb advocates for [Curator 🧚 agents](<🧚🫥 Curator agent.md>) to rely on [Persona 🧢 vaults](<../70 🧢 Personas/$ 🧢🫥 Persona agent.md>) to assess user intent, while storing the nuances of those intents in the Curator's 🧚 memory:
     - this addresses the different speed of developments between humans and machines; 
     - i.e., humans change their tastes and behaviors slower as they age, while new and better machine algorithms appear exponentially faster;
-    - this separation of concerns allows users to retain their legacy [Persona 🧢 vault](<../70 🧢 Personas/$ 🧢🫥 Persona agent.md>) while constantly upgrading to new smarter [Curator 🧚 agents](<$ 🧚🫥 Curator agent.md>) as they are released.
+    - this separation of concerns allows users to retain their legacy [Persona 🧢 vault](<../70 🧢 Personas/$ 🧢🫥 Persona agent.md>) while constantly upgrading to new smarter [Curator 🧚 agents](<🧚🫥 Curator agent.md>) as they are released.
 
     ---
     <br/>
@@ -110,10 +110,10 @@
 1. **How should curators deal with ethical issues?**
 
     Ethics vary by civilization. 
-    - Thus, users are advised to exercise conscience when selecting the provider of their [Curator 🧚 agent](<$ 🧚🫥 Curator agent.md>).
+    - Thus, users are advised to exercise conscience when selecting the provider of their [Curator 🧚 agent](<🧚🫥 Curator agent.md>).
     - Is is expected that users will select the Curator 🧚 provider most aligned to their social values.
 
-    Nonetheless, [Curator 🧚 agents](<$ 🧚🫥 Curator agent.md>) should thrive to follow a generic set of globally accepted ethical norms.
+    Nonetheless, [Curator 🧚 agents](<🧚🫥 Curator agent.md>) should thrive to follow a generic set of globally accepted ethical norms.
 
     - **Safety guardrails**: 
         - protect the physical and mental safety of the human, leveraging their [Identity 🆔 vault](<../45 🆔 Identities/$ 🆔🫥 Identity agent.md>) to guardrail legal and cultural nuances.
@@ -121,7 +121,7 @@
   
     - **Cognitive dissonance**: 
         - respect the human's intent behavior by leveraging [Persona 🧢 vaults](<../70 🧢 Personas/$ 🧢🫥 Persona agent.md>) while addressing the emotional side of the human;
-        - e.g., if a human says they prefer to eat vegetables but reject all dishes that contain vegetables, then the [Curator 🧚 agent](<$ 🧚🫥 Curator agent.md>) should memorize repetitive misalignments and work with the [Vitalogist 💖 vault](<../95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) to help the human achieve their desired behavior (instead of reinforcing the misalignment by defaulting to what the human likes to hear).
+        - e.g., if a human says they prefer to eat vegetables but reject all dishes that contain vegetables, then the [Curator 🧚 agent](<🧚🫥 Curator agent.md>) should memorize repetitive misalignments and work with the [Vitalogist 💖 vault](<../95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) to help the human achieve their desired behavior (instead of reinforcing the misalignment by defaulting to what the human likes to hear).
   
     - **Collaborative growth**:
         - adapt to the human's growth and environmental changes by suggesting changes to the human's [Persona 🧢 vault](<../70 🧢 Personas/$ 🧢🫥 Persona agent.md>) settings.

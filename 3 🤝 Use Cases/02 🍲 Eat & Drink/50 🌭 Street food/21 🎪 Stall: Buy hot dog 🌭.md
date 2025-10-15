@@ -11,13 +11,13 @@
 | 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agents/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Stall (4.4 ⭐) [+]
 | 🎪 Stall      | 😃 What do you need? <br/>- [ Order ] <br/>- [ Something else ] | > Order
 | 🤵 [Broker](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Ready to order? [Yes, No] <br/> - your curator orders 🧚<br/> - your vitalogist reviews 💖 <br/> - your payer pays the bill 💳 <br/> - you'll know when ready 🧢 <br/> - your vitalogist records it 💖 | > Yes
-| 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 🫥 Share preferences? [No] <br/>- [ 👤 solo ] | > 👤 solo
-| 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | ⏳ Analyzing menu... 
-| 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Here are suggestions: <br/> - [ ] hot dog 🌭 -sauce <br/>- [ ] chips 🥔 <br/>- [ ] beer 🍺 | `all good`
-| 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Anything else? [Yes, No] | > No
+| 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/🧚🫥 Curator agent.md>) | 🫥 Share preferences? [No] <br/>- [ 👤 solo ] | > 👤 solo
+| 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/🧚🫥 Curator agent.md>) | ⏳ Analyzing menu... 
+| 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/🧚🫥 Curator agent.md>) | 💭 Here are suggestions: <br/> - [ ] hot dog 🌭 -sauce <br/>- [ ] chips 🥔 <br/>- [ ] beer 🍺 | `all good`
+| 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/🧚🫥 Curator agent.md>) | 💭 Anything else? [Yes, No] | > No
 | 🎪 Stall         | ℹ️ Order ($8): [Change] <br/> - hot dog 🌭 (-sauce) ($5) <br/>- chips 🥔 ($1) <br/>- beer 🍺 ($2)
 | 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agents/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | 🫥 Confirm? [Yes, No] <br> - outside your diet <br/> - beer: you came by car | > No
-| 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Change something? | `water,`<br>`not beer`
+| 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/🧚🫥 Curator agent.md>) | 💭 Change something? | `water,`<br>`not beer`
 | 🎪 Stall         | ℹ️ Order ($7): [Change] <br/> - hot dog 🌭 (-sauce) ($5) <br/>- chips 🥔 ($1) <br/>- water 💧 ($1)
 | 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agents/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | 🫥 Confirm? [Yes, No] <br> - outside your diet | > Yes
 | 🧢 [Persona](<../../../4 ⚙️ Solution/50 🫥 Agents/70 🧢 Personas/$ 🧢🫥 Persona agent.md>) | 🫥 Share social name? [No] <br/> - [ 🧑‍🦰 personal ] <br/> - [ 💼 work ] <br/> - [ 🦋 private ]      | > 🧑‍🦰 personal
