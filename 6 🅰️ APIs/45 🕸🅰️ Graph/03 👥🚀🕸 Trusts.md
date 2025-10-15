@@ -7,7 +7,7 @@
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 
 
-* Verifies if there’s a path of [Trust 👍](<../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) 
+* Verifies if there’s a path of [Trust 👍](<../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) 
   * between two [domains 👥](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) 
   * regarding a [Schema Code 🧩](<../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>)
   * as defined in the [`.MANIFEST/TRUST` 🧩](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/50 🧩 TRUST code.md>) part
@@ -64,8 +64,8 @@ Paths:
 
 |Property|Type|Description
 |-|-|-
-| `Trusted` | boolean       | [Trusted 👍](<../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) or not
-| `Paths`   | string[][]    | The chain of [Trusts 👍](<../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>)
+| `Trusted` | boolean       | [Trusted 👍](<../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) or not
+| `Paths`   | string[][]    | The chain of [Trusts 👍](<../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>)
 |
 
 

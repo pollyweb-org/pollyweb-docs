@@ -6,7 +6,7 @@
     A [Graph 🕸 domain](<$ 🕸🛠️ Graph helper.md>) is 
     * any [Helper 🛠️ domain](<../../45 🛠️ Helper domains/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) 
     * that subscribes to [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) change events from [Listener 👂 domains](<../10 👂 Listeners/$ 👂🛠️ Listener helper.md>)
-    * then builds network representations of [Trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) relationships between [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>)
+    * then builds network representations of [Trust 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) relationships between [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>)
     * including indirect relationships via [Authority 🏛️ domains](<../../45 🛠️ Helper domains/14 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>). 
 
     ---
@@ -19,8 +19,8 @@
     |Scope&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Question
     |-|-
     |[👥 Identity](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>)| What's the identity of [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) `D`?
-    |[👍 Trusts](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) | Can I trust the data of [Schema 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) `S` sent by [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) `D`?
-    |[👍 Trusts](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) | Can I trust my data of [Schema 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) `S` to a [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) `D`?
+    |[👍 Trusts](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) | Can I trust the data of [Schema 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) `S` sent by [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) `D`?
+    |[👍 Trusts](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) | Can I trust my data of [Schema 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) `S` to a [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) `D`?
     | [🧩 Schemas](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) | What's the schema definition of [Schema Code 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) `S`?
     | [🎫 Tokens](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) | What's the historical public [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) key of [🎫 Token](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) `T`?
     | [🪣 Datasets](<../../20 🧑‍🦰 UI/12 💬 Chats/07 🪣🎭 Dataset role.md>) | What are the synchronous [Datasets 🪣](<../../20 🧑‍🦰 UI/12 💬 Chats/07 🪣🎭 Dataset role.md>) of [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) `D`?

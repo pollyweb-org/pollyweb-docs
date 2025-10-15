@@ -17,7 +17,7 @@
     | [🤗 Host](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | For interacting with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) in [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>).
     | [🏭 Supplier](<../../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>) | For receiving printing orders and updating on their status.
     | [💼 Consumer](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) | For consuming data sets required to fill out the order.
-    | [💵 Seller](<../../41 🎭 Domain Roles/70 💵 Sellers/01 💵🎭 Seller role.md>) | For receiving payments for the orders via their [Collector 🏦 helper](<../18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>).
+    | [💵 Seller](<../../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>) | For receiving payments for the orders via their [Collector 🏦 helper](<../18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>).
     
 
     ---

@@ -74,18 +74,18 @@ Design Decisions
 
 1. **What is NLWeb's approach to end-user payments?**
 
-    NLWeb integrates payments in [Chats 💬](<../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) between users and [Seller 💵 domains](<../41 🎭 Domain Roles/70 💵 Sellers/01 💵🎭 Seller role.md>). 
+    NLWeb integrates payments in [Chats 💬](<../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) between users and [Seller 💵 domains](<../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>). 
     
-    - As preconditions, users must first bind their [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to one or more [Payer 💳 vaults](<../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) (e.g., their bank), while [Seller 💵 domains](<../41 🎭 Domain Roles/70 💵 Sellers/01 💵🎭 Seller role.md>) must bind to [Collector 🏦 vaults](<../45 🛠️ Helper domains/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) (e.g., a payment gateway). 
+    - As preconditions, users must first bind their [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) to one or more [Payer 💳 vaults](<../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) (e.g., their bank), while [Seller 💵 domains](<../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>) must bind to [Collector 🏦 vaults](<../45 🛠️ Helper domains/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) (e.g., a payment gateway). 
 
-    - The payment is sent from the [user's Payer 💳 vault](<../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) (on behalf of the user) to the [Seller's Collector 🏦 vault](<../45 🛠️ Helper domains/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) (on behalf of the [Seller 💵 domain](<../41 🎭 Domain Roles/70 💵 Sellers/01 💵🎭 Seller role.md>)). 
+    - The payment is sent from the [user's Payer 💳 vault](<../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) (on behalf of the user) to the [Seller's Collector 🏦 vault](<../45 🛠️ Helper domains/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) (on behalf of the [Seller 💵 domain](<../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>)). 
     
     In a [Chat 💬](<../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>): 
-    1. the [Seller 💵 domain](<../41 🎭 Domain Roles/70 💵 Sellers/01 💵🎭 Seller role.md>) requests a payment amount (e.g., 123.45 USD) - the user accepts; 
+    1. the [Seller 💵 domain](<../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>) requests a payment amount (e.g., 123.45 USD) - the user accepts; 
     2. the [user's Payer 💳 vault](<../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>)  asks for the user's preferred payment method (e.g., my company card, my bank account, agreed credit note) - the user selects one; 
     3. depending on the risk associated (e.g., amount, Seller, date/time) the [user's Payer 💳 vault](<../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>)  may ask for an authentication method (e.g., face scan, OTP); 
     4. the [user's Payer 💳 vault](<../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) shares the receipt; 
-    5. the [Seller 💵 domain](<../41 🎭 Domain Roles/70 💵 Sellers/01 💵🎭 Seller role.md>) shares the order/invoice and delivers/promises the product/service.
+    5. the [Seller 💵 domain](<../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>) shares the order/invoice and delivers/promises the product/service.
  
     ---
 

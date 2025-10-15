@@ -112,7 +112,7 @@
 1. **How are Consumers protected when Graph are compromised by attackers?**
 
     [Firewall 🔥 domains](<../../45 🛠️ Helper domains/21 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) monitor the behavior of any [Graph 🕸 domain](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) and match domain information with other [Graphs 🕸](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>). 
-    * If necessary, [Firewall 🔥 domains](<../../45 🛠️ Helper domains/21 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) immediately revoke a Graph's [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>).
+    * If necessary, [Firewall 🔥 domains](<../../45 🛠️ Helper domains/21 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) immediately revoke a Graph's [trust 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>).
 
     ---
     <br/>
@@ -133,7 +133,7 @@
     - Certain scenarios require the [Consumer 💼 domain](<$ 💼🎭 Consumer role.md>) to verify if the person holding the [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) is the person to whom the [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) was issue to - e.g.:
         - at an airport border control, automatic gates need to match the face of the passport holder with the biometric signature contained in the electronic passport. 
     
-    - This requires an online request to an [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) that is [bound 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) to the user and [trusted 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) by the [Consumer 💼 domain](<$ 💼🎭 Consumer role.md>), allowing the token to be matched to the holder without disclosing the holder's identity to the [Consumer 💼 domain](<$ 💼🎭 Consumer role.md>):
+    - This requires an online request to an [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) that is [bound 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) to the user and [trusted 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) by the [Consumer 💼 domain](<$ 💼🎭 Consumer role.md>), allowing the token to be matched to the holder without disclosing the holder's identity to the [Consumer 💼 domain](<$ 💼🎭 Consumer role.md>):
         - e.g., while entering a casino, the casino can validate that the 21-years-old token is valid, and that the holder is the owner of the token, without knowing who the holder is. 
     
     - The [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) can perform the authentication:
@@ -157,16 +157,16 @@
 
 1. **How do sellers prevent swapping of identity Tokens?**
 
-    [Seller 💵 domains](<../70 💵 Sellers/01 💵🎭 Seller role.md>) can prevent frauds where users share their [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) with someone else.
+    [Seller 💵 domains](<../70 💵 Sellers/$ 💵🎭 Seller role.md>) can prevent frauds where users share their [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) with someone else.
     - e.g., an adult may give their wallet's device to an under-aged child so that they can buy age-restricted goods at a self-service store. 
     
     In low-budget validations, 
-    - [Seller 💵 domains](<../70 💵 Sellers/01 💵🎭 Seller role.md>) ask the user's trusted [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) to perform the authentication inside the [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) on the user's device;
+    - [Seller 💵 domains](<../70 💵 Sellers/$ 💵🎭 Seller role.md>) ask the user's trusted [Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) to perform the authentication inside the [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) on the user's device;
     - depending on the circumstances, this can be a biometric face scan, voice recognition, OTP, security questions, or other. 
     
     In offline scenarios, 
     - where users carry an NFC card or a printed QR, 
-    - the [Seller 💵 domain](<../70 💵 Sellers/01 💵🎭 Seller role.md>) takes a photo of the user with a fixed camera, and then asks the [Token's Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) to match the [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) with the picture.
+    - the [Seller 💵 domain](<../70 💵 Sellers/$ 💵🎭 Seller role.md>) takes a photo of the user with a fixed camera, and then asks the [Token's Identity 🆔 domain](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) to match the [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) with the picture.
 
     ---
     <br/>
@@ -189,7 +189,7 @@
 
     * Because the [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) are public and prone to automatic evaluation by domains like [Firewall 🔥 domains](<../../45 🛠️ Helper domains/21 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) and [Reviewer ⭐ domains](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>), [Consumer 💼 domains](<$ 💼🎭 Consumer role.md>) are exposed to public scrutiny regarding the data  their are collecting, namely: what, why, how, and how much.
 
-    * [Authority 🏛️ domains](<../../45 🛠️ Helper domains/14 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>) monitor the [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) for dataset requests that don't match the domain's business or exception requests, and if necessary may revoke the [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) on the [Consumer 💼 domain](<$ 💼🎭 Consumer role.md>).
+    * [Authority 🏛️ domains](<../../45 🛠️ Helper domains/14 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>) monitor the [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) for dataset requests that don't match the domain's business or exception requests, and if necessary may revoke the [trust 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) on the [Consumer 💼 domain](<$ 💼🎭 Consumer role.md>).
 
     * Consider the following example of a [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>).
     

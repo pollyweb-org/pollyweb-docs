@@ -29,7 +29,7 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
 
 - Organizations interact with an email-like inbox API behind a domain name, and can assume a multitude of roles in parallel - e.g.:
     * session [Host 🤗](<../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>), 
-    * business [Seller 💵](<../41 🎭 Domain Roles/70 💵 Sellers/01 💵🎭 Seller role.md>),
+    * business [Seller 💵](<../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>),
     * data [Consumer 💼](<../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>), 
     * user-bound [Vault 🗄️](<../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>), 
     * event [Streamer 🌬️](<../41 🎭 Domain Roles/75 🌬️ Streamers/$ 🌬️🎭 Streamer role.md>), 
@@ -38,7 +38,7 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
 - Domains are extended by helper domains, e.g.:
     * [Buffer ⏳ helper domains](<../45 🛠️ Helper domains/16 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) for global ingestion and throttling, 
     * [Collector 🏦 helper domains](<../45 🛠️ Helper domains/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) for payments, 
-    * [Biller 🤝 helper domains](<../45 🛠️ Helper domains/15 🤝 Billers/06 🤝🛠️ Biller helper.md>) for financial contracts, 
+    * [Biller 🤝 helper domains](<../45 🛠️ Helper domains/15 🤝 Billers/$ 🤝🛠️ Biller helper.md>) for financial contracts, 
     * [Advertiser 👀 helper domains](<../45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) for ads.
 
 - Data integration and structural validation is assured via:
@@ -56,14 +56,14 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
     - that aggregate [Pluggable 🔌](<../60 🧰 Edge/61 🔌 Pluggables/01 🔌 Pluggable device.md>) devices and [Wi-Fier 🛜](<../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>) routers. 
 
 - Security is assured by:
-    * a [Trust 👍](<../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) framework; 
+    * a [Trust 👍](<../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) framework; 
     * digital signatures for [Messages 📨](<../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) and [files](<../30 🫥 Agents/05 🆔 Identities/16 🆔🔏 Verify Signatures.md>);
     * global [Firewall 🔥 helper domains](<../45 🛠️ Helper domains/21 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) that actively monitor the ecosystem;
     * user [Identity 🆔 vault domains](<../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) that authenticate users on behalf of other [domains 👥](<../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) while maintaining privacy and legal compliance;
     * and [Ephemeral 🦋 devices](<../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>) that dynamically rotate QR and NFC [Locators 🔆](<../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) to prevent fraud.
 
 - Performance at a global scale is assured by:
-  * a distributed cluster of [Listener 👂 helper domains](<../42 Backbone/10 👂 Listeners/$ 👂🛠️ Listener helper.md>) that propagate [Schema Codes 🧩](<../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) and [Trusts 👍](<../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) from [domain Manifests 📜](<../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) in near-real time;
+  * a distributed cluster of [Listener 👂 helper domains](<../42 Backbone/10 👂 Listeners/$ 👂🛠️ Listener helper.md>) that propagate [Schema Codes 🧩](<../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) and [Trusts 👍](<../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) from [domain Manifests 📜](<../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) in near-real time;
   * and [Graph 🕸 helper domains](<../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) that cache them to support high-performant queries from any [domain 👥](<../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>).
 
   ---

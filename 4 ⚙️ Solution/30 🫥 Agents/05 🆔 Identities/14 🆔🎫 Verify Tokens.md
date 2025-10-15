@@ -118,7 +118,7 @@
         - at airports, this can be the border-control gate for passport verification;
         - at an embassy or a bank, this can be a fixed kiosk;
         - at a traffic checkpoint, this can be a police agent holding an Android device;
-    - 2/ the [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) verifies the [Trust 👍 relationships](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>)  with the [Token's Issuer 🎴 domain](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) and [Identity 🆔 domain](<01 🆔🫥 Identity agent.md>);
+    - 2/ the [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) verifies the [Trust 👍 relationships](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>)  with the [Token's Issuer 🎴 domain](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) and [Identity 🆔 domain](<01 🆔🫥 Identity agent.md>);
     - 3/ the [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) verifies if the [Token's 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) signature matches the [DKIM 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>)  of the [Issuer 🎴 domain](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>);
     - 4/ the [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) collects the user's biometrics;
         - for general services, this can be a scanner taking the user's palm biometrics;
@@ -141,7 +141,7 @@
       
     - For that, users first need to bind their wallet to an [🆔 Identity Vault](<01 🆔🫥 Identity agent.md>) (typically a governmental authority that issues passports) to set up authentication mechanisms (e.g., voice and face biometric signatures collected in a supervised center) - users may then ask the Identity Vault for an age-related [Token 🎫](<14 🆔🎫 Verify Tokens.md>) (e.g., over 16 years old). 
     
-    - When interacting with the [Seller 💵](<../../41 🎭 Domain Roles/70 💵 Sellers/01 💵🎭 Seller role.md>)'s domain, the Seller can then ask for the Token before providing the service or granting the entrance. 
+    - When interacting with the [Seller 💵](<../../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>)'s domain, the Seller can then ask for the Token before providing the service or granting the entrance. 
     
     - The Token can also be printed or saved into to an NCF card, so that users can access the venue or service even when their devices run out of battery.
 

@@ -21,7 +21,7 @@
 
 
 - Header:
-    - [From 💵](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/70 💵 Sellers/01 💵🎭 Seller role.md>): `any-seller.org`
+    - [From 💵](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>): `any-seller.org`
     - [To 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>): `any-broker.com`
     - [Subject 📨](<../../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>): `Charge@Broker`
 - Body:
