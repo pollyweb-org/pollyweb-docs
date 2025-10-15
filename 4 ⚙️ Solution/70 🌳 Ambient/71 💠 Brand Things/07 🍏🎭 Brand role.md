@@ -18,7 +18,7 @@
     |Category|Step
     |-|-
     | `Orchestrate` | A [Brand 🍏 domains](<07 🍏🎭 Brand role.md>) ask a [Wand 🪄 helper domain](<09 🪄🛠️ Wand helper.md>) to create a digital [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) for the embedded [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) of their physical product (i.e., a [Thing 💠 extension](<01 💠 Thing.md>)).
-    | `Supply` | The [Brand 🍏 domain](<07 🍏🎭 Brand role.md>) then asks a [Printer 🖨️ helper domain](<../../45 Helpers/10 Printers/08 🖨️🏭 Printer helper.md>) to print that [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) into physical NFQ/QR tag (i.e., a [Thing 💠 tag](<01 💠 Thing.md>)).
+    | `Supply` | The [Brand 🍏 domain](<07 🍏🎭 Brand role.md>) then asks a [Printer 🖨️ helper domain](<../../45 Helpers/10 🖨️ Printers/08 🖨️🏭 Printer helper.md>) to print that [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) into physical NFQ/QR tag (i.e., a [Thing 💠 tag](<01 💠 Thing.md>)).
     | `Assembly` | The [Brand 🍏 domain](<07 🍏🎭 Brand role.md>) then bundles the product with the tag, and sells it.
     | `Tap/Scan`| Users then pick up the product (e.g., a shirt in a fashion store) and tap/scan the [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) to initiate a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) with the [Wand 🪄 domain](<09 🪄🛠️ Wand helper.md>).
     
@@ -29,10 +29,10 @@
 
     | [Helper 🛠️](<../../25 Data/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | Reason
     |-|-
-    | [Printer 🖨️](<../../45 Helpers/10 Printers/08 🖨️🏭 Printer helper.md>) | To print the [NFC/QR Locators 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) for the Brand's [Things 💠](<01 💠 Thing.md>).
+    | [Printer 🖨️](<../../45 Helpers/10 🖨️ Printers/08 🖨️🏭 Printer helper.md>) | To print the [NFC/QR Locators 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) for the Brand's [Things 💠](<01 💠 Thing.md>).
     | [Wand 🪄](<09 🪄🛠️ Wand helper.md>) | To order and manage the lifecycle of [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) for the Brand's [Things 💠](<01 💠 Thing.md>).
     | [Payer 💳](<../../30 🫥 Agents/04 💳 Payers/05 💳🛠️ Payer helper.md>) | To pay for the services of the other [Helper 🛠️ domains](<../../25 Data/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>).
-    | [Buffer ⏳](<../../40 👥 Domains/42 🌬️ Streams/03 ⏳🛠️ Buffer helper.md>) | To receive order updates from the [Wand 🪄](<09 🪄🛠️ Wand helper.md>) and the [Printer 🖨️](<../../45 Helpers/10 Printers/08 🖨️🏭 Printer helper.md>) domains.
+    | [Buffer ⏳](<../../40 👥 Domains/42 🌬️ Streams/03 ⏳🛠️ Buffer helper.md>) | To receive order updates from the [Wand 🪄](<09 🪄🛠️ Wand helper.md>) and the [Printer 🖨️](<../../45 Helpers/10 🖨️ Printers/08 🖨️🏭 Printer helper.md>) domains.
 
     ---
 
@@ -52,7 +52,7 @@
 
     Brands 🍏 can either:
     * print the [Locators 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) of the [Wand 🪄 helper domains](<09 🪄🛠️ Wand helper.md>) by themselves, 
-    * or they can order [Locators 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) from [Printer 🖨️ helper domains](<../../45 Helpers/10 Printers/08 🖨️🏭 Printer helper.md>).
+    * or they can order [Locators 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) from [Printer 🖨️ helper domains](<../../45 Helpers/10 🖨️ Printers/08 🖨️🏭 Printer helper.md>).
 
     ---
 
