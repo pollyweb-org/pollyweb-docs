@@ -75,7 +75,7 @@
     |-|-|-
     | `Currency` | Optional ISO 4217 currency <br/>- defaults to the locale's currency | `USD`
     | `Precision`| Rounded decimals (default is 2) | `2`
-    | `Locale`   | Optional CLDR locale <br/> - defaults to the [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) language | `en-US`
+    | `Locale`   | Optional CLDR locale <br/> - defaults to the [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) language | `en-US`
     | `MinValue` | Optional [minimum value 📋](<../2 ✏️ Input specs/13 📋 Input validation.md>) | `-100`
     | `MaxValue` | Optional [maximum value 📋](<../2 ✏️ Input specs/13 📋 Input validation.md>) | `100`
     | `Emoji` | Optional [alternative emoji 😶](<../2 ✏️ Input specs/14 😶 Input emojis.md>) | `😶`
@@ -86,7 +86,7 @@
     ---
     <br/>
 
-1. **What's an AMOUNT example of a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)?**
+1. **What's an AMOUNT example of a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)?**
 
 
 
@@ -163,7 +163,7 @@
     * identity and clean monetary characters
     * while storing the currencies in their original currency.
 
-    Consider the following conversion table in a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) with locale `en-US`.
+    Consider the following conversion table in a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with locale `en-US`.
 
     |Group      | Scenario| `.Text`   | `.Pretty`   | `.Currency`
     |-          | -|-:|-:|:-:

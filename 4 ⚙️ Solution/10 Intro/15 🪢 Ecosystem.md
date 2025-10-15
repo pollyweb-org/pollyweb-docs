@@ -11,7 +11,7 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
   
     * Each app depends on a [Notifier 📣 domain](<../20 🧑‍🦰 UI/02 📣 Notifiers/$ 📣 Notifier domain.md>) for device-specific communications (e.g., WebSockets, MQTT).
     
-    * Each [Notifier 📣 domain](<../20 🧑‍🦰 UI/02 📣 Notifiers/$ 📣 Notifier domain.md>) depends on a [Broker 🤵 domain](<../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) for [Chat 💬](<../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) orchestration with [Host 🤗 domains](<../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>). 
+    * Each [Notifier 📣 domain](<../20 🧑‍🦰 UI/02 📣 Notifiers/$ 📣 Notifier domain.md>) depends on a [Broker 🤵 domain](<../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) for [Chat 💬](<../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) orchestration with [Host 🤗 domains](<../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>). 
 
 * Users store their data in [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>).
   
@@ -19,7 +19,7 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
     
     * [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) may allow users to edit their data through the user's [Folder 🗂️ editor](<../45 🛠️ Helper domains/26 🗂️ Folders/$ 🗂️ Folder editor.md>).
 
-* Users designate [Agents 🫥 domains](<../25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) to handle specific well-defined roles in [Chats 💬](<../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) with [Host 🤗 domains](<../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) (e.g., payments).
+* Users designate [Agents 🫥 domains](<../25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) to handle specific well-defined roles in [Chats 💬](<../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with [Host 🤗 domains](<../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) (e.g., payments).
 
     * These [Agents 🫥](<../25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) are [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) that the user told their [Broker 🤵 domain](<../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) to invoke by default when a role is required.
 

@@ -9,7 +9,7 @@
 
 1. **How to verify a Wallet ownership?**
 
-    Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) excerpt
+    Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) excerpt
     * as an example of [face verification 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/01 📺 Difference.md>) 
     * for the ownership of a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
         
@@ -58,7 +58,7 @@
     NLWeb advocates for online face authentication between [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) and [Identity 🆔 vaults](<01 🆔🫥 Identity agent.md>), without sharing user biometrics with [Seller 💵 domains](<../../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>);
     - e.g., when a [Seller 💵 domain](<../../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>) needs to match a person with a [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>), 
     - it contacts the [Token's  Identity 🆔 domain](<01 🆔🫥 Identity agent.md>) to perform the authentication 
-    - via the user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>), 
+    - via the user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>), 
     - and only return a success/failure to the [Seller 💵 domain](<../../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>) . 
     
     When offline authentications are required, 

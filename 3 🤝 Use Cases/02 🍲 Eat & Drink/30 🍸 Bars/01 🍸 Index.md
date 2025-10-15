@@ -8,7 +8,7 @@
 
 ## 💬 Chats
 
-| Persona |  [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) | [Agents 🫥](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>)
+| Persona |  [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) | [Agents 🫥](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>)
 |-|-|-
 |🧑‍🦰  `🌐 Web` | [Find a bar 🔎](<11 🌐 Web: Find a bar.md>) | [`🤵 Broker`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) [`🔎 Finder`](<../../../4 ⚙️ Solution/30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>)
 |🧑‍🦰  `🪑 Seat`| [Order water 💧](<21 🪑 Seat: Order water.md>) | [`🧚 Curator`](<../../../4 ⚙️ Solution/30 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) [`💳 Payer`](<../../../4 ⚙️ Solution/30 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) [`💖 Vitalogist`](<../../../4 ⚙️ Solution/30 🫥 Agents/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) 

@@ -43,5 +43,5 @@ Locator: .HOST,any-host.com,any-key
 | `Status`  | string | `ACTIVE` `SUSPENDED` `REVOKED` `EXPIRED`
 | `Starting`| string | Optional date of start of status
 | `Ending`  | string | Optional date of ending of status
-| `Locator`| string | Optional [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) for a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) about it
+| `Locator`| string | Optional [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) for a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) about it
 |

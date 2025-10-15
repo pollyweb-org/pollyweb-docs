@@ -1,7 +1,7 @@
 # 🤗⏩🧑‍🦰 Goodbye @ Host
 
 * [Host 🤗 domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) 
-    * inform [Broker 🤵 domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) of the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) ending, 
+    * inform [Broker 🤵 domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) of the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ending, 
     * for them to trigger the [Advertisement 👀 ](<../../4 ⚙️ Solution/45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) flow.
 * Activated by:
     * [👋 Talker `GOODBYE` command](<../../9 😃 Talkers/60 ⏩ Msg flows/50 👋 GOODBYE.md>)
@@ -10,7 +10,7 @@
 
 ## 💬 Chat
 
-Consider the following [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) as an example.
+Consider the following [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) as an example.
 
 | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Prompt](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
 | - | - | - |
@@ -42,7 +42,7 @@ The associated [Talker 😃](<../../9 😃 Talkers/10 📘 Talker specs/10 😃 
 
 | # | Call | Notes
 |-|-|-
-| 1 | [🤗🐌🤵 `Goodbye@Broker`](<../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/05 🤗🐌🤵 Goodbye.md>) | [Hosts 🤗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) tell [Brokers 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) of [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) endings
+| 1 | [🤗🐌🤵 `Goodbye@Broker`](<../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/05 🤗🐌🤵 Goodbye.md>) | [Hosts 🤗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) tell [Brokers 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) of [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) endings
 | 2 | [👀⏩🧑‍🦰 Advertise 👀](<../05 👀⏩ Advertisers/01 👀⏩🧑‍🦰 Advertise.md>) | [Brokers 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) ask [Advertisers 👀](<../../4 ⚙️ Solution/45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) to advertise
 | 3 | [⭐⏩🧑‍🦰 Review ⭐](<../70 ⭐⏩ Reviewers/01 ⭐⏩🧑‍🦰 Review.md>) | [Brokers 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) ask [Reviewers ⭐](<../../4 ⚙️ Solution/30 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) to review
 ||

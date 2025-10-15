@@ -14,7 +14,7 @@
 
     | # | Step
     |-|-
-    | 1 | As a [Host 🤗](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>), a Seller 💵 charges a user for a service or product.
+    | 1 | As a [Host 🤗](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>), a Seller 💵 charges a user for a service or product.
     | 2 | The user delegates the payment to their [Payer 💳 agent](<../../30 🫥 Agents/60 💳 Payers/04 💳🫥 Payer agent.md>).
     | 3 | The user's [Payer 💳 agent](<../../30 🫥 Agents/60 💳 Payers/04 💳🫥 Payer agent.md>) informs the Seller's [Collector 🏦 helper](<../../45 🛠️ Helper domains/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) about the money transfer.
     | 4 | The Seller's [Collector 🏦 helper](<../../45 🛠️ Helper domains/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) informs the Seller 💵 that the transaction is paid for.

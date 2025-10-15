@@ -27,7 +27,7 @@
     ||[`Upload`](<../../6 🅰️ APIs/78 🗃️🅰️ Resourcer/30 🔃🚀🗃️ Upload.md>) | Then upload each file individually
     ||[`Uploaded`](<../../6 🅰️ APIs/78 🗃️🅰️ Resourcer/50 🔃🚀🗃️ Uploaded.md>) | [Resourcers 🗃️](<../../9 😃 Talkers/90 ☁️ Hosters/02 🗃️🎭 Resourcer role.md>) calculate changes
     ||[`Download`](<../../6 🅰️ APIs/78 🗃️🅰️ Resourcer/60 🔃🚀🗃️ Download.md>) | [Syncers](<../../9 😃 Talkers/90 ☁️ Hosters/01 🔃🛠️ Syncer tool.md>) execute the changes
-    |[⏩ Chat](<../../6 🅰️ APIs/78 🗃️🅰️ Resourcer/70 🔃🐌🗃️ Chat.md>)|[`Chat`](<../../6 🅰️ APIs/78 🗃️🅰️ Resourcer/70 🔃🐌🗃️ Chat.md>) | Opens a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) with a [Resourcer 🗃️](<../../9 😃 Talkers/90 ☁️ Hosters/02 🗃️🎭 Resourcer role.md>)
+    |[⏩ Chat](<../../6 🅰️ APIs/78 🗃️🅰️ Resourcer/70 🔃🐌🗃️ Chat.md>)|[`Chat`](<../../6 🅰️ APIs/78 🗃️🅰️ Resourcer/70 🔃🐌🗃️ Chat.md>) | Opens a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with a [Resourcer 🗃️](<../../9 😃 Talkers/90 ☁️ Hosters/02 🗃️🎭 Resourcer role.md>)
     
 
     ---

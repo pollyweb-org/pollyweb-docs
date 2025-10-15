@@ -10,7 +10,7 @@
 
 * A [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) 
     * says something to a user 
-    * in a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) 
+    * in a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) 
     * with a [Prompt 🤔](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>).
 
 
@@ -18,7 +18,7 @@
 
 ## 💬 Chat
 
-Consider the following [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) with two [Prompts 🤔](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) as an example.
+Consider the following [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with two [Prompts 🤔](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) as an example.
 
 | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Prompt](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
 | - | - | - |

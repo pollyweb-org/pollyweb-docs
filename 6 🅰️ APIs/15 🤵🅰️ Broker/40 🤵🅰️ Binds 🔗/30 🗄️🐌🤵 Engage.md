@@ -3,7 +3,7 @@
 > Part of [🗄️⏩🧑‍🦰 Engage @ Vault](<../../../5 ⏩ Flows/80 🗄️⏩ Vaults/04 🗄️⏩🧑‍🦰 Engage 💬.md>)
 
 * Allows for [Vault 🗄️ domains](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) 
-    * to proactively start a new [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) 
+    * to proactively start a new [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) 
     * with a [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) previously [bound 🔗](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/01 🔗 Bind.md>)
     * in the best interest of the user.
 
