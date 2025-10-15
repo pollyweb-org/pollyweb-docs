@@ -1,6 +1,6 @@
 <!-- TODO -->
 
-# 🧑‍💻☁️ Hosted domain
+# 📦 Hosted domain
 
 > Part of [Hoster ☁️ helper domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/55 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>)
 

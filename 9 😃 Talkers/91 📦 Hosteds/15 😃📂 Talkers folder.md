@@ -1,6 +1,6 @@
 # 😃 Hosted `Talkers` folder
 
-> Part of [Hosted 🧑‍💻 domain](<01 🧑‍💻 Hosted domain.md>)
+> Part of [Hosted 📦 domain](<01 📦 Hosted domain.md>)
 
 <br/>
 
