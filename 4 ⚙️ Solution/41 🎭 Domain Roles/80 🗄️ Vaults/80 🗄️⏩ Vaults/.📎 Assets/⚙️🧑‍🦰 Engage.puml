@@ -1,0 +1,24 @@
+@startuml Wallet: Share()
+
+actor User as user  
+participant "Wallet 👱\napp" as wallet
+participant "Broker 🤵\nhost" as broker
+participant "Vault 🗄️\n(domain)" as vault
+
+vault --> broker: 1) Engage 🐌 {locator}
+
+activate broker
+    broker --> wallet: 2) ⏪ Assess {locator}
+    activate wallet
+    broker --> vault: 3) Hello 🐌 {locator}
+deactivate broker
+
+activate vault
+    vault --> wallet: 4) ⏪ Prompt ⓘ {context} 
+    vault --> wallet: 5) ⏪ Prompt 🤔 {what?} 
+deactivate vault
+
+    user --> wallet: reply
+deactivate wallet
+
+@enduml 
