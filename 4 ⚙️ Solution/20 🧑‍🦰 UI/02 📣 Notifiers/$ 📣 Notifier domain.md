@@ -20,9 +20,9 @@
 
     |#|Step
     |-|-
-    |1| A [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/04 🤗🎭 Host role.md>) sends a [Prompt 🤔 ](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) identifier to a [Broker 🤵 domain](<../03 🤵 Brokers/$ 🤵 Broker domain.md>) in the context of a [Chat 💬](<../12 💬 Chats/$ 💬 Chat.md>), which is then proxied through the [Notifier 📣 domain](<$ 📣 Notifier domain.md>) and pushed to the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
+    |1| A [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) sends a [Prompt 🤔 ](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) identifier to a [Broker 🤵 domain](<../03 🤵 Brokers/$ 🤵 Broker domain.md>) in the context of a [Chat 💬](<../12 💬 Chats/$ 💬 Chat.md>), which is then proxied through the [Notifier 📣 domain](<$ 📣 Notifier domain.md>) and pushed to the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
     |2| The [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) pulls the content of the [Prompt 🤔 ](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) using the identifier.
-    |3| The user replies to the [Prompt 🤔 ](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) and the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) sends the answer to the [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/04 🤗🎭 Host role.md>).
+    |3| The user replies to the [Prompt 🤔 ](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) and the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) sends the answer to the [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>).
 
     ---
     <br/>

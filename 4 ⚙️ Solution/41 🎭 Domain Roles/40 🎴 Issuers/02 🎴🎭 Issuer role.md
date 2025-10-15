@@ -16,7 +16,7 @@
 
     | # | Step 
     |-|-
-    |1| A user engages in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with a [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/04 🤗🎭 Host role.md>) with an [Issuer 🎴 role](<02 🎴🎭 Issuer role.md>).
+    |1| A user engages in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with a [Host 🤗 domain](<../30 🤗 Hosts/$ 🤗🎭 Host role.md>) with an [Issuer 🎴 role](<02 🎴🎭 Issuer role.md>).
     |2| The [Issuer 🎴 domain](<02 🎴🎭 Issuer role.md>) issues a [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) for the user, and the user's [Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) asks the user to confirm if they want to save the [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) offline in the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
 
     ---

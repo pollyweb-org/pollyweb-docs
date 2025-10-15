@@ -15,9 +15,9 @@
         
     | [Domain](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | 🤗 [Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/04 🤗🎭 Host role.md>) | 😐 Start risky task [Yes, No] | > Yes
+    | 🤗 [Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) | 😐 Start risky task [Yes, No] | > Yes
     | 🆔 [Identity](<01 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<21 🆔😶 Face scan.md>)
-    | 🤗 [Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/04 🤗🎭 Host role.md>) | ✅ Verified, task started!
+    | 🤗 [Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) | ✅ Verified, task started!
 
     ---
     <br/>
@@ -41,7 +41,7 @@
 
     ![](<. 📎 Assets/🆔 Online.png>)
 
-    When a user is requested by a [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/04 🤗🎭 Host role.md>) to verify their identity against a given [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>), the following steps are executed.
+    When a user is requested by a [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) to verify their identity against a given [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>), the following steps are executed.
 
     | # | Step
     |-|-
