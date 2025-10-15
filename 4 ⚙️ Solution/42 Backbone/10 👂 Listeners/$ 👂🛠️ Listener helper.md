@@ -235,8 +235,8 @@
 
 1. **How to identify if a Listener was compromised?**
 
-    [Firewall 🔥 helper domains](<../../45 Helpers/21 Firewalls/$ 🔥🛠️ Firewall helper.md>) monitor the behavior of any [Listener 👂 domain](<$ 👂🛠️ Listener helper.md>) and match domain information with other [Listener 👂 domains](<$ 👂🛠️ Listener helper.md>). 
-    * If necessary, [Firewall 🔥 domains](<../../45 Helpers/21 Firewalls/$ 🔥🛠️ Firewall helper.md>) immediately revoke a Listener's [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>).
+    [Firewall 🔥 helper domains](<../../45 Helpers/21 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) monitor the behavior of any [Listener 👂 domain](<$ 👂🛠️ Listener helper.md>) and match domain information with other [Listener 👂 domains](<$ 👂🛠️ Listener helper.md>). 
+    * If necessary, [Firewall 🔥 domains](<../../45 Helpers/21 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) immediately revoke a Listener's [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>).
 
     ---
     <br/>
