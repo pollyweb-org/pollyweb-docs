@@ -19,5 +19,5 @@ How to receive items from staff at a restaurant?
 | 🍽️ Restaurant | ⏳ Speeding your order... <br/>  - [ 1 dark paella 🥘 ] 🚀 
 | 🍽️ Restaurant | ✅ Order delivered: <br/> - 1 dark paella 🥘
 | 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agents/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | 🫥 Save intake? [Yes, No] | > Yes
-| ⭐ [Rate](<../../../4 ⚙️ Solution/50 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5
+| ⭐ [Rate](<../../../4 ⚙️ Solution/50 🫥 Agents/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5
 ||

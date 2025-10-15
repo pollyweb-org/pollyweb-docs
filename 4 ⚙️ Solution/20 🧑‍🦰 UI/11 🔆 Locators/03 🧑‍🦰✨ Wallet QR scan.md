@@ -11,6 +11,7 @@
     - buttons and QR images contain links to the `nlweb.org/go` proxy.
 
     ---
+    <br/>
 
 1. **How do Wallet apps scan an NLWeb QR?**
 
@@ -20,6 +21,7 @@
 
 
     ---
+    <br/>
 
 1. **What if users use the default QR reader instead?**
 
@@ -28,12 +30,14 @@
 
 
     ---
+    <br/>
 
 1. **What if users without a Wallet scan a QR?**
 
     If a user doesn't have an NLWeb [Wallet app 🧑‍🦰](<../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) installed and scans an NLWeb QR with the mobile device's default QR scanner (e.g., Google Lens in Android) then a web browser will open on `https://nlweb.org/install` educating the user to find and install a compatible NLWeb app. 
 
     ---
+    <br/>
 
 1. **What's NLWeb view on entitlement QR codes?**
 
@@ -54,6 +58,7 @@
     - i.e., apart from rare exceptions where two [Wallets 🧑‍🦰](<../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) are co-operating, users are not required present a QR.
 
     ---
+    <br/>
 
 1. **What's NLWeb view on pin codes for entitlement?**
 
@@ -89,6 +94,7 @@
     <!-- TODO: add examples -->
 
     ---
+    <br/>
 
 1. **How can businesses protect users from fake QRs?**
     
@@ -98,3 +104,4 @@
     - screen-based QR+NFC devices, e.g. [Ephemeral 🦋 devices](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>).
     
     ---
+    <br/>

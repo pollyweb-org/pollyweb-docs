@@ -19,7 +19,7 @@
 | 💳 [Payer](<../../../4 ⚙️ Solution/50 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Pay $1.50 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
 | 🍫 Vending | [⏳ Delivering...](<../../../9 😃 Talkers/20 🤔 Prompts/4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>)
 | 🍫 Vending | [✅ Pick up the item. ](<../../../9 😃 Talkers/20 🤔 Prompts/4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>)
-| ⭐ [Rate](<../../../4 ⚙️ Solution/50 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5
+| ⭐ [Rate](<../../../4 ⚙️ Solution/50 🫥 Agents/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5
 | [👀 Ads](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) | ⓘ Explore follow-ups: <br/>- [ 🛍️ Reusable bottles at Greg's ] 
 ||
 

@@ -34,7 +34,7 @@ How to book a room at a hotel?
 | 💳 [Payer](<../../../../4 ⚙️ Solution/50 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Authorize card? 📄 [No] <br/>- [ Card ABC ] + $0.10 <br/>- [ Card DEF ] (free) | > Card ABC |
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Save booking? [Yes, No] | > Yes 
 | 🌍 Agency   | ✅ Booked!   
-| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5 |
+| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agents/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5 |
 | 🌍 Agency   | ⏳ Upcoming bookings: <br/> - [ #1 ] Feb 18-20 at Any Hotel
 | ... 
 |||

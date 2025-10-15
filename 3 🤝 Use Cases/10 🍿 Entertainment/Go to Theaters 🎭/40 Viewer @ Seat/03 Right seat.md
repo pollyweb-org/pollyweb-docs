@@ -8,5 +8,5 @@ Confirm the right seat at a theatre 🎭
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | ⓘ Ticket [token 🎟️](<../../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) shared [+]
 | 🎭 Venue | ℹ️ Tickets presented: B10, B12 [+]
 | 🎭 Venue | ✅ You're at seat B10 [+] 
-| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? 
+| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agents/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? 
 ||

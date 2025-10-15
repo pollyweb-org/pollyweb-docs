@@ -24,7 +24,7 @@
 | 🍽️ Restaurant | 😃 Confirm booking? [Yes, No] | > Yes
 | 🤵 [Broker](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Save booking? [Yes, No]  | > Yes
 | 🍽️ Restaurant | ✅ Done. See you then!
-| ⭐ [Rate](<../../../4 ⚙️ Solution/50 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5
+| ⭐ [Rate](<../../../4 ⚙️ Solution/50 🫥 Agents/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5
 ||
 
 

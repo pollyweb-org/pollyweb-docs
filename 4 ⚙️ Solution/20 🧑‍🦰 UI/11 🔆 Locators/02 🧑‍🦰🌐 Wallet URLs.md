@@ -10,6 +10,7 @@
     * When the Wallet app opens, it reads the link passed by the OS and then opens a chat with the Host domain in the URL's Locator.
 
     ---
+    <br/>
 
 1. **What if an NLWeb Wallet is not installed in the device?**
 
@@ -18,6 +19,7 @@
     * If a user with an NLWeb [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) installed navigates to a redirect link (e.g., `https://nlweb.org/go/ABC`), the browser redirects to a `nlweb` URL, signaling the OS to open the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) - the [Wallet 🧑‍🦰](<../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) then opens with a [Chat 💬](<../12 💬 Chats/$ 💬 Chat.md>) to the link's host. 
 
     ---
+    <br/>
 
 1. **How can website developers add NLWeb links?**
 
@@ -32,6 +34,7 @@
     * See [here](<https://gist.github.com/diachedelic/0d60233dab3dcae3215da8a4dfdcd434>) for details.
 
     ---
+    <br/>
 
 1. **What happens to NFC/QR Locators if `nlweb.org` goes down?**
 
@@ -40,3 +43,4 @@
     * Conversely, users without a Wallet will see an HTTP 404 error on their web browsers when interacting with an NLWeb NFC/QR, because the OS will navigate to the fallback URL which points to `nlweb.org`.
 
     ---
+    <br/>

@@ -121,7 +121,7 @@
     | | [`Reply`](<55 🧑‍🦰🐌🤗 Reply@Host.md>) | Accept the reply to a [Prompt 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>)
     | | [`Download`](<56 🧑‍🦰🚀🤗 Download@Host.md>) | Download an [Appendix 📎](<../../../9 😃 Talkers/20 🤔 Prompts/1 📘 Prompt specs/05 📎 with Appendix.md>)
     [🖐️ Palmist](<../../60 🧰 Edge/63 🖐️ Palmists/01 🖐️🔌 Palmist device.md>) | [`Found`](<58 🖐️🐌🤗 Found@Host.md>) | A [Palmist 🖐️](<../../60 🧰 Edge/63 🖐️ Palmists/01 🖐️🔌 Palmist device.md>) found the Chat's user
-    [⭐ Reviewer](<../../50 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer agent.md>) | [`Rated`](<59 ⭐🐌🤗 Rated@Host.md>) | The [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) received user reviews
+    [⭐ Reviewer](<../../50 🫥 Agents/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) | [`Rated`](<59 ⭐🐌🤗 Rated@Host.md>) | The [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) received user reviews
     
 
     ---

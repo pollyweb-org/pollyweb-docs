@@ -8,5 +8,5 @@ How to find the room at the right floor?
 | 🏨 Hotel  | ℹ️ You're at the 7th floor: <br> - this is your floor!
 | 🏨 Hotel  | 😃 Hi! What do you need? <br/> - Go to my [ room 🛏️ ] <br/> - Go to [ reception 🛎️ ] <br> - ... | > room 🛏️
 | 🏨 Hotel  | ✅ To go to your room: <br/> - take a right <br/> - walk 20 meters <br/> - your door is on the left <br/> - it's room 712.
-| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? 
+| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agents/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? 
 ||
