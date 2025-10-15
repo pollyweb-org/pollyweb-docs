@@ -57,7 +57,7 @@ Body:
 
 1. **Is the `Queue` used for at-least-once delivery?**
     
-    No. NLWeb requests are already idempotent with the `Correlation` property of [Messages 📨](<../../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>)
+    No. NLWeb requests are already idempotent with the `Correlation` property of [Messages 📨](<../../../40 👥 Domains/41 📨 Messages/📨 Message.md>)
 
     ---
     <br/>
