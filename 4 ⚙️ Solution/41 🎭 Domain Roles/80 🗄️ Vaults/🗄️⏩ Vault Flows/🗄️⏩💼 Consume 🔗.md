@@ -1,0 +1,48 @@
+# 🗄️⏩💼 Consume @ Vault
+
+> Used in [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>) flow.
+ 
+<br/>
+
+## Flow diagram
+
+![alt text](<../.📎 Assets/⚙️💼 Consume.png>)
+
+
+|#|Step|Purpose
+|-|-|-
+|1|[👥🚀🕸 `Trusts@Graph`](<../../../../6 🅰️ APIs/45 🕸🅰️ Graph/03 👥🚀🕸 Trusts.md>) | [Vaults 🗄️](<../🗄️🎭 Vault role.md>) see if [Consumers 💼](<../../27 💼 Consumers/$ 💼🎭 Consumer role.md>) are [Trusted 👍](<../../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>)  
+|2|[🗄️🐌💼 `Consume@Consumer`](<../../../../6 🅰️ APIs/30 💼🅰️ Consumer/02 🗄️🐌💼 Consume.md>) | [Vaults 🗄️](<../🗄️🎭 Vault role.md>) tell [Consumers 💼](<../../27 💼 Consumers/$ 💼🎭 Consumer role.md>) they're ready
+|3|[👥🚀🕸 `Trusts@Graph`](<../../../../6 🅰️ APIs/45 🕸🅰️ Graph/03 👥🚀🕸 Trusts.md>) | [Consumers 💼](<../../27 💼 Consumers/$ 💼🎭 Consumer role.md>) see if [Vaults 🗄️](<../🗄️🎭 Vault role.md>) are [Trusted 👍](<../../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>)
+|4|[💼🚀🗄️ `Collect@Vault`](<../🗄️🅰️ Vault API/💼🚀🗄️ Collect.md>) | [Consumers 💼](<../../27 💼 Consumers/$ 💼🎭 Consumer role.md>) collect the data shared
+|
+
+<br/> 
+
+
+## FAQ
+
+1. **Why do Consumers and Vaults check Trusts again?**
+
+    `Liability` [Brokers 🤵](<../../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) do not assume legal responsibility for orchestration faults.
+    * [Broker 🤵 domains](<../../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) can be compromised or make mistakes.
+    * [Vault 🗄️ domains](<../🗄️🎭 Vault role.md>) are ultimately responsible for data breaches.
+    * [Consumer 💼 domains](<../../27 💼 Consumers/$ 💼🎭 Consumer role.md>) are ultimately responsible for interacting with banned entities (e.g., entities listed as terrorist groups).
+    * [Consumer 💼 domains](<../../27 💼 Consumers/$ 💼🎭 Consumer role.md>) and [Vault 🗄️ domains](<../🗄️🎭 Vault role.md>) should revalidate the [Trust 👍](<../../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) path for their own protection whenever feasible.
+
+    
+
+    ---
+    <br/>
+
+1. **Why Consume+Collect instead of a single call?**
+
+    `Time` [Vault 🗄️ domains](<../🗄️🎭 Vault role.md>) may need time to gather the data, from seconds to days.
+    * Thus, [Consumer 💼 domains](<../../27 💼 Consumers/$ 💼🎭 Consumer role.md>) need to wait for [Vault 🗄️ domains](<../🗄️🎭 Vault role.md>) to notify them when the data is ready.
+    * This is the [`Consume@Consumer`](<../../../../6 🅰️ APIs/30 💼🅰️ Consumer/02 🗄️🐌💼 Consume.md>) call.
+
+    `Size` Pushing a payload has size limits, while downloading it doesn't.
+    * Thus, to allow [Consumer 💼 domains](<../../27 💼 Consumers/$ 💼🎭 Consumer role.md>) to download data sets from [Vault 🗄️ domains](<../🗄️🎭 Vault role.md>) via with no theoretical size limit, the request needs to come from the [Consumer 💼 domain](<../../27 💼 Consumers/$ 💼🎭 Consumer role.md>) (and not from the [Vault 🗄️ domain](<../🗄️🎭 Vault role.md>)).
+    * This is the [`Collect@Vault`](<../🗄️🅰️ Vault API/💼🚀🗄️ Collect.md>) call.
+
+    ---
