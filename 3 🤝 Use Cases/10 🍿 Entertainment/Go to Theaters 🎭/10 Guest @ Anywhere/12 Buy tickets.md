@@ -5,7 +5,7 @@ Buy an anonymous ticket for a show?
 
 To buy a ticket for a show (e.g., a musical in London), a user can scan a QR code (e.g., from a website, billboard, or TV show) or tap an NFC tag (e.g., from a paper magazine or flyer): 
 
-| [Domain](<../../../../4 ⚙️ Solution/40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) | [Prompt](<../../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
+| [Domain](<../../../../4 ⚙️ Solution/40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) | [Prompt](<../../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 | - | - | - |
 | 🎭 Venue   | 😃 Want to watch our play? [Yes, No] | > Yes
 | 🎭 Venue   | 😃 How many seats do you need? [1, 2, more] | > 2

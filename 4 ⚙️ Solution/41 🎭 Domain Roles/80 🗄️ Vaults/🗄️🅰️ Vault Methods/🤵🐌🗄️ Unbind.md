@@ -3,7 +3,7 @@
 
 # 🤵🐌🗄️ Unbind @ Vault
 
-> A [Broker 🤵 domain](<../../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) unbinds a [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)  from a [Vault 🗄️ domain](<../🗄️🎭 Vault role.md>).
+> A [Broker 🤵 domain](<../../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) unbinds a [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)  from a [Vault 🗄️ domain](<../🗄️🎭 Vault role.md>).
 
 > Part of the [🧑‍🦰👉🗄️ Unbind @ Wallet](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/03 🧑‍🦰👉🗄️ Unbind.md>) flow.
 
