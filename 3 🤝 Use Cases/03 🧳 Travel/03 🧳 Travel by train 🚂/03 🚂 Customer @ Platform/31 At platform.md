@@ -5,7 +5,7 @@ When at the platform, users tap/scan the NFC/QR tags in the platform's walls.
 
 | [Domain](<../../../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Prompt](<../../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
 | - | - | - |
-| | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>)
+| | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>)
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Navigator (4.3 ⭐) [+]
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | ✅ Sign PA: platform A 🐜 [+] <br/> - MAD T4 train station
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | ℹ️ Board the 3rd train. <br/>- your train is at 9:15 <br/>- it says "Nouevos Ministerios"

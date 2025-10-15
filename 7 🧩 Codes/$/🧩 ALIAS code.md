@@ -3,7 +3,7 @@
 
 > Referenced in [`Assess@Broker`](<../../6 🅰️ APIs/15 🤵🅰️ Broker/20 🤵🅰️ Locators/01 🧑‍🦰🐌🤵 Assess.md>).
 
-* Used in [Locators 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) 
+* Used in [Locators 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) 
     * that need to be translated 
     * by a [Printer 🖨️ helper domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/60 🖨️ Printers/$ 🖨️🛠️ Printer helper.md>).
 

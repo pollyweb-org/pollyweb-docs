@@ -7,7 +7,7 @@ A user can tap/scan the NFC/QR tag of a cash machine to start.
 
 | [Domain](<../../../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Prompt](<../../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
 | - | - | - |
-| | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>)
+| | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>)
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any ATM (4.4 ⭐) [+]
 | 🏧 ATM        | 😃 Hi! What do you need? <br/>- [ Withdraw ] <br/>- [ Something else ] | > Withdraw
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Ready to withdraw? [Yes, No] <br/> - your curator informs the amount  <br/> - your payer provides the funds <br/> - we take 10% commission <br/> - your payer may check your ID <br/> - you tap the dispenser to cash out. | > Yes
@@ -20,7 +20,7 @@ A user can tap/scan the NFC/QR tag of a cash machine to start.
 | 🏧 ATM        | ℹ️ Withdraw $100: [Change] <br/> - 4 bills of $20 <br/> - 2 bills of $10 <br/> - plus $10 fee (10%)
 | 💳 [Payer](<../../../../4 ⚙️ Solution/30 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Pay $110.00 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
 | 🆔 [Identity](<../../../../4 ⚙️ Solution/30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../../../4 ⚙️ Solution/30 🫥 Agents/45 🆔 Identities/21 🆔😶 Face scan.md>)
-| 🏧 ATM        | 😃 Tap the dispenser to cash out | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>)
+| 🏧 ATM        | 😃 Tap the dispenser to cash out | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>)
 | 🏧 ATM        | ✅ Take your money. 
 | ⭐ [Rate](<../../../../4 ⚙️ Solution/30 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 4
 ||

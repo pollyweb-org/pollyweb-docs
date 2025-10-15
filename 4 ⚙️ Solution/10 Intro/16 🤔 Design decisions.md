@@ -17,7 +17,7 @@ Design Decisions
 
     - Like in [India's ONDC 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/09 🛒 Shopping landscape/01 📺 🇮🇳 India's ONDC.md>), domains can configure multiple types of user inputs - e.g., number, dropdown, calendar. 
     
-    - New chats are opened with a [Locator 🔆](<../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) by scanning a [QR code ✨](<../20 🧑‍🦰 UI/11 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) or by tapping an [NFC tag 🔆](<../20 🧑‍🦰 UI/11 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>). 
+    - New chats are opened with a [Locator 🔆](<../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) by scanning a [QR code ✨](<../20 🧑‍🦰 UI/11 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) or by tapping an [NFC tag 🔆](<../20 🧑‍🦰 UI/11 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>). 
     
     - Users may accept [Tokens 🎫](<../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) issued by [Issuer 🎴 domains](<../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) - these tokens are stored offline and can be shared and validated by [Consumer 💼 domains](<../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>).
 

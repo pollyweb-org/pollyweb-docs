@@ -110,7 +110,7 @@
     |-|-|-
     | `<option-n>` | Also allows option interpolation |`- Item {$id}`
     || and uses `[]` to set Option IDs | `[Close] chat`
-    || and uses `§` for [Locators 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>). | `Open § {$url}`
+    || and uses `§` for [Locators 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>). | `Open § {$url}`
 
 
     ```yaml
@@ -207,7 +207,7 @@
 
     The option with `§` 
     * opens a new [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
-    * using the [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) `any-artist.com/FANS`
+    * using the [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) `any-artist.com/FANS`
 
     <br/>
 

@@ -94,7 +94,7 @@
     Using the domain's mobile website or mobile app:
     1. a user (e.g., Alice) initiates a session in the target [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>);
     2. clicks on a `bind wallet` button provided by the [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>);
-    3. a QR code [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) is presented to the user;
+    3. a QR code [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) is presented to the user;
     4. the user scans the QR code with their mobile device;
     5. the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) opens with a new [💬 Chat](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) with the [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>).
 
@@ -104,7 +104,7 @@
     |-|-|-
     | | | 🔆 [scan](<../../20 🧑‍🦰 UI/11 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>)
     | 🔎 [Finder](<../../30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Vault (4.3 ⭐)  [+] || The [Broker 🤵](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) informed the user.
-    | 🗄️ Vault | ℹ️ Hi, Alice! Let's bind. || The [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) had a [Host 🤗](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>)  callback.
+    | 🗄️ Vault | ℹ️ Hi, Alice! Let's bind. || The [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) had a [Host 🤗](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>)  callback.
     | [🤵 Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | ⓘ Flow: Web bind [+] || The [Host 🤗 role](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) changed the context.
     | 🗄️ Vault | 😃 What to bind? [All] <br/> - [ Data Set #1 ] <br/> - [ Data Set #2 ] | > All
     | [🤵 Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Bind [Yes, No, +]<br/>- [ Schema Code 🧩](<02 🧩 Schema Code.md>) #1  <br/> - [Schema Code 🧩](<02 🧩 Schema Code.md>) #2 | > Yes | The [Broker 🤵](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) protected the user.

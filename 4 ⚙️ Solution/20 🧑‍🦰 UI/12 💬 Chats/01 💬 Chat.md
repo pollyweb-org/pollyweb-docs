@@ -28,7 +28,7 @@
 
 1. **How does a user open a new chat window with a domain?**
 
-    To open a new [Chat 💬](<01 💬 Chat.md>) window with a [Host 🤗 domain](<04 🤗🎭 Host role.md>), a user needs the [Host's Locator 🔆](<../11 🔆 Locators/01 🔆 Locator.md>) contained in one of the following technology forms.
+    To open a new [Chat 💬](<01 💬 Chat.md>) window with a [Host 🤗 domain](<04 🤗🎭 Host role.md>), a user needs the [Host's Locator 🔆](<../11 🔆 Locators/$ 🔆 Locator.md>) contained in one of the following technology forms.
 
     |Technology|Details
     |-|-
@@ -42,7 +42,7 @@
 
 1. **What if the user doesn't have the domain's Locator?**
 
-    If a user doesn't know exactly where to find a [Locator 🔆](<../11 🔆 Locators/01 🔆 Locator.md>), they can use the [Finder 🔎 domain](<../../30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) to search for it;
+    If a user doesn't know exactly where to find a [Locator 🔆](<../11 🔆 Locators/$ 🔆 Locator.md>), they can use the [Finder 🔎 domain](<../../30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) to search for it;
     * e.g., if a UK user wants to bind to the UK's national health service but doesn't know where to start, the user can ask for "health service" and the assistance replies with "NHS?".
 
     ---
