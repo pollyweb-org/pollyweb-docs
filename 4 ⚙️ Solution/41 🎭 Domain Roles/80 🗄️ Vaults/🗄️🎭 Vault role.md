@@ -230,11 +230,11 @@
    
     | [From 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) | [Subject 📨](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>) | Description |
     |-|--------|-------------|
-    | [🤵 Broker](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | [`Bound`](<🗄️🅰️ Vault API/🤵🐌🗄️ Bound.md>) | Add a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) |
-    |  | [`Unbind`](<🗄️🅰️ Vault API/🤵🐌🗄️ Unbind.md>) | Remove a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) |
-    | | [`Disclose`](<🗄️🅰️ Vault API/🤵🐌🗄️ Disclose.md>) | Disclose the data of a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) |
-    | | [`Suppress`](<🗄️🅰️ Vault API/🤵🐌🗄️ Suppress.md>) | Suppress [🖐️ Palm scans](<../../50 🫥 Agents/45 🆔 Identities/22 🆔🖐️ Palm scan.md>) |
-    | [💼 Consumer](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) | [`Collect`](<🗄️🅰️ Vault API/💼🚀🗄️ Collect.md>) | Return the data disclosed
+    | [🤵 Broker](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | [`Bound`](<🗄️🅰️ Vault Methods/🤵🐌🗄️ Bound.md>) | Add a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) |
+    |  | [`Unbind`](<🗄️🅰️ Vault Methods/🤵🐌🗄️ Unbind.md>) | Remove a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) |
+    | | [`Disclose`](<🗄️🅰️ Vault Methods/🤵🐌🗄️ Disclose.md>) | Disclose the data of a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) |
+    | | [`Suppress`](<🗄️🅰️ Vault Methods/🤵🐌🗄️ Suppress.md>) | Suppress [🖐️ Palm scans](<../../50 🫥 Agents/45 🆔 Identities/22 🆔🖐️ Palm scan.md>) |
+    | [💼 Consumer](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) | [`Collect`](<🗄️🅰️ Vault Methods/💼🚀🗄️ Collect.md>) | Return the data disclosed
     
     ---
     <br/>
