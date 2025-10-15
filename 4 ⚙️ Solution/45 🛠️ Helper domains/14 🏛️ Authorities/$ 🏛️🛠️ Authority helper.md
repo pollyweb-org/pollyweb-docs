@@ -7,7 +7,7 @@
 
     An Authority is a domain focused on supporting data exchange among domains in the NLWeb via: 
     - converting legal agreements into [trust 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) relationships (e.g., international commerce federations);
-    - converting standards to [Schema Codes 🧩](<../../25 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) (e.g., electronic passports); and 
+    - converting standards to [Schema Codes 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) (e.g., electronic passports); and 
     - publishing reference [🪣 Datasets](<../../41 🎭 Domain Roles/28 🪣 Datasets/$ 🪣🎭 Dataset role.md>) for automated issues (e.g., accessibility codes for international travel).
 
     ---
@@ -36,6 +36,6 @@
 
     They shouldn't. 
     
-    * Instead, domains should rely on [Graphs 🕸](<../50 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) to index the [Schema Codes 🧩](<../../25 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) on their behalf.
+    * Instead, domains should rely on [Graphs 🕸](<../50 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) to index the [Schema Codes 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) on their behalf.
 
     ---

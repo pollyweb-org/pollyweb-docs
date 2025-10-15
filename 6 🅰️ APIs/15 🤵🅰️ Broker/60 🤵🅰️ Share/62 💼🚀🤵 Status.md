@@ -25,7 +25,7 @@ Body:
 | | `To`    | string | [Broker 🤵 domain](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) name
 | | `Subject`| string | `Status@Broker`
 | Body | `Issuer` | string | [Issuer 🎴 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>)
-| | `TokenID`| string | [Token 🎫](<../../../4 ⚙️ Solution/25 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) ID on the Issuer
+| | `TokenID`| string | [Token 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) ID on the Issuer
 |
     
 

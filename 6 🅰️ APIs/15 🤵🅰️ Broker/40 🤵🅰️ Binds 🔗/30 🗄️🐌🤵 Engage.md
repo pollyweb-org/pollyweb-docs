@@ -4,7 +4,7 @@
 
 * Allows for [Vault 🗄️ domains](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) 
     * to proactively start a new [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) 
-    * with a [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) previously [bound 🔗](<../../../4 ⚙️ Solution/25 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>)
+    * with a [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) previously [bound 🔗](<../../../4 ⚙️ Solution/30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>)
     * in the best interest of the user.
 
 <br/>
@@ -26,10 +26,10 @@ Body:
 ```
 | Object | Property | Type |Description
 |-|-|-|-
-| Header | `From`    | string | [Vault 🗄️](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) of the [Bind 🔗](<../../../4 ⚙️ Solution/25 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>)
-|| `To`      | string | [Broker 🤵](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) of the [Bind 🔗](<../../../4 ⚙️ Solution/25 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>)
+| Header | `From`    | string | [Vault 🗄️](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) of the [Bind 🔗](<../../../4 ⚙️ Solution/30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>)
+|| `To`      | string | [Broker 🤵](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) of the [Bind 🔗](<../../../4 ⚙️ Solution/30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>)
 || `Subject` | string | `Engage@Broker`
-| Body | `BindID`  | uuid   | [Bind 🔗](<../../../4 ⚙️ Solution/25 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) of [`.HOST/BIND/SELF` 🧩](<../../../7 🧩 Codes/$/🧩 VAULT code.md>)
+| Body | `BindID`  | uuid   | [Bind 🔗](<../../../4 ⚙️ Solution/30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) of [`.HOST/BIND/SELF` 🧩](<../../../7 🧩 Codes/$/🧩 VAULT code.md>)
 | | `Locator`| string | [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) for [`Hello@Host`](<../../50 🤗🅰️ Host/01 🤵🐌🤗 Hello.md>)
 | | `Parameters`| object | Parameters for [`Hello@Host`](<../../50 🤗🅰️ Host/01 🤵🐌🤗 Hello.md>)
 |

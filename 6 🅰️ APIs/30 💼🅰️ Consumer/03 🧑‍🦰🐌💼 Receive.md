@@ -5,7 +5,7 @@
 > <br/>• succeeds [`Share@Notifier`](<../65 📣🅰️ Notifier/02 📣💬🅰️ Chats/22 🤵🐌📣 Share.md>)
 
 
-* [Wallet 🧑‍🦰 apps](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) send [Tokens 🎫](<../../4 ⚙️ Solution/25 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) to a [Consumer 💼 domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>).
+* [Wallet 🧑‍🦰 apps](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) send [Tokens 🎫](<../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) to a [Consumer 💼 domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>).
 
 
 
@@ -35,8 +35,8 @@ Body:
 | Body | `ChatID` | string | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID from [`Share@Notifier`](<../65 📣🅰️ Notifier/02 📣💬🅰️ Chats/22 🤵🐌📣 Share.md>)
 | | `Tokens`  | array | List of `Token` objects
 | Token |  `Issuer` | string | [Issuer 🎴](<../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) from [`Save@Notifier`](<../65 📣🅰️ Notifier/04 📣🎫🅰️ Tokens/41 🤵🐌📣 Save.md>)
-| | `TokenID`| string | [Token 🎫](<../../4 ⚙️ Solution/25 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) ID from [`Save@Notifier`](<../65 📣🅰️ Notifier/04 📣🎫🅰️ Tokens/41 🤵🐌📣 Save.md>)
-| | ... | ... | Other [Token 🎫](<../../4 ⚙️ Solution/25 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) fields
+| | `TokenID`| string | [Token 🎫](<../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) ID from [`Save@Notifier`](<../65 📣🅰️ Notifier/04 📣🎫🅰️ Tokens/41 🤵🐌📣 Save.md>)
+| | ... | ... | Other [Token 🎫](<../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) fields
 |
 
 
@@ -44,7 +44,7 @@ Body:
 
 1. **What's in the list of Tokens?**
 
-    The list of [Tokens 🎫](<../../4 ⚙️ Solution/25 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) contains:
+    The list of [Tokens 🎫](<../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) contains:
     * the content from the response of [`Issued@Issuer`](<../55 🎴🅰️ Issuer/01 🧑‍🦰🚀🎴 Issued.md>)
     * stored in local files during [`Saved@Broker`](<../15 🤵🅰️ Broker/50 🤵🅰️ Tokens 🎫/53 🧑‍🦰🐌🤵 Saved.md>).
 
