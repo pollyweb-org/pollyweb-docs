@@ -18,7 +18,7 @@
 
     | Scenario | Details
     |-|-
-    | `Reviewer` | [Reviewer ⭐](<../../../4 ⚙️ Solution/30 🫥 Agents/73 ⭐ Reviewers/01 ⭐🫥 Reviewer vault.md>)
+    | `Reviewer` | [Reviewer ⭐](<../../../4 ⚙️ Solution/30 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>)
 
     ---
     <br/>

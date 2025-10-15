@@ -28,5 +28,5 @@
 | 🛍️ Store   | 😃 Confirm? [Yes, No] | > Yes
 | 💳 [Payer](<../../../../4 ⚙️ Solution/30 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Pay $50.00 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
 | 🛍️ Store   | ✅ Paid, take your items.
-| ⭐ [Rate](<../../../../4 ⚙️ Solution/30 🫥 Agents/73 ⭐ Reviewers/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5 |
+| ⭐ [Rate](<../../../../4 ⚙️ Solution/30 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5 |
 ||

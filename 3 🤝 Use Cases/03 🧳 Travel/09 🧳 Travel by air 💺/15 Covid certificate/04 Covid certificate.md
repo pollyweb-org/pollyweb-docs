@@ -27,6 +27,6 @@ Used initiate a chat with 🏥 NHS.
 | 🏥 NHS    | ⏳ Getting your certificate...
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Save  certificate? [Yes, No] | > Yes    
 | 🏥 NHS    | ✅ You're all set. 
-| ⭐ [Rate](<../../../../4 ⚙️ Solution/30 🫥 Agents/73 ⭐ Reviewers/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5
+| ⭐ [Rate](<../../../../4 ⚙️ Solution/30 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5
 ||
 

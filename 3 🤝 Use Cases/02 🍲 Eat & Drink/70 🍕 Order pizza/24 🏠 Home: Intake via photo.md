@@ -20,5 +20,5 @@ Save intake with a photo
 | 💖 [Vitalogist](<../../../4 ⚙️ Solution/30 🫥 Agents/95 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) | ℹ️ That's a jabuticaba [+]
 | 💖 [Vitalogist](<../../../4 ⚙️ Solution/30 🫥 Agents/95 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) | 😃 Save intake? [Yes, No] <br/> - jabuticaba | > Yes
 | 💖 [Vitalogist](<../../../4 ⚙️ Solution/30 🫥 Agents/95 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) | ✅ Intake saved.
-| ⭐ [Rate](<../../../4 ⚙️ Solution/30 🫥 Agents/73 ⭐ Reviewers/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5 |
+| ⭐ [Rate](<../../../4 ⚙️ Solution/30 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5 |
 ||

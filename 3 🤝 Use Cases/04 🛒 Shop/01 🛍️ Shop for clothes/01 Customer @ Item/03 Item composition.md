@@ -11,6 +11,6 @@ Check an item's composition 🛍️
 | 🧚 [Curator](<../../../../4 ⚙️ Solution/30 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | ⓘ It has to be dry cleaned.<br/> - may shrink in water.
 | 🧚 [Curator](<../../../../4 ⚙️ Solution/30 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Anything else? [Yes, No] | > No
 | 🛍️ Store    | ✅ Happy shopping!
-| ⭐ [Rate](<../../../../4 ⚙️ Solution/30 🫥 Agents/73 ⭐ Reviewers/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | 
+| ⭐ [Rate](<../../../../4 ⚙️ Solution/30 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | 
 |||
 

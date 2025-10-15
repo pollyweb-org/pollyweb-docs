@@ -10,5 +10,5 @@ How to enter a hotel room?
 | 🏨 Hotel  | 💬 Anything else? [No] <br/> - [ Lights on ] | > Lights on
 | 🏨 Hotel  | ✅ Lights turned on.
 | 🏨 Hotel  | 💬 Anything else? [No] | > No
-| ⭐ [Rate](<../../../../4 ⚙️ Solution/30 🫥 Agents/73 ⭐ Reviewers/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? 
+| ⭐ [Rate](<../../../../4 ⚙️ Solution/30 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? 
 ||

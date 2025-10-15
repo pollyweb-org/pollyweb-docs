@@ -32,8 +32,8 @@
     |🧭| [Navigator](<../../30 🫥 Agents/55 🧭 Navigators/01 🧭🫥 Navigator agent.md>) | G.Maps | Helps users going from point A to B.
     |💳| [Payer](<../../30 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) | Paypal | Performs payments to [Collector 🏦 domains](<../../45 🛠️ Helper domains/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>).
     |🧢| [Persona](<../../30 🫥 Agents/70 🧢 Personas/$ 🧢🫥 Persona agent.md>) | Facebook | Stores and shares user preferences and personally identifiable information (PII).
-    |⭐| [Reviewer](<../../30 🫥 Agents/73 ⭐ Reviewers/01 ⭐🫥 Reviewer vault.md>) | TrustPilot | Collects and shares user feedback from [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) experiences.
-    |🗓️| [Scheduler](<../../30 🫥 Agents/75 🗓️ Schedulers/04 🗓️🗄️ Scheduler agent.md>) | Outlook | Monitors and manages the user's agenda.
+    |⭐| [Reviewer](<../../30 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) | TrustPilot | Collects and shares user feedback from [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) experiences.
+    |🗓️| [Scheduler](<../../30 🫥 Agents/75 🗓️ Schedulers/$ 🗓️🗄️ Scheduler agent.md>) | Outlook | Monitors and manages the user's agenda.
     |📦| [Storage](<../../30 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>) | Dropbox | Stores user data for other [Vault 🗄️ domains](<../../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>), for data residency compliance.
     |🕓| [Timeline](<../../30 🫥 Agents/90 🕓 Timeline/01 🕓🗄️ Timeline agent.md>) | G.Photos | Collects and fans out user-related events.
     |💖| [Vitalogist](<../../30 🫥 Agents/95 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) | GoogleFit | Monitors the user's health events and provides feedback.

@@ -22,5 +22,5 @@ A user can tap/scan the NFC/QR tag of a cash machine to start.
 | 🆔 [Identity](<../../../../4 ⚙️ Solution/30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../../../4 ⚙️ Solution/30 🫥 Agents/45 🆔 Identities/21 🆔😶 Face scan.md>)
 | 🏧 ATM        | 😃 Tap the dispenser to cash out | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>)
 | 🏧 ATM        | ✅ Take your money. 
-| ⭐ [Rate](<../../../../4 ⚙️ Solution/30 🫥 Agents/73 ⭐ Reviewers/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 4
+| ⭐ [Rate](<../../../../4 ⚙️ Solution/30 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 4
 ||

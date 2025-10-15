@@ -24,5 +24,5 @@
 | 💖 [Vitalogist](<../../../4 ⚙️ Solution/30 🫥 Agents/95 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) | ⓘ Saved 1 half pint of lager [+]
 | [👀 Ads](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) | ⓘ Explore follow-ups: <br/>- [ 🧙‍♀️ Wicked tickets 50% off! ] 
 | 🍸 Bar        | ℹ️ Ready, we'll take it there [+]
-| ⭐ [Rate](<../../../4 ⚙️ Solution/30 🫥 Agents/73 ⭐ Reviewers/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5 |
+| ⭐ [Rate](<../../../4 ⚙️ Solution/30 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5 |
 ||

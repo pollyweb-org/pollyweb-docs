@@ -10,5 +10,5 @@ Bind to a folder editor
 | 🧢 [Persona](<../../30 🫥 Agents/70 🧢 Personas/$ 🧢🫥 Persona agent.md>) | ⓘ Folder bind requested.
 | 🆔 [Identity](<../../30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../30 🫥 Agents/45 🆔 Identities/21 🆔😶 Face scan.md>)
 | 🗂️ [Folder](<$ 🗂️ Folder editor.md>) | ✅ Bound to Any Persona 🧢
-| ⭐ [Rate](<../../30 🫥 Agents/73 ⭐ Reviewers/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5 |
+| ⭐ [Rate](<../../30 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5 |
 ||
