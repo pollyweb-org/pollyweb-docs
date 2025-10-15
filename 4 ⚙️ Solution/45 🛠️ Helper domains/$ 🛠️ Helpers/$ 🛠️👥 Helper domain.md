@@ -12,11 +12,11 @@
 
 1. **How do Helpers compare to Vaults?**
 
-    * They are similar to [Vault 🗄️ domains](<../../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>), 
+    * They are similar to [Vault 🗄️ domains](<../../41 🎭 Domain Roles/80 🗄️ Vault/$ 🗄️🎭 Vault role.md>), 
         * but focused on [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) 
         * instead of [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>).
     * Given the similarity, 
-        * some [Vault 🗄️ domains](<../../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>) may also be Helpers 🛠️ 
+        * some [Vault 🗄️ domains](<../../41 🎭 Domain Roles/80 🗄️ Vault/$ 🗄️🎭 Vault role.md>) may also be Helpers 🛠️ 
         * e.g., [Payer 💳 domains](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>).
 
     ---
@@ -47,7 +47,7 @@
     |-|-
     | [🤗 Host](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | To open [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) with domain-admin users
     | [🪢 Integrator](<../../20 🧑‍🦰 UI/12 💬 Chats/06 🪢🎭 Integrator role.md>) | To manifest its services to  [Finder 🔎 domains](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>)
-    | [🗄️ Vault](<../../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>) | To store user profiles with [`.HOST/BIND/SELF` 🧩](<../../../7 🧩 Codes/$/🧩 VAULT code.md>)
+    | [🗄️ Vault](<../../41 🎭 Domain Roles/80 🗄️ Vault/$ 🗄️🎭 Vault role.md>) | To store user profiles with [`.HOST/BIND/SELF` 🧩](<../../../7 🧩 Codes/$/🧩 VAULT code.md>)
     | [💵 Seller](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>) | To sell the usage plans via a [Biller 💳 helper domain](<../../30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>)
     
 
@@ -73,7 +73,7 @@
     |-|-|-
     |1| `Find` | [Find 🔎](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) a [Helper 🛠️ ](<$ 🛠️👥 Helper domain.md>) with the desired services
     |2| `Chat` | [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) with the Helper's [Host 🤗 role](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>)
-    |3| `Bind`| [Bind 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) to the Helper's [Vault 🗄️ role](<../../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>)
+    |3| `Bind`| [Bind 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) to the Helper's [Vault 🗄️ role](<../../41 🎭 Domain Roles/80 🗄️ Vault/$ 🗄️🎭 Vault role.md>)
     |4| `Bill` | Subscribe a plan in the Helper's [Biller 🤝](<../../30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>)
     |5| `Link` | Link a [Payer 💳](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) with the Helper's [Biller 🤝](<../../30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>)
 

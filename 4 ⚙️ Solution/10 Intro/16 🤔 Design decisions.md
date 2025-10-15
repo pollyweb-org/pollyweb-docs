@@ -19,7 +19,7 @@ Design Decisions
     
     - New chats are opened with a [Locator 🔆](<../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) by scanning a [QR code ✨](<../20 🧑‍🦰 UI/11 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) or by tapping an [NFC tag 🔆](<../20 🧑‍🦰 UI/11 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>). 
     
-    - Users may accept [Tokens 🎫](<../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) issued by [Issuer 🎴 domains](<../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) - these tokens are stored offline and can be shared and validated by [Consumer 💼 domains](<../41 🎭 Domain Roles/27 💼 Consumers/04 💼🎭 Consumer role.md>).
+    - Users may accept [Tokens 🎫](<../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) issued by [Issuer 🎴 domains](<../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) - these tokens are stored offline and can be shared and validated by [Consumer 💼 domains](<../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>).
 
 
     ---
@@ -42,20 +42,20 @@ Design Decisions
 
     NLWeb advocates for domains to ask users for well-known common data types (e.g., address) instead of generic text values. 
 
-    - Users [bind 🔗](<../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) their [Wallet 🧑‍🦰 app](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets>) to multiple [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>) holding parts of their personal data (e.g., banks, hospitals, governments);
+    - Users [bind 🔗](<../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) their [Wallet 🧑‍🦰 app](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets>) to multiple [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vault/$ 🗄️🎭 Vault role.md>) holding parts of their personal data (e.g., banks, hospitals, governments);
 
         - this mirrors real-world interactions, where citizens typically trust organizations to hold their personal data, from traditional  [medical records 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/01 🗂️ Profiling landscape/05 📺 Medical records.md>) to digital [family photos 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/01 🗂️ Profiling landscape/02 📺 Social media.md>).
 
-    - However, users don't control the [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>), unlike in [Solid 📺](<../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/05 📺 Berners-Lee vaults.md>) and [Affinidi 📺](<../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/12 📺 Affinidi.md>);
+    - However, users don't control the [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vault/$ 🗄️🎭 Vault role.md>), unlike in [Solid 📺](<../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/05 📺 Berners-Lee vaults.md>) and [Affinidi 📺](<../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/12 📺 Affinidi.md>);
 
         - this also mirrors real-world expectations, where citizens typically expect organizations to be responsible for the infrastructure required to hold their data, whatever any effort required from the citizen to manage or even know about such infrastructure.
 
-    - Nonetheless, [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>) may require users to provide a shared [Storage 📦 vault](<../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>) to store the user's data;
+    - Nonetheless, [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vault/$ 🗄️🎭 Vault role.md>) may require users to provide a shared [Storage 📦 vault](<../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>) to store the user's data;
  
-        - this is a [Solid 📺](<../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/05 📺 Berners-Lee vaults.md>)-like user-centric [Vault 🗄️ domain](<../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>) that other [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>) may leverage to address [sovereignty 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/00 🏳️ Sovereignty index.md>) regulations 
-        - e.g., a US-based [Vault 🗄️ domain](<../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>) may store the data of a German citizen in the citizen's Germany-based [Storage 📦 vault](<../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>).
+        - this is a [Solid 📺](<../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/05 📺 Berners-Lee vaults.md>)-like user-centric [Vault 🗄️ domain](<../41 🎭 Domain Roles/80 🗄️ Vault/$ 🗄️🎭 Vault role.md>) that other [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vault/$ 🗄️🎭 Vault role.md>) may leverage to address [sovereignty 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/00 🏳️ Sovereignty index.md>) regulations 
+        - e.g., a US-based [Vault 🗄️ domain](<../41 🎭 Domain Roles/80 🗄️ Vault/$ 🗄️🎭 Vault role.md>) may store the data of a German citizen in the citizen's Germany-based [Storage 📦 vault](<../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>).
 
-    - Those [bounded 🔗](<../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>) allow users to quickly [autofill 📺](<../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/06 📺 SSI form auto filling.md>) forms;
+    - Those [bounded 🔗](<../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vault/$ 🗄️🎭 Vault role.md>) allow users to quickly [autofill 📺](<../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/06 📺 SSI form auto filling.md>) forms;
 
         - this is similar to the autofill feature of the [main web browsers 🖼️](<../../2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape/12 🖼️ Top-browsers.md>), but done in a distributed way instead of concentrating user data in a centralized cloud database owned by the browser's manufacturer.
 
@@ -63,11 +63,11 @@ Design Decisions
 
         - this also mirrors real-world interactions, where users typically hand-over to organization employees their physical documents with multiple data points (e.g., driver's license, passport).
   
-    - [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>) may allow users to change their stored data via the user's [Folder editor 🗂️ domain](<../45 🛠️ Helper domains/26 🗂️ Folders/$ 🗂️ Folder editor.md>);
+    - [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vault/$ 🗄️🎭 Vault role.md>) may allow users to change their stored data via the user's [Folder editor 🗂️ domain](<../45 🛠️ Helper domains/26 🗂️ Folders/$ 🗂️ Folder editor.md>);
 
-        - this is a user-centric interface that allows a user to edit their data in multiple [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>) from a single editor;
+        - this is a user-centric interface that allows a user to edit their data in multiple [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vault/$ 🗄️🎭 Vault role.md>) from a single editor;
 
-        - [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>) may require users to have a [Folder editor 🗂️ domain](<../45 🛠️ Helper domains/26 🗂️ Folders/$ 🗂️ Folder editor.md>) to avoid having to build a user interface.
+        - [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vault/$ 🗄️🎭 Vault role.md>) may require users to have a [Folder editor 🗂️ domain](<../45 🛠️ Helper domains/26 🗂️ Folders/$ 🗂️ Folder editor.md>) to avoid having to build a user interface.
     
     ---
     <br/>

@@ -5,7 +5,7 @@
 
 1. **What is a Keybox?**
 
-    Keyboxes are [Vaults 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>) that manage the user's [Padlock 🔒](<01 🔒 Padlock device.md>) keys.
+    Keyboxes are [Vaults 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vault/$ 🗄️🎭 Vault role.md>) that manage the user's [Padlock 🔒](<01 🔒 Padlock device.md>) keys.
 
     ---
 
