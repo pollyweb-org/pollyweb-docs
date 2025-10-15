@@ -97,7 +97,7 @@
 1. **Can a Seller implement the Collector API?**
 
     Yes, but that's not recommended. 
-    - A [Collector 🏦 domain](<$ 🏦🛠️ Collector helper.md>) may be better suited to sign wide international agreements with multiple [Payer 💳](<../../30 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) and [Biller 🤝 domains](<../15 🤝 Billers/$ 🤝🛠️ Biller helper.md>), and support a multitude of payment options.
+    - A [Collector 🏦 domain](<$ 🏦🛠️ Collector helper.md>) may be better suited to sign wide international agreements with multiple [Payer 💳](<../../30 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) and [Biller 🤝 domains](<../20 🤝 Billers/$ 🤝🛠️ Biller helper.md>), and support a multitude of payment options.
 
     ---
     <br/>

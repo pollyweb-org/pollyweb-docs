@@ -3,9 +3,9 @@
 
 | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
 | - | - | - |
-| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | 💬 What do you need? | `maps`
-| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | 💬 Any of these? [No] <br/> - Open [ 🧭 Navigator ] <br/> - [ Learn ] about maps | > 🧭 Navigator
-| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | ✅ Over to 🧭 Navigator.
+| 🤵 [Broker](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 💬 What do you need? | `maps`
+| 🤵 [Broker](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 💬 Any of these? [No] <br/> - Open [ 🧭 Navigator ] <br/> - [ Learn ] about maps | > 🧭 Navigator
+| 🤵 [Broker](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | ✅ Over to 🧭 Navigator.
 | [ new chat ]
 | 🔎 [Finder](<../../../4 ⚙️ Solution/30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Navigator (4.4 ⭐) [+]
 | 🧭 [Navigator](<../../../4 ⚙️ Solution/30 🫥 Agents/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | 😃 Hi! What do you need? <br/>- [ Get somewhere  ] <br/> - [ Something else ] | > Get so...

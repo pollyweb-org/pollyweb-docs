@@ -6,7 +6,7 @@ How to un-board a bus while navigating?
 | - | - | - |
 | | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>)
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Operator (4.4 ⭐) [+]
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | ⓘ Ticket [token 🎟️](<../../../../4 ⚙️ Solution/25 Data/30 🎫 Tokens/$ 🎫 Token.md>) shared [+]
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | ⓘ Ticket [token 🎟️](<../../../../4 ⚙️ Solution/25 Data/30 🎫 Tokens/$ 🎫 Token.md>) shared [+]
 | 🚎 Operator | ℹ️ Bus 198 [+]
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | ❌ This is not the bus.
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | 📣 Exit now! [ Cannot exit ]

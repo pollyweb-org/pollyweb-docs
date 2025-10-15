@@ -71,7 +71,7 @@
     |-|-
     | [📜 Manifest](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>)  | When a version is omitted in the [Schema Code 🧩](<$ 🧩 Schema Code.md>) in its [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) definition, then it is assumed to be `1.0`.
     | [📨 Message](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) | When a version is omitted in a [domain Messages 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>), then it is also assumed to be `1.0`.
-    | [🕸 Graph](<../../45 🛠️ Helper domains/40 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) | When a version is omitted when calling [`Schema@Graph`](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>), then the [🕸 Graph](<../../45 🛠️ Helper domains/40 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) returns the latest version.
+    | [🕸 Graph](<../../45 🛠️ Helper domains/50 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) | When a version is omitted when calling [`Schema@Graph`](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>), then the [🕸 Graph](<../../45 🛠️ Helper domains/50 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) returns the latest version.
 
     ---
     <br/>
@@ -80,7 +80,7 @@
 1. **How are Schema Codes used in data sharing between domains?**
    
     When a [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) needs information stored in a [user's Vault 🗄️ domains](<../../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>), 
-    * it invokes the [`Query@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) from the [user's Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>), asking for datasets that comply with a given [Schema Code 🧩](<$ 🧩 Schema Code.md>).
+    * it invokes the [`Query@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) from the [user's Broker 🤵 domain](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>), asking for datasets that comply with a given [Schema Code 🧩](<$ 🧩 Schema Code.md>).
 
     For example, consider an airline requesting passport data for a flight check-in from a citizen with dual British and American nationalities:
     * the airline may ask for the `icao.int/PASSPORT`  [Schema Code 🧩](<$ 🧩 Schema Code.md>)
@@ -105,7 +105,7 @@
 
     For resilience and performance, [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) cannot read [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) directly from the source.
 
-    * Instead, [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) need to query [Graph 🕸 domains](<../../45 🛠️ Helper domains/40 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) for a schema definition, by passing the [Schema Code 🧩](<$ 🧩 Schema Code.md>) to the [`Schema@Graph`](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>).
+    * Instead, [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) need to query [Graph 🕸 domains](<../../45 🛠️ Helper domains/50 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) for a schema definition, by passing the [Schema Code 🧩](<$ 🧩 Schema Code.md>) to the [`Schema@Graph`](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>).
 
         ```yaml
         # Sample request to read a schema.
@@ -158,7 +158,7 @@
 
     No. 
     - [Domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) don't need `nlweb.org` to be online to access its [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) (nor the one of any other [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>), for that matter).
-    - Instead, [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) should rely on [Graph 🕸 helper domains](<../../45 🛠️ Helper domains/40 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) to look up schema definitions.
+    - Instead, [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) should rely on [Graph 🕸 helper domains](<../../45 🛠️ Helper domains/50 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) to look up schema definitions.
 
     ---
     <br/>
@@ -198,7 +198,7 @@
 1. **Wouldn't JSON be faster than YAML?**
 
     Yes, JSON is much faster than YAML. 
-    - But, because of [Graph 🕸 helper domains](<../../45 🛠️ Helper domains/40 🕸 Graphs/$ 🕸🛠️ Graph helper.md>), the performance of either protocol is irrelevant in this context. 
+    - But, because of [Graph 🕸 helper domains](<../../45 🛠️ Helper domains/50 🕸 Graphs/$ 🕸🛠️ Graph helper.md>), the performance of either protocol is irrelevant in this context. 
     - NLWeb advocates for human readability, with YAML format allowing comments and being closer to structured natural language in this context.
 
     ---

@@ -56,7 +56,7 @@
 
     The only data that [Wallet 🧑‍🦰 apps](<$ 🧑‍🦰 Wallet app.md>) store locally is:
     - 🔏 The private half of the key pair;
-    - 📣 The Wallet ID provided by the [Broker 🤵 domain](<../03 🤵 Brokers/$ 🤵 Broker domain.md>) via the [Notifier 📣 domain](<../02 📣 Notifiers/$ 📣 Notifier domain.md>);
+    - 📣 The Wallet ID provided by the [Broker 🤵 domain](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) via the [Notifier 📣 domain](<../02 📣 Notifiers/$ 📣 Notifier domain.md>);
     - 🎫 Downloaded [Tokens 🎫](<../../25 Data/30 🎫 Tokens/$ 🎫 Token.md>) from [Issuer 🎴 domains](<../../41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>).
 
     ---
@@ -76,20 +76,20 @@
     To migrate a [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) to another phone, a user first needs to bind an [Identity 🆔 agent domain](<../../30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) on the old phone, and then generate a migration QR [Token 🎫](<../../25 Data/30 🎫 Tokens/$ 🎫 Token.md>).
     
     * On the new phone, the user needs to install a [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>), then scan the migration QR of the old Wallet.
-    * The [Broker 🤵 domain](<../03 🤵 Brokers/$ 🤵 Broker domain.md>) will invoke the [Identity 🆔 domain](<../../30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) on the new phone to perform an identity authentication (e.g., face scan), and then will automatically decommission the old Wallet.
+    * The [Broker 🤵 domain](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) will invoke the [Identity 🆔 domain](<../../30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) on the new phone to perform an identity authentication (e.g., face scan), and then will automatically decommission the old Wallet.
 
     ---
     <br/>
 
 1. **How do users change between Wallet providers?**
 
-    If both the old and the new [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) providers use the same [Broker 🤵 domain](<../03 🤵 Brokers/$ 🤵 Broker domain.md>), 
+    If both the old and the new [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) providers use the same [Broker 🤵 domain](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>), 
     * then changing between Wallet providers in the same phone is very similar to migrating a Wallet to another phone. 
     
-    If they use different [Broker 🤵 domains](<../03 🤵 Brokers/$ 🤵 Broker domain.md>), 
+    If they use different [Broker 🤵 domains](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>), 
     * then these Brokers will need to implement some sort of portability. 
      
-    For simplicity, let's assume they use the same [Broker 🤵 domain](<../03 🤵 Brokers/$ 🤵 Broker domain.md>).
+    For simplicity, let's assume they use the same [Broker 🤵 domain](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>).
     
     * On the old [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>), the user generates a migration QR Token and downloads it or sends it to another person. 
     * Then, on the new [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>), the user uploads or scans the migration QR and performs an identity authentication (e.g., face scan).
@@ -99,9 +99,9 @@
 
 1. **What if an attacker intercepts a user's recovery QR Token?**
 
-    When a migration QR is used on a new [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>), the [Broker 🤵 domain](<../03 🤵 Brokers/$ 🤵 Broker domain.md>) notifies the old Wallet, allowing legitimate owners to block the attack and destroy the QR. 
+    When a migration QR is used on a new [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>), the [Broker 🤵 domain](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) notifies the old Wallet, allowing legitimate owners to block the attack and destroy the QR. 
     
-    * For situations where legitimate owners are not aware of notifications, migrations have a small grace period where [Broker 🤵 domains](<../03 🤵 Brokers/$ 🤵 Broker domain.md>) inactivate both Wallets until the old Wallet accepts the transfer or the grace period expires.
+    * For situations where legitimate owners are not aware of notifications, migrations have a small grace period where [Broker 🤵 domains](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) inactivate both Wallets until the old Wallet accepts the transfer or the grace period expires.
 
     ---
     <br/>
@@ -136,10 +136,10 @@
 
     | Category | Workflow |  Description
     |-|-|-
-    | 🤵 Set up | [👉 Onboard](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/11 🧑‍🦰👉🤵 Onboard.md>)  | Register the [Wallet 🧑‍🦰](<$ 🧑‍🦰 Wallet app.md>) on a [Broker 🤵](<../03 🤵 Brokers/$ 🤵 Broker domain.md>)
+    | 🤵 Set up | [👉 Onboard](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/11 🧑‍🦰👉🤵 Onboard.md>)  | Register the [Wallet 🧑‍🦰](<$ 🧑‍🦰 Wallet app.md>) on a [Broker 🤵](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>)
     | | [👉 Translate](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/12 🧑‍🦰👉🤵 Translate.md>)  | Change the language of the [Wallet 🧑‍🦰](<$ 🧑‍🦰 Wallet app.md>)
     | 🔆 Locators |[👉 Host QR](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>)  | Scan a [Host 🤗 NFC/QR](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>)   to open a [Chat 💬](<../12 💬 Chats/$ 💬 Chat.md>)
-    ||[👉 Printer QR](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/02 🧑‍🦰👉🤗 Scan printer QR.md>)  | Scan a [Printer 🖨️ NFC/QR](<../../45 🛠️ Helper domains/60 🖨️ Printers/$ 🖨️🛠️ Printer helper.md>) to open a [Chat 💬](<../12 💬 Chats/$ 💬 Chat.md>)
+    ||[👉 Printer QR](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/02 🧑‍🦰👉🤗 Scan printer QR.md>)  | Scan a [Printer 🖨️ NFC/QR](<../../45 🛠️ Helper domains/75 🖨️ Printers/$ 🖨️🛠️ Printer helper.md>) to open a [Chat 💬](<../12 💬 Chats/$ 💬 Chat.md>)
     |💬 Chats|[👉 Chats](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/01 🧑‍🦰👉🤵 List chats.md>) | List the user's [Chats 💬](<../12 💬 Chats/$ 💬 Chat.md>) 
     ||[👉 Home](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/02 🧑‍🦰👉🤵 Host home.md>) | Show the [Host's 🤗 ](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) menu in a [Chat 💬](<../12 💬 Chats/$ 💬 Chat.md>)
     ||[👉 Abandon](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>) | Unilaterally abandon a [Chat 💬](<../12 💬 Chats/$ 💬 Chat.md>)

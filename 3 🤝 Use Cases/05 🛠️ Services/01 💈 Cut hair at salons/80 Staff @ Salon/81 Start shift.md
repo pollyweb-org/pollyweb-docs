@@ -5,7 +5,7 @@ How does staff start a shift at a salon?
 | - | - | -
 | | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>)
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Salon (4.4 ⭐) [+]
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | ⓘ Staff [🪪 token](<../../../../4 ⚙️ Solution/25 Data/30 🎫 Tokens/$ 🎫 Token.md>) shared [+]
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | ⓘ Staff [🪪 token](<../../../../4 ⚙️ Solution/25 Data/30 🎫 Tokens/$ 🎫 Token.md>) shared [+]
 | 💈 Salon   | 😃 Hi Daniel, what's up? <br/>- [ Serve ] customers <br/>- [ Something else ] | > Serve
 | 💈 Salon   | ⏳ Waiting customers... <br/> - [ Pause shift ] <br/>- [ Something else ]  
 ...

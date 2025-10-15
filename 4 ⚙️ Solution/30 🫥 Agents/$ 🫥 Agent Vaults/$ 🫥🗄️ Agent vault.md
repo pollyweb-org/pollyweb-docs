@@ -9,7 +9,7 @@
         * internet browsing: Chrome, Firefox, or Safari;
         * email messaging: Gmail, Outlook, Apple Mail.
 
-    * While in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>), a [Host 🤗 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) to invoke user Agents 🫥 by role - e.g.:
+    * While in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>), a [Host 🤗 domain](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) to invoke user Agents 🫥 by role - e.g.:
 
         * `any-host.com` asks `any-broker.com` to invoke the user's [Persona 🧢 agent](<../../30 🫥 Agents/70 🧢 Personas/$ 🧢🫥 Persona agent.md>), 
         * then `any-broker.com` invokes the domain `any-persona.com`.
@@ -30,7 +30,7 @@
     |🌼| [Keybox](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/04 🌼🗄️ Keybox vault.md>) | FindMy | Stores and manages the user's [Padlock 🔒](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/01 🔒 Padlock device.md>) keys.
     |📇| [Mingler](<../../30 🫥 Agents/50 📇 Minglers/01 📇🫥 Mingler agent.md>) | WhatsApp | Connects multiple users in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>), allowing them to exchange [Tokens 🎫](<../../25 Data/30 🎫 Tokens/$ 🎫 Token.md>).
     |🧭| [Navigator](<../../30 🫥 Agents/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | G.Maps | Helps users going from point A to B.
-    |💳| [Payer](<../../30 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) | Paypal | Performs payments to [Collector 🏦 domains](<../../45 🛠️ Helper domains/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>).
+    |💳| [Payer](<../../30 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) | Paypal | Performs payments to [Collector 🏦 domains](<../../45 🛠️ Helper domains/30 🏦 Collectors/$ 🏦🛠️ Collector helper.md>).
     |🧢| [Persona](<../../30 🫥 Agents/70 🧢 Personas/$ 🧢🫥 Persona agent.md>) | Facebook | Stores and shares user preferences and personally identifiable information (PII).
     |⭐| [Reviewer](<../../30 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) | TrustPilot | Collects and shares user feedback from [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) experiences.
     |🗓️| [Scheduler](<../../30 🫥 Agents/75 🗓️ Schedulers/$ 🗓️🗄️ Scheduler agent.md>) | Outlook | Monitors and manages the user's agenda.
@@ -56,7 +56,7 @@
 
         * One use case where this is important is when a user has two nationalities (e.g., French and Japanese), and each nation needs its own [Identity 🆔 agent](<../../30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>).
 
-        * When this happens, the user's [Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) will ask the user to select which of the two [Identity 🆔 agents](<../../30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) should receive the [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) request.
+        * When this happens, the user's [Broker 🤵 domain](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) will ask the user to select which of the two [Identity 🆔 agents](<../../30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) should receive the [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) request.
 
     ---
     <br/>
@@ -64,16 +64,16 @@
 
 1. **How can users chat with an Agent?**
 
-    To open an [Agent 🫥 vault](<$ 🫥🗄️ Agent vault.md>), users can ask their [Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>);
+    To open an [Agent 🫥 vault](<$ 🫥🗄️ Agent vault.md>), users can ask their [Broker 🤵 domain](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>);
     * e.g., by stating what they're trying to accomplish;
     * as in the following example, from the [Trip Return 🤝 use case](<../../../3 🤝 Use Cases/03 🧳 Travel/01 🧳 Plans trips 🧭/02 🧭 Return @ Destination.md>).
 
     | [Domain](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
     | - | - | - 
-    | | | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>)
-    | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | 😃 Hi! What do you need? | `return to` <br/> `hotel`
-    | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | 💬 How can I help? <br/> - Open [ 🧭 Navigator ] <br/> - [ Something else ] | > 🧭 Navigator 
-    | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | ✅ Over to 🧭 Navigator.
+    | | | 🤵 [Broker](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>)
+    | 🤵 [Broker](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 😃 Hi! What do you need? | `return to` <br/> `hotel`
+    | 🤵 [Broker](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 💬 How can I help? <br/> - Open [ 🧭 Navigator ] <br/> - [ Something else ] | > 🧭 Navigator 
+    | 🤵 [Broker](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | ✅ Over to 🧭 Navigator.
     | [ new chat ]
     | 🔎 [Finder](<../../30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Navigator (4.4 ⭐) [+]
     | 🧭 [Navigator](<../../30 🫥 Agents/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | ℹ️ Request: return to hotel [+]

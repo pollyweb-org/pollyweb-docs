@@ -28,7 +28,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header| `From`    | string | The name of the [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) querying
-|       | `To`      | string | [Graph 🕸 domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/40 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) name
+|       | `To`      | string | [Graph 🕸 domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/50 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) name
 |       | `Subject` | string | `Identity@Graph`
 | Body  | `Domain`  | string | The name of another [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) to look up
 |
@@ -52,7 +52,7 @@ Translations:
 |Object|Property|Type|Description
 |-|-|-|-
 |Top        |`Domain`       | string | URL name of the [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>)
-|           |`Feedback`     | string | [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/16 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) name
+|           |`Feedback`     | string | [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/27 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) name
 |           |`Name`         | string | Friendly name of the [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>)
 |           |`SmallIcon`    | string  | Small icon in Base64 PNG
 |           |`BigIcon`      | string  | Big icon in Base64 PNG

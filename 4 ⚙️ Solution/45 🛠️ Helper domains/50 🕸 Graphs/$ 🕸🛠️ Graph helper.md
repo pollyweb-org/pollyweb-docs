@@ -5,7 +5,7 @@
 
     A [Graph 🕸 domain](<$ 🕸🛠️ Graph helper.md>) is 
     * any [Helper 🛠️ domain](<../../45 🛠️ Helper domains/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) 
-    * that subscribes to [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) change events from [Listener 👂 domains](<../50 👂 Listeners/$ 👂🛠️ Listener helper.md>)
+    * that subscribes to [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) change events from [Listener 👂 domains](<../60 👂 Listeners/$ 👂🛠️ Listener helper.md>)
     * then builds network representations of [Trust 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) relationships between [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>)
     * including indirect relationships via [Authority 🏛️ domains](<../../45 🛠️ Helper domains/14 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>). 
 
@@ -39,7 +39,7 @@
 
     - Domains have the responsibility to raise an event every time they publish a new version of their [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) or [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>). 
     
-    - To allow any graph to subscribe to changes in any [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>), NLWeb provides a cluster of [Listener 👂 nodes](<../50 👂 Listeners/$ 👂🛠️ Listener helper.md>) for [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) to publish change notifications to, and for [Graph 🕸 domains](<$ 🕸🛠️ Graph helper.md>) to receive notifications from. 
+    - To allow any graph to subscribe to changes in any [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>), NLWeb provides a cluster of [Listener 👂 nodes](<../60 👂 Listeners/$ 👂🛠️ Listener helper.md>) for [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) to publish change notifications to, and for [Graph 🕸 domains](<$ 🕸🛠️ Graph helper.md>) to receive notifications from. 
     
     - Upon receiving a notification, [Graph 🕸 domains](<$ 🕸🛠️ Graph helper.md>) update their graph representations. 
 
@@ -59,7 +59,7 @@
 1. **How can domains reset their Manifest representation on Graphs?**
 
     To reset their [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>):
-    * a [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) can send a RESET event to their [Listener 👂 helper domain](<../50 👂 Listeners/$ 👂🛠️ Listener helper.md>);
+    * a [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) can send a RESET event to their [Listener 👂 helper domain](<../60 👂 Listeners/$ 👂🛠️ Listener helper.md>);
     * subscribed [Graph 🕸 domains](<$ 🕸🛠️ Graph helper.md>) will interpret it as the need to start from scratch.
 
     ---
@@ -84,7 +84,7 @@
 1. **How is a new NLWeb trust graph populated?**
 
     Whenever a new [Graph 🕸 domain](<$ 🕸🛠️ Graph helper.md>) is "born", 
-    * it can ask a [Listener 👂 domain](<../50 👂 Listeners/$ 👂🛠️ Listener helper.md>) 
+    * it can ask a [Listener 👂 domain](<../60 👂 Listeners/$ 👂🛠️ Listener helper.md>) 
     * to replay the last change notification 
     * of every domain path
     * since the beginning of time 
