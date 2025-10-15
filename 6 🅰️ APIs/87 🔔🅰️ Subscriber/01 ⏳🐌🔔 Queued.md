@@ -22,7 +22,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|`Header`| `From`| string | [Buffer ⏳](<../../4 ⚙️ Solution/45 Helpers/15 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) from [`Queue@Buffer`](<../20 ⏳🅰️ Buffer/12 🔔🐌⏳ Queue.md>)
+|`Header`| `From`| string | [Buffer ⏳](<../../4 ⚙️ Solution/45 🛠️ Helper domains/15 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) from [`Queue@Buffer`](<../20 ⏳🅰️ Buffer/12 🔔🐌⏳ Queue.md>)
 || `To`| string | [Subscriber 🔔](<../../4 ⚙️ Solution/40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) from [`Queue@Buffer`](<../20 ⏳🅰️ Buffer/12 🔔🐌⏳ Queue.md>)
 || `Subject` | string | `Queued@Subscriber`
 |Body | `Queue`| uuid | Queue from [`Queue@Buffer`](<../20 ⏳🅰️ Buffer/12 🔔🐌⏳ Queue.md>)

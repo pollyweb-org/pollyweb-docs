@@ -1,6 +1,6 @@
 # 👥🚀🖨️ Grab @ Printer
 
-> A [Printer 🖨️ domain](<../../4 ⚙️ Solution/45 Helpers/60 🖨️ Printers/$ 🖨️🏭 Printer helper.md>) grabs an available alias. 
+> A [Printer 🖨️ domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/60 🖨️ Printers/$ 🖨️🏭 Printer helper.md>) grabs an available alias. 
 
 <br/>
 
@@ -19,9 +19,9 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 |Header| `From`| string | Caller [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) name
-|| `To` | string | [Printer 🖨️ domain](<../../4 ⚙️ Solution/45 Helpers/60 🖨️ Printers/$ 🖨️🏭 Printer helper.md>) name
+|| `To` | string | [Printer 🖨️ domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/60 🖨️ Printers/$ 🖨️🏭 Printer helper.md>) name
 || `Subject`| string | `Grab@Printer`
-|Body|`Alias`| string | Unique alias on the [Printer 🖨️](<../../4 ⚙️ Solution/45 Helpers/60 🖨️ Printers/$ 🖨️🏭 Printer helper.md>)
+|Body|`Alias`| string | Unique alias on the [Printer 🖨️](<../../4 ⚙️ Solution/45 🛠️ Helper domains/60 🖨️ Printers/$ 🖨️🏭 Printer helper.md>)
 |       | `Locator`    | string | The [Locator 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) of a [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) 
 |
 

@@ -2,7 +2,7 @@
 
 > From [Eat at restaurants 🍽️](<01 🍽️ Index.md>)
 
-> Edited via a [Folder 🗂️ editor](<../../../4 ⚙️ Solution/45 Helpers/26 🗂️ Folders/$ 🗂️ Folder editor.md>)
+> Edited via a [Folder 🗂️ editor](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/26 🗂️ Folders/$ 🗂️ Folder editor.md>)
 
 
 ### Owner's menu

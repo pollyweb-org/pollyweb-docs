@@ -4,7 +4,7 @@
 <!-- Test: https://github.com/jorgemjfonseca/domain-trust-framework/blob/2896911396280f90ec68c32b50aa99dc4a3c90e2/python/payments/collector/COLLECTOR_TESTS.py#L16 -->
 
 
-# 💳🐌🏦 Collect @ [Collector](<../../4 ⚙️ Solution/45 Helpers/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>)
+# 💳🐌🏦 Collect @ [Collector](<../../4 ⚙️ Solution/45 🛠️ Helper domains/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>)
 
 
 ## Async Message 🐌

@@ -2,7 +2,7 @@
 
 > From [Eat at restaurants 🍽️](<01 🍽️ Index.md>)
 
-> Edited via a [Folder 🗂️ editor](<../../../4 ⚙️ Solution/45 Helpers/26 🗂️ Folders/$ 🗂️ Folder editor.md>)
+> Edited via a [Folder 🗂️ editor](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/26 🗂️ Folders/$ 🗂️ Folder editor.md>)
 
 
 > Information to pass to customers' [Agent 🫥 vaults](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>).
