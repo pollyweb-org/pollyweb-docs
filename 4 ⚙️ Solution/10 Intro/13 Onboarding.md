@@ -35,7 +35,7 @@ Onboarding
     2. Integrate the [Collector 🏦](<../30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) with the organization's bank and ERP;
     3. Configure [Host 🤗](<../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) workflows integrated with the organization's IT;
     4. Publish a [Manifest 📜](<../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) with [Trusts 👍](<../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) to required domains;
-    5. Order a batch of physical [NFC/QR locators 🔆](<../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) from a [Printer 🖨️](<../45 Helpers/60 🖨️ Printers/08 🖨️🏭 Printer helper.md>);
+    5. Order a batch of physical [NFC/QR locators 🔆](<../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) from a [Printer 🖨️](<../45 Helpers/60 🖨️ Printers/$ 🖨️🏭 Printer helper.md>);
     6. Deploy [NFC/QR locators 🔆](<../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) (e.g., web, app, stores, products).
 
     ---
