@@ -193,7 +193,7 @@
 
     |Property| Type | Details
     |-|-|-
-    | `Code` | string |  [`.TOKEN`](<../../../7 🧩 Codes/$/🧩 Token.md>)
+    | `Code` | string |  [`.TOKEN`](<../../../7 🧩 Codes/$/🧩 TOKEN code.md>)
     | `Domain` | string | The [Issuer 🎴 domain](<02 🎴🎭 Issuer role.md>) name
     | `TokenID` | uuid |  The resource key in the [Issuer 🎴](<02 🎴🎭 Issuer role.md>)
     | `Properties` | object | Any optional data fields

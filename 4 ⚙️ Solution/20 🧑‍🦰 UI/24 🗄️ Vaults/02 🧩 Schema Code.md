@@ -18,8 +18,8 @@
 
     | Schema Code | Purpose |
     |-|-
-    | [`.MSG` 🧩](<../../../7 🧩 Codes/$/🧩 Msg.md>) | Schema of [Messages 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) 
-    | [`.TOKEN` 🧩](<../../../7 🧩 Codes/$/🧩 Token.md>) | Schema of [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>)
+    | [`.MSG` 🧩](<../../../7 🧩 Codes/$/🧩 MSG code.md>) | Schema of [Messages 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) 
+    | [`.TOKEN` 🧩](<../../../7 🧩 Codes/$/🧩 TOKEN code.md>) | Schema of [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>)
     | [`unicode.org/FLAG` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 unicode.any-igo.org.md>) | Flags for country [Prompts 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>)
     | [`locale.org/TERRITORY` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 locale.any-igo.org.md>) | Country names for [Prompts 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>)
     | [`standards.org/639-1` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 standards.any-igo.org.md>) | Language codes (e.g., `en-us`)
@@ -139,7 +139,7 @@
     | [`.MANIFEST/CODE` 🧩](<../../40 👥 Domains/44 📜 Manifests/40 🧩 CODE code.md>) | CODE properties
     | [`.MANIFEST/CODE/SCHEMA` 🧩](<../../40 👥 Domains/44 📜 Manifests/41 🧩 SCHEMA code.md>) | CODE/SCHEMA properties
     | [`.MANIFEST/DELEGATE` 🧩](<../../40 👥 Domains/44 📜 Manifests/30 🧩 DELEGATE code.md>) | Delegation to other [Authorities 🏛️](<../../40 👥 Domains/43 👍 Trusts/02 🏛️🛠️ Authority helper.md>)
-    | [`.TYPES` 🧩](<../../../7 🧩 Codes/$/🧩 Types.md>) | Generic referenceable types
+    | [`.TYPES` 🧩](<../../../7 🧩 Codes/$/🧩 TYPES code.md>) | Generic referenceable types
 
     ---
     <br/>
@@ -210,9 +210,9 @@
     Yes.
     * Using the `Inherits` property
         * defined in [`.MANIFEST/CODE/SCHEMA` 🧩](<../../40 👥 Domains/44 📜 Manifests/41 🧩 SCHEMA code.md>).
-    * Consider [`.LOCATOR` 🧩](<../../../7 🧩 Codes/$/🧩 Locator.md>)
+    * Consider [`.LOCATOR` 🧩](<../../../7 🧩 Codes/$/🧩 LOCATOR code.md>)
         * who defines properties `Code`, `Domain`, `Resource`.
-    * It is inherited by [`.TOKEN` 🧩](<../../../7 🧩 Codes/$/🧩 Token.md>)
+    * It is inherited by [`.TOKEN` 🧩](<../../../7 🧩 Codes/$/🧩 TOKEN code.md>)
         * who adds properties `Issued`, `Starts`, `Expires`, `Signature`.
     * Then inherited by [`.HOST/BOOKING` 🧩](<../../../7 🧩 Codes/HOST/🧩 HostBooking.md>)
         * who adds properties `For`, `Time`, `Place`, `Seat`, `Latitude`, `Longitude`.
@@ -250,7 +250,7 @@
     * See [`.MANIFEST/TRUST` 🧩](<../../40 👥 Domains/44 📜 Manifests/50 🧩 TRUST code.md>)
         * whose property `Domain`
         * references `Domain@.TYPES`
-        * defined in [`.TYPES` 🧩](<../../../7 🧩 Codes/$/🧩 Types.md>).
+        * defined in [`.TYPES` 🧩](<../../../7 🧩 Codes/$/🧩 TYPES code.md>).
     * See [`.PERSONA/ADDRESS` 🧩](<../../../7 🧩 Codes/PERSONA/🧩 PersonaAddress.md>)
         * whose property `Country`
         * references `Alpha2@standards.any-igo.org/3166-1`
