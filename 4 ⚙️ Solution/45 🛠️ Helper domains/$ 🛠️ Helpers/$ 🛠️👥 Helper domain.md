@@ -35,7 +35,7 @@
     | [💳 Payer](<../../30 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) | PayPal | Pays [Collectors 🏦](<../18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) for [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>)
     | [🖨️ Printer](<../60 🖨️ Printers/$ 🖨️🏭 Printer helper.md>) | - | Prints [Locators 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) for [Brand 🍏](<../../70 🌳 Ambient/71 💠 Brand Things/07 🍏🎭 Brand role.md>) and [Host 🤗](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>)
     | [🛰️ Relayer](<../70 🛰️ Relayers/04 🛰️🛠️ Relayer helper.md>)
-    | [🪄 Wand](<../90 🪄 Wands/09 🪄🛠️ Wand helper.md>) | - | Manages [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) for [Things 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>) for [Brands 🍏](<../../70 🌳 Ambient/71 💠 Brand Things/07 🍏🎭 Brand role.md>)
+    | [🪄 Wand](<../90 🪄 Wands/$ 🪄🛠️ Wand helper.md>) | - | Manages [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) for [Things 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>) for [Brands 🍏](<../../70 🌳 Ambient/71 💠 Brand Things/07 🍏🎭 Brand role.md>)
 
     ---
     <br/>
