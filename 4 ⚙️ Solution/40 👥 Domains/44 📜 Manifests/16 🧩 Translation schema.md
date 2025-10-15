@@ -1,7 +1,7 @@
-# [🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) [`.MANIFEST`](<10 🧩 Manifest schema.md>) `/TRANSLATION`
+# [🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) [`.MANIFEST`](<10 🧩 MANIFEST schema.md>) `/TRANSLATION`
 
-> Used by [`.MANIFEST/IDENTITY` 🧩](<14 🧩 Identity schema.md>) and
-[`.MANIFEST/CODE` 🧩](<11 🧩 Code schema.md>)
+> Used by [`.MANIFEST/IDENTITY` 🧩](<14 🧩 IDENTITY schema.md>) and
+[`.MANIFEST/CODE` 🧩](<11 🧩 CODE schema.md>)
 
 > Implements [domain Manifest 📜](<01 📜 Domain Manifest.md>) 
 
@@ -19,7 +19,7 @@
 
 ## Definition
 
-> 🤝: [`.MANIFEST/CODE`](<11 🧩 Code schema.md>)
+> 🤝: [`.MANIFEST/CODE`](<11 🧩 CODE schema.md>)
 
 ```yaml
 Path: /MANIFEST/TRANSLATION

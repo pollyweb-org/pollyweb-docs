@@ -1,6 +1,6 @@
-# [🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) [`.MANIFEST`](<10 🧩 Manifest schema.md>) `/CODE`
+# [🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) [`.MANIFEST`](<10 🧩 MANIFEST schema.md>) `/CODE`
 
-> Part of [`.MANIFEST` 🧩](<10 🧩 Manifest schema.md>)
+> Part of [`.MANIFEST` 🧩](<10 🧩 MANIFEST schema.md>)
 
 > Implements [domain Manifest 📜](<01 📜 Domain Manifest.md>) 
 
@@ -13,7 +13,7 @@
 | Property | Type | Notes|
 |-|-|-
 | `Path`| string | Relative path of the [Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)  or group
-| [`Delegator 🧩`](<13 🧩 Delegate schema.md>) | string | Optional [Authority 🏛️ domain](<../43 👍 Trusts/02 🏛️🛠️ Authority helper.md>) that delegated: <br/>- i.e., added it to [`.MANIFEST/DELEGATE` 🧩](<13 🧩 Delegate schema.md>)
+| [`Delegator 🧩`](<13 🧩 DELEGATE schema.md>) | string | Optional [Authority 🏛️ domain](<../43 👍 Trusts/02 🏛️🛠️ Authority helper.md>) that delegated: <br/>- i.e., added it to [`.MANIFEST/DELEGATE` 🧩](<13 🧩 DELEGATE schema.md>)
 | `Description`| string | Human  description of the [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)  
 | `Name` | string | Human name of the [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) 
 | `Resources`  | map | Dictionary of external resources
@@ -25,7 +25,7 @@
 
 ## Definition
 
-> 🤝: [`.MANIFEST/CODE`](<11 🧩 Code schema.md>)
+> 🤝: [`.MANIFEST/CODE`](<11 🧩 CODE schema.md>)
 
 ```yaml
 Path: /MANIFEST/CODE

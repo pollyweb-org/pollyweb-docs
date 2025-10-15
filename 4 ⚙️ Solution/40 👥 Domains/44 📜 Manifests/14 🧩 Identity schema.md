@@ -1,6 +1,6 @@
-# [🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) [`.MANIFEST`](<10 🧩 Manifest schema.md>) `/IDENTITY`
+# [🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) [`.MANIFEST`](<10 🧩 MANIFEST schema.md>) `/IDENTITY`
 
-> Part of [`.MANIFEST` 🧩](<10 🧩 Manifest schema.md>)
+> Part of [`.MANIFEST` 🧩](<10 🧩 MANIFEST schema.md>)
 
 > Implements [domain Manifest 📜](<01 📜 Domain Manifest.md>) 
 
@@ -23,7 +23,7 @@
 
 ## Definition
 
-> 🤝: [`.MANIFEST/CODE`](<11 🧩 Code schema.md>)
+> 🤝: [`.MANIFEST/CODE`](<11 🧩 CODE schema.md>)
 
 ```yaml
 Path: /MANIFEST/IDENTITY
