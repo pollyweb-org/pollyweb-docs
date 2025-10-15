@@ -213,7 +213,7 @@
         * who defines properties `Code`, `Domain`, `Resource`.
     * It is inherited by [`.TOKEN` 🧩](<../30 🎫 Tokens/🧩 Token schemas/🧩 TOKEN.md>)
         * who adds properties `Issued`, `Starts`, `Expires`, `Signature`.
-    * Then inherited by [`.HOST/BOOKING` 🧩](<../../../7 🧩 Codes/HOST/🧩 HostBooking.md>)
+    * Then inherited by [`.HOST/BOOKING` 🧩](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🧩 Host schemas/🧩 HOST\BOOKING.md>)
         * who adds properties `For`, `Time`, `Place`, `Seat`, `Latitude`, `Longitude`.
     
     ---
