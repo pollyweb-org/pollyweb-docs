@@ -5,7 +5,7 @@
 
 > Used by the [🎴⏩🧑‍🦰 Offer Token @ Issuer](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/02 🧑‍🦰👉🎴 Save token.md>) flow.
 
-* An [Issuer 🎴 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) issues a [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/$ 🎫 Token.md>) 
+* An [Issuer 🎴 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) issues a [Token 🎫](<../../../4 ⚙️ Solution/25 Data/25 🎫 Tokens/$ 🎫 Token.md>) 
   * and asks a [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) to offer it to the user in a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>).
 
 
@@ -34,8 +34,8 @@ Body:
 ||`To`|string| [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) name
 ||`Subject`|string|`Offer@Broker`
 |Body  |`ChatID` |uuid  | [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID from [`Hello@Host`](<../../50 🤗🅰️ Host/01 🤵🐌🤗 Hello.md>)
-| |`TokenID` |uuid  | [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/$ 🎫 Token.md>) ID
-|      |`Code`   |string| [Schema Code 🧩](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) 
+| |`TokenID` |uuid  | [Token 🎫](<../../../4 ⚙️ Solution/25 Data/25 🎫 Tokens/$ 🎫 Token.md>) ID
+|      |`Code`   |string| [Schema Code 🧩](<../../../4 ⚙️ Solution/25 Data/Schema Codes/02 🧩 Schema Code.md>) 
 |      |`Version`|string| Schema version|      
 |      |`Starts` |timestamp| Valid from
 |      |`Expires`|timestamp| Valid until
@@ -49,9 +49,9 @@ Body:
 
     | Reason | Details
     |-|-
-    |`Reject`| [Broker 🤵 domains](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) verify if the lifespan of the offered [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/$ 🎫 Token.md>) is worth showing to the user, rejecting [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/$ 🎫 Token.md>) already expired or too far ahead in the future.
-    `Translate` | [Broker 🤵 domains](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) need to translate the [Schema Code 🧩](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>)  into for users in their [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) language.
-    `Share`| When [Broker 🤵 domains](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) answer a [Query@Broker](<../60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) call, they need to filter only the active [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/$ 🎫 Token.md>) of a certain [Schema Code 🧩](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>)  within a version interval to be shared.
+    |`Reject`| [Broker 🤵 domains](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) verify if the lifespan of the offered [Token 🎫](<../../../4 ⚙️ Solution/25 Data/25 🎫 Tokens/$ 🎫 Token.md>) is worth showing to the user, rejecting [Tokens 🎫](<../../../4 ⚙️ Solution/25 Data/25 🎫 Tokens/$ 🎫 Token.md>) already expired or too far ahead in the future.
+    `Translate` | [Broker 🤵 domains](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) need to translate the [Schema Code 🧩](<../../../4 ⚙️ Solution/25 Data/Schema Codes/02 🧩 Schema Code.md>)  into for users in their [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) language.
+    `Share`| When [Broker 🤵 domains](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) answer a [Query@Broker](<../60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) call, they need to filter only the active [Tokens 🎫](<../../../4 ⚙️ Solution/25 Data/25 🎫 Tokens/$ 🎫 Token.md>) of a certain [Schema Code 🧩](<../../../4 ⚙️ Solution/25 Data/Schema Codes/02 🧩 Schema Code.md>)  within a version interval to be shared.
     |
 
     

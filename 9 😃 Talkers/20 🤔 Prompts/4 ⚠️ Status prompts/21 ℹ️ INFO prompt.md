@@ -30,7 +30,7 @@
     |Emoji | Details
     |-|-
     ℹ️ | The strong info emoji ℹ️ represents the chat's [Host 🤗 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) and any [Helper 🛠️ domains](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) that it may [invite ⏩](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>).
-    ⓘ | The faded info emoji ⓘ represents the user's [Agent 🫥 vaults](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>).
+    ⓘ | The faded info emoji ⓘ represents the user's [Agent 🫥 vaults](<../../../4 ⚙️ Solution/30 🫥 Agents/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>).
 
     ---
     <br/>
@@ -78,7 +78,7 @@
     | - | - | - |
     | [🤗 Host](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) | ℹ️ Simple info.
     | [🛠️ Helper](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) | ℹ️ Simple info.
-    | [🫥 Agent](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | ⓘ Simple info.
+    | [🫥 Agent](<../../../4 ⚙️ Solution/30 🫥 Agents/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) | ⓘ Simple info.
     |
     
     <br/>

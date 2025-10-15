@@ -15,7 +15,7 @@ At the street market, vendors access the stall chat.
 | - | - | - |
 | | | 🔆 [tap](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>)
 | 🔎 [Finder](<../../../4 ⚙️ Solution/30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Stall (4.4 ⭐) [+]
-| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | ⓘ Staff [🪪 token](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/$ 🎫 Token.md>) shared [+]
+| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | ⓘ Staff [🪪 token](<../../../4 ⚙️ Solution/25 Data/25 🎫 Tokens/$ 🎫 Token.md>) shared [+]
 | 🎪 Stall  | 😃 Hi Daniel, what's up? <br/>- [ Serve ] customers  <br/>- [ Something else ] | > Serve 
 | 🎪 Stall  | [� Share location?](<../../../9 😃 Talkers/20 🤔 Prompts/7 ✏️ Input prompts/91 📍 LOCATION prompt.md>) | > Yes
 | 🆔 [Identity](<../../../4 ⚙️ Solution/30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.  | [📸 selfie](<../../../4 ⚙️ Solution/30 🫥 Agents/45 🆔 Identities/21 🆔😶 Face scan.md>)

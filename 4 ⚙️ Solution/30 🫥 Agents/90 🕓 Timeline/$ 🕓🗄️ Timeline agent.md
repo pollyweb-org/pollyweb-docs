@@ -5,7 +5,7 @@
 
 1. **What is a Timeline?**
 
-    Timelines are user-bound [Vaults 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) that anonymously store user events over time, mapping each event to a metric represented by a [Schema Code 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>).
+    Timelines are user-bound [Vaults 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) that anonymously store user events over time, mapping each event to a metric represented by a [Schema Code 🧩](<../../25 Data/Schema Codes/02 🧩 Schema Code.md>).
 
     ---
 

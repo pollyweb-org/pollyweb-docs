@@ -1,5 +1,5 @@
 
-# [🧩](<../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) [Schema Code](<../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>): Host
+# [🧩](<../../4 ⚙️ Solution/25 Data/Schema Codes/02 🧩 Schema Code.md>) [Schema Code](<../../4 ⚙️ Solution/25 Data/Schema Codes/02 🧩 Schema Code.md>): Host
 
 > Inherits from [`nlweb.org/LOCATOR` 🧩](<../$/🧩 LOCATOR code.md>)
 

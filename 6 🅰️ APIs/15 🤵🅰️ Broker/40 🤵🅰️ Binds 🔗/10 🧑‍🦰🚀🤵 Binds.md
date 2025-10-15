@@ -2,7 +2,7 @@
 
 # 🧑‍🦰🚀🤵 Binds @ Broker
 
-> List the [Binds 🔗](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) of a [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
+> List the [Binds 🔗](<../../../4 ⚙️ Solution/25 Data/24 🔗 Binds/01 🔗 Bind.md>) of a [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
 
 > Used in:
 > <br/> • [🧑‍🦰👉🤵 Translate](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/12 🧑‍🦰👉🤵 Translate.md>)
@@ -45,9 +45,9 @@ Binds:
 | Object | Property | Type  | Description
 |-|-|-|-
 | Top      | `Binds`| list  | List of Bind objects
-| Bind     | `BindID`   | uuid  | [Bind 🔗](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) ID
+| Bind     | `BindID`   | uuid  | [Bind 🔗](<../../../4 ⚙️ Solution/25 Data/24 🔗 Binds/01 🔗 Bind.md>) ID
 |          | `Vault`    | string| [Vault 🗄️ domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) name
 |          | `VaultTitle`| string| [Vault 🗄️ domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) title
-|          | `Code`     | string| [Schema Code 🧩](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>)
-|          | `CodeTitle`| string| [Schema Code 🧩](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) title
+|          | `Code`     | string| [Schema Code 🧩](<../../../4 ⚙️ Solution/25 Data/Schema Codes/02 🧩 Schema Code.md>)
+|          | `CodeTitle`| string| [Schema Code 🧩](<../../../4 ⚙️ Solution/25 Data/Schema Codes/02 🧩 Schema Code.md>) title
 |

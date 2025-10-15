@@ -5,7 +5,7 @@
 > Edited via a [Folder 🗂️ editor](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/26 🗂️ Folders/$ 🗂️ Folder editor.md>)
 
 
-> Information to pass to customers' [Agent 🫥 vaults](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>).
+> Information to pass to customers' [Agent 🫥 vaults](<../../../4 ⚙️ Solution/30 🫥 Agents/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>).
 
 ### Owner's content
 
