@@ -1,6 +1,6 @@
 # 🧑‍🦰⏩🤝 Subscribe Wallets to Billers
 
-![](<../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/00 📎 Assets/💳 Biller User.png>)
+![](<../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/. 📎 Assets/💳 Biller User.png>)
 
 For a user to [sign](<../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/16 🆔🔏 Verify Signatures.md>) a subscription, the following preconditions must be met:
 - 1/ the user has default [Payer 💳](<../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) and [Identity 🆔](<../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) domains;
