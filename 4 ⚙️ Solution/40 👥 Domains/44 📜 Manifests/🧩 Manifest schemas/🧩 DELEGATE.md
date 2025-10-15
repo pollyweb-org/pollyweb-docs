@@ -1,14 +1,14 @@
-# [🧩](<../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) [`.MANIFEST`](<10 🧩 MANIFEST code.md>) `/DELEGATE`
+# [🧩](<../../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) [`.MANIFEST`](<🧩 MANIFEST.md>) `/DELEGATE`
 
-> Part of [`.MANIFEST` 🧩](<10 🧩 MANIFEST code.md>)
+> Part of [`.MANIFEST` 🧩](<🧩 MANIFEST.md>)
 
-> Implements [domain Manifest 📜](<$ 📜 Domain Manifest.md>) 
+> Implements [domain Manifest 📜](<../📜 Manifest.md>) 
 
 
 * Delegated domain for authority-managed codes.
   * It allows for a manifest to be smaller, while keeping the ownership of the code group. 
   * For example, `profile.nlweb.org` defines all codes for `/PERSONA` on behalf of `nlweb.org`.
-  * The delegated domain must reference the domain of the `Delegator`, as described in [`.MANIFEST/CODE` 🧩](<40 🧩 CODE code.md>).
+  * The delegated domain must reference the domain of the `Delegator`, as described in [`.MANIFEST/CODE` 🧩](<🧩 CODE.md>).
 
 <br/>
 
@@ -29,7 +29,7 @@
 
 ## Definition
 
-> 🤝: [`.MANIFEST/CODE`](<40 🧩 CODE code.md>)
+> 🤝: [`.MANIFEST/CODE`](<🧩 CODE.md>)
 
 ```yaml
 Path: /MANIFEST/DELEGATE

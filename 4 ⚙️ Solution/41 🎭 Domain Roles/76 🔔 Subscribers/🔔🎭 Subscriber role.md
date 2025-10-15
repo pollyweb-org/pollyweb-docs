@@ -41,7 +41,7 @@
 
 1. **What are examples of event subscribers?**
 
-    * [Graph 🕸 helper domains](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>) build their graph databases with subscriptions to [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) updates from [Listener 👂 streams](<../../45 🛠️ Helper domains/60 👂 Listeners/👂🛠️ Listener helper.md>).
+    * [Graph 🕸 helper domains](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>) build their graph databases with subscriptions to [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>) updates from [Listener 👂 streams](<../../45 🛠️ Helper domains/60 👂 Listeners/👂🛠️ Listener helper.md>).
   
     * [Finder 🔎 domains](<../../50 🫥 Agents/40 🔎 Finders/🔎🫥 Finder agent.md>) build their search index with subscriptions to [Graph 🕸](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>), [Advertiser 👀](<../../45 🛠️ Helper domains/12 👀 Advertisers/👀🛠️ Advertiser helper.md>), and [Reviewer ⭐](<../../50 🫥 Agents/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) streams.
     

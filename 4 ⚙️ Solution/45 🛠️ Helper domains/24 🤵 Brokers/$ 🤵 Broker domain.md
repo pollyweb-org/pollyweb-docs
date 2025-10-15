@@ -58,7 +58,7 @@
 
     * [Broker 🤵 domains](<$ 🤵 Broker domain.md>) are responsible for validating if the [Notifier 📣 domains](<../../20 🧑‍🦰 UI/02 📣 Notifiers/📣 Notifier domain.md>) they serve are compliant with NLWeb protocol, blocking them if necessary.
 
-    * The NLWeb organization is responsible for verifying and onboarding [Broker 🤵 domains](<$ 🤵 Broker domain.md>), listing them as [trustworthy 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) on its public [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>), so that other [domains 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) can inherit that [trust 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>).
+    * The NLWeb organization is responsible for verifying and onboarding [Broker 🤵 domains](<$ 🤵 Broker domain.md>), listing them as [trustworthy 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) on its public [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>), so that other [domains 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) can inherit that [trust 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>).
 
     ---
     <br/>

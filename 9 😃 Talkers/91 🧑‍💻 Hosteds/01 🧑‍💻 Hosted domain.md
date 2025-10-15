@@ -32,7 +32,7 @@
     | [🛠️ Helpers](<13 🛠️📄 Helpers file.md>)  | YAML | Required [Helper 🛠️ domains](<../../4 ⚙️ Solution/45 🛠️ Helper domains/$ 🛠️ Helpers/🛠️👥 Helper domain.md>)
     | 🔆 [Locators](<14 🔆📄 Locators file.md>) | YAML | Map of [Locators 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) to [Talkers 😃](<../10 📘 Talker specs/10 😃 Talker.md>)
     | 😃 [Talkers](<15 😃📂 Talkers folder.md>) | Folder | List of [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>) scripts 
-    | [📜 Manifest](<16 📜📂 Manifest folder.md>) | Folder | Public [domain Manifest 📜](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) parts
+    | [📜 Manifest](<16 📜📂 Manifest folder.md>) | Folder | Public [domain Manifest 📜](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/📜 Manifest.md>) parts
     | [🪣 Pools](<17 🪣📄 Pools file.md>) | YAML | Resource index for [Talker `MAP`](<../30 🗃️ Talker data/61 🪣 MAP item.md>)
     | [🗃️ Resources](<18 🗃️📂 Resources folder.md>) | Folder | Resource folder for [🪣 Pools](<17 🪣📄 Pools file.md>)
     

@@ -11,7 +11,7 @@
 
 ## Definition
 
-> [🤝:](<../../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) [`.MANIFEST/CODE`](<../../../40 👥 Domains/44 📜 Manifests/40 🧩 CODE code.md>)
+> [🤝:](<../../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) [`.MANIFEST/CODE`](<../../../40 👥 Domains/44 📜 Manifests/🧩 Manifest schemas/🧩 CODE.md>)
 
 ```yaml
 Path: /ALIAS

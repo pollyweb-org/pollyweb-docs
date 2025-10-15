@@ -50,7 +50,7 @@
     - SUCCESS|Done!
     ```
 
-    The `Flow` section of the [Vault's Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) may look like the following.
+    The `Flow` section of the [Vault's Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>) may look like the following.
 
     ```yaml
     Flows:

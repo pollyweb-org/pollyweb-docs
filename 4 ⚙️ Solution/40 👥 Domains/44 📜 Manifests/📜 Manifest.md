@@ -4,7 +4,7 @@
 
 1. **How do domains publicize their identity?**
 
-    In NLWeb, [domains 👥](<../$ 👥 Domains/👥 Domain.md>) publish their metadata in the form a [domain Manifest 📜](<$ 📜 Domain Manifest.md>).
+    In NLWeb, [domains 👥](<../$ 👥 Domains/👥 Domain.md>) publish their metadata in the form a [domain Manifest 📜](<📜 Manifest.md>).
 
     ---
     <br/>
@@ -12,7 +12,7 @@
 
 1. **How can a domain inspect another domain's Manifest?**
 
-    [Domains 👥](<../$ 👥 Domains/👥 Domain.md>) leverage Manifest 📜 caches, called [Graph 🕸 domains](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>), that keep up-to-date representations of NLWeb [domain Manifests 📜](<$ 📜 Domain Manifest.md>).
+    [Domains 👥](<../$ 👥 Domains/👥 Domain.md>) leverage Manifest 📜 caches, called [Graph 🕸 domains](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>), that keep up-to-date representations of NLWeb [domain Manifests 📜](<📜 Manifest.md>).
     * Manifest queries to these [Graphs 🕸](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>) are synchronous and expected to have millisecond latency.
     * This is similar to what DNS records do for Web 2.0, but with a more complex data schema. 
 
@@ -24,7 +24,7 @@
 
     ![](<.📎 Assets/📜 Manifest.png>)
 
-    Each [domain 👥](<../$ 👥 Domains/👥 Domain.md>) sends the content of their [domain Manifests 📜](<$ 📜 Domain Manifest.md>) in parts or in full to a [Listener 👂 helper domain](<../../45 🛠️ Helper domains/60 👂 Listeners/👂🛠️ Listener helper.md>), who then propagates it to [Graph 🕸 domains](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>).
+    Each [domain 👥](<../$ 👥 Domains/👥 Domain.md>) sends the content of their [domain Manifests 📜](<📜 Manifest.md>) in parts or in full to a [Listener 👂 helper domain](<../../45 🛠️ Helper domains/60 👂 Listeners/👂🛠️ Listener helper.md>), who then propagates it to [Graph 🕸 domains](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>).
 
     |Step|Description
     |-|-
@@ -38,15 +38,15 @@
 
 1. **What information can be added to a Manifest?**
 
-    Manifests are defined by [`.MANIFEST` 🧩](<10 🧩 MANIFEST code.md>) and can include the following sections.
+    Manifests are defined by [`.MANIFEST` 🧩](<🧩 Manifest schemas/🧩 MANIFEST.md>) and can include the following sections.
 
     |Section|Purpose | Schemas
     |-|-|-
-    | 🤗 [Host About](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | Domain identification (mandatory). | [`./ABOUT` 🧩](<20 🧩 ABOUT code.md>) <br/>[`./TRANSLATION` 🧩](<21 🧩 TRANSLATION code.md>)
-    | 👍 [Domain Trusts](<../43 👍 Trusts/$ 👍 Domain Trust.md>) | Trusted domains, Codes, and roles. | [`./TRUST` 🧩](<50 🧩 TRUST code.md>)
-    |  🧩 [Schema Codes](<../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) | Defined by the domain. | [`./CODE` 🧩](<40 🧩 CODE code.md>) <br/>[`./CODE/SCHEMA` 🧩](<41 🧩 SCHEMA code.md>) <br/>[`./TRANSLATION` 🧩](<21 🧩 TRANSLATION code.md>)| Schema validation of a Code
-    |  🧩 [Delegated Codes](<../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) | Codes delegated to other domains. | [`./DELEGATE` 🧩](<30 🧩 DELEGATE code.md>)
-    | 🪢 [Integrations](<../../41 🎭 Domain Roles/35 🪢 Integrators/$ 🪢🎭 Integrator role.md>) |Synchronous datasets, <br/>asynchronous supplies, <br/>and streaming endpoints. | [`./OFFER` 🧩](<60 🧩 OFFER code.md>)
+    | 🤗 [Host About](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | Domain identification (mandatory). | [`./ABOUT` 🧩](<🧩 Manifest schemas/🧩 ABOUT.md>) <br/>[`./TRANSLATION` 🧩](<🧩 Manifest schemas/🧩 TRANSLATION.md>)
+    | 👍 [Domain Trusts](<../43 👍 Trusts/$ 👍 Domain Trust.md>) | Trusted domains, Codes, and roles. | [`./TRUST` 🧩](<🧩 Manifest schemas/🧩 TRUST.md>)
+    |  🧩 [Schema Codes](<../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) | Defined by the domain. | [`./CODE` 🧩](<🧩 Manifest schemas/🧩 CODE.md>) <br/>[`./CODE/SCHEMA` 🧩](<🧩 Manifest schemas/🧩 SCHEMA.md>) <br/>[`./TRANSLATION` 🧩](<🧩 Manifest schemas/🧩 TRANSLATION.md>)| Schema validation of a Code
+    |  🧩 [Delegated Codes](<../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) | Codes delegated to other domains. | [`./DELEGATE` 🧩](<🧩 Manifest schemas/🧩 DELEGATE.md>)
+    | 🪢 [Integrations](<../../41 🎭 Domain Roles/35 🪢 Integrators/$ 🪢🎭 Integrator role.md>) |Synchronous datasets, <br/>asynchronous supplies, <br/>and streaming endpoints. | [`./OFFER` 🧩](<🧩 Manifest schemas/🧩 OFFER.md>)
     | [Chat 💬 Flows](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) | To explain what user data is request.
 
     ---
