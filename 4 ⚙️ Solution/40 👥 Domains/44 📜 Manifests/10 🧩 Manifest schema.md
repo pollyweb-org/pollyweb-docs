@@ -10,8 +10,8 @@
 | Property | Type | Notes
 |-|-|-
 | [`Identity` 🧩](<14 🧩 IDENTITY schema.md>) | object | [Domain 👥](<../41 📨 Messages/00 👥 Domain.md>) identification
-| [`Datasets` 🧩](<15 🧩 Offer schema.md>)  | array | Optional services offered
-| [`Trusts` 🧩](<17 🧩 Trust schema.md>)   | array | Optional [Trusted 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>) domains and roles
+| [`Datasets` 🧩](<15 🧩 OFFER schema.md>)  | array | Optional services offered
+| [`Trusts` 🧩](<17 🧩 TRUST schema.md>)   | array | Optional [Trusted 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>) domains and roles
 | [`Codes` 🧩](<11 🧩 CODE schema.md>)     | array | Optional [Schema Codes 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) defined
 | [`Delegates` 🧩](<13 🧩 DELEGATE schema.md>) | array | Optional [Schema Codes 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) delegated
 |

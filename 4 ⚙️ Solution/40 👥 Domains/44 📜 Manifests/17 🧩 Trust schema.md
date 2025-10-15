@@ -45,7 +45,7 @@
 || `INHERIT` | Inherits all revokes from a [Firewall 🔥 domain](<../43 👍 Trusts/03 🔥🛠️ Firewall helper.md>).
 |
   
-* Note: When a [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) is removed from [`.MANIFEST/TRUSTS`](<17 🧩 Trust schema.md>), 
+* Note: When a [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) is removed from [`.MANIFEST/TRUSTS`](<17 🧩 TRUST schema.md>), 
     * domains should explicitly inform the `REVOKE`;
     * otherwise, it might not be propagated by [Graph 🕸 domains](<../45 👂 Backbone/03 🕸🛠️ Graph helper.md>).
 
@@ -54,7 +54,7 @@
 
 ## Defaults
 
-* Inherit from [Firewall 🔥 domains](<../../40 👥 Domains/43 👍 Trusts/03 🔥🛠️ Firewall helper.md>) the revokes to malicious domains. 
+* Inherit from [Firewall 🔥 domains](<../43 👍 Trusts/03 🔥🛠️ Firewall helper.md>) the revokes to malicious domains. 
   ```yaml
   - Action: INHERIT
     Domain: any-firewall.org
