@@ -2,7 +2,7 @@
 
 > Part of [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>)
 
-> Related to [Host Inform ⏩ flow](<../../5 ⏩ Flows/20 💼⏩ Consumers/02 💼⏩🧑‍🦰 Inform 📝.md>) 
+> Related to [Host Inform ⏩ flow](<../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/02 💼⏩🧑‍🦰 Inform 📝.md>) 
 
   
 <br/>
@@ -12,7 +12,7 @@
     An `INFORM`
     * is a message [Command ⌘](<../40 🌊 Talker flows/10 ⌘ Command.md>) 
     * that informs that a new form is starting
-    * by triggering the [Host Inform ⏩ flow](<../../5 ⏩ Flows/20 💼⏩ Consumers/02 💼⏩🧑‍🦰 Inform 📝.md>)
+    * by triggering the [Host Inform ⏩ flow](<../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/02 💼⏩🧑‍🦰 Inform 📝.md>)
     * and passing the form key in the Host's [Manifest 📜](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>).
 
 
