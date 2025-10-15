@@ -3,7 +3,7 @@
 > Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<31 🤗⏩🧑‍🦰 Prompt 🤔 flow.md>) flow
 
 > Signature of the [Message 📨](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>):
-> <br>• signed with the `PrivateKey` from [`Converse@Notifier`](<../../20 🧑‍🦰 UI/02 📣 Notifiers/📣🅰️ Notifier methods/02 📣💬🅰️ Chats/21 🤵🐌📣 Converse.md>)
+> <br>• signed with the `PrivateKey` from [`Converse@Notifier`](<../../20 🧑‍🦰 UI/02 📣 Notifiers/📣🅰️ Notifier methods/2 💬 Chats/1 🤵🐌📣 Converse.md>)
 > <br>• verified with the `PublicKey` from [`Hello@Host`](<51 🤵🐌🤗 Hello@Host.md>)
 
 * Downloads the content of a [Prompt 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>).
@@ -27,10 +27,10 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header    | `From`        | string    | `Anonymous`
-|           | `To`          | string    | [Sender 🤗](<$ 🤗🎭 Host role.md>) from [`Prompt@Notifier`](<../../20 🧑‍🦰 UI/02 📣 Notifiers/📣🅰️ Notifier methods/02 📣💬🅰️ Chats/21 🤵🐌📣 Prompt.md>)
+|           | `To`          | string    | [Sender 🤗](<$ 🤗🎭 Host role.md>) from [`Prompt@Notifier`](<../../20 🧑‍🦰 UI/02 📣 Notifiers/📣🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
 |           | `Subject`     | string    | `Prompted@Host`
-| Body      | `ChatID` | uuid | [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID from [`Prompt@Notifier`](<../../20 🧑‍🦰 UI/02 📣 Notifiers/📣🅰️ Notifier methods/02 📣💬🅰️ Chats/21 🤵🐌📣 Prompt.md>)
-|| `PromptID`    | uuid      | [Prompt 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) ID from [`Prompt@Notifier`](<../../20 🧑‍🦰 UI/02 📣 Notifiers/📣🅰️ Notifier methods/02 📣💬🅰️ Chats/21 🤵🐌📣 Prompt.md>)
+| Body      | `ChatID` | uuid | [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID from [`Prompt@Notifier`](<../../20 🧑‍🦰 UI/02 📣 Notifiers/📣🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
+|| `PromptID`    | uuid      | [Prompt 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) ID from [`Prompt@Notifier`](<../../20 🧑‍🦰 UI/02 📣 Notifiers/📣🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
 |
 
 <br/>

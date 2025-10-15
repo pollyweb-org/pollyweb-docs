@@ -35,7 +35,7 @@ Body:
 |Header|`From`|string | [Broker 🤵 domain](<../../../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) name
 ||`To`|string| [Notifier 📣 domain](<../../📣 Notifier domain.md>) name
 ||`Subject`|string|`Prompt@Notifier`
-|Body  |`WalletID` |uuid  | [Wallet 🧑‍🦰](<../../../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) ID from [`Converse@Notifier`](<21 🤵🐌📣 Converse.md>)
+|Body  |`WalletID` |uuid  | [Wallet 🧑‍🦰](<../../../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) ID from [`Converse@Notifier`](<1 🤵🐌📣 Converse.md>)
 |      |`ChatID`  |uuid  | [Chat 💬](<../../../12 💬 Chats/$ 💬 Chat.md>) ID from [`Prompt@Broker`](<../../../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/03 🤗🐌🤵 Prompt.md>)
 |      |`PromptID`|uuid  | [Prompt 🤔](<../../../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) ID from [`Prompt@Broker`](<../../../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/03 🤗🐌🤵 Prompt.md>)
 |      |`Sender`  |string| [Host 🤗](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) from [`Prompt@Broker`](<../../../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/03 🤗🐌🤵 Prompt.md>)
