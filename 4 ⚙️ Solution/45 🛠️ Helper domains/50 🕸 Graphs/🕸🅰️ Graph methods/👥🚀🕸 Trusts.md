@@ -2,7 +2,7 @@
 <!-- Docs: https://quip.com/hgz4A3clvOes#temp:C:bDA71b470c7a4c446e5b43adea7e -->
 <!-- Code: https://github.com/jorgemjfonseca/domain-trust-framework/blob/9a3c5abe16dda8cbacd2529bc859fd9d708f85d9/python/backbone/graph/GRAPH.py#L279 -->
 
-# 👥🚀🕸 Trusts @ [Graph](<../$ 🕸🛠️ Graph helper.md>)
+# 👥🚀🕸 Trusts @ [Graph](<../🕸🛠️ Graph helper.md>)
 
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 
@@ -13,7 +13,7 @@
   * as defined in the [`.MANIFEST/TRUST` 🧩](<../../../40 👥 Domains/44 📜 Manifests/50 🧩 TRUST code.md>) part
   * of [domain Manifests 📜](<../../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>).
 
-* Similar to [`Trusted@Graph`](<02 👥🚀🕸 Trusted.md>), 
+* Similar to [`Trusted@Graph`](<👥🚀🕸 Trusted.md>), 
   * but for verification by another [domain 👥](<../../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>).
   
 * Used in:
@@ -42,7 +42,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header| `From`    | string | The name of the sender [domain 👥](<../../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>)
-|       | `To`      | string | [Graph 🕸 domain](<../$ 🕸🛠️ Graph helper.md>) name
+|       | `To`      | string | [Graph 🕸 domain](<../🕸🛠️ Graph helper.md>) name
 |       | `Subject` | string | `Trusts@Graph`
 | Body  | `Truster` | string | The name of the [domain 👥](<../../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) trusting
 |       | `Trusted` | string | The name of the [domain 👥](<../../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) to be trusted

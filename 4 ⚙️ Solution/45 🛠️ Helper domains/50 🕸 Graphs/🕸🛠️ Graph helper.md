@@ -3,18 +3,18 @@
 
 1. **What is a Graph domain in NLWeb?**
 
-    A [Graph 🕸 domain](<$ 🕸🛠️ Graph helper.md>) is 
-    * any [Helper 🛠️ domain](<../../45 🛠️ Helper domains/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) 
+    A [Graph 🕸 domain](<🕸🛠️ Graph helper.md>) is 
+    * any [Helper 🛠️ domain](<../$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) 
     * that subscribes to [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) change events from [Listener 👂 domains](<../60 👂 Listeners/$ 👂🛠️ Listener helper.md>)
     * then builds network representations of [Trust 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) relationships between [domains 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>)
-    * including indirect relationships via [Authority 🏛️ domains](<../../45 🛠️ Helper domains/14 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>). 
+    * including indirect relationships via [Authority 🏛️ domains](<../14 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>). 
 
     ---
     <br/>
 
 1. **What can domains use Graphs for?**
 
-    [Graph 🕸 domains](<$ 🕸🛠️ Graph helper.md>) can answer the following questions synchronously from any [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>).
+    [Graph 🕸 domains](<🕸🛠️ Graph helper.md>) can answer the following questions synchronously from any [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>).
 
     |Scope&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Question
     |-|-
@@ -35,13 +35,13 @@
 
     ![](<.📎 Assets/📜 Graphs.png>)
 
-    [Graph 🕸 domains](<$ 🕸🛠️ Graph helper.md>) subscribe to changes in [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>). 
+    [Graph 🕸 domains](<🕸🛠️ Graph helper.md>) subscribe to changes in [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>). 
 
     - Domains have the responsibility to raise an event every time they publish a new version of their [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) or [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>). 
     
-    - To allow any graph to subscribe to changes in any [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>), NLWeb provides a cluster of [Listener 👂 nodes](<../60 👂 Listeners/$ 👂🛠️ Listener helper.md>) for [domains 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) to publish change notifications to, and for [Graph 🕸 domains](<$ 🕸🛠️ Graph helper.md>) to receive notifications from. 
+    - To allow any graph to subscribe to changes in any [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>), NLWeb provides a cluster of [Listener 👂 nodes](<../60 👂 Listeners/$ 👂🛠️ Listener helper.md>) for [domains 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) to publish change notifications to, and for [Graph 🕸 domains](<🕸🛠️ Graph helper.md>) to receive notifications from. 
     
-    - Upon receiving a notification, [Graph 🕸 domains](<$ 🕸🛠️ Graph helper.md>) update their graph representations. 
+    - Upon receiving a notification, [Graph 🕸 domains](<🕸🛠️ Graph helper.md>) update their graph representations. 
 
     ---
     <br/>
@@ -50,7 +50,7 @@
 
     No. NLWeb doesn't use ledgers nor [decentralized identifiers (DIDs) 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/03 🛂 Travel ID landscape/10 📺 W3C VC Ledgers.md>). 
     * Instead of DIDs, NLWeb uses DNS and the web's Public Key Infrastructure (PKI) to identify domains — thus, it doesn't need an additional database for registration and discovery. 
-    * [Graph 🕸 domains](<$ 🕸🛠️ Graph helper.md>) are cached representations of the NLWeb, contributing to maximizing performance, resilience, and onboarding.
+    * [Graph 🕸 domains](<🕸🛠️ Graph helper.md>) are cached representations of the NLWeb, contributing to maximizing performance, resilience, and onboarding.
 
     ---
     <br/>
@@ -60,21 +60,21 @@
 
     To reset their [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>):
     * a [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) can send a RESET event to their [Listener 👂 helper domain](<../60 👂 Listeners/$ 👂🛠️ Listener helper.md>);
-    * subscribed [Graph 🕸 domains](<$ 🕸🛠️ Graph helper.md>) will interpret it as the need to start from scratch.
+    * subscribed [Graph 🕸 domains](<🕸🛠️ Graph helper.md>) will interpret it as the need to start from scratch.
 
     ---
     <br/>
 
 1. **What if an event references an unknown Schema Code?**
 
-    [Graph 🕸 domains](<$ 🕸🛠️ Graph helper.md>) will place the change on hold until the referenced [Schema Code 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) is available.
+    [Graph 🕸 domains](<🕸🛠️ Graph helper.md>) will place the change on hold until the referenced [Schema Code 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) is available.
 
     ---
     <br/>
 
 1. **How can domains know about Manifest events placed on hold?**
 
-    [Graph 🕸 domains](<$ 🕸🛠️ Graph helper.md>) raise alert events. 
+    [Graph 🕸 domains](<🕸🛠️ Graph helper.md>) raise alert events. 
     - Interested domains should [subscribe 🔔](<../../41 🎭 Domain Roles/76 🔔 Subscribers/$ 🔔🎭 Subscriber role.md>) to the Graph's [Streamer 🌬️ role](<../../41 🎭 Domain Roles/75 🌬️ Streamers/$ 🌬️🎭 Streamer role.md>), filtering the [domains 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) they're interested in receiving alert notifications about. 
     - For privacy reasons, some security alerts may only be pushed to the [Subscriber 🔔 domain](<../../41 🎭 Domain Roles/76 🔔 Subscribers/$ 🔔🎭 Subscriber role.md>) that is referenced in the alert.
 
@@ -83,7 +83,7 @@
 
 1. **How is a new NLWeb trust graph populated?**
 
-    Whenever a new [Graph 🕸 domain](<$ 🕸🛠️ Graph helper.md>) is "born", 
+    Whenever a new [Graph 🕸 domain](<🕸🛠️ Graph helper.md>) is "born", 
     * it can ask a [Listener 👂 domain](<../60 👂 Listeners/$ 👂🛠️ Listener helper.md>) 
     * to replay the last change notification 
     * of every domain path
@@ -99,7 +99,7 @@
     
     * When [Issuer 🎴 domains](<../../41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) rotate their [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>), it is no longer possible for [Consumer 💼 domains](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) to validate old [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) with the new [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>).
 
-    * Instead, [Consumer 💼 domains](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) should ask a [Graph 🕸 domain](<$ 🕸🛠️ Graph helper.md>) for the Issuer's [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>) at the time the [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) was issued.
+    * Instead, [Consumer 💼 domains](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) should ask a [Graph 🕸 domain](<🕸🛠️ Graph helper.md>) for the Issuer's [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>) at the time the [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) was issued.
 
     ---
     <br/>
@@ -109,14 +109,14 @@
 
     |Method|Description
     |-|-
-    |[👥🚀 Trusted](<🕸🅰️ Graph methods/02 👥🚀🕸 Trusted.md>) | Can I trust that other domain?
-    |[👥🚀 Trusts](<🕸🅰️ Graph methods/03 👥🚀🕸 Trusts.md>) | Do these  domains trust each other? 
-    |[👥🚀 Identity](<🕸🅰️ Graph methods/04 👥🚀🕸 Identity.md>) | Return the identity of a domain.
-    |[👥🚀 Queryable](<🕸🅰️ Graph methods/05 👥🚀🕸 Queryable.md>) | Select only the trustable codes.
-    |[👥🚀 Translate](<🕸🅰️ Graph methods/06 👥🚀🕸 Translate.md>) | Translate these domains and codes.
-    |[👥🚀 Public Key](<🕸🅰️ Graph methods/07 👥🚀🕸 Public Key.md>) | What was the DKIM at this date?
-    |[👥🚀 Schema](<🕸🅰️ Graph methods/08 👥🚀🕸 Schema.md>) | What's the schema of this code?
-    |[👥🚀 Offer](<🕸🅰️ Graph methods/09 👥🚀🕸 Offer.md>) | Detail this domain offer.
+    |[👥🚀 Trusted](<🕸🅰️ Graph methods/👥🚀🕸 Trusted.md>) | Can I trust that other domain?
+    |[👥🚀 Trusts](<🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>) | Do these  domains trust each other? 
+    |[👥🚀 Identity](<🕸🅰️ Graph methods/👥🚀🕸 Identity.md>) | Return the identity of a domain.
+    |[👥🚀 Queryable](<🕸🅰️ Graph methods/👥🚀🕸 Queryable.md>) | Select only the trustable codes.
+    |[👥🚀 Translate](<🕸🅰️ Graph methods/👥🚀🕸 Translate.md>) | Translate these domains and codes.
+    |[👥🚀 Public Key](<🕸🅰️ Graph methods/👥🚀🕸 Public Key.md>) | What was the DKIM at this date?
+    |[👥🚀 Schema](<🕸🅰️ Graph methods/👥🚀🕸 Schema.md>) | What's the schema of this code?
+    |[👥🚀 Offer](<🕸🅰️ Graph methods/👥🚀🕸 Offer.md>) | Detail this domain offer.
     
     ---
     <br/>

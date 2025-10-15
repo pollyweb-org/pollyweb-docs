@@ -18,7 +18,7 @@
 |2| [🧑‍🦰👉💼 Share Token 🎫](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token 🎫.md>) | Users share [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) with [Consumers 💼](<$ 💼🎭 Consumer role.md>) 
 |3| [🎴🐌🤵 `Revise@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/50 🤵🅰️ Tokens 🎫/52 🎴🐌🤵 Revise.md>) | Async update of the status of a [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>)
 |4| [💼🚀🤵 `Status@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/62 💼🚀🤵 Status.md>) | Anonymously, verify [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) statuses
-|5| [👥🚀🕸 `Trusts@Graph`](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/03 👥🚀🕸 Trusts.md>) | Verify if [Consumers 💼](<$ 💼🎭 Consumer role.md>) are [Trustworthy 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>)
+|5| [👥🚀🕸 `Trusts@Graph`](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>) | Verify if [Consumers 💼](<$ 💼🎭 Consumer role.md>) are [Trustworthy 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>)
 |
 
 <br/>
