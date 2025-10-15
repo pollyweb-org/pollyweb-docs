@@ -38,15 +38,15 @@
 
 1. **What information can be added to a Manifest?**
 
-    Manifests are defined by [`.MANIFEST` 🧩](<10 🧩 MANIFEST schema.md>) and can include the following sections.
+    Manifests are defined by [`.MANIFEST` 🧩](<10 🧩 MANIFEST code.md>) and can include the following sections.
 
     |Section|Purpose | Schemas
     |-|-|-
-    | 🤗 [Host Identity](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | Domain identification (mandatory). | [`./IDENTITY` 🧩](<14 🧩 IDENTITY schema.md>) <br/>[`./TRANSLATION` 🧩](<16 🧩 TRANSLATION schema.md>)
-    | 👍 [Domain Trusts](<../43 👍 Trusts/01 👍 Domain Trust.md>) | Trusted domains, Codes, and roles. | [`./TRUST` 🧩](<17 🧩 TRUST schema.md>)
-    |  🧩 [Schema Codes](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) | Defined by the domain. | [`./CODE` 🧩](<11 🧩 CODE schema.md>) <br/>[`./CODE/SCHEMA` 🧩](<12 🧩 SCHEMA schema.md>) <br/>[`./TRANSLATION` 🧩](<16 🧩 TRANSLATION schema.md>)| Schema validation of a Code
-    |  🧩 [Delegated Codes](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) | Codes delegated to other domains. | [`./DELEGATE` 🧩](<13 🧩 DELEGATE schema.md>)
-    | 🪢 [Integrations](<../../20 🧑‍🦰 UI/12 💬 Chats/06 🪢🎭 Integrator role.md>) |Synchronous datasets, <br/>asynchronous supplies, <br/>and streaming endpoints. | [`./OFFER` 🧩](<15 🧩 OFFER schema.md>)
+    | 🤗 [Host Identity](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | Domain identification (mandatory). | [`./IDENTITY` 🧩](<14 🧩 IDENTITY code.md>) <br/>[`./TRANSLATION` 🧩](<16 🧩 TRANSLATION code.md>)
+    | 👍 [Domain Trusts](<../43 👍 Trusts/01 👍 Domain Trust.md>) | Trusted domains, Codes, and roles. | [`./TRUST` 🧩](<17 🧩 TRUST code.md>)
+    |  🧩 [Schema Codes](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) | Defined by the domain. | [`./CODE` 🧩](<11 🧩 CODE code.md>) <br/>[`./CODE/SCHEMA` 🧩](<12 🧩 SCHEMA code.md>) <br/>[`./TRANSLATION` 🧩](<16 🧩 TRANSLATION code.md>)| Schema validation of a Code
+    |  🧩 [Delegated Codes](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) | Codes delegated to other domains. | [`./DELEGATE` 🧩](<13 🧩 DELEGATE code.md>)
+    | 🪢 [Integrations](<../../20 🧑‍🦰 UI/12 💬 Chats/06 🪢🎭 Integrator role.md>) |Synchronous datasets, <br/>asynchronous supplies, <br/>and streaming endpoints. | [`./OFFER` 🧩](<15 🧩 OFFER code.md>)
     | [Chat 💬 Flows](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) | To explain what user data is request.
 
     ---

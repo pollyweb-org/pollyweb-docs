@@ -1,7 +1,7 @@
 
-# [🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) [`.MANIFEST`](<10 🧩 MANIFEST schema.md>) `/TRUST`
+# [🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) [`.MANIFEST`](<10 🧩 MANIFEST code.md>) `/TRUST`
 
-> Part of [`.MANIFEST` 🧩](<10 🧩 MANIFEST schema.md>)
+> Part of [`.MANIFEST` 🧩](<10 🧩 MANIFEST code.md>)
 
 > Implements [domain Manifest 📜](<01 📜 Domain Manifest.md>) 
   
@@ -45,7 +45,7 @@
 || `INHERIT` | Inherits all revokes from a [Firewall 🔥 domain](<../43 👍 Trusts/03 🔥🛠️ Firewall helper.md>).
 |
   
-* Note: When a [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) is removed from [`.MANIFEST/TRUSTS`](<17 🧩 TRUST schema.md>), 
+* Note: When a [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) is removed from [`.MANIFEST/TRUSTS`](<17 🧩 TRUST code.md>), 
     * domains should explicitly inform the `REVOKE`;
     * otherwise, it might not be propagated by [Graph 🕸 domains](<../45 👂 Backbone/03 🕸🛠️ Graph helper.md>).
 
@@ -72,7 +72,7 @@
 
 ## Definition 
 
-> 🤝: [`.MANIFEST/CODE`](<11 🧩 CODE schema.md>)
+> 🤝: [`.MANIFEST/CODE`](<11 🧩 CODE code.md>)
 
 ```yaml
 Path: /MANIFEST/TRUST
