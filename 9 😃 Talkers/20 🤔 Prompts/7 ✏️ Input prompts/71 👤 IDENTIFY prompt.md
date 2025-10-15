@@ -40,7 +40,7 @@
     <br/>
 
 
-1. **What's the response in the [Prompted@Host](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted@Host.md>) message?**
+1. **What's the response in the [Prompted@Host](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/50 🤗🅰️ Host/54 🧑‍🦰🚀🤗 Prompted@Host.md>) message?**
 
     ```yaml
     
@@ -49,7 +49,7 @@
     ---
     <br/>
 
-1. **What's the Answer in the [Reply@Host](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply@Host.md>) message?**
+1. **What's the Answer in the [Reply@Host](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/50 🤗🅰️ Host/55 🧑‍🦰🐌🤗 Reply@Host.md>) message?**
 
     ```yaml
     

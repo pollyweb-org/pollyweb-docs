@@ -6,7 +6,7 @@
 
 > Signature of the [Message 📨](<../../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>):
 > <br>• signed with the `PrivateKey` from [`Converse@Notifier`](<../../../../6 🅰️ APIs/65 📣🅰️ Notifier/02 📣💬🅰️ Chats/21 🤵🐌📣 Converse.md>)
-> <br>• verified with the `PublicKey` from [`Hello@Host`](<01 🤵🐌🤗 Hello@Host.md>)
+> <br>• verified with the `PublicKey` from [`Hello@Host`](<51 🤵🐌🤗 Hello@Host.md>)
 
 
 <br/>
