@@ -22,7 +22,7 @@
 
 1. **How does it work?**
 
-    ![](<00 📎 Assets/💍 Userable Pay Wallet.png>)
+    ![](<. 📎 Assets/💍 Userable Pay Wallet.png>)
 
     ---
     <br/>
