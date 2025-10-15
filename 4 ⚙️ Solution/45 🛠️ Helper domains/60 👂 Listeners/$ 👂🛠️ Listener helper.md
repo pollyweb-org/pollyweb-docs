@@ -60,7 +60,7 @@
 
 1. **What is contained in a Manifest-changed event?**
 
-    An event from a [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) about a [Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) change comes inside an [envelope 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) containing the following properties.
+    An event from a [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) about a [Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) change comes inside an [envelope 📨](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>) containing the following properties.
 
     |Property | Description
     |-|-

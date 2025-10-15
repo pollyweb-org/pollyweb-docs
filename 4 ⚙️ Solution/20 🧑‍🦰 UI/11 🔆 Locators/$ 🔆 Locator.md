@@ -85,7 +85,7 @@
 
     Given that the [Wallet's Broker 🤵 domain](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) serves as a protector, user can trust its mechanism to protect them from [phishing sites 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/06 📺 QR phishing.md>), just like Google Chrome does with [SSL certificate validation 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/08 📺 Google's Risk API.md>) and other phishing detection/blocking features - these mechanisms include:
 
-    - [Messages 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) can only flow through encrypted channels with cross-authentication of both sender and receiver domains;
+    - [Messages 📨](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>) can only flow through encrypted channels with cross-authentication of both sender and receiver domains;
     - Data exchange can only be performed between domains that publicly [Trust 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) one another or are trusted by mutually trusted [Authority 🏛️ domains](<../../45 🛠️ Helper domains/14 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>), following the principle of least-privilege;
     - User inputs can only be collected if the intention is clearly mentioned in a [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) subject to public scrutiny.
     

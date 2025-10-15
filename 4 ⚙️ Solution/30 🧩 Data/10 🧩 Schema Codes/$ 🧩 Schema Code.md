@@ -18,7 +18,7 @@
 
     | Schema Code | Purpose |
     |-|-
-    | [`.MSG` 🧩](<../../../7 🧩 Codes/$/🧩 MSG code.md>) | Schema of [Messages 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) 
+    | [`.MSG` 🧩](<../../../7 🧩 Codes/$/🧩 MSG code.md>) | Schema of [Messages 📨](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>) 
     | [`.TOKEN` 🧩](<../../../7 🧩 Codes/$/🧩 TOKEN code.md>) | Schema of [Tokens 🎫](<../30 🎫 Tokens/$ 🎫 Token.md>)
     | [`unicode.org/FLAG` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 unicode.any-igo.org.md>) | Flags for country [Prompts 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>)
     | [`locale.org/TERRITORY` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 locale.any-igo.org.md>) | Country names for [Prompts 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>)
@@ -70,7 +70,7 @@
     | Expectation | Behavior |
     |-|-
     | [📜 Manifest](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>)  | When a version is omitted in the [Schema Code 🧩](<$ 🧩 Schema Code.md>) in its [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) definition, then it is assumed to be `1.0`.
-    | [📨 Message](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) | When a version is omitted in a [domain Messages 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>), then it is also assumed to be `1.0`.
+    | [📨 Message](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>) | When a version is omitted in a [domain Messages 📨](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>), then it is also assumed to be `1.0`.
     | [🕸 Graph](<../../45 🛠️ Helper domains/50 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) | When a version is omitted when calling [`Schema@Graph`](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>), then the [🕸 Graph](<../../45 🛠️ Helper domains/50 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) returns the latest version.
 
     ---

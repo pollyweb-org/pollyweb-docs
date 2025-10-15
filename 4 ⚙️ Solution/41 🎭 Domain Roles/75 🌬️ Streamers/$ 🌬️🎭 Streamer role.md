@@ -79,7 +79,7 @@
 
 1. **How to prevent Buffers from spoofing the events?**
 
-    To avoid spoofing, [Streamer 🌬️ domains](<$ 🌬️🎭 Streamer role.md>) encrypt the event content with the [DKIM public key 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) of the [Subscriber 🔔 domain](<../76 🔔 Subscribers/$ 🔔🎭 Subscriber role.md>) before sending it to the Subscriber's [Buffer ⏳ helper domain](<../../45 🛠️ Helper domains/27 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>).
+    To avoid spoofing, [Streamer 🌬️ domains](<$ 🌬️🎭 Streamer role.md>) encrypt the event content with the [DKIM public key 📨](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>) of the [Subscriber 🔔 domain](<../76 🔔 Subscribers/$ 🔔🎭 Subscriber role.md>) before sending it to the Subscriber's [Buffer ⏳ helper domain](<../../45 🛠️ Helper domains/27 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>).
 
     ---
     <br/>

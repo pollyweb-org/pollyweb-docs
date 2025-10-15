@@ -22,7 +22,7 @@
     |[👍 Trusts](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) | Can I trust the data of [Schema 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) `S` sent by [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) `D`?
     |[👍 Trusts](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) | Can I trust my data of [Schema 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) `S` to a [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) `D`?
     | [🧩 Schemas](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) | What's the schema definition of [Schema Code 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) `S`?
-    | [🎫 Tokens](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) | What's the historical public [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) key of [🎫 Token](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) `T`?
+    | [🎫 Tokens](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) | What's the historical public [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>) key of [🎫 Token](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) `T`?
     | [🪣 Datasets](<../../41 🎭 Domain Roles/28 🪣 Datasets/$ 🪣🎭 Dataset role.md>) | What are the synchronous [Datasets 🪣](<../../41 🎭 Domain Roles/28 🪣 Datasets/$ 🪣🎭 Dataset role.md>) of [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) `D`?
     | [🏭 Supplies](<../../41 🎭 Domain Roles/78 🏭 Suppliers/$ 🏭🎭 Supplier role.md>) | What are the asynchronous [Supplies 🏭](<../../41 🎭 Domain Roles/78 🏭 Suppliers/$ 🏭🎭 Supplier role.md>) of [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) `D`?
     | [🌬️ Streams](<../../41 🎭 Domain Roles/75 🌬️ Streamers/$ 🌬️🎭 Streamer role.md>) | What are the event [Streams 🌬️](<../../41 🎭 Domain Roles/75 🌬️ Streamers/$ 🌬️🎭 Streamer role.md>) of [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) `D`?
@@ -37,7 +37,7 @@
 
     [Graph 🕸 domains](<$ 🕸🛠️ Graph helper.md>) subscribe to changes in [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>). 
 
-    - Domains have the responsibility to raise an event every time they publish a new version of their [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) or [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>). 
+    - Domains have the responsibility to raise an event every time they publish a new version of their [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) or [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>). 
     
     - To allow any graph to subscribe to changes in any [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>), NLWeb provides a cluster of [Listener 👂 nodes](<../60 👂 Listeners/$ 👂🛠️ Listener helper.md>) for [domains 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) to publish change notifications to, and for [Graph 🕸 domains](<$ 🕸🛠️ Graph helper.md>) to receive notifications from. 
     
@@ -95,11 +95,11 @@
 
 1. **How do Graphs support the verification of Tokens?**
 
-    [Issuer 🎴 domains](<../../41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) sign [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) with their active [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) key-pair. 
+    [Issuer 🎴 domains](<../../41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) sign [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) with their active [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>) key-pair. 
     
-    * When [Issuer 🎴 domains](<../../41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) rotate their [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>), it is no longer possible for [Consumer 💼 domains](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) to validate old [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) with the new [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>).
+    * When [Issuer 🎴 domains](<../../41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) rotate their [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>), it is no longer possible for [Consumer 💼 domains](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) to validate old [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) with the new [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>).
 
-    * Instead, [Consumer 💼 domains](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) should ask a [Graph 🕸 domain](<$ 🕸🛠️ Graph helper.md>) for the Issuer's [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) at the time the [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) was issued.
+    * Instead, [Consumer 💼 domains](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) should ask a [Graph 🕸 domain](<$ 🕸🛠️ Graph helper.md>) for the Issuer's [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>) at the time the [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) was issued.
 
     ---
     <br/>

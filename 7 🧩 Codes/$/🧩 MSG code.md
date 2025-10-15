@@ -1,7 +1,7 @@
 
 # [🧩](<../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) [Schema Code](<../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>): Mgs
 
-> Schema of a [domain Message 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>)
+> Schema of a [domain Message 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>)
 
 <br/>
 
