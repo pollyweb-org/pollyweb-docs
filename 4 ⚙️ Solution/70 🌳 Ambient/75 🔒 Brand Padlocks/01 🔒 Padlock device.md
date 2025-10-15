@@ -11,7 +11,7 @@
 
     Padlocks use passive NFC emulation to wait for a contact from an active NFC scanner on a [🔑 KeyHolder](<02 🔑💠 Keyholder device.md>).
 
-    ![](<00 📎 Assets/🔒 Padlock.png>)
+    ![](<. 📎 Assets/🔒 Padlock.png>)
 
     ---
 
@@ -66,7 +66,7 @@
 
 1. **How do Padlocks directly open a physical lock?**
 
-    ![](<00 📎 Assets/🔒 Padlock$Briefcase.png>)
+    ![](<. 📎 Assets/🔒 Padlock$Briefcase.png>)
 
     To directly open a lock: 
     - the Padlock uses its power to mechanically move the lock;
@@ -77,7 +77,7 @@
 
 1. **How do Padlocks indirectly open an external lock?**
 
-    ![](<00 📎 Assets/🔒 Padlock$Door.png>)
+    ![](<. 📎 Assets/🔒 Padlock$Door.png>)
 
     To indirectly open a lock: 
     - the Padlock acts like a relay by sending a low-voltage signal to an external electrical lock, typically connected to the electric grid;

@@ -164,7 +164,7 @@
     | **🖨️ Paper**| Ask the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) to print it on paper.
     | **📱 Phone** | Screenshot and store it as an image on a device.
     | **[💍 Userable](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>)** | Add it to a [Userable 💍 thing](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) via the user's [Custodian 🧳 vault](<../../50 🫥 Agents/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>).
-    | **[⌚ Tapband ](<../../70 🌳 Ambient/76 ⌚ Brand Tapbands/01 ⌚💠 Tapband thing.md>)** | Add it to a [Tapband ⌚ thing](<../../70 🌳 Ambient/76 ⌚ Brand Tapbands/01 ⌚💠 Tapband thing.md>) via the user's [Custodian 🧳 vault](<../../50 🫥 Agents/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>).
+    | **[⌚ Tapband ](<../../70 🌳 Ambient/76 ⌚ Brand Tapbands/$ ⌚💠 Tapband thing.md>)** | Add it to a [Tapband ⌚ thing](<../../70 🌳 Ambient/76 ⌚ Brand Tapbands/$ ⌚💠 Tapband thing.md>) via the user's [Custodian 🧳 vault](<../../50 🫥 Agents/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>).
 
     ---
     <br/>

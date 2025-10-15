@@ -1,7 +1,7 @@
 ⌚ Tapband device
 ===
 
-![](<00 📎 Assets/⌚ Tapband.png>)
+![](<. 📎 Assets/⌚ Tapband.png>)
 
 1. **What is a Tapband?**
 

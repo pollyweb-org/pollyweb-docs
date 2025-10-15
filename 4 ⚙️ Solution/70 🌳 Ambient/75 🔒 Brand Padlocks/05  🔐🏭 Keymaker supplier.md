@@ -1,7 +1,7 @@
 🔐 Keymaker domain
 ===
 
-![](<00 📎 Assets/🔒 Keymaker.png>)
+![](<. 📎 Assets/🔒 Keymaker.png>)
 
 1. **What is a Keymaker domain helper?**
 
