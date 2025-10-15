@@ -28,7 +28,7 @@ Body:
 | Object| Property | Type | Description
 |-|-|-|-
 | Header    | `From`        | uuid | `Clone` from [`Clone@`](<10 🔃🚀🗃️ Clone.md>) 
-|           | `To`          | string    | [Resourcer 🗃️](<../../9 😃 Talkers/90 ☁️ Hosters/02 🗃️🎭 Resourcer role.md>) from [`Clone@`](<10 🔃🚀🗃️ Clone.md>) 
+|           | `To`          | string    | [Resourcer 🗃️](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/02 🗃️🎭 Resourcer role.md>) from [`Clone@`](<10 🔃🚀🗃️ Clone.md>) 
 |           | `Subject`     | string    | `Map@Resourcer`
 | Body      | `Files`       | dict | Dictionary of local files
 | File      | `Hash`        | string | Hashed with [`Clone@`](<10 🔃🚀🗃️ Clone.md>) hash
