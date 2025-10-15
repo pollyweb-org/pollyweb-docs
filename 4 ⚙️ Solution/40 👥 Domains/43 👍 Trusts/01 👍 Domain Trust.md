@@ -20,7 +20,7 @@
 
     [Trusts 👍](<01 👍 Domain Trust.md>) 
     * are defined in [domain Manifests 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>) 
-    * using the schema code [nlweb.org/MANIFEST/TRUST 🧩](<../44 📜 Manifests/17 🧩 Trust.md>).
+    * using the schema code [nlweb.org/MANIFEST/TRUST 🧩](<../44 📜 Manifests/17 🧩 Trust schema.md>).
 
     ```yaml
     # Trust example
