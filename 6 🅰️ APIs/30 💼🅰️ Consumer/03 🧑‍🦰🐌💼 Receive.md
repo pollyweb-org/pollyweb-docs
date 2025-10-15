@@ -2,7 +2,7 @@
 
 
 > Part of the [💼⏩🧑‍🦰 Share Token @ Consumer](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token 🎫.md>) flow:
-> <br/>• succeeds [`Share@Notifier`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/📣🅰️ Notifier methods/02 📣💬🅰️ Chats/22 🤵🐌📣 Share.md>)
+> <br/>• succeeds [`Share@Notifier`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/📣🅰️ Notifier methods/4 🎫 Tokens/2 🤵🐌📣 Share.md>)
 
 
 * [Wallet 🧑‍🦰 apps](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) send [Tokens 🎫](<../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) to a [Consumer 💼 domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>).
@@ -30,12 +30,12 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header| `From`    | string | `Anonymous`
-| | `To`| string | [Consumer 💼](<../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) from [`Share@Notifier`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/📣🅰️ Notifier methods/02 📣💬🅰️ Chats/22 🤵🐌📣 Share.md>)
+| | `To`| string | [Consumer 💼](<../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) from [`Share@Notifier`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/📣🅰️ Notifier methods/4 🎫 Tokens/2 🤵🐌📣 Share.md>)
 | | `Subject`| string | `Receive@Consumer`
-| Body | `ChatID` | string | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID from [`Share@Notifier`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/📣🅰️ Notifier methods/02 📣💬🅰️ Chats/22 🤵🐌📣 Share.md>)
+| Body | `ChatID` | string | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID from [`Share@Notifier`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/📣🅰️ Notifier methods/4 🎫 Tokens/2 🤵🐌📣 Share.md>)
 | | `Tokens`  | array | List of `Token` objects
-| Token |  `Issuer` | string | [Issuer 🎴](<../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) from [`Save@Notifier`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/📣🅰️ Notifier methods/04 📣🎫🅰️ Tokens/41 🤵🐌📣 Save.md>)
-| | `TokenID`| string | [Token 🎫](<../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) ID from [`Save@Notifier`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/📣🅰️ Notifier methods/04 📣🎫🅰️ Tokens/41 🤵🐌📣 Save.md>)
+| Token |  `Issuer` | string | [Issuer 🎴](<../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) from [`Save@Notifier`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/📣🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
+| | `TokenID`| string | [Token 🎫](<../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) ID from [`Save@Notifier`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/📣🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
 | | ... | ... | Other [Token 🎫](<../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) fields
 |
 

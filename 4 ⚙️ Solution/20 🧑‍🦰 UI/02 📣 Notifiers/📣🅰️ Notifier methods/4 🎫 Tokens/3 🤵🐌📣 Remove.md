@@ -20,5 +20,5 @@ Body:
 |Header|`From`|string | [Broker 🤵 domain](<../../../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) name
 ||`To`|string| [Notifier 📣 domain](<../../📣 Notifier domain.md>) name
 ||`Subject`|string|`Remove@Broker`
-|Body  |`Path`    |string| Path from [`Save@Notifier`](<41 🤵🐌📣 Save.md>)
+|Body  |`Path`    |string| Path from [`Save@Notifier`](<1 🤵🐌📣 Save.md>)
 |
