@@ -58,7 +58,7 @@ Steps:
 
 |Property|Type|Description
 |-|-|-
-| `Code` | string | [Schema Code 🧩](<../../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) for [`Query@Broker`](<../../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>)
+| `Code` | string | [Schema Code 🧩](<../../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) for [`Query@Broker`](<../../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>)
 | `Purpose` | string | Explication listed on [Prompt 🤔 details](<../../../../9 😃 Talkers/20 🤔 Prompts/1 📘 Prompt specs/03 ⊕ with Details.md>)
 |
 

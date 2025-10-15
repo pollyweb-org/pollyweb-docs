@@ -3,7 +3,7 @@
 
 1. **What is a Schema Code?**
 
-    A [Schema Code 🧩](<$ 🧩 Schema Code.md>) is a string 
+    A [Schema Code 🧩](<🧩 Schema Code.md>) is a string 
     * formatted as `{authority}/{code}[:{version}]`
     * e.g., `nlweb.org/HOST:1.0`
     * that points to a public data schema
@@ -29,11 +29,11 @@
 
 1. **What is contained in a Schema Code?**
 
-    The string of a [Schema Code 🧩](<$ 🧩 Schema Code.md>) is composed of the following parts.
+    The string of a [Schema Code 🧩](<🧩 Schema Code.md>) is composed of the following parts.
 
     |#| Part |  Description
     |-|-|-
-    |1| `domain` |  The [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) that published the [Schema Code 🧩](<$ 🧩 Schema Code.md>) in their [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>).
+    |1| `domain` |  The [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) that published the [Schema Code 🧩](<🧩 Schema Code.md>) in their [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>).
     |2| `code`    | A unique ID of the schema in the domain.
     |3| `version` | The optional version of the schema <br/>- formatted as `{major}.{minor}`.   
     |
@@ -69,7 +69,7 @@
 
     | Expectation | Behavior |
     |-|-
-    | [📜 Manifest](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>)  | When a version is omitted in the [Schema Code 🧩](<$ 🧩 Schema Code.md>) in its [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) definition, then it is assumed to be `1.0`.
+    | [📜 Manifest](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>)  | When a version is omitted in the [Schema Code 🧩](<🧩 Schema Code.md>) in its [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) definition, then it is assumed to be `1.0`.
     | [📨 Message](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>) | When a version is omitted in a [domain Messages 📨](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>), then it is also assumed to be `1.0`.
     | [🕸 Graph](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>) | When a version is omitted when calling [`Schema@Graph`](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Schema.md>), then the [🕸 Graph](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>) returns the latest version.
 
@@ -80,10 +80,10 @@
 1. **How are Schema Codes used in data sharing between domains?**
    
     When a [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) needs information stored in a [user's Vault 🗄️ domains](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>), 
-    * it invokes the [`Query@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) from the [user's Broker 🤵 domain](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>), asking for datasets that comply with a given [Schema Code 🧩](<$ 🧩 Schema Code.md>).
+    * it invokes the [`Query@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) from the [user's Broker 🤵 domain](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>), asking for datasets that comply with a given [Schema Code 🧩](<🧩 Schema Code.md>).
 
     For example, consider an airline requesting passport data for a flight check-in from a citizen with dual British and American nationalities:
-    * the airline may ask for the `icao.int/PASSPORT`  [Schema Code 🧩](<$ 🧩 Schema Code.md>)
+    * the airline may ask for the `icao.int/PASSPORT`  [Schema Code 🧩](<🧩 Schema Code.md>)
     * and receive datasets from the user's `uk.gov` and `usa.gov` [Binds 🔗](<../20 🔗 Binds/🔗 Bind.md>).
         ```yaml
         # Sample request to share user data.
@@ -105,7 +105,7 @@
 
     For resilience and performance, [domains 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) cannot read [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) directly from the source.
 
-    * Instead, [domains 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) need to query [Graph 🕸 domains](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>) for a schema definition, by passing the [Schema Code 🧩](<$ 🧩 Schema Code.md>) to the [`Schema@Graph`](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Schema.md>).
+    * Instead, [domains 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) need to query [Graph 🕸 domains](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>) for a schema definition, by passing the [Schema Code 🧩](<🧩 Schema Code.md>) to the [`Schema@Graph`](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Schema.md>).
 
         ```yaml
         # Sample request to read a schema.
@@ -124,7 +124,7 @@
 
     When YAML content starts with `🤝: {Schema Code}`,
     * e.g., `🤝:` [`.MANIFEST/CODE`](<../../40 👥 Domains/44 📜 Manifests/40 🧩 CODE code.md>)
-    * it means that the following YAML content should comply with the given [Schema Code 🧩](<$ 🧩 Schema Code.md>) defined.
+    * it means that the following YAML content should comply with the given [Schema Code 🧩](<🧩 Schema Code.md>) defined.
     * This allows readers to validate the YAML content by pulling the validation schema from the [`Schema@Graph`](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Schema.md>).
     
     ---
@@ -132,7 +132,7 @@
 
 1. **How do define a Schema in a Manifest?**
 
-    The instructions on how to add a [Schema Code 🧩](<$ 🧩 Schema Code.md>) to a [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) are themselves published as special [Schema Codes 🧩](<$ 🧩 Schema Code.md>):
+    The instructions on how to add a [Schema Code 🧩](<🧩 Schema Code.md>) to a [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) are themselves published as special [Schema Codes 🧩](<🧩 Schema Code.md>):
 
     | Schema | Description
     |-|-
@@ -147,7 +147,7 @@
 1. **Does nlweb.org define Schema Codes?**
 
     Yes. 
-    - The NLWeb protocol is supported by a set of [Schema Codes 🧩](<$ 🧩 Schema Code.md>) defined in the `nlweb.org` [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>). 
+    - The NLWeb protocol is supported by a set of [Schema Codes 🧩](<🧩 Schema Code.md>) defined in the `nlweb.org` [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>). 
     
     - This high-level manifest includes the schema definition for all communications explicitly supported by the core NLWeb protocol, but also a set of auxiliary schemas used to implement various business use cases. 
 

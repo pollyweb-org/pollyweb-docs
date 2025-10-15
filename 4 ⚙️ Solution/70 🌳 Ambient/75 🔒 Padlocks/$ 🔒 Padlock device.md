@@ -18,7 +18,7 @@
 1. **How does a Padlock decide when to open a lock?**
 
     Users' [🔑 KeyHolders](<../77 🔑 Keyholders/$ 🔑💠 Keyholder device.md>) first scan the Padlock, receiving an NFC response with Padlock's [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>), which contains:
-    - a fixed Padlock [Schema Code 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) identifier 
+    - a fixed Padlock [Schema Code 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) identifier 
     - the domain of the Padlock's [🔐 KeyMaker](<../../45 🛠️ Helper domains/58 🔐 Keymakers/05  🔐🏭 Keymaker supplier.md>) (e.g., `any-keymaker.com`) 
     - the resource key of the PadLock in the KeyMaker (e.g.,`padlock-12345678`)
     

@@ -21,7 +21,7 @@
 
     Messages from [domains 👥](<../$ 👥 Domains/$ 👥 Domain.md>) are sent in JSON envelopes similar to email messages. 
     
-    * The [Schema 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) is defined at [`nlweb.org/MSG 🧩`](<10 🧩 MSG code.md>).
+    * The [Schema 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) is defined at [`nlweb.org/MSG 🧩`](<10 🧩 MSG code.md>).
     * Consider the the following example, converted from JSON to YAML for readability.
 
     ```yaml
@@ -50,7 +50,7 @@
 
     |Property| Description
     |-|-
-    | `🤝` | The versioned [Schema Code 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) of the envelope.
+    | `🤝` | The versioned [Schema Code 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) of the envelope.
     | `From` | The name of the [domain 👥](<../$ 👥 Domains/$ 👥 Domain.md>) who sent the message.
     | `To`| The name of the [domain 👥](<../$ 👥 Domains/$ 👥 Domain.md>) for whom the message is intended.
     | `Correlation`| The unique ID in the sender, for deduping.
@@ -67,7 +67,7 @@
 
 1. **How do receiver domains handle upgraded schema versions?**
 
-    An NLWeb envelop contains a [Schema Code 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) that allows receivers to support multiple versions concurrently, handling incoming envelopes differently depending on its version;
+    An NLWeb envelop contains a [Schema Code 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) that allows receivers to support multiple versions concurrently, handling incoming envelopes differently depending on its version;
     - e.g., `🤝: nlweb.org/MSG:1.0`
     - Envelopes with unsupported versions are discarded.
 
@@ -282,7 +282,7 @@
     | Format | Rational
     |-|-
     | `JSON` | Structured JSON for machine-to-machine payloads, because it's faster and widely supported by cloud providers; e.g.: <br/>• [domain Messages 📨](<$ 📨 Domain Message.md>) between any two [domains 👥](<../$ 👥 Domains/$ 👥 Domain.md>), <br/>• data sharing between a [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) and a [Consumer 💼](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) domains, <br/>• payments between a [Payer 💳](<../../50 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) and a [Collector](<../../45 🛠️ Helper domains/30 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) domains.
-    | `YAML` | Structured YAML for human-to-machine settings, because it supports comments and it's easier for humans to read, while still supporting schema validations; <br/>• e.g.: [Schema Codes 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) and [domain Manifests 📜](<../44 📜 Manifests/$ 📜 Domain Manifest.md>).
+    | `YAML` | Structured YAML for human-to-machine settings, because it supports comments and it's easier for humans to read, while still supporting schema validations; <br/>• e.g.: [Schema Codes 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) and [domain Manifests 📜](<../44 📜 Manifests/$ 📜 Domain Manifest.md>).
     | `MARKDOWN` | Unstructured MARKDOWN for human-to-LLM instructions, when schema validations are not required; <br/>• e.g., description of products and services by business owners (like a detailed restaurant menu) for user [Curator 🧚 agents](<../../50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) to filter on behalf of users.
     
     ---

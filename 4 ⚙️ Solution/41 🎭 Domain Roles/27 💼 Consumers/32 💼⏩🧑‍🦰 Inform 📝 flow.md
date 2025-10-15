@@ -58,11 +58,11 @@ Forms:
 
 | # | Call | Description
 |-|-|-
-|1|[💼🐌🤵 `Query@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) | [Consumers 💼](<$ 💼🎭 Consumer role.md>) ask for [Schema Codes 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>)
+|1|[💼🐌🤵 `Query@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) | [Consumers 💼](<$ 💼🎭 Consumer role.md>) ask for [Schema Codes 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>)
 |2|[🤗⏩🧑‍🦰 Prompt 🤔](<../30 🤗 Hosts/31 🤗⏩🧑‍🦰 Prompt 🤔 flow.md>) | [Brokers 🤵](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) reject non-announced asks
 |3|[💼🐌🤵 `Inform@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/65 💼🐌🤵 Inform.md>) | [Consumers 💼](<$ 💼🎭 Consumer role.md>) inform the upcoming form 
-|4|[👥🚀🕸 `Form@Graph`](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Form.md>) | [Brokers 🤵](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) get the form [Schema Codes 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>)
+|4|[👥🚀🕸 `Form@Graph`](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Form.md>) | [Brokers 🤵](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) get the form [Schema Codes 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>)
 |5|[🤗⏩🧑‍🦰 Prompt 🤔](<../30 🤗 Hosts/31 🤗⏩🧑‍🦰 Prompt 🤔 flow.md>) | [Brokers 🤵](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) inform the user on the steps
-|6|[💼🐌🤵 `Query@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) | [Consumers 💼](<$ 💼🎭 Consumer role.md>) ask for [Schema Codes 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>)
+|6|[💼🐌🤵 `Query@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) | [Consumers 💼](<$ 💼🎭 Consumer role.md>) ask for [Schema Codes 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>)
 |7|[🤵🐌🗄️ `Disclose@Broker`](<../80 🗄️ Vaults/🗄️🅰️ Vault methods/🤵🐌🗄️ Disclose.md>) | [Brokers 🤵](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) ask [Vaults 🗄️](<../80 🗄️ Vaults/🗄️🎭 Vault role.md>) to disclose
 |

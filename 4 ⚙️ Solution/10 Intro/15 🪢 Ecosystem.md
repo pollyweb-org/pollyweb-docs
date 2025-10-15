@@ -42,7 +42,7 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
     * [Advertiser 👀 helper domains](<../45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) for ads.
 
 - Data integration and structural validation is assured via:
-    - [Schema Codes 🧩](<../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) that domains and [Authority 🏛️ helper domains](<../45 🛠️ Helper domains/14 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>) can define on their [domain Manifests 📜](<../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) 
+    - [Schema Codes 🧩](<../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) that domains and [Authority 🏛️ helper domains](<../45 🛠️ Helper domains/14 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>) can define on their [domain Manifests 📜](<../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) 
     - these codes are the foundation of resource [Locators 🔆](<../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>), physical [Things 💠](<../70 🌳 Ambient/71 💠 Things/$ 💠 Thing.md>), and verifiable offline [Tokens 🎫](<../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>).
 
 - Domains interact directly with humans with edge devices that exhibit well-known behaviors - e.g.:
@@ -63,7 +63,7 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
     * and [Ephemeral 🦋 devices](<../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>) that dynamically rotate QR and NFC [Locators 🔆](<../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) to prevent fraud.
 
 - Performance at a global scale is assured by:
-  * a distributed cluster of [Listener 👂 helper domains](<../45 🛠️ Helper domains/60 👂 Listeners/👂🛠️ Listener helper.md>) that propagate [Schema Codes 🧩](<../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) and [Trusts 👍](<../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) from [domain Manifests 📜](<../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) in near-real time;
+  * a distributed cluster of [Listener 👂 helper domains](<../45 🛠️ Helper domains/60 👂 Listeners/👂🛠️ Listener helper.md>) that propagate [Schema Codes 🧩](<../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) and [Trusts 👍](<../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) from [domain Manifests 📜](<../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) in near-real time;
   * and [Graph 🕸 helper domains](<../45 🛠️ Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>) that cache them to support high-performant queries from any [domain 👥](<../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>).
 
   ---
