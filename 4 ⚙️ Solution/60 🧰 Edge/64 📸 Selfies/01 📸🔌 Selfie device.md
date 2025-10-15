@@ -20,7 +20,7 @@
 
     Notes: 
     - scanning the user's face is not enough to identify the user;
-    - the identification is first done by a [Userable 💍 thing](<../../70 🌳 Ambient/74 💍 Userables/01 💍 Userable thing.md>), then the [Face scan 🆔😶](<../../50 🫥 Agents/45 🆔 Identities/21 🆔😶 Face scan.md>) is invoked to verify the identity.
+    - the identification is first done by a [Userable 💍 thing](<../../70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>), then the [Face scan 🆔😶](<../../50 🫥 Agents/45 🆔 Identities/21 🆔😶 Face scan.md>) is invoked to verify the identity.
   
     ---
 

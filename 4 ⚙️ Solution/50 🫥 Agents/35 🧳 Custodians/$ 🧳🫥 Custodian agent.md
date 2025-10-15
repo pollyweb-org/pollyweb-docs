@@ -15,9 +15,9 @@
     |Type 💠| Details
     |-|-
     | [💠 Things](<../../70 🌳 Ambient/71 💠 Things/$ 💠 Thing.md>) | Physical objects: <br/> • e.g., T-shirts, books, pens, rocks, pets, wild animals.
-    | [🤖 Robots](<../../70 🌳 Ambient/72 🤖 Robots/01 🤖💠 Robot thing.md>) | [Thing 💠](<../../70 🌳 Ambient/71 💠 Things/$ 💠 Thing.md>) embedded to control an electrical device:<br/> • e.g.: a coffee machine, a printer, or a vehicle. 
-    | [💍 Userables](<../../70 🌳 Ambient/74 💍 Userables/01 💍 Userable thing.md>) | [Thing 💠](<../../70 🌳 Ambient/71 💠 Things/$ 💠 Thing.md>) that also pays and enters secure areas: <br/> • e.g., jewelry, glasses, key-holders.
-    | [⌚ Tapbands](<../../70 🌳 Ambient/76 ⌚ Tapbands/$ ⌚💠 Tapband thing.md>) | [Userable 💍](<../../70 🌳 Ambient/74 💍 Userables/01 💍 Userable thing.md>) that also opens [Padlocks 🔒](<../../70 🌳 Ambient/75 🔒 Padlocks/01 🔒 Padlock device.md>): <br/>• smart watches, fit bands.
+    | [🤖 Robots](<../../70 🌳 Ambient/72 🤖 Robots/$ 🤖💠 Robot thing.md>) | [Thing 💠](<../../70 🌳 Ambient/71 💠 Things/$ 💠 Thing.md>) embedded to control an electrical device:<br/> • e.g.: a coffee machine, a printer, or a vehicle. 
+    | [💍 Userables](<../../70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>) | [Thing 💠](<../../70 🌳 Ambient/71 💠 Things/$ 💠 Thing.md>) that also pays and enters secure areas: <br/> • e.g., jewelry, glasses, key-holders.
+    | [⌚ Tapbands](<../../70 🌳 Ambient/76 ⌚ Tapbands/$ ⌚💠 Tapband thing.md>) | [Userable 💍](<../../70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>) that also opens [Padlocks 🔒](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>): <br/>• smart watches, fit bands.
     
 
     ---

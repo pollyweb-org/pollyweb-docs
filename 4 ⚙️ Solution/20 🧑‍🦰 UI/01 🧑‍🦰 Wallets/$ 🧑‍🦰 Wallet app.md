@@ -23,8 +23,8 @@
     - ✨ [Scan](<../11 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) a QR [Locator 🔆](<../11 🔆 Locators/$ 🔆 Locator.md>) to open a [Chat 💬](<../12 💬 Chats/$ 💬 Chat.md>).
     - 🔆 [Tap](<../11 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) an NFC [Locator 🔆](<../11 🔆 Locators/$ 🔆 Locator.md>) to open a [Chat 💬](<../12 💬 Chats/$ 💬 Chat.md>).
     - 🌐 [Click](<../11 🔆 Locators/02 🧑‍🦰🌐 Wallet URLs.md>) on [Locator 🔆](<../11 🔆 Locators/$ 🔆 Locator.md>) links in the device's web browser to open chats.
-    - 🛜 [Wi-Fiers](<../../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>): tap/scan an NFC/QR of a Wi-Fier to enable Wi-Fi on a [Robot 🤖](<../../70 🌳 Ambient/72 🤖 Robots/01 🤖💠 Robot thing.md>).
-    - 🔒 [Padlocks](<../../70 🌳 Ambient/75 🔒 Padlocks/01 🔒 Padlock device.md>): tap/scan an NFC/QR of a Padlock to open it.
+    - 🛜 [Wi-Fiers](<../../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>): tap/scan an NFC/QR of a Wi-Fier to enable Wi-Fi on a [Robot 🤖](<../../70 🌳 Ambient/72 🤖 Robots/$ 🤖💠 Robot thing.md>).
+    - 🔒 [Padlocks](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>): tap/scan an NFC/QR of a Padlock to open it.
     
     ---
     <br/>
