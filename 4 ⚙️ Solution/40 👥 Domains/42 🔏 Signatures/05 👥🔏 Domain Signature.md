@@ -19,11 +19,11 @@
 
 1. **How does it work**?
 
-    ![](<.📎 Assets/📨 Signature Domains.png>)
+    ![](<.📎 Assets/🔏 Domain Signature.png>)
 
     |#| Step | Details
     |-|-|-
-    |1| `DKIM` | Domain A rotates its [DKIM](<01 📨 Domain Message.md>) public key.
+    |1| `DKIM` | Domain A rotates its [DKIM](<../41 📨 Messages/01 📨 Domain Message.md>) public key.
     |2| `Stamp` | Domain A signs a file with its latest private key, then sends the file to Domain B.
     |3| `Share`| Domain B shares the file with Domain C.
     |4| `Check`| Domain C verifies the signature of the file against the DKIM public key that was active at the time of the signature.
@@ -64,7 +64,7 @@
     | `Hash` | string |  The hash of the file
     | `Signed` | timestamp | When it was signed
     | `DKIM`| string | The [DKIM 📨](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/07 👥🚀🕸 Public Key.md>) key used to sign
-    | `Signature`| string | The [signature](<01 📨 Domain Message.md>) 📨 
+    | `Signature`| string | The [signature](<../41 📨 Messages/01 📨 Domain Message.md>) 📨 
 
     ---
     <br/>
