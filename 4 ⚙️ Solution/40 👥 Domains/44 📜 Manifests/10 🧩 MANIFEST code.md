@@ -9,7 +9,7 @@
 
 | Property | Type | Notes
 |-|-|-
-| [`Identity` 🧩](<14 🧩 IDENTITY code.md>) | object | [Domain 👥](<../41 📨 Messages/00 👥 Domain.md>) identification
+| [`About` 🧩](<14 🧩 ABOUT code.md>) | object | [Domain 👥](<../41 📨 Messages/00 👥 Domain.md>) identification
 | [`Datasets` 🧩](<15 🧩 OFFER code.md>)  | array | Optional services offered
 | [`Trusts` 🧩](<17 🧩 TRUST code.md>)   | array | Optional [Trusted 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>) domains and roles
 | [`Codes` 🧩](<11 🧩 CODE code.md>)     | array | Optional [Schema Codes 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) defined
@@ -35,7 +35,7 @@ Schema:
     properties:
 
       About:
-        $ref: .MANIFEST/IDENTITY
+        $ref: .MANIFEST/ABOUT
 
       Datasets:
         type: array
