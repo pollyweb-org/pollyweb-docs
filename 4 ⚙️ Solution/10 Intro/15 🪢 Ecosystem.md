@@ -63,7 +63,7 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
     * and [Ephemeral 🦋 devices](<../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>) that dynamically rotate QR and NFC [Locators 🔆](<../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) to prevent fraud.
 
 - Performance at a global scale is assured by:
-  * a distributed cluster of [Listener 👂 helper domains](<../42 Backbone/10 👂 Listeners/$ 👂🛠️ Listener helper.md>) that propagate [Schema Codes 🧩](<../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) and [Trusts 👍](<../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) from [domain Manifests 📜](<../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) in near-real time;
-  * and [Graph 🕸 helper domains](<../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) that cache them to support high-performant queries from any [domain 👥](<../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>).
+  * a distributed cluster of [Listener 👂 helper domains](<../45 🛠️ Helper domains/50 👂 Listeners/$ 👂🛠️ Listener helper.md>) that propagate [Schema Codes 🧩](<../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) and [Trusts 👍](<../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) from [domain Manifests 📜](<../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) in near-real time;
+  * and [Graph 🕸 helper domains](<../45 🛠️ Helper domains/40 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) that cache them to support high-performant queries from any [domain 👥](<../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>).
 
   ---

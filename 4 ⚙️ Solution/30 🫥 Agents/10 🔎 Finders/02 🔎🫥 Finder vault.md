@@ -65,7 +65,7 @@
 
     |[Streamer&nbsp;🎭](<../../41 🎭 Domain Roles/75 🌬️ Streamers/$ 🌬️🎭 Streamer role.md>)|Purpose
     |-|-
-    | [🕸&nbsp;Graphs](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) | Finders subscribe to [Graphs 🕸 domains](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) to receive updates on [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) across the NLWeb, including their public identity, [trust 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) relationships, and supported [integrations 🪢](<../../20 🧑‍🦰 UI/12 💬 Chats/06 🪢🎭 Integrator role.md>). 
+    | [🕸&nbsp;Graphs](<../../45 🛠️ Helper domains/40 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) | Finders subscribe to [Graphs 🕸 domains](<../../45 🛠️ Helper domains/40 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) to receive updates on [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) across the NLWeb, including their public identity, [trust 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) relationships, and supported [integrations 🪢](<../../20 🧑‍🦰 UI/12 💬 Chats/06 🪢🎭 Integrator role.md>). 
     | [🔥&nbsp;Firewalls](<../../45 🛠️ Helper domains/21 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) | Finders subscribe to [Firewall 🔥 domains](<../../45 🛠️ Helper domains/21 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) to quickly react to threats. 
     | [⭐&nbsp;Reviewers](<01 ⭐🫥 Reviewer vault.md>) | Finders subscribe to [Reviewer ⭐ domains](<01 ⭐🫥 Reviewer vault.md>) to receive updates of domain ranks across the NLWeb, as a result of user feedback. 
     | [👀&nbsp;Advertisers](<../../45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) | Finders subscribe to [Advertiser 👀 domains](<../../45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) to know which ads to show to users in addition to search results from [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>). 
@@ -96,7 +96,7 @@
 1. **Why not merge Finders and Graphs?**
 
     Finders leverage conversations with artificial intelligence, requiring them to comply with contextualized Artificial Intelligence (AI) legislation (e.g., the European Union AI Act). 
-    * Conversely, [Graph 🕸 domains](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) are typically AI-free, allowing to be more generic.
+    * Conversely, [Graph 🕸 domains](<../../45 🛠️ Helper domains/40 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) are typically AI-free, allowing to be more generic.
 
 
     ---
