@@ -36,13 +36,13 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
     * and asynchronous service [Supplier 🏭](<../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>). 
 
 - Domains are extended by helper domains, e.g.:
-    * [Buffer ⏳ helper domains](<../45 Helpers/10 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) for global ingestion and throttling, 
+    * [Buffer ⏳ helper domains](<../45 Helpers/15 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) for global ingestion and throttling, 
     * [Collector 🏦 helper domains](<../30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) for payments, 
     * [Biller 🤝 helper domains](<../30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>) for financial contracts, 
     * [Advertiser 👀 helper domains](<../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) for ads.
 
 - Data integration and structural validation is assured via:
-    - [Schema Codes 🧩](<../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) that domains and [Authority 🏛️ helper domains](<../40 👥 Domains/43 👍 Trusts/02 🏛️🛠️ Authority helper.md>) can define on their [domain Manifests 📜](<../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) 
+    - [Schema Codes 🧩](<../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) that domains and [Authority 🏛️ helper domains](<../45 Helpers/10 Authorities/02 🏛️🛠️ Authority helper.md>) can define on their [domain Manifests 📜](<../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) 
     - these codes are the foundation of resource [Locators 🔆](<../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>), physical [Things 💠](<../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>), and verifiable offline [Tokens 🎫](<../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>).
 
 - Domains interact directly with humans with edge devices that exhibit well-known behaviors - e.g.:
