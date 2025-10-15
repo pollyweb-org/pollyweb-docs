@@ -44,7 +44,7 @@
     | [🔆 Physical NFC tag](<04 🧑‍🦰🔆 Wallet NFC tap.md>) | Tap a physical [NFC tag 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>) written by anyone
     | [✨ Digital QR code](<03 🧑‍🦰✨ Wallet QR scan.md>)  | Scan an image of a [QR code ✨](<03 🧑‍🦰✨ Wallet QR scan.md>) rendered by a webpage
     | [🌐 Web page link](<02 🧑‍🦰🌐 Wallet URLs.md>)  |  Click on an NLWeb-compatible [URL link 🌐](<02 🧑‍🦰🌐 Wallet URLs.md>) on a webpage
-    | [🖨️ Printer domains](<../../45 🛠️ Helper domains/60 🖨️ Printers/$ 🖨️🏭 Printer helper.md>) | Tap/scan a static NFC/QR issue by any [Printer 🖨️ domain](<../../45 🛠️ Helper domains/60 🖨️ Printers/$ 🖨️🏭 Printer helper.md>)
+    | [🖨️ Printer domains](<../../45 🛠️ Helper domains/60 🖨️ Printers/$ 🖨️🛠️ Printer helper.md>) | Tap/scan a static NFC/QR issue by any [Printer 🖨️ domain](<../../45 🛠️ Helper domains/60 🖨️ Printers/$ 🖨️🛠️ Printer helper.md>)
     | [🦋 Ephemeral devices](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>) | Tap/scan a dynamic NFC/QR  by an [Ephemeral 🦋 device](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>)
     | [🛜 Wi-Fier devices](<../../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>) | Tap/scan a [Wi-Fier 🛜 device](<../../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>) to connect it to the internet
     | [💍 Userable things](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) | Tap a [Userable 💍 thing](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) that a user is wearing or holding
