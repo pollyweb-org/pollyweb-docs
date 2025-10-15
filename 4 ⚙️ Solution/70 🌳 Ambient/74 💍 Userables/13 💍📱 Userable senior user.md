@@ -56,9 +56,9 @@
     | 🪄 [Wand](<../../45 🛠️ Helper domains/90 🪄 Wands/$ 🪄🛠️ Wand helper.md>)  | 😃 Hi! What do you need? <br/>- [ Private ] access <br/>- [ Something else ]| > Private
     | 🤵 [Broker](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | ⓘ Flow: authenticate [+]
     | 🪄 [Wand](<../../45 🛠️ Helper domains/90 🪄 Wands/$ 🪄🛠️ Wand helper.md>) | 😐 Are you the owner? [Yes, No] | > Yes
-    | 🤵 [Broker](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 [Allow guest domain?](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>) [Yes, No]  <br/> - Any Identity 🆔 <br/>- [ Always ] for Any Wand 🪄 | > Yes
+    | 🤵 [Broker](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 [Allow guest domain?](<../../41 🎭 Domain Roles/30 🤗 Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>) [Yes, No]  <br/> - Any Identity 🆔 <br/>- [ Always ] for Any Wand 🪄 | > Yes
     | 🆔 [Identity](<../../50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's the owner.     | [📸 selfie](<../../50 🫥 Agents/45 🆔 Identities/21 🆔😶 Face scan.md>)
-    | 🤵 [Broker](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 [Allow guest domain?](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>) [Yes, No]  <br/> - Any Custodian 🧳<br/>- [ Always ] for Any Wand 🪄 | > Yes
+    | 🤵 [Broker](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 [Allow guest domain?](<../../41 🎭 Domain Roles/30 🤗 Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>) [Yes, No]  <br/> - Any Custodian 🧳<br/>- [ Always ] for Any Wand 🪄 | > Yes
     | 🧳 [Custodian](<../../50 🫥 Agents/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>)| 🫥 What do you need? <br/>- [ Ring ] my Wallet <br/>- [ Circle ] Contacts <br/>- [ Something else ] | > Circle
     | 🧳 [Custodian](<../../50 🫥 Agents/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>) | 🫥 Which one? <br/>- [ Jake ] <br/>- [ Spirit ] | > Spirit
     | 🧳 [Custodian](<../../50 🫥 Agents/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>) | 🫥 Options for Spirit: <br/>- Call [ Mobile ] <br/>- Call [ Work ] <br/> - [ Back ] to list | > Mobile
