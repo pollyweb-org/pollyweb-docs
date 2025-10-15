@@ -1,6 +1,6 @@
-# [🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) [`.MANIFEST`](<10 🧩 MANIFEST schema.md>) `/IDENTITY`
+# [🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) [`.MANIFEST`](<10 🧩 MANIFEST code.md>) `/IDENTITY`
 
-> Part of [`.MANIFEST` 🧩](<10 🧩 MANIFEST schema.md>)
+> Part of [`.MANIFEST` 🧩](<10 🧩 MANIFEST code.md>)
 
 > Implements [domain Manifest 📜](<01 📜 Domain Manifest.md>) 
 
@@ -16,14 +16,14 @@
 | `SmallIcon`  | string | Optional URL to a small icon (20x20)
 | `BigIcon`   | string | Optional URL to a big icon (100x100)
 | `Feedback` | string | Optional [Buffer ⏳ helper domain](<../42 🌬️ Streams/03 ⏳🛠️ Buffer helper.md>) name <br/>- if not defined, then no feedback is given
-| [`Translations` 🧩](<16 🧩 TRANSLATION schema.md>) | array | Optional translations of the domain name
+| [`Translations` 🧩](<16 🧩 TRANSLATION code.md>) | array | Optional translations of the domain name
 |
 
 <br/>
 
 ## Definition
 
-> 🤝: [`.MANIFEST/CODE`](<11 🧩 CODE schema.md>)
+> 🤝: [`.MANIFEST/CODE`](<11 🧩 CODE code.md>)
 
 ```yaml
 Path: /MANIFEST/IDENTITY

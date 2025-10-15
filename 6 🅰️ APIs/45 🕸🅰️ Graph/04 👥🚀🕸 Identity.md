@@ -6,7 +6,7 @@
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 
 * Given a domain, 
-    * returns the content of [`.MANIFEST/IDENTITY 🧩`](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/14 🧩 IDENTITY schema.md>)
+    * returns the content of [`.MANIFEST/IDENTITY 🧩`](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/14 🧩 IDENTITY code.md>)
     * from its [domain Manifest 📜](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) 
 * Used by:
     * [🤵⏩🧑‍🦰 Converse 💬 flow](<../../5 ⏩ Flows/10 🤵⏩ Brokers/03 🤵⏩🧑‍🦰 Converse 💬.md>) 
