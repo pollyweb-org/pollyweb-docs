@@ -7,7 +7,7 @@
     * any [Helper 🛠️ domain](<../../45 Helpers/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) 
     * that subscribes to [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) change events from [Listener 👂 domains](<../10 👂 Listeners/$ 👂🛠️ Listener helper.md>)
     * then builds network representations of [Trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) relationships between [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>)
-    * including indirect relationships via [Authority 🏛️ domains](<../../45 Helpers/10 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>). 
+    * including indirect relationships via [Authority 🏛️ domains](<../../45 Helpers/14 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>). 
 
     ---
     <br/>

@@ -31,7 +31,7 @@ Schema:
 | Property | Type | Notes|
 |-|-|-
 | `Path`| string | Relative path of the [Code 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>)  or group
-| [`Delegator 🧩`](<30 🧩 DELEGATE code.md>) | string | Optional [Authority 🏛️ domain](<../../45 Helpers/10 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>) that delegated: <br/>- i.e., added it to [`.MANIFEST/DELEGATE` 🧩](<30 🧩 DELEGATE code.md>)
+| [`Delegator 🧩`](<30 🧩 DELEGATE code.md>) | string | Optional [Authority 🏛️ domain](<../../45 Helpers/14 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>) that delegated: <br/>- i.e., added it to [`.MANIFEST/DELEGATE` 🧩](<30 🧩 DELEGATE code.md>)
 | `Name` | string | Human name of the [Schema Code 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) 
 | `Description`| string | Human  description of the [Schema Code 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>)  
 | `Resources`  | map | Dictionary of external resources

@@ -25,7 +25,7 @@
         - Amount: `12.34`
         - Currency: `EUR`
         - Operation: `DEBIT`
-        - [Collectors 🏦](<../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>): [ `revolut.com`, `paypal.com` ]
+        - [Collectors 🏦](<../../4 ⚙️ Solution/45 Helpers/18 🏦 Collectors/01 🏦🛠️ Collector helper.md>): [ `revolut.com`, `paypal.com` ]
             
 
 ## Steps
@@ -39,6 +39,6 @@
 
     - [Wallet 🧑‍🦰 app](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) → [Endorse @ Payer 🧑‍🦰🐌💳](<../../6 🅰️ APIs/70 💳🅰️ Payer/01 🧑‍🦰🐌💳 Endorse.md>)
     - [Payer 💳 agent](<../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) → [Collect @ Collector 💳🐌🏦](<../../6 🅰️ APIs/25 🏦🅰️ Collector/01 💳🐌🏦 Collect.md>)
-    - [Collector 🏦](<../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) → [Paid @ Seller 🏦🐌💵](<../../6 🅰️ APIs/85 💵🅰️ Seller/01 🏦🐌💵 Paid.md>)
+    - [Collector 🏦](<../../4 ⚙️ Solution/45 Helpers/18 🏦 Collectors/01 🏦🛠️ Collector helper.md>) → [Paid @ Seller 🏦🐌💵](<../../6 🅰️ APIs/85 💵🅰️ Seller/01 🏦🐌💵 Paid.md>)
 
 ---

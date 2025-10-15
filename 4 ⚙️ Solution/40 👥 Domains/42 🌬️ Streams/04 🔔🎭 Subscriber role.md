@@ -43,7 +43,7 @@
 
     * [Graph 🕸 helper domains](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) build their graph databases with subscriptions to [domain Manifest 📜](<../44 📜 Manifests/$ 📜 Domain Manifest.md>) updates from [Listener 👂 streams](<../../42 Backbone/10 👂 Listeners/$ 👂🛠️ Listener helper.md>).
   
-    * [Finder 🔎 domains](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) build their search index with subscriptions to [Graph 🕸](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>), [Advertiser 👀](<../../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>), and [Reviewer ⭐](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) streams.
+    * [Finder 🔎 domains](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) build their search index with subscriptions to [Graph 🕸](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>), [Advertiser 👀](<../../45 Helpers/12 👀 Advertisers/03 👀👥 Advertiser helper.md>), and [Reviewer ⭐](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) streams.
     
     * [Firewall 🔥 helper domains](<../../45 Helpers/21 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) subscribe to [Listener 👂](<../../42 Backbone/10 👂 Listeners/$ 👂🛠️ Listener helper.md>) and [Graph 🕸](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) streams to ensure domain compliance.
 

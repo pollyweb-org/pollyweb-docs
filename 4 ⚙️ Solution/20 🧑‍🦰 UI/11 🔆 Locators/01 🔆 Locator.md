@@ -49,7 +49,7 @@
     | [🛜 Wi-Fier devices](<../../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>) | Tap/scan a [Wi-Fier 🛜 device](<../../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>) to connect it to the internet
     | [💍 Userable things](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) | Tap a [Userable 💍 thing](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) that a user is wearing or holding
     | [🔒 Padlock devices](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/01 🔒 Padlock device.md>)  | Tap a [Padlock 🔒 device](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/01 🔒 Padlock device.md>) to open it
-    | [💬 Chat prompts](<../12 💬 Chats/01 💬 Chat.md>) | Select a [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) option - e.g., [Finder 🔎](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>), [Advertiser 👀](<../../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>)
+    | [💬 Chat prompts](<../12 💬 Chats/01 💬 Chat.md>) | Select a [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>) option - e.g., [Finder 🔎](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>), [Advertiser 👀](<../../45 Helpers/12 👀 Advertisers/03 👀👥 Advertiser helper.md>)
 
     
     ---
@@ -86,7 +86,7 @@
     Given that the [Wallet's Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) serves as a protector, user can trust its mechanism to protect them from [phishing sites 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/06 📺 QR phishing.md>), just like Google Chrome does with [SSL certificate validation 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/08 📺 Google's Risk API.md>) and other phishing detection/blocking features - these mechanisms include:
 
     - [Messages 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) can only flow through encrypted channels with cross-authentication of both sender and receiver domains;
-    - Data exchange can only be performed between domains that publicly [Trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) one another or are trusted by mutually trusted [Authority 🏛️ domains](<../../45 Helpers/10 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>), following the principle of least-privilege;
+    - Data exchange can only be performed between domains that publicly [Trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) one another or are trusted by mutually trusted [Authority 🏛️ domains](<../../45 Helpers/14 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>), following the principle of least-privilege;
     - User inputs can only be collected if the intention is clearly mentioned in a [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) subject to public scrutiny.
     
 

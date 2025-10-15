@@ -38,7 +38,7 @@
 
     [Advertising 👀](<../../../2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape/00 👀 Advertising index.md>) is triggered at the end of a [Chat 💬](<01 💬 Chat.md>) for next-best actions.
     - Thus, [Host 🤗 domains](<04 🤗🎭 Host role.md>) willing to monetize via cross-domain advertising are incentivized to close [Chats 💬](<01 💬 Chat.md>). 
-    - See the [Advertiser 👀 helper domains](<../../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) for details.
+    - See the [Advertiser 👀 helper domains](<../../45 Helpers/12 👀 Advertisers/03 👀👥 Advertiser helper.md>) for details.
 
     ---
     <br/>
@@ -103,7 +103,7 @@
     | [🛠️ `Invite`](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>) | Invites a [Helper 🛠️ domain](<../../45 Helpers/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) to a [Chat 💬](<01 💬 Chat.md>)
     | [📝 `Form`](<../../../5 ⏩ Flows/20 💼⏩ Consumers/02 💼⏩🧑‍🦰 Inform 📝.md>) | Informs a user on upcoming [Inputs ✏️](<../../../9 😃 Talkers/20 🤔 Prompts/1 📘 Prompt specs/09 ✏️ as Input.md>)
     | [❄️ `Freeze`](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/06 🤗⏩🧑‍🦰 Freeze ❄️.md>) | Blocks changes on all previous [Inputs ✏️](<../../../9 😃 Talkers/20 🤔 Prompts/1 📘 Prompt specs/09 ✏️ as Input.md>)
-    | [👋 `Goodbye`](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/07 🤗⏩🧑‍🦰 Goodbye 👋.md>) | Triggers the [advertising 👀](<../../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) flow
+    | [👋 `Goodbye`](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/07 🤗⏩🧑‍🦰 Goodbye 👋.md>) | Triggers the [advertising 👀](<../../45 Helpers/12 👀 Advertisers/03 👀👥 Advertiser helper.md>) flow
     
 
     ---

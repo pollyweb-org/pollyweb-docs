@@ -4,7 +4,7 @@
 
 1. **What is a Seller domain role in NLWeb?**
 
-    Sellers 💵 are [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) that ask [Payer 💳 domains](<03 💳🎭 Payer role.md>) for payments to their [Collector 🏦 helpers](<01 🏦🛠️ Collector helper.md>) in return for products or services.
+    Sellers 💵 are [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) that ask [Payer 💳 domains](<03 💳🎭 Payer role.md>) for payments to their [Collector 🏦 helpers](<../../45 Helpers/18 🏦 Collectors/01 🏦🛠️ Collector helper.md>) in return for products or services.
     
     ---
 
@@ -16,31 +16,31 @@
     |-|-
     | 1 | As a [Host 🤗](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>), a Seller 💵 charges a user for a service or product.
     | 2 | The user delegates the payment to their [Payer 💳 agent](<04 💳🫥 Payer agent.md>).
-    | 3 | The user's [Payer 💳 agent](<04 💳🫥 Payer agent.md>) informs the Seller's [Collector 🏦 helper](<01 🏦🛠️ Collector helper.md>) about the money transfer.
-    | 4 | The Seller's [Collector 🏦 helper](<01 🏦🛠️ Collector helper.md>) informs the Seller 💵 that the transaction is paid for.
-    | 5 | The [Collector 🏦](<01 🏦🛠️ Collector helper.md>) issues a receipt to the user's [Payer 💳](<04 💳🫥 Payer agent.md>), who may store it in the user's [Storage 📦 agent](<../01 📦 Storage/01 📦🫥 Storage agent.md>).
+    | 3 | The user's [Payer 💳 agent](<04 💳🫥 Payer agent.md>) informs the Seller's [Collector 🏦 helper](<../../45 Helpers/18 🏦 Collectors/01 🏦🛠️ Collector helper.md>) about the money transfer.
+    | 4 | The Seller's [Collector 🏦 helper](<../../45 Helpers/18 🏦 Collectors/01 🏦🛠️ Collector helper.md>) informs the Seller 💵 that the transaction is paid for.
+    | 5 | The [Collector 🏦](<../../45 Helpers/18 🏦 Collectors/01 🏦🛠️ Collector helper.md>) issues a receipt to the user's [Payer 💳](<04 💳🫥 Payer agent.md>), who may store it in the user's [Storage 📦 agent](<../01 📦 Storage/01 📦🫥 Storage agent.md>).
 
     ---
     
 1. **How can admins set up payment collection?**
 
-    Admins of Sellers 💵 need to bind to a [Collector 🏦](<01 🏦🛠️ Collector helper.md>) domain and set up a bank account or any other means to receive money.
+    Admins of Sellers 💵 need to bind to a [Collector 🏦](<../../45 Helpers/18 🏦 Collectors/01 🏦🛠️ Collector helper.md>) domain and set up a bank account or any other means to receive money.
 
     ---
     
 1. **Do Sellers need to trust user Payers?**
 
     No. 
-    - Sellers 💵 delegate that [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) relationship to their [Collectors 🏦](<01 🏦🛠️ Collector helper.md>);
-        - i.e., the [Collector 🏦](<01 🏦🛠️ Collector helper.md>) and [Payer 💳](<03 💳🎭 Payer role.md>) are the ones who need to have a [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) relationship.
+    - Sellers 💵 delegate that [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) relationship to their [Collectors 🏦](<../../45 Helpers/18 🏦 Collectors/01 🏦🛠️ Collector helper.md>);
+        - i.e., the [Collector 🏦](<../../45 Helpers/18 🏦 Collectors/01 🏦🛠️ Collector helper.md>) and [Payer 💳](<03 💳🎭 Payer role.md>) are the ones who need to have a [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) relationship.
 
     ---
     
 1. **Do Sellers define how they want the user to pay?**
 
     No. 
-    - The payment method is decided between the user's [Payer 💳](<03 💳🎭 Payer role.md>) and the Seller's [Collector 🏦](<01 🏦🛠️ Collector helper.md>). 
-    - The Seller 💵 only defines the way they want the [Collector 🏦](<01 🏦🛠️ Collector helper.md>) to transfer the money to the Seller 💵.
+    - The payment method is decided between the user's [Payer 💳](<03 💳🎭 Payer role.md>) and the Seller's [Collector 🏦](<../../45 Helpers/18 🏦 Collectors/01 🏦🛠️ Collector helper.md>). 
+    - The Seller 💵 only defines the way they want the [Collector 🏦](<../../45 Helpers/18 🏦 Collectors/01 🏦🛠️ Collector helper.md>) to transfer the money to the Seller 💵.
     
     ---
 
@@ -57,6 +57,6 @@
 
     |Message|Description
     |-|-
-    | [🐌 Paid](<../../../6 🅰️ APIs/85 💵🅰️ Seller/01 🏦🐌💵 Paid.md>) | The [Collector 🏦 helper](<01 🏦🛠️ Collector helper.md>) confirms the payment.
+    | [🐌 Paid](<../../../6 🅰️ APIs/85 💵🅰️ Seller/01 🏦🐌💵 Paid.md>) | The [Collector 🏦 helper](<../../45 Helpers/18 🏦 Collectors/01 🏦🛠️ Collector helper.md>) confirms the payment.
 
     ---
