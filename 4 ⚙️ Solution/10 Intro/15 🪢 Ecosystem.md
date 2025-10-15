@@ -42,8 +42,8 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
     * [Advertiser 👀 helper domains](<../45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) for ads.
 
 - Data integration and structural validation is assured via:
-    - [Schema Codes 🧩](<../25 Data/Schema Codes/02 🧩 Schema Code.md>) that domains and [Authority 🏛️ helper domains](<../45 🛠️ Helper domains/14 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>) can define on their [domain Manifests 📜](<../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) 
-    - these codes are the foundation of resource [Locators 🔆](<../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>), physical [Things 💠](<../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>), and verifiable offline [Tokens 🎫](<../25 Data/25 🎫 Tokens/$ 🎫 Token.md>).
+    - [Schema Codes 🧩](<../25 Data/10 🧩 Schema Codes/02 🧩 Schema Code.md>) that domains and [Authority 🏛️ helper domains](<../45 🛠️ Helper domains/14 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>) can define on their [domain Manifests 📜](<../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) 
+    - these codes are the foundation of resource [Locators 🔆](<../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>), physical [Things 💠](<../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>), and verifiable offline [Tokens 🎫](<../25 Data/30 🎫 Tokens/$ 🎫 Token.md>).
 
 - Domains interact directly with humans with edge devices that exhibit well-known behaviors - e.g.:
     * locator [Scanners ✨](<../60 🧰 Edge/66 ✨ Scanners/06 ✨🔌 Scanner device.md>), 
@@ -63,7 +63,7 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
     * and [Ephemeral 🦋 devices](<../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>) that dynamically rotate QR and NFC [Locators 🔆](<../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) to prevent fraud.
 
 - Performance at a global scale is assured by:
-  * a distributed cluster of [Listener 👂 helper domains](<../45 🛠️ Helper domains/50 👂 Listeners/$ 👂🛠️ Listener helper.md>) that propagate [Schema Codes 🧩](<../25 Data/Schema Codes/02 🧩 Schema Code.md>) and [Trusts 👍](<../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) from [domain Manifests 📜](<../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) in near-real time;
+  * a distributed cluster of [Listener 👂 helper domains](<../45 🛠️ Helper domains/50 👂 Listeners/$ 👂🛠️ Listener helper.md>) that propagate [Schema Codes 🧩](<../25 Data/10 🧩 Schema Codes/02 🧩 Schema Code.md>) and [Trusts 👍](<../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) from [domain Manifests 📜](<../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) in near-real time;
   * and [Graph 🕸 helper domains](<../45 🛠️ Helper domains/40 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) that cache them to support high-performant queries from any [domain 👥](<../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>).
 
   ---

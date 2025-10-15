@@ -44,8 +44,8 @@
     |-|-|-
     | 🤗 [Host About](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) | Domain identification (mandatory). | [`./ABOUT` 🧩](<20 🧩 ABOUT code.md>) <br/>[`./TRANSLATION` 🧩](<21 🧩 TRANSLATION code.md>)
     | 👍 [Domain Trusts](<../43 👍 Trusts/$ 👍 Domain Trust.md>) | Trusted domains, Codes, and roles. | [`./TRUST` 🧩](<50 🧩 TRUST code.md>)
-    |  🧩 [Schema Codes](<../../25 Data/Schema Codes/02 🧩 Schema Code.md>) | Defined by the domain. | [`./CODE` 🧩](<40 🧩 CODE code.md>) <br/>[`./CODE/SCHEMA` 🧩](<41 🧩 SCHEMA code.md>) <br/>[`./TRANSLATION` 🧩](<21 🧩 TRANSLATION code.md>)| Schema validation of a Code
-    |  🧩 [Delegated Codes](<../../25 Data/Schema Codes/02 🧩 Schema Code.md>) | Codes delegated to other domains. | [`./DELEGATE` 🧩](<30 🧩 DELEGATE code.md>)
+    |  🧩 [Schema Codes](<../../25 Data/10 🧩 Schema Codes/02 🧩 Schema Code.md>) | Defined by the domain. | [`./CODE` 🧩](<40 🧩 CODE code.md>) <br/>[`./CODE/SCHEMA` 🧩](<41 🧩 SCHEMA code.md>) <br/>[`./TRANSLATION` 🧩](<21 🧩 TRANSLATION code.md>)| Schema validation of a Code
+    |  🧩 [Delegated Codes](<../../25 Data/10 🧩 Schema Codes/02 🧩 Schema Code.md>) | Codes delegated to other domains. | [`./DELEGATE` 🧩](<30 🧩 DELEGATE code.md>)
     | 🪢 [Integrations](<../../41 🎭 Domain Roles/35 🪢 Integrators/$ 🪢🎭 Integrator role.md>) |Synchronous datasets, <br/>asynchronous supplies, <br/>and streaming endpoints. | [`./OFFER` 🧩](<60 🧩 OFFER code.md>)
     | [Chat 💬 Flows](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) | To explain what user data is request.
 
