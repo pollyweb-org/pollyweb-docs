@@ -84,7 +84,7 @@
     Yes. Options are:
     - Another dataset on the same [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>).
     - A dataset on another connected [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>).
-    - A public paid [🪣 Dataset](<../../41 🎭 Domain Roles/28 🪣 Datasets/07 🪣🎭 Dataset role.md>) (vaults pay, not editors).
+    - A public paid [🪣 Dataset](<../../41 🎭 Domain Roles/28 🪣 Datasets/$ 🪣🎭 Dataset role.md>) (vaults pay, not editors).
 
     ---
 

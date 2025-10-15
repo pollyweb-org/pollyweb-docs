@@ -77,7 +77,7 @@
 
 1. **How can Hosts leverage reference data, like countries?**
 
-    [Hosts 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) can use data sets exposed by [Dataset 🪣 helper domains](<../../41 🎭 Domain Roles/28 🪣 Datasets/07 🪣🎭 Dataset role.md>).
+    [Hosts 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) can use data sets exposed by [Dataset 🪣 helper domains](<../../41 🎭 Domain Roles/28 🪣 Datasets/$ 🪣🎭 Dataset role.md>).
 
     ---
     <br/>
