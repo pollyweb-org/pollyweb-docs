@@ -6,7 +6,7 @@
     * a [Consumer 💼 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) 
     * asks the [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) 
     * for access to user data 
-    * in one or more [Schema Codes 🧩](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>).
+    * in one or more [Schema Codes 🧩](<../../../4 ⚙️ Solution/25 Data/Schema Codes/02 🧩 Schema Code.md>).
 
 * Used by: 
     * [💼⏩🧑‍🦰 Inform ⏩ flow](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/02 💼⏩🧑‍🦰 Inform 📝.md>)
@@ -41,7 +41,7 @@ Body:
 | | `Subject` | string | `Query@Broker`
 | Body | `ChatID` | string | [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID
 | | `ConsumerKey`| uuid | [`Consume@Consumer`](<../../30 💼🅰️ Consumer/02 🗄️🐌💼 Consume.md>) callback
-| | `Codes` | string[] | List of [Schema Codes 🧩](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>)
+| | `Codes` | string[] | List of [Schema Codes 🧩](<../../../4 ⚙️ Solution/25 Data/Schema Codes/02 🧩 Schema Code.md>)
 |
 
 <br/>
@@ -50,7 +50,7 @@ Body:
 
 1. **Why a list of Codes instead of a single one?**
    
-    Although many [Schema Codes 🧩](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) may be requested, 
+    Although many [Schema Codes 🧩](<../../../4 ⚙️ Solution/25 Data/Schema Codes/02 🧩 Schema Code.md>) may be requested, 
     * only one of them will be returned; 
     * this allows for alternative documents;
     * e.g., passport or driver's license.
@@ -60,7 +60,7 @@ Body:
 
 1. **Are suspended Tokens shared?**
 
-    For [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/$ 🎫 Token.md>), 
+    For [Tokens 🎫](<../../../4 ⚙️ Solution/25 Data/25 🎫 Tokens/$ 🎫 Token.md>), 
     * only shows the ones that are active,
     * i.e., within the start and expiration date.
 
@@ -69,8 +69,8 @@ Body:
 
 1. **How are SELF Tokens are shared?**
 
-    For the [Schema Codes 🧩](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) marked with SELF, 
-    * only shows the [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/$ 🎫 Token.md>) issued by the [Consumer 💼 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>),
+    For the [Schema Codes 🧩](<../../../4 ⚙️ Solution/25 Data/Schema Codes/02 🧩 Schema Code.md>) marked with SELF, 
+    * only shows the [Tokens 🎫](<../../../4 ⚙️ Solution/25 Data/25 🎫 Tokens/$ 🎫 Token.md>) issued by the [Consumer 💼 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>),
     * e.g., [`.BOOKING/SELF 🧩`](<../../../7 🧩 Codes/HOST/🧩 HostBookingSelf.md>).
 
     ---

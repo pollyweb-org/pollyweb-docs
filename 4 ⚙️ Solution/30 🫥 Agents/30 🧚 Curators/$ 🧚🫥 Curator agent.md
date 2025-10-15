@@ -6,7 +6,7 @@
 1. **What are Curator domains?**
 
     [A Curator 🧚](<$ 🧚🫥 Curator agent.md>) 
-    * is an [Agent 🫥 vault domain](<../../25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) 
+    * is an [Agent 🫥 vault domain](<../$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) 
     * that filters options on behalf of users.
 
     ---

@@ -19,7 +19,7 @@
     | Schema Code | Purpose |
     |-|-
     | [`.MSG` 🧩](<../../../7 🧩 Codes/$/🧩 MSG code.md>) | Schema of [Messages 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) 
-    | [`.TOKEN` 🧩](<../../../7 🧩 Codes/$/🧩 TOKEN code.md>) | Schema of [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/$ 🎫 Token.md>)
+    | [`.TOKEN` 🧩](<../../../7 🧩 Codes/$/🧩 TOKEN code.md>) | Schema of [Tokens 🎫](<../25 🎫 Tokens/$ 🎫 Token.md>)
     | [`unicode.org/FLAG` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 unicode.any-igo.org.md>) | Flags for country [Prompts 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>)
     | [`locale.org/TERRITORY` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 locale.any-igo.org.md>) | Country names for [Prompts 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>)
     | [`standards.org/639-1` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 standards.any-igo.org.md>) | Language codes (e.g., `en-us`)
@@ -84,7 +84,7 @@
 
     For example, consider an airline requesting passport data for a flight check-in from a citizen with dual British and American nationalities:
     * the airline may ask for the `icao.int/PASSPORT`  [Schema Code 🧩](<02 🧩 Schema Code.md>)
-    * and receive datasets from the user's `uk.gov` and `usa.gov` [Binds 🔗](<01 🔗 Bind.md>).
+    * and receive datasets from the user's `uk.gov` and `usa.gov` [Binds 🔗](<../24 🔗 Binds/01 🔗 Bind.md>).
         ```yaml
         # Sample request to share user data.
         Header:

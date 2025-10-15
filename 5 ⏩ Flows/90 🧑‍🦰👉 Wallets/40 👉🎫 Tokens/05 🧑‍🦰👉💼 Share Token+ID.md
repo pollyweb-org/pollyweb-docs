@@ -16,7 +16,7 @@
 |3|[💼🐌🤵 `Invite@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/64 💼🐌🤵 Invite.md>)|Invite the [Identity 🆔](<../../../4 ⚙️ Solution/30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) to the [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
 |4| [🤵🐌🛠️ `Invited@Helper`](<../../../6 🅰️ APIs/49 🛠️🅰️ Helper/11 🤵🐌🛠️ Invited.md>) | Proxy the invite to the [Identity 🆔](<../../../4 ⚙️ Solution/30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) 
 |5|[🆔⏩🧑‍🦰 Take Selfie 📸](<../../55 🆔⏩ Identities/04 🆔⏩🧑‍🦰 Selfie.md>) | Do a [face scan 😶](<../../../4 ⚙️ Solution/30 🫥 Agents/45 🆔 Identities/21 🆔😶 Face scan.md>) with liveness check
-|6|[🗄️⏩💼 Consume 🧩](<../../80 🗄️⏩ Vaults/02 🗄️⏩💼 Consume 🔗.md>) | Confirm the [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/$ 🎫 Token.md>) ownership
+|6|[🗄️⏩💼 Consume 🧩](<../../80 🗄️⏩ Vaults/02 🗄️⏩💼 Consume 🔗.md>) | Confirm the [Token 🎫](<../../../4 ⚙️ Solution/25 Data/25 🎫 Tokens/$ 🎫 Token.md>) ownership
 |
 
 <br/>
@@ -26,7 +26,7 @@
 1. **Why do we need to get the user's approval?**
 
     Users expect to have only their own [Vaults 🗄️ domains](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) on the [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>), apart from the [Host 🤗 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) and the [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>).
-    * If the [Identity 🆔 vault](<../../../4 ⚙️ Solution/30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) referenced by the [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/$ 🎫 Token.md>) is listed as a user [Bind 🔗](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/01 🔗 Bind.md>), then no approval is required.
+    * If the [Identity 🆔 vault](<../../../4 ⚙️ Solution/30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) referenced by the [Token 🎫](<../../../4 ⚙️ Solution/25 Data/25 🎫 Tokens/$ 🎫 Token.md>) is listed as a user [Bind 🔗](<../../../4 ⚙️ Solution/25 Data/24 🔗 Binds/01 🔗 Bind.md>), then no approval is required.
     * However, if it is an unknown [Identity 🆔 vault](<../../../4 ⚙️ Solution/30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>), then the user needs to approve to clearly understand that it's not their bounded [Identity 🆔 agent](<../../../4 ⚙️ Solution/30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>).
     * The later is the case when a user is trying to interact with a [Userable 💍](<../../../4 ⚙️ Solution/70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) from another person in the [Confused senior user 👴🏻](<../../../4 ⚙️ Solution/70 🌳 Ambient/74 💍 Brand Userables/13 💍📱 Userable senior user.md>) scenario.
 
