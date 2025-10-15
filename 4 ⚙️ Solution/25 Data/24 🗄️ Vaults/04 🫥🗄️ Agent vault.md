@@ -23,7 +23,7 @@
     | |Agent 🫥 | Example | Responsibilities 
     |-|-|-|-
     | 🛎️| [Concierge](<../../30 🫥 Agents/06 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>) | TaskRabbit | Orchestrates tasks with 3rd parties (e.g., deliveries, repairs).
-    |🧚| [Curator](<../../30 🫥 Agents/03 🧚 Curators/01 🧚🫥 Curator agent.md>) | ChatGPT | Filters options sent by [Host 🤗 domains](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>).
+    |🧚| [Curator](<../../30 🫥 Agents/03 🧚 Curators/$ 🧚🫥 Curator agent.md>) | ChatGPT | Filters options sent by [Host 🤗 domains](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>).
     |🧳| [Custodian](<../../70 🌳 Ambient/71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) | FindMy | Manages the user's [Things 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>), including [Userables 💍](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) and [⌚ Tapbands](<../../70 🌳 Ambient/76 ⌚ Brand Tapbands/01 ⌚💠 Tapband thing.md>).
     |🔎| [Finder](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | Google | Searches for [Host 🤗 domains](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>), and  introduces them when they start a ../05 💬 Chats/01 💬 Chat.mds/01 💬 Chat.md>).
     |🆔|[Identity](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | IDOne | Confirms that the user is physically present behind the remote screen.

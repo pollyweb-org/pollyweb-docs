@@ -35,7 +35,7 @@
     | Domain | Purpose
     |-|-
     | [🛎️ Concierge](<../06 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>) | Subscribes to delivery and contact changes.
-    | [🧚 Curator](<../03 🧚 Curators/01 🧚🫥 Curator agent.md>) | subscribes to multiple types of user preferences.
+    | [🧚 Curator](<../03 🧚 Curators/$ 🧚🫥 Curator agent.md>) | subscribes to multiple types of user preferences.
     | [📇 Mingler](<../08 📇 Minglers/01 📇🫥 Mingler agent.md>) | Subscribes to contact preferences.
 
     ---
