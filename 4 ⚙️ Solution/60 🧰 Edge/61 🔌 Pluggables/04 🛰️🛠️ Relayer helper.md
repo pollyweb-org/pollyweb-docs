@@ -4,7 +4,7 @@
 
 1. **What is a Relayer domains?**
 
-    Relayers 🛰️ are [Helper 🛠️ domains](<../../45 Helpers/$ 🛠️ Helpers/05 🛠️👥 Helper domain.md>) 
+    Relayers 🛰️ are [Helper 🛠️ domains](<../../45 Helpers/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) 
     * that control on-premise [Antenna 📡 router devices](<02 📡🔀 Antenna router.md>) 
     * owned by other [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>).
   
@@ -31,7 +31,7 @@
     |2| `Pluggable` | The [Antenna 📡](<02 📡🔀 Antenna router.md>) detects the connection with the [Pluggable 🔌 device](<01 🔌 Pluggable device.md>) and informs the Relayer 🛰️.
     |3| `Brand` | The Relayer 🛰️ registers the [Pluggable's Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) in the [Pluggable's Brand 🍏 domain](<../../70 🌳 Ambient/71 💠 Brand Things/07 🍏🎭 Brand role.md>).
     |4| `API Schema`| The [Brand 🍏](<../../70 🌳 Ambient/71 💠 Brand Things/07 🍏🎭 Brand role.md>) tells the Relayer 🛰️ where to read the [API Schema 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) of the [Pluggable 🔌 device](<01 🔌 Pluggable device.md>).
-    |5| `Graph`|  The Relayer 🛰️ domain reads the [API Schema 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) from a [Graph 🕸 helper domain](<../../42 Backbone/20 Graphs/03 🕸🛠️ Graph helper.md>).
+    |5| `Graph`|  The Relayer 🛰️ domain reads the [API Schema 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) from a [Graph 🕸 helper domain](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>).
     |6| `Domain` | The Relayer 🛰️ domain informs the owner [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) of the newly-plugged [Pluggable 🔌 device](<01 🔌 Pluggable device.md>).
     |A| `Command`| The owner [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) sends a natural language command (e.g., `Test`) on the [Pluggable 🔌 device](<01 🔌 Pluggable device.md>).
     |B| `Translate`| The Relayer 🛰️ translates it with a cached [API Schema 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) and relays it via the [Antenna 📡 device](<02 📡🔀 Antenna router.md>).

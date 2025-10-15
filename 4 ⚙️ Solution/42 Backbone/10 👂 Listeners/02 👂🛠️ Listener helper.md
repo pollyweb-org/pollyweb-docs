@@ -5,7 +5,7 @@
 1. **What is a Listener domain in NLWeb?**
 
     A [Listener 👂 domain](<02 👂🛠️ Listener helper.md>) is 
-    * a [Helper 🛠️ domain](<../../45 Helpers/$ 🛠️ Helpers/05 🛠️👥 Helper domain.md>) 
+    * a [Helper 🛠️ domain](<../../45 Helpers/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) 
     * with a [Streamer 🌬️ domain role](<../../40 👥 Domains/42 🌬️ Streams/02 🌬️🎭 Streamer role.md>) 
     * that propagates [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) updates. 
 
@@ -21,15 +21,15 @@
     |1| [Domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) publish their [Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) updates to the DNS endpoint of the global Listeners 👂 cluster. As a fallback, the same updates may be sent to an individual [Listener 👂 domain](<02 👂🛠️ Listener helper.md>).
     |2| The cluster DNS routes the update messages to the best [Listener 👂 domain](<02 👂🛠️ Listener helper.md>) based on latency.
     |3| Listeners 👂 replicate the update messages amongst all [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) of the cluster.
-    |4| Each [Listener 👂 domain](<02 👂🛠️ Listener helper.md>) performs a fan-out propagation of update events to all [Graph 🕸 helper domains](<../../42 Backbone/20 Graphs/03 🕸🛠️ Graph helper.md>) that [subscribed 🔔](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) to the Listener's 👂 [domain-event Stream 🌬️](<../../40 👥 Domains/42 🌬️ Streams/02 🌬️🎭 Streamer role.md>).
+    |4| Each [Listener 👂 domain](<02 👂🛠️ Listener helper.md>) performs a fan-out propagation of update events to all [Graph 🕸 helper domains](<../20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) that [subscribed 🔔](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) to the Listener's 👂 [domain-event Stream 🌬️](<../../40 👥 Domains/42 🌬️ Streams/02 🌬️🎭 Streamer role.md>).
 
     ---
     <br/>
 
 1. **Why are Listeners necessary?**
 
-    NLWeb relies on a distributed cache of [Graph 🕸 helper domains](<../../42 Backbone/20 Graphs/03 🕸🛠️ Graph helper.md>), which allows Manifest-owners to go offline without impacting whoever needs the information contained in the [Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>). 
-    * [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) ensure that the cache in these [Graph 🕸 domains](<../../42 Backbone/20 Graphs/03 🕸🛠️ Graph helper.md>) is updated in near-real-time by propagating domain update notifications to [Graph 🕸 domains](<../../42 Backbone/20 Graphs/03 🕸🛠️ Graph helper.md>). 
+    NLWeb relies on a distributed cache of [Graph 🕸 helper domains](<../20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>), which allows Manifest-owners to go offline without impacting whoever needs the information contained in the [Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>). 
+    * [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) ensure that the cache in these [Graph 🕸 domains](<../20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) is updated in near-real-time by propagating domain update notifications to [Graph 🕸 domains](<../20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>). 
 
     ---
     <br/>
@@ -37,7 +37,7 @@
 1. **How aren't Listeners and Graphs the same?**
 
     Because of the separation of responsibilities. 
-    * While [Graph 🕸 domains](<../../42 Backbone/20 Graphs/03 🕸🛠️ Graph helper.md>) can be built by anyone, [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) are a lightweight layer managed by a coordinated consortium of cloud providers.
+    * While [Graph 🕸 domains](<../20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) can be built by anyone, [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) are a lightweight layer managed by a coordinated consortium of cloud providers.
 
     ---
     <br/>
@@ -154,7 +154,7 @@
 
 1. **Why is there a size limitation on the entire Manifest?**
 
-    Domains may ask [Graph 🕸 domains](<../../42 Backbone/20 Graphs/03 🕸🛠️ Graph helper.md>) and [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) to download their [Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) for drift detection and sync reset. 
+    Domains may ask [Graph 🕸 domains](<../20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) and [Listener 👂 domains](<02 👂🛠️ Listener helper.md>) to download their [Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) for drift detection and sync reset. 
     - For that, the entire content of the [Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) needs to be in memory, with 1 GB being the minimum common denominator for functions among the well-known cloud providers.
 
     ---

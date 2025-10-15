@@ -34,7 +34,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header| `From`    | string | The name of the sender [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>)
-|       | `To`      | string | [Graph 🕸 domain](<../../4 ⚙️ Solution/42 Backbone/20 Graphs/03 🕸🛠️ Graph helper.md>) name
+|       | `To`      | string | [Graph 🕸 domain](<../../4 ⚙️ Solution/42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) name
 |       | `Subject` | string | `Trusted@Graph`
 | Body  | `Domain`  | string | The [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) name to assess.
 |       | `Role`    | enum   | The domain role to assess: `VAULT`, `CONSUMER`, `*`

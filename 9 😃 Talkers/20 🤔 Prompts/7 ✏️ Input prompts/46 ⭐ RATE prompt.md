@@ -77,7 +77,7 @@
     | - | - | - |
     | [🤗 Host](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | 😃 What's the rate? | ⭐ 5
     [🫥 Agent](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | 🫥 What's the code? | ⭐ 4
-    | [🛠️ Helper](<../../../4 ⚙️ Solution/45 Helpers/$ 🛠️ Helpers/05 🛠️👥 Helper domain.md>) | 🫥 What's the code? | ⭐ 2
+    | [🛠️ Helper](<../../../4 ⚙️ Solution/45 Helpers/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) | 🫥 What's the code? | ⭐ 2
     |
 
     <br/>

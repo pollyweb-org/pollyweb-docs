@@ -3,8 +3,8 @@
 
 1. **What is a Graph domain in NLWeb?**
 
-    A [Graph 🕸 domain](<03 🕸🛠️ Graph helper.md>) is 
-    * any [Helper 🛠️ domain](<../../45 Helpers/$ 🛠️ Helpers/05 🛠️👥 Helper domain.md>) 
+    A [Graph 🕸 domain](<$ 🕸🛠️ Graph helper.md>) is 
+    * any [Helper 🛠️ domain](<../../45 Helpers/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) 
     * that subscribes to [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) change events from [Listener 👂 domains](<../10 👂 Listeners/02 👂🛠️ Listener helper.md>)
     * then builds network representations of [Trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) relationships between [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>)
     * including indirect relationships via [Authority 🏛️ domains](<../../40 👥 Domains/43 👍 Trusts/02 🏛️🛠️ Authority helper.md>). 
@@ -14,7 +14,7 @@
 
 1. **What can domains use Graphs for?**
 
-    [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) can answer the following questions synchronously from any [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>).
+    [Graph 🕸 domains](<$ 🕸🛠️ Graph helper.md>) can answer the following questions synchronously from any [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>).
 
     |Scope&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Question
     |-|-
@@ -35,13 +35,13 @@
 
     ![](<.📎 Assets/📜 Graphs.png>)
 
-    [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) subscribe to changes in [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>). 
+    [Graph 🕸 domains](<$ 🕸🛠️ Graph helper.md>) subscribe to changes in [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>). 
 
     - Domains have the responsibility to raise an event every time they publish a new version of their [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) or [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>). 
     
-    - To allow any graph to subscribe to changes in any [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>), NLWeb provides a cluster of [Listener 👂 nodes](<../10 👂 Listeners/02 👂🛠️ Listener helper.md>) for [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) to publish change notifications to, and for [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) to receive notifications from. 
+    - To allow any graph to subscribe to changes in any [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>), NLWeb provides a cluster of [Listener 👂 nodes](<../10 👂 Listeners/02 👂🛠️ Listener helper.md>) for [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) to publish change notifications to, and for [Graph 🕸 domains](<$ 🕸🛠️ Graph helper.md>) to receive notifications from. 
     
-    - Upon receiving a notification, [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) update their graph representations. 
+    - Upon receiving a notification, [Graph 🕸 domains](<$ 🕸🛠️ Graph helper.md>) update their graph representations. 
 
     ---
     <br/>
@@ -50,7 +50,7 @@
 
     No. NLWeb doesn't use ledgers nor [decentralized identifiers (DIDs) 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/03 🛂 Travel ID landscape/10 📺 W3C VC Ledgers.md>). 
     * Instead of DIDs, NLWeb uses DNS and the web's Public Key Infrastructure (PKI) to identify domains — thus, it doesn't need an additional database for registration and discovery. 
-    * [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) are cached representations of the NLWeb, contributing to maximizing performance, resilience, and onboarding.
+    * [Graph 🕸 domains](<$ 🕸🛠️ Graph helper.md>) are cached representations of the NLWeb, contributing to maximizing performance, resilience, and onboarding.
 
     ---
     <br/>
@@ -60,21 +60,21 @@
 
     To reset their [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>):
     * a [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) can send a RESET event to their [Listener 👂 helper domain](<../10 👂 Listeners/02 👂🛠️ Listener helper.md>);
-    * subscribed [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) will interpret it as the need to start from scratch.
+    * subscribed [Graph 🕸 domains](<$ 🕸🛠️ Graph helper.md>) will interpret it as the need to start from scratch.
 
     ---
     <br/>
 
 1. **What if an event references an unknown Schema Code?**
 
-    [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) will place the change on hold until the referenced [Schema Code 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) is available.
+    [Graph 🕸 domains](<$ 🕸🛠️ Graph helper.md>) will place the change on hold until the referenced [Schema Code 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) is available.
 
     ---
     <br/>
 
 1. **How can domains know about Manifest events placed on hold?**
 
-    [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) raise alert events. 
+    [Graph 🕸 domains](<$ 🕸🛠️ Graph helper.md>) raise alert events. 
     - Interested domains should [subscribe 🔔](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) to the Graph's [Streamer 🌬️ role](<../../40 👥 Domains/42 🌬️ Streams/02 🌬️🎭 Streamer role.md>), filtering the [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) they're interested in receiving alert notifications about. 
     - For privacy reasons, some security alerts may only be pushed to the [Subscriber 🔔 domain](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) that is referenced in the alert.
 
@@ -83,7 +83,7 @@
 
 1. **How is a new NLWeb trust graph populated?**
 
-    Whenever a new [Graph 🕸 domain](<03 🕸🛠️ Graph helper.md>) is "born", 
+    Whenever a new [Graph 🕸 domain](<$ 🕸🛠️ Graph helper.md>) is "born", 
     * it can ask a [Listener 👂 domain](<../10 👂 Listeners/02 👂🛠️ Listener helper.md>) 
     * to replay the last change notification 
     * of every domain path
@@ -99,7 +99,7 @@
     
     * When [Issuer 🎴 domains](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) rotate their [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>), it is no longer possible for [Consumer 💼 domains](<../../25 Data/27 💼 Consumers/04 💼🎭 Consumer role.md>) to validate old [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) with the new [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>).
 
-    * Instead, [Consumer 💼 domains](<../../25 Data/27 💼 Consumers/04 💼🎭 Consumer role.md>) should ask a [Graph 🕸 domain](<03 🕸🛠️ Graph helper.md>) for the Issuer's [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) at the time the [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) was issued.
+    * Instead, [Consumer 💼 domains](<../../25 Data/27 💼 Consumers/04 💼🎭 Consumer role.md>) should ask a [Graph 🕸 domain](<$ 🕸🛠️ Graph helper.md>) for the Issuer's [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) at the time the [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) was issued.
 
     ---
     <br/>
