@@ -1,9 +1,9 @@
 # 🤵🐌📣 Prompt @ Notifier
 
 > Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/31 🤗⏩🧑‍🦰 Prompt 🤔 flow.md>) flow, succeeded by:
-> <br/>• [`Prompted@Host`](<../../50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) message
-> <br/>• [`Reply@Host`](<../../50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) message
-> <br/>• [`Download@Host`](<../../50 🤗🅰️ Host/06 🧑‍🦰🚀🤗 Download.md>)  message
+> <br/>• [`Prompted@Host`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted@Host.md>) message
+> <br/>• [`Reply@Host`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply@Host.md>) message
+> <br/>• [`Download@Host`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/50 🤗🅰️ Host/06 🧑‍🦰🚀🤗 Download@Host.md>)  message
 
 
 [Broker 🤵 domains](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) 
