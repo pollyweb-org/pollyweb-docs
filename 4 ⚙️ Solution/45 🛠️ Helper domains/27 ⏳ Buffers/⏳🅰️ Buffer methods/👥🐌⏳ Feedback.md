@@ -4,7 +4,7 @@
 
 > Implements a [Buffer ⏳ helper domain](<../⏳🛠️ Buffer helper.md>)
 
-> Mentioned in [domain Message 📨](<../../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>)
+> Mentioned in [domain Message 📨](<../../../40 👥 Domains/41 📨 Messages/📨 Message.md>)
 
 
 <br/> 
@@ -26,11 +26,11 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From` | uuid | [Domain 👥](<../../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) name of the [Message 📨](<../../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>) receiver 
+|Header|`From` | uuid | [Domain 👥](<../../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) name of the [Message 📨](<../../../40 👥 Domains/41 📨 Messages/📨 Message.md>) receiver 
 ||`To`| string | Sender's [Buffer ⏳ helper domain](<../⏳🛠️ Buffer helper.md>) name
 ||`Subject`| string | `Feedback@Buffer`
-|Body| `Sender`| string | [Domain 👥](<../../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) name of the [Message 📨](<../../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>) sender
-||`Correlation`| uuid | Correlation ID of the affected [Message 📨](<../../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>)
+|Body| `Sender`| string | [Domain 👥](<../../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) name of the [Message 📨](<../../../40 👥 Domains/41 📨 Messages/📨 Message.md>) sender
+||`Correlation`| uuid | Correlation ID of the affected [Message 📨](<../../../40 👥 Domains/41 📨 Messages/📨 Message.md>)
 ||`Status`| string | `Discarded`
 ||`Reason`| string | Reason for the status code
 |
