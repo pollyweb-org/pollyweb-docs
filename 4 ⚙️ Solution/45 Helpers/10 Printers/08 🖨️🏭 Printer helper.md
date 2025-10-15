@@ -5,7 +5,7 @@
 
     Printers 🖨️ are [Helper 🛠️ domains](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) 
     * specialized in printing and managing [NFC/QR Locators 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) 
-    * on behalf of [Brand 🍏 domains](<07 🍏🎭 Brand role.md>) or any other [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>).
+    * on behalf of [Brand 🍏 domains](<../../70 🌳 Ambient/71 💠 Brand Things/07 🍏🎭 Brand role.md>) or any other [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>).
 
     ---
 
@@ -25,7 +25,7 @@
 1. **Why are Printers important?**
 
     For users:
-    * Printer 🖨️ domains allow users to turn any object into a smart object - i.e., a [Thing 💠](<01 💠 Thing.md>);
+    * Printer 🖨️ domains allow users to turn any object into a smart object - i.e., a [Thing 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>);
     * e.g., before going on trip through Asia, a user can buy a smart sticker in a supermarket then stick it on their old-yet-cherished notebook of memories so that anyone can return it free of charge if left behind.
 
     For businesses:
@@ -42,7 +42,7 @@
 
     - **Direct sell**: Printers 🖨️ may sell generic stickers and tags in supermarkets for users to enhance their existing objects.
     
-    - **Supplier sell**: Printers 🖨️ may supply [Brand 🍏 domains](<07 🍏🎭 Brand role.md>) and other [Host 🤗 domains](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) with printing [Locators 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) that these domains then integrate into their products.
+    - **Supplier sell**: Printers 🖨️ may supply [Brand 🍏 domains](<../../70 🌳 Ambient/71 💠 Brand Things/07 🍏🎭 Brand role.md>) and other [Host 🤗 domains](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) with printing [Locators 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) that these domains then integrate into their products.
 
     ---
 
