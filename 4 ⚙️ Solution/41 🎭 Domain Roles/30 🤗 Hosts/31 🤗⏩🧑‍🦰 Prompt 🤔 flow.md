@@ -51,9 +51,9 @@ The associated [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/10 �
 |-|-|-
 | 1 | [🤗🐌🤵 `Prompt@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/03 🤗🐌🤵 Prompt.md>) | [Hosts 🤗](<$ 🤗🎭 Host role.md>) tell [Brokers 🤵](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) of [Prompt 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) intents
 | 2 | [🤵🐌📣 `Prompt@Notifier`](<../../../6 🅰️ APIs/65 📣🅰️ Notifier/02 📣💬🅰️ Chats/21 🤵🐌📣 Prompt.md>) | [Brokers 🤵](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) push to [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) via [Notifiers 📣](<../../20 🧑‍🦰 UI/02 📣 Notifiers/$ 📣 Notifier domain.md>)
-| 3 | [🧑‍🦰🚀🤗 `Prompted@Host`](<50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted@Host.md>) | [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) pull the content from the [Host 🤗](<$ 🤗🎭 Host role.md>)
-| 4| [🧑‍🦰🚀🤗 `Download@Host`](<50 🤗🅰️ Host/06 🧑‍🦰🚀🤗 Download@Host.md>) | [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) download files from the [Host 🤗](<$ 🤗🎭 Host role.md>)
-| 5 | [🧑‍🦰🐌🤗 `Reply@Host`](<50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply@Host.md>) | The [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) replies directly to the [Host 🤗](<$ 🤗🎭 Host role.md>)
+| 3 | [🧑‍🦰🚀🤗 `Prompted@Host`](<50 🤗🅰️ Host/54 🧑‍🦰🚀🤗 Prompted@Host.md>) | [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) pull the content from the [Host 🤗](<$ 🤗🎭 Host role.md>)
+| 4| [🧑‍🦰🚀🤗 `Download@Host`](<50 🤗🅰️ Host/56 🧑‍🦰🚀🤗 Download@Host.md>) | [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) download files from the [Host 🤗](<$ 🤗🎭 Host role.md>)
+| 5 | [🧑‍🦰🐌🤗 `Reply@Host`](<50 🤗🅰️ Host/55 🧑‍🦰🐌🤗 Reply@Host.md>) | The [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) replies directly to the [Host 🤗](<$ 🤗🎭 Host role.md>)
 ||
 
 <br/>

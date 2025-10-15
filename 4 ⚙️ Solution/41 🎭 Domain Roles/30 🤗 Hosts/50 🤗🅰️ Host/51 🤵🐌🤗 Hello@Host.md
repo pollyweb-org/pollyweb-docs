@@ -44,7 +44,7 @@ Body:
 |           | `Subject` | string    | `Hello@Host`
 | Body      | `Language`| enum    | ISO language code
 |           | `ChatID`  | uuid      | [Chat 💬](<../../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID in the [Broker 🤵 domain](<../../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>)
-|           | `PublicKey`| string | For [`Prompted@`](<04 🧑‍🦰🚀🤗 Prompted@Host.md>) [`Reply@`](<05 🧑‍🦰🐌🤗 Reply@Host.md>) [`Download@`](<06 🧑‍🦰🚀🤗 Download@Host.md>)
+|           | `PublicKey`| string | For [`Prompted@`](<54 🧑‍🦰🚀🤗 Prompted@Host.md>) [`Reply@`](<55 🧑‍🦰🐌🤗 Reply@Host.md>) [`Download@`](<56 🧑‍🦰🚀🤗 Download@Host.md>)
 |           | `Locator` | string    | [Locator 🔆](<../../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) in the [Host 🤗 domain](<../$ 🤗🎭 Host role.md>)
 |           | `Code`    | string    | [Schema Code 🧩](<../../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) of the Locator
 |           | `Binds`   | uuid[] | List of [Binds 🔗](<../../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) for a [Vault 🗄️](<../../80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) host
