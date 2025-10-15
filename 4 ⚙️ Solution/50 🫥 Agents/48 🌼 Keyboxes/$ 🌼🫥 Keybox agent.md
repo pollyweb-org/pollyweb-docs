@@ -1,7 +1,7 @@
 🌼 Keybox domain
 ===
 
-![](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/00 📎 Assets/🔒 Keybox.png>)
+![](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/. 📎 Assets/🔒 Keybox.png>)
 
 1. **What is a Keybox?**
 

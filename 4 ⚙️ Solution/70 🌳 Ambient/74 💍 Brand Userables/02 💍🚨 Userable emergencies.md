@@ -98,7 +98,7 @@
     - They can also be used in non-tech environments, like airports and highly secure environments.
   
     For automatic emergency alarms,
-    * see [Tapband ⌚ thing](<../76 ⌚ Brand Tapbands/01 ⌚💠 Tapband thing.md>) for collecting health sensor measurements
+    * see [Tapband ⌚ thing](<../76 ⌚ Brand Tapbands/$ ⌚💠 Tapband thing.md>) for collecting health sensor measurements
     * and [Vitalogists 💖 agents](<../../50 🫥 Agents/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) for triggering emergency alarms.
 
 
@@ -118,7 +118,7 @@
     - They can also be used in non-tech environments, like airports and highly secure environments.
 
     For automatic emergency alarms,
-    * see [Tapband ⌚ thing](<../76 ⌚ Brand Tapbands/01 ⌚💠 Tapband thing.md>) for collecting health sensor measurements
+    * see [Tapband ⌚ thing](<../76 ⌚ Brand Tapbands/$ ⌚💠 Tapband thing.md>) for collecting health sensor measurements
     * and [Vitalogists 💖 agents](<../../50 🫥 Agents/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) for triggering emergency alarms.
     
     ---
