@@ -8,7 +8,7 @@
 
 1. **What are Navigator domains**?
 
-    A [Navigator 🧭](<01 🧭🫥 Navigator agent.md>)  
+    A [Navigator 🧭](<$ 🧭🫥 Navigator agent.md>)  
     * is an [Agent 🫥 vault domain](<../../25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) 
     * that helps users find their way to a destination
     * by orchestrating globally distributed maps
@@ -20,14 +20,14 @@
 
 1. **Isn't that what Google Maps already does?**
 
-    Yes, but [Navigator 🧭 domains](<01 🧭🫥 Navigator agent.md>) do more.
+    Yes, but [Navigator 🧭 domains](<$ 🧭🫥 Navigator agent.md>) do more.
 
-    * [Navigator 🧭 domains](<01 🧭🫥 Navigator agent.md>) indeed can leverage Google Maps API to calculate directions, 
+    * [Navigator 🧭 domains](<$ 🧭🫥 Navigator agent.md>) indeed can leverage Google Maps API to calculate directions, 
       * which are typically based on Google's satellite data, areal data, and street view data.
-    * [Navigator 🧭 domains](<01 🧭🫥 Navigator agent.md>) then add a layer of community input that is based on physical characteristics of the environment;  
+    * [Navigator 🧭 domains](<$ 🧭🫥 Navigator agent.md>) then add a layer of community input that is based on physical characteristics of the environment;  
         * e.g., `turn left on the red piano and follow the lounge sign`. 
         * This kind of indoor navigation is generally not possible with Google Maps, except for a few pilot implementation in major airports.
-    * [Navigator 🧭 domains](<01 🧭🫥 Navigator agent.md>) can also take advantage of walls to direct the user based on where the wall is facing;
+    * [Navigator 🧭 domains](<$ 🧭🫥 Navigator agent.md>) can also take advantage of walls to direct the user based on where the wall is facing;
         * e.g., a subway wall at an intersection my just say `take the train on the left`.
         * This is hard to achieve with only the technology inside a phone, because apps don't know where the phone is facing when the user is holding the phone horizontally.
 
@@ -79,7 +79,7 @@
     * Users read these [navigation Locators 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) with their [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
     * Each [navigation Locators 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) points to a geographical point described in a [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>).
     * Each point may point to other points in other [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>).
-    * The [Navigator 🧭 domain](<01 🧭🫥 Navigator agent.md>) then merges the points to create a path for the user.
+    * The [Navigator 🧭 domain](<$ 🧭🫥 Navigator agent.md>) then merges the points to create a path for the user.
 
 ---
 

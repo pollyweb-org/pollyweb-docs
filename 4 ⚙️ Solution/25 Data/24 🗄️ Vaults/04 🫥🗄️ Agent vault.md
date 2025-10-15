@@ -29,14 +29,14 @@
     |🆔|[Identity](<../../30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) | IDOne | Confirms that the user is physically present behind the remote screen.
     |🌼| [Keybox](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/04 🌼🗄️ Keybox vault.md>) | FindMy | Stores and manages the user's [Padlock 🔒](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/01 🔒 Padlock device.md>) keys.
     |📇| [Mingler](<../../30 🫥 Agents/50 📇 Minglers/01 📇🫥 Mingler agent.md>) | WhatsApp | Connects multiple users in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>), allowing them to exchange [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>).
-    |🧭| [Navigator](<../../30 🫥 Agents/55 🧭 Navigators/01 🧭🫥 Navigator agent.md>) | G.Maps | Helps users going from point A to B.
+    |🧭| [Navigator](<../../30 🫥 Agents/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | G.Maps | Helps users going from point A to B.
     |💳| [Payer](<../../30 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) | Paypal | Performs payments to [Collector 🏦 domains](<../../45 🛠️ Helper domains/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>).
     |🧢| [Persona](<../../30 🫥 Agents/70 🧢 Personas/$ 🧢🫥 Persona agent.md>) | Facebook | Stores and shares user preferences and personally identifiable information (PII).
     |⭐| [Reviewer](<../../30 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) | TrustPilot | Collects and shares user feedback from [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) experiences.
     |🗓️| [Scheduler](<../../30 🫥 Agents/75 🗓️ Schedulers/$ 🗓️🗄️ Scheduler agent.md>) | Outlook | Monitors and manages the user's agenda.
     |📦| [Storage](<../../30 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>) | Dropbox | Stores user data for other [Vault 🗄️ domains](<../../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>), for data residency compliance.
-    |🕓| [Timeline](<../../30 🫥 Agents/90 🕓 Timeline/01 🕓🗄️ Timeline agent.md>) | G.Photos | Collects and fans out user-related events.
-    |💖| [Vitalogist](<../../30 🫥 Agents/95 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) | GoogleFit | Monitors the user's health events and provides feedback.
+    |🕓| [Timeline](<../../30 🫥 Agents/90 🕓 Timeline/$ 🕓🗄️ Timeline agent.md>) | G.Photos | Collects and fans out user-related events.
+    |💖| [Vitalogist](<../../30 🫥 Agents/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | GoogleFit | Monitors the user's health events and provides feedback.
 
     ---
     <br/>
@@ -76,8 +76,8 @@
     | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | ✅ Over to 🧭 Navigator.
     | [ new chat ]
     | 🔎 [Finder](<../../30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Navigator (4.4 ⭐) [+]
-    | 🧭 [Navigator](<../../30 🫥 Agents/55 🧭 Navigators/01 🧭🫥 Navigator agent.md>) | ℹ️ Request: return to hotel [+]
-    | 🧭 [Navigator](<../../30 🫥 Agents/55 🧭 Navigators/01 🧭🫥 Navigator agent.md>) | 😃 Go to `Any Hotel`? [Yes, No]| > Yes
+    | 🧭 [Navigator](<../../30 🫥 Agents/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | ℹ️ Request: return to hotel [+]
+    | 🧭 [Navigator](<../../30 🫥 Agents/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | 😃 Go to `Any Hotel`? [Yes, No]| > Yes
     | ...
     
     ---

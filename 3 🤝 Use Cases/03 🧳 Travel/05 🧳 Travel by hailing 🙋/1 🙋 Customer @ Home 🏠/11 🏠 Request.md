@@ -19,7 +19,7 @@ How to request an immediate ride?
 | 🙋 Hailing | ⏳ [Pick-up by 12:37...](<../../../../9 😃 Talkers/20 🤔 Prompts/4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>)<br/>- [ Cancel pick-up ]
 | 🙋 Hailing | ⏳ [Pick-up by 12:35...](<../../../../9 😃 Talkers/20 🤔 Prompts/4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>)<br/>- [ Cancel pick-up ]
 | 🙋 Hailing | 📣 Daniel arrived! [ Quiet, 5... 4... ] | > Quiet
-| 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/55 🧭 Navigators/01 🧭🫥 Navigator agent.md>) | ⓘ The driver is at your door.
+| 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | ⓘ The driver is at your door.
 | 🙋 Hailing | ⏳ Tap inside until 12:41...<br> - [ Say "be right there" ] <br/>- [ Say something else ] <br>- [ Cancel pick-up ]
 |...
 ||

@@ -41,7 +41,7 @@ What it solves for customers:
 | 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | ⓘ Half pint it is.
 | 🧚 [Curator](<../../../4 ⚙️ Solution/30 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Anything else? [Yes, No]     | > No
 | 🕺 Club           | ℹ️ Order: [Change] <br/>- 1 half pint lager 🍺 (£3.00) <br/>- to Ms. Butterfly
-| 💖 [Vitalogist](<../../../4 ⚙️ Solution/30 🫥 Agents/95 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) | 🫥 Confirm? [Yes, No] <br> - warning: you came by car. | > Yes
+| 💖 [Vitalogist](<../../../4 ⚙️ Solution/30 🫥 Agents/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | 🫥 Confirm? [Yes, No] <br> - warning: you came by car. | > Yes
 | 💳 [Payer](<../../../4 ⚙️ Solution/30 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Pay £3.00 bill? 🧾 [No] <br/>- [ Card ABC ] + $0.10 <br/>- [ Card DEF ] (free) | > Card ABC |
 | 🕺 Club           | ✅ Order submitted [+]
 | 🕺 Club           | ⏳ Preparing your order... <br/>- [ Cancel ] 

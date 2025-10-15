@@ -7,6 +7,6 @@ When at the train platform, users tap/scan an NFC/QR tag in the platform.
 | - | - | - |
 | | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>)
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Navigator (4.3 ⭐) [+]
-| 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/55 🧭 Navigators/01 🧭🫥 Navigator agent.md>) | ✅ Sign WP: west platform 🐋 [+] <br/> - MAD T2 train station
-| 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/55 🧭 Navigators/01 🧭🫥 Navigator agent.md>) | ℹ️ Go to security (16 min): [+] <br/>- exit via stairs to TG 🐯 <br/>- cross the gate to AE 🐊<br/>- turn right to J1 🪼 <br/>- walk 10 min to S7 🦈
+| 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | ✅ Sign WP: west platform 🐋 [+] <br/> - MAD T2 train station
+| 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | ℹ️ Go to security (16 min): [+] <br/>- exit via stairs to TG 🐯 <br/>- cross the gate to AE 🐊<br/>- turn right to J1 🪼 <br/>- walk 10 min to S7 🦈
 ||
