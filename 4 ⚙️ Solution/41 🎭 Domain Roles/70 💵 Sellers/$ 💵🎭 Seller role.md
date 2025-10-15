@@ -10,7 +10,7 @@
 
 1. **How do Sellers sell to users?**
 
-    ![](<../../30 🫥 Agents/04 💳 Payers/00 📎 Assets/💳💵 Seller.png>)
+    ![](<../../30 🫥 Agents/04 💳 Payers/. 📎 Assets/💳💵 Seller.png>)
 
     | # | Step
     |-|-

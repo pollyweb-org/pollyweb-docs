@@ -9,7 +9,7 @@
 
 1. **How are user payments processed for users?**
 
-    ![](<00 📎 Assets/💳 Payer.png>)
+    ![](<. 📎 Assets/💳 Payer.png>)
 
     On NLWeb, payment transactions with users are handled between:
     * [Sellers 💵](<../../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>) -  these are [Consumer 💼](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) domains that request payments;
