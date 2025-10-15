@@ -3,7 +3,7 @@
 
 1. **What is a Host domain role in NLWeb?**
 
-    A [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) with a [Host 🤗 domain role](<$ 🤗🎭 Host role.md>) is any [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) that
+    A [domain 👥](<../../40 👥 Domains/$ 👥 Domains/00 👥 Domain.md>) with a [Host 🤗 domain role](<$ 🤗🎭 Host role.md>) is any [domain 👥](<../../40 👥 Domains/$ 👥 Domains/00 👥 Domain.md>) that
     * hosts a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) 
     * via a [Broker 🤵 domain](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>). 
 
@@ -111,7 +111,7 @@
 
 1. **What API methods are exposed by a Host domain?**
 
-    | [From 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Subject 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) | Description
+    | [From 👥](<../../40 👥 Domains/$ 👥 Domains/00 👥 Domain.md>) | [Subject 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) | Description
     |-|-|-
     |[🤵 Broker](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | [`Hello`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/01 🤵🐌🤗 Hello.md>) | The user started a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
     | | [`Home`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/02 🤵🐌🤗 Home.md>) | Show the top menu on the [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)

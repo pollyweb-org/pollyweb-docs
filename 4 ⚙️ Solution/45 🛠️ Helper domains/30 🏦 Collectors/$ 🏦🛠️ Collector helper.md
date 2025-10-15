@@ -5,7 +5,7 @@
 
     A [Collector 🏦](<$ 🏦🛠️ Collector helper.md>) is 
     * any [Helper 🛠️ domain](<../$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) 
-    * that other [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) can leverage 
+    * that other [domains 👥](<../../40 👥 Domains/$ 👥 Domains/00 👥 Domain.md>) can leverage 
     * to collect payments from [Payer 💳 domains](<../../50 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>);
     * e.g., a traditional bank, with a simple bank account.
     
@@ -18,10 +18,10 @@
 
     |#|Step
     |-|-
-    |1| A [Payer 💳 domain](<../../50 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) receives an order to make a payment, either from a user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) in a business-to-consumer (B2C) transaction, or from a [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) in a business-to-business (B2B) transaction.
+    |1| A [Payer 💳 domain](<../../50 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) receives an order to make a payment, either from a user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) in a business-to-consumer (B2C) transaction, or from a [domain 👥](<../../40 👥 Domains/$ 👥 Domains/00 👥 Domain.md>) in a business-to-business (B2B) transaction.
     |2| The [Payer 💳 domain](<../../50 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) then performs a traditional payment to a [Collector 🏦 helper domain](<$ 🏦🛠️ Collector helper.md>).
     |3| The [Collector 🏦 domain](<$ 🏦🛠️ Collector helper.md>)issues a traditional receipt back to the [Payer 💳 domain](<../../50 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>).
-    |4| The [Collector 🏦 domain](<$ 🏦🛠️ Collector helper.md>)notifies the recipient [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) that the payment was successful.
+    |4| The [Collector 🏦 domain](<$ 🏦🛠️ Collector helper.md>)notifies the recipient [domain 👥](<../../40 👥 Domains/$ 👥 Domains/00 👥 Domain.md>) that the payment was successful.
 
     ---
     <br/>
@@ -39,7 +39,7 @@
 
 1. **How does a domain withdraw its money from a Collector?**
     
-    How a recipient [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) receives the money on their bank account depends on the [Collector 🏦 domain](<$ 🏦🛠️ Collector helper.md>) - options are as follows.
+    How a recipient [domain 👥](<../../40 👥 Domains/$ 👥 Domains/00 👥 Domain.md>) receives the money on their bank account depends on the [Collector 🏦 domain](<$ 🏦🛠️ Collector helper.md>) - options are as follows.
 
     | Option | Example | Description
     |-|-|-
@@ -53,7 +53,7 @@
 1. **What responsibilities do Collectors have with receipts?**
 
     For fiscal purposes, [Collector 🏦 domains](<$ 🏦🛠️ Collector helper.md>) are responsible for:
-    - issuing receipts on behalf of the [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>), 
+    - issuing receipts on behalf of the [domain 👥](<../../40 👥 Domains/$ 👥 Domains/00 👥 Domain.md>), 
     - sharing those receipts with the [Payer 💳 domains](<../../50 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>),
     - and archiving those receipts for a given legal duration. 
 
@@ -71,9 +71,9 @@
 
 1. **Can a Collector be use in boutique's cash register?**
 
-    Yes. Here's a possible configuration for [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) admins:
+    Yes. Here's a possible configuration for [domain 👥](<../../40 👥 Domains/$ 👥 Domains/00 👥 Domain.md>) admins:
     - add [🔆 NFC/QR Locators](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) on both sides of the counter;
-    - issue cashier [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) from your [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>);
+    - issue cashier [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) from your [domain 👥](<../../40 👥 Domains/$ 👥 Domains/00 👥 Domain.md>);
     - create check-out workflows for cashier and customers.
 
     Set the cashier workflow as follows:
@@ -112,7 +112,7 @@
     
     The [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) will be similar to the following.
 
-    | [Domain](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/$ 👥 Domains/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     |...
     | 🤗 Host | ℹ️ Let me get you the bill.
