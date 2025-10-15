@@ -14,7 +14,7 @@
 
 |#| Step | Purpose
 |-|-|-
-|1| [🧑‍🦰👉🎴 Save Token 🎫](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/02 🧑‍🦰👉🎴 Save token.md>) | Users save [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) from [Issuers 🎴](<../40 🎴 Issuers/02 🎴🎭 Issuer role.md>) 
+|1| [🧑‍🦰👉🎴 Save Token 🎫](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/02 🧑‍🦰👉🎴 Save token.md>) | Users save [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) from [Issuers 🎴](<../../../../../../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) 
 |2| [🧑‍🦰👉💼 Share Token 🎫](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token 🎫.md>) | Users share [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) with [Consumers 💼](<$ 💼🎭 Consumer role.md>) 
 |3| [🎴🐌🤵 `Revise@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/50 🤵🅰️ Tokens 🎫/52 🎴🐌🤵 Revise.md>) | Async update of the status of a [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
 |4| [💼🚀🤵 `Status@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/62 💼🚀🤵 Status.md>) | Anonymously, verify [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) statuses
@@ -27,7 +27,7 @@
 
 1. **Why isn't the verification done on the Issuer?**
 
-    `Privacy` [Issuer 🎴 domains](<../40 🎴 Issuers/02 🎴🎭 Issuer role.md>) should not be allowed to track users by knowing in which [Consumer 💼 domains](<$ 💼🎭 Consumer role.md>) their [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) where used.
+    `Privacy` [Issuer 🎴 domains](<../../../../../../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) should not be allowed to track users by knowing in which [Consumer 💼 domains](<$ 💼🎭 Consumer role.md>) their [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) where used.
 
     ---
     <br/>

@@ -1,6 +1,6 @@
 # 🎴⏩🧑‍🦰 Revise Token @ Issuer
 
-> An [Issuer 🎴 domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/02 🎴🎭 Issuer role.md>) revises the status of a [Token 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>). 
+> An [Issuer 🎴 domain](<../../../../../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) revises the status of a [Token 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>). 
 
 <br/>
 
@@ -24,7 +24,7 @@ Consider the following Chat excerpt from the [Pass gates at train station 🤝 u
 
 | # | Call | Notes
 |-|-|-
-1| [🎴🐌🤵 `Revise@Broker`](<../../6 🅰️ APIs/15 🤵🅰️ Broker/50 🤵🅰️ Tokens 🎫/52 🎴🐌🤵 Revise.md>) | [Issuers 🎴](<../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/02 🎴🎭 Issuer role.md>) ask to revise a [Token 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
+1| [🎴🐌🤵 `Revise@Broker`](<../../6 🅰️ APIs/15 🤵🅰️ Broker/50 🤵🅰️ Tokens 🎫/52 🎴🐌🤵 Revise.md>) | [Issuers 🎴](<../../../../../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) ask to revise a [Token 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
 2| [🤵⏩🧑‍🦰 Update Tokens 🎫](<../10 🤵⏩ Brokers/08 🤵⏩🧑‍🦰 Update Tokens 🎫.md>) | [Brokers 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) tell [Wallets 🧑‍🦰](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) to update the list
 3| [🤗⏩🧑‍🦰 Prompt 🤔](<../50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) tell users about what happened
 |

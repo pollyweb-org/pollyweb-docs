@@ -26,7 +26,7 @@
 
     Consumers 💼 receive data from the following sources:
     - schema-bound datasets shared directly by users' [Vault 🗄️ domains](<../80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>), and
-    - downloaded [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) issued by an [Issuer 🎴 domain](<../40 🎴 Issuers/02 🎴🎭 Issuer role.md>) and stored on the Wallet.
+    - downloaded [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) issued by an [Issuer 🎴 domain](<../../../../../../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) and stored on the Wallet.
 
     ---
     <br/>
@@ -87,7 +87,7 @@
 
 1. **How do Consumers verify a Token's signature?**
 
-    When issuing [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>), the [Issuer 🎴 domains](<../40 🎴 Issuers/02 🎴🎭 Issuer role.md>) sign them with the same key-pair used in their [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) public key. 
+    When issuing [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>), the [Issuer 🎴 domains](<../../../../../../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) sign them with the same key-pair used in their [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) public key. 
     - Other [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) can use the [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) key to verify the signature on the [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>).
 
     ---
@@ -97,14 +97,14 @@
 
     Yes. 
     
-    - NLWeb advocates for domains to ask [Graph 🕸 domains](<../../45 🛠️ Helper domains/40 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) for the [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) of the [Issuer 🎴 domain](<../40 🎴 Issuers/02 🎴🎭 Issuer role.md>) when verifying [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>). 
+    - NLWeb advocates for domains to ask [Graph 🕸 domains](<../../45 🛠️ Helper domains/40 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) for the [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) of the [Issuer 🎴 domain](<../../../../../../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) when verifying [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>). 
 
     ---
     <br/>
 
 1. **Can Consumers verify Tokens when Issuers rotate a DKIM?**
 
-    [Graph 🕸 domains](<../../45 🛠️ Helper domains/40 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) will find the [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) of the [Issuer 🎴 domain](<../40 🎴 Issuers/02 🎴🎭 Issuer role.md>) that was in use when the [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) was issued.
+    [Graph 🕸 domains](<../../45 🛠️ Helper domains/40 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) will find the [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) of the [Issuer 🎴 domain](<../../../../../../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) that was in use when the [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) was issued.
 
     ---
     <br/>

@@ -19,7 +19,7 @@ Design Decisions
     
     - New chats are opened with a [Locator 🔆](<../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) by scanning a [QR code ✨](<../20 🧑‍🦰 UI/11 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) or by tapping an [NFC tag 🔆](<../20 🧑‍🦰 UI/11 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>). 
     
-    - Users may accept [Tokens 🎫](<../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) issued by [Issuer 🎴 domains](<../41 🎭 Domain Roles/40 🎴 Issuers/02 🎴🎭 Issuer role.md>) - these tokens are stored offline and can be shared and validated by [Consumer 💼 domains](<../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>).
+    - Users may accept [Tokens 🎫](<../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) issued by [Issuer 🎴 domains](<../../../../../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) - these tokens are stored offline and can be shared and validated by [Consumer 💼 domains](<../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>).
 
 
     ---

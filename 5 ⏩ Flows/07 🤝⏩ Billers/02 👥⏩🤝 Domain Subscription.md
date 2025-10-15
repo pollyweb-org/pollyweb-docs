@@ -4,7 +4,7 @@
 
     ![](<../../4 ⚙️ Solution/30 🫥 Agents/60 💳 Payers/. 📎 Assets/💳 Biller Domain.png>)
 
-    Users with ADMIN [Tokens 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) sign contracts on behalf of [Issuer 🎴 domains](<../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/02 🎴🎭 Issuer role.md>) that issued them 
+    Users with ADMIN [Tokens 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) sign contracts on behalf of [Issuer 🎴 domains](<../../../../../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) that issued them 
     * e.g., for `any-biller.com` to accept the signature of a user on behalf of `any-domain.com`, the user needs to hold a [`.HOST/ADMIN 🧩`](<../../7 🧩 Codes/HOST/🧩 HostAdmin.md>) [Token](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) issued by `any-domain.com`;
 
     The following additional preconditions must be met:
