@@ -2,7 +2,7 @@
 
 > Implements a [Buffer ⏳ helper domain](<../⏳🛠️ Buffer helper.md>)
 
-> Used in [Stream @ Streamer 🌬️⏩🔔](<../../../41 🎭 Domain Roles/75 🌬️ Streamers/⏩ Streamer flows/🌬️⏩🔔 Stream.md>) flow
+> Used in [Stream @ Streamer 🌬️⏩🔔](<../../../41 🎭 Domain Roles/75 🌬️ Streamers/🌬️⏩ Streamer flows/🌬️⏩🔔 Stream.md>) flow
 
 > Referenced by [Poll @ Buffer 🔔🚀](<🔔🚀⏳ Poll.md>)
 
