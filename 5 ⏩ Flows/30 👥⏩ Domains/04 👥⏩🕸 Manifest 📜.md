@@ -14,5 +14,5 @@
 | # | Call | Notes
 |-|-|-
 | 1 | [👥🐌👂 `Updated@Listener`](<../../6 🅰️ APIs/60 👂🅰️ Listener/01 👥🐌👂 Updated.md>) | [Domains 👥](<../../4 ⚙️ Solution/40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) notify [Manifest 📜](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) changes
-| 2 | [🌬️⏩🔔 Stream changes](<../../4 ⚙️ Solution/41 🎭 Domain Roles/75 🌬️ Streamers/76  🌬️⏩ Streamers/01 🌬️⏩🔔 Stream.md>) | [Listeners 👂](<../../4 ⚙️ Solution/45 🛠️ Helper domains/60 👂 Listeners/$ 👂🛠️ Listener helper.md>) fan-out to [Subscribers 🔔](<../../4 ⚙️ Solution/41 🎭 Domain Roles/76 🔔 Subscribers/$ 🔔🎭 Subscriber role.md>)
+| 2 | [🌬️⏩🔔 Stream changes](<../../4 ⚙️ Solution/41 🎭 Domain Roles/75 🌬️ Streamers/01 🌬️⏩🔔 Stream.md>) | [Listeners 👂](<../../4 ⚙️ Solution/45 🛠️ Helper domains/60 👂 Listeners/$ 👂🛠️ Listener helper.md>) fan-out to [Subscribers 🔔](<../../4 ⚙️ Solution/41 🎭 Domain Roles/76 🔔 Subscribers/$ 🔔🎭 Subscriber role.md>)
 ||

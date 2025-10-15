@@ -2,7 +2,7 @@
 
 > Implements the [Subscriber 🔔 domain role](<../../4 ⚙️ Solution/41 🎭 Domain Roles/76 🔔 Subscribers/$ 🔔🎭 Subscriber role.md>)
 
-> Used in [Stream @ Streamer 🌬️⏩🔔](<../../4 ⚙️ Solution/41 🎭 Domain Roles/75 🌬️ Streamers/76  🌬️⏩ Streamers/01 🌬️⏩🔔 Stream.md>) flow
+> Used in [Stream @ Streamer 🌬️⏩🔔](<../../4 ⚙️ Solution/41 🎭 Domain Roles/75 🌬️ Streamers/01 🌬️⏩🔔 Stream.md>) flow
 
 <br/>
 
