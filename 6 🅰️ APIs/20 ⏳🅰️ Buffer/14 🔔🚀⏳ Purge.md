@@ -20,7 +20,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From` | string | [Subscriber 🔔 domain](<../../4 ⚙️ Solution/40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) name name
+|Header|`From` | string | [Subscriber 🔔 domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/76 🔔 Subscribers/04 🔔🎭 Subscriber role.md>) name name
 ||`To`| string | [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/15 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) name
 ||`Subject`| string | `Purge@Buffer`
 |Body|`Queue`| uuid | Queue from [`Queue@Buffer`](<12 🔔🐌⏳ Queue.md>)

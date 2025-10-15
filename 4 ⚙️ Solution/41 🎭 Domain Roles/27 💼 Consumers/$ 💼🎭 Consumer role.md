@@ -25,7 +25,7 @@
 1. **What kind of user data is supported by Consumers?**
 
     Consumers 💼 receive data from the following sources:
-    - schema-bound datasets shared directly by users' [Vault 🗄️ domains](<../80 🗄️ Vault/$ 🗄️🎭 Vault role.md>), and
+    - schema-bound datasets shared directly by users' [Vault 🗄️ domains](<../80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>), and
     - downloaded [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) issued by an [Issuer 🎴 domain](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) and stored on the Wallet.
 
     ---
@@ -68,7 +68,7 @@
 
     Yes, but that may produce a poor user experience.
 
-    - [SELF Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) are silently shared with Consumers who issued them, the same way the [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) of a user's [Vault 🗄️ domain](<../80 🗄️ Vault/$ 🗄️🎭 Vault role.md>) is shared silently with the corresponding [Vault 🗄️ domain](<../80 🗄️ Vault/$ 🗄️🎭 Vault role.md>) - this allows for developers to choose either a [Consumer 💼](<$ 💼🎭 Consumer role.md>) or [Vault 🗄️](<../80 🗄️ Vault/$ 🗄️🎭 Vault role.md>) role for personalized features. 
+    - [SELF Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) are silently shared with Consumers who issued them, the same way the [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) of a user's [Vault 🗄️ domain](<../80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) is shared silently with the corresponding [Vault 🗄️ domain](<../80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) - this allows for developers to choose either a [Consumer 💼](<$ 💼🎭 Consumer role.md>) or [Vault 🗄️](<../80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) role for personalized features. 
     
     - Domain admins should evaluate the impact of one design decision over another when it comes to how the domain's relationship is presented to the user.
 
@@ -78,7 +78,7 @@
     
 1. **How can Consumers validate the data schema when consuming?**
 
-    When consuming data from a [Vault 🗄️ domain](<../80 🗄️ Vault/$ 🗄️🎭 Vault role.md>), the data envelope indicates the [Schema Code 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) and the version (e.g., `any-authority.com/any-schema:1.0`). 
+    When consuming data from a [Vault 🗄️ domain](<../80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>), the data envelope indicates the [Schema Code 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) and the version (e.g., `any-authority.com/any-schema:1.0`). 
     
     - The code identifies the [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) where the [Schema Code 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) is defined (e.g., `any-schema` is defined in the [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) of `any-authority.com`), so [Consumer 💼 domains](<$ 💼🎭 Consumer role.md>) can then fetch the schema definitions from a cached [Graph 🕸 domain](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) or directly from the [Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>).
 
@@ -231,7 +231,7 @@
 
     |  Method | Purpose
     |-|-
-    |[🗄️🐌 Consume](<../../../6 🅰️ APIs/30 💼🅰️ Consumer/02 🗄️🐌💼 Consume.md>) | Collect user data from a [Vault 🗄️ domain](<../80 🗄️ Vault/$ 🗄️🎭 Vault role.md>)
+    |[🗄️🐌 Consume](<../../../6 🅰️ APIs/30 💼🅰️ Consumer/02 🗄️🐌💼 Consume.md>) | Collect user data from a [Vault 🗄️ domain](<../80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>)
     | [🧑‍🦰🐌 Receive](<../../../6 🅰️ APIs/30 💼🅰️ Consumer/03 🧑‍🦰🐌💼 Receive.md>) | Receive [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) from a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     
     ---
@@ -241,7 +241,7 @@
    
     |  Flow | Purpose
     |-|-
-    | [⏩🧑‍🦰 Query Vault](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>) | Ask for [Schema Codes 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) in [Vaults 🗄️](<../80 🗄️ Vault/$ 🗄️🎭 Vault role.md>) 
+    | [⏩🧑‍🦰 Query Vault](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>) | Ask for [Schema Codes 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) in [Vaults 🗄️](<../80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) 
     | [⏩🧑‍🦰 Share Token](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token 🎫.md>) | Ask for [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) in  [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) 
     | [⏩🧑‍🦰 Share ID Token](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/05 🧑‍🦰👉💼 Share Token+ID.md>) | Ask for [Identity 🆔](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) bound [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
     | [⏩🧑‍🦰 Token status](<../../../5 ⏩ Flows/20 💼⏩ Consumers/05 💼⏩🤵 Token status.md>) | Ask for the status of a [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)

@@ -29,7 +29,7 @@ Body:
 
 |Object|Property|Type|Description|Default
 |-|-|-|-|-
-|Header|`From` | string | [Subscriber 🔔 domain](<../../4 ⚙️ Solution/40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) name
+|Header|`From` | string | [Subscriber 🔔 domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/76 🔔 Subscribers/04 🔔🎭 Subscriber role.md>) name
 ||`To`| string | [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/15 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) name
 ||`Subject`| string | `Queue@Buffer`
 |Body |`Queue` | uuid | Queue for [`Push@Buffer`](<21 🌬️🐌⏳ Push.md>)

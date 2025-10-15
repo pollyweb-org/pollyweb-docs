@@ -30,7 +30,7 @@ Body:
 
 |Property|Type|Description
 |-|-|-
-| `From`| string | [Vault 🗄️ domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vault/$ 🗄️🎭 Vault role.md>) name
+| `From`| string | [Vault 🗄️ domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) name
 | `To`| string | [Consumer 💼 domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) name
 | `Subject` | string | `Consume@Consumer`
 | `Broker`| string | [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) name
@@ -49,7 +49,7 @@ Body:
 1. **Why a cache?**
 
     `Async` A caching strategy avoids synchronous collection timeouts.
-    * When [Consumer 💼 domains](<../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>)  call [`Collect@Vault`](<../95 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>), [Vault 🗄️ domains](<../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vault/$ 🗄️🎭 Vault role.md>) are expected to gather and cache the data and only send the [`Consume@Consumer`](<02 🗄️🐌💼 Consume.md>) message when the data is cached and ready to be collected.
+    * When [Consumer 💼 domains](<../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>)  call [`Collect@Vault`](<../95 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>), [Vault 🗄️ domains](<../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) are expected to gather and cache the data and only send the [`Consume@Consumer`](<02 🗄️🐌💼 Consume.md>) message when the data is cached and ready to be collected.
     * The Vault's cache duration is expressed in the `TTL` field.
 
     ---
