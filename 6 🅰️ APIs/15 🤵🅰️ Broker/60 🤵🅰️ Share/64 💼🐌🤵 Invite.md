@@ -31,7 +31,7 @@ Body:
 ||`To`       | string  | [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) from [`Hello@Host`](<../../50 🤗🅰️ Host/01 🤵🐌🤗 Hello.md>)
 ||`Subject` | string | `Invite@Broker`
 |Body|`ChatID`   | uuid    | [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) ID from [`Hello@Host`](<../../50 🤗🅰️ Host/01 🤵🐌🤗 Hello.md>)
-||`Helper`  | string  | Invitee [Helper 🛠️ domain](<../../../4 ⚙️ Solution/45 Helpers/$ 🛠️ Helpers/05 🛠️👥 Helper domain.md>) name
+||`Helper`  | string  | Invitee [Helper 🛠️ domain](<../../../4 ⚙️ Solution/45 Helpers/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) name
 ||`Code`     | string  | Related [Schema Code 🧩](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>)
 ||`ConsumerKey` | uuid    | Callback for [`Consume@Consumer`](<../../30 💼🅰️ Consumer/02 🗄️🐌💼 Consume.md>)
 ||`Parameters`| object   | Optional parameters for the invite

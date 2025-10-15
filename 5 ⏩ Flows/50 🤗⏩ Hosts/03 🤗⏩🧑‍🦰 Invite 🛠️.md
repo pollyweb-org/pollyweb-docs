@@ -1,7 +1,7 @@
 # 🤗⏩🧑‍🦰 Invite @ Host
 
 * A [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) 
-    * invites a [Helper 🛠️ domain](<../../4 ⚙️ Solution/45 Helpers/$ 🛠️ Helpers/05 🛠️👥 Helper domain.md>) 
+    * invites a [Helper 🛠️ domain](<../../4 ⚙️ Solution/45 Helpers/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) 
     * to a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>).
   
 * Used in:
@@ -57,7 +57,7 @@ The associated [Talker 😃](<../../9 😃 Talkers/10 📘 Talker specs/10 😃 
 |-|-|-
 |1|[💼🐌🤵 `Invite@Broker`](<../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/64 💼🐌🤵 Invite.md>)|Invite another [Host 🤗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) to the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
 |2|[🤗⏩🧑‍🦰 Prompt 🤔](<01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) may ask for user permission
-|3| [🤵🐌🛠️ `Invited@Helper`](<../../6 🅰️ APIs/49 🛠️🅰️ Helper/11 🤵🐌🛠️ Invited.md>) | Proxy  invites to [Helper 🛠️](<../../4 ⚙️ Solution/45 Helpers/$ 🛠️ Helpers/05 🛠️👥 Helper domain.md>) invitees
+|3| [🤵🐌🛠️ `Invited@Helper`](<../../6 🅰️ APIs/49 🛠️🅰️ Helper/11 🤵🐌🛠️ Invited.md>) | Proxy  invites to [Helper 🛠️](<../../4 ⚙️ Solution/45 Helpers/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) invitees
 |4|[🤗⏩🧑‍🦰 Prompt 🤔](<01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | Invitees continue the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>)
 |5|[🗄️⏩💼 Consume 🧩](<../80 🗄️⏩ Vaults/02 🗄️⏩💼 Consume 🔗.md>) | Invitees share the final result
 |

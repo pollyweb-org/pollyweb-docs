@@ -2,7 +2,7 @@
 
 > Relates to [Invite ⏩ flow](<../../5 ⏩ Flows/50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>)
 
-> Used by [Helper 🛠️ domain](<../../4 ⚙️ Solution/45 Helpers/$ 🛠️ Helpers/05 🛠️👥 Helper domain.md>)
+> Used by [Helper 🛠️ domain](<../../4 ⚙️ Solution/45 Helpers/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>)
 
 <br/>
 
