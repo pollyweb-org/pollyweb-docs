@@ -29,6 +29,6 @@
 | # | Call | Notes
 |-|-|-
 | 1 | [🧑‍🦰🐌🤵 `Help@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/07 🧑‍🦰🐌🤵 Help.md>) | Open the context menu
-| 2 | [🤗⏩🧑‍🦰 Prompt 🤔](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/⏩ Host flows/31 🤗⏩🧑‍🦰 Prompt 🤔 flow.md>) | Ask the [Broker 🤵](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) to abandon the [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) 
+| 2 | [🤗⏩🧑‍🦰 Prompt 🤔](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | Ask the [Broker 🤵](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) to abandon the [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) 
 | 3 | [🧑‍🦰🐌🤗 `Home@Host`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🅰️ Host methods/52 🤵🐌🤗 Home@Host.md>) | Show the main menu
 |

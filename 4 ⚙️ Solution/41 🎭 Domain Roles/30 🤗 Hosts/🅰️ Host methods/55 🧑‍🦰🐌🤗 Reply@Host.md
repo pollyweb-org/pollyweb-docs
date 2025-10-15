@@ -2,7 +2,7 @@
 
 > A [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) replies to a [Prompt 🤔](<../../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) of a [Host 🤗 domain](<../$ 🤗🎭 Host role.md>) in a [Chat 💬](<../../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>).
 
-> Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../⏩ Host flows/31 🤗⏩🧑‍🦰 Prompt 🤔 flow.md>) flow.
+> Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) flow.
 
 > Signature of the [Message 📨](<../../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>):
 > <br>• signed with the `PrivateKey` from [`Converse@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/2 💬 Chats/1 🤵🐌📣 Converse.md>)
