@@ -3,26 +3,26 @@
 
 1. **What is a Subscriber domain role in NLWeb?**
 
-    A Subscriber 🔔 is any [domain 👥](<../41 📨 Messages/00 👥 Domain.md>) that 
+    A Subscriber 🔔 is any [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) that 
     * leverages a [Buffer ⏳ helper domain](<../../45 🛠️ Helper domains/15 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) 
-    * to subscribe to events from a [Streamer 🌬️ domain](<02 🌬️🎭 Streamer role.md>).
+    * to subscribe to events from a [Streamer 🌬️ domain](<../75 🌬️ Streamers/02 🌬️🎭 Streamer role.md>).
 
     ---
     <br/>
 
 1. **How do Subscribers work?**
 
-    ![alt text](<../41 📨 Messages/.📎 Assets/📨🔔 Subscriber.png>)
+    ![alt text](<../../40 👥 Domains/41 📨 Messages/.📎 Assets/📨🔔 Subscriber.png>)
 
     |#| Step
     |-|-
     |1| A [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) binds one single time with a selected [Buffer ⏳ helper domain](<../../45 🛠️ Helper domains/15 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>).
-    |2| The [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) then subscribes to a stream from a [Streamer 🌬️ domain](<02 🌬️🎭 Streamer role.md>), informing the [Buffer ⏳ helper domain](<../../45 🛠️ Helper domains/15 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>).
-    |3| The [Streamer 🌬️ domain](<02 🌬️🎭 Streamer role.md>) pushes an encrypted event through the [Buffer ⏳ helper domain](<../../45 🛠️ Helper domains/15 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>), who places it in a queue.
+    |2| The [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) then subscribes to a stream from a [Streamer 🌬️ domain](<../75 🌬️ Streamers/02 🌬️🎭 Streamer role.md>), informing the [Buffer ⏳ helper domain](<../../45 🛠️ Helper domains/15 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>).
+    |3| The [Streamer 🌬️ domain](<../75 🌬️ Streamers/02 🌬️🎭 Streamer role.md>) pushes an encrypted event through the [Buffer ⏳ helper domain](<../../45 🛠️ Helper domains/15 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>), who places it in a queue.
     |4| If the queue in the [Buffer ⏳ helper domain](<../../45 🛠️ Helper domains/15 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) is empty, then it wakes up the [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) to start polling.
     |5| The [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) polls event [3] from the [Buffer ⏳ helper domain](<../../45 🛠️ Helper domains/15 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>), and decrypts it with its [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) private key.
-    |6| The [Streamer 🌬️ domain](<02 🌬️🎭 Streamer role.md>) pushes another encrypted event.
-    |7| The [Streamer 🌬️ domain](<02 🌬️🎭 Streamer role.md>) pushes yet another encrypted event.
+    |6| The [Streamer 🌬️ domain](<../75 🌬️ Streamers/02 🌬️🎭 Streamer role.md>) pushes another encrypted event.
+    |7| The [Streamer 🌬️ domain](<../75 🌬️ Streamers/02 🌬️🎭 Streamer role.md>) pushes yet another encrypted event.
     |8| The [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) polls again, consuming events [6] and [7].
     |9| The [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) polls again but the queue is empty, so it goes back to sleep.
     
@@ -41,7 +41,7 @@
 
 1. **What are examples of event subscribers?**
 
-    * [Graph 🕸 helper domains](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) build their graph databases with subscriptions to [domain Manifest 📜](<../44 📜 Manifests/$ 📜 Domain Manifest.md>) updates from [Listener 👂 streams](<../../42 Backbone/10 👂 Listeners/$ 👂🛠️ Listener helper.md>).
+    * [Graph 🕸 helper domains](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) build their graph databases with subscriptions to [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) updates from [Listener 👂 streams](<../../42 Backbone/10 👂 Listeners/$ 👂🛠️ Listener helper.md>).
   
     * [Finder 🔎 domains](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) build their search index with subscriptions to [Graph 🕸](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>), [Advertiser 👀](<../../45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>), and [Reviewer ⭐](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) streams.
     

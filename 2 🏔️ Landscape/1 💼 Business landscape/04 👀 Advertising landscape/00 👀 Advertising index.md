@@ -23,7 +23,7 @@
 💬 NLWeb advocates for a combination of:
 
 - a competitive advertising market, where advertises can leverage multiple agencies; 
-- user privacy assured by trusted [vaults 🗄️](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vault/$ 🗄️🎭 Vault role.md>), who proxy target audience on users' behalf;
+- user privacy assured by trusted [vaults 🗄️](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>), who proxy target audience on users' behalf;
 - and contextualized user relevance, by applying [ambient computing 📺](<02 📺 Ambient computing.md>) concepts.
 
 

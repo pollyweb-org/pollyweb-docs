@@ -3,8 +3,8 @@
 
 1. **What is a Streamer domain role in NLWeb?**
 
-    A Streamer 🌬️ is any [domain 👥](<../41 📨 Messages/00 👥 Domain.md>) that 
-    * pushes and replays events to [Subscriber 🔔 domains](<04 🔔🎭 Subscriber role.md>) 
+    A Streamer 🌬️ is any [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) that 
+    * pushes and replays events to [Subscriber 🔔 domains](<../76 🔔 Subscribers/04 🔔🎭 Subscriber role.md>) 
     * via the Subscribers' [Buffer ⏳ helper domains](<../../45 🛠️ Helper domains/15 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>).
 
     ---
@@ -12,20 +12,20 @@
 
 1. **How do Streamer domains work?**
 
-    ![](<../41 📨 Messages/.📎 Assets/📨🌬️ Streamer-simple.png>)
+    ![](<../../40 👥 Domains/41 📨 Messages/.📎 Assets/📨🌬️ Streamer-simple.png>)
 
     |Steps|Description
     |-|-
-    |0| [Subscriber 🔔 domains](<04 🔔🎭 Subscriber role.md>) first need to subscribe to a [Streamer 🌬️ domain](<02 🌬️🎭 Streamer role.md>) by providing their [Buffer ⏳ helper domain](<../../45 🛠️ Helper domains/15 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>).
+    |0| [Subscriber 🔔 domains](<../76 🔔 Subscribers/04 🔔🎭 Subscriber role.md>) first need to subscribe to a [Streamer 🌬️ domain](<02 🌬️🎭 Streamer role.md>) by providing their [Buffer ⏳ helper domain](<../../45 🛠️ Helper domains/15 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>).
     |1, 2, 3| [Streamer 🌬️ domains](<02 🌬️🎭 Streamer role.md>) then publish events at any time to the [Buffer ⏳ helper domain](<../../45 🛠️ Helper domains/15 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>).
-    |4| [Buffer ⏳ helper domains](<../../45 🛠️ Helper domains/15 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) deliver the events to [Subscriber 🔔 domains](<04 🔔🎭 Subscriber role.md>) according to a set delivery policy.
+    |4| [Buffer ⏳ helper domains](<../../45 🛠️ Helper domains/15 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) deliver the events to [Subscriber 🔔 domains](<../76 🔔 Subscribers/04 🔔🎭 Subscriber role.md>) according to a set delivery policy.
 
     ---
     <br/>
 
 1. **What are examples of domain event streams?**
 
-    * [Listener 👂 domains](<../../42 Backbone/10 👂 Listeners/$ 👂🛠️ Listener helper.md>) and [Graph 🕸 domains](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) stream domain [Manifest 📜](<../44 📜 Manifests/$ 📜 Domain Manifest.md>) updates.
+    * [Listener 👂 domains](<../../42 Backbone/10 👂 Listeners/$ 👂🛠️ Listener helper.md>) and [Graph 🕸 domains](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) stream domain [Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) updates.
     * [Advertiser 👀 domains](<../../45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) and [Reviewer ⭐ domains](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) stream feedbacks about [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>).
     * [Persona 🧢 agent domains](<../../30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) stream changes performed by the user.
 
@@ -79,7 +79,7 @@
 
 1. **How to prevent Buffers from spoofing the events?**
 
-    To avoid spoofing, [Streamer 🌬️ domains](<02 🌬️🎭 Streamer role.md>) encrypt the event content with the [DKIM public key 📨](<../41 📨 Messages/01 📨 Domain Message.md>) of the [Subscriber 🔔 domain](<04 🔔🎭 Subscriber role.md>) before sending it to the Subscriber's [Buffer ⏳ helper domain](<../../45 🛠️ Helper domains/15 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>).
+    To avoid spoofing, [Streamer 🌬️ domains](<02 🌬️🎭 Streamer role.md>) encrypt the event content with the [DKIM public key 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) of the [Subscriber 🔔 domain](<../76 🔔 Subscribers/04 🔔🎭 Subscriber role.md>) before sending it to the Subscriber's [Buffer ⏳ helper domain](<../../45 🛠️ Helper domains/15 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>).
 
     ---
     <br/>

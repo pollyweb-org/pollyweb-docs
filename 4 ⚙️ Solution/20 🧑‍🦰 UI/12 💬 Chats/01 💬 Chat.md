@@ -64,7 +64,7 @@
     | Component | Behavior
     |-|-
     | [🤔 Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [Host 🤗 domains](<04 🤗🎭 Host role.md>) send a question or information to the user.
-    | 🗄️ *Bind* | [Vault 🗄️ domains](<../../41 🎭 Domain Roles/80 🗄️ Vault/$ 🗄️🎭 Vault role.md>)  request the user to [Bind🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) to them.
+    | 🗄️ *Bind* | [Vault 🗄️ domains](<../../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>)  request the user to [Bind🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) to them.
     | 💼 *Share* | [Consumer 💼 domains](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>)  request the user to share data from a specific [Schema Code 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) or to share a [Token 🎫](<../25 🎫 Tokens/01 🎫 Token.md>).
     | 💳 *Pay* | [Seller 💵 domains](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>)  request the user's [Payer 💳 agent](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) to pay an amount.
     | 👋 *Goodbye* | Ends the [Chat 💬](<01 💬 Chat.md>) flow.
