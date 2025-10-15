@@ -5,7 +5,7 @@
 1. **What is a Brand domain role in NLWeb?**
 
     A [Brand 🍏](<$ 🍏🎭 Brand role.md>) 
-    * is any [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) 
+    * is any [domain 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) 
     * that orders [Things 💠](<../../70 🌳 Ambient/71 💠 Things/$ 💠 Thing.md>) from a [Wand 🪄 helper domain](<../../45 🛠️ Helper domains/90 🪄 Wands/$ 🪄🛠️ Wand helper.md>) 
     * in order to [enhance and personalize](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/00 🔆 Scanning index.md>) the Brand's products. 
     

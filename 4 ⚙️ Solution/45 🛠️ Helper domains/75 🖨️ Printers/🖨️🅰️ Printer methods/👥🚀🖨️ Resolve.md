@@ -24,7 +24,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header| `From`| string | Caller [domain 👥](<../../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) name
+|Header| `From`| string | Caller [domain 👥](<../../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) name
 || `To` | string | [Printer 🖨️ domain](<../🖨️🛠️ Printer helper.md>) name
 || `Subject`| string | `Resolve@Printer`
 |Body|`Alias`| string | Unique [Locator 🔆](<../../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) ID on the [Printer 🖨️ ](<../🖨️🛠️ Printer helper.md>)
