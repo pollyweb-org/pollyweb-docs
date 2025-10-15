@@ -26,7 +26,7 @@
    
     | Helper 🛠️ | Example | Responsibilities
     |-|-|-
-    | [👀 Ads](<../12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) | GoogleAds | Intermediates ad workflows for [Brokers 🤵](<../24 🤵 Brokers/$ 🤵 Broker domain.md>)
+    | [👀 Ads](<../12 👀 Advertisers/👀🛠️ Advertiser helper.md>) | GoogleAds | Intermediates ad workflows for [Brokers 🤵](<../24 🤵 Brokers/$ 🤵 Broker domain.md>)
     | [🤝 Biller](<../20 🤝 Billers/$ 🤝🛠️ Biller helper.md>) | ApplePay | Manages billing cycles between [domains 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>)
     | [🤵 Broker](<../24 🤵 Brokers/$ 🤵 Broker domain.md>) | WhatsApp | Manages [Chats](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) between [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) and [Hosts 🤗](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>)
     | [⏳ Buffer](<../27 ⏳ Buffers/⏳🛠️ Buffer helper.md>) | Kafka | Throttles [Streamers 🌬️](<../../41 🎭 Domain Roles/75 🌬️ Streamers/🌬️🎭 Streamer role.md>) for [Subscribers 🔔](<../../41 🎭 Domain Roles/76 🔔 Subscribers/🔔🎭 Subscriber role.md>)

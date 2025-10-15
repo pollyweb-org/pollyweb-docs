@@ -36,5 +36,5 @@
 | 🍸 Bar        | ℹ️ Ready, we'll take it there [+]
 | 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agents/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | 🫥 Save intake? [Yes, No] | > Yes
 | ⭐ [Rate](<../../../4 ⚙️ Solution/50 🫥 Agents/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5 |
-| [👀 Ads](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) | ⓘ Explore follow-ups: <br/>- [ 🧙‍♀️ Wicked tickets 50% off! ] 
+| [👀 Ads](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/12 👀 Advertisers/👀🛠️ Advertiser helper.md>) | ⓘ Explore follow-ups: <br/>- [ 🧙‍♀️ Wicked tickets 50% off! ] 
 ||
