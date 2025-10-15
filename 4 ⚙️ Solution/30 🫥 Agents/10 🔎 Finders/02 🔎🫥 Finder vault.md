@@ -63,7 +63,7 @@
 
 1. **Where do Finders get information about other domains?**
 
-    |[Streamer&nbsp;🎭](<../../41 🎭 Domain Roles/75 🌬️ Streamers/02 🌬️🎭 Streamer role.md>)|Purpose
+    |[Streamer&nbsp;🎭](<../../41 🎭 Domain Roles/75 🌬️ Streamers/$ 🌬️🎭 Streamer role.md>)|Purpose
     |-|-
     | [🕸&nbsp;Graphs](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) | Finders subscribe to [Graphs 🕸 domains](<../../42 Backbone/20 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) to receive updates on [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) across the NLWeb, including their public identity, [trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) relationships, and supported [integrations 🪢](<../../20 🧑‍🦰 UI/12 💬 Chats/06 🪢🎭 Integrator role.md>). 
     | [🔥&nbsp;Firewalls](<../../45 🛠️ Helper domains/21 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) | Finders subscribe to [Firewall 🔥 domains](<../../45 🛠️ Helper domains/21 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) to quickly react to threats. 
