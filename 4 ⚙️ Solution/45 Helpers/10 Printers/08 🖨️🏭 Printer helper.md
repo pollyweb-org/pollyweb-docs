@@ -3,7 +3,7 @@
 
 1. **What is a Printer domain in NLWeb?**
 
-    Printers 🖨️ are [Helper 🛠️ domains](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) 
+    Printers 🖨️ are [Helper 🛠️ domains](<../../25 Data/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) 
     * specialized in printing and managing [NFC/QR Locators 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) 
     * on behalf of [Brand 🍏 domains](<../../70 🌳 Ambient/71 💠 Brand Things/07 🍏🎭 Brand role.md>) or any other [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>).
 

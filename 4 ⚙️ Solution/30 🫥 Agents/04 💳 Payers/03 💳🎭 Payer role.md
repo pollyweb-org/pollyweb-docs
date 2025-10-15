@@ -6,12 +6,12 @@
     A Payer 💳 is any [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) that sends payments to [Collector 🏦 domains](<01 🏦🛠️ Collector helper.md>) under two categories:
 
     * **[Payer 💳🫥 agents](<04 💳🫥 Payer agent.md>)**: 
-        * these are [Payer 💳 domains](<03 💳🎭 Payer role.md>) that act as [Agent 🫥 vaults](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>)
+        * these are [Payer 💳 domains](<03 💳🎭 Payer role.md>) that act as [Agent 🫥 vaults](<../../25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>)
         * for users with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), 
         * interacting in [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) with [Seller 💵 hosts](<01 💵🎭 Seller role.md>).
       
     * **[Payer 💳🛠️ helpers](<05 💳🛠️ Payer helper.md>)**:
-        * these are [Payer 💳 domains](<03 💳🎭 Payer role.md>) that act as [Helper 🛠️ domains](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>)
+        * these are [Payer 💳 domains](<03 💳🎭 Payer role.md>) that act as [Helper 🛠️ domains](<../../25 Data/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>)
         * for other [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>), 
         * paying for agreements with [Biller 🤝 helpers](<06 🤝🛠️ Biller helper.md>).
 

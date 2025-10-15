@@ -4,5 +4,5 @@
 
 <br/>
 
-| Use case| [Agents 🫥](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | [Helpers 🛠️](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) 
+| Use case| [Agents 🫥](<../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | [Helpers 🛠️](<../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) 
 |-|-|-

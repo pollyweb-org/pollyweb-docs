@@ -4,7 +4,7 @@
 1. **What is a Graph domain in NLWeb?**
 
     A [Graph 🕸 domain](<03 🕸🛠️ Graph helper.md>) is 
-    * any [Helper 🛠️ domain](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) 
+    * any [Helper 🛠️ domain](<../../25 Data/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) 
     * that subscribes to [domain Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>) change events from [Listener 👂 domains](<02 👂🛠️ Listener helper.md>)
     * then builds network representations of [Trust 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>) relationships between [domains 👥](<../41 📨 Messages/00 👥 Domain.md>)
     * including indirect relationships via [Authority 🏛️ domains](<../43 👍 Trusts/02 🏛️🛠️ Authority helper.md>). 
@@ -19,9 +19,9 @@
     |Scope&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Question
     |-|-
     |[👥 Identity](<../41 📨 Messages/00 👥 Domain.md>)| What's the identity of [domain 👥](<../41 📨 Messages/00 👥 Domain.md>) `D`?
-    |[👍 Trusts](<../43 👍 Trusts/01 👍 Domain Trust.md>) | Can I trust the data of [Schema 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) `S` sent by [domain 👥](<../41 📨 Messages/00 👥 Domain.md>) `D`?
-    |[👍 Trusts](<../43 👍 Trusts/01 👍 Domain Trust.md>) | Can I trust my data of [Schema 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) `S` to a [domain 👥](<../41 📨 Messages/00 👥 Domain.md>) `D`?
-    | [🧩 Schemas](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) | What's the schema definition of [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) `S`?
+    |[👍 Trusts](<../43 👍 Trusts/01 👍 Domain Trust.md>) | Can I trust the data of [Schema 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) `S` sent by [domain 👥](<../41 📨 Messages/00 👥 Domain.md>) `D`?
+    |[👍 Trusts](<../43 👍 Trusts/01 👍 Domain Trust.md>) | Can I trust my data of [Schema 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) `S` to a [domain 👥](<../41 📨 Messages/00 👥 Domain.md>) `D`?
+    | [🧩 Schemas](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) | What's the schema definition of [Schema Code 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) `S`?
     | [🎫 Tokens](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) | What's the historical public [📨 DKIM](<../41 📨 Messages/01 📨 Domain Message.md>) key of [🎫 Token](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) `T`?
     | [🪣 Datasets](<../../20 🧑‍🦰 UI/12 💬 Chats/07 🪣🎭 Dataset role.md>) | What are the synchronous [Datasets 🪣](<../../20 🧑‍🦰 UI/12 💬 Chats/07 🪣🎭 Dataset role.md>) of [domain 👥](<../41 📨 Messages/00 👥 Domain.md>) `D`?
     | [🏭 Supplies](<../../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>) | What are the asynchronous [Supplies 🏭](<../../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>) of [domain 👥](<../41 📨 Messages/00 👥 Domain.md>) `D`?
@@ -67,7 +67,7 @@
 
 1. **What if an event references an unknown Schema Code?**
 
-    [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) will place the change on hold until the referenced [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) is available.
+    [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) will place the change on hold until the referenced [Schema Code 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) is available.
 
     ---
     <br/>

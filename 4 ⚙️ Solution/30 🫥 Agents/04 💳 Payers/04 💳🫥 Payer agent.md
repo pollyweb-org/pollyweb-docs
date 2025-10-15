@@ -3,7 +3,7 @@
 
 1. **What is a Payer agent in NLWeb?**
 
-    Payer agents are [Payer 💳 domains](<03 💳🎭 Payer role.md>) that act as [Agent 🫥 vault domains](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) for users with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), interacting in [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) with [Seller 💵 host domains](<01 💵🎭 Seller role.md>).
+    Payer agents are [Payer 💳 domains](<03 💳🎭 Payer role.md>) that act as [Agent 🫥 vault domains](<../../25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) for users with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>), interacting in [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) with [Seller 💵 host domains](<01 💵🎭 Seller role.md>).
 
     ---
 
@@ -13,8 +13,8 @@
 
     On NLWeb, payment transactions with users are handled between:
     * [Sellers 💵](<01 💵🎭 Seller role.md>) -  these are [Consumer 💼](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) domains that request payments;
-    * Payers 💳 - these are user-bound [Vaults 🗄️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) with access to the user's money; and
-    * [Collector 🏦 helpers](<01 🏦🛠️ Collector helper.md>) - these are [Helper 🛠️ domains](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) able to deposit money on the [Sellers 💵](<01 💵🎭 Seller role.md>) bank account. 
+    * Payers 💳 - these are user-bound [Vaults 🗄️](<../../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) with access to the user's money; and
+    * [Collector 🏦 helpers](<01 🏦🛠️ Collector helper.md>) - these are [Helper 🛠️ domains](<../../25 Data/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) able to deposit money on the [Sellers 💵](<01 💵🎭 Seller role.md>) bank account. 
     
     Upon check-out, 
     - 1/ the [Seller 💵](<01 💵🎭 Seller role.md>) registers the upcoming payment to their [Collector 🏦](<01 🏦🛠️ Collector helper.md>), 

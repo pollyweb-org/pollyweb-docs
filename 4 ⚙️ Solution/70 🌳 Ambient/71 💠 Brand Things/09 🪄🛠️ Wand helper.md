@@ -4,7 +4,7 @@
 1. **What is a Wand domain in NLWeb?**
 
     A [Wand 🪄](<09 🪄🛠️ Wand helper.md>) is
-    * any [Helper 🛠️ domain](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) 
+    * any [Helper 🛠️ domain](<../../25 Data/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) 
     * that creates and manages [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) 
     * for [Things 💠](<01 💠 Thing.md>) (including [Userables 💍](<../74 💍 Brand Userables/01 💍 Userable thing.md>), [Tapbands ⌚](<../76 ⌚ Brand Tapbands/01 ⌚💠 Tapband thing.md>) and [Robots 🤖](<../72 🤖 Brand Robots/01 🤖💠 Robot thing.md>))
     * on behalf of [Brand 🍏 domains](<07 🍏🎭 Brand role.md>).
@@ -36,7 +36,7 @@
 
 1. **What user Agents do Wands typically invoke?**
 
-    | [User Agent 🫥](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | Purpose
+    | [User Agent 🫥](<../../25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | Purpose
     |-|-
     | [🧳 Custodian](<05 🧳🗄️ Custodian vault.md>) | To allow users to manage their [Things 💠](<01 💠 Thing.md>).
     | [🆔 Identity](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | To authenticate users as owners of their [Things 💠](<01 💠 Thing.md>). 

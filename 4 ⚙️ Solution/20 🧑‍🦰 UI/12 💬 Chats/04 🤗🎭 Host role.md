@@ -16,7 +16,7 @@
 
     |#|Category|Step
     |-|-|-
-    |1| `Hello`| The [user's Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) checks-in into a [Host 🤗 domain](<04 🤗🎭 Host role.md>), passing it context parameters, [Binds 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>), and [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>).
+    |1| `Hello`| The [user's Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) checks-in into a [Host 🤗 domain](<04 🤗🎭 Host role.md>), passing it context parameters, [Binds 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>), and [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>).
     |2| `Chat` | The [Host 🤗 domain](<04 🤗🎭 Host role.md>) sets a new [Chat 💬](<01 💬 Chat.md>) context.
     |3| `Interact` | The [Host 🤗 domain](<04 🤗🎭 Host role.md>) starts interacting with prompts.
 
@@ -100,7 +100,7 @@
     | Flow ⏩ | Description
     |-|-
     | [🤔 `Prompt`](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | Sends a [Prompt 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) to a user [Chat 💬](<01 💬 Chat.md>)
-    | [🛠️ `Invite`](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>) | Invites a [Helper 🛠️ domain](<../24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) to a [Chat 💬](<01 💬 Chat.md>)
+    | [🛠️ `Invite`](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>) | Invites a [Helper 🛠️ domain](<../../25 Data/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) to a [Chat 💬](<01 💬 Chat.md>)
     | [📝 `Form`](<../../../5 ⏩ Flows/20 💼⏩ Consumers/02 💼⏩🧑‍🦰 Inform 📝.md>) | Informs a user on upcoming [Inputs ✏️](<../../../9 😃 Talkers/20 🤔 Prompts/1 📘 Prompt specs/09 ✏️ as Input.md>)
     | [❄️ `Freeze`](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/06 🤗⏩🧑‍🦰 Freeze ❄️.md>) | Blocks changes on all previous [Inputs ✏️](<../../../9 😃 Talkers/20 🤔 Prompts/1 📘 Prompt specs/09 ✏️ as Input.md>)
     | [👋 `Goodbye`](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/07 🤗⏩🧑‍🦰 Goodbye 👋.md>) | Triggers the [advertising 👀](<../../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) flow

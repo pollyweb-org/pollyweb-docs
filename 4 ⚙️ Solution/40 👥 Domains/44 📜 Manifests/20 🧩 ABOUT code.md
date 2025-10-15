@@ -1,4 +1,4 @@
-# [🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) [`.MANIFEST`](<10 🧩 MANIFEST code.md>) `/ABOUT`
+# [🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) [`.MANIFEST`](<10 🧩 MANIFEST code.md>) `/ABOUT`
 
 > Part of [`.MANIFEST` 🧩](<10 🧩 MANIFEST code.md>)
 

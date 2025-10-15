@@ -13,15 +13,15 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
     
     * Each [Notifier 📣 domain](<../20 🧑‍🦰 UI/02 📣 Notifiers/02 📣 Notifier domain.md>) depends on a [Broker 🤵 domain](<../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) for [Chat 💬](<../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) orchestration with [Host 🤗 domains](<../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>). 
 
-* Users store their data in [Vault 🗄️ domains](<../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>).
+* Users store their data in [Vault 🗄️ domains](<../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>).
   
     * These are [Domains 👥](<../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) that can share user data with [Consumer 💼 domains](<../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>).
     
-    * [Vault 🗄️ domains](<../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) may allow users to edit their data through the user's [Folder 🗂️ editor](<../20 🧑‍🦰 UI/26 🗂️ Folders/01 🗂️ Folder editor.md>).
+    * [Vault 🗄️ domains](<../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) may allow users to edit their data through the user's [Folder 🗂️ editor](<../20 🧑‍🦰 UI/26 🗂️ Folders/01 🗂️ Folder editor.md>).
 
-* Users designate [Agents 🫥 domains](<../20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) to handle specific well-defined roles in [Chats 💬](<../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) with [Host 🤗 domains](<../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) (e.g., payments).
+* Users designate [Agents 🫥 domains](<../25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) to handle specific well-defined roles in [Chats 💬](<../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) with [Host 🤗 domains](<../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) (e.g., payments).
 
-    * These [Agents 🫥](<../20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) are [Vault 🗄️ domains](<../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) that the user told their [Broker 🤵 domain](<../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) to invoke by default when a role is required.
+    * These [Agents 🫥](<../25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) are [Vault 🗄️ domains](<../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) that the user told their [Broker 🤵 domain](<../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) to invoke by default when a role is required.
 
 
 
@@ -31,7 +31,7 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
     * session [Host 🤗](<../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>), 
     * business [Seller 💵](<../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>),
     * data [Consumer 💼](<../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>), 
-    * user-bound [Vault 🗄️](<../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>), 
+    * user-bound [Vault 🗄️](<../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>), 
     * event [Streamer 🌬️](<../40 👥 Domains/42 🌬️ Streams/02 🌬️🎭 Streamer role.md>), 
     * and asynchronous service [Supplier 🏭](<../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>). 
 
@@ -42,7 +42,7 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
     * [Advertiser 👀 helper domains](<../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) for ads.
 
 - Data integration and structural validation is assured via:
-    - [Schema Codes 🧩](<../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) that domains and [Authority 🏛️ helper domains](<../40 👥 Domains/43 👍 Trusts/02 🏛️🛠️ Authority helper.md>) can define on their [domain Manifests 📜](<../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) 
+    - [Schema Codes 🧩](<../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) that domains and [Authority 🏛️ helper domains](<../40 👥 Domains/43 👍 Trusts/02 🏛️🛠️ Authority helper.md>) can define on their [domain Manifests 📜](<../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) 
     - these codes are the foundation of resource [Locators 🔆](<../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>), physical [Things 💠](<../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>), and verifiable offline [Tokens 🎫](<../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>).
 
 - Domains interact directly with humans with edge devices that exhibit well-known behaviors - e.g.:
@@ -63,7 +63,7 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
     * and [Ephemeral 🦋 devices](<../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>) that dynamically rotate QR and NFC [Locators 🔆](<../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) to prevent fraud.
 
 - Performance at a global scale is assured by:
-  * a distributed cluster of [Listener 👂 helper domains](<../40 👥 Domains/45 👂 Backbone/02 👂🛠️ Listener helper.md>) that propagate [Schema Codes 🧩](<../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) and [Trusts 👍](<../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) from [domain Manifests 📜](<../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) in near-real time;
+  * a distributed cluster of [Listener 👂 helper domains](<../40 👥 Domains/45 👂 Backbone/02 👂🛠️ Listener helper.md>) that propagate [Schema Codes 🧩](<../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) and [Trusts 👍](<../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) from [domain Manifests 📜](<../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) in near-real time;
   * and [Graph 🕸 helper domains](<../40 👥 Domains/45 👂 Backbone/03 🕸🛠️ Graph helper.md>) that cache them to support high-performant queries from any [domain 👥](<../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>).
 
   ---

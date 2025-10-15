@@ -20,9 +20,9 @@
 
     | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | 🗄️ [Vault](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) |  😃 Hi! What do you need? <br/>- [ Bind ]  | > Bind
+    | 🗄️ [Vault](<../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) |  😃 Hi! What do you need? <br/>- [ Bind ]  | > Bind
     | 🤵 [Broker](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 [Bind?](<44 🔗 BIND msg.md>) [Yes, No] <br/> -  Some schema code 🧩 <br/> - Some other schema code 🧩 | > Yes
-    | 🗄️ [Vault](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) | ✅ [Done!](<../20 🤔 Prompts/4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>)
+    | 🗄️ [Vault](<../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) | ✅ [Done!](<../20 🤔 Prompts/4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>)
 
     ---
     <br/>
@@ -35,9 +35,9 @@
 
     | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | 🗄️ [Vault](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) |  😃 Hi! What do you need? <br/>- [ Bind ]  | > Bind
+    | 🗄️ [Vault](<../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) |  😃 Hi! What do you need? <br/>- [ Bind ]  | > Bind
     | 🤵 [Broker](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 [Bind?](<44 🔗 BIND msg.md>) [All, No] <br/> - [ ] Some schema code 🧩 <br/> - [ ] Some other schema code 🧩 | > All
-    | 🗄️ [Vault](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) | ✅ [Done!](<../20 🤔 Prompts/4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>)
+    | 🗄️ [Vault](<../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) | ✅ [Done!](<../20 🤔 Prompts/4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>)
 
     ---
     <br/>
@@ -54,7 +54,7 @@
 
     | Argument| Purpose 
     |-|-
-    | `<code>` | [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) from [`Bindable@Broker`](<../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/20 🗄️🐌🤵 Bindable.md>) 
+    | `<code>` | [Schema Code 🧩](<../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) from [`Bindable@Broker`](<../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/20 🗄️🐌🤵 Bindable.md>) 
 
     ```yaml
     # For a single optional code.
@@ -78,8 +78,8 @@
    
     | Argument| Purpose
     |-|-
-    | `<code-n>` | Array of [Schema Codes 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) sent on [`Bindable@Broker`](<../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/20 🗄️🐌🤵 Bindable.md>)
-    | `$bound`  | Array of [Schema Codes 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) received on [`Bound@Vault`](<../../6 🅰️ APIs/95 🗄️🅰️ Vault/02 🤵🐌🗄️ Bound.md>)
+    | `<code-n>` | Array of [Schema Codes 🧩](<../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) sent on [`Bindable@Broker`](<../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/20 🗄️🐌🤵 Bindable.md>)
+    | `$bound`  | Array of [Schema Codes 🧩](<../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) received on [`Bound@Vault`](<../../6 🅰️ APIs/95 🗄️🅰️ Vault/02 🤵🐌🗄️ Bound.md>)
 
 
    ```yaml
@@ -90,7 +90,7 @@
    
     | Argument| Purpose
     |-|-
-    | `{bindable}` | [{Function}](<../30 🗃️ Talker data/12 🐍 {Function}.md>) to get the [Codes 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) for [Bindable @ Broker](<../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/20 🗄️🐌🤵 Bindable.md>).
+    | `{bindable}` | [{Function}](<../30 🗃️ Talker data/12 🐍 {Function}.md>) to get the [Codes 🧩](<../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) for [Bindable @ Broker](<../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/20 🗄️🐌🤵 Bindable.md>).
 
 
     ---
@@ -98,7 +98,7 @@
 
 1. **What does the dot mean in a code?**
 
-    Given that the [Schema Codes 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) defined by `nlweb.org` will be widely used, 
+    Given that the [Schema Codes 🧩](<../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) defined by `nlweb.org` will be widely used, 
     * [Talkers 😃](<../10 📘 Talker specs/10 😃 Talker.md>) accept a dot as a prefix of `nlweb.org/`.
     * Consider the following equal examples.
 

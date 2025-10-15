@@ -22,7 +22,7 @@ The following steps describe a subscription workflow:
 
 | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Prompt](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
 | - | - | - 
-| 🛠️ [Helper](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | 😃 Hi! What do you need? <br/>- [ Register ]  | > Register
+| 🛠️ [Helper](<../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | 😃 Hi! What do you need? <br/>- [ Register ]  | > Register
 | 🤵 [Broker](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 [Ready to register](<../20 💼⏩ Consumers/02 💼⏩🧑‍🦰 Inform 📝.md>)? [Yes, No]<br>- Your broker binds with us 🔗 <br/>- You choose a billing plan 🤝 <br/>- Your payer adds a method 💳 <br/>- Your identity signs the terms 🆔 | > Yes
 | 🤵 [Broker](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 [Bind?](<../90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind 🔗.md>) [Yes, No, +] <br/>- [Vault 🧩](<../../7 🧩 Codes/$/🧩 VAULT code.md>) | > Yes 
 | 🤵 [Broker](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 [Allow guest domain?](<../50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>) <br/> - Any Biller 🤝<br/>- [ Always ] for Any Helper 🛠️ | > Always
@@ -30,7 +30,7 @@ The following steps describe a subscription workflow:
 | 💳 [Payer](<../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Link to Any Biller? [Yes, No, +] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC 
 | 🆔 [Identity](<../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 [Sign terms?](<../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/16 🆔🔏 Verify Signatures.md>) 📄 [Yes, No] | > Yes
 | 🆔 [Identity](<../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/21 🆔😶 Face scan.md>)
-| 🛠️ [Helper](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | ✅ Done!
+| 🛠️ [Helper](<../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) | ✅ Done!
 |
 
 <br/>

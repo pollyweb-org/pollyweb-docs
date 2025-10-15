@@ -107,7 +107,7 @@
 
     - Before sharing [SELF Tokens 🎫](<01 🎫 Token.md>) with other domains, [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) ask the user for approval.
   
-    - Exceptionally, if the [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>) of the [Token 🎫](<01 🎫 Token.md>) is marked as SELF, then the user's [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) silently share the [Token 🎫](<01 🎫 Token.md>) with the [Token's Issuer 🎴 domain](<02 🎴🎭 Issuer role.md>).
+    - Exceptionally, if the [Schema Code 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) of the [Token 🎫](<01 🎫 Token.md>) is marked as SELF, then the user's [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) silently share the [Token 🎫](<01 🎫 Token.md>) with the [Token's Issuer 🎴 domain](<02 🎴🎭 Issuer role.md>).
 
 
     The following [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) excerpt illustrates the usage of a [SELF Token 🎫](<01 🎫 Token.md>) when [passing a gate at a train station 🤝](<../../../3 🤝 Use Cases/03 🧳 Travel/03 🧳 Travel by train 🚂/02 🚂 Customer @ Station/22 Pass gates 1 person.md>).
@@ -213,7 +213,7 @@
     ```
     |Property| Type | Details
     |-|-|-
-    |`Schema` | string | The Token's [Schema Code 🧩](<../24 🗄️ Vaults/02 🧩 Schema Code.md>)
+    |`Schema` | string | The Token's [Schema Code 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>)
     | `Issued` | timestamp | When it was issued
     |`Starts` |timestamp| Valid from
     |`Expires`|timestamp| Valid until (optional)
