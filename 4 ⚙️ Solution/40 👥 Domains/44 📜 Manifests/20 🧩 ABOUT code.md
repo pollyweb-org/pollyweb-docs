@@ -19,8 +19,8 @@ About:
     Feedback: any-feedback.nlweb.org
 
     Translations: 
-    - Language: pt-br
-      Translation: Um domínio qualquer
+        en: Any Domain
+        pt: Um domínio qualquer
 ```
 
 | Property | Type | Notes
@@ -31,14 +31,15 @@ About:
 | `SmallIcon`  | string | Optional URL to a small icon (20x20)
 | `BigIcon`   | string | Optional URL to a big icon (100x100)
 | `Feedback` | string | Optional [Buffer ⏳ helper domain](<../42 🌬️ Streams/03 ⏳🛠️ Buffer helper.md>) name <br/>- if not defined, then no feedback is given
-| [`Translations` 🧩](<16 🧩 TRANSLATION code.md>) | array | Optional translations of the domain name
+| [`Translations` 🧩](<21 🧩 TRANSLATION code.md>) | array | Optional translations of the domain name
+| | object | - alternative, e.g.  `{en:Name, pt:Nome}`
 |
 
 <br/>
 
 ## Definition
 
-> 🤝: [`.MANIFEST/CODE`](<11 🧩 CODE code.md>)
+> 🤝: [`.MANIFEST/CODE`](<40 🧩 CODE code.md>)
 
 ```yaml
 Path: /MANIFEST/ABOUT
@@ -54,24 +55,19 @@ Schema:
       
       Domain: 
         $ref: Domain@nlweb.org/TYPES
-        example: any-domain.com
       
       Name: 
         type: string
-        example: Any Domain
         
       SmallIcon: 
         type: string
         format: uri
-        example: 'https://picsum.photos/20/20'
         
       BigIcon: 
         type: string
         format: uri
-        example: 'https://picsum.photos/100/100'
         
       Feedback:
-        example: any-buffer.com
         $ref: Domain@.MANIFEST/ABOUT
 
       Translations: 
@@ -81,14 +77,8 @@ Schema:
           oneOf:
           
             - $ref: .MANIFEST/TRANSLATION
-              example: 
-                Language: en
-                Translation: Name
 
             - type: object
               propertyNames: 
                 $ref: Language@.MANIFEST/TRANSLATION
-              example: 
-                en: Name
-
       

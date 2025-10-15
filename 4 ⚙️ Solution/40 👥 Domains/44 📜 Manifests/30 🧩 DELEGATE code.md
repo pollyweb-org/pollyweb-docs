@@ -8,22 +8,28 @@
 * Delegated domain for authority-managed codes.
   * It allows for a manifest to be smaller, while keeping the ownership of the code group. 
   * For example, `profile.nlweb.org` defines all codes for `/PERSONA` on behalf of `nlweb.org`.
-  * The delegated domain must reference the domain of the `Delegator`, as described in [`.MANIFEST/CODE` 🧩](<11 🧩 CODE code.md>).
+  * The delegated domain must reference the domain of the `Delegator`, as described in [`.MANIFEST/CODE` 🧩](<40 🧩 CODE code.md>).
 
 <br/>
 
-## Properties
+## Example
+
+```yaml
+- Delegate: profile.nlweb.org
+  Code: /PERSONA
+```
+
 | Property | Type | Notes
 |-|-|-
-| `Delegate` | string | Domain to delegate to - e.g. `profile.nlweb.org` 
-| `Code`     | string | Relative path of the code or group - e.g. `/PERSONA` 
+| `Delegate` | string | Domain to delegate to.
+| `Code`     | string | Relative path of the code or group.
 |
 
 <br/>
 
 ## Definition
 
-> 🤝: [`.MANIFEST/CODE`](<11 🧩 CODE code.md>)
+> 🤝: [`.MANIFEST/CODE`](<40 🧩 CODE code.md>)
 
 ```yaml
 Path: /MANIFEST/DELEGATE
@@ -39,8 +45,6 @@ Schema:
 
       Delegate:
         $ref: Domain@nlweb.org/TYPES
-        example: profile.nlweb.org
         
       Code: 
         type: string
-        example: /PERSONA

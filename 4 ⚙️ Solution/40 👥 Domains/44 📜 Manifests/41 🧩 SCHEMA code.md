@@ -1,6 +1,6 @@
-# [🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) [`.MANIFEST`](<10 🧩 MANIFEST code.md>) [`/CODE`](<11 🧩 CODE code.md>) `/SCHEMA`
+# [🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) [`.MANIFEST`](<10 🧩 MANIFEST code.md>) [`/CODE`](<40 🧩 CODE code.md>) `/SCHEMA`
 
-> Part of [`.MANIFEST/CODE` 🧩](<11 🧩 CODE code.md>)
+> Part of [`.MANIFEST/CODE` 🧩](<40 🧩 CODE code.md>)
 
 > Implements [domain Manifest 📜](<01 📜 Domain Manifest.md>) 
 
@@ -64,7 +64,7 @@
 
 ## Definition
 
-> 🤝: [`.MANIFEST/CODE`](<11 🧩 CODE code.md>)
+> 🤝: [`.MANIFEST/CODE`](<40 🧩 CODE code.md>)
 
 ```yaml
 Path: /MANIFEST/CODE/SCHEMA

@@ -9,18 +9,18 @@
 
 | Property | Type | Notes
 |-|-|-
-| [`About` 🧩](<14 🧩 ABOUT code.md>) | object | [Domain 👥](<../41 📨 Messages/00 👥 Domain.md>) identification
-| [`Datasets` 🧩](<15 🧩 OFFER code.md>)  | array | Optional services offered
-| [`Trusts` 🧩](<17 🧩 TRUST code.md>)   | array | Optional [Trusted 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>) domains and roles
-| [`Codes` 🧩](<11 🧩 CODE code.md>)     | array | Optional [Schema Codes 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) defined
-| [`Delegates` 🧩](<13 🧩 DELEGATE code.md>) | array | Optional [Schema Codes 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) delegated
+| [`About` 🧩](<20 🧩 ABOUT code.md>) | object | [Domain 👥](<../41 📨 Messages/00 👥 Domain.md>) identification
+| [`Datasets` 🧩](<60 🧩 OFFER code.md>)  | array | Optional services offered
+| [`Trusts` 🧩](<50 🧩 TRUST code.md>)   | array | Optional [Trusted 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>) domains and roles
+| [`Codes` 🧩](<40 🧩 CODE code.md>)     | array | Optional [Schema Codes 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) defined
+| [`Delegates` 🧩](<30 🧩 DELEGATE code.md>) | array | Optional [Schema Codes 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) delegated
 |
 
 <br/>
 
 ## Definition
 
-> [🤝:](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) [`.MANIFEST/CODE`](<11 🧩 CODE code.md>)
+> [🤝:](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) [`.MANIFEST/CODE`](<40 🧩 CODE code.md>)
 
 ```yaml
 Path: /MANIFEST
