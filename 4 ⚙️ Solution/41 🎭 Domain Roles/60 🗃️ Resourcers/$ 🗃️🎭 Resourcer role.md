@@ -2,8 +2,8 @@
 
 1. **What is a Resourcer role?**
 
-    A [domain 👥](<../../40 👥 Domains/$ 👥 Domains/00 👥 Domain.md>) with a [Resourcer 🗃️ role](<$ 🗃️🎭 Resourcer role.md>)
-    * is any [domain 👥](<../../40 👥 Domains/$ 👥 Domains/00 👥 Domain.md>) that stores files
+    A [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) with a [Resourcer 🗃️ role](<$ 🗃️🎭 Resourcer role.md>)
+    * is any [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) that stores files
     * and syncs them locally via a [Syncer 🔃 tool](<../../../9 😃 Talkers/90 ☁️ Hosters/01 🔃🛠️ Syncer tool.md>).
 
     ---
