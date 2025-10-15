@@ -19,7 +19,7 @@
     The following features are available in a [Wallet 🧑‍🦰 app](<$ 🧑‍🦰 Wallet app.md>):
     - 💬 [Chats](<../12 💬 Chats/$ 💬 Chat.md>): list, filter, search, view, and interact.
     - 🔗 [Binds](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>): list, view, unbind, and chat with the bound [Vault 🗄️ domain](<../../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>). 
-    - 🎫 [Tokens](<../25 🎫 Tokens/01 🎫 Token.md>): view, and chat with the [Issuer 🎴 domain](<../../../../../../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>).
+    - 🎫 [Tokens](<../25 🎫 Tokens/01 🎫 Token.md>): view, and chat with the [Issuer 🎴 domain](<../../41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>).
     - ✨ [Scan](<../11 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) a QR [Locator 🔆](<../11 🔆 Locators/$ 🔆 Locator.md>) to open a [Chat 💬](<../12 💬 Chats/$ 💬 Chat.md>).
     - 🔆 [Tap](<../11 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) an NFC [Locator 🔆](<../11 🔆 Locators/$ 🔆 Locator.md>) to open a [Chat 💬](<../12 💬 Chats/$ 💬 Chat.md>).
     - 🌐 [Click](<../11 🔆 Locators/02 🧑‍🦰🌐 Wallet URLs.md>) on [Locator 🔆](<../11 🔆 Locators/$ 🔆 Locator.md>) links in the device's web browser to open chats.
@@ -57,7 +57,7 @@
     The only data that [Wallet 🧑‍🦰 apps](<$ 🧑‍🦰 Wallet app.md>) store locally is:
     - 🔏 The private half of the key pair;
     - 📣 The Wallet ID provided by the [Broker 🤵 domain](<../03 🤵 Brokers/$ 🤵 Broker domain.md>) via the [Notifier 📣 domain](<../02 📣 Notifiers/$ 📣 Notifier domain.md>);
-    - 🎫 Downloaded [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) from [Issuer 🎴 domains](<../../../../../../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>).
+    - 🎫 Downloaded [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) from [Issuer 🎴 domains](<../../41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>).
 
     ---
     <br/>
