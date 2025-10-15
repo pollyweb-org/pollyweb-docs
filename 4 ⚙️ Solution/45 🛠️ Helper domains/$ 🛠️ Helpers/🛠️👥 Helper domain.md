@@ -3,7 +3,7 @@
 
 1. **What are Helper domains?**
 
-    A [Helper 🛠️👥](<$ 🛠️👥 Helper domain.md>) is
+    A [Helper 🛠️👥](<🛠️👥 Helper domain.md>) is
     - any [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) that support other [domains 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) 
     - by offloading common undifferentiated responsibilities.
 
@@ -57,7 +57,7 @@
 
 1. **What other Helpers do Helpers leverage?**
 
-    | [Helper 🛠️](<$ 🛠️👥 Helper domain.md>)  | Purpose 
+    | [Helper 🛠️](<🛠️👥 Helper domain.md>)  | Purpose 
     |-|-
     | [🤝 Biller](<../20 🤝 Billers/🤝🛠️ Biller helper.md>) | To manage usage and subscription plans.
     | [🏦 Collector](<../30 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) | To collect usage and subscription payments.
@@ -71,7 +71,7 @@
 
     |#| Group | Step
     |-|-|-
-    |1| `Find` | [Find 🔎](<../../50 🫥 Agents/40 🔎 Finders/🔎🫥 Finder agent.md>) a [Helper 🛠️ ](<$ 🛠️👥 Helper domain.md>) with the desired services
+    |1| `Find` | [Find 🔎](<../../50 🫥 Agents/40 🔎 Finders/🔎🫥 Finder agent.md>) a [Helper 🛠️ ](<🛠️👥 Helper domain.md>) with the desired services
     |2| `Chat` | [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with the Helper's [Host 🤗 role](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>)
     |3| `Bind`| [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) to the Helper's [Vault 🗄️ role](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>)
     |4| `Bill` | Subscribe a plan in the Helper's [Biller 🤝](<../20 🤝 Billers/🤝🛠️ Biller helper.md>)
@@ -85,7 +85,7 @@
 
     | [Domain](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - 
-    | 🛠️ [Helper](<$ 🛠️👥 Helper domain.md>) | 😃 Hi! What do you need? <br/>- [ Register ]  | > Register
+    | 🛠️ [Helper](<🛠️👥 Helper domain.md>) | 😃 Hi! What do you need? <br/>- [ Register ]  | > Register
     | 🤵 [Broker](<../24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 [Ready to register?](<../../41 🎭 Domain Roles/27 💼 Consumers/💼⏩ Consumer flows/💼⏩🧑‍🦰 Inform 📝.md>) [Yes, No] <br>- Your broker binds with us 🔗 <br/>- You choose a billing plan 🤝 <br/>- Your payer adds a method 💳 <br/>- Your identity signs the terms 🆔 | > Yes
     | 🤵 [Broker](<../24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 [Bind?](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind 🔗.md>) [Yes, No, +] <br/>- [Vault 🧩](<../../../7 🧩 Codes/$/🧩 VAULT code.md>) | > Yes 
     | 🤵 [Broker](<../24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 [Allow guest domain?](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Invite 🛠️.md>) [Yes, No]  <br/> - Any Biller 🤝<br/>- [ Always ] for Any Helper 🛠️ | > Always
@@ -93,7 +93,7 @@
     | 💳 [Payer](<../../50 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Link to Any Biller? [Yes, No, +] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC 
     | 🆔 [Identity](<../../50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 [Sign terms?](<../../50 🫥 Agents/45 🆔 Identities/16 🆔🔏 Verify Signatures.md>) 📄 [Yes, No] | > Yes
     | 🆔 [Identity](<../../50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../50 🫥 Agents/45 🆔 Identities/21 🆔😶 Face scan.md>)
-    | 🛠️ [Helper](<$ 🛠️👥 Helper domain.md>) | ✅ Done!
+    | 🛠️ [Helper](<🛠️👥 Helper domain.md>) | ✅ Done!
     |
 
     Here's the [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>).

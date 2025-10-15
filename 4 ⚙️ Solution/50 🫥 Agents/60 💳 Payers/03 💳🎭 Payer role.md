@@ -11,7 +11,7 @@
         * interacting in [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with [Seller 💵 hosts](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>).
       
     * **[Payer 💳🛠️ helpers](<../../45 🛠️ Helper domains/70 💳 Payers/05 💳🛠️ Payer helper.md>)**:
-        * these are [Payer 💳 domains](<03 💳🎭 Payer role.md>) that act as [Helper 🛠️ domains](<../../45 🛠️ Helper domains/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>)
+        * these are [Payer 💳 domains](<03 💳🎭 Payer role.md>) that act as [Helper 🛠️ domains](<../../45 🛠️ Helper domains/$ 🛠️ Helpers/🛠️👥 Helper domain.md>)
         * for other [domains 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>), 
         * paying for agreements with [Biller 🤝 helpers](<../../45 🛠️ Helper domains/20 🤝 Billers/🤝🛠️ Biller helper.md>).
 
