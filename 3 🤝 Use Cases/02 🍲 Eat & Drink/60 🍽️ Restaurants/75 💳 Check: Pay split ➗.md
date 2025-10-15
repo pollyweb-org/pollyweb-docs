@@ -18,6 +18,6 @@
 | [🏦 Collector](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) | ⓘ Part paid, thanks Alice! [+]
 | [🏦 Collector](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) | ⏳ Waiting for 1x $12.50... <br/>- [ pay remaining ]
 | 🍽️ Restaurant | ✅ All paid, thanks Alice! [+]
-| ⭐ [Rate](<../../../4 ⚙️ Solution/30 🫥 Agents/73 ⭐ Reviewers/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5
+| ⭐ [Rate](<../../../4 ⚙️ Solution/30 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5
 ||
 

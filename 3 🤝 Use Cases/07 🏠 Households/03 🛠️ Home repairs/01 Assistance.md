@@ -11,7 +11,7 @@
     | 👷 Company | 😃 Hi! What do you need? <br/>- [ Help now ] <br/>- [ Something else ] | > Help now
     | 👷 Company | 😃 What sort of help? <br/>- cleaner <br/>- plumber <br/>- other | > plumber
     | 🧢 [Persona](<../../../4 ⚙️ Solution/30 🫥 Agents/70 🧢 Personas/$ 🧢🫥 Persona agent.md>) | 🫥 Share delivery address? [No]  <br/>- [ home ] <br/>- [ Alice's ] | > Alice's
-    | [🗓️ Scheduler](<../../../4 ⚙️ Solution/30 🫥 Agents/75 🗓️ Schedulers/04 🗓️🗄️ Scheduler agent.md>) | 🫥 Confirm plumber? [Yes, No] <br/>📍 43, Soho, W1D 3QX  <br/> 🕑 today, 11:30 am <br/> - you have a work meeting at 12pm. | > Yes
+    | [🗓️ Scheduler](<../../../4 ⚙️ Solution/30 🫥 Agents/75 🗓️ Schedulers/$ 🗓️🗄️ Scheduler agent.md>) | 🫥 Confirm plumber? [Yes, No] <br/>📍 43, Soho, W1D 3QX  <br/> 🕑 today, 11:30 am <br/> - you have a work meeting at 12pm. | > Yes
     | 💳 [Payer](<../../../4 ⚙️ Solution/30 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Pay $50.00 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
     | 👷 Company | 😃 Describe the issue.   | 🎙️ (speech)
     | 👷 Company | ℹ️ OK, I'll shared with the team.
@@ -29,6 +29,6 @@
     | 👷 Company | 😃 Tip the plumber? [No, $5, $10, $20] | > $10
     | 💳 [Payer](<../../../4 ⚙️ Solution/30 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Pay $10.00 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
     | 👷 Company | 😉 You're all set, bye!
-    | ⭐ [Rate](<../../../4 ⚙️ Solution/30 🫥 Agents/73 ⭐ Reviewers/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5
+    | ⭐ [Rate](<../../../4 ⚙️ Solution/30 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5
 
     ---

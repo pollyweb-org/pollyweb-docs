@@ -20,5 +20,5 @@ A user opens their Navigator vault and set the route.
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/55 🧭 Navigators/01 🧭🫥 Navigator agent.md>) | ℹ️ Taxi ride finished. 
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/55 🧭 Navigators/01 🧭🫥 Navigator agent.md>) | ℹ️ Walk to Alice's (3m) 
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/55 🧭 Navigators/01 🧭🫥 Navigator agent.md>) | ✅ You arrived at Alice's!
-| ⭐ [Rate](<../../../../4 ⚙️ Solution/30 🫥 Agents/73 ⭐ Reviewers/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5
+| ⭐ [Rate](<../../../../4 ⚙️ Solution/30 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5
 ||

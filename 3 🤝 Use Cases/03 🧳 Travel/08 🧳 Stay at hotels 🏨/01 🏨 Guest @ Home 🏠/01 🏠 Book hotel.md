@@ -16,7 +16,7 @@ How to book a room at a hotel?
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Agency (4.4 ⭐) [+]
 | 🌍 Agency   | ℹ️ Received booking request.
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 [Ready to book?](<../../../../9 😃 Talkers/60 ⏩ Msg flows/41 📝 INFORM msg.md>) [Yes, No] <br/> - your scheduler sets when 🗓️  <br/> - your curator filters options 🧚 <br/> - your persona sets contacts 🧢 <br/> - your payer associates a card 💳 <br/> - save the booking on wallet 🤵 <br/> - click the booking to change 🎫  <br/> - tap a hotel tag on arrival ✨ | > Yes
-| [🗓️ Scheduler](<../../../../4 ⚙️ Solution/30 🫥 Agents/75 🗓️ Schedulers/04 🗓️🗄️ Scheduler agent.md>) | 🫥 Any of these trips? [No] <br/>- [ Feb 18-20 ] to Madrid 🇪🇸 <br/>- [ Mar 26-28 ] to London 🇬🇧 | > Feb 18-20
+| [🗓️ Scheduler](<../../../../4 ⚙️ Solution/30 🫥 Agents/75 🗓️ Schedulers/$ 🗓️🗄️ Scheduler agent.md>) | 🫥 Any of these trips? [No] <br/>- [ Feb 18-20 ] to Madrid 🇪🇸 <br/>- [ Mar 26-28 ] to London 🇬🇧 | > Feb 18-20
 | 🌍 Agency   | ℹ️ Received information: <br/> - 1 person for 2 nights <br/>- in Madrid, Spain <br/> - near Cuatro Torres  <br/> - from Feb 18 to Feb 20
 | 🌍 Agency   | ⏳ Searching... 
 | 🧚 [Curator](<../../../../4 ⚙️ Solution/30 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 🫥 Share preferences? [No] <br/>- [ 👤 solo ] <br/>- [ 👨‍👩‍👦 family ] | > 👤 solo
@@ -34,7 +34,7 @@ How to book a room at a hotel?
 | 💳 [Payer](<../../../../4 ⚙️ Solution/30 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Authorize card? 📄 [No] <br/>- [ Card ABC ] + $0.10 <br/>- [ Card DEF ] (free) | > Card ABC |
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | 🫥 Save booking? [Yes, No] | > Yes 
 | 🌍 Agency   | ✅ Booked!   
-| ⭐ [Rate](<../../../../4 ⚙️ Solution/30 🫥 Agents/73 ⭐ Reviewers/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5 |
+| ⭐ [Rate](<../../../../4 ⚙️ Solution/30 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5 |
 | 🌍 Agency   | ⏳ Upcoming bookings: <br/> - [ #1 ] Feb 18-20 at Any Hotel
 | ... 
 |||

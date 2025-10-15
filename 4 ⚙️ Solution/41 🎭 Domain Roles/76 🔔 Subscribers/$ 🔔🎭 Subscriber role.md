@@ -43,7 +43,7 @@
 
     * [Graph 🕸 helper domains](<../../45 🛠️ Helper domains/40 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) build their graph databases with subscriptions to [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) updates from [Listener 👂 streams](<../../45 🛠️ Helper domains/50 👂 Listeners/$ 👂🛠️ Listener helper.md>).
   
-    * [Finder 🔎 domains](<../../30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) build their search index with subscriptions to [Graph 🕸](<../../45 🛠️ Helper domains/40 🕸 Graphs/$ 🕸🛠️ Graph helper.md>), [Advertiser 👀](<../../45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>), and [Reviewer ⭐](<../../30 🫥 Agents/73 ⭐ Reviewers/01 ⭐🫥 Reviewer vault.md>) streams.
+    * [Finder 🔎 domains](<../../30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) build their search index with subscriptions to [Graph 🕸](<../../45 🛠️ Helper domains/40 🕸 Graphs/$ 🕸🛠️ Graph helper.md>), [Advertiser 👀](<../../45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>), and [Reviewer ⭐](<../../30 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) streams.
     
     * [Firewall 🔥 helper domains](<../../45 🛠️ Helper domains/21 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) subscribe to [Listener 👂](<../../45 🛠️ Helper domains/50 👂 Listeners/$ 👂🛠️ Listener helper.md>) and [Graph 🕸](<../../45 🛠️ Helper domains/40 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) streams to ensure domain compliance.
 

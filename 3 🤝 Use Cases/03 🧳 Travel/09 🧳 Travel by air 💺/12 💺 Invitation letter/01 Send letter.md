@@ -38,5 +38,5 @@ Send an invitation letter before a trip
 | 💳 [Payer](<../../../../4 ⚙️ Solution/30 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Pay $10.00 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
 | 🏛️ Council | ✅ Invitation letter issued 📄
 | 📇 [Mingler](<../../../../4 ⚙️ Solution/30 🫥 Agents/50 📇 Minglers/01 📇🫥 Mingler agent.md>) | 🫥 Forward letter? [Yes, No] <br/> - to 🐭 mouse, 🧕 sissy   | > Yes
-| ⭐ [Rate](<../../../../4 ⚙️ Solution/30 🫥 Agents/73 ⭐ Reviewers/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5
+| ⭐ [Rate](<../../../../4 ⚙️ Solution/30 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5
 ||
