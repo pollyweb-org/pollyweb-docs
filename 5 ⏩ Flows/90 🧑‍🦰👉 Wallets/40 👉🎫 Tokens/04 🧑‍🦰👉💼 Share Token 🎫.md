@@ -33,7 +33,7 @@ Consider the following excerpt from the [Flight check in 🤝 use case](<../../.
 |6| [🤵🐌💼 `Receive@Consumer`](<../../../6 🅰️ APIs/30 💼🅰️ Consumer/03 🧑‍🦰🐌💼 Receive.md>) | Send the shared offline [Tokens 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>)
 |7| [👥🚀🕸 `Trusts@Graph`](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/03 👥🚀🕸 Trusts.md>) | Verify if the [Issuers 🎴](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) are [Trustworthy 👍](<../../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>)
 |8| [👥🚀🕸 `PublicKey@Graph`](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/07 👥🚀🕸 Public Key.md>) | Get the DKIM public key of each [Token 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>)
-|9| [💼⏩🤵 Token status 🎫](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/05 💼⏩🤵 Token status.md>) | Ask the Token's [Broker 🤵](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) if it is still active
+|9| [💼⏩🤵 Token status 🎫](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/35 💼⏩🤵 Token status 🎫 flow.md>) | Ask the Token's [Broker 🤵](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) if it is still active
 |
 
 <br/>
