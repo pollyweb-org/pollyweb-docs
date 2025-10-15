@@ -1,10 +1,10 @@
 
 # 🧩 [Schema Code](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): ManifestTranslation
 
-* Referenced by:
-    * [domain Manifest 📜](<01 📜 Domain Manifest.md>)
-    * [`.MANIFEST/IDENTITY` 🧩 schema](<14 🧩 Identity schema.md>)
-    * [`.MANIFEST/CODE` 🧩 schema](<11 🧩 Code schema.md>)
+> Used by [`.MANIFEST/IDENTITY` 🧩](<14 🧩 Identity schema.md>) and
+[`.MANIFEST/CODE` 🧩](<11 🧩 Code schema.md>)
+
+> Implements [domain Manifest 📜](<01 📜 Domain Manifest.md>) 
 
 <br/>
 
