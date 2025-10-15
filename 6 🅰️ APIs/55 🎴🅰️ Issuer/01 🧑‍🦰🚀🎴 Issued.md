@@ -4,7 +4,7 @@
 
 # 🧑‍🦰🚀🎴 Issued @ Issuer
 
-> Allows for a [Token 🎫](<../../4 ⚙️ Solution/25 Data/25 🎫 Tokens/$ 🎫 Token.md>) to be downloaded from the [Issuer 🎴 domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) into the [Wallet 🧑‍🦰 app](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
+> Allows for a [Token 🎫](<../../4 ⚙️ Solution/25 Data/30 🎫 Tokens/$ 🎫 Token.md>) to be downloaded from the [Issuer 🎴 domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) into the [Wallet 🧑‍🦰 app](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
 
 > Part of the [🎴⏩🧑‍🦰 Offer Token @ Issuer](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/02 🧑‍🦰👉🎴 Save token.md>) flow.
 
@@ -30,7 +30,7 @@ Body:
 |       | `To`    | string  | [Issuer 🎴 domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) name
 ||`Subject`|string|`Token@Issuer` 
 | Body | `ChatID` | string | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID from [`Offer@Broker`](<../15 🤵🅰️ Broker/50 🤵🅰️ Tokens 🎫/51 🎴🐌🤵 Offer.md>)
-| | `TokenID`| string | [Token 🎫](<../../4 ⚙️ Solution/25 Data/25 🎫 Tokens/$ 🎫 Token.md>) ID from [`Offer@Broker`](<../15 🤵🅰️ Broker/50 🤵🅰️ Tokens 🎫/51 🎴🐌🤵 Offer.md>)
+| | `TokenID`| string | [Token 🎫](<../../4 ⚙️ Solution/25 Data/30 🎫 Tokens/$ 🎫 Token.md>) ID from [`Offer@Broker`](<../15 🤵🅰️ Broker/50 🤵🅰️ Tokens 🎫/51 🎴🐌🤵 Offer.md>)
 |
 
 <br/>
@@ -48,6 +48,6 @@ Code: airlines.any-igo.org/SSR/WCH:1
 |-|-|-
 | `Issuer` | string | [Issuer 🎴 domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) name
 | `TokenID`| string | Resource key on the [Issuer 🎴](<../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) 
-|  `Code`| string | [Schema Code 🧩](<../../4 ⚙️ Solution/25 Data/Schema Codes/02 🧩 Schema Code.md>)
-| ... | ... | Other [Token 🎫](<../../4 ⚙️ Solution/25 Data/25 🎫 Tokens/$ 🎫 Token.md>) fields 
+|  `Code`| string | [Schema Code 🧩](<../../4 ⚙️ Solution/25 Data/10 🧩 Schema Codes/02 🧩 Schema Code.md>)
+| ... | ... | Other [Token 🎫](<../../4 ⚙️ Solution/25 Data/30 🎫 Tokens/$ 🎫 Token.md>) fields 
 |

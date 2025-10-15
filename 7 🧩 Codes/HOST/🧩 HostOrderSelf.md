@@ -1,5 +1,5 @@
 
-# [🧩](<../../4 ⚙️ Solution/25 Data/Schema Codes/02 🧩 Schema Code.md>) [Schema Code](<../../4 ⚙️ Solution/25 Data/Schema Codes/02 🧩 Schema Code.md>): HostOrderSelf
+# [🧩](<../../4 ⚙️ Solution/25 Data/10 🧩 Schema Codes/02 🧩 Schema Code.md>) [Schema Code](<../../4 ⚙️ Solution/25 Data/10 🧩 Schema Codes/02 🧩 Schema Code.md>): HostOrderSelf
 
 > Inherits from [`nlweb.org/TOKEN 🧩`](<../$/🧩 TOKEN code.md>)
 

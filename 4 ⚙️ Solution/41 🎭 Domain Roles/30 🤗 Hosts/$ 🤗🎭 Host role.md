@@ -16,7 +16,7 @@
 
     |#|Category|Step
     |-|-|-
-    |1| `Hello`| The [user's Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) checks-in into a [Host 🤗 domain](<$ 🤗🎭 Host role.md>), passing it context parameters, [Binds 🔗](<../../25 Data/24 🔗 Binds/01 🔗 Bind.md>), and [Tokens 🎫](<../../25 Data/25 🎫 Tokens/$ 🎫 Token.md>).
+    |1| `Hello`| The [user's Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) checks-in into a [Host 🤗 domain](<$ 🤗🎭 Host role.md>), passing it context parameters, [Binds 🔗](<../../25 Data/20 🔗 Binds/$ 🔗 Bind.md>), and [Tokens 🎫](<../../25 Data/30 🎫 Tokens/$ 🎫 Token.md>).
     |2| `Chat` | The [Host 🤗 domain](<$ 🤗🎭 Host role.md>) sets a new [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) context.
     |3| `Interact` | The [Host 🤗 domain](<$ 🤗🎭 Host role.md>) starts interacting with prompts.
 

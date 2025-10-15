@@ -19,10 +19,10 @@
     |Scope&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Question
     |-|-
     |[👥 Identity](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>)| What's the identity of [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) `D`?
-    |[👍 Trusts](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) | Can I trust the data of [Schema 🧩](<../../25 Data/Schema Codes/02 🧩 Schema Code.md>) `S` sent by [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) `D`?
-    |[👍 Trusts](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) | Can I trust my data of [Schema 🧩](<../../25 Data/Schema Codes/02 🧩 Schema Code.md>) `S` to a [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) `D`?
-    | [🧩 Schemas](<../../25 Data/Schema Codes/02 🧩 Schema Code.md>) | What's the schema definition of [Schema Code 🧩](<../../25 Data/Schema Codes/02 🧩 Schema Code.md>) `S`?
-    | [🎫 Tokens](<../../25 Data/25 🎫 Tokens/$ 🎫 Token.md>) | What's the historical public [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) key of [🎫 Token](<../../25 Data/25 🎫 Tokens/$ 🎫 Token.md>) `T`?
+    |[👍 Trusts](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) | Can I trust the data of [Schema 🧩](<../../25 Data/10 🧩 Schema Codes/02 🧩 Schema Code.md>) `S` sent by [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) `D`?
+    |[👍 Trusts](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) | Can I trust my data of [Schema 🧩](<../../25 Data/10 🧩 Schema Codes/02 🧩 Schema Code.md>) `S` to a [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) `D`?
+    | [🧩 Schemas](<../../25 Data/10 🧩 Schema Codes/02 🧩 Schema Code.md>) | What's the schema definition of [Schema Code 🧩](<../../25 Data/10 🧩 Schema Codes/02 🧩 Schema Code.md>) `S`?
+    | [🎫 Tokens](<../../25 Data/30 🎫 Tokens/$ 🎫 Token.md>) | What's the historical public [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) key of [🎫 Token](<../../25 Data/30 🎫 Tokens/$ 🎫 Token.md>) `T`?
     | [🪣 Datasets](<../../41 🎭 Domain Roles/28 🪣 Datasets/$ 🪣🎭 Dataset role.md>) | What are the synchronous [Datasets 🪣](<../../41 🎭 Domain Roles/28 🪣 Datasets/$ 🪣🎭 Dataset role.md>) of [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) `D`?
     | [🏭 Supplies](<../../41 🎭 Domain Roles/78 🏭 Suppliers/$ 🏭🎭 Supplier role.md>) | What are the asynchronous [Supplies 🏭](<../../41 🎭 Domain Roles/78 🏭 Suppliers/$ 🏭🎭 Supplier role.md>) of [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) `D`?
     | [🌬️ Streams](<../../41 🎭 Domain Roles/75 🌬️ Streamers/$ 🌬️🎭 Streamer role.md>) | What are the event [Streams 🌬️](<../../41 🎭 Domain Roles/75 🌬️ Streamers/$ 🌬️🎭 Streamer role.md>) of [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) `D`?
@@ -67,7 +67,7 @@
 
 1. **What if an event references an unknown Schema Code?**
 
-    [Graph 🕸 domains](<$ 🕸🛠️ Graph helper.md>) will place the change on hold until the referenced [Schema Code 🧩](<../../25 Data/Schema Codes/02 🧩 Schema Code.md>) is available.
+    [Graph 🕸 domains](<$ 🕸🛠️ Graph helper.md>) will place the change on hold until the referenced [Schema Code 🧩](<../../25 Data/10 🧩 Schema Codes/02 🧩 Schema Code.md>) is available.
 
     ---
     <br/>
@@ -95,11 +95,11 @@
 
 1. **How do Graphs support the verification of Tokens?**
 
-    [Issuer 🎴 domains](<../../41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) sign [Tokens 🎫](<../../25 Data/25 🎫 Tokens/$ 🎫 Token.md>) with their active [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) key-pair. 
+    [Issuer 🎴 domains](<../../41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) sign [Tokens 🎫](<../../25 Data/30 🎫 Tokens/$ 🎫 Token.md>) with their active [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) key-pair. 
     
-    * When [Issuer 🎴 domains](<../../41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) rotate their [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>), it is no longer possible for [Consumer 💼 domains](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) to validate old [Tokens 🎫](<../../25 Data/25 🎫 Tokens/$ 🎫 Token.md>) with the new [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>).
+    * When [Issuer 🎴 domains](<../../41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) rotate their [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>), it is no longer possible for [Consumer 💼 domains](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) to validate old [Tokens 🎫](<../../25 Data/30 🎫 Tokens/$ 🎫 Token.md>) with the new [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>).
 
-    * Instead, [Consumer 💼 domains](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) should ask a [Graph 🕸 domain](<$ 🕸🛠️ Graph helper.md>) for the Issuer's [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) at the time the [Token 🎫](<../../25 Data/25 🎫 Tokens/$ 🎫 Token.md>) was issued.
+    * Instead, [Consumer 💼 domains](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) should ask a [Graph 🕸 domain](<$ 🕸🛠️ Graph helper.md>) for the Issuer's [📨 DKIM](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) at the time the [Token 🎫](<../../25 Data/30 🎫 Tokens/$ 🎫 Token.md>) was issued.
 
     ---
     <br/>
