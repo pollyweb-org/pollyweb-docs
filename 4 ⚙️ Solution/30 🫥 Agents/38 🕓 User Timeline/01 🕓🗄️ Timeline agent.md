@@ -1,7 +1,7 @@
 🕓 Timeline domains
 ===
 
-![](<00 📎 Assets/🕓 Timeline.png>)
+![](<. 📎 Assets/🕓 Timeline.png>)
 
 1. **What is a Timeline?**
 

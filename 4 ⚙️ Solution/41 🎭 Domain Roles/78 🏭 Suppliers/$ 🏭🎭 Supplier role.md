@@ -15,7 +15,7 @@
 
 1. **How do Suppliers work?**
 
-    ![](<../../30 🫥 Agents/06 🛎️ Concierges/00 📎 Assets/🛎️🏭 Supplier.png>)
+    ![](<../../30 🫥 Agents/06 🛎️ Concierges/. 📎 Assets/🛎️🏭 Supplier.png>)
 
     ---
     <br/>

@@ -1,7 +1,7 @@
 💖 Vitalogist domains
 ===
 
-![](<00 📎 Assets/🕓 Advisor vault.png>)
+![](<. 📎 Assets/🕓 Advisor vault.png>)
 
 1. **What is an Advisor?**
 

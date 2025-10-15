@@ -39,7 +39,7 @@
 
 1. **How does remote face verification works?**
 
-    ![](<00 📎 Assets/🆔 Online.png>)
+    ![](<. 📎 Assets/🆔 Online.png>)
 
     When a user is requested by a [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) to verify their identity against a given [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>), the following steps are executed.
 

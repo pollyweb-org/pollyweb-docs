@@ -26,7 +26,7 @@
 
 1. **How do Concierges handle inbound tasks?**
 
-    ![](<00 📎 Assets/🛎️🫥 Concierge.png>)
+    ![](<. 📎 Assets/🛎️🫥 Concierge.png>)
 
     | #| Category|Step
     |-|-|-
