@@ -63,11 +63,11 @@ Design Decisions
 
         - this also mirrors real-world interactions, where users typically hand-over to organization employees their physical documents with multiple data points (e.g., driver's license, passport).
   
-    - [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) may allow users to change their stored data via the user's [Folder editor 🗂️ domain](<../45 🛠️ Helper domains/26 🗂️ Folders/$ 🗂️ Folder editor.md>);
+    - [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) may allow users to change their stored data via the user's [Folder editor 🗂️ domain](<../45 🛠️ Helper domains/45 🗂️ Folders/$ 🗂️ Folder editor.md>);
 
         - this is a user-centric interface that allows a user to edit their data in multiple [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) from a single editor;
 
-        - [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) may require users to have a [Folder editor 🗂️ domain](<../45 🛠️ Helper domains/26 🗂️ Folders/$ 🗂️ Folder editor.md>) to avoid having to build a user interface.
+        - [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) may require users to have a [Folder editor 🗂️ domain](<../45 🛠️ Helper domains/45 🗂️ Folders/$ 🗂️ Folder editor.md>) to avoid having to build a user interface.
     
     ---
     <br/>
@@ -76,9 +76,9 @@ Design Decisions
 
     NLWeb integrates payments in [Chats 💬](<../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) between users and [Seller 💵 domains](<../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>). 
     
-    - As preconditions, users must first bind their [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) to one or more [Payer 💳 vaults](<../30 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) (e.g., their bank), while [Seller 💵 domains](<../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>) must bind to [Collector 🏦 vaults](<../45 🛠️ Helper domains/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) (e.g., a payment gateway). 
+    - As preconditions, users must first bind their [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) to one or more [Payer 💳 vaults](<../30 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) (e.g., their bank), while [Seller 💵 domains](<../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>) must bind to [Collector 🏦 vaults](<../45 🛠️ Helper domains/30 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) (e.g., a payment gateway). 
 
-    - The payment is sent from the [user's Payer 💳 vault](<../30 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) (on behalf of the user) to the [Seller's Collector 🏦 vault](<../45 🛠️ Helper domains/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) (on behalf of the [Seller 💵 domain](<../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>)). 
+    - The payment is sent from the [user's Payer 💳 vault](<../30 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) (on behalf of the user) to the [Seller's Collector 🏦 vault](<../45 🛠️ Helper domains/30 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) (on behalf of the [Seller 💵 domain](<../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>)). 
     
     In a [Chat 💬](<../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>): 
     1. the [Seller 💵 domain](<../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>) requests a payment amount (e.g., 123.45 USD) - the user accepts; 

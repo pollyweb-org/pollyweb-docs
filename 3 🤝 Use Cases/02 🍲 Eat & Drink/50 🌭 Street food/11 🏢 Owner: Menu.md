@@ -2,7 +2,7 @@
 
 > From [Eat street food 🌭](<01 🌭 Index.md>)
 
-> Edited via a [Folder 🗂️ editor](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/26 🗂️ Folders/$ 🗂️ Folder editor.md>)
+> Edited via a [Folder 🗂️ editor](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/45 🗂️ Folders/$ 🗂️ Folder editor.md>)
 
 ## Owner's menu
 ```yaml

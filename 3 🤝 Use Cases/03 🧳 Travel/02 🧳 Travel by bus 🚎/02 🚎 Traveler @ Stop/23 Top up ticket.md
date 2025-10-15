@@ -5,7 +5,7 @@
 | | | 🔆 [tap](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>)
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Bus (4.4 ⭐) [+]
 | 🚎 Operator | ℹ️ Stop X: Earl Gray
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | ⓘ Ticket shared [+]
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | ⓘ Ticket shared [+]
 | 🚎 Operator | ℹ️ You have 3 trips left.
 | 🚎 Operator | 😃 Hi! What do you need? <br/>- [ Top up 🆙 ] trips <br/>- [ Timetable ] | > Top up 🆙
 | 🚎 Operator | 😃 How many? [10, 20, +] | > 20

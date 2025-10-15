@@ -11,17 +11,17 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
   
     * Each app depends on a [Notifier 📣 domain](<../20 🧑‍🦰 UI/02 📣 Notifiers/$ 📣 Notifier domain.md>) for device-specific communications (e.g., WebSockets, MQTT).
     
-    * Each [Notifier 📣 domain](<../20 🧑‍🦰 UI/02 📣 Notifiers/$ 📣 Notifier domain.md>) depends on a [Broker 🤵 domain](<../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) for [Chat 💬](<../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) orchestration with [Host 🤗 domains](<../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>). 
+    * Each [Notifier 📣 domain](<../20 🧑‍🦰 UI/02 📣 Notifiers/$ 📣 Notifier domain.md>) depends on a [Broker 🤵 domain](<../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) for [Chat 💬](<../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) orchestration with [Host 🤗 domains](<../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>). 
 
 * Users store their data in [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>).
   
     * These are [Domains 👥](<../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) that can share user data with [Consumer 💼 domains](<../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>).
     
-    * [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) may allow users to edit their data through the user's [Folder 🗂️ editor](<../45 🛠️ Helper domains/26 🗂️ Folders/$ 🗂️ Folder editor.md>).
+    * [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) may allow users to edit their data through the user's [Folder 🗂️ editor](<../45 🛠️ Helper domains/45 🗂️ Folders/$ 🗂️ Folder editor.md>).
 
 * Users designate [Agents 🫥 domains](<../30 🫥 Agents/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) to handle specific well-defined roles in [Chats 💬](<../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with [Host 🤗 domains](<../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) (e.g., payments).
 
-    * These [Agents 🫥](<../30 🫥 Agents/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) are [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) that the user told their [Broker 🤵 domain](<../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) to invoke by default when a role is required.
+    * These [Agents 🫥](<../30 🫥 Agents/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) are [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) that the user told their [Broker 🤵 domain](<../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) to invoke by default when a role is required.
 
 
 
@@ -36,9 +36,9 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
     * and asynchronous service [Supplier 🏭](<../41 🎭 Domain Roles/78 🏭 Suppliers/$ 🏭🎭 Supplier role.md>). 
 
 - Domains are extended by helper domains, e.g.:
-    * [Buffer ⏳ helper domains](<../45 🛠️ Helper domains/16 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) for global ingestion and throttling, 
-    * [Collector 🏦 helper domains](<../45 🛠️ Helper domains/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) for payments, 
-    * [Biller 🤝 helper domains](<../45 🛠️ Helper domains/15 🤝 Billers/$ 🤝🛠️ Biller helper.md>) for financial contracts, 
+    * [Buffer ⏳ helper domains](<../45 🛠️ Helper domains/27 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) for global ingestion and throttling, 
+    * [Collector 🏦 helper domains](<../45 🛠️ Helper domains/30 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) for payments, 
+    * [Biller 🤝 helper domains](<../45 🛠️ Helper domains/20 🤝 Billers/$ 🤝🛠️ Biller helper.md>) for financial contracts, 
     * [Advertiser 👀 helper domains](<../45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) for ads.
 
 - Data integration and structural validation is assured via:
@@ -51,19 +51,19 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
     * and circuit [Relays 🎬](<../60 🧰 Edge/65 🎬 Relayers/04 🎬🔌 Relay device.md>).
 
 - Device integration is assured by:
-    - natural language [Relayer 🛰️](<../45 🛠️ Helper domains/70 🛰️ Relayers/$ 🛰️🛠️ Relayer helper.md>) domains;
+    - natural language [Relayer 🛰️](<../45 🛠️ Helper domains/80 🛰️ Relayers/$ 🛰️🛠️ Relayer helper.md>) domains;
     - that communicate with local [Antenna 📡](<../60 🧰 Edge/61 🔌 Pluggables/02 📡🔀 Antenna router.md>) hubs;
     - that aggregate [Pluggable 🔌](<../60 🧰 Edge/61 🔌 Pluggables/01 🔌 Pluggable device.md>) devices and [Wi-Fier 🛜](<../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>) routers. 
 
 - Security is assured by:
     * a [Trust 👍](<../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) framework; 
     * digital signatures for [Messages 📨](<../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) and [files](<../30 🫥 Agents/45 🆔 Identities/16 🆔🔏 Verify Signatures.md>);
-    * global [Firewall 🔥 helper domains](<../45 🛠️ Helper domains/21 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) that actively monitor the ecosystem;
+    * global [Firewall 🔥 helper domains](<../45 🛠️ Helper domains/40 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) that actively monitor the ecosystem;
     * user [Identity 🆔 vault domains](<../30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) that authenticate users on behalf of other [domains 👥](<../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) while maintaining privacy and legal compliance;
     * and [Ephemeral 🦋 devices](<../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>) that dynamically rotate QR and NFC [Locators 🔆](<../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) to prevent fraud.
 
 - Performance at a global scale is assured by:
-  * a distributed cluster of [Listener 👂 helper domains](<../45 🛠️ Helper domains/50 👂 Listeners/$ 👂🛠️ Listener helper.md>) that propagate [Schema Codes 🧩](<../25 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) and [Trusts 👍](<../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) from [domain Manifests 📜](<../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) in near-real time;
-  * and [Graph 🕸 helper domains](<../45 🛠️ Helper domains/40 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) that cache them to support high-performant queries from any [domain 👥](<../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>).
+  * a distributed cluster of [Listener 👂 helper domains](<../45 🛠️ Helper domains/60 👂 Listeners/$ 👂🛠️ Listener helper.md>) that propagate [Schema Codes 🧩](<../25 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) and [Trusts 👍](<../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) from [domain Manifests 📜](<../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) in near-real time;
+  * and [Graph 🕸 helper domains](<../45 🛠️ Helper domains/50 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) that cache them to support high-performant queries from any [domain 👥](<../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>).
 
   ---

@@ -41,19 +41,19 @@
 || `GRANT` | Adds a trusted node to all possible trust paths.
 ||          | This is the default, if not specified.
 || `REVOKE` | Blocks the domain/role, even if there' a GRANT.
-|| `INHERIT` | Inherits all revokes from a [Firewall 🔥 domain](<../../45 🛠️ Helper domains/21 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>).
+|| `INHERIT` | Inherits all revokes from a [Firewall 🔥 domain](<../../45 🛠️ Helper domains/40 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>).
 |
   
 * Note: When a [Schema Code 🧩](<../../25 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) is removed from [`.MANIFEST/TRUSTS`](<50 🧩 TRUST code.md>), 
     * domains should explicitly inform the `REVOKE`;
-    * otherwise, it might not be propagated by [Graph 🕸 domains](<../../45 🛠️ Helper domains/40 🕸 Graphs/$ 🕸🛠️ Graph helper.md>).
+    * otherwise, it might not be propagated by [Graph 🕸 domains](<../../45 🛠️ Helper domains/50 🕸 Graphs/$ 🕸🛠️ Graph helper.md>).
 
 
 <br/>
 
 ## Defaults
 
-* Inherit from [Firewall 🔥 domains](<../../45 🛠️ Helper domains/21 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) the revokes to malicious domains. 
+* Inherit from [Firewall 🔥 domains](<../../45 🛠️ Helper domains/40 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) the revokes to malicious domains. 
   ```yaml
   # Protection from malicious domains. 
   - Action: INHERIT

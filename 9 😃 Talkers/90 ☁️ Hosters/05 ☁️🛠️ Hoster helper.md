@@ -40,8 +40,8 @@
     | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
     |-|-|-
     | ☁️ Hoster | 😃 Hi! What do you need? <br/>- [ Host ] a domain | > Host
-    | [🤵 Broker](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 [Bind?](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind 🔗.md>) [Yes, No, +] <br/>- [Vault 🧩](<../../7 🧩 Codes/$/🧩 VAULT code.md>) | > Yes 
-    | 🤵 [Broker](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Save token? [Yes, No] <br/> - [Host Admin 🧩](<../../7 🧩 Codes/HOST/🧩 HostAdmin.md>)  | > Yes
+    | [🤵 Broker](<../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 [Bind?](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind 🔗.md>) [Yes, No, +] <br/>- [Vault 🧩](<../../7 🧩 Codes/$/🧩 VAULT code.md>) | > Yes 
+    | 🤵 [Broker](<../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Save token? [Yes, No] <br/> - [Host Admin 🧩](<../../7 🧩 Codes/HOST/🧩 HostAdmin.md>)  | > Yes
     | ☁️ Hoster | ℹ️ [Clone](<../../5 ⏩ Flows/77 🔃⏩ Syncer/10 🔃⏩🗃️ Clone.md>) with: `syncer \`<br/>`clone any-hoster.com 12345`
     | ☁️ Hoster | ⏳ Waiting for one minute... | (clone)
     | ☁️ Hoster | ℹ️ Received `67890`.

@@ -16,7 +16,7 @@ How to book at a salon?
 | 💈 Salon   | ℹ️ Booking: [Change] <br/> - haircut and manicure <br/> - tomorrow, 9:30 to 11:30 <br/> - 🚫 allergic to latex
 | 🧢 [Persona](<../../../../4 ⚙️ Solution/30 🫥 Agents/70 🧢 Personas/$ 🧢🫥 Persona agent.md>) | 🫥 Share contacts? [No] <br/>- [ 🧑‍🦰 personal ] <br/>- [ 💼 work ] <br/>- [ 🧔 Daniel ] | > 🧑‍🦰 personal
 | 💈 Salon   | ℹ️ Thanks, Alice!
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Save booking? [Yes, No] | > Yes    
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Save booking? [Yes, No] | > Yes    
 | 💈 Salon   | ✅ Booked!
 | ⭐ [Rate](<../../../../4 ⚙️ Solution/30 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5 |
 | 💈 Salon   | ⏳ Upcoming bookings: <br/> - [ #1 ] Tomorrow, 9:30

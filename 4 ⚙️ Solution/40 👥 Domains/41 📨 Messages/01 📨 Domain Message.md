@@ -131,7 +131,7 @@
 
     Senders sign the header and body of envelopes with [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) private key,
     - [domains 👥](<00 👥 Domain.md>) verify incoming [domain 👥](<00 👥 Domain.md>) messages with the sender's [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) public key,
-    - and [Broker 🤵 domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) verify incoming [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) messages with the their pre-shared public key.
+    - and [Broker 🤵 domains](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) verify incoming [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) messages with the their pre-shared public key.
     
     ---
     <br/>
@@ -281,7 +281,7 @@
 
     | Format | Rational
     |-|-
-    | `JSON` | Structured JSON for machine-to-machine payloads, because it's faster and widely supported by cloud providers; e.g.: <br/>• [domain Messages 📨](<01 📨 Domain Message.md>) between any two [domains 👥](<00 👥 Domain.md>), <br/>• data sharing between a [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) and a [Consumer 💼](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) domains, <br/>• payments between a [Payer 💳](<../../30 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) and a [Collector](<../../45 🛠️ Helper domains/18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) domains.
+    | `JSON` | Structured JSON for machine-to-machine payloads, because it's faster and widely supported by cloud providers; e.g.: <br/>• [domain Messages 📨](<01 📨 Domain Message.md>) between any two [domains 👥](<00 👥 Domain.md>), <br/>• data sharing between a [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) and a [Consumer 💼](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) domains, <br/>• payments between a [Payer 💳](<../../30 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) and a [Collector](<../../45 🛠️ Helper domains/30 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) domains.
     | `YAML` | Structured YAML for human-to-machine settings, because it supports comments and it's easier for humans to read, while still supporting schema validations; <br/>• e.g.: [Schema Codes 🧩](<../../25 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) and [domain Manifests 📜](<../44 📜 Manifests/$ 📜 Domain Manifest.md>).
     | `MARKDOWN` | Unstructured MARKDOWN for human-to-LLM instructions, when schema validations are not required; <br/>• e.g., description of products and services by business owners (like a detailed restaurant menu) for user [Curator 🧚 agents](<../../30 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) to filter on behalf of users.
     
@@ -293,9 +293,9 @@
 
     When discarding an invalid message, receiver domains send feedback to the sender with the original correlation ID. 
     
-    * Sender domains define their [Buffer ⏳ helper domain](<../../45 🛠️ Helper domains/16 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) in the `Identity` section of their [domain Manifest 📜](<../44 📜 Manifests/$ 📜 Domain Manifest.md>).
+    * Sender domains define their [Buffer ⏳ helper domain](<../../45 🛠️ Helper domains/27 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) in the `Identity` section of their [domain Manifest 📜](<../44 📜 Manifests/$ 📜 Domain Manifest.md>).
        * If the `Feedback` property is not defined, then no feedback is given.
-       * Domains get of the [Buffer ⏳ helper domain](<../../45 🛠️ Helper domains/16 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) by calling the [Identity@Broker 🚀 request](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/04 👥🚀🕸 Identity.md>).
+       * Domains get of the [Buffer ⏳ helper domain](<../../45 🛠️ Helper domains/27 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) by calling the [Identity@Broker 🚀 request](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/04 👥🚀🕸 Identity.md>).
   
         ```yaml
         🤝: nlweb.org/MANIFEST/ABOUT
@@ -304,7 +304,7 @@
           Feedback: any-buffer.com
         ```
 
-    * The feedback is sent via a [Buffer ⏳ helper domain](<../../45 🛠️ Helper domains/16 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) defined by the sender's domain, using the [Feedback@Buffer 🐌 API message](<../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/01 👥🐌⏳ Feedback.md>). 
+    * The feedback is sent via a [Buffer ⏳ helper domain](<../../45 🛠️ Helper domains/27 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) defined by the sender's domain, using the [Feedback@Buffer 🐌 API message](<../../../6 🅰️ APIs/20 ⏳🅰️ Buffer/01 👥🐌⏳ Feedback.md>). 
         ```yaml
         🤝: nlweb.org/MSG:1.0
         Header:

@@ -6,7 +6,7 @@ Bind to a folder editor
 | | | > Add vault
 | 🔎 [Finder](<../../30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Folder (4.3 ⭐)  [+]
 | 🗂️ [Folder](<$ 🗂️ Folder editor.md>) | ℹ️ Bind vault requested.
-| 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Bind vault? [No] <br/> - [ Any Persona 🧢 ] <br/> - [ Any Payer 💳 ] <br/> - ... | > Any Persona 🧢
+| 🤵 [Broker](<../24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Bind vault? [No] <br/> - [ Any Persona 🧢 ] <br/> - [ Any Payer 💳 ] <br/> - ... | > Any Persona 🧢
 | 🧢 [Persona](<../../30 🫥 Agents/70 🧢 Personas/$ 🧢🫥 Persona agent.md>) | ⓘ Folder bind requested.
 | 🆔 [Identity](<../../30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../30 🫥 Agents/45 🆔 Identities/21 🆔😶 Face scan.md>)
 | 🗂️ [Folder](<$ 🗂️ Folder editor.md>) | ✅ Bound to Any Persona 🧢

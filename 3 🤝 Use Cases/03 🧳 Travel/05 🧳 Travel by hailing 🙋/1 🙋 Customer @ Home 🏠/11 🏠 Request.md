@@ -6,7 +6,7 @@ How to request an immediate ride?
 ||| > Hailing 🔗
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Ride Hailing (4.4 ⭐) [+]
 | 🙋 Hailing | 😃 Hi! What do you need? <br/>- [ Ride now ] <br/>- [ Book ride ] <br/> - [ Something else ] | > Ride now
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Ready to ride? [Yes, No] <br/>- your navigator sets where 🧭 <br/> - your persona sets preferences 🧢 <br/> - your scheduler sets when 🗓️ <br/> - your payer pays the bill 💳 <br/>- your navigator guides you 🧭<br/> - tap the car's seat on entering ✨ | > Yes
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Ready to ride? [Yes, No] <br/>- your navigator sets where 🧭 <br/> - your persona sets preferences 🧢 <br/> - your scheduler sets when 🗓️ <br/> - your payer pays the bill 💳 <br/>- your navigator guides you 🧭<br/> - tap the car's seat on entering ✨ | > Yes
 | 🙋 Hailing | ℹ️ Received route: [Change] <br/> - pick-up at St. Mary's street, 68 <br/> - drop-off at Valerian road, 231-B <br/> - drive via Whistle Woods road
 | 🧢 [Persona](<../../../../4 ⚙️ Solution/30 🫥 Agents/70 🧢 Personas/$ 🧢🫥 Persona agent.md>) | 🫥 Share car preferences? [No] <br/>- [ 🧑‍🦰 personal ] <br/>- [ 💼 work ] <br/>- [ 🤝 business ] | > 🧑‍🦰 personal
 | 🙋 Hailing | ℹ️ Received preferences: [Change] <br/> - comfort or above car <br/> - english speaker driver <br/> - warm and quiet ride 
