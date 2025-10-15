@@ -20,5 +20,5 @@ How to check-in to a hotel?
 | 🏨 Hotel    | ℹ️ A few more things: <br/> - the gym is open 24x7 <br/> - pool opens from 9am to 7pm <br/> - breakfast is from 7 to 10 pm <br/> - it's served at the ground floor <br/> - enjoy your stay!
 | 🏨 Hotel    | ✅ Check-in done!
 | ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agents/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐⭐⭐⭐⭐
-| [👀 Ads](<../../../../4 ⚙️ Solution/45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) | 🫥 Explore follow-up actions? [No] <br/>- [ Book a city tour 🚌 ]  <br/>- [ See a flamenco show 💃 ] <br/> - [ Explore the neighborhood 🔎 ]
+| [👀 Ads](<../../../../4 ⚙️ Solution/45 🛠️ Helper domains/12 👀 Advertisers/👀🛠️ Advertiser helper.md>) | 🫥 Explore follow-up actions? [No] <br/>- [ Book a city tour 🚌 ]  <br/>- [ See a flamenco show 💃 ] <br/> - [ Explore the neighborhood 🔎 ]
 |||

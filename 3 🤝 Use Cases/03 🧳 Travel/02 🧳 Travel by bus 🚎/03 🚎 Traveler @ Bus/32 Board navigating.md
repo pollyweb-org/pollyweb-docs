@@ -13,5 +13,5 @@
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/50 🫥 Agents/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | ⏳ ETA 9:28, ignore the next stop
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/50 🫥 Agents/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | ⏳ ETA 9:28, your stop is next...
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/50 🫥 Agents/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | 📣 Arrived, exit the bus.
-| [👀 Ads](<../../../../4 ⚙️ Solution/45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) | ⓘ Explore follow-up actions: <br/>- [ 🛍️ Harry Potter at Kings Cross ]
+| [👀 Ads](<../../../../4 ⚙️ Solution/45 🛠️ Helper domains/12 👀 Advertisers/👀🛠️ Advertiser helper.md>) | ⓘ Explore follow-up actions: <br/>- [ 🛍️ Harry Potter at Kings Cross ]
 ||
