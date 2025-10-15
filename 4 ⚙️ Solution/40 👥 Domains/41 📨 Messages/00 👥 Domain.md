@@ -42,7 +42,7 @@
     | Role 🎭&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Responsibility
     |-|-
     | [🍏 Brand](<../../70 🌳 Ambient/71 💠 Brand Things/07 🍏🎭 Brand role.md>) | Bundles and sells physical products as [Things 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>)
-    | [💼 Consumer](<../../25 Data/27 💼 Consumers/04 💼🎭 Consumer role.md>) | Consumes data from [Vaults 🗄️](<../../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) and [Issuers 🎴](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>)
+    | [💼 Consumer](<../../41 🎭 Domain Roles/27 💼 Consumers/04 💼🎭 Consumer role.md>) | Consumes data from [Vaults 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>) and [Issuers 🎴](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>)
     | [🪣 Dataset](<../../20 🧑‍🦰 UI/12 💬 Chats/07 🪣🎭 Dataset role.md>) | Exposes that exposes a synchronous data API
     | [🛠️ Helper](<../../45 🛠️ Helper domains/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) | Offloads undifferentiated logic from [domains 👥](<00 👥 Domain.md>)
     | [🤗 Host](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | Hosts [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) for [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) via [Brokers 🤵](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
@@ -50,7 +50,7 @@
     | [🎴 Issuer](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) | Issues [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) to be saved on users' [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | [🌬️ Streamer](<../42 🌬️ Streams/02 🌬️🎭 Streamer role.md>) | Pushes and replays domain events to [Subscribers 🔔](<../42 🌬️ Streams/04 🔔🎭 Subscriber role.md>)
     | [🔔 Subscriber](<../42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) | Subscribes to domain events from a [Streamers 🌬️](<../42 🌬️ Streams/02 🌬️🎭 Streamer role.md>)
-    | [🗄️ Vault](<../../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) | Stores user data and shares it with [Consumers 💼](<../../25 Data/27 💼 Consumers/04 💼🎭 Consumer role.md>)
+    | [🗄️ Vault](<../../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>) | Stores user data and shares it with [Consumers 💼](<../../41 🎭 Domain Roles/27 💼 Consumers/04 💼🎭 Consumer role.md>)
     | [🏭 Supplier](<../../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>) | Accept async order requests from [domains 👥](<00 👥 Domain.md>)
     
     ---

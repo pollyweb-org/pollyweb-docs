@@ -13,15 +13,15 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
     
     * Each [Notifier 📣 domain](<../20 🧑‍🦰 UI/02 📣 Notifiers/02 📣 Notifier domain.md>) depends on a [Broker 🤵 domain](<../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) for [Chat 💬](<../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) orchestration with [Host 🤗 domains](<../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>). 
 
-* Users store their data in [Vault 🗄️ domains](<../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>).
+* Users store their data in [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>).
   
-    * These are [Domains 👥](<../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) that can share user data with [Consumer 💼 domains](<../25 Data/27 💼 Consumers/04 💼🎭 Consumer role.md>).
+    * These are [Domains 👥](<../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) that can share user data with [Consumer 💼 domains](<../41 🎭 Domain Roles/27 💼 Consumers/04 💼🎭 Consumer role.md>).
     
-    * [Vault 🗄️ domains](<../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) may allow users to edit their data through the user's [Folder 🗂️ editor](<../45 🛠️ Helper domains/26 🗂️ Folders/$ 🗂️ Folder editor.md>).
+    * [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>) may allow users to edit their data through the user's [Folder 🗂️ editor](<../45 🛠️ Helper domains/26 🗂️ Folders/$ 🗂️ Folder editor.md>).
 
 * Users designate [Agents 🫥 domains](<../25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) to handle specific well-defined roles in [Chats 💬](<../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) with [Host 🤗 domains](<../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) (e.g., payments).
 
-    * These [Agents 🫥](<../25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) are [Vault 🗄️ domains](<../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) that the user told their [Broker 🤵 domain](<../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) to invoke by default when a role is required.
+    * These [Agents 🫥](<../25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) are [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>) that the user told their [Broker 🤵 domain](<../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) to invoke by default when a role is required.
 
 
 
@@ -30,8 +30,8 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
 - Organizations interact with an email-like inbox API behind a domain name, and can assume a multitude of roles in parallel - e.g.:
     * session [Host 🤗](<../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>), 
     * business [Seller 💵](<../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>),
-    * data [Consumer 💼](<../25 Data/27 💼 Consumers/04 💼🎭 Consumer role.md>), 
-    * user-bound [Vault 🗄️](<../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>), 
+    * data [Consumer 💼](<../41 🎭 Domain Roles/27 💼 Consumers/04 💼🎭 Consumer role.md>), 
+    * user-bound [Vault 🗄️](<../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>), 
     * event [Streamer 🌬️](<../40 👥 Domains/42 🌬️ Streams/02 🌬️🎭 Streamer role.md>), 
     * and asynchronous service [Supplier 🏭](<../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>). 
 

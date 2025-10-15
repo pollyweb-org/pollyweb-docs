@@ -5,7 +5,7 @@
 
 1. **What is a Mingler?**
 
-    A Mingler 📇 is a user [Vault 🗄️](<../../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) that networks with other [🧑‍🦰Wallets](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) via their Minglers?
+    A Mingler 📇 is a user [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>) that networks with other [🧑‍🦰Wallets](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) via their Minglers?
 
     ---
 

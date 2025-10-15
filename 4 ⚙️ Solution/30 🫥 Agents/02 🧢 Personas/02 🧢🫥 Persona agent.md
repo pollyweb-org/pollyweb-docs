@@ -22,7 +22,7 @@
 
     | Role | Purpose
     |-|-
-    | [🗄️ Vault](<../../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) | For sharing user data with [Consumer 💼 domains](<../../25 Data/27 💼 Consumers/04 💼🎭 Consumer role.md>).
+    | [🗄️ Vault](<../../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>) | For sharing user data with [Consumer 💼 domains](<../../41 🎭 Domain Roles/27 💼 Consumers/04 💼🎭 Consumer role.md>).
     | [🤗 Host](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | For managing [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) with users.
     | [🫥 Agent ](<../../25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | To participate in [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) from other [Host 🤗 domains](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>).
     | [🌬️ Streamer](<../../40 👥 Domains/42 🌬️ Streams/02 🌬️🎭 Streamer role.md>) | For streaming events to [Subscriber 🔔 domains](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>).
