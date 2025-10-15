@@ -12,7 +12,7 @@
 
 1. **How do Subscribers work?**
 
-    ![alt text](<../../40 👥 Domains/41 📨 Messages/.📎 Assets/📨🔔 Subscriber.png>)
+    ![alt text](<.📎 Assets/🔔 Subscriber.png>)
 
     |#| Step
     |-|-
