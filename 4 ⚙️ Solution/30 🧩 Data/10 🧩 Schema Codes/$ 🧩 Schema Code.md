@@ -18,7 +18,7 @@
 
     | Schema Code | Purpose |
     |-|-
-    | [`.MSG` 🧩](<../../../7 🧩 Codes/$/🧩 MSG code.md>) | Schema of [Messages 📨](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>) 
+    | [`.MSG` 🧩](<../../40 👥 Domains/41 📨 Messages/10 🧩 MSG code.md>) | Schema of [Messages 📨](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>) 
     | [`.TOKEN` 🧩](<../30 🎫 Tokens/10 🧩 TOKEN code.md>) | Schema of [Tokens 🎫](<../30 🎫 Tokens/$ 🎫 Token.md>)
     | [`unicode.org/FLAG` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 unicode.any-igo.org.md>) | Flags for country [Prompts 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>)
     | [`locale.org/TERRITORY` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 locale.any-igo.org.md>) | Country names for [Prompts 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>)
