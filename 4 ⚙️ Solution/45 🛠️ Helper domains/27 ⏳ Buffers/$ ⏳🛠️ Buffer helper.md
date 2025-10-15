@@ -19,7 +19,7 @@
 
 1. **How do Buffers work?**
 
-    ![](<../../40 👥 Domains/41 📨 Messages/.📎 Assets/📨⏳ Buffer.png>)
+    ![](<.📎 Assets/⏳ Buffer.png>)
 
     |#| Step
     |-|-
