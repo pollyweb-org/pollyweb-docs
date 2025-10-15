@@ -20,9 +20,9 @@
     
     | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | 🎴 [Issuer](<../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) | ℹ️ Issuing your token...
+    | 🎴 [Issuer](<../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) | ℹ️ Issuing your token...
     | 🤵 [Broker](<../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Save token? [Yes, No]  | > Yes
-    | 🎴 [Issuer](<../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) | ✅ Saved to your wallet.
+    | 🎴 [Issuer](<../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) | ✅ Saved to your wallet.
 
     ---
     <br/>
@@ -37,7 +37,7 @@
     | Argument| Purpose
     |-|-
     | `{function}`  | [{Function}](<../30 🗃️ Talker data/12 🐍 {Function}.md>) that issues the [Token 🎫](<../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) ID.
-    | `<accepted>`| Boolean placeholder for [Accepted @ Issuer](<../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/55 🎴🅰️ Issuer/02 🤵🐌🎴 Accepted.md>).
+    | `<accepted>`| Boolean placeholder for [Accepted @ Issuer](<../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/🎴🅰️ Issuer methods/🤵🐌🎴 Accepted.md>).
 
     ---
     <br/>
