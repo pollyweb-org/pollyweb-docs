@@ -4,7 +4,7 @@
 1. **What is a Bind?**
 
     A [Bind 🔗](<$ 🔗 Bind.md>) is 
-    * a relationship between a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) and a [Vault 🗄️ domain](<../../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) 
+    * a relationship between a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) and a [Vault 🗄️ domain](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) 
     * for a given [Schema Code 🧩](<../10 🧩 Schema Codes/$ 🧩 Schema Code.md>).
 
     ---
@@ -16,8 +16,8 @@
 
     |#|Step|Interface|Step
     |-|-|-|-
-    | 1| `Hello`| [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) | Open a [💬 Chat](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with the [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) and select `Bind`
-    | 1| `Hello`| Browser | Login to the website of the [Vault 🗄️ ](<../../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) and click `Bind`
+    | 1| `Hello`| [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) | Open a [💬 Chat](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with the [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) and select `Bind`
+    | 1| `Hello`| Browser | Login to the website of the [Vault 🗄️ ](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) and click `Bind`
     | 2|  `Bind`|[Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) | On the [💬 Chat](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>), follow the steps detailed below
 
     ---

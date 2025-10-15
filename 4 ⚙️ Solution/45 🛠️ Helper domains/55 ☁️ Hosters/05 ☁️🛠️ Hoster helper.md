@@ -21,7 +21,7 @@
     | [🗃️ Resourcer](<../../41 🎭 Domain Roles/60 🗃️ Resourcers/$ 🗃️🎭 Resourcer role.md>) | To sync setup files with a [Syncer 🔃 tool](<../../../9 😃 Talkers/90 ☁️ Hosters/01 🔃🛠️ Syncer tool.md>)
     | [😃 Talker](<../../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>) | To manage [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) workflows
     | [🤗 Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) | For interacting with [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) in [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
-    | `And also` | [`Issuer 🎴`](<../../41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) [`Vault 🗄️`](<../../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) [`Consumer 💼`](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>)
+    | `And also` | [`Issuer 🎴`](<../../41 🎭 Domain Roles/40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) [`Vault 🗄️`](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) [`Consumer 💼`](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>)
     |  | [`Seller 💵`](<../../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>) [`Subscriber 🔔`](<../../41 🎭 Domain Roles/76 🔔 Subscribers/$ 🔔🎭 Subscriber role.md>)
     
 

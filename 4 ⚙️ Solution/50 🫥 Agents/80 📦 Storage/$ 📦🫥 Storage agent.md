@@ -5,7 +5,7 @@
 
 1. **What is a Storage domain in NLWeb?**
 
-    A Storage 📦 domain is a shared repository [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) that users can subscribe to keep their data in the cloud, similar to Dropbox and Google Drive, with the intent of being shared with other services. 
+    A Storage 📦 domain is a shared repository [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) that users can subscribe to keep their data in the cloud, similar to Dropbox and Google Drive, with the intent of being shared with other services. 
 
     ---
     

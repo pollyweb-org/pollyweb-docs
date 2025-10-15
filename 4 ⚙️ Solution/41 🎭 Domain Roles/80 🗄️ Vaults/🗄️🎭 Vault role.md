@@ -3,7 +3,7 @@
 
 1. **What is a Vault domain role in NLWeb?**
 
-    A [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) with a [Vault 🗄️ role](<$ 🗄️🎭 Vault role.md>) 
+    A [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) with a [Vault 🗄️ role](<🗄️🎭 Vault role.md>) 
     * is any [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) that stores user data,
     * has a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) with the user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>), 
     * and shares it with [Consumer 💼 domains](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>). 
@@ -18,7 +18,7 @@
     | `Banks` | These hold and revoke customers' bank accounts.
     | `Hospitals` | These hold and control patients' medical records.
     | `Governments` | These hold and revoke citizens' identity documents.
-    |[🫥 `Agents`](<../../50 🫥 Agents/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) | These are [Vaults 🗄️](<$ 🗄️🎭 Vault role.md>) with well-known NLWeb APIs.
+    |[🫥 `Agents`](<../../50 🫥 Agents/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) | These are [Vaults 🗄️](<🗄️🎭 Vault role.md>) with well-known NLWeb APIs.
     
 
     ---
@@ -27,13 +27,13 @@
 
 1. **How are Vault domains configured on a Wallet?**
 
-    For a [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) to be listed as a [Vault 🗄️ domain](<$ 🗄️🎭 Vault role.md>) in the [user's Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>), the user first needs to [bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) the [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) to the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
+    For a [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) to be listed as a [Vault 🗄️ domain](<🗄️🎭 Vault role.md>) in the [user's Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>), the user first needs to [bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) the [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) to the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
 
     | | Workflow |  Description
     |-|-|-
     | | [👉 Binds ](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/01 🧑‍🦰👉🤵 List binds.md>) | List the user's [Binds 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>)
-    || [👉 Bind](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind 🔗.md>) | [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) the [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) to a [Vault 🗄️](<$ 🗄️🎭 Vault role.md>)
-    || [👉 Unbind](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/03 🧑‍🦰👉🗄️ Unbind.md>) | Remove a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) from a [Vault 🗄️](<$ 🗄️🎭 Vault role.md>)
+    || [👉 Bind](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind 🔗.md>) | [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) the [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) to a [Vault 🗄️](<🗄️🎭 Vault role.md>)
+    || [👉 Unbind](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/03 🧑‍🦰👉🗄️ Unbind.md>) | Remove a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) from a [Vault 🗄️](<🗄️🎭 Vault role.md>)
     
     ---
     <br/>
@@ -52,13 +52,13 @@
 1. **Can users ask Vaults to share data with other Hosts?**
 
     Yes. 
-    - Upon a share request with the [Consumer 💼 host](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>), users can authorize their [Vault 🗄️ domains](<$ 🗄️🎭 Vault role.md>) to disclose a data set with that [Consumer 💼 domain](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>). 
-    - This requires both [Vault 🗄️](<$ 🗄️🎭 Vault role.md>) and [Consumer 💼 host](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) domains to [trust 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) one another for the [Schema Code 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) of the dataset to be shared.
+    - Upon a share request with the [Consumer 💼 host](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>), users can authorize their [Vault 🗄️ domains](<🗄️🎭 Vault role.md>) to disclose a data set with that [Consumer 💼 domain](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>). 
+    - This requires both [Vault 🗄️](<🗄️🎭 Vault role.md>) and [Consumer 💼 host](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) domains to [trust 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) one another for the [Schema Code 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) of the dataset to be shared.
 
     | | Workflow |  Description
     |-|-|-
     ||[👉 Share](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>) | Shares a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) with a [Consumer 💼](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>)
-    || [💼 Consume](<32 🗄️⏩💼 Consume 🔗 flow.md>) | Tells a [Consumer 💼](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) to collect data
+    || [💼 Consume](<🗄️⏩ Vault Flows/🗄️⏩💼 Consume 🔗.md>) | Tells a [Consumer 💼](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) to collect data
     
 
     ---
@@ -74,7 +74,7 @@
 
 1. **How can Vaults comply with data residency?**
 
-    [Vault 🗄️ domains](<$ 🗄️🎭 Vault role.md>) 
+    [Vault 🗄️ domains](<🗄️🎭 Vault role.md>) 
     * can ask users to share their [Storage 📦 vault](<../../50 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>), 
     * then store the user data there.
 
@@ -84,8 +84,8 @@
 1. **Do users have private vaults, like the Solid Project?**
 
     No. 
-    * Unlike the [Solid Project 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/05 📺 Berners-Lee vaults.md>), by Sir Tim Berners-Lee, NLWeb users don't have a private repository (a.k.a. [Vault 🗄️](<$ 🗄️🎭 Vault role.md>)) for all their data, so they don't effectively own their data. 
-    * Instead, a user's data is scattered across a number of [Vault 🗄️ domains](<$ 🗄️🎭 Vault role.md>) managed by different providers who decide how much of the user's data is accessible and by whom.
+    * Unlike the [Solid Project 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/05 📺 Berners-Lee vaults.md>), by Sir Tim Berners-Lee, NLWeb users don't have a private repository (a.k.a. [Vault 🗄️](<🗄️🎭 Vault role.md>)) for all their data, so they don't effectively own their data. 
+    * Instead, a user's data is scattered across a number of [Vault 🗄️ domains](<🗄️🎭 Vault role.md>) managed by different providers who decide how much of the user's data is accessible and by whom.
   
     This is a better representation of reality as we know it - e.g., 
     * a person's bank history is with banks, 
@@ -123,7 +123,7 @@
     * and that is not expected to change any time soon.
   
     Conversely, our global society is built on the trust that we have in the ability of corporations to deliver, and the ability of public institutions to regulate them — NLWeb aims to replicate our modern society with the following mechanisms:
-    * [Vault 🗄️ domains](<$ 🗄️🎭 Vault role.md>) controlled by corporations;
+    * [Vault 🗄️ domains](<🗄️🎭 Vault role.md>) controlled by corporations;
     * [Trusts 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) in [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) to represent partnerships;
     * [Authority 🏛️ domains](<../../45 🛠️ Helper domains/14 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>) for intergovernmental agreements;
     * [Broker 🤵 domains](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) to protect users from bad corporate actors;
@@ -147,7 +147,7 @@
 
     A single [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) can, in theory, implement all existing [Schema Codes 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) and establish [trust 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) relationships with all existing [domains 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>).
 
-    * Thus, a user may wish to [bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) to that single [Vault 🗄️ domain](<$ 🗄️🎭 Vault role.md>) with all [Schema Codes 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) the user is interested in sharing, and is [trusted 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) buy all the [domains 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) the user is interested in interacting with. 
+    * Thus, a user may wish to [bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) to that single [Vault 🗄️ domain](<🗄️🎭 Vault role.md>) with all [Schema Codes 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) the user is interested in sharing, and is [trusted 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) buy all the [domains 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) the user is interested in interacting with. 
   
     * However, this solution doesn't seem scalable, if at all realistic.
 
@@ -156,7 +156,7 @@
 
 1. **How is data residency solved by vaults?**
 
-    Where nations require their citizens' data to be stored within nation's borders, [Vault 🗄️ domains](<$ 🗄️🎭 Vault role.md>) can leverage the user's [Storage 📦 vault](<../../50 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>) to store their data. 
+    Where nations require their citizens' data to be stored within nation's borders, [Vault 🗄️ domains](<🗄️🎭 Vault role.md>) can leverage the user's [Storage 📦 vault](<../../50 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>) to store their data. 
     
     - [Storage vaults 📦](<../../50 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>) are multi-tenant cloud repositories rented by users, where users can allow bound vaults to write their data into. 
     
@@ -172,33 +172,33 @@
 
     User tracking is typically done by a consortium of domains crossing information about a user's interaction with each one of them, allowing them to reconstruct the user's journey. 
     
-    - To avoid this, each [Vault 🗄️ domain](<$ 🗄️🎭 Vault role.md>) is bounded to a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) using a unique key-pair, so that there are no common properties between two [Vault Binds 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) of the same user, thus no way to cross the interactions with the [Vault 🗄️ domain](<$ 🗄️🎭 Vault role.md>).
+    - To avoid this, each [Vault 🗄️ domain](<🗄️🎭 Vault role.md>) is bounded to a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) using a unique key-pair, so that there are no common properties between two [Vault Binds 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) of the same user, thus no way to cross the interactions with the [Vault 🗄️ domain](<🗄️🎭 Vault role.md>).
 
     ---
     <br/>
 
 1. **How are users protected from stalking from vaults?**
 
-    [Vault 🗄️ domains](<$ 🗄️🎭 Vault role.md>) are [Host 🤗 domains](<../30 🤗 Hosts/$ 🤗🎭 Host role.md>) that store user data. 
+    [Vault 🗄️ domains](<🗄️🎭 Vault role.md>) are [Host 🤗 domains](<../30 🤗 Hosts/$ 🤗🎭 Host role.md>) that store user data. 
     
-    * When a user [binds 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) to a [Host 🤗 domain](<../30 🤗 Hosts/$ 🤗🎭 Host role.md>), the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) passes a unique [bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) ID to the [Host 🤗](<../30 🤗 Hosts/$ 🤗🎭 Host role.md>) to be able to identify the user across sessions, turning the [Host 🤗 domain](<../30 🤗 Hosts/$ 🤗🎭 Host role.md>) into a [Vault 🗄️ domain](<$ 🗄️🎭 Vault role.md>).
+    * When a user [binds 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) to a [Host 🤗 domain](<../30 🤗 Hosts/$ 🤗🎭 Host role.md>), the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) passes a unique [bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) ID to the [Host 🤗](<../30 🤗 Hosts/$ 🤗🎭 Host role.md>) to be able to identify the user across sessions, turning the [Host 🤗 domain](<../30 🤗 Hosts/$ 🤗🎭 Host role.md>) into a [Vault 🗄️ domain](<🗄️🎭 Vault role.md>).
     
-    * While the [Vault 🗄️ domain](<$ 🗄️🎭 Vault role.md>) is now able to track the user across [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>), it cannot track the user across [Host 🤗 domains](<../30 🤗 Hosts/$ 🤗🎭 Host role.md>) because the [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) ID is unique for the relationship between that user and that [Host 🤗](<../30 🤗 Hosts/$ 🤗🎭 Host role.md>).
+    * While the [Vault 🗄️ domain](<🗄️🎭 Vault role.md>) is now able to track the user across [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>), it cannot track the user across [Host 🤗 domains](<../30 🤗 Hosts/$ 🤗🎭 Host role.md>) because the [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) ID is unique for the relationship between that user and that [Host 🤗](<../30 🤗 Hosts/$ 🤗🎭 Host role.md>).
 
     ---
     <br/>
 
 1. **How do Vaults protect user data from Consumers?**
 
-    [Consumer 💼 domains](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) can't request user data directly to [Vault 🗄️ domains](<$ 🗄️🎭 Vault role.md>). 
+    [Consumer 💼 domains](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) can't request user data directly to [Vault 🗄️ domains](<🗄️🎭 Vault role.md>). 
     
     * Instead, [Consumer 💼 domains](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) request such data directly to the user. 
 
-    * When prompted, the user selects the preferred [Vault 🗄️ domain](<$ 🗄️🎭 Vault role.md>) to answer the Consumer's 💼 request, then signs and sends a disclose request to the selected [Vault 🗄️ domain](<$ 🗄️🎭 Vault role.md>), asking it to disclose the requested data to the [Consumer 💼 domain](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>). 
+    * When prompted, the user selects the preferred [Vault 🗄️ domain](<🗄️🎭 Vault role.md>) to answer the Consumer's 💼 request, then signs and sends a disclose request to the selected [Vault 🗄️ domain](<🗄️🎭 Vault role.md>), asking it to disclose the requested data to the [Consumer 💼 domain](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>). 
     
-    * At that point, the [Vault 🗄️ domain](<$ 🗄️🎭 Vault role.md>) may ask the user for additional data (e.g., which credit card to use on a payment) or perform additional validations (e.g., a one-time-password via SMS to approve a bank transfer). 
+    * At that point, the [Vault 🗄️ domain](<🗄️🎭 Vault role.md>) may ask the user for additional data (e.g., which credit card to use on a payment) or perform additional validations (e.g., a one-time-password via SMS to approve a bank transfer). 
     
-    * Finally, the [Vault 🗄️ domain](<$ 🗄️🎭 Vault role.md>) sends the data directly to the [Consumer 💼 domain](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) who requested it.
+    * Finally, the [Vault 🗄️ domain](<🗄️🎭 Vault role.md>) sends the data directly to the [Consumer 💼 domain](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) who requested it.
 
     ---
     <br/>
@@ -219,8 +219,8 @@
 
     |Flow ⏩| Details
     |-|-
-    | [💼 Consume](<32 🗄️⏩💼 Consume 🔗 flow.md>) | Tells a [Consumer 💼](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) to collect data
-    | [🧑‍🦰 Engage](<34 🗄️⏩🧑‍🦰 Engage 💬 flow.md>) | Opens a new [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with a [Bound 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) user
+    | [💼 Consume](<🗄️⏩ Vault Flows/🗄️⏩💼 Consume 🔗.md>) | Tells a [Consumer 💼](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) to collect data
+    | [🧑‍🦰 Engage](<🗄️⏩ Vault Flows/🗄️⏩🧑‍🦰 Engage 💬.md>) | Opens a new [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with a [Bound 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) user
     
 
     ---
@@ -230,11 +230,11 @@
    
     | [From 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) | [Subject 📨](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>) | Description |
     |-|--------|-------------|
-    | [🤵 Broker](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | [`Bound`](<52 🤵🐌🗄️ Bound@Vault.md>) | Add a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) |
-    |  | [`Unbind`](<52 🤵🐌🗄️ Unbind@Vault.md>) | Remove a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) |
-    | | [`Disclose`](<53 🤵🐌🗄️ Disclose@Vault.md>) | Disclose the data of a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) |
-    | | [`Suppress`](<54 🤵🐌🗄️ Suppress@Vault.md>) | Suppress [🖐️ Palm scans](<../../50 🫥 Agents/45 🆔 Identities/22 🆔🖐️ Palm scan.md>) |
-    | [💼 Consumer](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) | [`Collect`](<51 💼🚀🗄️ Collect@Vault.md>) | Return the data disclosed
+    | [🤵 Broker](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | [`Bound`](<🗄️🅰️ Vault API/🤵🐌🗄️ Bound.md>) | Add a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) |
+    |  | [`Unbind`](<🗄️🅰️ Vault API/🤵🐌🗄️ Unbind.md>) | Remove a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) |
+    | | [`Disclose`](<🗄️🅰️ Vault API/🤵🐌🗄️ Disclose.md>) | Disclose the data of a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) |
+    | | [`Suppress`](<🗄️🅰️ Vault API/🤵🐌🗄️ Suppress.md>) | Suppress [🖐️ Palm scans](<../../50 🫥 Agents/45 🆔 Identities/22 🆔🖐️ Palm scan.md>) |
+    | [💼 Consumer](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) | [`Collect`](<🗄️🅰️ Vault API/💼🚀🗄️ Collect.md>) | Return the data disclosed
     
     ---
     <br/>

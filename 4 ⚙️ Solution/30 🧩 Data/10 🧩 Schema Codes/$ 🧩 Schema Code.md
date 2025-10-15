@@ -79,7 +79,7 @@
 
 1. **How are Schema Codes used in data sharing between domains?**
    
-    When a [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) needs information stored in a [user's Vault 🗄️ domains](<../../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>), 
+    When a [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) needs information stored in a [user's Vault 🗄️ domains](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>), 
     * it invokes the [`Query@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) from the [user's Broker 🤵 domain](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>), asking for datasets that comply with a given [Schema Code 🧩](<$ 🧩 Schema Code.md>).
 
     For example, consider an airline requesting passport data for a flight check-in from a citizen with dual British and American nationalities:

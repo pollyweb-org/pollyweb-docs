@@ -8,7 +8,7 @@
 1. **What is a Finder domain in NLWeb?**
 
     A Finder is 
-    * any [Vault 🗄️ domain](<../../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) 
+    * any [Vault 🗄️ domain](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) 
     * that helps users find other domains on the NLWeb, 
     * sorting the findings according to users' preferences and context.
 
