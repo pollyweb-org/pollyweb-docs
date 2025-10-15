@@ -3,9 +3,13 @@
 
 > Inherits from [`nlweb.org/TOKEN 🧩`](<../$/🧩 Token.md>)
 
-```yaml
-🤝: nlweb.org/MANIFEST/CODE
+<br/>
 
+## Definition
+
+> 🤝: [`.MANIFEST/CODE`](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/11 🧩 CODE code.md>)
+
+```yaml
 Path: /HOST/BOOKING
 Name: Booking 
 Description: Token for a booking

@@ -9,5 +9,3 @@ About:
   Domain: printers.any-business.com
   Name: Any Printer Seller
   
-  
-Trusts:

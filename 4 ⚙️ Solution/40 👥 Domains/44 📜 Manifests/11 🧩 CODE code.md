@@ -31,7 +31,7 @@ Schema:
 | `Description`| string | Human  description of the [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)  
 | `Resources`  | map | Dictionary of external resources
 | [`Translations 🧩`](<16 🧩 TRANSLATION code.md>) | array | List of [`.MANIFEST/TRANSLATION` 🧩](<16 🧩 TRANSLATION code.md>)
-| [`Schemas 🧩`](<12 🧩 SCHEMA code.md>)| array | List of [`.MANIFEST/CODE/SCHEMA` 🧩](<12 🧩 SCHEMA code.md>)
+| [`Schema 🧩`](<12 🧩 SCHEMA code.md>)| object | Schema with [`.MANIFEST/CODE/SCHEMA` 🧩](<12 🧩 SCHEMA code.md>)
 |
 
 <br/>
@@ -63,11 +63,6 @@ Schema:
       Name: 
         type: string
         example: Persona codes
-
-      Resources:
-        type: object
-        additionalProperties:
-          type: string
 
       Translations:
         type: array

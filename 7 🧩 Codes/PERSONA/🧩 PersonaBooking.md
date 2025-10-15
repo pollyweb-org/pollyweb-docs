@@ -1,8 +1,13 @@
 
 # [🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) [Schema Code](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): PersonaBooking
-```yaml
-🤝: nlweb.org/MANIFEST/CODE
 
+<br/>
+
+## Definition
+
+> 🤝: [`.MANIFEST/CODE`](<11 🧩 CODE code.md>)
+
+```yaml
 Path: /PERSONA/BOOKING
 Name: Booking contact
 Description: Share contact info for bookings.
