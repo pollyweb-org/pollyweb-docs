@@ -32,7 +32,7 @@ Body:
 ||`Subject` | string | `Invited@Helper`
 |Body|`ChatID`   | uuid    | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) from [`Invite@Broker`](<../15 🤵🅰️ Broker/60 🤵🅰️ Share/64 💼🐌🤵 Invite.md>)
 ||`Inviter`  | string  | [Consumer 💼 ](<../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) from [`Invite@Broker`](<../15 🤵🅰️ Broker/60 🤵🅰️ Share/64 💼🐌🤵 Invite.md>)
-||`Code`     | string  | [Code 🧩](<../../4 ⚙️ Solution/25 Data/10 🧩 Schema Codes/02 🧩 Schema Code.md>) from [`Invite@Broker`](<../15 🤵🅰️ Broker/60 🤵🅰️ Share/64 💼🐌🤵 Invite.md>)
+||`Code`     | string  | [Code 🧩](<../../4 ⚙️ Solution/25 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) from [`Invite@Broker`](<../15 🤵🅰️ Broker/60 🤵🅰️ Share/64 💼🐌🤵 Invite.md>)
 ||`Callback` | uuid    | Callback from [`Invite@Broker`](<../15 🤵🅰️ Broker/60 🤵🅰️ Share/64 💼🐌🤵 Invite.md>)
 ||`Parameters`| object   | Parameters from [`Invite@Broker`](<../15 🤵🅰️ Broker/60 🤵🅰️ Share/64 💼🐌🤵 Invite.md>)
 |

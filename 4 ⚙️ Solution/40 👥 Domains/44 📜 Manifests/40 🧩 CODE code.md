@@ -1,8 +1,8 @@
-# [🧩](<../../25 Data/10 🧩 Schema Codes/02 🧩 Schema Code.md>) [`.MANIFEST`](<10 🧩 MANIFEST code.md>) `/CODE`
+# [🧩](<../../25 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) [`.MANIFEST`](<10 🧩 MANIFEST code.md>) `/CODE`
 
 > Part of [`.MANIFEST` 🧩](<10 🧩 MANIFEST code.md>)
 
-> Implements [Schema Code🧩](<../../25 Data/10 🧩 Schema Codes/02 🧩 Schema Code.md>)
+> Implements [Schema Code🧩](<../../25 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>)
 
 > Indexed by [`Schema@Graph`](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>)
 
@@ -30,10 +30,10 @@ Schema:
 
 | Property | Type | Notes|
 |-|-|-
-| `Path`| string | Relative path of the [Code 🧩](<../../25 Data/10 🧩 Schema Codes/02 🧩 Schema Code.md>)  or group
+| `Path`| string | Relative path of the [Code 🧩](<../../25 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>)  or group
 | [`Delegator 🧩`](<30 🧩 DELEGATE code.md>) | string | Optional [Authority 🏛️ domain](<../../45 🛠️ Helper domains/14 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>) that delegated: <br/>- i.e., added it to [`.MANIFEST/DELEGATE` 🧩](<30 🧩 DELEGATE code.md>)
-| `Name` | string | Human name of the [Schema Code 🧩](<../../25 Data/10 🧩 Schema Codes/02 🧩 Schema Code.md>) 
-| `Description`| string | Human  description of the [Schema Code 🧩](<../../25 Data/10 🧩 Schema Codes/02 🧩 Schema Code.md>)  
+| `Name` | string | Human name of the [Schema Code 🧩](<../../25 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) 
+| `Description`| string | Human  description of the [Schema Code 🧩](<../../25 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>)  
 | `Resources`  | map | Dictionary of external resources
 | `Translations` | map | Dictionary of translations
 | [`Schema 🧩`](<41 🧩 SCHEMA code.md>)| object | Schema with [`.MANIFEST/CODE/SCHEMA` 🧩](<41 🧩 SCHEMA code.md>)

@@ -12,7 +12,7 @@ About:
 Codes:
 
   # --------------------------------------------------
-  # [🧩](<../../4 ⚙️ Solution/25 Data/10 🧩 Schema Codes/02 🧩 Schema Code.md>) /639-1 (Language codes)
+  # [🧩](<../../4 ⚙️ Solution/25 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) /639-1 (Language codes)
   # --------------------------------------------------
 
   - Path: /639-1
@@ -47,7 +47,7 @@ Codes:
             example: English
 
   # --------------------------------------------------
-  # [🧩](<../../4 ⚙️ Solution/25 Data/10 🧩 Schema Codes/02 🧩 Schema Code.md>) /3166-1 (ISO 3166 Country Codes)
+  # [🧩](<../../4 ⚙️ Solution/25 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) /3166-1 (ISO 3166 Country Codes)
   # --------------------------------------------------
 
   - Path: /3166-1

@@ -1,4 +1,4 @@
-# [🧩](<../../25 Data/10 🧩 Schema Codes/02 🧩 Schema Code.md>) [`.MANIFEST`](<10 🧩 MANIFEST code.md>) `/TRANSLATION`
+# [🧩](<../../25 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) [`.MANIFEST`](<10 🧩 MANIFEST code.md>) `/TRANSLATION`
 
 > Used by [`.MANIFEST/ABOUT` 🧩](<20 🧩 ABOUT code.md>) and
 [`.MANIFEST/CODE` 🧩](<40 🧩 CODE code.md>)
