@@ -27,7 +27,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From`     | string  | Inviter [Consumer 💼](<../../../4 ⚙️ Solution/25 Data/27 💼 Consumers/04 💼🎭 Consumer role.md>) name
+|Header|`From`     | string  | Inviter [Consumer 💼](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/04 💼🎭 Consumer role.md>) name
 ||`To`       | string  | [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) from [`Hello@Host`](<../../50 🤗🅰️ Host/01 🤵🐌🤗 Hello.md>)
 ||`Subject` | string | `Invite@Broker`
 |Body|`ChatID`   | uuid    | [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) ID from [`Hello@Host`](<../../50 🤗🅰️ Host/01 🤵🐌🤗 Hello.md>)

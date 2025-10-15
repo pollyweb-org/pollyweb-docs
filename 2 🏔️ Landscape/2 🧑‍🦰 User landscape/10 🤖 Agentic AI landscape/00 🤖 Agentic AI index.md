@@ -9,7 +9,7 @@
 ---
 
 🤔 However, a few parts were missing from the puzzle until now, e.g.:
-- first-party knowledge about the requester - tackled by NLWeb's 🗄️ [Vaults](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>);
+- first-party knowledge about the requester - tackled by NLWeb's 🗄️ [Vaults](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>);
 - third-party tool discovery by requesters - tackled by NLWeb's 📜 [Manifests](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>);
 - and requester-initiated contracts - tackled by NLWeb's 📨 [Messages](<../../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>).
 

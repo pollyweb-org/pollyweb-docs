@@ -5,7 +5,7 @@
 
 1. **What is a Reviewer domain in NLWeb?**
 
-    A Reviewer ⭐ is a [Vault 🗄️](<../../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) domain that holds user feedback about other domains. 
+    A Reviewer ⭐ is a [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>) domain that holds user feedback about other domains. 
     - Feedback includes ratings (e.g., 5 stars), comments, reports of improper behavior, and others.
 
     ---

@@ -15,8 +15,8 @@
 
 
 💬 NLWeb advocates for data privacy with a combination of:
-- **[personal vaults 🗄️](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>)**, implemented by the same organizations that already own PII; 
-- **[zero knowledge proof 🆔](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/14 🆔🎫 Verify Tokens.md>)**, where proof is delegated to [vaults 🗄️](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) in [online 🔗](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) and [offline 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) fashion;
+- **[personal vaults 🗄️](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>)**, implemented by the same organizations that already own PII; 
+- **[zero knowledge proof 🆔](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/14 🆔🎫 Verify Tokens.md>)**, where proof is delegated to [vaults 🗄️](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>) in [online 🔗](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) and [offline 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) fashion;
 - **multiple self-sovereign digital twins**, where the same person can anonymously share different preferences with same organization depending on the situation 
   - e.g., a person has different preferences when traveling for business or leisure.
 

@@ -3,7 +3,7 @@
 
 1. **What is an NLWeb Folder editor?**
 
-    A Folder 🗂️ editor is a [Vault 🗄️](<../../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) that exposes a desktop app designed to concentrate into a single editor the CRUD datasets from multiple user-bound [Vaults 🗄️](<../../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>).
+    A Folder 🗂️ editor is a [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>) that exposes a desktop app designed to concentrate into a single editor the CRUD datasets from multiple user-bound [Vaults 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>).
 
     ![alt text](<.📎 Assets/Folder-.png>)
 
@@ -20,7 +20,7 @@
 
 1. **What are the benefits for businesses?**
 
-    With Folders 🗂️, businesses that implement a [Vault 🗄️](<../../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) don't need to maintain a website for users to edit their datasets - only an API is required.
+    With Folders 🗂️, businesses that implement a [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>) don't need to maintain a website for users to edit their datasets - only an API is required.
 
     ---
 
@@ -49,7 +49,7 @@
 1. **How can users edit a vault's dataset?**
 
     On the editor. 
-    - Users list the connected [Vaults 🗄️](<../../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>), then select the intended dataset from the vault. 
+    - Users list the connected [Vaults 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>), then select the intended dataset from the vault. 
     - On the list of dataset items, users perform typical CRUD operations.
 
     ![alt text](<.📎 Assets/Folder-UX.png>)
@@ -59,13 +59,13 @@
 
 1. **How do editors render and verify the rules of dataset item?**
 
-    [Vaults 🗄️](<../../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) share the list of the user datasets on their CRUD API, as well as the [Schema 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) of each dataset. 
+    [Vaults 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>) share the list of the user datasets on their CRUD API, as well as the [Schema 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) of each dataset. 
 
     ---
 
 1. **Is there data corruption if editors don't comply dataset rules?**
 
-    No. [Vaults 🗄️](<../../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) re-check the [Schema 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) rules on their side when receiving write requests.
+    No. [Vaults 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>) re-check the [Schema 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) rules on their side when receiving write requests.
 
     ---
 
@@ -82,8 +82,8 @@
 1. **Can datasets have list properties referencing other datasets?**
 
     Yes. Options are:
-    - Another dataset on the same [Vault 🗄️](<../../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>).
-    - A dataset on another connected [Vault 🗄️](<../../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>).
+    - Another dataset on the same [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>).
+    - A dataset on another connected [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>).
     - A public paid [🪣 Dataset](<../../20 🧑‍🦰 UI/12 💬 Chats/07 🪣🎭 Dataset role.md>) (vaults pay, not editors).
 
     ---
@@ -99,14 +99,14 @@
 
     To prevent a Folder 🗂️ from override a change done by another Folder 🗂️ to the same document between the read and the write, Folders 🗂️ use optimistic concurrency.
     
-    - When a document is pulled from a [Vault 🗄️](<../../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>), it comes with a version UUID.
+    - When a document is pulled from a [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>), it comes with a version UUID.
     
-    - When saving a new version of the document back to the [Vault 🗄️](<../../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>), Folders 🗂️ send the original version.
+    - When saving a new version of the document back to the [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>), Folders 🗂️ send the original version.
 
-    - If there's a mismatch between the document version currently stored in the [Vault 🗄️](<../../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) and the original version sent by the Folder 🗂️, then the [Vault 🗄️](<../../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) returns a mismatch error.
+    - If there's a mismatch between the document version currently stored in the [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>) and the original version sent by the Folder 🗂️, then the [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>) returns a mismatch error.
   
-    - The Folder 🗂️ then cancels the change, reloads the latest version from the [Vault 🗄️](<../../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>), and asks the user to apply the changes again.
+    - The Folder 🗂️ then cancels the change, reloads the latest version from the [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>), and asks the user to apply the changes again.
 
-    - Smarter Folders 🗂️ may be able to compare and merge the 3 versions (the originally pulled, the changed by the user, and the new version from the [Vault 🗄️](<../../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>)), asking the user to just review the changes with a diff interface before resubmitting.
+    - Smarter Folders 🗂️ may be able to compare and merge the 3 versions (the originally pulled, the changed by the user, and the new version from the [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vault/03 🗄️🎭 Vault role.md>)), asking the user to just review the changes with a diff interface before resubmitting.
 
     ---

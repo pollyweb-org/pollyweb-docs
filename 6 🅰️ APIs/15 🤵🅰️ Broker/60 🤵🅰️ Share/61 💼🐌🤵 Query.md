@@ -3,7 +3,7 @@
 # 💼🐌🤵  Query @ Broker
 
 * In a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>), 
-    * a [Consumer 💼 domain](<../../../4 ⚙️ Solution/25 Data/27 💼 Consumers/04 💼🎭 Consumer role.md>) 
+    * a [Consumer 💼 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/04 💼🎭 Consumer role.md>) 
     * asks the [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) 
     * for access to user data 
     * in one or more [Schema Codes 🧩](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>).
@@ -36,7 +36,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header | `From`| sting | [Consumer 💼 domain](<../../../4 ⚙️ Solution/25 Data/27 💼 Consumers/04 💼🎭 Consumer role.md>) name
+| Header | `From`| sting | [Consumer 💼 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/04 💼🎭 Consumer role.md>) name
 | | `To` | string | [Broker 🤵 domain](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) name
 | | `Subject` | string | `Query@Broker`
 | Body | `ChatID` | string | [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) ID
@@ -70,7 +70,7 @@ Body:
 1. **How are SELF Tokens are shared?**
 
     For the [Schema Codes 🧩](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) marked with SELF, 
-    * only shows the [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) issued by the [Consumer 💼 domain](<../../../4 ⚙️ Solution/25 Data/27 💼 Consumers/04 💼🎭 Consumer role.md>),
+    * only shows the [Tokens 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) issued by the [Consumer 💼 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/04 💼🎭 Consumer role.md>),
     * e.g., [`.BOOKING/SELF 🧩`](<../../../7 🧩 Codes/HOST/🧩 HostBookingSelf.md>).
 
     ---

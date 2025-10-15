@@ -67,10 +67,10 @@
 
     | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | 💼 [Consumer](<../../4 ⚙️ Solution/25 Data/27 💼 Consumers/04 💼🎭 Consumer role.md>) | ℹ️ Tell me your name.
+    | 💼 [Consumer](<../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/04 💼🎭 Consumer role.md>) | ℹ️ Tell me your name.
     | 🧢 [Persona](<../../4 ⚙️ Solution/30 🫥 Agents/02 🧢 Personas/02 🧢🫥 Persona agent.md>) | 🫥 Share social name? [No] <br/> - [ Personal ] 🧑‍🦰 <br/> - [ Work ] 💼       | > Personal
-    | 💼 [Consumer](<../../4 ⚙️ Solution/25 Data/27 💼 Consumers/04 💼🎭 Consumer role.md>) | ℹ️ Received: [Change] <br/> - Name: Alice <br/> - Pronouns: she/her
-    | 💼 [Consumer](<../../4 ⚙️ Solution/25 Data/27 💼 Consumers/04 💼🎭 Consumer role.md>) | ✅ Hi, Alice!
+    | 💼 [Consumer](<../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/04 💼🎭 Consumer role.md>) | ℹ️ Received: [Change] <br/> - Name: Alice <br/> - Pronouns: she/her
+    | 💼 [Consumer](<../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/04 💼🎭 Consumer role.md>) | ✅ Hi, Alice!
 
     
 
