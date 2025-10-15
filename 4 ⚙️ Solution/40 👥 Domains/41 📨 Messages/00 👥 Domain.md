@@ -51,7 +51,7 @@
     | [🌬️ Streamer](<../../41 🎭 Domain Roles/75 🌬️ Streamers/$ 🌬️🎭 Streamer role.md>) | Pushes and replays domain events to [Subscribers 🔔](<../../41 🎭 Domain Roles/76 🔔 Subscribers/$ 🔔🎭 Subscriber role.md>)
     | [🔔 Subscriber](<../../41 🎭 Domain Roles/76 🔔 Subscribers/$ 🔔🎭 Subscriber role.md>) | Subscribes to domain events from a [Streamers 🌬️](<../../41 🎭 Domain Roles/75 🌬️ Streamers/$ 🌬️🎭 Streamer role.md>)
     | [🗄️ Vault](<../../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) | Stores user data and shares it with [Consumers 💼](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>)
-    | [🏭 Supplier](<../../41 🎭 Domain Roles/78 🏭 Suppliers/02 🏭🎭 Supplier role.md>) | Accept async order requests from [domains 👥](<00 👥 Domain.md>)
+    | [🏭 Supplier](<../../41 🎭 Domain Roles/78 🏭 Suppliers/$ 🏭🎭 Supplier role.md>) | Accept async order requests from [domains 👥](<00 👥 Domain.md>)
     
     ---
     <br/>
