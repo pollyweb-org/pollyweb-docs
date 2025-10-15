@@ -57,9 +57,9 @@
     - these [Broker 🤵 domains](<../03 🤵 Brokers/03 🤵 Broker domain.md>) are responsible for orchestrating [Chats 💬](<01 💬 Chat.md>) between users and [Host 🤗 domains](<04 🤗🎭 Host role.md>) using the NLWeb protocol, 
     - and they are typically implemented by a main cloud provider that is able to ensure high availability and low latency communication between globally dispersed entities. 
     
-    The [user's Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) then sends the message to a [user's Notifier 📣 domain](<../02 📣 Notifiers/02 📣 Notifier domain.md>), also via HTTPS POST:
-    - the [user's Notifier 📣 domain](<../02 📣 Notifiers/02 📣 Notifier domain.md>) is responsible for pushing the message to the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) via whatever real-time mechanisms the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) supports (e.g., web sockets, MQTT);
-    - because of this technical dependency, a [Notifier 📣 domain](<../02 📣 Notifiers/02 📣 Notifier domain.md>) is typically implemented by the same team that implemented the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
+    The [user's Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) then sends the message to a [user's Notifier 📣 domain](<../02 📣 Notifiers/$ 📣 Notifier domain.md>), also via HTTPS POST:
+    - the [user's Notifier 📣 domain](<../02 📣 Notifiers/$ 📣 Notifier domain.md>) is responsible for pushing the message to the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) via whatever real-time mechanisms the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) supports (e.g., web sockets, MQTT);
+    - because of this technical dependency, a [Notifier 📣 domain](<../02 📣 Notifiers/$ 📣 Notifier domain.md>) is typically implemented by the same team that implemented the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
 
     ---
     <br/>
@@ -69,11 +69,11 @@
 
     Not applicable - [Host 🤗 domains](<04 🤗🎭 Host role.md>) don't send [Messages 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) to [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>). 
 
-    * [Host 🤗 domains](<04 🤗🎭 Host role.md>) only send asynchronous HTTPS intents to the [user's Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>), who then sends it to the [user's Notifier 📣 domain](<../02 📣 Notifiers/02 📣 Notifier domain.md>) also via asynchronous HTTPS. 
+    * [Host 🤗 domains](<04 🤗🎭 Host role.md>) only send asynchronous HTTPS intents to the [user's Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>), who then sends it to the [user's Notifier 📣 domain](<../02 📣 Notifiers/$ 📣 Notifier domain.md>) also via asynchronous HTTPS. 
 
-    * When the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) app receives the intent from the [Notifier 📣 domain](<../02 📣 Notifiers/02 📣 Notifier domain.md>), it pulls the [Message 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) content directly from the [Host 🤗 domain](<04 🤗🎭 Host role.md>) with a synchronous HTTPS call. 
+    * When the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) app receives the intent from the [Notifier 📣 domain](<../02 📣 Notifiers/$ 📣 Notifier domain.md>), it pulls the [Message 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) content directly from the [Host 🤗 domain](<04 🤗🎭 Host role.md>) with a synchronous HTTPS call. 
 
-    * This keeps the [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) and the [Notifier 📣 domain](<../02 📣 Notifiers/02 📣 Notifier domain.md>) in the dark regarding the content of the [Message 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) (even in the event of a cryptography attack) because no content actually passes by these proxy services.
+    * This keeps the [Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>) and the [Notifier 📣 domain](<../02 📣 Notifiers/$ 📣 Notifier domain.md>) in the dark regarding the content of the [Message 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) (even in the event of a cryptography attack) because no content actually passes by these proxy services.
 
     ---
     <br/>
