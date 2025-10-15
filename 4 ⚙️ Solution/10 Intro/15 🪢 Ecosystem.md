@@ -17,7 +17,7 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
   
     * These are [Domains 👥](<../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) that can share user data with [Consumer 💼 domains](<../25 Data/27 💼 Consumers/04 💼🎭 Consumer role.md>).
     
-    * [Vault 🗄️ domains](<../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) may allow users to edit their data through the user's [Folder 🗂️ editor](<../20 🧑‍🦰 UI/26 🗂️ Folders/01 🗂️ Folder editor.md>).
+    * [Vault 🗄️ domains](<../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) may allow users to edit their data through the user's [Folder 🗂️ editor](<../45 Helpers/26 🗂️ Folders/01 🗂️ Folder editor.md>).
 
 * Users designate [Agents 🫥 domains](<../25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) to handle specific well-defined roles in [Chats 💬](<../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) with [Host 🤗 domains](<../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) (e.g., payments).
 
