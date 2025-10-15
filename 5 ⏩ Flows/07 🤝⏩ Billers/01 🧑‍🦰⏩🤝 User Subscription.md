@@ -42,7 +42,7 @@ The corresponding [Talker 😃](<../../9 😃 Talkers/10 📘 Talker specs/10 �
 ```yaml
 💬 Register:                # Entry menu
 - INFORM|Register           # Provide instructions
-- BIND|.HOST/PROFILE        # Bind to Wallet
+- BIND|.VAULT               # Bind to Wallet
 
 - INVITE >> $billed:        
     Invitee: any-biller.com # Invite the Biller

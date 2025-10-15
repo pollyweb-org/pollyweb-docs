@@ -10,11 +10,6 @@ Identity:
   Name: Any Bank
 
 
-Providers:
-  - Code: nlweb.org/IDENTITY/SELFIE
-    Domain: selfie.any-supplier.org 
-
-
 Trusts: 
 
   # Trust the placeholders.

@@ -100,8 +100,8 @@
 
     ```yaml
     💬 Register:                # Entry menu
-    - INFORM|Register             # Provide instructions
-    - BIND|.HOST/PROFILE        # Bind to Wallet
+    - INFORM|Register           # Provide instructions
+    - BIND|.VAULT               # Bind to Wallet
 
     - INVITE >> $billed:        
         Invitee: any-biller.com # Invite the Biller
@@ -111,7 +111,7 @@
         Billed: $billed         # Add billing info
         Chat: $.Chat            # Add context
 
-    - EVAL|{Save($inputs)}      # Save the register
+    - EVAL|Save($inputs)        # Save the register
 
     - SUCCESS|Done!             # Inform success
     - GOODBYE                   # Show advertisement

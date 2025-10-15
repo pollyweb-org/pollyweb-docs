@@ -1,4 +1,4 @@
-# 🧩 `.MANIFEST`
+# [🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) `.MANIFEST`
 
 > Implements [domain Manifest 📜](<01 📜 Domain Manifest.md>) 
 
@@ -20,7 +20,7 @@
 
 ## Definition
 
-> 🤝: [`.MANIFEST/CODE`](<11 🧩 Code schema.md>)
+> [🤝:](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) [`.MANIFEST/CODE`](<11 🧩 Code schema.md>)
 
 ```yaml
 Path: /MANIFEST
