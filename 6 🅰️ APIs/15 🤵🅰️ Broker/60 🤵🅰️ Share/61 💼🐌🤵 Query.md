@@ -10,8 +10,8 @@
 
 * Used by: 
     * [💼⏩🧑‍🦰 Inform ⏩ flow](<../../../5 ⏩ Flows/20 💼⏩ Consumers/02 💼⏩🧑‍🦰 Inform 📝.md>)
-    * [🧑‍🦰👉💼 Share Token ⏩ flow](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token.md>)
-    * [🧑‍🦰👉💼 Share Bind ⏩ flow](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind.md>)
+    * [🧑‍🦰👉💼 Share Token ⏩ flow](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token 🎫.md>)
+    * [🧑‍🦰👉💼 Share Bind ⏩ flow](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>)
 
 <br/> 
 

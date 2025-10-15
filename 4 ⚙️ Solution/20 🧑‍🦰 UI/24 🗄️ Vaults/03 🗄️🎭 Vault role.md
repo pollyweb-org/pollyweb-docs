@@ -57,7 +57,7 @@
 
     | | Workflow |  Description
     |-|-|-
-    ||[👉 Share](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind.md>) | Shares a [Bind 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>) with a [Consumer 💼](<../27 💼 Consumers/04 💼🎭 Consumer role.md>)
+    ||[👉 Share](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>) | Shares a [Bind 🔗](<../24 🗄️ Vaults/01 🔗 Bind.md>) with a [Consumer 💼](<../27 💼 Consumers/04 💼🎭 Consumer role.md>)
     || [💼 Consume](<../../../5 ⏩ Flows/80 🗄️⏩ Vaults/02 🗄️⏩💼 Consume 🔗.md>) | Tells a [Consumer 💼](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) to collect data
     
 

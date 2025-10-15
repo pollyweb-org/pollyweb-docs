@@ -6,7 +6,7 @@
 > <br/> • [🔎⏩🧑‍🦰 Introduce @ Finder](<../40 🔎⏩ Finders/01 🔎⏩🧑‍🦰 Introduce 🤗.md>) flow
 > <br/> • [🤗⏩🧑‍🦰 Prompt 🤔](<01 🤗⏩🧑‍🦰 Prompt 🤔.md>) flow
 > <br/>• [🧑‍🦰👉🤗 Abandon Chat @ Wallet](<../90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>) flow
-> <br/>• [💼⏩🧑‍🦰 Query Vault @ Consumer](<../90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind.md>) flow
+> <br/>• [💼⏩🧑‍🦰 Query Vault @ Consumer](<../90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>) flow
 
 * A [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) 
     * says something to a user 
