@@ -231,8 +231,8 @@
 
     |  Method | Purpose
     |-|-
-    |[🗄️🐌 Consume](<../../../6 🅰️ APIs/30 💼🅰️ Consumer/02 🗄️🐌💼 Consume.md>) | Collect user data from a [Vault 🗄️ domain](<../80 🗄️ Vaults/🗄️🎭 Vault role.md>)
-    | [🧑‍🦰🐌 Receive](<../../../6 🅰️ APIs/30 💼🅰️ Consumer/03 🧑‍🦰🐌💼 Receive.md>) | Receive [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) from a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    |[🗄️🐌 Consume](<🅰️ Consumer methods/🗄️🐌💼 Consume.md>) | Collect user data from a [Vault 🗄️ domain](<../80 🗄️ Vaults/🗄️🎭 Vault role.md>)
+    | [🧑‍🦰🐌 Receive](<🅰️ Consumer methods/🧑‍🦰🐌💼 Receive.md>) | Receive [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) from a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     
     ---
     <br/>

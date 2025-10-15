@@ -40,7 +40,7 @@ Body:
 | | `To` | string | [Broker 🤵 domain](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) name
 | | `Subject` | string | `Query@Broker`
 | Body | `ChatID` | string | [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID
-| | `ConsumerKey`| uuid | [`Consume@Consumer`](<../../30 💼🅰️ Consumer/02 🗄️🐌💼 Consume.md>) callback
+| | `ConsumerKey`| uuid | [`Consume@Consumer`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/🅰️ Consumer methods/🗄️🐌💼 Consume.md>) callback
 | | `Codes` | string[] | List of [Schema Codes 🧩](<../../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>)
 |
 
