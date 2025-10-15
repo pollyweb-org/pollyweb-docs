@@ -9,7 +9,7 @@
 
 
 * Used by:
-    * [🔎⏩🧑‍🦰 Introduce 🤗 flow](<../../../50 🫥 Agents/40 🔎 Finders/31 🔎⏩🧑‍🦰 Introduce 🤗 flow.md>)
+    * [🔎⏩🧑‍🦰 Introduce 🤗 flow](<../../../50 🫥 Agents/40 🔎 Finders/🔎⏩ Finder flows/🔎⏩🧑‍🦰 Introduce 🤗.md>)
     * [🤗⏩🧑‍🦰 Prompt 🤔](<🤗⏩🧑‍🦰 Prompt 🤔.md>) flow
     * [🧑‍🦰👉🤗 Abandon Chat](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>) flow
     * [💼⏩🧑‍🦰 Share Bind](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>) flow
