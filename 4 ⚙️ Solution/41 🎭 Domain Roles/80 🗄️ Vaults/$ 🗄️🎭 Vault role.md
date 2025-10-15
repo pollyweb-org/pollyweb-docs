@@ -58,7 +58,7 @@
     | | Workflow |  Description
     |-|-|-
     ||[👉 Share](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>) | Shares a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) with a [Consumer 💼](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>)
-    || [💼 Consume](<../../../5 ⏩ Flows/80 🗄️⏩ Vaults/02 🗄️⏩💼 Consume 🔗.md>) | Tells a [Consumer 💼](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) to collect data
+    || [💼 Consume](<80 🗄️⏩ Vaults/32 🗄️⏩💼 Consume 🔗.md>) | Tells a [Consumer 💼](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) to collect data
     
 
     ---
@@ -219,8 +219,8 @@
 
     |Flow ⏩| Details
     |-|-
-    | [💼 Consume](<../../../5 ⏩ Flows/80 🗄️⏩ Vaults/02 🗄️⏩💼 Consume 🔗.md>) | Tells a [Consumer 💼](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) to collect data
-    | [🧑‍🦰 Engage](<../../../5 ⏩ Flows/80 🗄️⏩ Vaults/04 🗄️⏩🧑‍🦰 Engage 💬.md>) | Opens a new [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with a [Bound 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) user
+    | [💼 Consume](<80 🗄️⏩ Vaults/32 🗄️⏩💼 Consume 🔗.md>) | Tells a [Consumer 💼](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) to collect data
+    | [🧑‍🦰 Engage](<80 🗄️⏩ Vaults/34 🗄️⏩🧑‍🦰 Engage 💬.md>) | Opens a new [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with a [Bound 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) user
     
 
     ---
