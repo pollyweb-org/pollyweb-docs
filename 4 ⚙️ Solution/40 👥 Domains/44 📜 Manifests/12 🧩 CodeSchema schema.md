@@ -14,7 +14,7 @@
 | `Inherits`      | string | Optional inheritance for QR codes | `.TOKEN`
 | `Location`      | url | Optional external location of the [JSON schema](<https://json-schema.org/>) |
 | `Format`       | object | Optional [JSON schema](<https://json-schema.org/>) for machine validation |
-| `$ref`  | string | Sub-schema from another <br/>- `property`@`code`:`version`
+| `$ref 🧩`  | string | Sub-schema from another <br/>- `property`@`code`:`version`
 |
 
 
