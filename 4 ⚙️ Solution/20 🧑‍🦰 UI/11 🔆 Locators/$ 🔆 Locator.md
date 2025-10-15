@@ -3,7 +3,7 @@
 
 1. **What are Locators?**
 
-    In NLWeb, non-humans (e.g., organizations, places, objects, animals) are represented by a [Locator 🔆](<$ 🔆 Locator.md>) that opens a [Chat 💬](<../12 💬 Chats/$ 💬 Chat.md>) with a [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/04 🤗🎭 Host role.md>).
+    In NLWeb, non-humans (e.g., organizations, places, objects, animals) are represented by a [Locator 🔆](<$ 🔆 Locator.md>) that opens a [Chat 💬](<../12 💬 Chats/$ 💬 Chat.md>) with a [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>).
     * It may be a [QR code ✨](<03 🧑‍🦰✨ Wallet QR scan.md>), an [NFC tag 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>), a [Web link 🌐](<02 🧑‍🦰🌐 Wallet URLs.md>), or a [Chat 💬](<../12 💬 Chats/$ 💬 Chat.md>) option.
     * Users can [tap 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>), [scan ✨](<03 🧑‍🦰✨ Wallet QR scan.md>), [click 🌐](<02 🧑‍🦰🌐 Wallet URLs.md>), or [select 💬](<../12 💬 Chats/$ 💬 Chat.md>) them.
 
@@ -25,7 +25,7 @@
     |-|-|-
     | `Code` |  `.HOST` | [Schema Code 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) for [`Schema@Graph`](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>)
     | `Domain` | `any-host.com` | [Domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) for a [Broker 🤵](<../03 🤵 Brokers/$ 🤵 Broker domain.md>) to interact 
-    | `Key` | `product-1234` | Resource key in the [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/04 🤗🎭 Host role.md>)
+    | `Key` | `product-1234` | Resource key in the [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>)
     | `Properties` | `A=1,B=2` | Any optional data fields
 
     ---
@@ -49,7 +49,7 @@
     | [🛜 Wi-Fier devices](<../../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>) | Tap/scan a [Wi-Fier 🛜 device](<../../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>) to connect it to the internet
     | [💍 Userable things](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) | Tap a [Userable 💍 thing](<../../70 🌳 Ambient/74 💍 Brand Userables/01 💍 Userable thing.md>) that a user is wearing or holding
     | [🔒 Padlock devices](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/01 🔒 Padlock device.md>)  | Tap a [Padlock 🔒 device](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/01 🔒 Padlock device.md>) to open it
-    | [💬 Chat prompts](<../12 💬 Chats/$ 💬 Chat.md>) | Select a [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/04 🤗🎭 Host role.md>) option - e.g., [Finder 🔎](<../../30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>), [Advertiser 👀](<../../45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>)
+    | [💬 Chat prompts](<../12 💬 Chats/$ 💬 Chat.md>) | Select a [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) option - e.g., [Finder 🔎](<../../30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>), [Advertiser 👀](<../../45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>)
 
     
     ---

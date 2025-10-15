@@ -46,5 +46,5 @@ Chats:
 |-|-|-|-
 | Top       | `Chats`     | Chat[]| List of `Chat` objects
 | Chat      | `ChatID`        | uuid  | [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID
-|           | `HostTitle` | string | [Host 🤗 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/04 🤗🎭 Host role.md>) title
+|           | `HostTitle` | string | [Host 🤗 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) title
 |
