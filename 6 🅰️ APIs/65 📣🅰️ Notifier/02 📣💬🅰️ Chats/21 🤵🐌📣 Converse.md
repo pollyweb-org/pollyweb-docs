@@ -30,8 +30,8 @@ Body:
 |Body  |`WalletID` |uuid  | [Wallet 🧑‍🦰](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) ID from [`Assess@Broker`](<../../15 🤵🅰️ Broker/20 🤵🅰️ Locators/01 🧑‍🦰🐌🤵 Assess.md>)
 |      |`ChatID`   |uuid  | New [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID on the [Broker 🤵](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>)
 |      |`Host`     |string| [Host 🤗 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) name
-|      |`Name`     |string| Name from [`Translate@Graph`](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/50 🕸 Graphs/45 🕸🅰️ Graph methods/06 👥🚀🕸 Translate.md>)
-|      |`SmallIcon`|string   | Small icon from [`Identity@Graph`](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/50 🕸 Graphs/45 🕸🅰️ Graph methods/04 👥🚀🕸 Identity.md>)
-|      |`BigIcon`  |string   | Big icon from [`Identity@Graph`](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/50 🕸 Graphs/45 🕸🅰️ Graph methods/04 👥🚀🕸 Identity.md>)
+|      |`Name`     |string| Name from [`Translate@Graph`](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/06 👥🚀🕸 Translate.md>)
+|      |`SmallIcon`|string   | Small icon from [`Identity@Graph`](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/04 👥🚀🕸 Identity.md>)
+|      |`BigIcon`  |string   | Big icon from [`Identity@Graph`](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/04 👥🚀🕸 Identity.md>)
 |      |`PrivateKey`|string  | For [`Prompted@`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/54 🧑‍🦰🚀🤗 Prompted@Host.md>) [`Reply@`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/55 🧑‍🦰🐌🤗 Reply@Host.md>) [`Download@`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/56 🧑‍🦰🚀🤗 Download@Host.md>)
 |

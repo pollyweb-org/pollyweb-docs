@@ -5,7 +5,7 @@
 
 > Implements [domain Manifest 📜](<$ 📜 Domain Manifest.md>) 
   
-> Used by [`Trusted@Graph`](<../../45 🛠️ Helper domains/50 🕸 Graphs/45 🕸🅰️ Graph methods/02 👥🚀🕸 Trusted.md>) and [`Trusts@Graph`](<../../45 🛠️ Helper domains/50 🕸 Graphs/45 🕸🅰️ Graph methods/03 👥🚀🕸 Trusts.md>)
+> Used by [`Trusted@Graph`](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/02 👥🚀🕸 Trusted.md>) and [`Trusts@Graph`](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/03 👥🚀🕸 Trusts.md>)
 
 <br/>
 
