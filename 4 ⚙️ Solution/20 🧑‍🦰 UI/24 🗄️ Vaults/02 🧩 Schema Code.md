@@ -123,7 +123,7 @@
 1. **What does it mean when a YAML content starts with 🤝?**
 
     When YAML content starts with `🤝: {Schema Code}`,
-    * e.g., `🤝: .MANIFEST/CODE`
+    * e.g., `🤝:` [`.MANIFEST/CODE`](<../../40 👥 Domains/44 📜 Manifests/11 🧩 Code schema.md>)
     * it means that the following YAML content should comply with the given [Schema Code 🧩](<02 🧩 Schema Code.md>) defined.
     * This allows readers to validate the YAML content by pulling the validation schema from the [`Schema@Graph`](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>).
     

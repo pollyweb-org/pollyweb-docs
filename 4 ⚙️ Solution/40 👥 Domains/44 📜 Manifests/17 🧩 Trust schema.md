@@ -52,6 +52,24 @@
 
 <br/>
 
+## Defaults
+
+* Inherit from [Firewall 🔥 domains](<../../40 👥 Domains/43 👍 Trusts/03 🔥🛠️ Firewall helper.md>) the revokes to malicious domains. 
+  ```yaml
+  - Action: INHERIT
+    Domain: any-firewall.org
+  ```
+
+* Trust [Helper 🛠️ domains](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) certified by NLWeb.
+  ```yaml
+  - Action: GRANT
+    Domain: nlweb.org
+    Query: .HELPER/*
+  ```
+
+
+<br/>
+
 ## Definition 
 
 > 🤝: [`.MANIFEST/CODE`](<11 🧩 Code schema.md>)
