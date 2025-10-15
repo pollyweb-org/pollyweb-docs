@@ -43,7 +43,7 @@
     * references version `2.0` 
     * of a schema called `TOKEN` 
     * that is defined in the [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) 
-    * of the [Authority 🏛️ domain](<../../45 Helpers/10 🏛️ Authorities/02 🏛️🛠️ Authority helper.md>) called `nlweb.com`. 
+    * of the [Authority 🏛️ domain](<../../45 Helpers/10 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>) called `nlweb.com`. 
     
     For readability:
     * given that `nlweb.org` schemas will be widely used, 
@@ -138,7 +138,7 @@
     |-|-
     | [`.MANIFEST/CODE` 🧩](<../../40 👥 Domains/44 📜 Manifests/40 🧩 CODE code.md>) | CODE properties
     | [`.MANIFEST/CODE/SCHEMA` 🧩](<../../40 👥 Domains/44 📜 Manifests/41 🧩 SCHEMA code.md>) | CODE/SCHEMA properties
-    | [`.MANIFEST/DELEGATE` 🧩](<../../40 👥 Domains/44 📜 Manifests/30 🧩 DELEGATE code.md>) | Delegation to other [Authorities 🏛️](<../../45 Helpers/10 🏛️ Authorities/02 🏛️🛠️ Authority helper.md>)
+    | [`.MANIFEST/DELEGATE` 🧩](<../../40 👥 Domains/44 📜 Manifests/30 🧩 DELEGATE code.md>) | Delegation to other [Authorities 🏛️](<../../45 Helpers/10 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>)
     | [`.TYPES` 🧩](<../../../7 🧩 Codes/$/🧩 TYPES code.md>) | Generic referenceable types
 
     ---
