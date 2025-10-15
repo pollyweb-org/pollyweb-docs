@@ -14,7 +14,7 @@
 
 1. **How do Listeners work?**
 
-    ![](<../../40 👥 Domains/45 👂 Backbone/.📎 Assets/📜 Listeners.png>)
+    ![](<.📎 Assets/📜 Listeners.png>)
 
     |#|Step
     |-|-
