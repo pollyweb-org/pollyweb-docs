@@ -7,7 +7,7 @@
     * [🧑‍🦰👉🤗 Scan host QR](<../90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>) flow
     * [🧑‍🦰👉🤗 Scan printer QR](<../90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/02 🧑‍🦰👉🤗 Scan printer QR.md>) flow
     * [🧑‍🦰👉🤗 Prompt option](<../90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/03 🧑‍🦰👉🤗 Prompt option.md>) flow
-    * [🗄️⏩🧑‍🦰 Engage @ Vault 💬](<../80 🗄️⏩ Vaults/04 🗄️⏩🧑‍🦰 Engage 💬.md>) flow
+    * [🗄️⏩🧑‍🦰 Engage @ Vault 💬](<../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vaults/80 🗄️⏩ Vaults/34 🗄️⏩🧑‍🦰 Engage 💬.md>) flow
 
 <br/>
 
