@@ -123,7 +123,7 @@
 1. **How are immediate security bans imposed?**
 
     To protect themselves from harmful actors,
-    *  [domains 👥](<../41 📨 Messages/00 👥 Domain.md>)s may inherit all revokes from [Firewall 🔥 domains](<../../45 Helpers/21 Firewalls/$ 🔥🛠️ Firewall helper.md>) to immediately block any new threat, regardless of any direct or indirect [trust 👍](<01 👍 Domain Trust.md>) to the harmful actor;
+    *  [domains 👥](<../41 📨 Messages/00 👥 Domain.md>)s may inherit all revokes from [Firewall 🔥 domains](<../../45 Helpers/21 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) to immediately block any new threat, regardless of any direct or indirect [trust 👍](<01 👍 Domain Trust.md>) to the harmful actor;
     
     e.g., if `any-firewall.com` revokes `any-threat.com`, 
     *  and `any-domain.com` inherits [Trusts 👍](<01 👍 Domain Trust.md>) from `any-firewall.com`, 
