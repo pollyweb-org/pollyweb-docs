@@ -123,7 +123,7 @@
 1. **What does it mean when a YAML content starts with 🤝?**
 
     When YAML content starts with `🤝: {Schema Code}`,
-    * e.g., `🤝:` [`.MANIFEST/CODE`](<../../40 👥 Domains/44 📜 Manifests/11 🧩 Code schema.md>)
+    * e.g., `🤝:` [`.MANIFEST/CODE`](<../../40 👥 Domains/44 📜 Manifests/11 🧩 CODE schema.md>)
     * it means that the following YAML content should comply with the given [Schema Code 🧩](<02 🧩 Schema Code.md>) defined.
     * This allows readers to validate the YAML content by pulling the validation schema from the [`Schema@Graph`](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/08 👥🚀🕸 Schema.md>).
     
@@ -136,9 +136,9 @@
 
     | Schema | Description
     |-|-
-    | [`.MANIFEST/CODE` 🧩](<../../40 👥 Domains/44 📜 Manifests/11 🧩 Code schema.md>) | CODE properties
+    | [`.MANIFEST/CODE` 🧩](<../../40 👥 Domains/44 📜 Manifests/11 🧩 CODE schema.md>) | CODE properties
     | [`.MANIFEST/CODE/SCHEMA` 🧩](<../../40 👥 Domains/44 📜 Manifests/12 🧩 CodeSchema schema.md>) | CODE/SCHEMA properties
-    | [`.MANIFEST/DELEGATE` 🧩](<../../40 👥 Domains/44 📜 Manifests/13 🧩 Delegate schema.md>) | Delegation to other [Authorities 🏛️](<../../40 👥 Domains/43 👍 Trusts/02 🏛️🛠️ Authority helper.md>)
+    | [`.MANIFEST/DELEGATE` 🧩](<../../40 👥 Domains/44 📜 Manifests/13 🧩 DELEGATE schema.md>) | Delegation to other [Authorities 🏛️](<../../40 👥 Domains/43 👍 Trusts/02 🏛️🛠️ Authority helper.md>)
     | [`.TYPES` 🧩](<../../../7 🧩 Codes/$/🧩 Types.md>) | Generic referenceable types
 
     ---
@@ -227,8 +227,8 @@
     * using the `$ref` keyword from JSON Schema 
     * as defined in [`.MANIFEST/CODE/SCHEMA` 🧩](<../../40 👥 Domains/44 📜 Manifests/12 🧩 CodeSchema schema.md>).
     
-    Consider [`.MANIFEST` 🧩](<../../40 👥 Domains/44 📜 Manifests/10 🧩 Manifest schema.md>):
-    * it references [`.MANIFEST/IDENTITY` 🧩](<../../40 👥 Domains/44 📜 Manifests/14 🧩 Identity schema.md>)
+    Consider [`.MANIFEST` 🧩](<../../40 👥 Domains/44 📜 Manifests/10 🧩 MANIFEST schema.md>):
+    * it references [`.MANIFEST/IDENTITY` 🧩](<../../40 👥 Domains/44 📜 Manifests/14 🧩 IDENTITY schema.md>)
         ```yaml
         Identity:
           $ref: nlweb.org/MANIFEST/IDENTITY:1.0
