@@ -11,7 +11,7 @@
     
     - 💍 **Userable**: emulates a passive NFC [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) representing a [Userable 💍](<../74 💍 Userables/01 💍 Userable thing.md>) [Thing 💠](<../71 💠 Things/$ 💠 Thing.md>);
     
-    - 🔒 **Keyholder**: has an active NFC scanner to interact with [Padlocks 🔒](<../75 🔒 Brand Padlocks/01 🔒 Padlock device.md>);
+    - 🔒 **Keyholder**: has an active NFC scanner to interact with [Padlocks 🔒](<../75 🔒 Padlocks/01 🔒 Padlock device.md>);
     
     - 💖 **Health monitoring**: optionally, collects metrics from the user's device to send to a [Timeline 🕓](<../../50 🫥 Agents/90 🕓 Timeline/$ 🕓🗄️ Timeline agent.md>).
 

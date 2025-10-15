@@ -13,7 +13,7 @@
 
 1. **How do Relays differ from Padlocks?**
 
-    While [Padlocks 🔒](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/01 🔒 Padlock device.md>) can also be used to open doors, they differ from Relayers in a number of ways:
+    While [Padlocks 🔒](<../../70 🌳 Ambient/75 🔒 Padlocks/01 🔒 Padlock device.md>) can also be used to open doors, they differ from Relayers in a number of ways:
     * Proximity - Relayers are global, Padlocks are short range only;
     * Internet - Relayers need internet, Padlocks work offline;
     * Identity - Relayers use [🆔 Identities](<../../50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>), Padlocks are anonymous;

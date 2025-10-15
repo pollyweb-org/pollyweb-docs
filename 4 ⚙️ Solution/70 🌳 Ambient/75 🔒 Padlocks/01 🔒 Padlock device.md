@@ -19,7 +19,7 @@
 
     Users' [🔑 KeyHolders](<02 🔑💠 Keyholder device.md>) first scan the Padlock, receiving an NFC response with Padlock's [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>), which contains:
     - a fixed Padlock [Schema Code 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) identifier 
-    - the domain of the Padlock's [🔐 KeyMaker](<05  🔐🏭 Keymaker supplier.md>) (e.g., `any-keymaker.com`) 
+    - the domain of the Padlock's [🔐 KeyMaker](<../../45 🛠️ Helper domains/58 🔐 Keymakers/05  🔐🏭 Keymaker supplier.md>) (e.g., `any-keymaker.com`) 
     - the resource key of the PadLock in the KeyMaker (e.g.,`padlock-12345678`)
     
     The Keyholder looks up the the Padlock's [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) in its local key cache, and sends a new NFC command with the key details:
@@ -88,7 +88,7 @@
 
 1. **When does a Padlock considers a sequence expired?**    
 
-    NLWeb advocates for 24 horas, although [🔐 KeyMakers](<05  🔐🏭 Keymaker supplier.md>) may define different intervals or allow Padlock owners to set their own expiration interval.
+    NLWeb advocates for 24 horas, although [🔐 KeyMakers](<../../45 🛠️ Helper domains/58 🔐 Keymakers/05  🔐🏭 Keymaker supplier.md>) may define different intervals or allow Padlock owners to set their own expiration interval.
 
     ---
 
@@ -98,7 +98,7 @@
     - 1/ a read only set by the manufacturer, and
     - 2/ a non-volatile writable memory that survives survives power loss (e.g., NVRAM, FRAM).
 
-    In readonly memory, a Padlock stores factory settings set by the [🔐 KeyMaker](<05  🔐🏭 Keymaker supplier.md>):
+    In readonly memory, a Padlock stores factory settings set by the [🔐 KeyMaker](<../../45 🛠️ Helper domains/58 🔐 Keymakers/05  🔐🏭 Keymaker supplier.md>):
     - the domain of the KeyMaker (e.g., `any-keymaker.com`)
     - the resource key of the Padlock in the KeyMaker (e.g., `padlock-12345678`)
     - the private certificate of the Padlock.
@@ -122,7 +122,7 @@
 1. **How do Padlocks report on low battery ?**
 
     Padlocks  use the following mechanisms for alerting on low-power:
-    - 1/ when opening a lock, Padlocks notify their [🔐 KeyMaker](<05  🔐🏭 Keymaker supplier.md>) via the user's [🔑 KeyHolder](<02 🔑💠 Keyholder device.md>) device;
+    - 1/ when opening a lock, Padlocks notify their [🔐 KeyMaker](<../../45 🛠️ Helper domains/58 🔐 Keymakers/05  🔐🏭 Keymaker supplier.md>) via the user's [🔑 KeyHolder](<02 🔑💠 Keyholder device.md>) device;
     - 2/ Padlocks can have a led that blinks on low-power, albeit draining faster.
 
     ---
@@ -133,6 +133,6 @@
 
     - if the Padlock is a relay to an external lock (e.g., building door), then the external lock should have its own traditional key.
 
-    - if the Padlock has an integrated lock (e.g., gym locker), then it was sold with a traditional key as a backup mechanism - this keys come with an embedded [🔆 NFC Locator](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) that users can scan to ask the key's [🔐 KeyMaker](<05  🔐🏭 Keymaker supplier.md>) what the key is for (e.g., `what's the code written in the Padlock of this key?`).
+    - if the Padlock has an integrated lock (e.g., gym locker), then it was sold with a traditional key as a backup mechanism - this keys come with an embedded [🔆 NFC Locator](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) that users can scan to ask the key's [🔐 KeyMaker](<../../45 🛠️ Helper domains/58 🔐 Keymakers/05  🔐🏭 Keymaker supplier.md>) what the key is for (e.g., `what's the code written in the Padlock of this key?`).
 
     ---
