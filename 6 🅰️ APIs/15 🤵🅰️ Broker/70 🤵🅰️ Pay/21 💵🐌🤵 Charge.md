@@ -11,7 +11,7 @@
 
 - Flow: [Charge 💵👉🧑‍🦰 ](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/70 💵 Sellers/💵⏩ Seller flows/💵⏩🧑‍🦰 Charge.md>)
 - Previous: [Charge 💵👉🧑‍🦰](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/70 💵 Sellers/💵⏩ Seller flows/💵⏩🧑‍🦰 Charge.md>)
-- Next: [Charge@Notifier 🤵💵🐌📣](<../../65 📣🅰️ Notifier/05 📣💳🅰️ Payments/61 🤵🐌📣 Charge.md>)
+- Next: [Charge@Notifier 🤵💵🐌📣](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/📣🅰️ Notifier methods/05 📣💳🅰️ Payments/61 🤵🐌📣 Charge.md>)
 
 
 ## Async Message 
