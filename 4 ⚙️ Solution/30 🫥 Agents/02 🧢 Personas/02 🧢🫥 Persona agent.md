@@ -83,7 +83,7 @@
     
 1. **What is the role of Personas in advertising?**
 
-    See [Advertiser 👀](<../10 🔎 Finders/03 👀👥 Advertiser helper.md>) domains.
+    See [Advertiser 👀](<../../45 Helpers/12 👀 Advertisers/03 👀👥 Advertiser helper.md>) domains.
 
     ---
     <br/>

@@ -3,7 +3,7 @@
 
 1. **What is a Payer domain in NLWeb?**
 
-    A Payer 💳 is any [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) that sends payments to [Collector 🏦 domains](<01 🏦🛠️ Collector helper.md>) under two categories:
+    A Payer 💳 is any [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) that sends payments to [Collector 🏦 domains](<../../45 Helpers/18 🏦 Collectors/01 🏦🛠️ Collector helper.md>) under two categories:
 
     * **[Payer 💳🫥 agents](<04 💳🫥 Payer agent.md>)**: 
         * these are [Payer 💳 domains](<03 💳🎭 Payer role.md>) that act as [Agent 🫥 vaults](<../../25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>)
@@ -41,7 +41,7 @@
 1. **What responsibilities do Payers have with invoices?**
 
     None. 
-    * [Collector 🏦 domains](<01 🏦🛠️ Collector helper.md>) are responsible for invoices.
+    * [Collector 🏦 domains](<../../45 Helpers/18 🏦 Collectors/01 🏦🛠️ Collector helper.md>) are responsible for invoices.
 
     ---
     <br/>
@@ -55,7 +55,7 @@
     
 1. **What happens if a transaction is cancelled?**
 
-    Typically, the money is reverted, but it depends on the relationship between the [Payer 💳 domain](<03 💳🎭 Payer role.md>) and the [Collector 🏦 domain](<01 🏦🛠️ Collector helper.md>).
+    Typically, the money is reverted, but it depends on the relationship between the [Payer 💳 domain](<03 💳🎭 Payer role.md>) and the [Collector 🏦 domain](<../../45 Helpers/18 🏦 Collectors/01 🏦🛠️ Collector helper.md>).
 
     ---
     <br/>
@@ -67,7 +67,7 @@
     - NLWeb can also address that niche, 
         - but NLWeb os a generalist, global, and distributed protocol based on natural language.  
     - Conversely, NLWeb is against any form of central governance for payments 
-        - i.e., there should be multiple channels for [Payer 💳 domains](<03 💳🎭 Payer role.md>) and [Collector 🏦 domains](<01 🏦🛠️ Collector helper.md>) to communicate;
+        - i.e., there should be multiple channels for [Payer 💳 domains](<03 💳🎭 Payer role.md>) and [Collector 🏦 domains](<../../45 Helpers/18 🏦 Collectors/01 🏦🛠️ Collector helper.md>) to communicate;
         - e.g., if SWIFT doesn't work, send it via TransferWise.
 
     ---
@@ -106,7 +106,7 @@
     
 1. **Do Payers transfer money to collectors, or pay by card?**
 
-    [Payer 💳 domains](<03 💳🎭 Payer role.md>) and [Collector 🏦 domains](<01 🏦🛠️ Collector helper.md>) may support multiple ways to transact. 
+    [Payer 💳 domains](<03 💳🎭 Payer role.md>) and [Collector 🏦 domains](<../../45 Helpers/18 🏦 Collectors/01 🏦🛠️ Collector helper.md>) may support multiple ways to transact. 
     
     - When multiple choices are possible, [Payer 💳 domains](<03 💳🎭 Payer role.md>) may ask the user for their preference. 
     - The exact payment method will depend on the transfer methods supported by both parties (e.g., SWIFT, TransferWise), and the user configurations supported by the [Payer 💳 domain](<03 💳🎭 Payer role.md>) (e.g., Visa, MasterCard, Brazilian Pix).
@@ -117,14 +117,14 @@
 1. **Can a payment be reverted or cancelled?**
 
     Yes. 
-    * [Collector 🏦 domains](<01 🏦🛠️ Collector helper.md>) can initiate it, but [Payer 💳 domains](<03 💳🎭 Payer role.md>) can't.
+    * [Collector 🏦 domains](<../../45 Helpers/18 🏦 Collectors/01 🏦🛠️ Collector helper.md>) can initiate it, but [Payer 💳 domains](<03 💳🎭 Payer role.md>) can't.
 
     ---
     <br/>
     
 1. **Can payments be done with credit/debit notes?**
 
-    Yes, as long as the [Payer 💳 domain](<03 💳🎭 Payer role.md>) and the [Collector 🏦 domain](<01 🏦🛠️ Collector helper.md>) support it.
+    Yes, as long as the [Payer 💳 domain](<03 💳🎭 Payer role.md>) and the [Collector 🏦 domain](<../../45 Helpers/18 🏦 Collectors/01 🏦🛠️ Collector helper.md>) support it.
 
     ---
     <br/>
@@ -135,7 +135,7 @@
 
     NLWeb discourages the usage of blockchain in this scenario for multiple reasons:
 
-    - **simplicity:** if only two entities ([Payer 💳 domain](<03 💳🎭 Payer role.md>) and [Collector 🏦 domain](<01 🏦🛠️ Collector helper.md>)) need to communicate, then two simple mutually authenticated API endpoints are enough to do the job.
+    - **simplicity:** if only two entities ([Payer 💳 domain](<03 💳🎭 Payer role.md>) and [Collector 🏦 domain](<../../45 Helpers/18 🏦 Collectors/01 🏦🛠️ Collector helper.md>)) need to communicate, then two simple mutually authenticated API endpoints are enough to do the job.
   
     - **scalability:** blockchain's performance degrades as the number of parties increase, which is incompatible with a protocol supporting billions of users;
         - e.g., Sam Altman's [World 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/11 📺 Sam Altman's World.md>) moved from blockchain to an proprietary protocol in 2024 for their digital currency due to scalability limitations.
@@ -165,7 +165,7 @@
 
 1. **Can a group split a bill in equal parts?**
 
-    Yes, but split bills are managed by [Collector 🏦 domains](<01 🏦🛠️ Collector helper.md>), as in the following examples:
+    Yes, but split bills are managed by [Collector 🏦 domains](<../../45 Helpers/18 🏦 Collectors/01 🏦🛠️ Collector helper.md>), as in the following examples:
       * [🍽️ Split restaurant bill ](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/74 💳 Pay: Split bill ✂️.md>);
       * [🚕 Split taxi ride](<../../../3 🤝 Use Cases/03 🧳 Travel/04 🧳 Travel by taxi 🚕/2 🚕 Customer @ Car/23. Split with friends.md>).
     

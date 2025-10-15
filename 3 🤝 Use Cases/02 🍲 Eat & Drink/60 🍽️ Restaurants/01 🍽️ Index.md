@@ -30,7 +30,7 @@
 |`💁‍♀️ Staff`|[Deliver items 🥘](<91 💁‍♀️ Staff: Deliver items 🥘.md>)
 ||[Attend calls 🙋](<92 💁‍♀️ Staff: Attend calls 🙋.md>)
 ||[Place orders 🛒](<93 💁‍♀️ Staff: Place orders 🛒.md>)
-||[Bill userable 💍](<94 💁‍♀️ Staff: Bill userable 💍.md>) | [`🏦 Collector`](<../../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) [`🆔 Identity`](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>)
+||[Bill userable 💍](<94 💁‍♀️ Staff: Bill userable 💍.md>) | [`🏦 Collector`](<../../../4 ⚙️ Solution/45 Helpers/18 🏦 Collectors/01 🏦🛠️ Collector helper.md>) [`🆔 Identity`](<../../../4 ⚙️ Solution/30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>)
 |`💼 Owner` | [About](<11 🏢 Owner: About.md>) | [`🗂️ Folder`](<../../../4 ⚙️ Solution/45 Helpers/26 🗂️ Folders/$ 🗂️ Folder editor.md>)
 ||[Menu](<12 🏢 Owner: Menu.md>) | [`🗂️ Folder`](<../../../4 ⚙️ Solution/45 Helpers/26 🗂️ Folders/$ 🗂️ Folder editor.md>)
 |

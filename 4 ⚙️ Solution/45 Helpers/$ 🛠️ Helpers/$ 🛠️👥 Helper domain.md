@@ -26,13 +26,13 @@
    
     | Helper 🛠️ | Example | Responsibilities
     |-|-|-
-    | [👀 Ads](<../../30 🫥 Agents/10 🔎 Finders/03 👀👥 Advertiser helper.md>) | GoogleAds | Intermediates ad workflows for [Brokers 🤵](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
+    | [👀 Ads](<../12 👀 Advertisers/03 👀👥 Advertiser helper.md>) | GoogleAds | Intermediates ad workflows for [Brokers 🤵](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>)
     | [🤝 Biller](<../../30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>) | ApplePay | Manages billing cycles between [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>)
     | [🤵 Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | WhatsApp | Manages [Chats](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) between [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/01 🧑‍🦰 Wallet app.md>) and [Hosts 🤗](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>)
     | [⏳ Buffer](<../15 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>) | Kafka | Throttles [Streamers 🌬️](<../../40 👥 Domains/42 🌬️ Streams/02 🌬️🎭 Streamer role.md>) for [Subscribers 🔔](<../../40 👥 Domains/42 🌬️ Streams/04 🔔🎭 Subscriber role.md>)
-    | [🏦 Collector](<../../30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) | CapitalOne | Collects money from [Payers 💳](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) for [Sellers 💵](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>)
+    | [🏦 Collector](<../18 🏦 Collectors/01 🏦🛠️ Collector helper.md>) | CapitalOne | Collects money from [Payers 💳](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) for [Sellers 💵](<../../30 🫥 Agents/04 💳 Payers/01 💵🎭 Seller role.md>)
     | [🔐 Keymaker](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/05  🔐🏭 Keymaker supplier.md>) | - | Manages [Padlocks 🔒](<../../70 🌳 Ambient/75 🔒 Brand Padlocks/01 🔒 Padlock device.md>) for [Brands 🍏](<../../70 🌳 Ambient/71 💠 Brand Things/07 🍏🎭 Brand role.md>)
-    | [💳 Payer](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) | PayPal | Pays [Collectors 🏦](<../../30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) for [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>)
+    | [💳 Payer](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) | PayPal | Pays [Collectors 🏦](<../18 🏦 Collectors/01 🏦🛠️ Collector helper.md>) for [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>)
     | [🖨️ Printer](<../60 🖨️ Printers/$ 🖨️🏭 Printer helper.md>) | - | Prints [Locators 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) for [Brand 🍏](<../../70 🌳 Ambient/71 💠 Brand Things/07 🍏🎭 Brand role.md>) and [Host 🤗](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>)
     | [🛰️ Relayer](<../../60 🧰 Edge/61 🔌 Pluggables/04 🛰️🛠️ Relayer helper.md>)
     | [🪄 Wand](<../../70 🌳 Ambient/71 💠 Brand Things/09 🪄🛠️ Wand helper.md>) | - | Manages [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) for [Things 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>) for [Brands 🍏](<../../70 🌳 Ambient/71 💠 Brand Things/07 🍏🎭 Brand role.md>)
@@ -60,7 +60,7 @@
     | [Helper 🛠️](<$ 🛠️👥 Helper domain.md>)  | Purpose 
     |-|-
     | [🤝 Biller](<../../30 🫥 Agents/04 💳 Payers/06 🤝🛠️ Biller helper.md>) | To manage usage and subscription plans.
-    | [🏦 Collector](<../../30 🫥 Agents/04 💳 Payers/01 🏦🛠️ Collector helper.md>) | To collect usage and subscription payments.
+    | [🏦 Collector](<../18 🏦 Collectors/01 🏦🛠️ Collector helper.md>) | To collect usage and subscription payments.
     
     ---
     <br/>

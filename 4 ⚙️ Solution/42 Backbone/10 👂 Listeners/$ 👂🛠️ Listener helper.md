@@ -147,7 +147,7 @@
 
     * **Simplicity**: by limiting the size of the events, NLWeb allows changes to be propagated across many cloud providers without the need for round trips (i.e., returning to the origin to download the content).
 
-    * **Scalability**: multiple small events can scale horizontally, virtually to infinite, by using cloud functions with small memory footprints - otherwise, single download of the [Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) of an [🏛️ Authority](<../../45 Helpers/10 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>) could require several gigabytes of memory to be parsed.
+    * **Scalability**: multiple small events can scale horizontally, virtually to infinite, by using cloud functions with small memory footprints - otherwise, single download of the [Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) of an [🏛️ Authority](<../../45 Helpers/14 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>) could require several gigabytes of memory to be parsed.
 
     ---
     <br/>
