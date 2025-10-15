@@ -44,5 +44,5 @@ The associated [Talker 😃](<../../../9 😃 Talkers/10 📘 Talker specs/10 �
 |-|-|-
 | 1 | [🤗🐌🤵 `Goodbye@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/05 🤗🐌🤵 Goodbye.md>) | [Hosts 🤗](<$ 🤗🎭 Host role.md>) tell [Brokers 🤵](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) of [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) endings
 | 2 | [👀⏩🧑‍🦰 Advertise 👀](<../../45 🛠️ Helper domains/12 👀 Advertisers/01 👀⏩🧑‍🦰 Advertise.md>) | [Brokers 🤵](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) ask [Advertisers 👀](<../../45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) to advertise
-| 3 | [⭐⏩🧑‍🦰 Review ⭐](<../../../5 ⏩ Flows/70 ⭐⏩ Reviewers/01 ⭐⏩🧑‍🦰 Review.md>) | [Brokers 🤵](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) ask [Reviewers ⭐](<../../50 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer agent.md>) to review
+| 3 | [⭐⏩🧑‍🦰 Review ⭐](<../../50 🫥 Agents/73 ⭐ Reviewers/70 ⭐⏩ Reviewers/01 ⭐⏩🧑‍🦰 Review.md>) | [Brokers 🤵](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) ask [Reviewers ⭐](<../../50 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer agent.md>) to review
 ||

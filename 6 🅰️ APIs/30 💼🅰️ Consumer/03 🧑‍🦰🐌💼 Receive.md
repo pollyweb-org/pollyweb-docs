@@ -45,7 +45,7 @@ Body:
 1. **What's in the list of Tokens?**
 
     The list of [Tokens 🎫](<../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) contains:
-    * the content from the response of [`Issued@Issuer`](<../55 🎴🅰️ Issuer/01 🧑‍🦰🚀🎴 Issued.md>)
+    * the content from the response of [`Issued@Issuer`](<../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/55 🎴🅰️ Issuer/01 🧑‍🦰🚀🎴 Issued.md>)
     * stored in local files during [`Saved@Broker`](<../15 🤵🅰️ Broker/50 🤵🅰️ Tokens 🎫/53 🧑‍🦰🐌🤵 Saved.md>).
 
 

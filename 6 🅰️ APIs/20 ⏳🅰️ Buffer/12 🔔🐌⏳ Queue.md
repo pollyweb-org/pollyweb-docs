@@ -2,7 +2,7 @@
 
 > Implements a [Buffer ⏳ helper domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/27 ⏳ Buffers/$ ⏳🛠️ Buffer helper.md>)
 
-> Used in [Stream @ Streamer 🌬️⏩🔔](<../../5 ⏩ Flows/76  🌬️⏩ Streamers/01 🌬️⏩🔔 Stream.md>) flow
+> Used in [Stream @ Streamer 🌬️⏩🔔](<../../4 ⚙️ Solution/41 🎭 Domain Roles/75 🌬️ Streamers/76  🌬️⏩ Streamers/01 🌬️⏩🔔 Stream.md>) flow
 > <br/>• Succeeded by [`Queued@Subscriber`](<../87 🔔🅰️ Subscriber/01 ⏳🐌🔔 Queued.md>)
 
 

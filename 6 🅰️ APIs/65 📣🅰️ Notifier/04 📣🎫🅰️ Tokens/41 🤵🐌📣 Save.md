@@ -1,6 +1,6 @@
 # 🤵🐌📣 Save @ Notifier
 
-> Calls [🧑‍🦰🚀🎴 Issued @ Issuer](<../../55 🎴🅰️ Issuer/01 🧑‍🦰🚀🎴 Issued.md>) and saves the response  into a local file. 
+> Calls [🧑‍🦰🚀🎴 Issued @ Issuer](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/55 🎴🅰️ Issuer/01 🧑‍🦰🚀🎴 Issued.md>) and saves the response  into a local file. 
 
 > Part of the [🧑‍🦰👉🎴 Offer Token @ Issuer](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/02 🧑‍🦰👉🎴 Save token.md>) flow.
 
