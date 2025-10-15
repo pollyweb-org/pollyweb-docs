@@ -91,8 +91,8 @@
     | 🤵 [Broker](<../24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 [Allow guest domain?](<../../../5 ⏩ Flows/50 🤗⏩ Hosts/03 🤗⏩🧑‍🦰 Invite 🛠️.md>) [Yes, No]  <br/> - Any Biller 🤝<br/>- [ Always ] for Any Helper 🛠️ | > Always
     | 🤝 [Biller](<../20 🤝 Billers/$ 🤝🛠️ Biller helper.md>) | 😃 What plan to subscribe? <br/>- [ Simple ] pay-as-you-go  <br/>- [ Monthly ] commitment | > Simple
     | 💳 [Payer](<../../50 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Link to Any Biller? [Yes, No, +] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC 
-    | 🆔 [Identity](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 [Sign terms?](<../../50 🫥 Agents/45 🆔 Identities/16 🆔🔏 Verify Signatures.md>) 📄 [Yes, No] | > Yes
-    | 🆔 [Identity](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../50 🫥 Agents/45 🆔 Identities/21 🆔😶 Face scan.md>)
+    | 🆔 [Identity](<../../50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 [Sign terms?](<../../50 🫥 Agents/45 🆔 Identities/16 🆔🔏 Verify Signatures.md>) 📄 [Yes, No] | > Yes
+    | 🆔 [Identity](<../../50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../50 🫥 Agents/45 🆔 Identities/21 🆔😶 Face scan.md>)
     | 🛠️ [Helper](<$ 🛠️👥 Helper domain.md>) | ✅ Done!
     |
 

@@ -18,5 +18,5 @@ Pick up a drink at a club
 | 🕺 Club       | ⏳ Getting your order... [+]
 | 🕺 Club       | ✅ Order delivered [+] <br/>- 1 half pint lager 🍺
 | 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agents/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | 🫥 Save intake? [Yes, No] | > Yes
-| ⭐ [Rate](<../../../4 ⚙️ Solution/50 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5 |
+| ⭐ [Rate](<../../../4 ⚙️ Solution/50 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5 |
 ||

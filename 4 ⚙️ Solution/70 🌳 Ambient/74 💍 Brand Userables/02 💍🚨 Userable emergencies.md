@@ -30,8 +30,8 @@
     | 🪄 [Wand](<../../45 🛠️ Helper domains/90 🪄 Wands/$ 🪄🛠️ Wand helper.md>)| 😐 Activate emergency? [Yes, No] <br/> - I'll need your location <br/> - your contact details <br/>- and an identity check | > Yes
     | 🪄 [Wand](<../../45 🛠️ Helper domains/90 🪄 Wands/$ 🪄🛠️ Wand helper.md>) | [📍 Share location?](<../../../9 😃 Talkers/20 🤔 Prompts/7 ✏️ Input prompts/91 📍 LOCATION prompt.md>) [Yes, No] | > Yes
     | 🧢 [Persona](<../../50 🫥 Agents/70 🧢 Personas/$ 🧢🫥 Persona agent.md>) | 🫥 Share contacts ? [Yes, No] | > Yes
-    | 🆔 [Identity](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Share identity? [Yes, No] | > Yes
-    | 🆔 [Identity](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../50 🫥 Agents/45 🆔 Identities/21 🆔😶 Face scan.md>)
+    | 🆔 [Identity](<../../50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Share identity? [Yes, No] | > Yes
+    | 🆔 [Identity](<../../50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../50 🫥 Agents/45 🆔 Identities/21 🆔😶 Face scan.md>)
     | 🪄 [Wand](<../../45 🛠️ Helper domains/90 🪄 Wands/$ 🪄🛠️ Wand helper.md>) | ✅ Emergency activated [+]
     
     ---
@@ -46,7 +46,7 @@
     |-|-|-
     |1| `Tap NFC` | A guest user [taps 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) the [rotating NFC tag 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/11 📺 NFC authentication.md>) of the [Userable 💍 thing](<01 💍 Userable thing.md>) with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
     |2| `Interact`| A [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) opens with the [Userable's Wand 🪄 domain](<../../45 🛠️ Helper domains/90 🪄 Wands/$ 🪄🛠️ Wand helper.md>) (i.e., the helper defined by the [Userable's Brand 🍏 domain](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>)) - this allows the guest user to read the landing notes that the owner user left, and allowing the guest to active the emergency script defined by the owner user.
-    |3| `Identify` | The [Userable's Wand 🪄 domain](<../../45 🛠️ Helper domains/90 🪄 Wands/$ 🪄🛠️ Wand helper.md>) asks the [guest user's Identity 🆔 agent](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) to authenticate the guest - this allows emergency services to impose legal actions on harassment frauds if necessary.
+    |3| `Identify` | The [Userable's Wand 🪄 domain](<../../45 🛠️ Helper domains/90 🪄 Wands/$ 🪄🛠️ Wand helper.md>) asks the [guest user's Identity 🆔 agent](<../../50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) to authenticate the guest - this allows emergency services to impose legal actions on harassment frauds if necessary.
     |4| `Activate`| The guest activates the emergency workflow - this triggers the [Userable's Wand 🪄 domain](<../../45 🛠️ Helper domains/90 🪄 Wands/$ 🪄🛠️ Wand helper.md>) to ask the [guest's Broker 🤵 domain](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) for the guest's location, ask the [guest's Persona 🧢 agent](<../../50 🫥 Agents/70 🧢 Personas/$ 🧢🫥 Persona agent.md>) for the guest's contact details, and pass that information to the [owner's Custodian 🧳 vault](<../../50 🫥 Agents/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>).
     |5| `Broadcast`| The [owner's Custodian 🧳 domain](<../../50 🫥 Agents/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>) executes the emergency script defined by the owner user - e.g., perform a group call with the selected phone numbers, as well as alert emergency services, trusted medical contacts, and health insurance companies.
 
@@ -80,7 +80,7 @@
     To avoid harassment frauds, before issuing the emergency alarm, 
     * owners may request their [Custodian 🧳 agent](<../../50 🫥 Agents/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>) 
     * to request guests to be authenticated 
-    * by a [trusted 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) [Identity 🆔 domain](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>).
+    * by a [trusted 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) [Identity 🆔 domain](<../../50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>).
 
     ---
     <br/>

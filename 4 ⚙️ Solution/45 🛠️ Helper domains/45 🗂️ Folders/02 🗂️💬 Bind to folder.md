@@ -8,7 +8,7 @@ Bind to a folder editor
 | 🗂️ [Folder](<$ 🗂️ Folder editor.md>) | ℹ️ Bind vault requested.
 | 🤵 [Broker](<../24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Bind vault? [No] <br/> - [ Any Persona 🧢 ] <br/> - [ Any Payer 💳 ] <br/> - ... | > Any Persona 🧢
 | 🧢 [Persona](<../../50 🫥 Agents/70 🧢 Personas/$ 🧢🫥 Persona agent.md>) | ⓘ Folder bind requested.
-| 🆔 [Identity](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../50 🫥 Agents/45 🆔 Identities/21 🆔😶 Face scan.md>)
+| 🆔 [Identity](<../../50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../50 🫥 Agents/45 🆔 Identities/21 🆔😶 Face scan.md>)
 | 🗂️ [Folder](<$ 🗂️ Folder editor.md>) | ✅ Bound to Any Persona 🧢
-| ⭐ [Rate](<../../50 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5 |
+| ⭐ [Rate](<../../50 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5 |
 ||

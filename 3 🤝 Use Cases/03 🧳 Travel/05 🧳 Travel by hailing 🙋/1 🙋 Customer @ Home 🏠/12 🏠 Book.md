@@ -7,9 +7,9 @@
 ||| > Ride 🔗
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agents/40 🔎 Finders/$ 🔎🫥 Finder agent.md>) | ⓘ Any Ride Hailing (4.4 ⭐) [+]
 | 🙋 Hailing | 😃 Hi! What do you need? <br/>- [ Ride now ] <br/>- [ Book ride ]  <br/> - [ Something else ] | > Book ride
-| [🗓️ Scheduler](<../../../../4 ⚙️ Solution/50 🫥 Agents/75 🗓️ Schedulers/$ 🗓️🗄️ Scheduler agent.md>) | 🫥 Which day? <br/> - [ Today ] <br/> - [ Tomorrow ] <br/> - [ Select from calendar ] | > Tomorrow
-| [🗓️ Scheduler](<../../../../4 ⚙️ Solution/50 🫥 Agents/75 🗓️ Schedulers/$ 🗓️🗄️ Scheduler agent.md>) | 🫥 What time?  | 🕑 9:30
-| [🗓️ Scheduler](<../../../../4 ⚙️ Solution/50 🫥 Agents/75 🗓️ Schedulers/$ 🗓️🗄️ Scheduler agent.md>) | 🫥 Are you sure? [Yes, No] <br/>- lunch at mom at 1pm. | > Yes
+| [🗓️ Scheduler](<../../../../4 ⚙️ Solution/50 🫥 Agents/75 🗓️ Schedulers/$ 🗓️🫥 Scheduler agent.md>) | 🫥 Which day? <br/> - [ Today ] <br/> - [ Tomorrow ] <br/> - [ Select from calendar ] | > Tomorrow
+| [🗓️ Scheduler](<../../../../4 ⚙️ Solution/50 🫥 Agents/75 🗓️ Schedulers/$ 🗓️🫥 Scheduler agent.md>) | 🫥 What time?  | 🕑 9:30
+| [🗓️ Scheduler](<../../../../4 ⚙️ Solution/50 🫥 Agents/75 🗓️ Schedulers/$ 🗓️🫥 Scheduler agent.md>) | 🫥 Are you sure? [Yes, No] <br/>- lunch at mom at 1pm. | > Yes
 | 🙋 Hailing | ℹ️ Received date/time: [Change] <br/> - tomorrow, at 9:30
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/50 🫥 Agents/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | 🫥 Share pick up location? [No] <br/>- [ current location ] <br/> - [ 🏠 home ] <br/> - [ 📍 pinpoint ] | > 🏠 home
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/50 🫥 Agents/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | 🫥 Share drop off location? [No] <br/> - [ T1 departures, BA 17:35 ] <br/>- [ 🏢 LHR15 ] <br/>- [ 🏡 Daniel's ] <br/> - [ 📍 pinpoint ] | > 🏡 Daniel's
