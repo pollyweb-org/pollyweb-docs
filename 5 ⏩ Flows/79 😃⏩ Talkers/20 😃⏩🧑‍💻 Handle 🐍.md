@@ -14,11 +14,11 @@
 
 | # | Call | Description
 |-|-|-
-|1| [🤗⏩🧑‍🦰 Prompt 🤔](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Talkers 😃](<../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>) handle replies to [Prompts 🤔](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>)
+|1| [🤗⏩🧑‍🦰 Prompt 🤔](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔 flow.md>) | [Talkers 😃](<../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>) handle replies to [Prompts 🤔](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>)
 |2| [😃🐌🧑‍💻 `Handle@Hosted`](<../../6 🅰️ APIs/51 🧑‍💻🅰️ Hosted/01 😃🐌🧑‍💻 Handle.md>) | [Talkers 😃](<../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>) delegate functions to [Hosteds 🧑‍💻](<../../9 😃 Talkers/91 🧑‍💻 Hosteds/01 🧑‍💻 Hosted domain.md>)
 |3| [🧑‍💻🚀😃 `Placed@Talker`](<../../6 🅰️ APIs/92 😃🅰️ Talker/10 🧑‍💻🚀😃 Placed.md>) | [Hosteds 🧑‍💻](<../../9 😃 Talkers/91 🧑‍💻 Hosteds/01 🧑‍💻 Hosted domain.md>) read [$Placeholder 💾](<../../9 😃 Talkers/30 🗃️ Talker data/10 💾 $Placeholder.md>) values
 |4| [🧑‍💻🐌😃 `Handled@Talker`](<../../6 🅰️ APIs/92 😃🅰️ Talker/40 🧑‍💻🐌😃 Handled.md>) | [Hosteds 🧑‍💻](<../../9 😃 Talkers/91 🧑‍💻 Hosteds/01 🧑‍💻 Hosted domain.md>) return the evaluated result 
-|5| [🤗⏩🧑‍🦰 Prompt 🤔](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Talkers 😃](<../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>) continue the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
+|5| [🤗⏩🧑‍🦰 Prompt 🤔](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/01 🤗⏩🧑‍🦰 Prompt 🤔 flow.md>) | [Talkers 😃](<../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>) continue the [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
 |
 
 <br/>

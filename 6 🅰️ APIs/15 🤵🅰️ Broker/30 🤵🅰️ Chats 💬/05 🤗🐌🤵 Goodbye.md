@@ -9,7 +9,7 @@
     * informs the [user's Broker 🤵 domain](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) 
     * of the [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ending.
 * Used in:
-    * [👋 Goodbye @ Host ⏩ flow](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/07 🤗⏩🧑‍🦰 Goodbye 👋.md>) 
+    * [👋 Goodbye @ Host ⏩ flow](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/07 🤗⏩🧑‍🦰 Goodbye 👋 flow.md>) 
     * [👋 Talker `GOODBYE` command](<../../../9 😃 Talkers/60 ⏩ Msg flows/50 👋 GOODBYE.md>)
 
 <br/> 
