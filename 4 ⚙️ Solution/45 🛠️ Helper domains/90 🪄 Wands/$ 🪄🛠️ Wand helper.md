@@ -28,7 +28,7 @@
     |-|-|-
     |1| `Tap/Scan` | Owners use their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) to [tap 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) or [scan ✨](<../../20 🧑‍🦰 UI/11 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) the [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) of a [Thing 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>) with a given [Brand 🍏 domain](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>).
     |2| `Open` | That opens a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with the [Wand 🪄 domain](<$ 🪄🛠️ Wand helper.md>), acting on behalf of the [Brand 🍏](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>). Owners can then do everything that guests can.
-    |3| `Identify` | The [Wand 🪄 domain](<$ 🪄🛠️ Wand helper.md>) will detect the user's ownership by its registration on the [owner's Custodian 🧳 agent](<../../50 🫥 Agents/35 🧳 Custodians/$ 🧳🗄️ Custodian vault.md>), and will will provide the owner with admin access after authenticating the owner via the [owner's Identity 🆔 agent](<../../50 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>).
+    |3| `Identify` | The [Wand 🪄 domain](<$ 🪄🛠️ Wand helper.md>) will detect the user's ownership by its registration on the [owner's Custodian 🧳 agent](<../../50 🫥 Agents/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>), and will will provide the owner with admin access after authenticating the owner via the [owner's Identity 🆔 agent](<../../50 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>).
     |4| `Contact` | If allowed by the [Brand 🍏 domain](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>), users will also be able to get in contact with the [Brand 🍏 domain](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>).
 
     ---
@@ -38,7 +38,7 @@
 
     | [User Agent 🫥](<../../50 🫥 Agents/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) | Purpose
     |-|-
-    | [🧳 Custodian](<../../50 🫥 Agents/35 🧳 Custodians/$ 🧳🗄️ Custodian vault.md>) | To allow users to manage their [Things 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>).
+    | [🧳 Custodian](<../../50 🫥 Agents/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>) | To allow users to manage their [Things 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>).
     | [🆔 Identity](<../../50 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) | To authenticate users as owners of their [Things 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>). 
     | [📦 Storage](<../../50 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>) | To allow users to store notes about their [Things 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>).
 
@@ -72,7 +72,7 @@
 1. **Do Wands know which user registered the Locator?**
 
     No. 
-    * The owner of a [Thing 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>) is hidden from [Wand 🪄 domains](<$ 🪄🛠️ Wand helper.md>) by [Custodian 🧳 vault domains](<../../50 🫥 Agents/35 🧳 Custodians/$ 🧳🗄️ Custodian vault.md>).
+    * The owner of a [Thing 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>) is hidden from [Wand 🪄 domains](<$ 🪄🛠️ Wand helper.md>) by [Custodian 🧳 vault domains](<../../50 🫥 Agents/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>).
 
     ---
     <br/>
@@ -80,7 +80,7 @@
 1. **Can Brands know which user registered the placeholder?**
 
     No.
-    * The owner of a [Thing 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>) is hidden from [Brand 🍏 domains](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>) by [Custodian 🧳 vault domains](<../../50 🫥 Agents/35 🧳 Custodians/$ 🧳🗄️ Custodian vault.md>). 
+    * The owner of a [Thing 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>) is hidden from [Brand 🍏 domains](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>) by [Custodian 🧳 vault domains](<../../50 🫥 Agents/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>). 
     * Of course, [Brand 🍏 domains](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>) can find alternative ways to get that information, but those are not part of the NLWeb protocol.
 
     ---
@@ -112,7 +112,7 @@
 
     [Wand 🪄 domains](<$ 🪄🛠️ Wand helper.md>) may implement a number of ways to monetize - e.g.:
     - charge [Brand 🍏 domains](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>) for a commitment to keep the placeholder active for a certain amount of time (e.g., 10 years) when an order is placed;
-    - charge [Custodian 🧳 vault domains](<../../50 🫥 Agents/35 🧳 Custodians/$ 🧳🗄️ Custodian vault.md>) for each user registration or interaction with a [Thing 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>);
+    - charge [Custodian 🧳 vault domains](<../../50 🫥 Agents/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>) for each user registration or interaction with a [Thing 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>);
     - charge a [subscription 🗓️](<../../../2 🏔️ Landscape/1 💼 Business landscape/08 🗓️ Subscriptions landscape>) to users, by leveraging a [Biller 🤝 helper domain](<../20 🤝 Billers/$ 🤝🛠️ Biller helper.md>);
     - introduce [advertising 👀](<../../../2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape>) in the user [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>), by leveraging an [Advertiser 👀 helper domain](<../12 👀 Advertisers/$ 👀👥 Advertiser helper.md>).
 
