@@ -31,7 +31,7 @@ Onboarding
 
 1. **What are the steps for a Seller to onboard NLWeb?**
 
-    1. Bootstrap the [Seller 💵](<../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>) domain (e.g., nlweb.any-seller.com);
+    1. Bootstrap the [Seller 💵](<../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) domain (e.g., nlweb.any-seller.com);
     2. Integrate the [Collector 🏦](<../45 🛠️ Helper domains/30 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) with the organization's bank and ERP;
     3. Configure [Host 🤗](<../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) workflows integrated with the organization's IT;
     4. Publish a [Manifest 📜](<../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) with [Trusts 👍](<../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) to required domains;
