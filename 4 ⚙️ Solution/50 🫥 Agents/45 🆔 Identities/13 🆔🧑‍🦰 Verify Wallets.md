@@ -56,16 +56,16 @@
 1. **How are users' face biometrics protected from Sellers?**
 
     NLWeb advocates for online face authentication between [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) and [Identity 🆔 vaults](<01 🆔🫥 Identity agent.md>), without sharing user biometrics with [Seller 💵 domains](<../../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>);
-    - e.g., when a [Seller 💵 domain](<../../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>) needs to match a person with a [Token 🎫](<../../25 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>), 
+    - e.g., when a [Seller 💵 domain](<../../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>) needs to match a person with a [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>), 
     - it contacts the [Token's  Identity 🆔 domain](<01 🆔🫥 Identity agent.md>) to perform the authentication 
     - via the user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>), 
     - and only return a success/failure to the [Seller 💵 domain](<../../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>) . 
     
     When offline authentications are required, 
-    * i.e. when the user only has a printed QR or and NFC card with the [Token 🎫](<../../25 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>), 
+    * i.e. when the user only has a printed QR or and NFC card with the [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>), 
     * then the [Seller 💵 domain](<../../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>) needs to take the user's picture 
     * with a fixed camera in a supervised fashion, 
-    * then ask the [Token's  Identity 🆔 domain](<01 🆔🫥 Identity agent.md>) to match the picture with the [Token 🎫](<../../25 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>), 
+    * then ask the [Token's  Identity 🆔 domain](<01 🆔🫥 Identity agent.md>) to match the picture with the [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>), 
     * and then delete the picture according to regulatory requirements. 
 
     ---
