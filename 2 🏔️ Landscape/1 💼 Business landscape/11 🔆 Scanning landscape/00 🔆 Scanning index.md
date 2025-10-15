@@ -31,7 +31,7 @@ NLWeb advocates QR/NFC usage with the following improvements.
 |-|-
 | [🫥 Agents](<../../../4 ⚙️ Solution/50 🫥 Agents/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) | To reduce the duration of user workflows when compared to traditional methods.
 | [🪄 Wands](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/90 🪄 Wands/$ 🪄🛠️ Wand helper.md>) | To cognify interaction points with businesses (e.g., products, places, things).
-| [🍏 Brands](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/20 🍏 Brands/07 🍏🎭 Brand role.md>) | Easy and affordable to set up and maintain by businesses.
+| [🍏 Brands](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>) | Easy and affordable to set up and maintain by businesses.
 | [💬 Chats](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) | Consuming as little network bandwidth as a natural language chat.
 | [💠 Things](<../../../4 ⚙️ Solution/70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>) | Using ubiquitous non-proprietary QR and NFC standards.
 | [🔆 Locators](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) | With safety validation of the QR/NFC landing page.
