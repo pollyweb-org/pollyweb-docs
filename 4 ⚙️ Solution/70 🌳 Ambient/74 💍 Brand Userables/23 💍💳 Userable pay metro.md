@@ -3,7 +3,7 @@
 
 1. **How can users pay variable length metropolitan rides?**
 
-    ![](<00 📎 Assets/💍 Userable Railway.png>)
+    ![](<. 📎 Assets/💍 Userable Railway.png>)
 
     Users can take the following steps in a chat with the railway:
     - register for direct debit with the railway via a [Biller 🤝](<../../45 🛠️ Helper domains/20 🤝 Billers/$ 🤝🛠️ Biller helper.md>);

@@ -16,7 +16,7 @@
 
 1. **How does it work?**
 
-    ![](<00 📎 Assets/💍 Userable Pay Kiosk.png>)
+    ![](<. 📎 Assets/💍 Userable Pay Kiosk.png>)
 
     ---
     <br/>

@@ -40,7 +40,7 @@
 
 1. **How does it work?**
 
-    ![](<00 📎 Assets/💍 Userable Emergency.png>)
+    ![](<. 📎 Assets/💍 Userable Emergency.png>)
 
     |#|Category|Step
     |-|-|-

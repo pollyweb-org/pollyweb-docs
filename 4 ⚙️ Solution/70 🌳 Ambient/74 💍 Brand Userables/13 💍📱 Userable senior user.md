@@ -28,7 +28,7 @@
 
 1. **How does it work?**
 
-    ![](<00 📎 Assets/💍 Userable Phone.png>)
+    ![](<. 📎 Assets/💍 Userable Phone.png>)
 
     |#|Category|Step|
     |-|-|-

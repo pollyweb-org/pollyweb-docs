@@ -17,7 +17,7 @@
 
 1. **How does it work?**
 
-    ![](<00 📎 Assets/💍 Userable Cross Gates.png>)
+    ![](<. 📎 Assets/💍 Userable Cross Gates.png>)
 
     |#|Category|Step|
     |-|-|-
