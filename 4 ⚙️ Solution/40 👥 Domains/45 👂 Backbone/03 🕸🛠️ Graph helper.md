@@ -6,7 +6,7 @@
     A [Graph 🕸 domain](<03 🕸🛠️ Graph helper.md>) is 
     * any [Helper 🛠️ domain](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) 
     * that subscribes to [domain Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>) change events from [Listener 👂 domains](<02 👂🛠️ Listener helper.md>)
-    * then builds network representations of [Trust 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>) relationships between [domains 👥](<../41 📨 Msgs/00 👥 Domain.md>)
+    * then builds network representations of [Trust 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>) relationships between [domains 👥](<../41 📨 Messages/00 👥 Domain.md>)
     * including indirect relationships via [Authority 🏛️ domains](<../43 👍 Trusts/02 🏛️🛠️ Authority helper.md>). 
 
     ---
@@ -14,18 +14,18 @@
 
 1. **What can domains use Graphs for?**
 
-    [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) can answer the following questions synchronously from any [domain 👥](<../41 📨 Msgs/00 👥 Domain.md>).
+    [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) can answer the following questions synchronously from any [domain 👥](<../41 📨 Messages/00 👥 Domain.md>).
 
     |Scope&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Question
     |-|-
-    |[👥 Identity](<../41 📨 Msgs/00 👥 Domain.md>)| What's the identity of [domain 👥](<../41 📨 Msgs/00 👥 Domain.md>) `D`?
-    |[👍 Trusts](<../43 👍 Trusts/01 👍 Domain Trust.md>) | Can I trust the data of [Schema 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) `S` sent by [domain 👥](<../41 📨 Msgs/00 👥 Domain.md>) `D`?
-    |[👍 Trusts](<../43 👍 Trusts/01 👍 Domain Trust.md>) | Can I trust my data of [Schema 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) `S` to a [domain 👥](<../41 📨 Msgs/00 👥 Domain.md>) `D`?
+    |[👥 Identity](<../41 📨 Messages/00 👥 Domain.md>)| What's the identity of [domain 👥](<../41 📨 Messages/00 👥 Domain.md>) `D`?
+    |[👍 Trusts](<../43 👍 Trusts/01 👍 Domain Trust.md>) | Can I trust the data of [Schema 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) `S` sent by [domain 👥](<../41 📨 Messages/00 👥 Domain.md>) `D`?
+    |[👍 Trusts](<../43 👍 Trusts/01 👍 Domain Trust.md>) | Can I trust my data of [Schema 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) `S` to a [domain 👥](<../41 📨 Messages/00 👥 Domain.md>) `D`?
     | [🧩 Schemas](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) | What's the schema definition of [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) `S`?
-    | [🎫 Tokens](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) | What's the historical public [📨 DKIM](<../41 📨 Msgs/01 📨 Domain Message.md>) key of [🎫 Token](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) `T`?
-    | [🪣 Datasets](<../../20 🧑‍🦰 UI/12 💬 Chats/07 🪣🎭 Dataset role.md>) | What are the synchronous [Datasets 🪣](<../../20 🧑‍🦰 UI/12 💬 Chats/07 🪣🎭 Dataset role.md>) of [domain 👥](<../41 📨 Msgs/00 👥 Domain.md>) `D`?
-    | [🏭 Supplies](<../../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>) | What are the asynchronous [Supplies 🏭](<../../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>) of [domain 👥](<../41 📨 Msgs/00 👥 Domain.md>) `D`?
-    | [🌬️ Streams](<../42 🌬️ Streams/02 🌬️🎭 Streamer role.md>) | What are the event [Streams 🌬️](<../42 🌬️ Streams/02 🌬️🎭 Streamer role.md>) of [domain 👥](<../41 📨 Msgs/00 👥 Domain.md>) `D`?
+    | [🎫 Tokens](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) | What's the historical public [📨 DKIM](<../41 📨 Messages/01 📨 Domain Message.md>) key of [🎫 Token](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) `T`?
+    | [🪣 Datasets](<../../20 🧑‍🦰 UI/12 💬 Chats/07 🪣🎭 Dataset role.md>) | What are the synchronous [Datasets 🪣](<../../20 🧑‍🦰 UI/12 💬 Chats/07 🪣🎭 Dataset role.md>) of [domain 👥](<../41 📨 Messages/00 👥 Domain.md>) `D`?
+    | [🏭 Supplies](<../../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>) | What are the asynchronous [Supplies 🏭](<../../30 🫥 Agents/06 🛎️ Concierges/02 🏭🎭 Supplier role.md>) of [domain 👥](<../41 📨 Messages/00 👥 Domain.md>) `D`?
+    | [🌬️ Streams](<../42 🌬️ Streams/02 🌬️🎭 Streamer role.md>) | What are the event [Streams 🌬️](<../42 🌬️ Streams/02 🌬️🎭 Streamer role.md>) of [domain 👥](<../41 📨 Messages/00 👥 Domain.md>) `D`?
     
     ---
     <br/>
@@ -37,9 +37,9 @@
 
     [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) subscribe to changes in [domain Manifests 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>). 
 
-    - Domains have the responsibility to raise an event every time they publish a new version of their [domain Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>) or [📨 DKIM](<../41 📨 Msgs/01 📨 Domain Message.md>). 
+    - Domains have the responsibility to raise an event every time they publish a new version of their [domain Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>) or [📨 DKIM](<../41 📨 Messages/01 📨 Domain Message.md>). 
     
-    - To allow any graph to subscribe to changes in any [domain Manifests 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>), NLWeb provides a cluster of [Listener 👂 nodes](<02 👂🛠️ Listener helper.md>) for [domains 👥](<../41 📨 Msgs/00 👥 Domain.md>) to publish change notifications to, and for [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) to receive notifications from. 
+    - To allow any graph to subscribe to changes in any [domain Manifests 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>), NLWeb provides a cluster of [Listener 👂 nodes](<02 👂🛠️ Listener helper.md>) for [domains 👥](<../41 📨 Messages/00 👥 Domain.md>) to publish change notifications to, and for [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) to receive notifications from. 
     
     - Upon receiving a notification, [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) update their graph representations. 
 
@@ -59,7 +59,7 @@
 1. **How can domains reset their Manifest representation on Graphs?**
 
     To reset their [domain Manifests 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>):
-    * a [domain 👥](<../41 📨 Msgs/00 👥 Domain.md>) can send a RESET event to their [Listener 👂 helper domain](<02 👂🛠️ Listener helper.md>);
+    * a [domain 👥](<../41 📨 Messages/00 👥 Domain.md>) can send a RESET event to their [Listener 👂 helper domain](<02 👂🛠️ Listener helper.md>);
     * subscribed [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) will interpret it as the need to start from scratch.
 
     ---
@@ -75,7 +75,7 @@
 1. **How can domains know about Manifest events placed on hold?**
 
     [Graph 🕸 domains](<03 🕸🛠️ Graph helper.md>) raise alert events. 
-    - Interested domains should [subscribe 🔔](<../42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) to the Graph's [Streamer 🌬️ role](<../42 🌬️ Streams/02 🌬️🎭 Streamer role.md>), filtering the [domains 👥](<../41 📨 Msgs/00 👥 Domain.md>) they're interested in receiving alert notifications about. 
+    - Interested domains should [subscribe 🔔](<../42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) to the Graph's [Streamer 🌬️ role](<../42 🌬️ Streams/02 🌬️🎭 Streamer role.md>), filtering the [domains 👥](<../41 📨 Messages/00 👥 Domain.md>) they're interested in receiving alert notifications about. 
     - For privacy reasons, some security alerts may only be pushed to the [Subscriber 🔔 domain](<../42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) that is referenced in the alert.
 
     ---
@@ -95,11 +95,11 @@
 
 1. **How do Graphs support the verification of Tokens?**
 
-    [Issuer 🎴 domains](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) sign [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) with their active [📨 DKIM](<../41 📨 Msgs/01 📨 Domain Message.md>) key-pair. 
+    [Issuer 🎴 domains](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) sign [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) with their active [📨 DKIM](<../41 📨 Messages/01 📨 Domain Message.md>) key-pair. 
     
-    * When [Issuer 🎴 domains](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) rotate their [📨 DKIM](<../41 📨 Msgs/01 📨 Domain Message.md>), it is no longer possible for [Consumer 💼 domains](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) to validate old [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) with the new [📨 DKIM](<../41 📨 Msgs/01 📨 Domain Message.md>).
+    * When [Issuer 🎴 domains](<../../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) rotate their [📨 DKIM](<../41 📨 Messages/01 📨 Domain Message.md>), it is no longer possible for [Consumer 💼 domains](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) to validate old [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) with the new [📨 DKIM](<../41 📨 Messages/01 📨 Domain Message.md>).
 
-    * Instead, [Consumer 💼 domains](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) should ask a [Graph 🕸 domain](<03 🕸🛠️ Graph helper.md>) for the Issuer's [📨 DKIM](<../41 📨 Msgs/01 📨 Domain Message.md>) at the time the [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) was issued.
+    * Instead, [Consumer 💼 domains](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) should ask a [Graph 🕸 domain](<03 🕸🛠️ Graph helper.md>) for the Issuer's [📨 DKIM](<../41 📨 Messages/01 📨 Domain Message.md>) at the time the [Token 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) was issued.
 
     ---
     <br/>

@@ -15,7 +15,7 @@
 |-|-|-|-
 | `Title`          | string | Optional [Trust 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>) description | `Bla, bla`
 | `Expires`        | string | Date limit  in UTC timestamp | `2024-01-10`
-| `Domain` | string | [Domain 👥](<../41 📨 Msgs/00 👥 Domain.md>) to [Trust 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>) <br/>- defaults to `*` | `*` `nlweb.org` 
+| `Domain` | string | [Domain 👥](<../41 📨 Messages/00 👥 Domain.md>) to [Trust 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>) <br/>- defaults to `*` | `*` `nlweb.org` 
 | or `Domains` | array | Additional list of domains  | `[a.co, b.co]`
 | `Query`  | string | [Schema Codes 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) to [Trust 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>) | `*` `/PERSONA/*`
 | or `Queries`  | array | Additional list of queries | `[*]`
