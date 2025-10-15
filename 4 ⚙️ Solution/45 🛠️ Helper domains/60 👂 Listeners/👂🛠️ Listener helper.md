@@ -21,7 +21,7 @@
     |1| [Domains 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) publish their [Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) updates to the DNS endpoint of the global Listeners 👂 cluster. As a fallback, the same updates may be sent to an individual [Listener 👂 domain](<👂🛠️ Listener helper.md>).
     |2| The cluster DNS routes the update messages to the best [Listener 👂 domain](<👂🛠️ Listener helper.md>) based on latency.
     |3| Listeners 👂 replicate the update messages amongst all [Listener 👂 domains](<👂🛠️ Listener helper.md>) of the cluster.
-    |4| Each [Listener 👂 domain](<👂🛠️ Listener helper.md>) performs a fan-out propagation of update events to all [Graph 🕸 helper domains](<../50 🕸 Graphs/🕸🛠️ Graph helper.md>) that [subscribed 🔔](<../../41 🎭 Domain Roles/76 🔔 Subscribers/$ 🔔🎭 Subscriber role.md>) to the Listener's 👂 [domain-event Stream 🌬️](<../../41 🎭 Domain Roles/75 🌬️ Streamers/$ 🌬️🎭 Streamer role.md>).
+    |4| Each [Listener 👂 domain](<👂🛠️ Listener helper.md>) performs a fan-out propagation of update events to all [Graph 🕸 helper domains](<../50 🕸 Graphs/🕸🛠️ Graph helper.md>) that [subscribed 🔔](<../../41 🎭 Domain Roles/76 🔔 Subscribers/🔔🎭 Subscriber role.md>) to the Listener's 👂 [domain-event Stream 🌬️](<../../41 🎭 Domain Roles/75 🌬️ Streamers/$ 🌬️🎭 Streamer role.md>).
 
     ---
     <br/>
@@ -116,8 +116,8 @@
 1. **How can domains know that their updates were rejected?**
 
     [Listener 👂 domains](<👂🛠️ Listener helper.md>) raise alerts when rejecting events. 
-    * Interested [domains 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) should [subscribe 🔔](<../../41 🎭 Domain Roles/76 🔔 Subscribers/$ 🔔🎭 Subscriber role.md>) to that [Stream 🌬️](<../../41 🎭 Domain Roles/75 🌬️ Streamers/$ 🌬️🎭 Streamer role.md>), filtering the domains they're interested in receiving alerts about.
-    * For privacy reasons, some alerts are only be pushed to the [Subscriber 🔔 domain](<../../41 🎭 Domain Roles/76 🔔 Subscribers/$ 🔔🎭 Subscriber role.md>) that is referenced in the alert.
+    * Interested [domains 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) should [subscribe 🔔](<../../41 🎭 Domain Roles/76 🔔 Subscribers/🔔🎭 Subscriber role.md>) to that [Stream 🌬️](<../../41 🎭 Domain Roles/75 🌬️ Streamers/$ 🌬️🎭 Streamer role.md>), filtering the domains they're interested in receiving alerts about.
+    * For privacy reasons, some alerts are only be pushed to the [Subscriber 🔔 domain](<../../41 🎭 Domain Roles/76 🔔 Subscribers/🔔🎭 Subscriber role.md>) that is referenced in the alert.
 
     ---
     <br/>
@@ -175,7 +175,7 @@
 1. **Do Listeners propagate all notifications downstream?**
 
     Not necessarily. 
-    - [Subscriber 🔔 domains](<../../41 🎭 Domain Roles/76 🔔 Subscribers/$ 🔔🎭 Subscriber role.md>) can filter the events they subscribe to.
+    - [Subscriber 🔔 domains](<../../41 🎭 Domain Roles/76 🔔 Subscribers/🔔🎭 Subscriber role.md>) can filter the events they subscribe to.
 
     ---
     <br/>
@@ -196,7 +196,7 @@
 
 1. **What if a subscriber wants to read all history?**
 
-    [Subscriber 🔔 domains](<../../41 🎭 Domain Roles/76 🔔 Subscribers/$ 🔔🎭 Subscriber role.md>) can ask [Listener 👂 domains](<👂🛠️ Listener helper.md>) to replay all domain updates in a given period, or from the beginning of times.
+    [Subscriber 🔔 domains](<../../41 🎭 Domain Roles/76 🔔 Subscribers/🔔🎭 Subscriber role.md>) can ask [Listener 👂 domains](<👂🛠️ Listener helper.md>) to replay all domain updates in a given period, or from the beginning of times.
 
     ---
     <br/>
@@ -252,7 +252,7 @@
 
 1. **How can a subscriber filter notifications by content?**
 
-    [Subscriber 🔔 domains](<../../41 🎭 Domain Roles/76 🔔 Subscribers/$ 🔔🎭 Subscriber role.md>) can set a filter when subscribing to [Listener 👂 domains](<👂🛠️ Listener helper.md>):
+    [Subscriber 🔔 domains](<../../41 🎭 Domain Roles/76 🔔 Subscribers/🔔🎭 Subscriber role.md>) can set a filter when subscribing to [Listener 👂 domains](<👂🛠️ Listener helper.md>):
     - e.g., a financial regulator may only want notifications about changes in domains referencing bank [Schema Codes 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>).
 
     ---
