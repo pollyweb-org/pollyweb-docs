@@ -22,7 +22,7 @@ Body:
 || `To` | string | [Printer 🖨️ domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/60 🖨️ Printers/$ 🖨️🛠️ Printer helper.md>) name
 || `Subject`| string | `Grab@Printer`
 |Body|`Alias`| string | Unique alias on the [Printer 🖨️](<../../4 ⚙️ Solution/45 🛠️ Helper domains/60 🖨️ Printers/$ 🖨️🛠️ Printer helper.md>)
-|       | `Locator`    | string | The [Locator 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) of a [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) 
+|       | `Locator`    | string | The [Locator 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) of a [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) 
 |
 
 ## Synchronous Response

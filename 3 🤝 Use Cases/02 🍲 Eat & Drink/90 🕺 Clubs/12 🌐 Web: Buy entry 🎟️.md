@@ -9,7 +9,7 @@ Buy entry for a club
 
 | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
 | - | - | - |
-| | | 🔆 [tap](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>)
+| | | 🔆 [tap](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>)
 | 🔎 [Finder](<../../../4 ⚙️ Solution/30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Club (4.4 ⭐) [+]
 | 🕺 Club       | 😃 What do you need? <br/>- [ Buy ] entry (£3.00) <br/>- [ Something else ] | > Buy
 | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Ready to book? [Yes, No] <br/> - your ID proves you're  21+ 🆔 <br/>- baristas need your name 🧢<br/>- your curator orders 🧚<br/>- the entry is paid upfront 💳 <br/> - save it in your wallet 🤵 <br/> - tap the door on entering ✨  <br/> - we check IDs on entry 🆔 <br/>- orders are paid inside 💳  | > Yes

@@ -72,7 +72,7 @@
 1. **Can a Collector be use in boutique's cash register?**
 
     Yes. Here's a possible configuration for [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) admins:
-    - add [🔆 NFC/QR Locators](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) on both sides of the counter;
+    - add [🔆 NFC/QR Locators](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) on both sides of the counter;
     - issue cashier [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) from your [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>);
     - create check-out workflows for cashier and customers.
 

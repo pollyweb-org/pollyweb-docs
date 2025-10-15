@@ -68,7 +68,7 @@
 
     Yes, but that may produce a poor user experience.
 
-    - [SELF Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) are silently shared with Consumers who issued them, the same way the [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) of a user's [Vault 🗄️ domain](<../80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) is shared silently with the corresponding [Vault 🗄️ domain](<../80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) - this allows for developers to choose either a [Consumer 💼](<$ 💼🎭 Consumer role.md>) or [Vault 🗄️](<../80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) role for personalized features. 
+    - [SELF Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) are silently shared with Consumers who issued them, the same way the [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) of a user's [Vault 🗄️ domain](<../80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) is shared silently with the corresponding [Vault 🗄️ domain](<../80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) - this allows for developers to choose either a [Consumer 💼](<$ 💼🎭 Consumer role.md>) or [Vault 🗄️](<../80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) role for personalized features. 
     
     - Domain admins should evaluate the impact of one design decision over another when it comes to how the domain's relationship is presented to the user.
 

@@ -28,7 +28,7 @@
 
 1. **How can users start using a folder editor?**
 
-    On the Folder editor's desktop app, users scan the editor's [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) with their [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) - the interaction is described in [Edit in folder 🗂️💬](<03 🗂️💬 Edit in folder.md>).
+    On the Folder editor's desktop app, users scan the editor's [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) with their [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) - the interaction is described in [Edit in folder 🗂️💬](<03 🗂️💬 Edit in folder.md>).
 
     ![alt text](<.📎 Assets/Folder-Login.png>)
 

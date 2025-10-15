@@ -3,7 +3,7 @@
 
 1. **What are Locators?**
 
-    In NLWeb, non-humans (e.g., organizations, places, objects, animals) are represented by a [Locator 🔆](<01 🔆 Locator.md>) that opens a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) with a [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>).
+    In NLWeb, non-humans (e.g., organizations, places, objects, animals) are represented by a [Locator 🔆](<$ 🔆 Locator.md>) that opens a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) with a [Host 🤗 domain](<../12 💬 Chats/04 🤗🎭 Host role.md>).
     * It may be a [QR code ✨](<03 🧑‍🦰✨ Wallet QR scan.md>), an [NFC tag 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>), a [Web link 🌐](<02 🧑‍🦰🌐 Wallet URLs.md>), or a [Chat 💬](<../12 💬 Chats/01 💬 Chat.md>) option.
     * Users can [tap 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>), [scan ✨](<03 🧑‍🦰✨ Wallet QR scan.md>), [click 🌐](<02 🧑‍🦰🌐 Wallet URLs.md>), or [select 💬](<../12 💬 Chats/01 💬 Chat.md>) them.
 
@@ -13,7 +13,7 @@
 
 1. **What data is contained in a Locator?**
 
-    A [Locator 🔆](<01 🔆 Locator.md>) is a string 
+    A [Locator 🔆](<$ 🔆 Locator.md>) is a string 
     * formatted as `{code},{domain},{key}[,{fields}]`
   
     For example:
@@ -36,9 +36,9 @@
     ![](<.📎 Assets/🔆 Locators.png>)
     
 
-    To interact with a [Locator 🔆](<01 🔆 Locator.md>), users use their [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) with one of the following.
+    To interact with a [Locator 🔆](<$ 🔆 Locator.md>), users use their [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) with one of the following.
     
-    | [Locator 🔆](<01 🔆 Locator.md>) | Method 
+    | [Locator 🔆](<$ 🔆 Locator.md>) | Method 
     |-|-
     | [✨ Physical QR code](<03 🧑‍🦰✨ Wallet QR scan.md>) | Scan a physical [QR code ✨](<03 🧑‍🦰✨ Wallet QR scan.md>) printed by anyone
     | [🔆 Physical NFC tag](<04 🧑‍🦰🔆 Wallet NFC tap.md>) | Tap a physical [NFC tag 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>) written by anyone
@@ -77,10 +77,10 @@
 
 1. **How can users detect business impersonation attacks?**
 
-    User's best option to detect whether a [Locator 🔆](<01 🔆 Locator.md>) is genuine or fake, is to see if it opens their [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) or if it opens a web page.
+    User's best option to detect whether a [Locator 🔆](<$ 🔆 Locator.md>) is genuine or fake, is to see if it opens their [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) or if it opens a web page.
 
     - If it opens their [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>), then they'll know that all messages will safely go through a trustworthy [Broker 🤵 domain](<../03 🤵 Brokers/$ 🤵 Broker domain.md>).
-    - Instead, if the [Locator 🔆](<01 🔆 Locator.md>) opens a web page, then it's most probably not an NLWeb [Locator 🔆](<01 🔆 Locator.md>).
+    - Instead, if the [Locator 🔆](<$ 🔆 Locator.md>) opens a web page, then it's most probably not an NLWeb [Locator 🔆](<$ 🔆 Locator.md>).
     - Exceptionally, users will be directed to the `nlweb.org` website if they do not have a [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) installed on their smartphone.
 
     Given that the [Wallet's Broker 🤵 domain](<../03 🤵 Brokers/$ 🤵 Broker domain.md>) serves as a protector, user can trust its mechanism to protect them from [phishing sites 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/06 📺 QR phishing.md>), just like Google Chrome does with [SSL certificate validation 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/08 📺 Google's Risk API.md>) and other phishing detection/blocking features - these mechanisms include:
@@ -95,10 +95,10 @@
 
 1. **How can businesses be protected by misplacement attacks?**
     
-    Businesses can implement the following security mechanisms for misplacement attacks, where an attacker replaces a genuine [Locator 🔆](<01 🔆 Locator.md>) A for another genuine [Locator 🔆](<01 🔆 Locator.md>) B in order to trick a user to unlock the resource B instead of the resource A:
+    Businesses can implement the following security mechanisms for misplacement attacks, where an attacker replaces a genuine [Locator 🔆](<$ 🔆 Locator.md>) A for another genuine [Locator 🔆](<$ 🔆 Locator.md>) B in order to trick a user to unlock the resource B instead of the resource A:
 
     - deploy read-only [rotating NFC tags 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/11 📺 NFC authentication.md>) without a QR code;
-    - deploy [Ephemeral 🦋 devices](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>) that emulates both a [QR code ✨](<03 🧑‍🦰✨ Wallet QR scan.md>) and an [NFC tag 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>) with a [Locator 🔆](<01 🔆 Locator.md>) that rotates every X seconds.
+    - deploy [Ephemeral 🦋 devices](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>) that emulates both a [QR code ✨](<03 🧑‍🦰✨ Wallet QR scan.md>) and an [NFC tag 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>) with a [Locator 🔆](<$ 🔆 Locator.md>) that rotates every X seconds.
 
     ---
     <br/>

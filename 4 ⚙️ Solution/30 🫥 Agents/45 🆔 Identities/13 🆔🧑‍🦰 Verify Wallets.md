@@ -41,12 +41,12 @@
 
     ![](<. 📎 Assets/🆔 Online.png>)
 
-    When a user is requested by a [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) to verify their identity against a given [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>), the following steps are executed.
+    When a user is requested by a [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) to verify their identity against a given [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>), the following steps are executed.
 
     | # | Step
     |-|-
     |1| The user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) <br/>• opens a web-browser window <br/>• to the liveness check URL of the [Locator's Identity 🆔 vault](<01 🆔🫥 Identity agent.md>), <br/>• passing anti-fraud information like device location and device configurations.
-    |2| The webpage of the [Identity 🆔 vault](<01 🆔🫥 Identity agent.md>) <br/>• activates the device's camera to record the user's video for liveness check <br/>• extracts the relevant images <br/>• and compares them to the user images on the given [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>). 
+    |2| The webpage of the [Identity 🆔 vault](<01 🆔🫥 Identity agent.md>) <br/>• activates the device's camera to record the user's video for liveness check <br/>• extracts the relevant images <br/>• and compares them to the user images on the given [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>). 
     |3| Additionally, depending on the anti-fraud contextualized info, <br/>• the [Identity 🆔 vault](<01 🆔🫥 Identity agent.md>) asks security questions and one-time-passwords (OTP).
 
     ---

@@ -4,7 +4,7 @@
 1. **How can website developers render an NLWeb QR?**
 
     Website developers can use NLWeb's proxy at `nlweb.org/go`;
-    - e.g., a [Locator 🔆](<01 🔆 Locator.md>)Locator `XPTO` is defined as an HTML image with source `https://nlweb.org/go/XPTO`. 
+    - e.g., a [Locator 🔆](<$ 🔆 Locator.md>)Locator `XPTO` is defined as an HTML image with source `https://nlweb.org/go/XPTO`. 
     
     If in a mobile web browser, the proxy renders a button; 
     - if not in a mobile browser, it renders a QR image;
@@ -16,7 +16,7 @@
 
     An NLWeb QR contains a redirect URL starting with `https://nlweb.org/go/`. 
     
-    * When a user scans the QR with an NLWeb Wallet app, the Wallet reads the [Locator 🔆](<01 🔆 Locator.md>) from the URL and opens a chat with the Locator's [Host 🤗](<../12 💬 Chats/04 🤗🎭 Host role.md>).
+    * When a user scans the QR with an NLWeb Wallet app, the Wallet reads the [Locator 🔆](<$ 🔆 Locator.md>) from the URL and opens a chat with the Locator's [Host 🤗](<../12 💬 Chats/04 🤗🎭 Host role.md>).
 
 
     ---

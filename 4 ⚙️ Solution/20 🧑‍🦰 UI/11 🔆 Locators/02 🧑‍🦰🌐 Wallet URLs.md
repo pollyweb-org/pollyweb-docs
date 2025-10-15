@@ -3,7 +3,7 @@
 
 1. **How can app developers handle NLWeb URLs?**
 
-    An NLWeb [Locator 🔆](<01 🔆 Locator.md>) link is an Uniform Resource Locator (URL) starting with the custom protocol `nlweb://` (e.g., a locator `ABC` can be handled with the URL `nlweb://ABC`). 
+    An NLWeb [Locator 🔆](<$ 🔆 Locator.md>) link is an Uniform Resource Locator (URL) starting with the custom protocol `nlweb://` (e.g., a locator `ABC` can be handled with the URL `nlweb://ABC`). 
     
     * When installing, [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) register themselves to handle the `nlweb` protocol - if more than one app is able to handle the protocol, then the Operating System (OS) asks the user to select one of the apps. 
     
@@ -21,7 +21,7 @@
 
 1. **How can website developers add NLWeb links?**
 
-    Website developers can use NLWeb's proxy at `nlweb.org/go` (e.g., a [Locator 🔆](<01 🔆 Locator.md>) `XPTO` is defined as an HTML anchor to `https://nlweb.org/go/XPTO`). 
+    Website developers can use NLWeb's proxy at `nlweb.org/go` (e.g., a [Locator 🔆](<$ 🔆 Locator.md>) `XPTO` is defined as an HTML anchor to `https://nlweb.org/go/XPTO`). 
     
     * When a user clicks on the link on a web browser, the proxy redirects the browser to a `nlweb://` protocol, then uses JavaScript to monitor the success of the redirection.
 

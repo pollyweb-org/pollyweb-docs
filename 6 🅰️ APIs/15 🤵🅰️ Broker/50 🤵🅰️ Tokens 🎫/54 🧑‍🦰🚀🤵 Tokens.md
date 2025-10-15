@@ -53,5 +53,5 @@ Tokens:
 || `CodeTitle` | string | [Code 🧩](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) after [`Translate@Graph`](<../../45 🕸🅰️ Graph/06 👥🚀🕸 Translate.md>)
 || `Path`| string | Local path from [`Saved@Broker`](<53 🧑‍🦰🐌🤵 Saved.md>)
 || `Status`| enum | Status set in [`Status@Broker`](<../60 🤵🅰️ Share/62 💼🚀🤵 Status.md>)
-| |`Locator`| string | [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) from [`Status@Broker`](<../60 🤵🅰️ Share/62 💼🚀🤵 Status.md>)
+| |`Locator`| string | [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) from [`Status@Broker`](<../60 🤵🅰️ Share/62 💼🚀🤵 Status.md>)
 |

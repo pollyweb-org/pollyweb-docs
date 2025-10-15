@@ -18,9 +18,9 @@
     |#|Step
     |-|-
     |1| The device owner connects the Pluggable 🔌 device to the [Antenna 📡 router](<02 📡🔀 Antenna router.md>), as well as any power source required by the Pluggable 🔌 device.
-    |2| The owner taps/scans the [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) of the [Antenna 📡 router](<02 📡🔀 Antenna router.md>) with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) to open a chat with its [Relayer 🛰️ helper](<../../45 🛠️ Helper domains/70 🛰️ Relayers/$ 🛰️🛠️ Relayer helper.md>), and ask to add a Pluggable - the Relayer asks the user to tap/scan the Pluggable;
+    |2| The owner taps/scans the [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) of the [Antenna 📡 router](<02 📡🔀 Antenna router.md>) with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) to open a chat with its [Relayer 🛰️ helper](<../../45 🛠️ Helper domains/70 🛰️ Relayers/$ 🛰️🛠️ Relayer helper.md>), and ask to add a Pluggable - the Relayer asks the user to tap/scan the Pluggable;
 
-    - 3/ users taps/scans the [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) of the Pluggable 🔌 device - the [Relayer 🛰️ helper](<../../45 🛠️ Helper domains/70 🛰️ Relayers/$ 🛰️🛠️ Relayer helper.md>) confirms that a device with the Pluggable's resource key is connected, and the Pluggable's API [Schema Code 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) is valid.
+    - 3/ users taps/scans the [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) of the Pluggable 🔌 device - the [Relayer 🛰️ helper](<../../45 🛠️ Helper domains/70 🛰️ Relayers/$ 🛰️🛠️ Relayer helper.md>) confirms that a device with the Pluggable's resource key is connected, and the Pluggable's API [Schema Code 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) is valid.
 
     ---
 
@@ -33,7 +33,7 @@
     | 📸 [Cameras](<../64 📸 Selfies/01 📸🔌 Selfie device.md>) | For users to [take a selfie 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/07 🧑‍💻 Unsupervised ID landscape/00 🧑‍💻 Unsupervised ID index.md>) for their [Identity 🆔 agent](<../../30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>).
     | 🖐️ [Palmists](<../63 🖐️ Palmists/01 🖐️🔌 Palmist device.md>) | Tor users to [scan their palm 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/07 🖐️ Palm pay landscape/00 🖐️ Palm pay index.md>) for their [Identity 🆔 agent](<../../30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>).
     | 🎬 [Relays](<../65 🎬 Relayers/04 🎬🔌 Relay device.md>) | For [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) to remotely control electrical circuits.
-    | 🦋 [Ephemerals](<../62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>) | Rotates [QR/NFC Locators 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>) to ensure users are standing next to the device.
+    | 🦋 [Ephemerals](<../62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>) | Rotates [QR/NFC Locators 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) to ensure users are standing next to the device.
 
     ---
 
@@ -47,7 +47,7 @@
 1. **Do Pluggables devices follow a standard communication protocol?**
 
     No. 
-    - [Brand 🍏 domain](<../../70 🌳 Ambient/71 💠 Brand Things/07 🍏🎭 Brand role.md>) specify a Pluggable 🛠️ API via when printing the [Pluggable's Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>), which includes the [API's Schema Code 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>).
+    - [Brand 🍏 domain](<../../70 🌳 Ambient/71 💠 Brand Things/07 🍏🎭 Brand role.md>) specify a Pluggable 🛠️ API via when printing the [Pluggable's Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>), which includes the [API's Schema Code 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>).
     - [Relayer 🛰️ helpers](<../../45 🛠️ Helper domains/70 🛰️ Relayers/$ 🛰️🛠️ Relayer helper.md>) receive commands from domains in natural language and then translate them to the Pluggable's API via de [Antenna 📡](<02 📡🔀 Antenna router.md>).
 
     ---
