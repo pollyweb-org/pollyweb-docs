@@ -17,6 +17,8 @@ Name: Any name
 Description: Any description
 
 Resources:
+  resource1: details1
+  resourceN: detailsN
 
 Translations: 
   en: Any Code
@@ -24,7 +26,15 @@ Translations:
 
 Schema: 
   Version: 1.0
-  Format: {JSON Schema}
+  Inherits: .TOKEN:1.0
+  Location: https://schema.org/Person
+  Properties:
+    - Prop1       # Description of Prop1
+    - Prop2:      # Description of Prop2
+        - Prop2A  # Description of Prop2A
+        - Prop2B  # Description of Prop2B
+  Format: 
+    $ref: <property>@<code>:<version>
 
 ```
 
@@ -36,8 +46,55 @@ Schema:
 | `Description`| string | Human  description of the [Schema Code 🧩](<../../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>)  
 | `Resources`  | map | Dictionary of external resources
 | `Translations` | map | Dictionary of translations
-| [`Schema 🧩`](<🧩 SCHEMA.md>)| object | Schema with [`.MANIFEST/CODE/SCHEMA` 🧩](<🧩 SCHEMA.md>)
+| `Version`       | string | Version in `major/breaks`.`minor/safe`   
+| `Properties`    | array  | Optional human readable list of attributes |
+| `Inherits`      | string | Optional inheritance for QR codes | `.TOKEN`
+| `Location`      | url | Optional external location of the [JSON schema](<https://json-schema.org/>) |
+| `Format`       | object | Optional [JSON schema](<https://json-schema.org/>) for machine validation |
+| `$ref 🧩`  | string | Sub-schema from `property`@`code`:`version`
 |
+
+
+
+### `Version` property
+
+* Version of the schema as `<major>`.`<minor>`.
+* By convention, major versions mean that there was a breaking change.
+* Minor versions mean that the the version is backward compatible.
+
+
+### `Properties` property
+
+* Simple list of code attributes for two purposes:
+  * 1/ Human readable description of the properties;
+  * 2/ Sequence definition for QR codes.
+
+
+### `Inherits` property
+
+* Another code from with to inherit the QR properties.
+  * Format: `<authority-domain>/<code-path>:<schema-version>`       
+  * Note: the inherited schema should use `*` as a placeholder.
+
+* Example of a parent sequence:
+  ```yaml 
+  # Schema: nlweb.org/TOKEN:1.0
+  Properties: [ Code, Version, Issuer, Locator, Issued, Expires, *, Signature ]
+  ```
+
+* Example of an inherited token with additional metadata:
+  ```yaml
+  # Schema: airlines.any-igo.org/SSR/WCHR:1.0
+  Inherits: nlweb.org/TOKEN:1.0
+  Properties: [ IsElectric, Size, NeedsAssistant, DateOfBirth ]
+  ```
+
+### `$ref` property
+
+* Imports the format from another code in a domain manifest.
+* The format is `<domain>/<path>:<version>`.
+* This is the only special property.
+* Everything else is defined by [JSON schema](<https://json-schema.org/>).
 
 <br/>
 
@@ -71,7 +128,31 @@ Schema:
         items: 
           $ref: .MANIFEST/TRANSLATION
       
-      Schemas: 
-        type: array
-        items: 
-          $ref: .MANIFEST/CODE/SCHEMA
+      Schema: 
+        type: object
+        required: []
+        properties:
+
+          Version:
+            type: string
+            default: 1.0
+
+          Properties:
+            type: array
+            contains: 
+              - type: string
+              - type: array
+
+          Inherits:
+            type: string
+            
+          Location:
+            type: string
+            format: uri
+            
+          Format:
+            type: object
+
+            properties: 
+              $ref: 
+                type: string
