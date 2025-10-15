@@ -26,7 +26,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header    | `From`        | string    | [Hoster ☁️ domain](<../../9 😃 Talkers/90 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>) name
+| Header    | `From`        | string    | [Hoster ☁️ domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/55 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>) name
 |           | `To`          | string    | [Hosted 🧑‍💻 domain](<../../9 😃 Talkers/91 🧑‍💻 Hosteds/01 🧑‍💻 Hosted domain.md>) name
 |           | `Subject`     | string    | `Handle@Hosted`
 | Body      | `Callback`    | uuid      | Call back for [`Handled@Talker`](<../92 😃🅰️ Talker/40 🧑‍💻🐌😃 Handled.md>)

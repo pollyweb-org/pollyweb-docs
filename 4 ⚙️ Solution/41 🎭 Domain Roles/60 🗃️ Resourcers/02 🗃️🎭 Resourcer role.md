@@ -1,0 +1,34 @@
+# 🗃️🎭 Resourcer domain role
+
+1. **What is a Resourcer role?**
+
+    A [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) with a [Resourcer 🗃️ role](<02 🗃️🎭 Resourcer role.md>)
+    * is any [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) that stores files
+    * and syncs them locally via a [Syncer 🔃 tool](<../../../9 😃 Talkers/90 ☁️ Hosters/01 🔃🛠️ Syncer tool.md>).
+
+    ---
+    <br/>
+
+1. **Why are Resources important?**
+
+    [Resourcers 🗃️](<02 🗃️🎭 Resourcer role.md>) 
+    * allow users to edit configuration files on their workstations 
+    * using any offline editor of their choice.
+
+    ---
+    <br/>
+    
+1. **What API messages do Resources expose?**
+
+    | Flow | Message | Details
+    |-|-|-
+    |[⏩ Clone](<../../../5 ⏩ Flows/77 🔃⏩ Syncer/10 🔃⏩🗃️ Clone.md>)|[`Clone`](<../../../6 🅰️ APIs/78 🗃️🅰️ Resourcer/10 🔃🚀🗃️ Clone.md>) | Registers [Syncers 🔃 ](<../../../9 😃 Talkers/90 ☁️ Hosters/01 🔃🛠️ Syncer tool.md>) on [Resourcers 🗃️](<02 🗃️🎭 Resourcer role.md>)
+    |[⏩ Sync](<../../../5 ⏩ Flows/77 🔃⏩ Syncer/20 🔃⏩🗃️ Sync.md>)|[`Map`](<../../../6 🅰️ APIs/78 🗃️🅰️ Resourcer/20 🔃🚀🗃️ Map.md>) | [Syncers](<../../../9 😃 Talkers/90 ☁️ Hosters/01 🔃🛠️ Syncer tool.md>) send a map current files
+    ||[`Upload`](<../../../6 🅰️ APIs/78 🗃️🅰️ Resourcer/30 🔃🚀🗃️ Upload.md>) | Then upload each file individually
+    ||[`Uploaded`](<../../../6 🅰️ APIs/78 🗃️🅰️ Resourcer/50 🔃🚀🗃️ Uploaded.md>) | [Resourcers 🗃️](<02 🗃️🎭 Resourcer role.md>) calculate changes
+    ||[`Download`](<../../../6 🅰️ APIs/78 🗃️🅰️ Resourcer/60 🔃🚀🗃️ Download.md>) | [Syncers](<../../../9 😃 Talkers/90 ☁️ Hosters/01 🔃🛠️ Syncer tool.md>) execute the changes
+    |[⏩ Chat](<../../../6 🅰️ APIs/78 🗃️🅰️ Resourcer/70 🔃🐌🗃️ Chat.md>)|[`Chat`](<../../../6 🅰️ APIs/78 🗃️🅰️ Resourcer/70 🔃🐌🗃️ Chat.md>) | Opens a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with a [Resourcer 🗃️](<02 🗃️🎭 Resourcer role.md>)
+    
+
+    ---
+    <br/>

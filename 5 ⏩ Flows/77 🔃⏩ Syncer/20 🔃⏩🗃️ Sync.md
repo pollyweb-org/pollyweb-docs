@@ -1,6 +1,6 @@
 # 🔃⏩🗃️ Sync @ Syncer
 
-* Syncs the resourcers in a [Resourcer 🗃️ domain](<../../9 😃 Talkers/90 ☁️ Hosters/02 🗃️🎭 Resourcer role.md>), 
+* Syncs the resourcers in a [Resourcer 🗃️ domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/02 🗃️🎭 Resourcer role.md>), 
     * sending and receiving file changes in a local folder.
 
 <br/>
@@ -24,6 +24,6 @@ $ syncer sync
 |-|-|-
 |1|[🔃🚀🗃️ `Map@Resourcer`](<../../6 🅰️ APIs/78 🗃️🅰️ Resourcer/20 🔃🚀🗃️ Map.md>) | [Syncers](<../../9 😃 Talkers/90 ☁️ Hosters/01 🔃🛠️ Syncer tool.md>) send a map current files
 |2|[🔃🚀🗃️ `Upload@Resourcer`](<../../6 🅰️ APIs/78 🗃️🅰️ Resourcer/30 🔃🚀🗃️ Upload.md>) | Then upload each file individually
-|3|[🔃🚀🗃️ `Uploaded@Resourcer`](<../../6 🅰️ APIs/78 🗃️🅰️ Resourcer/50 🔃🚀🗃️ Uploaded.md>) | [Resourcers 🗃️](<../../9 😃 Talkers/90 ☁️ Hosters/02 🗃️🎭 Resourcer role.md>) calculate changes
+|3|[🔃🚀🗃️ `Uploaded@Resourcer`](<../../6 🅰️ APIs/78 🗃️🅰️ Resourcer/50 🔃🚀🗃️ Uploaded.md>) | [Resourcers 🗃️](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/02 🗃️🎭 Resourcer role.md>) calculate changes
 |4|[🔃🚀🗃️ `Download@Resourcer`](<../../6 🅰️ APIs/78 🗃️🅰️ Resourcer/60 🔃🚀🗃️ Download.md>) | [Syncers](<../../9 😃 Talkers/90 ☁️ Hosters/01 🔃🛠️ Syncer tool.md>) execute the changes
 |

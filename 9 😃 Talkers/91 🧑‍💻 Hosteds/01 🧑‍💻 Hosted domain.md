@@ -2,7 +2,7 @@
 
 # 🧑‍💻☁️ Hosted domain
 
-> Part of [Hoster ☁️ helper domain](<../90 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>)
+> Part of [Hoster ☁️ helper domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/55 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>)
 
 <br/>
 
@@ -11,7 +11,7 @@
  
     |#|Step
     |-|-
-    |1| [Bind 🔗](<../../4 ⚙️ Solution/25 Data/20 🔗 Binds/$ 🔗 Bind.md>) to a [Hoster ☁️ domain](<../90 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>)
+    |1| [Bind 🔗](<../../4 ⚙️ Solution/25 Data/20 🔗 Binds/$ 🔗 Bind.md>) to a [Hoster ☁️ domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/55 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>)
     |2| [Clone](<../../5 ⏩ Flows/77 🔃⏩ Syncer/10 🔃⏩🗃️ Clone.md>) the files to a local folder
     |3| Spin up an HTTP backend endpoint
     |4| Edit the files and [sync](<../../5 ⏩ Flows/77 🔃⏩ Syncer/20 🔃⏩🗃️ Sync.md>) the changes
@@ -59,7 +59,7 @@
       
     | Dependency | Purpose
     |-|-
-    | [🧑‍🦰 Wallet](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) | To authenticate and [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with the [Hoster ☁️ ](<../90 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>)
+    | [🧑‍🦰 Wallet](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) | To authenticate and [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with the [Hoster ☁️ ](<../../4 ⚙️ Solution/45 🛠️ Helper domains/55 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>)
     | [💳 Payer](<../../4 ⚙️ Solution/30 🫥 Agents/60 💳 Payers/04 💳🫥 Payer agent.md>) | To pay for usage and subscription plans.
     | [🆔 Identity](<../../4 ⚙️ Solution/30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) | To authenticate the domain user.
     | [🗂️ Folder](<../../4 ⚙️ Solution/45 🛠️ Helper domains/45 🗂️ Folders/$ 🗂️ Folder editor.md>) | To manage the settings of the hosted [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>).
