@@ -1,5 +1,4 @@
-
-# 🧩 [Schema Code](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): ManifestCodeSchema
+# 🧩 [`.MANIFEST`](<10 🧩 Manifest schema.md>) [`/CODE`](<11 🧩 Code schema.md>) `/SCHEMA`
 
 > Part of [`.MANIFEST/CODE` 🧩](<11 🧩 Code schema.md>)
 

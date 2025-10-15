@@ -1,10 +1,11 @@
 
-# 🧩 [Schema Code](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>): ManifestTrust
+# 🧩 [`.MANIFEST`](<10 🧩 Manifest schema.md>) `/TRUST`
 
 > Part of [`.MANIFEST` 🧩](<10 🧩 Manifest schema.md>)
 
 > Implements [domain Manifest 📜](<01 📜 Domain Manifest.md>) 
   
+> Used by [`Trusted@Graph`](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/02 👥🚀🕸 Trusted.md>) and [`Trusts@Graph`](<../../../6 🅰️ APIs/45 🕸🅰️ Graph/03 👥🚀🕸 Trusts.md>)
 
 <br/>
 
