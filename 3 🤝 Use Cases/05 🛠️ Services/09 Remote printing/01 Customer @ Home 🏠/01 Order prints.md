@@ -7,28 +7,28 @@ Remotely print a PDF and delivery at home
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 💬 How can I help with that? <br/> - [ Find ] printing services <br/> - [ Something else ] | > Find
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | ✅ Over to 🔎 Finder.
 | [ new chat ]
-| 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ℹ️ Find printing service.
-| 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | 💬 Here are options: <br/> - [ #1 ] 🖨️ Local Printer `$$$` `1hr` <br/> - [ #2 ] 🇬🇧 Amazon Printer `$$` `1day` <br/> - [ #3 ] 🇨🇳 Overseas Printer `$`  `1wk` | > #1
-| 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ✅ Over to 🖨️ Any Printer.
+| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ℹ️ Find printing service.
+| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | 💬 Here are options: <br/> - [ #1 ] 🖨️ Local Printer `$$$` `1hr` <br/> - [ #2 ] 🇬🇧 Amazon Printer `$$` `1day` <br/> - [ #3 ] 🇨🇳 Overseas Printer `$`  `1wk` | > #1
+| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ✅ Over to 🖨️ Any Printer.
 | [ new chat ]
-| 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Printer (4.4 ⭐) [+]
+| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Printer (4.4 ⭐) [+]
 | 🖨️ Printer   | ℹ️ Print request received.
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Ready to order? [Yes, No] <br/> - your curator orders 🧚 <br/> - your navigator sets where 🧭 <br/> - your concierge sets how 🛎️ <br/> - your scheduler reviews 🗓️  <br/> - your payer pays the bill 💳 <br/> - your concierge delivers 🛎️ <br/> - your payer tips the courier 💳  | > Yes
-| 🧚 [Curator](<../../../../4 ⚙️ Solution/30 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | ⏳ Analyzing services... 
-| 🧚 [Curator](<../../../../4 ⚙️ Solution/30 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 What do you want to print? | `a PDF`
-| 🧚 [Curator](<../../../../4 ⚙️ Solution/30 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Upload the PDF | ⬆️ upload
-| 🧚 [Curator](<../../../../4 ⚙️ Solution/30 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 2-sided gray scale? [Yes, No]  | > Yes
-| 🧚 [Curator](<../../../../4 ⚙️ Solution/30 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Anything else? [No] | > No
+| 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | ⏳ Analyzing services... 
+| 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 What do you want to print? | `a PDF`
+| 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Upload the PDF | ⬆️ upload
+| 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 2-sided gray scale? [Yes, No]  | > Yes
+| 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | 💭 Anything else? [No] | > No
 | 🖨️ Printer     | ℹ️ Order ($27.00): [Change] <br/>- print 978 pages <br/> - 2-sided gray scale <br/> - preparation time ⏳ ~15 min 
-| 🧭 [Navigator](<../../../../4 ⚙️ Solution/30 🫥 Agents/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | 🫥 Share destination? [No] <br> - [ 🏠 home ] <br/> - [ 🏡 Daniel's ] <br/> - [ 📍 current location ] <br/> - [ 🗺️ Somewhere else ] | > 🏠 home
-| 🛎️ [Concierge](<../../../../4 ⚙️ Solution/30 🫥 Agents/25 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>) | ⓘ Given destination: [Change]<br/>- Ryan street, 98, 2D 
-| 🛎️ [Concierge](<../../../../4 ⚙️ Solution/30 🫥 Agents/25 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>) | ⏳ Looking for couriers...
-| 🛎️ [Concierge](<../../../../4 ⚙️ Solution/30 🫥 Agents/25 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>) | 🫥 Which courier? <br> - [ AnyCourier ] + $4.00 (5 min) <br> - [ iCourier ] + $2.99 (17 min) <br/> | > AnyCourier
-| 🛎️ [Concierge](<../../../../4 ⚙️ Solution/30 🫥 Agents/25 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>) | ⓘ Delivery ($4.50): [Change] <br/> - courier delivery 🛵 ($4.00) <br/> - concierge fee 🛎️ ($0.50) <br/> - delivery time ⏳ ~10 min.
-| [🗓️ Scheduler](<../../../../4 ⚙️ Solution/30 🫥 Agents/75 🗓️ Schedulers/$ 🗓️🗄️ Scheduler agent.md>) | 🫥 Confirm? [Yes, No] <br/> - it will take ~30 min <br> - your flight is in 5 hours | > Yes
-| 💳 [Payer](<../../../../4 ⚙️ Solution/30 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Pay $31.50 bill? 🧾 [No] <br/>- [ Card ABC ] + $0.10 <br/>- [ Card DEF ] (free) <br/> - [ ✂️ Split bill ] | > Card ABC |
+| 🧭 [Navigator](<../../../../4 ⚙️ Solution/50 🫥 Agents/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | 🫥 Share destination? [No] <br> - [ 🏠 home ] <br/> - [ 🏡 Daniel's ] <br/> - [ 📍 current location ] <br/> - [ 🗺️ Somewhere else ] | > 🏠 home
+| 🛎️ [Concierge](<../../../../4 ⚙️ Solution/50 🫥 Agents/25 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>) | ⓘ Given destination: [Change]<br/>- Ryan street, 98, 2D 
+| 🛎️ [Concierge](<../../../../4 ⚙️ Solution/50 🫥 Agents/25 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>) | ⏳ Looking for couriers...
+| 🛎️ [Concierge](<../../../../4 ⚙️ Solution/50 🫥 Agents/25 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>) | 🫥 Which courier? <br> - [ AnyCourier ] + $4.00 (5 min) <br> - [ iCourier ] + $2.99 (17 min) <br/> | > AnyCourier
+| 🛎️ [Concierge](<../../../../4 ⚙️ Solution/50 🫥 Agents/25 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>) | ⓘ Delivery ($4.50): [Change] <br/> - courier delivery 🛵 ($4.00) <br/> - concierge fee 🛎️ ($0.50) <br/> - delivery time ⏳ ~10 min.
+| [🗓️ Scheduler](<../../../../4 ⚙️ Solution/50 🫥 Agents/75 🗓️ Schedulers/$ 🗓️🗄️ Scheduler agent.md>) | 🫥 Confirm? [Yes, No] <br/> - it will take ~30 min <br> - your flight is in 5 hours | > Yes
+| 💳 [Payer](<../../../../4 ⚙️ Solution/50 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Pay $31.50 bill? 🧾 [No] <br/>- [ Card ABC ] + $0.10 <br/>- [ Card DEF ] (free) <br/> - [ ✂️ Split bill ] | > Card ABC |
 | 🖨️ Printer   | ✅ Order confirmed [+]
-| 🛎️ [Concierge](<../../../../4 ⚙️ Solution/30 🫥 Agents/25 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>) | ☑️ Delivery confirmed [+]
+| 🛎️ [Concierge](<../../../../4 ⚙️ Solution/50 🫥 Agents/25 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>) | ☑️ Delivery confirmed [+]
 | 🖨️ Printer   | ⏳ Preparing your order... [+]
 |...            |...
 ||

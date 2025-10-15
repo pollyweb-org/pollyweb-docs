@@ -18,7 +18,7 @@ Used initiate a chat with 🏥 NHS.
 
 | [Domain](<../../../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Prompt](<../../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
 | - | - | - |
-| 🔎 [Finder](<../../../../4 ⚙️ Solution/30 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ UK NHS (4.4 ⭐) [+]
+| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agents/40 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ UK NHS (4.4 ⭐) [+]
 | 🏥 NHS    | 😃 Hi! What do you need? <br/> - [ Emergency ] help  <br> - [ Something ] else | > Something
 | 🏥 NHS    | 💬 Tell me what you need. | `covid`<br/>`to fly`
 | 🏥 NHS    | 💬 To what countries? | `US`
@@ -27,6 +27,6 @@ Used initiate a chat with 🏥 NHS.
 | 🏥 NHS    | ⏳ Getting your certificate...
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Save  certificate? [Yes, No] | > Yes    
 | 🏥 NHS    | ✅ You're all set. 
-| ⭐ [Rate](<../../../../4 ⚙️ Solution/30 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5
+| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? | ⭐ 5
 ||
 

@@ -13,8 +13,8 @@
     |3| The [Wand 🪄 domain](<../../45 🛠️ Helper domains/90 🪄 Wands/$ 🪄🛠️ Wand helper.md>) informs the [Custodian 🧳 agent](<../../70 🌳 Ambient/71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>), who notifies the user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
     |4| The owner uses their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) to report the [Thing 💠](<01 💠 Thing.md>) as lost.
     |5| The guest uses their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) to initiates the return from the [Wand 🪄 domain](<../../45 🛠️ Helper domains/90 🪄 Wands/$ 🪄🛠️ Wand helper.md>).
-    |6| The [Custodian 🧳 agent](<../../70 🌳 Ambient/71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) submits a "recover" request to the user's [Concierge 🛎️ agent](<../../30 🫥 Agents/25 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>).
-    |7| The [Concierge 🛎️ agent](<../../30 🫥 Agents/25 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>) orchestrates the pick-up and delivery of the [Thing 💠](<01 💠 Thing.md>).
+    |6| The [Custodian 🧳 agent](<../../70 🌳 Ambient/71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) submits a "recover" request to the user's [Concierge 🛎️ agent](<../../50 🫥 Agents/25 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>).
+    |7| The [Concierge 🛎️ agent](<../../50 🫥 Agents/25 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>) orchestrates the pick-up and delivery of the [Thing 💠](<01 💠 Thing.md>).
 
 
     ---

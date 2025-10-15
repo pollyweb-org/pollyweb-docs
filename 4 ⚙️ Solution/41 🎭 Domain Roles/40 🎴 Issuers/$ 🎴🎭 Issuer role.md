@@ -61,7 +61,7 @@
   
     * [Broker 🤵 domains](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) will handle the revocation propagation up to the user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
 
-    * [Broker 🤵 domains](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) only share active [Tokens 🎫](<../../25 Data/30 🎫 Tokens/$ 🎫 Token.md>) when [Consumer 💼 domains](<../../30 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>) ask for them in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>).
+    * [Broker 🤵 domains](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) only share active [Tokens 🎫](<../../25 Data/30 🎫 Tokens/$ 🎫 Token.md>) when [Consumer 💼 domains](<../../50 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>) ask for them in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>).
 
     ---
     <br/>    
@@ -82,13 +82,13 @@
 
 1. **Why not check revocation directly with Issuers?**
 
-    Given that [Issuer 🎴 domains](<$ 🎴🎭 Issuer role.md>) are the ones revoking [Tokens 🎫](<../../25 Data/30 🎫 Tokens/$ 🎫 Token.md>) it intuitively makes sense for [Consumer 💼 domains](<../../30 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>) to ask them directly for the status of a given printed [Token 🎫](<../../25 Data/30 🎫 Tokens/$ 🎫 Token.md>), instead of asking the [user's Broker 🤵 domain](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>).
+    Given that [Issuer 🎴 domains](<$ 🎴🎭 Issuer role.md>) are the ones revoking [Tokens 🎫](<../../25 Data/30 🎫 Tokens/$ 🎫 Token.md>) it intuitively makes sense for [Consumer 💼 domains](<../../50 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>) to ask them directly for the status of a given printed [Token 🎫](<../../25 Data/30 🎫 Tokens/$ 🎫 Token.md>), instead of asking the [user's Broker 🤵 domain](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>).
 
     * However, that approach raises concerns with privacy and availability.
         
     On privacy:
     
-    * Given the ability of a recipient [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) to know who sent a given [Message 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) (e.g., a status request from a [Consumer 💼 domain](<../../30 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>)), an [Issuer 🎴 domain](<$ 🎴🎭 Issuer role.md>) would be able to track when and where a given [Token 🎫](<../../25 Data/30 🎫 Tokens/$ 🎫 Token.md>) was used by the user to whom it was issued to.
+    * Given the ability of a recipient [domain 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) to know who sent a given [Message 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) (e.g., a status request from a [Consumer 💼 domain](<../../50 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>)), an [Issuer 🎴 domain](<$ 🎴🎭 Issuer role.md>) would be able to track when and where a given [Token 🎫](<../../25 Data/30 🎫 Tokens/$ 🎫 Token.md>) was used by the user to whom it was issued to.
     
     * For example, a private company could track the shopping behavior of their named customers without their consent, and a nation's government could track the movement of targeted political opponents.
     
@@ -96,9 +96,9 @@
 
     * NLWeb avoids bitmap status lists because of their scaling limitations and their overhead on the businesses that own [Issuer 🎴 domains](<$ 🎴🎭 Issuer role.md>).
     
-    * Instead, in NLWeb, [Broker 🤵 domains](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) protect the privacy of users by answering the online [Token 🎫](<../../25 Data/30 🎫 Tokens/$ 🎫 Token.md>) status queries by [Consumer 💼 domains](<../../30 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>), based on the [Token 🎫](<../../25 Data/30 🎫 Tokens/$ 🎫 Token.md>) status update events sent asynchronously by [Issuer 🎴 domains](<$ 🎴🎭 Issuer role.md>).
+    * Instead, in NLWeb, [Broker 🤵 domains](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) protect the privacy of users by answering the online [Token 🎫](<../../25 Data/30 🎫 Tokens/$ 🎫 Token.md>) status queries by [Consumer 💼 domains](<../../50 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>), based on the [Token 🎫](<../../25 Data/30 🎫 Tokens/$ 🎫 Token.md>) status update events sent asynchronously by [Issuer 🎴 domains](<$ 🎴🎭 Issuer role.md>).
     
-    * Furthermore, because [Broker 🤵 domains](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) simplify the process by only sharing active [Tokens 🎫](<../../25 Data/30 🎫 Tokens/$ 🎫 Token.md>) when [Consumer 💼 domains](<../../30 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>) send sharing requests in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>), this allows [Consumer 💼 domains](<../../30 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>) to only need to verify the status of [Tokens 🎫](<../../25 Data/30 🎫 Tokens/$ 🎫 Token.md>) presented in an offline fashion (e.g., a printed QR on a paper).
+    * Furthermore, because [Broker 🤵 domains](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) simplify the process by only sharing active [Tokens 🎫](<../../25 Data/30 🎫 Tokens/$ 🎫 Token.md>) when [Consumer 💼 domains](<../../50 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>) send sharing requests in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>), this allows [Consumer 💼 domains](<../../50 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>) to only need to verify the status of [Tokens 🎫](<../../25 Data/30 🎫 Tokens/$ 🎫 Token.md>) presented in an offline fashion (e.g., a printed QR on a paper).
 
     On availability: 
 
