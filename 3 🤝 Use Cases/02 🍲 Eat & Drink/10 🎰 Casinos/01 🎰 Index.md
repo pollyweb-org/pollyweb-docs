@@ -9,8 +9,8 @@
 
 | Persona |  [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) | [Agents 🫥](<../../../4 ⚙️ Solution/50 🫥 Agents/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>)
 |-|-|-
-| `🧑‍🦰 User` | [Enter anonymously](<11 🚪 Enter anonymously.md>) | [`🆔 Identity`](<../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>)
-| `👮 Staff` | [Protect door](<71 🚪 Protect door.md>) | [`🆔 Identity`](<../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>)
+| `🧑‍🦰 User` | [Enter anonymously](<11 🚪 Enter anonymously.md>) | [`🆔 Identity`](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>)
+| `👮 Staff` | [Protect door](<71 🚪 Protect door.md>) | [`🆔 Identity`](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>)
 | | [Age passed](<72 🚪 Age passed.md>) | -
 | | [Age failed](<73 🚪 Age failed.md>) | -
 |

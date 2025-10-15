@@ -1,7 +1,7 @@
 🆔 Register Identity biometrics
 ===
 
-> Part of [Identity 🆔 domains](<01 🆔🫥 Identity agent.md>)
+> Part of [Identity 🆔 domains](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>)
 
 
 > Addresses the [supervised identity landscape 🏔️](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/00 👮 Supervised ID Index.md>)
@@ -12,7 +12,7 @@
 
     ![](<. 📎 Assets/🆔 Biometrics.png>)
 
-    [Identity 🆔 vaults](<01 🆔🫥 Identity agent.md>) require users to collect their biometric signatures in a [supervised 👮](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/00 👮 Supervised ID Index.md>) biometric collection center, typically managed by public authorities.
+    [Identity 🆔 vaults](<../../../../../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) require users to collect their biometric signatures in a [supervised 👮](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/00 👮 Supervised ID Index.md>) biometric collection center, typically managed by public authorities.
 
     ---
     <br/>
