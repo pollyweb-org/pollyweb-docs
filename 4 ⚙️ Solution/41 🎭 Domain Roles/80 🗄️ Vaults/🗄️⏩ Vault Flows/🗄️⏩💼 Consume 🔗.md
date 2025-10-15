@@ -12,7 +12,7 @@
 |#|Step|Purpose
 |-|-|-
 |1|[👥🚀🕸 `Trusts@Graph`](<../../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>) | [Vaults 🗄️](<../🗄️🎭 Vault role.md>) see if [Consumers 💼](<../../27 💼 Consumers/$ 💼🎭 Consumer role.md>) are [Trusted 👍](<../../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>)  
-|2|[🗄️🐌💼 `Consume@Consumer`](<../../../../6 🅰️ APIs/30 💼🅰️ Consumer/02 🗄️🐌💼 Consume.md>) | [Vaults 🗄️](<../🗄️🎭 Vault role.md>) tell [Consumers 💼](<../../27 💼 Consumers/$ 💼🎭 Consumer role.md>) they're ready
+|2|[🗄️🐌💼 `Consume@Consumer`](<../../27 💼 Consumers/🅰️ Consumer methods/🗄️🐌💼 Consume.md>) | [Vaults 🗄️](<../🗄️🎭 Vault role.md>) tell [Consumers 💼](<../../27 💼 Consumers/$ 💼🎭 Consumer role.md>) they're ready
 |3|[👥🚀🕸 `Trusts@Graph`](<../../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>) | [Consumers 💼](<../../27 💼 Consumers/$ 💼🎭 Consumer role.md>) see if [Vaults 🗄️](<../🗄️🎭 Vault role.md>) are [Trusted 👍](<../../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>)
 |4|[💼🚀🗄️ `Collect@Vault`](<../🗄️🅰️ Vault methods/💼🚀🗄️ Collect.md>) | [Consumers 💼](<../../27 💼 Consumers/$ 💼🎭 Consumer role.md>) collect the data shared
 |
@@ -39,7 +39,7 @@
 
     `Time` [Vault 🗄️ domains](<../🗄️🎭 Vault role.md>) may need time to gather the data, from seconds to days.
     * Thus, [Consumer 💼 domains](<../../27 💼 Consumers/$ 💼🎭 Consumer role.md>) need to wait for [Vault 🗄️ domains](<../🗄️🎭 Vault role.md>) to notify them when the data is ready.
-    * This is the [`Consume@Consumer`](<../../../../6 🅰️ APIs/30 💼🅰️ Consumer/02 🗄️🐌💼 Consume.md>) call.
+    * This is the [`Consume@Consumer`](<../../27 💼 Consumers/🅰️ Consumer methods/🗄️🐌💼 Consume.md>) call.
 
     `Size` Pushing a payload has size limits, while downloading it doesn't.
     * Thus, to allow [Consumer 💼 domains](<../../27 💼 Consumers/$ 💼🎭 Consumer role.md>) to download data sets from [Vault 🗄️ domains](<../🗄️🎭 Vault role.md>) via with no theoretical size limit, the request needs to come from the [Consumer 💼 domain](<../../27 💼 Consumers/$ 💼🎭 Consumer role.md>) (and not from the [Vault 🗄️ domain](<../🗄️🎭 Vault role.md>)).
