@@ -1,13 +1,13 @@
 
-# [🧩](<../10 🧩 Schema Codes/$ 🧩 Schema Code.md>) [Schema Code](<../10 🧩 Schema Codes/$ 🧩 Schema Code.md>): Token
+# [🧩](<../../10 🧩 Schema Codes/$ 🧩 Schema Code.md>) [Schema Code](<../../10 🧩 Schema Codes/$ 🧩 Schema Code.md>): Token
 
-> Schema of a [Token 🎫](<$ 🎫 Token.md>)
+> Schema of a [Token 🎫](<../🎫 Token.md>)
 
 <br/>
 
 ## Definition
 
-> [🤝:](<../10 🧩 Schema Codes/$ 🧩 Schema Code.md>) [`.MANIFEST/CODE`](<../../40 👥 Domains/44 📜 Manifests/40 🧩 CODE code.md>)
+> [🤝:](<../../10 🧩 Schema Codes/$ 🧩 Schema Code.md>) [`.MANIFEST/CODE`](<../../../40 👥 Domains/44 📜 Manifests/40 🧩 CODE code.md>)
 
 ```yaml
 Path: /TOKEN
