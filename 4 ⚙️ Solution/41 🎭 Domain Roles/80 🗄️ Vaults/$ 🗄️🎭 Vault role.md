@@ -75,7 +75,7 @@
 1. **How can Vaults comply with data residency?**
 
     [Vault 🗄️ domains](<$ 🗄️🎭 Vault role.md>) 
-    * can ask users to share their [Storage 📦 vault](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>), 
+    * can ask users to share their [Storage 📦 vault](<../../30 🫥 Agents/01 📦 Storage/$ 📦🫥 Storage agent.md>), 
     * then store the user data there.
 
     ---
@@ -156,11 +156,11 @@
 
 1. **How is data residency solved by vaults?**
 
-    Where nations require their citizens' data to be stored within nation's borders, [Vault 🗄️ domains](<$ 🗄️🎭 Vault role.md>) can leverage the user's [Storage 📦 vault](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>) to store their data. 
+    Where nations require their citizens' data to be stored within nation's borders, [Vault 🗄️ domains](<$ 🗄️🎭 Vault role.md>) can leverage the user's [Storage 📦 vault](<../../30 🫥 Agents/01 📦 Storage/$ 📦🫥 Storage agent.md>) to store their data. 
     
-    - [Storage vaults 📦](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>) are multi-tenant cloud repositories rented by users, where users can allow bound vaults to write their data into. 
+    - [Storage vaults 📦](<../../30 🫥 Agents/01 📦 Storage/$ 📦🫥 Storage agent.md>) are multi-tenant cloud repositories rented by users, where users can allow bound vaults to write their data into. 
     
-    - The [Storage vault 📦](<../../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>) will comply with the user's [data-residency 🏔️](<../../../2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/00 🏳️ Sovereignty index.md>) requirements by choosing in which region to store the user's data. 
+    - The [Storage vault 📦](<../../30 🫥 Agents/01 📦 Storage/$ 📦🫥 Storage agent.md>) will comply with the user's [data-residency 🏔️](<../../../2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/00 🏳️ Sovereignty index.md>) requirements by choosing in which region to store the user's data. 
     
     - This solution also allows for free services to offload the cost of storage to the user.
 

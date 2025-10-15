@@ -50,10 +50,10 @@ Design Decisions
 
         - this also mirrors real-world expectations, where citizens typically expect organizations to be responsible for the infrastructure required to hold their data, whatever any effort required from the citizen to manage or even know about such infrastructure.
 
-    - Nonetheless, [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) may require users to provide a shared [Storage 📦 vault](<../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>) to store the user's data;
+    - Nonetheless, [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) may require users to provide a shared [Storage 📦 vault](<../30 🫥 Agents/01 📦 Storage/$ 📦🫥 Storage agent.md>) to store the user's data;
  
         - this is a [Solid 📺](<../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/05 📺 Berners-Lee vaults.md>)-like user-centric [Vault 🗄️ domain](<../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) that other [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) may leverage to address [sovereignty 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/00 🏳️ Sovereignty index.md>) regulations 
-        - e.g., a US-based [Vault 🗄️ domain](<../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) may store the data of a German citizen in the citizen's Germany-based [Storage 📦 vault](<../30 🫥 Agents/01 📦 Storage/01 📦🫥 Storage agent.md>).
+        - e.g., a US-based [Vault 🗄️ domain](<../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) may store the data of a German citizen in the citizen's Germany-based [Storage 📦 vault](<../30 🫥 Agents/01 📦 Storage/$ 📦🫥 Storage agent.md>).
 
     - Those [bounded 🔗](<../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>) allow users to quickly [autofill 📺](<../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/06 📺 SSI form auto filling.md>) forms;
 
