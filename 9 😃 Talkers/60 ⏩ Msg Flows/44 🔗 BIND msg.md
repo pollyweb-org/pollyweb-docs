@@ -79,7 +79,7 @@
     | Argument| Purpose
     |-|-
     | `<code-n>` | Array of [Schema Codes 🧩](<../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) sent on [`Bindable@Broker`](<../../6 🅰️ APIs/15 🤵🅰️ Broker/40 🤵🅰️ Binds 🔗/20 🗄️🐌🤵 Bindable.md>)
-    | `$bound`  | Array of [Schema Codes 🧩](<../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) received on [`Bound@Vault`](<../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vaults/95 🗄️🅰️ Vault/02 🤵🐌🗄️ Bound@Vault.md>)
+    | `$bound`  | Array of [Schema Codes 🧩](<../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) received on [`Bound@Vault`](<../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vaults/95 🗄️🅰️ Vault/52 🤵🐌🗄️ Bound@Vault.md>)
 
 
    ```yaml
