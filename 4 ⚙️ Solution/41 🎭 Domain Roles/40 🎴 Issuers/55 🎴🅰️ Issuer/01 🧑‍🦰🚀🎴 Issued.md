@@ -4,7 +4,7 @@
 
 # 🧑‍🦰🚀🎴 Issued @ Issuer
 
-> Allows for a [Token 🎫](<../../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) to be downloaded from the [Issuer 🎴 domain](<../$ 🎴🎭 Issuer role.md>) into the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
+> Allows for a [Token 🎫](<../../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) to be downloaded from the [Issuer 🎴 domain](<../$ 🎴🎭 Issuer role.md>) into the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
 
 > Part of the [🎴⏩🧑‍🦰 Offer Token @ Issuer](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/02 🧑‍🦰👉🎴 Save token.md>) flow.
 
