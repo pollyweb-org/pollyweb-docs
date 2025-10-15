@@ -3,7 +3,7 @@
 
 # 🎴🐌🤵 Revise @ Broker
 
-> Updates the status of a [Token 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>).
+> Updates the status of a [Token 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🎫 Token.md>).
 
 > Used by:
 > <br/>• [🎴⏩🧑‍🦰 Revise Token @ Issuer](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/60 🎴⏩ Issuers/02 🎴⏩🧑‍🦰 Revise token.md>) flow
@@ -34,7 +34,7 @@ Body:
 | |`To`|string|[Broker 🤵 domain](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) name
 | |`Subject`|string|`Revoke@Broker`
 |Body|`ChatID`|string|[Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID
-| |`TokenID`|string|[Token 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) ID
+| |`TokenID`|string|[Token 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) ID
 | |`Action`| enum | `REVOKE` `SUSPEND` `ACTIVATE` `UPDATE`
 | |`Starting`| timestamp | Start date and time
 | |`Ending` | timestamp | Finish date and time (optional)
