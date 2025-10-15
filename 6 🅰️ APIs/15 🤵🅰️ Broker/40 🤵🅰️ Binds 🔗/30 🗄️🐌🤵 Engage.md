@@ -1,6 +1,6 @@
 # 🗄️🐌🤵 Engage
 
-> Part of [🗄️⏩🧑‍🦰 Engage @ Vault](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vaults/🗄️⏩ Vault Flows/🗄️⏩🧑‍🦰 Engage 💬.md>)
+> Part of [🗄️⏩🧑‍🦰 Engage @ Vault](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vaults/🗄️⏩ Vault flows/🗄️⏩🧑‍🦰 Engage 💬.md>)
 
 * Allows for [Vault 🗄️ domains](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) 
     * to proactively start a new [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) 
