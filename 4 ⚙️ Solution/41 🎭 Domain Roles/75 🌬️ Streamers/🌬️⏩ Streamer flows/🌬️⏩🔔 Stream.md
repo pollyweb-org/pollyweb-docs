@@ -12,17 +12,17 @@
 
 | # | Call | Notes
 |-|-|-
-|1| [🔔🚀⏳ `Queue@Buffer`](<../../../45 🛠️ Helper domains/27 ⏳ Buffers/🅰️ Buffer methods/🔔🐌⏳ Queue.md>) | [Subscribers 🔔](<../../76 🔔 Subscribers/🔔🎭 Subscriber role.md>) create a [Buffer ⏳](<../../../45 🛠️ Helper domains/27 ⏳ Buffers/⏳🛠️ Buffer helper.md>) queue
+|1| [🔔🚀⏳ `Queue@Buffer`](<../../../45 🛠️ Helper domains/27 ⏳ Buffers/⏳🅰️ Buffer methods/🔔🐌⏳ Queue.md>) | [Subscribers 🔔](<../../76 🔔 Subscribers/🔔🎭 Subscriber role.md>) create a [Buffer ⏳](<../../../45 🛠️ Helper domains/27 ⏳ Buffers/⏳🛠️ Buffer helper.md>) queue
 |2| [🔔🐌🌬️ `Subscribe@Streamer`](<../🌬️🅰️ Streamer methods/🔔🐌🌬️ Subscribe.md>) | [Subscribers 🔔](<../../76 🔔 Subscribers/🔔🎭 Subscriber role.md>) subscribe to [Streamers 🌬️](<../🌬️🎭 Streamer role.md>)
-| 3 | [🌬️🐌⏳ `Push@Buffer`](<../../../45 🛠️ Helper domains/27 ⏳ Buffers/🅰️ Buffer methods/🌬️🐌⏳ Push.md>) | [Streamers 🌬️](<../🌬️🎭 Streamer role.md>) push to [Buffers ⏳](<../../../45 🛠️ Helper domains/27 ⏳ Buffers/⏳🛠️ Buffer helper.md>)
+| 3 | [🌬️🐌⏳ `Push@Buffer`](<../../../45 🛠️ Helper domains/27 ⏳ Buffers/⏳🅰️ Buffer methods/🌬️🐌⏳ Push.md>) | [Streamers 🌬️](<../🌬️🎭 Streamer role.md>) push to [Buffers ⏳](<../../../45 🛠️ Helper domains/27 ⏳ Buffers/⏳🛠️ Buffer helper.md>)
 | 4 | [⏳🐌🔔 `Wake-up@Subscriber`](<../../76 🔔 Subscribers/🔔🅰️ Subscriber methods/⏳🐌🔔 Wake-up.md>) | [Buffers ⏳](<../../../45 🛠️ Helper domains/27 ⏳ Buffers/⏳🛠️ Buffer helper.md>) wake up [Subscribers 🔔](<../../76 🔔 Subscribers/🔔🎭 Subscriber role.md>)
-| 5 | [🔔🚀⏳ `Poll@Buffer`](<../../../45 🛠️ Helper domains/27 ⏳ Buffers/🅰️ Buffer methods/🔔🚀⏳ Poll.md>) | [Subscribers 🔔](<../../76 🔔 Subscribers/🔔🎭 Subscriber role.md>) poll all buffered messages
-|6| [🔔🚀⏳ `Confirm@Buffer`](<../../../45 🛠️ Helper domains/27 ⏳ Buffers/🅰️ Buffer methods/🔔🚀⏳ Confirm.md>) | [Subscribers 🔔](<../../76 🔔 Subscribers/🔔🎭 Subscriber role.md>) confirm processed ones
+| 5 | [🔔🚀⏳ `Poll@Buffer`](<../../../45 🛠️ Helper domains/27 ⏳ Buffers/⏳🅰️ Buffer methods/🔔🚀⏳ Poll.md>) | [Subscribers 🔔](<../../76 🔔 Subscribers/🔔🎭 Subscriber role.md>) poll all buffered messages
+|6| [🔔🚀⏳ `Confirm@Buffer`](<../../../45 🛠️ Helper domains/27 ⏳ Buffers/⏳🅰️ Buffer methods/🔔🚀⏳ Confirm.md>) | [Subscribers 🔔](<../../76 🔔 Subscribers/🔔🎭 Subscriber role.md>) confirm processed ones
 ||
 
 ## FAQ
 
-1. **Why an async request for [`Queue@Buffer`](<../../../45 🛠️ Helper domains/27 ⏳ Buffers/🅰️ Buffer methods/🔔🐌⏳ Queue.md>) ?**
+1. **Why an async request for [`Queue@Buffer`](<../../../45 🛠️ Helper domains/27 ⏳ Buffers/⏳🅰️ Buffer methods/🔔🐌⏳ Queue.md>) ?**
 
     `Timeout` `Cost`
 
@@ -33,7 +33,7 @@
     ---
     <br/>
 
-1. **How is privacy the Subscriber protected on [`Push@Buffer`](<../../../45 🛠️ Helper domains/27 ⏳ Buffers/🅰️ Buffer methods/🌬️🐌⏳ Push.md>)?**
+1. **How is privacy the Subscriber protected on [`Push@Buffer`](<../../../45 🛠️ Helper domains/27 ⏳ Buffers/⏳🅰️ Buffer methods/🌬️🐌⏳ Push.md>)?**
 
     `Public-key encryption` 
     
