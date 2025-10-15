@@ -92,7 +92,7 @@
     
     <br/>
 
-    Here's the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>).
+    Here's the [`Prompted@Host`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted@Host.md>).
 
     ```yaml
     Format: INFO

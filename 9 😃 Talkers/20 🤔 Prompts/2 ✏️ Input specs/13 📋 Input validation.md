@@ -37,7 +37,7 @@
         MaxLength: 10
     ```
     
-    Here's the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>).
+    Here's the [`Prompted@Host`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted@Host.md>).
 
     ```yaml
     Format: QUANTITY
@@ -71,7 +71,7 @@
     - SUCCESS|Code validated!
     ```
 
-    Here's the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>).
+    Here's the [`Prompted@Host`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted@Host.md>).
 
     ```yaml
     Format: DIGITS
@@ -125,7 +125,7 @@
                 return not (len(s) == 6 and s.isdigit())
     ```
     
-    Here's the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>).
+    Here's the [`Prompted@Host`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted@Host.md>).
 
     ```yaml
     Format: TEXT

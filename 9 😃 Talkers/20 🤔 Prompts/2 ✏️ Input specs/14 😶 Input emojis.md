@@ -8,7 +8,7 @@
 
     No.
 
-    * Emojis are not specified in the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) message.
+    * Emojis are not specified in the [`Prompted@Host`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted@Host.md>) message.
         * Thus, [Host 🤗 domains](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) can send simple strings to [Wallet 🧑‍🦰 apps](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
   
     * However, NLWeb advocates for emojis.
@@ -19,7 +19,7 @@
             * e.g., `that's funny` versus `🤣🤣🤣`
   
     * To help [Host 🤗 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) developers, 
-        * [Talkers 😃](<../../10 📘 Talker specs/10 😃 Talker.md>) add emojis to [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) messages. 
+        * [Talkers 😃](<../../10 📘 Talker specs/10 😃 Talker.md>) add emojis to [`Prompted@Host`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted@Host.md>) messages. 
 
 
     ---
@@ -57,7 +57,7 @@
 
     <br/>
 
-    Here's the [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>).
+    Here's the [`Prompted@Host`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted@Host.md>).
 
     ```yaml
     Format: CONFIRM
@@ -109,7 +109,7 @@
         Emoji: 😕 
     ```
     
-    This translates to the following [`Prompted@Host`](<../../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) response.
+    This translates to the following [`Prompted@Host`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted@Host.md>) response.
 
     ```yaml
     Format: CONFIRM
