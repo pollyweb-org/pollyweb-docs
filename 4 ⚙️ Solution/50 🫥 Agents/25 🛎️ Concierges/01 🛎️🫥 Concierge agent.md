@@ -16,7 +16,7 @@
 
     |Domain|Usage
     |-|-
-    | [Custodian 🧳](<../../70 🌳 Ambient/71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) | Help users recover a lost [Thing 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>).
+    | [Custodian 🧳](<../35 🧳 Custodians/05 🧳🗄️ Custodian vault.md>) | Help users recover a lost [Thing 💠](<../../70 🌳 Ambient/71 💠 Brand Things/01 💠 Thing.md>).
     | [Vitalogist 💖](<../95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | Book exams and medical appointments for users.
     | [Pizzeria 🍕](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/21 🏠 Home: Order pizza.md>) |Find a courier for delivery.
 

@@ -51,7 +51,7 @@
 
     Things 💠 behave differently when interacting with Owners (the user who registered the Thing 💠 after buying it) and Guests (users who are not the owner).
 
-    Owner features, available via their [Custodian 🧳 agent](<05 🧳🗄️ Custodian vault.md>):
+    Owner features, available via their [Custodian 🧳 agent](<../../50 🫥 Agents/35 🧳 Custodians/05 🧳🗄️ Custodian vault.md>):
     - **Register**: take ownership of a recently acquired unregistered Thing 💠;
     - **Transfer**: give ownership to a second-hand owner;
     - **Contact Brand**: ask for after-sales support - e.g., troubleshooting;
@@ -95,7 +95,7 @@
     |3| `Print` | The [Printer 🖨️](<../../45 🛠️ Helper domains/75 🖨️ Printers/$ 🖨️🛠️ Printer helper.md>) prints the [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) of the [Thing 💠](<01 💠 Thing.md>) into a QR/NFC  smart sticker.
     |4| `Sell` | The [Printer 🖨️](<../../45 🛠️ Helper domains/75 🖨️ Printers/$ 🖨️🛠️ Printer helper.md>) distributes the smart sticker to commercial end-users.
     |5| `Buy` | A user buys the smart sticker from a store to stick on a vintage book.
-    |6| `Register` | The user scans it with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) to register on their [Custodian 🧳 vault](<05 🧳🗄️ Custodian vault.md>).
+    |6| `Register` | The user scans it with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) to register on their [Custodian 🧳 vault](<../../50 🫥 Agents/35 🧳 Custodians/05 🧳🗄️ Custodian vault.md>).
     |7| `Chat` | Guest users tap/scan the book's smart sticker to interact with it in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>).
 
     ---
@@ -106,11 +106,11 @@
 
     |#|Category|Step
     |-|-|-
-    |1| `Create` | A [Brand 🍏 domain](<07 🍏🎭 Brand role.md>) orders a [Thing 💠](<01 💠 Thing.md>) from a [Wand 🪄 helper domain](<../../45 🛠️ Helper domains/90 🪄 Wands/$ 🪄🛠️ Wand helper.md>). 
-    |2| `Print` | The [Brand 🍏 domain](<07 🍏🎭 Brand role.md>) orders the physical [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) from a [Printer 🖨️ helper domain](<../../45 🛠️ Helper domains/75 🖨️ Printers/$ 🖨️🛠️ Printer helper.md>).
-    |3| `Sell` | The [Brand 🍏 domain](<07 🍏🎭 Brand role.md>) sells the physical [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) on a smart collar product bundle.
+    |1| `Create` | A [Brand 🍏 domain](<../../41 🎭 Domain Roles/20 🍏 Brands/07 🍏🎭 Brand role.md>) orders a [Thing 💠](<01 💠 Thing.md>) from a [Wand 🪄 helper domain](<../../45 🛠️ Helper domains/90 🪄 Wands/$ 🪄🛠️ Wand helper.md>). 
+    |2| `Print` | The [Brand 🍏 domain](<../../41 🎭 Domain Roles/20 🍏 Brands/07 🍏🎭 Brand role.md>) orders the physical [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) from a [Printer 🖨️ helper domain](<../../45 🛠️ Helper domains/75 🖨️ Printers/$ 🖨️🛠️ Printer helper.md>).
+    |3| `Sell` | The [Brand 🍏 domain](<../../41 🎭 Domain Roles/20 🍏 Brands/07 🍏🎭 Brand role.md>) sells the physical [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) on a smart collar product bundle.
     |4| `Buy` | A user buys the smart collar from a pet store, and give it to their pet.
-    |5| `Register` | The user scans it with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) to register on their [Custodian 🧳 vault](<05 🧳🗄️ Custodian vault.md>).
+    |5| `Register` | The user scans it with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) to register on their [Custodian 🧳 vault](<../../50 🫥 Agents/35 🧳 Custodians/05 🧳🗄️ Custodian vault.md>).
     |7| `Chat` | Guest users (e.g., vets) tap/scan the pet's smart collar to interact with it in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>).
     
     ---

@@ -3,7 +3,7 @@
 
 1. **What are Robots in NLWeb?**
 
-    Robots 🤖 are [Things 💠](<../71 💠 Brand Things/01 💠 Thing.md>) that [Brands 🍏](<../71 💠 Brand Things/07 🍏🎭 Brand role.md>) embed into physical devices to enable them to be controlled locally or remotely using natural language and without the need for a digital display (e.g., a coffee machine, a printer, or a vehicle). 
+    Robots 🤖 are [Things 💠](<../71 💠 Brand Things/01 💠 Thing.md>) that [Brands 🍏](<../../41 🎭 Domain Roles/20 🍏 Brands/07 🍏🎭 Brand role.md>) embed into physical devices to enable them to be controlled locally or remotely using natural language and without the need for a digital display (e.g., a coffee machine, a printer, or a vehicle). 
 
     ---
 
@@ -34,12 +34,12 @@
 
 1. **How can Robots answer questions about their features?**
 
-    [Wands 🪄](<../../45 🛠️ Helper domains/90 🪄 Wands/$ 🪄🛠️ Wand helper.md>) managing Robots use the [Schema Code 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) provided by the [Brand 🍏](<../71 💠 Brand Things/07 🍏🎭 Brand role.md>) to get the user manuals of the Robot 🤖, then typically feed it to a GenAI algorithm.
+    [Wands 🪄](<../../45 🛠️ Helper domains/90 🪄 Wands/$ 🪄🛠️ Wand helper.md>) managing Robots use the [Schema Code 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) provided by the [Brand 🍏](<../../41 🎭 Domain Roles/20 🍏 Brands/07 🍏🎭 Brand role.md>) to get the user manuals of the Robot 🤖, then typically feed it to a GenAI algorithm.
     
     ---
 
 1. **How can Robots execute commands?**
 
-    Additionally to answering questions, [Wands 🪄](<../../45 🛠️ Helper domains/90 🪄 Wands/$ 🪄🛠️ Wand helper.md>) use the [Schema Code 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) provided by the [Brand 🍏](<../71 💠 Brand Things/07 🍏🎭 Brand role.md>) to get the API definition of the Robot's [Pluggable 🔌](<../../60 🧰 Edge/61 🔌 Pluggables/01 🔌 Pluggable device.md>) controller, then typically run it through a GenAI agent.
+    Additionally to answering questions, [Wands 🪄](<../../45 🛠️ Helper domains/90 🪄 Wands/$ 🪄🛠️ Wand helper.md>) use the [Schema Code 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) provided by the [Brand 🍏](<../../41 🎭 Domain Roles/20 🍏 Brands/07 🍏🎭 Brand role.md>) to get the API definition of the Robot's [Pluggable 🔌](<../../60 🧰 Edge/61 🔌 Pluggables/01 🔌 Pluggable device.md>) controller, then typically run it through a GenAI agent.
 
     ---
