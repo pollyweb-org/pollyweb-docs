@@ -37,7 +37,7 @@
 
     - **Request on a chat**: 
         - in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>), [Consumers 💼](<$ 💼🎭 Consumer role.md>) can ask the user to share a specific [Schema Code 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>);
-        - if the user accepts, the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) shares with the [Consumer 💼](<$ 💼🎭 Consumer role.md>) both the [bound 🔗 Vaults](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) and the downloaded [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) that match that [Schema Code 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>);
+        - if the user accepts, the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) shares with the [Consumer 💼](<$ 💼🎭 Consumer role.md>) both the [bound 🔗 Vaults](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) and the downloaded [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) that match that [Schema Code 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>);
         - e.g., an airline may ask a user to share their passport [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>).
 
     - **On chat hello**: 
@@ -133,7 +133,7 @@
     - Certain scenarios require the [Consumer 💼 domain](<$ 💼🎭 Consumer role.md>) to verify if the person holding the [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) is the person to whom the [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) was issue to - e.g.:
         - at an airport border control, automatic gates need to match the face of the passport holder with the biometric signature contained in the electronic passport. 
     
-    - This requires an online request to an [Identity 🆔 domain](<../../50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) that is [bound 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) to the user and [trusted 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) by the [Consumer 💼 domain](<$ 💼🎭 Consumer role.md>), allowing the token to be matched to the holder without disclosing the holder's identity to the [Consumer 💼 domain](<$ 💼🎭 Consumer role.md>):
+    - This requires an online request to an [Identity 🆔 domain](<../../50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) that is [bound 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) to the user and [trusted 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) by the [Consumer 💼 domain](<$ 💼🎭 Consumer role.md>), allowing the token to be matched to the holder without disclosing the holder's identity to the [Consumer 💼 domain](<$ 💼🎭 Consumer role.md>):
         - e.g., while entering a casino, the casino can validate that the 21-years-old token is valid, and that the holder is the owner of the token, without knowing who the holder is. 
     
     - The [Identity 🆔 domain](<../../50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) can perform the authentication:

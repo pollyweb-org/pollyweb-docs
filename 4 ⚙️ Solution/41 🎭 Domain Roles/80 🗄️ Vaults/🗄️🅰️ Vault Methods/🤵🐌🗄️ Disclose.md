@@ -33,5 +33,5 @@ Body:
 |Body| `ChatID`| uuid | [Chat 💬](<../../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID
 || `Consumer` | string | [Consumer 💼 domain](<../../27 💼 Consumers/$ 💼🎭 Consumer role.md>) name
 || `Language` | enum | ISO language code
-|| `BindID` | uuid | [Bind 🔗](<../../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) ID
+|| `BindID` | uuid | [Bind 🔗](<../../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) ID
 |

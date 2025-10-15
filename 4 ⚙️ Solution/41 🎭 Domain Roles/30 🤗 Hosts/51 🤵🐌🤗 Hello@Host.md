@@ -47,7 +47,7 @@ Body:
 |           | `PublicKey`| string | For [`Prompted@`](<54 🧑‍🦰🚀🤗 Prompted@Host.md>) [`Reply@`](<55 🧑‍🦰🐌🤗 Reply@Host.md>) [`Download@`](<56 🧑‍🦰🚀🤗 Download@Host.md>)
 |           | `Locator` | string    | [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) in the [Host 🤗 domain](<$ 🤗🎭 Host role.md>)
 |           | `Code`    | string    | [Schema Code 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/$ 🧩 Schema Code.md>) of the Locator
-|           | `Binds`   | uuid[] | List of [Binds 🔗](<../../30 🧩 Data/20 🔗 Binds/$ 🔗 Bind.md>) for a [Vault 🗄️](<../80 🗄️ Vaults/🗄️🎭 Vault role.md>) host
+|           | `Binds`   | uuid[] | List of [Binds 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) for a [Vault 🗄️](<../80 🗄️ Vaults/🗄️🎭 Vault role.md>) host
 |           | `Tokens`  | uuid[] | List of [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) for an [Issuer 🎴](<../40 🎴 Issuers/$ 🎴🎭 Issuer role.md>) host
 || `Parameters`| object | Custom parameters
 |
