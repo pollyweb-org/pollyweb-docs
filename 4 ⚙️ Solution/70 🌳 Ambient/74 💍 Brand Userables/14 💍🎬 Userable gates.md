@@ -1,7 +1,7 @@
 💍 Userables to cross gates
 ===
 
-> Mentioned in [Verify Userables 🆔](<../../30 🫥 Agents/05 🆔 Identities/15 🆔💍 Verify Userables.md>)
+> Mentioned in [Verify Userables 🆔](<../../30 🫥 Agents/45 🆔 Identities/15 🆔💍 Verify Userables.md>)
 
 <br/>
 
@@ -26,8 +26,8 @@
     |3| `Tokens?` | The [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) asks the [owner's Custodian 🧳 vault](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) for any user-authorized sharable [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) that match a list of given [Schema Codes 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>).
     |4| `{Tokens}` | The [owner's Custodian 🧳 vault](<../71 💠 Brand Things/05 🧳🗄️ Custodian vault.md>) returns the matching [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) to the [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>).
     |5| `Selfie` | The user looks at the [Selfie 📸 device](<../../60 🧰 Edge/64 📸 Selfies/01 📸🔌 Selfie device.md>) of the [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) to collect face images.
-    |6| `Owner?` | The [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) asks the [Identity 🆔 vaults](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) of the received [identity-bound Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) if the person on the images is the owner of the [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>).
-    |7| `Match` | The [Identity 🆔 vaults](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>) perform a comparison between the images sent by the [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) and the user's face biometrics stored on the [Identity 🆔 vault](<../../30 🫥 Agents/05 🆔 Identities/01 🆔🫥 Identity agent.md>).
+    |6| `Owner?` | The [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) asks the [Identity 🆔 vaults](<../../30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) of the received [identity-bound Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) if the person on the images is the owner of the [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>).
+    |7| `Match` | The [Identity 🆔 vaults](<../../30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>) perform a comparison between the images sent by the [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>) and the user's face biometrics stored on the [Identity 🆔 vault](<../../30 🫥 Agents/45 🆔 Identities/01 🆔🫥 Identity agent.md>).
 
     ---
     <br/>

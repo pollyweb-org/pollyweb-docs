@@ -2,7 +2,7 @@
 
 1. **How can a domain sign a subscription?**
 
-    ![](<../../4 ⚙️ Solution/30 🫥 Agents/04 💳 Payers/. 📎 Assets/💳 Biller Domain.png>)
+    ![](<../../4 ⚙️ Solution/30 🫥 Agents/60 💳 Payers/. 📎 Assets/💳 Biller Domain.png>)
 
     Users with ADMIN [Tokens 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) sign contracts on behalf of [Issuer 🎴 domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) that issued them 
     * e.g., for `any-biller.com` to accept the signature of a user on behalf of `any-domain.com`, the user needs to hold a [`.HOST/ADMIN 🧩`](<../../7 🧩 Codes/HOST/🧩 HostAdmin.md>) [Token](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) issued by `any-domain.com`;

@@ -17,5 +17,5 @@ How to control the a hotel room's lights?
 | 🏨 Hotel  | 💬 Anything else? [No] | `blinds?`
 | 🏨 Hotel  | ℹ️ Pull them from the edges.
 | 🏨 Hotel  | 💬 Anything else? [No] | > No
-| ⭐ [Rate](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? 
+| ⭐ [Rate](<../../../../4 ⚙️ Solution/30 🫥 Agents/73 ⭐ Reviewers/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? 
 ||

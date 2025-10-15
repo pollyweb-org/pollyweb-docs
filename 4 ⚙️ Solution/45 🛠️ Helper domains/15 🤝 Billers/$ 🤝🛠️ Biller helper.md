@@ -8,7 +8,7 @@
     A Biller 🤝 is 
     * a [Helper 🛠️ domain](<../$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) 
     * that handles the terms and lifecycle of payment agreements 
-    * between a [Payer 💳 domain](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) and a [Collector 🏦 domain](<../18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) 
+    * between a [Payer 💳 domain](<../../30 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) and a [Collector 🏦 domain](<../18 🏦 Collectors/$ 🏦🛠️ Collector helper.md>) 
     * (e.g., subscriptions, free tiers, direct debits) 
     * on behalf of [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) and [Seller 💵 domains](<../../41 🎭 Domain Roles/70 💵 Sellers/$ 💵🎭 Seller role.md>).
 
@@ -27,8 +27,8 @@
 
 1. **How can a user cancel a subscription?**
 
-    User subscriptions are attached to the user's [Payer 💳 agent](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>).
-    * In a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>), users can ask their [Payer 💳 agent](<../../30 🫥 Agents/04 💳 Payers/03 💳🎭 Payer role.md>) to cancel the subscription.
+    User subscriptions are attached to the user's [Payer 💳 agent](<../../30 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>).
+    * In a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>), users can ask their [Payer 💳 agent](<../../30 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) to cancel the subscription.
 
     ---
 

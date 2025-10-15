@@ -10,7 +10,7 @@ How to request room cleaning?
 | 🏨 Hotel  | ✅ Room cleaning requested. <br/> - [ Notify ] when done <br/> - [ Cancel ] request | > Notify
 | 🏨 Hotel  | ✅ We'll tell you when done.
 | 🏨 Hotel  | 💬 Anything else? [Yes, No] | > No
-| ⭐ [Rate](<../../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? 
+| ⭐ [Rate](<../../../../4 ⚙️ Solution/30 🫥 Agents/73 ⭐ Reviewers/01 ⭐🫥 Reviewer vault.md>) | 🫥 Experience feedback? 
 | 🏨 Hotel  | ⏳ Pending actions: <br/> - [ #1 ] 📣 room cleaning 💦
 |...
 | 🏨 Hotel  | 📣 Room cleaning done!

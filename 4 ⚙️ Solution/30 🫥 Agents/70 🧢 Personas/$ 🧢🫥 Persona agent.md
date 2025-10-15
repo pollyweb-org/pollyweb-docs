@@ -13,7 +13,7 @@
 
     |Domain|Purpose
     |-|-
-    | [📦 Storage](<../01 📦 Storage/$ 📦🫥 Storage agent.md>) | To comply with data residency.
+    | [📦 Storage](<../80 📦 Storage/$ 📦🫥 Storage agent.md>) | To comply with data residency.
 
     ---
     <br/>
@@ -34,9 +34,9 @@
 
     | Domain | Purpose
     |-|-
-    | [🛎️ Concierge](<../06 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>) | Subscribes to delivery and contact changes.
-    | [🧚 Curator](<../03 🧚 Curators/$ 🧚🫥 Curator agent.md>) | subscribes to multiple types of user preferences.
-    | [📇 Mingler](<../08 📇 Minglers/01 📇🫥 Mingler agent.md>) | Subscribes to contact preferences.
+    | [🛎️ Concierge](<../25 🛎️ Concierges/01 🛎️🫥 Concierge agent.md>) | Subscribes to delivery and contact changes.
+    | [🧚 Curator](<../30 🧚 Curators/$ 🧚🫥 Curator agent.md>) | subscribes to multiple types of user preferences.
+    | [📇 Mingler](<../50 📇 Minglers/01 📇🫥 Mingler agent.md>) | Subscribes to contact preferences.
 
     ---
     <br/>
@@ -52,7 +52,7 @@
 
     [Persona 🧢 vaults](<$ 🧢🫥 Persona agent.md>) are controlled by users, allowing them to define their preferences according to specific circumstances (e.g., a user may have different preferences when traveling for work or on family holidays). 
     
-    - Conversely, [Identity 🆔 vaults](<../05 🆔 Identities/01 🆔🫥 Identity agent.md>)  are controlled by nations on behalf of their citizens (e.g., the UK), allowing users to legally identity themselves at home and abroad.
+    - Conversely, [Identity 🆔 vaults](<../45 🆔 Identities/01 🆔🫥 Identity agent.md>)  are controlled by nations on behalf of their citizens (e.g., the UK), allowing users to legally identity themselves at home and abroad.
 
 
     ---
@@ -76,7 +76,7 @@
 
 1. **How do Personas comply with data residency policies?**
 
-    By leveraging [Storage 📦](<../01 📦 Storage/$ 📦🫥 Storage agent.md>) vaults.
+    By leveraging [Storage 📦](<../80 📦 Storage/$ 📦🫥 Storage agent.md>) vaults.
 
     ---
     <br/>
@@ -92,7 +92,7 @@
 
     No.
     - Medical information, like allergies, fall under specific data protection and privacy regulations like HIPAA (Health Insurance Portability and Accountability Act - U.S.).
-    - Personas 🧢 should leave that responsibility to [Vitalogist 💖](<../09 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) vaults.
+    - Personas 🧢 should leave that responsibility to [Vitalogist 💖](<../95 💖 Vitalogists/01 💖🫥 Vitalogist agent.md>) vaults.
 
     ---
     <br/>
@@ -101,7 +101,7 @@
 
     No.
     - Storing card details required special security settings defined by PCI/DSS policies.
-    - Personas 🧢 should leave that responsibility to [Payer 💳](<../04 💳 Payers/03 💳🎭 Payer role.md>) vaults.
+    - Personas 🧢 should leave that responsibility to [Payer 💳](<../60 💳 Payers/03 💳🎭 Payer role.md>) vaults.
 
     ---
     <br/>

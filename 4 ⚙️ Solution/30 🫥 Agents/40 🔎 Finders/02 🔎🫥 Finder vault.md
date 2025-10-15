@@ -31,8 +31,8 @@
     | [Domain](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | | | 🔆 [tap](<../../20 🧑‍🦰 UI/11 🔆 Locators/01 🔆 Locator.md>)
-    | 🔎 [Finder](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Host (4.3 ⭐) [+] | (expand)
-    | 🔎 [Finder](<../../../4 ⚙️ Solution/30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Host (4.3 ⭐)  [-] <br/> This host sells shoes.<br/>- They were founded in 1987.<br/>- Joined NLWeb 2 years ago.<br/>User feedback:<br/>- Delivery 4.7⭐ by 357 users<br/>- Support 3.5⭐ by 21 users
+    | 🔎 [Finder](<02 🔎🫥 Finder vault.md>) | ⓘ Any Host (4.3 ⭐) [+] | (expand)
+    | 🔎 [Finder](<02 🔎🫥 Finder vault.md>) | ⓘ Any Host (4.3 ⭐)  [-] <br/> This host sells shoes.<br/>- They were founded in 1987.<br/>- Joined NLWeb 2 years ago.<br/>User feedback:<br/>- Delivery 4.7⭐ by 357 users<br/>- Support 3.5⭐ by 21 users
 
     ---
     <br/>
@@ -43,7 +43,7 @@
     To search domains on a Finder, users use natural language, similar to ChatGPT.
     * Example: `find me a restaurant for tonight`.
     * Finders then show potential [Host 🤗 domains](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) for the user to initiate a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) with.
-    * After the user selection, Finders also show potential next steps for [navigation 🧭](<../07 🧭 Navigators/01 🧭🫥 Navigator agent.md>), available [services 🪢](<../../20 🧑‍🦰 UI/12 💬 Chats/06 🪢🎭 Integrator role.md>), and [advertising 👀](<../../45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>).
+    * After the user selection, Finders also show potential next steps for [navigation 🧭](<../55 🧭 Navigators/01 🧭🫥 Navigator agent.md>), available [services 🪢](<../../20 🧑‍🦰 UI/12 💬 Chats/06 🪢🎭 Integrator role.md>), and [advertising 👀](<../../45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>).
     * Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) excerpt of the [Find a bar 🤝 use case](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/30 🍸 Bars/11 🌐 Web: Find a bar.md>) as an example.
 
 
@@ -54,7 +54,7 @@
     | 🔎 [Finder](<02 🔎🫥 Finder vault.md>) | 💬 Suggested next steps: <br/> - [ Get there 🧭 ] <br/> - [ Buy ] entry in advance 
     | [🤗 Host](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) | ✅ Over to 🍸 Any Bar.
     | [ new chat ]
-    | 🔎 [Finder](<../../30 🫥 Agents/10 🔎 Finders/02 🔎🫥 Finder vault.md>) | ⓘ Any Bar (4.4 ⭐) [+]
+    | 🔎 [Finder](<02 🔎🫥 Finder vault.md>) | ⓘ Any Bar (4.4 ⭐) [+]
     | 🍸 Bar   | ℹ️ Buy entry request.
     | 🍸 Bar  | 😃 How many entries?
    
@@ -67,7 +67,7 @@
     |-|-
     | [🕸&nbsp;Graphs](<../../45 🛠️ Helper domains/40 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) | Finders subscribe to [Graphs 🕸 domains](<../../45 🛠️ Helper domains/40 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) to receive updates on [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) across the NLWeb, including their public identity, [trust 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) relationships, and supported [integrations 🪢](<../../20 🧑‍🦰 UI/12 💬 Chats/06 🪢🎭 Integrator role.md>). 
     | [🔥&nbsp;Firewalls](<../../45 🛠️ Helper domains/21 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) | Finders subscribe to [Firewall 🔥 domains](<../../45 🛠️ Helper domains/21 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) to quickly react to threats. 
-    | [⭐&nbsp;Reviewers](<01 ⭐🫥 Reviewer vault.md>) | Finders subscribe to [Reviewer ⭐ domains](<01 ⭐🫥 Reviewer vault.md>) to receive updates of domain ranks across the NLWeb, as a result of user feedback. 
+    | [⭐&nbsp;Reviewers](<../73 ⭐ Reviewers/01 ⭐🫥 Reviewer vault.md>) | Finders subscribe to [Reviewer ⭐ domains](<../73 ⭐ Reviewers/01 ⭐🫥 Reviewer vault.md>) to receive updates of domain ranks across the NLWeb, as a result of user feedback. 
     | [👀&nbsp;Advertisers](<../../45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) | Finders subscribe to [Advertiser 👀 domains](<../../45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) to know which ads to show to users in addition to search results from [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>). 
 
     ---
@@ -75,7 +75,7 @@
 
 1. **How do Finders get information about users?**
 
-    * [Persona 🧢](<../02 🧢 Personas/$ 🧢🫥 Persona agent.md>): Finders ask users to share anonymized search preferences from their Personas, then index the search results accordingly.
+    * [Persona 🧢](<../70 🧢 Personas/$ 🧢🫥 Persona agent.md>): Finders ask users to share anonymized search preferences from their Personas, then index the search results accordingly.
     * [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>): Finders receive the user's current context from the Wallet, similar to what is sent to a Web 2.0 browser (e.g., time zone, country, state, approximate location).
 
     ---
@@ -85,7 +85,7 @@
 
     - **[👍 Trust](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>)**: domains untrusted by the user's [Broker 🤵](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) are discarded;
     - **🔥 Threats**: domains blocked by [Firewalls 🔥](<../../45 🛠️ Helper domains/21 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) may be discarded even when trusted;
-    - **🧢 Preferences**: the user's preferences, as shared by the user's [Persona 🧢](<../02 🧢 Personas/$ 🧢🫥 Persona agent.md>);
+    - **🧢 Preferences**: the user's preferences, as shared by the user's [Persona 🧢](<../70 🧢 Personas/$ 🧢🫥 Persona agent.md>);
     - **📍 Proximity**: the distance to the user, based on the context shared by the Wallet;
     - **⭐ Rank**: the weighted rank of the domain based on feedback of similar users.
 

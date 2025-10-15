@@ -4,7 +4,7 @@
 1. **What is a Payer helper in NLWeb?**
    
     Payer 💳🛠️ helpers 
-    * are [Payer 🎭 domains](<03 💳🎭 Payer role.md>) 
+    * are [Payer 🎭 domains](<../../30 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) 
     * that act as [Helper 🛠️ domains](<../../45 🛠️ Helper domains/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) for other [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>), 
     * paying for agreements with [Biller 🤝 helpers](<../../45 🛠️ Helper domains/15 🤝 Billers/$ 🤝🛠️ Biller helper.md>).
 

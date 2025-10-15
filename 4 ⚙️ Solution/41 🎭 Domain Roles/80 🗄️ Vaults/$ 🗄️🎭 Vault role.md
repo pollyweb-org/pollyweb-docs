@@ -75,7 +75,7 @@
 1. **How can Vaults comply with data residency?**
 
     [Vault 🗄️ domains](<$ 🗄️🎭 Vault role.md>) 
-    * can ask users to share their [Storage 📦 vault](<../../30 🫥 Agents/01 📦 Storage/$ 📦🫥 Storage agent.md>), 
+    * can ask users to share their [Storage 📦 vault](<../../30 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>), 
     * then store the user data there.
 
     ---
@@ -127,7 +127,7 @@
     * [Trusts 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) in [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) to represent partnerships;
     * [Authority 🏛️ domains](<../../45 🛠️ Helper domains/14 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>) for intergovernmental agreements;
     * [Broker 🤵 domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) to protect users from bad corporate actors;
-    * [Reviewer ⭐ domains](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) to collect social feedback on corporations;
+    * [Reviewer ⭐ domains](<../../30 🫥 Agents/73 ⭐ Reviewers/01 ⭐🫥 Reviewer vault.md>) to collect social feedback on corporations;
     * [Firewall 🔥 domains](<../../45 🛠️ Helper domains/21 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) to monitor and penalize bad corporate actors.
     
     ---
@@ -135,9 +135,9 @@
 
 1. **How about a central place for user preferences?**
 
-    Exceptionally, NLWeb advocates for the use of [Persona 🧢 vault](<../../30 🫥 Agents/02 🧢 Personas/$ 🧢🫥 Persona agent.md>) aimed for preference-based personalization 
+    Exceptionally, NLWeb advocates for the use of [Persona 🧢 vault](<../../30 🫥 Agents/70 🧢 Personas/$ 🧢🫥 Persona agent.md>) aimed for preference-based personalization 
     - e.g., nicknames, seat preferences, film genres;
-    - but, even here, users rent storage on [Persona 🧢 vault](<../../30 🫥 Agents/02 🧢 Personas/$ 🧢🫥 Persona agent.md>) as a service that is owned and managed by a company.
+    - but, even here, users rent storage on [Persona 🧢 vault](<../../30 🫥 Agents/70 🧢 Personas/$ 🧢🫥 Persona agent.md>) as a service that is owned and managed by a company.
 
     ---
     <br/>
@@ -156,11 +156,11 @@
 
 1. **How is data residency solved by vaults?**
 
-    Where nations require their citizens' data to be stored within nation's borders, [Vault 🗄️ domains](<$ 🗄️🎭 Vault role.md>) can leverage the user's [Storage 📦 vault](<../../30 🫥 Agents/01 📦 Storage/$ 📦🫥 Storage agent.md>) to store their data. 
+    Where nations require their citizens' data to be stored within nation's borders, [Vault 🗄️ domains](<$ 🗄️🎭 Vault role.md>) can leverage the user's [Storage 📦 vault](<../../30 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>) to store their data. 
     
-    - [Storage vaults 📦](<../../30 🫥 Agents/01 📦 Storage/$ 📦🫥 Storage agent.md>) are multi-tenant cloud repositories rented by users, where users can allow bound vaults to write their data into. 
+    - [Storage vaults 📦](<../../30 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>) are multi-tenant cloud repositories rented by users, where users can allow bound vaults to write their data into. 
     
-    - The [Storage vault 📦](<../../30 🫥 Agents/01 📦 Storage/$ 📦🫥 Storage agent.md>) will comply with the user's [data-residency 🏔️](<../../../2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/00 🏳️ Sovereignty index.md>) requirements by choosing in which region to store the user's data. 
+    - The [Storage vault 📦](<../../30 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>) will comply with the user's [data-residency 🏔️](<../../../2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/00 🏳️ Sovereignty index.md>) requirements by choosing in which region to store the user's data. 
     
     - This solution also allows for free services to offload the cost of storage to the user.
 
@@ -233,7 +233,7 @@
     | [🤵 Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) | [`Bound`](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/02 🤵🐌🗄️ Bound.md>) | Add a [Bind 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) |
     |  | [`Unbind`](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/02 🤵🐌🗄️ Unbind.md>) | Remove a [Bind 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) |
     | | [`Disclose`](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/03 🤵🐌🗄️ Disclose.md>) | Disclose the data of a [Bind 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) |
-    | | [`Suppress`](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/04 🤵🐌🗄️ Suppress.md>) | Suppress [🖐️ Palm scans](<../../30 🫥 Agents/05 🆔 Identities/22 🆔🖐️ Palm scan.md>) |
+    | | [`Suppress`](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/04 🤵🐌🗄️ Suppress.md>) | Suppress [🖐️ Palm scans](<../../30 🫥 Agents/45 🆔 Identities/22 🆔🖐️ Palm scan.md>) |
     | [💼 Consumer](<../27 💼 Consumers/$ 💼🎭 Consumer role.md>) | [`Collect`](<../../../6 🅰️ APIs/95 🗄️🅰️ Vault/01 💼🚀🗄️ Collect.md>) | Return the data disclosed
     
     ---
