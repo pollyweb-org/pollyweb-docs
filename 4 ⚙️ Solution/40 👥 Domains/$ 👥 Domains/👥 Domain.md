@@ -3,7 +3,7 @@
 
 1. **What is a Domain in NLWeb?**
 
-    In NLWeb, a [domain 👥](<$ 👥 Domain.md>) is any public web service that
+    In NLWeb, a [domain 👥](<👥 Domain.md>) is any public web service that
     * sends and receives domain [Messages 📨](<../41 📨 Messages/$ 📨 Domain Message.md>)
     * and publishes a [domain Manifest 📜](<../44 📜 Manifests/$ 📜 Domain Manifest.md>).
 
@@ -35,8 +35,8 @@
 
 1. **What API methods does a Domain need to expose?**
 
-    Supported API methods differ based on the number roles assumed by the [domain 👥](<$ 👥 Domain.md>), from none to many.
-    * The following list enumerates the possible roles a [domain 👥](<$ 👥 Domain.md>) can assume.
+    Supported API methods differ based on the number roles assumed by the [domain 👥](<👥 Domain.md>), from none to many.
+    * The following list enumerates the possible roles a [domain 👥](<👥 Domain.md>) can assume.
 
 
     | Role 🎭&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Responsibility
@@ -44,14 +44,14 @@
     | [🍏 Brand](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>) | Bundles and sells physical products as [Things 💠](<../../70 🌳 Ambient/71 💠 Things/$ 💠 Thing.md>)
     | [💼 Consumer](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) | Consumes data from [Vaults 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) and [Issuers 🎴](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>)
     | [🪣 Dataset](<../../41 🎭 Domain Roles/28 🪣 Datasets/$ 🪣🎭 Dataset role.md>) | Exposes that exposes a synchronous data API
-    | [🛠️ Helper](<../../45 🛠️ Helper domains/$ 🛠️ Helpers/🛠️👥 Helper domain.md>) | Offloads undifferentiated logic from [domains 👥](<$ 👥 Domain.md>)
+    | [🛠️ Helper](<../../45 🛠️ Helper domains/$ 🛠️ Helpers/🛠️👥 Helper domain.md>) | Offloads undifferentiated logic from [domains 👥](<👥 Domain.md>)
     | [🤗 Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | Hosts [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) for [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) via [Brokers 🤵](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>)
     | [🪢 Integrator](<../../41 🎭 Domain Roles/35 🪢 Integrators/$ 🪢🎭 Integrator role.md>) |  [Manifests 📜](<../44 📜 Manifests/$ 📜 Domain Manifest.md>)  endpoints for [Finders 🔎](<../../50 🫥 Agents/40 🔎 Finders/🔎🫥 Finder agent.md>) to index
     | [🎴 Issuer](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) | Issues [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) to be saved on users' [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | [🌬️ Streamer](<../../41 🎭 Domain Roles/75 🌬️ Streamers/🌬️🎭 Streamer role.md>) | Pushes and replays domain events to [Subscribers 🔔](<../../41 🎭 Domain Roles/76 🔔 Subscribers/🔔🎭 Subscriber role.md>)
     | [🔔 Subscriber](<../../41 🎭 Domain Roles/76 🔔 Subscribers/🔔🎭 Subscriber role.md>) | Subscribes to domain events from a [Streamers 🌬️](<../../41 🎭 Domain Roles/75 🌬️ Streamers/🌬️🎭 Streamer role.md>)
     | [🗄️ Vault](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) | Stores user data and shares it with [Consumers 💼](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>)
-    | [🏭 Supplier](<../../41 🎭 Domain Roles/78 🏭 Suppliers/$ 🏭🎭 Supplier role.md>) | Accept async order requests from [domains 👥](<$ 👥 Domain.md>)
+    | [🏭 Supplier](<../../41 🎭 Domain Roles/78 🏭 Suppliers/$ 🏭🎭 Supplier role.md>) | Accept async order requests from [domains 👥](<👥 Domain.md>)
     
     ---
     <br/>
@@ -60,7 +60,7 @@
 
     |Flow| Description
     |-|-
-    |[👥⏩🕸 Manifest](<../../../5 ⏩ Flows/30 👥⏩ Domains/04 👥⏩🕸 Manifest 📜.md>) | Publish [domain Manifest 📜](<../44 📜 Manifests/$ 📜 Domain Manifest.md>) changes
+    |[👥⏩🕸 Manifest](<👥⏩ Domain flows/👥⏩🕸 Manifest 📜.md>) | Publish [domain Manifest 📜](<../44 📜 Manifests/$ 📜 Domain Manifest.md>) changes
     | [👥⏩🤝 Subscribe](<../../45 🛠️ Helper domains/20 🤝 Billers/🤝⏩ Biller flows/👥⏩🤝 Domain Subscription.md>) | Sign subscriptions on [Biller 🤝 domains](<../../45 🛠️ Helper domains/20 🤝 Billers/🤝🛠️ Biller helper.md>)
 
 

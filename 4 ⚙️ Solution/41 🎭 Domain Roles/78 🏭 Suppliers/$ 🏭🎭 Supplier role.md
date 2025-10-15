@@ -5,10 +5,10 @@
 
 1. **What is a Supplier domain role in NLWeb?**
 
-    A [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) with a [Supplier 🏭 role](<$ 🏭🎭 Supplier role.md>) is 
+    A [domain 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) with a [Supplier 🏭 role](<$ 🏭🎭 Supplier role.md>) is 
     * an [Integrator 🪢 domain](<../35 🪢 Integrators/$ 🪢🎭 Integrator role.md>) 
     * that exposes order APIs 
-    * to accept asynchronous order requests from other [domains 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>).
+    * to accept asynchronous order requests from other [domains 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>).
 
     ---
     <br/>

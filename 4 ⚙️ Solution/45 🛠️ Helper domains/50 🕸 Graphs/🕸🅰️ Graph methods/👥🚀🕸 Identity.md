@@ -27,10 +27,10 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header| `From`    | string | The name of the [domain 👥](<../../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) querying
+| Header| `From`    | string | The name of the [domain 👥](<../../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) querying
 |       | `To`      | string | [Graph 🕸 domain](<../🕸🛠️ Graph helper.md>) name
 |       | `Subject` | string | `Identity@Graph`
-| Body  | `Domain`  | string | The name of another [domain 👥](<../../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) to look up
+| Body  | `Domain`  | string | The name of another [domain 👥](<../../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) to look up
 |
 
 <br/>
@@ -51,9 +51,9 @@ Translations:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Top        |`Domain`       | string | URL name of the [domain 👥](<../../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>)
+|Top        |`Domain`       | string | URL name of the [domain 👥](<../../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>)
 |           |`Feedback`     | string | [Buffer ⏳ helper domain](<../../27 ⏳ Buffers/⏳🛠️ Buffer helper.md>) name
-|           |`Name`         | string | Friendly name of the [domain 👥](<../../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>)
+|           |`Name`         | string | Friendly name of the [domain 👥](<../../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>)
 |           |`SmallIcon`    | string  | Small icon in Base64 PNG
 |           |`BigIcon`      | string  | Big icon in Base64 PNG
 |           |`Translations` | object[]| List of Translation objects

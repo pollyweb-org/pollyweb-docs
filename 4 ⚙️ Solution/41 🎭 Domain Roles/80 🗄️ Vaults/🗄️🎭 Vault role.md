@@ -3,8 +3,8 @@
 
 1. **What is a Vault domain role in NLWeb?**
 
-    A [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) with a [Vault 🗄️ role](<🗄️🎭 Vault role.md>) 
-    * is any [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) that stores user data,
+    A [domain 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) with a [Vault 🗄️ role](<🗄️🎭 Vault role.md>) 
+    * is any [domain 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) that stores user data,
     * has a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) with the user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>), 
     * and shares it with [Consumer 💼 domains](<../27 💼 Consumers/💼🎭 Consumer role.md>). 
 
@@ -27,7 +27,7 @@
 
 1. **How are Vault domains configured on a Wallet?**
 
-    For a [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) to be listed as a [Vault 🗄️ domain](<🗄️🎭 Vault role.md>) in the [user's Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>), the user first needs to [bind 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) the [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) to the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
+    For a [domain 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) to be listed as a [Vault 🗄️ domain](<🗄️🎭 Vault role.md>) in the [user's Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>), the user first needs to [bind 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) the [domain 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) to the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
 
     | | Workflow |  Description
     |-|-|-
@@ -145,9 +145,9 @@
 
 1. **What if the user only wants to have one Vault?**
 
-    A single [domain 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) can, in theory, implement all existing [Schema Codes 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) and establish [trust 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) relationships with all existing [domains 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>).
+    A single [domain 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) can, in theory, implement all existing [Schema Codes 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) and establish [trust 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) relationships with all existing [domains 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>).
 
-    * Thus, a user may wish to [bind 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) to that single [Vault 🗄️ domain](<🗄️🎭 Vault role.md>) with all [Schema Codes 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) the user is interested in sharing, and is [trusted 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) buy all the [domains 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) the user is interested in interacting with. 
+    * Thus, a user may wish to [bind 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) to that single [Vault 🗄️ domain](<🗄️🎭 Vault role.md>) with all [Schema Codes 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) the user is interested in sharing, and is [trusted 👍](<../../40 👥 Domains/43 👍 Trusts/$ 👍 Domain Trust.md>) buy all the [domains 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) the user is interested in interacting with. 
   
     * However, this solution doesn't seem scalable, if at all realistic.
 
@@ -228,7 +228,7 @@
 
 1. **What API methods does a Vault exposes?**
    
-    | [From 👥](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) | [Subject 📨](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>) | Description |
+    | [From 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) | [Subject 📨](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>) | Description |
     |-|--------|-------------|
     | [🤵 Broker](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | [`Bound`](<🗄️🅰️ Vault methods/🤵🐌🗄️ Bound.md>) | Add a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) |
     |  | [`Unbind`](<🗄️🅰️ Vault methods/🤵🐌🗄️ Unbind.md>) | Remove a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) |
