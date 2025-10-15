@@ -3,7 +3,7 @@ Design Decisions
 
 1. **What is NLWeb's approach to end-user natural language?**
 
-    NLWeb is designed for Q&A flows (like ChatGPT), where a [Host 🤗 domain](<../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) asks the questions and defines the format that users are allowed to answer them. 
+    NLWeb is designed for Q&A flows (like ChatGPT), where a [Host 🤗 domain](<../41 🎭 Domain Roles/30 🤗 Hosts/04 🤗🎭 Host role.md>) asks the questions and defines the format that users are allowed to answer them. 
     
 
     ---
@@ -11,15 +11,15 @@ Design Decisions
 
 1. **What is NLWeb's approach to conversational commerce?**
 
-    In NLWeb, [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets>) are the way for users to communicate with [Host 🤗 domains](<../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>). 
+    In NLWeb, [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets>) are the way for users to communicate with [Host 🤗 domains](<../41 🎭 Domain Roles/30 🤗 Hosts/04 🤗🎭 Host role.md>). 
     
-    - Similar to [Meta's WhatsApp 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/06 📺 WhatsApp business.md>), NLWeb [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets>) allow users to keep a list of active [Chats 💬](<../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with [Host 🤗 domains](<../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>). 
+    - Similar to [Meta's WhatsApp 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/06 📺 WhatsApp business.md>), NLWeb [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets>) allow users to keep a list of active [Chats 💬](<../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with [Host 🤗 domains](<../41 🎭 Domain Roles/30 🤗 Hosts/04 🤗🎭 Host role.md>). 
 
     - Like in [India's ONDC 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/09 🛒 Shopping landscape/01 📺 🇮🇳 India's ONDC.md>), domains can configure multiple types of user inputs - e.g., number, dropdown, calendar. 
     
     - New chats are opened with a [Locator 🔆](<../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) by scanning a [QR code ✨](<../20 🧑‍🦰 UI/11 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) or by tapping an [NFC tag 🔆](<../20 🧑‍🦰 UI/11 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>). 
     
-    - Users may accept [Tokens 🎫](<../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) issued by [Issuer 🎴 domains](<../20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) - these tokens are stored offline and can be shared and validated by [Consumer 💼 domains](<../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>).
+    - Users may accept [Tokens 🎫](<../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) issued by [Issuer 🎴 domains](<../41 🎭 Domain Roles/40 🎴 Issuers/02 🎴🎭 Issuer role.md>) - these tokens are stored offline and can be shared and validated by [Consumer 💼 domains](<../41 🎭 Domain Roles/27 💼 Consumers/$ 💼🎭 Consumer role.md>).
 
 
     ---
@@ -99,7 +99,7 @@ Design Decisions
     
     For that, NLWeb supports supply and demand matching at the end of chats: 
     
-    1. chat [Host 🤗 domain](<../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) sends a summary of the [Chat 💬](<../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) to the user's [Wallet app 🧑‍🦰](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets>); 
+    1. chat [Host 🤗 domain](<../41 🎭 Domain Roles/30 🤗 Hosts/04 🤗🎭 Host role.md>) sends a summary of the [Chat 💬](<../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) to the user's [Wallet app 🧑‍🦰](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets>); 
     2. the [Wallet 🧑‍🦰 app](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets>) generates a list of next-best actions based on user preferences and contextual awareness; 
     3. the [Wallet 🧑‍🦰 app](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets>) then maps the actions to available offers and generates a recommendation for the user. 
 

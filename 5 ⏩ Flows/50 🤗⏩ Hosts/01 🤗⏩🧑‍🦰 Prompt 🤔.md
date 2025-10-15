@@ -8,7 +8,7 @@
 > <br/>• [🧑‍🦰👉🤗 Abandon Chat @ Wallet](<../90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>) flow
 > <br/>• [💼⏩🧑‍🦰 Query Vault @ Consumer](<../90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>) flow
 
-* A [Host 🤗 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) 
+* A [Host 🤗 domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/04 🤗🎭 Host role.md>) 
     * says something to a user 
     * in a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) 
     * with a [Prompt 🤔](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>).
@@ -49,11 +49,11 @@ The associated [Talker 😃](<../../9 😃 Talkers/10 📘 Talker specs/10 😃 
 
 | # | Call | Description
 |-|-|-
-| 1 | [🤗🐌🤵 `Prompt@Broker`](<../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/03 🤗🐌🤵 Prompt.md>) | [Hosts 🤗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) tell [Brokers 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) of [Prompt 🤔](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) intents
+| 1 | [🤗🐌🤵 `Prompt@Broker`](<../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/03 🤗🐌🤵 Prompt.md>) | [Hosts 🤗](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/04 🤗🎭 Host role.md>) tell [Brokers 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) of [Prompt 🤔](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) intents
 | 2 | [🤵🐌📣 `Prompt@Notifier`](<../../6 🅰️ APIs/65 📣🅰️ Notifier/02 📣💬🅰️ Chats/21 🤵🐌📣 Prompt.md>) | [Brokers 🤵](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>) push to [Wallets 🧑‍🦰](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) via [Notifiers 📣](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/$ 📣 Notifier domain.md>)
-| 3 | [🧑‍🦰🚀🤗 `Prompted@Host`](<../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) | [Wallets 🧑‍🦰](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) pull the content from the [Host 🤗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>)
-| 4| [🧑‍🦰🚀🤗 `Download@Host`](<../../6 🅰️ APIs/50 🤗🅰️ Host/06 🧑‍🦰🚀🤗 Download.md>) | [Wallets 🧑‍🦰](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) download files from the [Host 🤗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>)
-| 5 | [🧑‍🦰🐌🤗 `Reply@Host`](<../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) | The [Wallet 🧑‍🦰](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) replies directly to the [Host 🤗](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>)
+| 3 | [🧑‍🦰🚀🤗 `Prompted@Host`](<../../6 🅰️ APIs/50 🤗🅰️ Host/04 🧑‍🦰🚀🤗 Prompted.md>) | [Wallets 🧑‍🦰](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) pull the content from the [Host 🤗](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/04 🤗🎭 Host role.md>)
+| 4| [🧑‍🦰🚀🤗 `Download@Host`](<../../6 🅰️ APIs/50 🤗🅰️ Host/06 🧑‍🦰🚀🤗 Download.md>) | [Wallets 🧑‍🦰](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) download files from the [Host 🤗](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/04 🤗🎭 Host role.md>)
+| 5 | [🧑‍🦰🐌🤗 `Reply@Host`](<../../6 🅰️ APIs/50 🤗🅰️ Host/05 🧑‍🦰🐌🤗 Reply.md>) | The [Wallet 🧑‍🦰](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) replies directly to the [Host 🤗](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/04 🤗🎭 Host role.md>)
 ||
 
 <br/>
@@ -63,8 +63,8 @@ The associated [Talker 😃](<../../9 😃 Talkers/10 📘 Talker specs/10 😃 
 1. **Why the Prompted callback to get the Prompt?**
    
     `Privacy` To protect the user's privacy, the content of the [Prompts 🤔](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) is not proxied via [Broker 🤵 domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/$ 🤵 Broker domain.md>).
-    - Instead, [Wallet 🧑‍🦰 apps](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) download the [Prompt's 🤔](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) content and attachments directly from [Host 🤗 domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>).
-    - Replies to [Prompts 🤔](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) are also sent directly to [Host 🤗 domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>) by [Wallet 🧑‍🦰 apps](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
+    - Instead, [Wallet 🧑‍🦰 apps](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) download the [Prompt's 🤔](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) content and attachments directly from [Host 🤗 domains](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/04 🤗🎭 Host role.md>).
+    - Replies to [Prompts 🤔](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) are also sent directly to [Host 🤗 domains](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/04 🤗🎭 Host role.md>) by [Wallet 🧑‍🦰 apps](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
 
     ---
     <br/>

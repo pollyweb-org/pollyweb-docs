@@ -32,6 +32,6 @@ Body:
 ||`Subject`|string|`Saved@Broker`
 |Body  |`ChatID` |uuid  | [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID from [`Save@Notifier`](<../../65 📣🅰️ Notifier/04 📣🎫🅰️ Tokens/41 🤵🐌📣 Save.md>)
 |      |`TokenID` |uuid  | [Token 🎫](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) ID from [`Save@Notifier`](<../../65 📣🅰️ Notifier/04 📣🎫🅰️ Tokens/41 🤵🐌📣 Save.md>)
-|      |`Issuer`  |string| [Issuer 🎴](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/02 🎴🎭 Issuer role.md>) from [`Save@Notifier`](<../../65 📣🅰️ Notifier/04 📣🎫🅰️ Tokens/41 🤵🐌📣 Save.md>)
+|      |`Issuer`  |string| [Issuer 🎴](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/02 🎴🎭 Issuer role.md>) from [`Save@Notifier`](<../../65 📣🅰️ Notifier/04 📣🎫🅰️ Tokens/41 🤵🐌📣 Save.md>)
 |      |`Path`    |string| Path to the local file
 |

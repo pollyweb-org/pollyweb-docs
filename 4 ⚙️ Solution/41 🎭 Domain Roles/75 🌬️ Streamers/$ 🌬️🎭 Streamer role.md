@@ -26,7 +26,7 @@
 1. **What are examples of domain event streams?**
 
     * [Listener 👂 domains](<../../45 🛠️ Helper domains/50 👂 Listeners/$ 👂🛠️ Listener helper.md>) and [Graph 🕸 domains](<../../45 🛠️ Helper domains/40 🕸 Graphs/$ 🕸🛠️ Graph helper.md>) stream domain [Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) updates.
-    * [Advertiser 👀 domains](<../../45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) and [Reviewer ⭐ domains](<../../30 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) stream feedbacks about [Host 🤗 domain](<../../20 🧑‍🦰 UI/12 💬 Chats/04 🤗🎭 Host role.md>).
+    * [Advertiser 👀 domains](<../../45 🛠️ Helper domains/12 👀 Advertisers/$ 👀👥 Advertiser helper.md>) and [Reviewer ⭐ domains](<../../30 🫥 Agents/73 ⭐ Reviewers/$ ⭐🫥 Reviewer vault.md>) stream feedbacks about [Host 🤗 domain](<../30 🤗 Hosts/04 🤗🎭 Host role.md>).
     * [Persona 🧢 agent domains](<../../30 🫥 Agents/70 🧢 Personas/$ 🧢🫥 Persona agent.md>) stream changes performed by the user.
 
     ---

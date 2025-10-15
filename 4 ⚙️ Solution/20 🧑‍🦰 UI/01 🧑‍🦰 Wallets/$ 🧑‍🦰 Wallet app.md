@@ -19,7 +19,7 @@
     The following features are available in a [Wallet 🧑‍🦰 app](<$ 🧑‍🦰 Wallet app.md>):
     - 💬 [Chats](<../12 💬 Chats/$ 💬 Chat.md>): list, filter, search, view, and interact.
     - 🔗 [Binds](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>): list, view, unbind, and chat with the bound [Vault 🗄️ domain](<../../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>). 
-    - 🎫 [Tokens](<../25 🎫 Tokens/01 🎫 Token.md>): view, and chat with the [Issuer 🎴 domain](<../25 🎫 Tokens/02 🎴🎭 Issuer role.md>).
+    - 🎫 [Tokens](<../25 🎫 Tokens/01 🎫 Token.md>): view, and chat with the [Issuer 🎴 domain](<../../41 🎭 Domain Roles/40 🎴 Issuers/02 🎴🎭 Issuer role.md>).
     - ✨ [Scan](<../11 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) a QR [Locator 🔆](<../11 🔆 Locators/$ 🔆 Locator.md>) to open a [Chat 💬](<../12 💬 Chats/$ 💬 Chat.md>).
     - 🔆 [Tap](<../11 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) an NFC [Locator 🔆](<../11 🔆 Locators/$ 🔆 Locator.md>) to open a [Chat 💬](<../12 💬 Chats/$ 💬 Chat.md>).
     - 🌐 [Click](<../11 🔆 Locators/02 🧑‍🦰🌐 Wallet URLs.md>) on [Locator 🔆](<../11 🔆 Locators/$ 🔆 Locator.md>) links in the device's web browser to open chats.
@@ -57,7 +57,7 @@
     The only data that [Wallet 🧑‍🦰 apps](<$ 🧑‍🦰 Wallet app.md>) store locally is:
     - 🔏 The private half of the key pair;
     - 📣 The Wallet ID provided by the [Broker 🤵 domain](<../03 🤵 Brokers/$ 🤵 Broker domain.md>) via the [Notifier 📣 domain](<../02 📣 Notifiers/$ 📣 Notifier domain.md>);
-    - 🎫 Downloaded [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) from [Issuer 🎴 domains](<../25 🎫 Tokens/02 🎴🎭 Issuer role.md>).
+    - 🎫 Downloaded [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>) from [Issuer 🎴 domains](<../../41 🎭 Domain Roles/40 🎴 Issuers/02 🎴🎭 Issuer role.md>).
 
     ---
     <br/>
@@ -138,10 +138,10 @@
     |-|-|-
     | 🤵 Set up | [👉 Onboard](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/11 🧑‍🦰👉🤵 Onboard.md>)  | Register the [Wallet 🧑‍🦰](<$ 🧑‍🦰 Wallet app.md>) on a [Broker 🤵](<../03 🤵 Brokers/$ 🤵 Broker domain.md>)
     | | [👉 Translate](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/12 🧑‍🦰👉🤵 Translate.md>)  | Change the language of the [Wallet 🧑‍🦰](<$ 🧑‍🦰 Wallet app.md>)
-    | 🔆 Locators |[👉 Host QR](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>)  | Scan a [Host 🤗 NFC/QR](<../12 💬 Chats/04 🤗🎭 Host role.md>)   to open a [Chat 💬](<../12 💬 Chats/$ 💬 Chat.md>)
+    | 🔆 Locators |[👉 Host QR](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>)  | Scan a [Host 🤗 NFC/QR](<../../41 🎭 Domain Roles/30 🤗 Hosts/04 🤗🎭 Host role.md>)   to open a [Chat 💬](<../12 💬 Chats/$ 💬 Chat.md>)
     ||[👉 Printer QR](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/02 🧑‍🦰👉🤗 Scan printer QR.md>)  | Scan a [Printer 🖨️ NFC/QR](<../../45 🛠️ Helper domains/60 🖨️ Printers/$ 🖨️🛠️ Printer helper.md>) to open a [Chat 💬](<../12 💬 Chats/$ 💬 Chat.md>)
     |💬 Chats|[👉 Chats](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/01 🧑‍🦰👉🤵 List chats.md>) | List the user's [Chats 💬](<../12 💬 Chats/$ 💬 Chat.md>) 
-    ||[👉 Home](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/02 🧑‍🦰👉🤵 Host home.md>) | Show the [Host's 🤗 ](<../12 💬 Chats/04 🤗🎭 Host role.md>) menu in a [Chat 💬](<../12 💬 Chats/$ 💬 Chat.md>)
+    ||[👉 Home](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/02 🧑‍🦰👉🤵 Host home.md>) | Show the [Host's 🤗 ](<../../41 🎭 Domain Roles/30 🤗 Hosts/04 🤗🎭 Host role.md>) menu in a [Chat 💬](<../12 💬 Chats/$ 💬 Chat.md>)
     ||[👉 Abandon](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>) | Unilaterally abandon a [Chat 💬](<../12 💬 Chats/$ 💬 Chat.md>)
     | 🔗 Binds | [👉 Binds ](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/01 🧑‍🦰👉🤵 List binds.md>) | List the user's [Binds 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>)
     || [👉 Bind](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind 🔗.md>) | [Bind 🔗](<../../25 Data/24 🗄️ Vaults/01 🔗 Bind.md>) the [Wallet 🧑‍🦰](<$ 🧑‍🦰 Wallet app.md>) to a [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/$ 🗄️🎭 Vault role.md>)
