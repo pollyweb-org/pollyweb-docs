@@ -4,7 +4,7 @@
 1. **What is a Graph domain in NLWeb?**
 
     A [Graph 🕸 domain](<03 🕸🛠️ Graph helper.md>) is 
-    * any [Helper 🛠️ domain](<../../25 Data/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) 
+    * any [Helper 🛠️ domain](<../../45 Helpers/$ 🛠️ Helpers/05 🛠️👥 Helper domain.md>) 
     * that subscribes to [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>) change events from [Listener 👂 domains](<../10 Listeners/02 👂🛠️ Listener helper.md>)
     * then builds network representations of [Trust 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) relationships between [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>)
     * including indirect relationships via [Authority 🏛️ domains](<../../40 👥 Domains/43 👍 Trusts/02 🏛️🛠️ Authority helper.md>). 

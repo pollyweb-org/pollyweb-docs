@@ -4,7 +4,7 @@
 1. **What is a Collector domain in NLWeb?**
 
     A [Collector 🏦](<01 🏦🛠️ Collector helper.md>) is 
-    * any [Helper 🛠️ domain](<../../25 Data/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) 
+    * any [Helper 🛠️ domain](<../../45 Helpers/$ 🛠️ Helpers/05 🛠️👥 Helper domain.md>) 
     * that other [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) can leverage 
     * to collect payments from [Payer 💳 domains](<03 💳🎭 Payer role.md>);
     * e.g., a traditional bank, with a simple bank account.
