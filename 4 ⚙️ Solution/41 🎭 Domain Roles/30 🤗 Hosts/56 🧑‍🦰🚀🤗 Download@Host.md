@@ -6,7 +6,7 @@
 > Downloads the content of an [Appendix 📎](<../../../9 😃 Talkers/20 🤔 Prompts/1 📘 Prompt specs/05 📎 with Appendix.md>).
 
 
-> Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<31 🤗⏩🧑‍🦰 Prompt 🤔 flow.md>) flow.
+> Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<⏩ Host flows/31 🤗⏩🧑‍🦰 Prompt 🤔 flow.md>) flow.
 
 > Signature of the [Message 📨](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>):
 > <br>• signed with the `PrivateKey` from [`Converse@Notifier`](<../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/2 💬 Chats/1 🤵🐌📣 Converse.md>)

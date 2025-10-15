@@ -29,7 +29,7 @@
    
     |Emoji | Details
     |-|-
-    ℹ️ | The strong info emoji ℹ️ represents the chat's [Host 🤗 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) and any [Helper 🛠️ domains](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) that it may [invite ⏩](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/33 🤗⏩🧑‍🦰 Invite 🛠️ flow.md>).
+    ℹ️ | The strong info emoji ℹ️ represents the chat's [Host 🤗 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) and any [Helper 🛠️ domains](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/$ 🛠️ Helpers/$ 🛠️👥 Helper domain.md>) that it may [invite ⏩](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/⏩ Host flows/33 🤗⏩🧑‍🦰 Invite 🛠️ flow.md>).
     ⓘ | The faded info emoji ⓘ represents the user's [Agent 🫥 vaults](<../../../4 ⚙️ Solution/50 🫥 Agents/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>).
 
     ---

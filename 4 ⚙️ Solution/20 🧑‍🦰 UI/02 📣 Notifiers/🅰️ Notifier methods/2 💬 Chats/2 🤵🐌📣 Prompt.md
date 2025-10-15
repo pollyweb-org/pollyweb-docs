@@ -1,6 +1,6 @@
 # 🤵🐌📣 Prompt @ Notifier
 
-> Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/31 🤗⏩🧑‍🦰 Prompt 🤔 flow.md>) flow, succeeded by:
+> Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/⏩ Host flows/31 🤗⏩🧑‍🦰 Prompt 🤔 flow.md>) flow, succeeded by:
 > <br/>• [`Prompted@Host`](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/54 🧑‍🦰🚀🤗 Prompted@Host.md>) message
 > <br/>• [`Reply@Host`](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/55 🧑‍🦰🐌🤗 Reply@Host.md>) message
 > <br/>• [`Download@Host`](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/56 🧑‍🦰🚀🤗 Download@Host.md>)  message

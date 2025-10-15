@@ -2,7 +2,7 @@
 
 # 🤗🐌🤵 Prompt @ Broker
 
-> Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/31 🤗⏩🧑‍🦰 Prompt 🤔 flow.md>) flow.
+> Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/⏩ Host flows/31 🤗⏩🧑‍🦰 Prompt 🤔 flow.md>) flow.
 
 * The [Broker 🤵 domain](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) 
   * forwards the [Prompt 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) 
