@@ -5,7 +5,7 @@
 
 1. **What is an Advisor?**
 
-    Advisors are user-bound [Vaults 🗄️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) that anonymously assess users' [🕓 Timelines](<01 🕓🗄️ Timeline agent.md>) measurements according to a certain expertise.
+    Advisors are user-bound [Vaults 🗄️](<../../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) that anonymously assess users' [🕓 Timelines](<01 🕓🗄️ Timeline agent.md>) measurements according to a certain expertise.
 
     ---
 

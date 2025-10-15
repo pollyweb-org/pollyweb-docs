@@ -1,5 +1,5 @@
 
-# [🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) [`.MANIFEST`](<10 🧩 MANIFEST code.md>) `/TRUST`
+# [🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) [`.MANIFEST`](<10 🧩 MANIFEST code.md>) `/TRUST`
 
 > Part of [`.MANIFEST` 🧩](<10 🧩 MANIFEST code.md>)
 
@@ -16,7 +16,7 @@
 | `Expires`        | string | Date limit  in UTC timestamp | `2024-01-10`
 | `Domain` | string | [Domain 👥](<../41 📨 Messages/00 👥 Domain.md>) to [Trust 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>) <br/>- defaults to `*` | `*` `nlweb.org` 
 | or `Domains` | array | Additional list of domains  | `[a.co, b.co]`
-| `Query`  | string | [Schema Codes 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) to [Trust 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>) | `*` `/PERSONA/*`
+| `Query`  | string | [Schema Codes 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) to [Trust 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>) | `*` `/PERSONA/*`
 | or `Queries`  | array | Additional list of queries | `[*]`
 | `Role`     | enum | Role of domains to [Trust 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>) <br/>- `VAULT` `CONSUMER`  <br/>- defaults to `*` | `*` `VAULT`
 | or `Roles`     | array | Additional list of roles | `[*]`
@@ -28,7 +28,7 @@
 
   || Value | Notes
   |-|-|-
-  || `VAULT` | The info disclosed by the named [Vault 🗄️](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) is trusted.  
+  || `VAULT` | The info disclosed by the named [Vault 🗄️](<../../25 Data/24 🗄️ Vaults/03 🗄️🎭 Vault role.md>) is trusted.  
   || `CONSUMER` | The named [Consumer 💼](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) is allowed to perform queries.
   || `*` | Default, includes all options above.
   |
@@ -44,7 +44,7 @@
 || `INHERIT` | Inherits all revokes from a [Firewall 🔥 domain](<../43 👍 Trusts/03 🔥🛠️ Firewall helper.md>).
 |
   
-* Note: When a [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) is removed from [`.MANIFEST/TRUSTS`](<50 🧩 TRUST code.md>), 
+* Note: When a [Schema Code 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) is removed from [`.MANIFEST/TRUSTS`](<50 🧩 TRUST code.md>), 
     * domains should explicitly inform the `REVOKE`;
     * otherwise, it might not be propagated by [Graph 🕸 domains](<../45 👂 Backbone/03 🕸🛠️ Graph helper.md>).
 
@@ -60,7 +60,7 @@
     Domain: any-firewall.org
   ```
 
-* Trust [Helper 🛠️ domains](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) certified by NLWeb.
+* Trust [Helper 🛠️ domains](<../../25 Data/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) certified by NLWeb.
   ```yaml
   # Certified Helpers
   - Action: GRANT

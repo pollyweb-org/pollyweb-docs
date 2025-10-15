@@ -29,7 +29,7 @@ NLWeb advocates QR/NFC usage with the following improvements.
 
 |Component|Objective
 |-|-
-| [🫥 Agents](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | To reduce the duration of user workflows when compared to traditional methods.
+| [🫥 Agents](<../../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) | To reduce the duration of user workflows when compared to traditional methods.
 | [🪄 Wands](<../../../4 ⚙️ Solution/70 🌳 Ambient/71 💠 Brand Things/09 🪄🛠️ Wand helper.md>) | To cognify interaction points with businesses (e.g., products, places, things).
 | [🍏 Brands](<../../../4 ⚙️ Solution/70 🌳 Ambient/71 💠 Brand Things/07 🍏🎭 Brand role.md>) | Easy and affordable to set up and maintain by businesses.
 | [💬 Chats](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/01 💬 Chat.md>) | Consuming as little network bandwidth as a natural language chat.

@@ -4,7 +4,7 @@
 1. **What is an Identity domain in NLWeb?**
 
     An Identity 🆔 domain
-    * is an [Agent 🫥 vault](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) 
+    * is an [Agent 🫥 vault](<../../25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) 
     * that verifies the identity of the user
     * on behalf of other [domains 👥](<../../40 👥 Domains/41 📨 Messages/00 👥 Domain.md>).
 

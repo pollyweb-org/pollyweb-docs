@@ -9,7 +9,7 @@
 
     The `🛠️ Helpers.yaml` file 
     * contains the configuration
-    * of required [Helper 🛠️ domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>).
+    * of required [Helper 🛠️ domains](<../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>).
     
     ---
     <br/>

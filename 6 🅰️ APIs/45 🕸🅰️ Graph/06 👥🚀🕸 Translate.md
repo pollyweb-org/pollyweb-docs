@@ -7,7 +7,7 @@
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 
 * [Broker 🤵 domains](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) 
-    * request translation for [Schema Codes 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) and [domains 👥](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>),
+    * request translation for [Schema Codes 🧩](<../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) and [domains 👥](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>),
     * obtained from [`.MANIFEST/TRANSLATION` 🧩](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/21 🧩 TRANSLATION code.md>) parts
     * of [domain Manifests 📜](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>).
 * Used by:
@@ -38,7 +38,7 @@ Body:
 |       | `To`      | string | [Graph 🕸 domain](<../../4 ⚙️ Solution/40 👥 Domains/45 👂 Backbone/03 🕸🛠️ Graph helper.md>) name
 |       | `Subject` | string | `Translate@Graph`
 |Body   | `Domains`     | string[]  | The [domains 👥](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) to translate
-|       | `Codes`       | string[]  | The [Schema Codes 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) to translate
+|       | `Codes`       | string[]  | The [Schema Codes 🧩](<../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) to translate
 |
 
 <br/>
@@ -58,11 +58,11 @@ Codes:
 |Object|Property|Type|Description
 |-|-|-|-
 |Top    | `Domains`     | object[]  | List of [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) objects
-|       | `Codes`       | object[]  | List of [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) objects
+|       | `Codes`       | object[]  | List of [Schema Code 🧩](<../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) objects
 |Domain | `Domain`      | string    | The [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) name
 |       | `Translation` | string    | The [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/00 👥 Domain.md>) title
-|Code   | `Code`        | string    | The [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>)
-|       | `Translation` | string    | The [Schema Code 🧩](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) title
+|Code   | `Code`        | string    | The [Schema Code 🧩](<../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>)
+|       | `Translation` | string    | The [Schema Code 🧩](<../../4 ⚙️ Solution/25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) title
 |
 
 <br/>

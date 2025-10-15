@@ -2,14 +2,14 @@
 
 # ⏳🧭 Navigator vault domain
 
-> Part of [Agent 🫥 vault domains](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) 
+> Part of [Agent 🫥 vault domains](<../../25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) 
 
 <br/>
 
 1. **What are Navigator domains**?
 
     A [Navigator 🧭](<01 🧭🫥 Navigator agent.md>)  
-    * is an [Agent 🫥 vault domain](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) 
+    * is an [Agent 🫥 vault domain](<../../25 Data/24 🗄️ Vaults/04 🫥🗄️ Agent vault.md>) 
     * that helps users find their way to a destination
     * by orchestrating globally distributed maps
     * built from community-defined map points in [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/01 📜 Domain Manifest.md>).

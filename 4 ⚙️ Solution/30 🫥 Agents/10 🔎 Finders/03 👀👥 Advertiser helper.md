@@ -5,7 +5,7 @@
 
 1. **What is an Advertiser helper domain in NLWeb?**
 
-    Advertisers 👀 are [Helper 🛠️ domains](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) that intermediate the registration, distribution, and payment flows for ads on NLWeb. 
+    Advertisers 👀 are [Helper 🛠️ domains](<../../25 Data/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) that intermediate the registration, distribution, and payment flows for ads on NLWeb. 
 
     ---
 

@@ -19,7 +19,7 @@
     | Schema Code | Purpose |
     |-|-
     | [`.MSG` 🧩](<../../../7 🧩 Codes/$/🧩 MSG code.md>) | Schema of [Messages 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) 
-    | [`.TOKEN` 🧩](<../../../7 🧩 Codes/$/🧩 TOKEN code.md>) | Schema of [Tokens 🎫](<../25 🎫 Tokens/01 🎫 Token.md>)
+    | [`.TOKEN` 🧩](<../../../7 🧩 Codes/$/🧩 TOKEN code.md>) | Schema of [Tokens 🎫](<../../20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>)
     | [`unicode.org/FLAG` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 unicode.any-igo.org.md>) | Flags for country [Prompts 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>)
     | [`locale.org/TERRITORY` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 locale.any-igo.org.md>) | Country names for [Prompts 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>)
     | [`standards.org/639-1` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 standards.any-igo.org.md>) | Language codes (e.g., `en-us`)
@@ -79,8 +79,8 @@
 
 1. **How are Schema Codes used in data sharing between domains?**
    
-    When a [Consumer 💼 domain](<../27 💼 Consumers/04 💼🎭 Consumer role.md>) needs information stored in a [user's Vault 🗄️ domains](<03 🗄️🎭 Vault role.md>), 
-    * it invokes the [`Query@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) from the [user's Broker 🤵 domain](<../03 🤵 Brokers/03 🤵 Broker domain.md>), asking for datasets that comply with a given [Schema Code 🧩](<02 🧩 Schema Code.md>).
+    When a [Consumer 💼 domain](<../../20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) needs information stored in a [user's Vault 🗄️ domains](<03 🗄️🎭 Vault role.md>), 
+    * it invokes the [`Query@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) from the [user's Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>), asking for datasets that comply with a given [Schema Code 🧩](<02 🧩 Schema Code.md>).
 
     For example, consider an airline requesting passport data for a flight check-in from a citizen with dual British and American nationalities:
     * the airline may ask for the `icao.int/PASSPORT`  [Schema Code 🧩](<02 🧩 Schema Code.md>)

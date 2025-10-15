@@ -5,7 +5,7 @@
 1. **What is a Listener domain in NLWeb?**
 
     A [Listener 👂 domain](<02 👂🛠️ Listener helper.md>) is 
-    * a [Helper 🛠️ domain](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) 
+    * a [Helper 🛠️ domain](<../../25 Data/24 🗄️ Vaults/05 🛠️👥 Helper domain.md>) 
     * with a [Streamer 🌬️ domain role](<../42 🌬️ Streams/02 🌬️🎭 Streamer role.md>) 
     * that propagates [domain Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>) updates. 
 
@@ -93,8 +93,8 @@
     |-|-|-
     | `Identity` | Encompassing the Identity object of a [domain Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>). | `Identity`
     | `Trust/{key}` | Containing a single [Trust 👍](<../43 👍 Trusts/01 👍 Domain Trust.md>) relationship identified by a unique key. | `Trust/my-key`
-    | `Code/{key}` | Containing a single [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) definition identified by a unique key. | `Code/SSR/MEAL`
-    | `Code/{key}:{version}` | Containing a version of the schema definition for [Schema Code 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) identified. | `Code/SSR/MEAL:1.0`
+    | `Code/{key}` | Containing a single [Schema Code 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) definition identified by a unique key. | `Code/SSR/MEAL`
+    | `Code/{key}:{version}` | Containing a version of the schema definition for [Schema Code 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) identified. | `Code/SSR/MEAL:1.0`
     | `Delegate/{key}` | For a delegation identified by a unique key. | `Delegate/my-key`
     | `Offer/{key}` | For an offer identified by a unique key. | `Offer/my-key`
     
@@ -165,7 +165,7 @@
     Domains can apply the following techniques to keep [Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>) parts small:
     - follow the Manifest Schema to break the Manifest into valid paths (e.g., `Identity`);
     - separate lists into item-level parts (e.g., for `Trusts`, `Codes`, and `Delegates`);
-    - further break [Schema Codes 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>) by using Code references;
+    - further break [Schema Codes 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>) by using Code references;
     - write each part to key-value stores that support change notifications (e.g., object stores and NoSQL databases);
     - when creating and updating [Manifest 📜](<../44 📜 Manifests/01 📜 Domain Manifest.md>) parts, keep each part below 200 KB.
     
@@ -253,7 +253,7 @@
 1. **How can a subscriber filter notifications by content?**
 
     [Subscriber 🔔 domains](<../42 🌬️ Streams/04 🔔🎭 Subscriber role.md>) can set a filter when subscribing to [Listener 👂 domains](<02 👂🛠️ Listener helper.md>):
-    - e.g., a financial regulator may only want notifications about changes in domains referencing bank [Schema Codes 🧩](<../../20 🧑‍🦰 UI/24 🗄️ Vaults/02 🧩 Schema Code.md>).
+    - e.g., a financial regulator may only want notifications about changes in domains referencing bank [Schema Codes 🧩](<../../25 Data/24 🗄️ Vaults/02 🧩 Schema Code.md>).
 
     ---
     <br/>
