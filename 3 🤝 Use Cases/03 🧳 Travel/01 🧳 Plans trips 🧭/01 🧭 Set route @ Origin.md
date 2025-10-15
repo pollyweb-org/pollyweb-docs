@@ -7,7 +7,7 @@
 | 🤵 [Broker](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 💬 Any of these? [No] <br/> - Open [ 🧭 Navigator ] <br/> - [ Learn ] about maps | > 🧭 Navigator
 | 🤵 [Broker](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | ✅ Over to 🧭 Navigator.
 | [ new chat ]
-| 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agents/40 🔎 Finders/$ 🔎🫥 Finder agent.md>) | ⓘ Any Navigator (4.4 ⭐) [+]
+| 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agents/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Navigator (4.4 ⭐) [+]
 | 🧭 [Navigator](<../../../4 ⚙️ Solution/50 🫥 Agents/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | 😃 Hi! What do you need? <br/>- [ Get somewhere  ] <br/> - [ Something else ] | > Get so...
 | 🧭 [Navigator](<../../../4 ⚙️ Solution/50 🫥 Agents/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | ℹ️ Leave now, arrive soon. <br/> - [ Leave later ] <br/> - [ Arrive around... ] 
 | 🧭 [Navigator](<../../../4 ⚙️ Solution/50 🫥 Agents/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | 😃 What's the destination? <br/>-  [ 9:00 ] MAD15 office 🗓️ <br/> - [ 17:00 ] Any Hotel 🗓️  <br/> - [ 21:35 ] Airport T2 🗓️  <br/>- [ 🏠 home ] <br/> - [ Somewhere else ] | > 21:35

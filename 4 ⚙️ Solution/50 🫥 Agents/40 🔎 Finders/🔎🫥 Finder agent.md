@@ -31,8 +31,8 @@
     | [Domain](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | | | 🔆 [tap](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>)
-    | 🔎 [Finder](<$ 🔎🫥 Finder agent.md>) | ⓘ Any Host (4.3 ⭐) [+] | (expand)
-    | 🔎 [Finder](<$ 🔎🫥 Finder agent.md>) | ⓘ Any Host (4.3 ⭐)  [-] <br/> This host sells shoes.<br/>- They were founded in 1987.<br/>- Joined NLWeb 2 years ago.<br/>User feedback:<br/>- Delivery 4.7⭐ by 357 users<br/>- Support 3.5⭐ by 21 users
+    | 🔎 [Finder](<🔎🫥 Finder agent.md>) | ⓘ Any Host (4.3 ⭐) [+] | (expand)
+    | 🔎 [Finder](<🔎🫥 Finder agent.md>) | ⓘ Any Host (4.3 ⭐)  [-] <br/> This host sells shoes.<br/>- They were founded in 1987.<br/>- Joined NLWeb 2 years ago.<br/>User feedback:<br/>- Delivery 4.7⭐ by 357 users<br/>- Support 3.5⭐ by 21 users
 
     ---
     <br/>
@@ -49,12 +49,12 @@
 
     | [Domain](<../../40 👥 Domains/$ 👥 Domains/$ 👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | 🔎 [Finder](<$ 🔎🫥 Finder agent.md>) | 😃 Hi! What do you need? | `a bar`
-    | 🔎 [Finder](<$ 🔎🫥 Finder agent.md>) | 💬 Here are suggestions: <br/> - [ Any Club 🕺 ] (4.4 ⭐) <br/> &nbsp; └ 👟 1.7km 🚪 10pm-5am <br/> - [ Any Bar 🍸 ] (4.8 ⭐) <br/> &nbsp; ├ 👟 1.7km 🚪 1pm-10pm <br/> &nbsp; ├ open bar from 8pm <br/> &nbsp; └ closes in ~1 hour <br/> - [ Find 🔎 ] alternatives | > Any Bar 🍸
-    | 🔎 [Finder](<$ 🔎🫥 Finder agent.md>) | 💬 Suggested next steps: <br/> - [ Get there 🧭 ] <br/> - [ Buy ] entry in advance 
+    | 🔎 [Finder](<🔎🫥 Finder agent.md>) | 😃 Hi! What do you need? | `a bar`
+    | 🔎 [Finder](<🔎🫥 Finder agent.md>) | 💬 Here are suggestions: <br/> - [ Any Club 🕺 ] (4.4 ⭐) <br/> &nbsp; └ 👟 1.7km 🚪 10pm-5am <br/> - [ Any Bar 🍸 ] (4.8 ⭐) <br/> &nbsp; ├ 👟 1.7km 🚪 1pm-10pm <br/> &nbsp; ├ open bar from 8pm <br/> &nbsp; └ closes in ~1 hour <br/> - [ Find 🔎 ] alternatives | > Any Bar 🍸
+    | 🔎 [Finder](<🔎🫥 Finder agent.md>) | 💬 Suggested next steps: <br/> - [ Get there 🧭 ] <br/> - [ Buy ] entry in advance 
     | [🤗 Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ✅ Over to 🍸 Any Bar.
     | [ new chat ]
-    | 🔎 [Finder](<$ 🔎🫥 Finder agent.md>) | ⓘ Any Bar (4.4 ⭐) [+]
+    | 🔎 [Finder](<🔎🫥 Finder agent.md>) | ⓘ Any Bar (4.4 ⭐) [+]
     | 🍸 Bar   | ℹ️ Buy entry request.
     | 🍸 Bar  | 😃 How many entries?
    
