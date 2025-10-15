@@ -17,8 +17,8 @@
   * but for verification by another [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Msgs/00 👥 Domain.md>).
   
 * Used in:
-  * [💼⏩🧑‍🦰 Share Token @ Consumer](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token.md>) flow
-  * [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind.md>) flow
+  * [🧑‍🦰👉💼 Share Token 🎫 flow](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token 🎫.md>) 
+  * [🧑‍🦰👉💼 Share Bind 🔗 flow](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>) 
 
 
 <br/>

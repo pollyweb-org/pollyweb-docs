@@ -10,7 +10,7 @@
     * Allows a [Consumer 💼 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/27 💼 Consumers/04 💼🎭 Consumer role.md>) to verify a [Token 🎫](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/25 🎫 Tokens/01 🎫 Token.md>) issued before a [DKIM 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Msgs/01 📨 Domain Message.md>) rotation.
 * Used by:
     * [👥🔏 Domain Signature](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Msgs/05 👥🔏 Domain Signature.md>)
-    * [💼⏩🧑‍🦰 Share Token @ Consumer](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token.md>) flow
+    * [💼⏩🧑‍🦰 Share Token @ Consumer](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token 🎫.md>) flow
 
 <br/>
 
