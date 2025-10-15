@@ -50,7 +50,7 @@
 
     Yes. 
     - The NLWeb protocol includes a mechanism from transfer between Storage 📦 domains. 
-    - Failure to comply causes [Firewalls 🔥](<../../40 👥 Domains/43 👍 Trusts/03 🔥🛠️ Firewall helper.md>) to block the domain.
+    - Failure to comply causes [Firewalls 🔥](<../../45 Helpers/21 Firewalls/03 🔥🛠️ Firewall helper.md>) to block the domain.
 
     ---
 

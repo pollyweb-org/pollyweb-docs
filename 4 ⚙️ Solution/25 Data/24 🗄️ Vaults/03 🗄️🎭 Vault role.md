@@ -125,10 +125,10 @@
     Conversely, our global society is built on the trust that we have in the ability of corporations to deliver, and the ability of public institutions to regulate them — NLWeb aims to replicate our modern society with the following mechanisms:
     * [Vault 🗄️ domains](<03 🗄️🎭 Vault role.md>) controlled by corporations;
     * [Trusts 👍](<../../40 👥 Domains/43 👍 Trusts/01 👍 Domain Trust.md>) in [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>) to represent partnerships;
-    * [Authority 🏛️ domains](<../../45 Helpers/10 Authorities/02 🏛️🛠️ Authority helper.md>) for intergovernmental agreements;
+    * [Authority 🏛️ domains](<../../45 Helpers/10 🏛️ Authorities/02 🏛️🛠️ Authority helper.md>) for intergovernmental agreements;
     * [Broker 🤵 domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/03 🤵 Broker domain.md>) to protect users from bad corporate actors;
     * [Reviewer ⭐ domains](<../../30 🫥 Agents/10 🔎 Finders/01 ⭐🫥 Reviewer vault.md>) to collect social feedback on corporations;
-    * [Firewall 🔥 domains](<../../40 👥 Domains/43 👍 Trusts/03 🔥🛠️ Firewall helper.md>) to monitor and penalize bad corporate actors.
+    * [Firewall 🔥 domains](<../../45 Helpers/21 Firewalls/03 🔥🛠️ Firewall helper.md>) to monitor and penalize bad corporate actors.
     
     ---
     <br/>
