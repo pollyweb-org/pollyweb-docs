@@ -2,7 +2,7 @@
 # 📜 [Manifest](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>): ec.europa.eu
 <!--# 🇪🇺 https://quip.com/bBbpAAGfOCIz/-Europaeu-->
 
-> Inherits from [`nlweb.org/TOKEN 🧩`](<../../../7 🧩 Codes/$/🧩 TOKEN code.md>)
+> Inherits from [`nlweb.org/TOKEN 🧩`](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/10 🧩 TOKEN code.md>)
 
 ```yaml
 🤝: nlweb.org/MANIFEST
