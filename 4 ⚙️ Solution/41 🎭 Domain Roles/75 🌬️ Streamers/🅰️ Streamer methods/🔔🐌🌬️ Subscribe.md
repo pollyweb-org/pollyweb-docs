@@ -2,7 +2,7 @@
 
 > Implements the [Streamer 🌬️ domain role](<../🌬️🎭 Streamer role.md>)
 
-> Used in [Stream @ Streamer 🌬️⏩🔔](<../01 🌬️⏩🔔 Stream.md>)
+> Used in [Stream @ Streamer 🌬️⏩🔔](<../⏩ Streamer flows/🌬️⏩🔔 Stream.md>)
 
 <br/>
 
