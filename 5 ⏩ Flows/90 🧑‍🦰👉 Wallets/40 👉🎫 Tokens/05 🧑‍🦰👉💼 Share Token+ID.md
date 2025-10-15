@@ -16,7 +16,7 @@
 |3|[💼🐌🤵 `Invite@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/64 💼🐌🤵 Invite.md>)|Invite the [Identity 🆔](<../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) to the [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
 |4| [🤵🐌🛠️ `Invited@Helper`](<../../../6 🅰️ APIs/49 🛠️🅰️ Helper/11 🤵🐌🛠️ Invited.md>) | Proxy the invite to the [Identity 🆔](<../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) 
 |5|[🆔⏩🧑‍🦰 Take Selfie 📸](<../../55 🆔⏩ Identities/04 🆔⏩🧑‍🦰 Selfie.md>) | Do a [face scan 😶](<../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/21 🆔😶 Face scan.md>) with liveness check
-|6|[🗄️⏩💼 Consume 🧩](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vaults/80 🗄️⏩ Vaults/32 🗄️⏩💼 Consume 🔗.md>) | Confirm the [Token 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) ownership
+|6|[🗄️⏩💼 Consume 🧩](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vaults/32 🗄️⏩💼 Consume 🔗.md>) | Confirm the [Token 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/$ 🎫 Token.md>) ownership
 |
 
 <br/>
