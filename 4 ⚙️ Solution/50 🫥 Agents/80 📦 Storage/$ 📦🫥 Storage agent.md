@@ -95,7 +95,7 @@
 
     This solution requires the following components:
     - 📜 **Manifester**: to expose its [Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/$ 📜 Domain Manifest.md>); 
-    - 📨 **Inbox**: a combination of the Distributer plus the Endpoint for domain [📨 Messaging](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>).
+    - 📨 **Inbox**: a combination of the Distributer plus the Endpoint for domain [📨 Messaging](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>).
 
     Design decisions:
     - Storage 📦 vaults write asynchronously, meaning that a read after a write may return the old value and not the one just written 
@@ -113,7 +113,7 @@
 
     ![](<. 📎 Assets/📦 Storage$Client @AWS.png>)
 
-    Storage clients rely on the following components for domain [📨 Messaging](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>):
+    Storage clients rely on the following components for domain [📨 Messaging](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>):
     - 📨 **Inbox**: the combination of the Distributer plus the Endpoint;
     - 🚀 **Sync Call**: a synchronous request outbound that signed requests;
     - 📮 **Async Post**: an async message outbound that signs messages.

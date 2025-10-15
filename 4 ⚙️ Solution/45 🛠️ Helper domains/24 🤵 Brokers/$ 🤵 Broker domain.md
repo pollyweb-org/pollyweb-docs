@@ -22,12 +22,12 @@
     |-|-|-
     |1| `Hi`     | The user initiates an interaction with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>) - e.g., by scanning a QR and sending the [QR Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) to the their [Broker 🤵 domain](<$ 🤵 Broker domain.md>).
     |2| `Hi-A`   | The [user's Broker 🤵 domain](<$ 🤵 Broker domain.md>) opens a new [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with the [Locator's Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>), obfuscating the user (e.g., ABC).
-    |3| `Bye-A`  | The [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) runs its workflow for the anonymous user (e.g., ABC), and finishes it with a goodbye [Message 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>).
-    |4| `Bye`    | The [user's Broker 🤵 domain](<$ 🤵 Broker domain.md>) forwards the [Messages 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) to the [user's Notifier 📣 domain](<../../20 🧑‍🦰 UI/02 📣 Notifiers/$ 📣 Notifier domain.md>), to be pushed to the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
+    |3| `Bye-A`  | The [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) runs its workflow for the anonymous user (e.g., ABC), and finishes it with a goodbye [Message 📨](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>).
+    |4| `Bye`    | The [user's Broker 🤵 domain](<$ 🤵 Broker domain.md>) forwards the [Messages 📨](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>) to the [user's Notifier 📣 domain](<../../20 🧑‍🦰 UI/02 📣 Notifiers/$ 📣 Notifier domain.md>), to be pushed to the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/$ 🧑‍🦰 Wallet app.md>).
     |A| `Hi`     | The user initiates a second interaction with the same [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>).
     |B| `Hi-X`   | The [user's Broker 🤵 domain](<$ 🤵 Broker domain.md>) opens a new [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with the same [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>), obfuscating again the user (e.g., XYZ).
     |C| `Bye-X` | The [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/$ 🤗🎭 Host role.md>) runs its workflow for the new anonymous user (e.g., XYZ), without realizing that it's the same user as before.
-    |D| `Bye`   | The [user's Broker 🤵 domain](<$ 🤵 Broker domain.md>) forwards the [Messages 📨](<../../40 👥 Domains/41 📨 Messages/01 📨 Domain Message.md>) again.
+    |D| `Bye`   | The [user's Broker 🤵 domain](<$ 🤵 Broker domain.md>) forwards the [Messages 📨](<../../40 👥 Domains/41 📨 Messages/$ 📨 Domain Message.md>) again.
 
     ---
     <br/>
