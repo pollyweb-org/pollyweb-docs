@@ -2,7 +2,7 @@
 # 🗄️🐌💼 Consume @ Consumer
 
 
-> Used by [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet chats/in Chats 💬/🧑‍🦰👉💼 Share Bind 🔗.md>)
+> Used by [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet chats/in Prompts 🤔/🧑‍🦰👉💼 Share Bind 🔗.md>)
 
 * Asks the [Consumer 💼 domain](<../💼🎭 Consumer role.md>) to consume a given [Bind 🔗](<../../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>).
 * Tells them to collect data shared by a user in a [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>).

@@ -4,7 +4,7 @@
 
 # 🗄️🐌🤵 Bindable @ Broker
 
-> Called by [🗄️⏩🧑‍🦰 Bind @ Vault](<../../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet chats/in Chats 💬/🧑‍🦰👉🗄️ Bind 🔗.md>).
+> Called by [🗄️⏩🧑‍🦰 Bind @ Vault](<../../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet chats/in Prompts 🤔/🧑‍🦰👉🗄️ Bind 🔗.md>).
 
 
 * A [Vault 🗄️ domain](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) 
