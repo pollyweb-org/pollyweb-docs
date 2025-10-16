@@ -70,7 +70,7 @@
     | [Command ⌘](<⌘ Command.md>) | Purpose
     |-|-
     | 🔁 [`REPEAT`](<REPEAT 🔁.md>) | To update the message.
-    | ⏳ [`TEMP`](<../../🤔 Prompts/🤔📢 Prompt status/25 ⏳ TEMP prompt.md>) | Show the temporary message.
+    | ⏳ [`TEMP`](<../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳ prompt.md>) | Show the temporary message.
     
     ---
     <br/>
@@ -111,12 +111,12 @@
     | [Command ⌘](<⌘ Command.md>) | Purpose
     |-|-
     | ⬇️ [`EVAL`](<../😃💾 Talker data/20 ⬇️ EVAL flow.md>) | to assess the backend queue length.
-    | ℹ️ [`INFO`](<../../🤔 Prompts/🤔📢 Prompt status/21 ℹ️ INFO prompt.md>) | To show the initial message.
+    | ℹ️ [`INFO`](<../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) | To show the initial message.
     | 🔁 [`REPEAT`](<REPEAT 🔁.md>) | To re-assess the queue periodically.
     | 🔁 [`RETURN`](<REPEAT 🔁.md>) | To exit the loop when it's the user's turn.
     | ▶️ [`RUN`](<RUN ▶️.md>) | To start the waiting loop.
-    | ✅ [`SUCCESS`](<../../🤔 Prompts/🤔📢 Prompt status/23 ✅ SUCCESS prompt.md>) | To say that it's ready.
-    | ⏳ [`TEMP`](<../../🤔 Prompts/🤔📢 Prompt status/25 ⏳ TEMP prompt.md>) | To show work in progress.
+    | ✅ [`SUCCESS`](<../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>) | To say that it's ready.
+    | ⏳ [`TEMP`](<../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳ prompt.md>) | To show work in progress.
 
     ---
     <br/>
@@ -173,7 +173,7 @@
     | 🔁 [`REPEAT`](<REPEAT 🔁.md>) | To re-assess the queue periodically.
     | 🔁 [`RETURN`](<REPEAT 🔁.md>) | To exit the loop when it's the user's turn.
     | ▶️ [`RUN`](<RUN ▶️.md>) | To start the waiting loop.
-    | ⏳ [`TEMP`](<../../🤔 Prompts/🤔📢 Prompt status/25 ⏳ TEMP prompt.md>) | To show work in progress.
+    | ⏳ [`TEMP`](<../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳ prompt.md>) | To show work in progress.
 
     ---
     <br/>

@@ -34,10 +34,10 @@
 
     Command | Purpose
     |-|-
-    | ℹ️ [`INFO`](<../../🤔 Prompts/🤔📢 Prompt status/21 ℹ️ INFO prompt.md>) | Information message.
-    | ⏳ [`TEMP`](<../../🤔 Prompts/🤔📢 Prompt status/25 ⏳ TEMP prompt.md>) |Temporary status message.
-    | ✅ [`SUCCESS`](<../../🤔 Prompts/🤔📢 Prompt status/23 ✅ SUCCESS prompt.md>) | Successful status message.
-    | ❌ [`FAILURE`](<../../🤔 Prompts/🤔📢 Prompt status/24 ❌ FAILURE prompt.md>) | Unsuccessful status message.
+    | ℹ️ [`INFO`](<../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) | Information message.
+    | ⏳ [`TEMP`](<../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳ prompt.md>) |Temporary status message.
+    | ✅ [`SUCCESS`](<../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>) | Successful status message.
+    | ❌ [`FAILURE`](<../../🤔 Prompts/🤔📢 Prompt status/FAILURE ❌ prompt.md>) | Unsuccessful status message.
 
     ---
     <br/>

@@ -160,10 +160,10 @@
 
     | [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/⌘ Command.md>) | Purpose
     |-|-
-    | ℹ️ [`INFO`](<../🤔📢 Prompt status/21 ℹ️ INFO prompt.md>) | To show the result.
+    | ℹ️ [`INFO`](<../🤔📢 Prompt status/INFO ℹ️ prompt.md>) | To show the result.
     | 1️⃣ [`ONE`](<53 1️⃣ ONE prompt.md>) | To show the options.
     | 🔀 [`CASE`](<../../😃 Talkers/😃⚙️ Talker cmds/CASE 🔀.md>) | To check the selected option.
-    | ⏳ [`TEMP`](<../🤔📢 Prompt status/25 ⏳ TEMP prompt.md>) | To show work in progress.
+    | ⏳ [`TEMP`](<../🤔📢 Prompt status/TEMP ⏳ prompt.md>) | To show work in progress.
     
 
     ---
@@ -204,7 +204,7 @@
 
     | [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/⌘ Command.md>) | Purpose
     |-|-
-    | ℹ️ [`INFO`](<../🤔📢 Prompt status/21 ℹ️ INFO prompt.md>) | To show the message.
+    | ℹ️ [`INFO`](<../🤔📢 Prompt status/INFO ℹ️ prompt.md>) | To show the message.
     | 🔁 [`REPEAT`](<../../😃 Talkers/😃⚙️ Talker cmds/REPEAT 🔁.md>) | To repeat the input cycle forever.
      
 
