@@ -24,7 +24,7 @@ What it solves for customers:
 
 | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 | - | - | - |
-| | | 🔆 [tap](<../../../4 ⚙️ Solution/25 Locators/1 🔆 Locators/🔆 Locator.md>)
+| | | 🔆 [tap](<../../../4 ⚙️ Solution/25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>)
 | 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Club (4.4 ⭐) [+]
 | 🕺 Club           | 😃 What do you need? <br/>- [ Order ] from bar <br/>- [ Something else ] | > Order
 | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Ready to order? [Yes, No] <br/> - your curator orders 🧚<br/> - your vitalogist reviews 💖 <br/> - your payer pays the bill 💳 <br/> - we'll alert  when ready 📣<br/> -  tap the bar to collect ✨ <br/> - baristas check names 🧢<br/> - your vitalogist records it 💖 | > Yes

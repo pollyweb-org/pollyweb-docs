@@ -41,7 +41,7 @@
 
     | Role 🎭&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Responsibility
     |-|-
-    | [🍏 Brand](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>) | Bundles and sells physical products as [Things 💠](<../../25 Locators/2 💠 Things/💠🔆 Thing locator.md>)
+    | [🍏 Brand](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>) | Bundles and sells physical products as [Things 💠](<../../25 🔆 Locators/2 💠 Things/💠🔆 Thing locator.md>)
     | [💼 Consumer](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) | Consumes data from [Vaults 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) and [Issuers 🎴](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>)
     | [🪣 Dataset](<../../41 🎭 Domain Roles/28 🪣 Datasets/$ 🪣🎭 Dataset role.md>) | Exposes that exposes a synchronous data API
     | [🤲 Helper](<../../45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>) | Offloads undifferentiated logic from [domains 👥](<👥 Domain.md>)

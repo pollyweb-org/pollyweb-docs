@@ -74,7 +74,7 @@
 
     The airport knows what [Broker 🤵 domain](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) to reach out to, 
     * because the printed QR version of a [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) does not contain the Token's content;
-    * instead, the QR presented by [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) contain only a [Locator 🔆](<../../25 Locators/1 🔆 Locators/🔆 Locator.md>) with the ID of the [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) and the [Broker 🤵 domain](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) that holds the content and the status of the [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>).
+    * instead, the QR presented by [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) contain only a [Locator 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) with the ID of the [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) and the [Broker 🤵 domain](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) that holds the content and the status of the [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>).
 
     ---
     <br/>

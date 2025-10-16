@@ -30,6 +30,6 @@ Body:
 || `To`      | string | [Broker 🤵](<../../🤵🤲 Broker helper.md>) of the [Bind 🔗](<../../../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>)
 || `Subject` | string | `Engage@Broker`
 | Body | `BindID`  | uuid   | [Bind 🔗](<../../../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) of [`.HOST/BIND/SELF` 🧩](<../../../../../7 🧩 Codes/$/🧩 VAULT code.md>)
-| | `Locator`| string | [Locator 🔆](<../../../../25 Locators/1 🔆 Locators/🔆 Locator.md>) for [`Hello@Host`](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🅰️ Host methods/🤵🐌🤗 Hello.md>)
+| | `Locator`| string | [Locator 🔆](<../../../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) for [`Hello@Host`](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🅰️ Host methods/🤵🐌🤗 Hello.md>)
 | | `Parameters`| object | Parameters for [`Hello@Host`](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🅰️ Host methods/🤵🐌🤗 Hello.md>)
 |
