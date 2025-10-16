@@ -1,0 +1,37 @@
+# 🧑‍💻🐌☁️ Write @ Hoster
+
+> Implements [Hoster ☁️ helper domain](<../../../45 🤲 Helper domains/55 ☁️ Hosters/☁️🤲 Hoster helper.md>)
+
+> Part of [😃⏩🧑‍💻 Wait @ Talker](<../😃⏩ Talker flows/30 😃⏩🧑‍💻 Wait ⏸️.md>) flow
+
+> Paired with [`Placed@Talker`](<10 🧑‍💻🚀😃 Placed.md>) message
+
+* Writes a value to a [$Placeholder 💾](<../😃💾 Talker data/10 💾 $Placeholder.md>).
+* [$Placeholder 💾](<../😃💾 Talker data/10 💾 $Placeholder.md>) names must to start with a letter.
+
+<br/>
+
+## Async Message 🐌
+
+
+```yaml
+Header:
+    From: any-host.com
+    To: any-hoster.com
+    Subject: Place@Talker
+
+Body:
+    ChatID: <chat-uuid>
+    Placeholder: $p
+    Value: {A:1, B:2}
+```
+
+|Object|Property|Type|Description
+|-|-|-|-
+| Header    | `From`        | string    | [Host 🤗 domain](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) name
+|           | `To`          | string    | [Hoster ☁️ domain](<../../../45 🤲 Helper domains/55 ☁️ Hosters/☁️🤲 Hoster helper.md>) name
+|           | `Subject`     | string    | `Place@Talker`
+| Body      | `ChatID`      | uuid      | [Chat 💬](<../../💬 Chats/💬 Chat.md>) ID
+|           | `Placeholder` | string    | [$Placeholder 💾](<../😃💾 Talker data/10 💾 $Placeholder.md>) name
+|           | `Value`       | any    | Any value to write
+|

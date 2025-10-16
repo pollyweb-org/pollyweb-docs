@@ -2,7 +2,7 @@
 
 > Calls [🧑‍🦰🚀🎴 Issued @ Issuer](<../../../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🅰️ Issuer methods/🧑‍🦰🚀🎴 Issued.md>) and saves the response  into a local file. 
 
-> Part of the [🧑‍🦰👉🎴 Offer Token @ Issuer](<../../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/02 🧑‍🦰👉🎴 Save token.md>) flow.
+> Part of the [🧑‍🦰👉🎴 Offer Token @ Issuer](<../../../1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/40 👉🎫 Tokens/02 🧑‍🦰👉🎴 Save token.md>) flow.
 
 
 <br/>

@@ -7,8 +7,8 @@
 > List of [Tokens 🎫](<../../../../30 Data/3 🎫 Tokens/🎫 Token.md>) in a [Wallet 🧑‍🦰 app](<../../../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) for a human user, mapping to the local file.
 
 > Used in:
-> <br/> • [🧑‍🦰👉🤵 Translate @ Broker](<../../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/12 🧑‍🦰👉🤵 Translate.md>) flow
-> <br/> • [🧑‍🦰👉🤵 List Tokens @ Broker](<../../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/01 🧑‍🦰👉🤵 List tokens.md>) flow
+> <br/> • [🧑‍🦰👉🤵 Translate @ Broker](<../../../1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/10 👉🤵 Set-up/12 🧑‍🦰👉🤵 Translate.md>) flow
+> <br/> • [🧑‍🦰👉🤵 List Tokens @ Broker](<../../../1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/40 👉🎫 Tokens/01 🧑‍🦰👉🤵 List tokens.md>) flow
 
 <br/>
 

@@ -1,7 +1,7 @@
 # 🤵🐌🤗 Abandoned @ Host
 
 
-> Part of the [Abandon session 🧑‍🦰👉🤗](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>) flow.
+> Part of the [Abandon session 🧑‍🦰👉🤗](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>) flow.
 
 Tells all [Host 🤗 domains](<../🤗🎭 Host role.md>) in [Chat 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>) that the user abandoned it.
 

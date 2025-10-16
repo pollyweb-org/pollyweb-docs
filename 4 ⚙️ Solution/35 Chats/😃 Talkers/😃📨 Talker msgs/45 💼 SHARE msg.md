@@ -10,9 +10,9 @@
     * is a message [Command ⌘](<../😃⚙️ Talker cmds/10 ⌘ Command.md>) 
     * that asks for user data in [Schema Codes 🧩](<../../../30 Data/1 🧩 Schema Codes/🧩 Schema Code.md>)
     * triggering the following flows:
-      * [🧑‍🦰👉💼 Share Bind @ Wallet](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>)
-      * [🧑‍🦰👉💼 Share Token @ Wallet](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token 🎫.md>)
-      * [🧑‍🦰👉💼 Share Token+ID @ Wallet](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/05 🧑‍🦰👉💼 Share Token+ID.md>)
+      * [🧑‍🦰👉💼 Share Bind @ Wallet](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>)
+      * [🧑‍🦰👉💼 Share Token @ Wallet](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token 🎫.md>)
+      * [🧑‍🦰👉💼 Share Token+ID @ Wallet](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/40 👉🎫 Tokens/05 🧑‍🦰👉💼 Share Token+ID.md>)
 
     ---
     <br/>
