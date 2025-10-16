@@ -31,8 +31,8 @@ deactivate wallet
 
 ' BROKER. UNBIND
 activate broker
-    broker --> vault: 3) Unbind 🐌
-    broker --> wallet: 4) ⏪ Update Binds 🔗
+    broker --> wallet: 3) ⏪ Update Binds 🔗
+    broker --> vault: 4) Unbound 🐌
 deactivate broker
 
 
