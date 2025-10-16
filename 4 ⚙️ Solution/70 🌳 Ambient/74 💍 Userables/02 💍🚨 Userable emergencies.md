@@ -28,7 +28,7 @@
     | 🪄 [Wand](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>)| 😐 Are you the owner? [Yes, No] | > No
     | 🪄 [Wand](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>)| ℹ️ Public notes:<br/>- suffers from epilepsy <br/> - allergic to penicillin
     | 🪄 [Wand](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>)| 😐 Activate emergency? [Yes, No] <br/> - I'll need your location <br/> - your contact details <br/>- and an identity check | > Yes
-    | 🪄 [Wand](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>) | [📍 Share location?](<../../35 Chats/🤔 Prompts/7 ✏️ Input prompts/91 📍 LOCATION prompt.md>) [Yes, No] | > Yes
+    | 🪄 [Wand](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>) | [📍 Share location?](<../../35 Chats/🤔 Prompts/🤔✏️ Prompt inputs/91 📍 LOCATION prompt.md>) [Yes, No] | > Yes
     | 🧢 [Persona](<../../50 🫥 Agent domains/70 🧢 Personas/🧢🫥 Persona agent.md>) | 🫥 Share contacts ? [Yes, No] | > Yes
     | 🆔 [Identity](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Share identity? [Yes, No] | > Yes
     | 🆔 [Identity](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../50 🫥 Agent domains/45 🆔 Identities/21 🆔😶 Face scan.md>)

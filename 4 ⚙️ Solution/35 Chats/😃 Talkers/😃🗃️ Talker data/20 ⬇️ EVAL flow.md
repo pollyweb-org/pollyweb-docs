@@ -117,7 +117,7 @@
 
     | [Command ⌘](<../😃🌊 Talker flow/10 ⌘ Command.md>) | Purpose
     |-|-
-    | 👍 [`CONFIRM`](<../../🤔 Prompts/7 ✏️ Input prompts/31 👍 CONFIRM prompt.md>) | To pause for user confirmation.
+    | 👍 [`CONFIRM`](<../../🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) | To pause for user confirmation.
     | 🔁 [`REPEAT`](<../😃🌊 Talker flow/23 🔁 REPEAT flow.md>) | To add more rows.
 
 
