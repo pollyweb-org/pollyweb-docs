@@ -26,7 +26,7 @@
     |🧚| [Curator](<../Curators 🧚/🧚🫥 Curator agent.md>) | ChatGPT | Filters options sent by [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>).
     |🧳| [Custodian](<../Custodians 🧳/🧳🫥 Custodian agent.md>) | FindMy | Manages the user's [Things 💠](<../../25 🔆 Locators/2 💠 Things/💠🔆 Thing locator.md>), including [Userables 💍](<../../25 🔆 Locators/4 💍 Userables/💍💠 Userable thing.md>) and [⌚ Tapbands](<../../25 🔆 Locators/5 ⌚ Tapbands/⌚💠 Tapband thing.md>).
     |🔎| [Finder](<../Finders 🔎/🔎🫥 Finder agent.md>) | Google | Searches for [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>), and  introduces them when they start a ../05 💬 Chats/01 💬 Chat.mds/01 💬 Chat.md>).
-    |🆔|[Identity](<../Identities 🆔/$ 🆔🫥 Identity agent.md>) | IDOne | Confirms that the user is physically present behind the remote screen.
+    |🆔|[Identity](<../Identities 🆔/🆔🫥 Identity agent.md>) | IDOne | Confirms that the user is physically present behind the remote screen.
     |🌼| [Keybox](<../Keyboxes 🌼/$ 🌼🫥 Keybox agent.md>) | FindMy | Stores and manages the user's [Padlock 🔒](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>) keys.
     |📇| [Mingler](<../Minglers 📇/$ 📇🫥 Mingler agent.md>) | WhatsApp | Connects multiple users in a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>), allowing them to exchange [Tokens 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>).
     |🧭| [Navigator](<../Navigators 🧭/$ 🧭🫥 Navigator agent.md>) | G.Maps | Helps users going from point A to B.
@@ -54,9 +54,9 @@
 
     * And no, Agents 🫥 are not singletons from the perspective [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) allow roles not to have a default Agent 🫥 when there are more than one [Vault 🗄️ domains](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) that support the role's [Schema Code 🧩](<../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>).
 
-        * One use case where this is important is when a user has two nationalities (e.g., French and Japanese), and each nation needs its own [Identity 🆔 agent](<../Identities 🆔/$ 🆔🫥 Identity agent.md>).
+        * One use case where this is important is when a user has two nationalities (e.g., French and Japanese), and each nation needs its own [Identity 🆔 agent](<../Identities 🆔/🆔🫥 Identity agent.md>).
 
-        * When this happens, the user's [Broker 🤵 domain](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) will ask the user to select which of the two [Identity 🆔 agents](<../Identities 🆔/$ 🆔🫥 Identity agent.md>) should receive the [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) request.
+        * When this happens, the user's [Broker 🤵 domain](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) will ask the user to select which of the two [Identity 🆔 agents](<../Identities 🆔/🆔🫥 Identity agent.md>) should receive the [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) request.
 
     ---
     <br/>

@@ -8,7 +8,7 @@ Bind to an Editor agent
 | 🧑‍💻 [Editor](<../🧑‍💻🫥 Editor agent.md>) | ℹ️ Bind vault requested.
 | 🤵 [Broker](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Bind vault? [No] <br/> - [ Any Persona 🧢 ] <br/> - [ Any Payer 💳 ] <br/> - ... | > Any Persona 🧢
 | 🧢 [Persona](<../../Personas 🧢/🧢🫥 Persona agent.md>) | ⓘ Folder bind requested.
-| 🆔 [Identity](<../../Identities 🆔/$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../Identities 🆔/21 🆔😶 Face scan.md>)
+| 🆔 [Identity](<../../Identities 🆔/🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../Identities 🆔/21 🆔😶 Face scan.md>)
 | 🧑‍💻 [Editor](<../🧑‍💻🫥 Editor agent.md>) | ✅ Bound to Any Persona 🧢
 | ⭐ [Rate](<../../Reviewers ⭐/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5 |
 ||
