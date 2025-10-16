@@ -27,7 +27,7 @@ How to book a room at a hotel?
 | 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) | 💭 Here's all king rooms: <br/> - [ B ] $250: king to garden  <br/> - [ D ] $335: king to river 🥐 | `the 1st`
 | 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) | ℹ️ Room selected: [Change] <br/> - king to garden ($250) <br/> - does not include breakfast
 | 🌍 Agency   | 😃 Confirm $250? [Yes, No] <br/> - Any Hotel <br/> - at Calla de St. Ana, Madrid, SP <br/> - room king to garden <br/> - from Feb 18 to Feb 20 <br/> - 1 person, no breakfast <br/> - cancel for free until Jan 7 | > Yes
-| 🧢 [Persona](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/70 🧢 Personas/$ 🧢🫥 Persona agent.md>) | 🫥 Share booking contacts? [No] <br/>- [ 🧑‍🦰 personal ] <br/>- [ 💼 work ] <br/>- [ 🧔 Daniel ] | > 💼 work
+| 🧢 [Persona](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/70 🧢 Personas/🧢🫥 Persona agent.md>) | 🫥 Share booking contacts? [No] <br/>- [ 🧑‍🦰 personal ] <br/>- [ 💼 work ] <br/>- [ 🧔 Daniel ] | > 💼 work
 | 🌍 Agency   | ℹ️ Thanks, Dr. Alice! 
 | 🆔 [Identity](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 [Sign terms?](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/45 🆔 Identities/16 🆔🔏 Verify Signatures.md>) 📄 [Yes, No] | > Yes
 | 🆔 [Identity](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/45 🆔 Identities/21 🆔😶 Face scan.md>)

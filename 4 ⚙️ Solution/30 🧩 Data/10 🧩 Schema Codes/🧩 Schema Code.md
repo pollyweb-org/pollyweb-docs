@@ -213,7 +213,7 @@
         * who defines properties `Code`, `Domain`, `Resource`.
     * It is inherited by [`.TOKEN` 🧩](<../30 🎫 Tokens/🧩 Token schemas/🧩 TOKEN.md>)
         * who adds properties `Issued`, `Starts`, `Expires`, `Signature`.
-    * Then inherited by [`.HOST/BOOKING` 🧩](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🧩 Host schemas/🧩 HOST\BOOKING.md>)
+    * Then inherited by [`.HOST/BOOKING` 🧩](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🧩 Host schemas/🧩 HOST'BOOKING.md>)
         * who adds properties `For`, `Time`, `Place`, `Seat`, `Latitude`, `Longitude`.
     
     ---
@@ -250,7 +250,7 @@
         * whose property `Domain`
         * references `Domain@.TYPES`
         * defined in [`.TYPES` 🧩](<../../../7 🧩 Codes/$/🧩 TYPES code.md>).
-    * See [`.PERSONA/ADDRESS` 🧩](<../../../7 🧩 Codes/PERSONA/🧩 PersonaAddress.md>)
+    * See [`.PERSONA/ADDRESS` 🧩](<../../50 🫥 Agent domains/70 🧢 Personas/🧢🧩 Persona schemas/🧩 ADDRESS.md>)
         * whose property `Country`
         * references `Alpha2@standards.any-igo.org/3166-1`
         * defined in [`standards.any-igo.org/3166-1` 📜](<../../../8 📜 Manifests/👥 any-igo.org/📜 standards.any-igo.org.md>).

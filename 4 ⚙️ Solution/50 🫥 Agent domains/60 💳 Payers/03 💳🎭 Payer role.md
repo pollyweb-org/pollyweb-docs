@@ -156,8 +156,8 @@
 1. **Can Payers read card details from Persona vaults?**
 
     No.
-    * For design simplicity, [Payer 💳 domains](<03 💳🎭 Payer role.md>) store user's card details instead of pulling them from [Persona 🧢 vaults](<../70 🧢 Personas/$ 🧢🫥 Persona agent.md>) .
-    * Storing card details required special security settings defined by PCI/DSS policies, which [Payer 💳 domains](<03 💳🎭 Payer role.md>) already hold but [Persona 🧢 vaults](<../70 🧢 Personas/$ 🧢🫥 Persona agent.md>) would have to implement.
+    * For design simplicity, [Payer 💳 domains](<03 💳🎭 Payer role.md>) store user's card details instead of pulling them from [Persona 🧢 vaults](<../70 🧢 Personas/🧢🫥 Persona agent.md>) .
+    * Storing card details required special security settings defined by PCI/DSS policies, which [Payer 💳 domains](<03 💳🎭 Payer role.md>) already hold but [Persona 🧢 vaults](<../70 🧢 Personas/🧢🫥 Persona agent.md>) would have to implement.
 
     ---
     <br/>
