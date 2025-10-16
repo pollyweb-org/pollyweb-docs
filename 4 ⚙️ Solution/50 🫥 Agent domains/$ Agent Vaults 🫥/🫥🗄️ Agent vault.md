@@ -64,7 +64,7 @@
 
 1. **How can users chat with an Agent?**
 
-    To open an [Agent 🫥 vault](<$ 🫥🗄️ Agent vault.md>), users can ask their [Broker 🤵 domain](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>);
+    To open an [Agent 🫥 vault](<🫥🗄️ Agent vault.md>), users can ask their [Broker 🤵 domain](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>);
     * e.g., by stating what they're trying to accomplish;
     * as in the following example, from the [Trip Return 🤝 use case](<../../../3 🤝 Use Cases/03 🧳 Travel/01 🧳 Plans trips 🧭/02 🧭 Return @ Destination.md>).
 

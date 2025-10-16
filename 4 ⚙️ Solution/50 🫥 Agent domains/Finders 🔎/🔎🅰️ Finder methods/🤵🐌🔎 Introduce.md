@@ -24,7 +24,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header | `From`    | string | [Finder 🔎](<../🔎🫥 Finder agent.md>) register as user [Agent 🫥](<../../$ Agent Vaults 🫥/$ 🫥🗄️ Agent vault.md>) 
+| Header | `From`    | string | [Finder 🔎](<../🔎🫥 Finder agent.md>) register as user [Agent 🫥](<../../$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>) 
 |        | `To`      | string | [Broker 🤵](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) from [`Converse@Notifier`](<../../../20 🧑‍🦰 UI/2 📣 Notifiers/📣🅰️ Notifier methods/2 💬 Chats/1 🤵🐌📣 Converse.md>) |
 |        | `Subject` | string | `Introduced@Broker`
 | Body   | `ChatID`  | uuid   | [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) from [`Converse@Notifier`](<../../../20 🧑‍🦰 UI/2 📣 Notifiers/📣🅰️ Notifier methods/2 💬 Chats/1 🤵🐌📣 Converse.md>)

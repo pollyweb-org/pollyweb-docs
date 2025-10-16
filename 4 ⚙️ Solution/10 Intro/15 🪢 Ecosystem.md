@@ -19,9 +19,9 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
     
     * [Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) may allow users to edit their data through the user's [Editor 🧑‍💻 agent](<../50 🫥 Agent domains/Editors 🧑‍💻/🧑‍💻🫥 Editor agent.md>).
 
-* Users designate [Agents 🫥 domains](<../50 🫥 Agent domains/$ Agent Vaults 🫥/$ 🫥🗄️ Agent vault.md>) to handle specific well-defined roles in [Chats 💬](<../35 💬 Chats/💬 Chats/💬 Chat.md>) with [Host 🤗 domains](<../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) (e.g., payments).
+* Users designate [Agents 🫥 domains](<../50 🫥 Agent domains/$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>) to handle specific well-defined roles in [Chats 💬](<../35 💬 Chats/💬 Chats/💬 Chat.md>) with [Host 🤗 domains](<../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) (e.g., payments).
 
-    * These [Agents 🫥](<../50 🫥 Agent domains/$ Agent Vaults 🫥/$ 🫥🗄️ Agent vault.md>) are [Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) that the user told their [Broker 🤵 domain](<../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) to invoke by default when a role is required.
+    * These [Agents 🫥](<../50 🫥 Agent domains/$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>) are [Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) that the user told their [Broker 🤵 domain](<../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) to invoke by default when a role is required.
 
 
 

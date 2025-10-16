@@ -18,7 +18,7 @@
     | `Banks` | These hold and revoke customers' bank accounts.
     | `Hospitals` | These hold and control patients' medical records.
     | `Governments` | These hold and revoke citizens' identity documents.
-    |[🫥 `Agents`](<../../50 🫥 Agent domains/$ Agent Vaults 🫥/$ 🫥🗄️ Agent vault.md>) | These are [Vaults 🗄️](<🗄️🎭 Vault role.md>) with well-known NLWeb APIs.
+    |[🫥 `Agents`](<../../50 🫥 Agent domains/$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>) | These are [Vaults 🗄️](<🗄️🎭 Vault role.md>) with well-known NLWeb APIs.
     
 
     ---
@@ -40,7 +40,7 @@
 
 1. **What are default Vaults?**
 
-    To streamline user onboarding, [Broker 🤵 domains](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) may automatically [bind 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) new [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) to default [Agent 🫥 vault domains](<../../50 🫥 Agent domains/$ Agent Vaults 🫥/$ 🫥🗄️ Agent vault.md>).
+    To streamline user onboarding, [Broker 🤵 domains](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) may automatically [bind 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) new [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) to default [Agent 🫥 vault domains](<../../50 🫥 Agent domains/$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>).
         
     | | Workflow |  Description
     |-|-|-

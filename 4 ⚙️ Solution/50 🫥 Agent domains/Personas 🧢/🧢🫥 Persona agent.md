@@ -4,7 +4,7 @@
 
 1. **What is a Persona in NLWeb?**
 
-    A [Persona 🧢 domain](<🧢🫥 Persona agent.md>) is an [Agent 🫥 vault](<../$ Agent Vaults 🫥/$ 🫥🗄️ Agent vault.md>) specialized in user preferences.
+    A [Persona 🧢 domain](<🧢🫥 Persona agent.md>) is an [Agent 🫥 vault](<../$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>) specialized in user preferences.
 
     ---
     <br/>
@@ -24,7 +24,7 @@
     |-|-
     | [🗄️ Vault](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) | For sharing user data with [Consumer 💼 domains](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>).
     | [🤗 Host](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | For managing [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) with users.
-    | [🫥 Agent ](<../$ Agent Vaults 🫥/$ 🫥🗄️ Agent vault.md>) | To participate in [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) from other [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>).
+    | [🫥 Agent ](<../$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>) | To participate in [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) from other [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>).
     | [🌬️ Streamer](<../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>) | For streaming events to [Subscriber 🔔 domains](<../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>).
 
     ---
