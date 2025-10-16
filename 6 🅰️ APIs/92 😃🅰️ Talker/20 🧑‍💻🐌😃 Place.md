@@ -2,12 +2,12 @@
 
 > Implements [Hoster ☁️ helper domain](<../../4 ⚙️ Solution/45 🤲 Helper domains/55 ☁️ Hosters/☁️🤲 Hoster helper.md>)
 
-> Part of [😃⏩🧑‍💻 Wait @ Talker](<../../5 ⏩ Flows/79 😃⏩ Talkers/30 😃⏩🧑‍💻 Wait ⏸️.md>) flow
+> Part of [😃⏩🧑‍💻 Wait @ Talker](<../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃⏩ Talker flows/30 😃⏩🧑‍💻 Wait ⏸️.md>) flow
 
 > Paired with [`Placed@Talker`](<10 🧑‍💻🚀😃 Placed.md>) message
 
-* Writes a value to a [$Placeholder 💾](<../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃🗃️ Talker data/10 💾 $Placeholder.md>).
-* [$Placeholder 💾](<../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃🗃️ Talker data/10 💾 $Placeholder.md>) names must to start with a letter.
+* Writes a value to a [$Placeholder 💾](<../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃💾 Talker data/10 💾 $Placeholder.md>).
+* [$Placeholder 💾](<../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃💾 Talker data/10 💾 $Placeholder.md>) names must to start with a letter.
 
 <br/>
 
@@ -32,6 +32,6 @@ Body:
 |           | `To`          | string    | [Hoster ☁️ domain](<../../4 ⚙️ Solution/45 🤲 Helper domains/55 ☁️ Hosters/☁️🤲 Hoster helper.md>) name
 |           | `Subject`     | string    | `Place@Talker`
 | Body      | `ChatID`      | uuid      | [Chat 💬](<../../4 ⚙️ Solution/35 Chats/💬 Chats/💬 Chat.md>) ID
-|           | `Placeholder` | string    | [$Placeholder 💾](<../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃🗃️ Talker data/10 💾 $Placeholder.md>) name
+|           | `Placeholder` | string    | [$Placeholder 💾](<../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃💾 Talker data/10 💾 $Placeholder.md>) name
 |           | `Value`       | any    | Any value to write
 |

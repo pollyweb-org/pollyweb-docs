@@ -7,7 +7,7 @@
 1. **What is a BIND message command?**
 
     A `BIND`
-    * is a message [Command ⌘](<../😃🌊 Talker flow/10 ⌘ Command.md>) 
+    * is a message [Command ⌘](<../😃⚙️ Talker cmds/10 ⌘ Command.md>) 
     * that invokes the [Bind @ Vault ⏩ flow](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind 🔗.md>).
 
     ---
@@ -90,7 +90,7 @@
    
     | Argument| Purpose
     |-|-
-    | `{bindable}` | [{Function}](<../😃🗃️ Talker data/12 🐍 {Function}.md>) to get the [Codes 🧩](<../../../30 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) for [Bindable @ Broker](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>).
+    | `{bindable}` | [{Function}](<../😃💾 Talker data/12 🐍 {Function}.md>) to get the [Codes 🧩](<../../../30 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) for [Bindable @ Broker](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>).
 
 
     ---
@@ -123,9 +123,9 @@
        Else: FAILURE|Not bounded.
    ```
 
-   | [Command ⌘](<../😃🌊 Talker flow/10 ⌘ Command.md>) | Purpose
+   | [Command ⌘](<../😃⚙️ Talker cmds/10 ⌘ Command.md>) | Purpose
    |-|-
-   | ⤵️ [IF](<../😃🌊 Talker flow/21 ⤵️ IF flow.md>) | To verify the result.  
+   | ⤵️ [IF](<../😃⚙️ Talker cmds/21 ⤵️ IF flow.md>) | To verify the result.  
    
    ---
    <br/>
@@ -145,10 +145,10 @@
        Else: FAILURE|Not bounded.
    ```
 
-   | [Command ⌘](<../😃🌊 Talker flow/10 ⌘ Command.md>) | Purpose
+   | [Command ⌘](<../😃⚙️ Talker cmds/10 ⌘ Command.md>) | Purpose
    |-|-
-   | ⬇️ [`EVAL`](<../😃🗃️ Talker data/20 ⬇️ EVAL flow.md>) | To put the bindable array into a placeholder.
-   | ⤵️ [`IF`](<../😃🌊 Talker flow/21 ⤵️ IF flow.md>) | To verify the result.
+   | ⬇️ [`EVAL`](<../😃💾 Talker data/20 ⬇️ EVAL flow.md>) | To put the bindable array into a placeholder.
+   | ⤵️ [`IF`](<../😃⚙️ Talker cmds/21 ⤵️ IF flow.md>) | To verify the result.
    
    ---
    <br/>

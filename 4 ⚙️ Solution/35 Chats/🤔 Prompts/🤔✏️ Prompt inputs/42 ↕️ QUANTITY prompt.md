@@ -37,7 +37,7 @@
     | Argument| Purpose 
     |-|-
     | `<statement>`| Message to show to the user
-    | `$placeholder`| Optional [$placeholder 💾](<../../😃 Talkers/😃🗃️ Talker data/10 💾 $Placeholder.md>) with the user's answer 
+    | `$placeholder`| Optional [$placeholder 💾](<../../😃 Talkers/😃💾 Talker data/10 💾 $Placeholder.md>) with the user's answer 
 
     ```yaml
     # Comprehensive.
@@ -158,11 +158,11 @@
     - TEMP|Checking availability...
     ```
 
-    | [Command ⌘](<../../😃 Talkers/😃🌊 Talker flow/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/10 ⌘ Command.md>) | Purpose
     |-|-
     | ℹ️ [`INFO`](<../🤔📢 Prompt status/21 ℹ️ INFO prompt.md>) | To show the result.
     | 1️⃣ [`ONE`](<53 1️⃣ ONE prompt.md>) | To show the options.
-    | 🔀 [`CASE`](<../../😃 Talkers/😃🌊 Talker flow/22 🔀 CASE flow.md>) | To check the selected option.
+    | 🔀 [`CASE`](<../../😃 Talkers/😃⚙️ Talker cmds/22 🔀 CASE flow.md>) | To check the selected option.
     | ⏳ [`TEMP`](<../🤔📢 Prompt status/25 ⏳ TEMP prompt.md>) | To show work in progress.
     
 
@@ -202,10 +202,10 @@
     - REPEAT
     ```
 
-    | [Command ⌘](<../../😃 Talkers/😃🌊 Talker flow/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/10 ⌘ Command.md>) | Purpose
     |-|-
     | ℹ️ [`INFO`](<../🤔📢 Prompt status/21 ℹ️ INFO prompt.md>) | To show the message.
-    | 🔁 [`REPEAT`](<../../😃 Talkers/😃🌊 Talker flow/23 🔁 REPEAT flow.md>) | To repeat the input cycle forever.
+    | 🔁 [`REPEAT`](<../../😃 Talkers/😃⚙️ Talker cmds/23 🔁 REPEAT flow.md>) | To repeat the input cycle forever.
      
 
     ---
@@ -225,8 +225,8 @@
     | `$p.Decimal` | Decimal rounded to `Precision` | `1234.57`
     | `$p.Pretty` | Decimal formatted to `Locale` | `1,234.57`
     | `$p.Locale` | CLDR locale used to format | `en-US`
-    | [`$p.$`](<../../😃 Talkers/😃🗃️ Talker data/12 🐍 {Function}.md>) | The value of `$p.Pretty` | `1,234.57`
-    | `$p` | The [default value](<../../😃 Talkers/😃🗃️ Talker data/12 🐍 {Function}.md>) `$p.$` | `1,234.57`
+    | [`$p.$`](<../../😃 Talkers/😃💾 Talker data/12 🐍 {Function}.md>) | The value of `$p.Pretty` | `1,234.57`
+    | `$p` | The [default value](<../../😃 Talkers/😃💾 Talker data/12 🐍 {Function}.md>) `$p.$` | `1,234.57`
 
     ---
     <br/>

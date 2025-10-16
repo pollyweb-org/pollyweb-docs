@@ -2,12 +2,12 @@
 
 > Implements [Hoster ☁️ helper domain](<../../4 ⚙️ Solution/45 🤲 Helper domains/55 ☁️ Hosters/☁️🤲 Hoster helper.md>)
 
-> Part of [Handle @ Talker 😃⏩🧑‍💻](<../../5 ⏩ Flows/79 😃⏩ Talkers/20 😃⏩🧑‍💻 Handle 🐍.md>) flow
+> Part of [Handle @ Talker 😃⏩🧑‍💻](<../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃⏩ Talker flows/20 😃⏩🧑‍💻 Handle 🐍.md>) flow
 
 > Paired with [`Place@Talker`](<20 🧑‍💻🐌😃 Place.md>) message
 
-* Reads a [$Placeholder 💾](<../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃🗃️ Talker data/10 💾 $Placeholder.md>)
-* The placeholder [`$.Chat`](<../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃🗃️ Talker data/11 💬 $.Chat holder.md>) contains [Chat 💬](<../../4 ⚙️ Solution/35 Chats/💬 Chats/💬 Chat.md>) details.
+* Reads a [$Placeholder 💾](<../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃💾 Talker data/10 💾 $Placeholder.md>)
+* The placeholder [`$.Chat`](<../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃💾 Talker data/11 💬 $.Chat holder.md>) contains [Chat 💬](<../../4 ⚙️ Solution/35 Chats/💬 Chats/💬 Chat.md>) details.
 
 <br/>
 
@@ -31,7 +31,7 @@ Body:
 |           | `To`          | string    | [Hoster ☁️ domain](<../../4 ⚙️ Solution/45 🤲 Helper domains/55 ☁️ Hosters/☁️🤲 Hoster helper.md>) name
 |           | `Subject`     | string    | `Placed@Talker`
 | Body      | `ChatID`      | uuid      | [Chat 💬](<../../4 ⚙️ Solution/35 Chats/💬 Chats/💬 Chat.md>) ID
-|           | `Placeholder` | string    | [$Placeholder 💾](<../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃🗃️ Talker data/10 💾 $Placeholder.md>) name
+|           | `Placeholder` | string    | [$Placeholder 💾](<../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃💾 Talker data/10 💾 $Placeholder.md>) name
 |
 
 <br/>
