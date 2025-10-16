@@ -44,7 +44,7 @@
         
     | | Workflow |  Description
     |-|-|-
-    ||[👉 Onboard](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in App 🏠/🧑‍🦰💬🤵 Onboard.md>) | Register the [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) on a [Broker 🤵](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>)
+    ||[👉 Onboard](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰✨ Wallet onboard/🧑‍🦰💬🤵 Onboard.md>) | Register the [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) on a [Broker 🤵](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>)
 
     ---
     <br/>

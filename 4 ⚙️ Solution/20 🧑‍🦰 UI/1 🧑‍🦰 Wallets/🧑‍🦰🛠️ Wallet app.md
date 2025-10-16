@@ -136,7 +136,7 @@
 
     | Category | Workflow |  Description
     |-|-|-
-    | 🤵 Set up | [👉 Onboard](<🧑‍🦰💬 Wallet in App 🏠/🧑‍🦰💬🤵 Onboard.md>)  | Register the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>) on a [Broker 🤵](<../3 🤵 Brokers/🤵🤲 Broker helper.md>)
+    | 🤵 Set up | [👉 Onboard](<🧑‍🦰✨ Wallet onboard/🧑‍🦰💬🤵 Onboard.md>)  | Register the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>) on a [Broker 🤵](<../3 🤵 Brokers/🤵🤲 Broker helper.md>)
     | | [👉 Translate](<🧑‍🦰💬 Wallet in App 🏠/🧑‍🦰💬🤵 Translate.md>)  | Change the language of the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>)
     | 🔆 Locators |[👉 Host QR](<🧑‍🦰💬 Wallet in App 🏠/🧑‍🦰🔆🤗 Tap host locator.md>)  | Scan a [Host 🤗 NFC/QR](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)   to open a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
     ||[👉 Printer QR](<🧑‍🦰💬 Wallet in App 🏠/🧑‍🦰🔆🖨️ Tap alias locator.md>)  | Scan a [Printer 🖨️ NFC/QR](<../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>) to open a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)

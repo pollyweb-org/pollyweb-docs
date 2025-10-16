@@ -4,7 +4,7 @@
 
 
 > Used in:
-> <br/>• [🧑‍🦰👉🤵 Onboard @ Wallet](<../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in App 🏠/🧑‍🦰💬🤵 Onboard.md>) when setting the default [Vaults 🗄️](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) upon install.
+> <br/>• [🧑‍🦰👉🤵 Onboard @ Wallet](<../../1 🧑‍🦰 Wallets/🧑‍🦰✨ Wallet onboard/🧑‍🦰💬🤵 Onboard.md>) when setting the default [Vaults 🗄️](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) upon install.
 > <br/>•  [🧑‍🦰👉🗄️ Bind @ Wallet](<../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Prompts 🤔/🧑‍🦰👉🗄️ Bind 🔗.md>) when the user binds to to a [Vault 🗄️](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) in a chat.
 
 
