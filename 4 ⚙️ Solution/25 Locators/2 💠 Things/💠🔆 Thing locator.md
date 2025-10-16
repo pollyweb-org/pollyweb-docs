@@ -31,16 +31,16 @@
             - NFC chips under the skin of pets and endangered wild animals, 
             - NFC/QR codes to stick on a 30-year-old book or pin to a 300-year-old tree.
 
-    - [**💍 Userable specialization**](<../../70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>): 
-        - besides supporting all features of standard Things 💠, [Userables 💍](<../../70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>) allow users without a smart device to make payments and access restricted areas, and are typically an NFC embedded into objects that a user may carry;
+    - [**💍 Userable specialization**](<../74 💍 Userables/$ 💍 Userable thing.md>): 
+        - besides supporting all features of standard Things 💠, [Userables 💍](<../74 💍 Userables/$ 💍 Userable thing.md>) allow users without a smart device to make payments and access restricted areas, and are typically an NFC embedded into objects that a user may carry;
           - e.g.: jewelry, glasses, key holders.
 
     - [**⌚ Tapbands**](<../../70 🌳 Ambient/76 ⌚ Tapbands/$ ⌚💠 Tapband thing.md>): 
-        - besides supporting all features of [Userables 💍](<../../70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>), a [⌚ Tapband](<../../70 🌳 Ambient/76 ⌚ Tapbands/$ ⌚💠 Tapband thing.md>) allow users to also open [Padlocks 🔒](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>) while assuring users cannot be traced between interactions with [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>).
+        - besides supporting all features of [Userables 💍](<../74 💍 Userables/$ 💍 Userable thing.md>), a [⌚ Tapband](<../../70 🌳 Ambient/76 ⌚ Tapbands/$ ⌚💠 Tapband thing.md>) allow users to also open [Padlocks 🔒](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>) while assuring users cannot be traced between interactions with [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>).
 
 
-    - [**🤖 Robot specialization**](<../../70 🌳 Ambient/72 🤖 Robots/$ 🤖💠 Robot thing.md>): 
-        - besides supporting all features of standard Things 💠, [🤖 Robots](<../../70 🌳 Ambient/72 🤖 Robots/$ 🤖💠 Robot thing.md>) can be embed into physical devices to enable them to be controlled remotely, even without a display; 
+    - [**🤖 Robot specialization**](<../3 🤖 Robots/$ 🤖💠 Robot thing.md>): 
+        - besides supporting all features of standard Things 💠, [🤖 Robots](<../3 🤖 Robots/$ 🤖💠 Robot thing.md>) can be embed into physical devices to enable them to be controlled remotely, even without a display; 
             - e.g.: a coffee machine, a printer, or a vehicle. 
 
     ---
