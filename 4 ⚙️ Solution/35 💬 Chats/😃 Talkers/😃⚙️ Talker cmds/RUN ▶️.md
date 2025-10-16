@@ -24,7 +24,7 @@
     |-|-
     | `<procedure>`| [Procedure ⚙️](<⚙️ Procedure.md>) to run.
     | `<arguments>`| Optional comma-separated arguments <br/>referenced by `{$position}` - e.g., `{$1}`
-    | `<result>`| Optional placeholder for a [`RETURN`](<25 ↩️ RETURN flow.md>) result.
+    | `<result>`| Optional placeholder for a [`RETURN`](<RETURN ↩️.md>) result.
     
     ---
     <br/>
@@ -159,8 +159,8 @@
 
     | [Command ⌘](<⌘ Command.md>) | Purpose
     |-|-
-    | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | To decide which message to show.
-    | ↩️ [`RETURN`](<25 ↩️ RETURN flow.md>) | To return the final result.
+    | 🔀 [`CASE`](<CASE 🔀.md>) | To decide which message to show.
+    | ↩️ [`RETURN`](<RETURN ↩️.md>) | To return the final result.
 
 
 
@@ -198,7 +198,7 @@
 
     | [Command ⌘](<⌘ Command.md>) | Purpose
     |-|-
-    | ↩️ [`RETURN`](<25 ↩️ RETURN flow.md>) | To calculate the value to return.
+    | ↩️ [`RETURN`](<RETURN ↩️.md>) | To calculate the value to return.
 
 
 

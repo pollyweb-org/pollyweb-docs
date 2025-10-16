@@ -101,7 +101,7 @@ Success:
 |Status| ⏳ [`TEMP`](<../../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔📢 Prompt status/25 ⏳ TEMP prompt.md>) | Show delivering status
 || ✅ [`SUCCESS`](<../../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔📢 Prompt status/23 ✅ SUCCESS prompt.md>) | Ask to pick the item
 || ❌ [`FAILURE`](<../../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔📢 Prompt status/24 ❌ FAILURE prompt.md>) | To show in case of error
-|Flow| ⤵️ [`IF`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/21 ⤵️ IF flow.md>) | To see if 21+ check is needed
+|Flow| ⤵️ [`IF`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/IF ⤵️.md>) | To see if 21+ check is needed
 ||⬇️ [`EVAL`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃💾 Talker data/20 ⬇️ EVAL flow.md>) | To deduct the value on errors
 ||🪵 [`LOG`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃💾 Talker data/15 🪵 LOG flow.md>) | To log eventual errors
 |Message| 💼 [`SHARE`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃📨 Talker msgs/SHARE 💼 msg.md>) | Ask for proof of over 21

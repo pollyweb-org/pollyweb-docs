@@ -64,7 +64,7 @@
 
     | [Command ⌘](<⌘ Command.md>) | Purpose
     |-|-
-    | ▶️ [RUN](<24 ▶️ RUN flow.md>) | To run the procedures.
+    | ▶️ [RUN](<RUN ▶️.md>) | To run the procedures.
     
     ---
     <br/>
@@ -106,7 +106,7 @@
 
     | [Command ⌘](<⌘ Command.md>) | Purpose
     |-|-
-    | ▶️ [RUN](<24 ▶️ RUN flow.md>) | To run the procedures.
+    | ▶️ [RUN](<RUN ▶️.md>) | To run the procedures.
 
     ---
     <br/>
