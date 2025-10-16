@@ -36,7 +36,7 @@
     <br/>
 
 
-1. **What's the format for a [Talker 😃](<../../😃 Talkers/😃 Talker.md>)?**
+1. **What's the format for a [Talker 😃](<../../../90 👷 Build/😃 Talkers/😃 Talker.md>)?**
 
     ```yaml
     - LOCATION >> $placeholder
@@ -44,12 +44,12 @@
 
     |Parameter|Details
     |-|-
-    | `$placeholder` | Stores the answer in this [$placeholder 💾](<../../😃 Talkers/😃💾 Talker data/10 💾 $Placeholder.md>)
+    | `$placeholder` | Stores the answer in this [$placeholder 💾](<../../../90 👷 Build/😃 Talkers/😃💾 Talker data/10 💾 $Placeholder.md>)
     
     ---
     <br/>
 
-1. **What's an example of a [Talker 😃](<../../😃 Talkers/😃 Talker.md>)?**
+1. **What's an example of a [Talker 😃](<../../../90 👷 Build/😃 Talkers/😃 Talker.md>)?**
 
     ```yaml
     - LOCATION >> $loc
