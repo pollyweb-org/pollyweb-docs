@@ -15,7 +15,7 @@
 
 1. **How do Suppliers work?**
 
-    ![](<../../50 🫥 Agents/25 🛎️ Concierges/. 📎 Assets/🛎️🏭 Supplier.png>)
+    ![](<../../50 🫥 Agent domains/25 🛎️ Concierges/. 📎 Assets/🛎️🏭 Supplier.png>)
 
     ---
     <br/>
@@ -26,14 +26,14 @@
 
     * [KeyMaker 🔐 suppliers](<../../45 🤲 Helper domains/58 🔐 Keymakers/05  🔐🏭 Keymaker supplier.md>) accept requests to deliver and manage the lifecycle of [Padlock 🔒 device](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>).
 
-    * [Courier 🛵 suppliers](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/82 🛵 Driver: Pick-up.md>) accept orders to deliver pizzas, as requested by a [Concierge 🛎️ domain](<../../50 🫥 Agents/25 🛎️ Concierges/$ 🛎️🫥 Concierge agent.md>). 
+    * [Courier 🛵 suppliers](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/82 🛵 Driver: Pick-up.md>) accept orders to deliver pizzas, as requested by a [Concierge 🛎️ domain](<../../50 🫥 Agent domains/25 🛎️ Concierges/$ 🛎️🫥 Concierge agent.md>). 
 
     ---
     <br/>
 
 1. **What are examples of order requesters?**
 
-    * When users have tasks to complete, [Concierge 🛎️ domains](<../../50 🫥 Agents/25 🛎️ Concierges/$ 🛎️🫥 Concierge agent.md>) send order requests to [Supplier 🏭 domains](<$ 🏭🎭 Supplier role.md>) for them to perform steps in those tasks.
+    * When users have tasks to complete, [Concierge 🛎️ domains](<../../50 🫥 Agent domains/25 🛎️ Concierges/$ 🛎️🫥 Concierge agent.md>) send order requests to [Supplier 🏭 domains](<$ 🏭🎭 Supplier role.md>) for them to perform steps in those tasks.
 
     ---
     <br/>

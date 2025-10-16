@@ -24,9 +24,9 @@
     |Agent| Purpose
     |-|-
     |🤵 [Broker](<../../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>)| To search for the right agent for a job.
-    🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agents/40 🔎 Finders/🔎🫥 Finder agent.md>) | To search for a host of a service or place.
-    🧭 [Navigator](<../../../4 ⚙️ Solution/50 🫥 Agents/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | To report on something suspicious.
-    |[💖 Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agents/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>)| To register food intake.
+    🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) | To search for a host of a service or place.
+    🧭 [Navigator](<../../../4 ⚙️ Solution/50 🫥 Agent domains/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | To report on something suspicious.
+    |[💖 Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agent domains/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>)| To register food intake.
 
     ---
     <br/>
@@ -49,7 +49,7 @@
    |Emoji|Usage
    |-|-
    |💬| The speech emoji 💬 represents the chat's [Host 🤗 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) and any [Helper 🤲 domains](<../../../4 ⚙️ Solution/45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>) that it may [invite ⏩](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Invite 🤲.md>).
-   |💭| The thought emoji 💭 represents user [Agent 🫥 vaults](<../../../4 ⚙️ Solution/50 🫥 Agents/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>).
+   |💭| The thought emoji 💭 represents user [Agent 🫥 vaults](<../../../4 ⚙️ Solution/50 🫥 Agent domains/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>).
 
     ---
     <br/>
@@ -123,7 +123,7 @@
     | - | - | - |
     | [🤗 Host](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 💬 How are you today? | `I'm fine`
     | [🤲 Helper](<../../../4 ⚙️ Solution/45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>) | 💬 How are you today? | `I'm fine`
-    | [🫥 Agent](<../../../4 ⚙️ Solution/50 🫥 Agents/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) | 💭 How are you today? | `I'm fine`
+    | [🫥 Agent](<../../../4 ⚙️ Solution/50 🫥 Agent domains/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) | 💭 How are you today? | `I'm fine`
     |
    
     <br/>

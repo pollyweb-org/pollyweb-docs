@@ -5,7 +5,7 @@
 
     [Tokens 🎫](<🎫 Token.md>) are NFC/QR [Locators 🔆](<../15 🔆 Locators/$ 🔆 Locator.md>) 
     * issued and signed by an [Issuer 🎴 domain](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>), 
-    * that contain data to be shared with [Consumer 💼 domains](<../../50 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>).
+    * that contain data to be shared with [Consumer 💼 domains](<../../50 🫥 Agent domains/80 📦 Storage/$ 📦🫥 Storage agent.md>).
 
     ---
     <br/>
@@ -41,12 +41,12 @@
     |-|-|-
     |1| `Issue`| An [Issuer 🎴 domain](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) issues a [Token 🎫](<🎫 Token.md>) the the user stores offline in the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
     |2| `In-Chat`| While in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with a [Consumer 💼 host domain](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>), the user shares the [Token 🎫](<🎫 Token.md>).
-    |3| `Userable` | Using their [Custodian 🧳 agent](<../../50 🫥 Agents/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>), users select which [Tokens 🎫](<🎫 Token.md>) to be automatically shared by a specific [Userable 💍 thing](<../../70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>).
+    |3| `Userable` | Using their [Custodian 🧳 agent](<../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>), users select which [Tokens 🎫](<🎫 Token.md>) to be automatically shared by a specific [Userable 💍 thing](<../../70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>).
     | 4| `Userable`| When the NFC of the [Userable 💍 thing](<../../70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>) is [tapped 🔆](<../15 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) on the [scanner ✨ device](<../../60 🧰 Edge/66 ✨ Scanners/06 ✨🔌 Scanner device.md>) of a [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>), the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) shares the [Tokens 🎫](<🎫 Token.md>).
     |5| `Printed`| From the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>), users can print a [Token 🎫](<🎫 Token.md>).
     |6| `Printed` | The user can then present the printed [Token 🎫](<🎫 Token.md>) to the [scanner ✨ device](<../../60 🧰 Edge/66 ✨ Scanners/06 ✨🔌 Scanner device.md>) of a [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>).
-    |7| `Identity` | If the [Token 🎫](<🎫 Token.md>) contains the [Locator 🔆](<../15 🔆 Locators/$ 🔆 Locator.md>) of an [Identity 🆔 domain](<../../50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>), then it means that the [Token 🎫](<🎫 Token.md>) was issued to a specific person only.
-    |8| `Identity`| The [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) can then ask the [Token's Identity 🆔 domain](<../../50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) to verify if it is really that person holding the presented [Token 🎫](<🎫 Token.md>) or not.
+    |7| `Identity` | If the [Token 🎫](<🎫 Token.md>) contains the [Locator 🔆](<../15 🔆 Locators/$ 🔆 Locator.md>) of an [Identity 🆔 domain](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>), then it means that the [Token 🎫](<🎫 Token.md>) was issued to a specific person only.
+    |8| `Identity`| The [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) can then ask the [Token's Identity 🆔 domain](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) to verify if it is really that person holding the presented [Token 🎫](<🎫 Token.md>) or not.
 
     ---
     <br/>
@@ -81,20 +81,20 @@
 1. **Can Tokens be used for documents with photo validation?**
 
     Yes, [Tokens 🎫](<🎫 Token.md>) can be identity-bound;
-    - i.e., they can allow [Consumer 💼 domains](<../../50 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>) to confirm that the holder of the Token is effectively the human for whom the [Token 🎫](<🎫 Token.md>)  was issue to. 
-    - [Identity-bound 🆔 tokens](<../../50 🫥 Agents/45 🆔 Identities/14 🆔🎫 Verify Tokens.md>) reference a trusted [Identity 🆔 domain](<../../50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) that is able to authenticate the user - e.g., with a [Face scan 😶](<../../50 🫥 Agents/45 🆔 Identities/21 🆔😶 Face scan.md>).
+    - i.e., they can allow [Consumer 💼 domains](<../../50 🫥 Agent domains/80 📦 Storage/$ 📦🫥 Storage agent.md>) to confirm that the holder of the Token is effectively the human for whom the [Token 🎫](<🎫 Token.md>)  was issue to. 
+    - [Identity-bound 🆔 tokens](<../../50 🫥 Agent domains/45 🆔 Identities/14 🆔🎫 Verify Tokens.md>) reference a trusted [Identity 🆔 domain](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) that is able to authenticate the user - e.g., with a [Face scan 😶](<../../50 🫥 Agent domains/45 🆔 Identities/21 🆔😶 Face scan.md>).
 
 
-    The following [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) excerpt from the [Casino Entry 🤝 use case](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/10 🎰 Casinos/11 🚪 Enter anonymously.md>) illustrates the usage of an [Identity-bound 🆔 token](<../../50 🫥 Agents/45 🆔 Identities/14 🆔🎫 Verify Tokens.md>).
+    The following [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) excerpt from the [Casino Entry 🤝 use case](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/10 🎰 Casinos/11 🚪 Enter anonymously.md>) illustrates the usage of an [Identity-bound 🆔 token](<../../50 🫥 Agent domains/45 🆔 Identities/14 🆔🎫 Verify Tokens.md>).
 
 
     | [Domain](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | | | 🔆 [tap](<../15 🔆 Locators/$ 🔆 Locator.md>)
-    | 🔎 [Finder](<../../50 🫥 Agents/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Casino (4.4 ⭐) [+]
+    | 🔎 [Finder](<../../50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Casino (4.4 ⭐) [+]
     | 🎰 Casino   | ℹ️ Request for minimum age. [+]
-    | 🆔 [Identity](<../../50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Share over 21? [Yes, No]      | > Yes
-    | 🆔 [Identity](<../../50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../50 🫥 Agents/45 🆔 Identities/21 🆔😶 Face scan.md>)
+    | 🆔 [Identity](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Share over 21? [Yes, No]      | > Yes
+    | 🆔 [Identity](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../50 🫥 Agent domains/45 🆔 Identities/21 🆔😶 Face scan.md>)
     | 🎰 Casino   | ✅ Welcome, please enter!
     
 
@@ -115,7 +115,7 @@
     | [Domain](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) 
     | - | - | - |
     | | | 🔆 [tap](<../15 🔆 Locators/$ 🔆 Locator.md>)
-    | 🔎 [Finder](<../../50 🫥 Agents/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Railway (4.3 ⭐) [+]
+    | 🔎 [Finder](<../../50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Railway (4.3 ⭐) [+]
     | 🤵 [Broker](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) | ⓘ Ticket [token 🎟️](<🎫 Token.md>) shared [+]
     | 🚂 Railway | ℹ️ Ticket presented: <br>- from MAD T4 to MAD T2 
     | 🚂 Railway | ✅ Entry gate opened!
@@ -163,8 +163,8 @@
     |-|-
     | **🖨️ Paper**| Ask the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) to print it on paper.
     | **📱 Phone** | Screenshot and store it as an image on a device.
-    | **[💍 Userable](<../../70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>)** | Add it to a [Userable 💍 thing](<../../70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>) via the user's [Custodian 🧳 vault](<../../50 🫥 Agents/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>).
-    | **[⌚ Tapband ](<../../70 🌳 Ambient/76 ⌚ Tapbands/$ ⌚💠 Tapband thing.md>)** | Add it to a [Tapband ⌚ thing](<../../70 🌳 Ambient/76 ⌚ Tapbands/$ ⌚💠 Tapband thing.md>) via the user's [Custodian 🧳 vault](<../../50 🫥 Agents/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>).
+    | **[💍 Userable](<../../70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>)** | Add it to a [Userable 💍 thing](<../../70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>) via the user's [Custodian 🧳 vault](<../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>).
+    | **[⌚ Tapband ](<../../70 🌳 Ambient/76 ⌚ Tapbands/$ ⌚💠 Tapband thing.md>)** | Add it to a [Tapband ⌚ thing](<../../70 🌳 Ambient/76 ⌚ Tapbands/$ ⌚💠 Tapband thing.md>) via the user's [Custodian 🧳 vault](<../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>).
 
     ---
     <br/>
@@ -231,8 +231,8 @@
 
     |Property| Type | Details
     |-|-|-
-    |`Identity` | string |The [Identity 🆔 domain](<../../50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) 
-    | `IdentityKey` | string | The resource key in the [Identity 🆔 domain](<../../50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>)
+    |`Identity` | string |The [Identity 🆔 domain](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) 
+    | `IdentityKey` | string | The resource key in the [Identity 🆔 domain](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>)
 
 
     ---

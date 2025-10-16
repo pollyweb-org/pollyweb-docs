@@ -13,14 +13,14 @@ Save intake by scanning a bar code
 | 🤵 [Broker](<../../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) | 💬 How can I help with that? <br> - [ Intake ] in Any Vitalogist 💖 <br/> - [ Something else ] | > Intake
 | 🤵 [Broker](<../../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) | ✅ Over to Any Vitalogist 💖
 | [ new chat ]
-| 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agents/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Vitalogist (4.4 ⭐) [+]
-| 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agents/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | ℹ️ Request received [+] 
-| 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agents/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | 💬 What intake to save? <br> - Scan a [ barcode ✨ ] <br/> - Take a [ photo 📸 ] of it <br/> - [ Say ] what to save | > barcode ✨ 
-| 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agents/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | 😃 Scan the barcode [+] | ✨ scan 
-| 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agents/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | ℹ️ I'm not sure what that is. 
-| 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agents/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | 😃 Take a photo of it [+] | 📸 photo
-| 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agents/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | ℹ️ Tesco's orange juice [+]
-| 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agents/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | 😃 Save intake? [Yes, No] <br/> - Tesco's orange juice | > Yes
-| 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agents/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | ✅ Intake saved.
-| ⭐ [Rate](<../../../4 ⚙️ Solution/50 🫥 Agents/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5 |
+| 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Vitalogist (4.4 ⭐) [+]
+| 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agent domains/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | ℹ️ Request received [+] 
+| 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agent domains/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | 💬 What intake to save? <br> - Scan a [ barcode ✨ ] <br/> - Take a [ photo 📸 ] of it <br/> - [ Say ] what to save | > barcode ✨ 
+| 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agent domains/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | 😃 Scan the barcode [+] | ✨ scan 
+| 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agent domains/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | ℹ️ I'm not sure what that is. 
+| 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agent domains/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | 😃 Take a photo of it [+] | 📸 photo
+| 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agent domains/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | ℹ️ Tesco's orange juice [+]
+| 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agent domains/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | 😃 Save intake? [Yes, No] <br/> - Tesco's orange juice | > Yes
+| 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agent domains/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | ✅ Intake saved.
+| ⭐ [Rate](<../../../4 ⚙️ Solution/50 🫥 Agent domains/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5 |
 ||

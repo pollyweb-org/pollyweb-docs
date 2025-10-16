@@ -15,8 +15,8 @@ Onboarding
 1. **What are the steps for a user to onboard NLWeb?**
 
     1. Install an NLWeb [Wallet 🧑‍🦰](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) from an app store;
-    1. Fill out the [Persona 🧢 agent](<../50 🫥 Agents/70 🧢 Personas/$ 🧢🫥 Persona agent.md>) agent with standard data sets;
-    1. Add payment methods to the [Payer 💳 agent](<../50 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) agent;
+    1. Fill out the [Persona 🧢 agent](<../50 🫥 Agent domains/70 🧢 Personas/$ 🧢🫥 Persona agent.md>) agent with standard data sets;
+    1. Add payment methods to the [Payer 💳 agent](<../50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>) agent;
     1. Start touching/scanning NFC/QR [Locators 🔆](<../30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>).
 
     ---

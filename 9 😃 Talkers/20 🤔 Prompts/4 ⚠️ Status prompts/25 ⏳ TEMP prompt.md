@@ -90,7 +90,7 @@
     | - | - | - |
     | [🤗 Host](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ⏳ Simple temp.
     | [🤲 Helper](<../../../4 ⚙️ Solution/45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>) | ⏳ Simple temp.
-    | [🫥 Agent](<../../../4 ⚙️ Solution/50 🫥 Agents/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) | ⏳ Simple temp.
+    | [🫥 Agent](<../../../4 ⚙️ Solution/50 🫥 Agent domains/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) | ⏳ Simple temp.
     |
 
     <br/>

@@ -7,5 +7,5 @@ How to open the hotel door at night?
 | | | 🔆 [tap](<../../../../4 ⚙️ Solution/30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>) door
 | 🏨 Hotel  | ℹ️ This is the main door.
 | 🏨 Hotel  | ✅ Door opened! <br/> - [ Something else ]
-| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agents/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? 
+| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? 
 ||

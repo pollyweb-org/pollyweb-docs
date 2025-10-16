@@ -19,9 +19,9 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
     
     * [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) may allow users to edit their data through the user's [Folder 🗂️ editor](<../45 🤲 Helper domains/35 🧑‍💻 Editors/🧑‍💻 Editor.md>).
 
-* Users designate [Agents 🫥 domains](<../50 🫥 Agents/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) to handle specific well-defined roles in [Chats 💬](<../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with [Host 🤗 domains](<../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) (e.g., payments).
+* Users designate [Agents 🫥 domains](<../50 🫥 Agent domains/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) to handle specific well-defined roles in [Chats 💬](<../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with [Host 🤗 domains](<../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) (e.g., payments).
 
-    * These [Agents 🫥](<../50 🫥 Agents/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) are [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) that the user told their [Broker 🤵 domain](<../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) to invoke by default when a role is required.
+    * These [Agents 🫥](<../50 🫥 Agent domains/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) are [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) that the user told their [Broker 🤵 domain](<../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) to invoke by default when a role is required.
 
 
 
@@ -57,9 +57,9 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
 
 - Security is assured by:
     * a [Trust 👍](<../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) framework; 
-    * digital signatures for [Messages 📨](<../40 👥 Domains/41 📨 Messages/📨 Message.md>) and [files](<../50 🫥 Agents/45 🆔 Identities/16 🆔🔏 Verify Signatures.md>);
+    * digital signatures for [Messages 📨](<../40 👥 Domains/41 📨 Messages/📨 Message.md>) and [files](<../50 🫥 Agent domains/45 🆔 Identities/16 🆔🔏 Verify Signatures.md>);
     * global [Firewall 🔥 helper domains](<../45 🤲 Helper domains/40 🔥 Firewalls/🔥🤲 Firewall helper.md>) that actively monitor the ecosystem;
-    * user [Identity 🆔 vault domains](<../50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) that authenticate users on behalf of other [domains 👥](<../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) while maintaining privacy and legal compliance;
+    * user [Identity 🆔 vault domains](<../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) that authenticate users on behalf of other [domains 👥](<../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) while maintaining privacy and legal compliance;
     * and [Ephemeral 🦋 devices](<../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>) that dynamically rotate QR and NFC [Locators 🔆](<../30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>) to prevent fraud.
 
 - Performance at a global scale is assured by:
