@@ -1,6 +1,6 @@
  # 💳 Talker `CHARGE` command
 
-> Automatically calls [FREEZE ❄️](<42 ❄️ FREEZE msg.md>)
+> Automatically calls [FREEZE ❄️](<FREEZE ❄️ msg.md>)
  
 
 1. **What's the syntax?**
