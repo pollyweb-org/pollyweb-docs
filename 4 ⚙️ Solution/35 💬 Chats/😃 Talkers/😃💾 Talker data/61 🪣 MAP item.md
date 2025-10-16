@@ -2,7 +2,7 @@
 
 > Part of [Talker 😃](<../😃 Talker.md>)
 
-> Relates to [Tables 🪣 folder](<🪣📂 Tables folder.md>)
+> Relates to [Tables 🪣 folder](<../../../55 👷 Build domains/📦 Hosteds/📦📄 Hosted files/🪣📂 Tables folder.md>)
 
 <br/>
 
