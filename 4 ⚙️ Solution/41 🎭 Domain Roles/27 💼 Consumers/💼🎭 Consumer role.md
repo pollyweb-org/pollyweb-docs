@@ -49,7 +49,7 @@
 
     - **When users tap Userables**: 
         - when users tap a [Userable 💍](<../../25 Locators/74 💍 Userables/💍💠 Userable thing.md>) on the scanner of a [Consumer 💼 domain](<💼🎭 Consumer role.md>) (e.g., a wristband at an airport gate), the [Consumer 💼 domain](<💼🎭 Consumer role.md>) can ask the [user's Custodian 🧳 domain](<../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>) to silently share all [Tokens 🎫](<../../30 Data/3 🎫 Tokens/🎫 Token.md>) marked as public by the user and matching a list of expected [Schema Codes 🧩](<../../30 Data/1 🧩 Schema Codes/🧩 Schema Code.md>);
-        - see [Userable at gates 💍🎬](<../../25 Locators/74 💍 Userables/💍⏩ Userable flows/14 💍🎬 gates.md>) for details.
+        - see [Userable at gates 💍🎬](<../../25 Locators/74 💍 Userables/💍⏩ Userable flows/💍🎬 Cross gates.md>) for details.
 
     ---
     <br/>
