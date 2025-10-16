@@ -14,7 +14,7 @@
 
 1. **How do Collectors work?**
 
-    ![](<../../50 🫥 Agent domains/Payers 💳/. 📎 Assets/💳 Collector.png>)
+    ![](<. 📎 Assets/🏦 Collector.png>)
 
     |#|Step
     |-|-
