@@ -233,7 +233,7 @@
     | [🤵 Broker](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | [`Bound`](<🗄️🅰️ Vault methods/🤵🐌🗄️ Bound.md>) | Add a [Bind 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) |
     |  | [`Unbind`](<🗄️🅰️ Vault methods/🤵🐌🗄️ Unbind.md>) | Remove a [Bind 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) |
     | | [`Disclose`](<🗄️🅰️ Vault methods/🤵🐌🗄️ Disclose.md>) | Disclose the data of a [Bind 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) |
-    | | [`Suppress`](<🗄️🅰️ Vault methods/🤵🐌🗄️ Suppress.md>) | Suppress [🖐️ Palm scans](<../../50 🫥 Agent domains/Identities 🆔/22 🆔🖐️ Palm scan.md>) |
+    | | [`Suppress`](<🗄️🅰️ Vault methods/🤵🐌🗄️ Suppress.md>) | Suppress [🖐️ Palm scans](<../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/22 🆔🖐️ Palm scan.md>) |
     | [💼 Consumer](<../Consumers 💼/💼🎭 Consumer role.md>) | [`Collect`](<🗄️🅰️ Vault methods/💼🚀🗄️ Collect.md>) | Return the data disclosed
     
     ---

@@ -15,13 +15,13 @@
 
     |Category|Section|Purpose
     |-|-|-
-    |`Registration` | [👮 Register biometrics](<02 🆔👮 Register biometrics.md>)| Map user biometrics to their Wallet.
-    |`Verification` |[🧑‍🦰 Verify Wallets](<13 🆔🧑‍🦰 Verify Wallets.md>) | Verify is its the Wallet's owner.
-    ||[🎫 Verify Tokens](<14 🆔🎫 Verify Tokens.md>) | Verify if it's Token's legit holder.
-    ||[💍 Verify Userables](<15 🆔💍 Verify Userables.md>) | Verify if it's the Userable's owner.
-    ||[🔏 Verify Signatures](<16 🆔🔏 Verify Signatures.md>) | Verify is its the Wallet's owner.
-    |`Technology`|[😶 Face scans](<21 🆔😶 Face scan.md>) | Liveness checks on user devices.
-    ||[🖐️ Palm scans](<22 🆔🖐️ Palm scan.md>) | Alternative to face in public spaces.
+    |`Registration` | [👮 Register biometrics](<🆔⏩ Identity flows/02 🆔👮 Register biometrics.md>)| Map user biometrics to their Wallet.
+    |`Verification` |[🧑‍🦰 Verify Wallets](<🆔⏩ Identity flows/13 🆔🧑‍🦰 Verify Wallets.md>) | Verify is its the Wallet's owner.
+    ||[🎫 Verify Tokens](<🆔⏩ Identity flows/14 🆔🎫 Verify Tokens.md>) | Verify if it's Token's legit holder.
+    ||[💍 Verify Userables](<🆔⏩ Identity flows/15 🆔💍 Verify Userables.md>) | Verify if it's the Userable's owner.
+    ||[🔏 Verify Signatures](<🆔⏩ Identity flows/16 🆔🔏 Verify Signatures.md>) | Verify is its the Wallet's owner.
+    |`Technology`|[😶 Face scans](<🆔⏩ Identity flows/21 🆔😶 Face scan.md>) | Liveness checks on user devices.
+    ||[🖐️ Palm scans](<🆔⏩ Identity flows/22 🆔🖐️ Palm scan.md>) | Alternative to face in public spaces.
 
 
 

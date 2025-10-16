@@ -2,7 +2,7 @@
 ===
 
 
-> Mentioned in [Verify Userables 🆔](<../../../50 🫥 Agent domains/Identities 🆔/15 🆔💍 Verify Userables.md>)
+> Mentioned in [Verify Userables 🆔](<../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/15 🆔💍 Verify Userables.md>)
 
 <br/>
 
@@ -35,7 +35,7 @@
     |1| `Tap` | A guest user uses their [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) to [tap 🔆](<../../1 🔆 Locators/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>) the [rotating NFC tag 📺](<../../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/11 📺 NFC authentication.md>) of the owner's [Userable 💍 thing](<../💍💠 Userable thing.md>). 
     |2| `Read`| The guest's [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) opens a [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) with the [Userable's Wand 🪄 domain](<../../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>), allowing the guest user to read the landing notes that the owner user left.
     |3| `Admin` | The guest user asks the [Userable's Wand 🪄 domain](<../../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>) to access the owner's admin area, who then directs the request to the [owner's Custodian 🧳 agent](<../../../50 🫥 Agent domains/Custodians 🧳/🧳🫥 Custodian agent.md>).
-    |4| `Face` | The [owner's Custodian 🧳 agent](<../../../50 🫥 Agent domains/Custodians 🧳/🧳🫥 Custodian agent.md>) asks the [owner's Identity 🆔 agent](<../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) to authenticate the owner with a [face scan 😶](<../../../50 🫥 Agent domains/Identities 🆔/21 🆔😶 Face scan.md>) using the guest's [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
+    |4| `Face` | The [owner's Custodian 🧳 agent](<../../../50 🫥 Agent domains/Custodians 🧳/🧳🫥 Custodian agent.md>) asks the [owner's Identity 🆔 agent](<../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) to authenticate the owner with a [face scan 😶](<../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/21 🆔😶 Face scan.md>) using the guest's [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
     |5| `Ring` |  The [owner's Custodian 🧳 agent](<../../../50 🫥 Agent domains/Custodians 🧳/🧳🫥 Custodian agent.md>) then informs the owner about the location of owner's [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>), and allows them to remotely ring the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>). 
     |6| `Circle` | The owner can then access the contact details of their personal circle via the [owner's Custodian 🧳 agent](<../../../50 🫥 Agent domains/Custodians 🧳/🧳🫥 Custodian agent.md>). 
 
@@ -57,7 +57,7 @@
     | 🤵 [Broker](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | ⓘ Flow: authenticate [+]
     | 🪄 [Wand](<../../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>) | 😐 Are you the owner? [Yes, No] | > Yes
     | 🤵 [Broker](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 [Allow guest domain?](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Invite 🤲.md>) [Yes, No]  <br/> - Any Identity 🆔 <br/>- [ Always ] for Any Wand 🪄 | > Yes
-    | 🆔 [Identity](<../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) | 🫥 Let me see if it's the owner.     | [📸 selfie](<../../../50 🫥 Agent domains/Identities 🆔/21 🆔😶 Face scan.md>)
+    | 🆔 [Identity](<../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) | 🫥 Let me see if it's the owner.     | [📸 selfie](<../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/21 🆔😶 Face scan.md>)
     | 🤵 [Broker](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 [Allow guest domain?](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Invite 🤲.md>) [Yes, No]  <br/> - Any Custodian 🧳<br/>- [ Always ] for Any Wand 🪄 | > Yes
     | 🧳 [Custodian](<../../../50 🫥 Agent domains/Custodians 🧳/🧳🫥 Custodian agent.md>)| 🫥 What do you need? <br/>- [ Ring ] my Wallet <br/>- [ Circle ] Contacts <br/>- [ Something else ] | > Circle
     | 🧳 [Custodian](<../../../50 🫥 Agent domains/Custodians 🧳/🧳🫥 Custodian agent.md>) | 🫥 Which one? <br/>- [ Jake ] <br/>- [ Spirit ] | > Spirit

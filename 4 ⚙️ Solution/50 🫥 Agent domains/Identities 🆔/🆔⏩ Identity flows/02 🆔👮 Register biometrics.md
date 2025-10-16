@@ -1,18 +1,18 @@
 🆔 Register Identity biometrics
 ===
 
-> Part of [Identity 🆔 domains](<🆔🫥 Identity agent.md>)
+> Part of [Identity 🆔 domains](<../🆔🫥 Identity agent.md>)
 
 
-> Addresses the [supervised identity landscape 🏔️](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/00 👮 Supervised ID Index.md>)
+> Addresses the [supervised identity landscape 🏔️](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/00 👮 Supervised ID Index.md>)
 
 <br/> 
 
 1. **How do users set up an Identity vault?**
 
-    ![](<. 📎 Assets/🆔 Biometrics.png>)
+    ![](<../. 📎 Assets/🆔 Biometrics.png>)
 
-    [Identity 🆔 vaults](<🆔🫥 Identity agent.md>) require users to collect their biometric signatures in a [supervised 👮](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/00 👮 Supervised ID Index.md>) biometric collection center, typically managed by public authorities.
+    [Identity 🆔 vaults](<../🆔🫥 Identity agent.md>) require users to collect their biometric signatures in a [supervised 👮](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/00 👮 Supervised ID Index.md>) biometric collection center, typically managed by public authorities.
 
     ---
     <br/>

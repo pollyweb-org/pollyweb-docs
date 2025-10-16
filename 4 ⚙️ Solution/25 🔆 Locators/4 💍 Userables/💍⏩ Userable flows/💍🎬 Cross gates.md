@@ -1,7 +1,7 @@
 💍 Userables to cross gates
 ===
 
-> Mentioned in [Verify Userables 🆔](<../../../50 🫥 Agent domains/Identities 🆔/15 🆔💍 Verify Userables.md>)
+> Mentioned in [Verify Userables 🆔](<../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/15 🆔💍 Verify Userables.md>)
 
 <br/>
 
