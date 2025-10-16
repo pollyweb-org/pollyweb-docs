@@ -50,7 +50,7 @@ The associated [Talker 😃](<../../../../9 😃 Talkers/10 📘 Talker specs/10
 ## ⏩ Flow diagram 
 
 
-![alt text](<../.📎 Assets/⚙️🛠️ Invite.png>)
+![alt text](<../.📎 Assets/⚙️🤲 Invite.png>)
 
 
 |#| Step | Purpose

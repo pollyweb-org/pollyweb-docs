@@ -28,13 +28,13 @@
 
 1. **How does a user open a new chat window with a domain?**
 
-    To open a new [Chat 💬](<$ 💬 Chat.md>) window with a [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>), a user needs the [Host's Locator 🔆](<../11 🔆 Locators/$ 🔆 Locator.md>) contained in one of the following technology forms.
+    To open a new [Chat 💬](<$ 💬 Chat.md>) window with a [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>), a user needs the [Host's Locator 🔆](<../../30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>) contained in one of the following technology forms.
 
     |Technology|Details
     |-|-
-    |[✨ QR code](<../11 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>)| Users open the Wallet app on the device, then scan the QR code to open a chat window.
-    |[🔆 NFC tag](<../11 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>)| Users tap the NFC tag with their device, regardless of having the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) open - this opens a chat window on the Wallet.
-    |[🌐 Link](<../11 🔆 Locators/02 🧑‍🦰🌐 Wallet URLs.md>)| Users click the link/button on the traditional web browser of their device - this opens a chat window on the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
+    |[✨ QR code](<../../30 🧩 Data/15 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>)| Users open the Wallet app on the device, then scan the QR code to open a chat window.
+    |[🔆 NFC tag](<../../30 🧩 Data/15 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>)| Users tap the NFC tag with their device, regardless of having the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) open - this opens a chat window on the Wallet.
+    |[🌐 Link](<../../30 🧩 Data/15 🔆 Locators/02 🧑‍🦰🌐 Wallet URLs.md>)| Users click the link/button on the traditional web browser of their device - this opens a chat window on the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
     |[🤔 Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>)| In a [Chat 💬](<$ 💬 Chat.md>) window, the [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) provides one or more options for the user to select from, and the user selects one - this opens a new [Chat 💬](<$ 💬 Chat.md>) window.
 
     ----
@@ -42,7 +42,7 @@
 
 1. **What if the user doesn't have the domain's Locator?**
 
-    If a user doesn't know exactly where to find a [Locator 🔆](<../11 🔆 Locators/$ 🔆 Locator.md>), they can use the [Finder 🔎 domain](<../../50 🫥 Agents/40 🔎 Finders/🔎🫥 Finder agent.md>) to search for it;
+    If a user doesn't know exactly where to find a [Locator 🔆](<../../30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>), they can use the [Finder 🔎 domain](<../../50 🫥 Agents/40 🔎 Finders/🔎🫥 Finder agent.md>) to search for it;
     * e.g., if a UK user wants to bind to the UK's national health service but doesn't know where to start, the user can ask for "health service" and the assistance replies with "NHS?".
 
     ---
