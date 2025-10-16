@@ -55,7 +55,7 @@ The associated [Talker 😃](<../../../../9 😃 Talkers/10 📘 Talker specs/10
 
 |#| Step | Purpose
 |-|-|-
-|1|[💼🐌🤵 `Invite@Broker`](<../../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/64 💼🐌🤵 Invite.md>)|Invite another [Host 🤗](<../🤗🎭 Host role.md>) to the [Chat 💬](<../../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
+|1|[💼🐌🤵 `Invite@Broker`](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/60 🤵🅰️ Share/💼🐌🤵 Invite.md>)|Invite another [Host 🤗](<../🤗🎭 Host role.md>) to the [Chat 💬](<../../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
 |2|[🤗⏩🧑‍🦰 Prompt 🤔](<🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) may ask for user permission
 |3| [🤵🐌🛠️ `Invited@Helper`](<../../../45 🤲 Helper domains/$ 🤲 Helpers/🤲🅰️ Helper methods/🤵🐌🤲 Invited.md>) | Proxy  invites to [Helper 🤲](<../../../45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>) invitees
 |4|[🤗⏩🧑‍🦰 Prompt 🤔](<🤗⏩🧑‍🦰 Prompt 🤔.md>) | Invitees continue the [Chat 💬](<../../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)

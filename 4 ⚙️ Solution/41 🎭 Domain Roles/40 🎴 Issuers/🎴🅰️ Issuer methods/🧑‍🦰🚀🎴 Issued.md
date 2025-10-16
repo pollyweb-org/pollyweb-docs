@@ -29,8 +29,8 @@ Body:
 |Header | `From`  | string  | `Anonymous`
 |       | `To`    | string  | [Issuer 🎴 domain](<../🎴🎭 Issuer role.md>) name
 ||`Subject`|string|`Token@Issuer` 
-| Body | `ChatID` | string | [Chat 💬](<../../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID from [`Offer@Broker`](<../../../../6 🅰️ APIs/15 🤵🅰️ Broker/50 🤵🅰️ Tokens 🎫/51 🎴🐌🤵 Offer.md>)
-| | `TokenID`| string | [Token 🎫](<../../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) ID from [`Offer@Broker`](<../../../../6 🅰️ APIs/15 🤵🅰️ Broker/50 🤵🅰️ Tokens 🎫/51 🎴🐌🤵 Offer.md>)
+| Body | `ChatID` | string | [Chat 💬](<../../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID from [`Offer@Broker`](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/50 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
+| | `TokenID`| string | [Token 🎫](<../../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) ID from [`Offer@Broker`](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/50 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
 |
 
 <br/>

@@ -41,7 +41,7 @@
    
     | Argument| Purpose
     |-|-
-    | `<code-n>`  | [Schema Codes 🧩](<../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) for [`Query@Broker`](<../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) <br/>For readability, a dot replaces `nlweb.org/`
+    | `<code-n>`  | [Schema Codes 🧩](<../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) for [`Query@Broker`](<../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/60 🤵🅰️ Share/💼🐌🤵 Query.md>) <br/>For readability, a dot replaces `nlweb.org/`
     | `{context}`| Object with context, when applicable.
     | `$shared`| An object returned by [`Collect@Vault`](<../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🅰️ Vault methods/💼🚀🗄️ Collect.md>).<br/> Or a Token list from [`Receive@Consumer`](<../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/💼🅰️ Consumer methods/🧑‍🦰🐌💼 Receive.md>).
 

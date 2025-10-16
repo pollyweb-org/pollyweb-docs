@@ -1,7 +1,7 @@
 
 # [🧩](<../../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) [Schema Code](<../../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>): Alias
 
-> Referenced in [`Assess@Broker`](<../../../../6 🅰️ APIs/15 🤵🅰️ Broker/20 🤵🅰️ Locators/01 🧑‍🦰🐌🤵 Assess.md>).
+> Referenced in [`Assess@Broker`](<../../24 🤵 Brokers/🤵🅰️ Broker methods/20 🤵🅰️ Locators/🧑‍🦰🐌🤵 Assess.md>).
 
 * Used in [Locators 🔆](<../../../30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>) 
     * that need to be translated 
