@@ -3,13 +3,13 @@
 
 1. **What is an Agent vault?**
 
-    Agents 🫥 are any [Vault 🗄️ domains](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) with well-known features that are linked to a user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
+    Agents 🫥 are any [Vault 🗄️ domains](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) with well-known features that are linked to a user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
 
     * They behave like the default apps for smartphones, where the operating system (e.g., Android, iOS) asks the user to select default apps for each role - e.g.:
         * internet browsing: Chrome, Firefox, or Safari;
         * email messaging: Gmail, Outlook, Apple Mail.
 
-    * While in a [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>), a [Host 🤗 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) to invoke user Agents 🫥 by role - e.g.:
+    * While in a [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>), a [Host 🤗 domain](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) to invoke user Agents 🫥 by role - e.g.:
 
         * `any-host.com` asks `any-broker.com` to invoke the user's [Persona 🧢 agent](<../70 🧢 Personas/🧢🫥 Persona agent.md>), 
         * then `any-broker.com` invokes the domain `any-persona.com`.
@@ -24,11 +24,11 @@
     |-|-|-|-
     | 🛎️| [Concierge](<../25 🛎️ Concierges/$ 🛎️🫥 Concierge agent.md>) | TaskRabbit | Orchestrates tasks with 3rd parties (e.g., deliveries, repairs).
     |🧚| [Curator](<../30 🧚 Curators/🧚🫥 Curator agent.md>) | ChatGPT | Filters options sent by [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>).
-    |🧳| [Custodian](<../35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>) | FindMy | Manages the user's [Things 💠](<../../25 Locators/71 💠 Things/💠🔆 Thing locator.md>), including [Userables 💍](<../../70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>) and [⌚ Tapbands](<../../70 🌳 Ambient/76 ⌚ Tapbands/$ ⌚💠 Tapband thing.md>).
+    |🧳| [Custodian](<../35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>) | FindMy | Manages the user's [Things 💠](<../../25 Locators/2 💠 Things/💠🔆 Thing locator.md>), including [Userables 💍](<../../70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>) and [⌚ Tapbands](<../../70 🌳 Ambient/76 ⌚ Tapbands/$ ⌚💠 Tapband thing.md>).
     |🔎| [Finder](<../40 🔎 Finders/🔎🫥 Finder agent.md>) | Google | Searches for [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>), and  introduces them when they start a ../05 💬 Chats/01 💬 Chat.mds/01 💬 Chat.md>).
     |🆔|[Identity](<../45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | IDOne | Confirms that the user is physically present behind the remote screen.
     |🌼| [Keybox](<../48 🌼 Keyboxes/$ 🌼🫥 Keybox agent.md>) | FindMy | Stores and manages the user's [Padlock 🔒](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>) keys.
-    |📇| [Mingler](<../50 📇 Minglers/$ 📇🫥 Mingler agent.md>) | WhatsApp | Connects multiple users in a [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>), allowing them to exchange [Tokens 🎫](<../../30 Data/🎫 Tokens/🎫 Token.md>).
+    |📇| [Mingler](<../50 📇 Minglers/$ 📇🫥 Mingler agent.md>) | WhatsApp | Connects multiple users in a [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>), allowing them to exchange [Tokens 🎫](<../../30 Data/3 🎫 Tokens/🎫 Token.md>).
     |🧭| [Navigator](<../55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | G.Maps | Helps users going from point A to B.
     |💳| [Payer](<../60 💳 Payers/03 💳🎭 Payer role.md>) | Paypal | Performs payments to [Collector 🏦 domains](<../../45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>).
     |🧢| [Persona](<../70 🧢 Personas/🧢🫥 Persona agent.md>) | Facebook | Stores and shares user preferences and personally identifiable information (PII).
@@ -48,15 +48,15 @@
 
     * Yes, Agents 🫥 are singletons from the perspective that:
 
-        * [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) typically assign one (and only one) default user Agents 🫥 for each role, and; 
+        * [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) typically assign one (and only one) default user Agents 🫥 for each role, and; 
   
-        * [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) allow users to replace each default Agent 🫥 to any other of the user's [Vault 🗄️ domains](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) that are [bound 🔗](<../../30 Data/🔗 Binds/🔗 Bind.md>) by the role's [Schema Code 🧩](<../../30 Data/🧩 Schema Codes/🧩 Schema Code.md>).
+        * [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) allow users to replace each default Agent 🫥 to any other of the user's [Vault 🗄️ domains](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) that are [bound 🔗](<../../30 Data/2 🔗 Binds/🔗 Bind.md>) by the role's [Schema Code 🧩](<../../30 Data/1 🧩 Schema Codes/🧩 Schema Code.md>).
 
-    * And no, Agents 🫥 are not singletons from the perspective [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) allow roles not to have a default Agent 🫥 when there are more than one [Vault 🗄️ domains](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) that support the role's [Schema Code 🧩](<../../30 Data/🧩 Schema Codes/🧩 Schema Code.md>).
+    * And no, Agents 🫥 are not singletons from the perspective [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) allow roles not to have a default Agent 🫥 when there are more than one [Vault 🗄️ domains](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) that support the role's [Schema Code 🧩](<../../30 Data/1 🧩 Schema Codes/🧩 Schema Code.md>).
 
         * One use case where this is important is when a user has two nationalities (e.g., French and Japanese), and each nation needs its own [Identity 🆔 agent](<../45 🆔 Identities/$ 🆔🫥 Identity agent.md>).
 
-        * When this happens, the user's [Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) will ask the user to select which of the two [Identity 🆔 agents](<../45 🆔 Identities/$ 🆔🫥 Identity agent.md>) should receive the [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) request.
+        * When this happens, the user's [Broker 🤵 domain](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) will ask the user to select which of the two [Identity 🆔 agents](<../45 🆔 Identities/$ 🆔🫥 Identity agent.md>) should receive the [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) request.
 
     ---
     <br/>
@@ -64,16 +64,16 @@
 
 1. **How can users chat with an Agent?**
 
-    To open an [Agent 🫥 vault](<$ 🫥🗄️ Agent vault.md>), users can ask their [Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>);
+    To open an [Agent 🫥 vault](<$ 🫥🗄️ Agent vault.md>), users can ask their [Broker 🤵 domain](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>);
     * e.g., by stating what they're trying to accomplish;
     * as in the following example, from the [Trip Return 🤝 use case](<../../../3 🤝 Use Cases/03 🧳 Travel/01 🧳 Plans trips 🧭/02 🧭 Return @ Destination.md>).
 
-    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - 
-    | | | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>)
-    | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) | 😃 Hi! What do you need? | `return to` <br/> `hotel`
-    | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) | 💬 How can I help? <br/> - Open [ 🧭 Navigator ] <br/> - [ Something else ] | > 🧭 Navigator 
-    | 🤵 [Broker](<../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) | ✅ Over to 🧭 Navigator.
+    | | | 🤵 [Broker](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>)
+    | 🤵 [Broker](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 😃 Hi! What do you need? | `return to` <br/> `hotel`
+    | 🤵 [Broker](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 💬 How can I help? <br/> - Open [ 🧭 Navigator ] <br/> - [ Something else ] | > 🧭 Navigator 
+    | 🤵 [Broker](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | ✅ Over to 🧭 Navigator.
     | [ new chat ]
     | 🔎 [Finder](<../40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Navigator (4.4 ⭐) [+]
     | 🧭 [Navigator](<../55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | ℹ️ Request: return to hotel [+]

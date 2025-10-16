@@ -8,14 +8,14 @@
 ## 💬 Chat
 
 
-| [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+| [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 | - | - | - |
 | ...
 | [🏦 Collector](<../../../4 ⚙️ Solution/45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>) | ⏳ Waiting payment... [+]  | > +
 | [🏦 Collector](<../../../4 ⚙️ Solution/45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>) | ⏳ Waiting payment... <br/> - [ Tap ] userable <br/> - [ Cancel ] | > Tap
 | 💳 [Payer](<../../../4 ⚙️ Solution/50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Add tip? [No, 10%, +] | > 10%
 | [🏦 Collector](<../../../4 ⚙️ Solution/45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>) | ⓘ Collecting $13.70: <br/> - 2 hot dogs 🌭 (2x $5.00) <br/> - 1 chips 🥔 ($1.00) <br/> - staff order fee 🤗 ($1.00) <br/> - staff pay fee 🤗 ($0.50) <br/> - staff tip 🤗 ($1.20) 
-| [🏦 Collector](<../../../4 ⚙️ Solution/45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>) | 🫥 Tap the userable [+] | 🔆 [tap](<../../../4 ⚙️ Solution/25 Locators/15 🔆 Locators/🔆 Locator.md>)
+| [🏦 Collector](<../../../4 ⚙️ Solution/45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>) | 🫥 Tap the userable [+] | 🔆 [tap](<../../../4 ⚙️ Solution/25 Locators/1 🔆 Locators/🔆 Locator.md>)
 | [🏦 Collector](<../../../4 ⚙️ Solution/45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>) | ⓘ Tapped successfully.
 | [🏦 Collector](<../../../4 ⚙️ Solution/45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>) | ⏳ Collecting payment...
 | 🎪 Stall      | ✅ Payment received!

@@ -2,17 +2,17 @@
 
 # 🧑‍🦰👉🤵 Set language @ Wallet
 
-> Implements a [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+> Implements a [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 
 <br/>
 
 ## Chat
 
-| [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+| [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 | - | - | - |
-| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) | 😃 Hi! What do you need? <br/> - Change [ language ] <br> - [ Something else ]  | > language
-| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) | 😃 What should I speak? <br/> - [ 🇵🇹 ] Português <br> - ...  | > 🇵🇹
-| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) | ✅ Pronto!  
+| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 😃 Hi! What do you need? <br/> - Change [ language ] <br> - [ Something else ]  | > language
+| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 😃 What should I speak? <br/> - [ 🇵🇹 ] Português <br> - ...  | > 🇵🇹
+| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | ✅ Pronto!  
 ||
 
 <br/>
@@ -24,10 +24,10 @@
 
 | # | Call | Notes
 |-|-|-
-| 1 | [🧑‍🦰🐌🤵 `Translate@Broker`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/🤵🅰️ Broker methods/1 🤵🅰️ Wallets 🧑‍🦰/🧑‍🦰🐌🤵 Translate.md>) | User changed the language
+| 1 | [🧑‍🦰🐌🤵 `Translate@Broker`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🅰️ Broker methods/1 🤵🅰️ Wallets 🧑‍🦰/🧑‍🦰🐌🤵 Translate.md>) | User changed the language
 | 2 | [👥🚀🕸 `Translate@Graph`](<../../../4 ⚙️ Solution/45 🤲 Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>) | Translate from [Manifests 📜](<../../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>)
-| 3 | [🤵🐌📣 `Translated@Notifier`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/📣🅰️ Notifier methods/1 🤵 Onboard/2 🤵🐌📣 Translated.md>) | Finished translating the database
-| 4 | [🧑‍🦰🚀🤵 `Chats@Broker`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🧑‍🦰🚀🤵 Chats.md>) | Fetch translated [Chats 💬](<../../../4 ⚙️ Solution/35 Chats/💬 Chats/💬 Chat.md>)
-| 5 | [🧑‍🦰🚀🤵 `Binds@Broker`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🧑‍🦰🚀🤵 Binds.md>) | Fetch translated [Binds 🔗](<../../../4 ⚙️ Solution/30 Data/🔗 Binds/🔗 Bind.md>)
-| 6 | [🧑‍🦰🚀🤵 `Tokens@Broker`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🧑‍🦰🚀🤵 Tokens.md>) | Fetch translated [Tokens 🎫](<../../../4 ⚙️ Solution/30 Data/🎫 Tokens/🎫 Token.md>)
+| 3 | [🤵🐌📣 `Translated@Notifier`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/2 📣 Notifiers/📣🅰️ Notifier methods/1 🤵 Onboard/2 🤵🐌📣 Translated.md>) | Finished translating the database
+| 4 | [🧑‍🦰🚀🤵 `Chats@Broker`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🧑‍🦰🚀🤵 Chats.md>) | Fetch translated [Chats 💬](<../../../4 ⚙️ Solution/35 Chats/💬 Chats/💬 Chat.md>)
+| 5 | [🧑‍🦰🚀🤵 `Binds@Broker`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🧑‍🦰🚀🤵 Binds.md>) | Fetch translated [Binds 🔗](<../../../4 ⚙️ Solution/30 Data/2 🔗 Binds/🔗 Bind.md>)
+| 6 | [🧑‍🦰🚀🤵 `Tokens@Broker`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🧑‍🦰🚀🤵 Tokens.md>) | Fetch translated [Tokens 🎫](<../../../4 ⚙️ Solution/30 Data/3 🎫 Tokens/🎫 Token.md>)
 |

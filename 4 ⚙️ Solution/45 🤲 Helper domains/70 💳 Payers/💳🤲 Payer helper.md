@@ -17,7 +17,7 @@
     |-|-
     | [👀 Ads](<../12 👀 Advertisers/👀🤲 Advertiser helper.md>) | [Domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) are charged by [Advertiser 👀 helpers](<../12 👀 Advertisers/👀🤲 Advertiser helper.md>) for ad promotion.
     | [🏭 Supply](<../../41 🎭 Domain Roles/78 🏭 Suppliers/$ 🏭🎭 Supplier role.md>) | [Domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) are charged by [Supplier 🏭 domains](<../../41 🎭 Domain Roles/78 🏭 Suppliers/$ 🏭🎭 Supplier role.md>) for orders fulfilled. 
-    | [💬 Chats](<../../35 Chats/💬 Chats/💬 Chat.md>) | [Notifier 📣](<../../20 🧑‍🦰 UI/02 📣 Notifiers/📣👥 Notifier domain.md>) are charged by [Broker domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) for [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>) orchestrations.
+    | [💬 Chats](<../../35 Chats/💬 Chats/💬 Chat.md>) | [Notifier 📣](<../../20 🧑‍🦰 UI/2 📣 Notifiers/📣👥 Notifier domain.md>) are charged by [Broker domains](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) for [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>) orchestrations.
     
 
     ---

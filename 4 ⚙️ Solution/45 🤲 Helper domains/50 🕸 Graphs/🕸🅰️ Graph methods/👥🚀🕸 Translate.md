@@ -6,8 +6,8 @@
 
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 
-* [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) 
-    * request translation for [Schema Codes 🧩](<../../../30 Data/🧩 Schema Codes/🧩 Schema Code.md>) and [domains 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>),
+* [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) 
+    * request translation for [Schema Codes 🧩](<../../../30 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) and [domains 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>),
     * obtained [domain Manifests 📜](<../../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>).
 * Used by:
     * [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>) flow
@@ -37,7 +37,7 @@ Body:
 |       | `To`      | string | [Graph 🕸 domain](<../🕸🤲 Graph helper.md>) name
 |       | `Subject` | string | `Translate@Graph`
 |Body   | `Domains`     | string[]  | The [domains 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) to translate
-|       | `Codes`       | string[]  | The [Schema Codes 🧩](<../../../30 Data/🧩 Schema Codes/🧩 Schema Code.md>) to translate
+|       | `Codes`       | string[]  | The [Schema Codes 🧩](<../../../30 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) to translate
 |
 
 <br/>
@@ -57,11 +57,11 @@ Codes:
 |Object|Property|Type|Description
 |-|-|-|-
 |Top    | `Domains`     | object[]  | List of [domain 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) objects
-|       | `Codes`       | object[]  | List of [Schema Code 🧩](<../../../30 Data/🧩 Schema Codes/🧩 Schema Code.md>) objects
+|       | `Codes`       | object[]  | List of [Schema Code 🧩](<../../../30 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) objects
 |Domain | `Domain`      | string    | The [domain 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) name
 |       | `Translation` | string    | The [domain 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) title
-|Code   | `Code`        | string    | The [Schema Code 🧩](<../../../30 Data/🧩 Schema Codes/🧩 Schema Code.md>)
-|       | `Translation` | string    | The [Schema Code 🧩](<../../../30 Data/🧩 Schema Codes/🧩 Schema Code.md>) title
+|Code   | `Code`        | string    | The [Schema Code 🧩](<../../../30 Data/1 🧩 Schema Codes/🧩 Schema Code.md>)
+|       | `Translation` | string    | The [Schema Code 🧩](<../../../30 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) title
 |
 
 <br/>

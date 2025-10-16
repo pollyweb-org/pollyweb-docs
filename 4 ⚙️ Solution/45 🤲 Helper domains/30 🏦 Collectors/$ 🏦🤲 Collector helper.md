@@ -18,7 +18,7 @@
 
     |#|Step
     |-|-
-    |1| A [Payer 💳 domain](<../../50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>) receives an order to make a payment, either from a user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) in a business-to-consumer (B2C) transaction, or from a [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) in a business-to-business (B2B) transaction.
+    |1| A [Payer 💳 domain](<../../50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>) receives an order to make a payment, either from a user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) in a business-to-consumer (B2C) transaction, or from a [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) in a business-to-business (B2B) transaction.
     |2| The [Payer 💳 domain](<../../50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>) then performs a traditional payment to a [Collector 🏦 helper domain](<$ 🏦🤲 Collector helper.md>).
     |3| The [Collector 🏦 domain](<$ 🏦🤲 Collector helper.md>)issues a traditional receipt back to the [Payer 💳 domain](<../../50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>).
     |4| The [Collector 🏦 domain](<$ 🏦🤲 Collector helper.md>)notifies the recipient [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) that the payment was successful.
@@ -72,8 +72,8 @@
 1. **Can a Collector be use in boutique's cash register?**
 
     Yes. Here's a possible configuration for [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) admins:
-    - add [🔆 NFC/QR Locators](<../../25 Locators/15 🔆 Locators/🔆 Locator.md>) on both sides of the counter;
-    - issue cashier [Tokens 🎫](<../../30 Data/🎫 Tokens/🎫 Token.md>) from your [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>);
+    - add [🔆 NFC/QR Locators](<../../25 Locators/1 🔆 Locators/🔆 Locator.md>) on both sides of the counter;
+    - issue cashier [Tokens 🎫](<../../30 Data/3 🎫 Tokens/🎫 Token.md>) from your [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>);
     - create check-out workflows for cashier and customers.
 
     Set the cashier workflow as follows:
@@ -112,7 +112,7 @@
     
     The [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>) will be similar to the following.
 
-    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     |...
     | 🤗 Host | ℹ️ Let me get you the bill.

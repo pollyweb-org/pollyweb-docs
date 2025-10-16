@@ -7,7 +7,7 @@
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 
 * Returns the historical public key of an [Issuer 🎴 domain](<../../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) by the name of the key.
-    * Allows a [Consumer 💼 domain](<../../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) to verify a [Token 🎫](<../../../30 Data/🎫 Tokens/🎫 Token.md>) issued before a [DKIM 📨](<../../../40 👥 Domains/👥📨 Domain Messages/📨 Message.md>) rotation.
+    * Allows a [Consumer 💼 domain](<../../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) to verify a [Token 🎫](<../../../30 Data/3 🎫 Tokens/🎫 Token.md>) issued before a [DKIM 📨](<../../../40 👥 Domains/👥📨 Domain Messages/📨 Message.md>) rotation.
 * Used by:
     * [👥🔏 Domain Signature](<../../../40 👥 Domains/👥🔏 Domain Signatures/👥🔏 Domain Signature.md>)
     * [💼⏩🧑‍🦰 Share Token @ Consumer](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token 🎫.md>) flow

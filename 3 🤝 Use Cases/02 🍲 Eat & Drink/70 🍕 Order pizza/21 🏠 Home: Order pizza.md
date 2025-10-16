@@ -8,15 +8,15 @@ Order a pizza for home delivery
 
 ## 💬 Chat
 
-| [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+| [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 |-|-|-|
-| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) | 😃 Hi! What do you need? | `pizza`
-| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) | 💬 How can I help with that? <br> - [ Order ] from 🍕 Any Pizzeria <br/> - [ Find 🔎 ] a pizzeria to go to<br/> - [ Something else ] | > Order
-| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) | ✅ Over to 🍕 Any Pizzeria.
+| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 😃 Hi! What do you need? | `pizza`
+| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 💬 How can I help with that? <br> - [ Order ] from 🍕 Any Pizzeria <br/> - [ Find 🔎 ] a pizzeria to go to<br/> - [ Something else ] | > Order
+| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | ✅ Over to 🍕 Any Pizzeria.
 | [ new chat ]
 | 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Pizzeria (4.4 ⭐) [+]
 | 🍕 Pizzeria   | ℹ️ Pizza request received.
-| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Ready to order? [Yes, No] <br/> - your navigator sets where 🧭 <br/> - your concierge sets how 🛎️ <br/> - your curator orders 🧚 <br/> - your vitalogist reviews 💖 <br/> - your scheduler reviews 🗓️  <br/> - your payer pays the bill 💳 <br/> - your concierge delivers 🛎️ <br/> - your payer tips the courier 💳 <br/> - your vitalogist records it 💖 | > Yes
+| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Ready to order? [Yes, No] <br/> - your navigator sets where 🧭 <br/> - your concierge sets how 🛎️ <br/> - your curator orders 🧚 <br/> - your vitalogist reviews 💖 <br/> - your scheduler reviews 🗓️  <br/> - your payer pays the bill 💳 <br/> - your concierge delivers 🛎️ <br/> - your payer tips the courier 💳 <br/> - your vitalogist records it 💖 | > Yes
 | 🧭 [Navigator](<../../../4 ⚙️ Solution/50 🫥 Agent domains/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | 🫥 Share destination? [No] <br> - [ 🏠 home ] <br/> - [ 🏡 Daniel's ] <br/> - [ 📍 current location ] <br/> - [ 🗺️ Somewhere else ] | > 🏠 home
 | 🛎️ [Concierge](<../../../4 ⚙️ Solution/50 🫥 Agent domains/25 🛎️ Concierges/$ 🛎️🫥 Concierge agent.md>) | ⓘ Given destination: [Change]<br/>- Ryan street, 98, 2D 
 | 🛎️ [Concierge](<../../../4 ⚙️ Solution/50 🫥 Agent domains/25 🛎️ Concierges/$ 🛎️🫥 Concierge agent.md>) | ⏳ Looking for couriers...
@@ -84,7 +84,7 @@ Order a pizza for home delivery
     |Functions|Returns|Description
     |-|-|-
     |`destination`| string | Pass the [Navigator 🧭 agent](<../../../4 ⚙️ Solution/50 🫥 Agent domains/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) destination.
-    | `menu-locator` | string | [Locator 🔆](<../../../4 ⚙️ Solution/25 Locators/15 🔆 Locators/🔆 Locator.md>) of the menu.
+    | `menu-locator` | string | [Locator 🔆](<../../../4 ⚙️ Solution/25 Locators/1 🔆 Locators/🔆 Locator.md>) of the menu.
     | `order-summary`| markdown | [Curator 🧚 agent](<../../../4 ⚙️ Solution/50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) choices:<br/>- plus ongoing status.
     | `order-details`| object | Details for partners: <br/>- selected items,<br/>- final delivery estimates, <br/>- aggregator [Biller 🤝](<../../../4 ⚙️ Solution/45 🤲 Helper domains/20 🤝 Billers/🤝🤲 Biller helper.md>) ID.
     |

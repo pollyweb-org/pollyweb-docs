@@ -1,11 +1,11 @@
 # Top up a bus ticket at the bus stop 🚎
 
-| [Domain](<../../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../../4 ⚙️ Solution/35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+| [Domain](<../../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../../4 ⚙️ Solution/35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 | - | - | - |
-| | | 🔆 [tap](<../../../../4 ⚙️ Solution/25 Locators/15 🔆 Locators/🔆 Locator.md>)
+| | | 🔆 [tap](<../../../../4 ⚙️ Solution/25 Locators/1 🔆 Locators/🔆 Locator.md>)
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Bus (4.4 ⭐) [+]
 | 🚎 Operator | ℹ️ Stop X: Earl Gray
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) | ⓘ Ticket shared [+]
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | ⓘ Ticket shared [+]
 | 🚎 Operator | ℹ️ You have 3 trips left.
 | 🚎 Operator | 😃 Hi! What do you need? <br/>- [ Top up 🆙 ] trips <br/>- [ Timetable ] | > Top up 🆙
 | 🚎 Operator | 😃 How many? [10, 20, +] | > 20

@@ -1,10 +1,10 @@
 # 🧑‍🦰👉🤵 List chats @ Wallet
 
 
-> Implements a [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+> Implements a [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 
 
-* On the [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>), fetch the user's [Chats 💬](<../../../4 ⚙️ Solution/35 Chats/💬 Chats/💬 Chat.md>) from the [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>)
+* On the [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>), fetch the user's [Chats 💬](<../../../4 ⚙️ Solution/35 Chats/💬 Chats/💬 Chat.md>) from the [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>)
 
 
 
@@ -16,7 +16,7 @@
 
 | # | Call | Notes
 |-|-|-
-| 1 | [🧑‍🦰🚀🤵 `Chats@Broker`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🧑‍🦰🚀🤵 Chats.md>) | Fetch [Chats 💬](<../../../4 ⚙️ Solution/35 Chats/💬 Chats/💬 Chat.md>) from the [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>)
+| 1 | [🧑‍🦰🚀🤵 `Chats@Broker`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🧑‍🦰🚀🤵 Chats.md>) | Fetch [Chats 💬](<../../../4 ⚙️ Solution/35 Chats/💬 Chats/💬 Chat.md>) from the [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>)
 ||
 
 <br/>
@@ -25,7 +25,7 @@
 
 1. **How is cache invalidated?**
 
-    Cache is invalidated with [🤵⏩🧑‍🦰 Update tokens](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Tokens 🎫.md>).
+    Cache is invalidated with [🤵⏩🧑‍🦰 Update tokens](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Tokens 🎫.md>).
 
     ---
     <br/>

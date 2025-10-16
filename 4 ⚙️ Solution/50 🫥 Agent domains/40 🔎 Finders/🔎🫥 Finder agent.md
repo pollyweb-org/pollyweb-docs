@@ -24,13 +24,13 @@
 
 1. **How do Finders help to protect users?**
 
-    [Broker 🤵 domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) leverage Finders to provide users with culturally-contextualized details and user feedback about [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) when a [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>) starts. 
+    [Broker 🤵 domains](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) leverage Finders to provide users with culturally-contextualized details and user feedback about [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) when a [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>) starts. 
 
-    * Consider the following [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>) excerpt from the [Buy water 🤝 use case](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/11 💧 Buy water.md>) as an example of a with an interaction with a  [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>), right after the user has tapped a [Locator 🔆](<../../25 Locators/15 🔆 Locators/🔆 Locator.md>).
+    * Consider the following [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>) excerpt from the [Buy water 🤝 use case](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/11 💧 Buy water.md>) as an example of a with an interaction with a  [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>), right after the user has tapped a [Locator 🔆](<../../25 Locators/1 🔆 Locators/🔆 Locator.md>).
 
-    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | | | 🔆 [tap](<../../25 Locators/15 🔆 Locators/🔆 Locator.md>)
+    | | | 🔆 [tap](<../../25 Locators/1 🔆 Locators/🔆 Locator.md>)
     | 🔎 [Finder](<🔎🫥 Finder agent.md>) | ⓘ Any Host (4.3 ⭐) [+] | (expand)
     | 🔎 [Finder](<🔎🫥 Finder agent.md>) | ⓘ Any Host (4.3 ⭐)  [-] <br/> This host sells shoes.<br/>- They were founded in 1987.<br/>- Joined NLWeb 2 years ago.<br/>User feedback:<br/>- Delivery 4.7⭐ by 357 users<br/>- Support 3.5⭐ by 21 users
 
@@ -47,7 +47,7 @@
     * Consider the following [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>) excerpt of the [Find a bar 🤝 use case](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/30 🍸 Bars/11 🌐 Web: Find a bar.md>) as an example.
 
 
-    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 🔎 [Finder](<🔎🫥 Finder agent.md>) | 😃 Hi! What do you need? | `a bar`
     | 🔎 [Finder](<🔎🫥 Finder agent.md>) | 💬 Here are suggestions: <br/> - [ Any Club 🕺 ] (4.4 ⭐) <br/> &nbsp; └ 👟 1.7km 🚪 10pm-5am <br/> - [ Any Bar 🍸 ] (4.8 ⭐) <br/> &nbsp; ├ 👟 1.7km 🚪 1pm-10pm <br/> &nbsp; ├ open bar from 8pm <br/> &nbsp; └ closes in ~1 hour <br/> - [ Find 🔎 ] alternatives | > Any Bar 🍸
@@ -76,14 +76,14 @@
 1. **How do Finders get information about users?**
 
     * [Persona 🧢](<../70 🧢 Personas/🧢🫥 Persona agent.md>): Finders ask users to share anonymized search preferences from their Personas, then index the search results accordingly.
-    * [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>): Finders receive the user's current context from the Wallet, similar to what is sent to a Web 2.0 browser (e.g., time zone, country, state, approximate location).
+    * [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>): Finders receive the user's current context from the Wallet, similar to what is sent to a Web 2.0 browser (e.g., time zone, country, state, approximate location).
 
     ---
     <br/>
 
 1. **How do Finders filter and rank the results for users?**
 
-    - **[👍 Trust](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>)**: domains untrusted by the user's [Broker 🤵](<../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) are discarded;
+    - **[👍 Trust](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>)**: domains untrusted by the user's [Broker 🤵](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) are discarded;
     - **🔥 Threats**: domains blocked by [Firewalls 🔥](<../../45 🤲 Helper domains/40 🔥 Firewalls/🔥🤲 Firewall helper.md>) may be discarded even when trusted;
     - **🧢 Preferences**: the user's preferences, as shared by the user's [Persona 🧢](<../70 🧢 Personas/🧢🫥 Persona agent.md>);
     - **📍 Proximity**: the distance to the user, based on the context shared by the Wallet;

@@ -77,7 +77,7 @@ Success:
 | [🧩 `//IDENTITY/OVER21`](<../../../7 🧩 Codes/IDENTITY/🧩 IdentityOver21.md>) | Verify minimum age to drink
 | [🪣 `Items`](<94 🪣 Owner: Items.md>) | List of items to [`MAP`](<../../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃🗃️ Talker data/61 🪣 MAP item.md>)
 | [🪣 `Locators`](<95 🪣 Owner: Locators.md>) | List of machines to [`MAP`](<../../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃🗃️ Talker data/61 🪣 MAP item.md>)
-| 💬 [`$.Chat.Key`](<../../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃🗃️ Talker data/11 💬 $.Chat holder.md>) | Get the machine's [Locator 🔆](<../../../4 ⚙️ Solution/25 Locators/15 🔆 Locators/🔆 Locator.md>) key
+| 💬 [`$.Chat.Key`](<../../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃🗃️ Talker data/11 💬 $.Chat holder.md>) | Get the machine's [Locator 🔆](<../../../4 ⚙️ Solution/25 Locators/1 🔆 Locators/🔆 Locator.md>) key
 |
 
 <br/>

@@ -17,12 +17,12 @@
 
 1. **How does a Padlock decide when to open a lock?**
 
-    Users' [🔑 KeyHolders](<../77 🔑 Keyholders/$ 🔑💠 Keyholder device.md>) first scan the Padlock, receiving an NFC response with Padlock's [Locator 🔆](<../../25 Locators/15 🔆 Locators/🔆 Locator.md>), which contains:
-    - a fixed Padlock [Schema Code 🧩](<../../30 Data/🧩 Schema Codes/🧩 Schema Code.md>) identifier 
+    Users' [🔑 KeyHolders](<../77 🔑 Keyholders/$ 🔑💠 Keyholder device.md>) first scan the Padlock, receiving an NFC response with Padlock's [Locator 🔆](<../../25 Locators/1 🔆 Locators/🔆 Locator.md>), which contains:
+    - a fixed Padlock [Schema Code 🧩](<../../30 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) identifier 
     - the domain of the Padlock's [🔐 KeyMaker](<../../45 🤲 Helper domains/58 🔐 Keymakers/05  🔐🏭 Keymaker supplier.md>) (e.g., `any-keymaker.com`) 
     - the resource key of the PadLock in the KeyMaker (e.g.,`padlock-12345678`)
     
-    The Keyholder looks up the the Padlock's [Locator 🔆](<../../25 Locators/15 🔆 Locators/🔆 Locator.md>) in its local key cache, and sends a new NFC command with the key details:
+    The Keyholder looks up the the Padlock's [Locator 🔆](<../../25 Locators/1 🔆 Locators/🔆 Locator.md>) in its local key cache, and sends a new NFC command with the key details:
     - the encrypted security sequence number for the PadLock (e.g., `1234567890`)
     - the encrypted passkey for that sequence number (e.g., `ABCDEF`)
     - the encrypted sequence expiration interval (e.g., 24 hours)
@@ -52,7 +52,7 @@
 
     No.
     - A typical scenario would be a firefighter needing access to any fire fighting material, regardless of what Padlock would be locking it.
-    - These scenarios require a [Token 🎫](<../../30 Data/🎫 Tokens/🎫 Token.md>) and are not supported because Padlocks have no access to the internet, so they cannot verify Tokens.
+    - These scenarios require a [Token 🎫](<../../30 Data/3 🎫 Tokens/🎫 Token.md>) and are not supported because Padlocks have no access to the internet, so they cannot verify Tokens.
     - Padlocks can only be unlock by other individuals when the owner explicitly shares the key to the Padlock via their [🌼 Keybox](<../../50 🫥 Agent domains/48 🌼 Keyboxes/$ 🌼🫥 Keybox agent.md>).
     - Alternatively, organizations should leverage [🎬 Relays](<../../60 🧰 Edge/65 🎬 Relayers/04 🎬🔌 Relay device.md>) to achieve dynamic access control via Tokens.
 
@@ -133,6 +133,6 @@
 
     - if the Padlock is a relay to an external lock (e.g., building door), then the external lock should have its own traditional key.
 
-    - if the Padlock has an integrated lock (e.g., gym locker), then it was sold with a traditional key as a backup mechanism - this keys come with an embedded [🔆 NFC Locator](<../../25 Locators/15 🔆 Locators/🔆 Locator.md>) that users can scan to ask the key's [🔐 KeyMaker](<../../45 🤲 Helper domains/58 🔐 Keymakers/05  🔐🏭 Keymaker supplier.md>) what the key is for (e.g., `what's the code written in the Padlock of this key?`).
+    - if the Padlock has an integrated lock (e.g., gym locker), then it was sold with a traditional key as a backup mechanism - this keys come with an embedded [🔆 NFC Locator](<../../25 Locators/1 🔆 Locators/🔆 Locator.md>) that users can scan to ask the key's [🔐 KeyMaker](<../../45 🤲 Helper domains/58 🔐 Keymakers/05  🔐🏭 Keymaker supplier.md>) what the key is for (e.g., `what's the code written in the Padlock of this key?`).
 
     ---

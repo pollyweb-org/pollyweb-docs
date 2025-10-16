@@ -3,7 +3,7 @@
 > Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) flow
 
 > Signature of the [Message 📨](<../../../40 👥 Domains/👥📨 Domain Messages/📨 Message.md>):
-> <br>• signed with the `PrivateKey` from [`Converse@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/📣🅰️ Notifier methods/2 💬 Chats/1 🤵🐌📣 Converse.md>)
+> <br>• signed with the `PrivateKey` from [`Converse@Notifier`](<../../../20 🧑‍🦰 UI/2 📣 Notifiers/📣🅰️ Notifier methods/2 💬 Chats/1 🤵🐌📣 Converse.md>)
 > <br>• verified with the `PublicKey` from [`Hello@Host`](<🤵🐌🤗 Hello.md>)
 
 * Downloads the content of a [Prompt 🤔](<../../../35 Chats/🤔 Prompts/🤔 Prompt.md>).
@@ -27,10 +27,10 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header    | `From`        | string    | `Anonymous`
-|           | `To`          | string    | [Sender 🤗](<../🤗🎭 Host role.md>) from [`Prompt@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/📣🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
+|           | `To`          | string    | [Sender 🤗](<../🤗🎭 Host role.md>) from [`Prompt@Notifier`](<../../../20 🧑‍🦰 UI/2 📣 Notifiers/📣🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
 |           | `Subject`     | string    | `Prompted@Host`
-| Body      | `ChatID` | uuid | [Chat 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>) ID from [`Prompt@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/📣🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
-|| `PromptID`    | uuid      | [Prompt 🤔](<../../../35 Chats/🤔 Prompts/🤔 Prompt.md>) ID from [`Prompt@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/📣🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
+| Body      | `ChatID` | uuid | [Chat 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>) ID from [`Prompt@Notifier`](<../../../20 🧑‍🦰 UI/2 📣 Notifiers/📣🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
+|| `PromptID`    | uuid      | [Prompt 🤔](<../../../35 Chats/🤔 Prompts/🤔 Prompt.md>) ID from [`Prompt@Notifier`](<../../../20 🧑‍🦰 UI/2 📣 Notifiers/📣🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
 |
 
 <br/>
@@ -71,7 +71,7 @@ Options:                            # Optional
 |-|-|-
 | `ID`          | string  | ID of the [option](<../../../35 Chats/🤔 Prompts/🤔⚙️ Prompt features/4 🔘 with Options.md>) for [`Reply@Host`](<🧑‍🦰🐌🤗 Reply.md>)
 | `Translation` | string  | Text of the [option](<../../../35 Chats/🤔 Prompts/🤔⚙️ Prompt features/4 🔘 with Options.md>) to be displayed
-| `Locator` | string | Optional [Locator 🔆](<../../../25 Locators/15 🔆 Locators/🔆 Locator.md>) to [Assess ⏩](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/03 🧑‍🦰👉🤗 Prompt option.md>)
+| `Locator` | string | Optional [Locator 🔆](<../../../25 Locators/1 🔆 Locators/🔆 Locator.md>) to [Assess ⏩](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/03 🧑‍🦰👉🤗 Prompt option.md>)
 |
 
 <br/>

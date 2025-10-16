@@ -6,13 +6,13 @@
 
 ## 💬 Chat
 
-| [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+| [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 | - | - | - |
-| | | 🔆 [tap](<../../../4 ⚙️ Solution/25 Locators/15 🔆 Locators/🔆 Locator.md>)
+| | | 🔆 [tap](<../../../4 ⚙️ Solution/25 Locators/1 🔆 Locators/🔆 Locator.md>)
 | 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Bar (4.4 ⭐) [+]
 | 🍸 Bar        | ℹ️ This is Table 23 at Any Bar.
 | 🍸 Bar        | 😃 Hi! What do you need? <br/>- [ Order ] <br/>- [ Something else ] | > Order
-| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Ready to order? [Yes, No] <br/> - your curator orders 🧚<br/> - your vitalogist reviews 💖 <br/> - your ID proves you're 21+ 🆔 <br/> - your payer pays the bill 💳 <br/> - we'll bring it when ready 🍸 <br/> - your vitalogist records it 💖 | > Yes
+| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Ready to order? [Yes, No] <br/> - your curator orders 🧚<br/> - your vitalogist reviews 💖 <br/> - your ID proves you're 21+ 🆔 <br/> - your payer pays the bill 💳 <br/> - we'll bring it when ready 🍸 <br/> - your vitalogist records it 💖 | > Yes
 | 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) | 🫥 Share preferences? <br/>- [ 👤 solo ] <br/>- [ 👨‍👩‍👦 family ] <br/>- [ 🤝 business ] | > 🤝 business 
 | 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) | ⏳ Analyzing menu... 
 | 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) | 💭 Here are suggestions: <br/>- [ white wine 🍷 ] <br/> - [ Still water 💧 ] <br/> - [ tap water 🚰 ] | `a beer`

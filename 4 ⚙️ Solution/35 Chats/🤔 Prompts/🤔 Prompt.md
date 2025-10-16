@@ -10,7 +10,7 @@
     A [Prompt 🤔](<🤔 Prompt.md>) 
     * is a line in [Chat 💬](<../💬 Chats/💬 Chat.md>) 
     * with a question or information to the user
-    * sent to a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) 
+    * sent to a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) 
     * by a [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) 
     * via the [Prompt 🤗⏩🧑‍🦰](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) flow.
 
@@ -21,7 +21,7 @@
 
 1. **What input formats can Hosts ask Wallets to render?**
 
-    Similar to HTTP, on NLWeb the [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) servers request the [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) to render the requested [Prompts 🤔](<🤔 Prompt.md>).
+    Similar to HTTP, on NLWeb the [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) servers request the [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) to render the requested [Prompts 🤔](<🤔 Prompt.md>).
 
     * The supported [Prompt 🤔](<🤔 Prompt.md>) formats are as follow.
 
