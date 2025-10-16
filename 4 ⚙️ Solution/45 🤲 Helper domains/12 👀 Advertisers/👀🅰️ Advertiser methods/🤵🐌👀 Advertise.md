@@ -5,4 +5,4 @@
 <!-- Test: -->
 
 
-# 🤵🐌👀 Advertise @ [Advertiser](<../👀🛠️ Advertiser helper.md>)
+# 🤵🐌👀 Advertise @ [Advertiser](<../👀🤲 Advertiser helper.md>)

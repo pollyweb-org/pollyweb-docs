@@ -5,4 +5,4 @@
 <!-- Test: -->
 
 
-# 🧚🐌👀 Anonymized @ [Advertiser](<../👀🛠️ Advertiser helper.md>)
+# 🧚🐌👀 Anonymized @ [Advertiser](<../👀🤲 Advertiser helper.md>)

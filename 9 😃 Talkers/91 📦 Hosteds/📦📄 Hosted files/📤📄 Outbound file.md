@@ -8,7 +8,7 @@
 1. **What is the Outbound file?**
 
     The `📤 Outbound.yaml` file 
-    * is a file managed by the [Hoster ☁️ domain](<../../../4 ⚙️ Solution/45 🤲 Helper domains/55 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>) 
+    * is a file managed by the [Hoster ☁️ domain](<../../../4 ⚙️ Solution/45 🤲 Helper domains/55 ☁️ Hosters/☁️🤲 Hoster helper.md>) 
     * that tells [Hosted 📦 domain](<../📦👥 Hosted domain.md>)
     * where to forward [Messages 📨](<../../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/📨 Message.md>) to.
 
@@ -33,7 +33,7 @@
 
 1. **How does the Outbound proxy work?**
 
-    The [Hoster ☁️ domain](<../../../4 ⚙️ Solution/45 🤲 Helper domains/55 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>) proxy 
+    The [Hoster ☁️ domain](<../../../4 ⚙️ Solution/45 🤲 Helper domains/55 ☁️ Hosters/☁️🤲 Hoster helper.md>) proxy 
     * receives unsigned [Messages 📨](<../../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/📨 Message.md>) from the [domain 👥](<../../../4 ⚙️ Solution/40 👥 Domains/$ 👥 Domains/👥 Domain.md>), 
     * signs them with the [DKIM 📨](<../../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/📨 Message.md>) private key, 
     * and forwards them downstream without ever disclosing the private key.

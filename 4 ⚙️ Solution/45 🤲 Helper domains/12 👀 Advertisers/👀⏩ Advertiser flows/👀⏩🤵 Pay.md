@@ -1,4 +1,4 @@
-# 👀⏩🤵 Pay @ [Advertiser](<../👀🛠️ Advertiser helper.md>)
+# 👀⏩🤵 Pay @ [Advertiser](<../👀🤲 Advertiser helper.md>)
 
 ## Steps
 

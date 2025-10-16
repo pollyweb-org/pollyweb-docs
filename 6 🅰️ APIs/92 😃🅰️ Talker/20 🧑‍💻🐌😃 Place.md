@@ -1,6 +1,6 @@
 # 🧑‍💻🐌☁️ Write @ Hoster
 
-> Implements [Hoster ☁️ helper domain](<../../4 ⚙️ Solution/45 🤲 Helper domains/55 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>)
+> Implements [Hoster ☁️ helper domain](<../../4 ⚙️ Solution/45 🤲 Helper domains/55 ☁️ Hosters/☁️🤲 Hoster helper.md>)
 
 > Part of [😃⏩🧑‍💻 Wait @ Talker](<../../5 ⏩ Flows/79 😃⏩ Talkers/30 😃⏩🧑‍💻 Wait ⏸️.md>) flow
 
@@ -29,7 +29,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header    | `From`        | string    | [Host 🤗 domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) name
-|           | `To`          | string    | [Hoster ☁️ domain](<../../4 ⚙️ Solution/45 🤲 Helper domains/55 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>) name
+|           | `To`          | string    | [Hoster ☁️ domain](<../../4 ⚙️ Solution/45 🤲 Helper domains/55 ☁️ Hosters/☁️🤲 Hoster helper.md>) name
 |           | `Subject`     | string    | `Place@Talker`
 | Body      | `ChatID`      | uuid      | [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID
 |           | `Placeholder` | string    | [$Placeholder 💾](<../../9 😃 Talkers/30 🗃️ Talker data/10 💾 $Placeholder.md>) name

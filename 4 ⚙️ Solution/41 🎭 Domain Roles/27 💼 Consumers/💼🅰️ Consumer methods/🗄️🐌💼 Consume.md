@@ -33,7 +33,7 @@ Body:
 | `From`| string | [Vault 🗄️ domain](<../../80 🗄️ Vaults/🗄️🎭 Vault role.md>) name
 | `To`| string | [Consumer 💼 domain](<../💼🎭 Consumer role.md>) name
 | `Subject` | string | `Consume@Consumer`
-| `Broker`| string | [Broker 🤵 domain](<../../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) name
+| `Broker`| string | [Broker 🤵 domain](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) name
 | `ChatID` | uuid | [Chat 💬](<../../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID
 | `Code`| string |  [Schema Code 🧩](<../../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>)
 | `ConsumerKey` | uuid | From [`Query@`](<../../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) and [`Invite@`](<../../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/64 💼🐌🤵 Invite.md>)

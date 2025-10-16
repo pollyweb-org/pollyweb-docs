@@ -9,9 +9,9 @@ Save intake when not the person that ordered
 
 | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/$ 👥 Domains/👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 |-|-|-|
-| 🤵 [Broker](<../../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 😃 Hi! What do you need? | `get intake`<br/>`from Daniel`
-| 🤵 [Broker](<../../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 💬 How can I help with that? <br> - [ Intake ] in Any Vitalogist 💖 <br/> - [ Something else ] | > Intake
-| 🤵 [Broker](<../../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | ✅ Over to Any Vitalogist 💖
+| 🤵 [Broker](<../../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) | 😃 Hi! What do you need? | `get intake`<br/>`from Daniel`
+| 🤵 [Broker](<../../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) | 💬 How can I help with that? <br> - [ Intake ] in Any Vitalogist 💖 <br/> - [ Something else ] | > Intake
+| 🤵 [Broker](<../../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) | ✅ Over to Any Vitalogist 💖
 | [ new chat ]
 | 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agents/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Vitalogist (4.4 ⭐) [+]
 | 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agents/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | ℹ️ Request received [+] 

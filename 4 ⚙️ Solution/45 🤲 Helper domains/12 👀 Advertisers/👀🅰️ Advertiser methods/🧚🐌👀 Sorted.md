@@ -5,4 +5,4 @@
 <!-- Test: -->
 
 
-# 🧚🐌👀 Sorted @ [Advertiser](<../👀🛠️ Advertiser helper.md>)
+# 🧚🐌👀 Sorted @ [Advertiser](<../👀🤲 Advertiser helper.md>)

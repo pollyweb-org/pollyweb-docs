@@ -25,7 +25,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From`|string | [Broker 🤵 domain](<../../../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) name
+|Header|`From`|string | [Broker 🤵 domain](<../../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) name
 ||`To`|string| [Notifier 📣](<../../📣 Notifier domain.md>) from [`Onboard@Broker`](<../../../../../6 🅰️ APIs/15 🤵🅰️ Broker/10 🤵🅰️ Wallets 🧑‍🦰/11 📣🚀🤵 Onboard.md>)
 ||`Subject`|string|`Translated@Notifier`
 |Body  |`WalletID` |uuid  | [Wallet 🧑‍🦰](<../../../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) ID from [`Translate@Broker`](<../../../../../6 🅰️ APIs/15 🤵🅰️ Broker/10 🤵🅰️ Wallets 🧑‍🦰/12 🧑‍🦰🐌🤵 Translate.md>)
