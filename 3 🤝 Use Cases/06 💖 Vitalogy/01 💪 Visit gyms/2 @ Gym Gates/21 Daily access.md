@@ -4,7 +4,7 @@ How to go through the gym's gates?
 > Users can go through gym gates in multiple ways - e.g.:
 
 * by [tapping 🔆](<../../../../4 ⚙️ Solution/25 Locators/1 🔆 Locators/🔆 Locator.md>) with their phones
-* by tapping their [userables 💍](<../../../../4 ⚙️ Solution/25 Locators/74 💍 Userables/💍💠 Userable thing.md>) 
+* by tapping their [userables 💍](<../../../../4 ⚙️ Solution/25 Locators/4 💍 Userables/💍💠 Userable thing.md>) 
 * by scanning their [palms 🖐️](<../../../../4 ⚙️ Solution/60 🧰 Edge/63 🖐️ Palmists/01 🖐️🔌 Palmist device.md>)
 
 > Whatever the method, the gym always sends feedback to the [Wallet 🧑‍🦰](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).

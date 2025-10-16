@@ -41,8 +41,8 @@
     |-|-|-
     |1| `Issue`| An [Issuer 🎴 domain](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) issues a [Token 🎫](<🎫 Token.md>) the the user stores offline in the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
     |2| `In-Chat`| While in a [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>) with a [Consumer 💼 host domain](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>), the user shares the [Token 🎫](<🎫 Token.md>).
-    |3| `Userable` | Using their [Custodian 🧳 agent](<../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>), users select which [Tokens 🎫](<🎫 Token.md>) to be automatically shared by a specific [Userable 💍 thing](<../../25 Locators/74 💍 Userables/💍💠 Userable thing.md>).
-    | 4| `Userable`| When the NFC of the [Userable 💍 thing](<../../25 Locators/74 💍 Userables/💍💠 Userable thing.md>) is [tapped 🔆](<../../25 Locators/1 🔆 Locators/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>) on the [scanner ✨ device](<../../60 🧰 Edge/66 ✨ Scanners/06 ✨🔌 Scanner device.md>) of a [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>), the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) shares the [Tokens 🎫](<🎫 Token.md>).
+    |3| `Userable` | Using their [Custodian 🧳 agent](<../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>), users select which [Tokens 🎫](<🎫 Token.md>) to be automatically shared by a specific [Userable 💍 thing](<../../25 Locators/4 💍 Userables/💍💠 Userable thing.md>).
+    | 4| `Userable`| When the NFC of the [Userable 💍 thing](<../../25 Locators/4 💍 Userables/💍💠 Userable thing.md>) is [tapped 🔆](<../../25 Locators/1 🔆 Locators/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>) on the [scanner ✨ device](<../../60 🧰 Edge/66 ✨ Scanners/06 ✨🔌 Scanner device.md>) of a [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>), the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) shares the [Tokens 🎫](<🎫 Token.md>).
     |5| `Printed`| From the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>), users can print a [Token 🎫](<🎫 Token.md>).
     |6| `Printed` | The user can then present the printed [Token 🎫](<🎫 Token.md>) to the [scanner ✨ device](<../../60 🧰 Edge/66 ✨ Scanners/06 ✨🔌 Scanner device.md>) of a [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>).
     |7| `Identity` | If the [Token 🎫](<🎫 Token.md>) contains the [Locator 🔆](<../../25 Locators/1 🔆 Locators/🔆 Locator.md>) of an [Identity 🆔 domain](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>), then it means that the [Token 🎫](<🎫 Token.md>) was issued to a specific person only.
@@ -163,8 +163,8 @@
     |-|-
     | **🖨️ Paper**| Ask the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) to print it on paper.
     | **📱 Phone** | Screenshot and store it as an image on a device.
-    | **[💍 Userable](<../../25 Locators/74 💍 Userables/💍💠 Userable thing.md>)** | Add it to a [Userable 💍 thing](<../../25 Locators/74 💍 Userables/💍💠 Userable thing.md>) via the user's [Custodian 🧳 vault](<../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>).
-    | **[⌚ Tapband ](<../../70 🌳 Ambient/76 ⌚ Tapbands/$ ⌚💠 Tapband thing.md>)** | Add it to a [Tapband ⌚ thing](<../../70 🌳 Ambient/76 ⌚ Tapbands/$ ⌚💠 Tapband thing.md>) via the user's [Custodian 🧳 vault](<../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>).
+    | **[💍 Userable](<../../25 Locators/4 💍 Userables/💍💠 Userable thing.md>)** | Add it to a [Userable 💍 thing](<../../25 Locators/4 💍 Userables/💍💠 Userable thing.md>) via the user's [Custodian 🧳 vault](<../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>).
+    | **[⌚ Tapband ](<../../25 Locators/5 ⌚ Tapbands/⌚💠 Tapband thing.md>)** | Add it to a [Tapband ⌚ thing](<../../25 Locators/5 ⌚ Tapbands/⌚💠 Tapband thing.md>) via the user's [Custodian 🧳 vault](<../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>).
 
     ---
     <br/>
@@ -172,7 +172,7 @@
 1. **Can users save multiple Tokens in a single NFC card?**
 
     Yes. 
-    - Users can reference multiple [Tokens 🎫](<🎫 Token.md>) with a single NFC via [Userable 💍 things](<../../25 Locators/74 💍 Userables/💍💠 Userable thing.md>).
+    - Users can reference multiple [Tokens 🎫](<🎫 Token.md>) with a single NFC via [Userable 💍 things](<../../25 Locators/4 💍 Userables/💍💠 Userable thing.md>).
 
     ---
     <br/>

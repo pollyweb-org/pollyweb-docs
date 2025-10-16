@@ -29,7 +29,7 @@
     |`Hospitality`|[🏨 Check-in when staying at a hotel](<../../../3 🤝 Use Cases/03 🧳 Travel/08 🧳 Stay at hotels 🏨/03 🏨 Guest @ Reception 🛎️/04 🛎️ Check-in.md>)
     |`Financial`|[🏧 Withdraw cash from an ATM](<../../../3 🤝 Use Cases/05 🛠️ Services/03 🏧 Withdraw at ATMs/10 Customer @ ATM/11 Withdraw cash.md>)
     |`Governments`|[🏛️ Request a proof of address](<../../../3 🤝 Use Cases/08 🏛️ Public Services/08 📮 Prove address/1 Customer @ Anywhere/11. Proof of Address.md>)
-    |`Health`| [💍 Trigger a Userable emergency](<../../25 Locators/74 💍 Userables/💍⏩ Userable flows/💍🚨 Emergencies.md>)
+    |`Health`| [💍 Trigger a Userable emergency](<../../25 Locators/4 💍 Userables/💍⏩ Userable flows/💍🚨 Emergencies.md>)
     
 
     ---

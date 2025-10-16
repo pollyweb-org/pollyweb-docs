@@ -1,7 +1,7 @@
 👨‍✈️ How can a driver bill a customer's userable?
 ===
 
-> [Userables 💍](<../../../../4 ⚙️ Solution/25 Locators/74 💍 Userables/💍💠 Userable thing.md>) allow customers to pay without battery on their devices.
+> [Userables 💍](<../../../../4 ⚙️ Solution/25 Locators/4 💍 Userables/💍💠 Userable thing.md>) allow customers to pay without battery on their devices.
 
 > Mentioned in [Verify Userables 🆔](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/45 🆔 Identities/15 🆔💍 Verify Userables.md>)
 

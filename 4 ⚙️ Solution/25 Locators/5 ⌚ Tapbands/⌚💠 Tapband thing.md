@@ -9,9 +9,9 @@
 
     - **Semi-online**: is able to periodically connect to the internet (e.g., Bluetooth, eSim); 
     
-    - 💍 **Userable**: emulates a passive NFC [Locator 🔆](<../../25 Locators/1 🔆 Locators/🔆 Locator.md>) representing a [Userable 💍](<../../25 Locators/74 💍 Userables/💍💠 Userable thing.md>) [Thing 💠](<../../25 Locators/2 💠 Things/💠🔆 Thing locator.md>);
+    - 💍 **Userable**: emulates a passive NFC [Locator 🔆](<../1 🔆 Locators/🔆 Locator.md>) representing a [Userable 💍](<../4 💍 Userables/💍💠 Userable thing.md>) [Thing 💠](<../2 💠 Things/💠🔆 Thing locator.md>);
     
-    - 🔒 **Keyholder**: has an active NFC scanner to interact with [Padlocks 🔒](<../75 🔒 Padlocks/$ 🔒 Padlock device.md>);
+    - 🔒 **Keyholder**: has an active NFC scanner to interact with [Padlocks 🔒](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>);
     
     - 💖 **Health monitoring**: optionally, collects metrics from the user's device to send to a [Timeline 🕓](<../../50 🫥 Agent domains/90 🕓 Timeline/🕓🫥 Timeline agent.md>).
 
