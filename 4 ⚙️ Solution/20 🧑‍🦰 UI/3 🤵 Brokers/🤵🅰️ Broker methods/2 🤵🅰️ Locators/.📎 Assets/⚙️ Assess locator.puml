@@ -15,7 +15,7 @@ deactivate wallet
 
 activate broker
 
-    group Translate, if @ALIAS 🧩 and not cached 
+    group Translate, if .ALIAS 🧩 and not cached 
 
         broker -> printer: 1) Details 🚀
 

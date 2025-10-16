@@ -1,6 +1,8 @@
-# 🧑‍🦰🐌🤵 Help @ Broker
+# 🧑‍🦰🚀🤵 Pop @ Broker
 
-> Asks the [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) to join a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) to help.
+* Opens a new [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) 
+    * with the [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>)
+    * with a given context
 
 > Used in:
 > <br/> • [🧑‍🦰👉🤵 Host Home](<../../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Chats 💬/🧑‍🦰💬🤵 Host home.md>) flow
@@ -26,21 +28,19 @@
 Header:
     From: <wallet-uuid>
     To: any-broker.dom
-    Subject: Join@Broker
+    Subject: Pop@Broker
 
 Body:
-    ChatID: <chat-uuid>
-    Host: any-host.dom
-    TokenID: <token-uuid>
-    Issuer: any-issuer.dom
-    BindID: <bind-uuid>
-    Vault: any-vault.dom
+    Context: TOKEN
+    Key: <token-uuid>
 ```
 
 | Object | Property | Type |Description
 |-|-|-|-
 | Header | `From`    | string | [Wallet 🧑‍🦰](<../../../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)  from [`Onboard@Notifier`](<../../../2 📣 Notifiers/📣🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
 || `To`      | string | [Broker 🤵](<../../🤵🤲 Broker helper.md>) from [`Onboard@Notifier`](<../../../2 📣 Notifiers/📣🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
-|| `Subject` | string | `Join@Broker`
-| Body | `ChatID`  | uuid   | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)  from [`Converse@Notifier`](<../../../2 📣 Notifiers/📣🅰️ Notifier methods/2 💬 Chats/1 🤵🐌📣 Converse.md>)
+|| `Subject` | string | `Pop@Broker`
+| Body | `Context`  | 
+|       | `Key` | uuid   |
+ [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)  from [`Converse@Notifier`](<../../../2 📣 Notifiers/📣🅰️ Notifier methods/2 💬 Chats/1 🤵🐌📣 Converse.md>)
 |
