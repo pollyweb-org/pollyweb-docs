@@ -12,8 +12,8 @@ How to pay the seat bill at a restaurant?
 | 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) | ⓘ Any Restaurant (4.3 ⭐)  [+]
 | 🍽️ Restaurant | 😃 What do you need? <br/>- [ Pay bill ]  <br/>- [ Something else ] | > Pay bill
 | 🍽️ Restaurant | 😃 Which bill? <br> - [ Table $25.00 ] <br/> - [ Own $5.00 ] <br/> - [ Split table ] | > Own (...)
-| 💳 [Payer](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Payers 💳/03 💳🎭 Payer role.md>) | 🫥 Pay $5.00 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free)  | > card ABC
-| 💳 [Payer](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Payers 💳/03 💳🎭 Payer role.md>) | 🫥 Add tip? [No, 10%, +] | > 10%
+| 💳 [Payer](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/03 💳🎭 Payer role.md>) | 🫥 Pay $5.00 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free)  | > card ABC
+| 💳 [Payer](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/03 💳🎭 Payer role.md>) | 🫥 Add tip? [No, 10%, +] | > 10%
 | 🧢 [Persona](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Personas 🧢/🧢🫥 Persona agent.md>) | 🫥 Share name? [No] <br/> - [ 🧑‍🦰 personal ] <br/> - [ 💼 work ]  <br/> - [ 🦋 private ]     | > 🧑‍🦰 personal
 | 🍽️ Restaurant | ✅ Own paid, thanks Alice! <br/>- Remaining bill: $20.00
 | ⭐ [Rate](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Reviewers ⭐/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5

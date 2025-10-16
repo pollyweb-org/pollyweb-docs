@@ -5,8 +5,8 @@ How to pay and leave at a salon?
 | - | - | - |
 | ...
 | 💈 Salon   | 📣 Your turn!
-| 💳 [Payer](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Payers 💳/03 💳🎭 Payer role.md>) | 🫥 Pay $40.00 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free)  | > card ABC
-| 💳 [Payer](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Payers 💳/03 💳🎭 Payer role.md>) | 🫥 Add tip? [No, 10%, +] | > 10%
+| 💳 [Payer](<../../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/03 💳🎭 Payer role.md>) | 🫥 Pay $40.00 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free)  | > card ABC
+| 💳 [Payer](<../../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/03 💳🎭 Payer role.md>) | 🫥 Add tip? [No, 10%, +] | > 10%
 | 💈 Salon   | ✅ Paid, thanks!
 | ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Reviewers ⭐/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5
 ||

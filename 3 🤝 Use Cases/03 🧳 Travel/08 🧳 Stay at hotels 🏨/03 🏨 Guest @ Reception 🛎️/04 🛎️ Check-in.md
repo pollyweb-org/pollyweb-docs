@@ -10,7 +10,7 @@ How to check-in to a hotel?
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | ⓘ Flow: check-in [-] <br/> - your identity shares your ID 🆔 <br/> - your payer pays the stay 💳 <br/> - your curator set the room 🧚 <br/> - you save the room key 🤵  
 | 🆔 [Identity](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/$ 🆔🫥 Identity agent.md>) | 🫥 Share identity? [Yes, No] | > Yes
 | 🆔 [Identity](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/21 🆔😶 Face scan.md>)
-| 💳 [Payer](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Payers 💳/03 💳🎭 Payer role.md>) | 🫥 Pay $250.00 bill? 🧾 [No] <br/>- [ Card ABC ] + $0.10 <br/>- [ Card DEF ] (free) <br/> - [ ✂️ Split bill ] | > Card ABC |
+| 💳 [Payer](<../../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/03 💳🎭 Payer role.md>) | 🫥 Pay $250.00 bill? 🧾 [No] <br/>- [ Card ABC ] + $0.10 <br/>- [ Card DEF ] (free) <br/> - [ ✂️ Split bill ] | > Card ABC |
 | 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) | ⏳ Analyzing rooms... 
 | 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) | 💭 How about these? [No] <br/>- [ 712 ] high floor, pool view <br/>- [ 428 ] mostly empty floor <br/>- [ 132 ] ground, garden view | > 712
 | 🏨 Hotel    | ℹ️ Room 712 selected. <br/> - [ Change room ] 

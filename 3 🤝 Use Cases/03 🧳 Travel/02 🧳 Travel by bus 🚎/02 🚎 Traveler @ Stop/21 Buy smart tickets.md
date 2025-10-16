@@ -11,7 +11,7 @@ Buy a smart bus ticket at the bus stop 🚎
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Ready to buy? [Yes, No] <br/> - your navigator routes you 🧭 <br/>- your payer pays the ticket 💳 <br/> - save it in your wallet 🤵 <br/> - tap the bus on boarding ✨   | > Yes
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Navigators 🧭/$ 🧭🫥 Navigator agent.md>) | 🫥 Share directions? <br/>- this is the best stop <br/> - any bus to Kings Cross <br/> - buses 23, 198, and 304 <br/> - next buses at 9:15 and 9:30 <br/> - 🧑‍🦳 mom travels for free | > Yes
 | 🚎 Operator | ℹ️ Ticket selected: 1 trip
-| 💳 [Payer](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Payers 💳/03 💳🎭 Payer role.md>) | 🫥 Pay £1.50 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
+| 💳 [Payer](<../../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/03 💳🎭 Payer role.md>) | 🫥 Pay £1.50 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Save bus ticket? [Yes, No] <br/> - [ Always ] for Any Bus | > Always
 | 🚎 Operator | ✅ Ticked issued!
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Navigators 🧭/$ 🧭🫥 Navigator agent.md>) | ⏳ Take bus 198 in 3 minutes...
