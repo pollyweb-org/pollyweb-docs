@@ -8,7 +8,7 @@
     A Biller 🤝 is 
     * a [Helper 🤲 domain](<../$ 🤲 Helpers/🤲👥 Helper domain.md>) 
     * that handles the terms and lifecycle of payment agreements 
-    * between a [Payer 💳 domain](<../../50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>) and a [Collector 🏦 domain](<../30 🏦 Collectors/$ 🏦🤲 Collector helper.md>) 
+    * between a [Payer 💳 domain](<../../50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>) and a [Collector 🏦 domain](<../30 🏦 Collectors/🏦🤲 Collector helper.md>) 
     * (e.g., subscriptions, free tiers, direct debits) 
     * on behalf of [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) and [Seller 💵 domains](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>).
 
