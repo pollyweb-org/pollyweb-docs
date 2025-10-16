@@ -100,7 +100,7 @@
     | Flow ⏩ | Description
     |-|-
     | [🤔 `Prompt`](<🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | Sends a [Prompt 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) to a user [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
-    | [🛠️ `Invite`](<🤗⏩ Host flows/🤗⏩🧑‍🦰 Invite 🛠️.md>) | Invites a [Helper 🤲 domain](<../../45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>) to a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
+    | [🛠️ `Invite`](<🤗⏩ Host flows/🤗⏩🧑‍🦰 Invite 🤲.md>) | Invites a [Helper 🤲 domain](<../../45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>) to a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
     | [📝 `Form`](<../27 💼 Consumers/💼⏩ Consumer flows/💼⏩🧑‍🦰 Inform 📝.md>) | Informs a user on upcoming [Inputs ✏️](<../../../9 😃 Talkers/20 🤔 Prompts/1 📘 Prompt specs/09 ✏️ as Input.md>)
     | [❄️ `Freeze`](<🤗⏩ Host flows/🤗⏩🧑‍🦰 Freeze ❄️.md>) | Blocks changes on all previous [Inputs ✏️](<../../../9 😃 Talkers/20 🤔 Prompts/1 📘 Prompt specs/09 ✏️ as Input.md>)
     | [👋 `Goodbye`](<🤗⏩ Host flows/🤗⏩🧑‍🦰 Goodbye 👋.md>) | Triggers the [advertising 👀](<../../45 🤲 Helper domains/12 👀 Advertisers/👀🛠️ Advertiser helper.md>) flow
