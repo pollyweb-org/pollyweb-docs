@@ -29,6 +29,6 @@ Trusts:
       # ...
 
       # Other countries
-      - any-nation.org      # Any nation
+      - any-nation.dom      # Any nation
       - usa.gov     # USA
       # ...

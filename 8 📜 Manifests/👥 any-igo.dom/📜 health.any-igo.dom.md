@@ -22,7 +22,7 @@ Codes:
           - vaccine   # ex. Moderna
           - date      # date
           - dose      # ex. Booster
-          - entity    # ex. health.any-nation.org
+          - entity    # ex. health.any-nation.dom
           - locator   # ex. KLDJ94H4592DJG5SA
           - firstName # ex. Jai
           - lastName  # ex. Gutten
@@ -38,7 +38,7 @@ Codes:
           - type       # ex. PCR
           - date       # <date>
           - result     # ex. NEGATIVE
-          - entity     # ex. health.any-nation.org
+          - entity     # ex. health.any-nation.dom
           - supervised # bool, ex. TRUE
           - supervisor # ex. Dr. Kay L9230411 
           - firstName  # ex. Jai

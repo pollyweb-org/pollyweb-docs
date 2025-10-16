@@ -30,7 +30,7 @@ Trusts:
     Query: europa.eu/DISABILITY/CARD
     Domains:
       - airline.any-business.org
-      - airport.any-nation.org
+      - airport.any-nation.dom
       - flytap.com
     
 
@@ -45,7 +45,7 @@ Trusts:
   - Query: airlines.any-igo.dom/SSR/*
     Domains:
       - airline.any-business.org
-      - airport.any-nation.org
+      - airport.any-nation.dom
       - flytap.com
       
 

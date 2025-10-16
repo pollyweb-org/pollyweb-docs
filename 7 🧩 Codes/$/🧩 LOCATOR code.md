@@ -20,7 +20,7 @@ Schema:
   
   Properties:
     - Code      # e.g., airlines.any-igo.dom/SSR/WCHR/CRED:1.0
-    - Domain    # ex. health.any-nation.org
+    - Domain    # ex. health.any-nation.dom
     - Resource  # ex. ANY-RESOURCE-KEY
     - '*'
 

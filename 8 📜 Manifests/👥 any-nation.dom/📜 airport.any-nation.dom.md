@@ -1,12 +1,12 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): airport.any-nation.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): airport.any-nation.dom
 <!--# 🏳️🛩️ https://quip.com/YJvcAJB72qzI-->
 
 ```yaml
 🤝: nlweb.org/MANIFEST
 
 About:
-  Domain: airport.any-nation.org
+  Domain: airport.any-nation.dom
   Name: Any Airport
   
   
