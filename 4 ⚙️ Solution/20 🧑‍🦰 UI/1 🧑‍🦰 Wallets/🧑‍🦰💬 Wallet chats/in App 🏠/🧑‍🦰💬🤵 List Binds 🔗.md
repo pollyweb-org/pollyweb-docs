@@ -6,7 +6,7 @@
 
 ## Flow diagram
 
-![List binds](<.📎 Assets/⚙️ List binds.png>)
+![List binds](<../../🧑‍🦰⏩ Wallet flows/30 👉🔗 Binds/.📎 Assets/⚙️ List binds.png>)
 
 
 | # | Call | Notes |
