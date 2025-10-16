@@ -33,7 +33,7 @@
     |-|-|-
     | | [👉 Binds ](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in App 🏠/🧑‍🦰💬🤵 List Binds 🔗.md>) | List the user's [Binds 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>)
     || [👉 Bind](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Prompts 🤔/🧑‍🦰👉🗄️ Bind 🔗.md>) | [Bind 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) the [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) to a [Vault 🗄️](<🗄️🎭 Vault role.md>)
-    || [👉 Unbind](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Vaults 🗄️/🧑‍🦰💬🤵 Unbind 🗄️.md>) | Remove a [Bind 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) from a [Vault 🗄️](<🗄️🎭 Vault role.md>)
+    || [👉 Unbind](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Vaults 🗄️/Unbind 🗄️.md>) | Remove a [Bind 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) from a [Vault 🗄️](<🗄️🎭 Vault role.md>)
     
     ---
     <br/>

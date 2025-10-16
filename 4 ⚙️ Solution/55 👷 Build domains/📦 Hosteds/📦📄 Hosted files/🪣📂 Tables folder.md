@@ -23,4 +23,35 @@
     ---
     <br/>
 
-1. **What's an example of table file?**
+1. **What's an example of a table file?**
+
+    ```yaml
+    # MyTable.yaml
+
+    Key: MyID
+
+    Parents:
+        ParentA: MyParentAID >> ParentATable
+        ParentB: MyParentBID >> ParentBTable
+        
+    Children:
+        ChildA: MyIDInChildA
+        ChildB: MyIDInChildB
+        GrandChildrenX: ChildA.TheirChildX
+    ```
+
+    ---
+    <br/>
+   
+1. **What are use cases of table files?**
+
+    | Example | Feature
+    |---------|--------
+    | 🪣 [`Vaults@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🪣 Broker tables/Vaults 🪣.md>) | With a named key
+    | 🪣 [`Binds@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🪣 Broker tables/Binds 🪣.md>) | With parents
+    | 🪣 [`Vaults@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🪣 Broker tables/Vaults 🪣.md>) | With children
+    | 🪣 [`Wallets@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🪣 Broker tables/Wallets 🪣.md>) | With grand children
+    
+
+    ---
+    <br/>
