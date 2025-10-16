@@ -3,9 +3,9 @@
 
 1. **What are Locators?**
 
-    In NLWeb, non-humans (e.g., organizations, places, objects, animals) are represented by a [Locator 🔆](<$ 🔆 Locator.md>) that opens a [Chat 💬](<../12 💬 Chats/$ 💬 Chat.md>) with a [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>).
-    * It may be a [QR code ✨](<03 🧑‍🦰✨ Wallet QR scan.md>), an [NFC tag 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>), a [Web link 🌐](<02 🧑‍🦰🌐 Wallet URLs.md>), or a [Chat 💬](<../12 💬 Chats/$ 💬 Chat.md>) option.
-    * Users can [tap 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>), [scan ✨](<03 🧑‍🦰✨ Wallet QR scan.md>), [click 🌐](<02 🧑‍🦰🌐 Wallet URLs.md>), or [select 💬](<../12 💬 Chats/$ 💬 Chat.md>) them.
+    In NLWeb, non-humans (e.g., organizations, places, objects, animals) are represented by a [Locator 🔆](<$ 🔆 Locator.md>) that opens a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with a [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>).
+    * It may be a [QR code ✨](<03 🧑‍🦰✨ Wallet QR scan.md>), an [NFC tag 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>), a [Web link 🌐](<02 🧑‍🦰🌐 Wallet URLs.md>), or a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) option.
+    * Users can [tap 🔆](<04 🧑‍🦰🔆 Wallet NFC tap.md>), [scan ✨](<03 🧑‍🦰✨ Wallet QR scan.md>), [click 🌐](<02 🧑‍🦰🌐 Wallet URLs.md>), or [select 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) them.
 
     ---
     <br/>
@@ -36,7 +36,7 @@
     ![](<.📎 Assets/🔆 Locators.png>)
     
 
-    To interact with a [Locator 🔆](<$ 🔆 Locator.md>), users use their [Wallet 🧑‍🦰 apps](<../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) with one of the following.
+    To interact with a [Locator 🔆](<$ 🔆 Locator.md>), users use their [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) with one of the following.
     
     | [Locator 🔆](<$ 🔆 Locator.md>) | Method 
     |-|-
@@ -49,7 +49,7 @@
     | [🛜 Wi-Fier devices](<../../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>) | Tap/scan a [Wi-Fier 🛜 device](<../../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>) to connect it to the internet
     | [💍 Userable things](<../../70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>) | Tap a [Userable 💍 thing](<../../70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>) that a user is wearing or holding
     | [🔒 Padlock devices](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>)  | Tap a [Padlock 🔒 device](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>) to open it
-    | [💬 Chat prompts](<../12 💬 Chats/$ 💬 Chat.md>) | Select a [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) option - e.g., [Finder 🔎](<../../50 🫥 Agents/40 🔎 Finders/🔎🫥 Finder agent.md>), [Advertiser 👀](<../../45 🤲 Helper domains/12 👀 Advertisers/👀🤲 Advertiser helper.md>)
+    | [💬 Chat prompts](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) | Select a [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) option - e.g., [Finder 🔎](<../../50 🫥 Agents/40 🔎 Finders/🔎🫥 Finder agent.md>), [Advertiser 👀](<../../45 🤲 Helper domains/12 👀 Advertisers/👀🤲 Advertiser helper.md>)
 
     
     ---
@@ -77,11 +77,11 @@
 
 1. **How can users detect business impersonation attacks?**
 
-    User's best option to detect whether a [Locator 🔆](<$ 🔆 Locator.md>) is genuine or fake, is to see if it opens their [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) or if it opens a web page.
+    User's best option to detect whether a [Locator 🔆](<$ 🔆 Locator.md>) is genuine or fake, is to see if it opens their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) or if it opens a web page.
 
-    - If it opens their [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>), then they'll know that all messages will safely go through a trustworthy [Broker 🤵 domain](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>).
+    - If it opens their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>), then they'll know that all messages will safely go through a trustworthy [Broker 🤵 domain](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>).
     - Instead, if the [Locator 🔆](<$ 🔆 Locator.md>) opens a web page, then it's most probably not an NLWeb [Locator 🔆](<$ 🔆 Locator.md>).
-    - Exceptionally, users will be directed to the `nlweb.org` website if they do not have a [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) installed on their smartphone.
+    - Exceptionally, users will be directed to the `nlweb.org` website if they do not have a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) installed on their smartphone.
 
     Given that the [Wallet's Broker 🤵 domain](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) serves as a protector, user can trust its mechanism to protect them from [phishing sites 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/06 📺 QR phishing.md>), just like Google Chrome does with [SSL certificate validation 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/08 📺 Google's Risk API.md>) and other phishing detection/blocking features - these mechanisms include:
 

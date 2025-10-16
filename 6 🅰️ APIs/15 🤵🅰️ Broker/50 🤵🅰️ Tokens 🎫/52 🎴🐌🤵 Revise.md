@@ -38,5 +38,5 @@ Body:
 | |`Action`| enum | `REVOKE` `SUSPEND` `ACTIVATE` `UPDATE`
 | |`Starting`| timestamp | Start date and time
 | |`Ending` | timestamp | Finish date and time (optional)
-| |`Locator`| string | [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) for a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) about it.
+| |`Locator`| string | [Locator 🔆](<../../../4 ⚙️ Solution/30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>) for a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) about it.
 |

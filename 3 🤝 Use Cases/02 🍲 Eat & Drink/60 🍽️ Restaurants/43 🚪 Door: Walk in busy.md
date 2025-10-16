@@ -7,7 +7,7 @@ How to walk in into a busy restaurant without a reservation?
 
 | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/$ 👥 Domains/👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 | - | - | - |
-| | | 🔆 [tap](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) door
+| | | 🔆 [tap](<../../../4 ⚙️ Solution/30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>) door
 | 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agents/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Restaurant (4.3 ⭐)  [+]
 | 🍽️ Restaurant | 😃 What do you need? <br/>- [ A table for a meal ] <br/>- [ Something else ] | > A table (...)
 | 🍽️ Restaurant | 😃 For how many? [1, 2, more] | > 2
