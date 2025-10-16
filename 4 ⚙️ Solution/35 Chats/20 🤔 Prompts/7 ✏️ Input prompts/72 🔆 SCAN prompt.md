@@ -6,13 +6,13 @@
 
 
    * `SCAN|<statement>`	
-       * Calls the [🔆 SCAN Prompt 🤔](<../20 🤔 Prompt.md>)
+       * Calls the [🔆 SCAN Prompt 🤔](<../🤔 Prompt.md>)
 
 <br/>
 
-1. **What's an example of a [Chat 💬](<../../12 💬 Chats/$ 💬 Chat.md>)?**
+1. **What's an example of a [Chat 💬](<../../12 💬 Chats/💬 Chat.md>)?**
 
-    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../20 🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 
 

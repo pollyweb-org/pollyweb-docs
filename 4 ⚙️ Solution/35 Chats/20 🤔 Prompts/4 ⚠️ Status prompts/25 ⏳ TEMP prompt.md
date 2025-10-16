@@ -8,7 +8,7 @@
 
     A `TEMP`
     * is similar to an [INFO ℹ️ prompt](<21 ℹ️ INFO prompt.md>) 
-    * but it is automatically removed when a new [Prompt 🤔](<../20 🤔 Prompt.md>) arrives;
+    * but it is automatically removed when a new [Prompt 🤔](<../🤔 Prompt.md>) arrives;
     * if it contains [`Options`](<../1 📘 Prompt features/04 🔘 with Options.md>), then the user may click an option while it's visible.
 
 
@@ -82,11 +82,11 @@
     <br/>
 
 
-1. **What do TEMP prompts look like in a [Chat 💬](<../../12 💬 Chats/$ 💬 Chat.md>)?**
+1. **What do TEMP prompts look like in a [Chat 💬](<../../12 💬 Chats/💬 Chat.md>)?**
 
     
 
-    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../20 🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ⏳ Simple temp.
     | [🤲 Helper](<../../../45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>) | ⏳ Simple temp.

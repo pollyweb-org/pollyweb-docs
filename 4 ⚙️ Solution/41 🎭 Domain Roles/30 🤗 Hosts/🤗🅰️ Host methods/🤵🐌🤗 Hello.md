@@ -2,7 +2,7 @@
 
 # 🤵🐌🤗 Hello @ Host
 
-> Starts a [Chat 💬](<../../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) with a [Host 🤗 domain](<../🤗🎭 Host role.md>).
+> Starts a [Chat 💬](<../../../35 Chats/12 💬 Chats/💬 Chat.md>) with a [Host 🤗 domain](<../🤗🎭 Host role.md>).
 
 > Used by:
 > <br/>• [🧑‍🦰👉🤗 Scan host QR @ Wallet](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>)
@@ -43,7 +43,7 @@ Body:
 |           | `To`      | string    | [Host 🤗 domain](<../🤗🎭 Host role.md>) name
 |           | `Subject` | string    | `Hello@Host`
 | Body      | `Language`| enum    | ISO language code
-|           | `ChatID`  | uuid      | [Chat 💬](<../../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) ID in the [Broker 🤵 domain](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>)
+|           | `ChatID`  | uuid      | [Chat 💬](<../../../35 Chats/12 💬 Chats/💬 Chat.md>) ID in the [Broker 🤵 domain](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>)
 |           | `PublicKey`| string | For [`Prompted@`](<🧑‍🦰🚀🤗 Prompted.md>) [`Reply@`](<🧑‍🦰🐌🤗 Reply.md>) [`Download@`](<🧑‍🦰🚀🤗 Download.md>)
 |           | `Locator` | string    | [Locator 🔆](<../../../30 Data/15 🔆 Locators/$ 🔆 Locator.md>) in the [Host 🤗 domain](<../🤗🎭 Host role.md>)
 |           | `Code`    | string    | [Schema Code 🧩](<../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) of the Locator

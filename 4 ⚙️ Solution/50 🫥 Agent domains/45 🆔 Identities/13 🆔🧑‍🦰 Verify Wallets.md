@@ -9,11 +9,11 @@
 
 1. **How to verify a Wallet ownership?**
 
-    Consider the following [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) excerpt
+    Consider the following [Chat 💬](<../../35 Chats/12 💬 Chats/💬 Chat.md>) excerpt
     * as an example of [face verification 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/01 📺 Difference.md>) 
     * for the ownership of a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
         
-    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 Chats/20 🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 🤗 [Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 😐 Start risky task [Yes, No] | > Yes
     | 🆔 [Identity](<$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<21 🆔😶 Face scan.md>)
@@ -58,7 +58,7 @@
     NLWeb advocates for online face authentication between [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) and [Identity 🆔 vaults](<$ 🆔🫥 Identity agent.md>), without sharing user biometrics with [Seller 💵 domains](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>);
     - e.g., when a [Seller 💵 domain](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) needs to match a person with a [Token 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>), 
     - it contacts the [Token's  Identity 🆔 domain](<$ 🆔🫥 Identity agent.md>) to perform the authentication 
-    - via the user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) in a [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>), 
+    - via the user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) in a [Chat 💬](<../../35 Chats/12 💬 Chats/💬 Chat.md>), 
     - and only return a success/failure to the [Seller 💵 domain](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) . 
     
     When offline authentications are required, 

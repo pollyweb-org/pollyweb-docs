@@ -1,13 +1,13 @@
 # 🤔 Prompts with `Details`
 
-> Part of [Prompts 🤔](<../20 🤔 Prompt.md>)
+> Part of [Prompts 🤔](<../🤔 Prompt.md>)
 
 <br/>
 
 1. **What are expandable details?**
 
     Expandible details
-    * are additional notes of any [Prompt 🤔](<../20 🤔 Prompt.md>)
+    * are additional notes of any [Prompt 🤔](<../🤔 Prompt.md>)
     * rendered in Markdown format by [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     * that are initially collapsed to users.
 
@@ -34,7 +34,7 @@
     
     | Argument| Purpose | Example
     |-|-|-
-    | `<PROMPT>` | A [Prompt 🤔](<../20 🤔 Prompt.md>) format. | `INFO` `TEMP`
+    | `<PROMPT>` | A [Prompt 🤔](<../🤔 Prompt.md>) format. | `INFO` `TEMP`
     | `<statement>` |  Message to show to the user. | `Hi!`
     | `<details>` |  Details to show to the user. | `Bla, bla.`
     
@@ -58,9 +58,9 @@
     ---
     <br/>
 
-1. **What's an example in a [Chat 💬](<../../12 💬 Chats/$ 💬 Chat.md>)?**
+1. **What's an example in a [Chat 💬](<../../12 💬 Chats/💬 Chat.md>)?**
    
-    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../20 🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ℹ️ Expandable info [+] | > +
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ℹ️ Expandable info [-]<br/>&nbsp;&nbsp;&nbsp;1. Markdown bullet one  <br/>&nbsp;&nbsp;&nbsp;2. Markdown bullet two

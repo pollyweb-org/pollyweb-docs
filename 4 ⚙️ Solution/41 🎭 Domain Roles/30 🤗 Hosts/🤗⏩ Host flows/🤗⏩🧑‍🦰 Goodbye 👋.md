@@ -1,7 +1,7 @@
 # 🤗⏩🧑‍🦰 Goodbye @ Host
 
 * [Host 🤗 domains](<../🤗🎭 Host role.md>) 
-    * inform [Broker 🤵 domains](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) of the [Chat 💬](<../../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) ending, 
+    * inform [Broker 🤵 domains](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) of the [Chat 💬](<../../../35 Chats/12 💬 Chats/💬 Chat.md>) ending, 
     * for them to trigger the [Advertisement 👀 ](<../../../45 🤲 Helper domains/12 👀 Advertisers/👀🤲 Advertiser helper.md>) flow.
 * Activated by:
     * [👋 Talker `GOODBYE` command](<../../../../9 😃 Talkers/60 ⏩ Msg flows/50 👋 GOODBYE.md>)
@@ -10,9 +10,9 @@
 
 ## 💬 Chat
 
-Consider the following [Chat 💬](<../../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) as an example.
+Consider the following [Chat 💬](<../../../35 Chats/12 💬 Chats/💬 Chat.md>) as an example.
 
-| [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+| [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 Chats/20 🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 | - | - | - |
 | 🏨 Hotel  | ✅ Booking confirmed! 
 | [👀 Ads](<../../../45 🤲 Helper domains/12 👀 Advertisers/👀🤲 Advertiser helper.md>) | 🫥 Explore follow-up actions? [No] <br/>- [ Book a city tour 🚌 ]  <br/>- [ See a flamenco show 💃 ]
@@ -42,7 +42,7 @@ The associated [Talker 😃](<../../../../9 😃 Talkers/10 📘 Talker specs/10
 
 | # | Call | Notes
 |-|-|-
-| 1 | [🤗🐌🤵 `Goodbye@Broker`](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/30 🤵🅰️ Chats 💬/🤗🐌🤵 Goodbye.md>) | [Hosts 🤗](<../🤗🎭 Host role.md>) tell [Brokers 🤵](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) of [Chat 💬](<../../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) endings
+| 1 | [🤗🐌🤵 `Goodbye@Broker`](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/30 🤵🅰️ Chats 💬/🤗🐌🤵 Goodbye.md>) | [Hosts 🤗](<../🤗🎭 Host role.md>) tell [Brokers 🤵](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) of [Chat 💬](<../../../35 Chats/12 💬 Chats/💬 Chat.md>) endings
 | 2 | [👀⏩🧑‍🦰 Advertise 👀](<../../../45 🤲 Helper domains/12 👀 Advertisers/👀⏩ Advertiser flows/👀⏩🧑‍🦰 Advertise.md>) | [Brokers 🤵](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) ask [Advertisers 👀](<../../../45 🤲 Helper domains/12 👀 Advertisers/👀🤲 Advertiser helper.md>) to advertise
 | 3 | [⭐⏩🧑‍🦰 Review ⭐](<../../../50 🫥 Agent domains/73 ⭐ Reviewers/⏩ Reviewer flows/01 ⭐⏩🧑‍🦰 Review.md>) | [Brokers 🤵](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) ask [Reviewers ⭐](<../../../50 🫥 Agent domains/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) to review
 ||

@@ -7,7 +7,7 @@
 1. **What is a non-blocking INFO?**
 
     An `INFO` 
-    * is an informative [Prompt 🤔](<../20 🤔 Prompt.md>) 
+    * is an informative [Prompt 🤔](<../🤔 Prompt.md>) 
     * that does not require the user input.
 
     ---
@@ -70,11 +70,11 @@
     ---
     <br/>
 
-1. **What's an example in a [Chat 💬](<../../12 💬 Chats/$ 💬 Chat.md>)?**
+1. **What's an example in a [Chat 💬](<../../12 💬 Chats/💬 Chat.md>)?**
 
     
 
-    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../20 🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ℹ️ Simple info.
     | [🤲 Helper](<../../../45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>) | ℹ️ Simple info.

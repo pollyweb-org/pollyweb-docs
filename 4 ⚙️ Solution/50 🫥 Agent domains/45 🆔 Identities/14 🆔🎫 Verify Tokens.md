@@ -28,9 +28,9 @@
     <br/>
 
 
-1. **What does a [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) look like?**
+1. **What does a [Chat 💬](<../../35 Chats/12 💬 Chats/💬 Chat.md>) look like?**
 
-    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 Chats/20 🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 🤗 [Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 😃 A beer? [Yes, No]         | > Yes
     | 🤵 [Broker](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Share over 21? [Yes, No]     | > Yes
@@ -86,7 +86,7 @@
 
     |#|Category|Step
     |-|-|-
-    | A| `Hello`| The user initiates a [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) with an [Issuer 🎴 domain](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>): <br/>• the user asks the [Issuer 🎴 domain](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) to issue a [Token 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>) (e.g., flight ticket).
+    | A| `Hello`| The user initiates a [Chat 💬](<../../35 Chats/12 💬 Chats/💬 Chat.md>) with an [Issuer 🎴 domain](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>): <br/>• the user asks the [Issuer 🎴 domain](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) to issue a [Token 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>) (e.g., flight ticket).
     | B| `Locator` | The [Issuer 🎴 domain](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) asks the user's [Identity 🆔 domain](<$ 🆔🫥 Identity agent.md>) to generate a unique [Identity Locator 🔆](<../../30 Data/15 🔆 Locators/$ 🔆 Locator.md>) with a given expiration date:<br/>• unique [Locators 🔆](<../../30 Data/15 🔆 Locators/$ 🔆 Locator.md>) prevent attackers from relating any two [Tokens 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>) from the same user; <br/>• expiration dates allow [Identity 🆔 domains](<$ 🆔🫥 Identity agent.md>) to charge the [Issuer 🎴 domain](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) for the commitment length.
     |C| `Token` | The [Issuer 🎴 domain](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) offers the [Token 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>) for the user to download: <br/> • the user downloads the [Token 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>) and stores it offline in the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
     |

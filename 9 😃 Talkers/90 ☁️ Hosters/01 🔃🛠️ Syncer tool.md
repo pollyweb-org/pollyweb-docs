@@ -21,7 +21,7 @@
     |-|-
     |[⏩ `clone`](<../../5 ⏩ Flows/77 🔃⏩ Syncer/10 🔃⏩🗃️ Clone.md>) | Registers [Syncer 🔃 tools](<../../9 😃 Talkers/90 ☁️ Hosters/01 🔃🛠️ Syncer tool.md>) on [Resourcers 🗃️](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🎭 Resourcer role.md>)
     |[⏩ `sync`](<../../5 ⏩ Flows/77 🔃⏩ Syncer/20 🔃⏩🗃️ Sync.md>) | Syncs local files with [Resourcer 🗃️ domains](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🎭 Resourcer role.md>) 
-    |[⏩ `chat`](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🅰️ Resourcer methods/🔃🐌🗃️ Chat.md>)| Opens [Chats 💬](<../../4 ⚙️ Solution/35 Chats/12 💬 Chats/$ 💬 Chat.md>) with [Resourcer 🗃️ domains](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🎭 Resourcer role.md>)
+    |[⏩ `chat`](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🅰️ Resourcer methods/🔃🐌🗃️ Chat.md>)| Opens [Chats 💬](<../../4 ⚙️ Solution/35 Chats/12 💬 Chats/💬 Chat.md>) with [Resourcer 🗃️ domains](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🎭 Resourcer role.md>)
     <!--|`test <env>`| Runs test scripts on an environment<br/>- e.g., `my-hoster test local`-->
 
     ---

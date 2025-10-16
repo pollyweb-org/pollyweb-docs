@@ -33,7 +33,7 @@
     |#|Category|Step|
     |-|-|-
     |1| `Tap` | A guest user uses their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) to [tap 🔆](<../../30 Data/15 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) the [rotating NFC tag 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/11 📺 NFC authentication.md>) of the owner's [Userable 💍 thing](<$ 💍 Userable thing.md>). 
-    |2| `Read`| The guest's [Broker 🤵 domain](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) opens a [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) with the [Userable's Wand 🪄 domain](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>), allowing the guest user to read the landing notes that the owner user left.
+    |2| `Read`| The guest's [Broker 🤵 domain](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) opens a [Chat 💬](<../../35 Chats/12 💬 Chats/💬 Chat.md>) with the [Userable's Wand 🪄 domain](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>), allowing the guest user to read the landing notes that the owner user left.
     |3| `Admin` | The guest user asks the [Userable's Wand 🪄 domain](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>) to access the owner's admin area, who then directs the request to the [owner's Custodian 🧳 agent](<../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>).
     |4| `Face` | The [owner's Custodian 🧳 agent](<../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>) asks the [owner's Identity 🆔 agent](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) to authenticate the owner with a [face scan 😶](<../../50 🫥 Agent domains/45 🆔 Identities/21 🆔😶 Face scan.md>) using the guest's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
     |5| `Ring` |  The [owner's Custodian 🧳 agent](<../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>) then informs the owner about the location of owner's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>), and allows them to remotely ring the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>). 
@@ -45,10 +45,10 @@
 
 1. **What does the Chat look like?**
 
-    Consider the following [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) as an example.
+    Consider the following [Chat 💬](<../../35 Chats/12 💬 Chats/💬 Chat.md>) as an example.
         
     
-    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 Chats/20 🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | | | 🔆 [tap](<../../30 Data/15 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>)
     | 🔎 [Finder](<../../50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Wand (4.3 ⭐)  [+] 

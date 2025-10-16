@@ -19,9 +19,9 @@ TODO: Create the API methods
     
 1. **What does the Chat look like?**
 
-    Consider the following [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) as an example.
+    Consider the following [Chat 💬](<../../35 Chats/12 💬 Chats/💬 Chat.md>) as an example.
     
-    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 Chats/20 🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 🤗 [Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>)    | ℹ️ Sign the terms. 
     | 🆔 [Identity](<$ 🆔🫥 Identity agent.md>) | 🫥 Sign terms? 📄 [Yes, No] | > Yes

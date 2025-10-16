@@ -8,7 +8,7 @@
 
     |#|Step
     |-|-
-    |1| A random guest [taps 🔆](<../../30 Data/15 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) or [scans ✨](<../../30 Data/15 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) the [Thing 💠](<$ 💠 Thing.md>) to open a [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) with its [Wand 🪄 domain](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>).
+    |1| A random guest [taps 🔆](<../../30 Data/15 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) or [scans ✨](<../../30 Data/15 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) the [Thing 💠](<$ 💠 Thing.md>) to open a [Chat 💬](<../../35 Chats/12 💬 Chats/💬 Chat.md>) with its [Wand 🪄 domain](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>).
     |2| The guest asks the [Wand 🪄 domain](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>) to contact the [Thing's 💠](<$ 💠 Thing.md>) owner.
     |3| The [Wand 🪄 domain](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>) informs the [Custodian 🧳 agent](<../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>), who notifies the user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
     |4| The owner uses their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) to report the [Thing 💠](<$ 💠 Thing.md>) as lost.
