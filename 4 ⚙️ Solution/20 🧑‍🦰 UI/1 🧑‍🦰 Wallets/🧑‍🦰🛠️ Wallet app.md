@@ -14,7 +14,7 @@
 
 1. **What can a user do with a Wallet?**
 
-    ![](<.📎 Assets/🧑‍🦰 Wallet.png>)
+    ![](<.📎 Assets/Powerpoint 📎/🧑‍🦰 Wallet.png>)
 
     The following features are available in a [Wallet 🧑‍🦰 app](<🧑‍🦰🛠️ Wallet app.md>):
     - 💬 [Chats](<../../35 💬 Chats/💬 Chats/💬 Chat.md>): list, filter, search, view, and interact.

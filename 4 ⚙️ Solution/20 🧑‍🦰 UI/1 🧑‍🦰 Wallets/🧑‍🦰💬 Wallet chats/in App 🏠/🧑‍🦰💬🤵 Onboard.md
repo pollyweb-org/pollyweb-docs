@@ -23,7 +23,7 @@
 
 ## Flow diagram
 
-![Onboard](<../../.📎 Assets/Set-up/⚙️ Onboard.png>)
+![Onboard](<../../.📎 Assets/Set-up 📎/⚙️ Onboard.png>)
 
 
 | # | Call | Notes

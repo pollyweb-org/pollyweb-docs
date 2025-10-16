@@ -23,7 +23,7 @@
 
 ## Flow diagram
 
-![Flow diagram](<../../.📎 Assets/Chats/⚙️ Abandon chat.png>)
+![Flow diagram](<../../.📎 Assets/Chats 📎/⚙️ Abandon chat.png>)
 
 
 | # | Call | Notes

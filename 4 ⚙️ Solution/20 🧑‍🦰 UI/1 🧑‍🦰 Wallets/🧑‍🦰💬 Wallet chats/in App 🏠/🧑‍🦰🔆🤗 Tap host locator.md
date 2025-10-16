@@ -22,7 +22,7 @@
 
 ## Flow diagram
 
-![alt text](<../../🧑‍🦰⏩ Wallet flows/15 👉🔆 Locators/.📎 Assets/⚙️🤗 Host QR.png>)
+![alt text](<../../.📎 Assets/Locators 📎/⚙️🤗 Host QR.png>)
 
 
 | # | Call | Notes
