@@ -3,7 +3,7 @@
 
 # 🧑‍🦰🐌🤵 Saved @ Broker
 
-> [Wallet 🧑‍🦰 apps](<../../../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) inform [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) where the file with the [Token 🎫](<../../../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) details was stored locally on the device.
+> [Wallet 🧑‍🦰 apps](<../../../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) inform [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) where the file with the [Token 🎫](<../../../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) details was stored locally on the device.
 
 > Part of the [🎴⏩🧑‍🦰 Offer Token @ Issuer](<../../../1 🧑‍🦰 Wallets/🧑‍🦰⏩ Wallet flows/40 👉🎫 Tokens/02 🧑‍🦰👉🎴 Save token.md>) flow:
 > <br>• triggered by [`Save@Notifier`](<../../../2 📣 Notifiers/📣🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>) message
@@ -27,7 +27,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From`|uuid | [Wallet 🧑‍🦰](<../../../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)  from [`Onboard@Notifier`](<../../../2 📣 Notifiers/📣🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
+|Header|`From`|uuid | [Wallet 🧑‍🦰](<../../../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)  from [`Onboard@Notifier`](<../../../2 📣 Notifiers/📣🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
 ||`To`|string| [Broker 🤵](<../../🤵🤲 Broker helper.md>) from [`Onboard@Notifier`](<../../../2 📣 Notifiers/📣🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
 ||`Subject`|string|`Saved@Broker`
 |Body  |`ChatID` |uuid  | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Save@Notifier`](<../../../2 📣 Notifiers/📣🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)

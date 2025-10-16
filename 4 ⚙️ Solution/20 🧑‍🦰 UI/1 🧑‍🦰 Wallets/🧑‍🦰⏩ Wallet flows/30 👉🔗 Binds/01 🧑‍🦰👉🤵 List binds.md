@@ -1,6 +1,6 @@
 # 🧑‍🦰👉🗄️ List Binds @ Wallet
 
-> Implements a [Wallet 🧑‍🦰 app](<../../🧑‍🦰 Wallet app.md>)
+> Implements a [Wallet 🧑‍🦰 app](<../../🧑‍🦰🛠️ Wallet app.md>)
 
 <br/>
 
@@ -11,7 +11,7 @@
 
 | # | Call | Notes |
 |-|-|-
-| 1 | [🧑‍🦰🚀🤵 `Binds@Broker`](<../../../3 🤵 Brokers/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🧑‍🦰🚀🤵 Binds.md>) | The [Wallet 🧑‍🦰](<../../🧑‍🦰 Wallet app.md>) gets the [Binds 🔗](<../../../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) from the [Broker 🤵](<../../../3 🤵 Brokers/🤵🤲 Broker helper.md>)
+| 1 | [🧑‍🦰🚀🤵 `Binds@Broker`](<../../../3 🤵 Brokers/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🧑‍🦰🚀🤵 Binds.md>) | The [Wallet 🧑‍🦰](<../../🧑‍🦰🛠️ Wallet app.md>) gets the [Binds 🔗](<../../../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) from the [Broker 🤵](<../../../3 🤵 Brokers/🤵🤲 Broker helper.md>)
 ||
 
 

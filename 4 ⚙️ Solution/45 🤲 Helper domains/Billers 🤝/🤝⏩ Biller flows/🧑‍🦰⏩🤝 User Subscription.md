@@ -20,7 +20,7 @@ The following steps describe a subscription workflow:
 
 ## Chat
 
-| [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+| [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - 
 | 🛠️ [Helper](<../../$ Helpers 🤲/🤲👥 Helper domain.md>) | 😃 Hi! What do you need? <br/>- [ Register ]  | > Register
 | 🤵 [Broker](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 [Ready to register](<../../../41 🎭 Domain Roles/Consumers 💼/💼⏩ Consumer flows/💼⏩🧑‍🦰 Inform 📝.md>)? [Yes, No]<br>- Your broker binds with us 🔗 <br/>- You choose a billing plan 🤝 <br/>- Your payer adds a method 💳 <br/>- Your identity signs the terms 🆔 | > Yes

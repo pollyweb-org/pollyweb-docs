@@ -1,6 +1,6 @@
 # 🧑‍🦰🐌🤗 Reply @ Host
 
-> A [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) replies to a [Prompt 🤔](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) of a [Host 🤗 domain](<../🤗🎭 Host role.md>) in a [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>).
+> A [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) replies to a [Prompt 🤔](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) of a [Host 🤗 domain](<../🤗🎭 Host role.md>) in a [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>).
 
 > Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) flow.
 

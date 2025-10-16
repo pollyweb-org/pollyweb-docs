@@ -5,7 +5,7 @@
 > <br/>• succeeds [`Share@Notifier`](<../../../20 🧑‍🦰 UI/2 📣 Notifiers/📣🅰️ Notifier methods/4 🎫 Tokens/2 🤵🐌📣 Share.md>)
 
 
-* [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) send [Tokens 🎫](<../../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) to a [Consumer 💼 domain](<../💼🎭 Consumer role.md>).
+* [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) send [Tokens 🎫](<../../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) to a [Consumer 💼 domain](<../💼🎭 Consumer role.md>).
 
 
 

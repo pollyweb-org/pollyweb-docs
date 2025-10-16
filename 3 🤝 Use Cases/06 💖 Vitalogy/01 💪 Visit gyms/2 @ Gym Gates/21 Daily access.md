@@ -7,11 +7,11 @@ How to go through the gym's gates?
 * by tapping their [userables 💍](<../../../../4 ⚙️ Solution/25 🔆 Locators/4 💍 Userables/💍💠 Userable thing.md>) 
 * by scanning their [palms 🖐️](<../../../../4 ⚙️ Solution/60 🧰 Edge/63 🖐️ Palmists/01 🖐️🔌 Palmist device.md>)
 
-> Whatever the method, the gym always sends feedback to the [Wallet 🧑‍🦰](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
+> Whatever the method, the gym always sends feedback to the [Wallet 🧑‍🦰](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>).
 
 ---
 
-| [Domain](<../../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+| [Domain](<../../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
 | | | 🔆 [tap](<../../../../4 ⚙️ Solution/25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>)
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) | ⓘ Any Gym (4.3 ⭐) [+]

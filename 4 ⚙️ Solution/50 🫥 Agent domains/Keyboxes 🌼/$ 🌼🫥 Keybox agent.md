@@ -15,7 +15,7 @@
     * 1/ register a [Padlock 🔒](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>) device with its [🔐 KeyMaker](<../../45 🤲 Helper domains/Keymakers 🔐/05  🔐🏭 Keymaker supplier.md>);
     * 2/ transfer the ownership of a Padlock to someone else;
     * 3/ assess the battery levels of their Padlocks and set low-battery alerts;
-    * 4/ temporarily share a Padlock key with another [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>);
+    * 4/ temporarily share a Padlock key with another [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>);
     * 5/ revoke a shared Padlock key;
     * 6/ register a [🔑 KeyHolder](<../../70 🌳 Ambient/77 🔑 Keyholders/$ 🔑💠 Keyholder device.md>) device.
 

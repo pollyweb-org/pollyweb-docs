@@ -1,16 +1,16 @@
-# 🧑‍🦰👉🤗 Chat home @ [Wallet](<../../🧑‍🦰 Wallet app.md>)
+# 🧑‍🦰👉🤗 Chat home @ [Wallet](<../../🧑‍🦰🛠️ Wallet app.md>)
 
-> Implements a [Wallet 🧑‍🦰 app](<../../🧑‍🦰 Wallet app.md>)
+> Implements a [Wallet 🧑‍🦰 app](<../../🧑‍🦰🛠️ Wallet app.md>)
 
 
-* On the [Wallet 🧑‍🦰 app](<../../🧑‍🦰 Wallet app.md>), ask to show the home menu of a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>).
+* On the [Wallet 🧑‍🦰 app](<../../🧑‍🦰🛠️ Wallet app.md>), ask to show the home menu of a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>).
 
 <br/>
 
 ## Chat
 
 
-| [Domain](<../../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../🧑‍🦰 Wallet app.md>)
+| [Domain](<../../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
 ...
 | 🤗 [Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 Lost is maze? [Yes, No] 

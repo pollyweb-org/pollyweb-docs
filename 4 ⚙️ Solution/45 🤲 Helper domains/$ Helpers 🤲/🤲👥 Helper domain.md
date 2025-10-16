@@ -14,7 +14,7 @@
 
     * They are similar to [Vault 🗄️ domains](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>), 
         * but focused on [domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) 
-        * instead of [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
+        * instead of [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>).
     * Given the similarity, 
         * some [Vault 🗄️ domains](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) may also be Helpers 🤲 
         * e.g., [Payer 💳 domains](<../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>).
@@ -28,7 +28,7 @@
     |-|-|-
     | [👀 Ads](<../Advertisers 👀/👀🤲 Advertiser helper.md>) | GoogleAds | Intermediates ad workflows for [Brokers 🤵](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>)
     | [🤝 Biller](<../Billers 🤝/🤝🤲 Biller helper.md>) | ApplePay | Manages billing cycles between [domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>)
-    | [🤵 Broker](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | WhatsApp | Manages [Chats](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) between [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) and [Hosts 🤗](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)
+    | [🤵 Broker](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | WhatsApp | Manages [Chats](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) between [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) and [Hosts 🤗](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)
     | [⏳ Buffer](<../Buffers ⏳/⏳🤲 Buffer helper.md>) | Kafka | Throttles [Streamers 🌬️](<../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>) for [Subscribers 🔔](<../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>)
     | [🏦 Collector](<../Collectors 🏦/🏦🤲 Collector helper.md>) | CapitalOne | Collects money from [Payers 💳](<../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) for [Sellers 💵](<../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>)
     | [🔐 Keymaker](<../Keymakers 🔐/05  🔐🏭 Keymaker supplier.md>) | - | Manages [Padlocks 🔒](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>) for [Brands 🍏](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>)
@@ -83,7 +83,7 @@
 
 1. **What does the registration Chat look like?**
 
-    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - 
     | 🛠️ [Helper](<🤲👥 Helper domain.md>) | 😃 Hi! What do you need? <br/>- [ Register ]  | > Register
     | 🤵 [Broker](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 [Ready to register?](<../../41 🎭 Domain Roles/Consumers 💼/💼⏩ Consumer flows/💼⏩🧑‍🦰 Inform 📝.md>) [Yes, No] <br>- Your broker binds with us 🔗 <br/>- You choose a billing plan 🤝 <br/>- Your payer adds a method 💳 <br/>- Your identity signs the terms 🆔 | > Yes
