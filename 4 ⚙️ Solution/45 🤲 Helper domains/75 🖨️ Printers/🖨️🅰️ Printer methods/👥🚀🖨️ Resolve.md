@@ -2,7 +2,7 @@
 
 # 👥🚀🖨️ Resolve @ Printer
 
-> A [Printer 🖨️ domain](<../🖨️🤲 Printer helper.md>) returns the [Locator 🔆](<../../../30 Data/15 🔆 Locators/$ 🔆 Locator.md>) of an alias, if any.
+> A [Printer 🖨️ domain](<../🖨️🤲 Printer helper.md>) returns the [Locator 🔆](<../../../25 Locators/15 🔆 Locators/$ 🔆 Locator.md>) of an alias, if any.
 
 > Used in [🧑‍🦰👉🤗 Scan printer QR](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/02 🧑‍🦰👉🤗 Scan printer QR.md>).
 
@@ -27,7 +27,7 @@ Body:
 |Header| `From`| string | Caller [domain 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) name
 || `To` | string | [Printer 🖨️ domain](<../🖨️🤲 Printer helper.md>) name
 || `Subject`| string | `Resolve@Printer`
-|Body|`Alias`| string | Unique [Locator 🔆](<../../../30 Data/15 🔆 Locators/$ 🔆 Locator.md>) ID on the [Printer 🖨️ ](<../🖨️🤲 Printer helper.md>)
+|Body|`Alias`| string | Unique [Locator 🔆](<../../../25 Locators/15 🔆 Locators/$ 🔆 Locator.md>) ID on the [Printer 🖨️ ](<../🖨️🤲 Printer helper.md>)
 |
 
 
@@ -41,5 +41,5 @@ Locator: .HOST,any-host.com,any-key
 
 Property|Type|Description
 |-|-|-
-| Locator | string | [Locator 🔆](<../../../30 Data/15 🔆 Locators/$ 🔆 Locator.md>) 
+| Locator | string | [Locator 🔆](<../../../25 Locators/15 🔆 Locators/$ 🔆 Locator.md>) 
 |
