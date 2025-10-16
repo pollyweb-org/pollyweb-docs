@@ -1,6 +1,6 @@
 # 🗄️⏩🧑‍🦰 Engage @ Vault
 
-> Used by [🔃⏩🗃️ Chat @ Syncer](<../../../../5 ⏩ Flows/77 🔃⏩ Syncer/30 🔃⏩🗃️ Chat.md>)
+> Used by [🔃⏩🗃️ Chat @ Syncer](<../../../90 👷 Build/01 🛠️ Syncers/🔃⏩ Syncer flows/30 🔃⏩🗃️ Chat.md>)
 
 * Allows for [Vault 🗄️ domains](<../🗄️🎭 Vault role.md>) 
     * to proactively start a new [Chat 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>) 

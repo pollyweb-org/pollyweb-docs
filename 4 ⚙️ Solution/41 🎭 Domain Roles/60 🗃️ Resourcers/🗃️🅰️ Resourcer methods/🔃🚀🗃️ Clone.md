@@ -1,6 +1,6 @@
 # 🔃🚀🗃️ Clone @ Resourcer
 
-> Part of the [🔃⏩🗃️ Clone @ Syncer](<../../../../5 ⏩ Flows/77 🔃⏩ Syncer/10 🔃⏩🗃️ Clone.md>) flow.
+> Part of the [🔃⏩🗃️ Clone @ Syncer](<../../../90 👷 Build/01 🛠️ Syncers/🔃⏩ Syncer flows/10 🔃⏩🗃️ Clone.md>) flow.
 
 > ⚠️ This request is not signed.
 
@@ -44,7 +44,7 @@ Hash: SHA-256
 
 || Property | Type | Description
 |-|-|-|-
-|| `Resourcer`   | string    | [Resourcer 🗃️](<../🗃️🎭 Resourcer role.md>) for parameter-less [Sync ⏩](<../../../../5 ⏩ Flows/77 🔃⏩ Syncer/20 🔃⏩🗃️ Sync.md>)
+|| `Resourcer`   | string    | [Resourcer 🗃️](<../🗃️🎭 Resourcer role.md>) for parameter-less [Sync ⏩](<../../../90 👷 Build/01 🛠️ Syncers/🔃⏩ Syncer flows/20 🔃⏩🗃️ Sync.md>)
 || `Clone`       | uuid      | ID for future calls, e.g. [`Map@Resourcer`](<🔃🚀🗃️ Map.md>)
 || `Hash`        | enum | Algorithm for [`Map@`](<🔃🚀🗃️ Map.md>): `SHA-256`
 |

@@ -22,8 +22,8 @@
 
     | Flow | Message | Details
     |-|-|-
-    |[⏩ Clone](<../../../5 ⏩ Flows/77 🔃⏩ Syncer/10 🔃⏩🗃️ Clone.md>)|[`Clone`](<🗃️🅰️ Resourcer methods/🔃🚀🗃️ Clone.md>) | Registers [Syncers 🔃 ](<../../90 👷 Build/01 🛠️ Syncers/01 🔃🛠️ Syncer tool.md>) on [Resourcers 🗃️](<🗃️🎭 Resourcer role.md>)
-    |[⏩ Sync](<../../../5 ⏩ Flows/77 🔃⏩ Syncer/20 🔃⏩🗃️ Sync.md>)|[`Map`](<🗃️🅰️ Resourcer methods/🔃🚀🗃️ Map.md>) | [Syncers](<../../90 👷 Build/01 🛠️ Syncers/01 🔃🛠️ Syncer tool.md>) send a map current files
+    |[⏩ Clone](<../../90 👷 Build/01 🛠️ Syncers/🔃⏩ Syncer flows/10 🔃⏩🗃️ Clone.md>)|[`Clone`](<🗃️🅰️ Resourcer methods/🔃🚀🗃️ Clone.md>) | Registers [Syncers 🔃 ](<../../90 👷 Build/01 🛠️ Syncers/01 🔃🛠️ Syncer tool.md>) on [Resourcers 🗃️](<🗃️🎭 Resourcer role.md>)
+    |[⏩ Sync](<../../90 👷 Build/01 🛠️ Syncers/🔃⏩ Syncer flows/20 🔃⏩🗃️ Sync.md>)|[`Map`](<🗃️🅰️ Resourcer methods/🔃🚀🗃️ Map.md>) | [Syncers](<../../90 👷 Build/01 🛠️ Syncers/01 🔃🛠️ Syncer tool.md>) send a map current files
     ||[`Upload`](<🗃️🅰️ Resourcer methods/🔃🚀🗃️ Upload.md>) | Then upload each file individually
     ||[`Uploaded`](<🗃️🅰️ Resourcer methods/🔃🚀🗃️ Uploaded.md>) | [Resourcers 🗃️](<🗃️🎭 Resourcer role.md>) calculate changes
     ||[`Download`](<🗃️🅰️ Resourcer methods/🔃🚀🗃️ Download.md>) | [Syncers](<../../90 👷 Build/01 🛠️ Syncers/01 🔃🛠️ Syncer tool.md>) execute the changes

@@ -1,6 +1,6 @@
 # 🔃🐌🗃️ Chat @ Resourcer
 
-> Part of the [🔃⏩🗃️ Chat @ Syncer](<../../../../5 ⏩ Flows/77 🔃⏩ Syncer/30 🔃⏩🗃️ Chat.md>) flow
+> Part of the [🔃⏩🗃️ Chat @ Syncer](<../../../90 👷 Build/01 🛠️ Syncers/🔃⏩ Syncer flows/30 🔃⏩🗃️ Chat.md>) flow
 
 * This request 
     * is signed with the [Syncer's 🔃](<../../../90 👷 Build/01 🛠️ Syncers/01 🔃🛠️ Syncer tool.md>) private-key pair 

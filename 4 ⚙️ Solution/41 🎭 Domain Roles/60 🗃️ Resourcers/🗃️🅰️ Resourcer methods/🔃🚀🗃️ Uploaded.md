@@ -1,6 +1,6 @@
 # 🔃🚀🗃️ Uploaded @ Resourcer
 
-> Part of the [🔃⏩🗃️ Sync](<../../../../5 ⏩ Flows/77 🔃⏩ Syncer/20 🔃⏩🗃️ Sync.md>) flow:
+> Part of the [🔃⏩🗃️ Sync](<../../../90 👷 Build/01 🛠️ Syncers/🔃⏩ Syncer flows/20 🔃⏩🗃️ Sync.md>) flow:
 > <br/> • Preceded by [`Upload@Resourcer`](<🔃🚀🗃️ Upload.md>)
 > <br/> • Succeeded by [`Download@Resourcer`](<🔃🚀🗃️ Download.md>)
 
