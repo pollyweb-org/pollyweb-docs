@@ -16,8 +16,8 @@
     |-|-
     | [💠 Things](<../../25 Locators/2 💠 Things/💠🔆 Thing locator.md>) | Physical objects: <br/> • e.g., T-shirts, books, pens, rocks, pets, wild animals.
     | [🤖 Robots](<../../25 Locators/3 🤖 Robots/🤖💠 Robot thing.md>) | [Thing 💠](<../../25 Locators/2 💠 Things/💠🔆 Thing locator.md>) embedded to control an electrical device:<br/> • e.g.: a coffee machine, a printer, or a vehicle. 
-    | [💍 Userables](<../../25 Locators/74 💍 Userables/💍💠 Userable thing.md>) | [Thing 💠](<../../25 Locators/2 💠 Things/💠🔆 Thing locator.md>) that also pays and enters secure areas: <br/> • e.g., jewelry, glasses, key-holders.
-    | [⌚ Tapbands](<../../70 🌳 Ambient/76 ⌚ Tapbands/$ ⌚💠 Tapband thing.md>) | [Userable 💍](<../../25 Locators/74 💍 Userables/💍💠 Userable thing.md>) that also opens [Padlocks 🔒](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>): <br/>• smart watches, fit bands.
+    | [💍 Userables](<../../25 Locators/4 💍 Userables/💍💠 Userable thing.md>) | [Thing 💠](<../../25 Locators/2 💠 Things/💠🔆 Thing locator.md>) that also pays and enters secure areas: <br/> • e.g., jewelry, glasses, key-holders.
+    | [⌚ Tapbands](<../../25 Locators/5 ⌚ Tapbands/⌚💠 Tapband thing.md>) | [Userable 💍](<../../25 Locators/4 💍 Userables/💍💠 Userable thing.md>) that also opens [Padlocks 🔒](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>): <br/>• smart watches, fit bands.
     
 
     ---

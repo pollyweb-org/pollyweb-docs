@@ -23,7 +23,7 @@
     |-|-
     | 🧑‍🦰 [Wallet](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) | Is it really the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) owner holding the device?
     |[🎫 Token](<../../30 Data/3 🎫 Tokens/🎫 Token.md>)| Was the [Token 🎫](<../../30 Data/3 🎫 Tokens/🎫 Token.md>) really issued to the person holding the device?
-    |[💍 Userable](<../../25 Locators/74 💍 Userables/💍💠 Userable thing.md>)| Is it really the [Userable 💍](<../../25 Locators/74 💍 Userables/💍💠 Userable thing.md>) owner [tapping 🔆](<../../25 Locators/1 🔆 Locators/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>) it on a scanner?
+    |[💍 Userable](<../../25 Locators/4 💍 Userables/💍💠 Userable thing.md>)| Is it really the [Userable 💍](<../../25 Locators/4 💍 Userables/💍💠 Userable thing.md>) owner [tapping 🔆](<../../25 Locators/1 🔆 Locators/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>) it on a scanner?
   
     ---
     <br/>
@@ -113,7 +113,7 @@
 
     | Something<br/>the user | Apple<br/>Pay | Google<br/>Pay | Asian<br/>Wallets | NLWeb <br/>Wallet | Western<br/>ATMs | Asian<br/>ATMs | NLWeb<br/>Userable |
     |-|-|-|-|-|-|-|-
-    | `Has`   | Phone | Phone | QR code | [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) | NFC card | - | [NFC 💍](<../../25 Locators/74 💍 Userables/💍💠 Userable thing.md>) |
+    | `Has`   | Phone | Phone | QR code | [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) | NFC card | - | [NFC 💍](<../../25 Locators/4 💍 Userables/💍💠 Userable thing.md>) |
     | `Is`    | - | - | - | [Face 📸](<21 🆔😶 Face scan.md>) | - | Face | [Face 📸](<21 🆔😶 Face scan.md>) |
     | `Knows` | - | - | - | [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>) | Card pin | User pin | [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>) |
     | `Screen`<br/>`Lock ⚠️` | Pin, Face,<br/>Fingers | Pin, Face,<br/>Fingers | Pin, Face,<br/>Fingers | Pin, Face,<br/>Fingers | - | - | - |
