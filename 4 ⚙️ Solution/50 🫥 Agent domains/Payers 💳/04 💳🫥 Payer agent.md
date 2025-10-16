@@ -3,7 +3,7 @@
 
 1. **What is a Payer agent in NLWeb?**
 
-    Payer agents are [Payer 💳 domains](<../../41 🎭 Domain Roles/Payers/03 💳🎭 Payer role.md>) that act as [Agent 🫥 vault domains](<../$ Agent Vaults 🫥/$ 🫥🗄️ Agent vault.md>) for users with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>), interacting in [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) with [Seller 💵 host domains](<../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>).
+    Payer agents are [Payer 💳 domains](<../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) that act as [Agent 🫥 vault domains](<../$ Agent Vaults 🫥/$ 🫥🗄️ Agent vault.md>) for users with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>), interacting in [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) with [Seller 💵 host domains](<../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>).
 
     ---
     <br/>

@@ -13,7 +13,7 @@ To buy a ticket for a show (e.g., a musical in London), a user can scan a QR cod
 | 🧢 [Persona](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Personas 🧢/🧢🫥 Persona agent.md>) | 🫥 Share theatre preferences? [Yes, No] | > Yes
 | 🎭 Venue   | 😃 OK for row E, central, $45 each? [Yes, No] | > Yes
 | 🎭 Venue   | 😃 Want a drink during break? [Yes, No] | > No
-| 💳 [Payer](<../../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/03 💳🎭 Payer role.md>) | 🫥 Pay $90.00 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
+| 💳 [Payer](<../../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) | 🫥 Pay $90.00 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Save theatre ticket? [Yes, No]  | > Yes
 | 🎭 Venue   | ✅ You're all set, see you tomorrow!
 ||

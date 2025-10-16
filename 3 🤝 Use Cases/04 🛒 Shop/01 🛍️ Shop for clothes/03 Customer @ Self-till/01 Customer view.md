@@ -26,7 +26,7 @@
 | 🛍️ Store   | ⏳ Total ($50): <br/>- [ Scan ] another <br/> - [ List ] items <br/> - [ Pay ] total | > Pay
 | 🛍️ Store   | ℹ️ Total ($50): <br/> - [ dress 👗 ] ($25) <br/> - [ hat 👒 ] ($15) 
 | 🛍️ Store   | 😃 Confirm? [Yes, No] | > Yes
-| 💳 [Payer](<../../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/03 💳🎭 Payer role.md>) | 🫥 Pay $50.00 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
+| 💳 [Payer](<../../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) | 🫥 Pay $50.00 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
 | 🛍️ Store   | ✅ Paid, take your items.
 | ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Reviewers ⭐/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5 |
 ||

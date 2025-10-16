@@ -11,6 +11,6 @@
 | 🎪 Stall      | ⏳ We'll call you when ready.<br/>- [ Cancel ] request <br/> - [ Alter ] request | > Cancel
 | 🎪 Stall      | 😐 Cancel, really?  [Yes, No] | > Yes
 | 🎪 Stall      | ✅ Request cancelled.
-| 💳 [Payer](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/03 💳🎭 Payer role.md>) | 🫥 Refund received: $7.50
+| 💳 [Payer](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) | 🫥 Refund received: $7.50
 | ⭐ [Rate](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Reviewers ⭐/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 2
 ||

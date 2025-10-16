@@ -11,6 +11,6 @@
     - add the [Token 🎫](<../../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) to the [Userable 💍](<../💍💠 Userable thing.md>) via the [Custodians 🧳](<../../../50 🫥 Agent domains/Custodians 🧳/$ 🧳🫥 Custodian agent.md>);
     - test the [Userable 💍](<../💍💠 Userable thing.md>) to see if the railway can see the [Token 🎫](<../../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>);
     - use the [Userable 💍](<../💍💠 Userable thing.md>) to enter and exit gates at the railway;
-    - monitor the charges to the user's [Payer 💳](<../../../41 🎭 Domain Roles/Payers/03 💳🎭 Payer role.md>).
+    - monitor the charges to the user's [Payer 💳](<../../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>).
 
     ---

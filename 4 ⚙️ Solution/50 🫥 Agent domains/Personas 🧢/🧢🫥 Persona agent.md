@@ -101,7 +101,7 @@
 
     No.
     - Storing card details required special security settings defined by PCI/DSS policies.
-    - Personas 🧢 should leave that responsibility to [Payer 💳](<../../41 🎭 Domain Roles/Payers/03 💳🎭 Payer role.md>) vaults.
+    - Personas 🧢 should leave that responsibility to [Payer 💳](<../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) vaults.
 
     ---
     <br/>

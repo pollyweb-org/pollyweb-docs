@@ -34,7 +34,7 @@ Order a pizza for home delivery
 | 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Vitalogists 💖/💖🫥 Vitalogist agent.md>) | 🫥 Confirm? [Yes, No] <br> - pizza: gluten allergy! <br/> - coke: sugar at 190 mg/dL | > Yes
 | 🛎️ [Concierge](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Concierges 🛎️/$ 🛎️🫥 Concierge agent.md>) | ⓘ Delivery ($4.50): [Change] <br/> - courier delivery 🛵 ($4.00) <br/> - concierge fee 🛎️ ($0.50) <br/> - delivery time ⏳ ~10 min.
 | [🗓️ Scheduler](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Schedulers 🗓️/$ 🗓️🫥 Scheduler agent.md>) | 🫥 Confirm? [Yes, No] <br/> - it will take ~30 min <br> - your flight is in 5 hours <br/> - you'll have ~1 hour to eat | > Yes
-| 💳 [Payer](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/03 💳🎭 Payer role.md>) | 🫥 Pay $31.50 bill? 🧾 [No] <br/>- [ Card ABC ] + $0.10 <br/>- [ Card DEF ] (free) <br/> - [ ✂️ Split bill ] | > Card ABC |
+| 💳 [Payer](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) | 🫥 Pay $31.50 bill? 🧾 [No] <br/>- [ Card ABC ] + $0.10 <br/>- [ Card DEF ] (free) <br/> - [ ✂️ Split bill ] | > Card ABC |
 | 🍕 Pizzeria   | ✅ Order confirmed [+]
 | 🛎️ [Concierge](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Concierges 🛎️/$ 🛎️🫥 Concierge agent.md>) | ☑️ Delivery confirmed [+]
 | 🍕 Pizzeria   | ⏳ Preparing your order... [+]

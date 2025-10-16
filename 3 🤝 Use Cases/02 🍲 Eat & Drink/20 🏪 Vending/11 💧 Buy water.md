@@ -16,7 +16,7 @@
 | 🍫 Vending | 😃 Hi! What do you need? <br/>- [ Buy ] an item <br/>- [ Something else ] | > Buy 
 | 🍫 Vending | 😃 What's the item number?   | 🔢 123
 | 🍫 Vending | 😃 [A water bottle?](<../../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) [Yes, No]        | > Yes
-| 💳 [Payer](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/03 💳🎭 Payer role.md>) | 🫥 Pay $1.50 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
+| 💳 [Payer](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) | 🫥 Pay $1.50 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
 | 🍫 Vending | [⏳ Delivering...](<../../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔📢 Prompt status/25 ⏳ TEMP prompt.md>)
 | 🍫 Vending | [✅ Pick up the item. ](<../../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔📢 Prompt status/23 ✅ SUCCESS prompt.md>)
 | ⭐ [Rate](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Reviewers ⭐/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5

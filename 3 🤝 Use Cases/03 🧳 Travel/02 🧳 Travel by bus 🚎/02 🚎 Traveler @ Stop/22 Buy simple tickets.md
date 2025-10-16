@@ -9,7 +9,7 @@ How to buy a simple bus ticket at the bus stop 🚎
 | 🚎 Operator | ℹ️ Stop X: Earl Gray
 | 🚎 Operator | 😃 Hi! What do you need? <br/>- [ Simple 🚎 ] ticket <br/>- [ Timetable ] | > Simple 🚎
 | 🚎 Operator | 😃 How many trips? [1, 2, +] | > 2
-| 💳 [Payer](<../../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/03 💳🎭 Payer role.md>) | 🫥 Pay £5.00 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
+| 💳 [Payer](<../../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) | 🫥 Pay £5.00 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Save bus ticket? [Yes, No] <br/> - [ Always ] for Any Bus | > Always
 | 🚎 Operator | ✅ Ticked issued!
 | ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Reviewers ⭐/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5
