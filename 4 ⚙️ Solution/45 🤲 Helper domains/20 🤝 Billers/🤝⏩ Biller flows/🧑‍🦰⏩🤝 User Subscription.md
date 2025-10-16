@@ -37,7 +37,7 @@ The following steps describe a subscription workflow:
 
 ## Talker
 
-The corresponding [Talker 😃](<../../../90 👷 Build/3 😃 Talkers/😃 Talker.md>) is as follows.
+The corresponding [Talker 😃](<../../../55 👷 Build domains/3 😃 Talkers/😃 Talker.md>) is as follows.
 
 ```yaml
 💬 Register:                # Entry menu
@@ -58,13 +58,13 @@ The corresponding [Talker 😃](<../../../90 👷 Build/3 😃 Talkers/😃 Talk
 - GOODBYE                   # Show advertisement
 ```
 
-| [Command ⌘](<../../../90 👷 Build/3 😃 Talkers/😃⚙️ Talker cmds/10 ⌘ Command.md>) | Purpose
+| [Command ⌘](<../../../55 👷 Build domains/3 😃 Talkers/😃⚙️ Talker cmds/10 ⌘ Command.md>) | Purpose
 |-|-
-| 📝 [`INFORM`](<../../../90 👷 Build/3 😃 Talkers/😃📨 Talker msgs/41 📝 INFORM msg.md>) | To provide instructions.
-| 🔗 [`BIND`](<../../../90 👷 Build/3 😃 Talkers/😃📨 Talker msgs/44 🔗 BIND msg.md>) | To create a user profile.
-| 🛠️ [`INVITE`](<../../../90 👷 Build/3 😃 Talkers/😃📨 Talker msgs/46 🤲 INVITE msg.md>) | To subscribe the user to plan.
-| ❄️ [`FREEZE`](<../../../90 👷 Build/3 😃 Talkers/😃📨 Talker msgs/42 ❄️ FREEZE msg.md>) | To disable past inputs.
-| ⬇️ [`EVAL`](<../../../90 👷 Build/3 😃 Talkers/😃💾 Talker data/20 ⬇️ EVAL flow.md>) | To register on the database.
+| 📝 [`INFORM`](<../../../55 👷 Build domains/3 😃 Talkers/😃📨 Talker msgs/41 📝 INFORM msg.md>) | To provide instructions.
+| 🔗 [`BIND`](<../../../55 👷 Build domains/3 😃 Talkers/😃📨 Talker msgs/44 🔗 BIND msg.md>) | To create a user profile.
+| 🛠️ [`INVITE`](<../../../55 👷 Build domains/3 😃 Talkers/😃📨 Talker msgs/46 🤲 INVITE msg.md>) | To subscribe the user to plan.
+| ❄️ [`FREEZE`](<../../../55 👷 Build domains/3 😃 Talkers/😃📨 Talker msgs/42 ❄️ FREEZE msg.md>) | To disable past inputs.
+| ⬇️ [`EVAL`](<../../../55 👷 Build domains/3 😃 Talkers/😃💾 Talker data/20 ⬇️ EVAL flow.md>) | To register on the database.
 | ✅ [`SUCCESS`](<../../../35 Chats/🤔 Prompts/🤔📢 Prompt status/23 ✅ SUCCESS prompt.md>) | To say that it was successful.
-| 👋 [`GOODBYE`](<../../../90 👷 Build/3 😃 Talkers/😃📨 Talker msgs/50 👋 GOODBYE.md>) | To show advertising.
+| 👋 [`GOODBYE`](<../../../55 👷 Build domains/3 😃 Talkers/😃📨 Talker msgs/50 👋 GOODBYE.md>) | To show advertising.
 |

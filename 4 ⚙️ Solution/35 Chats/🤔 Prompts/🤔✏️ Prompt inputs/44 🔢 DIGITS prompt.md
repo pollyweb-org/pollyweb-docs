@@ -40,7 +40,7 @@
     <br/>
 
 
-1. **What's the format of a [Talker 😃](<../../../90 👷 Build/3 😃 Talkers/😃 Talker.md>)?**
+1. **What's the format of a [Talker 😃](<../../../55 👷 Build domains/3 😃 Talkers/😃 Talker.md>)?**
 
     ```yaml
     # Simplest.
@@ -50,7 +50,7 @@
     | Argument| Purpose 
     |-|-
     | `<statement>`| Message to show to the user
-    | `$placeholder`| Optional [$placeholder 💾](<../../../90 👷 Build/3 😃 Talkers/😃💾 Talker data/10 💾 $Placeholder.md>) with the user's answer
+    | `$placeholder`| Optional [$placeholder 💾](<../../../55 👷 Build domains/3 😃 Talkers/😃💾 Talker data/10 💾 $Placeholder.md>) with the user's answer
     
 
     ```yaml
@@ -95,7 +95,7 @@
 
     <br/>
     
-    Here's the [Talker 😃](<../../../90 👷 Build/3 😃 Talkers/😃 Talker.md>).
+    Here's the [Talker 😃](<../../../55 👷 Build domains/3 😃 Talkers/😃 Talker.md>).
     
     ```yaml
     - DIGITS|What's the code? >> $code:

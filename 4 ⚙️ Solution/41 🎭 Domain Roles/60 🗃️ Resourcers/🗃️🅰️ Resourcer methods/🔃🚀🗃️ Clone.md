@@ -1,6 +1,6 @@
 # 🔃🚀🗃️ Clone @ Resourcer
 
-> Part of the [🔃⏩🗃️ Clone @ Syncer](<../../../90 👷 Build/2 🛠️ Syncers/🔃⏩ Syncer flows/10 🔃⏩🗃️ Clone.md>) flow.
+> Part of the [🔃⏩🗃️ Clone @ Syncer](<../../../55 👷 Build domains/2 🛠️ Syncers/🔃⏩ Syncer flows/10 🔃⏩🗃️ Clone.md>) flow.
 
 > ⚠️ This request is not signed.
 
@@ -28,8 +28,8 @@ Body:
 |           | `To`          | string    | [Resourcer 🗃️ domain](<../🗃️🎭 Resourcer role.md>) name
 |           | `Subject`     | string    | `Clone@Resourcer`
 | Body      | `WalletPin`  | string | Pin displayed on the [Wallet 🧑‍🦰](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
-|           | `SyncerPin`   | string | Pin displayed on the [Syncer 🔃](<../../../90 👷 Build/2 🛠️ Syncers/🔃🛠️ Syncer tool.md>)
-|           | `PublicKey`   | string | [Syncer 🔃](<../../../90 👷 Build/2 🛠️ Syncers/🔃🛠️ Syncer tool.md>) public key
+|           | `SyncerPin`   | string | Pin displayed on the [Syncer 🔃](<../../../55 👷 Build domains/2 🛠️ Syncers/🔃🛠️ Syncer tool.md>)
+|           | `PublicKey`   | string | [Syncer 🔃](<../../../55 👷 Build domains/2 🛠️ Syncers/🔃🛠️ Syncer tool.md>) public key
 |
 
 <br/>
@@ -44,7 +44,7 @@ Hash: SHA-256
 
 || Property | Type | Description
 |-|-|-|-
-|| `Resourcer`   | string    | [Resourcer 🗃️](<../🗃️🎭 Resourcer role.md>) for parameter-less [Sync ⏩](<../../../90 👷 Build/2 🛠️ Syncers/🔃⏩ Syncer flows/20 🔃⏩🗃️ Sync.md>)
+|| `Resourcer`   | string    | [Resourcer 🗃️](<../🗃️🎭 Resourcer role.md>) for parameter-less [Sync ⏩](<../../../55 👷 Build domains/2 🛠️ Syncers/🔃⏩ Syncer flows/20 🔃⏩🗃️ Sync.md>)
 || `Clone`       | uuid      | ID for future calls, e.g. [`Map@Resourcer`](<🔃🚀🗃️ Map.md>)
 || `Hash`        | enum | Algorithm for [`Map@`](<🔃🚀🗃️ Map.md>): `SHA-256`
 |

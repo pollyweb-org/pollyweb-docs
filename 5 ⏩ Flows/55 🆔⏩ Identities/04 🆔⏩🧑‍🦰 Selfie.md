@@ -21,7 +21,7 @@ Consider the following [Chat 💬](<../../4 ⚙️ Solution/35 Chats/💬 Chats/
 
 ## 😃 Talker 
 
-The associated [Talker 😃](<../../4 ⚙️ Solution/90 👷 Build/3 😃 Talkers/😃 Talker.md>) would be the following.
+The associated [Talker 😃](<../../4 ⚙️ Solution/55 👷 Build domains/3 😃 Talkers/😃 Talker.md>) would be the following.
 
 ```yaml
 - CONFIRM|Start risky task?
