@@ -8,7 +8,7 @@
 
     A [Hoster ☁️](<☁️🤲 Hoster helper.md>) is 
     * any [Helper 🤲 domain](<../$ 🤲 Helpers/🤲👥 Helper domain.md>)
-    * that provides the infrastructure of a [Hosted 📦 domain](<../../../9 😃 Talkers/91 📦 Hosteds/📦👥 Hosted domain.md>)
+    * that provides the infrastructure of a [Hosted 📦 domain](<../../90 👷 Build/91 📦 Hosteds/📦👥 Hosted domain.md>)
     * and allow their owners to manage them with a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
 
     ---
@@ -18,7 +18,7 @@
 
     |Role|Description
     |-|-
-    | [🗃️ Resourcer](<../../41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🎭 Resourcer role.md>) | To sync setup files with a [Syncer 🔃 tool](<../../../9 😃 Talkers/90 ☁️ Hosters/01 🔃🛠️ Syncer tool.md>)
+    | [🗃️ Resourcer](<../../41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🎭 Resourcer role.md>) | To sync setup files with a [Syncer 🔃 tool](<../../90 👷 Build/01 🛠️ Syncers/01 🔃🛠️ Syncer tool.md>)
     | [😃 Talker](<../../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>) | To manage [Chat 💬](<../../35 Chats/12 💬 Chats/💬 Chat.md>) workflows
     | [🤗 Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | For interacting with [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) in [Chats 💬](<../../35 Chats/12 💬 Chats/💬 Chat.md>)
     | `And also` | [`Issuer 🎴`](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) [`Vault 🗄️`](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) [`Consumer 💼`](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>)
