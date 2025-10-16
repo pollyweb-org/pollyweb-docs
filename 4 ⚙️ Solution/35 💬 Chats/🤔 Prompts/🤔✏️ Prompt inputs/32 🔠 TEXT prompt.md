@@ -256,7 +256,7 @@
     - SUCCESS|You entered `$money`
     ```
 
-    | [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/⌘ Command.md>) | Purpose
     |-|-
     | 💰 [`AMOUNT`](<43 💰 AMOUNT prompt.md>) | To collect a structured currency value.
     | ✅ [`SUCCESS`](<../🤔📢 Prompt status/23 ✅ SUCCESS prompt.md>) | To show the formatted collected value.

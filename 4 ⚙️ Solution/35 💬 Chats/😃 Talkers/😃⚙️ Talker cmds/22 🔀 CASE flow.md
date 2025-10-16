@@ -8,8 +8,8 @@
 1. **What's a CASE flow?**
 
     A `CASE` 🔀
-    * is a flow [Command ⌘](<10 ⌘ Command.md>)  
-    * that runs a matching [Procedure ⚙️](<11 ⚙️ Procedure.md>) or [Command ⌘](<10 ⌘ Command.md>) 
+    * is a flow [Command ⌘](<⌘ Command.md>)  
+    * that runs a matching [Procedure ⚙️](<⚙️ Procedure.md>) or [Command ⌘](<⌘ Command.md>) 
     * based on the evaluation of a [{Function}](<../😃💾 Talker data/12 🐍 {Function}.md>).
 
     ---
@@ -30,8 +30,8 @@
     || Allows for missing `{}` in functions | `f()` `$p`
     || Defaults to the last [input prompt ✏️](<../../🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>) | `TEXT\|Id?`
     | `<value>`| Static value to be matched with. | `ABC`
-    | `<action>`| Run a [Procedure ⚙️](<11 ⚙️ Procedure.md>) | `MyProc`
-    || or a one-line [Command ⌘](<10 ⌘ Command.md>). | `INFO\|OK`
+    | `<action>`| Run a [Procedure ⚙️](<⚙️ Procedure.md>) | `MyProc`
+    || or a one-line [Command ⌘](<⌘ Command.md>). | `INFO\|OK`
     
 
     ```yaml
@@ -62,7 +62,7 @@
 
     | Argument| Purpose
     |-|-
-    | `<cmd-n>`| Run a multi-line [Command ⌘](<10 ⌘ Command.md>) list.
+    | `<cmd-n>`| Run a multi-line [Command ⌘](<⌘ Command.md>) list.
     
 
     ---

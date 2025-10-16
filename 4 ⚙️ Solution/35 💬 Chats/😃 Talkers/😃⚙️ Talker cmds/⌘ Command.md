@@ -107,14 +107,14 @@
 
     Command | Purpose
     |-|-
-    | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | Runs a [Command ⌘](<10 ⌘ Command.md>) or [Procedure ⚙️](<11 ⚙️ Procedure.md>) matching a [{Function}](<../😃💾 Talker data/12 🐍 {Function}.md>).
+    | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Procedure ⚙️](<⚙️ Procedure.md>) matching a [{Function}](<../😃💾 Talker data/12 🐍 {Function}.md>).
     | 🫥 [`EMOJI`](<../../🤔 Prompts/🤔✏️ Prompt input features/16 😶⌘ EMOJI cmd.md>) | Changes the [default emoji 😃](<../../🤔 Prompts/🤔✏️ Prompt input features/14 😶 Input emojis.md>) for [input prompts ✏️](<../../🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>).
     | ⬇️ [`EVAL`](<../😃💾 Talker data/20 ⬇️ EVAL flow.md>) | Evaluates a [{Function}](<../😃💾 Talker data/12 🐍 {Function}.md>) into a placeholder.
-    | ⤵️ [`IF`](<21 ⤵️ IF flow.md>) | Runs a [Command ⌘](<10 ⌘ Command.md>) or [Procedure ⚙️](<11 ⚙️ Procedure.md>) based on a [{Function}](<../😃💾 Talker data/12 🐍 {Function}.md>).
+    | ⤵️ [`IF`](<21 ⤵️ IF flow.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Procedure ⚙️](<⚙️ Procedure.md>) based on a [{Function}](<../😃💾 Talker data/12 🐍 {Function}.md>).
     | 🪵 [`LOG`](<../😃💾 Talker data/15 🪵 LOG flow.md>) | Logs messages into the system handler.
-    | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | Repeats the current [Procedure ⚙️](<11 ⚙️ Procedure.md>) with a confirmation.
-    | ↩️ [`RETURN`](<25 ↩️ RETURN flow.md>) | Returns from a [Procedure ⚙️](<11 ⚙️ Procedure.md>) with a result.
-    | ▶️ [`RUN`](<24 ▶️ RUN flow.md>) | Runs a [Procedure ⚙️](<11 ⚙️ Procedure.md>) and puts the result in a placeholder.
+    | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | Repeats the current [Procedure ⚙️](<⚙️ Procedure.md>) with a confirmation.
+    | ↩️ [`RETURN`](<25 ↩️ RETURN flow.md>) | Returns from a [Procedure ⚙️](<⚙️ Procedure.md>) with a result.
+    | ▶️ [`RUN`](<24 ▶️ RUN flow.md>) | Runs a [Procedure ⚙️](<⚙️ Procedure.md>) and puts the result in a placeholder.
     | ⏸️ [`WAIT`](<28 ⏸️ WAIT flow.md>) | Waits for a period of time or until signaled.
 
     ---
