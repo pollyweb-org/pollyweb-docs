@@ -15,7 +15,7 @@
     |-|-
     | [🪢 Integrator](<../../41 🎭 Domain Roles/35 🪢 Integrators/$ 🪢🎭 Integrator role.md>) | To promote the printing of [Locators 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) in [Finder 🔎 domains](<../../50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>).
     | [🤗 Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | For interacting with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) in [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>).
-    | [🏭 Supplier](<../../41 🎭 Domain Roles/78 🏭 Suppliers/$ 🏭🎭 Supplier role.md>) | For receiving printing orders and updating on their status.
+    | [🏭 Supplier](<../../41 🎭 Domain Roles/78 🏭 Suppliers/🏭🎭 Supplier role.md>) | For receiving printing orders and updating on their status.
     | [💼 Consumer](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) | For consuming data sets required to fill out the order.
     | [💵 Seller](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) | For receiving payments for the orders via their [Collector 🏦 helper](<../30 🏦 Collectors/$ 🏦🤲 Collector helper.md>).
     

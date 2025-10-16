@@ -29,7 +29,7 @@
 
 | # | Call | Notes
 |-|-|-
-| 1 | [👥🐌🏭 `Order@Supplier`](<../../../../../6 🅰️ APIs/90 🏭🅰️ Supplier/01 👥🐌🏭 Order.md>) | Order dynamic [Locators 🔆](<../../../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>)
+| 1 | [👥🐌🏭 `Order@Supplier`](<../../../../41 🎭 Domain Roles/78 🏭 Suppliers/🏭🅰️ Supplier methods/👥🐌🏭 Order.md>) | Order dynamic [Locators 🔆](<../../../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>)
 | 2 | [🤵⏩🧑‍🦰 Assess 🔆](<../../../3 🤵 Brokers/🤵⏩ Broker flows/🤵⏩🧑‍🦰 Assess 🔆.md>) | Parse the [Locator 🔆](<../../../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) in the [Broker 🤵](<../../../3 🤵 Brokers/🤵🤲 Broker helper.md>)
 | 3 | [👥🚀🖨️ `Resolve@Printer`](<../../../../45 🤲 Helper domains/75 🖨️ Printers/🖨️🅰️ Printer methods/👥🚀🖨️ Resolve.md>) | Get the host's locator from the [Printer 🖨️](<../../../../45 🤲 Helper domains/75 🖨️ Printers/🖨️🤲 Printer helper.md>)
 | 4 | [🤵🐌🤗 `Hello@Host`](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🅰️ Host methods/🤵🐌🤗 Hello.md>) | Ask the [Host 🤗](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) to interact

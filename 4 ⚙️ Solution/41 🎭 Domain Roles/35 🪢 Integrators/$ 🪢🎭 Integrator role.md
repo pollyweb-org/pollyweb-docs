@@ -31,7 +31,7 @@
 
     Endpoints are then implemented by specific roles:
     - [🪣 Dataset](<../28 🪣 Datasets/$ 🪣🎭 Dataset role.md>): for dataset requests;
-    - [🏭 Supplier](<../../41 🎭 Domain Roles/78 🏭 Suppliers/$ 🏭🎭 Supplier role.md>): for asynchronous requests with status updates;
+    - [🏭 Supplier](<../78 🏭 Suppliers/🏭🎭 Supplier role.md>): for asynchronous requests with status updates;
     - [🌬️ Streamer](<../75 🌬️ Streamers/🌬️🎭 Streamer role.md>): for event streaming.
 
     ---
