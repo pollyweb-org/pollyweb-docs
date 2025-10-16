@@ -21,7 +21,7 @@
     
     * [Prompt options](<04 🔘 with Options.md>) can be differed with [non-blocking status Prompts 🤔](<08 ⚠️ as Status.md>);
     
-        * e.g., [`INFO`](<../4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>), [`TEMP`](<../4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>), [`SUCCESS`](<../4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>), and [`FAILURE`](<../4 ⚠️ Status prompts/24 ❌ FAILURE prompt.md>).
+        * e.g., [`INFO`](<../🤔⚠️ Prompt status/21 ℹ️ INFO prompt.md>), [`TEMP`](<../🤔⚠️ Prompt status/25 ⏳ TEMP prompt.md>), [`SUCCESS`](<../🤔⚠️ Prompt status/23 ✅ SUCCESS prompt.md>), and [`FAILURE`](<../🤔⚠️ Prompt status/24 ❌ FAILURE prompt.md>).
   
         * [Host 🤗 domains](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) speed-up [Chats 💬](<../../💬 Chats/💬 Chat.md>) by taking unilateral two-way-door decisions that can be reverted by users even after other [Prompts 🤔](<../🤔 Prompt.md>) have been sent.
 
@@ -49,7 +49,7 @@
 
     |Behavior| [Prompt 🤔](<../🤔 Prompt.md>) 
     |-|-
-    |[`Status`](<08 ⚠️ as Status.md>)| [`ℹ️ INFO`](<../4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<../4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<../4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<../4 ⚠️ Status prompts/24 ❌ FAILURE prompt.md>)
+    |[`Status`](<08 ⚠️ as Status.md>)| [`ℹ️ INFO`](<../🤔⚠️ Prompt status/21 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<../🤔⚠️ Prompt status/25 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<../🤔⚠️ Prompt status/23 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<../🤔⚠️ Prompt status/24 ❌ FAILURE prompt.md>)
     |[`Inputs`](<09 ✏️ as Input.md>) | [`1️⃣ ONE`](<../7 ✏️ Input prompts/53 1️⃣ ONE prompt.md>) [`🔢 MANY`](<../7 ✏️ Input prompts/54 🔠 MANY prompt.md>)  [`🔠 TEXT`](<../7 ✏️ Input prompts/32 🔠 TEXT prompt.md>) 
 
     ---
@@ -68,7 +68,7 @@
 
     | Argument| Purpose | Example
     |-|-|-
-    | `<PROMPT>` | A [Prompt 🤔](<../🤔 Prompt.md>) format. | [`INFO`](<../4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) [`TEMP`](<../4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>)
+    | `<PROMPT>` | A [Prompt 🤔](<../🤔 Prompt.md>) format. | [`INFO`](<../🤔⚠️ Prompt status/21 ℹ️ INFO prompt.md>) [`TEMP`](<../🤔⚠️ Prompt status/25 ⏳ TEMP prompt.md>)
     | `<statement>` |  Message to show to the user. | `Hi!`
     | `<options>` | Comma-separated strings, or | `A,B,C`
     || a comma-separated dictionary | `1:A,2:B`
@@ -163,7 +163,7 @@
     |-|-
     | 1️⃣ [`ONE`](<../7 ✏️ Input prompts/53 1️⃣ ONE prompt.md>) | To show the options.
     | 🔀 [`CASE`](<../../😃 Talkers/😃🌊 Talker flow/22 🔀 CASE flow.md>) | To check the selected option.
-    | ℹ️ [`INFO`](<../4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) | To show the result.
+    | ℹ️ [`INFO`](<../🤔⚠️ Prompt status/21 ℹ️ INFO prompt.md>) | To show the result.
     
 
     <br/> 
@@ -238,7 +238,7 @@
     |-|-
     | 1️⃣ [`ONE`](<../7 ✏️ Input prompts/53 1️⃣ ONE prompt.md>) | To show the options.
     | 🔀 [`CASE`](<../../😃 Talkers/😃🌊 Talker flow/22 🔀 CASE flow.md>) | To check the selected option.
-    | ℹ️ [`INFO`](<../4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) | To show the result.
+    | ℹ️ [`INFO`](<../🤔⚠️ Prompt status/21 ℹ️ INFO prompt.md>) | To show the result.
     
     <br/>
 

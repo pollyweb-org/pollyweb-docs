@@ -44,7 +44,7 @@
     | [Command ⌘](<../😃🌊 Talker flow/10 ⌘ Command.md>) | Purpose
     |-|-
     | ⬇️ [`EVAL`](<20 ⬇️ EVAL flow.md>) | To push an object into a [$placeholder 💾](<10 💾 $Placeholder.md>).
-    | ℹ️ [`INFO`](<../../🤔 Prompts/4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) | To show the placeholder values.
+    | ℹ️ [`INFO`](<../../🤔 Prompts/🤔⚠️ Prompt status/21 ℹ️ INFO prompt.md>) | To show the placeholder values.
     
     ---
     <br/>
@@ -75,7 +75,7 @@
 
     | [Command ⌘](<../😃🌊 Talker flow/10 ⌘ Command.md>) | Purpose
     |-|-
-    | ℹ️ [`INFO`](<../../🤔 Prompts/4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) | To show the [$placeholder 💾](<10 💾 $Placeholder.md>) values.
+    | ℹ️ [`INFO`](<../../🤔 Prompts/🤔⚠️ Prompt status/21 ℹ️ INFO prompt.md>) | To show the [$placeholder 💾](<10 💾 $Placeholder.md>) values.
     | ↕️ [`QUANTITY`](<../../🤔 Prompts/7 ✏️ Input prompts/42 ↕️ QUANTITY prompt.md>) | To collect the number input.
     
 

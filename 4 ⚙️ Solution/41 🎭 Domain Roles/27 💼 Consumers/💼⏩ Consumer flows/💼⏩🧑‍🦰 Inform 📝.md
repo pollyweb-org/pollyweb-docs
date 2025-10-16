@@ -2,7 +2,7 @@
 
 * Shows user instructions and allow inputs.
     * [Brokers 🤵](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) may ask for [user confirmation  👍](<../../../35 Chats/🤔 Prompts/7 ✏️ Input prompts/31 👍 CONFIRM prompt.md>) the first time,
-    * then switch to a [non-blocking info ℹ️](<../../../35 Chats/🤔 Prompts/4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>).
+    * then switch to a [non-blocking info ℹ️](<../../../35 Chats/🤔 Prompts/🤔⚠️ Prompt status/21 ℹ️ INFO prompt.md>).
 
 * Related to:
     * [📝 Talker `INFORM` command](<../../../35 Chats/😃 Talkers/😃📨 Talker msgs/41 📝 INFORM msg.md>)
