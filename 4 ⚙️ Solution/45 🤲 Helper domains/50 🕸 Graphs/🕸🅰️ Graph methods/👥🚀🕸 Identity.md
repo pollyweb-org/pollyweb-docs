@@ -9,7 +9,7 @@
     * returns the content of [`.MANIFEST/ABOUT 🧩`](<../../../40 👥 Domains/👥📜 Domain Manifests/🧩 Manifest schemas/🧩 ABOUT.md>)
     * from its [domain Manifest 📜](<../../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) 
 * Used by:
-    * [🤵⏩🧑‍🦰 Converse 💬 flow](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵⏩ Broker flows/03 🤵⏩🧑‍🦰 Converse 💬.md>) 
+    * [🤵⏩🧑‍🦰 Converse 💬 flow](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵⏩ Broker flows/🤵⏩🧑‍🦰 Converse 💬.md>) 
 
 <br/>
 
