@@ -1,12 +1,8 @@
-# 🧑‍🦰🚀🤵 Pop @ Broker
+# 🧑‍🦰🐌🤵 Pop @ Broker
 
 * Opens a new [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) 
     * with the [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>)
-    * with a given context
-
-> Used in:
-> <br/> • [🧑‍🦰👉🤵 Host Home](<../../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Chats 💬/🧑‍🦰💬🤵 Host home.md>) flow
-> <br/> • [🧑‍🦰👉🤵 Abandon Chat](<../../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Chats 💬/🧑‍🦰💬🤵 Abandon 💬.md>) flow
+    * with a given context.
 
 <br/>
 
@@ -14,10 +10,10 @@
 
 | [Domain](<../../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
-...
-| 🤗 [Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 Continue [Yes, No] 
+| | | > Token 🎫 |
 | | | > Broker 🤵 |
-| 🤵 [Broker](<../../🤵🤲 Broker helper.md>) | 🫥 What do you need? <br/> - [ Home ] menu  <br/> - [ Abandon ] Chat <br/> - [ Something else ] 
+| 🤵 [Broker](<../../🤵🤲 Broker helper.md>) | ℹ️ Context: Token bla, bla
+| 🤵 [Broker](<../../🤵🤲 Broker helper.md>) | 🤗 Hi! What do you need? <br/> - [ Remove ] Token <br/> - [ Something else ] 
 |
 
 <br/>
@@ -31,6 +27,7 @@ Header:
     Subject: Pop@Broker
 
 Body:
+    Reference: <reference-uuid>
     Context: TOKEN
     Key: <token-uuid>
 ```
@@ -40,7 +37,18 @@ Body:
 | Header | `From`    | string | [Wallet 🧑‍🦰](<../../../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)  from [`Onboard@Notifier`](<../../../2 📣 Notifiers/📣🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
 || `To`      | string | [Broker 🤵](<../../🤵🤲 Broker helper.md>) from [`Onboard@Notifier`](<../../../2 📣 Notifiers/📣🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
 || `Subject` | string | `Pop@Broker`
-| Body | `Context`  | 
-|       | `Key` | uuid   |
- [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)  from [`Converse@Notifier`](<../../../2 📣 Notifiers/📣🅰️ Notifier methods/2 💬 Chats/1 🤵🐌📣 Converse.md>)
+| Body | `Reference` | uuid | Reference for [`Converse@Notifier`](<../../../2 📣 Notifiers/📣🅰️ Notifier methods/2 💬 Chats/1 🤵🐌📣 Converse.md>)
+|       | `Context`  | enum | `HOST` `ISSUER` `VAULT` `BIND` `TOKEN` 
+|       | `Key` | uuid   | Optional index for the context
 |
+
+<br/>
+
+## Handler
+
+```yaml
+- CASE|$.Msg.Body.Context:
+    TOKEN: TALK|PopToken
+    VAULT: TALK|PopVault
+    BIND : TALK|PopBind
+```

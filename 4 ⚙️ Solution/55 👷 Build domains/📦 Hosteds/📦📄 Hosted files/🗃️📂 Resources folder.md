@@ -9,7 +9,7 @@
 
     The `🗃️ Resources/` folder 
     * contains resource files 
-    * indexed by the [Pools 🪣 file](<🪣📄 Pools file.md>)
+    * indexed by the [Pools 🪣 file](<🗺️📄 Tables file.mdd>)
     * and accessible via the [Talker `MAP` command](<../../../35 💬 Chats/😃 Talkers/😃💾 Talker data/61 🪣 MAP item.md>).
     
     ---
