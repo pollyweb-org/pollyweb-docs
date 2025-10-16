@@ -30,7 +30,7 @@ Body:
 | Header| `From` | string | [Broker 🤵 domain](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>)
 || `To` | string | [Vault 🗄️ domain](<../🗄️🎭 Vault role.md>) name
 || `Subject` | string | `Disclose@Vault`
-|Body| `ChatID`| uuid | [Chat 💬](<../../../35 Chats/12 💬 Chats/💬 Chat.md>) ID
+|Body| `ChatID`| uuid | [Chat 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>) ID
 || `Consumer` | string | [Consumer 💼 domain](<../../27 💼 Consumers/💼🎭 Consumer role.md>) name
 || `Language` | enum | ISO language code
 || `BindID` | uuid | [Bind 🔗](<../../../30 Data/20 🔗 Binds/🔗 Bind.md>) ID

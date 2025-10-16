@@ -16,7 +16,7 @@
 
     NLWeb advocates for developers to use the redirect script at `https://nlweb.org/go/` so that users without an installed [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) can fallback to a page with instructions on how to install one. 
     
-    * If a user with an NLWeb [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) installed navigates to a redirect link (e.g., `https://nlweb.org/go/ABC`), the browser redirects to a `nlweb` URL, signaling the OS to open the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) - the [Wallet 🧑‍🦰](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) then opens with a [Chat 💬](<../../../35 Chats/12 💬 Chats/💬 Chat.md>) to the link's host. 
+    * If a user with an NLWeb [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) installed navigates to a redirect link (e.g., `https://nlweb.org/go/ABC`), the browser redirects to a `nlweb` URL, signaling the OS to open the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) - the [Wallet 🧑‍🦰](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) then opens with a [Chat 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>) to the link's host. 
 
     ---
     <br/>

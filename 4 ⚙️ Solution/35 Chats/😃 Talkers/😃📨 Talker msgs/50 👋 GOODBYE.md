@@ -1,0 +1,24 @@
+# 👋 Talker GOODBYE command
+
+> Part of [Talker 😃](<../10 😃 Talker.md>)
+
+
+  
+<br/>
+
+1. **What is an GOODBYE message command?**
+   
+    A `GOODBYE`
+    * is a message [Command ⌘](<../😃🌊 Talker flow/10 ⌘ Command.md>) 
+    * that calls the [🤗⏩🧑‍🦰 Goodbye 👋](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Goodbye 👋.md>) flow.
+
+    ---
+    <br/>
+
+1. **What's the GOODBYE syntax?**
+
+    ```yaml
+    GOODBYE
+    ```
+    ---
+    <br/>

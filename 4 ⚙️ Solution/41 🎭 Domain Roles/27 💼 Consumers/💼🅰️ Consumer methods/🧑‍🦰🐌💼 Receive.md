@@ -32,7 +32,7 @@ Body:
 | Header| `From`    | string | `Anonymous`
 | | `To`| string | [Consumer 💼](<../💼🎭 Consumer role.md>) from [`Share@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/4 🎫 Tokens/2 🤵🐌📣 Share.md>)
 | | `Subject`| string | `Receive@Consumer`
-| Body | `ChatID` | string | [Chat 💬](<../../../35 Chats/12 💬 Chats/💬 Chat.md>) ID from [`Share@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/4 🎫 Tokens/2 🤵🐌📣 Share.md>)
+| Body | `ChatID` | string | [Chat 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>) ID from [`Share@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/4 🎫 Tokens/2 🤵🐌📣 Share.md>)
 | | `Tokens`  | array | List of `Token` objects
 | Token |  `Issuer` | string | [Issuer 🎴](<../../40 🎴 Issuers/🎴🎭 Issuer role.md>) from [`Save@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
 | | `TokenID`| string | [Token 🎫](<../../../30 Data/30 🎫 Tokens/🎫 Token.md>) ID from [`Save@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)

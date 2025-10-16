@@ -1,8 +1,8 @@
 # 🤗⏩🧑‍🦰 Freeze @ Host ❄️ 
 
 * Activated by:
-    * [❄️ Talker `FREEZE` command](<../../../../9 😃 Talkers/😃📨 Talker msgs/42 ❄️ FREEZE msg.md>)
-    * [💳 Talker `CHARGE` command](<../../../../9 😃 Talkers/😃📨 Talker msgs/53 💳 CHARGE msg.md>)
+    * [❄️ Talker `FREEZE` command](<../../../35 Chats/😃 Talkers/😃📨 Talker msgs/42 ❄️ FREEZE msg.md>)
+    * [💳 Talker `CHARGE` command](<../../../35 Chats/😃 Talkers/😃📨 Talker msgs/53 💳 CHARGE msg.md>)
 
 <br/>
 
@@ -15,7 +15,7 @@
 |1|[🤗⏩🧑‍🦰 Prompt 🐶](<🤗⏩🧑‍🦰 Prompt 🤔.md>) | The [Host 🤗](<../🤗🎭 Host role.md>) sends a first dog 🐶 prompt
 |2|[🤗⏩🧑‍🦰 Prompt 🐱](<🤗⏩🧑‍🦰 Prompt 🤔.md>) | The [Host 🤗](<../🤗🎭 Host role.md>) sends a second cat 🐱 prompt
 |3|[🧑‍🦰🐌🤗 `Reply@Host`](<../🤗🅰️ Host methods/🧑‍🦰🐌🤗 Reply.md>) | The user can still reply late to dog 🐶
-|4|[🤗🐌🤵 `Freeze@Broker`](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/30 🤵🅰️ Chats 💬/🤗🐌🤵 Freeze.md>) | The [Host 🤗](<../🤗🎭 Host role.md>) freezes the [Chat 💬](<../../../35 Chats/12 💬 Chats/💬 Chat.md>)
+|4|[🤗🐌🤵 `Freeze@Broker`](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/30 🤵🅰️ Chats 💬/🤗🐌🤵 Freeze.md>) | The [Host 🤗](<../🤗🎭 Host role.md>) freezes the [Chat 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>)
 |5|[🤗⏩🧑‍🦰 Prompt 🐠](<🤗⏩🧑‍🦰 Prompt 🤔.md>) | The [Host 🤗](<../🤗🎭 Host role.md>) sends a third fish  prompt 🐠
 |6|[🧑‍🦰🐌🤗 `Reply@Host`](<../🤗🅰️ Host methods/🧑‍🦰🐌🤗 Reply.md>) | The user can still reply to fish 🐠
 |7| - | [Wallets 🧑‍🦰](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) block pre-freeze reply to cat 🐱

@@ -4,7 +4,7 @@
 
 # 🧑‍🦰🚀🤵 Chats @ Broker
 
-> The [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) lists the [Chats 💬](<../../../../35 Chats/12 💬 Chats/💬 Chat.md>) of a [Wallet 🧑‍🦰 app](<../../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
+> The [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) lists the [Chats 💬](<../../../../35 Chats/💬 Chats/💬 Chat.md>) of a [Wallet 🧑‍🦰 app](<../../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
 
 > Used in:
 > <br/>• [🧑‍🦰👉🤵 Set language @ Wallet](<../../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/12 🧑‍🦰👉🤵 Translate.md>)
@@ -45,6 +45,6 @@ Chats:
 | Object    | Property  | Type  | Description
 |-|-|-|-
 | Top       | `Chats`     | Chat[]| List of `Chat` objects
-| Chat      | `ChatID`        | uuid  | [Chat 💬](<../../../../35 Chats/12 💬 Chats/💬 Chat.md>) ID
+| Chat      | `ChatID`        | uuid  | [Chat 💬](<../../../../35 Chats/💬 Chats/💬 Chat.md>) ID
 |           | `HostTitle` | string | [Host 🤗 domain](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) title
 |

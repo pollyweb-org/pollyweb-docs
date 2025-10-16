@@ -6,7 +6,7 @@ Onboarding
 
 1. **What does a user need to engage in an NLWeb chat?**
 
-    To engage in a NLWeb [Chat 💬](<../35 Chats/12 💬 Chats/💬 Chat.md>), a user needs an NLWeb-compatible [Wallet 🧑‍🦰 app](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
+    To engage in a NLWeb [Chat 💬](<../35 Chats/💬 Chats/💬 Chat.md>), a user needs an NLWeb-compatible [Wallet 🧑‍🦰 app](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
     - This is any app that supports the NLWeb protocol, from any vendor.
     - The user experience is similar to Meta's [WhatsApp 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/06 📺 WhatsApp business.md>). 
 

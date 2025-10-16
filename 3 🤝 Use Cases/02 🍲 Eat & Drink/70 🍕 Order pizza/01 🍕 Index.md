@@ -8,7 +8,7 @@
 
 ## 💬 Chats
 
-| Persona |  [Chat 💬](<../../../4 ⚙️ Solution/35 Chats/12 💬 Chats/💬 Chat.md>) | [Agents 🫥](<../../../4 ⚙️ Solution/50 🫥 Agent domains/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>)
+| Persona |  [Chat 💬](<../../../4 ⚙️ Solution/35 Chats/💬 Chats/💬 Chat.md>) | [Agents 🫥](<../../../4 ⚙️ Solution/50 🫥 Agent domains/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>)
 |-|-|-
 |🧑‍🦰 `🏠 Home`|[Order pizza](<21 🏠 Home: Order pizza.md>) | [`🧭 Navigator`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) [`🛎️ Concierge`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/25 🛎️ Concierges/$ 🛎️🫥 Concierge agent.md>) [`🧚 Curator`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) <br/> [`💖 Vitalogist`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/95 💖 Vitalogists/💖🫥 Vitalogist agent.md>) [`🗓️ Scheduler`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/75 🗓️ Schedulers/$ 🗓️🫥 Scheduler agent.md>)  [`💳 Payer`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>)
 ||[Wait for pizza](<22 🏠 Home: Wait for pizza.md>) | [`🛎️ Concierge`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/25 🛎️ Concierges/$ 🛎️🫥 Concierge agent.md>) [`💳 Payer`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>) [`💖 Vitalogist`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/95 💖 Vitalogists/💖🫥 Vitalogist agent.md>)

@@ -33,7 +33,7 @@ Body:
 |Header| `From` | string | [Broker 🤵 domain](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>)
 || `To` | string | [Vault 🗄️ domain](<../🗄️🎭 Vault role.md>)
 || `Subject` | string | `Bound@Vault`
-|Body| `ChatID` | uuid | [Chat 💬](<../../../35 Chats/12 💬 Chats/💬 Chat.md>) ID
+|Body| `ChatID` | uuid | [Chat 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>) ID
 ||`Binds`| array | list of [Bind 🔗](<../../../30 Data/20 🔗 Binds/🔗 Bind.md>) objects
 |Bind| `ID`| uuid | [Bind 🔗](<../../../30 Data/20 🔗 Binds/🔗 Bind.md>) ID on the [Broker 🤵 domain](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>)
 || `Code`| string | [Schema Code 🧩](<../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) on the [Vault 🗄️ domain](<../🗄️🎭 Vault role.md>)
