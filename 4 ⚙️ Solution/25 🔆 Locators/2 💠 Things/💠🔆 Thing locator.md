@@ -106,9 +106,9 @@
 
     |#|Category|Step
     |-|-|-
-    |1| `Create` | A [Brand 🍏 domain](<../../41 🎭 Domain Roles/Brands 🍏/$ 🍏🎭 Brand role.md>) orders a [Thing 💠](<💠🔆 Thing locator.md>) from a [Wand 🪄 helper domain](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>). 
-    |2| `Print` | The [Brand 🍏 domain](<../../41 🎭 Domain Roles/Brands 🍏/$ 🍏🎭 Brand role.md>) orders the physical [Locator 🔆](<../1 🔆 Locators/🔆 Locator.md>) from a [Printer 🖨️ helper domain](<../../45 🤲 Helper domains/75 🖨️ Printers/🖨️🤲 Printer helper.md>).
-    |3| `Sell` | The [Brand 🍏 domain](<../../41 🎭 Domain Roles/Brands 🍏/$ 🍏🎭 Brand role.md>) sells the physical [Locator 🔆](<../1 🔆 Locators/🔆 Locator.md>) on a smart collar product bundle.
+    |1| `Create` | A [Brand 🍏 domain](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) orders a [Thing 💠](<💠🔆 Thing locator.md>) from a [Wand 🪄 helper domain](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>). 
+    |2| `Print` | The [Brand 🍏 domain](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) orders the physical [Locator 🔆](<../1 🔆 Locators/🔆 Locator.md>) from a [Printer 🖨️ helper domain](<../../45 🤲 Helper domains/75 🖨️ Printers/🖨️🤲 Printer helper.md>).
+    |3| `Sell` | The [Brand 🍏 domain](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) sells the physical [Locator 🔆](<../1 🔆 Locators/🔆 Locator.md>) on a smart collar product bundle.
     |4| `Buy` | A user buys the smart collar from a pet store, and give it to their pet.
     |5| `Register` | The user scans it with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) to register on their [Custodian 🧳 vault](<../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>).
     |7| `Chat` | Guest users (e.g., vets) tap/scan the pet's smart collar to interact with it in a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>).

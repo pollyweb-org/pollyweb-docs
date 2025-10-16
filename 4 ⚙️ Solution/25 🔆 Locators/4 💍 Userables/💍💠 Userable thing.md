@@ -4,7 +4,7 @@
 1. **What are Userable Things in NLWeb?**
     
     [Userables 💍](<💍💠 Userable thing.md>) are [Things 💠](<../2 💠 Things/💠🔆 Thing locator.md>) 
-    * that [Brand 🍏 domains](<../../41 🎭 Domain Roles/Brands 🍏/$ 🍏🎭 Brand role.md>) embedded into objects for a user to carry 
+    * that [Brand 🍏 domains](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) embedded into objects for a user to carry 
     * e.g., jewelry, glasses, cards, keyholders, stickers, and wearables. 
 
     ---
@@ -58,7 +58,7 @@
 1. **How is the dynamic code generation enforced?**
 
     When a user registers a [Userable 💍 thing](<💍💠 Userable thing.md>) on the user's [Custodian 🧳 agent](<../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>),
-    * the agent fetches the rotation algorithm from the [Brand 🍏 domain](<../../41 🎭 Domain Roles/Brands 🍏/$ 🍏🎭 Brand role.md>) that manufactured the [Userable 💍 thing](<💍💠 Userable thing.md>),
+    * the agent fetches the rotation algorithm from the [Brand 🍏 domain](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) that manufactured the [Userable 💍 thing](<💍💠 Userable thing.md>),
     * then asks the user to scan the [Userable 💍 thing](<💍💠 Userable thing.md>) twice to see if the rotation works. 
 
     ---
