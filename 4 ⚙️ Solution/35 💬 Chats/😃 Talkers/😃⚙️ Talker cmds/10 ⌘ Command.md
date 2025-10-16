@@ -72,13 +72,13 @@
 
     |Command|Purpose
     |-|-
-    | 🔗 [`BIND`](<../😃📨 Talker msgs/44 🔗 BIND msg.md>) | Calls the [Bind Vault @ Wallet ⏩](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Prompts 🤔/👉🗄️ Bind 🔗.md>) flow.
-    | 🎫 [`OFFER`](<../😃📨 Talker msgs/49 🎫 OFFER msg.md>) | Calls the [Save Token @ Wallet ⏩](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Prompts 🤔/👉🎴 Save token.md>) flow.
-    | 👋 [`GOODBYE`](<../😃📨 Talker msgs/50 👋 GOODBYE.md>) | Calls the [Goodbye @ Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Goodbye 👋.md>) ⏩ flow.
-    | 📜 [`FLOW`](<../😃📨 Talker msgs/41 📝 INFORM msg.md>)
-    | 💳 [`CHARGE`](<../😃📨 Talker msgs/53 💳 CHARGE msg.md>)
-    | 💼 [`SHARE`](<../😃📨 Talker msgs/45 💼 SHARE msg.md>)
-    | 🛰️ [`RELAY`](<../😃📨 Talker msgs/51 🛰️ RELAY msg.md>)
+    | 🔗 [`BIND`](<../😃📨 Talker msgs/BIND 🔗 msg.md>) | Calls the [Bind Vault @ Wallet ⏩](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Prompts 🤔/👉🗄️ Bind 🔗.md>) flow.
+    | 🎫 [`OFFER`](<../😃📨 Talker msgs/OFFER 🎫 msg.md>) | Calls the [Save Token @ Wallet ⏩](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Prompts 🤔/👉🎴 Save token.md>) flow.
+    | 👋 [`GOODBYE`](<../😃📨 Talker msgs/GOODBYE 👋 msg.md>) | Calls the [Goodbye @ Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Goodbye 👋.md>) ⏩ flow.
+    | 📜 [`FLOW`](<../😃📨 Talker msgs/INFORM 📝 msg.md>)
+    | 💳 [`CHARGE`](<../😃📨 Talker msgs/CHARGE 💳 msg.md>)
+    | 💼 [`SHARE`](<../😃📨 Talker msgs/SHARE 💼 msg.md>)
+    | 🛰️ [`RELAY`](<../😃📨 Talker msgs/RELAY 🛰️ msg.md>)
     |
     
    

@@ -5,7 +5,7 @@
     * then switch to a [non-blocking info ℹ️](<../../../35 💬 Chats/🤔 Prompts/🤔📢 Prompt status/21 ℹ️ INFO prompt.md>).
 
 * Related to:
-    * [📝 Talker `INFORM` command](<../../../35 💬 Chats/😃 Talkers/😃📨 Talker msgs/41 📝 INFORM msg.md>)
+    * [📝 Talker `INFORM` command](<../../../35 💬 Chats/😃 Talkers/😃📨 Talker msgs/INFORM 📝 msg.md>)
 
 * Examples:
     * [Buy hot dog 🌭](<../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/50 🌭 Street food/21 🎪 Stall: Buy hot dog 🌭.md>)
@@ -32,7 +32,7 @@ Here's the [Talker 😃](<../../../35 💬 Chats/😃 Talkers/😃 Talker.md>).
 
 | [Command ⌘](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/10 ⌘ Command.md>) | Purpose
 |-|-
-| 📝 [`INFORM`](<../../../35 💬 Chats/😃 Talkers/😃📨 Talker msgs/41 📝 INFORM msg.md>) | Show user instructions and allow inputs.
+| 📝 [`INFORM`](<../../../35 💬 Chats/😃 Talkers/😃📨 Talker msgs/INFORM 📝 msg.md>) | Show user instructions and allow inputs.
 |
 
 <br/>
