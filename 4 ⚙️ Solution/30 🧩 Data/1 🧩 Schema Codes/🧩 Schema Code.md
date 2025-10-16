@@ -20,9 +20,9 @@
     |-|-
     | [`.MSG` 🧩](<../../40 👥 Domains/👥📨 Domain Messages/📨🧩 Message schemas/🧩 MSG.md>) | Schema of [Messages 📨](<../../40 👥 Domains/👥📨 Domain Messages/📨 Message.md>) 
     | [`.TOKEN` 🧩](<../3 🎫 Tokens/🧩 Token schemas/🧩 TOKEN.md>) | Schema of [Tokens 🎫](<../3 🎫 Tokens/🎫 Token.md>)
-    | [`unicode.org/FLAG` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 unicode.any-igo.org.md>) | Flags for country [Prompts 🤔](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>)
-    | [`locale.org/TERRITORY` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 locale.any-igo.org.md>) | Country names for [Prompts 🤔](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>)
-    | [`standards.org/639-1` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 standards.any-igo.org.md>) | Language codes (e.g., `en-us`)
+    | [`unicode.org/FLAG` 🧩](<../../../8 📜 Manifests/👥 any-igo.dom/📜 unicode.any-igo.dom.md>) | Flags for country [Prompts 🤔](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>)
+    | [`locale.org/TERRITORY` 🧩](<../../../8 📜 Manifests/👥 any-igo.dom/📜 locale.any-igo.dom.md>) | Country names for [Prompts 🤔](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>)
+    | [`standards.org/639-1` 🧩](<../../../8 📜 Manifests/👥 any-igo.dom/📜 standards.any-igo.dom.md>) | Language codes (e.g., `en-us`)
 
     ---
     <br/>
@@ -170,7 +170,7 @@
     - Details are available at [`nlweb.org/MANIFEST/CODE` 🧩](<../../40 👥 Domains/👥📜 Domain Manifests/🧩 Manifest schemas/🧩 CODE.md>).
   
 
-    Consider the following example from [`standards.any-igo.org` 📜](<../../../8 📜 Manifests/👥 any-igo.org/📜 standards.any-igo.org.md>).
+    Consider the following example from [`standards.any-igo.dom` 📜](<../../../8 📜 Manifests/👥 any-igo.dom/📜 standards.any-igo.dom.md>).
 
     ```yaml
     type: object
@@ -252,8 +252,8 @@
         * defined in [`.TYPES` 🧩](<../../../7 🧩 Codes/$/🧩 TYPES code.md>).
     * See [`.PERSONA/ADDRESS` 🧩](<../../50 🫥 Agent domains/Personas 🧢/🧢🧩 Persona schemas/🧩 ADDRESS.md>)
         * whose property `Country`
-        * references `Alpha2@standards.any-igo.org/3166-1`
-        * defined in [`standards.any-igo.org/3166-1` 📜](<../../../8 📜 Manifests/👥 any-igo.org/📜 standards.any-igo.org.md>).
+        * references `Alpha2@standards.any-igo.dom/3166-1`
+        * defined in [`standards.any-igo.dom/3166-1` 📜](<../../../8 📜 Manifests/👥 any-igo.dom/📜 standards.any-igo.dom.md>).
 
     ---
     <br/>

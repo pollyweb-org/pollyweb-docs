@@ -1,12 +1,12 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): health.any-igo.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): health.any-igo.dom
 <!--# 🇺🇳 https://quip.com/PcpmA0e2TORI/-WHOint-->
 
 ```yaml
 🤝: nlweb.org/MANIFEST
 
 About:
-  Domain: health.any-igo.org
+  Domain: health.any-igo.dom
   Name: World Health Organization
   
 
@@ -57,7 +57,7 @@ Codes:
         Translation: Vacina COVID
     Schemas:
       - Version: 1.0
-        Inherits: health.any-igo.org/DOSE:1.0
+        Inherits: health.any-igo.dom/DOSE:1.0
         
         
   # COVID test certificate
@@ -67,5 +67,5 @@ Codes:
       - Language: pt-br
         Translation: Teste COVID
     Schemas:
-      - Inherits: health.any-igo.org/TEST:1.0
+      - Inherits: health.any-igo.dom/TEST:1.0
         

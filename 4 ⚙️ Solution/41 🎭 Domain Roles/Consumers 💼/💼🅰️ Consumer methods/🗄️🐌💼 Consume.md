@@ -21,7 +21,7 @@ Header:
 Body:
     Broker: any-broker.dom
     ChatID: <chat-uuid>
-    Code: airlines.any-igo.org/SSR/WCH:1
+    Code: airlines.any-igo.dom/SSR/WCH:1
     ConsumerKey: <consumer-key>
     VaultKey: <vault-key>
     TTL: 2023-04-01T05:00:30.001000Z

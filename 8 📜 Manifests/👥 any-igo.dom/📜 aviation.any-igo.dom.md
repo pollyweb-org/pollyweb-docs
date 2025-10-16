@@ -1,5 +1,5 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): aviation.any-igo.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): aviation.any-igo.dom
 <!--# 💺🏛️ https://quip.com/pm6aAVZug6N2-->
 
 ```yaml
@@ -8,7 +8,7 @@
 
 ```yaml
 About:
-  Domain: aviation.any-igo.org
+  Domain: aviation.any-igo.dom
   Name: All Aviation Members
 ```
 

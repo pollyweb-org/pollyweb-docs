@@ -39,9 +39,9 @@
 1. **How do Hosts reference a Datasets API?**
 
     Data APIs are referenced by `{column}@{domain}/{offer}` - e.g.:
-    * `Code@standards.any-igo.org/639-1` 
+    * `Code@standards.any-igo.dom/639-1` 
     * references the `Code` column 
     * in the `639-1` data API 
-    * offered by the domain [`standards.any-igo.org` 📜](<../../../8 📜 Manifests/👥 any-igo.org/📜 standards.any-igo.org.md>) .
+    * offered by the domain [`standards.any-igo.dom` 📜](<../../../8 📜 Manifests/👥 any-igo.dom/📜 standards.any-igo.dom.md>) .
 
     ---

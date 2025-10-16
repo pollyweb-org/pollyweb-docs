@@ -15,18 +15,18 @@ Trusts:
   # Receive info from airline industry domains.
   - Role: VAULT
     Queries: 
-      - airlines.any-igo.org/SSR/*
+      - airlines.any-igo.dom/SSR/*
       - europa.eu/DISABILITY/CARD
-    Domain: airlines.any-igo.org    
+    Domain: airlines.any-igo.dom    
 
   # Share WCHR tokens with the airline industry.
   - Role: CONSUMER
-    Query: airlines.any-igo.org/SSR/WCHR/CRED
-    Domain: airlines.any-igo.org  
+    Query: airlines.any-igo.dom/SSR/WCHR/CRED
+    Domain: airlines.any-igo.dom  
 
   # Receive info from NHS.
   - Role: VAULT
-    Queries: [ health.any-igo.org/COVID/DOSE ]
+    Queries: [ health.any-igo.dom/COVID/DOSE ]
     Domain: health.any-nation.org
 
     

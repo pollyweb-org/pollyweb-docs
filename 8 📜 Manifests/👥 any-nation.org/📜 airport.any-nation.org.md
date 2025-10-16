@@ -15,14 +15,14 @@ Trusts:
   # Receive info from airline industry domains.
   - Role: VAULT
     Queries: 
-      - airlines.any-igo.org/SSR/*
+      - airlines.any-igo.dom/SSR/*
       - europa.eu/DISABILITY/CARD
-    Domains: [ airlines.any-igo.org ]
+    Domains: [ airlines.any-igo.dom ]
 
   # Share WCHR tokens with the airline industry.
   - Role: CONSUMER
-    Query: airlines.any-igo.org/SSR/WCHR/CRED
-    Domains: [ airlines.any-igo.org ]
+    Query: airlines.any-igo.dom/SSR/WCHR/CRED
+    Domains: [ airlines.any-igo.dom ]
 
   # Notify AnyAirline that a passenger was found at gate.
   - Role: CONSUMER

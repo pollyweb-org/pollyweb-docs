@@ -15,13 +15,13 @@ Trusts:
 
   # Share SSR of citizens with anyone trusted by the nation.
   - Role: CONSUMER
-    Query: airlines.any-igo.org/SSR/*
+    Query: airlines.any-igo.dom/SSR/*
     Domains: [ any-nation.org ]
 
 
   # Share COVID of citizens with airlines.
   - Role: CONSUMER
-    Query: health.any-igo.org/COVID/DOSE
+    Query: health.any-igo.dom/COVID/DOSE
     Domains: [ airline.any-business.org ]
 
 

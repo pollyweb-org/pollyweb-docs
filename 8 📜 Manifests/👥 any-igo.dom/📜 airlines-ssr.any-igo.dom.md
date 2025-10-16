@@ -1,12 +1,12 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): airlines-ssr.any-igo.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): airlines-ssr.any-igo.dom
 <!--# 💺🏛️ https://quip.com/FuTpA83cGJ3L-->
 
 ```yaml
 🤝: nlweb.org/MANIFEST
 
 About:
-  Domain: airlines-ssr.any-igo.org
+  Domain: airlines-ssr.any-igo.dom
   Name: SSR Department of Any IGO Airlines
 ```
   
@@ -16,9 +16,9 @@ Datasets:
 
 ```yaml
   # [🧩](<../../4 ⚙️ Solution/30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) //MEALS list.
-  - Dataset: airlines.any-igo.org/SSR/MEAL
+  - Dataset: airlines.any-igo.dom/SSR/MEAL
     Requires: 
-      Language: Code@standards.any-igo.org/639-1
+      Language: Code@standards.any-igo.dom/639-1
 ```
 
 ```yaml
@@ -32,7 +32,7 @@ Codes:
   # --------------------------------------------------
 
   - Path: /SSR
-    Delegator: airlines.any-igo.org
+    Delegator: airlines.any-igo.dom
 ```  
   
 ```yaml
@@ -42,7 +42,7 @@ Codes:
   # --------------------------------------------------
 
   - Path: /SSR/WCHR/CRED
-    Delegator: airlines.any-igo.org
+    Delegator: airlines.any-igo.dom
     Name: Wheelchair for ramp
     
     Translations:
@@ -53,7 +53,7 @@ Codes:
       - Version: 1.0
         Inherits: nlweb.org/TOKEN:1.0
         Format: IsElectric, Size, NeedsAssistant, DateOfBirth
-        Location: https://airlines.any-igo.org/nlweb/schemas/SSR-WCHR.json
+        Location: https://airlines.any-igo.dom/nlweb/schemas/SSR-WCHR.json
 ```
 
 ```yaml
@@ -62,10 +62,10 @@ Codes:
   # --------------------------------------------------
 
   - Path: /SSR/MEAL
-    Delegator: airlines.any-igo.org
+    Delegator: airlines.any-igo.dom
     References:
       Amadeus: https://servicehub.amadeus.com/c/portal/view-solution/768896/special-services-request-ssr-codes-and-airline-specific-codes
-      Any IGO Airlines: https://guides.developer.airlines.any-igo.org/archive/docs/list-of-service-ssrs 
+      Any IGO Airlines: https://guides.developer.airlines.any-igo.dom/archive/docs/list-of-service-ssrs 
 
     Schemas:
       - Properties: 

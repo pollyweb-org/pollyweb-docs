@@ -15,7 +15,7 @@
 Header:
     From: any-vault.dom
     To: any-broker.dom
-    Subject: Help@Broker
+    Subject: Join@Broker
 
 Body:
     Bind: <bind-id>

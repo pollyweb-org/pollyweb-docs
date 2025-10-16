@@ -1,11 +1,11 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): standards.any-igo.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): standards.any-igo.dom
 
 ```yaml
 🤝: nlweb.org/MANIFEST
 
 About:
-  Domain: standards.any-igo.org
+  Domain: standards.any-igo.dom
   Name: ISO, International Organization for Standardization
 
 

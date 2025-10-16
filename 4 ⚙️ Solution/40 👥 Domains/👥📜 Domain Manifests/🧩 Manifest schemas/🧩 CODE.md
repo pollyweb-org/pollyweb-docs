@@ -84,7 +84,7 @@ Schema:
 
 * Example of an inherited token with additional metadata:
   ```yaml
-  # Schema: airlines.any-igo.org/SSR/WCHR:1.0
+  # Schema: airlines.any-igo.dom/SSR/WCHR:1.0
   Inherits: nlweb.org/TOKEN:1.0
   Properties: [ IsElectric, Size, NeedsAssistant, DateOfBirth ]
   ```

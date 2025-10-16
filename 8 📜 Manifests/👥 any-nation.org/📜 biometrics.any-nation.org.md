@@ -16,7 +16,7 @@ Trusts:
   # Trusts Any Nation's passports.
   - Role: CONSUMER
     Queries: 
-      - aviation.any-igo.org/PASSPORT
+      - aviation.any-igo.dom/PASSPORT
     Domains: 
       - any-nation.org
       

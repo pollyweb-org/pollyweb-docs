@@ -21,4 +21,4 @@ Schema:
   Format: 
     type: array
     items:
-      $ref: Code@airlines.any-igo.org/SSR/MEAL
+      $ref: Code@airlines.any-igo.dom/SSR/MEAL

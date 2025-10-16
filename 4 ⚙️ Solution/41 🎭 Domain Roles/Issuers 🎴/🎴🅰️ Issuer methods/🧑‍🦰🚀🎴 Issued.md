@@ -40,7 +40,7 @@ Body:
 ```yaml
 Issuer: any-issuer.dom
 TokenID: ANY-TOKEN-KEY
-Code: airlines.any-igo.org/SSR/WCH:1 
+Code: airlines.any-igo.dom/SSR/WCH:1 
 ...
 ```
 

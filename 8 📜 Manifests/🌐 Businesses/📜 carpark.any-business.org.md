@@ -16,5 +16,5 @@ Trusts:
     Queries:
       - nlweb.org/PERSONA/VEHICLE/PARKING
     Domains:
-      - nations.any-igo.org
+      - nations.any-igo.dom
       
