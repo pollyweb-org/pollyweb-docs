@@ -11,7 +11,7 @@ Pay at a boutique's till (customer view) 🛍️
 | 🛍️ Store   | ⏳ $23.50 total...
 | 🛍️ Store   | ℹ️ Sunshine hat 👒 ($14.00) [+]
 | 🛍️ Store   | ⏳ $37.50 total...
-| 💳 [Payer](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Payers 💳/03 💳🎭 Payer role.md>) | 🫥 Pay $37.50 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
+| 💳 [Payer](<../../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/03 💳🎭 Payer role.md>) | 🫥 Pay $37.50 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
 | 🛍️ Store   | ✅ Paid, take your items.
 | ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Reviewers ⭐/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5 |
 ||

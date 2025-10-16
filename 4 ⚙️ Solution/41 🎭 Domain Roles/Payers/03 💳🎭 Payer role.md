@@ -5,8 +5,8 @@
 
     A Payer 💳 is any [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) that sends payments to [Collector 🏦 domains](<../../45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) under two categories:
 
-    * **[Payer 💳🫥 agents](<04 💳🫥 Payer agent.md>)**: 
-        * these are [Payer 💳 domains](<03 💳🎭 Payer role.md>) that act as [Agent 🫥 vaults](<../$ Agent Vaults 🫥/$ 🫥🗄️ Agent vault.md>)
+    * **[Payer 💳🫥 agents](<../../50 🫥 Agent domains/Payers 💳/04 💳🫥 Payer agent.md>)**: 
+        * these are [Payer 💳 domains](<03 💳🎭 Payer role.md>) that act as [Agent 🫥 vaults](<../../50 🫥 Agent domains/$ Agent Vaults 🫥/$ 🫥🗄️ Agent vault.md>)
         * for users with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>), 
         * interacting in [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) with [Seller 💵 hosts](<../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>).
       
@@ -156,8 +156,8 @@
 1. **Can Payers read card details from Persona vaults?**
 
     No.
-    * For design simplicity, [Payer 💳 domains](<03 💳🎭 Payer role.md>) store user's card details instead of pulling them from [Persona 🧢 vaults](<../Personas 🧢/🧢🫥 Persona agent.md>) .
-    * Storing card details required special security settings defined by PCI/DSS policies, which [Payer 💳 domains](<03 💳🎭 Payer role.md>) already hold but [Persona 🧢 vaults](<../Personas 🧢/🧢🫥 Persona agent.md>) would have to implement.
+    * For design simplicity, [Payer 💳 domains](<03 💳🎭 Payer role.md>) store user's card details instead of pulling them from [Persona 🧢 vaults](<../../50 🫥 Agent domains/Personas 🧢/🧢🫥 Persona agent.md>) .
+    * Storing card details required special security settings defined by PCI/DSS policies, which [Payer 💳 domains](<03 💳🎭 Payer role.md>) already hold but [Persona 🧢 vaults](<../../50 🫥 Agent domains/Personas 🧢/🧢🫥 Persona agent.md>) would have to implement.
 
     ---
     <br/>

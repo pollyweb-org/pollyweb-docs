@@ -33,7 +33,7 @@ NLWeb aims to seamlessly incorporate payments into interaction workflows, while 
 
 |Domain | Purpose
 |-|-
-|[💳 Payer](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Payers 💳/03 💳🎭 Payer role.md>) | Pays money on behalf of users.
+|[💳 Payer](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/03 💳🎭 Payer role.md>) | Pays money on behalf of users.
 |[🏦 Collector](<../../../4 ⚙️ Solution/45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) | Collects money on behalf of businesses.
 
 
@@ -42,7 +42,7 @@ NLWeb aims to seamlessly incorporate payments into interaction workflows, while 
 |#|Category|Workflow Step
 |-|-|-
 |1|`Bill`| A Businesses issues a bill via their [Collector 🏦 helper domain](<../../../4 ⚙️ Solution/45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>).
-|2|`Collect`| The [business' Collector 🏦 helper](<../../../4 ⚙️ Solution/45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) asks the money in the business currency to [user's 💳 Payer agent domain](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Payers 💳/03 💳🎭 Payer role.md>).
-|3|`Negotiate`| The [user's Payer 💳 domain](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Payers 💳/03 💳🎭 Payer role.md>) and the [business' Collector 🏦 domain](<../../../4 ⚙️ Solution/45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) agree on the transfer channel (e.g. Wise).
+|2|`Collect`| The [business' Collector 🏦 helper](<../../../4 ⚙️ Solution/45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) asks the money in the business currency to [user's 💳 Payer agent domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/03 💳🎭 Payer role.md>).
+|3|`Negotiate`| The [user's Payer 💳 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/03 💳🎭 Payer role.md>) and the [business' Collector 🏦 domain](<../../../4 ⚙️ Solution/45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) agree on the transfer channel (e.g. Wise).
 |4|`Pay`| Users pay in their preferred currency and methods (e.g., AMEX).
-|5|`Fees`| The [user's Payer 💳 domain](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Payers 💳/03 💳🎭 Payer role.md>) collects and distributes additional payment fees (e.g., AMEX fee).
+|5|`Fees`| The [user's Payer 💳 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/03 💳🎭 Payer role.md>) collects and distributes additional payment fees (e.g., AMEX fee).

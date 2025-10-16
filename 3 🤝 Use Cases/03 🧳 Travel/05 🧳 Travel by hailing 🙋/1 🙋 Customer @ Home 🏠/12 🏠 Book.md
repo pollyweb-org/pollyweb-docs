@@ -20,7 +20,7 @@
 | 🧢 [Persona](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Personas 🧢/🧢🫥 Persona agent.md>) | 🫥 Share car preferences? [No] <br/>- [ personal ] <br/>- [ work ] | > personal
 | 🙋 Hailing | ℹ️ Received preferences: [Change] <br/> - comfort or above car <br/> - english speaker driver <br/> - warm and quiet ride 
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Navigators 🧭/$ 🧭🫥 Navigator agent.md>) | 🫥 Confirm drop-off ~9:45? [Yes, No]<br/> - tomorrow, 12pm to 2pm<br/> 📍 The Guild, Soho, W1D 3QX <br/> - Alice's lunch break is 1h <br/>- her total commute is 45m <br/>- she'll have 15m to eat <br/>  | > Yes
-| 💳 [Payer](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Payers 💳/03 💳🎭 Payer role.md>) | 🫥 Pay $12.95 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
+| 💳 [Payer](<../../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/03 💳🎭 Payer role.md>) | 🫥 Pay $12.95 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
 | 🙋 Hailing | ⏳ Assigning you a driver...
 | 🙋 Hailing | ℹ️ Driver assigned: <br/>- it's Daniel <br/>- on a black Tesla, ABC123 
 | 🙋 Hailing | ⏳ Pick-up in 10 hours...<br/>- [ Cancel pickup ] <br/>- [ Reschedule ]

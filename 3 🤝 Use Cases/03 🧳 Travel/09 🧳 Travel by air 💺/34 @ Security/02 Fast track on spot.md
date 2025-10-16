@@ -10,7 +10,7 @@ Buy fast track at airports 🛫
 | 🛫 Airport | 😃 Hi! What do you need? <br/>- Buy [ Fast Track ] (€11) <br/>- [ Something else ] | > Fast Track
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Share tickets?  [All, No] <br/> - [ ] LIS-KIX Alice <br/>- [ ] LIS-KIX Jorge | > All
 | 🛫 Airport | ℹ️ 2 tickets at Terminal 1
-| 💳 [Payer](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Payers 💳/03 💳🎭 Payer role.md>) | 🫥 Pay €22.50 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
+| 💳 [Payer](<../../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/03 💳🎭 Payer role.md>) | 🫥 Pay €22.50 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Save fast track? [Yes, No] <br/> - [ Always ] for Any Airport | > Always
 | 🛫 Airport  | ✅ Fast track issued!
 ||

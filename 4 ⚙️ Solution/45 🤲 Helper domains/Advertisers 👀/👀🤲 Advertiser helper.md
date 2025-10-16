@@ -30,9 +30,9 @@
 
     * Users set up one [Curator 🧚 agent](<../../50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) on their [Wallet 🧑‍🦰 App](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
     
-    * [Seller 💵 domains](<../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) set up one [Payer 💳 helper](<../../50 🫥 Agent domains/Payers 💳/03 💳🎭 Payer role.md>) to pay for ads.
+    * [Seller 💵 domains](<../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) set up one [Payer 💳 helper](<../../41 🎭 Domain Roles/Payers/03 💳🎭 Payer role.md>) to pay for ads.
     
-    * Advertiser 👀 domains set up one [Biller 🤝 helper](<../Billers 🤝/🤝🤲 Biller helper.md>) to charge [Seller 💵 domains](<../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) for ads, one [Collector 🏦 helper](<../Collectors 🏦/🏦🤲 Collector helper.md>) to receive the ad payments, and one [Payer 💳 helper](<../../50 🫥 Agent domains/Payers 💳/03 💳🎭 Payer role.md>) for paying ad-printing commissions to [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) and [Curator 🧚 agents](<../../50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>).
+    * Advertiser 👀 domains set up one [Biller 🤝 helper](<../Billers 🤝/🤝🤲 Biller helper.md>) to charge [Seller 💵 domains](<../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) for ads, one [Collector 🏦 helper](<../Collectors 🏦/🏦🤲 Collector helper.md>) to receive the ad payments, and one [Payer 💳 helper](<../../41 🎭 Domain Roles/Payers/03 💳🎭 Payer role.md>) for paying ad-printing commissions to [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) and [Curator 🧚 agents](<../../50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>).
     
     * [Broker 🤵 domains](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) set up one Advertiser 👀 helper to manage ads, and one [Biller 🤝 helper](<../Billers 🤝/🤝🤲 Biller helper.md>) to orchestrate the payments to all domains involved in ad printing for its registered [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
 
@@ -63,19 +63,19 @@
 
     | # | Periodic billing
     |-|-
-    | A | Monthly, the Broker's [Biller 🤝 helper](<../Billers 🤝/🤝🤲 Biller helper.md>) will debit its Advertiser's 👀 [Payer 💳 helper](<../../50 🫥 Agent domains/Payers 💳/03 💳🎭 Payer role.md>) a lump sump for all contributions of the multiple domains in the advertisement workflow during the billing period.  
-    | B | The Advertiser's 👀 [Payer 💳 helper](<../../50 🫥 Agent domains/Payers 💳/03 💳🎭 Payer role.md>) sends the corresponding part to the [Collector 🏦 helper](<../Collectors 🏦/🏦🤲 Collector helper.md>) of each [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) for their [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) summaries.
+    | A | Monthly, the Broker's [Biller 🤝 helper](<../Billers 🤝/🤝🤲 Biller helper.md>) will debit its Advertiser's 👀 [Payer 💳 helper](<../../41 🎭 Domain Roles/Payers/03 💳🎭 Payer role.md>) a lump sump for all contributions of the multiple domains in the advertisement workflow during the billing period.  
+    | B | The Advertiser's 👀 [Payer 💳 helper](<../../41 🎭 Domain Roles/Payers/03 💳🎭 Payer role.md>) sends the corresponding part to the [Collector 🏦 helper](<../Collectors 🏦/🏦🤲 Collector helper.md>) of each [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) for their [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) summaries.
     | C | Sends the corresponding part to the [Collector 🏦 helper](<../Collectors 🏦/🏦🤲 Collector helper.md>) of each [Curator 🧚 agent](<../../50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) for their filtering and sorting of the ads.
     | D | And sends the corresponding part to the [Collector 🏦 helper](<../Collectors 🏦/🏦🤲 Collector helper.md>) of the [Broker 🤵 domain](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) for orchestrating the ad workflows.
     | E | Periodically, the Advertiser's 👀 [Biller 🤝 helper](<../Billers 🤝/🤝🤲 Biller helper.md>) will debit each [Seller 💵 domain](<../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) for their printed and clicked ads in the billing period.
-    | F | Each Seller's 💵 [Payer 💳 helper](<../../50 🫥 Agent domains/Payers 💳/03 💳🎭 Payer role.md>) then sends the corresponding payment to the Advertiser's 👀 [Collector 🏦 helper](<../Collectors 🏦/🏦🤲 Collector helper.md>).
+    | F | Each Seller's 💵 [Payer 💳 helper](<../../41 🎭 Domain Roles/Payers/03 💳🎭 Payer role.md>) then sends the corresponding payment to the Advertiser's 👀 [Collector 🏦 helper](<../Collectors 🏦/🏦🤲 Collector helper.md>).
     
 
     ---
 
 1. **How can Sellers 💵 register ads?**
 
-    For a [Seller 💵 domain](<../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) to register an ad, it needs first do set up a [Payer 💳 helper](<../../50 🫥 Agent domains/Payers 💳/03 💳🎭 Payer role.md>) and bind to the Advertiser. 
+    For a [Seller 💵 domain](<../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) to register an ad, it needs first do set up a [Payer 💳 helper](<../../41 🎭 Domain Roles/Payers/03 💳🎭 Payer role.md>) and bind to the Advertiser. 
     - The configuration of the ads will then depend on the Advertiser's UX and API.
 
     ---
