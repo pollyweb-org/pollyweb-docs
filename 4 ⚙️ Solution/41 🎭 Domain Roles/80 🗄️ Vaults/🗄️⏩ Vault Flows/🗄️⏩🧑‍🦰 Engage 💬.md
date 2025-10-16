@@ -28,7 +28,7 @@
 
 |#|Step|Purpose
 |-|-|-
-|1| [🗄️🐌🤵 `Engage@Broker`](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🅰️ Broker methods/40 🤵🅰️ Binds 🔗/🗄️🐌🤵 Engage.md>) | [Vaults 🗄️](<../🗄️🎭 Vault role.md>) present a [Bind 🔗](<../../../30 Data/20 🔗 Binds/🔗 Bind.md>)
+|1| [🗄️🐌🤵 `Engage@Broker`](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Engage.md>) | [Vaults 🗄️](<../🗄️🎭 Vault role.md>) present a [Bind 🔗](<../../../30 Data/20 🔗 Binds/🔗 Bind.md>)
 | 2 | [🤵⏩🧑‍🦰 Assess 🔆](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵⏩ Broker flows/🤵⏩🧑‍🦰 Assess 🔆.md>) | [Brokers 🤵](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) open a [Chat 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>)  on the [Wallet 🧑‍🦰](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) 
 |3|[🤵🐌🤗 `Hello@Host`](<../../30 🤗 Hosts/🤗🅰️ Host methods/🤵🐌🤗 Hello.md>) | [Brokers 🤵](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) hand it over to [Hosts 🤗](<../../30 🤗 Hosts/🤗🎭 Host role.md>)
 |4|[🤗⏩🧑‍🦰 Prompt ℹ️](<../../30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Hosts 🤗](<../../30 🤗 Hosts/🤗🎭 Host role.md>) provide context

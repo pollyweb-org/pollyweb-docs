@@ -46,7 +46,7 @@ Body:
 
     The list of [Tokens 🎫](<../../../30 Data/30 🎫 Tokens/🎫 Token.md>) contains:
     * the content from the response of [`Issued@Issuer`](<../../40 🎴 Issuers/🎴🅰️ Issuer methods/🧑‍🦰🚀🎴 Issued.md>)
-    * stored in local files during [`Saved@Broker`](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🅰️ Broker methods/50 🤵🅰️ Tokens 🎫/🧑‍🦰🐌🤵 Saved.md>).
+    * stored in local files during [`Saved@Broker`](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🧑‍🦰🐌🤵 Saved.md>).
 
 
     ---
