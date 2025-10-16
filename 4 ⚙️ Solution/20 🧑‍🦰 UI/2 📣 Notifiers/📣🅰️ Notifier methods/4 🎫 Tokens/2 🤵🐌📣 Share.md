@@ -1,6 +1,6 @@
 # 🤵💼🐌📣 Share @ Notifier
 
-> Sends [Tokens 🎫](<../../../../30 Data/3 🎫 Tokens/🎫 Token.md>) to a [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>).
+> Sends [Tokens 🎫](<../../../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) to a [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>).
 
 > Part of [💼⏩🧑‍🦰 Share Token @ Consumer](<../../../1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token 🎫.md>) flow:
 > <br/>• triggers [`Receive@Consumer`](<../../../../41 🎭 Domain Roles/27 💼 Consumers/💼🅰️ Consumer methods/🧑‍🦰🐌💼 Receive.md>)

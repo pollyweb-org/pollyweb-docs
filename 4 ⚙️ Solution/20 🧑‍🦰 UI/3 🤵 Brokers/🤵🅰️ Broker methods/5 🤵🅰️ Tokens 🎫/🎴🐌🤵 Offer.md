@@ -5,7 +5,7 @@
 
 > Used by the [🎴⏩🧑‍🦰 Offer Token @ Issuer](<../../../1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/40 👉🎫 Tokens/02 🧑‍🦰👉🎴 Save token.md>) flow.
 
-* An [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) issues a [Token 🎫](<../../../../30 Data/3 🎫 Tokens/🎫 Token.md>) 
+* An [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) issues a [Token 🎫](<../../../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) 
   * and asks a [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) to offer it to the user in a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>).
 
 
@@ -34,8 +34,8 @@ Body:
 ||`To`|string| [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) name
 ||`Subject`|string|`Offer@Broker`
 |Body  |`ChatID` |uuid  | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Hello@Host`](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🅰️ Host methods/🤵🐌🤗 Hello.md>)
-| |`TokenID` |uuid  | [Token 🎫](<../../../../30 Data/3 🎫 Tokens/🎫 Token.md>) ID
-|      |`Code`   |string| [Schema Code 🧩](<../../../../30 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) 
+| |`TokenID` |uuid  | [Token 🎫](<../../../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) ID
+|      |`Code`   |string| [Schema Code 🧩](<../../../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) 
 |      |`Version`|string| Schema version|      
 |      |`Starts` |timestamp| Valid from
 |      |`Expires`|timestamp| Valid until
@@ -49,9 +49,9 @@ Body:
 
     | Reason | Details
     |-|-
-    |`Reject`| [Broker 🤵 domains](<../../🤵🤲 Broker helper.md>) verify if the lifespan of the offered [Token 🎫](<../../../../30 Data/3 🎫 Tokens/🎫 Token.md>) is worth showing to the user, rejecting [Tokens 🎫](<../../../../30 Data/3 🎫 Tokens/🎫 Token.md>) already expired or too far ahead in the future.
-    `Translate` | [Broker 🤵 domains](<../../🤵🤲 Broker helper.md>) need to translate the [Schema Code 🧩](<../../../../30 Data/1 🧩 Schema Codes/🧩 Schema Code.md>)  into for users in their [Wallet 🧑‍🦰 app](<../../../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) language.
-    `Share`| When [Broker 🤵 domains](<../../🤵🤲 Broker helper.md>) answer a [Query@Broker](<../6 🤵🅰️ Share/💼🐌🤵 Query.md>) call, they need to filter only the active [Tokens 🎫](<../../../../30 Data/3 🎫 Tokens/🎫 Token.md>) of a certain [Schema Code 🧩](<../../../../30 Data/1 🧩 Schema Codes/🧩 Schema Code.md>)  within a version interval to be shared.
+    |`Reject`| [Broker 🤵 domains](<../../🤵🤲 Broker helper.md>) verify if the lifespan of the offered [Token 🎫](<../../../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) is worth showing to the user, rejecting [Tokens 🎫](<../../../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) already expired or too far ahead in the future.
+    `Translate` | [Broker 🤵 domains](<../../🤵🤲 Broker helper.md>) need to translate the [Schema Code 🧩](<../../../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>)  into for users in their [Wallet 🧑‍🦰 app](<../../../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) language.
+    `Share`| When [Broker 🤵 domains](<../../🤵🤲 Broker helper.md>) answer a [Query@Broker](<../6 🤵🅰️ Share/💼🐌🤵 Query.md>) call, they need to filter only the active [Tokens 🎫](<../../../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) of a certain [Schema Code 🧩](<../../../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>)  within a version interval to be shared.
     |
 
     

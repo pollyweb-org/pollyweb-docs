@@ -1,5 +1,5 @@
 
-# [🧩](<../../4 ⚙️ Solution/30 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) `.BANK` `/WITHDRAW`
+# [🧩](<../../4 ⚙️ Solution/30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) `.BANK` `/WITHDRAW`
 
 <br/>
 

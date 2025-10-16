@@ -23,7 +23,7 @@
 
     |Component| Examples | Purpose
     |-|-|-
-    | `Code` |  `.HOST` | [Schema Code 🧩](<../../30 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) for [`Schema@Graph`](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Schema.md>)
+    | `Code` |  `.HOST` | [Schema Code 🧩](<../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) for [`Schema@Graph`](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Schema.md>)
     | `Domain` | `any-host.com` | [Domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) for a [Broker 🤵](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) to interact 
     | `Key` | `product-1234` | Resource key in the [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>)
     | `Properties` | `A=1,B=2` | Any optional data fields

@@ -93,8 +93,8 @@
     |-|-|-
     | `Identity` | Encompassing the Identity object of a [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>). | `Identity`
     | `Trust/{key}` | Containing a single [Trust 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) relationship identified by a unique key. | `Trust/my-key`
-    | `Code/{key}` | Containing a single [Schema Code 🧩](<../../30 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) definition identified by a unique key. | `Code/SSR/MEAL`
-    | `Code/{key}:{version}` | Containing a version of the schema definition for [Schema Code 🧩](<../../30 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) identified. | `Code/SSR/MEAL:1.0`
+    | `Code/{key}` | Containing a single [Schema Code 🧩](<../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) definition identified by a unique key. | `Code/SSR/MEAL`
+    | `Code/{key}:{version}` | Containing a version of the schema definition for [Schema Code 🧩](<../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) identified. | `Code/SSR/MEAL:1.0`
     | `Delegate/{key}` | For a delegation identified by a unique key. | `Delegate/my-key`
     | `Offer/{key}` | For an offer identified by a unique key. | `Offer/my-key`
     
@@ -165,7 +165,7 @@
     Domains can apply the following techniques to keep [Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) parts small:
     - follow the Manifest Schema to break the Manifest into valid paths (e.g., `Identity`);
     - separate lists into item-level parts (e.g., for `Trusts`, `Codes`, and `Delegates`);
-    - further break [Schema Codes 🧩](<../../30 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) by using Code references;
+    - further break [Schema Codes 🧩](<../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) by using Code references;
     - write each part to key-value stores that support change notifications (e.g., object stores and NoSQL databases);
     - when creating and updating [Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) parts, keep each part below 200 KB.
     
@@ -253,7 +253,7 @@
 1. **How can a subscriber filter notifications by content?**
 
     [Subscriber 🔔 domains](<../../41 🎭 Domain Roles/76 🔔 Subscribers/🔔🎭 Subscriber role.md>) can set a filter when subscribing to [Listener 👂 domains](<👂🤲 Listener helper.md>):
-    - e.g., a financial regulator may only want notifications about changes in domains referencing bank [Schema Codes 🧩](<../../30 Data/1 🧩 Schema Codes/🧩 Schema Code.md>).
+    - e.g., a financial regulator may only want notifications about changes in domains referencing bank [Schema Codes 🧩](<../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>).
 
     ---
     <br/>
