@@ -4,7 +4,7 @@
 
 1. **What is a Seller domain role in NLWeb?**
 
-    Sellers 💵 are [domains 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) that ask [Payer 💳 domains](<../../50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>) for payments to their [Collector 🏦 helpers](<../../45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>) in return for products or services.
+    Sellers 💵 are [domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) that ask [Payer 💳 domains](<../../50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>) for payments to their [Collector 🏦 helpers](<../../45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>) in return for products or services.
     
     ---
 

@@ -5,11 +5,11 @@
 
     A [Firewall 🔥 domain](<🔥🤲 Firewall helper.md>) is 
     * a [Helper 🤲 domain](<../$ 🤲 Helpers/🤲👥 Helper domain.md>) 
-    * focused on blacklisting other [Domains 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>)
+    * focused on blacklisting other [Domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>)
     * to keep the ecosystem safe (e.g., national security entities). 
 
     Admins of [Firewall 🔥 helper domains](<🔥🤲 Firewall helper.md>) are typically concerned about 
-    * monitoring and blocking potential bad behaviors from [domains 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>).
+    * monitoring and blocking potential bad behaviors from [domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>).
 
     ---
     <br/>
@@ -27,8 +27,8 @@
 
 1. **How can domains leverage Firewalls?**
 
-    [Domains 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) can inherit a Firewall's blacklist on their [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>);
-    * this overrides any direct or indirect [Trust 👍](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) relationship between [domains 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>), working as an instantaneous mechanism to cut the communication with the blacklisted domain. 
+    [Domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) can inherit a Firewall's blacklist on their [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>);
+    * this overrides any direct or indirect [Trust 👍](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) relationship between [domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>), working as an instantaneous mechanism to cut the communication with the blacklisted domain. 
 
     ---
     <br/>
@@ -37,7 +37,7 @@
 
     Yes. 
     * [Firewall 🔥 helper domains](<🔥🤲 Firewall helper.md>) subscribe to [Listener 👂 domain streams](<../60 👂 Listeners/👂🤲 Listener helper.md>) and [Graph 🕸 domain streams](<../50 🕸 Graphs/🕸🤲 Graph helper.md>) to monitor their robustness, reliability, and conformity to the NLWeb protocol, revoking their [Trust 👍](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) when necessary;
-        * e.g., compare information about a random [domain 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) in three or more [Listener 👂 domains](<../60 👂 Listeners/👂🤲 Listener helper.md>) or [Graph 🕸 domains](<../50 🕸 Graphs/🕸🤲 Graph helper.md>) to identify discrepancies.
+        * e.g., compare information about a random [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) in three or more [Listener 👂 domains](<../60 👂 Listeners/👂🤲 Listener helper.md>) or [Graph 🕸 domains](<../50 🕸 Graphs/🕸🤲 Graph helper.md>) to identify discrepancies.
 
     ---
     <br/>
@@ -89,7 +89,7 @@
 
 1. **What should other domains add to their Manifests?**
 
-    Other [domains 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) should add the following [Trust 👍](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) to their [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>).
+    Other [domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) should add the following [Trust 👍](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) to their [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>).
 
     ```yaml
     Trusts:

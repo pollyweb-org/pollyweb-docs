@@ -31,7 +31,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header| `From`    | string | The name of the [domain 👥](<../../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) asking
+| Header| `From`    | string | The name of the [domain 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) asking
 |       | `To`      | string | [Graph 🕸 domain](<../🕸🤲 Graph helper.md>) name
 |       | `Subject` | string | `Queryable@Graph`
 | Body  | `Consumer`| string | [Consumer 💼 domain](<../../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) name

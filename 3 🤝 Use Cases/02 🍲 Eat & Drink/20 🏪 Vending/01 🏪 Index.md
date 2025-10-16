@@ -41,7 +41,7 @@ TODO: other scenarios
 
 ## 🎭 Domain Roles
 
-| [Roles 🎭](<../../../4 ⚙️ Solution/40 👥 Domains/$ 👥 Domains/👥 Domain.md>) | Purpose |
+| [Roles 🎭](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | Purpose |
 |-|-
 | [🤗 Host](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | To manage the [Chats 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
 | [💵 Seller](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) | To charge for the products
@@ -58,7 +58,7 @@ TODO: other scenarios
 | [🏦 Collector](<../../../4 ⚙️ Solution/45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>) | To collect the amount paid
 | [👂 Listener](<../../../4 ⚙️ Solution/45 🤲 Helper domains/60 👂 Listeners/👂🤲 Listener helper.md>) | To propagate [Manifest 📜](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/📜 Manifest.md>)  changes
 | [🕸 Graph](<../../../4 ⚙️ Solution/45 🤲 Helper domains/50 🕸 Graphs/🕸🤲 Graph helper.md>) | To query [Trust 👍](<../../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) relationships
-| [⏳ Buffer](<../../../4 ⚙️ Solution/45 🤲 Helper domains/27 ⏳ Buffers/⏳🤲 Buffer helper.md>) | To buffer inbound [Messages 📨](<../../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/📨 Message.md>)
+| [⏳ Buffer](<../../../4 ⚙️ Solution/45 🤲 Helper domains/27 ⏳ Buffers/⏳🤲 Buffer helper.md>) | To buffer inbound [Messages 📨](<../../../4 ⚙️ Solution/40 👥 Domains/👥📨 Domain messages/📨 Message.md>)
 | [🛰️ Relayer](<../../../4 ⚙️ Solution/45 🤲 Helper domains/80 🛰️ Relayers/🛰️🤲 Relayer helper.md>) | To remotely control the machines
 
 <br/> 

@@ -7,7 +7,7 @@
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 
 * Returns the historical public key of an [Issuer 🎴 domain](<../../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) by the name of the key.
-    * Allows a [Consumer 💼 domain](<../../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) to verify a [Token 🎫](<../../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) issued before a [DKIM 📨](<../../../40 👥 Domains/41 📨 Messages/📨 Message.md>) rotation.
+    * Allows a [Consumer 💼 domain](<../../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) to verify a [Token 🎫](<../../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) issued before a [DKIM 📨](<../../../40 👥 Domains/👥📨 Domain messages/📨 Message.md>) rotation.
 * Used by:
     * [👥🔏 Domain Signature](<../../../40 👥 Domains/42 🔏 Signatures/👥🔏 Domain Signature.md>)
     * [💼⏩🧑‍🦰 Share Token @ Consumer](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token 🎫.md>) flow
@@ -30,11 +30,11 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header| `From`    | string | The name of the [domain 👥](<../../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) asking
+| Header| `From`    | string | The name of the [domain 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) asking
 |       | `To`      | string | [Graph 🕸 domain](<../🕸🤲 Graph helper.md>) name
 |       | `Subject` | string | `PublicKey@Graph`
 |Body   | `Issuer`  | string | [Issuer 🎴 domain](<../../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) name
-|       | `DKIM`| string | [DKIM 📨](<../../../40 👥 Domains/41 📨 Messages/📨 Message.md>) name
+|       | `DKIM`| string | [DKIM 📨](<../../../40 👥 Domains/👥📨 Domain messages/📨 Message.md>) name
 |
 
 <br/>
@@ -48,6 +48,6 @@ PublicKey: MIIBIjANBgkqhkiG9w0BAQEFAA...
 
 |Property|Type|Description
 |-|-|-
-| `Algorithm` | string | [DKIM 📨](<../../../40 👥 Domains/41 📨 Messages/📨 Message.md>) algorithm used in the period
-| `PublicKey` | string | [DKIM 📨](<../../../40 👥 Domains/41 📨 Messages/📨 Message.md>) public key in the period
+| `Algorithm` | string | [DKIM 📨](<../../../40 👥 Domains/👥📨 Domain messages/📨 Message.md>) algorithm used in the period
+| `PublicKey` | string | [DKIM 📨](<../../../40 👥 Domains/👥📨 Domain messages/📨 Message.md>) public key in the period
 |
