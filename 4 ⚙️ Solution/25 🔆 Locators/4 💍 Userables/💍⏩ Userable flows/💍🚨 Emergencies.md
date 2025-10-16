@@ -21,7 +21,7 @@
     | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     |-|-|-
     | | | 🔆 [tap](<../../1 🔆 Locators/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>)
-    | 🔎 [Finder](<../../../50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Wand (4.3 ⭐)  [+] 
+    | 🔎 [Finder](<../../../50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) | ⓘ Any Wand (4.3 ⭐)  [+] 
     | 🪄 [Wand](<../../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>) | ℹ️ Userable: wedding ring [+]
     | 🪄 [Wand](<../../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>) | 😃 Hi! What do you need? <br/>- [ Emergency ] trigger <br/>- [ Something else ] | > Emergency
     | 🤵 [Broker](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | ⓘ Flow: emergency [+]
@@ -29,9 +29,9 @@
     | 🪄 [Wand](<../../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>)| ℹ️ Public notes:<br/>- suffers from epilepsy <br/> - allergic to penicillin
     | 🪄 [Wand](<../../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>)| 😐 Activate emergency? [Yes, No] <br/> - I'll need your location <br/> - your contact details <br/>- and an identity check | > Yes
     | 🪄 [Wand](<../../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>) | [📍 Share location?](<../../../35 💬 Chats/🤔 Prompts/🤔✏️ Prompt inputs/91 📍 LOCATION prompt.md>) [Yes, No] | > Yes
-    | 🧢 [Persona](<../../../50 🫥 Agent domains/70 🧢 Personas/🧢🫥 Persona agent.md>) | 🫥 Share contacts ? [Yes, No] | > Yes
-    | 🆔 [Identity](<../../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Share identity? [Yes, No] | > Yes
-    | 🆔 [Identity](<../../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../../50 🫥 Agent domains/45 🆔 Identities/21 🆔😶 Face scan.md>)
+    | 🧢 [Persona](<../../../50 🫥 Agent domains/Personas 🧢/🧢🫥 Persona agent.md>) | 🫥 Share contacts ? [Yes, No] | > Yes
+    | 🆔 [Identity](<../../../50 🫥 Agent domains/Identities 🆔/$ 🆔🫥 Identity agent.md>) | 🫥 Share identity? [Yes, No] | > Yes
+    | 🆔 [Identity](<../../../50 🫥 Agent domains/Identities 🆔/$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../../50 🫥 Agent domains/Identities 🆔/21 🆔😶 Face scan.md>)
     | 🪄 [Wand](<../../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>) | ✅ Emergency activated [+]
     
     ---
@@ -46,16 +46,16 @@
     |-|-|-
     |1| `Tap NFC` | A guest user [taps 🔆](<../../1 🔆 Locators/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>) the [rotating NFC tag 📺](<../../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/11 📺 NFC authentication.md>) of the [Userable 💍 thing](<../💍💠 Userable thing.md>) with their [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
     |2| `Interact`| A [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) opens with the [Userable's Wand 🪄 domain](<../../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>) (i.e., the helper defined by the [Userable's Brand 🍏 domain](<../../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>)) - this allows the guest user to read the landing notes that the owner user left, and allowing the guest to active the emergency script defined by the owner user.
-    |3| `Identify` | The [Userable's Wand 🪄 domain](<../../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>) asks the [guest user's Identity 🆔 agent](<../../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) to authenticate the guest - this allows emergency services to impose legal actions on harassment frauds if necessary.
-    |4| `Activate`| The guest activates the emergency workflow - this triggers the [Userable's Wand 🪄 domain](<../../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>) to ask the [guest's Broker 🤵 domain](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) for the guest's location, ask the [guest's Persona 🧢 agent](<../../../50 🫥 Agent domains/70 🧢 Personas/🧢🫥 Persona agent.md>) for the guest's contact details, and pass that information to the [owner's Custodian 🧳 vault](<../../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>).
-    |5| `Broadcast`| The [owner's Custodian 🧳 domain](<../../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>) executes the emergency script defined by the owner user - e.g., perform a group call with the selected phone numbers, as well as alert emergency services, trusted medical contacts, and health insurance companies.
+    |3| `Identify` | The [Userable's Wand 🪄 domain](<../../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>) asks the [guest user's Identity 🆔 agent](<../../../50 🫥 Agent domains/Identities 🆔/$ 🆔🫥 Identity agent.md>) to authenticate the guest - this allows emergency services to impose legal actions on harassment frauds if necessary.
+    |4| `Activate`| The guest activates the emergency workflow - this triggers the [Userable's Wand 🪄 domain](<../../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>) to ask the [guest's Broker 🤵 domain](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) for the guest's location, ask the [guest's Persona 🧢 agent](<../../../50 🫥 Agent domains/Personas 🧢/🧢🫥 Persona agent.md>) for the guest's contact details, and pass that information to the [owner's Custodian 🧳 vault](<../../../50 🫥 Agent domains/Custodians 🧳/$ 🧳🫥 Custodian agent.md>).
+    |5| `Broadcast`| The [owner's Custodian 🧳 domain](<../../../50 🫥 Agent domains/Custodians 🧳/$ 🧳🫥 Custodian agent.md>) executes the emergency script defined by the owner user - e.g., perform a group call with the selected phone numbers, as well as alert emergency services, trusted medical contacts, and health insurance companies.
 
     ---
     <br/>
 
 1. **What data is collected in an emergency?**
     
-    To streamline the process, [Custodian 🧳 domains](<../../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>) collect the following information from the guest user.
+    To streamline the process, [Custodian 🧳 domains](<../../../50 🫥 Agent domains/Custodians 🧳/$ 🧳🫥 Custodian agent.md>) collect the following information from the guest user.
     
     |Data|Reason
     |-|-
@@ -78,9 +78,9 @@
 1. **How are Userable owners protected from harassment frauds?**
 
     To avoid harassment frauds, before issuing the emergency alarm, 
-    * owners may request their [Custodian 🧳 agent](<../../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>) 
+    * owners may request their [Custodian 🧳 agent](<../../../50 🫥 Agent domains/Custodians 🧳/$ 🧳🫥 Custodian agent.md>) 
     * to request guests to be authenticated 
-    * by a [trusted 👍](<../../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) [Identity 🆔 domain](<../../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>).
+    * by a [trusted 👍](<../../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) [Identity 🆔 domain](<../../../50 🫥 Agent domains/Identities 🆔/$ 🆔🫥 Identity agent.md>).
 
     ---
     <br/>
@@ -99,7 +99,7 @@
   
     For automatic emergency alarms,
     * see [Tapband ⌚ thing](<../../5 ⌚ Tapbands/⌚💠 Tapband thing.md>) for collecting health sensor measurements
-    * and [Vitalogists 💖 agents](<../../../50 🫥 Agent domains/95 💖 Vitalogists/💖🫥 Vitalogist agent.md>) for triggering emergency alarms.
+    * and [Vitalogists 💖 agents](<../../../50 🫥 Agent domains/Vitalogists 💖/💖🫥 Vitalogist agent.md>) for triggering emergency alarms.
 
 
     ---
@@ -119,7 +119,7 @@
 
     For automatic emergency alarms,
     * see [Tapband ⌚ thing](<../../5 ⌚ Tapbands/⌚💠 Tapband thing.md>) for collecting health sensor measurements
-    * and [Vitalogists 💖 agents](<../../../50 🫥 Agent domains/95 💖 Vitalogists/💖🫥 Vitalogist agent.md>) for triggering emergency alarms.
+    * and [Vitalogists 💖 agents](<../../../50 🫥 Agent domains/Vitalogists 💖/💖🫥 Vitalogist agent.md>) for triggering emergency alarms.
     
     ---
     <br/>

@@ -44,7 +44,7 @@
     | [⬆️&nbsp;UPLOAD](<../🤔✏️ Prompt inputs/81 ⬆️ UPLOAD prompt.md>)| Asks to upload a file or photo
     | [📍&nbsp;LOCATION](<../🤔✏️ Prompt inputs/91 📍 LOCATION prompt.md>) | Asks for the current location
     | [🗺️&nbsp;TRACK](<../🤔✏️ Prompt inputs/92 🗺️ TRACK prompt.md>) | Asks to track the location
-    | [👤&nbsp;IDENTIFY](<../🤔✏️ Prompt inputs/71 👤 IDENTIFY prompt.md>) | Asks the user's [Identity 🆔 agent](<../../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) to verify the user
+    | [👤&nbsp;IDENTIFY](<../🤔✏️ Prompt inputs/71 👤 IDENTIFY prompt.md>) | Asks the user's [Identity 🆔 agent](<../../../50 🫥 Agent domains/Identities 🆔/$ 🆔🫥 Identity agent.md>) to verify the user
 
 
 

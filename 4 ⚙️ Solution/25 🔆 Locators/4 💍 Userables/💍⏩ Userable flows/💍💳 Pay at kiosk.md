@@ -3,7 +3,7 @@
 
 > [Userables 💍](<../💍💠 Userable thing.md>) allow customers to pay without battery on their devices.
 
-> Mentioned in [Verify Userables 🆔](<../../../50 🫥 Agent domains/45 🆔 Identities/15 🆔💍 Verify Userables.md>)
+> Mentioned in [Verify Userables 🆔](<../../../50 🫥 Agent domains/Identities 🆔/15 🆔💍 Verify Userables.md>)
 
 <br/>
 

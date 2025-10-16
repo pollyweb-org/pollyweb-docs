@@ -7,5 +7,5 @@ How to enter a hotel gym?
 | | | 🔆 [tap](<../../../../4 ⚙️ Solution/25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) door
 | 🏨 Hotel  | ✅ Gym door opened. 
 | 🏨 Hotel  | ℹ️ Welcome, Dr. Alice!
-| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? 
+| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Reviewers ⭐/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? 
 ||

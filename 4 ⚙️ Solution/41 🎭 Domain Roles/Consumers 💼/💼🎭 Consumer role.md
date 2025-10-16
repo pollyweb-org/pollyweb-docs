@@ -48,7 +48,7 @@
         - when users tap or scan an offline [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) on a scanner of a [Consumer 💼 domain](<💼🎭 Consumer role.md>) (e.g., a printed flight ticket at an airport gate), the [Consumer 💼 domain](<💼🎭 Consumer role.md>) can validate the [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) without the need for a chat or any interactions with the [user's Broker 🤵 domain](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>).
 
     - **When users tap Userables**: 
-        - when users tap a [Userable 💍](<../../25 🔆 Locators/4 💍 Userables/💍💠 Userable thing.md>) on the scanner of a [Consumer 💼 domain](<💼🎭 Consumer role.md>) (e.g., a wristband at an airport gate), the [Consumer 💼 domain](<💼🎭 Consumer role.md>) can ask the [user's Custodian 🧳 domain](<../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>) to silently share all [Tokens 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) marked as public by the user and matching a list of expected [Schema Codes 🧩](<../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>);
+        - when users tap a [Userable 💍](<../../25 🔆 Locators/4 💍 Userables/💍💠 Userable thing.md>) on the scanner of a [Consumer 💼 domain](<💼🎭 Consumer role.md>) (e.g., a wristband at an airport gate), the [Consumer 💼 domain](<💼🎭 Consumer role.md>) can ask the [user's Custodian 🧳 domain](<../../50 🫥 Agent domains/Custodians 🧳/$ 🧳🫥 Custodian agent.md>) to silently share all [Tokens 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) marked as public by the user and matching a list of expected [Schema Codes 🧩](<../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>);
         - see [Userable at gates 💍🎬](<../../25 🔆 Locators/4 💍 Userables/💍⏩ Userable flows/💍🎬 Cross gates.md>) for details.
 
     ---
@@ -133,10 +133,10 @@
     - Certain scenarios require the [Consumer 💼 domain](<💼🎭 Consumer role.md>) to verify if the person holding the [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) is the person to whom the [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) was issue to - e.g.:
         - at an airport border control, automatic gates need to match the face of the passport holder with the biometric signature contained in the electronic passport. 
     
-    - This requires an online request to an [Identity 🆔 domain](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) that is [bound 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) to the user and [trusted 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) by the [Consumer 💼 domain](<💼🎭 Consumer role.md>), allowing the token to be matched to the holder without disclosing the holder's identity to the [Consumer 💼 domain](<💼🎭 Consumer role.md>):
+    - This requires an online request to an [Identity 🆔 domain](<../../50 🫥 Agent domains/Identities 🆔/$ 🆔🫥 Identity agent.md>) that is [bound 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) to the user and [trusted 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) by the [Consumer 💼 domain](<💼🎭 Consumer role.md>), allowing the token to be matched to the holder without disclosing the holder's identity to the [Consumer 💼 domain](<💼🎭 Consumer role.md>):
         - e.g., while entering a casino, the casino can validate that the 21-years-old token is valid, and that the holder is the owner of the token, without knowing who the holder is. 
     
-    - The [Identity 🆔 domain](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) can perform the authentication:
+    - The [Identity 🆔 domain](<../../50 🫥 Agent domains/Identities 🆔/$ 🆔🫥 Identity agent.md>) can perform the authentication:
         - on the user's device (e.g., via multi-factor authentication or using the camera in the device), 
         - or through an external device (e.g., [Amazon One 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/07 🖐️ Palm pay landscape/02 📺 Amazon One.md>) palm reader).
 
@@ -146,8 +146,8 @@
     | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 🎰 Casino   | ℹ️ Request for minimum age. [+]
-    | 🆔 [Identity](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Share over 21? [Yes, No]      | > Yes
-    | 🆔 [Identity](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../50 🫥 Agent domains/45 🆔 Identities/21 🆔😶 Face scan.md>)
+    | 🆔 [Identity](<../../50 🫥 Agent domains/Identities 🆔/$ 🆔🫥 Identity agent.md>) | 🫥 Share over 21? [Yes, No]      | > Yes
+    | 🆔 [Identity](<../../50 🫥 Agent domains/Identities 🆔/$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../50 🫥 Agent domains/Identities 🆔/21 🆔😶 Face scan.md>)
     | 🎰 Casino   | ✅ Welcome, please enter!
     
 
@@ -161,12 +161,12 @@
     - e.g., an adult may give their wallet's device to an under-aged child so that they can buy age-restricted goods at a self-service store. 
     
     In low-budget validations, 
-    - [Seller 💵 domains](<../Sellers 💵/💵🎭 Seller role.md>) ask the user's trusted [Identity 🆔 domain](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) to perform the authentication inside the [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) on the user's device;
+    - [Seller 💵 domains](<../Sellers 💵/💵🎭 Seller role.md>) ask the user's trusted [Identity 🆔 domain](<../../50 🫥 Agent domains/Identities 🆔/$ 🆔🫥 Identity agent.md>) to perform the authentication inside the [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) on the user's device;
     - depending on the circumstances, this can be a biometric face scan, voice recognition, OTP, security questions, or other. 
     
     In offline scenarios, 
     - where users carry an NFC card or a printed QR, 
-    - the [Seller 💵 domain](<../Sellers 💵/💵🎭 Seller role.md>) takes a photo of the user with a fixed camera, and then asks the [Token's Identity 🆔 domain](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) to match the [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) with the picture.
+    - the [Seller 💵 domain](<../Sellers 💵/💵🎭 Seller role.md>) takes a photo of the user with a fixed camera, and then asks the [Token's Identity 🆔 domain](<../../50 🫥 Agent domains/Identities 🆔/$ 🆔🫥 Identity agent.md>) to match the [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) with the picture.
 
     ---
     <br/>
@@ -187,7 +187,7 @@
 
     * [Broker 🤵 domains](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) inform users of every context change, identifying the data that may be collected, then block any data request from the Consumer that does not comply with that context - e.g., [Order pizza 🍕](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/21 🏠 Home: Order pizza.md>), [Hotel check-in 🛎️](<../../../3 🤝 Use Cases/03 🧳 Travel/08 🧳 Stay at hotels 🏨/03 🏨 Guest @ Reception 🛎️/04 🛎️ Check-in.md>).
 
-    * Because the [domain Manifests 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) are public and prone to automatic evaluation by domains like [Firewall 🔥 domains](<../../45 🤲 Helper domains/Firewalls 🔥/🔥🤲 Firewall helper.md>) and [Reviewer ⭐ domains](<../../50 🫥 Agent domains/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>), [Consumer 💼 domains](<💼🎭 Consumer role.md>) are exposed to public scrutiny regarding the data  their are collecting, namely: what, why, how, and how much.
+    * Because the [domain Manifests 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) are public and prone to automatic evaluation by domains like [Firewall 🔥 domains](<../../45 🤲 Helper domains/Firewalls 🔥/🔥🤲 Firewall helper.md>) and [Reviewer ⭐ domains](<../../50 🫥 Agent domains/Reviewers ⭐/⭐🫥 Reviewer agent.md>), [Consumer 💼 domains](<💼🎭 Consumer role.md>) are exposed to public scrutiny regarding the data  their are collecting, namely: what, why, how, and how much.
 
     * [Authority 🏛️ domains](<../../45 🤲 Helper domains/Authorities 🏛️/🏛️🤲 Authority helper.md>) monitor the [domain Manifests 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) for dataset requests that don't match the domain's business or exception requests, and if necessary may revoke the [trust 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) on the [Consumer 💼 domain](<💼🎭 Consumer role.md>).
 
@@ -217,7 +217,7 @@
         |-|-|-|
         | 🏨 Hotel  | 😃 Hi! What do you need? <br/> - [ Check-in ] <br/> - [ Something else ] | > Check-in 
         | 🤵 [Broker](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Ready to check-in? [Yes, No] <br/> - your identity 🆔 shares your ID <br/> - your curator 🧚 sets the room  <br/> - your payer 💳 pays the stay   <br/> - your broker 🤵 saves the room key  | > Yes
-        | 🆔 [Identity](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Share identity? [Yes, No] |
+        | 🆔 [Identity](<../../50 🫥 Agent domains/Identities 🆔/$ 🆔🫥 Identity agent.md>) | 🫥 Share identity? [Yes, No] |
         | ... | 
 
 
@@ -243,7 +243,7 @@
     |-|-
     | [⏩🧑‍🦰 Query Vault](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>) | Ask for [Schema Codes 🧩](<../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) in [Vaults 🗄️](<../Vaults 🗄️/🗄️🎭 Vault role.md>) 
     | [⏩🧑‍🦰 Share Token](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token 🎫.md>) | Ask for [Tokens 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) in  [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) 
-    | [⏩🧑‍🦰 Share ID Token](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/40 👉🎫 Tokens/05 🧑‍🦰👉💼 Share Token+ID.md>) | Ask for [Identity 🆔](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) bound [Tokens 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>)
+    | [⏩🧑‍🦰 Share ID Token](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/40 👉🎫 Tokens/05 🧑‍🦰👉💼 Share Token+ID.md>) | Ask for [Identity 🆔](<../../50 🫥 Agent domains/Identities 🆔/$ 🆔🫥 Identity agent.md>) bound [Tokens 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>)
     | [⏩🧑‍🦰 Token status](<💼⏩ Consumer flows/💼⏩🤵 Token status 🎫.md>) | Ask for the status of a [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>)
 
     ---
