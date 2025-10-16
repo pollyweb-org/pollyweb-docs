@@ -109,7 +109,7 @@
     | Argument| Purpose | Example
     |-|-|-
     | `<option-n>` | Also allows option interpolation |`- Item {$id}`
-    || and uses `[]` to set Option IDs | `[Close] chat`
+    || and uses `/` to set Option IDs | `/Close chat`
     || and uses `§` for [Locators 🔆](<../../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>). | `Open § {$url}`
 
 
@@ -150,8 +150,8 @@
     # Ask the question.
     - ONE|What to do?:
         Options:
-            - [Play] music 
-            - [Share] list
+            - /Play music 
+            - /Share list
 
     # Check the answer.
     - CASE: # Default to last input.
@@ -222,9 +222,9 @@
     - ONE:
         Statement: What to do?
         Options:
-            - [Play] music 
-            - [Share] list
-            - [Speak] with singer § .HOST,any-artist.com,fans
+            - /Play music 
+            - /Share list
+            - /Speak with singer § .HOST,any-artist.com,fans
 
     # Check the answer.
     - CASE: 

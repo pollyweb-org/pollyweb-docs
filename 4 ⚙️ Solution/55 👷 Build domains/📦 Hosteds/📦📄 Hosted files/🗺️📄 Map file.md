@@ -1,14 +1,14 @@
-# 🪣📂 Pools folder
+# 🗺️📄 Map file
 
 > Part of [Hosted 📦 domain](<../📦👥 Hosted domain.md>)
 
 <br/>
 
+1. **What is a Map file?**
 
-1. **What is a Pools file?**
-
-    The `🪣 Pools.yaml` file
+    The `🗺️ Map.yaml` file
     * indexes the [Resources 🗃️ folder](<🗃️📂 Resources folder.md>)
+    * and the [Tables 🪣 folder](<🪣📂 Tables folder.md>)
     * to be used by the [Talker `MAP` command](<../../../35 💬 Chats/😃 Talkers/😃💾 Talker data/61 🪣 MAP item.md>).
     
     ---
@@ -32,4 +32,6 @@
         myExternalPool:
             Endpoint: https://rest.any-domain.dom/Items/{$key}
     ```
-    
+
+    ---
+    <br/>    

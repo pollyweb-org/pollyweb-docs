@@ -2,6 +2,8 @@
 
 > Part of [Talker 😃](<../😃 Talker.md>)
 
+> Relates to [Tables 🪣 folder](<🪣📂 Tables folder.md>)
+
 <br/>
 
 
@@ -18,7 +20,7 @@
 
 1. **How to define a Resource Pool?**
 
-    Resource Pools are defined in four ways in the [🪣 Pools file](<../../../55 👷 Build domains/📦 Hosteds/📦📄 Hosted files/🪣📄 Pools file.md>) of [Hoster ☁️ domains](<../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>).
+    Resource Pools are defined in four ways in the [🪣 Pools file](<../../../55 👷 Build domains/📦 Hosteds/📦📄 Hosted files/🗺️📄 Tables file.mdd>) of [Hoster ☁️ domains](<../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>).
 
     |Format| Details
     |-|-
@@ -80,13 +82,21 @@
 1. **What's the syntax?**
 
     ```yaml
+    # Comprehensive
+    - MAP >> $item:
+        Pool: <pool>
+        Key: <key>
+    ```
+
+    ```yaml
+    # Simplest
     - MAP|<pool>|<key> >> $item
     ```
 
     | Argument| Purpose | Example
     |-|-|-
-    | `<pool>` | Name of resource pool | `MyPool`
-    | `<key>`  | Key to look up in the pool | `MyKey` `$key`
+    | `Pool` | Name of resource pool | `MyPool`
+    | `Key`  | Key to look up in the pool | `MyKey` `$key`
     | `$item` | Item to retrieve
 
     ---

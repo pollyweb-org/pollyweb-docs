@@ -11,7 +11,7 @@
 
 <br/>
 
-## Chat
+## Chat 💬
 
 | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
@@ -21,9 +21,9 @@
 | 🤵 [Broker](<../../3 🤵 Brokers/🤵🤲 Broker helper.md>)  | ✅ Token removed. <br/> - [ Undo ] removal
 ||
 
+<br/>
 
-
-## Flow diagram
+## Flow diagram ⏩
 
 ![alt text](<../.📎 Assets/Tokens 📎/⚙️🎫 Remove.png>)
 
@@ -36,3 +36,70 @@
 | 3 | [🤵⏩🧑‍🦰 Update Tokens 🎫](<../../3 🤵 Brokers/🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Tokens 🎫.md>) | The [Broker 🤵](<../../3 🤵 Brokers/🤵🤲 Broker helper.md>) tells the [Wallet 🧑‍🦰](<../🧑‍🦰🛠️ Wallet app.md>) to update the list
 | 4 | [🤵🐌📣 `Remove@Notifier`](<../../2 📣 Notifiers/📣🅰️ Notifier methods/4 🎫 Tokens/3 🤵🐌📣 Remove.md>) | The [Broker 🤵](<../../3 🤵 Brokers/🤵🤲 Broker helper.md>) tells the [Wallet 🧑‍🦰](<../🧑‍🦰🛠️ Wallet app.md>) to remove it
 ||
+
+<br/>
+
+## Talker handler 😃 
+
+```yaml
+💬 Handler:
+
+# Get the Wallet 🧑‍🦰
+- MAP|Wallets|$.Msg.Header.From >> $wallet
+
+# Verify the Message.
+- VERIFY|$.Msg|$wallet.PublicKey
+
+# Get the Token 🎫
+- MAP|$wallet.Tokens|$.Msg.Body.Key >> $token
+
+# Ask for an actions.
+- ONE|What do you need?:
+    - /Remove token
+
+# Execute the action.
+- CASE:
+    Remove: RUN|RemoveToken
+```
+
+```yaml
+RemoveToken:
+
+# Ask for confirmation 🤔
+- CONFIRM|Remove token {$token.Title}?
+
+# Remove the Token 🎫
+- DELETE|$token >> $delete:
+    Soft: 30 days
+
+    OnSoft: 
+        # Update the Token 🎫 list
+        - MSG|Updated@Notifier|$wallet.Notifier:
+            WalletID: $wallet.ID
+            Updates: [ TOKENS ]
+
+    OnHard:
+        # Remove from Wallet
+        - MSG|Remove@Notifier|$wallet.Notifier:
+            WalletID: $wallet.ID
+            Path: $token.Path
+
+# Inform the user 🤔
+- SUCCESS|Token removed.:
+    Options: 
+        - /Undo removal
+
+# Undo the removal.
+- CASE:
+    Undo: RUN|UndoRemoval
+```
+
+```yaml
+UndoRemoval:
+
+# Cancel the soft delete.
+- UNDO|$delete
+
+# Inform the user 🤔
+- SUCCESS|Token restored.
+```
