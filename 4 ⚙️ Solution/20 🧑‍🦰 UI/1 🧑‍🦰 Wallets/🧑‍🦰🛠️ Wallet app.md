@@ -148,10 +148,10 @@
     || [👉 Unbind](<🧑‍🦰💬 Wallet chats/in Vaults 🗄️/🧑‍🦰💬🤵 Unbind 🗄️.md>) | Remove a [Bind 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) from a [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)
     ||[👉 Share](<🧑‍🦰⏩ Wallet flows/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>) | Shares a [Bind 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) with a [Consumer 💼](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)
     |🎫 Tokens| [👉 Tokens](<🧑‍🦰💬 Wallet chats/in App 🏠/🧑‍🦰💬🤵 List Tokens 🎫.md>)| List the user's [Tokens 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>)
-    || [👉 Save](<🧑‍🦰⏩ Wallet flows/40 👉🎫 Tokens/02 🧑‍🦰👉🎴 Save token.md>) | Save a [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) in the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>)
+    || [👉 Save](<🧑‍🦰⏩ Wallet flows/40 👉🎫 Tokens/🧑‍🦰👉🎴 Save token.md>) | Save a [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) in the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>)
     || [👉 Remove](<🧑‍🦰💬 Wallet chats/in Tokens 🎫/🧑‍🦰💬🤵 Remove 🎫.md>) | Remove a [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) from the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>)
-    || [👉 Share](<🧑‍🦰⏩ Wallet flows/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token 🎫.md>) | Share a [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) with a [Consumer 💼](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)
-    || [👉 Verify ID](<🧑‍🦰⏩ Wallet flows/40 👉🎫 Tokens/05 🧑‍🦰👉💼 Share Token+ID.md>) | Share and [verify the user Identity 🆔](<../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 🆔⏩🎫 Verify Tokens.md>)
+    || [👉 Share](<🧑‍🦰⏩ Wallet flows/40 👉🎫 Tokens/🧑‍🦰👉💼 Share Token 🎫.md>) | Share a [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) with a [Consumer 💼](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)
+    || [👉 Verify ID](<🧑‍🦰⏩ Wallet flows/40 👉🎫 Tokens/🧑‍🦰👉💼 Share Token+ID.md>) | Share and [verify the user Identity 🆔](<../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 🆔⏩🎫 Verify Tokens.md>)
 
     ---
     <br/>

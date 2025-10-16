@@ -1,7 +1,7 @@
 # 🧑‍🦰🐌💼 Receive @ Consumer
 
 
-> Part of the [💼⏩🧑‍🦰 Share Token @ Consumer](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰⏩ Wallet flows/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token 🎫.md>) flow:
+> Part of the [💼⏩🧑‍🦰 Share Token @ Consumer](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰⏩ Wallet flows/40 👉🎫 Tokens/🧑‍🦰👉💼 Share Token 🎫.md>) flow:
 > <br/>• succeeds [`Share@Notifier`](<../../../20 🧑‍🦰 UI/2 📣 Notifiers/📣🅰️ Notifier methods/4 🎫 Tokens/2 🤵🐌📣 Share.md>)
 
 

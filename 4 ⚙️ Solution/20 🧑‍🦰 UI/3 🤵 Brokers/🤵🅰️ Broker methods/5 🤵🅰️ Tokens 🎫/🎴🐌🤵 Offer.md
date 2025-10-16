@@ -3,7 +3,7 @@
 
 # 🎴🐌🤵 Offer @ Broker
 
-> Used by the [🎴⏩🧑‍🦰 Offer Token @ Issuer](<../../../1 🧑‍🦰 Wallets/🧑‍🦰⏩ Wallet flows/40 👉🎫 Tokens/02 🧑‍🦰👉🎴 Save token.md>) flow.
+> Used by the [🎴⏩🧑‍🦰 Offer Token @ Issuer](<../../../1 🧑‍🦰 Wallets/🧑‍🦰⏩ Wallet flows/40 👉🎫 Tokens/🧑‍🦰👉🎴 Save token.md>) flow.
 
 * An [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) issues a [Token 🎫](<../../../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) 
   * and asks a [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) to offer it to the user in a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>).
