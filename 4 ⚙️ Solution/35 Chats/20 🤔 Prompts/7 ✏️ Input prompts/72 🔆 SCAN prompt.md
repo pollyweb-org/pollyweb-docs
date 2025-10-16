@@ -1,6 +1,6 @@
 # 🔆 SCAN prompt
 
-> Asks to touch/scan a [QR/NFC Locator 🔆](<../../../25 Locators/15 🔆 Locators/$ 🔆 Locator.md>).
+> Asks to touch/scan a [QR/NFC Locator 🔆](<../../../25 Locators/15 🔆 Locators/🔆 Locator.md>).
 
 > Part of [blocking input prompts 🤔](<../1 📘 Prompt features/09 ✏️ as Input.md>)
 

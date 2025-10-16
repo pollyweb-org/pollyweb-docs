@@ -5,7 +5,7 @@ How to control the a hotel room's air con?
 | - | - | - |
 |...
 | 🏨 Hotel  | ⏳ Pending actions: <br/> - [ #1 ] at 7am, alarm 🔔
-| | | 🔆 [tap](<../../../../4 ⚙️ Solution/25 Locators/15 🔆 Locators/$ 🔆 Locator.md>) A/C
+| | | 🔆 [tap](<../../../../4 ⚙️ Solution/25 Locators/15 🔆 Locators/🔆 Locator.md>) A/C
 | 🏨 Hotel  | ℹ️ A/C is on 🌡️ set to 23°C <br/> - the room is now at 19°C
 | 🏨 Hotel  | 💬 How can I help? [Don't] <br/> - [ ✨ ] turn off air con   <br/> - [ 🌡️ ] set temperature  | > ✨ 
 | 🏨 Hotel  | ✅ A/C turned off.

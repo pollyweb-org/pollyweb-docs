@@ -4,7 +4,7 @@ How to set an alarm at a hotel room?
 | [Domain](<../../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 | - | - | - |
 |...
-| | | 🔆 [tap](<../../../../4 ⚙️ Solution/25 Locators/15 🔆 Locators/$ 🔆 Locator.md>) wall
+| | | 🔆 [tap](<../../../../4 ⚙️ Solution/25 Locators/15 🔆 Locators/🔆 Locator.md>) wall
 | 🏨 Hotel  | 😃 Hi! What do you need? [+] | `6am alarm`
 | 🏨 Hotel  | ✅ Alarm set for 6am.
 | 🏨 Hotel  | 💬 Anything else? [No] | > No
@@ -19,7 +19,7 @@ How to set an alarm at a hotel room?
 | ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? 
 | 🏨 Hotel  | ⏳ Pending actions: <br/> - [ #1 ] at 6:30am, alarm 🔔 
 |...
-| | | 🔆 [tap](<../../../../4 ⚙️ Solution/25 Locators/15 🔆 Locators/$ 🔆 Locator.md>) wall
+| | | 🔆 [tap](<../../../../4 ⚙️ Solution/25 Locators/15 🔆 Locators/🔆 Locator.md>) wall
 | 🏨 Hotel  | 😃 Hi! What do you need? [+] | `change my`<br/>`alarm`
 | 🏨 Hotel  | 💬 Change to what time? | `7am`
 | 🏨 Hotel  | ✅ Alarm set for 7am.

@@ -3,7 +3,7 @@
 
 1. **How can users set up a health emergency script?**
 
-    In case the owner is unconscious, any guest can [tap 🔆](<../../25 Locators/15 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) the owner's [Userable 💍 thing](<$ 💍 Userable thing.md>) to start an emergency script previously configured by the owner.
+    In case the owner is unconscious, any guest can [tap 🔆](<../../25 Locators/15 🔆 Locators/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>) the owner's [Userable 💍 thing](<$ 💍 Userable thing.md>) to start an emergency script previously configured by the owner.
 
     These emergency steps may include:
     - inform close family members, 
@@ -20,7 +20,7 @@
         
     | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 Chats/20 🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     |-|-|-
-    | | | 🔆 [tap](<../../25 Locators/15 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>)
+    | | | 🔆 [tap](<../../25 Locators/15 🔆 Locators/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>)
     | 🔎 [Finder](<../../50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Wand (4.3 ⭐)  [+] 
     | 🪄 [Wand](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>) | ℹ️ Userable: wedding ring [+]
     | 🪄 [Wand](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>) | 😃 Hi! What do you need? <br/>- [ Emergency ] trigger <br/>- [ Something else ] | > Emergency
@@ -44,7 +44,7 @@
 
     |#|Category|Step
     |-|-|-
-    |1| `Tap NFC` | A guest user [taps 🔆](<../../25 Locators/15 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) the [rotating NFC tag 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/11 📺 NFC authentication.md>) of the [Userable 💍 thing](<$ 💍 Userable thing.md>) with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
+    |1| `Tap NFC` | A guest user [taps 🔆](<../../25 Locators/15 🔆 Locators/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>) the [rotating NFC tag 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/11 📺 NFC authentication.md>) of the [Userable 💍 thing](<$ 💍 Userable thing.md>) with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
     |2| `Interact`| A [Chat 💬](<../../35 Chats/12 💬 Chats/💬 Chat.md>) opens with the [Userable's Wand 🪄 domain](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>) (i.e., the helper defined by the [Userable's Brand 🍏 domain](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>)) - this allows the guest user to read the landing notes that the owner user left, and allowing the guest to active the emergency script defined by the owner user.
     |3| `Identify` | The [Userable's Wand 🪄 domain](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>) asks the [guest user's Identity 🆔 agent](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) to authenticate the guest - this allows emergency services to impose legal actions on harassment frauds if necessary.
     |4| `Activate`| The guest activates the emergency workflow - this triggers the [Userable's Wand 🪄 domain](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>) to ask the [guest's Broker 🤵 domain](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) for the guest's location, ask the [guest's Persona 🧢 agent](<../../50 🫥 Agent domains/70 🧢 Personas/🧢🫥 Persona agent.md>) for the guest's contact details, and pass that information to the [owner's Custodian 🧳 vault](<../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>).

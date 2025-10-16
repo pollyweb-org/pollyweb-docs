@@ -26,11 +26,11 @@
 
     [Broker 🤵 domains](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) leverage Finders to provide users with culturally-contextualized details and user feedback about [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) when a [Chat 💬](<../../35 Chats/12 💬 Chats/💬 Chat.md>) starts. 
 
-    * Consider the following [Chat 💬](<../../35 Chats/12 💬 Chats/💬 Chat.md>) excerpt from the [Buy water 🤝 use case](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/11 💧 Buy water.md>) as an example of a with an interaction with a  [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>), right after the user has tapped a [Locator 🔆](<../../25 Locators/15 🔆 Locators/$ 🔆 Locator.md>).
+    * Consider the following [Chat 💬](<../../35 Chats/12 💬 Chats/💬 Chat.md>) excerpt from the [Buy water 🤝 use case](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/11 💧 Buy water.md>) as an example of a with an interaction with a  [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>), right after the user has tapped a [Locator 🔆](<../../25 Locators/15 🔆 Locators/🔆 Locator.md>).
 
     | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 Chats/20 🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | | | 🔆 [tap](<../../25 Locators/15 🔆 Locators/$ 🔆 Locator.md>)
+    | | | 🔆 [tap](<../../25 Locators/15 🔆 Locators/🔆 Locator.md>)
     | 🔎 [Finder](<🔎🫥 Finder agent.md>) | ⓘ Any Host (4.3 ⭐) [+] | (expand)
     | 🔎 [Finder](<🔎🫥 Finder agent.md>) | ⓘ Any Host (4.3 ⭐)  [-] <br/> This host sells shoes.<br/>- They were founded in 1987.<br/>- Joined NLWeb 2 years ago.<br/>User feedback:<br/>- Delivery 4.7⭐ by 357 users<br/>- Support 3.5⭐ by 21 users
 

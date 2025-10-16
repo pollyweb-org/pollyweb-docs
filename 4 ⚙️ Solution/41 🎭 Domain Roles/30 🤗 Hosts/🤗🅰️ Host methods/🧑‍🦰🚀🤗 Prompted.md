@@ -71,7 +71,7 @@ Options:                            # Optional
 |-|-|-
 | `ID`          | string  | ID of the [option](<../../../35 Chats/20 🤔 Prompts/1 📘 Prompt features/04 🔘 with Options.md>) for [`Reply@Host`](<🧑‍🦰🐌🤗 Reply.md>)
 | `Translation` | string  | Text of the [option](<../../../35 Chats/20 🤔 Prompts/1 📘 Prompt features/04 🔘 with Options.md>) to be displayed
-| `Locator` | string | Optional [Locator 🔆](<../../../25 Locators/15 🔆 Locators/$ 🔆 Locator.md>) to [Assess ⏩](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/03 🧑‍🦰👉🤗 Prompt option.md>)
+| `Locator` | string | Optional [Locator 🔆](<../../../25 Locators/15 🔆 Locators/🔆 Locator.md>) to [Assess ⏩](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/03 🧑‍🦰👉🤗 Prompt option.md>)
 |
 
 <br/>
