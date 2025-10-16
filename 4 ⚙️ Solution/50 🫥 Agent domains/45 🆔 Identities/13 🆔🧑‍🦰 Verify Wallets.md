@@ -29,7 +29,7 @@
     |`Hospitality`|[🏨 Check-in when staying at a hotel](<../../../3 🤝 Use Cases/03 🧳 Travel/08 🧳 Stay at hotels 🏨/03 🏨 Guest @ Reception 🛎️/04 🛎️ Check-in.md>)
     |`Financial`|[🏧 Withdraw cash from an ATM](<../../../3 🤝 Use Cases/05 🛠️ Services/03 🏧 Withdraw at ATMs/10 Customer @ ATM/11 Withdraw cash.md>)
     |`Governments`|[🏛️ Request a proof of address](<../../../3 🤝 Use Cases/08 🏛️ Public Services/08 📮 Prove address/1 Customer @ Anywhere/11. Proof of Address.md>)
-    |`Health`| [💍 Trigger a Userable emergency](<../../25 Locators/4 💍 Userables/💍⏩ Userable flows/💍🚨 Emergencies.md>)
+    |`Health`| [💍 Trigger a Userable emergency](<../../25 🔆 Locators/4 💍 Userables/💍⏩ Userable flows/💍🚨 Emergencies.md>)
     
 
     ---
@@ -41,12 +41,12 @@
 
     ![](<. 📎 Assets/🆔 Online.png>)
 
-    When a user is requested by a [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) to verify their identity against a given [Locator 🔆](<../../25 Locators/1 🔆 Locators/🔆 Locator.md>), the following steps are executed.
+    When a user is requested by a [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) to verify their identity against a given [Locator 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>), the following steps are executed.
 
     | # | Step
     |-|-
     |1| The user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) <br/>• opens a web-browser window <br/>• to the liveness check URL of the [Locator's Identity 🆔 vault](<$ 🆔🫥 Identity agent.md>), <br/>• passing anti-fraud information like device location and device configurations.
-    |2| The webpage of the [Identity 🆔 vault](<$ 🆔🫥 Identity agent.md>) <br/>• activates the device's camera to record the user's video for liveness check <br/>• extracts the relevant images <br/>• and compares them to the user images on the given [Locator 🔆](<../../25 Locators/1 🔆 Locators/🔆 Locator.md>). 
+    |2| The webpage of the [Identity 🆔 vault](<$ 🆔🫥 Identity agent.md>) <br/>• activates the device's camera to record the user's video for liveness check <br/>• extracts the relevant images <br/>• and compares them to the user images on the given [Locator 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>). 
     |3| Additionally, depending on the anti-fraud contextualized info, <br/>• the [Identity 🆔 vault](<$ 🆔🫥 Identity agent.md>) asks security questions and one-time-passwords (OTP).
 
     ---

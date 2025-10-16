@@ -3,7 +3,7 @@ Enter the theatre venue 🎭
 
 | [Domain](<../../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 | - | - | - |
-| | | 🔆 [tap](<../../../../4 ⚙️ Solution/25 Locators/1 🔆 Locators/🔆 Locator.md>)
+| | | 🔆 [tap](<../../../../4 ⚙️ Solution/25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>)
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Theatre (4.3 ⭐)  [+]
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | ⓘ Ticket [token 🎟️](<../../../../4 ⚙️ Solution/30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) shared [+]
 | 🎭 Venue | ℹ️ 2 tickets [+] <br/> - B10, B12 (stalls) 

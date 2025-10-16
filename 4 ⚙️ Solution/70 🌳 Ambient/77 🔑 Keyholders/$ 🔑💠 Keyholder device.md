@@ -9,7 +9,7 @@
 
     Examples of Keyholders include:
     * 🧑‍🦰 [Wallet apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) - Wallets support the Keyholder protocol natively.
-    * ⌚ [Tapbands](<../../25 Locators/5 ⌚ Tapbands/⌚💠 Tapband thing.md>) - these are smart bands with the ability to connect to the internet (e.g., Bluetooth, eSim);
+    * ⌚ [Tapbands](<../../25 🔆 Locators/5 ⌚ Tapbands/⌚💠 Tapband thing.md>) - these are smart bands with the ability to connect to the internet (e.g., Bluetooth, eSim);
 
     ---
 

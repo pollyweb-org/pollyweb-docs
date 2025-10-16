@@ -4,7 +4,7 @@ How to collect userable payments at restaurants?
 > From [Eat at restaurants 🍽️](<01 🍽️ Index.md>)
 
 
-> [Userables 💍](<../../../4 ⚙️ Solution/25 Locators/4 💍 Userables/💍💠 Userable thing.md>) allow customers to pay without battery on their devices.
+> [Userables 💍](<../../../4 ⚙️ Solution/25 🔆 Locators/4 💍 Userables/💍💠 Userable thing.md>) allow customers to pay without battery on their devices.
 
 > Mentioned in [Verify Userables 🆔](<../../../4 ⚙️ Solution/50 🫥 Agent domains/45 🆔 Identities/15 🆔💍 Verify Userables.md>)
 
@@ -26,7 +26,7 @@ How to collect userable payments at restaurants?
 | [🏦 Collector](<../../../4 ⚙️ Solution/45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>) | 🫥 Split bill? [Yes, No] | > No
 | [🏦 Collector](<../../../4 ⚙️ Solution/45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>) | 🫥 Add tip? [No, 10%, +] | > 10%
 | [🏦 Collector](<../../../4 ⚙️ Solution/45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>) | ⓘ Collecting $22.00: <br/> - 1 dark paella 🥘 ($15.00) <br/> - 1 red wine glass 🍷 ($3.50) <br/> - staff order fee 🤗 ($1.00) <br/> - staff pay fee 🤗 ($0.50) <br/> - staff tip 🤗 ($2.00)
-| [🏦 Collector](<../../../4 ⚙️ Solution/45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>) | 🫥 Tap the userable [+] | 🔆 [tap](<../../../4 ⚙️ Solution/25 Locators/1 🔆 Locators/🔆 Locator.md>)
+| [🏦 Collector](<../../../4 ⚙️ Solution/45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>) | 🫥 Tap the userable [+] | 🔆 [tap](<../../../4 ⚙️ Solution/25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>)
 | [🏦 Collector](<../../../4 ⚙️ Solution/45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>) | ⏳ Collecting payment...
 | 🆔 [Identity](<../../../4 ⚙️ Solution/50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Ready for ID check? [Yes]     | > Yes
 | 🆔 [Identity](<../../../4 ⚙️ Solution/50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../../4 ⚙️ Solution/50 🫥 Agent domains/45 🆔 Identities/21 🆔😶 Face scan.md>)

@@ -1,7 +1,7 @@
 # 🤵⏩🧑‍🦰 Assess @ Broker
 
-* Given a [Locator 🔆](<../../../25 Locators/1 🔆 Locators/🔆 Locator.md>)
-    * parses the [Locator 🔆](<../../../25 Locators/1 🔆 Locators/🔆 Locator.md>) in the [Broker 🤵](<../🤵🤲 Broker helper.md>)
+* Given a [Locator 🔆](<../../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>)
+    * parses the [Locator 🔆](<../../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) in the [Broker 🤵](<../🤵🤲 Broker helper.md>)
     * and opens a [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) on the [Wallet 🧑‍🦰 app](<../../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
 * Used by:
     * [🧑‍🦰👉🤗 Scan host QR](<../../1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>) flow
@@ -15,7 +15,7 @@
 
 | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 | - | - | - |
-| | | 🔆 [scan](<../../../25 Locators/1 🔆 Locators/🔆 Locator.md>) |
+| | | 🔆 [scan](<../../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) |
 | 🔎 [Finder](<../../../50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Host (4.8 ⭐) [+]
 | 🤵 [Broker](<../🤵🤲 Broker helper.md>) | ⓘ From another chat: <br/>- [Return] to original chat
 | 🤵 [Broker](<../🤵🤲 Broker helper.md>) | ⓘ Tokens shared [+]
