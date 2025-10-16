@@ -101,7 +101,7 @@ On the road (tunnels, crossroads):
 Data sync:
 - knows the common places from persona addresses
 - knows time-related places from scheduler
-- knows user preferences from folder editor
+- knows user preferences from Editor
 
 
 ---

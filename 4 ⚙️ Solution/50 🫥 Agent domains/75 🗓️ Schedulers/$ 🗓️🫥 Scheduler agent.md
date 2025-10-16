@@ -7,7 +7,7 @@
 
     Schedulers are user-bound vaults responsible for representing a user's schedule, namely:    
     - knows the people on the invites
-    - knows the user preferences from folder editor
+    - knows the user preferences from Editor
     
     ---
 

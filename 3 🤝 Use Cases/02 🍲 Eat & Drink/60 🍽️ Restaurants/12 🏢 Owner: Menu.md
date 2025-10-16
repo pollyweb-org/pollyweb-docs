@@ -2,7 +2,7 @@
 
 > From [Eat at restaurants 🍽️](<01 🍽️ Index.md>)
 
-> Edited via a [Editor 🧑‍💻 agent](<../../../4 ⚙️ Solution/45 🤲 Helper domains/35 🧑‍💻 Editors/🧑‍💻 Editor.md>)
+> Edited via a [Editor 🧑‍💻 agent](<../../../4 ⚙️ Solution/50 🫥 Agent domains/42 🧑‍💻 Editors/🧑‍💻🫥 Editor agent.md>)
 
 
 ### Owner's menu

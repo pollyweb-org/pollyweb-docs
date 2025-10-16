@@ -63,11 +63,11 @@ Design Decisions
 
         - this also mirrors real-world interactions, where users typically hand-over to organization employees their physical documents with multiple data points (e.g., driver's license, passport).
   
-    - [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) may allow users to change their stored data via the user's [Folder editor 🗂️ domain](<../45 🤲 Helper domains/35 🧑‍💻 Editors/🧑‍💻 Editor.md>);
+    - [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) may allow users to change their stored data via the user's [Editor 🗂️ domain](<../50 🫥 Agent domains/42 🧑‍💻 Editors/🧑‍💻🫥 Editor agent.md>);
 
         - this is a user-centric interface that allows a user to edit their data in multiple [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) from a single editor;
 
-        - [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) may require users to have a [Folder editor 🗂️ domain](<../45 🤲 Helper domains/35 🧑‍💻 Editors/🧑‍💻 Editor.md>) to avoid having to build a user interface.
+        - [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) may require users to have a [Editor 🗂️ domain](<../50 🫥 Agent domains/42 🧑‍💻 Editors/🧑‍💻🫥 Editor agent.md>) to avoid having to build a user interface.
     
     ---
     <br/>
