@@ -20,9 +20,9 @@
 
     |#|Step
     |-|-
-    |1| A [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) sends a [Prompt 🤔 ](<../../35 Chats/🤔 Prompts/🤔 Prompt.md>) identifier to a [Broker 🤵 domain](<../3 🤵 Brokers/🤵🤲 Broker helper.md>) in the context of a [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>), which is then proxied through the [Notifier 📣 domain](<📣👥 Notifier domain.md>) and pushed to the [Wallet 🧑‍🦰 app](<../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
-    |2| The [Wallet 🧑‍🦰 app](<../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) pulls the content of the [Prompt 🤔 ](<../../35 Chats/🤔 Prompts/🤔 Prompt.md>) using the identifier.
-    |3| The user replies to the [Prompt 🤔 ](<../../35 Chats/🤔 Prompts/🤔 Prompt.md>) and the [Wallet 🧑‍🦰 app](<../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) sends the answer to the [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>).
+    |1| A [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) sends a [Prompt 🤔 ](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) identifier to a [Broker 🤵 domain](<../3 🤵 Brokers/🤵🤲 Broker helper.md>) in the context of a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>), which is then proxied through the [Notifier 📣 domain](<📣👥 Notifier domain.md>) and pushed to the [Wallet 🧑‍🦰 app](<../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
+    |2| The [Wallet 🧑‍🦰 app](<../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) pulls the content of the [Prompt 🤔 ](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) using the identifier.
+    |3| The user replies to the [Prompt 🤔 ](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) and the [Wallet 🧑‍🦰 app](<../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) sends the answer to the [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>).
 
     ---
     <br/>

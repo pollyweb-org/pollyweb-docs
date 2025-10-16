@@ -9,7 +9,7 @@
 
 ## Chat
 
-| [Domain](<../../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../../35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../🧑‍🦰 Wallet app.md>)
+| [Domain](<../../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../🧑‍🦰 Wallet app.md>)
 | - | - | - |
 | | | 🔆 [scan](<../../../../25 Locators/1 🔆 Locators/🔆 Locator.md>) |
 | 🔎 [Finder](<../../../../50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Host (4.8 ⭐) [+]

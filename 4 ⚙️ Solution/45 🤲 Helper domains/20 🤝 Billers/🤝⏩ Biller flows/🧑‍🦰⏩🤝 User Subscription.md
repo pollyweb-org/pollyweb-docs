@@ -20,7 +20,7 @@ The following steps describe a subscription workflow:
 
 ## Chat
 
-| [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+| [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 | - | - | - 
 | 🛠️ [Helper](<../../$ 🤲 Helpers/🤲👥 Helper domain.md>) | 😃 Hi! What do you need? <br/>- [ Register ]  | > Register
 | 🤵 [Broker](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 [Ready to register](<../../../41 🎭 Domain Roles/27 💼 Consumers/💼⏩ Consumer flows/💼⏩🧑‍🦰 Inform 📝.md>)? [Yes, No]<br>- Your broker binds with us 🔗 <br/>- You choose a billing plan 🤝 <br/>- Your payer adds a method 💳 <br/>- Your identity signs the terms 🆔 | > Yes
@@ -37,7 +37,7 @@ The following steps describe a subscription workflow:
 
 ## Talker
 
-The corresponding [Talker 😃](<../../../35 Chats/😃 Talkers/😃 Talker.md>) is as follows.
+The corresponding [Talker 😃](<../../../35 💬 Chats/😃 Talkers/😃 Talker.md>) is as follows.
 
 ```yaml
 💬 Register:                # Entry menu
@@ -58,13 +58,13 @@ The corresponding [Talker 😃](<../../../35 Chats/😃 Talkers/😃 Talker.md>)
 - GOODBYE                   # Show advertisement
 ```
 
-| [Command ⌘](<../../../35 Chats/😃 Talkers/😃⚙️ Talker cmds/10 ⌘ Command.md>) | Purpose
+| [Command ⌘](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/10 ⌘ Command.md>) | Purpose
 |-|-
-| 📝 [`INFORM`](<../../../35 Chats/😃 Talkers/😃📨 Talker msgs/41 📝 INFORM msg.md>) | To provide instructions.
-| 🔗 [`BIND`](<../../../35 Chats/😃 Talkers/😃📨 Talker msgs/44 🔗 BIND msg.md>) | To create a user profile.
-| 🛠️ [`INVITE`](<../../../35 Chats/😃 Talkers/😃📨 Talker msgs/46 🤲 INVITE msg.md>) | To subscribe the user to plan.
-| ❄️ [`FREEZE`](<../../../35 Chats/😃 Talkers/😃📨 Talker msgs/42 ❄️ FREEZE msg.md>) | To disable past inputs.
-| ⬇️ [`EVAL`](<../../../35 Chats/😃 Talkers/😃💾 Talker data/20 ⬇️ EVAL flow.md>) | To register on the database.
-| ✅ [`SUCCESS`](<../../../35 Chats/🤔 Prompts/🤔📢 Prompt status/23 ✅ SUCCESS prompt.md>) | To say that it was successful.
-| 👋 [`GOODBYE`](<../../../35 Chats/😃 Talkers/😃📨 Talker msgs/50 👋 GOODBYE.md>) | To show advertising.
+| 📝 [`INFORM`](<../../../35 💬 Chats/😃 Talkers/😃📨 Talker msgs/41 📝 INFORM msg.md>) | To provide instructions.
+| 🔗 [`BIND`](<../../../35 💬 Chats/😃 Talkers/😃📨 Talker msgs/44 🔗 BIND msg.md>) | To create a user profile.
+| 🛠️ [`INVITE`](<../../../35 💬 Chats/😃 Talkers/😃📨 Talker msgs/46 🤲 INVITE msg.md>) | To subscribe the user to plan.
+| ❄️ [`FREEZE`](<../../../35 💬 Chats/😃 Talkers/😃📨 Talker msgs/42 ❄️ FREEZE msg.md>) | To disable past inputs.
+| ⬇️ [`EVAL`](<../../../35 💬 Chats/😃 Talkers/😃💾 Talker data/20 ⬇️ EVAL flow.md>) | To register on the database.
+| ✅ [`SUCCESS`](<../../../35 💬 Chats/🤔 Prompts/🤔📢 Prompt status/23 ✅ SUCCESS prompt.md>) | To say that it was successful.
+| 👋 [`GOODBYE`](<../../../35 💬 Chats/😃 Talkers/😃📨 Talker msgs/50 👋 GOODBYE.md>) | To show advertising.
 |

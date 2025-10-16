@@ -1,6 +1,6 @@
 # 🤵⏩🗄️ Update chats @ Broker
 
-* Updates the list of [Chats 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>) on a [Wallet 🧑‍🦰 app](<../../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
+* Updates the list of [Chats 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) on a [Wallet 🧑‍🦰 app](<../../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
 * Used in:
     * [🧑‍🦰👉🤵 Abandon chat @ Wallet](<../../1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>)
     * [🤵⏩🧑‍🦰 Converse @ Broker](<🤵⏩🧑‍🦰 Converse 💬.md>)
@@ -15,5 +15,5 @@
 | # | Call | Notes |
 |-|-|-
 | 1 | [🤵🐌📣 `Updated@Notifier`](<../../2 📣 Notifiers/📣🅰️ Notifier methods/1 🤵 Onboard/3 🤵🐌📣 Updated.md>)| [Brokers 🤵](<../🤵🤲 Broker helper.md>) tell [Notifiers 📣](<../../2 📣 Notifiers/📣👥 Notifier domain.md>) to update [Wallets 🧑‍🦰](<../../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
-| 2 | [🧑‍🦰🚀🤵 `Chats@Broker`](<../🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🧑‍🦰🚀🤵 Chats.md>) | [Wallets 🧑‍🦰](<../../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) get [Chats 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>) from [Brokers 🤵](<../🤵🤲 Broker helper.md>)
+| 2 | [🧑‍🦰🚀🤵 `Chats@Broker`](<../🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🧑‍🦰🚀🤵 Chats.md>) | [Wallets 🧑‍🦰](<../../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) get [Chats 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) from [Brokers 🤵](<../🤵🤲 Broker helper.md>)
 ||

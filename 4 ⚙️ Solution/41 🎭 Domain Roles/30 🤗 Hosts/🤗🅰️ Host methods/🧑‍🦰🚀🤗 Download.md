@@ -3,7 +3,7 @@
 # 🧑‍🦰🚀🤗 Download @ Host
 
 
-> Downloads the content of an [Appendix 📎](<../../../35 Chats/🤔 Prompts/🤔⚙️ Prompt features/5 📎 with Appendix.md>).
+> Downloads the content of an [Appendix 📎](<../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/5 📎 with Appendix.md>).
 
 
 > Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) flow.
@@ -34,8 +34,8 @@ Body:
 | Header    | `From`        | string    | `Anonymous`
 |           | `To`          | string    | [Sender 🤗](<../🤗🎭 Host role.md>) from [`Prompt@Notifier`](<../../../20 🧑‍🦰 UI/2 📣 Notifiers/📣🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
 |           | `Subject`     | string    | `Prompted@Host`
-| Body      | `ChatID` | uuid | [Chat 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>) ID from [`Prompt@Notifier`](<../../../20 🧑‍🦰 UI/2 📣 Notifiers/📣🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
-|| `FileID`    | uuid      | [Appendix 📎](<../../../35 Chats/🤔 Prompts/🤔⚙️ Prompt features/5 📎 with Appendix.md>) from [`Prompted@Host`](<🧑‍🦰🚀🤗 Prompted.md>)
+| Body      | `ChatID` | uuid | [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Prompt@Notifier`](<../../../20 🧑‍🦰 UI/2 📣 Notifiers/📣🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
+|| `FileID`    | uuid      | [Appendix 📎](<../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/5 📎 with Appendix.md>) from [`Prompted@Host`](<🧑‍🦰🚀🤗 Prompted.md>)
 |
 
 <br/>
