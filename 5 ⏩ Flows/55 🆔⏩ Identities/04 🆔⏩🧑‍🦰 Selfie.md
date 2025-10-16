@@ -1,6 +1,6 @@
 # 🆔⏩🧑‍🦰 Selfie @ Identity
 
-> Used in [💼⏩🧑‍🦰 Query token+ID @ Consumer](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/40 👉🎫 Tokens/05 🧑‍🦰👉💼 Share Token+ID.md>)
+> Used in [💼⏩🧑‍🦰 Query token+ID @ Consumer](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰⏩ Wallet flows/40 👉🎫 Tokens/05 🧑‍🦰👉💼 Share Token+ID.md>)
 
 <br/>
 

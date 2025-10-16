@@ -7,8 +7,8 @@
 > The [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) lists the [Chats 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) of a [Wallet 🧑‍🦰 app](<../../../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
 
 > Used in:
-> <br/>• [🧑‍🦰👉🤵 Set language @ Wallet](<../../../1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/10 👉🤵 Set-up/🧑‍🦰💬🤵 Translate.md>)
-> <br/>• [🧑‍🦰👉🤵 List chats @ Wallet](<../../../1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/20 👉💬 Chats/01 🧑‍🦰👉🤵 List chats.md>)
+> <br/>• [🧑‍🦰👉🤵 Set language @ Wallet](<../../../1 🧑‍🦰 Wallets/🧑‍🦰⏩ Wallet flows/10 👉🤵 Set-up/🧑‍🦰💬🤵 Translate.md>)
+> <br/>• [🧑‍🦰👉🤵 List chats @ Wallet](<../../../1 🧑‍🦰 Wallets/🧑‍🦰⏩ Wallet flows/20 👉💬 Chats/01 🧑‍🦰👉🤵 List chats.md>)
 > <br/>• [🤵⏩🗄️ Update chats @ Broker](<../../🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Chats 💬.md>)
 
 
