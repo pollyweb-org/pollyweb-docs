@@ -136,13 +136,13 @@
 
     | Category | Workflow |  Description
     |-|-|-
-    | 🤵 Set up | [👉 Onboard](<🧑‍🦰💬 Wallet chats/in 🏠 Home/🧑‍🦰💬🤵 Onboard.md>)  | Register the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>) on a [Broker 🤵](<../3 🤵 Brokers/🤵🤲 Broker helper.md>)
-    | | [👉 Translate](<🧑‍🦰💬 Wallet chats/in 🏠 Home/🧑‍🦰💬🤵 Translate.md>)  | Change the language of the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>)
+    | 🤵 Set up | [👉 Onboard](<🧑‍🦰💬 Wallet chats/in App 🏠/🧑‍🦰💬🤵 Onboard.md>)  | Register the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>) on a [Broker 🤵](<../3 🤵 Brokers/🤵🤲 Broker helper.md>)
+    | | [👉 Translate](<🧑‍🦰💬 Wallet chats/in App 🏠/🧑‍🦰💬🤵 Translate.md>)  | Change the language of the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>)
     | 🔆 Locators |[👉 Host QR](<🧑‍🦰⏩ Wallet flows/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>)  | Scan a [Host 🤗 NFC/QR](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)   to open a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
     ||[👉 Printer QR](<🧑‍🦰⏩ Wallet flows/15 👉🔆 Locators/02 🧑‍🦰👉🤗 Scan printer QR.md>)  | Scan a [Printer 🖨️ NFC/QR](<../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>) to open a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
     |💬 Chats|[👉 Chats](<🧑‍🦰⏩ Wallet flows/20 👉💬 Chats/01 🧑‍🦰👉🤵 List chats.md>) | List the user's [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) 
-    ||[👉 Home](<🧑‍🦰⏩ Wallet flows/20 👉💬 Chats/🧑‍🦰💬🤵 Host home.md>) | Show the [Host's 🤗 ](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) menu in a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
-    ||[👉 Abandon](<🧑‍🦰⏩ Wallet flows/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>) | Unilaterally abandon a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
+    ||[👉 Home](<🧑‍🦰💬 Wallet chats/in Chats 💬/🧑‍🦰💬🤵 Host home.md>) | Show the [Host's 🤗 ](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) menu in a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
+    ||[👉 Abandon](<🧑‍🦰💬 Wallet chats/in Chats 💬/🧑‍🦰💬🤵 Abandon chat.md>) | Unilaterally abandon a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
     | 🔗 Binds | [👉 Binds ](<🧑‍🦰⏩ Wallet flows/30 👉🔗 Binds/01 🧑‍🦰👉🤵 List binds.md>) | List the user's [Binds 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>)
     || [👉 Bind](<🧑‍🦰⏩ Wallet flows/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind 🔗.md>) | [Bind 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>) to a [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)
     || [👉 Unbind](<🧑‍🦰⏩ Wallet flows/30 👉🔗 Binds/03 🧑‍🦰👉🗄️ Unbind.md>) | Remove a [Bind 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) from a [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)

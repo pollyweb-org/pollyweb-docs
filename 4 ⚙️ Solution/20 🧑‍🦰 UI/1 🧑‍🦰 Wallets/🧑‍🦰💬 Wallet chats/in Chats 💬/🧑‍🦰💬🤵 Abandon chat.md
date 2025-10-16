@@ -23,7 +23,7 @@
 
 ## Flow diagram
 
-![Flow diagram](<.📎 Assets/⚙️ Abandon chat.png>)
+![Flow diagram](<../../🧑‍🦰⏩ Wallet flows/20 👉💬 Chats/.📎 Assets/⚙️ Abandon chat.png>)
 
 
 | # | Call | Notes

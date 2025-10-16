@@ -23,7 +23,7 @@
 
 ## Flow Diagram
 
-![Talker](<.📎 Assets/⚙️ Home.png>)
+![Talker](<../../🧑‍🦰⏩ Wallet flows/20 👉💬 Chats/.📎 Assets/⚙️ Home.png>)
 
 
 | # | Call | Notes
