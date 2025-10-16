@@ -8,7 +8,7 @@
 
 1. **What is an Identity-bound Token?**
 
-    An [Identity-bound Token 🎫](<14 🆔🎫 Verify Tokens.md>)
+    An [Identity-bound Token 🎫](<3 🆔🎫 Verify Tokens.md>)
     * is a [Token 🎫](<../../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>)
     * that was [issued 🎴](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) to a specific person.
 
@@ -34,7 +34,7 @@
     | - | - | - |
     | 🤗 [Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 A beer? [Yes, No]         | > Yes
     | 🤵 [Broker](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Share over 21? [Yes, No]     | > Yes
-    | 🆔 [Identity](<../🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.  | [📸 selfie](<21 🆔😶 Face scan.md>)
+    | 🆔 [Identity](<../🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.  | [📸 selfie](<6 🆔😶 Face scan.md>)
     | 🤗 [Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ A beer coming up!
 
     ---
@@ -111,7 +111,7 @@
 
     Printed identity-bound [Tokens 🎫](<../../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) (or any other type of offline Tokens, like screenshot images, NFC cards, and NFC wristbands) removes user's need to carry their mobile phone charged and with internet connection. 
     - Use cases where this is important include: international flights, water sports, and luggage misplacement or theft.
-    - These scenarios rely on [🖐️ palm vein scanners](<22 🆔🖐️ Palm scan.md>) scanning the users' palms, or cameras performing [😶 face scans](<21 🆔😶 Face scan.md>) on users.
+    - These scenarios rely on [🖐️ palm vein scanners](<7 🆔🖐️ Palm scan.md>) scanning the users' palms, or cameras performing [😶 face scans](<6 🆔😶 Face scan.md>) on users.
 
     The flow for a user to share an offline [Token 🎫](<../../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) with a [Consumer 💼 domain](<../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) is as follows:
     - 1/ the user taps or scans the [Token 🎫](<../../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) on the Consumer's scanner:
@@ -139,7 +139,7 @@
       - 3/ obtaining age benefits (e.g., buying discounted tickets for elderly); or 
       - 4/ claiming accessibility needs (e.g., a wheelchair at an airport). 
       
-    - For that, users first need to bind their wallet to an [🆔 Identity Vault](<../🆔🫥 Identity agent.md>) (typically a governmental authority that issues passports) to set up authentication mechanisms (e.g., voice and face biometric signatures collected in a supervised center) - users may then ask the Identity Vault for an age-related [Token 🎫](<14 🆔🎫 Verify Tokens.md>) (e.g., over 16 years old). 
+    - For that, users first need to bind their wallet to an [🆔 Identity Vault](<../🆔🫥 Identity agent.md>) (typically a governmental authority that issues passports) to set up authentication mechanisms (e.g., voice and face biometric signatures collected in a supervised center) - users may then ask the Identity Vault for an age-related [Token 🎫](<3 🆔🎫 Verify Tokens.md>) (e.g., over 16 years old). 
     
     - When interacting with the [Seller 💵](<../../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>)'s domain, the Seller can then ask for the Token before providing the service or granting the entrance. 
     

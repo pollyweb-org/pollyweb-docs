@@ -151,7 +151,7 @@
     || [👉 Save](<🧑‍🦰👉 Wallet flows/40 👉🎫 Tokens/02 🧑‍🦰👉🎴 Save token.md>) | Save a [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) in the [Wallet 🧑‍🦰](<🧑‍🦰 Wallet app.md>)
     || [👉 Remove](<🧑‍🦰👉 Wallet flows/40 👉🎫 Tokens/03 🧑‍🦰👉🤵 Remove token.md>) | Remove a [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) from the [Wallet 🧑‍🦰](<🧑‍🦰 Wallet app.md>)
     || [👉 Share](<🧑‍🦰👉 Wallet flows/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token 🎫.md>) | Share a [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) with a [Consumer 💼](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)
-    || [👉 Verify ID](<🧑‍🦰👉 Wallet flows/40 👉🎫 Tokens/05 🧑‍🦰👉💼 Share Token+ID.md>) | Share and [verify the user Identity 🆔](<../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/14 🆔🎫 Verify Tokens.md>)
+    || [👉 Verify ID](<🧑‍🦰👉 Wallet flows/40 👉🎫 Tokens/05 🧑‍🦰👉💼 Share Token+ID.md>) | Share and [verify the user Identity 🆔](<../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 🆔🎫 Verify Tokens.md>)
 
     ---
     <br/>

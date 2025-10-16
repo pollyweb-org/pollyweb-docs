@@ -25,7 +25,7 @@ TODO: Create the API methods
     | - | - | - |
     | 🤗 [Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)    | ℹ️ Sign the terms. 
     | 🆔 [Identity](<../🆔🫥 Identity agent.md>) | 🫥 Sign terms? 📄 [Yes, No] | > Yes
-    | 🆔 [Identity](<../🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<21 🆔😶 Face scan.md>)
+    | 🆔 [Identity](<../🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<6 🆔😶 Face scan.md>)
     | 🤗 [Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ Thanks for signing!
 
     ---
@@ -57,10 +57,10 @@ TODO: Create the API methods
     - **the content of the file to be signed** 
       - this allows the user to read the document before accepting to sign it;
     - **the file's hash** 
-      - this allows the Identity domain to [sign 🔏](<16 🆔🔏 Verify Signatures.md>) a document on behalf of a user without knowing the content of the document;
+      - this allows the Identity domain to [sign 🔏](<5 🆔🔏 Verify Signatures.md>) a document on behalf of a user without knowing the content of the document;
     - **user PII (e.g., passport number)** - this allows the Identity domain to match the Host's intent with the user 
       - e.g., ensure the request matches the tenant and not the landlord in a renting contract; 
-    - **a signature placeholder ID**, representing the requested [signature](<16 🆔🔏 Verify Signatures.md>) in the contract 
+    - **a signature placeholder ID**, representing the requested [signature](<5 🆔🔏 Verify Signatures.md>) in the contract 
         - this allows the [Identity 🆔 domain](<../🆔🫥 Identity agent.md>) to reference the Host's original request.
 
     ---
