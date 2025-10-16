@@ -39,7 +39,7 @@ The associated [Talker 😃](<../../../35 💬 Chats/😃 Talkers/😃 Talker.md
 
 | [Command ⌘](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/⌘ Command.md>) | Purpose
 |-|-
-| ℹ️ [`INFO`](<../../../35 💬 Chats/🤔 Prompts/🤔📢 Prompt status/21 ℹ️ INFO prompt.md>) | To show the messages to the user.
+| ℹ️ [`INFO`](<../../../35 💬 Chats/🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) | To show the messages to the user.
 | 🛠️ [`INVITE`](<../../../35 💬 Chats/😃 Talkers/😃📨 Talker msgs/INVITE 🤲 msg.md>) | To collect a random number.
 |
 

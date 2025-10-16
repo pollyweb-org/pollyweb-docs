@@ -124,7 +124,7 @@
     | 🛠️ [`INVITE`](<../../35 💬 Chats/😃 Talkers/😃📨 Talker msgs/INVITE 🤲 msg.md>) | To subscribe the user to plan
     | ❄️ [`FREEZE`](<../../35 💬 Chats/😃 Talkers/😃📨 Talker msgs/FREEZE ❄️ msg.md>) | To disable past inputs
     | ⬇️ [`EVAL`](<../../35 💬 Chats/😃 Talkers/😃💾 Talker data/20 ⬇️ EVAL flow.md>) | To register on the database
-    | ✅ [`SUCCESS`](<../../35 💬 Chats/🤔 Prompts/🤔📢 Prompt status/23 ✅ SUCCESS prompt.md>) | To say that it was successful
+    | ✅ [`SUCCESS`](<../../35 💬 Chats/🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>) | To say that it was successful
     | 👋 [`GOODBYE`](<../../35 💬 Chats/😃 Talkers/😃📨 Talker msgs/GOODBYE 👋 msg.md>) | To show advertising
     
 

@@ -7,7 +7,7 @@
 1. **What is a non-blocking TEMP?**
 
     A `TEMP`
-    * is similar to an [INFO ℹ️ prompt](<21 ℹ️ INFO prompt.md>) 
+    * is similar to an [INFO ℹ️ prompt](<INFO ℹ️ prompt.md>) 
     * but it is automatically removed when a new [Prompt 🤔](<../🤔 Prompt.md>) arrives;
     * if it contains [`Options`](<../🤔⚙️ Prompt features/4 🔘 with Options.md>), then the user may click an option while it's visible.
 
