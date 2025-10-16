@@ -1,6 +1,6 @@
 # ⬇️ Talker `EVAL` flow 
 
-> Part of [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>)
+> Part of [Talker 😃](<../10 😃 Talker.md>)
 
 <br/>
 
@@ -8,7 +8,7 @@
 1. **What's an EVAL command?**
 
     An `EVAL` ⬇️
-    * is a [Command ⌘](<../40 🌊 Talker flows/10 ⌘ Command.md>) 
+    * is a [Command ⌘](<../😃🌊 Talker flow/10 ⌘ Command.md>) 
     * that evaluates strings, objects, and [`{Functions}`](<12 🐍 {Function}.md>)
     * into a placeholder.
 
@@ -115,10 +115,10 @@
     ```
 
 
-    | [Command ⌘](<../40 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../😃🌊 Talker flow/10 ⌘ Command.md>) | Purpose
     |-|-
     | 👍 [`CONFIRM`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/31 👍 CONFIRM prompt.md>) | To pause for user confirmation.
-    | 🔁 [`REPEAT`](<../40 🌊 Talker flows/23 🔁 REPEAT flow.md>) | To add more rows.
+    | 🔁 [`REPEAT`](<../😃🌊 Talker flow/23 🔁 REPEAT flow.md>) | To add more rows.
 
 
     ```python

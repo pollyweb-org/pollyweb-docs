@@ -1,6 +1,6 @@
 # ⏸️ Talker `WAIT` flow 
 
-> Part of [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>)
+> Part of [Talker 😃](<../10 😃 Talker.md>)
 
 > Referenced by the [😃⏩🧑‍💻 Wait ⏸️](<../../5 ⏩ Flows/79 😃⏩ Talkers/30 😃⏩🧑‍💻 Wait ⏸️.md>) flow
 
@@ -88,7 +88,7 @@
     | 🍕 Pizza | ✅ Order ready!
     |
 
-    Here's the [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../10 😃 Talker.md>).
 
     ```yaml
     # 😃 Talker 
@@ -110,7 +110,7 @@
 
     | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
-    | ⬇️ [`EVAL`](<../30 🗃️ Talker data/20 ⬇️ EVAL flow.md>) | to assess the backend queue length.
+    | ⬇️ [`EVAL`](<../😃🗃️ Talker data/20 ⬇️ EVAL flow.md>) | to assess the backend queue length.
     | ℹ️ [`INFO`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) | To show the initial message.
     | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | To re-assess the queue periodically.
     | 🔁 [`RETURN`](<23 🔁 REPEAT flow.md>) | To exit the loop when it's the user's turn.
@@ -132,7 +132,7 @@
     | 🏦 Bank | 💬 What do you need? | `I need...`
     |
 
-    Here's the [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../10 😃 Talker.md>).
 
     ```yaml
     # 😃 Talker 
@@ -168,8 +168,8 @@
     | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
     | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | To show the human-friendly message.
-    | ⬇️ [`EVAL`](<../30 🗃️ Talker data/20 ⬇️ EVAL flow.md>) | to assess the backend queue length.
-    | 🪣 [`MAP`](<../30 🗃️ Talker data/61 🪣 MAP item.md>) | To get the queue length from resources.
+    | ⬇️ [`EVAL`](<../😃🗃️ Talker data/20 ⬇️ EVAL flow.md>) | to assess the backend queue length.
+    | 🪣 [`MAP`](<../😃🗃️ Talker data/61 🪣 MAP item.md>) | To get the queue length from resources.
     | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | To re-assess the queue periodically.
     | 🔁 [`RETURN`](<23 🔁 REPEAT flow.md>) | To exit the loop when it's the user's turn.
     | ▶️ [`RUN`](<24 ▶️ RUN flow.md>) | To start the waiting loop.

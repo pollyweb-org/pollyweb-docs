@@ -1,6 +1,6 @@
 # 🐍 Talker `{Function}` 
 
-> Part of [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>)
+> Part of [Talker 😃](<../10 😃 Talker.md>)
 
 <br/>
 
@@ -28,7 +28,7 @@
 
     <br/>
     
-    Consider the following [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>).
+    Consider the following [Talker 😃](<../10 😃 Talker.md>).
     
     ```yaml
     # 😃 Talker 
@@ -41,7 +41,7 @@
     INFO|{$p.A} # Prints "another property"
     ```
 
-    | [Command ⌘](<../40 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../😃🌊 Talker flow/10 ⌘ Command.md>) | Purpose
     |-|-
     | ⬇️ [`EVAL`](<20 ⬇️ EVAL flow.md>) | To push an object into a [$placeholder 💾](<10 💾 $Placeholder.md>).
     | ℹ️ [`INFO`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) | To show the placeholder values.
@@ -63,7 +63,7 @@
 
     <br/>
     
-    Here's the [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../10 😃 Talker.md>).
         
     ```yaml
     # 😃 Talker 
@@ -73,7 +73,7 @@
     - INFO|Although you typed `{$n.Text}`
     ```
 
-    | [Command ⌘](<../40 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../😃🌊 Talker flow/10 ⌘ Command.md>) | Purpose
     |-|-
     | ℹ️ [`INFO`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) | To show the [$placeholder 💾](<10 💾 $Placeholder.md>) values.
     | ↕️ [`QUANTITY`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/42 ↕️ QUANTITY prompt.md>) | To collect the number input.
@@ -159,7 +159,7 @@
     - INFO|{$n}+{$n} equals {Sum($n,$n)}
     ```
 
-    | [Command ⌘](<../40 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../😃🌊 Talker flow/10 ⌘ Command.md>) | Purpose
     |-|-
     | ↕️ [`QUANTITY`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/42 ↕️ QUANTITY prompt.md>) | To collect the number input.
 

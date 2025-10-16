@@ -29,7 +29,7 @@
     |
 
 
-    Here's a [Talker 😃](<../../../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>).
+    Here's a [Talker 😃](<../../../../9 😃 Talkers/10 😃 Talker.md>).
 
     ```yaml
     - QUANTITY|How many players? >> $qt:
@@ -61,7 +61,7 @@
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 😃 What's the code? [+]<br/> | `012345`
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ✅ Code validated!
 
-    Here's the [Talker 😃](<../../../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../../../../9 😃 Talkers/10 😃 Talker.md>).
 
     ```yaml
     # Talker 😃
@@ -95,7 +95,7 @@
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ✅ Code validated!
     |
 
-    Here's the [Talker 😃](<../../../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../../../../9 😃 Talkers/10 😃 Talker.md>).
 
     ```yaml
     # Talker 😃
@@ -114,7 +114,7 @@
     - RUN|get-code
     ```
 
-    Here's the [Function 🐍 handler](<../../../../9 😃 Talkers/30 🗃️ Talker data/12 🐍 {Function}.md>).
+    Here's the [Function 🐍 handler](<../../../../9 😃 Talkers/😃🗃️ Talker data/12 🐍 {Function}.md>).
 
     ```python
     # 🐍 Python handler

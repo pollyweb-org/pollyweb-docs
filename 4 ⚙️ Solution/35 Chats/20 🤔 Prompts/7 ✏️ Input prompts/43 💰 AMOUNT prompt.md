@@ -37,7 +37,7 @@
     ---
     <br/>
 
-1. **What's the syntax of AMOUNT in a [Talker 😃](<../../../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>)?**
+1. **What's the syntax of AMOUNT in a [Talker 😃](<../../../../9 😃 Talkers/10 😃 Talker.md>)?**
 
     ```yaml
     # Simplest.
@@ -47,7 +47,7 @@
     | Argument| Purpose 
     |-|-
     | `<statement>`| Message to show to the user
-    | `$placeholder`| Optional [$placeholder 💾](<../../../../9 😃 Talkers/30 🗃️ Talker data/10 💾 $Placeholder.md>) with the user's answer
+    | `$placeholder`| Optional [$placeholder 💾](<../../../../9 😃 Talkers/😃🗃️ Talker data/10 💾 $Placeholder.md>) with the user's answer
     
 
     ```yaml
@@ -99,7 +99,7 @@
 
     <br/>
 
-    Here's the [Talker 😃](<../../../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../../../../9 😃 Talkers/10 😃 Talker.md>).
     
     ```yaml
     # 😃 Talker 
@@ -151,15 +151,15 @@
     | `$p.Pretty` | Decimal formatted to `Locale` | `$1,234.57`
     | `$p.Locale` | CLDR locale used to format | `en-US`
     | `$p.Currency` | ISO 4217 currency formatted | `USD`
-    | [`$p.$`](<../../../../9 😃 Talkers/30 🗃️ Talker data/12 🐍 {Function}.md>) | The value of `$p.Pretty` | `$1,234.57`
-    | `$p` | The [default value](<../../../../9 😃 Talkers/30 🗃️ Talker data/12 🐍 {Function}.md>) `$p.$` | `$1,234.57`
+    | [`$p.$`](<../../../../9 😃 Talkers/😃🗃️ Talker data/12 🐍 {Function}.md>) | The value of `$p.Pretty` | `$1,234.57`
+    | `$p` | The [default value](<../../../../9 😃 Talkers/😃🗃️ Talker data/12 🐍 {Function}.md>) `$p.$` | `$1,234.57`
 
     ---
     <br/>
 
 1. **How does AMOUNT process money signs?**
 
-    When collecting an [`AMOUNT`](<43 💰 AMOUNT prompt.md>) input, [Talkers 😃](<../../../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>) 
+    When collecting an [`AMOUNT`](<43 💰 AMOUNT prompt.md>) input, [Talkers 😃](<../../../../9 😃 Talkers/10 😃 Talker.md>) 
     * identity and clean monetary characters
     * while storing the currencies in their original currency.
 

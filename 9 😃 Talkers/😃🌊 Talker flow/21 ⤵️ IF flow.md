@@ -1,6 +1,6 @@
 # ⤵️ Talker `IF` flow 
 
-> Part of [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>)
+> Part of [Talker 😃](<../10 😃 Talker.md>)
 
 <br/>
 
@@ -10,7 +10,7 @@
     An `IF` ⤵️
     * is a flow [Command ⌘](<10 ⌘ Command.md>)  
     * that runs a [Procedure ⚙️](<11 ⚙️ Procedure.md>) or [Command ⌘](<10 ⌘ Command.md>) 
-    * based on the evaluation of a placeholder or [{Function}](<../30 🗃️ Talker data/12 🐍 {Function}.md>).
+    * based on the evaluation of a placeholder or [{Function}](<../😃🗃️ Talker data/12 🐍 {Function}.md>).
 
     ---
     <br/>
@@ -24,7 +24,7 @@
     Number  | zero | `0` | non-zero | `1` `-1`
     Array | empty | `[]` | non-empty | `[1,A]`
     [Confirm 👍](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/31 👍 CONFIRM prompt.md>) |  no | `No` | yes | `Yes`|
-    [Share 💼](<../60 ⏩ Msg flows/45 💼 SHARE msg.md>) | empty | `{}`| non-empty | `{A:1}`
+    [Share 💼](<../😃📨 Talker msgs/45 💼 SHARE msg.md>) | empty | `{}`| non-empty | `{A:1}`
     
 
     ---
@@ -40,7 +40,7 @@
 
     | Argument| Purpose | Example
     |-|-|-
-    | `{function}` | Boolean [{Function}](<../30 🗃️ Talker data/12 🐍 {Function}.md>) to evaluate  | `{f}` `{$o}`
+    | `{function}` | Boolean [{Function}](<../😃🗃️ Talker data/12 🐍 {Function}.md>) to evaluate  | `{f}` `{$o}`
     || Allows for missing `{}` in functions | `f()` `$p`
     || Defaults to the last [input prompt ✏️](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/1 📘 Prompt features/09 ✏️ as Input.md>) | `TEXT\|Id?`
     | `<true-proc>` | [Procedure ⚙️](<11 ⚙️ Procedure.md>) to [Run ▶️](<24 ▶️ RUN flow.md>) when `True` | `IfTrue`

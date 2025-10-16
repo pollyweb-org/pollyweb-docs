@@ -5,7 +5,7 @@
     * then switch to a [non-blocking info ℹ️](<../../../35 Chats/20 🤔 Prompts/4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>).
 
 * Related to:
-    * [📝 Talker `INFORM` command](<../../../../9 😃 Talkers/60 ⏩ Msg flows/41 📝 INFORM msg.md>)
+    * [📝 Talker `INFORM` command](<../../../../9 😃 Talkers/😃📨 Talker msgs/41 📝 INFORM msg.md>)
 
 * Examples:
     * [Buy hot dog 🌭](<../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/50 🌭 Street food/21 🎪 Stall: Buy hot dog 🌭.md>)
@@ -23,16 +23,16 @@
 
 <br/>
 
-Here's the [Talker 😃](<../../../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>).
+Here's the [Talker 😃](<../../../../9 😃 Talkers/10 😃 Talker.md>).
 
 ```yaml
 # Talker
 - INFORM|TableOrder
 ```
 
-| [Command ⌘](<../../../../9 😃 Talkers/40 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
+| [Command ⌘](<../../../../9 😃 Talkers/😃🌊 Talker flow/10 ⌘ Command.md>) | Purpose
 |-|-
-| 📝 [`INFORM`](<../../../../9 😃 Talkers/60 ⏩ Msg flows/41 📝 INFORM msg.md>) | Show user instructions and allow inputs.
+| 📝 [`INFORM`](<../../../../9 😃 Talkers/😃📨 Talker msgs/41 📝 INFORM msg.md>) | Show user instructions and allow inputs.
 |
 
 <br/>

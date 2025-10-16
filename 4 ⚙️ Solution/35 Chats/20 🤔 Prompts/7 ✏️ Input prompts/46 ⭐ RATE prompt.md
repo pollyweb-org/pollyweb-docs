@@ -35,7 +35,7 @@
     <br/>
 
 
-1. **What's the format of a [Talker 😃](<../../../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>)?**
+1. **What's the format of a [Talker 😃](<../../../../9 😃 Talkers/10 😃 Talker.md>)?**
 
     ```yaml
     # Simplest.
@@ -45,7 +45,7 @@
     | Argument| Purpose 
     |-|-
     | `<statement>`| Message to show to the user
-    | `$placeholder`| Optional [$placeholder 💾](<../../../../9 😃 Talkers/30 🗃️ Talker data/10 💾 $Placeholder.md>) with the user's answer
+    | `$placeholder`| Optional [$placeholder 💾](<../../../../9 😃 Talkers/😃🗃️ Talker data/10 💾 $Placeholder.md>) with the user's answer
     
 
     ```yaml
@@ -82,7 +82,7 @@
 
     <br/>
     
-    Here's the [Talker 😃](<../../../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../../../../9 😃 Talkers/10 😃 Talker.md>).
     
     ```yaml
     - RATE|What's the rate? >> $code

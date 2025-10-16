@@ -1,6 +1,6 @@
 # 🔁 Talker `REPEAT` flow 
 
-> Part of [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>)
+> Part of [Talker 😃](<../10 😃 Talker.md>)
 
 <br/>
 
@@ -40,7 +40,7 @@
     | 🕙 Clock | 😃 Check again? [Yes, No] 
     |
 
-    Here's the [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../10 😃 Talker.md>).
 
 
     ```yaml
@@ -64,7 +64,7 @@
     | 🕙 Clock | 😃 Want to know the time? [Yes, No] 
     |
 
-    Here's the [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../10 😃 Talker.md>).
 
     ```yaml
     💬|Show time:
@@ -99,7 +99,7 @@
     | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ✅ Order submitted!
     |
 
-    Here's the [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../10 😃 Talker.md>).
 
 
     ```yaml
@@ -122,7 +122,7 @@
     | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
     | 👍 [`CONFIRM`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/31 👍 CONFIRM prompt.md>) | To wait for user confirmation.
-    | ⬇️ [`EVAL`](<../30 🗃️ Talker data/20 ⬇️ EVAL flow.md>) | To add an item to the database.
+    | ⬇️ [`EVAL`](<../😃🗃️ Talker data/20 ⬇️ EVAL flow.md>) | To add an item to the database.
 
     ---
     <br/>
@@ -151,7 +151,7 @@
     | [👀 Ads](<../../4 ⚙️ Solution/45 🤲 Helper domains/12 👀 Advertisers/👀🤲 Advertiser helper.md>) | ⓘ Explore follow-ups: <br/>- [ #️⃣ Play Tic-Tac-Toe ] 
     |
 
-    Here's the [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../10 😃 Talker.md>).
 
     ```yaml
     💬 Play guess:                      
@@ -199,7 +199,7 @@
 
     | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
-    | ⬇️ [`EVAL`](<../30 🗃️ Talker data/20 ⬇️ EVAL flow.md>) | To generate a random number a subtract tries.
+    | ⬇️ [`EVAL`](<../😃🗃️ Talker data/20 ⬇️ EVAL flow.md>) | To generate a random number a subtract tries.
     | ↕️ [`QUANTITY`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/42 ↕️ QUANTITY prompt.md>) | To collect the number input.
     | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | To allow for additional tries.
     | ↩️ [`RETURN`](<25 ↩️ RETURN flow.md>) | To return the result from the loop.

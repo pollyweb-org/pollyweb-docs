@@ -1,6 +1,6 @@
 # ❄️ Talker `FREEZE` command 
 
-> Part of [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>)
+> Part of [Talker 😃](<../10 😃 Talker.md>)
 
 
 <br/>
@@ -9,7 +9,7 @@
 1. **What is a FREEZE command?**
 
     A `FREEZE` ❄️
-    * is a flow [Command ⌘](<../40 🌊 Talker flows/10 ⌘ Command.md>) 
+    * is a flow [Command ⌘](<../😃🌊 Talker flow/10 ⌘ Command.md>) 
     * that freezes all previous [non-blocking Prompts 🤔](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/1 📘 Prompt features/08 ⚠️ as Status.md>)
     * as described in the [Freeze ⏩ flow](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Freeze ❄️.md>).
 
@@ -70,13 +70,13 @@
     ```
 
 
-    | [Command ⌘](<../40 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../😃🌊 Talker flow/10 ⌘ Command.md>) | Purpose
     |-|-
     | 📝 [`INFORM`](<41 📝 INFORM msg.md>) | Show user instructions and allow inputs.
     | 1️⃣ [`ONE`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/53 1️⃣ ONE prompt.md>) | Select an option, the day in this case.
     | 💼 [`SHARE`](<45 💼 SHARE msg.md>) | Get the user's booking contacts.
     | 👍 [`CONFIRM`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/31 👍 CONFIRM prompt.md>) | Pause to allow changing previous inputs.
-    | ⬇️ [`EVAL`](<../30 🗃️ Talker data/20 ⬇️ EVAL flow.md>) | Save the booking.
+    | ⬇️ [`EVAL`](<../😃🗃️ Talker data/20 ⬇️ EVAL flow.md>) | Save the booking.
 
     ---
     <br/>

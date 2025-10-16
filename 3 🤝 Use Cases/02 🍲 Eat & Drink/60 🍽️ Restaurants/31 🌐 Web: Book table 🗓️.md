@@ -74,14 +74,14 @@
 ```
 
 
-| [Command ⌘](<../../../9 😃 Talkers/40 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
+| [Command ⌘](<../../../9 😃 Talkers/😃🌊 Talker flow/10 ⌘ Command.md>) | Purpose
 |-|-
 | 
-| 🪣 [`MAP`](<../../../9 😃 Talkers/30 🗃️ Talker data/61 🪣 MAP item.md>) | Map the locator to a restaurant info.
-| 📝 [`INFORM`](<../../../9 😃 Talkers/60 ⏩ Msg flows/41 📝 INFORM msg.md>) | Show user instructions and allow inputs.
+| 🪣 [`MAP`](<../../../9 😃 Talkers/😃🗃️ Talker data/61 🪣 MAP item.md>) | Map the locator to a restaurant info.
+| 📝 [`INFORM`](<../../../9 😃 Talkers/😃📨 Talker msgs/41 📝 INFORM msg.md>) | Show user instructions and allow inputs.
 | 1️⃣ [`ONE`](<../../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/53 1️⃣ ONE prompt.md>) | Select an option, the day in this case.
-| 💼 [`SHARE`](<../../../9 😃 Talkers/60 ⏩ Msg flows/45 💼 SHARE msg.md>) | Get the user's booking contacts.
+| 💼 [`SHARE`](<../../../9 😃 Talkers/😃📨 Talker msgs/45 💼 SHARE msg.md>) | Get the user's booking contacts.
 | 👍 [`CONFIRM`](<../../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/31 👍 CONFIRM prompt.md>) | Pause to allow changing previous inputs.
-| ❄️ [`FREEZE`](<../../../9 😃 Talkers/60 ⏩ Msg flows/42 ❄️ FREEZE msg.md>) | Freeze all previous inputs from changes.
-| ⬇️ [`EVAL`](<../../../9 😃 Talkers/30 🗃️ Talker data/20 ⬇️ EVAL flow.md>) | Save the booking.
+| ❄️ [`FREEZE`](<../../../9 😃 Talkers/😃📨 Talker msgs/42 ❄️ FREEZE msg.md>) | Freeze all previous inputs from changes.
+| ⬇️ [`EVAL`](<../../../9 😃 Talkers/😃🗃️ Talker data/20 ⬇️ EVAL flow.md>) | Save the booking.
 |
