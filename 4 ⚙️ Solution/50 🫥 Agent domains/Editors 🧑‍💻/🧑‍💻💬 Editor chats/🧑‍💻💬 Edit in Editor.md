@@ -1,14 +1,11 @@
-Bind to an Editor agent
----
+# Edit a setting on an Editor agent
 
 | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 |-|-|-|
-| | | > Add vault
+| | | ✨ scan folder QR
 | 🔎 [Finder](<../../Finders 🔎/🔎🫥 Finder agent.md>) | ⓘ Any Folder (4.3 ⭐)  [+]
-| 🧑‍💻 [Editor](<../🧑‍💻🫥 Editor agent.md>) | ℹ️ Bind vault requested.
-| 🤵 [Broker](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Bind vault? [No] <br/> - [ Any Persona 🧢 ] <br/> - [ Any Payer 💳 ] <br/> - ... | > Any Persona 🧢
-| 🧢 [Persona](<../../Personas 🧢/🧢🫥 Persona agent.md>) | ⓘ Folder bind requested.
+| 🧑‍💻 [Editor](<../🧑‍💻🫥 Editor agent.md>) | ℹ️ Open editor requested.
 | 🆔 [Identity](<../../Identities 🆔/🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../Identities 🆔/🆔⏩ Identity flows/6 🆔⏩😶 Face scan.md>)
-| 🧑‍💻 [Editor](<../🧑‍💻🫥 Editor agent.md>) | ✅ Bound to Any Persona 🧢
+| 🧑‍💻 Editor   | ✅ Editor opened.
 | ⭐ [Rate](<../../Reviewers ⭐/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5 |
 ||
