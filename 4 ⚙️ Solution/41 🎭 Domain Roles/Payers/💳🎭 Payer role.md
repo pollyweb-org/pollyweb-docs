@@ -5,7 +5,7 @@
 
     A Payer 💳 is any [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) that sends payments to [Collector 🏦 domains](<../../45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) under two categories:
 
-    * **[Payer 💳🫥 agents](<../../50 🫥 Agent domains/Payers 💳/04 💳🫥 Payer agent.md>)**: 
+    * **[Payer 💳🫥 agents](<../../50 🫥 Agent domains/Payers 💳/💳🫥 Payer agent.md>)**: 
         * these are [Payer 💳 domains](<💳🎭 Payer role.md>) that act as [Agent 🫥 vaults](<../../50 🫥 Agent domains/$ Agent Vaults 🫥/$ 🫥🗄️ Agent vault.md>)
         * for users with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>), 
         * interacting in [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) with [Seller 💵 hosts](<../Sellers 💵/💵🎭 Seller role.md>).
