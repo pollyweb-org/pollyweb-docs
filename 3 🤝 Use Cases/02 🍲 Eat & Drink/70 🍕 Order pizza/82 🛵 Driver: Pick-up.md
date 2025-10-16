@@ -17,7 +17,7 @@ How do drivers fulfill an order at the pizzeria?
 | 🛵 Courier    | 📣 Ping!
 | 🛵 Courier    | 😃 Accept order? [Yes, No] <br/>- from Any Pizza (2 min)  <br/>- to 123, Boulevard (7 min) | > Yes
 | 🛵 Courier    | ℹ️ Pick-up at Any Pizza. <br/>- [ Cancel ]  <br>- [ Navigate ] to pick-up <br>- [ Alert ] arrival | > Alert
-| 🛵 Courier    | 😃 Tap/scan the store's tag. | 🔆 [tap](<../../../4 ⚙️ Solution/30 Data/15 🔆 Locators/$ 🔆 Locator.md>)
+| 🛵 Courier    | 😃 Tap/scan the store's tag. | 🔆 [tap](<../../../4 ⚙️ Solution/25 Locators/15 🔆 Locators/$ 🔆 Locator.md>)
 | 🛵 Courier    | ⏳ Wait for order 27... [+]
 | 🛵 Courier    | 😃 Is it correct? [Yes, No] <br/>- order 27 <br/> - 1 small 4 Cheese 🧀 <br/>- 1 diet coke 🥤 | > Yes
 | 🛵 Courier    | ℹ️ Deliver at 123, Boulevard. <br>- [ Navigate ] to pick-up 

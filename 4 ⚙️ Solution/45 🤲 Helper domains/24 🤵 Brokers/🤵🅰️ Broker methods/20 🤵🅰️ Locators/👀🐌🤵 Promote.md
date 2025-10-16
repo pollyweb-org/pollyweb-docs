@@ -4,7 +4,7 @@
 
 * [Advertiser 👀 helper domains](<../../../12 👀 Advertisers/👀🤲 Advertiser helper.md>) 
     * ask [Broker 🤵 domains](<../../🤵🤲 Broker helper.md>) 
-    * to check-in into the selected [Locator 🔆](<../../../../30 Data/15 🔆 Locators/$ 🔆 Locator.md>).
+    * to check-in into the selected [Locator 🔆](<../../../../25 Locators/15 🔆 Locators/$ 🔆 Locator.md>).
 
 
 <br/>
@@ -28,5 +28,5 @@ Body:
 |           | `To`  | string| [Broker 🤵](<../../🤵🤲 Broker helper.md>) from [`Onboard@Notifier`](<../../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
 ||`Subject` | string | `Promote@Broker`
 |Body|`ChatID`  | uuid   | [Chat 💬](<../../../../35 Chats/12 💬 Chats/💬 Chat.md>)  from [`Converse@Notifier`](<../../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/2 💬 Chats/1 🤵🐌📣 Converse.md>)
-||`Locator`  | string  | [Locator 🔆](<../../../../30 Data/15 🔆 Locators/$ 🔆 Locator.md>) to promote
+||`Locator`  | string  | [Locator 🔆](<../../../../25 Locators/15 🔆 Locators/$ 🔆 Locator.md>) to promote
 |

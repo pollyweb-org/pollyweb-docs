@@ -23,7 +23,7 @@
     |-|-
     | 🧑‍🦰 [Wallet](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) | Is it really the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) owner holding the device?
     |[🎫 Token](<../../30 Data/30 🎫 Tokens/🎫 Token.md>)| Was the [Token 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>) really issued to the person holding the device?
-    |[💍 Userable](<../../70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>)| Is it really the [Userable 💍](<../../70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>) owner [tapping 🔆](<../../30 Data/15 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) it on a scanner?
+    |[💍 Userable](<../../70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>)| Is it really the [Userable 💍](<../../70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>) owner [tapping 🔆](<../../25 Locators/15 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) it on a scanner?
   
     ---
     <br/>

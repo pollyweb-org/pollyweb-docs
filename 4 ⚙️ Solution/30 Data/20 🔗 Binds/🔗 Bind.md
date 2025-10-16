@@ -94,7 +94,7 @@
     Using the domain's mobile website or mobile app:
     1. a user (e.g., Alice) initiates a session in the target [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>);
     2. clicks on a `bind wallet` button provided by the [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>);
-    3. a QR code [Locator 🔆](<../15 🔆 Locators/$ 🔆 Locator.md>) is presented to the user;
+    3. a QR code [Locator 🔆](<../../25 Locators/15 🔆 Locators/$ 🔆 Locator.md>) is presented to the user;
     4. the user scans the QR code with their mobile device;
     5. the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) opens with a new [💬 Chat](<../../35 Chats/12 💬 Chats/💬 Chat.md>) with the [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>).
 
@@ -102,9 +102,9 @@
 
     | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 Chats/20 🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     |-|-|-
-    | | | 🔆 [scan](<../15 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>)
+    | | | 🔆 [scan](<../../25 Locators/15 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>)
     | 🔎 [Finder](<../../50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Vault (4.3 ⭐)  [+] || The [Broker 🤵](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) informed the user.
-    | 🗄️ Vault | ℹ️ Hi, Alice! Let's bind. || The [Locator 🔆](<../15 🔆 Locators/$ 🔆 Locator.md>) had a [Host 🤗](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>)  callback.
+    | 🗄️ Vault | ℹ️ Hi, Alice! Let's bind. || The [Locator 🔆](<../../25 Locators/15 🔆 Locators/$ 🔆 Locator.md>) had a [Host 🤗](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>)  callback.
     | [🤵 Broker](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) | ⓘ Flow: Web bind [+] || The [Host 🤗 role](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) changed the context.
     | 🗄️ Vault | 😃 What to bind? [All] <br/> - [ Data Set #1 ] <br/> - [ Data Set #2 ] | > All
     | [🤵 Broker](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Bind [Yes, No, +]<br/>- [ Schema Code 🧩](<../10 🧩 Schema Codes/🧩 Schema Code.md>) #1  <br/> - [Schema Code 🧩](<../10 🧩 Schema Codes/🧩 Schema Code.md>) #2 | > Yes | The [Broker 🤵](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) protected the user.
