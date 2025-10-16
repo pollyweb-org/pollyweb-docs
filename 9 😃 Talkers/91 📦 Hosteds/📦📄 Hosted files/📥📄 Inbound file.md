@@ -1,14 +1,14 @@
 # 📥 Hosted `Inbound` file
 
-> Part of [Hosted 📦 domain](<01 📦 Hosted domain.md>)
+> Part of [Hosted 📦 domain](<../📦👥 Hosted domain.md>)
 
 <br/>
 
 1. **What is the Inbound file?**
 
     The `📥 Inbound.yaml` file 
-    * tells the [Hoster ☁️ domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/55 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>) 
-    * where to forward [Messages 📨](<../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/📨 Message.md>) to.
+    * tells the [Hoster ☁️ domain](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/55 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>) 
+    * where to forward [Messages 📨](<../../../4 ⚙️ Solution/40 👥 Domains/41 📨 Messages/📨 Message.md>) to.
 
     ---
     <br/>
@@ -43,8 +43,8 @@
 
 1. **How is traffic processed over HTTP?**
 
-    Using the [`PublicKey.txt`](<10 🔑📄 PublicKey file.md>) file,
-    * [Hosted 📦 domains](<01 📦 Hosted domain.md>) decrypt the messages received from [Hoster ☁️ domains](<../../4 ⚙️ Solution/45 🛠️ Helper domains/55 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>), 
+    Using the [`PublicKey.txt`](<🔑📄 PublicKey file.md>) file,
+    * [Hosted 📦 domains](<../📦👥 Hosted domain.md>) decrypt the messages received from [Hoster ☁️ domains](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/55 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>), 
     * and encrypt the replies and outbound messages.
 
     ---
