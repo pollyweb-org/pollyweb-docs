@@ -9,7 +9,7 @@
 | - | - | - |
 |...
 | 🎪 Stall      | ⏳ We'll call you when ready [+]
-| 💳 [Payer](<../../../4 ⚙️ Solution/50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Refund received: $1.00
+| 💳 [Payer](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Payers 💳/03 💳🎭 Payer role.md>) | 🫥 Refund received: $1.00
 | 🎪 Stall      | 📣 We're out of chips! [ Quiet ] | > Quiet
 | 🎪 Stall      | 😐 Change the request?  [Yes, No] | > No
 | 🎪 Stall      | ⏳ We'll call you when ready [+]

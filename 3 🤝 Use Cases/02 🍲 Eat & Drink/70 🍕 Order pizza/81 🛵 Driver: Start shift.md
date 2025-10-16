@@ -3,7 +3,7 @@ How do drivers fulfill an order at the pizzeria?
 
 > From [🍕 Order Pizza](<01 🍕 Index.md>)
 
-> Mentioned in [Verify Identity-bound Tokens 🆔](<../../../4 ⚙️ Solution/50 🫥 Agent domains/45 🆔 Identities/14 🆔🎫 Verify Tokens.md>)
+> Mentioned in [Verify Identity-bound Tokens 🆔](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/14 🆔🎫 Verify Tokens.md>)
 
 <br/>
 
@@ -12,11 +12,11 @@ How do drivers fulfill an order at the pizzeria?
 Service | Prompt | User
 | - | - | - |
 | | | > Courier 🔗
-| 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Courier (4.4 ⭐) [+]
+| 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) | ⓘ Any Courier (4.4 ⭐) [+]
 | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | ⓘ Staff [🪪 token](<../../../4 ⚙️ Solution/30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) shared [+]
 | 🛵 Courier    | 😃 Hi Leo, what's up? <br/>- [ Deliver ] orders <br/>- [ Something else ] | > Deliver
 | 🛵 Courier | [📍 Share location?](<../../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔✏️ Prompt inputs/91 📍 LOCATION prompt.md>) | > Yes
-| 🆔 [Identity](<../../../4 ⚙️ Solution/50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.  | [📸 selfie](<../../../4 ⚙️ Solution/50 🫥 Agent domains/45 🆔 Identities/21 🆔😶 Face scan.md>)
+| 🆔 [Identity](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.  | [📸 selfie](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/21 🆔😶 Face scan.md>)
 | 🛵 Courier    | ⏳ Waiting orders... <br/>- [ Take a break ] <br/>- [ End shift ]
 ...
 ||

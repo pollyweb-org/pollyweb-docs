@@ -14,10 +14,10 @@
 | 1 | [🤵🐌👀 Advertise @ Advertiser](<../👀🅰️ Advertiser methods/🤵🐌👀 Advertise.md>) | [Brokers 🤵](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) initiate the advertising with user context
 | 2 | [🤵🐌🤗 Summarize @ Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🤵🐌🤗 Summarize.md>) | Then ask [Hosts 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) to summarize the [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>)
 | 3 | [🤗🐌👀 Summarized @ Advertiser](<../👀🅰️ Advertiser methods/🤗🐌👀 Summarized.md>) | [Hosts 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) notify [Advertisers 👀](<../👀🤲 Advertiser helper.md>) when summarized
-| 4 | [🤗🐌🧚 Anonymize @ Curator](<../../../50 🫥 Agent domains/30 🧚 Curators/🧚🅰️ Curator methods/🤗🐌🧚 Anonymize.md>) | Then ask [Curators 🧚](<../../../50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) to anonymize the summary
-| 5 | [🧚🐌👀 Anonymized @ Advertiser](<../👀🅰️ Advertiser methods/🧚🐌👀 Anonymized.md>) | [Curators 🧚](<../../../50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) add anonymized summaries to context
-| 6 | [👀🐌🧚 Sort @ Curator](<../../../50 🫥 Agent domains/30 🧚 Curators/🧚🅰️ Curator methods/👀🐌🧚 Sort.md>) | [Advertisers 👀](<../👀🤲 Advertiser helper.md>) ask [Curators 🧚](<../../../50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) to sort possible ads
-| 7 | [🧚🐌👀 Sorted @ Advertiser](<../👀🅰️ Advertiser methods/🧚🐌👀 Sorted.md>) | [Curators 🧚](<../../../50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) return their view of user preferences
+| 4 | [🤗🐌🧚 Anonymize @ Curator](<../../../50 🫥 Agent domains/Curators 🧚/🧚🅰️ Curator methods/🤗🐌🧚 Anonymize.md>) | Then ask [Curators 🧚](<../../../50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) to anonymize the summary
+| 5 | [🧚🐌👀 Anonymized @ Advertiser](<../👀🅰️ Advertiser methods/🧚🐌👀 Anonymized.md>) | [Curators 🧚](<../../../50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) add anonymized summaries to context
+| 6 | [👀🐌🧚 Sort @ Curator](<../../../50 🫥 Agent domains/Curators 🧚/🧚🅰️ Curator methods/👀🐌🧚 Sort.md>) | [Advertisers 👀](<../👀🤲 Advertiser helper.md>) ask [Curators 🧚](<../../../50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) to sort possible ads
+| 7 | [🧚🐌👀 Sorted @ Advertiser](<../👀🅰️ Advertiser methods/🧚🐌👀 Sorted.md>) | [Curators 🧚](<../../../50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) return their view of user preferences
 | 8 | [🤗⏩🧑‍🦰 Prompt 🤔](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Advertisers 👀](<../👀🤲 Advertiser helper.md>) show  next best actions to [Wallets 🧑‍🦰](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 | 9 | [👀🐌🤵 Promote @ Broker](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🅰️ Broker methods/2 🤵🅰️ Locators/👀🐌🤵 Promote.md>) | Then ask [Brokers 🤵](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) to check-in into any selection
 ||
@@ -29,7 +29,7 @@
 1. **How is privacy protected?**
 
     [Advertisers 👀](<../👀🤲 Advertiser helper.md>) can't read [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) contents.
-    - Instead, [Hosts 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) and [Curators 🧚](<../../../50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) summarize and anonymize [Chats 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>)
+    - Instead, [Hosts 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) and [Curators 🧚](<../../../50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) summarize and anonymize [Chats 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>)
     - [Advertisers 👀](<../👀🤲 Advertiser helper.md>) generate nest best actions with that anonymous summary.
 
     ---
@@ -37,7 +37,7 @@
 
 1. **How resilient is the process?**
 
-    [Hosts 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) or [Curators 🧚](<../../../50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) may fail to do their part.
+    [Hosts 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) or [Curators 🧚](<../../../50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) may fail to do their part.
     - If so, [Advertisers 👀](<../👀🤲 Advertiser helper.md>) generate based only on context given by [Brokers 🤵](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>)
 
     ---

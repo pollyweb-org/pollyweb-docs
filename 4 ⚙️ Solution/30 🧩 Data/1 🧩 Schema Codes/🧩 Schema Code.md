@@ -250,7 +250,7 @@
         * whose property `Domain`
         * references `Domain@.TYPES`
         * defined in [`.TYPES` 🧩](<../../../7 🧩 Codes/$/🧩 TYPES code.md>).
-    * See [`.PERSONA/ADDRESS` 🧩](<../../50 🫥 Agent domains/70 🧢 Personas/🧢🧩 Persona schemas/🧩 ADDRESS.md>)
+    * See [`.PERSONA/ADDRESS` 🧩](<../../50 🫥 Agent domains/Personas 🧢/🧢🧩 Persona schemas/🧩 ADDRESS.md>)
         * whose property `Country`
         * references `Alpha2@standards.any-igo.org/3166-1`
         * defined in [`standards.any-igo.org/3166-1` 📜](<../../../8 📜 Manifests/👥 any-igo.org/📜 standards.any-igo.org.md>).

@@ -18,7 +18,7 @@
 
     | Scenario | Details
     |-|-
-    | `Reviewer` | [Reviewer ⭐](<../../../50 🫥 Agent domains/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>)
+    | `Reviewer` | [Reviewer ⭐](<../../../50 🫥 Agent domains/Reviewers ⭐/⭐🫥 Reviewer agent.md>)
 
     ---
     <br/>
@@ -76,7 +76,7 @@
     | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 What's the rate? | ⭐ 5
-    [🫥 Agent](<../../../50 🫥 Agent domains/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) | 🫥 What's the code? | ⭐ 4
+    [🫥 Agent](<../../../50 🫥 Agent domains/$ Agent Vaults 🫥/$ 🫥🗄️ Agent vault.md>) | 🫥 What's the code? | ⭐ 4
     | [🤲 Helper](<../../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>) | 🫥 What's the code? | ⭐ 2
     |
 

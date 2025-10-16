@@ -1,7 +1,7 @@
 How to book a room at a hotel?
 ===
 
-> Mentioned in [Verify Signatures 🆔](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/45 🆔 Identities/16 🆔🔏 Verify Signatures.md>)
+> Mentioned in [Verify Signatures 🆔](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/16 🆔🔏 Verify Signatures.md>)
 
 <br/>
 
@@ -13,28 +13,28 @@ How to book a room at a hotel?
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 💬 How can I help with that? <br> - [ Book ] with 🌍 Any Agency <br/> - [ Something else ] | > Book
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | ✅ Over to 🌍 Any Agency.
 | [ new chat ]
-| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Agency (4.4 ⭐) [+]
+| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) | ⓘ Any Agency (4.4 ⭐) [+]
 | 🌍 Agency   | ℹ️ Received booking request.
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 [Ready to book?](<../../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃📨 Talker msgs/41 📝 INFORM msg.md>) [Yes, No] <br/> - your scheduler sets when 🗓️  <br/> - your curator filters options 🧚 <br/> - your persona sets contacts 🧢 <br/> - your payer associates a card 💳 <br/> - save the booking on wallet 🤵 <br/> - click the booking to change 🎫  <br/> - tap a hotel tag on arrival ✨ | > Yes
-| [🗓️ Scheduler](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/75 🗓️ Schedulers/$ 🗓️🫥 Scheduler agent.md>) | 🫥 Any of these trips? [No] <br/>- [ Feb 18-20 ] to Madrid 🇪🇸 <br/>- [ Mar 26-28 ] to London 🇬🇧 | > Feb 18-20
+| [🗓️ Scheduler](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Schedulers 🗓️/$ 🗓️🫥 Scheduler agent.md>) | 🫥 Any of these trips? [No] <br/>- [ Feb 18-20 ] to Madrid 🇪🇸 <br/>- [ Mar 26-28 ] to London 🇬🇧 | > Feb 18-20
 | 🌍 Agency   | ℹ️ Received information: <br/> - 1 person for 2 nights <br/>- in Madrid, Spain <br/> - near Cuatro Torres  <br/> - from Feb 18 to Feb 20
 | 🌍 Agency   | ⏳ Searching... 
-| 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) | 🫥 Share preferences? [No] <br/>- [ 👤 solo ] <br/>- [ 👨‍👩‍👦 family ] | > 👤 solo
-| 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) | ⏳ Analyzing hotels... 
-| 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) | 💭 Here are suggestions: <br/> - [ Any Hotel ] 9👍 (1km) $250   <br/> - [ Hotel X ] 8👍 (3km) $190  <br/> - ... | `gym?`
-| 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) | 💭 These have gyms: <br/> - [ Any Hotel ] 9👍 (1km) $250   <br/> - [ Hotel ABC ] 7👍 (5km) $210  <br/> - ... | > Any Hotel
-| 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) | ℹ️ Hotel selected: [Change] <br/> - Any Hotel (1 km away)<br/>- at Calla de St. Ana <br/> - people say it's 9 out 10 👍 <br/> - with gym and inside pool <br/> - cancel for free until Jan 7 
-| 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) | 💭 Here's all king rooms: <br/> - [ B ] $250: king to garden  <br/> - [ D ] $335: king to river 🥐 | `the 1st`
-| 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) | ℹ️ Room selected: [Change] <br/> - king to garden ($250) <br/> - does not include breakfast
+| 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) | 🫥 Share preferences? [No] <br/>- [ 👤 solo ] <br/>- [ 👨‍👩‍👦 family ] | > 👤 solo
+| 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) | ⏳ Analyzing hotels... 
+| 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) | 💭 Here are suggestions: <br/> - [ Any Hotel ] 9👍 (1km) $250   <br/> - [ Hotel X ] 8👍 (3km) $190  <br/> - ... | `gym?`
+| 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) | 💭 These have gyms: <br/> - [ Any Hotel ] 9👍 (1km) $250   <br/> - [ Hotel ABC ] 7👍 (5km) $210  <br/> - ... | > Any Hotel
+| 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) | ℹ️ Hotel selected: [Change] <br/> - Any Hotel (1 km away)<br/>- at Calla de St. Ana <br/> - people say it's 9 out 10 👍 <br/> - with gym and inside pool <br/> - cancel for free until Jan 7 
+| 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) | 💭 Here's all king rooms: <br/> - [ B ] $250: king to garden  <br/> - [ D ] $335: king to river 🥐 | `the 1st`
+| 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) | ℹ️ Room selected: [Change] <br/> - king to garden ($250) <br/> - does not include breakfast
 | 🌍 Agency   | 😃 Confirm $250? [Yes, No] <br/> - Any Hotel <br/> - at Calla de St. Ana, Madrid, SP <br/> - room king to garden <br/> - from Feb 18 to Feb 20 <br/> - 1 person, no breakfast <br/> - cancel for free until Jan 7 | > Yes
-| 🧢 [Persona](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/70 🧢 Personas/🧢🫥 Persona agent.md>) | 🫥 Share booking contacts? [No] <br/>- [ 🧑‍🦰 personal ] <br/>- [ 💼 work ] <br/>- [ 🧔 Daniel ] | > 💼 work
+| 🧢 [Persona](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Personas 🧢/🧢🫥 Persona agent.md>) | 🫥 Share booking contacts? [No] <br/>- [ 🧑‍🦰 personal ] <br/>- [ 💼 work ] <br/>- [ 🧔 Daniel ] | > 💼 work
 | 🌍 Agency   | ℹ️ Thanks, Dr. Alice! 
-| 🆔 [Identity](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 [Sign terms?](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/45 🆔 Identities/16 🆔🔏 Verify Signatures.md>) 📄 [Yes, No] | > Yes
-| 🆔 [Identity](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/45 🆔 Identities/21 🆔😶 Face scan.md>)
-| 💳 [Payer](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Authorize card? 📄 [No] <br/>- [ Card ABC ] + $0.10 <br/>- [ Card DEF ] (free) | > Card ABC |
+| 🆔 [Identity](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/$ 🆔🫥 Identity agent.md>) | 🫥 [Sign terms?](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/16 🆔🔏 Verify Signatures.md>) 📄 [Yes, No] | > Yes
+| 🆔 [Identity](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/21 🆔😶 Face scan.md>)
+| 💳 [Payer](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Payers 💳/03 💳🎭 Payer role.md>) | 🫥 Authorize card? 📄 [No] <br/>- [ Card ABC ] + $0.10 <br/>- [ Card DEF ] (free) | > Card ABC |
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Save booking? [Yes, No] | > Yes 
 | 🌍 Agency   | ✅ Booked!   
-| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5 |
+| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Reviewers ⭐/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5 |
 | 🌍 Agency   | ⏳ Upcoming bookings: <br/> - [ #1 ] Feb 18-20 at Any Hotel
 | ... 
 |||

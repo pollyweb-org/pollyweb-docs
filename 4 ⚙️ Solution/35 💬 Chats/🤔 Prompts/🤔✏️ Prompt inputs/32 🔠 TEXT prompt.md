@@ -24,9 +24,9 @@
     |Agent| Purpose
     |-|-
     |🤵 [Broker](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>)| To search for the right agent for a job.
-    🔎 [Finder](<../../../50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) | To search for a host of a service or place.
-    🧭 [Navigator](<../../../50 🫥 Agent domains/55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | To report on something suspicious.
-    |[💖 Vitalogist](<../../../50 🫥 Agent domains/95 💖 Vitalogists/💖🫥 Vitalogist agent.md>)| To register food intake.
+    🔎 [Finder](<../../../50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) | To search for a host of a service or place.
+    🧭 [Navigator](<../../../50 🫥 Agent domains/Navigators 🧭/$ 🧭🫥 Navigator agent.md>) | To report on something suspicious.
+    |[💖 Vitalogist](<../../../50 🫥 Agent domains/Vitalogists 💖/💖🫥 Vitalogist agent.md>)| To register food intake.
 
     ---
     <br/>
@@ -49,7 +49,7 @@
    |Emoji|Usage
    |-|-
    |💬| The speech emoji 💬 represents the chat's [Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) and any [Helper 🤲 domains](<../../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>) that it may [invite ⏩](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Invite 🤲.md>).
-   |💭| The thought emoji 💭 represents user [Agent 🫥 vaults](<../../../50 🫥 Agent domains/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>).
+   |💭| The thought emoji 💭 represents user [Agent 🫥 vaults](<../../../50 🫥 Agent domains/$ Agent Vaults 🫥/$ 🫥🗄️ Agent vault.md>).
 
     ---
     <br/>
@@ -123,7 +123,7 @@
     | - | - | - |
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 💬 How are you today? | `I'm fine`
     | [🤲 Helper](<../../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>) | 💬 How are you today? | `I'm fine`
-    | [🫥 Agent](<../../../50 🫥 Agent domains/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) | 💭 How are you today? | `I'm fine`
+    | [🫥 Agent](<../../../50 🫥 Agent domains/$ Agent Vaults 🫥/$ 🫥🗄️ Agent vault.md>) | 💭 How are you today? | `I'm fine`
     |
    
     <br/>

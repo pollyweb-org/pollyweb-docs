@@ -1,6 +1,6 @@
 # 👤 IDENTIFY prompt
 
-> Opens a pop-up for the user's [Identity 🆔 agent](<../../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) to perform a face scan.
+> Opens a pop-up for the user's [Identity 🆔 agent](<../../../50 🫥 Agent domains/Identities 🆔/$ 🆔🫥 Identity agent.md>) to perform a face scan.
 
 > Part of [blocking input prompts 🤔](<../🤔⚙️ Prompt features/9 ✏️ as Input.md>)
 

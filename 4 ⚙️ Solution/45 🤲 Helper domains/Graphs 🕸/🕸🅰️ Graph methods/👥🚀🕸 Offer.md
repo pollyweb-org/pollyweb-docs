@@ -7,7 +7,7 @@
 
 * Returns details about a given ServiceID in a Host's Manifest.
 * Used by:
-    *  [⭐⏩🧑‍🦰 Review @ Reviewer ](<../../../50 🫥 Agent domains/73 ⭐ Reviewers/⏩ Reviewer flows/01 ⭐⏩🧑‍🦰 Review.md>)
+    *  [⭐⏩🧑‍🦰 Review @ Reviewer ](<../../../50 🫥 Agent domains/Reviewers ⭐/⏩ Reviewer flows/01 ⭐⏩🧑‍🦰 Review.md>)
 
 <br/>
 

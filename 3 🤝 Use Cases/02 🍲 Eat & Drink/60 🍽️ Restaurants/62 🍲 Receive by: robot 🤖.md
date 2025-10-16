@@ -12,7 +12,7 @@ How to receive items from robots at a restaurant?
 | 🍽️ Restaurant | 📣 Pick items from Rainbow 🌈  <br/> - 1 tap water 🚰 on row 2️⃣ <br/> - 1 red wine glass 🍷 on row 3️⃣
 | 🍽️ Restaurant | ⏳ Waiting for pick-up... [+]
 | 🍽️ Restaurant | ✅ Items delivered: <br/> - 1 tap water 🚰 <br/> - 1 red wine glass 🍷
-| 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agent domains/95 💖 Vitalogists/💖🫥 Vitalogist agent.md>) | 🫥 Save intake? [Yes, No] | > Yes
+| 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Vitalogists 💖/💖🫥 Vitalogist agent.md>) | 🫥 Save intake? [Yes, No] | > Yes
 | 🍽️ Restaurant | ⏳ Preparing your order... [+]
 |...
 ||

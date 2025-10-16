@@ -4,9 +4,9 @@
 
 # 🔎🐌🤵 Introduced @ Broker
 
-> The [Finder 🔎 domain](<../../../../50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) finished the introduction.
+> The [Finder 🔎 domain](<../../../../50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) finished the introduction.
 
-> Used by [🔎⏩🧑‍🦰 Introduce ⓘ](<../../../../50 🫥 Agent domains/40 🔎 Finders/🔎⏩ Finder flows/🔎⏩🧑‍🦰 Introduce 🤗.md>)
+> Used by [🔎⏩🧑‍🦰 Introduce ⓘ](<../../../../50 🫥 Agent domains/Finders 🔎/🔎⏩ Finder flows/🔎⏩🧑‍🦰 Introduce 🤗.md>)
 
 <br/>
 
@@ -24,8 +24,8 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header | `From`    | string | [Finder 🔎](<../../../../50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) from [`Introduce@Finder`](<../../../../50 🫥 Agent domains/40 🔎 Finders/🔎🅰️ Finder methods/🤵🐌🔎 Introduce.md>)
-|        | `To`      | string | [Broker 🤵](<../../🤵🤲 Broker helper.md>)  from [`Introduce@Finder`](<../../../../50 🫥 Agent domains/40 🔎 Finders/🔎🅰️ Finder methods/🤵🐌🔎 Introduce.md>) |
+| Header | `From`    | string | [Finder 🔎](<../../../../50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) from [`Introduce@Finder`](<../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/🤵🐌🔎 Introduce.md>)
+|        | `To`      | string | [Broker 🤵](<../../🤵🤲 Broker helper.md>)  from [`Introduce@Finder`](<../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/🤵🐌🔎 Introduce.md>) |
 |        | `Subject` | string | `Introduced@Broker`
-| Body   | `ChatID`  | uuid   | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) from [`Introduce@Finder`](<../../../../50 🫥 Agent domains/40 🔎 Finders/🔎🅰️ Finder methods/🤵🐌🔎 Introduce.md>)
+| Body   | `ChatID`  | uuid   | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) from [`Introduce@Finder`](<../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/🤵🐌🔎 Introduce.md>)
 |

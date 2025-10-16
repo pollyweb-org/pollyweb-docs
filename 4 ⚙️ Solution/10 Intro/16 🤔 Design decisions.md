@@ -50,10 +50,10 @@ Design Decisions
 
         - this also mirrors real-world expectations, where citizens typically expect organizations to be responsible for the infrastructure required to hold their data, whatever any effort required from the citizen to manage or even know about such infrastructure.
 
-    - Nonetheless, [Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) may require users to provide a shared [Storage 💾 vault](<../50 🫥 Agent domains/80 💾 Storage/💾🫥 Storage agent.md>) to store the user's data;
+    - Nonetheless, [Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) may require users to provide a shared [Storage 💾 vault](<../50 🫥 Agent domains/Storage 💾/💾🫥 Storage agent.md>) to store the user's data;
  
         - this is a [Solid 📺](<../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/05 📺 Berners-Lee vaults.md>)-like user-centric [Vault 🗄️ domain](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) that other [Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) may leverage to address [sovereignty 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/00 🏳️ Sovereignty index.md>) regulations 
-        - e.g., a US-based [Vault 🗄️ domain](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) may store the data of a German citizen in the citizen's Germany-based [Storage 💾 vault](<../50 🫥 Agent domains/80 💾 Storage/💾🫥 Storage agent.md>).
+        - e.g., a US-based [Vault 🗄️ domain](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) may store the data of a German citizen in the citizen's Germany-based [Storage 💾 vault](<../50 🫥 Agent domains/Storage 💾/💾🫥 Storage agent.md>).
 
     - Those [bounded 🔗](<../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) [Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) allow users to quickly [autofill 📺](<../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/06 📺 SSI form auto filling.md>) forms;
 
@@ -63,11 +63,11 @@ Design Decisions
 
         - this also mirrors real-world interactions, where users typically hand-over to organization employees their physical documents with multiple data points (e.g., driver's license, passport).
   
-    - [Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) may allow users to change their stored data via the user's [Editor 🗂️ domain](<../50 🫥 Agent domains/42 🧑‍💻 Editors/🧑‍💻🫥 Editor agent.md>);
+    - [Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) may allow users to change their stored data via the user's [Editor 🗂️ domain](<../50 🫥 Agent domains/Editors 🧑‍💻/🧑‍💻🫥 Editor agent.md>);
 
         - this is a user-centric interface that allows a user to edit their data in multiple [Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) from a single editor;
 
-        - [Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) may require users to have a [Editor 🗂️ domain](<../50 🫥 Agent domains/42 🧑‍💻 Editors/🧑‍💻🫥 Editor agent.md>) to avoid having to build a user interface.
+        - [Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) may require users to have a [Editor 🗂️ domain](<../50 🫥 Agent domains/Editors 🧑‍💻/🧑‍💻🫥 Editor agent.md>) to avoid having to build a user interface.
     
     ---
     <br/>
@@ -76,15 +76,15 @@ Design Decisions
 
     NLWeb integrates payments in [Chats 💬](<../35 💬 Chats/💬 Chats/💬 Chat.md>) between users and [Seller 💵 domains](<../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>). 
     
-    - As preconditions, users must first bind their [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) to one or more [Payer 💳 vaults](<../50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>) (e.g., their bank), while [Seller 💵 domains](<../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) must bind to [Collector 🏦 vaults](<../45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) (e.g., a payment gateway). 
+    - As preconditions, users must first bind their [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) to one or more [Payer 💳 vaults](<../50 🫥 Agent domains/Payers 💳/03 💳🎭 Payer role.md>) (e.g., their bank), while [Seller 💵 domains](<../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) must bind to [Collector 🏦 vaults](<../45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) (e.g., a payment gateway). 
 
-    - The payment is sent from the [user's Payer 💳 vault](<../50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>) (on behalf of the user) to the [Seller's Collector 🏦 vault](<../45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) (on behalf of the [Seller 💵 domain](<../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>)). 
+    - The payment is sent from the [user's Payer 💳 vault](<../50 🫥 Agent domains/Payers 💳/03 💳🎭 Payer role.md>) (on behalf of the user) to the [Seller's Collector 🏦 vault](<../45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) (on behalf of the [Seller 💵 domain](<../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>)). 
     
     In a [Chat 💬](<../35 💬 Chats/💬 Chats/💬 Chat.md>): 
     1. the [Seller 💵 domain](<../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) requests a payment amount (e.g., 123.45 USD) - the user accepts; 
-    2. the [user's Payer 💳 vault](<../50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>)  asks for the user's preferred payment method (e.g., my company card, my bank account, agreed credit note) - the user selects one; 
-    3. depending on the risk associated (e.g., amount, Seller, date/time) the [user's Payer 💳 vault](<../50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>)  may ask for an authentication method (e.g., face scan, OTP); 
-    4. the [user's Payer 💳 vault](<../50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>) shares the receipt; 
+    2. the [user's Payer 💳 vault](<../50 🫥 Agent domains/Payers 💳/03 💳🎭 Payer role.md>)  asks for the user's preferred payment method (e.g., my company card, my bank account, agreed credit note) - the user selects one; 
+    3. depending on the risk associated (e.g., amount, Seller, date/time) the [user's Payer 💳 vault](<../50 🫥 Agent domains/Payers 💳/03 💳🎭 Payer role.md>)  may ask for an authentication method (e.g., face scan, OTP); 
+    4. the [user's Payer 💳 vault](<../50 🫥 Agent domains/Payers 💳/03 💳🎭 Payer role.md>) shares the receipt; 
     5. the [Seller 💵 domain](<../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) shares the order/invoice and delivers/promises the product/service.
  
     ---
