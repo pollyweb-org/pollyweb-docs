@@ -16,7 +16,7 @@ participant "Host 🤗\ndomain" as host
 
 activate broker
 
-    group Resolve, if @ALIAS 🧩 and not cached 
+    group Resolve, if .ALIAS 🧩 and not cached 
 
         broker -> printer: 1) Resolve 🚀
 

@@ -51,7 +51,7 @@ Details: |                          # Optional
 Options:                            # Optional
     - ID: 1                     
       Translation: Personal     
-      Locator: @HOST,any-host.dom,7V8KD3G
+      Locator: .HOST,any-host.dom,7V8KD3G
 ```
 
 |Property|Type|Description
