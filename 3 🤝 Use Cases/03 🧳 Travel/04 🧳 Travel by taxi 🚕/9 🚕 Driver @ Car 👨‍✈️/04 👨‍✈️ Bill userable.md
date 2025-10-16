@@ -3,7 +3,7 @@
 
 > [Userables 💍](<../../../../4 ⚙️ Solution/25 🔆 Locators/4 💍 Userables/💍💠 Userable thing.md>) allow customers to pay without battery on their devices.
 
-> Mentioned in [Verify Userables 🆔](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/15 🆔💍 Verify Userables.md>)
+> Mentioned in [Verify Userables 🆔](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/4 🆔💍 Verify Userables.md>)
 
 <br/>
 
