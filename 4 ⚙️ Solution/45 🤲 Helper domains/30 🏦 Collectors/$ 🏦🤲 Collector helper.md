@@ -72,8 +72,8 @@
 1. **Can a Collector be use in boutique's cash register?**
 
     Yes. Here's a possible configuration for [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) admins:
-    - add [🔆 NFC/QR Locators](<../../30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>) on both sides of the counter;
-    - issue cashier [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) from your [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>);
+    - add [🔆 NFC/QR Locators](<../../30 Data/15 🔆 Locators/$ 🔆 Locator.md>) on both sides of the counter;
+    - issue cashier [Tokens 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>) from your [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>);
     - create check-out workflows for cashier and customers.
 
     Set the cashier workflow as follows:
@@ -110,7 +110,7 @@
     * [🚕 Split taxi ride](<../../../3 🤝 Use Cases/03 🧳 Travel/04 🧳 Travel by taxi 🚕/2 🚕 Customer @ Car/23. Split with friends.md>).
     
     
-    The [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) will be similar to the following.
+    The [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) will be similar to the following.
 
     | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |

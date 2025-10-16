@@ -4,8 +4,8 @@
 
 > Used by [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>)
 
-* Asks the [Consumer 💼 domain](<../💼🎭 Consumer role.md>) to consume a given [Bind 🔗](<../../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>).
-* Tells them to collect data shared by a user in a [Chat 💬](<../../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>).
+* Asks the [Consumer 💼 domain](<../💼🎭 Consumer role.md>) to consume a given [Bind 🔗](<../../../30 Data/20 🔗 Binds/🔗 Bind.md>).
+* Tells them to collect data shared by a user in a [Chat 💬](<../../../35 Chats/12 💬 Chats/$ 💬 Chat.md>).
 
 <br/>
 
@@ -34,8 +34,8 @@ Body:
 | `To`| string | [Consumer 💼 domain](<../💼🎭 Consumer role.md>) name
 | `Subject` | string | `Consume@Consumer`
 | `Broker`| string | [Broker 🤵 domain](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) name
-| `ChatID` | uuid | [Chat 💬](<../../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID
-| `Code`| string |  [Schema Code 🧩](<../../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>)
+| `ChatID` | uuid | [Chat 💬](<../../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) ID
+| `Code`| string |  [Schema Code 🧩](<../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>)
 | `ConsumerKey` | uuid | From [`Query@`](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/60 🤵🅰️ Share/💼🐌🤵 Query.md>) and [`Invite@`](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/60 🤵🅰️ Share/💼🐌🤵 Invite.md>)
 | `VaultKey` | uuid | Callback to [`Collect@Vault`](<../../80 🗄️ Vaults/🗄️🅰️ Vault methods/💼🚀🗄️ Collect.md>)
 | `TTL` | timestamp| Callback deadline

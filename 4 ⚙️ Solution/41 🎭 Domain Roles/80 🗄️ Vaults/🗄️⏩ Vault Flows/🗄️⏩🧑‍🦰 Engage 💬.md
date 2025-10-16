@@ -3,8 +3,8 @@
 > Used by [🔃⏩🗃️ Chat @ Syncer](<../../../../5 ⏩ Flows/77 🔃⏩ Syncer/30 🔃⏩🗃️ Chat.md>)
 
 * Allows for [Vault 🗄️ domains](<../🗄️🎭 Vault role.md>) 
-    * to proactively start a new [Chat 💬](<../../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) 
-    * with a [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) previously [bound 🔗](<../../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>)
+    * to proactively start a new [Chat 💬](<../../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) 
+    * with a [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) previously [bound 🔗](<../../../30 Data/20 🔗 Binds/🔗 Bind.md>)
     * in the best interest of the user.
 
 <br/>
@@ -28,8 +28,8 @@
 
 |#|Step|Purpose
 |-|-|-
-|1| [🗄️🐌🤵 `Engage@Broker`](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/40 🤵🅰️ Binds 🔗/🗄️🐌🤵 Engage.md>) | [Vaults 🗄️](<../🗄️🎭 Vault role.md>) present a [Bind 🔗](<../../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>)
-| 2 | [🤵⏩🧑‍🦰 Assess 🔆](<../../../../5 ⏩ Flows/10 🤵⏩ Brokers/01 🤵⏩🧑‍🦰 Assess 🔆.md>) | [Brokers 🤵](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) open a [Chat 💬](<../../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)  on the [Wallet 🧑‍🦰](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) 
+|1| [🗄️🐌🤵 `Engage@Broker`](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/40 🤵🅰️ Binds 🔗/🗄️🐌🤵 Engage.md>) | [Vaults 🗄️](<../🗄️🎭 Vault role.md>) present a [Bind 🔗](<../../../30 Data/20 🔗 Binds/🔗 Bind.md>)
+| 2 | [🤵⏩🧑‍🦰 Assess 🔆](<../../../../5 ⏩ Flows/10 🤵⏩ Brokers/01 🤵⏩🧑‍🦰 Assess 🔆.md>) | [Brokers 🤵](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) open a [Chat 💬](<../../../35 Chats/12 💬 Chats/$ 💬 Chat.md>)  on the [Wallet 🧑‍🦰](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) 
 |3|[🤵🐌🤗 `Hello@Host`](<../../30 🤗 Hosts/🤗🅰️ Host methods/🤵🐌🤗 Hello.md>) | [Brokers 🤵](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) hand it over to [Hosts 🤗](<../../30 🤗 Hosts/🤗🎭 Host role.md>)
 |4|[🤗⏩🧑‍🦰 Prompt ℹ️](<../../30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Hosts 🤗](<../../30 🤗 Hosts/🤗🎭 Host role.md>) provide context
 |4|[🤗⏩🧑‍🦰 Prompt 😃](<../../30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Hosts 🤗](<../../30 🤗 Hosts/🤗🎭 Host role.md>) ask users for an action

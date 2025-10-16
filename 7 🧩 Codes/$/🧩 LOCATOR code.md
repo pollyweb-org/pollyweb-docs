@@ -1,8 +1,8 @@
 
-# [🧩](<../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) [Schema Code](<../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>): Locator
+# [🧩](<../../4 ⚙️ Solution/30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) [Schema Code](<../../4 ⚙️ Solution/30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>): Locator
 
 * Inherited by:
-  * [`.TOKEN` 🧩](<../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🧩 Token schemas/🧩 TOKEN.md>)
+  * [`.TOKEN` 🧩](<../../4 ⚙️ Solution/30 Data/30 🎫 Tokens/🧩 Token schemas/🧩 TOKEN.md>)
   * [`.HOST` 🧩](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🧩 Host schemas/🧩 HOST.md>)
   * [`.ALIAS` 🧩](<../../4 ⚙️ Solution/45 🤲 Helper domains/75 🖨️ Printers/🖨️🧩 Printer schemas/🧩 ALIAS.md>)
 
@@ -10,7 +10,7 @@
 
 ## Definition
 
-> [🤝:](<../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) [`.MANIFEST/CODE`](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/🧩 Manifest schemas/🧩 CODE.md>)
+> [🤝:](<../../4 ⚙️ Solution/30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) [`.MANIFEST/CODE`](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/🧩 Manifest schemas/🧩 CODE.md>)
 
 ```yaml
 Path: /LOCATOR

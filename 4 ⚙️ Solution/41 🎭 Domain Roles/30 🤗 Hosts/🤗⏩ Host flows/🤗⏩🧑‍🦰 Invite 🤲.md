@@ -2,7 +2,7 @@
 
 * A [Host 🤗 domain](<../🤗🎭 Host role.md>) 
     * invites a [Helper 🤲 domain](<../../../45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>) 
-    * to a [Chat 💬](<../../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>).
+    * to a [Chat 💬](<../../../35 Chats/12 💬 Chats/$ 💬 Chat.md>).
   
 * Used in:
     * [💼⏩🧑‍🦰 Share Token+ID @ Consumer](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/05 🧑‍🦰👉💼 Share Token+ID.md>) flow
@@ -17,7 +17,7 @@
 
 ## 💬 Chat
 
-Consider the following [Chat 💬](<../../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) as an example.
+Consider the following [Chat 💬](<../../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) as an example.
 
 | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 | - | - | - |
@@ -55,10 +55,10 @@ The associated [Talker 😃](<../../../../9 😃 Talkers/10 📘 Talker specs/10
 
 |#| Step | Purpose
 |-|-|-
-|1|[💼🐌🤵 `Invite@Broker`](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/60 🤵🅰️ Share/💼🐌🤵 Invite.md>)|Invite another [Host 🤗](<../🤗🎭 Host role.md>) to the [Chat 💬](<../../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
+|1|[💼🐌🤵 `Invite@Broker`](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/60 🤵🅰️ Share/💼🐌🤵 Invite.md>)|Invite another [Host 🤗](<../🤗🎭 Host role.md>) to the [Chat 💬](<../../../35 Chats/12 💬 Chats/$ 💬 Chat.md>)
 |2|[🤗⏩🧑‍🦰 Prompt 🤔](<🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) may ask for user permission
 |3| [🤵🐌🛠️ `Invited@Helper`](<../../../45 🤲 Helper domains/$ 🤲 Helpers/🤲🅰️ Helper methods/🤵🐌🤲 Invited.md>) | Proxy  invites to [Helper 🤲](<../../../45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>) invitees
-|4|[🤗⏩🧑‍🦰 Prompt 🤔](<🤗⏩🧑‍🦰 Prompt 🤔.md>) | Invitees continue the [Chat 💬](<../../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
+|4|[🤗⏩🧑‍🦰 Prompt 🤔](<🤗⏩🧑‍🦰 Prompt 🤔.md>) | Invitees continue the [Chat 💬](<../../../35 Chats/12 💬 Chats/$ 💬 Chat.md>)
 |5|[🗄️⏩💼 Consume 🧩](<../../80 🗄️ Vaults/🗄️⏩ Vault flows/🗄️⏩💼 Consume 🔗.md>) | Invitees share the final result
 |
 

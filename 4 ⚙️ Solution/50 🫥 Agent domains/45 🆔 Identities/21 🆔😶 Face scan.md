@@ -22,8 +22,8 @@
     | Presented | Question
     |-|-
     | 🧑‍🦰 [Wallet](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) | Is it really the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) owner holding the device?
-    |[🎫 Token](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>)| Was the [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) really issued to the person holding the device?
-    |[💍 Userable](<../../70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>)| Is it really the [Userable 💍](<../../70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>) owner [tapping 🔆](<../../30 🧩 Data/15 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) it on a scanner?
+    |[🎫 Token](<../../30 Data/30 🎫 Tokens/🎫 Token.md>)| Was the [Token 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>) really issued to the person holding the device?
+    |[💍 Userable](<../../70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>)| Is it really the [Userable 💍](<../../70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>) owner [tapping 🔆](<../../30 Data/15 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) it on a scanner?
   
     ---
     <br/>
@@ -81,7 +81,7 @@
 
     On NLWeb, the [face biometric verification 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/01 📺 Difference.md>) works as follows:
 
-    - the user always first presents *something they own* (e.g., a [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>)) plus context information (e.g., GPS coordinates and device configuration);
+    - the user always first presents *something they own* (e.g., a [Token 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>)) plus context information (e.g., GPS coordinates and device configuration);
 
     - then the user almost always presents *who they are* (e.g., their face, with a liveness check), which may be skipped soon after a successful authentication around the same geographic region with the same device;
 
@@ -115,7 +115,7 @@
     |-|-|-|-|-|-|-|-
     | `Has`   | Phone | Phone | QR code | [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) | NFC card | - | [NFC 💍](<../../70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>) |
     | `Is`    | - | - | - | [Face 📸](<21 🆔😶 Face scan.md>) | - | Face | [Face 📸](<21 🆔😶 Face scan.md>) |
-    | `Knows` | - | - | - | [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) | Card pin | User pin | [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) |
+    | `Knows` | - | - | - | [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) | Card pin | User pin | [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) |
     | `Screen`<br/>`Lock ⚠️` | Pin, Face,<br/>Fingers | Pin, Face,<br/>Fingers | Pin, Face,<br/>Fingers | Pin, Face,<br/>Fingers | - | - | - |
     |
 

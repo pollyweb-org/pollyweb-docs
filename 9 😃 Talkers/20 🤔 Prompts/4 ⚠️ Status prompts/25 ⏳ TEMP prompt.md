@@ -82,7 +82,7 @@
     <br/>
 
 
-1. **What do TEMP prompts look like in a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)?**
+1. **What do TEMP prompts look like in a [Chat 💬](<../../../4 ⚙️ Solution/35 Chats/12 💬 Chats/$ 💬 Chat.md>)?**
 
     
 

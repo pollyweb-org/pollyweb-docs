@@ -11,7 +11,7 @@
  
     |#|Step
     |-|-
-    |1| [Bind 🔗](<../../4 ⚙️ Solution/30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) to a [Hoster ☁️ domain](<../../4 ⚙️ Solution/45 🤲 Helper domains/55 ☁️ Hosters/☁️🤲 Hoster helper.md>)
+    |1| [Bind 🔗](<../../4 ⚙️ Solution/30 Data/20 🔗 Binds/🔗 Bind.md>) to a [Hoster ☁️ domain](<../../4 ⚙️ Solution/45 🤲 Helper domains/55 ☁️ Hosters/☁️🤲 Hoster helper.md>)
     |2| [Clone](<../../5 ⏩ Flows/77 🔃⏩ Syncer/10 🔃⏩🗃️ Clone.md>) the files to a local folder
     |3| Spin up an HTTP backend endpoint
     |4| Edit the files and [sync](<../../5 ⏩ Flows/77 🔃⏩ Syncer/20 🔃⏩🗃️ Sync.md>) the changes
@@ -30,7 +30,7 @@
     | [📥 Inbound](<📦📄 Hosted files/📥📄 Inbound file.md>) | YAML | Message inbound configuration
     | [📤 Outbound](<📦📄 Hosted files/📤📄 Outbound file.md>) | YAML | Message outbound configuration
     | [🤲 Helpers](<📦📄 Hosted files/🤲📄 Helpers file.md>)  | YAML | Required [Helper 🤲 domains](<../../4 ⚙️ Solution/45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>)
-    | 🔆 [Locators](<📦📄 Hosted files/🔆📄 Locators file.md>) | YAML | Map of [Locators 🔆](<../../4 ⚙️ Solution/30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>) to [Talkers 😃](<../10 📘 Talker specs/10 😃 Talker.md>)
+    | 🔆 [Locators](<📦📄 Hosted files/🔆📄 Locators file.md>) | YAML | Map of [Locators 🔆](<../../4 ⚙️ Solution/30 Data/15 🔆 Locators/$ 🔆 Locator.md>) to [Talkers 😃](<../10 📘 Talker specs/10 😃 Talker.md>)
     | 😃 [Talkers](<📦📄 Hosted files/😃📂 Talkers folder.md>) | Folder | List of [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>) scripts 
     | [📜 Manifest](<📦📄 Hosted files/📜📂 Manifest folder.md>) | Folder | Public [domain Manifest 📜](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) parts
     | [🪣 Pools](<📦📄 Hosted files/🪣📄 Pools file.md>) | YAML | Resource index for [Talker `MAP`](<../30 🗃️ Talker data/61 🪣 MAP item.md>)
@@ -59,7 +59,7 @@
       
     | Dependency | Purpose
     |-|-
-    | [🧑‍🦰 Wallet](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) | To authenticate and [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with the [Hoster ☁️ ](<../../4 ⚙️ Solution/45 🤲 Helper domains/55 ☁️ Hosters/☁️🤲 Hoster helper.md>)
+    | [🧑‍🦰 Wallet](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) | To authenticate and [Chat 💬](<../../4 ⚙️ Solution/35 Chats/12 💬 Chats/$ 💬 Chat.md>) with the [Hoster ☁️ ](<../../4 ⚙️ Solution/45 🤲 Helper domains/55 ☁️ Hosters/☁️🤲 Hoster helper.md>)
     | [💳 Payer](<../../4 ⚙️ Solution/50 🫥 Agent domains/60 💳 Payers/04 💳🫥 Payer agent.md>) | To pay for usage and subscription plans.
     | [🆔 Identity](<../../4 ⚙️ Solution/50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | To authenticate the domain user.
     | [🧑‍💻 Editor](<../../4 ⚙️ Solution/50 🫥 Agent domains/42 🧑‍💻 Editors/🧑‍💻🫥 Editor agent.md>) | To manage the settings of the hosted [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>).

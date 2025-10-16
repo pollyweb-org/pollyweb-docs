@@ -75,9 +75,9 @@
 1. **How do Navigators help in multi-level places?**
 
     In multi-level places (subways, airports, malls):
-    * Signs with [Locators 🔆](<../../30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>) are spread through the premisses (e.g., walls, posts).
-    * Users read these [navigation Locators 🔆](<../../30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>) with their [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
-    * Each [navigation Locators 🔆](<../../30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>) points to a geographical point described in a [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>).
+    * Signs with [Locators 🔆](<../../30 Data/15 🔆 Locators/$ 🔆 Locator.md>) are spread through the premisses (e.g., walls, posts).
+    * Users read these [navigation Locators 🔆](<../../30 Data/15 🔆 Locators/$ 🔆 Locator.md>) with their [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
+    * Each [navigation Locators 🔆](<../../30 Data/15 🔆 Locators/$ 🔆 Locator.md>) points to a geographical point described in a [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>).
     * Each point may point to other points in other [domain Manifests 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>).
     * The [Navigator 🧭 domain](<$ 🧭🫥 Navigator agent.md>) then merges the points to create a path for the user.
 

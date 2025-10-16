@@ -88,7 +88,7 @@
 
     Note that NLWeb does not enforce the usage of pins and biometric validation for entitlement confirmation;
     - i.e., the choice to use pins and/or biometrics falls into the custom defined workflow of each business;
-    - NLWeb does provide [Chat 💬 prompts](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) to render OTPs and face scans;
+    - NLWeb does provide [Chat 💬 prompts](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) to render OTPs and face scans;
     
     Consider the following workflow examples with pin usage:
     <!-- TODO: add examples -->

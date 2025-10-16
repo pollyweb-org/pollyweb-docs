@@ -1,7 +1,7 @@
 🪣🎭 Dataset domain role
 ===
 
-![](<../../20 🧑‍🦰 UI/12 💬 Chats/.📎 Assets/💬 Dataset.png>)
+![](<../../35 Chats/12 💬 Chats/.📎 Assets/💬 Dataset.png>)
 
 1. **What is a Dataset domain role in NLWeb?**
 

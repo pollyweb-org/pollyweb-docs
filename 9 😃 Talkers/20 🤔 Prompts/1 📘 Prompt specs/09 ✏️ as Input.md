@@ -39,7 +39,7 @@
     | [🕓&nbsp;TIME](<../7 ✏️ Input prompts/62 🕓 TIME prompt.md>) | Asks for time of day
     | [📆&nbsp;DATE](<../7 ✏️ Input prompts/61 📆 DATE prompt.md>) | Asks for a date
     | [🛒&nbsp;EAN](<../7 ✏️ Input prompts/74 🛒 EAN prompt.md>) | Scans for ENA-13 and EAN-8 barcodes
-    | [🔆&nbsp;SCAN](<../7 ✏️ Input prompts/72 🔆 SCAN prompt.md>) | Asks to touch/scan a [QR/NFC Locator 🔆](<../../../4 ⚙️ Solution/30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>)
+    | [🔆&nbsp;SCAN](<../7 ✏️ Input prompts/72 🔆 SCAN prompt.md>) | Asks to touch/scan a [QR/NFC Locator 🔆](<../../../4 ⚙️ Solution/30 Data/15 🔆 Locators/$ 🔆 Locator.md>)
     | [🦋&nbsp;TOUCH](<../7 ✏️ Input prompts/73 🦋 TOUCH prompt.md>) | Asks to touch/scan a [QR/NFC Ephemeral 🦋 device](<../../../4 ⚙️ Solution/60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>)
     | [⬆️&nbsp;UPLOAD](<../7 ✏️ Input prompts/81 ⬆️ UPLOAD prompt.md>)| Asks to upload a file or photo
     | [📍&nbsp;LOCATION](<../7 ✏️ Input prompts/91 📍 LOCATION prompt.md>) | Asks for the current location
@@ -55,7 +55,7 @@
 1. **How can Hosts protect users from input fatigue?**
 
     NLWeb advocates for [Hosts 🤗 domains](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) to request as little [Prompts 🤔](<../../10 📘 Talker specs/20 🤔 Prompt.md>) from users as possible;
-    * instead, request users to share datasets using [Schema Code 🧩](<../../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>);
+    * instead, request users to share datasets using [Schema Code 🧩](<../../../4 ⚙️ Solution/30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>);
     * e.g., ask to share the code `nlweb.org/BOOKING/CONTACTS` instead of asking for the name, then the phone number, then the email address, and so on.
   
     When [Prompts 🤔](<../../10 📘 Talker specs/20 🤔 Prompt.md>) are inevitable, avoid [`TEXT`](<../7 ✏️ Input prompts/32 🔠 TEXT prompt.md>) prompts; 
