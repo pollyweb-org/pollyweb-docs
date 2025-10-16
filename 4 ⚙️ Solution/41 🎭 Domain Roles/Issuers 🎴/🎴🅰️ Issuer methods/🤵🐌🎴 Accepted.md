@@ -1,7 +1,7 @@
 # 🤵🐌🎴 Accepted @ Issuer
 
 
-> Part of the [🧑‍🦰👉🎴 Save Token @ Issuer](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet chats/in Prompts 🤔/🧑‍🦰👉🎴 Save token.md>) flow.
+> Part of the [🧑‍🦰👉🎴 Save Token @ Issuer](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Prompts 🤔/🧑‍🦰👉🎴 Save token.md>) flow.
 
 * Tells an [Issuer 🎴 domain](<../🎴🎭 Issuer role.md>) if a [Token 🎫](<../../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) was accepted or rejected.
 

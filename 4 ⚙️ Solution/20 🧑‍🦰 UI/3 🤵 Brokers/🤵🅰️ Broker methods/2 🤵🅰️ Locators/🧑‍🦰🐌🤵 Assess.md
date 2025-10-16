@@ -1,8 +1,8 @@
 # 🧑‍🦰🐌🤵 Assess @ Broker
 
 > Used in:
-> <br/>• [🧑‍🦰👉🤗 Scan host QR](<../../../1 🧑‍🦰 Wallets/in App 🏠/🧑‍🦰🔆🤗 Tap host locator.md>)
-> <br/>• [🧑‍🦰👉🤗 Scan printer QR](<../../../1 🧑‍🦰 Wallets/in App 🏠/🧑‍🦰🔆🖨️ Tap alias locator.md>)
+> <br/>• [🧑‍🦰👉🤗 Scan host QR](<../../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in App 🏠/🧑‍🦰🔆🤗 Tap host locator.md>)
+> <br/>• [🧑‍🦰👉🤗 Scan printer QR](<../../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in App 🏠/🧑‍🦰🔆🖨️ Tap alias locator.md>)
 
 
 * Parse the [Locator 🔆](<../../../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) in the [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>).

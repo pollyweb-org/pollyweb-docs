@@ -5,8 +5,8 @@
 > Starts a [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) with a [Host 🤗 domain](<../🤗🎭 Host role.md>).
 
 > Used by:
-> <br/>• [🧑‍🦰👉🤗 Scan host QR @ Wallet](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/in App 🏠/🧑‍🦰🔆🤗 Tap host locator.md>)
-> <br/>• [🧑‍🦰👉🤗 Scan printer QR @ Wallet](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/in App 🏠/🧑‍🦰🔆🖨️ Tap alias locator.md>)
+> <br/>• [🧑‍🦰👉🤗 Scan host QR @ Wallet](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in App 🏠/🧑‍🦰🔆🤗 Tap host locator.md>)
+> <br/>• [🧑‍🦰👉🤗 Scan printer QR @ Wallet](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in App 🏠/🧑‍🦰🔆🖨️ Tap alias locator.md>)
 
 <br/> 
 

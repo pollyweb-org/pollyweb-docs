@@ -5,7 +5,7 @@
 
 > A [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) unbinds a [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)  from a [Vault 🗄️ domain](<../🗄️🎭 Vault role.md>).
 
-> Part of the [🧑‍🦰👉🗄️ Unbind @ Wallet](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet chats/in Vaults 🗄️/🧑‍🦰💬🤵 Unbind 🗄️.md>) flow.
+> Part of the [🧑‍🦰👉🗄️ Unbind @ Wallet](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Vaults 🗄️/🧑‍🦰💬🤵 Unbind 🗄️.md>) flow.
 
 
 <br/>
