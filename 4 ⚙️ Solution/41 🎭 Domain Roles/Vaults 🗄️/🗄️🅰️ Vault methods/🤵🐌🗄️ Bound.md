@@ -7,7 +7,7 @@
 # 🤵🐌🗄️ Bind @ Vault
 
 > Used by
-> <br/>- [🗄️⏩🧑‍🦰 Bind @ Vault](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet chats/in Prompts 🤔/🧑‍🦰👉🗄️ Bind 🔗.md>) flow
+> <br/>- [🗄️⏩🧑‍🦰 Bind @ Vault](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Prompts 🤔/🧑‍🦰👉🗄️ Bind 🔗.md>) flow
 > <br/>- [🤵⏩🗄️ Bind vault @ Broker](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵⏩ Broker flows/🤵⏩🗄️ Bind vault.md>) flow
 
 <br/>
