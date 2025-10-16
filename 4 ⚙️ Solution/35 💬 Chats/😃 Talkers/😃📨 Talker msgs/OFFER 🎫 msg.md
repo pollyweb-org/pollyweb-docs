@@ -56,7 +56,7 @@
 
    | [Command ⌘](<../😃⚙️ Talker cmds/⌘ Command.md>) | Purpose
    |-|-
-   | ⤵️ [`IF`](<../😃⚙️ Talker cmds/21 ⤵️ IF flow.md>) | To verify the result.  
+   | ⤵️ [`IF`](<../😃⚙️ Talker cmds/IF ⤵️.md>) | To verify the result.  
    
    ---
    <br/>

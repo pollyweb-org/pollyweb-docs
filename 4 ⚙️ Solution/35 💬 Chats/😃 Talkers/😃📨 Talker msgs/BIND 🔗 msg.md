@@ -125,7 +125,7 @@
 
    | [Command ⌘](<../😃⚙️ Talker cmds/⌘ Command.md>) | Purpose
    |-|-
-   | ⤵️ [IF](<../😃⚙️ Talker cmds/21 ⤵️ IF flow.md>) | To verify the result.  
+   | ⤵️ [IF](<../😃⚙️ Talker cmds/IF ⤵️.md>) | To verify the result.  
    
    ---
    <br/>
@@ -148,7 +148,7 @@
    | [Command ⌘](<../😃⚙️ Talker cmds/⌘ Command.md>) | Purpose
    |-|-
    | ⬇️ [`EVAL`](<../😃💾 Talker data/20 ⬇️ EVAL flow.md>) | To put the bindable array into a placeholder.
-   | ⤵️ [`IF`](<../😃⚙️ Talker cmds/21 ⤵️ IF flow.md>) | To verify the result.
+   | ⤵️ [`IF`](<../😃⚙️ Talker cmds/IF ⤵️.md>) | To verify the result.
    
    ---
    <br/>

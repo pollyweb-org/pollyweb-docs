@@ -43,8 +43,8 @@
     | `{function}` | Boolean [{Function}](<../😃💾 Talker data/12 🐍 {Function}.md>) to evaluate  | `{f}` `{$o}`
     || Allows for missing `{}` in functions | `f()` `$p`
     || Defaults to the last [input prompt ✏️](<../../🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>) | `TEXT\|Id?`
-    | `<true-proc>` | [Procedure ⚙️](<⚙️ Procedure.md>) to [Run ▶️](<24 ▶️ RUN flow.md>) when `True` | `IfTrue`
-    | `<false-proc>`| [Procedure ⚙️](<⚙️ Procedure.md>) to [Run ▶️](<24 ▶️ RUN flow.md>) when `False` | `IfFalse(X)`
+    | `<true-proc>` | [Procedure ⚙️](<⚙️ Procedure.md>) to [Run ▶️](<RUN ▶️.md>) when `True` | `IfTrue`
+    | `<false-proc>`| [Procedure ⚙️](<⚙️ Procedure.md>) to [Run ▶️](<RUN ▶️.md>) when `False` | `IfFalse(X)`
     
     ```yaml
     # Multi-line actions: 

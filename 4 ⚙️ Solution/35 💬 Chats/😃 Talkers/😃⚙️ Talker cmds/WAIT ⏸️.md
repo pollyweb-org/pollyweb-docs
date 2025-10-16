@@ -10,7 +10,7 @@
 
 1. **What's a WAIT flow command?**
 
-    A [`WAIT` ⏸️](<28 ⏸️ WAIT flow.md>)
+    A [`WAIT` ⏸️](<WAIT ⏸️.md>)
     * is a flow [Command ⌘](<⌘ Command.md>) 
     * that pauses the flow for a period of time 
     * or until triggered by an external signal.
@@ -69,7 +69,7 @@
 
     | [Command ⌘](<⌘ Command.md>) | Purpose
     |-|-
-    | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | To update the message.
+    | 🔁 [`REPEAT`](<REPEAT 🔁.md>) | To update the message.
     | ⏳ [`TEMP`](<../../🤔 Prompts/🤔📢 Prompt status/25 ⏳ TEMP prompt.md>) | Show the temporary message.
     
     ---
@@ -112,9 +112,9 @@
     |-|-
     | ⬇️ [`EVAL`](<../😃💾 Talker data/20 ⬇️ EVAL flow.md>) | to assess the backend queue length.
     | ℹ️ [`INFO`](<../../🤔 Prompts/🤔📢 Prompt status/21 ℹ️ INFO prompt.md>) | To show the initial message.
-    | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | To re-assess the queue periodically.
-    | 🔁 [`RETURN`](<23 🔁 REPEAT flow.md>) | To exit the loop when it's the user's turn.
-    | ▶️ [`RUN`](<24 ▶️ RUN flow.md>) | To start the waiting loop.
+    | 🔁 [`REPEAT`](<REPEAT 🔁.md>) | To re-assess the queue periodically.
+    | 🔁 [`RETURN`](<REPEAT 🔁.md>) | To exit the loop when it's the user's turn.
+    | ▶️ [`RUN`](<RUN ▶️.md>) | To start the waiting loop.
     | ✅ [`SUCCESS`](<../../🤔 Prompts/🤔📢 Prompt status/23 ✅ SUCCESS prompt.md>) | To say that it's ready.
     | ⏳ [`TEMP`](<../../🤔 Prompts/🤔📢 Prompt status/25 ⏳ TEMP prompt.md>) | To show work in progress.
 
@@ -167,12 +167,12 @@
 
     | [Command ⌘](<⌘ Command.md>) | Purpose
     |-|-
-    | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | To show the human-friendly message.
+    | 🔀 [`CASE`](<CASE 🔀.md>) | To show the human-friendly message.
     | ⬇️ [`EVAL`](<../😃💾 Talker data/20 ⬇️ EVAL flow.md>) | to assess the backend queue length.
     | 🪣 [`MAP`](<../😃💾 Talker data/61 🪣 MAP item.md>) | To get the queue length from resources.
-    | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | To re-assess the queue periodically.
-    | 🔁 [`RETURN`](<23 🔁 REPEAT flow.md>) | To exit the loop when it's the user's turn.
-    | ▶️ [`RUN`](<24 ▶️ RUN flow.md>) | To start the waiting loop.
+    | 🔁 [`REPEAT`](<REPEAT 🔁.md>) | To re-assess the queue periodically.
+    | 🔁 [`RETURN`](<REPEAT 🔁.md>) | To exit the loop when it's the user's turn.
+    | ▶️ [`RUN`](<RUN ▶️.md>) | To start the waiting loop.
     | ⏳ [`TEMP`](<../../🤔 Prompts/🤔📢 Prompt status/25 ⏳ TEMP prompt.md>) | To show work in progress.
 
     ---
@@ -182,7 +182,7 @@
 
 1. **How to signal a WAIT placeholder?**
 
-    Consider the following [`WAIT` ⏸️](<28 ⏸️ WAIT flow.md>) command.
+    Consider the following [`WAIT` ⏸️](<WAIT ⏸️.md>) command.
 
     ```yaml
     # 😃 Talker 
