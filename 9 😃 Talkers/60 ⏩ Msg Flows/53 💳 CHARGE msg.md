@@ -15,7 +15,7 @@
     CHARGE|<amount>|<bill-id>
     ```
 
-   * Calls [💵🐌🤵 Charge @ Broker](<../../6 🅰️ APIs/15 🤵🅰️ Broker/70 🤵🅰️ Pay/21 💵🐌🤵 Charge.md>)
+   * Calls [💵🐌🤵 Charge @ Broker](<../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/70 🤵🅰️ Pay/💵🐌🤵 Charge.md>)
    * May have a [Biller 🤝](<../../4 ⚙️ Solution/45 🤲 Helper domains/20 🤝 Billers/🤝🤲 Biller helper.md>) ID for multiple [Collectors 🏦](<../../4 ⚙️ Solution/45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>).
 
 

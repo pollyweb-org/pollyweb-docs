@@ -30,8 +30,8 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 |Header|`From`|string | [Broker 🤵 domain](<../../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) name
-||`To`|string| [Notifier 📣](<../../📣 Notifier domain.md>) from [`Onboard@Broker`](<../../../../../6 🅰️ APIs/15 🤵🅰️ Broker/10 🤵🅰️ Wallets 🧑‍🦰/11 📣🚀🤵 Onboard.md>)
+||`To`|string| [Notifier 📣](<../../📣 Notifier domain.md>) from [`Onboard@Broker`](<../../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/10 🤵🅰️ Wallets 🧑‍🦰/📣🚀🤵 Onboard.md>)
 ||`Subject`|string|`Updated@Notifier`
-|Body  |`WalletID` |uuid  | [Wallet 🧑‍🦰](<../../../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) ID from [`Onboard@Broker`](<../../../../../6 🅰️ APIs/15 🤵🅰️ Broker/10 🤵🅰️ Wallets 🧑‍🦰/11 📣🚀🤵 Onboard.md>)
+|Body  |`WalletID` |uuid  | [Wallet 🧑‍🦰](<../../../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) ID from [`Onboard@Broker`](<../../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/10 🤵🅰️ Wallets 🧑‍🦰/📣🚀🤵 Onboard.md>)
 |      |`Updates`   |enum  | `CHATS` `BINDS` `TOKENS`
 |

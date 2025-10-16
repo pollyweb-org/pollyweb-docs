@@ -25,7 +25,7 @@ Body:
 |Header | `From`  | string  | [Broker 🤵 domain](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) name
 |       | `To`    | string  | [Issuer 🎴 domain](<../🎴🎭 Issuer role.md>) name
 ||`Subject`|string|`Token@Issuer` 
-| Body  | `TokenID`| string | [Token 🎫](<../../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) ID from [`Offer@Broker`](<../../../../6 🅰️ APIs/15 🤵🅰️ Broker/50 🤵🅰️ Tokens 🎫/51 🎴🐌🤵 Offer.md>)
+| Body  | `TokenID`| string | [Token 🎫](<../../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) ID from [`Offer@Broker`](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/50 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
 || `Result`| enum | `Yes` `No` 
 |
 
