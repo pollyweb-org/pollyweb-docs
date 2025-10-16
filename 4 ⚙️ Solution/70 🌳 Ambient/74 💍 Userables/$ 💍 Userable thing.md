@@ -47,7 +47,7 @@
   
     - The authentication mechanism is implemented with a secure NFC chip with asymmetric cryptography (e.g., NTAG 424 DNA class).
 
-    - When a [Userable 💍 thing](<$ 💍 Userable thing.md>) is [tapped 🔆](<../../30 🧩 Data/15 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>), the user's [Custodian 🧳 agent](<../../50 🫥 Agents/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>) checks the validity of the unique dynamic code sent by domain that scanned the [Userable 💍 thing](<$ 💍 Userable thing.md>), verifying if 
+    - When a [Userable 💍 thing](<$ 💍 Userable thing.md>) is [tapped 🔆](<../../30 🧩 Data/15 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>), the user's [Custodian 🧳 agent](<../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>) checks the validity of the unique dynamic code sent by domain that scanned the [Userable 💍 thing](<$ 💍 Userable thing.md>), verifying if 
       - it has not been used before, 
       - if the signature of the code matches the Userable's public key and unique ID, 
       - and if the sequence was respected.
@@ -57,7 +57,7 @@
 
 1. **How is the dynamic code generation enforced?**
 
-    When a user registers a [Userable 💍 thing](<$ 💍 Userable thing.md>) on the user's [Custodian 🧳 agent](<../../50 🫥 Agents/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>),
+    When a user registers a [Userable 💍 thing](<$ 💍 Userable thing.md>) on the user's [Custodian 🧳 agent](<../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>),
     * the agent fetches the rotation algorithm from the [Brand 🍏 domain](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>) that manufactured the [Userable 💍 thing](<$ 💍 Userable thing.md>),
     * then asks the user to scan the [Userable 💍 thing](<$ 💍 Userable thing.md>) twice to see if the rotation works. 
 

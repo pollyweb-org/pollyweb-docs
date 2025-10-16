@@ -18,7 +18,7 @@
     | `Banks` | These hold and revoke customers' bank accounts.
     | `Hospitals` | These hold and control patients' medical records.
     | `Governments` | These hold and revoke citizens' identity documents.
-    |[🫥 `Agents`](<../../50 🫥 Agents/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) | These are [Vaults 🗄️](<🗄️🎭 Vault role.md>) with well-known NLWeb APIs.
+    |[🫥 `Agents`](<../../50 🫥 Agent domains/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) | These are [Vaults 🗄️](<🗄️🎭 Vault role.md>) with well-known NLWeb APIs.
     
 
     ---
@@ -40,7 +40,7 @@
 
 1. **What are default Vaults?**
 
-    To streamline user onboarding, [Broker 🤵 domains](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) may automatically [bind 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) new [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) to default [Agent 🫥 vault domains](<../../50 🫥 Agents/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>).
+    To streamline user onboarding, [Broker 🤵 domains](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) may automatically [bind 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) new [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) to default [Agent 🫥 vault domains](<../../50 🫥 Agent domains/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>).
         
     | | Workflow |  Description
     |-|-|-
@@ -75,7 +75,7 @@
 1. **How can Vaults comply with data residency?**
 
     [Vault 🗄️ domains](<🗄️🎭 Vault role.md>) 
-    * can ask users to share their [Storage 📦 vault](<../../50 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>), 
+    * can ask users to share their [Storage 📦 vault](<../../50 🫥 Agent domains/80 📦 Storage/$ 📦🫥 Storage agent.md>), 
     * then store the user data there.
 
     ---
@@ -127,7 +127,7 @@
     * [Trusts 👍](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) in [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>) to represent partnerships;
     * [Authority 🏛️ domains](<../../45 🤲 Helper domains/14 🏛️ Authorities/🏛️🤲 Authority helper.md>) for intergovernmental agreements;
     * [Broker 🤵 domains](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) to protect users from bad corporate actors;
-    * [Reviewer ⭐ domains](<../../50 🫥 Agents/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) to collect social feedback on corporations;
+    * [Reviewer ⭐ domains](<../../50 🫥 Agent domains/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) to collect social feedback on corporations;
     * [Firewall 🔥 domains](<../../45 🤲 Helper domains/40 🔥 Firewalls/🔥🤲 Firewall helper.md>) to monitor and penalize bad corporate actors.
     
     ---
@@ -135,9 +135,9 @@
 
 1. **How about a central place for user preferences?**
 
-    Exceptionally, NLWeb advocates for the use of [Persona 🧢 vault](<../../50 🫥 Agents/70 🧢 Personas/$ 🧢🫥 Persona agent.md>) aimed for preference-based personalization 
+    Exceptionally, NLWeb advocates for the use of [Persona 🧢 vault](<../../50 🫥 Agent domains/70 🧢 Personas/$ 🧢🫥 Persona agent.md>) aimed for preference-based personalization 
     - e.g., nicknames, seat preferences, film genres;
-    - but, even here, users rent storage on [Persona 🧢 vault](<../../50 🫥 Agents/70 🧢 Personas/$ 🧢🫥 Persona agent.md>) as a service that is owned and managed by a company.
+    - but, even here, users rent storage on [Persona 🧢 vault](<../../50 🫥 Agent domains/70 🧢 Personas/$ 🧢🫥 Persona agent.md>) as a service that is owned and managed by a company.
 
     ---
     <br/>
@@ -156,11 +156,11 @@
 
 1. **How is data residency solved by vaults?**
 
-    Where nations require their citizens' data to be stored within nation's borders, [Vault 🗄️ domains](<🗄️🎭 Vault role.md>) can leverage the user's [Storage 📦 vault](<../../50 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>) to store their data. 
+    Where nations require their citizens' data to be stored within nation's borders, [Vault 🗄️ domains](<🗄️🎭 Vault role.md>) can leverage the user's [Storage 📦 vault](<../../50 🫥 Agent domains/80 📦 Storage/$ 📦🫥 Storage agent.md>) to store their data. 
     
-    - [Storage vaults 📦](<../../50 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>) are multi-tenant cloud repositories rented by users, where users can allow bound vaults to write their data into. 
+    - [Storage vaults 📦](<../../50 🫥 Agent domains/80 📦 Storage/$ 📦🫥 Storage agent.md>) are multi-tenant cloud repositories rented by users, where users can allow bound vaults to write their data into. 
     
-    - The [Storage vault 📦](<../../50 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>) will comply with the user's [data-residency 🏔️](<../../../2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/00 🏳️ Sovereignty index.md>) requirements by choosing in which region to store the user's data. 
+    - The [Storage vault 📦](<../../50 🫥 Agent domains/80 📦 Storage/$ 📦🫥 Storage agent.md>) will comply with the user's [data-residency 🏔️](<../../../2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/00 🏳️ Sovereignty index.md>) requirements by choosing in which region to store the user's data. 
     
     - This solution also allows for free services to offload the cost of storage to the user.
 
@@ -233,7 +233,7 @@
     | [🤵 Broker](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) | [`Bound`](<🗄️🅰️ Vault methods/🤵🐌🗄️ Bound.md>) | Add a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) |
     |  | [`Unbind`](<🗄️🅰️ Vault methods/🤵🐌🗄️ Unbind.md>) | Remove a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) |
     | | [`Disclose`](<🗄️🅰️ Vault methods/🤵🐌🗄️ Disclose.md>) | Disclose the data of a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) |
-    | | [`Suppress`](<🗄️🅰️ Vault methods/🤵🐌🗄️ Suppress.md>) | Suppress [🖐️ Palm scans](<../../50 🫥 Agents/45 🆔 Identities/22 🆔🖐️ Palm scan.md>) |
+    | | [`Suppress`](<🗄️🅰️ Vault methods/🤵🐌🗄️ Suppress.md>) | Suppress [🖐️ Palm scans](<../../50 🫥 Agent domains/45 🆔 Identities/22 🆔🖐️ Palm scan.md>) |
     | [💼 Consumer](<../27 💼 Consumers/💼🎭 Consumer role.md>) | [`Collect`](<🗄️🅰️ Vault methods/💼🚀🗄️ Collect.md>) | Return the data disclosed
     
     ---
