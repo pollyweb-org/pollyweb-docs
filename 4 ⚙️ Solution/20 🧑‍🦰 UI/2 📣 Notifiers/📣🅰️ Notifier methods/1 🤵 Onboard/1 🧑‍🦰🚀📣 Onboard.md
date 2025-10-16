@@ -7,7 +7,7 @@
 
 A new [Wallet 🧑‍🦰 apps](<../../../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) asks a [Notifier 📣 domain](<../../📣👥 Notifier domain.md>) to onboard.
 
-* Used in [Onboard 🧑‍🦰👉🤵](<../../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/11 🧑‍🦰👉🤵 Onboard.md>) to register the channel between the [Notifier 📣 domain](<../../📣👥 Notifier domain.md>) and the [Wallet 🧑‍🦰 apps](<../../../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) (e.g., sockets). 
+* Used in [Onboard 🧑‍🦰👉🤵](<../../../1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/10 👉🤵 Set-up/11 🧑‍🦰👉🤵 Onboard.md>) to register the channel between the [Notifier 📣 domain](<../../📣👥 Notifier domain.md>) and the [Wallet 🧑‍🦰 apps](<../../../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) (e.g., sockets). 
  
 * Should wait for the notifications to start working before allowing the user to fully use the [Wallet 🧑‍🦰 app](<../../../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
 

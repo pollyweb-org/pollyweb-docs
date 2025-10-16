@@ -8,7 +8,7 @@
 
     A `BIND`
     * is a message [Command ⌘](<../😃⚙️ Talker cmds/10 ⌘ Command.md>) 
-    * that invokes the [Bind @ Vault ⏩ flow](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind 🔗.md>).
+    * that invokes the [Bind @ Vault ⏩ flow](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind 🔗.md>).
 
     ---
     <br/>

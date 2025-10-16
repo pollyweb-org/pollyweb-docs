@@ -1,7 +1,7 @@
 # 💼🚀🤵  Status @ Broker
 
 
-> Used in [💼⏩🧑‍🦰 Share Token @ Consumer](<../../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token 🎫.md>)
+> Used in [💼⏩🧑‍🦰 Share Token @ Consumer](<../../../1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token 🎫.md>)
 
 <br/> 
 

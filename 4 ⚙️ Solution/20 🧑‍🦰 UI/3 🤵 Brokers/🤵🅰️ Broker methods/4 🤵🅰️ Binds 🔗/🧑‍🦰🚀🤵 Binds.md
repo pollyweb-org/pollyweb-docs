@@ -5,8 +5,8 @@
 > List the [Binds 🔗](<../../../../30 Data/2 🔗 Binds/🔗 Bind.md>) of a [Wallet 🧑‍🦰 app](<../../../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
 
 > Used in:
-> <br/> • [🧑‍🦰👉🤵 Translate](<../../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/12 🧑‍🦰👉🤵 Translate.md>)
-> <br/> • [🧑‍🦰👉🤵 List binds](<../../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/01 🧑‍🦰👉🤵 List binds.md>)
+> <br/> • [🧑‍🦰👉🤵 Translate](<../../../1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/10 👉🤵 Set-up/12 🧑‍🦰👉🤵 Translate.md>)
+> <br/> • [🧑‍🦰👉🤵 List binds](<../../../1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/30 👉🔗 Binds/01 🧑‍🦰👉🤵 List binds.md>)
 > <br/> • [🤵⏩🧑‍🦰 Update Binds 🔗](<../../🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Binds 🔗.md>)
 
 <br/>
