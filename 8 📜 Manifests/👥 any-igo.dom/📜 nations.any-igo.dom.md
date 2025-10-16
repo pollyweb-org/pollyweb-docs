@@ -25,5 +25,5 @@ Trusts:
       - nlweb.org/STORAGE         
     Domains: 
       - europa.eu       # European Union
-      - any-nation.org  # Any Nation
+      - any-nation.dom  # Any Nation
       - usa.gov         # United States      

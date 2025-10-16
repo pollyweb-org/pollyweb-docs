@@ -103,10 +103,10 @@
     
     * A sovereign domain may revoke a [trust 👍](<👍 Domain Trust.md>) on another domain to explicitly break indirect trust-chains for that other domain;
   
-    * e.g., `any-nation.org` may impose a ban on `sanctioned-domain.com` on the basis of terrorism, telling all the business that rely on `any-nation.org`’s indirect [trust 👍](<👍 Domain Trust.md>) to cease interactions with the banned domain, while allowing those businesses to exceptionally override the indirect revoke with a direct grant.
+    * e.g., `any-nation.dom` may impose a ban on `sanctioned-domain.com` on the basis of terrorism, telling all the business that rely on `any-nation.dom`’s indirect [trust 👍](<👍 Domain Trust.md>) to cease interactions with the banned domain, while allowing those businesses to exceptionally override the indirect revoke with a direct grant.
 
         ```yaml
-        # 📜 any-nation.org
+        # 📜 any-nation.dom
         - Action: REVOKE
           Domain: sanctioned-domain.com
         ```

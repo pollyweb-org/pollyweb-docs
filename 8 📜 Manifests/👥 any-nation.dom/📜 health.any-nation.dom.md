@@ -1,12 +1,12 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): health.any-nation.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): health.any-nation.dom
 <!--# 🏳️🏥 https://quip.com/jneKAp8Lbg7M/-NHSuk-->
 
 ```yaml
 🤝: nlweb.org/MANIFEST
 
 About:
-  Domain: health.any-nation.org
+  Domain: health.any-nation.dom
   Name: Any Nation's Health Services
 
 
@@ -16,7 +16,7 @@ Trusts:
   # Share SSR of citizens with anyone trusted by the nation.
   - Role: CONSUMER
     Query: airlines.any-igo.dom/SSR/*
-    Domains: [ any-nation.org ]
+    Domains: [ any-nation.dom ]
 
 
   # Share COVID of citizens with airlines.
@@ -27,7 +27,7 @@ Trusts:
 
   # Blocks whoever Any Nation blocks.
   - Action: INHERIT
-    Domains: [ any-nation.org ]
+    Domains: [ any-nation.dom ]
       
                       
 # Issues SSR tokens for UK citizens.

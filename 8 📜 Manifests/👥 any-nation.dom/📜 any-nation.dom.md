@@ -1,11 +1,11 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): any-nation.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): any-nation.dom
 
 ```yaml
 🤝: nlweb.org/MANIFEST
 
 About:
-  Domain: any-nation.org
+  Domain: any-nation.dom
   Name: Any Nation's Government
 
 
@@ -21,7 +21,7 @@ Trusts:
     Role: VAULT
     Expires: '2050-01-01T10:00:00.000Z'  
     Queries: [ airlines.any-igo.dom/SSR/* ]
-    Domains: [ health.any-nation.org ]
+    Domains: [ health.any-nation.dom ]
     
 
   - Title: Allow transporters to ask SSR of UK citizens.
@@ -31,13 +31,13 @@ Trusts:
       - airlines.any-igo.dom # Any IGO Airlines
       - aviation.any-igo.dom # Aviation Members of Any IGO
       - nationalrail.co.uk   # UK Trains
-      - tfl.any-nation.org   # London Transports
+      - tfl.any-nation.dom   # London Transports
       
 
   - Title: Allow domains to share profiles of citizens.
     Query: nlweb.org/PERSONA
     Domains: 
-      - taxes.any-nation.org  # Tax Service's
+      - taxes.any-nation.dom  # Tax Service's
       - nations.any-igo.dom   # Any IGO
 
 

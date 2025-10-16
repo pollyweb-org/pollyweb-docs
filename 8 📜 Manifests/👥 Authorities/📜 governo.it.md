@@ -31,5 +31,5 @@ Trusts:
   - Role: CONSUMER
     Query: nlweb.org/PALM/16+
     Domains: 
-      - any-nation.org
+      - any-nation.dom
       

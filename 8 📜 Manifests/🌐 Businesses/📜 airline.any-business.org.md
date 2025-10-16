@@ -27,7 +27,7 @@ Trusts:
   # Receive info from NHS.
   - Role: VAULT
     Queries: [ health.any-igo.dom/COVID/DOSE ]
-    Domain: health.any-nation.org
+    Domain: health.any-nation.dom
 
     
 Issuer:

@@ -1,12 +1,12 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): taxes.any-nation.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): taxes.any-nation.dom
 <!--# 🏳️🏛️ https://quip.com/cVKTAXdzJmY6-->
 
 ```yaml
 🤝: nlweb.org/MANIFEST
 
 About:
-  Domain: taxes.any-nation.org
+  Domain: taxes.any-nation.dom
   Name: Any Nation's Tax Services
   
   
