@@ -83,7 +83,7 @@
 
 1. **What does the registration Chat look like?**
 
-    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - 
     | 🛠️ [Helper](<🤲👥 Helper domain.md>) | 😃 Hi! What do you need? <br/>- [ Register ]  | > Register
     | 🤵 [Broker](<../24 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 [Ready to register?](<../../41 🎭 Domain Roles/27 💼 Consumers/💼⏩ Consumer flows/💼⏩🧑‍🦰 Inform 📝.md>) [Yes, No] <br>- Your broker binds with us 🔗 <br/>- You choose a billing plan 🤝 <br/>- Your payer adds a method 💳 <br/>- Your identity signs the terms 🆔 | > Yes
@@ -124,7 +124,7 @@
     | 🛠️ [`INVITE`](<../../../9 😃 Talkers/60 ⏩ Msg flows/46 🤲 INVITE msg.md>) | To subscribe the user to plan
     | ❄️ [`FREEZE`](<../../../9 😃 Talkers/60 ⏩ Msg flows/42 ❄️ FREEZE msg.md>) | To disable past inputs
     | ⬇️ [`EVAL`](<../../../9 😃 Talkers/30 🗃️ Talker data/20 ⬇️ EVAL flow.md>) | To register on the database
-    | ✅ [`SUCCESS`](<../../../9 😃 Talkers/20 🤔 Prompts/4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>) | To say that it was successful
+    | ✅ [`SUCCESS`](<../../35 Chats/20 🤔 Prompts/4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>) | To say that it was successful
     | 👋 [`GOODBYE`](<../../../9 😃 Talkers/60 ⏩ Msg flows/50 👋 GOODBYE.md>) | To show advertising
     
 

@@ -8,7 +8,7 @@
 
     A `<Command>`
     * is a line starting with a dash `-`
-    * that executes a [Prompt 🤔](<../10 📘 Talker specs/20 🤔 Prompt.md>) or a workflow.
+    * that executes a [Prompt 🤔](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) or a workflow.
 
     ---
     <br/>
@@ -16,7 +16,7 @@
 
 1. **What are Prompt commands?**
 
-    These are Commands that execute [Prompts 🤔](<../10 📘 Talker specs/20 🤔 Prompt.md>).
+    These are Commands that execute [Prompts 🤔](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>).
 
     ---
     <br/>
@@ -34,10 +34,10 @@
 
     Command | Purpose
     |-|-
-    | ℹ️ [`INFO`](<../20 🤔 Prompts/4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) | Information message.
-    | ⏳ [`TEMP`](<../20 🤔 Prompts/4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>) |Temporary status message.
-    | ✅ [`SUCCESS`](<../20 🤔 Prompts/4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>) | Successful status message.
-    | ❌ [`FAILURE`](<../20 🤔 Prompts/4 ⚠️ Status prompts/24 ❌ FAILURE prompt.md>) | Unsuccessful status message.
+    | ℹ️ [`INFO`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) | Information message.
+    | ⏳ [`TEMP`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>) |Temporary status message.
+    | ✅ [`SUCCESS`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>) | Successful status message.
+    | ❌ [`FAILURE`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/4 ⚠️ Status prompts/24 ❌ FAILURE prompt.md>) | Unsuccessful status message.
 
     ---
     <br/>
@@ -46,24 +46,24 @@
     
     |Command |  Example | Purpose
     |-|-|-
-    | 🔠 [`TEXT`](<../20 🤔 Prompts/7 ✏️ Input prompts/32 🔠 TEXT prompt.md>) | Bla | Unstructured text | 
-    | ↕️ [`QUANTITY`](<../20 🤔 Prompts/7 ✏️ Input prompts/42 ↕️ QUANTITY prompt.md>) | 123| Numbers with ⬆️ ⬇️ arrows |
-    | 🔢 [`DIGITS`](<../20 🤔 Prompts/7 ✏️ Input prompts/44 🔢 DIGITS prompt.md>) |0123| Numerics with 0 prefix | 
-    | 💰 [`AMOUNT`](<../20 🤔 Prompts/7 ✏️ Input prompts/43 💰 AMOUNT prompt.md>) |  1.23 | Decimals and currency
-    | ⭐ [`RATE`](<../20 🤔 Prompts/7 ✏️ Input prompts/46 ⭐ RATE prompt.md>) | 5 ⭐ | Integer from 1 to 5
-    | 🔑 [`OTP`](<../20 🤔 Prompts/7 ✏️ Input prompts/57 🔑 OTP prompt.md>) | 0123 | SIM one time password
-    | 👍 [`CONFIRM`](<../20 🤔 Prompts/7 ✏️ Input prompts/31 👍 CONFIRM prompt.md>) | Yes | `Yes` `No` `Cancel` answer
-    | 🔠 [`MANY`](<../20 🤔 Prompts/7 ✏️ Input prompts/54 🔠 MANY prompt.md>) | [A,B] |
-    | 1️⃣ [`ONE`](<../20 🤔 Prompts/7 ✏️ Input prompts/53 1️⃣ ONE prompt.md>) | A |
-    | 📆 [`DATE`](<../20 🤔 Prompts/7 ✏️ Input prompts/61 📆 DATE prompt.md>)
-    | 🕓 [`TIME`](<../20 🤔 Prompts/7 ✏️ Input prompts/62 🕓 TIME prompt.md>)
-    | 👤 [`IDENTITY`](<../20 🤔 Prompts/7 ✏️ Input prompts/71 👤 IDENTIFY prompt.md>)
-    | 🔆 [`SCAN`](<../20 🤔 Prompts/7 ✏️ Input prompts/72 🔆 SCAN prompt.md>)
-    | 🦋 [`TOUCH`](<../20 🤔 Prompts/7 ✏️ Input prompts/73 🦋 TOUCH prompt.md>)
-    | 🛒 [`EAN`](<../20 🤔 Prompts/7 ✏️ Input prompts/74 🛒 EAN prompt.md>)
-    | ⬆️ [`UPLOAD`](<../20 🤔 Prompts/7 ✏️ Input prompts/81 ⬆️ UPLOAD prompt.md>)
-    | 📍 [`LOCATION`](<../20 🤔 Prompts/7 ✏️ Input prompts/91 📍 LOCATION prompt.md>)
-    | 🗺️ [`TRACK`](<../20 🤔 Prompts/7 ✏️ Input prompts/92 🗺️ TRACK prompt.md>)
+    | 🔠 [`TEXT`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/32 🔠 TEXT prompt.md>) | Bla | Unstructured text | 
+    | ↕️ [`QUANTITY`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/42 ↕️ QUANTITY prompt.md>) | 123| Numbers with ⬆️ ⬇️ arrows |
+    | 🔢 [`DIGITS`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/44 🔢 DIGITS prompt.md>) |0123| Numerics with 0 prefix | 
+    | 💰 [`AMOUNT`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/43 💰 AMOUNT prompt.md>) |  1.23 | Decimals and currency
+    | ⭐ [`RATE`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/46 ⭐ RATE prompt.md>) | 5 ⭐ | Integer from 1 to 5
+    | 🔑 [`OTP`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/57 🔑 OTP prompt.md>) | 0123 | SIM one time password
+    | 👍 [`CONFIRM`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/31 👍 CONFIRM prompt.md>) | Yes | `Yes` `No` `Cancel` answer
+    | 🔠 [`MANY`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/54 🔠 MANY prompt.md>) | [A,B] |
+    | 1️⃣ [`ONE`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/53 1️⃣ ONE prompt.md>) | A |
+    | 📆 [`DATE`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/61 📆 DATE prompt.md>)
+    | 🕓 [`TIME`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/62 🕓 TIME prompt.md>)
+    | 👤 [`IDENTITY`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/71 👤 IDENTIFY prompt.md>)
+    | 🔆 [`SCAN`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/72 🔆 SCAN prompt.md>)
+    | 🦋 [`TOUCH`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/73 🦋 TOUCH prompt.md>)
+    | 🛒 [`EAN`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/74 🛒 EAN prompt.md>)
+    | ⬆️ [`UPLOAD`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/81 ⬆️ UPLOAD prompt.md>)
+    | 📍 [`LOCATION`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/91 📍 LOCATION prompt.md>)
+    | 🗺️ [`TRACK`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/92 🗺️ TRACK prompt.md>)
 
     ---
     <br/>
@@ -108,7 +108,7 @@
     Command | Purpose
     |-|-
     | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | Runs a [Command ⌘](<10 ⌘ Command.md>) or [Procedure ⚙️](<11 ⚙️ Procedure.md>) matching a [{Function}](<../30 🗃️ Talker data/12 🐍 {Function}.md>).
-    | 🫥 [`EMOJI`](<../20 🤔 Prompts/2 ✏️ Input features/16 😶⌘ EMOJI cmd.md>) | Changes the [default emoji 😃](<../20 🤔 Prompts/2 ✏️ Input features/14 😶 Input emojis.md>) for [input prompts ✏️](<../20 🤔 Prompts/1 📘 Prompt features/09 ✏️ as Input.md>).
+    | 🫥 [`EMOJI`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/2 ✏️ Input features/16 😶⌘ EMOJI cmd.md>) | Changes the [default emoji 😃](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/2 ✏️ Input features/14 😶 Input emojis.md>) for [input prompts ✏️](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/1 📘 Prompt features/09 ✏️ as Input.md>).
     | ⬇️ [`EVAL`](<../30 🗃️ Talker data/20 ⬇️ EVAL flow.md>) | Evaluates a [{Function}](<../30 🗃️ Talker data/12 🐍 {Function}.md>) into a placeholder.
     | ⤵️ [`IF`](<21 ⤵️ IF flow.md>) | Runs a [Command ⌘](<10 ⌘ Command.md>) or [Procedure ⚙️](<11 ⚙️ Procedure.md>) based on a [{Function}](<../30 🗃️ Talker data/12 🐍 {Function}.md>).
     | 🪵 [`LOG`](<../30 🗃️ Talker data/15 🪵 LOG flow.md>) | Logs messages into the system handler.

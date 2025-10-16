@@ -96,11 +96,11 @@ Success:
 |Type|[Command ⌘](<../../../9 😃 Talkers/40 🌊 Talker flows/10 ⌘ Command.md>)|Purpose
 |-|-|-
 |Data| 🪣 [`MAP`](<../../../9 😃 Talkers/30 🗃️ Talker data/61 🪣 MAP item.md>) | Look up items and machines
-|Input | 🔢 [`DIGITS`](<../../../9 😃 Talkers/20 🤔 Prompts/7 ✏️ Input prompts/44 🔢 DIGITS prompt.md>) | Ask for item number
-|| 👍 [`CONFIRM`](<../../../9 😃 Talkers/20 🤔 Prompts/7 ✏️ Input prompts/31 👍 CONFIRM prompt.md>) | Confirm item name
-|Status| ⏳ [`TEMP`](<../../../9 😃 Talkers/20 🤔 Prompts/4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>) | Show delivering status
-|| ✅ [`SUCCESS`](<../../../9 😃 Talkers/20 🤔 Prompts/4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>) | Ask to pick the item
-|| ❌ [`FAILURE`](<../../../9 😃 Talkers/20 🤔 Prompts/4 ⚠️ Status prompts/24 ❌ FAILURE prompt.md>) | To show in case of error
+|Input | 🔢 [`DIGITS`](<../../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/44 🔢 DIGITS prompt.md>) | Ask for item number
+|| 👍 [`CONFIRM`](<../../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/31 👍 CONFIRM prompt.md>) | Confirm item name
+|Status| ⏳ [`TEMP`](<../../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>) | Show delivering status
+|| ✅ [`SUCCESS`](<../../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>) | Ask to pick the item
+|| ❌ [`FAILURE`](<../../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/4 ⚠️ Status prompts/24 ❌ FAILURE prompt.md>) | To show in case of error
 |Flow| ⤵️ [`IF`](<../../../9 😃 Talkers/40 🌊 Talker flows/21 ⤵️ IF flow.md>) | To see if 21+ check is needed
 ||⬇️ [`EVAL`](<../../../9 😃 Talkers/30 🗃️ Talker data/20 ⬇️ EVAL flow.md>) | To deduct the value on errors
 ||🪵 [`LOG`](<../../../9 😃 Talkers/30 🗃️ Talker data/15 🪵 LOG flow.md>) | To log eventual errors

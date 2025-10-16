@@ -99,10 +99,10 @@
 
     | Flow ⏩ | Description
     |-|-
-    | [🤔 `Prompt`](<🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | Sends a [Prompt 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) to a user [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>)
+    | [🤔 `Prompt`](<🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | Sends a [Prompt 🤔](<../../35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) to a user [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>)
     | [🛠️ `Invite`](<🤗⏩ Host flows/🤗⏩🧑‍🦰 Invite 🤲.md>) | Invites a [Helper 🤲 domain](<../../45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>) to a [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>)
-    | [📝 `Form`](<../27 💼 Consumers/💼⏩ Consumer flows/💼⏩🧑‍🦰 Inform 📝.md>) | Informs a user on upcoming [Inputs ✏️](<../../../9 😃 Talkers/20 🤔 Prompts/1 📘 Prompt features/09 ✏️ as Input.md>)
-    | [❄️ `Freeze`](<🤗⏩ Host flows/🤗⏩🧑‍🦰 Freeze ❄️.md>) | Blocks changes on all previous [Inputs ✏️](<../../../9 😃 Talkers/20 🤔 Prompts/1 📘 Prompt features/09 ✏️ as Input.md>)
+    | [📝 `Form`](<../27 💼 Consumers/💼⏩ Consumer flows/💼⏩🧑‍🦰 Inform 📝.md>) | Informs a user on upcoming [Inputs ✏️](<../../35 Chats/20 🤔 Prompts/1 📘 Prompt features/09 ✏️ as Input.md>)
+    | [❄️ `Freeze`](<🤗⏩ Host flows/🤗⏩🧑‍🦰 Freeze ❄️.md>) | Blocks changes on all previous [Inputs ✏️](<../../35 Chats/20 🤔 Prompts/1 📘 Prompt features/09 ✏️ as Input.md>)
     | [👋 `Goodbye`](<🤗⏩ Host flows/🤗⏩🧑‍🦰 Goodbye 👋.md>) | Triggers the [advertising 👀](<../../45 🤲 Helper domains/12 👀 Advertisers/👀🤲 Advertiser helper.md>) flow
     
 
@@ -117,9 +117,9 @@
     | | [`Home`](<🤗🅰️ Host methods/🤵🐌🤗 Home.md>) | Show the top menu on the [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>)
     | | [`Abandoned`](<🤗🅰️ Host methods/🤵🐌🤗 Abandoned.md>) |  The user abandoned a [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>)
     | | [`Summarize`](<🤗🅰️ Host methods/🤵🐌🤗 Summarize.md>) | Return a [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) advertising summary
-    |[🧑‍🦰 Wallet](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) | [`Prompted`](<🤗🅰️ Host methods/🧑‍🦰🚀🤗 Prompted.md>) | Return a [Prompt's 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) content
-    | | [`Reply`](<🤗🅰️ Host methods/🧑‍🦰🐌🤗 Reply.md>) | Accept the reply to a [Prompt 🤔](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>)
-    | | [`Download`](<🤗🅰️ Host methods/🧑‍🦰🚀🤗 Download.md>) | Download an [Appendix 📎](<../../../9 😃 Talkers/20 🤔 Prompts/1 📘 Prompt features/05 📎 with Appendix.md>)
+    |[🧑‍🦰 Wallet](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) | [`Prompted`](<🤗🅰️ Host methods/🧑‍🦰🚀🤗 Prompted.md>) | Return a [Prompt's 🤔](<../../35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) content
+    | | [`Reply`](<🤗🅰️ Host methods/🧑‍🦰🐌🤗 Reply.md>) | Accept the reply to a [Prompt 🤔](<../../35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>)
+    | | [`Download`](<🤗🅰️ Host methods/🧑‍🦰🚀🤗 Download.md>) | Download an [Appendix 📎](<../../35 Chats/20 🤔 Prompts/1 📘 Prompt features/05 📎 with Appendix.md>)
     [🖐️ Palmist](<../../60 🧰 Edge/63 🖐️ Palmists/01 🖐️🔌 Palmist device.md>) | [`Found`](<🤗🅰️ Host methods/🖐️🐌🤗 Found.md>) | A [Palmist 🖐️](<../../60 🧰 Edge/63 🖐️ Palmists/01 🖐️🔌 Palmist device.md>) found the Chat's user
     [⭐ Reviewer](<../../50 🫥 Agent domains/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) | [`Rated`](<🤗🅰️ Host methods/⭐🐌🤗 Rated.md>) | The [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) received user reviews
     

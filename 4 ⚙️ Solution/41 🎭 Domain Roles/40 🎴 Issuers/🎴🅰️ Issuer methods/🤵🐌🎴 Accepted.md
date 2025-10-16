@@ -37,7 +37,7 @@ Body:
 
     The result allows the [Issuer 🎴 domain](<../🎴🎭 Issuer role.md>) to force the user to save the [Token 🎫](<../../../30 Data/30 🎫 Tokens/🎫 Token.md>), as in the following example from the [Buy entry at a dance club 🤝 use case](<../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/90 🕺 Clubs/12 🌐 Web: Buy entry 🎟️.md>).
 
-    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     |...
     | 🕺 Club       | ℹ️ Entry paid.

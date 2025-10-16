@@ -28,7 +28,7 @@
     Consider the following [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) excerpt from the [Buy Theater Tickets 🤝 use case](<../../../3 🤝 Use Cases/10 🍿 Entertainment/Go to Theaters 🎭/10 Guest @ Anywhere/12 Buy tickets.md>).
     
     
-    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     |...
     | 🎭 Venue   | 😃 Want a ticket? [Yes, No] | > Yes

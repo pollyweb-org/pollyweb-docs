@@ -6,16 +6,16 @@
 
 ## 💬 Chat
 
-| [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+| [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 | - | - | - |
 | | | 🔆 [tap](<../../../4 ⚙️ Solution/30 Data/15 🔆 Locators/$ 🔆 Locator.md>) table
 | 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Fast Food (4.3 ⭐)  [+]
 | 🍔 Fast Food | ℹ️ You're on table 28 [+]
 | 🍔 Fast Food | 😃 Hi! What do you need? <br/>- [ Order ] <br/>- [ Something else ] | > Order
 | 🤵 [Broker](<../../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 [Ready to order?](<../../../9 😃 Talkers/60 ⏩ Msg flows/41 📝 INFORM msg.md>) [Yes, No] <br/> - your curator orders 🧚<br/> - your vitalogist reviews 💖 <br/> - your payer pays 💳 <br/> - we'll deliver to your table 🍔 <br/> - your vitalogist records it 💖 | > Yes
-| 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) | 💭 [Some suggestions:](<../../../9 😃 Talkers/20 🤔 Prompts/7 ✏️ Input prompts/54 🔠 MANY prompt.md>) [All, No] <br/>- [ ] house burger 🍔 (£3.00) <br/> - [ ] still water (25 cl) 💧 (£1.00) <br/> |  > All
-| 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) | 💭 [Anything else?](<../../../9 😃 Talkers/20 🤔 Prompts/7 ✏️ Input prompts/54 🔠 MANY prompt.md>) [No] <br/> - [ ] coffee ☕ (£0.90) | > No
-| 🍔 Fast Food | ℹ️ [Order (£4.00)](<../../../9 😃 Talkers/20 🤔 Prompts/1 📘 Prompt features/03 ⊕ with Details.md>) [+] <br/>- 1 house burger 🍔 (£3.00) <br/> - 1 still water (25 cl) 💧 (£1.00) <br/>  - to deliver at table 28
+| 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) | 💭 [Some suggestions:](<../../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/54 🔠 MANY prompt.md>) [All, No] <br/>- [ ] house burger 🍔 (£3.00) <br/> - [ ] still water (25 cl) 💧 (£1.00) <br/> |  > All
+| 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) | 💭 [Anything else?](<../../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/54 🔠 MANY prompt.md>) [No] <br/> - [ ] coffee ☕ (£0.90) | > No
+| 🍔 Fast Food | ℹ️ [Order (£4.00)](<../../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/1 📘 Prompt features/03 ⊕ with Details.md>) [+] <br/>- 1 house burger 🍔 (£3.00) <br/> - 1 still water (25 cl) 💧 (£1.00) <br/>  - to deliver at table 28
 | 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agent domains/95 💖 Vitalogists/💖🫥 Vitalogist agent.md>) | 🫥 Confirm? [Yes, No] <br/> - burger is outside your diet  | > Yes
 | 💳 [Payer](<../../../4 ⚙️ Solution/50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Pay £4.00 bill? 🧾 [No] <br/>- [ Card ABC ] + $0.10 <br/>- [ Card DEF ] (free) | > Card ABC |
 | 🍔 Fast Food | ✅ Eat-in submitted [+]

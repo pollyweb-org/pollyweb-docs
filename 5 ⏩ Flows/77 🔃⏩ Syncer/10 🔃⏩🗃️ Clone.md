@@ -6,7 +6,7 @@
 
 ## User interface 🧑
 
-| [Domain](<../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+| [Domain](<../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 |-|-|-|
 | [🗃️ Resourcer](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🎭 Resourcer role.md>) | 😃 Hi! What do you need? <br/>- [ Clone ] resources  | > Clone | 
 | [🗃️ Resourcer](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🎭 Resourcer role.md>) | ℹ️ Clone with: `syncer \`<br/>`clone any-r.com 12345`
@@ -18,7 +18,7 @@ $ syncer clone any-r.com 12345
 > Confirm with code 67890
 ```
 
-| [Domain](<../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+| [Domain](<../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 |-|-|-|
 | [🗃️ Resourcer](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🎭 Resourcer role.md>) | ℹ️ Received `67890`.
 | [🗃️ Resourcer](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🎭 Resourcer role.md>) | 😃 Is it correct? [Yes, No] | > Yes

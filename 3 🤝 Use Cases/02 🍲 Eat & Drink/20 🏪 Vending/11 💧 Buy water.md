@@ -9,16 +9,16 @@
 
 ## 💬 Chat
 
-| [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+| [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 | - | - | - |
 | | | 🔆 [tap](<../../../4 ⚙️ Solution/30 Data/15 🔆 Locators/$ 🔆 Locator.md>)
 | 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Vending (4.3 ⭐)  [+]
 | 🍫 Vending | 😃 Hi! What do you need? <br/>- [ Buy ] an item <br/>- [ Something else ] | > Buy 
 | 🍫 Vending | 😃 What's the item number?   | 🔢 123
-| 🍫 Vending | 😃 [A water bottle?](<../../../9 😃 Talkers/20 🤔 Prompts/7 ✏️ Input prompts/31 👍 CONFIRM prompt.md>) [Yes, No]        | > Yes
+| 🍫 Vending | 😃 [A water bottle?](<../../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/31 👍 CONFIRM prompt.md>) [Yes, No]        | > Yes
 | 💳 [Payer](<../../../4 ⚙️ Solution/50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Pay $1.50 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
-| 🍫 Vending | [⏳ Delivering...](<../../../9 😃 Talkers/20 🤔 Prompts/4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>)
-| 🍫 Vending | [✅ Pick up the item. ](<../../../9 😃 Talkers/20 🤔 Prompts/4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>)
+| 🍫 Vending | [⏳ Delivering...](<../../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>)
+| 🍫 Vending | [✅ Pick up the item. ](<../../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>)
 | ⭐ [Rate](<../../../4 ⚙️ Solution/50 🫥 Agent domains/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5
 | [👀 Ads](<../../../4 ⚙️ Solution/45 🤲 Helper domains/12 👀 Advertisers/👀🤲 Advertiser helper.md>) | ⓘ Explore follow-ups: <br/>- [ 🛍️ Reusable bottles at Greg's ] 
 ||

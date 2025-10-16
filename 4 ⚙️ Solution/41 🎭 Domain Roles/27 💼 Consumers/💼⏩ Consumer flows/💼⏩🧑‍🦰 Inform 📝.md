@@ -1,8 +1,8 @@
 # 🤗⏩🧑‍🦰 Form 📝
 
 * Shows user instructions and allow inputs.
-    * [Brokers 🤵](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) may ask for [user confirmation  👍](<../../../../9 😃 Talkers/20 🤔 Prompts/7 ✏️ Input prompts/31 👍 CONFIRM prompt.md>) the first time,
-    * then switch to a [non-blocking info ℹ️](<../../../../9 😃 Talkers/20 🤔 Prompts/4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>).
+    * [Brokers 🤵](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) may ask for [user confirmation  👍](<../../../35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/31 👍 CONFIRM prompt.md>) the first time,
+    * then switch to a [non-blocking info ℹ️](<../../../35 Chats/20 🤔 Prompts/4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>).
 
 * Related to:
     * [📝 Talker `INFORM` command](<../../../../9 😃 Talkers/60 ⏩ Msg flows/41 📝 INFORM msg.md>)
@@ -16,7 +16,7 @@
 ## 💬 Chat
 
 
-| [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+| [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 | - | - | - |
 | 🤵 [Broker](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Ready to order? [Yes, No] <br/> - your curator orders 🧚<br/>  - your payer pays the bill 💳  | > Yes
 |

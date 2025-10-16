@@ -32,11 +32,11 @@
 1. **What's an example with static arguments?**
 
 
-    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ℹ️ [Hi, Alice! I'm happy.](<../20 🤔 Prompts/4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>)
-    | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ℹ️ [Hi David! I'm glad.](<../20 🤔 Prompts/4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>)
-    | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ✅ [Example finished.](<../20 🤔 Prompts/4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>)
+    | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ℹ️ [Hi, Alice! I'm happy.](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>)
+    | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ℹ️ [Hi David! I'm glad.](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>)
+    | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ✅ [Example finished.](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>)
     |
 
     Here's the [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>).
@@ -60,7 +60,7 @@
 1. **What's an example with placeholder arguments?**
 
 
-    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 😃 Give me a number. | ↕️ 12
     | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ℹ️ You gave me number 12.
@@ -87,7 +87,7 @@
 
     | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
-    | ↕️ [`QUANTITY`](<../20 🤔 Prompts/7 ✏️ Input prompts/42 ↕️ QUANTITY prompt.md>) | To collect the number input.
+    | ↕️ [`QUANTITY`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/42 ↕️ QUANTITY prompt.md>) | To collect the number input.
 
 
     ---
@@ -98,10 +98,10 @@
 1. **What's an example with function arguments?**
 
 
-    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) |  ℹ️ [Here's number  3512596.](<../20 🤔 Prompts/4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>)
-    | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) |  ℹ️ [Here's number  52364.](<../20 🤔 Prompts/4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>)
+    | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) |  ℹ️ [Here's number  3512596.](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>)
+    | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) |  ℹ️ [Here's number  52364.](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>)
     | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ✅ Example finished.
     |
 
@@ -135,7 +135,7 @@
 
 
 
-    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) |  ✅ Congrats, you won!
     |
@@ -173,12 +173,12 @@
 1. **What's an example with a calculated RETURN?**
 
 
-    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) |  ℹ️ Adding 5 to 2...
-    | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) |  ✅ [The first result is 7.](<../20 🤔 Prompts/4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>)
+    | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) |  ✅ [The first result is 7.](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>)
     | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) |  ℹ️ Adding 5 to 4...
-    | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) |  ✅ [The second result is 9.](<../20 🤔 Prompts/4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>)
+    | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) |  ✅ [The second result is 9.](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>)
     
 
     ```yaml

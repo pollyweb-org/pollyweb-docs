@@ -33,7 +33,7 @@
 
     The [💬 Chat](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) may look similar to the following.
     
-    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     |-|-|-
     | 🗄️ Vault | 😃 Hi! What do you need? <br/>- [ Bla ] | > Bla
     | [🤵 Broker](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) | ⓘ Flow: Bla, bla, bla [+] 
@@ -74,7 +74,7 @@
 
     The [💬 Chat](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) may look similar to the following.
     
-    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     |-|-|-
     | 🗄️ Vault | 😃 Hi! What do you need? <br/>- [ Bind ] to this Vault <br/>- [ Something else ] | > Bind
     | [🤵 Broker](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) | ⓘ Flow: Bind on app [+] || The [Host 🤗 role](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) changed the context.
@@ -100,7 +100,7 @@
 
     The [💬 Chat](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) may look similar to the following.
 
-    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     |-|-|-
     | | | 🔆 [scan](<../15 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>)
     | 🔎 [Finder](<../../50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Vault (4.3 ⭐)  [+] || The [Broker 🤵](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) informed the user.

@@ -44,7 +44,7 @@
     | [Command ⌘](<../40 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
     |-|-
     | ⬇️ [`EVAL`](<20 ⬇️ EVAL flow.md>) | To push an object into a [$placeholder 💾](<10 💾 $Placeholder.md>).
-    | ℹ️ [`INFO`](<../20 🤔 Prompts/4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) | To show the placeholder values.
+    | ℹ️ [`INFO`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) | To show the placeholder values.
     
     ---
     <br/>
@@ -54,7 +54,7 @@
 
 1. **What's an example for input placeholders?**
    
-    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 😃 Give me a quantity  | ↕️ 1234
     | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ℹ️ I'm saving `1,234`
@@ -75,8 +75,8 @@
 
     | [Command ⌘](<../40 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
     |-|-
-    | ℹ️ [`INFO`](<../20 🤔 Prompts/4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) | To show the [$placeholder 💾](<10 💾 $Placeholder.md>) values.
-    | ↕️ [`QUANTITY`](<../20 🤔 Prompts/7 ✏️ Input prompts/42 ↕️ QUANTITY prompt.md>) | To collect the number input.
+    | ℹ️ [`INFO`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) | To show the [$placeholder 💾](<10 💾 $Placeholder.md>) values.
+    | ↕️ [`QUANTITY`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/42 ↕️ QUANTITY prompt.md>) | To collect the number input.
     
 
     ---
@@ -105,9 +105,9 @@
 1. **What's an example for files?**
 
 
-    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 💬 [Who is in the picture?](<../20 🤔 Prompts/7 ✏️ Input prompts/32 🔠 TEXT prompt.md>) 🖼️ | `Elvis`
+    | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 💬 [Who is in the picture?](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/32 🔠 TEXT prompt.md>) 🖼️ | `Elvis`
 
 
     ```yaml
@@ -141,7 +141,7 @@
 
 
 
-    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ℹ️ No numbers equals 0
     | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ℹ️ 1+2+3 equals 6
@@ -161,7 +161,7 @@
 
     | [Command ⌘](<../40 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
     |-|-
-    | ↕️ [`QUANTITY`](<../20 🤔 Prompts/7 ✏️ Input prompts/42 ↕️ QUANTITY prompt.md>) | To collect the number input.
+    | ↕️ [`QUANTITY`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/42 ↕️ QUANTITY prompt.md>) | To collect the number input.
 
 
     ```python
@@ -204,7 +204,7 @@
    
     
 
-    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ℹ️ You sent:<br/>- Function: MyFunction <br>- Inputs: [1, 2, 3] <br/>- Input: 1
     

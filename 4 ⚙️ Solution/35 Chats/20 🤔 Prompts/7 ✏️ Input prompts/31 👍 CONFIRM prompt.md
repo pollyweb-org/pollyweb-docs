@@ -1,0 +1,122 @@
+# 👍 CONFIRM prompt
+
+> Part of [blocking input prompts 🤔](<../1 📘 Prompt features/09 ✏️ as Input.md>)
+
+<br/>
+
+1. **What's a `CONFIRM` prompt?**
+
+    A `CONFIRM`
+    * is a [blocking input prompt 🤔](<../1 📘 Prompt features/09 ✏️ as Input.md>)
+    * that asks a simple `Yes` or `No` to user,
+    * typically to progress with a workflow.
+
+    ---
+    <br/>
+
+1. **What's the syntax of a `CONFIRM`?**
+
+    ```yaml
+    # Simplest
+    CONFIRM|<statement>
+    ```
+
+    | Argument| Purpose | Example
+    |-|-|-
+    | `<statement>` |  Message to show to the user. | `Sure?`
+
+    ```yaml
+    # Comprehensive
+    CONFIRM:
+        Statement: <statement>
+        
+        # Specific optional properties
+        Then: Procedure|Command
+        Else: Procedure|Command
+
+        # Generic optional properties
+        Emoji: emoji
+        Details: string
+        Appendix: {function}
+    ```
+    
+    | Argument| Purpose | Example
+    |-|-|-
+    | `Then` | [Procedure ⚙️](<../../../../9 😃 Talkers/40 🌊 Talker flows/11 ⚙️ Procedure.md>) or [Command ⌘](<../../../../9 😃 Talkers/40 🌊 Talker flows/10 ⌘ Command.md>) on `True` | `INFO\|OK`
+    | `Else` | [Procedure ⚙️](<../../../../9 😃 Talkers/40 🌊 Talker flows/11 ⚙️ Procedure.md>) or [Command ⌘](<../../../../9 😃 Talkers/40 🌊 Talker flows/10 ⌘ Command.md>) on `False` | `INFO\|NOK`
+    | `Emoji` | Optional [alternative emoji 😶](<../2 ✏️ Input features/14 😶 Input emojis.md>) | `😶`
+    | `Details` | Optional [expandable details ⊕](<../1 📘 Prompt features/03 ⊕ with Details.md>) | `Hint...`
+    | `Appendix` | Optional [file attachment 📎](<../1 📘 Prompt features/05 📎 with Appendix.md>) | `{/...}`
+       
+    ---
+    <br/>
+
+1. **What's a [Chat 💬](<../../12 💬 Chats/$ 💬 Chat.md>) example without actions?**
+
+    > Rejecting this stops the flow.
+
+    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../20 🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 😃 Confirm first? | > Yes
+    | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 😃 Confirm second? | > No
+    | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | (none)
+    |
+
+    <br/>
+    
+
+    Here's the [Talker 😃](<../../../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>).
+
+    ```yaml
+    # 😃 Talker
+    - CONFIRM|Confirm first?
+    - CONFIRM|Confirm second?
+    - CONFIRM|Confirm third? # Never gets here.
+    ```
+
+    <br/>
+
+    Here's the [`Prompted@Host`](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🅰️ Host methods/🧑‍🦰🚀🤗 Prompted.md>).
+
+    ```yaml
+    Format: CONFIRM
+    Statement: 😃 Confirm first?
+    ```
+
+    <br/>
+    
+    Here's the answer in [`Reply@Host`](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🅰️ Host methods/🧑‍🦰🐌🤗 Reply.md>).
+
+    ```yaml
+    # Returns: Yes|No|(empty)
+    Answer: Yes
+    ```
+
+    ---
+    <br/>
+
+1. **What's a [Chat 💬](<../../12 💬 Chats/$ 💬 Chat.md>) example with actions?**
+
+    > Rejecting this does not block the flow.
+    
+    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../20 🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | - | - | - |
+    | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 😃 Approve the task? | > No
+    | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ℹ️ You rejected the task.
+    | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 😃 How about the other?
+    |
+
+    <br/>
+
+    Here's the [Talker 😃](<../../../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>).
+
+    ```yaml
+    # 😃 Talker
+    - CONFIRM|Approve the task?:
+        Then: INFO|You approved the task.
+        Else: INFO|You rejected the task.
+    - CONFIRM|How about the other?
+    ```
+
+    ---
+    <br/>
