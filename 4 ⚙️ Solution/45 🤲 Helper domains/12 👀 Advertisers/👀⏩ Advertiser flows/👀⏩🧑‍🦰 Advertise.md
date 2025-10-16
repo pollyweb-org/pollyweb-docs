@@ -19,7 +19,7 @@
 | 6 | [👀🐌🧚 Sort @ Curator](<../../../50 🫥 Agent domains/30 🧚 Curators/🧚🅰️ Curator methods/👀🐌🧚 Sort.md>) | [Advertisers 👀](<../👀🤲 Advertiser helper.md>) ask [Curators 🧚](<../../../50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) to sort possible ads
 | 7 | [🧚🐌👀 Sorted @ Advertiser](<../👀🅰️ Advertiser methods/🧚🐌👀 Sorted.md>) | [Curators 🧚](<../../../50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) return their view of user preferences
 | 8 | [🤗⏩🧑‍🦰 Prompt 🤔](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Advertisers 👀](<../👀🤲 Advertiser helper.md>) show  next best actions to [Wallets 🧑‍🦰](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
-| 9 | [👀🐌🤵 Promote @ Broker](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🅰️ Broker methods/20 🤵🅰️ Locators/👀🐌🤵 Promote.md>) | Then ask [Brokers 🤵](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) to check-in into any selection
+| 9 | [👀🐌🤵 Promote @ Broker](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🅰️ Broker methods/2 🤵🅰️ Locators/👀🐌🤵 Promote.md>) | Then ask [Brokers 🤵](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) to check-in into any selection
 ||
 
 <br/>

@@ -16,7 +16,7 @@
 
 | # | Call | Notes
 |-|-|-
-| 1 | [🧑‍🦰🚀🤵 `Chats@Broker`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/🤵🅰️ Broker methods/30 🤵🅰️ Chats 💬/🧑‍🦰🚀🤵 Chats.md>) | Fetch [Chats 💬](<../../../4 ⚙️ Solution/35 Chats/💬 Chats/💬 Chat.md>) from the [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>)
+| 1 | [🧑‍🦰🚀🤵 `Chats@Broker`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🧑‍🦰🚀🤵 Chats.md>) | Fetch [Chats 💬](<../../../4 ⚙️ Solution/35 Chats/💬 Chats/💬 Chat.md>) from the [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>)
 ||
 
 <br/>

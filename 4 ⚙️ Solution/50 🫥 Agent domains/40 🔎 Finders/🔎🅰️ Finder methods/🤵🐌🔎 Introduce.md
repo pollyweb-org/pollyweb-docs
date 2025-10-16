@@ -5,7 +5,7 @@
     * to introduce a [Host 🤗 domain](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) 
     * to the user in a new [Chat 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>).
 * Used by the [🔎⏩🧑‍🦰 Introduce 🤗](<../🔎⏩ Finder flows/🔎⏩🧑‍🦰 Introduce 🤗.md>) flow:
-    * followed by [`Introduced@Broker`](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🅰️ Broker methods/30 🤵🅰️ Chats 💬/🔎🐌🤵 Introduced.md>)
+    * followed by [`Introduced@Broker`](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🔎🐌🤵 Introduced.md>)
 
 <br/>
 
