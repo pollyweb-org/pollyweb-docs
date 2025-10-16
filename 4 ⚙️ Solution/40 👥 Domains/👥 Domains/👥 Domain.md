@@ -4,7 +4,7 @@
 1. **What is a Domain in NLWeb?**
 
     In NLWeb, a [domain 👥](<👥 Domain.md>) is any public web service that
-    * sends and receives domain [Messages 📨](<../41 📨 Messages/📨 Message.md>)
+    * sends and receives domain [Messages 📨](<../👥📨 Domain messages/📨 Message.md>)
     * and publishes a [domain Manifest 📜](<../44 📜 Manifests/📜 Manifest.md>).
 
 
@@ -21,7 +21,7 @@
     |-|-|-|
     | 👉 Name servers from the DNS register
     | [`any-domain.com`]() | `NS` | `{name servers}`
-    | 👉 Endpoint for inbound [messages 📨](<../41 📨 Messages/📨 Message.md>)  
+    | 👉 Endpoint for inbound [messages 📨](<../👥📨 Domain messages/📨 Message.md>)  
     | `nlweb`.[`any-domain.com`]() | `A` | `1234.any-api.com`
     | 👉 [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) for outbound and [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>)
     | `pk6`.`_domainkey`.[`any-domain.com`]() | `TXT` | `v=DKIM1;k=rsa;p=...` 

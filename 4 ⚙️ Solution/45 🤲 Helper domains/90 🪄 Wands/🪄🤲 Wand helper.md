@@ -47,7 +47,7 @@
 
 1. **What domain roles do Wands typically implement?**
    
-    |[Domain Role 🎭](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>)|Description
+    |[Domain Role 🎭](<../../40 👥 Domains/👥 Domains/👥 Domain.md>)|Description
     |-|-
     | [🪢 Integrator](<../../41 🎭 Domain Roles/35 🪢 Integrators/$ 🪢🎭 Integrator role.md>) | To promote the printing of [Locators 🔆](<../../30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>) in [Finder 🔎 domains](<../../50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>).
     | [🤗 Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | For interacting with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) in [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>).

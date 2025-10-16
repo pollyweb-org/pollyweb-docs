@@ -3,7 +3,7 @@
 
 1. **What is an Integrator domain role in NLWeb?**
 
-    An Integrator is any [domain 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) 
+    An Integrator is any [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) 
     * that exposes a public API 
     * for other domains to find and use.
 

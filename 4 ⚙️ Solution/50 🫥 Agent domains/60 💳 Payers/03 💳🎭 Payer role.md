@@ -3,7 +3,7 @@
 
 1. **What is a Payer domain in NLWeb?**
 
-    A Payer 💳 is any [domain 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) that sends payments to [Collector 🏦 domains](<../../45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>) under two categories:
+    A Payer 💳 is any [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) that sends payments to [Collector 🏦 domains](<../../45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>) under two categories:
 
     * **[Payer 💳🫥 agents](<04 💳🫥 Payer agent.md>)**: 
         * these are [Payer 💳 domains](<03 💳🎭 Payer role.md>) that act as [Agent 🫥 vaults](<../$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>)
@@ -12,7 +12,7 @@
       
     * **[Payer 💳🤲 Helpers](<../../45 🤲 Helper domains/70 💳 Payers/💳🤲 Payer helper.md>)**:
         * these are [Payer 💳 domains](<03 💳🎭 Payer role.md>) that act as [Helper 🤲 domains](<../../45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>)
-        * for other [domains 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>), 
+        * for other [domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>), 
         * paying for agreements with [Biller 🤝 helpers](<../../45 🤲 Helper domains/20 🤝 Billers/🤝🤲 Biller helper.md>).
 
     ---

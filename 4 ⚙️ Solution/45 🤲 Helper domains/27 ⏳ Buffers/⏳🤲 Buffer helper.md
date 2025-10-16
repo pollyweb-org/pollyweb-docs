@@ -1,7 +1,7 @@
 ⏳ Buffer helper domains
 ===
 
-> Mentioned in [📨 Domain Message](<../../40 👥 Domains/41 📨 Messages/📨 Message.md>)
+> Mentioned in [📨 Domain Message](<../../40 👥 Domains/👥📨 Domain messages/📨 Message.md>)
 
 > Reference by [Identity@Graph 🚀 method](<../50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Identity.md>)
 
@@ -33,7 +33,7 @@
 
 1. **Why are Buffers important?**
 
-    [Buffer ⏳ domains](<⏳🤲 Buffer helper.md>) handle the difference in speed and availability between two [domains 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>), allowing for faster [Streamer 🌬️ domains](<../../41 🎭 Domain Roles/75 🌬️ Streamers/🌬️🎭 Streamer role.md>) to continue without waiting for the slower receiver.
+    [Buffer ⏳ domains](<⏳🤲 Buffer helper.md>) handle the difference in speed and availability between two [domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>), allowing for faster [Streamer 🌬️ domains](<../../41 🎭 Domain Roles/75 🌬️ Streamers/🌬️🎭 Streamer role.md>) to continue without waiting for the slower receiver.
 
     * **Sending**: [Buffer ⏳ domains](<⏳🤲 Buffer helper.md>) allow [Streamer 🌬️ domains](<../../41 🎭 Domain Roles/75 🌬️ Streamers/🌬️🎭 Streamer role.md>) to publish events in real-time with a high-throughput push architecture, without considering the receivers' availability or ingestion capacity.
     
