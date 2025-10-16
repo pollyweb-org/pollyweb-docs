@@ -23,7 +23,7 @@
 
 ## Flow diagram
 
-![Onboard](<.📎 Assets/⚙️ Onboard.png>)
+![Onboard](<../../🧑‍🦰⏩ Wallet flows/10 👉🤵 Set-up/.📎 Assets/⚙️ Onboard.png>)
 
 
 | # | Call | Notes
