@@ -6,7 +6,7 @@
 
 > Part of [😃⏩🧑‍💻 Handle @ Talker](<../😃⏩ Talker flows/20 😃⏩🧑‍💻 Handle 🐍.md>) flow
 
-> Receives the response from [Handle@Hosted](<../../../55 👷 Build domains/1 📦 Hosteds/📦🅰️ Hosted methods/😃🐌📦 Handle.md>)
+> Receives the response from [Handle@Hosted](<../../../55 👷 Build domains/📦 Hosteds/📦🅰️ Hosted methods/😃🐌📦 Handle.md>)
 
 <br/>
 
@@ -30,6 +30,6 @@ Body:
 | Header    | `From`        | string    | [Host 🤗 domain](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) name
 |           | `To`          | string    | [Hoster ☁️ domain](<../../../45 🤲 Helper domains/55 ☁️ Hosters/☁️🤲 Hoster helper.md>) name
 |           | `Subject`     | string    | `Handled@Talker`
-| Body      | `Callback`    | uuid      | Call back from [`Handle@Hosted`](<../../../55 👷 Build domains/1 📦 Hosteds/📦🅰️ Hosted methods/😃🐌📦 Handle.md>)
-|           | `Response`    | any       | Response to [`Handle@Hosted`](<../../../55 👷 Build domains/1 📦 Hosteds/📦🅰️ Hosted methods/😃🐌📦 Handle.md>)
+| Body      | `Callback`    | uuid      | Call back from [`Handle@Hosted`](<../../../55 👷 Build domains/📦 Hosteds/📦🅰️ Hosted methods/😃🐌📦 Handle.md>)
+|           | `Response`    | any       | Response to [`Handle@Hosted`](<../../../55 👷 Build domains/📦 Hosteds/📦🅰️ Hosted methods/😃🐌📦 Handle.md>)
 |
