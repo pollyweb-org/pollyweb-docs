@@ -1,6 +1,6 @@
 # 🔀 Talker `CASE` flow 
 
-> Part of [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>)
+> Part of [Talker 😃](<../10 😃 Talker.md>)
 
 <br/>
 
@@ -10,7 +10,7 @@
     A `CASE` 🔀
     * is a flow [Command ⌘](<10 ⌘ Command.md>)  
     * that runs a matching [Procedure ⚙️](<11 ⚙️ Procedure.md>) or [Command ⌘](<10 ⌘ Command.md>) 
-    * based on the evaluation of a [{Function}](<../30 🗃️ Talker data/12 🐍 {Function}.md>).
+    * based on the evaluation of a [{Function}](<../😃🗃️ Talker data/12 🐍 {Function}.md>).
 
     ---
     <br/>
@@ -26,7 +26,7 @@
 
     | Argument| Purpose | Example
     |-|-|-
-    | `{function}` | Optional [{Function}](<../30 🗃️ Talker data/12 🐍 {Function}.md>) to evaluate | `{f}` `{$p}`
+    | `{function}` | Optional [{Function}](<../😃🗃️ Talker data/12 🐍 {Function}.md>) to evaluate | `{f}` `{$p}`
     || Allows for missing `{}` in functions | `f()` `$p`
     || Defaults to the last [input prompt ✏️](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/1 📘 Prompt features/09 ✏️ as Input.md>) | `TEXT\|Id?`
     | `<value>`| Static value to be matched with. | `ABC`
@@ -75,7 +75,7 @@
     | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ℹ️ Hi, premium customer!
     |
 
-    Here's the [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../10 😃 Talker.md>).
 
     ```yaml
     # 😃 Talker
@@ -111,7 +111,7 @@
     | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ℹ️ You selected option B.
     |
 
-    Here's the [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../10 😃 Talker.md>).
    
     ```yaml
     # 😃 Talker

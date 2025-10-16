@@ -1,13 +1,13 @@
 # 💼 Talker SHARE command
 
-> Part of [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>)
+> Part of [Talker 😃](<../10 😃 Talker.md>)
 
 <br/>
 
 1. **What is a SHARE message command?**
 
     A `SHARE`
-    * is a message [Command ⌘](<../40 🌊 Talker flows/10 ⌘ Command.md>) 
+    * is a message [Command ⌘](<../😃🌊 Talker flow/10 ⌘ Command.md>) 
     * that asks for user data in [Schema Codes 🧩](<../../4 ⚙️ Solution/30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>)
     * triggering the following flows:
       * [🧑‍🦰👉💼 Share Bind @ Wallet](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>)
@@ -52,7 +52,7 @@
 1. **What does the dot mean in a code?**
 
     Given that the [Schema Codes 🧩](<../../4 ⚙️ Solution/30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) defined by `nlweb.org` will be widely used, 
-    * [Talkers 😃](<../10 📘 Talker specs/10 😃 Talker.md>) accept a dot as a prefix of `nlweb.org/`.
+    * [Talkers 😃](<../10 😃 Talker.md>) accept a dot as a prefix of `nlweb.org/`.
     * Consider the following equal examples.
 
         ```yaml
@@ -81,9 +81,9 @@
     SUCCESS|Hi, {$social.Name}!
     ```
 
-    | [Command ⌘](<../40 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../😃🌊 Talker flow/10 ⌘ Command.md>) | Purpose
     |-|-
-    | ⤵️ [`IF`](<../40 🌊 Talker flows/21 ⤵️ IF flow.md>) | To verify the result.  
+    | ⤵️ [`IF`](<../😃🌊 Talker flow/21 ⤵️ IF flow.md>) | To verify the result.  
 
 
     The structure of the shared data is as follows.

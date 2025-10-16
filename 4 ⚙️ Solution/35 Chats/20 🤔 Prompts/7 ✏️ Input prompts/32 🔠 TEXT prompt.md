@@ -71,7 +71,7 @@
 
 
 
-1. **What's the syntax on a [Talker 😃](<../../../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>)?**
+1. **What's the syntax on a [Talker 😃](<../../../../9 😃 Talkers/10 😃 Talker.md>)?**
 
     ```yaml
     # Simplest.
@@ -81,7 +81,7 @@
     | Argument| Purpose 
     |-|-
     | `<statement>`| Message to show to the user
-    | `$placeholder`| Optional [$placeholder 💾](<../../../../9 😃 Talkers/30 🗃️ Talker data/10 💾 $Placeholder.md>) with the user's answer
+    | `$placeholder`| Optional [$placeholder 💾](<../../../../9 😃 Talkers/😃🗃️ Talker data/10 💾 $Placeholder.md>) with the user's answer
     
     ```yaml
     # Comprehensive.
@@ -128,7 +128,7 @@
    
     <br/>
 
-    Here's the [Talker 😃](<../../../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../../../../9 😃 Talkers/10 😃 Talker.md>).
     
     ```yaml
     # Talker 😃
@@ -168,7 +168,7 @@
 
     <br/>
    
-    Here's the [Talker 😃](<../../../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../../../../9 😃 Talkers/10 😃 Talker.md>).
     
     ```yaml
     # Explicit, not recommended, just for the exercise.
@@ -233,7 +233,7 @@
    
     <br/>
 
-    Here's the [Talker 😃](<../../../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../../../../9 😃 Talkers/10 😃 Talker.md>).
     
     ```yaml
     # Explicit, not recommended, just for the exercise.
@@ -256,7 +256,7 @@
     - SUCCESS|You entered `$money`
     ```
 
-    | [Command ⌘](<../../../../9 😃 Talkers/40 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../../../9 😃 Talkers/😃🌊 Talker flow/10 ⌘ Command.md>) | Purpose
     |-|-
     | 💰 [`AMOUNT`](<43 💰 AMOUNT prompt.md>) | To collect a structured currency value.
     | ✅ [`SUCCESS`](<../4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>) | To show the formatted collected value.

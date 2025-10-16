@@ -10,7 +10,7 @@
     * of the [Chat 💬](<../../../../35 Chats/12 💬 Chats/💬 Chat.md>) ending.
 * Used in:
     * [👋 Goodbye @ Host ⏩ flow](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Goodbye 👋.md>) 
-    * [👋 Talker `GOODBYE` command](<../../../../../9 😃 Talkers/60 ⏩ Msg flows/50 👋 GOODBYE.md>)
+    * [👋 Talker `GOODBYE` command](<../../../../../9 😃 Talkers/😃📨 Talker msgs/50 👋 GOODBYE.md>)
 
 <br/> 
 

@@ -1,6 +1,6 @@
 # 📝 Talker INFORM command
 
-> Part of [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>)
+> Part of [Talker 😃](<../10 😃 Talker.md>)
 
 > Related to [Host Inform ⏩ flow](<../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/💼⏩ Consumer flows/💼⏩🧑‍🦰 Inform 📝.md>) 
 
@@ -10,7 +10,7 @@
 1. **What is an INFORM message command?**
    
     An `INFORM`
-    * is a message [Command ⌘](<../40 🌊 Talker flows/10 ⌘ Command.md>) 
+    * is a message [Command ⌘](<../😃🌊 Talker flow/10 ⌘ Command.md>) 
     * that informs that a new form is starting
     * by triggering the [Host Inform ⏩ flow](<../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/💼⏩ Consumer flows/💼⏩🧑‍🦰 Inform 📝.md>)
     * and passing the form key in the Host's [Manifest 📜](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>).
@@ -43,7 +43,7 @@
 
     <br/>
 
-    Here's the [Talker 😃](<../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../10 😃 Talker.md>).
 
     ```yaml
     # Talker

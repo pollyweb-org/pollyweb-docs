@@ -1,8 +1,8 @@
 # 🤗⏩🧑‍🦰 Freeze @ Host ❄️ 
 
 * Activated by:
-    * [❄️ Talker `FREEZE` command](<../../../../9 😃 Talkers/60 ⏩ Msg flows/42 ❄️ FREEZE msg.md>)
-    * [💳 Talker `CHARGE` command](<../../../../9 😃 Talkers/60 ⏩ Msg flows/53 💳 CHARGE msg.md>)
+    * [❄️ Talker `FREEZE` command](<../../../../9 😃 Talkers/😃📨 Talker msgs/42 ❄️ FREEZE msg.md>)
+    * [💳 Talker `CHARGE` command](<../../../../9 😃 Talkers/😃📨 Talker msgs/53 💳 CHARGE msg.md>)
 
 <br/>
 

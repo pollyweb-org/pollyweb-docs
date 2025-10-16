@@ -1,6 +1,6 @@
 # 🪣 Talker `MAP` command
 
-> Part of [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>)
+> Part of [Talker 😃](<../10 😃 Talker.md>)
 
 <br/>
 
@@ -8,10 +8,10 @@
 1. **What's a MAP item command?**
 
     A `MAP` 🪣
-    * is a [Command ⌘](<../40 🌊 Talker flows/10 ⌘ Command.md>) 
+    * is a [Command ⌘](<../😃🌊 Talker flow/10 ⌘ Command.md>) 
     * that retrieves an item by key 🔑
     * from a key-value resource pool 🪣
-    * into a [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>) placeholder.
+    * into a [Talker 😃](<../10 😃 Talker.md>) placeholder.
 
     ---
     <br/>
@@ -107,7 +107,7 @@
     |Key1|1.A|1.B 
     |Key2|2.A|2.B 
     
-    The following [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>) renders `ℹ️ 2.A` in the Chat.
+    The following [Talker 😃](<../10 😃 Talker.md>) renders `ℹ️ 2.A` in the Chat.
 
     ```yaml
     # 😃 Talker 

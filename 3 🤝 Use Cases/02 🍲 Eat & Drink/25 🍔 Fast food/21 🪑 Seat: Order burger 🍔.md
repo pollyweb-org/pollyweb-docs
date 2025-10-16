@@ -12,7 +12,7 @@
 | 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Fast Food (4.3 ⭐)  [+]
 | 🍔 Fast Food | ℹ️ You're on table 28 [+]
 | 🍔 Fast Food | 😃 Hi! What do you need? <br/>- [ Order ] <br/>- [ Something else ] | > Order
-| 🤵 [Broker](<../../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 [Ready to order?](<../../../9 😃 Talkers/60 ⏩ Msg flows/41 📝 INFORM msg.md>) [Yes, No] <br/> - your curator orders 🧚<br/> - your vitalogist reviews 💖 <br/> - your payer pays 💳 <br/> - we'll deliver to your table 🍔 <br/> - your vitalogist records it 💖 | > Yes
+| 🤵 [Broker](<../../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 [Ready to order?](<../../../9 😃 Talkers/😃📨 Talker msgs/41 📝 INFORM msg.md>) [Yes, No] <br/> - your curator orders 🧚<br/> - your vitalogist reviews 💖 <br/> - your payer pays 💳 <br/> - we'll deliver to your table 🍔 <br/> - your vitalogist records it 💖 | > Yes
 | 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) | 💭 [Some suggestions:](<../../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/54 🔠 MANY prompt.md>) [All, No] <br/>- [ ] house burger 🍔 (£3.00) <br/> - [ ] still water (25 cl) 💧 (£1.00) <br/> |  > All
 | 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) | 💭 [Anything else?](<../../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/7 ✏️ Input prompts/54 🔠 MANY prompt.md>) [No] <br/> - [ ] coffee ☕ (£0.90) | > No
 | 🍔 Fast Food | ℹ️ [Order (£4.00)](<../../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/1 📘 Prompt features/03 ⊕ with Details.md>) [+] <br/>- 1 house burger 🍔 (£3.00) <br/> - 1 still water (25 cl) 💧 (£1.00) <br/>  - to deliver at table 28
@@ -29,7 +29,7 @@
 
 ## 💼 Business Setup
 
-1. **What does the [😃 Domain Talker](<../../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>) look like?**
+1. **What does the [😃 Domain Talker](<../../../9 😃 Talkers/10 😃 Talker.md>) look like?**
 
     ```yaml
     💬 Order:

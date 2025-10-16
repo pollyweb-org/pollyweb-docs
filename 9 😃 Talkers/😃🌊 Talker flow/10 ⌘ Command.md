@@ -1,6 +1,6 @@
 # 😃 Talker `<Command>`
 
-> Part of [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>)
+> Part of [Talker 😃](<../10 😃 Talker.md>)
 
 <br/>
 
@@ -72,13 +72,13 @@
 
     |Command|Purpose
     |-|-
-    | 🔗 [`BIND`](<../60 ⏩ Msg flows/44 🔗 BIND msg.md>) | Calls the [Bind Vault @ Wallet ⏩](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind 🔗.md>) flow.
-    | 🎫 [`OFFER`](<../60 ⏩ Msg flows/49 🎫 OFFER msg.md>) | Calls the [Save Token @ Wallet ⏩](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/02 🧑‍🦰👉🎴 Save token.md>) flow.
-    | 👋 [`GOODBYE`](<../60 ⏩ Msg flows/50 👋 GOODBYE.md>) | Calls the [Goodbye @ Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Goodbye 👋.md>) ⏩ flow.
-    | 📜 [`FLOW`](<../60 ⏩ Msg flows/41 📝 INFORM msg.md>)
-    | 💳 [`CHARGE`](<../60 ⏩ Msg flows/53 💳 CHARGE msg.md>)
-    | 💼 [`SHARE`](<../60 ⏩ Msg flows/45 💼 SHARE msg.md>)
-    | 🛰️ [`RELAY`](<../60 ⏩ Msg flows/51 🛰️ RELAY msg.md>)
+    | 🔗 [`BIND`](<../😃📨 Talker msgs/44 🔗 BIND msg.md>) | Calls the [Bind Vault @ Wallet ⏩](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind 🔗.md>) flow.
+    | 🎫 [`OFFER`](<../😃📨 Talker msgs/49 🎫 OFFER msg.md>) | Calls the [Save Token @ Wallet ⏩](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/02 🧑‍🦰👉🎴 Save token.md>) flow.
+    | 👋 [`GOODBYE`](<../😃📨 Talker msgs/50 👋 GOODBYE.md>) | Calls the [Goodbye @ Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Goodbye 👋.md>) ⏩ flow.
+    | 📜 [`FLOW`](<../😃📨 Talker msgs/41 📝 INFORM msg.md>)
+    | 💳 [`CHARGE`](<../😃📨 Talker msgs/53 💳 CHARGE msg.md>)
+    | 💼 [`SHARE`](<../😃📨 Talker msgs/45 💼 SHARE msg.md>)
+    | 🛰️ [`RELAY`](<../😃📨 Talker msgs/51 🛰️ RELAY msg.md>)
     |
     
    
@@ -107,11 +107,11 @@
 
     Command | Purpose
     |-|-
-    | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | Runs a [Command ⌘](<10 ⌘ Command.md>) or [Procedure ⚙️](<11 ⚙️ Procedure.md>) matching a [{Function}](<../30 🗃️ Talker data/12 🐍 {Function}.md>).
+    | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | Runs a [Command ⌘](<10 ⌘ Command.md>) or [Procedure ⚙️](<11 ⚙️ Procedure.md>) matching a [{Function}](<../😃🗃️ Talker data/12 🐍 {Function}.md>).
     | 🫥 [`EMOJI`](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/2 ✏️ Input features/16 😶⌘ EMOJI cmd.md>) | Changes the [default emoji 😃](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/2 ✏️ Input features/14 😶 Input emojis.md>) for [input prompts ✏️](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/1 📘 Prompt features/09 ✏️ as Input.md>).
-    | ⬇️ [`EVAL`](<../30 🗃️ Talker data/20 ⬇️ EVAL flow.md>) | Evaluates a [{Function}](<../30 🗃️ Talker data/12 🐍 {Function}.md>) into a placeholder.
-    | ⤵️ [`IF`](<21 ⤵️ IF flow.md>) | Runs a [Command ⌘](<10 ⌘ Command.md>) or [Procedure ⚙️](<11 ⚙️ Procedure.md>) based on a [{Function}](<../30 🗃️ Talker data/12 🐍 {Function}.md>).
-    | 🪵 [`LOG`](<../30 🗃️ Talker data/15 🪵 LOG flow.md>) | Logs messages into the system handler.
+    | ⬇️ [`EVAL`](<../😃🗃️ Talker data/20 ⬇️ EVAL flow.md>) | Evaluates a [{Function}](<../😃🗃️ Talker data/12 🐍 {Function}.md>) into a placeholder.
+    | ⤵️ [`IF`](<21 ⤵️ IF flow.md>) | Runs a [Command ⌘](<10 ⌘ Command.md>) or [Procedure ⚙️](<11 ⚙️ Procedure.md>) based on a [{Function}](<../😃🗃️ Talker data/12 🐍 {Function}.md>).
+    | 🪵 [`LOG`](<../😃🗃️ Talker data/15 🪵 LOG flow.md>) | Logs messages into the system handler.
     | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | Repeats the current [Procedure ⚙️](<11 ⚙️ Procedure.md>) with a confirmation.
     | ↩️ [`RETURN`](<25 ↩️ RETURN flow.md>) | Returns from a [Procedure ⚙️](<11 ⚙️ Procedure.md>) with a result.
     | ▶️ [`RUN`](<24 ▶️ RUN flow.md>) | Runs a [Procedure ⚙️](<11 ⚙️ Procedure.md>) and puts the result in a placeholder.

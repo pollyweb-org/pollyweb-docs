@@ -1,6 +1,6 @@
 # ▶️ Talker `RUN` flow 
 
-> Part of [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>)
+> Part of [Talker 😃](<../10 😃 Talker.md>)
 
 <br/>
 
@@ -39,7 +39,7 @@
     | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ✅ [Example finished.](<../../4 ⚙️ Solution/35 Chats/20 🤔 Prompts/4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>)
     |
 
-    Here's the [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../10 😃 Talker.md>).
 
     ```yaml
     # 😃 Talker 
@@ -69,7 +69,7 @@
     | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ✅ Example finished.
     |
     
-    Here's the [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../10 😃 Talker.md>).
     
     ```yaml
     # 😃 Talker 
@@ -105,7 +105,7 @@
     | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ✅ Example finished.
     |
 
-    Here's the [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../10 😃 Talker.md>).
 
     ```yaml
     # 😃 Talker 
@@ -140,7 +140,7 @@
     | [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) |  ✅ Congrats, you won!
     |
     
-    Here's the [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../10 😃 Talker.md>).
 
     ```yaml
     # 😃 Talker 

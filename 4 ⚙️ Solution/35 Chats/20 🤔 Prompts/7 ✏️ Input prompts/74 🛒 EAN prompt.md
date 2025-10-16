@@ -28,7 +28,7 @@
     <br/>
 
 
-1. **What's the content for a [Talker 😃](<../../../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>)?**
+1. **What's the content for a [Talker 😃](<../../../../9 😃 Talkers/10 😃 Talker.md>)?**
 
     ```yaml
     

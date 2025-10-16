@@ -17,7 +17,7 @@
     <br/>
 
 
-1. **What's the format of a [Talker 😃](<../../../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>)?**
+1. **What's the format of a [Talker 😃](<../../../../9 😃 Talkers/10 😃 Talker.md>)?**
 
     ```yaml
     TIME|<statement> >> $placeholder
@@ -26,7 +26,7 @@
     |Argument| Details | Example 
     |-|-|-
     | `<statement>`| The message to the user | `What time?`
-    | `$placeholder`| [$placeholder 💾](<../../../../9 😃 Talkers/30 🗃️ Talker data/10 💾 $Placeholder.md>) with  ISO 8601 time | `14:23:59` 
+    | `$placeholder`| [$placeholder 💾](<../../../../9 😃 Talkers/😃🗃️ Talker data/10 💾 $Placeholder.md>) with  ISO 8601 time | `14:23:59` 
     
     ---
     <br/>
@@ -34,7 +34,7 @@
 1. **What's an example of a [Chat 💬](<../../12 💬 Chats/💬 Chat.md>)?**
 
 
-    Here's the [Talker 😃](<../../../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../../../../9 😃 Talkers/10 😃 Talker.md>).
     
     ```yaml
     TIME|What time? >> $time
@@ -67,7 +67,7 @@
 
     <br/>
 
-    The associated [Talker 😃](<../../../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>) would be the following.
+    The associated [Talker 😃](<../../../../9 😃 Talkers/10 😃 Talker.md>) would be the following.
 
     ```yaml
     💬 Schedule for tomorrow:
