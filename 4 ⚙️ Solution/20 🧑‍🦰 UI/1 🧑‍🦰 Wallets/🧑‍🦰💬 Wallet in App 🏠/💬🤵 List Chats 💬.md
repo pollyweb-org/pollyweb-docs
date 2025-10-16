@@ -1,4 +1,4 @@
-# 🧑‍🦰👉🤵 List chats @ Wallet
+# 🧑‍🦰💬🤵 List chats @ Wallet
 
 
 > Implements a [Wallet 🧑‍🦰 app](<../🧑‍🦰🛠️ Wallet app.md>)

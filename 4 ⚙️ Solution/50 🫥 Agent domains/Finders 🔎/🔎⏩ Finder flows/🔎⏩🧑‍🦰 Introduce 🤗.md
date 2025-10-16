@@ -3,8 +3,8 @@
 > Ask the [Finder 🔎 domain](<../🔎🫥 Finder agent.md>) to introduce the [Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)
 
 > Used by:
-> <br/>• [🧑‍🦰👉🤗 Scan host QR](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in App 🏠/🧑‍🦰🔆🤗 Tap host locator.md>)
-> <br/>• [🧑‍🦰👉🤗 Scan printer QR](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in App 🏠/🧑‍🦰🔆🖨️ Tap alias locator.md>)
+> <br/>• [🧑‍🦰👉🤗 Scan host QR](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in App 🏠/🔆🤗 Tap host locator.md>)
+> <br/>• [🧑‍🦰👉🤗 Scan printer QR](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in App 🏠/🔆🖨️ Tap alias locator.md>)
 
 <br/>
 

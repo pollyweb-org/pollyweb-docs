@@ -4,7 +4,7 @@
 
 > Used in:
 > <br/>• [🤵⏩🗄️ Bind vault @ Broker](<🤵⏩🗄️ Bind vault.md>) to add a [Bind 🔗](<../../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) to the list
-> <br>•  [🧑‍🦰👉🗄️ Unbind @ Wallet](<../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Vaults 🗄️/Unbind 🗄️.md>) to remove a [Bind 🔗](<../../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) from the list
+> <br>•  [🧑‍🦰👉🗄️ Unbind @ Wallet](<../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Vaults 🗄️/💬🤵 Unbind 🗄️.md>) to remove a [Bind 🔗](<../../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) from the list
 
 <br/>
 

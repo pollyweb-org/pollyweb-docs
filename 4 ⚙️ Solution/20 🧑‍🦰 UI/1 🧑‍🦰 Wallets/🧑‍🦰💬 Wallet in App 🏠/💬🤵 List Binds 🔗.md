@@ -1,4 +1,4 @@
-# 🧑‍🦰👉🗄️ List Binds @ Wallet
+# 🧑‍🦰💬🤵 List Binds @ Wallet
 
 > Implements a [Wallet 🧑‍🦰 app](<../🧑‍🦰🛠️ Wallet app.md>)
 

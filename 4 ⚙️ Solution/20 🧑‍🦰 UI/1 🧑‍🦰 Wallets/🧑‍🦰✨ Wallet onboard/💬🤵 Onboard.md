@@ -1,6 +1,6 @@
 <!-- https://quip.com/u9H6AsA6azmA/-Wallet-Setup#temp:C:aXG191738dd4065486f9c632656b -->
 
-# 🧑‍🦰👉🤵 Onboard @ Wallet
+# 🧑‍🦰💬🤵 Onboard @ Wallet
 
 > Implements a [Wallet 🧑‍🦰 app](<../🧑‍🦰🛠️ Wallet app.md>)
 

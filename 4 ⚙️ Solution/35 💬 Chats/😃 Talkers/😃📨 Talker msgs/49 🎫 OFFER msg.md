@@ -9,7 +9,7 @@
 
     An `OFFER`
     * is a message [Command ⌘](<../😃⚙️ Talker cmds/10 ⌘ Command.md>) 
-    * that invokes the [Save Token @ Wallet ⏩](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Prompts 🤔/🧑‍🦰👉🎴 Save token.md>) flow.
+    * that invokes the [Save Token @ Wallet ⏩](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Prompts 🤔/👉🎴 Save token.md>) flow.
 
     ---
     <br/>
