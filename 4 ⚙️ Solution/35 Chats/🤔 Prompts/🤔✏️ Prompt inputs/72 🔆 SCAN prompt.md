@@ -29,7 +29,7 @@
     <br/>
 
 
-1. **What's the content for a [Talker 😃](<../../../55 👷 Build domains/3 😃 Talkers/😃 Talker.md>)?**
+1. **What's the content for a [Talker 😃](<../../😃 Talkers/😃 Talker.md>)?**
 
     ```yaml
     

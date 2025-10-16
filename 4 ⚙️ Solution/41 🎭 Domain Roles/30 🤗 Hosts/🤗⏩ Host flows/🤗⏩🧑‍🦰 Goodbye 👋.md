@@ -4,7 +4,7 @@
     * inform [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) of the [Chat 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>) ending, 
     * for them to trigger the [Advertisement 👀 ](<../../../45 🤲 Helper domains/12 👀 Advertisers/👀🤲 Advertiser helper.md>) flow.
 * Activated by:
-    * [👋 Talker `GOODBYE` command](<../../../55 👷 Build domains/3 😃 Talkers/😃📨 Talker msgs/50 👋 GOODBYE.md>)
+    * [👋 Talker `GOODBYE` command](<../../../35 Chats/😃 Talkers/😃📨 Talker msgs/50 👋 GOODBYE.md>)
 
 <br/>
 
@@ -24,7 +24,7 @@ Consider the following [Chat 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>) 
 ## 😃 Talker 
 
 
-The associated [Talker 😃](<../../../55 👷 Build domains/3 😃 Talkers/😃 Talker.md>) would be the following.
+The associated [Talker 😃](<../../../35 Chats/😃 Talkers/😃 Talker.md>) would be the following.
 
 ```yaml
 - SUCCESS|Booking confirmed! 
