@@ -18,12 +18,12 @@
 
     |||
     |-|-
-    | 🚨 [Trigger an emergency](<💍⏩ Userable flows/02 💍🚨 Userable emergencies.md>)| Scripted steps to execute on health emergencies.
-    | 📱 [Aid a confused senior](<💍⏩ Userable flows/13 💍📱 Userable senior user.md>) | Inform relatives using someone else's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
-    | 🎬 [Cross gates](<💍⏩ Userable flows/14 💍🎬 Userable gates.md>)| Cross an airport border control.
-    | 💳 [Pay a salesperson](<💍⏩ Userable flows/21 💍💳 Userable pay salesperson.md>) | Pay a [Seller 💵 domain](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) using the [Seller's Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
-    | [💳 Pay seller at a kiosk](<💍⏩ Userable flows/22 💍💳 Userable pay kiosk.md>) | Pay a [Seller 💵 domain](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) using the [Seller's Kiosk 🖥️](<../../60 🧰 Edge/68 🏪 Terminals/01 🖥️ Info kiosk.md>).
-    | [💳 Pay variable-cost rides](<💍⏩ Userable flows/23 💍💳 Userable pay metro.md>) | Pay variable length metropolitan rides.
+    | 🚨 [Trigger an emergency](<💍⏩ Userable flows/02 💍🚨 emergencies.md>)| Scripted steps to execute on health emergencies.
+    | 📱 [Aid a confused senior](<💍⏩ Userable flows/13 💍📱 senior user.md>) | Inform relatives using someone else's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
+    | 🎬 [Cross gates](<💍⏩ Userable flows/14 💍🎬 gates.md>)| Cross an airport border control.
+    | 💳 [Pay a salesperson](<💍⏩ Userable flows/21 💍💳 pay salesperson.md>) | Pay a [Seller 💵 domain](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) using the [Seller's Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
+    | [💳 Pay seller at a kiosk](<💍⏩ Userable flows/22 💍💳 pay at kiosk.md>) | Pay a [Seller 💵 domain](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) using the [Seller's Kiosk 🖥️](<../../60 🧰 Edge/68 🏪 Terminals/01 🖥️ Info kiosk.md>).
+    | [💳 Pay variable-cost rides](<💍⏩ Userable flows/23 💍💳 pay metro.md>) | Pay variable length metropolitan rides.
 
     ---
     <br/>
