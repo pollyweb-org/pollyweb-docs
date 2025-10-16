@@ -6,7 +6,7 @@
 * Used by:
     * [🧑‍🦰👉🤗 Scan host QR](<../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet chats/in App 🏠/🧑‍🦰🔆🤗 Tap host locator.md>) flow
     * [🧑‍🦰👉🤗 Scan printer QR](<../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet chats/in App 🏠/🧑‍🦰🔆🖨️ Tap alias locator.md>) flow
-    * [🧑‍🦰👉🤗 Prompt option](<../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet chats/in Chats 💬/🧑‍🦰👉🔆 Click locator.md>) flow
+    * [🧑‍🦰👉🤗 Prompt option](<../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet chats/in Prompts 🤔/🧑‍🦰👉🤗 Click locator 🔆.md>) flow
     * [🗄️⏩🧑‍🦰 Engage @ Vault 💬](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️⏩ Vault flows/🗄️⏩🧑‍🦰 Engage 💬.md>) flow
 
 <br/>
