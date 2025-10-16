@@ -11,7 +11,7 @@
 
     [Talkers 😃](<😃 Talker.md>) 
     * are YAML scripts to render dialogs in a [💬 Chat](<../💬 Chats/💬 Chat.md>)
-    * structured as [Commands ⌘](<😃⚙️ Talker cmds/10 ⌘ Command.md>) grouped in [Procedures ⚙️](<😃⚙️ Talker cmds/11 ⚙️ Procedure.md>)
+    * structured as [Commands ⌘](<😃⚙️ Talker cmds/⌘ Command.md>) grouped in [Procedures ⚙️](<😃⚙️ Talker cmds/⚙️ Procedure.md>)
     * referencing [{Functions} 🐍](<😃💾 Talker data/12 🐍 {Function}.md>) evaluated by [Hosted 📦 domains](<../../55 👷 Build domains/📦 Hosteds/📦👥 Hosted domain.md>)
     * and implemented by [Hoster ☁️ helper domains](<../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>).
     ---
@@ -66,9 +66,9 @@
 
     |Method|Details
     |-|-
-    | 🧑‍💻🚀 [Placed](<😃🅰️ Talker methods/10 🧑‍💻🚀😃 Placed.md>) | Returns the value of a [$placeholder 💾](<😃💾 Talker data/10 💾 $Placeholder.md>)
-    | 🧑‍💻🐌 [Place](<😃🅰️ Talker methods/20 🧑‍💻🐌😃 Place.md>) | Sets the value of a [$placeholder 💾](<😃💾 Talker data/10 💾 $Placeholder.md>)
-    | 🧑‍💻🐌 [Handled](<😃🅰️ Talker methods/40 🧑‍💻🐌😃 Handled.md>) | Receives the evaluation of a [{Function} 🐍](<😃💾 Talker data/12 🐍 {Function}.md>)
+    | 🧑‍💻🚀 [Placed](<😃🅰️ Talker methods/🧑‍💻🚀😃 Placed.md>) | Returns the value of a [$placeholder 💾](<😃💾 Talker data/10 💾 $Placeholder.md>)
+    | 🧑‍💻🐌 [Place](<😃🅰️ Talker methods/🧑‍💻🐌😃 Place.md>) | Sets the value of a [$placeholder 💾](<😃💾 Talker data/10 💾 $Placeholder.md>)
+    | 🧑‍💻🐌 [Handled](<😃🅰️ Talker methods/🧑‍💻🐌😃 Handled.md>) | Receives the evaluation of a [{Function} 🐍](<😃💾 Talker data/12 🐍 {Function}.md>)
     
 
     ---

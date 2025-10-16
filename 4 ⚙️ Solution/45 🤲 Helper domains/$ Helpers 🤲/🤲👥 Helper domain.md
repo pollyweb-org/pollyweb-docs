@@ -117,7 +117,7 @@
     - GOODBYE                   # Show advertisement
     ```
 
-    | [Command ⌘](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/⌘ Command.md>) | Purpose
     |-|-
     | 📝 [`INFORM`](<../../35 💬 Chats/😃 Talkers/😃📨 Talker msgs/INFORM 📝 msg.md>) | To provide instructions
     | 🔗 [`BIND`](<../../35 💬 Chats/😃 Talkers/😃📨 Talker msgs/BIND 🔗 msg.md>) | To create a user profile

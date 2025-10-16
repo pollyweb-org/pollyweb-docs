@@ -8,8 +8,8 @@
 1. **What's an IF flow?**
 
     An `IF` ⤵️
-    * is a flow [Command ⌘](<10 ⌘ Command.md>)  
-    * that runs a [Procedure ⚙️](<11 ⚙️ Procedure.md>) or [Command ⌘](<10 ⌘ Command.md>) 
+    * is a flow [Command ⌘](<⌘ Command.md>)  
+    * that runs a [Procedure ⚙️](<⚙️ Procedure.md>) or [Command ⌘](<⌘ Command.md>) 
     * based on the evaluation of a placeholder or [{Function}](<../😃💾 Talker data/12 🐍 {Function}.md>).
 
     ---
@@ -43,8 +43,8 @@
     | `{function}` | Boolean [{Function}](<../😃💾 Talker data/12 🐍 {Function}.md>) to evaluate  | `{f}` `{$o}`
     || Allows for missing `{}` in functions | `f()` `$p`
     || Defaults to the last [input prompt ✏️](<../../🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>) | `TEXT\|Id?`
-    | `<true-proc>` | [Procedure ⚙️](<11 ⚙️ Procedure.md>) to [Run ▶️](<24 ▶️ RUN flow.md>) when `True` | `IfTrue`
-    | `<false-proc>`| [Procedure ⚙️](<11 ⚙️ Procedure.md>) to [Run ▶️](<24 ▶️ RUN flow.md>) when `False` | `IfFalse(X)`
+    | `<true-proc>` | [Procedure ⚙️](<⚙️ Procedure.md>) to [Run ▶️](<24 ▶️ RUN flow.md>) when `True` | `IfTrue`
+    | `<false-proc>`| [Procedure ⚙️](<⚙️ Procedure.md>) to [Run ▶️](<24 ▶️ RUN flow.md>) when `False` | `IfFalse(X)`
     
     ```yaml
     # Multi-line actions: 
@@ -58,8 +58,8 @@
 
     | Argument| Purpose
     |-|-
-    | `<true-action>` | [Procedure ⚙️](<11 ⚙️ Procedure.md>) or one-line [Command ⌘](<10 ⌘ Command.md>) on `True`
-    | `<false-action>`| [Procedure ⚙️](<11 ⚙️ Procedure.md>) or one-line [Command ⌘](<10 ⌘ Command.md>) on `False`
+    | `<true-action>` | [Procedure ⚙️](<⚙️ Procedure.md>) or one-line [Command ⌘](<⌘ Command.md>) on `True`
+    | `<false-action>`| [Procedure ⚙️](<⚙️ Procedure.md>) or one-line [Command ⌘](<⌘ Command.md>) on `False`
 
 
     ```yaml
@@ -76,8 +76,8 @@
 
     | Argument| Purpose
     |-|-
-    | `<true-cmd-n>` | List of multi-line [Commands ⌘](<10 ⌘ Command.md>) to run on `True`
-    | `<false-cmd-n>` | List of multi-line [Commands ⌘](<10 ⌘ Command.md>) to run on `False`
+    | `<true-cmd-n>` | List of multi-line [Commands ⌘](<⌘ Command.md>) to run on `True`
+    | `<false-cmd-n>` | List of multi-line [Commands ⌘](<⌘ Command.md>) to run on `False`
 
     ---
     <br/>

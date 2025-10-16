@@ -42,8 +42,8 @@
     
     | Argument| Purpose | Example
     |-|-|-
-    | `Then` | [Procedure ⚙️](<../../😃 Talkers/😃⚙️ Talker cmds/11 ⚙️ Procedure.md>) or [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/10 ⌘ Command.md>) on `True` | `INFO\|OK`
-    | `Else` | [Procedure ⚙️](<../../😃 Talkers/😃⚙️ Talker cmds/11 ⚙️ Procedure.md>) or [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/10 ⌘ Command.md>) on `False` | `INFO\|NOK`
+    | `Then` | [Procedure ⚙️](<../../😃 Talkers/😃⚙️ Talker cmds/⚙️ Procedure.md>) or [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/⌘ Command.md>) on `True` | `INFO\|OK`
+    | `Else` | [Procedure ⚙️](<../../😃 Talkers/😃⚙️ Talker cmds/⚙️ Procedure.md>) or [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/⌘ Command.md>) on `False` | `INFO\|NOK`
     | `Emoji` | Optional [alternative emoji 😶](<../🤔✏️ Prompt input features/14 😶 Input emojis.md>) | `😶`
     | `Details` | Optional [expandable details ⊕](<../🤔⚙️ Prompt features/3 ⊕ with Details.md>) | `Hint...`
     | `Appendix` | Optional [file attachment 📎](<../🤔⚙️ Prompt features/5 📎 with Appendix.md>) | `{/...}`

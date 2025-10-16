@@ -6,7 +6,7 @@
 
 > Part of [😃⏩🧑‍💻 Handle @ Talker](<../../../35 💬 Chats/😃 Talkers/😃⏩ Talker flows/20 😃⏩🧑‍💻 Handle 🐍.md>) flow
 
-> Followed by [`Handled@Talker`](<../../../35 💬 Chats/😃 Talkers/😃🅰️ Talker methods/40 🧑‍💻🐌😃 Handled.md>) message
+> Followed by [`Handled@Talker`](<../../../35 💬 Chats/😃 Talkers/😃🅰️ Talker methods/🧑‍💻🐌😃 Handled.md>) message
 
 <br/>
 
@@ -29,7 +29,7 @@ Body:
 | Header    | `From`        | string    | [Hoster ☁️ domain](<../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) name
 |           | `To`          | string    | [Hosted 📦 domain](<../📦👥 Hosted domain.md>) name
 |           | `Subject`     | string    | `Handle@Hosted`
-| Body      | `Callback`    | uuid      | Call back for [`Handled@Talker`](<../../../35 💬 Chats/😃 Talkers/😃🅰️ Talker methods/40 🧑‍💻🐌😃 Handled.md>)
+| Body      | `Callback`    | uuid      | Call back for [`Handled@Talker`](<../../../35 💬 Chats/😃 Talkers/😃🅰️ Talker methods/🧑‍💻🐌😃 Handled.md>)
 |           | `Function`    | string    | Name of the function to evaluate
 |           | `Arguments`   | array     | Array of function arguments 
 |
