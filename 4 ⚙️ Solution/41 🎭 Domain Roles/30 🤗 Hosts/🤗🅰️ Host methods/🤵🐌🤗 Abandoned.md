@@ -23,7 +23,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header    | `From`        | string    | [Broker 🤵](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) from [`Help@Broker`](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/30 🤵🅰️ Chats 💬/🧑‍🦰🐌🤵 Help.md>)
+| Header    | `From`        | string    | [Broker 🤵](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) from [`Help@Broker`](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🅰️ Broker methods/30 🤵🅰️ Chats 💬/🧑‍🦰🐌🤵 Help.md>)
 |           | `To`          | string    | [Host 🤗 domain](<../🤗🎭 Host role.md>) from:<br/>- [`Hello@Host`](<🤵🐌🤗 Hello.md>) <br/>- [`Invited@Helper`](<../../../45 🤲 Helper domains/$ 🤲 Helpers/🤲🅰️ Helper methods/🤵🐌🤲 Invited.md>) <br/>-  [`Disclose@Vault`](<../../80 🗄️ Vaults/🗄️🅰️ Vault methods/🤵🐌🗄️ Disclose.md>)
 |           | `Subject`     | string    | `Abandoned@Host`
 | Body      | `ChatID`      | uuid      | [Chat 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>) ID from [`Hello@Host`](<🤵🐌🤗 Hello.md>)

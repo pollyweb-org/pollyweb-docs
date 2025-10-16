@@ -6,7 +6,7 @@
 
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 
-* [Broker 🤵 domains](<../../24 🤵 Brokers/🤵🤲 Broker helper.md>) 
+* [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) 
     * request translation for [Schema Codes 🧩](<../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) and [domains 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>),
     * obtained [domain Manifests 📜](<../../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>).
 * Used by:

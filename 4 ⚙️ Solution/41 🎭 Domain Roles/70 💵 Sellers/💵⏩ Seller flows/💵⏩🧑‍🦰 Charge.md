@@ -32,8 +32,8 @@
 
 - [Seller 💵 domain](<../💵🎭 Seller role.md>) charges [Wallet 🧑‍🦰](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 
-    - [Seller 💵 domain](<../💵🎭 Seller role.md>) → [Charge @ Broker 💵🐌🤵 ](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/70 🤵🅰️ Pay/💵🐌🤵 Charge.md>)
-    - [Broker 🤵 domain](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) → [Charge @ Notifier 🤵💵🐌📣](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/5 💳 Payments/🤵🐌📣 Charge.md>)
+    - [Seller 💵 domain](<../💵🎭 Seller role.md>) → [Charge @ Broker 💵🐌🤵 ](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🅰️ Broker methods/70 🤵🅰️ Pay/💵🐌🤵 Charge.md>)
+    - [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) → [Charge @ Notifier 🤵💵🐌📣](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/5 💳 Payments/🤵🐌📣 Charge.md>)
 
 - [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) pays [Seller 💵 domain](<../💵🎭 Seller role.md>)
 

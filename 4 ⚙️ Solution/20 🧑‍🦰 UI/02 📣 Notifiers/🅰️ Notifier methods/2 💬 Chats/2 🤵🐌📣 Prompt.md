@@ -6,7 +6,7 @@
 > <br/>• [`Download@Host`](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🅰️ Host methods/🧑‍🦰🚀🤗 Download.md>)  message
 
 
-[Broker 🤵 domains](<../../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) 
+[Broker 🤵 domains](<../../../03 🤵 Brokers/🤵🤲 Broker helper.md>) 
 * forward   [Prompts 🤔](<../../../../35 Chats/🤔 Prompts/🤔 Prompt.md>) 
 * from [Host 🤗 domains](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) 
 * to [Notifier 📣 domains](<../../📣 Notifier domain.md>).
@@ -32,11 +32,11 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From`|string | [Broker 🤵 domain](<../../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) name
+|Header|`From`|string | [Broker 🤵 domain](<../../../03 🤵 Brokers/🤵🤲 Broker helper.md>) name
 ||`To`|string| [Notifier 📣 domain](<../../📣 Notifier domain.md>) name
 ||`Subject`|string|`Prompt@Notifier`
 |Body  |`WalletID` |uuid  | [Wallet 🧑‍🦰](<../../../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) ID from [`Converse@Notifier`](<1 🤵🐌📣 Converse.md>)
-|      |`ChatID`  |uuid  | [Chat 💬](<../../../../35 Chats/💬 Chats/💬 Chat.md>) ID from [`Prompt@Broker`](<../../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/30 🤵🅰️ Chats 💬/🤗🐌🤵 Prompt.md>)
-|      |`PromptID`|uuid  | [Prompt 🤔](<../../../../35 Chats/🤔 Prompts/🤔 Prompt.md>) ID from [`Prompt@Broker`](<../../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/30 🤵🅰️ Chats 💬/🤗🐌🤵 Prompt.md>)
-|      |`Sender`  |string| [Host 🤗](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) from [`Prompt@Broker`](<../../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/30 🤵🅰️ Chats 💬/🤗🐌🤵 Prompt.md>)
+|      |`ChatID`  |uuid  | [Chat 💬](<../../../../35 Chats/💬 Chats/💬 Chat.md>) ID from [`Prompt@Broker`](<../../../03 🤵 Brokers/🤵🅰️ Broker methods/30 🤵🅰️ Chats 💬/🤗🐌🤵 Prompt.md>)
+|      |`PromptID`|uuid  | [Prompt 🤔](<../../../../35 Chats/🤔 Prompts/🤔 Prompt.md>) ID from [`Prompt@Broker`](<../../../03 🤵 Brokers/🤵🅰️ Broker methods/30 🤵🅰️ Chats 💬/🤗🐌🤵 Prompt.md>)
+|      |`Sender`  |string| [Host 🤗](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) from [`Prompt@Broker`](<../../../03 🤵 Brokers/🤵🅰️ Broker methods/30 🤵🅰️ Chats 💬/🤗🐌🤵 Prompt.md>)
 |
