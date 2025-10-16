@@ -99,7 +99,7 @@
   
     For automatic emergency alarms,
     * see [Tapband ⌚ thing](<../76 ⌚ Tapbands/$ ⌚💠 Tapband thing.md>) for collecting health sensor measurements
-    * and [Vitalogists 💖 agents](<../../50 🫥 Agent domains/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) for triggering emergency alarms.
+    * and [Vitalogists 💖 agents](<../../50 🫥 Agent domains/95 💖 Vitalogists/💖🫥 Vitalogist agent.md>) for triggering emergency alarms.
 
 
     ---
@@ -119,7 +119,7 @@
 
     For automatic emergency alarms,
     * see [Tapband ⌚ thing](<../76 ⌚ Tapbands/$ ⌚💠 Tapband thing.md>) for collecting health sensor measurements
-    * and [Vitalogists 💖 agents](<../../50 🫥 Agent domains/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) for triggering emergency alarms.
+    * and [Vitalogists 💖 agents](<../../50 🫥 Agent domains/95 💖 Vitalogists/💖🫥 Vitalogist agent.md>) for triggering emergency alarms.
     
     ---
     <br/>

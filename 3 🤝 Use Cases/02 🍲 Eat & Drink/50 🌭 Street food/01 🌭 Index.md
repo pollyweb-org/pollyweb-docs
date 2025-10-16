@@ -12,7 +12,7 @@
 |🧑‍🦰 `🎪 Stall`|[Buy hot dog 🌭](<21 🎪 Stall: Buy hot dog 🌭.md>) | [`🧚 Curator`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) [`🧢 Persona`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/70 🧢 Personas/🧢🫥 Persona agent.md>)   [`💳 Payer`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>) 
 ||[Cancel hot dog 🌭](<22 🎪 Stall: Cancel hot dog.md>) | [`💳 Payer`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>) 
 ||[Cancelled chips 🥔](<23 🎪 Stall: Cancelled chips 🥔.md>) | [`💳 Payer`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>) 
-||[Receive hot dog 🧑‍🍳](<24 🎪 Stall: Receive hot dog.md>) | [`💖 Vitalogist`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) 
+||[Receive hot dog 🧑‍🍳](<24 🎪 Stall: Receive hot dog.md>) | [`💖 Vitalogist`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/95 💖 Vitalogists/💖🫥 Vitalogist agent.md>) 
 ||[Pay after 💳](<31 🎪 Stall: Pay after 💳.md>) | [`💳 Payer`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>) 
 |`🧑‍🍳 Staff`|[Start shift 🪪](<91 🧑‍🍳 Chef: Start shift 🪪.md>) | [`🎫 Token`](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) [`🆔 Identity`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>)
 ||[Serve 🌭](<92 🧑‍🍳 Chef: Serve 🌭.md>)
@@ -33,7 +33,7 @@
     |🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) | Filter options for the business.
     | 🧢 [ Persona](<../../../4 ⚙️ Solution/50 🫥 Agent domains/70 🧢 Personas/🧢🫥 Persona agent.md>) | Share the user's social name.
     | 💳 [Payer](<../../../4 ⚙️ Solution/50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>) | Pays for the food.
-    | 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agent domains/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | Registers the food intake.
+    | 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agent domains/95 💖 Vitalogists/💖🫥 Vitalogist agent.md>) | Registers the food intake.
     | 🧳 [Custodian](<../../../4 ⚙️ Solution/50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>) | To pay with a [💍 Userable](<../../../4 ⚙️ Solution/70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>).
     |
 

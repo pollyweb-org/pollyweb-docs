@@ -27,14 +27,14 @@
 | 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) | ⓘ Half pint it is.
 | 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) | 💭 Anything else? [Yes, No]     | > No
 | 🍸 Bar         | ℹ️ Order: [Change] <br/>- 1 half pint lager 🍺 (£3.00)
-| 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agent domains/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | 🫥 Confirm order? [Yes, No] <br> - warning: you came by car. | > Yes
+| 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agent domains/95 💖 Vitalogists/💖🫥 Vitalogist agent.md>) | 🫥 Confirm order? [Yes, No] <br> - warning: you came by car. | > Yes
 | 🆔 [Identity](<../../../4 ⚙️ Solution/50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Share over 21? [Yes, No]     | > Yes
 | 🆔 [Identity](<../../../4 ⚙️ Solution/50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../../4 ⚙️ Solution/50 🫥 Agent domains/45 🆔 Identities/21 🆔😶 Face scan.md>)
 | 💳 [Payer](<../../../4 ⚙️ Solution/50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Pay £3.00 bill? 🧾 [No] <br/>- [ Card ABC ] + $0.10 <br/>- [ Card DEF ] (free) | > Card ABC |
 | 🍸 Bar        | ✅ Order submitted [+]
 | 🍸 Bar        | ⏳ Preparing your order... [+] 
 | 🍸 Bar        | ℹ️ Ready, we'll take it there [+]
-| 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agent domains/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | 🫥 Save intake? [Yes, No] | > Yes
+| 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agent domains/95 💖 Vitalogists/💖🫥 Vitalogist agent.md>) | 🫥 Save intake? [Yes, No] | > Yes
 | ⭐ [Rate](<../../../4 ⚙️ Solution/50 🫥 Agent domains/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5 |
 | [👀 Ads](<../../../4 ⚙️ Solution/45 🤲 Helper domains/12 👀 Advertisers/👀🤲 Advertiser helper.md>) | ⓘ Explore follow-ups: <br/>- [ 🧙‍♀️ Wicked tickets 50% off! ] 
 ||

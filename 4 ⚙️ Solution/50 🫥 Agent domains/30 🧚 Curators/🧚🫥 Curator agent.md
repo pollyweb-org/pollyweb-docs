@@ -121,7 +121,7 @@
   
     - **Cognitive dissonance**: 
         - respect the human's intent behavior by leveraging [Persona 🧢 vaults](<../70 🧢 Personas/🧢🫥 Persona agent.md>) while addressing the emotional side of the human;
-        - e.g., if a human says they prefer to eat vegetables but reject all dishes that contain vegetables, then the [Curator 🧚 agent](<🧚🫥 Curator agent.md>) should memorize repetitive misalignments and work with the [Vitalogist 💖 vault](<../95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) to help the human achieve their desired behavior (instead of reinforcing the misalignment by defaulting to what the human likes to hear).
+        - e.g., if a human says they prefer to eat vegetables but reject all dishes that contain vegetables, then the [Curator 🧚 agent](<🧚🫥 Curator agent.md>) should memorize repetitive misalignments and work with the [Vitalogist 💖 vault](<../95 💖 Vitalogists/💖🫥 Vitalogist agent.md>) to help the human achieve their desired behavior (instead of reinforcing the misalignment by defaulting to what the human likes to hear).
   
     - **Collaborative growth**:
         - adapt to the human's growth and environmental changes by suggesting changes to the human's [Persona 🧢 vault](<../70 🧢 Personas/🧢🫥 Persona agent.md>) settings.

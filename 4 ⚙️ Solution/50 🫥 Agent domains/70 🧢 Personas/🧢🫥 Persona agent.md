@@ -92,7 +92,7 @@
 
     No.
     - Medical information, like allergies, fall under specific data protection and privacy regulations like HIPAA (Health Insurance Portability and Accountability Act - U.S.).
-    - Personas 🧢 should leave that responsibility to [Vitalogist 💖](<../95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) vaults.
+    - Personas 🧢 should leave that responsibility to [Vitalogist 💖](<../95 💖 Vitalogists/💖🫥 Vitalogist agent.md>) vaults.
 
     ---
     <br/>
