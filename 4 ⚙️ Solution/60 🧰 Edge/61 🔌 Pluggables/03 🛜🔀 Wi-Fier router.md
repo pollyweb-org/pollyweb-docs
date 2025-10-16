@@ -13,7 +13,7 @@
     |Example|Description
     |-|-
     |[🛜 Wi-Fier](<.📎 Assets/🔌🛜 Wi-Fier.png>)| A stand-alone ethernet hub, with RJ45 entries to connect other devices.
-    |[🤖 Robot](<../../25 Locators/3 🤖 Robots/$ 🤖💠 Robot thing.md>)| A home appliance (e.g., fridge, dishwasher) that connects to the Internet.
+    |[🤖 Robot](<../../25 Locators/3 🤖 Robots/🤖💠 Robot thing.md>)| A home appliance (e.g., fridge, dishwasher) that connects to the Internet.
     |[📡 Antenna](<02 📡🔀 Antenna router.md>)| An integrated [Matter 📺](<../../../2 🏔️ Landscape/3 🌳 Ambient landscape/01 🏡 Smart Homes/14 📺 Matter protocol.md>) hub for smart homes (e.g., Amazon Alexa).
 
     ---
