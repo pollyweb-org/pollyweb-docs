@@ -1,7 +1,7 @@
 How to book a room at a hotel?
 ===
 
-> Mentioned in [Verify Signatures 🆔](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/16 🆔🔏 Verify Signatures.md>)
+> Mentioned in [Verify Signatures 🆔](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/16 🆔🔏 Verify Signatures.md>)
 
 <br/>
 
@@ -29,8 +29,8 @@ How to book a room at a hotel?
 | 🌍 Agency   | 😃 Confirm $250? [Yes, No] <br/> - Any Hotel <br/> - at Calla de St. Ana, Madrid, SP <br/> - room king to garden <br/> - from Feb 18 to Feb 20 <br/> - 1 person, no breakfast <br/> - cancel for free until Jan 7 | > Yes
 | 🧢 [Persona](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Personas 🧢/🧢🫥 Persona agent.md>) | 🫥 Share booking contacts? [No] <br/>- [ 🧑‍🦰 personal ] <br/>- [ 💼 work ] <br/>- [ 🧔 Daniel ] | > 💼 work
 | 🌍 Agency   | ℹ️ Thanks, Dr. Alice! 
-| 🆔 [Identity](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) | 🫥 [Sign terms?](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/16 🆔🔏 Verify Signatures.md>) 📄 [Yes, No] | > Yes
-| 🆔 [Identity](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/21 🆔😶 Face scan.md>)
+| 🆔 [Identity](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) | 🫥 [Sign terms?](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/16 🆔🔏 Verify Signatures.md>) 📄 [Yes, No] | > Yes
+| 🆔 [Identity](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/21 🆔😶 Face scan.md>)
 | 💳 [Payer](<../../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) | 🫥 Authorize card? 📄 [No] <br/>- [ Card ABC ] + $0.10 <br/>- [ Card DEF ] (free) | > Card ABC |
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Save booking? [Yes, No] | > Yes 
 | 🌍 Agency   | ✅ Booked!   
