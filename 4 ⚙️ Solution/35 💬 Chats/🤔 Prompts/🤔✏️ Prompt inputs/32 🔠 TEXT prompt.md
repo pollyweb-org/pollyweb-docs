@@ -49,7 +49,7 @@
    |Emoji|Usage
    |-|-
    |💬| The speech emoji 💬 represents the chat's [Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) and any [Helper 🤲 domains](<../../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>) that it may [invite ⏩](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Invite 🤲.md>).
-   |💭| The thought emoji 💭 represents user [Agent 🫥 vaults](<../../../50 🫥 Agent domains/$ Agent Vaults 🫥/$ 🫥🗄️ Agent vault.md>).
+   |💭| The thought emoji 💭 represents user [Agent 🫥 vaults](<../../../50 🫥 Agent domains/$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>).
 
     ---
     <br/>
@@ -123,7 +123,7 @@
     | - | - | - |
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 💬 How are you today? | `I'm fine`
     | [🤲 Helper](<../../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>) | 💬 How are you today? | `I'm fine`
-    | [🫥 Agent](<../../../50 🫥 Agent domains/$ Agent Vaults 🫥/$ 🫥🗄️ Agent vault.md>) | 💭 How are you today? | `I'm fine`
+    | [🫥 Agent](<../../../50 🫥 Agent domains/$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>) | 💭 How are you today? | `I'm fine`
     |
    
     <br/>

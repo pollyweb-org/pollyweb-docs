@@ -5,7 +5,7 @@
 1. **What are Concierge domains in NLWeb?**
 
     A [Concierge 🛎️ domain](<$ 🛎️🫥 Concierge agent.md>) is
-    * a user's [Agent 🫥 vault](<../$ Agent Vaults 🫥/$ 🫥🗄️ Agent vault.md>) 
+    * a user's [Agent 🫥 vault](<../$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>) 
     * that functions like a personal work-order system for users, 
     * allowing [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) to add tasks to the user's queue without a clear definition of how those tasks will be executed.
 

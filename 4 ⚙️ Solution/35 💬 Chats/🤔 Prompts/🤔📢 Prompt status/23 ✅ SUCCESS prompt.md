@@ -94,7 +94,7 @@
     | - | - | - |
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ Simple success.
     | [🤲 Helper](<../../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>) | ✅ Simple success.
-    | [🫥 Agent](<../../../50 🫥 Agent domains/$ Agent Vaults 🫥/$ 🫥🗄️ Agent vault.md>) | ☑️ Simple success.
+    | [🫥 Agent](<../../../50 🫥 Agent domains/$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>) | ☑️ Simple success.
     |
     
     <br/>
