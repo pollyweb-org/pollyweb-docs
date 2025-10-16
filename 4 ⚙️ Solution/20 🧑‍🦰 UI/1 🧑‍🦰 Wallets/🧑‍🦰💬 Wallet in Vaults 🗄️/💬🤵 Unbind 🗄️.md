@@ -11,6 +11,8 @@
 
 ## Chat
 
+> Implemented by [Pop Vault 🔆 handler](<../../3 🤵 Brokers/🤵🔆 Broker locators/Pop Vault 🔆.md>).
+
 | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
 ...
