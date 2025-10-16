@@ -8,7 +8,7 @@
 
 > Used in:
 > <br/>• [🧑‍🦰👉🤵 Set language @ Wallet](<../../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet chats/in App 🏠/🧑‍🦰💬🤵 Translate.md>)
-> <br/>• [🧑‍🦰👉🤵 List chats @ Wallet](<../../../1 🧑‍🦰 Wallets/🧑‍🦰⏩ Wallet flows/20 👉💬 Chats/01 🧑‍🦰👉🤵 List chats.md>)
+> <br/>• [🧑‍🦰👉🤵 List chats @ Wallet](<../../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet chats/in App 🏠/🧑‍🦰💬🤵 List Chats 💬.md>)
 > <br/>• [🤵⏩🗄️ Update chats @ Broker](<../../🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Chats 💬.md>)
 
 

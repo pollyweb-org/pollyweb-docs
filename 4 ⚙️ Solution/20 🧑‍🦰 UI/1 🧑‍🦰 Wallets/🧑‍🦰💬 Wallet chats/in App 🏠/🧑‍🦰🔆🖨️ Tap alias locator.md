@@ -1,4 +1,4 @@
-# 🧑‍🦰👉🤗 Tap Printer Locator @ Wallet
+# 🧑‍🦰👉🤗 Scan or tap `.ALIAS` Locator @ Wallet
 
 
 > Implements a [Wallet 🧑‍🦰 app](<../../🧑‍🦰🛠️ Wallet app.md>)
@@ -24,7 +24,7 @@
 
 ## Flow diagram
 
-![PrinterQR](<.📎 Assets/⚙️🖨️ Printer QR.png>)
+![PrinterQR](<../../🧑‍🦰⏩ Wallet flows/15 👉🔆 Locators/.📎 Assets/⚙️🖨️ Printer QR.png>)
 
 
 | # | Call | Notes

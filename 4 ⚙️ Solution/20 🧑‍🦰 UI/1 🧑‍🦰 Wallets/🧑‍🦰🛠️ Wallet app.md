@@ -14,7 +14,7 @@
 
 1. **What can a user do with a Wallet?**
 
-    ![](<.📎 Assets/🧑‍🦰 Wallet App.png>)
+    ![](<.📎 Assets/🧑‍🦰 Wallet.png>)
 
     The following features are available in a [Wallet 🧑‍🦰 app](<🧑‍🦰🛠️ Wallet app.md>):
     - 💬 [Chats](<../../35 💬 Chats/💬 Chats/💬 Chat.md>): list, filter, search, view, and interact.
@@ -138,15 +138,15 @@
     |-|-|-
     | 🤵 Set up | [👉 Onboard](<🧑‍🦰💬 Wallet chats/in App 🏠/🧑‍🦰💬🤵 Onboard.md>)  | Register the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>) on a [Broker 🤵](<../3 🤵 Brokers/🤵🤲 Broker helper.md>)
     | | [👉 Translate](<🧑‍🦰💬 Wallet chats/in App 🏠/🧑‍🦰💬🤵 Translate.md>)  | Change the language of the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>)
-    | 🔆 Locators |[👉 Host QR](<🧑‍🦰⏩ Wallet flows/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>)  | Scan a [Host 🤗 NFC/QR](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)   to open a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
-    ||[👉 Printer QR](<🧑‍🦰⏩ Wallet flows/15 👉🔆 Locators/02 🧑‍🦰👉🤗 Scan printer QR.md>)  | Scan a [Printer 🖨️ NFC/QR](<../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>) to open a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
-    |💬 Chats|[👉 Chats](<🧑‍🦰⏩ Wallet flows/20 👉💬 Chats/01 🧑‍🦰👉🤵 List chats.md>) | List the user's [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) 
+    | 🔆 Locators |[👉 Host QR](<🧑‍🦰💬 Wallet chats/in App 🏠/🧑‍🦰🔆🤗 Tap host locator.md>)  | Scan a [Host 🤗 NFC/QR](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)   to open a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
+    ||[👉 Printer QR](<🧑‍🦰💬 Wallet chats/in App 🏠/🧑‍🦰🔆🖨️ Tap alias locator.md>)  | Scan a [Printer 🖨️ NFC/QR](<../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>) to open a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
+    |💬 Chats|[👉 Chats](<🧑‍🦰💬 Wallet chats/in App 🏠/🧑‍🦰💬🤵 List Chats 💬.md>) | List the user's [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) 
     ||[👉 Home](<🧑‍🦰💬 Wallet chats/in Chats 💬/🧑‍🦰💬🤵 Host home.md>) | Show the [Host's 🤗 ](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) menu in a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
     ||[👉 Abandon](<🧑‍🦰💬 Wallet chats/in Chats 💬/🧑‍🦰💬🤵 Abandon 💬.md>) | Unilaterally abandon a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
     | 🔗 Binds | [👉 Binds ](<🧑‍🦰💬 Wallet chats/in App 🏠/🧑‍🦰💬🤵 List Binds 🔗.md>) | List the user's [Binds 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>)
-    || [👉 Bind](<🧑‍🦰⏩ Wallet flows/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind 🔗.md>) | [Bind 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>) to a [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)
+    || [👉 Bind](<🧑‍🦰⏩ Wallet flows/30 👉🔗 Binds/🧑‍🦰👉🗄️ Bind 🔗.md>) | [Bind 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>) to a [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)
     || [👉 Unbind](<🧑‍🦰💬 Wallet chats/in Vaults 🗄️/🧑‍🦰💬🤵 Unbind 🗄️.md>) | Remove a [Bind 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) from a [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)
-    ||[👉 Share](<🧑‍🦰⏩ Wallet flows/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>) | Shares a [Bind 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) with a [Consumer 💼](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)
+    ||[👉 Share](<🧑‍🦰⏩ Wallet flows/30 👉🔗 Binds/🧑‍🦰👉💼 Share Bind 🔗.md>) | Shares a [Bind 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) with a [Consumer 💼](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)
     |🎫 Tokens| [👉 Tokens](<🧑‍🦰💬 Wallet chats/in App 🏠/🧑‍🦰💬🤵 List Tokens 🎫.md>)| List the user's [Tokens 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>)
     || [👉 Save](<🧑‍🦰⏩ Wallet flows/40 👉🎫 Tokens/🧑‍🦰👉🎴 Save token.md>) | Save a [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) in the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>)
     || [👉 Remove](<🧑‍🦰💬 Wallet chats/in Tokens 🎫/🧑‍🦰💬🤵 Remove 🎫.md>) | Remove a [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) from the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>)

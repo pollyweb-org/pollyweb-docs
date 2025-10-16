@@ -14,7 +14,7 @@
 
 ## Flow diagram
 
-![alt text](<.📎 Assets/⚙️🤔 Prompt option.png>)
+![alt text](<../../🧑‍🦰⏩ Wallet flows/15 👉🔆 Locators/.📎 Assets/⚙️🤔 Prompt option.png>)
 
 | # | Call | Notes
 |-|-|-

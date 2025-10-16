@@ -1,4 +1,4 @@
-# 🧑‍🦰👉🤗 Scan Host Locator @ Wallet
+# 🧑‍🦰👉🤗 Scan or tap `.HOST` Locator @ Wallet
 
 > Implements a [Wallet 🧑‍🦰 app](<../../🧑‍🦰🛠️ Wallet app.md>)
 
@@ -22,7 +22,7 @@
 
 ## Flow diagram
 
-![alt text](<.📎 Assets/⚙️🤗 Host QR.png>)
+![alt text](<../../🧑‍🦰⏩ Wallet flows/15 👉🔆 Locators/.📎 Assets/⚙️🤗 Host QR.png>)
 
 
 | # | Call | Notes

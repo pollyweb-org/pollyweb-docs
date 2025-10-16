@@ -19,7 +19,7 @@
 
 ## Flow diagram
 
-![Translate](<../../🧑‍🦰⏩ Wallet flows/10 👉🤵 Set-up/.📎 Assets/⚙️ Translate.png>)
+![Translate](<../../.📎 Assets/⚙️ Translate.png>)
 
 
 | # | Call | Notes
