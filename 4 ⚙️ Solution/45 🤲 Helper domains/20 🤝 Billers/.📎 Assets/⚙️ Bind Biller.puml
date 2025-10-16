@@ -1,6 +1,6 @@
 @startuml Bind Biller
 
-participant "Folder 🗂️\nvault" as folder
+participant "Editor 🧑‍💻\nvault" as folder
 participant "Collector 🏦\nvault" as collector
 actor "User\nin chat" as user
 participant "Biller 🤝\ndomain" as biller

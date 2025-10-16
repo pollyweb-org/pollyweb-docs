@@ -31,6 +31,6 @@
 ||[Attend calls 🙋](<92 💁‍♀️ Staff: Attend calls 🙋.md>)
 ||[Place orders 🛒](<93 💁‍♀️ Staff: Place orders 🛒.md>)
 ||[Bill userable 💍](<94 💁‍♀️ Staff: Bill userable 💍.md>) | [`🏦 Collector`](<../../../4 ⚙️ Solution/45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>) [`🆔 Identity`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>)
-|`💼 Owner` | [About](<11 🏢 Owner: About.md>) | [`🗂️ Folder`](<../../../4 ⚙️ Solution/45 🤲 Helper domains/35 🧑‍💻 Editors/🧑‍💻 Editor.md>)
-||[Menu](<12 🏢 Owner: Menu.md>) | [`🗂️ Folder`](<../../../4 ⚙️ Solution/45 🤲 Helper domains/35 🧑‍💻 Editors/🧑‍💻 Editor.md>)
+|`💼 Owner` | [About](<11 🏢 Owner: About.md>) | [`Editor 🧑‍💻`](<../../../4 ⚙️ Solution/45 🤲 Helper domains/35 🧑‍💻 Editors/🧑‍💻 Editor.md>)
+||[Menu](<12 🏢 Owner: Menu.md>) | [`Editor 🧑‍💻`](<../../../4 ⚙️ Solution/45 🤲 Helper domains/35 🧑‍💻 Editors/🧑‍💻 Editor.md>)
 |
