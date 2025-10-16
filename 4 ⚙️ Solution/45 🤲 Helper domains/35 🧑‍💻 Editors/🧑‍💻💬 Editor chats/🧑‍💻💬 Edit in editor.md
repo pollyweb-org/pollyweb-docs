@@ -5,8 +5,8 @@ Edit a setting on a folder editor
 |-|-|-|
 | | | ✨ scan folder QR
 | 🔎 [Finder](<../../../50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Folder (4.3 ⭐)  [+]
-| 🗂️ [Folder](<../🧑‍💻 Editor.md>) | ℹ️ Open editor requested.
+| 🧑‍� [Editor](<../🧑‍💻 Editor.md>) | ℹ️ Open editor requested.
 | 🆔 [Identity](<../../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../../50 🫥 Agent domains/45 🆔 Identities/21 🆔😶 Face scan.md>)
-| 🗂️ Folder   | ✅ Editor opened.
+| 🧑‍💻 Editor   | ✅ Editor opened.
 | ⭐ [Rate](<../../../50 🫥 Agent domains/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5 |
 ||

@@ -62,7 +62,7 @@
     | [🧑‍🦰 Wallet](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) | To authenticate and [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with the [Hoster ☁️ ](<../../4 ⚙️ Solution/45 🤲 Helper domains/55 ☁️ Hosters/☁️🤲 Hoster helper.md>)
     | [💳 Payer](<../../4 ⚙️ Solution/50 🫥 Agent domains/60 💳 Payers/04 💳🫥 Payer agent.md>) | To pay for usage and subscription plans.
     | [🆔 Identity](<../../4 ⚙️ Solution/50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | To authenticate the domain user.
-    | [🗂️ Folder](<../../4 ⚙️ Solution/45 🤲 Helper domains/35 🧑‍💻 Editors/🧑‍💻 Editor.md>) | To manage the settings of the hosted [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/$ 👥 Domains/👥 Domain.md>).
+    | [🧑‍💻 Editor](<../../4 ⚙️ Solution/45 🤲 Helper domains/35 🧑‍💻 Editors/🧑‍💻 Editor.md>) | To manage the settings of the hosted [domain 👥](<../../4 ⚙️ Solution/40 👥 Domains/$ 👥 Domains/👥 Domain.md>).
 
     ---
     <br/>

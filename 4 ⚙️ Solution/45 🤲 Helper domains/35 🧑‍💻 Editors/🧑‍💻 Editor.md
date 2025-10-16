@@ -1,11 +1,11 @@
-🗂️ Folder editor
+🧑‍💻 Editor agent
 ===
 
 1. **What is an NLWeb Folder editor?**
 
-    A Folder 🗂️ editor is a [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) that exposes a desktop app designed to concentrate into a single editor the CRUD datasets from multiple user-bound [Vaults 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>).
+    An Editor 🧑‍💻 agent is a [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) that exposes a desktop app designed to concentrate into a single editor the CRUD datasets from multiple user-bound [Vaults 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>).
 
-    ![alt text](<.📎 Assets/Folder-.png>)
+    ![alt text](<.📎 Assets/Editor-.png>)
 
     ---
 
@@ -20,7 +20,7 @@
 
 1. **What are the benefits for businesses?**
 
-    With Folders 🗂️, businesses that implement a [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) don't need to maintain a website for users to edit their datasets - only an API is required.
+    With Editors 🧑‍💻, businesses that implement a [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) don't need to maintain a website for users to edit their datasets - only an API is required.
 
     ---
 
@@ -30,7 +30,7 @@
 
     On the Folder editor's desktop app, users scan the editor's [Locator 🔆](<../../30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>) with their [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) - the interaction is described in [Edit in folder 🗂️💬](<🧑‍💻💬 Editor chats/🧑‍💻💬 Edit in editor.md>).
 
-    ![alt text](<.📎 Assets/Folder-Login.png>)
+    ![alt text](<.📎 Assets/Editor-Login.png>)
 
 
     ---
@@ -39,9 +39,9 @@
 
 1. **How can users add a vault to the editor?**
 
-    When clicking the "Add Vault" button in the desktop app, the Folder 🗂️ editor initiates a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with the user's [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) - the interaction described in [Bind to folder 🗂️💬](<🧑‍💻💬 Editor chats/🧑‍💻💬 Bind to editor.md>).
+    When clicking the "Add Vault" button in the desktop app, the Editor 🧑‍💻 agent initiates a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with the user's [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) - the interaction described in [Bind to folder 🗂️💬](<🧑‍💻💬 Editor chats/🧑‍💻💬 Bind to editor.md>).
 
-    ![alt text](<.📎 Assets/Folder-Flow.png>)
+    ![alt text](<.📎 Assets/Editor-Flow.png>)
 
     ---
 
@@ -52,7 +52,7 @@
     - Users list the connected [Vaults 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>), then select the intended dataset from the vault. 
     - On the list of dataset items, users perform typical CRUD operations.
 
-    ![alt text](<.📎 Assets/Folder-UX.png>)
+    ![alt text](<.📎 Assets/Editor-UX.png>)
 
     ---
 
@@ -91,22 +91,22 @@
 1. **Is the user's data stored on the editor?**
 
     No. 
-    - Folders 🗂️ only store a references to [Wallets 🔗](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) and [Binds 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>).
+    - Editors 🧑‍💻 only store a references to [Wallets 🔗](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) and [Binds 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>).
 
     ---
 
 1. **How are concurrency conflicts resolved?**
 
-    To prevent a Folder 🗂️ from override a change done by another Folder 🗂️ to the same document between the read and the write, Folders 🗂️ use optimistic concurrency.
+    To prevent an Editor 🧑‍💻 from override a change done by another Editor 🧑‍💻 to the same document between the read and the write, Editors 🧑‍💻 use optimistic concurrency.
     
     - When a document is pulled from a [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>), it comes with a version UUID.
     
-    - When saving a new version of the document back to the [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>), Folders 🗂️ send the original version.
+    - When saving a new version of the document back to the [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>), Editors 🧑‍💻 send the original version.
 
-    - If there's a mismatch between the document version currently stored in the [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) and the original version sent by the Folder 🗂️, then the [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) returns a mismatch error.
+    - If there's a mismatch between the document version currently stored in the [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) and the original version sent by the Editor 🧑‍💻, then the [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) returns a mismatch error.
   
-    - The Folder 🗂️ then cancels the change, reloads the latest version from the [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>), and asks the user to apply the changes again.
+    - The Editor 🧑‍💻 then cancels the change, reloads the latest version from the [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>), and asks the user to apply the changes again.
 
-    - Smarter Folders 🗂️ may be able to compare and merge the 3 versions (the originally pulled, the changed by the user, and the new version from the [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>)), asking the user to just review the changes with a diff interface before resubmitting.
+    - Smarter Editors 🧑‍💻 may be able to compare and merge the 3 versions (the originally pulled, the changed by the user, and the new version from the [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>)), asking the user to just review the changes with a diff interface before resubmitting.
 
     ---
