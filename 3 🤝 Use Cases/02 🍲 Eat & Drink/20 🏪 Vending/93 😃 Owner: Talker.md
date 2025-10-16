@@ -98,9 +98,9 @@ Success:
 |Data| 🪣 [`MAP`](<../../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃🗃️ Talker data/61 🪣 MAP item.md>) | Look up items and machines
 |Input | 🔢 [`DIGITS`](<../../../4 ⚙️ Solution/35 Chats/🤔 Prompts/7 ✏️ Input prompts/44 🔢 DIGITS prompt.md>) | Ask for item number
 || 👍 [`CONFIRM`](<../../../4 ⚙️ Solution/35 Chats/🤔 Prompts/7 ✏️ Input prompts/31 👍 CONFIRM prompt.md>) | Confirm item name
-|Status| ⏳ [`TEMP`](<../../../4 ⚙️ Solution/35 Chats/🤔 Prompts/4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>) | Show delivering status
-|| ✅ [`SUCCESS`](<../../../4 ⚙️ Solution/35 Chats/🤔 Prompts/4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>) | Ask to pick the item
-|| ❌ [`FAILURE`](<../../../4 ⚙️ Solution/35 Chats/🤔 Prompts/4 ⚠️ Status prompts/24 ❌ FAILURE prompt.md>) | To show in case of error
+|Status| ⏳ [`TEMP`](<../../../4 ⚙️ Solution/35 Chats/🤔 Prompts/🤔⚠️ Prompt status/25 ⏳ TEMP prompt.md>) | Show delivering status
+|| ✅ [`SUCCESS`](<../../../4 ⚙️ Solution/35 Chats/🤔 Prompts/🤔⚠️ Prompt status/23 ✅ SUCCESS prompt.md>) | Ask to pick the item
+|| ❌ [`FAILURE`](<../../../4 ⚙️ Solution/35 Chats/🤔 Prompts/🤔⚠️ Prompt status/24 ❌ FAILURE prompt.md>) | To show in case of error
 |Flow| ⤵️ [`IF`](<../../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃🌊 Talker flow/21 ⤵️ IF flow.md>) | To see if 21+ check is needed
 ||⬇️ [`EVAL`](<../../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃🗃️ Talker data/20 ⬇️ EVAL flow.md>) | To deduct the value on errors
 ||🪵 [`LOG`](<../../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃🗃️ Talker data/15 🪵 LOG flow.md>) | To log eventual errors

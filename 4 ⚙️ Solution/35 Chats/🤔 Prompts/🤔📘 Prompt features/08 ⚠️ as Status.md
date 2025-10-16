@@ -17,9 +17,9 @@
    
     | Format | Description
     |-|-
-    | ℹ️ [`INFO`](<../4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) | General information.
-    | ✅ [`SUCCESS`](<../4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>) | Success message.
-    | ❌ [`FAILURE`](<../4 ⚠️ Status prompts/24 ❌ FAILURE prompt.md>) | Failure message.
+    | ℹ️ [`INFO`](<../🤔⚠️ Prompt status/21 ℹ️ INFO prompt.md>) | General information.
+    | ✅ [`SUCCESS`](<../🤔⚠️ Prompt status/23 ✅ SUCCESS prompt.md>) | Success message.
+    | ❌ [`FAILURE`](<../🤔⚠️ Prompt status/24 ❌ FAILURE prompt.md>) | Failure message.
     
     ---
     <br/>
