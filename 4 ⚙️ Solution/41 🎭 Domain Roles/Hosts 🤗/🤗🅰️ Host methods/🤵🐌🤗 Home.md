@@ -5,7 +5,7 @@
 > Used by:
 > <br/>• [🧑‍🦰👉🗄️ Unbind](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰⏩ Wallet flows/30 👉🔗 Binds/03 🧑‍🦰👉🗄️ Unbind.md>) flow
 > <br/>• [🧑‍🦰👉🤵 Remove Token](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰⏩ Wallet flows/40 👉🎫 Tokens/03 🧑‍🦰👉🤵 Remove token.md>) flow
-> <br/>• [🧑‍🦰👉🤵 Host home](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰⏩ Wallet flows/20 👉💬 Chats/🧑‍🦰💬🤵 Host home.md>) flow
+> <br/>• [🧑‍🦰👉🤵 Host home](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet chats/in Chats 💬/🧑‍🦰💬🤵 Host home.md>) flow
 
 <br/>
 
