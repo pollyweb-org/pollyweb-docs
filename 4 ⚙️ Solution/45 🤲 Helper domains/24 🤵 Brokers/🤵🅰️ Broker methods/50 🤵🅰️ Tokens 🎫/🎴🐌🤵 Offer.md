@@ -6,7 +6,7 @@
 > Used by the [🎴⏩🧑‍🦰 Offer Token @ Issuer](<../../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/02 🧑‍🦰👉🎴 Save token.md>) flow.
 
 * An [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) issues a [Token 🎫](<../../../../30 Data/30 🎫 Tokens/🎫 Token.md>) 
-  * and asks a [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) to offer it to the user in a [Chat 💬](<../../../../35 Chats/12 💬 Chats/$ 💬 Chat.md>).
+  * and asks a [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) to offer it to the user in a [Chat 💬](<../../../../35 Chats/12 💬 Chats/💬 Chat.md>).
 
 
 <br/>
@@ -33,7 +33,7 @@ Body:
 |Header|`From`|string | [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) name
 ||`To`|string| [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) name
 ||`Subject`|string|`Offer@Broker`
-|Body  |`ChatID` |uuid  | [Chat 💬](<../../../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) ID from [`Hello@Host`](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🅰️ Host methods/🤵🐌🤗 Hello.md>)
+|Body  |`ChatID` |uuid  | [Chat 💬](<../../../../35 Chats/12 💬 Chats/💬 Chat.md>) ID from [`Hello@Host`](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🅰️ Host methods/🤵🐌🤗 Hello.md>)
 | |`TokenID` |uuid  | [Token 🎫](<../../../../30 Data/30 🎫 Tokens/🎫 Token.md>) ID
 |      |`Code`   |string| [Schema Code 🧩](<../../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) 
 |      |`Version`|string| Schema version|      

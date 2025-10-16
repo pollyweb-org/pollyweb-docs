@@ -2,7 +2,7 @@
 
 # 💼🐌🤵  Query @ Broker
 
-* In a [Chat 💬](<../../../../35 Chats/12 💬 Chats/$ 💬 Chat.md>), 
+* In a [Chat 💬](<../../../../35 Chats/12 💬 Chats/💬 Chat.md>), 
     * a [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) 
     * asks the [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) 
     * for access to user data 
@@ -39,7 +39,7 @@ Body:
 | Header | `From`| sting | [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) name
 | | `To` | string | [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) name
 | | `Subject` | string | `Query@Broker`
-| Body | `ChatID` | string | [Chat 💬](<../../../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) ID
+| Body | `ChatID` | string | [Chat 💬](<../../../../35 Chats/12 💬 Chats/💬 Chat.md>) ID
 | | `ConsumerKey`| uuid | [`Consume@Consumer`](<../../../../41 🎭 Domain Roles/27 💼 Consumers/💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>) callback
 | | `Codes` | string[] | List of [Schema Codes 🧩](<../../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>)
 |

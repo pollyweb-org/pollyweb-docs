@@ -5,13 +5,13 @@
 > Part of [blocking input prompts 🤔](<../1 📘 Prompt features/09 ✏️ as Input.md>)
 
    * `EAN|<statement> >> <key>`	
-       * Calls the [🛒 EAN Prompt](<../20 🤔 Prompt.md>)
+       * Calls the [🛒 EAN Prompt](<../🤔 Prompt.md>)
 
 <br/>
 
-1. **What's an example of a [Chat 💬](<../../12 💬 Chats/$ 💬 Chat.md>)?**
+1. **What's an example of a [Chat 💬](<../../12 💬 Chats/💬 Chat.md>)?**
 
-    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../20 🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 
 

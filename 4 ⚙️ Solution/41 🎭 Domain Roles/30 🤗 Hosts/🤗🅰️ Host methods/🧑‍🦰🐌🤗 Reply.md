@@ -1,6 +1,6 @@
 # 🧑‍🦰🐌🤗 Reply @ Host
 
-> A [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) replies to a [Prompt 🤔](<../../../35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) of a [Host 🤗 domain](<../🤗🎭 Host role.md>) in a [Chat 💬](<../../../35 Chats/12 💬 Chats/$ 💬 Chat.md>).
+> A [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) replies to a [Prompt 🤔](<../../../35 Chats/20 🤔 Prompts/🤔 Prompt.md>) of a [Host 🤗 domain](<../🤗🎭 Host role.md>) in a [Chat 💬](<../../../35 Chats/12 💬 Chats/💬 Chat.md>).
 
 > Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) flow.
 
@@ -31,8 +31,8 @@ Body:
 | Header    | `From`        | string    | `Anonymous`
 |           | `To`          | string    | [Sender 🤗](<../🤗🎭 Host role.md>) from [`Prompt@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
 |           | `Subject`     | string    | `Prompted@Host`
-| Body      | `ChatID` | uuid | [Chat 💬](<../../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) ID from [`Prompt@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
-||`PromptID`    | uuid      | [Prompt 🤔](<../../../35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) ID from [`Prompt@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
+| Body      | `ChatID` | uuid | [Chat 💬](<../../../35 Chats/12 💬 Chats/💬 Chat.md>) ID from [`Prompt@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
+||`PromptID`    | uuid      | [Prompt 🤔](<../../../35 Chats/20 🤔 Prompts/🤔 Prompt.md>) ID from [`Prompt@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
 || `Result`| enum | `OK` `CANCEL` `YES` `NO` 
-|| `Answer` | any | Answer to the [Prompt 🤔](<../../../35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>)
+|| `Answer` | any | Answer to the [Prompt 🤔](<../../../35 Chats/20 🤔 Prompts/🤔 Prompt.md>)
 |

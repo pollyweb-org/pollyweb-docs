@@ -47,7 +47,7 @@
     |  🧩 [Schema Codes](<../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) | Defined by the domain. | [`./CODE` 🧩](<🧩 Manifest schemas/🧩 CODE.md>)  | Schema validation of a Code
     |  🧩 [Delegated Codes](<../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) | Codes delegated to other domains. | [`./DELEGATE` 🧩](<🧩 Manifest schemas/🧩 DELEGATE.md>)
     | 🪢 [Integrations](<../../41 🎭 Domain Roles/35 🪢 Integrators/$ 🪢🎭 Integrator role.md>) |Synchronous datasets, <br/>asynchronous supplies, <br/>and streaming endpoints. | [`./OFFER` 🧩](<🧩 Manifest schemas/🧩 OFFER.md>)
-    | [Chat 💬 Flows](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) | To explain what user data is request.
+    | [Chat 💬 Flows](<../../35 Chats/12 💬 Chats/💬 Chat.md>) | To explain what user data is request.
 
     ---
     <br/>

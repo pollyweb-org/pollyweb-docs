@@ -7,7 +7,7 @@
 
 1. **What's an QUANTITY prompt?**
 
-    It's a [Prompt 🤔](<../20 🤔 Prompt.md>) that shows up and down arrows - e.g.:
+    It's a [Prompt 🤔](<../🤔 Prompt.md>) that shows up and down arrows - e.g.:
     * [Book a restaurant table online 🍽️](<../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/31 🌐 Web: Book table 🗓️.md>)
     * [Split the bill at a restaurant ✂️](<../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/74 💳 Pay: Split bill ✂️.md>)
     * [Walk into a full restaurant 🍽️](<../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/44 🚪 Door: Walk in full.md>)
@@ -60,7 +60,7 @@
     | Argument| Purpose | Example
     |-|-|-
     | `Precision`| Rounded decimals (default is 0) | `0`
-    | `Locale`   | Optional CLDR locale <br/> - defaults to the [Chat 💬](<../../12 💬 Chats/$ 💬 Chat.md>) language | `en-US`
+    | `Locale`   | Optional CLDR locale <br/> - defaults to the [Chat 💬](<../../12 💬 Chats/💬 Chat.md>) language | `en-US`
     | `MinValue` | Optional [minimum value 📋](<../2 ✏️ Input features/13 📋 Input validation.md>) | `-100`
     | `MaxValue` | Optional [maximum value 📋](<../2 ✏️ Input features/13 📋 Input validation.md>) | `100`
     | `Emoji` | Optional [alternative emoji 😶](<../2 ✏️ Input features/14 😶 Input emojis.md>) | `😶`
@@ -76,9 +76,9 @@
 
 1. **What's an example?**
 
-    Here's a [Chat 💬](<../../12 💬 Chats/$ 💬 Chat.md>).
+    Here's a [Chat 💬](<../../12 💬 Chats/💬 Chat.md>).
 
-    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../20 🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 😃 How many? | ↕️ 123
     [🫥 Agent](<../../../50 🫥 Agent domains/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) | 🫥 How many? | ↕️ 123
@@ -123,11 +123,11 @@
 
 
 
-1. **How to default quantities in a [Chat 💬](<../../12 💬 Chats/$ 💬 Chat.md>)?**
+1. **How to default quantities in a [Chat 💬](<../../12 💬 Chats/💬 Chat.md>)?**
 
     Use the [`ONE`](<53 1️⃣ ONE prompt.md>) prompt.
 
-    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../20 🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ℹ️ Table reservation.
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 😃 For how many? [1, 2, more] | > more
@@ -179,9 +179,9 @@
 
     <br/>
 
-    Here's a [Chat 💬](<../../12 💬 Chats/$ 💬 Chat.md>).
+    Here's a [Chat 💬](<../../12 💬 Chats/💬 Chat.md>).
 
-    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../20 🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 😃 How much? | ↕️ 01234.5
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ℹ️ You entered `1,234.50`
@@ -234,7 +234,7 @@
 
 1. **What's an example of a QUANTITY default property?**
 
-    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../20 🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 😃 Give me a quantity  | ↕️ 1234
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ℹ️ I'm storing `1,234`

@@ -9,7 +9,7 @@
         * internet browsing: Chrome, Firefox, or Safari;
         * email messaging: Gmail, Outlook, Apple Mail.
 
-    * While in a [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>), a [Host 🤗 domain](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) to invoke user Agents 🫥 by role - e.g.:
+    * While in a [Chat 💬](<../../35 Chats/12 💬 Chats/💬 Chat.md>), a [Host 🤗 domain](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) to invoke user Agents 🫥 by role - e.g.:
 
         * `any-host.com` asks `any-broker.com` to invoke the user's [Persona 🧢 agent](<../70 🧢 Personas/🧢🫥 Persona agent.md>), 
         * then `any-broker.com` invokes the domain `any-persona.com`.
@@ -28,11 +28,11 @@
     |🔎| [Finder](<../40 🔎 Finders/🔎🫥 Finder agent.md>) | Google | Searches for [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>), and  introduces them when they start a ../05 💬 Chats/01 💬 Chat.mds/01 💬 Chat.md>).
     |🆔|[Identity](<../45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | IDOne | Confirms that the user is physically present behind the remote screen.
     |🌼| [Keybox](<../48 🌼 Keyboxes/$ 🌼🫥 Keybox agent.md>) | FindMy | Stores and manages the user's [Padlock 🔒](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>) keys.
-    |📇| [Mingler](<../50 📇 Minglers/$ 📇🫥 Mingler agent.md>) | WhatsApp | Connects multiple users in a [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>), allowing them to exchange [Tokens 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>).
+    |📇| [Mingler](<../50 📇 Minglers/$ 📇🫥 Mingler agent.md>) | WhatsApp | Connects multiple users in a [Chat 💬](<../../35 Chats/12 💬 Chats/💬 Chat.md>), allowing them to exchange [Tokens 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>).
     |🧭| [Navigator](<../55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>) | G.Maps | Helps users going from point A to B.
     |💳| [Payer](<../60 💳 Payers/03 💳🎭 Payer role.md>) | Paypal | Performs payments to [Collector 🏦 domains](<../../45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>).
     |🧢| [Persona](<../70 🧢 Personas/🧢🫥 Persona agent.md>) | Facebook | Stores and shares user preferences and personally identifiable information (PII).
-    |⭐| [Reviewer](<../73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) | TrustPilot | Collects and shares user feedback from [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) experiences.
+    |⭐| [Reviewer](<../73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) | TrustPilot | Collects and shares user feedback from [Chat 💬](<../../35 Chats/12 💬 Chats/💬 Chat.md>) experiences.
     |🗓️| [Scheduler](<../75 🗓️ Schedulers/$ 🗓️🫥 Scheduler agent.md>) | Outlook | Monitors and manages the user's agenda.
     |💾| [Storage](<../80 💾 Storage/💾🫥 Storage agent.md>) | Dropbox | Stores user data for other [Vault 🗄️ domains](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>), for data residency compliance.
     |🕓| [Timeline](<../90 🕓 Timeline/🕓🫥 Timeline agent.md>) | G.Photos | Collects and fans out user-related events.
@@ -68,7 +68,7 @@
     * e.g., by stating what they're trying to accomplish;
     * as in the following example, from the [Trip Return 🤝 use case](<../../../3 🤝 Use Cases/03 🧳 Travel/01 🧳 Plans trips 🧭/02 🧭 Return @ Destination.md>).
 
-    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 Chats/20 🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - 
     | | | 🤵 [Broker](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>)
     | 🤵 [Broker](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) | 😃 Hi! What do you need? | `return to` <br/> `hotel`

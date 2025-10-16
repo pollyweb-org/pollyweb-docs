@@ -39,9 +39,9 @@
 
 1. **What's an example of emojis in Talkers?**
 
-    Consider the following [Chat 💬](<../../12 💬 Chats/$ 💬 Chat.md>).
+    Consider the following [Chat 💬](<../../12 💬 Chats/💬 Chat.md>).
 
-    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../20 🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 😃 Continue? [Yes, No]
     |
@@ -94,8 +94,8 @@
 1. **How to replace emojis in Talkers?**
 
     The replacement can either be:
-    * per [Prompt 🤔](<../20 🤔 Prompt.md>) by setting the `Emoji` parameter,
-    * or by default for upcoming [Prompts 🤔](<../20 🤔 Prompt.md>) with the [`EMOJI`](<16 😶⌘ EMOJI cmd.md>) command.
+    * per [Prompt 🤔](<../🤔 Prompt.md>) by setting the `Emoji` parameter,
+    * or by default for upcoming [Prompts 🤔](<../🤔 Prompt.md>) with the [`EMOJI`](<16 😶⌘ EMOJI cmd.md>) command.
 
     ---
     <br/>

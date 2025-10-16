@@ -9,7 +9,7 @@
 1. **What's a `TIME` prompt?**
 
     A `TIME`
-    * is a [Prompt 🤔](<../20 🤔 Prompt.md>) 
+    * is a [Prompt 🤔](<../🤔 Prompt.md>) 
     * that asks for a time
     * in the user's timezone (not UTC).
 
@@ -31,7 +31,7 @@
     ---
     <br/>
 
-1. **What's an example of a [Chat 💬](<../../12 💬 Chats/$ 💬 Chat.md>)?**
+1. **What's an example of a [Chat 💬](<../../12 💬 Chats/💬 Chat.md>)?**
 
 
     Here's the [Talker 😃](<../../../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>).
@@ -40,7 +40,7 @@
     TIME|What time? >> $time
     ```
 
-    | Domain | [Prompt 🤔](<../20 🤔 Prompt.md>) | User
+    | Domain | [Prompt 🤔](<../🤔 Prompt.md>) | User
     | - | - | - |
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 😃 What time? | 🕓 10:30:00
     [🫥 Agent](<../../../50 🫥 Agent domains/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) | 🫥 What time? | 🕓 10:30:00
@@ -54,11 +54,11 @@
     <br/>
 
 
-1. **How to provide default time options in a [Chat 💬](<../../12 💬 Chats/$ 💬 Chat.md>)?**
+1. **How to provide default time options in a [Chat 💬](<../../12 💬 Chats/💬 Chat.md>)?**
 
-    Mix with [ONE 1️⃣ prompts](<53 1️⃣ ONE prompt.md>), like in the following [Chat 💬](<../../12 💬 Chats/$ 💬 Chat.md>).
+    Mix with [ONE 1️⃣ prompts](<53 1️⃣ ONE prompt.md>), like in the following [Chat 💬](<../../12 💬 Chats/💬 Chat.md>).
 
-    | Domain | [Prompt 🤔](<../20 🤔 Prompt.md>) | User
+    | Domain | [Prompt 🤔](<../🤔 Prompt.md>) | User
     | - | - | - |
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 😃 [What time tomorrow?](<53 1️⃣ ONE prompt.md>) <br/> - [ 10:00 ] <br/> - [ 10:30 ] <br/> - [ Another ] time | > Another
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 😃 When exactly? | 🕓 10:37:00

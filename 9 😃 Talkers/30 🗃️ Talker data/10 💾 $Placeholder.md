@@ -9,7 +9,7 @@
 
     A `$placeholder`
     * is a named memory slot 
-    * associated with a [Chat 💬](<../../4 ⚙️ Solution/35 Chats/12 💬 Chats/$ 💬 Chat.md>)
+    * associated with a [Chat 💬](<../../4 ⚙️ Solution/35 Chats/12 💬 Chats/💬 Chat.md>)
     * and managed by a [Talker 😃](<../10 📘 Talker specs/10 😃 Talker.md>).
 
     ---

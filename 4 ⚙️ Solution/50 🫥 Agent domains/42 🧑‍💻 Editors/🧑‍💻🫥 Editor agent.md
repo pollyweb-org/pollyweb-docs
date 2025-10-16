@@ -42,7 +42,7 @@
 
 1. **How can users add a vault to the editor?**
 
-    When clicking the "Add Vault" button in the desktop app, the [Editor 🧑‍💻 agent](<🧑‍💻🫥 Editor agent.md>) initiates a [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) with the user's [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) - the interaction described in [Bind to folder 🗂️💬](<🧑‍💻💬 Editor chats/🧑‍💻💬 Bind to editor.md>).
+    When clicking the "Add Vault" button in the desktop app, the [Editor 🧑‍💻 agent](<🧑‍💻🫥 Editor agent.md>) initiates a [Chat 💬](<../../35 Chats/12 💬 Chats/💬 Chat.md>) with the user's [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) - the interaction described in [Bind to folder 🗂️💬](<🧑‍💻💬 Editor chats/🧑‍💻💬 Bind to editor.md>).
 
     ![alt text](<.📎 Assets/Editor-Flow.png>)
 

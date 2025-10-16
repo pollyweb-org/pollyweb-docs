@@ -34,7 +34,7 @@ Body:
 | Header    | `From`        | string    | `Anonymous`
 |           | `To`          | string    | [Sender 🤗](<../🤗🎭 Host role.md>) from [`Prompt@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
 |           | `Subject`     | string    | `Prompted@Host`
-| Body      | `ChatID` | uuid | [Chat 💬](<../../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) ID from [`Prompt@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
+| Body      | `ChatID` | uuid | [Chat 💬](<../../../35 Chats/12 💬 Chats/💬 Chat.md>) ID from [`Prompt@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
 || `FileID`    | uuid      | [Appendix 📎](<../../../35 Chats/20 🤔 Prompts/1 📘 Prompt features/05 📎 with Appendix.md>) from [`Prompted@Host`](<🧑‍🦰🚀🤗 Prompted.md>)
 |
 

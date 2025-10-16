@@ -1,14 +1,14 @@
 # 🤔 Prompts with `Options`
 
 
-> Part of [Prompts 🤔](<../20 🤔 Prompt.md>)
+> Part of [Prompts 🤔](<../🤔 Prompt.md>)
 
 <br/>
 
 1. **What is a prompt with options?**
 
     Option-enabled prompts 
-    * are [Prompts 🤔](<../20 🤔 Prompt.md>)
+    * are [Prompts 🤔](<../🤔 Prompt.md>)
     * that allow users to select na option.
 
     ---
@@ -23,7 +23,7 @@
     
         * e.g., [`INFO`](<../4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>), [`TEMP`](<../4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>), [`SUCCESS`](<../4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>), and [`FAILURE`](<../4 ⚠️ Status prompts/24 ❌ FAILURE prompt.md>).
   
-        * [Host 🤗 domains](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) speed-up [Chats 💬](<../../12 💬 Chats/$ 💬 Chat.md>) by taking unilateral two-way-door decisions that can be reverted by users even after other [Prompts 🤔](<../20 🤔 Prompt.md>) have been sent.
+        * [Host 🤗 domains](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) speed-up [Chats 💬](<../../12 💬 Chats/💬 Chat.md>) by taking unilateral two-way-door decisions that can be reverted by users even after other [Prompts 🤔](<../🤔 Prompt.md>) have been sent.
 
         * For example, [Host 🤗 domains](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) may assign default values to options to speed up the process (e.g., [navigation options 🤝](<../../../../3 🤝 Use Cases/03 🧳 Travel/01 🧳 Plans trips 🧭/02 🧭 Return @ Destination.md>)), while still allowing users to go back and change those default options.
 
@@ -35,10 +35,10 @@
 
     No. 
     * [`Options`](<04 🔘 with Options.md>) with a `§` sign 
-        * open a new [Chat 💬](<../../12 💬 Chats/$ 💬 Chat.md>)
+        * open a new [Chat 💬](<../../12 💬 Chats/💬 Chat.md>)
         * even after a [Freeze ❄️](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Freeze ❄️.md>) command.
     * All others [`Options`](<04 🔘 with Options.md>)
-        * continue the [Chat 💬](<../../12 💬 Chats/$ 💬 Chat.md>)
+        * continue the [Chat 💬](<../../12 💬 Chats/💬 Chat.md>)
         * and are disabled with a [Freeze ❄️](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Freeze ❄️.md>) command.
     
     ---
@@ -47,7 +47,7 @@
 
 1. **What are the prompts with options?**
 
-    |Behavior| [Prompt 🤔](<../20 🤔 Prompt.md>) 
+    |Behavior| [Prompt 🤔](<../🤔 Prompt.md>) 
     |-|-
     |[`Status`](<08 ⚠️ as Status.md>)| [`ℹ️ INFO`](<../4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<../4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<../4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<../4 ⚠️ Status prompts/24 ❌ FAILURE prompt.md>)
     |[`Inputs`](<09 ✏️ as Input.md>) | [`1️⃣ ONE`](<../7 ✏️ Input prompts/53 1️⃣ ONE prompt.md>) [`🔢 MANY`](<../7 ✏️ Input prompts/54 🔠 MANY prompt.md>)  [`🔠 TEXT`](<../7 ✏️ Input prompts/32 🔠 TEXT prompt.md>) 
@@ -68,7 +68,7 @@
 
     | Argument| Purpose | Example
     |-|-|-
-    | `<PROMPT>` | A [Prompt 🤔](<../20 🤔 Prompt.md>) format. | [`INFO`](<../4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) [`TEMP`](<../4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>)
+    | `<PROMPT>` | A [Prompt 🤔](<../🤔 Prompt.md>) format. | [`INFO`](<../4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) [`TEMP`](<../4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>)
     | `<statement>` |  Message to show to the user. | `Hi!`
     | `<options>` | Comma-separated strings, or | `A,B,C`
     || a comma-separated dictionary | `1:A,2:B`
@@ -132,11 +132,11 @@
 
 
 
-1. **What's an example in a [Chat 💬](<../../12 💬 Chats/$ 💬 Chat.md>)?**
+1. **What's an example in a [Chat 💬](<../../12 💬 Chats/💬 Chat.md>)?**
 
     > Note: [non-blocking status prompts ⚠️](<08 ⚠️ as Status.md>) behave slightly differently.
 
-    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../20 🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 😃 What to do? <br>- [ Play ] music <br/>- [ Share ] list | > Play
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ℹ️ You opted to play.
@@ -193,9 +193,9 @@
 
 
 
-1. **What's a Locator example in a [Chat 💬](<../../12 💬 Chats/$ 💬 Chat.md>)?**
+1. **What's a Locator example in a [Chat 💬](<../../12 💬 Chats/💬 Chat.md>)?**
 
-    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../20 🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 😃 What to do?<br>- [ Play ] music <br/>- [ Share ] list <br/> - [ Speak ] with singer 🔆 | > Speak
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ✅ Over to 👨‍🎤 Any Singer.
@@ -206,7 +206,7 @@
     |
 
     The option with `§` 
-    * opens a new [Chat 💬](<../../12 💬 Chats/$ 💬 Chat.md>)
+    * opens a new [Chat 💬](<../../12 💬 Chats/💬 Chat.md>)
     * using the [Locator 🔆](<../../../30 Data/15 🔆 Locators/$ 🔆 Locator.md>) `any-artist.com/FANS`
 
     <br/>

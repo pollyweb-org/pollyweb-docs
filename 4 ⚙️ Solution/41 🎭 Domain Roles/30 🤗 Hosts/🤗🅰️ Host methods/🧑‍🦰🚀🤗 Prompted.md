@@ -6,7 +6,7 @@
 > <br>• signed with the `PrivateKey` from [`Converse@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/2 💬 Chats/1 🤵🐌📣 Converse.md>)
 > <br>• verified with the `PublicKey` from [`Hello@Host`](<🤵🐌🤗 Hello.md>)
 
-* Downloads the content of a [Prompt 🤔](<../../../35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>).
+* Downloads the content of a [Prompt 🤔](<../../../35 Chats/20 🤔 Prompts/🤔 Prompt.md>).
 
 <br/>
 
@@ -29,8 +29,8 @@ Body:
 | Header    | `From`        | string    | `Anonymous`
 |           | `To`          | string    | [Sender 🤗](<../🤗🎭 Host role.md>) from [`Prompt@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
 |           | `Subject`     | string    | `Prompted@Host`
-| Body      | `ChatID` | uuid | [Chat 💬](<../../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) ID from [`Prompt@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
-|| `PromptID`    | uuid      | [Prompt 🤔](<../../../35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) ID from [`Prompt@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
+| Body      | `ChatID` | uuid | [Chat 💬](<../../../35 Chats/12 💬 Chats/💬 Chat.md>) ID from [`Prompt@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
+|| `PromptID`    | uuid      | [Prompt 🤔](<../../../35 Chats/20 🤔 Prompts/🤔 Prompt.md>) ID from [`Prompt@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
 |
 
 <br/>
@@ -56,8 +56,8 @@ Options:                            # Optional
 
 |Property|Type|Description
 |-|-|-
-| [`Format`](<../../../35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>)  | string | One format supported by [Prompts 🤔](<../../../35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>)
-| [`Statement`](<../../../35 Chats/20 🤔 Prompts/1 📘 Prompt features/02 🪧 Statement.md>) | string | Main message,  to display in the [Chat 💬](<../../../35 Chats/12 💬 Chats/$ 💬 Chat.md>)
+| [`Format`](<../../../35 Chats/20 🤔 Prompts/🤔 Prompt.md>)  | string | One format supported by [Prompts 🤔](<../../../35 Chats/20 🤔 Prompts/🤔 Prompt.md>)
+| [`Statement`](<../../../35 Chats/20 🤔 Prompts/1 📘 Prompt features/02 🪧 Statement.md>) | string | Main message,  to display in the [Chat 💬](<../../../35 Chats/12 💬 Chats/💬 Chat.md>)
 | [`MinValue`](<../../../35 Chats/20 🤔 Prompts/2 ✏️ Input features/13 📋 Input validation.md>) | int | Optional minimum value
 | [`MaxValue`](<../../../35 Chats/20 🤔 Prompts/2 ✏️ Input features/13 📋 Input validation.md>) | int | Optional maximum value
 | [`Appendix`](<../../../35 Chats/20 🤔 Prompts/1 📘 Prompt features/05 📎 with Appendix.md>)| uuid   | File to download via [`Download@Host`](<🧑‍🦰🚀🤗 Download.md>)

@@ -9,7 +9,7 @@
 1. **What's an AMOUNT prompt?**
 
     An `AMOUNT` 
-    * is a [Prompt 🤔](<../20 🤔 Prompt.md>) 
+    * is a [Prompt 🤔](<../🤔 Prompt.md>) 
     * that adds currency awareness
     * to the decimal behavior of the [`QUANTITY`](<42 ↕️ QUANTITY prompt.md>) prompt.
 
@@ -75,7 +75,7 @@
     |-|-|-
     | `Currency` | Optional ISO 4217 currency <br/>- defaults to the locale's currency | `USD`
     | `Precision`| Rounded decimals (default is 2) | `2`
-    | `Locale`   | Optional CLDR locale <br/> - defaults to the [Chat 💬](<../../12 💬 Chats/$ 💬 Chat.md>) language | `en-US`
+    | `Locale`   | Optional CLDR locale <br/> - defaults to the [Chat 💬](<../../12 💬 Chats/💬 Chat.md>) language | `en-US`
     | `MinValue` | Optional [minimum value 📋](<../2 ✏️ Input features/13 📋 Input validation.md>) | `-100`
     | `MaxValue` | Optional [maximum value 📋](<../2 ✏️ Input features/13 📋 Input validation.md>) | `100`
     | `Emoji` | Optional [alternative emoji 😶](<../2 ✏️ Input features/14 😶 Input emojis.md>) | `😶`
@@ -86,11 +86,11 @@
     ---
     <br/>
 
-1. **What's an AMOUNT example of a [Chat 💬](<../../12 💬 Chats/$ 💬 Chat.md>)?**
+1. **What's an AMOUNT example of a [Chat 💬](<../../12 💬 Chats/💬 Chat.md>)?**
 
 
 
-    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../20 🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 😃 How much? | 💰 1234.5678
     [🫥 Agent](<../../../50 🫥 Agent domains/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) | 🫥 How much? | 💰 12345.6
@@ -163,7 +163,7 @@
     * identity and clean monetary characters
     * while storing the currencies in their original currency.
 
-    Consider the following conversion table in a [Chat 💬](<../../12 💬 Chats/$ 💬 Chat.md>) with locale `en-US`.
+    Consider the following conversion table in a [Chat 💬](<../../12 💬 Chats/💬 Chat.md>) with locale `en-US`.
 
     |Group      | Scenario| `.Text`   | `.Pretty`   | `.Currency`
     |-          | -|-:|-:|:-:

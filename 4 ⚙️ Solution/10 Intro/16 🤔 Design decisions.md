@@ -13,7 +13,7 @@ Design Decisions
 
     In NLWeb, [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets>) are the way for users to communicate with [Host 🤗 domains](<../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>). 
     
-    - Similar to [Meta's WhatsApp 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/06 📺 WhatsApp business.md>), NLWeb [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets>) allow users to keep a list of active [Chats 💬](<../35 Chats/12 💬 Chats/$ 💬 Chat.md>) with [Host 🤗 domains](<../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>). 
+    - Similar to [Meta's WhatsApp 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/06 📺 WhatsApp business.md>), NLWeb [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets>) allow users to keep a list of active [Chats 💬](<../35 Chats/12 💬 Chats/💬 Chat.md>) with [Host 🤗 domains](<../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>). 
 
     - Like in [India's ONDC 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/09 🛒 Shopping landscape/01 📺 🇮🇳 India's ONDC.md>), domains can configure multiple types of user inputs - e.g., number, dropdown, calendar. 
     
@@ -32,7 +32,7 @@ Design Decisions
     
     - These solutions typically require either location features enabled on the user's phone (like accurate GPS location) or proximity features (like the proximity bluetooth feature used during the 2020 pandemic), both impacting the user's privacy and the battery life of their mobile devices.
 
-    - Instead, NLWeb advocates for [Chat 💬](<../35 Chats/12 💬 Chats/$ 💬 Chat.md>) interactions to always start with the user's explicit intent, either by [scanning ✨ a QR code](<../30 Data/15 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) or by [tapping 🔆 an NFC tag](<../30 Data/15 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>).
+    - Instead, NLWeb advocates for [Chat 💬](<../35 Chats/12 💬 Chats/💬 Chat.md>) interactions to always start with the user's explicit intent, either by [scanning ✨ a QR code](<../30 Data/15 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) or by [tapping 🔆 an NFC tag](<../30 Data/15 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>).
 
     ---
     <br/>
@@ -74,13 +74,13 @@ Design Decisions
 
 1. **What is NLWeb's approach to end-user payments?**
 
-    NLWeb integrates payments in [Chats 💬](<../35 Chats/12 💬 Chats/$ 💬 Chat.md>) between users and [Seller 💵 domains](<../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>). 
+    NLWeb integrates payments in [Chats 💬](<../35 Chats/12 💬 Chats/💬 Chat.md>) between users and [Seller 💵 domains](<../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>). 
     
     - As preconditions, users must first bind their [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) to one or more [Payer 💳 vaults](<../50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>) (e.g., their bank), while [Seller 💵 domains](<../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) must bind to [Collector 🏦 vaults](<../45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>) (e.g., a payment gateway). 
 
     - The payment is sent from the [user's Payer 💳 vault](<../50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>) (on behalf of the user) to the [Seller's Collector 🏦 vault](<../45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>) (on behalf of the [Seller 💵 domain](<../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>)). 
     
-    In a [Chat 💬](<../35 Chats/12 💬 Chats/$ 💬 Chat.md>): 
+    In a [Chat 💬](<../35 Chats/12 💬 Chats/💬 Chat.md>): 
     1. the [Seller 💵 domain](<../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) requests a payment amount (e.g., 123.45 USD) - the user accepts; 
     2. the [user's Payer 💳 vault](<../50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>)  asks for the user's preferred payment method (e.g., my company card, my bank account, agreed credit note) - the user selects one; 
     3. depending on the risk associated (e.g., amount, Seller, date/time) the [user's Payer 💳 vault](<../50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>)  may ask for an authentication method (e.g., face scan, OTP); 
@@ -99,7 +99,7 @@ Design Decisions
     
     For that, NLWeb supports supply and demand matching at the end of chats: 
     
-    1. chat [Host 🤗 domain](<../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) sends a summary of the [Chat 💬](<../35 Chats/12 💬 Chats/$ 💬 Chat.md>) to the user's [Wallet app 🧑‍🦰](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets>); 
+    1. chat [Host 🤗 domain](<../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) sends a summary of the [Chat 💬](<../35 Chats/12 💬 Chats/💬 Chat.md>) to the user's [Wallet app 🧑‍🦰](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets>); 
     2. the [Wallet 🧑‍🦰 app](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets>) generates a list of next-best actions based on user preferences and contextual awareness; 
     3. the [Wallet 🧑‍🦰 app](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets>) then maps the actions to available offers and generates a recommendation for the user. 
 
