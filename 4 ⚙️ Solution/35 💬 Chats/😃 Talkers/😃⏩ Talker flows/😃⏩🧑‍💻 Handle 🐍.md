@@ -33,7 +33,7 @@
 
     * `Cost` The [Talker 😃 API](<../😃 Talker.md>) doesn't need to pay cloud compute costs for idle time waiting for a response from [Hosted 📦 domains](<../../../55 👷 Build domains/📦 Hosteds/📦👥 Hosted domain.md>).
 
-    * `User Experience` [Hosted 📦 domains](<../../../55 👷 Build domains/📦 Hosteds/📦👥 Hosted domain.md>) can immediately confirm that a long-running task was started, then continuously send updates regarding the task progress - see the [😃⏩🧑‍💻 Wait ⏸️](<30 😃⏩🧑‍💻 Wait ⏸️.md>) flow or details on this.
+    * `User Experience` [Hosted 📦 domains](<../../../55 👷 Build domains/📦 Hosteds/📦👥 Hosted domain.md>) can immediately confirm that a long-running task was started, then continuously send updates regarding the task progress - see the [😃⏩🧑‍💻 Wait ⏸️](<😃⏩🧑‍💻 Wait ⏸️.md>) flow or details on this.
 
     ---
     <br/>

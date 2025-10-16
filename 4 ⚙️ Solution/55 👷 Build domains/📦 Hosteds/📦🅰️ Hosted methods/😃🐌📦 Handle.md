@@ -4,7 +4,7 @@
 
 > Implements [Hosted 📦 domain](<../📦👥 Hosted domain.md>)
 
-> Part of [😃⏩🧑‍💻 Handle @ Talker](<../../../35 💬 Chats/😃 Talkers/😃⏩ Talker flows/20 😃⏩🧑‍💻 Handle 🐍.md>) flow
+> Part of [😃⏩🧑‍💻 Handle @ Talker](<../../../35 💬 Chats/😃 Talkers/😃⏩ Talker flows/😃⏩🧑‍💻 Handle 🐍.md>) flow
 
 > Followed by [`Handled@Talker`](<../../../35 💬 Chats/😃 Talkers/😃🅰️ Talker methods/🧑‍💻🐌😃 Handled.md>) message
 

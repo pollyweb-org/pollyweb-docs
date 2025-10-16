@@ -2,7 +2,7 @@
 
 > Implements [Hoster ☁️ helper domain](<../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>)
 
-> Part of [😃⏩🧑‍💻 Wait @ Talker](<../😃⏩ Talker flows/30 😃⏩🧑‍💻 Wait ⏸️.md>) flow
+> Part of [😃⏩🧑‍💻 Wait @ Talker](<../😃⏩ Talker flows/😃⏩🧑‍💻 Wait ⏸️.md>) flow
 
 > Paired with [`Placed@Talker`](<🧑‍💻🚀😃 Placed.md>) message
 
