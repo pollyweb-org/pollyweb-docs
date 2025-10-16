@@ -31,7 +31,7 @@
 
     | | Workflow |  Description
     |-|-|-
-    | | [👉 Binds ](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet chats/in App 🏠/🧑‍🦰💬🤵 List Binds 🔗.md>) | List the user's [Binds 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>)
+    | | [👉 Binds ](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/in App 🏠/🧑‍🦰💬🤵 List Binds 🔗.md>) | List the user's [Binds 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>)
     || [👉 Bind](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet chats/in Prompts 🤔/🧑‍🦰👉🗄️ Bind 🔗.md>) | [Bind 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) the [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) to a [Vault 🗄️](<🗄️🎭 Vault role.md>)
     || [👉 Unbind](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet chats/in Vaults 🗄️/🧑‍🦰💬🤵 Unbind 🗄️.md>) | Remove a [Bind 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) from a [Vault 🗄️](<🗄️🎭 Vault role.md>)
     
@@ -44,7 +44,7 @@
         
     | | Workflow |  Description
     |-|-|-
-    ||[👉 Onboard](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet chats/in App 🏠/🧑‍🦰💬🤵 Onboard.md>) | Register the [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) on a [Broker 🤵](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>)
+    ||[👉 Onboard](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/in App 🏠/🧑‍🦰💬🤵 Onboard.md>) | Register the [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) on a [Broker 🤵](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>)
 
     ---
     <br/>
