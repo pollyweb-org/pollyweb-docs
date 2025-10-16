@@ -34,9 +34,9 @@
 
     | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ℹ️ [Hi, Alice! I'm happy.](<../../🤔 Prompts/🤔📢 Prompt status/21 ℹ️ INFO prompt.md>)
-    | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ℹ️ [Hi David! I'm glad.](<../../🤔 Prompts/🤔📢 Prompt status/21 ℹ️ INFO prompt.md>)
-    | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ✅ [Example finished.](<../../🤔 Prompts/🤔📢 Prompt status/23 ✅ SUCCESS prompt.md>)
+    | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ [Hi, Alice! I'm happy.](<../../🤔 Prompts/🤔📢 Prompt status/21 ℹ️ INFO prompt.md>)
+    | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ [Hi David! I'm glad.](<../../🤔 Prompts/🤔📢 Prompt status/21 ℹ️ INFO prompt.md>)
+    | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ [Example finished.](<../../🤔 Prompts/🤔📢 Prompt status/23 ✅ SUCCESS prompt.md>)
     |
 
     Here's the [Talker 😃](<../😃 Talker.md>).
@@ -62,11 +62,11 @@
 
     | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 😃 Give me a number. | ↕️ 12
-    | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ℹ️ You gave me number 12.
-    | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 😃 Give me another. | ↕️ 34
-    | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ℹ️ You gave me number 34.
-    | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ✅ Example finished.
+    | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 Give me a number. | ↕️ 12
+    | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ You gave me number 12.
+    | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 Give me another. | ↕️ 34
+    | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ You gave me number 34.
+    | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ Example finished.
     |
     
     Here's the [Talker 😃](<../😃 Talker.md>).
@@ -100,9 +100,9 @@
 
     | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) |  ℹ️ [Here's number  3512596.](<../../🤔 Prompts/🤔📢 Prompt status/21 ℹ️ INFO prompt.md>)
-    | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) |  ℹ️ [Here's number  52364.](<../../🤔 Prompts/🤔📢 Prompt status/21 ℹ️ INFO prompt.md>)
-    | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ✅ Example finished.
+    | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) |  ℹ️ [Here's number  3512596.](<../../🤔 Prompts/🤔📢 Prompt status/21 ℹ️ INFO prompt.md>)
+    | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) |  ℹ️ [Here's number  52364.](<../../🤔 Prompts/🤔📢 Prompt status/21 ℹ️ INFO prompt.md>)
+    | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ Example finished.
     |
 
     Here's the [Talker 😃](<../😃 Talker.md>).
@@ -137,7 +137,7 @@
 
     | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) |  ✅ Congrats, you won!
+    | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) |  ✅ Congrats, you won!
     |
     
     Here's the [Talker 😃](<../😃 Talker.md>).
@@ -175,10 +175,10 @@
 
     | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) |  ℹ️ Adding 5 to 2...
-    | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) |  ✅ [The first result is 7.](<../../🤔 Prompts/🤔📢 Prompt status/23 ✅ SUCCESS prompt.md>)
-    | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) |  ℹ️ Adding 5 to 4...
-    | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) |  ✅ [The second result is 9.](<../../🤔 Prompts/🤔📢 Prompt status/23 ✅ SUCCESS prompt.md>)
+    | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) |  ℹ️ Adding 5 to 2...
+    | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) |  ✅ [The first result is 7.](<../../🤔 Prompts/🤔📢 Prompt status/23 ✅ SUCCESS prompt.md>)
+    | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) |  ℹ️ Adding 5 to 4...
+    | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) |  ✅ [The second result is 9.](<../../🤔 Prompts/🤔📢 Prompt status/23 ✅ SUCCESS prompt.md>)
     
 
     ```yaml

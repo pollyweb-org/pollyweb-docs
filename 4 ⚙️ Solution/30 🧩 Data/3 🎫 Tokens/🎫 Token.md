@@ -4,7 +4,7 @@
 1. **What is a Token?**
 
     [Tokens 🎫](<🎫 Token.md>) are NFC/QR [Locators 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) 
-    * issued and signed by an [Issuer 🎴 domain](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>), 
+    * issued and signed by an [Issuer 🎴 domain](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>), 
     * that contain data to be shared with [Consumer 💼 domains](<../../50 🫥 Agent domains/80 💾 Storage/💾🫥 Storage agent.md>).
 
     ---
@@ -39,14 +39,14 @@
 
     |#|Category|Step
     |-|-|-
-    |1| `Issue`| An [Issuer 🎴 domain](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) issues a [Token 🎫](<🎫 Token.md>) the the user stores offline in the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
-    |2| `In-Chat`| While in a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) with a [Consumer 💼 host domain](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>), the user shares the [Token 🎫](<🎫 Token.md>).
+    |1| `Issue`| An [Issuer 🎴 domain](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) issues a [Token 🎫](<🎫 Token.md>) the the user stores offline in the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
+    |2| `In-Chat`| While in a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) with a [Consumer 💼 host domain](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>), the user shares the [Token 🎫](<🎫 Token.md>).
     |3| `Userable` | Using their [Custodian 🧳 agent](<../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>), users select which [Tokens 🎫](<🎫 Token.md>) to be automatically shared by a specific [Userable 💍 thing](<../../25 🔆 Locators/4 💍 Userables/💍💠 Userable thing.md>).
-    | 4| `Userable`| When the NFC of the [Userable 💍 thing](<../../25 🔆 Locators/4 💍 Userables/💍💠 Userable thing.md>) is [tapped 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>) on the [scanner ✨ device](<../../60 🧰 Edge/66 ✨ Scanners/06 ✨🔌 Scanner device.md>) of a [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>), the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) shares the [Tokens 🎫](<🎫 Token.md>).
+    | 4| `Userable`| When the NFC of the [Userable 💍 thing](<../../25 🔆 Locators/4 💍 Userables/💍💠 Userable thing.md>) is [tapped 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>) on the [scanner ✨ device](<../../60 🧰 Edge/66 ✨ Scanners/06 ✨🔌 Scanner device.md>) of a [Consumer 💼 domain](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>), the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) shares the [Tokens 🎫](<🎫 Token.md>).
     |5| `Printed`| From the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>), users can print a [Token 🎫](<🎫 Token.md>).
-    |6| `Printed` | The user can then present the printed [Token 🎫](<🎫 Token.md>) to the [scanner ✨ device](<../../60 🧰 Edge/66 ✨ Scanners/06 ✨🔌 Scanner device.md>) of a [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>).
+    |6| `Printed` | The user can then present the printed [Token 🎫](<🎫 Token.md>) to the [scanner ✨ device](<../../60 🧰 Edge/66 ✨ Scanners/06 ✨🔌 Scanner device.md>) of a [Consumer 💼 domain](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>).
     |7| `Identity` | If the [Token 🎫](<🎫 Token.md>) contains the [Locator 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) of an [Identity 🆔 domain](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>), then it means that the [Token 🎫](<🎫 Token.md>) was issued to a specific person only.
-    |8| `Identity`| The [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) can then ask the [Token's Identity 🆔 domain](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) to verify if it is really that person holding the presented [Token 🎫](<🎫 Token.md>) or not.
+    |8| `Identity`| The [Consumer 💼 domain](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) can then ask the [Token's Identity 🆔 domain](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) to verify if it is really that person holding the presented [Token 🎫](<🎫 Token.md>) or not.
 
     ---
     <br/>
@@ -107,7 +107,7 @@
 
     - Before sharing [SELF Tokens 🎫](<🎫 Token.md>) with other domains, [Broker 🤵 domains](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) ask the user for approval.
   
-    - Exceptionally, if the [Schema Code 🧩](<../1 🧩 Schema Codes/🧩 Schema Code.md>) of the [Token 🎫](<🎫 Token.md>) is marked as SELF, then the user's [Broker 🤵 domain](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) silently share the [Token 🎫](<🎫 Token.md>) with the [Token's Issuer 🎴 domain](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>).
+    - Exceptionally, if the [Schema Code 🧩](<../1 🧩 Schema Codes/🧩 Schema Code.md>) of the [Token 🎫](<🎫 Token.md>) is marked as SELF, then the user's [Broker 🤵 domain](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) silently share the [Token 🎫](<🎫 Token.md>) with the [Token's Issuer 🎴 domain](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>).
 
 
     The following [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) excerpt illustrates the usage of a [SELF Token 🎫](<🎫 Token.md>) when [passing a gate at a train station 🤝](<../../../3 🤝 Use Cases/03 🧳 Travel/03 🧳 Travel by train 🚂/02 🚂 Customer @ Station/22 Pass gates 1 person.md>).
@@ -127,7 +127,7 @@
 
 1. **Why do SELF Tokens exist?**
 
-    [SELF Tokens 🎫](<🎫 Token.md>) are typically issued as a pass to be presented back to the [Token's Issuer 🎴 domain](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) in a later moment in time, aiming for the least possible friction in the future - e.g.:
+    [SELF Tokens 🎫](<🎫 Token.md>) are typically issued as a pass to be presented back to the [Token's Issuer 🎴 domain](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) in a later moment in time, aiming for the least possible friction in the future - e.g.:
 
     - [open a train station gate with a tap 🤝](<../../../3 🤝 Use Cases/03 🧳 Travel/03 🧳 Travel by train 🚂/02 🚂 Customer @ Station/22 Pass gates 1 person.md>),
     - [check-in with a booking with a tap 🤝](<../../../3 🤝 Use Cases/05 🛠️ Services/01 💈 Cut hair at salons/20 Customer @ Salon/21 Arrive.md>). 
@@ -194,8 +194,8 @@
     |Property| Type | Details
     |-|-|-
     | `Code` | string |  [`.TOKEN`](<🧩 Token schemas/🧩 TOKEN.md>)
-    | `Domain` | string | The [Issuer 🎴 domain](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) name
-    | `TokenID` | uuid |  The resource key in the [Issuer 🎴](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>)
+    | `Domain` | string | The [Issuer 🎴 domain](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) name
+    | `TokenID` | uuid |  The resource key in the [Issuer 🎴](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)
     | `Properties` | object | Any optional data fields
     |
 

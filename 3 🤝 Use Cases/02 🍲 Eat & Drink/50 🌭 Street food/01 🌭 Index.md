@@ -56,9 +56,9 @@
 
     | [Role 🎭](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | Purpose
     |-|-
-    | [🤗 Host](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | To manage the [Chats 💬](<../../../4 ⚙️ Solution/35 💬 Chats/💬 Chats/💬 Chat.md>).
-    | [💵 Seller](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) | To charge for the products.
-    | [💼 Consumer](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) | To verify minimum age.
+    | [🤗 Host](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | To manage the [Chats 💬](<../../../4 ⚙️ Solution/35 💬 Chats/💬 Chats/💬 Chat.md>).
+    | [💵 Seller](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) | To charge for the products.
+    | [💼 Consumer](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) | To verify minimum age.
     |
 
 

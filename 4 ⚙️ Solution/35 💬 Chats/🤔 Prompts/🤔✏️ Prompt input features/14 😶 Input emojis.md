@@ -8,8 +8,8 @@
 
     No.
 
-    * Emojis are not specified in the [`Prompted@Host`](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🅰️ Host methods/🧑‍🦰🚀🤗 Prompted.md>) message.
-        * Thus, [Host 🤗 domains](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) can send simple strings to [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
+    * Emojis are not specified in the [`Prompted@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🧑‍🦰🚀🤗 Prompted.md>) message.
+        * Thus, [Host 🤗 domains](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) can send simple strings to [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
   
     * However, NLWeb advocates for emojis.
         * They align with human's non-verbal communication, from wish our brain process the underlying meaning of ambiguous text-only sentences. 
@@ -18,8 +18,8 @@
             * e.g., `congrats` versus `🥳🎂 congrats 💕`
             * e.g., `that's funny` versus `🤣🤣🤣`
   
-    * To help [Host 🤗 domain](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) developers, 
-        * [Talkers 😃](<../../😃 Talkers/😃 Talker.md>) add emojis to [`Prompted@Host`](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🅰️ Host methods/🧑‍🦰🚀🤗 Prompted.md>) messages. 
+    * To help [Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) developers, 
+        * [Talkers 😃](<../../😃 Talkers/😃 Talker.md>) add emojis to [`Prompted@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🧑‍🦰🚀🤗 Prompted.md>) messages. 
 
 
     ---
@@ -31,8 +31,8 @@
 
     Emoji | Behavior
     |-|-
-    😃 | The happy emoji 😃 represent the chat's [Host 🤗 domain](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>).
-    🫥 | The faded emoji 🫥 represents other domains that have been pulled into the chat. These can be either a user's [Agent 🫥 vault](<../../../50 🫥 Agent domains/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) or a [Helper 🤲 domain](<../../../45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>) that was [invited ⏩](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Invite 🤲.md>) by a [Host 🤗 domain](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>).
+    😃 | The happy emoji 😃 represent the chat's [Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>).
+    🫥 | The faded emoji 🫥 represents other domains that have been pulled into the chat. These can be either a user's [Agent 🫥 vault](<../../../50 🫥 Agent domains/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) or a [Helper 🤲 domain](<../../../45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>) that was [invited ⏩](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Invite 🤲.md>) by a [Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>).
 
     ---
     <br/>
@@ -43,7 +43,7 @@
 
     | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 😃 Continue? [Yes, No]
+    | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 Continue? [Yes, No]
     |
 
     <br/>
@@ -57,7 +57,7 @@
 
     <br/>
 
-    Here's the [`Prompted@Host`](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🅰️ Host methods/🧑‍🦰🚀🤗 Prompted.md>).
+    Here's the [`Prompted@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🧑‍🦰🚀🤗 Prompted.md>).
 
     ```yaml
     Format: CONFIRM
@@ -109,7 +109,7 @@
         Emoji: 😕 
     ```
     
-    This translates to the following [`Prompted@Host`](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🅰️ Host methods/🧑‍🦰🚀🤗 Prompted.md>) response.
+    This translates to the following [`Prompted@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🧑‍🦰🚀🤗 Prompted.md>) response.
 
     ```yaml
     Format: CONFIRM

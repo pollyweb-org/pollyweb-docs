@@ -74,7 +74,7 @@
     |-|-
     | 🔗 [`BIND`](<../😃📨 Talker msgs/44 🔗 BIND msg.md>) | Calls the [Bind Vault @ Wallet ⏩](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind 🔗.md>) flow.
     | 🎫 [`OFFER`](<../😃📨 Talker msgs/49 🎫 OFFER msg.md>) | Calls the [Save Token @ Wallet ⏩](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/40 👉🎫 Tokens/02 🧑‍🦰👉🎴 Save token.md>) flow.
-    | 👋 [`GOODBYE`](<../😃📨 Talker msgs/50 👋 GOODBYE.md>) | Calls the [Goodbye @ Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Goodbye 👋.md>) ⏩ flow.
+    | 👋 [`GOODBYE`](<../😃📨 Talker msgs/50 👋 GOODBYE.md>) | Calls the [Goodbye @ Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Goodbye 👋.md>) ⏩ flow.
     | 📜 [`FLOW`](<../😃📨 Talker msgs/41 📝 INFORM msg.md>)
     | 💳 [`CHARGE`](<../😃📨 Talker msgs/53 💳 CHARGE msg.md>)
     | 💼 [`SHARE`](<../😃📨 Talker msgs/45 💼 SHARE msg.md>)
@@ -88,7 +88,7 @@
    
    * `REDIRECT|{host}|{locator}`	
        * Calls 👉 Check-in: 👱📎 Wallet. Sessions
-       * With [🧩 nlweb.org/HOST](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🧩 Host schemas/🧩 HOST.md>)
+       * With [🧩 nlweb.org/HOST](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🧩 Host schemas/🧩 HOST.md>)
    * `RESUBSCRIBE|<amount>`	
        * Calls 🐌 Resubscribe: 🤵📎 Broker. Pay()
    * `REVOKE|{credentialID}`	

@@ -47,9 +47,9 @@ Tokens:
 |Object|Property|Type|Description|
 |-|-|-|-
 |Top   |`Tokens`   |Token[]|List of `Token` objects|
-|Token | `Issuer` | string | [Issuer 🎴](<../../../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) from [`Saved@Broker`](<🧑‍🦰🐌🤵 Saved.md>)
+|Token | `Issuer` | string | [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) from [`Saved@Broker`](<🧑‍🦰🐌🤵 Saved.md>)
 ||`TokenID`  |uuid   |[Token 🎫](<../../../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) ID from [`Saved@Broker`](<🧑‍🦰🐌🤵 Saved.md>)
-|| `IssuerTitle` | string | [Issuer 🎴](<../../../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) after [`Translate@Graph`](<../../../../45 🤲 Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>)
+|| `IssuerTitle` | string | [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) after [`Translate@Graph`](<../../../../45 🤲 Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>)
 || `CodeTitle` | string | [Code 🧩](<../../../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) after [`Translate@Graph`](<../../../../45 🤲 Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>)
 || `Path`| string | Local path from [`Saved@Broker`](<🧑‍🦰🐌🤵 Saved.md>)
 || `Status`| enum | Status set in [`Status@Broker`](<../6 🤵🅰️ Share/💼🚀🤵 Status.md>)

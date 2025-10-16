@@ -9,7 +9,7 @@
 1. **How to verify someone else's Userable?**
 
     Yes. 
-    * A [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) owned by person `A` can authenticate a person `B` in a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) when the [Chat's Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) invites the [Identity 🆔 vault](<$ 🆔🫥 Identity agent.md>) of person `B` into the [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>).
+    * A [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) owned by person `A` can authenticate a person `B` in a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) when the [Chat's Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) invites the [Identity 🆔 vault](<$ 🆔🫥 Identity agent.md>) of person `B` into the [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>).
     * This is particularly useful when working with [Userable 💍 things](<../../25 🔆 Locators/4 💍 Userables/💍💠 Userable thing.md>) where the owner's identity needs to be confirmed on [payments 🤝 scenarios](<../../25 🔆 Locators/4 💍 Userables/💍⏩ Userable flows/💍💳 Pay salesperson.md>) and [item recovery 🤝 scenarios](<../../25 🔆 Locators/4 💍 Userables/💍⏩ Userable flows/💍📱 Senior user.md>) via another [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
 
     ---
@@ -22,11 +22,11 @@
     
     | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | 🤗 [Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ℹ️ Userable 💍 presented.
-    | 🤗 [Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 😃 Are you the owner? [Yes, No] | > No
+    | 🤗 [Host](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ Userable 💍 presented.
+    | 🤗 [Host](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 Are you the owner? [Yes, No] | > No
     | 🤵 [Broker](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Allow guest vaults? [Yes, No]  <br/> -  #1: Any Identity 🆔 <br/>- [ Always ] for Any Host 🤗 | > Always
     | 🆔 [Identity](<$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's the owner.   | [📸 selfie](<21 🆔😶 Face scan.md>)
-    | 🤗 [Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ✅ Ownership confirmed.
+    | 🤗 [Host](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ Ownership confirmed.
     
     ---
     <br/>

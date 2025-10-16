@@ -10,7 +10,7 @@
    
     A `GOODBYE`
     * is a message [Command ⌘](<../😃⚙️ Talker cmds/10 ⌘ Command.md>) 
-    * that calls the [🤗⏩🧑‍🦰 Goodbye 👋](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Goodbye 👋.md>) flow.
+    * that calls the [🤗⏩🧑‍🦰 Goodbye 👋](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Goodbye 👋.md>) flow.
 
     ---
     <br/>

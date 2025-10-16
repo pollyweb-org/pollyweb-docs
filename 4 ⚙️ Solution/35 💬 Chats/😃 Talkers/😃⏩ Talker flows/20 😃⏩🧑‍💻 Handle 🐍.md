@@ -14,11 +14,11 @@
 
 | # | Call | Description
 |-|-|-
-|1| [🤗⏩🧑‍🦰 Prompt 🤔](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Talkers 😃](<../😃 Talker.md>) handle replies to [Prompts 🤔](<../../🤔 Prompts/🤔 Prompt.md>)
+|1| [🤗⏩🧑‍🦰 Prompt 🤔](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Talkers 😃](<../😃 Talker.md>) handle replies to [Prompts 🤔](<../../🤔 Prompts/🤔 Prompt.md>)
 |2| [😃🐌🧑‍💻 `Handle@Hosted`](<../../../55 👷 Build domains/📦 Hosteds/📦🅰️ Hosted methods/😃🐌📦 Handle.md>) | [Talkers 😃](<../😃 Talker.md>) delegate functions to [Hosteds 📦](<../../../55 👷 Build domains/📦 Hosteds/📦👥 Hosted domain.md>)
 |3| [🧑‍💻🚀😃 `Placed@Talker`](<../😃🅰️ Talker methods/10 🧑‍💻🚀😃 Placed.md>) | [Hosteds 📦](<../../../55 👷 Build domains/📦 Hosteds/📦👥 Hosted domain.md>) read [$Placeholder 💾](<../😃💾 Talker data/10 💾 $Placeholder.md>) values
 |4| [🧑‍💻🐌😃 `Handled@Talker`](<../😃🅰️ Talker methods/40 🧑‍💻🐌😃 Handled.md>) | [Hosteds 📦](<../../../55 👷 Build domains/📦 Hosteds/📦👥 Hosted domain.md>) return the evaluated result 
-|5| [🤗⏩🧑‍🦰 Prompt 🤔](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Talkers 😃](<../😃 Talker.md>) continue the [Chat 💬](<../../💬 Chats/💬 Chat.md>)
+|5| [🤗⏩🧑‍🦰 Prompt 🤔](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Talkers 😃](<../😃 Talker.md>) continue the [Chat 💬](<../../💬 Chats/💬 Chat.md>)
 |
 
 <br/>
@@ -42,7 +42,7 @@
 1. **Why isn't the [Talker 😃 API](<../😃 Talker.md>) a separate domain?**
 
     [Talkers 😃](<../😃 Talker.md>) manage a wide number of messages for multiple [domain roles 🎭](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>);
-    * e.g., [Host 🤗](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>), [Vault 🗄️](<../../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>), [Issuer 🎴](<../../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>), [Seller 💵](<../../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>).
+    * e.g., [Host 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>), [Vault 🗄️](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>), [Issuer 🎴](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>), [Seller 💵](<../../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>).
     * Exposing endpoints for each method of each role is cumbersome.
 
     ---

@@ -41,17 +41,17 @@
 
     | Role 🎭&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Responsibility
     |-|-
-    | [🍏 Brand](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>) | Bundles and sells physical products as [Things 💠](<../../25 🔆 Locators/2 💠 Things/💠🔆 Thing locator.md>)
-    | [💼 Consumer](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) | Consumes data from [Vaults 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) and [Issuers 🎴](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>)
-    | [🪣 Dataset](<../../41 🎭 Domain Roles/28 🪣 Datasets/$ 🪣🎭 Dataset role.md>) | Exposes that exposes a synchronous data API
+    | [🍏 Brand](<../../41 🎭 Domain Roles/Brands 🍏/$ 🍏🎭 Brand role.md>) | Bundles and sells physical products as [Things 💠](<../../25 🔆 Locators/2 💠 Things/💠🔆 Thing locator.md>)
+    | [💼 Consumer](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) | Consumes data from [Vaults 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) and [Issuers 🎴](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)
+    | [🪣 Dataset](<../../41 🎭 Domain Roles/Datasets 🪣/$ 🪣🎭 Dataset role.md>) | Exposes that exposes a synchronous data API
     | [🤲 Helper](<../../45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>) | Offloads undifferentiated logic from [domains 👥](<👥 Domain.md>)
-    | [🤗 Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | Hosts [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) for [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) via [Brokers 🤵](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>)
-    | [🪢 Integrator](<../../41 🎭 Domain Roles/35 🪢 Integrators/$ 🪢🎭 Integrator role.md>) |  [Manifests 📜](<../👥📜 Domain Manifests/📜 Manifest.md>)  endpoints for [Finders 🔎](<../../50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) to index
-    | [🎴 Issuer](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) | Issues [Tokens 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) to be saved on users' [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
-    | [🌬️ Streamer](<../../41 🎭 Domain Roles/75 🌬️ Streamers/🌬️🎭 Streamer role.md>) | Pushes and replays domain events to [Subscribers 🔔](<../../41 🎭 Domain Roles/76 🔔 Subscribers/🔔🎭 Subscriber role.md>)
-    | [🔔 Subscriber](<../../41 🎭 Domain Roles/76 🔔 Subscribers/🔔🎭 Subscriber role.md>) | Subscribes to domain events from a [Streamers 🌬️](<../../41 🎭 Domain Roles/75 🌬️ Streamers/🌬️🎭 Streamer role.md>)
-    | [🗄️ Vault](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) | Stores user data and shares it with [Consumers 💼](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>)
-    | [🏭 Supplier](<../../41 🎭 Domain Roles/78 🏭 Suppliers/🏭🎭 Supplier role.md>) | Accept async order requests from [domains 👥](<👥 Domain.md>)
+    | [🤗 Host](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | Hosts [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) for [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) via [Brokers 🤵](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>)
+    | [🪢 Integrator](<../../41 🎭 Domain Roles/Integrators 🪢/$ 🪢🎭 Integrator role.md>) |  [Manifests 📜](<../👥📜 Domain Manifests/📜 Manifest.md>)  endpoints for [Finders 🔎](<../../50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) to index
+    | [🎴 Issuer](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) | Issues [Tokens 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) to be saved on users' [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [🌬️ Streamer](<../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>) | Pushes and replays domain events to [Subscribers 🔔](<../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>)
+    | [🔔 Subscriber](<../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>) | Subscribes to domain events from a [Streamers 🌬️](<../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>)
+    | [🗄️ Vault](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) | Stores user data and shares it with [Consumers 💼](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)
+    | [🏭 Supplier](<../../41 🎭 Domain Roles/Suppliers 🏭/🏭🎭 Supplier role.md>) | Accept async order requests from [domains 👥](<👥 Domain.md>)
     
     ---
     <br/>

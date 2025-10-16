@@ -22,7 +22,7 @@ Body:
 || `To` | string | [Printer 🖨️ domain](<../🖨️🤲 Printer helper.md>) name
 || `Subject`| string | `Grab@Printer`
 |Body|`Alias`| string | Unique alias on the [Printer 🖨️](<../🖨️🤲 Printer helper.md>)
-|       | `Locator`    | string | The [Locator 🔆](<../../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) of a [Host 🤗 domain](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) 
+|       | `Locator`    | string | The [Locator 🔆](<../../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) of a [Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) 
 |
 
 ## Synchronous Response
@@ -31,5 +31,5 @@ Body:
 |-|-
 | 200   | Success.
 | 409   | Alias already occupied: <br/> - use another alias.
-| 405   | Locator not supported: <br/> - only [`.HOST 🧩`](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🧩 Host schemas/🧩 HOST.md>) is supported.
+| 405   | Locator not supported: <br/> - only [`.HOST 🧩`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🧩 Host schemas/🧩 HOST.md>) is supported.
 |

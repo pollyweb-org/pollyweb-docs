@@ -43,7 +43,7 @@
     |-|-
     | `<code-n>`  | [Schema Codes 🧩](<../../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) for [`Query@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Query.md>) <br/>For readability, a dot replaces `nlweb.org/`
     | `{context}`| Object with context, when applicable.
-    | `$shared`| An object returned by [`Collect@Vault`](<../../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🅰️ Vault methods/💼🚀🗄️ Collect.md>).<br/> Or a Token list from [`Receive@Consumer`](<../../../41 🎭 Domain Roles/27 💼 Consumers/💼🅰️ Consumer methods/🧑‍🦰🐌💼 Receive.md>).
+    | `$shared`| An object returned by [`Collect@Vault`](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/💼🚀🗄️ Collect.md>).<br/> Or a Token list from [`Receive@Consumer`](<../../../41 🎭 Domain Roles/Consumers 💼/💼🅰️ Consumer methods/🧑‍🦰🐌💼 Receive.md>).
 
 
     ---
@@ -67,10 +67,10 @@
 
     | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | 💼 [Consumer](<../../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) | ℹ️ Tell me your name.
+    | 💼 [Consumer](<../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) | ℹ️ Tell me your name.
     | 🧢 [Persona](<../../../50 🫥 Agent domains/70 🧢 Personas/🧢🫥 Persona agent.md>) | 🫥 Share social name? [No] <br/> - [ Personal ] 🧑‍🦰 <br/> - [ Work ] 💼       | > Personal
-    | 💼 [Consumer](<../../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) | ℹ️ Received: [Change] <br/> - Name: Alice <br/> - Pronouns: she/her
-    | 💼 [Consumer](<../../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) | ✅ Hi, Alice!
+    | 💼 [Consumer](<../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) | ℹ️ Received: [Change] <br/> - Name: Alice <br/> - Pronouns: she/her
+    | 💼 [Consumer](<../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) | ✅ Hi, Alice!
 
     
 

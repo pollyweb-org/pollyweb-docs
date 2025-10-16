@@ -46,8 +46,8 @@ Binds:
 |-|-|-|-
 | Top      | `Binds`| list  | List of Bind objects
 | Bind     | `BindID`   | uuid  | [Bind 🔗](<../../../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) ID
-|          | `Vault`    | string| [Vault 🗄️ domain](<../../../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) name
-|          | `VaultTitle`| string| [Vault 🗄️ domain](<../../../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) title
+|          | `Vault`    | string| [Vault 🗄️ domain](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) name
+|          | `VaultTitle`| string| [Vault 🗄️ domain](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) title
 |          | `Code`     | string| [Schema Code 🧩](<../../../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>)
 |          | `CodeTitle`| string| [Schema Code 🧩](<../../../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) title
 |

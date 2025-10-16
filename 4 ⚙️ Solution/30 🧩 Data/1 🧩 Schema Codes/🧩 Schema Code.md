@@ -79,7 +79,7 @@
 
 1. **How are Schema Codes used in data sharing between domains?**
    
-    When a [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) needs information stored in a [user's Vault 🗄️ domains](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>), 
+    When a [Consumer 💼 domain](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) needs information stored in a [user's Vault 🗄️ domains](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>), 
     * it invokes the [`Query@Broker`](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Query.md>) from the [user's Broker 🤵 domain](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>), asking for datasets that comply with a given [Schema Code 🧩](<🧩 Schema Code.md>).
 
     For example, consider an airline requesting passport data for a flight check-in from a citizen with dual British and American nationalities:
@@ -213,7 +213,7 @@
         * who defines properties `Code`, `Domain`, `Resource`.
     * It is inherited by [`.TOKEN` 🧩](<../3 🎫 Tokens/🧩 Token schemas/🧩 TOKEN.md>)
         * who adds properties `Issued`, `Starts`, `Expires`, `Signature`.
-    * Then inherited by [`.HOST/BOOKING` 🧩](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🧩 Host schemas/🧩 HOST'BOOKING.md>)
+    * Then inherited by [`.HOST/BOOKING` 🧩](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🧩 Host schemas/🧩 HOST'BOOKING.md>)
         * who adds properties `For`, `Time`, `Place`, `Seat`, `Latitude`, `Longitude`.
     
     ---

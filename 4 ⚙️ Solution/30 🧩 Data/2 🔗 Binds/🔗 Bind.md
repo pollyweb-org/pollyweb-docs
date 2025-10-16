@@ -4,7 +4,7 @@
 1. **What is a Bind?**
 
     A [Bind 🔗](<🔗 Bind.md>) is 
-    * a relationship between a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) and a [Vault 🗄️ domain](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) 
+    * a relationship between a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) and a [Vault 🗄️ domain](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) 
     * for a given [Schema Code 🧩](<../1 🧩 Schema Codes/🧩 Schema Code.md>).
 
     ---
@@ -16,8 +16,8 @@
 
     |#|Step|Interface|Step
     |-|-|-|-
-    | 1| `Hello`| [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) | Open a [💬 Chat](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) with the [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) and select `Bind`
-    | 1| `Hello`| Browser | Login to the website of the [Vault 🗄️ ](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) and click `Bind`
+    | 1| `Hello`| [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) | Open a [💬 Chat](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) with the [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) and select `Bind`
+    | 1| `Hello`| Browser | Login to the website of the [Vault 🗄️ ](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) and click `Bind`
     | 2|  `Bind`|[Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) | On the [💬 Chat](<../../35 💬 Chats/💬 Chats/💬 Chat.md>), follow the steps detailed below
 
     ---
@@ -77,7 +77,7 @@
     | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     |-|-|-
     | 🗄️ Vault | 😃 Hi! What do you need? <br/>- [ Bind ] to this Vault <br/>- [ Something else ] | > Bind
-    | [🤵 Broker](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | ⓘ Flow: Bind on app [+] || The [Host 🤗 role](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) changed the context.
+    | [🤵 Broker](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | ⓘ Flow: Bind on app [+] || The [Host 🤗 role](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) changed the context.
     | 🗄️ Vault | 😃 Type your Vault ID. | `my-id`
     | 🗄️ Vault | 😃 Type your Secret. | `*******`
     | 🗄️ Vault | ℹ️ Hi, Alice! [+] |
@@ -104,8 +104,8 @@
     |-|-|-
     | | | 🔆 [scan](<../../25 🔆 Locators/1 🔆 Locators/🔆⏩ Locator flows/🧑‍🦰✨ Wallet QR scan.md>)
     | 🔎 [Finder](<../../50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Vault (4.3 ⭐)  [+] || The [Broker 🤵](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) informed the user.
-    | 🗄️ Vault | ℹ️ Hi, Alice! Let's bind. || The [Locator 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) had a [Host 🤗](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>)  callback.
-    | [🤵 Broker](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | ⓘ Flow: Web bind [+] || The [Host 🤗 role](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) changed the context.
+    | 🗄️ Vault | ℹ️ Hi, Alice! Let's bind. || The [Locator 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) had a [Host 🤗](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)  callback.
+    | [🤵 Broker](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | ⓘ Flow: Web bind [+] || The [Host 🤗 role](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) changed the context.
     | 🗄️ Vault | 😃 What to bind? [All] <br/> - [ Data Set #1 ] <br/> - [ Data Set #2 ] | > All
     | [🤵 Broker](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Bind [Yes, No, +]<br/>- [ Schema Code 🧩](<../1 🧩 Schema Codes/🧩 Schema Code.md>) #1  <br/> - [Schema Code 🧩](<../1 🧩 Schema Codes/🧩 Schema Code.md>) #2 | > Yes | The [Broker 🤵](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) protected the user.
     | 🗄️ Vault | ✅ Done! [+]

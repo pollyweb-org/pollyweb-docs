@@ -20,7 +20,7 @@
 
     |#|Step
     |-|-
-    |1| [Firewall 🔥 domains](<🔥🤲 Firewall helper.md>) subscribe to the [domain-event streams 🌬️](<../../41 🎭 Domain Roles/75 🌬️ Streamers/🌬️🎭 Streamer role.md>) of [Reviewer ⭐ domains](<../../50 🫥 Agent domains/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>), [Listener 👂 domains](<../60 👂 Listeners/👂🤲 Listener helper.md>), and [Graph 🕸 domains](<../50 🕸 Graphs/🕸🤲 Graph helper.md>), eventually throttling them with a [Buffer ⏳ helper domain](<../27 ⏳ Buffers/⏳🤲 Buffer helper.md>);
+    |1| [Firewall 🔥 domains](<🔥🤲 Firewall helper.md>) subscribe to the [domain-event streams 🌬️](<../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>) of [Reviewer ⭐ domains](<../../50 🫥 Agent domains/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>), [Listener 👂 domains](<../60 👂 Listeners/👂🤲 Listener helper.md>), and [Graph 🕸 domains](<../50 🕸 Graphs/🕸🤲 Graph helper.md>), eventually throttling them with a [Buffer ⏳ helper domain](<../27 ⏳ Buffers/⏳🤲 Buffer helper.md>);
     |2| [Firewall 🔥 domains](<🔥🤲 Firewall helper.md>) then update the [Trust 👍 list](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) in their [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>), which is propagated down by the [Listener 👂 helper domains](<../60 👂 Listeners/👂🤲 Listener helper.md>) and subscribed by [Graph 🕸 helper domains](<../50 🕸 Graphs/🕸🤲 Graph helper.md>) and [Finder 🔎 vaults](<../../50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>).
 
     ---
@@ -45,7 +45,7 @@
 1. **Do Firewalls monitor domain reputation?**
 
     Yes. 
-    * [Firewall 🔥 helper domains](<🔥🤲 Firewall helper.md>) subscribe to [Reviewer ⭐ domain streams](<../../50 🫥 Agent domains/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) to monitor the behavior of [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>), revoking their [Trust 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) when necessary.
+    * [Firewall 🔥 helper domains](<🔥🤲 Firewall helper.md>) subscribe to [Reviewer ⭐ domain streams](<../../50 🫥 Agent domains/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) to monitor the behavior of [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>), revoking their [Trust 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) when necessary.
 
     ---
     <br/>
@@ -53,7 +53,7 @@
 1. **Do Firewalls report on suspicions before blocking?**
 
     No. 
-    * NLWeb advocates the usage of [Reviewer ⭐ domains](<../../50 🫥 Agent domains/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) to assess the level of trustworthiness of another [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>).
+    * NLWeb advocates the usage of [Reviewer ⭐ domains](<../../50 🫥 Agent domains/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) to assess the level of trustworthiness of another [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>).
 
     ---
     <br/>

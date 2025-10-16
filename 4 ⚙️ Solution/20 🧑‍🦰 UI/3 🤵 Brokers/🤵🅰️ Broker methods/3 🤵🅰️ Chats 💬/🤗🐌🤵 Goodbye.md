@@ -5,11 +5,11 @@
 
 # 🤗🐌🤵 Goodbye @ Broker
 
-* The [Host 🤗 domain](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) 
+* The [Host 🤗 domain](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) 
     * informs the [user's Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) 
     * of the [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ending.
 * Used in:
-    * [👋 Goodbye @ Host ⏩ flow](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Goodbye 👋.md>) 
+    * [👋 Goodbye @ Host ⏩ flow](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Goodbye 👋.md>) 
     * [👋 Talker `GOODBYE` command](<../../../../35 💬 Chats/😃 Talkers/😃📨 Talker msgs/50 👋 GOODBYE.md>)
 
 <br/> 
@@ -28,7 +28,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From`     | string  | [Host 🤗 domain](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>)
+|Header|`From`     | string  | [Host 🤗 domain](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)
 ||`To`       | string  | [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>)
 ||`Subject` | string | `Goodbye@Broker`
 |Body|`ChatID`   | uuid    | ID of the [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) 

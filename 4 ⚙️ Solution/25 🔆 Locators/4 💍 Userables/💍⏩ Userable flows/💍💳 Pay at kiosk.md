@@ -9,7 +9,7 @@
 
 1. **How can users pay at a self-service kiosk with Userables?**
 
-    [🖥️ Kiosks](<../../../60 🧰 Edge/68 🏪 Terminals/01 🖥️ Info kiosk.md>) work inside a Seller's [Host 🤗](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) chat, so Custodians can handle the user's payments in a way similar to paying to sales person.
+    [🖥️ Kiosks](<../../../60 🧰 Edge/68 🏪 Terminals/01 🖥️ Info kiosk.md>) work inside a Seller's [Host 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) chat, so Custodians can handle the user's payments in a way similar to paying to sales person.
 
     ---
     <br/>
