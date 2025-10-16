@@ -8,7 +8,7 @@
 
 ## Flow diagram
 
-![alt text](<.📎 Assets/⚙️ Share Bind.png>)
+![alt text](<../../🧑‍🦰⏩ Wallet flows/30 👉🔗 Binds/.📎 Assets/⚙️ Share Bind.png>)
 
 |#|Step|Purpose
 |-|-|-

@@ -38,7 +38,7 @@ The associated [Talker 😃](<../../../../35 💬 Chats/😃 Talkers/😃 Talker
 
 ## ⏩ Flow diagram 
 
-![Accept](<.📎 Assets/⚙️ Save.png>)
+![Accept](<../../.📎 Assets/Tokens/⚙️🎫 Save.png>)
 
 
 | # | Call | Notes

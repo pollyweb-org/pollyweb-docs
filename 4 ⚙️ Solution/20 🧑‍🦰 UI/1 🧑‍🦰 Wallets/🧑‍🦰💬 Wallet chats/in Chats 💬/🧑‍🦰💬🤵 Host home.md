@@ -23,7 +23,7 @@
 
 ## Flow Diagram
 
-![Talker](<../../.📎 Assets/⚙️ Home.png>)
+![Talker](<../../.📎 Assets/Chats/⚙️ Chat Home.png>)
 
 
 | # | Call | Notes
