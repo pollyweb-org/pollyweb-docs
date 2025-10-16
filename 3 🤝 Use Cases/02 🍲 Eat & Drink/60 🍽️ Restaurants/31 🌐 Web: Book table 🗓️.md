@@ -4,7 +4,7 @@
 
 ## 💬 Chat
 
-| [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+| [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 | - | - | - |
 || | > Book 🔗
 | 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Restaurant (4.3 ⭐)  [+]
@@ -74,14 +74,14 @@
 ```
 
 
-| [Command ⌘](<../../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃⚙️ Talker cmds/10 ⌘ Command.md>) | Purpose
+| [Command ⌘](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/10 ⌘ Command.md>) | Purpose
 |-|-
 | 
-| 🪣 [`MAP`](<../../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃💾 Talker data/61 🪣 MAP item.md>) | Map the locator to a restaurant info.
-| 📝 [`INFORM`](<../../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃📨 Talker msgs/41 📝 INFORM msg.md>) | Show user instructions and allow inputs.
-| 1️⃣ [`ONE`](<../../../4 ⚙️ Solution/35 Chats/🤔 Prompts/🤔✏️ Prompt inputs/53 1️⃣ ONE prompt.md>) | Select an option, the day in this case.
-| 💼 [`SHARE`](<../../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃📨 Talker msgs/45 💼 SHARE msg.md>) | Get the user's booking contacts.
-| 👍 [`CONFIRM`](<../../../4 ⚙️ Solution/35 Chats/🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) | Pause to allow changing previous inputs.
-| ❄️ [`FREEZE`](<../../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃📨 Talker msgs/42 ❄️ FREEZE msg.md>) | Freeze all previous inputs from changes.
-| ⬇️ [`EVAL`](<../../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃💾 Talker data/20 ⬇️ EVAL flow.md>) | Save the booking.
+| 🪣 [`MAP`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃💾 Talker data/61 🪣 MAP item.md>) | Map the locator to a restaurant info.
+| 📝 [`INFORM`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃📨 Talker msgs/41 📝 INFORM msg.md>) | Show user instructions and allow inputs.
+| 1️⃣ [`ONE`](<../../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔✏️ Prompt inputs/53 1️⃣ ONE prompt.md>) | Select an option, the day in this case.
+| 💼 [`SHARE`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃📨 Talker msgs/45 💼 SHARE msg.md>) | Get the user's booking contacts.
+| 👍 [`CONFIRM`](<../../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) | Pause to allow changing previous inputs.
+| ❄️ [`FREEZE`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃📨 Talker msgs/42 ❄️ FREEZE msg.md>) | Freeze all previous inputs from changes.
+| ⬇️ [`EVAL`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃💾 Talker data/20 ⬇️ EVAL flow.md>) | Save the booking.
 |

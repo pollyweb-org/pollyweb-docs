@@ -16,9 +16,9 @@
 
     |#|Step|Interface|Step
     |-|-|-|-
-    | 1| `Hello`| [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) | Open a [💬 Chat](<../../35 Chats/💬 Chats/💬 Chat.md>) with the [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) and select `Bind`
+    | 1| `Hello`| [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) | Open a [💬 Chat](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) with the [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) and select `Bind`
     | 1| `Hello`| Browser | Login to the website of the [Vault 🗄️ ](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) and click `Bind`
-    | 2|  `Bind`|[Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) | On the [💬 Chat](<../../35 Chats/💬 Chats/💬 Chat.md>), follow the steps detailed below
+    | 2|  `Bind`|[Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) | On the [💬 Chat](<../../35 💬 Chats/💬 Chats/💬 Chat.md>), follow the steps detailed below
 
     ---
     <br/>
@@ -27,13 +27,13 @@
 1. **How to bind to a new simple Vault domain?**
     
     Using their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>):
-    1. a user initiates a [💬 Chat](<../../35 Chats/💬 Chats/💬 Chat.md>) with the [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>);
+    1. a user initiates a [💬 Chat](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) with the [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>);
     2. selects an option that requires a [bind 🔗](<🔗 Bind.md>);
     4. accepts the bind.
 
-    The [💬 Chat](<../../35 Chats/💬 Chats/💬 Chat.md>) may look similar to the following.
+    The [💬 Chat](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) may look similar to the following.
     
-    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     |-|-|-
     | 🗄️ Vault | 😃 Hi! What do you need? <br/>- [ Bla ] | > Bla
     | [🤵 Broker](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | ⓘ Flow: Bla, bla, bla [+] 
@@ -41,7 +41,7 @@
     | 🗄️ Vault | ✅ Done! 
     |
 
-    The [Vault's Talker 😃](<../../35 Chats/😃 Talkers/😃 Talker.md>) may look like the following.
+    The [Vault's Talker 😃](<../../35 💬 Chats/😃 Talkers/😃 Talker.md>) may look like the following.
 
     ```yaml
     💬|[Bla]:
@@ -67,14 +67,14 @@
 1. **How to bind to an existing Vault domain with a Wallet app?**
     
     Using their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>):
-    1. a user (e.g., Alice) initiates a [💬 Chat](<../../35 Chats/💬 Chats/💬 Chat.md>) with the [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>);
+    1. a user (e.g., Alice) initiates a [💬 Chat](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) with the [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>);
     2. selects the option to [bind 🔗](<🔗 Bind.md>) to the [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>);
     3. provides the authentication data required by the [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) (e.g., login and password);
     4. selects one or more [Schema Codes 🧩](<../1 🧩 Schema Codes/🧩 Schema Code.md>) to [bind 🔗](<🔗 Bind.md>) to, from the list of available [Binds 🔗](<🔗 Bind.md>) provided to the user by the [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>).
 
-    The [💬 Chat](<../../35 Chats/💬 Chats/💬 Chat.md>) may look similar to the following.
+    The [💬 Chat](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) may look similar to the following.
     
-    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     |-|-|-
     | 🗄️ Vault | 😃 Hi! What do you need? <br/>- [ Bind ] to this Vault <br/>- [ Something else ] | > Bind
     | [🤵 Broker](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | ⓘ Flow: Bind on app [+] || The [Host 🤗 role](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) changed the context.
@@ -96,11 +96,11 @@
     2. clicks on a `bind wallet` button provided by the [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>);
     3. a QR code [Locator 🔆](<../../25 Locators/1 🔆 Locators/🔆 Locator.md>) is presented to the user;
     4. the user scans the QR code with their mobile device;
-    5. the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) opens with a new [💬 Chat](<../../35 Chats/💬 Chats/💬 Chat.md>) with the [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>).
+    5. the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) opens with a new [💬 Chat](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) with the [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>).
 
-    The [💬 Chat](<../../35 Chats/💬 Chats/💬 Chat.md>) may look similar to the following.
+    The [💬 Chat](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) may look similar to the following.
 
-    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     |-|-|-
     | | | 🔆 [scan](<../../25 Locators/1 🔆 Locators/🔆⏩ Locator flows/🧑‍🦰✨ Wallet QR scan.md>)
     | 🔎 [Finder](<../../50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Vault (4.3 ⭐)  [+] || The [Broker 🤵](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) informed the user.

@@ -115,7 +115,7 @@
     |-|-|-|-|-|-|-|-
     | `Has`   | Phone | Phone | QR code | [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) | NFC card | - | [NFC 💍](<../../25 Locators/4 💍 Userables/💍💠 Userable thing.md>) |
     | `Is`    | - | - | - | [Face 📸](<21 🆔😶 Face scan.md>) | - | Face | [Face 📸](<21 🆔😶 Face scan.md>) |
-    | `Knows` | - | - | - | [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>) | Card pin | User pin | [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>) |
+    | `Knows` | - | - | - | [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) | Card pin | User pin | [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) |
     | `Screen`<br/>`Lock ⚠️` | Pin, Face,<br/>Fingers | Pin, Face,<br/>Fingers | Pin, Face,<br/>Fingers | Pin, Face,<br/>Fingers | - | - | - |
     |
 

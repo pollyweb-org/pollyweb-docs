@@ -31,7 +31,7 @@ Body:
 | Header    | `From`        | string    | [Host 🤗 domain](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) name
 |           | `To`          | string    | [Hoster ☁️ domain](<../../../45 🤲 Helper domains/55 ☁️ Hosters/☁️🤲 Hoster helper.md>) name
 |           | `Subject`     | string    | `Place@Talker`
-| Body      | `ChatID`      | uuid      | [Chat 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>) ID
+| Body      | `ChatID`      | uuid      | [Chat 💬](<../../💬 Chats/💬 Chat.md>) ID
 |           | `Placeholder` | string    | [$Placeholder 💾](<../😃💾 Talker data/10 💾 $Placeholder.md>) name
 |           | `Value`       | any    | Any value to write
 |

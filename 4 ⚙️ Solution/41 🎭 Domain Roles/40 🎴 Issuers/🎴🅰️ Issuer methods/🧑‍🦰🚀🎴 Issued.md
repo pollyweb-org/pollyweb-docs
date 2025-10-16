@@ -29,7 +29,7 @@ Body:
 |Header | `From`  | string  | `Anonymous`
 |       | `To`    | string  | [Issuer 🎴 domain](<../🎴🎭 Issuer role.md>) name
 ||`Subject`|string|`Token@Issuer` 
-| Body | `ChatID` | string | [Chat 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>) ID from [`Offer@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
+| Body | `ChatID` | string | [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Offer@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
 | | `TokenID`| string | [Token 🎫](<../../../30 Data/3 🎫 Tokens/🎫 Token.md>) ID from [`Offer@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
 |
 

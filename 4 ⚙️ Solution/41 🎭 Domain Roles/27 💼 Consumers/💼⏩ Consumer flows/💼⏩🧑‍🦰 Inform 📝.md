@@ -1,11 +1,11 @@
 # 🤗⏩🧑‍🦰 Form 📝
 
 * Shows user instructions and allow inputs.
-    * [Brokers 🤵](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) may ask for [user confirmation  👍](<../../../35 Chats/🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) the first time,
-    * then switch to a [non-blocking info ℹ️](<../../../35 Chats/🤔 Prompts/🤔📢 Prompt status/21 ℹ️ INFO prompt.md>).
+    * [Brokers 🤵](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) may ask for [user confirmation  👍](<../../../35 💬 Chats/🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) the first time,
+    * then switch to a [non-blocking info ℹ️](<../../../35 💬 Chats/🤔 Prompts/🤔📢 Prompt status/21 ℹ️ INFO prompt.md>).
 
 * Related to:
-    * [📝 Talker `INFORM` command](<../../../35 Chats/😃 Talkers/😃📨 Talker msgs/41 📝 INFORM msg.md>)
+    * [📝 Talker `INFORM` command](<../../../35 💬 Chats/😃 Talkers/😃📨 Talker msgs/41 📝 INFORM msg.md>)
 
 * Examples:
     * [Buy hot dog 🌭](<../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/50 🌭 Street food/21 🎪 Stall: Buy hot dog 🌭.md>)
@@ -16,23 +16,23 @@
 ## 💬 Chat
 
 
-| [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+| [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 | - | - | - |
 | 🤵 [Broker](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Ready to order? [Yes, No] <br/> - your curator orders 🧚<br/>  - your payer pays the bill 💳  | > Yes
 |
 
 <br/>
 
-Here's the [Talker 😃](<../../../35 Chats/😃 Talkers/😃 Talker.md>).
+Here's the [Talker 😃](<../../../35 💬 Chats/😃 Talkers/😃 Talker.md>).
 
 ```yaml
 # Talker
 - INFORM|TableOrder
 ```
 
-| [Command ⌘](<../../../35 Chats/😃 Talkers/😃⚙️ Talker cmds/10 ⌘ Command.md>) | Purpose
+| [Command ⌘](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/10 ⌘ Command.md>) | Purpose
 |-|-
-| 📝 [`INFORM`](<../../../35 Chats/😃 Talkers/😃📨 Talker msgs/41 📝 INFORM msg.md>) | Show user instructions and allow inputs.
+| 📝 [`INFORM`](<../../../35 💬 Chats/😃 Talkers/😃📨 Talker msgs/41 📝 INFORM msg.md>) | Show user instructions and allow inputs.
 |
 
 <br/>

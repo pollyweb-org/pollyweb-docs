@@ -4,7 +4,7 @@
     * freezes changes to any pre.
 
 * Used in:
-    * [❄️ Talker `FREEZE` command](<../../../../35 Chats/😃 Talkers/😃📨 Talker msgs/42 ❄️ FREEZE msg.md>)
+    * [❄️ Talker `FREEZE` command](<../../../../35 💬 Chats/😃 Talkers/😃📨 Talker msgs/42 ❄️ FREEZE msg.md>)
     * [❄️ Host Freeze ⏩ flow](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Freeze ❄️.md>)
 
 <br/> 
@@ -26,5 +26,5 @@ Body:
 |Header|`From`     | string  | [Host 🤗 domain](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>)
 ||`To`       | string  | [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>)
 ||`Subject` | string | `Freeze@Broker`
-|Body|`ChatID`   | uuid    | ID of the [Chat 💬](<../../../../35 Chats/💬 Chats/💬 Chat.md>) 
+|Body|`ChatID`   | uuid    | ID of the [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) 
 |

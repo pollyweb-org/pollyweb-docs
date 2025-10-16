@@ -3,7 +3,7 @@
 # 🧑‍🦰👉🗄️ Bind Vault @ Wallet 
 
 
-* While the user is in a [Chat 💬](<../../../../35 Chats/💬 Chats/💬 Chat.md>) with a [Vault 🗄️ host](<../../../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>),
+* While the user is in a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) with a [Vault 🗄️ host](<../../../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>),
     * creates a [Bind 🔗](<../../../../30 Data/2 🔗 Binds/🔗 Bind.md>) 
     * between the [Wallet 🧑‍🦰 app](<../../🧑‍🦰 Wallet app.md>) 
     * and the [Vault 🗄️ domain](<../../../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>).
@@ -12,18 +12,18 @@
 
 ## 💬 Chat
 
-| [Domain](<../../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../../35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../🧑‍🦰 Wallet app.md>)
+| [Domain](<../../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../🧑‍🦰 Wallet app.md>)
 | - | - | - |
 | 🗄️ [Vault](<../../../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) |  😃 Hi! What do you need? <br/>- [ Bind ] my Wallet | > Bind
-| 🤵 [Broker](<../../../3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 [Bind?](<../../../../35 Chats/😃 Talkers/😃📨 Talker msgs/44 🔗 BIND msg.md>) [Yes, No] <br/> - Some schema code 🧩 <br/> - Some other schema code 🧩 | > Yes
-| 🗄️ [Vault](<../../../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) | ✅ [Bound](<../../../../35 Chats/🤔 Prompts/🤔📢 Prompt status/23 ✅ SUCCESS prompt.md>)
+| 🤵 [Broker](<../../../3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 [Bind?](<../../../../35 💬 Chats/😃 Talkers/😃📨 Talker msgs/44 🔗 BIND msg.md>) [Yes, No] <br/> - Some schema code 🧩 <br/> - Some other schema code 🧩 | > Yes
+| 🗄️ [Vault](<../../../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) | ✅ [Bound](<../../../../35 💬 Chats/🤔 Prompts/🤔📢 Prompt status/23 ✅ SUCCESS prompt.md>)
 ||
 
 <br/>
 
 ## 😃 Talker 
 
-The associated [Talker 😃](<../../../../35 Chats/😃 Talkers/😃 Talker.md>) uses the [`BIND` 🔗 command](<../../../../35 Chats/😃 Talkers/😃📨 Talker msgs/44 🔗 BIND msg.md>).
+The associated [Talker 😃](<../../../../35 💬 Chats/😃 Talkers/😃 Talker.md>) uses the [`BIND` 🔗 command](<../../../../35 💬 Chats/😃 Talkers/😃📨 Talker msgs/44 🔗 BIND msg.md>).
 
 ```yaml
 💬 [Bind] my Wallet:

@@ -27,7 +27,7 @@ Body:
 || `To` | string | [Vault 🗄️ domain](<../🗄️🎭 Vault role.md>)
 || `Subject` | string | `Suppress@Vault`
 |Body| `Consumer` | string | [Consumer 💼 domain](<../../27 💼 Consumers/💼🎭 Consumer role.md>)
-|| `ChatID`| uuid | [Chat 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>) ID
+|| `ChatID`| uuid | [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID
 |
 
 <br/>
@@ -37,7 +37,7 @@ Body:
 
 * If the session is tracked, stop it - e.g.: 
     * GIVEN a vault that is a [Palmist 🖐️ supplier domain](<../../../60 🧰 Edge/63 🖐️ Palmists/02 🖐️🏭 Palmist supplier.md>)
-    * AND the palm reader is actively looking for the user of the [Chat 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>)
+    * AND the palm reader is actively looking for the user of the [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>)
     * WHEN suppressed 
     * THEN stop searching for it
     * AND stop sending findings to the [Host 🤗 domain](<../../30 🤗 Hosts/🤗🎭 Host role.md>).

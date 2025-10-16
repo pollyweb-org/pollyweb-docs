@@ -36,7 +36,7 @@
     [Tokens 🎫](<../../30 Data/3 🎫 Tokens/🎫 Token.md>) are shared with Consumers 💼 by [Broker 🤵 domains](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) in a number of ways.
 
     - **Request on a chat**: 
-        - in a [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>), [Consumers 💼](<💼🎭 Consumer role.md>) can ask the user to share a specific [Schema Code 🧩](<../../30 Data/1 🧩 Schema Codes/🧩 Schema Code.md>);
+        - in a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>), [Consumers 💼](<💼🎭 Consumer role.md>) can ask the user to share a specific [Schema Code 🧩](<../../30 Data/1 🧩 Schema Codes/🧩 Schema Code.md>);
         - if the user accepts, the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) shares with the [Consumer 💼](<💼🎭 Consumer role.md>) both the [bound 🔗 Vaults](<../../30 Data/2 🔗 Binds/🔗 Bind.md>) and the downloaded [Tokens 🎫](<../../30 Data/3 🎫 Tokens/🎫 Token.md>) that match that [Schema Code 🧩](<../../30 Data/1 🧩 Schema Codes/🧩 Schema Code.md>);
         - e.g., an airline may ask a user to share their passport [Token 🎫](<../../30 Data/3 🎫 Tokens/🎫 Token.md>).
 
@@ -141,9 +141,9 @@
         - or through an external device (e.g., [Amazon One 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/07 🖐️ Palm pay landscape/02 📺 Amazon One.md>) palm reader).
 
 
-    Consider the following [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>) as an example. 
+    Consider the following [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) as an example. 
 
-    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 🎰 Casino   | ℹ️ Request for minimum age. [+]
     | 🆔 [Identity](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Share over 21? [Yes, No]      | > Yes
@@ -161,7 +161,7 @@
     - e.g., an adult may give their wallet's device to an under-aged child so that they can buy age-restricted goods at a self-service store. 
     
     In low-budget validations, 
-    - [Seller 💵 domains](<../70 💵 Sellers/💵🎭 Seller role.md>) ask the user's trusted [Identity 🆔 domain](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) to perform the authentication inside the [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>) on the user's device;
+    - [Seller 💵 domains](<../70 💵 Sellers/💵🎭 Seller role.md>) ask the user's trusted [Identity 🆔 domain](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) to perform the authentication inside the [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) on the user's device;
     - depending on the circumstances, this can be a biometric face scan, voice recognition, OTP, security questions, or other. 
     
     In offline scenarios, 
@@ -181,7 +181,7 @@
     
     * [Consumer 💼 domains](<💼🎭 Consumer role.md>) manifest the unique contexts in which they will collect data, and what data is collected in each context.
   
-    * When interacting in a [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>), [Consumer 💼 domains](<💼🎭 Consumer role.md>) need to notify the [Broker 🤵 domain](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) of a context change before requesting data under that context.
+    * When interacting in a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>), [Consumer 💼 domains](<💼🎭 Consumer role.md>) need to notify the [Broker 🤵 domain](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) of a context change before requesting data under that context.
 
     * [Broker 🤵 domains](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) only process sharing requests that are publicly manifested in advance.
 
@@ -211,9 +211,9 @@
         ```
 
     
-    * That configuration would result in the following [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>) excerpt. 
+    * That configuration would result in the following [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) excerpt. 
 
-        | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+        | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
         |-|-|-|
         | 🏨 Hotel  | 😃 Hi! What do you need? <br/> - [ Check-in ] <br/> - [ Something else ] | > Check-in 
         | 🤵 [Broker](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Ready to check-in? [Yes, No] <br/> - your identity 🆔 shares your ID <br/> - your curator 🧚 sets the room  <br/> - your payer 💳 pays the stay   <br/> - your broker 🤵 saves the room key  | > Yes

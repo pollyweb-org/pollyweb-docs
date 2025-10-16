@@ -15,10 +15,10 @@
     <br/>
 
 
-1. **What does a [Chat 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>) look like?**
+1. **What does a [Chat 💬](<../../💬 Chats/💬 Chat.md>) look like?**
 
     
-    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 🎴 [Issuer](<../../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) | ℹ️ Issuing your token...
     | 🤵 [Broker](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Save token? [Yes, No]  | > Yes

@@ -6,7 +6,7 @@
     A Thing 💠 
     * is an [🔆 NFC/QR Locator](<../1 🔆 Locators/🔆 Locator.md>) 
     * brought to life by a [Wand 🪄 domain](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>)
-    * to allow users to interact with the physical world via [Chats 💬](<../../35 Chats/💬 Chats/💬 Chat.md>).
+    * to allow users to interact with the physical world via [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>).
 
     ---
 
@@ -90,13 +90,13 @@
 
     |#|Category|Step
     |-|-|-
-    |1| `Order` | A [Printer 🖨️ domain](<../../45 🤲 Helper domains/75 🖨️ Printers/🖨️🤲 Printer helper.md>) orders a [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>) interaction from a [Wand 🪄 helper domain](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>). 
+    |1| `Order` | A [Printer 🖨️ domain](<../../45 🤲 Helper domains/75 🖨️ Printers/🖨️🤲 Printer helper.md>) orders a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) interaction from a [Wand 🪄 helper domain](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>). 
     |2| `Create` | The [Wand 🪄 domain](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>) creates a [Thing 💠](<💠🔆 Thing locator.md>) and shares its [digital Locator 🔆](<../1 🔆 Locators/🔆 Locator.md>). |
     |3| `Print` | The [Printer 🖨️](<../../45 🤲 Helper domains/75 🖨️ Printers/🖨️🤲 Printer helper.md>) prints the [Locator 🔆](<../1 🔆 Locators/🔆 Locator.md>) of the [Thing 💠](<💠🔆 Thing locator.md>) into a QR/NFC  smart sticker.
     |4| `Sell` | The [Printer 🖨️](<../../45 🤲 Helper domains/75 🖨️ Printers/🖨️🤲 Printer helper.md>) distributes the smart sticker to commercial end-users.
     |5| `Buy` | A user buys the smart sticker from a store to stick on a vintage book.
     |6| `Register` | The user scans it with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) to register on their [Custodian 🧳 vault](<../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>).
-    |7| `Chat` | Guest users tap/scan the book's smart sticker to interact with it in a [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>).
+    |7| `Chat` | Guest users tap/scan the book's smart sticker to interact with it in a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>).
 
     ---
 
@@ -111,6 +111,6 @@
     |3| `Sell` | The [Brand 🍏 domain](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>) sells the physical [Locator 🔆](<../1 🔆 Locators/🔆 Locator.md>) on a smart collar product bundle.
     |4| `Buy` | A user buys the smart collar from a pet store, and give it to their pet.
     |5| `Register` | The user scans it with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) to register on their [Custodian 🧳 vault](<../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>).
-    |7| `Chat` | Guest users (e.g., vets) tap/scan the pet's smart collar to interact with it in a [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>).
+    |7| `Chat` | Guest users (e.g., vets) tap/scan the pet's smart collar to interact with it in a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>).
     
     ---

@@ -9,7 +9,7 @@
 
     A `$placeholder`
     * is a named memory slot 
-    * associated with a [Chat 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>)
+    * associated with a [Chat 💬](<../../💬 Chats/💬 Chat.md>)
     * and managed by a [Talker 😃](<../😃 Talker.md>).
 
     ---
@@ -61,7 +61,7 @@
     * `.Placeholders.Set('$p', new_value)` 
 
     In a [Talker 😃](<../😃 Talker.md>) script, use `>>` to send a value to a $placeholder:
-    * `TEXT|bla >> $p` writes the answer to a [`TEXT` 🔠 input](<../../../35 Chats/🤔 Prompts/🤔✏️ Prompt inputs/32 🔠 TEXT prompt.md>).
+    * `TEXT|bla >> $p` writes the answer to a [`TEXT` 🔠 input](<../../🤔 Prompts/🤔✏️ Prompt inputs/32 🔠 TEXT prompt.md>).
     * `EVAL|f >> $p` writes the return of a [{Function}](<12 🐍 {Function}.md>) named `f`.
 
     You can also push data structures with [`EVAL` ⬇️](<20 ⬇️ EVAL flow.md>).
