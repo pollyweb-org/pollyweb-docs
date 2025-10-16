@@ -46,7 +46,7 @@
     | 👍 [Domain Trusts](<../👥👍 Domain Trusts/👍 Domain Trust.md>) | Trusted domains, Codes, and roles. | [`./TRUST` 🧩](<🧩 Manifest schemas/🧩 TRUST.md>)
     |  🧩 [Schema Codes](<../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) | Defined by the domain. | [`./CODE` 🧩](<🧩 Manifest schemas/🧩 CODE.md>)  | Schema validation of a Code
     |  🧩 [Delegated Codes](<../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) | Codes delegated to other domains. | [`./DELEGATE` 🧩](<🧩 Manifest schemas/🧩 DELEGATE.md>)
-    | 🪢 [Integrations](<../../41 🎭 Domain Roles/Integrators 🪢/$ 🪢🎭 Integrator role.md>) |Synchronous datasets, <br/>asynchronous supplies, <br/>and streaming endpoints. | [`./OFFER` 🧩](<🧩 Manifest schemas/🧩 OFFER.md>)
+    | 🪢 [Integrations](<../../41 🎭 Domain Roles/Integrators 🪢/🪢🎭 Integrator role.md>) |Synchronous datasets, <br/>asynchronous supplies, <br/>and streaming endpoints. | [`./OFFER` 🧩](<🧩 Manifest schemas/🧩 OFFER.md>)
     | [Chat 💬 Flows](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) | To explain what user data is request.
 
     ---

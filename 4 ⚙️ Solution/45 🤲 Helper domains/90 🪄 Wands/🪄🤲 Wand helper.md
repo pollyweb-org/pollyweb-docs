@@ -49,7 +49,7 @@
    
     |[Domain Role 🎭](<../../40 👥 Domains/👥 Domains/👥 Domain.md>)|Description
     |-|-
-    | [🪢 Integrator](<../../41 🎭 Domain Roles/Integrators 🪢/$ 🪢🎭 Integrator role.md>) | To promote the printing of [Locators 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) in [Finder 🔎 domains](<../../50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>).
+    | [🪢 Integrator](<../../41 🎭 Domain Roles/Integrators 🪢/🪢🎭 Integrator role.md>) | To promote the printing of [Locators 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) in [Finder 🔎 domains](<../../50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>).
     | [🤗 Host](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | For interacting with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) in [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>).
     | [🏭 Supplier](<../../41 🎭 Domain Roles/Suppliers 🏭/🏭🎭 Supplier role.md>) | For receiving orders to add [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) to [Things 💠](<../../25 🔆 Locators/2 💠 Things/💠🔆 Thing locator.md>).
     | [💼 Consumer](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) | For consuming data sets required to fill out the order.
