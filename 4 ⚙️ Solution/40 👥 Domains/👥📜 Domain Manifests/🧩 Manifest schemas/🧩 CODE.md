@@ -4,7 +4,7 @@
 
 > Implements [Schema Code🧩](<../../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>)
 
-> Indexed by [`Schema@Graph`](<../../../45 🤲 Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Schema.md>)
+> Indexed by [`Schema@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema.md>)
 
 <br/>
 
@@ -41,7 +41,7 @@ Schema:
 | Property | Type | Notes|
 |-|-|-
 | `Path`| string | Relative path of the [Code 🧩](<../../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>)  or group
-| [`Delegator 🧩`](<🧩 DELEGATE.md>) | string | Optional [Authority 🏛️ domain](<../../../45 🤲 Helper domains/14 🏛️ Authorities/🏛️🤲 Authority helper.md>) that delegated: <br/>- i.e., added it to [`.MANIFEST/DELEGATE` 🧩](<🧩 DELEGATE.md>)
+| [`Delegator 🧩`](<🧩 DELEGATE.md>) | string | Optional [Authority 🏛️ domain](<../../../45 🤲 Helper domains/Authorities 🏛️/🏛️🤲 Authority helper.md>) that delegated: <br/>- i.e., added it to [`.MANIFEST/DELEGATE` 🧩](<🧩 DELEGATE.md>)
 | `Name` | string | Human name of the [Schema Code 🧩](<../../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) 
 | `Description`| string | Human  description of the [Schema Code 🧩](<../../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>)  
 | `Resources`  | map | Dictionary of external resources

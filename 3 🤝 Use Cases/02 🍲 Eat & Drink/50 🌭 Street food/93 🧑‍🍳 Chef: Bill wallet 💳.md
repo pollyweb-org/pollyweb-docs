@@ -14,8 +14,8 @@
 | 🎪 Stall  | 😃 1 hot dog 🌭? [Yes, No]  | > No
 | 🎪 Stall  | 😃 How many then? | ↕️ 2
 | 🎪 Stall  | 😃 1 chips 🥔? [Yes, No] | Yes
-| 🏦 [Collector](<../../../4 ⚙️ Solution/45 🤲 Helper domains/30 🏦 Collectors/🏦🤲 Collector helper.md>) | 🫥 Confirm $12.00? [Yes, No] <br/> - 2 hot dogs 🌭 (2x $5.00)  <br/> - 1 chips 🥔 ($1.00) <br/> - staff order fee 🤗 ($1.00) | > Yes
-| 🏦 [Collector](<../../../4 ⚙️ Solution/45 🤲 Helper domains/30 🏦 Collectors/🏦🤲 Collector helper.md>) | ⏳ Waiting payment... [+]
+| 🏦 [Collector](<../../../4 ⚙️ Solution/45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) | 🫥 Confirm $12.00? [Yes, No] <br/> - 2 hot dogs 🌭 (2x $5.00)  <br/> - 1 chips 🥔 ($1.00) <br/> - staff order fee 🤗 ($1.00) | > Yes
+| 🏦 [Collector](<../../../4 ⚙️ Solution/45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) | ⏳ Waiting payment... [+]
 | 🎪 Stall  | ✅ Payment received!
 | 🎪 Stall  | ⏳ Waiting requests... [+] 
 |...

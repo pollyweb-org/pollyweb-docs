@@ -80,7 +80,7 @@
 
     When consuming data from a [Vault 🗄️ domain](<../Vaults 🗄️/🗄️🎭 Vault role.md>), the data envelope indicates the [Schema Code 🧩](<../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) and the version (e.g., `any-authority.com/any-schema:1.0`). 
     
-    - The code identifies the [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) where the [Schema Code 🧩](<../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) is defined (e.g., `any-schema` is defined in the [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) of `any-authority.com`), so [Consumer 💼 domains](<💼🎭 Consumer role.md>) can then fetch the schema definitions from a cached [Graph 🕸 domain](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🤲 Graph helper.md>) or directly from the [Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>).
+    - The code identifies the [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) where the [Schema Code 🧩](<../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) is defined (e.g., `any-schema` is defined in the [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) of `any-authority.com`), so [Consumer 💼 domains](<💼🎭 Consumer role.md>) can then fetch the schema definitions from a cached [Graph 🕸 domain](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) or directly from the [Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>).
 
     ---
     <br/>
@@ -97,22 +97,22 @@
 
     Yes. 
     
-    - NLWeb advocates for domains to ask [Graph 🕸 domains](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🤲 Graph helper.md>) for the [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) of the [Issuer 🎴 domain](<../Issuers 🎴/🎴🎭 Issuer role.md>) when verifying [Tokens 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>). 
+    - NLWeb advocates for domains to ask [Graph 🕸 domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) for the [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) of the [Issuer 🎴 domain](<../Issuers 🎴/🎴🎭 Issuer role.md>) when verifying [Tokens 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>). 
 
     ---
     <br/>
 
 1. **Can Consumers verify Tokens when Issuers rotate a DKIM?**
 
-    [Graph 🕸 domains](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🤲 Graph helper.md>) will find the [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) of the [Issuer 🎴 domain](<../Issuers 🎴/🎴🎭 Issuer role.md>) that was in use when the [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) was issued.
+    [Graph 🕸 domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) will find the [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) of the [Issuer 🎴 domain](<../Issuers 🎴/🎴🎭 Issuer role.md>) that was in use when the [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) was issued.
 
     ---
     <br/>
 
 1. **How are Consumers protected when Graph are compromised by attackers?**
 
-    [Firewall 🔥 domains](<../../45 🤲 Helper domains/40 🔥 Firewalls/🔥🤲 Firewall helper.md>) monitor the behavior of any [Graph 🕸 domain](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🤲 Graph helper.md>) and match domain information with other [Graphs 🕸](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🤲 Graph helper.md>). 
-    * If necessary, [Firewall 🔥 domains](<../../45 🤲 Helper domains/40 🔥 Firewalls/🔥🤲 Firewall helper.md>) immediately revoke a Graph's [trust 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>).
+    [Firewall 🔥 domains](<../../45 🤲 Helper domains/Firewalls 🔥/🔥🤲 Firewall helper.md>) monitor the behavior of any [Graph 🕸 domain](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) and match domain information with other [Graphs 🕸](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>). 
+    * If necessary, [Firewall 🔥 domains](<../../45 🤲 Helper domains/Firewalls 🔥/🔥🤲 Firewall helper.md>) immediately revoke a Graph's [trust 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>).
 
     ---
     <br/>
@@ -187,9 +187,9 @@
 
     * [Broker 🤵 domains](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) inform users of every context change, identifying the data that may be collected, then block any data request from the Consumer that does not comply with that context - e.g., [Order pizza 🍕](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/21 🏠 Home: Order pizza.md>), [Hotel check-in 🛎️](<../../../3 🤝 Use Cases/03 🧳 Travel/08 🧳 Stay at hotels 🏨/03 🏨 Guest @ Reception 🛎️/04 🛎️ Check-in.md>).
 
-    * Because the [domain Manifests 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) are public and prone to automatic evaluation by domains like [Firewall 🔥 domains](<../../45 🤲 Helper domains/40 🔥 Firewalls/🔥🤲 Firewall helper.md>) and [Reviewer ⭐ domains](<../../50 🫥 Agent domains/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>), [Consumer 💼 domains](<💼🎭 Consumer role.md>) are exposed to public scrutiny regarding the data  their are collecting, namely: what, why, how, and how much.
+    * Because the [domain Manifests 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) are public and prone to automatic evaluation by domains like [Firewall 🔥 domains](<../../45 🤲 Helper domains/Firewalls 🔥/🔥🤲 Firewall helper.md>) and [Reviewer ⭐ domains](<../../50 🫥 Agent domains/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>), [Consumer 💼 domains](<💼🎭 Consumer role.md>) are exposed to public scrutiny regarding the data  their are collecting, namely: what, why, how, and how much.
 
-    * [Authority 🏛️ domains](<../../45 🤲 Helper domains/14 🏛️ Authorities/🏛️🤲 Authority helper.md>) monitor the [domain Manifests 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) for dataset requests that don't match the domain's business or exception requests, and if necessary may revoke the [trust 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) on the [Consumer 💼 domain](<💼🎭 Consumer role.md>).
+    * [Authority 🏛️ domains](<../../45 🤲 Helper domains/Authorities 🏛️/🏛️🤲 Authority helper.md>) monitor the [domain Manifests 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) for dataset requests that don't match the domain's business or exception requests, and if necessary may revoke the [trust 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) on the [Consumer 💼 domain](<💼🎭 Consumer role.md>).
 
     * Consider the following example of a [domain Manifests 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>).
     

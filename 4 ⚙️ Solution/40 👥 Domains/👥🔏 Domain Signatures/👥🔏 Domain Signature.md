@@ -63,7 +63,7 @@
     | `Domain` | string | The [domain 👥](<../👥 Domains/👥 Domain.md>) name
     | `Hash` | string |  The hash of the file
     | `Signed` | timestamp | When it was signed
-    | `DKIM`| string | The [DKIM 📨](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Public Key.md>) key used to sign
+    | `DKIM`| string | The [DKIM 📨](<../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Public Key.md>) key used to sign
     | `Signature`| string | The [signature](<../👥📨 Domain Messages/📨 Message.md>) 📨 
 
     ---
@@ -86,7 +86,7 @@
     To verify a file, receiver [domains 👥](<../👥 Domains/👥 Domain.md>): 
     1. calculate the hash of the file without the stamp;
     2. compare it with the hash in the stamp; 
-    3. get the public key for the DKIM by calling [Public Key @ Graph 🚀](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Public Key.md>);
+    3. get the public key for the DKIM by calling [Public Key @ Graph 🚀](<../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Public Key.md>);
     4. verify if the signature matches the stamp. 
 
     ---
@@ -94,7 +94,7 @@
 
 1. **What if the public key of the sender changes?**
 
-    The stamp contains the key of the DKIM used to sign the file, so it can obtain the public key with [Public Key @ Graph 🚀](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Public Key.md>).
+    The stamp contains the key of the DKIM used to sign the file, so it can obtain the public key with [Public Key @ Graph 🚀](<../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Public Key.md>).
 
     ---
     <br/>

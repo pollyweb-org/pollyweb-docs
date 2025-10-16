@@ -10,7 +10,7 @@
 | # | Call | Notes
 |-|-|-
 | 1 | [🤵🐌⭐ `Rate@Reviewer`](<../🅰️ Reviewer methods/02 🤵🐌⭐ Rate.md>) | [Brokers 🤵](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) ask [Reviewers ⭐](<../⭐🫥 Reviewer agent.md>) to review
-| 2 | [👥🚀🕸 `Service@Graph`](<../../../45 🤲 Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Offer.md>) | [Reviewers ⭐](<../⭐🫥 Reviewer agent.md>) pull specific service questions 
+| 2 | [👥🚀🕸 `Service@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Offer.md>) | [Reviewers ⭐](<../⭐🫥 Reviewer agent.md>) pull specific service questions 
 | 3 | [🤗⏩🧑‍🦰 Prompt 🤔](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Reviewers ⭐](<../⭐🫥 Reviewer agent.md>) ask [Wallets 🧑‍🦰](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) for feedback
 | 4 | [⭐🐌🤗 `Rated@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/⭐🐌🤗 Rated.md>) | Later, [Reviewers ⭐](<../⭐🫥 Reviewer agent.md>) may report to [Hosts 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)
 | 5 | [🌬️⏩💼 Ingest @ Consumer](<../../../41 🎭 Domain Roles/Streamers 🌬️/🌬️⏩ Streamer flows/🌬️⏩🔔 Stream.md>) | Later, [Reviewers ⭐](<../⭐🫥 Reviewer agent.md>) alert subscriber [Finders 🔎](<../../40 🔎 Finders/🔎🫥 Finder agent.md>)

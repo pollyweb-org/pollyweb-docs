@@ -29,7 +29,7 @@
    
     |Emoji | Details
     |-|-
-    ℹ️ | The strong info emoji ℹ️ represents the chat's [Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) and any [Helper 🤲 domains](<../../../45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>) that it may [invite ⏩](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Invite 🤲.md>).
+    ℹ️ | The strong info emoji ℹ️ represents the chat's [Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) and any [Helper 🤲 domains](<../../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>) that it may [invite ⏩](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Invite 🤲.md>).
     ⓘ | The faded info emoji ⓘ represents the user's [Agent 🫥 vaults](<../../../50 🫥 Agent domains/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>).
 
     ---
@@ -77,7 +77,7 @@
     | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ Simple info.
-    | [🤲 Helper](<../../../45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>) | ℹ️ Simple info.
+    | [🤲 Helper](<../../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>) | ℹ️ Simple info.
     | [🫥 Agent](<../../../50 🫥 Agent domains/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) | ⓘ Simple info.
     |
     

@@ -16,7 +16,7 @@
 1. **What does a Keyholder store?**
 
     Keyholders store a list of Padlock keys, each containing:
-    - the domain of the [🔐 KeyMaker](<../../45 🤲 Helper domains/58 🔐 Keymakers/05  🔐🏭 Keymaker supplier.md>) (e.g., `any-keymaker.com`) 
+    - the domain of the [🔐 KeyMaker](<../../45 🤲 Helper domains/Keymakers 🔐/05  🔐🏭 Keymaker supplier.md>) (e.g., `any-keymaker.com`) 
     - the resource key of the [Padlock 🔒](<../75 🔒 Padlocks/$ 🔒 Padlock device.md>) in the KeyMaker (e.g., `padlock-12345678`)
     - the encrypted sequence number for the key last rotation (e.g., `1234567890`)
     - the encrypted passkey for the last sequence number (e.g. `ABCDEF`)

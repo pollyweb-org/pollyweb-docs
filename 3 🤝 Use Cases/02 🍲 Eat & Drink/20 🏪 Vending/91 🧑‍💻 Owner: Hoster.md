@@ -1,5 +1,5 @@
 
-# 🧑‍💻 Vending Machine: [Hoster](<../../../4 ⚙️ Solution/45 🤲 Helper domains/55 ☁️ Hosters/☁️🤲 Hoster helper.md>) 
+# 🧑‍💻 Vending Machine: [Hoster](<../../../4 ⚙️ Solution/45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) 
 
 > From [🏪 Drink at vending machines](<01 🏪 Index.md>)
 

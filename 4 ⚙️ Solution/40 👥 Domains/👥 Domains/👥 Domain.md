@@ -44,7 +44,7 @@
     | [🍏 Brand](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) | Bundles and sells physical products as [Things 💠](<../../25 🔆 Locators/2 💠 Things/💠🔆 Thing locator.md>)
     | [💼 Consumer](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) | Consumes data from [Vaults 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) and [Issuers 🎴](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)
     | [🪣 Dataset](<../../41 🎭 Domain Roles/Datasets 🪣/🪣🎭 Dataset role.md>) | Exposes that exposes a synchronous data API
-    | [🤲 Helper](<../../45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>) | Offloads undifferentiated logic from [domains 👥](<👥 Domain.md>)
+    | [🤲 Helper](<../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>) | Offloads undifferentiated logic from [domains 👥](<👥 Domain.md>)
     | [🤗 Host](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | Hosts [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) for [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) via [Brokers 🤵](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>)
     | [🪢 Integrator](<../../41 🎭 Domain Roles/Integrators 🪢/🪢🎭 Integrator role.md>) |  [Manifests 📜](<../👥📜 Domain Manifests/📜 Manifest.md>)  endpoints for [Finders 🔎](<../../50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) to index
     | [🎴 Issuer](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) | Issues [Tokens 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) to be saved on users' [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
@@ -61,7 +61,7 @@
     |Flow| Description
     |-|-
     |[👥⏩🕸 Manifest](<👥⏩ Domain flows/👥⏩🕸 Manifest 📜.md>) | Publish [domain Manifest 📜](<../👥📜 Domain Manifests/📜 Manifest.md>) changes
-    | [👥⏩🤝 Subscribe](<../../45 🤲 Helper domains/20 🤝 Billers/🤝⏩ Biller flows/👥⏩🤝 Domain Subscription.md>) | Sign subscriptions on [Biller 🤝 domains](<../../45 🤲 Helper domains/20 🤝 Billers/🤝🤲 Biller helper.md>)
+    | [👥⏩🤝 Subscribe](<../../45 🤲 Helper domains/Billers 🤝/🤝⏩ Biller flows/👥⏩🤝 Domain Subscription.md>) | Sign subscriptions on [Biller 🤝 domains](<../../45 🤲 Helper domains/Billers 🤝/🤝🤲 Biller helper.md>)
 
 
     ---

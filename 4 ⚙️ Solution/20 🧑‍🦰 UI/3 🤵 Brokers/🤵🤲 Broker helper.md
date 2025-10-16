@@ -5,7 +5,7 @@
 1. **What is a Broker domain in NLWeb?**
     
     A [Broker 🤵 domain](<🤵🤲 Broker helper.md>)
-    * is any [Helper 🤲 domain](<../../45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>) 
+    * is any [Helper 🤲 domain](<../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>) 
     * that helps [Notifier 📣 domains](<../2 📣 Notifiers/📣👥 Notifier domain.md>) 
     * to orchestrate [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) with [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)
     * by parsing [Locators 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>)

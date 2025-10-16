@@ -1,6 +1,6 @@
 # 😃⏩🤗 Wait @ Talker
 
-> Implements [Hoster ☁️ helper domain](<../../../45 🤲 Helper domains/55 ☁️ Hosters/☁️🤲 Hoster helper.md>)
+> Implements [Hoster ☁️ helper domain](<../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>)
 
 * Allows for [Hosted 📦 domains](<../../../55 👷 Build domains/📦 Hosteds/📦👥 Hosted domain.md>) 
     * to perform long-running tasks.

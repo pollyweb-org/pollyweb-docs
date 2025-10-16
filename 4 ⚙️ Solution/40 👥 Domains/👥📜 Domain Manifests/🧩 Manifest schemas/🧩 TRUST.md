@@ -5,7 +5,7 @@
 
 > Implements [domain Manifest 📜](<../📜 Manifest.md>) 
   
-> Used by [`Trusted@Graph`](<../../../45 🤲 Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Trusted.md>) and [`Trusts@Graph`](<../../../45 🤲 Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>)
+> Used by [`Trusted@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusted.md>) and [`Trusts@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>)
 
 <br/>
 
@@ -41,26 +41,26 @@
 || `GRANT` | Adds a trusted node to all possible trust paths.
 ||          | This is the default, if not specified.
 || `REVOKE` | Blocks the domain/role, even if there' a GRANT.
-|| `INHERIT` | Inherits all revokes from a [Firewall 🔥 domain](<../../../45 🤲 Helper domains/40 🔥 Firewalls/🔥🤲 Firewall helper.md>).
+|| `INHERIT` | Inherits all revokes from a [Firewall 🔥 domain](<../../../45 🤲 Helper domains/Firewalls 🔥/🔥🤲 Firewall helper.md>).
 |
   
 * Note: When a [Schema Code 🧩](<../../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) is removed from [`.MANIFEST/TRUSTS`](<🧩 TRUST.md>), 
     * domains should explicitly inform the `REVOKE`;
-    * otherwise, it might not be propagated by [Graph 🕸 domains](<../../../45 🤲 Helper domains/50 🕸 Graphs/🕸🤲 Graph helper.md>).
+    * otherwise, it might not be propagated by [Graph 🕸 domains](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>).
 
 
 <br/>
 
 ## Defaults
 
-* Inherit from [Firewall 🔥 domains](<../../../45 🤲 Helper domains/40 🔥 Firewalls/🔥🤲 Firewall helper.md>) the revokes to malicious domains. 
+* Inherit from [Firewall 🔥 domains](<../../../45 🤲 Helper domains/Firewalls 🔥/🔥🤲 Firewall helper.md>) the revokes to malicious domains. 
   ```yaml
   # Protection from malicious domains. 
   - Action: INHERIT
     Domain: any-firewall.org
   ```
 
-* Trust [Helper 🤲 domains](<../../../45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>) certified by NLWeb.
+* Trust [Helper 🤲 domains](<../../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>) certified by NLWeb.
   ```yaml
   # Certified Helpers
   - Action: GRANT

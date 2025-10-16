@@ -26,6 +26,6 @@ To start the check-in over a chat, users can:
 | 🆔 [Identity](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/45 🆔 Identities/21 🆔😶 Face scan.md>)
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Save boarding passes? [Yes, No] | > Yes
 | 🛩️ Airline    | ✅ You're checked-in.
-| [👀 Ads](<../../../../4 ⚙️ Solution/45 🤲 Helper domains/12 👀 Advertisers/👀🤲 Advertiser helper.md>) | 🫥 Explore follow-up actions? [No] <br/>- [ 🏨 Book a hotel ] <br/>- [ 🚙 Rent a car ] | > No
+| [👀 Ads](<../../../../4 ⚙️ Solution/45 🤲 Helper domains/Advertisers 👀/👀🤲 Advertiser helper.md>) | 🫥 Explore follow-up actions? [No] <br/>- [ 🏨 Book a hotel ] <br/>- [ 🚙 Rent a car ] | > No
 ||
 
