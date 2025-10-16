@@ -1,6 +1,6 @@
 # 🎴⏩🧑‍🦰 Revise Token @ Issuer
 
-> An [Issuer 🎴 domain](<../🎴🎭 Issuer role.md>) revises the status of a [Token 🎫](<../../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>). 
+> An [Issuer 🎴 domain](<../🎴🎭 Issuer role.md>) revises the status of a [Token 🎫](<../../../30 Data/30 🎫 Tokens/🎫 Token.md>). 
 
 <br/>
 
@@ -10,7 +10,7 @@ Consider the following Chat excerpt from the [Pass gates at train station 🤝 u
 
 | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 | - | - | - |
-| | | 🔆 [tap](<../../../30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>)
+| | | 🔆 [tap](<../../../30 Data/15 🔆 Locators/$ 🔆 Locator.md>)
 | 🤵 [Broker](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) | ⓘ Ticket shared 
 | 🚂 Railway | ✅ Entry gate opened!
 | 🤵 [Broker](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) | ⓘ Ticket voided 
@@ -24,7 +24,7 @@ Consider the following Chat excerpt from the [Pass gates at train station 🤝 u
 
 | # | Call | Notes
 |-|-|-
-1| [🎴🐌🤵 `Revise@Broker`](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/50 🤵🅰️ Tokens 🎫/🎴🐌🤵 Revise.md>) | [Issuers 🎴](<../🎴🎭 Issuer role.md>) ask to revise a [Token 🎫](<../../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>)
+1| [🎴🐌🤵 `Revise@Broker`](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/50 🤵🅰️ Tokens 🎫/🎴🐌🤵 Revise.md>) | [Issuers 🎴](<../🎴🎭 Issuer role.md>) ask to revise a [Token 🎫](<../../../30 Data/30 🎫 Tokens/🎫 Token.md>)
 2| [🤵⏩🧑‍🦰 Update Tokens 🎫](<../../../../5 ⏩ Flows/10 🤵⏩ Brokers/08 🤵⏩🧑‍🦰 Update Tokens 🎫.md>) | [Brokers 🤵](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) tell [Wallets 🧑‍🦰](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) to update the list
 3| [🤗⏩🧑‍🦰 Prompt 🤔](<../../30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) tell users about what happened
 |

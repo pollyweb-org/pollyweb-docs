@@ -6,7 +6,7 @@ Onboarding
 
 1. **What does a user need to engage in an NLWeb chat?**
 
-    To engage in a NLWeb [Chat 💬](<../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>), a user needs an NLWeb-compatible [Wallet 🧑‍🦰 app](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
+    To engage in a NLWeb [Chat 💬](<../35 Chats/12 💬 Chats/$ 💬 Chat.md>), a user needs an NLWeb-compatible [Wallet 🧑‍🦰 app](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
     - This is any app that supports the NLWeb protocol, from any vendor.
     - The user experience is similar to Meta's [WhatsApp 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/06 📺 WhatsApp business.md>). 
 
@@ -17,7 +17,7 @@ Onboarding
     1. Install an NLWeb [Wallet 🧑‍🦰](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) from an app store;
     1. Fill out the [Persona 🧢 agent](<../50 🫥 Agent domains/70 🧢 Personas/🧢🫥 Persona agent.md>) agent with standard data sets;
     1. Add payment methods to the [Payer 💳 agent](<../50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>) agent;
-    1. Start touching/scanning NFC/QR [Locators 🔆](<../30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>).
+    1. Start touching/scanning NFC/QR [Locators 🔆](<../30 Data/15 🔆 Locators/$ 🔆 Locator.md>).
 
     ---
 
@@ -35,8 +35,8 @@ Onboarding
     2. Integrate the [Collector 🏦](<../45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>) with the organization's bank and ERP;
     3. Configure [Host 🤗](<../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) workflows integrated with the organization's IT;
     4. Publish a [Manifest 📜](<../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) with [Trusts 👍](<../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) to required domains;
-    5. Order a batch of physical [NFC/QR locators 🔆](<../30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>) from a [Printer 🖨️](<../45 🤲 Helper domains/75 🖨️ Printers/🖨️🤲 Printer helper.md>);
-    6. Deploy [NFC/QR locators 🔆](<../30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>) (e.g., web, app, stores, products).
+    5. Order a batch of physical [NFC/QR locators 🔆](<../30 Data/15 🔆 Locators/$ 🔆 Locator.md>) from a [Printer 🖨️](<../45 🤲 Helper domains/75 🖨️ Printers/🖨️🤲 Printer helper.md>);
+    6. Deploy [NFC/QR locators 🔆](<../30 Data/15 🔆 Locators/$ 🔆 Locator.md>) (e.g., web, app, stores, products).
 
     ---
 

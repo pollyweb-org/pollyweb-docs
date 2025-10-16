@@ -40,7 +40,7 @@ $ syncer sync
 
 | # | Call | Notes
 |-|-|-
-|1|[🤗⏩🧑‍🦰 Prompt 🤔](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | Users [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with  [bound 🔗](<../../4 ⚙️ Solution/30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) [Resourcers 🗃️](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🎭 Resourcer role.md>)
+|1|[🤗⏩🧑‍🦰 Prompt 🤔](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | Users [Chat 💬](<../../4 ⚙️ Solution/35 Chats/12 💬 Chats/$ 💬 Chat.md>) with  [bound 🔗](<../../4 ⚙️ Solution/30 Data/20 🔗 Binds/🔗 Bind.md>) [Resourcers 🗃️](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🎭 Resourcer role.md>)
 |2|[🤗⏩🧑‍🦰 Prompt 🤔](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | Users ask to clone → [Resourcers 🗃️](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🎭 Resourcer role.md>) return 🄰
 |3|[🔃🚀🗃️ `Clone@Resourcer`](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🅰️ Resourcer methods/🔃🚀🗃️ Clone.md>) | Users run [Syncer](<../../9 😃 Talkers/90 ☁️ Hosters/01 🔃🛠️ Syncer tool.md>) with 🄰 → they display  🄱
 |4|[🤗⏩🧑‍🦰 Prompt 🤔](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Resourcers 🗃️](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🎭 Resourcer role.md>) ask users to confirm 🄱

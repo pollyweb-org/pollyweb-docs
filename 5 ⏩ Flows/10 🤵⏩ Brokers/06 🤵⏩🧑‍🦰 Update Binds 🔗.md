@@ -1,10 +1,10 @@
 # 🤵⏩🗄️ Update binds @ Broker
 
-> Updates the list of [Binds 🔗](<../../4 ⚙️ Solution/30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) on the Wallet app.
+> Updates the list of [Binds 🔗](<../../4 ⚙️ Solution/30 Data/20 🔗 Binds/🔗 Bind.md>) on the Wallet app.
 
 > Used in:
-> <br/>• [🤵⏩🗄️ Bind vault @ Broker](<05 🤵⏩🗄️ Bind vault.md>) to add a [Bind 🔗](<../../4 ⚙️ Solution/30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) to the list
-> <br>•  [🧑‍🦰👉🗄️ Unbind @ Wallet](<../90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/03 🧑‍🦰👉🗄️ Unbind.md>) to remove a [Bind 🔗](<../../4 ⚙️ Solution/30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) from the list
+> <br/>• [🤵⏩🗄️ Bind vault @ Broker](<05 🤵⏩🗄️ Bind vault.md>) to add a [Bind 🔗](<../../4 ⚙️ Solution/30 Data/20 🔗 Binds/🔗 Bind.md>) to the list
+> <br>•  [🧑‍🦰👉🗄️ Unbind @ Wallet](<../90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/03 🧑‍🦰👉🗄️ Unbind.md>) to remove a [Bind 🔗](<../../4 ⚙️ Solution/30 Data/20 🔗 Binds/🔗 Bind.md>) from the list
 
 <br/>
 
@@ -19,5 +19,5 @@
 | # | Call | Notes |
 |-|-|-
 | 1 | [🤵🐌📣 `Updated@Notifier`](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/1 🤵 Onboard/3 🤵🐌📣 Updated.md>)| The [Broker 🤵](<../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) tells the [Notifier 📣](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/📣 Notifier domain.md>) to update the [Wallet 🧑‍🦰](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
-| 2 | [🧑‍🦰🚀🤵 `Binds@Broker`](<../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/40 🤵🅰️ Binds 🔗/🧑‍🦰🚀🤵 Binds.md>) | The [Wallet 🧑‍🦰](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) gets the [Binds 🔗](<../../4 ⚙️ Solution/30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) from the [Broker 🤵](<../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>)
+| 2 | [🧑‍🦰🚀🤵 `Binds@Broker`](<../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/40 🤵🅰️ Binds 🔗/🧑‍🦰🚀🤵 Binds.md>) | The [Wallet 🧑‍🦰](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) gets the [Binds 🔗](<../../4 ⚙️ Solution/30 Data/20 🔗 Binds/🔗 Bind.md>) from the [Broker 🤵](<../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>)
 ||

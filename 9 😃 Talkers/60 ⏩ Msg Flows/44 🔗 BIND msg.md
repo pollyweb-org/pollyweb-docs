@@ -14,7 +14,7 @@
     <br/>
 
 
-1. **What does a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) look like for required binds?**
+1. **What does a [Chat 💬](<../../4 ⚙️ Solution/35 Chats/12 💬 Chats/$ 💬 Chat.md>) look like for required binds?**
 
     > It's an all-or-nothing, where `No` stops the flow.
 
@@ -29,7 +29,7 @@
 
 
 
-1. **What does a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) look like for optional binds?**
+1. **What does a [Chat 💬](<../../4 ⚙️ Solution/35 Chats/12 💬 Chats/$ 💬 Chat.md>) look like for optional binds?**
 
     > There are checkboxes for the user to select, and `No` continues.
 
@@ -54,7 +54,7 @@
 
     | Argument| Purpose 
     |-|-
-    | `<code>` | [Schema Code 🧩](<../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) from [`Bindable@Broker`](<../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/40 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>) 
+    | `<code>` | [Schema Code 🧩](<../../4 ⚙️ Solution/30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) from [`Bindable@Broker`](<../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/40 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>) 
 
     ```yaml
     # For a single optional code.
@@ -78,8 +78,8 @@
    
     | Argument| Purpose
     |-|-
-    | `<code-n>` | Array of [Schema Codes 🧩](<../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) sent on [`Bindable@Broker`](<../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/40 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)
-    | `$bound`  | Array of [Schema Codes 🧩](<../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) received on [`Bound@Vault`](<../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🅰️ Vault methods/🤵🐌🗄️ Bound.md>)
+    | `<code-n>` | Array of [Schema Codes 🧩](<../../4 ⚙️ Solution/30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) sent on [`Bindable@Broker`](<../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/40 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)
+    | `$bound`  | Array of [Schema Codes 🧩](<../../4 ⚙️ Solution/30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) received on [`Bound@Vault`](<../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🅰️ Vault methods/🤵🐌🗄️ Bound.md>)
 
 
    ```yaml
@@ -90,7 +90,7 @@
    
     | Argument| Purpose
     |-|-
-    | `{bindable}` | [{Function}](<../30 🗃️ Talker data/12 🐍 {Function}.md>) to get the [Codes 🧩](<../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) for [Bindable @ Broker](<../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/40 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>).
+    | `{bindable}` | [{Function}](<../30 🗃️ Talker data/12 🐍 {Function}.md>) to get the [Codes 🧩](<../../4 ⚙️ Solution/30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) for [Bindable @ Broker](<../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/40 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>).
 
 
     ---
@@ -98,7 +98,7 @@
 
 1. **What does the dot mean in a code?**
 
-    Given that the [Schema Codes 🧩](<../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) defined by `nlweb.org` will be widely used, 
+    Given that the [Schema Codes 🧩](<../../4 ⚙️ Solution/30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) defined by `nlweb.org` will be widely used, 
     * [Talkers 😃](<../10 📘 Talker specs/10 😃 Talker.md>) accept a dot as a prefix of `nlweb.org/`.
     * Consider the following equal examples.
 

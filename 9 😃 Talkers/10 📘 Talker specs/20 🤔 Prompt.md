@@ -1,14 +1,14 @@
 🤔 Prompt
 ===
 
-> Part of a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) 
+> Part of a [Chat 💬](<../../4 ⚙️ Solution/35 Chats/12 💬 Chats/$ 💬 Chat.md>) 
 
 <br/>
 
 1. **What is a Prompt?**
 
     A [Prompt 🤔](<20 🤔 Prompt.md>) 
-    * is a line in [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) 
+    * is a line in [Chat 💬](<../../4 ⚙️ Solution/35 Chats/12 💬 Chats/$ 💬 Chat.md>) 
     * with a question or information to the user
     * sent to a [Wallet 🧑‍🦰 app](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) 
     * by a [Host 🤗 domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) 
@@ -55,7 +55,7 @@
 
     Yes, but that rewinds the flow.
 
-    * [Chats 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) are designed to be forward-only workloads managed by a [Host 🤗 domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) (and not by the user). 
+    * [Chats 💬](<../../4 ⚙️ Solution/35 Chats/12 💬 Chats/$ 💬 Chat.md>) are designed to be forward-only workloads managed by a [Host 🤗 domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) (and not by the user). 
         * This behavior is similar to LLM apps like ChatGPT, Gemini, and others. 
         * Just like in ChatGPT, users to change answers to old [Prompts 🤔](<20 🤔 Prompt.md>).
         
@@ -64,11 +64,11 @@
         * then go back to B and change the history to A, B, X, Y, Z;
         * as long as there was no [Freeze ❄️](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Freeze ❄️.md>) between B and E.
     
-    * However, [Host 🤗 domains](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) can [Freeze ❄️](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Freeze ❄️.md>) a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) until a certain checkpoint.
+    * However, [Host 🤗 domains](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) can [Freeze ❄️](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Freeze ❄️.md>) a [Chat 💬](<../../4 ⚙️ Solution/35 Chats/12 💬 Chats/$ 💬 Chat.md>) until a certain checkpoint.
         * This blocks the user from changing any [Prompts 🤔](<20 🤔 Prompt.md>) up to that point.
         * [Hosts 🤗](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) to this when committing a transaction to a database with the inputs collected.
   
-    * ⚠️ Note: [`Options`](<../20 🤔 Prompts/1 📘 Prompt specs/04 🔘 with Options.md>) with a `§` open a new [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)  and are never frozen.
+    * ⚠️ Note: [`Options`](<../20 🤔 Prompts/1 📘 Prompt specs/04 🔘 with Options.md>) with a `§` open a new [Chat 💬](<../../4 ⚙️ Solution/35 Chats/12 💬 Chats/$ 💬 Chat.md>)  and are never frozen.
 
     ---
     <br/>

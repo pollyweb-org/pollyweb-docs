@@ -1,5 +1,5 @@
 
-# [🧩](<../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) [Schema Code](<../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>): DeployStack
+# [🧩](<../../4 ⚙️ Solution/30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) [Schema Code](<../../4 ⚙️ Solution/30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>): DeployStack
 
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE

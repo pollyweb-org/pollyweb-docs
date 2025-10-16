@@ -8,7 +8,7 @@
 
     The `🔆 Locators.yaml` file 
     * contains the mapping 
-    * of [Locator 🔆](<../../../4 ⚙️ Solution/30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>) resource keys
+    * of [Locator 🔆](<../../../4 ⚙️ Solution/30 Data/15 🔆 Locators/$ 🔆 Locator.md>) resource keys
     * to [Talker 😃 files](<😃📂 Talkers folder.md>)
     
     ---

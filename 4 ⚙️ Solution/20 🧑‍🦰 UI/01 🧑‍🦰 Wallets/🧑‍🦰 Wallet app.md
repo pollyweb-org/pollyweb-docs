@@ -17,12 +17,12 @@
     ![](<.📎 Assets/🧑‍🦰 Wallet App.png>)
 
     The following features are available in a [Wallet 🧑‍🦰 app](<🧑‍🦰 Wallet app.md>):
-    - 💬 [Chats](<../12 💬 Chats/$ 💬 Chat.md>): list, filter, search, view, and interact.
-    - 🔗 [Binds](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>): list, view, unbind, and chat with the bound [Vault 🗄️ domain](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>). 
-    - 🎫 [Tokens](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>): view, and chat with the [Issuer 🎴 domain](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>).
-    - ✨ [Scan](<../../30 🧩 Data/15 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) a QR [Locator 🔆](<../../30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>) to open a [Chat 💬](<../12 💬 Chats/$ 💬 Chat.md>).
-    - 🔆 [Tap](<../../30 🧩 Data/15 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) an NFC [Locator 🔆](<../../30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>) to open a [Chat 💬](<../12 💬 Chats/$ 💬 Chat.md>).
-    - 🌐 [Click](<../../30 🧩 Data/15 🔆 Locators/02 🧑‍🦰🌐 Wallet URLs.md>) on [Locator 🔆](<../../30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>) links in the device's web browser to open chats.
+    - 💬 [Chats](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>): list, filter, search, view, and interact.
+    - 🔗 [Binds](<../../30 Data/20 🔗 Binds/🔗 Bind.md>): list, view, unbind, and chat with the bound [Vault 🗄️ domain](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>). 
+    - 🎫 [Tokens](<../../30 Data/30 🎫 Tokens/🎫 Token.md>): view, and chat with the [Issuer 🎴 domain](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>).
+    - ✨ [Scan](<../../30 Data/15 🔆 Locators/03 🧑‍🦰✨ Wallet QR scan.md>) a QR [Locator 🔆](<../../30 Data/15 🔆 Locators/$ 🔆 Locator.md>) to open a [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>).
+    - 🔆 [Tap](<../../30 Data/15 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>) an NFC [Locator 🔆](<../../30 Data/15 🔆 Locators/$ 🔆 Locator.md>) to open a [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>).
+    - 🌐 [Click](<../../30 Data/15 🔆 Locators/02 🧑‍🦰🌐 Wallet URLs.md>) on [Locator 🔆](<../../30 Data/15 🔆 Locators/$ 🔆 Locator.md>) links in the device's web browser to open chats.
     - 🛜 [Wi-Fiers](<../../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>): tap/scan an NFC/QR of a Wi-Fier to enable Wi-Fi on a [Robot 🤖](<../../70 🌳 Ambient/72 🤖 Robots/$ 🤖💠 Robot thing.md>).
     - 🔒 [Padlocks](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>): tap/scan an NFC/QR of a Padlock to open it.
     
@@ -57,7 +57,7 @@
     The only data that [Wallet 🧑‍🦰 apps](<🧑‍🦰 Wallet app.md>) store locally is:
     - 🔏 The private half of the key pair;
     - 📣 The Wallet ID provided by the [Broker 🤵 domain](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) via the [Notifier 📣 domain](<../02 📣 Notifiers/📣 Notifier domain.md>);
-    - 🎫 Downloaded [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) from [Issuer 🎴 domains](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>).
+    - 🎫 Downloaded [Tokens 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>) from [Issuer 🎴 domains](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>).
 
     ---
     <br/>
@@ -73,7 +73,7 @@
 
 1. **How do users migrate a Wallet to another phone?**
 
-    To migrate a [Wallet 🧑‍🦰 app](<🧑‍🦰 Wallet app.md>) to another phone, a user first needs to bind an [Identity 🆔 agent domain](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) on the old phone, and then generate a migration QR [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>).
+    To migrate a [Wallet 🧑‍🦰 app](<🧑‍🦰 Wallet app.md>) to another phone, a user first needs to bind an [Identity 🆔 agent domain](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) on the old phone, and then generate a migration QR [Token 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>).
     
     * On the new phone, the user needs to install a [Wallet 🧑‍🦰 app](<🧑‍🦰 Wallet app.md>), then scan the migration QR of the old Wallet.
     * The [Broker 🤵 domain](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) will invoke the [Identity 🆔 domain](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) on the new phone to perform an identity authentication (e.g., face scan), and then will automatically decommission the old Wallet.
@@ -138,19 +138,19 @@
     |-|-|-
     | 🤵 Set up | [👉 Onboard](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/11 🧑‍🦰👉🤵 Onboard.md>)  | Register the [Wallet 🧑‍🦰](<🧑‍🦰 Wallet app.md>) on a [Broker 🤵](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>)
     | | [👉 Translate](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/12 🧑‍🦰👉🤵 Translate.md>)  | Change the language of the [Wallet 🧑‍🦰](<🧑‍🦰 Wallet app.md>)
-    | 🔆 Locators |[👉 Host QR](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>)  | Scan a [Host 🤗 NFC/QR](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>)   to open a [Chat 💬](<../12 💬 Chats/$ 💬 Chat.md>)
-    ||[👉 Printer QR](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/02 🧑‍🦰👉🤗 Scan printer QR.md>)  | Scan a [Printer 🖨️ NFC/QR](<../../45 🤲 Helper domains/75 🖨️ Printers/🖨️🤲 Printer helper.md>) to open a [Chat 💬](<../12 💬 Chats/$ 💬 Chat.md>)
-    |💬 Chats|[👉 Chats](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/01 🧑‍🦰👉🤵 List chats.md>) | List the user's [Chats 💬](<../12 💬 Chats/$ 💬 Chat.md>) 
-    ||[👉 Home](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/02 🧑‍🦰👉🤵 Host home.md>) | Show the [Host's 🤗 ](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) menu in a [Chat 💬](<../12 💬 Chats/$ 💬 Chat.md>)
-    ||[👉 Abandon](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>) | Unilaterally abandon a [Chat 💬](<../12 💬 Chats/$ 💬 Chat.md>)
-    | 🔗 Binds | [👉 Binds ](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/01 🧑‍🦰👉🤵 List binds.md>) | List the user's [Binds 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>)
-    || [👉 Bind](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind 🔗.md>) | [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) the [Wallet 🧑‍🦰](<🧑‍🦰 Wallet app.md>) to a [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>)
-    || [👉 Unbind](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/03 🧑‍🦰👉🗄️ Unbind.md>) | Remove a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) from a [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>)
-    ||[👉 Share](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>) | Shares a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) with a [Consumer 💼](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>)
-    |🎫 Tokens| [👉 Tokens](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/01 🧑‍🦰👉🤵 List tokens.md>)| List the user's [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>)
-    || [👉 Save](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/02 🧑‍🦰👉🎴 Save token.md>) | Save a [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) in the [Wallet 🧑‍🦰](<🧑‍🦰 Wallet app.md>)
-    || [👉 Remove](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/03 🧑‍🦰👉🤵 Remove token.md>) | Remove a [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) from the [Wallet 🧑‍🦰](<🧑‍🦰 Wallet app.md>)
-    || [👉 Share](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token 🎫.md>) | Share a [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) with a [Consumer 💼](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>)
+    | 🔆 Locators |[👉 Host QR](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>)  | Scan a [Host 🤗 NFC/QR](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>)   to open a [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>)
+    ||[👉 Printer QR](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/02 🧑‍🦰👉🤗 Scan printer QR.md>)  | Scan a [Printer 🖨️ NFC/QR](<../../45 🤲 Helper domains/75 🖨️ Printers/🖨️🤲 Printer helper.md>) to open a [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>)
+    |💬 Chats|[👉 Chats](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/01 🧑‍🦰👉🤵 List chats.md>) | List the user's [Chats 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) 
+    ||[👉 Home](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/02 🧑‍🦰👉🤵 Host home.md>) | Show the [Host's 🤗 ](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) menu in a [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>)
+    ||[👉 Abandon](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>) | Unilaterally abandon a [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>)
+    | 🔗 Binds | [👉 Binds ](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/01 🧑‍🦰👉🤵 List binds.md>) | List the user's [Binds 🔗](<../../30 Data/20 🔗 Binds/🔗 Bind.md>)
+    || [👉 Bind](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind 🔗.md>) | [Bind 🔗](<../../30 Data/20 🔗 Binds/🔗 Bind.md>) the [Wallet 🧑‍🦰](<🧑‍🦰 Wallet app.md>) to a [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>)
+    || [👉 Unbind](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/03 🧑‍🦰👉🗄️ Unbind.md>) | Remove a [Bind 🔗](<../../30 Data/20 🔗 Binds/🔗 Bind.md>) from a [Vault 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>)
+    ||[👉 Share](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>) | Shares a [Bind 🔗](<../../30 Data/20 🔗 Binds/🔗 Bind.md>) with a [Consumer 💼](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>)
+    |🎫 Tokens| [👉 Tokens](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/01 🧑‍🦰👉🤵 List tokens.md>)| List the user's [Tokens 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>)
+    || [👉 Save](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/02 🧑‍🦰👉🎴 Save token.md>) | Save a [Token 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>) in the [Wallet 🧑‍🦰](<🧑‍🦰 Wallet app.md>)
+    || [👉 Remove](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/03 🧑‍🦰👉🤵 Remove token.md>) | Remove a [Token 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>) from the [Wallet 🧑‍🦰](<🧑‍🦰 Wallet app.md>)
+    || [👉 Share](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token 🎫.md>) | Share a [Token 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>) with a [Consumer 💼](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>)
     || [👉 Verify ID](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/05 🧑‍🦰👉💼 Share Token+ID.md>) | Share and [verify the user Identity 🆔](<../../50 🫥 Agent domains/45 🆔 Identities/14 🆔🎫 Verify Tokens.md>)
 
     ---

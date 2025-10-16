@@ -23,7 +23,7 @@
     
         * e.g., [`INFO`](<../4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>), [`TEMP`](<../4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>), [`SUCCESS`](<../4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>), and [`FAILURE`](<../4 ⚠️ Status prompts/24 ❌ FAILURE prompt.md>).
   
-        * [Host 🤗 domains](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) speed-up [Chats 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) by taking unilateral two-way-door decisions that can be reverted by users even after other [Prompts 🤔](<../../10 📘 Talker specs/20 🤔 Prompt.md>) have been sent.
+        * [Host 🤗 domains](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) speed-up [Chats 💬](<../../../4 ⚙️ Solution/35 Chats/12 💬 Chats/$ 💬 Chat.md>) by taking unilateral two-way-door decisions that can be reverted by users even after other [Prompts 🤔](<../../10 📘 Talker specs/20 🤔 Prompt.md>) have been sent.
 
         * For example, [Host 🤗 domains](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) may assign default values to options to speed up the process (e.g., [navigation options 🤝](<../../../3 🤝 Use Cases/03 🧳 Travel/01 🧳 Plans trips 🧭/02 🧭 Return @ Destination.md>)), while still allowing users to go back and change those default options.
 
@@ -35,10 +35,10 @@
 
     No. 
     * [`Options`](<04 🔘 with Options.md>) with a `§` sign 
-        * open a new [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
+        * open a new [Chat 💬](<../../../4 ⚙️ Solution/35 Chats/12 💬 Chats/$ 💬 Chat.md>)
         * even after a [Freeze ❄️](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Freeze ❄️.md>) command.
     * All others [`Options`](<04 🔘 with Options.md>)
-        * continue the [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
+        * continue the [Chat 💬](<../../../4 ⚙️ Solution/35 Chats/12 💬 Chats/$ 💬 Chat.md>)
         * and are disabled with a [Freeze ❄️](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Freeze ❄️.md>) command.
     
     ---
@@ -110,7 +110,7 @@
     |-|-|-
     | `<option-n>` | Also allows option interpolation |`- Item {$id}`
     || and uses `[]` to set Option IDs | `[Close] chat`
-    || and uses `§` for [Locators 🔆](<../../../4 ⚙️ Solution/30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>). | `Open § {$url}`
+    || and uses `§` for [Locators 🔆](<../../../4 ⚙️ Solution/30 Data/15 🔆 Locators/$ 🔆 Locator.md>). | `Open § {$url}`
 
 
     ```yaml
@@ -132,7 +132,7 @@
 
 
 
-1. **What's an example in a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)?**
+1. **What's an example in a [Chat 💬](<../../../4 ⚙️ Solution/35 Chats/12 💬 Chats/$ 💬 Chat.md>)?**
 
     > Note: [non-blocking status prompts ⚠️](<08 ⚠️ as Status.md>) behave slightly differently.
 
@@ -193,7 +193,7 @@
 
 
 
-1. **What's a Locator example in a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)?**
+1. **What's a Locator example in a [Chat 💬](<../../../4 ⚙️ Solution/35 Chats/12 💬 Chats/$ 💬 Chat.md>)?**
 
     | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
@@ -206,8 +206,8 @@
     |
 
     The option with `§` 
-    * opens a new [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)
-    * using the [Locator 🔆](<../../../4 ⚙️ Solution/30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>) `any-artist.com/FANS`
+    * opens a new [Chat 💬](<../../../4 ⚙️ Solution/35 Chats/12 💬 Chats/$ 💬 Chat.md>)
+    * using the [Locator 🔆](<../../../4 ⚙️ Solution/30 Data/15 🔆 Locators/$ 🔆 Locator.md>) `any-artist.com/FANS`
 
     <br/>
 

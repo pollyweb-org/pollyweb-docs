@@ -31,7 +31,7 @@
     ---
     <br/>
 
-1. **What's an example of a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)?**
+1. **What's an example of a [Chat 💬](<../../../4 ⚙️ Solution/35 Chats/12 💬 Chats/$ 💬 Chat.md>)?**
 
 
     Here's the [Talker 😃](<../../10 📘 Talker specs/10 😃 Talker.md>).
@@ -54,9 +54,9 @@
     <br/>
 
 
-1. **How to provide default time options in a [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>)?**
+1. **How to provide default time options in a [Chat 💬](<../../../4 ⚙️ Solution/35 Chats/12 💬 Chats/$ 💬 Chat.md>)?**
 
-    Mix with [ONE 1️⃣ prompts](<53 1️⃣ ONE prompt.md>), like in the following [Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>).
+    Mix with [ONE 1️⃣ prompts](<53 1️⃣ ONE prompt.md>), like in the following [Chat 💬](<../../../4 ⚙️ Solution/35 Chats/12 💬 Chats/$ 💬 Chat.md>).
 
     | Domain | [Prompt 🤔](<../../10 📘 Talker specs/20 🤔 Prompt.md>) | User
     | - | - | - |

@@ -22,10 +22,10 @@
 
     |Category|Step
     |-|-
-    | `Orchestrate` | A [Brand 🍏 domains](<$ 🍏🎭 Brand role.md>) ask a [Wand 🪄 helper domain](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>) to create a digital [Locator 🔆](<../../30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>) for the embedded [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) of their physical product (i.e., a [Thing 💠 extension](<../../70 🌳 Ambient/71 💠 Things/$ 💠 Thing.md>)).
-    | `Supply` | The [Brand 🍏 domain](<$ 🍏🎭 Brand role.md>) then asks a [Printer 🖨️ helper domain](<../../45 🤲 Helper domains/75 🖨️ Printers/🖨️🤲 Printer helper.md>) to print that [Locator 🔆](<../../30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>) into physical NFQ/QR tag (i.e., a [Thing 💠 tag](<../../70 🌳 Ambient/71 💠 Things/$ 💠 Thing.md>)).
+    | `Orchestrate` | A [Brand 🍏 domains](<$ 🍏🎭 Brand role.md>) ask a [Wand 🪄 helper domain](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>) to create a digital [Locator 🔆](<../../30 Data/15 🔆 Locators/$ 🔆 Locator.md>) for the embedded [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) of their physical product (i.e., a [Thing 💠 extension](<../../70 🌳 Ambient/71 💠 Things/$ 💠 Thing.md>)).
+    | `Supply` | The [Brand 🍏 domain](<$ 🍏🎭 Brand role.md>) then asks a [Printer 🖨️ helper domain](<../../45 🤲 Helper domains/75 🖨️ Printers/🖨️🤲 Printer helper.md>) to print that [Locator 🔆](<../../30 Data/15 🔆 Locators/$ 🔆 Locator.md>) into physical NFQ/QR tag (i.e., a [Thing 💠 tag](<../../70 🌳 Ambient/71 💠 Things/$ 💠 Thing.md>)).
     | `Assembly` | The [Brand 🍏 domain](<$ 🍏🎭 Brand role.md>) then bundles the product with the tag, and sells it.
-    | `Tap/Scan`| Users then pick up the product (e.g., a shirt in a fashion store) and tap/scan the [Locator 🔆](<../../30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>) to initiate a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with the [Wand 🪄 domain](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>).
+    | `Tap/Scan`| Users then pick up the product (e.g., a shirt in a fashion store) and tap/scan the [Locator 🔆](<../../30 Data/15 🔆 Locators/$ 🔆 Locator.md>) to initiate a [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) with the [Wand 🪄 domain](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>).
     
 
     ---
@@ -34,8 +34,8 @@
 
     | [Helper 🤲](<../../45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>) | Reason
     |-|-
-    | [Printer 🖨️](<../../45 🤲 Helper domains/75 🖨️ Printers/🖨️🤲 Printer helper.md>) | To print the [NFC/QR Locators 🔆](<../../30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>) for the Brand's [Things 💠](<../../70 🌳 Ambient/71 💠 Things/$ 💠 Thing.md>).
-    | [Wand 🪄](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>) | To order and manage the lifecycle of [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) for the Brand's [Things 💠](<../../70 🌳 Ambient/71 💠 Things/$ 💠 Thing.md>).
+    | [Printer 🖨️](<../../45 🤲 Helper domains/75 🖨️ Printers/🖨️🤲 Printer helper.md>) | To print the [NFC/QR Locators 🔆](<../../30 Data/15 🔆 Locators/$ 🔆 Locator.md>) for the Brand's [Things 💠](<../../70 🌳 Ambient/71 💠 Things/$ 💠 Thing.md>).
+    | [Wand 🪄](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>) | To order and manage the lifecycle of [Chats 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) for the Brand's [Things 💠](<../../70 🌳 Ambient/71 💠 Things/$ 💠 Thing.md>).
     | [Payer 💳](<../../45 🤲 Helper domains/70 💳 Payers/💳🤲 Payer helper.md>) | To pay for the services of the other [Helper 🤲 domains](<../../45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>).
     | [Buffer ⏳](<../../45 🤲 Helper domains/27 ⏳ Buffers/⏳🤲 Buffer helper.md>) | To receive order updates from the [Wand 🪄](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>) and the [Printer 🖨️](<../../45 🤲 Helper domains/75 🖨️ Printers/🖨️🤲 Printer helper.md>) domains.
 
@@ -48,7 +48,7 @@
     | Property | Purpose
     |-|-
     | `Message` | The landing message for guest users.
-    | `Knowledge` | Body of knowledge for [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) interactions with guest users - e.g., instruction manuals and frequently asked questions;
+    | `Knowledge` | Body of knowledge for [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) interactions with guest users - e.g., instruction manuals and frequently asked questions;
     | `Contacts` | Additional contact details for support.
 
     ---
@@ -56,8 +56,8 @@
 1. **How can Brands print NFC/QR tags for their Things?**
 
     Brands 🍏 can either:
-    * print the [Locators 🔆](<../../30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>) of the [Wand 🪄 helper domains](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>) by themselves, 
-    * or they can order [Locators 🔆](<../../30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>) from [Printer 🖨️ helper domains](<../../45 🤲 Helper domains/75 🖨️ Printers/🖨️🤲 Printer helper.md>).
+    * print the [Locators 🔆](<../../30 Data/15 🔆 Locators/$ 🔆 Locator.md>) of the [Wand 🪄 helper domains](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>) by themselves, 
+    * or they can order [Locators 🔆](<../../30 Data/15 🔆 Locators/$ 🔆 Locator.md>) from [Printer 🖨️ helper domains](<../../45 🤲 Helper domains/75 🖨️ Printers/🖨️🤲 Printer helper.md>).
 
     ---
 

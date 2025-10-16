@@ -27,7 +27,7 @@
     ||[`Upload`](<🗃️🅰️ Resourcer methods/🔃🚀🗃️ Upload.md>) | Then upload each file individually
     ||[`Uploaded`](<🗃️🅰️ Resourcer methods/🔃🚀🗃️ Uploaded.md>) | [Resourcers 🗃️](<🗃️🎭 Resourcer role.md>) calculate changes
     ||[`Download`](<🗃️🅰️ Resourcer methods/🔃🚀🗃️ Download.md>) | [Syncers](<../../../9 😃 Talkers/90 ☁️ Hosters/01 🔃🛠️ Syncer tool.md>) execute the changes
-    |[⏩ Chat](<🗃️🅰️ Resourcer methods/🔃🐌🗃️ Chat.md>)|[`Chat`](<🗃️🅰️ Resourcer methods/🔃🐌🗃️ Chat.md>) | Opens a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with a [Resourcer 🗃️](<🗃️🎭 Resourcer role.md>)
+    |[⏩ Chat](<🗃️🅰️ Resourcer methods/🔃🐌🗃️ Chat.md>)|[`Chat`](<🗃️🅰️ Resourcer methods/🔃🐌🗃️ Chat.md>) | Opens a [Chat 💬](<../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) with a [Resourcer 🗃️](<🗃️🎭 Resourcer role.md>)
     
 
     ---

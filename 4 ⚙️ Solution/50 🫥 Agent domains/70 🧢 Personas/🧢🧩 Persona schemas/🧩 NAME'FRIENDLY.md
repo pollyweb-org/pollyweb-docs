@@ -1,5 +1,5 @@
 
-# [🧩](<../../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) [Schema Code](<../../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>): PersonaNameFriendly
+# [🧩](<../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) [Schema Code](<../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>): PersonaNameFriendly
 
 <br/>
 

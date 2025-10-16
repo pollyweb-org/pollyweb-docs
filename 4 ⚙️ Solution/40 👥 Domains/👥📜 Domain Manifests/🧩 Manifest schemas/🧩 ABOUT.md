@@ -1,4 +1,4 @@
-# [🧩](<../../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) [`.MANIFEST`](<🧩 MANIFEST.md>) `/ABOUT`
+# [🧩](<../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) [`.MANIFEST`](<🧩 MANIFEST.md>) `/ABOUT`
 
 > Part of [`.MANIFEST` 🧩](<🧩 MANIFEST.md>)
 

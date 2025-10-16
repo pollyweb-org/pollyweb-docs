@@ -8,7 +8,7 @@
 
     A `SHARE`
     * is a message [Command ⌘](<../40 🌊 Talker flows/10 ⌘ Command.md>) 
-    * that asks for user data in [Schema Codes 🧩](<../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>)
+    * that asks for user data in [Schema Codes 🧩](<../../4 ⚙️ Solution/30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>)
     * triggering the following flows:
       * [🧑‍🦰👉💼 Share Bind @ Wallet](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>)
       * [🧑‍🦰👉💼 Share Token @ Wallet](<../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token 🎫.md>)
@@ -41,7 +41,7 @@
    
     | Argument| Purpose
     |-|-
-    | `<code-n>`  | [Schema Codes 🧩](<../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) for [`Query@Broker`](<../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/60 🤵🅰️ Share/💼🐌🤵 Query.md>) <br/>For readability, a dot replaces `nlweb.org/`
+    | `<code-n>`  | [Schema Codes 🧩](<../../4 ⚙️ Solution/30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) for [`Query@Broker`](<../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/60 🤵🅰️ Share/💼🐌🤵 Query.md>) <br/>For readability, a dot replaces `nlweb.org/`
     | `{context}`| Object with context, when applicable.
     | `$shared`| An object returned by [`Collect@Vault`](<../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🅰️ Vault methods/💼🚀🗄️ Collect.md>).<br/> Or a Token list from [`Receive@Consumer`](<../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/💼🅰️ Consumer methods/🧑‍🦰🐌💼 Receive.md>).
 
@@ -51,7 +51,7 @@
 
 1. **What does the dot mean in a code?**
 
-    Given that the [Schema Codes 🧩](<../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) defined by `nlweb.org` will be widely used, 
+    Given that the [Schema Codes 🧩](<../../4 ⚙️ Solution/30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) defined by `nlweb.org` will be widely used, 
     * [Talkers 😃](<../10 📘 Talker specs/10 😃 Talker.md>) accept a dot as a prefix of `nlweb.org/`.
     * Consider the following equal examples.
 
@@ -63,7 +63,7 @@
     ---
     <br/>
 
-1. **What does a [Chat 💬](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) look like?**
+1. **What does a [Chat 💬](<../../4 ⚙️ Solution/35 Chats/12 💬 Chats/$ 💬 Chat.md>) look like?**
 
     | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
@@ -88,7 +88,7 @@
 
     The structure of the shared data is as follows.
    
-    | Data | [Schema Code 🧩](<../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>)
+    | Data | [Schema Code 🧩](<../../4 ⚙️ Solution/30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>)
     |-|-
     | Social Name |  [`nlweb.org/PERSONA/NAME/SOCIAL` 🧩](<../../4 ⚙️ Solution/50 🫥 Agent domains/70 🧢 Personas/🧢🧩 Persona schemas/🧩 NAME'SOCIAL.md>)
    
