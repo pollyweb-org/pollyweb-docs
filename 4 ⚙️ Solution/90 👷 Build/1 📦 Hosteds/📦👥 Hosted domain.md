@@ -12,9 +12,9 @@
     |#|Step
     |-|-
     |1| [Bind 🔗](<../../30 Data/2 🔗 Binds/🔗 Bind.md>) to a [Hoster ☁️ domain](<../../45 🤲 Helper domains/55 ☁️ Hosters/☁️🤲 Hoster helper.md>)
-    |2| [Clone](<../🛠️ Syncers/🔃⏩ Syncer flows/10 🔃⏩🗃️ Clone.md>) the files to a local folder
+    |2| [Clone](<../2 🛠️ Syncers/🔃⏩ Syncer flows/10 🔃⏩🗃️ Clone.md>) the files to a local folder
     |3| Spin up an HTTP backend endpoint
-    |4| Edit the files and [sync](<../🛠️ Syncers/🔃⏩ Syncer flows/20 🔃⏩🗃️ Sync.md>) the changes
+    |4| Edit the files and [sync](<../2 🛠️ Syncers/🔃⏩ Syncer flows/20 🔃⏩🗃️ Sync.md>) the changes
     
 
     ---
@@ -30,10 +30,10 @@
     | [📥 Inbound](<📦📄 Hosted files/📥📄 Inbound file.md>) | YAML | Message inbound configuration
     | [📤 Outbound](<📦📄 Hosted files/📤📄 Outbound file.md>) | YAML | Message outbound configuration
     | [🤲 Helpers](<📦📄 Hosted files/🤲📄 Helpers file.md>)  | YAML | Required [Helper 🤲 domains](<../../45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>)
-    | 🔆 [Locators](<📦📄 Hosted files/🔆📄 Locators file.md>) | YAML | Map of [Locators 🔆](<../../25 Locators/1 🔆 Locators/🔆 Locator.md>) to [Talkers 😃](<../😃 Talkers/😃 Talker.md>)
-    | 😃 [Talkers](<📦📄 Hosted files/😃📂 Talkers folder.md>) | Folder | List of [Talker 😃](<../😃 Talkers/😃 Talker.md>) scripts 
+    | 🔆 [Locators](<📦📄 Hosted files/🔆📄 Locators file.md>) | YAML | Map of [Locators 🔆](<../../25 Locators/1 🔆 Locators/🔆 Locator.md>) to [Talkers 😃](<../3 😃 Talkers/😃 Talker.md>)
+    | 😃 [Talkers](<📦📄 Hosted files/😃📂 Talkers folder.md>) | Folder | List of [Talker 😃](<../3 😃 Talkers/😃 Talker.md>) scripts 
     | [📜 Manifest](<📦📄 Hosted files/📜📂 Manifest folder.md>) | Folder | Public [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) parts
-    | [🪣 Pools](<📦📄 Hosted files/🪣📄 Pools file.md>) | YAML | Resource index for [Talker `MAP`](<../😃 Talkers/😃💾 Talker data/61 🪣 MAP item.md>)
+    | [🪣 Pools](<📦📄 Hosted files/🪣📄 Pools file.md>) | YAML | Resource index for [Talker `MAP`](<../3 😃 Talkers/😃💾 Talker data/61 🪣 MAP item.md>)
     | [🗃️ Resources](<📦📄 Hosted files/🗃️📂 Resources folder.md>) | Folder | Resource folder for [🪣 Pools](<📦📄 Hosted files/🪣📄 Pools file.md>)
     
 
@@ -48,7 +48,7 @@
    
     | Method | Purpose
     |-|-
-    [😃🐌 Handle](<📦🅰️ Hosted methods/😃🐌📦 Handle.md>) | Evaluates [{Functions}](<../😃 Talkers/😃💾 Talker data/12 🐍 {Function}.md>) in [Talkers 😃](<../😃 Talkers/😃 Talker.md>)
+    [😃🐌 Handle](<📦🅰️ Hosted methods/😃🐌📦 Handle.md>) | Evaluates [{Functions}](<../3 😃 Talkers/😃💾 Talker data/12 🐍 {Function}.md>) in [Talkers 😃](<../3 😃 Talkers/😃 Talker.md>)
     
     ---
     <br/>

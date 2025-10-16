@@ -45,7 +45,7 @@
     <br/>
 
 
-1. **What's the format for a [Talker 😃](<../../../90 👷 Build/😃 Talkers/😃 Talker.md>)?**
+1. **What's the format for a [Talker 😃](<../../../90 👷 Build/3 😃 Talkers/😃 Talker.md>)?**
 
     ```yaml
     # Inline
@@ -89,7 +89,7 @@
 
     <br/>
 
-    Here's the [Talker 😃](<../../../90 👷 Build/😃 Talkers/😃 Talker.md>).
+    Here's the [Talker 😃](<../../../90 👷 Build/3 😃 Talkers/😃 Talker.md>).
     
     ```yaml
     # Talker 😃

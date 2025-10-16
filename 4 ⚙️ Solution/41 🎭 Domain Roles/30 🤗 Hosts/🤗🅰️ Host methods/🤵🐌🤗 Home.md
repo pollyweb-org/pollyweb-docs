@@ -23,7 +23,7 @@ Consider the following [Chat 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>) 
 
 ## 😃 Talker 
 
-The associated [Talker 😃](<../../../90 👷 Build/😃 Talkers/😃 Talker.md>) would be the following.
+The associated [Talker 😃](<../../../90 👷 Build/3 😃 Talkers/😃 Talker.md>) would be the following.
 
 ```yaml
 💬 Something:

@@ -24,7 +24,7 @@
 
 
 
-1. **What's the format for a [Talker 😃](<../../../90 👷 Build/😃 Talkers/😃 Talker.md>)?**
+1. **What's the format for a [Talker 😃](<../../../90 👷 Build/3 😃 Talkers/😃 Talker.md>)?**
 
     ```yaml
     <PROMPT>|<statement>:
@@ -66,7 +66,7 @@
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ℹ️ Expandable info [-]<br/>&nbsp;&nbsp;&nbsp;1. Markdown bullet one  <br/>&nbsp;&nbsp;&nbsp;2. Markdown bullet two
     |
 
-    Here's the [Talker 😃](<../../../90 👷 Build/😃 Talkers/😃 Talker.md>).
+    Here's the [Talker 😃](<../../../90 👷 Build/3 😃 Talkers/😃 Talker.md>).
     
     ```yaml
     - INFO|Expandable info:
@@ -75,7 +75,7 @@
             1. Markdown bullet two
     ```
 
-    | [Command ⌘](<../../../90 👷 Build/😃 Talkers/😃⚙️ Talker cmds/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../../90 👷 Build/3 😃 Talkers/😃⚙️ Talker cmds/10 ⌘ Command.md>) | Purpose
     |-|-
     | ℹ️ [`INFO`](<../🤔📢 Prompt status/21 ℹ️ INFO prompt.md>) | To show the messages and details.
     

@@ -18,7 +18,7 @@
 
 1. **How to define a Resource Pool?**
 
-    Resource Pools are defined in four ways in the [🪣 Pools file](<../../📦 Hosteds/📦📄 Hosted files/🪣📄 Pools file.md>) of [Hoster ☁️ domains](<../../../45 🤲 Helper domains/55 ☁️ Hosters/☁️🤲 Hoster helper.md>).
+    Resource Pools are defined in four ways in the [🪣 Pools file](<../../1 📦 Hosteds/📦📄 Hosted files/🪣📄 Pools file.md>) of [Hoster ☁️ domains](<../../../45 🤲 Helper domains/55 ☁️ Hosters/☁️🤲 Hoster helper.md>).
 
     |Format| Details
     |-|-
