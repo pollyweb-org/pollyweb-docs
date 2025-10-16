@@ -1,11 +1,11 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): atm.any-fintech.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): atm.any-fintech.dom
 
 ```yaml
 🤝: nlweb.dom/MANIFEST
 
 About:
-  Domain: atm.any-fintech.org
+  Domain: atm.any-fintech.dom
   Name: Any Cash Machine
   
 

@@ -20,6 +20,6 @@ Trusts:
       - nlweb.dom/PAY/PAYMENT
     Domains: 
       - any-collector.dom
-      - any-exchange.com
-      - any-exchange.org
+      - any-exchange.dom
+      - any-exchange.dom
       

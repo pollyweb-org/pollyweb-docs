@@ -22,7 +22,7 @@ Trusts:
   # Share COVID of citizens with airlines.
   - Role: CONSUMER
     Query: health.any-igo.dom/COVID/DOSE
-    Domains: [ airline.any-business.org ]
+    Domains: [ airline.any-business.dom ]
 
 
   # Blocks whoever Any Nation blocks.

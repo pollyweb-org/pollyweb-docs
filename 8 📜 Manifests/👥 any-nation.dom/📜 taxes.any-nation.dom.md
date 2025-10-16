@@ -17,5 +17,5 @@ Trusts:
     Queries: 
       - nlweb.dom/PERSONA/VEHICLE/PARKING
     Domains: 
-      - carpark.any-business.org
+      - carpark.any-business.dom
       

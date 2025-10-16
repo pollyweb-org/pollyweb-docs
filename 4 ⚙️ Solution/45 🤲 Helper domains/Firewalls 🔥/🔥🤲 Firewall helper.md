@@ -81,7 +81,7 @@
           - imgur.com
           - torrentfreak.com
           - requestservice.live
-          - atm.any-fintech.org
+          - atm.any-fintech.dom
     ```
 
     ---
@@ -100,7 +100,7 @@
 
 
     See the follow examples as a reference:
-      * [🎰 Any Casino](<../../../8 📜 Manifests/🌐 Businesses/📜 casino.any-business.org.md>)
+      * [🎰 Any Casino](<../../../8 📜 Manifests/🌐 Businesses/📜 casino.any-business.dom.md>)
       * [🇺🇸 U.S. Department of Health & Human Services](<../../../8 📜 Manifests/🌐 Vaults/📜 hhs.gov.md>)
       * [🇺🇳 Nation Members of Any IGO](<../../../8 📜 Manifests/👥 any-igo.dom/📜 nations.any-igo.dom.md>)
       * [🇪🇺 European Union](<../../../8 📜 Manifests/👥 europa.eu/📜 europa.eu/📜 europa.eu.md>)

@@ -1,12 +1,12 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): any-exchange.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): any-exchange.dom
 <!--# 🏳️💰 https://quip.com/lK1UAE08VIGB/-AnyExchangeuk-->
 
 ```yaml
 🤝: nlweb.dom/MANIFEST
 
 About:
-  Domain: any-exchange.org
+  Domain: any-exchange.dom
   Name: Any Exchange
   
 

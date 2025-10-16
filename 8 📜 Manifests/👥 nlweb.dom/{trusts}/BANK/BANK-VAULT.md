@@ -6,4 +6,4 @@
 Title: Placeholder bank.
 Query: nlweb.dom/BANK/*
 Role: VAULT
-Domain: any-bank.org
+Domain: any-bank.dom
