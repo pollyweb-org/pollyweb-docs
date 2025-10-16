@@ -16,7 +16,7 @@
 | - | - | - |
 | 🗄️ [Vault](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) |  😃 Hi! What do you need? <br/>- [ Bind ] my Wallet | > Bind
 | 🤵 [Broker](<../../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 [Bind?](<../../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃📨 Talker msgs/44 🔗 BIND msg.md>) [Yes, No] <br/> - Some schema code 🧩 <br/> - Some other schema code 🧩 | > Yes
-| 🗄️ [Vault](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) | ✅ [Bound](<../../../4 ⚙️ Solution/35 Chats/🤔 Prompts/🤔⚠️ Prompt status/23 ✅ SUCCESS prompt.md>)
+| 🗄️ [Vault](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) | ✅ [Bound](<../../../4 ⚙️ Solution/35 Chats/🤔 Prompts/🤔📢 Prompt status/23 ✅ SUCCESS prompt.md>)
 ||
 
 <br/>

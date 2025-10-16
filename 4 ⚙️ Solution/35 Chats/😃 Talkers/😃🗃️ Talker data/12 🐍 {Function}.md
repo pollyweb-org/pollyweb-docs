@@ -44,7 +44,7 @@
     | [Command ⌘](<../😃🌊 Talker flow/10 ⌘ Command.md>) | Purpose
     |-|-
     | ⬇️ [`EVAL`](<20 ⬇️ EVAL flow.md>) | To push an object into a [$placeholder 💾](<10 💾 $Placeholder.md>).
-    | ℹ️ [`INFO`](<../../🤔 Prompts/🤔⚠️ Prompt status/21 ℹ️ INFO prompt.md>) | To show the placeholder values.
+    | ℹ️ [`INFO`](<../../🤔 Prompts/🤔📢 Prompt status/21 ℹ️ INFO prompt.md>) | To show the placeholder values.
     
     ---
     <br/>
@@ -75,8 +75,8 @@
 
     | [Command ⌘](<../😃🌊 Talker flow/10 ⌘ Command.md>) | Purpose
     |-|-
-    | ℹ️ [`INFO`](<../../🤔 Prompts/🤔⚠️ Prompt status/21 ℹ️ INFO prompt.md>) | To show the [$placeholder 💾](<10 💾 $Placeholder.md>) values.
-    | ↕️ [`QUANTITY`](<../../🤔 Prompts/7 ✏️ Input prompts/42 ↕️ QUANTITY prompt.md>) | To collect the number input.
+    | ℹ️ [`INFO`](<../../🤔 Prompts/🤔📢 Prompt status/21 ℹ️ INFO prompt.md>) | To show the [$placeholder 💾](<10 💾 $Placeholder.md>) values.
+    | ↕️ [`QUANTITY`](<../../🤔 Prompts/🤔✏️ Prompt inputs/42 ↕️ QUANTITY prompt.md>) | To collect the number input.
     
 
     ---
@@ -107,7 +107,7 @@
 
     | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 💬 [Who is in the picture?](<../../🤔 Prompts/7 ✏️ Input prompts/32 🔠 TEXT prompt.md>) 🖼️ | `Elvis`
+    | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 💬 [Who is in the picture?](<../../🤔 Prompts/🤔✏️ Prompt inputs/32 🔠 TEXT prompt.md>) 🖼️ | `Elvis`
 
 
     ```yaml
@@ -161,7 +161,7 @@
 
     | [Command ⌘](<../😃🌊 Talker flow/10 ⌘ Command.md>) | Purpose
     |-|-
-    | ↕️ [`QUANTITY`](<../../🤔 Prompts/7 ✏️ Input prompts/42 ↕️ QUANTITY prompt.md>) | To collect the number input.
+    | ↕️ [`QUANTITY`](<../../🤔 Prompts/🤔✏️ Prompt inputs/42 ↕️ QUANTITY prompt.md>) | To collect the number input.
 
 
     ```python

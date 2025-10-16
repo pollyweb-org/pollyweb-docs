@@ -27,14 +27,14 @@
 
     |Behavior| Format 
     |-|-
-    |[`Status`](<🤔📘 Prompt features/08 ⚠️ as Status.md>)| [`ℹ️ INFO`](<🤔⚠️ Prompt status/21 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<🤔⚠️ Prompt status/25 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<🤔⚠️ Prompt status/23 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<🤔⚠️ Prompt status/24 ❌ FAILURE prompt.md>)
-    |[`Inputs`](<🤔📘 Prompt features/09 ✏️ as Input.md>)| [`🔢 DIGITS`](<7 ✏️ Input prompts/44 🔢 DIGITS prompt.md>) [`↕️ QUANTITY`](<7 ✏️ Input prompts/42 ↕️ QUANTITY prompt.md>) [`💰 AMOUNT`](<7 ✏️ Input prompts/43 💰 AMOUNT prompt.md>) [`🔑 OTP`](<7 ✏️ Input prompts/57 🔑 OTP prompt.md>) [`⭐ RATE`](<7 ✏️ Input prompts/46 ⭐ RATE prompt.md>) 
-    || [`👍 CONFIRM`](<7 ✏️ Input prompts/31 👍 CONFIRM prompt.md>) [`1️⃣ ONE`](<7 ✏️ Input prompts/53 1️⃣ ONE prompt.md>) [`🔢 MANY`](<7 ✏️ Input prompts/54 🔠 MANY prompt.md>) 
-    || [`🕓 TIME`](<7 ✏️ Input prompts/62 🕓 TIME prompt.md>) [`📆 DATE`](<7 ✏️ Input prompts/61 📆 DATE prompt.md>) 
-    || [`⬆️ UPLOAD`](<7 ✏️ Input prompts/81 ⬆️ UPLOAD prompt.md>)
-    || [`🔠 TEXT`](<7 ✏️ Input prompts/32 🔠 TEXT prompt.md>) 
-    || [`👤 IDENTIFY`](<7 ✏️ Input prompts/71 👤 IDENTIFY prompt.md>) [`🛒 EAN`](<7 ✏️ Input prompts/74 🛒 EAN prompt.md>) [`🔆 SCAN`](<7 ✏️ Input prompts/72 🔆 SCAN prompt.md>) [`🦋 TOUCH`](<7 ✏️ Input prompts/73 🦋 TOUCH prompt.md>) 
-    |`Special`| [`📍 LOCATION`](<7 ✏️ Input prompts/91 📍 LOCATION prompt.md>) [`🗺️ TRACK`](<7 ✏️ Input prompts/92 🗺️ TRACK prompt.md>)
+    |[`Status`](<🤔⚙️ Prompt features/8 ⚠️ as Status.md>)| [`ℹ️ INFO`](<🤔📢 Prompt status/21 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<🤔📢 Prompt status/25 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<🤔📢 Prompt status/23 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<🤔📢 Prompt status/24 ❌ FAILURE prompt.md>)
+    |[`Inputs`](<🤔⚙️ Prompt features/9 ✏️ as Input.md>)| [`🔢 DIGITS`](<🤔✏️ Prompt inputs/44 🔢 DIGITS prompt.md>) [`↕️ QUANTITY`](<🤔✏️ Prompt inputs/42 ↕️ QUANTITY prompt.md>) [`💰 AMOUNT`](<🤔✏️ Prompt inputs/43 💰 AMOUNT prompt.md>) [`🔑 OTP`](<🤔✏️ Prompt inputs/57 🔑 OTP prompt.md>) [`⭐ RATE`](<🤔✏️ Prompt inputs/46 ⭐ RATE prompt.md>) 
+    || [`👍 CONFIRM`](<🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) [`1️⃣ ONE`](<🤔✏️ Prompt inputs/53 1️⃣ ONE prompt.md>) [`🔢 MANY`](<🤔✏️ Prompt inputs/54 🔠 MANY prompt.md>) 
+    || [`🕓 TIME`](<🤔✏️ Prompt inputs/62 🕓 TIME prompt.md>) [`📆 DATE`](<🤔✏️ Prompt inputs/61 📆 DATE prompt.md>) 
+    || [`⬆️ UPLOAD`](<🤔✏️ Prompt inputs/81 ⬆️ UPLOAD prompt.md>)
+    || [`🔠 TEXT`](<🤔✏️ Prompt inputs/32 🔠 TEXT prompt.md>) 
+    || [`👤 IDENTIFY`](<🤔✏️ Prompt inputs/71 👤 IDENTIFY prompt.md>) [`🛒 EAN`](<🤔✏️ Prompt inputs/74 🛒 EAN prompt.md>) [`🔆 SCAN`](<🤔✏️ Prompt inputs/72 🔆 SCAN prompt.md>) [`🦋 TOUCH`](<🤔✏️ Prompt inputs/73 🦋 TOUCH prompt.md>) 
+    |`Special`| [`📍 LOCATION`](<🤔✏️ Prompt inputs/91 📍 LOCATION prompt.md>) [`🗺️ TRACK`](<🤔✏️ Prompt inputs/92 🗺️ TRACK prompt.md>)
 
 
     ---
@@ -68,7 +68,7 @@
         * This blocks the user from changing any [Prompts 🤔](<🤔 Prompt.md>) up to that point.
         * [Hosts 🤗](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) to this when committing a transaction to a database with the inputs collected.
   
-    * ⚠️ Note: [`Options`](<🤔📘 Prompt features/04 🔘 with Options.md>) with a `§` open a new [Chat 💬](<../💬 Chats/💬 Chat.md>)  and are never frozen.
+    * ⚠️ Note: [`Options`](<🤔⚙️ Prompt features/4 🔘 with Options.md>) with a `§` open a new [Chat 💬](<../💬 Chats/💬 Chat.md>)  and are never frozen.
 
     ---
     <br/>
@@ -78,11 +78,11 @@
 
     | Feature | Details
     |-|-
-    | ⊕ [`Details`](<🤔📘 Prompt features/03 ⊕ with Details.md>) | Has expandable [+] details.
-    | 🔘 [`Options`](<🤔📘 Prompt features/04 🔘 with Options.md>)  | Has options for users to select.
-    | 📎 [`Appendix`](<🤔📘 Prompt features/05 📎 with Appendix.md>)  | Has a PDF, PNG, or JPEG attachment.
-    | ⚠️ [` Status`](<🤔📘 Prompt features/08 ⚠️ as Status.md>) | Informs and continues the flow.
-    | ✏️ [`Input`](<🤔📘 Prompt features/09 ✏️ as Input.md>) | Waits for an answer from users.
+    | ⊕ [`Details`](<🤔⚙️ Prompt features/3 ⊕ with Details.md>) | Has expandable [+] details.
+    | 🔘 [`Options`](<🤔⚙️ Prompt features/4 🔘 with Options.md>)  | Has options for users to select.
+    | 📎 [`Appendix`](<🤔⚙️ Prompt features/5 📎 with Appendix.md>)  | Has a PDF, PNG, or JPEG attachment.
+    | ⚠️ [` Status`](<🤔⚙️ Prompt features/8 ⚠️ as Status.md>) | Informs and continues the flow.
+    | ✏️ [`Input`](<🤔⚙️ Prompt features/9 ✏️ as Input.md>) | Waits for an answer from users.
     
     ---
     <br/>

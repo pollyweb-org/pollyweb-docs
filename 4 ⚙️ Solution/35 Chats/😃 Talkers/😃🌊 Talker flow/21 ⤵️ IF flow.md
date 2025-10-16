@@ -23,7 +23,7 @@
     String   | empty | ` ` | non-empty | `.` `bla` 
     Number  | zero | `0` | non-zero | `1` `-1`
     Array | empty | `[]` | non-empty | `[1,A]`
-    [Confirm 👍](<../../🤔 Prompts/7 ✏️ Input prompts/31 👍 CONFIRM prompt.md>) |  no | `No` | yes | `Yes`|
+    [Confirm 👍](<../../🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) |  no | `No` | yes | `Yes`|
     [Share 💼](<../😃📨 Talker msgs/45 💼 SHARE msg.md>) | empty | `{}`| non-empty | `{A:1}`
     
 
@@ -42,7 +42,7 @@
     |-|-|-
     | `{function}` | Boolean [{Function}](<../😃🗃️ Talker data/12 🐍 {Function}.md>) to evaluate  | `{f}` `{$o}`
     || Allows for missing `{}` in functions | `f()` `$p`
-    || Defaults to the last [input prompt ✏️](<../../🤔 Prompts/🤔📘 Prompt features/09 ✏️ as Input.md>) | `TEXT\|Id?`
+    || Defaults to the last [input prompt ✏️](<../../🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>) | `TEXT\|Id?`
     | `<true-proc>` | [Procedure ⚙️](<11 ⚙️ Procedure.md>) to [Run ▶️](<24 ▶️ RUN flow.md>) when `True` | `IfTrue`
     | `<false-proc>`| [Procedure ⚙️](<11 ⚙️ Procedure.md>) to [Run ▶️](<24 ▶️ RUN flow.md>) when `False` | `IfFalse(X)`
     
