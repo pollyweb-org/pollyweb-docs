@@ -1,12 +1,12 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): carpark.any-business.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): carpark.any-business.dom
 <!--# 🏳️🅿️ https://quip.com/0feVAAuto4SI-->
 
 ```yaml
 🤝: nlweb.dom/MANIFEST
 
 About:
-  Domain: carpark.any-business.org
+  Domain: carpark.any-business.dom
   Name: Any Parking
   
   

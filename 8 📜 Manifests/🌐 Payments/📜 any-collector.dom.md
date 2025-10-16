@@ -17,7 +17,7 @@ Trusts:
   - Role: CONSUMER
     Query: nlweb.dom/PAY/COLLECTOR
     Domains:
-      - any-exchange.org
+      - any-exchange.dom
       
 
   # Collect from limited payers.
@@ -25,6 +25,6 @@ Trusts:
     Query: nlweb.dom/PAY/PAYMENT
     Domains: 
       - any-payer.dom
-      - any-exchange.org
-      - any-bank.org
+      - any-exchange.dom
+      - any-bank.dom
       

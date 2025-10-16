@@ -27,4 +27,4 @@ Trusts:
   # Notify AnyAirline that a passenger was found at gate.
   - Role: CONSUMER
     Query: nlweb.dom/PALM/FOUND
-    Domains: [ airline.any-business.org ]
+    Domains: [ airline.any-business.dom ]

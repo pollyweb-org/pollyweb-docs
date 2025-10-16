@@ -1,11 +1,11 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): any-profile.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): any-profile.dom
 
 ```yaml
 🤝: nlweb.dom/MANIFEST
 
 About:
-  Domain: any-profile.org
+  Domain: any-profile.dom
   Name: Any Persona
 
 Trusts:

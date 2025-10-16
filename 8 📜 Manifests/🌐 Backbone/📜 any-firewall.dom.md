@@ -21,5 +21,5 @@ Trusts:
       - imgur.com
       - torrentfreak.com
       - requestservice.live
-      - atm.any-fintech.org
+      - atm.any-fintech.dom
       

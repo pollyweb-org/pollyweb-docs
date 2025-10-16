@@ -29,7 +29,7 @@ Trusts:
   - Role: CONSUMER
     Query: europa.eu/DISABILITY/CARD
     Domains:
-      - airline.any-business.org
+      - airline.any-business.dom
       - airport.any-nation.dom
       - flytap.com
     
@@ -44,7 +44,7 @@ Trusts:
   # Share SSR info between airlines.   
   - Query: airlines.any-igo.dom/SSR/*
     Domains:
-      - airline.any-business.org
+      - airline.any-business.dom
       - airport.any-nation.dom
       - flytap.com
       

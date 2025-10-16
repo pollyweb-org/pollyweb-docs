@@ -1,12 +1,12 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): casino.any-business.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): casino.any-business.dom
 <!--# 🏳️🎰 https://quip.com/RUmtAj6kpz6p/-AnyCasinoit-->
 
 ```yaml
 🤝: nlweb.dom/MANIFEST
 
 About:
-  Domain: casino.any-business.org
+  Domain: casino.any-business.dom
   Name: Any Casino
   
   
