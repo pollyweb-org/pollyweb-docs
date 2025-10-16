@@ -1,8 +1,8 @@
 # 👀🐌🤵 Promote @ Broker
  
-> Used in [👀⏩🧑‍🦰 Advertise](<../../../12 👀 Advertisers/👀⏩ Advertiser flows/👀⏩🧑‍🦰 Advertise.md>)
+> Used in [👀⏩🧑‍🦰 Advertise](<../../../../45 🤲 Helper domains/12 👀 Advertisers/👀⏩ Advertiser flows/👀⏩🧑‍🦰 Advertise.md>)
 
-* [Advertiser 👀 helper domains](<../../../12 👀 Advertisers/👀🤲 Advertiser helper.md>) 
+* [Advertiser 👀 helper domains](<../../../../45 🤲 Helper domains/12 👀 Advertisers/👀🤲 Advertiser helper.md>) 
     * ask [Broker 🤵 domains](<../../🤵🤲 Broker helper.md>) 
     * to check-in into the selected [Locator 🔆](<../../../../25 Locators/15 🔆 Locators/🔆 Locator.md>).
 

@@ -21,7 +21,7 @@
     | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 🎴 [Issuer](<../../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) | ℹ️ Issuing your token...
-    | 🤵 [Broker](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Save token? [Yes, No]  | > Yes
+    | 🤵 [Broker](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Save token? [Yes, No]  | > Yes
     | 🎴 [Issuer](<../../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) | ✅ Saved to your wallet.
 
     ---

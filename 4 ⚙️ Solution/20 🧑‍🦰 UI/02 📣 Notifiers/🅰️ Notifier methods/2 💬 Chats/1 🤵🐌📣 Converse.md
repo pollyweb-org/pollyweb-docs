@@ -1,8 +1,8 @@
 # 🤵🐌📣 Converse @ Notifier
 
-> [Broker 🤵 domains](<../../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) tell [Wallet 🧑‍🦰 apps](<../../../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) about a new [Chat 💬](<../../../../35 Chats/💬 Chats/💬 Chat.md>).
+> [Broker 🤵 domains](<../../../03 🤵 Brokers/🤵🤲 Broker helper.md>) tell [Wallet 🧑‍🦰 apps](<../../../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) about a new [Chat 💬](<../../../../35 Chats/💬 Chats/💬 Chat.md>).
 
-> Used in [🤵⏩🧑‍🦰 Converse @ Broker](<../../../../../5 ⏩ Flows/10 🤵⏩ Brokers/03 🤵⏩🧑‍🦰 Converse 💬.md>) 
+> Used in [🤵⏩🧑‍🦰 Converse @ Broker](<../../../03 🤵 Brokers/🤵⏩ Broker flows/03 🤵⏩🧑‍🦰 Converse 💬.md>) 
 
 <br/>
 
@@ -24,11 +24,11 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From`|string | [Broker 🤵](<../../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) from [`Assess@Broker`](<../../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/20 🤵🅰️ Locators/🧑‍🦰🐌🤵 Assess.md>)
-||`To`|string| [Notifier 📣](<../../📣 Notifier domain.md>) from [`Onboard@Broker`](<../../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/10 🤵🅰️ Wallets 🧑‍🦰/📣🚀🤵 Onboard.md>)
+|Header|`From`|string | [Broker 🤵](<../../../03 🤵 Brokers/🤵🤲 Broker helper.md>) from [`Assess@Broker`](<../../../03 🤵 Brokers/🤵🅰️ Broker methods/20 🤵🅰️ Locators/🧑‍🦰🐌🤵 Assess.md>)
+||`To`|string| [Notifier 📣](<../../📣 Notifier domain.md>) from [`Onboard@Broker`](<../../../03 🤵 Brokers/🤵🅰️ Broker methods/10 🤵🅰️ Wallets 🧑‍🦰/📣🚀🤵 Onboard.md>)
 ||`Subject`|string|`Converse@Notifier`
-|Body  |`WalletID` |uuid  | [Wallet 🧑‍🦰](<../../../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) ID from [`Assess@Broker`](<../../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/20 🤵🅰️ Locators/🧑‍🦰🐌🤵 Assess.md>)
-|      |`ChatID`   |uuid  | New [Chat 💬](<../../../../35 Chats/💬 Chats/💬 Chat.md>) ID on the [Broker 🤵](<../../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>)
+|Body  |`WalletID` |uuid  | [Wallet 🧑‍🦰](<../../../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) ID from [`Assess@Broker`](<../../../03 🤵 Brokers/🤵🅰️ Broker methods/20 🤵🅰️ Locators/🧑‍🦰🐌🤵 Assess.md>)
+|      |`ChatID`   |uuid  | New [Chat 💬](<../../../../35 Chats/💬 Chats/💬 Chat.md>) ID on the [Broker 🤵](<../../../03 🤵 Brokers/🤵🤲 Broker helper.md>)
 |      |`Host`     |string| [Host 🤗 domain](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) name
 |      |`Name`     |string| Name from [`Translate@Graph`](<../../../../45 🤲 Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>)
 |      |`SmallIcon`|string   | Small icon from [`Identity@Graph`](<../../../../45 🤲 Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Identity.md>)

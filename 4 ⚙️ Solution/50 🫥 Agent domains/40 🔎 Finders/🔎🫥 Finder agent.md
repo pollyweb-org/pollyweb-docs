@@ -24,7 +24,7 @@
 
 1. **How do Finders help to protect users?**
 
-    [Broker 🤵 domains](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) leverage Finders to provide users with culturally-contextualized details and user feedback about [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) when a [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>) starts. 
+    [Broker 🤵 domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) leverage Finders to provide users with culturally-contextualized details and user feedback about [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) when a [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>) starts. 
 
     * Consider the following [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>) excerpt from the [Buy water 🤝 use case](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/11 💧 Buy water.md>) as an example of a with an interaction with a  [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>), right after the user has tapped a [Locator 🔆](<../../25 Locators/15 🔆 Locators/🔆 Locator.md>).
 
@@ -83,7 +83,7 @@
 
 1. **How do Finders filter and rank the results for users?**
 
-    - **[👍 Trust](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>)**: domains untrusted by the user's [Broker 🤵](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) are discarded;
+    - **[👍 Trust](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>)**: domains untrusted by the user's [Broker 🤵](<../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) are discarded;
     - **🔥 Threats**: domains blocked by [Firewalls 🔥](<../../45 🤲 Helper domains/40 🔥 Firewalls/🔥🤲 Firewall helper.md>) may be discarded even when trusted;
     - **🧢 Preferences**: the user's preferences, as shared by the user's [Persona 🧢](<../70 🧢 Personas/🧢🫥 Persona agent.md>);
     - **📍 Proximity**: the distance to the user, based on the context shared by the Wallet;

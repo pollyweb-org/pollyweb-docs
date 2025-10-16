@@ -9,9 +9,9 @@
 > The Broker domain tells the [Notifier 📣 domain](<../../📣 Notifier domain.md>) that there was an update and they need to refresh the user experience.
 
 > Used in:
-> <br/>• [🤵⏩🧑‍🦰 Update Binds 🔗](<../../../../../5 ⏩ Flows/10 🤵⏩ Brokers/06 🤵⏩🧑‍🦰 Update Binds 🔗.md>)
-> <br/>• [🤵⏩🧑‍🦰 Update tokens](<../../../../../5 ⏩ Flows/10 🤵⏩ Brokers/08 🤵⏩🧑‍🦰 Update Tokens 🎫.md>)
-> <br/>• [🤵⏩🧑‍🦰 Update chats 💬](<../../../../../5 ⏩ Flows/10 🤵⏩ Brokers/04 🤵⏩🧑‍🦰 Update Chats 💬.md>)
+> <br/>• [🤵⏩🧑‍🦰 Update Binds 🔗](<../../../03 🤵 Brokers/🤵⏩ Broker flows/06 🤵⏩🧑‍🦰 Update Binds 🔗.md>)
+> <br/>• [🤵⏩🧑‍🦰 Update tokens](<../../../03 🤵 Brokers/🤵⏩ Broker flows/08 🤵⏩🧑‍🦰 Update Tokens 🎫.md>)
+> <br/>• [🤵⏩🧑‍🦰 Update chats 💬](<../../../03 🤵 Brokers/🤵⏩ Broker flows/04 🤵⏩🧑‍🦰 Update Chats 💬.md>)
 
 <br/>
 
@@ -29,9 +29,9 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From`|string | [Broker 🤵 domain](<../../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) name
-||`To`|string| [Notifier 📣](<../../📣 Notifier domain.md>) from [`Onboard@Broker`](<../../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/10 🤵🅰️ Wallets 🧑‍🦰/📣🚀🤵 Onboard.md>)
+|Header|`From`|string | [Broker 🤵 domain](<../../../03 🤵 Brokers/🤵🤲 Broker helper.md>) name
+||`To`|string| [Notifier 📣](<../../📣 Notifier domain.md>) from [`Onboard@Broker`](<../../../03 🤵 Brokers/🤵🅰️ Broker methods/10 🤵🅰️ Wallets 🧑‍🦰/📣🚀🤵 Onboard.md>)
 ||`Subject`|string|`Updated@Notifier`
-|Body  |`WalletID` |uuid  | [Wallet 🧑‍🦰](<../../../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) ID from [`Onboard@Broker`](<../../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/10 🤵🅰️ Wallets 🧑‍🦰/📣🚀🤵 Onboard.md>)
+|Body  |`WalletID` |uuid  | [Wallet 🧑‍🦰](<../../../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) ID from [`Onboard@Broker`](<../../../03 🤵 Brokers/🤵🅰️ Broker methods/10 🤵🅰️ Wallets 🧑‍🦰/📣🚀🤵 Onboard.md>)
 |      |`Updates`   |enum  | `CHATS` `BINDS` `TOKENS`
 |

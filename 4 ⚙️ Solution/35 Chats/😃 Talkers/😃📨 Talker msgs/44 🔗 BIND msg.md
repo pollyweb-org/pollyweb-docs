@@ -21,7 +21,7 @@
     | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 🗄️ [Vault](<../../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) |  😃 Hi! What do you need? <br/>- [ Bind ]  | > Bind
-    | 🤵 [Broker](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 [Bind?](<44 🔗 BIND msg.md>) [Yes, No] <br/> -  Some schema code 🧩 <br/> - Some other schema code 🧩 | > Yes
+    | 🤵 [Broker](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 [Bind?](<44 🔗 BIND msg.md>) [Yes, No] <br/> -  Some schema code 🧩 <br/> - Some other schema code 🧩 | > Yes
     | 🗄️ [Vault](<../../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) | ✅ [Done!](<../../🤔 Prompts/🤔📢 Prompt status/23 ✅ SUCCESS prompt.md>)
 
     ---
@@ -36,7 +36,7 @@
     | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 🗄️ [Vault](<../../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) |  😃 Hi! What do you need? <br/>- [ Bind ]  | > Bind
-    | 🤵 [Broker](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 [Bind?](<44 🔗 BIND msg.md>) [All, No] <br/> - [ ] Some schema code 🧩 <br/> - [ ] Some other schema code 🧩 | > All
+    | 🤵 [Broker](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 [Bind?](<44 🔗 BIND msg.md>) [All, No] <br/> - [ ] Some schema code 🧩 <br/> - [ ] Some other schema code 🧩 | > All
     | 🗄️ [Vault](<../../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) | ✅ [Done!](<../../🤔 Prompts/🤔📢 Prompt status/23 ✅ SUCCESS prompt.md>)
 
     ---
@@ -54,7 +54,7 @@
 
     | Argument| Purpose 
     |-|-
-    | `<code>` | [Schema Code 🧩](<../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) from [`Bindable@Broker`](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/40 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>) 
+    | `<code>` | [Schema Code 🧩](<../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) from [`Bindable@Broker`](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🅰️ Broker methods/40 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>) 
 
     ```yaml
     # For a single optional code.
@@ -78,7 +78,7 @@
    
     | Argument| Purpose
     |-|-
-    | `<code-n>` | Array of [Schema Codes 🧩](<../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) sent on [`Bindable@Broker`](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/40 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)
+    | `<code-n>` | Array of [Schema Codes 🧩](<../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) sent on [`Bindable@Broker`](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🅰️ Broker methods/40 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)
     | `$bound`  | Array of [Schema Codes 🧩](<../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) received on [`Bound@Vault`](<../../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🅰️ Vault methods/🤵🐌🗄️ Bound.md>)
 
 
@@ -90,7 +90,7 @@
    
     | Argument| Purpose
     |-|-
-    | `{bindable}` | [{Function}](<../😃🗃️ Talker data/12 🐍 {Function}.md>) to get the [Codes 🧩](<../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) for [Bindable @ Broker](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/40 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>).
+    | `{bindable}` | [{Function}](<../😃🗃️ Talker data/12 🐍 {Function}.md>) to get the [Codes 🧩](<../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) for [Bindable @ Broker](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🅰️ Broker methods/40 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>).
 
 
     ---
