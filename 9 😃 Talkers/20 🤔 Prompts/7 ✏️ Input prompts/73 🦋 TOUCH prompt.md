@@ -2,7 +2,7 @@
 
 > Asks to touch/scan a [QR/NFC Ephemeral 🦋 device](<../../../4 ⚙️ Solution/60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>).
 
-> Part of [blocking input prompts 🤔](<../1 📘 Prompt specs/09 ✏️ as Input.md>)
+> Part of [blocking input prompts 🤔](<../1 📘 Prompt features/09 ✏️ as Input.md>)
 
 
 <br/>

@@ -2,7 +2,7 @@
 
 > Scans for ENA-13 and EAN-8 barcodes
 
-> Part of [blocking input prompts 🤔](<../1 📘 Prompt specs/09 ✏️ as Input.md>)
+> Part of [blocking input prompts 🤔](<../1 📘 Prompt features/09 ✏️ as Input.md>)
 
    * `EAN|<statement> >> <key>`	
        * Calls the [🛒 EAN Prompt](<../../10 📘 Talker specs/20 🤔 Prompt.md>)

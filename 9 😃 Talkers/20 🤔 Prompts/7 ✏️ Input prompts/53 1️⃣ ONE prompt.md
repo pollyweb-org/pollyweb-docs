@@ -1,7 +1,7 @@
 # 1️⃣ ONE prompt
 
 
-> Part of [blocking input prompts 🤔](<../1 📘 Prompt specs/09 ✏️ as Input.md>)
+> Part of [blocking input prompts 🤔](<../1 📘 Prompt features/09 ✏️ as Input.md>)
 
 <br/>
 
@@ -20,10 +20,10 @@
 
     | Feature | Details
     |-|-
-    | ⊕ [`Details`](<../1 📘 Prompt specs/03 ⊕ with Details.md>) | Has expandable [+] details.
-    | 🔘 [`Options`](<../1 📘 Prompt specs/04 🔘 with Options.md>) | Has options for users to select.
-    | 📎 [`Appendix`](<../1 📘 Prompt specs/05 📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
-    | ✏️ [`Input`](<../1 📘 Prompt specs/09 ✏️ as Input.md>) | Waits for an answer from users.
+    | ⊕ [`Details`](<../1 📘 Prompt features/03 ⊕ with Details.md>) | Has expandable [+] details.
+    | 🔘 [`Options`](<../1 📘 Prompt features/04 🔘 with Options.md>) | Has options for users to select.
+    | 📎 [`Appendix`](<../1 📘 Prompt features/05 📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
+    | ✏️ [`Input`](<../1 📘 Prompt features/09 ✏️ as Input.md>) | Waits for an answer from users.
     
     ---
     <br/>
@@ -58,10 +58,10 @@
     
     | Argument| Purpose | Example
     |-|-|-
-    | `Details` | Optional [expandable details ⊕](<../1 📘 Prompt specs/03 ⊕ with Details.md>) | `Hint...`
-    | `Options` | Optional [selectable options 🔘](<../1 📘 Prompt specs/04 🔘 with Options.md>) | `A,B` `{A:B}`
-    | `Nullable` | Optional [skip flag ⏭️](<../2 ✏️ Input specs/12 ⏭️ Input nullability.md>) | `Yes`
-    | `Appendix` | Optional [file attachment 📎](<../1 📘 Prompt specs/05 📎 with Appendix.md>) | `<uuid>`
+    | `Details` | Optional [expandable details ⊕](<../1 📘 Prompt features/03 ⊕ with Details.md>) | `Hint...`
+    | `Options` | Optional [selectable options 🔘](<../1 📘 Prompt features/04 🔘 with Options.md>) | `A,B` `{A:B}`
+    | `Nullable` | Optional [skip flag ⏭️](<../2 ✏️ Input features/12 ⏭️ Input nullability.md>) | `Yes`
+    | `Appendix` | Optional [file attachment 📎](<../1 📘 Prompt features/05 📎 with Appendix.md>) | `<uuid>`
     
     
     ---

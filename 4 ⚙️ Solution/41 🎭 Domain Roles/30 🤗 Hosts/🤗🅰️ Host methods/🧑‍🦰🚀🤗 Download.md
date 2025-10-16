@@ -3,7 +3,7 @@
 # 🧑‍🦰🚀🤗 Download @ Host
 
 
-> Downloads the content of an [Appendix 📎](<../../../../9 😃 Talkers/20 🤔 Prompts/1 📘 Prompt specs/05 📎 with Appendix.md>).
+> Downloads the content of an [Appendix 📎](<../../../../9 😃 Talkers/20 🤔 Prompts/1 📘 Prompt features/05 📎 with Appendix.md>).
 
 
 > Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) flow.
@@ -35,7 +35,7 @@ Body:
 |           | `To`          | string    | [Sender 🤗](<../🤗🎭 Host role.md>) from [`Prompt@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
 |           | `Subject`     | string    | `Prompted@Host`
 | Body      | `ChatID` | uuid | [Chat 💬](<../../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) ID from [`Prompt@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
-|| `FileID`    | uuid      | [Appendix 📎](<../../../../9 😃 Talkers/20 🤔 Prompts/1 📘 Prompt specs/05 📎 with Appendix.md>) from [`Prompted@Host`](<🧑‍🦰🚀🤗 Prompted.md>)
+|| `FileID`    | uuid      | [Appendix 📎](<../../../../9 😃 Talkers/20 🤔 Prompts/1 📘 Prompt features/05 📎 with Appendix.md>) from [`Prompted@Host`](<🧑‍🦰🚀🤗 Prompted.md>)
 |
 
 <br/>

@@ -1,6 +1,6 @@
 # 💰 AMOUNT prompt
 
-> Part of [blocking input prompts 🤔](<../1 📘 Prompt specs/09 ✏️ as Input.md>)
+> Part of [blocking input prompts 🤔](<../1 📘 Prompt features/09 ✏️ as Input.md>)
 
 
 <br/>
@@ -30,9 +30,9 @@
 
     | Feature | Details
     |-|-
-    | ⊕ [`Details`](<../1 📘 Prompt specs/03 ⊕ with Details.md>) | Has expandable [+] details.
-    | 📎 [`Appendix`](<../1 📘 Prompt specs/05 📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
-    | ✏️ [`Input`](<../1 📘 Prompt specs/09 ✏️ as Input.md>) | Waits for an answer from users.
+    | ⊕ [`Details`](<../1 📘 Prompt features/03 ⊕ with Details.md>) | Has expandable [+] details.
+    | 📎 [`Appendix`](<../1 📘 Prompt features/05 📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
+    | ✏️ [`Input`](<../1 📘 Prompt features/09 ✏️ as Input.md>) | Waits for an answer from users.
     
     ---
     <br/>
@@ -76,12 +76,12 @@
     | `Currency` | Optional ISO 4217 currency <br/>- defaults to the locale's currency | `USD`
     | `Precision`| Rounded decimals (default is 2) | `2`
     | `Locale`   | Optional CLDR locale <br/> - defaults to the [Chat 💬](<../../../4 ⚙️ Solution/35 Chats/12 💬 Chats/$ 💬 Chat.md>) language | `en-US`
-    | `MinValue` | Optional [minimum value 📋](<../2 ✏️ Input specs/13 📋 Input validation.md>) | `-100`
-    | `MaxValue` | Optional [maximum value 📋](<../2 ✏️ Input specs/13 📋 Input validation.md>) | `100`
-    | `Emoji` | Optional [alternative emoji 😶](<../2 ✏️ Input specs/14 😶 Input emojis.md>) | `😶`
-    | `Details` | Optional [expandable details ⊕](<../1 📘 Prompt specs/03 ⊕ with Details.md>) | `Hint...`
-    | `Nullable` | Optional [skip flag ⏭️](<../2 ✏️ Input specs/12 ⏭️ Input nullability.md>) | `Yes`
-    | `Appendix` | Optional [file attachment 📎](<../1 📘 Prompt specs/05 📎 with Appendix.md>) | `<uuid>`
+    | `MinValue` | Optional [minimum value 📋](<../2 ✏️ Input features/13 📋 Input validation.md>) | `-100`
+    | `MaxValue` | Optional [maximum value 📋](<../2 ✏️ Input features/13 📋 Input validation.md>) | `100`
+    | `Emoji` | Optional [alternative emoji 😶](<../2 ✏️ Input features/14 😶 Input emojis.md>) | `😶`
+    | `Details` | Optional [expandable details ⊕](<../1 📘 Prompt features/03 ⊕ with Details.md>) | `Hint...`
+    | `Nullable` | Optional [skip flag ⏭️](<../2 ✏️ Input features/12 ⏭️ Input nullability.md>) | `Yes`
+    | `Appendix` | Optional [file attachment 📎](<../1 📘 Prompt features/05 📎 with Appendix.md>) | `<uuid>`
     
     ---
     <br/>
