@@ -25,7 +25,7 @@
 
 ## Flow diagram
 
-![alt text](<.📎 Assets/⚙️ Remove.png>)
+![alt text](<../../🧑‍🦰⏩ Wallet flows/40 👉🎫 Tokens/.📎 Assets/⚙️ Remove.png>)
 
 
 

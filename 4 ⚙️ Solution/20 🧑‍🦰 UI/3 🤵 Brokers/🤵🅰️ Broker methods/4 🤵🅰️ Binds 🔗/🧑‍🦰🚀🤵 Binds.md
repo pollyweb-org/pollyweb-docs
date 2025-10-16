@@ -6,7 +6,7 @@
 
 > Used in:
 > <br/> • [🧑‍🦰👉🤵 Translate](<../../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet chats/in App 🏠/🧑‍🦰💬🤵 Translate.md>)
-> <br/> • [🧑‍🦰👉🤵 List binds](<../../../1 🧑‍🦰 Wallets/🧑‍🦰⏩ Wallet flows/30 👉🔗 Binds/01 🧑‍🦰👉🤵 List binds.md>)
+> <br/> • [🧑‍🦰👉🤵 List binds](<../../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet chats/in App 🏠/🧑‍🦰💬🤵 List Binds 🔗.md>)
 > <br/> • [🤵⏩🧑‍🦰 Update Binds 🔗](<../../🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Binds 🔗.md>)
 
 <br/>
