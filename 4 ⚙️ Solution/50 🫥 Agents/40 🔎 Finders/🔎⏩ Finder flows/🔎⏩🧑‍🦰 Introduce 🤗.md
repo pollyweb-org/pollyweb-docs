@@ -28,7 +28,7 @@
 |-|-|-
 | 1 | [🤵🐌🔎 `Introduce@Finder`](<../🔎🅰️ Finder methods/🤵🐌🔎 Introduce.md>) | Ask to introduce a [Host 🤗](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>).
 | 2 | [🔎🚀⭐ `Reviews@Reviewer`](<../../73 ⭐ Reviewers/🅰️ Reviewer methods/01 🔎🚀⭐ Reviews.md>) | Get domain reviews (may be cached).
-| 3 | [👥🚀🕸 `Identity@Graph`](<../../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Identity.md>) | Get domain identity (may be cached).
+| 3 | [👥🚀🕸 `Identity@Graph`](<../../../45 🤲 Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Identity.md>) | Get domain identity (may be cached).
 | 4 | [🤗⏩🧑‍🦰 Prompt 🤔](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | Inform the user.
 | 5 | [🔎🐌🤵 `Introduced@Broker`](<../../../../6 🅰️ APIs/15 🤵🅰️ Broker/30 🤵🅰️ Chats 💬/04 🔎🐌🤵 Introduced.md>) | Finish introduction.
 ||

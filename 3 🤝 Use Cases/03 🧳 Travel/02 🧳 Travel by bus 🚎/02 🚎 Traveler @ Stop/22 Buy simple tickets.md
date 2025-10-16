@@ -10,7 +10,7 @@ How to buy a simple bus ticket at the bus stop 🚎
 | 🚎 Operator | 😃 Hi! What do you need? <br/>- [ Simple 🚎 ] ticket <br/>- [ Timetable ] | > Simple 🚎
 | 🚎 Operator | 😃 How many trips? [1, 2, +] | > 2
 | 💳 [Payer](<../../../../4 ⚙️ Solution/50 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Pay £5.00 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Save bus ticket? [Yes, No] <br/> - [ Always ] for Any Bus | > Always
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Save bus ticket? [Yes, No] <br/> - [ Always ] for Any Bus | > Always
 | 🚎 Operator | ✅ Ticked issued!
 | ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agents/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5
 ||

@@ -85,7 +85,7 @@
 1. **How do curators protect themselves from prompt injection?**
 
     [Curator 🧚 agents](<🧚🫥 Curator agent.md>) assess [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) inputs before acting on them. 
-    - Suspicious behaviors are reported to [Firewall 🔥 helper domains](<../../45 🛠️ Helper domains/40 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>).
+    - Suspicious behaviors are reported to [Firewall 🔥 helper domains](<../../45 🤲 Helper domains/40 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>).
 
     ---
     <br/>

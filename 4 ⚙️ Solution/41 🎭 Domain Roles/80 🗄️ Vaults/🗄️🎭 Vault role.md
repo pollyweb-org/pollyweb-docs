@@ -40,11 +40,11 @@
 
 1. **What are default Vaults?**
 
-    To streamline user onboarding, [Broker 🤵 domains](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) may automatically [bind 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) new [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) to default [Agent 🫥 vault domains](<../../50 🫥 Agents/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>).
+    To streamline user onboarding, [Broker 🤵 domains](<../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) may automatically [bind 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) new [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) to default [Agent 🫥 vault domains](<../../50 🫥 Agents/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>).
         
     | | Workflow |  Description
     |-|-|-
-    ||[👉 Onboard](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/11 🧑‍🦰👉🤵 Onboard.md>) | Register the [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) on a [Broker 🤵](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>)
+    ||[👉 Onboard](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/11 🧑‍🦰👉🤵 Onboard.md>) | Register the [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) on a [Broker 🤵](<../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>)
 
     ---
     <br/>
@@ -125,10 +125,10 @@
     Conversely, our global society is built on the trust that we have in the ability of corporations to deliver, and the ability of public institutions to regulate them — NLWeb aims to replicate our modern society with the following mechanisms:
     * [Vault 🗄️ domains](<🗄️🎭 Vault role.md>) controlled by corporations;
     * [Trusts 👍](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) in [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>) to represent partnerships;
-    * [Authority 🏛️ domains](<../../45 🛠️ Helper domains/14 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>) for intergovernmental agreements;
-    * [Broker 🤵 domains](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) to protect users from bad corporate actors;
+    * [Authority 🏛️ domains](<../../45 🤲 Helper domains/14 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>) for intergovernmental agreements;
+    * [Broker 🤵 domains](<../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) to protect users from bad corporate actors;
     * [Reviewer ⭐ domains](<../../50 🫥 Agents/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) to collect social feedback on corporations;
-    * [Firewall 🔥 domains](<../../45 🛠️ Helper domains/40 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) to monitor and penalize bad corporate actors.
+    * [Firewall 🔥 domains](<../../45 🤲 Helper domains/40 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) to monitor and penalize bad corporate actors.
     
     ---
     <br/>
@@ -230,7 +230,7 @@
    
     | [From 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) | [Subject 📨](<../../40 👥 Domains/41 📨 Messages/📨 Message.md>) | Description |
     |-|--------|-------------|
-    | [🤵 Broker](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | [`Bound`](<🗄️🅰️ Vault methods/🤵🐌🗄️ Bound.md>) | Add a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) |
+    | [🤵 Broker](<../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | [`Bound`](<🗄️🅰️ Vault methods/🤵🐌🗄️ Bound.md>) | Add a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) |
     |  | [`Unbind`](<🗄️🅰️ Vault methods/🤵🐌🗄️ Unbind.md>) | Remove a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) |
     | | [`Disclose`](<🗄️🅰️ Vault methods/🤵🐌🗄️ Disclose.md>) | Disclose the data of a [Bind 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) |
     | | [`Suppress`](<🗄️🅰️ Vault methods/🤵🐌🗄️ Suppress.md>) | Suppress [🖐️ Palm scans](<../../50 🫥 Agents/45 🆔 Identities/22 🆔🖐️ Palm scan.md>) |

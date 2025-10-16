@@ -15,8 +15,8 @@
 ||[Save shared intake](<23 🏠 Home: Save shared intake.md>) | [`💖 Vitalogist`](<../../../4 ⚙️ Solution/50 🫥 Agents/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>)  [`📇 Mingler`](<../../../4 ⚙️ Solution/50 🫥 Agents/50 📇 Minglers/$ 📇🫥 Mingler agent.md>)
 ||[Intake via photo](<24 🏠 Home: Intake via photo.md>) | [`💖 Vitalogist`](<../../../4 ⚙️ Solution/50 🫥 Agents/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>)
 ||[Intake via barcode](<25 🏠 Home: Intake via barcode.md>) | [`💖 Vitalogist`](<../../../4 ⚙️ Solution/50 🫥 Agents/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>)
-|`💼 Owner` |[Menu](<91 🏢 Owner: Menu.md>) | [`🗂️ Folder`](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/35 🧑‍💻 Editors/🧑‍💻 Editor.md>) 
-||[Slots 🐘](<92 🏢 Owner: Slots.md>)       | [`🗂️ Folder`](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/35 🧑‍💻 Editors/🧑‍💻 Editor.md>) 
+|`💼 Owner` |[Menu](<91 🏢 Owner: Menu.md>) | [`🗂️ Folder`](<../../../4 ⚙️ Solution/45 🤲 Helper domains/35 🧑‍💻 Editors/🧑‍💻 Editor.md>) 
+||[Slots 🐘](<92 🏢 Owner: Slots.md>)       | [`🗂️ Folder`](<../../../4 ⚙️ Solution/45 🤲 Helper domains/35 🧑‍💻 Editors/🧑‍💻 Editor.md>) 
 |`🧑‍🍳 Chef` |[Start shift](<61 🧑‍🍳 Chef: Start shift.md>) | [`🎫 Token`](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) [`🆔 Identity`](<../../../4 ⚙️ Solution/50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>)
 ||[Prepare](<62 🧑‍🍳 Chef: Prepare.md>) | `Slots 🐘`
 ||[Multi-task](<63 🧑‍🍳 Chef: Multi-task.md>) | `Slots 🐘`

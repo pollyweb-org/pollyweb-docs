@@ -27,7 +27,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header| `From` | string | [Broker 🤵 domain](<../../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>)
+| Header| `From` | string | [Broker 🤵 domain](<../../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>)
 || `To` | string | [Vault 🗄️ domain](<../🗄️🎭 Vault role.md>) name
 || `Subject` | string | `Disclose@Vault`
 |Body| `ChatID`| uuid | [Chat 💬](<../../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID

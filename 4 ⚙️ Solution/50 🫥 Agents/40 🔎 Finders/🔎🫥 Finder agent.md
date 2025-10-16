@@ -24,7 +24,7 @@
 
 1. **How do Finders help to protect users?**
 
-    [Broker 🤵 domains](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) leverage Finders to provide users with culturally-contextualized details and user feedback about [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) when a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) starts. 
+    [Broker 🤵 domains](<../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) leverage Finders to provide users with culturally-contextualized details and user feedback about [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) when a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) starts. 
 
     * Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) excerpt from the [Buy water 🤝 use case](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/11 💧 Buy water.md>) as an example of a with an interaction with a  [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>), right after the user has tapped a [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>).
 
@@ -43,7 +43,7 @@
     To search domains on a Finder, users use natural language, similar to ChatGPT.
     * Example: `find me a restaurant for tonight`.
     * Finders then show potential [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) for the user to initiate a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with.
-    * After the user selection, Finders also show potential next steps for [navigation 🧭](<../55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>), available [services 🪢](<../../41 🎭 Domain Roles/35 🪢 Integrators/$ 🪢🎭 Integrator role.md>), and [advertising 👀](<../../45 🛠️ Helper domains/12 👀 Advertisers/👀🛠️ Advertiser helper.md>).
+    * After the user selection, Finders also show potential next steps for [navigation 🧭](<../55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>), available [services 🪢](<../../41 🎭 Domain Roles/35 🪢 Integrators/$ 🪢🎭 Integrator role.md>), and [advertising 👀](<../../45 🤲 Helper domains/12 👀 Advertisers/👀🛠️ Advertiser helper.md>).
     * Consider the following [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) excerpt of the [Find a bar 🤝 use case](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/30 🍸 Bars/11 🌐 Web: Find a bar.md>) as an example.
 
 
@@ -65,10 +65,10 @@
 
     |[Streamer&nbsp;🎭](<../../41 🎭 Domain Roles/75 🌬️ Streamers/🌬️🎭 Streamer role.md>)|Purpose
     |-|-
-    | [🕸&nbsp;Graphs](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>) | Finders subscribe to [Graphs 🕸 domains](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>) to receive updates on [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>) across the NLWeb, including their public identity, [trust 👍](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) relationships, and supported [integrations 🪢](<../../41 🎭 Domain Roles/35 🪢 Integrators/$ 🪢🎭 Integrator role.md>). 
-    | [🔥&nbsp;Firewalls](<../../45 🛠️ Helper domains/40 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) | Finders subscribe to [Firewall 🔥 domains](<../../45 🛠️ Helper domains/40 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) to quickly react to threats. 
+    | [🕸&nbsp;Graphs](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>) | Finders subscribe to [Graphs 🕸 domains](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>) to receive updates on [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>) across the NLWeb, including their public identity, [trust 👍](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) relationships, and supported [integrations 🪢](<../../41 🎭 Domain Roles/35 🪢 Integrators/$ 🪢🎭 Integrator role.md>). 
+    | [🔥&nbsp;Firewalls](<../../45 🤲 Helper domains/40 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) | Finders subscribe to [Firewall 🔥 domains](<../../45 🤲 Helper domains/40 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) to quickly react to threats. 
     | [⭐&nbsp;Reviewers](<../73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) | Finders subscribe to [Reviewer ⭐ domains](<../73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) to receive updates of domain ranks across the NLWeb, as a result of user feedback. 
-    | [👀&nbsp;Advertisers](<../../45 🛠️ Helper domains/12 👀 Advertisers/👀🛠️ Advertiser helper.md>) | Finders subscribe to [Advertiser 👀 domains](<../../45 🛠️ Helper domains/12 👀 Advertisers/👀🛠️ Advertiser helper.md>) to know which ads to show to users in addition to search results from [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>). 
+    | [👀&nbsp;Advertisers](<../../45 🤲 Helper domains/12 👀 Advertisers/👀🛠️ Advertiser helper.md>) | Finders subscribe to [Advertiser 👀 domains](<../../45 🤲 Helper domains/12 👀 Advertisers/👀🛠️ Advertiser helper.md>) to know which ads to show to users in addition to search results from [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>). 
 
     ---
     <br/>
@@ -83,8 +83,8 @@
 
 1. **How do Finders filter and rank the results for users?**
 
-    - **[👍 Trust](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>)**: domains untrusted by the user's [Broker 🤵](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) are discarded;
-    - **🔥 Threats**: domains blocked by [Firewalls 🔥](<../../45 🛠️ Helper domains/40 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) may be discarded even when trusted;
+    - **[👍 Trust](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>)**: domains untrusted by the user's [Broker 🤵](<../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) are discarded;
+    - **🔥 Threats**: domains blocked by [Firewalls 🔥](<../../45 🤲 Helper domains/40 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) may be discarded even when trusted;
     - **🧢 Preferences**: the user's preferences, as shared by the user's [Persona 🧢](<../70 🧢 Personas/$ 🧢🫥 Persona agent.md>);
     - **📍 Proximity**: the distance to the user, based on the context shared by the Wallet;
     - **⭐ Rank**: the weighted rank of the domain based on feedback of similar users.
@@ -96,7 +96,7 @@
 1. **Why not merge Finders and Graphs?**
 
     Finders leverage conversations with artificial intelligence, requiring them to comply with contextualized Artificial Intelligence (AI) legislation (e.g., the European Union AI Act). 
-    * Conversely, [Graph 🕸 domains](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>) are typically AI-free, allowing to be more generic.
+    * Conversely, [Graph 🕸 domains](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>) are typically AI-free, allowing to be more generic.
 
 
     ---

@@ -123,7 +123,7 @@
 1. **How are immediate security bans imposed?**
 
     To protect themselves from harmful actors,
-    *  [domains 👥](<../$ 👥 Domains/👥 Domain.md>)s may inherit all revokes from [Firewall 🔥 domains](<../../45 🛠️ Helper domains/40 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) to immediately block any new threat, regardless of any direct or indirect [trust 👍](<👍 Domain Trust.md>) to the harmful actor;
+    *  [domains 👥](<../$ 👥 Domains/👥 Domain.md>)s may inherit all revokes from [Firewall 🔥 domains](<../../45 🤲 Helper domains/40 🔥 Firewalls/$ 🔥🛠️ Firewall helper.md>) to immediately block any new threat, regardless of any direct or indirect [trust 👍](<👍 Domain Trust.md>) to the harmful actor;
     
     e.g., if `any-firewall.com` revokes `any-threat.com`, 
     *  and `any-domain.com` inherits [Trusts 👍](<👍 Domain Trust.md>) from `any-firewall.com`, 
@@ -168,7 +168,7 @@
 
 1. **How to calculate indirect trust paths when nodes are down?**
 
-    Domains can rely on [Graph 🕸 domains](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>):
+    Domains can rely on [Graph 🕸 domains](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>):
     - these keep up-to-date graph representations of all possible trust-paths between two domains, allowing [Trust 👍](<👍 Domain Trust.md>) paths to be queried even when the domains comprising the nodes of those paths are unavailable 
     - e.g., `any-domain.com` can ask `any-graph.com` if `any-seller.com` can be trusted for payment requests.
 
@@ -177,7 +177,7 @@
 
 1. **How can domains know when another domain lost trust in them?**
 
-    [Domains 👥](<../$ 👥 Domains/👥 Domain.md>) can rely on [Graph 🕸 domain helpers](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>):
+    [Domains 👥](<../$ 👥 Domains/👥 Domain.md>) can rely on [Graph 🕸 domain helpers](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>):
     - these can detect trust removals and notify affected [subscriber 🔔 domains](<../../41 🎭 Domain Roles/76 🔔 Subscribers/🔔🎭 Subscriber role.md>);
     - e.g., `any-graph.com` may inform `any-domain.com` whenever `any-seller.com` explicitly adds or removes a trust to `any-domain.com`.
 
@@ -187,7 +187,7 @@
 
 1. **How can domains know when indirect trust changes affect them?**
 
-    [Domains 👥](<../$ 👥 Domains/👥 Domain.md>) can rely on [Graph 🕸 domains](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>):
+    [Domains 👥](<../$ 👥 Domains/👥 Domain.md>) can rely on [Graph 🕸 domains](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>):
     - these can monitor for changes in specific [Trust 👍](<👍 Domain Trust.md>) paths that may affect an indirect [Trust 👍](<👍 Domain Trust.md>) relationship;
     - a typical scenario is an inter-governmental agreement where two entities from different countries trust each other indirectly because their government bodies trust each other.
 

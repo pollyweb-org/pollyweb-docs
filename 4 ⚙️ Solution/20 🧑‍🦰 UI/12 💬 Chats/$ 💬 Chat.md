@@ -18,8 +18,8 @@
     |-|-
     |[🤗 Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | Leads the [Chat 💬](<$ 💬 Chat.md>), always asking first.
     |[🧑‍🦰 Wallet](<../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) | Held by the user, replies directly to the [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>).
-    |[🤵 Broker](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | Intermediates the conversation, receiving the Host's messages and forwarding them to the [Notifier 📣 domain](<../02 📣 Notifiers/📣 Notifier domain.md>).
-    |[📣 Notifier](<../02 📣 Notifiers/📣 Notifier domain.md>) | Implements the mobile push notifications, receiving the messages from the [Broker 🤵 domain](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) and forwarding them to the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
+    |[🤵 Broker](<../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | Intermediates the conversation, receiving the Host's messages and forwarding them to the [Notifier 📣 domain](<../02 📣 Notifiers/📣 Notifier domain.md>).
+    |[📣 Notifier](<../02 📣 Notifiers/📣 Notifier domain.md>) | Implements the mobile push notifications, receiving the messages from the [Broker 🤵 domain](<../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) and forwarding them to the [Wallet 🧑‍🦰 app](<../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
 
     ---
     <br/>
