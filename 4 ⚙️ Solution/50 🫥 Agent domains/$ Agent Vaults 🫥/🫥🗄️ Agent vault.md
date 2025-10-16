@@ -22,7 +22,7 @@
 
     | |Agent 🫥 | Example | Responsibilities 
     |-|-|-|-
-    | 🛎️| [Concierge](<../Concierges 🛎️/$ 🛎️🫥 Concierge agent.md>) | TaskRabbit | Orchestrates tasks with 3rd parties (e.g., deliveries, repairs).
+    | 🛎️| [Concierge](<../Concierges 🛎️/🛎️🫥 Concierge agent.md>) | TaskRabbit | Orchestrates tasks with 3rd parties (e.g., deliveries, repairs).
     |🧚| [Curator](<../Curators 🧚/🧚🫥 Curator agent.md>) | ChatGPT | Filters options sent by [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>).
     |🧳| [Custodian](<../Custodians 🧳/🧳🫥 Custodian agent.md>) | FindMy | Manages the user's [Things 💠](<../../25 🔆 Locators/2 💠 Things/💠🔆 Thing locator.md>), including [Userables 💍](<../../25 🔆 Locators/4 💍 Userables/💍💠 Userable thing.md>) and [⌚ Tapbands](<../../25 🔆 Locators/5 ⌚ Tapbands/⌚💠 Tapband thing.md>).
     |🔎| [Finder](<../Finders 🔎/🔎🫥 Finder agent.md>) | Google | Searches for [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>), and  introduces them when they start a ../05 💬 Chats/01 💬 Chat.mds/01 💬 Chat.md>).

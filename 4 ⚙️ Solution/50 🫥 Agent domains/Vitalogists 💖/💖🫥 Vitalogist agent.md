@@ -29,7 +29,7 @@
 
 1. **Can Vitalogists book the recommended exams?**
 
-    No, those tasks are delegated to the user's [Concierge 🛎️](<../Concierges 🛎️/$ 🛎️🫥 Concierge agent.md>).
+    No, those tasks are delegated to the user's [Concierge 🛎️](<../Concierges 🛎️/🛎️🫥 Concierge agent.md>).
 
     ---
 
