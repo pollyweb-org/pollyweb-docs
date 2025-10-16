@@ -88,7 +88,7 @@
     | 🛠️ [Helper](<🤲👥 Helper domain.md>) | 😃 Hi! What do you need? <br/>- [ Register ]  | > Register
     | 🤵 [Broker](<../24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 [Ready to register?](<../../41 🎭 Domain Roles/27 💼 Consumers/💼⏩ Consumer flows/💼⏩🧑‍🦰 Inform 📝.md>) [Yes, No] <br>- Your broker binds with us 🔗 <br/>- You choose a billing plan 🤝 <br/>- Your payer adds a method 💳 <br/>- Your identity signs the terms 🆔 | > Yes
     | 🤵 [Broker](<../24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 [Bind?](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind 🔗.md>) [Yes, No, +] <br/>- [Vault 🧩](<../../../7 🧩 Codes/$/🧩 VAULT code.md>) | > Yes 
-    | 🤵 [Broker](<../24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 [Allow guest domain?](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Invite 🛠️.md>) [Yes, No]  <br/> - Any Biller 🤝<br/>- [ Always ] for Any Helper 🤲 | > Always
+    | 🤵 [Broker](<../24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 [Allow guest domain?](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Invite 🤲.md>) [Yes, No]  <br/> - Any Biller 🤝<br/>- [ Always ] for Any Helper 🤲 | > Always
     | 🤝 [Biller](<../20 🤝 Billers/🤝🛠️ Biller helper.md>) | 😃 What plan to subscribe? <br/>- [ Simple ] pay-as-you-go  <br/>- [ Monthly ] commitment | > Simple
     | 💳 [Payer](<../../50 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) | 🫥 Link to Any Biller? [Yes, No, +] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC 
     | 🆔 [Identity](<../../50 🫥 Agents/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 [Sign terms?](<../../50 🫥 Agents/45 🆔 Identities/16 🆔🔏 Verify Signatures.md>) 📄 [Yes, No] | > Yes
@@ -121,7 +121,7 @@
     |-|-
     | 📝 [`INFORM`](<../../../9 😃 Talkers/60 ⏩ Msg flows/41 📝 INFORM msg.md>) | To provide instructions
     | 🔗 [`BIND`](<../../../9 😃 Talkers/60 ⏩ Msg flows/44 🔗 BIND msg.md>) | To create a user profile
-    | 🛠️ [`INVITE`](<../../../9 😃 Talkers/60 ⏩ Msg flows/46 🛠️ INVITE msg.md>) | To subscribe the user to plan
+    | 🛠️ [`INVITE`](<../../../9 😃 Talkers/60 ⏩ Msg flows/46 🤲 INVITE msg.md>) | To subscribe the user to plan
     | ❄️ [`FREEZE`](<../../../9 😃 Talkers/60 ⏩ Msg flows/42 ❄️ FREEZE msg.md>) | To disable past inputs
     | ⬇️ [`EVAL`](<../../../9 😃 Talkers/30 🗃️ Talker data/20 ⬇️ EVAL flow.md>) | To register on the database
     | ✅ [`SUCCESS`](<../../../9 😃 Talkers/20 🤔 Prompts/4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>) | To say that it was successful

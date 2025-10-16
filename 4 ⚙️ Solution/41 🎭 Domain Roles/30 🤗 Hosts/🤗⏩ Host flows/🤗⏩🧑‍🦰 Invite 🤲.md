@@ -22,7 +22,7 @@ Consider the following [Chat 💬](<../../../20 🧑‍🦰 UI/12 💬 Chats/$ �
 | [Domain](<../../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 | - | - | - |
 | 🤗 Host  | ℹ️ I'll ask my Helper for a random number. | 
-| 🤵 [Broker](<../../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 [Allow invited guest?](<🤗⏩🧑‍🦰 Invite 🛠️.md>) [Yes, No]  <br/> - Any Helper 🤲 <br/>- [ Always ] for Any Host  🤗 | > Yes
+| 🤵 [Broker](<../../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 [Allow invited guest?](<🤗⏩🧑‍🦰 Invite 🤲.md>) [Yes, No]  <br/> - Any Helper 🤲 <br/>- [ Always ] for Any Host  🤗 | > Yes
 | 🤲 Helper | ℹ️ Hi! I'm Any Helper. The number is 27.    
 | 🤗 Host  | ℹ️ 27, got it! Thanks, Any Helper!  
 |
@@ -40,7 +40,7 @@ The associated [Talker 😃](<../../../../9 😃 Talkers/10 📘 Talker specs/10
 | [Command ⌘](<../../../../9 😃 Talkers/40 🌊 Talker flows/10 ⌘ Command.md>) | Purpose
 |-|-
 | ℹ️ [`INFO`](<../../../../9 😃 Talkers/20 🤔 Prompts/4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) | To show the messages to the user.
-| 🛠️ [`INVITE`](<../../../../9 😃 Talkers/60 ⏩ Msg flows/46 🛠️ INVITE msg.md>) | To collect a random number.
+| 🛠️ [`INVITE`](<../../../../9 😃 Talkers/60 ⏩ Msg flows/46 🤲 INVITE msg.md>) | To collect a random number.
 |
 
 

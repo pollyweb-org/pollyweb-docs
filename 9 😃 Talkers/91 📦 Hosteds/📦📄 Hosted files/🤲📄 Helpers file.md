@@ -1,4 +1,4 @@
-# 🛠️ Hosted `Helpers` file
+# 🤲 Hosted `Helpers` file
 
 > Part of [Hosted 📦 domain](<../📦👥 Hosted domain.md>)
 
