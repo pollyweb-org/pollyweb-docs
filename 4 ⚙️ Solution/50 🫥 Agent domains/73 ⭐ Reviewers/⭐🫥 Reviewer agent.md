@@ -66,6 +66,6 @@
 
 1. **How can users set up a Reviewer vault?**
 
-    Similar to setting up a [Storage 💾](<../80 💾 Storage/$ 📦🫥 Storage agent.md>) vault.
+    Similar to setting up a [Storage 💾](<../80 💾 Storage/💾🫥 Storage agent.md>) vault.
 
     ---
