@@ -42,7 +42,7 @@ What it solves for customers:
 | 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) | 💭 Anything else? [Yes, No]     | > No
 | 🕺 Club           | ℹ️ Order: [Change] <br/>- 1 half pint lager 🍺 (£3.00) <br/>- to Ms. Butterfly
 | 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Vitalogists 💖/💖🫥 Vitalogist agent.md>) | 🫥 Confirm? [Yes, No] <br> - warning: you came by car. | > Yes
-| 💳 [Payer](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/03 💳🎭 Payer role.md>) | 🫥 Pay £3.00 bill? 🧾 [No] <br/>- [ Card ABC ] + $0.10 <br/>- [ Card DEF ] (free) | > Card ABC |
+| 💳 [Payer](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) | 🫥 Pay £3.00 bill? 🧾 [No] <br/>- [ Card ABC ] + $0.10 <br/>- [ Card DEF ] (free) | > Card ABC |
 | 🕺 Club           | ✅ Order submitted [+]
 | 🕺 Club           | ⏳ Preparing your order... <br/>- [ Cancel ] 
 |...

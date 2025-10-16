@@ -2,7 +2,7 @@
 
 <!-- https://quip.com/EzmaAjGwmvRq#temp:C:bSR232c2e6eecff4c639e0bf6068 -->
 
-# 🧑‍🦰🐌💳 Endorse @ [Payer](<../03 💳🎭 Payer role.md>)
+# 🧑‍🦰🐌💳 Endorse @ [Payer](<../💳🎭 Payer role.md>)
 
 > Used in [Charge 💵👉🧑‍🦰](<../../Sellers 💵/💵⏩ Seller flows/💵⏩🧑‍🦰 Charge.md>)
 
@@ -33,7 +33,7 @@ Body:
 |Property|Type|Description
 |-|-|-
 | `From` | string | [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) name.
-| `To`| string | [Payer 💳 domain](<../03 💳🎭 Payer role.md>) name.
+| `To`| string | [Payer 💳 domain](<../💳🎭 Payer role.md>) name.
 | `Subject` | string | `Endorse@Payer`
 | `Bind`| uuid | [Bind 🔗](<../../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) ID.
 | `Collector` | string | [Collector 🏦 domain](<../../../45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) name.
