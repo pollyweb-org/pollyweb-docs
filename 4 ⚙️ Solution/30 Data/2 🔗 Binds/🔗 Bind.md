@@ -41,7 +41,7 @@
     | 🗄️ Vault | ✅ Done! 
     |
 
-    The [Vault's Talker 😃](<../../55 👷 Build domains/3 😃 Talkers/😃 Talker.md>) may look like the following.
+    The [Vault's Talker 😃](<../../35 Chats/😃 Talkers/😃 Talker.md>) may look like the following.
 
     ```yaml
     💬|[Bla]:

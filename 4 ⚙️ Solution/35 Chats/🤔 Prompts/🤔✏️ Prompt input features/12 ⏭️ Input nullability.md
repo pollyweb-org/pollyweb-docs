@@ -36,7 +36,7 @@
 
     <br/>
     
-    Here's the [Talker 😃](<../../../55 👷 Build domains/3 😃 Talkers/😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
 
     ```yaml
     # 😃 Talker
@@ -72,7 +72,7 @@
 
     <br/>
 
-    Here's the [Talker 😃](<../../../55 👷 Build domains/3 😃 Talkers/😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
 
     ```yaml
     # 😃 Talker

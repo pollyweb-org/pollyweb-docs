@@ -71,7 +71,7 @@
 
 
 
-1. **What's the syntax on a [Talker 😃](<../../../55 👷 Build domains/3 😃 Talkers/😃 Talker.md>)?**
+1. **What's the syntax on a [Talker 😃](<../../😃 Talkers/😃 Talker.md>)?**
 
     ```yaml
     # Simplest.
@@ -81,7 +81,7 @@
     | Argument| Purpose 
     |-|-
     | `<statement>`| Message to show to the user
-    | `$placeholder`| Optional [$placeholder 💾](<../../../55 👷 Build domains/3 😃 Talkers/😃💾 Talker data/10 💾 $Placeholder.md>) with the user's answer
+    | `$placeholder`| Optional [$placeholder 💾](<../../😃 Talkers/😃💾 Talker data/10 💾 $Placeholder.md>) with the user's answer
     
     ```yaml
     # Comprehensive.
@@ -128,7 +128,7 @@
    
     <br/>
 
-    Here's the [Talker 😃](<../../../55 👷 Build domains/3 😃 Talkers/😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
     
     ```yaml
     # Talker 😃
@@ -168,7 +168,7 @@
 
     <br/>
    
-    Here's the [Talker 😃](<../../../55 👷 Build domains/3 😃 Talkers/😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
     
     ```yaml
     # Explicit, not recommended, just for the exercise.
@@ -233,7 +233,7 @@
    
     <br/>
 
-    Here's the [Talker 😃](<../../../55 👷 Build domains/3 😃 Talkers/😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
     
     ```yaml
     # Explicit, not recommended, just for the exercise.
@@ -256,7 +256,7 @@
     - SUCCESS|You entered `$money`
     ```
 
-    | [Command ⌘](<../../../55 👷 Build domains/3 😃 Talkers/😃⚙️ Talker cmds/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/10 ⌘ Command.md>) | Purpose
     |-|-
     | 💰 [`AMOUNT`](<43 💰 AMOUNT prompt.md>) | To collect a structured currency value.
     | ✅ [`SUCCESS`](<../🤔📢 Prompt status/23 ✅ SUCCESS prompt.md>) | To show the formatted collected value.

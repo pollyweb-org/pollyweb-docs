@@ -42,8 +42,8 @@
     
     | Argument| Purpose | Example
     |-|-|-
-    | `Then` | [Procedure ⚙️](<../../../55 👷 Build domains/3 😃 Talkers/😃⚙️ Talker cmds/11 ⚙️ Procedure.md>) or [Command ⌘](<../../../55 👷 Build domains/3 😃 Talkers/😃⚙️ Talker cmds/10 ⌘ Command.md>) on `True` | `INFO\|OK`
-    | `Else` | [Procedure ⚙️](<../../../55 👷 Build domains/3 😃 Talkers/😃⚙️ Talker cmds/11 ⚙️ Procedure.md>) or [Command ⌘](<../../../55 👷 Build domains/3 😃 Talkers/😃⚙️ Talker cmds/10 ⌘ Command.md>) on `False` | `INFO\|NOK`
+    | `Then` | [Procedure ⚙️](<../../😃 Talkers/😃⚙️ Talker cmds/11 ⚙️ Procedure.md>) or [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/10 ⌘ Command.md>) on `True` | `INFO\|OK`
+    | `Else` | [Procedure ⚙️](<../../😃 Talkers/😃⚙️ Talker cmds/11 ⚙️ Procedure.md>) or [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/10 ⌘ Command.md>) on `False` | `INFO\|NOK`
     | `Emoji` | Optional [alternative emoji 😶](<../🤔✏️ Prompt input features/14 😶 Input emojis.md>) | `😶`
     | `Details` | Optional [expandable details ⊕](<../🤔⚙️ Prompt features/3 ⊕ with Details.md>) | `Hint...`
     | `Appendix` | Optional [file attachment 📎](<../🤔⚙️ Prompt features/5 📎 with Appendix.md>) | `{/...}`
@@ -65,7 +65,7 @@
     <br/>
     
 
-    Here's the [Talker 😃](<../../../55 👷 Build domains/3 😃 Talkers/😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
 
     ```yaml
     # 😃 Talker
@@ -108,7 +108,7 @@
 
     <br/>
 
-    Here's the [Talker 😃](<../../../55 👷 Build domains/3 😃 Talkers/😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
 
     ```yaml
     # 😃 Talker
