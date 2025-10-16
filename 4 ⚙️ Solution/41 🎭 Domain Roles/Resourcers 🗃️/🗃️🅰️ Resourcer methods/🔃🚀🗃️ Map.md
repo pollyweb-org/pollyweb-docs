@@ -1,10 +1,10 @@
 # 🔃🚀🗃️ Map @ Resourcer
 
-> Part of the [🔃⏩🗃️ Sync](<../../../55 👷 Build domains/🛠️ Syncers/🔃⏩ Syncer flows/20 🔃⏩🗃️ Sync.md>) flow:
+> Part of the [🔃⏩🗃️ Sync](<../../../55 👷 Build domains/🔃 Syncers/🔃⏩ Syncer flows/20 🔃⏩🗃️ Sync.md>) flow:
 > <br/> • Succeeded by [`Upload@Resourcer`](<🔃🚀🗃️ Upload.md>)
 
 * This request 
-    * is signed with the [Syncer's 🔃](<../../../55 👷 Build domains/🛠️ Syncers/🔃🛠️ Syncer tool.md>) private-key pair 
+    * is signed with the [Syncer's 🔃](<../../../55 👷 Build domains/🔃 Syncers/🔃🛠️ Syncer tool.md>) private-key pair 
     * matching the `PublicKey` 
     * sent on the [`Clone@Resourcer`](<🔃🚀🗃️ Clone.md>) request.
 
