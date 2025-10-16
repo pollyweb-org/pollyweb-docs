@@ -27,7 +27,7 @@ Body:
 | Object | Property | Type |Description
 |-|-|-|-
 | Header | `From`    | string | [Vault 🗄️](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) of the [Bind 🔗](<../../../4 ⚙️ Solution/30 🧩 Data/20 🔗 Binds/🔗 Bind.md>)
-|| `To`      | string | [Broker 🤵](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) of the [Bind 🔗](<../../../4 ⚙️ Solution/30 🧩 Data/20 🔗 Binds/🔗 Bind.md>)
+|| `To`      | string | [Broker 🤵](<../../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) of the [Bind 🔗](<../../../4 ⚙️ Solution/30 🧩 Data/20 🔗 Binds/🔗 Bind.md>)
 || `Subject` | string | `Engage@Broker`
 | Body | `BindID`  | uuid   | [Bind 🔗](<../../../4 ⚙️ Solution/30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) of [`.HOST/BIND/SELF` 🧩](<../../../7 🧩 Codes/$/🧩 VAULT code.md>)
 | | `Locator`| string | [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) for [`Hello@Host`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🅰️ Host methods/🤵🐌🤗 Hello.md>)

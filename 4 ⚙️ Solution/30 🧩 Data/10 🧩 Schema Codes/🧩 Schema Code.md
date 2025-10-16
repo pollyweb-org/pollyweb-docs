@@ -43,7 +43,7 @@
     * references version `2.0` 
     * of a schema called `TOKEN` 
     * that is defined in the [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>) 
-    * of the [Authority 🏛️ domain](<../../45 🛠️ Helper domains/14 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>) called `nlweb.com`. 
+    * of the [Authority 🏛️ domain](<../../45 🤲 Helper domains/14 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>) called `nlweb.com`. 
     
     For readability:
     * given that `nlweb.org` schemas will be widely used, 
@@ -71,7 +71,7 @@
     |-|-
     | [📜 Manifest](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>)  | When a version is omitted in the [Schema Code 🧩](<🧩 Schema Code.md>) in its [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>) definition, then it is assumed to be `1.0`.
     | [📨 Message](<../../40 👥 Domains/41 📨 Messages/📨 Message.md>) | When a version is omitted in a [domain Messages 📨](<../../40 👥 Domains/41 📨 Messages/📨 Message.md>), then it is also assumed to be `1.0`.
-    | [🕸 Graph](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>) | When a version is omitted when calling [`Schema@Graph`](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Schema.md>), then the [🕸 Graph](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>) returns the latest version.
+    | [🕸 Graph](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>) | When a version is omitted when calling [`Schema@Graph`](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Schema.md>), then the [🕸 Graph](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>) returns the latest version.
 
     ---
     <br/>
@@ -80,7 +80,7 @@
 1. **How are Schema Codes used in data sharing between domains?**
    
     When a [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) needs information stored in a [user's Vault 🗄️ domains](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>), 
-    * it invokes the [`Query@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) from the [user's Broker 🤵 domain](<../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>), asking for datasets that comply with a given [Schema Code 🧩](<🧩 Schema Code.md>).
+    * it invokes the [`Query@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) from the [user's Broker 🤵 domain](<../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>), asking for datasets that comply with a given [Schema Code 🧩](<🧩 Schema Code.md>).
 
     For example, consider an airline requesting passport data for a flight check-in from a citizen with dual British and American nationalities:
     * the airline may ask for the `icao.int/PASSPORT`  [Schema Code 🧩](<🧩 Schema Code.md>)
@@ -105,7 +105,7 @@
 
     For resilience and performance, [domains 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) cannot read [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>) directly from the source.
 
-    * Instead, [domains 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) need to query [Graph 🕸 domains](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>) for a schema definition, by passing the [Schema Code 🧩](<🧩 Schema Code.md>) to the [`Schema@Graph`](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Schema.md>).
+    * Instead, [domains 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) need to query [Graph 🕸 domains](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>) for a schema definition, by passing the [Schema Code 🧩](<🧩 Schema Code.md>) to the [`Schema@Graph`](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Schema.md>).
 
         ```yaml
         # Sample request to read a schema.
@@ -125,7 +125,7 @@
     When YAML content starts with `🤝: {Schema Code}`,
     * e.g., `🤝:` [`.MANIFEST/CODE`](<../../40 👥 Domains/44 📜 Manifests/🧩 Manifest schemas/🧩 CODE.md>)
     * it means that the following YAML content should comply with the given [Schema Code 🧩](<🧩 Schema Code.md>) defined.
-    * This allows readers to validate the YAML content by pulling the validation schema from the [`Schema@Graph`](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Schema.md>).
+    * This allows readers to validate the YAML content by pulling the validation schema from the [`Schema@Graph`](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Schema.md>).
     
     ---
     <br/>
@@ -137,7 +137,7 @@
     | Schema | Description
     |-|-
     | [`.MANIFEST/CODE` 🧩](<../../40 👥 Domains/44 📜 Manifests/🧩 Manifest schemas/🧩 CODE.md>) | CODE properties
-    | [`.MANIFEST/DELEGATE` 🧩](<../../40 👥 Domains/44 📜 Manifests/🧩 Manifest schemas/🧩 DELEGATE.md>) | Delegation to other [Authorities 🏛️](<../../45 🛠️ Helper domains/14 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>)
+    | [`.MANIFEST/DELEGATE` 🧩](<../../40 👥 Domains/44 📜 Manifests/🧩 Manifest schemas/🧩 DELEGATE.md>) | Delegation to other [Authorities 🏛️](<../../45 🤲 Helper domains/14 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>)
     | [`.TYPES` 🧩](<../../../7 🧩 Codes/$/🧩 TYPES code.md>) | Generic referenceable types
 
     ---
@@ -157,7 +157,7 @@
 
     No. 
     - [Domains 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) don't need `nlweb.org` to be online to access its [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>) (nor the one of any other [domain 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>), for that matter).
-    - Instead, [domains 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) should rely on [Graph 🕸 helper domains](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>) to look up schema definitions.
+    - Instead, [domains 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) should rely on [Graph 🕸 helper domains](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>) to look up schema definitions.
 
     ---
     <br/>
@@ -197,7 +197,7 @@
 1. **Wouldn't JSON be faster than YAML?**
 
     Yes, JSON is much faster than YAML. 
-    - But, because of [Graph 🕸 helper domains](<../../45 🛠️ Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>), the performance of either protocol is irrelevant in this context. 
+    - But, because of [Graph 🕸 helper domains](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🛠️ Graph helper.md>), the performance of either protocol is irrelevant in this context. 
     - NLWeb advocates for human readability, with YAML format allowing comments and being closer to structured natural language in this context.
 
     ---

@@ -12,7 +12,7 @@
 | 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agents/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Bar (4.4 ⭐) [+]
 | 🍸 Bar        | ℹ️ This is Table 23 at Any Bar.
 | 🍸 Bar        | 😃 Hi! What do you need? <br/>- [ Order ] <br/>- [ Something else ] | > Order
-| 🤵 [Broker](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Ready to order? [Yes, No] <br/> - your curator orders 🧚<br/> - your vitalogist reviews 💖 <br/> - your ID proves you're 21+ 🆔 <br/> - your payer pays the bill 💳 <br/> - we'll bring it when ready 🍸 <br/> - your vitalogist records it 💖 | > Yes
+| 🤵 [Broker](<../../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Ready to order? [Yes, No] <br/> - your curator orders 🧚<br/> - your vitalogist reviews 💖 <br/> - your ID proves you're 21+ 🆔 <br/> - your payer pays the bill 💳 <br/> - we'll bring it when ready 🍸 <br/> - your vitalogist records it 💖 | > Yes
 | 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/🧚🫥 Curator agent.md>) | 🫥 Share preferences? <br/>- [ 👤 solo ] <br/>- [ 👨‍👩‍👦 family ] <br/>- [ 🤝 business ] | > 🤝 business 
 | 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/🧚🫥 Curator agent.md>) | ⏳ Analyzing menu... 
 | 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agents/30 🧚 Curators/🧚🫥 Curator agent.md>) | 💭 Here are suggestions: <br/>- [ white wine 🍷 ] <br/> - [ Still water 💧 ] <br/> - [ tap water 🚰 ] | `a beer`
@@ -36,5 +36,5 @@
 | 🍸 Bar        | ℹ️ Ready, we'll take it there [+]
 | 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agents/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | 🫥 Save intake? [Yes, No] | > Yes
 | ⭐ [Rate](<../../../4 ⚙️ Solution/50 🫥 Agents/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5 |
-| [👀 Ads](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/12 👀 Advertisers/👀🛠️ Advertiser helper.md>) | ⓘ Explore follow-ups: <br/>- [ 🧙‍♀️ Wicked tickets 50% off! ] 
+| [👀 Ads](<../../../4 ⚙️ Solution/45 🤲 Helper domains/12 👀 Advertisers/👀🛠️ Advertiser helper.md>) | ⓘ Explore follow-ups: <br/>- [ 🧙‍♀️ Wicked tickets 50% off! ] 
 ||

@@ -13,7 +13,7 @@ Consider the following excerpt from the [Flight check in 🤝 use case](<../../.
 | Service       | Prompt | User
 | - | - | - |
 | 🛩️ Airline     | ℹ️ I need the passports.
-| 🤵 [Broker](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Share passports?  [All, No] <br/> - [ ] 🇬🇧 UK Alice <br/>- [ ] 🇬🇧 UK Teresa <br/>- [ ] 🇺🇸 US Teresa  | [X] 🇬🇧 UK Alice <br/> [X] 🇺🇸 US Teresa
+| 🤵 [Broker](<../../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Share passports?  [All, No] <br/> - [ ] 🇬🇧 UK Alice <br/>- [ ] 🇬🇧 UK Teresa <br/>- [ ] 🇺🇸 US Teresa  | [X] 🇬🇧 UK Alice <br/> [X] 🇺🇸 US Teresa
 | 🛩️ Airline     | ✅ Thanks!
 |
 
@@ -26,14 +26,14 @@ Consider the following excerpt from the [Flight check in 🤝 use case](<../../.
 |#| Step | Purpose
 |-|-|-
 |1| [💼🐌🤵 `Query@Broker`](<../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/61 💼🐌🤵 Query.md>) | Ask for user data in specific [Schema Codes 🧩](<../../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>)
-|2| [👥🚀🕸 `Queryable@Graph`](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Queryable.md>) | Match user [Bind 🔗](<../../../4 ⚙️ Solution/30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) with usable [Trust 👍](<../../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) paths
-|3| [👥🚀🕸 `Translate@Graph`](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>) | Translate the [Schema Codes 🧩](<../../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>)
-|4| [🤗⏩🧑‍🦰 Prompt 🤔](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) ask users to share their [Tokens 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🎫 Token.md>)
+|2| [👥🚀🕸 `Queryable@Graph`](<../../../4 ⚙️ Solution/45 🤲 Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Queryable.md>) | Match user [Bind 🔗](<../../../4 ⚙️ Solution/30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) with usable [Trust 👍](<../../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) paths
+|3| [👥🚀🕸 `Translate@Graph`](<../../../4 ⚙️ Solution/45 🤲 Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>) | Translate the [Schema Codes 🧩](<../../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>)
+|4| [🤗⏩🧑‍🦰 Prompt 🤔](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) ask users to share their [Tokens 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🎫 Token.md>)
 |5| [🤵🐌📣 `Share@Notifier`](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/4 🎫 Tokens/2 🤵🐌📣 Share.md>) | Proxy the share order to the [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 |6| [🤵🐌💼 `Receive@Consumer`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/💼🅰️ Consumer methods/🧑‍🦰🐌💼 Receive.md>) | Send the shared offline [Tokens 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🎫 Token.md>)
-|7| [👥🚀🕸 `Trusts@Graph`](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>) | Verify if the [Issuers 🎴](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) are [Trustworthy 👍](<../../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>)
-|8| [👥🚀🕸 `PublicKey@Graph`](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Public Key.md>) | Get the DKIM public key of each [Token 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🎫 Token.md>)
-|9| [💼⏩🤵 Token status 🎫](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/💼⏩ Consumer flows/💼⏩🤵 Token status 🎫.md>) | Ask the Token's [Broker 🤵](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) if it is still active
+|7| [👥🚀🕸 `Trusts@Graph`](<../../../4 ⚙️ Solution/45 🤲 Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>) | Verify if the [Issuers 🎴](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) are [Trustworthy 👍](<../../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>)
+|8| [👥🚀🕸 `PublicKey@Graph`](<../../../4 ⚙️ Solution/45 🤲 Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Public Key.md>) | Get the DKIM public key of each [Token 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🎫 Token.md>)
+|9| [💼⏩🤵 Token status 🎫](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/💼⏩ Consumer flows/💼⏩🤵 Token status 🎫.md>) | Ask the Token's [Broker 🤵](<../../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) if it is still active
 |
 
 <br/>

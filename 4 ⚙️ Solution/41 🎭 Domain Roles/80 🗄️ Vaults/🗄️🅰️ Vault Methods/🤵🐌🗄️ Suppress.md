@@ -23,7 +23,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header| `From` | string | [Broker 🤵 domain](<../../../45 🛠️ Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>)
+|Header| `From` | string | [Broker 🤵 domain](<../../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>)
 || `To` | string | [Vault 🗄️ domain](<../🗄️🎭 Vault role.md>)
 || `Subject` | string | `Suppress@Vault`
 |Body| `Consumer` | string | [Consumer 💼 domain](<../../27 💼 Consumers/💼🎭 Consumer role.md>)

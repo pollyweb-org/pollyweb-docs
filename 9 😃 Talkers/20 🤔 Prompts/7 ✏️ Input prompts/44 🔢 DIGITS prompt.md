@@ -90,7 +90,7 @@
     | - | - | - |
     | [🤗 Host](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 😃 What's the code? | 🔢 0123
     [🫥 Agent](<../../../4 ⚙️ Solution/50 🫥 Agents/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) | 🫥 What's the code? | 🔢 01234
-    | [🛠️ Helper](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/$ 🛠️ Helpers/🛠️👥 Helper domain.md>) | 🫥 What's the code? | 🔢 000
+    | [🛠️ Helper](<../../../4 ⚙️ Solution/45 🤲 Helper domains/$ 🤲 Helpers/🛠️👥 Helper domain.md>) | 🫥 What's the code? | 🔢 000
     |
 
     <br/>

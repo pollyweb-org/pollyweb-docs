@@ -12,5 +12,5 @@ How to alter a hotel booking at the reception?
 | 🏨 Hotel  | ✅ Booking altered: <br> - Dr. Alice! <br/> - from Feb 18 to Feb 20 <br/> - room king to garden <br/> - 1 person, no breakfast 
 | 🏨 Hotel  | 😃 Anything else? [No] <br/> - [ Check-in ] <br/> - [ Something else ] | > No
 | ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agents/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐⭐⭐⭐⭐
-| [👀 Ads](<../../../../4 ⚙️ Solution/45 🛠️ Helper domains/12 👀 Advertisers/👀🛠️ Advertiser helper.md>) | 🫥 Explore follow-up actions? [No] <br/>- [ Book a city tour 🚌 ]  <br/>- [ See a flamenco show 💃 ]
+| [👀 Ads](<../../../../4 ⚙️ Solution/45 🤲 Helper domains/12 👀 Advertisers/👀🛠️ Advertiser helper.md>) | 🫥 Explore follow-up actions? [No] <br/>- [ Book a city tour 🚌 ]  <br/>- [ See a flamenco show 💃 ]
 |||

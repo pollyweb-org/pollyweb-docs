@@ -40,7 +40,7 @@
 1. **How do Antennas know the protocol of each Pluggable device?**
 
     They don't. 
-    * When users plug the devices to an Antenna, the Antenna registers the device in the connected [🛰️ Relayer](<../../45 🛠️ Helper domains/80 🛰️ Relayers/$ 🛰️🛠️ Relayer helper.md>);
+    * When users plug the devices to an Antenna, the Antenna registers the device in the connected [🛰️ Relayer](<../../45 🤲 Helper domains/80 🛰️ Relayers/$ 🛰️🛠️ Relayer helper.md>);
     * The Relayer then sends the commands to Pluggable via the Antenna (e.g., `hello @port #1`).
 
     ---
@@ -53,7 +53,7 @@
 
 1. **How do Antennas connect to the Relayer?**
 
-    Antennas connect automatically to their [🛰️ Relayer](<../../45 🛠️ Helper domains/80 🛰️ Relayers/$ 🛰️🛠️ Relayer helper.md>) as soon as they detect internet - this is a factory setting.
+    Antennas connect automatically to their [🛰️ Relayer](<../../45 🤲 Helper domains/80 🛰️ Relayers/$ 🛰️🛠️ Relayer helper.md>) as soon as they detect internet - this is a factory setting.
 
     ---
 
@@ -65,6 +65,6 @@
 
 1. **How can a domain register an Antenna?**
 
-    After buying an Antenna from a [Brand 🍏](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>), a domain admin taps/scans the Antenna's [Locator](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) and follows the option to register the Antenna. In the process, the [🛰️ Relayer](<../../45 🛠️ Helper domains/80 🛰️ Relayers/$ 🛰️🛠️ Relayer helper.md>) asks the user to share their domain ADMIN [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) issued by the domain.
+    After buying an Antenna from a [Brand 🍏](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>), a domain admin taps/scans the Antenna's [Locator](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) and follows the option to register the Antenna. In the process, the [🛰️ Relayer](<../../45 🤲 Helper domains/80 🛰️ Relayers/$ 🛰️🛠️ Relayer helper.md>) asks the user to share their domain ADMIN [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) issued by the domain.
 
     ---

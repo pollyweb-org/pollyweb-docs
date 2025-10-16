@@ -10,7 +10,7 @@
 
 💬 NLWeb's approach is:
 - to enable an hierarchical chain of [trust 👍](<../../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) for [schema 🧩](<../../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) bound digital [tokens 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🎫 Token.md>);
-- and to allow [international organizations 🏛️](<../../../4 ⚙️ Solution/45 🛠️ Helper domains/14 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>) to regulate the [ecosystem 🪢](<../../../4 ⚙️ Solution/10 Intro/15 🪢 Ecosystem.md>).
+- and to allow [international organizations 🏛️](<../../../4 ⚙️ Solution/45 🤲 Helper domains/14 🏛️ Authorities/$ 🏛️🛠️ Authority helper.md>) to regulate the [ecosystem 🪢](<../../../4 ⚙️ Solution/10 Intro/15 🪢 Ecosystem.md>).
 
 
 ---

@@ -1,6 +1,6 @@
 # 😃⏩🤗 Handle @ Talker
 
-> Implements [Hoster ☁️ helper domain](<../../4 ⚙️ Solution/45 🛠️ Helper domains/55 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>)
+> Implements [Hoster ☁️ helper domain](<../../4 ⚙️ Solution/45 🤲 Helper domains/55 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>)
 
 * [Talkers 😃](<../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>) ask [Hosted 📦 domains](<../../9 😃 Talkers/91 📦 Hosteds/📦👥 Hosted domain.md>) 
     * to handle [{Function} 🐍](<../../9 😃 Talkers/30 🗃️ Talker data/12 🐍 {Function}.md>) evaluations 

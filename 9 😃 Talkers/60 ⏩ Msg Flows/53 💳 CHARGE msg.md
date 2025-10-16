@@ -16,7 +16,7 @@
     ```
 
    * Calls [💵🐌🤵 Charge @ Broker](<../../6 🅰️ APIs/15 🤵🅰️ Broker/70 🤵🅰️ Pay/21 💵🐌🤵 Charge.md>)
-   * May have a [Biller 🤝](<../../4 ⚙️ Solution/45 🛠️ Helper domains/20 🤝 Billers/🤝🛠️ Biller helper.md>) ID for multiple [Collectors 🏦](<../../4 ⚙️ Solution/45 🛠️ Helper domains/30 🏦 Collectors/$ 🏦🛠️ Collector helper.md>).
+   * May have a [Biller 🤝](<../../4 ⚙️ Solution/45 🤲 Helper domains/20 🤝 Billers/🤝🛠️ Biller helper.md>) ID for multiple [Collectors 🏦](<../../4 ⚙️ Solution/45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>).
 
 
 1. **What's happening?**
