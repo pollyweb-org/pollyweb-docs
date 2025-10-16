@@ -9,7 +9,7 @@
 
     The `🪣 Pools.yaml` file
     * indexes the [Resources 🗃️ folder](<🗃️📂 Resources folder.md>)
-    * to be used by the [Talker `MAP` command](<../../30 🗃️ Talker data/61 🪣 MAP item.md>).
+    * to be used by the [Talker `MAP` command](<../../../../9 😃 Talkers/30 🗃️ Talker data/61 🪣 MAP item.md>).
     
     ---
     <br/>

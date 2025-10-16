@@ -22,8 +22,8 @@ $ syncer sync
 
 | # | Call | Notes
 |-|-|-
-|1|[🔃🚀🗃️ `Map@Resourcer`](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🅰️ Resourcer methods/🔃🚀🗃️ Map.md>) | [Syncers](<../../9 😃 Talkers/90 ☁️ Hosters/01 🔃🛠️ Syncer tool.md>) send a map current files
+|1|[🔃🚀🗃️ `Map@Resourcer`](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🅰️ Resourcer methods/🔃🚀🗃️ Map.md>) | [Syncers](<../../4 ⚙️ Solution/90 👷 Build/01 🛠️ Syncers/01 🔃🛠️ Syncer tool.md>) send a map current files
 |2|[🔃🚀🗃️ `Upload@Resourcer`](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🅰️ Resourcer methods/🔃🚀🗃️ Upload.md>) | Then upload each file individually
 |3|[🔃🚀🗃️ `Uploaded@Resourcer`](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🅰️ Resourcer methods/🔃🚀🗃️ Uploaded.md>) | [Resourcers 🗃️](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🎭 Resourcer role.md>) calculate changes
-|4|[🔃🚀🗃️ `Download@Resourcer`](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🅰️ Resourcer methods/🔃🚀🗃️ Download.md>) | [Syncers](<../../9 😃 Talkers/90 ☁️ Hosters/01 🔃🛠️ Syncer tool.md>) execute the changes
+|4|[🔃🚀🗃️ `Download@Resourcer`](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🅰️ Resourcer methods/🔃🚀🗃️ Download.md>) | [Syncers](<../../4 ⚙️ Solution/90 👷 Build/01 🛠️ Syncers/01 🔃🛠️ Syncer tool.md>) execute the changes
 |
