@@ -50,7 +50,7 @@
     
     ```yaml
     Code: nlweb.org/SIGNATURE:1.0
-    Domain: any-domain.com
+    Domain: any-domain.dom
     Signed: '2024-09-21T12:34:00Z'
     DKIM: pk1
     Hash: KDHNERT...

@@ -110,7 +110,7 @@
         ```yaml
         # Sample request to read a schema.
         Header: 
-            From: any-domain.com
+            From: any-domain.dom
             To: any-graph.dom
             Subject: Schema@Graph
         Body:

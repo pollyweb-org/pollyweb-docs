@@ -10,7 +10,7 @@
 
 ```yaml
 About:
-    Domain: any-domain.com
+    Domain: any-domain.dom
     Name: Any Domain
     Description: This is a dummy domain.
     SmallIcon: 'https://picsum.photos/20/20'
