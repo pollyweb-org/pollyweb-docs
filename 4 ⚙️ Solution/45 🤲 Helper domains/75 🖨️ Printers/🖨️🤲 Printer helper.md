@@ -5,7 +5,7 @@
 
     Printers 🖨️ are [Helper 🤲 domains](<../$ 🤲 Helpers/🤲👥 Helper domain.md>) 
     * specialized in printing and managing [NFC/QR Locators 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) 
-    * on behalf of [Brand 🍏 domains](<../../41 🎭 Domain Roles/Brands 🍏/$ 🍏🎭 Brand role.md>) or any other [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>).
+    * on behalf of [Brand 🍏 domains](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) or any other [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>).
 
     ---
 
@@ -42,7 +42,7 @@
 
     - **Direct sell**: Printers 🖨️ may sell generic stickers and tags in supermarkets for users to enhance their existing objects.
     
-    - **Supplier sell**: Printers 🖨️ may supply [Brand 🍏 domains](<../../41 🎭 Domain Roles/Brands 🍏/$ 🍏🎭 Brand role.md>) and other [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) with printing [Locators 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) that these domains then integrate into their products.
+    - **Supplier sell**: Printers 🖨️ may supply [Brand 🍏 domains](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) and other [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) with printing [Locators 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) that these domains then integrate into their products.
 
     ---
 

@@ -31,11 +31,11 @@
     | [🤵 Broker](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | WhatsApp | Manages [Chats](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) between [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) and [Hosts 🤗](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)
     | [⏳ Buffer](<../27 ⏳ Buffers/⏳🤲 Buffer helper.md>) | Kafka | Throttles [Streamers 🌬️](<../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>) for [Subscribers 🔔](<../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>)
     | [🏦 Collector](<../30 🏦 Collectors/🏦🤲 Collector helper.md>) | CapitalOne | Collects money from [Payers 💳](<../../50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>) for [Sellers 💵](<../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>)
-    | [🔐 Keymaker](<../58 🔐 Keymakers/05  🔐🏭 Keymaker supplier.md>) | - | Manages [Padlocks 🔒](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>) for [Brands 🍏](<../../41 🎭 Domain Roles/Brands 🍏/$ 🍏🎭 Brand role.md>)
+    | [🔐 Keymaker](<../58 🔐 Keymakers/05  🔐🏭 Keymaker supplier.md>) | - | Manages [Padlocks 🔒](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>) for [Brands 🍏](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>)
     | [💳 Payer](<../../50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>) | PayPal | Pays [Collectors 🏦](<../30 🏦 Collectors/🏦🤲 Collector helper.md>) for [domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>)
-    | [🖨️ Printer](<../75 🖨️ Printers/🖨️🤲 Printer helper.md>) | - | Prints [Locators 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) for [Brand 🍏](<../../41 🎭 Domain Roles/Brands 🍏/$ 🍏🎭 Brand role.md>) and [Host 🤗](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)
+    | [🖨️ Printer](<../75 🖨️ Printers/🖨️🤲 Printer helper.md>) | - | Prints [Locators 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) for [Brand 🍏](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) and [Host 🤗](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)
     | [🛰️ Relayer](<../80 🛰️ Relayers/🛰️🤲 Relayer helper.md>)
-    | [🪄 Wand](<../90 🪄 Wands/🪄🤲 Wand helper.md>) | - | Manages [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) for [Things 💠](<../../25 🔆 Locators/2 💠 Things/💠🔆 Thing locator.md>) for [Brands 🍏](<../../41 🎭 Domain Roles/Brands 🍏/$ 🍏🎭 Brand role.md>)
+    | [🪄 Wand](<../90 🪄 Wands/🪄🤲 Wand helper.md>) | - | Manages [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) for [Things 💠](<../../25 🔆 Locators/2 💠 Things/💠🔆 Thing locator.md>) for [Brands 🍏](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>)
 
     ---
     <br/>
