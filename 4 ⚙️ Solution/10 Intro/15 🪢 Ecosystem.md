@@ -33,7 +33,7 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
     * data [Consumer 💼](<../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>), 
     * user-bound [Vault 🗄️](<../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>), 
     * event [Streamer 🌬️](<../41 🎭 Domain Roles/75 🌬️ Streamers/🌬️🎭 Streamer role.md>), 
-    * and asynchronous service [Supplier 🏭](<../41 🎭 Domain Roles/78 🏭 Suppliers/$ 🏭🎭 Supplier role.md>). 
+    * and asynchronous service [Supplier 🏭](<../41 🎭 Domain Roles/78 🏭 Suppliers/🏭🎭 Supplier role.md>). 
 
 - Domains are extended by helper domains, e.g.:
     * [Buffer ⏳ helper domains](<../45 🤲 Helper domains/27 ⏳ Buffers/⏳🤲 Buffer helper.md>) for global ingestion and throttling, 

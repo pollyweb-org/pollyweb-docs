@@ -5,7 +5,7 @@
 
 1. **What is a Supplier domain role in NLWeb?**
 
-    A [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) with a [Supplier 🏭 role](<$ 🏭🎭 Supplier role.md>) is 
+    A [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) with a [Supplier 🏭 role](<🏭🎭 Supplier role.md>) is 
     * an [Integrator 🪢 domain](<../35 🪢 Integrators/$ 🪢🎭 Integrator role.md>) 
     * that exposes order APIs 
     * to accept asynchronous order requests from other [domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>).
@@ -33,21 +33,21 @@
 
 1. **What are examples of order requesters?**
 
-    * When users have tasks to complete, [Concierge 🛎️ domains](<../../50 🫥 Agent domains/25 🛎️ Concierges/$ 🛎️🫥 Concierge agent.md>) send order requests to [Supplier 🏭 domains](<$ 🏭🎭 Supplier role.md>) for them to perform steps in those tasks.
+    * When users have tasks to complete, [Concierge 🛎️ domains](<../../50 🫥 Agent domains/25 🛎️ Concierges/$ 🛎️🫥 Concierge agent.md>) send order requests to [Supplier 🏭 domains](<🏭🎭 Supplier role.md>) for them to perform steps in those tasks.
 
     ---
     <br/>
 
 1. **How many responses are expected per order?**
 
-    A request to a [Supplier 🏭 domain](<$ 🏭🎭 Supplier role.md>) will receive one or more asynchronous updated events.
+    A request to a [Supplier 🏭 domain](<🏭🎭 Supplier role.md>) will receive one or more asynchronous updated events.
 
     ---
     <br/>
 
 1. **Are order rejections synchronous?**
 
-    No. Adding an order to a [Supplier 🏭 domain](<$ 🏭🎭 Supplier role.md>) doesn't return a synchronous response.
+    No. Adding an order to a [Supplier 🏭 domain](<🏭🎭 Supplier role.md>) doesn't return a synchronous response.
 
     ---
     <br/>
@@ -61,21 +61,21 @@
 
 1. **Can Suppliers use other Suppliers for sub tasks?**
 
-    Yes, [Supplier 🏭 domains](<$ 🏭🎭 Supplier role.md>) can use other sub-Suppliers if they want to - there's no restriction to do so.
+    Yes, [Supplier 🏭 domains](<🏭🎭 Supplier role.md>) can use other sub-Suppliers if they want to - there's no restriction to do so.
 
     ---
     <br/>
 
 1. **Can requesters know about the details of sub-Suppliers?**
 
-    No. Requesters send order requests to [Supplier 🏭 domains](<$ 🏭🎭 Supplier role.md>) but don't know which sub-Suppliers they speak with.
+    No. Requesters send order requests to [Supplier 🏭 domains](<🏭🎭 Supplier role.md>) but don't know which sub-Suppliers they speak with.
 
     ---
     <br/>
 
 9.  **How can Suppliers be implemented?**
 
-    [Supplier 🏭 domains](<$ 🏭🎭 Supplier role.md>) will typically:
+    [Supplier 🏭 domains](<🏭🎭 Supplier role.md>) will typically:
     - use LLMs to understand requests in natural language;
     - use Agentic AI to orchestrate and execute the requests;
     - use crowd sourcing platforms like Amazon Mechanical Turk and Task Rabbit.
