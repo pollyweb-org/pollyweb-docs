@@ -28,7 +28,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 |Header|`From`     | string  | [Broker 🤵](<../../24 🤵 Brokers/$ 🤵 Broker domain.md>) from [`Invite@Broker`](<../../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/64 💼🐌🤵 Invite.md>)
-||`To`       | string  | [Helper 🛠️](<../🛠️👥 Helper domain.md>) from [`Invite@Broker`](<../../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/64 💼🐌🤵 Invite.md>)
+||`To`       | string  | [Helper 🛠️](<../🤲👥 Helper domain.md>) from [`Invite@Broker`](<../../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/64 💼🐌🤵 Invite.md>)
 ||`Subject` | string | `Invited@Helper`
 |Body|`ChatID`   | uuid    | [Chat 💬](<../../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) from [`Invite@Broker`](<../../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/64 💼🐌🤵 Invite.md>)
 ||`Inviter`  | string  | [Consumer 💼 ](<../../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) from [`Invite@Broker`](<../../../../6 🅰️ APIs/15 🤵🅰️ Broker/60 🤵🅰️ Share/64 💼🐌🤵 Invite.md>)
