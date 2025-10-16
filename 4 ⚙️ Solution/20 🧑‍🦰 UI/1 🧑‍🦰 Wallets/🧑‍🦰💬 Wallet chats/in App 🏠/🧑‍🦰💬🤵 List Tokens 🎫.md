@@ -10,7 +10,7 @@
 
 ## Flow diagram
 
-![alt text](<../../🧑‍🦰⏩ Wallet flows/40 👉🎫 Tokens/.📎 Assets/⚙️ List.png>)
+![alt text](<../../.📎 Assets/Tokens/⚙️🎫 List tokens.png>)
 
 | # | Call | Notes |
 |-|-|-

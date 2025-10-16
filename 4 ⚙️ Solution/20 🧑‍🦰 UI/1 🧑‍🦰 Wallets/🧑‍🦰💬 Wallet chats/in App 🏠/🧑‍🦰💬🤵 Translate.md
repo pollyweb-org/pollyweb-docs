@@ -19,7 +19,7 @@
 
 ## Flow diagram
 
-![Translate](<../../.📎 Assets/⚙️ Translate.png>)
+![Translate](<../../.📎 Assets/Set-up/⚙️ Translate.png>)
 
 
 | # | Call | Notes
