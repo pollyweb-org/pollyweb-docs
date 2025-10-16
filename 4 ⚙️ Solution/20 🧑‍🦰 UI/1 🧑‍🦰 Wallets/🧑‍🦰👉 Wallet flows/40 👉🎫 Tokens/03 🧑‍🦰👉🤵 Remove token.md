@@ -31,8 +31,8 @@
 
 | # | API | Description
 |-|-|-
-| 1 | [🧑‍🦰🐌🤗 `Home@Host`](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🅰️ Host methods/🤵🐌🤗 Home.md>) | The user calls the [Broker 🤵](<../../../3 🤵 Brokers/🤵🤲 Broker helper.md>) from the [Token 🎫](<../../../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>)
-| 2 | [🤗⏩🧑‍🦰 Prompt 🤔](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | Then tells the [Broker 🤵](<../../../3 🤵 Brokers/🤵🤲 Broker helper.md>) to remove the [Token 🎫](<../../../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) 
+| 1 | [🧑‍🦰🐌🤗 `Home@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🤵🐌🤗 Home.md>) | The user calls the [Broker 🤵](<../../../3 🤵 Brokers/🤵🤲 Broker helper.md>) from the [Token 🎫](<../../../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>)
+| 2 | [🤗⏩🧑‍🦰 Prompt 🤔](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | Then tells the [Broker 🤵](<../../../3 🤵 Brokers/🤵🤲 Broker helper.md>) to remove the [Token 🎫](<../../../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) 
 | 3 | [🤵⏩🧑‍🦰 Update Tokens 🎫](<../../../3 🤵 Brokers/🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Tokens 🎫.md>) | The [Broker 🤵](<../../../3 🤵 Brokers/🤵🤲 Broker helper.md>) tells the [Wallet 🧑‍🦰](<../../🧑‍🦰 Wallet app.md>) to update the list
 | 4 | [🤵🐌📣 `Remove@Notifier`](<../../../2 📣 Notifiers/📣🅰️ Notifier methods/4 🎫 Tokens/3 🤵🐌📣 Remove.md>) | The [Broker 🤵](<../../../3 🤵 Brokers/🤵🤲 Broker helper.md>) tells the [Wallet 🧑‍🦰](<../../🧑‍🦰 Wallet app.md>) to remove it
 ||

@@ -4,7 +4,7 @@
 1. **What are Userable Things in NLWeb?**
     
     [Userables 💍](<💍💠 Userable thing.md>) are [Things 💠](<../2 💠 Things/💠🔆 Thing locator.md>) 
-    * that [Brand 🍏 domains](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>) embedded into objects for a user to carry 
+    * that [Brand 🍏 domains](<../../41 🎭 Domain Roles/Brands 🍏/$ 🍏🎭 Brand role.md>) embedded into objects for a user to carry 
     * e.g., jewelry, glasses, cards, keyholders, stickers, and wearables. 
 
     ---
@@ -21,8 +21,8 @@
     | 🚨 [Trigger an emergency](<💍⏩ Userable flows/💍🚨 Emergencies.md>)| Scripted steps to execute on health emergencies.
     | 📱 [Aid a confused senior](<💍⏩ Userable flows/💍📱 Senior user.md>) | Inform relatives using someone else's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
     | 🎬 [Cross gates](<💍⏩ Userable flows/💍🎬 Cross gates.md>)| Cross an airport border control.
-    | 💳 [Pay a salesperson](<💍⏩ Userable flows/💍💳 Pay salesperson.md>) | Pay a [Seller 💵 domain](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) using the [Seller's Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
-    | [💳 Pay seller at a kiosk](<💍⏩ Userable flows/💍💳 Pay at kiosk.md>) | Pay a [Seller 💵 domain](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) using the [Seller's Kiosk 🖥️](<../../60 🧰 Edge/68 🏪 Terminals/01 🖥️ Info kiosk.md>).
+    | 💳 [Pay a salesperson](<💍⏩ Userable flows/💍💳 Pay salesperson.md>) | Pay a [Seller 💵 domain](<../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) using the [Seller's Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
+    | [💳 Pay seller at a kiosk](<💍⏩ Userable flows/💍💳 Pay at kiosk.md>) | Pay a [Seller 💵 domain](<../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) using the [Seller's Kiosk 🖥️](<../../60 🧰 Edge/68 🏪 Terminals/01 🖥️ Info kiosk.md>).
     | [💳 Pay variable-cost rides](<💍⏩ Userable flows/💍💳 Pay metro.md>) | Pay variable length metropolitan rides.
 
     ---
@@ -58,7 +58,7 @@
 1. **How is the dynamic code generation enforced?**
 
     When a user registers a [Userable 💍 thing](<💍💠 Userable thing.md>) on the user's [Custodian 🧳 agent](<../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>),
-    * the agent fetches the rotation algorithm from the [Brand 🍏 domain](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>) that manufactured the [Userable 💍 thing](<💍💠 Userable thing.md>),
+    * the agent fetches the rotation algorithm from the [Brand 🍏 domain](<../../41 🎭 Domain Roles/Brands 🍏/$ 🍏🎭 Brand role.md>) that manufactured the [Userable 💍 thing](<💍💠 Userable thing.md>),
     * then asks the user to scan the [Userable 💍 thing](<💍💠 Userable thing.md>) twice to see if the rotation works. 
 
     ---

@@ -4,7 +4,7 @@
 
 # 🧑‍🦰🐌💳 Endorse @ [Payer](<../../4 ⚙️ Solution/50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>)
 
-> Used in [Charge 💵👉🧑‍🦰](<../../4 ⚙️ Solution/41 🎭 Domain Roles/70 💵 Sellers/💵⏩ Seller flows/💵⏩🧑‍🦰 Charge.md>)
+> Used in [Charge 💵👉🧑‍🦰](<../../4 ⚙️ Solution/41 🎭 Domain Roles/Sellers 💵/💵⏩ Seller flows/💵⏩🧑‍🦰 Charge.md>)
 
 <br/>
 
@@ -37,9 +37,9 @@ Body:
 | `Subject` | string | `Endorse@Payer`
 | `Bind`| uuid | [Bind 🔗](<../../4 ⚙️ Solution/30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) ID.
 | `Collector` | string | [Collector 🏦 domain](<../../4 ⚙️ Solution/45 🤲 Helper domains/30 🏦 Collectors/🏦🤲 Collector helper.md>) name.
-| `Host` | string | [Host 🤗 domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) name.
+| `Host` | string | [Host 🤗 domain](<../../4 ⚙️ Solution/41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) name.
 | `Broker` | string | [Broker 🤵 domain](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) name.
 | `Locator` | string | [Locator 🔆](<../../4 ⚙️ Solution/25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>).
 | `ChatID` | uuid | [Chat 💬](<../../4 ⚙️ Solution/35 💬 Chats/💬 Chats/💬 Chat.md>) ID.
-| `Charge` | object | [Charge 💵](<../../4 ⚙️ Solution/41 🎭 Domain Roles/70 💵 Sellers/💵⏩ Seller flows/💵⏩🧑‍🦰 Charge.md>) flow.
+| `Charge` | object | [Charge 💵](<../../4 ⚙️ Solution/41 🎭 Domain Roles/Sellers 💵/💵⏩ Seller flows/💵⏩🧑‍🦰 Charge.md>) flow.
 |

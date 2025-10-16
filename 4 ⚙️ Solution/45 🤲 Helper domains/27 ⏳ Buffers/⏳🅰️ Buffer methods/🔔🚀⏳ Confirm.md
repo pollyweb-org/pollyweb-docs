@@ -2,7 +2,7 @@
 
 > Implements a [Buffer ⏳ helper domain](<../⏳🤲 Buffer helper.md>)
 
-> Used in [Stream @ Streamer 🌬️⏩🔔](<../../../41 🎭 Domain Roles/75 🌬️ Streamers/🌬️⏩ Streamer flows/🌬️⏩🔔 Stream.md>) flow
+> Used in [Stream @ Streamer 🌬️⏩🔔](<../../../41 🎭 Domain Roles/Streamers 🌬️/🌬️⏩ Streamer flows/🌬️⏩🔔 Stream.md>) flow
 
 > Referenced by [Poll @ Buffer 🔔🚀](<🔔🚀⏳ Poll.md>)
 
@@ -26,7 +26,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From` | string | [Subscriber 🔔 domain](<../../../41 🎭 Domain Roles/76 🔔 Subscribers/🔔🎭 Subscriber role.md>) name
+|Header|`From` | string | [Subscriber 🔔 domain](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>) name
 ||`To`| string | [Buffer ⏳ helper domain](<../⏳🤲 Buffer helper.md>) name
 ||`Subject`| string | `Confirm@Buffer`
 |Body | `Poll` | uuid | Confirmed Poll (optional)

@@ -15,9 +15,9 @@
         
     | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
-    | 🤗 [Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 😐 Start risky task [Yes, No] | > Yes
+    | 🤗 [Host](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😐 Start risky task [Yes, No] | > Yes
     | 🆔 [Identity](<$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<21 🆔😶 Face scan.md>)
-    | 🤗 [Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ✅ Verified, task started!
+    | 🤗 [Host](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ Verified, task started!
 
     ---
     <br/>
@@ -41,7 +41,7 @@
 
     ![](<. 📎 Assets/🆔 Online.png>)
 
-    When a user is requested by a [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) to verify their identity against a given [Locator 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>), the following steps are executed.
+    When a user is requested by a [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) to verify their identity against a given [Locator 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>), the following steps are executed.
 
     | # | Step
     |-|-
@@ -55,15 +55,15 @@
 
 1. **How are users' face biometrics protected from Sellers?**
 
-    NLWeb advocates for online face authentication between [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) and [Identity 🆔 vaults](<$ 🆔🫥 Identity agent.md>), without sharing user biometrics with [Seller 💵 domains](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>);
-    - e.g., when a [Seller 💵 domain](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) needs to match a person with a [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>), 
+    NLWeb advocates for online face authentication between [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) and [Identity 🆔 vaults](<$ 🆔🫥 Identity agent.md>), without sharing user biometrics with [Seller 💵 domains](<../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>);
+    - e.g., when a [Seller 💵 domain](<../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) needs to match a person with a [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>), 
     - it contacts the [Token's  Identity 🆔 domain](<$ 🆔🫥 Identity agent.md>) to perform the authentication 
     - via the user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) in a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>), 
-    - and only return a success/failure to the [Seller 💵 domain](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) . 
+    - and only return a success/failure to the [Seller 💵 domain](<../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) . 
     
     When offline authentications are required, 
     * i.e. when the user only has a printed QR or and NFC card with the [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>), 
-    * then the [Seller 💵 domain](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) needs to take the user's picture 
+    * then the [Seller 💵 domain](<../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) needs to take the user's picture 
     * with a fixed camera in a supervised fashion, 
     * then ask the [Token's  Identity 🆔 domain](<$ 🆔🫥 Identity agent.md>) to match the picture with the [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>), 
     * and then delete the picture according to regulatory requirements. 

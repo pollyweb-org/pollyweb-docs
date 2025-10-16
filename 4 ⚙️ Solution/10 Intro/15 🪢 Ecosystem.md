@@ -11,29 +11,29 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
   
     * Each app depends on a [Notifier 📣 domain](<../20 🧑‍🦰 UI/2 📣 Notifiers/📣👥 Notifier domain.md>) for device-specific communications (e.g., WebSockets, MQTT).
     
-    * Each [Notifier 📣 domain](<../20 🧑‍🦰 UI/2 📣 Notifiers/📣👥 Notifier domain.md>) depends on a [Broker 🤵 domain](<../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) for [Chat 💬](<../35 💬 Chats/💬 Chats/💬 Chat.md>) orchestration with [Host 🤗 domains](<../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>). 
+    * Each [Notifier 📣 domain](<../20 🧑‍🦰 UI/2 📣 Notifiers/📣👥 Notifier domain.md>) depends on a [Broker 🤵 domain](<../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) for [Chat 💬](<../35 💬 Chats/💬 Chats/💬 Chat.md>) orchestration with [Host 🤗 domains](<../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>). 
 
-* Users store their data in [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>).
+* Users store their data in [Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>).
   
-    * These are [Domains 👥](<../40 👥 Domains/👥 Domains/👥 Domain.md>) that can share user data with [Consumer 💼 domains](<../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>).
+    * These are [Domains 👥](<../40 👥 Domains/👥 Domains/👥 Domain.md>) that can share user data with [Consumer 💼 domains](<../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>).
     
-    * [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) may allow users to edit their data through the user's [Editor 🧑‍💻 agent](<../50 🫥 Agent domains/42 🧑‍💻 Editors/🧑‍💻🫥 Editor agent.md>).
+    * [Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) may allow users to edit their data through the user's [Editor 🧑‍💻 agent](<../50 🫥 Agent domains/42 🧑‍💻 Editors/🧑‍💻🫥 Editor agent.md>).
 
-* Users designate [Agents 🫥 domains](<../50 🫥 Agent domains/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) to handle specific well-defined roles in [Chats 💬](<../35 💬 Chats/💬 Chats/💬 Chat.md>) with [Host 🤗 domains](<../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) (e.g., payments).
+* Users designate [Agents 🫥 domains](<../50 🫥 Agent domains/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) to handle specific well-defined roles in [Chats 💬](<../35 💬 Chats/💬 Chats/💬 Chat.md>) with [Host 🤗 domains](<../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) (e.g., payments).
 
-    * These [Agents 🫥](<../50 🫥 Agent domains/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) are [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) that the user told their [Broker 🤵 domain](<../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) to invoke by default when a role is required.
+    * These [Agents 🫥](<../50 🫥 Agent domains/$ 🫥 Agent Vaults/$ 🫥🗄️ Agent vault.md>) are [Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) that the user told their [Broker 🤵 domain](<../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) to invoke by default when a role is required.
 
 
 
 - Users use their Wallets or their wearables (e.g., [Userables 💍](<../25 🔆 Locators/4 💍 Userables/💍💠 Userable thing.md>), [Tapbands ⌚](<../25 🔆 Locators/5 ⌚ Tapbands/⌚💠 Tapband thing.md>)) to interact with [Padlocks 🔒](<../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>), [Robots 🤖](<../25 🔆 Locators/3 🤖 Robots/🤖💠 Robot thing.md>), and other smart [Things 💠](<../25 🔆 Locators/2 💠 Things/💠🔆 Thing locator.md>).
 
 - Organizations interact with an email-like inbox API behind a domain name, and can assume a multitude of roles in parallel - e.g.:
-    * session [Host 🤗](<../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>), 
-    * business [Seller 💵](<../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>),
-    * data [Consumer 💼](<../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>), 
-    * user-bound [Vault 🗄️](<../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>), 
-    * event [Streamer 🌬️](<../41 🎭 Domain Roles/75 🌬️ Streamers/🌬️🎭 Streamer role.md>), 
-    * and asynchronous service [Supplier 🏭](<../41 🎭 Domain Roles/78 🏭 Suppliers/🏭🎭 Supplier role.md>). 
+    * session [Host 🤗](<../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>), 
+    * business [Seller 💵](<../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>),
+    * data [Consumer 💼](<../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>), 
+    * user-bound [Vault 🗄️](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>), 
+    * event [Streamer 🌬️](<../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>), 
+    * and asynchronous service [Supplier 🏭](<../41 🎭 Domain Roles/Suppliers 🏭/🏭🎭 Supplier role.md>). 
 
 - Domains are extended by helper domains, e.g.:
     * [Buffer ⏳ helper domains](<../45 🤲 Helper domains/27 ⏳ Buffers/⏳🤲 Buffer helper.md>) for global ingestion and throttling, 

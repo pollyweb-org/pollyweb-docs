@@ -20,7 +20,7 @@
 1. [access](<../4 ⚙️ Solution/25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) services anytime, from anywhere, or from any product; 
 1. use [passkeys](<../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/00 🔐 Passwordless ID index.md>) to authenticate with businesses, not passwords;
 1. exercise entitlement anonymously - i.e. [zero-knowledge proof](<../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/08 📺 SSI zero knowledge proof.md>);
-1. [keep](<../4 ⚙️ Solution/41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) the data output of services, and [share](<../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) it with other businesses;
+1. [keep](<../4 ⚙️ Solution/41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) the data output of services, and [share](<../4 ⚙️ Solution/41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) it with other businesses;
 1. own their multi-persona [digital twins](<../4 ⚙️ Solution/50 🫥 Agent domains/70 🧢 Personas/🧢🫥 Persona agent.md>), and decide when to share them;
 1. influence their [advertising](<../2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape/00 👀 Advertising index.md>) persona and contextual next-best actions;
 1. [search](<../2 🏔️ Landscape/1 💼 Business landscape/03 🔎 Searching landscape/00 🔎 Searching index.md>), [interact](<../2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/00 💬 Chatting index.md>), and pay for services in their language from any app;
@@ -32,7 +32,7 @@
 --
 
 1. use domain certificates for [authentication](<../4 ⚙️ Solution/40 👥 Domains/👥📨 Domain Messages/📨 Message.md>), not API keys;
-1. access [third-party](<../4 ⚙️ Solution/41 🎭 Domain Roles/78 🏭 Suppliers/🏭🎭 Supplier role.md>) services on-demand, without onboarding;
+1. access [third-party](<../4 ⚙️ Solution/41 🎭 Domain Roles/Suppliers 🏭/🏭🎭 Supplier role.md>) services on-demand, without onboarding;
 1. publicly [manifest](<../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) their products and services to the world;
 1. manage all only debits and credits from a central user experience;
 1. can interact with the ecosystem without the need for specialists.

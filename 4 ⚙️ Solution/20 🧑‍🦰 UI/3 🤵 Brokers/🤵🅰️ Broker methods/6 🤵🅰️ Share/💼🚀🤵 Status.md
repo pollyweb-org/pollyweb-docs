@@ -21,10 +21,10 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header| `From`| string | [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) name
+| Header| `From`| string | [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) name
 | | `To`    | string | [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) name
 | | `Subject`| string | `Status@Broker`
-| Body | `Issuer` | string | [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>)
+| Body | `Issuer` | string | [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)
 | | `TokenID`| string | [Token 🎫](<../../../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) ID on the Issuer
 |
     
