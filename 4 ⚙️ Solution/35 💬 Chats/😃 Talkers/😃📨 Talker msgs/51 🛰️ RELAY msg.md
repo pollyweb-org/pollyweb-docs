@@ -10,7 +10,7 @@
     A `RELAY` 
     * is a [Command ⌘](<../😃⚙️ Talker cmds/10 ⌘ Command.md>) 
     * that sends messages to physical devices
-    * via [Relayer 🛰️ helper domains](<../../../45 🤲 Helper domains/80 🛰️ Relayers/🛰️🤲 Relayer helper.md>).
+    * via [Relayer 🛰️ helper domains](<../../../45 🤲 Helper domains/Relayers 🛰️/🛰️🤲 Relayer helper.md>).
 
     ---
     <br/>
@@ -36,10 +36,10 @@
 
     | Argument| Purpose
     |-|-
-    | `<pool>` | Name of device pool in the [Relayer 🛰️](<../../../45 🤲 Helper domains/80 🛰️ Relayers/🛰️🤲 Relayer helper.md>)
+    | `<pool>` | Name of device pool in the [Relayer 🛰️](<../../../45 🤲 Helper domains/Relayers 🛰️/🛰️🤲 Relayer helper.md>)
     | `<key>`  | Unique device key in the pool
     | `<script>` | Message to send to the device
-    | `$result` | The response returned by the [Relayer 🛰️](<../../../45 🤲 Helper domains/80 🛰️ Relayers/🛰️🤲 Relayer helper.md>)
+    | `$result` | The response returned by the [Relayer 🛰️](<../../../45 🤲 Helper domains/Relayers 🛰️/🛰️🤲 Relayer helper.md>)
     | `<failure>` | [Procedure ⚙️](<../😃⚙️ Talker cmds/11 ⚙️ Procedure.md>) or [Command ⌘](<../😃⚙️ Talker cmds/10 ⌘ Command.md>) to run on failure
     | `<success>` | [Procedure ⚙️](<../😃⚙️ Talker cmds/11 ⚙️ Procedure.md>) or [Command ⌘](<../😃⚙️ Talker cmds/10 ⌘ Command.md>) to run on success
 

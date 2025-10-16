@@ -12,8 +12,8 @@
 
 1. **How can a domain inspect another domain's Manifest?**
 
-    [Domains 👥](<../👥 Domains/👥 Domain.md>) leverage Manifest 📜 caches, called [Graph 🕸 domains](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🤲 Graph helper.md>), that keep up-to-date representations of NLWeb [domain Manifests 📜](<📜 Manifest.md>).
-    * Manifest queries to these [Graphs 🕸](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🤲 Graph helper.md>) are synchronous and expected to have millisecond latency.
+    [Domains 👥](<../👥 Domains/👥 Domain.md>) leverage Manifest 📜 caches, called [Graph 🕸 domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>), that keep up-to-date representations of NLWeb [domain Manifests 📜](<📜 Manifest.md>).
+    * Manifest queries to these [Graphs 🕸](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) are synchronous and expected to have millisecond latency.
     * This is similar to what DNS records do for Web 2.0, but with a more complex data schema. 
 
     ---
@@ -24,12 +24,12 @@
 
     ![](<.📎 Assets/📜 Manifest.png>)
 
-    Each [domain 👥](<../👥 Domains/👥 Domain.md>) sends the content of their [domain Manifests 📜](<📜 Manifest.md>) in parts or in full to a [Listener 👂 helper domain](<../../45 🤲 Helper domains/60 👂 Listeners/👂🤲 Listener helper.md>), who then propagates it to [Graph 🕸 domains](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🤲 Graph helper.md>).
+    Each [domain 👥](<../👥 Domains/👥 Domain.md>) sends the content of their [domain Manifests 📜](<📜 Manifest.md>) in parts or in full to a [Listener 👂 helper domain](<../../45 🤲 Helper domains/Listeners 👂/👂🤲 Listener helper.md>), who then propagates it to [Graph 🕸 domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>).
 
     |Step|Description
     |-|-
     |A| When a [domain 👥](<../👥 Domains/👥 Domain.md>) sends a request to another
-    |B| the recipient queries a [Graph 🕸 helper domain](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🤲 Graph helper.md>) for information about the sender to assess its [trustworthiness 👍](<../👥👍 Domain Trusts/👍 Domain Trust.md>)
+    |B| the recipient queries a [Graph 🕸 helper domain](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) for information about the sender to assess its [trustworthiness 👍](<../👥👍 Domain Trusts/👍 Domain Trust.md>)
     |C| and only then responds successfully.
     
 

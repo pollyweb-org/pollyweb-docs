@@ -27,7 +27,7 @@
 
     | Argument| Purpose
     |-|-
-    | `<key>` | Form key for [`Form@Graph`](<../../../45 🤲 Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Form.md>)
+    | `<key>` | Form key for [`Form@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Form.md>)
     
 
     ---

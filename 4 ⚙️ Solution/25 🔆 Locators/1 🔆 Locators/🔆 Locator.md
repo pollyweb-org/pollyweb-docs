@@ -23,7 +23,7 @@
 
     |Component| Examples | Purpose
     |-|-|-
-    | `Code` |  `.HOST` | [Schema Code 🧩](<../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) for [`Schema@Graph`](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Schema.md>)
+    | `Code` |  `.HOST` | [Schema Code 🧩](<../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) for [`Schema@Graph`](<../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema.md>)
     | `Domain` | `any-host.com` | [Domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) for a [Broker 🤵](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) to interact 
     | `Key` | `product-1234` | Resource key in the [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)
     | `Properties` | `A=1,B=2` | Any optional data fields
@@ -44,12 +44,12 @@
     | [🔆 Physical NFC tag](<🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>) | Tap a physical [NFC tag 🔆](<🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>) written by anyone
     | [✨ Digital QR code](<🔆⏩ Locator flows/🧑‍🦰✨ Wallet QR scan.md>)  | Scan an image of a [QR code ✨](<🔆⏩ Locator flows/🧑‍🦰✨ Wallet QR scan.md>) rendered by a webpage
     | [🌐 Web page link](<🔆⏩ Locator flows/🧑‍🦰🌐 Wallet URLs.md>)  |  Click on an NLWeb-compatible [URL link 🌐](<🔆⏩ Locator flows/🧑‍🦰🌐 Wallet URLs.md>) on a webpage
-    | [🖨️ Printer domains](<../../45 🤲 Helper domains/75 🖨️ Printers/🖨️🤲 Printer helper.md>) | Tap/scan a static NFC/QR issue by any [Printer 🖨️ domain](<../../45 🤲 Helper domains/75 🖨️ Printers/🖨️🤲 Printer helper.md>)
+    | [🖨️ Printer domains](<../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>) | Tap/scan a static NFC/QR issue by any [Printer 🖨️ domain](<../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>)
     | [🦋 Ephemeral devices](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>) | Tap/scan a dynamic NFC/QR  by an [Ephemeral 🦋 device](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>)
     | [🛜 Wi-Fier devices](<../../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>) | Tap/scan a [Wi-Fier 🛜 device](<../../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>) to connect it to the internet
     | [💍 Userable things](<../4 💍 Userables/💍💠 Userable thing.md>) | Tap a [Userable 💍 thing](<../4 💍 Userables/💍💠 Userable thing.md>) that a user is wearing or holding
     | [🔒 Padlock devices](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>)  | Tap a [Padlock 🔒 device](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>) to open it
-    | [💬 Chat prompts](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) | Select a [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) option - e.g., [Finder 🔎](<../../50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>), [Advertiser 👀](<../../45 🤲 Helper domains/12 👀 Advertisers/👀🤲 Advertiser helper.md>)
+    | [💬 Chat prompts](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) | Select a [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) option - e.g., [Finder 🔎](<../../50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>), [Advertiser 👀](<../../45 🤲 Helper domains/Advertisers 👀/👀🤲 Advertiser helper.md>)
 
     
     ---
@@ -86,7 +86,7 @@
     Given that the [Wallet's Broker 🤵 domain](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) serves as a protector, user can trust its mechanism to protect them from [phishing sites 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/06 📺 QR phishing.md>), just like Google Chrome does with [SSL certificate validation 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/08 📺 Google's Risk API.md>) and other phishing detection/blocking features - these mechanisms include:
 
     - [Messages 📨](<../../40 👥 Domains/👥📨 Domain Messages/📨 Message.md>) can only flow through encrypted channels with cross-authentication of both sender and receiver domains;
-    - Data exchange can only be performed between domains that publicly [Trust 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) one another or are trusted by mutually trusted [Authority 🏛️ domains](<../../45 🤲 Helper domains/14 🏛️ Authorities/🏛️🤲 Authority helper.md>), following the principle of least-privilege;
+    - Data exchange can only be performed between domains that publicly [Trust 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) one another or are trusted by mutually trusted [Authority 🏛️ domains](<../../45 🤲 Helper domains/Authorities 🏛️/🏛️🤲 Authority helper.md>), following the principle of least-privilege;
     - User inputs can only be collected if the intention is clearly mentioned in a [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) subject to public scrutiny.
     
 

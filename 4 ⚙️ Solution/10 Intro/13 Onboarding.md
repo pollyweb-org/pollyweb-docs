@@ -32,10 +32,10 @@ Onboarding
 1. **What are the steps for a Seller to onboard NLWeb?**
 
     1. Bootstrap the [Seller 💵](<../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) domain (e.g., nlweb.any-seller.com);
-    2. Integrate the [Collector 🏦](<../45 🤲 Helper domains/30 🏦 Collectors/🏦🤲 Collector helper.md>) with the organization's bank and ERP;
+    2. Integrate the [Collector 🏦](<../45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) with the organization's bank and ERP;
     3. Configure [Host 🤗](<../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) workflows integrated with the organization's IT;
     4. Publish a [Manifest 📜](<../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) with [Trusts 👍](<../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) to required domains;
-    5. Order a batch of physical [NFC/QR locators 🔆](<../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) from a [Printer 🖨️](<../45 🤲 Helper domains/75 🖨️ Printers/🖨️🤲 Printer helper.md>);
+    5. Order a batch of physical [NFC/QR locators 🔆](<../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) from a [Printer 🖨️](<../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>);
     6. Deploy [NFC/QR locators 🔆](<../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) (e.g., web, app, stores, products).
 
     ---

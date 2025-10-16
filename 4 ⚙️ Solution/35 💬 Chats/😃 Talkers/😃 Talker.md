@@ -3,7 +3,7 @@
 # 😃 Talker
 <!-- https://quip.com/J24GAMbu7HKF/-Talker -->
 
-> Implemented by [Hoster ☁️ helper domain](<../../45 🤲 Helper domains/55 ☁️ Hosters/☁️🤲 Hoster helper.md>)
+> Implemented by [Hoster ☁️ helper domain](<../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>)
 
 <br/>
 
@@ -13,7 +13,7 @@
     * are YAML scripts to render dialogs in a [💬 Chat](<../💬 Chats/💬 Chat.md>)
     * structured as [Commands ⌘](<😃⚙️ Talker cmds/10 ⌘ Command.md>) grouped in [Procedures ⚙️](<😃⚙️ Talker cmds/11 ⚙️ Procedure.md>)
     * referencing [{Functions} 🐍](<😃💾 Talker data/12 🐍 {Function}.md>) evaluated by [Hosted 📦 domains](<../../55 👷 Build domains/📦 Hosteds/📦👥 Hosted domain.md>)
-    * and implemented by [Hoster ☁️ helper domains](<../../45 🤲 Helper domains/55 ☁️ Hosters/☁️🤲 Hoster helper.md>).
+    * and implemented by [Hoster ☁️ helper domains](<../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>).
     ---
     <br/>
 
@@ -21,7 +21,7 @@
 
     [Talkers 😃](<😃 Talker.md>) dramatically reduce the time to build [Host 🤗 domains](<../💬 Chats/💬 Chat.md>).
 
-    * They allow [Hoster ☁️ helper domains](<../../45 🤲 Helper domains/55 ☁️ Hosters/☁️🤲 Hoster helper.md>) to manage the workflow state on behalf of [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>), removing the undifferentiated heavy-lifting of handling [Prompts 🤔](<../🤔 Prompts/🤔 Prompt.md>) communications, and invoking [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) only when it's necessary to execute business-specific logic.
+    * They allow [Hoster ☁️ helper domains](<../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) to manage the workflow state on behalf of [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>), removing the undifferentiated heavy-lifting of handling [Prompts 🤔](<../🤔 Prompts/🤔 Prompt.md>) communications, and invoking [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) only when it's necessary to execute business-specific logic.
     ---
     <br/>
 
