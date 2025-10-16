@@ -4,7 +4,7 @@
 1. **What is a Wand domain in NLWeb?**
 
     A [Wand 🪄](<$ 🪄🛠️ Wand helper.md>) is
-    * any [Helper 🛠️ domain](<../$ 🤲 Helpers/🤲👥 Helper domain.md>) 
+    * any [Helper 🤲 domain](<../$ 🤲 Helpers/🤲👥 Helper domain.md>) 
     * that creates and manages [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) 
     * for [Things 💠](<../../70 🌳 Ambient/71 💠 Things/$ 💠 Thing.md>) (including [Userables 💍](<../../70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>), [Tapbands ⌚](<../../70 🌳 Ambient/76 ⌚ Tapbands/$ ⌚💠 Tapband thing.md>) and [Robots 🤖](<../../70 🌳 Ambient/72 🤖 Robots/$ 🤖💠 Robot thing.md>))
     * on behalf of [Brand 🍏 domains](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>).

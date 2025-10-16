@@ -6,7 +6,7 @@
 1. **What is a Biller domain in NLWeb?**
 
     A Biller 🤝 is 
-    * a [Helper 🛠️ domain](<../$ 🤲 Helpers/🤲👥 Helper domain.md>) 
+    * a [Helper 🤲 domain](<../$ 🤲 Helpers/🤲👥 Helper domain.md>) 
     * that handles the terms and lifecycle of payment agreements 
     * between a [Payer 💳 domain](<../../50 🫥 Agents/60 💳 Payers/03 💳🎭 Payer role.md>) and a [Collector 🏦 domain](<../30 🏦 Collectors/$ 🏦🤲 Collector helper.md>) 
     * (e.g., subscriptions, free tiers, direct debits) 

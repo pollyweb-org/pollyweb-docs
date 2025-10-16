@@ -32,11 +32,11 @@
 
 1. **What Helper domains does a Brand typically uses?**
 
-    | [Helper 🛠️](<../../45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>) | Reason
+    | [Helper 🤲](<../../45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>) | Reason
     |-|-
     | [Printer 🖨️](<../../45 🤲 Helper domains/75 🖨️ Printers/🖨️🛠️ Printer helper.md>) | To print the [NFC/QR Locators 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) for the Brand's [Things 💠](<../../70 🌳 Ambient/71 💠 Things/$ 💠 Thing.md>).
     | [Wand 🪄](<../../45 🤲 Helper domains/90 🪄 Wands/$ 🪄🛠️ Wand helper.md>) | To order and manage the lifecycle of [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) for the Brand's [Things 💠](<../../70 🌳 Ambient/71 💠 Things/$ 💠 Thing.md>).
-    | [Payer 💳](<../../45 🤲 Helper domains/70 💳 Payers/05 💳🛠️ Payer helper.md>) | To pay for the services of the other [Helper 🛠️ domains](<../../45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>).
+    | [Payer 💳](<../../45 🤲 Helper domains/70 💳 Payers/05 💳🛠️ Payer helper.md>) | To pay for the services of the other [Helper 🤲 domains](<../../45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>).
     | [Buffer ⏳](<../../45 🤲 Helper domains/27 ⏳ Buffers/⏳🤲 Buffer helper.md>) | To receive order updates from the [Wand 🪄](<../../45 🤲 Helper domains/90 🪄 Wands/$ 🪄🛠️ Wand helper.md>) and the [Printer 🖨️](<../../45 🤲 Helper domains/75 🖨️ Printers/🖨️🛠️ Printer helper.md>) domains.
 
     ---

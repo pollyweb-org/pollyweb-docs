@@ -4,7 +4,7 @@ participant "Payer 💳\ndomain" as payer
 participant "Identity 🆔\ndomain" as id
 actor "User\nin chat" as user
 participant "Broker 🤵\ndomain" as broker
-participant "Helper 🛠️\ndomain" as helper
+participant "Helper 🤲\ndomain" as helper
 participant "Biller 🤝\ndomain" as biller
 
 activate helper
