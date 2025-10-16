@@ -5,7 +5,7 @@
 > Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) flow.
 
 * The [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) 
-  * forwards the [Prompt 🤔](<../../../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) 
+  * forwards the [Prompt 🤔](<../../../../35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) 
   * to the [Notifier 📣 domain](<../../../../20 🧑‍🦰 UI/02 📣 Notifiers/📣 Notifier domain.md>).
 
 <br/>

@@ -35,7 +35,7 @@
     |[✨ QR code](<../../30 Data/15 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>)| Users open the Wallet app on the device, then scan the QR code to open a chat window.
     |[🔆 NFC tag](<../../30 Data/15 🔆 Locators/04 🧑‍🦰🔆 Wallet NFC tap.md>)| Users tap the NFC tag with their device, regardless of having the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) open - this opens a chat window on the Wallet.
     |[🌐 Link](<../../30 Data/15 🔆 Locators/02 🧑‍🦰🌐 Wallet URLs.md>)| Users click the link/button on the traditional web browser of their device - this opens a chat window on the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
-    |[🤔 Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>)| In a [Chat 💬](<$ 💬 Chat.md>) window, the [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) provides one or more options for the user to select from, and the user selects one - this opens a new [Chat 💬](<$ 💬 Chat.md>) window.
+    |[🤔 Prompt](<../20 🤔 Prompts/20 🤔 Prompt.md>)| In a [Chat 💬](<$ 💬 Chat.md>) window, the [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) provides one or more options for the user to select from, and the user selects one - this opens a new [Chat 💬](<$ 💬 Chat.md>) window.
 
     ----
     <br/>
@@ -63,7 +63,7 @@
 
     | Component | Behavior
     |-|-
-    | [🤔 Prompt](<../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) send a question or information to the user.
+    | [🤔 Prompt](<../20 🤔 Prompts/20 🤔 Prompt.md>) | [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) send a question or information to the user.
     | 🗄️ *Bind* | [Vault 🗄️ domains](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>)  request the user to [Bind🔗](<../../30 Data/20 🔗 Binds/🔗 Bind.md>) to them.
     | 💼 *Share* | [Consumer 💼 domains](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>)  request the user to share data from a specific [Schema Code 🧩](<../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) or to share a [Token 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>).
     | 💳 *Pay* | [Seller 💵 domains](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>)  request the user's [Payer 💳 agent](<../../50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>) to pay an amount.

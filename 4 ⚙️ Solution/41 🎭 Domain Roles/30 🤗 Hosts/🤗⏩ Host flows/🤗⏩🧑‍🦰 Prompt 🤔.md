@@ -5,7 +5,7 @@
 * A [Host 🤗 domain](<../🤗🎭 Host role.md>) 
     * says something to a user 
     * in a [Chat 💬](<../../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) 
-    * with a [Prompt 🤔](<../../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>).
+    * with a [Prompt 🤔](<../../../35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>).
 
 
 * Used by:
@@ -18,9 +18,9 @@
 
 ## 💬 Chat
 
-Consider the following [Chat 💬](<../../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) with two [Prompts 🤔](<../../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) as an example.
+Consider the following [Chat 💬](<../../../35 Chats/12 💬 Chats/$ 💬 Chat.md>) with two [Prompts 🤔](<../../../35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) as an example.
 
-| [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+| [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 | - | - | - |
 | 🤗 Host | ℹ️ Hello World!
 | 🤗 Host | 😃 Like sports? [Yes, No] <br/> - I [love] it <br/> - I [hate] it | >> love
@@ -30,7 +30,7 @@ Consider the following [Chat 💬](<../../../35 Chats/12 💬 Chats/$ 💬 Chat.
 
 ## 😃 Talker 
 
-The associated [Talker 😃](<../../../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>), with one line per [Prompt 🤔](<../../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>), could be the following.
+The associated [Talker 😃](<../../../../9 😃 Talkers/10 📘 Talker specs/10 😃 Talker.md>), with one line per [Prompt 🤔](<../../../35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>), could be the following.
 
 ```yaml
 - INFO|Hello World!
@@ -49,7 +49,7 @@ The associated [Talker 😃](<../../../../9 😃 Talkers/10 📘 Talker specs/10
 
 | # | Call | Description
 |-|-|-
-| 1 | [🤗🐌🤵 `Prompt@Broker`](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/30 🤵🅰️ Chats 💬/🤗🐌🤵 Prompt.md>) | [Hosts 🤗](<../🤗🎭 Host role.md>) tell [Brokers 🤵](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) of [Prompt 🤔](<../../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) intents
+| 1 | [🤗🐌🤵 `Prompt@Broker`](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/30 🤵🅰️ Chats 💬/🤗🐌🤵 Prompt.md>) | [Hosts 🤗](<../🤗🎭 Host role.md>) tell [Brokers 🤵](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) of [Prompt 🤔](<../../../35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) intents
 | 2 | [🤵🐌📣 `Prompt@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>) | [Brokers 🤵](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) push to [Wallets 🧑‍🦰](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) via [Notifiers 📣](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/📣 Notifier domain.md>)
 | 3 | [🧑‍🦰🚀🤗 `Prompted@Host`](<../🤗🅰️ Host methods/🧑‍🦰🚀🤗 Prompted.md>) | [Wallets 🧑‍🦰](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) pull the content from the [Host 🤗](<../🤗🎭 Host role.md>)
 | 4| [🧑‍🦰🚀🤗 `Download@Host`](<../🤗🅰️ Host methods/🧑‍🦰🚀🤗 Download.md>) | [Wallets 🧑‍🦰](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) download files from the [Host 🤗](<../🤗🎭 Host role.md>)
@@ -62,9 +62,9 @@ The associated [Talker 😃](<../../../../9 😃 Talkers/10 📘 Talker specs/10
 
 1. **Why the Prompted callback to get the Prompt?**
    
-    `Privacy` To protect the user's privacy, the content of the [Prompts 🤔](<../../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) is not proxied via [Broker 🤵 domains](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>).
-    - Instead, [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) download the [Prompt's 🤔](<../../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) content and attachments directly from [Host 🤗 domains](<../🤗🎭 Host role.md>).
-    - Replies to [Prompts 🤔](<../../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) are also sent directly to [Host 🤗 domains](<../🤗🎭 Host role.md>) by [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
+    `Privacy` To protect the user's privacy, the content of the [Prompts 🤔](<../../../35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) is not proxied via [Broker 🤵 domains](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>).
+    - Instead, [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) download the [Prompt's 🤔](<../../../35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) content and attachments directly from [Host 🤗 domains](<../🤗🎭 Host role.md>).
+    - Replies to [Prompts 🤔](<../../../35 Chats/20 🤔 Prompts/20 🤔 Prompt.md>) are also sent directly to [Host 🤗 domains](<../🤗🎭 Host role.md>) by [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
 
     ---
     <br/>
