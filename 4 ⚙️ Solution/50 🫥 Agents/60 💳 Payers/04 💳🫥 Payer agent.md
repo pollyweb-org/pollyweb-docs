@@ -14,7 +14,7 @@
     On NLWeb, payment transactions with users are handled between:
     * [Sellers 💵](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) -  these are [Consumer 💼](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) domains that request payments;
     * Payers 💳 - these are user-bound [Vaults 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) with access to the user's money; and
-    * [Collector 🏦 helpers](<../../45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>) - these are [Helper 🛠️ domains](<../../45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>) able to deposit money on the [Sellers 💵](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) bank account. 
+    * [Collector 🏦 helpers](<../../45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>) - these are [Helper 🤲 domains](<../../45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>) able to deposit money on the [Sellers 💵](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) bank account. 
     
     Upon check-out, 
     - 1/ the [Seller 💵](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) registers the upcoming payment to their [Collector 🏦](<../../45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>), 

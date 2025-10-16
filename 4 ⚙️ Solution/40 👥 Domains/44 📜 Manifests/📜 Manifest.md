@@ -89,7 +89,7 @@
     || [🇪🇺🏦 European Central Bank](<../../../8 📜 Manifests/👥 europa.eu/📜 europa.eu/📜 ecb.europa.eu.md>)
     | `🌍 Other Nations`| [🇲🇹 Government of Malta](<../../../8 📜 Manifests/👥 Authorities/📜 gov.mt.md>)
     || [🇮🇹 Italian Government](<../../../8 📜 Manifests/👥 Authorities/📜 governo.it.md>) 
-    | `🛠️ Helper domains` | [🔥 Any Firewall](<../../../8 📜 Manifests/🌐 Backbone/📜 any-firewall.org.md>)
+    | `🤲 Helper domains` | [🔥 Any Firewall](<../../../8 📜 Manifests/🌐 Backbone/📜 any-firewall.org.md>)
     || [🕸️ Any Graph](<../../../8 📜 Manifests/🌐 Backbone/📜 any-graph.org.md>)
     || [🕸️🇪🇺 Graph of European Union](<../../../8 📜 Manifests/🌐 Backbone/📜 graph.amazon.com.md>)
     || [🕸️☁️ Amazon Graph](<../../../8 📜 Manifests/🌐 Backbone/📜 graph.amazon.com.md>)

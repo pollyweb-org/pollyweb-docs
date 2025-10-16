@@ -4,7 +4,7 @@
 actor User as user
 participant "Broker 🤵\n(domain)" as broker
 participant "Consumer 💼 \n Host 🤗" as host
-participant "Helper 🛠️\n Host 🤗" as invitee
+participant "Helper 🤲\n Host 🤗" as invitee
 
 
 activate host

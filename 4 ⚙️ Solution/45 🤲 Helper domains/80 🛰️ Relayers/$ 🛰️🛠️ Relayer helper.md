@@ -4,7 +4,7 @@
 
 1. **What is a Relayer domains?**
 
-    Relayers 🛰️ are [Helper 🛠️ domains](<../$ 🤲 Helpers/🤲👥 Helper domain.md>) 
+    Relayers 🛰️ are [Helper 🤲 domains](<../$ 🤲 Helpers/🤲👥 Helper domain.md>) 
     * that control on-premise [Antenna 📡 router devices](<../../60 🧰 Edge/61 🔌 Pluggables/02 📡🔀 Antenna router.md>) 
     * owned by other [domains 👥](<../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>).
   
