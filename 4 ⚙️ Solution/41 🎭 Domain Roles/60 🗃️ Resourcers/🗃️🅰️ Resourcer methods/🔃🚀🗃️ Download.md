@@ -1,10 +1,10 @@
 # 🔃🚀🗃️ Download @ Resourcer
 
-> Part of the [🔃⏩🗃️ Sync](<../../../90 👷 Build/01 🛠️ Syncers/🔃⏩ Syncer flows/20 🔃⏩🗃️ Sync.md>) flow:
+> Part of the [🔃⏩🗃️ Sync](<../../../90 👷 Build/🛠️ Syncers/🔃⏩ Syncer flows/20 🔃⏩🗃️ Sync.md>) flow:
 > <br/> • Preceded by [`Uploaded@Resourcer`](<🔃🚀🗃️ Uploaded.md>)
 
 * This request 
-    * is signed with the [Syncer's 🔃](<../../../90 👷 Build/01 🛠️ Syncers/01 🔃🛠️ Syncer tool.md>) private-key pair 
+    * is signed with the [Syncer's 🔃](<../../../90 👷 Build/🛠️ Syncers/01 🔃🛠️ Syncer tool.md>) private-key pair 
     * matching the `PublicKey` 
     * sent on the [`Clone@Resourcer`](<🔃🚀🗃️ Clone.md>) request.
 

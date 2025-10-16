@@ -5,7 +5,7 @@
 
 * Used with:
     * [🧑‍🦰👉🗄️ Bind 🔗 flow](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind 🔗.md>)
-    * [`BIND` 🔗 command](<../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃📨 Talker msgs/44 🔗 BIND msg.md>)
+    * [`BIND` 🔗 command](<../../4 ⚙️ Solution/90 👷 Build/😃 Talkers/😃📨 Talker msgs/44 🔗 BIND msg.md>)
 
 <br/>
 

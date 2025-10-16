@@ -24,7 +24,7 @@ Consider the following excerpt from the [Book restaurant table 🤝 use case](<.
 
 ## 😃 Talker 
 
-The associated [Talker 😃](<../../../../35 Chats/😃 Talkers/😃 Talker.md>) uses the [`OFFER`](<../../../../35 Chats/😃 Talkers/😃📨 Talker msgs/49 🎫 OFFER msg.md>) command.
+The associated [Talker 😃](<../../../../90 👷 Build/😃 Talkers/😃 Talker.md>) uses the [`OFFER`](<../../../../90 👷 Build/😃 Talkers/😃📨 Talker msgs/49 🎫 OFFER msg.md>) command.
 
 ```yaml
 - INFO|Issuing your token...

@@ -59,7 +59,7 @@
 
 
 
-1. **What's the format for a [Talker 😃](<../../😃 Talkers/😃 Talker.md>)?**
+1. **What's the format for a [Talker 😃](<../../../90 👷 Build/😃 Talkers/😃 Talker.md>)?**
 
     ```yaml
     # Simplest
@@ -142,7 +142,7 @@
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ℹ️ You opted to play.
     |  
 
-    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
+    Here's the [Talker 😃](<../../../90 👷 Build/😃 Talkers/😃 Talker.md>).
 
     ```yaml
     # 😃 Talker
@@ -159,10 +159,10 @@
         Share: INFO|You choose to share.
     ```
 
-    | [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../../90 👷 Build/😃 Talkers/😃⚙️ Talker cmds/10 ⌘ Command.md>) | Purpose
     |-|-
     | 1️⃣ [`ONE`](<../🤔✏️ Prompt inputs/53 1️⃣ ONE prompt.md>) | To show the options.
-    | 🔀 [`CASE`](<../../😃 Talkers/😃⚙️ Talker cmds/22 🔀 CASE flow.md>) | To check the selected option.
+    | 🔀 [`CASE`](<../../../90 👷 Build/😃 Talkers/😃⚙️ Talker cmds/22 🔀 CASE flow.md>) | To check the selected option.
     | ℹ️ [`INFO`](<../🤔📢 Prompt status/21 ℹ️ INFO prompt.md>) | To show the result.
     
 
@@ -211,7 +211,7 @@
 
     <br/>
 
-    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
+    Here's the [Talker 😃](<../../../90 👷 Build/😃 Talkers/😃 Talker.md>).
 
     
   
@@ -234,10 +234,10 @@
     ```
 
 
-    | [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/10 ⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../../90 👷 Build/😃 Talkers/😃⚙️ Talker cmds/10 ⌘ Command.md>) | Purpose
     |-|-
     | 1️⃣ [`ONE`](<../🤔✏️ Prompt inputs/53 1️⃣ ONE prompt.md>) | To show the options.
-    | 🔀 [`CASE`](<../../😃 Talkers/😃⚙️ Talker cmds/22 🔀 CASE flow.md>) | To check the selected option.
+    | 🔀 [`CASE`](<../../../90 👷 Build/😃 Talkers/😃⚙️ Talker cmds/22 🔀 CASE flow.md>) | To check the selected option.
     | ℹ️ [`INFO`](<../🤔📢 Prompt status/21 ℹ️ INFO prompt.md>) | To show the result.
     
     <br/>
