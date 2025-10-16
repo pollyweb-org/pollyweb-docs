@@ -15,8 +15,8 @@
 
 ```yaml
 Header:
-    From: any-broker.com
-    To: any-vault.com
+    From: any-broker.dom
+    To: any-vault.dom
     Subject: Unbind@Vault
     
 Body:

@@ -1,12 +1,12 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): any-collector.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): any-collector.dom
 <!--# 🏳️🏦 https://quip.com/vbUAAxbmqgnY/-AnyCollectoruk-->
 
 ```yaml
 🤝: nlweb.org/MANIFEST
 
 About:
-  Domain: any-collector.org
+  Domain: any-collector.dom
   Name: Any Collector
 
   
@@ -24,7 +24,7 @@ Trusts:
   - Role: VAULT
     Query: nlweb.org/PAY/PAYMENT
     Domains: 
-      - any-payer.org
+      - any-payer.dom
       - any-exchange.org
       - any-bank.org
       

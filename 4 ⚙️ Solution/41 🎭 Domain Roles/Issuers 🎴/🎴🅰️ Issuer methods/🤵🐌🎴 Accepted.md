@@ -11,8 +11,8 @@
 
 ```yaml
 Header:
-    From: any-broker.com
-    To: any-issuer.com
+    From: any-broker.dom
+    To: any-issuer.dom
     Subject: Accepted@Issuer
 Body:
     Token: <token-uuid>

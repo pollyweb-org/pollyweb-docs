@@ -10,7 +10,7 @@
     
     For example:
       * `any-buyer.com` may accept payment requests 
-      * from `any-seller.com` 💸
+      * from `any-seller.dom` 💸
       * but not from `any-scammer.com` 🦹‍♂️. 
 
     ---
@@ -170,7 +170,7 @@
 
     Domains can rely on [Graph 🕸 domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>):
     - these keep up-to-date graph representations of all possible trust-paths between two domains, allowing [Trust 👍](<👍 Domain Trust.md>) paths to be queried even when the domains comprising the nodes of those paths are unavailable 
-    - e.g., `any-domain.com` can ask `any-graph.com` if `any-seller.com` can be trusted for payment requests.
+    - e.g., `any-domain.com` can ask `any-graph.dom` if `any-seller.dom` can be trusted for payment requests.
 
     ---
     <br/>
@@ -179,7 +179,7 @@
 
     [Domains 👥](<../👥 Domains/👥 Domain.md>) can rely on [Graph 🕸 domain helpers](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>):
     - these can detect trust removals and notify affected [subscriber 🔔 domains](<../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>);
-    - e.g., `any-graph.com` may inform `any-domain.com` whenever `any-seller.com` explicitly adds or removes a trust to `any-domain.com`.
+    - e.g., `any-graph.dom` may inform `any-domain.com` whenever `any-seller.dom` explicitly adds or removes a trust to `any-domain.com`.
 
 
     ---
@@ -209,7 +209,7 @@
     # 📜 nation-2.com 
     - Domain: nation-1.org # trusts the 1st nation.
     ```
-    `any-graph.com` may monitor changes in the existing [Trust 👍](<👍 Domain Trust.md>) path between the two banks, checking for changes like:
+    `any-graph.dom` may monitor changes in the existing [Trust 👍](<👍 Domain Trust.md>) path between the two banks, checking for changes like:
     * `nation-1.org` removing a [Trust 👍](<👍 Domain Trust.md>)  to `bank-of-nation-1.com`, or
     * `nation-1.org` removing a [Trust 👍](<👍 Domain Trust.md>) to `nation-2.org`.
 

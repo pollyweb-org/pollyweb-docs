@@ -21,8 +21,8 @@
 
 
 - Header:
-    - [From 💵](<../../../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>): `any-seller.org`
-    - [To 🤵](<../../🤵🤲 Broker helper.md>): `any-broker.com`
+    - [From 💵](<../../../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>): `any-seller.dom`
+    - [To 🤵](<../../🤵🤲 Broker helper.md>): `any-broker.dom`
     - [Subject 📨](<../../../../40 👥 Domains/👥📨 Domain Messages/📨 Message.md>): `Charge@Broker`
 - Body:
     - [ChatID 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>): `<session-uuid@seller>`

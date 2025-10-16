@@ -11,13 +11,13 @@
 
 ```yaml
 Header:
-    From: any-broker.com
+    From: any-broker.dom
     To: any-invited.com
     Subject: Invited@Helper
 
 Body:
     ChatID: <chat-uuid>
-    Inviter: any-consumer.com
+    Inviter: any-consumer.dom
     Code: any-authority.com/ANY-CODE:1.0
     Callback: <callback-uuid>
     Parameters:

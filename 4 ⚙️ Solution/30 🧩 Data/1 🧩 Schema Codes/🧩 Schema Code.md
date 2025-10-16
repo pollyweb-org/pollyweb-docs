@@ -88,8 +88,8 @@
         ```yaml
         # Sample request to share user data.
         Header:
-            From: any-consumer.com
-            To: any-broker.com
+            From: any-consumer.dom
+            To: any-broker.dom
             Subject: Query@Broker
         Body:
             ChatID: <chat-uuid>
@@ -111,7 +111,7 @@
         # Sample request to read a schema.
         Header: 
             From: any-domain.com
-            To: any-graph.com
+            To: any-graph.dom
             Subject: Schema@Graph
         Body:
             Code: .LOCATOR:1.0

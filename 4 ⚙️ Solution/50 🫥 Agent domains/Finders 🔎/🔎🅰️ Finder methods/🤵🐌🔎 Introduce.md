@@ -13,13 +13,13 @@
 
 ```yaml
 Header:
-    From: any-broker.com
-    To: any-finder.com
+    From: any-broker.dom
+    To: any-finder.dom
     Subject: Introduce@Broker
 
 Body:
     ChatID: <chat-uuid>
-    Host: any-host.com
+    Host: any-host.dom
 ```
 
 |Object|Property|Type|Description

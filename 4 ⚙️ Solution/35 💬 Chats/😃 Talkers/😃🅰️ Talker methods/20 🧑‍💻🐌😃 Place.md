@@ -16,8 +16,8 @@
 
 ```yaml
 Header:
-    From: any-host.com
-    To: any-hoster.com
+    From: any-host.dom
+    To: any-hoster.dom
     Subject: Place@Talker
 
 Body:

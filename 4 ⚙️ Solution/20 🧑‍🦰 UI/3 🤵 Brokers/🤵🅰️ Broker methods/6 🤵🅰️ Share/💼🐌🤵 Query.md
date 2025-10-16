@@ -19,8 +19,8 @@
 
 ```yaml
 Header:
-    From: any-consumer.com
-    To: any-broker.com
+    From: any-consumer.dom
+    To: any-broker.dom
     Subject: Query@Broker
 
 Body:

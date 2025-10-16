@@ -14,7 +14,7 @@
 
 ```yaml
 Header:
-    From: any-hoster.com
+    From: any-hoster.dom
     To: any-domain.com
     Subject: Handle@Hosted
 Body:

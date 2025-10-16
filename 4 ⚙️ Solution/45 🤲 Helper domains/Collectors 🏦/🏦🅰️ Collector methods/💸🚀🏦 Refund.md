@@ -17,8 +17,8 @@
 
 ```yaml
 Header:
-    From: any-seller.com
-    To: any-collector.com
+    From: any-seller.dom
+    To: any-collector.dom
     Subject: Refund@Collector
 
 Body:

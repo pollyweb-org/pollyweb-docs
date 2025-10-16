@@ -15,13 +15,13 @@
 ```yaml
 Header:
     From: <wallet-uuid>
-    To: any-broker.com
+    To: any-broker.dom
     Subject: Saved@Broker
 
 Body:
     ChatID: <chat-uuid>
     TokenID: <token-uuid>
-    Issuer: any-host.com
+    Issuer: any-host.dom
     Path: /storage/nlweb/tokens/<issuer>/<token-uuid>
 ```
 

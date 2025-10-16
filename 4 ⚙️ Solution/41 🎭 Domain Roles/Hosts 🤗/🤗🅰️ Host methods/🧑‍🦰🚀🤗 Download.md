@@ -21,7 +21,7 @@
 ```yaml
 Header: 
     From: Anonymous
-    To: any-host.com
+    To: any-host.dom
     Subject: Download@Host
 
 Body:

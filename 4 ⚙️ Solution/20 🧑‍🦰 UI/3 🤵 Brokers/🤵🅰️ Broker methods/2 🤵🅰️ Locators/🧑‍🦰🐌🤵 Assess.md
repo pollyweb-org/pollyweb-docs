@@ -18,11 +18,11 @@
 ```yaml
 Header:
     From: <wallet-id>
-    To: any-broker.com
+    To: any-broker.dom
     Subject: Assess@Broker
     
 Body:
-    Locator: @ALIAS,any-printer.com,7V8KD3G
+    Locator: @ALIAS,any-printer.dom,7V8KD3G
 ```
 
 |Object|Property|Type|Description

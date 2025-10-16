@@ -18,7 +18,7 @@
 ```yaml
 Header: 
     From: any-domain.com
-    To: any-graph.com
+    To: any-graph.dom
     Subject: Identity@Graph
     
 Body:
@@ -40,7 +40,7 @@ Body:
 
 ```yaml
 Domain: another-domain.com
-Feedback: any-buffer.com
+Feedback: any-buffer.dom
 Name: Any Other Domain, Inc.
 SmallIcon: <base64>
 BigIcon: <base64>

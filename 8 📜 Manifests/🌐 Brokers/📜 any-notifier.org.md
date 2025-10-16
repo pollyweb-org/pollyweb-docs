@@ -1,11 +1,11 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): any-notifier.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): any-notifier.dom
 <!-- 👱 https://quip.com/vTSSAUYt4OGo/-AnyWalletcom -->
 
 ```yaml
 🤝: nlweb.org/MANIFEST
 
 About:
-  Domain: any-notifier.org
+  Domain: any-notifier.dom
   Name: Any Wallet Notifier
   

@@ -16,8 +16,8 @@
 
 ```yaml
 Header:
-    From: any-broker.com
-    To: any-notifier.com
+    From: any-broker.dom
+    To: any-notifier.dom
     Subject: Charge@Notifier
     
 Body:

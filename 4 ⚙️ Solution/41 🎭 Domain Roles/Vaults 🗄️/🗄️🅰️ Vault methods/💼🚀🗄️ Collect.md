@@ -14,8 +14,8 @@
 
 ````yaml
 Header:
-    From: any-consumer.com
-    To: any-vault.com
+    From: any-consumer.dom
+    To: any-vault.dom
     Subject: Collect@Vault
 
 Body:

@@ -184,7 +184,7 @@
 
     ```yaml
     Code: .TOKEN
-    Domain: any-issuer.com
+    Domain: any-issuer.dom
     TokenID: <token-uuid>
     Properties:
         Property1: Value1
@@ -225,7 +225,7 @@
     An identity-bound [Token 🎫](<🎫 Token.md>) also contains the following.
 
     ```yaml
-    Identity: any-identity.com
+    Identity: any-identity.dom
     IdentityKey: person-1234
     ```
 

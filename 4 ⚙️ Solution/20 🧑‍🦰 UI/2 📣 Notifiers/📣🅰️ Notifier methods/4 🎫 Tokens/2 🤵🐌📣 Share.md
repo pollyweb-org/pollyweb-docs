@@ -11,15 +11,15 @@
 
 ```yaml
 Header:
-    From: any-broker.com
-    To: any-notifier.com
+    From: any-broker.dom
+    To: any-notifier.dom
     Subject: Share@Notifier
 Body: 
     WalletID: <wallet-id>
     ChatID: <chat-uuid>
-    Consumer: any-consumer.com
+    Consumer: any-consumer.dom
     Tokens: 
-      - /storage/nlweb/tokens/any-issuer.com/<token-uuid>
+      - /storage/nlweb/tokens/any-issuer.dom/<token-uuid>
 ```
 
 |Object|Property|Type|Description

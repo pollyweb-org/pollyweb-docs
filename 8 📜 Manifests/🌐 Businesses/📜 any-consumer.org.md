@@ -1,10 +1,10 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): any-consumer.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): any-consumer.dom
 
 ```yaml
 🤝: nlweb.org/MANIFEST
 
 About:
-  Domain: any-consumer.org
+  Domain: any-consumer.dom
   Name: Any Consumer
   

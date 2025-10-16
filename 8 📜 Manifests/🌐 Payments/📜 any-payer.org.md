@@ -1,12 +1,12 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): any-payer.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): any-payer.dom
 <!--# 🇺🇸💳 https://quip.com/otqrA6r0s9cC/-AnyPayercom-->
 
 ```yaml
 🤝: nlweb.org/MANIFEST
 
 About:
-  Domain: any-payer.org
+  Domain: any-payer.dom
   Name: Any Payer
 
   
@@ -19,7 +19,7 @@ Trusts:
       - nlweb.org/PAY/PAYER
       - nlweb.org/PAY/PAYMENT
     Domains: 
-      - any-collector.org
+      - any-collector.dom
       - any-exchange.com
       - any-exchange.org
       

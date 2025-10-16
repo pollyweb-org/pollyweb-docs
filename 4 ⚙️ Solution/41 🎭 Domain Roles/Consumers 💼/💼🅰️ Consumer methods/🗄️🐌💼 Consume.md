@@ -14,12 +14,12 @@
 
 ```yaml
 Header:
-    From: any-vault.com
-    To: any-consumer.com
+    From: any-vault.dom
+    To: any-consumer.dom
     Subject: Consume@Consumer
 
 Body:
-    Broker: any-broker.com
+    Broker: any-broker.dom
     ChatID: <chat-uuid>
     Code: airlines.any-igo.org/SSR/WCH:1
     ConsumerKey: <consumer-key>

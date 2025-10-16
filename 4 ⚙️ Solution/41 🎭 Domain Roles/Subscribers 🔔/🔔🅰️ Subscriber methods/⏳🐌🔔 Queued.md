@@ -13,8 +13,8 @@
 
 ```yaml
 Header:
-    From: any-buffer.com
-    To: any-subscriber.com
+    From: any-buffer.dom
+    To: any-subscriber.dom
     Subject: Wake-up@Subscriber
 Body:
     Queue: <queue-uuid>

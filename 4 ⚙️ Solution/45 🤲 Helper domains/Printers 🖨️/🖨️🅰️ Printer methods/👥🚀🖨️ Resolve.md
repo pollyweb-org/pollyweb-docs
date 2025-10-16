@@ -15,7 +15,7 @@
 ```yaml
 Header:
     From: any-domain.com
-    To: any-printer.com
+    To: any-printer.dom
     Subject: Resolve@Printer
 
 Body: 
@@ -36,7 +36,7 @@ Body:
 ## Synchronous Response
 
 ```yaml
-Locator: .HOST,any-host.com,any-key
+Locator: .HOST,any-host.dom,any-key
 ```
 
 Property|Type|Description

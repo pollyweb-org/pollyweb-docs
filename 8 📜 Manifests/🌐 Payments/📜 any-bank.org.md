@@ -23,4 +23,4 @@ Trusts:
       - nlweb.org/PAY/PAYER
       - nlweb.org/PAY/PAYMENT
     Domains: 
-      - any-collector.org
+      - any-collector.dom

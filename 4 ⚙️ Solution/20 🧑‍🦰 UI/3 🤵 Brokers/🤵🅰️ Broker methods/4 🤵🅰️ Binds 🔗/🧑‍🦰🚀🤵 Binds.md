@@ -16,7 +16,7 @@
 ```yaml
 Header:
     From: <wallet-uuid>
-    To: any-broker.com
+    To: any-broker.dom
     Subject: Binds@Broker
 Body: 
 ```
@@ -36,7 +36,7 @@ Body:
 ```yaml
 Binds:
   - BindID: <bind-uuid>
-    Vault: any-vault.org
+    Vault: any-vault.dom
     VaultTitle: AnyVault
     Code: any-authority.org/ANY-CODE
     CodeTitle: Any Code

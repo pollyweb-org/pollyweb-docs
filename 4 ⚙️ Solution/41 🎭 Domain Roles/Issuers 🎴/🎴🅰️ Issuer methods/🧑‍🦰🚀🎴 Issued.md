@@ -16,7 +16,7 @@
 ```yaml
 Header:
     From: Anonymous
-    To: any-issuer.com
+    To: any-issuer.dom
     Subject: Token@Issuer
     
 Body:
@@ -38,7 +38,7 @@ Body:
 ## Sync Response
 
 ```yaml
-Issuer: any-issuer.com
+Issuer: any-issuer.dom
 TokenID: ANY-TOKEN-KEY
 Code: airlines.any-igo.org/SSR/WCH:1 
 ...

@@ -13,8 +13,8 @@ Tells all [Host 🤗 domains](<../🤗🎭 Host role.md>) in [Chat 💬](<../../
 
 ```yaml
 Header:
-    From: any-broker.com
-    To: any-host.com
+    From: any-broker.dom
+    To: any-host.dom
     Subject: Abandoned@Host
 
 Body: 

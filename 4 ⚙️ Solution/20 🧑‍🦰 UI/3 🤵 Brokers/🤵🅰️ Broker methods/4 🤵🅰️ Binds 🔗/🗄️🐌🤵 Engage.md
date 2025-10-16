@@ -13,8 +13,8 @@
 
 ```yaml
 Header:
-    From: any-vault.com
-    To: any-broker.com
+    From: any-vault.dom
+    To: any-broker.dom
     Subject: Help@Broker
 
 Body:

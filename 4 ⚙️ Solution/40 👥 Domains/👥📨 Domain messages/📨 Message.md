@@ -301,7 +301,7 @@
         🤝: nlweb.org/MANIFEST/ABOUT
         About:
           Name: any-sender.com
-          Feedback: any-buffer.com
+          Feedback: any-buffer.dom
         ```
 
     * The feedback is sent via a [Buffer ⏳ helper domain](<../../45 🤲 Helper domains/Buffers ⏳/⏳🤲 Buffer helper.md>) defined by the sender's domain, using the [Feedback@Buffer 🐌 API message](<../../45 🤲 Helper domains/Buffers ⏳/⏳🅰️ Buffer methods/👥🐌⏳ Feedback.md>). 
@@ -309,7 +309,7 @@
         🤝: nlweb.org/MSG:1.0
         Header:
             From: any-receiver.com
-            To: any-buffer.com
+            To: any-buffer.dom
             Subject: Feedback@Buffer
         Body:
             Correlation: <correlation-uuid>

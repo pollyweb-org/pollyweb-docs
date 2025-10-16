@@ -9,11 +9,11 @@
 ```yaml
 Header:
     From: any-domain.com
-    To: any-printer.com
+    To: any-printer.dom
     Subject: Grab@Printer
 Body: 
     Alias: ANY-ALIAS
-    Locator: .HOST,any-host.com,ANY-RESOURCE,A=1,B=2
+    Locator: .HOST,any-host.dom,ANY-RESOURCE,A=1,B=2
 ```
 
 |Object|Property|Type|Description

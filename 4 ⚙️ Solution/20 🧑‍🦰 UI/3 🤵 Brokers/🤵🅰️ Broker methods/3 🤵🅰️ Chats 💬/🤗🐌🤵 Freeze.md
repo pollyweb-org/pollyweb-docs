@@ -13,8 +13,8 @@
 
 ```yaml
 Header:
-    From: any-host.com
-    To: any-broker.com
+    From: any-host.dom
+    To: any-broker.dom
     Subject: Freeze@Broker
     
 Body:
