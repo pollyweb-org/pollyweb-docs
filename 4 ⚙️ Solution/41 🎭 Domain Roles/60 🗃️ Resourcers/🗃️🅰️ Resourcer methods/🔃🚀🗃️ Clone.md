@@ -28,8 +28,8 @@ Body:
 |           | `To`          | string    | [Resourcer 🗃️ domain](<../🗃️🎭 Resourcer role.md>) name
 |           | `Subject`     | string    | `Clone@Resourcer`
 | Body      | `WalletPin`  | string | Pin displayed on the [Wallet 🧑‍🦰](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
-|           | `SyncerPin`   | string | Pin displayed on the [Syncer 🔃](<../../../90 👷 Build/🛠️ Syncers/01 🔃🛠️ Syncer tool.md>)
-|           | `PublicKey`   | string | [Syncer 🔃](<../../../90 👷 Build/🛠️ Syncers/01 🔃🛠️ Syncer tool.md>) public key
+|           | `SyncerPin`   | string | Pin displayed on the [Syncer 🔃](<../../../90 👷 Build/🛠️ Syncers/🔃🛠️ Syncer tool.md>)
+|           | `PublicKey`   | string | [Syncer 🔃](<../../../90 👷 Build/🛠️ Syncers/🔃🛠️ Syncer tool.md>) public key
 |
 
 <br/>

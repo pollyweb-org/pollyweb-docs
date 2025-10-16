@@ -1,6 +1,6 @@
 # 🔃⏩🗃️ Clone @ Syncer
 
-* Registers a [Syncer 🔃 tool](<../01 🔃🛠️ Syncer tool.md>) on a [Resourcer 🗃️ domain](<../../../41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🎭 Resourcer role.md>).
+* Registers a [Syncer 🔃 tool](<../🔃🛠️ Syncer tool.md>) on a [Resourcer 🗃️ domain](<../../../41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🎭 Resourcer role.md>).
 
 <br/>
 
@@ -42,7 +42,7 @@ $ syncer sync
 |-|-|-
 |1|[🤗⏩🧑‍🦰 Prompt 🤔](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | Users [Chat 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>) with  [bound 🔗](<../../../30 Data/2 🔗 Binds/🔗 Bind.md>) [Resourcers 🗃️](<../../../41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🎭 Resourcer role.md>)
 |2|[🤗⏩🧑‍🦰 Prompt 🤔](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | Users ask to clone → [Resourcers 🗃️](<../../../41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🎭 Resourcer role.md>) return 🄰
-|3|[🔃🚀🗃️ `Clone@Resourcer`](<../../../41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🅰️ Resourcer methods/🔃🚀🗃️ Clone.md>) | Users run [Syncer](<../01 🔃🛠️ Syncer tool.md>) with 🄰 → they display  🄱
+|3|[🔃🚀🗃️ `Clone@Resourcer`](<../../../41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🅰️ Resourcer methods/🔃🚀🗃️ Clone.md>) | Users run [Syncer](<../🔃🛠️ Syncer tool.md>) with 🄰 → they display  🄱
 |4|[🤗⏩🧑‍🦰 Prompt 🤔](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Resourcers 🗃️](<../../../41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🎭 Resourcer role.md>) ask users to confirm 🄱
 |5| [🔃⏩🗃️ Sync](<20 🔃⏩🗃️ Sync.md>) | Uses download the resources locally
 |

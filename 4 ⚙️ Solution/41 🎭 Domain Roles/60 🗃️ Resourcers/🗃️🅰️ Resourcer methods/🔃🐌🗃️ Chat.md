@@ -3,7 +3,7 @@
 > Part of the [🔃⏩🗃️ Chat @ Syncer](<../../../90 👷 Build/🛠️ Syncers/🔃⏩ Syncer flows/30 🔃⏩🗃️ Chat.md>) flow
 
 * This request 
-    * is signed with the [Syncer's 🔃](<../../../90 👷 Build/🛠️ Syncers/01 🔃🛠️ Syncer tool.md>) private-key pair 
+    * is signed with the [Syncer's 🔃](<../../../90 👷 Build/🛠️ Syncers/🔃🛠️ Syncer tool.md>) private-key pair 
     * matching the `PublicKey` 
     * sent on the [`Clone@Resourcer`](<🔃🚀🗃️ Clone.md>) request.
 
