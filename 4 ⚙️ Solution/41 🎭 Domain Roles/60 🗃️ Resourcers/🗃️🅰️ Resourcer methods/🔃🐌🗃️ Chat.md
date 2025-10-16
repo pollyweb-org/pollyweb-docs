@@ -1,9 +1,9 @@
 # 🔃🐌🗃️ Chat @ Resourcer
 
-> Part of the [🔃⏩🗃️ Chat @ Syncer](<../../../90 👷 Build/2 🛠️ Syncers/🔃⏩ Syncer flows/30 🔃⏩🗃️ Chat.md>) flow
+> Part of the [🔃⏩🗃️ Chat @ Syncer](<../../../55 👷 Build domains/2 🛠️ Syncers/🔃⏩ Syncer flows/30 🔃⏩🗃️ Chat.md>) flow
 
 * This request 
-    * is signed with the [Syncer's 🔃](<../../../90 👷 Build/2 🛠️ Syncers/🔃🛠️ Syncer tool.md>) private-key pair 
+    * is signed with the [Syncer's 🔃](<../../../55 👷 Build domains/2 🛠️ Syncers/🔃🛠️ Syncer tool.md>) private-key pair 
     * matching the `PublicKey` 
     * sent on the [`Clone@Resourcer`](<🔃🚀🗃️ Clone.md>) request.
 

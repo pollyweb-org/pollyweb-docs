@@ -5,7 +5,7 @@
     * then switch to a [non-blocking info ℹ️](<../../../35 Chats/🤔 Prompts/🤔📢 Prompt status/21 ℹ️ INFO prompt.md>).
 
 * Related to:
-    * [📝 Talker `INFORM` command](<../../../90 👷 Build/3 😃 Talkers/😃📨 Talker msgs/41 📝 INFORM msg.md>)
+    * [📝 Talker `INFORM` command](<../../../55 👷 Build domains/3 😃 Talkers/😃📨 Talker msgs/41 📝 INFORM msg.md>)
 
 * Examples:
     * [Buy hot dog 🌭](<../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/50 🌭 Street food/21 🎪 Stall: Buy hot dog 🌭.md>)
@@ -23,16 +23,16 @@
 
 <br/>
 
-Here's the [Talker 😃](<../../../90 👷 Build/3 😃 Talkers/😃 Talker.md>).
+Here's the [Talker 😃](<../../../55 👷 Build domains/3 😃 Talkers/😃 Talker.md>).
 
 ```yaml
 # Talker
 - INFORM|TableOrder
 ```
 
-| [Command ⌘](<../../../90 👷 Build/3 😃 Talkers/😃⚙️ Talker cmds/10 ⌘ Command.md>) | Purpose
+| [Command ⌘](<../../../55 👷 Build domains/3 😃 Talkers/😃⚙️ Talker cmds/10 ⌘ Command.md>) | Purpose
 |-|-
-| 📝 [`INFORM`](<../../../90 👷 Build/3 😃 Talkers/😃📨 Talker msgs/41 📝 INFORM msg.md>) | Show user instructions and allow inputs.
+| 📝 [`INFORM`](<../../../55 👷 Build domains/3 😃 Talkers/😃📨 Talker msgs/41 📝 INFORM msg.md>) | Show user instructions and allow inputs.
 |
 
 <br/>
