@@ -27,8 +27,8 @@
 
     |Behavior| Format 
     |-|-
-    |[`Status`](<../20 🤔 Prompts/1 📘 Prompt specs/08 ⚠️ as Status.md>)| [`ℹ️ INFO`](<../20 🤔 Prompts/4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<../20 🤔 Prompts/4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<../20 🤔 Prompts/4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<../20 🤔 Prompts/4 ⚠️ Status prompts/24 ❌ FAILURE prompt.md>)
-    |[`Inputs`](<../20 🤔 Prompts/1 📘 Prompt specs/09 ✏️ as Input.md>)| [`🔢 DIGITS`](<../20 🤔 Prompts/7 ✏️ Input prompts/44 🔢 DIGITS prompt.md>) [`↕️ QUANTITY`](<../20 🤔 Prompts/7 ✏️ Input prompts/42 ↕️ QUANTITY prompt.md>) [`💰 AMOUNT`](<../20 🤔 Prompts/7 ✏️ Input prompts/43 💰 AMOUNT prompt.md>) [`🔑 OTP`](<../20 🤔 Prompts/7 ✏️ Input prompts/57 🔑 OTP prompt.md>) [`⭐ RATE`](<../20 🤔 Prompts/7 ✏️ Input prompts/46 ⭐ RATE prompt.md>) 
+    |[`Status`](<../20 🤔 Prompts/1 📘 Prompt features/08 ⚠️ as Status.md>)| [`ℹ️ INFO`](<../20 🤔 Prompts/4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<../20 🤔 Prompts/4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<../20 🤔 Prompts/4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<../20 🤔 Prompts/4 ⚠️ Status prompts/24 ❌ FAILURE prompt.md>)
+    |[`Inputs`](<../20 🤔 Prompts/1 📘 Prompt features/09 ✏️ as Input.md>)| [`🔢 DIGITS`](<../20 🤔 Prompts/7 ✏️ Input prompts/44 🔢 DIGITS prompt.md>) [`↕️ QUANTITY`](<../20 🤔 Prompts/7 ✏️ Input prompts/42 ↕️ QUANTITY prompt.md>) [`💰 AMOUNT`](<../20 🤔 Prompts/7 ✏️ Input prompts/43 💰 AMOUNT prompt.md>) [`🔑 OTP`](<../20 🤔 Prompts/7 ✏️ Input prompts/57 🔑 OTP prompt.md>) [`⭐ RATE`](<../20 🤔 Prompts/7 ✏️ Input prompts/46 ⭐ RATE prompt.md>) 
     || [`👍 CONFIRM`](<../20 🤔 Prompts/7 ✏️ Input prompts/31 👍 CONFIRM prompt.md>) [`1️⃣ ONE`](<../20 🤔 Prompts/7 ✏️ Input prompts/53 1️⃣ ONE prompt.md>) [`🔢 MANY`](<../20 🤔 Prompts/7 ✏️ Input prompts/54 🔠 MANY prompt.md>) 
     || [`🕓 TIME`](<../20 🤔 Prompts/7 ✏️ Input prompts/62 🕓 TIME prompt.md>) [`📆 DATE`](<../20 🤔 Prompts/7 ✏️ Input prompts/61 📆 DATE prompt.md>) 
     || [`⬆️ UPLOAD`](<../20 🤔 Prompts/7 ✏️ Input prompts/81 ⬆️ UPLOAD prompt.md>)
@@ -68,7 +68,7 @@
         * This blocks the user from changing any [Prompts 🤔](<20 🤔 Prompt.md>) up to that point.
         * [Hosts 🤗](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) to this when committing a transaction to a database with the inputs collected.
   
-    * ⚠️ Note: [`Options`](<../20 🤔 Prompts/1 📘 Prompt specs/04 🔘 with Options.md>) with a `§` open a new [Chat 💬](<../../4 ⚙️ Solution/35 Chats/12 💬 Chats/$ 💬 Chat.md>)  and are never frozen.
+    * ⚠️ Note: [`Options`](<../20 🤔 Prompts/1 📘 Prompt features/04 🔘 with Options.md>) with a `§` open a new [Chat 💬](<../../4 ⚙️ Solution/35 Chats/12 💬 Chats/$ 💬 Chat.md>)  and are never frozen.
 
     ---
     <br/>
@@ -78,11 +78,11 @@
 
     | Feature | Details
     |-|-
-    | ⊕ [`Details`](<../20 🤔 Prompts/1 📘 Prompt specs/03 ⊕ with Details.md>) | Has expandable [+] details.
-    | 🔘 [`Options`](<../20 🤔 Prompts/1 📘 Prompt specs/04 🔘 with Options.md>)  | Has options for users to select.
-    | 📎 [`Appendix`](<../20 🤔 Prompts/1 📘 Prompt specs/05 📎 with Appendix.md>)  | Has a PDF, PNG, or JPEG attachment.
-    | ⚠️ [` Status`](<../20 🤔 Prompts/1 📘 Prompt specs/08 ⚠️ as Status.md>) | Informs and continues the flow.
-    | ✏️ [`Input`](<../20 🤔 Prompts/1 📘 Prompt specs/09 ✏️ as Input.md>) | Waits for an answer from users.
+    | ⊕ [`Details`](<../20 🤔 Prompts/1 📘 Prompt features/03 ⊕ with Details.md>) | Has expandable [+] details.
+    | 🔘 [`Options`](<../20 🤔 Prompts/1 📘 Prompt features/04 🔘 with Options.md>)  | Has options for users to select.
+    | 📎 [`Appendix`](<../20 🤔 Prompts/1 📘 Prompt features/05 📎 with Appendix.md>)  | Has a PDF, PNG, or JPEG attachment.
+    | ⚠️ [` Status`](<../20 🤔 Prompts/1 📘 Prompt features/08 ⚠️ as Status.md>) | Informs and continues the flow.
+    | ✏️ [`Input`](<../20 🤔 Prompts/1 📘 Prompt features/09 ✏️ as Input.md>) | Waits for an answer from users.
     
     ---
     <br/>

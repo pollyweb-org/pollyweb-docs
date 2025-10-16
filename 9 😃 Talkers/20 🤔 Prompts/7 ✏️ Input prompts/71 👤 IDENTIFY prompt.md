@@ -2,7 +2,7 @@
 
 > Opens a pop-up for the user's [Identity 🆔 agent](<../../../4 ⚙️ Solution/50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) to perform a face scan.
 
-> Part of [blocking input prompts 🤔](<../1 📘 Prompt specs/09 ✏️ as Input.md>)
+> Part of [blocking input prompts 🤔](<../1 📘 Prompt features/09 ✏️ as Input.md>)
 
 
 <br/>
