@@ -1,6 +1,6 @@
 # 📝 Talker INFORM command
 
-> Part of [Talker 😃](<../10 😃 Talker.md>)
+> Part of [Talker 😃](<../😃 Talker.md>)
 
 > Related to [Host Inform ⏩ flow](<../../../41 🎭 Domain Roles/27 💼 Consumers/💼⏩ Consumer flows/💼⏩🧑‍🦰 Inform 📝.md>) 
 
@@ -43,7 +43,7 @@
 
     <br/>
 
-    Here's the [Talker 😃](<../10 😃 Talker.md>).
+    Here's the [Talker 😃](<../😃 Talker.md>).
 
     ```yaml
     # Talker

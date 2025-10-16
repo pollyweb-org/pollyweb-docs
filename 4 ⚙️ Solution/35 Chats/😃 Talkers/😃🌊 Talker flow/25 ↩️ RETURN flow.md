@@ -1,6 +1,6 @@
 # ↩️ Talker `RETURN` flow 
 
-> Part of [Talker 😃](<../10 😃 Talker.md>)
+> Part of [Talker 😃](<../😃 Talker.md>)
 
 <br/>
 
@@ -48,7 +48,7 @@
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ✅ No failure occurred.
     |
     
-    Here's the [Talker 😃](<../10 😃 Talker.md>).
+    Here's the [Talker 😃](<../😃 Talker.md>).
 
     ```yaml
     # 😃 Talker 
@@ -81,7 +81,7 @@
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ℹ️ Function return 1+2+3= `6`
     |
 
-    Here's the [Talker 😃](<../10 😃 Talker.md>).
+    Here's the [Talker 😃](<../😃 Talker.md>).
 
     ```yaml
     # 😃 Talker 

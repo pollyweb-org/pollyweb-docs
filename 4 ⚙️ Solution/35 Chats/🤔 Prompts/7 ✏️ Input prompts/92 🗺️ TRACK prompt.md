@@ -1,6 +1,6 @@
 # 🗺️ TRACK prompt
 
-> Part of [blocking input prompts 🤔](<../1 📘 Prompt features/09 ✏️ as Input.md>)
+> Part of [blocking input prompts 🤔](<../🤔📘 Prompt features/09 ✏️ as Input.md>)
 
 <br/>
 

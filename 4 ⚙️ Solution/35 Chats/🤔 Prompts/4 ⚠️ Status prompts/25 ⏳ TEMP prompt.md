@@ -1,6 +1,6 @@
 # Non-blocking temporary info ⏳
 
-> Part of [Non-blocking status prompts 🤔](<../1 📘 Prompt features/08 ⚠️ as Status.md>)
+> Part of [Non-blocking status prompts 🤔](<../🤔📘 Prompt features/08 ⚠️ as Status.md>)
 
 <br/>
 
@@ -9,7 +9,7 @@
     A `TEMP`
     * is similar to an [INFO ℹ️ prompt](<21 ℹ️ INFO prompt.md>) 
     * but it is automatically removed when a new [Prompt 🤔](<../🤔 Prompt.md>) arrives;
-    * if it contains [`Options`](<../1 📘 Prompt features/04 🔘 with Options.md>), then the user may click an option while it's visible.
+    * if it contains [`Options`](<../🤔📘 Prompt features/04 🔘 with Options.md>), then the user may click an option while it's visible.
 
 
     ---
@@ -38,9 +38,9 @@
 
     | Feature | Details
     |-|-
-    | ⊕ [`Details`](<../1 📘 Prompt features/03 ⊕ with Details.md>) | Has expandable [+] details.
-    | 🔘 [`Options`](<../1 📘 Prompt features/04 🔘 with Options.md>) | Has options for users to select.
-    | 📎 [`Appendix`](<../1 📘 Prompt features/05 📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
+    | ⊕ [`Details`](<../🤔📘 Prompt features/03 ⊕ with Details.md>) | Has expandable [+] details.
+    | 🔘 [`Options`](<../🤔📘 Prompt features/04 🔘 with Options.md>) | Has options for users to select.
+    | 📎 [`Appendix`](<../🤔📘 Prompt features/05 📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
     
     
     ---
@@ -48,7 +48,7 @@
 
 
 
-1. **What's the TEMP format for a [Talker 😃](<../../😃 Talkers/10 😃 Talker.md>)?**
+1. **What's the TEMP format for a [Talker 😃](<../../😃 Talkers/😃 Talker.md>)?**
 
     ```yaml
     # Inline
@@ -73,9 +73,9 @@
 
     | Argument| Purpose | Example
     |-|-|-
-    | `Details` | Optional [expandable details ⊕](<../1 📘 Prompt features/03 ⊕ with Details.md>) | `Hint...`
-    | `Options` | Optional [selectable options 🔘](<../1 📘 Prompt features/04 🔘 with Options.md>) | `A,B` `{A:B}`
-    | `Appendix` | Optional [file attachment 📎](<../1 📘 Prompt features/05 📎 with Appendix.md>) | `{/...}`
+    | `Details` | Optional [expandable details ⊕](<../🤔📘 Prompt features/03 ⊕ with Details.md>) | `Hint...`
+    | `Options` | Optional [selectable options 🔘](<../🤔📘 Prompt features/04 🔘 with Options.md>) | `A,B` `{A:B}`
+    | `Appendix` | Optional [file attachment 📎](<../🤔📘 Prompt features/05 📎 with Appendix.md>) | `{/...}`
 
 
     ---
@@ -95,7 +95,7 @@
 
     <br/>
 
-    Here's the [Talker 😃](<../../😃 Talkers/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
     
     ```yaml
     # Talker 😃

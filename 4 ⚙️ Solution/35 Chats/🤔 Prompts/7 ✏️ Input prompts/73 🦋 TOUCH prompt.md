@@ -2,7 +2,7 @@
 
 > Asks to touch/scan a [QR/NFC Ephemeral 🦋 device](<../../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>).
 
-> Part of [blocking input prompts 🤔](<../1 📘 Prompt features/09 ✏️ as Input.md>)
+> Part of [blocking input prompts 🤔](<../🤔📘 Prompt features/09 ✏️ as Input.md>)
 
 
 <br/>
@@ -26,7 +26,7 @@
     <br/>
 
 
-1. **What's the content for a [Talker 😃](<../../😃 Talkers/10 😃 Talker.md>)?**
+1. **What's the content for a [Talker 😃](<../../😃 Talkers/😃 Talker.md>)?**
 
     ```yaml
     

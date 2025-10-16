@@ -23,7 +23,7 @@
 
 <br/>
 
-Here's the [Talker 😃](<../../../35 Chats/😃 Talkers/10 😃 Talker.md>).
+Here's the [Talker 😃](<../../../35 Chats/😃 Talkers/😃 Talker.md>).
 
 ```yaml
 # Talker

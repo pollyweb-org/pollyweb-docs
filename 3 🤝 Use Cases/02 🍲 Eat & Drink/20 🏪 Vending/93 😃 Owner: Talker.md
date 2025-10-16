@@ -2,7 +2,7 @@
 
 > From [🏪 Drink at vending machines](<01 🏪 Index.md>)
 
-* [Talker 😃](<../../../4 ⚙️ Solution/35 Chats/😃 Talkers/10 😃 Talker.md>) for:
+* [Talker 😃](<../../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃 Talker.md>) for:
   * [Buy water 💧 ](<11 💧 Buy water.md>)
   * [Buy beer 🍺 ](<12 🍺 Buy beer.md>)
 

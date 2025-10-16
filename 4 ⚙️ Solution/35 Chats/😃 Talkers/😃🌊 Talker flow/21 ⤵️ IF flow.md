@@ -1,6 +1,6 @@
 # ⤵️ Talker `IF` flow 
 
-> Part of [Talker 😃](<../10 😃 Talker.md>)
+> Part of [Talker 😃](<../😃 Talker.md>)
 
 <br/>
 
@@ -42,7 +42,7 @@
     |-|-|-
     | `{function}` | Boolean [{Function}](<../😃🗃️ Talker data/12 🐍 {Function}.md>) to evaluate  | `{f}` `{$o}`
     || Allows for missing `{}` in functions | `f()` `$p`
-    || Defaults to the last [input prompt ✏️](<../../🤔 Prompts/1 📘 Prompt features/09 ✏️ as Input.md>) | `TEXT\|Id?`
+    || Defaults to the last [input prompt ✏️](<../../🤔 Prompts/🤔📘 Prompt features/09 ✏️ as Input.md>) | `TEXT\|Id?`
     | `<true-proc>` | [Procedure ⚙️](<11 ⚙️ Procedure.md>) to [Run ▶️](<24 ▶️ RUN flow.md>) when `True` | `IfTrue`
     | `<false-proc>`| [Procedure ⚙️](<11 ⚙️ Procedure.md>) to [Run ▶️](<24 ▶️ RUN flow.md>) when `False` | `IfFalse(X)`
     

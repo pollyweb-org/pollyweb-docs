@@ -1,6 +1,6 @@
 # 📋 Input validation
 
-> Part of [✏️ Input prompts](<../1 📘 Prompt features/09 ✏️ as Input.md>)
+> Part of [✏️ Input prompts](<../🤔📘 Prompt features/09 ✏️ as Input.md>)
 
 <br/>
 
@@ -29,7 +29,7 @@
     |
 
 
-    Here's a [Talker 😃](<../../😃 Talkers/10 😃 Talker.md>).
+    Here's a [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
 
     ```yaml
     - QUANTITY|How many players? >> $qt:
@@ -61,7 +61,7 @@
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 😃 What's the code? [+]<br/> | `012345`
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ✅ Code validated!
 
-    Here's the [Talker 😃](<../../😃 Talkers/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
 
     ```yaml
     # Talker 😃
@@ -95,7 +95,7 @@
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ✅ Code validated!
     |
 
-    Here's the [Talker 😃](<../../😃 Talkers/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
 
     ```yaml
     # Talker 😃

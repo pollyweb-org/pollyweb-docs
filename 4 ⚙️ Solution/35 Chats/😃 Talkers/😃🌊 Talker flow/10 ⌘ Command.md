@@ -1,6 +1,6 @@
 # 😃 Talker `<Command>`
 
-> Part of [Talker 😃](<../10 😃 Talker.md>)
+> Part of [Talker 😃](<../😃 Talker.md>)
 
 <br/>
 
@@ -108,7 +108,7 @@
     Command | Purpose
     |-|-
     | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | Runs a [Command ⌘](<10 ⌘ Command.md>) or [Procedure ⚙️](<11 ⚙️ Procedure.md>) matching a [{Function}](<../😃🗃️ Talker data/12 🐍 {Function}.md>).
-    | 🫥 [`EMOJI`](<../../🤔 Prompts/2 ✏️ Input features/16 😶⌘ EMOJI cmd.md>) | Changes the [default emoji 😃](<../../🤔 Prompts/2 ✏️ Input features/14 😶 Input emojis.md>) for [input prompts ✏️](<../../🤔 Prompts/1 📘 Prompt features/09 ✏️ as Input.md>).
+    | 🫥 [`EMOJI`](<../../🤔 Prompts/2 ✏️ Input features/16 😶⌘ EMOJI cmd.md>) | Changes the [default emoji 😃](<../../🤔 Prompts/2 ✏️ Input features/14 😶 Input emojis.md>) for [input prompts ✏️](<../../🤔 Prompts/🤔📘 Prompt features/09 ✏️ as Input.md>).
     | ⬇️ [`EVAL`](<../😃🗃️ Talker data/20 ⬇️ EVAL flow.md>) | Evaluates a [{Function}](<../😃🗃️ Talker data/12 🐍 {Function}.md>) into a placeholder.
     | ⤵️ [`IF`](<21 ⤵️ IF flow.md>) | Runs a [Command ⌘](<10 ⌘ Command.md>) or [Procedure ⚙️](<11 ⚙️ Procedure.md>) based on a [{Function}](<../😃🗃️ Talker data/12 🐍 {Function}.md>).
     | 🪵 [`LOG`](<../😃🗃️ Talker data/15 🪵 LOG flow.md>) | Logs messages into the system handler.

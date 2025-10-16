@@ -1,6 +1,6 @@
 # 🔗 Talker BIND command
 
-> Part of [Talker 😃](<../10 😃 Talker.md>)
+> Part of [Talker 😃](<../😃 Talker.md>)
 
 <br/>
 
@@ -99,7 +99,7 @@
 1. **What does the dot mean in a code?**
 
     Given that the [Schema Codes 🧩](<../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) defined by `nlweb.org` will be widely used, 
-    * [Talkers 😃](<../10 😃 Talker.md>) accept a dot as a prefix of `nlweb.org/`.
+    * [Talkers 😃](<../😃 Talker.md>) accept a dot as a prefix of `nlweb.org/`.
     * Consider the following equal examples.
 
         ```yaml

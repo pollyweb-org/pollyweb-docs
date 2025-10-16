@@ -1,6 +1,6 @@
 # Non-blocking failure ❌
 
-> Part of [Non-blocking status prompts 🤔](<../1 📘 Prompt features/08 ⚠️ as Status.md>)
+> Part of [Non-blocking status prompts 🤔](<../🤔📘 Prompt features/08 ⚠️ as Status.md>)
 
 <br/>
 
@@ -19,10 +19,10 @@
 
     | Feature | Details
     |-|-
-    | ⊕ [`Details`](<../1 📘 Prompt features/03 ⊕ with Details.md>) | Has expandable [+] details.
-    | 🔘 [`Options`](<../1 📘 Prompt features/04 🔘 with Options.md>) | Has options for users to select.
-    | 📎 [`Appendix`](<../1 📘 Prompt features/05 📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
-    | ⚠️ [`Status`](<../1 📘 Prompt features/08 ⚠️ as Status.md>) | Informs and continues the flow.
+    | ⊕ [`Details`](<../🤔📘 Prompt features/03 ⊕ with Details.md>) | Has expandable [+] details.
+    | 🔘 [`Options`](<../🤔📘 Prompt features/04 🔘 with Options.md>) | Has options for users to select.
+    | 📎 [`Appendix`](<../🤔📘 Prompt features/05 📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
+    | ⚠️ [`Status`](<../🤔📘 Prompt features/08 ⚠️ as Status.md>) | Informs and continues the flow.
     
     ---
     <br/>
@@ -45,7 +45,7 @@
     <br/>
 
 
-1. **What's the format for a [Talker 😃](<../../😃 Talkers/10 😃 Talker.md>)?**
+1. **What's the format for a [Talker 😃](<../../😃 Talkers/😃 Talker.md>)?**
 
     ```yaml
     # Inline
@@ -69,9 +69,9 @@
     
     | Argument| Purpose | Example
     |-|-|-
-    | `Details` | Optional [expandable details ⊕](<../1 📘 Prompt features/03 ⊕ with Details.md>) | `Hint...`
-    | `Options` | Optional [selectable options 🔘](<../1 📘 Prompt features/04 🔘 with Options.md>) | `A,B` `{A:B}`
-    | `Appendix` | Optional [file attachment 📎](<../1 📘 Prompt features/05 📎 with Appendix.md>) | `{/...}`
+    | `Details` | Optional [expandable details ⊕](<../🤔📘 Prompt features/03 ⊕ with Details.md>) | `Hint...`
+    | `Options` | Optional [selectable options 🔘](<../🤔📘 Prompt features/04 🔘 with Options.md>) | `A,B` `{A:B}`
+    | `Appendix` | Optional [file attachment 📎](<../🤔📘 Prompt features/05 📎 with Appendix.md>) | `{/...}`
 
     ---
     <br/>
@@ -89,7 +89,7 @@
 
     <br/>
 
-    Here's the [Talker 😃](<../../😃 Talkers/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
     
     ```yaml
     # Talker 😃

@@ -27,8 +27,8 @@
 
     |Behavior| Format 
     |-|-
-    |[`Status`](<1 📘 Prompt features/08 ⚠️ as Status.md>)| [`ℹ️ INFO`](<4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<4 ⚠️ Status prompts/24 ❌ FAILURE prompt.md>)
-    |[`Inputs`](<1 📘 Prompt features/09 ✏️ as Input.md>)| [`🔢 DIGITS`](<7 ✏️ Input prompts/44 🔢 DIGITS prompt.md>) [`↕️ QUANTITY`](<7 ✏️ Input prompts/42 ↕️ QUANTITY prompt.md>) [`💰 AMOUNT`](<7 ✏️ Input prompts/43 💰 AMOUNT prompt.md>) [`🔑 OTP`](<7 ✏️ Input prompts/57 🔑 OTP prompt.md>) [`⭐ RATE`](<7 ✏️ Input prompts/46 ⭐ RATE prompt.md>) 
+    |[`Status`](<🤔📘 Prompt features/08 ⚠️ as Status.md>)| [`ℹ️ INFO`](<4 ⚠️ Status prompts/21 ℹ️ INFO prompt.md>) [`⏳ TEMP`](<4 ⚠️ Status prompts/25 ⏳ TEMP prompt.md>) [`✅ SUCCESS`](<4 ⚠️ Status prompts/23 ✅ SUCCESS prompt.md>) [`❌ FAILURE`](<4 ⚠️ Status prompts/24 ❌ FAILURE prompt.md>)
+    |[`Inputs`](<🤔📘 Prompt features/09 ✏️ as Input.md>)| [`🔢 DIGITS`](<7 ✏️ Input prompts/44 🔢 DIGITS prompt.md>) [`↕️ QUANTITY`](<7 ✏️ Input prompts/42 ↕️ QUANTITY prompt.md>) [`💰 AMOUNT`](<7 ✏️ Input prompts/43 💰 AMOUNT prompt.md>) [`🔑 OTP`](<7 ✏️ Input prompts/57 🔑 OTP prompt.md>) [`⭐ RATE`](<7 ✏️ Input prompts/46 ⭐ RATE prompt.md>) 
     || [`👍 CONFIRM`](<7 ✏️ Input prompts/31 👍 CONFIRM prompt.md>) [`1️⃣ ONE`](<7 ✏️ Input prompts/53 1️⃣ ONE prompt.md>) [`🔢 MANY`](<7 ✏️ Input prompts/54 🔠 MANY prompt.md>) 
     || [`🕓 TIME`](<7 ✏️ Input prompts/62 🕓 TIME prompt.md>) [`📆 DATE`](<7 ✏️ Input prompts/61 📆 DATE prompt.md>) 
     || [`⬆️ UPLOAD`](<7 ✏️ Input prompts/81 ⬆️ UPLOAD prompt.md>)
@@ -68,7 +68,7 @@
         * This blocks the user from changing any [Prompts 🤔](<🤔 Prompt.md>) up to that point.
         * [Hosts 🤗](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) to this when committing a transaction to a database with the inputs collected.
   
-    * ⚠️ Note: [`Options`](<1 📘 Prompt features/04 🔘 with Options.md>) with a `§` open a new [Chat 💬](<../💬 Chats/💬 Chat.md>)  and are never frozen.
+    * ⚠️ Note: [`Options`](<🤔📘 Prompt features/04 🔘 with Options.md>) with a `§` open a new [Chat 💬](<../💬 Chats/💬 Chat.md>)  and are never frozen.
 
     ---
     <br/>
@@ -78,11 +78,11 @@
 
     | Feature | Details
     |-|-
-    | ⊕ [`Details`](<1 📘 Prompt features/03 ⊕ with Details.md>) | Has expandable [+] details.
-    | 🔘 [`Options`](<1 📘 Prompt features/04 🔘 with Options.md>)  | Has options for users to select.
-    | 📎 [`Appendix`](<1 📘 Prompt features/05 📎 with Appendix.md>)  | Has a PDF, PNG, or JPEG attachment.
-    | ⚠️ [` Status`](<1 📘 Prompt features/08 ⚠️ as Status.md>) | Informs and continues the flow.
-    | ✏️ [`Input`](<1 📘 Prompt features/09 ✏️ as Input.md>) | Waits for an answer from users.
+    | ⊕ [`Details`](<🤔📘 Prompt features/03 ⊕ with Details.md>) | Has expandable [+] details.
+    | 🔘 [`Options`](<🤔📘 Prompt features/04 🔘 with Options.md>)  | Has options for users to select.
+    | 📎 [`Appendix`](<🤔📘 Prompt features/05 📎 with Appendix.md>)  | Has a PDF, PNG, or JPEG attachment.
+    | ⚠️ [` Status`](<🤔📘 Prompt features/08 ⚠️ as Status.md>) | Informs and continues the flow.
+    | ✏️ [`Input`](<🤔📘 Prompt features/09 ✏️ as Input.md>) | Waits for an answer from users.
     
     ---
     <br/>

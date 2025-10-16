@@ -1,13 +1,13 @@
 # 👍 CONFIRM prompt
 
-> Part of [blocking input prompts 🤔](<../1 📘 Prompt features/09 ✏️ as Input.md>)
+> Part of [blocking input prompts 🤔](<../🤔📘 Prompt features/09 ✏️ as Input.md>)
 
 <br/>
 
 1. **What's a `CONFIRM` prompt?**
 
     A `CONFIRM`
-    * is a [blocking input prompt 🤔](<../1 📘 Prompt features/09 ✏️ as Input.md>)
+    * is a [blocking input prompt 🤔](<../🤔📘 Prompt features/09 ✏️ as Input.md>)
     * that asks a simple `Yes` or `No` to user,
     * typically to progress with a workflow.
 
@@ -45,8 +45,8 @@
     | `Then` | [Procedure ⚙️](<../../😃 Talkers/😃🌊 Talker flow/11 ⚙️ Procedure.md>) or [Command ⌘](<../../😃 Talkers/😃🌊 Talker flow/10 ⌘ Command.md>) on `True` | `INFO\|OK`
     | `Else` | [Procedure ⚙️](<../../😃 Talkers/😃🌊 Talker flow/11 ⚙️ Procedure.md>) or [Command ⌘](<../../😃 Talkers/😃🌊 Talker flow/10 ⌘ Command.md>) on `False` | `INFO\|NOK`
     | `Emoji` | Optional [alternative emoji 😶](<../2 ✏️ Input features/14 😶 Input emojis.md>) | `😶`
-    | `Details` | Optional [expandable details ⊕](<../1 📘 Prompt features/03 ⊕ with Details.md>) | `Hint...`
-    | `Appendix` | Optional [file attachment 📎](<../1 📘 Prompt features/05 📎 with Appendix.md>) | `{/...}`
+    | `Details` | Optional [expandable details ⊕](<../🤔📘 Prompt features/03 ⊕ with Details.md>) | `Hint...`
+    | `Appendix` | Optional [file attachment 📎](<../🤔📘 Prompt features/05 📎 with Appendix.md>) | `{/...}`
        
     ---
     <br/>
@@ -65,7 +65,7 @@
     <br/>
     
 
-    Here's the [Talker 😃](<../../😃 Talkers/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
 
     ```yaml
     # 😃 Talker
@@ -108,7 +108,7 @@
 
     <br/>
 
-    Here's the [Talker 😃](<../../😃 Talkers/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
 
     ```yaml
     # 😃 Talker

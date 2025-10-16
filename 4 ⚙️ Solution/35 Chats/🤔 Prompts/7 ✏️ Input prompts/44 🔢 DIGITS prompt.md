@@ -1,6 +1,6 @@
 # 🔢 DIGITS prompt
 
-> Part of [blocking input prompts 🤔](<../1 📘 Prompt features/09 ✏️ as Input.md>)
+> Part of [blocking input prompts 🤔](<../🤔📘 Prompt features/09 ✏️ as Input.md>)
 
 
 <br/>
@@ -32,15 +32,15 @@
 
     | Feature | Details
     |-|-
-    | ⊕ [`Details`](<../1 📘 Prompt features/03 ⊕ with Details.md>) | Has expandable [+] details.
-    | 📎 [`Appendix`](<../1 📘 Prompt features/05 📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
-    | ✏️ [`Input`](<../1 📘 Prompt features/09 ✏️ as Input.md>) | Waits for an answer from users.
+    | ⊕ [`Details`](<../🤔📘 Prompt features/03 ⊕ with Details.md>) | Has expandable [+] details.
+    | 📎 [`Appendix`](<../🤔📘 Prompt features/05 📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
+    | ✏️ [`Input`](<../🤔📘 Prompt features/09 ✏️ as Input.md>) | Waits for an answer from users.
     
     ---
     <br/>
 
 
-1. **What's the format of a [Talker 😃](<../../😃 Talkers/10 😃 Talker.md>)?**
+1. **What's the format of a [Talker 😃](<../../😃 Talkers/😃 Talker.md>)?**
 
     ```yaml
     # Simplest.
@@ -74,9 +74,9 @@
     | `MinLength` | Optional [minimum length 📋](<../2 ✏️ Input features/13 📋 Input validation.md>) | `1`
     | `MaxLength` | Optional [maximum length 📋](<../2 ✏️ Input features/13 📋 Input validation.md>) | `5`
     | `Emoji` | Optional [alternative emoji 😶](<../2 ✏️ Input features/14 😶 Input emojis.md>) | `😶`
-    | `Details` | Optional [expandable details ⊕](<../1 📘 Prompt features/03 ⊕ with Details.md>) | `Hint...`
+    | `Details` | Optional [expandable details ⊕](<../🤔📘 Prompt features/03 ⊕ with Details.md>) | `Hint...`
     | `Nullable` | Optional [skip flag ⏭️](<../2 ✏️ Input features/12 ⏭️ Input nullability.md>) | `Yes`
-    | `Appendix` | Optional [file attachment 📎](<../1 📘 Prompt features/05 📎 with Appendix.md>) | `<uuid>`
+    | `Appendix` | Optional [file attachment 📎](<../🤔📘 Prompt features/05 📎 with Appendix.md>) | `<uuid>`
     
 
     ---
@@ -95,7 +95,7 @@
 
     <br/>
     
-    Here's the [Talker 😃](<../../😃 Talkers/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
     
     ```yaml
     - DIGITS|What's the code? >> $code:

@@ -23,7 +23,7 @@
 
 ## 😃 Talker 
 
-The associated [Talker 😃](<../../../4 ⚙️ Solution/35 Chats/😃 Talkers/10 😃 Talker.md>) uses the [`BIND` 🔗 command](<../../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃📨 Talker msgs/44 🔗 BIND msg.md>).
+The associated [Talker 😃](<../../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃 Talker.md>) uses the [`BIND` 🔗 command](<../../../4 ⚙️ Solution/35 Chats/😃 Talkers/😃📨 Talker msgs/44 🔗 BIND msg.md>).
 
 ```yaml
 💬 [Bind] my Wallet:
