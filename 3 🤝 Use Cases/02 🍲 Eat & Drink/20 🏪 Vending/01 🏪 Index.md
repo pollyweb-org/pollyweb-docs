@@ -55,7 +55,7 @@ TODO: other scenarios
 | [Helper 🤲](<../../../4 ⚙️ Solution/45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>)  | Purpose |
 |-|-
 | [🧑‍💻 Hoster](<91 🧑‍💻 Owner: Hoster.md>) | To bootstrap an inbox API
-| [🏦 Collector](<../../../4 ⚙️ Solution/45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>) | To collect the amount paid
+| [🏦 Collector](<../../../4 ⚙️ Solution/45 🤲 Helper domains/30 🏦 Collectors/🏦🤲 Collector helper.md>) | To collect the amount paid
 | [👂 Listener](<../../../4 ⚙️ Solution/45 🤲 Helper domains/60 👂 Listeners/👂🤲 Listener helper.md>) | To propagate [Manifest 📜](<../../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>)  changes
 | [🕸 Graph](<../../../4 ⚙️ Solution/45 🤲 Helper domains/50 🕸 Graphs/🕸🤲 Graph helper.md>) | To query [Trust 👍](<../../../4 ⚙️ Solution/40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) relationships
 | [⏳ Buffer](<../../../4 ⚙️ Solution/45 🤲 Helper domains/27 ⏳ Buffers/⏳🤲 Buffer helper.md>) | To buffer inbound [Messages 📨](<../../../4 ⚙️ Solution/40 👥 Domains/👥📨 Domain Messages/📨 Message.md>)
