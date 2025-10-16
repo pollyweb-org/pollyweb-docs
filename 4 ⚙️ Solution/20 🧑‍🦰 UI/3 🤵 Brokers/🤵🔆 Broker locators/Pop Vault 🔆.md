@@ -1,25 +1,34 @@
 # 🔆 Pop Vault
 
+> Implements [🧑‍🦰💬🤵 Unbind Vault](<../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Vaults 🗄️/💬🤵 Unbind 🗄️.md>)
+
+
 ```yaml
 💬 [Unbind] Vault:
 
-# Get the Wallet 🧑‍🦰
-- MAP|Wallets|$.Msg.Header.From >> $wallet
-
-# Get the Vault 🎫
+# Get the Vault 
 - MAP|$wallet.Vaults|$.Msg.Body.Key >> $vault
 
 # Ask for confirmation 🤔
-- CONFIRM: Unbind vault {$vault.Title}?
+- CONFIRM|Unbind vault {$vault.Title}?
 
-# Remove the Token 🎫
-- CRUD|DELETE|$token
+# Filter the binds.
+- FILTER|Which ones? >> $binds:
+    Options: $vault.Binds
+    ID: ID
+    Title: Title
 
-# Update the Token 🎫 list
-- MSG|Updated@Notifier|$wallet.Notifier
+# Remove the binds
+- FOR|$vault.Binds >> $bind:
+    - CRUD|DELETE|$bind
+    - MSG|Unbound@Vault|$bind.Vault:
+        BindID: $bind.ID
+
+# Update the bind list
+- MSG|Updated@Notifier|$wallet.Notifier:
     WalletID: $wallet.ID
-    Updates: [ TOKENS ]
+    Updates: [ BINDS ]
 
 # Inform the user 🤔
-- SUCCESS: Token removed.
+- SUCCESS|Done.
 ```
