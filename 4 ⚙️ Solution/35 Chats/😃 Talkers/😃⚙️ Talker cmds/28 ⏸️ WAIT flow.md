@@ -2,7 +2,7 @@
 
 > Part of [Talker 😃](<../😃 Talker.md>)
 
-> Referenced by the [😃⏩🧑‍💻 Wait ⏸️](<../../../../5 ⏩ Flows/79 😃⏩ Talkers/30 😃⏩🧑‍💻 Wait ⏸️.md>) flow
+> Referenced by the [😃⏩🧑‍💻 Wait ⏸️](<../😃⏩ Talker flows/30 😃⏩🧑‍💻 Wait ⏸️.md>) flow
 
 <br/>
 
@@ -110,7 +110,7 @@
 
     | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
-    | ⬇️ [`EVAL`](<../😃🗃️ Talker data/20 ⬇️ EVAL flow.md>) | to assess the backend queue length.
+    | ⬇️ [`EVAL`](<../😃💾 Talker data/20 ⬇️ EVAL flow.md>) | to assess the backend queue length.
     | ℹ️ [`INFO`](<../../🤔 Prompts/🤔📢 Prompt status/21 ℹ️ INFO prompt.md>) | To show the initial message.
     | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | To re-assess the queue periodically.
     | 🔁 [`RETURN`](<23 🔁 REPEAT flow.md>) | To exit the loop when it's the user's turn.
@@ -168,8 +168,8 @@
     | [Command ⌘](<10 ⌘ Command.md>) | Purpose
     |-|-
     | 🔀 [`CASE`](<22 🔀 CASE flow.md>) | To show the human-friendly message.
-    | ⬇️ [`EVAL`](<../😃🗃️ Talker data/20 ⬇️ EVAL flow.md>) | to assess the backend queue length.
-    | 🪣 [`MAP`](<../😃🗃️ Talker data/61 🪣 MAP item.md>) | To get the queue length from resources.
+    | ⬇️ [`EVAL`](<../😃💾 Talker data/20 ⬇️ EVAL flow.md>) | to assess the backend queue length.
+    | 🪣 [`MAP`](<../😃💾 Talker data/61 🪣 MAP item.md>) | To get the queue length from resources.
     | 🔁 [`REPEAT`](<23 🔁 REPEAT flow.md>) | To re-assess the queue periodically.
     | 🔁 [`RETURN`](<23 🔁 REPEAT flow.md>) | To exit the loop when it's the user's turn.
     | ▶️ [`RUN`](<24 ▶️ RUN flow.md>) | To start the waiting loop.
@@ -204,7 +204,7 @@
         })
     ```    
 
-    The full interaction is described in the [😃⏩🧑‍💻 Wait ⏸️](<../../../../5 ⏩ Flows/79 😃⏩ Talkers/30 😃⏩🧑‍💻 Wait ⏸️.md>) flow 
+    The full interaction is described in the [😃⏩🧑‍💻 Wait ⏸️](<../😃⏩ Talker flows/30 😃⏩🧑‍💻 Wait ⏸️.md>) flow 
 
     ---
     <br/>

@@ -1,10 +1,10 @@
 # 😃🐌🧑‍💻 Evaluate @ Hosted
 
-> Handles a [{Function} 🐍](<../../../35 Chats/😃 Talkers/😃🗃️ Talker data/12 🐍 {Function}.md>) evaluation.
+> Handles a [{Function} 🐍](<../../../35 Chats/😃 Talkers/😃💾 Talker data/12 🐍 {Function}.md>) evaluation.
 
 > Implements [Hosted 📦 domain](<../📦👥 Hosted domain.md>)
 
-> Part of [😃⏩🧑‍💻 Handle @ Talker](<../../../../5 ⏩ Flows/79 😃⏩ Talkers/20 😃⏩🧑‍💻 Handle 🐍.md>) flow
+> Part of [😃⏩🧑‍💻 Handle @ Talker](<../../../35 Chats/😃 Talkers/😃⏩ Talker flows/20 😃⏩🧑‍💻 Handle 🐍.md>) flow
 
 > Followed by [`Handled@Talker`](<../../../../6 🅰️ APIs/92 😃🅰️ Talker/40 🧑‍💻🐌😃 Handled.md>) message
 

@@ -114,7 +114,7 @@
     - RUN|get-code
     ```
 
-    Here's the [Function 🐍 handler](<../../😃 Talkers/😃🗃️ Talker data/12 🐍 {Function}.md>).
+    Here's the [Function 🐍 handler](<../../😃 Talkers/😃💾 Talker data/12 🐍 {Function}.md>).
 
     ```python
     # 🐍 Python handler

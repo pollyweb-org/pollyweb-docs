@@ -11,8 +11,8 @@
 
     [Talkers 😃](<😃 Talker.md>) 
     * are YAML scripts to render dialogs in a [💬 Chat](<../💬 Chats/💬 Chat.md>)
-    * structured as [Commands ⌘](<😃🌊 Talker flow/10 ⌘ Command.md>) grouped in [Procedures ⚙️](<😃🌊 Talker flow/11 ⚙️ Procedure.md>)
-    * referencing [{Functions} 🐍](<😃🗃️ Talker data/12 🐍 {Function}.md>) evaluated by [Hosted 📦 domains](<../../90 👷 Build/91 📦 Hosteds/📦👥 Hosted domain.md>)
+    * structured as [Commands ⌘](<😃⚙️ Talker cmds/10 ⌘ Command.md>) grouped in [Procedures ⚙️](<😃⚙️ Talker cmds/11 ⚙️ Procedure.md>)
+    * referencing [{Functions} 🐍](<😃💾 Talker data/12 🐍 {Function}.md>) evaluated by [Hosted 📦 domains](<../../90 👷 Build/91 📦 Hosteds/📦👥 Hosted domain.md>)
     * and implemented by [Hoster ☁️ helper domains](<../../45 🤲 Helper domains/55 ☁️ Hosters/☁️🤲 Hoster helper.md>).
     ---
     <br/>
@@ -42,7 +42,7 @@
         * Top menu entry - i.e., the "what?"
     * `<procedure>:`   
         * Executable procedure.
-    * [`{function}`](<😃🗃️ Talker data/12 🐍 {Function}.md>)
+    * [`{function}`](<😃💾 Talker data/12 🐍 {Function}.md>)
         * Calculates the value with a function.
 
   
@@ -54,8 +54,8 @@
 
     |Flow|Details
     |-|-
-    | [😃⏩🧑‍💻 Handle 🐍](<../../../5 ⏩ Flows/79 😃⏩ Talkers/20 😃⏩🧑‍💻 Handle 🐍.md>) | Ask [Hosteds 📦](<../../90 👷 Build/91 📦 Hosteds/📦👥 Hosted domain.md>) to handle [{Functions} 🐍](<😃🗃️ Talker data/12 🐍 {Function}.md>)
-    | [😃⏩🧑‍💻 Wait ⏸️](<../../../5 ⏩ Flows/79 😃⏩ Talkers/30 😃⏩🧑‍💻 Wait ⏸️.md>) | Allow [Hosted 📦](<../../90 👷 Build/91 📦 Hosteds/📦👥 Hosted domain.md>)  long-running tasks
+    | [😃⏩🧑‍💻 Handle 🐍](<😃⏩ Talker flows/20 😃⏩🧑‍💻 Handle 🐍.md>) | Ask [Hosteds 📦](<../../90 👷 Build/91 📦 Hosteds/📦👥 Hosted domain.md>) to handle [{Functions} 🐍](<😃💾 Talker data/12 🐍 {Function}.md>)
+    | [😃⏩🧑‍💻 Wait ⏸️](<😃⏩ Talker flows/30 😃⏩🧑‍💻 Wait ⏸️.md>) | Allow [Hosted 📦](<../../90 👷 Build/91 📦 Hosteds/📦👥 Hosted domain.md>)  long-running tasks
     
     ---
     <br/>
@@ -66,9 +66,9 @@
 
     |Method|Details
     |-|-
-    | 🧑‍💻🚀 [Placed](<../../../6 🅰️ APIs/92 😃🅰️ Talker/10 🧑‍💻🚀😃 Placed.md>) | Returns the value of a [$placeholder 💾](<😃🗃️ Talker data/10 💾 $Placeholder.md>)
-    | 🧑‍💻🐌 [Place](<../../../6 🅰️ APIs/92 😃🅰️ Talker/20 🧑‍💻🐌😃 Place.md>) | Sets the value of a [$placeholder 💾](<😃🗃️ Talker data/10 💾 $Placeholder.md>)
-    | 🧑‍💻🐌 [Handled](<../../../6 🅰️ APIs/92 😃🅰️ Talker/40 🧑‍💻🐌😃 Handled.md>) | Receives the evaluation of a [{Function} 🐍](<😃🗃️ Talker data/12 🐍 {Function}.md>)
+    | 🧑‍💻🚀 [Placed](<../../../6 🅰️ APIs/92 😃🅰️ Talker/10 🧑‍💻🚀😃 Placed.md>) | Returns the value of a [$placeholder 💾](<😃💾 Talker data/10 💾 $Placeholder.md>)
+    | 🧑‍💻🐌 [Place](<../../../6 🅰️ APIs/92 😃🅰️ Talker/20 🧑‍💻🐌😃 Place.md>) | Sets the value of a [$placeholder 💾](<😃💾 Talker data/10 💾 $Placeholder.md>)
+    | 🧑‍💻🐌 [Handled](<../../../6 🅰️ APIs/92 😃🅰️ Talker/40 🧑‍💻🐌😃 Handled.md>) | Receives the evaluation of a [{Function} 🐍](<😃💾 Talker data/12 🐍 {Function}.md>)
     
 
     ---

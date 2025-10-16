@@ -30,7 +30,7 @@ Here's the [Talker 😃](<../../../35 Chats/😃 Talkers/😃 Talker.md>).
 - INFORM|TableOrder
 ```
 
-| [Command ⌘](<../../../35 Chats/😃 Talkers/😃🌊 Talker flow/10 ⌘ Command.md>) | Purpose
+| [Command ⌘](<../../../35 Chats/😃 Talkers/😃⚙️ Talker cmds/10 ⌘ Command.md>) | Purpose
 |-|-
 | 📝 [`INFORM`](<../../../35 Chats/😃 Talkers/😃📨 Talker msgs/41 📝 INFORM msg.md>) | Show user instructions and allow inputs.
 |
