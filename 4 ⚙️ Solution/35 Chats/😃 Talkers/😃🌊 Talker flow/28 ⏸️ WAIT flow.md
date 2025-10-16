@@ -1,6 +1,6 @@
 # ⏸️ Talker `WAIT` flow 
 
-> Part of [Talker 😃](<../10 😃 Talker.md>)
+> Part of [Talker 😃](<../😃 Talker.md>)
 
 > Referenced by the [😃⏩🧑‍💻 Wait ⏸️](<../../../../5 ⏩ Flows/79 😃⏩ Talkers/30 😃⏩🧑‍💻 Wait ⏸️.md>) flow
 
@@ -88,7 +88,7 @@
     | 🍕 Pizza | ✅ Order ready!
     |
 
-    Here's the [Talker 😃](<../10 😃 Talker.md>).
+    Here's the [Talker 😃](<../😃 Talker.md>).
 
     ```yaml
     # 😃 Talker 
@@ -132,7 +132,7 @@
     | 🏦 Bank | 💬 What do you need? | `I need...`
     |
 
-    Here's the [Talker 😃](<../10 😃 Talker.md>).
+    Here's the [Talker 😃](<../😃 Talker.md>).
 
     ```yaml
     # 😃 Talker 

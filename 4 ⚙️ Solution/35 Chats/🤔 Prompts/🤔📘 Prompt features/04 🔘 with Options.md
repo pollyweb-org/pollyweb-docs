@@ -59,7 +59,7 @@
 
 
 
-1. **What's the format for a [Talker 😃](<../../😃 Talkers/10 😃 Talker.md>)?**
+1. **What's the format for a [Talker 😃](<../../😃 Talkers/😃 Talker.md>)?**
 
     ```yaml
     # Simplest
@@ -142,7 +142,7 @@
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ℹ️ You opted to play.
     |  
 
-    Here's the [Talker 😃](<../../😃 Talkers/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
 
     ```yaml
     # 😃 Talker
@@ -211,7 +211,7 @@
 
     <br/>
 
-    Here's the [Talker 😃](<../../😃 Talkers/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
 
     
   

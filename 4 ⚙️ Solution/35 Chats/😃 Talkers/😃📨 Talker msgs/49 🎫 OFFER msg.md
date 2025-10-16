@@ -1,6 +1,6 @@
 # 🎫 Talker OFFER command
 
-> Part of [Talker 😃](<../10 😃 Talker.md>)
+> Part of [Talker 😃](<../😃 Talker.md>)
 
   
 <br/>

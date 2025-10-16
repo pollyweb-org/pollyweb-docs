@@ -1,6 +1,6 @@
 # ❄️ Talker `FREEZE` command 
 
-> Part of [Talker 😃](<../10 😃 Talker.md>)
+> Part of [Talker 😃](<../😃 Talker.md>)
 
 
 <br/>
@@ -10,7 +10,7 @@
 
     A `FREEZE` ❄️
     * is a flow [Command ⌘](<../😃🌊 Talker flow/10 ⌘ Command.md>) 
-    * that freezes all previous [non-blocking Prompts 🤔](<../../🤔 Prompts/1 📘 Prompt features/08 ⚠️ as Status.md>)
+    * that freezes all previous [non-blocking Prompts 🤔](<../../🤔 Prompts/🤔📘 Prompt features/08 ⚠️ as Status.md>)
     * as described in the [Freeze ⏩ flow](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Freeze ❄️.md>).
 
     ---

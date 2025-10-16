@@ -1,6 +1,6 @@
 # 🕓 TIME prompt
 
-> Part of [blocking input prompts 🤔](<../1 📘 Prompt features/09 ✏️ as Input.md>)
+> Part of [blocking input prompts 🤔](<../🤔📘 Prompt features/09 ✏️ as Input.md>)
 
 
 <br/>
@@ -17,7 +17,7 @@
     <br/>
 
 
-1. **What's the format of a [Talker 😃](<../../😃 Talkers/10 😃 Talker.md>)?**
+1. **What's the format of a [Talker 😃](<../../😃 Talkers/😃 Talker.md>)?**
 
     ```yaml
     TIME|<statement> >> $placeholder
@@ -34,7 +34,7 @@
 1. **What's an example of a [Chat 💬](<../../💬 Chats/💬 Chat.md>)?**
 
 
-    Here's the [Talker 😃](<../../😃 Talkers/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
     
     ```yaml
     TIME|What time? >> $time
@@ -67,7 +67,7 @@
 
     <br/>
 
-    The associated [Talker 😃](<../../😃 Talkers/10 😃 Talker.md>) would be the following.
+    The associated [Talker 😃](<../../😃 Talkers/😃 Talker.md>) would be the following.
 
     ```yaml
     💬 Schedule for tomorrow:

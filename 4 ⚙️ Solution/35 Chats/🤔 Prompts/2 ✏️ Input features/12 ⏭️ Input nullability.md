@@ -1,6 +1,6 @@
 # ⏭️ Input nullability
 
-> Part of [✏️ Input prompts](<../1 📘 Prompt features/09 ✏️ as Input.md>)
+> Part of [✏️ Input prompts](<../🤔📘 Prompt features/09 ✏️ as Input.md>)
 
 <br/>
 
@@ -36,7 +36,7 @@
 
     <br/>
     
-    Here's the [Talker 😃](<../../😃 Talkers/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
 
     ```yaml
     # 😃 Talker
@@ -51,7 +51,7 @@
 
 1. **How to define optional inputs?**
 
-    [Input prompts ✏️](<../1 📘 Prompt features/09 ✏️ as Input.md>) 
+    [Input prompts ✏️](<../🤔📘 Prompt features/09 ✏️ as Input.md>) 
     * can be made optional 
     * by setting the property `Nullable` to `True` or `Yes`.
     
@@ -72,7 +72,7 @@
 
     <br/>
 
-    Here's the [Talker 😃](<../../😃 Talkers/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
 
     ```yaml
     # 😃 Talker

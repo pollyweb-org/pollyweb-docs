@@ -1,6 +1,6 @@
 # 🔀 Talker `CASE` flow 
 
-> Part of [Talker 😃](<../10 😃 Talker.md>)
+> Part of [Talker 😃](<../😃 Talker.md>)
 
 <br/>
 
@@ -28,7 +28,7 @@
     |-|-|-
     | `{function}` | Optional [{Function}](<../😃🗃️ Talker data/12 🐍 {Function}.md>) to evaluate | `{f}` `{$p}`
     || Allows for missing `{}` in functions | `f()` `$p`
-    || Defaults to the last [input prompt ✏️](<../../🤔 Prompts/1 📘 Prompt features/09 ✏️ as Input.md>) | `TEXT\|Id?`
+    || Defaults to the last [input prompt ✏️](<../../🤔 Prompts/🤔📘 Prompt features/09 ✏️ as Input.md>) | `TEXT\|Id?`
     | `<value>`| Static value to be matched with. | `ABC`
     | `<action>`| Run a [Procedure ⚙️](<11 ⚙️ Procedure.md>) | `MyProc`
     || or a one-line [Command ⌘](<10 ⌘ Command.md>). | `INFO\|OK`
@@ -75,7 +75,7 @@
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ℹ️ Hi, premium customer!
     |
 
-    Here's the [Talker 😃](<../10 😃 Talker.md>).
+    Here's the [Talker 😃](<../😃 Talker.md>).
 
     ```yaml
     # 😃 Talker
@@ -111,7 +111,7 @@
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ℹ️ You selected option B.
     |
 
-    Here's the [Talker 😃](<../10 😃 Talker.md>).
+    Here's the [Talker 😃](<../😃 Talker.md>).
    
     ```yaml
     # 😃 Talker

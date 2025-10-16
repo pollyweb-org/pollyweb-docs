@@ -1,6 +1,6 @@
 # 📍 LOCATION prompt
 
-> Part of [blocking input prompts 🤔](<../1 📘 Prompt features/09 ✏️ as Input.md>)
+> Part of [blocking input prompts 🤔](<../🤔📘 Prompt features/09 ✏️ as Input.md>)
 
 <br/>
 
@@ -36,7 +36,7 @@
     <br/>
 
 
-1. **What's the format for a [Talker 😃](<../../😃 Talkers/10 😃 Talker.md>)?**
+1. **What's the format for a [Talker 😃](<../../😃 Talkers/😃 Talker.md>)?**
 
     ```yaml
     - LOCATION >> $placeholder
@@ -49,7 +49,7 @@
     ---
     <br/>
 
-1. **What's an example of a [Talker 😃](<../../😃 Talkers/10 😃 Talker.md>)?**
+1. **What's an example of a [Talker 😃](<../../😃 Talkers/😃 Talker.md>)?**
 
     ```yaml
     - LOCATION >> $loc

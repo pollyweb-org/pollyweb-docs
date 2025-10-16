@@ -1,6 +1,6 @@
 # 🔠 TEXT prompt
 
-> Part of [blocking input prompts 🤔](<../1 📘 Prompt features/09 ✏️ as Input.md>)
+> Part of [blocking input prompts 🤔](<../🤔📘 Prompt features/09 ✏️ as Input.md>)
 
 <br/>
 
@@ -61,17 +61,17 @@
 
     | Feature | Details
     |-|-
-    | ⊕ [`Details`](<../1 📘 Prompt features/03 ⊕ with Details.md>) | Has expandable [+] details.
-    | 🔘 [`Options`](<../1 📘 Prompt features/04 🔘 with Options.md>) | Has options for users to select.
-    | 📎 [`Appendix`](<../1 📘 Prompt features/05 📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
-    | ✏️ [`Input`](<../1 📘 Prompt features/09 ✏️ as Input.md>) | Waits for an answer from users.
+    | ⊕ [`Details`](<../🤔📘 Prompt features/03 ⊕ with Details.md>) | Has expandable [+] details.
+    | 🔘 [`Options`](<../🤔📘 Prompt features/04 🔘 with Options.md>) | Has options for users to select.
+    | 📎 [`Appendix`](<../🤔📘 Prompt features/05 📎 with Appendix.md>) | Has a PDF, PNG, or JPEG attachment.
+    | ✏️ [`Input`](<../🤔📘 Prompt features/09 ✏️ as Input.md>) | Waits for an answer from users.
     
     ---
     <br/>
 
 
 
-1. **What's the syntax on a [Talker 😃](<../../😃 Talkers/10 😃 Talker.md>)?**
+1. **What's the syntax on a [Talker 😃](<../../😃 Talkers/😃 Talker.md>)?**
 
     ```yaml
     # Simplest.
@@ -107,10 +107,10 @@
     | `Pattern`| Optional HTML regular expression | `^...$`
     | `MinLength` | Optional [minimum length 📋](<../2 ✏️ Input features/13 📋 Input validation.md>) | `1`
     | `MaxLength` | Optional [maximum length 📋](<../2 ✏️ Input features/13 📋 Input validation.md>) | `5`
-    | `Details` | Optional [expandable details ⊕](<../1 📘 Prompt features/03 ⊕ with Details.md>) | `Hint...`
-    | `Options` | Optional [selectable options 🔘](<../1 📘 Prompt features/04 🔘 with Options.md>) | `A,B` `{A:B}`
+    | `Details` | Optional [expandable details ⊕](<../🤔📘 Prompt features/03 ⊕ with Details.md>) | `Hint...`
+    | `Options` | Optional [selectable options 🔘](<../🤔📘 Prompt features/04 🔘 with Options.md>) | `A,B` `{A:B}`
     | `Nullable` | Optional [skip flag ⏭️](<../2 ✏️ Input features/12 ⏭️ Input nullability.md>) | `Yes`
-    | `Appendix` | Optional [file attachment 📎](<../1 📘 Prompt features/05 📎 with Appendix.md>) | `<uuid>`
+    | `Appendix` | Optional [file attachment 📎](<../🤔📘 Prompt features/05 📎 with Appendix.md>) | `<uuid>`
     
     
     ---
@@ -128,7 +128,7 @@
    
     <br/>
 
-    Here's the [Talker 😃](<../../😃 Talkers/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
     
     ```yaml
     # Talker 😃
@@ -168,7 +168,7 @@
 
     <br/>
    
-    Here's the [Talker 😃](<../../😃 Talkers/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
     
     ```yaml
     # Explicit, not recommended, just for the exercise.
@@ -233,7 +233,7 @@
    
     <br/>
 
-    Here's the [Talker 😃](<../../😃 Talkers/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
     
     ```yaml
     # Explicit, not recommended, just for the exercise.

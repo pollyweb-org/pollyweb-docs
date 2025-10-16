@@ -9,7 +9,7 @@
 
 1. **What is a Talker?**
 
-    [Talkers 😃](<10 😃 Talker.md>) 
+    [Talkers 😃](<😃 Talker.md>) 
     * are YAML scripts to render dialogs in a [💬 Chat](<../💬 Chats/💬 Chat.md>)
     * structured as [Commands ⌘](<😃🌊 Talker flow/10 ⌘ Command.md>) grouped in [Procedures ⚙️](<😃🌊 Talker flow/11 ⚙️ Procedure.md>)
     * referencing [{Functions} 🐍](<😃🗃️ Talker data/12 🐍 {Function}.md>) evaluated by [Hosted 📦 domains](<../../90 👷 Build/91 📦 Hosteds/📦👥 Hosted domain.md>)
@@ -19,7 +19,7 @@
 
 1. **Why are Talkers important?**
 
-    [Talkers 😃](<10 😃 Talker.md>) dramatically reduce the time to build [Host 🤗 domains](<../💬 Chats/💬 Chat.md>).
+    [Talkers 😃](<😃 Talker.md>) dramatically reduce the time to build [Host 🤗 domains](<../💬 Chats/💬 Chat.md>).
 
     * They allow [Hoster ☁️ helper domains](<../../45 🤲 Helper domains/55 ☁️ Hosters/☁️🤲 Hoster helper.md>) to manage the workflow state on behalf of [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>), removing the undifferentiated heavy-lifting of handling [Prompts 🤔](<../🤔 Prompts/🤔 Prompt.md>) communications, and invoking [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) only when it's necessary to execute business-specific logic.
     ---

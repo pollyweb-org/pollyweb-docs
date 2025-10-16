@@ -2,7 +2,7 @@
 
 > Opens a pop-up for the user's [Identity 🆔 agent](<../../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) to perform a face scan.
 
-> Part of [blocking input prompts 🤔](<../1 📘 Prompt features/09 ✏️ as Input.md>)
+> Part of [blocking input prompts 🤔](<../🤔📘 Prompt features/09 ✏️ as Input.md>)
 
 
 <br/>
@@ -26,7 +26,7 @@
     <br/>
 
 
-1. **What's the content for a [Talker 😃](<../../😃 Talkers/10 😃 Talker.md>)?**
+1. **What's the content for a [Talker 😃](<../../😃 Talkers/😃 Talker.md>)?**
 
     ```yaml
     

@@ -8,7 +8,7 @@
 
     An `EMOJI`
     * is a [Command ⌘](<../../😃 Talkers/😃🌊 Talker flow/10 ⌘ Command.md>) 
-    * that defaults all upcoming [Input prompts ✏️](<../1 📘 Prompt features/09 ✏️ as Input.md>)
+    * that defaults all upcoming [Input prompts ✏️](<../🤔📘 Prompt features/09 ✏️ as Input.md>)
     * to [use another emoji 😶](<14 😶 Input emojis.md>) other than the default smile 😃 emoji.
 
     ---
@@ -21,7 +21,7 @@
     ```
     | Argument| Purpose | Example
     |-|-|-
-    | `<emoji>` | Emoji for upcoming [Input prompts ✏️](<../1 📘 Prompt features/09 ✏️ as Input.md>) | `😶`
+    | `<emoji>` | Emoji for upcoming [Input prompts ✏️](<../🤔📘 Prompt features/09 ✏️ as Input.md>) | `😶`
     
 
     ---
@@ -37,7 +37,7 @@
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 😶 Still neutral? [Yes, No] | > Yes
     |
 
-    Here's the [Talker 😃](<../../😃 Talkers/10 😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
 
     ```yaml
     # 😃 Talker

@@ -57,20 +57,20 @@ Options:                            # Optional
 |Property|Type|Description
 |-|-|-
 | [`Format`](<../../../35 Chats/🤔 Prompts/🤔 Prompt.md>)  | string | One format supported by [Prompts 🤔](<../../../35 Chats/🤔 Prompts/🤔 Prompt.md>)
-| [`Statement`](<../../../35 Chats/🤔 Prompts/1 📘 Prompt features/02 🪧 Statement.md>) | string | Main message,  to display in the [Chat 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>)
+| [`Statement`](<../../../35 Chats/🤔 Prompts/🤔📘 Prompt features/02 🪧 Statement.md>) | string | Main message,  to display in the [Chat 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>)
 | [`MinValue`](<../../../35 Chats/🤔 Prompts/2 ✏️ Input features/13 📋 Input validation.md>) | int | Optional minimum value
 | [`MaxValue`](<../../../35 Chats/🤔 Prompts/2 ✏️ Input features/13 📋 Input validation.md>) | int | Optional maximum value
-| [`Appendix`](<../../../35 Chats/🤔 Prompts/1 📘 Prompt features/05 📎 with Appendix.md>)| uuid   | File to download via [`Download@Host`](<🧑‍🦰🚀🤗 Download.md>)
-| [`Details`](<../../../35 Chats/🤔 Prompts/1 📘 Prompt features/03 ⊕ with Details.md>) | string | Extended [details](<../../../35 Chats/🤔 Prompts/1 📘 Prompt features/03 ⊕ with Details.md>) in Markdown format
-| [`Options`](<../../../35 Chats/🤔 Prompts/1 📘 Prompt features/04 🔘 with Options.md>) | object[]   | List of `Option` objects
+| [`Appendix`](<../../../35 Chats/🤔 Prompts/🤔📘 Prompt features/05 📎 with Appendix.md>)| uuid   | File to download via [`Download@Host`](<🧑‍🦰🚀🤗 Download.md>)
+| [`Details`](<../../../35 Chats/🤔 Prompts/🤔📘 Prompt features/03 ⊕ with Details.md>) | string | Extended [details](<../../../35 Chats/🤔 Prompts/🤔📘 Prompt features/03 ⊕ with Details.md>) in Markdown format
+| [`Options`](<../../../35 Chats/🤔 Prompts/🤔📘 Prompt features/04 🔘 with Options.md>) | object[]   | List of `Option` objects
 |
 
 ### Option object
 
 |Property|Type|Description
 |-|-|-
-| `ID`          | string  | ID of the [option](<../../../35 Chats/🤔 Prompts/1 📘 Prompt features/04 🔘 with Options.md>) for [`Reply@Host`](<🧑‍🦰🐌🤗 Reply.md>)
-| `Translation` | string  | Text of the [option](<../../../35 Chats/🤔 Prompts/1 📘 Prompt features/04 🔘 with Options.md>) to be displayed
+| `ID`          | string  | ID of the [option](<../../../35 Chats/🤔 Prompts/🤔📘 Prompt features/04 🔘 with Options.md>) for [`Reply@Host`](<🧑‍🦰🐌🤗 Reply.md>)
+| `Translation` | string  | Text of the [option](<../../../35 Chats/🤔 Prompts/🤔📘 Prompt features/04 🔘 with Options.md>) to be displayed
 | `Locator` | string | Optional [Locator 🔆](<../../../25 Locators/15 🔆 Locators/🔆 Locator.md>) to [Assess ⏩](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/03 🧑‍🦰👉🤗 Prompt option.md>)
 |
 
