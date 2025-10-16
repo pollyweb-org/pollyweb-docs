@@ -1,5 +1,5 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/📜 Manifest.md>): profile.amazon.com
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): profile.amazon.com
 <!--# 🧢 https://quip.com/XsoCA8E6EEU9/-AnyPersonacom-->
 
 ```yaml

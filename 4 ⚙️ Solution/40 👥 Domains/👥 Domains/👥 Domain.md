@@ -4,8 +4,8 @@
 1. **What is a Domain in NLWeb?**
 
     In NLWeb, a [domain 👥](<👥 Domain.md>) is any public web service that
-    * sends and receives domain [Messages 📨](<../👥📨 Domain messages/📨 Message.md>)
-    * and publishes a [domain Manifest 📜](<../44 📜 Manifests/📜 Manifest.md>).
+    * sends and receives domain [Messages 📨](<../👥📨 Domain Messages/📨 Message.md>)
+    * and publishes a [domain Manifest 📜](<../👥📜 Domain Manifests/📜 Manifest.md>).
 
 
     ---
@@ -21,7 +21,7 @@
     |-|-|-|
     | 👉 Name servers from the DNS register
     | [`any-domain.com`]() | `NS` | `{name servers}`
-    | 👉 Endpoint for inbound [messages 📨](<../👥📨 Domain messages/📨 Message.md>)  
+    | 👉 Endpoint for inbound [messages 📨](<../👥📨 Domain Messages/📨 Message.md>)  
     | `nlweb`.[`any-domain.com`]() | `A` | `1234.any-api.com`
     | 👉 [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) for outbound and [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>)
     | `pk6`.`_domainkey`.[`any-domain.com`]() | `TXT` | `v=DKIM1;k=rsa;p=...` 
@@ -46,7 +46,7 @@
     | [🪣 Dataset](<../../41 🎭 Domain Roles/28 🪣 Datasets/$ 🪣🎭 Dataset role.md>) | Exposes that exposes a synchronous data API
     | [🤲 Helper](<../../45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>) | Offloads undifferentiated logic from [domains 👥](<👥 Domain.md>)
     | [🤗 Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | Hosts [Chats 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) for [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) via [Brokers 🤵](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>)
-    | [🪢 Integrator](<../../41 🎭 Domain Roles/35 🪢 Integrators/$ 🪢🎭 Integrator role.md>) |  [Manifests 📜](<../44 📜 Manifests/📜 Manifest.md>)  endpoints for [Finders 🔎](<../../50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) to index
+    | [🪢 Integrator](<../../41 🎭 Domain Roles/35 🪢 Integrators/$ 🪢🎭 Integrator role.md>) |  [Manifests 📜](<../👥📜 Domain Manifests/📜 Manifest.md>)  endpoints for [Finders 🔎](<../../50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) to index
     | [🎴 Issuer](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) | Issues [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) to be saved on users' [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | [🌬️ Streamer](<../../41 🎭 Domain Roles/75 🌬️ Streamers/🌬️🎭 Streamer role.md>) | Pushes and replays domain events to [Subscribers 🔔](<../../41 🎭 Domain Roles/76 🔔 Subscribers/🔔🎭 Subscriber role.md>)
     | [🔔 Subscriber](<../../41 🎭 Domain Roles/76 🔔 Subscribers/🔔🎭 Subscriber role.md>) | Subscribes to domain events from a [Streamers 🌬️](<../../41 🎭 Domain Roles/75 🌬️ Streamers/🌬️🎭 Streamer role.md>)
@@ -60,7 +60,7 @@
 
     |Flow| Description
     |-|-
-    |[👥⏩🕸 Manifest](<👥⏩ Domain flows/👥⏩🕸 Manifest 📜.md>) | Publish [domain Manifest 📜](<../44 📜 Manifests/📜 Manifest.md>) changes
+    |[👥⏩🕸 Manifest](<👥⏩ Domain flows/👥⏩🕸 Manifest 📜.md>) | Publish [domain Manifest 📜](<../👥📜 Domain Manifests/📜 Manifest.md>) changes
     | [👥⏩🤝 Subscribe](<../../45 🤲 Helper domains/20 🤝 Billers/🤝⏩ Biller flows/👥⏩🤝 Domain Subscription.md>) | Sign subscriptions on [Biller 🤝 domains](<../../45 🤲 Helper domains/20 🤝 Billers/🤝🤲 Biller helper.md>)
 
 

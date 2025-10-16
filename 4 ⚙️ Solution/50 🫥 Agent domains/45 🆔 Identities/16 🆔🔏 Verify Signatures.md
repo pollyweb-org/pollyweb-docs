@@ -49,7 +49,7 @@ TODO: Create the API methods
     On NLWeb, documents are files (e.g., PDF, PNG) 
     * this allows users to visualize the full final version of the document, similar to what humans do today with any paper document. 
 
-    A user signature is an offline [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) issued by an [Identity 🆔 domain](<$ 🆔🫥 Identity agent.md>) that they [trust 👍](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) confirming that:
+    A user signature is an offline [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) issued by an [Identity 🆔 domain](<$ 🆔🫥 Identity agent.md>) that they [trust 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) confirming that:
     - 1/ the signature is for a file with the given hash; and
     - 2/ the human holding the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) has the given personally identifiable information (PII).
     
@@ -104,7 +104,7 @@ TODO: Create the API methods
     
 1. **How do domains verify user signatures?**
 
-    Domains accept user signatures verified by [Identity 🆔 domains](<$ 🆔🫥 Identity agent.md>) that they [trust 👍](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>). 
+    Domains accept user signatures verified by [Identity 🆔 domains](<$ 🆔🫥 Identity agent.md>) that they [trust 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>). 
     
     * When a domain sends a file for the user to sign, it sends also a placeholder ID of that user in the document 
       * e.g., a renting contract needs signatures from the landlord, guarantor, and tenant. 
@@ -125,7 +125,7 @@ TODO: Create the API methods
     * the sender's domain - e.g., `any-landlord.com`
     * the placeholder reference in the sender's domain - e.g., `contract-1234-tenent`
     * the file's hash - e.g., `pScF56kAQcFMj/2InwnfE36N6xphT+07R/8rKS5idWQ=`
-    * and the [signature](<../../40 👥 Domains/👥📨 Domain messages/📨 Message.md>) of the Identity domain - e.g., `qD/fMEQDALK2FdZcWyy7wNns1gH8vssdOAuxxxKnEExDMMGZcZG0Dw14Xxfh3HDCpTGxvuLbtCSdJaBnEZg2G7kytG8RG/aGFM+lru7MQR81zze7GkBXmpxm+oilkXrouL63/5fQzwRBS94n7YH7abkrBi4RqPiV/mGiDsm2fLEqc12a5kOXZGPsbuuCWs8Mvbrt5teJUELiEgLnBYXArLYvofoZOt4EWYFBTXvx+/NSm1vtqsZsY+dnLLtZ7kEyUNW70jRdP0VK5ek4Rqdg3tUPVSeG7Rxl0ZH5KuvLVOnL4kbcC2CI/bijZ12YCrF3WLEdgF0KhZDjs5HvwNbZNw==`
+    * and the [signature](<../../40 👥 Domains/👥📨 Domain Messages/📨 Message.md>) of the Identity domain - e.g., `qD/fMEQDALK2FdZcWyy7wNns1gH8vssdOAuxxxKnEExDMMGZcZG0Dw14Xxfh3HDCpTGxvuLbtCSdJaBnEZg2G7kytG8RG/aGFM+lru7MQR81zze7GkBXmpxm+oilkXrouL63/5fQzwRBS94n7YH7abkrBi4RqPiV/mGiDsm2fLEqc12a5kOXZGPsbuuCWs8Mvbrt5teJUELiEgLnBYXArLYvofoZOt4EWYFBTXvx+/NSm1vtqsZsY+dnLLtZ7kEyUNW70jRdP0VK5ek4Rqdg3tUPVSeG7Rxl0ZH5KuvLVOnL4kbcC2CI/bijZ12YCrF3WLEdgF0KhZDjs5HvwNbZNw==`
 
     ---
     <br/> 

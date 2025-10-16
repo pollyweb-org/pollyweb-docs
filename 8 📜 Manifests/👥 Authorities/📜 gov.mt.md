@@ -1,5 +1,5 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/📜 Manifest.md>): gov.mt
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): gov.mt
 <!--# 🇲🇹 https://quip.com/WtVuAnRgeyD9/-Govmt-->
 
 ```yaml

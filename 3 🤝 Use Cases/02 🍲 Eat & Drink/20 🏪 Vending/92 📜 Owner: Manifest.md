@@ -1,4 +1,4 @@
-# 📜 Vending Machine: [Manifest](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/📜 Manifest.md>) 
+# 📜 Vending Machine: [Manifest](<../../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) 
 
 > From [🏪 Drink at vending machines](<01 🏪 Index.md>)
 

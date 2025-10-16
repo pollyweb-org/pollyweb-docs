@@ -11,9 +11,9 @@
 
 |#|Step|Purpose
 |-|-|-
-|1|[👥🚀🕸 `Trusts@Graph`](<../../../45 🤲 Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>) | [Vaults 🗄️](<../🗄️🎭 Vault role.md>) see if [Consumers 💼](<../../27 💼 Consumers/💼🎭 Consumer role.md>) are [Trusted 👍](<../../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>)  
+|1|[👥🚀🕸 `Trusts@Graph`](<../../../45 🤲 Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>) | [Vaults 🗄️](<../🗄️🎭 Vault role.md>) see if [Consumers 💼](<../../27 💼 Consumers/💼🎭 Consumer role.md>) are [Trusted 👍](<../../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>)  
 |2|[🗄️🐌💼 `Consume@Consumer`](<../../27 💼 Consumers/💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>) | [Vaults 🗄️](<../🗄️🎭 Vault role.md>) tell [Consumers 💼](<../../27 💼 Consumers/💼🎭 Consumer role.md>) they're ready
-|3|[👥🚀🕸 `Trusts@Graph`](<../../../45 🤲 Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>) | [Consumers 💼](<../../27 💼 Consumers/💼🎭 Consumer role.md>) see if [Vaults 🗄️](<../🗄️🎭 Vault role.md>) are [Trusted 👍](<../../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>)
+|3|[👥🚀🕸 `Trusts@Graph`](<../../../45 🤲 Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>) | [Consumers 💼](<../../27 💼 Consumers/💼🎭 Consumer role.md>) see if [Vaults 🗄️](<../🗄️🎭 Vault role.md>) are [Trusted 👍](<../../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>)
 |4|[💼🚀🗄️ `Collect@Vault`](<../🗄️🅰️ Vault methods/💼🚀🗄️ Collect.md>) | [Consumers 💼](<../../27 💼 Consumers/💼🎭 Consumer role.md>) collect the data shared
 |
 
@@ -28,7 +28,7 @@
     * [Broker 🤵 domains](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) can be compromised or make mistakes.
     * [Vault 🗄️ domains](<../🗄️🎭 Vault role.md>) are ultimately responsible for data breaches.
     * [Consumer 💼 domains](<../../27 💼 Consumers/💼🎭 Consumer role.md>) are ultimately responsible for interacting with banned entities (e.g., entities listed as terrorist groups).
-    * [Consumer 💼 domains](<../../27 💼 Consumers/💼🎭 Consumer role.md>) and [Vault 🗄️ domains](<../🗄️🎭 Vault role.md>) should revalidate the [Trust 👍](<../../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) path for their own protection whenever feasible.
+    * [Consumer 💼 domains](<../../27 💼 Consumers/💼🎭 Consumer role.md>) and [Vault 🗄️ domains](<../🗄️🎭 Vault role.md>) should revalidate the [Trust 👍](<../../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) path for their own protection whenever feasible.
 
     
 

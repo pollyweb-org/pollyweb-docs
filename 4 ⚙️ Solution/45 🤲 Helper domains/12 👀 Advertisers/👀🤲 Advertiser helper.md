@@ -101,7 +101,7 @@
 
     - Users need to select their default [Curator 🧚 agent](<../../50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) on their [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
     - [Seller 💵 domains](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) need to promote ads on an Advertiser.
-    - All domains interacting directly need a [trust 👍](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) path between them.
+    - All domains interacting directly need a [trust 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) path between them.
 
     ---
 

@@ -10,7 +10,7 @@
     The `📤 Outbound.yaml` file 
     * is a file managed by the [Hoster ☁️ domain](<../../../4 ⚙️ Solution/45 🤲 Helper domains/55 ☁️ Hosters/☁️🤲 Hoster helper.md>) 
     * that tells [Hosted 📦 domain](<../📦👥 Hosted domain.md>)
-    * where to forward [Messages 📨](<../../../4 ⚙️ Solution/40 👥 Domains/👥📨 Domain messages/📨 Message.md>) to.
+    * where to forward [Messages 📨](<../../../4 ⚙️ Solution/40 👥 Domains/👥📨 Domain Messages/📨 Message.md>) to.
 
     ---
     <br/>
@@ -34,8 +34,8 @@
 1. **How does the Outbound proxy work?**
 
     The [Hoster ☁️ domain](<../../../4 ⚙️ Solution/45 🤲 Helper domains/55 ☁️ Hosters/☁️🤲 Hoster helper.md>) proxy 
-    * receives unsigned [Messages 📨](<../../../4 ⚙️ Solution/40 👥 Domains/👥📨 Domain messages/📨 Message.md>) from the [domain 👥](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>), 
-    * signs them with the [DKIM 📨](<../../../4 ⚙️ Solution/40 👥 Domains/👥📨 Domain messages/📨 Message.md>) private key, 
+    * receives unsigned [Messages 📨](<../../../4 ⚙️ Solution/40 👥 Domains/👥📨 Domain Messages/📨 Message.md>) from the [domain 👥](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>), 
+    * signs them with the [DKIM 📨](<../../../4 ⚙️ Solution/40 👥 Domains/👥📨 Domain Messages/📨 Message.md>) private key, 
     * and forwards them downstream without ever disclosing the private key.
 
     ---

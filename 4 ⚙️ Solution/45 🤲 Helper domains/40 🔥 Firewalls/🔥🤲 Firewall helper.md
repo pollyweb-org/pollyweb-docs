@@ -16,19 +16,19 @@
 
 1. **How do Firewalls work?**
 
-    ![](<../../40 👥 Domains/43 👍 Trusts/.📎 Assets/👍 Firewall.png>)
+    ![](<../../40 👥 Domains/👥👍 Domain Trusts/.📎 Assets/👍 Firewall.png>)
 
     |#|Step
     |-|-
     |1| [Firewall 🔥 domains](<🔥🤲 Firewall helper.md>) subscribe to the [domain-event streams 🌬️](<../../41 🎭 Domain Roles/75 🌬️ Streamers/🌬️🎭 Streamer role.md>) of [Reviewer ⭐ domains](<../../50 🫥 Agent domains/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>), [Listener 👂 domains](<../60 👂 Listeners/👂🤲 Listener helper.md>), and [Graph 🕸 domains](<../50 🕸 Graphs/🕸🤲 Graph helper.md>), eventually throttling them with a [Buffer ⏳ helper domain](<../27 ⏳ Buffers/⏳🤲 Buffer helper.md>);
-    |2| [Firewall 🔥 domains](<🔥🤲 Firewall helper.md>) then update the [Trust 👍 list](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) in their [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>), which is propagated down by the [Listener 👂 helper domains](<../60 👂 Listeners/👂🤲 Listener helper.md>) and subscribed by [Graph 🕸 helper domains](<../50 🕸 Graphs/🕸🤲 Graph helper.md>) and [Finder 🔎 vaults](<../../50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>).
+    |2| [Firewall 🔥 domains](<🔥🤲 Firewall helper.md>) then update the [Trust 👍 list](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) in their [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>), which is propagated down by the [Listener 👂 helper domains](<../60 👂 Listeners/👂🤲 Listener helper.md>) and subscribed by [Graph 🕸 helper domains](<../50 🕸 Graphs/🕸🤲 Graph helper.md>) and [Finder 🔎 vaults](<../../50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>).
 
     ---
 
 1. **How can domains leverage Firewalls?**
 
-    [Domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) can inherit a Firewall's blacklist on their [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>);
-    * this overrides any direct or indirect [Trust 👍](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) relationship between [domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>), working as an instantaneous mechanism to cut the communication with the blacklisted domain. 
+    [Domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) can inherit a Firewall's blacklist on their [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>);
+    * this overrides any direct or indirect [Trust 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) relationship between [domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>), working as an instantaneous mechanism to cut the communication with the blacklisted domain. 
 
     ---
     <br/>
@@ -36,7 +36,7 @@
 1. **Do Firewalls monitor Listeners and Graphs?**
 
     Yes. 
-    * [Firewall 🔥 helper domains](<🔥🤲 Firewall helper.md>) subscribe to [Listener 👂 domain streams](<../60 👂 Listeners/👂🤲 Listener helper.md>) and [Graph 🕸 domain streams](<../50 🕸 Graphs/🕸🤲 Graph helper.md>) to monitor their robustness, reliability, and conformity to the NLWeb protocol, revoking their [Trust 👍](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) when necessary;
+    * [Firewall 🔥 helper domains](<🔥🤲 Firewall helper.md>) subscribe to [Listener 👂 domain streams](<../60 👂 Listeners/👂🤲 Listener helper.md>) and [Graph 🕸 domain streams](<../50 🕸 Graphs/🕸🤲 Graph helper.md>) to monitor their robustness, reliability, and conformity to the NLWeb protocol, revoking their [Trust 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) when necessary;
         * e.g., compare information about a random [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) in three or more [Listener 👂 domains](<../60 👂 Listeners/👂🤲 Listener helper.md>) or [Graph 🕸 domains](<../50 🕸 Graphs/🕸🤲 Graph helper.md>) to identify discrepancies.
 
     ---
@@ -45,7 +45,7 @@
 1. **Do Firewalls monitor domain reputation?**
 
     Yes. 
-    * [Firewall 🔥 helper domains](<🔥🤲 Firewall helper.md>) subscribe to [Reviewer ⭐ domain streams](<../../50 🫥 Agent domains/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) to monitor the behavior of [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>), revoking their [Trust 👍](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) when necessary.
+    * [Firewall 🔥 helper domains](<🔥🤲 Firewall helper.md>) subscribe to [Reviewer ⭐ domain streams](<../../50 🫥 Agent domains/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) to monitor the behavior of [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>), revoking their [Trust 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) when necessary.
 
     ---
     <br/>
@@ -62,9 +62,9 @@
 1. **What's an example of the Manifest of a Firewall domain?**
 
     The following is an example of 
-    * a list of [Trust 👍](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) REVOKES 
+    * a list of [Trust 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) REVOKES 
     * on malicious domains names 
-    * in a [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>)
+    * in a [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>)
     * from the [Any Firewall 🔥 manifest](<../../../8 📜 Manifests/🌐 Backbone/📜 any-firewall.org.md>).
 
     ```yaml
@@ -89,7 +89,7 @@
 
 1. **What should other domains add to their Manifests?**
 
-    Other [domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) should add the following [Trust 👍](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) to their [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>).
+    Other [domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) should add the following [Trust 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) to their [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>).
 
     ```yaml
     Trusts:

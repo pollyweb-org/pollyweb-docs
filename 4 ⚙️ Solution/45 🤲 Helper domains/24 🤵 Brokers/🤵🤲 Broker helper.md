@@ -22,12 +22,12 @@
     |-|-|-
     |1| `Hi`     | The user initiates an interaction with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) - e.g., by scanning a QR and sending the [QR Locator 🔆](<../../30 🧩 Data/15 🔆 Locators/$ 🔆 Locator.md>) to the their [Broker 🤵 domain](<🤵🤲 Broker helper.md>).
     |2| `Hi-A`   | The [user's Broker 🤵 domain](<🤵🤲 Broker helper.md>) opens a new [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with the [Locator's Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>), obfuscating the user (e.g., ABC).
-    |3| `Bye-A`  | The [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) runs its workflow for the anonymous user (e.g., ABC), and finishes it with a goodbye [Message 📨](<../../40 👥 Domains/👥📨 Domain messages/📨 Message.md>).
-    |4| `Bye`    | The [user's Broker 🤵 domain](<🤵🤲 Broker helper.md>) forwards the [Messages 📨](<../../40 👥 Domains/👥📨 Domain messages/📨 Message.md>) to the [user's Notifier 📣 domain](<../../20 🧑‍🦰 UI/02 📣 Notifiers/📣 Notifier domain.md>), to be pushed to the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
+    |3| `Bye-A`  | The [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) runs its workflow for the anonymous user (e.g., ABC), and finishes it with a goodbye [Message 📨](<../../40 👥 Domains/👥📨 Domain Messages/📨 Message.md>).
+    |4| `Bye`    | The [user's Broker 🤵 domain](<🤵🤲 Broker helper.md>) forwards the [Messages 📨](<../../40 👥 Domains/👥📨 Domain Messages/📨 Message.md>) to the [user's Notifier 📣 domain](<../../20 🧑‍🦰 UI/02 📣 Notifiers/📣 Notifier domain.md>), to be pushed to the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
     |A| `Hi`     | The user initiates a second interaction with the same [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>).
     |B| `Hi-X`   | The [user's Broker 🤵 domain](<🤵🤲 Broker helper.md>) opens a new [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with the same [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>), obfuscating again the user (e.g., XYZ).
     |C| `Bye-X` | The [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) runs its workflow for the new anonymous user (e.g., XYZ), without realizing that it's the same user as before.
-    |D| `Bye`   | The [user's Broker 🤵 domain](<🤵🤲 Broker helper.md>) forwards the [Messages 📨](<../../40 👥 Domains/👥📨 Domain messages/📨 Message.md>) again.
+    |D| `Bye`   | The [user's Broker 🤵 domain](<🤵🤲 Broker helper.md>) forwards the [Messages 📨](<../../40 👥 Domains/👥📨 Domain Messages/📨 Message.md>) again.
 
     ---
     <br/>
@@ -58,7 +58,7 @@
 
     * [Broker 🤵 domains](<🤵🤲 Broker helper.md>) are responsible for validating if the [Notifier 📣 domains](<../../20 🧑‍🦰 UI/02 📣 Notifiers/📣 Notifier domain.md>) they serve are compliant with NLWeb protocol, blocking them if necessary.
 
-    * The NLWeb organization is responsible for verifying and onboarding [Broker 🤵 domains](<🤵🤲 Broker helper.md>), listing them as [trustworthy 👍](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) on its public [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>), so that other [domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) can inherit that [trust 👍](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>).
+    * The NLWeb organization is responsible for verifying and onboarding [Broker 🤵 domains](<🤵🤲 Broker helper.md>), listing them as [trustworthy 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) on its public [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>), so that other [domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) can inherit that [trust 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>).
 
     ---
     <br/>

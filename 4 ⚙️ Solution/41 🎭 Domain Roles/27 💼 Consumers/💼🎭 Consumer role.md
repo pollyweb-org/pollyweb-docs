@@ -80,7 +80,7 @@
 
     When consuming data from a [Vault 🗄️ domain](<../80 🗄️ Vaults/🗄️🎭 Vault role.md>), the data envelope indicates the [Schema Code 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) and the version (e.g., `any-authority.com/any-schema:1.0`). 
     
-    - The code identifies the [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>) where the [Schema Code 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) is defined (e.g., `any-schema` is defined in the [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>) of `any-authority.com`), so [Consumer 💼 domains](<💼🎭 Consumer role.md>) can then fetch the schema definitions from a cached [Graph 🕸 domain](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🤲 Graph helper.md>) or directly from the [Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>).
+    - The code identifies the [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) where the [Schema Code 🧩](<../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) is defined (e.g., `any-schema` is defined in the [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) of `any-authority.com`), so [Consumer 💼 domains](<💼🎭 Consumer role.md>) can then fetch the schema definitions from a cached [Graph 🕸 domain](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🤲 Graph helper.md>) or directly from the [Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>).
 
     ---
     <br/>
@@ -112,7 +112,7 @@
 1. **How are Consumers protected when Graph are compromised by attackers?**
 
     [Firewall 🔥 domains](<../../45 🤲 Helper domains/40 🔥 Firewalls/🔥🤲 Firewall helper.md>) monitor the behavior of any [Graph 🕸 domain](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🤲 Graph helper.md>) and match domain information with other [Graphs 🕸](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🤲 Graph helper.md>). 
-    * If necessary, [Firewall 🔥 domains](<../../45 🤲 Helper domains/40 🔥 Firewalls/🔥🤲 Firewall helper.md>) immediately revoke a Graph's [trust 👍](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>).
+    * If necessary, [Firewall 🔥 domains](<../../45 🤲 Helper domains/40 🔥 Firewalls/🔥🤲 Firewall helper.md>) immediately revoke a Graph's [trust 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>).
 
     ---
     <br/>
@@ -133,7 +133,7 @@
     - Certain scenarios require the [Consumer 💼 domain](<💼🎭 Consumer role.md>) to verify if the person holding the [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) is the person to whom the [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) was issue to - e.g.:
         - at an airport border control, automatic gates need to match the face of the passport holder with the biometric signature contained in the electronic passport. 
     
-    - This requires an online request to an [Identity 🆔 domain](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) that is [bound 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) to the user and [trusted 👍](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) by the [Consumer 💼 domain](<💼🎭 Consumer role.md>), allowing the token to be matched to the holder without disclosing the holder's identity to the [Consumer 💼 domain](<💼🎭 Consumer role.md>):
+    - This requires an online request to an [Identity 🆔 domain](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) that is [bound 🔗](<../../30 🧩 Data/20 🔗 Binds/🔗 Bind.md>) to the user and [trusted 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) by the [Consumer 💼 domain](<💼🎭 Consumer role.md>), allowing the token to be matched to the holder without disclosing the holder's identity to the [Consumer 💼 domain](<💼🎭 Consumer role.md>):
         - e.g., while entering a casino, the casino can validate that the 21-years-old token is valid, and that the holder is the owner of the token, without knowing who the holder is. 
     
     - The [Identity 🆔 domain](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) can perform the authentication:
@@ -175,9 +175,9 @@
 
 1. **How are consumers prevented from collecting too much user data?**
 
-    To protect users from [Consumer 💼 domains](<💼🎭 Consumer role.md>) that collect too much Personally Identifiable Information (PII), [Broker 🤵 domains](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) verify if any [Consumer 💼 domain](<💼🎭 Consumer role.md>) request is explicitly mentioned on their [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>).
+    To protect users from [Consumer 💼 domains](<💼🎭 Consumer role.md>) that collect too much Personally Identifiable Information (PII), [Broker 🤵 domains](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) verify if any [Consumer 💼 domain](<💼🎭 Consumer role.md>) request is explicitly mentioned on their [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>).
 
-    * [Consumer 💼 domains](<💼🎭 Consumer role.md>) must publicly manifest their potential sharing requests in their [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>), in a similar way apps must manifest it when publishing into Apple's App Store or Google Play.
+    * [Consumer 💼 domains](<💼🎭 Consumer role.md>) must publicly manifest their potential sharing requests in their [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>), in a similar way apps must manifest it when publishing into Apple's App Store or Google Play.
     
     * [Consumer 💼 domains](<💼🎭 Consumer role.md>) manifest the unique contexts in which they will collect data, and what data is collected in each context.
   
@@ -187,11 +187,11 @@
 
     * [Broker 🤵 domains](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) inform users of every context change, identifying the data that may be collected, then block any data request from the Consumer that does not comply with that context - e.g., [Order pizza 🍕](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/21 🏠 Home: Order pizza.md>), [Hotel check-in 🛎️](<../../../3 🤝 Use Cases/03 🧳 Travel/08 🧳 Stay at hotels 🏨/03 🏨 Guest @ Reception 🛎️/04 🛎️ Check-in.md>).
 
-    * Because the [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>) are public and prone to automatic evaluation by domains like [Firewall 🔥 domains](<../../45 🤲 Helper domains/40 🔥 Firewalls/🔥🤲 Firewall helper.md>) and [Reviewer ⭐ domains](<../../50 🫥 Agent domains/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>), [Consumer 💼 domains](<💼🎭 Consumer role.md>) are exposed to public scrutiny regarding the data  their are collecting, namely: what, why, how, and how much.
+    * Because the [domain Manifests 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) are public and prone to automatic evaluation by domains like [Firewall 🔥 domains](<../../45 🤲 Helper domains/40 🔥 Firewalls/🔥🤲 Firewall helper.md>) and [Reviewer ⭐ domains](<../../50 🫥 Agent domains/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>), [Consumer 💼 domains](<💼🎭 Consumer role.md>) are exposed to public scrutiny regarding the data  their are collecting, namely: what, why, how, and how much.
 
-    * [Authority 🏛️ domains](<../../45 🤲 Helper domains/14 🏛️ Authorities/🏛️🤲 Authority helper.md>) monitor the [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>) for dataset requests that don't match the domain's business or exception requests, and if necessary may revoke the [trust 👍](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) on the [Consumer 💼 domain](<💼🎭 Consumer role.md>).
+    * [Authority 🏛️ domains](<../../45 🤲 Helper domains/14 🏛️ Authorities/🏛️🤲 Authority helper.md>) monitor the [domain Manifests 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) for dataset requests that don't match the domain's business or exception requests, and if necessary may revoke the [trust 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) on the [Consumer 💼 domain](<💼🎭 Consumer role.md>).
 
-    * Consider the following example of a [domain Manifests 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>).
+    * Consider the following example of a [domain Manifests 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>).
     
         ```yaml
         Flows:
