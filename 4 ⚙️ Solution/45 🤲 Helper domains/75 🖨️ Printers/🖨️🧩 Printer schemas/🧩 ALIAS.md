@@ -1,9 +1,9 @@
 
-# [🧩](<../../../30 Data/🧩 Schema Codes/🧩 Schema Code.md>) [Schema Code](<../../../30 Data/🧩 Schema Codes/🧩 Schema Code.md>): Alias
+# [🧩](<../../../30 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) [Schema Code](<../../../30 Data/1 🧩 Schema Codes/🧩 Schema Code.md>): Alias
 
-> Referenced in [`Assess@Broker`](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🅰️ Broker methods/2 🤵🅰️ Locators/🧑‍🦰🐌🤵 Assess.md>).
+> Referenced in [`Assess@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🅰️ Broker methods/2 🤵🅰️ Locators/🧑‍🦰🐌🤵 Assess.md>).
 
-* Used in [Locators 🔆](<../../../25 Locators/15 🔆 Locators/🔆 Locator.md>) 
+* Used in [Locators 🔆](<../../../25 Locators/1 🔆 Locators/🔆 Locator.md>) 
     * that need to be translated 
     * by a [Printer 🖨️ helper domain](<../🖨️🤲 Printer helper.md>).
 
@@ -11,7 +11,7 @@
 
 ## Definition
 
-> [🤝:](<../../../30 Data/🧩 Schema Codes/🧩 Schema Code.md>) [`.MANIFEST/CODE`](<../../../40 👥 Domains/👥📜 Domain Manifests/🧩 Manifest schemas/🧩 CODE.md>)
+> [🤝:](<../../../30 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) [`.MANIFEST/CODE`](<../../../40 👥 Domains/👥📜 Domain Manifests/🧩 Manifest schemas/🧩 CODE.md>)
 
 ```yaml
 Path: /ALIAS

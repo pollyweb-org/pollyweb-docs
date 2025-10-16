@@ -31,11 +31,11 @@ TODO: other scenarios
 
 | Resource | Purpose|
 |-|-|
-| [🔆 Locators](<../../../4 ⚙️ Solution/25 Locators/15 🔆 Locators/🔆 Locator.md>) | For scanning: `machine-1` `machine-2`
+| [🔆 Locators](<../../../4 ⚙️ Solution/25 Locators/1 🔆 Locators/🔆 Locator.md>) | For scanning: `machine-1` `machine-2`
 | [📜 Manifest](<92 📜 Owner: Manifest.md>) | To identify the vending machine domain
 | [😃 Talker](<93 😃 Owner: Talker.md>) | To interact with customers
 | [🪣 Item map](<94 🪣 Owner: Items.md>) | To list the items available
-| [🪣 Locator map](<95 🪣 Owner: Locators.md>) | To map [Locators 🔆](<../../../4 ⚙️ Solution/25 Locators/15 🔆 Locators/🔆 Locator.md>) to [Relayer 🛰️](<../../../4 ⚙️ Solution/45 🤲 Helper domains/80 🛰️ Relayers/🛰️🤲 Relayer helper.md>) devices
+| [🪣 Locator map](<95 🪣 Owner: Locators.md>) | To map [Locators 🔆](<../../../4 ⚙️ Solution/25 Locators/1 🔆 Locators/🔆 Locator.md>) to [Relayer 🛰️](<../../../4 ⚙️ Solution/45 🤲 Helper domains/80 🛰️ Relayers/🛰️🤲 Relayer helper.md>) devices
 
 <br/> 
 

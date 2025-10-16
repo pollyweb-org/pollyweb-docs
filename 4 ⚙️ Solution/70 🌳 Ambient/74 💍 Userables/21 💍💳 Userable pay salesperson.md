@@ -14,7 +14,7 @@
 
     [Custodians 🧳](<../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>) integrate with [💳 Payers](<../../50 🫥 Agent domains/60 💳 Payers/03 💳🎭 Payer role.md>) to allow users to pay with their [Userables 💍](<$ 💍 Userable thing.md>) after being authenticated by their [Identity 🆔](<../../50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) (e.g., face scan). 
     
-    * This allows sales people to use their own [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) as a chat interface for the user. 
+    * This allows sales people to use their own [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) as a chat interface for the user. 
 
     ---
     <br/>

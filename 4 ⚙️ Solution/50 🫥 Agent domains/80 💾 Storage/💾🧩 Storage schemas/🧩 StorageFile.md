@@ -1,5 +1,5 @@
 
-# [🧩](<../../../30 Data/🧩 Schema Codes/🧩 Schema Code.md>) [Schema Code](<../../../30 Data/🧩 Schema Codes/🧩 Schema Code.md>): StorageFile
+# [🧩](<../../../30 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) [Schema Code](<../../../30 Data/1 🧩 Schema Codes/🧩 Schema Code.md>): StorageFile
 
 <br/>
 

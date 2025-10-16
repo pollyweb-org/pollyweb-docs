@@ -6,13 +6,13 @@
 
 ## 💬 Chat
 
-| [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+| [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 | - | - | - |
 ...
 | 🍔 Fast Food | ✅ Eat-in submitted [+]
 | 🍔 Fast Food | ⏳ Order in queue... [+] | > +
 | 🍔 Fast Food | ⏳ Order in queue... <br/> - [ Cancel ] order <br/> - [ Move ] to another table | > Move
-| 🍔 Fast Food | 😃 Tap the table [No] | 🔆 [tap](<../../../4 ⚙️ Solution/25 Locators/15 🔆 Locators/🔆 Locator.md>)
+| 🍔 Fast Food | 😃 Tap the table [No] | 🔆 [tap](<../../../4 ⚙️ Solution/25 Locators/1 🔆 Locators/🔆 Locator.md>)
 | 🍔 Fast Food | ✅ Changed to table 31 [+]
 | 🍔 Fast Food | ⏳ Order in queue... [+] 
 ...

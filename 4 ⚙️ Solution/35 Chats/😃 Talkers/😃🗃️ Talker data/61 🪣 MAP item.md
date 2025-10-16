@@ -121,7 +121,7 @@
 1. **What does it look in a [Chat 💬](<../../💬 Chats/💬 Chat.md>)?**
 
 
-    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 🍫 Vending | 😃 What's the item number?   | 🔢 123
     | 🍫 Vending | 😃 A water bottle? [Yes, No]  

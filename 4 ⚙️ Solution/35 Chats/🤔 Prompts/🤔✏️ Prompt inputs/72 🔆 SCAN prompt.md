@@ -1,6 +1,6 @@
 # 🔆 SCAN prompt
 
-> Asks to touch/scan a [QR/NFC Locator 🔆](<../../../25 Locators/15 🔆 Locators/🔆 Locator.md>).
+> Asks to touch/scan a [QR/NFC Locator 🔆](<../../../25 Locators/1 🔆 Locators/🔆 Locator.md>).
 
 > Part of [blocking input prompts 🤔](<../🤔⚙️ Prompt features/9 ✏️ as Input.md>)
 
@@ -12,7 +12,7 @@
 
 1. **What's an example of a [Chat 💬](<../../💬 Chats/💬 Chat.md>)?**
 
-    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 
 

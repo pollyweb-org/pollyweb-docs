@@ -19,10 +19,10 @@
 
 Consider the following [Chat 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>) as an example.
 
-| [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+| [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 | - | - | - |
 | 🤗 Host  | ℹ️ I'll ask my Helper for a random number. | 
-| 🤵 [Broker](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 [Allow invited guest?](<🤗⏩🧑‍🦰 Invite 🤲.md>) [Yes, No]  <br/> - Any Helper 🤲 <br/>- [ Always ] for Any Host  🤗 | > Yes
+| 🤵 [Broker](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 [Allow invited guest?](<🤗⏩🧑‍🦰 Invite 🤲.md>) [Yes, No]  <br/> - Any Helper 🤲 <br/>- [ Always ] for Any Host  🤗 | > Yes
 | 🤲 Helper | ℹ️ Hi! I'm Any Helper. The number is 27.    
 | 🤗 Host  | ℹ️ 27, got it! Thanks, Any Helper!  
 |
@@ -55,8 +55,8 @@ The associated [Talker 😃](<../../../35 Chats/😃 Talkers/😃 Talker.md>) is
 
 |#| Step | Purpose
 |-|-|-
-|1|[💼🐌🤵 `Invite@Broker`](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Invite.md>)|Invite another [Host 🤗](<../🤗🎭 Host role.md>) to the [Chat 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>)
-|2|[🤗⏩🧑‍🦰 Prompt 🤔](<🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) may ask for user permission
+|1|[💼🐌🤵 `Invite@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Invite.md>)|Invite another [Host 🤗](<../🤗🎭 Host role.md>) to the [Chat 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>)
+|2|[🤗⏩🧑‍🦰 Prompt 🤔](<🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) may ask for user permission
 |3| [🤵🐌🛠️ `Invited@Helper`](<../../../45 🤲 Helper domains/$ 🤲 Helpers/🤲🅰️ Helper methods/🤵🐌🤲 Invited.md>) | Proxy  invites to [Helper 🤲](<../../../45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>) invitees
 |4|[🤗⏩🧑‍🦰 Prompt 🤔](<🤗⏩🧑‍🦰 Prompt 🤔.md>) | Invitees continue the [Chat 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>)
 |5|[🗄️⏩💼 Consume 🧩](<../../80 🗄️ Vaults/🗄️⏩ Vault flows/🗄️⏩💼 Consume 🔗.md>) | Invitees share the final result

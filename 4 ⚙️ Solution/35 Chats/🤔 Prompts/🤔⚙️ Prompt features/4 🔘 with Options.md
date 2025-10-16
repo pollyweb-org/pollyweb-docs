@@ -110,7 +110,7 @@
     |-|-|-
     | `<option-n>` | Also allows option interpolation |`- Item {$id}`
     || and uses `[]` to set Option IDs | `[Close] chat`
-    || and uses `§` for [Locators 🔆](<../../../25 Locators/15 🔆 Locators/🔆 Locator.md>). | `Open § {$url}`
+    || and uses `§` for [Locators 🔆](<../../../25 Locators/1 🔆 Locators/🔆 Locator.md>). | `Open § {$url}`
 
 
     ```yaml
@@ -136,7 +136,7 @@
 
     > Note: [non-blocking status prompts ⚠️](<8 ⚠️ as Status.md>) behave slightly differently.
 
-    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 😃 What to do? <br>- [ Play ] music <br/>- [ Share ] list | > Play
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ℹ️ You opted to play.
@@ -195,7 +195,7 @@
 
 1. **What's a Locator example in a [Chat 💬](<../../💬 Chats/💬 Chat.md>)?**
 
-    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 😃 What to do?<br>- [ Play ] music <br/>- [ Share ] list <br/> - [ Speak ] with singer 🔆 | > Speak
     | [🤗 Host](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ✅ Over to 👨‍🎤 Any Singer.
@@ -207,7 +207,7 @@
 
     The option with `§` 
     * opens a new [Chat 💬](<../../💬 Chats/💬 Chat.md>)
-    * using the [Locator 🔆](<../../../25 Locators/15 🔆 Locators/🔆 Locator.md>) `any-artist.com/FANS`
+    * using the [Locator 🔆](<../../../25 Locators/1 🔆 Locators/🔆 Locator.md>) `any-artist.com/FANS`
 
     <br/>
 

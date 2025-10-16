@@ -6,7 +6,7 @@
 
 ## User interface 🧑
 
-| [Domain](<../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../4 ⚙️ Solution/35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+| [Domain](<../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../4 ⚙️ Solution/35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 |-|-|-|
 | [🗃️ Resourcer](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🎭 Resourcer role.md>) | 😃 Hi! What do you need? <br/>- [ Clone ] resources  | > Clone | 
 | [🗃️ Resourcer](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🎭 Resourcer role.md>) | ℹ️ Clone with: `syncer \`<br/>`clone any-r.com 12345`
@@ -18,7 +18,7 @@ $ syncer clone any-r.com 12345
 > Confirm with code 67890
 ```
 
-| [Domain](<../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../4 ⚙️ Solution/35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+| [Domain](<../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../4 ⚙️ Solution/35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 |-|-|-|
 | [🗃️ Resourcer](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🎭 Resourcer role.md>) | ℹ️ Received `67890`.
 | [🗃️ Resourcer](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🎭 Resourcer role.md>) | 😃 Is it correct? [Yes, No] | > Yes
@@ -40,7 +40,7 @@ $ syncer sync
 
 | # | Call | Notes
 |-|-|-
-|1|[🤗⏩🧑‍🦰 Prompt 🤔](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | Users [Chat 💬](<../../4 ⚙️ Solution/35 Chats/💬 Chats/💬 Chat.md>) with  [bound 🔗](<../../4 ⚙️ Solution/30 Data/🔗 Binds/🔗 Bind.md>) [Resourcers 🗃️](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🎭 Resourcer role.md>)
+|1|[🤗⏩🧑‍🦰 Prompt 🤔](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | Users [Chat 💬](<../../4 ⚙️ Solution/35 Chats/💬 Chats/💬 Chat.md>) with  [bound 🔗](<../../4 ⚙️ Solution/30 Data/2 🔗 Binds/🔗 Bind.md>) [Resourcers 🗃️](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🎭 Resourcer role.md>)
 |2|[🤗⏩🧑‍🦰 Prompt 🤔](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | Users ask to clone → [Resourcers 🗃️](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🎭 Resourcer role.md>) return 🄰
 |3|[🔃🚀🗃️ `Clone@Resourcer`](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🅰️ Resourcer methods/🔃🚀🗃️ Clone.md>) | Users run [Syncer](<../../4 ⚙️ Solution/90 👷 Build/01 🛠️ Syncers/01 🔃🛠️ Syncer tool.md>) with 🄰 → they display  🄱
 |4|[🤗⏩🧑‍🦰 Prompt 🤔](<../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Resourcers 🗃️](<../../4 ⚙️ Solution/41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🎭 Resourcer role.md>) ask users to confirm 🄱

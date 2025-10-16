@@ -1,5 +1,5 @@
 
-# [🧩](<../../4 ⚙️ Solution/30 Data/🧩 Schema Codes/🧩 Schema Code.md>) [Schema Code](<../../4 ⚙️ Solution/30 Data/🧩 Schema Codes/🧩 Schema Code.md>): ExchangeSeller
+# [🧩](<../../4 ⚙️ Solution/30 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) [Schema Code](<../../4 ⚙️ Solution/30 Data/1 🧩 Schema Codes/🧩 Schema Code.md>): ExchangeSeller
 ```yaml
 🤝: nlweb.org/MANIFEST/CODE
 

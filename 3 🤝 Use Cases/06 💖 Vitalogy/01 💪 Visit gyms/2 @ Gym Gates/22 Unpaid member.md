@@ -2,11 +2,11 @@ How to pay a membership at the gym's gates?
 --
 
 
-| [Domain](<../../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../../4 ⚙️ Solution/35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+| [Domain](<../../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../../4 ⚙️ Solution/35 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
 | - | - | - |
-| | | 🔆 [tap](<../../../../4 ⚙️ Solution/25 Locators/15 🔆 Locators/🔆 Locator.md>)
+| | | 🔆 [tap](<../../../../4 ⚙️ Solution/25 Locators/1 🔆 Locators/🔆 Locator.md>)
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Gym (4.3 ⭐) [+]
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) | ⓘ Member [token 🎟️](<../../../../4 ⚙️ Solution/30 Data/🎫 Tokens/🎫 Token.md>) shared [+]
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | ⓘ Member [token 🎟️](<../../../../4 ⚙️ Solution/30 Data/3 🎫 Tokens/🎫 Token.md>) shared [+]
 | 💪 Gym | ℹ️ You're at downtown gym. 
 | 💪 Gym | ❌ Inactive membership.
 | 🤝 [Biller](<../../../../4 ⚙️ Solution/45 🤲 Helper domains/20 🤝 Billers/🤝🤲 Biller helper.md>) |  ⓘ Unpaid subscription [+] <br/> - last payment on April 27th <br/> - pending balance 65,00€

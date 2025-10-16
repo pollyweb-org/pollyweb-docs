@@ -3,7 +3,7 @@
 
 1. **What are Userable Things in NLWeb?**
     
-    [Userables 💍](<$ 💍 Userable thing.md>) are [Things 💠](<../../25 Locators/71 💠 Things/💠🔆 Thing locator.md>) 
+    [Userables 💍](<$ 💍 Userable thing.md>) are [Things 💠](<../../25 Locators/2 💠 Things/💠🔆 Thing locator.md>) 
     * that [Brand 🍏 domains](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>) embedded into objects for a user to carry 
     * e.g., jewelry, glasses, cards, keyholders, stickers, and wearables. 
 
@@ -12,16 +12,16 @@
 
 1. **What can users do with their Userables?**
 
-    Users can do with their [Userable 💍 things](<$ 💍 Userable thing.md>) everything they do with standard [Things 💠](<../../25 Locators/71 💠 Things/💠🔆 Thing locator.md>). 
+    Users can do with their [Userable 💍 things](<$ 💍 Userable thing.md>) everything they do with standard [Things 💠](<../../25 Locators/2 💠 Things/💠🔆 Thing locator.md>). 
     
     * Additionally, users can also leverage their [Userable 💍 things](<$ 💍 Userable thing.md>) in the following situations.
 
     |||
     |-|-
     | 🚨 [Trigger an emergency](<02 💍🚨 Userable emergencies.md>)| Scripted steps to execute on health emergencies.
-    | 📱 [Aid a confused senior](<13 💍📱 Userable senior user.md>) | Inform relatives using someone else's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
+    | 📱 [Aid a confused senior](<13 💍📱 Userable senior user.md>) | Inform relatives using someone else's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
     | 🎬 [Cross gates](<14 💍🎬 Userable gates.md>)| Cross an airport border control.
-    | 💳 [Pay a salesperson](<21 💍💳 Userable pay salesperson.md>) | Pay a [Seller 💵 domain](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) using the [Seller's Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
+    | 💳 [Pay a salesperson](<21 💍💳 Userable pay salesperson.md>) | Pay a [Seller 💵 domain](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) using the [Seller's Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
     | [💳 Pay seller at a kiosk](<22 💍💳 Userable pay kiosk.md>) | Pay a [Seller 💵 domain](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) using the [Seller's Kiosk 🖥️](<../../60 🧰 Edge/68 🏪 Terminals/01 🖥️ Info kiosk.md>).
     | [💳 Pay variable-cost rides](<23 💍💳 Userable pay metro.md>) | Pay variable length metropolitan rides.
 
@@ -47,7 +47,7 @@
   
     - The authentication mechanism is implemented with a secure NFC chip with asymmetric cryptography (e.g., NTAG 424 DNA class).
 
-    - When a [Userable 💍 thing](<$ 💍 Userable thing.md>) is [tapped 🔆](<../../25 Locators/15 🔆 Locators/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>), the user's [Custodian 🧳 agent](<../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>) checks the validity of the unique dynamic code sent by domain that scanned the [Userable 💍 thing](<$ 💍 Userable thing.md>), verifying if 
+    - When a [Userable 💍 thing](<$ 💍 Userable thing.md>) is [tapped 🔆](<../../25 Locators/1 🔆 Locators/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>), the user's [Custodian 🧳 agent](<../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>) checks the validity of the unique dynamic code sent by domain that scanned the [Userable 💍 thing](<$ 💍 Userable thing.md>), verifying if 
       - it has not been used before, 
       - if the signature of the code matches the Userable's public key and unique ID, 
       - and if the sequence was respected.
