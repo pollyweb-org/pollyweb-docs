@@ -8,7 +8,7 @@
 
     A [Hoster ☁️](<☁️🤲 Hoster helper.md>) is 
     * any [Helper 🤲 domain](<../$ 🤲 Helpers/🤲👥 Helper domain.md>)
-    * that provides the infrastructure of a [Hosted 📦 domain](<../../90 👷 Build/📦 Hosteds/📦👥 Hosted domain.md>)
+    * that provides the infrastructure of a [Hosted 📦 domain](<../../90 👷 Build/1 📦 Hosteds/📦👥 Hosted domain.md>)
     * and allow their owners to manage them with a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
 
     ---
@@ -18,8 +18,8 @@
 
     |Role|Description
     |-|-
-    | [🗃️ Resourcer](<../../41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🎭 Resourcer role.md>) | To sync setup files with a [Syncer 🔃 tool](<../../90 👷 Build/🛠️ Syncers/🔃🛠️ Syncer tool.md>)
-    | [😃 Talker](<../../90 👷 Build/😃 Talkers/😃 Talker.md>) | To manage [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>) workflows
+    | [🗃️ Resourcer](<../../41 🎭 Domain Roles/60 🗃️ Resourcers/🗃️🎭 Resourcer role.md>) | To sync setup files with a [Syncer 🔃 tool](<../../90 👷 Build/2 🛠️ Syncers/🔃🛠️ Syncer tool.md>)
+    | [😃 Talker](<../../90 👷 Build/3 😃 Talkers/😃 Talker.md>) | To manage [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>) workflows
     | [🤗 Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | For interacting with [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) in [Chats 💬](<../../35 Chats/💬 Chats/💬 Chat.md>)
     | `And also` | [`Issuer 🎴`](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) [`Vault 🗄️`](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) [`Consumer 💼`](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>)
     |  | [`Seller 💵`](<../../41 🎭 Domain Roles/70 💵 Sellers/💵🎭 Seller role.md>) [`Subscriber 🔔`](<../../41 🎭 Domain Roles/76 🔔 Subscribers/🔔🎭 Subscriber role.md>)
@@ -42,11 +42,11 @@
     | ☁️ Hoster | 😃 Hi! What do you need? <br/>- [ Host ] a domain | > Host
     | [🤵 Broker](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 [Bind?](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind 🔗.md>) [Yes, No, +] <br/>- [Vault 🧩](<../../../7 🧩 Codes/$/🧩 VAULT code.md>) | > Yes 
     | 🤵 [Broker](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Save token? [Yes, No] <br/> - [Host Admin 🧩](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🧩 Host schemas/🧩 HOST'ADMIN.md>)  | > Yes
-    | ☁️ Hoster | ℹ️ [Clone](<../../90 👷 Build/🛠️ Syncers/🔃⏩ Syncer flows/10 🔃⏩🗃️ Clone.md>) with: `syncer \`<br/>`clone any-hoster.com 12345`
+    | ☁️ Hoster | ℹ️ [Clone](<../../90 👷 Build/2 🛠️ Syncers/🔃⏩ Syncer flows/10 🔃⏩🗃️ Clone.md>) with: `syncer \`<br/>`clone any-hoster.com 12345`
     | ☁️ Hoster | ⏳ Waiting for one minute... | (clone)
     | ☁️ Hoster | ℹ️ Received `67890`.
     | ☁️ Hoster | 😃 Is it correct? [Yes, No] | > Yes
-    | ☁️ Hoster | ✅ Run [`syncer sync`](<../../90 👷 Build/🛠️ Syncers/🔃⏩ Syncer flows/20 🔃⏩🗃️ Sync.md>).
+    | ☁️ Hoster | ✅ Run [`syncer sync`](<../../90 👷 Build/2 🛠️ Syncers/🔃⏩ Syncer flows/20 🔃⏩🗃️ Sync.md>).
     
     ---
 
