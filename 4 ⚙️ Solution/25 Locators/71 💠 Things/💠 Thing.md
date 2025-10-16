@@ -25,22 +25,22 @@
 
     Things 💠 come in a number of forms:
 
-    - **[💠 Standard Things](<$ 💠 Thing.md>)**: 
+    - **[💠 Standard Things](<💠 Thing.md>)**: 
         - all Things 💠 provide a user-controlled experience of an item bought and registered by a specific user, allowing other users to interact with it as guests - e.g.:
             - tags in T-shirts, 
             - NFC chips under the skin of pets and endangered wild animals, 
             - NFC/QR codes to stick on a 30-year-old book or pin to a 300-year-old tree.
 
-    - [**💍 Userable specialization**](<../74 💍 Userables/$ 💍 Userable thing.md>): 
-        - besides supporting all features of standard Things 💠, [Userables 💍](<../74 💍 Userables/$ 💍 Userable thing.md>) allow users without a smart device to make payments and access restricted areas, and are typically an NFC embedded into objects that a user may carry;
+    - [**💍 Userable specialization**](<../../70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>): 
+        - besides supporting all features of standard Things 💠, [Userables 💍](<../../70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>) allow users without a smart device to make payments and access restricted areas, and are typically an NFC embedded into objects that a user may carry;
           - e.g.: jewelry, glasses, key holders.
 
-    - [**⌚ Tapbands**](<../76 ⌚ Tapbands/$ ⌚💠 Tapband thing.md>): 
-        - besides supporting all features of [Userables 💍](<../74 💍 Userables/$ 💍 Userable thing.md>), a [⌚ Tapband](<../76 ⌚ Tapbands/$ ⌚💠 Tapband thing.md>) allow users to also open [Padlocks 🔒](<../75 🔒 Padlocks/$ 🔒 Padlock device.md>) while assuring users cannot be traced between interactions with [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>).
+    - [**⌚ Tapbands**](<../../70 🌳 Ambient/76 ⌚ Tapbands/$ ⌚💠 Tapband thing.md>): 
+        - besides supporting all features of [Userables 💍](<../../70 🌳 Ambient/74 💍 Userables/$ 💍 Userable thing.md>), a [⌚ Tapband](<../../70 🌳 Ambient/76 ⌚ Tapbands/$ ⌚💠 Tapband thing.md>) allow users to also open [Padlocks 🔒](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>) while assuring users cannot be traced between interactions with [Host 🤗 domains](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>).
 
 
-    - [**🤖 Robot specialization**](<../72 🤖 Robots/$ 🤖💠 Robot thing.md>): 
-        - besides supporting all features of standard Things 💠, [🤖 Robots](<../72 🤖 Robots/$ 🤖💠 Robot thing.md>) can be embed into physical devices to enable them to be controlled remotely, even without a display; 
+    - [**🤖 Robot specialization**](<../../70 🌳 Ambient/72 🤖 Robots/$ 🤖💠 Robot thing.md>): 
+        - besides supporting all features of standard Things 💠, [🤖 Robots](<../../70 🌳 Ambient/72 🤖 Robots/$ 🤖💠 Robot thing.md>) can be embed into physical devices to enable them to be controlled remotely, even without a display; 
             - e.g.: a coffee machine, a printer, or a vehicle. 
 
     ---
@@ -91,8 +91,8 @@
     |#|Category|Step
     |-|-|-
     |1| `Order` | A [Printer 🖨️ domain](<../../45 🤲 Helper domains/75 🖨️ Printers/🖨️🤲 Printer helper.md>) orders a [Chat 💬](<../../35 Chats/12 💬 Chats/💬 Chat.md>) interaction from a [Wand 🪄 helper domain](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>). 
-    |2| `Create` | The [Wand 🪄 domain](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>) creates a [Thing 💠](<$ 💠 Thing.md>) and shares its [digital Locator 🔆](<../../25 Locators/15 🔆 Locators/$ 🔆 Locator.md>). |
-    |3| `Print` | The [Printer 🖨️](<../../45 🤲 Helper domains/75 🖨️ Printers/🖨️🤲 Printer helper.md>) prints the [Locator 🔆](<../../25 Locators/15 🔆 Locators/$ 🔆 Locator.md>) of the [Thing 💠](<$ 💠 Thing.md>) into a QR/NFC  smart sticker.
+    |2| `Create` | The [Wand 🪄 domain](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>) creates a [Thing 💠](<💠 Thing.md>) and shares its [digital Locator 🔆](<../../25 Locators/15 🔆 Locators/$ 🔆 Locator.md>). |
+    |3| `Print` | The [Printer 🖨️](<../../45 🤲 Helper domains/75 🖨️ Printers/🖨️🤲 Printer helper.md>) prints the [Locator 🔆](<../../25 Locators/15 🔆 Locators/$ 🔆 Locator.md>) of the [Thing 💠](<💠 Thing.md>) into a QR/NFC  smart sticker.
     |4| `Sell` | The [Printer 🖨️](<../../45 🤲 Helper domains/75 🖨️ Printers/🖨️🤲 Printer helper.md>) distributes the smart sticker to commercial end-users.
     |5| `Buy` | A user buys the smart sticker from a store to stick on a vintage book.
     |6| `Register` | The user scans it with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) to register on their [Custodian 🧳 vault](<../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>).
@@ -106,7 +106,7 @@
 
     |#|Category|Step
     |-|-|-
-    |1| `Create` | A [Brand 🍏 domain](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>) orders a [Thing 💠](<$ 💠 Thing.md>) from a [Wand 🪄 helper domain](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>). 
+    |1| `Create` | A [Brand 🍏 domain](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>) orders a [Thing 💠](<💠 Thing.md>) from a [Wand 🪄 helper domain](<../../45 🤲 Helper domains/90 🪄 Wands/🪄🤲 Wand helper.md>). 
     |2| `Print` | The [Brand 🍏 domain](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>) orders the physical [Locator 🔆](<../../25 Locators/15 🔆 Locators/$ 🔆 Locator.md>) from a [Printer 🖨️ helper domain](<../../45 🤲 Helper domains/75 🖨️ Printers/🖨️🤲 Printer helper.md>).
     |3| `Sell` | The [Brand 🍏 domain](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>) sells the physical [Locator 🔆](<../../25 Locators/15 🔆 Locators/$ 🔆 Locator.md>) on a smart collar product bundle.
     |4| `Buy` | A user buys the smart collar from a pet store, and give it to their pet.

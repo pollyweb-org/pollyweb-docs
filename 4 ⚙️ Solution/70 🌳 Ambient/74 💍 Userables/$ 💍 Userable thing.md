@@ -3,7 +3,7 @@
 
 1. **What are Userable Things in NLWeb?**
     
-    [Userables 💍](<$ 💍 Userable thing.md>) are [Things 💠](<../71 💠 Things/$ 💠 Thing.md>) 
+    [Userables 💍](<$ 💍 Userable thing.md>) are [Things 💠](<../../25 Locators/71 💠 Things/💠 Thing.md>) 
     * that [Brand 🍏 domains](<../../41 🎭 Domain Roles/20 🍏 Brands/$ 🍏🎭 Brand role.md>) embedded into objects for a user to carry 
     * e.g., jewelry, glasses, cards, keyholders, stickers, and wearables. 
 
@@ -12,7 +12,7 @@
 
 1. **What can users do with their Userables?**
 
-    Users can do with their [Userable 💍 things](<$ 💍 Userable thing.md>) everything they do with standard [Things 💠](<../71 💠 Things/$ 💠 Thing.md>). 
+    Users can do with their [Userable 💍 things](<$ 💍 Userable thing.md>) everything they do with standard [Things 💠](<../../25 Locators/71 💠 Things/💠 Thing.md>). 
     
     * Additionally, users can also leverage their [Userable 💍 things](<$ 💍 Userable thing.md>) in the following situations.
 
