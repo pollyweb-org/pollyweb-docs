@@ -35,5 +35,5 @@ Schema:
         description: The registration plate.
 
       Country:
-        $ref: Alpha2@standards.any-igo.org/3166-1
+        $ref: Alpha2@standards.any-igo.dom/3166-1
         description: The country of registration.

@@ -1,12 +1,12 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): telcos.any-igo.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): telcos.any-igo.dom
 # 🇺🇳 ITU - International Telecommunication Union
 
 ```yaml
 🤝: nlweb.org/MANIFEST
 
 About:
-  Domain: telcos.any-igo.org
+  Domain: telcos.any-igo.dom
   Name: ITU - International Telecommunication Union
   Description: >
     Specialized agency of the United Nations responsible for many matters related 
@@ -25,7 +25,7 @@ Codes:
     Schemas:
       - Properties:
           - Code    # e.g. 1 for US
-          - Country # see Alpha2@standards.any-igo.org/3166-1
+          - Country # see Alpha2@standards.any-igo.dom/3166-1
         Format:
           type: object
           properties:
@@ -34,4 +34,4 @@ Codes:
               minimum: 1
               maximum: 999
             Country:
-              $ref: Alpha2@standards.any-igo.org/3166-1
+              $ref: Alpha2@standards.any-igo.dom/3166-1

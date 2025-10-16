@@ -20,16 +20,16 @@ Trusts:
   - Title: Share SSR of UK citizens via NHS.
     Role: VAULT
     Expires: '2050-01-01T10:00:00.000Z'  
-    Queries: [ airlines.any-igo.org/SSR/* ]
+    Queries: [ airlines.any-igo.dom/SSR/* ]
     Domains: [ health.any-nation.org ]
     
 
   - Title: Allow transporters to ask SSR of UK citizens.
     Role: CONSUMER
-    Queries: [ airlines.any-igo.org/SSR/* ]
+    Queries: [ airlines.any-igo.dom/SSR/* ]
     Domains: 
-      - airlines.any-igo.org # Any IGO Airlines
-      - aviation.any-igo.org # Aviation Members of Any IGO
+      - airlines.any-igo.dom # Any IGO Airlines
+      - aviation.any-igo.dom # Aviation Members of Any IGO
       - nationalrail.co.uk   # UK Trains
       - tfl.any-nation.org   # London Transports
       
@@ -38,10 +38,10 @@ Trusts:
     Query: nlweb.org/PERSONA
     Domains: 
       - taxes.any-nation.org  # Tax Service's
-      - nations.any-igo.org   # Any IGO
+      - nations.any-igo.dom   # Any IGO
 
 
   - Title: Allow palmist centers to query passport info.
-    Query: aviation.any-igo.org/PASSPORT
+    Query: aviation.any-igo.dom/PASSPORT
     Role: CONSUMER
     Domains: [ any-palmist.uk ]

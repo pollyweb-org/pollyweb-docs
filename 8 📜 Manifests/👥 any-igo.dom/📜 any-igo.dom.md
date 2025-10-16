@@ -1,12 +1,12 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): any-igo.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): any-igo.dom
 <!--# 🇺🇳 https://quip.com/OV9hAzKhb8Wf/-UNorg-->
 
 ```yaml
 🤝: nlweb.org/MANIFEST
 
 About:
-  Domain: any-igo.org
+  Domain: any-igo.dom
   Name: Any Intergovernmental Organization (IGO)
   
 

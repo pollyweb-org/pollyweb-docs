@@ -23,18 +23,18 @@ Trusts:
 
 ```yaml
   # Share SSR of US citizens via HHS.
-  - Query: airlines.any-igo.org/SSR/*
+  - Query: airlines.any-igo.dom/SSR/*
     Role: VAULT
     Domain: hhs.gov
 ```
 
 ```yaml 
   # Allow transporters to ask SSR of US citizens.
-  - Query: airlines.any-igo.org/SSR/*
+  - Query: airlines.any-igo.dom/SSR/*
     Role: CONSUMER
     Domains: 
-      - airlines.any-igo.org     # Any IGO Airlines
-      - aviation.any-igo.org     # Airlines @ICAO
+      - airlines.any-igo.dom     # Any IGO Airlines
+      - aviation.any-igo.dom     # Airlines @ICAO
 ```
 
 ```yaml      
@@ -42,7 +42,7 @@ Trusts:
   - Query: nlweb.org/PERSONA/*
     Domains: 
       - irs.gov     # Internal Revenue Service
-      - nations.any-igo.org      # Any IGO   
+      - nations.any-igo.dom      # Any IGO   
 ```
 
 ```yaml

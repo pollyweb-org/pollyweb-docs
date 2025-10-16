@@ -16,7 +16,7 @@ Trusts:
   # Share SSR of US citizens with those trusted by US.
   - Role: CONSUMER
     Queries: 
-      - airlines.any-igo.org/SSR/*
+      - airlines.any-igo.dom/SSR/*
     Domains: 
       - usa.gov
 

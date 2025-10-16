@@ -76,10 +76,10 @@
     Path: Codes[Path=/SSR]
     Content: 
         Path: /SSR
-        Delegator: airlines.any-igo.org
+        Delegator: airlines.any-igo.dom
     Size: 50
         # Size in Bytes of the string
-        # {"Path":"/SSR","Delegator":"airlines.any-igo.org"}
+        # {"Path":"/SSR","Delegator":"airlines.any-igo.dom"}
     ```
     
     ---

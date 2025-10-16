@@ -1,12 +1,12 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): airlines.any-igo.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): airlines.any-igo.dom
 <!--# 💺🏛️ https://quip.com/FuTpA83cGJ3L-->
 
 ```yaml
 🤝: nlweb.org/MANIFEST
 
 About:
-  Domain: airlines.any-igo.org
+  Domain: airlines.any-igo.dom
   Name: Any IGO Airlines
   
 
@@ -14,7 +14,7 @@ Delegates:
 
 
   # Delegate the definition of SSR codes.
-  - Delegate: airlines-ssr.any-igo.org
+  - Delegate: airlines-ssr.any-igo.dom
     Code: /SSR
     
 
@@ -36,13 +36,13 @@ Trusts:
 
   # Request SSR info from UN countries.
   - Role: VAULT
-    Query: airlines.any-igo.org/SSR/*
+    Query: airlines.any-igo.dom/SSR/*
     Domains:
-      - nations.any-igo.org
+      - nations.any-igo.dom
       
 
   # Share SSR info between airlines.   
-  - Query: airlines.any-igo.org/SSR/*
+  - Query: airlines.any-igo.dom/SSR/*
     Domains:
       - airline.any-business.org
       - airport.any-nation.org

@@ -61,7 +61,7 @@
           Domain: iata.org        # from IATA
         ```
 
-    * The [International Air Transport Association (IATA) 📜](<../../../8 📜 Manifests/👥 any-igo.org/📜 airlines.any-igo.org.md>) requests SSR info from U.S. citizens, and allows airlines to share SSR info between them. 
+    * The [International Air Transport Association (IATA) 📜](<../../../8 📜 Manifests/👥 any-igo.dom/📜 airlines.any-igo.dom.md>) requests SSR info from U.S. citizens, and allows airlines to share SSR info between them. 
     
         ```yaml
         # 📜 iata.org
@@ -125,8 +125,8 @@
     To protect themselves from harmful actors,
     *  [domains 👥](<../👥 Domains/👥 Domain.md>)s may inherit all revokes from [Firewall 🔥 domains](<../../45 🤲 Helper domains/Firewalls 🔥/🔥🤲 Firewall helper.md>) to immediately block any new threat, regardless of any direct or indirect [trust 👍](<👍 Domain Trust.md>) to the harmful actor;
     
-    e.g., if `any-firewall.com` revokes `any-threat.com`, 
-    *  and `any-domain.com` inherits [Trusts 👍](<👍 Domain Trust.md>) from `any-firewall.com`, 
+    e.g., if `any-firewall.dom` revokes `any-threat.com`, 
+    *  and `any-domain.com` inherits [Trusts 👍](<👍 Domain Trust.md>) from `any-firewall.dom`, 
     *  then `any-domain.com` won’t communicate with `any-threat.com` 
     *  event if there are direct or indirect [Trusts 👍](<👍 Domain Trust.md>) from `any-domain.com` to `any-threat.com`. 
 
@@ -143,7 +143,7 @@
     - Action: INHERIT
       Domains: 
         - usa.gov
-        - any-firewall.com
+        - any-firewall.dom
     ```    
     
     ---

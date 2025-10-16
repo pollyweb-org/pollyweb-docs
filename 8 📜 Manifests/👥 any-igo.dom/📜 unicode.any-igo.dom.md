@@ -1,11 +1,11 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): unicode.any-igo.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): unicode.any-igo.dom
 
 ```yaml
 🤝: nlweb.org/MANIFEST
 
 About:
-  Domain: unicode.any-igo.org
+  Domain: unicode.any-igo.dom
   Name: Unicode 
   References:
     Home: https://home.unicode.org/
@@ -22,18 +22,18 @@ Codes:
       Based on ISO 3166-1: a list of internationally recognized two-letter country codes. 
     References: 
       Unicode: https://unicode.org/cldr/charts/41/by_type/characters.flags.html
-      Emojipedia list: https://emojis.any-igo.org/flags
-      Emojipedia blog: https://blog.emojis.any-igo.org/emoji-flags-explained
+      Emojipedia list: https://emojis.any-igo.dom/flags
+      Emojipedia blog: https://blog.emojis.any-igo.dom/emoji-flags-explained
     Schemas:
       - Properties:
-          - Alpha2  # standards.any-igo.org/3166-1/ALPHA-2, e.g. e.g. PT
+          - Alpha2  # standards.any-igo.dom/3166-1/ALPHA-2, e.g. e.g. PT
           - Emoji   # e.g. 🇯🇵
         Format:
           type: object
           required: [Code, Flag]
           properties:
             Alpha2:
-              $ref: Alpha2@standards.any-igo.org/3166-1
+              $ref: Alpha2@standards.any-igo.dom/3166-1
               example: PT
             Emoji:
               type: string

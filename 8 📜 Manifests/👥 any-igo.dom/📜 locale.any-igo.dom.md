@@ -1,11 +1,11 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): locale.any-igo.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): locale.any-igo.dom
 
 ```yaml
 🤝: nlweb.org/MANIFEST
 
 About:
-  Domain: locale.any-igo.org
+  Domain: locale.any-igo.dom
   Name: Unicode Common Locale Data Repository (CLDR)
   Description: > 
     Provides key building blocks for software to support the world's languages, 
@@ -20,12 +20,12 @@ Datasets:
   # [🧩](<../../4 ⚙️ Solution/30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) //COUNTRY list.
   - Dataset: nlweb.org/LOCALE/COUNTRY:1.0
     Requires: 
-      Language: Code@standards.any-igo.org/639-1
+      Language: Code@standards.any-igo.dom/639-1
     
   # [🧩](<../../4 ⚙️ Solution/30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) //DIALCODE list.
   - Dataset: nlweb.org/LOCALE/DIALCODE:1.0
     Requires: 
-      Language: Code@standards.any-igo.org/639-1
+      Language: Code@standards.any-igo.dom/639-1
       
 
 Codes: 
@@ -40,7 +40,7 @@ Codes:
       CLDR: https://cldr.unicode.org/translation/displaynames/countryregion-territory-names
     Schemas:
       - Properties:
-          - Code      # Alpha2@standards.any-igo.org/3166-1, e.g. "PT"
+          - Code      # Alpha2@standards.any-igo.dom/3166-1, e.g. "PT"
           - Name      # Name of the country in a given language, e.g. "Portugal"
         Format:
           type: array
@@ -48,6 +48,6 @@ Codes:
             required: [ Code, Name ]
             properties: 
               Code:
-                $ref: Alpha2@standards.any-igo.org/3166-1
+                $ref: Alpha2@standards.any-igo.dom/3166-1
               Name:
                 type: string

@@ -19,7 +19,7 @@ Schema:
   Version: 1.0
   
   Properties:
-    - Code      # e.g., airlines.any-igo.org/SSR/WCHR/CRED:1.0
+    - Code      # e.g., airlines.any-igo.dom/SSR/WCHR/CRED:1.0
     - Domain    # ex. health.any-nation.org
     - Resource  # ex. ANY-RESOURCE-KEY
     - '*'

@@ -26,7 +26,7 @@ Body:
     Consumer: any-consumer.dom
     Binds: 
       - Vault: ec.europa.eu
-        Code: airlines.any-igo.org/SSR/WCHR/CRED
+        Code: airlines.any-igo.dom/SSR/WCHR/CRED
 ```
 
 |Object|Property|Type|Description
@@ -48,7 +48,7 @@ Body:
 ```yaml
 Binds: 
   - Vault: ec.europa.eu
-    Code: airlines.any-igo.org/SSR/WCHR/CRED
+    Code: airlines.any-igo.dom/SSR/WCHR/CRED
     Paths: 
       - [<vault>, <consumer>]
 ```

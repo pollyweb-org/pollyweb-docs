@@ -31,13 +31,13 @@ Schema:
         example: 🇬🇧 United Kingdom
 
       Alpha2:
-        $ref: Alpha2@standards.any-igo.org/3166-1:1.0
+        $ref: Alpha2@standards.any-igo.dom/3166-1:1.0
         example: UK
 
       Country: 
-        $ref: Name@locale.any-igo.org/TERRITORY:1.0
+        $ref: Name@locale.any-igo.dom/TERRITORY:1.0
         example: United Kingdom
         
       Flag:
-        $reg: Emoji@unicode.any-igo.org/FLAG:1.0
+        $reg: Emoji@unicode.any-igo.dom/FLAG:1.0
         example: 🇬🇧

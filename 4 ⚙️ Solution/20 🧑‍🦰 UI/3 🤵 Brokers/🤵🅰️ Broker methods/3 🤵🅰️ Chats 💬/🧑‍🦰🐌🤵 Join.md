@@ -1,4 +1,4 @@
-# 🧑‍🦰🐌🤵 Help @ Broker
+# 🧑‍🦰🐌🤵 Join @ Broker
 
 > Asks the [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) to join a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) to help.
 

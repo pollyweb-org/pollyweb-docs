@@ -30,7 +30,7 @@ Trusts:
   - Role: CONSUMER
     Query: europa.eu/DISABILITY/CARD
     Domains: 
-      - airlines.any-igo.org     # Any IGO Airlines
+      - airlines.any-igo.dom     # Any IGO Airlines
 ```    
 
 ```yaml

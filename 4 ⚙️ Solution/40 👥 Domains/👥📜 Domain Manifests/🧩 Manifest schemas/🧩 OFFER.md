@@ -28,7 +28,7 @@ Name: Domain service offer
 Schema: 
 
   Example: 
-    Dataset: Code@standards.any-igo.org/639-1
+    Dataset: Code@standards.any-igo.dom/639-1
     Requires:
       Language: nlweb.org/LOCALE/LANGUAGE:1.0
 
