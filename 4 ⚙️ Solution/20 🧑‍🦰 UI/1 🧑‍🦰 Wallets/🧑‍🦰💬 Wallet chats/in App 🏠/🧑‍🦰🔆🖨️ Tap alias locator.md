@@ -24,7 +24,7 @@
 
 ## Flow diagram
 
-![PrinterQR](<../../🧑‍🦰⏩ Wallet flows/15 👉🔆 Locators/.📎 Assets/⚙️🖨️ Printer QR.png>)
+![PrinterQR](<../../.📎 Assets/Locators 📎/⚙️🖨️ Printer QR.png>)
 
 
 | # | Call | Notes

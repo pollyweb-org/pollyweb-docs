@@ -12,7 +12,7 @@
 
 ## Flow diagram
 
-![List chats](<../../.📎 Assets/Chats/⚙️ List chats.png>)
+![List chats](<../../.📎 Assets/Chats 📎/⚙️ List chats.png>)
 
 | # | Call | Notes
 |-|-|-
