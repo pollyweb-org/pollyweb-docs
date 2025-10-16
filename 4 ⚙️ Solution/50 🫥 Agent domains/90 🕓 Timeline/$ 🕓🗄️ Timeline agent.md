@@ -35,7 +35,7 @@
 
     Not directly. 
     
-    NLWeb advocates for files to be proxied by the user's [Persona Vault](<../70 🧢 Personas/$ 🧢🫥 Persona agent.md>) to:
+    NLWeb advocates for files to be proxied by the user's [Persona Vault](<../70 🧢 Personas/🧢🫥 Persona agent.md>) to:
     - summarize images and PDFs into text (to reduces storage space);
     - remove any references to the user's PII (to protect privacy).
 

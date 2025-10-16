@@ -135,9 +135,9 @@
 
 1. **How about a central place for user preferences?**
 
-    Exceptionally, NLWeb advocates for the use of [Persona 🧢 vault](<../../50 🫥 Agent domains/70 🧢 Personas/$ 🧢🫥 Persona agent.md>) aimed for preference-based personalization 
+    Exceptionally, NLWeb advocates for the use of [Persona 🧢 vault](<../../50 🫥 Agent domains/70 🧢 Personas/🧢🫥 Persona agent.md>) aimed for preference-based personalization 
     - e.g., nicknames, seat preferences, film genres;
-    - but, even here, users rent storage on [Persona 🧢 vault](<../../50 🫥 Agent domains/70 🧢 Personas/$ 🧢🫥 Persona agent.md>) as a service that is owned and managed by a company.
+    - but, even here, users rent storage on [Persona 🧢 vault](<../../50 🫥 Agent domains/70 🧢 Personas/🧢🫥 Persona agent.md>) as a service that is owned and managed by a company.
 
     ---
     <br/>

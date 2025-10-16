@@ -71,6 +71,6 @@ Body:
 
     For the [Schema Codes 🧩](<../../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) marked with SELF, 
     * only shows the [Tokens 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) issued by the [Consumer 💼 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>),
-    * e.g., [`.BOOKING/SELF 🧩`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🧩 Host schemas/🧩 HOST\BOOKING\SELF.md>).
+    * e.g., [`.BOOKING/SELF 🧩`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🧩 Host schemas/🧩 HOST'BOOKING'SELF.md>).
 
     ---

@@ -41,7 +41,7 @@
     |-|-|-
     | ☁️ Hoster | 😃 Hi! What do you need? <br/>- [ Host ] a domain | > Host
     | [🤵 Broker](<../24 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 [Bind?](<../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/02 🧑‍🦰👉🗄️ Bind 🔗.md>) [Yes, No, +] <br/>- [Vault 🧩](<../../../7 🧩 Codes/$/🧩 VAULT code.md>) | > Yes 
-    | 🤵 [Broker](<../24 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Save token? [Yes, No] <br/> - [Host Admin 🧩](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🧩 Host schemas/🧩 HOST\ADMIN.md>)  | > Yes
+    | 🤵 [Broker](<../24 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Save token? [Yes, No] <br/> - [Host Admin 🧩](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🧩 Host schemas/🧩 HOST'ADMIN.md>)  | > Yes
     | ☁️ Hoster | ℹ️ [Clone](<../../../5 ⏩ Flows/77 🔃⏩ Syncer/10 🔃⏩🗃️ Clone.md>) with: `syncer \`<br/>`clone any-hoster.com 12345`
     | ☁️ Hoster | ⏳ Waiting for one minute... | (clone)
     | ☁️ Hoster | ℹ️ Received `67890`.

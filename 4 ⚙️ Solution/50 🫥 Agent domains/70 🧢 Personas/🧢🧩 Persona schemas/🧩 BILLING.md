@@ -1,11 +1,11 @@
 
-# [🧩](<../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) [Schema Code](<../../4 ⚙️ Solution/30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>): PersonaBilling
+# [🧩](<../../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) [Schema Code](<../../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>): PersonaBilling
 
 <br/>
 
 ## Definition
 
-> 🤝: [`.MANIFEST/CODE`](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/🧩 Manifest schemas/🧩 CODE.md>)
+> 🤝: [`.MANIFEST/CODE`](<../../../40 👥 Domains/44 📜 Manifests/🧩 Manifest schemas/🧩 CODE.md>)
 
 ```yaml
 Path: /PERSONA/BILLING

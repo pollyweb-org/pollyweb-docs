@@ -75,7 +75,7 @@
 
 1. **How do Finders get information about users?**
 
-    * [Persona 🧢](<../70 🧢 Personas/$ 🧢🫥 Persona agent.md>): Finders ask users to share anonymized search preferences from their Personas, then index the search results accordingly.
+    * [Persona 🧢](<../70 🧢 Personas/🧢🫥 Persona agent.md>): Finders ask users to share anonymized search preferences from their Personas, then index the search results accordingly.
     * [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>): Finders receive the user's current context from the Wallet, similar to what is sent to a Web 2.0 browser (e.g., time zone, country, state, approximate location).
 
     ---
@@ -85,7 +85,7 @@
 
     - **[👍 Trust](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>)**: domains untrusted by the user's [Broker 🤵](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) are discarded;
     - **🔥 Threats**: domains blocked by [Firewalls 🔥](<../../45 🤲 Helper domains/40 🔥 Firewalls/🔥🤲 Firewall helper.md>) may be discarded even when trusted;
-    - **🧢 Preferences**: the user's preferences, as shared by the user's [Persona 🧢](<../70 🧢 Personas/$ 🧢🫥 Persona agent.md>);
+    - **🧢 Preferences**: the user's preferences, as shared by the user's [Persona 🧢](<../70 🧢 Personas/🧢🫥 Persona agent.md>);
     - **📍 Proximity**: the distance to the user, based on the context shared by the Wallet;
     - **⭐ Rank**: the weighted rank of the domain based on feedback of similar users.
 
