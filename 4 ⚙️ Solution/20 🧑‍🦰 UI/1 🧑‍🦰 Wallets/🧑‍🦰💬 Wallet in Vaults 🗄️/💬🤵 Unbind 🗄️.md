@@ -1,6 +1,6 @@
 <!-- https://quip.com/b8a0AHaXf3C6#temp:C:DPSe1a859381bc449598713c8c71 -->
 
-# 🧑‍🦰👉🗄️ Unbind @ Wallet
+# 🧑‍🦰💬🤵 Unbind @ Wallet
 
 > Implements a [Wallet 🧑‍🦰 app](<../🧑‍🦰🛠️ Wallet app.md>)
 

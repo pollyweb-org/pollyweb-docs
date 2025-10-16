@@ -1,4 +1,4 @@
-# 🧑‍🦰👉🤵 Remove token @ Wallet
+# 🧑‍🦰💬🤵 Remove token @ Wallet
 
 
 > Implements a [Wallet 🧑‍🦰 app](<../🧑‍🦰🛠️ Wallet app.md>)

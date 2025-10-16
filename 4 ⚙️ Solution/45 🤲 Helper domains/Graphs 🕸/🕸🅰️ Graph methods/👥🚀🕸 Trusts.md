@@ -17,8 +17,8 @@
   * but for verification by another [domain 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>).
   
 * Used in:
-  * [🧑‍🦰👉💼 Share Token 🎫 flow](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Prompts 🤔/🧑‍🦰👉💼 Share Token 🎫.md>) 
-  * [🧑‍🦰👉💼 Share Bind 🔗 flow](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Prompts 🤔/🧑‍🦰👉💼 Share Bind 🔗.md>) 
+  * [🧑‍🦰👉💼 Share Token 🎫 flow](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Prompts 🤔/👉💼 Share Token 🎫.md>) 
+  * [🧑‍🦰👉💼 Share Bind 🔗 flow](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Prompts 🤔/👉💼 Share Bind 🔗.md>) 
 
 
 <br/>

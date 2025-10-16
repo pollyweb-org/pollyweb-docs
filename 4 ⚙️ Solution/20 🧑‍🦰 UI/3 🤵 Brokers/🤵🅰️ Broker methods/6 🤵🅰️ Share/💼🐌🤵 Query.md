@@ -10,8 +10,8 @@
 
 * Used by: 
     * [💼⏩🧑‍🦰 Inform ⏩ flow](<../../../../41 🎭 Domain Roles/Consumers 💼/💼⏩ Consumer flows/💼⏩🧑‍🦰 Inform 📝.md>)
-    * [🧑‍🦰👉💼 Share Token ⏩ flow](<../../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Prompts 🤔/🧑‍🦰👉💼 Share Token 🎫.md>)
-    * [🧑‍🦰👉💼 Share Bind ⏩ flow](<../../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Prompts 🤔/🧑‍🦰👉💼 Share Bind 🔗.md>)
+    * [🧑‍🦰👉💼 Share Token ⏩ flow](<../../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Prompts 🤔/👉💼 Share Token 🎫.md>)
+    * [🧑‍🦰👉💼 Share Bind ⏩ flow](<../../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Prompts 🤔/👉💼 Share Bind 🔗.md>)
 
 <br/> 
 
