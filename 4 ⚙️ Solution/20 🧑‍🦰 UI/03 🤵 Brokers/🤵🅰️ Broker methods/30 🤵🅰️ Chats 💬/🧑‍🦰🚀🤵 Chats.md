@@ -9,7 +9,7 @@
 > Used in:
 > <br/>• [🧑‍🦰👉🤵 Set language @ Wallet](<../../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/12 🧑‍🦰👉🤵 Translate.md>)
 > <br/>• [🧑‍🦰👉🤵 List chats @ Wallet](<../../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/20 👉💬 Chats/01 🧑‍🦰👉🤵 List chats.md>)
-> <br/>• [🤵⏩🗄️ Update chats @ Broker](<../../🤵⏩ Broker flows/04 🤵⏩🧑‍🦰 Update Chats 💬.md>)
+> <br/>• [🤵⏩🗄️ Update chats @ Broker](<../../🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Chats 💬.md>)
 
 
 <br/>

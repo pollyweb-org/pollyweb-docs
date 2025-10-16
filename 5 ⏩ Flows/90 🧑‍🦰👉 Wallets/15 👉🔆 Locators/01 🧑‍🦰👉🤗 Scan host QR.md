@@ -27,7 +27,7 @@
 
 | # | Call | Notes
 |-|-|-
-| 1 | [🤵⏩🧑‍🦰 Assess 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/🤵⏩ Broker flows/01 🤵⏩🧑‍🦰 Assess 🔆.md>) | Parse [Locators 🔆](<../../../4 ⚙️ Solution/25 Locators/15 🔆 Locators/🔆 Locator.md>) in the [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>)
+| 1 | [🤵⏩🧑‍🦰 Assess 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/🤵⏩ Broker flows/🤵⏩🧑‍🦰 Assess 🔆.md>) | Parse [Locators 🔆](<../../../4 ⚙️ Solution/25 Locators/15 🔆 Locators/🔆 Locator.md>) in the [Broker 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>)
 | 2 | [🤵🐌🤗 `Hello@Host`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🅰️ Host methods/🤵🐌🤗 Hello.md>) | [Brokers 🤵](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) ask [Hosts 🤗](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) to interact
 | 3 | [🤗⏩🧑‍🦰 Prompt 🤔](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | Welcome message from [Hosts 🤗](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) 
 ||

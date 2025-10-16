@@ -9,9 +9,9 @@
 > The Broker domain tells the [Notifier 📣 domain](<../../📣 Notifier domain.md>) that there was an update and they need to refresh the user experience.
 
 > Used in:
-> <br/>• [🤵⏩🧑‍🦰 Update Binds 🔗](<../../../03 🤵 Brokers/🤵⏩ Broker flows/06 🤵⏩🧑‍🦰 Update Binds 🔗.md>)
-> <br/>• [🤵⏩🧑‍🦰 Update tokens](<../../../03 🤵 Brokers/🤵⏩ Broker flows/08 🤵⏩🧑‍🦰 Update Tokens 🎫.md>)
-> <br/>• [🤵⏩🧑‍🦰 Update chats 💬](<../../../03 🤵 Brokers/🤵⏩ Broker flows/04 🤵⏩🧑‍🦰 Update Chats 💬.md>)
+> <br/>• [🤵⏩🧑‍🦰 Update Binds 🔗](<../../../03 🤵 Brokers/🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Binds 🔗.md>)
+> <br/>• [🤵⏩🧑‍🦰 Update tokens](<../../../03 🤵 Brokers/🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Tokens 🎫.md>)
+> <br/>• [🤵⏩🧑‍🦰 Update chats 💬](<../../../03 🤵 Brokers/🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Chats 💬.md>)
 
 <br/>
 

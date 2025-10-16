@@ -2,7 +2,7 @@
 
 > [Broker 🤵 domains](<../../../03 🤵 Brokers/🤵🤲 Broker helper.md>) tell [Wallet 🧑‍🦰 apps](<../../../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) about a new [Chat 💬](<../../../../35 Chats/💬 Chats/💬 Chat.md>).
 
-> Used in [🤵⏩🧑‍🦰 Converse @ Broker](<../../../03 🤵 Brokers/🤵⏩ Broker flows/03 🤵⏩🧑‍🦰 Converse 💬.md>) 
+> Used in [🤵⏩🧑‍🦰 Converse @ Broker](<../../../03 🤵 Brokers/🤵⏩ Broker flows/🤵⏩🧑‍🦰 Converse 💬.md>) 
 
 <br/>
 
