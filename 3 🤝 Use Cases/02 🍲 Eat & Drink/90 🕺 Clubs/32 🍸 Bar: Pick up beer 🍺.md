@@ -12,9 +12,9 @@ Pick up a drink at a club
 |...
 | 🕺 Club       | ⏳ Preparing your order... [+]
 | 🕺 Club       | 📣 Order ready! [ Quiet, 5... 4... ] <br/>- 1 half pint lager 🍺 | > Quiet 
-| 🕺 Club       | 😃 Tap the bar's tag. | 🔆 [tap](<../../../4 ⚙️ Solution/25 Locators/15 🔆 Locators/$ 🔆 Locator.md>)
+| 🕺 Club       | 😃 Tap the bar's tag. | 🔆 [tap](<../../../4 ⚙️ Solution/25 Locators/15 🔆 Locators/🔆 Locator.md>)
 | 🕺 Club       | 🚫 Wait for  previous person [+]
-| 🕺 Club       | 😃 Tap the bar's tag. | 🔆 [tap](<../../../4 ⚙️ Solution/25 Locators/15 🔆 Locators/$ 🔆 Locator.md>)
+| 🕺 Club       | 😃 Tap the bar's tag. | 🔆 [tap](<../../../4 ⚙️ Solution/25 Locators/15 🔆 Locators/🔆 Locator.md>)
 | 🕺 Club       | ⏳ Getting your order... [+]
 | 🕺 Club       | ✅ Order delivered [+] <br/>- 1 half pint lager 🍺
 | 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agent domains/95 💖 Vitalogists/💖🫥 Vitalogist agent.md>) | 🫥 Save intake? [Yes, No] | > Yes

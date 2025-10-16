@@ -39,7 +39,7 @@
     | [🕓&nbsp;TIME](<../7 ✏️ Input prompts/62 🕓 TIME prompt.md>) | Asks for time of day
     | [📆&nbsp;DATE](<../7 ✏️ Input prompts/61 📆 DATE prompt.md>) | Asks for a date
     | [🛒&nbsp;EAN](<../7 ✏️ Input prompts/74 🛒 EAN prompt.md>) | Scans for ENA-13 and EAN-8 barcodes
-    | [🔆&nbsp;SCAN](<../7 ✏️ Input prompts/72 🔆 SCAN prompt.md>) | Asks to touch/scan a [QR/NFC Locator 🔆](<../../../25 Locators/15 🔆 Locators/$ 🔆 Locator.md>)
+    | [🔆&nbsp;SCAN](<../7 ✏️ Input prompts/72 🔆 SCAN prompt.md>) | Asks to touch/scan a [QR/NFC Locator 🔆](<../../../25 Locators/15 🔆 Locators/🔆 Locator.md>)
     | [🦋&nbsp;TOUCH](<../7 ✏️ Input prompts/73 🦋 TOUCH prompt.md>) | Asks to touch/scan a [QR/NFC Ephemeral 🦋 device](<../../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>)
     | [⬆️&nbsp;UPLOAD](<../7 ✏️ Input prompts/81 ⬆️ UPLOAD prompt.md>)| Asks to upload a file or photo
     | [📍&nbsp;LOCATION](<../7 ✏️ Input prompts/91 📍 LOCATION prompt.md>) | Asks for the current location

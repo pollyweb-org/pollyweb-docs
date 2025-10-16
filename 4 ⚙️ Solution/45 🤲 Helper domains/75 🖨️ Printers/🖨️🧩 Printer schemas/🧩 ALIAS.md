@@ -3,7 +3,7 @@
 
 > Referenced in [`Assess@Broker`](<../../24 🤵 Brokers/🤵🅰️ Broker methods/20 🤵🅰️ Locators/🧑‍🦰🐌🤵 Assess.md>).
 
-* Used in [Locators 🔆](<../../../25 Locators/15 🔆 Locators/$ 🔆 Locator.md>) 
+* Used in [Locators 🔆](<../../../25 Locators/15 🔆 Locators/🔆 Locator.md>) 
     * that need to be translated 
     * by a [Printer 🖨️ helper domain](<../🖨️🤲 Printer helper.md>).
 
