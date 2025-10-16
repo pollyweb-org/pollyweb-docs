@@ -1,6 +1,6 @@
 # 🪣📂 Pools folder
 
-> Part of [Hosted 📦 domain](<01 📦 Hosted domain.md>)
+> Part of [Hosted 📦 domain](<../📦👥 Hosted domain.md>)
 
 <br/>
 
@@ -8,8 +8,8 @@
 1. **What is a Pools file?**
 
     The `🪣 Pools.yaml` file
-    * indexes the [Resources 🗃️ folder](<18 🗃️📂 Resources folder.md>)
-    * to be used by the [Talker `MAP` command](<../30 🗃️ Talker data/61 🪣 MAP item.md>).
+    * indexes the [Resources 🗃️ folder](<🗃️📂 Resources folder.md>)
+    * to be used by the [Talker `MAP` command](<../../30 🗃️ Talker data/61 🪣 MAP item.md>).
     
     ---
     <br/>

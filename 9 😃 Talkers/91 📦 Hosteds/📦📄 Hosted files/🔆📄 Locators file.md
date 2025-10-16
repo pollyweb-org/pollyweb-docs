@@ -1,6 +1,6 @@
 # 🔆 Hosted `Locators` file
 
-> Part of [Hosted 📦 domain](<01 📦 Hosted domain.md>)
+> Part of [Hosted 📦 domain](<../📦👥 Hosted domain.md>)
 
 <br/>
 
@@ -8,8 +8,8 @@
 
     The `🔆 Locators.yaml` file 
     * contains the mapping 
-    * of [Locator 🔆](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) resource keys
-    * to [Talker 😃 files](<15 😃📂 Talkers folder.md>)
+    * of [Locator 🔆](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) resource keys
+    * to [Talker 😃 files](<😃📂 Talkers folder.md>)
     
     ---
     <br/>
@@ -27,7 +27,7 @@
 
     | Property | Type | Description
     |-|-|-
-    | `Locators` | map | Resource keys to [Talker 😃 files](<15 😃📂 Talkers folder.md>).
+    | `Locators` | map | Resource keys to [Talker 😃 files](<😃📂 Talkers folder.md>).
 
     ---
     <br/>
