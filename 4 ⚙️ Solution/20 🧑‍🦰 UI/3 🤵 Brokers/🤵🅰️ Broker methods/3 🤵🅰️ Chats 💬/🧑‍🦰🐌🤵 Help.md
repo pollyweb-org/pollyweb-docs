@@ -4,7 +4,7 @@
 
 > Used in:
 > <br/> • [🧑‍🦰👉🤵 Host Home](<../../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet chats/in Chats 💬/🧑‍🦰💬🤵 Host home.md>) flow
-> <br/> • [🧑‍🦰👉🤵 Abandon Chat](<../../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet chats/in Chats 💬/🧑‍🦰💬🤵 Abandon chat.md>) flow
+> <br/> • [🧑‍🦰👉🤵 Abandon Chat](<../../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet chats/in Chats 💬/🧑‍🦰💬🤵 Abandon 💬.md>) flow
 
 <br/>
 

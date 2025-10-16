@@ -26,7 +26,7 @@
 
 ## Flow diagram
 
-![alt text](<.📎 Assets/⚙️ Unbind.png>)
+![alt text](<../../🧑‍🦰⏩ Wallet flows/30 👉🔗 Binds/.📎 Assets/⚙️ Unbind.png>)
 
 
 | # | Call | Notes
