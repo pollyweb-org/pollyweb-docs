@@ -23,9 +23,9 @@
     | [`any-domain.com`]() | `NS` | `{name servers}`
     | 👉 Endpoint for inbound [messages 📨](<../👥📨 Domain Messages/📨 Message.md>)  
     | `nlweb`.[`any-domain.com`]() | `A` | `1234.any-api.com`
-    | 👉 [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) for outbound and [Tokens 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>)
+    | 👉 [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) for outbound and [Tokens 🎫](<../../30 Data/🎫 Tokens/🎫 Token.md>)
     | `pk6`.`_domainkey`.[`any-domain.com`]() | `TXT` | `v=DKIM1;k=rsa;p=...` 
-    | 👉 Old [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) for old [Tokens 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>)
+    | 👉 Old [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) for old [Tokens 🎫](<../../30 Data/🎫 Tokens/🎫 Token.md>)
     | `pk5`.`_domainkey`.[`any-domain.com`]() | `TXT` | `v=DKIM1;k=rsa;p=...` 
 
     
@@ -47,7 +47,7 @@
     | [🤲 Helper](<../../45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>) | Offloads undifferentiated logic from [domains 👥](<👥 Domain.md>)
     | [🤗 Host](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | Hosts [Chats 💬](<../../35 Chats/💬 Chats/💬 Chat.md>) for [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) via [Brokers 🤵](<../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>)
     | [🪢 Integrator](<../../41 🎭 Domain Roles/35 🪢 Integrators/$ 🪢🎭 Integrator role.md>) |  [Manifests 📜](<../👥📜 Domain Manifests/📜 Manifest.md>)  endpoints for [Finders 🔎](<../../50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) to index
-    | [🎴 Issuer](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) | Issues [Tokens 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>) to be saved on users' [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    | [🎴 Issuer](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) | Issues [Tokens 🎫](<../../30 Data/🎫 Tokens/🎫 Token.md>) to be saved on users' [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | [🌬️ Streamer](<../../41 🎭 Domain Roles/75 🌬️ Streamers/🌬️🎭 Streamer role.md>) | Pushes and replays domain events to [Subscribers 🔔](<../../41 🎭 Domain Roles/76 🔔 Subscribers/🔔🎭 Subscriber role.md>)
     | [🔔 Subscriber](<../../41 🎭 Domain Roles/76 🔔 Subscribers/🔔🎭 Subscriber role.md>) | Subscribes to domain events from a [Streamers 🌬️](<../../41 🎭 Domain Roles/75 🌬️ Streamers/🌬️🎭 Streamer role.md>)
     | [🗄️ Vault](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) | Stores user data and shares it with [Consumers 💼](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>)

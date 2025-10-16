@@ -3,10 +3,10 @@
 
 # 🧑‍🦰🐌🤵 Saved @ Broker
 
-> [Wallet 🧑‍🦰 apps](<../../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) inform [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) where the file with the [Token 🎫](<../../../../30 Data/30 🎫 Tokens/🎫 Token.md>) details was stored locally on the device.
+> [Wallet 🧑‍🦰 apps](<../../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) inform [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) where the file with the [Token 🎫](<../../../../30 Data/🎫 Tokens/🎫 Token.md>) details was stored locally on the device.
 
 > Part of the [🎴⏩🧑‍🦰 Offer Token @ Issuer](<../../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/02 🧑‍🦰👉🎴 Save token.md>) flow:
-> <br>• triggered by [`Save@Notifier`](<../../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>) message
+> <br>• triggered by [`Save@Notifier`](<../../../02 📣 Notifiers/📣🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>) message
 
 <br/>
 
@@ -27,11 +27,11 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From`|uuid | [Wallet 🧑‍🦰](<../../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)  from [`Onboard@Notifier`](<../../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
-||`To`|string| [Broker 🤵](<../../🤵🤲 Broker helper.md>) from [`Onboard@Notifier`](<../../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
+|Header|`From`|uuid | [Wallet 🧑‍🦰](<../../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)  from [`Onboard@Notifier`](<../../../02 📣 Notifiers/📣🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
+||`To`|string| [Broker 🤵](<../../🤵🤲 Broker helper.md>) from [`Onboard@Notifier`](<../../../02 📣 Notifiers/📣🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
 ||`Subject`|string|`Saved@Broker`
-|Body  |`ChatID` |uuid  | [Chat 💬](<../../../../35 Chats/💬 Chats/💬 Chat.md>) ID from [`Save@Notifier`](<../../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
-|      |`TokenID` |uuid  | [Token 🎫](<../../../../30 Data/30 🎫 Tokens/🎫 Token.md>) ID from [`Save@Notifier`](<../../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
-|      |`Issuer`  |string| [Issuer 🎴](<../../../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) from [`Save@Notifier`](<../../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
+|Body  |`ChatID` |uuid  | [Chat 💬](<../../../../35 Chats/💬 Chats/💬 Chat.md>) ID from [`Save@Notifier`](<../../../02 📣 Notifiers/📣🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
+|      |`TokenID` |uuid  | [Token 🎫](<../../../../30 Data/🎫 Tokens/🎫 Token.md>) ID from [`Save@Notifier`](<../../../02 📣 Notifiers/📣🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
+|      |`Issuer`  |string| [Issuer 🎴](<../../../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) from [`Save@Notifier`](<../../../02 📣 Notifiers/📣🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
 |      |`Path`    |string| Path to the local file
 |

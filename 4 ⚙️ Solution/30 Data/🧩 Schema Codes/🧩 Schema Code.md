@@ -19,7 +19,7 @@
     | Schema Code | Purpose |
     |-|-
     | [`.MSG` 🧩](<../../40 👥 Domains/👥📨 Domain Messages/📨🧩 Message schemas/🧩 MSG.md>) | Schema of [Messages 📨](<../../40 👥 Domains/👥📨 Domain Messages/📨 Message.md>) 
-    | [`.TOKEN` 🧩](<../30 🎫 Tokens/🧩 Token schemas/🧩 TOKEN.md>) | Schema of [Tokens 🎫](<../30 🎫 Tokens/🎫 Token.md>)
+    | [`.TOKEN` 🧩](<../🎫 Tokens/🧩 Token schemas/🧩 TOKEN.md>) | Schema of [Tokens 🎫](<../🎫 Tokens/🎫 Token.md>)
     | [`unicode.org/FLAG` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 unicode.any-igo.org.md>) | Flags for country [Prompts 🤔](<../../35 Chats/🤔 Prompts/🤔 Prompt.md>)
     | [`locale.org/TERRITORY` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 locale.any-igo.org.md>) | Country names for [Prompts 🤔](<../../35 Chats/🤔 Prompts/🤔 Prompt.md>)
     | [`standards.org/639-1` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 standards.any-igo.org.md>) | Language codes (e.g., `en-us`)
@@ -84,7 +84,7 @@
 
     For example, consider an airline requesting passport data for a flight check-in from a citizen with dual British and American nationalities:
     * the airline may ask for the `icao.int/PASSPORT`  [Schema Code 🧩](<🧩 Schema Code.md>)
-    * and receive datasets from the user's `uk.gov` and `usa.gov` [Binds 🔗](<../20 🔗 Binds/🔗 Bind.md>).
+    * and receive datasets from the user's `uk.gov` and `usa.gov` [Binds 🔗](<../🔗 Binds/🔗 Bind.md>).
         ```yaml
         # Sample request to share user data.
         Header:
@@ -211,7 +211,7 @@
         * defined in [`.MANIFEST/CODE` 🧩](<../../40 👥 Domains/👥📜 Domain Manifests/🧩 Manifest schemas/🧩 CODE.md>).
     * Consider [`.LOCATOR` 🧩](<../../../7 🧩 Codes/$/🧩 LOCATOR code.md>)
         * who defines properties `Code`, `Domain`, `Resource`.
-    * It is inherited by [`.TOKEN` 🧩](<../30 🎫 Tokens/🧩 Token schemas/🧩 TOKEN.md>)
+    * It is inherited by [`.TOKEN` 🧩](<../🎫 Tokens/🧩 Token schemas/🧩 TOKEN.md>)
         * who adds properties `Issued`, `Starts`, `Expires`, `Signature`.
     * Then inherited by [`.HOST/BOOKING` 🧩](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🧩 Host schemas/🧩 HOST'BOOKING.md>)
         * who adds properties `For`, `Time`, `Place`, `Seat`, `Latitude`, `Longitude`.

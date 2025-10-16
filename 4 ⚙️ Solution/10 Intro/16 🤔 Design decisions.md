@@ -19,7 +19,7 @@ Design Decisions
     
     - New chats are opened with a [Locator 🔆](<../25 Locators/15 🔆 Locators/🔆 Locator.md>) by scanning a [QR code ✨](<../25 Locators/15 🔆 Locators/🔆⏩ Locator flows/🧑‍🦰✨ Wallet QR scan.md>) or by tapping an [NFC tag 🔆](<../25 Locators/15 🔆 Locators/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>). 
     
-    - Users may accept [Tokens 🎫](<../30 Data/30 🎫 Tokens/🎫 Token.md>) issued by [Issuer 🎴 domains](<../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) - these tokens are stored offline and can be shared and validated by [Consumer 💼 domains](<../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>).
+    - Users may accept [Tokens 🎫](<../30 Data/🎫 Tokens/🎫 Token.md>) issued by [Issuer 🎴 domains](<../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) - these tokens are stored offline and can be shared and validated by [Consumer 💼 domains](<../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>).
 
 
     ---
@@ -42,7 +42,7 @@ Design Decisions
 
     NLWeb advocates for domains to ask users for well-known common data types (e.g., address) instead of generic text values. 
 
-    - Users [bind 🔗](<../30 Data/20 🔗 Binds/🔗 Bind.md>) their [Wallet 🧑‍🦰 app](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets>) to multiple [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) holding parts of their personal data (e.g., banks, hospitals, governments);
+    - Users [bind 🔗](<../30 Data/🔗 Binds/🔗 Bind.md>) their [Wallet 🧑‍🦰 app](<../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets>) to multiple [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) holding parts of their personal data (e.g., banks, hospitals, governments);
 
         - this mirrors real-world interactions, where citizens typically trust organizations to hold their personal data, from traditional  [medical records 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/01 🗂️ Profiling landscape/05 📺 Medical records.md>) to digital [family photos 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/01 🗂️ Profiling landscape/02 📺 Social media.md>).
 
@@ -55,11 +55,11 @@ Design Decisions
         - this is a [Solid 📺](<../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/05 📺 Berners-Lee vaults.md>)-like user-centric [Vault 🗄️ domain](<../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) that other [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) may leverage to address [sovereignty 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/00 🏳️ Sovereignty index.md>) regulations 
         - e.g., a US-based [Vault 🗄️ domain](<../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) may store the data of a German citizen in the citizen's Germany-based [Storage 💾 vault](<../50 🫥 Agent domains/80 💾 Storage/💾🫥 Storage agent.md>).
 
-    - Those [bounded 🔗](<../30 Data/20 🔗 Binds/🔗 Bind.md>) [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) allow users to quickly [autofill 📺](<../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/06 📺 SSI form auto filling.md>) forms;
+    - Those [bounded 🔗](<../30 Data/🔗 Binds/🔗 Bind.md>) [Vault 🗄️ domains](<../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) allow users to quickly [autofill 📺](<../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/06 📺 SSI form auto filling.md>) forms;
 
         - this is similar to the autofill feature of the [main web browsers 🖼️](<../../2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape/12 🖼️ Top-browsers.md>), but done in a distributed way instead of concentrating user data in a centralized cloud database owned by the browser's manufacturer.
 
-    - Data is shared as data sets validated by [Schema Codes 🧩](<../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>), instead of as individual properties, thus not allowing [selective disclosure 📺](<../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/07 📺 SSI selective disclosure.md>);
+    - Data is shared as data sets validated by [Schema Codes 🧩](<../30 Data/🧩 Schema Codes/🧩 Schema Code.md>), instead of as individual properties, thus not allowing [selective disclosure 📺](<../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/07 📺 SSI selective disclosure.md>);
 
         - this also mirrors real-world interactions, where users typically hand-over to organization employees their physical documents with multiple data points (e.g., driver's license, passport).
   

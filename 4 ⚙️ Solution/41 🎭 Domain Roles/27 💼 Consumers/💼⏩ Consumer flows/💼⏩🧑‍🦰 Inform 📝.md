@@ -58,11 +58,11 @@ Forms:
 
 | # | Call | Description
 |-|-|-
-|1|[💼🐌🤵 `Query@Broker`](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Query.md>) | [Consumers 💼](<../💼🎭 Consumer role.md>) ask for [Schema Codes 🧩](<../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>)
+|1|[💼🐌🤵 `Query@Broker`](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Query.md>) | [Consumers 💼](<../💼🎭 Consumer role.md>) ask for [Schema Codes 🧩](<../../../30 Data/🧩 Schema Codes/🧩 Schema Code.md>)
 |2|[🤗⏩🧑‍🦰 Prompt 🤔](<../../30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) reject non-announced asks
 |3|[💼🐌🤵 `Inform@Broker`](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Inform.md>) | [Consumers 💼](<../💼🎭 Consumer role.md>) inform the upcoming form 
-|4|[👥🚀🕸 `Form@Graph`](<../../../45 🤲 Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Form.md>) | [Brokers 🤵](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) get the form [Schema Codes 🧩](<../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>)
+|4|[👥🚀🕸 `Form@Graph`](<../../../45 🤲 Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Form.md>) | [Brokers 🤵](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) get the form [Schema Codes 🧩](<../../../30 Data/🧩 Schema Codes/🧩 Schema Code.md>)
 |5|[🤗⏩🧑‍🦰 Prompt 🤔](<../../30 🤗 Hosts/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) inform the user on the steps
-|6|[💼🐌🤵 `Query@Broker`](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Query.md>) | [Consumers 💼](<../💼🎭 Consumer role.md>) ask for [Schema Codes 🧩](<../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>)
+|6|[💼🐌🤵 `Query@Broker`](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Query.md>) | [Consumers 💼](<../💼🎭 Consumer role.md>) ask for [Schema Codes 🧩](<../../../30 Data/🧩 Schema Codes/🧩 Schema Code.md>)
 |7|[🤵🐌🗄️ `Disclose@Broker`](<../../80 🗄️ Vaults/🗄️🅰️ Vault methods/🤵🐌🗄️ Disclose.md>) | [Brokers 🤵](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) ask [Vaults 🗄️](<../../80 🗄️ Vaults/🗄️🎭 Vault role.md>) to disclose
 |

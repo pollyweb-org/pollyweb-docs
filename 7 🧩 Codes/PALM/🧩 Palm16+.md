@@ -1,7 +1,7 @@
 
-# [🧩](<../../4 ⚙️ Solution/30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) [Schema Code](<../../4 ⚙️ Solution/30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>): Palm16+
+# [🧩](<../../4 ⚙️ Solution/30 Data/🧩 Schema Codes/🧩 Schema Code.md>) [Schema Code](<../../4 ⚙️ Solution/30 Data/🧩 Schema Codes/🧩 Schema Code.md>): Palm16+
 
-> Inherits from [`nlweb.org/TOKEN 🧩`](<../../4 ⚙️ Solution/30 Data/30 🎫 Tokens/🧩 Token schemas/🧩 TOKEN.md>)
+> Inherits from [`nlweb.org/TOKEN 🧩`](<../../4 ⚙️ Solution/30 Data/🎫 Tokens/🧩 Token schemas/🧩 TOKEN.md>)
 
 <br/>
 
