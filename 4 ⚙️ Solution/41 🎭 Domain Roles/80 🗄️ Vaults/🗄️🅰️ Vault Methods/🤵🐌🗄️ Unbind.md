@@ -28,6 +28,6 @@ Body:
 |Header| `From` | string | [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>)
 || `To` | string | [Vault 🗄️ domain](<../🗄️🎭 Vault role.md>)
 || `Subject` | string | `Unbind@Vault`
-|Body| `BindID`| uuid | [Bind 🔗](<../../../30 Data/2 🔗 Binds/🔗 Bind.md>) ID
+|Body| `BindID`| uuid | [Bind 🔗](<../../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) ID
 |
 
