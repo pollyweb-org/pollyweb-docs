@@ -16,7 +16,7 @@
     While [Padlocks 🔒](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>) can also be used to open doors, they differ from Relayers in a number of ways:
     * Proximity - Relayers are global, Padlocks are short range only;
     * Internet - Relayers need internet, Padlocks work offline;
-    * Identity - Relayers use [🆔 Identities](<../../50 🫥 Agent domains/Identities 🆔/$ 🆔🫥 Identity agent.md>), Padlocks are anonymous;
+    * Identity - Relayers use [🆔 Identities](<../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>), Padlocks are anonymous;
     * Userables - Relayers support [Userables 💍](<../../25 🔆 Locators/4 💍 Userables/💍💠 Userable thing.md>), Padlocks don't.
 
     ---

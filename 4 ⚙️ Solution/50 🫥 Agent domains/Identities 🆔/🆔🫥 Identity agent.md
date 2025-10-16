@@ -57,7 +57,7 @@
 1. **Can users with dual nationality bind to two Identity domains?**
 
     Yes. 
-    * Users with dual nationality may even have two or more bound [Identity 🆔 vault](<$ 🆔🫥 Identity agent.md>), one per nationality. 
+    * Users with dual nationality may even have two or more bound [Identity 🆔 vault](<🆔🫥 Identity agent.md>), one per nationality. 
 
     ---
     <br/>
@@ -65,7 +65,7 @@
 1. **What authentication mechanisms are supported by Wallets?**
 
     NLWeb natively supports key pairs (passkeys) and one time passwords (OTP). 
-    * However, [Identity 🆔 vault](<$ 🆔🫥 Identity agent.md>) are free to implement whatever authentication mechanisms they want using the generic tools available. 
+    * However, [Identity 🆔 vault](<🆔🫥 Identity agent.md>) are free to implement whatever authentication mechanisms they want using the generic tools available. 
     
     For example: 
     - security questions can be implemented with generic inputs (e.g., text, lists, numbers); 

@@ -116,7 +116,7 @@
     Nonetheless, [Curator 🧚 agents](<🧚🫥 Curator agent.md>) should thrive to follow a generic set of globally accepted ethical norms.
 
     - **Safety guardrails**: 
-        - protect the physical and mental safety of the human, leveraging their [Identity 🆔 vault](<../Identities 🆔/$ 🆔🫥 Identity agent.md>) to guardrail legal and cultural nuances.
+        - protect the physical and mental safety of the human, leveraging their [Identity 🆔 vault](<../Identities 🆔/🆔🫥 Identity agent.md>) to guardrail legal and cultural nuances.
         - e.g., when suggesting alcoholic beverages to an American user visiting Portugal, consider both the minimum drinking age on the current country (18 in Portugal) and in the user's nationality country (21 in the USA).
   
     - **Cognitive dissonance**: 
