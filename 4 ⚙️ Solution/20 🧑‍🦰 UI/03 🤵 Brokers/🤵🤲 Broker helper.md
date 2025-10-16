@@ -96,17 +96,17 @@
     | |[🤗🐌 Goodbye](<🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🤗🐌🤵 Goodbye.md>) | A [Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) ended the [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>)
     | | [👀🐌 Promote](<🤵🅰️ Broker methods/2 🤵🅰️ Locators/👀🐌🤵 Promote.md>) |  Check-in into the selected [Locator 🔆](<../../25 Locators/15 🔆 Locators/🔆 Locator.md>)
     | | [🧑‍🦰🐌 Help](<🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🧑‍🦰🐌🤵 Help.md>) | Ask for the [Broker 🤵](<🤵🤲 Broker helper.md>) to join a [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>) 
-    |[`🔗 Binds`](<../../30 Data/20 🔗 Binds/🔗 Bind.md>)| [🧑‍🦰🚀 Binds](<🤵🅰️ Broker methods/40 🤵🅰️ Binds 🔗/🧑‍🦰🚀🤵 Binds.md>) | List the [Binds 🔗](<../../30 Data/20 🔗 Binds/🔗 Bind.md>) of a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
-    || [🗄️🐌 Bindable](<🤵🅰️ Broker methods/40 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>) | [Vaults 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) offer to bind [Schema Codes 🧩](<../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>)
-    | [`🎫 Tokens`](<../../30 Data/30 🎫 Tokens/🎫 Token.md>) | [🧑‍🦰🚀 Tokens](<🤵🅰️ Broker methods/50 🤵🅰️ Tokens 🎫/🧑‍🦰🚀🤵 Tokens.md>) | List of [Tokens 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>) of a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
-    || [🎴🐌 Offer](<🤵🅰️ Broker methods/50 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>) | [Issuers 🎴](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) offer an issued [Token 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>) 
-    || [🧑‍🦰🐌 Saved](<🤵🅰️ Broker methods/50 🤵🅰️ Tokens 🎫/🧑‍🦰🐌🤵 Saved.md>) | A [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) saved a [Token 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>) locally
-    || [🎴🐌 Revise](<🤵🅰️ Broker methods/50 🤵🅰️ Tokens 🎫/🎴🐌🤵 Revise.md>) | Update the status of a [Token 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>)
-    | [`💼 Share`](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) | [💼🐌 Query](<🤵🅰️ Broker methods/60 🤵🅰️ Share/💼🐌🤵 Query.md>) | Return user [Binds 🔗](<../../30 Data/20 🔗 Binds/🔗 Bind.md>) and [Tokens 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>)
-    || [💼🚀 Status](<🤵🅰️ Broker methods/60 🤵🅰️ Share/💼🚀🤵 Status.md>) | Return the status of a [Token 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>)
+    |[`🔗 Binds`](<../../30 Data/20 🔗 Binds/🔗 Bind.md>)| [🧑‍🦰🚀 Binds](<🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🧑‍🦰🚀🤵 Binds.md>) | List the [Binds 🔗](<../../30 Data/20 🔗 Binds/🔗 Bind.md>) of a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    || [🗄️🐌 Bindable](<🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>) | [Vaults 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) offer to bind [Schema Codes 🧩](<../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>)
+    | [`🎫 Tokens`](<../../30 Data/30 🎫 Tokens/🎫 Token.md>) | [🧑‍🦰🚀 Tokens](<🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🧑‍🦰🚀🤵 Tokens.md>) | List of [Tokens 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>) of a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+    || [🎴🐌 Offer](<🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>) | [Issuers 🎴](<../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) offer an issued [Token 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>) 
+    || [🧑‍🦰🐌 Saved](<🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🧑‍🦰🐌🤵 Saved.md>) | A [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) saved a [Token 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>) locally
+    || [🎴🐌 Revise](<🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Revise.md>) | Update the status of a [Token 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>)
+    | [`💼 Share`](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) | [💼🐌 Query](<🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Query.md>) | Return user [Binds 🔗](<../../30 Data/20 🔗 Binds/🔗 Bind.md>) and [Tokens 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>)
+    || [💼🚀 Status](<🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🚀🤵 Status.md>) | Return the status of a [Token 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>)
 
     <!--
-    |Pay| [💵🐌🤵 Charge](<🤵🅰️ Broker methods/70 🤵🅰️ Pay/💵🐌🤵 Charge.md>)
+    |Pay| [💵🐌🤵 Charge](<🤵🅰️ Broker methods/7 🤵🅰️ Pay/💵🐌🤵 Charge.md>)
     -->
     
     ---
