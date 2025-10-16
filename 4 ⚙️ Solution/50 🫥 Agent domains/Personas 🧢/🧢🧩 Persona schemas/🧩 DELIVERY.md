@@ -33,15 +33,15 @@ Schema:
           Name of the person or organization waiting for the delivery.
 
       Country: 
-        $ref: Country@nlweb.org/PERSONA/ADDRESS:1.0
+        $ref: Country@nlweb.dom/PERSONA/ADDRESS:1.0
 
       Address:
-        $ref: Address@nlweb.org/PERSONA/ADDRESS:1.0
+        $ref: Address@nlweb.dom/PERSONA/ADDRESS:1.0
 
       Phones:
         type: array
         items:
-          $ref: nlweb.org/PERSONA/PHONE:1.0
+          $ref: nlweb.dom/PERSONA/PHONE:1.0
 
       Notes:
         type: string

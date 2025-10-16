@@ -3,7 +3,7 @@
 # 🇺🇳 ITU - International Telecommunication Union
 
 ```yaml
-🤝: nlweb.org/MANIFEST
+🤝: nlweb.dom/MANIFEST
 
 About:
   Domain: telcos.any-igo.dom

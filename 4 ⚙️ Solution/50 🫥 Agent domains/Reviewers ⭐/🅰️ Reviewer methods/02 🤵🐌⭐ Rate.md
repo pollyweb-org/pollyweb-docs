@@ -10,8 +10,8 @@
 
 | Property | Schema | Notes
 |-|-|-
-| ServiceID | nlweb.org/HOSTS/RATED
-| InteractionID | nlweb.org/HOSTS/RATED
+| ServiceID | nlweb.dom/HOSTS/RATED
+| InteractionID | nlweb.dom/HOSTS/RATED
 ||
 
 

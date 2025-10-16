@@ -3,7 +3,7 @@
 <!--# 💺🏛️ https://quip.com/pm6aAVZug6N2-->
 
 ```yaml
-🤝: nlweb.org/MANIFEST
+🤝: nlweb.dom/MANIFEST
 ```
 
 ```yaml

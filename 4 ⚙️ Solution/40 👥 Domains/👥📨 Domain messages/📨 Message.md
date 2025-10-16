@@ -21,11 +21,11 @@
 
     Messages from [domains 👥](<../👥 Domains/👥 Domain.md>) are sent in JSON envelopes similar to email messages. 
     
-    * The [Schema 🧩](<../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) is defined at [`nlweb.org/MSG 🧩`](<📨🧩 Message schemas/🧩 MSG.md>).
+    * The [Schema 🧩](<../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) is defined at [`nlweb.dom/MSG 🧩`](<📨🧩 Message schemas/🧩 MSG.md>).
     * Consider the the following example, converted from JSON to YAML for readability.
 
     ```yaml
-    🤝: nlweb.org/MSG:1.0
+    🤝: nlweb.dom/MSG:1.0
 
     Header:
         From: any-sender.com
@@ -46,7 +46,7 @@
 
 1. **What is contained in a domain message envelope?**
 
-    The following properties are a summary of the schema at [`nlweb.org/MSG 🧩`](<📨🧩 Message schemas/🧩 MSG.md>).
+    The following properties are a summary of the schema at [`nlweb.dom/MSG 🧩`](<📨🧩 Message schemas/🧩 MSG.md>).
 
     |Property| Description
     |-|-
@@ -68,7 +68,7 @@
 1. **How do receiver domains handle upgraded schema versions?**
 
     An NLWeb envelop contains a [Schema Code 🧩](<../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) that allows receivers to support multiple versions concurrently, handling incoming envelopes differently depending on its version;
-    - e.g., `🤝: nlweb.org/MSG:1.0`
+    - e.g., `🤝: nlweb.dom/MSG:1.0`
     - Envelopes with unsupported versions are discarded.
 
     ---
@@ -298,7 +298,7 @@
        * Domains get of the [Buffer ⏳ helper domain](<../../45 🤲 Helper domains/Buffers ⏳/⏳🤲 Buffer helper.md>) by calling the [Identity@Broker 🚀 request](<../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Identity.md>).
   
         ```yaml
-        🤝: nlweb.org/MANIFEST/ABOUT
+        🤝: nlweb.dom/MANIFEST/ABOUT
         About:
           Name: any-sender.com
           Feedback: any-buffer.dom
@@ -306,7 +306,7 @@
 
     * The feedback is sent via a [Buffer ⏳ helper domain](<../../45 🤲 Helper domains/Buffers ⏳/⏳🤲 Buffer helper.md>) defined by the sender's domain, using the [Feedback@Buffer 🐌 API message](<../../45 🤲 Helper domains/Buffers ⏳/⏳🅰️ Buffer methods/👥🐌⏳ Feedback.md>). 
         ```yaml
-        🤝: nlweb.org/MSG:1.0
+        🤝: nlweb.dom/MSG:1.0
         Header:
             From: any-receiver.com
             To: any-buffer.dom

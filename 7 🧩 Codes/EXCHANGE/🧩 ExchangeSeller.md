@@ -1,7 +1,7 @@
 
 # [🧩](<../../4 ⚙️ Solution/30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) [Schema Code](<../../4 ⚙️ Solution/30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>): ExchangeSeller
 ```yaml
-🤝: nlweb.org/MANIFEST/CODE
+🤝: nlweb.dom/MANIFEST/CODE
 
 Path: /EXCHANGE/SELLER
 Name: Seller
@@ -11,4 +11,4 @@ References:
   NLWEB: https://quip.com/aFtfA9e0CqQX/-ExchangeNLWEBorg
 
 Schema:
-  Inherits: nlweb.org/LOCATOR:1.0
+  Inherits: nlweb.dom/LOCATOR:1.0

@@ -1,9 +1,9 @@
 
 # BANK-VAULT
 ```yaml
-🤝: nlweb.org/MANIFEST/TRUST
+🤝: nlweb.dom/MANIFEST/TRUST
 
 Title: Placeholder bank.
-Query: nlweb.org/BANK/*
+Query: nlweb.dom/BANK/*
 Role: VAULT
 Domain: any-bank.org

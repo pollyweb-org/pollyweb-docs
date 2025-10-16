@@ -1,9 +1,9 @@
 
 # BANK-CONSUMER
 ```yaml
-🤝: nlweb.org/MANIFEST/TRUST
+🤝: nlweb.dom/MANIFEST/TRUST
 
 Title: Placeholder cash-machine
-Query: nlweb.org/BANK/*
+Query: nlweb.dom/BANK/*
 Role: CONSUMER
 Domain: atm.any-fintech.org

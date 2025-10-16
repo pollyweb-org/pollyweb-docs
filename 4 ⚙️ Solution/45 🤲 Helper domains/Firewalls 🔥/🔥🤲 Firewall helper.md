@@ -68,7 +68,7 @@
     * from the [Any Firewall 🔥 manifest](<../../../8 📜 Manifests/🌐 Backbone/📜 any-firewall.dom.md>).
 
     ```yaml
-    🤝: nlweb.org/MANIFEST
+    🤝: nlweb.dom/MANIFEST
 
     About:
       Domain: any-firewall.org

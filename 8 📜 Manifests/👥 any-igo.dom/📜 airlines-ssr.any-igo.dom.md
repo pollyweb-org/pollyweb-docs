@@ -3,7 +3,7 @@
 <!--# 💺🏛️ https://quip.com/FuTpA83cGJ3L-->
 
 ```yaml
-🤝: nlweb.org/MANIFEST
+🤝: nlweb.dom/MANIFEST
 
 About:
   Domain: airlines-ssr.any-igo.dom
@@ -51,7 +51,7 @@ Codes:
         
     Schemas:
       - Version: 1.0
-        Inherits: nlweb.org/TOKEN:1.0
+        Inherits: nlweb.dom/TOKEN:1.0
         Format: IsElectric, Size, NeedsAssistant, DateOfBirth
         Location: https://airlines.any-igo.dom/nlweb/schemas/SSR-WCHR.json
 ```

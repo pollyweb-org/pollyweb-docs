@@ -33,7 +33,7 @@ Schema:
 
       Read:
         format: string
-        example: nlweb.org/LOCALE/DIALCODE
+        example: nlweb.dom/LOCALE/DIALCODE
         description: Code structure to read from the source.
 
       Show: 

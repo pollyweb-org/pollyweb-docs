@@ -42,7 +42,7 @@ Body:
 
 ```yaml
 Version: 2.1
-Inherits: nlweb.org/CREDENTIAL:1
+Inherits: nlweb.dom/CREDENTIAL:1
 Location: https://iata.org/nlweb/schemas/SSR-WCHR.json
 Format: IsElectric, Size, NeedsAssistant, DateOfBirth
 ```

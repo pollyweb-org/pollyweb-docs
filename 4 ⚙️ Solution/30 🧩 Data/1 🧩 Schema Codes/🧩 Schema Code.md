@@ -5,7 +5,7 @@
 
     A [Schema Code 🧩](<🧩 Schema Code.md>) is a string 
     * formatted as `{authority}/{code}[:{version}]`
-    * e.g., `nlweb.org/HOST:1.0`
+    * e.g., `nlweb.dom/HOST:1.0`
     * that points to a public data schema
     * describing the structure of a sharable dataset.
 
@@ -46,9 +46,9 @@
     * of the [Authority 🏛️ domain](<../../45 🤲 Helper domains/Authorities 🏛️/🏛️🤲 Authority helper.md>) called `nlweb.com`. 
     
     For readability:
-    * given that `nlweb.org` schemas will be widely used, 
-    * a dot can be used as a prefix of `nlweb.org/`
-    * e.g., `.TOKEN` is the same as `nlweb.org/TOKEN:1.0`
+    * given that `nlweb.dom` schemas will be widely used, 
+    * a dot can be used as a prefix of `nlweb.dom/`
+    * e.g., `.TOKEN` is the same as `nlweb.dom/TOKEN:1.0`
   
     ---
     <br/>
@@ -143,10 +143,10 @@
     ---
     <br/>
 
-1. **Does nlweb.org define Schema Codes?**
+1. **Does nlweb.dom define Schema Codes?**
 
     Yes. 
-    - The NLWeb protocol is supported by a set of [Schema Codes 🧩](<🧩 Schema Code.md>) defined in the `nlweb.org` [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>). 
+    - The NLWeb protocol is supported by a set of [Schema Codes 🧩](<🧩 Schema Code.md>) defined in the `nlweb.dom` [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>). 
     
     - This high-level manifest includes the schema definition for all communications explicitly supported by the core NLWeb protocol, but also a set of auxiliary schemas used to implement various business use cases. 
 
@@ -156,7 +156,7 @@
 1. **Is the NLWeb Manifest a single point of failure?**
 
     No. 
-    - [Domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) don't need `nlweb.org` to be online to access its [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) (nor the one of any other [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>), for that matter).
+    - [Domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) don't need `nlweb.dom` to be online to access its [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) (nor the one of any other [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>), for that matter).
     - Instead, [domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) should rely on [Graph 🕸 helper domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) to look up schema definitions.
 
     ---
@@ -167,7 +167,7 @@
 
     Yes. 
     - NLWeb schemas are defined by [JSON Schema](https://json-schema.org/understanding-json-schema/reference) converted to YAML.
-    - Details are available at [`nlweb.org/MANIFEST/CODE` 🧩](<../../40 👥 Domains/👥📜 Domain Manifests/🧩 Manifest schemas/🧩 CODE.md>).
+    - Details are available at [`nlweb.dom/MANIFEST/CODE` 🧩](<../../40 👥 Domains/👥📜 Domain Manifests/🧩 Manifest schemas/🧩 CODE.md>).
   
 
     Consider the following example from [`standards.any-igo.dom` 📜](<../../../8 📜 Manifests/👥 any-igo.dom/📜 standards.any-igo.dom.md>).
@@ -230,14 +230,14 @@
     * it references [`.MANIFEST/ABOUT` 🧩](<../../40 👥 Domains/👥📜 Domain Manifests/🧩 Manifest schemas/🧩 ABOUT.md>)
         ```yaml
         About:
-          $ref: nlweb.org/MANIFEST/ABOUT:1.0
+          $ref: nlweb.dom/MANIFEST/ABOUT:1.0
         ```
     * and references [`.MANIFEST/TRUST` 🧩](<../../40 👥 Domains/👥📜 Domain Manifests/🧩 Manifest schemas/🧩 TRUST.md>).
         ```yaml
         Trusts:
         type: array
         items:
-          $ref: nlweb.org/MANIFEST/TRUST:1.0
+          $ref: nlweb.dom/MANIFEST/TRUST:1.0
         ```
     
     ---

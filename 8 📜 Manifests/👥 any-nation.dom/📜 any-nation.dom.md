@@ -2,7 +2,7 @@
 # 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): any-nation.dom
 
 ```yaml
-🤝: nlweb.org/MANIFEST
+🤝: nlweb.dom/MANIFEST
 
 About:
   Domain: any-nation.dom
@@ -35,7 +35,7 @@ Trusts:
       
 
   - Title: Allow domains to share profiles of citizens.
-    Query: nlweb.org/PERSONA
+    Query: nlweb.dom/PERSONA
     Domains: 
       - taxes.any-nation.dom  # Tax Service's
       - nations.any-igo.dom   # Any IGO

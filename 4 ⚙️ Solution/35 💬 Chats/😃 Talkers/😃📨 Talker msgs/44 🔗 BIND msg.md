@@ -98,13 +98,13 @@
 
 1. **What does the dot mean in a code?**
 
-    Given that the [Schema Codes 🧩](<../../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) defined by `nlweb.org` will be widely used, 
-    * [Talkers 😃](<../😃 Talker.md>) accept a dot as a prefix of `nlweb.org/`.
+    Given that the [Schema Codes 🧩](<../../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) defined by `nlweb.dom` will be widely used, 
+    * [Talkers 😃](<../😃 Talker.md>) accept a dot as a prefix of `nlweb.dom/`.
     * Consider the following equal examples.
 
         ```yaml
         BIND|.IDENTITY/OVER21
-        BIND|nlweb.org/IDENTITY/OVER21
+        BIND|nlweb.dom/IDENTITY/OVER21
         ```
 
     ---

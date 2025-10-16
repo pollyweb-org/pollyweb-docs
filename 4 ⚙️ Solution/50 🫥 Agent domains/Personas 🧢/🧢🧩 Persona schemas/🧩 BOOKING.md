@@ -29,19 +29,19 @@ Schema:
     properties:
 
       Name:
-        $ref: nlweb.org/PERSONA/NAME/SOCIAL
+        $ref: nlweb.dom/PERSONA/NAME/SOCIAL
 
       Pronouns:
-        $ref: nlweb.org/PERSONA/NAME/PRONOUNS
+        $ref: nlweb.dom/PERSONA/NAME/PRONOUNS
 
       Phones:
         type: array
         minItems: 1
         items:
-          $ref: nlweb.org/PERSONA/PHONE
+          $ref: nlweb.dom/PERSONA/PHONE
 
       Emails:
         type: array
         minItems: 1
         items:
-          type: nlweb.org/PERSONA/EMAIL
+          type: nlweb.dom/PERSONA/EMAIL

@@ -200,9 +200,9 @@
                 Title: Check-in
                 Details: <long optional description>
                 Steps:
-                - Input: SHARE|nlweb.org/IDENTITY/ID
+                - Input: SHARE|nlweb.dom/IDENTITY/ID
                     Purpose: your identity 🆔 shares your ID
-                - Input: SHARE|nlweb.org/CURATOR/FILTER
+                - Input: SHARE|nlweb.dom/CURATOR/FILTER
                     Purpose: your curator 🧚 sets the room 
                 - Input: CHARGE
                     Purpose: your payer 💳 pays the stay

@@ -1,7 +1,7 @@
 
 # [🧩](<../../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) [Schema Code](<../../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>): HostOrderSelf
 
-> Inherits from [`nlweb.org/TOKEN 🧩`](<../../../30 🧩 Data/3 🎫 Tokens/🧩 Token schemas/🧩 TOKEN.md>)
+> Inherits from [`nlweb.dom/TOKEN 🧩`](<../../../30 🧩 Data/3 🎫 Tokens/🧩 Token schemas/🧩 TOKEN.md>)
 
 <br/>
 
@@ -20,7 +20,7 @@ Translations:
 
 Schema:  
   Version: 1.0
-  Inherits: nlweb.org/TOKEN:1.0
+  Inherits: nlweb.dom/TOKEN:1.0
   
   Properties: 
     - Summary

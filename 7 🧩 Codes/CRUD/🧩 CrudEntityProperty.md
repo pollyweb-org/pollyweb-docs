@@ -45,7 +45,7 @@ Schema:
           - Tipically, a description of the field.
 
       External:
-        $ref: nlweb.org/CRUD/ENTITY/PROPERTY/EXTERNAL
+        $ref: nlweb.dom/CRUD/ENTITY/PROPERTY/EXTERNAL
 
       Format: 
         enum: [AMOUNT, CONFIRM, EMAIL, DIGITS, MANY, ONE, OTP, PHONE, TEXT]
@@ -63,7 +63,7 @@ Schema:
           - The conditional property must have format CONFIRM.
 
       Internal:
-        $ref: nlweb.org/CRUD/ENTITY/PROPERTY/INTERNAL
+        $ref: nlweb.dom/CRUD/ENTITY/PROPERTY/INTERNAL
 
       MaxLength:
         type: integer

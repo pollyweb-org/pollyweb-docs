@@ -74,7 +74,7 @@ Schema:
 
           Schema:
             type: string
-            default: nlweb.org/MSG:1.0
+            default: nlweb.dom/MSG:1.0
             description: >
               Code schema to validate the content of the body.
               Defined as <domain>/<code-path>:<schema-version>.

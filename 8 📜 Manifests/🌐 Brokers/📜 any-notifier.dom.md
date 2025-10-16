@@ -3,7 +3,7 @@
 <!-- 👱 https://quip.com/vTSSAUYt4OGo/-AnyWalletcom -->
 
 ```yaml
-🤝: nlweb.org/MANIFEST
+🤝: nlweb.dom/MANIFEST
 
 About:
   Domain: any-notifier.dom

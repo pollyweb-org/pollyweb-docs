@@ -3,7 +3,7 @@
 <!--# 🇺🇳 https://quip.com/PcpmA0e2TORI/-WHOint-->
 
 ```yaml
-🤝: nlweb.org/MANIFEST
+🤝: nlweb.dom/MANIFEST
 
 About:
   Domain: health.any-igo.dom
@@ -16,7 +16,7 @@ Codes:
   - Path: /DOSE
     Schemas:
       - Version: 1.0
-        Inherits: nlweb.org/TOKEN:1.0
+        Inherits: nlweb.dom/TOKEN:1.0
         Properties:
           - purpose   # ex. COVID
           - vaccine   # ex. Moderna
@@ -32,7 +32,7 @@ Codes:
   - Path: /TEST
     Schemas:
       - Version: 1.0
-        Inherits: nlweb.org/TOKEN:1.0
+        Inherits: nlweb.dom/TOKEN:1.0
         Properties:
           - purpose    # ex. COVID
           - type       # ex. PCR

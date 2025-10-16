@@ -3,7 +3,7 @@
 <!--# 🇪🇺 https://quip.com/bBbpAAGfOCIz/-Europaeu-->
 
 ```yaml
-🤝: nlweb.org/MANIFEST
+🤝: nlweb.dom/MANIFEST
 
 About:
   Domain: europa.eu
@@ -28,5 +28,5 @@ Trusts:
     Domain: ec.europa.eu
   
   # Delegate bank trusts to the European Central Bank.
-  - Query: nlweb.org/BANK/*
+  - Query: nlweb.dom/BANK/*
     Domain: ecb.europa.eu

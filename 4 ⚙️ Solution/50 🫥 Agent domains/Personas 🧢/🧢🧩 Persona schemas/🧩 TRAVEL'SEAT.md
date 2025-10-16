@@ -36,28 +36,28 @@ Schemas:
     type: object
     properties:
       FaceForward:
-        $ref: Rank@nlweb.org/TYPES
+        $ref: Rank@nlweb.dom/TYPES
       FaceBackwards:
-        $ref: Rank@nlweb.org/TYPES
+        $ref: Rank@nlweb.dom/TYPES
       WithTable:
-        $ref: Rank@nlweb.org/TYPES
+        $ref: Rank@nlweb.dom/TYPES
       WithoutTable:
-        $ref: Rank@nlweb.org/TYPES
+        $ref: Rank@nlweb.dom/TYPES
       AtWindow:
-        $ref: Rank@nlweb.org/TYPES
+        $ref: Rank@nlweb.dom/TYPES
       AtAisle:
-        $ref: Rank@nlweb.org/TYPES
+        $ref: Rank@nlweb.dom/TYPES
       AtMiddle:
-        $ref: Rank@nlweb.org/TYPES
+        $ref: Rank@nlweb.dom/TYPES
       AtFront:
-        $ref: Rank@nlweb.org/TYPES
+        $ref: Rank@nlweb.dom/TYPES
       AtBack:
-        $ref: Rank@nlweb.org/TYPES
+        $ref: Rank@nlweb.dom/TYPES
       OverWing:
-        $ref: Rank@nlweb.org/TYPES
+        $ref: Rank@nlweb.dom/TYPES
       NearToilets:
-        $ref: Rank@nlweb.org/TYPES
+        $ref: Rank@nlweb.dom/TYPES
       LongSeat:
-        $ref: Rank@nlweb.org/TYPES
+        $ref: Rank@nlweb.dom/TYPES
       WideSeat:
-        $ref: Rank@nlweb.org/TYPES
+        $ref: Rank@nlweb.dom/TYPES

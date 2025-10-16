@@ -3,7 +3,7 @@
 <!--# 🇪🇺 https://quip.com/bBbpAAGfOCIz/-Europaeu-->
 
 ```yaml
-🤝: nlweb.org/MANIFEST
+🤝: nlweb.dom/MANIFEST
 
 About:
   Domain: ecb.europa.eu
@@ -18,7 +18,7 @@ Trusts:
       
       
   # Allow bank operations between countries.
-  - Query: nlweb.org/BANK/*
+  - Query: nlweb.dom/BANK/*
     Domains: 
       
       # European Union countries

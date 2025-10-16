@@ -24,16 +24,16 @@ Schema:
     properties:
       
       About:
-        $ref: nlweb.org/CRUD/ENTITY/ABOUT
+        $ref: nlweb.dom/CRUD/ENTITY/ABOUT
 
       Properties:
         type: object
         additionalProperties:
-          $ref: nlweb.org/CRUD/ENTITY/PROPERTY
+          $ref: nlweb.dom/CRUD/ENTITY/PROPERTY
         description: List of properties in the entity.
 
       Exports:
         type: object
         additionalProperties:
-          $ref: nlweb.org/CRUD/ENTITY/EXPORT
+          $ref: nlweb.dom/CRUD/ENTITY/EXPORT
         description: List of codes exported by the entity.

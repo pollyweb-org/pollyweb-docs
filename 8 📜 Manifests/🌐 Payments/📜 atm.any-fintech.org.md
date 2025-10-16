@@ -2,7 +2,7 @@
 # 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): atm.any-fintech.org
 
 ```yaml
-🤝: nlweb.org/MANIFEST
+🤝: nlweb.dom/MANIFEST
 
 About:
   Domain: atm.any-fintech.org
@@ -11,8 +11,8 @@ About:
 
 Trusts:
 
-  - Query: nlweb.org/BANK/*
-    Domain: bank.nlweb.org
+  - Query: nlweb.dom/BANK/*
+    Domain: bank.nlweb.dom
 
-  - Query: nlweb.org/PERSONA/*
-    Domain: nlweb.org
+  - Query: nlweb.dom/PERSONA/*
+    Domain: nlweb.dom

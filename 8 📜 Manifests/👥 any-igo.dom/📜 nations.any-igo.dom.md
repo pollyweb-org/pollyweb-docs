@@ -3,7 +3,7 @@
 <!--# 🇺🇳 https://quip.com/OV9hAzKhb8Wf/-UNorg-->
 
 ```yaml
-🤝: nlweb.org/MANIFEST
+🤝: nlweb.dom/MANIFEST
 
 About:
   Domain: nations.any-igo.dom
@@ -19,10 +19,10 @@ Trusts:
 
   # Allow countries to share profiles of citizens.
   - Queries:
-      - nlweb.org/EXCHANGE
-      - nlweb.org/PAY
-      - nlweb.org/PERSONA      
-      - nlweb.org/STORAGE         
+      - nlweb.dom/EXCHANGE
+      - nlweb.dom/PAY
+      - nlweb.dom/PERSONA      
+      - nlweb.dom/STORAGE         
     Domains: 
       - europa.eu       # European Union
       - any-nation.dom  # Any Nation
