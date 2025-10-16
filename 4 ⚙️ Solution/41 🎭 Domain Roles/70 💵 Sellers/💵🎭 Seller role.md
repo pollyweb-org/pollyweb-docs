@@ -18,7 +18,7 @@
     | 2 | The user delegates the payment to their [Payer 💳 agent](<../../50 🫥 Agent domains/60 💳 Payers/04 💳🫥 Payer agent.md>).
     | 3 | The user's [Payer 💳 agent](<../../50 🫥 Agent domains/60 💳 Payers/04 💳🫥 Payer agent.md>) informs the Seller's [Collector 🏦 helper](<../../45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>) about the money transfer.
     | 4 | The Seller's [Collector 🏦 helper](<../../45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>) informs the Seller 💵 that the transaction is paid for.
-    | 5 | The [Collector 🏦](<../../45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>) issues a receipt to the user's [Payer 💳](<../../50 🫥 Agent domains/60 💳 Payers/04 💳🫥 Payer agent.md>), who may store it in the user's [Storage 📦 agent](<../../50 🫥 Agent domains/80 📦 Storage/$ 📦🫥 Storage agent.md>).
+    | 5 | The [Collector 🏦](<../../45 🤲 Helper domains/30 🏦 Collectors/$ 🏦🤲 Collector helper.md>) issues a receipt to the user's [Payer 💳](<../../50 🫥 Agent domains/60 💳 Payers/04 💳🫥 Payer agent.md>), who may store it in the user's [Storage 💾 agent](<../../50 🫥 Agent domains/80 💾 Storage/💾🫥 Storage agent.md>).
 
     ---
     

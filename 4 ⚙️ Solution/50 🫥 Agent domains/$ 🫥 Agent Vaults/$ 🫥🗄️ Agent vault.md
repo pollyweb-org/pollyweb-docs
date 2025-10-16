@@ -34,7 +34,7 @@
     |🧢| [Persona](<../70 🧢 Personas/🧢🫥 Persona agent.md>) | Facebook | Stores and shares user preferences and personally identifiable information (PII).
     |⭐| [Reviewer](<../73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) | TrustPilot | Collects and shares user feedback from [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) experiences.
     |🗓️| [Scheduler](<../75 🗓️ Schedulers/$ 🗓️🫥 Scheduler agent.md>) | Outlook | Monitors and manages the user's agenda.
-    |📦| [Storage](<../80 📦 Storage/$ 📦🫥 Storage agent.md>) | Dropbox | Stores user data for other [Vault 🗄️ domains](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>), for data residency compliance.
+    |💾| [Storage](<../80 💾 Storage/💾🫥 Storage agent.md>) | Dropbox | Stores user data for other [Vault 🗄️ domains](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>), for data residency compliance.
     |🕓| [Timeline](<../90 🕓 Timeline/$ 🕓🗄️ Timeline agent.md>) | G.Photos | Collects and fans out user-related events.
     |💖| [Vitalogist](<../95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | GoogleFit | Monitors the user's health events and provides feedback.
 
