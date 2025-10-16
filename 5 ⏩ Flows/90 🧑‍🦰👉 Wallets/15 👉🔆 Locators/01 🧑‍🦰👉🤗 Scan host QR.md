@@ -13,7 +13,7 @@
 | - | - | - |
 | | | 🔆 [scan](<../../../4 ⚙️ Solution/25 Locators/15 🔆 Locators/🔆 Locator.md>) |
 | 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Host (4.8 ⭐) [+]
-| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) | ⓘ [Tokens 🎫 ](<../../../4 ⚙️ Solution/30 Data/30 🎫 Tokens/🎫 Token.md>) shared [+]
+| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) | ⓘ [Tokens 🎫 ](<../../../4 ⚙️ Solution/30 Data/🎫 Tokens/🎫 Token.md>) shared [+]
 | 🤗 [Host](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | ℹ️ Any Locator details.
 | 🤗 [Host](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) | 😃 Hi! What do you need? <br/>- [ Something ] <br/>- [ Something else ] 
 ||

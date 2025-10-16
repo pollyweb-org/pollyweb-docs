@@ -32,7 +32,7 @@ Body:
 ||`Subject` | string | `Invite@Broker`
 |Body|`ChatID`   | uuid    | [Chat 💬](<../../../../35 Chats/💬 Chats/💬 Chat.md>) ID from [`Hello@Host`](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🅰️ Host methods/🤵🐌🤗 Hello.md>)
 ||`Helper`  | string  | Invitee [Helper 🤲 domain](<../../../../45 🤲 Helper domains/$ 🤲 Helpers/🤲👥 Helper domain.md>) name
-||`Code`     | string  | Related [Schema Code 🧩](<../../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>)
+||`Code`     | string  | Related [Schema Code 🧩](<../../../../30 Data/🧩 Schema Codes/🧩 Schema Code.md>)
 ||`ConsumerKey` | uuid    | Callback for [`Consume@Consumer`](<../../../../41 🎭 Domain Roles/27 💼 Consumers/💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>)
 ||`Parameters`| object   | Optional parameters for the invite
 |

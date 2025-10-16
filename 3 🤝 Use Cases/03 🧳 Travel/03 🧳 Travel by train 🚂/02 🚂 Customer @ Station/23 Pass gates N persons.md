@@ -5,7 +5,7 @@ Go through train station gates with a group ticket 🚂
 | - | - | - |
 | | | 🔆 [tap](<../../../../4 ⚙️ Solution/25 Locators/15 🔆 Locators/🔆 Locator.md>)
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/40 🔎 Finders/🔎🫥 Finder agent.md>) | ⓘ Any Railway (4.3 ⭐) [+]
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) | ⓘ Ticket [token 🎟️](<../../../../4 ⚙️ Solution/30 Data/30 🎫 Tokens/🎫 Token.md>) shared [+]
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) | ⓘ Ticket [token 🎟️](<../../../../4 ⚙️ Solution/30 Data/🎫 Tokens/🎫 Token.md>) shared [+]
 | 🚂 Railway | ℹ️ You're at north gate. 
 | 🚂 Railway | ℹ️ Ticket presented: <br/> - 2 travelers <br/>- from MAD T4 to MAD T2 
 | 🚂 Railway | 😃 Pass first person? [Yes, No] | > Yes

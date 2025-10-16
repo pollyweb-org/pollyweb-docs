@@ -1,5 +1,5 @@
 
-# [🧩](<../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) [Schema Code](<../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>): Alias
+# [🧩](<../../../30 Data/🧩 Schema Codes/🧩 Schema Code.md>) [Schema Code](<../../../30 Data/🧩 Schema Codes/🧩 Schema Code.md>): Alias
 
 > Referenced in [`Assess@Broker`](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🅰️ Broker methods/2 🤵🅰️ Locators/🧑‍🦰🐌🤵 Assess.md>).
 
@@ -11,7 +11,7 @@
 
 ## Definition
 
-> [🤝:](<../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) [`.MANIFEST/CODE`](<../../../40 👥 Domains/👥📜 Domain Manifests/🧩 Manifest schemas/🧩 CODE.md>)
+> [🤝:](<../../../30 Data/🧩 Schema Codes/🧩 Schema Code.md>) [`.MANIFEST/CODE`](<../../../40 👥 Domains/👥📜 Domain Manifests/🧩 Manifest schemas/🧩 CODE.md>)
 
 ```yaml
 Path: /ALIAS

@@ -1,6 +1,6 @@
 # 🤵⏩🗄️ Update Tokens @ Broker
 
-> The [Broker 🤵 domain](<../🤵🤲 Broker helper.md>) updates the list of [Tokens 🎫](<../../../30 Data/30 🎫 Tokens/🎫 Token.md>).
+> The [Broker 🤵 domain](<../🤵🤲 Broker helper.md>) updates the list of [Tokens 🎫](<../../../30 Data/🎫 Tokens/🎫 Token.md>).
 
 > Used in:
 > <br/>• [🎴⏩🧑‍🦰 Offer Token @ Issuer](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/02 🧑‍🦰👉🎴 Save token.md>) 
@@ -17,6 +17,6 @@
 
 | # | Call | Notes |
 |-|-|-
-| 1 | [🤵🐌📣 `Updated@Notifier`](<../../02 📣 Notifiers/🅰️ Notifier methods/1 🤵 Onboard/3 🤵🐌📣 Updated.md>)| [Brokers 🤵](<../🤵🤲 Broker helper.md>) tell [Notifiers 📣](<../../02 📣 Notifiers/📣 Notifier domain.md>) to update [Wallets 🧑‍🦰](<../../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
-| 2 | [🧑‍🦰🚀🤵 `Tokens@Broker`](<../🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🧑‍🦰🚀🤵 Tokens.md>) | [Wallets 🧑‍🦰](<../../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) get [Tokens 🎫](<../../../30 Data/30 🎫 Tokens/🎫 Token.md>) from [Brokers 🤵](<../🤵🤲 Broker helper.md>)
+| 1 | [🤵🐌📣 `Updated@Notifier`](<../../02 📣 Notifiers/📣🅰️ Notifier methods/1 🤵 Onboard/3 🤵🐌📣 Updated.md>)| [Brokers 🤵](<../🤵🤲 Broker helper.md>) tell [Notifiers 📣](<../../02 📣 Notifiers/📣👥 Notifier domain.md>) to update [Wallets 🧑‍🦰](<../../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+| 2 | [🧑‍🦰🚀🤵 `Tokens@Broker`](<../🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🧑‍🦰🚀🤵 Tokens.md>) | [Wallets 🧑‍🦰](<../../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) get [Tokens 🎫](<../../../30 Data/🎫 Tokens/🎫 Token.md>) from [Brokers 🤵](<../🤵🤲 Broker helper.md>)
 ||

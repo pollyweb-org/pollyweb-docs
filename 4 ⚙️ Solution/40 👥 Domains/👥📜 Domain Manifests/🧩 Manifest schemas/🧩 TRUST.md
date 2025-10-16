@@ -1,5 +1,5 @@
 
-# [🧩](<../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) [`.MANIFEST`](<🧩 MANIFEST.md>) `/TRUST`
+# [🧩](<../../../30 Data/🧩 Schema Codes/🧩 Schema Code.md>) [`.MANIFEST`](<🧩 MANIFEST.md>) `/TRUST`
 
 > Part of [`.MANIFEST` 🧩](<🧩 MANIFEST.md>)
 
@@ -16,7 +16,7 @@
 | `Expires`        | string | Date limit  in UTC timestamp | `2024-01-10`
 | `Domain` | string | [Domain 👥](<../../👥 Domains/👥 Domain.md>) to [Trust 👍](<../../👥👍 Domain Trusts/👍 Domain Trust.md>) <br/>- defaults to `*` | `*` `nlweb.org` 
 | or `Domains` | array | Additional list of domains  | `[a.co, b.co]`
-| `Query`  | string | [Schema Codes 🧩](<../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) to [Trust 👍](<../../👥👍 Domain Trusts/👍 Domain Trust.md>) | `*` `/PERSONA/*`
+| `Query`  | string | [Schema Codes 🧩](<../../../30 Data/🧩 Schema Codes/🧩 Schema Code.md>) to [Trust 👍](<../../👥👍 Domain Trusts/👍 Domain Trust.md>) | `*` `/PERSONA/*`
 | or `Queries`  | array | Additional list of queries | `[*]`
 | `Role`     | enum | Role of domains to [Trust 👍](<../../👥👍 Domain Trusts/👍 Domain Trust.md>) <br/>- `VAULT` `CONSUMER`  <br/>- defaults to `*` | `*` `VAULT`
 | or `Roles`     | array | Additional list of roles | `[*]`
@@ -44,7 +44,7 @@
 || `INHERIT` | Inherits all revokes from a [Firewall 🔥 domain](<../../../45 🤲 Helper domains/40 🔥 Firewalls/🔥🤲 Firewall helper.md>).
 |
   
-* Note: When a [Schema Code 🧩](<../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) is removed from [`.MANIFEST/TRUSTS`](<🧩 TRUST.md>), 
+* Note: When a [Schema Code 🧩](<../../../30 Data/🧩 Schema Codes/🧩 Schema Code.md>) is removed from [`.MANIFEST/TRUSTS`](<🧩 TRUST.md>), 
     * domains should explicitly inform the `REVOKE`;
     * otherwise, it might not be propagated by [Graph 🕸 domains](<../../../45 🤲 Helper domains/50 🕸 Graphs/🕸🤲 Graph helper.md>).
 

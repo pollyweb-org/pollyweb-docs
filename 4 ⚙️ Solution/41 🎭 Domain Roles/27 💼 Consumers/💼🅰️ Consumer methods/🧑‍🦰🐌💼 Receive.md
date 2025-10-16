@@ -2,10 +2,10 @@
 
 
 > Part of the [💼⏩🧑‍🦰 Share Token @ Consumer](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token 🎫.md>) flow:
-> <br/>• succeeds [`Share@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/4 🎫 Tokens/2 🤵🐌📣 Share.md>)
+> <br/>• succeeds [`Share@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/📣🅰️ Notifier methods/4 🎫 Tokens/2 🤵🐌📣 Share.md>)
 
 
-* [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) send [Tokens 🎫](<../../../30 Data/30 🎫 Tokens/🎫 Token.md>) to a [Consumer 💼 domain](<../💼🎭 Consumer role.md>).
+* [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) send [Tokens 🎫](<../../../30 Data/🎫 Tokens/🎫 Token.md>) to a [Consumer 💼 domain](<../💼🎭 Consumer role.md>).
 
 
 
@@ -30,13 +30,13 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header| `From`    | string | `Anonymous`
-| | `To`| string | [Consumer 💼](<../💼🎭 Consumer role.md>) from [`Share@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/4 🎫 Tokens/2 🤵🐌📣 Share.md>)
+| | `To`| string | [Consumer 💼](<../💼🎭 Consumer role.md>) from [`Share@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/📣🅰️ Notifier methods/4 🎫 Tokens/2 🤵🐌📣 Share.md>)
 | | `Subject`| string | `Receive@Consumer`
-| Body | `ChatID` | string | [Chat 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>) ID from [`Share@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/4 🎫 Tokens/2 🤵🐌📣 Share.md>)
+| Body | `ChatID` | string | [Chat 💬](<../../../35 Chats/💬 Chats/💬 Chat.md>) ID from [`Share@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/📣🅰️ Notifier methods/4 🎫 Tokens/2 🤵🐌📣 Share.md>)
 | | `Tokens`  | array | List of `Token` objects
-| Token |  `Issuer` | string | [Issuer 🎴](<../../40 🎴 Issuers/🎴🎭 Issuer role.md>) from [`Save@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
-| | `TokenID`| string | [Token 🎫](<../../../30 Data/30 🎫 Tokens/🎫 Token.md>) ID from [`Save@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
-| | ... | ... | Other [Token 🎫](<../../../30 Data/30 🎫 Tokens/🎫 Token.md>) fields
+| Token |  `Issuer` | string | [Issuer 🎴](<../../40 🎴 Issuers/🎴🎭 Issuer role.md>) from [`Save@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/📣🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
+| | `TokenID`| string | [Token 🎫](<../../../30 Data/🎫 Tokens/🎫 Token.md>) ID from [`Save@Notifier`](<../../../20 🧑‍🦰 UI/02 📣 Notifiers/📣🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
+| | ... | ... | Other [Token 🎫](<../../../30 Data/🎫 Tokens/🎫 Token.md>) fields
 |
 
 
@@ -44,7 +44,7 @@ Body:
 
 1. **What's in the list of Tokens?**
 
-    The list of [Tokens 🎫](<../../../30 Data/30 🎫 Tokens/🎫 Token.md>) contains:
+    The list of [Tokens 🎫](<../../../30 Data/🎫 Tokens/🎫 Token.md>) contains:
     * the content from the response of [`Issued@Issuer`](<../../40 🎴 Issuers/🎴🅰️ Issuer methods/🧑‍🦰🚀🎴 Issued.md>)
     * stored in local files during [`Saved@Broker`](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🧑‍🦰🐌🤵 Saved.md>).
 

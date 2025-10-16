@@ -16,7 +16,7 @@
 
     |#|Category|Step
     |-|-|-
-    |1| `Hello`| The [user's Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) checks-in into a [Host 🤗 domain](<🤗🎭 Host role.md>), passing it context parameters, [Binds 🔗](<../../30 Data/20 🔗 Binds/🔗 Bind.md>), and [Tokens 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>).
+    |1| `Hello`| The [user's Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) checks-in into a [Host 🤗 domain](<🤗🎭 Host role.md>), passing it context parameters, [Binds 🔗](<../../30 Data/🔗 Binds/🔗 Bind.md>), and [Tokens 🎫](<../../30 Data/🎫 Tokens/🎫 Token.md>).
     |2| `Chat` | The [Host 🤗 domain](<🤗🎭 Host role.md>) sets a new [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>) context.
     |3| `Interact` | The [Host 🤗 domain](<🤗🎭 Host role.md>) starts interacting with prompts.
 
@@ -57,9 +57,9 @@
     - these [Broker 🤵 domains](<../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) are responsible for orchestrating [Chats 💬](<../../35 Chats/💬 Chats/💬 Chat.md>) between users and [Host 🤗 domains](<🤗🎭 Host role.md>) using the NLWeb protocol, 
     - and they are typically implemented by a main cloud provider that is able to ensure high availability and low latency communication between globally dispersed entities. 
     
-    The [user's Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) then sends the message to a [user's Notifier 📣 domain](<../../20 🧑‍🦰 UI/02 📣 Notifiers/📣 Notifier domain.md>), also via HTTPS POST:
-    - the [user's Notifier 📣 domain](<../../20 🧑‍🦰 UI/02 📣 Notifiers/📣 Notifier domain.md>) is responsible for pushing the message to the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) via whatever real-time mechanisms the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) supports (e.g., web sockets, MQTT);
-    - because of this technical dependency, a [Notifier 📣 domain](<../../20 🧑‍🦰 UI/02 📣 Notifiers/📣 Notifier domain.md>) is typically implemented by the same team that implemented the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
+    The [user's Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) then sends the message to a [user's Notifier 📣 domain](<../../20 🧑‍🦰 UI/02 📣 Notifiers/📣👥 Notifier domain.md>), also via HTTPS POST:
+    - the [user's Notifier 📣 domain](<../../20 🧑‍🦰 UI/02 📣 Notifiers/📣👥 Notifier domain.md>) is responsible for pushing the message to the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) via whatever real-time mechanisms the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) supports (e.g., web sockets, MQTT);
+    - because of this technical dependency, a [Notifier 📣 domain](<../../20 🧑‍🦰 UI/02 📣 Notifiers/📣👥 Notifier domain.md>) is typically implemented by the same team that implemented the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
 
     ---
     <br/>
@@ -69,11 +69,11 @@
 
     Not applicable - [Host 🤗 domains](<🤗🎭 Host role.md>) don't send [Messages 📨](<../../40 👥 Domains/👥📨 Domain Messages/📨 Message.md>) to [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>). 
 
-    * [Host 🤗 domains](<🤗🎭 Host role.md>) only send asynchronous HTTPS intents to the [user's Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>), who then sends it to the [user's Notifier 📣 domain](<../../20 🧑‍🦰 UI/02 📣 Notifiers/📣 Notifier domain.md>) also via asynchronous HTTPS. 
+    * [Host 🤗 domains](<🤗🎭 Host role.md>) only send asynchronous HTTPS intents to the [user's Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>), who then sends it to the [user's Notifier 📣 domain](<../../20 🧑‍🦰 UI/02 📣 Notifiers/📣👥 Notifier domain.md>) also via asynchronous HTTPS. 
 
-    * When the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) app receives the intent from the [Notifier 📣 domain](<../../20 🧑‍🦰 UI/02 📣 Notifiers/📣 Notifier domain.md>), it pulls the [Message 📨](<../../40 👥 Domains/👥📨 Domain Messages/📨 Message.md>) content directly from the [Host 🤗 domain](<🤗🎭 Host role.md>) with a synchronous HTTPS call. 
+    * When the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) app receives the intent from the [Notifier 📣 domain](<../../20 🧑‍🦰 UI/02 📣 Notifiers/📣👥 Notifier domain.md>), it pulls the [Message 📨](<../../40 👥 Domains/👥📨 Domain Messages/📨 Message.md>) content directly from the [Host 🤗 domain](<🤗🎭 Host role.md>) with a synchronous HTTPS call. 
 
-    * This keeps the [Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) and the [Notifier 📣 domain](<../../20 🧑‍🦰 UI/02 📣 Notifiers/📣 Notifier domain.md>) in the dark regarding the content of the [Message 📨](<../../40 👥 Domains/👥📨 Domain Messages/📨 Message.md>) (even in the event of a cryptography attack) because no content actually passes by these proxy services.
+    * This keeps the [Broker 🤵 domain](<../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🤲 Broker helper.md>) and the [Notifier 📣 domain](<../../20 🧑‍🦰 UI/02 📣 Notifiers/📣👥 Notifier domain.md>) in the dark regarding the content of the [Message 📨](<../../40 👥 Domains/👥📨 Domain Messages/📨 Message.md>) (even in the event of a cryptography attack) because no content actually passes by these proxy services.
 
     ---
     <br/>

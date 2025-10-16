@@ -6,7 +6,7 @@
 
 # 🤵🐌📣 Updated @ Notifier
 
-> The Broker domain tells the [Notifier 📣 domain](<../../📣 Notifier domain.md>) that there was an update and they need to refresh the user experience.
+> The Broker domain tells the [Notifier 📣 domain](<../../📣👥 Notifier domain.md>) that there was an update and they need to refresh the user experience.
 
 > Used in:
 > <br/>• [🤵⏩🧑‍🦰 Update Binds 🔗](<../../../03 🤵 Brokers/🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Binds 🔗.md>)
@@ -30,7 +30,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 |Header|`From`|string | [Broker 🤵 domain](<../../../03 🤵 Brokers/🤵🤲 Broker helper.md>) name
-||`To`|string| [Notifier 📣](<../../📣 Notifier domain.md>) from [`Onboard@Broker`](<../../../03 🤵 Brokers/🤵🅰️ Broker methods/1 🤵🅰️ Wallets 🧑‍🦰/📣🚀🤵 Onboard.md>)
+||`To`|string| [Notifier 📣](<../../📣👥 Notifier domain.md>) from [`Onboard@Broker`](<../../../03 🤵 Brokers/🤵🅰️ Broker methods/1 🤵🅰️ Wallets 🧑‍🦰/📣🚀🤵 Onboard.md>)
 ||`Subject`|string|`Updated@Notifier`
 |Body  |`WalletID` |uuid  | [Wallet 🧑‍🦰](<../../../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) ID from [`Onboard@Broker`](<../../../03 🤵 Brokers/🤵🅰️ Broker methods/1 🤵🅰️ Wallets 🧑‍🦰/📣🚀🤵 Onboard.md>)
 |      |`Updates`   |enum  | `CHATS` `BINDS` `TOKENS`

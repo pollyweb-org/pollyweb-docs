@@ -35,9 +35,9 @@ Body:
 |       | `To`      | string | [Graph 🕸 domain](<../🕸🤲 Graph helper.md>) name
 |       | `Subject` | string | `Queryable@Graph`
 | Body  | `Consumer`| string | [Consumer 💼 domain](<../../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) name
-|       | `Binds`   | object[]   | List of [Bind 🔗](<../../../30 Data/20 🔗 Binds/🔗 Bind.md>) objects
+|       | `Binds`   | object[]   | List of [Bind 🔗](<../../../30 Data/🔗 Binds/🔗 Bind.md>) objects
 | Bind  | `Vault`   | string | The [Vault 🗄️ domain](<../../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) name to assess
-|       | `Code`    | string | The [Schema Code 🧩](<../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) to assess
+|       | `Code`    | string | The [Schema Code 🧩](<../../../30 Data/🧩 Schema Codes/🧩 Schema Code.md>) to assess
 |
 
 <br/>
@@ -55,9 +55,9 @@ Binds:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Top    | `Binds`   | list      | List of queryable [Binds 🔗](<../../../30 Data/20 🔗 Binds/🔗 Bind.md>)
+|Top    | `Binds`   | list      | List of queryable [Binds 🔗](<../../../30 Data/🔗 Binds/🔗 Bind.md>)
 |Bind   | `Vault`   | string    | Queryable [Vault 🗄️ domain](<../../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) name
-|       | `Code`    | string    | Queryable [Schema Code 🧩](<../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>)
+|       | `Code`    | string    | Queryable [Schema Code 🧩](<../../../30 Data/🧩 Schema Codes/🧩 Schema Code.md>)
 |       | `Paths`   | string[][]| The chain of [Trusts 👍](<../../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>)
 |
 

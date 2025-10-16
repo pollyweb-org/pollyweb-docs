@@ -2,7 +2,7 @@
 
 # 🧑‍🦰🚀🤵 Binds @ Broker
 
-> List the [Binds 🔗](<../../../../30 Data/20 🔗 Binds/🔗 Bind.md>) of a [Wallet 🧑‍🦰 app](<../../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
+> List the [Binds 🔗](<../../../../30 Data/🔗 Binds/🔗 Bind.md>) of a [Wallet 🧑‍🦰 app](<../../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
 
 > Used in:
 > <br/> • [🧑‍🦰👉🤵 Translate](<../../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/10 👉🤵 Set-up/12 🧑‍🦰👉🤵 Translate.md>)
@@ -23,8 +23,8 @@ Body:
 
 | Object | Property | Type  | Description
 |-|-|-|-
-| Header    | `From`| uuid  | [Wallet 🧑‍🦰](<../../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)  from [`Onboard@Notifier`](<../../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
-|           | `To`  | string| [Broker 🤵](<../../🤵🤲 Broker helper.md>) from [`Onboard@Notifier`](<../../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
+| Header    | `From`| uuid  | [Wallet 🧑‍🦰](<../../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)  from [`Onboard@Notifier`](<../../../02 📣 Notifiers/📣🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
+|           | `To`  | string| [Broker 🤵](<../../🤵🤲 Broker helper.md>) from [`Onboard@Notifier`](<../../../02 📣 Notifiers/📣🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
 |           | `Subject`| string|  `Binds@Broker`
 |
 
@@ -45,9 +45,9 @@ Binds:
 | Object | Property | Type  | Description
 |-|-|-|-
 | Top      | `Binds`| list  | List of Bind objects
-| Bind     | `BindID`   | uuid  | [Bind 🔗](<../../../../30 Data/20 🔗 Binds/🔗 Bind.md>) ID
+| Bind     | `BindID`   | uuid  | [Bind 🔗](<../../../../30 Data/🔗 Binds/🔗 Bind.md>) ID
 |          | `Vault`    | string| [Vault 🗄️ domain](<../../../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) name
 |          | `VaultTitle`| string| [Vault 🗄️ domain](<../../../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) title
-|          | `Code`     | string| [Schema Code 🧩](<../../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>)
-|          | `CodeTitle`| string| [Schema Code 🧩](<../../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) title
+|          | `Code`     | string| [Schema Code 🧩](<../../../../30 Data/🧩 Schema Codes/🧩 Schema Code.md>)
+|          | `CodeTitle`| string| [Schema Code 🧩](<../../../../30 Data/🧩 Schema Codes/🧩 Schema Code.md>) title
 |

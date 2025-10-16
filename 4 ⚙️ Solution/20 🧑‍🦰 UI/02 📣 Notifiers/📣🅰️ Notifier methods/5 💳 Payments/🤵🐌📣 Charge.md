@@ -5,7 +5,7 @@
 <!-- Test: -->
 
 
-# 🤵🐌📣 Charge @ [Notifier](<../../📣 Notifier domain.md>)
+# 🤵🐌📣 Charge @ [Notifier](<../../📣👥 Notifier domain.md>)
 
 
 > Used in [💵⏩🧑‍🦰 Charge](<../../../../41 🎭 Domain Roles/70 💵 Sellers/💵⏩ Seller flows/💵⏩🧑‍🦰 Charge.md>)

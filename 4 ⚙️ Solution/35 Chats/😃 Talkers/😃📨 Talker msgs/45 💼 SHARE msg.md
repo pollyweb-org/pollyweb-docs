@@ -8,7 +8,7 @@
 
     A `SHARE`
     * is a message [Command ⌘](<../😃🌊 Talker flow/10 ⌘ Command.md>) 
-    * that asks for user data in [Schema Codes 🧩](<../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>)
+    * that asks for user data in [Schema Codes 🧩](<../../../30 Data/🧩 Schema Codes/🧩 Schema Code.md>)
     * triggering the following flows:
       * [🧑‍🦰👉💼 Share Bind @ Wallet](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>)
       * [🧑‍🦰👉💼 Share Token @ Wallet](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token 🎫.md>)
@@ -41,7 +41,7 @@
    
     | Argument| Purpose
     |-|-
-    | `<code-n>`  | [Schema Codes 🧩](<../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) for [`Query@Broker`](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Query.md>) <br/>For readability, a dot replaces `nlweb.org/`
+    | `<code-n>`  | [Schema Codes 🧩](<../../../30 Data/🧩 Schema Codes/🧩 Schema Code.md>) for [`Query@Broker`](<../../../20 🧑‍🦰 UI/03 🤵 Brokers/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Query.md>) <br/>For readability, a dot replaces `nlweb.org/`
     | `{context}`| Object with context, when applicable.
     | `$shared`| An object returned by [`Collect@Vault`](<../../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🅰️ Vault methods/💼🚀🗄️ Collect.md>).<br/> Or a Token list from [`Receive@Consumer`](<../../../41 🎭 Domain Roles/27 💼 Consumers/💼🅰️ Consumer methods/🧑‍🦰🐌💼 Receive.md>).
 
@@ -51,7 +51,7 @@
 
 1. **What does the dot mean in a code?**
 
-    Given that the [Schema Codes 🧩](<../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) defined by `nlweb.org` will be widely used, 
+    Given that the [Schema Codes 🧩](<../../../30 Data/🧩 Schema Codes/🧩 Schema Code.md>) defined by `nlweb.org` will be widely used, 
     * [Talkers 😃](<../😃 Talker.md>) accept a dot as a prefix of `nlweb.org/`.
     * Consider the following equal examples.
 
@@ -88,7 +88,7 @@
 
     The structure of the shared data is as follows.
    
-    | Data | [Schema Code 🧩](<../../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>)
+    | Data | [Schema Code 🧩](<../../../30 Data/🧩 Schema Codes/🧩 Schema Code.md>)
     |-|-
     | Social Name |  [`nlweb.org/PERSONA/NAME/SOCIAL` 🧩](<../../../50 🫥 Agent domains/70 🧢 Personas/🧢🧩 Persona schemas/🧩 NAME'SOCIAL.md>)
    
