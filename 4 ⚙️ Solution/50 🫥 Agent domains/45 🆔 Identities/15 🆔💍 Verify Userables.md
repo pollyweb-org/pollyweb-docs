@@ -10,7 +10,7 @@
 
     Yes. 
     * A [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) owned by person `A` can authenticate a person `B` in a [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>) when the [Chat's Host 🤗 domain](<../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) invites the [Identity 🆔 vault](<$ 🆔🫥 Identity agent.md>) of person `B` into the [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>).
-    * This is particularly useful when working with [Userable 💍 things](<../../25 Locators/74 💍 Userables/$ 💍 Userable thing.md>) where the owner's identity needs to be confirmed on [payments 🤝 scenarios](<../../25 Locators/74 💍 Userables/💍⏩ Userable flows/21 💍💳 Userable pay salesperson.md>) and [item recovery 🤝 scenarios](<../../25 Locators/74 💍 Userables/💍⏩ Userable flows/13 💍📱 Userable senior user.md>) via another [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
+    * This is particularly useful when working with [Userable 💍 things](<../../25 Locators/74 💍 Userables/💍💠 Userable thing.md>) where the owner's identity needs to be confirmed on [payments 🤝 scenarios](<../../25 Locators/74 💍 Userables/💍⏩ Userable flows/21 💍💳 Userable pay salesperson.md>) and [item recovery 🤝 scenarios](<../../25 Locators/74 💍 Userables/💍⏩ Userable flows/13 💍📱 Userable senior user.md>) via another [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
 
     ---
     <br/>
