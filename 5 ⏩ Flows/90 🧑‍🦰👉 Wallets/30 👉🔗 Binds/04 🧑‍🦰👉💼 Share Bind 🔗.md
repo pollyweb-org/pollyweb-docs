@@ -1,6 +1,6 @@
 # 💼⏩🧑‍🦰 Query a Vault @ Consumer
 
-> In a [Chat 💬](<../../../4 ⚙️ Solution/35 Chats/12 💬 Chats/💬 Chat.md>), a [Consumer 💼 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>)  can query user data.
+> In a [Chat 💬](<../../../4 ⚙️ Solution/35 Chats/💬 Chats/💬 Chat.md>), a [Consumer 💼 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>)  can query user data.
 
 > Implements the [Consumer 💼 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>).
 

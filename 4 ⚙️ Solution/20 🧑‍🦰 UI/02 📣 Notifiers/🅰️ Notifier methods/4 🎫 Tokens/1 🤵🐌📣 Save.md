@@ -29,7 +29,7 @@ Body:
 ||`To`|string| [Notifier 📣 domain](<../../📣 Notifier domain.md>) name
 ||`Subject`|string|`Save@Notifier`
 |Body  |`WalletID`| uuid | [Wallet 🧑‍🦰](<../../../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) ID from [`Onboard@Notifier`](<../1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
-|| `ChatID` | string | [Chat 💬](<../../../../35 Chats/12 💬 Chats/💬 Chat.md>) ID from [`Offer@Broker`](<../../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/50 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
+|| `ChatID` | string | [Chat 💬](<../../../../35 Chats/💬 Chats/💬 Chat.md>) ID from [`Offer@Broker`](<../../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/50 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
 | | `Issuer`| string | [Issuer 🎴](<../../../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) from [`Offer@Broker`](<../../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/50 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
 | | `TokenID`| string | [Token 🎫](<../../../../30 Data/30 🎫 Tokens/🎫 Token.md>) ID from [`Offer@Broker`](<../../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🅰️ Broker methods/50 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
 | 

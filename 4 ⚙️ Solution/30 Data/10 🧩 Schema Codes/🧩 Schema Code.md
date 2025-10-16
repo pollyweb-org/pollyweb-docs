@@ -20,8 +20,8 @@
     |-|-
     | [`.MSG` 🧩](<../../40 👥 Domains/👥📨 Domain Messages/📨🧩 Message schemas/🧩 MSG.md>) | Schema of [Messages 📨](<../../40 👥 Domains/👥📨 Domain Messages/📨 Message.md>) 
     | [`.TOKEN` 🧩](<../30 🎫 Tokens/🧩 Token schemas/🧩 TOKEN.md>) | Schema of [Tokens 🎫](<../30 🎫 Tokens/🎫 Token.md>)
-    | [`unicode.org/FLAG` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 unicode.any-igo.org.md>) | Flags for country [Prompts 🤔](<../../35 Chats/20 🤔 Prompts/🤔 Prompt.md>)
-    | [`locale.org/TERRITORY` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 locale.any-igo.org.md>) | Country names for [Prompts 🤔](<../../35 Chats/20 🤔 Prompts/🤔 Prompt.md>)
+    | [`unicode.org/FLAG` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 unicode.any-igo.org.md>) | Flags for country [Prompts 🤔](<../../35 Chats/🤔 Prompts/🤔 Prompt.md>)
+    | [`locale.org/TERRITORY` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 locale.any-igo.org.md>) | Country names for [Prompts 🤔](<../../35 Chats/🤔 Prompts/🤔 Prompt.md>)
     | [`standards.org/639-1` 🧩](<../../../8 📜 Manifests/👥 any-igo.org/📜 standards.any-igo.org.md>) | Language codes (e.g., `en-us`)
 
     ---

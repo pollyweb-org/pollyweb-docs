@@ -10,7 +10,7 @@
 
     Users can tell their [Custodian 🧳 agents](<../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>) which [Tokens 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>) should be available on their [Userable 💍 things](<$ 💍 Userable thing.md>) for automatic sharing on request. 
     
-    - When a [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) asks for expected [Tokens 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>) of a given [Schema Code 🧩](<../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) (e.g., an airport gate expects passport [Tokens 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>)), the [Custodian 🧳 agent](<../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>) can immediately share it without having to be in the context of a [Chat 💬](<../../35 Chats/12 💬 Chats/💬 Chat.md>). 
+    - When a [Consumer 💼 domain](<../../41 🎭 Domain Roles/27 💼 Consumers/💼🎭 Consumer role.md>) asks for expected [Tokens 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>) of a given [Schema Code 🧩](<../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) (e.g., an airport gate expects passport [Tokens 🎫](<../../30 Data/30 🎫 Tokens/🎫 Token.md>)), the [Custodian 🧳 agent](<../../50 🫥 Agent domains/35 🧳 Custodians/$ 🧳🫥 Custodian agent.md>) can immediately share it without having to be in the context of a [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>). 
 
     ---
     <br/>

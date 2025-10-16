@@ -52,7 +52,7 @@
 1. **Can users ask Vaults to share data with other Hosts?**
 
     Yes. 
-    - Upon a share request with the [Consumer 💼 host](<../27 💼 Consumers/💼🎭 Consumer role.md>) in a [Chat 💬](<../../35 Chats/12 💬 Chats/💬 Chat.md>), users can authorize their [Vault 🗄️ domains](<🗄️🎭 Vault role.md>) to disclose a data set with that [Consumer 💼 domain](<../27 💼 Consumers/💼🎭 Consumer role.md>). 
+    - Upon a share request with the [Consumer 💼 host](<../27 💼 Consumers/💼🎭 Consumer role.md>) in a [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>), users can authorize their [Vault 🗄️ domains](<🗄️🎭 Vault role.md>) to disclose a data set with that [Consumer 💼 domain](<../27 💼 Consumers/💼🎭 Consumer role.md>). 
     - This requires both [Vault 🗄️](<🗄️🎭 Vault role.md>) and [Consumer 💼 host](<../27 💼 Consumers/💼🎭 Consumer role.md>) domains to [trust 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) one another for the [Schema Code 🧩](<../../30 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) of the dataset to be shared.
 
     | | Workflow |  Description
@@ -183,7 +183,7 @@
     
     * When a user [binds 🔗](<../../30 Data/20 🔗 Binds/🔗 Bind.md>) to a [Host 🤗 domain](<../30 🤗 Hosts/🤗🎭 Host role.md>), the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) passes a unique [bind 🔗](<../../30 Data/20 🔗 Binds/🔗 Bind.md>) ID to the [Host 🤗](<../30 🤗 Hosts/🤗🎭 Host role.md>) to be able to identify the user across sessions, turning the [Host 🤗 domain](<../30 🤗 Hosts/🤗🎭 Host role.md>) into a [Vault 🗄️ domain](<🗄️🎭 Vault role.md>).
     
-    * While the [Vault 🗄️ domain](<🗄️🎭 Vault role.md>) is now able to track the user across [Chats 💬](<../../35 Chats/12 💬 Chats/💬 Chat.md>), it cannot track the user across [Host 🤗 domains](<../30 🤗 Hosts/🤗🎭 Host role.md>) because the [Bind 🔗](<../../30 Data/20 🔗 Binds/🔗 Bind.md>) ID is unique for the relationship between that user and that [Host 🤗](<../30 🤗 Hosts/🤗🎭 Host role.md>).
+    * While the [Vault 🗄️ domain](<🗄️🎭 Vault role.md>) is now able to track the user across [Chats 💬](<../../35 Chats/💬 Chats/💬 Chat.md>), it cannot track the user across [Host 🤗 domains](<../30 🤗 Hosts/🤗🎭 Host role.md>) because the [Bind 🔗](<../../30 Data/20 🔗 Binds/🔗 Bind.md>) ID is unique for the relationship between that user and that [Host 🤗](<../30 🤗 Hosts/🤗🎭 Host role.md>).
 
     ---
     <br/>
@@ -220,7 +220,7 @@
     |Flow ⏩| Details
     |-|-
     | [💼 Consume](<🗄️⏩ Vault flows/🗄️⏩💼 Consume 🔗.md>) | Tells a [Consumer 💼](<../27 💼 Consumers/💼🎭 Consumer role.md>) to collect data
-    | [🧑‍🦰 Engage](<🗄️⏩ Vault flows/🗄️⏩🧑‍🦰 Engage 💬.md>) | Opens a new [Chat 💬](<../../35 Chats/12 💬 Chats/💬 Chat.md>) with a [Bound 🔗](<../../30 Data/20 🔗 Binds/🔗 Bind.md>) user
+    | [🧑‍🦰 Engage](<🗄️⏩ Vault flows/🗄️⏩🧑‍🦰 Engage 💬.md>) | Opens a new [Chat 💬](<../../35 Chats/💬 Chats/💬 Chat.md>) with a [Bound 🔗](<../../30 Data/20 🔗 Binds/🔗 Bind.md>) user
     
 
     ---

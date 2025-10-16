@@ -30,7 +30,7 @@ Body:
 |Header|`From`|uuid | [Wallet 🧑‍🦰](<../../../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)  from [`Onboard@Notifier`](<../../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
 ||`To`|string| [Broker 🤵](<../../🤵🤲 Broker helper.md>) from [`Onboard@Notifier`](<../../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
 ||`Subject`|string|`Saved@Broker`
-|Body  |`ChatID` |uuid  | [Chat 💬](<../../../../35 Chats/12 💬 Chats/💬 Chat.md>) ID from [`Save@Notifier`](<../../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
+|Body  |`ChatID` |uuid  | [Chat 💬](<../../../../35 Chats/💬 Chats/💬 Chat.md>) ID from [`Save@Notifier`](<../../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
 |      |`TokenID` |uuid  | [Token 🎫](<../../../../30 Data/30 🎫 Tokens/🎫 Token.md>) ID from [`Save@Notifier`](<../../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
 |      |`Issuer`  |string| [Issuer 🎴](<../../../../41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) from [`Save@Notifier`](<../../../../20 🧑‍🦰 UI/02 📣 Notifiers/🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
 |      |`Path`    |string| Path to the local file
