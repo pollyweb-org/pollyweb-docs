@@ -31,7 +31,7 @@
     | 🪄 [Wand](<../../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>) | [📍 Share location?](<../../../35 💬 Chats/🤔 Prompts/🤔✏️ Prompt inputs/91 📍 LOCATION prompt.md>) [Yes, No] | > Yes
     | 🧢 [Persona](<../../../50 🫥 Agent domains/Personas 🧢/🧢🫥 Persona agent.md>) | 🫥 Share contacts ? [Yes, No] | > Yes
     | 🆔 [Identity](<../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) | 🫥 Share identity? [Yes, No] | > Yes
-    | 🆔 [Identity](<../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/6 🆔😶 Face scan.md>)
+    | 🆔 [Identity](<../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/6 🆔⏩😶 Face scan.md>)
     | 🪄 [Wand](<../../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>) | ✅ Emergency activated [+]
     
     ---

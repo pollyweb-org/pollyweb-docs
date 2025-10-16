@@ -2,7 +2,7 @@
 
 > Request from a [💼 Consumer domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) to access the user's [Tokens 🎫](<../../../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>).
 
-> Mentioned in [🆔 Verify Tokens @ Identity](<../../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 🆔🎫 Verify Tokens.md>)
+> Mentioned in [🆔 Verify Tokens @ Identity](<../../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 🆔⏩🎫 Verify Tokens.md>)
 
 <br/> 
 

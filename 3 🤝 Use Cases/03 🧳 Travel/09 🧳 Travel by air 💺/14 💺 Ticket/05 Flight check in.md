@@ -22,8 +22,8 @@ To start the check-in over a chat, users can:
 | 🧢 [Persona](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Personas 🧢/🧢🫥 Persona agent.md>) | 🫥 Share flight preferences?  [Yes, No] | > Yes
 | 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) | 🫥 Share meal preferences?  [Yes, No] | > Yes
 | 💖 [Vitalogist](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Vitalogists 💖/💖🫥 Vitalogist agent.md>) | 🫥 Share food allergies?  [Yes, No] | > Yes
-| 🆔 [Identity](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) | 🫥 [Sign terms?](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/5 🆔🔏 Verify Signatures.md>) 📄 [Yes, No] | > Yes
-| 🆔 [Identity](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/6 🆔😶 Face scan.md>)
+| 🆔 [Identity](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) | 🫥 [Sign terms?](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/5 🆔⏩🔏 Verify Signatures.md>) 📄 [Yes, No] | > Yes
+| 🆔 [Identity](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/6 🆔⏩😶 Face scan.md>)
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Save boarding passes? [Yes, No] | > Yes
 | 🛩️ Airline    | ✅ You're checked-in.
 | [👀 Ads](<../../../../4 ⚙️ Solution/45 🤲 Helper domains/Advertisers 👀/👀🤲 Advertiser helper.md>) | 🫥 Explore follow-up actions? [No] <br/>- [ 🏨 Book a hotel ] <br/>- [ 🚙 Rent a car ] | > No

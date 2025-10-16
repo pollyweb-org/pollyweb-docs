@@ -29,7 +29,7 @@
 | 🍸 Bar         | ℹ️ Order: [Change] <br/>- 1 half pint lager 🍺 (£3.00)
 | 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Vitalogists 💖/💖🫥 Vitalogist agent.md>) | 🫥 Confirm order? [Yes, No] <br> - warning: you came by car. | > Yes
 | 🆔 [Identity](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) | 🫥 Share over 21? [Yes, No]     | > Yes
-| 🆔 [Identity](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/6 🆔😶 Face scan.md>)
+| 🆔 [Identity](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/6 🆔⏩😶 Face scan.md>)
 | 💳 [Payer](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) | 🫥 Pay £3.00 bill? 🧾 [No] <br/>- [ Card ABC ] + $0.10 <br/>- [ Card DEF ] (free) | > Card ABC |
 | 🍸 Bar        | ✅ Order submitted [+]
 | 🍸 Bar        | ⏳ Preparing your order... [+] 

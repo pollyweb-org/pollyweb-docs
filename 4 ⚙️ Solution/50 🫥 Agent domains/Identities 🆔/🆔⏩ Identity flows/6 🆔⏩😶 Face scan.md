@@ -8,7 +8,7 @@
 
 1. **What is a face verification?**
 
-    A [Face scan 😶](<6 🆔😶 Face scan.md>)
+    A [Face scan 😶](<6 🆔⏩😶 Face scan.md>)
     * is a [face verification 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/01 📺 Difference.md>)  by an [Identity 🆔 vault](<../🆔🫥 Identity agent.md>) 
     * to verify if the person in front of the camera
     * is really the owner of something they are presenting
@@ -114,7 +114,7 @@
     | Something<br/>the user | Apple<br/>Pay | Google<br/>Pay | Asian<br/>Wallets | NLWeb <br/>Wallet | Western<br/>ATMs | Asian<br/>ATMs | NLWeb<br/>Userable |
     |-|-|-|-|-|-|-|-
     | `Has`   | Phone | Phone | QR code | [Wallet 🧑‍🦰](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) | NFC card | - | [NFC 💍](<../../../25 🔆 Locators/4 💍 Userables/💍💠 Userable thing.md>) |
-    | `Is`    | - | - | - | [Face 📸](<6 🆔😶 Face scan.md>) | - | Face | [Face 📸](<6 🆔😶 Face scan.md>) |
+    | `Is`    | - | - | - | [Face 📸](<6 🆔⏩😶 Face scan.md>) | - | Face | [Face 📸](<6 🆔⏩😶 Face scan.md>) |
     | `Knows` | - | - | - | [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) | Card pin | User pin | [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) |
     | `Screen`<br/>`Lock ⚠️` | Pin, Face,<br/>Fingers | Pin, Face,<br/>Fingers | Pin, Face,<br/>Fingers | Pin, Face,<br/>Fingers | - | - | - |
     |

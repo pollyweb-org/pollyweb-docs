@@ -16,7 +16,7 @@
     | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
     | - | - | - |
     | 🤗 [Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😐 Start risky task [Yes, No] | > Yes
-    | 🆔 [Identity](<../🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<6 🆔😶 Face scan.md>)
+    | 🆔 [Identity](<../🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<6 🆔⏩😶 Face scan.md>)
     | 🤗 [Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ Verified, task started!
 
     ---
