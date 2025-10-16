@@ -12,9 +12,9 @@
     |#|Step
     |-|-
     |1| [Bind 🔗](<../../30 Data/2 🔗 Binds/🔗 Bind.md>) to a [Hoster ☁️ domain](<../../45 🤲 Helper domains/55 ☁️ Hosters/☁️🤲 Hoster helper.md>)
-    |2| [Clone](<../../../5 ⏩ Flows/77 🔃⏩ Syncer/10 🔃⏩🗃️ Clone.md>) the files to a local folder
+    |2| [Clone](<../01 🛠️ Syncers/🔃⏩ Syncer flows/10 🔃⏩🗃️ Clone.md>) the files to a local folder
     |3| Spin up an HTTP backend endpoint
-    |4| Edit the files and [sync](<../../../5 ⏩ Flows/77 🔃⏩ Syncer/20 🔃⏩🗃️ Sync.md>) the changes
+    |4| Edit the files and [sync](<../01 🛠️ Syncers/🔃⏩ Syncer flows/20 🔃⏩🗃️ Sync.md>) the changes
     
 
     ---
