@@ -63,7 +63,7 @@
 
     ```yaml
     Items:
-        Endpoint: https://rest.any-domain.com/Items/{key}
+        Endpoint: https://rest.any-domain.dom/Items/{key}
     ```
 
     ---

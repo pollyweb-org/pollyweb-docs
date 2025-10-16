@@ -15,7 +15,7 @@
 ```yaml
 Header:
     From: any-hoster.dom
-    To: any-domain.com
+    To: any-domain.dom
     Subject: Handle@Hosted
 Body:
     Request: <request-uuid>

@@ -1,11 +1,11 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): selfie.any-supplier.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): selfie.any-supplier.dom
 
 ```yaml
 🤝: nlweb.org/MANIFEST
 
 About:
-  Domain: selfie.any-supplier.org
+  Domain: selfie.any-supplier.dom
   Name: Any Selfie
   
 Trusts:

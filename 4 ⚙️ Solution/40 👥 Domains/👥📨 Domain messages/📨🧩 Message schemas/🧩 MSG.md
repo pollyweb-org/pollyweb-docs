@@ -22,7 +22,7 @@ Schema:
       - Subject     # Method to be called at the destination, typically <method>@<role>.
       - Correlation # Unique request ID from the sender, for deduping.
       - Timestamp   # Date-time when the message was sent, in UTC.
-      - Schema      # Optional schema of the header, e.g. any-domain.com/any-request:1.0
+      - Schema      # Optional schema of the header, e.g. any-domain.dom/any-request:1.0
     - Body        # Main content of the message.
     - Hash        # Hash of canonical representation of the header and body.
     - Signature   # Signature of the of canonical representation of the header and body.
@@ -40,7 +40,7 @@ Schema:
           From: 
             type: string
             format: hostname
-            example: any-domain.com
+            example: any-domain.dom
             description: >
               Typically, the domain that sent the message, except if sent by a wallet.
               Wallets either: 
@@ -50,7 +50,7 @@ Schema:
           To:
             type: string
             format: hostname
-            example: any-domain.com
+            example: any-domain.dom
             description: To destination domain.
 
           Subject:

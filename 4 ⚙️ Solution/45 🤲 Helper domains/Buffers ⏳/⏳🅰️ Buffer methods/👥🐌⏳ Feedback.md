@@ -17,7 +17,7 @@ Header:
     To: any-buffer.dom
     Subject: Feedback@Buffer
 Body:
-    Sender: any-domain.com
+    Sender: any-domain.dom
     Correlation: <correlation-uuid>
     Status: Discarded
     Reason: Invalid DKIM signature.

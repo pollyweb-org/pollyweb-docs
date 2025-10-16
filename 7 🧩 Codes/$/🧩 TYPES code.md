@@ -28,7 +28,7 @@ Schema:
       Domain:
         type: string
         format: hostname  
-        example: any-domain.com
+        example: any-domain.dom
         description: An internet domain name.
 
       Key:

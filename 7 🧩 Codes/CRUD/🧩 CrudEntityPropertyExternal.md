@@ -28,7 +28,7 @@ Schema:
 
       From:
         format: string
-        example: any-domain.com
+        example: any-domain.dom
         description: Domain providing the information.
 
       Read:

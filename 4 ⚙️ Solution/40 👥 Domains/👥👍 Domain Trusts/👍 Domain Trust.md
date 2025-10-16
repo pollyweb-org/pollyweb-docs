@@ -112,7 +112,7 @@
         ```
 
         ```yaml
-        # 📜 any-domain.com
+        # 📜 any-domain.dom
         - Domain: any-nation.com
         - Domain: sanctioned-domain.com
         ```
@@ -126,9 +126,9 @@
     *  [domains 👥](<../👥 Domains/👥 Domain.md>)s may inherit all revokes from [Firewall 🔥 domains](<../../45 🤲 Helper domains/Firewalls 🔥/🔥🤲 Firewall helper.md>) to immediately block any new threat, regardless of any direct or indirect [trust 👍](<👍 Domain Trust.md>) to the harmful actor;
     
     e.g., if `any-firewall.dom` revokes `any-threat.com`, 
-    *  and `any-domain.com` inherits [Trusts 👍](<👍 Domain Trust.md>) from `any-firewall.dom`, 
-    *  then `any-domain.com` won’t communicate with `any-threat.com` 
-    *  event if there are direct or indirect [Trusts 👍](<👍 Domain Trust.md>) from `any-domain.com` to `any-threat.com`. 
+    *  and `any-domain.dom` inherits [Trusts 👍](<👍 Domain Trust.md>) from `any-firewall.dom`, 
+    *  then `any-domain.dom` won’t communicate with `any-threat.com` 
+    *  event if there are direct or indirect [Trusts 👍](<👍 Domain Trust.md>) from `any-domain.dom` to `any-threat.com`. 
 
     e.g., the [U.S. Department of Health & Human Services 📜](<../../../8 📜 Manifests/🌐 Vaults/📜 hhs.gov.md>) blocks whoever the [US Government 📜](<../../../8 📜 Manifests/👥 usa.gov/📜 usa.gov.md>) blocks.
 
@@ -170,7 +170,7 @@
 
     Domains can rely on [Graph 🕸 domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>):
     - these keep up-to-date graph representations of all possible trust-paths between two domains, allowing [Trust 👍](<👍 Domain Trust.md>) paths to be queried even when the domains comprising the nodes of those paths are unavailable 
-    - e.g., `any-domain.com` can ask `any-graph.dom` if `any-seller.dom` can be trusted for payment requests.
+    - e.g., `any-domain.dom` can ask `any-graph.dom` if `any-seller.dom` can be trusted for payment requests.
 
     ---
     <br/>
@@ -179,7 +179,7 @@
 
     [Domains 👥](<../👥 Domains/👥 Domain.md>) can rely on [Graph 🕸 domain helpers](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>):
     - these can detect trust removals and notify affected [subscriber 🔔 domains](<../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>);
-    - e.g., `any-graph.dom` may inform `any-domain.com` whenever `any-seller.dom` explicitly adds or removes a trust to `any-domain.com`.
+    - e.g., `any-graph.dom` may inform `any-domain.dom` whenever `any-seller.dom` explicitly adds or removes a trust to `any-domain.dom`.
 
 
     ---

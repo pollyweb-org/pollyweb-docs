@@ -17,7 +17,7 @@
     * formatted as `{code},{domain},{key}[,{fields}]`
   
     For example:
-    * `.HOST,any-domain.com,ANY-KEY,A=1,B=2`
+    * `.HOST,any-domain.dom,ANY-KEY,A=1,B=2`
     * `nlweb.org/ALIAS:1.0,any-printer.dom,ANY-KEY`
     
 

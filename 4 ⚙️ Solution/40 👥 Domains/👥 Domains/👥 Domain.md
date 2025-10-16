@@ -14,19 +14,19 @@
 
 1. **What does a domain DNS look like?**
     
-    Consider the following sample DNS configuration for the domain name [`any-domain.com`]().
+    Consider the following sample DNS configuration for the domain name [`any-domain.dom`]().
     
     
     | Record Name | Type | Value 
     |-|-|-|
     | 👉 Name servers from the DNS register
-    | [`any-domain.com`]() | `NS` | `{name servers}`
+    | [`any-domain.dom`]() | `NS` | `{name servers}`
     | 👉 Endpoint for inbound [messages 📨](<../👥📨 Domain Messages/📨 Message.md>)  
-    | `nlweb`.[`any-domain.com`]() | `A` | `1234.any-api.com`
+    | `nlweb`.[`any-domain.dom`]() | `A` | `1234.any-api.com`
     | 👉 [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) for outbound and [Tokens 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>)
-    | `pk6`.`_domainkey`.[`any-domain.com`]() | `TXT` | `v=DKIM1;k=rsa;p=...` 
+    | `pk6`.`_domainkey`.[`any-domain.dom`]() | `TXT` | `v=DKIM1;k=rsa;p=...` 
     | 👉 Old [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) for old [Tokens 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>)
-    | `pk5`.`_domainkey`.[`any-domain.com`]() | `TXT` | `v=DKIM1;k=rsa;p=...` 
+    | `pk5`.`_domainkey`.[`any-domain.dom`]() | `TXT` | `v=DKIM1;k=rsa;p=...` 
 
     
 

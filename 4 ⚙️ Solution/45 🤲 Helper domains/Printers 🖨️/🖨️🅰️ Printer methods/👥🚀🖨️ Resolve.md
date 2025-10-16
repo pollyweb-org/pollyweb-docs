@@ -14,7 +14,7 @@
 
 ```yaml
 Header:
-    From: any-domain.com
+    From: any-domain.dom
     To: any-printer.dom
     Subject: Resolve@Printer
 

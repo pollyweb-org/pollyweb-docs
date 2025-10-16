@@ -19,14 +19,14 @@
 
 ```yaml
 Header: 
-    From: any-domain.com
+    From: any-domain.dom
     To: any-graph.dom
     Subject: Translate@Graph
 
 Body: 
     Language: en-us
     Domains: 
-      - any-domain.com
+      - any-domain.dom
     Codes: 
       - iata.org/SSR/WCHR
 ```

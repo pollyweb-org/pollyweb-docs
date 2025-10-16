@@ -15,4 +15,4 @@ Schema:
 
   Format:
     type: string
-    example: any-address@any-domain.com
+    example: any-address@any-domain.dom
