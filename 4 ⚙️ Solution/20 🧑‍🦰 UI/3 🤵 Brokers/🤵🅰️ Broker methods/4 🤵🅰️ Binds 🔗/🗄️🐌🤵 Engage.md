@@ -4,7 +4,7 @@
 
 * Allows for [Vault 🗄️ domains](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) 
     * to proactively start a new [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) 
-    * with a [Wallet 🧑‍🦰 app](<../../../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) previously [bound 🔗](<../../../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>)
+    * with a [Wallet 🧑‍🦰 app](<../../../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) previously [bound 🔗](<../../../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>)
     * in the best interest of the user.
 
 <br/>

@@ -21,7 +21,7 @@
     
     | Presented | Question
     |-|-
-    | 🧑‍🦰 [Wallet](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) | Is it really the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) owner holding the device?
+    | 🧑‍🦰 [Wallet](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) | Is it really the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) owner holding the device?
     |[🎫 Token](<../../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>)| Was the [Token 🎫](<../../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) really issued to the person holding the device?
     |[💍 Userable](<../../../25 🔆 Locators/4 💍 Userables/💍💠 Userable thing.md>)| Is it really the [Userable 💍](<../../../25 🔆 Locators/4 💍 Userables/💍💠 Userable thing.md>) owner [tapping 🔆](<../../../25 🔆 Locators/1 🔆 Locators/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>) it on a scanner?
   
@@ -45,7 +45,7 @@
     
 1. **How is face recognition secured with remote liveness checks?**
 
-    Services implementing [liveness-checks 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/07 🧑‍💻 Unsupervised ID landscape/09 📺 Amazon liveness.md>) mitigate frauds and replay attacks even if the device of the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) is running a sophisticated forgery software, is being used by an AI bot, or has been compromised by an attacker. 
+    Services implementing [liveness-checks 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/07 🧑‍💻 Unsupervised ID landscape/09 📺 Amazon liveness.md>) mitigate frauds and replay attacks even if the device of the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) is running a sophisticated forgery software, is being used by an AI bot, or has been compromised by an attacker. 
     
     Liveness checks are video-based checks supported by a remote Web 2.0 page that typically include the following features:
     
@@ -113,7 +113,7 @@
 
     | Something<br/>the user | Apple<br/>Pay | Google<br/>Pay | Asian<br/>Wallets | NLWeb <br/>Wallet | Western<br/>ATMs | Asian<br/>ATMs | NLWeb<br/>Userable |
     |-|-|-|-|-|-|-|-
-    | `Has`   | Phone | Phone | QR code | [Wallet 🧑‍🦰](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) | NFC card | - | [NFC 💍](<../../../25 🔆 Locators/4 💍 Userables/💍💠 Userable thing.md>) |
+    | `Has`   | Phone | Phone | QR code | [Wallet 🧑‍🦰](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) | NFC card | - | [NFC 💍](<../../../25 🔆 Locators/4 💍 Userables/💍💠 Userable thing.md>) |
     | `Is`    | - | - | - | [Face 📸](<6 🆔⏩😶 Face scan.md>) | - | Face | [Face 📸](<6 🆔⏩😶 Face scan.md>) |
     | `Knows` | - | - | - | [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) | Card pin | User pin | [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) |
     | `Screen`<br/>`Lock ⚠️` | Pin, Face,<br/>Fingers | Pin, Face,<br/>Fingers | Pin, Face,<br/>Fingers | Pin, Face,<br/>Fingers | - | - | - |

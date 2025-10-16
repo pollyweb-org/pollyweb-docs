@@ -5,11 +5,11 @@
 
 # 🧑‍🦰🚀📣 Onboard @ Notifier
 
-A new [Wallet 🧑‍🦰 apps](<../../../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) asks a [Notifier 📣 domain](<../../📣👥 Notifier domain.md>) to onboard.
+A new [Wallet 🧑‍🦰 apps](<../../../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) asks a [Notifier 📣 domain](<../../📣👥 Notifier domain.md>) to onboard.
 
-* Used in [Onboard 🧑‍🦰👉🤵](<../../../1 🧑‍🦰 Wallets/🧑‍🦰⏩ Wallet flows/10 👉🤵 Set-up/🧑‍🦰💬🤵 Onboard.md>) to register the channel between the [Notifier 📣 domain](<../../📣👥 Notifier domain.md>) and the [Wallet 🧑‍🦰 apps](<../../../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) (e.g., sockets). 
+* Used in [Onboard 🧑‍🦰👉🤵](<../../../1 🧑‍🦰 Wallets/🧑‍🦰⏩ Wallet flows/10 👉🤵 Set-up/🧑‍🦰💬🤵 Onboard.md>) to register the channel between the [Notifier 📣 domain](<../../📣👥 Notifier domain.md>) and the [Wallet 🧑‍🦰 apps](<../../../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) (e.g., sockets). 
  
-* Should wait for the notifications to start working before allowing the user to fully use the [Wallet 🧑‍🦰 app](<../../../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
+* Should wait for the notifications to start working before allowing the user to fully use the [Wallet 🧑‍🦰 app](<../../../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>).
 
 <br/>
 
@@ -46,5 +46,5 @@ WalletID: <wallet-uuid>
 |Property|Type|Description
 |-|-|-
 | `Broker`        | string | [Broker 🤵](<../../../3 🤵 Brokers/🤵🤲 Broker helper.md>) from [`Onboard@Broker`](<../../../3 🤵 Brokers/🤵🅰️ Broker methods/1 🤵🅰️ Wallets 🧑‍🦰/📣🚀🤵 Onboard.md>)
-| `WalletID`      | uuid | [Wallet 🧑‍🦰](<../../../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) ID from [`Onboard@Broker`](<../../../3 🤵 Brokers/🤵🅰️ Broker methods/1 🤵🅰️ Wallets 🧑‍🦰/📣🚀🤵 Onboard.md>)
+| `WalletID`      | uuid | [Wallet 🧑‍🦰](<../../../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) ID from [`Onboard@Broker`](<../../../3 🤵 Brokers/🤵🅰️ Broker methods/1 🤵🅰️ Wallets 🧑‍🦰/📣🚀🤵 Onboard.md>)
 |

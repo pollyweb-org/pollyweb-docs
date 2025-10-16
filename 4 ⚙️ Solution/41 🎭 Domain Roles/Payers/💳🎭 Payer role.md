@@ -7,7 +7,7 @@
 
     * **[Payer 💳🫥 agents](<../../50 🫥 Agent domains/Payers 💳/💳🫥 Payer agent.md>)**: 
         * these are [Payer 💳 domains](<💳🎭 Payer role.md>) that act as [Agent 🫥 vaults](<../../50 🫥 Agent domains/$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>)
-        * for users with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>), 
+        * for users with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>), 
         * interacting in [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) with [Seller 💵 hosts](<../Sellers 💵/💵🎭 Seller role.md>).
       
     * **[Payer 💳🤲 Helpers](<../../45 🤲 Helper domains/Payers 💳/💳🤲 Payer helper.md>)**:
@@ -33,7 +33,7 @@
 1. **Why not leverage the Open Banking protocol?**
 
     While NLWeb follows the Open Banking rational for payments, it requires features not available in Open Banking;
-    - e.g., the ability to jump between bank entities from within a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) in the user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
+    - e.g., the ability to jump between bank entities from within a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) in the user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>).
 
     ---
     <br/>

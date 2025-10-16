@@ -18,6 +18,6 @@
 
 | # | Call | Notes |
 |-|-|-
-| 1 | [🤵🐌📣 `Updated@Notifier`](<../../2 📣 Notifiers/📣🅰️ Notifier methods/1 🤵 Onboard/3 🤵🐌📣 Updated.md>)| The [Broker 🤵](<../🤵🤲 Broker helper.md>) tells the [Notifier 📣](<../../2 📣 Notifiers/📣👥 Notifier domain.md>) to update the [Wallet 🧑‍🦰](<../../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
-| 2 | [🧑‍🦰🚀🤵 `Binds@Broker`](<../🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🧑‍🦰🚀🤵 Binds.md>) | The [Wallet 🧑‍🦰](<../../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) gets the [Binds 🔗](<../../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) from the [Broker 🤵](<../🤵🤲 Broker helper.md>)
+| 1 | [🤵🐌📣 `Updated@Notifier`](<../../2 📣 Notifiers/📣🅰️ Notifier methods/1 🤵 Onboard/3 🤵🐌📣 Updated.md>)| The [Broker 🤵](<../🤵🤲 Broker helper.md>) tells the [Notifier 📣](<../../2 📣 Notifiers/📣👥 Notifier domain.md>) to update the [Wallet 🧑‍🦰](<../../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)
+| 2 | [🧑‍🦰🚀🤵 `Binds@Broker`](<../🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🧑‍🦰🚀🤵 Binds.md>) | The [Wallet 🧑‍🦰](<../../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) gets the [Binds 🔗](<../../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) from the [Broker 🤵](<../🤵🤲 Broker helper.md>)
 ||

@@ -2,7 +2,7 @@
 
 * Given a [Locator 🔆](<../../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>)
     * parses the [Locator 🔆](<../../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) in the [Broker 🤵](<../🤵🤲 Broker helper.md>)
-    * and opens a [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) on the [Wallet 🧑‍🦰 app](<../../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
+    * and opens a [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) on the [Wallet 🧑‍🦰 app](<../../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>).
 * Used by:
     * [🧑‍🦰👉🤗 Scan host QR](<../../1 🧑‍🦰 Wallets/🧑‍🦰⏩ Wallet flows/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>) flow
     * [🧑‍🦰👉🤗 Scan printer QR](<../../1 🧑‍🦰 Wallets/🧑‍🦰⏩ Wallet flows/15 👉🔆 Locators/02 🧑‍🦰👉🤗 Scan printer QR.md>) flow
@@ -13,7 +13,7 @@
 
 ## Chat
 
-| [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)
+| [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
 | | | 🔆 [scan](<../../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) |
 | 🔎 [Finder](<../../../50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) | ⓘ Any Host (4.8 ⭐) [+]
@@ -35,7 +35,7 @@
 | # | Call | Notes
 |-|-|-|
 |1|[🤵🚀🖨️ `Resolve@Printer`](<../../../45 🤲 Helper domains/Printers 🖨️/🖨️🅰️ Printer methods/👥🚀🖨️ Resolve.md>) | Ask [Printers 🖨️](<../../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>) to resolve [`.ALIAS` 🧩](<../../../45 🤲 Helper domains/Printers 🖨️/🖨️🧩 Printer schemas/🧩 ALIAS.md>)
-| 2 | [🤵⏩🧑‍🦰 Converse 🔆](<🤵⏩🧑‍🦰 Converse 💬.md>) | Ask [Wallets 🧑‍🦰](<../../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>)  to open a chat window
+| 2 | [🤵⏩🧑‍🦰 Converse 🔆](<🤵⏩🧑‍🦰 Converse 💬.md>) | Ask [Wallets 🧑‍🦰](<../../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)  to open a chat window
 | 3 | [🔎⏩🧑‍🦰 Introduce 🤗](<../../../50 🫥 Agent domains/Finders 🔎/🔎⏩ Finder flows/🔎⏩🧑‍🦰 Introduce 🤗.md>) | Ask [Finders 🔎](<../../../50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) to introduce [Hosts 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)
 | 4 | [🔎⏩🧑‍🦰 Prompt ⓘ](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Finders 🔎](<../../../50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) introduce [Hosts 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)
 | 5 | [🤵⏩🧑‍🦰 Prompt ⓘ](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../🤵🤲 Broker helper.md>) reference original [Chats 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) 

@@ -18,7 +18,7 @@
 |4|[🤗🐌🤵 `Freeze@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🤗🐌🤵 Freeze.md>) | The [Host 🤗](<../🤗🎭 Host role.md>) freezes the [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>)
 |5|[🤗⏩🧑‍🦰 Prompt 🐠](<🤗⏩🧑‍🦰 Prompt 🤔.md>) | The [Host 🤗](<../🤗🎭 Host role.md>) sends a third fish  prompt 🐠
 |6|[🧑‍🦰🐌🤗 `Reply@Host`](<../🤗🅰️ Host methods/🧑‍🦰🐌🤗 Reply.md>) | The user can still reply to fish 🐠
-|7| - | [Wallets 🧑‍🦰](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) block pre-freeze reply to cat 🐱
-|8|[🧑‍🦰🐌🤗 `Reply@Host`](<../🤗🅰️ Host methods/🧑‍🦰🐌🤗 Reply.md>) | Non-compliant [Wallets 🧑‍🦰](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) may try to reply
+|7| - | [Wallets 🧑‍🦰](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) block pre-freeze reply to cat 🐱
+|8|[🧑‍🦰🐌🤗 `Reply@Host`](<../🤗🅰️ Host methods/🧑‍🦰🐌🤗 Reply.md>) | Non-compliant [Wallets 🧑‍🦰](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) may try to reply
 |9| - | [Hosts 🤗](<../🤗🎭 Host role.md>) ignore rogue pre-freeze replies
 |
