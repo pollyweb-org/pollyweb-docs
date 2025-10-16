@@ -31,7 +31,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 |Header|`From`|string|[Issuer 🎴 domain](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/40 🎴 Issuers/🎴🎭 Issuer role.md>) name
-| |`To`|string|[Broker 🤵 domain](<../../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) name
+| |`To`|string|[Broker 🤵 domain](<../../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) name
 | |`Subject`|string|`Revoke@Broker`
 |Body|`ChatID`|string|[Chat 💬](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID
 | |`TokenID`|string|[Token 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) ID

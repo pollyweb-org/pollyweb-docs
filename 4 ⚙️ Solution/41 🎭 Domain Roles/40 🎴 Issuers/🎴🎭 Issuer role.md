@@ -17,7 +17,7 @@
     | # | Step 
     |-|-
     |1| A user engages in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) with a [Host 🤗 domain](<../30 🤗 Hosts/🤗🎭 Host role.md>) with an [Issuer 🎴 role](<🎴🎭 Issuer role.md>).
-    |2| The [Issuer 🎴 domain](<🎴🎭 Issuer role.md>) issues a [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) for the user, and the user's [Broker 🤵 domain](<../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) asks the user to confirm if they want to save the [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) offline in the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
+    |2| The [Issuer 🎴 domain](<🎴🎭 Issuer role.md>) issues a [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) for the user, and the user's [Broker 🤵 domain](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) asks the user to confirm if they want to save the [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) offline in the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
 
     ---
     <br/>
@@ -32,7 +32,7 @@
     | - | - | - |
     |...
     | 🎭 Venue   | 😃 Want a ticket? [Yes, No] | > Yes
-    | 🤵 [Broker](<../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Save theatre ticket? [Yes, No] <br/> - self booking Token 🎫 <br/> - issued by Any Venue 🎭 <br/> - expiring 7:30pm today <br/> - play: the funny ones | > Yes
+    | 🤵 [Broker](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Save theatre ticket? [Yes, No] <br/> - self booking Token 🎫 <br/> - issued by Any Venue 🎭 <br/> - expiring 7:30pm today <br/> - play: the funny ones | > Yes
     | 🎭 Venue   | ✅ You're all set, get in!
         
 
@@ -55,26 +55,26 @@
 
     Yes. 
 
-    * [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) are issued with the help of a [Broker 🤵 domain](<../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) that orchestrates the relationship between the [Issuer 🎴 domain](<🎴🎭 Issuer role.md>) and the user. 
+    * [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) are issued with the help of a [Broker 🤵 domain](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) that orchestrates the relationship between the [Issuer 🎴 domain](<🎴🎭 Issuer role.md>) and the user. 
     
-    * [Issuer 🎴 domains](<🎴🎭 Issuer role.md>) track to what [Broker 🤵 domains](<../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) where their [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) issue to, so that they can request the same [Broker 🤵 domains](<../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) to suspend or revoke the [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>).
+    * [Issuer 🎴 domains](<🎴🎭 Issuer role.md>) track to what [Broker 🤵 domains](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) where their [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) issue to, so that they can request the same [Broker 🤵 domains](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) to suspend or revoke the [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>).
   
-    * [Broker 🤵 domains](<../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) will handle the revocation propagation up to the user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
+    * [Broker 🤵 domains](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) will handle the revocation propagation up to the user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
 
-    * [Broker 🤵 domains](<../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) only share active [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) when [Consumer 💼 domains](<../../50 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>) ask for them in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>).
+    * [Broker 🤵 domains](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) only share active [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) when [Consumer 💼 domains](<../../50 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>) ask for them in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>).
 
     ---
     <br/>    
     
 1. **What if the user presents a QR Token printed on paper?**
 
-    In cases where the user is holding an offline image of the Token's QR (e.g., printed or screenshot), [Consumer 💼 domains](<../27 💼 Consumers/💼🎭 Consumer role.md>) may ask for a synchronous status check of the [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) directly with the [user's Broker 🤵 domain](<../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>);
+    In cases where the user is holding an offline image of the Token's QR (e.g., printed or screenshot), [Consumer 💼 domains](<../27 💼 Consumers/💼🎭 Consumer role.md>) may ask for a synchronous status check of the [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) directly with the [user's Broker 🤵 domain](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>);
     
-    - e.g., while validating a printed QR of a [passport Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) at the airport border control, the [Consumer 💼 domain](<../27 💼 Consumers/💼🎭 Consumer role.md>) of the airport may try to reach the [user's Broker 🤵 domain](<../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) to verify if the passport hasn't been suspended or revoked.
+    - e.g., while validating a printed QR of a [passport Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) at the airport border control, the [Consumer 💼 domain](<../27 💼 Consumers/💼🎭 Consumer role.md>) of the airport may try to reach the [user's Broker 🤵 domain](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) to verify if the passport hasn't been suspended or revoked.
 
-    The airport knows what [Broker 🤵 domain](<../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) to reach out to, 
+    The airport knows what [Broker 🤵 domain](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) to reach out to, 
     * because the printed QR version of a [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) does not contain the Token's content;
-    * instead, the QR presented by [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) contain only a [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) with the ID of the [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) and the [Broker 🤵 domain](<../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) that holds the content and the status of the [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>).
+    * instead, the QR presented by [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) contain only a [Locator 🔆](<../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) with the ID of the [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) and the [Broker 🤵 domain](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) that holds the content and the status of the [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>).
 
     ---
     <br/>
@@ -82,7 +82,7 @@
 
 1. **Why not check revocation directly with Issuers?**
 
-    Given that [Issuer 🎴 domains](<🎴🎭 Issuer role.md>) are the ones revoking [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) it intuitively makes sense for [Consumer 💼 domains](<../../50 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>) to ask them directly for the status of a given printed [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>), instead of asking the [user's Broker 🤵 domain](<../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>).
+    Given that [Issuer 🎴 domains](<🎴🎭 Issuer role.md>) are the ones revoking [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) it intuitively makes sense for [Consumer 💼 domains](<../../50 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>) to ask them directly for the status of a given printed [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>), instead of asking the [user's Broker 🤵 domain](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>).
 
     * However, that approach raises concerns with privacy and availability.
         
@@ -96,9 +96,9 @@
 
     * NLWeb avoids bitmap status lists because of their scaling limitations and their overhead on the businesses that own [Issuer 🎴 domains](<🎴🎭 Issuer role.md>).
     
-    * Instead, in NLWeb, [Broker 🤵 domains](<../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) protect the privacy of users by answering the online [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) status queries by [Consumer 💼 domains](<../../50 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>), based on the [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) status update events sent asynchronously by [Issuer 🎴 domains](<🎴🎭 Issuer role.md>).
+    * Instead, in NLWeb, [Broker 🤵 domains](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) protect the privacy of users by answering the online [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) status queries by [Consumer 💼 domains](<../../50 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>), based on the [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) status update events sent asynchronously by [Issuer 🎴 domains](<🎴🎭 Issuer role.md>).
     
-    * Furthermore, because [Broker 🤵 domains](<../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) simplify the process by only sharing active [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) when [Consumer 💼 domains](<../../50 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>) send sharing requests in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>), this allows [Consumer 💼 domains](<../../50 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>) to only need to verify the status of [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) presented in an offline fashion (e.g., a printed QR on a paper).
+    * Furthermore, because [Broker 🤵 domains](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) simplify the process by only sharing active [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) when [Consumer 💼 domains](<../../50 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>) send sharing requests in a [Chat 💬](<../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>), this allows [Consumer 💼 domains](<../../50 🫥 Agents/80 📦 Storage/$ 📦🫥 Storage agent.md>) to only need to verify the status of [Tokens 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) presented in an offline fashion (e.g., a printed QR on a paper).
 
     On availability: 
 
@@ -106,7 +106,7 @@
     
     * Consider also a scenario where a commercial flight cannot wait for the [Issuer 🎴 domain](<🎴🎭 Issuer role.md>) of a travel agency to come back online before allowing a traveler to board a plane with a [ticket Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>). 
     
-    * [Broker 🤵 domain](<../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) are expected to have the required level of high availability and low latency, while having to pass the protocol compliancy requirements of NLWeb before being trusted by the [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>) of the NLWeb Organization.
+    * [Broker 🤵 domain](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) are expected to have the required level of high availability and low latency, while having to pass the protocol compliancy requirements of NLWeb before being trusted by the [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>) of the NLWeb Organization.
 
 
     ---

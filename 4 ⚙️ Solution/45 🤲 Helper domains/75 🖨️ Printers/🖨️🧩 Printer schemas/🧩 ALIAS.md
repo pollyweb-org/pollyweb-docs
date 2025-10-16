@@ -5,7 +5,7 @@
 
 * Used in [Locators 🔆](<../../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) 
     * that need to be translated 
-    * by a [Printer 🖨️ helper domain](<../🖨️🛠️ Printer helper.md>).
+    * by a [Printer 🖨️ helper domain](<../🖨️🤲 Printer helper.md>).
 
 <br/>
 

@@ -25,7 +25,7 @@ Used initiate a chat with 🏥 NHS.
 | 🏥 NHS    | 💬 Only the US? [Yes, No]| > Yes
 | 🏥 NHS    | ℹ️ OK, here's what you need:<br/>- NHS COVID certificate
 | 🏥 NHS    | ⏳ Getting your certificate...
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) | 🫥 Save  certificate? [Yes, No] | > Yes    
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Save  certificate? [Yes, No] | > Yes    
 | 🏥 NHS    | ✅ You're all set. 
 | ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agents/73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5
 ||

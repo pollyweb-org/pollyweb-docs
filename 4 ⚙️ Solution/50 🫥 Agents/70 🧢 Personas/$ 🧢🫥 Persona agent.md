@@ -69,7 +69,7 @@
 
     Personas 🧢 should follow the principle of benevolence - i.e., only collect data for users' benefit, not for users' manipulation.
 
-    - [Brokers 🤵](<../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) may revoke their [trust 👍](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) in misbehaved Personas who don't comply with this principle.
+    - [Brokers 🤵](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) may revoke their [trust 👍](<../../40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) in misbehaved Personas who don't comply with this principle.
 
     ---
     <br/>
@@ -83,7 +83,7 @@
     
 1. **What is the role of Personas in advertising?**
 
-    See [Advertiser 👀](<../../45 🤲 Helper domains/12 👀 Advertisers/👀🛠️ Advertiser helper.md>) domains.
+    See [Advertiser 👀](<../../45 🤲 Helper domains/12 👀 Advertisers/👀🤲 Advertiser helper.md>) domains.
 
     ---
     <br/>

@@ -39,11 +39,11 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header    | `From`    | string    | [Broker 🤵 domain](<../../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) name
+| Header    | `From`    | string    | [Broker 🤵 domain](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) name
 |           | `To`      | string    | [Host 🤗 domain](<../🤗🎭 Host role.md>) name
 |           | `Subject` | string    | `Hello@Host`
 | Body      | `Language`| enum    | ISO language code
-|           | `ChatID`  | uuid      | [Chat 💬](<../../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID in the [Broker 🤵 domain](<../../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>)
+|           | `ChatID`  | uuid      | [Chat 💬](<../../../20 🧑‍🦰 UI/12 💬 Chats/$ 💬 Chat.md>) ID in the [Broker 🤵 domain](<../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>)
 |           | `PublicKey`| string | For [`Prompted@`](<🧑‍🦰🚀🤗 Prompted.md>) [`Reply@`](<🧑‍🦰🐌🤗 Reply.md>) [`Download@`](<🧑‍🦰🚀🤗 Download.md>)
 |           | `Locator` | string    | [Locator 🔆](<../../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) in the [Host 🤗 domain](<../🤗🎭 Host role.md>)
 |           | `Code`    | string    | [Schema Code 🧩](<../../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) of the Locator

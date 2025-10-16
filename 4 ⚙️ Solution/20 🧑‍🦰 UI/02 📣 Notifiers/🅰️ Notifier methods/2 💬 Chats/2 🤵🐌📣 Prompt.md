@@ -6,7 +6,7 @@
 > <br/>• [`Download@Host`](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🅰️ Host methods/🧑‍🦰🚀🤗 Download.md>)  message
 
 
-[Broker 🤵 domains](<../../../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) 
+[Broker 🤵 domains](<../../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) 
 * forward   [Prompts 🤔](<../../../../../9 😃 Talkers/10 📘 Talker specs/20 🤔 Prompt.md>) 
 * from [Host 🤗 domains](<../../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) 
 * to [Notifier 📣 domains](<../../📣 Notifier domain.md>).
@@ -32,7 +32,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From`|string | [Broker 🤵 domain](<../../../../45 🤲 Helper domains/24 🤵 Brokers/$ 🤵 Broker domain.md>) name
+|Header|`From`|string | [Broker 🤵 domain](<../../../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) name
 ||`To`|string| [Notifier 📣 domain](<../../📣 Notifier domain.md>) name
 ||`Subject`|string|`Prompt@Notifier`
 |Body  |`WalletID` |uuid  | [Wallet 🧑‍🦰](<../../../01 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>) ID from [`Converse@Notifier`](<1 🤵🐌📣 Converse.md>)

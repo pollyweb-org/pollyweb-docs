@@ -6,7 +6,7 @@
 
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 
-* [Broker 🤵 domains](<../../24 🤵 Brokers/$ 🤵 Broker domain.md>) 
+* [Broker 🤵 domains](<../../24 🤵 Brokers/🤵🤲 Broker helper.md>) 
     * request translation for [Schema Codes 🧩](<../../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) and [domains 👥](<../../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>),
     * obtained [domain Manifests 📜](<../../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>).
 * Used by:
@@ -34,7 +34,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header| `From`    | string | The name of the [domain 👥](<../../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) asking
-|       | `To`      | string | [Graph 🕸 domain](<../🕸🛠️ Graph helper.md>) name
+|       | `To`      | string | [Graph 🕸 domain](<../🕸🤲 Graph helper.md>) name
 |       | `Subject` | string | `Translate@Graph`
 |Body   | `Domains`     | string[]  | The [domains 👥](<../../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) to translate
 |       | `Codes`       | string[]  | The [Schema Codes 🧩](<../../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) to translate

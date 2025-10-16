@@ -2,7 +2,7 @@
 
 # 👥🚀🖨️ Resolve @ Printer
 
-> A [Printer 🖨️ domain](<../🖨️🛠️ Printer helper.md>) returns the [Locator 🔆](<../../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) of an alias, if any.
+> A [Printer 🖨️ domain](<../🖨️🤲 Printer helper.md>) returns the [Locator 🔆](<../../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) of an alias, if any.
 
 > Used in [🧑‍🦰👉🤗 Scan printer QR](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/15 👉🔆 Locators/02 🧑‍🦰👉🤗 Scan printer QR.md>).
 
@@ -25,9 +25,9 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 |Header| `From`| string | Caller [domain 👥](<../../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) name
-|| `To` | string | [Printer 🖨️ domain](<../🖨️🛠️ Printer helper.md>) name
+|| `To` | string | [Printer 🖨️ domain](<../🖨️🤲 Printer helper.md>) name
 || `Subject`| string | `Resolve@Printer`
-|Body|`Alias`| string | Unique [Locator 🔆](<../../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) ID on the [Printer 🖨️ ](<../🖨️🛠️ Printer helper.md>)
+|Body|`Alias`| string | Unique [Locator 🔆](<../../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) ID on the [Printer 🖨️ ](<../🖨️🤲 Printer helper.md>)
 |
 
 

@@ -13,7 +13,7 @@
     |Format|Details
     |-|-
     | `{$placeholder}`| The value of a [$placeholder 💾](<10 💾 $Placeholder.md>).
-    | `{/path/to/file}` | A file in the [Hoster ☁️](<../../4 ⚙️ Solution/45 🤲 Helper domains/55 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>) file system.
+    | `{/path/to/file}` | A file in the [Hoster ☁️](<../../4 ⚙️ Solution/45 🤲 Helper domains/55 ☁️ Hosters/☁️🤲 Hoster helper.md>) file system.
     | `{handler(args)}`| Logic in a code handler - e.g., python.
     | `{.helper(args)}`| Pre-built functions - e.g., `Sum()`
     
@@ -95,7 +95,7 @@
 
     | Argument| Purpose
     |-|-
-    | `/path/to/file` | Path to a file in the [Hoster ☁️](<../../4 ⚙️ Solution/45 🤲 Helper domains/55 ☁️ Hosters/05 ☁️🛠️ Hoster helper.md>) folders.
+    | `/path/to/file` | Path to a file in the [Hoster ☁️](<../../4 ⚙️ Solution/45 🤲 Helper domains/55 ☁️ Hosters/☁️🤲 Hoster helper.md>) folders.
     | `{function}` | Function that evaluates to a path.
 
     ---

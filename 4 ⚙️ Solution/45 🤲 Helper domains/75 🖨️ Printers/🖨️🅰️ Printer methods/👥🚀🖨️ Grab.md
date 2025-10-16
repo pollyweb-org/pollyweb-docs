@@ -1,6 +1,6 @@
 # 👥🚀🖨️ Grab @ Printer
 
-> A [Printer 🖨️ domain](<../🖨️🛠️ Printer helper.md>) grabs an available alias. 
+> A [Printer 🖨️ domain](<../🖨️🤲 Printer helper.md>) grabs an available alias. 
 
 <br/>
 
@@ -19,9 +19,9 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 |Header| `From`| string | Caller [domain 👥](<../../../40 👥 Domains/$ 👥 Domains/👥 Domain.md>) name
-|| `To` | string | [Printer 🖨️ domain](<../🖨️🛠️ Printer helper.md>) name
+|| `To` | string | [Printer 🖨️ domain](<../🖨️🤲 Printer helper.md>) name
 || `Subject`| string | `Grab@Printer`
-|Body|`Alias`| string | Unique alias on the [Printer 🖨️](<../🖨️🛠️ Printer helper.md>)
+|Body|`Alias`| string | Unique alias on the [Printer 🖨️](<../🖨️🤲 Printer helper.md>)
 |       | `Locator`    | string | The [Locator 🔆](<../../../20 🧑‍🦰 UI/11 🔆 Locators/$ 🔆 Locator.md>) of a [Host 🤗 domain](<../../../41 🎭 Domain Roles/30 🤗 Hosts/🤗🎭 Host role.md>) 
 |
 
