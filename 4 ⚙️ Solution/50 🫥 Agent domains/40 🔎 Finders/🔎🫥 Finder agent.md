@@ -43,7 +43,7 @@
     To search domains on a Finder, users use natural language, similar to ChatGPT.
     * Example: `find me a restaurant for tonight`.
     * Finders then show potential [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) for the user to initiate a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) with.
-    * After the user selection, Finders also show potential next steps for [navigation 🧭](<../55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>), available [services 🪢](<../../41 🎭 Domain Roles/Integrators 🪢/$ 🪢🎭 Integrator role.md>), and [advertising 👀](<../../45 🤲 Helper domains/12 👀 Advertisers/👀🤲 Advertiser helper.md>).
+    * After the user selection, Finders also show potential next steps for [navigation 🧭](<../55 🧭 Navigators/$ 🧭🫥 Navigator agent.md>), available [services 🪢](<../../41 🎭 Domain Roles/Integrators 🪢/🪢🎭 Integrator role.md>), and [advertising 👀](<../../45 🤲 Helper domains/12 👀 Advertisers/👀🤲 Advertiser helper.md>).
     * Consider the following [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) excerpt of the [Find a bar 🤝 use case](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/30 🍸 Bars/11 🌐 Web: Find a bar.md>) as an example.
 
 
@@ -65,7 +65,7 @@
 
     |[Streamer&nbsp;🎭](<../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>)|Purpose
     |-|-
-    | [🕸&nbsp;Graphs](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🤲 Graph helper.md>) | Finders subscribe to [Graphs 🕸 domains](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🤲 Graph helper.md>) to receive updates on [domain Manifests 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) across the NLWeb, including their public identity, [trust 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) relationships, and supported [integrations 🪢](<../../41 🎭 Domain Roles/Integrators 🪢/$ 🪢🎭 Integrator role.md>). 
+    | [🕸&nbsp;Graphs](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🤲 Graph helper.md>) | Finders subscribe to [Graphs 🕸 domains](<../../45 🤲 Helper domains/50 🕸 Graphs/🕸🤲 Graph helper.md>) to receive updates on [domain Manifests 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) across the NLWeb, including their public identity, [trust 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) relationships, and supported [integrations 🪢](<../../41 🎭 Domain Roles/Integrators 🪢/🪢🎭 Integrator role.md>). 
     | [🔥&nbsp;Firewalls](<../../45 🤲 Helper domains/40 🔥 Firewalls/🔥🤲 Firewall helper.md>) | Finders subscribe to [Firewall 🔥 domains](<../../45 🤲 Helper domains/40 🔥 Firewalls/🔥🤲 Firewall helper.md>) to quickly react to threats. 
     | [⭐&nbsp;Reviewers](<../73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) | Finders subscribe to [Reviewer ⭐ domains](<../73 ⭐ Reviewers/⭐🫥 Reviewer agent.md>) to receive updates of domain ranks across the NLWeb, as a result of user feedback. 
     | [👀&nbsp;Advertisers](<../../45 🤲 Helper domains/12 👀 Advertisers/👀🤲 Advertiser helper.md>) | Finders subscribe to [Advertiser 👀 domains](<../../45 🤲 Helper domains/12 👀 Advertisers/👀🤲 Advertiser helper.md>) to know which ads to show to users in addition to search results from [domain Manifests 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>). 
