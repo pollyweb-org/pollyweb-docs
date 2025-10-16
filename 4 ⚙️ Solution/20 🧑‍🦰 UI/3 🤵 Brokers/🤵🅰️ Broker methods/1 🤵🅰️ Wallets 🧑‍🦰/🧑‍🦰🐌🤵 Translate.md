@@ -7,7 +7,7 @@
 
 > The user requests the [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) to change the language in the [Wallet 🧑‍🦰 app](<../../../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
 
-> Used in: [🧑‍🦰👉🤵 Translate @ Wallet](<../../../1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/10 👉🤵 Set-up/🧑‍🦰💬🤵 Translate.md>).
+> Used in: [🧑‍🦰👉🤵 Translate @ Wallet](<../../../1 🧑‍🦰 Wallets/🧑‍🦰⏩ Wallet flows/10 👉🤵 Set-up/🧑‍🦰💬🤵 Translate.md>).
 
 <br/>
 

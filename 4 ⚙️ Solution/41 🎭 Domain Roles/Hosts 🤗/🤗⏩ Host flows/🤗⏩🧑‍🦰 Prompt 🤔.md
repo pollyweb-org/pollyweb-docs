@@ -11,8 +11,8 @@
 * Used by:
     * [🔎⏩🧑‍🦰 Introduce 🤗 flow](<../../../50 🫥 Agent domains/Finders 🔎/🔎⏩ Finder flows/🔎⏩🧑‍🦰 Introduce 🤗.md>)
     * [🤗⏩🧑‍🦰 Prompt 🤔](<🤗⏩🧑‍🦰 Prompt 🤔.md>) flow
-    * [🧑‍🦰👉🤗 Abandon Chat](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>) flow
-    * [💼⏩🧑‍🦰 Share Bind](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>) flow
+    * [🧑‍🦰👉🤗 Abandon Chat](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰⏩ Wallet flows/20 👉💬 Chats/03 🧑‍🦰👉🤵 Abandon chat.md>) flow
+    * [💼⏩🧑‍🦰 Share Bind](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰⏩ Wallet flows/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>) flow
 
 <br/>
 

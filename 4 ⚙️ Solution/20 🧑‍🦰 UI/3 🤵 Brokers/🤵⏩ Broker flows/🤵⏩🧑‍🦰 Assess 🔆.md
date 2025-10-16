@@ -4,9 +4,9 @@
     * parses the [Locator 🔆](<../../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) in the [Broker 🤵](<../🤵🤲 Broker helper.md>)
     * and opens a [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) on the [Wallet 🧑‍🦰 app](<../../1 🧑‍🦰 Wallets/🧑‍🦰 Wallet app.md>).
 * Used by:
-    * [🧑‍🦰👉🤗 Scan host QR](<../../1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>) flow
-    * [🧑‍🦰👉🤗 Scan printer QR](<../../1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/15 👉🔆 Locators/02 🧑‍🦰👉🤗 Scan printer QR.md>) flow
-    * [🧑‍🦰👉🤗 Prompt option](<../../1 🧑‍🦰 Wallets/🧑‍🦰👉 Wallet flows/15 👉🔆 Locators/03 🧑‍🦰👉🤗 Prompt option.md>) flow
+    * [🧑‍🦰👉🤗 Scan host QR](<../../1 🧑‍🦰 Wallets/🧑‍🦰⏩ Wallet flows/15 👉🔆 Locators/01 🧑‍🦰👉🤗 Scan host QR.md>) flow
+    * [🧑‍🦰👉🤗 Scan printer QR](<../../1 🧑‍🦰 Wallets/🧑‍🦰⏩ Wallet flows/15 👉🔆 Locators/02 🧑‍🦰👉🤗 Scan printer QR.md>) flow
+    * [🧑‍🦰👉🤗 Prompt option](<../../1 🧑‍🦰 Wallets/🧑‍🦰⏩ Wallet flows/15 👉🔆 Locators/03 🧑‍🦰👉🤗 Prompt option.md>) flow
     * [🗄️⏩🧑‍🦰 Engage @ Vault 💬](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️⏩ Vault flows/🗄️⏩🧑‍🦰 Engage 💬.md>) flow
 
 <br/>
