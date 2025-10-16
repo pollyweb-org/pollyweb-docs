@@ -3,7 +3,7 @@
 <!-- 👂 https://quip.com/wJICAbOcyHUM/-AnyListenerorg -->
 
 ```yaml
-🤝: nlweb.org/MANIFEST
+🤝: nlweb.dom/MANIFEST
 
 About:
   Domain: listener.amazon.com

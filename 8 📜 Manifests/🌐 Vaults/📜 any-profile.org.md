@@ -2,7 +2,7 @@
 # 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): any-profile.org
 
 ```yaml
-🤝: nlweb.org/MANIFEST
+🤝: nlweb.dom/MANIFEST
 
 About:
   Domain: any-profile.org
@@ -16,5 +16,5 @@ Trusts:
     
   # Trust all requests from anyone.
   - Role: CONSUMER
-    Query: nlweb.org/PERSONA/*
+    Query: nlweb.dom/PERSONA/*
     

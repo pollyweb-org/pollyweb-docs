@@ -1,7 +1,7 @@
 
 # [🧩](<../../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) [Schema Code](<../../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>): Host
 
-> Inherits from [`nlweb.org/LOCATOR` 🧩](<../../../../7 🧩 Codes/$/🧩 LOCATOR code.md>)
+> Inherits from [`nlweb.dom/LOCATOR` 🧩](<../../../../7 🧩 Codes/$/🧩 LOCATOR code.md>)
 
 > Used by [Printer 🖨️ domain](<../../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>)
 
@@ -18,4 +18,4 @@ Path: /HOST
 Description: Locator of a Host.
 
 Schema:
-  Inherits: nlweb.org/LOCATOR:1.0
+  Inherits: nlweb.dom/LOCATOR:1.0

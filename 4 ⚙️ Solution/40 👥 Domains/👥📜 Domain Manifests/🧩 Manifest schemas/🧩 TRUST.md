@@ -14,7 +14,7 @@
 | Property | Type | Notes| Examples
 |-|-|-|-
 | `Expires`        | string | Date limit  in UTC timestamp | `2024-01-10`
-| `Domain` | string | [Domain 👥](<../../👥 Domains/👥 Domain.md>) to [Trust 👍](<../../👥👍 Domain Trusts/👍 Domain Trust.md>) <br/>- defaults to `*` | `*` `nlweb.org` 
+| `Domain` | string | [Domain 👥](<../../👥 Domains/👥 Domain.md>) to [Trust 👍](<../../👥👍 Domain Trusts/👍 Domain Trust.md>) <br/>- defaults to `*` | `*` `nlweb.dom` 
 | or `Domains` | array | Additional list of domains  | `[a.co, b.co]`
 | `Query`  | string | [Schema Codes 🧩](<../../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) to [Trust 👍](<../../👥👍 Domain Trusts/👍 Domain Trust.md>) | `*` `/PERSONA/*`
 | or `Queries`  | array | Additional list of queries | `[*]`
@@ -64,7 +64,7 @@
   ```yaml
   # Certified Helpers
   - Action: GRANT
-    Domain: nlweb.org
+    Domain: nlweb.dom
     Query: .HELPER/*
   ```
 
@@ -92,7 +92,7 @@ Schema:
         properties: 
           Query:
             type: string
-            example: nlweb.org/PERSONA/*
+            example: nlweb.dom/PERSONA/*
 
       - required: [Queries]
         properties:
@@ -112,16 +112,16 @@ Schema:
         default: GRANT
 
       Expires:
-        $ref: Timestamp@nlweb.org/TYPES
+        $ref: Timestamp@nlweb.dom/TYPES
 
       Domain:
-        $ref: Domain@nlweb.org/TYPES
+        $ref: Domain@nlweb.dom/TYPES
         default: '*'
 
       Domains:
         type: array
         items: 
-          $ref: Domain@nlweb.org/TYPES
+          $ref: Domain@nlweb.dom/TYPES
         minItems: 1
 
       Role:

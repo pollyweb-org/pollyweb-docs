@@ -18,7 +18,7 @@ Description: >
 
 Schemas:
   Version: 1.0
-  Inherits: nlweb.org/LOCATOR:1.0
+  Inherits: nlweb.dom/LOCATOR:1.0
 
   Properties:
     - Issued   #date

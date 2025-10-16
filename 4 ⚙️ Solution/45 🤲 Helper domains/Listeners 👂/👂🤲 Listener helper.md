@@ -52,7 +52,7 @@
 
 1. **How do domains discover Listeners?**
 
-    Domains can either contact a [Listener 👂 domain](<👂🤲 Listener helper.md>) directly, or they can use the NLWeb cluster at `listeners.nlweb.org`. 
+    Domains can either contact a [Listener 👂 domain](<👂🤲 Listener helper.md>) directly, or they can use the NLWeb cluster at `listeners.nlweb.dom`. 
     * NLWeb advocates for a combination of both, defaulting to the cluster, and falling back to a named [Listener 👂 domain](<👂🤲 Listener helper.md>) in case the cluster is compromised.
 
     ---
@@ -244,7 +244,7 @@
 1. **Is the cluster endpoint a single point of failure?**
 
     No. 
-    * The NLWeb cluster endpoint is a latency-based routing visible at a well-known DNS name (`listeners.nlweb.org`). 
+    * The NLWeb cluster endpoint is a latency-based routing visible at a well-known DNS name (`listeners.nlweb.dom`). 
     * While this endpoint is managed by the NLWeb foundation under the supervision of a consortium of multiple cloud providers, domains should nonetheless fall back to using a specific [Listener 👂 node](<👂🤲 Listener helper.md>) in case the cluster is unavailable.
 
     ---

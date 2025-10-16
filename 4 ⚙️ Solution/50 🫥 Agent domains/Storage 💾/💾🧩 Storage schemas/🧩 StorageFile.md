@@ -12,7 +12,7 @@ Path: /STORAGE/FILE
 Description: Schema of a file share when migrating storages.
 
 Schema:
-  Location: https://nlweb.org/schemas/file.json
+  Location: https://nlweb.dom/schemas/file.json
   Format:
     type: object
     properties:

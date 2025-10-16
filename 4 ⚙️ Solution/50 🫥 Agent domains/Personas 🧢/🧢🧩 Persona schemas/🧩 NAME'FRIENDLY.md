@@ -31,4 +31,4 @@ Schema:
       Name:
         type: string
       Pronouns: 
-        $ref: nlweb.org/PERSONA/NAME/PRONOUNS:1.0
+        $ref: nlweb.dom/PERSONA/NAME/PRONOUNS:1.0

@@ -16,7 +16,7 @@ About:
     SmallIcon: 'https://picsum.photos/20/20'
     BigIcon: 'https://picsum.photos/100/100'
 
-    Feedback: any-feedback.nlweb.org
+    Feedback: any-feedback.nlweb.dom
 
     Translations: 
         en: Any Domain
@@ -53,7 +53,7 @@ Schema:
     properties:
       
       Domain: 
-        $ref: Domain@nlweb.org/TYPES
+        $ref: Domain@nlweb.dom/TYPES
       
       Name: 
         type: string

@@ -3,7 +3,7 @@
 <!-- 🕸️ https://quip.com/b1ddAt8jTx8p -->
 
 ```yaml
-🤝: nlweb.org/MANIFEST
+🤝: nlweb.dom/MANIFEST
 
 About:
   Domain: graph.amazon.com

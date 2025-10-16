@@ -2,7 +2,7 @@
 # [🧩](<../../4 ⚙️ Solution/30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) [Schema Code](<../../4 ⚙️ Solution/30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>): DeployStack
 
 ```yaml
-🤝: nlweb.org/MANIFEST/CODE
+🤝: nlweb.dom/MANIFEST/CODE
 Path: /DEPLOY/STACK
 Name: Deploy Stack
 
@@ -64,5 +64,5 @@ Schema:
         description: Dictionary of resources to deploy.
         type: object
         additionalProperties:
-          $ref: nlweb.org/DEPLOY/STACK/RESOURCE
+          $ref: nlweb.dom/DEPLOY/STACK/RESOURCE
         

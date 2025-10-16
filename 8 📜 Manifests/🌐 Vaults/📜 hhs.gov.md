@@ -3,7 +3,7 @@
 <!--# 🇺🇸🏥 https://quip.com/xt4NAtlVAjQJ/-HHSgov-->
 
 ```yaml
-🤝: nlweb.org/MANIFEST
+🤝: nlweb.dom/MANIFEST
 
 About:
   Domain: hhs.gov

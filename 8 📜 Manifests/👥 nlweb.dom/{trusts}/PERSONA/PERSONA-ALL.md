@@ -1,9 +1,9 @@
 
 # PERSONA-ALL
 ```yaml
-🤝: nlweb.org/MANIFEST/TRUST
+🤝: nlweb.dom/MANIFEST/TRUST
 
 Title: Trusted Personas
-Query: nlweb.org/PERSONA/*
+Query: nlweb.dom/PERSONA/*
 Role: VAULT
 Domain: any-profile.org

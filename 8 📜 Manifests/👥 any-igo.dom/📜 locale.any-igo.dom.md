@@ -2,7 +2,7 @@
 # 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): locale.any-igo.dom
 
 ```yaml
-🤝: nlweb.org/MANIFEST
+🤝: nlweb.dom/MANIFEST
 
 About:
   Domain: locale.any-igo.dom
@@ -18,12 +18,12 @@ About:
 Datasets:
 
   # [🧩](<../../4 ⚙️ Solution/30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) //COUNTRY list.
-  - Dataset: nlweb.org/LOCALE/COUNTRY:1.0
+  - Dataset: nlweb.dom/LOCALE/COUNTRY:1.0
     Requires: 
       Language: Code@standards.any-igo.dom/639-1
     
   # [🧩](<../../4 ⚙️ Solution/30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) //DIALCODE list.
-  - Dataset: nlweb.org/LOCALE/DIALCODE:1.0
+  - Dataset: nlweb.dom/LOCALE/DIALCODE:1.0
     Requires: 
       Language: Code@standards.any-igo.dom/639-1
       

@@ -6,7 +6,7 @@
 <br/> 
 
 ```yaml
-🤝: nlweb.org/MANIFEST
+🤝: nlweb.dom/MANIFEST
 
 About:
   Domain: any-firewall.org

@@ -15,4 +15,4 @@ Description: Token for a self booking.
 
 Schema:
   Version: 1.0
-  Inherits: nlweb.org/HOST/BOOKING:1.0
+  Inherits: nlweb.dom/HOST/BOOKING:1.0

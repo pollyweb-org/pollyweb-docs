@@ -2,7 +2,7 @@
 # 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): utility.any-business.org
 
 ```yaml
-🤝: nlweb.org/MANIFEST
+🤝: nlweb.dom/MANIFEST
 
 About:
   Domain: utility.any-business.org
@@ -10,5 +10,5 @@ About:
 
 Trusts:
 
-  - Query: nlweb.org/PERSONA/*
-    Domain: nlweb.org
+  - Query: nlweb.dom/PERSONA/*
+    Domain: nlweb.dom

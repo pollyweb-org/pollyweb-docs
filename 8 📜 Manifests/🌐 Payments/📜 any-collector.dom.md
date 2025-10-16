@@ -3,7 +3,7 @@
 <!--# 🏳️🏦 https://quip.com/vbUAAxbmqgnY/-AnyCollectoruk-->
 
 ```yaml
-🤝: nlweb.org/MANIFEST
+🤝: nlweb.dom/MANIFEST
 
 About:
   Domain: any-collector.dom
@@ -15,14 +15,14 @@ Trusts:
 
   # Expose only to certain exchanges.
   - Role: CONSUMER
-    Query: nlweb.org/PAY/COLLECTOR
+    Query: nlweb.dom/PAY/COLLECTOR
     Domains:
       - any-exchange.org
       
 
   # Collect from limited payers.
   - Role: VAULT
-    Query: nlweb.org/PAY/PAYMENT
+    Query: nlweb.dom/PAY/PAYMENT
     Domains: 
       - any-payer.dom
       - any-exchange.org

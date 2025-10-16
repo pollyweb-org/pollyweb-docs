@@ -16,12 +16,12 @@ Schema:
 
       Code:
         type: string
-        example: nlweb.org/LOCATOR
+        example: nlweb.dom/LOCATOR
         description: >
           Reference to a data type defined by the manifest of an authority.
           It's composed by the authority's domain and code path.
-          For example, for [nlweb.org/LOCATOR]:
-          - the manifest is at http://nlweb.org.com/manifest;
+          For example, for [nlweb.dom/LOCATOR]:
+          - the manifest is at http://nlweb.dom.com/manifest;
           - the schema definition is at 'Path:/LOCATOR' inside the manifest.
           Note: the manifest may delegate the definition to sub manifests.
 
@@ -43,15 +43,15 @@ Schema:
 
       Schema: 
         type: string
-        example: nlweb.org/LOCATOR:3.11
+        example: nlweb.dom/LOCATOR:3.11
         description: >
           Reference to the schema of data type defined by the manifest of an authority.
           It's composed by the authority's domain, code path, and an optional version.
-          For example, for [nlweb.org/LOCATOR:3.11]:
-          - the manifest is at http://nlweb.org.com/manifest;
+          For example, for [nlweb.dom/LOCATOR:3.11]:
+          - the manifest is at http://nlweb.dom.com/manifest;
           - the schema definition is at 'Path: /LOCATOR' inside the manifest;
           - the version of the schema is 3.11 (if omitted, defaults to 1.0).
-          For example, for [nlweb.org/LOCATOR]:
+          For example, for [nlweb.dom/LOCATOR]:
           - the version of the schema is 1.0 (the default).
           Note: the manifest may delegate the definition to sub manifests.
 

@@ -3,7 +3,7 @@
 <!--# 🏳️🆔 https://quip.com/KUnAAt2utXFQ/-AnyBiometricuk-->
 
 ```yaml
-🤝: nlweb.org/MANIFEST
+🤝: nlweb.dom/MANIFEST
 
 About:
   Domain: biometrics.any-nation.dom

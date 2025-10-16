@@ -30,7 +30,7 @@ Schema:
   Example: 
     Dataset: Code@standards.any-igo.dom/639-1
     Requires:
-      Language: nlweb.org/LOCALE/LANGUAGE:1.0
+      Language: nlweb.dom/LOCALE/LANGUAGE:1.0
 
   Format: 
     type: object
@@ -38,11 +38,11 @@ Schema:
     properties: 
 
       Dataset:
-        $ref: Schema@nlweb.org/TYPES
-        example: nlweb.org/LOCALE/COUNTRY:1.0
+        $ref: Schema@nlweb.dom/TYPES
+        example: nlweb.dom/LOCALE/COUNTRY:1.0
  
       Requires:
         type: object
         additionalProperties:
-          $ref: Schema@nlweb.org/TYPES
+          $ref: Schema@nlweb.dom/TYPES
  

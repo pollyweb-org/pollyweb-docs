@@ -41,7 +41,7 @@
    
     | Argument| Purpose
     |-|-
-    | `<code-n>`  | [Schema Codes 🧩](<../../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) for [`Query@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Query.md>) <br/>For readability, a dot replaces `nlweb.org/`
+    | `<code-n>`  | [Schema Codes 🧩](<../../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) for [`Query@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Query.md>) <br/>For readability, a dot replaces `nlweb.dom/`
     | `{context}`| Object with context, when applicable.
     | `$shared`| An object returned by [`Collect@Vault`](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/💼🚀🗄️ Collect.md>).<br/> Or a Token list from [`Receive@Consumer`](<../../../41 🎭 Domain Roles/Consumers 💼/💼🅰️ Consumer methods/🧑‍🦰🐌💼 Receive.md>).
 
@@ -51,13 +51,13 @@
 
 1. **What does the dot mean in a code?**
 
-    Given that the [Schema Codes 🧩](<../../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) defined by `nlweb.org` will be widely used, 
-    * [Talkers 😃](<../😃 Talker.md>) accept a dot as a prefix of `nlweb.org/`.
+    Given that the [Schema Codes 🧩](<../../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) defined by `nlweb.dom` will be widely used, 
+    * [Talkers 😃](<../😃 Talker.md>) accept a dot as a prefix of `nlweb.dom/`.
     * Consider the following equal examples.
 
         ```yaml
         SHARE|.IDENTITY/OVER21 >> $social          
-        SHARE|nlweb.org/IDENTITY/OVER21 >> $social 
+        SHARE|nlweb.dom/IDENTITY/OVER21 >> $social 
         ```
 
     ---
@@ -90,7 +90,7 @@
    
     | Data | [Schema Code 🧩](<../../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>)
     |-|-
-    | Social Name |  [`nlweb.org/PERSONA/NAME/SOCIAL` 🧩](<../../../50 🫥 Agent domains/Personas 🧢/🧢🧩 Persona schemas/🧩 NAME'SOCIAL.md>)
+    | Social Name |  [`nlweb.dom/PERSONA/NAME/SOCIAL` 🧩](<../../../50 🫥 Agent domains/Personas 🧢/🧢🧩 Persona schemas/🧩 NAME'SOCIAL.md>)
    
     ---
     <br/>

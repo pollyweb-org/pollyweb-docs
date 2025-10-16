@@ -32,13 +32,13 @@ Schema:
       properties:
 
         Name:
-          $ref: nlweb.org.com/PERSONA/NAME/SOCIAL
+          $ref: nlweb.dom.com/PERSONA/NAME/SOCIAL
 
         Pronouns:
-          $ref: nlweb.org.com/PERSONA/NAME/PRONOUNS
+          $ref: nlweb.dom.com/PERSONA/NAME/PRONOUNS
 
         Phone:
-          $ref: nlweb.org.com/PERSONA/PHONE
+          $ref: nlweb.dom.com/PERSONA/PHONE
 
         Relationship:
           type: string

@@ -23,7 +23,7 @@ Body:
     Language: en-us
     ChatID: <chat-uuid>
     PublicKey: <public-key>
-    Code: nlweb.org/THING
+    Code: nlweb.dom/THING
     Locator: MY-THING-ID
     Binds: 
         - <bind-#1-uuid>

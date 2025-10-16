@@ -6,7 +6,7 @@
 1. **How do domains avoid interacting with bad actors?**
 
     The NLWeb implements a domain trust framework that allows:
-    * [sender domains 📤](<../👥 Domains/👥 Domain.md>) to know if they can [trust 👍](<👍 Domain Trust.md>) a [receiver domain 📥](<../👥 Domains/👥 Domain.md>) with a specific [Schema Code 🧩](<../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) path - e.g. `nlweb.org/PERSONA/*`, and vice-versa.
+    * [sender domains 📤](<../👥 Domains/👥 Domain.md>) to know if they can [trust 👍](<👍 Domain Trust.md>) a [receiver domain 📥](<../👥 Domains/👥 Domain.md>) with a specific [Schema Code 🧩](<../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) path - e.g. `nlweb.dom/PERSONA/*`, and vice-versa.
     
     For example:
       * `any-buyer.com` may accept payment requests 
@@ -20,7 +20,7 @@
 
     [Trusts 👍](<👍 Domain Trust.md>) 
     * are defined in [domain Manifests 📜](<../👥📜 Domain Manifests/📜 Manifest.md>) 
-    * using the schema code [nlweb.org/MANIFEST/TRUST 🧩](<../👥📜 Domain Manifests/🧩 Manifest schemas/🧩 TRUST.md>).
+    * using the schema code [nlweb.dom/MANIFEST/TRUST 🧩](<../👥📜 Domain Manifests/🧩 Manifest schemas/🧩 TRUST.md>).
 
     ```yaml
     # Trust example
@@ -28,8 +28,8 @@
       Expires: '2050-01-01T10:00:00.000Z' # Empty = forever
       Action: GRANT                       # Empty = grant
       Roles: CONSUMER                     # Empty = both
-      Query: nlweb.org/PERSONA/*          # Empty = anything
-      Domain: nlweb.org                   # Empty = everyone
+      Query: nlweb.dom/PERSONA/*          # Empty = anything
+      Domain: nlweb.dom                   # Empty = everyone
     ```
 
     Property | Type | Description

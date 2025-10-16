@@ -34,8 +34,8 @@ Schemas:
         type: string
 
       Country: 
-        $ref: Country@nlweb.org/PERSONA/ADDRESS:1.0
+        $ref: Country@nlweb.dom/PERSONA/ADDRESS:1.0
 
       Address:
-        $ref: Address@nlweb.org/PERSONA/ADDRESS:1.0
+        $ref: Address@nlweb.dom/PERSONA/ADDRESS:1.0
     

@@ -56,7 +56,7 @@
 
     NLWeb advocates for [Hosts 🤗 domains](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) to request as little [Prompts 🤔](<../🤔 Prompt.md>) from users as possible;
     * instead, request users to share datasets using [Schema Code 🧩](<../../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>);
-    * e.g., ask to share the code `nlweb.org/BOOKING/CONTACTS` instead of asking for the name, then the phone number, then the email address, and so on.
+    * e.g., ask to share the code `nlweb.dom/BOOKING/CONTACTS` instead of asking for the name, then the phone number, then the email address, and so on.
   
     When [Prompts 🤔](<../🤔 Prompt.md>) are inevitable, avoid [`TEXT`](<../🤔✏️ Prompt inputs/32 🔠 TEXT prompt.md>) prompts; 
     * instead, prefer low-effort prompts like [`ONE`](<../🤔✏️ Prompt inputs/53 1️⃣ ONE prompt.md>);

@@ -78,14 +78,14 @@ Schema:
 
 * Example of a parent sequence:
   ```yaml 
-  # Schema: nlweb.org/TOKEN:1.0
+  # Schema: nlweb.dom/TOKEN:1.0
   Properties: [ Code, Version, Issuer, Locator, Issued, Expires, *, Signature ]
   ```
 
 * Example of an inherited token with additional metadata:
   ```yaml
   # Schema: airlines.any-igo.dom/SSR/WCHR:1.0
-  Inherits: nlweb.org/TOKEN:1.0
+  Inherits: nlweb.dom/TOKEN:1.0
   Properties: [ IsElectric, Size, NeedsAssistant, DateOfBirth ]
   ```
 
@@ -118,7 +118,7 @@ Schema:
         type: string
 
       Delegator:
-        $ref: Domain@nlweb.org/TYPES
+        $ref: Domain@nlweb.dom/TYPES
 
       Name: 
         type: string
