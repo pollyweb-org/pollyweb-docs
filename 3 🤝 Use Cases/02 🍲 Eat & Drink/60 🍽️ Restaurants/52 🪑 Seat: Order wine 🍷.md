@@ -17,7 +17,7 @@ How to order wine to the table at a restaurant?
 | 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) | ⓘ A glass of red wine it is. 
 | 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) | 💭 Anything else? [No] | > No
 | 🍽️ Restaurant | ℹ️ Order ($3): [Change] <br/> - 1 red wine glass 🍷 ($3)
-| 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agent domains/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | 🫥 Confirm? [Yes, No] <br/> - you came by car. | > Yes
+| 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agent domains/95 💖 Vitalogists/💖🫥 Vitalogist agent.md>) | 🫥 Confirm? [Yes, No] <br/> - you came by car. | > Yes
 | 🆔 [Identity](<../../../4 ⚙️ Solution/50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Share over 21? [Yes, No]     | > Yes
 | 🆔 [Identity](<../../../4 ⚙️ Solution/50 🫥 Agent domains/45 🆔 Identities/$ 🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../../4 ⚙️ Solution/50 🫥 Agent domains/45 🆔 Identities/21 🆔😶 Face scan.md>)
 | 🍽️ Restaurant | ✅ Order submitted [+]

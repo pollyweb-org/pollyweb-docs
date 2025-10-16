@@ -19,7 +19,7 @@ How to order food to the table at a restaurant?
 | 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) | 💭 Try paella? <br/>- [ traditional paella 🥘 ] <br/> - [ dark paella 🥘 ] | > dark paella 🥘
 | 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agent domains/30 🧚 Curators/🧚🫥 Curator agent.md>) | 💭 Anything else? [No] <br/> - [ ] bread 🍞 <br/> - [ ] olives 🫒 | > No
 | 🍽️ Restaurant  | ℹ️ Order ($15): [Change] <br/> - 1 tap water 🚰 (free) <br/> - 1 dark paella 🥘 ($15) 
-| 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agent domains/95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>) | 🫥 Confirm? [Yes, No] <br/> - water: may be mishandled. <br/> - paella: may cause allergy | > Yes
+| 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agent domains/95 💖 Vitalogists/💖🫥 Vitalogist agent.md>) | 🫥 Confirm? [Yes, No] <br/> - water: may be mishandled. <br/> - paella: may cause allergy | > Yes
 | 🍽️ Restaurant | 😃 Food will take ~10 min: <br/> - [ OK ] no problem <br/> - [ Change ] order | > OK
 | 🍽️ Restaurant | ✅ Order submitted [+]
 | 🍽️ Restaurant | ⏳ Preparing your order... [+]

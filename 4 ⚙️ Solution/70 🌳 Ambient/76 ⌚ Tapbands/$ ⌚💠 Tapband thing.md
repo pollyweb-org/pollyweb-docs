@@ -13,7 +13,7 @@
     
     - 🔒 **Keyholder**: has an active NFC scanner to interact with [Padlocks 🔒](<../75 🔒 Padlocks/$ 🔒 Padlock device.md>);
     
-    - 💖 **Health monitoring**: optionally, collects metrics from the user's device to send to a [Timeline 🕓](<../../50 🫥 Agent domains/90 🕓 Timeline/$ 🕓🗄️ Timeline agent.md>).
+    - 💖 **Health monitoring**: optionally, collects metrics from the user's device to send to a [Timeline 🕓](<../../50 🫥 Agent domains/90 🕓 Timeline/🕓🫥 Timeline agent.md>).
 
     ---
 

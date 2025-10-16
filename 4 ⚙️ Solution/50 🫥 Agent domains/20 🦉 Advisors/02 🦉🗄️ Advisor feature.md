@@ -5,14 +5,14 @@
 
 1. **What is an Advisor?**
 
-    Advisors are user-bound [Vaults 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) that anonymously assess users' [🕓 Timelines](<../90 🕓 Timeline/$ 🕓🗄️ Timeline agent.md>) measurements according to a certain expertise.
+    Advisors are user-bound [Vaults 🗄️](<../../41 🎭 Domain Roles/80 🗄️ Vaults/🗄️🎭 Vault role.md>) that anonymously assess users' [🕓 Timelines](<../90 🕓 Timeline/🕓🫥 Timeline agent.md>) measurements according to a certain expertise.
 
     ---
 
 1. **What are examples of Advisor expertise?**
 
     Examples of Advisor expertise are:
-    - Health advisory (e.g., via a [Vitalogist 💖](<../95 💖 Vitalogists/$ 💖🫥 Vitalogist agent.md>));
+    - Health advisory (e.g., via a [Vitalogist 💖](<../95 💖 Vitalogists/💖🫥 Vitalogist agent.md>));
     - Travel advisory (e.g., Trip Advisor);
     - other typical consultancy professions (e.g., finance, law, nutrition).
 
