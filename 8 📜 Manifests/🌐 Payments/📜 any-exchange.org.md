@@ -17,5 +17,5 @@ Trusts:
     Queries: 
       - nlweb.org/PAY/PAYER
     Domains: 
-      - any-payer.org
+      - any-payer.dom
       

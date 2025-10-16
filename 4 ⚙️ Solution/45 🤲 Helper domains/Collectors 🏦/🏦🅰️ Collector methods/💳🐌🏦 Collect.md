@@ -14,14 +14,14 @@
 
 ```yaml
 Header:
-   From: any-payer.com
+   From: any-payer.dom
    To: collector.com
    Subject: Collect@Collector
    
 Body:
    Session: 
-      Host: any-seller.com
-      Broker: any-broker.com
+      Host: any-seller.dom
+      Broker: any-broker.dom
       Locator: <any-locator>
       SessionID: <session-uuid>
    Charge: 
@@ -30,7 +30,7 @@ Body:
       Amount: 10.54
       Currency: USD
       Collectors: 
-         - any-collector.com
+         - any-collector.dom
    Transaction: 
       a: 1
 ```

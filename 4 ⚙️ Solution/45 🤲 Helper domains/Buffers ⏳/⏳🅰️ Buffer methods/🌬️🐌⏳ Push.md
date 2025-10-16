@@ -10,11 +10,11 @@
 
 ```yaml
 Header:
-    From: any-streamer.com
-    To: any-buffer.com
+    From: any-streamer.dom
+    To: any-buffer.dom
     Subject: Push@Buffer
 Body:
-    Subscriber: any-subscriber.com
+    Subscriber: any-subscriber.dom
     Queue: <queue-uuid>
     Message: <encrypted-content>
 ```

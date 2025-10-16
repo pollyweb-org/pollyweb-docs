@@ -11,12 +11,12 @@
 
 ```yaml
 Header:
-    From: any-subscriber.com
-    To: any-streamer.com
+    From: any-subscriber.dom
+    To: any-streamer.dom
     Subject: Subscribe@Streamer
 Body:
     Stream: ANY-STREAM
-    Buffer: any-buffer.com
+    Buffer: any-buffer.dom
     Queue: <queue-uuid>
     Filters: 
         Property1: Value1

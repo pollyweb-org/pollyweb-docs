@@ -78,7 +78,7 @@
 
 9.  **How are anonymous Locators translated?**
 
-    Printers 🖨️ manage anonymous [Locators 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) with a redirection (e.g., `any-printer.com/random-locator`) that will be bound later to a final [Locator 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>). 
+    Printers 🖨️ manage anonymous [Locators 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) with a redirection (e.g., `any-printer.dom/random-locator`) that will be bound later to a final [Locator 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>). 
     - For this, Printers charge [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) for a commitment lifetime.
     - After the commitment, the redirection stops working, turning the [Locator 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) useless.
 

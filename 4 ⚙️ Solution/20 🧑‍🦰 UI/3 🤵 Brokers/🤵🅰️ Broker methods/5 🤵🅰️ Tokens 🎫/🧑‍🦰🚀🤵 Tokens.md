@@ -17,7 +17,7 @@
 ```yaml
 Header:
     From: <wallet-uuid>
-    To: any-broker.com
+    To: any-broker.dom
     Subject: Tokens@Broker
 Body: 
 ```
@@ -35,13 +35,13 @@ Body:
 
 ```yaml
 Tokens:
-  - Issuer: any-issuer.com
+  - Issuer: any-issuer.dom
     TokenID: <token-uuid>
     IssuerTitle: Any Issuer
     CodeTitle: Any Code
-    Path: /storage/nlweb/tokens/any-issuer.com/<token-uuid>
+    Path: /storage/nlweb/tokens/any-issuer.dom/<token-uuid>
     Status: REVOKED
-    Locator: .TOKEN,any-issuer.com,any-key
+    Locator: .TOKEN,any-issuer.dom,any-key
 ```
 
 |Object|Property|Type|Description|

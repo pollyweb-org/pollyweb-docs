@@ -21,7 +21,7 @@
     ```yaml
     # 📤 Outbound.yaml
 
-    Proxy: https://{uuid}.proxies.any-hoster.com
+    Proxy: https://{uuid}.proxies.any-hoster.dom
     ```
 
     | Property | Type | Description

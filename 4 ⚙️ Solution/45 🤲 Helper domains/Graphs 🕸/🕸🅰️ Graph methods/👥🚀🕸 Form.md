@@ -12,12 +12,12 @@
 
 ```yaml
 Header: 
-    From: any-consumer.com
-    To: any-broker.com
+    From: any-consumer.dom
+    To: any-broker.dom
     Subject: Form@Graph
 
 Body:
-    Domain: any-consumer.com
+    Domain: any-consumer.dom
     Form: AnyForm
 ```
 

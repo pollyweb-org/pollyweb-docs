@@ -39,8 +39,8 @@ The associated [Talker 😃](<../../../35 💬 Chats/😃 Talkers/😃 Talker.md
 
 ```yaml
 Header:
-    From: any-broker.com
-    To: any-host.com
+    From: any-broker.dom
+    To: any-host.dom
     Subject: Home@Host
 
 Body:

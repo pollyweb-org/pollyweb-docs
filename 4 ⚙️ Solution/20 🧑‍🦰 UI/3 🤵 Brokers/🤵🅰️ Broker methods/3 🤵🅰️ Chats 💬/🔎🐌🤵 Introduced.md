@@ -14,8 +14,8 @@
 
 ```yaml
 Header:
-    From: any-finder.com
-    To: any-broker.com
+    From: any-finder.dom
+    To: any-broker.dom
     Subject: Introduced@Broker
 
 Body:

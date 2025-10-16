@@ -61,9 +61,9 @@
     || [🏳️🎰 Any Casino](<../../../8 📜 Manifests/🌐 Businesses/📜 casino.any-business.org.md>)
     || [🇸🇬💈 Any Hairdresser, Singapore](<../../../8 📜 Manifests/🌐 Businesses/📜 hairdresser.any-business.org.md>)
     |`💳 Payments`| [🏳️🪙 Any Bank](<../../../8 📜 Manifests/🌐 Payments/📜 any-bank.org.md>)
-    || [🏳️🏦 Any Collector](<../../../8 📜 Manifests/🌐 Payments/📜 any-collector.org.md>)
+    || [🏳️🏦 Any Collector](<../../../8 📜 Manifests/🌐 Payments/📜 any-collector.dom.md>)
     || [🏳️💰 Any Exchange](<../../../8 📜 Manifests/🌐 Payments/📜 any-exchange.org.md>)
-    || [🏳️💳 Any Payer](<../../../8 📜 Manifests/🌐 Payments/📜 any-payer.org.md>)
+    || [🏳️💳 Any Payer](<../../../8 📜 Manifests/🌐 Payments/📜 any-payer.dom.md>)
     || [🏳️🏧 Any Cash Machine](<../../../8 📜 Manifests/🌐 Payments/📜 atm.any-fintech.org.md>)
     |`✈️ Airlines` | [🏳️🛫 Any Airport](<../../../8 📜 Manifests/👥 any-nation.org/📜 airport.any-nation.org.md>)
     | | [🏳️💺 Any Airline](<../../../8 📜 Manifests/🌐 Businesses/📜 airline.any-business.org.md>)
@@ -90,13 +90,13 @@
     | `🌍 Other Nations`| [🇲🇹 Government of Malta](<../../../8 📜 Manifests/👥 Authorities/📜 gov.mt.md>)
     || [🇮🇹 Italian Government](<../../../8 📜 Manifests/👥 Authorities/📜 governo.it.md>) 
     | `🤲 Helper domains` | [🔥 Any Firewall](<../../../8 📜 Manifests/🌐 Backbone/📜 any-firewall.org.md>)
-    || [🕸️ Any Graph](<../../../8 📜 Manifests/🌐 Backbone/📜 any-graph.org.md>)
+    || [🕸️ Any Graph](<../../../8 📜 Manifests/🌐 Backbone/📜 any-graph.dom.md>)
     || [🕸️🇪🇺 Graph of European Union](<../../../8 📜 Manifests/🌐 Backbone/📜 graph.amazon.com.md>)
     || [🕸️☁️ Amazon Graph](<../../../8 📜 Manifests/🌐 Backbone/📜 graph.amazon.com.md>)
-    || [👂 Any Listener](<../../../8 📜 Manifests/🌐 Backbone/📜 any-listener.org.md>)
+    || [👂 Any Listener](<../../../8 📜 Manifests/🌐 Backbone/📜 any-listener.dom.md>)
     || [👂☁️ Amazon Listener](<../../../8 📜 Manifests/🌐 Backbone/📜 listener.amazon.com.md>)
     |`👱 Wallet domains`|  [🤵 Any Broker](<../../../8 📜 Manifests/🌐 Brokers/📜 any-broker.org.md>)
-    || [📣 Any Wallet Notifier](<../../../8 📜 Manifests/🌐 Brokers/📜 any-notifier.org.md>)
+    || [📣 Any Wallet Notifier](<../../../8 📜 Manifests/🌐 Brokers/📜 any-notifier.dom.md>)
 
     ---
     <br/>

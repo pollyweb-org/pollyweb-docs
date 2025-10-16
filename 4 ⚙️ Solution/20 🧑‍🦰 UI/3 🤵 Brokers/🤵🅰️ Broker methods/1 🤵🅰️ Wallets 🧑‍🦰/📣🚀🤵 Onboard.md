@@ -13,8 +13,8 @@
 
 ```yaml
 Header:
-    From: any-notifier.com
-    To: any-broker.com
+    From: any-notifier.dom
+    To: any-broker.dom
     Subject: Onboard@Broker
 
 Body:

@@ -39,13 +39,13 @@
 
     ```yaml
     Header:
-        From: any-consumer.com
-        To: any-broker.com
+        From: any-consumer.dom
+        To: any-broker.dom
         Subject: Invite@Broker
 
     Body:
         ChatID: <chat-uuid>
-        Invitee: any-identity.com
+        Invitee: any-identity.dom
         Callback: <callback-uuid>
         Code: nlweb.org/IDENTITY/VERIFY
         Parameters:

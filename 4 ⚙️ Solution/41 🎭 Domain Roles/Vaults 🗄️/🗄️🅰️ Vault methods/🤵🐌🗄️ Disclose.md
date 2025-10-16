@@ -14,8 +14,8 @@
 
 ```yaml
 Header:
-    From: any-broker.com
-    To: any-broker.com
+    From: any-broker.dom
+    To: any-broker.dom
     Subject: Disclose@Vault
     
 Body:

@@ -7,8 +7,8 @@
 
 ```yaml
 Header:
-    From: any-broker.com
-    To: any-notifier.com
+    From: any-broker.dom
+    To: any-notifier.dom
     Subject: Remove@Notifier
 Body:
     Path: /storage/nlweb/tokens/<issuer>/<token-uuid>

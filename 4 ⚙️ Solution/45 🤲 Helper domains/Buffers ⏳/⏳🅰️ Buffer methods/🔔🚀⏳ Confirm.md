@@ -14,8 +14,8 @@
 
 ```yaml
 Header:
-    From: any-subscriber.com
-    To: any-buffer.com
+    From: any-subscriber.dom
+    To: any-buffer.dom
     Subject: Confirm@Buffer
 Body:
     Poll: <poll-uuid>

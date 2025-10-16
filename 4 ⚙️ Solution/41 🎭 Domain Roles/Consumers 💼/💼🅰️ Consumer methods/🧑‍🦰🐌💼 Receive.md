@@ -16,12 +16,12 @@
 ```yaml
 Header:
     From: Anonymous
-    To: any-consumer.com
+    To: any-consumer.dom
     Subject: Receive@Consumer
 Body: 
     ChatID: <chat-uuid>
     Tokens: 
-      - Issuer: any-issuer.com
+      - Issuer: any-issuer.dom
         TokenID: ANY-TOKEN-KEY
         Code: airlines.any-igo.org/SSR/WCH:1 
         ...

@@ -10,8 +10,8 @@
 
 ```yaml
 Header:
-    From: any-subscriber.com
-    To: any-buffer.com
+    From: any-subscriber.dom
+    To: any-buffer.dom
     Subject: Replay@Buffer
 Body:
     Queue: <queue-uuid>

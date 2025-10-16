@@ -20,7 +20,7 @@
 ```yaml
 Header: 
     From: any-domain.com
-    To: any-graph.com
+    To: any-graph.dom
     Subject: Translate@Graph
 
 Body: 

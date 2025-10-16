@@ -29,12 +29,12 @@
 ```yaml
 Header: 
     From: any-domain.com
-    To: any-graph.com
+    To: any-graph.dom
     Subject: Trusted@Graph
 
 Body:
-    Truster: any-vault.com
-    Trusted: any-consumer.com
+    Truster: any-vault.dom
+    Trusted: any-consumer.dom
     Role: CONSUMER
     Code: any-authority.org/CODE/SUBCODE
 ```
@@ -58,8 +58,8 @@ Body:
 ```yaml
 Trusted: True
 Paths:
-  - [any-vault.com, any-authority.org]
-  - [any-authority.org, any-consumer.com]
+  - [any-vault.dom, any-authority.org]
+  - [any-authority.org, any-consumer.dom]
 ```
 
 |Property|Type|Description

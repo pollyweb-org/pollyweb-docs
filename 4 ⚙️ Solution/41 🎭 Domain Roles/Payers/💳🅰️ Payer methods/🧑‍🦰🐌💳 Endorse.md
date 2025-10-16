@@ -12,17 +12,17 @@
 
 ```yaml
 Header:
-   From: any-broker.com
-   To: any-payer.org
+   From: any-broker.dom
+   To: any-payer.dom
    Subject: Endorse@Payer
 
 Body:
 
    BindID: <bind-uuid>
-   Collector: any-collector.org
+   Collector: any-collector.dom
    Chat: 
-      Host: any-seller.org
-      Broker: any-broker.com
+      Host: any-seller.dom
+      Broker: any-broker.dom
       Locator: <any-locator>
       ChatID: <session-uuid>
    Charge: { ... }

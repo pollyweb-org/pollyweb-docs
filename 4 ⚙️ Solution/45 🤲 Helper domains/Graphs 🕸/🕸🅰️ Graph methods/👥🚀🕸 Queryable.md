@@ -19,11 +19,11 @@
 ```yaml
 Header:
     From: any-domain.com
-    To: any-graph.com
+    To: any-graph.dom
     Subject: Queryable@Graph
 
 Body: 
-    Consumer: any-consumer.org
+    Consumer: any-consumer.dom
     Binds: 
       - Vault: ec.europa.eu
         Code: airlines.any-igo.org/SSR/WCHR/CRED

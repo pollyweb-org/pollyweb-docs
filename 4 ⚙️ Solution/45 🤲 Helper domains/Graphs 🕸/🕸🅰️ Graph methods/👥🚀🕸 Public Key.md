@@ -20,11 +20,11 @@
 ```yaml
 Header: 
     From: any-domain.com
-    To: any-graph.com
+    To: any-graph.dom
     Subject: PublicKey@Graph
 
 Body:
-    Issuer: any-issuer.com
+    Issuer: any-issuer.dom
     DKIM: pk1
 ```
 

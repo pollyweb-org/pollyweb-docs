@@ -12,12 +12,12 @@
 
 ```yaml
 Header:
-    From: any-broker.com
-    To: any-vault.com
+    From: any-broker.dom
+    To: any-vault.dom
     Subject: Suppress@Vault
     
 Body:
-    Consumer: any-consumer.com
+    Consumer: any-consumer.dom
     ChatID: <chat-uuid>
 ```
 

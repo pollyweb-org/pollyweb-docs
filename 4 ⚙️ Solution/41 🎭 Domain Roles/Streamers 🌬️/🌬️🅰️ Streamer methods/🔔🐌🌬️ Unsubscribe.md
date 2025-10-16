@@ -10,8 +10,8 @@
 
 ```yaml
 Header:
-    From: any-subscriber.com
-    To: any-streamer.com
+    From: any-subscriber.dom
+    To: any-streamer.dom
     Subject: Unsubscribe@Streamer
 Body:
     Stream: ANY-STREAM

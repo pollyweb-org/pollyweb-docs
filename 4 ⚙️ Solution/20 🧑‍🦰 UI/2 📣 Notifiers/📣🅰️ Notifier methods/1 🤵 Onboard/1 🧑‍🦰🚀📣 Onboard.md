@@ -18,7 +18,7 @@ A new [Wallet 🧑‍🦰 apps](<../../../1 🧑‍🦰 Wallets/🧑‍🦰🛠�
 ```yaml
 Header:
     From: Anonymous
-    To: any-notifier.com
+    To: any-notifier.dom
     Subject: Onboard@Notifier
 Body:
     Language: en-us

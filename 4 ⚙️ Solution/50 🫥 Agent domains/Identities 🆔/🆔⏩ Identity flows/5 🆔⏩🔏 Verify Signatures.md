@@ -119,7 +119,7 @@ TODO: Create the API methods
 1. **What data is contained in a user-signature file Token?**
 
     A user-signature file [Token 🎫](<../../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) contains:
-    * the [Identity 🆔 domain](<../🆔🫥 Identity agent.md>)  - e.g., `any-identity.com`
+    * the [Identity 🆔 domain](<../🆔🫥 Identity agent.md>)  - e.g., `any-identity.dom`
     * the user reference in the [Identity 🆔 domain](<../🆔🫥 Identity agent.md>) - e.g., `user-1234`
     * the issue timestamp in UTC - e.g., `2024-09-21T12:34:00Z`
     * the sender's domain - e.g., `any-landlord.com`

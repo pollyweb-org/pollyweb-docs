@@ -21,13 +21,13 @@
     
     Listeners: # to send Manifest 📜 updates.
         - listeners.nlweb.org
-        - any-listener.com
+        - any-listener.dom
 
     Graphs: # to verify Trust 👍 chains.
-        - any-graph.com
+        - any-graph.dom
 
     Collector: # To receive payments.
-        - any-collector.com
+        - any-collector.dom
     ```
 
     ---

@@ -9,12 +9,12 @@
 
 ```yaml
 Header:
-    From: any-consumer.com
-    To: any-broker.com
+    From: any-consumer.dom
+    To: any-broker.dom
     Subject: Status@Broker
 
 Body:
-    Issuer: any-issuer.com
+    Issuer: any-issuer.dom
     TokenID: <token-uuid>  
 ```
 
@@ -35,7 +35,7 @@ Body:
 Status: SUSPENDED
 Starting: 2025-10-10T13:45:00.000Z
 Ending: 2025-12-31T00:00:00.000Z
-Locator: .HOST,any-host.com,any-key
+Locator: .HOST,any-host.dom,any-key
 ```
 
 |Property|Type|Description

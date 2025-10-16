@@ -12,14 +12,14 @@
 
 ```yaml
 Header:
-    From: any-broker.com
-    To: any-notifier.com
+    From: any-broker.dom
+    To: any-notifier.dom
     Subject: Save@Notifier
 
 Body:
     WalletID: <wallet-id>
     ChatID: <chat-uuid>
-    Issuer: any-issuer.com
+    Issuer: any-issuer.dom
     TokenID: <token-uuid>
 ```
 

@@ -8,8 +8,8 @@
 
 ```yaml
 Header:
-    From: any-consumer.com
-    To: any-broker.com
+    From: any-consumer.dom
+    To: any-broker.dom
     Subject: Inform@Broker
 
 Body:

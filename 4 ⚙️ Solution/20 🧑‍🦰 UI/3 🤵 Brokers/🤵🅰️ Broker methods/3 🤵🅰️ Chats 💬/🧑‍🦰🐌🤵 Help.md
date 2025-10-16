@@ -25,11 +25,16 @@
 ```yaml
 Header:
     From: <wallet-uuid>
-    To: any-broker.com
+    To: any-broker.dom
     Subject: Help@Broker
 
 Body:
     ChatID: <chat-uuid>
+    Host: any-host.dom
+    TokenID: 
+    Issuer: any-issuer.dom
+    BindID: 
+    Vault: any-vault.dom
 ```
 
 | Object | Property | Type |Description
