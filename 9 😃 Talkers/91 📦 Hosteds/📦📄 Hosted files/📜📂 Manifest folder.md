@@ -8,7 +8,7 @@
 1. **What is the Manifest folder?**
 
     The `📜 Manifest/` folder 
-    * contains the [domain Manifest 📜](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/📜 Manifest.md>) parts
+    * contains the [domain Manifest 📜](<../../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) parts
     * broken into multiple files and folders.
     
     ---
@@ -37,9 +37,9 @@
             * `GROUP-A/`
                 * [`🧩 CODE-A2.yaml`](<../../../4 ⚙️ Solution/45 🤲 Helper domains/50 🕸 Graphs/🕸🅰️ Graph methods/👥🚀🕸 Schema.md>)
         * `👍 Trusts/` 
-            * [`👍 TRUST-1.yaml`](<../../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) 
+            * [`👍 TRUST-1.yaml`](<../../../4 ⚙️ Solution/40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) 
             * `GROUP-C/`
-                * [`👍 TRUST-C2.yaml`](<../../../4 ⚙️ Solution/40 👥 Domains/43 👍 Trusts/👍 Domain Trust.md>) 
+                * [`👍 TRUST-C2.yaml`](<../../../4 ⚙️ Solution/40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) 
         * `🪢 Services/` 
             * `🪢 INTEGRATION-1.yaml`
             * `GROUP-S/`

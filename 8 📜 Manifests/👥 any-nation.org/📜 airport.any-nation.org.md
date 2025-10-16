@@ -1,5 +1,5 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/📜 Manifest.md>): airport.any-nation.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): airport.any-nation.org
 <!--# 🏳️🛩️ https://quip.com/YJvcAJB72qzI-->
 
 ```yaml

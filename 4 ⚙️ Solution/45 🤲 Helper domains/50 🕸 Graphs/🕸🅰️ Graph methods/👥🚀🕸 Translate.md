@@ -8,7 +8,7 @@
 
 * [Broker 🤵 domains](<../../24 🤵 Brokers/🤵🤲 Broker helper.md>) 
     * request translation for [Schema Codes 🧩](<../../../30 🧩 Data/10 🧩 Schema Codes/🧩 Schema Code.md>) and [domains 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>),
-    * obtained [domain Manifests 📜](<../../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>).
+    * obtained [domain Manifests 📜](<../../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>).
 * Used by:
     * [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/30 👉🔗 Binds/04 🧑‍🦰👉💼 Share Bind 🔗.md>) flow
     * [💼⏩🧑‍🦰 Share Token @ Consumer](<../../../../5 ⏩ Flows/90 🧑‍🦰👉 Wallets/40 👉🎫 Tokens/04 🧑‍🦰👉💼 Share Token 🎫.md>) flow

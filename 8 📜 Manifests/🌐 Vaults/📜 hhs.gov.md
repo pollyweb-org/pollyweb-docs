@@ -1,5 +1,5 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/📜 Manifest.md>): hhs.gov
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): hhs.gov
 <!--# 🇺🇸🏥 https://quip.com/xt4NAtlVAjQJ/-HHSgov-->
 
 ```yaml

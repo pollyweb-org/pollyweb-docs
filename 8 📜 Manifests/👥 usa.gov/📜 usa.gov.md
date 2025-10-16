@@ -1,5 +1,5 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/📜 Manifest.md>): usa.gov
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): usa.gov
 <!--# 🇺🇸 https://quip.com/VtTHA12LzVsr/-USAgov-->
 
 ```yaml

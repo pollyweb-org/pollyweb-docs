@@ -37,7 +37,7 @@ Here's the [Talker 😃](<../../../../9 😃 Talkers/10 📘 Talker specs/10 �
 
 <br/>
 
-Here's the [Manifest 📜](<../../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>).
+Here's the [Manifest 📜](<../../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>).
 ```yaml
 Forms:
   TableOrder:

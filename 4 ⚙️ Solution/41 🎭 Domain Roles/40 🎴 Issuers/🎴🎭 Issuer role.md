@@ -88,7 +88,7 @@
         
     On privacy:
     
-    * Given the ability of a recipient [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) to know who sent a given [Message 📨](<../../40 👥 Domains/👥📨 Domain messages/📨 Message.md>) (e.g., a status request from a [Consumer 💼 domain](<../../50 🫥 Agent domains/80 💾 Storage/💾🫥 Storage agent.md>)), an [Issuer 🎴 domain](<🎴🎭 Issuer role.md>) would be able to track when and where a given [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) was used by the user to whom it was issued to.
+    * Given the ability of a recipient [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) to know who sent a given [Message 📨](<../../40 👥 Domains/👥📨 Domain Messages/📨 Message.md>) (e.g., a status request from a [Consumer 💼 domain](<../../50 🫥 Agent domains/80 💾 Storage/💾🫥 Storage agent.md>)), an [Issuer 🎴 domain](<🎴🎭 Issuer role.md>) would be able to track when and where a given [Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>) was used by the user to whom it was issued to.
     
     * For example, a private company could track the shopping behavior of their named customers without their consent, and a nation's government could track the movement of targeted political opponents.
     
@@ -106,7 +106,7 @@
     
     * Consider also a scenario where a commercial flight cannot wait for the [Issuer 🎴 domain](<🎴🎭 Issuer role.md>) of a travel agency to come back online before allowing a traveler to board a plane with a [ticket Token 🎫](<../../30 🧩 Data/30 🎫 Tokens/🎫 Token.md>). 
     
-    * [Broker 🤵 domain](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) are expected to have the required level of high availability and low latency, while having to pass the protocol compliancy requirements of NLWeb before being trusted by the [domain Manifest 📜](<../../40 👥 Domains/44 📜 Manifests/📜 Manifest.md>) of the NLWeb Organization.
+    * [Broker 🤵 domain](<../../45 🤲 Helper domains/24 🤵 Brokers/🤵🤲 Broker helper.md>) are expected to have the required level of high availability and low latency, while having to pass the protocol compliancy requirements of NLWeb before being trusted by the [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) of the NLWeb Organization.
 
 
     ---

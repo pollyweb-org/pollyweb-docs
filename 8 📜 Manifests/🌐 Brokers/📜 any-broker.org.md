@@ -1,5 +1,5 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/📜 Manifest.md>): any-broker.com
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): any-broker.com
 <!-- 🤵 https://quip.com/hPaFAIsyMxpq/-AnyBrokercom -->
 
 ```yaml

@@ -4,7 +4,7 @@
 
 ## Definition
 
-> 🤝: [`.MANIFEST/CODE`](<../../../40 👥 Domains/44 📜 Manifests/🧩 Manifest schemas/🧩 CODE.md>)
+> 🤝: [`.MANIFEST/CODE`](<../../../40 👥 Domains/👥📜 Domain Manifests/🧩 Manifest schemas/🧩 CODE.md>)
 
 ```yaml
 Path: /PERSONA/TRAVEL/RIDE

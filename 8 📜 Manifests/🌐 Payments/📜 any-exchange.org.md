@@ -1,5 +1,5 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/📜 Manifest.md>): any-exchange.org
+# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): any-exchange.org
 <!--# 🏳️💰 https://quip.com/lK1UAE08VIGB/-AnyExchangeuk-->
 
 ```yaml

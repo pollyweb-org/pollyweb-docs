@@ -1,5 +1,5 @@
 
-# 📜 [Manifest](<../../../4 ⚙️ Solution/40 👥 Domains/44 📜 Manifests/📜 Manifest.md>): ec.europa.eu
+# 📜 [Manifest](<../../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): ec.europa.eu
 <!--# 🇪🇺 https://quip.com/bBbpAAGfOCIz/-Europaeu-->
 
 > Inherits from [`nlweb.org/TOKEN 🧩`](<../../../4 ⚙️ Solution/30 🧩 Data/30 🎫 Tokens/🧩 Token schemas/🧩 TOKEN.md>)
