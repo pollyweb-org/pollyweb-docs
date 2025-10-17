@@ -53,7 +53,7 @@
 
     Yes. 
     - Upon a share request with the [Consumer 💼 host](<../Consumers 💼/💼🎭 Consumer role.md>) in a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>), users can authorize their [Vault 🗄️ domains](<🗄️🎭 Vault role.md>) to disclose a data set with that [Consumer 💼 domain](<../Consumers 💼/💼🎭 Consumer role.md>). 
-    - This requires both [Vault 🗄️](<🗄️🎭 Vault role.md>) and [Consumer 💼 host](<../Consumers 💼/💼🎭 Consumer role.md>) domains to [trust 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) one another for the [Schema Code 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) of the dataset to be shared.
+    - This requires both [Vault 🗄️](<🗄️🎭 Vault role.md>) and [Consumer 💼 host](<../Consumers 💼/💼🎭 Consumer role.md>) domains to [trust 👍](<../../30 🧩 Data/Trusts 👍/👍 Domain Trust.md>) one another for the [Schema Code 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) of the dataset to be shared.
 
     | | Workflow |  Description
     |-|-|-
@@ -124,7 +124,7 @@
   
     Conversely, our global society is built on the trust that we have in the ability of corporations to deliver, and the ability of public institutions to regulate them — NLWeb aims to replicate our modern society with the following mechanisms:
     * [Vault 🗄️ domains](<🗄️🎭 Vault role.md>) controlled by corporations;
-    * [Trusts 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) in [domain Manifests 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) to represent partnerships;
+    * [Trusts 👍](<../../30 🧩 Data/Trusts 👍/👍 Domain Trust.md>) in [domain Manifests 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) to represent partnerships;
     * [Authority 🏛️ domains](<../../45 🤲 Helper domains/Authorities 🏛️/🏛️🤲 Authority helper.md>) for intergovernmental agreements;
     * [Broker 🤵 domains](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) to protect users from bad corporate actors;
     * [Reviewer ⭐ domains](<../../50 🫥 Agent domains/Reviewers ⭐/⭐🫥 Reviewer agent.md>) to collect social feedback on corporations;
@@ -145,9 +145,9 @@
 
 1. **What if the user only wants to have one Vault?**
 
-    A single [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) can, in theory, implement all existing [Schema Codes 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) and establish [trust 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) relationships with all existing [domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>).
+    A single [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) can, in theory, implement all existing [Schema Codes 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) and establish [trust 👍](<../../30 🧩 Data/Trusts 👍/👍 Domain Trust.md>) relationships with all existing [domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>).
 
-    * Thus, a user may wish to [bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to that single [Vault 🗄️ domain](<🗄️🎭 Vault role.md>) with all [Schema Codes 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) the user is interested in sharing, and is [trusted 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) buy all the [domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) the user is interested in interacting with. 
+    * Thus, a user may wish to [bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to that single [Vault 🗄️ domain](<🗄️🎭 Vault role.md>) with all [Schema Codes 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) the user is interested in sharing, and is [trusted 👍](<../../30 🧩 Data/Trusts 👍/👍 Domain Trust.md>) buy all the [domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) the user is interested in interacting with. 
   
     * However, this solution doesn't seem scalable, if at all realistic.
 

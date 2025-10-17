@@ -92,7 +92,7 @@
     | Path | Description | Example
     |-|-|-
     | `Identity` | Encompassing the Identity object of a [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>). | `Identity`
-    | `Trust/{key}` | Containing a single [Trust 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) relationship identified by a unique key. | `Trust/my-key`
+    | `Trust/{key}` | Containing a single [Trust 👍](<../../30 🧩 Data/Trusts 👍/👍 Domain Trust.md>) relationship identified by a unique key. | `Trust/my-key`
     | `Code/{key}` | Containing a single [Schema Code 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) definition identified by a unique key. | `Code/SSR/MEAL`
     | `Code/{key}:{version}` | Containing a version of the schema definition for [Schema Code 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) identified. | `Code/SSR/MEAL:1.0`
     | `Delegate/{key}` | For a delegation identified by a unique key. | `Delegate/my-key`
@@ -236,7 +236,7 @@
 1. **How to identify if a Listener was compromised?**
 
     [Firewall 🔥 helper domains](<../Firewalls 🔥/🔥🤲 Firewall helper.md>) monitor the behavior of any [Listener 👂 domain](<👂🤲 Listener helper.md>) and match domain information with other [Listener 👂 domains](<👂🤲 Listener helper.md>). 
-    * If necessary, [Firewall 🔥 domains](<../Firewalls 🔥/🔥🤲 Firewall helper.md>) immediately revoke a Listener's [trust 👍](<../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>).
+    * If necessary, [Firewall 🔥 domains](<../Firewalls 🔥/🔥🤲 Firewall helper.md>) immediately revoke a Listener's [trust 👍](<../../30 🧩 Data/Trusts 👍/👍 Domain Trust.md>).
 
     ---
     <br/>

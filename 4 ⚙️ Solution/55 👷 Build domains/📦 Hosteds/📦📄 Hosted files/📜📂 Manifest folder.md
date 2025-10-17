@@ -37,9 +37,9 @@
             * `GROUP-A/`
                 * [`🧩 CODE-A2.yaml`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema.md>)
         * `👍 Trusts/` 
-            * [`👍 TRUST-1.yaml`](<../../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) 
+            * [`👍 TRUST-1.yaml`](<../../../30 🧩 Data/Trusts 👍/👍 Domain Trust.md>) 
             * `GROUP-C/`
-                * [`👍 TRUST-C2.yaml`](<../../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) 
+                * [`👍 TRUST-C2.yaml`](<../../../30 🧩 Data/Trusts 👍/👍 Domain Trust.md>) 
         * `🪢 Services/` 
             * `🪢 INTEGRATION-1.yaml`
             * `GROUP-S/`
