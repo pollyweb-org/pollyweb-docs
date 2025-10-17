@@ -1,6 +1,6 @@
 <!-- TODO -->
 
-# 📄🪣 Static Markdown dataset
+# 📄🪣 Static `Markdown` dataset
 
 1. **How is a static Markdown dataset?**
 

@@ -50,10 +50,10 @@
 
     | Example | Feature
     |---------|--------
-    | 🪣 [`Vaults@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🪣 Broker tables/Vaults 🪣.md>) | With a named key
-    | 🪣 [`Binds@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🪣 Broker tables/Binds 🪣.md>) | With parents
-    | 🪣 [`Vaults@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🪣 Broker tables/Vaults 🪣.md>) | With children
-    | 🪣 [`Wallets@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🪣 Broker tables/Wallets 🪣.md>) | With grand children
+    | 🪣 [`Vaults@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🪣 Broker tables/🤵🪣 Vaults.md>) | With a named key
+    | 🪣 [`Binds@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🪣 Broker tables/🤵🪣 Binds.md>) | With parents
+    | 🪣 [`Vaults@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🪣 Broker tables/🤵🪣 Vaults.md>) | With children
+    | 🪣 [`Wallets@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🪣 Broker tables/🤵🪣 Wallets.md>) | With grand children
     
 
     ---
