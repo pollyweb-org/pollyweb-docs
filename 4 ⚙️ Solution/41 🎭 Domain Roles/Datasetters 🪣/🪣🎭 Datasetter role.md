@@ -1,11 +1,11 @@
-🪣🎭 Dataset domain role
+🪣🎭 Datasetter domain role
 ===
 
-![](<../../35 💬 Chats/💬 Chats/.📎 Assets/💬 Dataset.png>)
+![](<.📎 Assets/💬 Dataset.png>)
 
-1. **What is a Dataset domain role in NLWeb?**
+1. **What is a Datasetter domain role in NLWeb?**
 
-    A Dataset is an [🪢 Integrator](<../Integrators 🪢/🪢🎭 Integrator role.md>) domain that exposes a synchronous data API. 
+    A Datasetter is an [🪢 Integrator](<../Integrators 🪢/🪢🎭 Integrator role.md>) domain that exposes a synchronous data API. 
 
     ---
 
@@ -31,8 +31,8 @@
 
     When using the NLWeb SDK, Hosts can reference these APIs in workflow and schema-based CRUD dialogs by using NLWeb locators. 
     
-    * The NLWeb SDK will pull the data schema from the Dataset's Manifest, and map it to the CRUD schema of the Host. 
-    * When chatting with users, the NLWeb SDK invokes the Dataset's end-point.
+    * The NLWeb SDK will pull the data schema from the Datasetter's Manifest, and map it to the CRUD schema of the Host. 
+    * When chatting with users, the NLWeb SDK invokes the Datasetter's end-point.
 
     ---
 

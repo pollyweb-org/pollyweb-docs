@@ -33,7 +33,7 @@
     - **Outputs**: definitions of possible outputs.
 
     Endpoints are then implemented by specific roles:
-    - [🪣 Dataset](<../Datasets 🪣/🪣🎭 Dataset role.md>): for dataset requests;
+    - [🪣 Dataset](<../Datasetters 🪣/🪣🎭 Datasetter role.md>): for dataset requests;
     - [🏭 Supplier](<../Suppliers 🏭/🏭🎭 Supplier role.md>): for asynchronous requests with status updates;
     - [🌬️ Streamer](<../Streamers 🌬️/🌬️🎭 Streamer role.md>): for event streaming.
 

@@ -43,7 +43,7 @@
     |-|-
     | [🍏 Brand](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) | Bundles and sells physical products as [Things 💠](<../../25 🔆 Locators/2 💠 Things/💠🔆 Thing locator.md>)
     | [💼 Consumer](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) | Consumes data from [Vaults 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) and [Issuers 🎴](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)
-    | [🪣 Dataset](<../../41 🎭 Domain Roles/Datasets 🪣/🪣🎭 Dataset role.md>) | Exposes that exposes a synchronous data API
+    | [🪣 Dataset](<../../41 🎭 Domain Roles/Datasetters 🪣/🪣🎭 Datasetter role.md>) | Exposes that exposes a synchronous data API
     | [🤲 Helper](<../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>) | Offloads undifferentiated logic from [domains 👥](<👥 Domain.md>)
     | [🤗 Host](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | Hosts [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) for [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) via [Brokers 🤵](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>)
     | [🪢 Integrator](<../../41 🎭 Domain Roles/Integrators 🪢/🪢🎭 Integrator role.md>) |  [Manifests 📜](<../👥📜 Domain Manifests/📜 Manifest.md>)  endpoints for [Finders 🔎](<../../50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) to index
