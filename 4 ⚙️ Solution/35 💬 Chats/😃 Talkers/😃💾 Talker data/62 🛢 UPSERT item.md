@@ -16,7 +16,7 @@
     ```
 
     ```yaml
-    # Multiple items
+    # Multiple items in all-or-nothing transaction.
     - UPSERT:
         - <pool-1>: {object-1}
         - <pool-n>: {object-n}

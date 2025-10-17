@@ -15,7 +15,7 @@
     ```
 
     ```yaml
-    # Multiple items
+    # Multiple items in all-or-nothing transaction.
     - Delete:
         - <pool-1>: <key-1>
         - <pool-n>: <key-n>
@@ -65,7 +65,7 @@
 
 1. **What's a use case for soft deletes?**
 
-    See [Pop Token 🔆](<Pop Token 🔆.md>).
+    See [Pop Token 🔆](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🔆 Broker locators/Pop Token 🔆.md>).
 
     ---
     <br/>
