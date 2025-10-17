@@ -41,8 +41,8 @@
     |Flow| Description
     |-|-
     |[👥⏩🌐 DNS config](<👥⏩ Domain flows/👥⏩🌐 DNS config.md>) | Configure the domain [DKIM 📺](<../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>)
-    |[👥⏩👥 Request Sync 🚀](<👥⏩ Domain flows/👥⏩👥 Request Sync 🚀.md>) | 
-    |[👥⏩👥 Send Async 🐌](<👥⏩ Domain flows/👥⏩👥 Send Async 🐌.md>)
+    |[👥⏩👥 Request Sync 🚀](<👥⏩ Domain flows/👥⏩👥 Request Sync 🚀.md>) | Send requests that wait for a response
+    |[👥⏩👥 Send Async 🐌](<👥⏩ Domain flows/👥⏩👥 Send Async 🐌.md>) | Send event-driven commands or events
     |[👥⏩🕸 Manifest](<👥⏩ Domain flows/👥⏩🕸 Manifest 📜.md>) | Publish [domain Manifest 📜](<../30 🧩 Data/Manifests 📜/📜 Manifest.md>) changes
     | [👥⏩🤝 Subscribe](<../45 🤲 Helper domains/Billers 🤝/🤝⏩ Biller flows/👥⏩🤝 Domain Subscription.md>) | Sign subscriptions on [Biller 🤝 domains](<../45 🤲 Helper domains/Billers 🤝/🤝🤲 Biller helper.md>)
 
