@@ -9,7 +9,7 @@
     The `🗺️ Map.yaml` file
     * indexes the [Resources 🗃️ folder](<🗃️📂 Resources folder.md>)
     * and the [Tables 🪣 folder](<🪣📂 Tables folder.md>)
-    * to be used by the [Talker `MAP` command](<../../../35 💬 Chats/😃 Talkers/😃💾 Talker data/61 🪣 MAP item.md>).
+    * to be used by the [Talker `MAP` command](<../../../35 💬 Chats/😃 Talkers/😃💾 Talker data/MAP 🪣 item.md>).
     
     ---
     <br/>

@@ -45,7 +45,7 @@
     | Argument| Purpose 
     |-|-
     | `<statement>`| Message to show to the user
-    | `$placeholder`| Optional [$placeholder 💾](<../../😃 Talkers/😃💾 Talker data/10 💾 $Placeholder.md>) with the user's answer
+    | `$placeholder`| Optional [$placeholder 💾](<../../😃 Talkers/😃💾 Talker data/$Placeholder 💾.md>) with the user's answer
     
 
     ```yaml

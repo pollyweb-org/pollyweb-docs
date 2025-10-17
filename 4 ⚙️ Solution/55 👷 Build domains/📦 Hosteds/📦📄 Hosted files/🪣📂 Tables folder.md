@@ -2,7 +2,7 @@
 
 > Part of [Hosted 📦 domain](<../📦👥 Hosted domain.md>)
 
-> Read with [`MAP` command](<../../../35 💬 Chats/😃 Talkers/😃💾 Talker data/61 🪣 MAP item.md>)
+> Read with [`MAP` command](<../../../35 💬 Chats/😃 Talkers/😃💾 Talker data/MAP 🪣 item.md>)
 
 <br/>
 

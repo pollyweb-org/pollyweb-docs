@@ -1,3 +1,5 @@
+<!-- TODO: Add lists of commands. -->
+
 # 🔆 Pop Token
 
 > Implements [🧑‍🦰💬🤵 Remove Token 🎫](<../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Tokens 🎫/💬🤵 Remove 🎫.md>)
