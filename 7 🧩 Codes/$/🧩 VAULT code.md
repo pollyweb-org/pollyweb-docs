@@ -11,7 +11,7 @@
 
 ## Definition
 
-> [🤝:](<../../4 ⚙️ Solution/30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) [`.MANIFEST/CODE`](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/🧩 Manifest schemas/🧩 CODE.md>)
+> [🤝:](<../../4 ⚙️ Solution/30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) [`.MANIFEST/CODE`](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/🧩 Manifest schemas/🧩 CODE.md>)
 
 ```yaml
 Path: /VAULT

@@ -33,7 +33,7 @@
 
     |#| Part |  Description
     |-|-|-
-    |1| `domain` |  The [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) that published the [Schema Code 🧩](<🧩 Schema Code.md>) in their [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>).
+    |1| `domain` |  The [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) that published the [Schema Code 🧩](<🧩 Schema Code.md>) in their [domain Manifest 📜](<../Manifests 📜/📜 Manifest.md>).
     |2| `code`    | A unique ID of the schema in the domain.
     |3| `version` | The optional version of the schema <br/>- formatted as `{major}.{minor}`.   
     |
@@ -42,7 +42,7 @@
     * the code `nlweb.com/TOKEN:2.0`  🧩 
     * references version `2.0` 
     * of a schema called `TOKEN` 
-    * that is defined in the [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) 
+    * that is defined in the [domain Manifest 📜](<../Manifests 📜/📜 Manifest.md>) 
     * of the [Authority 🏛️ domain](<../../45 🤲 Helper domains/Authorities 🏛️/🏛️🤲 Authority helper.md>) called `nlweb.com`. 
     
     For readability:
@@ -69,7 +69,7 @@
 
     | Expectation | Behavior |
     |-|-
-    | [📜 Manifest](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>)  | When a version is omitted in the [Schema Code 🧩](<🧩 Schema Code.md>) in its [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) definition, then it is assumed to be `1.0`.
+    | [📜 Manifest](<../Manifests 📜/📜 Manifest.md>)  | When a version is omitted in the [Schema Code 🧩](<🧩 Schema Code.md>) in its [domain Manifest 📜](<../Manifests 📜/📜 Manifest.md>) definition, then it is assumed to be `1.0`.
     | [📨 Message](<../Messages 📨/📨 Message.md>) | When a version is omitted in a [domain Messages 📨](<../Messages 📨/📨 Message.md>), then it is also assumed to be `1.0`.
     | [🕸 Graph](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) | When a version is omitted when calling [`Schema@Graph`](<../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema.md>), then the [🕸 Graph](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) returns the latest version.
 
@@ -103,7 +103,7 @@
 
 1. **How can domains read Schemas in domain Manifests?**
 
-    For resilience and performance, [domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) cannot read [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) directly from the source.
+    For resilience and performance, [domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) cannot read [domain Manifest 📜](<../Manifests 📜/📜 Manifest.md>) directly from the source.
 
     * Instead, [domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) need to query [Graph 🕸 domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) for a schema definition, by passing the [Schema Code 🧩](<🧩 Schema Code.md>) to the [`Schema@Graph`](<../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema.md>).
 
@@ -123,7 +123,7 @@
 1. **What does it mean when a YAML content starts with 🤝?**
 
     When YAML content starts with `🤝: {Schema Code}`,
-    * e.g., `🤝:` [`.MANIFEST/CODE`](<../../40 👥 Domains/👥📜 Domain Manifests/🧩 Manifest schemas/🧩 CODE.md>)
+    * e.g., `🤝:` [`.MANIFEST/CODE`](<../Manifests 📜/🧩 Manifest schemas/🧩 CODE.md>)
     * it means that the following YAML content should comply with the given [Schema Code 🧩](<🧩 Schema Code.md>) defined.
     * This allows readers to validate the YAML content by pulling the validation schema from the [`Schema@Graph`](<../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema.md>).
     
@@ -132,12 +132,12 @@
 
 1. **How do define a Schema in a Manifest?**
 
-    The instructions on how to add a [Schema Code 🧩](<🧩 Schema Code.md>) to a [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) are themselves published as special [Schema Codes 🧩](<🧩 Schema Code.md>):
+    The instructions on how to add a [Schema Code 🧩](<🧩 Schema Code.md>) to a [domain Manifest 📜](<../Manifests 📜/📜 Manifest.md>) are themselves published as special [Schema Codes 🧩](<🧩 Schema Code.md>):
 
     | Schema | Description
     |-|-
-    | [`.MANIFEST/CODE` 🧩](<../../40 👥 Domains/👥📜 Domain Manifests/🧩 Manifest schemas/🧩 CODE.md>) | CODE properties
-    | [`.MANIFEST/DELEGATE` 🧩](<../../40 👥 Domains/👥📜 Domain Manifests/🧩 Manifest schemas/🧩 DELEGATE.md>) | Delegation to other [Authorities 🏛️](<../../45 🤲 Helper domains/Authorities 🏛️/🏛️🤲 Authority helper.md>)
+    | [`.MANIFEST/CODE` 🧩](<../Manifests 📜/🧩 Manifest schemas/🧩 CODE.md>) | CODE properties
+    | [`.MANIFEST/DELEGATE` 🧩](<../Manifests 📜/🧩 Manifest schemas/🧩 DELEGATE.md>) | Delegation to other [Authorities 🏛️](<../../45 🤲 Helper domains/Authorities 🏛️/🏛️🤲 Authority helper.md>)
     | [`.TYPES` 🧩](<../../../7 🧩 Codes/$/🧩 TYPES code.md>) | Generic referenceable types
 
     ---
@@ -146,7 +146,7 @@
 1. **Does nlweb.dom define Schema Codes?**
 
     Yes. 
-    - The NLWeb protocol is supported by a set of [Schema Codes 🧩](<🧩 Schema Code.md>) defined in the `nlweb.dom` [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>). 
+    - The NLWeb protocol is supported by a set of [Schema Codes 🧩](<🧩 Schema Code.md>) defined in the `nlweb.dom` [domain Manifest 📜](<../Manifests 📜/📜 Manifest.md>). 
     
     - This high-level manifest includes the schema definition for all communications explicitly supported by the core NLWeb protocol, but also a set of auxiliary schemas used to implement various business use cases. 
 
@@ -156,7 +156,7 @@
 1. **Is the NLWeb Manifest a single point of failure?**
 
     No. 
-    - [Domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) don't need `nlweb.dom` to be online to access its [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) (nor the one of any other [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>), for that matter).
+    - [Domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) don't need `nlweb.dom` to be online to access its [domain Manifest 📜](<../Manifests 📜/📜 Manifest.md>) (nor the one of any other [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>), for that matter).
     - Instead, [domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) should rely on [Graph 🕸 helper domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) to look up schema definitions.
 
     ---
@@ -167,7 +167,7 @@
 
     Yes. 
     - NLWeb schemas are defined by [JSON Schema](https://json-schema.org/understanding-json-schema/reference) converted to YAML.
-    - Details are available at [`nlweb.dom/MANIFEST/CODE` 🧩](<../../40 👥 Domains/👥📜 Domain Manifests/🧩 Manifest schemas/🧩 CODE.md>).
+    - Details are available at [`nlweb.dom/MANIFEST/CODE` 🧩](<../Manifests 📜/🧩 Manifest schemas/🧩 CODE.md>).
   
 
     Consider the following example from [`standards.any-igo.dom` 📜](<../../../8 📜 Manifests/👥 any-igo.dom/📜 standards.any-igo.dom.md>).
@@ -208,7 +208,7 @@
 
     Yes.
     * Using the `Inherits` property
-        * defined in [`.MANIFEST/CODE` 🧩](<../../40 👥 Domains/👥📜 Domain Manifests/🧩 Manifest schemas/🧩 CODE.md>).
+        * defined in [`.MANIFEST/CODE` 🧩](<../Manifests 📜/🧩 Manifest schemas/🧩 CODE.md>).
     * Consider [`.LOCATOR` 🧩](<../../../7 🧩 Codes/$/🧩 LOCATOR code.md>)
         * who defines properties `Code`, `Domain`, `Resource`.
     * It is inherited by [`.TOKEN` 🧩](<../Tokens 🎫/🧩 Token schemas/🧩 TOKEN.md>)
@@ -224,15 +224,15 @@
 
     Yes, 
     * using the `$ref` keyword from JSON Schema 
-    * as defined in [`.MANIFEST/CODE` 🧩](<../../40 👥 Domains/👥📜 Domain Manifests/🧩 Manifest schemas/🧩 CODE.md>).
+    * as defined in [`.MANIFEST/CODE` 🧩](<../Manifests 📜/🧩 Manifest schemas/🧩 CODE.md>).
     
-    Consider [`.MANIFEST` 🧩](<../../40 👥 Domains/👥📜 Domain Manifests/🧩 Manifest schemas/🧩 MANIFEST.md>):
-    * it references [`.MANIFEST/ABOUT` 🧩](<../../40 👥 Domains/👥📜 Domain Manifests/🧩 Manifest schemas/🧩 ABOUT.md>)
+    Consider [`.MANIFEST` 🧩](<../Manifests 📜/🧩 Manifest schemas/🧩 MANIFEST.md>):
+    * it references [`.MANIFEST/ABOUT` 🧩](<../Manifests 📜/🧩 Manifest schemas/🧩 ABOUT.md>)
         ```yaml
         About:
           $ref: nlweb.dom/MANIFEST/ABOUT:1.0
         ```
-    * and references [`.MANIFEST/TRUST` 🧩](<../../40 👥 Domains/👥📜 Domain Manifests/🧩 Manifest schemas/🧩 TRUST.md>).
+    * and references [`.MANIFEST/TRUST` 🧩](<../Manifests 📜/🧩 Manifest schemas/🧩 TRUST.md>).
         ```yaml
         Trusts:
         type: array
@@ -246,7 +246,7 @@
 1. **Can a Schema reference a specific property of another Schema?**
 
     Yes.
-    * See [`.MANIFEST/TRUST` 🧩](<../../40 👥 Domains/👥📜 Domain Manifests/🧩 Manifest schemas/🧩 TRUST.md>)
+    * See [`.MANIFEST/TRUST` 🧩](<../Manifests 📜/🧩 Manifest schemas/🧩 TRUST.md>)
         * whose property `Domain`
         * references `Domain@.TYPES`
         * defined in [`.TYPES` 🧩](<../../../7 🧩 Codes/$/🧩 TYPES code.md>).

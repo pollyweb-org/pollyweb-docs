@@ -74,7 +74,7 @@
     <br/>
 
 
-1. **What does the [domain Manifest 📜](<../../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) look like?**
+1. **What does the [domain Manifest 📜](<../../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest.md>) look like?**
 
     ```yaml
     About:

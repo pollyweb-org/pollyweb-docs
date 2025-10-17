@@ -1,5 +1,5 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): keys.any-business.dom
+# 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest.md>): keys.any-business.dom
 <!--# 🧪🔑 https://quip.com/W27vArlsLa9c/-Door-Keys-Building-->
 
 ```yaml

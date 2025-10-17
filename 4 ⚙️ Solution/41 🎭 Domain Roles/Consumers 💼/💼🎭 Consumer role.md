@@ -80,7 +80,7 @@
 
     When consuming data from a [Vault 🗄️ domain](<../Vaults 🗄️/🗄️🎭 Vault role.md>), the data envelope indicates the [Schema Code 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) and the version (e.g., `any-authority.com/any-schema:1.0`). 
     
-    - The code identifies the [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) where the [Schema Code 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) is defined (e.g., `any-schema` is defined in the [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) of `any-authority.com`), so [Consumer 💼 domains](<💼🎭 Consumer role.md>) can then fetch the schema definitions from a cached [Graph 🕸 domain](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) or directly from the [Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>).
+    - The code identifies the [domain Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) where the [Schema Code 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) is defined (e.g., `any-schema` is defined in the [domain Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) of `any-authority.com`), so [Consumer 💼 domains](<💼🎭 Consumer role.md>) can then fetch the schema definitions from a cached [Graph 🕸 domain](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) or directly from the [Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>).
 
     ---
     <br/>
@@ -175,9 +175,9 @@
 
 1. **How are consumers prevented from collecting too much user data?**
 
-    To protect users from [Consumer 💼 domains](<💼🎭 Consumer role.md>) that collect too much Personally Identifiable Information (PII), [Broker 🤵 domains](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) verify if any [Consumer 💼 domain](<💼🎭 Consumer role.md>) request is explicitly mentioned on their [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>).
+    To protect users from [Consumer 💼 domains](<💼🎭 Consumer role.md>) that collect too much Personally Identifiable Information (PII), [Broker 🤵 domains](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) verify if any [Consumer 💼 domain](<💼🎭 Consumer role.md>) request is explicitly mentioned on their [domain Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>).
 
-    * [Consumer 💼 domains](<💼🎭 Consumer role.md>) must publicly manifest their potential sharing requests in their [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>), in a similar way apps must manifest it when publishing into Apple's App Store or Google Play.
+    * [Consumer 💼 domains](<💼🎭 Consumer role.md>) must publicly manifest their potential sharing requests in their [domain Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>), in a similar way apps must manifest it when publishing into Apple's App Store or Google Play.
     
     * [Consumer 💼 domains](<💼🎭 Consumer role.md>) manifest the unique contexts in which they will collect data, and what data is collected in each context.
   
@@ -187,11 +187,11 @@
 
     * [Broker 🤵 domains](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) inform users of every context change, identifying the data that may be collected, then block any data request from the Consumer that does not comply with that context - e.g., [Order pizza 🍕](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/21 🏠 Home: Order pizza.md>), [Hotel check-in 🛎️](<../../../3 🤝 Use Cases/03 🧳 Travel/08 🧳 Stay at hotels 🏨/03 🏨 Guest @ Reception 🛎️/04 🛎️ Check-in.md>).
 
-    * Because the [domain Manifests 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) are public and prone to automatic evaluation by domains like [Firewall 🔥 domains](<../../45 🤲 Helper domains/Firewalls 🔥/🔥🤲 Firewall helper.md>) and [Reviewer ⭐ domains](<../../50 🫥 Agent domains/Reviewers ⭐/⭐🫥 Reviewer agent.md>), [Consumer 💼 domains](<💼🎭 Consumer role.md>) are exposed to public scrutiny regarding the data  their are collecting, namely: what, why, how, and how much.
+    * Because the [domain Manifests 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) are public and prone to automatic evaluation by domains like [Firewall 🔥 domains](<../../45 🤲 Helper domains/Firewalls 🔥/🔥🤲 Firewall helper.md>) and [Reviewer ⭐ domains](<../../50 🫥 Agent domains/Reviewers ⭐/⭐🫥 Reviewer agent.md>), [Consumer 💼 domains](<💼🎭 Consumer role.md>) are exposed to public scrutiny regarding the data  their are collecting, namely: what, why, how, and how much.
 
-    * [Authority 🏛️ domains](<../../45 🤲 Helper domains/Authorities 🏛️/🏛️🤲 Authority helper.md>) monitor the [domain Manifests 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) for dataset requests that don't match the domain's business or exception requests, and if necessary may revoke the [trust 👍](<../../30 🧩 Data/Trusts 👍/👍 Domain Trust.md>) on the [Consumer 💼 domain](<💼🎭 Consumer role.md>).
+    * [Authority 🏛️ domains](<../../45 🤲 Helper domains/Authorities 🏛️/🏛️🤲 Authority helper.md>) monitor the [domain Manifests 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) for dataset requests that don't match the domain's business or exception requests, and if necessary may revoke the [trust 👍](<../../30 🧩 Data/Trusts 👍/👍 Domain Trust.md>) on the [Consumer 💼 domain](<💼🎭 Consumer role.md>).
 
-    * Consider the following example of a [domain Manifests 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>).
+    * Consider the following example of a [domain Manifests 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>).
     
         ```yaml
         Flows:

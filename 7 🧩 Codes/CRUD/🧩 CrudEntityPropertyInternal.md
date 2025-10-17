@@ -5,7 +5,7 @@
 
 ## Definition
 
-> 🤝: [`.MANIFEST/CODE`](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/🧩 Manifest schemas/🧩 CODE.md>)
+> 🤝: [`.MANIFEST/CODE`](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/🧩 Manifest schemas/🧩 CODE.md>)
 
 ```yaml
 Path: /CRUD/ENTITY/PROPERTY/INTERNAL

@@ -1,5 +1,5 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): any-payer.dom
+# 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest.md>): any-payer.dom
 <!--# 🇺🇸💳 https://quip.com/otqrA6r0s9cC/-AnyPayercom-->
 
 ```yaml

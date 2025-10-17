@@ -30,7 +30,7 @@
 
     When discarding an invalid message, receiver domains send feedback to the sender with the original correlation ID. 
     
-    * Sender domains define their [Buffer ⏳ helper domain](<../../../45 🤲 Helper domains/Buffers ⏳/⏳🤲 Buffer helper.md>) in the `Identity` section of their [domain Manifest 📜](<../../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>).
+    * Sender domains define their [Buffer ⏳ helper domain](<../../../45 🤲 Helper domains/Buffers ⏳/⏳🤲 Buffer helper.md>) in the `Identity` section of their [domain Manifest 📜](<../../Manifests 📜/📜 Manifest.md>).
        * If the `Feedback` property is not defined, then no feedback is given.
        * Domains get of the [Buffer ⏳ helper domain](<../../../45 🤲 Helper domains/Buffers ⏳/⏳🤲 Buffer helper.md>) by calling the [Identity@Broker 🚀 request](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Identity.md>).
   
