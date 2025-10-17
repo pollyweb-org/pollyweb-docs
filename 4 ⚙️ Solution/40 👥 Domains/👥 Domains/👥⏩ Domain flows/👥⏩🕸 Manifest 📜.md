@@ -1,8 +1,8 @@
-# 👥⏩🕸 Manifest @ Domain
+# 👥⏩🕸 Manifest 📜
 
-> Implements:
-> <br/>• [Domain 👥](<../👥 Domain.md>)
-> <br/>• [domain Manifest 📜](<../../👥📜 Domain Manifests/📜 Manifest.md>)
+> Part of [Domain 👥](<../👥 Domain.md>)
+
+> Implements [domain Manifest 📜](<../../👥📜 Domain Manifests/📜 Manifest.md>)
 
 <br/>
 

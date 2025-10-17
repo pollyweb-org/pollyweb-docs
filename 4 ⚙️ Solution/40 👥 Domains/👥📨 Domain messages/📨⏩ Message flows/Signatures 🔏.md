@@ -7,9 +7,9 @@
 
 1. **What is the signature for?**
 
-    Senders sign the header and body of envelopes with [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) private key,
-    - [domains 👥](<../👥 Domains/👥 Domain.md>) verify incoming [domain 👥](<../👥 Domains/👥 Domain.md>) messages with the sender's [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) public key,
-    - and [Broker 🤵 domains](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) verify incoming [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) messages with the their pre-shared public key.
+    Senders sign the header and body of envelopes with [DKIM 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) private key,
+    - [domains 👥](<../../👥 Domains/👥 Domain.md>) verify incoming [domain 👥](<../../👥 Domains/👥 Domain.md>) messages with the sender's [DKIM 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) public key,
+    - and [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) verify incoming [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) messages with the their pre-shared public key.
     
     ---
     <br/>
@@ -18,13 +18,13 @@
 
 1. **How do receiver domains prevent sender impersonation attacks?**
 
-    NLWeb domains implement the ubiquitous [DKIM (rfc6376) protocol 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) used by email servers to verify envelopes received from other domains. 
+    NLWeb domains implement the ubiquitous [DKIM (rfc6376) protocol 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) used by email servers to verify envelopes received from other domains. 
     
-    - Sender domains hash their envelopes with JSON Canonicalization Scheme (rfc8785) and sign them with their private half of the [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) key-pair. 
+    - Sender domains hash their envelopes with JSON Canonicalization Scheme (rfc8785) and sign them with their private half of the [DKIM 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) key-pair. 
     
-    - Receiver domains look up the public half of the sender’s [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) key-pair to verify the signature of incoming envelopes. The receiver expects to find the sender’s public key in DKIM format in a DNS entry named “nlweb” (e.g., `nlweb._domainkey.any-sender.com`). 
+    - Receiver domains look up the public half of the sender’s [DKIM 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) key-pair to verify the signature of incoming envelopes. The receiver expects to find the sender’s public key in DKIM format in a DNS entry named “nlweb” (e.g., `nlweb._domainkey.any-sender.com`). 
     
-    - The envelope is discarded if the sender’s [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) is not correctly implemented, or the sender’s public key is unable to verify the signature in the envelope.
+    - The envelope is discarded if the sender’s [DKIM 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) is not correctly implemented, or the sender’s public key is unable to verify the signature in the envelope.
 
     ---
     <br/>
@@ -32,7 +32,7 @@
 
 1. **How do receiver domains prevent DNS spoofing attacks?**
 
-    When getting the sender’s [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) public key, receiver domains check if DNSSEC is implemented on the sender’s domain;
+    When getting the sender’s [DKIM 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) public key, receiver domains check if DNSSEC is implemented on the sender’s domain;
     - if not implemented, the envelope is discarded.
 
     ---
@@ -65,7 +65,7 @@
 
     To create a signature with OpenSSL, first prepare the following files:
       - `canonical.json`: a canonical representation of {header,body};
-      - `private.pem`: the private signature of the [domain 👥](<../👥 Domains/👥 Domain.md>).
+      - `private.pem`: the private signature of the [domain 👥](<../../👥 Domains/👥 Domain.md>).
   
     Then run the following commands on a terminal: 
     * `$ openssl dgst -sha256 -sign private.pem -out signature.sha1 canonical.json`
@@ -78,9 +78,9 @@
 1. **How to validate a signature with OpenSSL?**
 
     To validate a signature with OpenSSL, first prepare the following files:
-    - `signature.txt`: the signature received in a message from another [domain 👥](<../👥 Domains/👥 Domain.md>);
+    - `signature.txt`: the signature received in a message from another [domain 👥](<../../👥 Domains/👥 Domain.md>);
     - `canonical.json`: a canonical representation of the received {header,body};
-    - `public.pem`: the public key of the sender [domain 👥](<../👥 Domains/👥 Domain.md>).
+    - `public.pem`: the public key of the sender [domain 👥](<../../👥 Domains/👥 Domain.md>).
   
     Then run the following commands on a terminal: 
     * $ `openssl enc -d -A -base64 -in signature.txt -out signature.sha1`
