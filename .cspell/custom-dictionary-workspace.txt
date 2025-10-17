@@ -4,6 +4,7 @@ Alexa
 CLDR
 Cognifying
 Databaser
+Databasers
 Datasetter
 Datasetters
 Elon

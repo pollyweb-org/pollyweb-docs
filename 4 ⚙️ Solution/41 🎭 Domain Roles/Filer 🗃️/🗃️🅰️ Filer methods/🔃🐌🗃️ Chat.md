@@ -21,7 +21,7 @@ Header:
 | Object| Property | Type | Description
 |-|-|-|-
 | Header    | `From`        | uuid | `Clone` from [`Clone@`](<🔃🚀🗃️ Clone.md>) 
-|           | `To`          | string    | [Resourcer 🗃️](<../🗃️🎭 Resourcer role.md>) from [`Clone@`](<🔃🚀🗃️ Clone.md>) 
+|           | `To`          | string    | [Resourcer 🗃️](<../🗃️🎭 Filer role.md>) from [`Clone@`](<🔃🚀🗃️ Clone.md>) 
 |           | `Subject`     | string    | `Chat@Resourcer`
 |
 
