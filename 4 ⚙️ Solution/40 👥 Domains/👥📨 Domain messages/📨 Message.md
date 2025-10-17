@@ -54,7 +54,7 @@
     |-|-
     | [✉️ Envelope](<../👥📨 Domain Messages/📨⏩ Message flows/Envelope ✉️.md>) | The structure of a [Message 📨](<../👥📨 Domain Messages/📨 Message.md>)
     | [🔏 Signatures](<../👥📨 Domain Messages/📨⏩ Message flows/Signatures 🔏.md>) | How [Messages 📨](<../👥📨 Domain Messages/📨 Message.md>) are signed and verified
-    | [🚀 Sync Requests](<../👥📨 Domain Messages/📨⏩ Message flows/Send Sync 🚀.md>) | HTTP requests that wait an answer
+    | [🚀 Sync Requests](<📨⏩ Message flows/Request Sync 🚀.md>) | HTTP requests that wait an answer
     | [🐌 Async Messages ](<../👥📨 Domain Messages/📨⏩ Message flows/Send Async 🐌.md>) | Event-driven fire-and-forget [Messages 📨](<../👥📨 Domain Messages/📨 Message.md>)
     
     ---
