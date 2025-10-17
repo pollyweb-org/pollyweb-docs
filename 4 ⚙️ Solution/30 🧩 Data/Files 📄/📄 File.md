@@ -6,7 +6,7 @@
 
 > Relates to [Prompts 🤔 with an Appendix 📎](<../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/5 📎 with Appendix.md>)
 
-> Relates to [`{/path/file}` Function 🐍](<../../35 💬 Chats/😃 Talkers/😃💾 Talker data/{Function} 🐍.md>)
+> Relates to [`{/path/file}` Function 🐍](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/{Function} 🐍.md>)
 
 
 1. **How to use files?**

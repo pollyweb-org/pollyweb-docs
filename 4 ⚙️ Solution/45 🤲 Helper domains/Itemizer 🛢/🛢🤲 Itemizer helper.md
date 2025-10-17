@@ -1,7 +1,7 @@
 # 🛢 Itemizer helper
 
-> Relates to [`MAP`](<../../35 💬 Chats/😃 Talkers/😃💾 Talker data/MAP 🗺️ item.md>), [`UPSERT`](<../../35 💬 Chats/😃 Talkers/😃💾 Talker data/UPSERT 🛢 item.md>), and
-[`DELETE`](<../../35 💬 Chats/😃 Talkers/😃💾 Talker data/DELETE 🗑️ item.md>) commands.
+> Relates to [`MAP`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/MAP 🗺️ item.md>), [`UPSERT`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/UPSERT 🛢 item.md>), and
+[`DELETE`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/DELETE 🗑️ item.md>) commands.
 
 
 

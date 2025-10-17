@@ -37,10 +37,10 @@ The associated [Talker 😃](<../../../35 💬 Chats/😃 Talkers/😃 Talker.md
 - INFO|{number}, got it! Thanks, Any Helper!  
 ```
 
-| [Command ⌘](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/⌘ Command.md>) | Purpose
+| [Command ⌘](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | Purpose
 |-|-
 | ℹ️ [`INFO`](<../../../35 💬 Chats/🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) | To show the messages to the user.
-| 🛠️ [`INVITE`](<../../../35 💬 Chats/😃 Talkers/😃📨 Talker msgs/INVITE 🤲 msg.md>) | To collect a random number.
+| 🛠️ [`INVITE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for flows/INVITE 🤲 msg.md>) | To collect a random number.
 |
 
 

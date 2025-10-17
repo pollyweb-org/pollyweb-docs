@@ -47,7 +47,7 @@
     | Argument| Purpose 
     |-|-
     | `<statement>`| Message to show to the user
-    | `$placeholder`| Optional [placeholder 💾](<../../😃 Talkers/😃💾 Talker data/$Placeholder 💾.md>) with the user's answer
+    | `$placeholder`| Optional [placeholder 💾](<../../😃 Talkers/😃⚙️ Talker cmds/for data/$Placeholder 💾.md>) with the user's answer
     
 
     ```yaml
@@ -151,8 +151,8 @@
     | `$p.Pretty` | Decimal formatted to `Locale` | `$1,234.57`
     | `$p.Locale` | CLDR locale used to format | `en-US`
     | `$p.Currency` | ISO 4217 currency formatted | `USD`
-    | [`$p.$`](<../../😃 Talkers/😃💾 Talker data/{Function} 🐍.md>) | The value of `$p.Pretty` | `$1,234.57`
-    | `$p` | The [default value](<../../😃 Talkers/😃💾 Talker data/{Function} 🐍.md>) `$p.$` | `$1,234.57`
+    | [`$p.$`](<../../😃 Talkers/😃⚙️ Talker cmds/for data/{Function} 🐍.md>) | The value of `$p.Pretty` | `$1,234.57`
+    | `$p` | The [default value](<../../😃 Talkers/😃⚙️ Talker cmds/for data/{Function} 🐍.md>) `$p.$` | `$1,234.57`
 
     ---
     <br/>

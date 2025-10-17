@@ -58,13 +58,13 @@ The corresponding [Talker 😃](<../../../35 💬 Chats/😃 Talkers/😃 Talker
 - GOODBYE                   # Show advertisement
 ```
 
-| [Command ⌘](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/⌘ Command.md>) | Purpose
+| [Command ⌘](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | Purpose
 |-|-
-| 📝 [`INFORM`](<../../../35 💬 Chats/😃 Talkers/😃📨 Talker msgs/INFORM 📝 msg.md>) | To provide instructions.
-| 🔗 [`BIND`](<../../../35 💬 Chats/😃 Talkers/😃📨 Talker msgs/BIND 🔗 msg.md>) | To create a user profile.
-| 🛠️ [`INVITE`](<../../../35 💬 Chats/😃 Talkers/😃📨 Talker msgs/INVITE 🤲 msg.md>) | To subscribe the user to plan.
-| ❄️ [`FREEZE`](<../../../35 💬 Chats/😃 Talkers/😃📨 Talker msgs/FREEZE ❄️ msg.md>) | To disable past inputs.
-| ⬇️ [`EVAL`](<../../../35 💬 Chats/😃 Talkers/😃💾 Talker data/EVAL ⬇️ flow.md>) | To register on the database.
+| 📝 [`INFORM`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for flows/INFORM 📝 msg.md>) | To provide instructions.
+| 🔗 [`BIND`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for flows/BIND 🔗 msg.md>) | To create a user profile.
+| 🛠️ [`INVITE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for flows/INVITE 🤲 msg.md>) | To subscribe the user to plan.
+| ❄️ [`FREEZE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for flows/FREEZE ❄️ msg.md>) | To disable past inputs.
+| ⬇️ [`EVAL`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/EVAL ⬇️ flow.md>) | To register on the database.
 | ✅ [`SUCCESS`](<../../../35 💬 Chats/🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>) | To say that it was successful.
-| 👋 [`GOODBYE`](<../../../35 💬 Chats/😃 Talkers/😃📨 Talker msgs/GOODBYE 👋 msg.md>) | To show advertising.
+| 👋 [`GOODBYE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for flows/GOODBYE 👋 msg.md>) | To show advertising.
 |
