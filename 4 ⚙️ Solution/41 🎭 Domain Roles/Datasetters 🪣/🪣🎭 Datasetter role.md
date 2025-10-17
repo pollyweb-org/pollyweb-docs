@@ -1,7 +1,7 @@
 🪣🎭 Datasetter domain role
 ===
 
-![](<.📎 Assets/💬 Dataset.png>)
+![](<.📎 Assets/🪣 Datasetter.png>)
 
 1. **What is a Datasetter domain role in NLWeb?**
 
