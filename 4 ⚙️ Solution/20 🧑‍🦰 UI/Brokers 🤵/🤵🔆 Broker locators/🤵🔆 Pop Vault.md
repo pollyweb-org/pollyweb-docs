@@ -4,7 +4,7 @@
 
 # 🔆 Pop Vault
 
-> Implements [🧑‍🦰💬🤵 Unbind Vault](<../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Vaults 🗄️/💬🤵 Unbind 🗄️.md>)
+> Implements [🧑‍🦰💬🤵 Unbind Vault](<../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Vaults 🗄️/💬🤵 Unbind 🗄️.md>)
 
 
 ```yaml

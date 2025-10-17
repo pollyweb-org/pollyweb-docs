@@ -2,7 +2,7 @@
 
 # 🔆 Pop Token
 
-> Implements [🧑‍🦰💬🤵 Remove Token 🎫](<../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Tokens 🎫/💬🤵 Remove 🎫.md>)
+> Implements [🧑‍🦰💬🤵 Remove Token 🎫](<../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Tokens 🎫/💬🤵 Remove 🎫.md>)
 
 <br/>
 

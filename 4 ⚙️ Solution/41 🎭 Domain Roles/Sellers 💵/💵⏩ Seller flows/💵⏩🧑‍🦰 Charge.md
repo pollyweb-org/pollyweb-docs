@@ -30,14 +30,14 @@
 
 ## Steps
 
-- [Seller 💵 domain](<../💵🎭 Seller role.md>) charges [Wallet 🧑‍🦰](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)
+- [Seller 💵 domain](<../💵🎭 Seller role.md>) charges [Wallet 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
 
     - [Seller 💵 domain](<../💵🎭 Seller role.md>) → [Charge @ Broker 💵🐌🤵 ](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/7 🤵🅰️ Pay/💵🐌🤵 Charge.md>)
     - [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) → [Charge @ Notifier 🤵💵🐌📣](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/5 💳 Payments/🤵🐌📣 Charge.md>)
 
-- [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) pays [Seller 💵 domain](<../💵🎭 Seller role.md>)
+- [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) pays [Seller 💵 domain](<../💵🎭 Seller role.md>)
 
-    - [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) → [Endorse @ Payer 🧑‍🦰🐌💳](<../../Payers/💳🅰️ Payer methods/🧑‍🦰🐌💳 Endorse.md>)
+    - [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) → [Endorse @ Payer 🧑‍🦰🐌💳](<../../Payers/💳🅰️ Payer methods/🧑‍🦰🐌💳 Endorse.md>)
     - [Payer 💳 agent](<../../Payers/💳🎭 Payer role.md>) → [Collect @ Collector 💳🐌🏦](<../../../45 🤲 Helper domains/Collectors 🏦/🏦🅰️ Collector methods/💳🐌🏦 Collect.md>)
     - [Collector 🏦](<../../../45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) → [Paid @ Seller 🏦🐌💵](<../💵🅰️ Seller methods/🏦🐌💵 Paid.md>)
 

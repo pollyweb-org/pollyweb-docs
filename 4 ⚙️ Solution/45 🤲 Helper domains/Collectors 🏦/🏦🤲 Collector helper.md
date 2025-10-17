@@ -18,7 +18,7 @@
 
     |#|Step
     |-|-
-    |1| A [Payer 💳 domain](<../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) receives an order to make a payment, either from a user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) in a business-to-consumer (B2C) transaction, or from a [domain 👥](<../../40 👥 Domains/👥 Domain.md>) in a business-to-business (B2B) transaction.
+    |1| A [Payer 💳 domain](<../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) receives an order to make a payment, either from a user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) in a business-to-consumer (B2C) transaction, or from a [domain 👥](<../../40 👥 Domains/👥 Domain.md>) in a business-to-business (B2B) transaction.
     |2| The [Payer 💳 domain](<../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) then performs a traditional payment to a [Collector 🏦 helper domain](<🏦🤲 Collector helper.md>).
     |3| The [Collector 🏦 domain](<🏦🤲 Collector helper.md>)issues a traditional receipt back to the [Payer 💳 domain](<../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>).
     |4| The [Collector 🏦 domain](<🏦🤲 Collector helper.md>)notifies the recipient [domain 👥](<../../40 👥 Domains/👥 Domain.md>) that the payment was successful.
@@ -112,7 +112,7 @@
     
     The [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) will be similar to the following.
 
-    | [Domain](<../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
     |...
     | 🤗 Host | ℹ️ Let me get you the bill.

@@ -3,9 +3,9 @@
 > The [Broker 🤵 domain](<../🤵🤲 Broker helper.md>) updates the list of [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>).
 
 > Used in:
-> <br/>• [🎴⏩🧑‍🦰 Offer Token @ Issuer](<../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Prompts 🤔/👉🎴 Save token.md>) 
-> <br/>• [🧑‍🦰👉🤵 Remove Token @ Wallet](<../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Tokens 🎫/💬🤵 Remove 🎫.md>)
-> <br/>• [🧑‍🦰👉🤵 List Tokens @ Wallet](<../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in App 🏠/💬🤵 List Tokens 🎫.md>)
+> <br/>• [🎴⏩🧑‍🦰 Offer Token @ Issuer](<../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Prompts 🤔/👉🎴 Save token.md>) 
+> <br/>• [🧑‍🦰👉🤵 Remove Token @ Wallet](<../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Tokens 🎫/💬🤵 Remove 🎫.md>)
+> <br/>• [🧑‍🦰👉🤵 List Tokens @ Wallet](<../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/💬🤵 List Tokens 🎫.md>)
 
 <br/>
 
@@ -17,6 +17,6 @@
 
 | # | Call | Notes |
 |-|-|-
-| 1 | [🤵🐌📣 `Updated@Notifier`](<../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/3 🤵🐌📣 Updated.md>)| [Brokers 🤵](<../🤵🤲 Broker helper.md>) tell [Notifiers 📣](<../../Notifiers 📣/📣👥 Notifier domain.md>) to update [Wallets 🧑‍🦰](<../../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)
-| 2 | [🧑‍🦰🚀🤵 `Tokens@Broker`](<../🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🧑‍🦰🚀🤵 Tokens.md>) | [Wallets 🧑‍🦰](<../../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) get [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) from [Brokers 🤵](<../🤵🤲 Broker helper.md>)
+| 1 | [🤵🐌📣 `Updated@Notifier`](<../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/3 🤵🐌📣 Updated.md>)| [Brokers 🤵](<../🤵🤲 Broker helper.md>) tell [Notifiers 📣](<../../Notifiers 📣/📣👥 Notifier domain.md>) to update [Wallets 🧑‍🦰](<../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+| 2 | [🧑‍🦰🚀🤵 `Tokens@Broker`](<../🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🧑‍🦰🚀🤵 Tokens.md>) | [Wallets 🧑‍🦰](<../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) get [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) from [Brokers 🤵](<../🤵🤲 Broker helper.md>)
 ||

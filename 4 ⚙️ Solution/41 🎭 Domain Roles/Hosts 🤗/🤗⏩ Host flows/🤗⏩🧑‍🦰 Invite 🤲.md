@@ -5,7 +5,7 @@
     * to a [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>).
   
 * Used in:
-    * [💼⏩🧑‍🦰 Share Token+ID @ Consumer](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Prompts 🤔/👉💼 Share Token+ID.md>) flow
+    * [💼⏩🧑‍🦰 Share Token+ID @ Consumer](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Prompts 🤔/👉💼 Share Token+ID.md>) flow
   
 * Examples: 
     * [Split bill at a restaurant 🍽️](<../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/74 💳 Pay: Split bill ✂️.md>) use case
@@ -19,7 +19,7 @@
 
 Consider the following [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) as an example.
 
-| [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)
+| [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
 | 🤗 Host  | ℹ️ I'll ask my Helper for a random number. | 
 | 🤵 [Broker](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | 🫥 [Allow invited guest?](<🤗⏩🧑‍🦰 Invite 🤲.md>) [Yes, No]  <br/> - Any Helper 🤲 <br/>- [ Always ] for Any Host  🤗 | > Yes

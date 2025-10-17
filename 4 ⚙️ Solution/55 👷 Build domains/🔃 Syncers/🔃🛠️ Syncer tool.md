@@ -38,7 +38,7 @@
 1. **Is it authenticated?**
 
     Yes. 
-    * First, users use their [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) to approve the [Clone ⏩](<🔃⏩ Syncer flows/10 🔃⏩🗃️ Clone.md>) with one-time passwords, registering the [Syncer's 🔃](<🔃🛠️ Syncer tool.md>) public key on the [Filer 🗃️ domain](<../../41 🎭 Domain Roles/Filer 🗃️/🗃️🎭 Filer role.md>).
+    * First, users use their [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) to approve the [Clone ⏩](<🔃⏩ Syncer flows/10 🔃⏩🗃️ Clone.md>) with one-time passwords, registering the [Syncer's 🔃](<🔃🛠️ Syncer tool.md>) public key on the [Filer 🗃️ domain](<../../41 🎭 Domain Roles/Filer 🗃️/🗃️🎭 Filer role.md>).
 
     * Follow-up requests are then signed with the [Syncer's 🔃](<🔃🛠️ Syncer tool.md>) private key.
 

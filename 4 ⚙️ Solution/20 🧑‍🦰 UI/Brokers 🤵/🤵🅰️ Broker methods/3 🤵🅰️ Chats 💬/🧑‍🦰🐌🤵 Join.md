@@ -3,14 +3,14 @@
 > Asks the [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) to join a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) to help.
 
 > Used in:
-> <br/> • [🧑‍🦰👉🤵 Host Home](<../../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Chats 💬/💬🤵 Host home.md>) flow
-> <br/> • [🧑‍🦰👉🤵 Abandon Chat](<../../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Chats 💬/💬🤵 Abandon 💬.md>) flow
+> <br/> • [🧑‍🦰👉🤵 Host Home](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Chats 💬/💬🤵 Host home.md>) flow
+> <br/> • [🧑‍🦰👉🤵 Abandon Chat](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Chats 💬/💬🤵 Abandon 💬.md>) flow
 
 <br/>
 
 ## Chat
 
-| [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)
+| [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
 ...
 | 🤗 [Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 Continue [Yes, No] 
@@ -39,7 +39,7 @@ Body:
 
 | Object | Property | Type |Description
 |-|-|-|-
-| Header | `From`    | string | [Wallet 🧑‍🦰](<../../../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)  from [`Onboard@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
+| Header | `From`    | string | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  from [`Onboard@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
 || `To`      | string | [Broker 🤵](<../../🤵🤲 Broker helper.md>) from [`Onboard@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
 || `Subject` | string | `Join@Broker`
 | Body | `ChatID`  | uuid   | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)  from [`Converse@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/2 💬 Chats/1 🤵🐌📣 Converse.md>)

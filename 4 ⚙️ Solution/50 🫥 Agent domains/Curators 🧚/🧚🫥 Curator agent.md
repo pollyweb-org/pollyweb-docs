@@ -92,7 +92,7 @@
 
 1. **How do curators protect themselves from data breaches?**
 
-    While [Curator 🧚 agents](<🧚🫥 Curator agent.md>) communicate using natural language with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>), they output to [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) only a filtered list of codes referenced in the input.
+    While [Curator 🧚 agents](<🧚🫥 Curator agent.md>) communicate using natural language with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>), they output to [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) only a filtered list of codes referenced in the input.
 
     ---
     <br/>

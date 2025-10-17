@@ -5,9 +5,9 @@
 
 The NLWeb ecosystem aims to simplify everyday business transactions by streamlining interactions between users, organizations, and things, while ensuring security and performance at a global scale.
 
-* Users interact with [Domains 👥](<../40 👥 Domains/👥 Domain.md>) using their [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>).
+* Users interact with [Domains 👥](<../40 👥 Domains/👥 Domain.md>) using their [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
 
-    * A [Wallet 🧑‍🦰](<../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) is an NLWeb-compatible mobile app from any vendor (e.g., `any-wallet.dom`).
+    * A [Wallet 🧑‍🦰](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) is an NLWeb-compatible mobile app from any vendor (e.g., `any-wallet.dom`).
   
     * Each app depends on a [Notifier 📣 domain](<../20 🧑‍🦰 UI/Notifiers 📣/📣👥 Notifier domain.md>) for device-specific communications (e.g., WebSockets, MQTT).
     

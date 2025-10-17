@@ -4,11 +4,11 @@
 
 # 🧑‍🦰🚀🤵 Tokens @ Broker
 
-> List of [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) in a [Wallet 🧑‍🦰 app](<../../../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) for a human user, mapping to the local file.
+> List of [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) in a [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) for a human user, mapping to the local file.
 
 > Used in:
-> <br/> • [🧑‍🦰👉🤵 Translate @ Broker](<../../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in App 🏠/💬🤵 Translate.md>) flow
-> <br/> • [🧑‍🦰👉🤵 List Tokens @ Broker](<../../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in App 🏠/💬🤵 List Tokens 🎫.md>) flow
+> <br/> • [🧑‍🦰👉🤵 Translate @ Broker](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/💬🤵 Translate.md>) flow
+> <br/> • [🧑‍🦰👉🤵 List Tokens @ Broker](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/💬🤵 List Tokens 🎫.md>) flow
 
 <br/>
 
@@ -24,7 +24,7 @@ Body:
 
 | Object | Property | Type  | Description
 |-|-|-|-
-| Header    | `From`| uuid  | [Wallet 🧑‍🦰](<../../../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)  from [`Onboard@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
+| Header    | `From`| uuid  | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  from [`Onboard@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
 |           | `To`  | string| [Broker 🤵](<../../🤵🤲 Broker helper.md>) from [`Onboard@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
 |           | `Subject`| string|  `Tokens@Broker`
 |

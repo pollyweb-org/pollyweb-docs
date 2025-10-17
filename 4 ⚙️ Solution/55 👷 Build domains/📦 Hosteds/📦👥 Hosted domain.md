@@ -59,7 +59,7 @@
       
     | Dependency | Purpose
     |-|-
-    | [🧑‍🦰 Wallet](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) | To authenticate and [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) with the [Hoster ☁️ ](<../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>)
+    | [🧑‍🦰 Wallet](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) | To authenticate and [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) with the [Hoster ☁️ ](<../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>)
     | [💳 Payer](<../../50 🫥 Agent domains/Payers 💳/💳🫥 Payer agent.md>) | To pay for usage and subscription plans.
     | [🆔 Identity](<../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) | To authenticate the domain user.
     | [🧑‍💻 Editor](<../../50 🫥 Agent domains/Editors 🧑‍💻/🧑‍💻🫥 Editor agent.md>) | To manage the settings of the hosted [domain 👥](<../../40 👥 Domains/👥 Domain.md>).
