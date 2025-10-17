@@ -12,7 +12,7 @@
 
 1. **How do Integrators work?**
 
-    ![](<../../35 💬 Chats/💬 Chats/.📎 Assets/💬 Integrator.png>)
+    ![](<.📎 Assets/💬 Integrator.png>)
 
     ---
     <br/>

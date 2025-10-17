@@ -12,7 +12,7 @@
 
 1. **How do Host domains work?**
 
-    ![](<../../35 💬 Chats/💬 Chats/.📎 Assets/💬🤗 Host.png>)
+    ![](<.📎 Assets/🤗 Host.png>)
 
     |#|Category|Step
     |-|-|-
