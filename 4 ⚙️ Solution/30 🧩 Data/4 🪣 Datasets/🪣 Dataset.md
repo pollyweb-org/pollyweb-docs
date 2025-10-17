@@ -3,9 +3,6 @@
 # 🪣 Datasets
 
 
-
-> Relates to [🛢🤲 Itemizer helper](<../../45 🤲 Helper domains/Itemizer 🛢/🛢🤲 Itemizer helper.md>)
-
 <br/>
 
 1. **How to define a Dataset?**
