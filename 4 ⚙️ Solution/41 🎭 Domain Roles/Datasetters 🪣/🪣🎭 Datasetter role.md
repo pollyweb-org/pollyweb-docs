@@ -8,6 +8,7 @@
     A Datasetter is an [🪢 Integrator](<../Integrators 🪢/🪢🎭 Integrator role.md>) domain that exposes a synchronous data API. 
 
     ---
+    <br/>
 
 1. **What are examples of possible data APIs?**
 
@@ -17,6 +18,7 @@
     * or any type of data capable of being downloaded from an HTTPS endpoint.
 
     ---
+    <br/>
 
 1. **How do Datasets handle data API requests?**
 
@@ -26,6 +28,7 @@
     * or to custom-built handlers (e.g., Python).
 
     ---
+    <br/>
 
 1. **How can Hosts leverage Datasets on chats?**
 
@@ -35,6 +38,7 @@
     * When chatting with users, the NLWeb SDK invokes the Datasetter's end-point.
 
     ---
+    <br/>
 
 1. **How do Hosts reference a Datasets API?**
 
@@ -45,3 +49,4 @@
     * offered by the domain [`standards.any-igo.dom` 📜](<../../../8 📜 Manifests/👥 any-igo.dom/📜 standards.any-igo.dom.md>) .
 
     ---
+    <br/>

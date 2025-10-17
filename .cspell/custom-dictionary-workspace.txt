@@ -3,7 +3,9 @@ Agentic
 Alexa
 CLDR
 Cognifying
+Databaser
 Datasetter
+Datasetters
 Elon
 enduml
 Ephemerals
