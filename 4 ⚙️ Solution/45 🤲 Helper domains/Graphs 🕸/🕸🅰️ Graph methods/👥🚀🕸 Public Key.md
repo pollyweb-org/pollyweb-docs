@@ -9,7 +9,7 @@
 * Returns the historical public key of an [Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) by the name of the key.
     * Allows a [Consumer 💼 domain](<../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) to verify a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) issued before a [DKIM 📨](<../../../30 🧩 Data/Messages 📨/📨 Message.md>) rotation.
 * Used by:
-    * [👥🔏 Domain Signature](<../../../40 👥 Domains/👥 Domains/👥⏩ Domain flows/👥⏩📄 Sign files 🔏.md>)
+    * [👥🔏 Domain Signature](<../../../40 👥 Domains/👥⏩ Domain flows/👥⏩📄 Sign files 🔏.md>)
     * [💼⏩🧑‍🦰 Share Token @ Consumer](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Prompts 🤔/👉💼 Share Token 🎫.md>) flow
 
 <br/>
@@ -30,7 +30,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header| `From`    | string | The name of the [domain 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) asking
+| Header| `From`    | string | The name of the [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) asking
 |       | `To`      | string | [Graph 🕸 domain](<../🕸🤲 Graph helper.md>) name
 |       | `Subject` | string | `PublicKey@Graph`
 |Body   | `Issuer`  | string | [Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) name

@@ -20,7 +20,7 @@
 
 Consider the following [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) with two [Prompts 🤔](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) as an example.
 
-| [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)
+| [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
 | 🤗 Host | ℹ️ Hello World!
 | 🤗 Host | 😃 Like sports? [Yes, No] <br/> - I [love] it <br/> - I [hate] it | >> love

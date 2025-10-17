@@ -6,13 +6,13 @@
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 
 * Verifies if there’s a path of [Trust 👍](<../../../30 🧩 Data/Trusts 👍/👍 Domain Trust.md>) 
-    * between two [domains 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) 
+    * between two [domains 👥](<../../../40 👥 Domains/👥 Domain.md>) 
     * regarding a [Schema Code 🧩](<../../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>)
     * as defined in the [`.MANIFEST/TRUST` 🧩](<../../../30 🧩 Data/Manifests 📜/🧩 Manifest schemas/🧩 TRUST.md>) part
     * of [domain Manifests 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest.md>).
   
 *  Similar to [`Trusted@Graph`](<👥🚀🕸 Trusts.md>), 
-   *  but for verification by the sender [domain 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>).
+   *  but for verification by the sender [domain 👥](<../../../40 👥 Domains/👥 Domain.md>).
 
 <br/>
 
@@ -33,10 +33,10 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header| `From`    | string | The name of the sender [domain 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>)
+| Header| `From`    | string | The name of the sender [domain 👥](<../../../40 👥 Domains/👥 Domain.md>)
 |       | `To`      | string | [Graph 🕸 domain](<../🕸🤲 Graph helper.md>) name
 |       | `Subject` | string | `Trusted@Graph`
-| Body  | `Domain`  | string | The [domain 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) name to assess.
+| Body  | `Domain`  | string | The [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) name to assess.
 |       | `Role`    | enum   | The domain role to assess: `VAULT`, `CONSUMER`, `*`
 |       | `Code`    | string | The [Schema Code 🧩](<../../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) to assess.
 |

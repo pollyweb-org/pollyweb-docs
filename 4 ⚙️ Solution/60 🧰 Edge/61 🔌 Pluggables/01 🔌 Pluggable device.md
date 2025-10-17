@@ -32,7 +32,7 @@
     | ✨ [Scanners](<../66 ✨ Scanners/06 ✨🔌 Scanner device.md>) | For users to tap their  [Things 💠](<../../25 🔆 Locators/Things 💠/💠🔆 Thing locator.md>), [Userables 💍](<../../25 🔆 Locators/Userables 💍/💍💠 Userable thing.md>), and [Tapbands ⌚](<../../25 🔆 Locators/Tapbands ⌚/⌚💠 Tapband thing.md>).
     | 📸 [Cameras](<../64 📸 Selfies/01 📸🔌 Selfie device.md>) | For users to [take a selfie 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/07 🧑‍💻 Unsupervised ID landscape/00 🧑‍💻 Unsupervised ID index.md>) for their [Identity 🆔 agent](<../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>).
     | 🖐️ [Palmists](<../63 🖐️ Palmists/01 🖐️🔌 Palmist device.md>) | Tor users to [scan their palm 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/07 🖐️ Palm pay landscape/00 🖐️ Palm pay index.md>) for their [Identity 🆔 agent](<../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>).
-    | 🎬 [Relays](<../65 🎬 Relayers/04 🎬🔌 Relay device.md>) | For [domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) to remotely control electrical circuits.
+    | 🎬 [Relays](<../65 🎬 Relayers/04 🎬🔌 Relay device.md>) | For [domains 👥](<../../40 👥 Domains/👥 Domain.md>) to remotely control electrical circuits.
     | 🦋 [Ephemerals](<../62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>) | Rotates [QR/NFC Locators 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to ensure users are standing next to the device.
 
     ---

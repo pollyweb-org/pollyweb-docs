@@ -2,13 +2,13 @@
 
 > Part of [domain Message 📨](<../📨 Message.md>)
 
-> Implemented by [👥⏩👥 Request Sync 🚀](<../../../40 👥 Domains/👥 Domains/👥⏩ Domain flows/👥⏩👥 Request Sync 🚀.md>)
+> Implemented by [👥⏩👥 Request Sync 🚀](<../../../40 👥 Domains/👥⏩ Domain flows/👥⏩👥 Request Sync 🚀.md>)
 
 <br/> 
 
 1. **What are Synchronous Requests?**
 
-    [Domains 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) send requests and wait for the immediate response over an HTTPS request.
+    [Domains 👥](<../../../40 👥 Domains/👥 Domain.md>) send requests and wait for the immediate response over an HTTPS request.
 
     ---
     <br/>
