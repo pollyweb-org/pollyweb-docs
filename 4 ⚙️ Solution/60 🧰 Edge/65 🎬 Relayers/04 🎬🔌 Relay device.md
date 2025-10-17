@@ -17,7 +17,7 @@
     * Proximity - Relayers are global, Padlocks are short range only;
     * Internet - Relayers need internet, Padlocks work offline;
     * Identity - Relayers use [🆔 Identities](<../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>), Padlocks are anonymous;
-    * Userables - Relayers support [Userables 💍](<../../25 🔆 Locators/4 💍 Userables/💍💠 Userable thing.md>), Padlocks don't.
+    * Userables - Relayers support [Userables 💍](<../../25 🔆 Locators/Userables 💍/💍💠 Userable thing.md>), Padlocks don't.
 
     ---
 

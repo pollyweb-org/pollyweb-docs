@@ -10,7 +10,7 @@
 
     Yes. 
     * A [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) owned by person `A` can authenticate a person `B` in a [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) when the [Chat's Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) invites the [Identity 🆔 vault](<../🆔🫥 Identity agent.md>) of person `B` into the [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>).
-    * This is particularly useful when working with [Userable 💍 things](<../../../25 🔆 Locators/4 💍 Userables/💍💠 Userable thing.md>) where the owner's identity needs to be confirmed on [payments 🤝 scenarios](<../../../25 🔆 Locators/4 💍 Userables/💍⏩ Userable flows/💍💳 Pay salesperson.md>) and [item recovery 🤝 scenarios](<../../../25 🔆 Locators/4 💍 Userables/💍⏩ Userable flows/💍📱 Senior user.md>) via another [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>).
+    * This is particularly useful when working with [Userable 💍 things](<../../../25 🔆 Locators/Userables 💍/💍💠 Userable thing.md>) where the owner's identity needs to be confirmed on [payments 🤝 scenarios](<../../../25 🔆 Locators/Userables 💍/💍⏩ Userable flows/💍💳 Pay salesperson.md>) and [item recovery 🤝 scenarios](<../../../25 🔆 Locators/Userables 💍/💍⏩ Userable flows/💍📱 Senior user.md>) via another [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>).
 
     ---
     <br/>
@@ -36,12 +36,12 @@
 
     |Industry|Use case 🤝
     |-|-
-    | `Security`| 🎬 [Cross gates at an airport](<../../../25 🔆 Locators/4 💍 Userables/💍⏩ Userable flows/💍🎬 Cross gates.md>)
-    | `Payments` | 💍 [Pay a salesperson ](<../../../25 🔆 Locators/4 💍 Userables/💍⏩ Userable flows/💍💳 Pay salesperson.md>) 
-    | `Payments` | [💳 Pay seller on a kiosk](<../../../25 🔆 Locators/4 💍 Userables/💍⏩ Userable flows/💍💳 Pay at kiosk.md>) 
+    | `Security`| 🎬 [Cross gates at an airport](<../../../25 🔆 Locators/Userables 💍/💍⏩ Userable flows/💍🎬 Cross gates.md>)
+    | `Payments` | 💍 [Pay a salesperson ](<../../../25 🔆 Locators/Userables 💍/💍⏩ Userable flows/💍💳 Pay salesperson.md>) 
+    | `Payments` | [💳 Pay seller on a kiosk](<../../../25 🔆 Locators/Userables 💍/💍⏩ Userable flows/💍💳 Pay at kiosk.md>) 
     |`Payments` | [💁‍♀️ Pay a restaurant bill](<../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/94 💁‍♀️ Staff: Bill userable 💍.md>)|
     |`Taxis`| [🚕 Pay a taxi ride](<../../../../3 🤝 Use Cases/03 🧳 Travel/04 🧳 Travel by taxi 🚕/9 🚕 Driver @ Car 👨‍✈️/04 👨‍✈️ Bill userable.md>)
-    |`Social`| [💍 Aid a confused senior ](<../../../25 🔆 Locators/4 💍 Userables/💍⏩ Userable flows/💍📱 Senior user.md>)
+    |`Social`| [💍 Aid a confused senior ](<../../../25 🔆 Locators/Userables 💍/💍⏩ Userable flows/💍📱 Senior user.md>)
 
 
     ---
