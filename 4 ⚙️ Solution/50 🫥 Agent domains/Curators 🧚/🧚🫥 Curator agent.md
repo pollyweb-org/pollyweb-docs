@@ -129,7 +129,7 @@
     ---
     <br/>
 
-9.  **What does an instruction set for a Curator looks like?**
+1. **What does an instruction set for a Curator looks like?**
 
     > Pretend that you are a friendly staff at a {PLACE}.
     > - Ask a customer what they want, until they don't want anything else.
