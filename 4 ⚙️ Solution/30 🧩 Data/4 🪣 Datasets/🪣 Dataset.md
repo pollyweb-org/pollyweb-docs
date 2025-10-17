@@ -4,7 +4,7 @@
 
 
 
-> Relates to [🛢🤲 Databaser helper](<../../45 🤲 Helper domains/Itemizer 🛢/🛢🤲 Itemizer helper.md>)
+> Relates to [🛢🤲 Itemizer helper](<../../45 🤲 Helper domains/Itemizer 🛢/🛢🤲 Itemizer helper.md>)
 
 <br/>
 
