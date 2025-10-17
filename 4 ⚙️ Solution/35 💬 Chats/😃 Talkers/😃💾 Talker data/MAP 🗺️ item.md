@@ -1,6 +1,6 @@
 <!-- TODO: detail the relation with database -->
 
-# 🪣 Talker `MAP` command
+# 🗺️ Talker `MAP` command
 
 > Part of [Talker 😃](<../😃 Talker.md>)
 
@@ -11,7 +11,7 @@
 
 1. **What's a MAP item command?**
 
-    A `MAP` 🪣
+    A `MAP` 🗺️
     * is a [Command ⌘](<../😃⚙️ Talker cmds/⌘ Command.md>) 
     * that retrieves an item by key 🔑
     * from a key-value resource pool 🪣

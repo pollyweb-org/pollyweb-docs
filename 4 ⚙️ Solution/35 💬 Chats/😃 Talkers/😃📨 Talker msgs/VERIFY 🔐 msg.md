@@ -59,7 +59,7 @@
     | [Command ⌘](<../😃⚙️ Talker cmds/⌘ Command.md>) | Purpose
     |-|-
     | ⬇️ [`EVAL`](<../😃💾 Talker data/EVAL ⬇️ flow.md>) | To get the Wallet ID from the [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message.md>).
-    | 🪣 [`MAP`](<../😃💾 Talker data/MAP 🪣 item.md>) | To get the Public Key of the Wallet item.
+    | 🪣 [`MAP`](<../😃💾 Talker data/MAP 🗺️ item.md>) | To get the Public Key of the Wallet item.
 
     ---
     <br/>
