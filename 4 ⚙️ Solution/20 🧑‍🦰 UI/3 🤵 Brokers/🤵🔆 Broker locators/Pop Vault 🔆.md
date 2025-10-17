@@ -7,7 +7,9 @@
 💬 [Unbind] Vault:
 
 # Get the Vault 
-- MAP|$wallet.Vaults|$.Msg.Body.Key >> $vault
+- MAP >> $vault:
+    Pool: $wallet.Vaults
+    Key: $.Msg.Body.Key
 
 # Ask for confirmation 🤔
 - CONFIRM|Unbind vault {$vault.Title}?
@@ -19,10 +21,10 @@
     Title: Title
 
 # Remove the binds
-- FOR|$vault.Binds >> $bind:
-    - CRUD|DELETE|$bind
+- PARALLEL|$vault.Binds >> $bind:
     - MSG|Unbound@Vault|$bind.Vault:
         BindID: $bind.ID
+    - DELETE|$bind
 
 # Update the bind list
 - MSG|Updated@Notifier|$wallet.Notifier:
