@@ -12,7 +12,7 @@
     [Talkers 😃](<😃 Talker.md>) 
     * are YAML scripts to render dialogs in a [💬 Chat](<../💬 Chats/💬 Chat.md>)
     * structured as [Commands ⌘](<😃⚙️ Talker cmds/⌘ Command.md>) grouped in [Procedures ⚙️](<😃⚙️ Talker cmds/⚙️ Procedure.md>)
-    * referencing [{Functions} 🐍](<😃💾 Talker data/12 🐍 {Function}.md>) evaluated by [Hosted 📦 domains](<../../55 👷 Build domains/📦 Hosteds/📦👥 Hosted domain.md>)
+    * referencing [{Functions} 🐍](<😃💾 Talker data/{Function} 🐍.md>) evaluated by [Hosted 📦 domains](<../../55 👷 Build domains/📦 Hosteds/📦👥 Hosted domain.md>)
     * and implemented by [Hoster ☁️ helper domains](<../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>).
     ---
     <br/>
@@ -42,7 +42,7 @@
         * Top menu entry - i.e., the "what?"
     * `<procedure>:`   
         * Executable procedure.
-    * [`{function}`](<😃💾 Talker data/12 🐍 {Function}.md>)
+    * [`{function}`](<😃💾 Talker data/{Function} 🐍.md>)
         * Calculates the value with a function.
 
   
@@ -54,7 +54,7 @@
 
     |Flow|Details
     |-|-
-    | [😃⏩🧑‍💻 Handle 🐍](<😃⏩ Talker flows/😃⏩🧑‍💻 Handle 🐍.md>) | Ask [Hosteds 📦](<../../55 👷 Build domains/📦 Hosteds/📦👥 Hosted domain.md>) to handle [{Functions} 🐍](<😃💾 Talker data/12 🐍 {Function}.md>)
+    | [😃⏩🧑‍💻 Handle 🐍](<😃⏩ Talker flows/😃⏩🧑‍💻 Handle 🐍.md>) | Ask [Hosteds 📦](<../../55 👷 Build domains/📦 Hosteds/📦👥 Hosted domain.md>) to handle [{Functions} 🐍](<😃💾 Talker data/{Function} 🐍.md>)
     | [😃⏩🧑‍💻 Wait ⏸️](<😃⏩ Talker flows/😃⏩🧑‍💻 Wait ⏸️.md>) | Allow [Hosted 📦](<../../55 👷 Build domains/📦 Hosteds/📦👥 Hosted domain.md>)  long-running tasks
     
     ---
@@ -66,9 +66,9 @@
 
     |Method|Details
     |-|-
-    | 🧑‍💻🚀 [Placed](<😃🅰️ Talker methods/🧑‍💻🚀😃 Placed.md>) | Returns the value of a [$placeholder 💾](<😃💾 Talker data/10 💾 $Placeholder.md>)
-    | 🧑‍💻🐌 [Place](<😃🅰️ Talker methods/🧑‍💻🐌😃 Place.md>) | Sets the value of a [$placeholder 💾](<😃💾 Talker data/10 💾 $Placeholder.md>)
-    | 🧑‍💻🐌 [Handled](<😃🅰️ Talker methods/🧑‍💻🐌😃 Handled.md>) | Receives the evaluation of a [{Function} 🐍](<😃💾 Talker data/12 🐍 {Function}.md>)
+    | 🧑‍💻🚀 [Placed](<😃🅰️ Talker methods/🧑‍💻🚀😃 Placed.md>) | Returns the value of a [$placeholder 💾](<😃💾 Talker data/$Placeholder 💾.md>)
+    | 🧑‍💻🐌 [Place](<😃🅰️ Talker methods/🧑‍💻🐌😃 Place.md>) | Sets the value of a [$placeholder 💾](<😃💾 Talker data/$Placeholder 💾.md>)
+    | 🧑‍💻🐌 [Handled](<😃🅰️ Talker methods/🧑‍💻🐌😃 Handled.md>) | Receives the evaluation of a [{Function} 🐍](<😃💾 Talker data/{Function} 🐍.md>)
     
 
     ---

@@ -122,7 +122,7 @@
     | [Command ⌘](<⌘ Command.md>) | Purpose
     |-|-
     | 👍 [`CONFIRM`](<../../🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) | To wait for user confirmation.
-    | ⬇️ [`EVAL`](<../😃💾 Talker data/20 ⬇️ EVAL flow.md>) | To add an item to the database.
+    | ⬇️ [`EVAL`](<../😃💾 Talker data/EVAL ⬇️ flow.md>) | To add an item to the database.
 
     ---
     <br/>
@@ -199,7 +199,7 @@
 
     | [Command ⌘](<⌘ Command.md>) | Purpose
     |-|-
-    | ⬇️ [`EVAL`](<../😃💾 Talker data/20 ⬇️ EVAL flow.md>) | To generate a random number a subtract tries.
+    | ⬇️ [`EVAL`](<../😃💾 Talker data/EVAL ⬇️ flow.md>) | To generate a random number a subtract tries.
     | ↕️ [`QUANTITY`](<../../🤔 Prompts/🤔✏️ Prompt inputs/42 ↕️ QUANTITY prompt.md>) | To collect the number input.
     | 🔁 [`REPEAT`](<REPEAT 🔁.md>) | To allow for additional tries.
     | ↩️ [`RETURN`](<RETURN ↩️.md>) | To return the result from the loop.

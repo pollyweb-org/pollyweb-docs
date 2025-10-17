@@ -26,7 +26,7 @@
     |Argument| Details | Example 
     |-|-|-
     | `<statement>`| The message to the user | `What time?`
-    | `$placeholder`| [$placeholder 💾](<../../😃 Talkers/😃💾 Talker data/10 💾 $Placeholder.md>) with  ISO 8601 time | `14:23:59` 
+    | `$placeholder`| [$placeholder 💾](<../../😃 Talkers/😃💾 Talker data/$Placeholder 💾.md>) with  ISO 8601 time | `14:23:59` 
     
     ---
     <br/>

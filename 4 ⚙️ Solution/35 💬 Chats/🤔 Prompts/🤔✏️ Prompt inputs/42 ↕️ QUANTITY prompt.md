@@ -37,7 +37,7 @@
     | Argument| Purpose 
     |-|-
     | `<statement>`| Message to show to the user
-    | `$placeholder`| Optional [$placeholder 💾](<../../😃 Talkers/😃💾 Talker data/10 💾 $Placeholder.md>) with the user's answer 
+    | `$placeholder`| Optional [$placeholder 💾](<../../😃 Talkers/😃💾 Talker data/$Placeholder 💾.md>) with the user's answer 
 
     ```yaml
     # Comprehensive.
@@ -225,8 +225,8 @@
     | `$p.Decimal` | Decimal rounded to `Precision` | `1234.57`
     | `$p.Pretty` | Decimal formatted to `Locale` | `1,234.57`
     | `$p.Locale` | CLDR locale used to format | `en-US`
-    | [`$p.$`](<../../😃 Talkers/😃💾 Talker data/12 🐍 {Function}.md>) | The value of `$p.Pretty` | `1,234.57`
-    | `$p` | The [default value](<../../😃 Talkers/😃💾 Talker data/12 🐍 {Function}.md>) `$p.$` | `1,234.57`
+    | [`$p.$`](<../../😃 Talkers/😃💾 Talker data/{Function} 🐍.md>) | The value of `$p.Pretty` | `1,234.57`
+    | `$p` | The [default value](<../../😃 Talkers/😃💾 Talker data/{Function} 🐍.md>) `$p.$` | `1,234.57`
 
     ---
     <br/>
