@@ -1,6 +1,6 @@
 # 🔃⏩🗃️ Sync @ Syncer
 
-* Syncs the resourcers in a [Resourcer 🗃️ domain](<../../../41 🎭 Domain Roles/Resourcers 🗃️/🗃️🎭 Resourcer role.md>), 
+* Syncs the resourcers in a [Filer 🗃️ domain](<../../../41 🎭 Domain Roles/Filer 🗃️/🗃️🎭 Filer role.md>), 
     * sending and receiving file changes in a local folder.
 
 <br/>
@@ -22,8 +22,8 @@ $ syncer sync
 
 | # | Call | Notes
 |-|-|-
-|1|[🔃🚀🗃️ `Map@Resourcer`](<../../../41 🎭 Domain Roles/Resourcers 🗃️/🗃️🅰️ Resourcer methods/🔃🚀🗃️ Map.md>) | [Syncers](<../🔃🛠️ Syncer tool.md>) send a map current files
-|2|[🔃🚀🗃️ `Upload@Resourcer`](<../../../41 🎭 Domain Roles/Resourcers 🗃️/🗃️🅰️ Resourcer methods/🔃🚀🗃️ Upload.md>) | Then upload each file individually
-|3|[🔃🚀🗃️ `Uploaded@Resourcer`](<../../../41 🎭 Domain Roles/Resourcers 🗃️/🗃️🅰️ Resourcer methods/🔃🚀🗃️ Uploaded.md>) | [Resourcers 🗃️](<../../../41 🎭 Domain Roles/Resourcers 🗃️/🗃️🎭 Resourcer role.md>) calculate changes
-|4|[🔃🚀🗃️ `Download@Resourcer`](<../../../41 🎭 Domain Roles/Resourcers 🗃️/🗃️🅰️ Resourcer methods/🔃🚀🗃️ Download.md>) | [Syncers](<../🔃🛠️ Syncer tool.md>) execute the changes
+|1|[🔃🚀🗃️ `Map@Filer`](<../../../41 🎭 Domain Roles/Filer 🗃️/🗃️🅰️ Filer methods/🔃🚀🗃️ Map.md>) | [Syncers](<../🔃🛠️ Syncer tool.md>) send a map current files
+|2|[🔃🚀🗃️ `Upload@Filer`](<../../../41 🎭 Domain Roles/Filer 🗃️/🗃️🅰️ Filer methods/🔃🚀🗃️ Upload.md>) | Then upload each file individually
+|3|[🔃🚀🗃️ `Uploaded@Filer`](<../../../41 🎭 Domain Roles/Filer 🗃️/🗃️🅰️ Filer methods/🔃🚀🗃️ Uploaded.md>) | [Resourcers 🗃️](<../../../41 🎭 Domain Roles/Filer 🗃️/🗃️🎭 Filer role.md>) calculate changes
+|4|[🔃🚀🗃️ `Download@Filer`](<../../../41 🎭 Domain Roles/Filer 🗃️/🗃️🅰️ Filer methods/🔃🚀🗃️ Download.md>) | [Syncers](<../🔃🛠️ Syncer tool.md>) execute the changes
 |

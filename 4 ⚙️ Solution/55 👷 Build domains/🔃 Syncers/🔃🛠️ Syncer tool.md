@@ -1,6 +1,6 @@
 # 🔃 Syncer tool
 
-> Relates to [Resourcer 🗃️ domain role](<../../41 🎭 Domain Roles/Resourcers 🗃️/🗃️🎭 Resourcer role.md>).
+> Relates to [Filer 🗃️ domain role](<../../41 🎭 Domain Roles/Filer 🗃️/🗃️🎭 Filer role.md>).
 
 <br/>
 
@@ -10,7 +10,7 @@
     A [Syncer 🔃 tool](<🔃🛠️ Syncer tool.md>)
     * is a command-line tool
     * to sync local files 
-    * with a [Resourcer 🗃️ domain](<../../41 🎭 Domain Roles/Resourcers 🗃️/🗃️🎭 Resourcer role.md>).
+    * with a [Filer 🗃️ domain](<../../41 🎭 Domain Roles/Filer 🗃️/🗃️🎭 Filer role.md>).
 
     ---
     <br/>
@@ -19,9 +19,9 @@
 
     |Command 🧑‍💻| Description
     |-|-
-    |[⏩ `clone`](<🔃⏩ Syncer flows/10 🔃⏩🗃️ Clone.md>) | Registers [Syncer 🔃 tools](<🔃🛠️ Syncer tool.md>) on [Resourcers 🗃️](<../../41 🎭 Domain Roles/Resourcers 🗃️/🗃️🎭 Resourcer role.md>)
-    |[⏩ `sync`](<🔃⏩ Syncer flows/20 🔃⏩🗃️ Sync.md>) | Syncs local files with [Resourcer 🗃️ domains](<../../41 🎭 Domain Roles/Resourcers 🗃️/🗃️🎭 Resourcer role.md>) 
-    |[⏩ `chat`](<../../41 🎭 Domain Roles/Resourcers 🗃️/🗃️🅰️ Resourcer methods/🔃🐌🗃️ Chat.md>)| Opens [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) with [Resourcer 🗃️ domains](<../../41 🎭 Domain Roles/Resourcers 🗃️/🗃️🎭 Resourcer role.md>)
+    |[⏩ `clone`](<🔃⏩ Syncer flows/10 🔃⏩🗃️ Clone.md>) | Registers [Syncer 🔃 tools](<🔃🛠️ Syncer tool.md>) on [Resourcers 🗃️](<../../41 🎭 Domain Roles/Filer 🗃️/🗃️🎭 Filer role.md>)
+    |[⏩ `sync`](<🔃⏩ Syncer flows/20 🔃⏩🗃️ Sync.md>) | Syncs local files with [Filer 🗃️ domains](<../../41 🎭 Domain Roles/Filer 🗃️/🗃️🎭 Filer role.md>) 
+    |[⏩ `chat`](<../../41 🎭 Domain Roles/Filer 🗃️/🗃️🅰️ Filer methods/🔃🐌🗃️ Chat.md>)| Opens [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) with [Filer 🗃️ domains](<../../41 🎭 Domain Roles/Filer 🗃️/🗃️🎭 Filer role.md>)
     <!--|`test <env>`| Runs test scripts on an environment<br/>- e.g., `my-hoster test local`-->
 
     ---
@@ -38,7 +38,7 @@
 1. **Is it authenticated?**
 
     Yes. 
-    * First, users use their [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) to approve the [Clone ⏩](<🔃⏩ Syncer flows/10 🔃⏩🗃️ Clone.md>) with one-time passwords, registering the [Syncer's 🔃](<🔃🛠️ Syncer tool.md>) public key on the [Resourcer 🗃️ domain](<../../41 🎭 Domain Roles/Resourcers 🗃️/🗃️🎭 Resourcer role.md>).
+    * First, users use their [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) to approve the [Clone ⏩](<🔃⏩ Syncer flows/10 🔃⏩🗃️ Clone.md>) with one-time passwords, registering the [Syncer's 🔃](<🔃🛠️ Syncer tool.md>) public key on the [Filer 🗃️ domain](<../../41 🎭 Domain Roles/Filer 🗃️/🗃️🎭 Filer role.md>).
 
     * Follow-up requests are then signed with the [Syncer's 🔃](<🔃🛠️ Syncer tool.md>) private key.
 

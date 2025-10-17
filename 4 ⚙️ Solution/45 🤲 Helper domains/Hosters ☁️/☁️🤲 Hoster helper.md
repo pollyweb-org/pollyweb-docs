@@ -18,7 +18,7 @@
 
     |Role|Description
     |-|-
-    | [🗃️ Resourcer](<../../41 🎭 Domain Roles/Resourcers 🗃️/🗃️🎭 Resourcer role.md>) | To sync setup files with a [Syncer 🔃 tool](<../../55 👷 Build domains/🔃 Syncers/🔃🛠️ Syncer tool.md>)
+    | [🗃️ Filer](<../../41 🎭 Domain Roles/Filer 🗃️/🗃️🎭 Filer role.md>) | To sync setup files with a [Syncer 🔃 tool](<../../55 👷 Build domains/🔃 Syncers/🔃🛠️ Syncer tool.md>)
     | [😃 Talker](<../../35 💬 Chats/😃 Talkers/😃 Talker.md>) | To manage [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) workflows
     | [🤗 Host](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | For interacting with [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) in [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
     | `And also` | [`Issuer 🎴`](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) [`Vault 🗄️`](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) [`Consumer 💼`](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)

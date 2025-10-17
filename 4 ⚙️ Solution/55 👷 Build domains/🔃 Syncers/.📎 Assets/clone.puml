@@ -3,7 +3,7 @@
 actor "User" as user
 participant "Wallet 🧑\napp" as wallet
 participant "Syncer 🔃\ntool" as syncer
-participant "Resourcer 🗃️\nvault" as resourcer
+participant "Filer 🗃️\nvault" as resourcer
 
 'group Register
 
