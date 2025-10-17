@@ -1,7 +1,7 @@
 ⏳ Buffer helper domains
 ===
 
-> Mentioned in [📨 Domain Message](<../../30 🧩 Data/📨 Messages/📨 Message.md>)
+> Mentioned in [📨 Domain Message](<../../30 🧩 Data/Messages 📨/📨 Message.md>)
 
 > Reference by [Identity@Graph 🚀 method](<../Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Identity.md>)
 

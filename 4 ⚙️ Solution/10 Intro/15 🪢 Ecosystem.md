@@ -43,7 +43,7 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
 
 - Data integration and structural validation is assured via:
     - [Schema Codes 🧩](<../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) that domains and [Authority 🏛️ helper domains](<../45 🤲 Helper domains/Authorities 🏛️/🏛️🤲 Authority helper.md>) can define on their [domain Manifests 📜](<../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) 
-    - these codes are the foundation of resource [Locators 🔆](<../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>), physical [Things 💠](<../25 🔆 Locators/2 💠 Things/💠🔆 Thing locator.md>), and verifiable offline [Tokens 🎫](<../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>).
+    - these codes are the foundation of resource [Locators 🔆](<../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>), physical [Things 💠](<../25 🔆 Locators/2 💠 Things/💠🔆 Thing locator.md>), and verifiable offline [Tokens 🎫](<../30 🧩 Data/Tokens 🎫/🎫 Token.md>).
 
 - Domains interact directly with humans with edge devices that exhibit well-known behaviors - e.g.:
     * locator [Scanners ✨](<../60 🧰 Edge/66 ✨ Scanners/06 ✨🔌 Scanner device.md>), 
@@ -57,7 +57,7 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
 
 - Security is assured by:
     * a [Trust 👍](<../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) framework; 
-    * digital signatures for [Messages 📨](<../30 🧩 Data/📨 Messages/📨 Message.md>) and [files](<../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/5 🆔⏩🔏 Verify Signatures.md>);
+    * digital signatures for [Messages 📨](<../30 🧩 Data/Messages 📨/📨 Message.md>) and [files](<../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/5 🆔⏩🔏 Verify Signatures.md>);
     * global [Firewall 🔥 helper domains](<../45 🤲 Helper domains/Firewalls 🔥/🔥🤲 Firewall helper.md>) that actively monitor the ecosystem;
     * user [Identity 🆔 vault domains](<../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) that authenticate users on behalf of other [domains 👥](<../40 👥 Domains/👥 Domains/👥 Domain.md>) while maintaining privacy and legal compliance;
     * and [Ephemeral 🦋 devices](<../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>) that dynamically rotate QR and NFC [Locators 🔆](<../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) to prevent fraud.

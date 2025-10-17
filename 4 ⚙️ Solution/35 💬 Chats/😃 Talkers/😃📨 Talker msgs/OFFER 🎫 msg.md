@@ -36,7 +36,7 @@
    
     | Argument| Purpose
     |-|-
-    | `{function}`  | [{Function}](<../😃💾 Talker data/{Function} 🐍.md>) that issues the [Token 🎫](<../../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) ID.
+    | `{function}`  | [{Function}](<../😃💾 Talker data/{Function} 🐍.md>) that issues the [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ID.
     | `<accepted>`| Boolean placeholder for [Accepted @ Issuer](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/🤵🐌🎴 Accepted.md>).
 
     ---

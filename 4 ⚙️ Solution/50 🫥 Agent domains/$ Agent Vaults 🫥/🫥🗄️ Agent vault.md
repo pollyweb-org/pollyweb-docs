@@ -28,7 +28,7 @@
     |🔎| [Finder](<../Finders 🔎/🔎🫥 Finder agent.md>) | Google | Searches for [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>), and  introduces them when they start a ../05 💬 Chats/01 💬 Chat.mds/01 💬 Chat.md>).
     |🆔|[Identity](<../Identities 🆔/🆔🫥 Identity agent.md>) | IDOne | Confirms that the user is physically present behind the remote screen.
     |🌼| [Keybox](<../Keyboxes 🌼/$ 🌼🫥 Keybox agent.md>) | FindMy | Stores and manages the user's [Padlock 🔒](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>) keys.
-    |📇| [Mingler](<../Minglers 📇/$ 📇🫥 Mingler agent.md>) | WhatsApp | Connects multiple users in a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>), allowing them to exchange [Tokens 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>).
+    |📇| [Mingler](<../Minglers 📇/$ 📇🫥 Mingler agent.md>) | WhatsApp | Connects multiple users in a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>), allowing them to exchange [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>).
     |🧭| [Navigator](<../Navigators 🧭/$ 🧭🫥 Navigator agent.md>) | G.Maps | Helps users going from point A to B.
     |💳| [Payer](<../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) | Paypal | Performs payments to [Collector 🏦 domains](<../../45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>).
     |🧢| [Persona](<../Personas 🧢/🧢🫥 Persona agent.md>) | Facebook | Stores and shares user preferences and personally identifiable information (PII).

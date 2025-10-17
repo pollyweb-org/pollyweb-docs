@@ -2,7 +2,7 @@
 # [🧩](<../../4 ⚙️ Solution/30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) [Schema Code](<../../4 ⚙️ Solution/30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>): Locator
 
 * Inherited by:
-  * [`.TOKEN` 🧩](<../../4 ⚙️ Solution/30 🧩 Data/3 🎫 Tokens/🧩 Token schemas/🧩 TOKEN.md>)
+  * [`.TOKEN` 🧩](<../../4 ⚙️ Solution/30 🧩 Data/Tokens 🎫/🧩 Token schemas/🧩 TOKEN.md>)
   * [`.HOST` 🧩](<../../4 ⚙️ Solution/41 🎭 Domain Roles/Hosts 🤗/🤗🧩 Host schemas/🧩 HOST.md>)
   * [`.ALIAS` 🧩](<../../4 ⚙️ Solution/45 🤲 Helper domains/Printers 🖨️/🖨️🧩 Printer schemas/🧩 ALIAS.md>)
 

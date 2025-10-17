@@ -4,7 +4,7 @@
 1. **What is a Domain in NLWeb?**
 
     In NLWeb, a [domain 👥](<👥 Domain.md>) is any public web service that
-    * sends and receives domain [Messages 📨](<../../30 🧩 Data/📨 Messages/📨 Message.md>)
+    * sends and receives domain [Messages 📨](<../../30 🧩 Data/Messages 📨/📨 Message.md>)
     * and publishes a [domain Manifest 📜](<../👥📜 Domain Manifests/📜 Manifest.md>).
 
 
@@ -27,7 +27,7 @@
     | [🤲 Helper](<../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>) | Offloads undifferentiated logic from [domains 👥](<👥 Domain.md>)
     | [🤗 Host](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | Hosts [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) for [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) via [Brokers 🤵](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>)
     | [🪢 Integrator](<../../41 🎭 Domain Roles/Integrators 🪢/🪢🎭 Integrator role.md>) |  [Manifests 📜](<../👥📜 Domain Manifests/📜 Manifest.md>)  endpoints for [Finders 🔎](<../../50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) to index
-    | [🎴 Issuer](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) | Issues [Tokens 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) to be saved on users' [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)
+    | [🎴 Issuer](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) | Issues [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) to be saved on users' [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)
     | [🌬️ Streamer](<../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>) | Pushes and replays domain events to [Subscribers 🔔](<../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>)
     | [🔔 Subscriber](<../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>) | Subscribes to domain events from a [Streamers 🌬️](<../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>)
     | [🗄️ Vault](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) | Stores user data and shares it with [Consumers 💼](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)
