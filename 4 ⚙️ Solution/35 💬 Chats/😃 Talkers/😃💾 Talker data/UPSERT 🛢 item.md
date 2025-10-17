@@ -1,3 +1,5 @@
+<!-- TODO: detail the relation with database -->
+
 # 🛢 Talker `UPSERT` command
 
 > Part of [Talker 😃](<../😃 Talker.md>)

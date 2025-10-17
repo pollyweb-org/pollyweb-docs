@@ -1,3 +1,5 @@
+<!-- TODO: detail the relation with database -->
+
 # 🪣 Talker `MAP` command
 
 > Part of [Talker 😃](<../😃 Talker.md>)

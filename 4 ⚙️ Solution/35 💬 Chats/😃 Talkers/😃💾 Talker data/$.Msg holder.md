@@ -3,8 +3,9 @@
 > Example: [Pop Vault 🔆](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🔆 Broker locators/Pop Vault 🔆.md>)
 
 ```yaml
-- PARALLEL|$vault.Binds >> $bind:
-    - MSG|Unbound@Vault|$bind.Vault:
-        BindID: $bind.ID
-    - DELETE|$bind
+# Get the Wallet 🧑‍🦰
+- MAP|Wallets|$.Msg.Header.From >> $wallet
+
+# Verify the Message.
+- VERIFY|$.Msg|$wallet.PublicKey
 ```
