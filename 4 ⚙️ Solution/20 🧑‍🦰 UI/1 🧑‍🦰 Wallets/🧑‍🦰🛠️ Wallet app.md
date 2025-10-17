@@ -1,8 +1,6 @@
 🧑‍🦰 Wallet app
 ===
 
-
-
 1. **What is an NLWeb Wallet app?**
 
     [Wallets 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>) are 
