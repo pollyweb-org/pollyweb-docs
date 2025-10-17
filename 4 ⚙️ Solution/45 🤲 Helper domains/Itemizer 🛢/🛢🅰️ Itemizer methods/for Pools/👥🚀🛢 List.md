@@ -2,7 +2,7 @@
 
 # 👥🚀🛢 List
 
-> Part of [Databaser 🛢 helper](<../../🛢🤲 Databaser helper.md>)
+> Part of [Databaser 🛢 helper](<../../🛢🤲 Itemizer helper.md>)
 
 * Lists the registered pools.
 
@@ -18,7 +18,7 @@ Header:
 |Object|Property|Type|Description
 |-|-|-|-
 |Header |`From`     | string | Caller [domain 👥](<../../../../40 👥 Domains/👥 Domains/👥 Domain.md>) name
-|       |`To`       | string | [Databaser 🛢 domain](<../../🛢🤲 Databaser helper.md>)
+|       |`To`       | string | [Databaser 🛢 domain](<../../🛢🤲 Itemizer helper.md>)
 |       |`Subject`  | string | `List@Databaser`
 |
 
