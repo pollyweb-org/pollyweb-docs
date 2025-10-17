@@ -23,7 +23,7 @@
 
     |#| Step | Details
     |-|-|-
-    |1| `DKIM` | Domain A rotates its [DKIM](<../../👥📨 Domain Messages/📨 Message.md>) public key.
+    |1| `DKIM` | Domain A rotates its [DKIM](<../../📨 Messages/📨 Message.md>) public key.
     |2| `Stamp` | Domain A signs a file with its latest private key, then sends the file to Domain B.
     |3| `Share`| Domain B shares the file with Domain C.
     |4| `Check`| Domain C verifies the signature of the file against the DKIM public key that was active at the time of the signature.
@@ -64,7 +64,7 @@
     | `Hash` | string |  The hash of the file
     | `Signed` | timestamp | When it was signed
     | `DKIM`| string | The [DKIM 📨](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Public Key.md>) key used to sign
-    | `Signature`| string | The [signature](<../../👥📨 Domain Messages/📨 Message.md>) 📨 
+    | `Signature`| string | The [signature](<../../📨 Messages/📨 Message.md>) 📨 
 
     ---
     <br/>

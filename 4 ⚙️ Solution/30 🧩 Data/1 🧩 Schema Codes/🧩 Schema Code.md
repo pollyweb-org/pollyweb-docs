@@ -18,7 +18,7 @@
 
     | Schema Code | Purpose |
     |-|-
-    | [`.MSG` 🧩](<../../40 👥 Domains/👥📨 Domain Messages/📨🧩 Message schemas/🧩 MSG.md>) | Schema of [Messages 📨](<../../40 👥 Domains/👥📨 Domain Messages/📨 Message.md>) 
+    | [`.MSG` 🧩](<../../40 👥 Domains/📨 Messages/📨🧩 Message schemas/🧩 MSG.md>) | Schema of [Messages 📨](<../../40 👥 Domains/📨 Messages/📨 Message.md>) 
     | [`.TOKEN` 🧩](<../3 🎫 Tokens/🧩 Token schemas/🧩 TOKEN.md>) | Schema of [Tokens 🎫](<../3 🎫 Tokens/🎫 Token.md>)
     | [`unicode.org/FLAG` 🧩](<../../../8 📜 Manifests/👥 any-igo.dom/📜 unicode.any-igo.dom.md>) | Flags for country [Prompts 🤔](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>)
     | [`locale.org/TERRITORY` 🧩](<../../../8 📜 Manifests/👥 any-igo.dom/📜 locale.any-igo.dom.md>) | Country names for [Prompts 🤔](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>)
@@ -70,7 +70,7 @@
     | Expectation | Behavior |
     |-|-
     | [📜 Manifest](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>)  | When a version is omitted in the [Schema Code 🧩](<🧩 Schema Code.md>) in its [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) definition, then it is assumed to be `1.0`.
-    | [📨 Message](<../../40 👥 Domains/👥📨 Domain Messages/📨 Message.md>) | When a version is omitted in a [domain Messages 📨](<../../40 👥 Domains/👥📨 Domain Messages/📨 Message.md>), then it is also assumed to be `1.0`.
+    | [📨 Message](<../../40 👥 Domains/📨 Messages/📨 Message.md>) | When a version is omitted in a [domain Messages 📨](<../../40 👥 Domains/📨 Messages/📨 Message.md>), then it is also assumed to be `1.0`.
     | [🕸 Graph](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) | When a version is omitted when calling [`Schema@Graph`](<../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema.md>), then the [🕸 Graph](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) returns the latest version.
 
     ---

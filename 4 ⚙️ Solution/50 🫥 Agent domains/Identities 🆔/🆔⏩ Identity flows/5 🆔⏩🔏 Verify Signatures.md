@@ -125,7 +125,7 @@ TODO: Create the API methods
     * the sender's domain - e.g., `any-landlord.com`
     * the placeholder reference in the sender's domain - e.g., `contract-1234-tenent`
     * the file's hash - e.g., `pScF56kAQcFMj/2InwnfE36N6xphT+07R/8rKS5idWQ=`
-    * and the [signature](<../../../40 👥 Domains/👥📨 Domain Messages/📨 Message.md>) of the Identity domain - e.g., `qD/fMEQDALK2FdZcWyy7wNns1gH8vssdOAuxxxKnEExDMMGZcZG0Dw14Xxfh3HDCpTGxvuLbtCSdJaBnEZg2G7kytG8RG/aGFM+lru7MQR81zze7GkBXmpxm+oilkXrouL63/5fQzwRBS94n7YH7abkrBi4RqPiV/mGiDsm2fLEqc12a5kOXZGPsbuuCWs8Mvbrt5teJUELiEgLnBYXArLYvofoZOt4EWYFBTXvx+/NSm1vtqsZsY+dnLLtZ7kEyUNW70jRdP0VK5ek4Rqdg3tUPVSeG7Rxl0ZH5KuvLVOnL4kbcC2CI/bijZ12YCrF3WLEdgF0KhZDjs5HvwNbZNw==`
+    * and the [signature](<../../../40 👥 Domains/📨 Messages/📨 Message.md>) of the Identity domain - e.g., `qD/fMEQDALK2FdZcWyy7wNns1gH8vssdOAuxxxKnEExDMMGZcZG0Dw14Xxfh3HDCpTGxvuLbtCSdJaBnEZg2G7kytG8RG/aGFM+lru7MQR81zze7GkBXmpxm+oilkXrouL63/5fQzwRBS94n7YH7abkrBi4RqPiV/mGiDsm2fLEqc12a5kOXZGPsbuuCWs8Mvbrt5teJUELiEgLnBYXArLYvofoZOt4EWYFBTXvx+/NSm1vtqsZsY+dnLLtZ7kEyUNW70jRdP0VK5ek4Rqdg3tUPVSeG7Rxl0ZH5KuvLVOnL4kbcC2CI/bijZ12YCrF3WLEdgF0KhZDjs5HvwNbZNw==`
 
     ---
     <br/> 

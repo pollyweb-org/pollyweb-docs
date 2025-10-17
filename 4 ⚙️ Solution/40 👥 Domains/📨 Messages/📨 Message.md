@@ -3,7 +3,7 @@
 
 1. **What are messages?**
 
-    [Messages 📨](<../👥📨 Domain Messages/📨 Message.md>) 
+    [Messages 📨](<📨 Message.md>) 
     * are data structures 
     * with which [domains 👥](<../👥 Domains/👥 Domain.md>) communicate with one another.
 
@@ -52,10 +52,10 @@
 
     | Subsection | Purpose
     |-|-
-    | [✉️ Envelope](<../👥📨 Domain Messages/📨⏩ Message flows/Envelope ✉️.md>) | The structure of a [Message 📨](<../👥📨 Domain Messages/📨 Message.md>)
-    | [🔏 Signatures](<../👥📨 Domain Messages/📨⏩ Message flows/Signatures 🔏.md>) | How [Messages 📨](<../👥📨 Domain Messages/📨 Message.md>) are signed and verified
+    | [✉️ Envelope](<📨⏩ Message flows/Envelope ✉️.md>) | The structure of a [Message 📨](<📨 Message.md>)
+    | [🔏 Signatures](<📨⏩ Message flows/Signatures 🔏.md>) | How [Messages 📨](<📨 Message.md>) are signed and verified
     | [🚀 Sync Requests](<📨⏩ Message flows/Request Sync 🚀.md>) | HTTP requests that wait an answer
-    | [🐌 Async Messages ](<../👥📨 Domain Messages/📨⏩ Message flows/Send Async 🐌.md>) | Event-driven fire-and-forget [Messages 📨](<../👥📨 Domain Messages/📨 Message.md>)
+    | [🐌 Async Messages ](<📨⏩ Message flows/Send Async 🐌.md>) | Event-driven fire-and-forget [Messages 📨](<📨 Message.md>)
     
     ---
     <br/>
