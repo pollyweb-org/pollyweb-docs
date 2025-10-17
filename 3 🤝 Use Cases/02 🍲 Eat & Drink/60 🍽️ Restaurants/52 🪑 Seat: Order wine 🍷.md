@@ -8,7 +8,7 @@ How to order wine to the table at a restaurant?
 
 | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
-| | | 🔆 [tap](<../../../4 ⚙️ Solution/25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) seat
+| | | 🔆 [tap](<../../../4 ⚙️ Solution/25 🔆 Locators/Locators 🔆/🔆 Locator.md>) seat
 | 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) | ⓘ Any Restaurant (4.3 ⭐)  [+]
 | 🍽️ Restaurant | 😃 What do you need? <br/>- [ Order ] <br/>- [ Something else ] | > Order
 | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Ready to order? [Yes, No] <br/> - your curator orders 🧚<br/> - your vitalogist reviews 💖 <br/> - your ID allows alcohol 🆔 <br/> - we'll deliver to your seat 🍽️ <br/> - your vitalogist records it 💖<br/> - you pay when leaving 💳 | > Yes

@@ -10,7 +10,7 @@ Consider the following Chat excerpt from the [Pass gates at train station 🤝 u
 
 | [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
-| | | 🔆 [tap](<../../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>)
+| | | 🔆 [tap](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>)
 | 🤵 [Broker](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | ⓘ Ticket shared 
 | 🚂 Railway | ✅ Entry gate opened!
 | 🤵 [Broker](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | ⓘ Ticket voided 

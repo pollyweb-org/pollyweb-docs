@@ -16,7 +16,7 @@
     - a [Schema Code 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) describing the commands and events in the Pluggable API;
     - an [Antenna 📡](<../../60 🧰 Edge/61 🔌 Pluggables/02 📡🔀 Antenna router.md>) to provide directional communication to the Pluggable controller;
     - a [Wi-Fier 🛜](<../../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>) to provide internet connectivity to the Antenna;
-    - a Robot [Thing 💠](<../2 💠 Things/💠🔆 Thing locator.md>) [Locator 🔆](<../1 🔆 Locators/🔆 Locator.md>) created by a [Wand 🪄](<../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>);
+    - a Robot [Thing 💠](<../2 💠 Things/💠🔆 Thing locator.md>) [Locator 🔆](<../Locators 🔆/🔆 Locator.md>) created by a [Wand 🪄](<../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>);
     - an NFC/QR tag for the Robot 🤖 (e.g., acquired from a [Printer 🖨️](<../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>)).
 
     ---

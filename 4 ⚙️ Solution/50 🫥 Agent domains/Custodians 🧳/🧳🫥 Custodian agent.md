@@ -32,10 +32,10 @@
     |#|Step
     |-|-
     |1| A [Brand 🍏 domain](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) orders a set of [Things 💠](<../../25 🔆 Locators/2 💠 Things/💠🔆 Thing locator.md>) from a [Wand 🪄 domain](<../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>).
-    |2| The [Wand 🪄 domain](<../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>) creates the Things' [Locators 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) and informs the [Brand 🍏 domain](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>).
-    |3| The [Brand 🍏](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) embeds the Things' [Locators 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) into the products that it sells. 
+    |2| The [Wand 🪄 domain](<../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>) creates the Things' [Locators 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) and informs the [Brand 🍏 domain](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>).
+    |3| The [Brand 🍏](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) embeds the Things' [Locators 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) into the products that it sells. 
     |4| A user buys the [Brand's 🍏](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) product.
-    |5| The user [taps 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>) or [scans ✨](<../../25 🔆 Locators/1 🔆 Locators/🔆⏩ Locator flows/🧑‍🦰✨ Wallet QR scan.md>) the product's [Thing 💠](<../../25 🔆 Locators/2 💠 Things/💠🔆 Thing locator.md>) to initiate the registration.
+    |5| The user [taps 🔆](<../../25 🔆 Locators/Locators 🔆/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>) or [scans ✨](<../../25 🔆 Locators/Locators 🔆/🔆⏩ Locator flows/🧑‍🦰✨ Wallet QR scan.md>) the product's [Thing 💠](<../../25 🔆 Locators/2 💠 Things/💠🔆 Thing locator.md>) to initiate the registration.
     |6| The user registers/configures the [Thing 💠](<../../25 🔆 Locators/2 💠 Things/💠🔆 Thing locator.md>) into their user-bound [Custodian 🧳 agent](<🧳🫥 Custodian agent.md>).
     |7| The [Custodian 🧳 agent](<🧳🫥 Custodian agent.md>) agrees with the [Wand 🪄 domain](<../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>) to lock the ownership of the [Thing 💠](<../../25 🔆 Locators/2 💠 Things/💠🔆 Thing locator.md>).
 

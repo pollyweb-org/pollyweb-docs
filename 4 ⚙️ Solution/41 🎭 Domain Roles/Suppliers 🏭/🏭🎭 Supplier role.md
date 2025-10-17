@@ -22,7 +22,7 @@
 
 1. **What are examples of Suppliers?**
 
-    * [Printer 🖨️ suppliers](<../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>) accept orders to print NFC/QR [Locators 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>), ship them to a destination, and manage the lifecycle of these Locators.
+    * [Printer 🖨️ suppliers](<../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>) accept orders to print NFC/QR [Locators 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>), ship them to a destination, and manage the lifecycle of these Locators.
 
     * [KeyMaker 🔐 suppliers](<../../45 🤲 Helper domains/Keymakers 🔐/05  🔐🏭 Keymaker supplier.md>) accept requests to deliver and manage the lifecycle of [Padlock 🔒 device](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>).
 

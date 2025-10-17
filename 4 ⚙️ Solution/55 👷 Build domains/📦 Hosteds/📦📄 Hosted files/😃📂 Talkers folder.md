@@ -8,7 +8,7 @@
 
     The `😃 Talkers/` folder 
     * contains the [Talker 😃](<../../../35 💬 Chats/😃 Talkers/😃 Talker.md>) files
-    * referenced by the [Locator 🔆](<../../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) resources
+    * referenced by the [Locator 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) resources
     * in the [Locators 🔆 file](<🔆📄 Locators file.md>).
     
     ---

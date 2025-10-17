@@ -17,7 +17,7 @@ Onboarding
     1. Install an NLWeb [Wallet 🧑‍🦰](<../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) from an app store;
     1. Fill out the [Persona 🧢 agent](<../50 🫥 Agent domains/Personas 🧢/🧢🫥 Persona agent.md>) agent with standard data sets;
     1. Add payment methods to the [Payer 💳 agent](<../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) agent;
-    1. Start touching/scanning NFC/QR [Locators 🔆](<../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>).
+    1. Start touching/scanning NFC/QR [Locators 🔆](<../25 🔆 Locators/Locators 🔆/🔆 Locator.md>).
 
     ---
 
@@ -35,8 +35,8 @@ Onboarding
     2. Integrate the [Collector 🏦](<../45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) with the organization's bank and ERP;
     3. Configure [Host 🤗](<../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) workflows integrated with the organization's IT;
     4. Publish a [Manifest 📜](<../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) with [Trusts 👍](<../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) to required domains;
-    5. Order a batch of physical [NFC/QR locators 🔆](<../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) from a [Printer 🖨️](<../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>);
-    6. Deploy [NFC/QR locators 🔆](<../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) (e.g., web, app, stores, products).
+    5. Order a batch of physical [NFC/QR locators 🔆](<../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) from a [Printer 🖨️](<../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>);
+    6. Deploy [NFC/QR locators 🔆](<../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) (e.g., web, app, stores, products).
 
     ---
 

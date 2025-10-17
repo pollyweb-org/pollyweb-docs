@@ -3,7 +3,7 @@
 
 ### Setup
 
-* Add [NFC/QR Locators 🔆](<../../../../4 ⚙️ Solution/25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) on the checkout stations;
+* Add [NFC/QR Locators 🔆](<../../../../4 ⚙️ Solution/25 🔆 Locators/Locators 🔆/🔆 Locator.md>) on the checkout stations;
 * Create a check-out workflow for customers.
 
 ---
@@ -12,7 +12,7 @@
 
 | [Domain](<../../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
-| | | 🔆 [tap](<../../../../4 ⚙️ Solution/25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>)
+| | | 🔆 [tap](<../../../../4 ⚙️ Solution/25 🔆 Locators/Locators 🔆/🔆 Locator.md>)
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) | ⓘ Any Store (4.4 ⭐) [+]
 | 🛍️ Store   | ℹ️ Self check-out 4 [+]
 | 🛍️ Store   | 😃 Hi! What do you need? <br/>- [ Check out ] <br/>- [ Something else ] | > Check out
