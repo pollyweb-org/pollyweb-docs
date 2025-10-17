@@ -7,7 +7,7 @@
     A [Listener 👂 domain](<👂🤲 Listener helper.md>) is 
     * a [Helper 🤲 domain](<../$ Helpers 🤲/🤲👥 Helper domain.md>) 
     * with a [Streamer 🌬️ domain role](<../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>) 
-    * that propagates [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) updates. 
+    * that propagates [domain Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) updates. 
 
     ---
     <br/>
@@ -18,7 +18,7 @@
 
     |#|Step
     |-|-
-    |1| [Domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) publish their [Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) updates to the DNS endpoint of the global Listeners 👂 cluster. As a fallback, the same updates may be sent to an individual [Listener 👂 domain](<👂🤲 Listener helper.md>).
+    |1| [Domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) publish their [Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) updates to the DNS endpoint of the global Listeners 👂 cluster. As a fallback, the same updates may be sent to an individual [Listener 👂 domain](<👂🤲 Listener helper.md>).
     |2| The cluster DNS routes the update messages to the best [Listener 👂 domain](<👂🤲 Listener helper.md>) based on latency.
     |3| Listeners 👂 replicate the update messages amongst all [Listener 👂 domains](<👂🤲 Listener helper.md>) of the cluster.
     |4| Each [Listener 👂 domain](<👂🤲 Listener helper.md>) performs a fan-out propagation of update events to all [Graph 🕸 helper domains](<../Graphs 🕸/🕸🤲 Graph helper.md>) that [subscribed 🔔](<../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>) to the Listener's 👂 [domain-event Stream 🌬️](<../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>).
@@ -28,7 +28,7 @@
 
 1. **Why are Listeners necessary?**
 
-    NLWeb relies on a distributed cache of [Graph 🕸 helper domains](<../Graphs 🕸/🕸🤲 Graph helper.md>), which allows Manifest-owners to go offline without impacting whoever needs the information contained in the [Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>). 
+    NLWeb relies on a distributed cache of [Graph 🕸 helper domains](<../Graphs 🕸/🕸🤲 Graph helper.md>), which allows Manifest-owners to go offline without impacting whoever needs the information contained in the [Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>). 
     * [Listener 👂 domains](<👂🤲 Listener helper.md>) ensure that the cache in these [Graph 🕸 domains](<../Graphs 🕸/🕸🤲 Graph helper.md>) is updated in near-real-time by propagating domain update notifications to [Graph 🕸 domains](<../Graphs 🕸/🕸🤲 Graph helper.md>). 
 
     ---
@@ -60,7 +60,7 @@
 
 1. **What is contained in a Manifest-changed event?**
 
-    An event from a [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) about a [Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) change comes inside an [envelope 📨](<../../30 🧩 Data/Messages 📨/📨 Message.md>) containing the following properties.
+    An event from a [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) about a [Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) change comes inside an [envelope 📨](<../../30 🧩 Data/Messages 📨/📨 Message.md>) containing the following properties.
 
     |Property | Description
     |-|-
@@ -91,7 +91,7 @@
 
     | Path | Description | Example
     |-|-|-
-    | `Identity` | Encompassing the Identity object of a [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>). | `Identity`
+    | `Identity` | Encompassing the Identity object of a [domain Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>). | `Identity`
     | `Trust/{key}` | Containing a single [Trust 👍](<../../30 🧩 Data/Trusts 👍/👍 Domain Trust.md>) relationship identified by a unique key. | `Trust/my-key`
     | `Code/{key}` | Containing a single [Schema Code 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) definition identified by a unique key. | `Code/SSR/MEAL`
     | `Code/{key}:{version}` | Containing a version of the schema definition for [Schema Code 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) identified. | `Code/SSR/MEAL:1.0`
@@ -107,7 +107,7 @@
     - is the schema of the event correct?
     - is the size informed smaller than maximum allowed for events?
     - does the size of the change match the size informed?
-    - does the path informed match a valid [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) schema part?
+    - does the path informed match a valid [domain Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) schema part?
     - is the schema of change correct for the path informed?
 
     ---
@@ -125,8 +125,8 @@
 1. **Do Listeners read domain Manifests from the domain?**
 
     Not while reading events. 
-    * [Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) events contain the content changed. 
-    * However, [domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) may explicitly request [Listener 👂 domains](<👂🤲 Listener helper.md>) to reset the domain's [Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) based on a content located in a given URL, as long as the content doesn't reach a maximum size for a [Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>).
+    * [Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) events contain the content changed. 
+    * However, [domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) may explicitly request [Listener 👂 domains](<👂🤲 Listener helper.md>) to reset the domain's [Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) based on a content located in a given URL, as long as the content doesn't reach a maximum size for a [Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>).
 
     ---
     <br/>
@@ -134,7 +134,7 @@
 1. **What are the size limits for events and Manifests?**
 
     * Manifest-changed events: 100 KB;
-    * [Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) full content: 1 GB.
+    * [Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) full content: 1 GB.
 
     ---
     <br/>
@@ -147,27 +147,27 @@
 
     * **Simplicity**: by limiting the size of the events, NLWeb allows changes to be propagated across many cloud providers without the need for round trips (i.e., returning to the origin to download the content).
 
-    * **Scalability**: multiple small events can scale horizontally, virtually to infinite, by using cloud functions with small memory footprints - otherwise, single download of the [Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) of an [🏛️ Authority](<../Authorities 🏛️/🏛️🤲 Authority helper.md>) could require several gigabytes of memory to be parsed.
+    * **Scalability**: multiple small events can scale horizontally, virtually to infinite, by using cloud functions with small memory footprints - otherwise, single download of the [Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) of an [🏛️ Authority](<../Authorities 🏛️/🏛️🤲 Authority helper.md>) could require several gigabytes of memory to be parsed.
 
     ---
     <br/>
 
 1. **Why is there a size limitation on the entire Manifest?**
 
-    Domains may ask [Graph 🕸 domains](<../Graphs 🕸/🕸🤲 Graph helper.md>) and [Listener 👂 domains](<👂🤲 Listener helper.md>) to download their [Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) for drift detection and sync reset. 
-    - For that, the entire content of the [Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) needs to be in memory, with 1 GB being the minimum common denominator for functions among the well-known cloud providers.
+    Domains may ask [Graph 🕸 domains](<../Graphs 🕸/🕸🤲 Graph helper.md>) and [Listener 👂 domains](<👂🤲 Listener helper.md>) to download their [Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) for drift detection and sync reset. 
+    - For that, the entire content of the [Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) needs to be in memory, with 1 GB being the minimum common denominator for functions among the well-known cloud providers.
 
     ---
     <br/>
 
 1. **How can domains keep Manifest-change events small?**
 
-    Domains can apply the following techniques to keep [Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) parts small:
+    Domains can apply the following techniques to keep [Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) parts small:
     - follow the Manifest Schema to break the Manifest into valid paths (e.g., `Identity`);
     - separate lists into item-level parts (e.g., for `Trusts`, `Codes`, and `Delegates`);
     - further break [Schema Codes 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) by using Code references;
     - write each part to key-value stores that support change notifications (e.g., object stores and NoSQL databases);
-    - when creating and updating [Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) parts, keep each part below 200 KB.
+    - when creating and updating [Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) parts, keep each part below 200 KB.
     
     ---
     <br/>
@@ -182,7 +182,7 @@
 
 1. **What's the retention commitment of Listeners?**
 
-    [Listener 👂 domains](<👂🤲 Listener helper.md>) keep all changes from all domain [Manifests 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) and public keys indefinitely. 
+    [Listener 👂 domains](<👂🤲 Listener helper.md>) keep all changes from all domain [Manifests 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) and public keys indefinitely. 
 
     ---
     <br/>
@@ -211,7 +211,7 @@
 1. **Is there data loss when a Listener goes down?**
 
     No. 
-    * Each [Listener 👂 domain](<👂🤲 Listener helper.md>) is fully independent, being responsible for replying the entire history of [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) changes, even if it is the only [Listener 👂 node](<👂🤲 Listener helper.md>) available in the cluster. 
+    * Each [Listener 👂 domain](<👂🤲 Listener helper.md>) is fully independent, being responsible for replying the entire history of [domain Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) changes, even if it is the only [Listener 👂 node](<👂🤲 Listener helper.md>) available in the cluster. 
     * All [Listener 👂 domains](<👂🤲 Listener helper.md>) are fully subscribed to one another, ensuring that one domain notification arriving in any [Listener 👂 domain](<👂🤲 Listener helper.md>) will be propagated to all other [Listener 👂 nodes](<👂🤲 Listener helper.md>) in the cluster. 
     * This configuration allows any graph to subscribe to any [Listener 👂 domain](<👂🤲 Listener helper.md>), confident that all [Listener 👂 domains](<👂🤲 Listener helper.md>) will eventually hold the same data. 
 

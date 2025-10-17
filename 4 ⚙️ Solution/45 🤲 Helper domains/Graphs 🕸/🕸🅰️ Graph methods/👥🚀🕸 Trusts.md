@@ -10,8 +10,8 @@
 * Verifies if there’s a path of [Trust 👍](<../../../30 🧩 Data/Trusts 👍/👍 Domain Trust.md>) 
   * between two [domains 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) 
   * regarding a [Schema Code 🧩](<../../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>)
-  * as defined in the [`.MANIFEST/TRUST` 🧩](<../../../40 👥 Domains/👥📜 Domain Manifests/🧩 Manifest schemas/🧩 TRUST.md>) part
-  * of [domain Manifests 📜](<../../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>).
+  * as defined in the [`.MANIFEST/TRUST` 🧩](<../../../30 🧩 Data/Manifests 📜/🧩 Manifest schemas/🧩 TRUST.md>) part
+  * of [domain Manifests 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest.md>).
 
 * Similar to [`Trusted@Graph`](<👥🚀🕸 Trusted.md>), 
   * but for verification by another [domain 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>).

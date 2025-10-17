@@ -1,5 +1,5 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): any-bank.dom
+# 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest.md>): any-bank.dom
 <!--# 🧪🏧 https://quip.com/I3iqAi8aUTjg/-Cash-Machine-->
 
 ```yaml

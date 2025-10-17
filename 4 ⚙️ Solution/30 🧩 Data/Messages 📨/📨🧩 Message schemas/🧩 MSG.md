@@ -7,7 +7,7 @@
 
 ## Definition
 
-> [🤝:](<../../Schema Codes 🧩/🧩 Schema Code.md>) [`.MANIFEST/CODE`](<../../../40 👥 Domains/👥📜 Domain Manifests/🧩 Manifest schemas/🧩 CODE.md>)
+> [🤝:](<../../Schema Codes 🧩/🧩 Schema Code.md>) [`.MANIFEST/CODE`](<../../Manifests 📜/🧩 Manifest schemas/🧩 CODE.md>)
 
 ```yaml
 Path: /MSG

@@ -1,5 +1,5 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>): any-listener.dom
+# 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest.md>): any-listener.dom
 <!-- 👂 https://quip.com/wJICAbOcyHUM/-AnyListenerorg -->
 
 ```yaml

@@ -6,8 +6,8 @@
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 
 * Given a domain, 
-    * returns the content of [`.MANIFEST/ABOUT 🧩`](<../../../40 👥 Domains/👥📜 Domain Manifests/🧩 Manifest schemas/🧩 ABOUT.md>)
-    * from its [domain Manifest 📜](<../../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) 
+    * returns the content of [`.MANIFEST/ABOUT 🧩`](<../../../30 🧩 Data/Manifests 📜/🧩 Manifest schemas/🧩 ABOUT.md>)
+    * from its [domain Manifest 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) 
 * Used by:
     * [🤵⏩🧑‍🦰 Converse 💬 flow](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵⏩ Broker flows/🤵⏩🧑‍🦰 Converse 💬.md>) 
 

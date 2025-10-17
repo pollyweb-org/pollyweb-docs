@@ -19,7 +19,7 @@
 
 1. **How do Integrators publicize their API?**
 
-    Integrators publicize their API endpoints and schemas in their [domain Manifests 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>).
+    Integrators publicize their API endpoints and schemas in their [domain Manifests 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>).
 
     ---
     <br/>

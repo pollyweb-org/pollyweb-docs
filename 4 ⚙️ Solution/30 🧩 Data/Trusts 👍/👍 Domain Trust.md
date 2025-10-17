@@ -19,8 +19,8 @@
 1. **How to define Trust relationships?**
 
     [Trusts 👍](<👍 Domain Trust.md>) 
-    * are defined in [domain Manifests 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) 
-    * using the schema code [nlweb.dom/MANIFEST/TRUST 🧩](<../../40 👥 Domains/👥📜 Domain Manifests/🧩 Manifest schemas/🧩 TRUST.md>).
+    * are defined in [domain Manifests 📜](<../Manifests 📜/📜 Manifest.md>) 
+    * using the schema code [nlweb.dom/MANIFEST/TRUST 🧩](<../Manifests 📜/🧩 Manifest schemas/🧩 TRUST.md>).
 
     ```yaml
     # Trust example
