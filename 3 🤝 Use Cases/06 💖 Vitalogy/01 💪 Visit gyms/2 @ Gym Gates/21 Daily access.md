@@ -15,7 +15,7 @@ How to go through the gym's gates?
 | - | - | - |
 | | | 🔆 [tap](<../../../../4 ⚙️ Solution/25 🔆 Locators/Locators 🔆/🔆 Locator.md>)
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) | ⓘ Any Gym (4.3 ⭐) [+]
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | ⓘ Member [token 🎟️](<../../../../4 ⚙️ Solution/30 🧩 Data/Tokens 🎫/🎫 Token.md>) shared [+]
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | ⓘ Member [token 🎟️](<../../../../4 ⚙️ Solution/30 🧩 Data/Tokens 🎫/🎫 Token.md>) shared [+]
 | 💪 Gym | ℹ️ You're at downtown gym. 
 | 💪 Gym | ℹ️ Family membership showed.
 | 💪 Gym | ✅ Entry gate opened!

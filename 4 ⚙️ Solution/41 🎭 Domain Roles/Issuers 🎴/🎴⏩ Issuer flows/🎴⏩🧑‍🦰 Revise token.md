@@ -11,9 +11,9 @@ Consider the following Chat excerpt from the [Pass gates at train station 🤝 u
 | [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
 | | | 🔆 [tap](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>)
-| 🤵 [Broker](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | ⓘ Ticket shared 
+| 🤵 [Broker](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | ⓘ Ticket shared 
 | 🚂 Railway | ✅ Entry gate opened!
-| 🤵 [Broker](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | ⓘ Ticket voided 
+| 🤵 [Broker](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | ⓘ Ticket voided 
 |
 
 <br/>
@@ -24,7 +24,7 @@ Consider the following Chat excerpt from the [Pass gates at train station 🤝 u
 
 | # | Call | Notes
 |-|-|-
-1| [🎴🐌🤵 `Revise@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Revise.md>) | [Issuers 🎴](<../🎴🎭 Issuer role.md>) ask to revise a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
-2| [🤵⏩🧑‍🦰 Update Tokens 🎫](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Tokens 🎫.md>) | [Brokers 🤵](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) tell [Wallets 🧑‍🦰](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) to update the list
-3| [🤗⏩🧑‍🦰 Prompt 🤔](<../../Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) tell users about what happened
+1| [🎴🐌🤵 `Revise@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Revise.md>) | [Issuers 🎴](<../🎴🎭 Issuer role.md>) ask to revise a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
+2| [🤵⏩🧑‍🦰 Update Tokens 🎫](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Tokens 🎫.md>) | [Brokers 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) tell [Wallets 🧑‍🦰](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) to update the list
+3| [🤗⏩🧑‍🦰 Prompt 🤔](<../../Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) tell users about what happened
 |

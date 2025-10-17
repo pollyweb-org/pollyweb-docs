@@ -54,7 +54,7 @@
 
     The only data that [Wallet 🧑‍🦰 apps](<🧑‍🦰🛠️ Wallet app.md>) store locally is:
     - 🔏 The private half of the key pair;
-    - 📣 The Wallet ID provided by the [Broker 🤵 domain](<../3 🤵 Brokers/🤵🤲 Broker helper.md>) via the [Notifier 📣 domain](<../2 📣 Notifiers/📣👥 Notifier domain.md>);
+    - 📣 The Wallet ID provided by the [Broker 🤵 domain](<../Brokers 🤵/🤵🤲 Broker helper.md>) via the [Notifier 📣 domain](<../2 📣 Notifiers/📣👥 Notifier domain.md>);
     - 🎫 Downloaded [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) from [Issuer 🎴 domains](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>).
 
     ---
@@ -74,20 +74,20 @@
     To migrate a [Wallet 🧑‍🦰 app](<🧑‍🦰🛠️ Wallet app.md>) to another phone, a user first needs to bind an [Identity 🆔 agent domain](<../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) on the old phone, and then generate a migration QR [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>).
     
     * On the new phone, the user needs to install a [Wallet 🧑‍🦰 app](<🧑‍🦰🛠️ Wallet app.md>), then scan the migration QR of the old Wallet.
-    * The [Broker 🤵 domain](<../3 🤵 Brokers/🤵🤲 Broker helper.md>) will invoke the [Identity 🆔 domain](<../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) on the new phone to perform an identity authentication (e.g., face scan), and then will automatically decommission the old Wallet.
+    * The [Broker 🤵 domain](<../Brokers 🤵/🤵🤲 Broker helper.md>) will invoke the [Identity 🆔 domain](<../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) on the new phone to perform an identity authentication (e.g., face scan), and then will automatically decommission the old Wallet.
 
     ---
     <br/>
 
 1. **How do users change between Wallet providers?**
 
-    If both the old and the new [Wallet 🧑‍🦰 app](<🧑‍🦰🛠️ Wallet app.md>) providers use the same [Broker 🤵 domain](<../3 🤵 Brokers/🤵🤲 Broker helper.md>), 
+    If both the old and the new [Wallet 🧑‍🦰 app](<🧑‍🦰🛠️ Wallet app.md>) providers use the same [Broker 🤵 domain](<../Brokers 🤵/🤵🤲 Broker helper.md>), 
     * then changing between Wallet providers in the same phone is very similar to migrating a Wallet to another phone. 
     
-    If they use different [Broker 🤵 domains](<../3 🤵 Brokers/🤵🤲 Broker helper.md>), 
+    If they use different [Broker 🤵 domains](<../Brokers 🤵/🤵🤲 Broker helper.md>), 
     * then these Brokers will need to implement some sort of portability. 
      
-    For simplicity, let's assume they use the same [Broker 🤵 domain](<../3 🤵 Brokers/🤵🤲 Broker helper.md>).
+    For simplicity, let's assume they use the same [Broker 🤵 domain](<../Brokers 🤵/🤵🤲 Broker helper.md>).
     
     * On the old [Wallet 🧑‍🦰 app](<🧑‍🦰🛠️ Wallet app.md>), the user generates a migration QR Token and downloads it or sends it to another person. 
     * Then, on the new [Wallet 🧑‍🦰 app](<🧑‍🦰🛠️ Wallet app.md>), the user uploads or scans the migration QR and performs an identity authentication (e.g., face scan).
@@ -97,9 +97,9 @@
 
 1. **What if an attacker intercepts a user's recovery QR Token?**
 
-    When a migration QR is used on a new [Wallet 🧑‍🦰 app](<🧑‍🦰🛠️ Wallet app.md>), the [Broker 🤵 domain](<../3 🤵 Brokers/🤵🤲 Broker helper.md>) notifies the old Wallet, allowing legitimate owners to block the attack and destroy the QR. 
+    When a migration QR is used on a new [Wallet 🧑‍🦰 app](<🧑‍🦰🛠️ Wallet app.md>), the [Broker 🤵 domain](<../Brokers 🤵/🤵🤲 Broker helper.md>) notifies the old Wallet, allowing legitimate owners to block the attack and destroy the QR. 
     
-    * For situations where legitimate owners are not aware of notifications, migrations have a small grace period where [Broker 🤵 domains](<../3 🤵 Brokers/🤵🤲 Broker helper.md>) inactivate both Wallets until the old Wallet accepts the transfer or the grace period expires.
+    * For situations where legitimate owners are not aware of notifications, migrations have a small grace period where [Broker 🤵 domains](<../Brokers 🤵/🤵🤲 Broker helper.md>) inactivate both Wallets until the old Wallet accepts the transfer or the grace period expires.
 
     ---
     <br/>
@@ -134,7 +134,7 @@
 
     | Category | Workflow |  Description
     |-|-|-
-    | 🤵 Set up | [👉 Onboard](<🧑‍🦰✨ Wallet onboard/💬🤵 Onboard.md>)  | Register the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>) on a [Broker 🤵](<../3 🤵 Brokers/🤵🤲 Broker helper.md>)
+    | 🤵 Set up | [👉 Onboard](<🧑‍🦰✨ Wallet onboard/💬🤵 Onboard.md>)  | Register the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>) on a [Broker 🤵](<../Brokers 🤵/🤵🤲 Broker helper.md>)
     | | [👉 Translate](<🧑‍🦰💬 Wallet in App 🏠/💬🤵 Translate.md>)  | Change the language of the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>)
     | 🔆 Locators |[👉 Host QR](<🧑‍🦰💬 Wallet in App 🏠/🔆🤗 Tap host locator.md>)  | Scan a [Host 🤗 NFC/QR](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)   to open a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
     ||[👉 Printer QR](<🧑‍🦰💬 Wallet in App 🏠/🔆🖨️ Tap alias locator.md>)  | Scan a [Printer 🖨️ NFC/QR](<../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>) to open a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)

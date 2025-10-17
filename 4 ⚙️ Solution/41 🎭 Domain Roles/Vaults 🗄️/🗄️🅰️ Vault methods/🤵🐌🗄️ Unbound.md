@@ -3,7 +3,7 @@
 
 # 🤵🐌🗄️ Unbound @ Vault
 
-> A [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) unbinds a [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)  from a [Vault 🗄️ domain](<../🗄️🎭 Vault role.md>).
+> A [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) unbinds a [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)  from a [Vault 🗄️ domain](<../🗄️🎭 Vault role.md>).
 
 > Part of the [🧑‍🦰👉🗄️ Unbind @ Wallet](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Vaults 🗄️/💬🤵 Unbind 🗄️.md>) flow.
 
@@ -25,7 +25,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header| `From` | string | [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>)
+|Header| `From` | string | [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>)
 || `To` | string | [Vault 🗄️ domain](<../🗄️🎭 Vault role.md>)
 || `Subject` | string | `Unbound@Vault`
 |Body| `BindID`| uuid | [Bind 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) ID

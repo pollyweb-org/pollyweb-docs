@@ -16,8 +16,8 @@
 |-|-|-
 |1| [🧑‍🦰👉🎴 Save Token 🎫](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Prompts 🤔/👉🎴 Save token.md>) | Users save [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) from [Issuers 🎴](<../../Issuers 🎴/🎴🎭 Issuer role.md>) 
 |2| [🧑‍🦰👉💼 Share Token 🎫](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Prompts 🤔/👉💼 Share Token 🎫.md>) | Users share [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) with [Consumers 💼](<../💼🎭 Consumer role.md>) 
-|3| [🎴🐌🤵 `Revise@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Revise.md>) | Async update of the status of a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
-|4| [💼🚀🤵 `Status@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🚀🤵 Status.md>) | Anonymously, verify [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) statuses
+|3| [🎴🐌🤵 `Revise@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Revise.md>) | Async update of the status of a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
+|4| [💼🚀🤵 `Status@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🚀🤵 Status.md>) | Anonymously, verify [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) statuses
 |5| [👥🚀🕸 `Trusts@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>) | Verify if [Consumers 💼](<../💼🎭 Consumer role.md>) are [Trustworthy 👍](<../../../30 🧩 Data/Trusts 👍/👍 Domain Trust.md>)
 |
 

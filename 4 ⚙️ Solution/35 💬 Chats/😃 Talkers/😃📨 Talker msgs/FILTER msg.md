@@ -1,3 +1,3 @@
 <!-- TODO: add details  -->
 
-> Example: [Pop Vault 🔆](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🔆 Broker locators/🤵🔆 Pop Vault.md>)
+> Example: [Pop Vault 🔆](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🔆 Broker locators/🤵🔆 Pop Vault.md>)

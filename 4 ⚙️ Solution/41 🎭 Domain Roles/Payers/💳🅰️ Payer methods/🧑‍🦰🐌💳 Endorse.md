@@ -32,13 +32,13 @@ Body:
 
 |Property|Type|Description
 |-|-|-
-| `From` | string | [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) name.
+| `From` | string | [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) name.
 | `To`| string | [Payer 💳 domain](<../💳🎭 Payer role.md>) name.
 | `Subject` | string | `Endorse@Payer`
 | `Bind`| uuid | [Bind 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) ID.
 | `Collector` | string | [Collector 🏦 domain](<../../../45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) name.
 | `Host` | string | [Host 🤗 domain](<../../Hosts 🤗/🤗🎭 Host role.md>) name.
-| `Broker` | string | [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) name.
+| `Broker` | string | [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) name.
 | `Locator` | string | [Locator 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>).
 | `ChatID` | uuid | [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID.
 | `Charge` | object | [Charge 💵](<../../Sellers 💵/💵⏩ Seller flows/💵⏩🧑‍🦰 Charge.md>) flow.

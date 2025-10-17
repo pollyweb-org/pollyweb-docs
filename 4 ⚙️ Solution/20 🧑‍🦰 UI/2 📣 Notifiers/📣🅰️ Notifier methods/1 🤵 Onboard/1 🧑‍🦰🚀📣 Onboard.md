@@ -31,7 +31,7 @@ Body:
 |       | `To`        | string | [Notifier 📣 domain](<../../📣👥 Notifier domain.md>) name
 |       | `Subject`   | string | `Onboard@Notifier`
 | Body  | `Language`  | enum   | ISO language code
-|       | `PublicKey` | string | For [`Chats@Broker`](<../../../3 🤵 Brokers/🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🧑‍🦰🚀🤵 Chats.md>), etc.
+|       | `PublicKey` | string | For [`Chats@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🧑‍🦰🚀🤵 Chats.md>), etc.
 |
 
 <br/>
@@ -45,6 +45,6 @@ WalletID: <wallet-uuid>
 
 |Property|Type|Description
 |-|-|-
-| `Broker`        | string | [Broker 🤵](<../../../3 🤵 Brokers/🤵🤲 Broker helper.md>) from [`Onboard@Broker`](<../../../3 🤵 Brokers/🤵🅰️ Broker methods/1 🤵🅰️ Wallets 🧑‍🦰/📣🚀🤵 Onboard.md>)
-| `WalletID`      | uuid | [Wallet 🧑‍🦰](<../../../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) ID from [`Onboard@Broker`](<../../../3 🤵 Brokers/🤵🅰️ Broker methods/1 🤵🅰️ Wallets 🧑‍🦰/📣🚀🤵 Onboard.md>)
+| `Broker`        | string | [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) from [`Onboard@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/1 🤵🅰️ Wallets 🧑‍🦰/📣🚀🤵 Onboard.md>)
+| `WalletID`      | uuid | [Wallet 🧑‍🦰](<../../../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) ID from [`Onboard@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/1 🤵🅰️ Wallets 🧑‍🦰/📣🚀🤵 Onboard.md>)
 |
