@@ -3,7 +3,7 @@
 
 1. **What are Robots in NLWeb?**
 
-    Robots 🤖 are [Things 💠](<../2 💠 Things/💠🔆 Thing locator.md>) that [Brands 🍏](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) embed into physical devices to enable them to be controlled locally or remotely using natural language and without the need for a digital display (e.g., a coffee machine, a printer, or a vehicle). 
+    Robots 🤖 are [Things 💠](<../Things 💠/💠🔆 Thing locator.md>) that [Brands 🍏](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) embed into physical devices to enable them to be controlled locally or remotely using natural language and without the need for a digital display (e.g., a coffee machine, a printer, or a vehicle). 
 
     ---
 
@@ -16,7 +16,7 @@
     - a [Schema Code 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) describing the commands and events in the Pluggable API;
     - an [Antenna 📡](<../../60 🧰 Edge/61 🔌 Pluggables/02 📡🔀 Antenna router.md>) to provide directional communication to the Pluggable controller;
     - a [Wi-Fier 🛜](<../../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>) to provide internet connectivity to the Antenna;
-    - a Robot [Thing 💠](<../2 💠 Things/💠🔆 Thing locator.md>) [Locator 🔆](<../Locators 🔆/🔆 Locator.md>) created by a [Wand 🪄](<../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>);
+    - a Robot [Thing 💠](<../Things 💠/💠🔆 Thing locator.md>) [Locator 🔆](<../Locators 🔆/🔆 Locator.md>) created by a [Wand 🪄](<../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>);
     - an NFC/QR tag for the Robot 🤖 (e.g., acquired from a [Printer 🖨️](<../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>)).
 
     ---

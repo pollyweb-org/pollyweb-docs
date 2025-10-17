@@ -35,7 +35,7 @@
     | [💳 Payer](<../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) | PayPal | Pays [Collectors 🏦](<../Collectors 🏦/🏦🤲 Collector helper.md>) for [domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>)
     | [🖨️ Printer](<../Printers 🖨️/🖨️🤲 Printer helper.md>) | - | Prints [Locators 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) for [Brand 🍏](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) and [Host 🤗](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)
     | [🛰️ Relayer](<../Relayers 🛰️/🛰️🤲 Relayer helper.md>)
-    | [🪄 Wand](<../Wands 🪄/🪄🤲 Wand helper.md>) | - | Manages [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) for [Things 💠](<../../25 🔆 Locators/2 💠 Things/💠🔆 Thing locator.md>) for [Brands 🍏](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>)
+    | [🪄 Wand](<../Wands 🪄/🪄🤲 Wand helper.md>) | - | Manages [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) for [Things 💠](<../../25 🔆 Locators/Things 💠/💠🔆 Thing locator.md>) for [Brands 🍏](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>)
 
     ---
     <br/>

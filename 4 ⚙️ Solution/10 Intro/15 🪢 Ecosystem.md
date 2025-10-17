@@ -25,7 +25,7 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
 
 
 
-- Users use their Wallets or their wearables (e.g., [Userables 💍](<../25 🔆 Locators/Userables 💍/💍💠 Userable thing.md>), [Tapbands ⌚](<../25 🔆 Locators/Tapbands ⌚/⌚💠 Tapband thing.md>)) to interact with [Padlocks 🔒](<../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>), [Robots 🤖](<../25 🔆 Locators/Robots 🤖/🤖💠 Robot thing.md>), and other smart [Things 💠](<../25 🔆 Locators/2 💠 Things/💠🔆 Thing locator.md>).
+- Users use their Wallets or their wearables (e.g., [Userables 💍](<../25 🔆 Locators/Userables 💍/💍💠 Userable thing.md>), [Tapbands ⌚](<../25 🔆 Locators/Tapbands ⌚/⌚💠 Tapband thing.md>)) to interact with [Padlocks 🔒](<../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>), [Robots 🤖](<../25 🔆 Locators/Robots 🤖/🤖💠 Robot thing.md>), and other smart [Things 💠](<../25 🔆 Locators/Things 💠/💠🔆 Thing locator.md>).
 
 - Organizations interact with an email-like inbox API behind a domain name, and can assume a multitude of roles in parallel - e.g.:
     * session [Host 🤗](<../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>), 
@@ -43,7 +43,7 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
 
 - Data integration and structural validation is assured via:
     - [Schema Codes 🧩](<../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) that domains and [Authority 🏛️ helper domains](<../45 🤲 Helper domains/Authorities 🏛️/🏛️🤲 Authority helper.md>) can define on their [domain Manifests 📜](<../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) 
-    - these codes are the foundation of resource [Locators 🔆](<../25 🔆 Locators/Locators 🔆/🔆 Locator.md>), physical [Things 💠](<../25 🔆 Locators/2 💠 Things/💠🔆 Thing locator.md>), and verifiable offline [Tokens 🎫](<../30 🧩 Data/Tokens 🎫/🎫 Token.md>).
+    - these codes are the foundation of resource [Locators 🔆](<../25 🔆 Locators/Locators 🔆/🔆 Locator.md>), physical [Things 💠](<../25 🔆 Locators/Things 💠/💠🔆 Thing locator.md>), and verifiable offline [Tokens 🎫](<../30 🧩 Data/Tokens 🎫/🎫 Token.md>).
 
 - Domains interact directly with humans with edge devices that exhibit well-known behaviors - e.g.:
     * locator [Scanners ✨](<../60 🧰 Edge/66 ✨ Scanners/06 ✨🔌 Scanner device.md>), 

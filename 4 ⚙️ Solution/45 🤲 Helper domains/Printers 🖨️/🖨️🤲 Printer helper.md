@@ -25,7 +25,7 @@
 1. **Why are Printers important?**
 
     For users:
-    * Printer 🖨️ domains allow users to turn any object into a smart object - i.e., a [Thing 💠](<../../25 🔆 Locators/2 💠 Things/💠🔆 Thing locator.md>);
+    * Printer 🖨️ domains allow users to turn any object into a smart object - i.e., a [Thing 💠](<../../25 🔆 Locators/Things 💠/💠🔆 Thing locator.md>);
     * e.g., before going on trip through Asia, a user can buy a smart sticker in a supermarket then stick it on their old-yet-cherished notebook of memories so that anyone can return it free of charge if left behind.
 
     For businesses:
