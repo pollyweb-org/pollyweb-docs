@@ -42,7 +42,7 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
     * [Advertiser 👀 helper domains](<../45 🤲 Helper domains/Advertisers 👀/👀🤲 Advertiser helper.md>) for ads.
 
 - Data integration and structural validation is assured via:
-    - [Schema Codes 🧩](<../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) that domains and [Authority 🏛️ helper domains](<../45 🤲 Helper domains/Authorities 🏛️/🏛️🤲 Authority helper.md>) can define on their [domain Manifests 📜](<../30 🧩 Data/Manifests 📜/📜 Manifest.md>) 
+    - [Schema Codes 🧩](<../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) that domains and [Authority 🏛️ helper domains](<../45 🤲 Helper domains/Authorities 🏛️/🏛️🤲 Authority helper.md>) can define on their [domain Manifests 📜](<../30 🧩 Data/Manifests 📜/📜 Manifest.md>) 
     - these codes are the foundation of resource [Locators 🔆](<../25 🔆 Locators/Locators 🔆/🔆 Locator.md>), physical [Things 💠](<../25 🔆 Locators/Things 💠/💠🔆 Thing locator.md>), and verifiable offline [Tokens 🎫](<../30 🧩 Data/Tokens 🎫/🎫 Token.md>).
 
 - Domains interact directly with humans with edge devices that exhibit well-known behaviors - e.g.:
@@ -63,7 +63,7 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
     * and [Ephemeral 🦋 devices](<../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>) that dynamically rotate QR and NFC [Locators 🔆](<../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to prevent fraud.
 
 - Performance at a global scale is assured by:
-  * a distributed cluster of [Listener 👂 helper domains](<../45 🤲 Helper domains/Listeners 👂/👂🤲 Listener helper.md>) that propagate [Schema Codes 🧩](<../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) and [Trusts 👍](<../30 🧩 Data/Trusts 👍/👍 Domain Trust.md>) from [domain Manifests 📜](<../30 🧩 Data/Manifests 📜/📜 Manifest.md>) in near-real time;
+  * a distributed cluster of [Listener 👂 helper domains](<../45 🤲 Helper domains/Listeners 👂/👂🤲 Listener helper.md>) that propagate [Schema Codes 🧩](<../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) and [Trusts 👍](<../30 🧩 Data/Trusts 👍/👍 Domain Trust.md>) from [domain Manifests 📜](<../30 🧩 Data/Manifests 📜/📜 Manifest.md>) in near-real time;
   * and [Graph 🕸 helper domains](<../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) that cache them to support high-performant queries from any [domain 👥](<../40 👥 Domains/👥 Domain.md>).
 
   ---

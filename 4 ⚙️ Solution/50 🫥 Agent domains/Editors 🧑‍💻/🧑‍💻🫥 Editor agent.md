@@ -64,14 +64,14 @@
 
 1. **How do editors render and verify the rules of dataset item?**
 
-    [Vaults 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) share the list of the user datasets on their CRUD API, as well as the [Schema 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) of each dataset. 
+    [Vaults 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) share the list of the user datasets on their CRUD API, as well as the [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) of each dataset. 
 
     ---
     <br/>
 
 1. **Is there data corruption if editors don't comply dataset rules?**
 
-    No. [Vaults 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) re-check the [Schema 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) rules on their side when receiving write requests.
+    No. [Vaults 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) re-check the [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) rules on their side when receiving write requests.
 
     ---
     <br/>

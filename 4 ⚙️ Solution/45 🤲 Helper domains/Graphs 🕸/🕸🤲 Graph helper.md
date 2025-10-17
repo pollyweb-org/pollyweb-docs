@@ -19,9 +19,9 @@
     |Scope&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Question
     |-|-
     |[👥 Identity](<../../40 👥 Domains/👥 Domain.md>)| What's the identity of [domain 👥](<../../40 👥 Domains/👥 Domain.md>) `D`?
-    |[👍 Trusts](<../../30 🧩 Data/Trusts 👍/👍 Domain Trust.md>) | Can I trust the data of [Schema 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) `S` sent by [domain 👥](<../../40 👥 Domains/👥 Domain.md>) `D`?
-    |[👍 Trusts](<../../30 🧩 Data/Trusts 👍/👍 Domain Trust.md>) | Can I trust my data of [Schema 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) `S` to a [domain 👥](<../../40 👥 Domains/👥 Domain.md>) `D`?
-    | [🧩 Schemas](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) | What's the schema definition of [Schema Code 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) `S`?
+    |[👍 Trusts](<../../30 🧩 Data/Trusts 👍/👍 Domain Trust.md>) | Can I trust the data of [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) `S` sent by [domain 👥](<../../40 👥 Domains/👥 Domain.md>) `D`?
+    |[👍 Trusts](<../../30 🧩 Data/Trusts 👍/👍 Domain Trust.md>) | Can I trust my data of [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) `S` to a [domain 👥](<../../40 👥 Domains/👥 Domain.md>) `D`?
+    | [🧩 Schemas](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | What's the schema definition of [Schema Code 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) `S`?
     | [🎫 Tokens](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) | What's the historical public [📨 DKIM](<../../30 🧩 Data/Messages 📨/📨 Message.md>) key of [🎫 Token](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) `T`?
     | [🪣 Datasets](<../../41 🎭 Domain Roles/Datasetters 🪣/🪣🎭 Datasetter role.md>) | What are the synchronous [Datasets 🪣](<../../41 🎭 Domain Roles/Datasetters 🪣/🪣🎭 Datasetter role.md>) of [domain 👥](<../../40 👥 Domains/👥 Domain.md>) `D`?
     | [🏭 Supplies](<../../41 🎭 Domain Roles/Suppliers 🏭/🏭🎭 Supplier role.md>) | What are the asynchronous [Supplies 🏭](<../../41 🎭 Domain Roles/Suppliers 🏭/🏭🎭 Supplier role.md>) of [domain 👥](<../../40 👥 Domains/👥 Domain.md>) `D`?
@@ -67,7 +67,7 @@
 
 1. **What if an event references an unknown Schema Code?**
 
-    [Graph 🕸 domains](<🕸🤲 Graph helper.md>) will place the change on hold until the referenced [Schema Code 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) is available.
+    [Graph 🕸 domains](<🕸🤲 Graph helper.md>) will place the change on hold until the referenced [Schema Code 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) is available.
 
     ---
     <br/>

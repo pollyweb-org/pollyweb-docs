@@ -28,6 +28,6 @@ Body:
 |       |`To`       | string | [Supplier 🏭 domain](<../🏭🎭 Supplier role.md>)
 |       |`Subject`  | string | `Order @ Supplier`
 |Body   |`OrderID`  | uuid   | ID of the order on the  Caller [domain 👥](<../../../40 👥 Domains/👥 Domain.md>)
-|       | `ItemCode`| string | [Schema Code 🧩](<../../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) of the items
+|       | `ItemCode`| string | [Schema Code 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) of the items
 ||
 

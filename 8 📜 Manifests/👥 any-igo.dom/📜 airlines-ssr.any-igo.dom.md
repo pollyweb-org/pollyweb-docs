@@ -15,7 +15,7 @@ Datasets:
 ````
 
 ```yaml
-  # [🧩](<../../4 ⚙️ Solution/30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) //MEALS list.
+  # [🧩](<../../4 ⚙️ Solution/30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) //MEALS list.
   - Dataset: airlines.any-igo.dom/SSR/MEAL
     Requires: 
       Language: Code@standards.any-igo.dom/639-1
@@ -27,7 +27,7 @@ Codes:
 
 ```yaml
   # --------------------------------------------------
-  # [🧩](<../../4 ⚙️ Solution/30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) /SSR
+  # [🧩](<../../4 ⚙️ Solution/30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) /SSR
   # Manage SSR on behalf of Any IGO Airlines
   # --------------------------------------------------
 
@@ -37,7 +37,7 @@ Codes:
   
 ```yaml
   # --------------------------------------------------
-  # [🧩](<../../4 ⚙️ Solution/30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) //WCHR/CRED
+  # [🧩](<../../4 ⚙️ Solution/30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) //WCHR/CRED
   # Token: Wheelchair for ramp
   # --------------------------------------------------
 
@@ -58,7 +58,7 @@ Codes:
 
 ```yaml
   # --------------------------------------------------
-  # [🧩](<../../4 ⚙️ Solution/30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) //MEAL
+  # [🧩](<../../4 ⚙️ Solution/30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) //MEAL
   # --------------------------------------------------
 
   - Path: /SSR/MEAL

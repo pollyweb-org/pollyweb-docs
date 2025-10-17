@@ -36,19 +36,19 @@
     [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) are shared with Consumers 💼 by [Broker 🤵 domains](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) in a number of ways.
 
     - **Request on a chat**: 
-        - in a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>), [Consumers 💼](<💼🎭 Consumer role.md>) can ask the user to share a specific [Schema Code 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>);
-        - if the user accepts, the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) shares with the [Consumer 💼](<💼🎭 Consumer role.md>) both the [bound 🔗 Vaults](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) and the downloaded [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) that match that [Schema Code 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>);
+        - in a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>), [Consumers 💼](<💼🎭 Consumer role.md>) can ask the user to share a specific [Schema Code 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>);
+        - if the user accepts, the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) shares with the [Consumer 💼](<💼🎭 Consumer role.md>) both the [bound 🔗 Vaults](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) and the downloaded [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) that match that [Schema Code 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>);
         - e.g., an airline may ask a user to share their passport [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>).
 
     - **On chat hello**: 
-        - when a [Broker 🤵 domain](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) initiates a chat session with a [Consumer 💼 domain](<💼🎭 Consumer role.md>), it automatically shares the [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) issued by that [Consumer 💼 domain](<💼🎭 Consumer role.md>) if the [Token's Schema Code 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) is marked as SELF;
-        - e.g., booking and ticket [Schema Codes 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) typically allow users to tap on for check-in when arrival at the place of destination, like a restaurant.
+        - when a [Broker 🤵 domain](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) initiates a chat session with a [Consumer 💼 domain](<💼🎭 Consumer role.md>), it automatically shares the [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) issued by that [Consumer 💼 domain](<💼🎭 Consumer role.md>) if the [Token's Schema Code 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) is marked as SELF;
+        - e.g., booking and ticket [Schema Codes 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) typically allow users to tap on for check-in when arrival at the place of destination, like a restaurant.
 
     - **When users tap/scan offline Tokens**: 
         - when users tap or scan an offline [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) on a scanner of a [Consumer 💼 domain](<💼🎭 Consumer role.md>) (e.g., a printed flight ticket at an airport gate), the [Consumer 💼 domain](<💼🎭 Consumer role.md>) can validate the [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) without the need for a chat or any interactions with the [user's Broker 🤵 domain](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>).
 
     - **When users tap Userables**: 
-        - when users tap a [Userable 💍](<../../25 🔆 Locators/Userables 💍/💍💠 Userable thing.md>) on the scanner of a [Consumer 💼 domain](<💼🎭 Consumer role.md>) (e.g., a wristband at an airport gate), the [Consumer 💼 domain](<💼🎭 Consumer role.md>) can ask the [user's Custodian 🧳 domain](<../../50 🫥 Agent domains/Custodians 🧳/🧳🫥 Custodian agent.md>) to silently share all [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) marked as public by the user and matching a list of expected [Schema Codes 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>);
+        - when users tap a [Userable 💍](<../../25 🔆 Locators/Userables 💍/💍💠 Userable thing.md>) on the scanner of a [Consumer 💼 domain](<💼🎭 Consumer role.md>) (e.g., a wristband at an airport gate), the [Consumer 💼 domain](<💼🎭 Consumer role.md>) can ask the [user's Custodian 🧳 domain](<../../50 🫥 Agent domains/Custodians 🧳/🧳🫥 Custodian agent.md>) to silently share all [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) marked as public by the user and matching a list of expected [Schema Codes 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>);
         - see [Userable at gates 💍🎬](<../../25 🔆 Locators/Userables 💍/💍⏩ Userable flows/💍🎬 Cross gates.md>) for details.
 
     ---
@@ -58,7 +58,7 @@
 
     Yes. Just like with first-party cookies on Web 2.0 internet. 
     
-    - [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) using a [Schema Code 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) marked as SELF are silently shared with [Consumer 💼 domains](<💼🎭 Consumer role.md>), who can then track users;
+    - [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) using a [Schema Code 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) marked as SELF are silently shared with [Consumer 💼 domains](<💼🎭 Consumer role.md>), who can then track users;
     - e.g., a luxury holding company with multiple brands may issue a loyalty card for a specific branded stored, then use that card to track the user across all businesses it manages.
 
     ---
@@ -78,9 +78,9 @@
     
 1. **How can Consumers validate the data schema when consuming?**
 
-    When consuming data from a [Vault 🗄️ domain](<../Vaults 🗄️/🗄️🎭 Vault role.md>), the data envelope indicates the [Schema Code 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) and the version (e.g., `any-authority.com/any-schema:1.0`). 
+    When consuming data from a [Vault 🗄️ domain](<../Vaults 🗄️/🗄️🎭 Vault role.md>), the data envelope indicates the [Schema Code 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) and the version (e.g., `any-authority.com/any-schema:1.0`). 
     
-    - The code identifies the [domain Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) where the [Schema Code 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) is defined (e.g., `any-schema` is defined in the [domain Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) of `any-authority.com`), so [Consumer 💼 domains](<💼🎭 Consumer role.md>) can then fetch the schema definitions from a cached [Graph 🕸 domain](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) or directly from the [Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>).
+    - The code identifies the [domain Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) where the [Schema Code 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) is defined (e.g., `any-schema` is defined in the [domain Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) of `any-authority.com`), so [Consumer 💼 domains](<💼🎭 Consumer role.md>) can then fetch the schema definitions from a cached [Graph 🕸 domain](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) or directly from the [Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>).
 
     ---
     <br/>
@@ -241,7 +241,7 @@
    
     |  Flow | Purpose
     |-|-
-    | [⏩🧑‍🦰 Query Vault](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Prompts 🤔/👉💼 Share Bind 🔗.md>) | Ask for [Schema Codes 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) in [Vaults 🗄️](<../Vaults 🗄️/🗄️🎭 Vault role.md>) 
+    | [⏩🧑‍🦰 Query Vault](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Prompts 🤔/👉💼 Share Bind 🔗.md>) | Ask for [Schema Codes 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) in [Vaults 🗄️](<../Vaults 🗄️/🗄️🎭 Vault role.md>) 
     | [⏩🧑‍🦰 Share Token](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Prompts 🤔/👉💼 Share Token 🎫.md>) | Ask for [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) in  [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) 
     | [⏩🧑‍🦰 Share ID Token](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Prompts 🤔/👉💼 Share Token+ID.md>) | Ask for [Identity 🆔](<../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) bound [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
     | [⏩🧑‍🦰 Token status](<💼⏩ Consumer flows/💼⏩🤵 Token status 🎫.md>) | Ask for the status of a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)

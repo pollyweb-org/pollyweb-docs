@@ -59,7 +59,7 @@ Design Decisions
 
         - this is similar to the autofill feature of the [main web browsers 🖼️](<../../2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape/12 🖼️ Top-browsers.md>), but done in a distributed way instead of concentrating user data in a centralized cloud database owned by the browser's manufacturer.
 
-    - Data is shared as data sets validated by [Schema Codes 🧩](<../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>), instead of as individual properties, thus not allowing [selective disclosure 📺](<../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/07 📺 SSI selective disclosure.md>);
+    - Data is shared as data sets validated by [Schema Codes 🧩](<../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>), instead of as individual properties, thus not allowing [selective disclosure 📺](<../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/07 📺 SSI selective disclosure.md>);
 
         - this also mirrors real-world interactions, where users typically hand-over to organization employees their physical documents with multiple data points (e.g., driver's license, passport).
   
