@@ -32,7 +32,7 @@ Body:
 ||`Subject` | string | `Invited@Helper`
 |Body|`ChatID`   | uuid    | [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) from [`Invite@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Invite.md>)
 ||`Inviter`  | string  | [Consumer 💼 ](<../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) from [`Invite@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Invite.md>)
-||`Code`     | string  | [Code 🧩](<../../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) from [`Invite@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Invite.md>)
+||`Code`     | string  | [Code 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) from [`Invite@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Invite.md>)
 ||`Callback` | uuid    | Callback from [`Invite@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Invite.md>)
 ||`Parameters`| object   | Parameters from [`Invite@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Invite.md>)
 |

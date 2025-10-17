@@ -36,7 +36,7 @@ Body:
 |Body| `ChatID` | uuid | [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID
 ||`Binds`| array | list of [Bind 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) objects
 |Bind| `ID`| uuid | [Bind 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) ID on the [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>)
-|| `Code`| string | [Schema Code 🧩](<../../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) on the [Vault 🗄️ domain](<../🗄️🎭 Vault role.md>)
+|| `Code`| string | [Schema Code 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) on the [Vault 🗄️ domain](<../🗄️🎭 Vault role.md>)
 |
 
 <br/>

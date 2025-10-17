@@ -6,7 +6,7 @@
     * a [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) 
     * asks the [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) 
     * for access to user data 
-    * in one or more [Schema Codes 🧩](<../../../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>).
+    * in one or more [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>).
 
 * Used by: 
     * [💼⏩🧑‍🦰 Inform ⏩ flow](<../../../../41 🎭 Domain Roles/Consumers 💼/💼⏩ Consumer flows/💼⏩🧑‍🦰 Inform 📝.md>)
@@ -41,7 +41,7 @@ Body:
 | | `Subject` | string | `Query@Broker`
 | Body | `ChatID` | string | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID
 | | `ConsumerKey`| uuid | [`Consume@Consumer`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>) callback
-| | `Codes` | string[] | List of [Schema Codes 🧩](<../../../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>)
+| | `Codes` | string[] | List of [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 |
 
 <br/>
@@ -50,7 +50,7 @@ Body:
 
 1. **Why a list of Codes instead of a single one?**
    
-    Although many [Schema Codes 🧩](<../../../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) may be requested, 
+    Although many [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) may be requested, 
     * only one of them will be returned; 
     * this allows for alternative documents;
     * e.g., passport or driver's license.
@@ -69,7 +69,7 @@ Body:
 
 1. **How are SELF Tokens are shared?**
 
-    For the [Schema Codes 🧩](<../../../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) marked with SELF, 
+    For the [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) marked with SELF, 
     * only shows the [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) issued by the [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>),
     * e.g., [`.BOOKING/SELF 🧩`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🧩 Host schemas/🧩 HOST'BOOKING'SELF.md>).
 

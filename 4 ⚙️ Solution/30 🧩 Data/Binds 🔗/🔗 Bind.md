@@ -5,7 +5,7 @@
 
     A [Bind 🔗](<🔗 Bind.md>) is 
     * a relationship between a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) and a [Vault 🗄️ domain](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) 
-    * for a given [Schema Code 🧩](<../Schema Codes 🧩/🧩 Schema Code.md>).
+    * for a given [Schema Code 🧩](<../Codes 🧩/🧩 Schema Code.md>).
 
     ---
     <br/>
@@ -37,7 +37,7 @@
     |-|-|-
     | 🗄️ Vault | 😃 Hi! What do you need? <br/>- [ Bla ] | > Bla
     | [🤵 Broker](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | ⓘ Flow: Bla, bla, bla [+] 
-    | [🤵 Broker](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Bind [Yes, No, +]<br/>- [ Any Schema Code 🧩](<../Schema Codes 🧩/🧩 Schema Code.md>) | > Yes 
+    | [🤵 Broker](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Bind [Yes, No, +]<br/>- [ Any Schema Code 🧩](<../Codes 🧩/🧩 Schema Code.md>) | > Yes 
     | 🗄️ Vault | ✅ Done! 
     |
 
@@ -70,7 +70,7 @@
     1. a user (e.g., Alice) initiates a [💬 Chat](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) with the [domain 👥](<../../40 👥 Domains/👥 Domain.md>);
     2. selects the option to [bind 🔗](<🔗 Bind.md>) to the [domain 👥](<../../40 👥 Domains/👥 Domain.md>);
     3. provides the authentication data required by the [domain 👥](<../../40 👥 Domains/👥 Domain.md>) (e.g., login and password);
-    4. selects one or more [Schema Codes 🧩](<../Schema Codes 🧩/🧩 Schema Code.md>) to [bind 🔗](<🔗 Bind.md>) to, from the list of available [Binds 🔗](<🔗 Bind.md>) provided to the user by the [domain 👥](<../../40 👥 Domains/👥 Domain.md>).
+    4. selects one or more [Schema Codes 🧩](<../Codes 🧩/🧩 Schema Code.md>) to [bind 🔗](<🔗 Bind.md>) to, from the list of available [Binds 🔗](<🔗 Bind.md>) provided to the user by the [domain 👥](<../../40 👥 Domains/👥 Domain.md>).
 
     The [💬 Chat](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) may look similar to the following.
     
@@ -81,8 +81,8 @@
     | 🗄️ Vault | 😃 Type your Vault ID. | `my-id`
     | 🗄️ Vault | 😃 Type your Secret. | `*******`
     | 🗄️ Vault | ℹ️ Hi, Alice! [+] |
-    | 🗄️ Vault | 😃 What to bind? [All] <br/> - [ [ Schema Code 🧩](<../Schema Codes 🧩/🧩 Schema Code.md>) #1 ] <br/> - [ [ Schema Code 🧩](<../Schema Codes 🧩/🧩 Schema Code.md>) #2 ] | > All
-    | [🤵 Broker](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Bind [Yes, No, +]<br/>- [ Schema Code 🧩](<../Schema Codes 🧩/🧩 Schema Code.md>) #1  <br/> - [Schema Code 🧩](<../Schema Codes 🧩/🧩 Schema Code.md>) #2 | > Yes | 
+    | 🗄️ Vault | 😃 What to bind? [All] <br/> - [ [ Schema Code 🧩](<../Codes 🧩/🧩 Schema Code.md>) #1 ] <br/> - [ [ Schema Code 🧩](<../Codes 🧩/🧩 Schema Code.md>) #2 ] | > All
+    | [🤵 Broker](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Bind [Yes, No, +]<br/>- [ Schema Code 🧩](<../Codes 🧩/🧩 Schema Code.md>) #1  <br/> - [Schema Code 🧩](<../Codes 🧩/🧩 Schema Code.md>) #2 | > Yes | 
     | 🗄️ Vault | ✅ Done! [+]
 
 
@@ -107,7 +107,7 @@
     | 🗄️ Vault | ℹ️ Hi, Alice! Let's bind. || The [Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) had a [Host 🤗](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)  callback.
     | [🤵 Broker](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | ⓘ Flow: Web bind [+] || The [Host 🤗 role](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) changed the context.
     | 🗄️ Vault | 😃 What to bind? [All] <br/> - [ Data Set #1 ] <br/> - [ Data Set #2 ] | > All
-    | [🤵 Broker](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Bind [Yes, No, +]<br/>- [ Schema Code 🧩](<../Schema Codes 🧩/🧩 Schema Code.md>) #1  <br/> - [Schema Code 🧩](<../Schema Codes 🧩/🧩 Schema Code.md>) #2 | > Yes | The [Broker 🤵](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) protected the user.
+    | [🤵 Broker](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Bind [Yes, No, +]<br/>- [ Schema Code 🧩](<../Codes 🧩/🧩 Schema Code.md>) #1  <br/> - [Schema Code 🧩](<../Codes 🧩/🧩 Schema Code.md>) #2 | > Yes | The [Broker 🤵](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) protected the user.
     | 🗄️ Vault | ✅ Done! [+]
 
     ---

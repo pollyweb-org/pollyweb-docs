@@ -17,12 +17,12 @@ About:
 
 Datasets:
 
-  # [🧩](<../../4 ⚙️ Solution/30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) //COUNTRY list.
+  # [🧩](<../../4 ⚙️ Solution/30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) //COUNTRY list.
   - Dataset: nlweb.dom/LOCALE/COUNTRY:1.0
     Requires: 
       Language: Code@standards.any-igo.dom/639-1
     
-  # [🧩](<../../4 ⚙️ Solution/30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) //DIALCODE list.
+  # [🧩](<../../4 ⚙️ Solution/30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) //DIALCODE list.
   - Dataset: nlweb.dom/LOCALE/DIALCODE:1.0
     Requires: 
       Language: Code@standards.any-igo.dom/639-1

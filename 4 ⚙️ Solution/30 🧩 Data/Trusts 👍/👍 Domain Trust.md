@@ -6,7 +6,7 @@
 1. **How do domains avoid interacting with bad actors?**
 
     The NLWeb implements a domain trust framework that allows:
-    * [sender domains 📤](<../../40 👥 Domains/👥 Domain.md>) to know if they can [trust 👍](<👍 Domain Trust.md>) a [receiver domain 📥](<../../40 👥 Domains/👥 Domain.md>) with a specific [Schema Code 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) path - e.g. `nlweb.dom/PERSONA/*`, and vice-versa.
+    * [sender domains 📤](<../../40 👥 Domains/👥 Domain.md>) to know if they can [trust 👍](<👍 Domain Trust.md>) a [receiver domain 📥](<../../40 👥 Domains/👥 Domain.md>) with a specific [Schema Code 🧩](<../Codes 🧩/🧩 Schema Code.md>) path - e.g. `nlweb.dom/PERSONA/*`, and vice-versa.
     
     For example:
       * `any-buyer.com` may accept payment requests 
@@ -38,7 +38,7 @@
     `Expires`        |timestamp| Expiration date:<br/>• default: forever
     `Action`         |enum| Giving or removing trust: <br/>• enum: [GRANT, REVOKE, INHERIT] <br/>• default: GRANT
     `Role`<br/>`Roles`     |enum,<br/>enum[]| Purpose of referred actor:<br>• enum: [VAULT, CONSUMER, *] <br/>• default: both
-    `Query`<br/>`Queries`  |string,<br/>string[]| [Schema Code 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>)  paths to trust: <br/>• default: everything
+    `Query`<br/>`Queries`  |string,<br/>string[]| [Schema Code 🧩](<../Codes 🧩/🧩 Schema Code.md>)  paths to trust: <br/>• default: everything
     `Domain`<br/>`Domains` |string,<br/>string[] | Domains to trust: <br/>• default: everyone
 
     ---

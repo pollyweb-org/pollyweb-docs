@@ -1,4 +1,4 @@
-# [🧩](<../../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) `.MANIFEST`
+# [🧩](<../../Codes 🧩/🧩 Schema Code.md>) `.MANIFEST`
 
 > Implements [domain Manifest 📜](<../📜 Manifest.md>) 
 
@@ -12,15 +12,15 @@
 | [`About` 🧩](<🧩 ABOUT.md>) | object | [Domain 👥](<../../../40 👥 Domains/👥 Domain.md>) identification
 | [`Datasets` 🧩](<🧩 OFFER.md>)  | array | Optional services offered
 | [`Trusts` 🧩](<🧩 TRUST.md>)   | array | Optional [Trusted 👍](<../../../30 🧩 Data/Trusts 👍/👍 Domain Trust.md>) domains and roles
-| [`Codes` 🧩](<🧩 CODE.md>)     | array | Optional [Schema Codes 🧩](<../../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) defined
-| [`Delegates` 🧩](<🧩 DELEGATE.md>) | array | Optional [Schema Codes 🧩](<../../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) delegated
+| [`Codes` 🧩](<🧩 CODE.md>)     | array | Optional [Schema Codes 🧩](<../../Codes 🧩/🧩 Schema Code.md>) defined
+| [`Delegates` 🧩](<🧩 DELEGATE.md>) | array | Optional [Schema Codes 🧩](<../../Codes 🧩/🧩 Schema Code.md>) delegated
 |
 
 <br/>
 
 ## Definition
 
-> [🤝:](<../../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) [`.MANIFEST/CODE`](<🧩 CODE.md>)
+> [🤝:](<../../Codes 🧩/🧩 Schema Code.md>) [`.MANIFEST/CODE`](<🧩 CODE.md>)
 
 ```yaml
 Path: /MANIFEST

@@ -35,7 +35,7 @@ Body:
 ||`Subject`|string|`Offer@Broker`
 |Body  |`ChatID` |uuid  | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🤵🐌🤗 Hello.md>)
 | |`TokenID` |uuid  | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ID
-|      |`Code`   |string| [Schema Code 🧩](<../../../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) 
+|      |`Code`   |string| [Schema Code 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) 
 |      |`Version`|string| Schema version|      
 |      |`Starts` |timestamp| Valid from
 |      |`Expires`|timestamp| Valid until
@@ -50,8 +50,8 @@ Body:
     | Reason | Details
     |-|-
     |`Reject`| [Broker 🤵 domains](<../../🤵🤲 Broker helper.md>) verify if the lifespan of the offered [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) is worth showing to the user, rejecting [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) already expired or too far ahead in the future.
-    `Translate` | [Broker 🤵 domains](<../../🤵🤲 Broker helper.md>) need to translate the [Schema Code 🧩](<../../../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>)  into for users in their [Wallet 🧑‍🦰 app](<../../../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) language.
-    `Share`| When [Broker 🤵 domains](<../../🤵🤲 Broker helper.md>) answer a [Query@Broker](<../6 🤵🅰️ Share/💼🐌🤵 Query.md>) call, they need to filter only the active [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) of a certain [Schema Code 🧩](<../../../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>)  within a version interval to be shared.
+    `Translate` | [Broker 🤵 domains](<../../🤵🤲 Broker helper.md>) need to translate the [Schema Code 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)  into for users in their [Wallet 🧑‍🦰 app](<../../../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) language.
+    `Share`| When [Broker 🤵 domains](<../../🤵🤲 Broker helper.md>) answer a [Query@Broker](<../6 🤵🅰️ Share/💼🐌🤵 Query.md>) call, they need to filter only the active [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) of a certain [Schema Code 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)  within a version interval to be shared.
     |
 
     
