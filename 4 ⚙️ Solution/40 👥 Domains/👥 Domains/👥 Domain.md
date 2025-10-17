@@ -4,7 +4,7 @@
 1. **What is a Domain in NLWeb?**
 
     In NLWeb, a [domain 👥](<👥 Domain.md>) is any public web service that
-    * sends and receives domain [Messages 📨](<../📨 Messages/📨 Message.md>)
+    * sends and receives domain [Messages 📨](<../../30 🧩 Data/📨 Messages/📨 Message.md>)
     * and publishes a [domain Manifest 📜](<../👥📜 Domain Manifests/📜 Manifest.md>).
 
 
