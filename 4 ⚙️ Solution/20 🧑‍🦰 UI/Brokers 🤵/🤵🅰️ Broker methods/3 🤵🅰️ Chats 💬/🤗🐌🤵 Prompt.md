@@ -6,7 +6,7 @@
 
 * The [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) 
   * forwards the [Prompt 🤔](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) 
-  * to the [Notifier 📣 domain](<../../../2 📣 Notifiers/📣👥 Notifier domain.md>).
+  * to the [Notifier 📣 domain](<../../../Notifiers 📣/📣👥 Notifier domain.md>).
 
 <br/>
 

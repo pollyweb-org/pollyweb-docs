@@ -11,7 +11,7 @@
 
 - Flow: [Charge 💵👉🧑‍🦰 ](<../../../../41 🎭 Domain Roles/Sellers 💵/💵⏩ Seller flows/💵⏩🧑‍🦰 Charge.md>)
 - Previous: [Charge 💵👉🧑‍🦰](<../../../../41 🎭 Domain Roles/Sellers 💵/💵⏩ Seller flows/💵⏩🧑‍🦰 Charge.md>)
-- Next: [Charge@Notifier 🤵💵🐌📣](<../../../2 📣 Notifiers/📣🅰️ Notifier methods/5 💳 Payments/🤵🐌📣 Charge.md>)
+- Next: [Charge@Notifier 🤵💵🐌📣](<../../../Notifiers 📣/📣🅰️ Notifier methods/5 💳 Payments/🤵🐌📣 Charge.md>)
 
 
 ## Async Message 
