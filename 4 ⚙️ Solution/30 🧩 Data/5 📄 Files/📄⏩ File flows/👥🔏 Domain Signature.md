@@ -12,18 +12,18 @@
 
     | Example | Details
     |-|-
-    | [🚀 Download @ Host](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🧑‍🦰🚀🤗 Download.md>) | Download [Prompt 🤔](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) appendixes in [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
+    | [🚀 Download @ Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🧑‍🦰🚀🤗 Download.md>) | Download [Prompt 🤔](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) appendixes in [Chats 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>)
 
     ---
     <br/>
 
 1. **How does it work**?
 
-    ![](<.📎 Assets/🔏 Domain Signature.png>)
+    ![](<../../../40 👥 Domains/👥🔏 Domain Signatures/.📎 Assets/🔏 Domain Signature.png>)
 
     |#| Step | Details
     |-|-|-
-    |1| `DKIM` | Domain A rotates its [DKIM](<../👥📨 Domain Messages/📨 Message.md>) public key.
+    |1| `DKIM` | Domain A rotates its [DKIM](<../../../40 👥 Domains/👥📨 Domain Messages/📨 Message.md>) public key.
     |2| `Stamp` | Domain A signs a file with its latest private key, then sends the file to Domain B.
     |3| `Share`| Domain B shares the file with Domain C.
     |4| `Check`| Domain C verifies the signature of the file against the DKIM public key that was active at the time of the signature.
@@ -60,18 +60,18 @@
     |Property| Type | Details
     |-|-|-
     | `Code` | string |  `nlweb.dom/SIGNATURE:1.0`
-    | `Domain` | string | The [domain 👥](<../👥 Domains/👥 Domain.md>) name
+    | `Domain` | string | The [domain 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) name
     | `Hash` | string |  The hash of the file
     | `Signed` | timestamp | When it was signed
-    | `DKIM`| string | The [DKIM 📨](<../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Public Key.md>) key used to sign
-    | `Signature`| string | The [signature](<../👥📨 Domain Messages/📨 Message.md>) 📨 
+    | `DKIM`| string | The [DKIM 📨](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Public Key.md>) key used to sign
+    | `Signature`| string | The [signature](<../../../40 👥 Domains/👥📨 Domain Messages/📨 Message.md>) 📨 
 
     ---
     <br/>
 
 1. **How do sender domains stamp files**?
     
-    To stamp a file, sender [domains 👥](<../👥 Domains/👥 Domain.md>): 
+    To stamp a file, sender [domains 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>): 
     1. calculate the hash of the file without the stamp; 
     2. create a stamp with hash but without the signature;
     3. create a signature from the stamp;
@@ -83,10 +83,10 @@
 
 1. **How do receiver domains verify a sender's signature**?
 
-    To verify a file, receiver [domains 👥](<../👥 Domains/👥 Domain.md>): 
+    To verify a file, receiver [domains 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>): 
     1. calculate the hash of the file without the stamp;
     2. compare it with the hash in the stamp; 
-    3. get the public key for the DKIM by calling [Public Key @ Graph 🚀](<../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Public Key.md>);
+    3. get the public key for the DKIM by calling [Public Key @ Graph 🚀](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Public Key.md>);
     4. verify if the signature matches the stamp. 
 
     ---
@@ -94,7 +94,7 @@
 
 1. **What if the public key of the sender changes?**
 
-    The stamp contains the key of the DKIM used to sign the file, so it can obtain the public key with [Public Key @ Graph 🚀](<../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Public Key.md>).
+    The stamp contains the key of the DKIM used to sign the file, so it can obtain the public key with [Public Key @ Graph 🚀](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Public Key.md>).
 
     ---
     <br/>
