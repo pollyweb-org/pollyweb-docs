@@ -4,9 +4,60 @@
 
 <br/> 
 
+1. **What are asynchronous messages?**
+
+    [Domains 👥](<../👥 Domains/👥 Domain.md>) send fire-and-forget messages and events. 
+    * Any eventual answer, if expected, will arrive via another asynchronous message.
+
+    ---
+    <br/>
+
+1. **How do receiver domains reply to incoming messages?**
+
+    NLWeb advocates for communications to be asynchronous by default to minimize wait times in HTTPS communications and reduce the serverless compute cost of sending outbound messages. 
+    
+    - Thus, the receiver is expected to store the envelope in a resilient queue and immediately return a successful HTTPS 200 response. 
+    
+    - The receiver then processes the incoming envelopes [asynchronously](<../👥📨 Domain Messages/📨⏩ Message flows/Send Async 🐌.md>) by consuming them from the queue - it discards invalid envelopes, and replies to valid ones by sending a new envelope to the sender.
+
+    ---
+    <br/>
+
 1. **How do Async Messages work?**
 
     ![AsyncMessage](<../../👥 Domains/👥⏩ Domain flows/.📎 Assets/⚙️🐌 AsyncMessage.png>)
     
+    ---
+    <br/>
+
+
+1. **How can senders know if receivers discarded messages?**
+
+    When discarding an invalid message, receiver domains send feedback to the sender with the original correlation ID. 
+    
+    * Sender domains define their [Buffer ⏳ helper domain](<../../45 🤲 Helper domains/Buffers ⏳/⏳🤲 Buffer helper.md>) in the `Identity` section of their [domain Manifest 📜](<../👥📜 Domain Manifests/📜 Manifest.md>).
+       * If the `Feedback` property is not defined, then no feedback is given.
+       * Domains get of the [Buffer ⏳ helper domain](<../../45 🤲 Helper domains/Buffers ⏳/⏳🤲 Buffer helper.md>) by calling the [Identity@Broker 🚀 request](<../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Identity.md>).
+  
+        ```yaml
+        🤝: nlweb.dom/MANIFEST/ABOUT
+        About:
+          Name: any-sender.com
+          Feedback: any-buffer.dom
+        ```
+
+    * The feedback is sent via a [Buffer ⏳ helper domain](<../../45 🤲 Helper domains/Buffers ⏳/⏳🤲 Buffer helper.md>) defined by the sender's domain, using the [Feedback@Buffer 🐌 API message](<../../45 🤲 Helper domains/Buffers ⏳/⏳🅰️ Buffer methods/👥🐌⏳ Feedback.md>). 
+        ```yaml
+        🤝: nlweb.dom/MSG:1.0
+        Header:
+            From: any-receiver.com
+            To: any-buffer.dom
+            Subject: Feedback@Buffer
+        Body:
+            Correlation: <correlation-uuid>
+            Status: Discarded
+            Reason: Invalid DKIM signature.
+        ```
+
     ---
     <br/>
