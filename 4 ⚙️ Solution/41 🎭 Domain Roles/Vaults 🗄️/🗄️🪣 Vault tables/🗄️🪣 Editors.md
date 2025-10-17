@@ -15,7 +15,7 @@ Editor: any-editor.dom
 
 ## Schema
 
-Here's the [Tables 🪣 folder file](<../../../55 👷 Build domains/Hosteds 📦/📦📄 Hosted files/🪣📂 Tables folder.md>).
+Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢.md>).
 
 ```yaml
 # Editors.yaml
