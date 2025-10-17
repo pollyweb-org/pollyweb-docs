@@ -33,7 +33,7 @@
     | 🔆 [Locators](<📦📄 Hosted files/🔆📄 Locators file.md>) | YAML | Map of [Locators 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to [Talkers 😃](<../../35 💬 Chats/😃 Talkers/😃 Talker.md>)
     | 😃 [Talkers](<📦📄 Hosted files/😃📂 Talkers folder.md>) | Folder | List of [Talker 😃](<../../35 💬 Chats/😃 Talkers/😃 Talker.md>) scripts 
     | [📜 Manifest](<📦📄 Hosted files/📜📂 Manifest folder.md>) | Folder | Public [domain Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) parts
-    | [🪣 Pools](<📦📄 Hosted files/🗺️📄 Tables file.mdd>) | YAML | Resource index for [Talker `MAP`](<../../35 💬 Chats/😃 Talkers/😃💾 Talker data/MAP 🪣 item.md>)
+    | [🪣 Pools](<📦📄 Hosted files/🗺️📄 Tables file.mdd>) | YAML | Resource index for [Talker `MAP`](<../../35 💬 Chats/😃 Talkers/😃💾 Talker data/MAP 🗺️ item.md>)
     | [🗃️ Resources](<📦📄 Hosted files/🗃️📂 Resources folder.md>) | Folder | Resource folder for [🪣 Pools](<📦📄 Hosted files/🗺️📄 Tables file.mdd>)
     
 

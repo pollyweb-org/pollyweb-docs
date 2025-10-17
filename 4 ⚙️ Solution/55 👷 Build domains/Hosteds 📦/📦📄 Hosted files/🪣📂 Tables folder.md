@@ -6,6 +6,6 @@
 
 > Defined with [Hosted 📦 datasets](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Hosted 📦.md>)
 
-> Read with [`MAP` command](<../../../35 💬 Chats/😃 Talkers/😃💾 Talker data/MAP 🪣 item.md>)
+> Read with [`MAP` command](<../../../35 💬 Chats/😃 Talkers/😃💾 Talker data/MAP 🗺️ item.md>)
 
 <br/>
