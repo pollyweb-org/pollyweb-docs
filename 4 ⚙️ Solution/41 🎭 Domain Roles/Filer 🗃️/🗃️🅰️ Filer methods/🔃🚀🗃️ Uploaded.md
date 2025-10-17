@@ -1,11 +1,11 @@
 # 🔃🚀🗃️ Uploaded @ Filer
 
-* Part of the [🔃⏩🗃️ Sync](<../../../55 👷 Build domains/🔃 Syncers/🔃⏩ Syncer flows/20 🔃⏩🗃️ Sync.md>) flow:
+* Part of the [🔃⏩🗃️ Sync](<../../../55 👷 Build domains/Syncers 🔃/🔃⏩ Syncer flows/20 🔃⏩🗃️ Sync.md>) flow:
     * preceded by [`Upload@Filer`](<🔃🚀🗃️ Upload.md>)
     * succeeded by [`Download@Filer`](<🔃🚀🗃️ Download.md>)
 
 * This request 
-    * is signed with the [Syncer's 🔃](<../../../55 👷 Build domains/🔃 Syncers/🔃🛠️ Syncer tool.md>) private-key pair 
+    * is signed with the [Syncer's 🔃](<../../../55 👷 Build domains/Syncers 🔃/🔃🛠️ Syncer tool.md>) private-key pair 
     * matching the `PublicKey` 
     * sent on the [`Clone@Filer`](<🔃🚀🗃️ Clone.md>) request.
 

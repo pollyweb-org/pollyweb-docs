@@ -2,7 +2,7 @@
 
 > Implements [Hoster ☁️ helper domain](<../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>)
 
-* Allows for [Hosted 📦 domains](<../../../55 👷 Build domains/📦 Hosteds/📦👥 Hosted domain.md>) 
+* Allows for [Hosted 📦 domains](<../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) 
     * to perform long-running tasks.
 
 
@@ -14,10 +14,10 @@
 
 | # | Call | Description
 |-|-|-
-|1| [😃🐌🧑‍💻 `Handle@Hosted`](<../../../55 👷 Build domains/📦 Hosteds/📦🅰️ Hosted methods/😃🐌📦 Handle.md>) | [Talkers 😃](<../😃 Talker.md>) ask to handle [{Functions} 🐍](<../😃💾 Talker data/{Function} 🐍.md>) | 
-|2| [🧑‍💻🐌😃 `Handled@Talker`](<../😃🅰️ Talker methods/🧑‍💻🐌😃 Handled.md>) | [Hosteds 📦](<../../../55 👷 Build domains/📦 Hosteds/📦👥 Hosted domain.md>) inform of tasks started
+|1| [😃🐌🧑‍💻 `Handle@Hosted`](<../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/😃🐌📦 Handle.md>) | [Talkers 😃](<../😃 Talker.md>) ask to handle [{Functions} 🐍](<../😃💾 Talker data/{Function} 🐍.md>) | 
+|2| [🧑‍💻🐌😃 `Handled@Talker`](<../😃🅰️ Talker methods/🧑‍💻🐌😃 Handled.md>) | [Hosteds 📦](<../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) inform of tasks started
 |3| [🤗⏩🧑‍🦰 Prompt 🤔](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Talkers 😃](<../😃 Talker.md>) inform users' [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
 |4| [⏸️ `WAIT` flow command](<../😃⚙️ Talker cmds/WAIT ⏸️.md>) | [Talkers 😃](<../😃 Talker.md>) go to sleep until signaled 
-|5| [🧑‍💻🚀😃 `Placed@Talker`](<../😃🅰️ Talker methods/🧑‍💻🚀😃 Placed.md>) | [Hosteds 📦](<../../../55 👷 Build domains/📦 Hosteds/📦👥 Hosted domain.md>) read [$Placeholders 💾](<../😃💾 Talker data/$Placeholder 💾.md>)
-|6| [🧑‍💻🐌😃 `Put@Hoster`](<../😃🅰️ Talker methods/🧑‍💻🐌😃 Place.md>) | [Hosteds 📦](<../../../55 👷 Build domains/📦 Hosteds/📦👥 Hosted domain.md>) wake up the [⏸️ `WAIT` flow](<../😃⚙️ Talker cmds/WAIT ⏸️.md>)
+|5| [🧑‍💻🚀😃 `Placed@Talker`](<../😃🅰️ Talker methods/🧑‍💻🚀😃 Placed.md>) | [Hosteds 📦](<../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) read [$Placeholders 💾](<../😃💾 Talker data/$Placeholder 💾.md>)
+|6| [🧑‍💻🐌😃 `Put@Hoster`](<../😃🅰️ Talker methods/🧑‍💻🐌😃 Place.md>) | [Hosteds 📦](<../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) wake up the [⏸️ `WAIT` flow](<../😃⚙️ Talker cmds/WAIT ⏸️.md>)
 | 

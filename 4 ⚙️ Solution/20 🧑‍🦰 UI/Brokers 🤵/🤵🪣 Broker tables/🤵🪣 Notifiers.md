@@ -2,7 +2,7 @@
 
 ## Schema
 
-Here's the [Tables 🪣 folder file](<../../../55 👷 Build domains/📦 Hosteds/📦📄 Hosted files/🪣📂 Tables folder.md>).
+Here's the [Tables 🪣 folder file](<../../../55 👷 Build domains/Hosteds 📦/📦📄 Hosted files/🪣📂 Tables folder.md>).
 
 ```yaml
 # Notifiers.yaml

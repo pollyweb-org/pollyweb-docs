@@ -12,7 +12,7 @@
     [Talkers 😃](<😃 Talker.md>) 
     * are YAML scripts to render dialogs in a [💬 Chat](<../💬 Chats/💬 Chat.md>)
     * structured as [Commands ⌘](<😃⚙️ Talker cmds/⌘ Command.md>) grouped in [Procedures ⚙️](<😃⚙️ Talker cmds/⚙️ Procedure.md>)
-    * referencing [{Functions} 🐍](<😃💾 Talker data/{Function} 🐍.md>) evaluated by [Hosted 📦 domains](<../../55 👷 Build domains/📦 Hosteds/📦👥 Hosted domain.md>)
+    * referencing [{Functions} 🐍](<😃💾 Talker data/{Function} 🐍.md>) evaluated by [Hosted 📦 domains](<../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>)
     * and implemented by [Hoster ☁️ helper domains](<../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>).
     ---
     <br/>
@@ -54,8 +54,8 @@
 
     |Flow|Details
     |-|-
-    | [😃⏩🧑‍💻 Handle 🐍](<😃⏩ Talker flows/😃⏩🧑‍💻 Handle 🐍.md>) | Ask [Hosteds 📦](<../../55 👷 Build domains/📦 Hosteds/📦👥 Hosted domain.md>) to handle [{Functions} 🐍](<😃💾 Talker data/{Function} 🐍.md>)
-    | [😃⏩🧑‍💻 Wait ⏸️](<😃⏩ Talker flows/😃⏩🧑‍💻 Wait ⏸️.md>) | Allow [Hosted 📦](<../../55 👷 Build domains/📦 Hosteds/📦👥 Hosted domain.md>)  long-running tasks
+    | [😃⏩🧑‍💻 Handle 🐍](<😃⏩ Talker flows/😃⏩🧑‍💻 Handle 🐍.md>) | Ask [Hosteds 📦](<../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) to handle [{Functions} 🐍](<😃💾 Talker data/{Function} 🐍.md>)
+    | [😃⏩🧑‍💻 Wait ⏸️](<😃⏩ Talker flows/😃⏩🧑‍💻 Wait ⏸️.md>) | Allow [Hosted 📦](<../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>)  long-running tasks
     
     ---
     <br/>
