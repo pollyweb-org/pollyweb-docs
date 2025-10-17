@@ -1,6 +1,6 @@
 <!-- TODO -->
 
-# 📄🪣 Static YAML dataset
+# 📄🪣 Static `YAML` dataset
 
 1. **How is a static YAML dataset?**
 
@@ -8,13 +8,14 @@
 
     ```yaml
     # 🪣 Items
-    - 123: 
-        Code: 123
-        Name: water bottle
-        Price: 1.50
-    - ABC:
-        Code: ABC
-        Name: beer
-        Price: 4.50
-        21+: Yes
+    - Code: 123
+      Name: water bottle
+      Price: 1.50
+    - Code: ABC
+      Name: beer
+      Price: 4.50
+      21+: Yes
     ```
+
+    ---
+    <br/>
