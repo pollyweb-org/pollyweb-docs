@@ -1,3 +1,7 @@
+<!-- TODO: detail the relation with database -->
+<!-- TODO: add details to soft delete -->
+
+
 # 🗑️ Talker `DELETE` command
 
 > Part of [Talker 😃](<../😃 Talker.md>)
