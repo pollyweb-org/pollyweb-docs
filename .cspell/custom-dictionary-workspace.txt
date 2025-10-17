@@ -34,6 +34,7 @@ Tapband
 Tapbands
 touchless
 Unqueue
+Upserts
 Userable
 Userables
 vitalogist
