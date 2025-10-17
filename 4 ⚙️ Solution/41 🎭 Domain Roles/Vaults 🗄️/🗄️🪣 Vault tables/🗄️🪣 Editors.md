@@ -2,6 +2,7 @@
 
 > [Editor 🧑‍💻 domains](<../../../50 🫥 Agent domains/Editors 🧑‍💻/🧑‍💻🫥 Editor agent.md>)
 
+<br/>
 
 ## Example
 
@@ -9,9 +10,18 @@ Here's the [`MAP` command](<../../../35 💬 Chats/😃 Talkers/😃💾 Talker 
 
 ```yaml
 # MAP|Editors|any-editor.dom
+Broker: any-broker.dom
+BindID: <bind-id>
 Editor: any-editor.dom
 ```
 
+| Property | Type | Details
+|-|-|-
+| `Broker` | string | From [`Bound@Broker`](<../🗄️🅰️ Vault methods/to Bind/🤵🐌🗄️ Bound.md>)
+| `BindID`| uuid | From [`Bound@Broker`](<../🗄️🅰️ Vault methods/to Bind/🤵🐌🗄️ Bound.md>)
+
+
+<br/>
 
 ## Schema
 
@@ -19,7 +29,7 @@ Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 
 
 ```yaml
 # Editors.yaml
-Key: Editor
-Children:
-    Binds:
+Key: Broker, BindID, Editor
+Parents:
+    Bind: Broker,BindID >> Binds
 ```

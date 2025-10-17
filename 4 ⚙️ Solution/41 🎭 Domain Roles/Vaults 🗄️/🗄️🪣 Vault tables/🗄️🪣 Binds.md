@@ -1,6 +1,6 @@
 # 🪣 Binds
 
-> Stores the content of [`Bound@Broker`](<../🗄️🅰️ Vault methods/🤵🐌🗄️ Bound.md>)
+> Stores the content of [`Bound@Broker`](<../🗄️🅰️ Vault methods/to Bind/🤵🐌🗄️ Bound.md>)
 
 <br/>
 
@@ -14,14 +14,13 @@ Broker    : any-broker.dom
 BindID    : <bind-id>
 Code      : .BIND
 Reference : <any-reference>
-Editors   : [any-editor.dom]
 ```
 
 | Property | Type | Details
 |-|-|-
-| `Broker` | domain | From [`Bound@Broker`](<../🗄️🅰️ Vault methods/🤵🐌🗄️ Bound.md>)
-| `BindID`| uuid | From [`Bound@Broker`](<../🗄️🅰️ Vault methods/🤵🐌🗄️ Bound.md>)
-| `Code` | string | From [`Bound@Broker`](<../🗄️🅰️ Vault methods/🤵🐌🗄️ Bound.md>)
+| `Broker` | string | From [`Bound@Broker`](<../🗄️🅰️ Vault methods/to Bind/🤵🐌🗄️ Bound.md>)
+| `BindID`| uuid | From [`Bound@Broker`](<../🗄️🅰️ Vault methods/to Bind/🤵🐌🗄️ Bound.md>)
+| `Code` | string | From [`Bound@Broker`](<../🗄️🅰️ Vault methods/to Bind/🤵🐌🗄️ Bound.md>)
 | `Reference` | any | Internal anchor.
 | 
 
