@@ -1,12 +1,12 @@
-# 🔃🚀🗃️ Download @ Resourcer
+# 🔃🚀🗃️ Download @ Filer
 
-> Part of the [🔃⏩🗃️ Sync](<../../../55 👷 Build domains/🔃 Syncers/🔃⏩ Syncer flows/20 🔃⏩🗃️ Sync.md>) flow:
-> <br/> • Preceded by [`Uploaded@Resourcer`](<🔃🚀🗃️ Uploaded.md>)
+* Part of the [🔃⏩🗃️ Sync](<../../../55 👷 Build domains/🔃 Syncers/🔃⏩ Syncer flows/20 🔃⏩🗃️ Sync.md>) flow:
+    * preceded by [`Uploaded@Filer`](<🔃🚀🗃️ Uploaded.md>)
 
 * This request 
     * is signed with the [Syncer's 🔃](<../../../55 👷 Build domains/🔃 Syncers/🔃🛠️ Syncer tool.md>) private-key pair 
     * matching the `PublicKey` 
-    * sent on the [`Clone@Resourcer`](<🔃🚀🗃️ Clone.md>) request.
+    * sent on the [`Clone@Filer`](<🔃🚀🗃️ Clone.md>) request.
 
 
 <br/>
@@ -16,8 +16,8 @@
 ```yaml
 Header:
     From: <clone-uuid>
-    To: any-resourcer.com
-    Subject: Download@Resourcer
+    To: any-filer.com
+    Subject: Download@Filer
     
 Body:
     Map: <map-uuid>
@@ -28,9 +28,9 @@ Body:
 | Object| Property | Type | Description
 |-|-|-|-
 | Header    | `From`        | uuid | `Clone` from [`Clone@`](<🔃🚀🗃️ Clone.md>) 
-|           | `To`          | string    | [Resourcer 🗃️](<../🗃️🎭 Filer role.md>) from [`Clone@`](<🔃🚀🗃️ Clone.md>) 
-|           | `Subject`     | string    | `Upload@Resourcer`
-| Body      | `Map`         | uuid    | ID from [`Map@Resourcer`](<🔃🚀🗃️ Map.md>)
+|           | `To`          | string    | [Filer 🗃️](<../🗃️🎭 Filer role.md>) from [`Clone@`](<🔃🚀🗃️ Clone.md>) 
+|           | `Subject`     | string    | `Upload@Filer`
+| Body      | `Map`         | uuid    | ID from [`Map@Filer`](<🔃🚀🗃️ Map.md>)
 |           | `File`        | string | Path like `/dir/file.ext`
 |           | `Part`        | int    | File part do download
 |

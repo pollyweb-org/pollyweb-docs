@@ -3,29 +3,29 @@
 actor "User" as user
 participant "Wallet 🧑\napp" as wallet
 participant "Syncer 🔃\ntool" as syncer
-participant "Filer 🗃️\nvault" as resourcer
+participant "Filer 🗃️\nvault" as filer
 
 'group Register
 
-    activate resourcer
-        resourcer --> wallet: 1) ⏪ Prompt 🤔 {what? ➜ clone} 
-        resourcer -> resourcer: stage
-        resourcer --> wallet: 2) ⏪ Prompt ⓘ { pin 🄰 }
-    deactivate resourcer    
+    activate filer
+        filer --> wallet: 1) ⏪ Prompt 🤔 {what? ➜ clone} 
+        filer -> filer: stage
+        filer --> wallet: 2) ⏪ Prompt ⓘ { pin 🄰 }
+    deactivate filer    
 
         user --> syncer: 3) $ clone { pin 🄰 }
 
     activate syncer 
         syncer -> user: show pin 🄱
-        syncer -> resourcer: Clone 🚀 { 🄰🄱 }
+        syncer -> filer: Clone 🚀 { 🄰🄱 }
     deactivate syncer
         
-    activate resourcer
-        resourcer -> syncer: { cloned }
-        resourcer --> wallet: ⏪ Prompt 🤔 { sent pin 🄱? ➜ yes }
-        resourcer -> resourcer: activate
-        resourcer --> wallet: ⏪ Prompt ✔ { OK, sync now } 
-    deactivate resourcer
+    activate filer
+        filer -> syncer: { cloned }
+        filer --> wallet: ⏪ Prompt 🤔 { sent pin 🄱? ➜ yes }
+        filer -> filer: activate
+        filer --> wallet: ⏪ Prompt ✔ { OK, sync now } 
+    deactivate filer
 
     user --> syncer: 5) Sync ⏩
     

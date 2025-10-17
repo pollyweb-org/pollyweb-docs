@@ -3,7 +3,7 @@
 actor "User" as user
 participant "Wallet 🧑\napp" as wallet
 participant "Syncer 🔃\ntool" as syncer
-participant "Filer 🗃️\nvault" as resourcer
+participant "Filer 🗃️\nvault" as filer
 participant "Broker 🤵\ndomain" as broker
 
 'group Register
@@ -11,19 +11,19 @@ participant "Broker 🤵\ndomain" as broker
     user --> syncer: 1) chat {key}
 
     activate syncer
-        syncer --> resourcer: 2) Chat 🐌
+        syncer --> filer: 2) Chat 🐌
     deactivate syncer
 
-    activate resourcer
-        resourcer --> broker: 3) Engage ⏩
-    deactivate resourcer
+    activate filer
+        filer --> broker: 3) Engage ⏩
+    deactivate filer
 
     activate broker
-        broker --> resourcer:
+        broker --> filer:
     deactivate broker
 
-    activate resourcer
-        resourcer --> wallet: 4) ⏪ Prompt {what?} 
-    deactivate resourcer
+    activate filer
+        filer --> wallet: 4) ⏪ Prompt {what?} 
+    deactivate filer
 
 @enduml
