@@ -2,47 +2,47 @@
 
 participant "Wallet 🧑\napp" as wallet
 participant "Syncer 🔃\ntool" as syncer
-participant "Filer 🗃️\nvault" as resourcer
+participant "Filer 🗃️\nvault" as filer
 
-syncer -> resourcer: 1) Map 🚀
+syncer -> filer: 1) Map 🚀
 activate syncer
 
-    activate resourcer
-        'resourcer -> resourcer: stage
-        resourcer -> syncer: {map}
-    deactivate resourcer
+    activate filer
+        'filer -> filer: stage
+        filer -> syncer: {map}
+    deactivate filer
 
-    syncer -> resourcer: 2) Upload 🚀 {file}
+    syncer -> filer: 2) Upload 🚀 {file}
     
     activate syncer
-        syncer -> resourcer
+        syncer -> filer
         activate syncer
-            syncer -> resourcer
+            syncer -> filer
             'activate syncer
-            '    syncer -> resourcer
+            '    syncer -> filer
             'deactivate syncer
         deactivate syncer
-        'syncer -> resourcer
+        'syncer -> filer
     deactivate syncer
 
-    syncer -> resourcer: 3) Uploaded 🚀
+    syncer -> filer: 3) Uploaded 🚀
 deactivate syncer
 
-activate resourcer
-    resourcer -> syncer: {changes}
-deactivate resourcer
+activate filer
+    filer -> syncer: {changes}
+deactivate filer
 
 activate syncer
-    syncer -> resourcer: 4) Download 🚀 {file}
+    syncer -> filer: 4) Download 🚀 {file}
     activate syncer
-        syncer -> resourcer
+        syncer -> filer
         activate syncer
-            syncer -> resourcer
+            syncer -> filer
             'activate syncer
-                'syncer -> resourcer
+                'syncer -> filer
             'deactivate syncer
         deactivate syncer
-        'syncer -> resourcer
+        'syncer -> filer
     deactivate syncer
 deactivate syncer
 

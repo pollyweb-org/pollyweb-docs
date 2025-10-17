@@ -19,7 +19,7 @@
 
     |Command 🧑‍💻| Description
     |-|-
-    |[⏩ `clone`](<🔃⏩ Syncer flows/10 🔃⏩🗃️ Clone.md>) | Registers [Syncer 🔃 tools](<🔃🛠️ Syncer tool.md>) on [Resourcers 🗃️](<../../41 🎭 Domain Roles/Filer 🗃️/🗃️🎭 Filer role.md>)
+    |[⏩ `clone`](<🔃⏩ Syncer flows/10 🔃⏩🗃️ Clone.md>) | Registers [Syncer 🔃 tools](<🔃🛠️ Syncer tool.md>) on [Filer 🗃️](<../../41 🎭 Domain Roles/Filer 🗃️/🗃️🎭 Filer role.md>)
     |[⏩ `sync`](<🔃⏩ Syncer flows/20 🔃⏩🗃️ Sync.md>) | Syncs local files with [Filer 🗃️ domains](<../../41 🎭 Domain Roles/Filer 🗃️/🗃️🎭 Filer role.md>) 
     |[⏩ `chat`](<../../41 🎭 Domain Roles/Filer 🗃️/🗃️🅰️ Filer methods/🔃🐌🗃️ Chat.md>)| Opens [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) with [Filer 🗃️ domains](<../../41 🎭 Domain Roles/Filer 🗃️/🗃️🎭 Filer role.md>)
     <!--|`test <env>`| Runs test scripts on an environment<br/>- e.g., `my-hoster test local`-->
