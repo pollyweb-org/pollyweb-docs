@@ -73,7 +73,7 @@
     ---
     <br/>
 
-9.  **How can Suppliers be implemented?**
+1. **How can Suppliers be implemented?**
 
     [Supplier 🏭 domains](<🏭🎭 Supplier role.md>) will typically:
     - use LLMs to understand requests in natural language;

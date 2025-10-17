@@ -61,7 +61,7 @@
     <br/>
     
     
-7.  **How does it differ from India's ONDC?**
+1. **How does it differ from India's ONDC?**
 
     The [Open Network for Digital Commerce (ONDC) 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/09 🛒 Shopping landscape/01 📺 🇮🇳 India's ONDC.md>) is a centralized shared network specific for the retail industry in India. 
     - NLWeb can also address that niche, 
@@ -73,7 +73,7 @@
     ---
     <br/>
     
-8.  **Does NLWeb allow a user to type a credit card number?**
+1. **Does NLWeb allow a user to type a credit card number?**
 
     Although technically possible, it is highly discouraged. 
     - NLWeb advocates for minimum user-typing during a transaction. 
@@ -82,7 +82,7 @@
     ---
     <br/>
     
-9.  **Does NLWeb allow users to pay with NFC contactless?**
+1. **Does NLWeb allow users to pay with NFC contactless?**
 
     No. NLWeb does not use the standard payment NFC protocol. 
     

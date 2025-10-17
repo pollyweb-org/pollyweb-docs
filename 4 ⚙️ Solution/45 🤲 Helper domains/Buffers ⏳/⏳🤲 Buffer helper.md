@@ -125,7 +125,7 @@
     ---
     <br/>
 
-4.  **Do Buffers ensure delivery order?**
+1. **Do Buffers ensure delivery order?**
 
     Yes, but optionally and without parallel pooling.
     * [Subscriber 🔔 domains](<../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>) can ask their [Buffer ⏳ domain](<⏳🤲 Buffer helper.md>) to be first-in-first-out (FIFO), based on when the [Streamer 🌬️ domain](<../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>) pushed the event.
