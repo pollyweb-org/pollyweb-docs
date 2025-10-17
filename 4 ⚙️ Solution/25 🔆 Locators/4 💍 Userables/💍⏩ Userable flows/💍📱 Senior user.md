@@ -43,7 +43,7 @@
     <br/>
 
 
-1. **What does the Chat look like?**
+1. **How is the [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>)?**
 
     Consider the following [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) as an example.
         
