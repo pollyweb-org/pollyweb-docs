@@ -17,200 +17,18 @@
     ---
     <br/>
 
-1. **What does a domain message look like?**
 
-    Messages from [domains 👥](<../👥 Domains/👥 Domain.md>) are sent in JSON envelopes similar to email messages. 
-    
-    * The [Schema 🧩](<../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) is defined at [`nlweb.dom/MSG 🧩`](<📨🧩 Message schemas/🧩 MSG.md>).
-    * Consider the the following example, converted from JSON to YAML for readability.
-
-    ```yaml
-    🤝: nlweb.dom/MSG:1.0
-
-    Header:
-        From: any-sender.com
-        To: any-receiver.com
-        Correlation: 125a5c75-cb72-43d2-9695-37026dfcaa48
-        Timestamp: 2018-12-10T13:45:00.000Z
-        Subject: AnyMethod
-        DKIM: pk1
-
-    Body: {...}
-
-    Hash: ee6ca2a43ec05d...
-    Signature: Lw7sQp6zkOGyJ+OzGn+B...
-    ```
-
-    ---
-    <br/>
-
-1. **What is contained in a domain message envelope?**
-
-    The following properties are a summary of the schema at [`nlweb.dom/MSG 🧩`](<📨🧩 Message schemas/🧩 MSG.md>).
-
-    |Property| Description
-    |-|-
-    | `🤝` | The versioned [Schema Code 🧩](<../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) of the envelope.
-    | `From` | The name of the [domain 👥](<../👥 Domains/👥 Domain.md>) who sent the message.
-    | `To`| The name of the [domain 👥](<../👥 Domains/👥 Domain.md>) for whom the message is intended.
-    | `Correlation`| The unique ID in the sender, for deduping.
-    | `Timestamp`| The date and time of the message, in UTC format.
-    | `Subject`| The method to be executed on the receiver.
-    | `Body`| The content inside the envelope.
-    | `Hash`| The canonical hash of the envelope's header and body.
-    | `Signature`| The signature of the envelope using the sender's private key.
-    | `DKIM`| The name of the corresponding public key in the sender's [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>).
-
-    ---
-    <br/>
-
-
-1. **How do receiver domains handle upgraded schema versions?**
-
-    An NLWeb envelop contains a [Schema Code 🧩](<../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) that allows receivers to support multiple versions concurrently, handling incoming envelopes differently depending on its version;
-    - e.g., `🤝: nlweb.dom/MSG:1.0`
-    - Envelopes with unsupported versions are discarded.
-
-    ---
-    <br/>
-
-
-1. **How do receiver domains know who sent a message?**
-
-    An NLWeb envelope resembles an email message, containing a `Header` and a `Body`. 
-    - The header contains the sender’s domain name (e.g., `any-sender.com`) and the receiver’s domain name (e.g., `any-receiver.com`), as well as other metadata. 
-    - Receivers discard envelopes not intended to them.
-
-    ---
-    <br/>
-
-1. **How do receiver domains prevent sender impersonation attacks?**
-
-    NLWeb domains implement the ubiquitous [DKIM (rfc6376) protocol 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) used by email servers to verify envelopes received from other domains. 
-    
-    - Sender domains hash their envelopes with JSON Canonicalization Scheme (rfc8785) and sign them with their private half of the [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) key-pair. 
-    
-    - Receiver domains look up the public half of the sender’s [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) key-pair to verify the signature of incoming envelopes. The receiver expects to find the sender’s public key in DKIM format in a DNS entry named “nlweb” (e.g., `nlweb._domainkey.any-sender.com`). 
-    
-    - The envelope is discarded if the sender’s [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) is not correctly implemented, or the sender’s public key is unable to verify the signature in the envelope.
-
-    ---
-    <br/>
-
-1. **How do receiver domains prevent DNS spoofing attacks?**
-
-    When getting the sender’s [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) public key, receiver domains check if DNSSEC is implemented on the sender’s domain;
-    - if not implemented, the envelope is discarded.
-
-    ---
-    <br/>
-
-1. **How do receiver domains prevent replay attacks?**
-
-    An NLWeb envelop contains the sender’s `Timestamp` in UTC format.
-    - Receivers discard envelopes with a timestamp outside accepted time boundaries. 
-    
-    An envelope also contains a `Correlation` UUID.
-    - This uniquely identifies the outbound message in the sender’s domain.
-    - Receivers discard envelopes with duplicate incoming correlations within accepted time boundaries.
-
-    ---
-    <br/>
-
-1. **How do receiver domains differentiate methods?**
-
-    An NLWeb envelop contains a `Subject` that identifies how the receiver should handle the message:
-    - e.g., `Hello@Host` refers to the [Hello 🐌 method](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🤵🐌🤗 Hello.md>) in the [Host 🤗 domain role](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>).
-    - The possible `Subject` values are defined by the APIs implemented by [domain Roles 🎭](<../👥 Domains/👥 Domain.md>).
-    - Receivers discard envelopes with unexpected subjects.
-
-    ---
-    <br/>
-   
-1. **What is the signature for?**
-
-    Senders sign the header and body of envelopes with [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) private key,
-    - [domains 👥](<../👥 Domains/👥 Domain.md>) verify incoming [domain 👥](<../👥 Domains/👥 Domain.md>) messages with the sender's [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) public key,
-    - and [Broker 🤵 domains](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) verify incoming [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) messages with the their pre-shared public key.
-    
-    ---
-    <br/>
-
-1. **How to create the canonical version of the envelope?**
-   
-    To create a canonical version of the envelope:
-    1. create an object with just {header,body} content;
-    2. compact the content with [JSON Canonicalization Scheme (JCS) ⤴](https://www.rfc-editor.org/rfc/rfc8785).
-
-    ---
-    <br/>
-
-1. **How to create the canonical hash with OpenSSL?**
-   
-    To generate the hash with OpenSSL, prepare the following file:
-    - `canonical.json`: a canonical representation of {header,body}.
-  
-    Then run: 
-    * `$ cat canonical.json | openssl dgst -sha256 > hash.txt`
-    * `$ truncate -s -1 hash.txt`
-    * `$ cat hash.txt`
-
-    ---
-    <br/>
-
-
-1. **How to create a signature with OpenSSL?**
-
-    To create a signature with OpenSSL, first prepare the following files:
-      - `canonical.json`: a canonical representation of {header,body};
-      - `private.pem`: the private signature of the [domain 👥](<../👥 Domains/👥 Domain.md>).
-  
-    Then run the following commands on a terminal: 
-    * `$ openssl dgst -sha256 -sign private.pem -out signature.sha1 canonical.json`
-    * `$ openssl base64 -A -in signature.sha1 -out signature.txt`
-    * `$ cat signature.txt`
-
-    ---
-    <br/>
-
-1. **How to validate a signature with OpenSSL?**
-
-    To validate a signature with OpenSSL, first prepare the following files:
-    - `signature.txt`: the signature received in a message from another [domain 👥](<../👥 Domains/👥 Domain.md>);
-    - `canonical.json`: a canonical representation of the received {header,body};
-    - `public.pem`: the public key of the sender [domain 👥](<../👥 Domains/👥 Domain.md>).
-  
-    Then run the following commands on a terminal: 
-    * $ `openssl enc -d -A -base64 -in signature.txt -out signature.sha1`
-    * $ `openssl dgst -sha256 -verify public.pem -signature signature.sha1 canonical.json`
-
-    ---
-    <br/>
 
 1. **What are the technical workflows around messages?**
 
     | Workflow | Description
     |-|-
-    | 🚀 Synchronous requests | [Domains 👥](<../👥 Domains/👥 Domain.md>) send requests and wait for the immediate response over an HTTPS request.
-    | 🐌 Asynchronous messages | [Domains 👥](<../👥 Domains/👥 Domain.md>) send fire-and-forget messages and events. Any eventual answer, if expected, will arrive via another asynchronous message.
+    | 🚀 [Synchronous requests](<../👥📨 Domain Messages/📨⏩ Message flows/Send Sync 🚀.md>) | [Domains 👥](<../👥 Domains/👥 Domain.md>) send requests and wait for the immediate response over an HTTPS request.
+    | 🐌 [Asynchronous messages](<../👥📨 Domain Messages/📨⏩ Message flows/Send Async 🐌.md>) | [Domains 👥](<../👥 Domains/👥 Domain.md>) send fire-and-forget messages and events. Any eventual answer, if expected, will arrive via another asynchronous message.
 
     ---
     <br/>
 
-
-1. **How do Synchronous Requests work?**
-
-    ![SyncRequest](<../👥 Domains/👥⏩ Domain flows/.📎 Assets/⚙️🚀 SyncRequest.png>)
-
-    ---
-    <br/>
-
-1. **How do Async Messages work?**
-
-    ![AsyncMessage](<../👥 Domains/👥⏩ Domain flows/.📎 Assets/⚙️🐌 AsyncMessage.png>)
-    
-    ---
-    <br/>
 
 
 1. **Is this compatible with W3C DIDcomm?**
@@ -244,7 +62,7 @@
     
     - Thus, the receiver is expected to store the envelope in a resilient queue and immediately return a successful HTTPS 200 response. 
     
-    - The receiver then processes the incoming envelopes asynchronously by consuming them from the queue - it discards invalid envelopes, and replies to valid ones by sending a new envelope to the sender.
+    - The receiver then processes the incoming envelopes [asynchronously](<../👥📨 Domain Messages/📨⏩ Message flows/Send Async 🐌.md>) by consuming them from the queue - it discards invalid envelopes, and replies to valid ones by sending a new envelope to the sender.
 
     ---
     <br/>
