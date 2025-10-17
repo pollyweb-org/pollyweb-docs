@@ -4,7 +4,7 @@
 -->
 
 
-# 🤵🐌🗄️ Bind @ Vault
+# 🤵🐌🗄️ Bound @ Vault
 
 * Used by
   * [🗄️⏩🧑‍🦰 Bind @ Vault](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Prompts 🤔/👉🗄️ Bind 🔗.md>) flow
