@@ -1,6 +1,6 @@
 # 🪣 Editors
 
-> Registration of [Editor 🧑‍💻 domains](<../../../50 🫥 Agent domains/Editors 🧑‍💻/🧑‍💻🫥 Editor agent.md>)
+> [Editor 🧑‍💻 domains](<../../../50 🫥 Agent domains/Editors 🧑‍💻/🧑‍💻🫥 Editor agent.md>)
 
 
 ## Example
@@ -21,10 +21,5 @@ Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 
 # Editors.yaml
 Key: Editor
 Children:
-    Binds: Editor >> Edits
+    Binds:
 ```
-
-| Link | Table | Details | Example
-|-|-|-|-
-|Children | [🪣 Edits](<🗄️🪣 Edits.md>) | `$editor.Binds`
-|
