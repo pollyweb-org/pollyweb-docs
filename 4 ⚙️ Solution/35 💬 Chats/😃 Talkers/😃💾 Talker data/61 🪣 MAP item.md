@@ -79,7 +79,7 @@
     ---
     <br/>
 
-1. **What's the syntax?**
+1. **What's the read syntax?**
 
     ```yaml
     # Comprehensive

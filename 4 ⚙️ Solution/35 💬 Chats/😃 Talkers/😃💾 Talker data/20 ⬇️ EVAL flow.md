@@ -167,4 +167,23 @@
     - INFO|$intro
     ```
 
+    ---
+    <br/>
+
+
+1. **How to change a single property in a $placeholder?**
   
+    ```yaml
+    # Create {a:1, b:2}
+    - EVAL >> $p: 
+        a: 1
+        b: 2
+
+    # Change to {a:1, b:x, c:z}
+    - EVAL|$p:
+        b: x
+        c: z
+    ```
+
+    ---
+    <br/>
