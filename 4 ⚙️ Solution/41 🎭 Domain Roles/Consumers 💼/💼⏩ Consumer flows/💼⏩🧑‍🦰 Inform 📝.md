@@ -1,7 +1,7 @@
 # 🤗⏩🧑‍🦰 Form 📝
 
 * Shows user instructions and allow inputs.
-    * [Brokers 🤵](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) may ask for [user confirmation  👍](<../../../35 💬 Chats/🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) the first time,
+    * [Brokers 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) may ask for [user confirmation  👍](<../../../35 💬 Chats/🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) the first time,
     * then switch to a [non-blocking info ℹ️](<../../../35 💬 Chats/🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>).
 
 * Related to:
@@ -18,7 +18,7 @@
 
 | [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
-| 🤵 [Broker](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Ready to order? [Yes, No] <br/> - your curator orders 🧚<br/>  - your payer pays the bill 💳  | > Yes
+| 🤵 [Broker](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | 🫥 Ready to order? [Yes, No] <br/> - your curator orders 🧚<br/>  - your payer pays the bill 💳  | > Yes
 |
 
 <br/>
@@ -58,11 +58,11 @@ Forms:
 
 | # | Call | Description
 |-|-|-
-|1|[💼🐌🤵 `Query@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Query.md>) | [Consumers 💼](<../💼🎭 Consumer role.md>) ask for [Schema Codes 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
-|2|[🤗⏩🧑‍🦰 Prompt 🤔](<../../Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) reject non-announced asks
-|3|[💼🐌🤵 `Inform@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Inform.md>) | [Consumers 💼](<../💼🎭 Consumer role.md>) inform the upcoming form 
-|4|[👥🚀🕸 `Form@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Form.md>) | [Brokers 🤵](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) get the form [Schema Codes 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
-|5|[🤗⏩🧑‍🦰 Prompt 🤔](<../../Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) inform the user on the steps
-|6|[💼🐌🤵 `Query@Broker`](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Query.md>) | [Consumers 💼](<../💼🎭 Consumer role.md>) ask for [Schema Codes 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
-|7|[🤵🐌🗄️ `Disclose@Broker`](<../../Vaults 🗄️/🗄️🅰️ Vault methods/🤵🐌🗄️ Disclose.md>) | [Brokers 🤵](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) ask [Vaults 🗄️](<../../Vaults 🗄️/🗄️🎭 Vault role.md>) to disclose
+|1|[💼🐌🤵 `Query@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Query.md>) | [Consumers 💼](<../💼🎭 Consumer role.md>) ask for [Schema Codes 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
+|2|[🤗⏩🧑‍🦰 Prompt 🤔](<../../Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) reject non-announced asks
+|3|[💼🐌🤵 `Inform@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Inform.md>) | [Consumers 💼](<../💼🎭 Consumer role.md>) inform the upcoming form 
+|4|[👥🚀🕸 `Form@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Form.md>) | [Brokers 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) get the form [Schema Codes 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
+|5|[🤗⏩🧑‍🦰 Prompt 🤔](<../../Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) inform the user on the steps
+|6|[💼🐌🤵 `Query@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Query.md>) | [Consumers 💼](<../💼🎭 Consumer role.md>) ask for [Schema Codes 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
+|7|[🤵🐌🗄️ `Disclose@Broker`](<../../Vaults 🗄️/🗄️🅰️ Vault methods/🤵🐌🗄️ Disclose.md>) | [Brokers 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) ask [Vaults 🗄️](<../../Vaults 🗄️/🗄️🎭 Vault role.md>) to disclose
 |

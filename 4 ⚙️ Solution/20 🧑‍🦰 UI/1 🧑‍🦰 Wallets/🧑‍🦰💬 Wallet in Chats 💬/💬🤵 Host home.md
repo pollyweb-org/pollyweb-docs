@@ -15,7 +15,7 @@
 ...
 | 🤗 [Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 Lost is maze? [Yes, No] 
 | | | > Broker 🤵 |
-| 🤵 [Broker](<../../3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 What do you need? <br/> - [ Home ] menu <br/> - [ Something else ] | > Home
+| 🤵 [Broker](<../../Brokers 🤵/🤵🤲 Broker helper.md>) | 🫥 What do you need? <br/> - [ Home ] menu <br/> - [ Something else ] | > Home
 | 🤗 [Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 What do you need? <br/> - [ Something ] <br> - [ Something else ]  | 
 ||
 
@@ -28,7 +28,7 @@
 
 | # | Call | Notes
 |-|-|-
-| 1 | [🧑‍🦰🐌🤵 `Join@Broker`](<../../3 🤵 Brokers/🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🧑‍🦰🐌🤵 Join.md>) | Open the context menu
-| 2 | [🤗⏩🧑‍🦰 Prompt 🤔](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | Ask the [Broker 🤵](<../../3 🤵 Brokers/🤵🤲 Broker helper.md>) to abandon the [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) 
+| 1 | [🧑‍🦰🐌🤵 `Join@Broker`](<../../Brokers 🤵/🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🧑‍🦰🐌🤵 Join.md>) | Open the context menu
+| 2 | [🤗⏩🧑‍🦰 Prompt 🤔](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | Ask the [Broker 🤵](<../../Brokers 🤵/🤵🤲 Broker helper.md>) to abandon the [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) 
 | 3 | [🧑‍🦰🐌🤗 `Home@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🤵🐌🤗 Home.md>) | Show the main menu
 |

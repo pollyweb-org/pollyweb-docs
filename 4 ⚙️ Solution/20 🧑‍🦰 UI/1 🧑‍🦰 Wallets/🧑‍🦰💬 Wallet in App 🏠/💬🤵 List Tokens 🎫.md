@@ -14,7 +14,7 @@
 
 | # | Call | Notes |
 |-|-|-
-| 1 | [🧑‍🦰🚀🤵 `Tokens@Broker`](<../../3 🤵 Brokers/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🧑‍🦰🚀🤵 Tokens.md>) | [Wallets 🧑‍🦰](<../🧑‍🦰🛠️ Wallet app.md>) get [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) [Brokers 🤵](<../../3 🤵 Brokers/🤵🤲 Broker helper.md>)
+| 1 | [🧑‍🦰🚀🤵 `Tokens@Broker`](<../../Brokers 🤵/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🧑‍🦰🚀🤵 Tokens.md>) | [Wallets 🧑‍🦰](<../🧑‍🦰🛠️ Wallet app.md>) get [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) [Brokers 🤵](<../../Brokers 🤵/🤵🤲 Broker helper.md>)
 ||
 
 <br/>
@@ -23,7 +23,7 @@
 
 1. **How is cache invalidated?**
 
-    Cache is invalidated with [🤵⏩🧑‍🦰 Update tokens](<../../3 🤵 Brokers/🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Tokens 🎫.md>).
+    Cache is invalidated with [🤵⏩🧑‍🦰 Update tokens](<../../Brokers 🤵/🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Tokens 🎫.md>).
 
     ---
     <br/>

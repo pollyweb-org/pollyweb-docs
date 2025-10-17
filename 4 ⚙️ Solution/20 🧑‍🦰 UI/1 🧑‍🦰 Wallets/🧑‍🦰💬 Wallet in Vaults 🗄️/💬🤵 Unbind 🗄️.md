@@ -11,16 +11,16 @@
 
 ## Chat
 
-> Implemented by [Pop Vault 🔆 handler](<../../3 🤵 Brokers/🤵🔆 Broker locators/🤵🔆 Pop Vault.md>).
+> Implemented by [Pop Vault 🔆 handler](<../../Brokers 🤵/🤵🔆 Broker locators/🤵🔆 Pop Vault.md>).
 
 | [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
 ...
 | 🗄️ [Vault](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) | ✅ Done. Your wallet is bound.
 | | | > Broker 🤵 |
-| 🤵 [Broker](<../../3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 What do you need? <br/> - [ Unbind ] vault <br/> - [ Something else ] | > Unbind
-| 🤵 [Broker](<../../3 🤵 Brokers/🤵🤲 Broker helper.md>) | 🫥 Which codes? [All, No] <br/> - [ ] Some schema code 🧩 <br/> - [ ] Some other schema code 🧩 | > All
-| 🤵 [Broker](<../../3 🤵 Brokers/🤵🤲 Broker helper.md>) | ✅ Codes unbound.
+| 🤵 [Broker](<../../Brokers 🤵/🤵🤲 Broker helper.md>) | 🫥 What do you need? <br/> - [ Unbind ] vault <br/> - [ Something else ] | > Unbind
+| 🤵 [Broker](<../../Brokers 🤵/🤵🤲 Broker helper.md>) | 🫥 Which codes? [All, No] <br/> - [ ] Some schema code 🧩 <br/> - [ ] Some other schema code 🧩 | > All
+| 🤵 [Broker](<../../Brokers 🤵/🤵🤲 Broker helper.md>) | ✅ Codes unbound.
 ||
 
 <br/>
@@ -33,8 +33,8 @@
 
 | # | Call | Notes
 |-|-|-
-| 1 | [🧑‍🦰🐌🤗 `Home@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🤵🐌🤗 Home.md>) | Call the [Broker 🤵](<../../3 🤵 Brokers/🤵🤲 Broker helper.md>) in a [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>)  with a [Host 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) 
-| 2 | [🤗⏩🧑‍🦰 `Prompt@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | Ask the [Broker 🤵](<../../3 🤵 Brokers/🤵🤲 Broker helper.md>) to remove the  [Bind 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
-| 3 | [🤵⏩🧑‍🦰 Update Binds 🔗](<../../3 🤵 Brokers/🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Binds 🔗.md>) | Asks the [Wallet 🧑‍🦰](<../🧑‍🦰🛠️ Wallet app.md>) to update the [Binds 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
-| 4 | [🤵🐌🗄️ `Unbound@Vault`](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/🤵🐌🗄️ Unbound.md>) | The [Broker 🤵](<../../3 🤵 Brokers/🤵🤲 Broker helper.md>) unbinds and informs the [Vault 🗄️](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)
+| 1 | [🧑‍🦰🐌🤗 `Home@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🤵🐌🤗 Home.md>) | Call the [Broker 🤵](<../../Brokers 🤵/🤵🤲 Broker helper.md>) in a [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>)  with a [Host 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) 
+| 2 | [🤗⏩🧑‍🦰 `Prompt@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | Ask the [Broker 🤵](<../../Brokers 🤵/🤵🤲 Broker helper.md>) to remove the  [Bind 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
+| 3 | [🤵⏩🧑‍🦰 Update Binds 🔗](<../../Brokers 🤵/🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Binds 🔗.md>) | Asks the [Wallet 🧑‍🦰](<../🧑‍🦰🛠️ Wallet app.md>) to update the [Binds 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
+| 4 | [🤵🐌🗄️ `Unbound@Vault`](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/🤵🐌🗄️ Unbound.md>) | The [Broker 🤵](<../../Brokers 🤵/🤵🤲 Broker helper.md>) unbinds and informs the [Vault 🗄️](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)
 |
