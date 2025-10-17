@@ -12,7 +12,7 @@
 
     |Format|Details
     |-|-
-    | `{$placeholder}`| The value of a [$placeholder 💾](<$Placeholder 💾.md>).
+    | `{$placeholder}`| The value of a [placeholder 💾](<$Placeholder 💾.md>).
     | `{/path/to/file}` | A file in the [Hoster ☁️](<../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) file system.
     | `{handler(args)}`| Logic in a code handler - e.g., python.
     | `{.helper(args)}`| Pre-built functions - e.g., `Sum()`
@@ -43,7 +43,7 @@
 
     | [Command ⌘](<../😃⚙️ Talker cmds/⌘ Command.md>) | Purpose
     |-|-
-    | ⬇️ [`EVAL`](<EVAL ⬇️ flow.md>) | To push an object into a [$placeholder 💾](<$Placeholder 💾.md>).
+    | ⬇️ [`EVAL`](<EVAL ⬇️ flow.md>) | To push an object into a [placeholder 💾](<$Placeholder 💾.md>).
     | ℹ️ [`INFO`](<../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) | To show the placeholder values.
     
     ---
@@ -75,7 +75,7 @@
 
     | [Command ⌘](<../😃⚙️ Talker cmds/⌘ Command.md>) | Purpose
     |-|-
-    | ℹ️ [`INFO`](<../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) | To show the [$placeholder 💾](<$Placeholder 💾.md>) values.
+    | ℹ️ [`INFO`](<../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) | To show the [placeholder 💾](<$Placeholder 💾.md>) values.
     | ↕️ [`QUANTITY`](<../../🤔 Prompts/🤔✏️ Prompt inputs/42 ↕️ QUANTITY prompt.md>) | To collect the number input.
     
 
