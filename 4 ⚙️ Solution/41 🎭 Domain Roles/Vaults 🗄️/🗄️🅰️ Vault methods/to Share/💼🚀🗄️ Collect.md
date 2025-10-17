@@ -24,10 +24,10 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From` | string | [Consumer 💼 domain](<../../../Consumers 💼/💼🎭 Consumer role.md>) name
-|| `To`| string | [Vault 🗄️ domain](<../../🗄️🎭 Vault role.md>) name
+|Header|`From` | string | [Consumer 💼](<../../../Consumers 💼/💼🎭 Consumer role.md>) from [`Consume@Consumer`](<../../../Consumers 💼/💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>)
+|| `To`| string | [Vault 🗄️](<../../🗄️🎭 Vault role.md>) from [`Consume@Consumer`](<../../../Consumers 💼/💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>)
 ||`Subject` | string | `Collect@Vault`
-|Body|`VaultKey` | uuid | Callback from [Consume@Consumer](<../../../Consumers 💼/💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>)
+|Body|`VaultKey` | uuid | Callback from [`Consume@Consumer`](<../../../Consumers 💼/💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>)
 |
 
 <br/>
