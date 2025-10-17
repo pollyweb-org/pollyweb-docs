@@ -2,6 +2,8 @@
 
 # 🪣 Datasets
 
+> Relates to [🪣📂 Tables folder](<../../55 👷 Build domains/📦 Hosteds/📦📄 Hosted files/🪣📂 Tables folder.md>)
+
 > Relates to [🪣🎭 Datasetter role](<../../41 🎭 Domain Roles/Datasetters 🪣/🪣🎭 Datasetter role.md>)
 
 > Relates to [🛢🤲 Databaser helper](<../../45 🤲 Helper domains/Databasers 🛢/🛢🤲 Databaser helper.md>)
@@ -22,7 +24,9 @@
 
     <br/>
 
-    Example of a Markdown resource pool called `Items.md`
+1. **How is a static Markdown dataset?**
+
+    Here's a Markdown dataset called `Items.md`
 
     ```yaml
     # 🪣 Items
