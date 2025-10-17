@@ -25,9 +25,9 @@ Consider the following excerpt from the [Flight check in 🤝 use case](<../../.
 
 |#| Step | Purpose
 |-|-|-
-|1| [💼🐌🤵 `Query@Broker`](<../../3 🤵 Brokers/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Query.md>) | Ask for user data in specific [Schema Codes 🧩](<../../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>)
-|2| [👥🚀🕸 `Queryable@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Queryable.md>) | Match user [Bind 🔗](<../../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) with usable [Trust 👍](<../../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) paths
-|3| [👥🚀🕸 `Translate@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>) | Translate the [Schema Codes 🧩](<../../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>)
+|1| [💼🐌🤵 `Query@Broker`](<../../3 🤵 Brokers/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Query.md>) | Ask for user data in specific [Schema Codes 🧩](<../../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>)
+|2| [👥🚀🕸 `Queryable@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Queryable.md>) | Match user [Bind 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) with usable [Trust 👍](<../../../40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) paths
+|3| [👥🚀🕸 `Translate@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>) | Translate the [Schema Codes 🧩](<../../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>)
 |4| [🤗⏩🧑‍🦰 Prompt 🤔](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../../3 🤵 Brokers/🤵🤲 Broker helper.md>) ask users to share their [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
 |5| [🤵🐌📣 `Share@Notifier`](<../../2 📣 Notifiers/📣🅰️ Notifier methods/4 🎫 Tokens/2 🤵🐌📣 Share.md>) | Proxy the share order to the [Wallet 🧑‍🦰 app](<../🧑‍🦰🛠️ Wallet app.md>)
 |6| [🤵🐌💼 `Receive@Consumer`](<../../../41 🎭 Domain Roles/Consumers 💼/💼🅰️ Consumer methods/🧑‍🦰🐌💼 Receive.md>) | Send the shared offline [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)

@@ -48,6 +48,6 @@ Code: airlines.any-igo.dom/SSR/WCH:1
 |-|-|-
 | `Issuer` | string | [Issuer 🎴 domain](<../🎴🎭 Issuer role.md>) name
 | `TokenID`| string | Resource key on the [Issuer 🎴](<../🎴🎭 Issuer role.md>) 
-|  `Code`| string | [Schema Code 🧩](<../../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>)
+|  `Code`| string | [Schema Code 🧩](<../../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>)
 | ... | ... | Other [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) fields 
 |
