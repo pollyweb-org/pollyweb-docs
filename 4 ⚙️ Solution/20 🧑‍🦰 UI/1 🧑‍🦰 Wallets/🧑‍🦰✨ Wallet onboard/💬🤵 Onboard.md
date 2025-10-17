@@ -10,7 +10,7 @@
 
 ## Chat
 
-| [Domain](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../🧑‍🦰🛠️ Wallet app.md>)
+| [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
 | | | Install [🧑‍🦰 Wallet](<../🧑‍🦰🛠️ Wallet app.md>) |
 | 🤵 [Broker](<../../3 🤵 Brokers/🤵🤲 Broker helper.md>) | 😃 Hi! What's your region? <br/> - [ 🇬🇧 ] United Kingdom <br> - ...  | > 🇬🇧 

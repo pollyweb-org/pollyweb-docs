@@ -8,7 +8,7 @@
 
 ## Chat
 
-| [Domain](<../../../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)
+| [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
 | | | > Token 🎫 |
 | | | > Broker 🤵 |

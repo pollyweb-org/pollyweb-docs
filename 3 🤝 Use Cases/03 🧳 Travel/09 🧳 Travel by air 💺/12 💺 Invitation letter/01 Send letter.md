@@ -1,7 +1,7 @@
 Send an invitation letter before a trip
 --
 
-| [Domain](<../../../../4 ⚙️ Solution/40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)
+| [Domain](<../../../../4 ⚙️ Solution/40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)
 | - | - | -
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 😃 Hi! What do you need? | `invitation`<br/>`letter`
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | 💬 Is this what you mean? [Yes, No] <br/> - you're  hosting foreign guests<br/> - they need a visa to travel <br/> - visa requires an invitation letter <br/> - you need to send it to them. | > Yes

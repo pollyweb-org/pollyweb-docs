@@ -7,7 +7,7 @@
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 
 * [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) 
-    * request translation for [Schema Codes 🧩](<../../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) and [domains 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>),
+    * request translation for [Schema Codes 🧩](<../../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) and [domains 👥](<../../../40 👥 Domains/👥 Domain.md>),
     * obtained [domain Manifests 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest.md>).
 * Used by:
     * [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Prompts 🤔/👉💼 Share Bind 🔗.md>) flow
@@ -33,10 +33,10 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header| `From`    | string | The name of the [domain 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) asking
+| Header| `From`    | string | The name of the [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) asking
 |       | `To`      | string | [Graph 🕸 domain](<../🕸🤲 Graph helper.md>) name
 |       | `Subject` | string | `Translate@Graph`
-|Body   | `Domains`     | string[]  | The [domains 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) to translate
+|Body   | `Domains`     | string[]  | The [domains 👥](<../../../40 👥 Domains/👥 Domain.md>) to translate
 |       | `Codes`       | string[]  | The [Schema Codes 🧩](<../../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) to translate
 |
 
@@ -56,10 +56,10 @@ Codes:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Top    | `Domains`     | object[]  | List of [domain 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) objects
+|Top    | `Domains`     | object[]  | List of [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) objects
 |       | `Codes`       | object[]  | List of [Schema Code 🧩](<../../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) objects
-|Domain | `Domain`      | string    | The [domain 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) name
-|       | `Translation` | string    | The [domain 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) title
+|Domain | `Domain`      | string    | The [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) name
+|       | `Translation` | string    | The [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) title
 |Code   | `Code`        | string    | The [Schema Code 🧩](<../../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>)
 |       | `Translation` | string    | The [Schema Code 🧩](<../../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) title
 |

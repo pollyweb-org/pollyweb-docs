@@ -9,7 +9,7 @@
 
 | Property | Type | Notes
 |-|-|-
-| [`About` 🧩](<🧩 ABOUT.md>) | object | [Domain 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) identification
+| [`About` 🧩](<🧩 ABOUT.md>) | object | [Domain 👥](<../../../40 👥 Domains/👥 Domain.md>) identification
 | [`Datasets` 🧩](<🧩 OFFER.md>)  | array | Optional services offered
 | [`Trusts` 🧩](<🧩 TRUST.md>)   | array | Optional [Trusted 👍](<../../../30 🧩 Data/Trusts 👍/👍 Domain Trust.md>) domains and roles
 | [`Codes` 🧩](<🧩 CODE.md>)     | array | Optional [Schema Codes 🧩](<../../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) defined

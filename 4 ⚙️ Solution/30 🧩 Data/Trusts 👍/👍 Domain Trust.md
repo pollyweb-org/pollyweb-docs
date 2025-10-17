@@ -6,7 +6,7 @@
 1. **How do domains avoid interacting with bad actors?**
 
     The NLWeb implements a domain trust framework that allows:
-    * [sender domains 📤](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) to know if they can [trust 👍](<👍 Domain Trust.md>) a [receiver domain 📥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) with a specific [Schema Code 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) path - e.g. `nlweb.dom/PERSONA/*`, and vice-versa.
+    * [sender domains 📤](<../../40 👥 Domains/👥 Domain.md>) to know if they can [trust 👍](<👍 Domain Trust.md>) a [receiver domain 📥](<../../40 👥 Domains/👥 Domain.md>) with a specific [Schema Code 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) path - e.g. `nlweb.dom/PERSONA/*`, and vice-versa.
     
     For example:
       * `any-buyer.com` may accept payment requests 
@@ -46,7 +46,7 @@
 
 1. **How to trust an unknown domain trusted by others?**
     
-    A [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) may trust an unknown domain on a specific subject if there’s a [trust 👍](<👍 Domain Trust.md>) third domain advocating on behalf of the unknown one;   
+    A [domain 👥](<../../40 👥 Domains/👥 Domain.md>) may trust an unknown domain on a specific subject if there’s a [trust 👍](<👍 Domain Trust.md>) third domain advocating on behalf of the unknown one;   
     * e.g., `any-buyer.com` accepts payment requests from all domains 
     * whose payment requests are also [trust 👍](<👍 Domain Trust.md>) by `any-nation.com`. 
   
@@ -123,7 +123,7 @@
 1. **How are immediate security bans imposed?**
 
     To protect themselves from harmful actors,
-    *  [domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>)s may inherit all revokes from [Firewall 🔥 domains](<../../45 🤲 Helper domains/Firewalls 🔥/🔥🤲 Firewall helper.md>) to immediately block any new threat, regardless of any direct or indirect [trust 👍](<👍 Domain Trust.md>) to the harmful actor;
+    *  [domains 👥](<../../40 👥 Domains/👥 Domain.md>)s may inherit all revokes from [Firewall 🔥 domains](<../../45 🤲 Helper domains/Firewalls 🔥/🔥🤲 Firewall helper.md>) to immediately block any new threat, regardless of any direct or indirect [trust 👍](<👍 Domain Trust.md>) to the harmful actor;
     
     e.g., if `any-firewall.dom` revokes `any-threat.com`, 
     *  and `any-domain.dom` inherits [Trusts 👍](<👍 Domain Trust.md>) from `any-firewall.dom`, 
@@ -177,7 +177,7 @@
 
 1. **How can domains know when another domain lost trust in them?**
 
-    [Domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) can rely on [Graph 🕸 domain helpers](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>):
+    [Domains 👥](<../../40 👥 Domains/👥 Domain.md>) can rely on [Graph 🕸 domain helpers](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>):
     - these can detect trust removals and notify affected [subscriber 🔔 domains](<../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>);
     - e.g., `any-graph.dom` may inform `any-domain.dom` whenever `any-seller.dom` explicitly adds or removes a trust to `any-domain.dom`.
 
@@ -187,7 +187,7 @@
 
 1. **How can domains know when indirect trust changes affect them?**
 
-    [Domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) can rely on [Graph 🕸 domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>):
+    [Domains 👥](<../../40 👥 Domains/👥 Domain.md>) can rely on [Graph 🕸 domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>):
     - these can monitor for changes in specific [Trust 👍](<👍 Domain Trust.md>) paths that may affect an indirect [Trust 👍](<👍 Domain Trust.md>) relationship;
     - a typical scenario is an inter-governmental agreement where two entities from different countries trust each other indirectly because their government bodies trust each other.
 

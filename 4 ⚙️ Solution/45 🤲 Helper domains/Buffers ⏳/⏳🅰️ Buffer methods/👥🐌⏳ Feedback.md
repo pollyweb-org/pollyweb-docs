@@ -26,10 +26,10 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From` | uuid | [Domain 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) name of the [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message.md>) receiver 
+|Header|`From` | uuid | [Domain 👥](<../../../40 👥 Domains/👥 Domain.md>) name of the [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message.md>) receiver 
 ||`To`| string | Sender's [Buffer ⏳ helper domain](<../⏳🤲 Buffer helper.md>) name
 ||`Subject`| string | `Feedback@Buffer`
-|Body| `Sender`| string | [Domain 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>) name of the [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message.md>) sender
+|Body| `Sender`| string | [Domain 👥](<../../../40 👥 Domains/👥 Domain.md>) name of the [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message.md>) sender
 ||`Correlation`| uuid | Correlation ID of the affected [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message.md>)
 ||`Status`| string | `Discarded`
 ||`Reason`| string | Reason for the status code

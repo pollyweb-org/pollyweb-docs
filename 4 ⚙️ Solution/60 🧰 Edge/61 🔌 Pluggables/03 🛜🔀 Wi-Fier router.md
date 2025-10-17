@@ -23,7 +23,7 @@
 
     The [💬 Chat](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) may look similar to the following.
 
-    | [Domain](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Prompt](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)
     |-|-|-
     | | | 🔆 [scan](<../../25 🔆 Locators/Locators 🔆/🔆⏩ Locator flows/🧑‍🦰✨ Wallet QR scan.md>)
     | 🔎 [Finder](<../../50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) | ⓘ Any Wand (4.3 ⭐)  [+] || The [Broker 🤵 domain](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) informed the user.
