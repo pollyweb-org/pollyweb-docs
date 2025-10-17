@@ -5,14 +5,14 @@
 
 1. **What is a Mingler?**
 
-    A Mingler 📇 is a user [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) that networks with other [🧑‍🦰Wallets](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) via their Minglers?
+    A Mingler 📇 is a user [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) that networks with other [🧑‍🦰Wallets](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) via their Minglers?
 
     ---
 
 1. **What are the responsibilities of Mingler?**
 
     Mingler responsibilities include:
-    - Keep a list of connected [🧑‍🦰Wallets](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) and send them messages;
+    - Keep a list of connected [🧑‍🦰Wallets](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) and send them messages;
     - Fan out incoming interactions to the user's desired communication channels:
         - e.g., email, phones, WhatsApp, phone recording;
         - this allows users to control how to receive messages and calls.
@@ -28,8 +28,8 @@
 
 1. **Couldn't these responsibilities be handled by a Broker?**
 
-    [Brokers 🤵](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) see [Wallet apps 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) as unique entities;
-    - while Minglers 📇 can associate and disassociate multiple entry points to the same [Wallet app 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>);
+    [Brokers 🤵](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) see [Wallet apps 🧑‍🦰](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) as unique entities;
+    - while Minglers 📇 can associate and disassociate multiple entry points to the same [Wallet app 🧑‍🦰](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>);
     - this allows users to be forgotten and be perceived differently by different groups.
 
     ---

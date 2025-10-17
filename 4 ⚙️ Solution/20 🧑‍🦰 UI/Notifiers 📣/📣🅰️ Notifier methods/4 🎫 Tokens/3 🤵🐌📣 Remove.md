@@ -1,7 +1,7 @@
 
 # 🤵🐌📣 Revoked @ [Notifier](<../../📣👥 Notifier domain.md>)
 
-> Used in [🧑‍🦰👉🤵 Remove token](<../../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Tokens 🎫/💬🤵 Remove 🎫.md>).
+> Used in [🧑‍🦰👉🤵 Remove token](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Tokens 🎫/💬🤵 Remove 🎫.md>).
 
 <br/>
 
@@ -21,6 +21,6 @@ Body:
 |Header|`From`|string | [Broker 🤵 domain](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) name
 ||`To`|string| [Notifier 📣 domain](<../../📣👥 Notifier domain.md>) name
 ||`Subject`|string|`Remove@Broker`
-|Body  |`WalletID`| uuid | [Wallet 🧑‍🦰](<../../../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) ID from [`Onboard@Broker`](<../1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
+|Body  |`WalletID`| uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) ID from [`Onboard@Broker`](<../1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
 ||`Path`    |string| Path from [`Save@Notifier`](<1 🤵🐌📣 Save.md>)
 |

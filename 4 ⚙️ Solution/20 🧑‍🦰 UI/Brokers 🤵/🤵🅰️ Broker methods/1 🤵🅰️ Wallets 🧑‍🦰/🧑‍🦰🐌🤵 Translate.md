@@ -5,9 +5,9 @@
 
 # 🧑‍🦰🐌🤵 Translate @ [Broker](<../../🤵🤲 Broker helper.md>)
 
-> The user requests the [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) to change the language in the [Wallet 🧑‍🦰 app](<../../../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>).
+> The user requests the [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) to change the language in the [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
 
-> Used in: [🧑‍🦰👉🤵 Translate @ Wallet](<../../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in App 🏠/💬🤵 Translate.md>).
+> Used in: [🧑‍🦰👉🤵 Translate @ Wallet](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/💬🤵 Translate.md>).
 
 <br/>
 
@@ -26,7 +26,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From` | uuid | [Wallet 🧑‍🦰](<../../../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)  from [`Onboard@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
+|Header|`From` | uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  from [`Onboard@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
 ||`To`| string | [Broker 🤵](<../../🤵🤲 Broker helper.md>) from [`Onboard@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
 ||`Subject`| string | `Translate@Broker`
 |Body|`Language`| enum | ISO language code.

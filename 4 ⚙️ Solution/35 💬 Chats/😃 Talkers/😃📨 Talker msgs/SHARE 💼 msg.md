@@ -10,9 +10,9 @@
     * is a message [Command ⌘](<../😃⚙️ Talker cmds/⌘ Command.md>) 
     * that asks for user data in [Schema Codes 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
     * triggering the following flows:
-      * [🧑‍🦰👉💼 Share Bind @ Wallet](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Prompts 🤔/👉💼 Share Bind 🔗.md>)
-      * [🧑‍🦰👉💼 Share Token @ Wallet](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Prompts 🤔/👉💼 Share Token 🎫.md>)
-      * [🧑‍🦰👉💼 Share Token+ID @ Wallet](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in Prompts 🤔/👉💼 Share Token+ID.md>)
+      * [🧑‍🦰👉💼 Share Bind @ Wallet](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Prompts 🤔/👉💼 Share Bind 🔗.md>)
+      * [🧑‍🦰👉💼 Share Token @ Wallet](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Prompts 🤔/👉💼 Share Token 🎫.md>)
+      * [🧑‍🦰👉💼 Share Token+ID @ Wallet](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Prompts 🤔/👉💼 Share Token+ID.md>)
 
     ---
     <br/>
@@ -65,7 +65,7 @@
 
 1. **What does a [Chat 💬](<../../💬 Chats/💬 Chat.md>) look like?**
 
-    | [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)
+    | [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
     | 💼 [Consumer](<../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) | ℹ️ Tell me your name.
     | 🧢 [Persona](<../../../50 🫥 Agent domains/Personas 🧢/🧢🫥 Persona agent.md>) | 🫥 Share social name? [No] <br/> - [ Personal ] 🧑‍🦰 <br/> - [ Work ] 💼       | > Personal

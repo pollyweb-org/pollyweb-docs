@@ -4,11 +4,11 @@
 
 # 🧑‍🦰🚀🤵 Chats @ Broker
 
-> The [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) lists the [Chats 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) of a [Wallet 🧑‍🦰 app](<../../../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>).
+> The [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) lists the [Chats 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) of a [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
 
 > Used in:
-> <br/>• [🧑‍🦰👉🤵 Set language @ Wallet](<../../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in App 🏠/💬🤵 Translate.md>)
-> <br/>• [🧑‍🦰👉🤵 List chats @ Wallet](<../../../1 🧑‍🦰 Wallets/🧑‍🦰💬 Wallet in App 🏠/💬🤵 List Chats 💬.md>)
+> <br/>• [🧑‍🦰👉🤵 Set language @ Wallet](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/💬🤵 Translate.md>)
+> <br/>• [🧑‍🦰👉🤵 List chats @ Wallet](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/💬🤵 List Chats 💬.md>)
 > <br/>• [🤵⏩🗄️ Update chats @ Broker](<../../🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Chats 💬.md>)
 
 
@@ -26,7 +26,7 @@ Body:
 
 | Object | Property | Type  | Description
 |-|-|-|-
-| Header    | `From`| uuid  | [Wallet 🧑‍🦰](<../../../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)  from [`Onboard@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
+| Header    | `From`| uuid  | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  from [`Onboard@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
 |           | `To`  | string| [Broker 🤵](<../../🤵🤲 Broker helper.md>) from [`Onboard@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
 |           | `Subject`| string|  `Chats@Broker`
 |
