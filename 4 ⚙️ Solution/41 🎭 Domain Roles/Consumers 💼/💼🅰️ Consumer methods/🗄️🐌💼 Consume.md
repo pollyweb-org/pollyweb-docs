@@ -37,7 +37,7 @@ Body:
 | `ChatID` | uuid | [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID
 | `Code`| string |  [Schema Code 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 | `ConsumerKey` | uuid | From [`Query@`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Query.md>) and [`Invite@`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Invite.md>)
-| `VaultKey` | uuid | Callback to [`Collect@Vault`](<../../Vaults 🗄️/🗄️🅰️ Vault methods/💼🚀🗄️ Collect.md>)
+| `VaultKey` | uuid | Callback to [`Collect@Vault`](<../../Vaults 🗄️/🗄️🅰️ Vault methods/to Share/💼🚀🗄️ Collect.md>)
 | `TTL` | timestamp| Callback deadline
 |
 
@@ -49,7 +49,7 @@ Body:
 1. **Why a cache?**
 
     `Async` A caching strategy avoids synchronous collection timeouts.
-    * When [Consumer 💼 domains](<../💼🎭 Consumer role.md>)  call [`Collect@Vault`](<../../Vaults 🗄️/🗄️🅰️ Vault methods/💼🚀🗄️ Collect.md>), [Vault 🗄️ domains](<../../Vaults 🗄️/🗄️🎭 Vault role.md>) are expected to gather and cache the data and only send the [`Consume@Consumer`](<🗄️🐌💼 Consume.md>) message when the data is cached and ready to be collected.
+    * When [Consumer 💼 domains](<../💼🎭 Consumer role.md>)  call [`Collect@Vault`](<../../Vaults 🗄️/🗄️🅰️ Vault methods/to Share/💼🚀🗄️ Collect.md>), [Vault 🗄️ domains](<../../Vaults 🗄️/🗄️🎭 Vault role.md>) are expected to gather and cache the data and only send the [`Consume@Consumer`](<🗄️🐌💼 Consume.md>) message when the data is cached and ready to be collected.
     * The Vault's cache duration is expressed in the `TTL` field.
 
     ---
