@@ -22,12 +22,12 @@
     |-|-|-
     |1| `Hi`     | The user initiates an interaction with their [Wallet 🧑‍🦰 app](<../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) - e.g., by scanning a QR and sending the [QR Locator 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) to the their [Broker 🤵 domain](<🤵🤲 Broker helper.md>).
     |2| `Hi-A`   | The [user's Broker 🤵 domain](<🤵🤲 Broker helper.md>) opens a new [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) with the [Locator's Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>), obfuscating the user (e.g., ABC).
-    |3| `Bye-A`  | The [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) runs its workflow for the anonymous user (e.g., ABC), and finishes it with a goodbye [Message 📨](<../../30 🧩 Data/📨 Messages/📨 Message.md>).
-    |4| `Bye`    | The [user's Broker 🤵 domain](<🤵🤲 Broker helper.md>) forwards the [Messages 📨](<../../30 🧩 Data/📨 Messages/📨 Message.md>) to the [user's Notifier 📣 domain](<../2 📣 Notifiers/📣👥 Notifier domain.md>), to be pushed to the [Wallet 🧑‍🦰 app](<../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>).
+    |3| `Bye-A`  | The [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) runs its workflow for the anonymous user (e.g., ABC), and finishes it with a goodbye [Message 📨](<../../30 🧩 Data/Messages 📨/📨 Message.md>).
+    |4| `Bye`    | The [user's Broker 🤵 domain](<🤵🤲 Broker helper.md>) forwards the [Messages 📨](<../../30 🧩 Data/Messages 📨/📨 Message.md>) to the [user's Notifier 📣 domain](<../2 📣 Notifiers/📣👥 Notifier domain.md>), to be pushed to the [Wallet 🧑‍🦰 app](<../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>).
     |A| `Hi`     | The user initiates a second interaction with the same [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>).
     |B| `Hi-X`   | The [user's Broker 🤵 domain](<🤵🤲 Broker helper.md>) opens a new [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) with the same [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>), obfuscating again the user (e.g., XYZ).
     |C| `Bye-X` | The [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) runs its workflow for the new anonymous user (e.g., XYZ), without realizing that it's the same user as before.
-    |D| `Bye`   | The [user's Broker 🤵 domain](<🤵🤲 Broker helper.md>) forwards the [Messages 📨](<../../30 🧩 Data/📨 Messages/📨 Message.md>) again.
+    |D| `Bye`   | The [user's Broker 🤵 domain](<🤵🤲 Broker helper.md>) forwards the [Messages 📨](<../../30 🧩 Data/Messages 📨/📨 Message.md>) again.
 
     ---
     <br/>
@@ -37,7 +37,7 @@
     [Broker 🤵 domains](<🤵🤲 Broker helper.md>) give users the right to be forgotten by defaulting to anonymous browsing; 
     * i.e., whenever a user returns to a [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>), the [Broker 🤵 domain](<🤵🤲 Broker helper.md>) connects them using a different untraceable ID. 
     
-    * For a [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) to identity a user across sessions, the user needs to explicitly accept a [Bind 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) from the [Host's Vault 🗄️ role](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) or a [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) from the [Host's Issuer 🎴 role](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>).
+    * For a [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) to identity a user across sessions, the user needs to explicitly accept a [Bind 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) from the [Host's Vault 🗄️ role](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) or a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) from the [Host's Issuer 🎴 role](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>).
 
     ---
     <br/>
@@ -98,12 +98,12 @@
     | | [🧑‍🦰🐌 Join](<🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🧑‍🦰🐌🤵 Join.md>) | Ask for the [Broker 🤵](<🤵🤲 Broker helper.md>) to join a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) 
     |[`🔗 Binds`](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>)| [🧑‍🦰🚀 Binds](<🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🧑‍🦰🚀🤵 Binds.md>) | List the [Binds 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) of a [Wallet 🧑‍🦰 app](<../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)
     || [🗄️🐌 Bindable](<🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>) | [Vaults 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) offer to bind [Schema Codes 🧩](<../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>)
-    | [`🎫 Tokens`](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) | [🧑‍🦰🚀 Tokens](<🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🧑‍🦰🚀🤵 Tokens.md>) | List of [Tokens 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) of a [Wallet 🧑‍🦰 app](<../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)
-    || [🎴🐌 Offer](<🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>) | [Issuers 🎴](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) offer an issued [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) 
-    || [🧑‍🦰🐌 Saved](<🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🧑‍🦰🐌🤵 Saved.md>) | A [Wallet 🧑‍🦰](<../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) saved a [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) locally
-    || [🎴🐌 Revise](<🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Revise.md>) | Update the status of a [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>)
-    | [`💼 Share`](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) | [💼🐌 Query](<🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Query.md>) | Return user [Binds 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) and [Tokens 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>)
-    || [💼🚀 Status](<🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🚀🤵 Status.md>) | Return the status of a [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>)
+    | [`🎫 Tokens`](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) | [🧑‍🦰🚀 Tokens](<🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🧑‍🦰🚀🤵 Tokens.md>) | List of [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) of a [Wallet 🧑‍🦰 app](<../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>)
+    || [🎴🐌 Offer](<🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>) | [Issuers 🎴](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) offer an issued [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) 
+    || [🧑‍🦰🐌 Saved](<🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🧑‍🦰🐌🤵 Saved.md>) | A [Wallet 🧑‍🦰](<../1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) saved a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) locally
+    || [🎴🐌 Revise](<🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Revise.md>) | Update the status of a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
+    | [`💼 Share`](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) | [💼🐌 Query](<🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Query.md>) | Return user [Binds 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) and [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
+    || [💼🚀 Status](<🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🚀🤵 Status.md>) | Return the status of a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
 
     <!--
     |Pay| [💵🐌🤵 Charge](<🤵🅰️ Broker methods/7 🤵🅰️ Pay/💵🐌🤵 Charge.md>)

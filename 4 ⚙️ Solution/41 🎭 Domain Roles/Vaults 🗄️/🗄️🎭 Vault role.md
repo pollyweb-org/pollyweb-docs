@@ -228,7 +228,7 @@
 
 1. **What API methods does a Vault exposes?**
    
-    | [From 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Subject 📨](<../../30 🧩 Data/📨 Messages/📨 Message.md>) | Description |
+    | [From 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) | [Subject 📨](<../../30 🧩 Data/Messages 📨/📨 Message.md>) | Description |
     |-|--------|-------------|
     | [🤵 Broker](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>) | [`Bound`](<🗄️🅰️ Vault methods/🤵🐌🗄️ Bound.md>) | A [Bind 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) was added |
     |  | [`Unbound`](<🗄️🅰️ Vault methods/🤵🐌🗄️ Unbound.md>) | A [Bind 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) was removed |

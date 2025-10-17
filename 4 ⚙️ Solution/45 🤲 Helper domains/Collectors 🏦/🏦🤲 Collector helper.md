@@ -73,7 +73,7 @@
 
     Yes. Here's a possible configuration for [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) admins:
     - add [🔆 NFC/QR Locators](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) on both sides of the counter;
-    - issue cashier [Tokens 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) from your [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>);
+    - issue cashier [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) from your [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>);
     - create check-out workflows for cashier and customers.
 
     Set the cashier workflow as follows:

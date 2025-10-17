@@ -44,5 +44,5 @@ Messages:
 | Top | `Poll` | uuid | Poll ID for [`Confirm@Buffer`](<🔔🚀⏳ Confirm.md>)
 ||`Messages` | array | List of `Message` objects
 | Message | `ID` | uuid | Message ID for [`Confirm@Buffer`](<🔔🚀⏳ Confirm.md>)
-|| `Content` | string | [Message 📨](<../../../30 🧩 Data/📨 Messages/📨 Message.md>) encrypted with the [DKIM 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) of the [Subscriber 🔔 domain](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>) and encoded in Base64
+|| `Content` | string | [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message.md>) encrypted with the [DKIM 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) of the [Subscriber 🔔 domain](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>) and encoded in Base64
 |

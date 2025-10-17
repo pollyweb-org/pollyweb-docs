@@ -9,8 +9,8 @@
 
 | Persona |  [Chat 💬](<../../../4 ⚙️ Solution/35 💬 Chats/💬 Chats/💬 Chat.md>) | [Agents 🫥](<../../../4 ⚙️ Solution/50 🫥 Agent domains/$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>)
 |-|-|-
-| 🧑‍🦰   `🌐 Web`   | [Book table 🗓️](<31 🌐 Web: Book table 🗓️.md>) | [`🗓️ Scheduler`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Schedulers 🗓️/$ 🗓️🫥 Scheduler agent.md>) [`🧢 Persona`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Personas 🧢/🧢🫥 Persona agent.md>) [`🎫 Token`](<../../../4 ⚙️ Solution/30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) 
-|🧑‍🦰   `🚪 Door`  | [Booked 🗓️](<41 🚪 Door: Booked 🗓️.md>) | [`🎫 Token`](<../../../4 ⚙️ Solution/30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) 
+| 🧑‍🦰   `🌐 Web`   | [Book table 🗓️](<31 🌐 Web: Book table 🗓️.md>) | [`🗓️ Scheduler`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Schedulers 🗓️/$ 🗓️🫥 Scheduler agent.md>) [`🧢 Persona`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Personas 🧢/🧢🫥 Persona agent.md>) [`🎫 Token`](<../../../4 ⚙️ Solution/30 🧩 Data/Tokens 🎫/🎫 Token.md>) 
+|🧑‍🦰   `🚪 Door`  | [Booked 🗓️](<41 🚪 Door: Booked 🗓️.md>) | [`🎫 Token`](<../../../4 ⚙️ Solution/30 🧩 Data/Tokens 🎫/🎫 Token.md>) 
 |           | [Walk in empty](<42 🚪 Door: Walk in empty.md>) | [`🧢 Persona`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Personas 🧢/🧢🫥 Persona agent.md>)
 |           | [Walk in busy](<43 🚪 Door: Walk in busy.md>) | [`🧢 Persona`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Personas 🧢/🧢🫥 Persona agent.md>)
 |           | [Walk in full](<44 🚪 Door: Walk in full.md>) | [`🔎 Finder`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>)
@@ -24,7 +24,7 @@
 |            | [Pay group 👨‍👨‍👦‍👦](<72 💳 Pay: Pay group 👨‍👨‍👦‍👦.md>) | [`💳 Payer`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) 
 |            | [Pay seat 🪑](<73 💳 Pay: Pay own 🪑.md>) | [`💳 Payer`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) [`🧢 Persona`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Personas 🧢/🧢🫥 Persona agent.md>)
 |            | [Split bill ✂️](<74 💳 Pay: Split bill ✂️.md>) | [`💳 Payer`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) [`🧢 Persona`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Personas 🧢/🧢🫥 Persona agent.md>)
-|`🧑‍🍳 Chef` |[Start shift](<81 🧑‍🍳 Chef: Start shift 🪪.md>) | [`🎫 Token`](<../../../4 ⚙️ Solution/30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) [`🆔 Identity`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>)
+|`🧑‍🍳 Chef` |[Start shift](<81 🧑‍🍳 Chef: Start shift 🪪.md>) | [`🎫 Token`](<../../../4 ⚙️ Solution/30 🧩 Data/Tokens 🎫/🎫 Token.md>) [`🆔 Identity`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>)
 ||[Prepare food 🥘](<82 🧑‍🍳 Chef: Prepare food 🥘.md>)
 ||[Prepare drinks 🥂](<83 🧑‍🍳 Chef: Prepare drinks 🥂.md>)
 |`💁‍♀️ Staff`|[Deliver items 🥘](<91 💁‍♀️ Staff: Deliver items 🥘.md>)

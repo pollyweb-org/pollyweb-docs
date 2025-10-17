@@ -18,8 +18,8 @@
 
     | Schema Code | Purpose |
     |-|-
-    | [`.MSG` 🧩](<../📨 Messages/📨🧩 Message schemas/🧩 MSG.md>) | Schema of [Messages 📨](<../📨 Messages/📨 Message.md>) 
-    | [`.TOKEN` 🧩](<../3 🎫 Tokens/🧩 Token schemas/🧩 TOKEN.md>) | Schema of [Tokens 🎫](<../3 🎫 Tokens/🎫 Token.md>)
+    | [`.MSG` 🧩](<../Messages 📨/📨🧩 Message schemas/🧩 MSG.md>) | Schema of [Messages 📨](<../Messages 📨/📨 Message.md>) 
+    | [`.TOKEN` 🧩](<../Tokens 🎫/🧩 Token schemas/🧩 TOKEN.md>) | Schema of [Tokens 🎫](<../Tokens 🎫/🎫 Token.md>)
     | [`unicode.org/FLAG` 🧩](<../../../8 📜 Manifests/👥 any-igo.dom/📜 unicode.any-igo.dom.md>) | Flags for country [Prompts 🤔](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>)
     | [`locale.org/TERRITORY` 🧩](<../../../8 📜 Manifests/👥 any-igo.dom/📜 locale.any-igo.dom.md>) | Country names for [Prompts 🤔](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>)
     | [`standards.org/639-1` 🧩](<../../../8 📜 Manifests/👥 any-igo.dom/📜 standards.any-igo.dom.md>) | Language codes (e.g., `en-us`)
@@ -70,7 +70,7 @@
     | Expectation | Behavior |
     |-|-
     | [📜 Manifest](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>)  | When a version is omitted in the [Schema Code 🧩](<🧩 Schema Code.md>) in its [domain Manifest 📜](<../../40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>) definition, then it is assumed to be `1.0`.
-    | [📨 Message](<../📨 Messages/📨 Message.md>) | When a version is omitted in a [domain Messages 📨](<../📨 Messages/📨 Message.md>), then it is also assumed to be `1.0`.
+    | [📨 Message](<../Messages 📨/📨 Message.md>) | When a version is omitted in a [domain Messages 📨](<../Messages 📨/📨 Message.md>), then it is also assumed to be `1.0`.
     | [🕸 Graph](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) | When a version is omitted when calling [`Schema@Graph`](<../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema.md>), then the [🕸 Graph](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) returns the latest version.
 
     ---
@@ -211,7 +211,7 @@
         * defined in [`.MANIFEST/CODE` 🧩](<../../40 👥 Domains/👥📜 Domain Manifests/🧩 Manifest schemas/🧩 CODE.md>).
     * Consider [`.LOCATOR` 🧩](<../../../7 🧩 Codes/$/🧩 LOCATOR code.md>)
         * who defines properties `Code`, `Domain`, `Resource`.
-    * It is inherited by [`.TOKEN` 🧩](<../3 🎫 Tokens/🧩 Token schemas/🧩 TOKEN.md>)
+    * It is inherited by [`.TOKEN` 🧩](<../Tokens 🎫/🧩 Token schemas/🧩 TOKEN.md>)
         * who adds properties `Issued`, `Starts`, `Expires`, `Signature`.
     * Then inherited by [`.HOST/BOOKING` 🧩](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🧩 Host schemas/🧩 HOST'BOOKING.md>)
         * who adds properties `For`, `Time`, `Place`, `Seat`, `Latitude`, `Longitude`.

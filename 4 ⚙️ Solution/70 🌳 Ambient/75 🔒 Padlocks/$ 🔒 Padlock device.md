@@ -52,7 +52,7 @@
 
     No.
     - A typical scenario would be a firefighter needing access to any fire fighting material, regardless of what Padlock would be locking it.
-    - These scenarios require a [Token 🎫](<../../30 🧩 Data/3 🎫 Tokens/🎫 Token.md>) and are not supported because Padlocks have no access to the internet, so they cannot verify Tokens.
+    - These scenarios require a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) and are not supported because Padlocks have no access to the internet, so they cannot verify Tokens.
     - Padlocks can only be unlock by other individuals when the owner explicitly shares the key to the Padlock via their [🌼 Keybox](<../../50 🫥 Agent domains/Keyboxes 🌼/$ 🌼🫥 Keybox agent.md>).
     - Alternatively, organizations should leverage [🎬 Relays](<../../60 🧰 Edge/65 🎬 Relayers/04 🎬🔌 Relay device.md>) to achieve dynamic access control via Tokens.
 
