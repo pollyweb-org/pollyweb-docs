@@ -16,7 +16,7 @@
 
     The following features are available in a [Wallet 🧑‍🦰 app](<🧑‍🦰🛠️ Wallet app.md>):
     - 💬 [Chats](<../../35 💬 Chats/💬 Chats/💬 Chat.md>): list, filter, search, view, and interact.
-    - 🔗 [Binds](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>): list, view, unbind, and chat with the bound [Vault 🗄️ domain](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>). 
+    - 🔗 [Binds](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>): list, view, unbind, and chat with the bound [Vault 🗄️ domain](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>). 
     - 🎫 [Tokens](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>): view, and chat with the [Issuer 🎴 domain](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>).
     - ✨ [Scan](<../../25 🔆 Locators/1 🔆 Locators/🔆⏩ Locator flows/🧑‍🦰✨ Wallet QR scan.md>) a QR [Locator 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) to open a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>).
     - 🔆 [Tap](<../../25 🔆 Locators/1 🔆 Locators/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>) an NFC [Locator 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) to open a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>).
@@ -141,10 +141,10 @@
     |💬 Chats|[👉 Chats](<🧑‍🦰💬 Wallet in App 🏠/💬🤵 List Chats 💬.md>) | List the user's [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) 
     ||[👉 Home](<🧑‍🦰💬 Wallet in Chats 💬/💬🤵 Host home.md>) | Show the [Host's 🤗 ](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) menu in a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
     ||[👉 Abandon](<🧑‍🦰💬 Wallet in Chats 💬/💬🤵 Abandon 💬.md>) | Unilaterally abandon a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
-    | 🔗 Binds | [👉 Binds ](<🧑‍🦰💬 Wallet in App 🏠/💬🤵 List Binds 🔗.md>) | List the user's [Binds 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>)
-    || [👉 Bind](<🧑‍🦰💬 Wallet in Prompts 🤔/👉🗄️ Bind 🔗.md>) | [Bind 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>) to a [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)
-    || [👉 Unbind](<🧑‍🦰💬 Wallet in Vaults 🗄️/💬🤵 Unbind 🗄️.md>) | Remove a [Bind 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) from a [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)
-    ||[👉 Share](<🧑‍🦰💬 Wallet in Prompts 🤔/👉💼 Share Bind 🔗.md>) | Shares a [Bind 🔗](<../../30 🧩 Data/2 🔗 Binds/🔗 Bind.md>) with a [Consumer 💼](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)
+    | 🔗 Binds | [👉 Binds ](<🧑‍🦰💬 Wallet in App 🏠/💬🤵 List Binds 🔗.md>) | List the user's [Binds 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
+    || [👉 Bind](<🧑‍🦰💬 Wallet in Prompts 🤔/👉🗄️ Bind 🔗.md>) | [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>) to a [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)
+    || [👉 Unbind](<🧑‍🦰💬 Wallet in Vaults 🗄️/💬🤵 Unbind 🗄️.md>) | Remove a [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) from a [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)
+    ||[👉 Share](<🧑‍🦰💬 Wallet in Prompts 🤔/👉💼 Share Bind 🔗.md>) | Shares a [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) with a [Consumer 💼](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)
     |🎫 Tokens| [👉 Tokens](<🧑‍🦰💬 Wallet in App 🏠/💬🤵 List Tokens 🎫.md>)| List the user's [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
     || [👉 Save](<🧑‍🦰💬 Wallet in Prompts 🤔/👉🎴 Save token.md>) | Save a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) in the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>)
     || [👉 Remove](<🧑‍🦰💬 Wallet in Tokens 🎫/💬🤵 Remove 🎫.md>) | Remove a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) from the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>)

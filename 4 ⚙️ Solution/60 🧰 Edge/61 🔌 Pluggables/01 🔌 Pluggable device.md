@@ -20,7 +20,7 @@
     |1| The device owner connects the Pluggable 🔌 device to the [Antenna 📡 router](<02 📡🔀 Antenna router.md>), as well as any power source required by the Pluggable 🔌 device.
     |2| The owner taps/scans the [Locator 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) of the [Antenna 📡 router](<02 📡🔀 Antenna router.md>) with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) to open a chat with its [Relayer 🛰️ helper](<../../45 🤲 Helper domains/Relayers 🛰️/🛰️🤲 Relayer helper.md>), and ask to add a Pluggable - the Relayer asks the user to tap/scan the Pluggable;
 
-    - 3/ users taps/scans the [Locator 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) of the Pluggable 🔌 device - the [Relayer 🛰️ helper](<../../45 🤲 Helper domains/Relayers 🛰️/🛰️🤲 Relayer helper.md>) confirms that a device with the Pluggable's resource key is connected, and the Pluggable's API [Schema Code 🧩](<../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) is valid.
+    - 3/ users taps/scans the [Locator 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) of the Pluggable 🔌 device - the [Relayer 🛰️ helper](<../../45 🤲 Helper domains/Relayers 🛰️/🛰️🤲 Relayer helper.md>) confirms that a device with the Pluggable's resource key is connected, and the Pluggable's API [Schema Code 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) is valid.
 
     ---
 
@@ -47,7 +47,7 @@
 1. **Do Pluggables devices follow a standard communication protocol?**
 
     No. 
-    - [Brand 🍏 domain](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) specify a Pluggable 🛠️ API via when printing the [Pluggable's Locator 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>), which includes the [API's Schema Code 🧩](<../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>).
+    - [Brand 🍏 domain](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) specify a Pluggable 🛠️ API via when printing the [Pluggable's Locator 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>), which includes the [API's Schema Code 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>).
     - [Relayer 🛰️ helpers](<../../45 🤲 Helper domains/Relayers 🛰️/🛰️🤲 Relayer helper.md>) receive commands from domains in natural language and then translate them to the Pluggable's API via de [Antenna 📡](<02 📡🔀 Antenna router.md>).
 
     ---

@@ -8,7 +8,7 @@
 
 
 * A [Vault 🗄️ domain](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) 
-    * offers bindable [Schema Codes 🧩](<../../../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>) 
+    * offers bindable [Schema Codes 🧩](<../../../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) 
     * to a [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>).
 
 
@@ -34,5 +34,5 @@ Body:
 |           | `To`  | string| [Broker 🤵](<../../🤵🤲 Broker helper.md>) from [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🤵🐌🤗 Hello.md>)
 |           | `Subject`| string|  `Bindable@Broker`
 | Body  | `ChatID`| uuid | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🤵🐌🤗 Hello.md>)
-| | `Codes`| string[] | List of [Schema Codes 🧩](<../../../../30 🧩 Data/1 🧩 Schema Codes/🧩 Schema Code.md>)
+| | `Codes`| string[] | List of [Schema Codes 🧩](<../../../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>)
 |
