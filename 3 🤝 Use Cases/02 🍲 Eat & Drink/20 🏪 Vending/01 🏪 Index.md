@@ -58,7 +58,7 @@ TODO: other scenarios
 | [🏦 Collector](<../../../4 ⚙️ Solution/45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) | To collect the amount paid
 | [👂 Listener](<../../../4 ⚙️ Solution/45 🤲 Helper domains/Listeners 👂/👂🤲 Listener helper.md>) | To propagate [Manifest 📜](<../../../4 ⚙️ Solution/40 👥 Domains/👥📜 Domain Manifests/📜 Manifest.md>)  changes
 | [🕸 Graph](<../../../4 ⚙️ Solution/45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) | To query [Trust 👍](<../../../4 ⚙️ Solution/40 👥 Domains/👥👍 Domain Trusts/👍 Domain Trust.md>) relationships
-| [⏳ Buffer](<../../../4 ⚙️ Solution/45 🤲 Helper domains/Buffers ⏳/⏳🤲 Buffer helper.md>) | To buffer inbound [Messages 📨](<../../../4 ⚙️ Solution/40 👥 Domains/👥📨 Domain Messages/📨 Message.md>)
+| [⏳ Buffer](<../../../4 ⚙️ Solution/45 🤲 Helper domains/Buffers ⏳/⏳🤲 Buffer helper.md>) | To buffer inbound [Messages 📨](<../../../4 ⚙️ Solution/40 👥 Domains/📨 Messages/📨 Message.md>)
 | [🛰️ Relayer](<../../../4 ⚙️ Solution/45 🤲 Helper domains/Relayers 🛰️/🛰️🤲 Relayer helper.md>) | To remotely control the machines
 
 <br/> 
