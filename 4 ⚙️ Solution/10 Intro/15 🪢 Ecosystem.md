@@ -9,9 +9,9 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
 
     * A [Wallet 🧑‍🦰](<../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) is an NLWeb-compatible mobile app from any vendor (e.g., `any-wallet.dom`).
   
-    * Each app depends on a [Notifier 📣 domain](<../20 🧑‍🦰 UI/2 📣 Notifiers/📣👥 Notifier domain.md>) for device-specific communications (e.g., WebSockets, MQTT).
+    * Each app depends on a [Notifier 📣 domain](<../20 🧑‍🦰 UI/Notifiers 📣/📣👥 Notifier domain.md>) for device-specific communications (e.g., WebSockets, MQTT).
     
-    * Each [Notifier 📣 domain](<../20 🧑‍🦰 UI/2 📣 Notifiers/📣👥 Notifier domain.md>) depends on a [Broker 🤵 domain](<../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) for [Chat 💬](<../35 💬 Chats/💬 Chats/💬 Chat.md>) orchestration with [Host 🤗 domains](<../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>). 
+    * Each [Notifier 📣 domain](<../20 🧑‍🦰 UI/Notifiers 📣/📣👥 Notifier domain.md>) depends on a [Broker 🤵 domain](<../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) for [Chat 💬](<../35 💬 Chats/💬 Chats/💬 Chat.md>) orchestration with [Host 🤗 domains](<../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>). 
 
 * Users store their data in [Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>).
   
