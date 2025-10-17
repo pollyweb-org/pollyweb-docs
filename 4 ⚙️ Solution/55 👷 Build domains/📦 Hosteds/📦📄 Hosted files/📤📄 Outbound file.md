@@ -10,7 +10,7 @@
     The `📤 Outbound.yaml` file 
     * is a file managed by the [Hoster ☁️ domain](<../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) 
     * that tells [Hosted 📦 domain](<../📦👥 Hosted domain.md>)
-    * where to forward [Messages 📨](<../../../40 👥 Domains/📨 Messages/📨 Message.md>) to.
+    * where to forward [Messages 📨](<../../../30 🧩 Data/📨 Messages/📨 Message.md>) to.
 
     ---
     <br/>
@@ -34,8 +34,8 @@
 1. **How does the Outbound proxy work?**
 
     The [Hoster ☁️ domain](<../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) proxy 
-    * receives unsigned [Messages 📨](<../../../40 👥 Domains/📨 Messages/📨 Message.md>) from the [domain 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>), 
-    * signs them with the [DKIM 📨](<../../../40 👥 Domains/📨 Messages/📨 Message.md>) private key, 
+    * receives unsigned [Messages 📨](<../../../30 🧩 Data/📨 Messages/📨 Message.md>) from the [domain 👥](<../../../40 👥 Domains/👥 Domains/👥 Domain.md>), 
+    * signs them with the [DKIM 📨](<../../../30 🧩 Data/📨 Messages/📨 Message.md>) private key, 
     * and forwards them downstream without ever disclosing the private key.
 
     ---

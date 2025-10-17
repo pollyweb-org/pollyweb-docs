@@ -5,7 +5,7 @@
 
     [Messages 📨](<📨 Message.md>) 
     * are data structures 
-    * with which [domains 👥](<../👥 Domains/👥 Domain.md>) communicate with one another.
+    * with which [domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) communicate with one another.
 
     ---
     <br/>
@@ -15,7 +15,7 @@
 
     ![](<.📎 Assets/📨 Domain Message.png>)
 
-    For two [domains 👥](<../👥 Domains/👥 Domain.md>) to communicate with one another (e.g., for `any-sender.com` to send a message to `any-receiver.com`), the following steps are required.
+    For two [domains 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) to communicate with one another (e.g., for `any-sender.com` to send a message to `any-receiver.com`), the following steps are required.
 
     | # |  Step
     |-|-

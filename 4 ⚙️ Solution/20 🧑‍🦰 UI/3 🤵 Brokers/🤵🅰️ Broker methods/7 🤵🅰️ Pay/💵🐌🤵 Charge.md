@@ -23,7 +23,7 @@
 - Header:
     - [From 💵](<../../../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>): `any-seller.dom`
     - [To 🤵](<../../🤵🤲 Broker helper.md>): `any-broker.dom`
-    - [Subject 📨](<../../../../40 👥 Domains/📨 Messages/📨 Message.md>): `Charge@Broker`
+    - [Subject 📨](<../../../../30 🧩 Data/📨 Messages/📨 Message.md>): `Charge@Broker`
 - Body:
     - [ChatID 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>): `<session-uuid@seller>`
     - Statement: `<reason-for-charge>`
