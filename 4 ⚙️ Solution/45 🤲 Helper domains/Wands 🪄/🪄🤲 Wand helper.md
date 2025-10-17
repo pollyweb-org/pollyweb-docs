@@ -6,7 +6,7 @@
     A [Wand 🪄](<🪄🤲 Wand helper.md>) is
     * any [Helper 🤲 domain](<../$ Helpers 🤲/🤲👥 Helper domain.md>) 
     * that creates and manages [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) 
-    * for [Things 💠](<../../25 🔆 Locators/2 💠 Things/💠🔆 Thing locator.md>) (including [Userables 💍](<../../25 🔆 Locators/4 💍 Userables/💍💠 Userable thing.md>), [Tapbands ⌚](<../../25 🔆 Locators/5 ⌚ Tapbands/⌚💠 Tapband thing.md>) and [Robots 🤖](<../../25 🔆 Locators/3 🤖 Robots/🤖💠 Robot thing.md>))
+    * for [Things 💠](<../../25 🔆 Locators/2 💠 Things/💠🔆 Thing locator.md>) (including [Userables 💍](<../../25 🔆 Locators/Userables 💍/💍💠 Userable thing.md>), [Tapbands ⌚](<../../25 🔆 Locators/Tapbands ⌚/⌚💠 Tapband thing.md>) and [Robots 🤖](<../../25 🔆 Locators/Robots 🤖/🤖💠 Robot thing.md>))
     * on behalf of [Brand 🍏 domains](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>).
 
     ---

@@ -34,7 +34,7 @@
     | 🧢 [ Persona](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Personas 🧢/🧢🫥 Persona agent.md>) | Share the user's social name.
     | 💳 [Payer](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) | Pays for the food.
     | 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Vitalogists 💖/💖🫥 Vitalogist agent.md>) | Registers the food intake.
-    | 🧳 [Custodian](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Custodians 🧳/🧳🫥 Custodian agent.md>) | To pay with a [💍 Userable](<../../../4 ⚙️ Solution/25 🔆 Locators/4 💍 Userables/💍💠 Userable thing.md>).
+    | 🧳 [Custodian](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Custodians 🧳/🧳🫥 Custodian agent.md>) | To pay with a [💍 Userable](<../../../4 ⚙️ Solution/25 🔆 Locators/Userables 💍/💍💠 Userable thing.md>).
     |
 
     <br/>

@@ -25,7 +25,7 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
 
 
 
-- Users use their Wallets or their wearables (e.g., [Userables 💍](<../25 🔆 Locators/4 💍 Userables/💍💠 Userable thing.md>), [Tapbands ⌚](<../25 🔆 Locators/5 ⌚ Tapbands/⌚💠 Tapband thing.md>)) to interact with [Padlocks 🔒](<../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>), [Robots 🤖](<../25 🔆 Locators/3 🤖 Robots/🤖💠 Robot thing.md>), and other smart [Things 💠](<../25 🔆 Locators/2 💠 Things/💠🔆 Thing locator.md>).
+- Users use their Wallets or their wearables (e.g., [Userables 💍](<../25 🔆 Locators/Userables 💍/💍💠 Userable thing.md>), [Tapbands ⌚](<../25 🔆 Locators/Tapbands ⌚/⌚💠 Tapband thing.md>)) to interact with [Padlocks 🔒](<../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>), [Robots 🤖](<../25 🔆 Locators/Robots 🤖/🤖💠 Robot thing.md>), and other smart [Things 💠](<../25 🔆 Locators/2 💠 Things/💠🔆 Thing locator.md>).
 
 - Organizations interact with an email-like inbox API behind a domain name, and can assume a multitude of roles in parallel - e.g.:
     * session [Host 🤗](<../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>), 

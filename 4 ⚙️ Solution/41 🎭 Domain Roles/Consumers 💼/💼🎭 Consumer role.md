@@ -48,8 +48,8 @@
         - when users tap or scan an offline [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) on a scanner of a [Consumer 💼 domain](<💼🎭 Consumer role.md>) (e.g., a printed flight ticket at an airport gate), the [Consumer 💼 domain](<💼🎭 Consumer role.md>) can validate the [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) without the need for a chat or any interactions with the [user's Broker 🤵 domain](<../../20 🧑‍🦰 UI/3 🤵 Brokers/🤵🤲 Broker helper.md>).
 
     - **When users tap Userables**: 
-        - when users tap a [Userable 💍](<../../25 🔆 Locators/4 💍 Userables/💍💠 Userable thing.md>) on the scanner of a [Consumer 💼 domain](<💼🎭 Consumer role.md>) (e.g., a wristband at an airport gate), the [Consumer 💼 domain](<💼🎭 Consumer role.md>) can ask the [user's Custodian 🧳 domain](<../../50 🫥 Agent domains/Custodians 🧳/🧳🫥 Custodian agent.md>) to silently share all [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) marked as public by the user and matching a list of expected [Schema Codes 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>);
-        - see [Userable at gates 💍🎬](<../../25 🔆 Locators/4 💍 Userables/💍⏩ Userable flows/💍🎬 Cross gates.md>) for details.
+        - when users tap a [Userable 💍](<../../25 🔆 Locators/Userables 💍/💍💠 Userable thing.md>) on the scanner of a [Consumer 💼 domain](<💼🎭 Consumer role.md>) (e.g., a wristband at an airport gate), the [Consumer 💼 domain](<💼🎭 Consumer role.md>) can ask the [user's Custodian 🧳 domain](<../../50 🫥 Agent domains/Custodians 🧳/🧳🫥 Custodian agent.md>) to silently share all [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) marked as public by the user and matching a list of expected [Schema Codes 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>);
+        - see [Userable at gates 💍🎬](<../../25 🔆 Locators/Userables 💍/💍⏩ Userable flows/💍🎬 Cross gates.md>) for details.
 
     ---
     <br/>
