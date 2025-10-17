@@ -47,7 +47,7 @@
   
     - The authentication mechanism is implemented with a secure NFC chip with asymmetric cryptography (e.g., NTAG 424 DNA class).
 
-    - When a [Userable 💍 thing](<💍💠 Userable thing.md>) is [tapped 🔆](<../1 🔆 Locators/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>), the user's [Custodian 🧳 agent](<../../50 🫥 Agent domains/Custodians 🧳/🧳🫥 Custodian agent.md>) checks the validity of the unique dynamic code sent by domain that scanned the [Userable 💍 thing](<💍💠 Userable thing.md>), verifying if 
+    - When a [Userable 💍 thing](<💍💠 Userable thing.md>) is [tapped 🔆](<../Locators 🔆/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>), the user's [Custodian 🧳 agent](<../../50 🫥 Agent domains/Custodians 🧳/🧳🫥 Custodian agent.md>) checks the validity of the unique dynamic code sent by domain that scanned the [Userable 💍 thing](<💍💠 Userable thing.md>), verifying if 
       - it has not been used before, 
       - if the signature of the code matches the Userable's public key and unique ID, 
       - and if the sequence was respected.

@@ -30,7 +30,7 @@
 
 1. **How can users start using an Editor?**
 
-    On the Editor's desktop app, users scan the editor's [Locator 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) with their [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) - the interaction is described in [Edit in folder 🗂️💬](<🧑‍💻💬 Editor chats/🧑‍💻💬 Edit in Editor.md>).
+    On the Editor's desktop app, users scan the editor's [Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) with their [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/1 🧑‍🦰 Wallets/🧑‍🦰🛠️ Wallet app.md>) - the interaction is described in [Edit in folder 🗂️💬](<🧑‍💻💬 Editor chats/🧑‍💻💬 Edit in Editor.md>).
 
     ![alt text](<.📎 Assets/Editor-Login.png>)
 

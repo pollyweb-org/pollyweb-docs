@@ -18,9 +18,9 @@
     - 💬 [Chats](<../../35 💬 Chats/💬 Chats/💬 Chat.md>): list, filter, search, view, and interact.
     - 🔗 [Binds](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>): list, view, unbind, and chat with the bound [Vault 🗄️ domain](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>). 
     - 🎫 [Tokens](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>): view, and chat with the [Issuer 🎴 domain](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>).
-    - ✨ [Scan](<../../25 🔆 Locators/1 🔆 Locators/🔆⏩ Locator flows/🧑‍🦰✨ Wallet QR scan.md>) a QR [Locator 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) to open a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>).
-    - 🔆 [Tap](<../../25 🔆 Locators/1 🔆 Locators/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>) an NFC [Locator 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) to open a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>).
-    - 🌐 [Click](<../../25 🔆 Locators/1 🔆 Locators/🔆⏩ Locator flows/🧑‍🦰🌐 Wallet URLs.md>) on [Locator 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) links in the device's web browser to open chats.
+    - ✨ [Scan](<../../25 🔆 Locators/Locators 🔆/🔆⏩ Locator flows/🧑‍🦰✨ Wallet QR scan.md>) a QR [Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to open a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>).
+    - 🔆 [Tap](<../../25 🔆 Locators/Locators 🔆/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>) an NFC [Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to open a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>).
+    - 🌐 [Click](<../../25 🔆 Locators/Locators 🔆/🔆⏩ Locator flows/🧑‍🦰🌐 Wallet URLs.md>) on [Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) links in the device's web browser to open chats.
     - 🛜 [Wi-Fiers](<../../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>): tap/scan an NFC/QR of a Wi-Fier to enable Wi-Fi on a [Robot 🤖](<../../25 🔆 Locators/3 🤖 Robots/🤖💠 Robot thing.md>).
     - 🔒 [Padlocks](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>): tap/scan an NFC/QR of a Padlock to open it.
     

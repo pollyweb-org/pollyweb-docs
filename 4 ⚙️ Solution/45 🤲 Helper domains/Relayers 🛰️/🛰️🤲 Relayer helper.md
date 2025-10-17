@@ -29,7 +29,7 @@
     |-|-|-
     |1| `Antenna` | The on-premise [Antenna 📡 router device](<../../60 🧰 Edge/61 🔌 Pluggables/02 📡🔀 Antenna router.md>) creates a bidirectional channel with the Relayer 🛰️ helper.
     |2| `Pluggable` | The [Antenna 📡](<../../60 🧰 Edge/61 🔌 Pluggables/02 📡🔀 Antenna router.md>) detects the connection with the [Pluggable 🔌 device](<../../60 🧰 Edge/61 🔌 Pluggables/01 🔌 Pluggable device.md>) and informs the Relayer 🛰️.
-    |3| `Brand` | The Relayer 🛰️ registers the [Pluggable's Locator 🔆](<../../25 🔆 Locators/1 🔆 Locators/🔆 Locator.md>) in the [Pluggable's Brand 🍏 domain](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>).
+    |3| `Brand` | The Relayer 🛰️ registers the [Pluggable's Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) in the [Pluggable's Brand 🍏 domain](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>).
     |4| `API Schema`| The [Brand 🍏](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) tells the Relayer 🛰️ where to read the [API Schema 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) of the [Pluggable 🔌 device](<../../60 🧰 Edge/61 🔌 Pluggables/01 🔌 Pluggable device.md>).
     |5| `Graph`|  The Relayer 🛰️ domain reads the [API Schema 🧩](<../../30 🧩 Data/Schema Codes 🧩/🧩 Schema Code.md>) from a [Graph 🕸 helper domain](<../Graphs 🕸/🕸🤲 Graph helper.md>).
     |6| `Domain` | The Relayer 🛰️ domain informs the owner [domain 👥](<../../40 👥 Domains/👥 Domains/👥 Domain.md>) of the newly-plugged [Pluggable 🔌 device](<../../60 🧰 Edge/61 🔌 Pluggables/01 🔌 Pluggable device.md>).
