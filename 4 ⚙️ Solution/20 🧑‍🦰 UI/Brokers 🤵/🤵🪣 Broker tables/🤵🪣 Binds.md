@@ -15,7 +15,7 @@ Parents:
 
 ## Example
 
-Here's the [`MAP` command](<../../../35 💬 Chats/😃 Talkers/😃💾 Talker data/MAP 🗺️ item.md>) result.
+Here's the [`MAP` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/MAP 🗺️ item.md>) result.
 
 ```yaml
 # MAP|Binds|<bind-id>

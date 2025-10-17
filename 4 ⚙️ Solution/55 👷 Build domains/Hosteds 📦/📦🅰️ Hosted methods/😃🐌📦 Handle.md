@@ -1,6 +1,6 @@
 # 😃🐌🧑‍💻 Evaluate @ Hosted
 
-> Handles a [{Function} 🐍](<../../../35 💬 Chats/😃 Talkers/😃💾 Talker data/{Function} 🐍.md>) evaluation.
+> Handles a [{Function} 🐍](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/{Function} 🐍.md>) evaluation.
 
 > Implements [Hosted 📦 domain](<../📦👥 Hosted domain.md>)
 

@@ -81,7 +81,7 @@
     | Argument| Purpose 
     |-|-
     | `<statement>`| Message to show to the user
-    | `$placeholder`| Optional [placeholder 💾](<../../😃 Talkers/😃💾 Talker data/$Placeholder 💾.md>) with the user's answer
+    | `$placeholder`| Optional [placeholder 💾](<../../😃 Talkers/😃⚙️ Talker cmds/for data/$Placeholder 💾.md>) with the user's answer
     
     ```yaml
     # Comprehensive.
@@ -256,7 +256,7 @@
     - SUCCESS|You entered `$money`
     ```
 
-    | [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | Purpose
     |-|-
     | 💰 [`AMOUNT`](<43 💰 AMOUNT prompt.md>) | To collect a structured currency value.
     | ✅ [`SUCCESS`](<../🤔📢 Prompt status/SUCCESS ✅ prompt.md>) | To show the formatted collected value.

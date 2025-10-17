@@ -74,14 +74,14 @@
 ```
 
 
-| [Command ⌘](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/⌘ Command.md>) | Purpose
+| [Command ⌘](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | Purpose
 |-|-
 | 
-| 🗺️ [`MAP`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃💾 Talker data/MAP 🗺️ item.md>) | Map the locator to a restaurant info.
-| 📝 [`INFORM`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃📨 Talker msgs/INFORM 📝 msg.md>) | Show user instructions and allow inputs.
+| 🗺️ [`MAP`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/MAP 🗺️ item.md>) | Map the locator to a restaurant info.
+| 📝 [`INFORM`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for flows/INFORM 📝 msg.md>) | Show user instructions and allow inputs.
 | 1️⃣ [`ONE`](<../../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔✏️ Prompt inputs/53 1️⃣ ONE prompt.md>) | Select an option, the day in this case.
-| 💼 [`SHARE`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃📨 Talker msgs/SHARE 💼 msg.md>) | Get the user's booking contacts.
+| 💼 [`SHARE`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for flows/SHARE 💼 msg.md>) | Get the user's booking contacts.
 | 👍 [`CONFIRM`](<../../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) | Pause to allow changing previous inputs.
-| ❄️ [`FREEZE`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃📨 Talker msgs/FREEZE ❄️ msg.md>) | Freeze all previous inputs from changes.
-| ⬇️ [`EVAL`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃💾 Talker data/EVAL ⬇️ flow.md>) | Save the booking.
+| ❄️ [`FREEZE`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for flows/FREEZE ❄️ msg.md>) | Freeze all previous inputs from changes.
+| ⬇️ [`EVAL`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/EVAL ⬇️ flow.md>) | Save the booking.
 |

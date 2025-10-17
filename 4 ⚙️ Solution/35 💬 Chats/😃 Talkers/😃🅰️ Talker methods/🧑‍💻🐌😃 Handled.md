@@ -1,6 +1,6 @@
 # 🧑‍💻🐌☁️ Handled @ Hoster
 
-> Returns a [{Function} 🐍](<../😃💾 Talker data/{Function} 🐍.md>) evaluation.
+> Returns a [{Function} 🐍](<../😃⚙️ Talker cmds/for data/{Function} 🐍.md>) evaluation.
 
 > Implements [Hoster ☁️ helper domain](<../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>)
 
