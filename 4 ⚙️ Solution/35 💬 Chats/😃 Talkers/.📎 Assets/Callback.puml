@@ -1,21 +1,29 @@
 @startuml Callback
 
+participant "Callbacks\nTable 🪣" as callbacks
+participant "Host\nTalker 😃" as talker
+participant "Message\nHandler 📨" as handler
 actor "User" as user
-participant "Talker 😃\nrole API" as talker
-participant "Callbacks 🪣\nTable" as callbacks
-participant "Message 📨\nHandler" as handler
 
 activate talker
-    talker -> callbacks: UPSERT {callback}    
-    talker --> user: Bindable@Broker {callback}
+    talker -> talker: BIND 🔗
+group Internal
+    talker -> callbacks: UPSERT {cb}    
+    talker --> user: Bindable 🐌 {cb}
+end group
 deactivate talker
 
 activate user
-    user --> handler: Bound@Vault {data}
+    user --> handler: Bound 🐌 {cb}
 deactivate user
 
 activate handler
-    handler -> callbacks: GET {callback}
-    callbacks --> handler: {callback}
+    handler -> callbacks: GET {cb}
+    handler -> talker: CALLBACK {cb}
+deactivate handler
+
+activate talker
+    talker -> talker: IF {cb.Result} \n> SUCCESS ✅
+deactivate talker
 
 @enduml
