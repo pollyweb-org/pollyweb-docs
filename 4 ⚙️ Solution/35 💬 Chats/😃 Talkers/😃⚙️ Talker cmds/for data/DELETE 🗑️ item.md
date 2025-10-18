@@ -28,7 +28,22 @@
     | Argument| Purpose | Example
     |-|-|-
     | `<pool>` | Name of resource pool | `MyPool`
-    | `{object}` | Item to update or insert in the pool | `MyKey` `$key`
+    | `<key>` | Key to delete from the pool | `MyKey` `$key`
+
+    ---
+    <br/>
+
+1. **How to delete a complex key?**
+
+    ```yaml
+    # Single item with complex key
+    - DELETE|<pool>:
+        {key}
+    ```
+
+    | Argument| Purpose | Example
+    |-|-|-
+    | `{key}` | Complex key to delete | `{a:1, b:2}`
 
     ---
     <br/>
