@@ -6,10 +6,10 @@
 
 ## Example
 
-Here's the [`MAP` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/MAP 🗺️ item.md>) result.
+Here's the [`GET` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET 🗺️ item.md>) result.
 
 ```yaml
-# MAP|Editors|any-editor.dom
+# GET|Editors|any-editor.dom
 Broker: any-broker.dom
 BindID: <bind-id>
 Editor: any-editor.dom

@@ -38,7 +38,7 @@
 
     ```yaml
     # Get the item from the database.
-    - MAP|myPool|myKey >> $item
+    - GET|myPool|myKey >> $item
     
     # Delete the item.
     - DELETE|$item 

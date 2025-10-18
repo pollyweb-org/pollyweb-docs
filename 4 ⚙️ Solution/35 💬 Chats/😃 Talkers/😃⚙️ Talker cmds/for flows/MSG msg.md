@@ -4,7 +4,7 @@
 
 ```yaml
 # Get a bind from the database.
-- MAP|Binds|<bind-uuid> >> $bind
+- GET|Binds|<bind-uuid> >> $bind
 
 # Send a message with the bind.
 - MSG|Unbound@Vault|$bind.Vault:

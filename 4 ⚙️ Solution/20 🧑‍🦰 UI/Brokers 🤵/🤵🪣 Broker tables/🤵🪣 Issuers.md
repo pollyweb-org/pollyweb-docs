@@ -14,10 +14,10 @@ Children:
 
 ## Example
 
-Here's the [`MAP` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/MAP 🗺️ item.md>) result.
+Here's the [`GET` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET 🗺️ item.md>) result.
 
 ```yaml
-# MAP|Issuers|any-issuer.dom
+# GET|Issuers|any-issuer.dom
 Domain: any-issuer.dom
 Title: Any Issuer
 ```

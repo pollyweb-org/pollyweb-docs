@@ -11,7 +11,7 @@
 💬 [Unbind] Vault:
 
 # Get the Vault 
-- MAP >> $vault:
+- GET >> $vault:
     Pool: $wallet.Vaults
     Key: $.Msg.Body.Key
 
