@@ -22,8 +22,8 @@ Body:
     Broker: any-broker.dom
     Chat: <chat-uuid>
     Schema: airlines.any-igo.dom/SSR/WCH:1
-    ConsumerKey: <consumer-key>
-    VaultKey: <vault-key>
+    Hook: <hook-uuid>
+    Collect: <collect-uuid>
     TTL: 2023-04-01T05:00:30.001000Z
 ```
 
@@ -36,8 +36,8 @@ Body:
 | `Broker`| string | [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) name
 | `Chat` | uuid | [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID
 | `Schema`| string |  [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
-| `ConsumerKey` | uuid | From [`Query@`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Query.md>) and [`Invite@`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Invite.md>)
-| `VaultKey` | uuid | Callback to [`Collect@Vault`](<../../Vaults 🗄️/🗄️🅰️ Vault methods/to Share/💼🚀🗄️ Collect.md>)
+| `Hook` | uuid | From [`Query@`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Query.md>) and [`Invite@`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Invite.md>)
+| `Collect` | uuid | Hook for [`Collect@Vault`](<../../Vaults 🗄️/🗄️🅰️ Vault methods/to Share/💼🚀🗄️ Collect.md>)
 | `TTL` | timestamp| Callback deadline
 |
 

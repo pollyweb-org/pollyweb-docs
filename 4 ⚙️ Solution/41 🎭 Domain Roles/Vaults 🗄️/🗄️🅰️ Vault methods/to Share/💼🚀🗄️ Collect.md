@@ -19,7 +19,7 @@ Header:
     Subject: Collect@Vault
 
 Body:
-    VaultKey: <callback-uuid> 
+    Collect: <collect-uuid> 
 ````
 
 |Object|Property|Type|Description
@@ -27,7 +27,7 @@ Body:
 |Header|`From` | string | [Consumer 💼](<../../../Consumers 💼/💼🎭 Consumer role.md>) from [`Consume@Consumer`](<../../../Consumers 💼/💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>)
 || `To`| string | [Vault 🗄️](<../../🗄️🎭 Vault role.md>) from [`Consume@Consumer`](<../../../Consumers 💼/💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>)
 ||`Subject` | string | `Collect@Vault`
-|Body|`VaultKey` | uuid | Callback from [`Consume@Consumer`](<../../../Consumers 💼/💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>)
+|Body|`Collect` | uuid | Hook from [`Consume@Consumer`](<../../../Consumers 💼/💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>)
 |
 
 <br/>

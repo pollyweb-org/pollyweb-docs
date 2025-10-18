@@ -23,6 +23,7 @@ Header:
     From: any-broker.dom
     To: any-notifier.dom
     Subject: Prompt@Notifier
+    
 Body:
     Wallet: <wallet-uuid>
     Chat: <chat-uuid>
