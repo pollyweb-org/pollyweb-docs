@@ -7,7 +7,7 @@
 > Paired with [`Place@Talker`](<🧑‍💻🐌😃 Place.md>) message
 
 * Reads a [$Placeholder 💾](<../😃⚙️ Talker cmds/for data/$Placeholder 💾.md>)
-* The placeholder [`$.Chat`](<../😃⚙️ Talker cmds/for data/$.Chat 💬 holder.md>) contains [Chat 💬](<../../💬 Chats/💬 Chat.md>) details.
+* The placeholder [`$.Chat`](<../😃⚙️ Talker cmds/for data/$.Chat 💬.md>) contains [Chat 💬](<../../💬 Chats/💬 Chat.md>) details.
 
 <br/>
 
