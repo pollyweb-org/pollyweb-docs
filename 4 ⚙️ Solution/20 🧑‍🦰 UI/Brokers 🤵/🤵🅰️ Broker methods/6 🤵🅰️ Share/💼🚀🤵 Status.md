@@ -15,7 +15,7 @@ Header:
 
 Body:
     Issuer: any-issuer.dom
-    TokenID: <token-uuid>  
+    Token: <token-uuid>  
 ```
 
 
@@ -25,7 +25,7 @@ Body:
 | | `To`    | string | [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) name
 | | `Subject`| string | `Status@Broker`
 | Body | `Issuer` | string | [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)
-| | `TokenID`| string | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ID on the Issuer
+| | `Token`| string | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ID on the Issuer
 |
     
 

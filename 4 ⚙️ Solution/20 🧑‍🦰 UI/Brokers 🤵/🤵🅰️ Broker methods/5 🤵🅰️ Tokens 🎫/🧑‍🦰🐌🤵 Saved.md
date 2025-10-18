@@ -20,7 +20,7 @@ Header:
 
 Body:
     Chat: <chat-uuid>
-    TokenID: <token-uuid>
+    Token: <token-uuid>
     Issuer: any-host.dom
     Path: /storage/nlweb/tokens/<issuer>/<token-uuid>
 ```
@@ -31,7 +31,7 @@ Body:
 ||`To`|string| [Broker 🤵](<../../🤵🤲 Broker helper.md>) from [`Onboard@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
 ||`Subject`|string|`Saved@Broker`
 |Body  |`Chat` |uuid  | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Save@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
-|      |`TokenID` |uuid  | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ID from [`Save@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
+|      |`Token` |uuid  | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ID from [`Save@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
 |      |`Issuer`  |string| [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) from [`Save@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
 |      |`Path`    |string| Path to the local file
 |

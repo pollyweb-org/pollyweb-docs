@@ -20,7 +20,7 @@ Body:
     Wallet: <wallet-id>
     Chat: <chat-uuid>
     Issuer: any-issuer.dom
-    TokenID: <token-uuid>
+    Token: <token-uuid>
 ```
 
 |Object|Property|Type|Description
@@ -31,5 +31,5 @@ Body:
 |Body  |`Wallet`| uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) ID from [`Onboard@Notifier`](<../1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
 || `Chat` | string | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Offer@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
 | | `Issuer`| string | [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) from [`Offer@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
-| | `TokenID`| string | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ID from [`Offer@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
+| | `Token`| string | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ID from [`Offer@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
 | 

@@ -21,7 +21,7 @@ Header:
     
 Body:
     Chat: <chat-uuid>
-    TokenID: <token-uuid>
+    Token: <token-uuid>
 ```
 
 |Object |Property |Type|Description
@@ -30,7 +30,7 @@ Body:
 |       | `To`    | string  | [Issuer 🎴 domain](<../🎴🎭 Issuer role.md>) name
 ||`Subject`|string|`Token@Issuer` 
 | Body | `Chat` | string | [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Offer@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
-| | `TokenID`| string | [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ID from [`Offer@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
+| | `Token`| string | [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ID from [`Offer@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
 |
 
 <br/>
@@ -39,7 +39,7 @@ Body:
 
 ```yaml
 Issuer: any-issuer.dom
-TokenID: ANY-TOKEN-KEY
+Token: ANY-TOKEN-KEY
 Code: airlines.any-igo.dom/SSR/WCH:1 
 ...
 ```
@@ -47,7 +47,7 @@ Code: airlines.any-igo.dom/SSR/WCH:1
 |Property |Type|Description
 |-|-|-
 | `Issuer` | string | [Issuer 🎴 domain](<../🎴🎭 Issuer role.md>) name
-| `TokenID`| string | Resource key on the [Issuer 🎴](<../🎴🎭 Issuer role.md>) 
+| `Token`| string | Resource key on the [Issuer 🎴](<../🎴🎭 Issuer role.md>) 
 |  `Code`| string | [Schema Code 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 | ... | ... | Other [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) fields 
 |

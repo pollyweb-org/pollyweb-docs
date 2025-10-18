@@ -22,7 +22,7 @@ Body:
     Chat: <chat-uuid>
     Tokens: 
       - Issuer: any-issuer.dom
-        TokenID: ANY-TOKEN-KEY
+        Token: ANY-TOKEN-KEY
         Code: airlines.any-igo.dom/SSR/WCH:1 
         ...
 ```
@@ -35,7 +35,7 @@ Body:
 | Body | `Chat` | string | [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Share@Notifier`](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/2 🤵🐌📣 Share.md>)
 | | `Tokens`  | array | List of `Token` objects
 | Token |  `Issuer` | string | [Issuer 🎴](<../../Issuers 🎴/🎴🎭 Issuer role.md>) from [`Save@Notifier`](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
-| | `TokenID`| string | [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ID from [`Save@Notifier`](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
+| | `Token`| string | [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ID from [`Save@Notifier`](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
 | | ... | ... | Other [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) fields
 |
 
