@@ -31,7 +31,7 @@ group Subscribe
 
     client --> wallet: {connID}
     activate wallet
-        wallet --> rest: subscribe(connID, walletID, broker, PK)
+        wallet --> rest: subscribe(connID, wallet, broker, PK)
     deactivate wallet
 
     activate rest

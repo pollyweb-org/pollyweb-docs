@@ -25,7 +25,7 @@ Header:
     Subject: Download@Host
 
 Body:
-    ChatID: <prompt-uuid>
+    Chat: <prompt-uuid>
     FileID: <file-uuid>
 ```
 

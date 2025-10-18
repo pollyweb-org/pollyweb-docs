@@ -50,7 +50,7 @@ Body:
 - GET|Hooks@Talker|$Msg.Hook >> $hook
 
 # Get the user
-- Get|Chats@Host|$Msg.ChatID >> $chat
+- GET|Chats@Host|$Msg.Chat >> $chat
 
 # Process each Bind
 - PARALLEL|$Msg.Binds >> $bind:

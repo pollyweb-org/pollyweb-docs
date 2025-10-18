@@ -6,9 +6,9 @@ Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 
 
 ```yaml
 # Tokens.yaml
-Key: Issuer, TokenID
+Key: Issuer, Token
 Parents:
-    Wallet: WalletID >> Wallets
+    Wallet: Wallet >> Wallets
     Issuer: Issuer >> Issuers
 ```
 

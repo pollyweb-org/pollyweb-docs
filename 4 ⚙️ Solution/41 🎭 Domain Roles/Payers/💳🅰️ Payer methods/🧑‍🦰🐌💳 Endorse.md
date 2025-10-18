@@ -24,7 +24,7 @@ Body:
       Host: any-seller.dom
       Broker: any-broker.dom
       Locator: <any-locator>
-      ChatID: <session-uuid>
+      Chat: <session-uuid>
    Charge: { ... }
 ```
 

@@ -8,9 +8,9 @@ Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 
 # Wallets.yaml
 Key: ID
 Children:
-    Tokens: WalletID
+    Tokens: Wallet
     Issuers: Tokens.Issuer
-    Binds: WalletID
+    Binds: Wallet
     Vaults: Binds.Vaults
 ```
 
