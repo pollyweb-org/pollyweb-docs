@@ -22,7 +22,7 @@ Header:
     Subject: Bound@Vault
 
 Body:
-    ChatID: <chat-uuid>
+    Callback: <callback-uuid>
     Binds:
       - ID: <bind-uuid>
         Code: europa.eu/DISABILITY/CARD
@@ -33,13 +33,43 @@ Body:
 |Header| `From` | string | [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)
 || `To` | string | [Vault 🗄️](<../../🗄️🎭 Vault role.md>)  from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)
 || `Subject` | string | `Bound@Vault`
-|Body| `ChatID` | uuid | [Chat 💬 ID](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)
+|Body| `Callback` | uuid | Callback from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)
 ||`Binds`| array | list of Bind objects
 |Bind| `ID`| uuid | [Bind 🔗 ID](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) on the [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>)
 || `Code`| string | [Code 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)  from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)
 |
 
 <br/>
+
+## Handler
+
+```yaml
+# Resolve the callback
+- MAP|Callbacks|$Msg.Callback >> $callback
+
+# Process each Bind
+- PARALLEL|$Msg.Binds >> $bind:
+
+    # Save each bind
+    - UPSERT|Binds:
+        Broker: $Msg.From
+        BindID: $bind.ID
+        Code: $bind.Code
+        Reference: $callback.Reference
+
+- CALLBACK|$callback
+```
+
+| [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | Purpose
+|-|-
+| [`$.Msg`](<$.Msg holder.md>)
+| 🗺️ [`MAP`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/MAP 🗺️ item.md>) | Get the [Callback 🪣](<../../🗄️🪣 Vault tables/🗄️🪣 Callbacks.md>) from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)  
+| 🛢 [`UPSERT`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/UPSERT 🛢 item.md>) | Save the [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to [Binds 🪣](<../../🗄️🪣 Vault tables/🗄️🪣 Binds.md>)
+|
+
+
+<br/>
+
 
 ## FAQ
 
