@@ -29,7 +29,7 @@ Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 
 
 ```yaml
 # Editors.yaml
-Key: Broker, BindID, Editor
+Key: Broker, Bind, Editor
 Parents:
-    Bind: Broker,BindID >> Binds
+    Bind: Binds|Broker,Bind
 ```

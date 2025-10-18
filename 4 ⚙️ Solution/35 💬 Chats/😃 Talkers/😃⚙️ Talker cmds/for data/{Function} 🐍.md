@@ -272,6 +272,7 @@
     | `.RandomInt` | Random integer | `{.RandomInt(1,9)}` → `7`
     | `.InRange` | Checks intervals | `{.InRange(5,1,10)}` → `True`
     | `.Time` | Current time | `{.Time}` → `10:30:00Z`
+    | `.UUID` | New UUID | `{.UUID}` → `<uuid>`
     
     ---
     <br/>

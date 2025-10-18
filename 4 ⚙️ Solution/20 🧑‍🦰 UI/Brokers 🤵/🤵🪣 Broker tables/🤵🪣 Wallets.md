@@ -6,12 +6,12 @@ Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 
 
 ```yaml
 # Wallets.yaml
-Key: ID
+Key: Wallet
 Children:
-    Tokens: Wallet
-    Issuers: Tokens.Issuer
-    Binds: Wallet
-    Vaults: Binds.Vaults
+    Tokens: Tokens|Wallet
+    Issuers: .Tokens|Issuers|Issuer
+    Binds: Binds|Wallet
+    Vaults: .Binds|Vaults|Vault
 ```
 
 ## Example
@@ -20,7 +20,7 @@ Here's the [`GET` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talke
 
 ```yaml
 # GET|Wallets|<wallet-uuid>
-ID: <wallet-uuid>
+Wallet: <wallet-uuid>
 PublicKey: <public-key>
 Notifier: any-notifier.dom
 ```
