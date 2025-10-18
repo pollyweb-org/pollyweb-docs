@@ -32,7 +32,7 @@
 
 # Update the bind list
 - MSG|Updated@Notifier|$wallet.Notifier:
-    WalletID: $wallet.ID
+    Wallet: $wallet.ID
     Updates: [ BINDS ]
 
 # Inform the user 🤔

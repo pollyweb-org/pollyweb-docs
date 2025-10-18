@@ -21,6 +21,6 @@ Here's the [`GET` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talke
 # GET|Binds|<bind-id>
 ID: <bind-id>
 Vault: any-vault.dom
-WalletID: <wallet-uuid>
+Wallet: <wallet-uuid>
 Code: .BIND
 ```

@@ -11,7 +11,7 @@ Header:
     To: any-notifier.dom
     Subject: Remove@Notifier
 Body:
-    WalletID: <wallet-id>
+    Wallet: <wallet-id>
     Path: /storage/nlweb/tokens/<issuer>/<token-uuid>
 ```
 
@@ -21,6 +21,6 @@ Body:
 |Header|`From`|string | [Broker 🤵 domain](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) name
 ||`To`|string| [Notifier 📣 domain](<../../📣👥 Notifier domain.md>) name
 ||`Subject`|string|`Remove@Broker`
-|Body  |`WalletID`| uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) ID from [`Onboard@Broker`](<../1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
+|Body  |`Wallet`| uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) ID from [`Onboard@Broker`](<../1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
 ||`Path`    |string| Path from [`Save@Notifier`](<1 🤵🐌📣 Save.md>)
 |
