@@ -11,14 +11,14 @@ Here's the [`GET` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talke
 ```yaml
 # GET|Editors|any-editor.dom
 Broker: any-broker.dom
-BindID: <bind-id>
+Bind:  <bind-id>
 Editor: any-editor.dom
 ```
 
 | Property | Type | Details
 |-|-|-
 | `Broker` | string | From [`Bound@Broker`](<../🗄️🅰️ Vault methods/to Bind/🤵🐌🗄️ Bound.md>)
-| `BindID`| uuid | From [`Bound@Broker`](<../🗄️🅰️ Vault methods/to Bind/🤵🐌🗄️ Bound.md>)
+| `Bind`| uuid | From [`Bound@Broker`](<../🗄️🅰️ Vault methods/to Bind/🤵🐌🗄️ Bound.md>)
 
 
 <br/>

@@ -58,7 +58,7 @@ Body:
     # Save each Bind
     - UPSERT|Binds@Vault:
         Broker: $Msg.From
-        BindID: $bind.ID
+        Bind:  $bind.ID
         Code: $bind.Code
         User: $chat.User
 

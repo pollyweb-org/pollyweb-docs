@@ -8,5 +8,5 @@
 
 # Send a message with the bind.
 - MSG|Unbound@Vault|$bind.Vault:
-    BindID: $bind.ID
+    Bind:  $bind.ID
 ```
