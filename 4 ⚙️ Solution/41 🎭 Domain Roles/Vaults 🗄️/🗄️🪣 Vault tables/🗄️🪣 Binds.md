@@ -10,10 +10,10 @@ Here's the [`GET` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talke
 
 ```yaml
 # GET|Binds|<broker>,<bind-id>
-Broker    : any-broker.dom
-BindID    : <bind-id>
-Code      : .BIND
-Reference : <any-reference>
+Broker  : any-broker.dom
+BindID  : <bind-id>
+Code    : .BIND
+User    : <user-reference>
 ```
 
 | Property | Type | Details
@@ -21,7 +21,7 @@ Reference : <any-reference>
 | `Broker` | string | From [`Bound@Broker`](<../🗄️🅰️ Vault methods/to Bind/🤵🐌🗄️ Bound.md>)
 | `BindID`| uuid | From [`Bound@Broker`](<../🗄️🅰️ Vault methods/to Bind/🤵🐌🗄️ Bound.md>)
 | `Code` | string | From [`Bound@Broker`](<../🗄️🅰️ Vault methods/to Bind/🤵🐌🗄️ Bound.md>)
-| `Reference` | any | Internal anchor.
+| `User` | any | Internal anchor
 | 
 
 <br/>

@@ -22,6 +22,7 @@ Header:
     Subject: Bound@Vault
 
 Body:
+    ChatID: <chat-uuid>
     Callback: <callback-uuid>
     Binds:
       - ID: <bind-uuid>
@@ -33,7 +34,8 @@ Body:
 |Header| `From` | string | [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)
 || `To` | string | [Vault 🗄️](<../../🗄️🎭 Vault role.md>)  from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)
 || `Subject` | string | `Bound@Vault`
-|Body| `Callback` | uuid | Callback from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)
+|Body| `ChatID` | uuid | [Chat 💬 ID](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)
+|| `Callback` | uuid | Callback from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)
 ||`Binds`| array | list of Bind objects
 |Bind| `ID`| uuid | [Bind 🔗 ID](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) on the [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>)
 || `Code`| string | [Code 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)  from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)
@@ -45,7 +47,10 @@ Body:
 
 ```yaml
 # Resolve the callback
-- GET|Callbacks|$Msg.Callback >> $callback
+- GET|Hooks@Talker|$Msg.Hook >> $hook
+
+# Get the user
+- Get|Chats@Host|$Msg.ChatID >> $chat
 
 # Process each Bind
 - PARALLEL|$Msg.Binds >> $bind:
@@ -55,17 +60,17 @@ Body:
         Broker: $Msg.From
         BindID: $bind.ID
         Code: $bind.Code
-        Reference: $callback.Reference
+        User: $chat.User
 
 # Continue the Chat
-- CALLBACK|$callback:
+- FIRE|$hook:
     $Msg.Binds
 ```
 
 | [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | Purpose
 |-|-
 | 📨 [`$.Msg`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/$.Msg 📨.md>) | Read the incoming [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>)
-| 🗺️ [`GET`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET 🗺️ item.md>) | Get the [Callback 🪣](<../../🗄️🪣 Vault tables/🗄️🪣 Callbacks.md>) from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)  
+| 🗺️ [`GET`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET 🗺️ item.md>) | Get the [Callback 🪣](<../../../../35 💬 Chats/😃 Talkers/😃🪣 Talker tables/😃🪣 Callbacks.md>) from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)  
 | ️️*️⃣ [`PARALLEL`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/PARALLEL *️⃣.md>) | Process each [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
 | 🛢 [`UPSERT`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/UPSERT 🛢 item.md>) | Save the [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to the [Binds 🪣](<../../🗄️🪣 Vault tables/🗄️🪣 Binds.md>) table
 | 😃 [`CALLBACK`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/CALLBACK 😃.md>) | Continue the [Talker 😃](<../../../../35 💬 Chats/😃 Talkers/😃 Talker.md>)
