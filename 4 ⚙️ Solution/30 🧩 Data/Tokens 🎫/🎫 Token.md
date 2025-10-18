@@ -185,7 +185,7 @@
     ```yaml
     Code: .TOKEN
     Domain: any-issuer.dom
-    TokenID: <token-uuid>
+    Token: <token-uuid>
     Properties:
         Property1: Value1
         Property2: Value2
@@ -195,7 +195,7 @@
     |-|-|-
     | `Code` | string |  [`.TOKEN`](<🧩 Token schemas/🧩 TOKEN.md>)
     | `Domain` | string | The [Issuer 🎴 domain](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) name
-    | `TokenID` | uuid |  The resource key in the [Issuer 🎴](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)
+    | `Token` | uuid |  The resource key in the [Issuer 🎴](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)
     | `Properties` | object | Any optional data fields
     |
 

@@ -31,7 +31,7 @@ Header:
 Body:
     Chat: <chat-uuid>
     Host: any-host.dom
-    TokenID: <token-uuid>
+    Token: <token-uuid>
     Issuer: any-issuer.dom
     Bind:  <bind-uuid>
     Vault: any-vault.dom
