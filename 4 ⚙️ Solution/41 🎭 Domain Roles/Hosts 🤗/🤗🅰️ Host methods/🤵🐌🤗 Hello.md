@@ -51,3 +51,23 @@ Body:
 |           | `Tokens`  | uuid[] | List of [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) for an [Issuer 🎴](<../../Issuers 🎴/🎴🎭 Issuer role.md>) host
 || `Parameters`| object | Custom parameters
 |
+
+<br/>
+
+## Handler
+
+```yaml
+# Create a placeholder to save
+- EVAL >> $chat:
+    Broker: $.Msg.From
+
+# Add the body to the placeholder
+- EVAL|$chat:
+    $.Msg.Body
+
+# Save the data
+- SAVE|Chats@Host|$chat
+
+# Start a Chat for the locator
+- TALK|$.Msg.Chat|$.Msg.Locator
+```
