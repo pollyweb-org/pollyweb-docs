@@ -33,7 +33,7 @@ The associated [Talker 😃](<../../../35 💬 Chats/😃 Talkers/😃 Talker.md
 - INFO|I'll ask my Helper for a random number.
 - INVITE >> $number:
     Invitee: host-b.com
-    Code: any-authority.org/RANDOM-NUMBER
+    Schema: any-authority.org/RANDOM-NUMBER
 - INFO|{number}, got it! Thanks, Any Helper!  
 ```
 

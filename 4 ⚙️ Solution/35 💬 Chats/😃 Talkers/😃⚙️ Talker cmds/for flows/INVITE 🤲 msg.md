@@ -11,7 +11,7 @@
     ```yaml
     INVITE >> $output:
         Invitee: <invitee>
-        Code: <code>
+        Schema: <code>
         Parameters: {params}
     ```
 

@@ -26,13 +26,13 @@
 
     ```yaml
     SHARE >> $shared:
-        Code: <code>
+        Schema: <code>
         Context: {context}
     ```
 
     ```yaml
     SHARE >> $shared:
-        Codes:
+        Schemas:
             - <code-1>
             - <code-n>
         Context: {context}

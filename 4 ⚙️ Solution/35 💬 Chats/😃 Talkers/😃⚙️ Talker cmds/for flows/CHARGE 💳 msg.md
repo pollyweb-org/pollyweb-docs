@@ -36,7 +36,7 @@
 
    # Charge the collection
    - SHARE >> $shared:
-      Code: .PAYER/CHARGE
+      Schema: .PAYER/CHARGE
       Context: 
          Bill: $bill
          Collection: $collection

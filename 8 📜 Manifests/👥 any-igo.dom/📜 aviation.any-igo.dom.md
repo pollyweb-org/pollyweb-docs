@@ -13,7 +13,7 @@ About:
 ```
 
 ```yaml
-Codes:
+Schemas:
 ```
 
 ```yaml

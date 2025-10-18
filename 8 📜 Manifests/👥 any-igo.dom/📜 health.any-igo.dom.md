@@ -10,7 +10,7 @@ About:
   Name: World Health Organization
   
 
-Codes:
+Schemas:
   
   # Vaccination dose certificate
   - Path: /DOSE

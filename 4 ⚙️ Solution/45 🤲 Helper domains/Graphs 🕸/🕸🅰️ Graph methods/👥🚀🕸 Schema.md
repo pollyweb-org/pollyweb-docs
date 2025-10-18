@@ -1,5 +1,5 @@
 <!-- Docs: https://quip.com/hgz4A3clvOes#temp:C:bDAe24fd83cf9c244078a0f67f7f -->
-<!-- Code: https://github.com/jorgemjfonseca/domain-trust-framework/blob/9a3c5abe16dda8cbacd2529bc859fd9d708f85d9/python/backbone/graph/GRAPH.py#L413 -->
+<!-- Source: https://github.com/jorgemjfonseca/domain-trust-framework/blob/9a3c5abe16dda8cbacd2529bc859fd9d708f85d9/python/backbone/graph/GRAPH.py#L413 -->
 
 # 👥🚀🕸 Schema @ Graph
 
@@ -24,7 +24,7 @@ Header:
     Subject: Schema@Graph
 
 Body:
-    Code: iata.org/SSR/WCHR:2.1
+    Schema: iata.org/SSR/WCHR:2.1
 ```
 
 |Object|Property|Type|Description
@@ -32,7 +32,7 @@ Body:
 | Header| `From`    | string | The name of the [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) asking
 |       | `To`      | string | [Graph 🕸 domain](<../🕸🤲 Graph helper.md>) name
 |       | `Subject` | string | `Schema@Graph`
-| Body  | `Code`    | string | [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
+| Body  | `Schema`    | string | [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 |
 
 

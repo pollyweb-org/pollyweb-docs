@@ -47,7 +47,7 @@
         Chat: <chat-uuid>
         Invitee: any-identity.dom
         Callback: <callback-uuid>
-        Code: nlweb.dom/IDENTITY/VERIFY
+        Schema: nlweb.dom/IDENTITY/VERIFY
         Parameters:
             IdentityKey: <token-identity-key>
     ```

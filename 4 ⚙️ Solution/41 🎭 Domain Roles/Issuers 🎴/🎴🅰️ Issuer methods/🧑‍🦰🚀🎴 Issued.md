@@ -40,7 +40,7 @@ Body:
 ```yaml
 Issuer: any-issuer.dom
 Token: ANY-TOKEN-KEY
-Code: airlines.any-igo.dom/SSR/WCH:1 
+Schema: airlines.any-igo.dom/SSR/WCH:1 
 ...
 ```
 
@@ -48,6 +48,6 @@ Code: airlines.any-igo.dom/SSR/WCH:1
 |-|-|-
 | `Issuer` | string | [Issuer 🎴 domain](<../🎴🎭 Issuer role.md>) name
 | `Token`| string | Resource key on the [Issuer 🎴](<../🎴🎭 Issuer role.md>) 
-|  `Code`| string | [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
+|  `Schema`| string | [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 | ... | ... | Other [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) fields 
 |

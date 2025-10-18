@@ -43,9 +43,9 @@ Forms:
   TableOrder:
     Verb: order
     Steps:
-      - Code: .CURATOR/FILTER
+      - Schema: .CURATOR/FILTER
         Purpose: your curator orders 🧚
-      - Code: .PAYER/CHARGE
+      - Schema: .PAYER/CHARGE
         Purpose: your payer pays the bill 💳  
 ```
 

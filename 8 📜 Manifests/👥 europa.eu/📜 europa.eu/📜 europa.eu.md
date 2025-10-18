@@ -14,7 +14,7 @@ Delegates:
 
   # Delete the disability card to the european comission.
   - Delegate: ec.europa.eu
-    Code: /DISABILITY/CARD
+    Schema: /DISABILITY/CARD
 
 
 Trusts:   

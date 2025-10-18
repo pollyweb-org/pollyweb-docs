@@ -164,7 +164,7 @@
 
     Domains can apply the following techniques to keep [Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) parts small:
     - follow the Manifest Schema to break the Manifest into valid paths (e.g., `Identity`);
-    - separate lists into item-level parts (e.g., for `Trusts`, `Codes`, and `Delegates`);
+    - separate lists into item-level parts (e.g., for `Trusts`, `Schemas`, and `Delegates`);
     - further break [Schema Codes 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) by using Code references;
     - write each part to key-value stores that support change notifications (e.g., object stores and NoSQL databases);
     - when creating and updating [Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) parts, keep each part below 200 KB.

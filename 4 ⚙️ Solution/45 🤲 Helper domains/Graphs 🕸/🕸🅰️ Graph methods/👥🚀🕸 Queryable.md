@@ -1,5 +1,5 @@
 <!-- https://quip.com/hgz4A3clvOes#temp:C:bDA44399e7e0bfc4609a560d6c4a -->
-<!-- Code: https://github.com/jorgemjfonseca/domain-trust-framework/blob/a60df25a0f652b24793d9d0a3099aaa19bbcdd61/python/backbone/graph/GRAPH.py#L130 -->
+<!-- Source: https://github.com/jorgemjfonseca/domain-trust-framework/blob/a60df25a0f652b24793d9d0a3099aaa19bbcdd61/python/backbone/graph/GRAPH.py#L130 -->
 
 # 👥🚀🕸 Queryable @ Graph
 
@@ -26,7 +26,7 @@ Body:
     Consumer: any-consumer.dom
     Binds: 
       - Vault: ec.europa.eu
-        Code: airlines.any-igo.dom/SSR/WCHR/CRED
+        Schema: airlines.any-igo.dom/SSR/WCHR/CRED
 ```
 
 |Object|Property|Type|Description
@@ -37,7 +37,7 @@ Body:
 | Body  | `Consumer`| string | [Consumer 💼 domain](<../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) name
 |       | `Binds`   | object[]   | List of [Bind 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) objects
 | Bind  | `Vault`   | string | The [Vault 🗄️ domain](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) name to assess
-|       | `Code`    | string | The [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to assess
+|       | `Schema`    | string | The [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to assess
 |
 
 <br/>
@@ -48,7 +48,7 @@ Body:
 ```yaml
 Binds: 
   - Vault: ec.europa.eu
-    Code: airlines.any-igo.dom/SSR/WCHR/CRED
+    Schema: airlines.any-igo.dom/SSR/WCHR/CRED
     Paths: 
       - [<vault>, <consumer>]
 ```
@@ -57,7 +57,7 @@ Binds:
 |-|-|-|-
 |Top    | `Binds`   | list      | List of queryable [Binds 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
 |Bind   | `Vault`   | string    | Queryable [Vault 🗄️ domain](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) name
-|       | `Code`    | string    | Queryable [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
+|       | `Schema`    | string    | Queryable [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 |       | `Paths`   | string[][]| The chain of [Trusts 👍](<../../../30 🧩 Data/Trusts 👍/👍 Domain Trust.md>)
 |
 

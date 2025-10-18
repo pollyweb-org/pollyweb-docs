@@ -3,7 +3,7 @@
 <!-- #TODO -->
 
 <!-- Docs: -->
-<!-- Code: https://github.com/jorgemjfonseca/domain-trust-framework/blob/482a44e4f22df82cf524f20278d6e1883146de79/python/suppliers/supplier/SUPPLIER.py#L39 --> 
+<!-- Source: https://github.com/jorgemjfonseca/domain-trust-framework/blob/482a44e4f22df82cf524f20278d6e1883146de79/python/suppliers/supplier/SUPPLIER.py#L39 --> 
 <!-- Test: -->
 
 

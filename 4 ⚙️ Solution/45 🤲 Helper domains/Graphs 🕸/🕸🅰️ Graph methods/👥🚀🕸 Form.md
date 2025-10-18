@@ -41,9 +41,9 @@ Verb: order
 Details: > 
   Bla, bla...
 Steps:
-  - Code: .CURATOR/FILTER
+  - Schema: .CURATOR/FILTER
     Purpose: your curator orders 🧚
-  - Code: .PAYER/CHARGE
+  - Schema: .PAYER/CHARGE
     Purpose: your payer pays the bill 💳  
 ```
 
@@ -58,7 +58,7 @@ Steps:
 
 |Property|Type|Description
 |-|-|-
-| `Code` | string | [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) for [`Query@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Query.md>)
+| `Schema` | string | [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) for [`Query@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Query.md>)
 | `Purpose` | string | Explication listed on [Prompt 🤔 details](<../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/3 ⊕ with Details.md>)
 |
 

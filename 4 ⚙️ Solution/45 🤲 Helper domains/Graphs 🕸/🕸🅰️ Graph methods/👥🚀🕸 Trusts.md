@@ -1,6 +1,6 @@
 
 <!-- Docs: https://quip.com/hgz4A3clvOes#temp:C:bDA71b470c7a4c446e5b43adea7e -->
-<!-- Code: https://github.com/jorgemjfonseca/domain-trust-framework/blob/9a3c5abe16dda8cbacd2529bc859fd9d708f85d9/python/backbone/graph/GRAPH.py#L279 -->
+<!-- Source: https://github.com/jorgemjfonseca/domain-trust-framework/blob/9a3c5abe16dda8cbacd2529bc859fd9d708f85d9/python/backbone/graph/GRAPH.py#L279 -->
 
 # 👥🚀🕸 Trusts @ [Graph](<../🕸🤲 Graph helper.md>)
 
@@ -36,7 +36,7 @@ Body:
     Truster: any-vault.dom
     Trusted: any-consumer.dom
     Role: CONSUMER
-    Code: any-authority.org/CODE/SUBCODE
+    Schema: any-authority.org/CODE/SUBCODE
 ```
 
 |Object|Property|Type|Description
@@ -47,7 +47,7 @@ Body:
 | Body  | `Truster` | string | The name of the [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) trusting
 |       | `Trusted` | string | The name of the [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) to be trusted
 |       | `Role`    | enum   | The role to assess: `VAULT`, `CONSUMER`, `*`
-|       | `Code`    | string | The [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to assess
+|       | `Schema`    | string | The [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to assess
 |
 
 <br/>

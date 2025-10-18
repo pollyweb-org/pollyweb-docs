@@ -16,13 +16,13 @@
 
 ```yaml
 - Delegate: profile.nlweb.dom
-  Code: /PERSONA
+  Schema: /PERSONA
 ```
 
 | Property | Type | Notes
 |-|-|-
 | `Delegate` | string | Domain to delegate to.
-| `Code`     | string | Relative path of the code or group.
+| `Schema`     | string | Relative path of the code or group.
 |
 
 <br/>
@@ -46,5 +46,5 @@ Blueprint:
       Delegate:
         $ref: Domain@nlweb.dom/TYPES
         
-      Code: 
+      Schema: 
         type: string
