@@ -50,21 +50,24 @@ Body:
 # Process each Bind
 - PARALLEL|$Msg.Binds >> $bind:
 
-    # Save each bind
+    # Save each Bind
     - UPSERT|Binds:
         Broker: $Msg.From
         BindID: $bind.ID
         Code: $bind.Code
         Reference: $callback.Reference
 
-- CALLBACK|$callback
+# Continue the Chat
+- CALLBACK|$callback:
+    $Msg.Binds
 ```
 
 | [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | Purpose
 |-|-
-| [`$.Msg`](<$.Msg holder.md>)
+| 📨 [`$.Msg`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/$.Msg 📨.md>) | Read the incoming [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>)
 | 🗺️ [`MAP`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/MAP 🗺️ item.md>) | Get the [Callback 🪣](<../../🗄️🪣 Vault tables/🗄️🪣 Callbacks.md>) from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)  
-| 🛢 [`UPSERT`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/UPSERT 🛢 item.md>) | Save the [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to [Binds 🪣](<../../🗄️🪣 Vault tables/🗄️🪣 Binds.md>)
+| ️️*️⃣ [`PARALLEL`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/PARALLEL *️⃣.md>) | Process each [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
+| 🛢 [`UPSERT`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/UPSERT 🛢 item.md>) | Save the [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to the [Binds 🪣](<../../🗄️🪣 Vault tables/🗄️🪣 Binds.md>) table
 |
 
 
