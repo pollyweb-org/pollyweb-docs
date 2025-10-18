@@ -26,7 +26,7 @@ Header:
 Body:
     Wallet: <wallet-uuid>
     Chat: <chat-uuid>
-    PromptID: <prompt-uuid>
+    Prompt: <prompt-uuid>
     Sender: any-agent.com
 ```
 
@@ -37,6 +37,6 @@ Body:
 ||`Subject`|string|`Prompt@Notifier`
 |Body  |`Wallet` |uuid  | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) ID from [`Converse@Notifier`](<1 🤵🐌📣 Converse.md>)
 |      |`Chat`  |uuid  | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Prompt@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🤗🐌🤵 Prompt.md>)
-|      |`PromptID`|uuid  | [Prompt 🤔](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) ID from [`Prompt@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🤗🐌🤵 Prompt.md>)
+|      |`Prompt`|uuid  | [Prompt 🤔](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) ID from [`Prompt@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🤗🐌🤵 Prompt.md>)
 |      |`Sender`  |string| [Host 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) from [`Prompt@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🤗🐌🤵 Prompt.md>)
 |
