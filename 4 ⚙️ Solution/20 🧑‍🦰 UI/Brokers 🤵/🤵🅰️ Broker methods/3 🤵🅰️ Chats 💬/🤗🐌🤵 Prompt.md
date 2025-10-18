@@ -20,7 +20,7 @@ Header:
   
 Body:
   Chat: <chat-uuid>
-  PromptID: <prompt-uuid>
+  Prompt: <prompt-uuid>
   TTL: 2023-04-01T05:00:30.001000Z
 ```
 
@@ -31,6 +31,6 @@ Body:
 ||`To`       | string  | [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>)
 ||`Subject` | string | `Prompt@Broker`
 |Body|`Chat`   | uuid    | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🤵🐌🤗 Hello.md>)
-||`PromptID` | uuid    | Callback to [`Prompted@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🧑‍🦰🚀🤗 Prompted.md>)
+||`Prompt` | uuid    | Callback to [`Prompted@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🧑‍🦰🚀🤗 Prompted.md>)
 ||`TTL`| timestamp | Expiration of [`Prompted@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🧑‍🦰🚀🤗 Prompted.md>) cache
 |
