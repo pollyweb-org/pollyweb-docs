@@ -6,8 +6,8 @@
 
 > Paired with [`Placed@Talker`](<🧑‍💻🚀😃 Placed.md>) message
 
-* Writes a value to a [$Placeholder 💾](<../😃⚙️ Talker cmds/for data/$Placeholder 💾.md>).
-* [$Placeholder 💾](<../😃⚙️ Talker cmds/for data/$Placeholder 💾.md>) names must to start with a letter.
+* Writes a value to a [$Placeholder 🧠](<../😃⚙️ Talker cmds/for data/$Placeholder 🧠.md>).
+* [$Placeholder 🧠](<../😃⚙️ Talker cmds/for data/$Placeholder 🧠.md>) names must to start with a letter.
 
 <br/>
 
@@ -32,6 +32,6 @@ Body:
 |           | `To`          | string    | [Hoster ☁️ domain](<../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) name
 |           | `Subject`     | string    | `Place@Talker`
 | Body      | `Chat`      | uuid      | [Chat 💬](<../../💬 Chats/💬 Chat.md>) ID
-|           | `Placeholder` | string    | [$Placeholder 💾](<../😃⚙️ Talker cmds/for data/$Placeholder 💾.md>) name
+|           | `Placeholder` | string    | [$Placeholder 🧠](<../😃⚙️ Talker cmds/for data/$Placeholder 🧠.md>) name
 |           | `Value`       | any    | Any value to write
 |
