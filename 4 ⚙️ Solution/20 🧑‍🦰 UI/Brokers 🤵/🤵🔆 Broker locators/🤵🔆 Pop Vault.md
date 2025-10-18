@@ -27,7 +27,7 @@
 # Remove the binds
 - PARALLEL|$vault.Binds >> $bind:
     - MSG|Unbound@Vault|$bind.Vault:
-        BindID: $bind.ID
+        Bind:  $bind.ID
     - DELETE|$bind
 
 # Update the bind list

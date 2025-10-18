@@ -33,7 +33,7 @@ Body:
     Host: any-host.dom
     TokenID: <token-uuid>
     Issuer: any-issuer.dom
-    BindID: <bind-uuid>
+    Bind:  <bind-uuid>
     Vault: any-vault.dom
 ```
 
