@@ -30,9 +30,10 @@
     - RETURN|{expression}
     ```
 
-    | Argument| Purpose
-    |-|-
-    | `{expression}`| Optional string or [{Function}](<../for data/{Function} 🐍.md>) to be evaluated.
+    | Argument| Purpose | Example
+    |-|-|-
+    | `{expression}`| String or [{Function}](<../for data/{Function} 🐍.md>) to be evaluated | `A` `{f}` `{$p}`
+    || Supports missing `{}` in functions | `f()` `$p`
     
     ---
     <br/>
@@ -98,10 +99,10 @@
     - RETURN|Bla Bla
 
     PlaceholderProc:
-    - RETURN|{$1}
+    - RETURN|$1
 
     FunctionProc:
-    - RETURN|{.Sum($1,$2,$3)}
+    - RETURN|.Sum([$1,$2,$3])
     ```
 
     | [Command ⌘](<⌘ Command.md>) | Purpose

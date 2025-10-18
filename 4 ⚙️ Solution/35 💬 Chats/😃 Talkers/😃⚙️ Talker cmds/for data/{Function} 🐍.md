@@ -266,13 +266,14 @@
 
     | Function | Details | Example
     |-|-|-
-    | `.Sum` | Sums numbers | `{.Sum(1,2,3)}` → `6`
-    | `.Subtract` | Subtracts B from A | `{.Subtract(10,4)}` → `6`
-    | `.Multiply` | Multiplies numbers | `{.Multiply(2,3,4)}` → `24`
-    | `.RandomInt` | Random integer | `{.RandomInt(1,9)}` → `7`
-    | `.InRange` | Checks intervals | `{.InRange(5,1,10)}` → `True`
-    | `.Time` | Current time | `{.Time}` → `10:30:00Z`
-    | `.UUID` | New UUID | `{.UUID}` → `<uuid>`
+    | `.Len` | Length of a list | `.Len([x,y,z])` → `3`
+    | `.Sum` | Sums numbers | `.Sum([1,2,3])` → `6`
+    | `.Subtract` | Subtracts B from A | `.Subtract([10,4])` → `6`
+    | `.Multiply` | Multiplies numbers | `.Multiply([2,3,4])` → `24`
+    | `.RandomInt` | Random integer | `.RandomInt(1,9)` → `7`
+    | `.InRange` | Checks intervals | `.InRange(5,1,10)` → `True`
+    | `.Time` | Current time | `.Time` → `10:30:00Z`
+    | `.UUID` | New UUID | `.UUID` → `<uuid>`
     
     ---
     <br/>
