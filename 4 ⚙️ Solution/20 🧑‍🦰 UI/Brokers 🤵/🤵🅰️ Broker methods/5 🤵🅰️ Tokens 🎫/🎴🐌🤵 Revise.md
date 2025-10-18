@@ -20,7 +20,7 @@ Header:
     Subject: Revoke@Broker
     
 Body:
-    ChatID: <session-uuid>
+    Chat: <session-uuid>
     Token: <token-uuid>
     Action: SUSPEND
     Starting: 2025-10-10T13:45:00.000Z

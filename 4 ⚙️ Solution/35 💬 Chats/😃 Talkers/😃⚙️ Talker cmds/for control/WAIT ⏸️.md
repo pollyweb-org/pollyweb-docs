@@ -198,7 +198,7 @@
 
     def talkerHandler(args):
         TALKER.Write({
-            'ChatID': CHAT_ID,
+            'Chat': CHAT_ID,
             'Placeholder': 'signal',
             'Value': 'READY'
         })

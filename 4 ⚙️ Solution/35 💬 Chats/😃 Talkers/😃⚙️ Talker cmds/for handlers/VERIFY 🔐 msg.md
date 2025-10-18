@@ -47,10 +47,10 @@
 
     ```yaml
     # Get the WalletID from the message
-    - EVAL|$.Msg.Header.From >> $walletID
+    - EVAL|$.Msg.Header.From >> $wallet
 
     # Get the Wallet item 🧑‍🦰
-    - GET|Wallets|$walletID >> $wallet
+    - GET|Wallets|$wallet >> $wallet
 
     # Verify the Message.
     - VERIFY|$.Msg|$wallet.PublicKey
