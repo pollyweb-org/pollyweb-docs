@@ -1,0 +1,21 @@
+@startuml Callback
+
+actor "User" as user
+participant "Talker 😃\nrole API" as talker
+participant "Callbacks 🪣\nTable" as callbacks
+participant "Message 📨\nHandler" as handler
+
+activate talker
+    talker -> callbacks: UPSERT {callback}    
+    talker --> user: Bindable@Broker {callback}
+deactivate talker
+
+activate user
+    user --> handler: Bound@Vault {data}
+deactivate user
+
+activate handler
+    handler -> callbacks: GET {callback}
+    callbacks --> handler: {callback}
+
+@enduml
