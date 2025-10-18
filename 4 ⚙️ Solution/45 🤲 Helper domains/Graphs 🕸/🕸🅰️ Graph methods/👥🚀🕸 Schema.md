@@ -6,7 +6,7 @@
 
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 
-* Gets the schema of a [Schema Code 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) 
+* Gets the schema of a [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) 
     * as defined in [`.MANIFEST/CODE` 🧩](<../../../30 🧩 Data/Manifests 📜/🧩 Manifest schemas/🧩 CODE.md>) 
     * of [domain Manifests 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest.md>).
 * When the schema references other schemas with `$ref`, 
@@ -32,7 +32,7 @@ Body:
 | Header| `From`    | string | The name of the [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) asking
 |       | `To`      | string | [Graph 🕸 domain](<../🕸🤲 Graph helper.md>) name
 |       | `Subject` | string | `Schema@Graph`
-| Body  | `Code`    | string | [Schema Code 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
+| Body  | `Code`    | string | [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 |
 
 
@@ -50,7 +50,7 @@ Format: IsElectric, Size, NeedsAssistant, DateOfBirth
 |Property|Type|Description
 |-|-|-
 | `Version`  | timestamp | Start of matching period
-| `Inherits` | timestamp | The base [Schema Code 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>), if inherited
+| `Inherits` | timestamp | The base [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>), if inherited
 | `Location` | string | URL to read the Schema from, if external
 | `Format`   | string | The structure of the Schema
 |

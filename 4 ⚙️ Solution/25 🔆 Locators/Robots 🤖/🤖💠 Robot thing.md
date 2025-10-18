@@ -13,7 +13,7 @@
 
     For a Brand to embed a Robot 🤖 into a traditional coffee machine, it needs the following:
     - a [Pluggable 🔌](<../../60 🧰 Edge/61 🔌 Pluggables/01 🔌 Pluggable device.md>) controller for the mechanical parts (e.g., Raspberry Pi);
-    - a [Schema Code 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) describing the commands and events in the Pluggable API;
+    - a [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) describing the commands and events in the Pluggable API;
     - an [Antenna 📡](<../../60 🧰 Edge/61 🔌 Pluggables/02 📡🔀 Antenna router.md>) to provide directional communication to the Pluggable controller;
     - a [Wi-Fier 🛜](<../../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>) to provide internet connectivity to the Antenna;
     - a Robot [Thing 💠](<../Things 💠/💠🔆 Thing locator.md>) [Locator 🔆](<../Locators 🔆/🔆 Locator.md>) created by a [Wand 🪄](<../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>);
@@ -34,12 +34,12 @@
 
 1. **How can Robots answer questions about their features?**
 
-    [Wands 🪄](<../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>) managing Robots use the [Schema Code 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) provided by the [Brand 🍏](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) to get the user manuals of the Robot 🤖, then typically feed it to a GenAI algorithm.
+    [Wands 🪄](<../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>) managing Robots use the [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) provided by the [Brand 🍏](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) to get the user manuals of the Robot 🤖, then typically feed it to a GenAI algorithm.
     
     ---
 
 1. **How can Robots execute commands?**
 
-    Additionally to answering questions, [Wands 🪄](<../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>) use the [Schema Code 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) provided by the [Brand 🍏](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) to get the API definition of the Robot's [Pluggable 🔌](<../../60 🧰 Edge/61 🔌 Pluggables/01 🔌 Pluggable device.md>) controller, then typically run it through a GenAI agent.
+    Additionally to answering questions, [Wands 🪄](<../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>) use the [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) provided by the [Brand 🍏](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) to get the API definition of the Robot's [Pluggable 🔌](<../../60 🧰 Edge/61 🔌 Pluggables/01 🔌 Pluggable device.md>) controller, then typically run it through a GenAI agent.
 
     ---

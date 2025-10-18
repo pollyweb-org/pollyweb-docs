@@ -38,7 +38,7 @@
 
     |Property| Description
     |-|-
-    | `🤝` | The versioned [Schema Code 🧩](<../../Codes 🧩/🧩 Schema Code.md>) of the envelope.
+    | `🤝` | The versioned [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>) of the envelope.
     | `From` | The name of the [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) who sent the message.
     | `To`| The name of the [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) for whom the message is intended.
     | `Correlation`| The unique ID in the sender, for deduping.
@@ -55,7 +55,7 @@
 
 1. **How do receiver domains handle upgraded schema versions?**
 
-    An NLWeb envelop contains a [Schema Code 🧩](<../../Codes 🧩/🧩 Schema Code.md>) that allows receivers to support multiple versions concurrently, handling incoming envelopes differently depending on its version;
+    An NLWeb envelop contains a [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>) that allows receivers to support multiple versions concurrently, handling incoming envelopes differently depending on its version;
     - e.g., `🤝: nlweb.dom/MSG:1.0`
     - Envelopes with unsupported versions are discarded.
 

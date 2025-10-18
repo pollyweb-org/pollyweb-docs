@@ -88,7 +88,7 @@
 
     The structure of the shared data is as follows.
    
-    | Data | [Schema Code 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
+    | Data | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
     |-|-
     | Social Name |  [`nlweb.dom/PERSONA/NAME/SOCIAL` 🧩](<../../../../50 🫥 Agent domains/Personas 🧢/🧢🧩 Persona schemas/🧩 NAME'SOCIAL.md>)
    

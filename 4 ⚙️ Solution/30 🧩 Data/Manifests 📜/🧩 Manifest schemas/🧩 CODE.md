@@ -40,10 +40,10 @@ Schema:
 
 | Property | Type | Notes|
 |-|-|-
-| `Path`| string | Relative path of the [Code 🧩](<../../Codes 🧩/🧩 Schema Code.md>)  or group
+| `Path`| string | Relative path of the [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>)  or group
 | [`Delegator 🧩`](<🧩 DELEGATE.md>) | string | Optional [Authority 🏛️ domain](<../../../45 🤲 Helper domains/Authorities 🏛️/🏛️🤲 Authority helper.md>) that delegated: <br/>- i.e., added it to [`.MANIFEST/DELEGATE` 🧩](<🧩 DELEGATE.md>)
-| `Name` | string | Human name of the [Schema Code 🧩](<../../Codes 🧩/🧩 Schema Code.md>) 
-| `Description`| string | Human  description of the [Schema Code 🧩](<../../Codes 🧩/🧩 Schema Code.md>)  
+| `Name` | string | Human name of the [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>) 
+| `Description`| string | Human  description of the [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>)  
 | `Resources`  | map | Dictionary of external resources
 | `Translations` | map | Dictionary of translations
 | `Version`       | string | Version in `major/breaks`.`minor/safe`   

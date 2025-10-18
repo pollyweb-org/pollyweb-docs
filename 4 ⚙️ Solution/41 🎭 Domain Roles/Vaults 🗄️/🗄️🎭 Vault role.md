@@ -53,7 +53,7 @@
 
     Yes. 
     - Upon a share request with the [Consumer 💼 host](<../Consumers 💼/💼🎭 Consumer role.md>) in a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>), users can authorize their [Vault 🗄️ domains](<🗄️🎭 Vault role.md>) to disclose a data set with that [Consumer 💼 domain](<../Consumers 💼/💼🎭 Consumer role.md>). 
-    - This requires both [Vault 🗄️](<🗄️🎭 Vault role.md>) and [Consumer 💼 host](<../Consumers 💼/💼🎭 Consumer role.md>) domains to [trust 👍](<../../30 🧩 Data/Trusts 👍/👍 Domain Trust.md>) one another for the [Schema Code 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) of the dataset to be shared.
+    - This requires both [Vault 🗄️](<🗄️🎭 Vault role.md>) and [Consumer 💼 host](<../Consumers 💼/💼🎭 Consumer role.md>) domains to [trust 👍](<../../30 🧩 Data/Trusts 👍/👍 Domain Trust.md>) one another for the [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) of the dataset to be shared.
 
     | | Workflow |  Description
     |-|-|-
