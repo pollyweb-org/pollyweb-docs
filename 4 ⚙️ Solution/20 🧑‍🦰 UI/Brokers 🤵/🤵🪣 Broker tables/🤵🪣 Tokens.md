@@ -20,6 +20,6 @@ Here's the [`GET` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talke
 # GET|Tokens|any-issuer.dom,<token-uuid>
 Issuer: any-issuer.dom
 TokenID: <token-uuid>
-WalletID: <wallet-uuid>
+Wallet: <wallet-uuid>
 Path: /path/file
 ```

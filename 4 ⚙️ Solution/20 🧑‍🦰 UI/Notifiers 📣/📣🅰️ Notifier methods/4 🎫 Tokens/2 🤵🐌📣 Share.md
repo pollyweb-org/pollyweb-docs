@@ -15,7 +15,7 @@ Header:
     To: any-notifier.dom
     Subject: Share@Notifier
 Body: 
-    WalletID: <wallet-id>
+    Wallet: <wallet-id>
     Chat: <chat-uuid>
     Consumer: any-consumer.dom
     Tokens: 
@@ -27,7 +27,7 @@ Body:
 | Header| `From`    | string | [Broker 🤵 domain](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) name
 | | `To`| string | [Notifier 📣 domain](<../../📣👥 Notifier domain.md>) name
 | | `Subject`| string | `Share@Notifier`
-| Body | `WalletID`| uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) ID from [`Onboard@Broker`](<../1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
+| Body | `Wallet`| uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) ID from [`Onboard@Broker`](<../1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
 || `Chat` | string | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Query@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Query.md>)
 || `Consumer` | string | [Consumer 💼](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) from [ `Query@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Query.md>)
 | | `Tokens`  | string[] | Paths from [`Saved@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🧑‍🦰🐌🤵 Saved.md>)

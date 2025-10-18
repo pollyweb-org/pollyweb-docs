@@ -21,7 +21,7 @@ Header:
     Subject: Charge@Notifier
     
 Body:
-    WalletID: <wallet-uuid>
+    Wallet: <wallet-uuid>
     Chat: <chat-uuid>
     Amount: <amount>
     Currency: <currency>

@@ -13,7 +13,7 @@ Header:
     Subject: Converse@Notifier
     
 Body:
-    WalletID: <wallet-uuid>
+    Wallet: <wallet-uuid>
     Reference: <reference-uuid>
     Chat: <chat-uuid>
     PrivateKey: <private-key>
@@ -28,7 +28,7 @@ Body:
 |Header|`From`|string | [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) from [`Assess@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/2 🤵🅰️ Locators/🧑‍🦰🐌🤵 Assess.md>)
 ||`To`|string| [Notifier 📣](<../../📣👥 Notifier domain.md>) from [`Onboard@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/1 🤵🅰️ Wallets 🧑‍🦰/📣🚀🤵 Onboard.md>)
 ||`Subject`|string|`Converse@Notifier`
-|Body  |`WalletID` |uuid  | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) ID from [`Assess@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/2 🤵🅰️ Locators/🧑‍🦰🐌🤵 Assess.md>)
+|Body  |`Wallet` |uuid  | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) ID from [`Assess@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/2 🤵🅰️ Locators/🧑‍🦰🐌🤵 Assess.md>)
 |       | `Reference`| uuid | Reference from [`Assess@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/2 🤵🅰️ Locators/🧑‍🦰🐌🤵 Assess.md>)
 |      |`Chat`   |uuid  | New [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID on the [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>)
 |      |`Host`     |string| [Host 🤗 domain](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) name

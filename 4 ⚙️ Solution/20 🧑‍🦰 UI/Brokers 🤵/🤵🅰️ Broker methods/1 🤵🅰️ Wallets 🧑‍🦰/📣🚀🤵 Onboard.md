@@ -37,10 +37,10 @@ Body:
 ## Sync Response
 
 ```yaml
-WalletID: <wallet-uuid>
+Wallet: <wallet-uuid>
 ```
 
 |Property|Type|Description
 |-|-|-
-| `WalletID` | uuid | The newly generated Wallet ID.
+| `Wallet` | uuid | The newly generated Wallet ID.
 |
