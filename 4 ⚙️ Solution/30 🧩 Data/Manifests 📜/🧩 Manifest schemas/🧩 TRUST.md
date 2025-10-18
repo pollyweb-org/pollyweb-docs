@@ -79,7 +79,7 @@
 Path: /MANIFEST/TRUST
 Name: Domain trust
 
-Schema:
+Blueprint:
   Version: 1.0
 
   Format:

@@ -13,6 +13,6 @@
 Path: /PALM/16+
 Description: Token for 16+
 
-Schema:  
+Blueprint:  
   Version: 1.0
   Inherits: nlweb.dom/TOKEN:1.0

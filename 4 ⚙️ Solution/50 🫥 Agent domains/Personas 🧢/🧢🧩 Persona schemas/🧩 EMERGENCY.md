@@ -14,7 +14,7 @@ Name: Emergency contacts
 Translations:
   pt: Contatos de emergência
 
-Schema:
+Blueprint:
     
   Properties:
     # List of:

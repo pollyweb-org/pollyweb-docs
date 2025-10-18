@@ -10,7 +10,7 @@
 ```yaml
 Path: /CRUD/ENTITY/PROPERTY
 
-Schema:
+Blueprint:
   Properties:
     - Default   # Default value for the user prompt.
     - Details   # Additional user prompt message.

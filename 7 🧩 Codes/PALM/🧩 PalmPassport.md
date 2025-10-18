@@ -16,7 +16,7 @@ Translations:
   - Language: pt-br
     Translation: Passaporte
 
-Schema:  
+Blueprint:  
   Version: 1.0
 
   Properties:

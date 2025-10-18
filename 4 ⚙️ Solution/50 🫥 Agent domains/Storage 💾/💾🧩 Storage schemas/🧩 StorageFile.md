@@ -11,7 +11,7 @@
 Path: /STORAGE/FILE
 Description: Schema of a file share when migrating storages.
 
-Schema:
+Blueprint:
   Location: https://nlweb.dom/schemas/file.json
   Format:
     type: object

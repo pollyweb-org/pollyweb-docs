@@ -17,5 +17,5 @@
 Path: /HOST
 Description: Locator of a Host.
 
-Schema:
+Blueprint:
   Inherits: nlweb.dom/LOCATOR:1.0

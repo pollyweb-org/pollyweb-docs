@@ -15,7 +15,7 @@ Description: >
   Used by vaults to authenticate users before disclosures.
   * On AWS, see Rekognition Face Liveness - mzraghib@. 
 
-Schema:
+Blueprint:
   Version: 1.0
 
   Properties:

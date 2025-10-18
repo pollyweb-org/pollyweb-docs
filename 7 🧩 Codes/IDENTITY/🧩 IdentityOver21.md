@@ -15,7 +15,7 @@ Description: >
   Used by verify if the person is over 21 years old.
   This is drinking age in the United States.
 
-Schema:
+Blueprint:
   Version: 1.0
 
   Properties:

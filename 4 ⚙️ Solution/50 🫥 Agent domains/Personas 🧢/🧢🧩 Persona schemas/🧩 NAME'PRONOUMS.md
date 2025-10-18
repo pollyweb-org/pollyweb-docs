@@ -23,7 +23,7 @@ References:
 Translations:
   pt: Pronomes pessoais de gênero
 
-Schema:
+Blueprint:
 
   Format: 
     type: string

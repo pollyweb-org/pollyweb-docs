@@ -18,7 +18,7 @@ Description: >
 Translations:
   pt: Nome amigável
 
-Schema:
+Blueprint:
 
   Properties:
     - Name      # Preferred friendly name

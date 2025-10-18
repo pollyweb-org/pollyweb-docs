@@ -6,7 +6,7 @@
 Path: /DEPLOY/STACK
 Name: Deploy Stack
 
-Schema:
+Blueprint:
   Version: 1.0
 
   Properties:

@@ -16,7 +16,7 @@ Description: >
   - The entity should remain unavailable until there is at least one
     item in the table of the dependent entities.
 
-Schema:
+Blueprint:
   Properties:
     - From  # Entity providing the information.
     - Show  # Returned property to show to the user.

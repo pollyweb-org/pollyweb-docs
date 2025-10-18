@@ -13,7 +13,7 @@ Name: Entity Export
 Description: >
   Definition of an exportable code supported by the entity.
 
-Schema:
+Blueprint:
   Properties:
     - Format  # Export only one item, or all items: ONE|MANY
     - If      # Export only if the given property is True.

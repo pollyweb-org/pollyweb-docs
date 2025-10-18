@@ -15,7 +15,7 @@ Description: Share contact info for bookings.
 Translations:
   pt-br: Contacto para agendamentos
 
-Schema:
+Blueprint:
     
   Properties:
     - Name     # String /PERSONA/NAME/SOCIAL

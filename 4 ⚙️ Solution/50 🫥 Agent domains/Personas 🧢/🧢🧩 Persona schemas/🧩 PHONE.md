@@ -18,7 +18,7 @@ Translations:
   pt-pt: Número de telefone
   pt-br: Contato telefônico
 
-Schema:
+Blueprint:
 
   Format:
     type: string 

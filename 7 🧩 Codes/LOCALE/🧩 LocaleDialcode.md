@@ -12,7 +12,7 @@ Path: /LOCALE/DIALCODE
 Name: Country dialing codes response
 Description: List of country dialing codes, for UI lists.
 
-Schema:
+Blueprint:
   Version: 1.0
 
   Properties:

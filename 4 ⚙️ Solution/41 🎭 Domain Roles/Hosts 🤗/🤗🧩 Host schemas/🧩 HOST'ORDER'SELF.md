@@ -18,7 +18,7 @@ Translations:
   - Language: pt-br
     Translation: Encomenda
 
-Schema:  
+Blueprint:  
   Version: 1.0
   Inherits: nlweb.dom/TOKEN:1.0
   

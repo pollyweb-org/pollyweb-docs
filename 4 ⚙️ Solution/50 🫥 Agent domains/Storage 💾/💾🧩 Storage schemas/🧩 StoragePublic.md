@@ -16,5 +16,5 @@ Translations:
   - Language: pt-br
     Translation: Itens publicos
 
-Schema:
+Blueprint:
   

@@ -14,7 +14,7 @@ Name: Position
 Description: 
   Geografic coordinates of a location in latitude and longitude.
 
-Schema:  
+Blueprint:  
 
   Properties:
     - Latitude  

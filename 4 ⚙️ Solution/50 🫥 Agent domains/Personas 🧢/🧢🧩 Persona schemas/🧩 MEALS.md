@@ -17,7 +17,7 @@ Description: >
 Translations:
   pt-br: Preferências alimentares
 
-Schema: 
+Blueprint: 
   Format: 
     type: array
     items:

@@ -20,7 +20,7 @@ Translations:
 References:
   GOV.UK Design System: https://design-system.service.gov.uk/patterns/names/
 
-Schema:
+Blueprint:
 
   Properties:
     - Name      # Legal name

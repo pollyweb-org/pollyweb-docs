@@ -12,7 +12,7 @@ Path: /CRUD/ENTITY/ABOUT
 Name: Entity About
 Description: Singleton configuration of the entitity.
 
-Schema:
+Blueprint:
   Properties:
     - Details  # Detailed information about the entity.
     - Format   # Indicates the multiplicity, ex. [ONE,MANY]

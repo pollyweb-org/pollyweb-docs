@@ -19,7 +19,7 @@ Description: >
 Translations:
   pt: Grupo de Viagem
 
-Schema:
+Blueprint:
 
   Properties:
     - Name       # First and last name of the person.
