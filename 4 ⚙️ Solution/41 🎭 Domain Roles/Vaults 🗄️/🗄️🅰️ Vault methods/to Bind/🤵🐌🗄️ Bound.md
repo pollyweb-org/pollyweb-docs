@@ -47,24 +47,24 @@ Body:
 
 ```yaml
 # Resolve the callback
-- GET|Hooks@Talker|$Msg.Hook >> $hook
+- GET|Hooks@Talker|$.Msg.Hook >> $hook
 
 # Get the user
-- GET|Chats@Host|$Msg.Chat >> $chat
+- GET|Chats@Host|$.Msg.Chat >> $chat
 
 # Process each Bind
-- PARALLEL|$Msg.Binds >> $bind:
+- PARALLEL|$.Msg.Binds >> $bind:
 
     # Save each Bind
     - SAVE|Binds@Vault:
-        Broker: $Msg.From
+        Broker: $.Msg.From
         Bind: $bind.Bind
         Schema: $bind.Schema
         User: $chat.User
 
 # Continue the Chat
 - REEL|$hook:
-    $Msg.Binds
+    $.Msg.Binds
 ```
 
 | [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | Purpose

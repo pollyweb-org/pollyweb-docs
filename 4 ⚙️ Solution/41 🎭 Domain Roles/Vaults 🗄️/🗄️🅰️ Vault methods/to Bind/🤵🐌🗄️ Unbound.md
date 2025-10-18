@@ -38,7 +38,13 @@ Body:
 ## Handler
 
 ```yaml
+# Delete from the table
 - DELETE|Binds@Vault:
-    Broker: $Msg.From
+    Broker: $.Msg.From
     Bind: $bind.Bind
 ```
+
+| [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | Purpose
+|-|-
+| 🗑️ [DELETE](<DELETE 🗑️ item.md>) | Delete from the [Binds 🪣](<../../🗄️🪣 Vault tables/🗄️🪣 Binds.md>) table
+|
