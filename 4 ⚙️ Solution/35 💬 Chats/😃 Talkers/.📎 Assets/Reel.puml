@@ -1,0 +1,32 @@
+@startuml Callback
+
+participant "Hooks\nTable 🪣" as hooks
+participant "Host\nTalker 😃" as talker
+participant "Message\nHandler 📨" as handler
+actor "User" as user
+
+activate talker
+    talker -> talker: BIND 🔗
+group Internal
+    talker -> hooks: SAVE {hook}    
+    talker --> user: Bindable 🐌 {hookID}
+end group
+deactivate talker
+
+activate user
+    user --> handler: Bound 🐌 {hookID}
+deactivate user
+
+activate handler
+    handler -> hooks: GET {hookID}
+    activate hooks
+        hooks -> handler: {hook}
+    deactivate hooks
+    handler -> talker: REEL {hook}
+deactivate handler
+
+activate talker
+    talker -> talker: IF {hook.Result}: \n Then: SUCCESS ✅
+deactivate talker
+
+@enduml
