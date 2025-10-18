@@ -1,13 +1,56 @@
 # 🪧 Prompt Statement
 
+> Part of [Prompts 🤔](<../🤔 Prompt.md>)
+
+<br/>
+
+1. **What are Prompt statements?**
+
+    [Prompt 🤔](<../🤔 Prompt.md>) statements are the main message sent in a [Chat 💬](<../../💬 Chats/💬 Chat.md>).
+
+    ---
+    <br/>
+
+1. **What's an example of a Prompt statement?**
+   
+    | [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+    | - | - | - |
+    | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ This is the statement
+    |
+
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
+    
+    ```yaml
+    - INFO|This is the statement
+    ```
+
+    ---
+    <br/>
+
+1. **What is supported in Prompt statements?**
+
+    |Support | Details | Examples
+    |-|-|-
+    | Strings | A static text | `ABC` `123` `Any text`
+    | [Placeholders 💾](<../../😃 Talkers/😃⚙️ Talker cmds/for data/$Placeholder 💾.md>) | 
+
+    ---
+    <br/>
+
 1. **How does interpolation work?**
 
-    |#|Steps
-    |-|-
-    |1| If it starts with `$` then look up placeholders.
-    |2| If not, evaluate `{}` content as 
+    ---
+    <br/>
 
-    |Type| Behavior| Input| Format| Result
-    |-|-|-|-|-
-    |`
-    |`text` | 
+1. **What are the syntaxes supported for evaluation?**
+   
+    |Type| Scope | Evaluated ✅ | Ignored ❌
+    |-|-|-|-
+    | [Placeholders 💾](<../../😃 Talkers/😃⚙️ Talker cmds/for data/$Placeholder 💾.md>) | Custom |`$p` `{$p}`| `p` `$p *`
+    | | Internal  |`$.p` `{$.p}`| `.p` `$.p *`
+    | [Functions 🐍](<../../😃 Talkers/😃⚙️ Talker cmds/for data/{Function} 🐍.md>) | Custom |`f()` `f(*)` `{f}` | `f` `f() *`
+    | | Internal |`.f()` `.f(*)` `{.f}` | `.f` `.f() *`
+    | Interpolated | Strings  | `{$p} & {f}` | `$p & f()`
+
+    ---
+    <br/>
