@@ -175,9 +175,9 @@
     Statement: 😃 What to do?
     Options: 
         - ID: Play
-          Translation: Play music 
+          Title: Play music 
         - ID: Share
-          Translation: Share list
+          Title: Share list
     ```
 
     <br/>
@@ -250,11 +250,11 @@
     Statement: 😃 What to do?
     Options: 
         - ID: Play
-          Translation: Play music 
+          Title: Play music 
         - ID: Share
-          Translation: Share list
+          Title: Share list
         - ID: Speak                     
-          Translation: Speak with singer
+          Title: Speak with singer
           Locator: .HOST,any-artist.com,fans
     ```
 

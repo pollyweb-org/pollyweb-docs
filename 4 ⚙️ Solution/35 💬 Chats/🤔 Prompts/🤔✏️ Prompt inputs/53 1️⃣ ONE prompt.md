@@ -98,9 +98,9 @@
     Statement: 😃 Which one?
     Options: 
         - ID: A
-          Translation: Option A
+          Title: Option A
         - ID: B
-          Translation: Option A
+          Title: Option A
     ```
 
     <br/>
