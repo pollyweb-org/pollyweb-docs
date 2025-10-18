@@ -10,7 +10,7 @@
 
 ## ⏩ Flow diagram
 
-![alt text](<.📎 Assets/Wait.png>)
+![alt text](<../.📎 Assets/Wait.png>)
 
 | # | Call | Description
 |-|-|-

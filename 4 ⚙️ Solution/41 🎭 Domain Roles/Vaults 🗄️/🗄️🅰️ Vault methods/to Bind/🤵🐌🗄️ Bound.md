@@ -68,6 +68,7 @@ Body:
 | 🗺️ [`MAP`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/MAP 🗺️ item.md>) | Get the [Callback 🪣](<../../🗄️🪣 Vault tables/🗄️🪣 Callbacks.md>) from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)  
 | ️️*️⃣ [`PARALLEL`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/PARALLEL *️⃣.md>) | Process each [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
 | 🛢 [`UPSERT`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/UPSERT 🛢 item.md>) | Save the [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to the [Binds 🪣](<../../🗄️🪣 Vault tables/🗄️🪣 Binds.md>) table
+| 😃 [`CALLBACK`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/CALLBACK 😃.md>) | Continue the [Talker 😃](<../../../../35 💬 Chats/😃 Talkers/😃 Talker.md>)
 |
 
 

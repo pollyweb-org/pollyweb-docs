@@ -10,7 +10,7 @@
 
 ## ⏩ Flow diagram
 
-![alt text](<.📎 Assets/Handle.png>)
+![alt text](<../.📎 Assets/Handle.png>)
 
 | # | Call | Description
 |-|-|-
