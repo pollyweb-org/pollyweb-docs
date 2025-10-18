@@ -22,7 +22,7 @@ Header:
 Body:
     Chat: <chat-uuid>
     Token: <token-uuid>
-    Code: any-authority/ANY-CODE
+    Schema: any-authority/ANY-CODE
     Version: 1.0.0
     Starts: 2018-12-10T13:45:00.000Z
     Expires: 2018-12-10T13:45:00.000Z
@@ -35,7 +35,7 @@ Body:
 ||`Subject`|string|`Offer@Broker`
 |Body  |`Chat` |uuid  | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🤵🐌🤗 Hello.md>)
 | |`Token` |uuid  | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ID
-|      |`Code`   |string| [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) 
+|      |`Schema`   |string| [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) 
 |      |`Version`|string| Schema version|      
 |      |`Starts` |timestamp| Valid from
 |      |`Expires`|timestamp| Valid until

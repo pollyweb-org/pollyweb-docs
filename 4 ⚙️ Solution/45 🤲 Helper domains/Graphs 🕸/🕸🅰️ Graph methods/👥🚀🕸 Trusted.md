@@ -1,5 +1,5 @@
 <!-- Docs: https://quip.com/hgz4A3clvOes#temp:C:bDA0807933d618043e6b1873dc74 -->
-<!-- Code: https://github.com/jorgemjfonseca/domain-trust-framework/blob/9a3c5abe16dda8cbacd2529bc859fd9d708f85d9/python/backbone/graph/GRAPH.py#L255 -->
+<!-- Source: https://github.com/jorgemjfonseca/domain-trust-framework/blob/9a3c5abe16dda8cbacd2529bc859fd9d708f85d9/python/backbone/graph/GRAPH.py#L255 -->
 
 # 👥🚀🕸 Trusted @ Graph
 
@@ -28,7 +28,7 @@ Header:
 Body:
     Domain: any-vault.dom
     Role: VAULT
-    Code: any-authority.org/CODE/SUBCODE
+    Schema: any-authority.org/CODE/SUBCODE
 ```
 
 |Object|Property|Type|Description
@@ -38,7 +38,7 @@ Body:
 |       | `Subject` | string | `Trusted@Graph`
 | Body  | `Domain`  | string | The [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) name to assess.
 |       | `Role`    | enum   | The domain role to assess: `VAULT`, `CONSUMER`, `*`
-|       | `Code`    | string | The [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to assess.
+|       | `Schema`    | string | The [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to assess.
 |
 
 <br/>

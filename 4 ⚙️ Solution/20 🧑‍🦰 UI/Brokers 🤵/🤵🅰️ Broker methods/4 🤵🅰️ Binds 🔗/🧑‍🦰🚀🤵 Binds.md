@@ -38,7 +38,7 @@ Binds:
   - Bind:  <bind-uuid>
     Vault: any-vault.dom
     VaultTitle: AnyVault
-    Code: any-authority.org/ANY-CODE
+    Schema: any-authority.org/ANY-CODE
     CodeTitle: Any Code
 ```
 
@@ -48,6 +48,6 @@ Binds:
 | Bind     | `Bind`   | uuid  | [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) ID from [`Bound@Vault`](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/to Bind/🤵🐌🗄️ Bound.md>)
 |          | `Vault`    | string| [Vault 🗄️](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)  from [`Bound@Vault`](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/to Bind/🤵🐌🗄️ Bound.md>)
 |          | `VaultTitle`| string| [Vault 🗄️ domain](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) title
-|          | `Code`     | string| [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
+|          | `Schema`     | string| [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 |          | `CodeTitle`| string| [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) title
 |

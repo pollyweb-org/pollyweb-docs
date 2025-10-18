@@ -26,7 +26,7 @@ Body:
     Hook: <hook-uuid>
     Binds:
       - Bind: <bind-uuid>
-        Code: europa.eu/DISABILITY/CARD
+        Schema: europa.eu/DISABILITY/CARD
 ```
 
 |Object|Property|Type|Description
@@ -38,7 +38,7 @@ Body:
 || `Hook` | uuid | [Hook 🪝](<../../../../35 💬 Chats/😃 Talkers/😃🪣 Talker tables/😃🪣 Hooks 🪝.md>) from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)
 ||`Binds`| array | list of Bind objects
 |Bind| `Bind`| uuid | [Bind 🔗 ID](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) on the [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>)
-|| `Code`| string | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)  from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)
+|| `Schema`| string | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)  from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)
 |
 
 <br/>
@@ -59,7 +59,7 @@ Body:
     - UPSERT|Binds@Vault:
         Broker: $Msg.From
         Bind: $bind.Bind
-        Code: $bind.Code
+        Schema: $bind.Schema
         User: $chat.User
 
 # Continue the Chat

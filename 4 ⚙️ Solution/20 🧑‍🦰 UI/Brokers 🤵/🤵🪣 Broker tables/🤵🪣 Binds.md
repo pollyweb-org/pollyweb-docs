@@ -7,9 +7,9 @@ Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 
 
 ```yaml
 # Binds.yaml
-Key: ID
+Key: Bind
 Parents:
-    Wallet: WalletID >> Wallets
+    Wallet: Wallet >> Wallets
     Vault: Vault >> Vaults
 ```
 
@@ -19,8 +19,8 @@ Here's the [`GET` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talke
 
 ```yaml
 # GET|Binds|<bind-id>
-ID: <bind-id>
+Bind: <bind-id>
 Vault: any-vault.dom
 Wallet: <wallet-uuid>
-Code: .BIND
+Schema: .BIND
 ```

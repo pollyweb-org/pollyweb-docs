@@ -93,7 +93,7 @@
             Subject: Query@Broker
         Body:
             Chat: <chat-uuid>
-            Codes:
+            Schemas:
               - icao.int/PASSPORT
               - usa.gov/DRIVER-LICENSE
         ```
@@ -114,7 +114,7 @@
             To: any-graph.dom
             Subject: Schema@Graph
         Body:
-            Code: .LOCATOR:1.0
+            Schema: .LOCATOR:1.0
         ```
 
     ---
@@ -210,7 +210,7 @@
     * Using the `Inherits` property
         * defined in [`.MANIFEST/CODE` 🧩](<../Manifests 📜/🧩 Manifest schemas/🧩 CODE.md>).
     * Consider [`.LOCATOR` 🧩](<../../../7 🧩 Codes/$/🧩 LOCATOR code.md>)
-        * who defines properties `Code`, `Domain`, `Resource`.
+        * who defines properties `Schema`, `Domain`, `Resource`.
     * It is inherited by [`.TOKEN` 🧩](<../Tokens 🎫/🧩 Token schemas/🧩 TOKEN.md>)
         * who adds properties `Issued`, `Starts`, `Expires`, `Signature`.
     * Then inherited by [`.HOST/BOOKING` 🧩](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🧩 Host schemas/🧩 HOST'BOOKING.md>)

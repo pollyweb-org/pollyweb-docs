@@ -34,7 +34,7 @@ Trusts:
 ```    
 
 ```yaml
-Codes:
+Schemas:
 
   # Regulate the Disability Card on behalf of the European Union.
   - Delegator: europa.eu

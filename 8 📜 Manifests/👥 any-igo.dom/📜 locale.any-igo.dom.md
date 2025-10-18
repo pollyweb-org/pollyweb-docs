@@ -28,7 +28,7 @@ Datasets:
       Language: Code@standards.any-igo.dom/639-1
       
 
-Codes: 
+Schemas: 
 
   - Path: /TERRITORY
     Name: Country/Region (Territory) Names

@@ -15,7 +15,7 @@ Delegates:
 
   # Delegate the definition of SSR codes.
   - Delegate: airlines-ssr.any-igo.dom
-    Code: /SSR
+    Schema: /SSR
     
 
 Trusts:

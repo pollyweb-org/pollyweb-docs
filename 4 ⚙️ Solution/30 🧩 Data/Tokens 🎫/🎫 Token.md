@@ -183,7 +183,7 @@
     [Tokens 🎫](<🎫 Token.md>) derive from [Locators 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>), so they contain the following properties.
 
     ```yaml
-    Code: .TOKEN
+    Schema: .TOKEN
     Domain: any-issuer.dom
     Token: <token-uuid>
     Properties:
@@ -193,7 +193,7 @@
 
     |Property| Type | Details
     |-|-|-
-    | `Code` | string |  [`.TOKEN`](<🧩 Token schemas/🧩 TOKEN.md>)
+    | `Schema` | string |  [`.TOKEN`](<🧩 Token schemas/🧩 TOKEN.md>)
     | `Domain` | string | The [Issuer 🎴 domain](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) name
     | `Token` | uuid |  The resource key in the [Issuer 🎴](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)
     | `Properties` | object | Any optional data fields

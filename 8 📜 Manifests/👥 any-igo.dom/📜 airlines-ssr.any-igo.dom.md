@@ -22,7 +22,7 @@ Datasets:
 ```
 
 ```yaml
-Codes:
+Schemas:
 ```
 
 ```yaml

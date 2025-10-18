@@ -15,7 +15,7 @@ About:
     Home: https://www.itu.int/en/Pages/default.aspx
     Wikipedia: https://en.wikipedia.org/wiki/International_Telecommunication_Union
 
-Codes:
+Schemas:
 
   - Path: /ISD
     Name: International Subscriber Dialing (ISD)

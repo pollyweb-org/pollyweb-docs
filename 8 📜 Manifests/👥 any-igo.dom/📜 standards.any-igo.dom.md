@@ -9,7 +9,7 @@ About:
   Name: ISO, International Organization for Standardization
 
 
-Codes:
+Schemas:
 
   # --------------------------------------------------
   # [🧩](<../../4 ⚙️ Solution/30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) /639-1 (Language codes)

@@ -51,7 +51,7 @@
 
     # Ask to select from the menu.
     - SHARE >> $selection: # 🧚 
-        Code: .CURATOR/ORDER 
+        Schema: .CURATOR/ORDER 
         Context: 
           Menu: {./menu.yaml}
           Order: {$order}
@@ -69,7 +69,7 @@
     
     # Ask the user's Vitalogist to review.
     - SHARE >> $review: # 💖
-        Code: .VITALOGIST/REVIEW
+        Schema: .VITALOGIST/REVIEW
         Context: 
           Order: {$order.Details}
 
@@ -138,10 +138,10 @@
         order: 
             Verb: order
             Steps:
-            - Code: .CURATOR/FILTER
+            - Schema: .CURATOR/FILTER
               Purpose: your curator orders 🧚
-            - Code: .VITALOGIST/REVIEW
+            - Schema: .VITALOGIST/REVIEW
               Purpose: your vitalogist reviews 💖 
-            - Code: .PAYER/CHARGE
+            - Schema: .PAYER/CHARGE
               Purpose: your payer pays the bill 💳              
     ```

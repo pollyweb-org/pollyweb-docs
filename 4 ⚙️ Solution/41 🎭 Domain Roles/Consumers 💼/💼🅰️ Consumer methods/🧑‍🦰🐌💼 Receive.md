@@ -23,7 +23,7 @@ Body:
     Tokens: 
       - Issuer: any-issuer.dom
         Token: ANY-TOKEN-KEY
-        Code: airlines.any-igo.dom/SSR/WCH:1 
+        Schema: airlines.any-igo.dom/SSR/WCH:1 
         ...
 ```
 

@@ -12,7 +12,7 @@ About:
     Wikipedia: https://en.wikipedia.org/wiki/Unicode_Consortium
 
 
-Codes: 
+Schemas: 
 
   - Path: /FLAG
     Description: >

@@ -105,7 +105,7 @@
 
     - INVITE >> $billed:        
         Invitee: any-biller.com # Invite the Biller
-        Code: .BILLER/SUBSCRIBE # Run the subscription
+        Schema: .BILLER/SUBSCRIBE # Run the subscription
     
     - FREEZE >> $inputs:        # Freeze all inputs
         Billed: $billed         # Add billing info
