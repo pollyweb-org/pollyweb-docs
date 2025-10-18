@@ -1,6 +1,6 @@
 # [🧩](<../../4 ⚙️ Solution/30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) `.VAULT`
 
-* Default [Schema Code 🧩](<../../4 ⚙️ Solution/30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) 
+* Default [Schema 🧩](<../../4 ⚙️ Solution/30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) 
     * for [Vault 🗄️ domains](<../../4 ⚙️ Solution/41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>).
 
 * Used with:

@@ -37,7 +37,7 @@ Body:
 | Body  | `Consumer`| string | [Consumer 💼 domain](<../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) name
 |       | `Binds`   | object[]   | List of [Bind 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) objects
 | Bind  | `Vault`   | string | The [Vault 🗄️ domain](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) name to assess
-|       | `Code`    | string | The [Schema Code 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to assess
+|       | `Code`    | string | The [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to assess
 |
 
 <br/>
@@ -57,7 +57,7 @@ Binds:
 |-|-|-|-
 |Top    | `Binds`   | list      | List of queryable [Binds 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
 |Bind   | `Vault`   | string    | Queryable [Vault 🗄️ domain](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) name
-|       | `Code`    | string    | Queryable [Schema Code 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
+|       | `Code`    | string    | Queryable [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 |       | `Paths`   | string[][]| The chain of [Trusts 👍](<../../../30 🧩 Data/Trusts 👍/👍 Domain Trust.md>)
 |
 

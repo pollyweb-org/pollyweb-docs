@@ -36,8 +36,8 @@
     [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) are shared with Consumers 💼 by [Broker 🤵 domains](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) in a number of ways.
 
     - **Request on a chat**: 
-        - in a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>), [Consumers 💼](<💼🎭 Consumer role.md>) can ask the user to share a specific [Schema Code 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>);
-        - if the user accepts, the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) shares with the [Consumer 💼](<💼🎭 Consumer role.md>) both the [bound 🔗 Vaults](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) and the downloaded [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) that match that [Schema Code 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>);
+        - in a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>), [Consumers 💼](<💼🎭 Consumer role.md>) can ask the user to share a specific [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>);
+        - if the user accepts, the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) shares with the [Consumer 💼](<💼🎭 Consumer role.md>) both the [bound 🔗 Vaults](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) and the downloaded [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) that match that [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>);
         - e.g., an airline may ask a user to share their passport [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>).
 
     - **On chat hello**: 
@@ -58,7 +58,7 @@
 
     Yes. Just like with first-party cookies on Web 2.0 internet. 
     
-    - [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) using a [Schema Code 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) marked as SELF are silently shared with [Consumer 💼 domains](<💼🎭 Consumer role.md>), who can then track users;
+    - [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) using a [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) marked as SELF are silently shared with [Consumer 💼 domains](<💼🎭 Consumer role.md>), who can then track users;
     - e.g., a luxury holding company with multiple brands may issue a loyalty card for a specific branded stored, then use that card to track the user across all businesses it manages.
 
     ---
@@ -78,9 +78,9 @@
     
 1. **How can Consumers validate the data schema when consuming?**
 
-    When consuming data from a [Vault 🗄️ domain](<../Vaults 🗄️/🗄️🎭 Vault role.md>), the data envelope indicates the [Schema Code 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) and the version (e.g., `any-authority.com/any-schema:1.0`). 
+    When consuming data from a [Vault 🗄️ domain](<../Vaults 🗄️/🗄️🎭 Vault role.md>), the data envelope indicates the [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) and the version (e.g., `any-authority.com/any-schema:1.0`). 
     
-    - The code identifies the [domain Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) where the [Schema Code 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) is defined (e.g., `any-schema` is defined in the [domain Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) of `any-authority.com`), so [Consumer 💼 domains](<💼🎭 Consumer role.md>) can then fetch the schema definitions from a cached [Graph 🕸 domain](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) or directly from the [Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>).
+    - The code identifies the [domain Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) where the [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) is defined (e.g., `any-schema` is defined in the [domain Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) of `any-authority.com`), so [Consumer 💼 domains](<💼🎭 Consumer role.md>) can then fetch the schema definitions from a cached [Graph 🕸 domain](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) or directly from the [Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>).
 
     ---
     <br/>

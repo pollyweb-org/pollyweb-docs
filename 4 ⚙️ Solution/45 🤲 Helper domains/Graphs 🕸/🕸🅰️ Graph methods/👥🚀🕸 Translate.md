@@ -57,11 +57,11 @@ Codes:
 |Object|Property|Type|Description
 |-|-|-|-
 |Top    | `Domains`     | object[]  | List of [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) objects
-|       | `Codes`       | object[]  | List of [Schema Code 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) objects
+|       | `Codes`       | object[]  | List of [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) objects
 |Domain | `Domain`      | string    | The [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) name
 |       | `Translation` | string    | The [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) title
-|Code   | `Code`        | string    | The [Schema Code 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
-|       | `Translation` | string    | The [Schema Code 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) title
+|Code   | `Code`        | string    | The [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
+|       | `Translation` | string    | The [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) title
 |
 
 <br/>

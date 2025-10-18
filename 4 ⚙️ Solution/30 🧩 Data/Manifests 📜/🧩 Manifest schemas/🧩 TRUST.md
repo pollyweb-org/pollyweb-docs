@@ -44,7 +44,7 @@
 || `INHERIT` | Inherits all revokes from a [Firewall 🔥 domain](<../../../45 🤲 Helper domains/Firewalls 🔥/🔥🤲 Firewall helper.md>).
 |
   
-* Note: When a [Schema Code 🧩](<../../Codes 🧩/🧩 Schema Code.md>) is removed from [`.MANIFEST/TRUSTS`](<🧩 TRUST.md>), 
+* Note: When a [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>) is removed from [`.MANIFEST/TRUSTS`](<🧩 TRUST.md>), 
     * domains should explicitly inform the `REVOKE`;
     * otherwise, it might not be propagated by [Graph 🕸 domains](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>).
 

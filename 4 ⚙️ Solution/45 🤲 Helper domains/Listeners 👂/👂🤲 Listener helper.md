@@ -93,8 +93,8 @@
     |-|-|-
     | `Identity` | Encompassing the Identity object of a [domain Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>). | `Identity`
     | `Trust/{key}` | Containing a single [Trust 👍](<../../30 🧩 Data/Trusts 👍/👍 Domain Trust.md>) relationship identified by a unique key. | `Trust/my-key`
-    | `Code/{key}` | Containing a single [Schema Code 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) definition identified by a unique key. | `Code/SSR/MEAL`
-    | `Code/{key}:{version}` | Containing a version of the schema definition for [Schema Code 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) identified. | `Code/SSR/MEAL:1.0`
+    | `Code/{key}` | Containing a single [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) definition identified by a unique key. | `Code/SSR/MEAL`
+    | `Code/{key}:{version}` | Containing a version of the schema definition for [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) identified. | `Code/SSR/MEAL:1.0`
     | `Delegate/{key}` | For a delegation identified by a unique key. | `Delegate/my-key`
     | `Offer/{key}` | For an offer identified by a unique key. | `Offer/my-key`
     
