@@ -18,7 +18,7 @@ Header:
 
 Body:
 
-   Bind:  <bind-uuid>
+   Bind: <bind-uuid>
    Collector: any-collector.dom
    Chat: 
       Host: any-seller.dom

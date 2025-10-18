@@ -22,7 +22,7 @@ Body:
     Chat: <chat-uuid>
     Consumer: any-coffee-shop.com
     Language: en-us
-    Bind:  <bind-uuid>
+    Bind: <bind-uuid>
 ```
 
 |Object|Property|Type|Description

@@ -35,7 +35,7 @@ Body:
 
 ```yaml
 Binds:
-  - Bind:  <bind-uuid>
+  - Bind: <bind-uuid>
     Vault: any-vault.dom
     VaultTitle: AnyVault
     Schema: any-authority.org/ANY-CODE
