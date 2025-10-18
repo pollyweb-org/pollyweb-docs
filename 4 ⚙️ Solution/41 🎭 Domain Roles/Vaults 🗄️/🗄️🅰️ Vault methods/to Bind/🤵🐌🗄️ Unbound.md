@@ -20,7 +20,7 @@ Header:
     Subject: Unbound@Vault
     
 Body:
-    Bind:  <bind-uuid>
+    Bind: <bind-uuid>
 ```
 
 |Object|Property|Type|Description
@@ -31,3 +31,14 @@ Body:
 |Body| `Bind`| uuid | [Bind 🔗 ID](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)  from [`Bound@Vault`](<🤵🐌🗄️ Bound.md>)
 |
 
+
+
+<br/>
+
+## Handler
+
+```yaml
+- DELETE|Binds@Vault:
+    Broker: $Msg.From
+    Bind: $bind.Bind
+```
