@@ -16,7 +16,7 @@ Header:
     Subject: Invited@Helper
 
 Body:
-    ChatID: <chat-uuid>
+    Chat: <chat-uuid>
     Inviter: any-consumer.dom
     Code: any-authority.com/ANY-CODE:1.0
     Callback: <callback-uuid>
@@ -30,7 +30,7 @@ Body:
 |Header|`From`     | string  | [Broker 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) from [`Invite@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Invite.md>)
 ||`To`       | string  | [Helper 🤲](<../🤲👥 Helper domain.md>) from [`Invite@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Invite.md>)
 ||`Subject` | string | `Invited@Helper`
-|Body|`ChatID`   | uuid    | [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) from [`Invite@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Invite.md>)
+|Body|`Chat`   | uuid    | [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) from [`Invite@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Invite.md>)
 ||`Inviter`  | string  | [Consumer 💼 ](<../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) from [`Invite@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Invite.md>)
 ||`Code`     | string  | [Code 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) from [`Invite@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Invite.md>)
 ||`Callback` | uuid    | Callback from [`Invite@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Invite.md>)

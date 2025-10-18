@@ -22,7 +22,7 @@ Header:
     
 Body:
     WalletID: <wallet-uuid>
-    ChatID: <chat-uuid>
+    Chat: <chat-uuid>
     Amount: <amount>
     Currency: <currency>
     Reason: <reason>

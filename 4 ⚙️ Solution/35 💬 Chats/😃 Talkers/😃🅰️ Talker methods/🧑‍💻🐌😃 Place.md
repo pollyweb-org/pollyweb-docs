@@ -21,7 +21,7 @@ Header:
     Subject: Place@Talker
 
 Body:
-    ChatID: <chat-uuid>
+    Chat: <chat-uuid>
     Placeholder: $p
     Value: {A:1, B:2}
 ```
@@ -31,7 +31,7 @@ Body:
 | Header    | `From`        | string    | [Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) name
 |           | `To`          | string    | [Hoster ☁️ domain](<../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) name
 |           | `Subject`     | string    | `Place@Talker`
-| Body      | `ChatID`      | uuid      | [Chat 💬](<../../💬 Chats/💬 Chat.md>) ID
+| Body      | `Chat`      | uuid      | [Chat 💬](<../../💬 Chats/💬 Chat.md>) ID
 |           | `Placeholder` | string    | [$Placeholder 💾](<../😃⚙️ Talker cmds/for data/$Placeholder 💾.md>) name
 |           | `Value`       | any    | Any value to write
 |

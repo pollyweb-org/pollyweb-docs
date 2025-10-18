@@ -92,7 +92,7 @@
             To: any-broker.dom
             Subject: Query@Broker
         Body:
-            ChatID: <chat-uuid>
+            Chat: <chat-uuid>
             Codes:
               - icao.int/PASSPORT
               - usa.gov/DRIVER-LICENSE

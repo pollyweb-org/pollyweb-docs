@@ -23,7 +23,7 @@ Header:
     Subject: Goodbye@Broker
     
 Body:
-    ChatID: <chat-uuid>
+    Chat: <chat-uuid>
 ```
 
 |Object|Property|Type|Description
@@ -31,5 +31,5 @@ Body:
 |Header|`From`     | string  | [Host 🤗 domain](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)
 ||`To`       | string  | [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>)
 ||`Subject` | string | `Goodbye@Broker`
-|Body|`ChatID`   | uuid    | ID of the [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) 
+|Body|`Chat`   | uuid    | ID of the [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) 
 |
