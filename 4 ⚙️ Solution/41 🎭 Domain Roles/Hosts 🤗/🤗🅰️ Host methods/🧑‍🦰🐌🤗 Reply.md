@@ -18,6 +18,7 @@ Header:
     From: Anonymous
     To: any-host.dom
     Subject: Reply@Host
+    
 Body: 
     Chat: <chat-uuid>
     Prompt: <prompt-uuid>
