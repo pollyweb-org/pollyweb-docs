@@ -31,7 +31,7 @@
 
     ```yaml
     # Handler
-    - MAP|Callbacks|$.Msg.Callback >> $callback
+    - GET|Callbacks|$.Msg.Callback >> $callback
     - CALLBACK|$callback
     ```
 

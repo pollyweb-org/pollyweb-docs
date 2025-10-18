@@ -144,7 +144,7 @@
     WaitInLine:
 
     # Check the status of the queue.
-    - MAP|Queues|MyQueue >> $len
+    - GET|Queues|MyQueue >> $len
 
     # Show the status in a human-friendly wait.
     - CASE|{$len}:
@@ -169,7 +169,7 @@
     |-|-
     | 🔀 [`CASE`](<CASE 🔀.md>) | To show the human-friendly message.
     | ⬇️ [`EVAL`](<../for data/EVAL ⬇️ flow.md>) | to assess the backend queue length.
-    | 🗺️ [`MAP`](<../for data/MAP 🗺️ item.md>) | To get the queue length from resources.
+    | 🗺️ [`GET`](<../for data/GET 🗺️ item.md>) | To get the queue length from resources.
     | 🔁 [`REPEAT`](<REPEAT 🔁.md>) | To re-assess the queue periodically.
     | 🔁 [`RETURN`](<REPEAT 🔁.md>) | To exit the loop when it's the user's turn.
     | ▶️ [`RUN`](<RUN ▶️.md>) | To start the waiting loop.

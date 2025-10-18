@@ -15,10 +15,10 @@ Parents:
 
 ## Example
 
-Here's the [`MAP` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/MAP 🗺️ item.md>) result.
+Here's the [`GET` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET 🗺️ item.md>) result.
 
 ```yaml
-# MAP|Binds|<bind-id>
+# GET|Binds|<bind-id>
 ID: <bind-id>
 Vault: any-vault.dom
 WalletID: <wallet-uuid>

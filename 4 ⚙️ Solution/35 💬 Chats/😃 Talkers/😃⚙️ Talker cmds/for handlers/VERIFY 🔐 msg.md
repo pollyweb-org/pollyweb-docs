@@ -50,7 +50,7 @@
     - EVAL|$.Msg.Header.From >> $walletID
 
     # Get the Wallet item 🧑‍🦰
-    - MAP|Wallets|$walletID >> $wallet
+    - GET|Wallets|$walletID >> $wallet
 
     # Verify the Message.
     - VERIFY|$.Msg|$wallet.PublicKey
@@ -59,7 +59,7 @@
     | [Command ⌘](<../for control/⌘ Command.md>) | Purpose
     |-|-
     | ⬇️ [`EVAL`](<../for data/EVAL ⬇️ flow.md>) | To get the Wallet ID from the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>).
-    | 🪣 [`MAP`](<../for data/MAP 🗺️ item.md>) | To get the Public Key of the Wallet item.
+    | 🗺️ [`GET`](<../for data/GET 🗺️ item.md>) | To get the Public Key of the Wallet item.
 
     ---
     <br/>

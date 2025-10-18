@@ -10,13 +10,13 @@
 💬 Handler:
 
 # Get the Wallet 🧑‍🦰
-- MAP|Wallets|$.Msg.Header.From >> $wallet
+- GET|Wallets|$.Msg.Header.From >> $wallet
 
 # Verify the Message.
 - VERIFY|$.Msg|$wallet.PublicKey
 
 # Get the Token 🎫
-- MAP|$wallet.Tokens|$.Msg.Body.Key >> $token
+- GET|$wallet.Tokens|$.Msg.Body.Key >> $token
 
 # Ask for an action.
 - ONE|What do you need?:
