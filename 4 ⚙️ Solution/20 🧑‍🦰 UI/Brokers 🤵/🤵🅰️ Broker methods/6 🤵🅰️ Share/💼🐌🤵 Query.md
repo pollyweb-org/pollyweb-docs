@@ -25,7 +25,7 @@ Header:
 
 Body:
     Chat: <chat-uuid>
-    ConsumerKey: <consumer-key>
+    Hook: <hook-uuid>
     Schemas:
       # either the driver's license,
       - usa.gov/DRIVER-LICENSE:1.0
@@ -40,7 +40,7 @@ Body:
 | | `To` | string | [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) name
 | | `Subject` | string | `Query@Broker`
 | Body | `Chat` | string | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID
-| | `ConsumerKey`| uuid | [`Consume@Consumer`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>) callback
+| | `Hook`| uuid | Hook for [`Consume@Consumer`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>) 
 | | `Schemas` | string[] | List of [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 |
 
