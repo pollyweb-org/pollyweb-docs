@@ -19,7 +19,7 @@ Header:
     To: any-host.dom
     Subject: Reply@Host
 Body: 
-    ChatID: <chat-uuid>
+    Chat: <chat-uuid>
     PromptID: <prompt-uuid>
     Result: OK # Default
     Answer: [Starter, Main, Coffee]
@@ -31,7 +31,7 @@ Body:
 | Header    | `From`        | string    | `Anonymous`
 |           | `To`          | string    | [Sender 🤗](<../🤗🎭 Host role.md>) from [`Prompt@Notifier`](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
 |           | `Subject`     | string    | `Prompted@Host`
-| Body      | `ChatID` | uuid | [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Prompt@Notifier`](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
+| Body      | `Chat` | uuid | [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Prompt@Notifier`](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
 ||`PromptID`    | uuid      | [Prompt 🤔](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) ID from [`Prompt@Notifier`](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/2 💬 Chats/2 🤵🐌📣 Prompt.md>)
 || `Result`| enum | `OK` `CANCEL` `YES` `NO` 
 || `Answer` | any | Answer to the [Prompt 🤔](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>)

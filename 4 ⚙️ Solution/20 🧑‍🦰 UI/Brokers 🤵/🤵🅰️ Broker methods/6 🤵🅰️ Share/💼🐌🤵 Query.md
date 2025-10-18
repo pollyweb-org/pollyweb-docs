@@ -24,7 +24,7 @@ Header:
     Subject: Query@Broker
 
 Body:
-    ChatID: <chat-uuid>
+    Chat: <chat-uuid>
     ConsumerKey: <consumer-key>
     Codes:
       # either the driver's license,
@@ -39,7 +39,7 @@ Body:
 | Header | `From`| sting | [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) name
 | | `To` | string | [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) name
 | | `Subject` | string | `Query@Broker`
-| Body | `ChatID` | string | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID
+| Body | `Chat` | string | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID
 | | `ConsumerKey`| uuid | [`Consume@Consumer`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>) callback
 | | `Codes` | string[] | List of [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 |

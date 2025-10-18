@@ -20,7 +20,7 @@ Header:
     Subject: Placed@Talker
 
 Body:
-    ChatID: <chat-uuid>
+    Chat: <chat-uuid>
     Placeholder: $p
 ```
 
@@ -30,7 +30,7 @@ Body:
 | Header    | `From`        | string    | [Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) name
 |           | `To`          | string    | [Hoster ☁️ domain](<../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) name
 |           | `Subject`     | string    | `Placed@Talker`
-| Body      | `ChatID`      | uuid      | [Chat 💬](<../../💬 Chats/💬 Chat.md>) ID
+| Body      | `Chat`      | uuid      | [Chat 💬](<../../💬 Chats/💬 Chat.md>) ID
 |           | `Placeholder` | string    | [$Placeholder 💾](<../😃⚙️ Talker cmds/for data/$Placeholder 💾.md>) name
 |
 

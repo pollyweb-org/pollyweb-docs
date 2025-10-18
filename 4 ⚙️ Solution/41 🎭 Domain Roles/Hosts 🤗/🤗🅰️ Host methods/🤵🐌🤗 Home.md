@@ -44,7 +44,7 @@ Header:
     Subject: Home@Host
 
 Body:
-    ChatID: <chat-uuid>
+    Chat: <chat-uuid>
 ```
 
 |Object|Property|Type|Description
@@ -52,5 +52,5 @@ Body:
 |Header|`From`|string | [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) name
 ||`To`|string| [Host 🤗 domain](<../🤗🎭 Host role.md>) name
 ||`Subject`|string|`Home@Host`
-|Body  |`ChatID`   |uuid  | [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Hello@Host`](<🤵🐌🤗 Hello.md>)
+|Body  |`Chat`   |uuid  | [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Hello@Host`](<🤵🐌🤗 Hello.md>)
 |

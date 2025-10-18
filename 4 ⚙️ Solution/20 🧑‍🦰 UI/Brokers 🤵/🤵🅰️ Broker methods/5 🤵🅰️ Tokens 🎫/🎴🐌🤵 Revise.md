@@ -33,7 +33,7 @@ Body:
 |Header|`From`|string|[Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) name
 | |`To`|string|[Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) name
 | |`Subject`|string|`Revoke@Broker`
-|Body|`ChatID`|string|[Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID
+|Body|`Chat`|string|[Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID
 | |`TokenID`|string|[Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ID
 | |`Action`| enum | `REVOKE` `SUSPEND` `ACTIVATE` `UPDATE`
 | |`Starting`| timestamp | Start date and time

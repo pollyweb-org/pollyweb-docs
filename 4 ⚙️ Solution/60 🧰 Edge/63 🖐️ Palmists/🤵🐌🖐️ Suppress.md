@@ -18,7 +18,7 @@ Header:
     
 Body:
     Consumer: any-consumer.dom
-    ChatID: <chat-uuid>
+    Chat: <chat-uuid>
 ```
 
 |Object|Property|Type|Description
@@ -27,7 +27,7 @@ Body:
 || `To` | string | [Vault 🗄️ domain](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)
 || `Subject` | string | `Suppress@Vault`
 |Body| `Consumer` | string | [Consumer 💼 domain](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)
-|| `ChatID`| uuid | [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID
+|| `Chat`| uuid | [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID
 |
 
 <br/>

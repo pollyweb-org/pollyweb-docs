@@ -44,7 +44,7 @@
         Subject: Invite@Broker
 
     Body:
-        ChatID: <chat-uuid>
+        Chat: <chat-uuid>
         Invitee: any-identity.dom
         Callback: <callback-uuid>
         Code: nlweb.dom/IDENTITY/VERIFY
