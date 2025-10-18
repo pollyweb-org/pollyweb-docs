@@ -42,7 +42,7 @@
     | Argument| Purpose |
     |-|-
     | `$hook`| [Hooks 🪣 item](<../../😃🪣 Talker tables/😃🪣 Hooks 🪝.md>) saved by the [Command ⌘](<../for control/⌘ Command.md>) | -
-    | `{response}` | [Command ⌘](<../for control/⌘ Command.md>) output to a [Placeholder 💾](<../for data/$Placeholder 💾.md>)
+    | `{response}` | [Command ⌘](<../for control/⌘ Command.md>) output to a [Placeholder 🧠](<../for data/$Placeholder 🧠.md>)
 
     ---
     <br/>

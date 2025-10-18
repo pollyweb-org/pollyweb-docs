@@ -32,7 +32,7 @@
     |Support | Details | Examples
     |-|-|-
     | Strings | A static text | `ABC` `123` `Any text`
-    | [Placeholders 💾](<../../😃 Talkers/😃⚙️ Talker cmds/for data/$Placeholder 💾.md>) | 
+    | [Placeholders 🧠](<../../😃 Talkers/😃⚙️ Talker cmds/for data/$Placeholder 🧠.md>) | 
 
     ---
     <br/>
@@ -46,7 +46,7 @@
    
     |Type| Scope | Evaluated ✅ | Ignored ❌
     |-|-|-|-
-    | [Placeholders 💾](<../../😃 Talkers/😃⚙️ Talker cmds/for data/$Placeholder 💾.md>) | Custom |`$p` `{$p}`| `p` `$p *`
+    | [Placeholders 🧠](<../../😃 Talkers/😃⚙️ Talker cmds/for data/$Placeholder 🧠.md>) | Custom |`$p` `{$p}`| `p` `$p *`
     | | Internal  |`$.p` `{$.p}`| `.p` `$.p *`
     | [Functions 🐍](<../../😃 Talkers/😃⚙️ Talker cmds/for data/{Function} 🐍.md>) | Custom |`f()` `f(*)` `{f}` | `f` `f() *`
     | | Internal |`.f()` `.f(*)` `{.f}` | `.f` `.f() *`
