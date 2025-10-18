@@ -31,26 +31,24 @@
 
     |Support | Details | Examples
     |-|-|-
-    | Strings | A static text | `ABC` `123` `Any text`
-    | [Placeholders 🧠](<../../😃 Talkers/😃⚙️ Talker cmds/for data/$Placeholder 🧠.md>) | 
+    | Strings | Static text | `ABC` `123` `Any text`
+    | [Placeholders 🧠](<../../😃 Talkers/😃⚙️ Talker cmds/for data/$Placeholder 🧠.md>) | Stored values | `$p` `$.Msg`
+    | [Functions 🐍](<../../😃 Talkers/😃⚙️ Talker cmds/for data/{Function} 🐍.md>) | Calculations | `f()` `f(*)` `{f}` `{f()}`
+    | Interpolations   | Mixed text | `See {$p} and {f}.`
 
     ---
     <br/>
 
-1. **How does interpolation work?**
-
-    ---
-    <br/>
 
 1. **What are the syntaxes supported for evaluation?**
    
-    |Type| Scope | Evaluated ✅ | Ignored ❌
+    |Type| Scope | Evaluated ✅ | Text ❌
     |-|-|-|-
     | [Placeholders 🧠](<../../😃 Talkers/😃⚙️ Talker cmds/for data/$Placeholder 🧠.md>) | Custom |`$p` `{$p}`| `p` `$p *`
-    | | Internal  |`$.p` `{$.p}`| `.p` `$.p *`
+    | | Internal  |`$.Msg` `$.p` `{$.p}`| `.p` `$.p *`
     | [Functions 🐍](<../../😃 Talkers/😃⚙️ Talker cmds/for data/{Function} 🐍.md>) | Custom |`f()` `f(*)` `{f}` | `f` `f() *`
     | | Internal |`.f()` `.f(*)` `{.f}` | `.f` `.f() *`
-    | Interpolated | Strings  | `{$p} & {f}` | `$p & f()`
+    | Interpolations | -  | `{$p} & {f}` | `$p & f()`
 
     ---
     <br/>
