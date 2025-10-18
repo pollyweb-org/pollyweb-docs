@@ -15,7 +15,7 @@
 ```yaml
 Path: /LOCATOR
 
-Schema:
+Blueprint:
   Version: 1.0
   
   Properties:

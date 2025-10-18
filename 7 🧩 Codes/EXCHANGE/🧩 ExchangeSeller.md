@@ -10,5 +10,5 @@ Description: Seller QR in an Exchange.
 References:
   NLWEB: https://quip.com/aFtfA9e0CqQX/-ExchangeNLWEBorg
 
-Schema:
+Blueprint:
   Inherits: nlweb.dom/LOCATOR:1.0

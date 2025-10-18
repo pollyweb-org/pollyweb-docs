@@ -14,7 +14,7 @@ Name: External list property
 Descrition: >
   Loads ONE|MANY options from an external domain.
 
-Schema:
+Blueprint:
   Properties:
     - From  # Domain providing the information.
     - Read  # Code structure to read from the source.

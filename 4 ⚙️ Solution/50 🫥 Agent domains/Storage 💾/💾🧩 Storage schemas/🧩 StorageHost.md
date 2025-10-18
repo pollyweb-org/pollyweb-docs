@@ -16,7 +16,7 @@ Translations:
   - Language: pt-br
     Translation: Armazem
 
-Schema:
+Blueprint:
   Location: https://en.wikipedia.org/wiki/Domain_name
   Format:
     type: string

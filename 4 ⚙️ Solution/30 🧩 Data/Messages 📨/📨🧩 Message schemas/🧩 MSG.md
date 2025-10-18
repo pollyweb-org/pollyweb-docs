@@ -12,7 +12,7 @@
 ```yaml
 Path: /MSG
 
-Schema: 
+Blueprint: 
   Version: 1.0
   
   Properties: 

@@ -10,7 +10,7 @@ Description: Share allergy info.
 Translations:
   pt: Alergias
 
-Schema:
+Blueprint:
 
   Properties:
     - Allergy # e.g. Peanuts

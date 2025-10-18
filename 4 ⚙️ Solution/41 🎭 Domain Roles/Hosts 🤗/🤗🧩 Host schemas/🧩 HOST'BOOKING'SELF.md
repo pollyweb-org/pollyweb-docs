@@ -13,6 +13,6 @@
 Path: /HOST/BOOKING/SELF
 Description: Token for a self booking.
 
-Schema:
+Blueprint:
   Version: 1.0
   Inherits: nlweb.dom/HOST/BOOKING:1.0

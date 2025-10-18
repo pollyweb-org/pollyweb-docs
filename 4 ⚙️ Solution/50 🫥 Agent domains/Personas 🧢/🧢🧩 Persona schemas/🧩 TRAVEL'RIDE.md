@@ -12,7 +12,7 @@ Name: Ride Preferences
 Description: >
   Ride preferences during a trip, for example in a taxi.
 
-Schema:  
+Blueprint:  
 
   Properties:
     - Conversation    # [QUITE, MUSIC, CHAT, WHATEVER]

@@ -6,7 +6,7 @@
 Path: /DEPLOY/STACK/RESOURCE
 Name: Deploy Stack Resource
  
-Schema:
+Blueprint:
   Version: 1.0
 
   Properties:

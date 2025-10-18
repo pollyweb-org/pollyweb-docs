@@ -12,7 +12,7 @@ Path: /LOCALE/COUNTRY
 Name: Country response
 Description: List of countries, for UI lists.
 
-Schema:
+Blueprint:
   Version: 1.0
 
   Properties:

@@ -26,7 +26,7 @@
 Path: /MANIFEST
 Name: Domain Manifest
 
-Schema:
+Blueprint:
   Version: 1.0
 
   Format:

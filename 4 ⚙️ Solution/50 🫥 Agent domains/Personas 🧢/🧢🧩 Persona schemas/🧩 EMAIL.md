@@ -11,7 +11,7 @@
 Path: /PERSONA/EMAIL
 Name: Email address
 
-Schema:
+Blueprint:
 
   Format:
     type: string

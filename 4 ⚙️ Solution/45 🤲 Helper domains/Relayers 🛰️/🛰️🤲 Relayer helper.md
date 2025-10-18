@@ -9,6 +9,7 @@
     * owned by other [domains 👥](<../../40 👥 Domains/👥 Domain.md>).
   
     ---
+    <br/>
 
 
 1. **Why are Relayer domains important?**
@@ -19,6 +20,7 @@
     | `API`| Relayer 🛰️ helpers help translate the machine-level APIs of [Pluggable 🔌 devices](<../../60 🧰 Edge/61 🔌 Pluggables/01 🔌 Pluggable device.md>) into natural language commands described in the [API Schema Code 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) specified by the [Pluggable's Brand 🍏 domain](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>), thus allowing LLMs to use natural language to control the devices.
 
     ---
+    <br/>
 
 1. **How do Relayers work?**
 
@@ -30,7 +32,7 @@
     |1| `Antenna` | The on-premise [Antenna 📡 router device](<../../60 🧰 Edge/61 🔌 Pluggables/02 📡🔀 Antenna router.md>) creates a bidirectional channel with the Relayer 🛰️ helper.
     |2| `Pluggable` | The [Antenna 📡](<../../60 🧰 Edge/61 🔌 Pluggables/02 📡🔀 Antenna router.md>) detects the connection with the [Pluggable 🔌 device](<../../60 🧰 Edge/61 🔌 Pluggables/01 🔌 Pluggable device.md>) and informs the Relayer 🛰️.
     |3| `Brand` | The Relayer 🛰️ registers the [Pluggable's Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) in the [Pluggable's Brand 🍏 domain](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>).
-    |4| `API Schema`| The [Brand 🍏](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) tells the Relayer 🛰️ where to read the [API Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) of the [Pluggable 🔌 device](<../../60 🧰 Edge/61 🔌 Pluggables/01 🔌 Pluggable device.md>).
+    |4| `ApiSchema`| The [Brand 🍏](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) tells the Relayer 🛰️ where to read the [API Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) of the [Pluggable 🔌 device](<../../60 🧰 Edge/61 🔌 Pluggables/01 🔌 Pluggable device.md>).
     |5| `Graph`|  The Relayer 🛰️ domain reads the [API Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) from a [Graph 🕸 helper domain](<../Graphs 🕸/🕸🤲 Graph helper.md>).
     |6| `Domain` | The Relayer 🛰️ domain informs the owner [domain 👥](<../../40 👥 Domains/👥 Domain.md>) of the newly-plugged [Pluggable 🔌 device](<../../60 🧰 Edge/61 🔌 Pluggables/01 🔌 Pluggable device.md>).
     |A| `Command`| The owner [domain 👥](<../../40 👥 Domains/👥 Domain.md>) sends a natural language command (e.g., `Test`) on the [Pluggable 🔌 device](<../../60 🧰 Edge/61 🔌 Pluggables/01 🔌 Pluggable device.md>).
@@ -41,6 +43,7 @@
     |Z| `Propagate` | The Relayer 🛰️ sends sends the translated events to the [Buffer ⏳ helper](<../Buffers ⏳/⏳🤲 Buffer helper.md>) of the owner [domain 👥](<../../40 👥 Domains/👥 Domain.md>).
 
     ---
+    <br/>
 
 
 1. **How do domains send commands to Pluggables?**
@@ -55,3 +58,4 @@
     | `Parameters`| Any command parameters, as defined by the [Pluggable's API Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>).
 
     ---
+    <br/>

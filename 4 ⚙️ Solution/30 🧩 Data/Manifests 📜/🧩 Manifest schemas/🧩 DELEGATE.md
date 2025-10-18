@@ -35,7 +35,7 @@
 Path: /MANIFEST/DELEGATE
 Name: Domain delegate
 
-Schema:
+Blueprint:
   Version: 1.0
 
   Format:

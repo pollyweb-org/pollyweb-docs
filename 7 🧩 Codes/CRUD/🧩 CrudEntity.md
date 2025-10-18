@@ -12,7 +12,7 @@ Path: /CRUD/ENTITY
 Name: CRUD Entity
 Description: Configuration of a CRUD entity.
 
-Schema:
+Blueprint:
   Properties:
     - About       # Singleton configuration of the entitity.
     - Properties  # List of properties in the entity.

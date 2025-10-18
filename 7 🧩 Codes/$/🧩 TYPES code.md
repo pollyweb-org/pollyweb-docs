@@ -10,7 +10,7 @@
 ```yaml
 Path: /TYPES
 
-Schema: 
+Blueprint: 
   Format: 
     properties: 
 

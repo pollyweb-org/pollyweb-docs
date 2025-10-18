@@ -24,7 +24,7 @@ Translations:
   en: Any Code
   pt: Um código qualquer
 
-Schema: 
+Blueprint: 
   Version: 1.0
   Inherits: .TOKEN:1.0
   Location: https://schema.org/Person
@@ -78,13 +78,13 @@ Schema:
 
 * Example of a parent sequence:
   ```yaml 
-  # Schema: nlweb.dom/TOKEN:1.0
+  # Blueprint: nlweb.dom/TOKEN:1.0
   Properties: [ Code, Version, Issuer, Locator, Issued, Expires, *, Signature ]
   ```
 
 * Example of an inherited token with additional metadata:
   ```yaml
-  # Schema: airlines.any-igo.dom/SSR/WCHR:1.0
+  # Blueprint: airlines.any-igo.dom/SSR/WCHR:1.0
   Inherits: nlweb.dom/TOKEN:1.0
   Properties: [ IsElectric, Size, NeedsAssistant, DateOfBirth ]
   ```
@@ -106,7 +106,7 @@ Schema:
 Path: /MANIFEST/CODE
 Description: Authority-managed code.
 
-Schema:
+Blueprint:
   Version: 1.0
 
   Format:
@@ -128,7 +128,7 @@ Schema:
         items: 
           $ref: .MANIFEST/TRANSLATION
       
-      Schema: 
+      Blueprint: 
         type: object
         required: []
         properties:

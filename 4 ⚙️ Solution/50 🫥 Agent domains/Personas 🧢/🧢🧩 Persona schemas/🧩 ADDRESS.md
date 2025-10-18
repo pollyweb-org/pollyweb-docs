@@ -22,7 +22,7 @@ Translations:
   pt-pt: Morada
   pt-br: Endereço
 
-Schema:  
+Blueprint:  
 
   Properties:
     - Country         # ISO 3166-1 alpha-2 country code

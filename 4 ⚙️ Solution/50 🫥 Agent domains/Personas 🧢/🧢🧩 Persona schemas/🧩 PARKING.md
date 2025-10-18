@@ -19,7 +19,7 @@ References:
 Translations:
   pt: Viatura
 
-Schema:
+Blueprint:
 
   Properties:
     - Plate   # The registration plate.

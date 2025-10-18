@@ -25,7 +25,7 @@
 Path: /MANIFEST/OFFER
 Name: Domain service offer
 
-Schema: 
+Blueprint: 
 
   Example: 
     Dataset: Code@standards.any-igo.dom/639-1

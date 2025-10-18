@@ -14,7 +14,7 @@ Name: Delivery address
 Translations:
   pt: Endereço de entrega
 
-Schema: 
+Blueprint: 
 
   Properties:
     - Recipient # A name of a person or organization.

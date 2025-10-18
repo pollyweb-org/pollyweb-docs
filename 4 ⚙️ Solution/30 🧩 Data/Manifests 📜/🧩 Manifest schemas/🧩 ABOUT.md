@@ -44,7 +44,7 @@ About:
 Path: /MANIFEST/ABOUT
 Name: Domain identification
 
-Schema:
+Blueprint:
   Version: 1.0
 
   Format:

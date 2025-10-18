@@ -21,7 +21,7 @@ References:
 Translations:
   pt: Nome social
 
-Schema:
+Blueprint:
 
   Properties:
     - Name      # Preferred social name

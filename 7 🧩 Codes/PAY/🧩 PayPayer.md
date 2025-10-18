@@ -19,7 +19,7 @@ Translations:
   - Language: pt-br
     Translation: Pagador
     
-Schema:
+Blueprint:
   Version: 1.0
   Location: https://en.wikipedia.org/wiki/Domain_name
   Format: 
