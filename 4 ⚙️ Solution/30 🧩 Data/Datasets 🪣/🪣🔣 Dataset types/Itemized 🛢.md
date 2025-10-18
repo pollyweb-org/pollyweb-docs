@@ -9,38 +9,73 @@
 1. **Whats the syntax for itemized schemas?**
 
     ```yaml
-    # <table-name>.yaml
-
-    Key: <property-1> [,<property-n>]
-
-    Parents:
-        <alias-1>: <property-1> >> <parent-table-1>
-        <alias-n>: <property-n> >> <parent-table-n> 
-        
-    Children:
-        <child-table-1>: <property-in-child-1>
-        <child-table-n>: <property-in-child-n>
-        <grand-children-x>: <my-child-x>.<their-child-z>
+    # No parents nor children
+    Key: <k1>[,<kN>]
     ```
+
+    |Argument|Details|Example
+    |-|-|-
+    |`<k1>[,<kN>]`  | Key combination | `Col1` `Col1,Col2`
+    
+    
+    ```yaml
+    # With parents
+    Key: <k1>[,<kN>]
+    Parents:
+        <parent-alias>: <parent-table>|<k1>[,<kN>]
+    ```
+
+    |Argument|Details|Example
+    |-|-|-
+    | `<parent-alias>` | Added property  | `Customer`
+    | `<parent-table>` | Parent table  | `AllCustomers`
+    
+    
+    ```yaml
+    # With children
+    Key: <k1>[,<kN>]
+    Children:
+        <child-alias>: <child-table>|<k1>[,<kN>]
+    ```
+
+    |Argument|Details|Example
+    |-|-|-
+    | `<child-alias>`  | Added property  | `Items`
+    | `<child-table>`  | Child table  | `AllItems`
+
+    ```yaml
+    # With grand-children
+    Key: <k1>[,<kN>]
+    Children:
+        <child-alias>: <child-table>|<k1>[,<kN>]
+        <grand-alias>: .<child-alias>|<grand-table>|<k1>[,<kN>]
+    ```
+
+    |Argument|Details|Example
+    |-|-|-
+    | `<grand-alias>`  | Added property  | `Category`
+    | `<grand-table>`  | Grand-children table  | `AllCategories`
     
     ---
     <br/>
 
 1. **What's an example of an itemized schema?**
 
+    |Table|Key|Col2|Col3 | Usage
+    |-|-|-|-|-
+    |As|Aid|    | X      | `$b.MyA.X`
+    |Bs|Bid|Aid | Y     | `$b.Y`
+    |Cs|Cid|Bid | Did    | `$b.MyCs`
+    |Ds|Did|            || `$b.MyDs`
+
     ```yaml
-    # MyTable.yaml
-
-    Key: MyID
-
+    # Bs.yaml
+    Key: Bid
     Parents:
-        ParentA: MyParentAID >> ParentATable
-        ParentB: MyParentBID >> ParentBTable
-        
+        MyA: As|Aid   
     Children:
-        ChildA: MyIDInChildA
-        ChildB: MyIDInChildB
-        GrandChildrenX: ChildA.TheirChildX
+        MyCs: Cs|Bid
+        MyDs: .MyCs|Ds|Did
     ```
 
     ---

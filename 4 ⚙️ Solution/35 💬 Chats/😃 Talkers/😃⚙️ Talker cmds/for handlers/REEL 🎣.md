@@ -1,9 +1,10 @@
-<!-- TODO: -->
 
-# 🔐 Talker `REEL` command
+
+# 🎣 Talker `REEL` command
 
 > Part of [Talker 😃](<../../😃 Talker.md>)
 
+<!-- TODO: examples -->
 > Used in [`Bound@Vault`](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/to Bind/🤵🐌🗄️ Bound.md>)
 
 <br/>
@@ -17,8 +18,22 @@
     ---
     <br/>
 
-1. **What's the syntax of REEL?**
+1. **What's the syntax of REEL for Synchronous Requests?**
 
+    ```yaml
+    REEL:
+      {response}
+    ```
+    
+    | Argument| Purpose |
+    |-|-
+    | `{response}` | Response for the [Synchronous Request 🚀](<Request Sync 🚀.md>)
+
+    ---
+    <br/>
+
+1. **What's the syntax of REEL for Async Messages?**
+   
     ```yaml
     REEL|$hook:
       {response}
@@ -28,8 +43,7 @@
     |-|-
     | `$hook`| [Hooks 🪣 item](<../../😃🪣 Talker tables/😃🪣 Hooks 🪝.md>) saved by the [Command ⌘](<../for control/⌘ Command.md>) | -
     | `{response}` | [Command ⌘](<../for control/⌘ Command.md>) output to a [Placeholder 💾](<../for data/$Placeholder 💾.md>)
-    
-    
+
     ---
     <br/>
 

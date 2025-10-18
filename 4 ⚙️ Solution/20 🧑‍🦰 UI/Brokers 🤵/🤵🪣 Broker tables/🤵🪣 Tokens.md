@@ -8,8 +8,8 @@ Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 
 # Tokens.yaml
 Key: Issuer, Token
 Parents:
-    Wallet: Wallet >> Wallets
-    Issuer: Issuer >> Issuers
+    Wallet: Wallets|Wallet
+    Issuer: Issuers|Issuer
 ```
 
 ## Example

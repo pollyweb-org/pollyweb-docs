@@ -6,9 +6,9 @@ Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 
 
 ```yaml
 # Vaults.yaml
-Key: Domain
+Key: Vault
 Children: 
-    Binds: Vault
+    Binds: Binds|Vault
 ```
 
 ## Example
@@ -17,6 +17,6 @@ Here's the [`GET` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talke
 
 ```yaml
 # GET|Vaults|any-vault.dom
-Domain: any-vault.dom
+Vault: any-vault.dom
 Title: Any Vault
 ```

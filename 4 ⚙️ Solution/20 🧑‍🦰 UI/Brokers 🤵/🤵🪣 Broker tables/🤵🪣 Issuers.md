@@ -7,9 +7,9 @@ Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 
 
 ```yaml
 # Issuers.yaml
-Key: Domain
+Key: Issuer
 Children: 
-    Tokens: Issuer
+    Tokens: Tokens|Issuer
 ```
 
 ## Example
@@ -18,6 +18,6 @@ Here's the [`GET` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talke
 
 ```yaml
 # GET|Issuers|any-issuer.dom
-Domain: any-issuer.dom
+Issuer: any-issuer.dom
 Title: Any Issuer
 ```

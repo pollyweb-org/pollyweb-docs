@@ -9,8 +9,8 @@ Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 
 # Binds.yaml
 Key: Bind
 Parents:
-    Wallet: Wallet >> Wallets
-    Vault: Vault >> Vaults
+    Wallet: Wallets|Wallet
+    Vault: Vaults|Vault
 ```
 
 ## Example

@@ -6,9 +6,9 @@ Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 
 
 ```yaml
 # Notifiers.yaml
-Key: Domain
+Key: Notifier
 Children:
-    Wallets: Notifier
+    Wallets: Wallets|Notifier
 ```
 
 ## Example
@@ -17,5 +17,5 @@ Here's the [`GET` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talke
 
 ```yaml
 # GET|Notifiers|any-notifier.dom
-Domain: any-notifier.dom
+Notifier: any-notifier.dom
 ```
