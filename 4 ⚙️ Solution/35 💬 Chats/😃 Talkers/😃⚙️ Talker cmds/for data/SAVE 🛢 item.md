@@ -1,6 +1,6 @@
 <!-- TODO: detail the relation with database -->
 
-# 🛢 Talker `UPSERT` command
+# 🛢 Talker `SAVE` command
 
 > Part of [Talker 😃](<../../😃 Talker.md>)
 
@@ -9,17 +9,17 @@
 <br/>
 
 
-1. **What's the syntax of an upsert (insert or update)?**
+1. **What's the syntax of a SAVE?**
 
     ```yaml
     # Single item
-    - UPSERT|<pool>:
+    - SAVE|<pool>:
         {object}
     ```
 
     ```yaml
     # Multiple items in all-or-nothing transaction.
-    - UPSERT:
+    - SAVE:
         - <pool-1>: {object-1}
         - <pool-n>: {object-n}
     ```
@@ -44,7 +44,7 @@
         a: 1
     
     # Save or fail on concurrent saves.
-    - UPSERT|$item 
+    - SAVE|$item 
     ```
 
     ---
