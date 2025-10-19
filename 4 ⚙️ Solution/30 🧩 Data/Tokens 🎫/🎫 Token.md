@@ -5,7 +5,7 @@
 
     [Tokens 🎫](<🎫 Token.md>) are NFC/QR [Locators 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) 
     * issued and signed by an [Issuer 🎴 domain](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>), 
-    * that contain data to be shared with [Consumer 💼 domains](<../../50 🫥 Agent domains/Storage 💾/💾🫥 Storage agent.md>).
+    * that contain data to be shared with [Consumer 💼 domains](<../../50 🫥 Agent domains/Storage 🗃️/🗃️🫥 Storage agent.md>).
 
     ---
     <br/>
@@ -81,7 +81,7 @@
 1. **Can Tokens be used for documents with photo validation?**
 
     Yes, [Tokens 🎫](<🎫 Token.md>) can be identity-bound;
-    - i.e., they can allow [Consumer 💼 domains](<../../50 🫥 Agent domains/Storage 💾/💾🫥 Storage agent.md>) to confirm that the holder of the Token is effectively the human for whom the [Token 🎫](<🎫 Token.md>)  was issue to. 
+    - i.e., they can allow [Consumer 💼 domains](<../../50 🫥 Agent domains/Storage 🗃️/🗃️🫥 Storage agent.md>) to confirm that the holder of the Token is effectively the human for whom the [Token 🎫](<🎫 Token.md>)  was issue to. 
     - [Identity-bound 🆔 tokens](<../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 🆔⏩🎫 Verify Tokens.md>) reference a trusted [Identity 🆔 domain](<../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) that is able to authenticate the user - e.g., with a [Face scan 😶](<../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/6 🆔⏩😶 Face scan.md>).
 
 

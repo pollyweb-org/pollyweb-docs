@@ -50,7 +50,7 @@
 
 1. **Why not use a Storage Vault instead?**
 
-    [Storage Vaults](<../Storage 💾/💾🫥 Storage agent.md>) are intended to be used by other domains to insert, read, and update their data about the user, including data that the user will never have access to. 
+    [Storage Vaults](<../Storage 🗃️/🗃️🫥 Storage agent.md>) are intended to be used by other domains to insert, read, and update their data about the user, including data that the user will never have access to. 
 
     Conversely, Timelines only allow domains to insert (i.e., reads and updates are not allowed), while allowing the user to see and manage all information inserted.
 
@@ -64,7 +64,7 @@
 
 1. **What questions can Consumers ask to Timelines?**
 
-    [Consumer domains](<../Storage 💾/💾🫥 Storage agent.md>) can query Timelines in natural language. 
+    [Consumer domains](<../Storage 🗃️/🗃️🫥 Storage agent.md>) can query Timelines in natural language. 
     
     Examples, include:
     - list the average of health metrics this month versus the previous;

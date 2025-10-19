@@ -13,7 +13,7 @@
 
     |Domain|Purpose
     |-|-
-    | [💾 Storage](<../Storage 💾/💾🫥 Storage agent.md>) | To comply with data residency.
+    | [🗃️ Storage](<../Storage 🗃️/🗃️🫥 Storage agent.md>) | To comply with data residency.
 
     ---
     <br/>
@@ -76,7 +76,7 @@
 
 1. **How do Personas comply with data residency policies?**
 
-    By leveraging [Storage 💾](<../Storage 💾/💾🫥 Storage agent.md>) vaults.
+    By leveraging [Storage 🗃️](<../Storage 🗃️/🗃️🫥 Storage agent.md>) vaults.
 
     ---
     <br/>
