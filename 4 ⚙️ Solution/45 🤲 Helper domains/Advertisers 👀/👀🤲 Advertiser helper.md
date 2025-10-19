@@ -123,7 +123,7 @@
 
 1. **How is PII protected?**
 
-    The following strategies protect users' personal identifiable information (PII) from [profiling practices 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/01 🗂️ Profiling landscape/00 🗂️ Profiling Index.md>):
+    The following strategies protect users' personal identifiable information (PII) from [profiling practices 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/01 🗂️ Profiling landscape/00 🕵 Profiling Index.md>):
 
     * [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) send chat summaries directly to [Curator 🧚 agents](<../../50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>), not to [Broker 🤵 domains](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>).
   
@@ -135,6 +135,6 @@
   
     * When [Curator 🧚 agents](<../../50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) ask Advertisers 👀 for next best actions, they first anonymize the [Chat's 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) context, the user preferences, and the [Host 🤗](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) summary.
   
-        - This mitigates the abilities of both Advertisers 👀 and [Sellers 💵](<../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) to [profile 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/01 🗂️ Profiling landscape/00 🗂️ Profiling Index.md>) users.
+        - This mitigates the abilities of both Advertisers 👀 and [Sellers 💵](<../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) to [profile 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/01 🗂️ Profiling landscape/00 🕵 Profiling Index.md>) users.
 
     ---
