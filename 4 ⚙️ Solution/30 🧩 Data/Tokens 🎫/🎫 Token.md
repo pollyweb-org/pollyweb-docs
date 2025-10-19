@@ -185,7 +185,7 @@
     ```yaml
     Schema: .TOKEN
     Domain: any-issuer.dom
-    Token: <token-uuid>
+    Key: token-1234
     Properties:
         Property1: Value1
         Property2: Value2
@@ -195,7 +195,7 @@
     |-|-|-
     | `Schema` | string |  [`.TOKEN`](<🧩 Token schemas/🧩 TOKEN.md>)
     | `Domain` | string | The [Issuer 🎴 domain](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) name
-    | `Token` | uuid |  The resource key in the [Issuer 🎴](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)
+    | `Key` | `token-1234` | Resource key in the [Issuer 🎴](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)
     | `Properties` | object | Any optional data fields
     |
 

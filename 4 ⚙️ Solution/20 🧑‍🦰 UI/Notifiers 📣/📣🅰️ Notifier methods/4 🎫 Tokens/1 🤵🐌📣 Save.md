@@ -20,10 +20,8 @@ Header:
 
 Body:
     Wallet: <wallet-id>
-    Chat: <chat-uuid>
-    Issuer: any-issuer.dom
-    Token: <token-uuid>
     Hook: <hook-uuid>
+    Token: <token-uuid>
 ```
 
 |Object|Property|Type|Description
@@ -32,8 +30,6 @@ Body:
 ||`To`|string| [Notifier 📣](<../../📣👥 Notifier domain.md>) from [`Onboard@Notifier`](<../1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
 ||`Subject`|string|`Save@Notifier`
 |Body  |`Wallet`| uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) from [`Onboard@Notifier`](<../1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
-|| `Chat` | uuid | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) from [`Offer@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
-| | `Issuer`| string | [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) from [`Offer@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
 ||`Hook`|uuid|`Hook` from [`Offer@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
-| | `Token`| uuid | New [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ID at the [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>)
+|| `Token`| uuid | New [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ID at the [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>)
 | 
