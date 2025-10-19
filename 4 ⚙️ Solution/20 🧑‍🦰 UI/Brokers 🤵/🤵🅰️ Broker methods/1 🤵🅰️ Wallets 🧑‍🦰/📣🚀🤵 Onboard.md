@@ -24,7 +24,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From`| string | [Notifier 📣 domain](<📣👥 Notifier domain.md>) name
+|Header|`From`| string | [Notifier 📣 domain](<../../../Notifiers 📣/📣👥 Notifier domain.md>) name
 ||`To`| string | [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) name
 ||`Subject`| string | `Onboard@Broker`
 |Body| `Language` | enum | ISO language code.
@@ -74,5 +74,5 @@ Wallet: <wallet-uuid>
 | 📨 [`$.Msg`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/$.Msg 📨.md>) | Read the incoming [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>)
 | 🗺️ [`GET`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET 🗺️ item.md>) | Get the [Hook 🪝](<../../../../35 💬 Chats/😃 Talkers/😃🪣 Talker tables/😃🪣 Hooks 🪝.md>) from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)  
 | 🛢 [`SAVE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/SAVE 🛢 item.md>) | Save the [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to the [Wallets 🪣](<../../🤵🪣 Broker tables/🤵🪣 Wallets.md>) table
-| 🎣 [`REEL`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/REEL 🎣.md>) | Respond to the [Synchronous Request 🚀](<Request Sync 🚀.md>)
+| 🎣 [`REEL`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/REEL 🎣.md>) | Respond to the [Synchronous Request 🚀](<../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Request Sync 🚀.md>)
 |

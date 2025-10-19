@@ -14,28 +14,69 @@ Header:
     From: any-broker.dom
     To: any-issuer.dom
     Subject: Accepted@Issuer
+
 Body:
+    Hook: <hook-uuid>
     Token: <token-uuid>
-    Result: Yes
 ```
 
 
 |Object |Property |Type|Description
 |-|-|-|-
-|Header | `From`  | string  | [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) name
-|       | `To`    | string  | [Issuer 🎴 domain](<../🎴🎭 Issuer role.md>) name
+|Header | `From`  | string  | [Broker 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) from [`Offer@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
+|       | `To`    | string  | [Issuer 🎴](<../🎴🎭 Issuer role.md>) from [`Offer@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
 ||`Subject`|string|`Token@Issuer` 
-| Body  | `Token`| string | [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ID from [`Offer@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
-|| `Result`| enum | `Yes` `No` 
+| Body  | `Hook`| uuid | `Hook` from [`Offer@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
+|| `Token`| string | [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)  from [`Save@Notifier`](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
 |
+
+
+<br/>
+
+## Handler
+
+```yaml
+# Get the Hook
+- GET|Hooks@Talker|$.Msg.Hook >> $hook
+
+# Assert if it's the right Broker
+- ASSERT:
+    $.Msg.From: $hook.Broker
+
+# Get the Token data
+- EVAL|$hook.Token >> $token
+
+# Add the TokenID to the Token data
+- EVAL|$token:
+    Token: $.Msg.Token
+
+# Save the Token
+- SAVE|Tokens@Issuer|$token
+
+# Continue the Talker
+- REEL|$hook:
+    $token
+```
+
+| [Command ⌘](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | Purpose
+|-|-
+| 🗺️ [`GET`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET 🗺️ item.md>) | Get the [Hook 🪣](<../../../35 💬 Chats/😃 Talkers/😃🪣 Talker tables/😃🪣 Hooks 🪝.md>) from [`Offer@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
+| 🚦 [`ASSERT`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/ASSERT 🚦.md>) | Assert if it's the right [Broker 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) 
+| ⬇️ [`EVAL`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/EVAL ⬇️ flow.md>) | Get the [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) data from the hook
+| 🛢 [`SAVE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/SAVE 🛢 item.md>) | Save the [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) to the [Tokens 🪣 table](<../🎴🪣 Issuer tables/🗄️🪣 Tokens.md>)
+| 🎣 [`REEL`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/REEL 🎣.md>) | Continue the [Talker 😃](<../../../35 💬 Chats/😃 Talkers/😃 Talker.md>)
+| 
+
 
 <br/>
 
 ## FAQ
 
-1. **Why is the result for?**
+1. **How do Issuers know if the user accepted?**
 
-    The result allows the [Issuer 🎴 domain](<../🎴🎭 Issuer role.md>) to force the user to save the [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>), as in the following example from the [Buy entry at a dance club 🤝 use case](<../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/90 🕺 Clubs/12 🌐 Web: Buy entry 🎟️.md>).
+    An empty `Token` property means that no [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) was saved.
+
+    * This allows the [Issuer 🎴 domain](<../🎴🎭 Issuer role.md>) to force the user to save the [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>), as in the following example from the [Buy entry at a dance club 🤝 use case](<../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/90 🕺 Clubs/12 🌐 Web: Buy entry 🎟️.md>).
 
     | [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |

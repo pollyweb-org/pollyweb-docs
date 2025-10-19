@@ -81,32 +81,71 @@
 
 1. **What's an example of an itemized schema?**
 
-    |Dataset|Key|Col2|Col3 | Usage
-    |-|-|-|-|-
-    |Customers|ID|City   |     | `$o.Customer.City`
-    |Orders|ID| Date |     | `$o.Date`
-    |OrderLines|ID|OrderID | ItemID | `.len($o.Lines)`
-    |Items|ID|Name            || `$o.Items`
+    |Dataset 🪣|Key | Data |Link 🪣|Link 🪣  | Usage
+    |-|-|-|-|-|-
+    |`Orders`|ID| Date |CustID |    | `$o.Date`
+    |`Customers`|ID|City   |   |  | `$o.Customer.City`
+    |`OrderLines`|ID|Qtt|OrderID | ItemID | `$o.Lines[0].Qtt`
+    |`Catalog`|ID|Name    |        || `$o.Items[0].Name`
 
     ```yaml
-    # Bs.yaml
-    
-    Key: B-id
+    Name: Orders
+    Key: ID
 
     Parents:
-        # For each B, link the A with the same A-id
-        MyA: As|A-id   
+
+        # For each Order, link the Customer
+        # Usage: $o.Customer.City
+        Customer: Customers|CustID
     
     Children:
-        # For each B, link Cs with the same B-id
-        MyCs: Cs|B-id        
-        # For each MyC, link Ds with the same D-id
-        MyDs: .MyCs|Ds|D-id  
+
+        # For each Order, link the Lines
+        # Usage: $o.Lines[0].Qtt
+        Lines: OrderLines|OrderID
+        
+        # For each Line, link the Item
+        # Usage: $o.Items[0].Name
+        Items: .Lines|Catalog|ItemID
     ```
 
     ---
     <br/>
    
+
+1. **How to link to Parents with complex IDs?**
+
+    |Dataset 🪣|Key1 | Key2 
+    |-|-|-|
+    |`Token` | 
+    |`Orders`|ID| 
+    |`OrderLines`|OrderID | ItemID 
+    |`Catalog`|ID
+
+    ```yaml
+    Name: Orders
+    Key: ID
+
+    Parents:
+
+        # For each Order, link the Customer
+        # Usage: $o.Customer.City
+        Customer: Customers|CustID
+    
+    Children:
+
+        # For each Order, link the Lines
+        # Usage: $o.Lines[0].Qtt
+        Lines: OrderLines|OrderID
+        
+        # For each Line, link the Item
+        # Usage: $o.Items[0].Name
+        Items: .Lines|Catalog|ItemID
+    ```
+
+    ---
+    <br/>
+
 1. **What are use cases of itemized schemas?**
 
     | Example | Feature
