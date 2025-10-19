@@ -11,7 +11,7 @@
 |-|-|-
 | [`About` 🧩](<🧩 ABOUT.md>) | object | [Domain 👥](<../../../40 👥 Domains/👥 Domain.md>) identification
 | [`Datasets` 🧩](<🧩 OFFER.md>)  | array | Optional services offered
-| [`Trusts` 🧩](<🧩 TRUST.md>)   | array | Optional [Trusted 👍](<../../../30 🧩 Data/Trusts 👍/👍 Domain Trust.md>) domains and roles
+| [`Trusts` 🧩](<🧩 TRUST.md>)   | array | Optional [Trusted 👍](<../../Trusts 🫡/🫡 Domain Trust.md>) domains and roles
 | [`Schemas` 🧩](<🧩 CODE.md>)     | array | Optional [Schema Codes 🧩](<../../Codes 🧩/🧩 Schema Code.md>) defined
 | [`Delegates` 🧩](<🧩 DELEGATE.md>) | array | Optional [Schema Codes 🧩](<../../Codes 🧩/🧩 Schema Code.md>) delegated
 |
