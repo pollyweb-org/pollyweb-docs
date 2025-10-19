@@ -49,7 +49,7 @@ TODO: Create the API methods
     On NLWeb, documents are files (e.g., PDF, PNG) 
     * this allows users to visualize the full final version of the document, similar to what humans do today with any paper document. 
 
-    A user signature is an offline [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) issued by an [Identity 🆔 domain](<../🆔🫥 Identity agent.md>) that they [trust 👍](<../../../30 🧩 Data/Trusts 👍/👍 Domain Trust.md>) confirming that:
+    A user signature is an offline [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) issued by an [Identity 🆔 domain](<../🆔🫥 Identity agent.md>) that they [trust 👍](<../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) confirming that:
     - 1/ the signature is for a file with the given hash; and
     - 2/ the human holding the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) has the given personally identifiable information (PII).
     
@@ -104,7 +104,7 @@ TODO: Create the API methods
     
 1. **How do domains verify user signatures?**
 
-    Domains accept user signatures verified by [Identity 🆔 domains](<../🆔🫥 Identity agent.md>) that they [trust 👍](<../../../30 🧩 Data/Trusts 👍/👍 Domain Trust.md>). 
+    Domains accept user signatures verified by [Identity 🆔 domains](<../🆔🫥 Identity agent.md>) that they [trust 👍](<../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>). 
     
     * When a domain sends a file for the user to sign, it sends also a placeholder ID of that user in the document 
       * e.g., a renting contract needs signatures from the landlord, guarantor, and tenant. 

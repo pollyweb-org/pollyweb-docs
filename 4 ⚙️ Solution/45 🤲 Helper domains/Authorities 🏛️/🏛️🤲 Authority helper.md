@@ -1,12 +1,12 @@
 🏛️ Authority domains
 ===
 
-![](<../../30 🧩 Data/Trusts 👍/.📎 Assets/👍 Authority.png>)
+![](<../../30 🧩 Data/Trusts 🫡/.📎 Assets/🫡 Authority.png>)
 
 1. **What is an Authority domain in NLWeb?**
 
     An Authority is a domain focused on supporting data exchange among domains in the NLWeb via: 
-    - converting legal agreements into [trust 👍](<../../30 🧩 Data/Trusts 👍/👍 Domain Trust.md>) relationships (e.g., international commerce federations);
+    - converting legal agreements into [trust 👍](<../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) relationships (e.g., international commerce federations);
     - converting standards to [Schema Codes 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) (e.g., electronic passports); and 
     - publishing reference [🪣 Datasets](<../../41 🎭 Domain Roles/Datasetters 🪣/🪣🎭 Datasetter role.md>) for automated issues (e.g., accessibility codes for international travel).
 
