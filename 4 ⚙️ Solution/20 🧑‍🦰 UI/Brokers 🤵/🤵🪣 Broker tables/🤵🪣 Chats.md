@@ -27,5 +27,4 @@ Here's the [`GET` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talke
 Chat: <chat-id>
 Wallet: <wallet-uuid>
 Host: any-host.dom
-Title: Any Host
 ```

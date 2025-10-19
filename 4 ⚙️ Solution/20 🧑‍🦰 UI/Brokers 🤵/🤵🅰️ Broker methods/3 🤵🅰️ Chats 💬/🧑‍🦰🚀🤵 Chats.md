@@ -55,7 +55,7 @@ Chats:
 ## Handler
 
 ```yaml
-# The the wallet item
+# Get the wallet item
 - GET >> $wallet:
     Pool: Wallets@Broker
     Key: $.Msg.From
@@ -63,10 +63,26 @@ Chats:
 # Verify the signature
 - VERIFY|$.Msg|$wallet.PublicKey
 
-# Format the response
+# Get the Hosts
+- EVAL|$wallet.Chats >> $hosts:
+    .Host
+
+# Translate the hosts
+- MSG >> $translations:
+    Subject: Translate@Graph
+    Language: $wallet.Language
+    Domains: $hosts
+
+# Prepare the response
 - EVAL|$wallet.Chats >> $chats:
     Chat: .Chat
-    Title: .Title
+    Title: 
+
+# Add the titles
+- CROSS|$chats:
+    With: $translations.Domains
+    When: .Host = .Domain
+    Then: .Title = .Translation
 
 # Respond
 - REEL:

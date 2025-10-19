@@ -25,7 +25,7 @@
     Title: Title
 
 # Remove the binds
-- PARALLEL|$vault.Binds >> $bind:
+- PARALLEL|$vault.Binds|$bind:
     - MSG:
         To: $bind.Vault
         Subject: Unbound@Vault
