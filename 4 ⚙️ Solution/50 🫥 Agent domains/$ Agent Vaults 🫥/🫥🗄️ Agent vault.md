@@ -12,7 +12,7 @@
     * While in a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>), a [Host 🤗 domain](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) to invoke user Agents 🫥 by role - e.g.:
 
         * `any-host.dom` asks `any-broker.dom` to invoke the user's [Persona 🧢 agent](<../Personas 🧢/🧢🫥 Persona agent.md>), 
-        * then `any-broker.dom` invokes the domain `any-persona.com`.
+        * then `any-broker.dom` invokes the domain `any-persona.dom`.
 
     ---
     <br/>

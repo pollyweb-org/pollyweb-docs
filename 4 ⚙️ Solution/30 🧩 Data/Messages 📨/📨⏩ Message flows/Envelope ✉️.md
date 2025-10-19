@@ -66,7 +66,7 @@
 1. **How do receiver domains know who sent a message?**
 
     An NLWeb envelope resembles an email message, containing a `Header` and a `Body`. 
-    - The header contains the sender’s domain name (e.g., `any-sender.com`) and the receiver’s domain name (e.g., `any-receiver.com`), as well as other metadata. 
+    - The header contains the sender’s domain name (e.g., `any-sender.dom`) and the receiver’s domain name (e.g., `any-receiver.dom`), as well as other metadata. 
     - Receivers discard envelopes not intended to them.
 
     ---

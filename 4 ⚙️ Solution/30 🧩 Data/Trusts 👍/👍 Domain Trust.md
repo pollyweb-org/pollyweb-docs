@@ -1,24 +1,24 @@
-👍 Domain Trust Framework
+🫡 Domain Trust Framework
 ===
 
-![](<.📎 Assets/👍 Trust Framework.png>)
+![](<.📎 Assets/🫡 Trust Framework.png>)
 
 1. **How do domains avoid interacting with bad actors?**
 
     The NLWeb implements a domain trust framework that allows:
-    * [sender domains 📤](<../../40 👥 Domains/👥 Domain.md>) to know if they can [trust 👍](<👍 Domain Trust.md>) a [receiver domain 📥](<../../40 👥 Domains/👥 Domain.md>) with a specific [Schema 🧩](<../Codes 🧩/🧩 Schema Code.md>) path - e.g. `nlweb.dom/PERSONA/*`, and vice-versa.
+    * [sender domains 📤](<../../40 👥 Domains/👥 Domain.md>) to know if they can [trust 🫡](<🫡 Domain Trust.md>) a [receiver domain 📥](<../../40 👥 Domains/👥 Domain.md>) with a specific [Schema 🧩](<../Codes 🧩/🧩 Schema Code.md>) path - e.g. `nlweb.dom/PERSONA/*`, and vice-versa.
     
     For example:
-      * `any-buyer.com` may accept payment requests 
+      * `any-buyer.dom` may accept payment requests 
       * from `any-seller.dom` 💸
-      * but not from `any-scammer.com` 🦹‍♂️. 
+      * but not from `any-scammer.dom` 🦹‍♂️. 
 
     ---
     <br/>
 
 1. **How to define Trust relationships?**
 
-    [Trusts 👍](<👍 Domain Trust.md>) 
+    [Trusts 🫡](<🫡 Domain Trust.md>) 
     * are defined in [domain Manifests 📜](<../Manifests 📜/📜 Manifest.md>) 
     * using the schema code [nlweb.dom/MANIFEST/TRUST 🧩](<../Manifests 📜/🧩 Manifest schemas/🧩 TRUST.md>).
 
@@ -46,9 +46,9 @@
 
 1. **How to trust an unknown domain trusted by others?**
     
-    A [domain 👥](<../../40 👥 Domains/👥 Domain.md>) may trust an unknown domain on a specific subject if there’s a [trust 👍](<👍 Domain Trust.md>) third domain advocating on behalf of the unknown one;   
-    * e.g., `any-buyer.com` accepts payment requests from all domains 
-    * whose payment requests are also [trust 👍](<👍 Domain Trust.md>) by `any-nation.com`. 
+    A [domain 👥](<../../40 👥 Domains/👥 Domain.md>) may trust an unknown domain on a specific subject if there’s a [trust 🫡](<🫡 Domain Trust.md>) third domain advocating on behalf of the unknown one;   
+    * e.g., `any-buyer.dom` accepts payment requests from all domains 
+    * whose payment requests are also [trust 🫡](<🫡 Domain Trust.md>) by `any-nation.dom`. 
   
     Consider the following example for Special Service Requests (SSR) in aviation.
 
@@ -76,7 +76,7 @@
             - ba.com               # British Airways
         ```
     
-    * British Airways (ba.com) can now send SSR requests to the U.S. Government because IATA is bridging the relationship.
+    * British Airways `ba.com` can now send SSR requests to the U.S. Government because IATA is bridging the relationship.
 
     ---
     <br/>
@@ -91,19 +91,19 @@
 
 1. **How are time-bounded agreements represented?**
 
-    [Trusts 👍](<👍 Domain Trust.md>) can have an expiration date, allowing domains to set an end-date to a [trust 👍](<👍 Domain Trust.md>);
-    - e.g., `any-country.com` may allow temporary visa-less immigration during an international soccer event.
+    [Trusts 🫡](<🫡 Domain Trust.md>) can have an expiration date, allowing domains to set an end-date to a [trust 🫡](<🫡 Domain Trust.md>);
+    - e.g., `any-country.dom` may allow temporary visa-less immigration during an international soccer event.
 
     ---
     <br/>
 
 1. **How can legal bans be imposed nation-wide?**
 
-    [Trust 👍](<👍 Domain Trust.md>) can be granted or revoked. 
+    [Trust 🫡](<🫡 Domain Trust.md>) can be granted or revoked. 
     
-    * A sovereign domain may revoke a [trust 👍](<👍 Domain Trust.md>) on another domain to explicitly break indirect trust-chains for that other domain;
+    * A sovereign domain may revoke a [Trust 🫡](<🫡 Domain Trust.md>) on another domain to explicitly break indirect trust-chains for that other domain;
   
-    * e.g., `any-nation.dom` may impose a ban on `sanctioned-domain.com` on the basis of terrorism, telling all the business that rely on `any-nation.dom`’s indirect [trust 👍](<👍 Domain Trust.md>) to cease interactions with the banned domain, while allowing those businesses to exceptionally override the indirect revoke with a direct grant.
+    * e.g., `any-nation.dom` may impose a ban on `sanctioned-domain.dom` on the basis of terrorism, telling all the business that rely on `any-nation.dom`’s indirect [Trust 🫡](<🫡 Domain Trust.md>) to cease interactions with the banned domain, while allowing those businesses to exceptionally override the indirect revoke with a direct grant.
 
         ```yaml
         # 📜 any-nation.dom
@@ -123,12 +123,12 @@
 1. **How are immediate security bans imposed?**
 
     To protect themselves from harmful actors,
-    *  [domains 👥](<../../40 👥 Domains/👥 Domain.md>)s may inherit all revokes from [Firewall 🔥 domains](<../../45 🤲 Helper domains/Firewalls 🔥/🔥🤲 Firewall helper.md>) to immediately block any new threat, regardless of any direct or indirect [trust 👍](<👍 Domain Trust.md>) to the harmful actor;
+    *  [domains 👥](<../../40 👥 Domains/👥 Domain.md>)s may inherit all revokes from [Firewall 🔥 domains](<../../45 🤲 Helper domains/Firewalls 🔥/🔥🤲 Firewall helper.md>) to immediately block any new threat, regardless of any direct or indirect [Trust 🫡](<🫡 Domain Trust.md>) to the harmful actor;
     
-    e.g., if `any-firewall.dom` revokes `any-threat.com`, 
-    *  and `any-domain.dom` inherits [Trusts 👍](<👍 Domain Trust.md>) from `any-firewall.dom`, 
-    *  then `any-domain.dom` won’t communicate with `any-threat.com` 
-    *  event if there are direct or indirect [Trusts 👍](<👍 Domain Trust.md>) from `any-domain.dom` to `any-threat.com`. 
+    e.g., if `any-firewall.dom` revokes `any-threat.dom`, 
+    *  and `any-domain.dom` inherits [Trusts 🫡](<🫡 Domain Trust.md>) from `any-firewall.dom`, 
+    *  then `any-domain.dom` won’t communicate with `any-threat.dom` 
+    *  event if there are direct or indirect [Trusts 🫡](<🫡 Domain Trust.md>) from `any-domain.dom` to `any-threat.dom`. 
 
     e.g., the [U.S. Department of Health & Human Services 📜](<../../../8 📜 Manifests/🌐 Vaults/📜 hhs.gov.md>) blocks whoever the [US Government 📜](<../../../8 📜 Manifests/👥 usa.gov/📜 usa.gov.md>) blocks.
 
@@ -154,9 +154,9 @@
     The *Public Key Infrastructure (PKI)* is already used by *Certificate Authorities (CAs)* to access if domains can be trusted, both directly and indirectly. 
     
     However, its binary decision don’t allow for complex scenarios like:
-    * partial [Trusts 👍](<👍 Domain Trust.md>) by subject - e.g., 
+    * partial [Trusts 🫡](<🫡 Domain Trust.md>) by subject - e.g., 
         - `A` trusts `B` for `X` but not `Y`; 
-    * asymmetric [Trusts 👍](<👍 Domain Trust.md>) by subject - e.g., 
+    * asymmetric [Trusts 🫡](<🫡 Domain Trust.md>) by subject - e.g., 
         - `A` trusts `B` for `X` but not `Y`, 
         - while `B` trusts `A` for `Y` but not `X`;
     * override modes - e.g., 
@@ -169,7 +169,7 @@
 1. **How to calculate indirect trust paths when nodes are down?**
 
     Domains can rely on [Graph 🕸 domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>):
-    - these keep up-to-date graph representations of all possible trust-paths between two domains, allowing [Trust 👍](<👍 Domain Trust.md>) paths to be queried even when the domains comprising the nodes of those paths are unavailable 
+    - these keep up-to-date graph representations of all possible trust-paths between two domains, allowing [Trust 🫡](<🫡 Domain Trust.md>) paths to be queried even when the domains comprising the nodes of those paths are unavailable 
     - e.g., `any-domain.dom` can ask `any-graph.dom` if `any-seller.dom` can be trusted for payment requests.
 
     ---
@@ -188,7 +188,7 @@
 1. **How can domains know when indirect trust changes affect them?**
 
     [Domains 👥](<../../40 👥 Domains/👥 Domain.md>) can rely on [Graph 🕸 domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>):
-    - these can monitor for changes in specific [Trust 👍](<👍 Domain Trust.md>) paths that may affect an indirect [Trust 👍](<👍 Domain Trust.md>) relationship;
+    - these can monitor for changes in specific [Trust 🫡](<🫡 Domain Trust.md>) paths that may affect an indirect [Trust 🫡](<🫡 Domain Trust.md>) relationship;
     - a typical scenario is an inter-governmental agreement where two entities from different countries trust each other indirectly because their government bodies trust each other.
 
     Consider the following manifests.
@@ -209,9 +209,9 @@
     # 📜 nation-2.com 
     - Domain: nation-1.org # trusts the 1st nation.
     ```
-    `any-graph.dom` may monitor changes in the existing [Trust 👍](<👍 Domain Trust.md>) path between the two banks, checking for changes like:
-    * `nation-1.org` removing a [Trust 👍](<👍 Domain Trust.md>)  to `bank-of-nation-1.com`, or
-    * `nation-1.org` removing a [Trust 👍](<👍 Domain Trust.md>) to `nation-2.org`.
+    `any-graph.dom` may monitor changes in the existing [Trust 🫡](<🫡 Domain Trust.md>) path between the two banks, checking for changes like:
+    * `nation-1.org` removing a [Trust 🫡](<🫡 Domain Trust.md>)  to `bank-of-nation-1.dom`, or
+    * `nation-1.org` removing a [Trust 🫡](<🫡 Domain Trust.md>) to `nation-2.org`.
 
     ---
     <br/>

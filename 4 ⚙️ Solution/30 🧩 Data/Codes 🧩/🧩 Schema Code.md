@@ -43,7 +43,7 @@
     * references version `2.0` 
     * of a schema called `TOKEN` 
     * that is defined in the [domain Manifest 📜](<../Manifests 📜/📜 Manifest.md>) 
-    * of the [Authority 🏛️ domain](<../../45 🤲 Helper domains/Authorities 🏛️/🏛️🤲 Authority helper.md>) called `nlweb.com`. 
+    * of the [Authority 🏛️ domain](<../../45 🤲 Helper domains/Authorities 🏛️/🏛️🤲 Authority helper.md>) called `nlweb.dom`. 
     
     For readability:
     * given that `nlweb.dom` schemas will be widely used, 
