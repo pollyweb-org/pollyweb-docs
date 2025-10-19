@@ -653,11 +653,24 @@ def runit(project_directory):
     #print (f"\nProject files:  {md_files}")
     png_files = find_png_files(project_directory)
 
-    # Check for both broken and malformed links (single pass)
-    broken_links, malformed_links, replacement_char_hits, finished = check_broken_links(md_files, png_files)
+    # Re-run until clean or user exits
+    while True:
+        broken_links, malformed_links, replacement_char_hits, finished = check_broken_links(md_files, png_files)
 
-    # Print the results to "link-issues.md"
-    print_results(broken_links, malformed_links, replacement_char_hits)
+        # Print the results to "link-issues.md"
+        print_results(broken_links, malformed_links, replacement_char_hits)
+
+        # If clean, stop; otherwise prompt to repeat
+        if not broken_links and not malformed_links and not replacement_char_hits:
+            break
+
+        try:
+            ans = input("\nIssues found. Press ENTER to repeat, or type 'q' to quit: ")
+        except EOFError:
+            # Non-interactive environment: do not loop endlessly
+            break
+        if ans.strip().lower() == 'q':
+            break
 
 
 
