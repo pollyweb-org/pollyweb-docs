@@ -1,13 +1,13 @@
-# 🔃🚀🌲 Upload @ Filer
+# 🔃🚀🗂️ Upload @ Filer
 
-* Part of the [🔃⏩🌲 Sync](<../../../55 👷 Build domains/Syncers 🔃/🔃⏩ Syncer flows/20 🔃⏩🌲 Sync.md>) flow:
-    * preceded by [`Map@Filer`](<🔃🚀🌲 Map.md>)
-    * succeeded by [`Uploaded@Filer`](<🔃🚀🌲 Uploaded.md>)
+* Part of the [🔃⏩🗂️ Sync](<../../../55 👷 Build domains/Syncers 🔃/🔃⏩ Syncer flows/20 🔃⏩🗂️ Sync.md>) flow:
+    * preceded by [`Map@Filer`](<🔃🚀🗂️ Map.md>)
+    * succeeded by [`Uploaded@Filer`](<🔃🚀🗂️ Uploaded.md>)
 
 * This request 
     * is signed with the [Syncer's 🔃](<../../../55 👷 Build domains/Syncers 🔃/🔃🛠️ Syncer tool.md>) private-key pair 
     * matching the `PublicKey` 
-    * sent on the [`Clone@Filer`](<🔃🚀🌲 Clone.md>) request.
+    * sent on the [`Clone@Filer`](<🔃🚀🗂️ Clone.md>) request.
 
 
 
@@ -32,10 +32,10 @@ Body:
 
 | Object| Property | Type | Description
 |-|-|-|-
-| Header    | `From`        | uuid | `Clone` from [`Clone@`](<🔃🚀🌲 Clone.md>) 
-|           | `To`          | string    | [Filer 🌲](<../🌲🎭 Filer role.md>) from [`Clone@`](<🔃🚀🌲 Clone.md>) 
+| Header    | `From`        | uuid | `Clone` from [`Clone@`](<🔃🚀🗂️ Clone.md>) 
+|           | `To`          | string    | [Filer 🗂️](<../🗂️🎭 Filer role.md>) from [`Clone@`](<🔃🚀🗂️ Clone.md>) 
 |           | `Subject`     | string    | `Upload@Filer`
-| Body      | `Map`         | uuid    | ID from [`Map@Filer`](<🔃🚀🌲 Map.md>)
+| Body      | `Map`         | uuid    | ID from [`Map@Filer`](<🔃🚀🗂️ Map.md>)
 |           | `File`        | string | Path like `/dir/file.ext`
 |           | `Parts`       | int    | Number of file parts
 |           | `Part`        | int    | Current file part

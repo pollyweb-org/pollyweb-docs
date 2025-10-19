@@ -3,7 +3,7 @@
 actor "User" as user
 participant "Wallet 🧑\napp" as wallet
 participant "Syncer 🔃\ntool" as syncer
-participant "Filer 🌲\nvault" as filer
+participant "Filer 🗂️\nvault" as filer
 participant "Broker 🤵\ndomain" as broker
 
 'group Register
