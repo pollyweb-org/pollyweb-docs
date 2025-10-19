@@ -68,6 +68,6 @@ Body:
 
 | [Command ⌘](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | Purpose
 |-|-
-| 💾 [`SAVE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/SAVE 🔼 item.md>) | Save the [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message.md>) into the [Chats 🪣 table](<../🤗🪣 Host tables/🤗🪣 Chats 💬.md>)
+| 💾 [`SAVE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/SAVE 💾 item.md>) | Save the [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message.md>) into the [Chats 🪣 table](<../🤗🪣 Host tables/🤗🪣 Chats 💬.md>)
 | 😃 [`TALK`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/TALK 😃.md>) | Start a [Talker 😃](<../../../35 💬 Chats/😃 Talkers/😃 Talker.md>)
 |
