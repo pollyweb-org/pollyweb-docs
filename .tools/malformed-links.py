@@ -182,9 +182,14 @@ def possible_emoji_insertions(path, emoji='⏳'):
     return all_combos
 
 def check_broken_links(md_files, png_files):
-    """Check for broken .md links within the project and malformed links."""
+    """Check for broken .md links within the project and malformed links.
+
+    Also scans files for the Unicode replacement character (�, U+FFFD), which
+    usually indicates an encoding issue or invalid byte sequence in the file.
+    """
     broken_links = {}
     malformed_links = {}
+    replacement_char_hits = {}
     existing_files = set(md_files + png_files)
     
     count = 0
@@ -194,6 +199,16 @@ def check_broken_links(md_files, png_files):
         # Read file content
         with open(md_file, 'r', encoding='utf-8') as file:
             content = file.read()
+
+        # Detect the Unicode replacement character occurrences per line
+        # U+FFFD can appear rendered as '�' in some contexts
+        if '\ufffd' in content or '�' in content:
+            lines = content.splitlines()
+            for i, line in enumerate(lines, 1):
+                if ('\ufffd' in line) or ('�' in line):
+                    if md_file not in replacement_char_hits:
+                        replacement_char_hits[md_file] = []
+                    replacement_char_hits[md_file].append((i, line))
         
         # Extract correct links and malformed links
         links_with_lines, malformed_links_with_lines = extract_links_with_malformed_detection(content)
@@ -327,15 +342,15 @@ def check_broken_links(md_files, png_files):
         if malformed_links_with_lines:
             malformed_links[md_file] = malformed_links_with_lines
     
-    return broken_links, malformed_links, True
+    return broken_links, malformed_links, replacement_char_hits, True
 
 
-def print_results(broken_links, malformed_links):
-    """Print the broken and malformed links found in the project."""
+def print_results(broken_links, malformed_links, replacement_char_hits):
+    """Print the broken and malformed links found in the project and report replacement characters."""
 
     global all_memory
 
-    if not broken_links and not malformed_links:
+    if not broken_links and not malformed_links and not replacement_char_hits:
         print("✅✅✅ No issues found! ✅✅✅\n")
     else:
         if broken_links:
@@ -510,6 +525,21 @@ def print_results(broken_links, malformed_links):
 
                             yes_memory.append((malformed_link, suggestion))
 
+        if replacement_char_hits:
+            print("\n## Replacement characters (U+FFFD, �) found:")
+            for md_file, hits in replacement_char_hits.items():
+                for line_num, line_text in hits:
+                    import urllib.parse
+                    encoded = urllib.parse.quote(md_file)
+                    file_link = f"file://{encoded}, line {line_num})"
+                    print(f"\nIn file±: {file_link}")
+                    print(f"  - Line {line_num}: contains replacement character '�' (U+FFFD)")
+                    # Show a trimmed preview to avoid excessive output
+                    preview = line_text
+                    if len(preview) > 200:
+                        preview = preview[:200] + '…'
+                    print(f"    Preview: {preview}")
+
 
 def fix_markdown_link(markdown_path, broken_link, correct_full_path):
     """
@@ -623,16 +653,11 @@ def runit(project_directory):
     #print (f"\nProject files:  {md_files}")
     png_files = find_png_files(project_directory)
 
-    # Check for both broken and malformed links
-    while True:
-        broken_links, malformed_links, finished = check_broken_links(md_files, png_files)
+    # Check for both broken and malformed links (single pass)
+    broken_links, malformed_links, replacement_char_hits, finished = check_broken_links(md_files, png_files)
 
-        # Print the results to "link-issues.md"
-        print_results(broken_links, malformed_links)
-
-        break
-        if finished:
-            break
+    # Print the results to "link-issues.md"
+    print_results(broken_links, malformed_links, replacement_char_hits)
 
 
 
