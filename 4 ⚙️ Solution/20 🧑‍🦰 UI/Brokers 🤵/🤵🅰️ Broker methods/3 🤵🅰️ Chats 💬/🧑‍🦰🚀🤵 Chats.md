@@ -76,10 +76,9 @@ Chats:
 # Prepare the response
 - EVAL|$wallet.Chats >> $chats:
     Chat: .Chat
-    Title: 
 
 # Add the titles
-- CROSS|$chats:
+- MERGE|$chats:
     With: $translations.Domains
     When: .Host = .Domain
     Then: .Title = .Translation
