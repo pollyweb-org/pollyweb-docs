@@ -1,6 +1,6 @@
 <!-- TODO: detail the relation with database -->
 
-# 🗺️ Talker `GET` command
+# ⏬ Talker `GET` command
 
 > Part of [Talker 😃](<../../😃 Talker.md>)
 
@@ -10,7 +10,7 @@
 
 1. **What's a GET item command?**
 
-    A `GET` 🗺️
+    A `GET` ⏬
     * is a [Command ⌘](<../for control/⌘ Command.md>) 
     * that retrieves an item by key 🔑
     * from a key-value resource pool 🪣

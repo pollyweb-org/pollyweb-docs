@@ -65,7 +65,7 @@
 
     | Argument| Purpose 
     |-|-
-    | `$item` | [Placeholder 🧠](<$Placeholder 🧠.md>) item loaded with [`GET` 🗺️](<GET 🗺️ item.md>)
+    | `$item` | [Placeholder 🧠](<$Placeholder 🧠.md>) item loaded with [`GET` ⏬](<GET ⏬ item.md>)
 
     ---
     <br/>
