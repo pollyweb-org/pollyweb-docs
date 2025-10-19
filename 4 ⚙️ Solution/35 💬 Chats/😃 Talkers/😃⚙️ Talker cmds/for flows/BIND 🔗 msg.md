@@ -1,4 +1,4 @@
-# 🔗 Talker BIND command
+# 🔗 Talker `BIND` command
 
 > Part of [Talker 😃](<../../😃 Talker.md>)
 

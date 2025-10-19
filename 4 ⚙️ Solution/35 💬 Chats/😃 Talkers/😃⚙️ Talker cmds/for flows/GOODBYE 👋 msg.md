@@ -1,4 +1,4 @@
-# 👋 Talker GOODBYE command
+# 👋 Talker `GOODBYE` command
 
 > Part of [Talker 😃](<../../😃 Talker.md>)
 

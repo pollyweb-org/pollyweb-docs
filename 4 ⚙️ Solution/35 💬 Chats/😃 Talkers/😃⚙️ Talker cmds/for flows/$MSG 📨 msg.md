@@ -1,0 +1,83 @@
+# 📨 Talker `MSG` command
+
+> Part of [Talker 😃](<../../😃 Talker.md>)
+
+<br/>
+
+
+1. **What is a MSG command?**
+
+    A `MSG`
+    * is a [Command ⌘](<../for control/⌘ Command.md>) 
+    * that sends a [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>).
+
+    ---
+    <br/>
+
+
+1. **What's the MSG syntax?**
+
+    ```yaml
+    MSG >> $response:
+        To: <domain>
+        Subject: <subject>
+        {body}
+    ```
+
+    | Argument| Purpose | Example
+    |-|-|-
+    | `To` | Destination domain | `any-broker.dom`
+    | `Subject` | Message subject | `Unbound@Vault`
+    | `{body}` | `Body` property dictionary  | `{A:1, B:2}`
+    | `$response` | Response [Placeholder 🧠](<$Placeholder 🧠.md>) <br/> for [Synchronous Requests 🚀](<../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Request Sync 🚀.md>) | `$r`
+
+    ---
+    <br/>
+
+
+1. **What's an example of MSG?**
+
+    Consider the following a [Talker 😃](<../../😃 Talker.md>).
+
+    ```yaml
+    - MSG:
+        To: any-domain.dom
+        Subject: Any@Role
+        A: 1
+        B: 2
+    ```
+
+    This results in the following [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) being sent.
+
+    ```yaml
+    Header:
+
+        # Original Header properties
+        To: any-domain.dom
+        Subject: Any@Role
+
+        # Added Header properties
+        From: my-domain.dom
+        Timestamp: 2018-12-10T13:45:00.000Z
+        Correlation: 125a5c75-cb72-43d2-9695-37026dfcaa48
+        DKIM: pk1
+
+    Body:
+
+        # Original Body properties
+        A: 1
+        B: 2
+
+    # Added authentication stamp
+    Hash: ee6ca2a43ec05d...
+    Signature: Lw7sQp6zkOGyJ+OzGn+B...
+    ```
+
+    ---
+    <br/>
+
+1. **What are use cases of MSG?**
+
+    <!-- TODO: add details  -->
+
+    > Example: [Pop Vault 🔆](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🔆 Broker locators/🤵🔆 Pop Vault.md>)

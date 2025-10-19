@@ -41,4 +41,20 @@ Body:
 ## Handler
 
 ```yaml
+# Verify the signature
+- VERIFY|$.Msg
+
+- EVAL|
+
+# Create the collect
+- SAVE|Collects@Vault >> $collect:
+    Collect: .UUID()
+    Consumer: $.Msg.From
+    Data: $data
+
+# Send the Collect message
+- MSG:
+    To: $collect.Consumer
+    Subject: Collect@Consumer
+    Collect: $collect.Collect
 ```

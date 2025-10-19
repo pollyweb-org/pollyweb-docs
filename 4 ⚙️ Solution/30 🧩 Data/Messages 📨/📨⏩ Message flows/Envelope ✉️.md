@@ -18,9 +18,9 @@
     Header:
         From: any-sender.com
         To: any-receiver.com
+        Subject: AnyMethod
         Correlation: 125a5c75-cb72-43d2-9695-37026dfcaa48
         Timestamp: 2018-12-10T13:45:00.000Z
-        Subject: AnyMethod
         DKIM: pk1
 
     Body: {...}

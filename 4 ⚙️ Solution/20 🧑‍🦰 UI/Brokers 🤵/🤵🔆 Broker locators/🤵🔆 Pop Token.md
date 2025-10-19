@@ -39,13 +39,17 @@ RemoveToken:
 
     OnSoft: 
         # Update the Token 🎫 list
-        - MSG|Updated@Notifier|$wallet.Notifier:
+        - MSG:
+            To: $wallet.Notifier
+            Subject: Updated@Notifier
             Wallet: $wallet.ID
             Updates: [ TOKENS ]
 
     OnHard:
         # Remove from Wallet
-        - MSG|Remove@Notifier|$wallet.Notifier:
+        - MSG:
+            To: $wallet.Notifier
+            Subject: Remove@Notifier
             Wallet: $wallet.ID
             Path: $token.Path
 

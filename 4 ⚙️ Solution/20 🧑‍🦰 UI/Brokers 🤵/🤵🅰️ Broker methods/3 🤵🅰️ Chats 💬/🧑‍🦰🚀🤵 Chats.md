@@ -56,21 +56,21 @@ Chats:
 
 ```yaml
 # The the wallet item
-GET >> $wallet:
-  Pool: Wallets@Broker
-  Key: $.Msg.From
+- GET >> $wallet:
+    Pool: Wallets@Broker
+    Key: $.Msg.From
 
 # Verify the signature
-VERIFY|$.Msg|$wallet.PublicKey
+- VERIFY|$.Msg|$wallet.PublicKey
 
 # Format the response
-FORMAT|$wallet.Chats >> $chats:
-  Chat: .Chat
-  Title: 
+- EVAL|$wallet.Chats >> $chats:
+    Chat: .Chat
+    Title: .Title
 
 # Respond
-REEL:
-  $chats
+- REEL:
+    $chats
 ```
 
 | [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | Purpose
