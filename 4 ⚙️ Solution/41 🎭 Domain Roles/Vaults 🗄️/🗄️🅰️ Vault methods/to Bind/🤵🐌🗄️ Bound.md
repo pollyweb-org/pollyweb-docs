@@ -53,7 +53,7 @@ Body:
 - GET|Chats@Host|$.Msg.Chat >> $chat
 
 # Process each Bind
-- PARALLEL|$.Msg.Binds >> $bind:
+- PARALLEL|$.Msg.Binds|$bind:
 
     # Save each Bind
     - SAVE|Binds@Vault:
