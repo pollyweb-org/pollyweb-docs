@@ -34,7 +34,7 @@ Onboarding
     1. Bootstrap the [Seller 💵](<../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) domain (e.g., nlweb.any-seller.dom);
     2. Integrate the [Collector 🏦](<../45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) with the organization's bank and ERP;
     3. Configure [Host 🤗](<../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) workflows integrated with the organization's IT;
-    4. Publish a [Manifest 📜](<../30 🧩 Data/Manifests 📜/📜 Manifest.md>) with [Trusts 👍](<../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) to required domains;
+    4. Publish a [Manifest 📜](<../30 🧩 Data/Manifests 📜/📜 Manifest.md>) with [Trusts 🫡](<../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) to required domains;
     5. Order a batch of physical [NFC/QR locators 🔆](<../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) from a [Printer 🖨️](<../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>);
     6. Deploy [NFC/QR locators 🔆](<../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) (e.g., web, app, stores, products).
 
