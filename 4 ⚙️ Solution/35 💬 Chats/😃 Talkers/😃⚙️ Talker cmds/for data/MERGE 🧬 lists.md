@@ -11,44 +11,25 @@
     ```yaml
     # Comprehensive
     MERGE >> $out:
-
-        # lists to merge
-        List: $listA
-        With: $listB
-
-        # matched properties 
-        When: 
+        Lists: # lists to merge 
+            $1st
+            $2nd
+        Match: # matched properties 
             {object}
-
-        # setter of properties
-        Then: 
+        Eval: # setter of properties
             {object}
-
-        # optional final layout
-        View: 
-            {object}
+        Output: # optional final layout
+            {object} 
     ```
 
     | Param | Purpose | Example
     |-|-|-
-    | `List` | The list to enrich with more data | `$1st`
-    | `With` | Another list with additional data  | `$2nd`
-    | `When` | Match fields of `1st` and `2nd` lists | `{A:A, B:B}`
-    | `Then` | Set fields of `1st` with values of `2nd`  | `{X:X, Y:Y}`
-    | `View` | Optional output format after merged | `{Out: X}`
-    | `$out` | [Placeholder 🧠](<../../😃 Talkers/😃⚙️ Talker cmds/for data/$Placeholder 🧠.md>) with the merge or view | -
-
-    ```yaml
-    # Simple
-    MERGE|<$listA>|<$listB> >> $out:
-        When: KeyA = KeyB
-        Then: PropA = PropB
-    ```
-
-    | Param | Purpose | Example
-    |-|-|-
-    | `When` | Match fields of `1st` and `2nd` lists | `A=B, C=D`
-    | `Then` | Set fields of `1st` with values of `2nd`  | `X=X, Y=Y`
+    | `Lists` | The list to enrich with more data | `$1st`
+    |  | Another list with additional data  | `$2nd`
+    | `Match` | Match fields of `1st` and `2nd` lists | `{A:A, B:B}`
+    | `Eval` | Set fields of `1st` with values of `2nd`  | `{X:X, Y:Y}`
+    | `Output` | Optional output format after merged | `{Out: X}`
+    | `$out` | [Placeholder 🧠](<$Placeholder 🧠.md>) with the merge or view | -
 
     ---
     <br/>
@@ -82,11 +63,14 @@
     ```yaml
     # Merge
     - MERGE >> $merged:
-        List: $items
-        With: $suppliers
-        When: SupplierID = ID
-        Then: SupplierName = Name
-        View: 
+        Lists: 
+            $items
+            $suppliers
+        Match: 
+            SupplierID: ID
+        Eval: 
+            SupplierName: Name
+        Output: 
             Item: ID
             Supplier: SupplierName
     ```

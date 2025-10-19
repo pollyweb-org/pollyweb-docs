@@ -2,15 +2,18 @@
 
 > Contains [Notifier 📣 domains](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣👥 Notifier domain.md>)
 
+<br/>
+
 ## Schema
 
 Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢.md>).
 
 ```yaml
 # Notifiers.yaml
+Name: Notifiers
 Key: Notifier
 Children:
-    Wallets: Wallets|Notifier
+    Wallets: { Wallets.Notifier: Notifiers.Notifier }
 ```
 
 | Link | Table | Contains
@@ -18,6 +21,7 @@ Children:
 | Children | [`Wallets` 🪣](<🤵🪣 Wallets.md>) | [Wallet 🧑‍🦰 apps](<../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
 |
 
+<br/>
 
 ## Example
 

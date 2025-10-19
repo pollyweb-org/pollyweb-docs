@@ -8,6 +8,7 @@ Databaser
 Databasers
 Datasetter
 Datasetters
+Distincts
 Elon
 enduml
 Ephemerals

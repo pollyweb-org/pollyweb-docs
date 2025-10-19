@@ -26,14 +26,14 @@
 
 # Remove the binds
 - PARALLEL|$vault.Binds|$bind:
-    - MSG:
+    - SEND:
         To: $bind.Vault
         Subject: Unbound@Vault
         Bind: $bind.ID
     - DELETE|$bind
 
 # Update the bind list
-- MSG:
+- SEND:
     To: $wallet.Notifier
     Subject: Updated@Notifier
     Wallet: $wallet.ID
