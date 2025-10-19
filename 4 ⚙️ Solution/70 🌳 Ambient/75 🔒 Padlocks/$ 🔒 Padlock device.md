@@ -19,7 +19,7 @@
 
     Users' [🔑 KeyHolders](<../77 🔑 Keyholders/$ 🔑💠 Keyholder device.md>) first scan the Padlock, receiving an NFC response with Padlock's [Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>), which contains:
     - a fixed Padlock [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) identifier 
-    - the domain of the Padlock's [🔐 KeyMaker](<../../45 🤲 Helper domains/Keymakers 🔐/05  🔐🏭 Keymaker supplier.md>) (e.g., `any-keymaker.com`) 
+    - the domain of the Padlock's [🔐 KeyMaker](<../../45 🤲 Helper domains/Keymakers 🔐/05  🔐🏭 Keymaker supplier.md>) (e.g., `any-keymaker.dom`) 
     - the resource key of the PadLock in the KeyMaker (e.g.,`padlock-12345678`)
     
     The Keyholder looks up the the Padlock's [Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) in its local key cache, and sends a new NFC command with the key details:
@@ -99,7 +99,7 @@
     - 2/ a non-volatile writable memory that survives survives power loss (e.g., NVRAM, FRAM).
 
     In readonly memory, a Padlock stores factory settings set by the [🔐 KeyMaker](<../../45 🤲 Helper domains/Keymakers 🔐/05  🔐🏭 Keymaker supplier.md>):
-    - the domain of the KeyMaker (e.g., `any-keymaker.com`)
+    - the domain of the KeyMaker (e.g., `any-keymaker.dom`)
     - the resource key of the Padlock in the KeyMaker (e.g., `padlock-12345678`)
     - the private certificate of the Padlock.
     - the rotation rules of the Padlock.

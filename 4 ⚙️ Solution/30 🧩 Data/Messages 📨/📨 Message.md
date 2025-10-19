@@ -15,7 +15,7 @@
 
     ![](<.📎 Assets/📨 Domain Message.png>)
 
-    For two [domains 👥](<../../40 👥 Domains/👥 Domain.md>) to communicate with one another (e.g., for `any-sender.com` to send a message to `any-receiver.com`), the following steps are required.
+    For two [domains 👥](<../../40 👥 Domains/👥 Domain.md>) to communicate with one another (e.g., for `any-sender.dom` to send a message to `any-receiver.dom`), the following steps are required.
 
     | # |  Step
     |-|-
