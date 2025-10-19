@@ -1,5 +1,7 @@
 # 🪣 Issuers
 
+> Stores [Issuer 🎴 domains](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)
+
 ## Schema
 
 Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢.md>).
@@ -11,6 +13,12 @@ Key: Issuer
 Children: 
     Tokens: Tokens|Issuer
 ```
+
+| Link | Table | Contains
+|-|-|-
+| Children | [`Tokens` 🪣](<🤵🪣 Tokens.md>) | [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
+|
+
 
 ## Example
 

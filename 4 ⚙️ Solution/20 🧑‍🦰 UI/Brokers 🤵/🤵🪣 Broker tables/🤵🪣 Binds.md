@@ -1,5 +1,7 @@
 # 🪣 Binds
 
+> Stores [Binds 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
+
 ## Schema
 
 Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢.md>).
@@ -12,6 +14,14 @@ Parents:
     Wallet: Wallets|Wallet
     Vault: Vaults|Vault
 ```
+
+
+| Link | Table | Contains
+|-|-|-
+| Parent    | [`Wallets` 🪣](<🤵🪣 Wallets.md>) | [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+|           | [`Vaults` 🪣](<🤵🪣 Vaults.md>) | [Vault 🗄️ domain](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) 
+|
+
 
 ## Example
 

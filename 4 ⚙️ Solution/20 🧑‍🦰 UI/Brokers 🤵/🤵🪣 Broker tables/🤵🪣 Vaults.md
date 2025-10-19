@@ -1,5 +1,7 @@
 # 🪣 Vaults
 
+> Stores [Vault 🗄️ domains](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) 
+
 ## Schema
 
 Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢.md>).
@@ -10,6 +12,12 @@ Key: Vault
 Children: 
     Binds: Binds|Vault
 ```
+
+| Link | Table | Contains
+|-|-|-
+| Children | [`Binds` 🪣](<🤵🪣 Binds.md>) | [Binds 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
+|
+
 
 ## Example
 
