@@ -20,15 +20,17 @@ Header:
     Subject: Token@Issuer
     
 Body:
+    Chat: <chat-uuid>
     Hook: <hook-uuid>
 ```
 
 |Object |Property |Type|Description
 |-|-|-|-
 |Header | `From`  | string  | `Anonymous`
-|       | `To`    | string  | [Issuer 🎴 domain](<../🎴🎭 Issuer role.md>) name
+|       | `To`    | string  | [Issuer 🎴](<../🎴🎭 Issuer role.md>) from [`Save@Notifier`](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
 ||`Subject`|string|`Token@Issuer` 
-| Body | `Hook`| string | `Hook` from [`Offer@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
+| Body | `Chat`| uuid | [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) to verify the [Signature 🔏](<../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Signatures 🔏.md>)
+| | `Hook`| string | `Hook` from [`Save@Notifier`](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
 |
 
 <br/>
@@ -42,8 +44,27 @@ Schema: airlines.any-igo.dom/SSR/WCH:1
 
 |Property |Type|Description
 |-|-|-
-| `Issuer` | string | [Issuer 🎴 domain](<../🎴🎭 Issuer role.md>) name
-| `Token`| string | Resource key on the [Issuer 🎴](<../🎴🎭 Issuer role.md>) 
 |  `Schema`| string | [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 | ... | ... | Other [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) fields 
 |
+
+<br/>
+
+## Handler
+
+```yaml
+- GET|Chats@Host|$.Msg.Chat >> $chat
+- VERIFY|$.Msg
+```
+
+<br/>
+
+## FAQ
+
+1. **Why isn't the `Token` ID property in the response?**
+
+    At this point, the [Issuer 🎴](<../🎴🎭 Issuer role.md>) doesn't know the `Token` yet.
+    * That information will be given later in [`Accepted@Issuer`](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/🤵🐌🎴 Accepted.md>).
+
+    ---
+    <br/>

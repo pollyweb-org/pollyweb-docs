@@ -41,7 +41,9 @@
     ---
     <br/>
 
-1. **How to verify a message from a Wallet?**
+
+
+1. **How do Brokers verify a message from a Wallet?**
 
     Here's a [Talker 😃](<../../😃 Talker.md>) excerpt from [Pop Vault @ Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🔆 Broker locators/🤵🔆 Pop Vault.md>).
 
@@ -58,8 +60,33 @@
 
     | [Command ⌘](<../for control/⌘ Command.md>) | Purpose
     |-|-
-    | ⬇️ [`EVAL`](<../for data/EVAL ⬇️ flow.md>) | To get the Wallet ID from the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>).
-    | 🗺️ [`GET`](<../for data/GET 🗺️ item.md>) | To get the Public Key of the Wallet item.
+    | ⬇️ [`EVAL`](<../for data/EVAL ⬇️ flow.md>) | Get the `Wallet` from the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) `From`.
+    | 🗺️ [`GET`](<../for data/GET 🗺️ item.md>) | To get the Public Key of the [Wallet 🪣 item](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Wallets.md>).
 
     ---
     <br/>
+
+
+
+1. **How do Hosts verify a message from a Wallet?**
+
+    Here's a [Talker 😃](<../../😃 Talker.md>).
+
+    ```yaml
+    # Get the Chat item 
+    - GET >> $chat
+        Pool: Chats@Host
+        Key: $.Msg.Body.Chat
+
+    # Verify the Message.
+    - VERIFY|$.Msg|$chat.PublicKey
+    ```
+
+    | [Command ⌘](<../for control/⌘ Command.md>) | Purpose
+    |-|-
+    | ⬇️ [`EVAL`](<../for data/EVAL ⬇️ flow.md>) | Get the `Wallet` from the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) `From`.
+    | 🗺️ [`GET`](<../for data/GET 🗺️ item.md>) | To get the Public Key of the [Wallet 🪣 item](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Wallets.md>).
+
+    ---
+    <br/>
+
