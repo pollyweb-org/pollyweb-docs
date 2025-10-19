@@ -24,11 +24,11 @@ Consider the following excerpt from the [Book restaurant table 🤝 use case](<.
 
 ## 😃 Talker 
 
-The associated [Talker 😃](<../../../35 💬 Chats/😃 Talkers/😃 Talker.md>) uses the [`OFFER`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for flows/OFFER 🎫 msg.md>) command.
+The associated [Talker 😃](<../../../35 💬 Chats/😃 Talkers/😃 Talker.md>) uses the [`ISSUE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for flows/ISSUE 🎫 msg.md>) command.
 
 ```yaml
 - INFO|Issuing your token...
-- OFFER|{GetTokenID} >> accepted
+- ISSUE|{GetTokenID} >> accepted
 - IF|{$accepted}:
     Then: SUCCESS|Saved to your wallet.
     Else: FAILURE|You rejected the token.

@@ -73,7 +73,7 @@
     |Command|Purpose
     |-|-
     | 🔗 [`BIND`](<../for flows/BIND 🔗 msg.md>) | Calls the [Bind Vault @ Wallet ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Prompts 🤔/👉🗄️ Bind 🔗.md>) flow.
-    | 🎫 [`OFFER`](<../for flows/OFFER 🎫 msg.md>) | Calls the [Save Token @ Wallet ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Prompts 🤔/👉🎴 Save token.md>) flow.
+    | 🎫 [`ISSUE`](<../for flows/ISSUE 🎫 msg.md>) | Calls the [Save Token @ Wallet ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Prompts 🤔/👉🎴 Save token.md>) flow.
     | 👋 [`GOODBYE`](<../for flows/GOODBYE 👋 msg.md>) | Calls the [Goodbye @ Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Goodbye 👋.md>) ⏩ flow.
     | 📜 [`FLOW`](<../for flows/INFORM 📝 msg.md>)
     | 💳 [`CHARGE`](<../for flows/CHARGE 💳 msg.md>)

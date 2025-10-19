@@ -1,13 +1,13 @@
-# 🎫 Talker OFFER command
+# 🎫 Talker ISSUE command
 
 > Part of [Talker 😃](<../../😃 Talker.md>)
 
   
 <br/>
 
-1. **What is an OFFER message command?**
+1. **What is an ISSUE message command?**
 
-    An `OFFER`
+    An `ISSUE`
     * is a message [Command ⌘](<../for control/⌘ Command.md>) 
     * that invokes the [Save Token @ Wallet ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Prompts 🤔/👉🎴 Save token.md>) flow.
 
@@ -27,10 +27,10 @@
     ---
     <br/>
 
-1. **What's the OFFER syntax?**
+1. **What's the ISSUE syntax?**
 
     ```yaml
-    OFFER|{function} >> $accepted
+    ISSUE|{function} >> $accepted
     ```
 
    
@@ -48,7 +48,7 @@
    # 😃 Talker 
    💬 Offer:
    - INFO|Issuing your token...
-   - OFFER|{GetTokenID} >> $token
+   - ISSUE|{GetTokenID} >> $token
    - IF|$token:
        Then: SUCCESS|Saved to your wallet.
        Else: FAILURE|You rejected the token.

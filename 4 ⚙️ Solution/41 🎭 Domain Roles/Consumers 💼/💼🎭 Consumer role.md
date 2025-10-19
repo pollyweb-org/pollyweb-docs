@@ -206,7 +206,7 @@
                     Purpose: your curator 🧚 sets the room 
                 - Input: CHARGE
                     Purpose: your payer 💳 pays the stay
-                - Input: OFFER|any-hotel.com/KEY
+                - Input: ISSUE|any-hotel.com/KEY
                     Purpose: your broker 🤵 saves the room key 
         ```
 
