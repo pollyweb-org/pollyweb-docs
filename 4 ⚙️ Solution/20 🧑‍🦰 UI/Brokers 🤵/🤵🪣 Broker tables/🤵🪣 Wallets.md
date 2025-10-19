@@ -26,6 +26,8 @@ Distincts:
     Hosts: Chats.Host
     Vaults: Binds.Vault
     Issuers: Tokens.Issuer
+    BindSchemas: Binds.Schema
+    TokenSchemas: Tokens.Schema
 ```
 
 | Link | Table | Contains

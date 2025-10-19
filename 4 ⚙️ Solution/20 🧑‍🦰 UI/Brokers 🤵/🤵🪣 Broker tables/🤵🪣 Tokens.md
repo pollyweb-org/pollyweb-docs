@@ -33,5 +33,6 @@ Here's the [`GET` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talke
 Issuer: any-issuer.dom
 Token: <token-uuid>
 Wallet: <wallet-uuid>
+Schema: any-authority.dom/ANY-CODE:1.0
 Path: /path/file
 ```

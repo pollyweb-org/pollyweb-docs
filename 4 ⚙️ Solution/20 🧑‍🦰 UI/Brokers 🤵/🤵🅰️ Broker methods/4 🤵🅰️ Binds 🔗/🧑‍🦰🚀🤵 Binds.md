@@ -56,25 +56,6 @@ Binds:
 
 <br/>
 
-## Response 
-
-
-```yaml
-Chats:
-  - Chat: <chat-uuid>
-    Title: Any Hosts
-```
-
-| Object    | Property  | Type  | Description
-|-|-|-|-
-| Top       | `Chats`     | Chat[]| List of `Chat` objects
-| Chat      | `Chat`        | uuid  | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID
-|           | `Title` | string | [Host 🤗 domain](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) title
-|
-
-
-<br/>
-
 ## Handler
 
 ```yaml
@@ -86,13 +67,40 @@ Chats:
 # Verify the signature
 - VERIFY|$.Msg|$wallet.PublicKey
 
-# Format the response
-- EVAL|$wallet.Binds >> $binds:
-    
+# Translate the vaults and the schemas
+- SEND >> $translations:
+    Subject: Translate@Graph
+    Language: $wallet.Language
+    Domains: $wallet.Vaults
+    Schemas: $wallet.BindSchemas
+
+# Add the vault titles
+- MERGE >> $binds:
+    Lists: 
+        BINDS: $wallet.Binds
+        DOMAINS: $translations.Domains
+    Match: 
+        BINDS.Vault: DOMAINS.Domain
+    Output: 
+        Bind: BINDS.Bind
+        Vault: BINDS.Vault
+        Vault$: DOMAINS.Translation
+        Schema: BINDS.Schema
+        
+# Add the schema titles
+- MERGE >> $binds:
+    Lists: 
+        BINDS: $binds
+        SCHEMAS: $translations.Schemas
+    Match: 
+        BINDS.Schema: SCHEMAS.Schema
+    Output: 
+        :BINDS:
+        Schema$: SCHEMAS.Translation
 
 # Respond
 - REEL:
-    $binds
+    Binds: $binds
 ```
 
 | [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | Purpose
