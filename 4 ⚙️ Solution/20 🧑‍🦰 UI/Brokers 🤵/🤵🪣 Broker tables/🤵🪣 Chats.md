@@ -11,13 +11,11 @@ Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 
 Key: Chat
 Parents:
     Wallet: Wallets|Wallet
-    Host: Hosts|Host
 ```
 
 | Link | Table | Contains
 |-|-|-
 | Parents   | [`Wallets` 🪣](<🤵🪣 Wallets.md>) | [Wallet 🧑‍🦰 app](<../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
-|           | [`Hosts` 🪣](<🤵🪣 Hosts.md>) | [Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)
 |
 
 ## Example

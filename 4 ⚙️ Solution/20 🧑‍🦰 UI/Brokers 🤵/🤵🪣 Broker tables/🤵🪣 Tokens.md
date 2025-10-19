@@ -11,14 +11,12 @@ Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 
 Key: Issuer, Token
 Parents:
     Wallet: Wallets|Wallet
-    Issuer: Issuers|Issuer
 ```
 
 
 | Link | Table | Stores
 |-|-|-
 | Parent    | [`Wallets` 🪣](<🤵🪣 Wallets.md>) | [Wallet 🧑‍🦰 app](<../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
-|           | [`Issuers` 🪣](<🤵🪣 Issuers.md>) | [Issuer 🎴 domains](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)
 |
 
 

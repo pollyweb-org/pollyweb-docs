@@ -14,15 +14,9 @@ Parent:
     Notifier: Notifiers|Notifier
 
 Children:
-
     Chats: Chats|Wallet
-    Hosts: .Chats|Hosts|Host
-    
     Binds: Binds|Wallet
-    Vaults: .Binds|Vaults|Vault
-
     Tokens: Tokens|Wallet
-    Issuers: .Tokens|Issuers|Issuer
 ```
 
 | Link | Table | Contains
@@ -31,9 +25,6 @@ Children:
 | Children | [`Chats` 🪣](<🤵🪣 Chats.md>) | [Chats 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>)
 | | [`Binds` 🪣](<🤵🪣 Binds.md>) | [Binds 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
 | | [`Tokens` 🪣](<🤵🪣 Tokens.md>) | [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
-| Coparents | [`Hosts` 🪣](<🤵🪣 Hosts.md>) | [Host 🤗 domains](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) 
-| | [`Vaults` 🪣](<🤵🪣 Vaults.md>) | [Vault 🗄️ domains](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) 
-| | [`Issuers` 🪣](<🤵🪣 Issuers.md>) | [Issuer 🎴 domains](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)
 |
 
 ## Example

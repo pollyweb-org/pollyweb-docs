@@ -113,46 +113,14 @@
     <br/>
    
 
-1. **How to link to Parents with complex IDs?**
-
-    |Dataset 🪣|Key1 | Key2 
-    |-|-|-|
-    |`Token` | 
-    |`Orders`|ID| 
-    |`OrderLines`|OrderID | ItemID 
-    |`Catalog`|ID
-
-    ```yaml
-    Name: Orders
-    Key: ID
-
-    Parents:
-
-        # For each Order, link the Customer
-        # Usage: $o.Customer.City
-        Customer: Customers|CustID
-    
-    Children:
-
-        # For each Order, link the Lines
-        # Usage: $o.Lines[0].Qtt
-        Lines: OrderLines|OrderID
-        
-        # For each Line, link the Item
-        # Usage: $o.Items[0].Name
-        Items: .Lines|Catalog|ItemID
-    ```
-
-    ---
-    <br/>
 
 1. **What are use cases of itemized schemas?**
 
     | Example | Feature
     |---------|--------
-    | 🪣 [`Vaults@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Vaults.md>) | With a named key
+    | 🪣 [`Notifiers@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Notifiers.md>) | With a named key
     | 🪣 [`Binds@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Binds.md>) | With parents
-    | 🪣 [`Vaults@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Vaults.md>) | With children
+    | 🪣 [`Notifiers@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Notifiers.md>) | With children
     | 🪣 [`Wallets@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Wallets.md>) | With grand children
     
 
