@@ -30,7 +30,23 @@ Body:
 |Body|`Collect` | uuid | `Collect` from [`Consume@Consumer`](<../../../Consumers 💼/💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>)
 |
 
+
 <br/>
+
+## Handler
+
+```yaml
+
+# Verify the signature
+VERIFY|$.Msg|$.Chat.PublicSignature
+```
+
+| [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | Purpose
+|-|-
+
+
+<br/>
+
  
 ## FAQ
 
