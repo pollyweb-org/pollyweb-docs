@@ -167,7 +167,7 @@
 
     | [Command ⌘](<⌘ Command.md>) | Purpose
     |-|-
-    | 🔀 [`CASE`](<CASE 🔀.md>) | To show the human-friendly message.
+    | ⏯️ [`CASE`](<CASE ⏯️.md>) | To show the human-friendly message.
     | ⬇️ [`EVAL`](<../for data/EVAL ⬇️ flow.md>) | to assess the backend queue length.
     | ⏬ [`GET`](<../for data/GET ⏬ item.md>) | To get the queue length from resources.
     | 🔁 [`REPEAT`](<REPEAT 🔁.md>) | To re-assess the queue periodically.

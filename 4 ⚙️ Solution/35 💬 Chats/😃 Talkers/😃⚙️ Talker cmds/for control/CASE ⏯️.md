@@ -1,4 +1,4 @@
-# 🔀 Talker `CASE` flow 
+# ⏯️ Talker `CASE` flow 
 
 > Part of [Talker 😃](<../../😃 Talker.md>)
 
@@ -7,7 +7,7 @@
 
 1. **What's a CASE flow?**
 
-    A `CASE` 🔀
+    A `CASE` ⏯️
     * is a flow [Command ⌘](<⌘ Command.md>)  
     * that runs a matching [Procedure ⚙️](<⚙️ Procedure.md>) or [Command ⌘](<⌘ Command.md>) 
     * based on the evaluation of a [{Function}](<../for data/{Function} 🐍.md>).

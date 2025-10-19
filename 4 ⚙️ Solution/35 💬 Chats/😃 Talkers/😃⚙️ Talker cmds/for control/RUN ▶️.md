@@ -159,7 +159,7 @@
 
     | [Command ⌘](<⌘ Command.md>) | Purpose
     |-|-
-    | 🔀 [`CASE`](<CASE 🔀.md>) | To decide which message to show.
+    | ⏯️ [`CASE`](<CASE ⏯️.md>) | To decide which message to show.
     | ↩️ [`RETURN`](<RETURN ↩️.md>) | To return the final result.
 
 
