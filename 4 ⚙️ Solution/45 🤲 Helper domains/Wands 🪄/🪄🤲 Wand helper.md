@@ -21,7 +21,7 @@
     |-|-|-
     |A| `Tap/Scan` | Guest users use their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) to [tap 🔆](<../../25 🔆 Locators/Locators 🔆/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>) or [scan ✨](<../../25 🔆 Locators/Locators 🔆/🔆⏩ Locator flows/🧑‍🦰✨ Wallet QR scan.md>) the [Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) of a [Thing 💠](<../../25 🔆 Locators/Things 💠/💠🔆 Thing locator.md>) from a given [Brand 🍏 domain](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>).
     |B| `Open`| That opens a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) with the [Wand 🪄 domain](<🪄🤲 Wand helper.md>), acting on behalf of the [Thing's Brand 🍏 domain](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>).
-    |C| `Interact` | Guests can then chat with the [Wand 🪄 domain](<🪄🤲 Wand helper.md>) to search instructions, add private notes, join groups, contact the owner, call emergency, or return the item when found; all notes added by the guest are saved on the [guest's Storage 💾 agent](<../../50 🫥 Agent domains/Storage 💾/💾🫥 Storage agent.md>).
+    |C| `Interact` | Guests can then chat with the [Wand 🪄 domain](<🪄🤲 Wand helper.md>) to search instructions, add private notes, join groups, contact the owner, call emergency, or return the item when found; all notes added by the guest are saved on the [guest's Storage 🗃️ agent](<../../50 🫥 Agent domains/Storage 🗃️/🗃️🫥 Storage agent.md>).
     
 
     | # | Category | 🧑‍🦰 Steps for owners 
@@ -40,7 +40,7 @@
     |-|-
     | [🧳 Custodian](<../../50 🫥 Agent domains/Custodians 🧳/🧳🫥 Custodian agent.md>) | To allow users to manage their [Things 💠](<../../25 🔆 Locators/Things 💠/💠🔆 Thing locator.md>).
     | [🆔 Identity](<../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) | To authenticate users as owners of their [Things 💠](<../../25 🔆 Locators/Things 💠/💠🔆 Thing locator.md>). 
-    | [💾 Storage](<../../50 🫥 Agent domains/Storage 💾/💾🫥 Storage agent.md>) | To allow users to store notes about their [Things 💠](<../../25 🔆 Locators/Things 💠/💠🔆 Thing locator.md>).
+    | [🗃️ Storage](<../../50 🫥 Agent domains/Storage 🗃️/🗃️🫥 Storage agent.md>) | To allow users to store notes about their [Things 💠](<../../25 🔆 Locators/Things 💠/💠🔆 Thing locator.md>).
 
     ---
     <br/>
