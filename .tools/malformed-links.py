@@ -41,7 +41,7 @@ def extract_links_with_malformed_detection(content):
         if 'ads-market-share.png' in line:
             foundTheLine = True
 
-        # Find correct links
+    # Find correct links
         for pattern in [
             r'\[.*?\]\(([^)]+\.md)\)', # match links in the form [text](path.md)
             r'\[.*?\]\(<?([^)>]+\.md)>?\)', # match links in the form [text](<path.md>)
@@ -66,6 +66,21 @@ def extract_links_with_malformed_detection(content):
 
                 if '](.' in line:
                     malformed_links_with_lines.append((line, i))
+
+        # Also capture generic local links without extensions (skip externals/anchors/images)
+        generic_links = re.findall(r'(?<!!)\[.*?\]\(<?([^)>#]+)>?\)', line)
+        for link in generic_links:
+            # Skip if already a handled extension
+            if re.search(r'\.(md|png|jpg|pdf)$', link, re.IGNORECASE):
+                continue
+            # Skip external/anchors/mailto
+            if link.startswith(('http://', 'https://', 'mailto:', '#')):
+                continue
+            # Skip pure fragment or empty
+            if not link.strip():
+                continue
+            # Record as a candidate to check existence
+            links_with_lines.append((link, i))
 
         # Find malformed links
         for patterns in [
