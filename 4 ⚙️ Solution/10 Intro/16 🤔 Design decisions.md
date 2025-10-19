@@ -44,7 +44,7 @@ Design Decisions
 
     - Users [bind 🔗](<../30 🧩 Data/Binds 🔗/🔗 Bind.md>) their [Wallet 🧑‍🦰 app](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) to multiple [Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) holding parts of their personal data (e.g., banks, hospitals, governments);
 
-        - this mirrors real-world interactions, where citizens typically trust organizations to hold their personal data, from traditional  [medical records 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/01 🗂️ Profiling landscape/05 📺 Medical records.md>) to digital [family photos 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/01 🗂️ Profiling landscape/02 📺 Social media.md>).
+        - this mirrors real-world interactions, where citizens typically trust organizations to hold their personal data, from traditional  [medical records 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/01 🕵 Profiling landscape/05 📺 Medical records.md>) to digital [family photos 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/01 🕵 Profiling landscape/02 📺 Social media.md>).
 
     - However, users don't control the [Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>), unlike in [Solid 📺](<../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/05 📺 Berners-Lee vaults.md>) and [Affinidi 📺](<../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/12 📺 Affinidi.md>);
 
