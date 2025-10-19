@@ -2,21 +2,26 @@
 
 > Stores [Chats 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>)
 
+<br/>
+
 ## Schema
 
 Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢.md>).
 
 ```yaml
 # Chats.yaml
+Name: Chats
 Key: Chat
 Parents:
-    Wallet: Wallets|Wallet
+    Wallet: { Wallets.Wallet: Chats.Wallet }
 ```
 
 | Link | Table | Contains
 |-|-|-
 | Parents   | [`Wallets` 🪣](<🤵🪣 Wallets.md>) | [Wallet 🧑‍🦰 app](<../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
 |
+
+<br/>
 
 ## Example
 

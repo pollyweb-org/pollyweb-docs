@@ -26,9 +26,9 @@ activate broker
     end group
 
 
-    broker --> wallet: 2) ⏪ Converse
+    broker --> wallet: 2) ⏪ Converse {chat}
 
-    broker --> finder: 3) Introduce ⏩
+    broker --> finder: 3) Introduce ⏩ {chat}
     deactivate broker
 
 ' ------------

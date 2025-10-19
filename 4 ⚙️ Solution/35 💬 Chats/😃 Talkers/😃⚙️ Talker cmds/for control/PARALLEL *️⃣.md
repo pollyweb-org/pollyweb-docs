@@ -4,7 +4,7 @@
 
 ```yaml
 - PARALLEL|$vault.Binds|$bind >> $binds:
-    - MSG:
+    - SEND:
         To: $bind.Vault
         Subject: Unbound@Vault
         Bind: $bind.ID

@@ -53,7 +53,7 @@ Body:
     Data: $data
 
 # Send the Collect message
-- MSG:
+- SEND:
     To: $collect.Consumer
     Subject: Collect@Consumer
     Collect: $collect.Collect

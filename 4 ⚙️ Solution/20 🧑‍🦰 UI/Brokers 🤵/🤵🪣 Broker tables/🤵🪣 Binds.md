@@ -2,6 +2,8 @@
 
 > Stores [Binds 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
 
+<br/>
+
 ## Schema
 
 Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢.md>).
@@ -9,9 +11,10 @@ Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 
 
 ```yaml
 # Binds.yaml
+Name: Binds
 Key: Bind
 Parents:
-    Wallet: Wallets|Wallet
+    Wallet: { Wallets.Wallet: Binds.Wallet }
 ```
 
 
@@ -20,6 +23,7 @@ Parents:
 | Parent    | [`Wallets` 🪣](<🤵🪣 Wallets.md>) | [Wallet 🧑‍🦰 app](<../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
 |
 
+<br/>
 
 ## Example
 

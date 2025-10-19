@@ -2,15 +2,18 @@
 
 > Stores [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
 
+<br/>
+
 ## Schema
 
 Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢.md>).
 
 ```yaml
 # Tokens.yaml
+Name: Tokens
 Key: Issuer, Token
 Parents:
-    Wallet: Wallets|Wallet
+    Wallet: { Wallets.Wallet: Tokens.Wallet }
 ```
 
 
@@ -19,6 +22,7 @@ Parents:
 | Parent    | [`Wallets` 🪣](<🤵🪣 Wallets.md>) | [Wallet 🧑‍🦰 app](<../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
 |
 
+<br/>
 
 ## Example
 

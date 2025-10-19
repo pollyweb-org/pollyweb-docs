@@ -9,15 +9,47 @@
 1. **Whats the simplest syntax for itemized schemas?**
 
     ```yaml
-    # No parents nor children
+    # First column is the key.
+    # No parents, children, or distincts.
+    Name: <name>
+    ```
+
+    |Argument|Details|Example
+    |-|-|-
+    | `<name>` | Dataset name | `ORDERS`
+    |
+
+    Here's an example.
+
+    ```yaml
+    # Example
+    Name: ORDERS
+    ```
+
+    ---
+    <br/>
+
+1. **Whats the syntax for complex keys?**
+
+    ```yaml
+    # Complex keys
     Name: <name>
     Key: <k1>[,<kN>]
     ```
 
     |Argument|Details|Example
     |-|-|-
-    | `<name>` | Dataset name | `Orders`
-    |`<k1>[,<kN>]`  | Key combination | `Col1` `Col1,Col2`
+    |`<k1>[,<kN>]`  | Key combination | `ID` `COL1,COL2`
+    |
+
+    Here's an example.
+
+    ```yaml
+    # Example
+    Name: ORDERS
+    Key: ID
+    ```
+
 
     ---
     <br/>    
@@ -27,16 +59,31 @@
     ```yaml
     # With parents
     Name: <name>
-    Key: <k1>[,<kN>]
+
     Parents:
-        <parent-alias>: <parent-set>|<k2>[,<kZ>]
+        <alias>: 
+            <parent>.<key1>: <name>.<link1>
+            <parent>.<keyN>: <name>.<linkN>
     ```
 
     |Argument|Details|Example
     |-|-|-
-    | `<parent-alias>` | Added property  | `Customer`
-    | `<parent-set>` | Parent dataset  | `AllCustomers`
-    | `<k2>[,<kZ>]`  | Matching child | `CustomerID`
+    | `<alias>` | New parent property  | `CUSTOMER`
+    | `<parent>` | Parent dataset  | `CUSTOMERS`
+    | `<key>`  | Matching parent field | `ID`
+    | `<link>` | Matching child field | `CUST_ID`
+    |
+
+    Here's an example.
+
+    ```yaml
+    # Example
+    Name: ORDERS
+
+    Parents:
+        CUSTOMER: 
+            CUSTOMERS.ID: ORDERS.CUST_ID
+    ```
     
     ---
     <br/>    
@@ -46,36 +93,67 @@
     ```yaml
     # With children
     Name: <name>
-    Key: <k1>[,<kN>]
+
     Children:
-        <child-alias>: <child-set>|<k2>[,<kZ>]
+        <alias>: 
+            <child>.<link1>: <name>.<key1>
+            <child>.<linkN>: <name>.<keyN>
     ```
 
     |Argument|Details|Example
     |-|-|-
-    | `<child-alias>`  | Added property  | `Items`
-    | `<child-set>`  | Child dataset  | `AllItems`
-    | `<k2>[,<kZ>]`  | Matching child | `OrderID`
+    | `<alias>`  | Added property  | `LINES`
+    | `<child>`  | Child dataset  | `ORDER_LINES`
+    | `<link>` | Matching child field | `ORDER_ID`
+    | `<key>`  | Matching parent field | `ID`
+    |
+
+    Here's an example.
+
+    ```yaml
+    # Example
+    Name: ORDERS
+
+    Children:
+        LINES: 
+            ORDER_LINES.ORDER_ID: ORDERS.ID
+    ```
 
     ---
     <br/>
 
-1. **Whats the syntax with a grand-children?**    
+1. **Whats the syntax with distincts?**    
 
     ```yaml
-    # With grand-children
+    # With distincts
     Name: <name>
-    Key: <k1>[,<kN>]
     Children:
-        <child-alias>: <child-set>|<k1>[,<kN>]
-        <grand-alias>: .<child-alias>|<grand-set>|<k1>[,<kN>]
+        <child>: 
+            <child-set>.<link>: <name>.<key>
+    Distincts:
+        <distinct>: <child>.<property>
     ```
 
     |Argument|Details|Example
     |-|-|-
     | `<grand-alias>`  | Added property  | `Category`
     | `<grand-set>`  | Grand-children  | `Categories`
+    |
+
+    Here's an example.
     
+    ```yaml
+    # Example
+    Name: ORDERS
+
+    Children:
+        LINES: 
+            ORDER_LINES.ORDER_ID: ORDERS.ID
+
+    Distincts:
+        PRODUCTS: LINES.PROD_ID
+    ```
+
     ---
     <br/>
 
@@ -83,30 +161,30 @@
 
     |Dataset 🪣|Key | Data |Link 🪣|Link 🪣  | Usage
     |-|-|-|-|-|-
-    |`Orders`|ID| Date |CustID |    | `$o.Date`
-    |`Customers`|ID|City   |   |  | `$o.Customer.City`
-    |`OrderLines`|ID|Qtt|OrderID | ItemID | `$o.Lines[0].Qtt`
-    |`Catalog`|ID|Name    |        || `$o.Items[0].Name`
+    |`CUSTOMERS`|ID|CITY   |   |  | `$o.CUSTOMER.CITY`
+    |`ORDERS`|ID| DATE |CUST_ID |    | `$o.DATE`
+    |`ORDER_LINES`|ID|QTT|ORDER_ID | PROD_ID | `$o.LINES[0].QTT`
 
     ```yaml
-    Name: Orders
+    Name: ORDERS
     Key: ID
 
     Parents:
-
         # For each Order, link the Customer
         # Usage: $o.Customer.City
-        Customer: Customers|CustID
+        CUSTOMER:
+            CUSTOMERS.ID: ORDERS.CUST_ID
     
     Children:
-
         # For each Order, link the Lines
         # Usage: $o.Lines[0].Qtt
-        Lines: OrderLines|OrderID
+        LINES: 
+            ORDER_LINES.ORDER_ID: ORDERS.ID
         
-        # For each Line, link the Item
-        # Usage: $o.Items[0].Name
-        Items: .Lines|Catalog|ItemID
+    Distincts:
+        # Group the product IDs
+        # Usage: $o.Products[0]
+        PRODUCTS: LINES.PROD_ID
     ```
 
     ---

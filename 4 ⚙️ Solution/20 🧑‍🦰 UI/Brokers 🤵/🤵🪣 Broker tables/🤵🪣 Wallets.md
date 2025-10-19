@@ -2,21 +2,30 @@
 
 > Stores [Wallet 🧑‍🦰 apps](<../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
 
+<br/>
+
 ## Schema
 
 Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢.md>).
 
 ```yaml
 # Wallets.yaml
+
+Name: Wallets
 Key: Wallet
 
-Parent:
-    Notifier: Notifiers|Notifier
+Parents:
+    Notifier: { Notifiers.Notifier: Wallets.Notifier }
 
 Children:
-    Chats: Chats|Wallet
-    Binds: Binds|Wallet
-    Tokens: Tokens|Wallet
+    Chats: { Chats.Wallet: Wallets.Wallet }
+    Binds: { Binds.Wallet: Wallet.Wallet }
+    Tokens: { Tokens.Wallet: Wallet.Wallet }
+
+Distincts: 
+    Hosts: Chats.Host
+    Vaults: Binds.Vault
+    Issuers: Tokens.Issuer
 ```
 
 | Link | Table | Contains
@@ -27,6 +36,8 @@ Children:
 | | [`Tokens` 🪣](<🤵🪣 Tokens.md>) | [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
 |
 
+<br/>
+
 ## Example
 
 Here's the [`GET` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET ⏬ item.md>) result.
@@ -36,4 +47,5 @@ Here's the [`GET` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talke
 Wallet: <wallet-uuid>
 PublicKey: <public-key>
 Notifier: any-notifier.dom
+Language: en-us
 ```
