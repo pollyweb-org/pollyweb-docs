@@ -4,7 +4,9 @@
 
 ```yaml
 - PARALLEL|$vault.Binds >> $bind:
-    - MSG|Unbound@Vault|$bind.Vault:
+    - MSG:
+        To: $bind.Vault
+        Subject: Unbound@Vault
         Bind: $bind.ID
     - DELETE|$bind
 ```

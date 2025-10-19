@@ -1,4 +1,4 @@
-# 🤲 Talker INVITE command
+# 🤲 Talker `INVITE` command
 
 > Relates to [Invite ⏩ flow](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Invite 🤲.md>)
 

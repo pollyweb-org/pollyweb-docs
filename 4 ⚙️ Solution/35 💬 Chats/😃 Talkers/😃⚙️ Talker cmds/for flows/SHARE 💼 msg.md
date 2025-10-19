@@ -1,4 +1,4 @@
-# 💼 Talker SHARE command
+# 💼 Talker `SHARE` command
 
 > Part of [Talker 😃](<../../😃 Talker.md>)
 

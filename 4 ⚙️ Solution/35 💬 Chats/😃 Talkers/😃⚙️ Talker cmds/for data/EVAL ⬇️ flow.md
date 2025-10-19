@@ -213,3 +213,42 @@
 
     ---
     <br/>
+
+
+1. **How to format a list of objects?**
+
+    Here's an example based on [`Chats@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🧑‍🦰🚀🤵 Chats.md>)
+
+    ```yaml
+    # Build the original list.
+    - EVAL >> $list:
+        - {A:10, B:11, C:12}
+        - {A:20, B:21, C:22}
+    
+    # Extract only A and B properties.
+    - EVAL|$list >> $output:
+        Alpha: .A
+        Beta: .B
+    ```
+
+    Here's the `$output`.
+
+    ```yaml
+    | Alpha | Beta |
+    | ----- | ---- |
+    |    10 |   11 |
+    |    20 |   21 |
+    ```
+
+    Here's the syntax.
+
+    ```yaml
+    # Syntax
+    EVAL|$list >> $output:
+        Property1: .Field1
+        Property2: .Field2
+    ```
+
+
+    ---
+    <br/>

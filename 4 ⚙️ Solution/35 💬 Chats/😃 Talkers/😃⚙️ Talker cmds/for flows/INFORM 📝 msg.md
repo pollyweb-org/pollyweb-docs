@@ -1,4 +1,4 @@
-# 📝 Talker INFORM command
+# 📝 Talker `INFORM` command
 
 > Part of [Talker 😃](<../../😃 Talker.md>)
 
