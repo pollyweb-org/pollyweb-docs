@@ -1,6 +1,6 @@
-# 🔃🚀🗃️ Clone @ Filer
+# 🔃🚀🌲 Clone @ Filer
 
-* Part of the [🔃⏩🗃️ Clone @ Syncer](<../../../55 👷 Build domains/Syncers 🔃/🔃⏩ Syncer flows/10 🔃⏩🗃️ Clone.md>) flow.
+* Part of the [🔃⏩🌲 Clone @ Syncer](<../../../55 👷 Build domains/Syncers 🔃/🔃⏩ Syncer flows/10 🔃⏩🌲 Clone.md>) flow.
 
 * ⚠️ This request is not signed.
 
@@ -25,7 +25,7 @@ Body:
 | Object| Property | Type | Description
 |-|-|-|-
 | Header    | `From`        | string | `Anonymous`
-|           | `To`          | string    | [Filer 🗃️ domain](<../🗃️🎭 Filer role.md>) name
+|           | `To`          | string    | [Filer 🌲 domain](<../🌲🎭 Filer role.md>) name
 |           | `Subject`     | string    | `Clone@Filer`
 | Body      | `WalletPin`  | string | Pin displayed on the [Wallet 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
 |           | `SyncerPin`   | string | Pin displayed on the [Syncer 🔃](<../../../55 👷 Build domains/Syncers 🔃/🔃🛠️ Syncer tool.md>)
@@ -44,7 +44,7 @@ Hash: SHA-256
 
 || Property | Type | Description
 |-|-|-|-
-|| `Filer`   | string    | [Filer 🗃️](<../🗃️🎭 Filer role.md>) for parameter-less [Sync ⏩](<../../../55 👷 Build domains/Syncers 🔃/🔃⏩ Syncer flows/20 🔃⏩🗃️ Sync.md>)
-|| `Clone`       | uuid      | ID for future calls, e.g. [`Map@Filer`](<🔃🚀🗃️ Map.md>)
-|| `Hash`        | enum | Algorithm for [`Map@`](<🔃🚀🗃️ Map.md>): `SHA-256`
+|| `Filer`   | string    | [Filer 🌲](<../🌲🎭 Filer role.md>) for parameter-less [Sync ⏩](<../../../55 👷 Build domains/Syncers 🔃/🔃⏩ Syncer flows/20 🔃⏩🌲 Sync.md>)
+|| `Clone`       | uuid      | ID for future calls, e.g. [`Map@Filer`](<🔃🚀🌲 Map.md>)
+|| `Hash`        | enum | Algorithm for [`Map@`](<🔃🚀🌲 Map.md>): `SHA-256`
 |
