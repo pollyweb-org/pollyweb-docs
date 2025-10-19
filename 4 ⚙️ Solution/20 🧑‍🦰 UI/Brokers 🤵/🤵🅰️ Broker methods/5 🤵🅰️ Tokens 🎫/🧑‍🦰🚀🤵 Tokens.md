@@ -4,11 +4,13 @@
 
 # 🧑‍🦰🚀🤵 Tokens @ Broker
 
-> List of [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) in a [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) for a human user, mapping to the local file.
+* List of [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) 
+  * in a [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) for a human user, 
+  * mapping to the local file.
 
-> Used in:
-> <br/> • [🧑‍🦰👉🤵 Translate @ Broker](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/💬🤵 Translate.md>) flow
-> <br/> • [🧑‍🦰👉🤵 List Tokens @ Broker](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/💬🤵 List Tokens 🎫.md>) flow
+* Used in:
+  * [🧑‍🦰💬🤵 Translate @ Broker](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/💬🤵 Translate.md>) flow
+  * [🧑‍🦰💬🤵 List Tokens @ Broker](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/💬🤵 List Tokens 🎫.md>) flow
 
 <br/>
 
@@ -19,7 +21,6 @@ Header:
     From: <wallet-uuid>
     To: any-broker.dom
     Subject: Tokens@Broker
-Body: 
 ```
 
 | Object | Property | Type  | Description
@@ -38,7 +39,8 @@ Tokens:
   - Issuer: any-issuer.dom
     Token: <token-uuid>
     IssuerTitle: Any Issuer
-    CodeTitle: Any Code
+    Schema: any-authority/ANY-SCHEMA:1.0
+    SchemaTitle: Any Code
     Path: /storage/nlweb/tokens/any-issuer.dom/<token-uuid>
     Status: REVOKED
     Locator: .TOKEN,any-issuer.dom,any-key

@@ -11,7 +11,7 @@
 ## Example
 
 ```yaml
-Path: /GROUP/SUBGROUP/ANY-CODE
+Path: /GROUP/SUBGROUP/ANY-SCHEMA
 Delegator: any-delegator.com
 Name: Any name
 Description: Any description

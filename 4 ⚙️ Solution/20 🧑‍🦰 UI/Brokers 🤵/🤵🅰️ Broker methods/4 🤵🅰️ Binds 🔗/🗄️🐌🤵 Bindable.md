@@ -26,7 +26,7 @@ Body:
     Chat: <chat-uuid>
     Hook: <hook-uuid>
     Schemas: 
-      - any-authority.org/ANY-CODE
+      - any-authority.org/ANY-SCHEMA
 ```
 
 | Object | Property | Type  | Description
