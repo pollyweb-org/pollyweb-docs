@@ -12,9 +12,9 @@
     |#|Step
     |-|-
     |1| [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to a [Hoster ☁️ domain](<../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>)
-    |2| [Clone](<../Syncers 🔃/🔃⏩ Syncer flows/10 🔃⏩🌲 Clone.md>) the files to a local folder
+    |2| [Clone](<../Syncers 🔃/🔃⏩ Syncer flows/10 🔃⏩🗂️ Clone.md>) the files to a local folder
     |3| Spin up an HTTP backend endpoint
-    |4| Edit the files and [sync](<../Syncers 🔃/🔃⏩ Syncer flows/20 🔃⏩🌲 Sync.md>) the changes
+    |4| Edit the files and [sync](<../Syncers 🔃/🔃⏩ Syncer flows/20 🔃⏩🗂️ Sync.md>) the changes
     
 
     ---
@@ -34,7 +34,7 @@
     | 😃 [Talkers](<📦📄 Hosted files/😃📂 Talkers folder.md>) | Folder | List of [Talker 😃](<../../35 💬 Chats/😃 Talkers/😃 Talker.md>) scripts 
     | [📜 Manifest](<📦📄 Hosted files/📜📂 Manifest folder.md>) | Folder | Public [domain Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) parts
     | [🪣 Pools](<📦📄 Hosted files/🗺️📄 Map file.md>) | YAML | Resource index for [Talker `GET`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET 🗺️ item.md>)
-    | [🌲 Resources](<📦📄 Hosted files/🌲📂 Resources folder.md>) | Folder | Resource folder for [🪣 Pools](<📦📄 Hosted files/🗺️📄 Map file.md>)
+    | [🗂️ Resources](<📦📄 Hosted files/🗂️📂 Filer folder.md>) | Folder | Resource folder for [🪣 Pools](<📦📄 Hosted files/🗺️📄 Map file.md>)
     
 
     ---

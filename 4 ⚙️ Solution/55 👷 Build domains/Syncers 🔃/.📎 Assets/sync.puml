@@ -2,7 +2,7 @@
 
 participant "Wallet 🧑\napp" as wallet
 participant "Syncer 🔃\ntool" as syncer
-participant "Filer 🌲\nvault" as filer
+participant "Filer 🗂️\nvault" as filer
 
 syncer -> filer: 1) Map 🚀
 activate syncer
