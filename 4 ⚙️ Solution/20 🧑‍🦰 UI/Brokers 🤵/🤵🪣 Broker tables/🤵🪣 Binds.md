@@ -12,29 +12,16 @@ Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 
 Key: Bind
 Parents:
     Wallet: Wallets|Wallet
-    Vault: Vaults|Vault
 ```
 
 
 | Link | Table | Contains
 |-|-|-
 | Parent    | [`Wallets` 🪣](<🤵🪣 Wallets.md>) | [Wallet 🧑‍🦰 app](<../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
-|           | [`Vaults` 🪣](<🤵🪣 Vaults.md>) | [Vault 🗄️ domain](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) 
 |
 
 
 ## Example
-
-Here's the [`SAVE` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/SAVE 🛢 item.md>).
-
-```yaml
-- SAVE|Binds@Broker:
-    Bind: <bind-id>
-    Vault: 
-        Vault: any-vault.dom
-    Wallet: <wallet-uuid>
-    Schema: any-authority.dom/ANY-CODE
-```
 
 Here's the [`GET` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET 🗺️ item.md>) result.
 
