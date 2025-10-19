@@ -1,5 +1,7 @@
 # 🪣 Notifiers
 
+> Contains [Notifier 📣 domains](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣👥 Notifier domain.md>)
+
 ## Schema
 
 Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢.md>).
@@ -10,6 +12,12 @@ Key: Notifier
 Children:
     Wallets: Wallets|Notifier
 ```
+
+| Link | Table | Contains
+|-|-|-
+| Children | [`Wallets` 🪣](<🤵🪣 Wallets.md>) | [Wallet 🧑‍🦰 apps](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+|
+
 
 ## Example
 

@@ -65,7 +65,7 @@
 
     | Argument| Purpose 
     |-|-
-    | `$item` | [Placeholder 🧠](<$Placeholder 🧠.md>) item loaded with [`GET` 🗺️](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET 🗺️ item.md>)
+    | `$item` | [Placeholder 🧠](<$Placeholder 🧠.md>) item loaded with [`GET` 🗺️](<GET 🗺️ item.md>)
 
     ---
     <br/>
