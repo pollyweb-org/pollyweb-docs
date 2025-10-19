@@ -40,7 +40,8 @@ Header:
 ```yaml
 Chats:
   - Chat: <chat-uuid>
-    Title: Any Hosts
+    Host: any-host.dom
+    Host$: Any Host
 ```
 
 | Object    | Property  | Type  | Description

@@ -42,14 +42,14 @@ Body:
 | Header    | `From`    | string    | [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) name
 |           | `To`      | string    | [Host 🤗 domain](<../🤗🎭 Host role.md>) name
 |           | `Subject` | string    | `Hello@Host`
-| Body      | `Language`| enum    | ISO language code
-|           | `Chat`  | uuid      | [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID in the [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>)
-|           | `PublicKey`| string | For [`Prompted@`](<🧑‍🦰🚀🤗 Prompted.md>) [`Reply@`](<🧑‍🦰🐌🤗 Reply.md>) [`Download@`](<🧑‍🦰🚀🤗 Download.md>)
+| Body           | `Binds`   | uuid[] | List of [Binds 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) for a [Vault 🗄️](<../../Vaults 🗄️/🗄️🎭 Vault role.md>) host
+|| `Chat`  | uuid      | [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID in the [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>)
+|      | `Language`| enum    | ISO language code
 |           | `Locator` | string    | [Locator 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) in the [Host 🤗 domain](<../🤗🎭 Host role.md>)
-|           | `Schema`    | string    | [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) of the Locator
-|           | `Binds`   | uuid[] | List of [Binds 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) for a [Vault 🗄️](<../../Vaults 🗄️/🗄️🎭 Vault role.md>) host
-|           | `Tokens`  | uuid[] | List of [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) for an [Issuer 🎴](<../../Issuers 🎴/🎴🎭 Issuer role.md>) host
 || `Parameters`| object | Custom parameters
+|           | `PublicKey`| string | For [`Prompted@`](<🧑‍🦰🚀🤗 Prompted.md>) [`Reply@`](<🧑‍🦰🐌🤗 Reply.md>) [`Download@`](<🧑‍🦰🚀🤗 Download.md>)
+|           | `Schema`    | string    | [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) of the Locator
+|           | `Tokens`  | uuid[] | List of [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) for an [Issuer 🎴](<../../Issuers 🎴/🎴🎭 Issuer role.md>) host
 |
 
 <br/>
@@ -57,10 +57,16 @@ Body:
 ## Handler
 
 ```yaml
+# Check if the Broker is trustworthy
+- TRUST
+
 # Save the data
 - SAVE|Chats@Host:
     Broker: $.Msg.From
-    :$.Msg.Body:
+    
+    # It's safe to save the Body, 
+    #   it's already schema-validated.
+    :$.Msg.Body:  
 
 # Start a Chat for the locator
 - TALK|$.Msg.Chat|$.Msg.Locator
@@ -68,6 +74,7 @@ Body:
 
 | [Command ⌘](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | Purpose
 |-|-
+| 📨 [`$.Msg`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/$.Msg 📨.md>) | Read the incoming [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>)
 | 💾 [`SAVE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/SAVE 💾 item.md>) | Save the [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message.md>) into the [Chats 🪣 table](<../🤗🪣 Host tables/🤗🪣 Chats 💬.md>)
 | 😃 [`TALK`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/TALK 😃.md>) | Start a [Talker 😃](<../../../35 💬 Chats/😃 Talkers/😃 Talker.md>)
 |

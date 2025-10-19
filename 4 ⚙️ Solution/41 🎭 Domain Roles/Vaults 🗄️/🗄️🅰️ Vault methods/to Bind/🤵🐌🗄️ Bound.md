@@ -34,8 +34,7 @@ Body:
 |Header| `From` | string | [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)
 || `To` | string | [Vault 🗄️](<../../🗄️🎭 Vault role.md>)  from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)
 || `Subject` | string | `Bound@Vault`
-|Body| `Chat` | uuid | [Chat 💬 ID](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)
-|| `Hook` | uuid | [Hook 🪝](<../../../../35 💬 Chats/😃 Talkers/😃🪣 Talker tables/😃🪣 Hooks 🪝.md>) from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)
+|Body|  `Hook` | uuid | [Hook 🪝](<../../../../35 💬 Chats/😃 Talkers/😃🪣 Talker tables/😃🪣 Hooks 🪝.md>) from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)
 ||`Binds`| array | list of Bind objects
 |Bind| `Bind`| uuid | [Bind 🔗 ID](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) on the [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>)
 || `Schema`| string | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)  from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)
@@ -46,11 +45,14 @@ Body:
 ## Handler
 
 ```yaml
+# Verify the domain signature
+- VERIFY|$.Msg
+
 # Resolve the callback
 - GET|Hooks@Talker|$.Msg.Hook >> $hook
 
-# Get the user
-- GET|Chats@Host|$.Msg.Chat >> $chat
+# Get the chat
+- GET|Chats@Host|$hook.Chat >> $chat
 
 # Process each Bind
 - PARALLEL|$.Msg.Binds|$bind:
@@ -72,8 +74,9 @@ Body:
 | 📨 [`$.Msg`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/$.Msg 📨.md>) | Read the incoming [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>)
 | ⏬ [`GET`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET ⏬ item.md>) | Get the [Hook 🪝](<../../../../35 💬 Chats/😃 Talkers/😃🪣 Talker tables/😃🪣 Hooks 🪝.md>) from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)  
 | ️️*️⃣ [`PARALLEL`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/PARALLEL *️⃣.md>) | Process each [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
-| 💾 [`SAVE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/SAVE 💾 item.md>) | Save the [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to the [Binds 🪣](<../../🗄️🪣 Vault tables/🗄️🪣 Binds.md>) table
 | 🎣 [`REEL`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/REEL 🎣.md>) | Continue the [Talker 😃](<../../../../35 💬 Chats/😃 Talkers/😃 Talker.md>)
+| 💾 [`SAVE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/SAVE 💾 item.md>) | Save the [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to the [Binds 🪣](<../../🗄️🪣 Vault tables/🗄️🪣 Binds.md>) table
+| 🔐 [`VERIFY`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/VERIFY 🔐 msg.md>) | Verify the domain [Signature 🔏](<../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Signatures 🔏.md>) of the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>)
 |
 
 

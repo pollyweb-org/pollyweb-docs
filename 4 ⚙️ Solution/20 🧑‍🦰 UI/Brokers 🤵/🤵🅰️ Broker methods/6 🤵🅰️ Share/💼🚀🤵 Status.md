@@ -14,7 +14,6 @@ Header:
     Subject: Status@Broker
 
 Body:
-    Issuer: any-issuer.dom
     Token: <token-uuid>  
 ```
 
@@ -24,10 +23,11 @@ Body:
 | Header| `From`| string | [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) name
 | | `To`    | string | [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) name
 | | `Subject`| string | `Status@Broker`
-| Body | `Issuer` | string | [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)
-| | `Token`| string | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ID on the Issuer
+| Body | `Token`| uuid | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) from [`Receive@Consumer`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🅰️ Consumer methods/🧑‍🦰🐌💼 Receive.md>)
 |
     
+<br/>
+
 
 ## Synchronous Response
 
@@ -45,3 +45,24 @@ Locator: .HOST,any-host.dom,any-key
 | `Ending`  | string | Optional date of ending of status
 | `Locator`| string | Optional [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) for a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) about it
 |
+
+<br/>
+
+## Handler
+
+```yaml
+# Verify the Consumer message
+- VERIFY|$.Msg
+
+# Get the Token
+- GET >> $token:
+    Pool: Tokens@Broker
+    Key: $.Msg.Token
+
+# Return the Status
+- REEL:
+    Status: $token.Status
+    Starting: $token.Starting
+    Ending: $token.Ending
+    Locator: $token.Locator
+```

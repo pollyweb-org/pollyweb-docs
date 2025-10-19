@@ -1,6 +1,6 @@
-# 🪣 Binds
+# 🪣 Chats
 
-> Stores the content of [`Bound@Broker`](<../../Vaults 🗄️/🗄️🅰️ Vault methods/to Bind/🤵🐌🗄️ Bound.md>)
+> Stores the content of [`Hello@Host`](<../🤗🅰️ Host methods/🤵🐌🤗 Hello.md>)
 
 <br/>
 
@@ -9,19 +9,17 @@
 Here's the [`GET` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET ⏬ item.md>) result.
 
 ```yaml
-# GET|Binds|<broker>,<bind-id>
+# GET|Chats|<broker>,<chat-uuid>
 Broker: any-broker.dom
-Bind: <bind-id>
-Schema: .BIND
-User: <user-reference>
+Chat: <chat-uuid>
+PublicKey: <public-key>
 ```
 
 | Property | Type | Details
 |-|-|-
-| `Broker` | string | From [`Bound@Broker`](<../../Vaults 🗄️/🗄️🅰️ Vault methods/to Bind/🤵🐌🗄️ Bound.md>)
-| `Bind`| uuid | From [`Bound@Broker`](<../../Vaults 🗄️/🗄️🅰️ Vault methods/to Bind/🤵🐌🗄️ Bound.md>)
-| `Schema` | string | From [`Bound@Broker`](<../../Vaults 🗄️/🗄️🅰️ Vault methods/to Bind/🤵🐌🗄️ Bound.md>)
-| `User` | any | Internal anchor
+| `Broker`  | string | 
+| `Chat`    | uuid |
+| `PublicKey` | string | From [`Hello@Host`](<../🤗🅰️ Host methods/🤵🐌🤗 Hello.md>)
 | 
 
 <br/>
@@ -32,6 +30,7 @@ Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 
 
 
 ```yaml
-# Binds.yaml
-Key: Broker, Bind
+# Chats.yaml
+Name: Chats
+Key: Broker, Chat
 ```
