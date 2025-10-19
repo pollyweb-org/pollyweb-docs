@@ -1,5 +1,3 @@
-
-
 # 🎣 Talker `REEL` command
 
 > Part of [Talker 😃](<../../😃 Talker.md>)
@@ -27,7 +25,7 @@
     
     | Argument| Purpose |
     |-|-
-    | `{response}` | Response for the [Synchronous Request 🚀](<Request Sync 🚀.md>)
+    | `{response}` | Response for the [Synchronous Request 🚀](<../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Request Sync 🚀.md>)
 
     ---
     <br/>

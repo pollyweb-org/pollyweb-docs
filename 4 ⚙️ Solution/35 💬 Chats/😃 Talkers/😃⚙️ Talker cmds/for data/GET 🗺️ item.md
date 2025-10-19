@@ -8,7 +8,6 @@
 
 <br/>
 
-
 1. **What's a MAP item command?**
 
     A `MAP` 🗺️

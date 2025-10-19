@@ -21,9 +21,8 @@ Header:
   
 Body:
     Chat: <chat-uuid>
-    Token: <token-uuid>
-    Schema: any-authority/ANY-CODE
-    Version: 1.0.0
+    Hook: <hook-uuid>
+    Schema: any-authority/ANY-CODE:1.0
     Starts: 2018-12-10T13:45:00.000Z
     Expires: 2018-12-10T13:45:00.000Z
 ```
@@ -34,11 +33,10 @@ Body:
 ||`To`|string| [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) name
 ||`Subject`|string|`Offer@Broker`
 |Body  |`Chat` |uuid  | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🤵🐌🤗 Hello.md>)
-| |`Token` |uuid  | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ID
-|      |`Schema`   |string| [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) 
-|      |`Version`|string| Schema version|      
-|      |`Starts` |timestamp| Valid from
-|      |`Expires`|timestamp| Valid until
+| |`Hook` |uuid  | Hook for [`Issued@`](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/🧑‍🦰🚀🎴 Issued.md>) [`Accepted@`](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/🤵🐌🎴 Accepted.md>)
+|      |`Schema`   |string| [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) of the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)     
+|      |`Starts` |timestamp| [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) valid from
+|      |`Expires`|timestamp| [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) valid until
 |
 
 <br/>

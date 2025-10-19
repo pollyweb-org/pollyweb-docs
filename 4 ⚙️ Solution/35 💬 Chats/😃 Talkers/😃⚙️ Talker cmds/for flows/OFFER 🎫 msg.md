@@ -48,8 +48,8 @@
    # 😃 Talker 
    💬 Offer:
    - INFO|Issuing your token...
-   - OFFER|{GetTokenID} >> $accepted
-   - IF|$accepted:
+   - OFFER|{GetTokenID} >> $token
+   - IF|$token:
        Then: SUCCESS|Saved to your wallet.
        Else: FAILURE|You rejected the token.
    ```

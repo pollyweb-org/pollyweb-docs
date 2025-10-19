@@ -20,8 +20,7 @@ Header:
     Subject: Token@Issuer
     
 Body:
-    Chat: <chat-uuid>
-    Token: <token-uuid>
+    Hook: <hook-uuid>
 ```
 
 |Object |Property |Type|Description
@@ -29,8 +28,7 @@ Body:
 |Header | `From`  | string  | `Anonymous`
 |       | `To`    | string  | [Issuer 🎴 domain](<../🎴🎭 Issuer role.md>) name
 ||`Subject`|string|`Token@Issuer` 
-| Body | `Chat` | string | [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Offer@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
-| | `Token`| string | [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ID from [`Offer@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
+| Body | `Hook`| string | `Hook` from [`Offer@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
 |
 
 <br/>
@@ -38,8 +36,6 @@ Body:
 ## Sync Response
 
 ```yaml
-Issuer: any-issuer.dom
-Token: ANY-TOKEN-KEY
 Schema: airlines.any-igo.dom/SSR/WCH:1 
 ...
 ```

@@ -27,7 +27,7 @@ Body:
 |Header|`From` | string | [Consumer 💼](<../../../Consumers 💼/💼🎭 Consumer role.md>) from [`Consume@Consumer`](<../../../Consumers 💼/💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>)
 || `To`| string | [Vault 🗄️](<../../🗄️🎭 Vault role.md>) from [`Consume@Consumer`](<../../../Consumers 💼/💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>)
 ||`Subject` | string | `Collect@Vault`
-|Body|`Collect` | uuid | Hook from [`Consume@Consumer`](<../../../Consumers 💼/💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>)
+|Body|`Collect` | uuid | `Collect` from [`Consume@Consumer`](<../../../Consumers 💼/💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>)
 |
 
 <br/>
