@@ -1,6 +1,6 @@
 <!-- https://quip.com/YdJpA3idWduO#temp:C:afPf2204358162a42529b4a902e9 -->
 
-# 🎴⏩🧑‍🦰 Offer Token @ Wallet
+# 🎴⏩🧑‍🦰 Save Token @ Wallet
 
 * On the [Wallet 🧑‍🦰 app](<../🧑‍🦰🛠️ Wallet app.md>), 
     * a user accepts a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) 
@@ -28,11 +28,16 @@ The associated [Talker 😃](<../../../35 💬 Chats/😃 Talkers/😃 Talker.md
 
 ```yaml
 - INFO|Issuing your token...
-- ISSUE|{GetTokenID} >> accepted
+- ISSUE >> $token
 - IF|{$accepted}:
     Then: SUCCESS|Saved to your wallet.
     Else: FAILURE|You rejected the token.
 ```
+
+| [Command ⌘](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | Purpose
+|-|-
+| 🎫 [`ISSUE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for flows/ISSUE 🎫 msg.md>) | Call the [Save Token ⏩ flow](<👉🎴 Save token.md>).
+|
 
 <br/>
 

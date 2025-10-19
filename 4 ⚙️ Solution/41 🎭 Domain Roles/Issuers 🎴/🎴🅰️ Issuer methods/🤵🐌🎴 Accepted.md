@@ -51,7 +51,8 @@ Body:
     Token: $.Msg.Token
 
 # Save the Token
-- SAVE|Tokens@Issuer|$token
+- SAVE|Tokens@Issuer:
+    $token
 
 # Continue the Talker
 - REEL|$hook:
