@@ -18,7 +18,7 @@ Header:
 Body:
     Chat: <chat-uuid>
     Inviter: any-consumer.dom
-    Schema: any-authority.com/ANY-CODE:1.0
+    Schema: any-authority.com/ANY-SCHEMA:1.0
     Callback: <callback-uuid>
     Parameters:
         Param1: Value1

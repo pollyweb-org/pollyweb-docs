@@ -34,5 +34,5 @@ Here's the [`GET` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talke
 Bind: <bind-id>
 Vault: any-vault.dom
 Wallet: <wallet-uuid>
-Schema: any-authority.dom/ANY-CODE:1.0
+Schema: any-authority.dom/ANY-SCHEMA:1.0
 ```

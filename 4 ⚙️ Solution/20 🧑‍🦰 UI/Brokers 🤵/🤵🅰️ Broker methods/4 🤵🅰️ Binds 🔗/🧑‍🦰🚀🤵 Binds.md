@@ -37,9 +37,9 @@ Body:
 Binds:
   - Bind: <bind-uuid>
     Vault: any-vault.dom
-    Vault$: AnyVault
-    Schema: any-authority.org/ANY-CODE
-    Code$: Any Code
+    VaultTitle: AnyVault
+    Schema: any-authority.org/ANY-SCHEMA
+    SchemaTitle: Any Schema
 ```
 
 | Object | Property | Type  | Description

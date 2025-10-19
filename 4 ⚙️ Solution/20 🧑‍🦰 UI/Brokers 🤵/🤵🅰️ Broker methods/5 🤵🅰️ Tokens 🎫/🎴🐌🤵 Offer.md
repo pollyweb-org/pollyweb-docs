@@ -22,7 +22,7 @@ Header:
 Body:
     Chat: <chat-uuid>
     Hook: <hook-uuid>
-    Schema: any-authority/ANY-CODE:1.0
+    Schema: any-authority/ANY-SCHEMA:1.0
     Starts: 2018-12-10T13:45:00.000Z
     Expires: 2018-12-10T13:45:00.000Z
 ```
