@@ -217,18 +217,30 @@
 
 1. **How to format a list of objects?**
 
-    Here's an example based on [`Chats@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🧑‍🦰🚀🤵 Chats.md>)
+    Here's the syntax.
 
     ```yaml
-    # Build the original list.
-    - EVAL >> $list:
-        - {A:10, B:11, C:12}
-        - {A:20, B:21, C:22}
-    
+    # Syntax
+    EVAL|$list >> $output:
+        {object}
+    ```
+
+    Here's a list.
+
+    ```yaml
+    | A  | B  | C  |
+    | -- | -- | -- |
+    | 10 | 11 | 12 |
+    | 20 | 21 | 22 |
+    ```
+
+    Here's the [Talker 😃](<../../😃 Talker.md>).
+
+    ```yaml
     # Extract only A and B properties.
     - EVAL|$list >> $output:
-        Alpha: .A
-        Beta: .B
+        Alpha: A
+        Beta: B
     ```
 
     Here's the `$output`.
@@ -240,34 +252,36 @@
     |    20 |   21 |
     ```
 
-    Here's the syntax.
-
-    ```yaml
-    # Syntax
-    EVAL|$list >> $output:
-        Alias1: .Property1
-        AliasN: .PropertyN
-    ```
-
-
     ---
     <br/>
 
 
 
-1. **How to create an array from a list of objects?**
-
-    Here's an example based on [`Chats@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🧑‍🦰🚀🤵 Chats.md>)
+1. **How to create a value array from a list of objects?**
+  
+    Here's the syntax.
 
     ```yaml
-    # Build the original list.
-    - EVAL >> $list:
-        - {A:10, B:11, C:12}
-        - {A:20, B:21, C:22}
+    # Syntax
+    EVAL|$list >> $output:
+        <property>
+    ```
     
-    # Extract only A and B properties.
+    Here's a list.
+
+    ```yaml
+    | A  | B  | C  |
+    | -- | -- | -- |
+    | 10 | 11 | 12 |
+    | 20 | 21 | 22 |
+    ```
+    
+    Here's the [Talker 😃](<../../😃 Talker.md>).
+
+    ```yaml   
+    # Extract only A properties.
     - EVAL|$list >> $output:
-        .A
+        A
     ```
 
     Here's the `$output`.
@@ -276,13 +290,6 @@
     [10, 20]
     ```
 
-    Here's the syntax.
-
-    ```yaml
-    # Syntax
-    EVAL|$list >> $output:
-        .Property1
-    ```
 
 
     ---
