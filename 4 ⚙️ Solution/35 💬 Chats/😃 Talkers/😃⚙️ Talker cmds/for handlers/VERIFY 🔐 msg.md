@@ -7,7 +7,7 @@
 
 1. **What is a VERIFY message command?**
 
-    A `VERIFY`
+    A [`VERIFY`](<VERIFY 🔐 msg.md>)
     * is a [Command ⌘](<../for control/⌘ Command.md>) 
     * that checks if a given content was signed by the sender.
 

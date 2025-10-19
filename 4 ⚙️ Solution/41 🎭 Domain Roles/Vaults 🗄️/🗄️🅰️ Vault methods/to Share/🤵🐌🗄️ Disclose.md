@@ -35,3 +35,10 @@ Body:
 || `Language` | enum | ISO code from [`Translate@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/1 🤵🅰️ Wallets 🧑‍🦰/🧑‍🦰🐌🤵 Translate.md>)
 || `Bind` | uuid | [Bind 🔗 ID](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) from [`Bound@Vault`](<../to Bind/🤵🐌🗄️ Bound.md>)
 |
+
+<br/>
+
+## Handler
+
+```yaml
+```
