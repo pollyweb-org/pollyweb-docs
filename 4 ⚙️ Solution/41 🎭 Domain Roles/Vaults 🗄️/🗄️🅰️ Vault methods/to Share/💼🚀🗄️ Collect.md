@@ -8,6 +8,8 @@
 
 > Used by [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Prompts 🤔/👉💼 Share Bind 🔗.md>)
 
+> Preceded by [`Consume@Consumer`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>)
+
 <br/>
 
 ## Sync Request 🚀
@@ -36,14 +38,30 @@ Body:
 ## Handler
 
 ```yaml
-
 # Verify the signature
-VERIFY|$.Msg|$.Chat.PublicSignature
+- VERIFY|$.Msg
+
+# Get the collect
+- GET >> $collect:
+    Pool: Collects@Vault
+    Key: $.Msg.Collect
+
+# Assert the Consumer
+- ASSERT:
+    $.Msg.From: $collect.Consumer
+
+# Return the response
+- REEL:
+    $collect.Data
 ```
 
 | [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | Purpose
 |-|-
-
+| 🔐 [`VERIFY`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/VERIFY 🔐 msg.md>) | Verify the domain [Signature 🔏](<../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Signatures 🔏.md>) of the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>)
+| 🗺️ [`GET`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET 🗺️ item.md>) | Get the [Collect 🪣](<../../🗄️🪣 Vault tables/🗄️🪣 Collects.md>) from [`Consume@Consumer`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>)
+| 🚦 [`ASSERT`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/ASSERT 🚦.md>) | Assert if it's the right [Consumer 💼](<../../../Consumers 💼/💼🎭 Consumer role.md>)
+| 🎣 [`REEL`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/REEL 🎣.md>) | Respond to the [Synchronous Request 🚀](<../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Request Sync 🚀.md>)
+|
 
 <br/>
 
