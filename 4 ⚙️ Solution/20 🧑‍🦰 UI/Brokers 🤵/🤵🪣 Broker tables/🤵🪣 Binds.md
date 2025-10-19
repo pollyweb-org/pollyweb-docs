@@ -25,12 +25,23 @@ Parents:
 
 ## Example
 
+Here's the [`SAVE` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/SAVE 🛢 item.md>).
+
+```yaml
+- SAVE|Binds@Broker:
+    Bind: <bind-id>
+    Vault: 
+        Vault: any-vault.dom
+    Wallet: <wallet-uuid>
+    Schema: any-authority.dom/ANY-CODE
+```
+
 Here's the [`GET` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET 🗺️ item.md>) result.
 
 ```yaml
-# GET|Binds|<bind-id>
+# GET|Binds@Broker|<bind-id>
 Bind: <bind-id>
 Vault: any-vault.dom
 Wallet: <wallet-uuid>
-Schema: .BIND
+Schema: any-authority.dom/ANY-CODE
 ```
