@@ -37,22 +37,18 @@ Body:
 
 ```yaml
 # Get the Hook
-- GET|Hooks@Talker|$.Msg.Hook >> $hook
+- GET >> $hook:
+    Pool: Hooks@Talker
+    Key: $.Msg.Hook
 
 # Assert if it's the right Broker
 - ASSERT:
     $.Msg.From: $hook.Broker
 
-# Get the Token data
-- EVAL|$hook.Token >> $token
-
-# Add the TokenID to the Token data
-- EVAL|$token:
-    Token: $.Msg.Token
-
 # Save the Token
 - SAVE|Tokens@Issuer:
-    $token
+    Token: $.Msg.Token
+    :$hook.Token:
 
 # Continue the Talker
 - REEL|$hook:

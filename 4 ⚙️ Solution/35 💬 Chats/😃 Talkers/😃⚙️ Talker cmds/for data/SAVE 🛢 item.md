@@ -9,11 +9,11 @@
 <br/>
 
 
-1. **What's the syntax of a SAVE?**
+1. **What's the syntax of an insert SAVE?**
 
     ```yaml
     # Single item
-    - SAVE|<pool>:
+    - SAVE|<pool> >> $inserted:
         {object}
     ```
 
@@ -28,16 +28,55 @@
     |-|-|-
     | `<pool>` | Name of resource pool | `MyPool`
     | `{object}` | Item to update or insert in the pool | `MyKey` `$key`
+    | `$inserted` | [Placeholder 🧠](<$Placeholder 🧠.md>) with the insertion | `$item`
 
     ---
     <br/>
 
+1. **How to insert an item?**
+
+    ```yaml
+    # With an object
+    - SAVE|myPool:
+        A: 1
+        B: 2
+
+    # With a placeholder
+    - SAVE|myPool:
+        {$myItem}
+
+    # With a mix of both, 
+    #   by adding surrounding ":" to placeholders
+    - SAVE|myPool:
+        A: 1
+        B: 2
+        :{$partA}:
+        :{$partB}:
+    ```
+
+    ---
+    <br/>
+
+1. **What's the syntax of an update SAVE?**
+
+    ```yaml
+    SAVE|$item
+    ```
+
+    | Argument| Purpose 
+    |-|-
+    | `$item` | [Placeholder 🧠](<$Placeholder 🧠.md>) item loaded with [`GET` 🗺️](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET 🗺️ item.md>)
+
+    ---
+    <br/>
 
 1. **How up update an item?**
 
     ```yaml
     # Get the item from the database.
-    - GET|myPool|myKey >> $item
+    - GET >> $item:
+        Pool: myPool
+        Key: myKey
 
     # Change a single property.
     - EVAL|$item:

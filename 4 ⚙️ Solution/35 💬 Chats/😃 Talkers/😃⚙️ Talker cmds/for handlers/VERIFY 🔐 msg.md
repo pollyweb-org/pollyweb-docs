@@ -26,6 +26,30 @@
     ---
     <br/>
 
+1. **What's the syntax of VERIFY?**
+
+    ```yaml
+    # For messages from domains
+    VERIFY|$.Msg
+    ```
+
+    | Argument| Purpose |
+    |-|-
+    | `$.Msg`| Built-in [Placeholder 🧠](<../for data/$Placeholder 🧠.md>) with the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>).
+
+    ```yaml
+    # For messages from Wallets
+    VERIFY|$.Msg|$publicKey
+    ```
+
+    | Argument| Purpose |
+    |-|-
+    | `$publicKey`| [Placeholder 🧠](<../for data/$Placeholder 🧠.md>) with the Public Key.
+
+
+    ---
+    <br/>
+
 1. **How to verify a message from a domain?**
 
     Here's a [Talker 😃](<../../😃 Talker.md>) that verifies a [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) from a [domain 👥](<../../../../40 👥 Domains/👥 Domain.md>).
@@ -48,11 +72,10 @@
     Here's a [Talker 😃](<../../😃 Talker.md>) excerpt from [Pop Vault @ Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🔆 Broker locators/🤵🔆 Pop Vault.md>).
 
     ```yaml
-    # Get the WalletID from the message
-    - EVAL|$.Msg.Header.From >> $wallet
-
-    # Get the Wallet item 🧑‍🦰
-    - GET|Wallets|$wallet >> $wallet
+    # Get the WalletID from the message 
+    - GET >> $wallet:
+        Pool: Wallets@Broker
+        Key: $.Msg.Header.From
 
     # Verify the Message.
     - VERIFY|$.Msg|$wallet.PublicKey
@@ -60,8 +83,7 @@
 
     | [Command ⌘](<../for control/⌘ Command.md>) | Purpose
     |-|-
-    | ⬇️ [`EVAL`](<../for data/EVAL ⬇️ flow.md>) | Get the `Wallet` from the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) `From`.
-    | 🗺️ [`GET`](<../for data/GET 🗺️ item.md>) | To get the Public Key of the [Wallet 🪣 item](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Wallets.md>).
+    | 🗺️ [`GET`](<../for data/GET 🗺️ item.md>) | Get the Public Key of the [Wallet 🪣](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Wallets.md>) in the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>).
 
     ---
     <br/>
@@ -84,8 +106,7 @@
 
     | [Command ⌘](<../for control/⌘ Command.md>) | Purpose
     |-|-
-    | ⬇️ [`EVAL`](<../for data/EVAL ⬇️ flow.md>) | Get the `Wallet` from the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) `From`.
-    | 🗺️ [`GET`](<../for data/GET 🗺️ item.md>) | To get the Public Key of the [Wallet 🪣 item](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Wallets.md>).
+    | 🗺️ [`GET`](<../for data/GET 🗺️ item.md>) | To get the Public Key of [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🤵🐌🤗 Hello.md>).
 
     ---
     <br/>

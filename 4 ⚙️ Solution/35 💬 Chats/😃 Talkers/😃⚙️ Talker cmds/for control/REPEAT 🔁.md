@@ -111,7 +111,7 @@
 
     AddItems:
     - DIGITS|What's the item code? >> $code
-    - EVAL|{AddItem($code)} >> $description
+    - EVAL|AddItem($code) >> $description:
     - INFO|Added `{$description}`
     - REPEAT|Add another?
     ```
