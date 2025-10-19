@@ -31,8 +31,8 @@
 1. **Do Sellers need to trust user Payers?**
 
     No. 
-    - Sellers 💵 delegate that [trust 👍](<../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) relationship to their [Collectors 🏦](<../../45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>);
-        - i.e., the [Collector 🏦](<../../45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) and [Payer 💳](<../Payers/💳🎭 Payer role.md>) are the ones who need to have a [trust 👍](<../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) relationship.
+    - Sellers 💵 delegate that [trust 🫡](<../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) relationship to their [Collectors 🏦](<../../45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>);
+        - i.e., the [Collector 🏦](<../../45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) and [Payer 💳](<../Payers/💳🎭 Payer role.md>) are the ones who need to have a [trust 🫡](<../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) relationship.
 
     ---
     

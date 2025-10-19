@@ -12,7 +12,7 @@
 
     A `TRUSTS`
     * is a handler [Command ⌘](<../for control/⌘ Command.md>) 
-    * to assert the [domain Trust 👍](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) between domains.
+    * to assert the [domain Trust 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) between domains.
   
     ---
     <br/>
@@ -25,7 +25,7 @@
 
     | Argument| Purpose | Example
     |-|-|-
-    | `<domain>` | [Domain 👥](<../../../../40 👥 Domains/👥 Domain.md>) to [Trust 👍](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) | `any-domain.dom`
+    | `<domain>` | [Domain 👥](<../../../../40 👥 Domains/👥 Domain.md>) to [Trust 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) | `any-domain.dom`
 
     ---
     <br/>

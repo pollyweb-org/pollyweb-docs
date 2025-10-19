@@ -65,7 +65,7 @@
 
     |[Streamer&nbsp;🎭](<../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>)|Purpose
     |-|-
-    | [🕸&nbsp;Graphs](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) | Finders subscribe to [Graphs 🕸 domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) to receive updates on [domain Manifests 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) across the NLWeb, including their public identity, [trust 👍](<../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) relationships, and supported [integrations 🪢](<../../41 🎭 Domain Roles/Integrators 🪢/🪢🎭 Integrator role.md>). 
+    | [🕸&nbsp;Graphs](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) | Finders subscribe to [Graphs 🕸 domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) to receive updates on [domain Manifests 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) across the NLWeb, including their public identity, [trust 🫡](<../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) relationships, and supported [integrations 🪢](<../../41 🎭 Domain Roles/Integrators 🪢/🪢🎭 Integrator role.md>). 
     | [🔥&nbsp;Firewalls](<../../45 🤲 Helper domains/Firewalls 🔥/🔥🤲 Firewall helper.md>) | Finders subscribe to [Firewall 🔥 domains](<../../45 🤲 Helper domains/Firewalls 🔥/🔥🤲 Firewall helper.md>) to quickly react to threats. 
     | [⭐&nbsp;Reviewers](<../Reviewers ⭐/⭐🫥 Reviewer agent.md>) | Finders subscribe to [Reviewer ⭐ domains](<../Reviewers ⭐/⭐🫥 Reviewer agent.md>) to receive updates of domain ranks across the NLWeb, as a result of user feedback. 
     | [👀&nbsp;Advertisers](<../../45 🤲 Helper domains/Advertisers 👀/👀🤲 Advertiser helper.md>) | Finders subscribe to [Advertiser 👀 domains](<../../45 🤲 Helper domains/Advertisers 👀/👀🤲 Advertiser helper.md>) to know which ads to show to users in addition to search results from [domain Manifests 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>). 
@@ -83,7 +83,7 @@
 
 1. **How do Finders filter and rank the results for users?**
 
-    - **[👍 Trust](<../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>)**: domains untrusted by the user's [Broker 🤵](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) are discarded;
+    - **[🫡 Trust](<../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>)**: domains untrusted by the user's [Broker 🤵](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) are discarded;
     - **🔥 Threats**: domains blocked by [Firewalls 🔥](<../../45 🤲 Helper domains/Firewalls 🔥/🔥🤲 Firewall helper.md>) may be discarded even when trusted;
     - **🧢 Preferences**: the user's preferences, as shared by the user's [Persona 🧢](<../Personas 🧢/🧢🫥 Persona agent.md>);
     - **📍 Proximity**: the distance to the user, based on the context shared by the Wallet;

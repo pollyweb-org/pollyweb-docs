@@ -23,7 +23,7 @@
         - listeners.nlweb.dom
         - any-listener.dom
 
-    Graphs: # to verify Trust 👍 chains.
+    Graphs: # to verify Trust 🫡 chains.
         - any-graph.dom
 
     Collector: # To receive payments.

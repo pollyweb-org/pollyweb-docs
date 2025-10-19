@@ -56,14 +56,14 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
     - that aggregate [Pluggable 🔌](<../60 🧰 Edge/61 🔌 Pluggables/01 🔌 Pluggable device.md>) devices and [Wi-Fier 🛜](<../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>) routers. 
 
 - Security is assured by:
-    * a [Trust 👍](<../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) framework; 
+    * a [Trust 🫡](<../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) framework; 
     * digital signatures for [Messages 📨](<../30 🧩 Data/Messages 📨/📨 Message.md>) and [files](<../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/5 🆔⏩🔏 Verify Signatures.md>);
     * global [Firewall 🔥 helper domains](<../45 🤲 Helper domains/Firewalls 🔥/🔥🤲 Firewall helper.md>) that actively monitor the ecosystem;
     * user [Identity 🆔 vault domains](<../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) that authenticate users on behalf of other [domains 👥](<../40 👥 Domains/👥 Domain.md>) while maintaining privacy and legal compliance;
     * and [Ephemeral 🦋 devices](<../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>) that dynamically rotate QR and NFC [Locators 🔆](<../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to prevent fraud.
 
 - Performance at a global scale is assured by:
-  * a distributed cluster of [Listener 👂 helper domains](<../45 🤲 Helper domains/Listeners 👂/👂🤲 Listener helper.md>) that propagate [Schema Codes 🧩](<../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) and [Trusts 👍](<../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) from [domain Manifests 📜](<../30 🧩 Data/Manifests 📜/📜 Manifest.md>) in near-real time;
+  * a distributed cluster of [Listener 👂 helper domains](<../45 🤲 Helper domains/Listeners 👂/👂🤲 Listener helper.md>) that propagate [Schema Codes 🧩](<../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) and [Trusts 🫡](<../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) from [domain Manifests 📜](<../30 🧩 Data/Manifests 📜/📜 Manifest.md>) in near-real time;
   * and [Graph 🕸 helper domains](<../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) that cache them to support high-performant queries from any [domain 👥](<../40 👥 Domains/👥 Domain.md>).
 
   ---

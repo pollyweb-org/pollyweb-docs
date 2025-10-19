@@ -69,7 +69,7 @@
 
     Personas 🧢 should follow the principle of benevolence - i.e., only collect data for users' benefit, not for users' manipulation.
 
-    - [Brokers 🤵](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) may revoke their [trust 👍](<../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) in misbehaved Personas who don't comply with this principle.
+    - [Brokers 🤵](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) may revoke their [trust 🫡](<../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) in misbehaved Personas who don't comply with this principle.
 
     ---
     <br/>
