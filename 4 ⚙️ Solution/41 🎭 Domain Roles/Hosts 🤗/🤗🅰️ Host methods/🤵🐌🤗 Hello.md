@@ -57,17 +57,17 @@ Body:
 ## Handler
 
 ```yaml
-# Create a placeholder to save
-- EVAL >> $chat:
-    Broker: $.Msg.From
-
-# Add the body to the placeholder
-- EVAL|$chat:
-    $.Msg.Body
-
 # Save the data
-- SAVE|Chats@Host|$chat
+- SAVE|Chats@Host:
+    Broker: $.Msg.From
+    :$.Msg.Body:
 
 # Start a Chat for the locator
 - TALK|$.Msg.Chat|$.Msg.Locator
 ```
+
+| [Command ⌘](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | Purpose
+|-|-
+| 🛢 [`SAVE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/SAVE 🛢 item.md>) | Save the [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message.md>) into the [Chats 🪣 table](<../🤗🪣 Host tables/🤗🪣 Chats 💬.md>)
+| 😃 [`TALK`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/TALK 😃.md>) | Start a [Talker 😃](<../../😃 Talker.md>)
+|

@@ -39,12 +39,12 @@ Body:
 ```yaml
 Chats:
   - Chat: <chat-uuid>
-    HostTitle: Any Hosts
+    Title: Any Hosts
 ```
 
 | Object    | Property  | Type  | Description
 |-|-|-|-
 | Top       | `Chats`     | Chat[]| List of `Chat` objects
 | Chat      | `Chat`        | uuid  | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID
-|           | `HostTitle` | string | [Host 🤗 domain](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) title
+|           | `Title` | string | [Host 🤗 domain](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) title
 |

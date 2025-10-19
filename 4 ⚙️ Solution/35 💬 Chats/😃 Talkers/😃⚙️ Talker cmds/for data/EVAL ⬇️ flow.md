@@ -66,7 +66,7 @@
     ---
     <br/>
     
-1. **What's an object EVAL example?**
+1. **What's an EVAL example with static values?**
 
 
     | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
@@ -94,7 +94,7 @@
     ---
     <br/>
 
-1. **What's a code EVAL example?**
+1. **What's an EVAL example with code?**
   
     | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
@@ -134,7 +134,7 @@
     <br/>
 
 
-1. **What's a object EVAL example?**
+1. **What's an EVAL example with objects?**
 
     | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
@@ -184,6 +184,32 @@
         b: x
         c: z
     ```
+
+    ---
+    <br/>
+
+
+
+1. **How to merge objects in an EVAL?**
+
+    With a mix of dictionary values and [Placeholder 🧠](<$Placeholder 🧠.md>) surrounded with `:`.
+    
+    ```yaml
+    - EVAL >> $partB:
+        B: 2
+
+    - EVAL >> $partC:
+        C: 3
+
+    - EVAL >> $output:
+        A: 1
+        :{$partB}:
+        :{$partC}:
+        D: 4
+    ```
+    
+    In the example above, `$output` has `{A:1,B:2,C:3,D:4}`.
+
 
     ---
     <br/>

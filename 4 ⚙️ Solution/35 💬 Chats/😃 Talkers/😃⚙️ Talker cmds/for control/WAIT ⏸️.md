@@ -94,7 +94,7 @@
     # 😃 Talker 
 
     💬 Test:
-    - EVAL|Submit >> $status:    # Send
+    - EVAL|Submit >> $status     # Send
     - INFO|Order submitted       # Inform sent
     - RUN|WaitForReady           # Wait...
     - SUCCESS|Order ready!       # Inform ready

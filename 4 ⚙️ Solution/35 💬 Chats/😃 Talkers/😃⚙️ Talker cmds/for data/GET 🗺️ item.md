@@ -1,6 +1,6 @@
 <!-- TODO: detail the relation with database -->
 
-# 🗺️ Talker `MAP` command
+# 🗺️ Talker `GET` command
 
 > Part of [Talker 😃](<../../😃 Talker.md>)
 
@@ -8,9 +8,9 @@
 
 <br/>
 
-1. **What's a MAP item command?**
+1. **What's a GET item command?**
 
-    A `MAP` 🗺️
+    A `GET` 🗺️
     * is a [Command ⌘](<../for control/⌘ Command.md>) 
     * that retrieves an item by key 🔑
     * from a key-value resource pool 🪣
@@ -25,14 +25,14 @@
 
     ```yaml
     # Comprehensive
-    - MAP >> $item:
+    - GET >> $item:
         Pool: <pool>
         Key: <key>
     ```
 
     ```yaml
     # Simplest
-    - MAP|<pool>|<key> >> $item
+    - GET|<pool>|<key> >> $item
     ```
 
     | Argument| Purpose | Example
@@ -63,7 +63,7 @@
 
     ```yaml
     # 😃 Talker 
-    - MAP|MyPool|Key2 >> $myItem
+    - GET|MyPool|Key2 >> $myItem
     - INFO|{$myItem.PropA} 
     ```
 
@@ -82,7 +82,7 @@
     ```yaml
     # 😃 Talker
     - DIGITS|What's the item number? >> $n
-    - MAP|Items|$n >> $item
+    - GET|Items|$n >> $item
     - CONFIRM|A {$item.Name}?     
     ```
     
