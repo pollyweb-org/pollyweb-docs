@@ -16,7 +16,7 @@
 
 **💼 <a id='Business'>Business</a> landscape index**
 
-- 🗂️ [Profiling](<../1 💼 Business landscape/01 🗂️ Profiling landscape/00 🗂️ Profiling Index.md>): 
+- 🗂️ [Profiling](<../1 💼 Business landscape/01 🗂️ Profiling landscape/00 🕵 Profiling Index.md>): 
     - how tech giants collect, use, and share vast amounts of user data; 
     - why nations are turning to sovereign clouds to protect their citizens;
     - and why NLWeb aims for a distributed web with near real-time data sharing.
