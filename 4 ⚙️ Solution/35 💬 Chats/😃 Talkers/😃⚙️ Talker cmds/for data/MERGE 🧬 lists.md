@@ -9,16 +9,16 @@
 1. **What's the syntax of MERGE?**
 
     ```yaml
-    # Comprehensive
     MERGE >> $out:
+
         Lists: # lists to merge 
-            $1st
-            $2nd
+            <1st-alias>: $1st
+            <2nd-alias>: $2nd
+    
         Match: # matched properties 
             {object}
-        Eval: # setter of properties
-            {object}
-        Output: # optional final layout
+    
+        Output: # final layout
             {object} 
     ```
 
@@ -26,9 +26,8 @@
     |-|-|-
     | `Lists` | The list to enrich with more data | `$1st`
     |  | Another list with additional data  | `$2nd`
-    | `Match` | Match fields of `1st` and `2nd` lists | `{A:A, B:B}`
-    | `Eval` | Set fields of `1st` with values of `2nd`  | `{X:X, Y:Y}`
-    | `Output` | Optional output format after merged | `{Out: X}`
+    | `Match` | Match fields of `1st` and `2nd` lists | `{1st.A:2nd.A}`
+    | `Output` | Output item template after merged | `{Out: 2nd.Y}`
     | `$out` | [Placeholder 🧠](<$Placeholder 🧠.md>) with the merge or view | -
 
     ---
@@ -40,11 +39,11 @@
 
     ```yaml
     # Items
-    | ID | Price | SupplierID |
-    | -- | ----- | ---------- |
-    |  1 |    10 |          A |
-    |  2 |    20 |          X |
-    |  3 |    30 |          X |
+    | ID | PRICE | SUP_ID |
+    | -- | ----- | ------ |
+    |  1 |    10 |      A |
+    |  2 |    20 |      X |
+    |  3 |    30 |      X |
     ```
 
 
@@ -52,7 +51,7 @@
 
     ```yaml
     # Suppliers
-    | ID | Name |
+    | ID | NAME |
     | -- | ---- |
     |  A |  ABC |
     |  X | XPTO |
@@ -64,25 +63,43 @@
     # Merge
     - MERGE >> $merged:
         Lists: 
-            $items
-            $suppliers
+            ITEMS: $items
+            SUPPLIERS: $suppliers
         Match: 
-            SupplierID: ID
-        Eval: 
-            SupplierName: Name
+            ITEMS.SUP_ID: SUPPLIERS.ID
         Output: 
-            Item: ID
-            Supplier: SupplierName
+            ITEM: ITEMS.ID
+            SUPPLIER: SUPPLIERS.NAME
     ```
     
     Here's the final `$merged` list.
 
     ```yaml
-    | Item | Supplier |
+    | ITEM | SUPPLIER |
     | ---- | -------- |
     |    1 |      ABC |
     |    2 |     XPTO |
     |    3 |     XPTO |
+    ```
+
+    ---
+    <br/>
+
+1. **How to only add properties?**
+
+    Add one of the lists with surrounding `:` characters.
+
+    ```yaml
+    - MERGE >> $merged:
+        Lists: 
+            ITEMS: $items
+            SUPPLIERS: $suppliers
+        Match: 
+            ITEMS.SUP_ID: SUPPLIERS.ID
+        Output: 
+            SUPPLIER: SUPPLIERS.NAME
+            # also include all ITEM properties.
+            :ITEM:
     ```
 
     ---

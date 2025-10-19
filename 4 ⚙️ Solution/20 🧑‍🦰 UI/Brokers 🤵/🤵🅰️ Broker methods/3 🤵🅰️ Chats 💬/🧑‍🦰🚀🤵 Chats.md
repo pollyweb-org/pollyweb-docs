@@ -74,20 +74,18 @@ Chats:
 # Add the titles
 - MERGE >> $chats:
     Lists: 
-        $wallet.Chats
-        $translations.Domains
+        CHATS: $wallet.Chats
+        DOMAINS: $translations.Domains
     Match: 
-        Host: Domain
-    Eval: 
-        Title: Translation
+        CHATS.Host: DOMAINS.Domain
     Output: 
-        Chat: Chat
-        Host: Host
-        Host$: Translation
+        Chat: CHATS.Chat
+        Host: CHATS.Host
+        Host$: DOMAINS.Translation
 
 # Respond
 - REEL:
-    $chats
+    Chats: $chats
 ```
 
 | [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | Purpose
