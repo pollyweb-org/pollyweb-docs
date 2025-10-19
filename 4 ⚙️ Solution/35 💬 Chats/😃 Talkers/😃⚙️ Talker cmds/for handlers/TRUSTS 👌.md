@@ -1,6 +1,6 @@
 <!-- TODO: -->
 
-# 👍 Talker `TRUSTS` command
+# 🫡 Talker `TRUSTS` command
 
 > Part of [Talker 😃](<../../😃 Talker.md>)
 
