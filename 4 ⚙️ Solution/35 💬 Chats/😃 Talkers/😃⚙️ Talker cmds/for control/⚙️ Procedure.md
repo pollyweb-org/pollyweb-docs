@@ -40,7 +40,7 @@
     |-|-
     |▶️ [`RUN`](<RUN ▶️.md>)| Calls a procedure by name, then returns.
     |⤵️ [`IF`](<IF ⤵️.md>) | Runs procedures for `True` and `False` evaluations.
-    | 🔀 [`CASE`](<CASE 🔀.md>) | Runs procedures for matching evaluations.
+    | ⏯️ [`CASE`](<CASE ⏯️.md>) | Runs procedures for matching evaluations.
     | ⏸️ [`WAIT`](<WAIT ⏸️.md>) | Runs procedures on signalled and timed out.
 
     ---
