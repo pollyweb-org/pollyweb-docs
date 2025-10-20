@@ -10,6 +10,15 @@
 
 <br/>
 
+1. **What is a DELETE command?**
+
+    A `DELETE` 🗑️
+    * is a [Command ⌘](<../for control/⌘ Command.md>) 
+    * that deletes an item from an [Itemized 🛢 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢.md>).
+
+    ---
+    <br/>
+
 
 1. **What's the syntax of a delete?**
 

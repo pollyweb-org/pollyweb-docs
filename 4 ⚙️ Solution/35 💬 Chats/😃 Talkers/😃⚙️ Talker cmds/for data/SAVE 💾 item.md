@@ -8,6 +8,14 @@
 
 <br/>
 
+1. **What is a SAVE command?**
+
+    A `SAVE` 💾
+    * is a [Command ⌘](<../for control/⌘ Command.md>) 
+    * that stores an item in an [Itemized 🛢 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢.md>).
+
+    ---
+    <br/>
 
 1. **What's the syntax of an insert SAVE?**
 
