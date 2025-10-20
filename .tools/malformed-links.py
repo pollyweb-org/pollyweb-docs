@@ -649,13 +649,28 @@ def test_fix_markdown_link():
 
 # Capture standard (non-image) markdown links and split text/href
 _LINK_WITH_TEXT_RE = re.compile(r"(?<!!)\[([^\]]+)\]\(<?([^)>#]+)>?\)")
+_LINK_WITH_TEXT_ANGLE_RE = re.compile(r"(?<!!)\[([^\]]+)\]<([^>#]+)>")
+_ANGLE_AUTOLINK_RE = re.compile(r"(?<!!)<?<([^>#]+)>")
 
 # Capture tokens like {{abc@def}} (any text with '@' inside double curly braces)
 _CURLY_AT_TOKEN_RE = re.compile(r"\{\{([^{}]*@[^{}]*)\}\}")
 
 def _extract_links_text_href(content):
     """Return list of (text, href) for markdown links in content (skip images and anchors)."""
-    return _LINK_WITH_TEXT_RE.findall(content)
+    results = []
+    seen = set()
+    for text, href in _LINK_WITH_TEXT_RE.findall(content):
+        key = (text, href)
+        if key not in seen:
+            seen.add(key)
+            results.append((text, href))
+    # Also support [`text`]<href> form
+    for text, href in _LINK_WITH_TEXT_ANGLE_RE.findall(content):
+        key = (text, href)
+        if key not in seen:
+            seen.add(key)
+            results.append((text, href))
+    return results
 
 def _extract_curly_at_tokens(content):
     """Return list of unique tokens found inside {{...}} that contain '@'."""
@@ -665,7 +680,10 @@ def _pick_matching_link(token, links):
     """Pick a matching link from a list where each item is either (text, href) or (src, text, href).
     Returns a tuple (href, base_path) where base_path is the file the href is relative to (or None for same-file calls).
     """
-    # First pass: href contains token
+    # Normalize for case-insensitive comparison backup
+    token_lower = token.lower()
+
+    # First pass: href contains token (case-sensitive)
     for item in links:
         if len(item) == 2:
             text, href = item
@@ -674,7 +692,7 @@ def _pick_matching_link(token, links):
             base, text, href = item
         if token in href:
             return href, base
-    # Second pass: text contains token
+    # Second pass: text contains token (case-sensitive)
     for item in links:
         if len(item) == 2:
             text, href = item
@@ -682,6 +700,24 @@ def _pick_matching_link(token, links):
         else:
             base, text, href = item
         if token in text:
+            return href, base
+    # Third pass: href contains token (case-insensitive)
+    for item in links:
+        if len(item) == 2:
+            text, href = item
+            base = None
+        else:
+            base, text, href = item
+        if token_lower in href.lower():
+            return href, base
+    # Fourth pass: text contains token (case-insensitive)
+    for item in links:
+        if len(item) == 2:
+            text, href = item
+            base = None
+        else:
+            base, text, href = item
+        if token_lower in text.lower():
             return href, base
     return None, None
 
@@ -694,6 +730,9 @@ def _build_project_link_index(md_files):
                 content = f.read()
             for text, href in _extract_links_text_href(content):
                 index.append((path, text, href))
+            # Also include angle autolinks like <path/to/file.md>
+            for href in _ANGLE_AUTOLINK_RE.findall(content):
+                index.append((path, '', href))
         except Exception:
             continue
     return index
@@ -724,10 +763,6 @@ def replace_curly_at_mentions(md_files):
         changed = False
 
         for token in tokens:
-            # If the token is already converted (unlikely), skip
-            if f"[`{token}`]" in content:
-                continue
-
             href, base = _pick_matching_link(token, links_here)
             if not href:
                 href, base = _pick_matching_link(token, project_index)
@@ -800,10 +835,6 @@ def replace_curly_upper_mentions(md_files):
         changed = False
 
         for token in tokens:
-            # Skip if already converted
-            if f"[`{token}`]" in content:
-                continue
-
             href, base = _pick_matching_link(token, links_here)
             if not href:
                 href, base = _pick_matching_link(token, project_index)
@@ -848,9 +879,13 @@ _ROW_LEADING_UPPER_LINK_RE = re.compile(
     r"(?:\(<?([^)>#]+)>?\)|<([^)>#]+)>)"            # either (...<href>...) or <href>
 )
 
-# Emoji detection: keycaps like 1️⃣, *️⃣, #️⃣ and general emoji blocks
+# Emoji detection: keycaps like 1️⃣, *️⃣, #️⃣ and general emoji/symbol blocks
 _KEYCAP_EMOJI_RE = re.compile("(?:[0-9#*]\uFE0F?\u20E3)")
-_GENERAL_EMOJI_RE = re.compile("[\U0001F300-\U0001FAFF\U0001F900-\U0001F9FF\u2600-\u26FF\u2700-\u27BF]", re.UNICODE)
+# Include a broad set: flags and emoji ranges, arrows, misc technical, geometric shapes (▶ U+25B6), misc symbols, dingbats, misc symbols & arrows
+_GENERAL_EMOJI_RE = re.compile(
+    "[\U0001F1E6-\U0001F1FF\U0001F300-\U0001FAFF\u2190-\u21FF\u2300-\u23FF\u25A0-\u25FF\u2600-\u26FF\u2700-\u27BF\u2B00-\u2BFF]\uFE0F?",
+    re.UNICODE,
+)
 
 def _find_first_emoji(text: str):
     """Return the first emoji sequence found in text, preferring keycaps, else general emoji."""
@@ -980,7 +1015,8 @@ def runit(project_directory):
         if replaced:
             print(f"\nReplaced {replaced} {{}}-mentions with links ✅")
         else:
-            print("\nNo {{...}} @-mentions to replace or no matching links found.")
+            pass
+            #print("\nNo {{...}} @-mentions to replace or no matching links found.")
     except Exception as e:
         print(f"\nWarning: failed processing {{}}-mentions: {e}")
 
@@ -990,7 +1026,8 @@ def runit(project_directory):
         if replaced_upper:
             print(f"Replaced {replaced_upper} uppercase {{}}-mentions with links ✅")
         else:
-            print("No uppercase {{...}} mentions to replace or no matching links found.")
+            pass
+            #print("No uppercase {{...}} mentions to replace or no matching links found.")
     except Exception as e:
         print(f"Warning: failed processing uppercase {{}}-mentions: {e}")
 
@@ -1000,7 +1037,8 @@ def runit(project_directory):
         if emoji_changes:
             print(f"Added emojis to {emoji_changes} table rows ✅")
         else:
-            print("No table rows required emoji prefixing.")
+            pass
+            #print("No table rows required emoji prefixing.")
     except Exception as e:
         print(f"Warning: failed adding emojis to table rows: {e}")
 
