@@ -62,8 +62,8 @@
 # Filter the binds.
 - FILTER|Which ones? >> $binds:
     Options: $vault.Binds
-    ID: ID
-    Title: Title
+    ID: Bind
+    Title: Schema$
 
 # Remove each bind
 - PARALLEL|$vault.Binds|$bind:

@@ -14,6 +14,7 @@ Name: Tokens
 Key: Token
 Parents:
     Wallet: { Wallets.Wallet: Tokens.Wallet }
+    Issuer: { Issuers.Issuer: Tokens.Issuer }
 ```
 
 

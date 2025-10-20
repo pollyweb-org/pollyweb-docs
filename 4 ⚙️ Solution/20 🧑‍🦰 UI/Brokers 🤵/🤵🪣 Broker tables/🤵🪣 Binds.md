@@ -15,6 +15,7 @@ Name: Binds
 Key: Bind
 Parents:
     Wallet: { Wallets.Wallet: Binds.Wallet }
+    Vault: { Vaults.Vault: Binds.Vault }
 ```
 
 
