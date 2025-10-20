@@ -115,11 +115,7 @@
     - REPEAT
     ```
 
-
-    | [Command ⌘](<../for control/⌘ Command.md>) | Purpose
-    |-|-
-    | 👍 [`CONFIRM`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) | To pause for user confirmation.
-    | 🔁 [`REPEAT`](<../for control/REPEAT 🔁.md>) | To add more rows.
+    Commands: [`CONFIRM`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) [`EVAL`](<EVAL ⬇️ flow.md>) [`REPEAT`](<../for control/REPEAT 🔁.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
 
 
     ```python
@@ -167,6 +163,8 @@
     # Show the intro.
     - INFO|$intro
     ```
+
+    Commands: [`EVAL`](<EVAL ⬇️ flow.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>)
 
     ---
     <br/>

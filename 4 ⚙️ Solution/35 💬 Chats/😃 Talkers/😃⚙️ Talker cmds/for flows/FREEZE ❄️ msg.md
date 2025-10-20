@@ -69,14 +69,7 @@
     - GOODBYE
     ```
 
-
-    | [Command ⌘](<../for control/⌘ Command.md>) | Purpose
-    |-|-
-    | 📝 [`INFORM`](<INFORM 📝 msg.md>) | Show user instructions and allow inputs.
-    | 1️⃣ [`ONE`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/53 1️⃣ ONE prompt.md>) | Select an option, the day in this case.
-    | 💼 [`SHARE`](<SHARE 💼 msg.md>) | Get the user's booking contacts.
-    | 👍 [`CONFIRM`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) | Pause to allow changing previous inputs.
-    | ⬇️ [`EVAL`](<../for data/EVAL ⬇️ flow.md>) | Save the booking.
+    Commands: [`CONFIRM`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) [`EVAL`](<../for data/EVAL ⬇️ flow.md>) [`FREEZE`](<FREEZE ❄️ msg.md>) [`GOODBYE`](<GOODBYE 👋 msg.md>) [`INFORM`](<INFORM 📝 msg.md>) [`ONE`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/53 1️⃣ ONE prompt.md>) [`SHARE`](<SHARE 💼 msg.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
 
     ---
     <br/>
