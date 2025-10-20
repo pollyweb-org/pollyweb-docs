@@ -1,10 +1,10 @@
 # 🤵😃 Pop 🐌 Broker
 
-> Implements [`Pop@Broker` 🅰️ method](<../🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🧑‍🦰🐌🤵 Pop.md>)
+> [Script ▶️](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/▶️ Script.md>) that implements [`Pop@Broker` 🅰️ method](<../🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🧑‍🦰🐌🤵 Pop.md>)
 
 <br/>
 
-## Handler
+## Script
 
 ```yaml
 # Get the Wallet 🧑‍🦰

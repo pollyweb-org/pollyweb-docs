@@ -1,8 +1,8 @@
 # 🤵⏩🧑‍🦰 Converse @ Broker
 
-> Part of [🤵⏩🧑‍🦰 Assess @ Broker](<🤵⏩🧑‍🦰 Assess 🔆.md>)
+> Part of [`Assess` ⏩ flow](<🤵⏩🧑‍🦰 Assess 🔆.md>)
 
-> Implemented by [🤵😃 `Converse` ⏩](<../🤵▶️ Broker scripts/🤵▶️ Converse ⏩.md>)
+> Implemented by [`Converse` ▶️ script](<../🤵▶️ Broker scripts/🤵▶️ Converse ⏩.md>)
 
 * Opens a new chat window in the app.
 

@@ -1,10 +1,10 @@
 # 🤵😃 Converse ⏩
 
-> Implements [🤵⏩🧑‍🦰 Converse 💬](<../🤵⏩ Broker flows/🤵⏩🧑‍🦰 Converse 💬.md>)
+> [Script ▶️](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/▶️ Script.md>) that implements [🤵⏩🧑‍🦰 Converse 💬](<../🤵⏩ Broker flows/🤵⏩🧑‍🦰 Converse 💬.md>)
 
 <br/>
 
-## Resolver
+## Script
 
 Assume `$wallet` and `$locator` placeholders from [🤵😃 `Assess` 🐌](<🤵▶️ Assess 🐌.md>).
 

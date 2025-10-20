@@ -1,4 +1,4 @@
-# ⚙️ Talker `<script>:`
+# ▶️ Talker `Script:`
 
 > Part of [Talker 😃](<../../😃 Talker.md>)
 
@@ -6,7 +6,9 @@
 
 1. **What's a Talker Script?**
 
-    A [Script ▶️](<⌘ Command.md>) executed sequentially.
+    A [Script ▶️]() 
+    * is a set of [Commands ⌘](<⌘ Command.md>) 
+    * executed sequentially in a block.
 
     ---
     <br/>
@@ -25,7 +27,7 @@
     | `<command-n>` | A [Command ⌘](<⌘ Command.md>)  to be executed.
     
     ```yaml
-    ExampleProcedure:
+    ExampleScript:
     - INFO|Hi!
     - CONFIRM|Are you OK? >> $answer
     ```
