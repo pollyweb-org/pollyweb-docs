@@ -107,7 +107,7 @@
     | ⬇️ [`EVAL`](<../for data/EVAL ⬇️ flow.md>) | Format the options
     | 🔠 [`MANY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/54 🔠 MANY prompt.md>) | Ask the user to select
     | 🧬 [`MERGE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/MERGE 🧬 lists.md>) | Merge the results
-    | ↩️ [`RETURN`](<../for control/RETURN ↩️.md>) | Return the selection
+    | ⤴️ [`RETURN`](<../for control/RETURN ⤴️.md>) | Return the selection
         
     
 
