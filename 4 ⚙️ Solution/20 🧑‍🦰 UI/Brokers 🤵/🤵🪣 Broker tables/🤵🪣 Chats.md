@@ -2,6 +2,8 @@
 
 > Stores [Chats 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>)
 
+> Inserted by [`Converse` 📃 script](<../🤵📃 Broker scripts/🤵📃 Converse ⏩.md>)
+
 <br/>
 
 ## Schema
@@ -19,7 +21,8 @@ Parents:
 
 | Link | Table | Contains
 |-|-|-
-| Parents   | [`Wallets` 🪣](<🤵🪣 Wallets.md>) | [Wallet 🧑‍🦰 app](<../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+| Parents   | [`Wallets` 🪣](<🤵🪣 Wallets.md>) | [Wallets 🧑‍🦰](<../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+|           | [`Hosts` 🪣](<🤵🪣 Hosts.md>) | [Host 🤗 domains](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)
 |
 
 <br/>
@@ -30,7 +33,21 @@ Here's the [`GET` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talke
 
 ```yaml
 # GET|Chats|<chat-id>
-Chat: <chat-id>
+
+Chat: <chat-uuid>
 Wallet: <wallet-uuid>
+
+# Host info
 Host: any-host.dom
+Host$: Any Host
+
+# Locator info
+Key: ANY-LOCATOR
+Parameters: {A:1, B:2}
+
+# For Wallets to sign messages
+PrivateKey: <PrivateKey>
+
+# For domains to verify Wallet messages
+PublicKey: <PublicKey>
 ```

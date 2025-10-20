@@ -1,4 +1,4 @@
-# 🤵📃 Converse ⏩
+# 🤵📃 Converse 💬
 
 > [Script 📃](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/📃 Script.md>) that implements [🤵⏩🧑‍🦰 Converse 💬](<../🤵⏩ Broker flows/🤵⏩🧑‍🦰 Converse 💬.md>)
 
@@ -6,7 +6,7 @@
 
 ## Script
 
-Assume `$wallet` and `$locator` placeholders from [🤵😃 `Assess` 🐌](<🤵📃 Assess 🐌.md>).
+> Assumes `$wallet` and `$locator` placeholders from the [`Assess` 📃 script](<🤵📃 Assess 🐌.md>).
 
 > Continues from the [`Assess` 📃 script](<🤵📃 Assess 🐌.md>)
 
@@ -14,14 +14,9 @@ Assume `$wallet` and `$locator` placeholders from [🤵😃 `Assess` 🐌](<🤵
 ```yaml
 📃 Converse:
 
-# Get the default Graph from settings
-- GET >> $graph
-    Pool: Settings@Hoster
-    Key: Graph
-
 # Get the Chat details from the Graph
 - SEND >> $domain:
-    To: $graph
+    To: $.Settings.Graph
     Subject: Identity@Graph
     Domain: $locator.Host
 
@@ -34,7 +29,7 @@ Assume `$wallet` and `$locator` placeholders from [🤵😃 `Assess` 🐌](<🤵
 
 # Get the translation for the language
 - SEND >> $translation:
-    To: $graph
+    To: $.Settings.Graph
     Subject: Translate@Graph
     Language: $wallet.Language
     Domain: $locator.Host
@@ -81,7 +76,7 @@ Assume `$wallet` and `$locator` placeholders from [🤵😃 `Assess` 🐌](<🤵
 |-|-
 | ⌘ Commands | [`GET`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET ⏬ item.md>) [`KEYS`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/KEYS 🔑.md>) [`SAVE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/SAVE 💾 item.md>) [`SEND`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for flows/.SEND 📬 msg.md>) [`RUN`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/RUN ▶️.md>)
 | 🅰️ Methods | [`Converse@Notifier`](<../../Notifiers 📣/📣🅰️ Notifier methods/2 💬 Chats/1 🤵🐌📣 Converse.md>) <br/>  [`Identity@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Identity.md>)  <br/> [`Translate@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>)
-| {{Placeholder}} | [`$.Settings`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/$.Settings 🎛️.md>)
+| 🧠 [Placeholders](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/$Placeholder 🧠.md>) | [`$.Settings`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/$.Settings 🎛️.md>)
 | 📃 Scripts |[`UpdateChats`](<🤵📃 Update Chats 💬.md>)
 | 🪣 Tables | [`Chats`](<../🤵🪣 Broker tables/🤵🪣 Chats.md>) [`Hosts`](<../🤵🪣 Broker tables/🤵🪣 Hosts.md>)
 |
