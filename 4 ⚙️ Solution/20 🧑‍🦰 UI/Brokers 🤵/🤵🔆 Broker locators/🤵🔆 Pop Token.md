@@ -9,12 +9,6 @@
 ```yaml
 💬 Handler:
 
-# Get the Wallet 🧑‍🦰
-- GET|Wallets|$.Msg.Header.From >> $wallet
-
-# Verify the Message.
-- VERIFY|$.Msg|$wallet.PublicKey
-
 # Get the Token 🎫
 - GET|$wallet.Tokens|$.Msg.Body.Key >> $token
 

@@ -1,7 +1,8 @@
 
-# [🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) [Schema Code](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>): HostBookingSelf
+# [🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) [`HOST`](<🧩 HOST.md>)/[`BOOKING`](<🧩 HOST'BOOKING.md>)/`SELF`
 
-> Brokers only share these credentials with the issuers - i.e. if there’s a booking for a medical appointment and a restaurant, the user is only asked to share the restaurant booking when checking into the restaurant (not the medical appointment).
+Brokers only share these credentials with the issuers;
+  * i.e. if there’s a booking for a medical appointment and a restaurant, the user is only asked to share the restaurant booking when checking into the restaurant (not the medical appointment).
 
 <br/>
 
