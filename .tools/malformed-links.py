@@ -1005,6 +1005,36 @@ def replace_placeholder_tokens(md_files):
     return total
 
 
+###############################################
+# New feature: Replace {{$.Msg}} with link to $.Msg 📨.md
+###############################################
+
+def replace_msg_tokens(md_files):
+    """Replace '{{$.Msg}}' (allowing optional inner spaces) with '[`$.Msg`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/$.Msg 📨.md>)' in all md files."""
+    # Allow normal and unicode non-breaking/zero-width spaces around $.Msg
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?\$\.Msg`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[`$.Msg`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/$.Msg 📨.md>)"
+    total = 0
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+        new_content, n = pattern.subn(replacement, content)
+        if n > 0:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                total += n
+            except Exception:
+                pass
+    return total
+
+
 def runit(project_directory):
 
 
@@ -1089,6 +1119,17 @@ def runit(project_directory):
             #print("No {{Placeholder}} tokens to replace.")
     except Exception as e:
         print(f"Warning: failed replacing {{Placeholder}} tokens: {e}")
+
+    # Replace {{$.Msg}} tokens
+    try:
+        msg_changes = replace_msg_tokens(md_files)
+        if msg_changes:
+            print(f"Replaced {msg_changes} {{$.Msg}} tokens ✅")
+        else:
+            pass
+            #print("No {{$.Msg}} tokens to replace.")
+    except Exception as e:
+        print(f"Warning: failed replacing {{$.Msg}} tokens: {e}")
 
     # Finally, add emoji at table row start based on filename in upper links
     try:

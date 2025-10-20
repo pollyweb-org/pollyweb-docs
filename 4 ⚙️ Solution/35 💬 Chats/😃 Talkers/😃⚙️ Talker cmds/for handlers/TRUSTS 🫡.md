@@ -48,7 +48,7 @@
     Here's the internal logic.
 
     ```yaml
-    TRUST_IMPLEMENTATION:
+    .TRUST_IMPLEMENTATION:
 
     # Default value for the Truster
     - IF|$1.Truster:

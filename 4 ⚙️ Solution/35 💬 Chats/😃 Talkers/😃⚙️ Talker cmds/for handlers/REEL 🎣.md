@@ -64,12 +64,7 @@
         Else: FAILURE|Not bounded.
     ```
 
-
-    | [Command ⌘](<../for control/⌘ Command.md>) | Purpose
-    |-|-
-    | 🔗 [`BIND`](<../for flows/BIND 🔗 msg.md>) | To [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) a user. 
-    | ⤵️ [`IF`](<../for control/IF ⤵️.md>) | To verify the result.
-    | 
+    Commands: [`BIND`](<../for flows/BIND 🔗 msg.md>) [`IF`](<../for control/IF ⤵️.md>)
     
     <br/>
 

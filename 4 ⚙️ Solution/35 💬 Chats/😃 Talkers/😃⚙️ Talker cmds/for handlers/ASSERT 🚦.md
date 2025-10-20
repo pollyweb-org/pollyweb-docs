@@ -47,6 +47,8 @@
     - SUCCESS|Message is from Any Broker
     ```
 
+    Commands: [`$.Msg`](<$.Msg 📨.md>) [`ASSERT`](<ASSERT 🚦.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
+
     ---
     <br/>
 
@@ -67,6 +69,8 @@
     # Show success message.
     - SUCCESS|The schema is equivalent to ./HOST
     ```
+
+    Commands: [`EVAL`](<../for data/EVAL ⬇️ flow.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
 
     ---
     <br/>
