@@ -1095,6 +1095,66 @@ def replace_host_tokens(md_files):
     return total
 
 
+###############################################
+# New feature: Replace {{Issuer}} with link to Issuer role.md
+###############################################
+
+def replace_issuer_tokens(md_files):
+    """Replace '{{Issuer}}' (allowing optional inner spaces) with '[Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)' in all md files."""
+    # Allow normal and unicode non-breaking/zero-width spaces around Issuer
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Issuer`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)"
+    total = 0
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+        new_content, n = pattern.subn(replacement, content)
+        if n > 0:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                total += n
+            except Exception:
+                pass
+    return total
+
+
+###############################################
+# New feature: Replace {{Issuers}} with link to Issuer role.md
+###############################################
+
+def replace_issuers_tokens(md_files):
+    """Replace '{{Issuers}}' (allowing optional inner spaces) with '[Issuer 🎴 domains](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)' in all md files."""
+    # Allow normal and unicode non-breaking/zero-width spaces around Issuers
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Issuers`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[Issuer 🎴 domains](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)"
+    total = 0
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+        new_content, n = pattern.subn(replacement, content)
+        if n > 0:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                total += n
+            except Exception:
+                pass
+    return total
+
+
 def runit(project_directory):
 
 
@@ -1212,6 +1272,26 @@ def runit(project_directory):
             #print("No {{Host}} tokens to replace.")
     except Exception as e:
         print(f"Warning: failed replacing {{Host}} tokens: {e}")
+
+    # Replace {{Issuer}} tokens
+    try:
+        issuer_changes = replace_issuer_tokens(md_files)
+        if issuer_changes:
+            print(f"Replaced {issuer_changes} {{Issuer}} tokens ✅")
+        else:
+            pass
+    except Exception as e:
+        print(f"Warning: failed replacing {{Issuer}} tokens: {e}")
+
+    # Replace {{Issuers}} tokens
+    try:
+        issuers_changes = replace_issuers_tokens(md_files)
+        if issuers_changes:
+            print(f"Replaced {issuers_changes} {{Issuers}} tokens ✅")
+        else:
+            pass
+    except Exception as e:
+        print(f"Warning: failed replacing {{Issuers}} tokens: {e}")
 
     # Finally, add emoji at table row start based on filename in upper links
     try:
