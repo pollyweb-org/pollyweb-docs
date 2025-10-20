@@ -73,4 +73,7 @@ Assume `$wallet` and `$locator` placeholders from [🤵😃 `Assess` 🐌](<🤵
 # Update the Chats
 - RUN|⏩ UpdateChats
 ```
+
+Commands: [`GET`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET ⏬ item.md>) [`KEYS`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/KEYS 🔑.md>) [`SAVE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/SAVE 💾 item.md>) [`SEND`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for flows/.SEND 📬 msg.md>) [`RUN`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/RUN ▶️.md>)
+
 > Continues on [🤵⏩🧑‍🦰 Update Chats 💬](<../🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Chats 💬.md>)

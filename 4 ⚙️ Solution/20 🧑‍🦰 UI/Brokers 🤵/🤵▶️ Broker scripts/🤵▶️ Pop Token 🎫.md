@@ -1,6 +1,6 @@
 <!-- TODO: Add lists of commands. -->
 
-# 🔆 Locator: Pop Token
+# 🤵▶️ Pop Token 🎫 
 
 > [Script ▶️](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/▶️ Script.md>) that implements [`Remove Token` 🎫 flow](<../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Tokens 🎫/💬🤵 Remove 🎫.md>)
 
@@ -77,7 +77,4 @@ Commands: [`CASE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/f
 - SUCCESS|Token restored.
 ```
 
-| Command | Details
-|-|-
-| {{UNDO}}
-| ✅ [`SUCCESS`](<../../../35 💬 Chats/🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
+Commands: [`UNDO`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/UNDO ↩️.md>) [`SUCCESS`](<../../../35 💬 Chats/🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
