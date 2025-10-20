@@ -1,4 +1,4 @@
-# ⤵️ Talker `IF` flow 
+# 😃⤵️ Talker `IF` flow 
 
 > Part of [Talker 😃](<../../😃 Talker.md>)
 
@@ -9,7 +9,7 @@
 
     An `IF` ⤵️
     * is a flow [Command ⌘](<⌘ Command.md>)  
-    * that runs a [Script ▶️](<📃 Script.md>) or [Command ⌘](<⌘ Command.md>) 
+    * that runs a [Script 📃](<📃 Script.md>) or [Command ⌘](<⌘ Command.md>) 
     * based on the evaluation of a placeholder or [{Function}](<../for data/{Function} 🐍.md>).
 
     ---
@@ -43,8 +43,8 @@
     | `{function}` | Boolean [{Function}](<../for data/{Function} 🐍.md>) to evaluate  | `{f}` `{$o}`
     || Allows for missing `{}` in functions | `f()` `$p`
     || Defaults to the last [input prompt ✏️](<../../../🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>) | `TEXT\|Id?`
-    | `<true-script>` | [Script ▶️](<📃 Script.md>) to [Run ▶️](<RUN ▶️.md>) when `True` | `IfTrue`
-    | `<false-script>`| [Script ▶️](<📃 Script.md>) to [Run ▶️](<RUN ▶️.md>) when `False` | `IfFalse(X)`
+    | `<true-script>` | [Script 📃](<📃 Script.md>) to [Run ▶️](<RUN ▶️.md>) when `True` | `IfTrue`
+    | `<false-script>`| [Script 📃](<📃 Script.md>) to [Run ▶️](<RUN ▶️.md>) when `False` | `IfFalse(X)`
     
     ```yaml
     # Multi-line actions: 
@@ -58,8 +58,8 @@
 
     | Argument| Purpose
     |-|-
-    | `<true-action>` | [Script ▶️](<📃 Script.md>) or one-line [Command ⌘](<⌘ Command.md>) on `True`
-    | `<false-action>`| [Script ▶️](<📃 Script.md>) or one-line [Command ⌘](<⌘ Command.md>) on `False`
+    | `<true-action>` | [Script 📃](<📃 Script.md>) or one-line [Command ⌘](<⌘ Command.md>) on `True`
+    | `<false-action>`| [Script 📃](<📃 Script.md>) or one-line [Command ⌘](<⌘ Command.md>) on `False`
 
 
     ```yaml
