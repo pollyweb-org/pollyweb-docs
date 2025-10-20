@@ -1,10 +1,20 @@
+# Instructions on how to run this script:
+# > python3 -m venv .venv
+# > source .venv/bin/activate
+# > pip3 install -r requirements.txt
+# > cd .tools
+# > python3 malformed-links.py
+
 import os
 import re
 import itertools
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from collections import OrderedDict
 
-import emoji
+try:
+    import emoji as _emoji_mod  # optional dependency
+except Exception:
+    _emoji_mod = None
 
 all_memory = False
 
@@ -171,9 +181,12 @@ def remove_numbers(string):
     ret = ret.replace('🇺🇸', '')
     ret = ret.replace('🇨🇳', '')
 
-    import emoji # type: ignore
-    if '✅' in ret or '⏳' in ret:
-        ret = emoji.replace_emoji(ret, replace='')
+    # Optionally remove emojis if 'emoji' module is available
+    if _emoji_mod and ('✅' in ret or '⏳' in ret):
+        try:
+            ret = _emoji_mod.replace_emoji(ret, replace='')
+        except Exception:
+            pass
 
     return ret
 
@@ -630,6 +643,127 @@ def test_fix_markdown_link():
     print("All tests passed!")
 
 
+###############################################
+# New feature: Convert {{...}} with '@' to markdown links
+###############################################
+
+# Capture standard (non-image) markdown links and split text/href
+_LINK_WITH_TEXT_RE = re.compile(r"(?<!!)\[([^\]]+)\]\(<?([^)>#]+)>?\)")
+
+# Capture tokens like {{abc@def}} (any text with '@' inside double curly braces)
+_CURLY_AT_TOKEN_RE = re.compile(r"\{\{([^{}]*@[^{}]*)\}\}")
+
+def _extract_links_text_href(content):
+    """Return list of (text, href) for markdown links in content (skip images and anchors)."""
+    return _LINK_WITH_TEXT_RE.findall(content)
+
+def _extract_curly_at_tokens(content):
+    """Return list of unique tokens found inside {{...}} that contain '@'."""
+    return list(dict.fromkeys(_CURLY_AT_TOKEN_RE.findall(content)))
+
+def _pick_matching_link(token, links):
+    """Pick a matching link from a list where each item is either (text, href) or (src, text, href).
+    Returns a tuple (href, base_path) where base_path is the file the href is relative to (or None for same-file calls).
+    """
+    # First pass: href contains token
+    for item in links:
+        if len(item) == 2:
+            text, href = item
+            base = None
+        else:
+            base, text, href = item
+        if token in href:
+            return href, base
+    # Second pass: text contains token
+    for item in links:
+        if len(item) == 2:
+            text, href = item
+            base = None
+        else:
+            base, text, href = item
+        if token in text:
+            return href, base
+    return None, None
+
+def _build_project_link_index(md_files):
+    """Build a project-wide index of (source_path, text, href) from all md files."""
+    index = []
+    for path in md_files:
+        try:
+            with open(path, 'r', encoding='utf-8') as f:
+                content = f.read()
+            for text, href in _extract_links_text_href(content):
+                index.append((path, text, href))
+        except Exception:
+            continue
+    return index
+
+def replace_curly_at_mentions(md_files):
+    """For each md file, replace {{token}} with [`token`](<href>) if a matching link exists.
+
+    Strategy:
+    - Prefer links in the same file; if not found, search project-wide index.
+    - Keep href as-is but wrap in <...> to be robust with spaces.
+    Returns total number of replacements made across the project.
+    """
+    total_replacements = 0
+    project_index = _build_project_link_index(md_files)
+
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+
+        tokens = _extract_curly_at_tokens(content)
+        if not tokens:
+            continue
+
+        links_here = _extract_links_text_href(content)
+        changed = False
+
+        for token in tokens:
+            # If the token is already converted (unlikely), skip
+            if f"[`{token}`]" in content:
+                continue
+
+            href, base = _pick_matching_link(token, links_here)
+            if not href:
+                href, base = _pick_matching_link(token, project_index)
+            if not href:
+                continue
+
+            # If base is not None and not current file, make href relative to current file
+            final_href = href
+            try:
+                if base and base != md_file and not href.startswith(('http://', 'https://', 'mailto:')):
+                    # compute absolute path of href based on base file
+                    abs_target = os.path.normpath(os.path.join(os.path.dirname(base), href))
+                    # convert to path relative to current md_file
+                    final_href = os.path.relpath(abs_target, os.path.dirname(md_file))
+            except Exception:
+                # if anything goes wrong, fallback to original href
+                final_href = href
+
+            # Normalize href into (<...>) form
+            normalized = f"[`{token}`](<{final_href}>)"
+            before = content
+            content = content.replace(f"{{{{{token}}}}}", normalized)
+            if content != before:
+                total_replacements += 1
+                changed = True
+
+        if changed:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(content)
+            except Exception:
+                # If writing fails, revert count for this file by recomputing diffs
+                pass
+
+    return total_replacements
+
 
 def runit(project_directory):
 
@@ -682,6 +816,16 @@ def runit(project_directory):
             break
         if ans.strip().lower() == 'q':
             break
+
+    # After all OK: replace {{...}} with links when possible
+    try:
+        replaced = replace_curly_at_mentions(md_files)
+        if replaced:
+            print(f"\nReplaced {replaced} {{}}-mentions with links ✅")
+        else:
+            print("\nNo {{...}} @-mentions to replace or no matching links found.")
+    except Exception as e:
+        print(f"\nWarning: failed processing {{}}-mentions: {e}")
 
 
 
