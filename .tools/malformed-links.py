@@ -765,6 +765,77 @@ def replace_curly_at_mentions(md_files):
     return total_replacements
 
 
+###############################################
+# New feature: Convert {{UPPER}} to markdown links
+###############################################
+
+# Match tokens like {{ABC}} where token is uppercase letters/digits/._-
+_CURLY_UPPER_TOKEN_RE = re.compile(r"\{\{([A-Z][A-Z0-9._-]*)\}\}")
+
+def _extract_curly_upper_tokens(content):
+    """Return list of unique uppercase tokens found inside {{...}} not containing '@'."""
+    # This intentionally excludes tokens containing '@' (handled by the other feature)
+    return list(dict.fromkeys(_CURLY_UPPER_TOKEN_RE.findall(content)))
+
+def replace_curly_upper_mentions(md_files):
+    """For each md file, replace {{TOKEN}} with [`TOKEN`](<href>) if a matching link exists.
+
+    Strategy mirrors @-mentions: prefer same-file links; else project-wide; make href relative.
+    """
+    total_replacements = 0
+    project_index = _build_project_link_index(md_files)
+
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+
+        tokens = _extract_curly_upper_tokens(content)
+        if not tokens:
+            continue
+
+        links_here = _extract_links_text_href(content)
+        changed = False
+
+        for token in tokens:
+            # Skip if already converted
+            if f"[`{token}`]" in content:
+                continue
+
+            href, base = _pick_matching_link(token, links_here)
+            if not href:
+                href, base = _pick_matching_link(token, project_index)
+            if not href:
+                continue
+
+            # If from another file, convert href relative to current file
+            final_href = href
+            try:
+                if base and base != md_file and not href.startswith(('http://', 'https://', 'mailto:')):
+                    abs_target = os.path.normpath(os.path.join(os.path.dirname(base), href))
+                    final_href = os.path.relpath(abs_target, os.path.dirname(md_file))
+            except Exception:
+                final_href = href
+
+            normalized = f"[`{token}`](<{final_href}>)"
+            before = content
+            content = content.replace(f"{{{{{token}}}}}", normalized)
+            if content != before:
+                total_replacements += 1
+                changed = True
+
+        if changed:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(content)
+            except Exception:
+                pass
+
+    return total_replacements
+
+
 def runit(project_directory):
 
 
@@ -826,6 +897,16 @@ def runit(project_directory):
             print("\nNo {{...}} @-mentions to replace or no matching links found.")
     except Exception as e:
         print(f"\nWarning: failed processing {{}}-mentions: {e}")
+
+    # Then process {{UPPER}} tokens
+    try:
+        replaced_upper = replace_curly_upper_mentions(md_files)
+        if replaced_upper:
+            print(f"Replaced {replaced_upper} uppercase {{}}-mentions with links ✅")
+        else:
+            print("No uppercase {{...}} mentions to replace or no matching links found.")
+    except Exception as e:
+        print(f"Warning: failed processing uppercase {{}}-mentions: {e}")
 
 
 
