@@ -107,7 +107,7 @@
 
     Command | Purpose
     |-|-
-    | ⏯️ [`CASE`](<CASE ⏯️.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script ▶️](<▶️ Script.md>) matching a [{Function}](<../for data/{Function} 🐍.md>).
+    | ⏯️️ [`CASE`](<CASE ⏯️️.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script ▶️](<▶️ Script.md>) matching a [{Function}](<../for data/{Function} 🐍.md>).
     | 🫥 [`EMOJI`](<../../../🤔 Prompts/🤔✏️ Prompt input features/16 😶⌘ EMOJI cmd.md>) | Changes the [default emoji 😃](<../../../🤔 Prompts/🤔✏️ Prompt input features/14 😶 Input emojis.md>) for [input prompts ✏️](<../../../🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>).
     | ⬇️ [`EVAL`](<../for data/EVAL ⬇️ flow.md>) | Evaluates a [{Function}](<../for data/{Function} 🐍.md>) into a placeholder.
     | ⤵️ [`IF`](<IF ⤵️.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script ▶️](<▶️ Script.md>) based on a [{Function}](<../for data/{Function} 🐍.md>).

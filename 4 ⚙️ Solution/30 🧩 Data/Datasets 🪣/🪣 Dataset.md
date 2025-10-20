@@ -12,7 +12,7 @@
     |Format| Details
     |-|-
     | [`Markdown`](<🪣🔣 Dataset types/Static Markdown 📄.md>) | A `.md` file with a static markdown table.
-    | [`YAML`](<🪣🔣 Dataset types/Static YAML 📄.md>) | A `.yaml` file with a static list of objects.
+    | 📄 [`YAML`](<🪣🔣 Dataset types/Static YAML 📄.md>) | A `.yaml` file with a static list of objects.
     | `HTTP`| This is an endpoint defined in the settings.
     | `Folder` | This is a folder with `.pdf` and `.png` files
     |
