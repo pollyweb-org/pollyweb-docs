@@ -1,4 +1,4 @@
-# 🪣 Chats
+# 🤵🪣 Chats
 
 > Stores [Chats 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>)
 
