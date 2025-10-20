@@ -42,7 +42,7 @@
     |-|-
     |▶️ [`RUN`](<RUN ▶️.md>)| Calls a [Script ▶️](<▶️ Script.md>) by name, then returns.
     |⤵️ [`IF`](<IF ⤵️.md>) | Runs [Scripts ▶️](<▶️ Script.md>) for `True` and `False` evaluations.
-    | ⏯️️ [`CASE`](<CASE ⏯️️.md>) | Runs [Scripts ▶️](<▶️ Script.md>) for matching evaluations.
+    | ⏯️️ [`CASE`](<CASE ⏯️.md>) | Runs [Scripts ▶️](<▶️ Script.md>) for matching evaluations.
     | ⏸️ [`WAIT`](<WAIT ⏸️.md>) | Runs [Scripts ▶️](<▶️ Script.md>) on signalled and timed out.
 
     ---
