@@ -975,6 +975,36 @@ def add_emoji_to_table_rows(md_files):
     return total_changes
 
 
+###############################################
+# New feature: Replace {{Placeholder}} with link to $Placeholder 🧠.md
+###############################################
+
+def replace_placeholder_tokens(md_files):
+    """Replace '{{Placeholder}}' (allowing optional inner spaces) with '[Placeholder 🧠](<$Placeholder 🧠.md>)' in all md files."""
+    # Allow normal and unicode non-breaking/zero-width spaces around Placeholder
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Placeholder`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[Placeholder 🧠](<$Placeholder 🧠.md>)"
+    total = 0
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+        new_content, n = pattern.subn(replacement, content)
+        if n > 0:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                total += n
+            except Exception:
+                pass
+    return total
+
+
 def runit(project_directory):
 
 
@@ -1048,6 +1078,17 @@ def runit(project_directory):
             #print("No uppercase {{...}} mentions to replace or no matching links found.")
     except Exception as e:
         print(f"Warning: failed processing uppercase {{}}-mentions: {e}")
+
+    # Replace {{Placeholder}} tokens with link to $Placeholder 🧠.md
+    try:
+        ph_changes = replace_placeholder_tokens(md_files)
+        if ph_changes:
+            print(f"Replaced {ph_changes} {{Placeholder}} tokens ✅")
+        else:
+            pass
+            #print("No {{Placeholder}} tokens to replace.")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Placeholder}} tokens: {e}")
 
     # Finally, add emoji at table row start based on filename in upper links
     try:
