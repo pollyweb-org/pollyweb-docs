@@ -62,6 +62,6 @@ Body:
 
 |Talkers | Details
 |-|-
-| [`PopToken 🔆`](<../../🤵🔆 Broker locators/🤵🔆 Pop Token.md>) | Implements [🧑‍🦰💬🤵 Remove Token 🎫](<../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Tokens 🎫/💬🤵 Remove 🎫.md>)
-| [`PopVault 🔆`](<../../🤵🔆 Broker locators/🤵🔆 Pop Vault.md>) | Implements [🧑‍🦰💬🤵 Unbind Vault](<../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Vaults 🗄️/💬🤵 Unbind 🗄️.md>)
+| [`PopToken 🔆`](<../../🤵🔆 Broker locators/🤵🔆 Pop Token.md>) | Implements [🧑‍🦰💬🤵 Remove Token 🎫](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Tokens 🎫/💬🤵 Remove 🎫.md>)
+| [`PopVault 🔆`](<../../🤵🔆 Broker locators/🤵🔆 Pop Vault.md>) | Implements [🧑‍🦰💬🤵 Unbind Vault](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Vaults 🗄️/💬🤵 Unbind 🗄️.md>)
 |
