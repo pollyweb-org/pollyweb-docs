@@ -47,7 +47,7 @@
     | `Body`| The content inside the envelope.
     | `Hash`| The canonical hash of the envelope's header and body.
     | [`Signature`](<Signatures 🔏.md>)| The signature of the envelope using the sender's private key.
-    | [`DKIM`](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>)| The name of the corresponding public key in the sender's [DKIM 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>).
+    | 📺 [`DKIM`](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>)| The name of the corresponding public key in the sender's [DKIM 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>).
 
     ---
     <br/>

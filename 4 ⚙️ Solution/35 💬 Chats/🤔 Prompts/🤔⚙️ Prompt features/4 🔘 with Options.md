@@ -162,7 +162,7 @@
     | [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | Purpose
     |-|-
     | 1️⃣ [`ONE`](<../🤔✏️ Prompt inputs/53 1️⃣ ONE prompt.md>) | To show the options.
-    | ⏯️ [`CASE`](<../../😃 Talkers/😃⚙️ Talker cmds/for control/CASE ⏯️.md>) | To check the selected option.
+    | ⏯️️ [`CASE`](<../../😃 Talkers/😃⚙️ Talker cmds/for control/CASE ⏯️️.md>) | To check the selected option.
     | ℹ️ [`INFO`](<../🤔📢 Prompt status/INFO ℹ️ prompt.md>) | To show the result.
     
 
@@ -237,7 +237,7 @@
     | [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | Purpose
     |-|-
     | 1️⃣ [`ONE`](<../🤔✏️ Prompt inputs/53 1️⃣ ONE prompt.md>) | To show the options.
-    | ⏯️ [`CASE`](<../../😃 Talkers/😃⚙️ Talker cmds/for control/CASE ⏯️.md>) | To check the selected option.
+    | ⏯️️ [`CASE`](<../../😃 Talkers/😃⚙️ Talker cmds/for control/CASE ⏯️️.md>) | To check the selected option.
     | ℹ️ [`INFO`](<../🤔📢 Prompt status/INFO ℹ️ prompt.md>) | To show the result.
     
     <br/>
