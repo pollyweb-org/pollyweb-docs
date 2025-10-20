@@ -1,10 +1,15 @@
 <!-- TODO: Add lists of commands. -->
 
-# 🔆 Pop Token
+# 🔆 Locator: Pop Token
 
 > Implements [🧑‍🦰💬🤵 Remove Token 🎫](<../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Tokens 🎫/💬🤵 Remove 🎫.md>)
 
+> Called by [`Pop@Broker`](<../🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🧑‍🦰🐌🤵 Pop.md>)
+
+
 <br/>
+
+## Handler
 
 ```yaml
 💬 Handler:
