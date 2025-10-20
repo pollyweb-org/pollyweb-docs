@@ -2,17 +2,17 @@
 
 # 🔆 Locator: Pop Token
 
-> Implements [🧑‍🦰💬🤵 Remove Token 🎫](<../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Tokens 🎫/💬🤵 Remove 🎫.md>)
+> [Script ▶️](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/▶️ Script.md>) that implements [`Remove Token` 🎫 flow](<../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Tokens 🎫/💬🤵 Remove 🎫.md>)
 
 > Called by [`Pop@Broker` 🅰️ method](<../🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🧑‍🦰🐌🤵 Pop.md>)
 
 
 <br/>
 
-## Handler
+## Script
 
 ```yaml
-💬 Handler:
+▶️ PopToken:
 
 # Get the Token 🎫
 - GET|$wallet.Tokens|$.Msg.Body.Key >> $token
@@ -27,7 +27,7 @@
 ```
 
 ```yaml
-RemoveToken:
+▶️ RemoveToken:
 
 # Ask for confirmation 🤔
 - CONFIRM|Remove token {$token.Title}?
@@ -63,7 +63,7 @@ RemoveToken:
 ```
 
 ```yaml
-UndoRemoval:
+▶️ UndoRemoval:
 
 # Cancel the soft delete.
 - UNDO|$delete
