@@ -14,6 +14,8 @@ participant "Finder 🔎\nvault" as finder
 participant "Host 🤗\ndomain" as host
 
 
+wallet --> broker: 0) Assess 🐌
+
 activate broker
 
     group Resolve, if .ALIAS 🧩 and not cached 

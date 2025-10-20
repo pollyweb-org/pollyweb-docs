@@ -14,6 +14,7 @@ Name: Chats
 Key: Chat
 Parents:
     Wallet: { Wallets.Wallet: Chats.Wallet }
+    Host: { Hosts.Host: Chats.Host }
 ```
 
 | Link | Table | Contains
