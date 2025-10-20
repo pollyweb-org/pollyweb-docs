@@ -1,9 +1,12 @@
 # 🤵⏩🗄️ Update chats @ Broker
 
-* Updates the list of [Chats 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) on a [Wallet 🧑‍🦰 app](<../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
-* Used in:
-    * [🧑‍🦰👉🤵 Abandon chat @ Wallet](<../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Chats 💬/💬🤵 Abandon 💬.md>)
-    * [🤵⏩🧑‍🦰 Converse @ Broker](<🤵⏩🧑‍🦰 Converse 💬.md>)
+> Updates the list of [Chats 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) on a [Wallet 🧑‍🦰 app](<../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
+
+> Implemented by the [`UpdateChats` 📃 script](<../🤵📃 Broker scripts/🤵📃 Update Chats 💬.md>)
+
+> Used in:
+* [🧑‍🦰👉🤵 Abandon chat @ Wallet](<../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Chats 💬/💬🤵 Abandon 💬.md>)
+* [🤵⏩🧑‍🦰 Converse @ Broker](<🤵⏩🧑‍🦰 Converse 💬.md>)
 
 <br/>
 
@@ -18,22 +21,3 @@
 | 2 | [🧑‍🦰🚀🤵 `Chats@Broker`](<../🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🧑‍🦰🚀🤵 Chats.md>) | [Wallets 🧑‍🦰](<../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) get [Chats 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) from [Brokers 🤵](<../🤵🤲 Broker helper.md>)
 ||
 
-
-<br/>
-
-## Resolver
-
-Assume `$wallet` and `$locator` placeholders from [`Assess@Broker`](<../🤵🅰️ Broker methods/2 🤵🅰️ Locators/🧑‍🦰🐌🤵 Assess.md>).
-
-> Continues from [🤵⏩🧑‍🦰 Converse 💬](<🤵⏩🧑‍🦰 Converse 💬.md>)
-
-```yaml
-⏩ UpdateChats:
-
-# Notify Wallets to update Chats
-- SEND:
-    To: $wallet.Notifier
-    Subject: Updated@Notifier
-    Wallet: $wallet.Wallet
-    Updates: [ CHATS ]
-```

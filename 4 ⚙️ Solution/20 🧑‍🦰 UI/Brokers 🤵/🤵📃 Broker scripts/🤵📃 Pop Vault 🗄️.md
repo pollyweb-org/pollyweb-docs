@@ -12,9 +12,9 @@
 
 ## Script
 
-> Called by the [`Pop@Broker` ▶️ script](<🤵📃 Pop 🐌.md>)
+> Called by the [`Pop@Broker` 📃 script](<🤵📃 Pop 🐌.md>)
 
-> Assumes a `$wallet` placeholder from the [`Pop@Broker` ▶️ script](<🤵📃 Pop 🐌.md>)
+> Assumes a `$wallet` placeholder from the [`Pop@Broker` 📃 script](<🤵📃 Pop 🐌.md>)
 
 
 ```yaml
