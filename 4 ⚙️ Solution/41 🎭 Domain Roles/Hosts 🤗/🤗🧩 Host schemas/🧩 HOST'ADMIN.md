@@ -1,5 +1,5 @@
 
-# [🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) [Schema Code](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>): HostAdmin
+# [🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) [`HOST`](<🧩 HOST.md>)/`ADMIN`
 
 <br/>
 
@@ -10,7 +10,6 @@
 ```yaml
 Path: /HOST/ADMIN
 Name: Domain admin
-Description: Share post info.
 
 Translations:
   - Language: pt-br

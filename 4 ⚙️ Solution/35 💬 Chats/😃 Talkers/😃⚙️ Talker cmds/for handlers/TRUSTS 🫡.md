@@ -75,8 +75,8 @@
     | [Command ⌘](<../for control/⌘ Command.md>) | Purpose
     |-|-
     | 📨 [`$.Msg`](<$.Msg 📨.md>) | Read the incoming [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>)
-    | 🎛️ [`$.Settings`](<$.Settings 🎛️.md>) | Get the default [Graph 🕸 domain](<../🕸🤲 Graph helper.md>)
-    | 🚦 [`ASSERT`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/ASSERT 🚦.md>) | Assert if it's [Trusted 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) 
+    | 🎛️ [`$.Settings`](<$.Settings 🎛️.md>) | Get the default [Graph 🕸 domain](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>)
+    | 🚦 [`ASSERT`](<ASSERT 🚦.md>) | Assert if it's [Trusted 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) 
     | ⤵️ [`IF`](<../for control/IF ⤵️.md>) | Verify the parameters  
     | 📬 [`SEND`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for flows/.SEND 📬 msg.md>) | Call [👥🚀🕸 `Trusts@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>)
     |

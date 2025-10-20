@@ -17,10 +17,10 @@ deactivate vault
 ' Activate the broker.
 user --> wallet: broker 🤵
 activate wallet
-    wallet --> broker: 1) Home 🐌
+    wallet --> broker: 1) Pop 🐌 {VAULT}
 deactivate wallet
 activate broker
-    broker --> wallet: 2) ⏪ Prompt 🤔
+    broker --> wallet: 2) ⏪ Prompt 🤔 {what?}
 deactivate broker
 
 ' User asks to unbind.
