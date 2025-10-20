@@ -81,9 +81,7 @@
     SUCCESS|Hi, {$social.Name}!
     ```
 
-    | [Command ⌘](<../for control/⌘ Command.md>) | Purpose
-    |-|-
-    | ⤵️ [`IF`](<../for control/IF ⤵️.md>) | To verify the result.  
+    Commands: [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`SHARE`](<SHARE 💼 msg.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
 
 
     The structure of the shared data is as follows.

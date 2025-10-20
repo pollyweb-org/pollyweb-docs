@@ -75,9 +75,7 @@
     - SUCCESS|Locker opened. # Notify the user
     ```
 
-    | [Command ⌘](<../for control/⌘ Command.md>) | Purpose
-    |-|-
-    | 🪵 [`LOG`](<../for data/LOG 🪵 flow.md>) | To log the result.
+    Commands: [`FAILURE`](<../../../🤔 Prompts/🤔📢 Prompt status/FAILURE ❌ prompt.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`LOG`](<../for data/LOG 🪵 flow.md>) [`RELAY`](<RELAY 🛰️ msg.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>) [`TEMP`](<../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳ prompt.md>)
     
     ---
     <br/>

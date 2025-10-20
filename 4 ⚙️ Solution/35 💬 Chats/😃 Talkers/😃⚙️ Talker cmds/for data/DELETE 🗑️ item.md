@@ -68,6 +68,8 @@
     - DELETE|$item 
     ```
 
+    Commands: [`GET`](<GET ⏬ item.md>) [`DELETE`](<DELETE 🗑️ item.md>)
+
     ---
     <br/>
 

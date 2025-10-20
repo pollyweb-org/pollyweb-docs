@@ -123,10 +123,8 @@
        Else: FAILURE|Not bounded.
    ```
 
-   | [Command ⌘](<../for control/⌘ Command.md>) | Purpose
-   |-|-
-   | ⤵️ [IF](<../for control/IF ⤵️.md>) | To verify the result.  
-   
+   Commands: [`BIND`](<BIND 🔗 msg.md>) [`IF`](<../for control/IF ⤵️.md>)
+
    ---
    <br/>
 
@@ -145,10 +143,7 @@
        Else: FAILURE|Not bounded.
    ```
 
-   | [Command ⌘](<../for control/⌘ Command.md>) | Purpose
-   |-|-
-   | ⬇️ [`EVAL`](<../for data/EVAL ⬇️ flow.md>) | To put the bindable array into a placeholder.
-   | ⤵️ [`IF`](<../for control/IF ⤵️.md>) | To verify the result.
+   Commands: [`BIND`](<BIND 🔗 msg.md>) [`EVAL`](<../for data/EVAL ⬇️ flow.md>) [`IF`](<../for control/IF ⤵️.md>)
    
    ---
    <br/>

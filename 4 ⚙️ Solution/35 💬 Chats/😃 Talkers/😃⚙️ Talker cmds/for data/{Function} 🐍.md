@@ -117,6 +117,8 @@
         Appendix: {/photos/elvis.png}
     ```
     
+    Commands: [`TEXT`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/32 🔠 TEXT prompt.md>)
+
     ---
     <br/>
 
@@ -159,10 +161,7 @@
     - INFO|{$n}+{$n} equals {Sum($n,$n)}
     ```
 
-    | [Command ⌘](<../for control/⌘ Command.md>) | Purpose
-    |-|-
-    | ↕️ [`QUANTITY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/42 ↕️ QUANTITY prompt.md>) | To collect the number input.
-
+    Commands: [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`QUANTITY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/42 ↕️ QUANTITY prompt.md>)
 
     ```python
     # 🐍 Python handler
@@ -207,6 +206,7 @@
     | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ You sent:<br/>- Function: MyFunction <br>- Inputs: [1, 2, 3] <br/>- Input: 1
+    |
     
 
     ```yaml
@@ -214,6 +214,8 @@
     💬 Example:
     - INFO|{MyFunction(1,2,3)}
     ```
+
+    Commands: [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>)
     
     ```python
     # 🐍 Python handler
