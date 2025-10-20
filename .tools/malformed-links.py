@@ -1,10 +1,49 @@
 import os
 import re
 import itertools
+from concurrent.futures import ProcessPoolExecutor, as_completed
+from collections import OrderedDict
 
 import emoji
 
 all_memory = False
+
+# Globals used by worker processes (initialized via init_worker)
+_EXISTING_FILES = None
+_PROJECT_DIR = None
+
+# Precompile regex patterns for performance
+_LINK_PATTERNS = [
+    # match links in the form [text](path.md)
+    re.compile(r"\[.*?\]\(([^)]+\.md)\)"),
+    # match links in the form [text](<path.md>)
+    re.compile(r"\[.*?\]\(<?([^)>]+\.md)>?\)"),
+    # images
+    re.compile(r"\[.*?\]\(([^)]+\.png)\)"),
+    re.compile(r"\[.*?\]\(<?([^)>]+\.png)>?\)"),
+    re.compile(r"\[.*?\]\(([^)]+\.jpg)\)"),
+    re.compile(r"\[.*?\]\(<?([^)>]+\.jpg)>?\)"),
+    re.compile(r"\[.*?\]\(([^)]+\.pdf)\)"),
+    re.compile(r"\[.*?\]\(<?([^)>]+\.pdf)>?\)"),
+    # match ![](../../../🖼️ images/1.1/ads-market-share.png)
+    re.compile(r"!\[\]\(([^)]+?\.(?:png|pdf))\)")
+]
+
+_GENERIC_LINK_RE = re.compile(r"(?<!!)\[.*?\]\(<?([^)>#]+)>?\)")
+_GENERIC_EXT_RE = re.compile(r"\.(md|png|jpg|pdf)$", re.IGNORECASE)
+
+_MALFORMED_PATTERNS = [
+    re.compile(r"\[[^\]]+\]\([^)\n]*\.md(?![^)]*\))"),  # missing closing ')'
+    re.compile(r"\[[^\]]+\][^ \[<]+\..+?\)\>?"),       # links not properly closed
+    re.compile(r"\[.*?\]\(<?([^)>]+\.md)>(?!\))"),      # not closed
+    re.compile(r"\[[^\]]*\.[^\]]*\>\)"),               # missing ']( '
+    re.compile(r"!\[.*?\]\([^)\n]+$")                    # image not closed
+]
+
+def _init_worker(existing_files, project_dir):
+    global _EXISTING_FILES, _PROJECT_DIR
+    _EXISTING_FILES = existing_files
+    _PROJECT_DIR = project_dir
 
 def find_md_files(directory):
     """Recursively find all markdown files in the project directory."""
@@ -42,20 +81,8 @@ def extract_links_with_malformed_detection(content):
             foundTheLine = True
 
     # Find correct links
-        for pattern in [
-            r'\[.*?\]\(([^)]+\.md)\)', # match links in the form [text](path.md)
-            r'\[.*?\]\(<?([^)>]+\.md)>?\)', # match links in the form [text](<path.md>)
-            r'\[.*?\]\(([^)]+\.png)\)', # match links in the form [text](path.png)
-            r'\[.*?\]\(<?([^)>]+\.png)>?\)', # match links in the form [text](<path.png>)
-            r'\[.*?\]\(([^)]+\.jpg)\)', # match links in the form [text](path.png)
-            r'\[.*?\]\(<?([^)>]+\.jpg)>?\)', # match links in the form [text](<path.png>)
-            r'\[.*?\]\(([^)]+\.pdf)\)', # match links in the form [text](path.png)
-            r'\[.*?\]\(<?([^)>]+\.pdf)>?\)', # match links in the form [text](<path.png>)
-
-            # match ![](../../../🖼️ images/1.1/ads-market-share.png)
-            r'!\[\]\(([^)]+?\.(?:png|pdf))\)'
-        ]:
-            links = re.findall(pattern, line)
+        for pattern in _LINK_PATTERNS:
+            links = pattern.findall(line)
             
             for link in links:
                 links_with_lines.append((link, i))
@@ -68,10 +95,10 @@ def extract_links_with_malformed_detection(content):
                     malformed_links_with_lines.append((line, i))
 
         # Also capture generic local links without extensions (skip externals/anchors/images)
-        generic_links = re.findall(r'(?<!!)\[.*?\]\(<?([^)>#]+)>?\)', line)
+        generic_links = _GENERIC_LINK_RE.findall(line)
         for link in generic_links:
             # Skip if already a handled extension
-            if re.search(r'\.(md|png|jpg|pdf)$', link, re.IGNORECASE):
+            if _GENERIC_EXT_RE.search(link):
                 continue
             # Skip external/anchors/mailto
             if link.startswith(('http://', 'https://', 'mailto:', '#')):
@@ -83,17 +110,8 @@ def extract_links_with_malformed_detection(content):
             links_with_lines.append((link, i))
 
         # Find malformed links
-        for patterns in [
-            r'\[[^\]]+\]\([^)\n]*\.md(?![^)]*\))',  # captures links missing closing ')'
-            #r'\[[^\]]+\]\([^)]*\.{2}/[^)]*\.md',  # catches odd '..' folder prefix before closing
-
-            r'\[[^\]]+\][^ \[<]+\..+?\)\>?', # match links that are not closed
-            r'\[.*?\]\(<?([^)>]+\.md)>(?!\))', # match links that are not closed
-            r'\[[^\]]*\.[^\]]*\>\)', # match links that start with '[' and end with '>)', missing ']('
-            
-            r'!\[.*?\]\([^)\n]+$'  # any image link not properly closed before line end
-        ]:
-            malformed_links = re.findall(patterns, line)
+        for pattern in _MALFORMED_PATTERNS:
+            malformed_links = pattern.findall(line)
             for malformed_link in malformed_links:
 
                 # Skip links that contain 'http://' or 'https://'
@@ -181,168 +199,161 @@ def possible_emoji_insertions(path, emoji='⏳'):
         all_combos.add(os.sep.join(variant))
     return all_combos
 
+def _process_single_md_file(md_file):
+    """Worker function to process a single Markdown file.
+
+    Returns a tuple: (md_file, broken_list, malformed_list, replacement_hits_list, count)
+    """
+    import urllib.parse
+
+    broken_list = []
+    malformed_list = []
+    replacement_hits = []
+    count = 0
+
+    # Read file content
+    with open(md_file, 'r', encoding='utf-8') as file:
+        content = file.read()
+
+    # Replacement character scans
+    if '\ufffd' in content or '�' in content:
+        lines = content.splitlines()
+        for i, line in enumerate(lines, 1):
+            if ('\ufffd' in line) or ('�' in line):
+                replacement_hits.append((i, line))
+
+    # Extract links
+    links_with_lines, malformed_links_with_lines = extract_links_with_malformed_detection(content)
+
+    # Existing files and project dir from globals
+    existing_files = _EXISTING_FILES
+    project_directory = _PROJECT_DIR
+
+    # Check links and build suggestions
+    for link, line_num in links_with_lines:
+        itsTheLine = False
+        if '../../../🖼️ images/1.1/ads-market-share.png' in link:
+            itsTheLine = True
+
+        full_link = os.path.normpath(os.path.join(os.path.dirname(md_file), link))
+        full_link = urllib.parse.unquote(full_link)
+
+        if full_link not in existing_files:
+            suggestion = f'!!!'
+            tip = None
+
+            if suggestion == '!!!':
+                # same-folder heuristic
+                x_file_name = os.path.basename(full_link)
+                for file in existing_files:
+                    if os.path.dirname(full_link) == os.path.dirname(file):
+                        y_file_name = os.path.basename(file)
+                        if remove_numbers(y_file_name).endswith(remove_numbers(x_file_name)):
+                            suggestion = os.path.basename(suggestion)
+                            tip = f'File in the same folder?'
+                            break
+
+            if suggestion == '!!!':
+                # case-insensitive path match
+                for file in existing_files:
+                    if remove_numbers(full_link).lower() == remove_numbers(file).lower():
+                        suggestion = file.replace(project_directory, '')
+                        suggestion = os.path.relpath(suggestion, os.path.dirname(md_file))
+                        tip = f'Case mismatch?'
+                        break
+
+            if suggestion == '!!!':
+                # closest match heuristic
+                closest_match = max(
+                    existing_files,
+                    key=lambda x: count_end_match(
+                        x.replace(' ','%20'),
+                        full_link.replace(' ','%20'))
+                )
+                x = os.path.normpath(closest_match)
+                if remove_numbers(os.path.basename(x)) == remove_numbers(os.path.basename(full_link)) \
+                or count_mismatch_chars(os.path.basename(x), os.path.basename(full_link)) <= 1:
+                    suggestion = f'{x}'
+                    suggestion = os.path.relpath(suggestion, os.path.dirname(md_file))
+                    tip = f'Closest match?'
+
+            if suggestion == '!!!':
+                # same filename anywhere
+                x_file_name = os.path.basename(full_link)
+                for file in existing_files:
+                    y_file_name = os.path.basename(file)
+                    if remove_numbers(y_file_name) == remove_numbers(x_file_name):
+                        suggestion = file.replace(project_directory, '')
+                        suggestion = os.path.relpath(suggestion, full_link)
+                        tip = f'File name match?'
+                        break
+
+            if suggestion == '!!!':
+                # Try all possible ⏳ emoji insertions into the link path
+                emoji_char = '⏳'
+                rel_link_path = os.path.relpath(full_link, project_directory)
+                for alt_path in possible_emoji_insertions(rel_link_path, emoji=emoji_char):
+                    abs_path = os.path.normpath(os.path.join(project_directory, alt_path))
+                    if abs_path in existing_files:
+                        suggestion = os.path.relpath(abs_path, os.path.dirname(md_file))
+                        tip = f"Fix by adding '{emoji_char}' emoji"
+                        break
+
+            if link == suggestion:
+                suggestion = f'found same'
+
+            if 'https://' in link:
+                continue
+
+            tuple_item = (link, full_link, line_num, suggestion, tip)
+            if tuple_item not in broken_list:
+                broken_list.append(tuple_item)
+                count += 1
+
+    # malformed links (per-file)
+    if malformed_links_with_lines:
+        malformed_list = malformed_links_with_lines
+
+    return (md_file, broken_list, malformed_list, replacement_hits, count)
+
+
 def check_broken_links(md_files, png_files):
     """Check for broken .md links within the project and malformed links.
 
     Also scans files for the Unicode replacement character (�, U+FFFD), which
     usually indicates an encoding issue or invalid byte sequence in the file.
     """
-    broken_links = {}
-    malformed_links = {}
-    replacement_char_hits = {}
+    broken_links = OrderedDict()
+    malformed_links = OrderedDict()
+    replacement_char_hits = OrderedDict()
+
     existing_files = set(md_files + png_files)
-    
-    count = 0
-    for md_file in md_files:
-        
-        
-        # Read file content
-        with open(md_file, 'r', encoding='utf-8') as file:
-            content = file.read()
 
-        # Detect the Unicode replacement character occurrences per line
-        # U+FFFD can appear rendered as '�' in some contexts
-        if '\ufffd' in content or '�' in content:
-            lines = content.splitlines()
-            for i, line in enumerate(lines, 1):
-                if ('\ufffd' in line) or ('�' in line):
-                    if md_file not in replacement_char_hits:
-                        replacement_char_hits[md_file] = []
-                    replacement_char_hits[md_file].append((i, line))
-        
-        # Extract correct links and malformed links
-        links_with_lines, malformed_links_with_lines = extract_links_with_malformed_detection(content)
+    # Setup multiprocessing pool
+    max_workers = os.cpu_count() or 1
+    # Initialize workers with shared, read-only data
+    with ProcessPoolExecutor(max_workers=max_workers, initializer=_init_worker, initargs=(existing_files, project_directory)) as executor:
+        # Use map to preserve order corresponding to md_files
+        results_iter = executor.map(_process_single_md_file, md_files)
 
-        # Check if the correct links point to missing files
-        for link, line_num in links_with_lines:
-            
-            itsTheLine = False
-            if '../../../🖼️ images/1.1/ads-market-share.png' in link:
-                itsTheLine = True
-            
-            full_link = os.path.normpath(os.path.join(os.path.dirname(md_file), link))
-            
-            import urllib.parse
-            full_link = urllib.parse.unquote(full_link)
+        total_count = 0
+        finished = True
+        for md_file, broken_list, malformed_list, replacement_hits, count in results_iter:
+            if broken_list:
+                broken_links[md_file] = broken_list
+                total_count += len(broken_list)
+            if malformed_list:
+                malformed_links[md_file] = malformed_list
+            if replacement_hits:
+                replacement_char_hits[md_file] = replacement_hits
 
-            if False and itsTheLine and full_link in existing_files:
-                raise ValueError(md_file)
+            if total_count > 1000 and finished:
+                # Emulate original early stop behavior
+                print(f"Checking {total_count} times, stopping for performance reasons.")
+                finished = False
+                break
 
-            if full_link not in existing_files:
-
-                suggestion = f'!!!'
-                tip = None
-
-                if suggestion == '!!!':
-                    # Find a file in the same folder that ends with that link name.
-                    # Extract the file name from full_link
-                    x_file_name = os.path.basename(full_link)
-                    # Look for the file name in the existing files
-                    for file in existing_files:
-                        # Extract the file name from the file path
-                        y_file_name = os.path.basename(file)
-                        # Check if the file is in the same folder as full_link
-                        if os.path.dirname(full_link) == os.path.dirname(file):
-
-                            # Check if the file name matches ends with the file name in full_link
-                            if remove_numbers(y_file_name).endswith(remove_numbers(x_file_name)):
-                                suggestion = os.path.basename(suggestion)    
-                                tip = f'File in the same folder?'
-                                break
-
-                if suggestion == '!!!':
-                    # Find the same file with different caps (case-insensitive)
-                    # Extract the file name from full_link
-                    x_file_name = os.path.basename(full_link)
-                    # Look for the file name in the existing files
-                    for file in existing_files:
-                        # Extract the file name from the file path
-                        y_file_name = os.path.basename(file)
-                        # Check if the file name matches the file name in full_link
-                        if remove_numbers(full_link).lower() == remove_numbers(file).lower():
-                            # If it matches, then the suggestion is the file path
-                            suggestion = file.replace(project_directory, '')
-                            suggestion = os.path.relpath(suggestion, os.path.dirname(md_file))
-                            tip = f'Case mismatch?'
-                            break
-
-                if suggestion == '!!!':
-                    # Find the closest match to the broken link.
-                    # This is a simple heuristic that can be improved.
-                    # The suggestion is the closest file name to the broken link.
-                    # The suggestion is case-insensitive.
-                    closest_match = max(
-                        existing_files, 
-                        key=lambda x: count_end_match(
-                            x.replace(' ','%20'), 
-                            full_link.replace(' ','%20')))
-                    x = closest_match.replace(project_directory, '')
-                    
-                    x = os.path.normpath(closest_match)
-
-                    # if the file name of x contains the same letters as the broken link, then it is a good suggestion
-                    if remove_numbers(os.path.basename(x)) == remove_numbers(os.path.basename(full_link)) \
-                    or count_mismatch_chars(os.path.basename(x), os.path.basename(full_link)) <= 1:
-                        suggestion = f'{x}'
-                        suggestion = os.path.relpath(suggestion, os.path.dirname(md_file))
-                        tip = f'Closest match?'
-
-                if suggestion == '!!!':
-                    # Find the last part of the path in another path prefix.
-                    # Extract the file name from full_link
-                    x_file_name = os.path.basename(full_link)
-                    # Look for the file name in the existing files
-                    for file in existing_files:
-                        # Extract the file name from the file path
-                        y_file_name = os.path.basename(file)
-                        # Check if the file name matches the file name in full_link
-                        if remove_numbers(y_file_name) == remove_numbers(x_file_name):
-                            # If it matches, then the suggestion is the file path
-                            suggestion = file.replace(project_directory, '')
-                            suggestion = os.path.relpath(suggestion, full_link)
-                            tip = f'File name match?'
-                            break
-
-                # (NEW) Try all possible ⏳ emoji insertions into the link path
-                if suggestion == '!!!':
-                    emoji = '⏳'
-                    rel_link_path = os.path.relpath(full_link, project_directory)
-                    for alt_path in possible_emoji_insertions(rel_link_path, emoji=emoji):
-                        # Form the absolute path
-                        abs_path = os.path.normpath(os.path.join(project_directory, alt_path))
-                        if abs_path in existing_files:
-                            suggestion = os.path.relpath(abs_path, os.path.dirname(md_file))
-                            tip = f"Fix by adding '{emoji}' emoji"
-                            break
-
-                # if link and suggestion are the same, then the suggestion is not found
-                if link == suggestion:
-                    suggestion = f'found same'
-
-                # Skip links that contain 'http://' or 'https://'
-                if 'https://' in link:
-                    continue
-
-                # Add the broken link to the dictionary
-                if md_file not in broken_links:
-                    broken_links[md_file] = []
-                    
-                tuple = (link, full_link, line_num, suggestion, tip)
-                if tuple not in broken_links[md_file]:
-                    broken_links[md_file].append(tuple)
-
-                    count += 1
-                    if count > 1000:
-                        # stop
-                        print(f"Checking {count} times, stopping for performance reasons.")
-                        return broken_links, malformed_links, False
-                
-        
-        # Handle malformed links
-        if malformed_links_with_lines:
-            malformed_links[md_file] = malformed_links_with_lines
-    
-    return broken_links, malformed_links, replacement_char_hits, True
+    return broken_links, malformed_links, replacement_char_hits, finished
 
 
 def print_results(broken_links, malformed_links, replacement_char_hits):
