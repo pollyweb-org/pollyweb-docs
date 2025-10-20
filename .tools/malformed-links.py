@@ -836,6 +836,92 @@ def replace_curly_upper_mentions(md_files):
     return total_replacements
 
 
+###############################################
+# New feature: Prefix table rows with filename emoji
+###############################################
+
+# Detect a table row that begins with a pipe followed by an uppercase token link
+# Supports both forms: [`ABC`](<href>) and [`ABC`]<href>
+_ROW_LEADING_UPPER_LINK_RE = re.compile(
+    r"^\s*\|\s*"                                   # start of row and pipe
+    r"\[`([A-Z][A-Z0-9._-]*)`\]"                    # link label in backticks
+    r"(?:\(<?([^)>#]+)>?\)|<([^)>#]+)>)"            # either (...<href>...) or <href>
+)
+
+# Emoji detection: keycaps like 1️⃣, *️⃣, #️⃣ and general emoji blocks
+_KEYCAP_EMOJI_RE = re.compile("(?:[0-9#*]\uFE0F?\u20E3)")
+_GENERAL_EMOJI_RE = re.compile("[\U0001F300-\U0001FAFF\U0001F900-\U0001F9FF\u2600-\u26FF\u2700-\u27BF]", re.UNICODE)
+
+def _find_first_emoji(text: str):
+    """Return the first emoji sequence found in text, preferring keycaps, else general emoji."""
+    m = _KEYCAP_EMOJI_RE.search(text)
+    if m:
+        return m.group(0)
+    m = _GENERAL_EMOJI_RE.search(text)
+    if m:
+        return m.group(0)
+    # Fallback using emoji library if available and regex failed
+    if _emoji_mod:
+        try:
+            for ch in text:
+                # Newer emoji libs expose EMOJI_DATA
+                if hasattr(_emoji_mod, 'EMOJI_DATA') and ch in getattr(_emoji_mod, 'EMOJI_DATA'):
+                    return ch
+        except Exception:
+            pass
+    return None
+
+def add_emoji_to_table_rows(md_files):
+    """For rows starting with | [`UPPER`](<href>), take an emoji from the href's filename and prefix it."""
+    import urllib.parse
+    total_changes = 0
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                lines = f.readlines()
+        except Exception:
+            continue
+
+        changed = False
+        for i, line in enumerate(lines):
+            m = _ROW_LEADING_UPPER_LINK_RE.match(line)
+            if not m:
+                continue
+
+            # href captured either in group 2 (with parentheses) or group 3 (without)
+            href = m.group(2) if m.group(2) is not None else m.group(3)
+            # Skip external/anchors/mailto
+            if href.startswith(('http://', 'https://', 'mailto:', '#')):
+                continue
+
+            # Decode and get filename
+            href_decoded = urllib.parse.unquote(href)
+            base = os.path.basename(href_decoded)
+            emoji_char = _find_first_emoji(base)
+            if not emoji_char:
+                continue
+
+            # If emoji already present immediately after the pipe, skip
+            if re.match(r"^\s*\|\s*" + re.escape(emoji_char) + r"\s", line):
+                continue
+
+            # Insert emoji after first pipe
+            new_line = re.sub(r"^(\s*\|\s*)", r"\g<1>" + emoji_char + " ", line, count=1)
+            if new_line != line:
+                lines[i] = new_line
+                changed = True
+                total_changes += 1
+
+        if changed:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.writelines(lines)
+            except Exception:
+                pass
+
+    return total_changes
+
+
 def runit(project_directory):
 
 
@@ -907,6 +993,16 @@ def runit(project_directory):
             print("No uppercase {{...}} mentions to replace or no matching links found.")
     except Exception as e:
         print(f"Warning: failed processing uppercase {{}}-mentions: {e}")
+
+    # Finally, add emoji at table row start based on filename in upper links
+    try:
+        emoji_changes = add_emoji_to_table_rows(md_files)
+        if emoji_changes:
+            print(f"Added emojis to {emoji_changes} table rows ✅")
+        else:
+            print("No table rows required emoji prefixing.")
+    except Exception as e:
+        print(f"Warning: failed adding emojis to table rows: {e}")
 
 
 
