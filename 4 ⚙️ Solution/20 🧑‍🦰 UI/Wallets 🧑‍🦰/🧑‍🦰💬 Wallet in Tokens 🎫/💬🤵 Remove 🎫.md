@@ -3,6 +3,8 @@
 
 > Implements a [Wallet 🧑‍🦰 app](<../🧑‍🦰🛠️ Wallet app.md>)
 
+> Implemented by [`Pop Token` ▶️ script](<../../Brokers 🤵/🤵▶️ Broker scripts/🤵▶️ Pop Token 🎫.md>)
+
 
 * When users ask their [Broker 🤵](<../../Brokers 🤵/🤵🤲 Broker helper.md>) to remove a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>),
   - it first does a soft delete only, hiding the [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
@@ -13,7 +15,7 @@
 
 ## Chat 💬
 
-> Implemented by [Pop Token 🔆 handler](<../../Brokers 🤵/🤵⚙️ Broker procedures/🤵😃 Pop Token.md>).
+> Implemented by [Pop Token 🔆 handler](<../../Brokers 🤵/🤵▶️ Broker scripts/🤵▶️ Pop Token 🎫.md>).
 
 | [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |

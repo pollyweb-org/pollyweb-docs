@@ -1,6 +1,6 @@
 # 🧑‍🦰🐌🤵 Pop @ Broker
 
-> Implemented by [text](<../../🤵⚙️ Broker procedures/🤵😃 Pop 🐌.md>)
+> Implemented by [`Pop@Broker` ▶️ script](<../../🤵▶️ Broker scripts/🤵▶️ Pop 🐌.md>)
 
 * Opens a new [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) 
     * with the [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>)

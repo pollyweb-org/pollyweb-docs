@@ -84,7 +84,7 @@
 
 1. **What's a use case for soft deletes?**
 
-    See [Pop Token 🔆](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵⚙️ Broker procedures/🤵😃 Pop Token.md>).
+    See [Pop Token 🔆](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵▶️ Broker scripts/🤵▶️ Pop Token 🎫.md>).
 
     ---
     <br/>
