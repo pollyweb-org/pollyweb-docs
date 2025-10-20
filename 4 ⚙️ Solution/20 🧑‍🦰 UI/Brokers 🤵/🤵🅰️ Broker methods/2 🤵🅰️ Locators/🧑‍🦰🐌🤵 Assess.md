@@ -85,7 +85,7 @@ Body:
 - RUN|⏩ Introduce
 ```
 
-> Continues on [🔎⏩🧑‍🦰 Introduce 🤗](<🔎⏩🧑‍🦰 Introduce 🤗.md>)
+> Continues on [🔎⏩🧑‍🦰 Introduce 🤗](<../../../../50 🫥 Agent domains/Finders 🔎/🔎⏩ Finder flows/🔎⏩🧑‍🦰 Introduce 🤗.md>)
 
 
 <br/>
@@ -94,7 +94,7 @@ Body:
 |-|-
 | 📨 [`$.Msg`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/$.Msg 📨.md>) | Read the incoming [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>)
 | ⏬ [`GET`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET ⏬ item.md>) | Get the [Wallet 🪣 item](<../../🤵🪣 Broker tables/🤵🪣 Wallets.md>)
-|⤵️ [`IF`](<IF ⤵️.md>) |Verify if it is an [ALIAS 🧩 locator](<../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🧩 Printer schemas/🧩 ALIAS.md>)
+|⤵️ [`IF`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/IF ⤵️.md>) |Verify if it is an [ALIAS 🧩 locator](<../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🧩 Printer schemas/🧩 ALIAS.md>)
 | 📬 [`SEND`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for flows/.SEND 📬 msg.md>) | Call [`Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>)
 | 🔆 [`PARSE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/PARSE 🔆.md>) | Parse the [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>)
 | 🔐 [`VERIFY`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/VERIFY 🔐 msg.md>) | Verify the  [Signature 🔏](<../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Signatures 🔏.md>) of the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>)
