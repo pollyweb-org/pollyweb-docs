@@ -107,14 +107,14 @@
 
     Command | Purpose
     |-|-
-    | ⏯️️ [`CASE`](<CASE ⏯️.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script ▶️](<▶️ Script.md>) matching a [{Function}](<../for data/{Function} 🐍.md>).
+    | ⏯️️ [`CASE`](<CASE ⏯️.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script ▶️](<📃 Script.md>) matching a [{Function}](<../for data/{Function} 🐍.md>).
     | 🫥 [`EMOJI`](<../../../🤔 Prompts/🤔✏️ Prompt input features/16 😶⌘ EMOJI cmd.md>) | Changes the [default emoji 😃](<../../../🤔 Prompts/🤔✏️ Prompt input features/14 😶 Input emojis.md>) for [input prompts ✏️](<../../../🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>).
     | ⬇️ [`EVAL`](<../for data/EVAL ⬇️ flow.md>) | Evaluates a [{Function}](<../for data/{Function} 🐍.md>) into a placeholder.
-    | ⤵️ [`IF`](<IF ⤵️.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script ▶️](<▶️ Script.md>) based on a [{Function}](<../for data/{Function} 🐍.md>).
+    | ⤵️ [`IF`](<IF ⤵️.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script ▶️](<📃 Script.md>) based on a [{Function}](<../for data/{Function} 🐍.md>).
     | 🪵 [`LOG`](<../for data/LOG 🪵 flow.md>) | Logs messages into the system handler.
-    | 🔁 [`REPEAT`](<REPEAT 🔁.md>) | Repeats the current [Script ▶️](<▶️ Script.md>) with a confirmation.
-    | ⤴️ [`RETURN`](<RETURN ⤴️.md>) | Returns from a [Script ▶️](<▶️ Script.md>) with a result.
-    | ▶️ [`RUN`](<RUN ▶️.md>) | Runs a [Script ▶️](<▶️ Script.md>) and puts the result in a placeholder.
+    | 🔁 [`REPEAT`](<REPEAT 🔁.md>) | Repeats the current [Script ▶️](<📃 Script.md>) with a confirmation.
+    | ⤴️ [`RETURN`](<RETURN ⤴️.md>) | Returns from a [Script ▶️](<📃 Script.md>) with a result.
+    | ▶️ [`RUN`](<RUN ▶️.md>) | Runs a [Script ▶️](<📃 Script.md>) and puts the result in a placeholder.
     | ⏸️ [`WAIT`](<WAIT ⏸️.md>) | Waits for a period of time or until signaled.
 
     ---
