@@ -1,4 +1,4 @@
-# 🪣 Wallets
+# 🤵🪣 Wallets
 
 > Stores [Wallet 🧑‍🦰 apps](<../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
 

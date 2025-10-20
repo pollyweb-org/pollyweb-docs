@@ -1,4 +1,4 @@
-# 🪣 Notifiers
+# 🤵🪣 Notifiers
 
 > Contains [Notifier 📣 domains](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣👥 Notifier domain.md>)
 

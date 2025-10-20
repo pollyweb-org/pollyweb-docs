@@ -1,4 +1,4 @@
-# 🪣 Tokens
+# 🤵🪣 Tokens
 
 > Stores [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
 
