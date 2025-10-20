@@ -15,9 +15,9 @@ deactivate wallet
 
 activate broker
 
-    group Translate, if .ALIAS 🧩 and not cached 
+    group Resolve, if .ALIAS 🧩 and not cached 
 
-        broker -> printer: 1) Details 🚀
+        broker -> printer: 1) Resolve 🚀
 
         activate printer
             printer -> broker: {host locator}

@@ -6,7 +6,23 @@
 
 <br/>
 
-1. **Whats the simplest syntax for itemized schemas?**
+
+1. **What properties are supported?**
+
+    | Property      | Type | Details
+    |-|-|-
+    | `Name`        | string    | Name of the table
+    | `Key`         | string[]  | Index for updates
+    | `Parents`     | map       | List of parent items
+    | `Children`    | map       | List of children items
+    | `Distincts`   | map       | List of grouped fields
+    | `NoUpdates`   | bool      | Blocks item updates
+    | `OnBlocked`   | string[]  | [Commands ⌘](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) if blocked
+
+    ---
+    <br/>
+
+1. **What's the simplest syntax for itemized schemas?**
 
     ```yaml
     # First column is the key.
@@ -190,7 +206,29 @@
     ---
     <br/>
    
+1. **How to block updates?**
 
+    Here's the table definition.
+
+    ```yaml
+    NoUpdates: True  # it's False by default
+    ```
+
+    Here's a [Talker 😃](<../../😃 Talker.md>) excerpt from [`Grab@Printer`](<../../../45 🤲 Helper domains/Printers 🖨️/🖨️🅰️. Printer methods/👥🚀🖨️ Grab.md>)
+
+    ```yaml
+    SAVE|AnyTable:
+        OnBlocked: REEL|409
+    ```
+
+    |Action|Condition|Behavior
+    |-|-|-
+    | 💾 [`SAVE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/SAVE 💾 item.md>) | Same value | Allows multiple  idempotent saves
+    | |Different | Blocked, raises an error
+    | 🗑️ [`DELETE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/DELETE 🗑️ item.md>) | - | Allows multiple idempotent times
+
+    ---
+    <br/>
 
 1. **What are use cases of itemized schemas?**
 

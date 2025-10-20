@@ -28,6 +28,8 @@
     - GET >> $item:
         Pool: <pool>
         Key: <key>
+        # Required by default
+        OnMissing: <command>
     ```
 
     ```yaml
@@ -39,6 +41,7 @@
     |-|-|-
     | `Pool` | Name of resource pool | `MyPool`
     | `Key`  | Key to look up in the pool | `MyKey` `$key`
+    | `OnMissing` | [Command ⌘](<../for control/⌘ Command.md>) or [Procedure ⚙️](<../for control/⚙️ Procedure.md>) | `Handler`
     | `$item` | Item to retrieve
 
     ---

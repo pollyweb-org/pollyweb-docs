@@ -19,12 +19,13 @@
 1. **What's the syntax of REEL for Synchronous Requests?**
 
     ```yaml
-    REEL:
+    REEL|<http-code>:
       {response}
     ```
     
     | Argument| Purpose |
     |-|-
+    | `<http-code>`| Defaults to `200` if omitted
     | `{response}` | Response for the [Synchronous Request 🚀](<../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Request Sync 🚀.md>)
 
     ---
