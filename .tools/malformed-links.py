@@ -721,6 +721,23 @@ def _pick_matching_link(token, links):
             return href, base
     return None, None
 
+def _pick_matching_link_upper(token, links):
+    """Strict match for uppercase tokens: only accept links whose text is exactly `TOKEN`.
+    Returns (href, base) or (None, None).
+    """
+    for item in links:
+        if len(item) == 2:
+            text, href = item
+            base = None
+        else:
+            base, text, href = item
+        t = text.strip()
+        if len(t) >= 2 and t[0] == '`' and t[-1] == '`':
+            inner = t[1:-1]
+            if inner == token and inner.upper() == inner:
+                return href, base
+    return None, None
+
 def _build_project_link_index(md_files):
     """Build a project-wide index of (source_path, text, href) from all md files."""
     index = []
@@ -835,9 +852,10 @@ def replace_curly_upper_mentions(md_files):
         changed = False
 
         for token in tokens:
-            href, base = _pick_matching_link(token, links_here)
+            # Strict: only pick links whose label is exactly `TOKEN`
+            href, base = _pick_matching_link_upper(token, links_here)
             if not href:
-                href, base = _pick_matching_link(token, project_index)
+                href, base = _pick_matching_link_upper(token, project_index)
             if not href:
                 continue
 
