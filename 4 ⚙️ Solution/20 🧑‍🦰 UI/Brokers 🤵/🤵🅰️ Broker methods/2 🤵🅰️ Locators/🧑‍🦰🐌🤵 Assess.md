@@ -1,10 +1,10 @@
 # 🧑‍🦰🐌🤵 Assess @ Broker
 
-> Implemented by [Assess@Broker 😃 handler](<../../🤵😃 Broker talkers/🤵😃 Assess 🐌.md>)
+> Implemented by [Assess@Broker 😃 handler](<../../🤵⚙️ Broker procedures/🤵⚙️ Assess 🐌.md>)
 
-> Part of [🤵⏩🧑‍🦰 Assess 🔆 flow](<../../🤵⏩ Broker flows/🤵⏩🧑‍🦰 Assess 🔆.md>)
+> Part of [Assess ⏩ flow](<../../🤵⏩ Broker flows/🤵⏩🧑‍🦰 Assess 🔆.md>)
   
-> Precedes [`Converse@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/2 💬 Chats/1 🤵🐌📣 Converse.md>)
+> Precedes [`Converse@Notifier` 🅰️](<../../../Notifiers 📣/📣🅰️ Notifier methods/2 💬 Chats/1 🤵🐌📣 Converse.md>)
 
 * Parses the [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) in the [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>).
     * If the [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) is [`.ALIAS 🧩`](<../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🧩 Printer schemas/🧩 ALIAS.md>) 

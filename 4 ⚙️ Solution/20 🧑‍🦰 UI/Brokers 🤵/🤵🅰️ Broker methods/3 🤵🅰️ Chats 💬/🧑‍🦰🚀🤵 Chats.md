@@ -4,7 +4,7 @@
 
 # 🧑‍🦰🚀🤵 Chats @ Broker
 
-> Implemented by [🤵😃 `Chats` 🚀](<../../🤵😃 Broker talkers/🤵😃 Chats 🚀.md>)
+> Implemented by [🤵😃 `Chats` 🚀](<../../🤵⚙️ Broker procedures/🤵😃 Chats 🚀.md>)
 
 * The [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) 
     * lists the [Chats 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) 

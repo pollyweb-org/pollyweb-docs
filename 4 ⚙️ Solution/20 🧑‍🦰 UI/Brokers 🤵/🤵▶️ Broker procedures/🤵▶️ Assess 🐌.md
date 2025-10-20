@@ -1,16 +1,15 @@
-# 🤵😃 Assess@Broker handler
+# ▶️ Assess@Broker
 
-> Implements [`Assess@Broker`](<../🤵🅰️ Broker methods/2 🤵🅰️ Locators/🧑‍🦰🐌🤵 Assess.md>)
+> Implements [`Assess@Broker` 🅰️](<../🤵🅰️ Broker methods/2 🤵🅰️ Locators/🧑‍🦰🐌🤵 Assess.md>)
 
-> Part of [🤵⏩🧑‍🦰 Assess 🔆 flow](<../🤵⏩ Broker flows/🤵⏩🧑‍🦰 Assess 🔆.md>)
-    
-> Precedes [`Converse@Notifier`](<../../Notifiers 📣/📣🅰️ Notifier methods/2 💬 Chats/1 🤵🐌📣 Converse.md>)
 
 <br/>
 
 ## Handler
 
 ```yaml
+▶️ Access@Broker:
+
 # Get the Wallet item
 - GET|Wallets@Broker|$.Msg.From >> $wallet
 

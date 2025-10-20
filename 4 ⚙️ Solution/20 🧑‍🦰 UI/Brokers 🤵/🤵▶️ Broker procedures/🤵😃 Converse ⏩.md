@@ -6,9 +6,9 @@
 
 ## Resolver
 
-Assume `$wallet` and `$locator` placeholders from [🤵😃 `Assess` 🐌](<🤵😃 Assess 🐌.md>).
+Assume `$wallet` and `$locator` placeholders from [🤵😃 `Assess` 🐌](<🤵▶️ Assess 🐌.md>).
 
-> Continues from [🤵😃 `Assess` 🐌](<🤵😃 Assess 🐌.md>)
+> Continues from [🤵😃 `Assess` 🐌](<🤵▶️ Assess 🐌.md>)
 
 
 ```yaml
