@@ -21,7 +21,7 @@
 
     | Argument| Purpose
     |-|-
-    | `<procedure>` | The name of the [Procedure ⚙️](<⚙️ Procedure.md>).
+    | `<procedure>` | The name of the [Procedure ⚙️](<▶️ Script.md>).
     | `<command-n>` | A [Command ⌘](<⌘ Command.md>)  to be executed.
     
     ```yaml

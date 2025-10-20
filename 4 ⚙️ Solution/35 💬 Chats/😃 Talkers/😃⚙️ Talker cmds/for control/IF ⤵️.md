@@ -9,7 +9,7 @@
 
     An `IF` ⤵️
     * is a flow [Command ⌘](<⌘ Command.md>)  
-    * that runs a [Procedure ⚙️](<⚙️ Procedure.md>) or [Command ⌘](<⌘ Command.md>) 
+    * that runs a [Procedure ⚙️](<▶️ Script.md>) or [Command ⌘](<⌘ Command.md>) 
     * based on the evaluation of a placeholder or [{Function}](<../for data/{Function} 🐍.md>).
 
     ---
@@ -43,8 +43,8 @@
     | `{function}` | Boolean [{Function}](<../for data/{Function} 🐍.md>) to evaluate  | `{f}` `{$o}`
     || Allows for missing `{}` in functions | `f()` `$p`
     || Defaults to the last [input prompt ✏️](<../../../🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>) | `TEXT\|Id?`
-    | `<true-proc>` | [Procedure ⚙️](<⚙️ Procedure.md>) to [Run ▶️](<RUN ▶️.md>) when `True` | `IfTrue`
-    | `<false-proc>`| [Procedure ⚙️](<⚙️ Procedure.md>) to [Run ▶️](<RUN ▶️.md>) when `False` | `IfFalse(X)`
+    | `<true-proc>` | [Procedure ⚙️](<▶️ Script.md>) to [Run ▶️](<RUN ▶️.md>) when `True` | `IfTrue`
+    | `<false-proc>`| [Procedure ⚙️](<▶️ Script.md>) to [Run ▶️](<RUN ▶️.md>) when `False` | `IfFalse(X)`
     
     ```yaml
     # Multi-line actions: 
@@ -58,8 +58,8 @@
 
     | Argument| Purpose
     |-|-
-    | `<true-action>` | [Procedure ⚙️](<⚙️ Procedure.md>) or one-line [Command ⌘](<⌘ Command.md>) on `True`
-    | `<false-action>`| [Procedure ⚙️](<⚙️ Procedure.md>) or one-line [Command ⌘](<⌘ Command.md>) on `False`
+    | `<true-action>` | [Procedure ⚙️](<▶️ Script.md>) or one-line [Command ⌘](<⌘ Command.md>) on `True`
+    | `<false-action>`| [Procedure ⚙️](<▶️ Script.md>) or one-line [Command ⌘](<⌘ Command.md>) on `False`
 
 
     ```yaml
