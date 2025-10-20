@@ -90,7 +90,7 @@
     {/path/to/file} 
 
     # Dynamic paths
-    {{function}}
+    {/{function}}
     ```
 
     | Argument| Purpose
