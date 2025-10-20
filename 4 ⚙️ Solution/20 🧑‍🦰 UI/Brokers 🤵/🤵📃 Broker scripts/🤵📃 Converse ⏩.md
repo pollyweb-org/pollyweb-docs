@@ -21,9 +21,9 @@
     Domain: $locator.Host
 
 # Save the Host info
-- SAVE|Hosts@Broker >> $host:
-    Host: $domain.Domain
-    Host$: $domain.Name
+- SAVE|Domains@Broker:
+    Domain: $domain.Domain
+    Domain$: $domain.Name
     SmallIcon: $domain.SmallIcon
     BigIcon: $domain.BigIcon
 
@@ -62,8 +62,8 @@
     PrivateKey: $keys.PrivateKey
     Host: $chat.Host
     Host$: $chat.Host$
-    SmallIcon: $host.SmallIcon
-    BigIcon: $host.BigIcon
+    SmallIcon: $domain.SmallIcon
+    BigIcon: $domain.BigIcon
 
 # Update the Chats
 - RUN|⏩ UpdateChats
@@ -74,9 +74,9 @@
 
 |Needs | |
 |-|-
-| ⌘ Commands | [`GET`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET ⏬ item.md>) [`KEYS`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/KEYS 🔑.md>) [`SAVE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/SAVE 💾 item.md>) [`SEND`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for flows/.SEND 📬 msg.md>) [`RUN`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/RUN ▶️.md>)
-| 🅰️ Methods | [`Converse@Notifier`](<../../Notifiers 📣/📣🅰️ Notifier methods/2 💬 Chats/1 🤵🐌📣 Converse.md>) <br/>  [`Identity@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Identity.md>)  <br/> [`Translate@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>)
-| 🧠 [Placeholders](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/$Placeholder 🧠.md>) | [`$.Settings`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/$.Settings 🎛️.md>)
-| 📃 Scripts |[`UpdateChats`](<🤵📃 Update Chats 💬.md>)
-| 🪣 Tables | [`Chats`](<../🤵🪣 Broker tables/🤵🪣 Chats.md>) [`Hosts`](<../🤵🪣 Broker tables/🤵🪣 Hosts.md>)
+| [Commands ⌘](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | [`GET`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET ⏬ item.md>) [`KEYS`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/KEYS 🔑.md>) [`SAVE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/SAVE 💾 item.md>) [`SEND`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for flows/.SEND 📬 msg.md>) [`RUN`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/RUN ▶️.md>)
+| [Messages 📨](<../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Converse@Notifier`](<../../Notifiers 📣/📣🅰️ Notifier methods/2 💬 Chats/1 🤵🐌📣 Converse.md>) <br/>  [`Identity@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Identity.md>)  <br/> [`Translate@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>)
+| [Placeholders 🧠](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/$Placeholder 🧠.md>) | [`$.Settings`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/$.Settings 🎛️.md>)
+| [Scripts 📃](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/📃 Script.md>) |[`UpdateChats`](<🤵📃 Update Chats 💬.md>)
+| [Datasets 🪣](<../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Chats`](<../🤵🪣 Broker tables/🤵🪣 Chats.md>) [`Domains`](<../🤵🪣 Broker tables/🤵🪣 Domains.md>)
 |

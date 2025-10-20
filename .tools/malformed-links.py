@@ -1337,6 +1337,318 @@ def replace_chats_tokens(md_files):
     return total
 
 
+def replace_command_tokens(md_files):
+    """Replace '{{Command}}' (allowing optional inner spaces) with '[Command ⌘](<⌘ Command.md>)' in all md files."""
+    # Allow normal and unicode non-breaking/zero-width spaces around Command
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Command`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[Command ⌘](<⌘ Command.md>)"
+    total = 0
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+        new_content, n = pattern.subn(replacement, content)
+        if n > 0:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                total += n
+            except Exception:
+                pass
+    return total
+
+
+def replace_commands_tokens(md_files):
+    """Replace '{{Commands}}' (allowing optional inner spaces) with '[Commands ⌘](<⌘ Command.md>)' in all md files."""
+    # Allow normal and unicode non-breaking/zero-width spaces around Commands
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Commands`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[Commands ⌘](<⌘ Command.md>)"
+    total = 0
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+        new_content, n = pattern.subn(replacement, content)
+        if n > 0:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                total += n
+            except Exception:
+                pass
+    return total
+
+
+def replace_settings_tokens(md_files):
+    """Replace '{{$.Settings}}' (allowing optional inner spaces) with '[`$.Settings`](<$.Settings 🎛️.md>)' in all md files."""
+    # Allow normal and unicode non-breaking/zero-width spaces around $.Settings
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?\$\.Settings`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[`$.Settings`](<$.Settings 🎛️.md>)"
+    total = 0
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+        new_content, n = pattern.subn(replacement, content)
+        if n > 0:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                total += n
+            except Exception:
+                pass
+    return total
+
+
+def replace_placeholders_tokens(md_files):
+    """Replace '{{Placeholders}}' (allowing optional inner spaces) with '[Placeholders 🧠](<$Placeholder 🧠.md>)' in all md files."""
+    # Allow normal and unicode non-breaking/zero-width spaces around Placeholders
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Placeholders`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[Placeholders 🧠](<$Placeholder 🧠.md>)"
+    total = 0
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+        new_content, n = pattern.subn(replacement, content)
+        if n > 0:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                total += n
+            except Exception:
+                pass
+    return total
+
+
+def replace_domain_tokens(md_files):
+    """Replace '{{domain}}' (allowing optional inner spaces) with '[domain 👥](<👥 Domain.md>)' in all md files."""
+    # Allow normal and unicode non-breaking/zero-width spaces around domain
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?domain`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[domain 👥](<👥 Domain.md>)"
+    total = 0
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+        new_content, n = pattern.subn(replacement, content)
+        if n > 0:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                total += n
+            except Exception:
+                pass
+    return total
+
+
+def replace_domains_tokens(md_files):
+    """Replace '{{domains}}' (allowing optional inner spaces) with '[domains 👥](<👥 Domain.md>)' in all md files."""
+    # Allow normal and unicode non-breaking/zero-width spaces around domains
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?domains`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[domains 👥](<👥 Domain.md>)"
+    total = 0
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+        new_content, n = pattern.subn(replacement, content)
+        if n > 0:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                total += n
+            except Exception:
+                pass
+    return total
+
+
+def replace_dataset_tokens(md_files):
+    """Replace '{{Dataset}}' (allowing optional inner spaces) with '[Dataset 🪣](<🪣 Dataset.md>)' in all md files."""
+    # Allow normal and unicode non-breaking/zero-width spaces around Dataset
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Dataset`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[Dataset 🪣](<🪣 Dataset.md>)"
+    total = 0
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+        new_content, n = pattern.subn(replacement, content)
+        if n > 0:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                total += n
+            except Exception:
+                pass
+    return total
+
+
+def replace_datasets_tokens(md_files):
+    """Replace '{{Datasets}}' (allowing optional inner spaces) with '[Datasets 🪣](<🪣 Dataset.md>)' in all md files."""
+    # Allow normal and unicode non-breaking/zero-width spaces around Datasets
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Datasets`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[Datasets 🪣](<🪣 Dataset.md>)"
+    total = 0
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+        new_content, n = pattern.subn(replacement, content)
+        if n > 0:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                total += n
+            except Exception:
+                pass
+    return total
+
+
+def replace_message_tokens(md_files):
+    """Replace '{{Message}}' (allowing optional inner spaces) with '[Message 📨](<📨 Message.md>)' in all md files."""
+    # Allow normal and unicode non-breaking/zero-width spaces around Message
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Message`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[Message 📨](<📨 Message.md>)"
+    total = 0
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+        new_content, n = pattern.subn(replacement, content)
+        if n > 0:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                total += n
+            except Exception:
+                pass
+    return total
+
+
+def replace_messages_tokens(md_files):
+    """Replace '{{Messages}}' (allowing optional inner spaces) with '[Messages 📨](<📨 Message.md>)' in all md files."""
+    # Allow normal and unicode non-breaking/zero-width spaces around Messages
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Messages`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[Messages 📨](<📨 Message.md>)"
+    total = 0
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+        new_content, n = pattern.subn(replacement, content)
+        if n > 0:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                total += n
+            except Exception:
+                pass
+    return total
+
+
+def replace_schema_tokens(md_files):
+    """Replace '{{Schema}}' (allowing optional inner spaces) with '[Schema Code 🧩](<🧩 Schema Code.md>)' in all md files."""
+    # Allow normal and unicode non-breaking/zero-width spaces around Schema
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Schema`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[Schema Code 🧩](<🧩 Schema Code.md>)"
+    total = 0
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+        new_content, n = pattern.subn(replacement, content)
+        if n > 0:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                total += n
+            except Exception:
+                pass
+    return total
+
+
+def replace_schemas_tokens(md_files):
+    """Replace '{{Schemas}}' (allowing optional inner spaces) with '[Schema Codes 🧩](<🧩 Schema Code.md>)' in all md files."""
+    # Allow normal and unicode non-breaking/zero-width spaces around Schemas
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Schemas`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[Schema Codes 🧩](<🧩 Schema Code.md>)"
+    total = 0
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+        new_content, n = pattern.subn(replacement, content)
+        if n > 0:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                total += n
+            except Exception:
+                pass
+    return total
+
+
 def runit(project_directory):
 
 
@@ -1544,6 +1856,126 @@ def runit(project_directory):
             pass
     except Exception as e:
         print(f"Warning: failed replacing {{Chats}} tokens: {e}")
+
+    # Replace {{Command}} tokens
+    try:
+        replaced = replace_command_tokens(md_files)
+        if replaced:
+            print(f"Replaced {replaced} {{Command}} tokens ✅")
+        else:
+            pass
+    except Exception as e:
+        print(f"Warning: failed replacing {{Command}} tokens: {e}")
+
+    # Replace {{Commands}} tokens
+    try:
+        replaced = replace_commands_tokens(md_files)
+        if replaced:
+            print(f"Replaced {replaced} {{Commands}} tokens ✅")
+        else:
+            pass
+    except Exception as e:
+        print(f"Warning: failed replacing {{Commands}} tokens: {e}")
+
+    # Replace {{$.Settings}} tokens
+    try:
+        replaced = replace_settings_tokens(md_files)
+        if replaced:
+            print(f"Replaced {replaced} {{$.Settings}} tokens ✅")
+        else:
+            pass
+    except Exception as e:
+        print(f"Warning: failed replacing {{$.Settings}} tokens: {e}")
+
+    # Replace {{Placeholders}} tokens
+    try:
+        replaced = replace_placeholders_tokens(md_files)
+        if replaced:
+            print(f"Replaced {replaced} {{Placeholders}} tokens ✅")
+        else:
+            pass
+    except Exception as e:
+        print(f"Warning: failed replacing {{Placeholders}} tokens: {e}")
+
+    # Replace {{domain}} tokens
+    try:
+        replaced = replace_domain_tokens(md_files)
+        if replaced:
+            print(f"Replaced {replaced} {{domain}} tokens ✅")
+        else:
+            pass
+    except Exception as e:
+        print(f"Warning: failed replacing {{domain}} tokens: {e}")
+
+    # Replace {{domains}} tokens
+    try:
+        replaced = replace_domains_tokens(md_files)
+        if replaced:
+            print(f"Replaced {replaced} {{domains}} tokens ✅")
+        else:
+            pass
+    except Exception as e:
+        print(f"Warning: failed replacing {{domains}} tokens: {e}")
+
+    # Replace {{Dataset}} tokens
+    try:
+        replaced = replace_dataset_tokens(md_files)
+        if replaced:
+            print(f"Replaced {replaced} {{Dataset}} tokens ✅")
+        else:
+            pass
+    except Exception as e:
+        print(f"Warning: failed replacing {{Dataset}} tokens: {e}")
+
+    # Replace {{Datasets}} tokens
+    try:
+        replaced = replace_datasets_tokens(md_files)
+        if replaced:
+            print(f"Replaced {replaced} {{Datasets}} tokens ✅")
+        else:
+            pass
+    except Exception as e:
+        print(f"Warning: failed replacing {{Datasets}} tokens: {e}")
+
+    # Replace {{Message}} tokens
+    try:
+        replaced = replace_message_tokens(md_files)
+        if replaced:
+            print(f"Replaced {replaced} {{Message}} tokens ✅")
+        else:
+            pass
+    except Exception as e:
+        print(f"Warning: failed replacing {{Message}} tokens: {e}")
+
+    # Replace {{Messages}} tokens
+    try:
+        replaced = replace_messages_tokens(md_files)
+        if replaced:
+            print(f"Replaced {replaced} {{Messages}} tokens ✅")
+        else:
+            pass
+    except Exception as e:
+        print(f"Warning: failed replacing {{Messages}} tokens: {e}")
+
+    # Replace {{Schema}} tokens
+    try:
+        replaced = replace_schema_tokens(md_files)
+        if replaced:
+            print(f"Replaced {replaced} {{Schema}} tokens ✅")
+        else:
+            pass
+    except Exception as e:
+        print(f"Warning: failed replacing {{Schema}} tokens: {e}")
+
+    # Replace {{Schemas}} tokens
+    try:
+        replaced = replace_schemas_tokens(md_files)
+        if replaced:
+            print(f"Replaced {replaced} {{Schemas}} tokens ✅")
+        else:
+            pass
+    except Exception as e:
+        print(f"Warning: failed replacing {{Schemas}} tokens: {e}")
 
     # Finally, add emoji at table row start based on filename in upper links
     try:

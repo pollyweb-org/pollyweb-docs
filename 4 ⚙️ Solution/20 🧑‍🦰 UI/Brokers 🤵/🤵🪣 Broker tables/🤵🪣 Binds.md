@@ -15,13 +15,14 @@ Name: Binds
 Key: Bind
 Parents:
     Wallet: { Wallets.Wallet: Binds.Wallet }
-    Vault: { Vaults.Vault: Binds.Vault }
+    Vault: { Domains.Domain: Binds.Vault }
 ```
 
 
 | Link | Table | Contains
 |-|-|-
 | Parent    | [`Wallets` 🪣](<🤵🪣 Wallets.md>) | [Wallet 🧑‍🦰 app](<../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+|| [`Domains` 🪣](<🤵🪣 Domains.md>) | 
 |
 
 <br/>
