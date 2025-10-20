@@ -14,14 +14,14 @@ Name: Tokens
 Key: Token
 Parents:
     Wallet: { Wallets.Wallet: Tokens.Wallet }
-    Issuer: { Issuers.Issuer: Tokens.Issuer }
+    Issuer: { Domains.Domain: Tokens.Issuer }
 ```
 
 
 | Link | Table | Stores
 |-|-|-
 | Parent    | [`Wallets` 🪣](<🤵🪣 Wallets.md>) | [Wallets 🧑‍🦰](<../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) |
-|           | [`Issuers` 🪣](<🤵🪣 Issuers.md>) | [Issuer 🎴 domains](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)
+|           | [`Domains` 🪣](<🤵🪣 Domains.md>) | [domains 👥](<../../../40 👥 Domains/👥 Domain.md>)
 |
 
 <br/>

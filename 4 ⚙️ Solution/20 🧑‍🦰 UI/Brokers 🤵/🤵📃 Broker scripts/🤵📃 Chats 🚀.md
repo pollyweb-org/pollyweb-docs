@@ -18,11 +18,6 @@
 # Verify the signature
 - VERIFY|$.Msg|$wallet.PublicKey
 
-# Translate the hosts
-- SEND >> $translations:
-    Subject: Translate@Graph
-    Language: $wallet.Language
-    Domains: $wallet.Hosts
 
 # Add the titles
 - MERGE >> $chats:
@@ -49,4 +44,10 @@
 | 📬 [`SEND`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for flows/.SEND 📬 msg.md>) | Call [`Translate@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>)
 | 🎣 [`REEL`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/REEL 🎣.md>) | Respond to the [Synchronous Request 🚀](<../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Request Sync 🚀.md>)
 | 🔐 [`VERIFY`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/VERIFY 🔐 msg.md>) | Verify the  [Signature 🔏](<../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Signatures 🔏.md>) of the [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message.md>)
+|
+
+Needs ||
+|-|-
+| [Messages 📨](<../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`translate@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>)
+| [Datasets 🪣](<🪣 Dataset.md>) | [`Wallets` 🪣](<../🤵🪣 Broker tables/🤵🪣 Wallets.md>)
 |

@@ -16,13 +16,13 @@ Name: Chats
 Key: Chat
 Parents:
     Wallet: { Wallets.Wallet: Chats.Wallet }
-    Host: { Hosts.Host: Chats.Host }
+    Host: { Domains.Domain: Chats.Host }
 ```
 
 | Link | Table | Contains
 |-|-|-
 | Parents   | [`Wallets` 🪣](<🤵🪣 Wallets.md>) | [Wallets 🧑‍🦰](<../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
-|           | [`Hosts` 🪣](<🤵🪣 Hosts.md>) | [Host 🤗 domains](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)
+|           | [`Domains` 🪣](<🤵🪣 Domains.md>) | [domains 👥](<../../../40 👥 Domains/👥 Domain.md>)
 |
 
 <br/>
