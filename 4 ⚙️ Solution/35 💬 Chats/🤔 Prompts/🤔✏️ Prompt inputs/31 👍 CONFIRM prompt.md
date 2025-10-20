@@ -31,8 +31,8 @@
         Statement: <statement>
         
         # Specific optional properties
-        Then: Procedure|Command
-        Else: Procedure|Command
+        Then: Script|Command
+        Else: Script|Command
 
         # Generic optional properties
         Emoji: emoji
@@ -42,8 +42,8 @@
     
     | Argument| Purpose | Example
     |-|-|-
-    | `Then` | [Procedure ⚙️](<../../😃 Talkers/😃⚙️ Talker cmds/for control/▶️ Script.md>) or [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) on `True` | `INFO\|OK`
-    | `Else` | [Procedure ⚙️](<../../😃 Talkers/😃⚙️ Talker cmds/for control/▶️ Script.md>) or [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) on `False` | `INFO\|NOK`
+    | `Then` | [Script ▶️](<../../😃 Talkers/😃⚙️ Talker cmds/for control/▶️ Script.md>) or [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) on `True` | `INFO\|OK`
+    | `Else` | [Script ▶️](<../../😃 Talkers/😃⚙️ Talker cmds/for control/▶️ Script.md>) or [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) on `False` | `INFO\|NOK`
     | `Emoji` | Optional [alternative emoji 😶](<../🤔✏️ Prompt input features/14 😶 Input emojis.md>) | `😶`
     | `Details` | Optional [expandable details ⊕](<../🤔⚙️ Prompt features/3 ⊕ with Details.md>) | `Hint...`
     | `Appendix` | Optional [file attachment 📎](<../🤔⚙️ Prompt features/5 📎 with Appendix.md>) | `{/...}`

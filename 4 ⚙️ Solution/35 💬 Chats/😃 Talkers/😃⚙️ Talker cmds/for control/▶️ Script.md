@@ -1,27 +1,27 @@
-# ⚙️ Talker `<procedure>:`
+# ⚙️ Talker `<script>:`
 
 > Part of [Talker 😃](<../../😃 Talker.md>)
 
 <br/>
 
-1. **What's a Talker Procedure?**
+1. **What's a Talker Script?**
 
-    A [Procedure ⚙️](<⌘ Command.md>) executed sequentially.
+    A [Script ▶️](<⌘ Command.md>) executed sequentially.
 
     ---
     <br/>
 
-1. **What's the syntax of a Procedure?**
+1. **What's the syntax of a Script?**
    
     ```yaml
-    <procedure>:
+    <script>:
     - <command-1>
     - <command-n>
     ```
 
     | Argument| Purpose
     |-|-
-    | `<procedure>` | The name of the [Procedure ⚙️](<▶️ Script.md>).
+    | `<script>` | The name of the [Script ▶️](<▶️ Script.md>).
     | `<command-n>` | A [Command ⌘](<⌘ Command.md>)  to be executed.
     
     ```yaml
@@ -34,19 +34,19 @@
     <br/>
 
 
-1. **How to invoke a Procedure?**
+1. **How to invoke a Script?**
 
     |Context|Syntax
     |-|-
-    |▶️ [`RUN`](<RUN ▶️.md>)| Calls a procedure by name, then returns.
-    |⤵️ [`IF`](<IF ⤵️.md>) | Runs procedures for `True` and `False` evaluations.
-    | ⏯️ [`CASE`](<CASE ⏯️.md>) | Runs procedures for matching evaluations.
-    | ⏸️ [`WAIT`](<WAIT ⏸️.md>) | Runs procedures on signalled and timed out.
+    |▶️ [`RUN`](<RUN ▶️.md>)| Calls a [Script ▶️](<▶️ Script.md>) by name, then returns.
+    |⤵️ [`IF`](<IF ⤵️.md>) | Runs [Scripts ▶️](<▶️ Script.md>) for `True` and `False` evaluations.
+    | ⏯️ [`CASE`](<CASE ⏯️.md>) | Runs [Scripts ▶️](<▶️ Script.md>) for matching evaluations.
+    | ⏸️ [`WAIT`](<WAIT ⏸️.md>) | Runs [Scripts ▶️](<▶️ Script.md>) on signalled and timed out.
 
     ---
     <br/>
 
-1. **What's the syntax of a Procedure name?**
+1. **What's the syntax of a Script name?**
 
     No emojis nor special characters except dashes `-`, underscores `_`, and spaces ` `.
     * Emojis and special characters are reserved for current and future use.
