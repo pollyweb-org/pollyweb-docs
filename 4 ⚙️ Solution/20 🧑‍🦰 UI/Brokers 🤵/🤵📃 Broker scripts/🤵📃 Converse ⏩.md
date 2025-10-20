@@ -1,4 +1,4 @@
-# 🤵😃 Converse ⏩
+# 🤵📃 Converse ⏩
 
 > [Script 📃](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/📃 Script.md>) that implements [🤵⏩🧑‍🦰 Converse 💬](<../🤵⏩ Broker flows/🤵⏩🧑‍🦰 Converse 💬.md>)
 
@@ -8,11 +8,11 @@
 
 Assume `$wallet` and `$locator` placeholders from [🤵😃 `Assess` 🐌](<🤵📃 Assess 🐌.md>).
 
-> Continues from [🤵😃 `Assess` 🐌](<🤵📃 Assess 🐌.md>)
+> Continues from the [`Assess` 📃 script](<🤵📃 Assess 🐌.md>)
 
 
 ```yaml
-⏩ Converse:
+📃 Converse:
 
 # Get the default Graph from settings
 - GET >> $graph

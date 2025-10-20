@@ -1,6 +1,6 @@
 <!-- TODO: detail the relation with database -->
 
-# ⏬ Talker `GET` command
+# 😃⏬ Talker `GET` command
 
 > Part of [Talker 😃](<../../😃 Talker.md>)
 

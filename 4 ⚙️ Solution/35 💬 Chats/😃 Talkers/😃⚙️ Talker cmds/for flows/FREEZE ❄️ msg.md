@@ -1,4 +1,4 @@
-# ❄️ Talker `FREEZE` command 
+# 😃❄️ Talker `FREEZE` command 
 
 > Part of [Talker 😃](<../../😃 Talker.md>)
 

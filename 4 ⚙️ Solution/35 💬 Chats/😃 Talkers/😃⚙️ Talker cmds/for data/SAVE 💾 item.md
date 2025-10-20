@@ -1,6 +1,6 @@
 <!-- TODO: detail the relation with database -->
 
-# 💾 Talker `SAVE` command
+# 😃💾 Talker `SAVE` command
 
 > Part of [Talker 😃](<../../😃 Talker.md>)
 

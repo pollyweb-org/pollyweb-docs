@@ -1,4 +1,4 @@
-# 🤵😃 Chats 🚀 Broker
+# 🤵📃 Chats 🚀 Broker
 
 > [Script 📃](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/📃 Script.md>) that implements [`Chats@Broker`](<../🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🧑‍🦰🚀🤵 Chats.md>)
 
@@ -8,7 +8,7 @@
 ## Script
 
 ```yaml
-Chats@Broker 🚀:
+📃 Chats@Broker:
 
 # Get the wallet item
 - GET >> $wallet:

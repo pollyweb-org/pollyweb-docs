@@ -1,4 +1,4 @@
-# 🧠 Talker `$placeholder` 
+# 😃🧠 Talker `$placeholder` 
 
 > Part of [Talker 😃](<../../😃 Talker.md>)
 
