@@ -82,7 +82,11 @@ Body:
 
 ```yaml
 # Ask Finders to introduce Hosts
-- RUN|⏩ Introduce
+- SEND:
+    To: $wallet.Finder
+    Subject: Introduce@Finder
+    Chat: $chat.Chat
+    Host: $chat.Chat
 ```
 
 > Continues on [🔎⏩🧑‍🦰 Introduce 🤗](<../../../../50 🫥 Agent domains/Finders 🔎/🔎⏩ Finder flows/🔎⏩🧑‍🦰 Introduce 🤗.md>)
