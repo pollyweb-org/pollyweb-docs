@@ -1,6 +1,6 @@
 <!-- TODO: Add lists of commands. -->
 
-# 🤵▶️ Pop Token 🎫 
+# 🤵📃 Pop Token 🎫 
 
 > [Script 📃](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/📃 Script.md>) that implements [`Remove Token` 🎫 flow](<../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Tokens 🎫/💬🤵 Remove 🎫.md>)
 
@@ -12,7 +12,7 @@
 ## Script
 
 ```yaml
-▶️ PopToken:
+📃 PopToken:
 
 # Get the Token 🎫
 - GET|$wallet.Tokens|$.Msg.Body.Key >> $token
@@ -29,7 +29,7 @@
 Commands: [`CASE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/CASE ⏯️.md>) [`GET`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET ⏬ item.md>) [`ONE`](<../../../35 💬 Chats/🤔 Prompts/🤔✏️ Prompt inputs/53 1️⃣ ONE prompt.md>)  [`RUN`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/RUN ▶️.md>)
 
 ```yaml
-▶️ RemoveToken:
+📃 RemoveToken:
 
 # Ask for confirmation 🤔
 - CONFIRM|Remove token {$token.Title}?
@@ -68,7 +68,7 @@ Commands: [`CASE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/f
 
 
 ```yaml
-▶️ UndoRemoval:
+📃 UndoRemoval:
 
 # Cancel the soft delete.
 - UNDO|$delete

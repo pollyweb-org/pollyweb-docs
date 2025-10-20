@@ -1,4 +1,4 @@
- # 💳 Talker `CHARGE` command
+ # 😃💳 Talker `CHARGE` command
 
 > Automatically calls [FREEZE ❄️](<FREEZE ❄️ msg.md>)
  

@@ -1,4 +1,4 @@
-# 🤵▶️ Onboard script
+# 🤵📃 Onboard script
 
 > [Script 📃](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/📃 Script.md>) that implements [`Onboard@Broker` 🅰️ method](<../🤵🅰️ Broker methods/1 🤵🅰️ Wallets 🧑‍🦰/📣🚀🤵 Onboard.md>)
 
@@ -6,7 +6,11 @@
 
 ## Script
 
+<!-- TODO: Charge the Notifier -->
+
 ```yaml
+📃 Onboard:
+
 # Get the Notifier
 # GET|Notifiers@Broker|$.Msg.From >> $notifier
 

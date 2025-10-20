@@ -1,4 +1,4 @@
-# 🤵▶️ Pop 🐌
+# 🤵📃 Pop 🐌
 
 > [Script 📃](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/📃 Script.md>) that implements [`Pop@Broker` 🅰️ method](<../🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🧑‍🦰🐌🤵 Pop.md>)
 
@@ -7,6 +7,8 @@
 ## Script
 
 ```yaml
+📃 Pop: 
+
 # Get the Wallet 🧑‍🦰
 - GET|Wallets|$.Msg.Header.From >> $wallet
 

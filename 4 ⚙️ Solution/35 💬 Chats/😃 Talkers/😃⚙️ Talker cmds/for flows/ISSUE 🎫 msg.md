@@ -1,4 +1,4 @@
-# 🎫 Talker `ISSUE` command
+# 😃🎫 Talker `ISSUE` command
 
 > Part of [Talker 😃](<../../😃 Talker.md>)
 

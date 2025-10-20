@@ -2,7 +2,7 @@
 <!-- TODO: add details to soft delete -->
 
 
-# 🗑️ Talker `DELETE` command
+# 😃🗑️ Talker `DELETE` command
 
 > Part of [Talker 😃](<../../😃 Talker.md>)
 
@@ -65,16 +65,18 @@
 
 1. **What's the syntax for soft deletes?**
 
+    <!-- TODO: add the property explanations -->
+
     ```yaml
     DELETE|<pool>|<key>:
 
         Soft: <n> <days|hours|minutes|months>
 
-        OnSoft: 
+        OnSoft: <one-line-command>
             - <command-1>
             - <command-n>
 
-        OnHard:
+        OnHard: <one-line-command>
             - <command-1>
             - <command-n>
     ````

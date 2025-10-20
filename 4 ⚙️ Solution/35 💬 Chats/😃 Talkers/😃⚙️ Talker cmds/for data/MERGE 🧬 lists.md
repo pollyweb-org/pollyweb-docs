@@ -1,4 +1,4 @@
-# 🧬 Talker `MERGE` Command
+# 😃🧬 Talker `MERGE` Command
 
 > Part of [Talker 😃](<../../😃 Talker.md>)
 

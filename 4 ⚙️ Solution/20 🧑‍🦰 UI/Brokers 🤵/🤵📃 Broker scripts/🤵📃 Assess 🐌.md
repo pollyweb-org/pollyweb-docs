@@ -1,14 +1,13 @@
-# ▶️ Assess@Broker
+# 🤵📃 Assess@Broker
 
 > [Script 📃](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/📃 Script.md>) that implements [`Assess@Broker` 🅰️](<../🤵🅰️ Broker methods/2 🤵🅰️ Locators/🧑‍🦰🐌🤵 Assess.md>)
 
 
-<br/>
 
 ## Script
 
 ```yaml
-▶️ Access@Broker:
+📃 Access@Broker:
 
 # Get the Wallet item
 - GET|Wallets@Broker|$.Msg.From >> $wallet
