@@ -1035,6 +1035,36 @@ def replace_msg_tokens(md_files):
     return total
 
 
+###############################################
+# New feature: Replace {{Hosts}} with link to Host role.md
+###############################################
+
+def replace_hosts_tokens(md_files):
+    """Replace '{{Hosts}}' (allowing optional inner spaces) with '[Host 🤗 domains](<../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)' in all md files."""
+    # Allow normal and unicode non-breaking/zero-width spaces around Hosts
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Hosts`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[Host 🤗 domains](<../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)"
+    total = 0
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+        new_content, n = pattern.subn(replacement, content)
+        if n > 0:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                total += n
+            except Exception:
+                pass
+    return total
+
+
 def runit(project_directory):
 
 
@@ -1130,6 +1160,17 @@ def runit(project_directory):
             #print("No {{$.Msg}} tokens to replace.")
     except Exception as e:
         print(f"Warning: failed replacing {{$.Msg}} tokens: {e}")
+
+    # Replace {{Hosts}} tokens
+    try:
+        hosts_changes = replace_hosts_tokens(md_files)
+        if hosts_changes:
+            print(f"Replaced {hosts_changes} {{Hosts}} tokens ✅")
+        else:
+            pass
+            #print("No {{Hosts}} tokens to replace.")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Hosts}} tokens: {e}")
 
     # Finally, add emoji at table row start based on filename in upper links
     try:
