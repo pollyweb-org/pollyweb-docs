@@ -88,3 +88,10 @@
 
     ---
     <br/>
+
+1. **How do handled blocked tables?**
+
+    Raises a 409 HTTP error in a [Talker 😃](<../../😃 Talker.md>) when trying to update an [Itemized 🛢 dataset](<Itemized 🛢.md>) with the `NoUpdate` flag active - e.g. [`Grab@Printer`](<../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🅰️ Printer methods/👥🚀🖨️ Grab.md>).
+
+    ---
+    <br/>

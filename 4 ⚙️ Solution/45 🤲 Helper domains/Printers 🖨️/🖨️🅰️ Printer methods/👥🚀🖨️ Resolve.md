@@ -43,3 +43,22 @@ Property|Type|Description
 |-|-|-
 | Locator | string | [Locator 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) 
 |
+
+<br/>
+
+## Handler
+
+
+```yaml
+# Verify the signature.
+- VERIFY|$.Msg
+
+# Get from the table.
+- GET >> $alias:
+    Pool: Aliases@Printer
+    Key: $.Msg.Alias
+
+# Respond with the Locator.
+- REEL:
+    Locator: $alias.Locator
+```

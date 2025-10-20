@@ -9,7 +9,7 @@
 
     A `FILTER`
     * is a message [Command ⌘](<../for control/⌘ Command.md>) 
-    * that calls [`MANY` 🔠 prompt](<🤔✏️ Prompt inputs/54 🔠 MANY prompt.md>)
+    * that calls [`MANY` 🔠 prompt](<../../../🤔 Prompts/🤔✏️ Prompt inputs/54 🔠 MANY prompt.md>)
     * to return only the user-selected items of a list.
 
 
@@ -40,11 +40,11 @@
 
 1. **What's an example of a FILTER?**
 
-    Here's a [Chat 💬](<../../../4 ⚙️ Solution/35 💬 Chats/💬 Chats/💬 Chat.md>).
+    Here's a [Chat 💬](<../../../💬 Chats/💬 Chat.md>).
 
-    | [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../🧑‍🦰🛠️ Wallet app.md>)
+    | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
-    | 🤗 [Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 Which options? [All, No] <br/> - [ ] Some option <br/> - [ ] Another option | > All
+    | 🤗 [Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 Which options? [All, No] <br/> - [ ] Some option <br/> - [ ] Another option | > All
     ||
 
     <br/>
@@ -104,10 +104,10 @@
 
     | [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | Purpose
     |-|-
-    | ⬇️ [`EVAL`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/EVAL ⬇️ flow.md>) | Format the options
+    | ⬇️ [`EVAL`](<../for data/EVAL ⬇️ flow.md>) | Format the options
     | 🔠 [`MANY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/54 🔠 MANY prompt.md>) | Ask the user to select
     | 🧬 [`MERGE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/MERGE 🧬 lists.md>) | Merge the results
-    | ↩️ [`RETURN`](<RETURN ↩️.md>) | Return the selection
+    | ↩️ [`RETURN`](<../for control/RETURN ↩️.md>) | Return the selection
         
     
 
