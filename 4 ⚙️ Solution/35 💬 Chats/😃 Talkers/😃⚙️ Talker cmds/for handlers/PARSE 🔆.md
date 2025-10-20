@@ -1,4 +1,4 @@
-# 🔆 Talker `{.Parse}` function
+# 🔆 Talker `PARSE` command
 
 > Part of [Talker 😃](<../../😃 Talker.md>)
 
@@ -6,17 +6,17 @@
 
 <br/>
 
-1. **What's a `{.Parse}` function?**
+1. **What's a PARSE command?**
    
-   A `{.Parse}` 
-   * is a built-in [{Function}](<../for data/{Function} 🐍.md>)
-   * that returns information about a specific [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>).
+   A `PARSE` 
+   * is a handler [Command ⌘](<../for control/⌘ Command.md>) 
+   * that parses a [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>).
 
     ---
     <br/>
 
 
-1. **How to use a `{.Parse}` function?**
+1. **How to use a PARSE?**
 
     Consider the following [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) in a placeholder `$in`.
 
@@ -27,14 +27,15 @@
     Here's the [Talker 😃](<../../😃 Talker.md>).
 
     ```yaml
-    - EVAL|.Parse($in) >> $out
+    - PARSE|$in >> $out
     ```
 
-    Here's the properties returned.
+    Here's the properties returned by `$out`.
 
     | Expression| Result
     |-|-
     | `Schema`| `nlweb.dom/HOST:1.0`
+    | `IsAlias` | `False`
     | `Host`| `any-host.dom`
     | `Key`| `ANY-RESOURCE`
 

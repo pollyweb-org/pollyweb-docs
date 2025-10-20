@@ -53,7 +53,7 @@
 
 1. **How to assert a Locator?**
 
-    > This uses the syntax of the [`{.Parse}` 🔆 function](<{.Parse} 🔆.md>).
+    > This uses the syntax of the [`{.Parse}` 🔆 function](<PARSE 🔆.md>).
 
     ```yaml
     # Put the locator in a placeholder

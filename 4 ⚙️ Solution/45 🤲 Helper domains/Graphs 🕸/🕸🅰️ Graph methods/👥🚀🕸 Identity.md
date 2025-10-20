@@ -46,9 +46,6 @@ Feedback: any-buffer.dom
 Name: Any Other Domain, Inc.
 SmallIcon: <base64>
 BigIcon: <base64>
-Translations: 
-  - Language: en-us
-    Translation: Any Other Domain, Inc.
 ```
 
 |Object|Property|Type|Description
@@ -58,7 +55,4 @@ Translations:
 |           |`Name`         | string | Friendly name of the [domain 👥](<../../../40 👥 Domains/👥 Domain.md>)
 |           |`SmallIcon`    | string  | Small icon in Base64 PNG
 |           |`BigIcon`      | string  | Big icon in Base64 PNG
-|           |`Translations` | object[]| List of Translation objects
-|Translation|`Language`     | enum   | ISO language code
-|           |`Translation`  | string | Translated text
 |

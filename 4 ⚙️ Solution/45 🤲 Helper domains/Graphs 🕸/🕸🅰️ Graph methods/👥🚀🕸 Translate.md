@@ -26,10 +26,14 @@ Header:
 
 Body: 
     Language: en-us
-    Domains: 
-      - any-domain.dom
-    Schemas: 
-      - iata.org/SSR/WCHR
+
+    # Single item
+    Domain: any-domain.dom
+    Schema: iata.org/SSR/WCHR
+    
+    # Multiple items
+    Domains: [any-domain.dom]
+    Schemas: [iata.org/SSR/WCHR]
 ```
 
 |Object|Property|Type|Description
@@ -37,8 +41,10 @@ Body:
 | Header| `From`    | string | The name of the [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) asking
 |       | `To`      | string | [Graph 🕸 domain](<../🕸🤲 Graph helper.md>) name
 |       | `Subject` | string | `Translate@Graph`
-|Body   | `Domains`     | string[]  | The [domains 👥](<../../../40 👥 Domains/👥 Domain.md>) to translate
-|       | `Schemas`       | string[]  | The [Schema Codes 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to translate
+|Body   | `Domain`     | string  | The [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) to translate
+|| or `Domains`     | string[]  | The [domains 👥](<../../../40 👥 Domains/👥 Domain.md>) to translate
+|| `Schema`       | string  | The [Schema Code 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to translate
+|| or `Schemas`       | string[]  | The [Schema Codes 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to translate
 |
 
 <br/>
@@ -47,9 +53,18 @@ Body:
 ## Synchronous Response
 
 ```yaml
+# If single domain
+Domain: Example Airlines
+
+# If single Schema
+Schema: Wheelchair assistance required
+
+# If multiple domains
 Domains: 
   - Domain: example.com
     Translation: Example Airlines
+
+# If multiple schemas
 Schemas: 
   - Schema: iata.org/SSR/WCHR
     Translation: Wheelchair assistance required
@@ -57,8 +72,10 @@ Schemas:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Top    | `Domains`     | object[]  | List of [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) objects
-|       | `Schemas`       | object[]  | List of [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) objects
+|Top    | `Domain`      | string | Translated [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) 
+|       | or `Domains`     | object[]  | List of [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) objects
+|       | `Schema`      | string | Translated [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
+|       | or `Schemas`       | object[]  | List of [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) objects
 |Domain | `Domain`      | string    | The [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) name
 |       | `Translation` | string    | The [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) title
 |Code   | `Schema`        | string    | The [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
