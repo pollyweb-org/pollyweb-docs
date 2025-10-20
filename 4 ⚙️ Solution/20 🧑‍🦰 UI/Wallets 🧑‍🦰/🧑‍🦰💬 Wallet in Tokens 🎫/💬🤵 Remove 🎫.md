@@ -3,7 +3,7 @@
 
 > Implements a [Wallet 🧑‍🦰 app](<../🧑‍🦰🛠️ Wallet app.md>)
 
-> Implemented by [`Pop Token` ▶️ script](<../../Brokers 🤵/🤵📃 Broker scripts/🤵📃 Pop Token 🎫.md>)
+> Implemented by [`Pop Token` 📃 script](<../../Brokers 🤵/🤵📃 Broker scripts/🤵📃 Pop Token 🎫.md>)
 
 
 * When users ask their [Broker 🤵](<../../Brokers 🤵/🤵🤲 Broker helper.md>) to remove a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>),
