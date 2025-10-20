@@ -20,7 +20,8 @@ Parents:
 
 | Link | Table | Stores
 |-|-|-
-| Parent    | [`Wallets` 🪣](<🤵🪣 Wallets.md>) | [Wallet 🧑‍🦰 app](<../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+| Parent    | [`Wallets` 🪣](<🤵🪣 Wallets.md>) | [Wallets 🧑‍🦰](<../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) |
+|           | [`Issuers` 🪣](<🤵🪣 Issuers.md>) | [Issuer 🎴 domains](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)
 |
 
 <br/>
@@ -38,6 +39,7 @@ Here's the [`GET` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talke
 ```yaml
 # GET|Tokens|<token-uuid>
 Issuer: any-issuer.dom
+Issuer$: Any Issuer
 Key: <any-key>
 Path: /storage/nlweb/tokens/any-issuer.dom/<token-uuid>
 Schema: any-authority.dom/ANY-SCHEMA:1.0
