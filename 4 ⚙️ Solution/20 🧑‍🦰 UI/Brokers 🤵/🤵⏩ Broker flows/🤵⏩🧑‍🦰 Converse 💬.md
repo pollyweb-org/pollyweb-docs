@@ -2,7 +2,7 @@
 
 > Part of [🤵⏩🧑‍🦰 Assess @ Broker](<🤵⏩🧑‍🦰 Assess 🔆.md>)
 
-> Implemented by [🤵😃 `Converse` ⏩](<../🤵⚙️ Broker procedures/🤵😃 Converse ⏩.md>)
+> Implemented by [🤵😃 `Converse` ⏩](<../🤵▶️ Broker scripts/🤵▶️ Converse ⏩.md>)
 
 * Opens a new chat window in the app.
 
