@@ -1,14 +1,14 @@
 # 🤵😃 Converse ⏩
 
-> [Script ▶️](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/▶️ Script.md>) that implements [🤵⏩🧑‍🦰 Converse 💬](<../🤵⏩ Broker flows/🤵⏩🧑‍🦰 Converse 💬.md>)
+> [Script ▶️](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/📃 Script.md>) that implements [🤵⏩🧑‍🦰 Converse 💬](<../🤵⏩ Broker flows/🤵⏩🧑‍🦰 Converse 💬.md>)
 
 <br/>
 
 ## Script
 
-Assume `$wallet` and `$locator` placeholders from [🤵😃 `Assess` 🐌](<🤵▶️ Assess 🐌.md>).
+Assume `$wallet` and `$locator` placeholders from [🤵😃 `Assess` 🐌](<🤵📃 Assess 🐌.md>).
 
-> Continues from [🤵😃 `Assess` 🐌](<🤵▶️ Assess 🐌.md>)
+> Continues from [🤵😃 `Assess` 🐌](<🤵📃 Assess 🐌.md>)
 
 
 ```yaml

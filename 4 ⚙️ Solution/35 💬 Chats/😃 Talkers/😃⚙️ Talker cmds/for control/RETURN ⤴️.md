@@ -9,7 +9,7 @@
 
     A `RETURN` ⤴️
     * is a flow [Command ⌘](<⌘ Command.md>) 
-    * that leaves a [Script ▶️](<▶️ Script.md>) to its parent, 
+    * that leaves a [Script ▶️](<📃 Script.md>) to its parent, 
     * and returns one of the following expressions.
     
     |Expression|Examples
@@ -42,7 +42,7 @@
 
 1. **What happens after a RETURN?**
 
-    Nothing runs on a [Script ▶️](<▶️ Script.md>) after the `RETURN`.
+    Nothing runs on a [Script ▶️](<📃 Script.md>) after the `RETURN`.
 
     | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
