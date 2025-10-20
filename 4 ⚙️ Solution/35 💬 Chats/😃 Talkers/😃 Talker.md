@@ -11,7 +11,7 @@
 
     [Talkers 😃](<😃 Talker.md>) 
     * are YAML scripts to render dialogs in a [💬 Chat](<../💬 Chats/💬 Chat.md>)
-    * structured as [Commands ⌘](<😃⚙️ Talker cmds/for control/⌘ Command.md>) grouped in [Procedures ⚙️](<😃⚙️ Talker cmds/for control/▶️ Script.md>)
+    * structured as [Commands ⌘](<😃⚙️ Talker cmds/for control/⌘ Command.md>) grouped in [Scripts ▶️](<😃⚙️ Talker cmds/for control/▶️ Script.md>)
     * referencing [{Functions} 🐍](<😃⚙️ Talker cmds/for data/{Function} 🐍.md>) evaluated by [Hosted 📦 domains](<../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>)
     * and implemented by [Hoster ☁️ helper domains](<../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>).
     ---
@@ -40,8 +40,8 @@
 
     * `💬|<title>:`	
         * Top menu entry - i.e., the "what?"
-    * `<procedure>:`   
-        * Executable procedure.
+    * `<script>:`   
+        * Executable script.
     * [`{function}`](<😃⚙️ Talker cmds/for data/{Function} 🐍.md>)
         * Calculates the value with a function.
 

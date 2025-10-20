@@ -41,7 +41,7 @@
     |-|-|-
     | `Pool` | Name of resource pool | `MyPool`
     | `Key`  | Key to look up in the pool | `MyKey` `$key`
-    | `OnMissing` | [Command ⌘](<../for control/⌘ Command.md>) or [Procedure ⚙️](<../for control/▶️ Script.md>) | `Handler`
+    | `OnMissing` | [Command ⌘](<../for control/⌘ Command.md>) or [Script ▶️](<../for control/▶️ Script.md>) | `Handler`
     | `$item` | Item to retrieve
 
     ---

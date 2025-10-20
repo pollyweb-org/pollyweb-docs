@@ -9,7 +9,7 @@
 
     A `RETURN` ↩️
     * is a flow [Command ⌘](<⌘ Command.md>) 
-    * that leaves a [Procedure ⚙️](<▶️ Script.md>) to its parent, 
+    * that leaves a [Script ▶️](<▶️ Script.md>) to its parent, 
     * and returns one of the following expressions.
     
     |Expression|Examples
@@ -42,7 +42,7 @@
 
 1. **What happens after a RETURN?**
 
-    Nothing runs on a [Procedure ⚙️](<▶️ Script.md>) after the `RETURN`.
+    Nothing runs on a [Script ▶️](<▶️ Script.md>) after the `RETURN`.
 
     | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
@@ -65,7 +65,7 @@
 
     | [Command ⌘](<⌘ Command.md>) | Purpose
     |-|-
-    | ▶️ [RUN](<RUN ▶️.md>) | To run the procedures.
+    | ▶️ [RUN](<RUN ▶️.md>) | To run the scripts.
     
     ---
     <br/>
@@ -107,7 +107,7 @@
 
     | [Command ⌘](<⌘ Command.md>) | Purpose
     |-|-
-    | ▶️ [RUN](<RUN ▶️.md>) | To run the procedures.
+    | ▶️ [RUN](<RUN ▶️.md>) | To run the scripts.
 
     ---
     <br/>

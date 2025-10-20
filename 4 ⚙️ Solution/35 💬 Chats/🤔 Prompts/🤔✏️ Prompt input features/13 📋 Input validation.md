@@ -107,9 +107,9 @@
     get-code:
     - TEXT|What's the code? >> $code:
         Details: This is a 6 digit number
-    - IF|{IsInvalid($code)}|failure-proc
+    - IF|{IsInvalid($code)}|failure-script
 
-    failure-proc:
+    failure-script:
     - FAILURE|Enter a 6 digit number
     - RUN|get-code
     ```

@@ -9,7 +9,7 @@
 
     A `REPEAT` 🔁
     * is a flow [Command ⌘](<⌘ Command.md>) 
-    * that repeats it's enclosing [Procedure ⚙️](<▶️ Script.md>) 
+    * that repeats it's enclosing [Script ▶️](<▶️ Script.md>) 
     * either always or only when confirmed.
 
     ---
