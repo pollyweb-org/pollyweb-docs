@@ -1,5 +1,7 @@
 # 🧑‍🦰🐌🤵 Pop @ Broker
 
+> Implemented by [text](<../../🤵😃 Broker talkers/🤵😃 Pop 🐌.md>)
+
 * Opens a new [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) 
     * with the [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>)
     * with a given context.
@@ -42,26 +44,3 @@ Body:
 |       | `Key` | uuid   | Optional index for the context
 |
 
-<br/>
-
-## Handler
-
-```yaml
-# Get the Wallet 🧑‍🦰
-- GET|Wallets|$.Msg.Header.From >> $wallet
-
-# Verify the Message.
-- VERIFY|$.Msg|$wallet.PublicKey
-
-# Handle the context.
-- CASE|$.Msg.Body.Context:
-    TOKEN: TALK|PopToken
-    VAULT: TALK|PopVault
-    BIND : TALK|PopBind
-```
-
-|Talkers | Details
-|-|-
-| [`PopToken 🔆`](<../../🤵🔆 Broker locators/🤵🔆 Pop Token.md>) | Implements [🧑‍🦰💬🤵 Remove Token 🎫](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Tokens 🎫/💬🤵 Remove 🎫.md>)
-| [`PopVault 🔆`](<../../🤵🔆 Broker locators/🤵🔆 Pop Vault.md>) | Implements [🧑‍🦰💬🤵 Unbind Vault](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Vaults 🗄️/💬🤵 Unbind 🗄️.md>)
-|

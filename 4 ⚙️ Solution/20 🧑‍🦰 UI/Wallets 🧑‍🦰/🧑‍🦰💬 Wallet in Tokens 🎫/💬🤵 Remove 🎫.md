@@ -13,7 +13,7 @@
 
 ## Chat 💬
 
-> Implemented by [Pop Token 🔆 handler](<../../Brokers 🤵/🤵🔆 Broker locators/🤵🔆 Pop Token.md>).
+> Implemented by [Pop Token 🔆 handler](<../../Brokers 🤵/🤵😃 Broker talkers/🤵😃 Pop Token.md>).
 
 | [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
