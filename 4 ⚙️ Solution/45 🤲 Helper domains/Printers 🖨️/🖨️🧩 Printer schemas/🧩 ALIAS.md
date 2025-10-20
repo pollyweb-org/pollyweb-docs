@@ -4,7 +4,7 @@
 > Referenced in [`Assess@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/2 🤵🅰️ Locators/🧑‍🦰🐌🤵 Assess.md>).
 
 * Used in [Locators 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) 
-    * that need to be translated 
+    * that need to be resolved 
     * by a [Printer 🖨️ helper domain](<../🖨️🤲 Printer helper.md>).
 
 <br/>

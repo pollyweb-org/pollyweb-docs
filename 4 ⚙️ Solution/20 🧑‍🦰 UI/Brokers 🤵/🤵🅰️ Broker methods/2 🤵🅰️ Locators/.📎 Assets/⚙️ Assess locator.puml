@@ -9,7 +9,7 @@ participant "Finder 🔎\nvault" as finder
 
 
 activate wallet
-  wallet --> broker: Assess 🐌 {locator}
+  wallet --> broker: Assess 🐌 {hook, locator}
 deactivate wallet
 
 
@@ -26,7 +26,7 @@ activate broker
     end group
 
 
-    broker --> wallet: 2) ⏪ Converse {chat}
+    broker --> wallet: 2) ⏪ Converse {hook, chat}
 
     broker --> finder: 3) Introduce ⏩ {chat}
     deactivate broker

@@ -214,7 +214,7 @@
     NoUpdates: True  # it's False by default
     ```
 
-    Here's a [Talker 😃](<../../😃 Talker.md>) excerpt from [`Grab@Printer`](<../../../45 🤲 Helper domains/Printers 🖨️/🖨️🅰️. Printer methods/👥🚀🖨️ Grab.md>)
+    Here's a [Talker 😃](<../../../35 💬 Chats/😃 Talkers/😃 Talker.md>) excerpt from [`Grab@Printer`](<../../../45 🤲 Helper domains/Printers 🖨️/🖨️🅰️ Printer methods/👥🚀🖨️ Grab.md>)
 
     ```yaml
     SAVE|AnyTable:
