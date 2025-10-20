@@ -24,7 +24,7 @@
     |-|-
     | `<script>`| [Script ▶️](<▶️ Script.md>) to run.
     | `<arguments>`| Optional comma-separated arguments <br/>referenced by `{$position}` - e.g., `{$1}`
-    | `<result>`| Optional placeholder for a [`RETURN`](<RETURN ↩️.md>) result.
+    | `<result>`| Optional placeholder for a [`RETURN`](<RETURN ⤴️.md>) result.
     
     ---
     <br/>
@@ -160,7 +160,7 @@
     | [Command ⌘](<⌘ Command.md>) | Purpose
     |-|-
     | ⏯️️ [`CASE`](<CASE ⏯️.md>) | To decide which message to show.
-    | ↩️ [`RETURN`](<RETURN ↩️.md>) | To return the final result.
+    | ⤴️ [`RETURN`](<RETURN ⤴️.md>) | To return the final result.
 
 
 
@@ -198,7 +198,7 @@
 
     | [Command ⌘](<⌘ Command.md>) | Purpose
     |-|-
-    | ↩️ [`RETURN`](<RETURN ↩️.md>) | To calculate the value to return.
+    | ⤴️ [`RETURN`](<RETURN ⤴️.md>) | To calculate the value to return.
 
 
 

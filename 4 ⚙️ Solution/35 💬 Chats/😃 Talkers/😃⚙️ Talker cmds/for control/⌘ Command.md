@@ -113,7 +113,7 @@
     | ⤵️ [`IF`](<IF ⤵️.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script ▶️](<▶️ Script.md>) based on a [{Function}](<../for data/{Function} 🐍.md>).
     | 🪵 [`LOG`](<../for data/LOG 🪵 flow.md>) | Logs messages into the system handler.
     | 🔁 [`REPEAT`](<REPEAT 🔁.md>) | Repeats the current [Script ▶️](<▶️ Script.md>) with a confirmation.
-    | ↩️ [`RETURN`](<RETURN ↩️.md>) | Returns from a [Script ▶️](<▶️ Script.md>) with a result.
+    | ⤴️ [`RETURN`](<RETURN ⤴️.md>) | Returns from a [Script ▶️](<▶️ Script.md>) with a result.
     | ▶️ [`RUN`](<RUN ▶️.md>) | Runs a [Script ▶️](<▶️ Script.md>) and puts the result in a placeholder.
     | ⏸️ [`WAIT`](<WAIT ⏸️.md>) | Waits for a period of time or until signaled.
 

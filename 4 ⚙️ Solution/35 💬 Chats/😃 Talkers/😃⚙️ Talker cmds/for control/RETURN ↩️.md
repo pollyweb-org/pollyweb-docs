@@ -1,4 +1,4 @@
-# ↩️ Talker `RETURN` flow 
+# ⤴️ Talker `RETURN` flow 
 
 > Part of [Talker 😃](<../../😃 Talker.md>)
 
@@ -7,7 +7,7 @@
 
 1. **What's a RETURN flow?**
 
-    A `RETURN` ↩️
+    A `RETURN` ⤴️
     * is a flow [Command ⌘](<⌘ Command.md>) 
     * that leaves a [Script ▶️](<▶️ Script.md>) to its parent, 
     * and returns one of the following expressions.

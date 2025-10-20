@@ -202,7 +202,7 @@
     | ⬇️ [`EVAL`](<../for data/EVAL ⬇️ flow.md>) | To generate a random number a subtract tries.
     | ↕️ [`QUANTITY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/42 ↕️ QUANTITY prompt.md>) | To collect the number input.
     | 🔁 [`REPEAT`](<REPEAT 🔁.md>) | To allow for additional tries.
-    | ↩️ [`RETURN`](<RETURN ↩️.md>) | To return the result from the loop.
+    | ⤴️ [`RETURN`](<RETURN ⤴️.md>) | To return the result from the loop.
     | ⏯️️ [`CASE`](<CASE ⏯️.md>) | To check the if the user won or lost.    
 
 
