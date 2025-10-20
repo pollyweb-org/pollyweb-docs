@@ -40,8 +40,8 @@
     | `<key>`  | Unique device key in the pool
     | `<script>` | Message to send to the device
     | `$result` | The response returned by the [Relayer 🛰️](<../../../../45 🤲 Helper domains/Relayers 🛰️/🛰️🤲 Relayer helper.md>)
-    | `<failure>` | [Script ▶️](<../for control/📃 Script.md>) or [Command ⌘](<../for control/⌘ Command.md>) to run on failure
-    | `<success>` | [Script ▶️](<../for control/📃 Script.md>) or [Command ⌘](<../for control/⌘ Command.md>) to run on success
+    | `<failure>` | [Script 📃](<../for control/📃 Script.md>) or [Command ⌘](<../for control/⌘ Command.md>) to run on failure
+    | `<success>` | [Script 📃](<../for control/📃 Script.md>) or [Command ⌘](<../for control/⌘ Command.md>) to run on success
 
     ---
     <br/>

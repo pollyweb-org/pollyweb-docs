@@ -1,4 +1,4 @@
-# 🔁 Talker `REPEAT` flow 
+# 😃🔁 Talker `REPEAT` flow 
 
 > Part of [Talker 😃](<../../😃 Talker.md>)
 
@@ -9,7 +9,7 @@
 
     A `REPEAT` 🔁
     * is a flow [Command ⌘](<⌘ Command.md>) 
-    * that repeats it's enclosing [Script ▶️](<📃 Script.md>) 
+    * that repeats it's enclosing [Script 📃](<📃 Script.md>) 
     * either always or only when confirmed.
 
     ---

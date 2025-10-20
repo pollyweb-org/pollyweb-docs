@@ -1,4 +1,4 @@
-# ⏸️ Talker `WAIT` flow 
+# 😃⏸️ Talker `WAIT` flow 
 
 > Part of [Talker 😃](<../../😃 Talker.md>)
 

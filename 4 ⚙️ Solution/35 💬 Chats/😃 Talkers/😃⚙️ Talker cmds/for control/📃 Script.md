@@ -1,4 +1,4 @@
-# ▶️ Talker `Script:`
+# 😃📃 Talker `Script:`
 
 > Part of [Talker 😃](<../../😃 Talker.md>)
 
@@ -6,7 +6,7 @@
 
 1. **What's a Talker Script?**
 
-    A [Script ▶️]() 
+    A [Script 📃]() 
     * is a set of [Commands ⌘](<⌘ Command.md>) 
     * executed sequentially in a block.
 
@@ -23,7 +23,7 @@
 
     | Argument| Purpose
     |-|-
-    | `<script>` | The name of the [Script ▶️](<📃 Script.md>).
+    | `<script>` | The name of the [Script 📃](<📃 Script.md>).
     | `<command-n>` | A [Command ⌘](<⌘ Command.md>)  to be executed.
     
     ```yaml
@@ -40,10 +40,10 @@
 
     |Context|Syntax
     |-|-
-    |▶️ [`RUN`](<RUN ▶️.md>)| Calls a [Script ▶️](<📃 Script.md>) by name, then returns.
-    |⤵️ [`IF`](<IF ⤵️.md>) | Runs [Scripts ▶️](<📃 Script.md>) for `True` and `False` evaluations.
-    | ⏯️️ [`CASE`](<CASE ⏯️.md>) | Runs [Scripts ▶️](<📃 Script.md>) for matching evaluations.
-    | ⏸️ [`WAIT`](<WAIT ⏸️.md>) | Runs [Scripts ▶️](<📃 Script.md>) on signalled and timed out.
+    |▶️ [`RUN`](<RUN ▶️.md>)| Calls a [Script 📃](<📃 Script.md>) by name, then returns.
+    |⤵️ [`IF`](<IF ⤵️.md>) | Runs [Scripts 📃](<📃 Script.md>) for `True` and `False` evaluations.
+    | ⏯️️ [`CASE`](<CASE ⏯️.md>) | Runs [Scripts 📃](<📃 Script.md>) for matching evaluations.
+    | ⏸️ [`WAIT`](<WAIT ⏸️.md>) | Runs [Scripts 📃](<📃 Script.md>) on signalled and timed out.
 
     ---
     <br/>

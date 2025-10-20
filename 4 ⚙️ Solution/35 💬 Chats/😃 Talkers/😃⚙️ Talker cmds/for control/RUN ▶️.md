@@ -1,4 +1,4 @@
-# ▶️ Talker `RUN` flow 
+# 😃▶️ Talker `RUN` flow 
 
 > Part of [Talker 😃](<../../😃 Talker.md>)
 
@@ -9,7 +9,7 @@
 
     A `RUN` ▶️
     * is a flow [Command ⌘](<⌘ Command.md>) 
-    * that runs a  [Script ▶️](<📃 Script.md>).
+    * that runs a  [Script 📃](<📃 Script.md>).
 
     ---
     <br/>
@@ -22,7 +22,7 @@
 
     | Argument| Purpose
     |-|-
-    | `<script>`| [Script ▶️](<📃 Script.md>) to run.
+    | `<script>`| [Script 📃](<📃 Script.md>) to run.
     | `<arguments>`| Optional comma-separated arguments <br/>referenced by `{$position}` - e.g., `{$1}`
     | `<result>`| Optional placeholder for a [`RETURN`](<RETURN ⤴️.md>) result.
     

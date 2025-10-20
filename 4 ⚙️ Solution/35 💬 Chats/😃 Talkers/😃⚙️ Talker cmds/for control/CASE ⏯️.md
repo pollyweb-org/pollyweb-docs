@@ -1,4 +1,4 @@
-# ⏯️️ Talker `CASE` flow 
+# 😃⏯️️ Talker `CASE` flow 
 
 > Part of [Talker 😃](<../../😃 Talker.md>)
 
@@ -9,7 +9,7 @@
 
     A `CASE` ⏯️️
     * is a flow [Command ⌘](<⌘ Command.md>)  
-    * that runs a matching [Script ▶️](<📃 Script.md>) or [Command ⌘](<⌘ Command.md>) 
+    * that runs a matching [Script 📃](<📃 Script.md>) or [Command ⌘](<⌘ Command.md>) 
     * based on the evaluation of a [{Function}](<../for data/{Function} 🐍.md>).
 
     ---
@@ -30,7 +30,7 @@
     || Allows for missing `{}` in functions | `f()` `$p`
     || Defaults to the last [input prompt ✏️](<../../../🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>) | `TEXT\|Id?`
     | `<value>`| Static value to be matched with. | `ABC`
-    | `<action>`| Run a [Script ▶️](<📃 Script.md>) | `MyProc`
+    | `<action>`| Run a [Script 📃](<📃 Script.md>) | `MyProc`
     || or a one-line [Command ⌘](<⌘ Command.md>). | `INFO\|OK`
     
 
