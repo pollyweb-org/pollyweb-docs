@@ -14,8 +14,14 @@
 ```yaml
 📃 PopToken:
 
+# Verify inputs
+- ASSERT:
+    - :Token
+
 # Get the Token 🎫
-- GET|$wallet.Tokens|$.Msg.Body.Key >> $token
+- GET >> $token:
+    Pool: $wallet.Tokens
+    Key: :Token
 
 # Ask for an action.
 - ONE|What do you need?:
@@ -26,7 +32,7 @@
     Remove: RUN|RemoveToken
 ```
 
-Commands: [`CASE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/CASE ⏯️.md>) [`GET`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET ⏬ item.md>) [`ONE`](<../../../../35 💬 Chats/🤔 Prompts/🤔✏️ Prompt inputs/53 1️⃣ ONE prompt.md>)  [`RUN`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/RUN ▶️.md>)
+Commands: [`ASSERT`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/ASSERT 🚦.md>) [`CASE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/CASE ⏯️.md>) [`GET`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET ⏬ item.md>) [`ONE`](<../../../../35 💬 Chats/🤔 Prompts/🤔✏️ Prompt inputs/53 1️⃣ ONE prompt.md>)  [`RUN`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/RUN ▶️.md>)
 
 ```yaml
 📃 RemoveToken:

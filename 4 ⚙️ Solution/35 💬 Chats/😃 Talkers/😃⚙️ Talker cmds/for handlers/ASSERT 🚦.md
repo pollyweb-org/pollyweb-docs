@@ -20,18 +20,52 @@
 1. **What's the syntax of ASSERT?**
 
     ```yaml
+    # Comparisons
     ASSERT|$object:
-
-        # Comparisons
         - {value-1} {comparison} {value-2} 
+    ```
+    
+    | Argument| Purpose | Examples
+    |-|-|-
+    | `$object`| Optional initial context | `$.Msg` `$1`
+    | `{value}` | String or [{Function}](<../for data/{Function} 🐍.md>) evaluated | `A` `{f}` `{$p}`
+    || Supports missing `{}`  | `f()` `$p`
+    | `{comparison}` | `=` `~=` `!=` `>` `>=` `<` `<=` 
+    
+    <br/>
 
-        # Boolean assertions
-        - {boolean-value}       
+    ```yaml
+    # Boolean assertions
+    ASSERT|$object:
+        - {boolean}       
+    ```
+    
+    | Argument| Purpose | Examples
+    |-|-|-
+    | `{boolean}` | ✅ Valid for meaningful values | `1` `-1` `True` `A`
+    || ❌ Fails on empty meanings | `0` `False` `$p=`
+    
+    <br/>
+
+    ```yaml
+    # Empty or missing assertions
+    ASSERT|$object:
+        - {empty-array}   
+        - {empty-object}  
+    ```
+    
+    | Argument| Purpose | Examples
+    |-|-|-
+    | `{empty-array}` | ✅ Valid for arrays with values | `[0]` `[*]` |
+    | | ❌ Fails on empty arrays  | `[]` `$p=`
+    | `{empty-object}` | ✅ Valid for objects with values | `{A:0}`
+    | | ❌ Fails on empty objects | `{}` `$p=`
+
+
+    ```yaml
+    ASSERT|$object:
+        One:         
         
-        # Empty or missing assertions
-        - {empty-value}   
-        - {empty-array-value}   
-        - {empty-object-value}  
     ```
     
     | Argument| Purpose | Examples
@@ -55,8 +89,8 @@
     |Situation | Behavior
     |-|-
     | `Comparisons` | The left of the operator maps to the `$object`
-    |               | The right side is evaluated with [{Functions} 🐍](<{Function} 🐍.md>)
-    | `Single value` | No [{Functions} 🐍](<{Function} 🐍.md>); all is mapped to `$object` 
+    |               | The right side is evaluated with [{Functions} 🐍](<../for data/{Function} 🐍.md>)
+    | `Single value` | No [{Functions} 🐍](<../for data/{Function} 🐍.md>); all is mapped to `$object` 
 
     ---
     <br/>
