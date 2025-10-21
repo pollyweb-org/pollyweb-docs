@@ -2,12 +2,14 @@
 
 # 🧑‍🦰🚀🤵 Binds @ Broker
 
-* List the [Binds 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) of a [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
+> List the [Binds 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) of a [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
 
-* Used in:
-  * [🧑‍🦰👉🤵 Translate](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/💬🤵 Translate.md>)
-  * [🧑‍🦰👉🤵 List binds](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/💬🤵 List Binds 🔗.md>)
-  * [🤵⏩🧑‍🦰 Update Binds 🔗](<../../🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Binds 🔗.md>)
+> Implemented by [`Binds` 📃 script](<../../🤵📃 Broker scripts/🤵📃 Binds 🔗.md>)
+
+> Used in:
+* [`Translate` 💬 chat](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/💬🤵 Translate.md>)
+* [`List binds` 💬 chat](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/💬🤵 List Binds 🔗.md>)
+* [`Update Binds` ⏩ flow](<../../🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Binds 🔗.md>)
 
 <br/>
 
@@ -49,65 +51,4 @@ Binds:
 |          | `Vault$`| string| [Vault 🗄️ domain](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) title
 |          | `Schema`     | string| [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 |          | `Schema$`| string| [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) title
-|
-
-
-
-<br/>
-
-## Handler
-
-```yaml
-# The the wallet item
-- GET >> $wallet:
-    Pool: Wallets@Broker
-    Key: $.Msg.From
-
-# Verify the signature
-- VERIFY|$.Msg|$wallet.PublicKey
-
-# Translate the vaults and the schemas
-- SEND >> $translations:
-    Subject: Translate@Graph
-    Language: $wallet.Language
-    Domains: $wallet.Vaults
-    Schemas: $wallet.BindSchemas
-
-# Add the vault titles
-- MERGE >> $binds:
-    Lists: 
-        BINDS: $wallet.Binds
-        DOMAINS: $translations.Domains
-    Match: 
-        BINDS.Vault: DOMAINS.Domain
-    Output: 
-        Bind: BINDS.Bind
-        Vault: BINDS.Vault
-        Vault$: DOMAINS.Translation
-        Schema: BINDS.Schema
-        
-# Add the schema titles
-- MERGE >> $binds:
-    Lists: 
-        BINDS: $binds
-        SCHEMAS: $translations.Schemas
-    Match: 
-        BINDS.Schema: SCHEMAS.Schema
-    Output: 
-        :BINDS:
-        Schema$: SCHEMAS.Translation
-
-# Respond
-- REEL:
-    Binds: $binds
-```
-
-| [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | Purpose
-|-|-
-| 📨 [`$.Msg`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/$.Msg 📨.md>) | Read the incoming [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>)
-| ⏬ [`GET`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET ⏬ item.md>) | Get the [Wallet 🪣 item](<../../🤵🪣 Broker tables/🤵🪣 Wallets.md>)
-| 🔐 [`VERIFY`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/VERIFY 🔐 msg.md>) | Verify the  [Signature 🔏](<../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Signatures 🔏.md>) of the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>)
-| 📬 [`SEND`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for flows/.SEND 📬 msg.md>) | Call [`Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>)
-| 🧬 [`MERGE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/MERGE 🧬 lists.md>) | Add the translations to the dataset
-| 🎣 [`REEL`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/REEL 🎣.md>) | Respond to the [Synchronous Request 🚀](<../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Request Sync 🚀.md>)
 |

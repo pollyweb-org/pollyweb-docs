@@ -1,12 +1,14 @@
 # 🧑‍🦰🐌💼 Receive @ Consumer
 
+> Implemented by the [`Receive` 📃 script](<../💼📃 Consumer scripts/💼📃 Receive.md>)
 
-> Part of the [💼⏩🧑‍🦰 Share Token @ Consumer](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Prompts 🤔/👉💼 Share Token 🎫.md>) flow
+> Part of the [`Share Token` ⏩ flow](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Prompts 🤔/👉💼 Share Token 🎫.md>) 
 
-> Succeeds [`Share@Notifier`](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/2 🤵🐌📣 Share.md>)
+> Succeeds the [`Share@Notifier` 🅰️ method](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/2 🤵🐌📣 Share.md>)
 
+> Purpose:
 
-> [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) send [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) to a [Consumer 💼 domain](<../💼🎭 Consumer role.md>).
+* [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) send [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) to a [Consumer 💼 domain](<../💼🎭 Consumer role.md>).
 
 
 
@@ -38,34 +40,7 @@ Body:
 | | ... | ... | Other [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) fields
 |
 
-<br/>
 
-## Handler
-
-```yaml
-# Resolve the callback
-- GET|Hooks@Talker|$.Msg.Hook >> $hook
-
-# Get the chat
-- GET|Chats@Host|$hook.Chat >> $chat
-
-# Verify the Wallet signature
-- VERIFY|$.Msg|$chat.PublicKey
-
-# Process each Bind
-- PARALLEL|$.Msg.Binds|$bind:
-
-    # Save each Bind
-    - SAVE|Binds@Vault:
-        Broker: $.Msg.From
-        Bind: $bind.Bind
-        Schema: $bind.Schema
-        User: $chat.User
-
-# Continue the Chat
-- REEL|$hook:
-    $.Msg.Binds
-```
 
 <br/>
 
