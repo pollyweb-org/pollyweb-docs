@@ -39,7 +39,7 @@
 
 # Create a new Chat
 - SAVE|Chats@Broker >> $chat:
-    Chat: {.UUID}
+    Chat: .UUID()
     Wallet: $wallet.Wallet
     # Host info
     Host: $locator.Host

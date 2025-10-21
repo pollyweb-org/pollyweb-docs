@@ -1,5 +1,7 @@
 # 😃🔗 Talker `BIND` command
 
+> Implemented by the [`.BIND` 📃 script](<../../😃📃 Talker scripts/😃📃 .BIND.md>)
+
 > Part of [Talker 😃](<../../😃 Talker.md>)
 
 <br/>
@@ -21,7 +23,7 @@
     | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
     | 🗄️ [Vault](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) |  😃 Hi! What do you need? <br/>- [ Bind ]  | > Bind
-    | 🤵 [Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | 🫥 [Bind?](<BIND 🔗 msg.md>) [Yes, No] <br/> -  Some schema code 🧩 <br/> - Some other schema code 🧩 | > Yes
+    | 🤵 [Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | 🫥 [Bind?](<BIND 🔗 msg.md>) [Yes, No] <br/> -  Some schema 🧩 <br/> - Some other schema 🧩 | > Yes
     | 🗄️ [Vault](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) | ✅ [Done!](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
 
     ---
@@ -36,7 +38,7 @@
     | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
     | 🗄️ [Vault](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) |  😃 Hi! What do you need? <br/>- [ Bind ]  | > Bind
-    | 🤵 [Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | 🫥 [Bind?](<BIND 🔗 msg.md>) [All, No] <br/> - [ ] Some schema code 🧩 <br/> - [ ] Some other schema code 🧩 | > All
+    | 🤵 [Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | 🫥 [Bind?](<BIND 🔗 msg.md>) [All, No] <br/> - [ ] Some schema 🧩 <br/> - [ ] Some other schema 🧩 | > All
     | 🗄️ [Vault](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) | ✅ [Done!](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
 
     ---
@@ -47,18 +49,18 @@
 
 
     ```yaml
-    # For a single required code.
-    - BIND|<code> 
+    # For a single required schema.
+    - BIND|<schema> 
     - SUCCESS|Bound!
     ```
 
     | Argument| Purpose 
     |-|-
-    | `<code>` | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>) 
+    | `<schema>` | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>) 
 
     ```yaml
-    # For a single optional code.
-    - BIND|code >> $bound
+    # For a single optional schema.
+    - BIND|schema >> $bound
     - IF|$bound:
         Then: SUCCESS|Bound.
         Else: FAILURE|Not bound.
@@ -71,14 +73,14 @@
     ```yaml
     # For multiple optional static codes.
     BIND >> $bound:
-        - <code-1>
-        - <code-n>
+        - <schema-1>
+        - <schema-n>
     ```
 
    
     | Argument| Purpose
     |-|-
-    | `<code-n>` | Array of [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) sent on [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)
+    | `<schema-n>` | Array of [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) sent on [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)
     | `$bound`  | Array of [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) received on [`Bound@Vault`](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/to Bind/🤵🐌🗄️ Bound.md>)
 
 
@@ -96,7 +98,7 @@
     ---
     <br/>
 
-1. **What does the dot mean in a code?**
+1. **What does the dot mean in a schema?**
 
     Given that the [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) defined by `nlweb.dom` will be widely used, 
     * [Talkers 😃](<../../😃 Talker.md>) accept a dot as a prefix of `nlweb.dom/`.
@@ -104,6 +106,8 @@
 
         ```yaml
         BIND|.IDENTITY/OVER21
+        ```
+        ```yaml
         BIND|nlweb.dom/IDENTITY/OVER21
         ```
 
@@ -115,9 +119,13 @@
    ```yaml
    # 😃 Talker 
    💬 Bind:
+
+   # Offer multiple binds.
    - BIND >> $bound:
        - some-authority.com/SOME-CODE
        - another-authority.com/ANOTHER-CODE
+
+   # Verify it any was bound.
    - IF|$bound:
        Then: SUCCESS|Your wallet is bound.
        Else: FAILURE|Not bounded.
@@ -136,8 +144,14 @@
    ```yaml
    # 😃 Talker 
    💬 Bind:
-   - EVAL|GetBindableCodes >> $bindable
+
+   # Calculate the schemas in code
+   - EVAL|GetBindables >> $bindable
+
+   # Offer the binds
    - BIND|$bindable >> $bound
+
+   # Check if any was bound
    - IF|$bound:
        Then: SUCCESS|Your wallet is bound.
        Else: FAILURE|Not bounded.
@@ -148,23 +162,3 @@
    ---
    <br/>
 
-
-1. **What's the internal logic?**
-
-    ```yaml
-    # Save the callback hook
-    - SAVE|Hooks@Talker >> hook:
-        Hook: 
-        Chat: 
-
-    - SEND:
-
-    ```
-
-    |Needs ||
-    |-|-
-    | [Commands ⌘](<../for control/⌘ Command.md>)
-    | [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Hook@Talker`](<../../😃🪣 Talker tables/😃🪣 Hooks 🪝.md>)
-    | [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`bindable@broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)
-    | [Placeholders 🧠](<../for data/$Placeholder 🧠.md>) | [`$.Chat`](<../for data/$.Chat 💬.md>)
-    |
