@@ -6,9 +6,9 @@
 
 ## Script
 
-> Assumes `$wallet` and `$locator` placeholders from the [`Assess` 📃 script](<🤵📃 Assess 🐌.md>).
+> Assumes `$wallet` and `$locator` placeholders from the [`Assess` 📃 script](<🤵📃 Assess 🔆.md>).
 
-> Continues from the [`Assess` 📃 script](<🤵📃 Assess 🐌.md>)
+> Continues from the [`Assess` 📃 script](<🤵📃 Assess 🔆.md>)
 
 
 ```yaml

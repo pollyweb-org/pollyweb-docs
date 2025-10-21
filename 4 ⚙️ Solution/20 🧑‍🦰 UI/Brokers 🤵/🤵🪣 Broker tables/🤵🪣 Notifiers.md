@@ -1,6 +1,6 @@
 # 🤵🪣 Notifiers
 
-> Contains [Notifier 📣 domains](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣👥 Notifier domain.md>)
+> Contains [Notifier 📣 domains](<../../Notifiers 📣/📣👥 Notifier domain.md>)
 
 <br/>
 

@@ -32,7 +32,7 @@ Distincts:
 
 | Link | Table | Contains
 |-|-|-
-| Parent | [`Notifiers` 🪣](<🤵🪣 Notifiers.md>) | [Notifier 📣 domain](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣👥 Notifier domain.md>)
+| Parent | [`Notifiers` 🪣](<🤵🪣 Notifiers.md>) | [Notifier 📣 domain](<../../Notifiers 📣/📣👥 Notifier domain.md>)
 | Children | [`Chats` 🪣](<🤵🪣 Chats.md>) | [Chats 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>)
 | | [`Binds` 🪣](<🤵🪣 Binds.md>) | [Binds 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
 | | [`Tokens` 🪣](<🤵🪣 Tokens.md>) | [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)

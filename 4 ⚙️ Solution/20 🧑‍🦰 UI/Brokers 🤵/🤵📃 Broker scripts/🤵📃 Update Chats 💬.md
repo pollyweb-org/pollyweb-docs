@@ -3,7 +3,7 @@
 
 ## Script
 
-> Assumes `$wallet` and `$locator` placeholders from the [`Assess@Broker` 📃 script](<🤵📃 Assess 🐌.md>).
+> Assumes `$wallet` and `$locator` placeholders from the [`Assess@Broker` 📃 script](<🤵📃 Assess 🔆.md>).
 
 > Continues from the [`Converse` 📃 script](<../🤵📃 Broker scripts/🤵📃 Converse ⏩.md>)
 
