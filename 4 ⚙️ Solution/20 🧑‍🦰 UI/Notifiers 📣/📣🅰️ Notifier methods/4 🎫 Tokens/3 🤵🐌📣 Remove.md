@@ -1,7 +1,7 @@
 
 # 🤵🐌📣 Revoked @ [Notifier](<../../📣👥 Notifier domain.md>)
 
-> Used in [🧑‍🦰👉🤵 Remove token](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Tokens 🎫/💬🤵 Remove 🎫.md>).
+> Used in [🧑‍🦰👉🤵 Remove token](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/🧑‍🦰💬 Wallet in Tokens 🎫/💬🤵 Remove 🎫.md>).
 
 <br/>
 

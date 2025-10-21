@@ -21,7 +21,7 @@
     |Type|Example
     |-|-
     | `Simple` | [Enter anonymously in casinos 🤝](<../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/10 🎰 Casinos/11 🚪 Enter anonymously.md>)
-    | `Options` |[Remove token 🎫 flow](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Tokens 🎫/💬🤵 Remove 🎫.md>)
+    | `Options` |[Remove token 🎫 flow](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/🧑‍🦰💬 Wallet in Tokens 🎫/💬🤵 Remove 🎫.md>)
     | `Guest`| [Board a bus during navigating 🚎](<../../../../3 🤝 Use Cases/03 🧳 Travel/02 🧳 Travel by bus 🚎/03 🚎 Traveler @ Bus/32 Board navigating.md>)
     || [Deliver an item left in a taxi 🚕](<../../../../3 🤝 Use Cases/03 🧳 Travel/04 🧳 Travel by taxi 🚕/3 🚕 Customer @ Drop-off/32. Deliver item.md>)
     | | [Pizza for home delivery 🍕](<../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/21 🏠 Home: Order pizza.md>)

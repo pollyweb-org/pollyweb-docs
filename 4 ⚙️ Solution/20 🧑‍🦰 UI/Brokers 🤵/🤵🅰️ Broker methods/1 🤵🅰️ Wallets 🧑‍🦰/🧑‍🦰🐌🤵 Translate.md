@@ -10,7 +10,7 @@
     * to change the language in the [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
 
 > Used in: 
-* [🧑‍🦰👉🤵 Translate @ Wallet](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/...in App 🏠/💬🤵 Translate.md>).
+* [🧑‍🦰👉🤵 Translate @ Wallet](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/💬🤵 Translate.md>).
 
 <br/>
 

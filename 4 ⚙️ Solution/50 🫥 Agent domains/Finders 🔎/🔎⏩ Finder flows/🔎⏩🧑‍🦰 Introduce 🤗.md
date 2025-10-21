@@ -4,8 +4,8 @@
     * to introduce the [Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)
 
 * Used by:
-    * [🧑‍🦰👉🤗 Scan host QR](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/...in App 🏠/🔆🤗 Tap host locator.md>)
-    * [🧑‍🦰👉🤗 Scan printer QR](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/...in App 🏠/🔆🖨️ Tap alias locator.md>)
+    * [🧑‍🦰👉🤗 Scan host QR](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/🔆🤗 Tap host locator.md>)
+    * [🧑‍🦰👉🤗 Scan printer QR](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/🔆🖨️ Tap alias locator.md>)
 
 <br/>
 

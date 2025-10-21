@@ -6,7 +6,7 @@
 
 > Implemented by the [`Issued` 📃 script](<../🎴📃 Issuer scripts/🎴📃 Issued.md>)
 
-> Part of the [🎴⏩🧑‍🦰 Offer Token @ Issuer](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Prompts 🤔/👉🎴 Save token.md>) flow.
+> Part of the [🎴⏩🧑‍🦰 Offer Token @ Issuer](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🎴 Save token.md>) flow.
 
 > Purpose:
 * Allows for a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) to be downloaded 

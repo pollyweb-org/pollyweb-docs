@@ -5,7 +5,7 @@
 
 > [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) inform [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) where the file with the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) details was stored locally on the device.
 
-> Part of the [🎴⏩🧑‍🦰 Offer Token @ Issuer](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Prompts 🤔/👉🎴 Save token.md>) flow:
+> Part of the [🎴⏩🧑‍🦰 Offer Token @ Issuer](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🎴 Save token.md>) flow:
 > <br>• triggered by [`Save@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>) message
 
 <br/>

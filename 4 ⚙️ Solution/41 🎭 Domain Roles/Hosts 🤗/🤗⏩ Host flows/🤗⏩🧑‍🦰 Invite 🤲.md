@@ -5,7 +5,7 @@
     * to a [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>).
   
 * Used in:
-    * [💼⏩🧑‍🦰 Share Token+ID @ Consumer](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Prompts 🤔/👉💼 Share Token+ID.md>) flow
+    * [💼⏩🧑‍🦰 Share Token+ID @ Consumer](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Token+ID.md>) flow
   
 * Examples: 
     * [Split bill at a restaurant 🍽️](<../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/74 💳 Pay: Split bill ✂️.md>) use case

@@ -2,7 +2,7 @@
 
 > Implemented by the [`Receive` 📃 script](<../💼📃 Consumer scripts/💼📃 Receive.md>)
 
-> Part of the [`Share Token` ⏩ flow](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Prompts 🤔/👉💼 Share Token 🎫.md>) 
+> Part of the [`Share Token` ⏩ flow](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Token 🎫.md>) 
 
 > Succeeds the [`Share@Notifier` 🅰️ method](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/2 🤵🐌📣 Share.md>)
 
