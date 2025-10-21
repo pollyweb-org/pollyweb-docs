@@ -40,7 +40,7 @@
 - RUN|Converse
 ```
 
-> Calls the [`Converse` 📃 script](<../🤵📃 Converse ⏩.md>)
+> Calls the [`Converse` 📃 script](<../...routines/🤵📃 Converse ⏩.md>)
 
 ```yaml
 # Ask Finders to introduce Hosts
