@@ -29,7 +29,7 @@
     Schema: $.Msg.Schema
 
 # Save the Offer
-- SAVE|Tokens:
+- SAVE|Tokens@Broker:
     Hook: $.Msg.Hook
     Issuer: $.Msg.From
     Issuer$: $translation.Domain
@@ -37,6 +37,11 @@
     Schema$: $translation.Schema
     Starts: $.Msg.Starts
     Expires: $.Msg.Expires
+
+# Update the domain translation
+- GET >> $domain:
+    OnMissing:
+- SAVE|$domain
 ```
 
 Needs||

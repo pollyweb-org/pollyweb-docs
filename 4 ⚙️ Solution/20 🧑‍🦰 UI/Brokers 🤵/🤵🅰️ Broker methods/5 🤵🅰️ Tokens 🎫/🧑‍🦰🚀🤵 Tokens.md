@@ -71,7 +71,8 @@ Tokens:
     Key: $.Msg.From
 
 # Verify the signature
-- VERIFY|$.Msg|$wallet.PublicKey
+- VERIFY|$.Msg:
+    Key: $wallet.PublicKey
 
 # Translate the vaults and the schemas
 - SEND >> $translations:

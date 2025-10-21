@@ -39,6 +39,10 @@
 
     ```yaml
     # For messages from Wallets
+    VERIFY|$.Msg:
+        Key: $publicKey
+
+    # One-liner version
     VERIFY|$.Msg|$publicKey
     ```
 
@@ -78,7 +82,8 @@
         Key: $.Msg.Header.From
 
     # Verify the Message.
-    - VERIFY|$.Msg|$wallet.PublicKey
+    - VERIFY|$.Msg:
+        Key: $wallet.PublicKey
     ```
 
     | [Command ⌘](<../for control/⌘ Command.md>) | Purpose
@@ -101,7 +106,8 @@
         Key: $.Msg.Body.Chat
 
     # Verify the Message.
-    - VERIFY|$.Msg|$chat.PublicKey
+    - VERIFY|$.Msg:
+        Key: $chat.PublicKey
     ```
 
     | [Command ⌘](<../for control/⌘ Command.md>) | Purpose

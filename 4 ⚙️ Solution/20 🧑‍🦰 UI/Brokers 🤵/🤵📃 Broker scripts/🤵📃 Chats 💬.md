@@ -16,7 +16,8 @@
     Key: $.Msg.From
 
 # Verify the signature
-- VERIFY|$.Msg|$wallet.PublicKey
+- VERIFY|$.Msg:
+    Key: $wallet.PublicKey
 
 # Prepare the response
 - EVAL|$wallet.Chats >> $chats

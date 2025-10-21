@@ -23,11 +23,12 @@
 
     | Argument| Purpose
     |-|-
-    | `<script>` | The name of the [Script 📃](<📃 Script.md>).
+    | `📃 <script>` | The name of the [Script 📃](<📃 Script.md>).
+    |            | The 📃 emoji is optional, and will be ignored.
     | `<command-n>` | A [Command ⌘](<⌘ Command.md>)  to be executed.
     
     ```yaml
-    ExampleScript:
+    TestScript:
     - INFO|Hi!
     - CONFIRM|Are you OK? >> $answer
     ```

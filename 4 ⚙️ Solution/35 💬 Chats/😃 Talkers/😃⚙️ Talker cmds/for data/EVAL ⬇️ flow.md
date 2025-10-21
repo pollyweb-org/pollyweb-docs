@@ -219,10 +219,16 @@
     Here's the syntax.
 
     ```yaml
-    # Syntax
+    # Syntax - fails if $list was never set
     EVAL|$list >> $output:
         {object}
     ```
+
+    ||Arguments| Purpose
+    |-|-|-
+    || `$list` | [Placeholder 🧠](<$Placeholder 🧠.md>) list of objects
+    ||| Fails if `$list` was never set
+    |
 
     Here's a list.
 
