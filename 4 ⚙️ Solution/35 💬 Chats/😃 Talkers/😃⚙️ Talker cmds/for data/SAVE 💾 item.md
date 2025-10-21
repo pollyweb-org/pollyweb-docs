@@ -81,19 +81,49 @@
 1. **How up update an item?**
 
     ```yaml
-    # Get the item from the database.
+    # Get the item from the database
     - GET >> $item:
         Pool: myPool
         Key: myKey
 
-    # Change a single property.
+    # Change a single property
     - EVAL|$item:
         a: 1
     
-    # Save or fail on concurrent saves.
+    # Save or fail on concurrent saves
     - SAVE|$item 
     ```
 
+    Commands: [`EVAL`](<EVAL ⬇️ flow.md>) [`GET`](<GET ⏬ item.md>) [`SAVE`](<SAVE 💾 item.md>)
+
+    ---
+    <br/>
+
+1. **What if the item doesn't exist?**
+
+    Set the `Default` property of [`GET`](<GET ⏬ item.md>).
+
+    ```yaml
+    # Get the item from the database
+    - GET >> $item:
+        Pool: myPool
+        Key: aMissingKey # any missing key
+
+        # Return {a:0, b:2} if missing
+        Default: 
+            a: 0
+            b: 2
+
+    # Change to {a:1, b:2}
+    - EVAL|$item:
+        a: 1
+
+    # Save {a:1, b:2}
+    - SAVE|$item 
+    ```
+
+    Commands: [`EVAL`](<EVAL ⬇️ flow.md>) [`GET`](<GET ⏬ item.md>) [`SAVE`](<SAVE 💾 item.md>)
+    
     ---
     <br/>
 

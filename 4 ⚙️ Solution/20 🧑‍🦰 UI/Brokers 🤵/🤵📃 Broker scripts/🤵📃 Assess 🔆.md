@@ -10,30 +10,37 @@
 📃 Access@Broker:
 
 # Get the Wallet item
-- GET|Wallets@Broker|$.Msg.From >> $wallet
+- GET >> $wallet:
+    Pool: Wallets@Broker
+    Key: $.Msg.From
 
 # Verify the signature
-- VERIFY|$.Msg|$wallet.PublicKey
+- VERIFY|$.Msg:
+    Key: $wallet.PublicKey
 
 # Parse the locator
-- PARSE|$.Msg.Body.Locator >> $locator
+- PARSE >> $locator:
+    Locator: $.Msg.Body.Locator
 
 # Resolve any ALIAS locator
 - IF|$locator.IsAlias:
     Then: 
+
         # Send the request to the Printer
         - SEND >> $resolved:
             To: $locator.Host
             Subject: Resolve@Printer
             Locator: $.Msg.Locator
+
         # Parse the locator again
-        - PARSE|$resolved >> $locator
+        - PARSE >> $locator:
+            Locator: $resolved
 
 # Open a Chat on the Wallet app
-- RUN|⏩ Converse
+- RUN|Converse
 ```
 
-> Calls the [`Converse` ⏩ flow](<../🤵⏩ Broker flows/🤵⏩🧑‍🦰 Converse 💬.md>)
+> Calls the [`Converse` 📃 script](<../🤵📃 Broker scripts/🤵📃 Converse ⏩.md>)
 
 ```yaml
 # Ask Finders to introduce Hosts

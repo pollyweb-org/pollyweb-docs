@@ -8,13 +8,18 @@
 
 ```yaml
 # Resolve the callback
-- GET|Hooks@Talker|$.Msg.Hook >> $hook
+- GET >> $hook
+    Pool: Hooks@Talker
+    Key: $.Msg.Hook
 
 # Get the chat
-- GET|Chats@Host|$hook.Chat >> $chat
+- GET >> $chat:
+    Pool: Chats@Host
+    Key: $hook.Chat
 
 # Verify the Wallet signature
-- VERIFY|$.Msg|$chat.PublicKey
+- VERIFY|$.Msg:
+    Key: $chat.PublicKey
 
 # Process each Bind
 - PARALLEL|$.Msg.Binds|$bind:
@@ -33,7 +38,7 @@
 
 Needs||
 |-|-
-| [Commands ⌘](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | [`REEL`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/REEL 🎣.md>)
+| [Commands ⌘](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | [`GET`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET ⏬ item.md>) [`PARALLEL`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/PARALLEL *️⃣.md>) [`REEL`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/REEL 🎣.md>) [`SAVE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/SAVE 💾 item.md>) [`VERIFY`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/VERIFY 🔐 msg.md>)
 | [Messages 📨](<../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Bound@Vault`](<../../Vaults 🗄️/🗄️🅰️ Vault methods/to Bind/🤵🐌🗄️ Bound.md>)
 | [Placeholders 🧠](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/$Placeholder 🧠.md>) | [`$.Msg`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/$.Msg 📨.md>)
 |

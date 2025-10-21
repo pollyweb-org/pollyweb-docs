@@ -10,10 +10,13 @@
 📃 Pop: 
 
 # Get the Wallet 🧑‍🦰
-- GET|Wallets|$.Msg.Header.From >> $wallet
+- GET >> $wallet:
+    Pool: Wallets
+    Key: $.Msg.Header.From 
 
 # Verify the Message.
-- VERIFY|$.Msg|$wallet.PublicKey
+- VERIFY|$.Msg:
+    Key: $wallet.PublicKey
 
 # Handle the context.
 - CASE|$.Msg.Body.Context:

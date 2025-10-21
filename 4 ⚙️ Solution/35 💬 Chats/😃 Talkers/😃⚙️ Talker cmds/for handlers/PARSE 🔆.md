@@ -15,6 +15,19 @@
     ---
     <br/>
 
+1. **What's the PARSE syntax?**
+
+    ```yaml
+    PARSE >> $out:
+        Locator: $locator
+    ```
+
+    | Arguments | Purpose
+    |-|-
+    | `$locator` | [Placeholder 🧠](<../for data/$Placeholder 🧠.md>) with the [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to parse.
+
+    ---
+    <br/>
 
 1. **How to use a PARSE?**
 
