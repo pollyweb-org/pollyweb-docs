@@ -10,7 +10,7 @@
 
     A `BIND`
     * is a message [Command ⌘](<../for control/⌘ Command.md>) 
-    * that invokes the [Bind @ Vault ⏩ flow](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Prompts 🤔/👉🗄️ Bind 🔗.md>).
+    * that invokes the [Bind @ Vault ⏩ flow](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🗄️ Bind 🔗.md>).
 
     ---
     <br/>

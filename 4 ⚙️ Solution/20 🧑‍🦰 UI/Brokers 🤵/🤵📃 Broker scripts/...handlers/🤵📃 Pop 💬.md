@@ -29,6 +29,6 @@ Commands: [`CASE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmd
 
 | Scripts | Details
 |-|-
-| [▶️ `PopToken`](<../...others/🤵📃 Pop Token 🎫.md>) | Implements [🧑‍🦰💬🤵 Remove Token 🎫](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Tokens 🎫/💬🤵 Remove 🎫.md>)
-| [▶️ `PopVault`](<../...others/🤵📃 Pop Vault 🗄️.md>) | Implements [🧑‍🦰💬🤵 Unbind Vault](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Vaults 🗄️/💬🤵 Unbind 🗄️.md>)
+| [▶️ `PopToken`](<../...others/🤵📃 Pop Token 🎫.md>) | Implements [🧑‍🦰💬🤵 Remove Token 🎫](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/🧑‍🦰💬 Wallet in Tokens 🎫/💬🤵 Remove 🎫.md>)
+| [▶️ `PopVault`](<../...others/🤵📃 Pop Vault 🗄️.md>) | Implements [🧑‍🦰💬🤵 Unbind Vault](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/🧑‍🦰💬 Wallet in Vaults 🗄️/💬🤵 Unbind 🗄️.md>)
 |

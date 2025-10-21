@@ -3,8 +3,8 @@
 > Asks the [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) to join a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) to help.
 
 > Used in:
-> <br/> • [🧑‍🦰👉🤵 Host Home](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/...in Chats 💬/💬🤵 Host home.md>) flow
-> <br/> • [🧑‍🦰👉🤵 Abandon Chat](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/...in Chats 💬/💬🤵 Abandon 💬.md>) flow
+> <br/> • [🧑‍🦰👉🤵 Host Home](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Chats 💬/💬🤵 Host home.md>) flow
+> <br/> • [🧑‍🦰👉🤵 Abandon Chat](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Chats 💬/💬🤵 Abandon 💬.md>) flow
 
 <br/>
 
