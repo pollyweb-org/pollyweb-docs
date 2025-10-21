@@ -234,10 +234,10 @@
 
     | Example | Feature
     |---------|--------
-    | 🪣 [`Notifiers@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Notifiers.md>) | With a named key
-    | 🪣 [`Binds@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Binds.md>) | With parents
-    | 🪣 [`Notifiers@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Notifiers.md>) | With children
-    | 🪣 [`Wallets@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Wallets.md>) | With grand children
+    | 🪣 [`Notifiers`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Notifiers.md>)  at [Broker 🤵](<🤵🤲 Broker helper.md>) | With a named key
+    | 🪣 [`Binds`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Binds.md>) at [Broker 🤵](<🤵🤲 Broker helper.md>) | With parents
+    | 🪣 [`Notifiers`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Notifiers.md>) at  at [Broker 🤵](<🤵🤲 Broker helper.md>) | With children
+    | 🪣 [`Wallets`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Wallets.md>) at  at [Broker 🤵](<🤵🤲 Broker helper.md>) | With grand children
     
 
     ---

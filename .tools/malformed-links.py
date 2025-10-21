@@ -1675,6 +1675,58 @@ def replace_chat_msg_tokens(md_files):
     return total
 
 
+def replace_broker_tokens(md_files):
+    """Replace '{{Broker}}' (allowing optional inner spaces) with '[Broker 🤵 domain](<🤵🤲 Broker helper.md>)' in all md files."""
+    # Allow normal and unicode non-breaking/zero-width spaces around Broker
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Broker`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[Broker 🤵 domain](<🤵🤲 Broker helper.md>)"
+    total = 0
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+        new_content, n = pattern.subn(replacement, content)
+        if n > 0:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                total += n
+            except Exception:
+                pass
+    return total
+
+
+def replace_brokers_tokens(md_files):
+    """Replace '{{Brokers}}' (allowing optional inner spaces) with '[Broker 🤵 domains](<🤵🤲 Broker helper.md>)' in all md files."""
+    # Allow normal and unicode non-breaking/zero-width spaces around Brokers
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Brokers`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[Broker 🤵 domains](<🤵🤲 Broker helper.md>)"
+    total = 0
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+        new_content, n = pattern.subn(replacement, content)
+        if n > 0:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                total += n
+            except Exception:
+                pass
+    return total
+
+
 def runit(project_directory):
 
 
@@ -2012,6 +2064,26 @@ def runit(project_directory):
             pass
     except Exception as e:
         print(f"Warning: failed replacing {{$.Chat}} tokens: {e}")
+
+    # Replace {{Broker}} tokens
+    try:
+        replaced = replace_broker_tokens(md_files)
+        if replaced:
+            print(f"Replaced {replaced} {{Broker}} tokens ✅")
+        else:
+            pass
+    except Exception as e:
+        print(f"Warning: failed replacing {{Broker}} tokens: {e}")
+
+    # Replace {{Brokers}} tokens
+    try:
+        replaced = replace_brokers_tokens(md_files)
+        if replaced:
+            print(f"Replaced {replaced} {{Brokers}} tokens ✅")
+        else:
+            pass
+    except Exception as e:
+        print(f"Warning: failed replacing {{Brokers}} tokens: {e}")
 
     # Finally, add emoji at table row start based on filename in upper links
     try:

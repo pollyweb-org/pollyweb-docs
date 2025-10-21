@@ -3,12 +3,15 @@
 🗄️🐌 https://quip.com/IZapAfPZPnOD#temp:C:PDZf81764583b31439f999550159  
 -->
 
-
 # 🤵🐌🗄️ Bound @ Vault
 
-* Used by
-  * [🗄️⏩🧑‍🦰 Bind @ Vault](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Prompts 🤔/👉🗄️ Bind 🔗.md>) flow
-  * [🤵⏩🗄️ Bind vault @ Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵⏩ Broker flows/🤵⏩🗄️ Bind vault.md>) flow
+> Implemented by the [`Bound` 📃 script](<../../🗄️📃 Vault scripts/🗄️📃 Bound.md>)
+
+
+> Used by:
+
+* [`Bind` ⏩ flow](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Prompts 🤔/👉🗄️ Bind 🔗.md>)
+* [`Bind Vault` ⏩ flow ](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵⏩ Broker flows/🤵⏩🗄️ Bind vault.md>) 
 
 <br/>
 
@@ -39,46 +42,6 @@ Body:
 |Bind| `Bind`| uuid | [Bind 🔗 ID](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) on the [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>)
 || `Schema`| string | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)  from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)
 |
-
-<br/>
-
-## Handler
-
-```yaml
-# Verify the domain signature
-- VERIFY|$.Msg
-
-# Resolve the callback
-- GET|Hooks@Talker|$.Msg.Hook >> $hook
-
-# Get the chat
-- GET|Chats@Host|$hook.Chat >> $chat
-
-# Process each Bind
-- PARALLEL|$.Msg.Binds|$bind:
-
-    # Save each Bind
-    - SAVE|Binds@Vault:
-        Broker: $.Msg.From
-        Bind: $bind.Bind
-        Schema: $bind.Schema
-        User: $chat.User
-
-# Continue the Chat
-- REEL|$hook:
-    $.Msg.Binds
-```
-
-| [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | Purpose
-|-|-
-| 📨 [`$.Msg`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/$.Msg 📨.md>) | Read the incoming [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>)
-| ⏬ [`GET`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET ⏬ item.md>) | Get the [Hook 🪝](<../../../../35 💬 Chats/😃 Talkers/😃🪣 Talker tables/😃🪣 Hooks 🪝.md>) from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)  
-| ️️*️⃣ [`PARALLEL`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/PARALLEL *️⃣.md>) | Process each [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
-| 🎣 [`REEL`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/REEL 🎣.md>) | Continue the [Talker 😃](<../../../../35 💬 Chats/😃 Talkers/😃 Talker.md>)
-| 💾 [`SAVE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/SAVE 💾 item.md>) | Save the [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to the [Binds 🪣](<../../🗄️🪣 Vault tables/🗄️🪣 Binds.md>) table
-| 🔐 [`VERIFY`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/VERIFY 🔐 msg.md>) | Verify the domain [Signature 🔏](<../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Signatures 🔏.md>) of the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>)
-|
-
 
 <br/>
 
