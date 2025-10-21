@@ -84,7 +84,7 @@
     # Get the item from the database
     - GET >> $item:
         Pool: myPool
-        Key: myKey
+        Key: anExistingKey
 
     # Change a single property
     - EVAL|$item:
