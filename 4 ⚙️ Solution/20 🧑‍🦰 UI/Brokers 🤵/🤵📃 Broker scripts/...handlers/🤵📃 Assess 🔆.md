@@ -9,6 +9,11 @@
 ```yaml
 📃 Access@Broker:
 
+# Verify the required inputs
+- ASSERT:
+    - $.Msg.Locator
+    - $.Msg.Hook
+
 # Get the Wallet item
 - GET >> $wallet:
     Pool: Wallets@Broker

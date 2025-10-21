@@ -14,7 +14,11 @@
 ```yaml
 📃 Converse:
 
-# Get the Chat details from the Graph
+- ASSERT:
+    - $wallet
+    - $locator
+
+# Get the Host details from the Graph
 - SEND >> $domain:
     To: $.Settings.Graph
     Subject: Identity@Graph
@@ -66,11 +70,11 @@
     BigIcon: $domain.BigIcon
 
 # Update the Chats
-- RUN|⏩ UpdateChats
+- RUN|UpdateChats
 ```
 
 
-> Continues on [🤵⏩🧑‍🦰 Update Chats 💬](<../../🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Chats 💬.md>)
+> Continues on [`UpdateChats` 📃 script](<🤵📃 Update Chats 💬.md>)
 
 |Needs | |
 |-|-
