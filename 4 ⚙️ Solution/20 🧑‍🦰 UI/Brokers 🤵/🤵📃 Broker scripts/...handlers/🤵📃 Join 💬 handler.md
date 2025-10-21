@@ -8,14 +8,8 @@
 📃 Join@Broker:
 
 # Verify the required inputs
-- ASSERT:
-    - One:
-        $.Msg.Chat
-        $.Msg.Token
-        Chat: <chat-uuid>
-        Host: any-host.dom
-        Token: <token-uuid>
-        Issuer: any-issuer.dom
-        Bind: <bind-uuid>
-        Vault: any-vault.dom
+- ASSERT|$.Msg:
+    - One: Chat, Host, Token, Issuer, Bind, Vault
+    - Uuid: Chat, Token, Bind
+    - Text: Host, Issuer, Vault
 ```
