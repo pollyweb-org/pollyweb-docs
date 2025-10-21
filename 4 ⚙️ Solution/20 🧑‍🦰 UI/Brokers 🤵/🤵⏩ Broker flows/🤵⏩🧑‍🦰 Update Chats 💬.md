@@ -2,7 +2,7 @@
 
 > Updates the list of [Chats 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) on a [Wallet 🧑‍🦰 app](<../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
 
-> Implemented by the [`UpdateChats` 📃 script](<../🤵📃 Broker scripts/🤵📃 Update Chats 💬.md>)
+> Implemented by the [`UpdateChats` 📃 script](<../🤵📃 Broker scripts/...routines/🤵📃 Update Chats 💬.md>)
 
 > Used in:
 * [🧑‍🦰👉🤵 Abandon chat @ Wallet](<../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Chats 💬/💬🤵 Abandon 💬.md>)
