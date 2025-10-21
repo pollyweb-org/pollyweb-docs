@@ -5,7 +5,7 @@
 > Implemented by the [`UpdateChats` 📃 script](<../🤵📃 Broker scripts/...others/🤵📃 Update Chats 💬.md>)
 
 > Used in:
-* [🧑‍🦰👉🤵 Abandon chat @ Wallet](<../../Wallets 🧑‍🦰/...in Chats 💬/💬🤵 Abandon 💬.md>)
+* [🧑‍🦰👉🤵 Abandon chat @ Wallet](<../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/...in Chats 💬/💬🤵 Abandon 💬.md>)
 * [🤵⏩🧑‍🦰 Converse @ Broker](<🤵⏩🧑‍🦰 Converse 💬.md>)
 
 <br/>
