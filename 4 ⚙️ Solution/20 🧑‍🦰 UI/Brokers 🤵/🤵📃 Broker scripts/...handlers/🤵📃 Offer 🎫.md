@@ -50,7 +50,7 @@
     Domain$: $translation.Domain
 ```
 
-> Run [`Update Domain` 📃 script](<../...routines/🤵📃 Update Domain 🪣.md>)
+> Run [`Update Domain` 📃 script](<../...others/🤵📃 Update Domain 🪣.md>)
 
 <br/>
 
