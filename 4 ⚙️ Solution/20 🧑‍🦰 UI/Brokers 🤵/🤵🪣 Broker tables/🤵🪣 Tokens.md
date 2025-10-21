@@ -20,8 +20,8 @@ Parents:
 
 | Link | Table | Stores
 |-|-|-
-| Parent    | [`Wallets` 🪣](<🤵🪣 Wallets table.md>) | [Wallets 🧑‍🦰](<../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) |
-|           | [`Domains` 🪣](<🤵🪣 Domains table.md>) | [domains 👥](<../../../40 👥 Domains/👥 Domain.md>)
+| Parent    | [`Wallets` 🪣](<🤵🪣 Wallets.md>) | [Wallets 🧑‍🦰](<../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) |
+|           | [`Domains` 🪣](<🤵🪣 Domains.md>) | [domains 👥](<../../../40 👥 Domains/👥 Domain.md>)
 |
 
 <br/>
