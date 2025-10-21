@@ -4,9 +4,16 @@
 
 # 🧑‍🦰🚀🎴 Issued @ Issuer
 
-> Allows for a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) to be downloaded from the [Issuer 🎴 domain](<../🎴🎭 Issuer role.md>) into the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
+> Implemented by the [`Issued` 📃 script](<../🎴📃 Issuer scripts/🎴📃 Issued.md>)
 
 > Part of the [🎴⏩🧑‍🦰 Offer Token @ Issuer](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Prompts 🤔/👉🎴 Save token.md>) flow.
+
+> Purpose:
+* Allows for a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) to be downloaded 
+    * from the [Issuer 🎴 domain](<../🎴🎭 Issuer role.md>) 
+    * into the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
+
+
 
 <br/>
 
@@ -20,7 +27,6 @@ Header:
     Subject: Token@Issuer
     
 Body:
-    Chat: <chat-uuid>
     Hook: <hook-uuid>
 ```
 
@@ -29,8 +35,7 @@ Body:
 |Header | `From`  | string  | `Anonymous`
 |       | `To`    | string  | [Issuer 🎴](<../🎴🎭 Issuer role.md>) from [`Save@Notifier`](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
 ||`Subject`|string|`Token@Issuer` 
-| Body | `Chat`| uuid | [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) to verify the [Signature 🔏](<../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Signatures 🔏.md>)
-| | `Hook`| string | `Hook` from [`Save@Notifier`](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
+| Body | `Hook`| string | `Hook` from [`Save@Notifier`](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
 |
 
 <br/>
@@ -50,14 +55,6 @@ Schema: airlines.any-igo.dom/SSR/WCH:1
 
 <br/>
 
-## Handler
-
-```yaml
-- GET|Chats@Host|$.Msg.Chat >> $chat
-- VERIFY|$.Msg
-```
-
-<br/>
 
 ## FAQ
 
