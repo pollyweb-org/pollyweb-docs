@@ -3,7 +3,7 @@
 
 ## Script
 
-> Assumes `$wallet` from the [`Assess@Broker` 📃 script](<../...handlers/🤵📃 Assess 🔆.md>).
+> Assumes `$wallet` from the [`Assess@Broker` 📃 script](<../...handlers/🤵📃 Assess 🔆 handler.md>).
 
 > Continues from the [`Converse` 📃 script](<🤵📃 Converse ⏩.md>)
 

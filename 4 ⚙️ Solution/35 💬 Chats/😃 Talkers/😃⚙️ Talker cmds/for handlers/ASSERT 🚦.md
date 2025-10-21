@@ -20,7 +20,7 @@
 1. **What's the syntax of ASSERT?**
 
     ```yaml
-    ASSERT:
+    ASSERT|$object:
 
         # Comparisons
         - {value-1} {comparison} {value-2} 
@@ -36,6 +36,7 @@
     
     | Argument| Purpose | Examples
     |-|-|-
+    | `$object`| Optional initial context | `$.Msg` `$1`
     | `{value}` | String or [{Function}](<../for data/{Function} 🐍.md>) evaluated | `A` `{f}` `{$p}`
     || Supports missing `{}`  | `f()` `$p`
     | `{comparison}` | `=` `~=` `!=` `>` `>=` `<` `<=` 
@@ -45,6 +46,17 @@
     | | ❌ Fails on empty arrays  | `[]` `$p=`
     | `{empty-object}` | ✅ Valid for objects with values | `{A:0}`
     | | ❌ Fails on empty objects | `{}` `$p=`
+
+    ---
+    <br/>
+
+1. **How does the `$context` work with Functions?**
+
+    |Situation | Behavior
+    |-|-
+    | `Comparisons` | The left of the operator maps to the `$object`
+    |               | The right side is evaluated with [{Functions} 🐍](<{Function} 🐍.md>)
+    | `Single value` | No [{Functions} 🐍](<{Function} 🐍.md>); all is mapped to `$object` 
 
     ---
     <br/>
@@ -76,8 +88,8 @@
 
     ```yaml
     # Assert a matching pair
-    - ASSERT:
-        - $.Msg.From ~= any-broker.dom
+    - ASSERT|$.Msg:
+        - From ~= any-broker.dom
 
     # Show success message
     - SUCCESS|Message is from Any Broker
@@ -99,8 +111,8 @@
         nlweb.org/HOST:1.0,any-host.dom,ANY-RESOURCE
 
     # Assert for equivalence to .HOST
-    - ASSERT:
-        - $locator.Schema ~= .HOST
+    - ASSERT|$locator:
+        - Schema ~= .HOST
 
     # Show success message.
     - SUCCESS|The schema is equivalent to ./HOST

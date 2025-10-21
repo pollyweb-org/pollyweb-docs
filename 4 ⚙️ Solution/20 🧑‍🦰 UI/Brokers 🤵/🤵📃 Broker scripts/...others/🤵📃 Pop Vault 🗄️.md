@@ -5,7 +5,7 @@
 
 > [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/📃 Script.md>) that implements the [`Unbind Vault` 💬 flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Vaults 🗄️/💬🤵 Unbind 🗄️.md>) 
 
-> Called by the [`Pop@Broker` 📃 script](<../...handlers/🤵📃 Pop 💬.md>)
+> Called by the [`Pop@Broker` 📃 script](<../...handlers/🤵📃 Pop 💬 handler.md>)
 
 
 <br/>
@@ -15,7 +15,7 @@
 
 
 
-> Assumes a `$wallet` placeholder from the [`Pop@Broker` 📃 script](<../...handlers/🤵📃 Pop 💬.md>)
+> Assumes a `$wallet` placeholder from the [`Pop@Broker` 📃 script](<../...handlers/🤵📃 Pop 💬 handler.md>)
 
 
 ```yaml
