@@ -63,7 +63,7 @@
 
     <br/>
     
-    Here's the [Talker 😃](<../../😃 Talker.md>).
+    Here's the [Script 📃](<../for control/📃 Script.md>).
         
     ```yaml
     # 😃 Talker 

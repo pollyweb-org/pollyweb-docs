@@ -1,7 +1,8 @@
 # 😃👋 Talker `FILTER` command
 
-
 > Part of [Talker 😃](<../../😃 Talker.md>)
+
+> Implemented by {{.FILTER.md}}
 
 <br/>
 
@@ -49,7 +50,7 @@
 
     <br/>
 
-    Here's the [Talker 😃](<../../😃 Talker.md>).
+    Here's the [Script 📃](<../for control/📃 Script.md>).
 
     ```yaml
     # Create a dummy list
@@ -72,36 +73,3 @@
     ---
     <br/>
 
-
-1. **How does it work internally?**
-
-    ```yaml
-    FILTER_IMPLEMENTATION:
-
-    # Format the options into {ID,Title}
-    - EVAL|$1.Options >> $options:
-        ID: {$1.ID}
-        Title: {$1.Title}
-
-    # Ask the user to select
-    - MANY|$1.Statement >> $result:
-        Options: $options
-
-    # Match the selected options.
-    - MERGE >> $selected:
-        Lists:
-            ORIGINAL: $1.Options
-            RESULT: $result
-        Match:
-            ORIGINAL.{$1.ID}: RESULT.ID 
-        Output:
-            :ORIGINAL:
-
-    # Return the list of items selected.
-    - RETURN|$selected
-    ```
-
-    Commands: [`EVAL`](<../for data/EVAL ⬇️ flow.md>) [`MANY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/54 🔠 MANY prompt.md>) [`MERGE`](<../for data/MERGE 🧬 lists.md>) [`RETURN`](<../for control/RETURN ⤴️.md>)
-
-    ---
-    <br/>

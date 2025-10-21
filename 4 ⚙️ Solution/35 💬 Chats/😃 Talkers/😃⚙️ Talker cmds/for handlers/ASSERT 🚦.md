@@ -8,6 +8,8 @@
 
 <br/>
 
+
+
 1. **What's the ASSERT command?**
 
     An `ASSERT`
@@ -17,7 +19,31 @@
     ---
     <br/>
 
-1. **What's the syntax of ASSERT?**
+1. **What's the syntax for Multi-field assertions?**
+
+    ```yaml
+    # Multi-field assertions
+    ASSERT|$object:
+        AllOf: <fields> # Required fields
+        OneOf: <fields> # Only one of these
+        UUIDs: <fields> # UUID fields
+        Texts: <fields> # Text fields
+        Lists: <fields> # List fields
+    ```
+    
+    | Argument| Purpose | Examples
+    |-|-|-
+    | `$object`| Optional initial context | `$.Msg`
+    | `AllOf` | All should have values | `A,B` `[A,B]`
+    | `OneOf` | Only one should have value | `A,B` `[A,B]`
+    | `UUIDs` | Must be a UUID fields| `A,B` `[A,B]`
+    | `Texts` | Must be a text fields | `A,B` `[A,B]`
+    | `Lists` | Must must be lists | `A,B` `[A,B]`
+    
+    ---
+    <br/>
+
+1. **What's the syntax for comparisons?**
 
     ```yaml
     # Comparisons
@@ -27,12 +53,56 @@
     
     | Argument| Purpose | Examples
     |-|-|-
-    | `$object`| Optional initial context | `$.Msg` `$1`
+    | `$object`| Optional initial context | `$.Msg` 
     | `{value}` | String or [{Function}](<../for data/{Function} 🐍.md>) evaluated | `A` `{f}` `{$p}`
     || Supports missing `{}`  | `f()` `$p`
     | `{comparison}` | `=` `~=` `!=` `>` `>=` `<` `<=` 
     
+    ---
     <br/>
+
+
+1. **How do equal comparisons work?**
+
+    | | Meaning | Valid results ✅
+    |-|-|-
+    | `=`  | Same meaning | `a = b` `A = B` 
+    |       | Same math | `1 = 1.0` `01 = 1` 
+    |       | Same array order | `[1,2] = [1,2]`
+    |       | Same object order | `{A:1, B:2} = {A:2, B:1}`
+
+    ---
+    <br/>
+
+1. **How do unequal comparisons work?**
+   
+    | | Meaning | Valid results ✅
+    |-|-|-
+    | `!=` | Different meaning | `a != b`  
+    |       | Different math | `1 != 1.1`
+    |       | Different array content | `[1] = [1,2,3]`
+    |       | Different object content | `{A:1} = {A:1, B:2, C:3}`
+    
+    ---
+    <br/>
+
+1. **How do approximate comparisons work?**
+
+    | | Meaning | Valid results ✅
+    |-|-|-
+    | `~=` | Same content out of order | `[1,2] = [2,1]`
+    |       | Same content out of order | `{A:1, B:2} = {B:2, A:1}`
+    |       |Same [Schema 🧩 code](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | `.HOST ~= nlweb.org/HOST:1.0 `|
+    |       | Same [domain 👥](<../../../../40 👥 Domains/👥 Domain.md>) name | `domain.dom ~= DOMAIN.DOM`
+    |       | Same [`{.Today}` 🐍](<../for data/{Function} 🐍.md>) date | `~= 2013-04-01T05:00:30.001Z`
+    
+    
+
+    ---
+    <br/>
+
+
+1. **What's the syntax for boolean assertions?**
 
     ```yaml
     # Boolean assertions
@@ -42,10 +112,14 @@
     
     | Argument| Purpose | Examples
     |-|-|-
+    | `$object`| Optional initial context | `$.Msg`
     | `{boolean}` | ✅ Valid for meaningful values | `1` `-1` `True` `A`
     || ❌ Fails on empty meanings | `0` `False` `$p=`
     
+    ---
     <br/>
+
+1. **What's the syntax or empty or missing assertions?**
 
     ```yaml
     # Empty or missing assertions
@@ -53,36 +127,30 @@
         - {empty-array}   
         - {empty-object}  
     ```
-    
+
     | Argument| Purpose | Examples
     |-|-|-
+    | `$object`| Optional initial context | `$.Msg`
     | `{empty-array}` | ✅ Valid for arrays with values | `[0]` `[*]` |
     | | ❌ Fails on empty arrays  | `[]` `$p=`
     | `{empty-object}` | ✅ Valid for objects with values | `{A:0}`
     | | ❌ Fails on empty objects | `{}` `$p=`
 
+    <br/>
 
     ```yaml
-    ASSERT|$object:
-        One:         
-        
+    # Enum assertions
+    ASSERT|$placeholder:
+        Enum: {value-1}, {value-2}, ...
     ```
-    
     | Argument| Purpose | Examples
     |-|-|-
-    | `$object`| Optional initial context | `$.Msg` `$1`
-    | `{value}` | String or [{Function}](<../for data/{Function} 🐍.md>) evaluated | `A` `{f}` `{$p}`
-    || Supports missing `{}`  | `f()` `$p`
-    | `{comparison}` | `=` `~=` `!=` `>` `>=` `<` `<=` 
-    | `{boolean}` | ✅ Valid for meaningful values | `1` `-1` `True` `A`
-    || ❌ Fails on empty meanings | `0` `False` `$p=`
-    | `{empty-array}` | ✅ Valid for arrays with values | `[0]` `[*]` |
-    | | ❌ Fails on empty arrays  | `[]` `$p=`
-    | `{empty-object}` | ✅ Valid for objects with values | `{A:0}`
-    | | ❌ Fails on empty objects | `{}` `$p=`
-
+    | `$object`| Optional initial context | `$.Msg`
+    | `Enum` | List of possible values | `A,B` `[A,B]`
+    
     ---
     <br/>
+
 
 1. **How does the `$context` work with Functions?**
 
@@ -91,29 +159,6 @@
     | `Comparisons` | The left of the operator maps to the `$object`
     |               | The right side is evaluated with [{Functions} 🐍](<../for data/{Function} 🐍.md>)
     | `Single value` | No [{Functions} 🐍](<../for data/{Function} 🐍.md>); all is mapped to `$object` 
-
-    ---
-    <br/>
-
-1. **What's the meaning of equal comparisons?**
-
-    | | Meaning | Valid results ✅
-    |-|-|-
-    | `=`  | Same meaning | `a = b` `A = B` 
-    |       | Same math | `1 = 1.0` `01 = 1` 
-    |       | Same array order | `[1,2] = [1,2]`
-    |       | Same object order | `{A:1, B:2} = {A:2, B:1}`
-    | `!=` | Different meaning | `a != b`  
-    |       | Different math | `1 != 1.1`
-    |       | Different array content | `[1] = [1,2,3]`
-    |       | Different object content | `{A:1} = {A:1, B:2, C:3}`
-    | `~=` | Same content out of order | `[1,2] = [2,1]`
-    |       | Same content out of order | `{A:1, B:2} = {B:2, A:1}`
-    |       |Same [Schema 🧩 code](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | `.HOST ~= nlweb.org/HOST:1.0 `|
-    |       | Same [domain 👥](<../../../../40 👥 Domains/👥 Domain.md>) name | `domain.dom ~= DOMAIN.DOM`
-    |       | Same [`{.Today}` 🐍](<../for data/{Function} 🐍.md>) date | `~= 2013-04-01T05:00:30.001Z`
-    
-    
 
     ---
     <br/>

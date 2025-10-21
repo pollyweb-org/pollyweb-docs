@@ -40,7 +40,7 @@
     | 🕙 Clock | 😃 Check again? [Yes, No] 
     |
 
-    Here's the [Talker 😃](<../../😃 Talker.md>).
+    Here's the [Script 📃](<📃 Script.md>).
 
 
     ```yaml
@@ -64,7 +64,7 @@
     | 🕙 Clock | 😃 Want to know the time? [Yes, No] 
     |
 
-    Here's the [Talker 😃](<../../😃 Talker.md>).
+    Here's the [Script 📃](<📃 Script.md>).
 
     ```yaml
     💬|Show time:
@@ -99,7 +99,7 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ Order submitted!
     |
 
-    Here's the [Talker 😃](<../../😃 Talker.md>).
+    Here's the [Script 📃](<📃 Script.md>).
 
 
     ```yaml
@@ -151,7 +151,7 @@
     | [👀 Ads](<../../../../45 🤲 Helper domains/Advertisers 👀/👀🤲 Advertiser helper.md>) | ⓘ Explore follow-ups: <br/>- [ #️⃣ Play Tic-Tac-Toe ] 
     |
 
-    Here's the [Talker 😃](<../../😃 Talker.md>).
+    Here's the [Script 📃](<📃 Script.md>).
 
     ```yaml
     💬 Play guess:                      

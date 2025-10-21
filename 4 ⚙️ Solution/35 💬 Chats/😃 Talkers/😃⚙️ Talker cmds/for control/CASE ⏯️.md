@@ -75,7 +75,7 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ Hi, premium customer!
     |
 
-    Here's the [Talker 😃](<../../😃 Talker.md>).
+    Here's the [Script 📃](<📃 Script.md>).
 
     ```yaml
     # 😃 Talker
@@ -111,7 +111,7 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ You selected option B.
     |
 
-    Here's the [Talker 😃](<../../😃 Talker.md>).
+    Here's the [Script 📃](<📃 Script.md>).
    
     ```yaml
     # 😃 Talker

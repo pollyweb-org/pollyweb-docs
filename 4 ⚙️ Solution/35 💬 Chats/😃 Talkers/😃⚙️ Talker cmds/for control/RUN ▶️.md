@@ -39,7 +39,7 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ [Example finished.](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
     |
 
-    Here's the [Talker 😃](<../../😃 Talker.md>).
+    Here's the [Script 📃](<📃 Script.md>).
 
     ```yaml
     # 😃 Talker 
@@ -69,7 +69,7 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ Example finished.
     |
     
-    Here's the [Talker 😃](<../../😃 Talker.md>).
+    Here's the [Script 📃](<📃 Script.md>).
     
     ```yaml
     # 😃 Talker 
@@ -105,7 +105,7 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ Example finished.
     |
 
-    Here's the [Talker 😃](<../../😃 Talker.md>).
+    Here's the [Script 📃](<📃 Script.md>).
 
     ```yaml
     # 😃 Talker 
@@ -140,7 +140,7 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) |  ✅ Congrats, you won!
     |
     
-    Here's the [Talker 😃](<../../😃 Talker.md>).
+    Here's the [Script 📃](<📃 Script.md>).
 
     ```yaml
     # 😃 Talker 

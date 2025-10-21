@@ -1,6 +1,6 @@
 # 😃🔗 Talker `BIND` command
 
-> Implemented by the [`.BIND` 📃 script](<../../😃📃 Talker scripts/😃📃 .BIND.md>)
+> Implemented by the [`.BIND` 📃 script](<../../😃📃 Talker scripts/😃📃 .BIND 🔗 script.md>)
 
 > Part of [Talker 😃](<../../😃 Talker.md>)
 
