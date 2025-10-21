@@ -2,6 +2,8 @@
 
 # 🧑‍🦰💬🤵 Unbind @ Wallet
 
+> Implemented by the [`Pop Vault` script](<../../Brokers 🤵/🤵📃 Broker scripts/...others/🤵📃 Pop Vault 🗄️.md>).
+
 > Implements a [Wallet 🧑‍🦰 app](<../🧑‍🦰🛠️ Wallet app.md>)
 
 

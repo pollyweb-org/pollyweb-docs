@@ -7,7 +7,7 @@
 > Brokers domains call [Notifier 📣 domains](<../../📣👥 Notifier domain.md>) to re-render translated contented.
 
 
-> Used by [🧑‍🦰👉🤵 Translate](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/💬🤵 Translate.md>) 
+> Used by [🧑‍🦰👉🤵 Translate](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/...in App 🏠/💬🤵 Translate.md>) 
 
 <br/>
 

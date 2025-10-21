@@ -4,8 +4,8 @@
     * parses the [Locator 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) in the [Broker 🤵](<../🤵🤲 Broker helper.md>)
     * and opens a [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) on the [Wallet 🧑‍🦰 app](<../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
 * Used by:
-    * [🧑‍🦰👉🤗 Scan host QR](<../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/🔆🤗 Tap host locator.md>) flow
-    * [🧑‍🦰👉🤗 Scan printer QR](<../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/🔆🖨️ Tap alias locator.md>) flow
+    * [🧑‍🦰👉🤗 Scan host QR](<../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/...in App 🏠/🔆🤗 Tap host locator.md>) flow
+    * [🧑‍🦰👉🤗 Scan printer QR](<../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/...in App 🏠/🔆🖨️ Tap alias locator.md>) flow
     * [🧑‍🦰👉🤗 Prompt option](<../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Prompts 🤔/👉🤗 Click locator 🔆.md>) flow
     * [🗄️⏩🧑‍🦰 Engage @ Vault 💬](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️⏩ Vault flows/🗄️⏩🧑‍🦰 Engage 💬.md>) flow
 

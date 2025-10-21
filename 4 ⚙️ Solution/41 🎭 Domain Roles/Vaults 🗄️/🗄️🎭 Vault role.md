@@ -31,7 +31,7 @@
 
     | | Workflow |  Description
     |-|-|-
-    | | [👉 Binds ](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/💬🤵 List Binds 🔗.md>) | List the user's [Binds 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
+    | | [👉 Binds ](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/...in App 🏠/💬🤵 List Binds 🔗.md>) | List the user's [Binds 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
     || [👉 Bind](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Prompts 🤔/👉🗄️ Bind 🔗.md>) | [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) the [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) to a [Vault 🗄️](<🗄️🎭 Vault role.md>)
     || [👉 Unbind](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Vaults 🗄️/💬🤵 Unbind 🗄️.md>) | Remove a [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) from a [Vault 🗄️](<🗄️🎭 Vault role.md>)
     

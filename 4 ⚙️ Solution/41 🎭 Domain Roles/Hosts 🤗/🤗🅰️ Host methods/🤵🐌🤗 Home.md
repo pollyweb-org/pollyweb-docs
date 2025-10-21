@@ -7,7 +7,7 @@
 > Used by:
 * [🧑‍🦰👉🗄️ Unbind](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Vaults 🗄️/💬🤵 Unbind 🗄️.md>) flow
 * [🧑‍🦰👉🤵 Remove Token](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Tokens 🎫/💬🤵 Remove 🎫.md>) flow
-* [🧑‍🦰👉🤵 Host home](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Chats 💬/💬🤵 Host home.md>) flow
+* [🧑‍🦰👉🤵 Host home](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/...in Chats 💬/💬🤵 Host home.md>) flow
 
 <br/>
 

@@ -5,7 +5,7 @@
 > Used in:
 > <br/>• [🎴⏩🧑‍🦰 Offer Token @ Issuer](<../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Prompts 🤔/👉🎴 Save token.md>) 
 > <br/>• [🧑‍🦰👉🤵 Remove Token @ Wallet](<../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Tokens 🎫/💬🤵 Remove 🎫.md>)
-> <br/>• [🧑‍🦰👉🤵 List Tokens @ Wallet](<../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/💬🤵 List Tokens 🎫.md>)
+> <br/>• [🧑‍🦰👉🤵 List Tokens @ Wallet](<../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/...in App 🏠/💬🤵 List Tokens 🎫.md>)
 
 <br/>
 

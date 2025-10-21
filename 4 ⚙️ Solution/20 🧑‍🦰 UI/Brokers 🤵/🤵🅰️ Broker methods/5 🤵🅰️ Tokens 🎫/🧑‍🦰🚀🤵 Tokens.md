@@ -9,8 +9,8 @@
   * mapping to the local file.
 
 * Used in:
-  * [🧑‍🦰💬🤵 Translate @ Broker](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/💬🤵 Translate.md>) flow
-  * [🧑‍🦰💬🤵 List Tokens @ Broker](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/💬🤵 List Tokens 🎫.md>) flow
+  * [🧑‍🦰💬🤵 Translate @ Broker](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/...in App 🏠/💬🤵 Translate.md>) flow
+  * [🧑‍🦰💬🤵 List Tokens @ Broker](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in App 🏠/...in App 🏠/💬🤵 List Tokens 🎫.md>) flow
 
 <br/>
 
