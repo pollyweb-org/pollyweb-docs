@@ -1,8 +1,8 @@
-# 😃👋 Talker `FILTER` command
+# 😃🔽 Talker `FILTER` command
 
 > Part of [Talker 😃](<../../😃 Talker.md>)
 
-> Implemented by {{.FILTER.md}}
+> Implemented by the [`.FILTER` 🔽 script](<../../😃📃 Talker scripts/😃📃 .FILTER 🔽 script.md>)
 
 <br/>
 
