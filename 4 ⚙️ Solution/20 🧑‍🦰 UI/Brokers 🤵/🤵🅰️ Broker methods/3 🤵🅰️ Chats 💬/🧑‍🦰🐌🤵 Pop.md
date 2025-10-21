@@ -29,7 +29,7 @@ Header:
     Subject: Pop@Broker
 
 Body:
-    Reference: <reference-uuid>
+    Hook: <hook-uuid>
     Context: TOKEN
     Key: <token-uuid>
 ```
@@ -39,7 +39,7 @@ Body:
 | Header | `From`    | string | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  from [`Onboard@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
 || `To`      | string | [Broker 🤵](<../../🤵🤲 Broker helper.md>) from [`Onboard@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
 || `Subject` | string | `Pop@Broker`
-| Body | `Reference` | uuid | Reference for [`Converse@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/2 💬 Chats/1 🤵🐌📣 Converse.md>)
+| Body | `Hook` | uuid | `Hook` for [`Converse@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/2 💬 Chats/1 🤵🐌📣 Converse.md>)
 |       | `Context`  | enum | `HOST` `ISSUER` `VAULT` `BIND` `TOKEN` 
 |       | `Key` | uuid   | Optional index for the context
 |

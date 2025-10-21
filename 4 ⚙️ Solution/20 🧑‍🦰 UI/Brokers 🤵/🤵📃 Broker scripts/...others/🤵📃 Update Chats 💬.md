@@ -3,12 +3,16 @@
 
 ## Script
 
-> Assumes `$wallet` and `$locator` placeholders from the [`Assess@Broker` 📃 script](<../...handlers/🤵📃 Assess 🔆.md>).
+> Assumes `$wallet` from the [`Assess@Broker` 📃 script](<../...handlers/🤵📃 Assess 🔆.md>).
 
 > Continues from the [`Converse` 📃 script](<🤵📃 Converse ⏩.md>)
 
 ```yaml
 📃 UpdateChats:
+
+# Verify required inputs
+- ASSERT:
+    - $wallet
 
 # Notify Wallets to update Chats
 - SEND:
