@@ -1,11 +1,13 @@
 # 🧑‍🦰🐌🤗 Home @ Host
 
+> Implemented by the [`Home` 📃 script](<../🤗📃 Host scripts/🤗📃 Home.md>)
+
 > Shows the main menu of the [Host 🤗 domain](<../🤗🎭 Host role.md>).
 
 > Used by:
-> <br/>• [🧑‍🦰👉🗄️ Unbind](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Vaults 🗄️/💬🤵 Unbind 🗄️.md>) flow
-> <br/>• [🧑‍🦰👉🤵 Remove Token](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Tokens 🎫/💬🤵 Remove 🎫.md>) flow
-> <br/>• [🧑‍🦰👉🤵 Host home](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Chats 💬/💬🤵 Host home.md>) flow
+* [🧑‍🦰👉🗄️ Unbind](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Vaults 🗄️/💬🤵 Unbind 🗄️.md>) flow
+* [🧑‍🦰👉🤵 Remove Token](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Tokens 🎫/💬🤵 Remove 🎫.md>) flow
+* [🧑‍🦰👉🤵 Host home](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet in Chats 💬/💬🤵 Host home.md>) flow
 
 <br/>
 
@@ -54,15 +56,3 @@ Body:
 ||`Subject`|string|`Home@Host`
 |Body  |`Chat`   |uuid  | [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Hello@Host`](<🤵🐌🤗 Hello.md>)
 |
-
-<br/>
-
-## Handler
-
-```yaml
-# Get the Chat
-- GET|Chats@Host|$.Msg.Chat >> $chat
-
-# Start a Chat for the locator
-- TALK|$.Msg.Chat|$chat.Locator
-```

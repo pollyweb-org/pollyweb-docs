@@ -147,3 +147,24 @@
    
    ---
    <br/>
+
+
+1. **What's the internal logic?**
+
+    ```yaml
+    # Save the callback hook
+    - SAVE|Hooks@Talker >> hook:
+        Hook: 
+        Chat: 
+
+    - SEND:
+
+    ```
+
+    |Needs ||
+    |-|-
+    | [Commands ⌘](<../for control/⌘ Command.md>)
+    | [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Hook@Talker`](<../../😃🪣 Talker tables/😃🪣 Hooks 🪝.md>)
+    | [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`bindable@broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>)
+    | [Placeholders 🧠](<../for data/$Placeholder 🧠.md>) | [`$.Chat`](<../for data/$.Chat 💬.md>)
+    |
