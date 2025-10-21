@@ -83,7 +83,7 @@
 
     | [Command ⌘](<../for control/⌘ Command.md>) | Purpose
     |-|-
-    | ⏬ [`GET`](<../for data/GET ⏬ item.md>) | Get the Public Key of the [Wallet 🪣](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Wallets.md>) in the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>).
+    | ⏬ [`GET`](<../for data/GET ⏬ item.md>) | Get the Public Key of the [Wallet 🪣](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Wallets table.md>) in the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>).
 
     ---
     <br/>
