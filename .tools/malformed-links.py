@@ -16,6 +16,14 @@ try:
 except Exception:
     _emoji_mod = None
 
+def normalize_string(s):
+    try:
+        import emoji
+        s = emoji.replace_emoji(s, '')
+    except ImportError:
+        pass
+    return re.sub(r'\s+', '', s)
+
 all_memory = False
 
 # Globals used by worker processes (initialized via init_worker)
@@ -1779,6 +1787,36 @@ def replace_functions_tokens(md_files):
     return total
 
 
+def replace_dynamic_tokens(md_files, file_dict):
+    """Replace any remaining {{...}} tokens with links to matching .md files based on normalized names."""
+    def replacer(match, file_path):
+        token = match.group(1)
+        normalized_token = normalize_string(token)
+        if normalized_token in file_dict:
+            filename, target_path = file_dict[normalized_token]
+            rel_path = os.path.relpath(target_path, os.path.dirname(file_path))
+            return f"[`{filename}`](<{rel_path}>)"
+        else:
+            return match.group(0)
+
+    total = 0
+    for file_path in md_files:
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+        new_content, n = re.subn(r'\{\{([^}]+)\}\}', lambda m: replacer(m, file_path), content, flags=re.IGNORECASE)
+        if n > 0:
+            try:
+                with open(file_path, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                total += n
+            except Exception:
+                pass
+    return total
+
+
 def runit(project_directory):
 
 
@@ -1811,6 +1849,15 @@ def runit(project_directory):
 
     #print (f"\nProject files:  {md_files}")
     png_files = find_png_files(project_directory)
+
+    # Build file dictionary for dynamic replacements
+    file_dict = {}
+    for path in md_files:
+        filename = os.path.basename(path)
+        if filename.endswith('.md'):
+            name_without_md = filename[:-3]
+            normalized = normalize_string(name_without_md)
+            file_dict[normalized] = (name_without_md, path)
 
     # Re-run until clean or user exits
     while True:
@@ -2156,6 +2203,16 @@ def runit(project_directory):
             pass
     except Exception as e:
         print(f"Warning: failed replacing {{Functions}} tokens: {e}")
+
+    # Replace dynamic {{...}} tokens
+    try:
+        replaced = replace_dynamic_tokens(md_files, file_dict)
+        if replaced:
+            print(f"Replaced {replaced} dynamic {{...}} tokens ✅")
+        else:
+            pass
+    except Exception as e:
+        print(f"Warning: failed replacing dynamic {{...}} tokens: {e}")
 
     # Finally, add emoji at table row start based on filename in upper links
     try:
