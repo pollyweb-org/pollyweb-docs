@@ -21,8 +21,8 @@ Parents:
 
 | Link | Table | Contains
 |-|-|-
-| Parents   | [`Wallets` 🪣](<🤵🪣 Wallets table.md>) | [Wallets 🧑‍🦰](<../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
-|           | [`Domains` 🪣](<🤵🪣 Domains table.md>) | [domains 👥](<../../../40 👥 Domains/👥 Domain.md>)
+| Parents   | [`Wallets` 🪣](<🤵🪣 Wallets.md>) | [Wallets 🧑‍🦰](<../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+|           | [`Domains` 🪣](<🤵🪣 Domains.md>) | [domains 👥](<../../../40 👥 Domains/👥 Domain.md>)
 |
 
 <br/>
