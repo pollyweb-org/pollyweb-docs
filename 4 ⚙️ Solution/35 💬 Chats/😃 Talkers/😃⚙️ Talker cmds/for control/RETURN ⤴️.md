@@ -49,7 +49,7 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ No failure occurred.
     |
     
-    Here's the [Talker 😃](<../../😃 Talker.md>).
+    Here's the [Script 📃](<📃 Script.md>).
 
     ```yaml
     # 😃 Talker 
@@ -82,7 +82,7 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ Function return 1+2+3= `6`
     |
 
-    Here's the [Talker 😃](<../../😃 Talker.md>).
+    Here's the [Script 📃](<📃 Script.md>).
 
     ```yaml
     # 😃 Talker 

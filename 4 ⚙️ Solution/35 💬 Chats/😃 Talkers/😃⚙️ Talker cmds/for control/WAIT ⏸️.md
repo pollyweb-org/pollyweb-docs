@@ -88,7 +88,7 @@
     | 🍕 Pizza | ✅ Order ready!
     |
 
-    Here's the [Talker 😃](<../../😃 Talker.md>).
+    Here's the [Script 📃](<📃 Script.md>).
 
     ```yaml
     # 😃 Talker 
@@ -132,7 +132,7 @@
     | 🏦 Bank | 💬 What do you need? | `I need...`
     |
 
-    Here's the [Talker 😃](<../../😃 Talker.md>).
+    Here's the [Script 📃](<📃 Script.md>).
 
     ```yaml
     # 😃 Talker 

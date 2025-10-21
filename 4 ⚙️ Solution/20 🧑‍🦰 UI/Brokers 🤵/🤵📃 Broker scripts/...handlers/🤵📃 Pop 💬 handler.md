@@ -9,23 +9,36 @@
 ```yaml
 📃 Pop: 
 
+# Assert $.Msg
+- ASSERT|$.Msg:
+    Must: Hook, Key, Context
+    Uuid: Hook, Key
+
+# Assert $.Msg.Context
+- ASSERT|$.Msg.Context:
+    Enum: TOKEN, HOST, ISSUER, VAULT, BIND, TOKEN
+
 # Get the Wallet 🧑‍🦰
 - GET >> $wallet:
     Pool: Wallets
     Key: $.Msg.Header.From 
 
-# Verify the Message.
+# Verify the Message
 - VERIFY|$.Msg:
     Key: $wallet.PublicKey
 
-# Handle the context.
+# Handle the context
 - CASE|$.Msg.Body.Context:
-    TOKEN: TALK|PopToken
-    VAULT: TALK|PopVault
+    TOKEN: 
+        RUN|PopToken:
+            Token: 
+    VAULT:  
+        RUN|PopVault:
+            Vault: 
     BIND : TALK|PopBind
 ```
 
-Commands: [`CASE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/CASE ⏯️.md>) [`GET`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET ⏬ item.md>) [`VERIFY`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/VERIFY 🔐 msg.md>)
+Commands: [`ASSERT`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/ASSERT 🚦.md>) [`CASE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/CASE ⏯️.md>) [`GET`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET ⏬ item.md>) [`VERIFY`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/VERIFY 🔐 msg.md>)
 
 | Scripts | Details
 |-|-

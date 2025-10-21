@@ -239,7 +239,7 @@
     | 20 | 21 | 22 |
     ```
 
-    Here's the [Talker 😃](<../../😃 Talker.md>).
+    Here's the [Script 📃](<../for control/📃 Script.md>).
 
     ```yaml
     # Extract only A and B properties.
@@ -281,7 +281,7 @@
     | 20 | 21 | 22 |
     ```
     
-    Here's the [Talker 😃](<../../😃 Talker.md>).
+    Here's the [Script 📃](<../for control/📃 Script.md>).
 
     ```yaml   
     # Extract only A properties.
