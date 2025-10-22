@@ -6,12 +6,18 @@
 
 # 🤵🐌📣 Updated @ Notifier
 
-> The Broker domain tells the [Notifier 📣 domain](<../../📣👥 Notifier domain.md>) that there was an update and they need to refresh the user experience.
+> Implements the [Notifier 📣 domain](<../../📣👥 Notifier domain.md>)
 
-> Used in:
-> <br/>• [🤵⏩🧑‍🦰 Update Binds 🔗](<../../../Brokers 🤵/🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Binds 🔗.md>)
-> <br/>• [🤵⏩🧑‍🦰 Update tokens](<../../../Brokers 🤵/🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Tokens 🎫.md>)
-> <br/>• [🤵⏩🧑‍🦰 Update chats 💬](<../../../Brokers 🤵/🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Chats 💬.md>)
+> Purpose
+* The [Broker 🤵 domain](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) 
+    * tells the [Notifier 📣 domain](<../../📣👥 Notifier domain.md>) 
+    * that there was an update 
+    * and they need to refresh the user experience.
+
+> Used in
+* [🤵⏩🧑‍🦰 Update Binds 🔗](<../../../Brokers 🤵/🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Binds 🔗.md>)
+* [🤵⏩🧑‍🦰 Update tokens](<../../../Brokers 🤵/🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Tokens 🎫.md>)
+* [🤵⏩🧑‍🦰 Update chats 💬](<../../../Brokers 🤵/🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Chats 💬.md>)
 
 <br/>
 
@@ -22,6 +28,7 @@ Header:
     From: any-broker.dom
     To: any-notifier.dom
     Subject: Updated@Notifier
+    
 Body:
     Wallet: <wallet-uuid>
     Updates: [ CHATS, BINDS ]

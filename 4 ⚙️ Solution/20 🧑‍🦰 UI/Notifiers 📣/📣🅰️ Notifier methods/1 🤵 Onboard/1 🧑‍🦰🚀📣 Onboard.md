@@ -5,10 +5,16 @@
 
 # 🧑‍🦰🚀📣 Onboard @ Notifier
 
-A new [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) asks a [Notifier 📣 domain](<../../📣👥 Notifier domain.md>) to onboard.
+> Implements the [Notifier 📣 domain](<../../📣👥 Notifier domain.md>)
 
-* Used in [Onboard 🧑‍🦰👉🤵](<../../../Wallets 🧑‍🦰/🧑‍🦰✨ Wallet onboard/💬🤵 Onboard.md>) to register the channel between the [Notifier 📣 domain](<../../📣👥 Notifier domain.md>) and the [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) (e.g., sockets). 
+> Purpose
+
+* A new [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) asks a [Notifier 📣 domain](<../../📣👥 Notifier domain.md>) to onboard.
+
+> Used in 
+* [Onboard 🧑‍🦰👉🤵](<../../../Wallets 🧑‍🦰/🧑‍🦰✨ Wallet onboard/💬🤵 Onboard.md>) to register the channel between the [Notifier 📣 domain](<../../📣👥 Notifier domain.md>) and the [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) (e.g., sockets). 
  
+> Notes
 * Should wait for the notifications to start working before allowing the user to fully use the [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
 
 <br/>

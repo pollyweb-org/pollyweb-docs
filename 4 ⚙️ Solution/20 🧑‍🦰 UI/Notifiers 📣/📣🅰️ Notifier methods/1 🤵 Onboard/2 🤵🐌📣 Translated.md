@@ -4,10 +4,14 @@
 
 # 🤵🐌📣 Translated @ Notifier
 
-> Brokers domains call [Notifier 📣 domains](<../../📣👥 Notifier domain.md>) to re-render translated contented.
+> Implements the [Notifier 📣 domain](<../../📣👥 Notifier domain.md>)
+
+> Purpose
+* [Broker 🤵 domains](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) call [Notifier 📣 domains](<../../📣👥 Notifier domain.md>) to re-render translated contented.
 
 
-> Used by [🧑‍🦰👉🤵 Translate](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/💬🤵 Translate.md>) 
+> Used by 
+* [🧑‍🦰👉🤵 Translate](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/💬🤵 Translate.md>) 
 
 <br/>
 

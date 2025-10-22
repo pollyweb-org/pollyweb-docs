@@ -2021,19 +2021,87 @@ def replace_itemized_datasets_tokens(md_files):
     return total
 
 
+def replace_notifier_tokens(md_files):
+    """Replace '{{Notifier}}' (allowing optional inner spaces) with '[Notifier 📣 domain](<📣👥 Notifier domain.md>)' in all md files."""
+    # Allow normal and unicode non-breaking/zero-width spaces around Notifier
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Notifier`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[Notifier 📣 domain](<📣👥 Notifier domain.md>)"
+    total = 0
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+        new_content, n = pattern.subn(replacement, content)
+        if n > 0:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                total += n
+            except Exception:
+                pass
+    return total
+
+
+def replace_notifiers_tokens(md_files):
+    """Replace '{{Notifiers}}' (allowing optional inner spaces) with '[Notifier 📣 domains](<📣👥 Notifier domain.md>)' in all md files."""
+    # Allow normal and unicode non-breaking/zero-width spaces around Notifiers
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Notifiers`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[Notifier 📣 domains](<📣👥 Notifier domain.md>)"
+    total = 0
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+        new_content, n = pattern.subn(replacement, content)
+        if n > 0:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                total += n
+            except Exception:
+                pass
+    return total
+
+
 def replace_dynamic_tokens(md_files, file_dict):
     """Replace any remaining {{...}} tokens with links to matching .md files based on normalized names."""
     def replacer(match, file_path):
         token = match.group(1)
-        # Use the part before '@' for matching, if '@' exists
-        file_token = token.split('@', 1)[0]
-        normalized_token = normalize_string(file_token)
-        if normalized_token in file_dict:
-            filename, target_path = file_dict[normalized_token]
-            rel_path = os.path.relpath(target_path, os.path.dirname(file_path))
-            return f"[`{token}`](<{rel_path}>)"
+        parts = token.split('@', 1)
+        if len(parts) == 2:
+            # Try after @ first
+            file_token = parts[1]
+            normalized_token = normalize_string(file_token)
+            if normalized_token in file_dict:
+                filename, target_path = file_dict[normalized_token]
+                rel_path = os.path.relpath(target_path, os.path.dirname(file_path))
+                return f"[`{token}`](<{rel_path}>)"
+            # If not, try before @
+            file_token = parts[0]
+            normalized_token = normalize_string(file_token)
+            if normalized_token in file_dict:
+                filename, target_path = file_dict[normalized_token]
+                rel_path = os.path.relpath(target_path, os.path.dirname(file_path))
+                return f"[`{token}`](<{rel_path}>)"
         else:
-            return match.group(0)
+            # No @, use whole token
+            file_token = token
+            normalized_token = normalize_string(file_token)
+            if normalized_token in file_dict:
+                filename, target_path = file_dict[normalized_token]
+                rel_path = os.path.relpath(target_path, os.path.dirname(file_path))
+                return f"[`{token}`](<{rel_path}>)"
+        return match.group(0)
 
     total = 0
     for file_path in md_files:
@@ -2532,6 +2600,26 @@ def runit(project_directory):
             pass
     except Exception as e:
         print(f"Warning: failed replacing {{Itemized datasets}} tokens: {e}")
+
+    # Replace {{Notifier}} tokens
+    try:
+        replaced = replace_notifier_tokens(md_files)
+        if replaced:
+            print(f"Replaced {replaced} {{Notifier}} tokens ✅")
+        else:
+            pass
+    except Exception as e:
+        print(f"Warning: failed replacing {{Notifier}} tokens: {e}")
+
+    # Replace {{Notifiers}} tokens
+    try:
+        replaced = replace_notifiers_tokens(md_files)
+        if replaced:
+            print(f"Replaced {replaced} {{Notifiers}} tokens ✅")
+        else:
+            pass
+    except Exception as e:
+        print(f"Warning: failed replacing {{Notifiers}} tokens: {e}")
 
     # Replace dynamic {{...}} tokens
     try:

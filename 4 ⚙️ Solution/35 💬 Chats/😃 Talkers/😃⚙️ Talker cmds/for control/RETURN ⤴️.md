@@ -112,12 +112,12 @@
 
     ```yaml
     PlaceholderProc:
-    - RETURN|!1
+    - RETURN|$:1
     ```
 
     ```yaml
     FunctionProc:
-    - RETURN|.Sum([!1,!2,!3])
+    - RETURN|.Sum([ $:1, $:2, $:3 ])
     ```
 
     Commands: [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`RUN`](<RUN ▶️.md>) [`{.Sum}`](<../for data/{Function} 🐍.md>)

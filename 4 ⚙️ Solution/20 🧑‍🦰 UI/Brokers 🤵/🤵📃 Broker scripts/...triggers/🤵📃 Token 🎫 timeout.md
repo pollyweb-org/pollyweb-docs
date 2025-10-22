@@ -5,6 +5,14 @@
 * [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/📃 Script.md>) to execute when a soft delete of [`Tokens` 🪣 table](<../../🤵🪣 Broker tables/🤵🪣 Tokens table.md>) times out.
 * Triggered by the [`Trigger@Talker` 🅰️ method](<../../../../35 💬 Chats/😃 Talkers/😃🅰️ Talker methods/🛢🐌😃 Deleted.md>)
 
+## How to call
+
+```yaml
+- RUN|TokenTimeout:
+    Item: 
+        Path: /path/to
+        Wallet: <wallet-uuid>
+```
 
 ## Script
 
@@ -12,27 +20,27 @@
 📃 TokenTimeout:
 
 # Assert the inputs
-- ASSERT|!Item:
+- ASSERT|$:Item:
     AllOf: Path, Wallet
     Texts: Path
     UUIDs: Wallet
 
 # Get the Wallet 🧑‍🦰
 - GET >> $wallet:
-    SetWallets@Broker
-    Key: !Item.Wallet
+    Set: Wallets@Broker
+    Key: $:Item.Wallet
 
 # Remove from Wallet
 - SEND:
     To: $wallet.Notifier
     Subject: Remove@Notifier
-    Wallet: !Item.Wallet
-    Path: !Item.Path
+    Wallet: $:Item.Wallet
+    Path: $:Item.Path
 ```
 
 |Needs ||
 |-|-
 | [Commands ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | [`ASSERT`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/ASSERT 🚦.md>) [`GET`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET ⏬ item.md>) [`SEND`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for flows/$SEND 📬 msg.md>)
 | [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Tokens`](<../../🤵🪣 Broker tables/🤵🪣 Tokens table.md>)
-| [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Remove@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/3 🤵🐌📣 Remove.md>)
+| [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Remove@Notifier` 🅰️ method](<../../../Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/3 🤵🐌📣 Remove.md>)
 |

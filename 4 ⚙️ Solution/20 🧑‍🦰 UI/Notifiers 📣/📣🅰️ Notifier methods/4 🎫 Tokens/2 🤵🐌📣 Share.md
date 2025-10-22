@@ -1,5 +1,7 @@
 # 🤵💼🐌📣 Share @ Notifier
 
+> Implements the [Notifier 📣 domain](<../../📣👥 Notifier domain.md>)
+
 > Sends [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) to a [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>).
 
 > Part of [💼⏩🧑‍🦰 Share Token @ Consumer](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Token 🎫.md>) flow:
