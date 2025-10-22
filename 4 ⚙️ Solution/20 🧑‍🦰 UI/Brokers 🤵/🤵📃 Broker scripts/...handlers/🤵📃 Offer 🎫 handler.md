@@ -72,5 +72,5 @@ Needs||
 | [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Domain`](<../../🤵🪣 Broker tables/🤵🪣 Domains.md>) [`Tokens`](<../../🤵🪣 Broker tables/🤵🪣 Tokens.md>)
 | [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>)
 | [Placeholders 🧠](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/$Placeholder 🧠.md>) | [`$.Msg`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/$.Msg 📨.md>) [`$.Settings`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/$.Settings 🎛️.md>)
-| [Scripts 📃](<📃 Script.md>) | [`Update Domain`](<../...others/🤵📃 Update Domain 🪣.md>)
+| [Scripts 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/📃 Script.md>) | [`Update Domain`](<../...others/🤵📃 Update Domain 🪣.md>)
 |

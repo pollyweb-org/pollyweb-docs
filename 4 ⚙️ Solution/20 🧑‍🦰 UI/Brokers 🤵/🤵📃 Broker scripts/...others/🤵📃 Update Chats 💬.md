@@ -12,7 +12,9 @@
 
 # Verify required inputs
 - ASSERT:
-    AllOf: !wallet
+    - !wallet
+    - !wallet.Notifier
+    - !wallet.Wallet
 
 # Notify Wallets to update Chats
 - SEND:
