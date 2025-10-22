@@ -23,22 +23,37 @@
 1. **What's the syntax of a delete?**
 
     ```yaml
+    # After a GET
+    - DELETE|$item
+    ```
+
+    | Argument| Purpose 
+    |-|-
+    | `$item` | Previous return from [`GET`](<GET ⏬ item.md>) 
+
+    <br/>
+
+    ```yaml
     # Inline
     - DELETE|<set>|<key>
 
-    # Multiline
+    # Comprehensive
     - DELETE:
         Set: <set>
         Key: {key}
+        Undo: <undo> <days|hours|minutes|months>
     ```
 
 
     | Argument| Purpose | Example
     |-|-|-
-    | `<set>` | Name of the dataset | `MySet`
-    | `<key>` | Key(s) to delete from the set | `A` `A,B` `$a` 
-    | `{key}` | Key to delete from the set | `{A:1,B:2}`
-
+    | `Set` | Name of the dataset | `MySet`
+    | `Key` | Key(s) to delete from the set |-
+    ||  `<key>` as a string or array | `A` `A,B` `$a` 
+    || `{key}` as an object map | `{A:1,B:2}`
+    | `Undo` | Hide to allow an [`UNDO`](<UNDO ↩️.md>) later | `30 days`
+    | | `days` `hours` `minutes` `months`
+    
     ---
     <br/>
 
@@ -57,26 +72,3 @@
     ---
     <br/>
 
-
-1. **What's the syntax for soft deletes?**
-
-    <!-- TODO: add the property explanations -->
-
-    See a comprehensive example at [`UNDO`](<UNDO ↩️.md>).
-
-    ```yaml
-    DELETE|<set>|<key>:
-        Undo: <n> <days|hours|minutes|months>
-    ````
-
-
-
-    ---
-    <br/>
-
-1. **What's a use case for soft deletes?**
-
-    See [Pop Token 🔆](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📃 Broker scripts/...procedures/🤵📃 Pop Token 🎫.md>).
-
-    ---
-    <br/>

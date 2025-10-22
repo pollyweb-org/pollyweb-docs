@@ -1,4 +1,4 @@
-# Non-blocking result ✅
+# ✅ Non-blocking `SUCCESS` 
 
 > Part of [Non-blocking status prompts 🤔](<../🤔⚙️ Prompt features/8 ⚠️ as Status.md>)
 

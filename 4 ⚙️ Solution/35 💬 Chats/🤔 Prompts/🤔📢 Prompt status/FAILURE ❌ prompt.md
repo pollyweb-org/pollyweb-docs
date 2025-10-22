@@ -1,4 +1,4 @@
-# Non-blocking failure ❌
+# ❌ Non-blocking `FAILURE` 
 
 > Part of [Non-blocking status prompts 🤔](<../🤔⚙️ Prompt features/8 ⚠️ as Status.md>)
 
