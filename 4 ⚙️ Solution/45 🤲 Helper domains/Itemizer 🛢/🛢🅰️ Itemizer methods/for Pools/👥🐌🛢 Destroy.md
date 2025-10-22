@@ -1,3 +1,0 @@
-<!-- TODO: detail -->
-
-# 👥🐌🛢 Destroy
