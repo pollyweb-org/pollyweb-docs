@@ -17,11 +17,9 @@ except Exception:
     _emoji_mod = None
 
 def normalize_string(s):
-    try:
-        import emoji
-        s = emoji.replace_emoji(s, '')
-    except ImportError:
-        pass
+    # Remove emojis using regex (fallback if emoji library not available)
+    s = _GENERAL_EMOJI_RE.sub('', s)
+    # Remove spaces
     return re.sub(r'\s+', '', s)
 
 all_memory = False
@@ -788,9 +786,33 @@ def replace_curly_at_mentions(md_files):
         changed = False
 
         for token in tokens:
-            href, base = _pick_matching_link(token, links_here)
-            if not href:
-                href, base = _pick_matching_link(token, project_index)
+            if '@' in token:
+                parts = token.split('@', 1)
+                after = parts[1]
+                # Try after @ first
+                href, base = _pick_matching_link(after, links_here)
+                if not href:
+                    href, base = _pick_matching_link(after, project_index)
+                if not href:
+                    # Try suffixes
+                    for suffix in ["role", "domain", "agent", "helper"]:
+                        candidate = after + suffix
+                        href, base = _pick_matching_link(candidate, links_here)
+                        if href:
+                            break
+                        href, base = _pick_matching_link(candidate, project_index)
+                        if href:
+                            break
+                if not href:
+                    # Try before @
+                    before = parts[0]
+                    href, base = _pick_matching_link(before, links_here)
+                    if not href:
+                        href, base = _pick_matching_link(before, project_index)
+            else:
+                href, base = _pick_matching_link(token, links_here)
+                if not href:
+                    href, base = _pick_matching_link(token, project_index)
             if not href:
                 continue
 
