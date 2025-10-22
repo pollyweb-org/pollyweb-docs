@@ -1,6 +1,9 @@
 # 🤵📃 Token 🎫 timeout
 
-> [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/📃 Script.md>) to execute when a soft delete of [`Tokens` 🪣 table](<../../🤵🪣 Broker tables/🤵🪣 Tokens table.md>) times out.
+> Purpose: 
+
+* [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/📃 Script.md>) to execute when a soft delete of [`Tokens` 🪣 table](<../../🤵🪣 Broker tables/🤵🪣 Tokens table.md>) times out.
+* Triggered by the [`Trigger@Talker` 🅰️ method](<../../../../35 💬 Chats/😃 Talkers/😃🅰️ Talker methods/🛢🐌😃 Trigger.md>)
 
 
 ## Script
