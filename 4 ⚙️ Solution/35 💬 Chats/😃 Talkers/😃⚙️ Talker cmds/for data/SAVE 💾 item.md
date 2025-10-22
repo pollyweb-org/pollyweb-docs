@@ -68,12 +68,21 @@
 1. **What's the syntax of an update SAVE?**
 
     ```yaml
+    # Simplest
     SAVE|$item
+
+    # Comprehensive
+    SAVE|$item: 
+        {changes}
+        .Timeout: {period}
     ```
 
-    | Argument| Purpose 
-    |-|-
-    | `$item` | [Placeholder 🧠](<$Placeholder 🧠.md>) item loaded with [`GET` ⏬](<GET ⏬ item.md>)
+    | Argument| Purpose | Examples
+    |-|-|-
+    | `$item` | [Placeholder 🧠](<$Placeholder 🧠.md>) loaded with [`GET`](<GET ⏬ item.md>)
+    | `{changes}` | Object with changes to apply | `{A:1, B:2}`
+    | `.Timeout` | Automatic delete for cleanup, in | `30 days`
+    | | `minutes` `hours` `days` `months`
 
     ---
     <br/>
@@ -87,11 +96,9 @@
         Key: anExistingKey
 
     # Change a single property
-    - EVAL|$item:
-        a: 1
-    
     # Save or fail on concurrent saves
-    - SAVE|$item 
+    - SAVE|$item:
+        a: 1
     ```
 
     Commands: [`EVAL`](<EVAL ⬇️ flow.md>) [`GET`](<GET ⏬ item.md>) [`SAVE`](<SAVE 💾 item.md>)
@@ -114,12 +121,9 @@
             a: 0
             b: 2
 
-    # Change to {a:1, b:2}
-    - EVAL|$item:
-        a: 1
-
     # Save {a:1, b:2}
-    - SAVE|$item 
+    - SAVE|$item:
+        a: 1
     ```
 
     Commands: [`EVAL`](<EVAL ⬇️ flow.md>) [`GET`](<GET ⏬ item.md>) [`SAVE`](<SAVE 💾 item.md>)
