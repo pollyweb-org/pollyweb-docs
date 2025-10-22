@@ -1,4 +1,4 @@
-# 😃 Talker `<Command>`
+# 😃⌘ Talker `<Command>`
 
 > Part of [Talker 😃](<../../😃 Talker role.md>)
 
@@ -70,6 +70,8 @@
 
 1. **What are Message commands?**
 
+    <!-- TODO: Finish the table -->
+
     |Command|Purpose
     |-|-
     | 🔗 [`BIND`](<../for flows/BIND 🔗 msg.md>) | Calls the [Bind Vault @ Wallet ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🗄️ Bind 🔗.md>) flow.
@@ -126,5 +128,71 @@
     |#|Step|Details
     |-|-|-
     |1| `Upload` | Upload the [Script 📃](<📃 Script.md>) for the [Command ⌘](<⌘ Command.md>)
-    |2| `Parse` | Parse the command at 
-    ||
+    |2| `Parse` | Parse it at the [`Parse@Hosted` 🅰️ method](<../../../../55 👷 Build domains/Hosteds 📦/📦📄 Hosted files/🗺️📄 Map file.md>)
+    |3| `Register`| Register it on the [`Commands.yamlx` ⌘ file](<../../../../55 👷 Build domains/Hosteds 📦/📦📄 Hosted files/📄⌘ Commands file.md>) 
+    
+
+    ---
+    <br/>
+
+1. **How to build a customer `ECHO` command?**
+
+    Here's the [Chat 💬](<../../../💬 Chats/💬 Chat.md>)
+
+    | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+    | - | - | - |
+    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 Hi! What do you need? <br/>- [ Test ] my echo | > Test
+    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 💬 Say something | `Test`
+    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ Custom echo `Test`
+    |
+
+    <br/>
+
+    Here's the [Script 📃](<📃 Script.md>) for the [`Hello@Host` 🅰️ method](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Goodbye 👋.md>) 
+
+    ```yaml
+    💬 /Test my echo:
+    - TEXT|Say something >> $something
+    - ECHO|$something
+    ```
+    Commands: [`TEXT`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/32 🔠 TEXT prompt.md>)
+
+    <br/>
+
+    Here's the `ECHO` [Script 📃](<📃 Script.md>)
+
+    ```yaml
+    📃 .ECHO:
+    - INFO|Custom echo `{$:UserInput}`
+    ```
+    Commands: [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>)
+
+    <br/>
+
+    Here's the python handler for the [`Parse@Hosted` 🅰️ method](<../../../../55 👷 Build domains/Hosteds 📦/📦📄 Hosted files/🗺️📄 Map file.md>)
+
+    ```python
+    def talkerParser(args):
+        match args['Command']:
+            case 'ECHO':
+
+                # Get the raw input
+                #   ECHO|$something
+                input_str = args['Input']             
+
+                # Extract the placeholder
+                #   $something
+                parts = input_str.split("|", 1)       
+                placeholder = parts[1] if len(parts) > 1 else ""
+
+                # Instruct what to do next
+                return {
+                    'RUN|.ECHO': {
+                        'UserInput': placeholder
+                    }
+                }
+    ```
+    Commands: [`RUN`](<RUN ▶️.md>)
+
+    ---
+    <br/>
