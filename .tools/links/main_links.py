@@ -122,7 +122,7 @@ def runit(project_directory, entryPoint):
         broken_links, malformed_links, replacement_char_hits, finished = check_broken_links(md_files, png_files, project_directory)
 
         # Print the results to "link-issues.md"
-        print_results(broken_links, malformed_links, replacement_char_hits, yes_memory, all_memory)
+        print_results(broken_links, malformed_links, replacement_char_hits, yes_memory, all_memory, project_directory)
 
         # If clean, stop; otherwise prompt to repeat
         if not broken_links and not malformed_links and not replacement_char_hits:
