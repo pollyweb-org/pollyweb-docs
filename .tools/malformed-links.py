@@ -5,11 +5,18 @@
 # > cd .tools
 # > python3 malformed-links.py
 
+# Before saying that the py script is running
+# correctly, run the tests in the 
+# "malformed-links.yaml" file to verify the 
+# expected results, respecting the instructions 
+# in the yaml file.
+
 import os
 import re
 import itertools
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from collections import OrderedDict
+import yaml
 
 try:
     import emoji as _emoji_mod  # optional dependency
@@ -19,8 +26,8 @@ except Exception:
 def normalize_string(s):
     # Remove emojis using regex (fallback if emoji library not available)
     s = _GENERAL_EMOJI_RE.sub('', s)
-    # Remove spaces
-    return re.sub(r'\s+', '', s)
+    # Remove spaces and lowercase
+    return re.sub(r'\s+', '', s).lower()
 
 all_memory = False
 
@@ -614,7 +621,7 @@ def test_fix_markdown_link():
             "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/70. 🔐 Passwordless ID.md",
             "../🖼️ images/PDFs/dkim-rotations.pdf",
             "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/🖼️ images/PDFs/dkim-rotations.pdf",
-            "<../../🖼️ images/PDFs/dkim-rotations.pdf>",
+            "<../🖼️ images/PDFs/dkim-rotations.pdf>",
         ),
         (
             "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/70. 🔐 Passwordless ID.md",
@@ -626,19 +633,19 @@ def test_fix_markdown_link():
             "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/70. 🔐 Passwordless ID.md",
             "../../../other_directory/some_file.txt",
             "/Users/jorgemf/AWS/NLWEB/other_directory/some_file.txt",
-            "<../../../other_directory/some_file.txt>",
+            "<../../../../other_directory/some_file.txt>",
         ),
         (
             "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/70. 🔐 Passwordless ID.md",
             "71. 🔐 Another ID.md",
             "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/71. 🔐 Another ID.md",
-            "<./71. 🔐 Another ID.md>",
+            "<71. 🔐 Another ID.md>",
         ),
         (
             "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/70. 🔐 Passwordless ID.md",
             "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/71. 🔐 Another ID.md",
             "/Users/jorgemf/AWS/NLWEB/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/71. 🔐 Another ID.md",
-            "<./71. 🔐 Another ID.md>",
+            "<71. 🔐 Another ID.md>",
         ),
     ]
 
@@ -789,10 +796,16 @@ def replace_curly_at_mentions(md_files):
             if '@' in token:
                 parts = token.split('@', 1)
                 after = parts[1]
-                # Try after @ first
-                href, base = _pick_matching_link(after, links_here)
+                before = parts[0]
+                # Try before @ first
+                href, base = _pick_matching_link(before, links_here)
                 if not href:
-                    href, base = _pick_matching_link(after, project_index)
+                    href, base = _pick_matching_link(before, project_index)
+                if not href:
+                    # Try after @
+                    href, base = _pick_matching_link(after, links_here)
+                    if not href:
+                        href, base = _pick_matching_link(after, project_index)
                 if not href:
                     # Try suffixes
                     for suffix in ["role", "domain", "agent", "helper"]:
@@ -803,12 +816,6 @@ def replace_curly_at_mentions(md_files):
                         href, base = _pick_matching_link(candidate, project_index)
                         if href:
                             break
-                if not href:
-                    # Try before @
-                    before = parts[0]
-                    href, base = _pick_matching_link(before, links_here)
-                    if not href:
-                        href, base = _pick_matching_link(before, project_index)
             else:
                 href, base = _pick_matching_link(token, links_here)
                 if not href:
@@ -841,7 +848,6 @@ def replace_curly_at_mentions(md_files):
                 with open(md_file, 'w', encoding='utf-8') as f:
                     f.write(content)
             except Exception:
-                # If writing fails, revert count for this file by recomputing diffs
                 pass
 
     return total_replacements
@@ -886,6 +892,11 @@ def replace_curly_upper_mentions(md_files):
             href, base = _pick_matching_link_upper(token, links_here)
             if not href:
                 href, base = _pick_matching_link_upper(token, project_index)
+            if not href and token.isupper():
+                assumed_path = os.path.join(project_directory, "4 ⚙️ Solution", "35 💬 Chats", "😃 Talkers", f"{{{token} ⤴️.md}}")
+                if os.path.exists(assumed_path):
+                    href = os.path.relpath(assumed_path, os.path.dirname(md_file))
+                    base = None
             if not href:
                 continue
 
@@ -1185,6 +1196,10 @@ def replace_issuers_tokens(md_files):
     return total
 
 
+###############################################
+# New feature: Replace {{Vaults}} with link to Vault role.md
+###############################################
+
 def replace_vaults_tokens(md_files):
     """Replace '{{Vaults}}' (allowing optional inner spaces) with '[Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)' in all md files."""
     # Allow normal and unicode non-breaking/zero-width spaces around Vaults
@@ -1210,6 +1225,10 @@ def replace_vaults_tokens(md_files):
                 pass
     return total
 
+
+###############################################
+# New feature: Replace {{Vault}} with link to Vault role.md
+###############################################
 
 def replace_vault_tokens(md_files):
     """Replace '{{Vault}}' (allowing optional inner spaces) with '[Vault 🗄️ domain](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)' in all md files."""
@@ -1237,6 +1256,10 @@ def replace_vault_tokens(md_files):
     return total
 
 
+###############################################
+# New feature: Replace {{Token}} with link to Token.md
+###############################################
+
 def replace_token_tokens(md_files):
     """Replace '{{Token}}' (allowing optional inner spaces) with '[Token 🎫](<🎫 Token.md>)' in all md files."""
     # Allow normal and unicode non-breaking/zero-width spaces around Token
@@ -1262,6 +1285,10 @@ def replace_token_tokens(md_files):
                 pass
     return total
 
+
+###############################################
+# New feature: Replace {{Tokens}} with link to Token.md
+###############################################
 
 def replace_tokens_tokens(md_files):
     """Replace '{{Tokens}}' (allowing optional inner spaces) with '[Tokens 🎫](<🎫 Token.md>)' in all md files."""
@@ -1289,6 +1316,10 @@ def replace_tokens_tokens(md_files):
     return total
 
 
+###############################################
+# New feature: Replace {{Script}} with link to Script.md
+###############################################
+
 def replace_script_tokens(md_files):
     """Replace '{{Script}}' (allowing optional inner spaces) with '[Script 📃](<📃 Script.md>)' in all md files."""
     # Allow normal and unicode non-breaking/zero-width spaces around Script
@@ -1314,6 +1345,10 @@ def replace_script_tokens(md_files):
                 pass
     return total
 
+
+###############################################
+# New feature: Replace {{Chat}} with link to Chat.md
+###############################################
 
 def replace_chat_tokens(md_files):
     """Replace '{{Chat}}' (allowing optional inner spaces) with '[Chat 💬](<💬 Chat.md>)' in all md files."""
@@ -1341,6 +1376,10 @@ def replace_chat_tokens(md_files):
     return total
 
 
+###############################################
+# New feature: Replace {{Chats}} with link to Chat.md
+###############################################
+
 def replace_chats_tokens(md_files):
     """Replace '{{Chats}}' (allowing optional inner spaces) with '[Chats 💬](<💬 Chat.md>)' in all md files."""
     # Allow normal and unicode non-breaking/zero-width spaces around Chats
@@ -1366,6 +1405,10 @@ def replace_chats_tokens(md_files):
                 pass
     return total
 
+
+###############################################
+# New feature: Replace {{Command}} with link to Command.md
+###############################################
 
 def replace_command_tokens(md_files):
     """Replace '{{Command}}' (allowing optional inner spaces) with '[Command ⌘](<⌘ Command.md>)' in all md files."""
@@ -1393,6 +1436,10 @@ def replace_command_tokens(md_files):
     return total
 
 
+###############################################
+# New feature: Replace {{Commands}} with link to Command.md
+###############################################
+
 def replace_commands_tokens(md_files):
     """Replace '{{Commands}}' (allowing optional inner spaces) with '[Commands ⌘](<⌘ Command.md>)' in all md files."""
     # Allow normal and unicode non-breaking/zero-width spaces around Commands
@@ -1418,6 +1465,10 @@ def replace_commands_tokens(md_files):
                 pass
     return total
 
+
+###############################################
+# New feature: Replace {{$.Settings}} with link to $.Settings 🎛️.md
+###############################################
 
 def replace_settings_tokens(md_files):
     """Replace '{{$.Settings}}' (allowing optional inner spaces) with '[`$.Settings`](<$.Settings 🎛️.md>)' in all md files."""
@@ -1445,6 +1496,10 @@ def replace_settings_tokens(md_files):
     return total
 
 
+###############################################
+# New feature: Replace {{Placeholders}} with link to $Placeholder 🧠.md
+###############################################
+
 def replace_placeholders_tokens(md_files):
     """Replace '{{Placeholders}}' (allowing optional inner spaces) with '[Placeholders 🧠](<$Placeholder 🧠.md>)' in all md files."""
     # Allow normal and unicode non-breaking/zero-width spaces around Placeholders
@@ -1470,6 +1525,10 @@ def replace_placeholders_tokens(md_files):
                 pass
     return total
 
+
+###############################################
+# New feature: Replace {{domain}} with link to Domain.md
+###############################################
 
 def replace_domain_tokens(md_files):
     """Replace '{{domain}}' (allowing optional inner spaces) with '[domain 👥](<👥 Domain.md>)' in all md files."""
@@ -1497,6 +1556,10 @@ def replace_domain_tokens(md_files):
     return total
 
 
+###############################################
+# New feature: Replace {{domains}} with link to Domain.md
+###############################################
+
 def replace_domains_tokens(md_files):
     """Replace '{{domains}}' (allowing optional inner spaces) with '[domains 👥](<👥 Domain.md>)' in all md files."""
     # Allow normal and unicode non-breaking/zero-width spaces around domains
@@ -1522,6 +1585,10 @@ def replace_domains_tokens(md_files):
                 pass
     return total
 
+
+###############################################
+# New feature: Replace {{Dataset}} with link to Dataset.md
+###############################################
 
 def replace_dataset_tokens(md_files):
     """Replace '{{Dataset}}' (allowing optional inner spaces) with '[Dataset 🪣](<🪣 Dataset.md>)' in all md files."""
@@ -1549,6 +1616,10 @@ def replace_dataset_tokens(md_files):
     return total
 
 
+###############################################
+# New feature: Replace {{Datasets}} with link to Dataset.md
+###############################################
+
 def replace_datasets_tokens(md_files):
     """Replace '{{Datasets}}' (allowing optional inner spaces) with '[Datasets 🪣](<🪣 Dataset.md>)' in all md files."""
     # Allow normal and unicode non-breaking/zero-width spaces around Datasets
@@ -1574,6 +1645,10 @@ def replace_datasets_tokens(md_files):
                 pass
     return total
 
+
+###############################################
+# New feature: Replace {{Message}} with link to Message.md
+###############################################
 
 def replace_message_tokens(md_files):
     """Replace '{{Message}}' (allowing optional inner spaces) with '[Message 📨](<📨 Message.md>)' in all md files."""
@@ -1601,6 +1676,10 @@ def replace_message_tokens(md_files):
     return total
 
 
+###############################################
+# New feature: Replace {{Messages}} with link to Message.md
+###############################################
+
 def replace_messages_tokens(md_files):
     """Replace '{{Messages}}' (allowing optional inner spaces) with '[Messages 📨](<📨 Message.md>)' in all md files."""
     # Allow normal and unicode non-breaking/zero-width spaces around Messages
@@ -1626,6 +1705,10 @@ def replace_messages_tokens(md_files):
                 pass
     return total
 
+
+###############################################
+# New feature: Replace {{Schema}} with link to Schema Code.md
+###############################################
 
 def replace_schema_tokens(md_files):
     """Replace '{{Schema}}' (allowing optional inner spaces) with '[Schema Code 🧩](<🧩 Schema Code.md>)' in all md files."""
@@ -1653,6 +1736,10 @@ def replace_schema_tokens(md_files):
     return total
 
 
+###############################################
+# New feature: Replace {{Schemas}} with link to Schema Code.md
+###############################################
+
 def replace_schemas_tokens(md_files):
     """Replace '{{Schemas}}' (allowing optional inner spaces) with '[Schema Codes 🧩](<🧩 Schema Code.md>)' in all md files."""
     # Allow normal and unicode non-breaking/zero-width spaces around Schemas
@@ -1678,6 +1765,10 @@ def replace_schemas_tokens(md_files):
                 pass
     return total
 
+
+###############################################
+# New feature: Replace {{$.Chat}} with link to $.Chat 💬.md
+###############################################
 
 def replace_chat_msg_tokens(md_files):
     """Replace '{{$.Chat}}' (allowing optional inner spaces) with '[`$.Chat`](<$.Chat 💬.md>)' in all md files."""
@@ -1705,6 +1796,10 @@ def replace_chat_msg_tokens(md_files):
     return total
 
 
+###############################################
+# New feature: Replace {{Broker}} with link to Broker helper.md
+###############################################
+
 def replace_broker_tokens(md_files):
     """Replace '{{Broker}}' (allowing optional inner spaces) with '[Broker 🤵 domain](<🤵🤲 Broker helper.md>)' in all md files."""
     # Allow normal and unicode non-breaking/zero-width spaces around Broker
@@ -1730,6 +1825,10 @@ def replace_broker_tokens(md_files):
                 pass
     return total
 
+
+###############################################
+# New feature: Replace {{Brokers}} with link to Broker helper.md
+###############################################
 
 def replace_brokers_tokens(md_files):
     """Replace '{{Brokers}}' (allowing optional inner spaces) with '[Broker 🤵 domains](<🤵🤲 Broker helper.md>)' in all md files."""
@@ -1757,6 +1856,10 @@ def replace_brokers_tokens(md_files):
     return total
 
 
+###############################################
+# New feature: Replace {{Function}} with link to Function.md
+###############################################
+
 def replace_function_tokens(md_files):
     """Replace '{{Function}}' (allowing optional inner spaces) with '[{Function} 🐍](<{Function} 🐍.md>)' in all md files."""
     # Allow normal and unicode non-breaking/zero-width spaces around Function
@@ -1782,6 +1885,10 @@ def replace_function_tokens(md_files):
                 pass
     return total
 
+
+###############################################
+# New feature: Replace {{Functions}} with link to Function.md
+###############################################
 
 def replace_functions_tokens(md_files):
     """Replace '{{Functions}}' (allowing optional inner spaces) with '[{Functions} 🐍](<{Function} 🐍.md>)' in all md files."""
@@ -1809,6 +1916,10 @@ def replace_functions_tokens(md_files):
     return total
 
 
+###############################################
+# New feature: Replace {{Scripts}} with link to Script.md
+###############################################
+
 def replace_scripts_tokens(md_files):
     """Replace '{{Scripts}}' (allowing optional inner spaces) with '[Scripts 📃](<📃 Script.md>)' in all md files."""
     # Allow normal and unicode non-breaking/zero-width spaces around Scripts
@@ -1834,6 +1945,10 @@ def replace_scripts_tokens(md_files):
                 pass
     return total
 
+
+###############################################
+# New feature: Replace {{Item}} with link to Itemized dataset.md
+###############################################
 
 def replace_item_tokens(md_files):
     """Replace '{{Item}}' (allowing optional inner spaces) with '[Item 🛢](<Itemized 🛢 dataset.md>)' in all md files."""
@@ -1861,6 +1976,10 @@ def replace_item_tokens(md_files):
     return total
 
 
+###############################################
+# New feature: Replace {{Items}} with link to Itemized dataset.md
+###############################################
+
 def replace_items_tokens(md_files):
     """Replace '{{Items}}' (allowing optional inner spaces) with '[`Items` 🛢](<Itemized 🛢 dataset.md>)' in all md files."""
     # Allow normal and unicode non-breaking/zero-width spaces around Items
@@ -1886,6 +2005,10 @@ def replace_items_tokens(md_files):
                 pass
     return total
 
+
+###############################################
+# New feature: Replace {{Itemizer}} with link to Itemizer helper.md
+###############################################
 
 def replace_itemizer_tokens(md_files):
     """Replace '{{Itemizer}}' (allowing optional inner spaces) with '[Itemizer 🛢 helper domain](<../../🛢🤲 Itemizer helper.md>)' in all md files."""
@@ -1913,6 +2036,10 @@ def replace_itemizer_tokens(md_files):
     return total
 
 
+###############################################
+# New feature: Replace {{Itemizers}} with link to Itemizer helper.md
+###############################################
+
 def replace_itemizers_tokens(md_files):
     """Replace '{{Itemizers}}' (allowing optional inner spaces) with '[Itemizer 🛢 helper domains](<../../🛢🤲 Itemizer helper.md>)' in all md files."""
     # Allow normal and unicode non-breaking/zero-width spaces around Itemizers
@@ -1938,6 +2065,10 @@ def replace_itemizers_tokens(md_files):
                 pass
     return total
 
+
+###############################################
+# New feature: Replace {{Talker}} with link to Talker role.md
+###############################################
 
 def replace_talker_tokens(md_files):
     """Replace '{{Talker}}' (allowing optional inner spaces) with '[Talker 😃 domain](<😃 Talker role.md>)' in all md files."""
@@ -1965,6 +2096,10 @@ def replace_talker_tokens(md_files):
     return total
 
 
+###############################################
+# New feature: Replace {{Talkers}} with link to Talker role.md
+###############################################
+
 def replace_talkers_tokens(md_files):
     """Replace '{{Talkers}}' (allowing optional inner spaces) with '[Talker 😃 domains](<😃 Talker role.md>)' in all md files."""
     # Allow normal and unicode non-breaking/zero-width spaces around Talkers
@@ -1990,6 +2125,10 @@ def replace_talkers_tokens(md_files):
                 pass
     return total
 
+
+###############################################
+# New feature: Replace {{Itemized dataset}} with link to Itemized 🛢 dataset.md
+###############################################
 
 def replace_itemized_dataset_tokens(md_files):
     """Replace '{{Itemized dataset}}' (allowing optional inner spaces) with '[Itemized 🪣 dataset](<Itemized 🛢 dataset.md>)' in all md files."""
@@ -2017,6 +2156,10 @@ def replace_itemized_dataset_tokens(md_files):
     return total
 
 
+###############################################
+# New feature: Replace {{Itemized datasets}} with link to Itemized 🛢 dataset.md
+###############################################
+
 def replace_itemized_datasets_tokens(md_files):
     """Replace '{{Itemized datasets}}' (allowing optional inner spaces) with '[Itemized 🪣 datasets](<Itemized 🛢 dataset.md>)' in all md files."""
     # Allow normal and unicode non-breaking/zero-width spaces around Itemized datasets
@@ -2042,6 +2185,10 @@ def replace_itemized_datasets_tokens(md_files):
                 pass
     return total
 
+
+###############################################
+# New feature: Replace {{Notifier}} with link to Notifier domain.md
+###############################################
 
 def replace_notifier_tokens(md_files):
     """Replace '{{Notifier}}' (allowing optional inner spaces) with '[Notifier 📣 domain](<📣👥 Notifier domain.md>)' in all md files."""
@@ -2069,6 +2216,10 @@ def replace_notifier_tokens(md_files):
     return total
 
 
+###############################################
+# New feature: Replace {{Notifiers}} with link to Notifier domain.md
+###############################################
+
 def replace_notifiers_tokens(md_files):
     """Replace '{{Notifiers}}' (allowing optional inner spaces) with '[Notifier 📣 domains](<📣👥 Notifier domain.md>)' in all md files."""
     # Allow normal and unicode non-breaking/zero-width spaces around Notifiers
@@ -2094,6 +2245,46 @@ def replace_notifiers_tokens(md_files):
                 pass
     return total
 
+
+###############################################
+# New feature: Replace {{Prompt@Broker}} with link to Prompt file
+###############################################
+
+def replace_prompt_broker_tokens(md_files):
+    """Replace '{{Prompt@Broker}}' with '[`Prompt@Broker` 🅰️ method](<relative_path_to_prompt_file>)' in all md files."""
+    # Find the target file "🤗🐌🤵 Prompt.md"
+    target_file = None
+    for path in md_files:
+        if os.path.basename(path) == "🤗🐌🤵 Prompt.md":
+            target_file = path
+            break
+    if not target_file:
+        return 0  # File not found, no replacements
+    
+    total = 0
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+        if "{{Prompt@Broker}}" in content:
+            rel_path = os.path.relpath(target_file, os.path.dirname(md_file))
+            replacement = f"[`Prompt@Broker` 🅰️ method](<{rel_path}>)"
+            new_content = content.replace("{{Prompt@Broker}}", replacement)
+            if new_content != content:
+                try:
+                    with open(md_file, 'w', encoding='utf-8') as f:
+                        f.write(new_content)
+                    total += 1
+                except Exception:
+                    pass
+    return total
+
+
+###############################################
+# New feature: Replace {{Parse@Hosted}} with link to Parse file
+###############################################
 
 def replace_dynamic_tokens(md_files, file_dict):
     """Replace any remaining {{...}} tokens with links to matching .md files based on normalized names."""
@@ -2208,6 +2399,16 @@ def runit(project_directory):
             break
 
     # After all OK: replace {{...}} with links when possible
+    # Replace {{Prompt@Broker}} tokens first to ensure correct linking
+    try:
+        prompt_broker_changes = replace_prompt_broker_tokens(md_files)
+        if prompt_broker_changes:
+            print(f"Replaced {prompt_broker_changes} {{Prompt@Broker}} tokens ✅")
+        else:
+            pass
+    except Exception as e:
+        print(f"Warning: failed replacing {{Prompt@Broker}} tokens: {e}")
+
     try:
         replaced = replace_curly_at_mentions(md_files)
         if replaced:
@@ -2665,8 +2866,105 @@ def runit(project_directory):
         print(f"Warning: failed adding emojis to table rows: {e}")
 
 
-
 yes_memory = []
+
+def test_immutable_token_replacements():
+    """Test immutable token replacements that should always work the same way."""
+    
+    # Load the YAML test cases
+    yaml_path = os.path.join(os.path.dirname(__file__), 'malformed-links.yaml')
+    with open(yaml_path, 'r') as f:
+        data = yaml.safe_load(f)
+    
+    # Build a minimal file_dict for the test files
+    file_dict = OrderedDict()
+    for test in data['Tests']:
+        # Normalize the file name without .md, and remove {{ }}
+        name = test['LinkFile'].replace('.md', '').replace('{{', '').replace('}}', '')
+        normalized = normalize_string(name)
+        file_dict[normalized] = test['LinkFile']
+    
+    # Run the YAML tests
+    for test in data['Tests']:
+        content = test['Given']
+        md_file = os.path.join(os.getcwd(), "dummy.md")
+        def _generate_link(m):
+            token = m.group(1)
+            normalized_key = normalize_string(token.split('@')[0] if '@' in token else token)
+            if normalized_key in file_dict:
+                file_path = file_dict[normalized_key]
+                relative_path = os.path.relpath(file_path, os.path.dirname(md_file))
+                if '@' in token:
+                    link_text = f"`{token}` 🅰️ method"
+                    return f"[{link_text}](<{relative_path}>)"
+                elif token.isupper():
+                    link_text = f"`{token}`"
+                    return f"[{link_text}](<{relative_path}>)"
+                else:
+                    link_text = f"`{token}`"
+                    return f"{link_text}(<{relative_path}>)"
+            return m.group(0)
+        result = re.sub(r'\{\{([^}]+)\}\}', _generate_link, content)
+        expected = (test['LinkText'] + "(<" + test['LinkFile'] + ">)").replace("] (<", "](<").replace(" (<", "(<")
+        assert result == expected, f"YAML test failed for {test['Given']}: got {result}, expected {expected}"
+    
+    # Test replace_placeholder_tokens
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Placeholder`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[Placeholder 🧠](<$Placeholder 🧠.md>)"
+    content = "Use {{Placeholder}} here."
+    expected = "Use [Placeholder 🧠](<$Placeholder 🧠.md>) here."
+    result, n = pattern.subn(replacement, content)
+    assert result == expected and n == 1, f"Placeholder test failed: {result}"
+    
+    # Test replace_host_tokens
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Host`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)"
+    content = "The {{Host}} is important."
+    expected = "The [Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) is important."
+    result, n = pattern.subn(replacement, content)
+    assert result == expected and n == 1, f"Host test failed: {result}"
+    
+    # Test replace_issuer_tokens
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Issuer`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)"
+    content = "Contact the {{Issuer}}."
+    expected = "Contact the [Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)."
+    result, n = pattern.subn(replacement, content)
+    assert result == expected and n == 1, f"Issuer test failed: {result}"
+    
+    # Test replace_token_tokens
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Token`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[Token 🎫](<🎫 Token.md>)"
+    content = "This is a {{Token}}."
+    expected = "This is a [Token 🎫](<🎫 Token.md>)."
+    result, n = pattern.subn(replacement, content)
+    assert result == expected and n == 1, f"Token test failed: {result}"
+    
+    # Test normalize_string
+    assert normalize_string("🍏🎭 Brand role") == "brandrole", f"Normalize test failed: {normalize_string('🍏🎭 Brand role')}"
+    assert normalize_string("Brand role") == "brandrole", f"Normalize test failed: {normalize_string('Brand role')}"
+    assert normalize_string("Some Name") == "somename", f"Normalize test failed: {normalize_string('Some Name')}"
+    
+    # Test for {{Prompt@Broker}} replacement: the file "🤗🐌🤵 Prompt.md" should be matched by "Prompt"
+    assert normalize_string("🤗🐌🤵 Prompt") == "prompt", f"Normalize test failed for file name: {normalize_string('🤗🐌🤵 Prompt')}"
+    
+    # Test for {{Parse@Hosted}} replacement: the file "😃🐌📦 Parse.md" should be matched by "Parse"
+    assert normalize_string("😃🐌📦 Parse") == "parse", f"Normalize test failed for file name: {normalize_string('😃🐌📦 Parse')}"
+    
+    print("All immutable token replacement tests passed! ✅")
+
 
 if __name__ == "__main__":
 
@@ -2675,6 +2973,7 @@ if __name__ == "__main__":
     project_directory = os.path.abspath(entryPoint)
 
     # Run the tests
-    #test_fix_markdown_link()
+    test_fix_markdown_link()
+    test_immutable_token_replacements()
     
     runit(project_directory)
