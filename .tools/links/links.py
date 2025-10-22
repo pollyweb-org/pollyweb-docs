@@ -7,7 +7,7 @@ import yaml
 # > source .venv/bin/activate
 # > pip3 install -r requirements.txt
 # > cd .tools/links
-# > python3 main_links.py
+# > python3 links.py
 
 from broken_links import (
     check_broken_links,
@@ -16,7 +16,8 @@ from broken_links import (
     normalize_string,
     print_results,
 )
-from links_replace import (
+from link_replacements import (
+    configure_context,
     replace_curly_at_mentions, replace_curly_upper_mentions, add_emoji_to_table_rows,
     replace_placeholder_tokens, replace_msg_tokens, replace_hosts_tokens, replace_host_tokens,
     replace_issuer_tokens, replace_issuers_tokens, replace_vaults_tokens, replace_vault_tokens,
@@ -60,6 +61,9 @@ def runit(project_directory, entryPoint):
     # Raise an error if there are no markdown files
     if not md_files:
         raise FileNotFoundError("No markdown files found in the project directory.")
+
+    # Share project context with replacement helpers
+    configure_context(md_files, project_directory)
 
     # Test YAML cases
     yaml_path = os.path.join(os.path.dirname(__file__), 'links.yaml')
