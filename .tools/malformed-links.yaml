@@ -7,6 +7,7 @@ Instructions: >
   except for the tests that are hardcoded.
   Run the py against these tests before 
   saying that the py is working correctly.
+  Fix the py until all tests pass.
   
 Restrictions: |
   1) Do not change this file, ever. 
@@ -18,12 +19,22 @@ Tests:
   - Given: "{{Parse@Hosted}}"
     LinkText: "[`Parse@Hosted` 🅰️ method]"
     LinkFile: "😃🐌📦 Parse.md"
-    Reasons: |
-      For `X@Y`, 
-      where the string is split by `@` into `X` and `Y`,
-      the file is called `*X*.md 
-      and in a folder called `*Y*methods*`
-      or is in a subfolder of such folder.
+
+  - Given: "{{Prompt@Broker}}"
+    LinkText: "[`Prompt@Broker` 🅰️ method]"
+    LinkFile: "🤗🐌🤵 Prompt.md"
+
+  - Given: "{{Handle@Hosted}}"
+    LinkText: "[`Handle@Hosted` 🅰️ method]"
+    LinkFile: "😃🐌📦 Handle.md"
+
+  - Given: "{{Placeholder}}"
+    LinkText: "[Placeholder 🧠]"
+    LinkFile: "$Placeholder 🧠.md"
+
+  - Given: "{{Request Sync}}"
+    LinkText: "`Request Sync`"
+    LinkFile: "Request Sync 🚀.md"
 
   - Given: "{{Prompt@Broker}}"
     LinkText: "[`Prompt@Broker` 🅰️ method]"
@@ -63,5 +74,5 @@ Tests:
     Reasons: |
       Given that none of the reasons above apply,
       for a given string with multiple words,
-      the file is called `*word1*word2*...*wordn*.md`
+      the file is called `*word1*word2*...*word-n*.md`
     
