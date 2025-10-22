@@ -12,7 +12,7 @@
 
 > Used by 
 
-* [`TokenTimeout` 📃 script](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📃 Broker scripts/...triggers/🤵📃 Token 🎫 Timeout.md>)
+* [`TokenTimeout` 📃 script](<../../../../../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵📃 Broker scripts/...triggers/🤵📃 Token 🎫 timeout.md>)
 
 <br/>
 
