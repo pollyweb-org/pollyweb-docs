@@ -26,9 +26,9 @@ Header:
 Body:
     Set: MySet
     Item: {...}
-    Version: <version-uuid>
     Script: SaveToken
-    Delete: 30 days
+    Version: <version-uuid> # Optional
+    Delete: 30 days         # Optional
 ```
 
 |Object|Property|Type|Description
