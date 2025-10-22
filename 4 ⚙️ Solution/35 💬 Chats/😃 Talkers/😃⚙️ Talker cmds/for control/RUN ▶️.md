@@ -29,9 +29,9 @@
     |-|-| -
     | `<script>`| [Script 📃](<📃 Script.md>) to run | `MyScript`
     | `$arg-n`  | Optional positional arguments | `1,2` `s,$p`
-    |           | Reads `!n`  inside the [Script 📃](<📃 Script.md>) | `!1` `!2`
+    |           | Reads `+n`  inside the [Script 📃](<📃 Script.md>) | `+1` `+2`
     | `{args}`| Optional object arguments | `{A:1, B:2}`
-    | | Reads `!name` in the [Script 📃](<📃 Script.md>) | `!A` `!B`
+    | | Reads `!name` in the [Script 📃](<📃 Script.md>) | `±A` `+B`
     | `$return`| Optional [`RETURN`](<RETURN ⤴️.md>) holder | `$return`
     
     ---
