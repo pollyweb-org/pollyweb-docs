@@ -74,11 +74,13 @@ def runit(project_directory, entryPoint):
         expected_linktext = test['LinkText']
         expected_linkfile = test['LinkFile']
         token = given.strip('{}')
-        if token in ['Placeholder', 'Host', 'Hosts']:
+        if token in ['Placeholder', 'Host', 'Hosts', 'Script', 'Scripts']:
             if token == 'Placeholder':
                 expected_file = '$Placeholder 🧠.md'
             elif token in ['Host', 'Hosts']:
                 expected_file = '🤗🎭 Host role.md'
+            else:
+                expected_file = '📃 Script.md'
             if expected_file != expected_linkfile:
                 raise ValueError(f"Hardcoded test failed for {given}: {expected_file} != {expected_linkfile}")
         elif '@' in token:

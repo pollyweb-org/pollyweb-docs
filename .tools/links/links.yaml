@@ -33,7 +33,7 @@ Failed Tests:
 Successful Tests:
 
   - Given: '{{Parse@Hosted}}'
-    LinkText: "[`Parse@Hosted` 🅰️ method]"
+    LinkText: "`Parse@Hosted` 🅰️ method"
     LinkFile: "😃🐌📦 Parse.md"
     Reasons: |
       For `X@Y`, 
@@ -43,7 +43,7 @@ Successful Tests:
       or is in a subfolder of such folder.
 
   - Given: '{{Prompt@Broker}}'
-    LinkText: "[`Prompt@Broker` 🅰️ method]"
+    LinkText: "`Prompt@Broker` 🅰️ method"
     LinkFile: "🤗🐌🤵 Prompt.md"
     Reasons: |
       same as "{{Parse@Hosted}}"
@@ -55,7 +55,7 @@ Successful Tests:
       same as "{{Parse@Hosted}}"
 
   - Given: "{{RETURN}}"
-    LinkText: "[`RETURN`]"
+    LinkText: "`RETURN`"
     LinkFile: "{{RETURN ⤴️.md}}"
     Reasons: |
       For `{{WORD}}`, 
@@ -65,8 +65,18 @@ Successful Tests:
       and is under a folder called "😃 Talkers".
 
   - Given: "{{Placeholder}}"
-    LinkText: "[Placeholder 🧠]"
+    LinkText: "Placeholder 🧠"
     LinkFile: "$Placeholder 🧠.md"
+    Reasons: This is hardcoded.
+
+  - Given: "{{Script}}"
+    LinkText: "Script 📃"
+    LinkFile: "📃 Script.md"
+    Reasons: This is hardcoded.
+
+  - Given: "{{Scripts}}"
+    LinkText: "Scripts 📃"
+    LinkFile: "📃 Script.md"
     Reasons: This is hardcoded.
 
   - Given: '{{Host}}'
