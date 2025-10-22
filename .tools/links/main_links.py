@@ -3,7 +3,7 @@ import re
 import yaml
 
 from broken_links import find_md_files, find_png_files, check_broken_links, print_results
-from replace_placeholders import (
+from links_replace import (
     replace_curly_at_mentions, replace_curly_upper_mentions, add_emoji_to_table_rows,
     replace_placeholder_tokens, replace_msg_tokens, replace_hosts_tokens, replace_host_tokens,
     replace_issuer_tokens, replace_issuers_tokens, replace_vaults_tokens, replace_vault_tokens,
