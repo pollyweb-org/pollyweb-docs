@@ -1813,6 +1813,162 @@ def replace_scripts_tokens(md_files):
     return total
 
 
+def replace_item_tokens(md_files):
+    """Replace '{{Item}}' (allowing optional inner spaces) with '[`Item` 🛢](<Itemized 🛢 dataset.md>)' in all md files."""
+    # Allow normal and unicode non-breaking/zero-width spaces around Item
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Item`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[`Item` 🛢](<Itemized 🛢 dataset.md>)"
+    total = 0
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+        new_content, n = pattern.subn(replacement, content)
+        if n > 0:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                total += n
+            except Exception:
+                pass
+    return total
+
+
+def replace_items_tokens(md_files):
+    """Replace '{{Items}}' (allowing optional inner spaces) with '[`Items` 🛢](<Itemized 🛢 dataset.md>)' in all md files."""
+    # Allow normal and unicode non-breaking/zero-width spaces around Items
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Items`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[`Items` 🛢](<Itemized 🛢 dataset.md>)"
+    total = 0
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+        new_content, n = pattern.subn(replacement, content)
+        if n > 0:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                total += n
+            except Exception:
+                pass
+    return total
+
+
+def replace_itemizer_tokens(md_files):
+    """Replace '{{Itemizer}}' (allowing optional inner spaces) with '[Itemizer 🛢 helper domain](<../../🛢🤲 Itemizer helper.md>)' in all md files."""
+    # Allow normal and unicode non-breaking/zero-width spaces around Itemizer
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Itemizer`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[Itemizer 🛢 helper domain](<../../🛢🤲 Itemizer helper.md>)"
+    total = 0
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+        new_content, n = pattern.subn(replacement, content)
+        if n > 0:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                total += n
+            except Exception:
+                pass
+    return total
+
+
+def replace_itemizers_tokens(md_files):
+    """Replace '{{Itemizers}}' (allowing optional inner spaces) with '[Itemizer 🛢 helper domains](<../../🛢🤲 Itemizer helper.md>)' in all md files."""
+    # Allow normal and unicode non-breaking/zero-width spaces around Itemizers
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Itemizers`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[Itemizer 🛢 helper domains](<../../🛢🤲 Itemizer helper.md>)"
+    total = 0
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+        new_content, n = pattern.subn(replacement, content)
+        if n > 0:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                total += n
+            except Exception:
+                pass
+    return total
+
+
+def replace_talker_tokens(md_files):
+    """Replace '{{Talker}}' (allowing optional inner spaces) with '[Talker 😃 domain](<😃 Talker role.md>)' in all md files."""
+    # Allow normal and unicode non-breaking/zero-width spaces around Talker
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Talker`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[Talker 😃 domain](<😃 Talker role.md>)"
+    total = 0
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+        new_content, n = pattern.subn(replacement, content)
+        if n > 0:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                total += n
+            except Exception:
+                pass
+    return total
+
+
+def replace_talkers_tokens(md_files):
+    """Replace '{{Talkers}}' (allowing optional inner spaces) with '[Talker 😃 domains](<😃 Talker role.md>)' in all md files."""
+    # Allow normal and unicode non-breaking/zero-width spaces around Talkers
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Talkers`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[Talker 😃 domains](<😃 Talker role.md>)"
+    total = 0
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+        new_content, n = pattern.subn(replacement, content)
+        if n > 0:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                total += n
+            except Exception:
+                pass
+    return total
+
+
 def replace_dynamic_tokens(md_files, file_dict):
     """Replace any remaining {{...}} tokens with links to matching .md files based on normalized names."""
     def replacer(match, file_path):
@@ -2244,6 +2400,66 @@ def runit(project_directory):
             pass
     except Exception as e:
         print(f"Warning: failed replacing {{Scripts}} tokens: {e}")
+
+    # Replace {{Item}} tokens
+    try:
+        replaced = replace_item_tokens(md_files)
+        if replaced:
+            print(f"Replaced {replaced} {{Item}} tokens ✅")
+        else:
+            pass
+    except Exception as e:
+        print(f"Warning: failed replacing {{Item}} tokens: {e}")
+
+    # Replace {{Items}} tokens
+    try:
+        replaced = replace_items_tokens(md_files)
+        if replaced:
+            print(f"Replaced {replaced} {{Items}} tokens ✅")
+        else:
+            pass
+    except Exception as e:
+        print(f"Warning: failed replacing {{Items}} tokens: {e}")
+
+    # Replace {{Itemizer}} tokens
+    try:
+        replaced = replace_itemizer_tokens(md_files)
+        if replaced:
+            print(f"Replaced {replaced} {{Itemizer}} tokens ✅")
+        else:
+            pass
+    except Exception as e:
+        print(f"Warning: failed replacing {{Itemizer}} tokens: {e}")
+
+    # Replace {{Itemizers}} tokens
+    try:
+        replaced = replace_itemizers_tokens(md_files)
+        if replaced:
+            print(f"Replaced {replaced} {{Itemizers}} tokens ✅")
+        else:
+            pass
+    except Exception as e:
+        print(f"Warning: failed replacing {{Itemizers}} tokens: {e}")
+
+    # Replace {{Talker}} tokens
+    try:
+        replaced = replace_talker_tokens(md_files)
+        if replaced:
+            print(f"Replaced {replaced} {{Talker}} tokens ✅")
+        else:
+            pass
+    except Exception as e:
+        print(f"Warning: failed replacing {{Talker}} tokens: {e}")
+
+    # Replace {{Talkers}} tokens
+    try:
+        replaced = replace_talkers_tokens(md_files)
+        if replaced:
+            print(f"Replaced {replaced} {{Talkers}} tokens ✅")
+        else:
+            pass
+    except Exception as e:
+        print(f"Warning: failed replacing {{Talkers}} tokens: {e}")
 
     # Replace dynamic {{...}} tokens
     try:
