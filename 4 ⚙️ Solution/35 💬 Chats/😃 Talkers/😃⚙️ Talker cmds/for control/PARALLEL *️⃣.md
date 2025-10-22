@@ -1,6 +1,6 @@
 <!-- TODO: detail -->
 
-> Example: [Pop Vault 🔆](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📃 Broker scripts/...helpers/🤵📃 Pop Vault 🗄️.md>)
+> Example: [Pop Vault 🔆](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📃 Broker scripts/...supporters/🤵📃 Pop Vault 🗄️.md>)
 
 ```yaml
 - PARALLEL|$vault.Binds|$bind >> $binds:
