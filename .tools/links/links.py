@@ -2966,11 +2966,11 @@ def test_immutable_token_replacements():
 
 
 if __name__ == "__main__":
-
-    # entryPoint = "nlweb-docs"
-    # Default project directory to the parent of .tools
-    project_directory = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     entryPoint = "nlweb-docs"
+    # Resolve repository root (two levels above this file)
+    project_directory = os.path.abspath(
+        os.path.join(os.path.dirname(__file__), "..", "..")
+    )
 
     # Run the tests
     test_fix_markdown_link()
