@@ -18,7 +18,7 @@ Children:
 
 | Link | Table | Contains
 |-|-|-
-| Children | [`Wallets` 🪣](<🤵🪣 Wallets.md>) | [Wallet 🧑‍🦰 apps](<../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+| Children | [`Wallets` 🪣](<🤵🪣 Wallets table.md>) | [Wallet 🧑‍🦰 apps](<../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
 |
 
 <br/>
