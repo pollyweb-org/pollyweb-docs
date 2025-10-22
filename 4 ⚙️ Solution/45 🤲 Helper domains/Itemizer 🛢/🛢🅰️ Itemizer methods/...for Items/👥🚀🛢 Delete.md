@@ -4,53 +4,70 @@
 
 > Part of [Itemizer 🛢 helper](<../../🛢🤲 Itemizer helper.md>)
 
-> Implements the [`SAVE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/SAVE 💾 item.md>) and [`DELETE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/DELETE 🗑️ item.md>) commands.
+> Implements the  [`DELETE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/DELETE 🗑️ item.md>) commands.
 
 > Purpose:
 
-* Saves and deletes items 
+* Deletes items 
   * on an [Itemized 🛢 datasets](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>)
-  * as a single transaction
-  * as requested by a [Talker 😃 domain](<../../../../35 💬 Chats/😃 Talkers/😃 Talker.md>).
+  * as requested by a [Talker 😃 domain](<../../../../35 💬 Chats/😃 Talkers/😃 Talker.md>)
+  * via the [`.DELETE` 📃 script](<../../../../35 💬 Chats/😃 Talkers/😃📃 Talker scripts/😃📃 .DELETE 🗑️ script.md>)
 
 <br/>
 
-## Synchronous Request
+## Synchronous Request 🚀
 
 ```yaml
 Header:
     From: any-talker.dom
     To: any-itemizer.dom
-    Subject: Transact@Itemizer
+    Subject: Delete@Itemizer
 
 Body:
-    Blame: SaveToken
-
-    Saves:
-      - Table: MyPool
-        Key: my-item-key
-        Timeout: 30 days
-        Data: {...}
-
-    Deletes:
-      - Table: Pool2
-        Key: another-item-key
-        Timeout: 30 days
+    Blame: MyScript
+    Set: MySet
+    Key: [ MyKey1, MyKey2 ]
+    Undo: 30 days
 ```
 
 |Object|Property|Type|Description
 |-|-|-|-
 | Header    | `From`        | string    | [Talker 😃 domain](<../../../../35 💬 Chats/😃 Talkers/😃 Talker.md>) name
 |           | `To`          | string    | [Itemizer 🛢 domain](<../../🛢🤲 Itemizer helper.md>) name
-|           | `Subject`     | string    | `Transact@Itemizer`
-| Body      | `Blame`     | string    | Reference for traceability
-|           | `Saves`       | array     | List of items to save
-|           | `Deletes`     | array     | List of items to delete
-| Saves   | `Table`    | string  | Case insensitive name
-|         | `Key`     | string  | Case insensitive key
-|         | `Timeout` | string  | Optional scheduled delete
-|         | `Data`    | object  | Object to save
-| Deletes | `Table`    | string  | Case insensitive name
-|         | `Key`     | string  | Case insensitive key
-|         | `Timeout` | string  | Optional [`UNDO`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/UNDO ↩️.md>) time
+|           | `Subject`     | string    | `Delete@Itemizer`
+| Body    | `Blame`     | string    | [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/📃 Script.md>) for traceability
+|         | `Set`    | string  | [Itemized 🛢 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) 
+|         | `Key`     | string[]  | Case insensitive keys
+|         | `Undo` | string  | Optional [`UNDO`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/UNDO ↩️.md>) time
 |
+
+<br/>
+
+## Synchronous
+
+```yaml
+# HTTP 200, OK
+```
+
+<br/>
+
+## FAQ
+
+
+1. **What's the format of `Undo`?**
+
+    The `Undo` parameter 
+    * expects `<number>` `<period>` 
+    * where `<period>` is in `days` `hours` `minutes` `months`
+    * e.g, `30 days`.
+
+    ---
+    <br/>
+
+
+1. **Why not an async message?**
+
+    [Talker 😃 domains](<../../../../35 💬 Chats/😃 Talkers/😃 Talker.md>) need to take immediate decisions upon failures when processing deletes, so they need to know immediately if the action was successful or not.
+
+    ---
+    <br/>

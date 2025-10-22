@@ -1,4 +1,4 @@
-# Non-blocking temporary info ⏳
+# ⏳ Non-blocking temporary info 
 
 > Part of [Non-blocking status prompts 🤔](<../🤔⚙️ Prompt features/8 ⚠️ as Status.md>)
 
