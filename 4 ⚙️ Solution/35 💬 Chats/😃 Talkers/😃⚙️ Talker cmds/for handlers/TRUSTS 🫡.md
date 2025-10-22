@@ -4,6 +4,8 @@
 
 > Part of [Talker 😃](<../../😃 Talker.md>)
 
+> Implemented by the [`.TRUSTS` 📃 script](<../../😃📃 Talker scripts/😃📃 .TRUSTS 🫡 script.md>)
+
 
 <br/>
 
@@ -42,43 +44,3 @@
     ---
     <br/>
 
-
-1. **What does it do internally?**
-
-    Here's the internal logic.
-
-    ```yaml
-    .TRUST_IMPLEMENTATION:
-
-    # Default value for the Truster
-    - IF|$1.Truster:
-        Then: EVAL|$1.Truster >> $truster
-        Else: EVAL|$.Msg.To >> $truster
-
-    # Default value for the Role
-    - IF|$1.Role:
-        Then: EVAL|$1.Role >> $role
-        Else: EVAL|* >> $role
-
-    # Send the request
-    - SEND >> $answer:
-        To: $.Settings.Graph
-        Subject: Trusted@Graph
-        Truster: $truster
-        Trusted: $1.Trusted
-        Role: $role
-        Schema: $1.Schema
-
-    # Assert if it's trusted
-    - ASSERT:
-        $answer.Trusted: True
-    ```
-
-    | [Command ⌘](<../for control/⌘ Command.md>) | Purpose
-    |-|-
-    | 📨 [`$.Msg`](<$.Msg 📨.md>) | Read the incoming [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>)
-    | 🎛️ [`$.Settings`](<$.Settings 🎛️.md>) | Get the default [Graph 🕸 domain](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>)
-    | 🚦 [`ASSERT`](<ASSERT 🚦.md>) | Assert if it's [Trusted 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) 
-    | ⤵️ [`IF`](<../for control/IF ⤵️.md>) | Verify the parameters  
-    | 📬 [`SEND`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for flows/.SEND 📬 msg.md>) | Call [👥🚀🕸 `Trusts@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>)
-    |
