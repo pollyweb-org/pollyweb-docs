@@ -8,41 +8,47 @@ Instructions: >
   Run the py against these tests before 
   saying that the py is working correctly.
   Fix the py until all tests pass.
+  Assume that all files exist.
+  Do not include any of the tests strings 
+  in the py, apart from the tests mentioned as  
+  hardcoded.
+  The "LinkFile" should match exactly, 
+  including emojis, spaces, and extension.
+  
+  If running "{{Parse@Hosted}}", 
+  and it results in a FileLink called "PARSE 🔆.md", 
+  that is mentioned in "Failed Tests" in the yaml, 
+  that file and all other files mentioned as wrong
+  file, the script should fail and require a bug fix.
   
 Restrictions: |
-  1) Do not change this file, ever. 
+  1) Do not change this YAML file, ever. 
   2) Only change the py script to pass these tests.
   3) Do not add new files to the project.
 
-Tests:
+Failed Tests:
+  - Given: '{{Parse@Hosted}}'
+    WrongFile: "PARSE 🔆.md"
 
-  - Given: "{{Parse@Hosted}}"
+Successful Tests:
+
+  - Given: '{{Parse@Hosted}}'
     LinkText: "[`Parse@Hosted` 🅰️ method]"
     LinkFile: "😃🐌📦 Parse.md"
+    Reasons: |
+      For `X@Y`, 
+      where the string is split by `@` into `X` and `Y`,
+      the file is called `*X*.md 
+      and in a folder called `*Y*methods*`
+      or is in a subfolder of such folder.
 
-  - Given: "{{Prompt@Broker}}"
-    LinkText: "[`Prompt@Broker` 🅰️ method]"
-    LinkFile: "🤗🐌🤵 Prompt.md"
-
-  - Given: "{{Handle@Hosted}}"
-    LinkText: "[`Handle@Hosted` 🅰️ method]"
-    LinkFile: "😃🐌📦 Handle.md"
-
-  - Given: "{{Placeholder}}"
-    LinkText: "[Placeholder 🧠]"
-    LinkFile: "$Placeholder 🧠.md"
-
-  - Given: "{{Request Sync}}"
-    LinkText: "`Request Sync`"
-    LinkFile: "Request Sync 🚀.md"
-
-  - Given: "{{Prompt@Broker}}"
+  - Given: '{{Prompt@Broker}}'
     LinkText: "[`Prompt@Broker` 🅰️ method]"
     LinkFile: "🤗🐌🤵 Prompt.md"
     Reasons: |
       same as "{{Parse@Hosted}}"
 
-  - Given: "{{Handle@Hosted}}"
+  - Given: '{{Handle@Hosted}}'
     LinkText: "[`Handle@Hosted` 🅰️ method]"
     LinkFile: "😃🐌📦 Handle.md"
     Reasons: |
@@ -63,8 +69,13 @@ Tests:
     LinkFile: "$Placeholder 🧠.md"
     Reasons: This is hardcoded.
 
-  - Given: {{Host}}
+  - Given: '{{Host}}'
     LinkText: "Host 🤗 domain"
+    LinkFile: "🤗🎭 Host role.md"
+    Reasons: This is hardcoded.
+
+  - Given: '{{Hosts}}'
+    LinkText: "Host 🤗 domains"
     LinkFile: "🤗🎭 Host role.md"
     Reasons: This is hardcoded.
 
