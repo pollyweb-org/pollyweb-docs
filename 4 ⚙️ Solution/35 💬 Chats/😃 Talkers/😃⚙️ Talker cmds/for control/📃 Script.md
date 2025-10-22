@@ -7,8 +7,13 @@
 1. **What's a Talker Script?**
 
     A [Script 📃]() 
+    [Talkers 😃](<../../😃 Talker role.md>) 
+    
     * is a set of [Commands ⌘](<⌘ Command.md>) 
-    * executed sequentially in a block.
+    * specified in a [static YAML 📄](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Static YAML 📄.md>) resource
+    * referencing [{Functions} 🐍](<../for data/{Function} 🐍.md>) evaluated by [Hosted 📦 domains](<../../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>)
+    * and implemented by [Hoster ☁️ helper domains](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>).
+    * for the purpose of rendering dialogs in a [💬 Chat](<../../../💬 Chats/💬 Chat.md>)
 
     ---
     <br/>
@@ -16,7 +21,7 @@
 1. **What's the syntax of a Script?**
    
     ```yaml
-    <script>:
+    📃 <script>:
     - <command-1>
     - <command-n>
     ```
@@ -28,7 +33,7 @@
     | `<command-n>` | A [Command ⌘](<⌘ Command.md>)  to be executed.
     
     ```yaml
-    TestScript:
+    📃 TestScript:
     - INFO|Hi!
     - CONFIRM|Are you OK? >> $answer
     ```
