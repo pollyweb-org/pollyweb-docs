@@ -24,7 +24,7 @@
 
 
 
-1. **What's the format for a [Talker 😃](<../../😃 Talkers/😃 Talker.md>)?**
+1. **What's the format for a [Talker 😃](<../../😃 Talkers/😃 Talker role.md>)?**
 
     ```yaml
     <PROMPT>|<statement>:
@@ -66,7 +66,7 @@
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ Expandable info [-]<br/>&nbsp;&nbsp;&nbsp;1. Markdown bullet one  <br/>&nbsp;&nbsp;&nbsp;2. Markdown bullet two
     |
 
-    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker role.md>).
     
     ```yaml
     - INFO|Expandable info:

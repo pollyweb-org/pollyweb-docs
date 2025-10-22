@@ -2,7 +2,7 @@
 
 # 😃↩️ Talker `UNDO` command
 
-> Part of [Talker 😃](<../../😃 Talker.md>)
+> Part of [Talker 😃](<../../😃 Talker role.md>)
 
 > Cancels a soft delete.
 

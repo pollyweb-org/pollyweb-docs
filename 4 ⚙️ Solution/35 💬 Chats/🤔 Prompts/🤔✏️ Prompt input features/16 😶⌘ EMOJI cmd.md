@@ -37,7 +37,7 @@
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😶 Still neutral? [Yes, No] | > Yes
     |
 
-    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker role.md>).
 
     ```yaml
     # 😃 Talker

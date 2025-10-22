@@ -1,5 +1,13 @@
 # 🛢🐌😃 Deleted @ Talker
 
+> Purpose
+
+* An [`Itemizer 🛢 helper`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🤲 Itemizer helper.md>) domain 
+    * notifies a [Talker 😃 domain](<../😃 Talker role.md>) 
+    * that an [`Itemized 🪣 dataset`](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) item has expired 
+    * after being deleted with an [`UNDO`](<../😃⚙️ Talker cmds/for data/UNDO ↩️.md>) timeout
+    * via the [`Delete@Itemizer`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete.md>) method.
+
 > Used by 
 
 * [`TokenTimeout` 📃 script](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📃 Broker scripts/...triggers/🤵📃 Token 🎫 Timeout.md>)
@@ -21,9 +29,9 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header    | `From`        | string    | [Itemizer 🛢 domain](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🤲 Itemizer helper.md>) name
-|           | `To`          | string    | [Talker 😃 domain](<../😃 Talker.md>) name
-|           | `Subject`     | string    | `Trigger@Itemizer`
+| Header    | `From`        | string    | [Itemizer 🛢](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🤲 Itemizer helper.md>) from [`Delete@Itemizer`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete.md>)
+|           | `To`          | string    | [Talker 😃](<../😃 Talker role.md>) from [`Delete@Itemizer`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete.md>)
+|           | `Subject`     | string    | `Deleted@Itemizer`
 | Body      | `Hook`     | string    | `Hook` from [`Build@Itemizer`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/...for Tables/👥🐌🛢 Build.md>)
-|           | `Item`        | object    | [Item 🛢](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) from [`Transact@Itemizer`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Save.md>) 
+|           | `Item`        | object    | [Item 🛢](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) from [`Delete@Itemizer`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete.md>)
 |

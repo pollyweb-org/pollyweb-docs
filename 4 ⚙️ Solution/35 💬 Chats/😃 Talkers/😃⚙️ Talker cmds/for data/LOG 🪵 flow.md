@@ -1,6 +1,6 @@
 # 😃🪵 Talker `LOG` command
 
-> Part of [Talker 😃](<../../😃 Talker.md>)
+> Part of [Talker 😃](<../../😃 Talker role.md>)
 
 <br/>
 
@@ -9,7 +9,7 @@
     A `LOG` 🪵
     * is a [Command ⌘](<../for control/⌘ Command.md>) 
     * that sends an event 
-    * to the log handler of a [Talker 😃](<../../😃 Talker.md>).
+    * to the log handler of a [Talker 😃](<../../😃 Talker role.md>).
 
 
     ---

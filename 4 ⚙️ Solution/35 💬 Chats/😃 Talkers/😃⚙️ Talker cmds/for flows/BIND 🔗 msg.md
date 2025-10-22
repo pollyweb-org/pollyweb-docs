@@ -2,7 +2,7 @@
 
 > Implemented by the [`.BIND` 📃 script](<../../😃📃 Talker scripts/😃📃 .BIND 🔗 script.md>)
 
-> Part of [Talker 😃](<../../😃 Talker.md>)
+> Part of [Talker 😃](<../../😃 Talker role.md>)
 
 <br/>
 
@@ -101,7 +101,7 @@
 1. **What does the dot mean in a schema?**
 
     Given that the [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) defined by `nlweb.dom` will be widely used, 
-    * [Talkers 😃](<../../😃 Talker.md>) accept a dot as a prefix of `nlweb.dom/`.
+    * [Talkers 😃](<../../😃 Talker role.md>) accept a dot as a prefix of `nlweb.dom/`.
     * Consider the following equal examples.
 
         ```yaml

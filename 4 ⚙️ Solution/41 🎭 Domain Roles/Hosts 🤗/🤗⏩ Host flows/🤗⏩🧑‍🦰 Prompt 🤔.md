@@ -30,7 +30,7 @@ Consider the following [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.
 
 ## 😃 Talker 
 
-The associated [Talker 😃](<../../../35 💬 Chats/😃 Talkers/😃 Talker.md>), with one line per [Prompt 🤔](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>), could be the following.
+The associated [Talker 😃](<../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>), with one line per [Prompt 🤔](<../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>), could be the following.
 
 ```yaml
 - INFO|Hello World!

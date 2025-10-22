@@ -65,7 +65,7 @@
     <br/>
     
 
-    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker role.md>).
 
     ```yaml
     # 😃 Talker
@@ -108,7 +108,7 @@
 
     <br/>
 
-    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker role.md>).
 
     ```yaml
     # 😃 Talker

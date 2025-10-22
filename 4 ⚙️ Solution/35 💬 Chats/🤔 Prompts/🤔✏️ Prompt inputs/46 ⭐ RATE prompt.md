@@ -35,7 +35,7 @@
     <br/>
 
 
-1. **What's the format of a [Talker 😃](<../../😃 Talkers/😃 Talker.md>)?**
+1. **What's the format of a [Talker 😃](<../../😃 Talkers/😃 Talker role.md>)?**
 
     ```yaml
     # Simplest.
@@ -82,7 +82,7 @@
 
     <br/>
     
-    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker role.md>).
     
     ```yaml
     - RATE|What's the rate? >> $code

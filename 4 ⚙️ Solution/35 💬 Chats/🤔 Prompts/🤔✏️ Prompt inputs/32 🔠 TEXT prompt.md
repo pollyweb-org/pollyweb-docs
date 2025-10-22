@@ -71,7 +71,7 @@
 
 
 
-1. **What's the syntax on a [Talker 😃](<../../😃 Talkers/😃 Talker.md>)?**
+1. **What's the syntax on a [Talker 😃](<../../😃 Talkers/😃 Talker role.md>)?**
 
     ```yaml
     # Simplest.
@@ -128,7 +128,7 @@
    
     <br/>
 
-    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker role.md>).
     
     ```yaml
     # Talker 😃
@@ -168,7 +168,7 @@
 
     <br/>
    
-    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker role.md>).
     
     ```yaml
     # Explicit, not recommended, just for the exercise.
@@ -233,7 +233,7 @@
    
     <br/>
 
-    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker role.md>).
     
     ```yaml
     # Explicit, not recommended, just for the exercise.

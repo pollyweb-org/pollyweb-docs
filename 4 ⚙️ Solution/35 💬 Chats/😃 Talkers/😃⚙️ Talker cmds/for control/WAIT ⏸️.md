@@ -1,6 +1,6 @@
 # 😃⏸️ Talker `WAIT` flow 
 
-> Part of [Talker 😃](<../../😃 Talker.md>)
+> Part of [Talker 😃](<../../😃 Talker role.md>)
 
 > Referenced by the [😃⏩🧑‍💻 Wait ⏸️](<../../😃⏩ Talker flows/😃⏩🧑‍💻 Wait ⏸️.md>) flow
 

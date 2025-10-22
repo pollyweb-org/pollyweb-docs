@@ -38,7 +38,7 @@
 
     <br/>
 
-    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker role.md>).
 
     ```yaml
     - TEXT|Who is in the picture?:

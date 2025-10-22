@@ -17,7 +17,7 @@
     <br/>
 
 
-1. **What's the format of a [Talker 😃](<../../😃 Talkers/😃 Talker.md>)?**
+1. **What's the format of a [Talker 😃](<../../😃 Talkers/😃 Talker role.md>)?**
 
     ```yaml
     TIME|<statement> >> $placeholder
@@ -34,7 +34,7 @@
 1. **What's an example of a [Chat 💬](<../../💬 Chats/💬 Chat.md>)?**
 
 
-    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker role.md>).
     
     ```yaml
     TIME|What time? >> $time
@@ -67,7 +67,7 @@
 
     <br/>
 
-    The associated [Talker 😃](<../../😃 Talkers/😃 Talker.md>) would be the following.
+    The associated [Talker 😃](<../../😃 Talkers/😃 Talker role.md>) would be the following.
 
     ```yaml
     💬 Schedule for tomorrow:
