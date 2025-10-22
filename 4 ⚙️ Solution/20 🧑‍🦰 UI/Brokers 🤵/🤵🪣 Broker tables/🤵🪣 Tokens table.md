@@ -1,6 +1,16 @@
 # 🤵🪣 Tokens
 
-> Stores [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
+> Purpose:
+* Stores [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
+    * initially stored in [`Offers` 🪣 table](<🤵🪣 Offers table.md>)
+    * by the [`Offer@Broker`](<../🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>) method
+    * then later saved by the [`Saved@Broker`](<../🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🧑‍🦰🐌🤵 Saved.md>) method
+
+> Read by: 
+* [`Tokens@Broker` 🅰️](<../🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🧑‍🦰🚀🤵 Tokens.md>) method
+
+> Written by:
+* [`Saved@Broker`](<../🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🧑‍🦰🐌🤵 Saved.md>)
 
 <br/>
 
@@ -31,19 +41,23 @@ Parents:
 Here's the [`GET` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET ⏬ item.md>) result.
 
 
-|Property|Type|Description
-|-|-|-
-| `Issuer` | string | [Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)
-| `Token`| uuid | [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ID on the [Broker 🤵](<../🤵🤲 Broker helper.md>)
-
 ```yaml
 # GET|Tokens|<token-uuid>
+Token: <token-uuid>
+Wallet: <wallet-uuid>
 Issuer: any-issuer.dom
 Issuer$: Any Issuer
 Key: <any-key>
 Path: /storage/nlweb/tokens/any-issuer.dom/<token-uuid>
 Schema: any-authority.dom/ANY-SCHEMA:1.0
 Status: REVOKED
-Token: <token-uuid>
-Wallet: <wallet-uuid>
 ```
+
+
+|Property|Type|Description
+|-|-|-
+| `Issuer` | string | [Issuer 🎴](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)  from [`Offer@Broker`](<../🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
+| `Path` | string | Path from [`Saved@Broker`](<../🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🧑‍🦰🐌🤵 Saved.md>)
+| `Status`| string | Status from [`Revise@Broker`](<../🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Revise.md>)
+| `Token`| uuid |  [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) from [`Offer@Broker`](<../🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
+||

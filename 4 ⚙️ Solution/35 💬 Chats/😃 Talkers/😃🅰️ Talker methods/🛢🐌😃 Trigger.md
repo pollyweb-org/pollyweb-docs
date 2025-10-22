@@ -1,5 +1,13 @@
 # 🛢🐌😃 Trigger @ Itemizer
 
+> Used by 
+
+* [`TokenTimeout` 📃 script](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📃 Broker scripts/...triggers/🤵📃 Token 🎫 Timeout.md>)
+
+<br/>
+
+## Async Message 🐌
+
 ```yaml
 Header:
     From: any-itemizer.dom

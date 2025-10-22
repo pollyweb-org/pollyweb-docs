@@ -5,6 +5,8 @@
 
 > Part of the [`Save Token` 👉 flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🎴 Save token.md>).
 
+> Implemented by the [`Offer` 📃 script](<../../🤵📃 Broker scripts/...handlers/🤵📃 Offer 🎫 handler.md>)
+
 > Purpose: 
 * An [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) 
     * issues a [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) 

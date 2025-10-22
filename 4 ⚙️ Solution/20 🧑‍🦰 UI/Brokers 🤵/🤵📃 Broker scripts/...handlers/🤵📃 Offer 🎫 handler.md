@@ -42,7 +42,7 @@
     Schema: $.Msg.Schema
 
 # Save the Offer
-- SAVE|Tokens@Broker:
+- SAVE|Offers@Broker:
     Hook: $.Msg.Hook
     Issuer: $.Msg.From
     Issuer$: $translation.Domain
