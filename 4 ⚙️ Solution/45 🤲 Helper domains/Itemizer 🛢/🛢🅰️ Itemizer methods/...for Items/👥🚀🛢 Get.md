@@ -27,8 +27,8 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header    | `From`        | string    | [Talker 😃 domain](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) name
-|           | `To`          | string    | [Itemizer 🛢 domain](<../../🛢🤲 Itemizer helper.md>) name
+| Header    | `From`        | string    | [Talker 😃](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) from [`Build@Itemizer`](<../...for Tables/👥🐌🛢 Build.md>)
+|           | `To`          | string    | [Itemizer 🛢](<../../🛢🤲 Itemizer helper.md>) from [`Build@Itemizer`](<../...for Tables/👥🐌🛢 Build.md>)
 |           | `Subject`     | string    | `Get@Itemizer`
 | Body      | `Set`     | string    | Set from [`Build@Itemizer`](<../...for Tables/👥🐌🛢 Build.md>)
 |           | `Key`        | string    | Key from [`Save@Itemizer`](<👥🚀🛢 Save.md>)
