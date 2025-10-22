@@ -16,12 +16,13 @@
 
 # Verify inputs
 - ASSERT:
-    - :Token
+    AllOf: !Token, !Wallet
+    UUIDs: !Token
 
 # Get the Token 🎫
 - GET >> $token:
-    Pool: $wallet.Tokens
-    Key: :Token
+    Pool: !Wallet.Tokens
+    Key: !Token
 
 # Ask for an action.
 - ONE|What do you need?:
@@ -29,13 +30,20 @@
 
 # Execute the action.
 - CASE:
-    Remove: RUN|RemoveToken
+    Remove: 
+      - RUN|RemoveToken:
+          Token: $token
+          Wallet: !Wallet
 ```
 
 Commands: [`ASSERT`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/ASSERT 🚦.md>) [`CASE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/CASE ⏯️.md>) [`GET`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET ⏬ item.md>) [`ONE`](<../../../../35 💬 Chats/🤔 Prompts/🤔✏️ Prompt inputs/53 1️⃣ ONE prompt.md>)  [`RUN`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/RUN ▶️.md>)
 
 ```yaml
 📃 RemoveToken:
+
+# Verify inputs
+- ASSERT:
+    AllOf: !Token, !Wallet
 
 # Ask for confirmation 🤔
 - CONFIRM|Remove token {$token.Title}?
@@ -44,14 +52,6 @@ Commands: [`ASSERT`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker c
 - DELETE|$token >> $delete:
     Soft: 30 days
 
-    OnSoft: 
-        # Update the Token 🎫 list
-        - SEND:
-            To: $wallet.Notifier
-            Subject: Updated@Notifier
-            Wallet: $wallet.ID
-            Updates: [ TOKENS ]
-
     OnHard:
         # Remove from Wallet
         - SEND:
@@ -59,6 +59,13 @@ Commands: [`ASSERT`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker c
             Subject: Remove@Notifier
             Wallet: $wallet.ID
             Path: $token.Path
+
+# Update the Token 🎫 list
+- SEND:
+    To: $wallet.Notifier
+    Subject: Updated@Notifier
+    Wallet: $wallet.ID
+    Updates: [ TOKENS ]
 
 # Inform the user 🤔
 - SUCCESS|Token removed.:

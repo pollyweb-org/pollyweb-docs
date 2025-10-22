@@ -29,12 +29,16 @@
 
 # Handle the context
 - CASE|$.Msg.Body.Context:
+
     TOKEN: 
         RUN|PopToken:
+            Wallet: $wallet
             Token: 
     VAULT:  
         RUN|PopVault:
+            Wallet: 
             Vault: 
+
     BIND : TALK|PopBind
 ```
 

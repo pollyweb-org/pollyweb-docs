@@ -3,10 +3,13 @@
 
 # 🎴🐌🤵 Offer @ Broker
 
-> Used by the [🎴⏩🧑‍🦰 Offer Token @ Issuer](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🎴 Save token.md>) flow.
+> Part of the [`Save Token` 👉 flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🎴 Save token.md>).
 
-* An [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) issues a [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) 
-  * and asks a [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) to offer it to the user in a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>).
+> Purpose: 
+* An [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) 
+    * issues a [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) 
+    * and asks a [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) 
+    * to offer it to the user in a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>).
 
 
 <br/>

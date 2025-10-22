@@ -12,13 +12,13 @@
 
 # Verify required inputs
 - ASSERT:
-    - $wallet
+    AllOf: !wallet
 
 # Notify Wallets to update Chats
 - SEND:
-    To: $wallet.Notifier
+    To: !wallet.Notifier
     Subject: Updated@Notifier
-    Wallet: $wallet.Wallet
+    Wallet: !wallet.Wallet
     Updates: [ CHATS ]
 ```
 
