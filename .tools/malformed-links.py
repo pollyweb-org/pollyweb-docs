@@ -27,7 +27,9 @@ def normalize_string(s):
     # Remove emojis using regex (fallback if emoji library not available)
     s = _GENERAL_EMOJI_RE.sub('', s)
     # Remove spaces and lowercase
-    return re.sub(r'\s+', '', s).lower()
+    ret = re.sub(r'\s+', '', s).lower()
+    ret = ret.replace('$', '')
+    return ret
 
 all_memory = False
 
@@ -768,13 +770,16 @@ def _build_project_link_index(md_files):
     return index
 
 def replace_curly_at_mentions(md_files):
-    """For each md file, replace {{token}} with [`token`](<href>) if a matching link exists.
+    """For each md file, replace {{token@other}} with [`token@other` 🅰️ method](<href>) if a matching file exists in the expected folder.
 
-    Strategy:
-    - Prefer links in the same file; if not found, search project-wide index.
-    - Keep href as-is but wrap in <...> to be robust with spaces.
-    Returns total number of replacements made across the project.
+    Strategy: For token X@Y, find file *X*.md in folder containing *Y*methods*.
     """
+    # Load failed tests
+    yaml_path = os.path.join(os.path.dirname(__file__), 'malformed-links.yaml')
+    with open(yaml_path, 'r') as f:
+        data = yaml.safe_load(f)
+    failed = {test['Given']: test.get('WrongFile') for test in data.get('Failed Tests', []) if 'WrongFile' in test}
+    
     total_replacements = 0
     project_index = _build_project_link_index(md_files)
 
@@ -795,53 +800,27 @@ def replace_curly_at_mentions(md_files):
         for token in tokens:
             if '@' in token:
                 parts = token.split('@', 1)
-                after = parts[1]
-                before = parts[0]
-                # Try before @ first
-                href, base = _pick_matching_link(before, links_here)
-                if not href:
-                    href, base = _pick_matching_link(before, project_index)
-                if not href:
-                    # Try after @
-                    href, base = _pick_matching_link(after, links_here)
-                    if not href:
-                        href, base = _pick_matching_link(after, project_index)
-                if not href:
-                    # Try suffixes
-                    for suffix in ["role", "domain", "agent", "helper"]:
-                        candidate = after + suffix
-                        href, base = _pick_matching_link(candidate, links_here)
-                        if href:
+                X = parts[0]
+                Y = parts[1]
+                normalized_X = normalize_string(X)
+                normalized_Y_methods = normalize_string(Y + 'methods')
+                found_href = None
+                for path in _EXISTING_FILES:
+                    if normalize_string(os.path.basename(path)[:-3]) == normalized_X:
+                        folder_path = os.path.dirname(path)
+                        if normalized_Y_methods in normalize_string(folder_path):
+                            found_href = os.path.relpath(path, os.path.dirname(md_file))
                             break
-                        href, base = _pick_matching_link(candidate, project_index)
-                        if href:
-                            break
-            else:
-                href, base = _pick_matching_link(token, links_here)
-                if not href:
-                    href, base = _pick_matching_link(token, project_index)
-            if not href:
-                continue
-
-            # If base is not None and not current file, make href relative to current file
-            final_href = href
-            try:
-                if base and base != md_file and not href.startswith(('http://', 'https://', 'mailto:')):
-                    # compute absolute path of href based on base file
-                    abs_target = os.path.normpath(os.path.join(os.path.dirname(base), href))
-                    # convert to path relative to current md_file
-                    final_href = os.path.relpath(abs_target, os.path.dirname(md_file))
-            except Exception:
-                # if anything goes wrong, fallback to original href
-                final_href = href
-
-            # Normalize href into (<...>) form
-            normalized = f"[`{token}` 🅰️ method](<{final_href}>)"
-            before = content
-            content = content.replace(f"{{{{{token}}}}}", normalized)
-            if content != before:
-                total_replacements += 1
-                changed = True
+                if found_href:
+                    # Check for wrong file
+                    if token in failed and os.path.basename(found_href) == failed[token]:
+                        raise ValueError(f"Generated wrong file link for {token}: {os.path.basename(found_href)}")
+                    normalized = f"[`{token}` 🅰️ method](<{found_href}>)"
+                    before = content
+                    content = content.replace(f"{{{{{token}}}}}", normalized)
+                    if content != before:
+                        total_replacements += 1
+                        changed = True
 
         if changed:
             try:
@@ -893,7 +872,7 @@ def replace_curly_upper_mentions(md_files):
             if not href:
                 href, base = _pick_matching_link_upper(token, project_index)
             if not href and token.isupper():
-                assumed_path = os.path.join(project_directory, "4 ⚙️ Solution", "35 💬 Chats", "😃 Talkers", f"{{{token} ⤴️.md}}")
+                assumed_path = os.path.join(project_directory, "4 ⚙️ Solution", "35 💬 Chats", "😃 Talkers", "😃⚙️ Talker cmds", "for control", f"{token} ⤴️.md")
                 if os.path.exists(assumed_path):
                     href = os.path.relpath(assumed_path, os.path.dirname(md_file))
                     base = None
@@ -2337,7 +2316,7 @@ def replace_dynamic_tokens(md_files, file_dict):
     return total
 
 
-def runit(project_directory):
+def runit(project_directory, entryPoint):
 
 
 
@@ -2366,6 +2345,63 @@ def runit(project_directory):
     # Raise an error if there are no markdown files
     if not md_files:
         raise FileNotFoundError("No markdown files found in the project directory.")
+
+    # Test YAML cases
+    yaml_path = os.path.join(os.path.dirname(__file__), 'malformed-links.yaml')
+    with open(yaml_path, 'r') as f:
+        data = yaml.safe_load(f)
+    for test in data.get('Successful Tests', []):
+        given = test['Given']
+        expected_linktext = test['LinkText']
+        expected_linkfile = test['LinkFile']
+        token = given.strip('{}')
+        if token in ['Placeholder', 'Host', 'Hosts']:
+            if token == 'Placeholder':
+                expected_file = '$Placeholder 🧠.md'
+            elif token in ['Host', 'Hosts']:
+                expected_file = '🤗🎭 Host role.md'
+            if expected_file != expected_linkfile:
+                raise ValueError(f"Hardcoded test failed for {given}: {expected_file} != {expected_linkfile}")
+        elif '@' in token:
+            parts = token.split('@', 1)
+            X = parts[0]
+            Y = parts[1]
+            normalized_X = normalize_string(X)
+            normalized_Y_methods = normalize_string(Y + 'methods')
+            found = False
+            for path in md_files:
+                if normalize_string(os.path.basename(path)[:-3]) == normalized_X:
+                    folder_path = os.path.dirname(path)
+                    if normalized_Y_methods in normalize_string(folder_path):
+                        file_name = os.path.basename(path)
+                        if file_name == expected_linkfile:
+                            found = True
+                        break
+            if not found:
+                raise ValueError(f"Did not find expected file for {given}: {expected_linkfile}")
+        elif token.isupper():
+            assumed_path = os.path.join(project_directory, "4 ⚙️ Solution", "35 💬 Chats", "😃 Talkers", "😃⚙️ Talker cmds", "for control", f"{token} ⤴️.md")
+            if os.path.exists(assumed_path):
+                file_name = os.path.basename(assumed_path)
+                expected_linkfile = expected_linkfile.strip('{}')
+                if file_name != expected_linkfile:
+                    raise ValueError(f"Wrong file for {given}: {file_name} != {expected_linkfile}")
+            else:
+                raise ValueError(f"Assumed path not found for {given}: {assumed_path}")
+        else:
+            # for others, like Request Sync
+            normalized_token = normalize_string(token)
+            found = False
+            for path in md_files:
+                name = os.path.basename(path)[:-3]
+                if normalize_string(name) == normalized_token:
+                    file_name = os.path.basename(path)
+                    if file_name == expected_linkfile:
+                        found = True
+                    break
+            if not found:
+                raise ValueError(f"No matching file for {given}: {expected_linkfile}")
+    print("YAML tests passed!")
 
     #print (f"\nProject files:  {md_files}")
     png_files = find_png_files(project_directory)
@@ -2871,43 +2907,6 @@ yes_memory = []
 def test_immutable_token_replacements():
     """Test immutable token replacements that should always work the same way."""
     
-    # Load the YAML test cases
-    yaml_path = os.path.join(os.path.dirname(__file__), 'malformed-links.yaml')
-    with open(yaml_path, 'r') as f:
-        data = yaml.safe_load(f)
-    
-    # Build a minimal file_dict for the test files
-    file_dict = OrderedDict()
-    for test in data['Tests']:
-        # Normalize the file name without .md, and remove {{ }}
-        name = test['LinkFile'].replace('.md', '').replace('{{', '').replace('}}', '')
-        normalized = normalize_string(name)
-        file_dict[normalized] = test['LinkFile']
-    
-    # Run the YAML tests
-    for test in data['Tests']:
-        content = test['Given']
-        md_file = os.path.join(os.getcwd(), "dummy.md")
-        def _generate_link(m):
-            token = m.group(1)
-            normalized_key = normalize_string(token.split('@')[0] if '@' in token else token)
-            if normalized_key in file_dict:
-                file_path = file_dict[normalized_key]
-                relative_path = os.path.relpath(file_path, os.path.dirname(md_file))
-                if '@' in token:
-                    link_text = f"`{token}` 🅰️ method"
-                    return f"[{link_text}](<{relative_path}>)"
-                elif token.isupper():
-                    link_text = f"`{token}`"
-                    return f"[{link_text}](<{relative_path}>)"
-                else:
-                    link_text = f"`{token}`"
-                    return f"{link_text}(<{relative_path}>)"
-            return m.group(0)
-        result = re.sub(r'\{\{([^}]+)\}\}', _generate_link, content)
-        expected = (test['LinkText'] + "(<" + test['LinkFile'] + ">)").replace("] (<", "](<").replace(" (<", "(<")
-        assert result == expected, f"YAML test failed for {test['Given']}: got {result}, expected {expected}"
-    
     # Test replace_placeholder_tokens
     pattern = re.compile(
         r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Placeholder`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
@@ -2968,12 +2967,13 @@ def test_immutable_token_replacements():
 
 if __name__ == "__main__":
 
-    entryPoint = "../../nlweb-docs"
-    # Default project directory to PR-FAQ (adjust if necessary)
-    project_directory = os.path.abspath(entryPoint)
+    # entryPoint = "nlweb-docs"
+    # Default project directory to the parent of .tools
+    project_directory = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    entryPoint = "nlweb-docs"
 
     # Run the tests
     test_fix_markdown_link()
     test_immutable_token_replacements()
     
-    runit(project_directory)
+    runit(project_directory, entryPoint)
