@@ -1,20 +1,20 @@
 # 🤵🐌📣 Prompt @ Notifier
 
-> Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) flow, succeeded by:
-> <br/>• [`Prompted@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🧑‍🦰🚀🤗 Prompted.md>) message
-> <br/>• [`Reply@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🧑‍🦰🐌🤗 Reply.md>) message
-> <br/>• [`Download@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🧑‍🦰🚀🤗 Download.md>)  message
+> Implements the [Notifier 📣 domain](<../../📣👥 Notifier domain.md>)
 
 
-[Broker 🤵 domains](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) 
-* forward   [Prompts 🤔](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) 
-* from [Host 🤗 domains](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) 
-* to [Notifier 📣 domains](<../../📣👥 Notifier domain.md>).
+> Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) flow, succeeded by
 
+*  [`Prompted@Host` 🅰️ method](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🧑‍🦰🚀🤗 Prompted.md>)
+*  [`Reply@Host` 🅰️ method](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🧑‍🦰🐌🤗 Reply.md>)
+*  [`Download@Host` 🅰️ method](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🧑‍🦰🚀🤗 Download.md>)
 
+> Purpose
+* [Broker 🤵 domains](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) 
+    * forward   [Prompts 🤔](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) 
+    * from [Host 🤗 domains](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) 
+    * to [Notifier 📣 domains](<../../📣👥 Notifier domain.md>).
 
-
-<br/>
 
 ## Async Message 🐌
 

@@ -123,7 +123,10 @@
 1. **What's the syntax for boolean assertions?**
 
     ```yaml
-    # Boolean assertions
+    # Value boolean assertions
+    ASSERT|{boolean}
+
+    # Object boolean assertions
     ASSERT|$object:
         - {boolean}       
     ```

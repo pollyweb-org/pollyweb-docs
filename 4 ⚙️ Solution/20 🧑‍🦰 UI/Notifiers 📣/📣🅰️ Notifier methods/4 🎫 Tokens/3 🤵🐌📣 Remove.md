@@ -1,15 +1,22 @@
 
-# 🤵🐌📣 Revoked @ [Notifier](<../../📣👥 Notifier domain.md>)
+# 🤵🐌📣 Remove @ [Notifier](<../../📣👥 Notifier domain.md>)
+
+> Implements the [Notifier 📣 domain](<../../📣👥 Notifier domain.md>)
 
 > Used in [🧑‍🦰👉🤵 Remove token](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Tokens 🎫/💬🤵 Remove 🎫.md>).
 
+> Called by the [`TokenTimeout` 📃 script](<../../../Brokers 🤵/🤵📃 Broker scripts/...triggers/🤵📃 Token 🎫 Timeout.md>)
+
+
 <br/>
 
+## Async Message 🐌
 ```yaml
 Header:
     From: any-broker.dom
     To: any-notifier.dom
     Subject: Remove@Notifier
+
 Body:
     Wallet: <wallet-id>
     Path: /storage/nlweb/tokens/<issuer>/<token-uuid>
@@ -18,9 +25,9 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From`|string | [Broker 🤵 domain](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) name
-||`To`|string| [Notifier 📣 domain](<../../📣👥 Notifier domain.md>) name
+|Header|`From`|string | [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) from [`Onboard@Broker`](<../1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
+||`To`|string| [Notifier 📣](<../../📣👥 Notifier domain.md>) from [`Onboard@Broker`](<../1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
 ||`Subject`|string|`Remove@Broker`
-|Body  |`Wallet`| uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) ID from [`Onboard@Broker`](<../1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
+|Body  |`Wallet`| uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  from [`Onboard@Broker`](<../1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
 ||`Path`    |string| Path from [`Save@Notifier`](<1 🤵🐌📣 Save.md>)
 |

@@ -29,9 +29,9 @@
     |-|-| -
     | `<script>`| [Script 📃](<📃 Script.md>) to run | `MyScript`
     | `$arg-n`  | Optional positional arguments | `1,2` `s,$p`
-    |           | Reads `+n`  inside the [Script 📃](<📃 Script.md>) | `+1` `+2`
+    |           | Reads `$:n`  inside the [Script 📃](<📃 Script.md>) | `$:1` `$:2`
     | `{args}`| Optional object arguments | `{A:1, B:2}`
-    | | Reads `!name` in the [Script 📃](<📃 Script.md>) | `±A` `+B`
+    | | Reads `!name` in the [Script 📃](<📃 Script.md>) | `$:A` `$:B`
     | `$return`| Optional [`RETURN`](<RETURN ⤴️.md>) holder | `$return`
     
     ---
@@ -67,7 +67,7 @@
 
     ```yaml
     📃 Great:
-    - INFO|Hi, {!Name}! I'm {!Feeling}.
+    - INFO|Hi, {$:Name}! I'm {$:Feeling}.
     ```
 
     Commands: [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`RUN`](<RUN ▶️.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
@@ -111,7 +111,7 @@
 
     ```yaml
     📃 ShowNumber:
-    - INFO|You gave me number {!n}.
+    - INFO|You gave me number {$:n}.
     ```
 
     Commands: [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`QUANTITY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/42 ↕️ QUANTITY prompt.md>) [`RUN`](<RUN ▶️.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
@@ -151,10 +151,10 @@
 
     ```yaml
     📃 ShowNumber:
-    - INFO|Here's number {!n}.
+    - INFO|Here's number {$:n}.
     ```
 
-    Commands: [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
+    Commands: [`ASSERT`](<../for handlers/ASSERT 🚦.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
 
     ```python
     # 🐍 Python handler
@@ -239,8 +239,8 @@
     📃 AddFive:
 
     # Calculate and exit the script
-    - INFO|Adding 5 to {!1}...
-    - RETURN|.Sum(!1, 5)
+    - INFO|Adding 5 to {$:1}...
+    - RETURN|.Sum($:1, 5)
 
     # It shouldn't get to this line
     - FAILURE|This is a bug.
