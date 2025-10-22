@@ -12,11 +12,13 @@ Body:
     Blame: SaveToken
 
     Saves:
-      - Pool: Resources
-        Key: resource-key
-        Data: <data>
+      - Pool: MyPool
+        Key: my-item-key
+        Timeout: 30 days
+        Data: {...}
 
     Deletes:
-      - Pool: Resources
-        Key: resource-key
+      - Pool: Pool2
+        Key: another-item-key
+        Timeout: 30 days
 ```
