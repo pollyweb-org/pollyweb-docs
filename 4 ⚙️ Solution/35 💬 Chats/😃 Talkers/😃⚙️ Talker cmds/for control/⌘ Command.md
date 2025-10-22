@@ -119,3 +119,12 @@
 
     ---
     <br/>
+
+
+1. **How to create custom commands?**
+
+    |#|Step|Details
+    |-|-|-
+    |1| `Upload` | Upload the [Script 📃](<📃 Script.md>) for the [Command ⌘](<⌘ Command.md>)
+    |2| `Parse` | Parse the command at 
+    ||
