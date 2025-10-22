@@ -2,7 +2,20 @@ import os
 import re
 import yaml
 
-from broken_links import find_md_files, find_png_files, check_broken_links, print_results
+# Instructions on how to run this script:
+# > python3 -m venv .venv
+# > source .venv/bin/activate
+# > pip3 install -r requirements.txt
+# > cd .tools/links
+# > python3 main_links.py
+
+from broken_links import (
+    check_broken_links,
+    find_md_files,
+    find_png_files,
+    normalize_string,
+    print_results,
+)
 from links_replace import (
     replace_curly_at_mentions, replace_curly_upper_mentions, add_emoji_to_table_rows,
     replace_placeholder_tokens, replace_msg_tokens, replace_hosts_tokens, replace_host_tokens,
@@ -602,14 +615,6 @@ def runit(project_directory, entryPoint):
             #print("No table rows required emoji prefixing.")
     except Exception as e:
         print(f"Warning: failed adding emojis to table rows: {e}")
-
-def normalize_string(s):
-    # Remove emojis using regex (fallback if emoji library not available)
-    s = re.sub(r"[\U0001F1E6-\U0001F1FF\U0001F300-\U0001FAFF\u2190-\u21FF\u2300-\u23FF\u25A0-\u25FF\u2600-\u26FF\u2700-\u27BF\u2B00-\u2BFF]\uFE0F?", "", s)
-    # Remove spaces and lowercase
-    ret = re.sub(r'\s+', '', s).lower()
-    ret = ret.replace('$', '')
-    return ret
 
 def test_immutable_token_replacements():
     """Test immutable token replacements that should always work the same way."""
