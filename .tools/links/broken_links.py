@@ -373,7 +373,7 @@ def check_broken_links(md_files, png_files, project_directory):
     return broken_links, malformed_links, replacement_char_hits, finished
 
 
-def print_results(broken_links, malformed_links, replacement_char_hits, yes_memory, all_memory):
+def print_results(broken_links, malformed_links, replacement_char_hits, yes_memory, all_memory, project_directory):
     """Print the broken and malformed links found in the project and report replacement characters."""
 
     if not broken_links and not malformed_links and not replacement_char_hits:
