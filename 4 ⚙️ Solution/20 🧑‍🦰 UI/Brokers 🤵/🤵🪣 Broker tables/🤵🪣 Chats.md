@@ -2,7 +2,7 @@
 
 > Stores [Chats 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>)
 
-> Inserted by [`Converse` 📃 script](<../🤵📃 Broker scripts/...helpers/🤵📃 Converse ⏩.md>)
+> Inserted by [`Converse` 📃 script](<../🤵📃 Broker scripts/...supporters/🤵📃 Converse ⏩.md>)
 
 <br/>
 
