@@ -3,11 +3,11 @@
 # > source .venv/bin/activate
 # > pip3 install -r requirements.txt
 # > cd .tools
-# > python3 malformed-links.py
+# > python3 links.py
 
 # Before saying that the py script is running
 # correctly, run the tests in the 
-# "malformed-links.yaml" file to verify the 
+# "links.yaml" file to verify the 
 # expected results, respecting the instructions 
 # in the yaml file.
 
@@ -775,7 +775,7 @@ def replace_curly_at_mentions(md_files):
     Strategy: For token X@Y, find file *X*.md in folder containing *Y*methods*.
     """
     # Load failed tests
-    yaml_path = os.path.join(os.path.dirname(__file__), 'malformed-links.yaml')
+    yaml_path = os.path.join(os.path.dirname(__file__), 'links.yaml')
     with open(yaml_path, 'r') as f:
         data = yaml.safe_load(f)
     failed = {test['Given']: test.get('WrongFile') for test in data.get('Failed Tests', []) if 'WrongFile' in test}
@@ -2347,7 +2347,7 @@ def runit(project_directory, entryPoint):
         raise FileNotFoundError("No markdown files found in the project directory.")
 
     # Test YAML cases
-    yaml_path = os.path.join(os.path.dirname(__file__), 'malformed-links.yaml')
+    yaml_path = os.path.join(os.path.dirname(__file__), 'links.yaml')
     with open(yaml_path, 'r') as f:
         data = yaml.safe_load(f)
     for test in data.get('Successful Tests', []):

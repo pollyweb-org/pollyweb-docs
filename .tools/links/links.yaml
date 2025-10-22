@@ -1,9 +1,9 @@
 # This is a test file for 
-# the "malformed-links.py" file.
+# the "links.py" file.
 
 Instructions: >
   Do not add any of these specific files
-  in the malformed-links.py script, 
+  in the links.py script, 
   except for the tests that are hardcoded.
   Run the py against these tests before 
   saying that the py is working correctly.
