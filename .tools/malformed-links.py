@@ -1813,7 +1813,10 @@ def replace_dynamic_tokens(md_files, file_dict):
                     f.write(new_content)
                 total += n
             except Exception:
+                # Print the exception but continue
+                print(f'  Failed to write changes to "file://{file_path.replace(" ", "%20")}"')
                 pass
+
     return total
 
 
