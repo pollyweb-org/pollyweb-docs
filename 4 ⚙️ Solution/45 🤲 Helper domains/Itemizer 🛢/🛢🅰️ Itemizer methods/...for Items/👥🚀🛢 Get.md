@@ -21,8 +21,8 @@ Header:
     Subject: Get@Itemizer
 
 Body:
-    Table: MyPool
-    Key: MyKey
+    Set: MySet
+    Key: [ MyKey1, Key2 ]
 ```
 
 |Object|Property|Type|Description
@@ -30,7 +30,7 @@ Body:
 | Header    | `From`        | string    | [Talker 😃 domain](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) name
 |           | `To`          | string    | [Itemizer 🛢 domain](<../../🛢🤲 Itemizer helper.md>) name
 |           | `Subject`     | string    | `Get@Itemizer`
-| Body      | `Table`     | string    | Name from [`Build@Itemizer`](<../...for Tables/👥🐌🛢 Build.md>)
+| Body      | `Set`     | string    | Set from [`Build@Itemizer`](<../...for Tables/👥🐌🛢 Build.md>)
 |           | `Key`        | string    | Key from [`Save@Itemizer`](<👥🚀🛢 Save.md>)
 |
 
