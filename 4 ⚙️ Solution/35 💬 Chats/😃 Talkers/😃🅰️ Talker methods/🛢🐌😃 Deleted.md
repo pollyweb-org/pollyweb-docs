@@ -1,4 +1,4 @@
-# 🛢🐌😃 Trigger @ Itemizer
+# 🛢🐌😃 Deleted @ Talker
 
 > Used by 
 
@@ -12,7 +12,7 @@
 Header:
     From: any-itemizer.dom
     To: any-talker.dom
-    Subject: Trigger@Itemizer
+    Subject: Deleted@Itemizer
 
 Body:
     Hook: MyTrigger

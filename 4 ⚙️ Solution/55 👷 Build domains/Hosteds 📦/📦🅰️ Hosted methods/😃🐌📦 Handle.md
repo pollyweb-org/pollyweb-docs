@@ -1,12 +1,16 @@
-# 😃🐌🧑‍💻 Evaluate @ Hosted
-
-> Handles a [{Function} 🐍](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/{Function} 🐍.md>) evaluation.
+# 😃🐌🧑‍💻 Handle @ Hosted
 
 > Implements [Hosted 📦 domain](<../📦👥 Hosted domain.md>)
 
-> Part of [😃⏩🧑‍💻 Handle @ Talker](<../../../35 💬 Chats/😃 Talkers/😃⏩ Talker flows/😃⏩🧑‍💻 Handle 🐍.md>) flow
+> Flow: 
 
-> Followed by [`Handled@Talker`](<../../../35 💬 Chats/😃 Talkers/😃🅰️ Talker methods/🧑‍💻🐌😃 Handled.md>) message
+* Part of the [`Handle` ⏩ flow](<../../../35 💬 Chats/😃 Talkers/😃⏩ Talker flows/😃⏩🧑‍💻 Handle 🐍.md>) 
+* Followed by the [`Handled@Talker` 🅰️ method](<../../../35 💬 Chats/😃 Talkers/😃🅰️ Talker methods/🧑‍💻🐌😃 Handled.md>) 
+
+> Purpose: 
+
+* Handles a [{Function} 🐍](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/{Function} 🐍.md>) evaluation.
+
 
 <br/>
 
@@ -17,8 +21,9 @@ Header:
     From: any-hoster.dom
     To: any-domain.dom
     Subject: Handle@Hosted
+    
 Body:
-    Request: <request-uuid>
+    Hook: <hook-uuid>
     Function: my-function
     Arguments: 
         - {A:1, B:2}
@@ -29,7 +34,7 @@ Body:
 | Header    | `From`        | string    | [Hoster ☁️ domain](<../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) name
 |           | `To`          | string    | [Hosted 📦 domain](<../📦👥 Hosted domain.md>) name
 |           | `Subject`     | string    | `Handle@Hosted`
-| Body      | `Callback`    | uuid      | Call back for [`Handled@Talker`](<../../../35 💬 Chats/😃 Talkers/😃🅰️ Talker methods/🧑‍💻🐌😃 Handled.md>)
-|           | `Function`    | string    | Name of the function to evaluate
-|           | `Arguments`   | array     | Array of function arguments 
+| Body      | `Hook`    | uuid      | Hook for [`Handled@Talker`](<../../../35 💬 Chats/😃 Talkers/😃🅰️ Talker methods/🧑‍💻🐌😃 Handled.md>)
+|           | `Function`    | string    | Name of the [{Function} 🐍](<{Function} 🐍.md>) to evaluate
+|           | `Arguments`   | array     | Array of [{Function} 🐍](<{Function} 🐍.md>) arguments 
 |
