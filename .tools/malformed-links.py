@@ -1787,6 +1787,32 @@ def replace_functions_tokens(md_files):
     return total
 
 
+def replace_scripts_tokens(md_files):
+    """Replace '{{Scripts}}' (allowing optional inner spaces) with '[Scripts 📃](<📃 Script.md>)' in all md files."""
+    # Allow normal and unicode non-breaking/zero-width spaces around Scripts
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Scripts`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[Scripts 📃](<📃 Script.md>)"
+    total = 0
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+        new_content, n = pattern.subn(replacement, content)
+        if n > 0:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                total += n
+            except Exception:
+                pass
+    return total
+
+
 def replace_dynamic_tokens(md_files, file_dict):
     """Replace any remaining {{...}} tokens with links to matching .md files based on normalized names."""
     def replacer(match, file_path):
@@ -2208,6 +2234,16 @@ def runit(project_directory):
             pass
     except Exception as e:
         print(f"Warning: failed replacing {{Functions}} tokens: {e}")
+
+    # Replace {{Scripts}} tokens
+    try:
+        replaced = replace_scripts_tokens(md_files)
+        if replaced:
+            print(f"Replaced {replaced} {{Scripts}} tokens ✅")
+        else:
+            pass
+    except Exception as e:
+        print(f"Warning: failed replacing {{Scripts}} tokens: {e}")
 
     # Replace dynamic {{...}} tokens
     try:

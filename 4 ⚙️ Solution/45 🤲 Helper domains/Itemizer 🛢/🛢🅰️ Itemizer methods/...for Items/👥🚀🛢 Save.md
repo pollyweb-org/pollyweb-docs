@@ -1,16 +1,15 @@
 <!-- TODO: detail -->
 
-# 👥🚀🛢 Transact @ Itemizer
+# 👥🚀🛢 Save @ Itemizer
 
 > Part of [Itemizer 🛢 helper](<../../🛢🤲 Itemizer helper.md>)
 
-> Implements the [`SAVE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/SAVE 💾 item.md>) and [`DELETE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/DELETE 🗑️ item.md>) commands.
+> Implements the [`SAVE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/SAVE 💾 item.md>) commands from [Talker 😃 domains](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>).
 
-> Purpose:
+> Purpose
 
-* Saves and deletes items 
-  * on an [Itemized 🛢 datasets](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>)
-  * as a single transaction
+* Saves an item
+  * on an [Itemized 🛢 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>)
   * as requested by a [Talker 😃 domain](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>).
 
 <br/>
@@ -21,36 +20,38 @@
 Header:
     From: any-talker.dom
     To: any-itemizer.dom
-    Subject: Transact@Itemizer
+    Subject: Save@Itemizer
 
 Body:
-    Blame: SaveToken
-
-    Saves:
-      - Table: MyPool
-        Key: my-item-key
-        Timeout: 30 days
-        Data: {...}
-
-    Deletes:
-      - Table: Pool2
-        Key: another-item-key
-        Timeout: 30 days
+    Set: MySet
+    Key: my-item-key
+    Item: {...}
+    Script: SaveToken
+    Timeout: 30 days
+    Version: <version-uuid>
 ```
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header    | `From`        | string    | [Talker 😃 domain](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) name
-|           | `To`          | string    | [Itemizer 🛢 domain](<../../🛢🤲 Itemizer helper.md>) name
-|           | `Subject`     | string    | `Transact@Itemizer`
-| Body      | `Blame`     | string    | Reference for traceability
-|           | `Saves`       | array     | List of items to save
-|           | `Deletes`     | array     | List of items to delete
-| Saves   | `Table`    | string  | Case insensitive name
+| Header    | `From`        | string    | [Talker 😃](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) from [`Build@Itemizer`](<../...for Tables/👥🐌🛢 Build.md>)
+|           | `To`          | string    | [Itemizer 🛢](<../../🛢🤲 Itemizer helper.md>) from [`Build@Itemizer`](<../...for Tables/👥🐌🛢 Build.md>)
+|           | `Subject`     | string    | `Save@Itemizer`
+| Body    | `Set`    | string  | `Set` from [`Build@Itemizer`](<../...for Tables/👥🐌🛢 Build.md>)
 |         | `Key`     | string  | Case insensitive key
+|         | `Item`    | object  | Object to save
+|        | `Script` | string    | Optional [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/📃 Script.md>) for traceability
 |         | `Timeout` | string  | Optional scheduled delete
-|         | `Data`    | object  | Object to save
-| Deletes | `Table`    | string  | Case insensitive name
-|         | `Key`     | string  | Case insensitive key
-|         | `Timeout` | string  | Optional [`UNDO`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/UNDO ↩️.md>) time
+|         | `Version` | uuid    | Optional version from [`Get@Itemizer`](<👥🚀🛢 Get.md>)
 |
+
+<br/>
+
+## FAQ
+
+1. **What is the `Version` for?**
+
+    The version argument is used for optimistic concurrency.
+    * When a [Scripts 📃](<📃 Script.md>)
+
+    ---
+    <br/>

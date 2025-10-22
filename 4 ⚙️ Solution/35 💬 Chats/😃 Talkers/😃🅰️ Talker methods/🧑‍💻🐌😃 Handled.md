@@ -4,13 +4,13 @@
 > Implements [Hoster ☁️ helper domain](<../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>)
 
 
-> Flow: 
+> Flow
 
 * Part of the [`Handle` ⏩ flow](<../😃⏩ Talker flows/😃⏩🧑‍💻 Handle 🐍.md>) flow
 *  Receives async responses from the [`Handle@Hosted`](<../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/😃🐌📦 Handle.md>) method.
 
 
-> Purpose: 
+> Purpose
 
 * Returns a [{Function} 🐍](<../😃⚙️ Talker cmds/for data/{Function} 🐍.md>) evaluation.
 
