@@ -21,7 +21,7 @@
 
     ```yaml
     # Single item
-    - SAVE|<pool> >> $inserted:
+    - SAVE|<set> >> $inserted:
         {object}
     ```
 
@@ -34,7 +34,7 @@
 
     | Argument| Purpose | Example
     |-|-|-
-    | `<pool>` | Name of resource pool | `MyPool`
+    | `<set>` | Name of resource pool | `MyPool`
     | `{object}` | Item to update or insert in the pool | `MyKey` `$key`
     | `$inserted` | [Placeholder 🧠](<$Placeholder 🧠.md>) with the insertion | `$item`
 

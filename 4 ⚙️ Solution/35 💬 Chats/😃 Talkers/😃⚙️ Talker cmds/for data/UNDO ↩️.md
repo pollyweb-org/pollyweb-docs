@@ -37,7 +37,7 @@
     ```yaml 
     # Delete an item
     - DELETE|$item >> $deleted:
-        Soft: 30 days
+        Undo: 30 days
 
     # Inform the user 
     - SUCCESS|Removed:

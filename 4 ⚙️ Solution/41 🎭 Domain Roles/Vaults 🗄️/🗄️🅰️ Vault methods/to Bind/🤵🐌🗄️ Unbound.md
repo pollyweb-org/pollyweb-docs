@@ -40,8 +40,9 @@ Body:
 ```yaml
 # Delete from the table
 - DELETE|Binds@Vault:
-    Broker: $.Msg.From
-    Bind: $bind.Bind
+    Key: 
+        Broker: $.Msg.From
+        Bind: $bind.Bind
 ```
 
 | [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | Purpose
