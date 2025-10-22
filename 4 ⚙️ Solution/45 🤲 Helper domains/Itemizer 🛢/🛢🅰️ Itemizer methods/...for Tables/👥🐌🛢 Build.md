@@ -2,6 +2,9 @@
 
 # 👥🐌🛢 Build
 
+> Part of [Itemizer 🛢 helper](<../../🛢🤲 Itemizer helper.md>)
+
+
 > Purpose:
 
 * Builds an [Itemized 🛢 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>)
@@ -22,7 +25,7 @@ Header:
     Subject: Build@Itemizer
 
 Body:
-    Name: MyPool
+    Name: MyTable
     Key: MyKey
     Parents: {...}
     Children: {...}

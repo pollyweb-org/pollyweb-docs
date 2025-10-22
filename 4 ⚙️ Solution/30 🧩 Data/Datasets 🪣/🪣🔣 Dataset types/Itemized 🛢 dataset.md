@@ -1,6 +1,6 @@
 # 🛢🪣 Itemized datasets
 > Implemented by the [🛢🤲 Itemizer helper](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🤲 Itemizer helper.md>)
- with [`Build@Itemizer`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/for Pools/👥🐌🛢 Build.md>) 
+ with [`Build@Itemizer`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/...for Tables/👥🐌🛢 Build.md>) 
 
 <br/>
 

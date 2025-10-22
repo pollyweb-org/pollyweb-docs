@@ -16,6 +16,6 @@ Body:
 | Header    | `From`        | string    | [Itemizer 🛢 domain](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🤲 Itemizer helper.md>) name
 |           | `To`          | string    | [Talker 😃 domain](<../😃 Talker.md>) name
 |           | `Subject`     | string    | `Trigger@Itemizer`
-| Body      | `Hook`     | string    | `Hook` from [`Transact@Itemizer`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/for Resources/👥🚀🛢 Transact.md>) 
-|           | `Item`        | object    | [Item 🛢](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) from [`Transact@Itemizer`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/for Resources/👥🚀🛢 Transact.md>) 
+| Body      | `Hook`     | string    | `Hook` from [`Build@Itemizer`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/...for Tables/👥🐌🛢 Build.md>)
+|           | `Item`        | object    | [Item 🛢](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) from [`Transact@Itemizer`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Save.md>) 
 |
