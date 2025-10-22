@@ -50,14 +50,7 @@ Commands: [`ASSERT`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker c
 
 # Remove the Token 🎫
 - DELETE|$token >> $delete:
-    Wait: 30 days
-    OnTimeout:
-        # Remove from Wallet
-        - SEND:
-            To: $wallet.Notifier
-            Subject: Remove@Notifier
-            Wallet: $wallet.ID
-            Path: $token.Path
+    Undo: 30 days
 
 # Update the Token 🎫 list
 - RUN|UpdateTokens:

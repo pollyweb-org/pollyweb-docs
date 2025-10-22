@@ -19,7 +19,7 @@
 
 # Get the Wallet 🧑‍🦰
 - GET >> $wallet:
-    Pool: Wallets@Broker
+    SetWallets@Broker
     Key: !Item.Wallet
 
 # Remove from Wallet

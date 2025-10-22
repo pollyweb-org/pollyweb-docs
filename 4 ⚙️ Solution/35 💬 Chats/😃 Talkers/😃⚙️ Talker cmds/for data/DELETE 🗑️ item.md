@@ -23,44 +23,24 @@
 1. **What's the syntax of a delete?**
 
     ```yaml
-    # Single item
-    - DELETE|<pool>|<key>:
-        Set: <pool>
-        Key: <key>
+    # Inline
+    - DELETE|<set>|<key>
+
+    # Multiline
+    - DELETE:
+        Set: <set>
+        Key: {key}
     ```
 
-    ```yaml
-    # Multiple items in all-or-nothing transaction.
-    - Delete:
-        - Set: <pool-1>
-          Key: <key-1>
-        - Set: <pool-n>
-          Key: <key-n>
-    ```
 
     | Argument| Purpose | Example
     |-|-|-
-    | `<pool>` | Name of resource pool | `MyPool`
-    | `<key>` | Key to delete from the pool | `MyKey` `$key`
+    | `<set>` | Name of the dataset | `MySet`
+    | `<key>` | Key(s) to delete from the set | `A` `A,B` `$a` 
+    | `{key}` | Key to delete from the set | `{A:1,B:2}`
 
     ---
     <br/>
-
-1. **How to delete a complex key?**
-
-    ```yaml
-    # Single item with complex key
-    - DELETE|<pool>:
-        {key}
-    ```
-
-    | Argument| Purpose | Example
-    |-|-|-
-    | `{key}` | Complex key to delete | `{a:1, b:2}`
-
-    ---
-    <br/>
-
 
 1. **How up delete a mapped item?**
 
@@ -82,19 +62,14 @@
 
     <!-- TODO: add the property explanations -->
 
+    See a comprehensive example at [`UNDO`](<UNDO ↩️.md>).
+
     ```yaml
-    DELETE|<pool>|<key>:
-
-        Soft: <n> <days|hours|minutes|months>
-
-        OnSoft: <one-line-command>
-            - <command-1>
-            - <command-n>
-
-        OnHard: <one-line-command>
-            - <command-1>
-            - <command-n>
+    DELETE|<set>|<key>:
+        Undo: <n> <days|hours|minutes|months>
     ````
+
+
 
     ---
     <br/>

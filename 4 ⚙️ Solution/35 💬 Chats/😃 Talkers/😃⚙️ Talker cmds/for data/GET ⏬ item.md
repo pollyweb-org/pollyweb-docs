@@ -26,7 +26,7 @@
     ```yaml
     # Comprehensive
     - GET >> $item:
-        Set: <pool>
+        Set: <set>
         Key: <key>
 
         # Required by default
@@ -36,7 +36,7 @@
 
     ```yaml
     # Simplest
-    - GET|<pool>|<key> >> $item
+    - GET|<set>|<key> >> $item
     ```
 
     | Argument| Purpose | Example

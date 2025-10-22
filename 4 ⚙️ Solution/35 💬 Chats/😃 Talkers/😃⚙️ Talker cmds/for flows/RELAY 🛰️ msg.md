@@ -28,7 +28,7 @@
 1. **What's the syntax?**
 
     ```yaml
-    - RELAY|<pool>|<key> >> $result
+    - RELAY|<set>|<key> >> $result
         Script: <script>
         OnFailure: <failure>
         OnSuccess: <success>
@@ -36,7 +36,7 @@
 
     | Argument| Purpose
     |-|-
-    | `<pool>` | Name of device pool in the [Relayer 🛰️](<../../../../45 🤲 Helper domains/Relayers 🛰️/🛰️🤲 Relayer helper.md>)
+    | `<set>` | Name of device pool in the [Relayer 🛰️](<../../../../45 🤲 Helper domains/Relayers 🛰️/🛰️🤲 Relayer helper.md>)
     | `<key>`  | Unique device key in the pool
     | `<script>` | Message to send to the device
     | `$result` | The response returned by the [Relayer 🛰️](<../../../../45 🤲 Helper domains/Relayers 🛰️/🛰️🤲 Relayer helper.md>)
