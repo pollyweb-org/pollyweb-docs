@@ -2,18 +2,17 @@
 
 > From [🏪 Drink at vending machines](<01 🏪 Index.md>)
 
-* [Talker 😃](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃 Talker.md>) for:
+> [Script 📃](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/📃 Script.md>) for:
   * [Buy water 💧 ](<11 💧 Buy water.md>)
   * [Buy beer 🍺 ](<12 🍺 Buy beer.md>)
 
-## Talker
+## Script
 
 <!--
 TODO: Add the flow to the Manifest
 -->
 
 ```yaml
-# 😃 Talker
 💬|[Buy] an item:
 
 # Set the Chat's flow.
@@ -48,9 +47,11 @@ TODO: Add the flow to the Manifest
     Script: Open({$item.Number})
     OnFailure: Failure
     OnSuccess: Success
+````
 
+```yaml
 # Show error.
-fail:
+📃 fail:
 - FAILURE|It didn't work!   # Inform the user
 - REFUND|$charge            # Refund the value
 - LOG:
@@ -58,9 +59,11 @@ fail:
     Item: $item.Number
     Charge: $charge
     Relay: $relayed
+```
 
+```yaml
 # Show success.
-Success:
+📃 Success:
 - SUCCESS|Pick up the item. # Inform the user
 - GOODBYE                   # Show review, ads
 - EVAL|Deduct:              # Deduct the stock

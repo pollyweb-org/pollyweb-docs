@@ -120,7 +120,7 @@
     - RETURN|.Sum([!1,!2,!3])
     ```
 
-    Commands: [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`RUN`](<RUN ▶️.md>) [`{.Sum}`](<{Function} 🐍.md>)
+    Commands: [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`RUN`](<RUN ▶️.md>) [`{.Sum}`](<../for data/{Function} 🐍.md>)
 
     ---
     <br/>

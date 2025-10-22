@@ -38,6 +38,7 @@
     | `OneOf` | Only one should have value | `A,B` `[A,B]`
     | `UUIDs` | Must be a UUID fields| `A,B` `[A,B]`
     | `Texts` | Must be a text fields | `A,B` `[A,B]`
+    | `Texts` | Must be timestamps | `A,B` `[A,B]`
     | `Lists` | Must must be lists | `A,B` `[A,B]`
     
     ---
@@ -101,6 +102,23 @@
     ---
     <br/>
 
+1. **How do bigger and smaller comparisons work?**
+
+    | Situation | Behavior | Result 
+    |-|-|-
+    | `math` | Math is math | ✅ `5 > 1.0` 
+    | `text` | Text checks length | ✅ `ABC` > 2
+    |                               || ✅ `ABC` > `XZ`
+    | `empties` | Empties are ignored  | ✅ `$empty > 1`
+    ||                   | ✅ `$empty < 1`
+    | `arrays` | Arrays check length | ✅ `[A,B] > 1`
+    |                               || ✅ `[A,B] > [C]`
+    | `objects` | Objects are blocked | ❌ `{A:1} >= 1`
+    |                               || ❌ `{A:1} > {A:2}`
+    
+
+    ---
+    <br/>
 
 1. **What's the syntax for boolean assertions?**
 

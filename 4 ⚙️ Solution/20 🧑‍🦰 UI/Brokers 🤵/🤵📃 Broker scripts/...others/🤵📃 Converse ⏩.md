@@ -70,7 +70,8 @@
     BigIcon: $domain.BigIcon
 
 # Update the Chats
-- RUN|UpdateChats
+- RUN|UpdateChats:
+    wallet: $wallet
 ```
 
 

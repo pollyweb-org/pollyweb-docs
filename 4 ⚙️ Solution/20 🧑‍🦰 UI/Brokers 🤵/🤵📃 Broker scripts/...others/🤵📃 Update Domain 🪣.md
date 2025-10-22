@@ -12,19 +12,19 @@
 
 # Ensure the parameters are given
 - ASSERT:
-    - $1.Domain
-    - $1.Domain$
+    AllOf: !Domain, !Domain$
+    Texts: !Domain, !Domain$
 
 # Try to get the domain, if it exists
 - GET >> $domain:
     Pool: Domains@Broker
-    Key: $1.Domain
+    Key: !Domain
     Default: 
-        Domain: $1.Domain
+        Domain: !Domain
 
 # Change the translation
 - EVAL|$domain:
-    Domain$: $1.Domain$
+    Domain$: !Domain$
 
 # Update the table
 - SAVE|$domain
