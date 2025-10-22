@@ -1791,11 +1791,13 @@ def replace_dynamic_tokens(md_files, file_dict):
     """Replace any remaining {{...}} tokens with links to matching .md files based on normalized names."""
     def replacer(match, file_path):
         token = match.group(1)
-        normalized_token = normalize_string(token)
+        # Use the part before '@' for matching, if '@' exists
+        file_token = token.split('@', 1)[0]
+        normalized_token = normalize_string(file_token)
         if normalized_token in file_dict:
             filename, target_path = file_dict[normalized_token]
             rel_path = os.path.relpath(target_path, os.path.dirname(file_path))
-            return f"[`{filename}`](<{rel_path}>)"
+            return f"[`{token}`](<{rel_path}>)"
         else:
             return match.group(0)
 

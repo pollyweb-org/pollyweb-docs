@@ -12,7 +12,7 @@
 
     An `UNDO` ↩️
     * is a [Command ⌘](<../for control/⌘ Command.md>) 
-    * that revers the removal of item in an [Itemized 🛢 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢.md>)
+    * that revers the removal of item in an [Itemized 🛢 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>)
     * that occurred with a soft [`DELETE`](<DELETE 🗑️ item.md>).
 
     ---

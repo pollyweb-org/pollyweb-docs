@@ -14,7 +14,7 @@
 
     A `DELETE` 🗑️
     * is a [Command ⌘](<../for control/⌘ Command.md>) 
-    * that deletes an item from an [Itemized 🛢 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢.md>).
+    * that deletes an item from an [Itemized 🛢 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
 
     ---
     <br/>
