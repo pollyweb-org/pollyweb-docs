@@ -1,10 +1,10 @@
 <!-- TODO: detail -->
 
-# 👥🚀🛢 Transact @ Itemizer
+# 👥🚀🛢 Delete @ Itemizer
 
 > Part of [Itemizer 🛢 helper](<../../🛢🤲 Itemizer helper.md>)
 
-> Implements the  [`DELETE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/DELETE 🗑️ item.md>) commands.
+> Implements the  [`DELETE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/DELETE 🗑️ item.md>) commands via the [`.DELETE` 📃 script](<../../../../35 💬 Chats/😃 Talkers/😃📃 Talker scripts/😃📃 .DELETE 🗑️ script.md>).
 
 > Purpose
 
@@ -24,7 +24,7 @@ Header:
     Subject: Delete@Itemizer
 
 Body:
-    Blame: MyScript
+    Script: MyScript
     Set: MySet
     Key: [ MyKey1, MyKey2 ]
     Undo: 30 days
@@ -35,7 +35,7 @@ Body:
 | Header    | `From`        | string    | [Talker 😃 domain](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) name
 |           | `To`          | string    | [Itemizer 🛢 domain](<../../🛢🤲 Itemizer helper.md>) name
 |           | `Subject`     | string    | `Delete@Itemizer`
-| Body    | `Blame`     | string    | [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/📃 Script.md>) for traceability
+| Body    | `Script`     | string    | [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/📃 Script.md>) for traceability
 |         | `Set`    | string  | [Itemized 🛢 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) 
 |         | `Key`     | string[]  | Case insensitive keys
 |         | `Undo` | string  | Optional [`UNDO`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/UNDO ↩️.md>) time

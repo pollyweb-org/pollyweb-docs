@@ -1814,13 +1814,13 @@ def replace_scripts_tokens(md_files):
 
 
 def replace_item_tokens(md_files):
-    """Replace '{{Item}}' (allowing optional inner spaces) with '[`Item` 🛢](<Itemized 🛢 dataset.md>)' in all md files."""
+    """Replace '{{Item}}' (allowing optional inner spaces) with '[Item 🛢](<Itemized 🛢 dataset.md>)' in all md files."""
     # Allow normal and unicode non-breaking/zero-width spaces around Item
     pattern = re.compile(
         r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Item`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
         re.IGNORECASE
     )
-    replacement = "[`Item` 🛢](<Itemized 🛢 dataset.md>)"
+    replacement = "[Item 🛢](<Itemized 🛢 dataset.md>)"
     total = 0
     for md_file in md_files:
         try:
@@ -1951,6 +1951,58 @@ def replace_talkers_tokens(md_files):
         re.IGNORECASE
     )
     replacement = "[Talker 😃 domains](<😃 Talker role.md>)"
+    total = 0
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+        new_content, n = pattern.subn(replacement, content)
+        if n > 0:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                total += n
+            except Exception:
+                pass
+    return total
+
+
+def replace_itemized_dataset_tokens(md_files):
+    """Replace '{{Itemized dataset}}' (allowing optional inner spaces) with '[Itemized 🪣 dataset](<Itemized 🛢 dataset.md>)' in all md files."""
+    # Allow normal and unicode non-breaking/zero-width spaces around Itemized dataset
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Itemized dataset`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[Itemized 🪣 dataset](<Itemized 🛢 dataset.md>)"
+    total = 0
+    for md_file in md_files:
+        try:
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+        new_content, n = pattern.subn(replacement, content)
+        if n > 0:
+            try:
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                total += n
+            except Exception:
+                pass
+    return total
+
+
+def replace_itemized_datasets_tokens(md_files):
+    """Replace '{{Itemized datasets}}' (allowing optional inner spaces) with '[Itemized 🪣 datasets](<Itemized 🛢 dataset.md>)' in all md files."""
+    # Allow normal and unicode non-breaking/zero-width spaces around Itemized datasets
+    pattern = re.compile(
+        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Itemized datasets`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+        re.IGNORECASE
+    )
+    replacement = "[Itemized 🪣 datasets](<Itemized 🛢 dataset.md>)"
     total = 0
     for md_file in md_files:
         try:
@@ -2460,6 +2512,26 @@ def runit(project_directory):
             pass
     except Exception as e:
         print(f"Warning: failed replacing {{Talkers}} tokens: {e}")
+
+    # Replace {{Itemized dataset}} tokens
+    try:
+        replaced = replace_itemized_dataset_tokens(md_files)
+        if replaced:
+            print(f"Replaced {replaced} {{Itemized dataset}} tokens ✅")
+        else:
+            pass
+    except Exception as e:
+        print(f"Warning: failed replacing {{Itemized dataset}} tokens: {e}")
+
+    # Replace {{Itemized datasets}} tokens
+    try:
+        replaced = replace_itemized_datasets_tokens(md_files)
+        if replaced:
+            print(f"Replaced {replaced} {{Itemized datasets}} tokens ✅")
+        else:
+            pass
+    except Exception as e:
+        print(f"Warning: failed replacing {{Itemized datasets}} tokens: {e}")
 
     # Replace dynamic {{...}} tokens
     try:
