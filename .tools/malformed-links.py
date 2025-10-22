@@ -807,7 +807,7 @@ def replace_curly_at_mentions(md_files):
                 final_href = href
 
             # Normalize href into (<...>) form
-            normalized = f"[`{token}`](<{final_href}>)"
+            normalized = f"[`{token}` 🅰️ method](<{final_href}>)"
             before = content
             content = content.replace(f"{{{{{token}}}}}", normalized)
             if content != before:
