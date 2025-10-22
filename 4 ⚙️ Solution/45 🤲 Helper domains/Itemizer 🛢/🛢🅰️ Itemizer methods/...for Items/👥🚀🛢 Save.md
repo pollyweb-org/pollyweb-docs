@@ -51,7 +51,9 @@ Body:
 1. **What is the `Version` for?**
 
     The version argument is used for optimistic concurrency.
-    * When a [Scripts 📃](<📃 Script.md>)
+    * When [Scripts 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/📃 Script.md>) call [`Get@Itemizer`](<👥🚀🛢 Get.md>) followed by changes to an [`Item` 🛢](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>), other [Script 📃](<📃 Script.md>) threads may be changing the same item concurrently.
+    * To avoid locking items with a standard ACID transaction, the [`Save@Itemizer`](<👥🚀🛢 Save.md>) method checks the original version collected on the [`Get@Itemizer`](<👥🚀🛢 Get.md>) method.
+    * If the version has changed due to a concurrent [`SAVE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/SAVE 💾 item.md>), then the {{Itemizer}} rejects the change, forcing the {{Talker}} to re-run the [Script 📃](<📃 Script.md>).
 
     ---
     <br/>
