@@ -1,0 +1,26 @@
+@startuml Handle
+
+box Hoster ☁️ domain #FFFFFA
+    participant "Talker 😃\nResources" as back
+    participant "Talker 😃\nLogic" as talker
+    participant "Hosted 🧑‍💻\nResources" as hoster
+end box
+participant "Hosted 🧑‍💻\non-prem" as hosted
+
+hosted -> hoster: upload handler
+hosted -> hoster: upload cmd
+
+talker -> hoster: get handler
+activate talker
+talker -> talker: read 1st cmd
+alt parsed by hosted
+    talker -> hosted: want to parse?
+    talker -> hoster: run script
+else 
+    talker -> talker: parse
+    talker -> back: run script
+end if
+
+deactivate talker
+
+@enduml
