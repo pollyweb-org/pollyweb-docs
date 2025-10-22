@@ -36,7 +36,7 @@
     <br/>
 
 
-1. **What's the format for a [Talker 😃](<../../😃 Talkers/😃 Talker.md>)?**
+1. **What's the format for a [Talker 😃](<../../😃 Talkers/😃 Talker role.md>)?**
 
     ```yaml
     - LOCATION >> $placeholder
@@ -49,7 +49,7 @@
     ---
     <br/>
 
-1. **What's an example of a [Talker 😃](<../../😃 Talkers/😃 Talker.md>)?**
+1. **What's an example of a [Talker 😃](<../../😃 Talkers/😃 Talker role.md>)?**
 
     ```yaml
     - LOCATION >> $loc

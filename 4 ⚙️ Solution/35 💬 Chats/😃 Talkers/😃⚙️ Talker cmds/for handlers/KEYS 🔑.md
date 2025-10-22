@@ -1,6 +1,6 @@
 # 🔑 Talker `KEYS` command
 
-> Part of [Talker 😃](<../../😃 Talker.md>)
+> Part of [Talker 😃](<../../😃 Talker role.md>)
 
 > Used by [🤵⏩🧑‍🦰 Converse 💬](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵⏩ Broker flows/🤵⏩🧑‍🦰 Converse 💬.md>)
 

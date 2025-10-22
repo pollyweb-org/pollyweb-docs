@@ -24,7 +24,7 @@ Consider the following [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.
 ## 😃 Talker 
 
 
-The associated [Talker 😃](<../../../35 💬 Chats/😃 Talkers/😃 Talker.md>) would be the following.
+The associated [Talker 😃](<../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) would be the following.
 
 ```yaml
 - SUCCESS|Booking confirmed! 

@@ -10,7 +10,7 @@
 
 * Deletes items 
   * on an [Itemized 🛢 datasets](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>)
-  * as requested by a [Talker 😃 domain](<../../../../35 💬 Chats/😃 Talkers/😃 Talker.md>)
+  * as requested by a [Talker 😃 domain](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>)
   * via the [`.DELETE` 📃 script](<../../../../35 💬 Chats/😃 Talkers/😃📃 Talker scripts/😃📃 .DELETE 🗑️ script.md>)
 
 <br/>
@@ -32,7 +32,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header    | `From`        | string    | [Talker 😃 domain](<../../../../35 💬 Chats/😃 Talkers/😃 Talker.md>) name
+| Header    | `From`        | string    | [Talker 😃 domain](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) name
 |           | `To`          | string    | [Itemizer 🛢 domain](<../../🛢🤲 Itemizer helper.md>) name
 |           | `Subject`     | string    | `Delete@Itemizer`
 | Body    | `Blame`     | string    | [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/📃 Script.md>) for traceability
@@ -66,7 +66,7 @@ Body:
 
 1. **How to know if the item was deleted on timeout?**
 
-    [`Talker`](<../../../../35 💬 Chats/😃 Talkers/😃 Talker.md>) domains can register a hook on [`Build@Itemizer`](<../...for Tables/👥🐌🛢 Build.md>) to listen to delete events on the [`Itemized dataset`](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
+    [`Talker`](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) domains can register a hook on [`Build@Itemizer`](<../...for Tables/👥🐌🛢 Build.md>) to listen to delete events on the [`Itemized dataset`](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
     * Upon deletion, [`Itemizer helper`](<../../🛢🤲 Itemizer helper.md>) invoke the [`Trigger@Talker`](<../../../../35 💬 Chats/😃 Talkers/😃🅰️ Talker methods/🛢🐌😃 Deleted.md>) method.
 
     ---
@@ -74,7 +74,7 @@ Body:
 
 1. **Why not an async message?**
 
-    [Talker 😃 domains](<../../../../35 💬 Chats/😃 Talkers/😃 Talker.md>) need to take immediate decisions upon failures when processing deletes, so they need to know immediately if the action was successful or not.
+    [Talker 😃 domains](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) need to take immediate decisions upon failures when processing deletes, so they need to know immediately if the action was successful or not.
 
     ---
     <br/>

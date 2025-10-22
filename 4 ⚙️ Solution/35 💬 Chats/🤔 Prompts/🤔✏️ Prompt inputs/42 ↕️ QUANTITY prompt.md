@@ -27,7 +27,7 @@
     ---
     <br/>
 
-1. **What's the syntax on a [Talker 😃](<../../😃 Talkers/😃 Talker.md>)?**
+1. **What's the syntax on a [Talker 😃](<../../😃 Talkers/😃 Talker role.md>)?**
 
     ```yaml
     # Simplest.
@@ -87,7 +87,7 @@
     
     <br/>
 
-    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker role.md>).
     
     ```yaml
     # 😃 Talker 
@@ -135,7 +135,7 @@
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ⏳ Checking availability... 
     |
 
-    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker role.md>).
 
     ```yaml
     # 😃 Talker 
@@ -173,7 +173,7 @@
 
 1. **How does Precision work?**
 
-    When collecting a [`QUANTITY`](<42 ↕️ QUANTITY prompt.md>) input, [Talkers 😃](<../../😃 Talkers/😃 Talker.md>) 
+    When collecting a [`QUANTITY`](<42 ↕️ QUANTITY prompt.md>) input, [Talkers 😃](<../../😃 Talkers/😃 Talker role.md>) 
     * round up the input based on the precision, 
     * and ask confirmation to the user if the value differs.
 
@@ -192,7 +192,7 @@
 
     <br/>
 
-    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker role.md>).
     
     ```yaml
     # 😃 Talker 
@@ -243,7 +243,7 @@
 
     <br/>
 
-    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker.md>).
+    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker role.md>).
         
     ```yaml
     # 😃 Talker 

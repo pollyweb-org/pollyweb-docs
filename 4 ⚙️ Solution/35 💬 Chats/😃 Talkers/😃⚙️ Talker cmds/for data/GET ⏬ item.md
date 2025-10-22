@@ -2,7 +2,7 @@
 
 # 😃⏬ Talker `GET` command
 
-> Part of [Talker 😃](<../../😃 Talker.md>)
+> Part of [Talker 😃](<../../😃 Talker role.md>)
 
 > Relates to [Tables 🪣 folder](<../../../../55 👷 Build domains/Hosteds 📦/📦📄 Hosted files/🪣📂 Tables folder.md>)
 
@@ -14,7 +14,7 @@
     * is a [Command ⌘](<../for control/⌘ Command.md>) 
     * that retrieves an item by key 🔑
     * from a key-value resource pool 🪣
-    * into a [Talker 😃](<../../😃 Talker.md>) placeholder.
+    * into a [Talker 😃](<../../😃 Talker role.md>) placeholder.
 
     ---
     <br/>

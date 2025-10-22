@@ -1,6 +1,6 @@
 # 🐍 Talker `{Function}` 
 
-> Part of [Talker 😃](<../../😃 Talker.md>)
+> Part of [Talker 😃](<../../😃 Talker role.md>)
 
 <br/>
 
@@ -28,7 +28,7 @@
 
     <br/>
     
-    Consider the following [Talker 😃](<../../😃 Talker.md>).
+    Consider the following [Talker 😃](<../../😃 Talker role.md>).
     
     ```yaml
     # 😃 Talker 

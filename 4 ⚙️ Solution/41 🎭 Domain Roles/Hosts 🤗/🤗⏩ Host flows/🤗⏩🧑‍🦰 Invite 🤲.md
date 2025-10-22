@@ -27,7 +27,7 @@ Consider the following [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.
 | 🤗 Host  | ℹ️ 27, got it! Thanks, Any Helper!  
 |
 
-The associated [Talker 😃](<../../../35 💬 Chats/😃 Talkers/😃 Talker.md>) is as follows.
+The associated [Talker 😃](<../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) is as follows.
 
 ```yaml
 - INFO|I'll ask my Helper for a random number.

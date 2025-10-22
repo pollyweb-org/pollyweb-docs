@@ -34,7 +34,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header    | `From`        | string    | [Hosted 📦](<../📦👥 Hosted domain.md>) from [`Handle@Hosted`](<../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/😃🐌📦 Handle.md>)
+| Header    | `From`        | string    | [Hosted 📦](<../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) from [`Handle@Hosted`](<../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/😃🐌📦 Handle.md>)
 |           | `To`          | string    | [Hoster ☁️](<../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) from [`Handle@Hosted`](<../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/😃🐌📦 Handle.md>)
 |           | `Subject`     | string    | `Handled@Talker`
 | Body      | `Hook`    | uuid      | `Hook` from [`Handle@Hosted`](<../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/😃🐌📦 Handle.md>)
