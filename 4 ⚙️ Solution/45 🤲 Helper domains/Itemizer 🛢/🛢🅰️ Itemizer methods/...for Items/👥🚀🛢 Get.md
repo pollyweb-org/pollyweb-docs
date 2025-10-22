@@ -30,8 +30,8 @@ Body:
 | Header    | `From`        | string    | [Talker 😃 domain](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) name
 |           | `To`          | string    | [Itemizer 🛢 domain](<../../🛢🤲 Itemizer helper.md>) name
 |           | `Subject`     | string    | `Get@Itemizer`
-| Body      | `Table`     | string    | Name of the table
-|           | `Key`        | string    | Key of the item
+| Body      | `Table`     | string    | Name from [`Build@Itemizer`](<../...for Tables/👥🐌🛢 Build.md>)
+|           | `Key`        | string    | Key from [`Save@Itemizer`](<👥🚀🛢 Save.md>)
 |
 
 
@@ -41,11 +41,13 @@ Body:
 
 ```yaml
 .Table: MyTable
+.Version: <version-uuid>
 {Item object}
 ```
 
 ||Property|Type|Description
 |-|-|-|-
-|       | `.Table`     | string    | Table name for updates
-|           | `{Item object}`        | object    | Saved [Item 🛢](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) data
+|| `.Table`   | string | Table name for the [`.SAVE` 📃 script](<../../../../35 💬 Chats/😃 Talkers/😃📃 Talker scripts/😃📃 .SAVE script.md>)
+|| `.Version` | uuid   | Version for [`Save@Itemizer`](<👥🚀🛢 Save.md>)
+|| `{Item object}`        | object    | [Item 🛢](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) saved on [`Save@Itemizer`](<👥🚀🛢 Save.md>)
 |
