@@ -1,12 +1,19 @@
-# 🧑‍💻🐌☁️ Handled @ Hoster
+# 🧑‍💻🐌😃 Handled @ Talker
 
-> Returns a [{Function} 🐍](<../😃⚙️ Talker cmds/for data/{Function} 🐍.md>) evaluation.
 
 > Implements [Hoster ☁️ helper domain](<../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>)
 
-> Part of [😃⏩🧑‍💻 Handle @ Talker](<../😃⏩ Talker flows/😃⏩🧑‍💻 Handle 🐍.md>) flow
 
-> Receives the response from [Handle@Hosted](<../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/😃🐌📦 Handle.md>)
+> Flow: 
+
+* Part of the [`Handle` ⏩ flow](<../😃⏩ Talker flows/😃⏩🧑‍💻 Handle 🐍.md>) flow
+*  Receives async responses from the [`Handle@Hosted`](<../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/😃🐌📦 Handle.md>) method.
+
+
+> Purpose: 
+
+* Returns a [{Function} 🐍](<../😃⚙️ Talker cmds/for data/{Function} 🐍.md>) evaluation.
+
 
 <br/>
 
@@ -21,15 +28,15 @@ Header:
     Subject: Handled@Talker
     
 Body:
-    Callback: <callback-uuid>
+    Hook: <Hook-uuid>
     Response: {A:1, B:2}
 ```
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header    | `From`        | string    | [Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) name
-|           | `To`          | string    | [Hoster ☁️ domain](<../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) name
+| Header    | `From`        | string    | [Hosted 📦](<../📦👥 Hosted domain.md>) from [`Handle@Hosted`](<../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/😃🐌📦 Handle.md>)
+|           | `To`          | string    | [Hoster ☁️](<../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) from [`Handle@Hosted`](<../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/😃🐌📦 Handle.md>)
 |           | `Subject`     | string    | `Handled@Talker`
-| Body      | `Callback`    | uuid      | Call back from [`Handle@Hosted`](<../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/😃🐌📦 Handle.md>)
+| Body      | `Hook`    | uuid      | `Hook` from [`Handle@Hosted`](<../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/😃🐌📦 Handle.md>)
 |           | `Response`    | any       | Response to [`Handle@Hosted`](<../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/😃🐌📦 Handle.md>)
 |
