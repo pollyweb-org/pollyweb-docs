@@ -15,10 +15,12 @@ Body:
       - Pool: MyPool
         Key: my-item-key
         Timeout: 30 days
+        Hook: MyPool1-Script
         Data: {...}
 
     Deletes:
       - Pool: Pool2
         Key: another-item-key
+        Hook: MyPool2-Script
         Timeout: 30 days
 ```

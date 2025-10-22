@@ -1,26 +1,10 @@
-<!-- TODO -->
-
 # 🛢🪣 Itemized datasets
-
-> Relates to [🛢🤲 Itemizer helper](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🤲 Itemizer helper.md>)
+> Implemented by the [🛢🤲 Itemizer helper](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🤲 Itemizer helper.md>)
+ with [`Build@Itemizer`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/for Pools/👥🐌🛢 Build.md>) 
 
 <br/>
 
 
-1. **What properties are supported?**
-
-    | Property      | Type | Details
-    |-|-|-
-    | `Name`        | string    | Name of the table
-    | `Key`         | string[]  | Index for updates
-    | `Parents`     | map       | List of parent items
-    | `Children`    | map       | List of children items
-    | `Distincts`   | map       | List of grouped fields
-    | `NoUpdates`   | bool      | Blocks item updates
-    | `OnBlocked`   | string[]  | [Commands ⌘](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) if blocked
-
-    ---
-    <br/>
 
 1. **What's the simplest syntax for itemized schemas?**
 

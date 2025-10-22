@@ -7,7 +7,7 @@ Header:
     Subject: Trigger@Itemizer
 
 Body:
-    Trigger: MyTrigger
+    Hook: MyTrigger
     Item: {...}
 ```
 
@@ -16,6 +16,6 @@ Body:
 | Header    | `From`        | string    | [Itemizer 🛢 domain](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🤲 Itemizer helper.md>) name
 |           | `To`          | string    | [Talker 😃 domain](<../😃 Talker.md>) name
 |           | `Subject`     | string    | `Trigger@Itemizer`
-| Body      | `Trigger`     | string    | `Trigger` from {{Transact@Itemizer}} 
-|           | `Item`        | object    | [Itemized 🛢 item](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢.md>) triggered
+| Body      | `Hook`     | string    | `Hook` from [`Transact@Itemizer`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/for Resources/👥🚀🛢 Transact.md>) 
+|           | `Item`        | object    | [Item 🛢](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) from [`Transact@Itemizer`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/for Resources/👥🚀🛢 Transact.md>) 
 |
