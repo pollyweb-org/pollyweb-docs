@@ -60,6 +60,8 @@
 
 > Run [`Update Domain` 📃 script](<../...procedures/🤵📃 Update Domain 🪣.md>)
 
+<!-- TODO: Finish the detail -->
+
 ```yaml
 - CONFIRM|Save token? >> $saved:
     Details: 
