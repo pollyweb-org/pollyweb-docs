@@ -88,7 +88,7 @@
     
     - However, users can tap on a NLWeb [🔆 NFC Locator](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) with their devices to check out an NLWeb transaction, while continuing to use the device's standard NFC payments for traditional point of sale (POS) terminals. 
     
-    - The user experience should be similar in both cases, but with NLWeb there is no need for businesses to acquire expensive payment terminals because the UX is in the user's device - only a passive NFC tag costing less than $1 is required.
+    - The user experience should be similar in both cases, but with NLWeb there is no need for businesses to acquire expensive payment terminals because the UX is in the user's device - only a passive NFC tag costing less than $1.00 is required.
 
     ---
     <br/>

@@ -17,14 +17,22 @@
 1. **What's the RUN syntax?**
 
     ```yaml
-    - RUN|<script>|<arguments> >> <result>
+    # Simplest
+    - RUN|<script>
+
+    # Comprehensive
+    - RUN|<script>($arg-1, $arg-n) >> $return:
+        {args}
     ```
 
-    | Argument| Purpose
-    |-|-
-    | `<script>`| [Script 📃](<📃 Script.md>) to run.
-    | `<arguments>`| Optional comma-separated arguments <br/>referenced by `{$position}` - e.g., `{$1}`
-    | `<result>`| Optional placeholder for a [`RETURN`](<RETURN ⤴️.md>) result.
+    | Argument| Purpose | Example
+    |-|-| -
+    | `<script>`| [Script 📃](<📃 Script.md>) to run | `MyScript`
+    | `$arg-n`  | Optional positional arguments | `1,2` `s,$p`
+    |           | Reads `!n`  inside the [Script 📃](<📃 Script.md>) | `!1` `!2`
+    | `{args}`| Optional object arguments | `{A:1, B:2}`
+    | | Reads `!name` in the [Script 📃](<📃 Script.md>) | `!A` `!B`
+    | `$return`| Optional [`RETURN`](<RETURN ⤴️.md>) holder | `$return`
     
     ---
     <br/>
@@ -42,17 +50,27 @@
     Here's the [Script 📃](<📃 Script.md>).
 
     ```yaml
-    # 😃 Talker 
+    📃 Example:
 
-    💬 Example:
-    - RUN|Great|Alice,happy
-    - RUN|Great|David,glad
+    # 1st call
+    - RUN|Great:
+        Name: Alice
+        Felling: happy
+
+    # 2nd call
+    - RUN|Great:
+        Name: David
+        Felling: glad
+
     - SUCCESS|Example finished.
-
-    Great:
-    - INFO|Hi, {$1}! I'm {$2}.
-
     ```
+
+    ```yaml
+    📃 Great:
+    - INFO|Hi, {!Name}! I'm {!Feeling}.
+    ```
+
+    Commands: [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`RUN`](<RUN ▶️.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
 
     ---
     <br/>
@@ -72,22 +90,31 @@
     Here's the [Script 📃](<📃 Script.md>).
     
     ```yaml
-    # 😃 Talker 
-
-    💬 Example:
+    📃 Example:
+    
+    # Get a number
     - QUANTITY|Give me a number. >> $n1
-    - RUN|ShowNumber|{$n1}
-    - QUANTITY|Give me another. >> $n2
-    - RUN|ShowNumber|{$n2}
-    - SUCCESS|Example finished.
 
-    ShowNumber:
-    - INFO|You gave me number {$1}.
+    # Show the number
+    - RUN|ShowNumber:
+        n: $n1
+
+    # Get another number
+    - QUANTITY|Give me another. >> $n2
+
+    # Show the second number
+    - RUN|ShowNumber:
+        n: $n2
+
+    - SUCCESS|Example finished.
     ```
 
-    | [Command ⌘](<⌘ Command.md>) | Purpose
-    |-|-
-    | ↕️ [`QUANTITY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/42 ↕️ QUANTITY prompt.md>) | To collect the number input.
+    ```yaml
+    📃 ShowNumber:
+    - INFO|You gave me number {!n}.
+    ```
+
+    Commands: [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`QUANTITY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/42 ↕️ QUANTITY prompt.md>) [`RUN`](<RUN ▶️.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
 
 
     ---
@@ -108,16 +135,26 @@
     Here's the [Script 📃](<📃 Script.md>).
 
     ```yaml
-    # 😃 Talker 
+    📃 Example:
 
-    💬 Example:
-    - RUN|ShowNumber|{get-random-number}
-    - RUN|ShowNumber|{get-random-number}
+    # Get the 1st random number
+    - RUN|ShowNumber: 
+        n: {get-random-number}
+
+    # Get the second random number
+    - RUN|ShowNumber:
+        n: {get-random-number}
+
+    # Finish the script
     - SUCCESS|Example finished.
-
-    ShowNumber:
-    - INFO|Here's number {$1}.
     ```
+
+    ```yaml
+    📃 ShowNumber:
+    - INFO|Here's number {!n}.
+    ```
+
+    Commands: [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
 
     ```python
     # 🐍 Python handler
@@ -143,25 +180,28 @@
     Here's the [Script 📃](<📃 Script.md>).
 
     ```yaml
-    # 😃 Talker 
+    📃 Example:
 
-    💬 Example:
+    # Calculate 
     - RUN|Calculate >> result
+
+    # Check the result
     - CASE|{$result}
         Won: SUCCESS|Congrats, you won!
         Lost: FAILURE|Sorry, you lost! 
+    ```
 
-    Calculate:
+    ```yaml
+    📃 Calculate:
+
+    # Exit with a result
     - RETURN|Won
+
+    # It should't get to this line
     - FAILURE|This is a bug.
     ```
 
-
-    | [Command ⌘](<⌘ Command.md>) | Purpose
-    |-|-
-    | ⏯️️ [`CASE`](<CASE ⏯️.md>) | To decide which message to show.
-    | ⤴️ [`RETURN`](<RETURN ⤴️.md>) | To return the final result.
-
+    Commands: [`CASE`](<CASE ⏯️.md>) [`FAILURE`](<../../../🤔 Prompts/🤔📢 Prompt status/FAILURE ❌ prompt.md>) [`RETURN`](<RETURN ⤴️.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
 
 
 
@@ -179,26 +219,34 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) |  ✅ [The first result is 7.](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) |  ℹ️ Adding 5 to 4...
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) |  ✅ [The second result is 9.](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
+    |
     
+    Here's the [Script 📃](<📃 Script.md>)
 
     ```yaml
-    # 😃 Talker 
+    📃 Example:
 
-    💬 Example:
+    # First calculation
     - RUN|AddFive(2) >> n
     - SUCCESS|The first result is {$n}.
+
+    # Second calculation
     - RUN|AddFive(3) >> n
     - SUCCESS|The second result is {$n}.
+    ````
 
-    AddFive:
-    - INFO|Adding 5 to {$1}...
-    - RETURN|{.Sum($1, 5)}
+    ```yaml
+    📃 AddFive:
+
+    # Calculate and exit the script
+    - INFO|Adding 5 to {!1}...
+    - RETURN|.Sum(!1, 5)
+
+    # It shouldn't get to this line
     - FAILURE|This is a bug.
     ```
 
-    | [Command ⌘](<⌘ Command.md>) | Purpose
-    |-|-
-    | ⤴️ [`RETURN`](<RETURN ⤴️.md>) | To calculate the value to return.
+    Commands: [`FAILURE`](<../../../🤔 Prompts/🤔📢 Prompt status/FAILURE ❌ prompt.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`RETURN`](<RETURN ⤴️.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
 
 
 
