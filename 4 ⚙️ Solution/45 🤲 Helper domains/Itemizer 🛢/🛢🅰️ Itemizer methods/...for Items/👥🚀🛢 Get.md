@@ -40,4 +40,12 @@ Body:
 ## Synchronous Response
 
 ```yaml
+.Table: MyTable
+{Item object}
 ```
+
+||Property|Type|Description
+|-|-|-|-
+|       | `.Table`     | string    | Table name for updates
+|           | `{Item object}`        | object    | Saved [Item 🛢](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) data
+|
