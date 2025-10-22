@@ -26,7 +26,7 @@
     ```yaml
     # Comprehensive
     - GET >> $item:
-        Pool: <pool>
+        Set: <pool>
         Key: <key>
 
         # Required by default
@@ -41,7 +41,7 @@
 
     | Argument| Purpose | Example
     |-|-|-
-    | `Pool` | Name of resource pool | `MyPool`
+    | `Set` | Name of resource pool | `MyPool`
     | `Key`  | Key to look up in the pool | `MyKey` `$key`
     | `Default` | Objet to return if missing | `{A:1, B:2}`
     | `OnMissing` | [Command ⌘](<../for control/⌘ Command.md>) or [Script 📃](<../for control/📃 Script.md>) | `MyScript`
@@ -105,7 +105,7 @@
 
     # Get the item.
     - GET >> $item:
-        Pool: Items
+        Set: Items
         Key: $n
 
     # Confirm the item name.
@@ -126,7 +126,7 @@
     ```yaml
     # Get the item.
     - GET >> $item:
-        Pool: Items
+        Set: Items
         Key: 000
 
         # Return a dummy item if not found

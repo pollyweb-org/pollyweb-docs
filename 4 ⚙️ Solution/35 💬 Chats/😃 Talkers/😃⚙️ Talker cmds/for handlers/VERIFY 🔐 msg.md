@@ -78,7 +78,7 @@
     ```yaml
     # Get the WalletID from the message 
     - GET >> $wallet:
-        Pool: Wallets@Broker
+        Set: Wallets@Broker
         Key: $.Msg.Header.From
 
     # Verify the Message.
@@ -102,7 +102,7 @@
     ```yaml
     # Get the Chat item 
     - GET >> $chat
-        Pool: Chats@Host
+        Set: Chats@Host
         Key: $.Msg.Body.Chat
 
     # Verify the Message.

@@ -25,16 +25,16 @@
     ```yaml
     # Single item
     - DELETE|<pool>|<key>:
-        Pool: <pool>
+        Set: <pool>
         Key: <key>
     ```
 
     ```yaml
     # Multiple items in all-or-nothing transaction.
     - Delete:
-        - Pool: <pool-1>
+        - Set: <pool-1>
           Key: <key-1>
-        - Pool: <pool-n>
+        - Set: <pool-n>
           Key: <key-n>
     ```
 

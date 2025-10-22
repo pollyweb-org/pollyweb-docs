@@ -56,7 +56,7 @@ Locator: .HOST,any-host.dom,any-key
 
 # Get the Token
 - GET >> $token:
-    Pool: Tokens@Broker
+    Set: Tokens@Broker
     Key: $.Msg.Token
 
 # Return the Status

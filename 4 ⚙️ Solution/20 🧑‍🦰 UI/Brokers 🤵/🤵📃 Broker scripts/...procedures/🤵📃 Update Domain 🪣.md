@@ -17,7 +17,7 @@
 
 # Try to get the domain, if it exists
 - GET >> $domain:
-    Pool: Domains@Broker
+    Set: Domains@Broker
     Key: !Domain
     Default: 
         Domain: !Domain

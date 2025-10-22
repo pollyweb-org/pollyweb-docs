@@ -43,7 +43,7 @@ Body:
 
 # Get the collect
 - GET >> $collect:
-    Pool: Collects@Vault
+    Set: Collects@Vault
     Key: $.Msg.Collect
 
 # Assert the Consumer

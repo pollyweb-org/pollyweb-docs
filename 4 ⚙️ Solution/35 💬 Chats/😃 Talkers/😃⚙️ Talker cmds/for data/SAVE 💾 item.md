@@ -92,7 +92,7 @@
     ```yaml
     # Get the item from the database
     - GET >> $item:
-        Pool: myPool
+        Set: myPool
         Key: anExistingKey
 
     # Change a single property
@@ -113,7 +113,7 @@
     ```yaml
     # Get the item from the database
     - GET >> $item:
-        Pool: myPool
+        Set: myPool
         Key: aMissingKey # any missing key
 
         # Return {a:0, b:2} if missing

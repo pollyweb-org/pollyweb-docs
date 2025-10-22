@@ -67,7 +67,7 @@ Tokens:
 ```yaml
 # The the wallet item
 - GET >> $wallet:
-    Pool: Wallets@Broker
+    Set: Wallets@Broker
     Key: $.Msg.From
 
 # Verify the signature

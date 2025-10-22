@@ -27,7 +27,7 @@
 
 # Get the Chat
 - GET >> $chat:
-    Pool: Chats@Broker
+    Set: Chats@Broker
     Key: $.Msg.Chat
 
 # Only allow offers from the Host

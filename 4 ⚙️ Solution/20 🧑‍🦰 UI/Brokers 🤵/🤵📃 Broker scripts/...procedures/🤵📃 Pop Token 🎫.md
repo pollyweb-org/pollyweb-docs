@@ -21,7 +21,7 @@
 
 # Get the Token 🎫
 - GET >> $token:
-    Pool: !Wallet.Tokens
+    Set: !Wallet.Tokens
     Key: !Token
 
 # Ask for an action.
