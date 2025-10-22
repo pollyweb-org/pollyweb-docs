@@ -20,7 +20,7 @@
 
 # Get the Wallet 🧑‍🦰
 - GET >> $wallet:
-    Pool: Wallets
+    Set: Wallets
     Key: $.Msg.Header.From 
 
 # Verify the Message

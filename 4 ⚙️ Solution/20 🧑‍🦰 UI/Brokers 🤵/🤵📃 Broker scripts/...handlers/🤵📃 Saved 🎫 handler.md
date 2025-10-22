@@ -18,7 +18,7 @@
 
 # Get the Wallet 🧑‍🦰
 - GET >> $wallet:
-    Pool: Wallets@Broker
+    Set: Wallets@Broker
     Key: $.Msg.Header.From 
 
 # Verify the signature
@@ -26,14 +26,14 @@
 
 # Get the Offer 
 - GET >> $offer:
-    Pool: Offers@Broker
+    Set: Offers@Broker
     Key: $.Msg.Token
 # idempotent, don't delete
 # it will timeout eventually
 
 # Get the Token 
 GET >> $token:
-    Pool: Tokens@Broker
+    Set: Tokens@Broker
     Key: $.Msg.Token
     Default: $offer
 # idempotent

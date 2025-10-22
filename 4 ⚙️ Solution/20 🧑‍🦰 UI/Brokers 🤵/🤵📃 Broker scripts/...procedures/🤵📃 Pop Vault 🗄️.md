@@ -27,7 +27,7 @@
 
 # Get the Vault 
 - GET >> $vault:
-    Pool: $wallet.Vaults
+    Set: $wallet.Vaults
     Key: $.Msg.Body.Key
 
 # Ask for confirmation 🤔
