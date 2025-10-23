@@ -45,9 +45,11 @@
 
     ```yaml
     💬|Show time:
-    - SUCCESS|The time is {.Time}.
+    - SUCCESS|The time is {.Now}.
     - REPEAT|Check again?
     ```
+
+    Commands: [`.Now`](<../...functions/🔩 {.Now}.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>) [`REPEAT`](<REPEAT 🔁.md>)
 
     ---
     <br/>
@@ -69,13 +71,10 @@
     ```yaml
     💬|Show time:
     - CONFIRM|Want to know the time? 
-    - SUCCESS|The time is {.Time}.
+    - SUCCESS|The time is {.Now}.
     - REPEAT
     ```
-
-    | [Command ⌘](<../...commands/⌘ Command.md>) | Purpose
-    |-|-
-    | ↕️ [`QUANTITY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/42 ↕️ QUANTITY prompt.md>) | To wait for user input.
+    Commands: [`QUANTITY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/42 ↕️ QUANTITY prompt.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>) [`REPEAT`](<REPEAT 🔁.md>)
     
     ---
     <br/>
@@ -104,25 +103,43 @@
 
     ```yaml
     💬|[Order] a list of items:
-    - RUN|AddItems
-    - INFO|{OrderSummary}
-    - CONFIRM|Submit order?
-    - SUCCESS|Order submitted!
 
-    AddItems:
-    - DIGITS|What's the item code? >> $code
-    - EVAL|AddItem($code) >> $description:
-    - INFO|Added `{$description}`
+    # Call the AddItems procedure
+    - RUN|AddItems
+
+    # Show the order summary
+    - INFO|{OrderSummary}
+
+    # Ask the user to confirm the submission
+    - CONFIRM|Submit order?
+
+    # Call the custom function 
+    #   to pending submit the order 
+    - EVAL|Submit 
+
+    # Show the successful submission
+    - SUCCESS|Order submitted!
+    ````
+    Commands: [`CONFIRM`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>)  [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>)  [`RUN`](<RUN ▶️.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
+
+    ```yaml
+    📃 AddItems:
+
+    # Ask the ser for a code
+    - DIGITS| What's the item code? >> $code:
+        
+    # Call the custom function 
+    #    to add it to the ERP 
+    #    and get the description
+    - EVAL| AddItem($code) >> $description:
+
+    # Show the description to the user
+    - INFO| Added `{$description}`
+
+    # Repeat after the user confirms
     - REPEAT|Add another?
     ```
-
-
-    Here's a list of flow commands used in the example.
-
-    | [Command ⌘](<../...commands/⌘ Command.md>) | Purpose
-    |-|-
-    | 👍 [`CONFIRM`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) | To wait for user confirmation.
-    | ⬇️ [`EVAL`](<../...placeholders/EVAL ⬇️ flow.md>) | To add an item to the database.
+    Commands:  [`DIGITS`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/44 🔢 DIGITS prompt.md>) [`EVAL`](<../...placeholders/EVAL ⬇️ flow.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`REPEAT`](<REPEAT 🔁.md>) 
 
     ---
     <br/>
@@ -195,15 +212,7 @@
     - REPEAT
     ```
 
-    Here's a list of flow commands used in the example.
-
-    | [Command ⌘](<../...commands/⌘ Command.md>) | Purpose
-    |-|-
-    | ⬇️ [`EVAL`](<../...placeholders/EVAL ⬇️ flow.md>) | To generate a random number a subtract tries.
-    | ↕️ [`QUANTITY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/42 ↕️ QUANTITY prompt.md>) | To collect the number input.
-    | 🔁 [`REPEAT`](<REPEAT 🔁.md>) | To allow for additional tries.
-    | ⤴️ [`RETURN`](<RETURN ⤴️.md>) | To return the result from the loop.
-    | ⏯️️ [`CASE`](<CASE ⏯️.md>) | To check the if the user won or lost.    
+    Commands: [`EVAL`](<../...placeholders/EVAL ⬇️ flow.md>) [`QUANTITY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/42 ↕️ QUANTITY prompt.md>) [`REPEAT`](<REPEAT 🔁.md>) [`RETURN`](<RETURN ⤴️.md>) [`CASE`](<CASE ⏯️.md>) 
 
 
     ---

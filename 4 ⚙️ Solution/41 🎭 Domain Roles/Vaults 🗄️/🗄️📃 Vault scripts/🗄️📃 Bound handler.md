@@ -1,6 +1,6 @@
 # 🗄️📃 Bound script
 
-> Part of the [Vault 🗄️ domain](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)
+> Part of the [Vault 🗄️ domain](<../🗄️🎭 Vault role.md>)
 
 > [Script 📃](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands/📃 Script.md>) that implements the [`Bound@Vault` 🅰️ method](<../🗄️🅰️ Vault methods/to Bind/🤵🐌🗄️ Bound.md>).
 
