@@ -47,5 +47,5 @@ Body:
 
 | [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | Purpose
 |-|-
-| 🗑️ [DELETE](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets/DELETE 🗑️ item.md>) | Delete from the [Binds 🪣](<../../🗄️🪣 Vault tables/🗄️🪣 Binds.md>) table
+| 🗑️ [DELETE](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...items/DELETE 🗑️ item.md>) | Delete from the [Binds 🪣](<../../🗄️🪣 Vault tables/🗄️🪣 Binds.md>) table
 |
