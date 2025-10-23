@@ -9,7 +9,7 @@
 
     A `CASE` ⏯️️
     * is a flow [Command ⌘](<../...commands/⌘ Command.md>)  
-    * that runs a matching [Script 📃](<../...commands/📃 Script.md>) o⌘ Command.mdds/⌘ Command.md>) 
+    * that runs a matching [Script 📃](<../...commands/📃 Script.md>) or [Command ⌘](<../...commands/⌘ Command.md>)
     * based on the evaluation of a [{Function}](<../...functions/{Function} 🐍.md>).
 
     ---
