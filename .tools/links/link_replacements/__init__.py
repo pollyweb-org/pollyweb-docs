@@ -49,6 +49,7 @@ from .tokens import (
     replace_talkers_tokens,
     replace_token_tokens,
     replace_tokens_tokens,
+    replace_triple_brace_tokens,
     replace_vault_tokens,
     replace_vaults_tokens,
 )
@@ -100,6 +101,7 @@ __all__ = [
     "replace_talkers_tokens",
     "replace_token_tokens",
     "replace_tokens_tokens",
+    "replace_triple_brace_tokens",
     "replace_vault_tokens",
     "replace_vaults_tokens",
 ]

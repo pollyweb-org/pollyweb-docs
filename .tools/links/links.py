@@ -29,7 +29,8 @@ from link_replacements import (
     replace_function_tokens, replace_functions_tokens, replace_scripts_tokens, replace_item_tokens,
     replace_items_tokens, replace_itemizer_tokens, replace_itemizers_tokens, replace_talker_tokens,
     replace_talkers_tokens, replace_itemized_dataset_tokens, replace_itemized_datasets_tokens,
-    replace_notifier_tokens, replace_notifiers_tokens, replace_prompt_broker_tokens, replace_dynamic_tokens
+    replace_notifier_tokens, replace_notifiers_tokens, replace_prompt_broker_tokens, replace_dynamic_tokens,
+    replace_triple_brace_tokens
 )
 from link_replacements.tokens import HARDCODED_HANDLERS
 
@@ -144,7 +145,7 @@ def runit(project_directory, entryPoint):
             ]
             if not candidate_paths:
                 raise ValueError(f"No matching Talkers file for {given}: {expected_name}")
-        else:
+        elif not token.startswith('.'):
             # for others, like Request Sync
             normalized_token = normalize_string(token)
             found = False
@@ -164,6 +165,18 @@ def runit(project_directory, entryPoint):
                         break
             if not found:
                 raise ValueError(f"No matching file for {given}: {expected_linkfile}")
+        else:
+            helper_candidates = {
+                normalize_string(token),
+                normalize_string(f"{{{token}}}"),
+            }
+            expected_found = any(
+                normalize_string(os.path.basename(path)[:-3]) in helper_candidates
+                and os.path.basename(path) == expected_linkfile
+                for path in md_files
+            )
+            if not expected_found:
+                raise ValueError(f"No helper file for {given}: {expected_linkfile}")
     print("YAML tests passed!")
 
     #print (f"\nProject files:  {md_files}")
@@ -207,6 +220,15 @@ def runit(project_directory, entryPoint):
             pass
     except Exception as e:
         print(f"Warning: failed replacing {{Prompt@Broker}} tokens: {e}")
+
+    try:
+        triple_changes = replace_triple_brace_tokens(md_files, file_dict)
+        if triple_changes:
+            print(f"Replaced {triple_changes} triple-brace helper tokens ✅")
+        else:
+            pass
+    except Exception as e:
+        print(f"Warning: failed replacing triple-brace helper tokens: {e}")
 
     try:
         replaced = replace_curly_at_mentions(md_files)
