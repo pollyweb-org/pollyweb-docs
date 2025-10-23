@@ -19,6 +19,7 @@ def normalize_string(value: str) -> str:
     """Normalize strings by removing emoji, whitespace, and casing."""
     sanitized = _GENERAL_EMOJI_RE.sub("", value)
     sanitized = re.sub(r"\s+", "", sanitized).lower()
+    sanitized = re.sub(r"[\u200B\u200C\u200D\uFE0E\uFE0F]", "", sanitized)
     sanitized = sanitized.replace("$", "")
     return sanitized
 
