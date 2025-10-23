@@ -127,3 +127,9 @@ Successful Tests:
     LinkFile: '🧑‍🦰🚀🤗 Prompted.md'
     Reasons: |
       same as "{{Parse@Hosted}}"
+
+  - Given: '{{{.UUID}}}'
+    LinkText: "`{.UUID}`"
+    LinkFile: '🔩 {.UUID}.md'
+    Reasons: |
+      same as "{{Request Sync}}"
