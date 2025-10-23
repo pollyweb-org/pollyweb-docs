@@ -137,14 +137,13 @@ def runit(project_directory, entryPoint):
             if not found:
                 raise ValueError(f"Did not find expected file for {given}: {expected_linkfile}")
         elif token.isupper():
-            assumed_path = os.path.join(project_directory, "4 ⚙️ Solution", "35 💬 Chats", "😃 Talkers", "😃⚙️ Talker cmds", "for control", f"{token} ⤴️.md")
-            if os.path.exists(assumed_path):
-                file_name = os.path.basename(assumed_path)
-                expected_linkfile = expected_linkfile.strip('{}')
-                if file_name != expected_linkfile:
-                    raise ValueError(f"Wrong file for {given}: {file_name} != {expected_linkfile}")
-            else:
-                raise ValueError(f"Assumed path not found for {given}: {assumed_path}")
+            expected_name = expected_linkfile.strip('{}')
+            candidate_paths = [
+                path for path in md_files
+                if os.path.basename(path) == expected_name and "😃" in os.path.dirname(path)
+            ]
+            if not candidate_paths:
+                raise ValueError(f"No matching Talkers file for {given}: {expected_name}")
         else:
             # for others, like Request Sync
             normalized_token = normalize_string(token)
