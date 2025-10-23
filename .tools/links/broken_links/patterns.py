@@ -25,6 +25,11 @@ _MALFORMED_PATTERNS = [
     re.compile(r"!\[.*?\]\([^)\n]+$"),
 ]
 
+_SUSPICIOUS_TAIL_PATTERNS = [
+    # Detect tokens where a markdown-like extension has accidental trailing characters (e.g., "Command.mdds")
+    re.compile(r"\b[^\s\[\]()<>]+\.(?:md|png|jpg|pdf)[A-Za-z0-9]+", re.IGNORECASE),
+]
+
 
 def extract_links_with_malformed_detection(content: str):
     """Extract links to markdown assets and log malformed patterns."""
@@ -66,6 +71,13 @@ def extract_links_with_malformed_detection(content: str):
                     links_with_lines.append((malformed_link, line_no))
                     continue
                 malformed_links_with_lines.append((malformed_link, line_no))
+
+        for pattern in _SUSPICIOUS_TAIL_PATTERNS:
+            for match in pattern.finditer(line):
+                fragment = match.group(0)
+                entry = (fragment, line_no)
+                if fragment and entry not in malformed_links_with_lines:
+                    malformed_links_with_lines.append(entry)
 
     if False and found_the_line:
         if matched_the_line:
