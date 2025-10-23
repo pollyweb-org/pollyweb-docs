@@ -4,7 +4,7 @@
 
 > Part of [Itemizer 🛢 helper](<../../🛢🤲 Itemizer helper.md>)
 
-> Implements the  [`DELETE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets/DELETE 🗑️ item.md>) commands via the [`.DELETE` 📃 script](<../../../../35 💬 Chats/😃 Talkers/😃📃 Talker scripts/😃📃 .DELETE 🗑️ script.md>).
+> Implements the  [`DELETE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...items/DELETE 🗑️ item.md>) commands via the [`.DELETE` 📃 script](<../../../../35 💬 Chats/😃 Talkers/😃📃 Talker scripts/😃📃 .DELETE 🗑️ script.md>).
 
 > Purpose
 

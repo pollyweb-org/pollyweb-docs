@@ -10,7 +10,7 @@
     The `🗂️ Resources/` folder 
     * contains resource files 
     * indexed by the [Pools 🪣 file](<🗺️📄 Map file.md>)
-    * and accessible via the [Talker `GET` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets/GET ⏬ item.md>).
+    * and accessible via the [Talker `GET` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...items/GET ⏬ item.md>).
     
     ---
     <br/>

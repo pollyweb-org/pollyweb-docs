@@ -88,7 +88,7 @@
 
     | [Command ⌘](<../for control/⌘ Command.md>) | Purpose
     |-|-
-    | ⏬ [`GET`](<../...datasets/GET ⏬ item.md>) | Get the Public Key of the [Wallet 🪣](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Wallets table.md>) in the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>).
+    | ⏬ [`GET`](<../...items/GET ⏬ item.md>) | Get the Public Key of the [Wallet 🪣](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Wallets table.md>) in the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>).
 
     ---
     <br/>
@@ -112,7 +112,7 @@
 
     | [Command ⌘](<../for control/⌘ Command.md>) | Purpose
     |-|-
-    | ⏬ [`GET`](<../...datasets/GET ⏬ item.md>) | To get the Public Key of [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🤵🐌🤗 Hello.md>).
+    | ⏬ [`GET`](<../...items/GET ⏬ item.md>) | To get the Public Key of [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🤵🐌🤗 Hello.md>).
 
     ---
     <br/>
