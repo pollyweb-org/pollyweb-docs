@@ -61,16 +61,14 @@
     ```yaml
     # 😃 Talker 
     💬 Clock:
-    - TEMP|It's {.Time(HH:MM:SS)}
+    - TEMP|It's {.Now(HH:MM:SS)}
     - WAIT|00:00:01 
     - REPEAT
     ```
+
+    Commands: [`.Now`](<../...functions/🔩 {.Now}.md>) [`REPEAT`](<REPEAT 🔁.md>) [`TEMP`](<../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳ prompt.md>) [`WAIT`](<WAIT ⏸️.md>)
     
 
-    | [Command ⌘](<../...commands/⌘ Command.md>) | Purpose
-    |-|-
-    | 🔁 [`REPEAT`](<REPEAT 🔁.md>) | To update the message.
-    | ⏳ [`TEMP`](<../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳ prompt.md>) | Show the temporary message.
     
     ---
     <br/>

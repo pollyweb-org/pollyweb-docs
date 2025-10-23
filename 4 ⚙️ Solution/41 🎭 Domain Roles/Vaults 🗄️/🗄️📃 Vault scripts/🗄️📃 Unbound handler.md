@@ -2,7 +2,7 @@
 
 # 🗄️📃 Unbound handler
 
-> Part of the [Vault 🗄️ domain](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)
+> Part of the [Vault 🗄️ domain](<../🗄️🎭 Vault role.md>)
 
 ## How to call
 
