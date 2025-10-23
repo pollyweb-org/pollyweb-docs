@@ -6,7 +6,7 @@
 
 ## Handler
 
-> Called by the [`BIND` 🔗 command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for flows/BIND 🔗 msg.md>)
+> Called by the [`BIND` 🔗 command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...messages/BIND 🔗 msg.md>)
 
 > Then called by the [`Bindable@Broker` 🅰️ method](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>) 
 
