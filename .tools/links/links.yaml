@@ -58,13 +58,23 @@ Successful Tests:
 
   - Given: "{{RETURN}}"
     LinkText: "`RETURN`"
-    LinkFile: "{{RETURN ⤴️.md}}"
+    LinkFile: "RETURN ⤴️.md"
     Reasons: |
       For `{{WORD}}`, 
       where all characters are uppercase letters,
-      the file is called `*WORD*.md`
+      the file is called `WORD {emoji}*.md`
       also on uppercase
       and is under a folder called "😃 Talkers".
+
+  - Given: "{{IF}}"
+    LinkText: "`IF`"
+    LinkFile: "IF ⤵️.md"
+    Reasons: same as {{RETURN}}.
+
+  - Given: "{{GET}}"
+    LinkText: "`GET`"
+    LinkFile: "GET ⏬ item.md"
+    Reasons: same as {{RETURN}}.
 
   - Given: "{{Placeholder}}"
     LinkText: "Placeholder 🧠"
