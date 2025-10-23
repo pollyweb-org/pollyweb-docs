@@ -74,13 +74,13 @@
 
     |Command|Purpose
     |-|-
-    | 🔗 [`BIND`](<../for flows/BIND 🔗 msg.md>) | Calls the [Bind Vault @ Wallet ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🗄️ Bind 🔗.md>) flow.
-    | 🎫 [`ISSUE`](<../for flows/ISSUE 🎫 msg.md>) | Calls the [Save Token @ Wallet ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🎴 Save token.md>) flow.
-    | 👋 [`GOODBYE`](<../for flows/GOODBYE 👋 msg.md>) | Calls the [Goodbye @ Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Goodbye 👋.md>) ⏩ flow.
-    | 📜 [`FLOW`](<../for flows/INFORM 📝 msg.md>)
-    | 💳 [`CHARGE`](<../for flows/CHARGE 💳 msg.md>)
-    | 💼 [`SHARE`](<../for flows/SHARE 💼 msg.md>)
-    | 🛰️ [`RELAY`](<../for flows/RELAY 🛰️ msg.md>)
+    | 🔗 [`BIND`](<../...messages/BIND 🔗 msg.md>) | Calls the [Bind Vault @ Wallet ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🗄️ Bind 🔗.md>) flow.
+    | 🎫 [`ISSUE`](<../...messages/ISSUE 🎫 msg.md>) | Calls the [Save Token @ Wallet ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🎴 Save token.md>) flow.
+    | 👋 [`GOODBYE`](<../...messages/GOODBYE 👋 msg.md>) | Calls the [Goodbye @ Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Goodbye 👋.md>) ⏩ flow.
+    | 📜 [`FLOW`](<../...messages/INFORM 📝 msg.md>)
+    | 💳 [`CHARGE`](<../...messages/CHARGE 💳 msg.md>)
+    | 💼 [`SHARE`](<../...messages/SHARE 💼 msg.md>)
+    | 🛰️ [`RELAY`](<../...messages/RELAY 🛰️ msg.md>)
     |
     
    
