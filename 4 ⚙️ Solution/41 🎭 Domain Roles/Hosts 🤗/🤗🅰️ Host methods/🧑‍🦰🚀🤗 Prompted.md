@@ -1,5 +1,7 @@
 # 🧑‍🦰🚀🤗 Prompted @ Host
 
+> Implemented by the [`Prompt` 📃 script](<../🤗📃 Host scripts/...procedures/🤗📃 Prompt 🤔 script.md>)
+
 > Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) flow
 
 > Signature of the [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message.md>)
