@@ -37,6 +37,7 @@ skippability
 startuml
 Syncer
 Syncers
+Synchron
 Tapband
 Tapbands
 touchless
