@@ -26,6 +26,6 @@
 
 Needs ||
 |-|-
-| Commands | [`SEND`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for flows/$SEND 📬 msg.md>) |
+| Commands | [`SEND`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands/SEND 📬 msg.md>) |
 | Methods | [`Updated@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/3 🤵🐌📣 Updated.md>)
 |
