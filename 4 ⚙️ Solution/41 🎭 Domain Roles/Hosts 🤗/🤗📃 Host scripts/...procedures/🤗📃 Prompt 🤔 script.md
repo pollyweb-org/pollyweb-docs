@@ -1,5 +1,7 @@
 
 ```yaml
+📃 Prompt
+
 # Save the prompt.
 - SAVE|Prompts@Host >> $prompt:
 
@@ -22,4 +24,5 @@
     Prompt: $saved.Prompt
     TTL: 
 
+- WAIT
 ```
