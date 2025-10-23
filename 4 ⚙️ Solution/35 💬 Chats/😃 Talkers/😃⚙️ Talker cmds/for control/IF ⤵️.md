@@ -8,8 +8,8 @@
 1. **What's an IF flow?**
 
     An `IF` ⤵️
-    * is a flow [Command ⌘](<⌘ Command.md>)  
-    * that runs a [Script 📃](<📃 Script.md>) or [Command ⌘](<⌘ Command.md>) 
+    * is a flow [Command ⌘](<../...commands/⌘ Command.md>)  
+    * that runs a [Script 📃](<📃 Script.md>) or [Command ⌘](<../...commands/⌘ Command.md>) 
     * based on the evaluation of a placeholder or [{Function}](<../...functions/{Function} 🐍.md>).
 
     ---
@@ -58,8 +58,8 @@
 
     | Argument| Purpose
     |-|-
-    | `<true-action>` | [Script 📃](<📃 Script.md>) or one-line [Command ⌘](<⌘ Command.md>) on `True`
-    | `<false-action>`| [Script 📃](<📃 Script.md>) or one-line [Command ⌘](<⌘ Command.md>) on `False`
+    | `<true-action>` | [Script 📃](<📃 Script.md>) or one-line [Command ⌘](<../...commands/⌘ Command.md>) on `True`
+    | `<false-action>`| [Script 📃](<📃 Script.md>) or one-line [Command ⌘](<../...commands/⌘ Command.md>) on `False`
 
 
     ```yaml
@@ -76,8 +76,8 @@
 
     | Argument| Purpose
     |-|-
-    | `<true-cmd-n>` | List of multi-line [Commands ⌘](<⌘ Command.md>) to run on `True`
-    | `<false-cmd-n>` | List of multi-line [Commands ⌘](<⌘ Command.md>) to run on `False`
+    | `<true-cmd-n>` | List of multi-line [Commands ⌘](<../...commands/⌘ Command.md>) to run on `True`
+    | `<false-cmd-n>` | List of multi-line [Commands ⌘](<../...commands/⌘ Command.md>) to run on `False`
 
     ---
     <br/>

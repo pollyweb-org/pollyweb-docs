@@ -13,7 +13,7 @@
 1. **What's the ASSERT command?**
 
     An `ASSERT`
-    * is a handler [Command ⌘](<../for control/⌘ Command.md>) 
+    * is a handler [Command ⌘](<../...commands/⌘ Command.md>) 
     * that verifies data assumptions.
   
     ---
@@ -218,7 +218,7 @@
     - SUCCESS|The schema is equivalent to ./HOST
     ```
 
-    Commands: [`EVAL`](<../for data/EVAL ⬇️ flow.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
+    Commands: [`EVAL`](<../...placeholders/EVAL ⬇️ flow.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
 
     ---
     <br/>

@@ -9,7 +9,7 @@
 1. **What's a FILTER command?**
 
     A `FILTER`
-    * is a message [Command ⌘](<../for control/⌘ Command.md>) 
+    * is a message [Command ⌘](<../...commands/⌘ Command.md>) 
     * that calls [`MANY` 🔠 prompt](<../../../🤔 Prompts/🤔✏️ Prompt inputs/54 🔠 MANY prompt.md>)
     * to return only the user-selected items of a list.
 

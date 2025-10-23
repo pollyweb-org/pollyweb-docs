@@ -9,7 +9,7 @@
 1. **What is a BIND message command?**
 
     A `BIND`
-    * is a message [Command ⌘](<../for control/⌘ Command.md>) 
+    * is a message [Command ⌘](<../...commands/⌘ Command.md>) 
     * that invokes the [Bind @ Vault ⏩ flow](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🗄️ Bind 🔗.md>).
 
     ---
@@ -157,7 +157,7 @@
        Else: FAILURE|Not bounded.
    ```
 
-   Commands: [`BIND`](<BIND 🔗 msg.md>) [`EVAL`](<../for data/EVAL ⬇️ flow.md>) [`IF`](<../for control/IF ⤵️.md>)
+   Commands: [`BIND`](<BIND 🔗 msg.md>) [`EVAL`](<../...placeholders/EVAL ⬇️ flow.md>) [`IF`](<../for control/IF ⤵️.md>)
    
    ---
    <br/>

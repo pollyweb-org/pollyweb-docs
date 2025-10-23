@@ -11,7 +11,7 @@
 1. **What's a WAIT flow command?**
 
     A [`WAIT` ⏸️](<WAIT ⏸️.md>)
-    * is a flow [Command ⌘](<⌘ Command.md>) 
+    * is a flow [Command ⌘](<../...commands/⌘ Command.md>) 
     * that pauses the flow for a period of time 
     * or until triggered by an external signal.
 
@@ -67,7 +67,7 @@
     ```
     
 
-    | [Command ⌘](<⌘ Command.md>) | Purpose
+    | [Command ⌘](<../...commands/⌘ Command.md>) | Purpose
     |-|-
     | 🔁 [`REPEAT`](<REPEAT 🔁.md>) | To update the message.
     | ⏳ [`TEMP`](<../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳ prompt.md>) | Show the temporary message.
@@ -108,9 +108,9 @@
     ```
 
 
-    | [Command ⌘](<⌘ Command.md>) | Purpose
+    | [Command ⌘](<../...commands/⌘ Command.md>) | Purpose
     |-|-
-    | ⬇️ [`EVAL`](<../for data/EVAL ⬇️ flow.md>) | to assess the backend queue length.
+    | ⬇️ [`EVAL`](<../...placeholders/EVAL ⬇️ flow.md>) | to assess the backend queue length.
     | ℹ️ [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) | To show the initial message.
     | 🔁 [`REPEAT`](<REPEAT 🔁.md>) | To re-assess the queue periodically.
     | 🔁 [`RETURN`](<REPEAT 🔁.md>) | To exit the loop when it's the user's turn.
@@ -165,10 +165,10 @@
     - REPEAT
     ```
 
-    | [Command ⌘](<⌘ Command.md>) | Purpose
+    | [Command ⌘](<../...commands/⌘ Command.md>) | Purpose
     |-|-
     | ⏯️️ [`CASE`](<CASE ⏯️.md>) | To show the human-friendly message.
-    | ⬇️ [`EVAL`](<../for data/EVAL ⬇️ flow.md>) | to assess the backend queue length.
+    | ⬇️ [`EVAL`](<../...placeholders/EVAL ⬇️ flow.md>) | to assess the backend queue length.
     | ⏬ [`GET`](<../...items/GET ⏬ item.md>) | To get the queue length from resources.
     | 🔁 [`REPEAT`](<REPEAT 🔁.md>) | To re-assess the queue periodically.
     | 🔁 [`RETURN`](<REPEAT 🔁.md>) | To exit the loop when it's the user's turn.

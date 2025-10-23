@@ -55,7 +55,7 @@ Body:
     $collect.Data
 ```
 
-| [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | Purpose
+| [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands/⌘ Command.md>) | Purpose
 |-|-
 | 🚦 [`ASSERT`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/ASSERT 🚦.md>) | Assert if it's the right [Consumer 💼](<../../../Consumers 💼/💼🎭 Consumer role.md>)
 | ⏬ [`GET`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...items/GET ⏬ item.md>) | Get the [Collect 🪣](<../../🗄️🪣 Vault tables/🗄️🪣 Collects.md>) from [`Consume@Consumer`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>)

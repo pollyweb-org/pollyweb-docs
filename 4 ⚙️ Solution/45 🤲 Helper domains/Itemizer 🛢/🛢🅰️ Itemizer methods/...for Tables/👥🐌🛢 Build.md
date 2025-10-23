@@ -64,6 +64,6 @@ Body:
 
     |Origin| Details
     |-|-
-    | 💾 [`SAVE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/SAVE 💾 item.md>) | When an [Item 🛢](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) expires and is deleted.
-    | 🗑️ [`DELETE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...items/DELETE 🗑️ item.md>) | When the [`UNDO` ↩️](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/UNDO ↩️.md>) window of a delete expires.
+    | 💾 [`SAVE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...items/SAVE 💾 item.md>) | When an [Item 🛢](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) expires and is deleted.
+    | 🗑️ [`DELETE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...items/DELETE 🗑️ item.md>) | When the [`UNDO` ↩️](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...items/UNDO ↩️.md>) window of a delete expires.
     |

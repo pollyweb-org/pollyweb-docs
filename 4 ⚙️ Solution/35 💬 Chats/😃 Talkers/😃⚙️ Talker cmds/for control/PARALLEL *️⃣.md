@@ -15,8 +15,8 @@
 1. **What is a PARALLEL command?**
 
     A `PARALLEL` *️⃣
-    * is a flow [Command ⌘](<⌘ Command.md>)  
-    * that runs a list of [Commands ⌘](<⌘ Command.md>) 
+    * is a flow [Command ⌘](<../...commands/⌘ Command.md>)  
+    * that runs a list of [Commands ⌘](<../...commands/⌘ Command.md>) 
     * for each item in a given list.
   
     ---
@@ -42,7 +42,7 @@
     |-|-|-
     | `$input-list` | List to iterate | `[1,2,3]`
     | `$input-item` | Item of an iteration | `1`
-    | `<command-n>`   | [Command ⌘](<⌘ Command.md>) to execute | [`SAVE`](<../for data/SAVE 💾 item.md>)
+    | `<command-n>`   | [Command ⌘](<../...commands/⌘ Command.md>) to execute | [`SAVE`](<../...items/SAVE 💾 item.md>)
 
     ---
     <br/>

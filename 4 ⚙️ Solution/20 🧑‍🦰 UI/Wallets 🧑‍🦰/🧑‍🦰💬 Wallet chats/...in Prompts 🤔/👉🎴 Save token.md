@@ -34,7 +34,7 @@ The associated [Talker 😃](<../../../../35 💬 Chats/😃 Talkers/😃 Talker
     Else: FAILURE|You rejected the token.
 ```
 
-| [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | Purpose
+| [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands/⌘ Command.md>) | Purpose
 |-|-
 | 🎫 [`ISSUE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for flows/ISSUE 🎫 msg.md>) | Call the [Save Token ⏩ flow](<👉🎴 Save token.md>).
 |

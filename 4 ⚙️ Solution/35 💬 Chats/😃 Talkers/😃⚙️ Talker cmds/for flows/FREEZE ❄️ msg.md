@@ -9,7 +9,7 @@
 1. **What is a FREEZE command?**
 
     A `FREEZE` ❄️
-    * is a flow [Command ⌘](<../for control/⌘ Command.md>) 
+    * is a flow [Command ⌘](<../...commands/⌘ Command.md>) 
     * that freezes all previous [non-blocking Prompts 🤔](<../../../🤔 Prompts/🤔⚙️ Prompt features/8 ⚠️ as Status.md>)
     * as described in the [Freeze ⏩ flow](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Freeze ❄️.md>).
 
@@ -69,7 +69,7 @@
     - GOODBYE
     ```
 
-    Commands: [`CONFIRM`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) [`EVAL`](<../for data/EVAL ⬇️ flow.md>) [`FREEZE`](<FREEZE ❄️ msg.md>) [`GOODBYE`](<GOODBYE 👋 msg.md>) [`INFORM`](<INFORM 📝 msg.md>) [`ONE`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/53 1️⃣ ONE prompt.md>) [`SHARE`](<SHARE 💼 msg.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
+    Commands: [`CONFIRM`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) [`EVAL`](<../...placeholders/EVAL ⬇️ flow.md>) [`FREEZE`](<FREEZE ❄️ msg.md>) [`GOODBYE`](<GOODBYE 👋 msg.md>) [`INFORM`](<INFORM 📝 msg.md>) [`ONE`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/53 1️⃣ ONE prompt.md>) [`SHARE`](<SHARE 💼 msg.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
 
     ---
     <br/>
