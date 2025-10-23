@@ -2,7 +2,7 @@
 
 > From [🏪 Drink at vending machines](<01 🏪 Index.md>)
 
-> [Script 📃](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/📃 Script.md>) for:
+> [Script 📃](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands/📃 Script.md>) for:
   * [Buy water 💧 ](<11 💧 Buy water.md>)
   * [Buy beer 🍺 ](<12 🍺 Buy beer.md>)
 
@@ -104,7 +104,7 @@ TODO: Add the flow to the Manifest
 |Status| ⏳ [`TEMP`](<../../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔📢 Prompt status/TEMP ⏳ prompt.md>) | Show delivering status
 || ✅ [`SUCCESS`](<../../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>) | Ask to pick the item
 || ❌ [`FAILURE`](<../../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔📢 Prompt status/FAILURE ❌ prompt.md>) | To show in case of error
-|Flow| ⤵️ [`IF`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/IF ⤵️.md>) | To see if 21+ check is needed
+|Flow| ⤵️ [`IF`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands/IF ⤵️.md>) | To see if 21+ check is needed
 ||⬇️ [`EVAL`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders/EVAL ⬇️ flow.md>) | To deduct the value on errors
 ||🪵 [`LOG`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/LOG 🪵 flow.md>) | To log eventual errors
 |Message| 💼 [`SHARE`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for flows/SHARE 💼 msg.md>) | Ask for proof of over 21

@@ -64,7 +64,7 @@
         Else: FAILURE|Not bounded.
     ```
 
-    Commands: [`BIND`](<../for flows/BIND 🔗 msg.md>) [`IF`](<../for control/IF ⤵️.md>)
+    Commands: [`BIND`](<../for flows/BIND 🔗 msg.md>) [`IF`](<../...commands/IF ⤵️.md>)
     
     <br/>
 
