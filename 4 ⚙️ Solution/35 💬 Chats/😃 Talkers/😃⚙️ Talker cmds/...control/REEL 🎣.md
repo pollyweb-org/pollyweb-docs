@@ -48,7 +48,7 @@
 
 1. **What's an example of REEL?**
 
-    Consider the [`BIND` flow command](<../...messages/BIND 🔗 msg.md>).
+    Consider the [`BIND` flow command](<../...methods/BIND 🔗 msg.md>).
 
     ![alt text](<../../.📎 Assets/Reel.png>)
 
@@ -64,7 +64,7 @@
         Else: FAILURE|Not bounded.
     ```
 
-    Commands: [`BIND`](<../...messages/BIND 🔗 msg.md>) [`IF`](<../...commands/IF ⤵️.md>)
+    Commands: [`BIND`](<../...methods/BIND 🔗 msg.md>) [`IF`](<IF ⤵️.md>)
     
     <br/>
 

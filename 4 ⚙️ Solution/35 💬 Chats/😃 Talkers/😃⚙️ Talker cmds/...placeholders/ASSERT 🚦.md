@@ -195,7 +195,7 @@
     - SUCCESS|Message is from Any Broker
     ```
 
-    Commands: [`$.Msg`](<$.Msg 📨.md>) [`ASSERT`](<ASSERT 🚦.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
+    Commands: [`$.Msg`](<../...messages/$.Msg 📨.md>) [`ASSERT`](<ASSERT 🚦.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
 
     ---
     <br/>
@@ -218,7 +218,7 @@
     - SUCCESS|The schema is equivalent to ./HOST
     ```
 
-    Commands: [`EVAL`](<../...placeholders/EVAL ⬇️ flow.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
+    Commands: [`EVAL`](<EVAL ⬇️ flow.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
 
     ---
     <br/>

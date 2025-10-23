@@ -50,7 +50,7 @@
         - UNDO|$deleted
     ```
 
-    Commands: [`CASE`](<../...commands/CASE ⏯️.md>) [`DELETE`](<DELETE 🗑️ item.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
+    Commands: [`CASE`](<../...control/CASE ⏯️.md>) [`DELETE`](<DELETE 🗑️ item.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
 
     ---
     <br/>

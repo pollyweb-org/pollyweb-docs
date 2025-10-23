@@ -8,8 +8,8 @@
 1. **What's a CASE flow?**
 
     A `CASE` ⏯️️
-    * is a flow [Command ⌘](<⌘ Command.md>)  
-    * that runs a matching [Script 📃](<📃 Script.md>) o⌘ Command.mdds/⌘ Command.md>) 
+    * is a flow [Command ⌘](<../...commands/⌘ Command.md>)  
+    * that runs a matching [Script 📃](<../...commands/📃 Script.md>) o⌘ Command.mdds/⌘ Command.md>) 
     * based on the evaluation of a [{Function}](<../...functions/{Function} 🐍.md>).
 
     ---
@@ -30,8 +30,8 @@
     || Allows for missing `{}` in functions | `f()` `$p`
     || Defaults to the last [input prompt ✏️](<../../../🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>) | `TEXT\|Id?`
     | `<value>`| Static value to be matched with. | `ABC`
-    | `<action>`| Run a [Script 📃](<📃 Script.md>) | `MyProc`
-    || or a one-line [Command ⌘](<⌘ Command.md>). | `INFO\|OK`
+    | `<action>`| Run a [Script 📃](<../...commands/📃 Script.md>) | `MyProc`
+    || or a one-line [Command ⌘](<../...commands/⌘ Command.md>). | `INFO\|OK`
     
     <br/>
 
@@ -63,7 +63,7 @@
 
     | Argument| Purpose
     |-|-
-    | `<cmd-n>`| Run a multi-line [Command ⌘](<⌘ Command.md>) list.
+    | `<cmd-n>`| Run a multi-line [Command ⌘](<../...commands/⌘ Command.md>) list.
     
     <br/>
 
@@ -91,7 +91,7 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ Hi, premium customer!
     |
 
-    Here's the [Script 📃](<📃 Script.md>).
+    Here's the [Script 📃](<../...commands/📃 Script.md>).
 
     ```yaml
     # 😃 Talker
@@ -127,7 +127,7 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ You selected option B.
     |
 
-    Here's the [Script 📃](<📃 Script.md>).
+    Here's the [Script 📃](<../...commands/📃 Script.md>).
    
     ```yaml
     # 😃 Talker
@@ -161,7 +161,7 @@
 
     <br/>
 
-    Here's the [Script 📃](<📃 Script.md>)
+    Here's the [Script 📃](<../...commands/📃 Script.md>)
 
     ```yaml 
     # Collect a number
