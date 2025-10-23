@@ -41,7 +41,7 @@
     
     | Argument| Purpose | Example
     |-|-|-
-    | `{function}`| [{Function}](<{Function} 🐍.md>) to valuate and log. | `{MyFunction}` | 
+    | `{function}`| [{Function}](<../...functions/{Function} 🐍.md>) to valuate and log. | `{MyFunction}` | 
     | `<string>` | String to evaluate and log. | `A` `I'm {$name}`
     | `{object}` | Object to evaluate and log. | `{A:1, B:$n}`
     

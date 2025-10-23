@@ -35,7 +35,7 @@
 
     | Argument| Purpose |
     |-|-
-    | `$.Msg`| Built-in [Placeholder 🧠](<../for data/$Placeholder 🧠.md>) with the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>).
+    | `$.Msg`| Built-in [Placeholder 🧠](<../...placeholders/$Placeholder 🧠.md>) with the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>).
 
     ```yaml
     # For messages from Wallets
@@ -48,7 +48,7 @@
 
     | Argument| Purpose |
     |-|-
-    | `$publicKey`| [Placeholder 🧠](<../for data/$Placeholder 🧠.md>) with the Public Key.
+    | `$publicKey`| [Placeholder 🧠](<../...placeholders/$Placeholder 🧠.md>) with the Public Key.
 
 
     ---
@@ -88,7 +88,7 @@
 
     | [Command ⌘](<../for control/⌘ Command.md>) | Purpose
     |-|-
-    | ⏬ [`GET`](<../for data/GET ⏬ item.md>) | Get the Public Key of the [Wallet 🪣](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Wallets table.md>) in the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>).
+    | ⏬ [`GET`](<../...datasets/GET ⏬ item.md>) | Get the Public Key of the [Wallet 🪣](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Wallets table.md>) in the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>).
 
     ---
     <br/>
@@ -112,7 +112,7 @@
 
     | [Command ⌘](<../for control/⌘ Command.md>) | Purpose
     |-|-
-    | ⏬ [`GET`](<../for data/GET ⏬ item.md>) | To get the Public Key of [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🤵🐌🤗 Hello.md>).
+    | ⏬ [`GET`](<../...datasets/GET ⏬ item.md>) | To get the Public Key of [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🤵🐌🤗 Hello.md>).
 
     ---
     <br/>

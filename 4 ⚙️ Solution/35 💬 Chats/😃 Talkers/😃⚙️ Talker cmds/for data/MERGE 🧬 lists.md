@@ -39,7 +39,7 @@
     |  | Another list with additional data  | `$2nd`
     | `Match` | Match fields of `1st` and `2nd` lists | `{1st.A:2nd.A}`
     | `Output` | Output item template after merged | `{Out: 2nd.Y}`
-    | `$out` | [Placeholder 🧠](<$Placeholder 🧠.md>) with the merge or view | -
+    | `$out` | [Placeholder 🧠](<../...placeholders/$Placeholder 🧠.md>) with the merge or view | -
 
     ---
     <br/>

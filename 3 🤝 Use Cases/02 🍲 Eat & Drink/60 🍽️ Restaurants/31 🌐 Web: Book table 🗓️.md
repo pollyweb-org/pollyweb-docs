@@ -81,7 +81,7 @@
 
 | [Command ⌘](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | Purpose
 |-|-
-| ⏬ [`GET`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET ⏬ item.md>) | Map the locator to a restaurant info.
+| ⏬ [`GET`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets/GET ⏬ item.md>) | Map the locator to a restaurant info.
 | 📝 [`INFORM`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for flows/INFORM 📝 msg.md>) | Show user instructions and allow inputs.
 | 1️⃣ [`ONE`](<../../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔✏️ Prompt inputs/53 1️⃣ ONE prompt.md>) | Select an option, the day in this case.
 | 💼 [`SHARE`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for flows/SHARE 💼 msg.md>) | Get the user's booking contacts.

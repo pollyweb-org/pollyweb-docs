@@ -209,7 +209,7 @@
     |-|-|-
     | 💾 [`SAVE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/SAVE 💾 item.md>) | Same value | Allows multiple  idempotent saves
     | |Different | Blocked, raises an error
-    | 🗑️ [`DELETE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/DELETE 🗑️ item.md>) | - | Allows multiple idempotent times
+    | 🗑️ [`DELETE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets/DELETE 🗑️ item.md>) | - | Allows multiple idempotent times
 
     ---
     <br/>

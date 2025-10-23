@@ -34,5 +34,5 @@
 Needs ||
 |-|-
 | [Commands ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | [`SAVE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/SAVE 💾 item.md>) [`SEND`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for flows/$SEND 📬 msg.md>) [`WAIT`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/WAIT ⏸️.md>)
-| [Placeholders 🧠](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/$Placeholder 🧠.md>) | [`$.Chat`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/$.Chat 💬.md>)
+| [Placeholders 🧠](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders/$Placeholder 🧠.md>) | [`$.Chat`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders/$.Chat 💬.md>)
 |
