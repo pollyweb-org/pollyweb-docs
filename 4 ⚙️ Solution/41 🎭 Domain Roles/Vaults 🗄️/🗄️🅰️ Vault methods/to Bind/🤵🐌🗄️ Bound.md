@@ -5,7 +5,7 @@
 
 # 🤵🐌🗄️ Bound @ Vault
 
-> Implemented by the [`Bound` 📃 script](<../../🗄️📃 Vault scripts/🗄️📃 Bound.md>)
+> Implemented by the [`Bound` 📃 script](<../../🗄️📃 Vault scripts/🗄️📃 Bound handler.md>)
 
 
 > Used by:

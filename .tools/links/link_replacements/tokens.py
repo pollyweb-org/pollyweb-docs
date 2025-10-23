@@ -2,12 +2,16 @@
 
 from __future__ import annotations
 
+import os
 import re
 from pathlib import Path
 from typing import Callable, Dict, Iterable
 
+from broken_links.common import normalize_string
+
 
 HARDCODED_HANDLERS: Dict[str, Dict[str, object]] = {}
+TRIPLE_BRACE_PATTERN = re.compile(r"\{\{\{([^{}]+)\}\}\}")
 
 
 def register_hardcoded(
@@ -280,6 +284,49 @@ def replace_notifiers_tokens(md_files):
     return _replace_simple(md_files, pattern, "[Notifier 📣 domains](<📣👥 Notifier domain.md>)")
 
 
+def replace_triple_brace_tokens(md_files: Iterable[str], file_dict: dict[str, tuple[str, str]]) -> int:
+    """Replace helper tokens using triple braces with markdown links."""
+
+    total = 0
+
+    for md_file in md_files:
+        path = Path(md_file)
+        try:
+            content = path.read_text(encoding="utf-8")
+        except Exception:
+            continue
+
+        def replacer(match: re.Match[str]) -> str:
+            token = match.group(1).strip()
+            candidates = {
+                normalize_string(token),
+                normalize_string(f"{{{token}}}"),
+            }
+
+            for candidate in candidates:
+                entry = file_dict.get(candidate)
+                if not entry:
+                    continue
+                _, target_path = entry
+                try:
+                    rel_path = os.path.relpath(target_path, path.parent)
+                except Exception:
+                    rel_path = target_path
+                return f"[`{token}`](<{rel_path}>)"
+
+            return match.group(0)
+
+        new_content, count = TRIPLE_BRACE_PATTERN.subn(replacer, content)
+        if count:
+            try:
+                path.write_text(new_content, encoding="utf-8")
+            except Exception:
+                continue
+            total += count
+
+    return total
+
+
 __all__ = [
     "HARDCODED_HANDLERS",
     "replace_placeholder_tokens",
@@ -291,6 +338,7 @@ __all__ = [
     "replace_vaults_tokens",
     "replace_vault_tokens",
     "replace_token_tokens",
+    "replace_triple_brace_tokens",
     "replace_tokens_tokens",
     "replace_script_tokens",
     "replace_chat_tokens",
