@@ -12,11 +12,25 @@
 📃 Prompted@Host: 
 
 # Get the prompt
-- GET|Prompts@Host|$.Msg.Prompt >> $prompt
+- GET >> $prompt:
+    Pool: Prompts@Host
+    Key: $.Msg.Prompt
 
 # Verify the message
-- VERIFY|$.Msg|$prompt.PublicKey
+- VERIFY|$.Msg:
+    Key: $prompt.PublicKey
+
+# Verify the cache TTL
+- ASSERT:
+    - $prompt.TTL > .Now
 
 # Returned the cached response
-- RETURN|prompt.Prompted
+- RETURN:
+    prompt.Prompted
 ```
+
+Needs||
+|-|-
+| [Commands ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | [`ASSERT`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/ASSERT 🚦.md>) [`GET`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/GET ⏬ item.md>) [`RETURN`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/RETURN ⤴️.md>) [`VERIFY`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/VERIFY 🔐 msg.md>)
+| [{Functions} 🐍](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/{Function} 🐍.md>) | {.Now}
+|
