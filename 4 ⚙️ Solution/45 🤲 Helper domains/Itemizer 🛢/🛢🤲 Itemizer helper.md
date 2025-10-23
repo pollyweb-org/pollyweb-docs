@@ -1,6 +1,6 @@
 # 🛢 Itemizer helper
 
-> Relates to [`GET`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...items/GET ⏬ item.md>), [`SAVE`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/SAVE 💾 item.md>), and
+> Relates to [`GET`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...items/GET ⏬ item.md>), [`SAVE`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...items/SAVE 💾 item.md>), and
 [`DELETE`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...items/DELETE 🗑️ item.md>) commands.
 
 

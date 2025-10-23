@@ -8,7 +8,7 @@
 1. **What's an EVAL command?**
 
     An `EVAL` ⬇️
-    * is a [Command ⌘](<../for control/⌘ Command.md>) 
+    * is a [Command ⌘](<../...commands/⌘ Command.md>) 
     * that evaluates strings, objects, and [`{Functions}`](<../...functions/{Function} 🐍.md>)
     * into a placeholder.
 
@@ -191,7 +191,7 @@
 
 1. **How to merge objects in an EVAL?**
 
-    With a mix of dictionary values and [Placeholder 🧠](<../...placeholders/$Placeholder 🧠.md>) surrounded with `:`.
+    With a mix of dictionary values and [Placeholder 🧠](<$Placeholder 🧠.md>) surrounded with `:`.
     
     ```yaml
     - EVAL >> $partB:
@@ -226,7 +226,7 @@
 
     ||Arguments| Purpose
     |-|-|-
-    || `$list` | [Placeholder 🧠](<../...placeholders/$Placeholder 🧠.md>) list of objects
+    || `$list` | [Placeholder 🧠](<$Placeholder 🧠.md>) list of objects
     ||| Fails if `$list` was never set
     |
 

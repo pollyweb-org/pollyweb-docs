@@ -8,7 +8,7 @@
 1. **What's a RUN flow?**
 
     A `RUN` ▶️
-    * is a flow [Command ⌘](<⌘ Command.md>) 
+    * is a flow [Command ⌘](<../...commands/⌘ Command.md>) 
     * that runs a  [Script 📃](<📃 Script.md>).
 
     ---

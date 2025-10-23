@@ -207,7 +207,7 @@
 
     |Action|Condition|Behavior
     |-|-|-
-    | 💾 [`SAVE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for data/SAVE 💾 item.md>) | Same value | Allows multiple  idempotent saves
+    | 💾 [`SAVE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...items/SAVE 💾 item.md>) | Same value | Allows multiple  idempotent saves
     | |Different | Blocked, raises an error
     | 🗑️ [`DELETE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...items/DELETE 🗑️ item.md>) | - | Allows multiple idempotent times
 

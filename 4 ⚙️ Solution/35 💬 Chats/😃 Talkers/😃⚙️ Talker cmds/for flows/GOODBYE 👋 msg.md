@@ -9,7 +9,7 @@
 1. **What is an GOODBYE message command?**
    
     A `GOODBYE`
-    * is a message [Command ⌘](<../for control/⌘ Command.md>) 
+    * is a message [Command ⌘](<../...commands/⌘ Command.md>) 
     * that calls the [🤗⏩🧑‍🦰 Goodbye 👋](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Goodbye 👋.md>) flow.
 
     ---

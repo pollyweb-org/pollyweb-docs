@@ -64,7 +64,7 @@
     * `TEXT|bla >> $p` writes the answer to a [`TEXT` 🔠 input](<../../../🤔 Prompts/🤔✏️ Prompt inputs/32 🔠 TEXT prompt.md>).
     * `EVAL|f >> $p` writes the return of a [{Function}](<../...functions/{Function} 🐍.md>) named `f`.
 
-    You can also push data structures with [`EVAL` ⬇️](<../for data/EVAL ⬇️ flow.md>).
+    You can also push data structures with [`EVAL` ⬇️](<EVAL ⬇️ flow.md>).
     
     ```yaml
     EVAL >> $p:   # Write values

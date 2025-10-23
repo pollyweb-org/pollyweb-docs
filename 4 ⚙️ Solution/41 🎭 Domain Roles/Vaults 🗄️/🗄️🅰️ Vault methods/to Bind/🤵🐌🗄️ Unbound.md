@@ -45,7 +45,7 @@ Body:
         Bind: $bind.Bind
 ```
 
-| [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/⌘ Command.md>) | Purpose
+| [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands/⌘ Command.md>) | Purpose
 |-|-
 | 🗑️ [DELETE](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...items/DELETE 🗑️ item.md>) | Delete from the [Binds 🪣](<../../🗄️🪣 Vault tables/🗄️🪣 Binds.md>) table
 |
