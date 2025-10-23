@@ -8,8 +8,8 @@
 1. **What's an IF flow?**
 
     An `IF` ⤵️
-    * is a flow [Command ⌘](<⌘ Command.md>)  
-    * that runs a [Script 📃](<📃 Script.md>) o⌘ Command.mdds/⌘ Command.md>) 
+    * is a flow [Command ⌘](<../...commands/⌘ Command.md>)  
+    * that runs a [Script 📃](<../...commands/📃 Script.md>) o⌘ Command.mdds/⌘ Command.md>) 
     * based on the evaluation of a placeholder or [{Function}](<../...functions/{Function} 🐍.md>).
 
     ---
@@ -24,7 +24,7 @@
     Number  | zero | `0` | non-zero | `1` `-1`
     Array | empty | `[]` | non-empty | `[1,A]`
     [Confirm 👍](<../../../🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) |  no | `No` | yes | `Yes`|
-    [Share 💼](<../...messages/SHARE 💼 msg.md>) | empty | `{}`| non-empty | `{A:1}`
+    [Share 💼](<../...methods/SHARE 💼 msg.md>) | empty | `{}`| non-empty | `{A:1}`
     
 
     ---
@@ -43,8 +43,8 @@
     | `{function}` | Boolean [{Function}](<../...functions/{Function} 🐍.md>) to evaluate  | `{f}` `{$o}`
     || Allows for missing `{}` in functions | `f()` `$p`
     || Defaults to the last [input prompt ✏️](<../../../🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>) | `TEXT\|Id?`
-    | `<true-script>` | [Script 📃](<📃 Script.md>) to [Run ▶️](<RUN ▶️.md>) when `True` | `IfTrue`
-    | `<false-script>`| [Script 📃](<📃 Script.md>) to [Run ▶️](<RUN ▶️.md>) when `False` | `IfFalse(X)`
+    | `<true-script>` | [Script 📃](<RUN ▶️.md>) when `True` | `IfTrue`
+    | `<false-script>`| [Script 📃](<RUN ▶️.md>) when `False` | `IfFalse(X)`
     
     ```yaml
     # Multi-line actions: 
@@ -58,8 +58,8 @@
 
     | Argument| Purpose
     |-|-
-    | `<true-action>` | [Script 📃](<📃 Script.md>) or one-lin⌘ Command.mdds/⌘ Command.md>) on `True`
-    | `<false-action>`| [Script 📃](<📃 Script.md>) or one-lin⌘ Command.mdds/⌘ Command.md>) on `False`
+    | `<true-action>` | [Script 📃](<../...commands/📃 Script.md>) or one-lin⌘ Command.mdds/⌘ Command.md>) on `True`
+    | `<false-action>`| [Script 📃](<../...commands/📃 Script.md>) or one-lin⌘ Command.mdds/⌘ Command.md>) on `False`
 
 
     ```yaml
@@ -76,8 +76,8 @@
 
     | Argument| Purpose
     |-|-
-    | `<true-cmd-n>` | List of multi-line [Commands ⌘](<⌘ Command.md>) to run on `True`
-    | `<false-cmd-n>` | List of multi-line [Commands ⌘](<⌘ Command.md>) to run on `False`
+    | `<true-cmd-n>` | List of multi-line [Commands ⌘](<../...commands/⌘ Command.md>) to run on `True`
+    | `<false-cmd-n>` | List of multi-line [Commands ⌘](<../...commands/⌘ Command.md>) to run on `False`
 
     ---
     <br/>
