@@ -31,9 +31,26 @@ from link_replacements import (
     replace_talkers_tokens, replace_itemized_dataset_tokens, replace_itemized_datasets_tokens,
     replace_notifier_tokens, replace_notifiers_tokens, replace_prompt_broker_tokens, replace_dynamic_tokens
 )
+from link_replacements.tokens import HARDCODED_HANDLERS
 
 yes_memory = []
 all_memory = False
+
+
+def replace_registered_hardcoded_tokens(md_files):
+    """Run all registered hardcoded token replacements with consistent reporting."""
+
+    for token_key, metadata in HARDCODED_HANDLERS.items():
+        func = metadata["function"]
+        label = metadata["token_label"]
+        try:
+            changes = func(md_files)
+        except Exception as exc:
+            print(f"Warning: failed replacing {{{label}}} tokens: {exc}")
+            continue
+        if changes:
+            print(f"Replaced {changes} {{{label}}} tokens ✅")
+
 
 def runit(project_directory, entryPoint):
     # If the project directory does not exist, look for the entryPoint in the parent folder.
@@ -73,13 +90,26 @@ def runit(project_directory, entryPoint):
         given = test['Given']
         expected_linktext = test['LinkText']
         expected_linkfile = test['LinkFile']
+        token = given.strip('{}')
         reasons_text = (test.get('Reasons') or '').lower()
         if 'this is hardcoded' in reasons_text:
+            token_key = normalize_string(token)
+            handler = HARDCODED_HANDLERS.get(token_key)
+            if not handler:
+                raise ValueError(f"Hardcoded test failed for {given}: no handler registered for token '{token}'")
+            replacement = handler['replacement']
+            if expected_linkfile not in replacement:
+                raise ValueError(
+                    f"Hardcoded test failed for {given}: expected file {expected_linkfile} not in replacement {replacement}"
+                )
+            if expected_linktext not in replacement:
+                raise ValueError(
+                    f"Hardcoded test failed for {given}: expected link text {expected_linktext} not in replacement {replacement}"
+                )
             matching_files = [path for path in md_files if os.path.basename(path) == expected_linkfile]
             if not matching_files:
                 raise ValueError(f"Hardcoded test failed for {given}: file not found -> {expected_linkfile}")
             continue
-        token = given.strip('{}')
         if '@' in token:
             parts = token.split('@', 1)
             X = parts[0]
@@ -191,16 +221,8 @@ def runit(project_directory, entryPoint):
     except Exception as e:
         print(f"Warning: failed processing uppercase {{}}-mentions: {e}")
 
-    # Replace {{Placeholder}} tokens with link to $Placeholder 🧠.md
-    try:
-        ph_changes = replace_placeholder_tokens(md_files)
-        if ph_changes:
-            print(f"Replaced {ph_changes} {{Placeholder}} tokens ✅")
-        else:
-            pass
-            #print("No {{Placeholder}} tokens to replace.")
-    except Exception as e:
-        print(f"Warning: failed replacing {{Placeholder}} tokens: {e}")
+    # Replace hardcoded tokens registered in the replacement helpers
+    replace_registered_hardcoded_tokens(md_files)
 
     # Replace {{$.Msg}} tokens
     try:
@@ -212,28 +234,6 @@ def runit(project_directory, entryPoint):
             #print("No {{$.Msg}} tokens to replace.")
     except Exception as e:
         print(f"Warning: failed replacing {{$.Msg}} tokens: {e}")
-
-    # Replace {{Hosts}} tokens
-    try:
-        hosts_changes = replace_hosts_tokens(md_files)
-        if hosts_changes:
-            print(f"Replaced {hosts_changes} {{Hosts}} tokens ✅")
-        else:
-            pass
-            #print("No {{Hosts}} tokens to replace.")
-    except Exception as e:
-        print(f"Warning: failed replacing {{Hosts}} tokens: {e}")
-
-    # Replace {{Host}} tokens
-    try:
-        host_changes = replace_host_tokens(md_files)
-        if host_changes:
-            print(f"Replaced {host_changes} {{Host}} tokens ✅")
-        else:
-            pass
-            #print("No {{Host}} tokens to replace.")
-    except Exception as e:
-        print(f"Warning: failed replacing {{Host}} tokens: {e}")
 
     # Replace {{Issuer}} tokens
     try:
@@ -294,16 +294,6 @@ def runit(project_directory, entryPoint):
             pass
     except Exception as e:
         print(f"Warning: failed replacing {{Tokens}} tokens: {e}")
-
-    # Replace {{Script}} tokens
-    try:
-        script_changes = replace_script_tokens(md_files)
-        if script_changes:
-            print(f"Replaced {script_changes} {{Script}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Script}} tokens: {e}")
 
     # Replace {{Chat}} tokens
     try:
@@ -455,16 +445,6 @@ def runit(project_directory, entryPoint):
     except Exception as e:
         print(f"Warning: failed replacing {{$.Chat}} tokens: {e}")
 
-    # Replace {{Broker}} tokens
-    try:
-        replaced = replace_broker_tokens(md_files)
-        if replaced:
-            print(f"Replaced {replaced} {{Broker}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Broker}} tokens: {e}")
-
     # Replace {{Brokers}} tokens
     try:
         replaced = replace_brokers_tokens(md_files)
@@ -494,16 +474,6 @@ def runit(project_directory, entryPoint):
             pass
     except Exception as e:
         print(f"Warning: failed replacing {{Functions}} tokens: {e}")
-
-    # Replace {{Scripts}} tokens
-    try:
-        replaced = replace_scripts_tokens(md_files)
-        if replaced:
-            print(f"Replaced {replaced} {{Scripts}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Scripts}} tokens: {e}")
 
     # Replace {{Item}} tokens
     try:

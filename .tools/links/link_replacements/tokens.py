@@ -4,7 +4,29 @@ from __future__ import annotations
 
 import re
 from pathlib import Path
-from typing import Iterable
+from typing import Callable, Dict, Iterable
+
+
+HARDCODED_HANDLERS: Dict[str, Dict[str, object]] = {}
+
+
+def register_hardcoded(
+    token_key: str,
+    *,
+    replacement: str,
+    token_label: str,
+) -> Callable[[Callable[[Iterable[str]], int]], Callable[[Iterable[str]], int]]:
+    """Register a token replacer that is backed by a static replacement string."""
+
+    def decorator(func: Callable[[Iterable[str]], int]) -> Callable[[Iterable[str]], int]:
+        HARDCODED_HANDLERS[token_key] = {
+            "replacement": replacement,
+            "token_label": token_label,
+            "function": func,
+        }
+        return func
+
+    return decorator
 
 
 def _replace_simple(md_files: Iterable[str], pattern: re.Pattern[str], replacement: str) -> int:
@@ -25,9 +47,19 @@ def _replace_simple(md_files: Iterable[str], pattern: re.Pattern[str], replaceme
     return total
 
 
+PLACEHOLDER_REPLACEMENT = "[Placeholder 🧠](<$Placeholder 🧠.md>)"
+HOSTS_REPLACEMENT = "[Host 🤗 domains](<../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)"
+HOST_REPLACEMENT = "[Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)"
+SCRIPT_REPLACEMENT = "[Script 📃](<📃 Script.md>)"
+SCRIPTS_REPLACEMENT = "[Scripts 📃](<📃 Script.md>)"
+BROKER_REPLACEMENT = "[Broker 🤵 domain](<🤵🤲 Broker helper.md>)"
+SELLER_REPLACEMENT = "[Seller 🎭 domain](<../../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>)"
+
+
+@register_hardcoded("placeholder", replacement=PLACEHOLDER_REPLACEMENT, token_label="Placeholder")
 def replace_placeholder_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Placeholder`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, "[Placeholder 🧠](<$Placeholder 🧠.md>)")
+    return _replace_simple(md_files, pattern, PLACEHOLDER_REPLACEMENT)
 
 
 def replace_msg_tokens(md_files):
@@ -36,16 +68,16 @@ def replace_msg_tokens(md_files):
     return _replace_simple(md_files, pattern, replacement)
 
 
+@register_hardcoded("hosts", replacement=HOSTS_REPLACEMENT, token_label="Hosts")
 def replace_hosts_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Hosts`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    replacement = "[Host 🤗 domains](<../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)"
-    return _replace_simple(md_files, pattern, replacement)
+    return _replace_simple(md_files, pattern, HOSTS_REPLACEMENT)
 
 
+@register_hardcoded("host", replacement=HOST_REPLACEMENT, token_label="Host")
 def replace_host_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Host`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    replacement = "[Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)"
-    return _replace_simple(md_files, pattern, replacement)
+    return _replace_simple(md_files, pattern, HOST_REPLACEMENT)
 
 
 def replace_issuer_tokens(md_files):
@@ -82,9 +114,10 @@ def replace_tokens_tokens(md_files):
     return _replace_simple(md_files, pattern, "[Tokens 🎫](<🎫 Token.md>)")
 
 
+@register_hardcoded("script", replacement=SCRIPT_REPLACEMENT, token_label="Script")
 def replace_script_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Script`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, "[Script 📃](<📃 Script.md>)")
+    return _replace_simple(md_files, pattern, SCRIPT_REPLACEMENT)
 
 
 def replace_chat_tokens(md_files):
@@ -162,9 +195,16 @@ def replace_chat_msg_tokens(md_files):
     return _replace_simple(md_files, pattern, "[`$.Chat`](<$.Chat 💬.md>)")
 
 
+@register_hardcoded("broker", replacement=BROKER_REPLACEMENT, token_label="Broker")
 def replace_broker_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Broker`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, "[Broker 🤵 domain](<🤵🤲 Broker helper.md>)")
+    return _replace_simple(md_files, pattern, BROKER_REPLACEMENT)
+
+
+@register_hardcoded("seller", replacement=SELLER_REPLACEMENT, token_label="Seller")
+def replace_seller_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Seller`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, SELLER_REPLACEMENT)
 
 
 def replace_brokers_tokens(md_files):
@@ -182,9 +222,10 @@ def replace_functions_tokens(md_files):
     return _replace_simple(md_files, pattern, "[{Functions} 🐍](<{Function} 🐍.md>)")
 
 
+@register_hardcoded("scripts", replacement=SCRIPTS_REPLACEMENT, token_label="Scripts")
 def replace_scripts_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Scripts`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, "[Scripts 📃](<📃 Script.md>)")
+    return _replace_simple(md_files, pattern, SCRIPTS_REPLACEMENT)
 
 
 def replace_item_tokens(md_files):
@@ -240,6 +281,7 @@ def replace_notifiers_tokens(md_files):
 
 
 __all__ = [
+    "HARDCODED_HANDLERS",
     "replace_placeholder_tokens",
     "replace_msg_tokens",
     "replace_hosts_tokens",
@@ -268,6 +310,7 @@ __all__ = [
     "replace_chat_msg_tokens",
     "replace_broker_tokens",
     "replace_brokers_tokens",
+    "replace_seller_tokens",
     "replace_function_tokens",
     "replace_functions_tokens",
     "replace_scripts_tokens",
