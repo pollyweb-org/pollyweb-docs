@@ -8,7 +8,7 @@
 1. **What's a REPEAT flow?**
 
     A `REPEAT` 🔁
-    * is a flow [Command ⌘](<../...commands/⌘ Command.md>) 
+    * is a flow [Command ⌘](<⌘ Command.md>) 
     * that repeats it's enclosing [Script 📃](<📃 Script.md>) 
     * either always or only when confirmed.
 
@@ -73,7 +73,7 @@
     - REPEAT
     ```
 
-    | [Command ⌘](<../...commands/⌘ Command.md>) | Purpose
+    | [Command ⌘](<⌘ Command.md>) | Purpose
     |-|-
     | ↕️ [`QUANTITY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/42 ↕️ QUANTITY prompt.md>) | To wait for user input.
     
@@ -119,7 +119,7 @@
 
     Here's a list of flow commands used in the example.
 
-    | [Command ⌘](<../...commands/⌘ Command.md>) | Purpose
+    | [Command ⌘](<⌘ Command.md>) | Purpose
     |-|-
     | 👍 [`CONFIRM`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) | To wait for user confirmation.
     | ⬇️ [`EVAL`](<../...placeholders/EVAL ⬇️ flow.md>) | To add an item to the database.
@@ -197,7 +197,7 @@
 
     Here's a list of flow commands used in the example.
 
-    | [Command ⌘](<../...commands/⌘ Command.md>) | Purpose
+    | [Command ⌘](<⌘ Command.md>) | Purpose
     |-|-
     | ⬇️ [`EVAL`](<../...placeholders/EVAL ⬇️ flow.md>) | To generate a random number a subtract tries.
     | ↕️ [`QUANTITY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/42 ↕️ QUANTITY prompt.md>) | To collect the number input.

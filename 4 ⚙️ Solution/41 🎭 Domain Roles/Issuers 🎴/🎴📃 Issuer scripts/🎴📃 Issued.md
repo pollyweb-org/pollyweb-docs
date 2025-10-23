@@ -1,6 +1,6 @@
 # 🎴📃 Issued
 
-[Script 📃](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for control/📃 Script.md>) that implements the [`Issued@Issuer` 🅰️ method](<../🎴🅰️ Issuer methods/🧑‍🦰🚀🎴 Issued.md>).
+[Script 📃](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands/📃 Script.md>) that implements the [`Issued@Issuer` 🅰️ method](<../🎴🅰️ Issuer methods/🧑‍🦰🚀🎴 Issued.md>).
 
 <br/>
 

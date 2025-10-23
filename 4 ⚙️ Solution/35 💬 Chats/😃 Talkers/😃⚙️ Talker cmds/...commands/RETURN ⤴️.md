@@ -8,7 +8,7 @@
 1. **What's a RETURN flow?**
 
     A `RETURN` ⤴️
-    * is a flow [Command ⌘](<../...commands/⌘ Command.md>) 
+    * is a flow [Command ⌘](<⌘ Command.md>) 
     * that leaves a [Script 📃](<📃 Script.md>) to its parent, 
     * and returns one of the following expressions.
     

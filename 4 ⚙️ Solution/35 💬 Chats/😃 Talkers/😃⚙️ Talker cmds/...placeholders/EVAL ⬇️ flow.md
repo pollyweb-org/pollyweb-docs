@@ -115,7 +115,7 @@
     - REPEAT
     ```
 
-    Commands: [`CONFIRM`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) [`EVAL`](<EVAL ⬇️ flow.md>) [`REPEAT`](<../for control/REPEAT 🔁.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
+    Commands: [`CONFIRM`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) [`EVAL`](<EVAL ⬇️ flow.md>) [`REPEAT`](<../...commands/REPEAT 🔁.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
 
 
     ```python
@@ -239,7 +239,7 @@
     | 20 | 21 | 22 |
     ```
 
-    Here's the [Script 📃](<../for control/📃 Script.md>).
+    Here's the [Script 📃](<../...commands/📃 Script.md>).
 
     ```yaml
     # Extract only A and B properties.
@@ -281,7 +281,7 @@
     | 20 | 21 | 22 |
     ```
     
-    Here's the [Script 📃](<../for control/📃 Script.md>).
+    Here's the [Script 📃](<../...commands/📃 Script.md>).
 
     ```yaml   
     # Extract only A properties.
