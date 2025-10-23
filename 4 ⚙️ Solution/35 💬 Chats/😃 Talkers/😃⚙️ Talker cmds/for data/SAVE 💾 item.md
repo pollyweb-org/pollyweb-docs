@@ -36,7 +36,7 @@
     |-|-|-
     | `<set>` | Name of resource pool | `MyPool`
     | `{object}` | Item to update or insert in the pool | `MyKey` `$key`
-    | `$inserted` | [Placeholder 🧠](<$Placeholder 🧠.md>) with the insertion | `$item`
+    | `$inserted` | [Placeholder 🧠](<../...placeholders/$Placeholder 🧠.md>) with the insertion | `$item`
 
     ---
     <br/>
@@ -79,7 +79,7 @@
 
     | Argument| Purpose | Examples
     |-|-|-
-    | `$item` | [Placeholder 🧠](<$Placeholder 🧠.md>) loaded with [`GET`](<GET ⏬ item.md>)
+    | `$item` | [Placeholder 🧠](<../...placeholders/$Placeholder 🧠.md>) loaded with [`GET`](<../...datasets/GET ⏬ item.md>)
     | `{changes}` | Object with changes to apply | `{A:1, B:2}`
     | `.Timeout` | Automatic delete for cleanup, in | `30 days`
     | | `minutes` `hours` `days` `months`
@@ -101,14 +101,14 @@
         a: 1
     ```
 
-    Commands: [`EVAL`](<EVAL ⬇️ flow.md>) [`GET`](<GET ⏬ item.md>) [`SAVE`](<SAVE 💾 item.md>)
+    Commands: [`EVAL`](<EVAL ⬇️ flow.md>) [`GET`](<../...datasets/GET ⏬ item.md>) [`SAVE`](<SAVE 💾 item.md>)
 
     ---
     <br/>
 
 1. **What if the item doesn't exist?**
 
-    Set the `Default` property of [`GET`](<GET ⏬ item.md>).
+    Set the `Default` property of [`GET`](<../...datasets/GET ⏬ item.md>).
 
     ```yaml
     # Get the item from the database
@@ -126,7 +126,7 @@
         a: 1
     ```
 
-    Commands: [`EVAL`](<EVAL ⬇️ flow.md>) [`GET`](<GET ⏬ item.md>) [`SAVE`](<SAVE 💾 item.md>)
+    Commands: [`EVAL`](<EVAL ⬇️ flow.md>) [`GET`](<../...datasets/GET ⏬ item.md>) [`SAVE`](<SAVE 💾 item.md>)
     
     ---
     <br/>

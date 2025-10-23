@@ -24,7 +24,7 @@
 
     | Arguments | Purpose
     |-|-
-    | `$locator` | [Placeholder 🧠](<../for data/$Placeholder 🧠.md>) with the [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to parse.
+    | `$locator` | [Placeholder 🧠](<../...placeholders/$Placeholder 🧠.md>) with the [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to parse.
 
     ---
     <br/>

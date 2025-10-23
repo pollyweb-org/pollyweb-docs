@@ -13,7 +13,7 @@
     An `UNDO` ↩️
     * is a [Command ⌘](<../for control/⌘ Command.md>) 
     * that revers the removal of item in an [Itemized 🛢 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>)
-    * that occurred with a soft [`DELETE`](<DELETE 🗑️ item.md>).
+    * that occurred with a soft [`DELETE`](<../...datasets/DELETE 🗑️ item.md>).
 
     ---
     <br/>
@@ -27,7 +27,7 @@
 
     | Argument| Purpose 
     |-|-
-    | `$deleted`| [Placeholder 🧠](<$Placeholder 🧠.md>) returned by [`DELETE`](<DELETE 🗑️ item.md>)
+    | `$deleted`| [Placeholder 🧠](<../...placeholders/$Placeholder 🧠.md>) returned by [`DELETE`](<../...datasets/DELETE 🗑️ item.md>)
 
     ---
     <br/>
@@ -50,7 +50,7 @@
         - UNDO|$deleted
     ```
 
-    Commands: [`CASE`](<../for control/CASE ⏯️.md>) [`DELETE`](<DELETE 🗑️ item.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
+    Commands: [`CASE`](<../for control/CASE ⏯️.md>) [`DELETE`](<../...datasets/DELETE 🗑️ item.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
 
     ---
     <br/>

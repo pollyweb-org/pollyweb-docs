@@ -15,7 +15,7 @@
     |Expression|Examples
     |-|-
     |`<string>`| `3` `Alice`
-    [`{Function}`](<../for data/{Function} 🐍.md>) | `{$placeholder}` `{handler(1)}` `{.helper(1)}` 
+    [`{Function}`](<../...functions/{Function} 🐍.md>) | `{$placeholder}` `{handler(1)}` `{.helper(1)}` 
 
     ---
     <br/>
@@ -37,7 +37,7 @@
 
     | Argument| Purpose | Example
     |-|-|-
-    | `{expression}`| String or [{Function}](<../for data/{Function} 🐍.md>) to be evaluated | `A` `{f}` `{$p}`
+    | `{expression}`| String or [{Function}](<../...functions/{Function} 🐍.md>) to be evaluated | `A` `{f}` `{$p}`
     || Supports missing `{}` in functions | `f()` `$p`
     | `{object}` | Any object  | `{A:1,B:2}` 
     || or `{expression}` | `A` `f()` `$p`
@@ -120,7 +120,7 @@
     - RETURN|.Sum([ $:1, $:2, $:3 ])
     ```
 
-    Commands: [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`RUN`](<RUN ▶️.md>) [`{.Sum}`](<../for data/{Function} 🐍.md>)
+    Commands: [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`RUN`](<RUN ▶️.md>) [`{.Sum}`](<../...functions/{Function} 🐍.md>)
 
     ---
     <br/>

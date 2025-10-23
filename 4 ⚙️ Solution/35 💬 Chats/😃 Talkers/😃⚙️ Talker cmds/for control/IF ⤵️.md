@@ -10,7 +10,7 @@
     An `IF` ⤵️
     * is a flow [Command ⌘](<⌘ Command.md>)  
     * that runs a [Script 📃](<📃 Script.md>) or [Command ⌘](<⌘ Command.md>) 
-    * based on the evaluation of a placeholder or [{Function}](<../for data/{Function} 🐍.md>).
+    * based on the evaluation of a placeholder or [{Function}](<../...functions/{Function} 🐍.md>).
 
     ---
     <br/>
@@ -40,7 +40,7 @@
 
     | Argument| Purpose | Example
     |-|-|-
-    | `{function}` | Boolean [{Function}](<../for data/{Function} 🐍.md>) to evaluate  | `{f}` `{$o}`
+    | `{function}` | Boolean [{Function}](<../...functions/{Function} 🐍.md>) to evaluate  | `{f}` `{$o}`
     || Allows for missing `{}` in functions | `f()` `$p`
     || Defaults to the last [input prompt ✏️](<../../../🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>) | `TEXT\|Id?`
     | `<true-script>` | [Script 📃](<📃 Script.md>) to [Run ▶️](<RUN ▶️.md>) when `True` | `IfTrue`

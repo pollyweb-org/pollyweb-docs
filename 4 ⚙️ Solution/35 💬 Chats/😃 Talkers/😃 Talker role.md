@@ -44,7 +44,7 @@
         * Top menu entry - i.e., the "what?"
     * `<script>:`   
         * Executable script.
-    * [`{function}`](<😃⚙️ Talker cmds/for data/{Function} 🐍.md>)
+    * [`{function}`](<😃⚙️ Talker cmds/...functions/{Function} 🐍.md>)
         * Calculates the value with a function.
 
   
@@ -56,7 +56,7 @@
 
     |Flow|Details
     |-|-
-    | [😃⏩🧑‍💻 Handle 🐍](<😃⏩ Talker flows/😃⏩🧑‍💻 Handle 🐍.md>) | Ask [Hosteds 📦](<../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) to handle [{Functions} 🐍](<😃⚙️ Talker cmds/for data/{Function} 🐍.md>)
+    | [😃⏩🧑‍💻 Handle 🐍](<😃⏩ Talker flows/😃⏩🧑‍💻 Handle 🐍.md>) | Ask [Hosteds 📦](<../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) to handle [{Functions} 🐍](<😃⚙️ Talker cmds/...functions/{Function} 🐍.md>)
     | [😃⏩🧑‍💻 Wait ⏸️](<😃⏩ Talker flows/😃⏩🧑‍💻 Wait ⏸️.md>) | Allow [Hosted 📦](<../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>)  long-running tasks
     
     ---
@@ -68,9 +68,9 @@
 
     |Method|Details
     |-|-
-    | 🧑‍💻🚀 [Placed](<😃🅰️ Talker methods/🧑‍💻🚀😃 Placed.md>) | Returns the value of a [placeholder 🧠](<😃⚙️ Talker cmds/for data/$Placeholder 🧠.md>)
-    | 🧑‍💻🐌 [Place](<😃🅰️ Talker methods/🧑‍💻🐌😃 Place.md>) | Sets the value of a [placeholder 🧠](<😃⚙️ Talker cmds/for data/$Placeholder 🧠.md>)
-    | 🧑‍💻🐌 [Handled](<😃🅰️ Talker methods/🧑‍💻🐌😃 Handled.md>) | Receives the evaluation of a [{Function} 🐍](<😃⚙️ Talker cmds/for data/{Function} 🐍.md>)
+    | 🧑‍💻🚀 [Placed](<😃🅰️ Talker methods/🧑‍💻🚀😃 Placed.md>) | Returns the value of a [placeholder 🧠](<😃⚙️ Talker cmds/...placeholders/$Placeholder 🧠.md>)
+    | 🧑‍💻🐌 [Place](<😃🅰️ Talker methods/🧑‍💻🐌😃 Place.md>) | Sets the value of a [placeholder 🧠](<😃⚙️ Talker cmds/...placeholders/$Placeholder 🧠.md>)
+    | 🧑‍💻🐌 [Handled](<😃🅰️ Talker methods/🧑‍💻🐌😃 Handled.md>) | Receives the evaluation of a [{Function} 🐍](<😃⚙️ Talker cmds/...functions/{Function} 🐍.md>)
     
 
     ---
