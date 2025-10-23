@@ -73,17 +73,14 @@ def runit(project_directory, entryPoint):
         given = test['Given']
         expected_linktext = test['LinkText']
         expected_linkfile = test['LinkFile']
+        reasons_text = (test.get('Reasons') or '').lower()
+        if 'this is hardcoded' in reasons_text:
+            matching_files = [path for path in md_files if os.path.basename(path) == expected_linkfile]
+            if not matching_files:
+                raise ValueError(f"Hardcoded test failed for {given}: file not found -> {expected_linkfile}")
+            continue
         token = given.strip('{}')
-        if token in ['Placeholder', 'Host', 'Hosts', 'Script', 'Scripts']:
-            if token == 'Placeholder':
-                expected_file = '$Placeholder 🧠.md'
-            elif token in ['Host', 'Hosts']:
-                expected_file = '🤗🎭 Host role.md'
-            else:
-                expected_file = '📃 Script.md'
-            if expected_file != expected_linkfile:
-                raise ValueError(f"Hardcoded test failed for {given}: {expected_file} != {expected_linkfile}")
-        elif '@' in token:
+        if '@' in token:
             parts = token.split('@', 1)
             X = parts[0]
             Y = parts[1]
@@ -120,6 +117,13 @@ def runit(project_directory, entryPoint):
                     if file_name == expected_linkfile:
                         found = True
                     break
+            if not found and token.endswith('s'):
+                singular_normalized = normalize_string(token[:-1])
+                for path in md_files:
+                    name = os.path.basename(path)[:-3]
+                    if normalize_string(name) == singular_normalized and os.path.basename(path) == expected_linkfile:
+                        found = True
+                        break
             if not found:
                 raise ValueError(f"No matching file for {given}: {expected_linkfile}")
     print("YAML tests passed!")

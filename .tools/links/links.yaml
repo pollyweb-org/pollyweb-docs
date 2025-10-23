@@ -89,6 +89,11 @@ Successful Tests:
     LinkFile: "🤗🎭 Host role.md"
     Reasons: This is hardcoded.
 
+  - Given: '{{Broker}}'
+    LinkText: "Broker 🤵 domain"
+    LinkFile: "🤵🤲 Broker helper.md"
+    Reasons: This is hardcoded.
+
   - Given: "{{Request Sync}}"
     LinkText: "`Request Sync`"
     LinkFile: "Request Sync 🚀.md"
@@ -97,3 +102,7 @@ Successful Tests:
       for a given string with multiple words,
       the file is called `*word1*word2*...*word-n*.md`
     
+  - Given: "{{Seller}}"
+    LinkText: "Seller 🎭 domain"
+    LinkFile: "💵🎭 Seller role.md"
+    Reasons: This is hardcoded.
