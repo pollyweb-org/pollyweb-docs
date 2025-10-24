@@ -58,6 +58,8 @@ SCRIPT_REPLACEMENT = "[Script 📃](<📃 Script.md>)"
 SCRIPTS_REPLACEMENT = "[Scripts 📃](<📃 Script.md>)"
 BROKER_REPLACEMENT = "[Broker 🤵 domain](<🤵🤲 Broker helper.md>)"
 SELLER_REPLACEMENT = "[Seller 🎭 domain](<../../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>)"
+WALLET_REPLACEMENT = "[Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)"
+WALLETS_REPLACEMENT = "[Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)"
 
 
 @register_hardcoded("placeholder", replacement=PLACEHOLDER_REPLACEMENT, token_label="Placeholder")
@@ -84,6 +86,18 @@ def replace_host_tokens(md_files):
     return _replace_simple(md_files, pattern, HOST_REPLACEMENT)
 
 
+@register_hardcoded("wallets", replacement=WALLETS_REPLACEMENT, token_label="Wallets")
+def replace_wallets_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Wallets`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, WALLETS_REPLACEMENT)
+
+
+@register_hardcoded("wallet", replacement=WALLET_REPLACEMENT, token_label="Wallet")
+def replace_wallet_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Wallet`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, WALLET_REPLACEMENT)
+
+
 def replace_issuer_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Issuer`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
     replacement = "[Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)"
@@ -96,12 +110,14 @@ def replace_issuers_tokens(md_files):
     return _replace_simple(md_files, pattern, replacement)
 
 
+@register_hardcoded("vaults", replacement="[Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)", token_label="Vaults")
 def replace_vaults_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Vaults`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
     replacement = "[Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)"
     return _replace_simple(md_files, pattern, replacement)
 
 
+@register_hardcoded("vault", replacement="[Vault 🗄️ domain](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)", token_label="Vault")
 def replace_vault_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Vault`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
     replacement = "[Vault 🗄️ domain](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)"
@@ -337,6 +353,8 @@ __all__ = [
     "replace_issuers_tokens",
     "replace_vaults_tokens",
     "replace_vault_tokens",
+    "replace_wallet_tokens",
+    "replace_wallets_tokens",
     "replace_token_tokens",
     "replace_triple_brace_tokens",
     "replace_tokens_tokens",
