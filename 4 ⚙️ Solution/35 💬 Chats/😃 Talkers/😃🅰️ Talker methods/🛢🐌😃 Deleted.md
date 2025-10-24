@@ -5,7 +5,7 @@
 * An [Itemizer 🛢 helper](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🤲 Itemizer helper.md>) domain 
     * notifies a [Talker 😃 domain](<../😃 Talker role.md>) 
     * that an [Itemized 🛢 dataset](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) item has expired 
-    * after being deleted with an [`UNDO`](<../😃⚙️ Talker cmds/...items/UNDO ↩️.md>) possibility
+    * after being deleted with an [`UNDO`](<../😃⚙️ Talker cmds/...datasets 🪣/UNDO ↩️.md>) possibility
     * via the [`Delete@Itemizer`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete.md>) method.
 
 <br/>

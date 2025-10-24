@@ -9,7 +9,7 @@
 1. **What is a FREEZE command?**
 
     A `FREEZE` ❄️
-    * is a flow [Command ⌘](<../... ⌘ commands/⌘ Command.md>) 
+    * is a flow [Command ⌘](<../...commands ⌘/⌘ Command.md>) 
     * that freezes all previous [non-blocking Prompts 🤔](<../../../🤔 Prompts/🤔⚙️ Prompt features/8 ⚠️ as Status.md>)
     * as described in the [Freeze ⏩ flow](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Freeze ❄️.md>).
 

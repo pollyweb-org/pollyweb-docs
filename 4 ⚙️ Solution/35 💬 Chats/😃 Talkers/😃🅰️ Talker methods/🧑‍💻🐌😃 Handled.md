@@ -12,7 +12,7 @@
 
 > Purpose
 
-* Returns a [{Function} 🐍](<../😃⚙️ Talker cmds/...functions/{Function} 🐍.md>) evaluation.
+* Returns a [{Function} 🐍](<../😃⚙️ Talker cmds/...functions 🐍/{Function} 🐍.md>) evaluation.
 
 
 <br/>

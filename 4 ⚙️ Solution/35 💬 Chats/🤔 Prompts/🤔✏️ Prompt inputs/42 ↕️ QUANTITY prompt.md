@@ -158,7 +158,7 @@
     - TEMP|Checking availability...
     ```
 
-    | [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/... ⌘ commands/⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/⌘ Command.md>) | Purpose
     |-|-
     | ℹ️ [`INFO`](<../🤔📢 Prompt status/INFO ℹ️ prompt.md>) | To show the result.
     | 1️⃣ [`ONE`](<53 1️⃣ ONE prompt.md>) | To show the options.
@@ -202,7 +202,7 @@
     - REPEAT
     ```
 
-    | [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/... ⌘ commands/⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/⌘ Command.md>) | Purpose
     |-|-
     | ℹ️ [`INFO`](<../🤔📢 Prompt status/INFO ℹ️ prompt.md>) | To show the message.
     | 🔁 [`REPEAT`](<../../😃 Talkers/😃⚙️ Talker cmds/... control ▶️/REPEAT 🔁.md>) | To repeat the input cycle forever.
@@ -225,8 +225,8 @@
     | `$p.Decimal` | Decimal rounded to `Precision` | `1234.57`
     | `$p.Pretty` | Decimal formatted to `Locale` | `1,234.57`
     | `$p.Locale` | CLDR locale used to format | `en-US`
-    | [`$p.$`](<../../😃 Talkers/😃⚙️ Talker cmds/...functions/{Function} 🐍.md>) | The value of `$p.Pretty` | `1,234.57`
-    | `$p` | The [default value](<../../😃 Talkers/😃⚙️ Talker cmds/...functions/{Function} 🐍.md>) `$p.$` | `1,234.57`
+    | [`$p.$`](<../../😃 Talkers/😃⚙️ Talker cmds/...functions 🐍/{Function} 🐍.md>) | The value of `$p.Pretty` | `1,234.57`
+    | `$p` | The [default value](<../../😃 Talkers/😃⚙️ Talker cmds/...functions 🐍/{Function} 🐍.md>) `$p.$` | `1,234.57`
 
     ---
     <br/>

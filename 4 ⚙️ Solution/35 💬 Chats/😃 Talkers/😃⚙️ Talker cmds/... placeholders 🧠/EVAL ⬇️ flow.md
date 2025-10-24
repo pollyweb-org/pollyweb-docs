@@ -8,8 +8,8 @@
 1. **What's an EVAL command?**
 
     An `EVAL` ⬇️
-    * is a [Command ⌘](<../... ⌘ commands/⌘ Command.md>) 
-    * that evaluates strings, objects, and [`{Functions}`](<../...functions/{Function} 🐍.md>)
+    * is a [Command ⌘](<../...commands ⌘/⌘ Command.md>) 
+    * that evaluates strings, objects, and [`{Functions}`](<../...functions 🐍/{Function} 🐍.md>)
     * into a placeholder.
 
     ---
@@ -40,7 +40,7 @@
 
     | Argument| Purpose | Example
     |-|-|-
-    | `{function}`| [{Function}](<../...functions/{Function} 🐍.md>) to be evaluated | `{f}` `{$p}` | 
+    | `{function}`| [{Function}](<../...functions 🐍/{Function} 🐍.md>) to be evaluated | `{f}` `{$p}` | 
     || Supports missing `{}` | `f` `$p`
     | `{input}`| Input for the `{function}` | `3` `[A,B]` `{A:1}` 
     || Passed as single argument | `f({input})`
@@ -239,7 +239,7 @@
     | 20 | 21 | 22 |
     ```
 
-    Here's the [Script 📃](<../... ⌘ commands/📃 Script.md>).
+    Here's the [Script 📃](<../...commands ⌘/📃 Script.md>).
 
     ```yaml
     # Extract only A and B properties.
@@ -281,7 +281,7 @@
     | 20 | 21 | 22 |
     ```
     
-    Here's the [Script 📃](<../... ⌘ commands/📃 Script.md>).
+    Here's the [Script 📃](<../...commands ⌘/📃 Script.md>).
 
     ```yaml   
     # Extract only A properties.
