@@ -2,7 +2,7 @@
 
 > Part of [Talker 😃](<../../😃 Talker role.md>)
 
-> Implemented by the [`.FILTER` 📃 script](<../../😃📃 Talker scripts/...for methods/😃📃 .FILTER 🔽 script.md>)
+> Implemented by the [`.FILTER` 📃 script](<../../😃📃 Talker scripts/...for methods 🤵/😃📃 .FILTER 🔽 script.md>)
 
 <br/>
 

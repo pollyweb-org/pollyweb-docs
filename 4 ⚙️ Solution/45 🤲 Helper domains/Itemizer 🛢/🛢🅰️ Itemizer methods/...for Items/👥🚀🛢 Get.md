@@ -47,7 +47,7 @@ Body:
 
 ||Property|Type|Description
 |-|-|-|-
-|| `.Table`   | string | Table name for the [`.SAVE` 📃 script](<../../../../35 💬 Chats/😃 Talkers/😃📃 Talker scripts/...for items/😃📃 .SAVE script.md>)
+|| `.Table`   | string | Table name for the [`.SAVE` 📃 script](<../../../../35 💬 Chats/😃 Talkers/😃📃 Talker scripts/...for datasets 🪣/😃📃 .SAVE script.md>)
 || `.Version` | uuid   | Version for [`Save@Itemizer`](<👥🚀🛢 Save.md>)
 || `{Item object}`        | object    | [Item 🛢](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) saved on [`Save@Itemizer`](<👥🚀🛢 Save.md>)
 |
