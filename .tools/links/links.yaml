@@ -94,6 +94,16 @@ Successful Tests:
     LinkFile: "📃 Script.md"
     Reasons: This is hardcoded.
 
+  - Given: '{{Wallet}}'
+    LinkText: "Wallet 🧑‍🦰 app" 
+    LinkFile: "🧑‍🦰🛠️ Wallet app.md"
+    Reasons: This is hardcoded.
+
+  - Given: '{{Wallets}}'
+    LinkText: "Wallet 🧑‍🦰 apps" 
+    LinkFile: "🧑‍🦰🛠️ Wallet app.md"
+    Reasons: This is hardcoded.
+
   - Given: '{{Host}}'
     LinkText: "Host 🤗 domain"
     LinkFile: "🤗🎭 Host role.md"
