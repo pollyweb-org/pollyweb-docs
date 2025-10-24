@@ -1,4 +1,4 @@
-# 🛢🐌😃 Deleted @ Talker
+# 🛢🐌😃 Triggered @ Talker
 
 > Purpose
 
@@ -22,7 +22,7 @@
 Header:
     From: any-itemizer.dom
     To: any-talker.dom
-    Subject: Deleted@Itemizer
+    Subject: Triggered@Talker
 
 Body:
     Trigger: EXPIRED
@@ -34,8 +34,8 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header    | `From`        | string    | [Itemizer 🛢](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🤲 Itemizer helper.md>) from [`Delete@Itemizer`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete.md>)
-|           | `To`          | string    | [Talker 😃](<../😃 Talker role.md>) from [`Delete@Itemizer`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete.md>)
-|           | `Subject`     | string    | `Deleted@Itemizer`
+|           | `To`          | string    | [Talker 😃](<../😃 Talker role.md>) from [`Triggered@Itemizer`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete.md>)
+|           | `Subject`     | string    | `Triggered@Talker`
 | Body      | `Trigger`| enum | See [Itemized 🪣 dataset](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) triggers
 || `Hook`     | string    | `Hook` from [`Build@Itemizer`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/...for Tables/👥🐌🛢 Build.md>)
 |           | `Item`        | object    | [Item 🛢](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) from [`Delete@Itemizer`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete.md>)
