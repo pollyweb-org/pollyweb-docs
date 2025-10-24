@@ -55,9 +55,9 @@ Body:
     $collect.Data
 ```
 
-| [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands/⌘ Command.md>) | Purpose
+| [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/... ⌘ commands/⌘ Command.md>) | Purpose
 |-|-
-| 🚦 [`ASSERT`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders/ASSERT 🚦.md>) | Assert if it's the right [Consumer 💼](<../../../Consumers 💼/💼🎭 Consumer role.md>)
+| 🚦 [`ASSERT`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/... 🧠 placeholders/ASSERT 🚦.md>) | Assert if it's the right [Consumer 💼](<../../../Consumers 💼/💼🎭 Consumer role.md>)
 | ⏬ [`GET`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...items/GET ⏬ item.md>) | Get the [Collect 🪣](<../../🗄️🪣 Vault tables/🗄️🪣 Collects.md>) from [`Consume@Consumer`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>)
 | 🎣 [`REEL`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...control/REEL 🎣.md>) | Respond to the [Synchronous Request 🚀](<../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Request Sync 🚀.md>)
 | 🔐 [`VERIFY`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...messages/VERIFY 🔐 msg.md>) | Verify the domain [Signature 🔏](<../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Signatures 🔏.md>) of the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>)

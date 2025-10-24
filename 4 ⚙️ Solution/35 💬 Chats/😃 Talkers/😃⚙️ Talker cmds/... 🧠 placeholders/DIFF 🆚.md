@@ -8,7 +8,7 @@
 1. **What is a DIFF command?**
 
     A `DIFF` 
-    * is a [Command ⌘](<../...commands/⌘ Command.md>) 
+    * is a [Command ⌘](<../... ⌘ commands/⌘ Command.md>) 
     * that outputs the the difference between [Placeholders 🧠](<$Placeholder 🧠.md>).
 
     ---
@@ -39,7 +39,7 @@
 
 1. **What's an example of DIFF?**
 
-    Here's a [Script 📃](<../...commands/📃 Script.md>)
+    Here's a [Script 📃](<../... ⌘ commands/📃 Script.md>)
 
     ```yaml
     # Process the period

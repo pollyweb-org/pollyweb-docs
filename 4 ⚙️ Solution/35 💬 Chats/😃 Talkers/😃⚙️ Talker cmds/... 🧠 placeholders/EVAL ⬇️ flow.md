@@ -8,7 +8,7 @@
 1. **What's an EVAL command?**
 
     An `EVAL` ⬇️
-    * is a [Command ⌘](<../...commands/⌘ Command.md>) 
+    * is a [Command ⌘](<../... ⌘ commands/⌘ Command.md>) 
     * that evaluates strings, objects, and [`{Functions}`](<../...functions/{Function} 🐍.md>)
     * into a placeholder.
 
@@ -239,7 +239,7 @@
     | 20 | 21 | 22 |
     ```
 
-    Here's the [Script 📃](<../...commands/📃 Script.md>).
+    Here's the [Script 📃](<../... ⌘ commands/📃 Script.md>).
 
     ```yaml
     # Extract only A and B properties.
@@ -281,7 +281,7 @@
     | 20 | 21 | 22 |
     ```
     
-    Here's the [Script 📃](<../...commands/📃 Script.md>).
+    Here's the [Script 📃](<../... ⌘ commands/📃 Script.md>).
 
     ```yaml   
     # Extract only A properties.

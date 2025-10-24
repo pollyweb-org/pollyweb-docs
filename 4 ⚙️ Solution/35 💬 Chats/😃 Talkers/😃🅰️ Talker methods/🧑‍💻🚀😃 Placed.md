@@ -6,8 +6,8 @@
 
 > Paired with [`Place@Talker`](<🧑‍💻🐌😃 Place.md>) message
 
-* Reads a [Placeholder 🧠](<../😃⚙️ Talker cmds/...placeholders/$Placeholder 🧠.md>)
-* The placeholder [`$.Chat`](<../😃⚙️ Talker cmds/...placeholders/$.Chat 💬.md>) contains [Chat 💬](<../../💬 Chats/💬 Chat.md>) details.
+* Reads a [Placeholder 🧠](<../😃⚙️ Talker cmds/... 🧠 placeholders/$Placeholder 🧠.md>)
+* The placeholder [`$.Chat`](<../😃⚙️ Talker cmds/... 🧠 placeholders/$.Chat 💬.md>) contains [Chat 💬](<../../💬 Chats/💬 Chat.md>) details.
 
 <br/>
 
@@ -31,7 +31,7 @@ Body:
 |           | `To`          | string    | [Hoster ☁️ domain](<../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) name
 |           | `Subject`     | string    | `Placed@Talker`
 | Body      | `Chat`      | uuid      | [Chat 💬](<../../💬 Chats/💬 Chat.md>) ID
-|           | `Placeholder` | string    | [Placeholder 🧠](<../😃⚙️ Talker cmds/...placeholders/$Placeholder 🧠.md>) name
+|           | `Placeholder` | string    | [Placeholder 🧠](<../😃⚙️ Talker cmds/... 🧠 placeholders/$Placeholder 🧠.md>) name
 |
 
 <br/>

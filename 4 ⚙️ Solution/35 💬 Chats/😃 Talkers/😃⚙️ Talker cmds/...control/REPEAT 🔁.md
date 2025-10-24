@@ -8,8 +8,8 @@
 1. **What's a REPEAT flow?**
 
     A `REPEAT` 🔁
-    * is a flow [Command ⌘](<../...commands/⌘ Command.md>) 
-    * that repeats it's enclosing [Script 📃](<../...commands/📃 Script.md>) 
+    * is a flow [Command ⌘](<../... ⌘ commands/⌘ Command.md>) 
+    * that repeats it's enclosing [Script 📃](<../... ⌘ commands/📃 Script.md>) 
     * either always or only when confirmed.
 
     ---
@@ -40,7 +40,7 @@
     | 🕙 Clock | 😃 Check again? [Yes, No] 
     |
 
-    Here's the [Script 📃](<../...commands/📃 Script.md>).
+    Here's the [Script 📃](<../... ⌘ commands/📃 Script.md>).
 
 
     ```yaml
@@ -66,7 +66,7 @@
     | 🕙 Clock | 😃 Want to know the time? [Yes, No] 
     |
 
-    Here's the [Script 📃](<../...commands/📃 Script.md>).
+    Here's the [Script 📃](<../... ⌘ commands/📃 Script.md>).
 
     ```yaml
     💬|Show time:
@@ -98,7 +98,7 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ Order submitted!
     |
 
-    Here's the [Script 📃](<../...commands/📃 Script.md>).
+    Here's the [Script 📃](<../... ⌘ commands/📃 Script.md>).
 
 
     ```yaml
@@ -139,7 +139,7 @@
     # Repeat after the user confirms
     - REPEAT|Add another?
     ```
-    Commands:  [`DIGITS`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/44 🔢 DIGITS prompt.md>) [`EVAL`](<../...placeholders/EVAL ⬇️ flow.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`REPEAT`](<REPEAT 🔁.md>) 
+    Commands:  [`DIGITS`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/44 🔢 DIGITS prompt.md>) [`EVAL`](<../... 🧠 placeholders/EVAL ⬇️ flow.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`REPEAT`](<REPEAT 🔁.md>) 
 
     ---
     <br/>
@@ -168,7 +168,7 @@
     | [👀 Ads](<../../../../45 🤲 Helper domains/Advertisers 👀/👀🤲 Advertiser helper.md>) | ⓘ Explore follow-ups: <br/>- [ #️⃣ Play Tic-Tac-Toe ] 
     |
 
-    Here's the [Script 📃](<../...commands/📃 Script.md>).
+    Here's the [Script 📃](<../... ⌘ commands/📃 Script.md>).
 
     ```yaml
     💬 Play guess:                      
@@ -212,7 +212,7 @@
     - REPEAT
     ```
 
-    Commands: [`EVAL`](<../...placeholders/EVAL ⬇️ flow.md>) [`QUANTITY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/42 ↕️ QUANTITY prompt.md>) [`REPEAT`](<REPEAT 🔁.md>) [`RETURN`](<RETURN ⤴️.md>) [`CASE`](<CASE ⏯️.md>) 
+    Commands: [`EVAL`](<../... 🧠 placeholders/EVAL ⬇️ flow.md>) [`QUANTITY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/42 ↕️ QUANTITY prompt.md>) [`REPEAT`](<REPEAT 🔁.md>) [`RETURN`](<RETURN ⤴️.md>) [`CASE`](<CASE ⏯️.md>) 
 
 
     ---
