@@ -97,6 +97,43 @@ def replace_curly_at_mentions(md_files: Iterable[str]) -> int:
     return total_replacements
 
 
+def _find_uppercase_token_target(token: str, md_files: Iterable[str]) -> Path | None:
+    """Locate a markdown file that likely documents the uppercase token."""
+
+    normalized_token = normalize_string(token)
+    candidates: list[Path] = []
+
+    for candidate in md_files:
+        path = Path(candidate)
+        if path.suffix.lower() != ".md":
+            continue
+        normalized_name = normalize_string(path.stem)
+        if normalized_name == normalized_token or normalized_name.startswith(normalized_token):
+            candidates.append(path)
+
+    if not candidates:
+        return None
+
+    def priority(path: Path) -> tuple[int, int, str]:
+        parts = tuple(path.parts)
+        talker_cmd_idx = next((idx for idx, part in enumerate(parts) if "Talker cmds" in part), None)
+        scripts_idx = next((idx for idx, part in enumerate(parts) if "Talker scripts" in part), None)
+        # Prefer talker command definitions, then scripts, then anything else.
+        if talker_cmd_idx is not None:
+            bucket = 0
+            depth = talker_cmd_idx
+        elif scripts_idx is not None:
+            bucket = 1
+            depth = scripts_idx
+        else:
+            bucket = 2
+            depth = len(parts)
+        return bucket, depth, str(path)
+
+    best = min(candidates, key=priority)
+    return best
+
+
 def replace_curly_upper_mentions(md_files: Iterable[str]) -> int:
     """Replace all-uppercase tokens like ``{{TOKEN}}`` with existing links."""
     total_replacements = 0
@@ -126,6 +163,12 @@ def replace_curly_upper_mentions(md_files: Iterable[str]) -> int:
                 assumed = Path(project_dir) / "4 ⚙️ Solution" / "35 💬 Chats" / "😃 Talkers" / "😃⚙️ Talker cmds" / "for control" / f"{token} ⤴️.md"
                 if assumed.exists():
                     href = os.path.relpath(assumed, path.parent)
+                    base = None
+
+            if not href:
+                guessed = _find_uppercase_token_target(token, md_files)
+                if guessed:
+                    href = os.path.relpath(guessed, path.parent)
                     base = None
 
             if not href:
