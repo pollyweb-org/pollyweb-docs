@@ -25,27 +25,32 @@ def normalize_string(value: str) -> str:
 
 
 def method_folder_markers(identifier: str) -> set[str]:
-    """Return normalized folder markers that should contain a given method suffix."""
+    """Return normalized folder markers that should contain method- or event-style suffixes."""
 
     markers: set[str] = set()
+    suffixes = ("methods", "events")
 
-    base_marker = normalize_string(f"{identifier}methods")
-    if base_marker:
-        markers.add(base_marker)
+    def add_markers(root: str) -> None:
+        for suffix in suffixes:
+            normalized = normalize_string(f"{root}{suffix}")
+            if normalized:
+                markers.add(normalized)
+
+    add_markers(identifier)
 
     lowered = identifier.lower()
     if lowered.endswith("ed") and len(identifier) > 2:
-        markers.add(normalize_string(f"{identifier[:-2]}methods"))
+        add_markers(identifier[:-2])
     if lowered.endswith("es") and len(identifier) > 2:
-        markers.add(normalize_string(f"{identifier[:-2]}methods"))
+        add_markers(identifier[:-2])
     if lowered.endswith("s") and len(identifier) > 1:
-        markers.add(normalize_string(f"{identifier[:-1]}methods"))
+        add_markers(identifier[:-1])
     if lowered.endswith("ized") and len(identifier) > 4:
-        markers.add(normalize_string(f"{identifier[:-2]}ermethods"))
+        add_markers(f"{identifier[:-2]}er")
     if lowered.endswith("ised") and len(identifier) > 4:
-        markers.add(normalize_string(f"{identifier[:-2]}ermethods"))
+        add_markers(f"{identifier[:-2]}er")
 
-    return {marker for marker in markers if marker}
+    return markers
 
 
 def count_mismatch_chars(left: str, right: str) -> int:
