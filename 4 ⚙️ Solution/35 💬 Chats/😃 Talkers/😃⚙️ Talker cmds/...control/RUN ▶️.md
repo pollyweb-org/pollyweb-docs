@@ -240,7 +240,7 @@
 
     # Calculate and exit the script
     - INFO|Adding 5 to {$:1}...
-    - RETURN|.Sum($:1, 5)
+    - RETURN|.Add($:1, 5)
 
     # It shouldn't get to this line
     - FAILURE|This is a bug.

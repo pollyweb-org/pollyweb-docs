@@ -172,7 +172,7 @@
 
     ```yaml
     💬 Play guess:                      
-    - EVAL|.RandomInt(1,9) >> $target    # Set the target
+    - EVAL|.Random(1,9) >> $target       # Set the target
     - INFO|You have 3 attempts.          # Inform the rules
     - EVAL >> $tries:                    # Reset the counter
         3
@@ -197,7 +197,7 @@
         # If matched, the user won.             
         $target: RETURN|Won
         # If not matched, then decrease the tries
-        $: EVAL|{.Subtract($tries, 1)} >> $tries
+        $: EVAL|{.Add($tries, -1)} >> $tries
 
     # Verify the number of tries.
     - CASE|$tries:               
