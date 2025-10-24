@@ -8,14 +8,14 @@
 1. **What's a RETURN flow?**
 
     A `RETURN` ⤴️
-    * is a flow [Command ⌘](<../... ⌘ commands/⌘ Command.md>) 
-    * that leaves a [Script 📃](<../... ⌘ commands/📃 Script.md>) to its parent, 
+    * is a flow [Command ⌘](<../...commands ⌘/⌘ Command.md>) 
+    * that leaves a [Script 📃](<../...commands ⌘/📃 Script.md>) to its parent, 
     * and returns one of the following expressions.
     
     |Expression|Examples
     |-|-
     |`<string>`| `3` `Alice`
-    [`{Function}`](<../...functions/{Function} 🐍.md>) | `{$placeholder}` `{handler(1)}` `{.helper(1)}` 
+    [`{Function}`](<../...functions 🐍/{Function} 🐍.md>) | `{$placeholder}` `{handler(1)}` `{.helper(1)}` 
 
     ---
     <br/>
@@ -37,7 +37,7 @@
 
     | Argument| Purpose | Example
     |-|-|-
-    | `{expression}`| String or [{Function}](<../...functions/{Function} 🐍.md>) to be evaluated | `A` `{f}` `{$p}`
+    | `{expression}`| String or [{Function}](<../...functions 🐍/{Function} 🐍.md>) to be evaluated | `A` `{f}` `{$p}`
     || Supports missing `{}` in functions | `f()` `$p`
     | `{object}` | Any object  | `{A:1,B:2}` 
     || or `{expression}` | `A` `f()` `$p`
@@ -49,14 +49,14 @@
 
 1. **What happens after a RETURN?**
 
-    Nothing runs on a [Script 📃](<../... ⌘ commands/📃 Script.md>) after the `RETURN`.
+    Nothing runs on a [Script 📃](<../...commands ⌘/📃 Script.md>) after the `RETURN`.
 
     | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ No failure occurred.
     |
     
-    Here's the [Script 📃](<../... ⌘ commands/📃 Script.md>).
+    Here's the [Script 📃](<../...commands ⌘/📃 Script.md>).
 
     ```yaml
     📃 Example:
@@ -85,7 +85,7 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ Function return 1+2+3= `6`
     |
 
-    Here's the [Script 📃](<../... ⌘ commands/📃 Script.md>).
+    Here's the [Script 📃](<../...commands ⌘/📃 Script.md>).
 
     ```yaml
     💬 Example:
@@ -118,7 +118,7 @@
     - RETURN|.Add($:1, $:2, $:3)
     ```
 
-    Commands: [`.Add`](<../...functions/🔩 {.Add}.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`RUN`](<RUN ▶️.md>) 
+    Commands: [`.Add`](<../...functions 🐍/🔩 {.Add}.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`RUN`](<RUN ▶️.md>) 
 
     ---
     <br/>

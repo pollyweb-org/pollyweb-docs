@@ -7,7 +7,7 @@
 1. **What is the EMOJI command?**
 
     An `EMOJI`
-    * is a [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/... ⌘ commands/⌘ Command.md>) 
+    * is a [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/⌘ Command.md>) 
     * that defaults all upcoming [Input prompts ✏️](<../🤔⚙️ Prompt features/9 ✏️ as Input.md>)
     * to [use another emoji 😶](<😶 Input emojis.md>) other than the default smile 😃 emoji.
 

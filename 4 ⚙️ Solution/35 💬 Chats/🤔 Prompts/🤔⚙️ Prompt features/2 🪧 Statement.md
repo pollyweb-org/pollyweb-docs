@@ -33,7 +33,7 @@
     |-|-|-
     | Strings | Static text | `ABC` `123` `Any text`
     | [Placeholders 🧠](<../../😃 Talkers/😃⚙️ Talker cmds/... placeholders 🧠/$Placeholder 🧠.md>) | Stored values | `$p` `$.Msg`
-    | [Functions 🐍](<../../😃 Talkers/😃⚙️ Talker cmds/...functions/{Function} 🐍.md>) | Calculations | `f()` `f(*)` `{f}` `{f()}`
+    | [Functions 🐍](<../../😃 Talkers/😃⚙️ Talker cmds/...functions 🐍/{Function} 🐍.md>) | Calculations | `f()` `f(*)` `{f}` `{f()}`
     | Interpolations   | Mixed text | `See {$p} and {f}.`
 
     ---
@@ -46,7 +46,7 @@
     |-|-|-|-
     | [Placeholders 🧠](<../../😃 Talkers/😃⚙️ Talker cmds/... placeholders 🧠/$Placeholder 🧠.md>) | Custom |`$p` `{$p}`| `p` `$p *`
     | | Internal  |`$.Msg` `$.p` `{$.p}`| `.p` `$.p *`
-    | [Functions 🐍](<../../😃 Talkers/😃⚙️ Talker cmds/...functions/{Function} 🐍.md>) | Custom |`f()` `f(*)` `{f}` | `f` `f() *`
+    | [Functions 🐍](<../../😃 Talkers/😃⚙️ Talker cmds/...functions 🐍/{Function} 🐍.md>) | Custom |`f()` `f(*)` `{f}` | `f` `f() *`
     | | Internal |`.f()` `.f(*)` `{.f}` | `.f` `.f() *`
     | Interpolations | -  | `{$p} & {f}` | `$p & f()`
 

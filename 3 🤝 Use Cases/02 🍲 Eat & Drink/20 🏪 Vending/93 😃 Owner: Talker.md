@@ -2,7 +2,7 @@
 
 > From [🏪 Drink at vending machines](<01 🏪 Index.md>)
 
-> [Script 📃](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/... ⌘ commands/📃 Script.md>) for:
+> [Script 📃](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/📃 Script.md>) for:
   * [Buy water 💧 ](<11 💧 Buy water.md>)
   * [Buy beer 🍺 ](<12 🍺 Buy beer.md>)
 
@@ -78,8 +78,8 @@ TODO: Add the flow to the Manifest
 | Dependencies | Purpose
 |-|-
 | [🧩 `//IDENTITY/OVER21`](<../../../7 🧩 Codes/IDENTITY/🧩 IdentityOver21.md>) | Verify minimum age to drink
-| [🪣 `Items`](<94 🪣 Owner: Items.md>) | List of items to [`GET`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...items/GET ⏬ item.md>)
-| [🪣 `Locators`](<95 🪣 Owner: Locators.md>) | List of machines to [`GET`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...items/GET ⏬ item.md>)
+| [🪣 `Items`](<94 🪣 Owner: Items.md>) | List of items to [`GET`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET ⏬ item.md>)
+| [🪣 `Locators`](<95 🪣 Owner: Locators.md>) | List of machines to [`GET`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET ⏬ item.md>)
 | 💬 [`$.Chat.Key`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/... placeholders 🧠/$.Chat 💬.md>) | Get the machine's [Locator 🔆](<../../../4 ⚙️ Solution/25 🔆 Locators/Locators 🔆/🔆 Locator.md>) key
 |
 
@@ -87,7 +87,7 @@ TODO: Add the flow to the Manifest
 
 ## Functions
 
-[Functions](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...functions/{Function} 🐍.md>)| Type | Purpose
+[Functions](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...functions 🐍/{Function} 🐍.md>)| Type | Purpose
 |-|-|-
 | `Deduct` | Custom | Deduct the stock from the ERP.
 |
@@ -96,9 +96,9 @@ TODO: Add the flow to the Manifest
 
 ## Commands
 
-|Type|[Command ⌘](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/... ⌘ commands/⌘ Command.md>)|Purpose
+|Type|[Command ⌘](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/⌘ Command.md>)|Purpose
 |-|-|-
-|Data| ⏬ [`GET`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...items/GET ⏬ item.md>) | Look up items and machines
+|Data| ⏬ [`GET`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET ⏬ item.md>) | Look up items and machines
 |Input | 🔢 [`DIGITS`](<../../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔✏️ Prompt inputs/44 🔢 DIGITS prompt.md>) | Ask for item number
 || 👍 [`CONFIRM`](<../../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) | Confirm item name
 |Status| ⏳ [`TEMP`](<../../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔📢 Prompt status/TEMP ⏳ prompt.md>) | Show delivering status
@@ -106,7 +106,7 @@ TODO: Add the flow to the Manifest
 || ❌ [`FAILURE`](<../../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔📢 Prompt status/FAILURE ❌ prompt.md>) | To show in case of error
 |Flow| ⤵️ [`IF`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/... control ▶️/IF ⤵️.md>) | To see if 21+ check is needed
 ||⬇️ [`EVAL`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/... placeholders 🧠/EVAL ⬇️ flow.md>) | To deduct the value on errors
-||🪵 [`LOG`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/... ⌘ commands/LOG 🪵 flow.md>) | To log eventual errors
+||🪵 [`LOG`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/LOG 🪵 flow.md>) | To log eventual errors
 |Message| 💼 [`SHARE`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods/SHARE 💼 msg.md>) | Ask for proof of over 21
 || 💳 [`CHARGE`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods/CHARGE 💳 msg.md>) | Charge the item price
 || 🏦 [`REFUND`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods/REFUND 🏦 msg.md>) | Refund the payment on failure

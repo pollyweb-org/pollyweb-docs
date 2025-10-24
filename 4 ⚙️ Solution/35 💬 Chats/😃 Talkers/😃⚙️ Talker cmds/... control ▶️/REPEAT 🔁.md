@@ -8,8 +8,8 @@
 1. **What's a REPEAT flow?**
 
     A `REPEAT` 🔁
-    * is a flow [Command ⌘](<../... ⌘ commands/⌘ Command.md>) 
-    * that repeats it's enclosing [Script 📃](<../... ⌘ commands/📃 Script.md>) 
+    * is a flow [Command ⌘](<../...commands ⌘/⌘ Command.md>) 
+    * that repeats it's enclosing [Script 📃](<../...commands ⌘/📃 Script.md>) 
     * either always or only when confirmed.
 
     ---
@@ -40,7 +40,7 @@
     | 🕙 Clock | 😃 Check again? [Yes, No] 
     |
 
-    Here's the [Script 📃](<../... ⌘ commands/📃 Script.md>).
+    Here's the [Script 📃](<../...commands ⌘/📃 Script.md>).
 
 
     ```yaml
@@ -49,7 +49,7 @@
     - REPEAT|Check again?
     ```
 
-    Commands: [`.Now`](<../...functions/🔩 {.Now}.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>) [`REPEAT`](<REPEAT 🔁.md>)
+    Commands: [`.Now`](<../...functions 🐍/🔩 {.Now}.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>) [`REPEAT`](<REPEAT 🔁.md>)
 
     ---
     <br/>
@@ -66,7 +66,7 @@
     | 🕙 Clock | 😃 Want to know the time? [Yes, No] 
     |
 
-    Here's the [Script 📃](<../... ⌘ commands/📃 Script.md>).
+    Here's the [Script 📃](<../...commands ⌘/📃 Script.md>).
 
     ```yaml
     💬|Show time:
@@ -98,7 +98,7 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ Order submitted!
     |
 
-    Here's the [Script 📃](<../... ⌘ commands/📃 Script.md>).
+    Here's the [Script 📃](<../...commands ⌘/📃 Script.md>).
 
 
     ```yaml
@@ -168,7 +168,7 @@
     | [👀 Ads](<../../../../45 🤲 Helper domains/Advertisers 👀/👀🤲 Advertiser helper.md>) | ⓘ Explore follow-ups: <br/>- [ #️⃣ Play Tic-Tac-Toe ] 
     |
 
-    Here's the [Script 📃](<../... ⌘ commands/📃 Script.md>).
+    Here's the [Script 📃](<../...commands ⌘/📃 Script.md>).
 
     ```yaml
     💬 Play guess:                      

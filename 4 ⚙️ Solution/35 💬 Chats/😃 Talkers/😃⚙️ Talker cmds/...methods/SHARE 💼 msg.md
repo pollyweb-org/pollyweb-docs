@@ -7,7 +7,7 @@
 1. **What is a SHARE message command?**
 
     A `SHARE`
-    * is a message [Command ⌘](<../... ⌘ commands/⌘ Command.md>) 
+    * is a message [Command ⌘](<../...commands ⌘/⌘ Command.md>) 
     * that asks for user data in [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
     * triggering the following flows:
       * [🧑‍🦰👉💼 Share Bind @ Wallet](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Bind 🔗.md>)

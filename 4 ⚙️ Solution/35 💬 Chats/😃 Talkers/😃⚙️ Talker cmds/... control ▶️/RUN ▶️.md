@@ -8,8 +8,8 @@
 1. **What's a RUN flow?**
 
     A `RUN` ▶️
-    * is a flow [Command ⌘](<../... ⌘ commands/⌘ Command.md>) 
-    * that runs a  [Script 📃](<../... ⌘ commands/📃 Script.md>).
+    * is a flow [Command ⌘](<../...commands ⌘/⌘ Command.md>) 
+    * that runs a  [Script 📃](<../...commands ⌘/📃 Script.md>).
 
     ---
     <br/>
@@ -27,11 +27,11 @@
 
     | Argument| Purpose | Example
     |-|-| -
-    | `<script>`| [Script 📃](<../... ⌘ commands/📃 Script.md>) to run | `MyScript`
+    | `<script>`| [Script 📃](<../...commands ⌘/📃 Script.md>) to run | `MyScript`
     | `$arg-n`  | Optional positional arguments | `1,2` `s,$p`
-    |           | Reads `$:n`  inside the [Script 📃](<../... ⌘ commands/📃 Script.md>) | `$:1` `$:2`
+    |           | Reads `$:n`  inside the [Script 📃](<../...commands ⌘/📃 Script.md>) | `$:1` `$:2`
     | `{args}`| Optional object arguments | `{A:1, B:2}`
-    | | Reads `!name` in the [Script 📃](<../... ⌘ commands/📃 Script.md>) | `$:A` `$:B`
+    | | Reads `!name` in the [Script 📃](<../...commands ⌘/📃 Script.md>) | `$:A` `$:B`
     | `$return`| Optional [`RETURN`](<RETURN ⤴️.md>) holder | `$return`
     
     ---
@@ -47,7 +47,7 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ [Example finished.](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
     |
 
-    Here's the [Script 📃](<../... ⌘ commands/📃 Script.md>).
+    Here's the [Script 📃](<../...commands ⌘/📃 Script.md>).
 
     ```yaml
     📃 Example:
@@ -87,7 +87,7 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ Example finished.
     |
     
-    Here's the [Script 📃](<../... ⌘ commands/📃 Script.md>).
+    Here's the [Script 📃](<../...commands ⌘/📃 Script.md>).
     
     ```yaml
     📃 Example:
@@ -132,7 +132,7 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ Example finished.
     |
 
-    Here's the [Script 📃](<../... ⌘ commands/📃 Script.md>).
+    Here's the [Script 📃](<../...commands ⌘/📃 Script.md>).
 
     ```yaml
     📃 Example:
@@ -177,7 +177,7 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) |  ✅ Congrats, you won!
     |
     
-    Here's the [Script 📃](<../... ⌘ commands/📃 Script.md>).
+    Here's the [Script 📃](<../...commands ⌘/📃 Script.md>).
 
     ```yaml
     📃 Example:
@@ -221,7 +221,7 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) |  ✅ [The second result is 9.](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
     |
     
-    Here's the [Script 📃](<../... ⌘ commands/📃 Script.md>)
+    Here's the [Script 📃](<../...commands ⌘/📃 Script.md>)
 
     ```yaml
     📃 Example:

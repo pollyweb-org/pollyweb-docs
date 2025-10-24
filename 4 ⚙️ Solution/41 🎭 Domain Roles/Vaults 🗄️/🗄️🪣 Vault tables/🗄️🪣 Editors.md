@@ -6,7 +6,7 @@
 
 ## Example
 
-Here's the [`GET` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...items/GET ⏬ item.md>) result.
+Here's the [`GET` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET ⏬ item.md>) result.
 
 ```yaml
 # GET|Editors|any-editor.dom
