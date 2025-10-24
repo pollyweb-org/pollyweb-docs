@@ -88,8 +88,6 @@
     Here's the [Script 📃](<../...commands/📃 Script.md>).
 
     ```yaml
-    # 😃 Talker 
-
     💬 Example:
 
     # Run without arguments
@@ -106,21 +104,21 @@
     ```
 
     ```yaml
-    StringProc:
+    📃 StringProc:
     - RETURN|Bla Bla
     ```
 
     ```yaml
-    PlaceholderProc:
+    📃 PlaceholderProc:
     - RETURN|$:1
     ```
 
     ```yaml
-    FunctionProc:
-    - RETURN|.Sum([ $:1, $:2, $:3 ])
+    📃 FunctionProc:
+    - RETURN|.Add($:1, $:2, $:3)
     ```
 
-    Commands: [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`RUN`](<RUN ▶️.md>) [`{.Sum}`](<../...functions/{Function} 🐍.md>)
+    Commands: [`.Add`](<../...functions/🔩 {.Add}.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`RUN`](<RUN ▶️.md>) 
 
     ---
     <br/>
