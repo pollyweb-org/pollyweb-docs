@@ -1,9 +1,31 @@
 # 🛢🪣 Itemized datasets
+
+> Part of [Dataset 🪣](<../🪣 Dataset.md>)
+
 > Implemented by the [🛢🤲 Itemizer helper](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🤲 Itemizer helper.md>)
  with [`Build@Itemizer`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/...for Tables/👥🐌🛢 Build.md>) 
 
 <br/>
 
+1. **What is an Itemized dataset?**
+
+    It's a [Dataset 🪣](<../🪣 Dataset.md>) managed by an [Itemizer 🛢 helper domain](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🤲 Itemizer helper.md>).
+
+    ---
+    <br/>
+
+1. **What are use cases of itemized dataset?**
+
+    | Example | Feature
+    |---------|--------
+    | 🪣 [`Notifiers`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Notifiers table.md>)  at [Broker 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | With a named key
+    | 🪣 [`Binds`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Binds table.md>) at [Broker 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | With parents
+    | 🪣 [`Notifiers`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Notifiers table.md>) at  at [Broker 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | With children
+    | 🪣 [`Wallets`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Wallets table.md>) at  at [Broker 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | With grand children
+    
+
+    ---
+    <br/>
 
 
 1. **What's the simplest syntax for itemized schemas?**
@@ -214,15 +236,52 @@
     ---
     <br/>
 
-1. **What are use cases of itemized schemas?**
 
-    | Example | Feature
-    |---------|--------
-    | 🪣 [`Notifiers`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Notifiers table.md>)  at [Broker 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | With a named key
-    | 🪣 [`Binds`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Binds table.md>) at [Broker 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | With parents
-    | 🪣 [`Notifiers`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Notifiers table.md>) at  at [Broker 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | With children
-    | 🪣 [`Wallets`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Wallets table.md>) at  at [Broker 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | With grand children
+1. **How to work with triggers?**
+
+    Triggers 
+    * are set on the [`Build@Itemized` 🅰️ method](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/...for Tables/👥🐌🛢 Build.md>)
+    * and are consumed by the [`Trigger@Talker` 🅰️ method](<../../../35 💬 Chats/😃 Talkers/😃🅰️ Talker methods/🛢🐌😃 Trigger.md>)
+
+    ---
+    <br/>
+
+
+
+1. **What are the possible triggers?**
     
+    |Value|Description|
+    |-|-|
+    | `ADDED`   | Item inserted on the [Itemized 🛢 dataset](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) on a [`SAVE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾 item.md>)
+    | `CHANGED` | The content of the item has changed on a [`SAVE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾 item.md>)
+    | `EXPIRED` | Item removed automatically due to a [`SAVE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾 item.md>) expiration
+    | `DELETED` | Item deleted on a [`DELETE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/DELETE 🗑️ item.md>), either soft or hard
+    | `PURGED`  | Item removed automatically due to an [`UNDO`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/UNDO ↩️.md>) timeout
+    |
+
+1. **How to register a Trigger?**
+
+    ```yaml
+    Table: <name>
+    Triggers:
+        <handler>: <trigger-list>
+    ```
+
+    |Argument|Details|Example
+    |-|-|-
+    | `<handler>` | Name of the [Script 📃](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/📃 Script.md>) to handle | `OnDeleteX`
+    | `<trigger-list>` | Triggers to handle | `ADDED, PURGED`
+    |
+
+    Here's an example.
+
+    ```yaml
+    # Example
+    Table: ORDERS
+    Triggers: 
+        OnTimeout: EXPIRED, PURGED
+        OnChange: ADDED, CHANGED, DELETED
+    ```
 
     ---
     <br/>
