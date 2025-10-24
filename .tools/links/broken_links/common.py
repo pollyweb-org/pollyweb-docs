@@ -24,6 +24,30 @@ def normalize_string(value: str) -> str:
     return sanitized
 
 
+def method_folder_markers(identifier: str) -> set[str]:
+    """Return normalized folder markers that should contain a given method suffix."""
+
+    markers: set[str] = set()
+
+    base_marker = normalize_string(f"{identifier}methods")
+    if base_marker:
+        markers.add(base_marker)
+
+    lowered = identifier.lower()
+    if lowered.endswith("ed") and len(identifier) > 2:
+        markers.add(normalize_string(f"{identifier[:-2]}methods"))
+    if lowered.endswith("es") and len(identifier) > 2:
+        markers.add(normalize_string(f"{identifier[:-2]}methods"))
+    if lowered.endswith("s") and len(identifier) > 1:
+        markers.add(normalize_string(f"{identifier[:-1]}methods"))
+    if lowered.endswith("ized") and len(identifier) > 4:
+        markers.add(normalize_string(f"{identifier[:-2]}ermethods"))
+    if lowered.endswith("ised") and len(identifier) > 4:
+        markers.add(normalize_string(f"{identifier[:-2]}ermethods"))
+
+    return {marker for marker in markers if marker}
+
+
 def count_mismatch_chars(left: str, right: str) -> int:
     """Return number of non-matching characters for aligned prefixes."""
     mismatch_count = 0
@@ -83,6 +107,7 @@ __all__ = [
     "_GENERAL_EMOJI_RE",
     "count_end_match",
     "count_mismatch_chars",
+    "method_folder_markers",
     "normalize_string",
     "possible_emoji_insertions",
     "remove_numbers",

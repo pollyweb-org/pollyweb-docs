@@ -9,7 +9,7 @@ from typing import Iterable
 
 import yaml
 
-from broken_links.common import normalize_string
+from broken_links.common import method_folder_markers, normalize_string
 from .context import get_existing_files, get_project_dir
 from .patterns import (
     build_project_link_index,
@@ -54,7 +54,9 @@ def replace_curly_at_mentions(md_files: Iterable[str]) -> int:
 
             before, after = token.split("@", 1)
             normalized_before = normalize_string(before)
-            normalized_after = normalize_string(after + "methods")
+            markers = method_folder_markers(after)
+            if not markers:
+                continue
 
             found_href: str | None = None
             for candidate in existing_files:
@@ -64,7 +66,7 @@ def replace_curly_at_mentions(md_files: Iterable[str]) -> int:
                 if normalize_string(candidate_path.stem) != normalized_before:
                     continue
                 folder_path = normalize_string(str(candidate_path.parent))
-                if normalized_after in folder_path:
+                if any(marker in folder_path for marker in markers):
                     found_href = os.path.relpath(candidate_path, path.parent)
                     break
 

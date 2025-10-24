@@ -3,6 +3,7 @@
 from .common import (
     count_end_match,
     count_mismatch_chars,
+    method_folder_markers,
     normalize_string,
     possible_emoji_insertions,
     remove_numbers,
@@ -19,6 +20,7 @@ __all__ = [
     "extract_links_with_malformed_detection",
     "find_md_files",
     "find_png_files",
+    "method_folder_markers",
     "normalize_string",
     "possible_emoji_insertions",
     "print_results",
