@@ -29,7 +29,7 @@
 
     | Argument| Purpose 
     |-|-
-    | `$deleted`| [Placeholder 🧠](<../... 🧠 placeholders/$Placeholder 🧠.md>) returned by [`DELETE`](<DELETE 🗑️ item.md>)
+    | `$deleted`| [Placeholder 🧠](<../... placeholders 🧠/$Placeholder 🧠.md>) returned by [`DELETE`](<DELETE 🗑️ item.md>)
 
     ---
     <br/>
@@ -52,7 +52,7 @@
         - UNDO|$deleted
     ```
 
-    Commands: [`CASE`](<../...control/CASE ⏯️.md>) [`DELETE`](<DELETE 🗑️ item.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
+    Commands: [`CASE`](<../... control ▶️/CASE ⏯️.md>) [`DELETE`](<DELETE 🗑️ item.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
 
     ---
     <br/>

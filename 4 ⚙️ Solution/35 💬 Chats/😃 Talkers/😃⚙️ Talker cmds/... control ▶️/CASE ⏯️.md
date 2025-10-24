@@ -79,7 +79,7 @@
     | `$input`  | Value to evaluate            | `1,2,3`
     | `<when>`  | Constant to match against     | `1`
     | `<then>`  | Resulting output if matched   | `one`
-    | `$output` | Output [Placeholder 🧠](<../... 🧠 placeholders/$Placeholder 🧠.md>)  | -
+    | `$output` | Output [Placeholder 🧠](<../... placeholders 🧠/$Placeholder 🧠.md>)  | -
 
     ---
     <br/>

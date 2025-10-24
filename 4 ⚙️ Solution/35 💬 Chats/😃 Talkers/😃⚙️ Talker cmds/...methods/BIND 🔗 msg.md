@@ -131,7 +131,7 @@
        Else: FAILURE|Not bounded.
    ```
 
-   Commands: [`BIND`](<BIND 🔗 msg.md>) [`IF`](<../...control/IF ⤵️.md>)
+   Commands: [`BIND`](<BIND 🔗 msg.md>) [`IF`](<../... control ▶️/IF ⤵️.md>)
 
    ---
    <br/>
@@ -157,7 +157,7 @@
        Else: FAILURE|Not bounded.
    ```
 
-   Commands: [`BIND`](<BIND 🔗 msg.md>) [`EVAL`](<../... 🧠 placeholders/EVAL ⬇️ flow.md>) [`IF`](<../...control/IF ⤵️.md>)
+   Commands: [`BIND`](<BIND 🔗 msg.md>) [`EVAL`](<../... placeholders 🧠/EVAL ⬇️ flow.md>) [`IF`](<../... control ▶️/IF ⤵️.md>)
    
    ---
    <br/>
