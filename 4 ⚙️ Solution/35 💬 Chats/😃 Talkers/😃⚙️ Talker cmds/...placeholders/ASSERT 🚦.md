@@ -1,4 +1,4 @@
-# 🚦 Talker `ASSERT` command
+# 😃🚦 Talker `ASSERT` command
 
 > Part of [Talker 😃](<../../😃 Talker role.md>)
 
@@ -87,7 +87,7 @@
     ---
     <br/>
 
-1. **How do approximate comparisons work?**
+1. **How do similar comparisons work?**
 
     | | Meaning | Valid results ✅
     |-|-|-
@@ -120,6 +120,10 @@
     ---
     <br/>
 
+
+
+
+
 1. **What's the syntax for boolean assertions?**
 
     ```yaml
@@ -139,6 +143,7 @@
     
     ---
     <br/>
+
 
 1. **What's the syntax or empty or missing assertions?**
 
@@ -171,6 +176,33 @@
     
     ---
     <br/>
+
+
+
+1. **What's an alternative syntax?**
+
+    ```yaml
+    # Alternative syntax
+    ASSERT|$object:
+        
+        # Only supports similar comparisons 
+        {similar-value-A1}: {similar-value-A2} 
+        {similar-value-An}: {similar-value-An} 
+
+        # Supports single value assertions
+        :{boolean}:
+        :{empty-array}:
+        :{empty-object}:  
+    ```
+    
+    Restrictions:
+    * Only supports similar comparisons, i.e. `~=`
+    * Supports single value assertions surrounded with `:`
+    * `{similar-value-A}` cannot be repeated
+
+    ---
+    <br/>
+
 
 
 1. **How does the `$context` work with Functions?**

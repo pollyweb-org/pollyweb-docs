@@ -3,9 +3,16 @@
 
 # 🤵🐌🗄️ Unbound @ Vault
 
-> A [Broker 🤵 domain](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) unbinds a [Wallet 🧑‍🦰 app](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  from a [Vault 🗄️ domain](<../../🗄️🎭 Vault role.md>).
-
 > Part of the [🧑‍🦰👉🗄️ Unbind @ Wallet](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Vaults 🗄️/💬🤵 Unbind 🗄️.md>) flow.
+
+> Implemented by the [`Unbound` 📃 handler](<../../🗄️📃 Vault scripts/🗄️📃 Unbound handler.md>)
+
+> Purpose
+
+* A [Broker 🤵 domain](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) 
+    * unbinds a [Wallet 🧑‍🦰 app](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  
+    * from a [Vault 🗄️ domain](<../../🗄️🎭 Vault role.md>).
+
 
 
 <br/>
@@ -31,21 +38,3 @@ Body:
 |Body| `Bind`| uuid | [Bind 🔗 ID](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)  from [`Bound@Vault`](<🤵🐌🗄️ Bound.md>)
 |
 
-
-
-<br/>
-
-## Handler
-
-```yaml
-# Delete from the table
-- DELETE|Binds@Vault:
-    Key: 
-        Broker: $.Msg.From
-        Bind: $bind.Bind
-```
-
-| [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands/⌘ Command.md>) | Purpose
-|-|-
-| 🗑️ [DELETE](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...items/DELETE 🗑️ item.md>) | Delete from the [Binds 🪣](<../../🗄️🪣 Vault tables/🗄️🪣 Binds.md>) table
-|
