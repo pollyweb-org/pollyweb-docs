@@ -30,8 +30,8 @@ Body:
     Parents: {...}
     Children: {...}
     Distincts: {...}
+    Triggers: {...}
     NoUpdates: True  # it's False by default
-    OnDelete: MyOnDeleteScript
 ```
 |Object|Property|Type|Description
 |-|-|-|-
@@ -44,7 +44,7 @@ Body:
 |           | `Children` |map	| List of children items
 |           | `Distincts`|	map |	List of grouped fields
 |           | `NoUpdates` | bool | Blocks item updates
-|           | `OnDelete`| string | Hook for [`Trigger@Talker`](<../../../../35 💬 Chats/😃 Talkers/😃🅰️ Talker methods/🛢🐌😃 Triggered.md>)
+|           | `Triggers`| map | Hooks for [`Triggered@Talker`](<../../../../35 💬 Chats/😃 Talkers/😃🅰️ Talker methods/🛢🐌😃 Triggered.md>)
 |
 
 <br/>
@@ -59,11 +59,3 @@ Body:
 
     ---
     <br/>
-
-1. **When is the `OnDelete` triggered?**
-
-    |Origin| Details
-    |-|-
-    | 💾 [`SAVE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾 item.md>) | When an [Item 🛢](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) expires and is deleted.
-    | 🗑️ [`DELETE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/DELETE 🗑️ item.md>) | When the [`UNDO` ↩️](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/UNDO ↩️.md>) window of a delete expires.
-    |
