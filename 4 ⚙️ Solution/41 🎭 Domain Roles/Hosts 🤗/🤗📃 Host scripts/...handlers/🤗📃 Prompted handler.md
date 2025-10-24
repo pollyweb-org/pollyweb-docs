@@ -4,7 +4,7 @@
 
 > [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands/📃 Script.md>) that implements 
 
-> Triggered by the [`Prompt@Host` 📃 script](<../...procedures/🤗📃 Prompt 🤔 script.md>)
+> Triggered by the [`Prompt@Host` 📃 script](<../...procedures/🤗📃 Prompt proc.md>)
 
 ## Script
 
@@ -20,9 +20,9 @@
 - VERIFY|$.Msg:
     Key: $prompt.PublicKey
 
-# Verify the cache TTL
+# Verify the cache expiration
 - ASSERT:
-    - $prompt.TTL > .Now
+    - $prompt.Expires > .Now
 
 # Returned the cached response
 - RETURN:

@@ -1,4 +1,9 @@
-<!-- TODO -->
+<!-- TODO 
+
+[`Reply handler`](<🤗📃 Reply handler.md>)
+[`Reply@Host` 🅰️ method](<../../🤗🅰️ Host methods/🧑‍🦰🐌🤗 Reply.md>)
+[`Prompt@Host`](<../../🤗🧩 Host schemas/🧩 HOST.md>)
+-->
 
 # 🤗📃 Reply
 
@@ -7,6 +12,8 @@
 ## Script
 
 ```yaml
+📃 Reply@Host:
+
 # Assert the inputs
 - ASSERT|$.Msg:
     AllOf: Prompt, Result 
