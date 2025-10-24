@@ -25,7 +25,7 @@ from link_replacements import (
     replace_chats_tokens, replace_command_tokens, replace_commands_tokens, replace_settings_tokens,
     replace_placeholders_tokens, replace_domain_tokens, replace_domains_tokens, replace_dataset_tokens,
     replace_datasets_tokens, replace_message_tokens, replace_messages_tokens, replace_schema_tokens,
-    replace_schemas_tokens, replace_chat_msg_tokens, replace_broker_tokens, replace_brokers_tokens,
+    replace_schemas_tokens, replace_chat_msg_tokens, replace_broker_tokens, replace_brokers_tokens, replace_seller_tokens,
     replace_function_tokens, replace_functions_tokens, replace_scripts_tokens, replace_item_tokens,
     replace_items_tokens, replace_itemizer_tokens, replace_itemizers_tokens, replace_talker_tokens,
     replace_talkers_tokens, replace_itemized_dataset_tokens, replace_itemized_datasets_tokens,
@@ -41,6 +41,7 @@ all_memory = False
 def replace_registered_hardcoded_tokens(md_files):
     """Run all registered hardcoded token replacements with consistent reporting."""
 
+    any_changes = False
     for token_key, metadata in HARDCODED_HANDLERS.items():
         func = metadata["function"]
         label = metadata["token_label"]
@@ -50,7 +51,376 @@ def replace_registered_hardcoded_tokens(md_files):
             print(f"Warning: failed replacing {{{label}}} tokens: {exc}")
             continue
         if changes:
+            any_changes = True
             print(f"Replaced {changes} {{{label}}} tokens ✅")
+
+    return any_changes
+
+
+def apply_replacement_pass(md_files, file_dict):
+    """Run all replacement helpers once and report whether any changes happened."""
+
+    changes_made = False
+
+    try:
+        prompt_broker_changes = replace_prompt_broker_tokens(md_files)
+        if prompt_broker_changes:
+            changes_made = True
+            print(f"Replaced {prompt_broker_changes} {{Prompt@Broker}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Prompt@Broker}} tokens: {e}")
+
+    try:
+        triple_changes = replace_triple_brace_tokens(md_files, file_dict)
+        if triple_changes:
+            changes_made = True
+            print(f"Replaced {triple_changes} triple-brace helper tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing triple-brace helper tokens: {e}")
+
+    try:
+        replaced = replace_curly_at_mentions(md_files)
+        if replaced:
+            changes_made = True
+            print(f"\nReplaced {replaced} {{}}-mentions with links ✅")
+    except Exception as e:
+        print(f"\nWarning: failed processing {{}}-mentions: {e}")
+
+    try:
+        replaced_upper = replace_curly_upper_mentions(md_files)
+        if replaced_upper:
+            changes_made = True
+            print(f"Replaced {replaced_upper} uppercase {{}}-mentions with links ✅")
+    except Exception as e:
+        print(f"Warning: failed processing uppercase {{}}-mentions: {e}")
+
+    try:
+        if replace_registered_hardcoded_tokens(md_files):
+            changes_made = True
+    except Exception as e:
+        print(f"Warning: failed replacing registered hardcoded tokens: {e}")
+
+    try:
+        msg_changes = replace_msg_tokens(md_files)
+        if msg_changes:
+            changes_made = True
+            print(f"Replaced {msg_changes} {{$.Msg}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{$.Msg}} tokens: {e}")
+
+    try:
+        issuer_changes = replace_issuer_tokens(md_files)
+        if issuer_changes:
+            changes_made = True
+            print(f"Replaced {issuer_changes} {{Issuer}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Issuer}} tokens: {e}")
+
+    try:
+        issuers_changes = replace_issuers_tokens(md_files)
+        if issuers_changes:
+            changes_made = True
+            print(f"Replaced {issuers_changes} {{Issuers}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Issuers}} tokens: {e}")
+
+    try:
+        vaults_changes = replace_vaults_tokens(md_files)
+        if vaults_changes:
+            changes_made = True
+            print(f"Replaced {vaults_changes} {{Vaults}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Vaults}} tokens: {e}")
+
+    try:
+        vault_changes = replace_vault_tokens(md_files)
+        if vault_changes:
+            changes_made = True
+            print(f"Replaced {vault_changes} {{Vault}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Vault}} tokens: {e}")
+
+    try:
+        token_changes = replace_token_tokens(md_files)
+        if token_changes:
+            changes_made = True
+            print(f"Replaced {token_changes} {{Token}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Token}} tokens: {e}")
+
+    try:
+        tokens_changes = replace_tokens_tokens(md_files)
+        if tokens_changes:
+            changes_made = True
+            print(f"Replaced {tokens_changes} {{Tokens}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Tokens}} tokens: {e}")
+
+    try:
+        chat_changes = replace_chat_tokens(md_files)
+        if chat_changes:
+            changes_made = True
+            print(f"Replaced {chat_changes} {{Chat}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Chat}} tokens: {e}")
+
+    try:
+        chats_changes = replace_chats_tokens(md_files)
+        if chats_changes:
+            changes_made = True
+            print(f"Replaced {chats_changes} {{Chats}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Chats}} tokens: {e}")
+
+    try:
+        replaced = replace_command_tokens(md_files)
+        if replaced:
+            changes_made = True
+            print(f"Replaced {replaced} {{Command}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Command}} tokens: {e}")
+
+    try:
+        replaced = replace_commands_tokens(md_files)
+        if replaced:
+            changes_made = True
+            print(f"Replaced {replaced} {{Commands}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Commands}} tokens: {e}")
+
+    try:
+        replaced = replace_settings_tokens(md_files)
+        if replaced:
+            changes_made = True
+            print(f"Replaced {replaced} {{$.Settings}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{$.Settings}} tokens: {e}")
+
+    try:
+        replaced = replace_placeholders_tokens(md_files)
+        if replaced:
+            changes_made = True
+            print(f"Replaced {replaced} {{Placeholders}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Placeholders}} tokens: {e}")
+
+    try:
+        replaced = replace_domain_tokens(md_files)
+        if replaced:
+            changes_made = True
+            print(f"Replaced {replaced} {{domain}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{domain}} tokens: {e}")
+
+    try:
+        replaced = replace_domains_tokens(md_files)
+        if replaced:
+            changes_made = True
+            print(f"Replaced {replaced} {{domains}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{domains}} tokens: {e}")
+
+    try:
+        replaced = replace_dataset_tokens(md_files)
+        if replaced:
+            changes_made = True
+            print(f"Replaced {replaced} {{Dataset}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Dataset}} tokens: {e}")
+
+    try:
+        replaced = replace_datasets_tokens(md_files)
+        if replaced:
+            changes_made = True
+            print(f"Replaced {replaced} {{Datasets}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Datasets}} tokens: {e}")
+
+    try:
+        replaced = replace_message_tokens(md_files)
+        if replaced:
+            changes_made = True
+            print(f"Replaced {replaced} {{Message}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Message}} tokens: {e}")
+
+    try:
+        replaced = replace_messages_tokens(md_files)
+        if replaced:
+            changes_made = True
+            print(f"Replaced {replaced} {{Messages}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Messages}} tokens: {e}")
+
+    try:
+        replaced = replace_schema_tokens(md_files)
+        if replaced:
+            changes_made = True
+            print(f"Replaced {replaced} {{Schema}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Schema}} tokens: {e}")
+
+    try:
+        replaced = replace_schemas_tokens(md_files)
+        if replaced:
+            changes_made = True
+            print(f"Replaced {replaced} {{Schemas}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Schemas}} tokens: {e}")
+
+    try:
+        replaced = replace_chat_msg_tokens(md_files)
+        if replaced:
+            changes_made = True
+            print(f"Replaced {replaced} {{$.Chat}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{$.Chat}} tokens: {e}")
+
+    try:
+        replaced = replace_broker_tokens(md_files)
+        if replaced:
+            changes_made = True
+            print(f"Replaced {replaced} {{Broker}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Broker}} tokens: {e}")
+
+    try:
+        replaced = replace_brokers_tokens(md_files)
+        if replaced:
+            changes_made = True
+            print(f"Replaced {replaced} {{Brokers}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Brokers}} tokens: {e}")
+
+    try:
+        replaced = replace_seller_tokens(md_files)
+        if replaced:
+            changes_made = True
+            print(f"Replaced {replaced} {{Seller}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Seller}} tokens: {e}")
+
+    try:
+        replaced = replace_function_tokens(md_files)
+        if replaced:
+            changes_made = True
+            print(f"Replaced {replaced} {{Function}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Function}} tokens: {e}")
+
+    try:
+        replaced = replace_functions_tokens(md_files)
+        if replaced:
+            changes_made = True
+            print(f"Replaced {replaced} {{Functions}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Functions}} tokens: {e}")
+
+    try:
+        replaced = replace_scripts_tokens(md_files)
+        if replaced:
+            changes_made = True
+            print(f"Replaced {replaced} {{Scripts}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Scripts}} tokens: {e}")
+
+    try:
+        replaced = replace_item_tokens(md_files)
+        if replaced:
+            changes_made = True
+            print(f"Replaced {replaced} {{Item}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Item}} tokens: {e}")
+
+    try:
+        replaced = replace_items_tokens(md_files)
+        if replaced:
+            changes_made = True
+            print(f"Replaced {replaced} {{Items}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Items}} tokens: {e}")
+
+    try:
+        replaced = replace_itemizer_tokens(md_files)
+        if replaced:
+            changes_made = True
+            print(f"Replaced {replaced} {{Itemizer}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Itemizer}} tokens: {e}")
+
+    try:
+        replaced = replace_itemizers_tokens(md_files)
+        if replaced:
+            changes_made = True
+            print(f"Replaced {replaced} {{Itemizers}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Itemizers}} tokens: {e}")
+
+    try:
+        replaced = replace_talker_tokens(md_files)
+        if replaced:
+            changes_made = True
+            print(f"Replaced {replaced} {{Talker}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Talker}} tokens: {e}")
+
+    try:
+        replaced = replace_talkers_tokens(md_files)
+        if replaced:
+            changes_made = True
+            print(f"Replaced {replaced} {{Talkers}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Talkers}} tokens: {e}")
+
+    try:
+        replaced = replace_itemized_dataset_tokens(md_files)
+        if replaced:
+            changes_made = True
+            print(f"Replaced {replaced} {{Itemized dataset}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Itemized dataset}} tokens: {e}")
+
+    try:
+        replaced = replace_itemized_datasets_tokens(md_files)
+        if replaced:
+            changes_made = True
+            print(f"Replaced {replaced} {{Itemized datasets}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Itemized datasets}} tokens: {e}")
+
+    try:
+        replaced = replace_notifier_tokens(md_files)
+        if replaced:
+            changes_made = True
+            print(f"Replaced {replaced} {{Notifier}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Notifier}} tokens: {e}")
+
+    try:
+        replaced = replace_notifiers_tokens(md_files)
+        if replaced:
+            changes_made = True
+            print(f"Replaced {replaced} {{Notifiers}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing {{Notifiers}} tokens: {e}")
+
+    try:
+        replaced = replace_dynamic_tokens(md_files, file_dict)
+        if replaced:
+            changes_made = True
+            print(f"Replaced {replaced} dynamic {{...}} tokens ✅")
+    except Exception as e:
+        print(f"Warning: failed replacing dynamic {{...}} tokens: {e}")
+
+    try:
+        emoji_changes = add_emoji_to_table_rows(md_files)
+        if emoji_changes:
+            changes_made = True
+            print(f"Added emojis to {emoji_changes} table rows ✅")
+    except Exception as e:
+        print(f"Warning: failed adding emojis to table rows: {e}")
+
+    return changes_made
 
 
 def runit(project_directory, entryPoint):
@@ -191,440 +561,28 @@ def runit(project_directory, entryPoint):
             normalized = normalize_string(name_without_md)
             file_dict[normalized] = (name_without_md, path)
 
-    # Re-run until clean or user exits
+    previous_snapshot = None
+
     while True:
         broken_links, malformed_links, replacement_char_hits, finished = check_broken_links(md_files, png_files, project_directory)
 
-        # Print the results to "link-issues.md"
         print_results(broken_links, malformed_links, replacement_char_hits, yes_memory, all_memory, project_directory)
 
-        # If clean, stop; otherwise prompt to repeat
-        if not broken_links and not malformed_links and not replacement_char_hits:
+        snapshot = (
+            tuple(broken_links.items()),
+            tuple(malformed_links.items()),
+            tuple(replacement_char_hits.items()),
+        )
+
+        if previous_snapshot is not None and snapshot == previous_snapshot:
             break
 
-        try:
-            ans = input("\nIssues found. Press ENTER to repeat, or type 'q' to quit: ")
-        except EOFError:
-            # Non-interactive environment: do not loop endlessly
+        previous_snapshot = snapshot
+
+        changes = apply_replacement_pass(md_files, file_dict)
+
+        if not changes and not broken_links and not malformed_links and not replacement_char_hits:
             break
-        if ans.strip().lower() == 'q':
-            break
-
-    # After all OK: replace {{...}} with links when possible
-    # Replace {{Prompt@Broker}} tokens first to ensure correct linking
-    try:
-        prompt_broker_changes = replace_prompt_broker_tokens(md_files)
-        if prompt_broker_changes:
-            print(f"Replaced {prompt_broker_changes} {{Prompt@Broker}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Prompt@Broker}} tokens: {e}")
-
-    try:
-        triple_changes = replace_triple_brace_tokens(md_files, file_dict)
-        if triple_changes:
-            print(f"Replaced {triple_changes} triple-brace helper tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing triple-brace helper tokens: {e}")
-
-    try:
-        replaced = replace_curly_at_mentions(md_files)
-        if replaced:
-            print(f"\nReplaced {replaced} {{}}-mentions with links ✅")
-        else:
-            pass
-            #print("\nNo {{...}} @-mentions to replace or no matching links found.")
-    except Exception as e:
-        print(f"\nWarning: failed processing {{}}-mentions: {e}")
-
-    # Then process {{UPPER}} tokens
-    try:
-        replaced_upper = replace_curly_upper_mentions(md_files)
-        if replaced_upper:
-            print(f"Replaced {replaced_upper} uppercase {{}}-mentions with links ✅")
-        else:
-            pass
-            #print("No uppercase {{...}} mentions to replace or no matching links found.")
-    except Exception as e:
-        print(f"Warning: failed processing uppercase {{}}-mentions: {e}")
-
-    # Replace hardcoded tokens registered in the replacement helpers
-    replace_registered_hardcoded_tokens(md_files)
-
-    # Replace {{$.Msg}} tokens
-    try:
-        msg_changes = replace_msg_tokens(md_files)
-        if msg_changes:
-            print(f"Replaced {msg_changes} {{$.Msg}} tokens ✅")
-        else:
-            pass
-            #print("No {{$.Msg}} tokens to replace.")
-    except Exception as e:
-        print(f"Warning: failed replacing {{$.Msg}} tokens: {e}")
-
-    # Replace {{Issuer}} tokens
-    try:
-        issuer_changes = replace_issuer_tokens(md_files)
-        if issuer_changes:
-            print(f"Replaced {issuer_changes} {{Issuer}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Issuer}} tokens: {e}")
-
-    # Replace {{Issuers}} tokens
-    try:
-        issuers_changes = replace_issuers_tokens(md_files)
-        if issuers_changes:
-            print(f"Replaced {issuers_changes} {{Issuers}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Issuers}} tokens: {e}")
-
-    # Replace {{Vaults}} tokens
-    try:
-        vaults_changes = replace_vaults_tokens(md_files)
-        if vaults_changes:
-            print(f"Replaced {vaults_changes} {{Vaults}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Vaults}} tokens: {e}")
-
-    # Replace {{Vault}} tokens
-    try:
-        vault_changes = replace_vault_tokens(md_files)
-        if vault_changes:
-            print(f"Replaced {vault_changes} {{Vault}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Vault}} tokens: {e}")
-
-    # Replace {{Token}} tokens
-    try:
-        token_changes = replace_token_tokens(md_files)
-        if token_changes:
-            print(f"Replaced {token_changes} {{Token}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Token}} tokens: {e}")
-
-    # Replace {{Tokens}} tokens
-    try:
-        tokens_changes = replace_tokens_tokens(md_files)
-        if tokens_changes:
-            print(f"Replaced {tokens_changes} {{Tokens}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Tokens}} tokens: {e}")
-
-    # Replace {{Chat}} tokens
-    try:
-        chat_changes = replace_chat_tokens(md_files)
-        if chat_changes:
-            print(f"Replaced {chat_changes} {{Chat}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Chat}} tokens: {e}")
-
-    # Replace {{Chats}} tokens
-    try:
-        chats_changes = replace_chats_tokens(md_files)
-        if chats_changes:
-            print(f"Replaced {chats_changes} {{Chats}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Chats}} tokens: {e}")
-
-    # Replace {{Command}} tokens
-    try:
-        replaced = replace_command_tokens(md_files)
-        if replaced:
-            print(f"Replaced {replaced} {{Command}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Command}} tokens: {e}")
-
-    # Replace {{Commands}} tokens
-    try:
-        replaced = replace_commands_tokens(md_files)
-        if replaced:
-            print(f"Replaced {replaced} {{Commands}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Commands}} tokens: {e}")
-
-    # Replace {{$.Settings}} tokens
-    try:
-        replaced = replace_settings_tokens(md_files)
-        if replaced:
-            print(f"Replaced {replaced} {{$.Settings}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{$.Settings}} tokens: {e}")
-
-    # Replace {{Placeholders}} tokens
-    try:
-        replaced = replace_placeholders_tokens(md_files)
-        if replaced:
-            print(f"Replaced {replaced} {{Placeholders}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Placeholders}} tokens: {e}")
-
-    # Replace {{domain}} tokens
-    try:
-        replaced = replace_domain_tokens(md_files)
-        if replaced:
-            print(f"Replaced {replaced} {{domain}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{domain}} tokens: {e}")
-
-    # Replace {{domains}} tokens
-    try:
-        replaced = replace_domains_tokens(md_files)
-        if replaced:
-            print(f"Replaced {replaced} {{domains}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{domains}} tokens: {e}")
-
-    # Replace {{Dataset}} tokens
-    try:
-        replaced = replace_dataset_tokens(md_files)
-        if replaced:
-            print(f"Replaced {replaced} {{Dataset}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Dataset}} tokens: {e}")
-
-    # Replace {{Datasets}} tokens
-    try:
-        replaced = replace_datasets_tokens(md_files)
-        if replaced:
-            print(f"Replaced {replaced} {{Datasets}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Datasets}} tokens: {e}")
-
-    # Replace {{Message}} tokens
-    try:
-        replaced = replace_message_tokens(md_files)
-        if replaced:
-            print(f"Replaced {replaced} {{Message}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Message}} tokens: {e}")
-
-    # Replace {{Messages}} tokens
-    try:
-        replaced = replace_messages_tokens(md_files)
-        if replaced:
-            print(f"Replaced {replaced} {{Messages}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Messages}} tokens: {e}")
-
-    # Replace {{Schema}} tokens
-    try:
-        replaced = replace_schema_tokens(md_files)
-        if replaced:
-            print(f"Replaced {replaced} {{Schema}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Schema}} tokens: {e}")
-
-    # Replace {{Schemas}} tokens
-    try:
-        replaced = replace_schemas_tokens(md_files)
-        if replaced:
-            print(f"Replaced {replaced} {{Schemas}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Schemas}} tokens: {e}")
-
-    # Replace {{$.Chat}} tokens
-    try:
-        replaced = replace_chat_msg_tokens(md_files)
-        if replaced:
-            print(f"Replaced {replaced} {{$.Chat}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{$.Chat}} tokens: {e}")
-
-    # Replace {{Brokers}} tokens
-    try:
-        replaced = replace_brokers_tokens(md_files)
-        if replaced:
-            print(f"Replaced {replaced} {{Brokers}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Brokers}} tokens: {e}")
-
-    # Replace {{Function}} tokens
-    try:
-        replaced = replace_function_tokens(md_files)
-        if replaced:
-            print(f"Replaced {replaced} {{Function}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Function}} tokens: {e}")
-
-    # Replace {{Functions}} tokens
-    try:
-        replaced = replace_functions_tokens(md_files)
-        if replaced:
-            print(f"Replaced {replaced} {{Functions}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Functions}} tokens: {e}")
-
-    # Replace {{Item}} tokens
-    try:
-        replaced = replace_item_tokens(md_files)
-        if replaced:
-            print(f"Replaced {replaced} {{Item}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Item}} tokens: {e}")
-
-    # Replace {{Items}} tokens
-    try:
-        replaced = replace_items_tokens(md_files)
-        if replaced:
-            print(f"Replaced {replaced} {{Items}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Items}} tokens: {e}")
-
-    # Replace {{Itemizer}} tokens
-    try:
-        replaced = replace_itemizer_tokens(md_files)
-        if replaced:
-            print(f"Replaced {replaced} {{Itemizer}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Itemizer}} tokens: {e}")
-
-    # Replace {{Itemizers}} tokens
-    try:
-        replaced = replace_itemizers_tokens(md_files)
-        if replaced:
-            print(f"Replaced {replaced} {{Itemizers}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Itemizers}} tokens: {e}")
-
-    # Replace {{Talker}} tokens
-    try:
-        replaced = replace_talker_tokens(md_files)
-        if replaced:
-            print(f"Replaced {replaced} {{Talker}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Talker}} tokens: {e}")
-
-    # Replace {{Talkers}} tokens
-    try:
-        replaced = replace_talkers_tokens(md_files)
-        if replaced:
-            print(f"Replaced {replaced} {{Talkers}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Talkers}} tokens: {e}")
-
-    # Replace {{Itemized dataset}} tokens
-    try:
-        replaced = replace_itemized_dataset_tokens(md_files)
-        if replaced:
-            print(f"Replaced {replaced} {{Itemized dataset}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Itemized dataset}} tokens: {e}")
-
-    # Replace {{Itemized datasets}} tokens
-    try:
-        replaced = replace_itemized_datasets_tokens(md_files)
-        if replaced:
-            print(f"Replaced {replaced} {{Itemized datasets}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Itemized datasets}} tokens: {e}")
-
-    # Replace {{Notifier}} tokens
-    try:
-        replaced = replace_notifier_tokens(md_files)
-        if replaced:
-            print(f"Replaced {replaced} {{Notifier}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Notifier}} tokens: {e}")
-
-    # Replace {{Notifiers}} tokens
-    try:
-        replaced = replace_notifiers_tokens(md_files)
-        if replaced:
-            print(f"Replaced {replaced} {{Notifiers}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing {{Notifiers}} tokens: {e}")
-
-    # Replace dynamic {{...}} tokens
-    try:
-        replaced = replace_dynamic_tokens(md_files, file_dict)
-        if replaced:
-            print(f"Replaced {replaced} dynamic {{...}} tokens ✅")
-        else:
-            pass
-    except Exception as e:
-        print(f"Warning: failed replacing dynamic {{...}} tokens: {e}")
-
-    # Finally, add emoji at table row start based on filename in upper links
-    try:
-        emoji_changes = add_emoji_to_table_rows(md_files)
-        if emoji_changes:
-            print(f"Added emojis to {emoji_changes} table rows ✅")
-        else:
-            pass
-            #print("No table rows required emoji prefixing.")
-    except Exception as e:
-        print(f"Warning: failed adding emojis to table rows: {e}")
 
 def test_immutable_token_replacements():
     """Test immutable token replacements that should always work the same way."""
