@@ -2,14 +2,14 @@
 
 > Part of [Dataset 🪣](<../🪣 Dataset.md>)
 
-> Implemented by the [🛢🤲 Itemizer helper](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🤲 Itemizer helper.md>)
- with [`Build@Itemizer`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/...for Tables/👥🐌🛢 Build.md>) 
+> Implemented by the [🛢🤲 Itemizer helper](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🤲 Itemizer helper.md>)
+ with [`Build@Itemizer`](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/...for Tables/👥🐌🛢 Build.md>) 
 
 <br/>
 
 1. **What is an Itemized dataset?**
 
-    It's a [Dataset 🪣](<../🪣 Dataset.md>) managed by an [Itemizer 🛢 helper domain](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🤲 Itemizer helper.md>).
+    It's a [Dataset 🪣](<../🪣 Dataset.md>) managed by an [Itemizer 🛢 helper domain](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🤲 Itemizer helper.md>).
 
     ---
     <br/>
@@ -240,7 +240,7 @@
 1. **How to work with triggers?**
 
     Triggers 
-    * are set on the [`Build@Itemized` 🅰️ method](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/...for Tables/👥🐌🛢 Build.md>)
+    * are set on the [`Build@Itemized` 🅰️ method](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/...for Tables/👥🐌🛢 Build.md>)
     * and are consumed by the [`Triggered@Talker` 🅰️ method](<../../../35 💬 Chats/😃 Talkers/😃🅰️ Talker methods/🛢🐌😃 Triggered.md>)
 
     ---

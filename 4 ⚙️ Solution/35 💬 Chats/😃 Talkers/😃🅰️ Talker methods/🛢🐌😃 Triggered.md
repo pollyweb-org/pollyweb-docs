@@ -2,11 +2,11 @@
 
 > Purpose
 
-* An [Itemizer 🛢 helper](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🤲 Itemizer helper.md>) domain 
+* An [Itemizer 🛢 helper](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🤲 Itemizer helper.md>) domain 
     * notifies a [Talker 😃 domain](<../😃 Talker role.md>) 
     * that an [Itemized 🛢 dataset](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) item has expired 
     * after being deleted with an [`UNDO`](<../😃⚙️ Talker cmds/...datasets 🪣/UNDO ↩️.md>) possibility
-    * via the [`Delete@Itemizer`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete.md>) method.
+    * via the [`Delete@Itemizer`](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete.md>) method.
 
 <br/>
 
@@ -33,12 +33,12 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header    | `From`        | string    | [Itemizer 🛢](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🤲 Itemizer helper.md>) from [`Delete@Itemizer`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete.md>)
-|           | `To`          | string    | [Talker 😃](<../😃 Talker role.md>) from [`Triggered@Itemizer`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete.md>)
+| Header    | `From`        | string    | [Itemizer 🛢](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🤲 Itemizer helper.md>) from [`Delete@Itemizer`](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete.md>)
+|           | `To`          | string    | [Talker 😃](<../😃 Talker role.md>) from [`Triggered@Itemizer`](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete.md>)
 |           | `Subject`     | string    | `Triggered@Talker`
 | Body      | `Trigger`| enum | See [Itemized 🪣 dataset](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) triggers
-|| `Handler`     | string    | Handler from [`Build@Itemizer`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/...for Tables/👥🐌🛢 Build.md>)
-|           | `Item`        | object    | [Item 🛢](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) from [`Delete@Itemizer`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete.md>)
+|| `Handler`     | string    | Handler from [`Build@Itemizer`](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/...for Tables/👥🐌🛢 Build.md>)
+|           | `Item`        | object    | [Item 🛢](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) from [`Delete@Itemizer`](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete.md>)
 |           | `Changes`     | object    | Old values of changed properties
 |
 
