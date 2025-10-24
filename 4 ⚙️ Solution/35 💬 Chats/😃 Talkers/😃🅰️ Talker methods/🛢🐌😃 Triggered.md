@@ -26,7 +26,7 @@ Header:
 
 Body:
     Trigger: EXPIRED
-    Hook: MyTrigger
+    Handler: MyHandler
     Item: {...}
     Changes: {...}
 ```
@@ -37,7 +37,7 @@ Body:
 |           | `To`          | string    | [Talker 😃](<../😃 Talker role.md>) from [`Triggered@Itemizer`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete.md>)
 |           | `Subject`     | string    | `Triggered@Talker`
 | Body      | `Trigger`| enum | See [Itemized 🪣 dataset](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) triggers
-|| `Hook`     | string    | `Hook` from [`Build@Itemizer`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/...for Tables/👥🐌🛢 Build.md>)
+|| `Handler`     | string    | Handler from [`Build@Itemizer`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/...for Tables/👥🐌🛢 Build.md>)
 |           | `Item`        | object    | [Item 🛢](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) from [`Delete@Itemizer`](<../../../45 🤲 Helper domains/Itemizer 🛢/🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete.md>)
 |           | `Changes`     | object    | Old values of changed properties
 |
