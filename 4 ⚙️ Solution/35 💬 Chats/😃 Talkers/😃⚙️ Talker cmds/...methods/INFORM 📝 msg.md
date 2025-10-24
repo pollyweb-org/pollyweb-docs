@@ -10,7 +10,7 @@
 1. **What is an INFORM message command?**
    
     An `INFORM`
-    * is a message [Command ⌘](<../...commands/⌘ Command.md>) 
+    * is a message [Command ⌘](<../... ⌘ commands/⌘ Command.md>) 
     * that informs that a new form is starting
     * by triggering the [Host Inform ⏩ flow](<../../../../41 🎭 Domain Roles/Consumers 💼/💼⏩ Consumer flows/💼⏩🧑‍🦰 Inform 📝.md>)
     * and passing the form key in the Host's [Manifest 📜](<../../../../30 🧩 Data/Manifests 📜/📜 Manifest.md>).
@@ -43,7 +43,7 @@
 
     <br/>
 
-    Here's the [Script 📃](<../...commands/📃 Script.md>).
+    Here's the [Script 📃](<../... ⌘ commands/📃 Script.md>).
 
     ```yaml
     # Talker

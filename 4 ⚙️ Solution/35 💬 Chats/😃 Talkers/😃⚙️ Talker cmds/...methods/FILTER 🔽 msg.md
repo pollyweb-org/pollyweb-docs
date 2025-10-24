@@ -2,14 +2,14 @@
 
 > Part of [Talker 😃](<../../😃 Talker role.md>)
 
-> Implemented by the [`.FILTER` 📃 script](<../../😃📃 Talker scripts/😃📃 .FILTER 🔽 script.md>)
+> Implemented by the [`.FILTER` 📃 script](<../../😃📃 Talker scripts/...for methods/😃📃 .FILTER 🔽 script.md>)
 
 <br/>
 
 1. **What's a FILTER command?**
 
     A `FILTER`
-    * is a message [Command ⌘](<../...commands/⌘ Command.md>) 
+    * is a message [Command ⌘](<../... ⌘ commands/⌘ Command.md>) 
     * that calls [`MANY` 🔠 prompt](<../../../🤔 Prompts/🤔✏️ Prompt inputs/54 🔠 MANY prompt.md>)
     * to return only the user-selected items of a list.
 
@@ -50,7 +50,7 @@
 
     <br/>
 
-    Here's the [Script 📃](<../...commands/📃 Script.md>).
+    Here's the [Script 📃](<../... ⌘ commands/📃 Script.md>).
 
     ```yaml
     # Create a dummy list

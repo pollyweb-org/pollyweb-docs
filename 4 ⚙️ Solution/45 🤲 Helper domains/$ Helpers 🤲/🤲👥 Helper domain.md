@@ -117,13 +117,13 @@
     - GOODBYE                   # Show advertisement
     ```
 
-    | [Command ⌘](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands/⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/... ⌘ commands/⌘ Command.md>) | Purpose
     |-|-
     | 📝 [`INFORM`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods/INFORM 📝 msg.md>) | To provide instructions
     | 🔗 [`BIND`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods/BIND 🔗 msg.md>) | To create a user profile
     | 🛠️ [`INVITE`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods/INVITE 🤲 msg.md>) | To subscribe the user to plan
     | ❄️ [`FREEZE`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods/FREEZE ❄️ msg.md>) | To disable past inputs
-    | ⬇️ [`EVAL`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders/EVAL ⬇️ flow.md>) | To register on the database
+    | ⬇️ [`EVAL`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/... 🧠 placeholders/EVAL ⬇️ flow.md>) | To register on the database
     | ✅ [`SUCCESS`](<../../35 💬 Chats/🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>) | To say that it was successful
     | 👋 [`GOODBYE`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods/GOODBYE 👋 msg.md>) | To show advertising
     

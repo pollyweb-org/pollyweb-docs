@@ -8,7 +8,7 @@
 1. **What is a VERIFY message command?**
 
     A [`VERIFY`](<VERIFY 🔐 msg.md>)
-    * is a [Command ⌘](<../...commands/⌘ Command.md>) 
+    * is a [Command ⌘](<../... ⌘ commands/⌘ Command.md>) 
     * that checks if a given content was signed by the sender.
 
     ---
@@ -35,7 +35,7 @@
 
     | Argument| Purpose |
     |-|-
-    | `$.Msg`| Built-in [Placeholder 🧠](<../...placeholders/$Placeholder 🧠.md>) with the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>).
+    | `$.Msg`| Built-in [Placeholder 🧠](<../... 🧠 placeholders/$Placeholder 🧠.md>) with the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>).
 
     ```yaml
     # For messages from Wallets
@@ -48,7 +48,7 @@
 
     | Argument| Purpose |
     |-|-
-    | `$publicKey`| [Placeholder 🧠](<../...placeholders/$Placeholder 🧠.md>) with the Public Key.
+    | `$publicKey`| [Placeholder 🧠](<../... 🧠 placeholders/$Placeholder 🧠.md>) with the Public Key.
 
 
     ---
@@ -86,7 +86,7 @@
         Key: $wallet.PublicKey
     ```
 
-    | [Command ⌘](<../...commands/⌘ Command.md>) | Purpose
+    | [Command ⌘](<../... ⌘ commands/⌘ Command.md>) | Purpose
     |-|-
     | ⏬ [`GET`](<../...items/GET ⏬ item.md>) | Get the Public Key of the [Wallet 🪣](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵🪣 Wallets table.md>) in the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>).
 
@@ -110,7 +110,7 @@
         Key: $chat.PublicKey
     ```
 
-    | [Command ⌘](<../...commands/⌘ Command.md>) | Purpose
+    | [Command ⌘](<../... ⌘ commands/⌘ Command.md>) | Purpose
     |-|-
     | ⏬ [`GET`](<../...items/GET ⏬ item.md>) | To get the Public Key of [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🤵🐌🤗 Hello.md>).
 

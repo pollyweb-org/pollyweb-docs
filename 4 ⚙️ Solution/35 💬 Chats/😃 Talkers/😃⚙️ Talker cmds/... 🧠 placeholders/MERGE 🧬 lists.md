@@ -10,7 +10,7 @@
 1. **What is a MERGE command?**
 
     A `MERGE` 🧬
-    * is a [Command ⌘](<../...commands/⌘ Command.md>) 
+    * is a [Command ⌘](<../... ⌘ commands/⌘ Command.md>) 
     * that merges too lists or an object with a list
     * by matching a list of properties.
 

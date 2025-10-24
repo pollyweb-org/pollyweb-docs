@@ -8,7 +8,7 @@
 1. **What is an ISSUE message command?**
 
     An `ISSUE`
-    * is a message [Command ⌘](<../...commands/⌘ Command.md>) 
+    * is a message [Command ⌘](<../... ⌘ commands/⌘ Command.md>) 
     * that invokes the [Save Token @ Wallet ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🎴 Save token.md>) flow
     * to save a [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>).
 
