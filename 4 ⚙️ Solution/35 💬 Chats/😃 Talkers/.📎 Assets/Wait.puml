@@ -29,10 +29,12 @@ activate hosted
 
 
     hosted -> hosted: ...end
-    hosted --> talker: 6) Place 🐌 {signal} 
+    hosted -> talker: 6) Place 🚀 {signal} 
+activate talker
+    talker -> hosted: {ok}
 deactivate hosted
 
-activate talker
+
     talker --> talker: wake up
     talker --> user: 7 ⏪ Prompt {done!}
 deactivate talker
