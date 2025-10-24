@@ -29,6 +29,7 @@
         OneOf: <fields> # Only one of these
         UUIDs: <fields> # UUID fields
         Texts: <fields> # Text fields
+        Times: <fields> # Time fields
         Lists: <fields> # List fields
     ```
     
@@ -40,8 +41,9 @@
     | `OneOf` | Only one should have value | `A,B` `[A,B]`
     | `UUIDs` | Must be a UUID fields| `A,B` `[A,B]`
     | `Texts` | Must be a text fields | `A,B` `[A,B]`
-    | `Texts` | Must be timestamps | `A,B` `[A,B]`
+    | `Times` | Must be a timestamps | `A,B` `[A,B]`
     | `Lists` | Must must be lists | `A,B` `[A,B]`
+    
     
     ---
     <br/>

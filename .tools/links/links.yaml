@@ -80,6 +80,11 @@ Successful Tests:
       also on uppercase
       and is under a folder called "😃 Talkers".
 
+  - Given: "{{ALARM}}"
+    LinkText: "`ALARM`"
+    LinkFile: "ALARM ⏰ msg.md"
+    Reasons: same as {{RETURN}}.
+
   - Given: "{{IF}}"
     LinkText: "`IF`"
     LinkFile: "IF ⤵️.md"
