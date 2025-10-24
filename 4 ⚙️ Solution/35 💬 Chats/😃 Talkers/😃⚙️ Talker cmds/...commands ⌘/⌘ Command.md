@@ -109,15 +109,15 @@
 
     Command | Purpose
     |-|-
-    | ⏯️️ [`CASE`](<../... control ▶️/CASE ⏯️.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script 📃](<📃 Script.md>) ../for control/📃 Script.md{Function}](<../...functions/{Function} 🐍.md>).
+    | ⏯️️ [`CASE`](<../...control ▶️/CASE ⏯️.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script 📃](<📃 Script.md>) ../for control/📃 Script.md{Function}](<../...functions/{Function} 🐍.md>).
     | 🫥 [`EMOJI`](<../../../🤔 Prompts/🤔✏️ Prompt input features/😶⌘ EMOJI cmd.md>) | Changes the [default emoji 😃](<../../../🤔 Prompts/🤔✏️ Prompt input features/😶 Input emojis.md>) for [input prompts ✏️](<../../../🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>).
     | ⬇️ [`EVAL`](<../...placeholders 🧠/EVAL ⬇️ flow.md>) | Evaluates a [{Function}](<../...functions 🐍/{Function} 🐍.md>) into a placeholder.
-    | ⤵️ [`IF`](<../... control ▶️/IF ⤵️.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script 📃](<📃 Script.md>) ../for control/📃 Script.md{Function}](<../...functions/{Function} 🐍.md>).
+    | ⤵️ [`IF`](<../...control ▶️/IF ⤵️.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script 📃](<📃 Script.md>) ../for control/📃 Script.md{Function}](<../...functions/{Function} 🐍.md>).
     | 🪵 [`LOG`](<LOG 🪵 flow.md>) | Logs messages into the system handler.
-    | 🔁 [`REPEAT`](<../... control ▶️/REPEAT 🔁.md>) | Repeats the current [Script 📃](<📃 Script.md>) with a confirmation.
-    | ⤴️ [`RETURN`](<../... control ▶️/RETURN ⤴️.md>) | Returns from a [Script 📃](<📃 Script.md>) with a result.
-    | ▶️ [`RUN`](<../... control ▶️/RUN ▶️.md>) | Runs a [Script 📃](<📃 Script.md>) and puts the result in a placeholder.
-    | ⏸️ [`WAIT`](<../... control ▶️/WAIT ⏸️.md>) | Waits for a period of time or until signaled.
+    | 🔁 [`REPEAT`](<../...control ▶️/REPEAT 🔁.md>) | Repeats the current [Script 📃](<📃 Script.md>) with a confirmation.
+    | ⤴️ [`RETURN`](<../...control ▶️/RETURN ⤴️.md>) | Returns from a [Script 📃](<📃 Script.md>) with a result.
+    | ▶️ [`RUN`](<../...control ▶️/RUN ▶️.md>) | Runs a [Script 📃](<📃 Script.md>) and puts the result in a placeholder.
+    | ⏸️ [`WAIT`](<../...control ▶️/WAIT ⏸️.md>) | Waits for a period of time or until signaled.
 
     ---
     <br/>
@@ -192,7 +192,7 @@
                     }
                 }
     ```
-    Commands: [`RUN`](<../... control ▶️/RUN ▶️.md>)
+    Commands: [`RUN`](<../...control ▶️/RUN ▶️.md>)
 
     ---
     <br/>

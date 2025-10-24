@@ -61,7 +61,7 @@ Body:
 | 🚦 [`ASSERT`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/ASSERT 🚦.md>) | Assert if it's the right [Broker 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) 
 | ⬇️ [`EVAL`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/EVAL ⬇️ flow.md>) | Get the [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) data from the hook
 | 💾 [`SAVE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾 item.md>) | Save the [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) to the [Tokens 🪣 table](<../🎴🪣 Issuer tables/🗄️🪣 Tokens.md>)
-| 🎣 [`REEL`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/... control ▶️/REEL 🎣.md>) | Continue the [Talker 😃](<../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>)
+| 🎣 [`REEL`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...control ▶️/REEL 🎣.md>) | Continue the [Talker 😃](<../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>)
 | 
 
 
