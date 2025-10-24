@@ -105,11 +105,11 @@
     |-|-|-
     | `Output` | Optional HTML format for outputs | `990.990.990.990`
     | `Pattern`| Optional HTML regular expression | `^...$`
-    | `MinLength` | Optional [minimum length 📋](<../🤔✏️ Prompt input features/13 📋 Input validation.md>) | `1`
-    | `MaxLength` | Optional [maximum length 📋](<../🤔✏️ Prompt input features/13 📋 Input validation.md>) | `5`
+    | `MinLength` | Optional [minimum length 📋](<../🤔✏️ Prompt input features/📋 Input validation.md>) | `1`
+    | `MaxLength` | Optional [maximum length 📋](<../🤔✏️ Prompt input features/📋 Input validation.md>) | `5`
     | `Details` | Optional [expandable details ⊕](<../🤔⚙️ Prompt features/3 ⊕ with Details.md>) | `Hint...`
     | `Options` | Optional [selectable options 🔘](<../🤔⚙️ Prompt features/4 🔘 with Options.md>) | `A,B` `{A:B}`
-    | `Nullable` | Optional [skip flag ⏭️](<../🤔✏️ Prompt input features/12 ⏭️ Input nullability.md>) | `Yes`
+    | `Nullable` | Optional [skip flag ⏭️](<../🤔✏️ Prompt input features/⏭️ Input nullability.md>) | `Yes`
     | `Appendix` | Optional [file attachment 📎](<../🤔⚙️ Prompt features/5 📎 with Appendix.md>) | `<uuid>`
     
     

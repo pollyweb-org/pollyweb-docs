@@ -15,9 +15,9 @@
     
     ||Section | Details
     |-|- | -
-    ||[⏭️ Input nullability](<../🤔✏️ Prompt input features/12 ⏭️ Input nullability.md>) | Allow inputs to be optional.
-    ||[📋 Input validation](<../🤔✏️ Prompt input features/13 📋 Input validation.md>) | Client versus Server side validation.
-    ||[😶 Input emojis](<../🤔✏️ Prompt input features/14 😶 Input emojis.md>) | Changing the default emojis.
+    ||[⏭️ Input nullability](<../🤔✏️ Prompt input features/⏭️ Input nullability.md>) | Allow inputs to be optional.
+    ||[📋 Input validation](<../🤔✏️ Prompt input features/📋 Input validation.md>) | Client versus Server side validation.
+    ||[😶 Input emojis](<../🤔✏️ Prompt input features/😶 Input emojis.md>) | Changing the default emojis.
     
     ---
     <br/>

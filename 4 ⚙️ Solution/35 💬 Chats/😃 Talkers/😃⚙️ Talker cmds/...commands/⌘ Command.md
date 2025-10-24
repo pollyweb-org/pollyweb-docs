@@ -110,7 +110,7 @@
     Command | Purpose
     |-|-
     | ⏯️️ [`CASE`](<../...control/CASE ⏯️.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script 📃](<📃 Script.md>) ../for control/📃 Script.md{Function}](<../...functions/{Function} 🐍.md>).
-    | 🫥 [`EMOJI`](<../../../🤔 Prompts/🤔✏️ Prompt input features/16 😶⌘ EMOJI cmd.md>) | Changes the [default emoji 😃](<../../../🤔 Prompts/🤔✏️ Prompt input features/14 😶 Input emojis.md>) for [input prompts ✏️](<../../../🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>).
+    | 🫥 [`EMOJI`](<../../../🤔 Prompts/🤔✏️ Prompt input features/😶⌘ EMOJI cmd.md>) | Changes the [default emoji 😃](<../../../🤔 Prompts/🤔✏️ Prompt input features/😶 Input emojis.md>) for [input prompts ✏️](<../../../🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>).
     | ⬇️ [`EVAL`](<../...placeholders/EVAL ⬇️ flow.md>) | Evaluates a [{Function}](<../...functions/{Function} 🐍.md>) into a placeholder.
     | ⤵️ [`IF`](<../...control/IF ⤵️.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script 📃](<📃 Script.md>) ../for control/📃 Script.md{Function}](<../...functions/{Function} 🐍.md>).
     | 🪵 [`LOG`](<LOG 🪵 flow.md>) | Logs messages into the system handler.

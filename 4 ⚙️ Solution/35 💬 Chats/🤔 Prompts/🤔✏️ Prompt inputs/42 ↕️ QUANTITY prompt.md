@@ -61,11 +61,11 @@
     |-|-|-
     | `Precision`| Rounded decimals (default is 0) | `0`
     | `Locale`   | Optional CLDR locale <br/> - defaults to the [Chat 💬](<../../💬 Chats/💬 Chat.md>) language | `en-US`
-    | `MinValue` | Optional [minimum value 📋](<../🤔✏️ Prompt input features/13 📋 Input validation.md>) | `-100`
-    | `MaxValue` | Optional [maximum value 📋](<../🤔✏️ Prompt input features/13 📋 Input validation.md>) | `100`
-    | `Emoji` | Optional [alternative emoji 😶](<../🤔✏️ Prompt input features/14 😶 Input emojis.md>) | `😶`
+    | `MinValue` | Optional [minimum value 📋](<../🤔✏️ Prompt input features/📋 Input validation.md>) | `-100`
+    | `MaxValue` | Optional [maximum value 📋](<../🤔✏️ Prompt input features/📋 Input validation.md>) | `100`
+    | `Emoji` | Optional [alternative emoji 😶](<../🤔✏️ Prompt input features/😶 Input emojis.md>) | `😶`
     | `Details` | Optional [expandable details ⊕](<../🤔⚙️ Prompt features/3 ⊕ with Details.md>) | `Hint...`
-    | `Nullable` | Optional [skip flag ⏭️](<../🤔✏️ Prompt input features/12 ⏭️ Input nullability.md>) | `Yes`
+    | `Nullable` | Optional [skip flag ⏭️](<../🤔✏️ Prompt input features/⏭️ Input nullability.md>) | `Yes`
     | `Appendix` | Optional [file attachment 📎](<../🤔⚙️ Prompt features/5 📎 with Appendix.md>) | `<uuid>`
     
     

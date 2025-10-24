@@ -71,11 +71,11 @@
     
     | Argument| Purpose | Example
     |-|-|-
-    | `MinLength` | Optional [minimum length 📋](<../🤔✏️ Prompt input features/13 📋 Input validation.md>) | `1`
-    | `MaxLength` | Optional [maximum length 📋](<../🤔✏️ Prompt input features/13 📋 Input validation.md>) | `5`
-    | `Emoji` | Optional [alternative emoji 😶](<../🤔✏️ Prompt input features/14 😶 Input emojis.md>) | `😶`
+    | `MinLength` | Optional [minimum length 📋](<../🤔✏️ Prompt input features/📋 Input validation.md>) | `1`
+    | `MaxLength` | Optional [maximum length 📋](<../🤔✏️ Prompt input features/📋 Input validation.md>) | `5`
+    | `Emoji` | Optional [alternative emoji 😶](<../🤔✏️ Prompt input features/😶 Input emojis.md>) | `😶`
     | `Details` | Optional [expandable details ⊕](<../🤔⚙️ Prompt features/3 ⊕ with Details.md>) | `Hint...`
-    | `Nullable` | Optional [skip flag ⏭️](<../🤔✏️ Prompt input features/12 ⏭️ Input nullability.md>) | `Yes`
+    | `Nullable` | Optional [skip flag ⏭️](<../🤔✏️ Prompt input features/⏭️ Input nullability.md>) | `Yes`
     | `Appendix` | Optional [file attachment 📎](<../🤔⚙️ Prompt features/5 📎 with Appendix.md>) | `<uuid>`
     
 

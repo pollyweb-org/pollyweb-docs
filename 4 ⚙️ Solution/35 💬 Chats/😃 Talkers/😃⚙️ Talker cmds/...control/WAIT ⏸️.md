@@ -61,7 +61,7 @@
     ```yaml
     # 😃 Talker 
     💬 Clock:
-    - TEMP|It's {.Now(HH:MM:SS)}
+    - TEMP|It's {.Now}
     - WAIT|00:00:01 
     - REPEAT
     ```

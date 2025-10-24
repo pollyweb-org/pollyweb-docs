@@ -44,7 +44,7 @@
     |-|-|-
     | `Then` | [Script 📃](<../../😃 Talkers/😃⚙️ Talker cmds/...commands/📃 Script.md>) or [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/...commands/⌘ Command.md>) on `True` | `INFO\|OK`
     | `Else` | [Script 📃](<../../😃 Talkers/😃⚙️ Talker cmds/...commands/📃 Script.md>) or [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/...commands/⌘ Command.md>) on `False` | `INFO\|NOK`
-    | `Emoji` | Optional [alternative emoji 😶](<../🤔✏️ Prompt input features/14 😶 Input emojis.md>) | `😶`
+    | `Emoji` | Optional [alternative emoji 😶](<../🤔✏️ Prompt input features/😶 Input emojis.md>) | `😶`
     | `Details` | Optional [expandable details ⊕](<../🤔⚙️ Prompt features/3 ⊕ with Details.md>) | `Hint...`
     | `Appendix` | Optional [file attachment 📎](<../🤔⚙️ Prompt features/5 📎 with Appendix.md>) | `{/...}`
        

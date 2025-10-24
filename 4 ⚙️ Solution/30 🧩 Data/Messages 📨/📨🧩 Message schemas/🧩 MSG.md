@@ -52,7 +52,7 @@ Blueprint:
           Timestamp:
             type: string
             format: utc.datetime
-            example: 2023-09-17T09:56:32.381673+00:00Z
+            example: 2024-09-21T12:34:00Z
             description: Date and time when the request was sent, in UTC.
 
           Schema:
