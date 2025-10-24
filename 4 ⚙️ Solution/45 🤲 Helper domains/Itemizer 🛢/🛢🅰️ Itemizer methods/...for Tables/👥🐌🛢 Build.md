@@ -44,7 +44,7 @@ Body:
 |           | `Children` |map	| List of children items
 |           | `Distincts`|	map |	List of grouped fields
 |           | `NoUpdates` | bool | Blocks item updates
-|           | `OnDelete`| string | Hook for [`Trigger@Talker`](<../../../../35 💬 Chats/😃 Talkers/😃🅰️ Talker methods/🛢🐌😃 Trigger.md>)
+|           | `OnDelete`| string | Hook for [`Trigger@Talker`](<../../../../35 💬 Chats/😃 Talkers/😃🅰️ Talker methods/🛢🐌😃 Triggered.md>)
 |
 
 <br/>
