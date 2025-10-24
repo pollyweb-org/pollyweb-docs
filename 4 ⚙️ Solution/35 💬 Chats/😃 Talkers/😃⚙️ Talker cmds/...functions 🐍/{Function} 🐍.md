@@ -12,7 +12,7 @@
 
     |Format|Details
     |-|-
-    | `{$placeholder}`| The value of a [placeholder 🧠](<../... placeholders 🧠/$Placeholder 🧠.md>).
+    | `{$placeholder}`| The value of a [placeholder 🧠](<../...placeholders 🧠/$Placeholder 🧠.md>).
     | `{/path/to/file}` | A file in the [Hoster ☁️](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) file system.
     | `{handler(args)}`| Logic in a code handler - e.g., python.
     | `{.helper(args)}`| Pre-built functions - e.g., `Sum()`

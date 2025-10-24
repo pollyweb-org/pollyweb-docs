@@ -29,7 +29,7 @@
 
     | Argument| Purpose 
     |-|-
-    | `$deleted`| [Placeholder 🧠](<../... placeholders 🧠/$Placeholder 🧠.md>) returned by [`DELETE`](<DELETE 🗑️ item.md>)
+    | `$deleted`| [Placeholder 🧠](<../...placeholders 🧠/$Placeholder 🧠.md>) returned by [`DELETE`](<DELETE 🗑️ item.md>)
 
     ---
     <br/>

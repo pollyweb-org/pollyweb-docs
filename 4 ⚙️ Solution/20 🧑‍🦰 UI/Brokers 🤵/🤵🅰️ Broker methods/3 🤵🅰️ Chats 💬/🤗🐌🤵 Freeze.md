@@ -4,7 +4,7 @@
     * freezes changes to any pre.
 
 * Used in:
-    * [❄️ Talker `FREEZE` command](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods/FREEZE ❄️ msg.md>)
+    * [❄️ Talker `FREEZE` command](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/FREEZE ❄️ msg.md>)
     * [❄️ Host Freeze ⏩ flow](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Freeze ❄️.md>)
 
 <br/> 
