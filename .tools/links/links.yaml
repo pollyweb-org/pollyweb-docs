@@ -37,6 +37,17 @@ Failed Tests:
 
 Successful Tests:
 
+  - Given: '{{Triggered@Alarm}}'
+    LinkText: "`Triggered@Alarm` 🔔 event"
+    LinkFile: "⏰🔔 Triggered.md"
+    Reasons: |
+      For `X@Y`, 
+      where the string is split by `@` into `X` and `Y`,
+      the file is called `*X*.md 
+      and in a folder called `*Y*events*`
+      or is in a subfolder of such folder.
+
+
   - Given: '{{Parse@Hosted}}'
     LinkText: "`Parse@Hosted` 🅰️ method"
     LinkFile: "😃🐌📦 Parse.md"

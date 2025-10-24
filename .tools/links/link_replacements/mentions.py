@@ -59,6 +59,7 @@ def replace_curly_at_mentions(md_files: Iterable[str]) -> int:
                 continue
 
             found_href: str | None = None
+            link_label = "🅰️ method"
             for candidate in existing_files:
                 candidate_path = Path(candidate)
                 if candidate_path.suffix.lower() != ".md":
@@ -68,6 +69,8 @@ def replace_curly_at_mentions(md_files: Iterable[str]) -> int:
                 folder_path = normalize_string(str(candidate_path.parent))
                 if any(marker in folder_path for marker in markers):
                     found_href = os.path.relpath(candidate_path, path.parent)
+                    if any(normalize_string(part).endswith("events") for part in candidate_path.parts):
+                        link_label = "🔔 event"
                     break
 
             if not found_href:
@@ -78,7 +81,7 @@ def replace_curly_at_mentions(md_files: Iterable[str]) -> int:
                     f"Generated wrong file link for {token}: {Path(found_href).name}"
                 )
 
-            markdown = f"[`{token}` 🅰️ method](<{found_href}>)"
+            markdown = f"[`{token}` {link_label}](<{found_href}>)"
             updated = content.replace(f"{{{{{token}}}}}", markdown)
             if updated != content:
                 content = updated
