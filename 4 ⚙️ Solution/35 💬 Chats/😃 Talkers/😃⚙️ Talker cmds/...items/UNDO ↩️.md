@@ -4,7 +4,9 @@
 
 > Part of [Talker 😃](<../../😃 Talker role.md>)
 
-> Cancels a soft delete.
+> Implemented by the [`.UNDO` 📃 script](<../../😃📃 Talker scripts/...for items/😃📃 .UNDO script.md>)
+
+> Cancels a soft [`DELETE` 🗑️ command](<DELETE 🗑️ item.md>)
 
 <br/>
 
