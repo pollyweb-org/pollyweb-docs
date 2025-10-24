@@ -14,7 +14,7 @@ Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 
 
 ```yaml
 # Hosts.yaml
-Name: Hosts
+Table: Hosts
 Key: Host
 ```
 

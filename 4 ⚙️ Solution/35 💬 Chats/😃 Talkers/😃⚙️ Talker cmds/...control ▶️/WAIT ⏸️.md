@@ -35,7 +35,7 @@
     |-|-
     | `$expired` | Boolean return if the wait has time out.
     | `Signal`   | Placeholder that stops the wait if changed.
-    | `Timeout`  | Time to wait, in seconds or `HH:MM:SS`.
+    | `Timeout`  | Time to wait, evaluated by the [`.Add`](<../...functions 🐍/🔩 {.Add}.md>) function.
 
     ```yaml
     # Listen to only one trigger:

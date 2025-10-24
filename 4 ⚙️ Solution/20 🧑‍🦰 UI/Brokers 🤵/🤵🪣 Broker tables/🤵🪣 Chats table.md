@@ -12,7 +12,7 @@ Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 
 
 ```yaml
 # Chats.yaml
-Name: Chats
+Table: Chats
 Key: Chat
 Parents:
     Wallet: { Wallets.Wallet: Chats.Wallet }

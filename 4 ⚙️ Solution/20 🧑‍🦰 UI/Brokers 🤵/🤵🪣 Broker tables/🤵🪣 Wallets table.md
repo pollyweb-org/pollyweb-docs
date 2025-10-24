@@ -11,7 +11,7 @@ Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 
 ```yaml
 # Wallets.yaml
 
-Name: Wallets
+Table: Wallets
 Key: Wallet
 
 Parents:

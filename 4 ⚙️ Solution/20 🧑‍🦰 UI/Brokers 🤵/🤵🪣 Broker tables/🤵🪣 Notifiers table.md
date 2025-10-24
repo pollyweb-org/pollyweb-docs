@@ -10,7 +10,7 @@ Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 
 
 ```yaml
 # Notifiers.yaml
-Name: Notifiers
+Table: Notifiers
 Key: Notifier
 Children:
     Wallets: { Wallets.Notifier: Notifiers.Notifier }

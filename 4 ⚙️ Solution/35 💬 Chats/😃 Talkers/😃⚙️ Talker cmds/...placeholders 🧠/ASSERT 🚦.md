@@ -25,6 +25,7 @@
     # Multi-field assertions
     ASSERT|$object:
         AllOf: <fields> # Required fields
+        AnyOf: <fields> # One or more of these
         OneOf: <fields> # Only one of these
         UUIDs: <fields> # UUID fields
         Texts: <fields> # Text fields
@@ -35,6 +36,7 @@
     |-|-|-
     | `$object`| Optional initial context | `$.Msg`
     | `AllOf` | All should have values | `A,B` `[A,B]`
+    | `AnyOf` | One or more have values | `A,B` `[A,B]`
     | `OneOf` | Only one should have value | `A,B` `[A,B]`
     | `UUIDs` | Must be a UUID fields| `A,B` `[A,B]`
     | `Texts` | Must be a text fields | `A,B` `[A,B]`

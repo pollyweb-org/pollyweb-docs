@@ -78,3 +78,16 @@ Body:
 
     ---
     <br/>
+
+
+1. **What happens if an item is deleted twice?**
+
+    Deletes don't raise errors of the key does not exist.
+    * Thus, they silently survive retries by callers.
+    
+    On the the other hand, if the caller sends a key that never existed, that is ignored as well.
+    * This allows for bugs to remain undetected on the caller;
+    * but that's the caller's responsibility to remove their bugs.
+
+    ---
+    <br/>
