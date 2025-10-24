@@ -80,7 +80,7 @@ TODO: Add the flow to the Manifest
 | [🧩 `//IDENTITY/OVER21`](<../../../7 🧩 Codes/IDENTITY/🧩 IdentityOver21.md>) | Verify minimum age to drink
 | [🪣 `Items`](<94 🪣 Owner: Items.md>) | List of items to [`GET`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET ⏬ item.md>)
 | [🪣 `Locators`](<95 🪣 Owner: Locators.md>) | List of machines to [`GET`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET ⏬ item.md>)
-| 💬 [`$.Chat.Key`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/... placeholders 🧠/$.Chat 💬.md>) | Get the machine's [Locator 🔆](<../../../4 ⚙️ Solution/25 🔆 Locators/Locators 🔆/🔆 Locator.md>) key
+| 💬 [`$.Chat.Key`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/$.Chat 💬.md>) | Get the machine's [Locator 🔆](<../../../4 ⚙️ Solution/25 🔆 Locators/Locators 🔆/🔆 Locator.md>) key
 |
 
 <br/>
@@ -105,12 +105,12 @@ TODO: Add the flow to the Manifest
 || ✅ [`SUCCESS`](<../../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>) | Ask to pick the item
 || ❌ [`FAILURE`](<../../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔📢 Prompt status/FAILURE ❌ prompt.md>) | To show in case of error
 |Flow| ⤵️ [`IF`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/... control ▶️/IF ⤵️.md>) | To see if 21+ check is needed
-||⬇️ [`EVAL`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/... placeholders 🧠/EVAL ⬇️ flow.md>) | To deduct the value on errors
+||⬇️ [`EVAL`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/EVAL ⬇️ flow.md>) | To deduct the value on errors
 ||🪵 [`LOG`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/LOG 🪵 flow.md>) | To log eventual errors
-|Message| 💼 [`SHARE`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods/SHARE 💼 msg.md>) | Ask for proof of over 21
-|| 💳 [`CHARGE`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods/CHARGE 💳 msg.md>) | Charge the item price
-|| 🏦 [`REFUND`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods/REFUND 🏦 msg.md>) | Refund the payment on failure
-|| 👋 [`GOODBYE`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods/GOODBYE 👋 msg.md>) | Show ads on success
-|| 🛰️ [`RELAY`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods/RELAY 🛰️ msg.md>) | Relay messages to  machines
+|Message| 💼 [`SHARE`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/SHARE 💼 msg.md>) | Ask for proof of over 21
+|| 💳 [`CHARGE`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/CHARGE 💳 msg.md>) | Charge the item price
+|| 🏦 [`REFUND`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/REFUND 🏦 msg.md>) | Refund the payment on failure
+|| 👋 [`GOODBYE`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/GOODBYE 👋 msg.md>) | Show ads on success
+|| 🛰️ [`RELAY`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/RELAY 🛰️ msg.md>) | Relay messages to  machines
 |
 

@@ -24,7 +24,7 @@
     Number  | zero | `0` | non-zero | `1` `-1`
     Array | empty | `[]` | non-empty | `[1,A]`
     [Confirm 👍](<../../../🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) |  no | `No` | yes | `Yes`|
-    [Share 💼](<../...methods/SHARE 💼 msg.md>) | empty | `{}`| non-empty | `{A:1}`
+    [Share 💼](<../...methods 🤵/SHARE 💼 msg.md>) | empty | `{}`| non-empty | `{A:1}`
     
 
     ---

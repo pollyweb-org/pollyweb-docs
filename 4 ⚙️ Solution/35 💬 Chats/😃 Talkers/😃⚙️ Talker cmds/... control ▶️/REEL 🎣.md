@@ -41,14 +41,14 @@
     | Argument| Purpose |
     |-|-
     | `$hook`| [Hooks 🪣 item](<../../😃🪣 Talker tables/😃🪣 Hooks 🪝 table.md>) saved by the [Command ⌘](<../...commands ⌘/⌘ Command.md>) | -
-    | `{response}` | [Command ⌘](<../...commands ⌘/⌘ Command.md>) output to a [Placeholder 🧠](<../... placeholders 🧠/$Placeholder 🧠.md>)
+    | `{response}` | [Command ⌘](<../...commands ⌘/⌘ Command.md>) output to a [Placeholder 🧠](<../...placeholders 🧠/$Placeholder 🧠.md>)
 
     ---
     <br/>
 
 1. **What's an example of REEL?**
 
-    Consider the [`BIND` flow command](<../...methods/BIND 🔗 msg.md>).
+    Consider the [`BIND` flow command](<../...methods 🤵/BIND 🔗 msg.md>).
 
     ![alt text](<../../.📎 Assets/Reel.png>)
 
@@ -64,7 +64,7 @@
         Else: FAILURE|Not bounded.
     ```
 
-    Commands: [`BIND`](<../...methods/BIND 🔗 msg.md>) [`IF`](<IF ⤵️.md>)
+    Commands: [`BIND`](<../...methods 🤵/BIND 🔗 msg.md>) [`IF`](<IF ⤵️.md>)
     
     <br/>
 

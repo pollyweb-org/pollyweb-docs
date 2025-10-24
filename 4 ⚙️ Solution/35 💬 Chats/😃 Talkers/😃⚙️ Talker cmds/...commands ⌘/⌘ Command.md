@@ -74,13 +74,13 @@
 
     |Command|Purpose
     |-|-
-    | 🔗 [`BIND`](<../...methods/BIND 🔗 msg.md>) | Calls the [Bind Vault @ Wallet ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🗄️ Bind 🔗.md>) flow.
-    | 🎫 [`ISSUE`](<../...methods/ISSUE 🎫 msg.md>) | Calls the [Save Token @ Wallet ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🎴 Save token.md>) flow.
-    | 👋 [`GOODBYE`](<../...methods/GOODBYE 👋 msg.md>) | Calls the [Goodbye @ Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Goodbye 👋.md>) ⏩ flow.
-    | 📜 [`FLOW`](<../...methods/INFORM 📝 msg.md>)
-    | 💳 [`CHARGE`](<../...methods/CHARGE 💳 msg.md>)
-    | 💼 [`SHARE`](<../...methods/SHARE 💼 msg.md>)
-    | 🛰️ [`RELAY`](<../...methods/RELAY 🛰️ msg.md>)
+    | 🔗 [`BIND`](<../...methods 🤵/BIND 🔗 msg.md>) | Calls the [Bind Vault @ Wallet ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🗄️ Bind 🔗.md>) flow.
+    | 🎫 [`ISSUE`](<../...methods 🤵/ISSUE 🎫 msg.md>) | Calls the [Save Token @ Wallet ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🎴 Save token.md>) flow.
+    | 👋 [`GOODBYE`](<../...methods 🤵/GOODBYE 👋 msg.md>) | Calls the [Goodbye @ Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Goodbye 👋.md>) ⏩ flow.
+    | 📜 [`FLOW`](<../...methods 🤵/INFORM 📝 msg.md>)
+    | 💳 [`CHARGE`](<../...methods 🤵/CHARGE 💳 msg.md>)
+    | 💼 [`SHARE`](<../...methods 🤵/SHARE 💼 msg.md>)
+    | 🛰️ [`RELAY`](<../...methods 🤵/RELAY 🛰️ msg.md>)
     |
     
    
@@ -111,7 +111,7 @@
     |-|-
     | ⏯️️ [`CASE`](<../... control ▶️/CASE ⏯️.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script 📃](<📃 Script.md>) ../for control/📃 Script.md{Function}](<../...functions/{Function} 🐍.md>).
     | 🫥 [`EMOJI`](<../../../🤔 Prompts/🤔✏️ Prompt input features/😶⌘ EMOJI cmd.md>) | Changes the [default emoji 😃](<../../../🤔 Prompts/🤔✏️ Prompt input features/😶 Input emojis.md>) for [input prompts ✏️](<../../../🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>).
-    | ⬇️ [`EVAL`](<../... placeholders 🧠/EVAL ⬇️ flow.md>) | Evaluates a [{Function}](<../...functions 🐍/{Function} 🐍.md>) into a placeholder.
+    | ⬇️ [`EVAL`](<../...placeholders 🧠/EVAL ⬇️ flow.md>) | Evaluates a [{Function}](<../...functions 🐍/{Function} 🐍.md>) into a placeholder.
     | ⤵️ [`IF`](<../... control ▶️/IF ⤵️.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script 📃](<📃 Script.md>) ../for control/📃 Script.md{Function}](<../...functions/{Function} 🐍.md>).
     | 🪵 [`LOG`](<LOG 🪵 flow.md>) | Logs messages into the system handler.
     | 🔁 [`REPEAT`](<../... control ▶️/REPEAT 🔁.md>) | Repeats the current [Script 📃](<📃 Script.md>) with a confirmation.

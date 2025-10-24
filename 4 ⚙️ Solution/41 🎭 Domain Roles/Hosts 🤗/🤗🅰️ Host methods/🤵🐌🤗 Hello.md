@@ -76,8 +76,8 @@ Body:
 
 | [Command ⌘](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/⌘ Command.md>) | Purpose
 |-|-
-| 📨 [`$.Msg`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...messages/$.Msg 📨.md>) | Read the incoming [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message.md>)
+| 📨 [`$.Msg`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...messages 📨/$.Msg 📨.md>) | Read the incoming [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message.md>)
 | 💾 [`SAVE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾 item.md>) | Save the [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message.md>) into the [Chats 🪣 table](<../🤗🪣 Host tables/🤗🪣 Chats 💬.md>)
 | 😃 [`TALK`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/... control ▶️/TALK 😃.md>) | Start a [Talker 😃](<../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>)
-| 🫡 [`TRUSTS`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...messages/TRUSTS 🫡.md>) | Assert a [Trust 🫡](<../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) on 
+| 🫡 [`TRUSTS`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...messages 📨/TRUSTS 🫡.md>) | Assert a [Trust 🫡](<../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) on 
 |

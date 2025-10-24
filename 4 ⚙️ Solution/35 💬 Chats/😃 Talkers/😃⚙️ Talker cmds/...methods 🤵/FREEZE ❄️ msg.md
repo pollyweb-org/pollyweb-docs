@@ -69,7 +69,7 @@
     - GOODBYE
     ```
 
-    Commands: [`CONFIRM`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) [`EVAL`](<../... placeholders 🧠/EVAL ⬇️ flow.md>) [`FREEZE`](<FREEZE ❄️ msg.md>) [`GOODBYE`](<GOODBYE 👋 msg.md>) [`INFORM`](<INFORM 📝 msg.md>) [`ONE`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/53 1️⃣ ONE prompt.md>) [`SHARE`](<SHARE 💼 msg.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
+    Commands: [`CONFIRM`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) [`EVAL`](<../...placeholders 🧠/EVAL ⬇️ flow.md>) [`FREEZE`](<FREEZE ❄️ msg.md>) [`GOODBYE`](<GOODBYE 👋 msg.md>) [`INFORM`](<INFORM 📝 msg.md>) [`ONE`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/53 1️⃣ ONE prompt.md>) [`SHARE`](<SHARE 💼 msg.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
 
     ---
     <br/>

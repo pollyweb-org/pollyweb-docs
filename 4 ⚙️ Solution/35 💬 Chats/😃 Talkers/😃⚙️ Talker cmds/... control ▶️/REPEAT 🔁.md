@@ -139,7 +139,7 @@
     # Repeat after the user confirms
     - REPEAT|Add another?
     ```
-    Commands:  [`DIGITS`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/44 🔢 DIGITS prompt.md>) [`EVAL`](<../... placeholders 🧠/EVAL ⬇️ flow.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`REPEAT`](<REPEAT 🔁.md>) 
+    Commands:  [`DIGITS`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/44 🔢 DIGITS prompt.md>) [`EVAL`](<../...placeholders 🧠/EVAL ⬇️ flow.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`REPEAT`](<REPEAT 🔁.md>) 
 
     ---
     <br/>
@@ -212,7 +212,7 @@
     - REPEAT
     ```
 
-    Commands: [`EVAL`](<../... placeholders 🧠/EVAL ⬇️ flow.md>) [`QUANTITY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/42 ↕️ QUANTITY prompt.md>) [`REPEAT`](<REPEAT 🔁.md>) [`RETURN`](<RETURN ⤴️.md>) [`CASE`](<CASE ⏯️.md>) 
+    Commands: [`EVAL`](<../...placeholders 🧠/EVAL ⬇️ flow.md>) [`QUANTITY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/42 ↕️ QUANTITY prompt.md>) [`REPEAT`](<REPEAT 🔁.md>) [`RETURN`](<RETURN ⤴️.md>) [`CASE`](<CASE ⏯️.md>) 
 
 
     ---
