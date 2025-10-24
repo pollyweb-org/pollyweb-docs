@@ -13,6 +13,7 @@ from broken_links import (
     check_broken_links,
     find_md_files,
     find_png_files,
+    method_folder_markers,
     normalize_string,
     print_results,
 )
@@ -486,21 +487,14 @@ def runit(project_directory, entryPoint):
             X = parts[0]
             Y = parts[1]
             normalized_X = normalize_string(X)
-            markers = {normalize_string(Y + 'methods')}
-            lowered_y = Y.lower()
-            if lowered_y.endswith('ed') and len(Y) > 2:
-                markers.add(normalize_string(Y[:-2] + 'methods'))
-            if lowered_y.endswith('es') and len(Y) > 2:
-                markers.add(normalize_string(Y[:-2] + 'methods'))
-            if lowered_y.endswith('s') and len(Y) > 1:
-                markers.add(normalize_string(Y[:-1] + 'methods'))
+            markers = method_folder_markers(Y)
 
             found = False
             for path in md_files:
                 if normalize_string(os.path.basename(path)[:-3]) == normalized_X:
                     folder_path = os.path.dirname(path)
                     normalized_folder = normalize_string(folder_path)
-                    if any(marker and marker in normalized_folder for marker in markers):
+                    if any(marker in normalized_folder for marker in markers):
                         file_name = os.path.basename(path)
                         if file_name == expected_linkfile:
                             found = True
