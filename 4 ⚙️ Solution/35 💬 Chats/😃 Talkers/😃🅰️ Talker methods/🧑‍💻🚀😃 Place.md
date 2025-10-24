@@ -9,7 +9,7 @@
 > Paired with [`Placed@Talker`](<🧑‍💻🚀😃 Placed.md>) message
 
 * Writes a value to a [Placeholder 🧠](<../😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>).
-* [Placeholder 🧠](<../😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>) names must to start with a letter.
+
 
 <br/>
 

@@ -17,7 +17,7 @@ Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 
 
 ```yaml
 # Offers.yaml
-Name: Offers
+Table: Offers
 Key: Token
 ```
 

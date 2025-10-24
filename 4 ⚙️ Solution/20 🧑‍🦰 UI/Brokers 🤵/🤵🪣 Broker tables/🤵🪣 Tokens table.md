@@ -20,7 +20,7 @@ Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 
 
 ```yaml
 # Tokens.yaml
-Name: Tokens
+Table: Tokens
 Key: Token
 Parents:
     Wallet: { Wallets.Wallet: Tokens.Wallet }

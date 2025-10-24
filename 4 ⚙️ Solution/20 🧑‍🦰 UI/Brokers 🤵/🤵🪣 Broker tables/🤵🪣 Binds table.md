@@ -11,7 +11,7 @@ Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 
 
 ```yaml
 # Binds.yaml
-Name: Binds
+Table: Binds
 Key: Bind
 Parents:
     Wallet: { Wallets.Wallet: Binds.Wallet }

@@ -11,7 +11,7 @@
     ```yaml
     # First column is the key.
     # No parents, children, or distincts.
-    Name: <name>
+    Table: <name>
     ```
 
     |Argument|Details|Example
@@ -23,7 +23,7 @@
 
     ```yaml
     # Example
-    Name: ORDERS
+    Table: ORDERS
     ```
 
     ---
@@ -33,7 +33,7 @@
 
     ```yaml
     # Complex keys
-    Name: <name>
+    Table: <name>
     Key: <k1>[,<kN>]
     ```
 
@@ -46,7 +46,7 @@
 
     ```yaml
     # Example
-    Name: ORDERS
+    Table: ORDERS
     Key: ID
     ```
 
@@ -58,7 +58,7 @@
 
     ```yaml
     # With parents
-    Name: <name>
+    Table: <name>
 
     Parents:
         <alias>: 
@@ -78,7 +78,7 @@
 
     ```yaml
     # Example
-    Name: ORDERS
+    Table: ORDERS
 
     Parents:
         CUSTOMER: 
@@ -92,7 +92,7 @@
     
     ```yaml
     # With children
-    Name: <name>
+    Table: <name>
 
     Children:
         <alias>: 
@@ -112,7 +112,7 @@
 
     ```yaml
     # Example
-    Name: ORDERS
+    Table: ORDERS
 
     Children:
         LINES: 
@@ -126,7 +126,7 @@
 
     ```yaml
     # With distincts
-    Name: <name>
+    Table: <name>
     Children:
         <child>: 
             <child-set>.<link>: <name>.<key>
@@ -144,7 +144,7 @@
     
     ```yaml
     # Example
-    Name: ORDERS
+    Table: ORDERS
 
     Children:
         LINES: 
@@ -166,7 +166,7 @@
     |`ORDER_LINES`|ID|QTT|ORDER_ID | PROD_ID | `$o.LINES[0].QTT`
 
     ```yaml
-    Name: ORDERS
+    Table: ORDERS
     Key: ID
 
     Parents:
