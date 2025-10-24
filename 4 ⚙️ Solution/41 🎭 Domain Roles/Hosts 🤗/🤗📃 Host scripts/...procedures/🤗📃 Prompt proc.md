@@ -24,7 +24,7 @@
     Subject: Prompt@Broker
     Chat: $.Chat.Chat
     Prompt: $saved.Prompt
-    TTL: 
+    Expires: .Add(.Now, 1 minute)
 
 # TODO: Wait for what?
 - WAIT

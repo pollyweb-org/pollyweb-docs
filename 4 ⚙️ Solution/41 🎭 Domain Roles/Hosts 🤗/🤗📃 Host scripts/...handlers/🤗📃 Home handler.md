@@ -6,6 +6,8 @@
 ## Script
 
 ```yaml
+📃 Home@Host: 
+
 # Get the Chat
 - GET|Chats@Host|$.Msg.Chat >> $chat
 
