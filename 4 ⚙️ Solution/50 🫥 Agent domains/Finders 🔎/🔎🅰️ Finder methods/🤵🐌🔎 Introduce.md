@@ -1,11 +1,16 @@
 
 # Introduce @ [Finder](<../🔎🫥 Finder agent.md>)
 
+> Purpose
+
 * Ask for a [Finder 🔎 domain](<../🔎🫥 Finder agent.md>) 
     * to introduce a [Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) 
     * to the user in a new [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>).
-* Used by the [🔎⏩🧑‍🦰 Introduce 🤗](<../🔎⏩ Finder flows/🔎⏩🧑‍🦰 Introduce 🤗.md>) flow:
-    * followed by [`Introduced@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🔎🐌🤵 Introduced.md>)
+
+> Used by 
+
+*  [🔎⏩🧑‍🦰 Introduce 🤗](<../🔎⏩ Finder flows/🔎⏩🧑‍🦰 Introduce 🤗.md>) flow:
+* followed by [`Introduced@Broker` 🅰️ method](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🔎🐌🤵 Introduced.md>)
 
 <br/>
 

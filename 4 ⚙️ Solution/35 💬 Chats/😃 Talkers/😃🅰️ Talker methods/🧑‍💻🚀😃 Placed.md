@@ -1,12 +1,13 @@
 # 🧑‍💻🚀😃 Placed @ Talker
 
-> Implements [Hoster ☁️ helper domain](<../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>)
+> About
 
-> Implemented by the [`Placed` 📃 handler](<../😃📃 Talker scripts/...for placeholders 🧠/😃📃 Placed handler.md>)
+* Implements [Hoster ☁️ helper domain](<../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>)
+* Implemented by the [`Placed` 📃 handler](<../😃📃 Talker scripts/...for placeholders 🧠/😃📃 Placed handler.md>)
+* Part of [Handle @ Talker 😃⏩🧑‍💻](<../😃⏩ Talker flows/😃⏩🧑‍💻 Handle 🐍.md>) flow
+* Paired with [`Place@Talker`](<🧑‍💻🚀😃 Place.md>) message
 
-> Part of [Handle @ Talker 😃⏩🧑‍💻](<../😃⏩ Talker flows/😃⏩🧑‍💻 Handle 🐍.md>) flow
-
-> Paired with [`Place@Talker`](<🧑‍💻🚀😃 Place.md>) message
+> Purpose
 
 * Reads a [Placeholder 🧠](<../😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>)
 * The placeholder [`$.Chat`](<../😃⚙️ Talker cmds/...placeholders 🧠/$.Chat 💬.md>) contains [Chat 💬](<../../💬 Chats/💬 Chat.md>) details.
