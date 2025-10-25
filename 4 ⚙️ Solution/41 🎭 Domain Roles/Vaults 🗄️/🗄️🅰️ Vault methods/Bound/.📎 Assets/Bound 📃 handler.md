@@ -4,7 +4,7 @@
 
 > Purpose
 
-* [Script 📃](<../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/Script 📃.md>) that implements the [`Bound@Vault` 🅰️ method](<../🤵🐌🗄️ Bound.md>).
+* [Script 📃](<../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that implements the [`Bound@Vault` 🅰️ method](<../🤵🐌🗄️ Bound.md>).
 
 > Called by 
 

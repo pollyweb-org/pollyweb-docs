@@ -39,7 +39,7 @@ Body:
 | Body    | `Set`    | string  | `Set` from [`Build@Itemizer`](<../...for Tables/👥🐌🛢 Build.md>)
 |         | `Item`    | object  | Object to save
 |         | `Version` | uuid    | Optional version from [`Get@Itemizer`](<👥🚀🛢 Get.md>)
-|        | `Script` | string    | Optional [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/Script 📃.md>) for traceability
+|        | `Script` | string    | Optional [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) for traceability
 |         | `Delete` | string  | Optional scheduled delete
 |
 
@@ -69,11 +69,11 @@ Body:
 1. **What is the `Version` for?**
 
     The `Version` argument is used for optimistic concurrency.
-    * When [Scripts 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/Script 📃.md>) call the [`Get@Itemizer`](<👥🚀🛢 Get.md>) method followed by changes to an [Item 🛢](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>), other [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/Script 📃.md>) threads may be changing the same [Item 🛢](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) concurrently.
+    * When [Scripts 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) call the [`Get@Itemizer`](<👥🚀🛢 Get.md>) method followed by changes to an [Item 🛢](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>), other [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) threads may be changing the same [Item 🛢](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) concurrently.
   
     * To avoid locking items with a standard ACID transaction, the [`Save@Itemizer`](<👥🚀🛢 Save.md>) method checks the original version collected on the [`Get@Itemizer`](<👥🚀🛢 Get.md>) method.
   
-    * If the version has changed due to a concurrent [`SAVE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/SAVE/SAVE 💾 item.md>) in the [Talker 😃 domain](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>), then the [Itemizer 🛢 helper domain](<../../🛢🤲 Itemizer helper.md>) rejects the change, forcing the [Talker 😃 domain](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) to re-run the [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/Script 📃.md>).
+    * If the version has changed due to a concurrent [`SAVE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/SAVE/SAVE 💾 item.md>) in the [Talker 😃 domain](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>), then the [Itemizer 🛢 helper domain](<../../🛢🤲 Itemizer helper.md>) rejects the change, forcing the [Talker 😃 domain](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) to re-run the [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>).
 
     ---
     <br/>

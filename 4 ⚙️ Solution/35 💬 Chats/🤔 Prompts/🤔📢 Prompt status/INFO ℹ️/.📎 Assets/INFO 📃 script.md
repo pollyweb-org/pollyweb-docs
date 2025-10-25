@@ -2,7 +2,7 @@
 
 
 
-> [Script 📃](<../../../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/Script 📃.md>) that implements the [`INFO`](<../INFO ℹ️ prompt.md>) prompt command.
+> [Script 📃](<../../../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that implements the [`INFO`](<../INFO ℹ️ prompt.md>) prompt command.
 
 
 ## How to use
@@ -43,5 +43,5 @@ Needs||
 | [Commands ⌘](<../../../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/Command ⌘.md>) | [`ASSERT`](<../../../../😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/ASSERT 🚦/ASSERT 🚦.md>) [`CASE`](<../../../../😃 Talkers/😃⚙️ Talker cmds/...control ▶️/CASE ⏯️/CASE ⏯️.md>) [`RUN`](<../../../../😃 Talkers/😃⚙️ Talker cmds/...control ▶️/RUN ▶️/RUN ▶️.md>) [`SEND`](<../../../../😃 Talkers/😃⚙️ Talker cmds/...messages 📨/SEND 📬 msg.md>)
 | [Messages 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Prompt@Broker` 🅰️ method](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>)
 | [Placeholders 🧠](<../../../../😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>) | [`$.Chat`](<../../../../😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/$.Chat 💬.md>)
-| [Scripts 📃](<../../../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/Script 📃.md>) | [`Prompt@Host` 📃 script](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📃 Host scripts/...procedures/🤗📃 Prompt proc.md>)
+| [Scripts 📃](<../../../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) | [`Prompt@Host` 📃 script](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📃 Host scripts/...procedures/🤗📃 Prompt proc.md>)
 |

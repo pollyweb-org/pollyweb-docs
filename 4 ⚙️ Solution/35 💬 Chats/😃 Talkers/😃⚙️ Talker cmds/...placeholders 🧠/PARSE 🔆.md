@@ -37,7 +37,7 @@
     .HOST:1.0,any-host.dom,ANY-RESOURCE
     ```
 
-    Here's the [Script 📃](<../...commands ⌘/Script 📃/Script 📃.md>).
+    Here's the [Script 📃](<../...commands ⌘/Script 📃/📃 Script.md>).
 
     ```yaml
     - PARSE|$in >> $out
