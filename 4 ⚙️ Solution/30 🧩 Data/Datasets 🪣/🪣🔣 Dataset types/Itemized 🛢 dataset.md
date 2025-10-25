@@ -241,7 +241,7 @@
 
     Triggers 
     * are set on the [`Build@Itemized` 🅰️ method](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/...for Tables/👥🐌🛢 Build.md>)
-    * and are consumed by the [`Triggered@Talker` 🅰️ method](<../../../35 💬 Chats/😃 Talkers/😃🅰️ Talker methods/🛢🐌😃 Triggered.md>)
+    * and are consumed by the [`Triggered@Talker` 🅰️ method](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🔔 Itemizer events/🛢🔔 Triggered.md)
 
     ---
     <br/>

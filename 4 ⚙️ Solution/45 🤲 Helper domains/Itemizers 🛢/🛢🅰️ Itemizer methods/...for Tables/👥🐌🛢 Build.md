@@ -44,7 +44,7 @@ Body:
 |           | `Children` |map	| List of children items
 |           | `Distincts`|	map |	List of grouped fields
 |           | `NoUpdates` | bool | Blocks item updates
-|           | `Triggers`| map | Hooks for [`Triggered@Talker`](<../../../../35 💬 Chats/😃 Talkers/😃🅰️ Talker methods/🛢🐌😃 Triggered.md>)
+|           | `Triggers`| map | Hooks for [`Triggered@Talker`](<../../🛢🔔 Itemizer events/🛢🔔 Triggered.md)
 |
 
 <br/>
