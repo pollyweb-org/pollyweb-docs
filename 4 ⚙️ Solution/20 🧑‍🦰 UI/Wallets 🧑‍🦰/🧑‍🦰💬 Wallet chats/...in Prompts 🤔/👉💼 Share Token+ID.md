@@ -13,7 +13,7 @@
 |-|-|-
 |1|[💼⏩🧑‍🦰 Share Token 🎫](<👉💼 Share Token 🎫.md>) | Receive an [Identity-bound Token 🎫](<../../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 🆔⏩🎫 Verify Tokens.md>)
 |2|[👥🚀🕸 `Trusts@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>) | Verify if the [Identity 🆔](<../../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) is [Trustworthy 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) | 
-|3|[💼🐌🤵 `Invite@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/6 ...for Share 💼/Invite/💼🐌🤵 Invite.md>)|Invite the [Identity 🆔](<../../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) to the [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)
+|3|[💼🐌🤵 `Invite@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/...for Share 💼/Invite/💼🐌🤵 Invite.md>)|Invite the [Identity 🆔](<../../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) to the [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)
 |4| [🤵🐌🛠️ `Invited@Helper`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲🅰️ Helper methods/🤵🐌🤲 Invited.md>) | Proxy the invite to the [Identity 🆔](<../../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) 
 |5|[🆔⏩🧑‍🦰 Take Selfie 📸](<../../../../../5 ⏩ Flows/55 🆔⏩ Identities/04 🆔⏩🧑‍🦰 Selfie.md>) | Do a [face scan 😶](<../../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/6 🆔⏩😶 Face scan.md>) with liveness check
 |6|[🗄️⏩💼 Consume 🧩](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️⏩ Vault flows/🗄️⏩💼 Consume 🔗 flow.md>) | Confirm the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ownership
@@ -35,7 +35,7 @@
 
 1. **What does the Invite@Broker call look like?**
 
-    Consider the following example payload to  [`Invite@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/6 ...for Share 💼/Invite/💼🐌🤵 Invite.md>).
+    Consider the following example payload to  [`Invite@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/...for Share 💼/Invite/💼🐌🤵 Invite.md>).
 
     ```yaml
     Header:
