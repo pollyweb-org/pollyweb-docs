@@ -28,6 +28,8 @@ _MALFORMED_PATTERNS = [
 _SUSPICIOUS_TAIL_PATTERNS = [
     # Detect tokens where a markdown-like extension has accidental trailing characters (e.g., "Command.mdds")
     re.compile(r"\b[^\s\[\]()<>]+\.(?:md|png|jpg|pdf)[A-Za-z0-9]+", re.IGNORECASE),
+    # Detect leftover `.md` paths immediately followed by a closing bracket and new link opener (missing `[`).
+    re.compile(r"[^\s\[\]()<>]+\.(?:md|png|jpg|pdf)[^\s()\[\]<>]*\]\(", re.IGNORECASE),
 ]
 
 
