@@ -2,9 +2,9 @@
 
 # 🗄️📃 Disclose handler
 
-> Part of the [Vault 🗄️ domain](<../../../🗄️🎭 Vault role.md>)
+> Part of the [Vault 🗄️ domain](<../../🗄️🎭 Vault role.md>)
 
-> Implements the [`Disclose@Vault` 🅰️ method](<../🤵🐌🗄️ Disclose.md>)
+> Implements the [`Disclose@Vault` 🅰️ method](<🤵🐌🗄️ Disclose.md>)
 
 ## Script
 
