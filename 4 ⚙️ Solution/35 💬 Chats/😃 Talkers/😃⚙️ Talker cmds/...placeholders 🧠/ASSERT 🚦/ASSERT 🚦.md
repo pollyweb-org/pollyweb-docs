@@ -178,20 +178,6 @@
 
     <br/>
 
-    ```yaml
-    # Enum assertions
-    ASSERT|$placeholder:
-        Enum: {value-1}, {value-2}, ...
-    ```
-    | Argument| Purpose | Examples
-    |-|-|-
-    | `$object`| Optional initial context | `$.Msg`
-    | `Enum` | List of possible values | `A,B` `[A,B]`
-    
-    ---
-    <br/>
-
-
 
 1. **What's an alternative syntax?**
 
@@ -233,6 +219,8 @@
 1. **How to assert a Message?**
 
     ```yaml
+    📃 Example:
+
     # Assert a matching pair
     - ASSERT|$.Msg:
         - From ~= any-broker.dom
@@ -252,6 +240,8 @@
     > This uses the syntax of the [`{.Parse}` 🔆 function](<../PARSE 🔆.md>).
 
     ```yaml
+    📃 Example:
+
     # Put the locator in a placeholder
     - EVAL >> $locator:
         nlweb.org/HOST:1.0,any-host.dom,ANY-RESOURCE
@@ -268,3 +258,49 @@
 
     ---
     <br/>
+
+1. **What's the syntax for enums?**
+
+    ```yaml
+    # Enum assertions
+    ASSERT|$placeholder:
+        Enum: {value-1}, {value-2}, ...
+    ```
+    | Argument| Purpose | Examples
+    |-|-|-
+    | `$object`| Optional initial context | `$.Msg`
+    | `Enum` | List of possible values | `A,B` `[A,B]`
+    
+    <br/>
+    
+    Here's a valid example for a value.
+
+    ```yaml
+    📃 Example:
+    
+    # Assert
+    - ASSERT|A:
+        Enums: A, B, C
+
+    # Show success
+    - SUCCESS|A is in (A, B, C)
+    ```
+
+    <br/>
+    Here's a valid example for a list of values.
+
+
+    ```yaml
+    📃 Example:
+    
+    # Assert
+    - ASSERT|A,B,B,B:
+        Enums: A, B, C
+
+    # Show success
+    - SUCCESS|All elements are in (A, B, C)
+    ```
+
+    ---
+    <br/>
+
