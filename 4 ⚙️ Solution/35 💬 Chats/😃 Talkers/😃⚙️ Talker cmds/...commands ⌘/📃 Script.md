@@ -48,8 +48,8 @@
     |-|-
     |▶️ [`RUN`](<../...control ▶️/RUN ▶️.md>)| Calls a [Script 📃](<📃 Script.md>) by name, then returns.
     |⤵️ [`IF`](<../...control ▶️/IF ⤵️.md>) | Runs [Scripts 📃](<📃 Script.md>) for `True` and `False` evaluations.
-    | ⏯️️ [`CASE`](<../...control ▶️/CASE ⏯️.md>) | Runs [Scripts 📃](<📃 Script.md>) for matching evaluations.
-    | ⏸️ [`WAIT`](<../...control ▶️/WAIT ⏸️.md>) | Runs [Scripts 📃](<📃 Script.md>) on signalled and timed out.
+    | ⏯️️ [`CASE`](<../...control ▶️/CASE/CASE ⏯️.md>) | Runs [Scripts 📃](<📃 Script.md>) for matching evaluations.
+    | ⏸️ [`WAIT`](<../...control ▶️/WAIT ⏸️/WAIT ⏸️.md>) | Runs [Scripts 📃](<📃 Script.md>) on signalled and timed out.
 
     ---
     <br/>

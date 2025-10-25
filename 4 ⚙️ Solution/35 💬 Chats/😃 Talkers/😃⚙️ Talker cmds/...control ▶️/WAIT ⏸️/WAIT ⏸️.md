@@ -1,8 +1,8 @@
 # 😃⏸️ Talker `WAIT` flow 
 
-> Part of [Talker 😃](<../../😃 Talker role.md>)
+> Part of [Talker 😃](<../../../😃 Talker role.md>)
 
-> Referenced by the [😃⏩🧑‍💻 Wait ⏸️](<../../😃⏩ Talker flows/😃⏩🧑‍💻 Wait ⏸️.md>) flow
+> Referenced by the [😃⏩🧑‍💻 Wait ⏸️](<../../../😃⏩ Talker flows/😃⏩🧑‍💻 Wait ⏸️.md>) flow
 
 <br/>
 
@@ -11,7 +11,7 @@
 1. **What's a WAIT flow command?**
 
     A [`WAIT` ⏸️](<WAIT ⏸️.md>)
-    * is a flow [Command ⌘](<../...commands ⌘/⌘ Command.md>) 
+    * is a flow [Command ⌘](<../../...commands ⌘/⌘ Command.md>) 
     * that pauses the flow for a period of time 
     * or until triggered by an external signal.
 
@@ -35,7 +35,7 @@
     |-|-
     | `$expired` | Boolean return if the wait has time out.
     | `Signal`   | Placeholder that stops the wait if changed.
-    | `Timeout`  | Time to wait, evaluated by the [`.Add`](<../...functions 🐍/🔩 {.Add}.md>) function.
+    | `Timeout`  | Time to wait, evaluated by the [`.Add`](<../../...functions 🐍/🔩 {.Add}.md>) function.
 
     ```yaml
     # Listen to only one trigger:
@@ -53,7 +53,7 @@
 
 1. **How to build a clock?**
 
-    | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+    | [Domain](<../../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
     | 🕙 Clock | ⏳ It's 17:01
     | 🕙 Clock | ⏳ It's 17:02
@@ -66,7 +66,7 @@
     - REPEAT
     ```
 
-    Commands: [`.Now`](<../...functions 🐍/🔩 {.Now}.md>) [`REPEAT`](<REPEAT 🔁.md>) [`TEMP`](<../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳ prompt.md>) [`WAIT`](<WAIT ⏸️.md>)
+    Commands: [`.Now`](<../../...functions 🐍/🔩 {.Now}.md>) [`REPEAT`](<../REPEAT/REPEAT 🔁.md>) [`TEMP`](<../../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳ prompt.md>) [`WAIT`](<WAIT ⏸️.md>)
     
 
     
@@ -77,7 +77,7 @@
 
 1. **How to wait for a task to complete?**
 
-    | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+    | [Domain](<../../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
     | 🍕 Pizza | ℹ️ Order submitted 
     | 🍕 Pizza | ⏳ Step `1/3` Order in the queue...
@@ -86,7 +86,7 @@
     | 🍕 Pizza | ✅ Order ready!
     |
 
-    Here's the [Script 📃](<../...commands ⌘/📃 Script.md>).
+    Here's the [Script 📃](<../../...commands ⌘/📃 Script.md>).
 
     ```yaml
     # 😃 Talker 
@@ -106,15 +106,15 @@
     ```
 
 
-    | [Command ⌘](<../...commands ⌘/⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../...commands ⌘/⌘ Command.md>) | Purpose
     |-|-
-    | ⬇️ [`EVAL`](<../...placeholders 🧠/EVAL ⬇️ flow.md>) | to assess the backend queue length.
-    | ℹ️ [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) | To show the initial message.
-    | 🔁 [`REPEAT`](<REPEAT 🔁.md>) | To re-assess the queue periodically.
-    | 🔁 [`RETURN`](<REPEAT 🔁.md>) | To exit the loop when it's the user's turn.
-    | ▶️ [`RUN`](<RUN ▶️.md>) | To start the waiting loop.
-    | ✅ [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>) | To say that it's ready.
-    | ⏳ [`TEMP`](<../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳ prompt.md>) | To show work in progress.
+    | ⬇️ [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️ flow.md>) | to assess the backend queue length.
+    | ℹ️ [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) | To show the initial message.
+    | 🔁 [`REPEAT`](<../REPEAT/REPEAT 🔁.md>) | To re-assess the queue periodically.
+    | 🔁 [`RETURN`](<../REPEAT/REPEAT 🔁.md>) | To exit the loop when it's the user's turn.
+    | ▶️ [`RUN`](<../RUN ▶️.md>) | To start the waiting loop.
+    | ✅ [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>) | To say that it's ready.
+    | ⏳ [`TEMP`](<../../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳ prompt.md>) | To show work in progress.
 
     ---
     <br/>
@@ -122,7 +122,7 @@
 
 1. **How to wait in a queue?**
 
-    | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+    | [Domain](<../../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
     | 🏦 Bank | ⏳ There are 21 people ahead of you.
     | 🏦 Bank | ⏳ There are 7 people ahead of you.
@@ -130,7 +130,7 @@
     | 🏦 Bank | 💬 What do you need? | `I need...`
     |
 
-    Here's the [Script 📃](<../...commands ⌘/📃 Script.md>).
+    Here's the [Script 📃](<../../...commands ⌘/📃 Script.md>).
 
     ```yaml
     # 😃 Talker 
@@ -163,15 +163,15 @@
     - REPEAT
     ```
 
-    | [Command ⌘](<../...commands ⌘/⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../...commands ⌘/⌘ Command.md>) | Purpose
     |-|-
-    | ⏯️️ [`CASE`](<CASE ⏯️.md>) | To show the human-friendly message.
-    | ⬇️ [`EVAL`](<../...placeholders 🧠/EVAL ⬇️ flow.md>) | to assess the backend queue length.
-    | ⏬ [`GET`](<../...datasets 🪣/GET ⏬ item.md>) | To get the queue length from resources.
-    | 🔁 [`REPEAT`](<REPEAT 🔁.md>) | To re-assess the queue periodically.
-    | 🔁 [`RETURN`](<REPEAT 🔁.md>) | To exit the loop when it's the user's turn.
-    | ▶️ [`RUN`](<RUN ▶️.md>) | To start the waiting loop.
-    | ⏳ [`TEMP`](<../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳ prompt.md>) | To show work in progress.
+    | ⏯️️ [`CASE`](<../CASE/CASE ⏯️.md>) | To show the human-friendly message.
+    | ⬇️ [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️ flow.md>) | to assess the backend queue length.
+    | ⏬ [`GET`](<../../...datasets 🪣/GET ⏬ item.md>) | To get the queue length from resources.
+    | 🔁 [`REPEAT`](<../REPEAT/REPEAT 🔁.md>) | To re-assess the queue periodically.
+    | 🔁 [`RETURN`](<../REPEAT/REPEAT 🔁.md>) | To exit the loop when it's the user's turn.
+    | ▶️ [`RUN`](<../RUN ▶️.md>) | To start the waiting loop.
+    | ⏳ [`TEMP`](<../../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳ prompt.md>) | To show work in progress.
 
     ---
     <br/>
@@ -189,7 +189,7 @@
         OnTimeout: FAILURE|Timed out!
     ```
 
-    To trigger it, a developer needs to call [`Write@Talker`](<../../😃🅰️ Talker methods/🧑‍💻🚀😃 Place.md>).
+    To trigger it, a developer needs to call [`Write@Talker`](<../../../😃🅰️ Talker methods/🧑‍💻🚀😃 Place.md>).
 
     ```python
     # 🐍 Python
@@ -202,7 +202,7 @@
         })
     ```    
 
-    The full interaction is described in the [😃⏩🧑‍💻 Wait ⏸️](<../../😃⏩ Talker flows/😃⏩🧑‍💻 Wait ⏸️.md>) flow 
+    The full interaction is described in the [😃⏩🧑‍💻 Wait ⏸️](<../../../😃⏩ Talker flows/😃⏩🧑‍💻 Wait ⏸️.md>) flow 
 
     ---
     <br/>

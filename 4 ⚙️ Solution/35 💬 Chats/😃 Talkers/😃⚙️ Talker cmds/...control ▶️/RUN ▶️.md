@@ -201,7 +201,7 @@
     - FAILURE|This is a bug.
     ```
 
-    Commands: [`CASE`](<CASE ⏯️.md>) [`FAILURE`](<RETURN ⤴️.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
+    Commands: [`CASE`](<CASE/CASE ⏯️.md>) [`FAILURE`](<RETURN ⤴️.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
 
 
 
