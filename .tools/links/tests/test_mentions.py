@@ -1,6 +1,12 @@
+import sys
+import pathlib
 import pytest
 
-from ..link_replacements.mentions import format_dynamic_link_text
+# Ensure the link_replacements package is importable when running tests directly.
+ROOT = pathlib.Path(__file__).resolve().parents[1]  # .tools/links
+sys.path.insert(0, str(ROOT))
+
+from link_replacements.mentions import format_dynamic_link_text
 
 
 @pytest.mark.parametrize(

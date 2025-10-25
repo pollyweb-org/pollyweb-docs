@@ -1,10 +1,12 @@
 # 🤵⏩🗄️ Update binds @ Broker
 
-> Updates the list of [Binds 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) on the Wallet app.
+> Purpose
 
-> Used in:
-> <br/>• [🤵⏩🗄️ Bind vault @ Broker](<../Bind vault 🤵⏩🗄️/Bind vault ⏩ flow.md>) to add a [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to the list
-> <br>•  [🧑‍🦰👉🗄️ Unbind @ Wallet](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Vaults 🗄️/💬🤵 Unbind 🗄️ chat.md>) to remove a [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) from the list
+* Updates the list of [Binds 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) on the [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+
+> Used in
+* [🤵⏩🗄️ Bind vault @ Broker](<../Bind vault 🤵⏩🗄️/Bind vault ⏩ flow.md>) to add a [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to the list
+*  [🧑‍🦰👉🗄️ Unbind @ Wallet](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Vaults 🗄️/💬🤵 Unbind 🗄️ chat.md>) to remove a [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) from the list
 
 <br/>
 
