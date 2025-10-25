@@ -29,5 +29,5 @@ Body:
 ||`To`|string| [Notifier 📣](<../../📣👥 Notifier domain.md>) from [`Onboard@Broker`](<../📣 Onboard 🤵 Onboard 🧑‍🦰🚀📣/Onboard 🚀 request.md>)
 ||`Subject`|string|`Remove@Broker`
 |Body  |`Wallet`| uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  from [`Onboard@Broker`](<../📣 Onboard 🤵 Onboard 🧑‍🦰🚀📣/Onboard 🚀 request.md>)
-||`Path`    |string| Path from [`Save@Notifier`](<../📣 Tokens 🎫 Save 🤵🐌📣/Save 🐌 msg.md>)
+||`Path`    |string| Path from [`Save@Notifier`](<../Tokens 🎫 Save 🤵🐌📣/Save 🐌 msg.md>)
 |
