@@ -37,6 +37,16 @@ Failed Tests:
 
 Successful Tests:
 
+  - Given: '{{.CHAT script}}'
+    LinkText: "`.CHAT` 📃 script`"
+    LinkFile: '😃📃 .CHAT 💬 script.md'
+    Reasons: |
+      For `{{WORD script}}`,
+      where the string ends with the word `script`,
+      the file is called `?📃*WORD* script.md`
+      containing the emoji "📃"
+      and is under a folder called "*📃*scripts".
+
   - Given: '{{Triggered@Alarm}}'
     LinkText: "`Triggered@Alarm` 🔔 event"
     LinkFile: "⏰🔔 Triggered.md"
@@ -65,7 +75,7 @@ Successful Tests:
       same as "{{Parse@Hosted}}"
 
   - Given: '{{Handle@Hosted}}'
-    LinkText: "[`Handle@Hosted` 🅰️ method]"
+    LinkText: "`Handle@Hosted` 🅰️ method"
     LinkFile: "😃🐌📦 Handle.md"
     Reasons: |
       same as "{{Parse@Hosted}}"
@@ -145,9 +155,9 @@ Successful Tests:
     LinkFile: "🤵🤲 Broker helper.md"
     Reasons: This is hardcoded.
 
-  - Given: "{{Request Sync}}"
-    LinkText: "`Request Sync`"
-    LinkFile: "Request Sync 🚀.md"
+  - Given: "{{Sync Requests}}"
+    LinkText: "`Sync Requests`"
+    LinkFile: "Sync Requests 🚀.md"
     Reasons: |
       Given that none of the reasons above apply,
       for a given string with multiple words,
@@ -173,13 +183,3 @@ Successful Tests:
     LinkFile: '🔩 {.UUID}.md'
     Reasons: |
       same as "{{Request Sync}}"
-
-  - Given: '{{.CHAT script}}'
-    LinkText: "`.CHAT` 📃 script`"
-    LinkFile: '😃📃 .CHAT 💬 script.md'
-    Reasons: |
-      For `{{WORD script}}`,
-      where the string ends with the word `script`,
-      the file is called `?📃*WORD* script.md`
-      containing the emoji "📃"
-      and is under a folder called "*📃*scripts".
