@@ -51,6 +51,6 @@ Wallet: <wallet-uuid>
 
 |Property|Type|Description
 |-|-|-
-| `Broker`        | string | [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) from [`Onboard@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/...for Wallets 🧑‍🦰/Onboard/📣🚀🤵 Onboard.md>)
-| `Wallet`      | uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) ID from [`Onboard@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/...for Wallets 🧑‍🦰/Onboard/📣🚀🤵 Onboard.md>)
+| `Broker`        | string | [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) from [`Onboard@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/...for Wallets 🧑‍🦰/Onboard 📣🚀🤵/Onboard 🚀 request.md>)
+| `Wallet`      | uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) ID from [`Onboard@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/...for Wallets 🧑‍🦰/Onboard 📣🚀🤵/Onboard 🚀 request.md>)
 |

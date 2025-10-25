@@ -6,7 +6,7 @@
 # 🧑‍🦰🐌🤵 Translate @ [Broker](<../../../🤵🤲 Broker helper.md>)
 
 > Part of the [`Set Language` 💬 chat](<../../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/💬🤵 Set Language.md>)
-*  Implemented by [`Language` 📃 handler](<.📎 Assets/Language 📃 handler.md>)
+*  Implemented by [`Language` 📃 handler](<Language 📃 handler.md>)
 
 > Purpose
 * The user requests the [Broker 🤵 domain](<../../../🤵🤲 Broker helper.md>) 
