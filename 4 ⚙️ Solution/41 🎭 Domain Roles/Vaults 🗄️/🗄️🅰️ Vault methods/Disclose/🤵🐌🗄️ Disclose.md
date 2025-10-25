@@ -3,9 +3,14 @@
 
 # 🧑‍🦰🐌🗄️ Disclose @ Vault
 
-> Request for a [Vault 🗄️ domain](<../../🗄️🎭 Vault role.md>) to share user data with a [Consumer 💼 domain](<../../../Consumers 💼/💼🎭 Consumer role.md>).
+> Purpose
 
-> Used by [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Bind 🔗.md>)
+* Request for a [Vault 🗄️ domain](<../../🗄️🎭 Vault role.md>) 
+    * to share user data 
+    * with a [Consumer 💼 domain](<../../../Consumers 💼/💼🎭 Consumer role.md>).
+
+> Used by
+* [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Bind 🔗.md>)
 
 <br/>
 

@@ -3,7 +3,7 @@
 
 > Implements the [Notifier 📣 domain](<../../📣👥 Notifier domain.md>)
 
-> Used in [🧑‍🦰👉🤵 Remove token](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Tokens 🎫/💬🤵 Remove 🎫.md>).
+> Used in [🧑‍🦰👉🤵 Remove token](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Tokens 🎫/💬🤵 Remove 🎫 chat.md>).
 
 > Called by the [`TokenTimeout` 📃 script](<../../../Brokers 🤵/🤵📃 Broker scripts/...triggers/🤵📃 Token 🎫 timeout.md>)
 
