@@ -29,7 +29,7 @@
 
 ## Flow diagram
 
-![New chat](<../../.📎 Assets/⚙️🔆 Assess.png>)
+![New chat](<.📎 Assets/⚙️🔆 Assess.png>)
 
 
 | # | Call | Notes

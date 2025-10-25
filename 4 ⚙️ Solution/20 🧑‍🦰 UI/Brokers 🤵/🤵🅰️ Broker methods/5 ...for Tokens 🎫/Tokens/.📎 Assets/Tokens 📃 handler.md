@@ -17,49 +17,25 @@
 - VERIFY|$.Msg:
     Key: $wallet.PublicKey
 
-# Translate the vaults and the schemas
-- SEND >> $translations:
-    Header:
-        To: $.Settings.Graph
-        Subject: Translate@Graph
-    Body:
-        Language: $wallet.Language
-        Domains: $wallet.Vaults
-        Schemas: $wallet.BindSchemas
-
-# Add the vault titles
-- MERGE >> $binds:
-    Lists: 
-        BINDS: $wallet.Binds
-        DOMAINS: $translations.Domains
-    Match: 
-        BINDS.Vault: DOMAINS.Domain
-    Output: 
-        Bind: BINDS.Bind
-        Vault: BINDS.Vault
-        Vault$: DOMAINS.Translation
-        Schema: BINDS.Schema
-        
-# Add the schema titles
-- MERGE >> $binds:
-    Lists: 
-        BINDS: $binds
-        SCHEMAS: $translations.Schemas
-    Match: 
-        BINDS.Schema: SCHEMAS.Schema
-    Output: 
-        :BINDS:
-        Schema$: SCHEMAS.Translation
+# Prepare the response:
+- EVAL|$wallet.Tokens >> $tokens:
+    - Issuer
+    - Issuer$
+    - Key
+    - Path
+    - Schema
+    - Schema$
+    - Status
+    - Token
 
 # Respond
-- REEL:
-    Binds: $binds
+- RETURN:
+    Tokens: $tokens
 ```
 
 Needs||
 |-|-
-| [Commands ⌘](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/Command ⌘.md>) | [`GET`](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET/GET ⏬ item.md>) [`MERGE`](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/MERGE 🧬/MERGE 🧬 lists.md>) [`REEL`](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...control ▶️/REEL 🎣/REEL 🎣.md>) [`VERIFY`](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...messages 📨/VERIFY 🔐 msg.md>) 
-| [Datasets 🪣](<../../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Wallets` 🪣](<../../../../🤵🪣 Broker tables/Wallets/🤵🪣 Wallets table.md>)
-| [Messages 📨](<../../../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Translate@Graph` 🅰️ method](<../../../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>)
-| [Placeholders 🧠](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>) | [`$.Msg`](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...messages 📨/$.Msg 📨.md>) [`$.Settings`](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...messages 📨/$.Settings 🎛️.md>)
+| [Commands ⌘](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/Command ⌘.md>) | [`EVAL`](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/EVAL ⬇️ flow.md>) [`GET`](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET/GET ⏬ item.md>) [`RETURN`](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...control ▶️/RETURN ⤴️/RETURN ⤴️.md>) [`VERIFY`](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...messages 📨/VERIFY 🔐 msg.md>)
+| [Datasets 🪣](<../../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Wallets` 🪣 table](<../../../../🤵🪣 Broker tables/Wallets/🤵🪣 Wallets table.md>) <br/> [`Tokens` 🪣 table](<../../../../🤵🪣 Broker tables/Tokens/🤵🪣 Tokens 🎫 table.md>)
+| [Placeholders 🧠](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>) | [`$.Msg`](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...messages 📨/$.Msg 📨.md>)
 |

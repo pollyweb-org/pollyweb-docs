@@ -299,3 +299,156 @@
 
     ---
     <br/>
+
+
+
+1. **How to create an object array from a list of objects?**
+  
+    Here's the syntax.
+
+    ```yaml
+    # Syntax
+    EVAL|$list >> $output:
+        - <property-1>
+        - <property-2>
+    ```
+    
+    Here's a list.
+
+    ```yaml
+    | A  | B  | C  |
+    | -- | -- | -- |
+    | 10 | 11 | 12 |
+    | 20 | 21 | 22 |
+    ```
+    
+    Here's the [Script 📃](<../...commands ⌘/Script 📃/📃 Script.md>).
+
+    ```yaml   
+    # Extract only properties A and B.
+    - EVAL|$list >> $output:
+        - A
+        - B
+    ```
+
+    Here's the `$output`.
+
+    ```yaml
+    - A: 10
+      B: 11
+      
+    - A: 20
+      B: 21
+    ```
+
+    ---
+    <br/>
+
+1. **How to merge lists?**
+
+
+    Consider the 1st list `$items`.
+
+    ```yaml
+    # Items
+    | ID | Price | SupID  |
+    | -- | ----- | ------ |
+    |  1 |    10 |      A |
+    |  2 |    20 |      X |
+    |  3 |    30 |      X |
+    ```
+
+
+    And the 2nd list `$suppliers`.
+
+    ```yaml
+    # Suppliers
+    | ID | Name |
+    | -- | ---- |
+    |  A |  ABC |
+    |  X | XPTO |
+    |  Y |  ANY |
+    ```
+    
+    Let's merge them with [`EVAL`](<EVAL ⬇️ flow.md>).
+
+    
+    ```yaml
+    # Merge
+    - EVAL|$items >> $merged:
+        Item: ID
+        Supplier: Name
+            FROM $suppliers
+            MATCH SupID, $suppliers.ID
+    ```
+    
+    Here's the final `$merged` list.
+
+    ```yaml
+    | ITEM | SUPPLIER |
+    | ---- | -------- |
+    |    1 |      ABC |
+    |    2 |     XPTO |
+    |    3 |     XPTO |
+    ```
+
+
+    Here's the syntax.
+
+    ```yaml
+    # Syntax
+    EVAL|$list-1 >> $merged:
+        <original-property>: <list-1-property>
+        <merged-property>: <list-2-property>
+            FROM $list-2
+            MATCH <list-match-1>, $list-2.<list-match-2>
+    ```
+
+    <br/>
+    
+1. **How to filter lists?**
+
+    
+
+    Here's an example using the same lists as before.
+
+    ```yaml
+    # Filter with a list of values
+    #   List: X, Y
+    - EVAL|X,Y >> $filtered:
+        FROM $suppliers
+        MATCH $suppliers.ID
+
+    # Filter with a list of objects
+    #   List: {Key:X},{Key:Y}
+    - EVAL|{Key:X},{Key:Y} >> $filtered:
+        FROM $suppliers
+        MATCH Key, $suppliers.ID
+    ```
+    
+    Here's the final `$filtered` list.
+
+    ```yaml
+    # Suppliers
+    | ID | Name |
+    | -- | ---- |
+    |  X | XPTO |
+    |  Y |  ANY |
+    ```
+
+    Here's the syntax.
+
+    ```yaml
+    # Syntax to filter with a list of values
+    EVAL|$list-of-values >> $filtered:
+        FROM $list
+        MATCH $list.<matching-property>
+
+    # Syntax to filter with a list of objects
+    EVAL|$list-of-objects >> $filtered:
+        FROM $list
+        MATCH <object-property>, $list.<matching-property>
+    ```
+
+    ---
+    <br/>

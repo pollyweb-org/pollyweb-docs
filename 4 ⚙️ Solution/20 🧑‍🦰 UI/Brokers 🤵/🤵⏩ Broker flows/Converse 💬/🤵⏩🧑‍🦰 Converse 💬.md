@@ -12,7 +12,7 @@
 
 ## Flow diagram
 
-![New chat](<../../.📎 Assets/⚙️💬 Converse.png>)
+![New chat](<.📎 Assets/⚙️💬 Converse.png>)
 
 
 | # | Call | Notes

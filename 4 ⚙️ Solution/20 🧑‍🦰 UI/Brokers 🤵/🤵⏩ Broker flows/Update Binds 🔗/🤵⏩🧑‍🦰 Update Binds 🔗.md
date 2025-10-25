@@ -10,7 +10,7 @@
 
 ## Flow diagram
 
-![Update binds](<../../.📎 Assets/⚙️🔗 Update binds.png>)
+![Update binds](<.📎 Assets/⚙️🔗 Update binds.png>)
 
 
 

@@ -11,17 +11,15 @@
 
 # Verify required inputs
 - ASSERT:
-    - !wallet
-    - !wallet.Notifier
-    - !wallet.Wallet
+    $:Wallet
 
 # Notify Wallets to update Binds
 - SEND:
     Header:
-        To: !wallet.Notifier
+        To: $wallet.Notifier
         Subject: Updated@Notifier
     Body:
-        Wallet: !wallet.Wallet
+        Wallet: $wallet.Wallet
         Updates: [ BINDS ]
 ```
 
