@@ -120,7 +120,7 @@
     | [Command ⌘](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/⌘ Command.md>) | Purpose
     |-|-
     | 📝 [`INFORM`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/INFORM/INFORM 📝 msg.md>) | To provide instructions
-    | 🔗 [`BIND`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/BIND/BIND 🔗 msg.md>) | To create a user profile
+    | 🔗 [`BIND`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/BIND 🔗/BIND 🔗 msg.md>) | To create a user profile
     | 🛠️ [`INVITE`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/INVITE/INVITE 🤲 msg.md>) | To subscribe the user to plan
     | ❄️ [`FREEZE`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/FREEZE/FREEZE ❄️ msg.md>) | To disable past inputs
     | ⬇️ [`EVAL`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/EVAL ⬇️ flow.md>) | To register on the database
