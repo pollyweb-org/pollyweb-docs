@@ -74,7 +74,7 @@
     - SUCCESS|The time is {.Now}.
     - REPEAT
     ```
-    Commands: [`QUANTITY`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/QUANTITY ↕️ prompt.md>) [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) [`REPEAT`](<REPEAT 🔁.md>)
+    Commands: [`QUANTITY`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/QUANTITY ↕️/QUANTITY ↕️ prompt.md>) [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) [`REPEAT`](<REPEAT 🔁.md>)
     
     ---
     <br/>
@@ -212,7 +212,7 @@
     - REPEAT
     ```
 
-    Commands: [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️ flow.md>) [`QUANTITY`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/QUANTITY ↕️ prompt.md>) [`REPEAT`](<REPEAT 🔁.md>) [`RETURN`](<../RETURN ⤴️.md>) [`CASE`](<../CASE/CASE ⏯️.md>) 
+    Commands: [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️ flow.md>) [`QUANTITY`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/QUANTITY ↕️/QUANTITY ↕️ prompt.md>) [`REPEAT`](<REPEAT 🔁.md>) [`RETURN`](<../RETURN ⤴️.md>) [`CASE`](<../CASE/CASE ⏯️.md>) 
 
 
     ---

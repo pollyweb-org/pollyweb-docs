@@ -11,7 +11,7 @@
     An `AMOUNT` 
     * is a [Prompt 🤔](<../../🤔 Prompt.md>) 
     * that adds currency awareness
-    * to the decimal behavior of the [`QUANTITY`](<../QUANTITY ↕️ prompt.md>) prompt.
+    * to the decimal behavior of the [`QUANTITY`](<../QUANTITY ↕️/QUANTITY ↕️ prompt.md>) prompt.
 
     ---
     <br/>

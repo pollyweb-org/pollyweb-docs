@@ -47,11 +47,11 @@
     |Command |  Example | Purpose
     |-|-|-
     | 🔠 [`TEXT`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/TEXT 🔠 prompt.md>) | Bla | Unstructured text | 
-    | ↕️ [`QUANTITY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/QUANTITY ↕️ prompt.md>) | 123| Numbers with ⬆️ ⬇️ arrows |
+    | ↕️ [`QUANTITY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/QUANTITY ↕️/QUANTITY ↕️ prompt.md>) | 123| Numbers with ⬆️ ⬇️ arrows |
     | 🔢 [`DIGITS`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/DIGITS 🔢/DIGITS 🔢 prompt.md>) |0123| Numerics with 0 prefix | 
     | 💰 [`AMOUNT`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/AMOUNT 💰/AMOUNT 💰 prompt.md>) |  1.23 | Decimals and currency
-    | ⭐ [`RATE`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/RATE ⭐ prompt.md>) | 5 ⭐ | Integer from 1 to 5
-    | 🔑 [`OTP`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/OTP 🔑 prompt.md>) | 0123 | SIM one time password
+    | ⭐ [`RATE`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/RATE ⭐/RATE ⭐ prompt.md>) | 5 ⭐ | Integer from 1 to 5
+    | 🔑 [`OTP`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/OTP 🔑/OTP 🔑 prompt.md>) | 0123 | SIM one time password
     | 👍 [`CONFIRM`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>) | Yes | `Yes` `No` `Cancel` answer
     | 🔠 [`MANY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/MANY 🔠/MANY 🔠 prompt.md>) | [A,B] |
     | 1️⃣ [`ONE`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/ONE 1️⃣/ONE 1️⃣ prompt.md>) | A |
