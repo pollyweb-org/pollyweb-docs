@@ -28,11 +28,8 @@ def print_results(
                 relative_file = f"../{relative_file}"
                 file_name = os.path.basename(md_file)
 
-                encoded = urllib.parse.quote(relative_file)
-                file_link = f"[ {file_name} ](<{encoded}#L{line_num}>)"
-
-                encoded = urllib.parse.quote(md_file)
-                file_link = f"file://{encoded}, line {line_num}"
+                abs_path = os.path.abspath(md_file)
+                file_link = f"{abs_path}:{line_num}"
 
                 print(f"\nIn file!: {file_link}")
                 print(f"  - Broken link : <{link}>")
@@ -109,8 +106,8 @@ def print_results(
         print("\n## Malformed links found in the following files:")
         for md_file, links in malformed_links.items():
             for malformed_link, line_num in links:
-                encoded = urllib.parse.quote(md_file)
-                file_link = f"file://{encoded}, line {line_num})"
+                abs_path = os.path.abspath(md_file)
+                file_link = f"{abs_path}:{line_num}"
 
                 print(f"\nIn file±: {file_link}")
                 print(f"  - Line {line_num}: Malformed link: {malformed_link}")
@@ -170,8 +167,8 @@ def print_results(
         print("\n## Replacement characters (U+FFFD, �) found:")
         for md_file, hits in replacement_char_hits.items():
             for line_num, line_text in hits:
-                encoded = urllib.parse.quote(md_file)
-                file_link = f"file://{encoded}, line {line_num})"
+                abs_path = os.path.abspath(md_file)
+                file_link = f"{abs_path}:{line_num}"
                 print(f"\nIn file±: {file_link}")
                 print(f"  - Line {line_num}: contains replacement character '�' (U+FFFD)")
                 preview = line_text
