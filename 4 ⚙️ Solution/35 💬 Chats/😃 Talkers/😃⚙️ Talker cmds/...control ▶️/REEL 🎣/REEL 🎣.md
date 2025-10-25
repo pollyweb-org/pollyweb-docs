@@ -64,7 +64,7 @@
         Else: FAILURE|Not bounded.
     ```
 
-    Commands: [`BIND`](<../../...methods 🤵/BIND 🔗/BIND 🔗 msg.md>) [`IF`](<../IF/IF ⤵️.md>)
+    Commands: [`BIND`](<../../...methods 🤵/BIND 🔗/BIND 🔗 msg.md>) [`IF`](<../IF ⤵️/IF ⤵️.md>)
     
     <br/>
 

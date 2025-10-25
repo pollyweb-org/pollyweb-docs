@@ -47,8 +47,8 @@
     |Context|Syntax
     |-|-
     |▶️ [`RUN`](<../...control ▶️/RUN ▶️/RUN ▶️.md>)| Calls a [Script 📃](<📃 Script.md>) by name, then returns.
-    |⤵️ [`IF`](<../...control ▶️/IF/IF ⤵️.md>) | Runs [Scripts 📃](<📃 Script.md>) for `True` and `False` evaluations.
-    | ⏯️️ [`CASE`](<../...control ▶️/CASE/CASE ⏯️.md>) | Runs [Scripts 📃](<📃 Script.md>) for matching evaluations.
+    |⤵️ [`IF`](<../...control ▶️/IF ⤵️/IF ⤵️.md>) | Runs [Scripts 📃](<📃 Script.md>) for `True` and `False` evaluations.
+    | ⏯️️ [`CASE`](<../...control ▶️/CASE ⏯️/CASE ⏯️.md>) | Runs [Scripts 📃](<📃 Script.md>) for matching evaluations.
     | ⏸️ [`WAIT`](<../...control ▶️/WAIT ⏸️/WAIT ⏸️.md>) | Runs [Scripts 📃](<📃 Script.md>) on signalled and timed out.
 
     ---
