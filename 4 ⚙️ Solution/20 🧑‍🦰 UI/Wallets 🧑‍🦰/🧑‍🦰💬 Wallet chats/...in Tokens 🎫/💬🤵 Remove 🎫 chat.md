@@ -37,6 +37,6 @@
 |-|-|-
 | 1 | [🧑‍🦰🐌🤵 `Pop@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🧑‍🦰🐌🤵 Pop.md>)  | The user calls the [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) from the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
 | 2 | [🤗⏩🧑‍🦰 Prompt 🤔](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | Then tells the [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) to remove the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) 
-| 3 | [🤵⏩🧑‍🦰 Update Tokens 🎫](<../../../Brokers 🤵/🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Tokens 🎫.md>) | The [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) tells the [Wallet 🧑‍🦰](<../../🧑‍🦰🛠️ Wallet app.md>) to update the list
+| 3 | [🤵⏩🧑‍🦰 Update Tokens 🎫](<../../../Brokers 🤵/🤵⏩ Broker flows/Update Tokens 🎫/🤵⏩🧑‍🦰 Update Tokens 🎫.md>) | The [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) tells the [Wallet 🧑‍🦰](<../../🧑‍🦰🛠️ Wallet app.md>) to update the list
 | 4 | [🤵🐌📣 `Remove@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/3 🤵🐌📣 Remove.md>) | The [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) tells the [Wallet 🧑‍🦰](<../../🧑‍🦰🛠️ Wallet app.md>) to remove it
 ||

@@ -9,7 +9,7 @@
 > Used in:
 * [`Translate` 💬 chat](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/💬🤵 Translate.md>)
 * [`List binds` 💬 chat](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/💬🤵 List Binds 🔗.md>)
-* [`Update Binds` ⏩ flow](<../../🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Binds 🔗.md>)
+* [`Update Binds` ⏩ flow](<../../🤵⏩ Broker flows/Update Binds 🔗/🤵⏩🧑‍🦰 Update Binds 🔗.md>)
 
 <br/>
 
