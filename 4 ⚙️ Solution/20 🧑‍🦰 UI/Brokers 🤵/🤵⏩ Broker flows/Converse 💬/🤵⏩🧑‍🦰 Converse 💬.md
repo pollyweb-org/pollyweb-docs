@@ -2,9 +2,11 @@
 
 > Part of [`Assess` ⏩ flow](<../Assess 🔆/🤵⏩🧑‍🦰 Assess 🔆.md>)
 
-> Implemented by [`Converse` 📃 script](<../../🤵📃 Broker scripts/...procedures/🤵📃 Converse ⏩.md>)
+> Implemented by [`Converse` 📃 script](<.📎 Assets/Converse 📃 script.md>)
 
-* Opens a new chat window in the app.
+> Purpose
+
+* Opens a new [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) window in the [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
 
 <br/>
 

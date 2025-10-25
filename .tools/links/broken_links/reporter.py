@@ -1,7 +1,7 @@
 """Output helpers for presenting broken link diagnostics."""
 
 import os
-import urllib.parse
+from pathlib import Path
 
 from .common import remove_numbers
 
@@ -28,10 +28,12 @@ def print_results(
                 relative_file = f"../{relative_file}"
                 file_name = os.path.basename(md_file)
 
-                abs_path = os.path.abspath(md_file)
-                file_link = f"{abs_path}:{line_num}"
+                abs_path = Path(md_file).resolve()
+                uri = f"{abs_path.as_uri()}:{line_num}"
+                display = f"{os.path.relpath(abs_path, project_directory)}:{line_num}"
+                file_link = f"\x1b]8;;{uri}\x1b\\{display}\x1b]8;;\x1b\\"
 
-                print(f"\nIn file!: {file_link}")
+                print(f"\nIn: {file_link}")
                 print(f"  - Broken link : <{link}>")
                 print(f"  - Tip         : {tip}")
                 print(f"  - Suggestion  : <{suggestion}>")
@@ -106,11 +108,13 @@ def print_results(
         print("\n## Malformed links found in the following files:")
         for md_file, links in malformed_links.items():
             for malformed_link, line_num in links:
-                abs_path = os.path.abspath(md_file)
-                file_link = f"{abs_path}:{line_num}"
+                abs_path = Path(md_file).resolve()
+                uri = f"{abs_path.as_uri()}:{line_num}"
+                display = f"{os.path.relpath(abs_path, project_directory)}:{line_num}"
+                file_link = f"\x1b]8;;{uri}\x1b\\{display}\x1b]8;;\x1b\\"
 
-                print(f"\nIn file±: {file_link}")
-                print(f"  - Line {line_num}: Malformed link: {malformed_link}")
+                print(f"\nIn: {file_link}")
+                print(f"  - Malformed link: {malformed_link}")
 
                 suggestion = None
                 fix_link = None
@@ -167,10 +171,12 @@ def print_results(
         print("\n## Replacement characters (U+FFFD, �) found:")
         for md_file, hits in replacement_char_hits.items():
             for line_num, line_text in hits:
-                abs_path = os.path.abspath(md_file)
-                file_link = f"{abs_path}:{line_num}"
-                print(f"\nIn file±: {file_link}")
-                print(f"  - Line {line_num}: contains replacement character '�' (U+FFFD)")
+                abs_path = Path(md_file).resolve()
+                uri = f"{abs_path.as_uri()}:{line_num}"
+                display = f"{os.path.relpath(abs_path, project_directory)}:{line_num}"
+                file_link = f"\x1b]8;;{uri}\x1b\\{display}\x1b]8;;\x1b\\"
+                print(f"\nIn: {file_link}")
+                print("  - Contains replacement character '�' (U+FFFD)")
                 preview = line_text
                 if len(preview) > 200:
                     preview = preview[:200] + "…"
