@@ -2,15 +2,20 @@
 
 > Part of the [Vault 🗄️ domain](<../🗄️🎭 Vault role.md>)
 
-> [Script 📃](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/📃 Script.md>) that implements the [`Bound@Vault` 🅰️ method](<../🗄️🅰️ Vault methods/to Bind/🤵🐌🗄️ Bound.md>).
+> Purpose
+
+* [Script 📃](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/📃 Script.md>) that implements the [`Bound@Vault` 🅰️ method](<../🗄️🅰️ Vault methods/to Bind/🤵🐌🗄️ Bound.md>).
+
+> Called by 
+
+* Called by the [`BIND` 🔗 command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/BIND 🔗 msg.md>)
+* which then calls the [`Bindable@Broker` 🅰️ method](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>) 
+
 
 <br/>
 
 ## Handler
 
-> Called by the [`BIND` 🔗 command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/BIND 🔗 msg.md>)
-
-> Then called by the [`Bindable@Broker` 🅰️ method](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/4 🤵🅰️ Binds 🔗/🗄️🐌🤵 Bindable.md>) 
 
 ```yaml
 # Verify the domain signature

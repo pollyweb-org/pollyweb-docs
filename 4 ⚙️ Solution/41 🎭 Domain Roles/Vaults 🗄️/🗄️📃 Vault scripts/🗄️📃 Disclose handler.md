@@ -9,6 +9,26 @@
 ## Script
 
 ```yaml
+📃 Disclose@Vault:
+
+# Verify the signature
+- VERIFY|$.Msg
+
+- EVAL|
+
+# Create the collect
+- SAVE|Collects@Vault >> $collect:
+    Collect: .UUID()
+    Consumer: $.Msg.From
+    Data: $data
+
+# Send the Collect message
+- SEND:
+    Header:
+        To: $collect.Consumer
+        Subject: Collect@Consumer
+    Body:
+        Collect: $collect.Collect
 ```
 
 |Needs||
