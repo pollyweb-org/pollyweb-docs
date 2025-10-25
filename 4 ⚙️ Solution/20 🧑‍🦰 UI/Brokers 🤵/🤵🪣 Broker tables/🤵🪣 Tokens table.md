@@ -3,14 +3,14 @@
 > Purpose:
 * Stores [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
     * initially stored in [`Offers` 🪣 table](<🤵🪣 Offers table.md>)
-    * by the [`Offer@Broker`](<../🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>) method
-    * then later saved by the [`Saved@Broker`](<../🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🧑‍🦰🐌🤵 Saved.md>) method
+    * by the [`Offer@Broker`](<../🤵🅰️ Broker methods/5 ...for Tokens 🎫/🎴🐌🤵 Offer.md>) method
+    * then later saved by the [`Saved@Broker`](<../🤵🅰️ Broker methods/5 ...for Tokens 🎫/🧑‍🦰🐌🤵 Saved.md>) method
 
 > Read by: 
-* [`Tokens@Broker` 🅰️](<../🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🧑‍🦰🚀🤵 Tokens.md>) method
+* [`Tokens@Broker` 🅰️](<../🤵🅰️ Broker methods/5 ...for Tokens 🎫/🧑‍🦰🚀🤵 Tokens.md>) method
 
 > Written by:
-* [`Saved@Broker`](<../🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🧑‍🦰🐌🤵 Saved.md>)
+* [`Saved@Broker`](<../🤵🅰️ Broker methods/5 ...for Tokens 🎫/🧑‍🦰🐌🤵 Saved.md>)
 
 <br/>
 
@@ -56,8 +56,8 @@ Status: REVOKED
 
 |Property|Type|Description
 |-|-|-
-| `Issuer` | string | [Issuer 🎴](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)  from [`Offer@Broker`](<../🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
-| `Path` | string | Path from [`Saved@Broker`](<../🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🧑‍🦰🐌🤵 Saved.md>)
-| `Status`| string | Status from [`Revise@Broker`](<../🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Revise.md>)
-| `Token`| uuid |  [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) from [`Offer@Broker`](<../🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🎴🐌🤵 Offer.md>)
+| `Issuer` | string | [Issuer 🎴](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)  from [`Offer@Broker`](<../🤵🅰️ Broker methods/5 ...for Tokens 🎫/🎴🐌🤵 Offer.md>)
+| `Path` | string | Path from [`Saved@Broker`](<../🤵🅰️ Broker methods/5 ...for Tokens 🎫/🧑‍🦰🐌🤵 Saved.md>)
+| `Status`| string | Status from [`Revise@Broker`](<../🤵🅰️ Broker methods/5 ...for Tokens 🎫/🎴🐌🤵 Revise.md>)
+| `Token`| uuid |  [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) from [`Offer@Broker`](<../🤵🅰️ Broker methods/5 ...for Tokens 🎫/🎴🐌🤵 Offer.md>)
 ||
