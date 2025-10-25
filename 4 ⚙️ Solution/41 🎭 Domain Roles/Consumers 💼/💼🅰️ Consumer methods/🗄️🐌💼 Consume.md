@@ -36,7 +36,7 @@ Body:
 | `Broker`| string | [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) name
 | `Chat` | uuid | [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID
 | `Schema`| string |  [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
-| `Hook` | uuid | From [`Query@`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/...for Share 💼/Query/💼🐌🤵 Query.md>) and [`Invite@`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/...for Share 💼/Invite/💼🐌🤵 Invite.md>)
+| `Hook` | uuid | From [`Query@`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/...for Share 💼/Query 💼🐌🤵/Query 🐌 msg.md>) and [`Invite@`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/...for Share 💼/Invite 💼🐌🤵/Invite 🐌 msg.md>)
 | `Collect` | uuid | Hook for [`Collect@Vault`](<../../Vaults 🗄️/🗄️🅰️ Vault methods/Collect/💼🚀🗄️ Collect.md>)
 | `TTL` | timestamp| Callback deadline
 |
