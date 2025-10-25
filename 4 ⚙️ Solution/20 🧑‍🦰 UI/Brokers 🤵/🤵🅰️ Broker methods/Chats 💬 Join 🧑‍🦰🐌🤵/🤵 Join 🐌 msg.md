@@ -41,8 +41,8 @@ Body:
 
 | Object | Property | Type |Description
 |-|-|-|-
-| Header | `From`    | string | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  from [`Onboard@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/📣 Onboard 🤵 Onboard 🧑‍🦰🚀📣/Onboard 🚀 request.md>)
-|| `To`      | string | [Broker 🤵](<../../🤵🤲 Broker helper.md>) from [`Onboard@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/📣 Onboard 🤵 Onboard 🧑‍🦰🚀📣/Onboard 🚀 request.md>)
+| Header | `From`    | string | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  from [`Onboard@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Onboard 🤵 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
+|| `To`      | string | [Broker 🤵](<../../🤵🤲 Broker helper.md>) from [`Onboard@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Onboard 🤵 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
 || `Subject` | string | `Join@Broker`
 | Body | `Chat`  | uuid   | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)  from [`Converse@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/📣 Chats 💬 Converse 🤵🐌📣/Converse 📣 msg.md>)
 |
