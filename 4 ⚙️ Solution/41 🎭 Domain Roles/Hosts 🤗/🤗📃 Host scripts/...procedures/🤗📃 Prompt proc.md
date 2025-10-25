@@ -1,6 +1,6 @@
 # 🤗📃 Prompt  script
 
-> Implements [`Prompted@Hosted`](<../../🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🧑‍🦰🚀🤗 Prompted.md>)
+> Implements [`Prompted@Hosted`](<../../🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 request.md>)
 
 ## Script
 
