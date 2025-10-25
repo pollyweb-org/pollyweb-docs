@@ -27,7 +27,7 @@
     | [Command ⌘](<../...commands ⌘/⌘ Command.md>) | Purpose
     |-|-
     | ⬇️ [`EVAL`](<../...placeholders 🧠/EVAL ⬇️ flow.md>) | To push an object into a [placeholder 🧠](<../...placeholders 🧠/$Placeholder 🧠.md>).
-    | ℹ️ [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) | To show the placeholder values.
+    | ℹ️ [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the placeholder values.
     
     ---
     <br/>
@@ -57,7 +57,7 @@
 
     | [Command ⌘](<../...commands ⌘/⌘ Command.md>) | Purpose
     |-|-
-    | ℹ️ [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) | To show the [placeholder 🧠](<../...placeholders 🧠/$Placeholder 🧠.md>) values.
+    | ℹ️ [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the [placeholder 🧠](<../...placeholders 🧠/$Placeholder 🧠.md>) values.
     | ↕️ [`QUANTITY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/42 ↕️ QUANTITY prompt.md>) | To collect the number input.
     
 

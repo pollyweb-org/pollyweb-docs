@@ -42,9 +42,9 @@
 
     | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ [Hi, Alice! I'm happy.](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>)
-    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ [Hi David! I'm glad.](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>)
-    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ [Example finished.](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
+    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ [Hi, Alice! I'm happy.](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
+    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ [Hi David! I'm glad.](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
+    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ [Example finished.](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
     |
 
     Here's the [Script 📃](<../...commands ⌘/📃 Script.md>).
@@ -70,7 +70,7 @@
     - INFO|Hi, {$:Name}! I'm {$:Feeling}.
     ```
 
-    Commands: [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`RUN`](<RUN ▶️.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
+    Commands: [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`RUN`](<RUN ▶️.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
 
     ---
     <br/>
@@ -114,7 +114,7 @@
     - INFO|You gave me number {$:n}.
     ```
 
-    Commands: [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`QUANTITY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/42 ↕️ QUANTITY prompt.md>) [`RUN`](<RUN ▶️.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
+    Commands: [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`QUANTITY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/42 ↕️ QUANTITY prompt.md>) [`RUN`](<RUN ▶️.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
 
 
     ---
@@ -127,8 +127,8 @@
 
     | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) |  ℹ️ [Here's number  3512596.](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>)
-    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) |  ℹ️ [Here's number  52364.](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>)
+    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) |  ℹ️ [Here's number  3512596.](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
+    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) |  ℹ️ [Here's number  52364.](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ Example finished.
     |
 
@@ -154,7 +154,7 @@
     - INFO|Here's number {$:n}.
     ```
 
-    Commands: [`ASSERT`](<../...placeholders 🧠/ASSERT 🚦/ASSERT 🚦.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
+    Commands: [`ASSERT`](<../...placeholders 🧠/ASSERT 🚦/ASSERT 🚦.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
 
     ```python
     # 🐍 Python handler
@@ -201,7 +201,7 @@
     - FAILURE|This is a bug.
     ```
 
-    Commands: [`CASE`](<CASE/CASE ⏯️.md>) [`FAILURE`](<RETURN ⤴️.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
+    Commands: [`CASE`](<CASE/CASE ⏯️.md>) [`FAILURE`](<RETURN ⤴️.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
 
 
 
@@ -216,9 +216,9 @@
     | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) |  ℹ️ Adding 5 to 2...
-    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) |  ✅ [The first result is 7.](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
+    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) |  ✅ [The first result is 7.](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) |  ℹ️ Adding 5 to 4...
-    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) |  ✅ [The second result is 9.](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
+    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) |  ✅ [The second result is 9.](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
     |
     
     Here's the [Script 📃](<../...commands ⌘/📃 Script.md>)
@@ -246,7 +246,7 @@
     - FAILURE|This is a bug.
     ```
 
-    Commands: [`FAILURE`](<../../../🤔 Prompts/🤔📢 Prompt status/FAILURE ❌ prompt.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`RETURN`](<RETURN ⤴️.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
+    Commands: [`FAILURE`](<../../../🤔 Prompts/🤔📢 Prompt status/FAILURE ❌/FAILURE ❌ prompt.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`RETURN`](<RETURN ⤴️.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
 
 
 

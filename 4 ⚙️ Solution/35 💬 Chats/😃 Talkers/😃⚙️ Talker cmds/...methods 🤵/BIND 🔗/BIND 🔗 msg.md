@@ -24,7 +24,7 @@
     | - | - | - |
     | 🗄️ [Vault](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) |  😃 Hi! What do you need? <br/>- [ Bind ]  | > Bind
     | 🤵 [Broker](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | 🫥 [Bind?](<BIND 🔗 msg.md>) [Yes, No] <br/> -  Some schema 🧩 <br/> - Some other schema 🧩 | > Yes
-    | 🗄️ [Vault](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) | ✅ [Done!](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
+    | 🗄️ [Vault](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) | ✅ [Done!](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
 
     ---
     <br/>
@@ -39,7 +39,7 @@
     | - | - | - |
     | 🗄️ [Vault](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) |  😃 Hi! What do you need? <br/>- [ Bind ]  | > Bind
     | 🤵 [Broker](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | 🫥 [Bind?](<BIND 🔗 msg.md>) [All, No] <br/> - [ ] Some schema 🧩 <br/> - [ ] Some other schema 🧩 | > All
-    | 🗄️ [Vault](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) | ✅ [Done!](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
+    | 🗄️ [Vault](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) | ✅ [Done!](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
 
     ---
     <br/>
