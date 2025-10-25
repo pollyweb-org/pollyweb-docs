@@ -74,16 +74,15 @@
     Language: .Msg.Language
 
 # Inform the Notifier
-- RUN:
-    - UpdateChats
-    - UpdateBinds
-    - UpdateTokens
+- RUN|Updated@Notifier:
+    Wallet: $:Wallet
+    Updates: [CHATS, BINDS, TOKENS]
 ```
 
 
 |Needs||
 |-|-
 | [Commands ⌘](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/Command ⌘.md>) | [`ASSERT`](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/ASSERT 🚦/ASSERT 🚦.md>) [`CASE`](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...control ▶️/CASE ⏯️/CASE ⏯️.md>) [`GROUP`](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/GROUP 🧬/GROUP 🧬 lists.md>) [`RUN`](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...control ▶️/RUN ▶️/RUN ▶️.md>)  [`SAVE`](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/SAVE/SAVE 💾 item.md>) [`SEND`](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...messages 📨/SEND 📬 msg.md>) [`VERIFY`](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...messages 📨/VERIFY 🔐 msg.md>)
-| [Messages 📨](<../../../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Translate@Graph`](<../../../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>) 
-| [Scripts 📃](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) | [`Update Chats` 📃 script](<../../../../🤵⏩ Broker flows/Update Chats 💬/.📎 Assets/Update Chats 📃 script.md>) <br/> [`Update Binds` 📃 script](<../../../../🤵⏩ Broker flows/Update Binds 🔗/.📎 Assets/Update Binds 📃 script.md>) <br/> [`Update Tokens` 📃 script](<../../../../🤵⏩ Broker flows/Update Tokens 🎫/.📎 Assets/Update Tokens 📃 script.md>)
+| [Messages 📨](<../../../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Translate@Graph` 🅰️ method](<../../../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>)
+| [Scripts 📃](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) | [`Update Notifier` 📃 script](<../../../../.📎 Assets/Update Notifier 📃 script.md>)
 |
