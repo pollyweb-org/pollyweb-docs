@@ -2,6 +2,7 @@
 
 import os
 from pathlib import Path
+from urllib.parse import quote
 
 from .common import remove_numbers
 
@@ -29,7 +30,8 @@ def print_results(
                 file_name = os.path.basename(md_file)
 
                 abs_path = Path(md_file).resolve()
-                uri = f"{abs_path.as_uri()}:{line_num}"
+                quoted_path = quote(abs_path.as_posix(), safe="/")
+                uri = f"vscode://file{quoted_path}:{line_num}"
                 display = f"{os.path.relpath(abs_path, project_directory)}:{line_num}"
                 file_link = f"\x1b]8;;{uri}\x1b\\{display}\x1b]8;;\x1b\\"
 
@@ -109,7 +111,8 @@ def print_results(
         for md_file, links in malformed_links.items():
             for malformed_link, line_num in links:
                 abs_path = Path(md_file).resolve()
-                uri = f"{abs_path.as_uri()}:{line_num}"
+                quoted_path = quote(abs_path.as_posix(), safe="/")
+                uri = f"vscode://file{quoted_path}:{line_num}"
                 display = f"{os.path.relpath(abs_path, project_directory)}:{line_num}"
                 file_link = f"\x1b]8;;{uri}\x1b\\{display}\x1b]8;;\x1b\\"
 
@@ -172,7 +175,8 @@ def print_results(
         for md_file, hits in replacement_char_hits.items():
             for line_num, line_text in hits:
                 abs_path = Path(md_file).resolve()
-                uri = f"{abs_path.as_uri()}:{line_num}"
+                quoted_path = quote(abs_path.as_posix(), safe="/")
+                uri = f"vscode://file{quoted_path}:{line_num}"
                 display = f"{os.path.relpath(abs_path, project_directory)}:{line_num}"
                 file_link = f"\x1b]8;;{uri}\x1b\\{display}\x1b]8;;\x1b\\"
                 print(f"\nIn: {file_link}")
