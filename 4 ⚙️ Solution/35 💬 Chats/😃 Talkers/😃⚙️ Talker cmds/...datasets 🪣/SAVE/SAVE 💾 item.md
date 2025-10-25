@@ -2,19 +2,19 @@
 
 # 😃💾 Talker `SAVE` command
 
-> Part of [Talker 😃](<../../😃 Talker role.md>)
+> Part of [Talker 😃](<../../../😃 Talker role.md>)
 
-> Implemented by the [`.SAVE` 📃 script](<../../😃📃 Talker scripts/...for datasets 🪣/😃📃 .SAVE script.md>)
+> Implemented by the [`.SAVE` 📃 script](<../../../😃📃 Talker scripts/...for datasets 🪣/😃📃 .SAVE script.md>)
 
-> Relates to [Tables 🪣 folder](<../../../../55 👷 Build domains/Hosteds 📦/📦📄 Hosted files/🪣📂 Tables folder.md>)
+> Relates to [Tables 🪣 folder](<../../../../../55 👷 Build domains/Hosteds 📦/📦📄 Hosted files/🪣📂 Tables folder.md>)
 
 <br/>
 
 1. **What is a SAVE command?**
 
     A `SAVE` 💾
-    * is a [Command ⌘](<../...commands ⌘/⌘ Command.md>) 
-    * that stores an item in an [Itemized 🛢 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
+    * is a [Command ⌘](<../../...commands ⌘/⌘ Command.md>) 
+    * that stores an item in an [Itemized 🛢 dataset](<../../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
 
     ---
     <br/>
@@ -38,7 +38,7 @@
     |-|-|-
     | `<set>` | Name of resource pool | `MyPool`
     | `{object}` | Item to update or insert in the pool | `MyKey` `$key`
-    | `$inserted` | [Placeholder 🧠](<../...placeholders 🧠/$Placeholder 🧠.md>) with the insertion | `$item`
+    | `$inserted` | [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) with the insertion | `$item`
 
     ---
     <br/>
@@ -81,7 +81,7 @@
 
     | Argument| Purpose | Examples
     |-|-|-
-    | `$item` | [Placeholder 🧠](<../...placeholders 🧠/$Placeholder 🧠.md>) loaded with [`GET`](<GET ⏬ item.md>)
+    | `$item` | [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) loaded with [`GET`](<../GET/GET ⏬ item.md>)
     | `{changes}` | Object with changes to apply | `{A:1, B:2}`
     | `.Timeout` | Automatic delete for cleanup, in | `30 days`
     | | `minutes` `hours` `days` `months`
@@ -103,14 +103,14 @@
         a: 1
     ```
 
-    Commands: [`EVAL`](<GET ⏬ item.md>) [`SAVE`](<SAVE 💾 item.md>)
+    Commands: [`EVAL`](<../GET/GET ⏬ item.md>) [`SAVE`](<SAVE 💾 item.md>)
 
     ---
     <br/>
 
 1. **What if the item doesn't exist?**
 
-    Set the `Default` property of [`GET`](<GET ⏬ item.md>).
+    Set the `Default` property of [`GET`](<../GET/GET ⏬ item.md>).
 
     ```yaml
     # Get the item from the database
@@ -128,14 +128,14 @@
         a: 1
     ```
 
-    Commands: [`EVAL`](<GET ⏬ item.md>) [`SAVE`](<SAVE 💾 item.md>)
+    Commands: [`EVAL`](<../GET/GET ⏬ item.md>) [`SAVE`](<SAVE 💾 item.md>)
     
     ---
     <br/>
 
 1. **How do handled blocked tables?**
 
-    Raises a 409 HTTP error in a [Talker 😃](<../../😃 Talker role.md>) when trying to update an [Itemized 🛢 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) with the `NoUpdate` flag active - e.g. [`Grab@Printer`](<../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🅰️ Printer methods/👥🚀🖨️ Grab.md>).
+    Raises a 409 HTTP error in a [Talker 😃](<../../../😃 Talker role.md>) when trying to update an [Itemized 🛢 dataset](<../../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) with the `NoUpdate` flag active - e.g. [`Grab@Printer`](<../../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🅰️ Printer methods/👥🚀🖨️ Grab.md>).
 
     ---
     <br/>
