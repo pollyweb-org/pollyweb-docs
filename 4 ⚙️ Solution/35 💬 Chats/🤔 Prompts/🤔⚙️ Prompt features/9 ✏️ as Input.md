@@ -33,9 +33,9 @@
     | [↕️&nbsp;QUANTITY](<../🤔✏️ Prompt inputs/QUANTITY ↕️ prompt.md>) | Shows up/down arrows.
     | [💰&nbsp;AMOUNT](<../🤔✏️ Prompt inputs/AMOUNT 💰 prompt.md>) | Allows for decimals
     | [🔑&nbsp;OTP](<../🤔✏️ Prompt inputs/57 🔑 OTP prompt.md>) | Asks for 6 digits
-    | [1️⃣&nbsp;ONE](<../🤔✏️ Prompt inputs/53 1️⃣ ONE prompt.md>) | One of multiple options
-    | [🔠&nbsp;MANY](<../🤔✏️ Prompt inputs/54 🔠 MANY prompt.md>) | Zero or more of multiple options
-    | [⭐&nbsp;RATE](<../🤔✏️ Prompt inputs/46 ⭐ RATE prompt.md>) | 1 to 5 stars
+    | [1️⃣&nbsp;ONE](<../🤔✏️ Prompt inputs/ONE 1️⃣ prompt.md>) | One of multiple options
+    | [🔠&nbsp;MANY](<../🤔✏️ Prompt inputs/MANY 🔠 prompt.md>) | Zero or more of multiple options
+    | [⭐&nbsp;RATE](<../🤔✏️ Prompt inputs/RATE ⭐ prompt.md>) | 1 to 5 stars
     | [🕓&nbsp;TIME](<../🤔✏️ Prompt inputs/62 🕓 TIME prompt.md>) | Asks for time of day
     | [📆&nbsp;DATE](<../🤔✏️ Prompt inputs/61 📆 DATE prompt.md>) | Asks for a date
     | [🛒&nbsp;EAN](<../🤔✏️ Prompt inputs/74 🛒 EAN prompt.md>) | Scans for ENA-13 and EAN-8 barcodes
@@ -43,7 +43,7 @@
     | [🦋&nbsp;TOUCH](<../🤔✏️ Prompt inputs/73 🦋 TOUCH prompt.md>) | Asks to touch/scan a [QR/NFC Ephemeral 🦋 device](<../../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>)
     | [⬆️&nbsp;UPLOAD](<../🤔✏️ Prompt inputs/81 ⬆️ UPLOAD prompt.md>)| Asks to upload a file or photo
     | [📍&nbsp;LOCATION](<../🤔✏️ Prompt inputs/91 📍 LOCATION prompt.md>) | Asks for the current location
-    | [🗺️&nbsp;TRACK](<../🤔✏️ Prompt inputs/92 🗺️ TRACK prompt.md>) | Asks to track the location
+    | [🗺️&nbsp;TRACK](<../🤔✏️ Prompt inputs/TRACK 🗺️ prompt.md>) | Asks to track the location
     | [👤&nbsp;IDENTIFY](<../🤔✏️ Prompt inputs/71 👤 IDENTIFY prompt.md>) | Asks the user's [Identity 🆔 agent](<../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) to verify the user
 
 
@@ -59,7 +59,7 @@
     * e.g., ask to share the code `nlweb.dom/BOOKING/CONTACTS` instead of asking for the name, then the phone number, then the email address, and so on.
   
     When [Prompts 🤔](<../🤔 Prompt.md>) are inevitable, avoid [`TEXT`](<../🤔✏️ Prompt inputs/TEXT 🔠 prompt.md>) prompts; 
-    * instead, prefer low-effort prompts like [`ONE`](<../🤔✏️ Prompt inputs/53 1️⃣ ONE prompt.md>);
+    * instead, prefer low-effort prompts like [`ONE`](<../🤔✏️ Prompt inputs/ONE 1️⃣ prompt.md>);
     * e.g., searchable lists with one or many possible options.
 
     ---

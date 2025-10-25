@@ -56,11 +56,11 @@
 
 1. **How to provide default time options in a [Chat 💬](<../../💬 Chats/💬 Chat.md>)?**
 
-    Mix with [ONE 1️⃣ prompts](<53 1️⃣ ONE prompt.md>), like in the following [Chat 💬](<../../💬 Chats/💬 Chat.md>).
+    Mix with [ONE 1️⃣ prompts](<ONE 1️⃣ prompt.md>), like in the following [Chat 💬](<../../💬 Chats/💬 Chat.md>).
 
     | Domain | [Prompt 🤔](<../🤔 Prompt.md>) | User
     | - | - | - |
-    | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 [What time tomorrow?](<53 1️⃣ ONE prompt.md>) <br/> - [ 10:00 ] <br/> - [ 10:30 ] <br/> - [ Another ] time | > Another
+    | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 [What time tomorrow?](<ONE 1️⃣ prompt.md>) <br/> - [ 10:00 ] <br/> - [ 10:30 ] <br/> - [ Another ] time | > Another
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 When exactly? | 🕓 10:37:00
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ Thanks!
     |
