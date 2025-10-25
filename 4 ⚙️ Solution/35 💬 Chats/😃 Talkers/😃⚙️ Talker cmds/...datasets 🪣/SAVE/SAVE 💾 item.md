@@ -4,7 +4,7 @@
 
 > Part of [Talker 😃](<../../../😃 Talker role.md>)
 
-> Implemented by the [`.SAVE` 📃 script](<.📎 Assets/😃📃 .SAVE script.md>)
+> Implemented by the [`.SAVE` 📃 script](<.📎 Assets/SAVE 📃 script.md>)
 
 > Relates to [Tables 🪣 folder](<../../../../../55 👷 Build domains/Hosteds 📦/📦📄 Hosted files/🪣📂 Tables folder.md>)
 
