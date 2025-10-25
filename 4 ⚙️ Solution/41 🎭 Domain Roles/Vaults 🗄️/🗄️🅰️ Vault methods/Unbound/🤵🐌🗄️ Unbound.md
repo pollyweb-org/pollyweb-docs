@@ -3,9 +3,9 @@
 
 # 🤵🐌🗄️ Unbound @ Vault
 
-> Part of the [🧑‍🦰👉🗄️ Unbind @ Wallet](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Vaults 🗄️/💬🤵 Unbind 🗄️.md>) flow.
+> Part of the [🧑‍🦰👉🗄️ Unbind @ Wallet](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Vaults 🗄️/💬🤵 Unbind 🗄️ chat.md>) flow.
 
-> Implemented by the [`Unbound` 📃 handler](<.📎 Assets/Unbound 📃 handler.md>)
+* Implemented by the [`Unbound` 📃 handler](<.📎 Assets/Unbound 📃 handler.md>)
 
 > Purpose
 

@@ -100,6 +100,10 @@ def format_dynamic_link_text(token: str, *, triple_brace: bool = False) -> str:
         core = token[: -len(" table")].strip()
         if core:
             return f"`{core}` 🪣 table"
+    if token.lower().endswith(" flow"):
+        core = token[: -len(" flow")].strip()
+        if core:
+            return f"`{core}` ⏩ flow"
     if token.endswith(" script"):
         core = token[: -len(" script")].strip()
         if core:

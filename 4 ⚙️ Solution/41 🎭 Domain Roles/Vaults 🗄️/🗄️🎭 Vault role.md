@@ -33,7 +33,7 @@
     |-|-|-
     | | [👉 Binds ](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/💬🤵 List Binds 🔗.md>) | List the user's [Binds 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
     || [👉 Bind](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🗄️ Bind 🔗.md>) | [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) the [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) to a [Vault 🗄️](<🗄️🎭 Vault role.md>)
-    || [👉 Unbind](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Vaults 🗄️/💬🤵 Unbind 🗄️.md>) | Remove a [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) from a [Vault 🗄️](<🗄️🎭 Vault role.md>)
+    || [👉 Unbind](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Vaults 🗄️/💬🤵 Unbind 🗄️ chat.md>) | Remove a [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) from a [Vault 🗄️](<🗄️🎭 Vault role.md>)
     
     ---
     <br/>
@@ -58,7 +58,7 @@
     | | Workflow |  Description
     |-|-|-
     ||[👉 Share](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Bind 🔗.md>) | Shares a [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) with a [Consumer 💼](<../Consumers 💼/💼🎭 Consumer role.md>)
-    || [💼 Consume](<🗄️⏩ Vault flows/🗄️⏩💼 Consume 🔗.md>) | Tells a [Consumer 💼](<../Consumers 💼/💼🎭 Consumer role.md>) to collect data
+    || [💼 Consume](<🗄️⏩ Vault flows/🗄️⏩💼 Consume 🔗 flow.md>) | Tells a [Consumer 💼](<../Consumers 💼/💼🎭 Consumer role.md>) to collect data
     
 
     ---
@@ -219,8 +219,8 @@
 
     |Flow ⏩| Details
     |-|-
-    | [💼 Consume](<🗄️⏩ Vault flows/🗄️⏩💼 Consume 🔗.md>) | Tells a [Consumer 💼](<../Consumers 💼/💼🎭 Consumer role.md>) to collect data
-    | [🧑‍🦰 Engage](<🗄️⏩ Vault flows/🗄️⏩🧑‍🦰 Engage 💬.md>) | Opens a new [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) with a [Bound 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) user
+    | [💼 Consume](<🗄️⏩ Vault flows/🗄️⏩💼 Consume 🔗 flow.md>) | Tells a [Consumer 💼](<../Consumers 💼/💼🎭 Consumer role.md>) to collect data
+    | [🧑‍🦰 Engage](<🗄️⏩ Vault flows/🗄️⏩🧑‍🦰 Engage 💬 flow.md>) | Opens a new [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) with a [Bound 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) user
     
 
     ---

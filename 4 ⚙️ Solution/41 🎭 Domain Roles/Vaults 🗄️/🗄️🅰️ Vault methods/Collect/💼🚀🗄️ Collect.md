@@ -3,10 +3,14 @@
 
 # 💼🚀🗄️ Collect @ Vault
 
+> Part of the [`Consume flow`](<../../🗄️⏩ Vault flows/🗄️⏩💼 Consume 🔗 flow.md>)
 
-> Tells it to reply with the data [shared](<../../../Consumers 💼/💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>) by the user.
+> Purpose
 
-> Used by [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Bind 🔗.md>)
+* Tells it to reply with the data [shared](<../../../Consumers 💼/💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>) by the user.
+
+> Used by 
+* [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Bind 🔗.md>)
 
 > Preceded by [`Consume@Consumer`](<../../../Consumers 💼/💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>)
 
