@@ -4,7 +4,7 @@
 
 > Part of the [`Assess` ⏩ flow](<../../🤵⏩ Broker flows/Assess 🔆⏩🤵/🤵 Assess ⏩ flow.md>)
   
-* Precedes [`Converse@Notifier` 🅰️](<../../../Notifiers 📣/📣🅰️ Notifier methods/📣 Chats 💬 Converse 🤵🐌📣/Converse 📣 msg.md>) method
+* Precedes [`Converse@Notifier` 🅰️](<../../../Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Converse 🤵🐌📣/📣 Converse 📣 msg.md>) method
 
 > Purpose
 * Parses the [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) in the [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>).
@@ -30,11 +30,11 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From`|uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  from [`Onboard@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Onboard 🤵 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
-||`To`|string| [Broker 🤵](<../../🤵🤲 Broker helper.md>) from [`Onboard@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Onboard 🤵 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
+|Header|`From`|uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  from [`Onboard@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
+||`To`|string| [Broker 🤵](<../../🤵🤲 Broker helper.md>) from [`Onboard@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
 ||`Subject`|string|`Assess@Broker`
 |Body  |`Locator` |string| [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) of types [`.HOST`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🧩 Host schemas/🧩 HOST.md>) [`.ALIAS`](<../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🧩 Printer schemas/🧩 ALIAS.md>)
-|| `Hook` | uuid | Hook for [`Converse@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/📣 Chats 💬 Converse 🤵🐌📣/Converse 📣 msg.md>)
+|| `Hook` | uuid | Hook for [`Converse@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Converse 🤵🐌📣/📣 Converse 📣 msg.md>)
 |
 
 
