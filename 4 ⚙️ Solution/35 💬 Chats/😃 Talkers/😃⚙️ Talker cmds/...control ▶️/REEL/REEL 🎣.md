@@ -50,7 +50,7 @@
 
     Consider the [`BIND` flow command](<../../...methods 🤵/BIND 🔗/BIND 🔗 msg.md>).
 
-    ![alt text](<../../../.📎 Assets/Reel.png>)
+    ![alt text](<.📎 Assets/Reel.png>)
 
     <br/>
 

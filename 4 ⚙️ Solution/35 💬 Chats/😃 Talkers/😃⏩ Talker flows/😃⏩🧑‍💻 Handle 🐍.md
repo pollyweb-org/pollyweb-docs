@@ -10,12 +10,12 @@
 
 ## ⏩ Flow diagram
 
-![alt text](<../.📎 Assets/Handle.png>)
+![alt text](<../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle/.📎 Assets/Handle.png>)
 
 | # | Call | Description
 |-|-|-
 |1| [🤗⏩🧑‍🦰 Prompt 🤔](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Talkers 😃](<../😃 Talker role.md>) handle replies to [Prompts 🤔](<../../🤔 Prompts/🤔 Prompt.md>)
-|2| [😃🐌🧑‍💻 `Handle@Hosted`](<../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/😃🐌📦 Handle.md>) | [Talkers 😃](<../😃 Talker role.md>) delegate functions to [Hosteds 📦](<../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>)
+|2| [😃🐌🧑‍💻 `Handle@Hosted`](<../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle/😃🐌📦 Handle.md>) | [Talkers 😃](<../😃 Talker role.md>) delegate functions to [Hosteds 📦](<../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>)
 |3| [🧑‍💻🚀😃 `Placed@Talker`](<../😃🅰️ Talker methods/Placed/🧑‍💻🚀😃 Placed.md>) | [Hosteds 📦](<../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) read [Placeholder 🧠](<../😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>) values
 |4| [🧑‍💻🐌😃 `Handled@Talker`](<../😃🅰️ Talker methods/Handled/🧑‍💻🐌😃 Handled.md>) | [Hosteds 📦](<../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) return the evaluated result 
 |5| [🤗⏩🧑‍🦰 Prompt 🤔](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Talkers 😃](<../😃 Talker role.md>) continue the [Chat 💬](<../../💬 Chats/💬 Chat.md>)
@@ -25,7 +25,7 @@
 
 ## FAQ
 
-1. **Why isn't [`Handle@Hosted`](<../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/😃🐌📦 Handle.md>) synchronous?**
+1. **Why isn't [`Handle@Hosted`](<../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle/😃🐌📦 Handle.md>) synchronous?**
 
     For a number of reasons:
 

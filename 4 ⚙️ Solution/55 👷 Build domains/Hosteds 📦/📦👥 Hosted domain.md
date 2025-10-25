@@ -48,7 +48,7 @@
    
     | Method | Purpose
     |-|-
-    [😃🐌 Handle](<📦🅰️ Hosted methods/😃🐌📦 Handle.md>) | Evaluates [{Functions}](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...functions 🐍/{Function} 🐍.md>) in [Talkers 😃](<../../35 💬 Chats/😃 Talkers/😃 Talker role.md>)
+    [😃🐌 Handle](<📦🅰️ Hosted methods/Handle/😃🐌📦 Handle.md>) | Evaluates [{Functions}](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...functions 🐍/{Function} 🐍.md>) in [Talkers 😃](<../../35 💬 Chats/😃 Talkers/😃 Talker role.md>)
     
     ---
     <br/>

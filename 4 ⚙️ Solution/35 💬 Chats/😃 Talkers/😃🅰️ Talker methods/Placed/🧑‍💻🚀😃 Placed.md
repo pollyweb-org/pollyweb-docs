@@ -3,7 +3,7 @@
 > About
 
 * Implements [Hoster ☁️ helper domain](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>)
-* Implemented by the [`Placed` 📃 handler](<../../😃📃 Talker scripts/...for placeholders 🧠/😃📃 Placed handler.md>)
+* Implemented by the [`Placed` 📃 handler](<😃📃 Placed handler.md>)
 * Part of [Handle @ Talker 😃⏩🧑‍💻](<../../😃⏩ Talker flows/😃⏩🧑‍💻 Handle 🐍.md>) flow
 * Paired with [`Place@Talker`](<../Place/🧑‍💻🚀😃 Place.md>) message
 
