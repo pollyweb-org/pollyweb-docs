@@ -1,13 +1,19 @@
 # 🤵⏩🧑‍🦰 Assess @ Broker
 
+> Implemented by {{Assess handler}}
+
+> Purposes
+
 * Given a [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>)
     * parses the [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) in the [Broker 🤵](<../../🤵🤲 Broker helper.md>)
     * and opens a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) on the [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
-* Used by:
-    * [🧑‍🦰👉🤗 Scan host QR](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/🔆🤗 Tap host locator.md>) flow
-    * [🧑‍🦰👉🤗 Scan printer QR](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/🔆🖨️ Tap alias locator.md>) flow
-    * [🧑‍🦰👉🤗 Prompt option](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🤗 Click locator 🔆.md>) flow
-    * [🗄️⏩🧑‍🦰 Engage @ Vault 💬](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️⏩ Vault flows/🗄️⏩🧑‍🦰 Engage 💬 flow.md>) flow
+
+> Used by
+
+* [🧑‍🦰👉🤗 Scan host QR](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/🔆🤗 Tap host locator.md>) flow
+* [🧑‍🦰👉🤗 Scan printer QR](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/🔆🖨️ Tap alias locator.md>) flow
+* [🧑‍🦰👉🤗 Prompt option](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🤗 Click locator 🔆.md>) flow
+* [🗄️⏩🧑‍🦰 Engage @ Vault 💬](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️⏩ Vault flows/🗄️⏩🧑‍🦰 Engage 💬 flow.md>) flow
 
 <br/>
 
@@ -29,7 +35,7 @@
 
 ## Flow diagram
 
-![New chat](<.📎 Assets/⚙️🔆 Assess.png>)
+![New chat](<Assess ⚙️ uml.png>)
 
 
 | # | Call | Notes

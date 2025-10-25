@@ -30,7 +30,7 @@
 | # | Call | Notes
 |-|-|-
 | 1 | [👥🐌🏭 `Order@Supplier`](<../../../../41 🎭 Domain Roles/Suppliers 🏭/🏭🅰️ Supplier methods/👥🐌🏭 Order.md>) | Order dynamic [Locators 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>)
-| 2 | [🤵⏩🧑‍🦰 Assess 🔆](<../../../Brokers 🤵/🤵⏩ Broker flows/Assess 🔆/🤵⏩🧑‍🦰 Assess 🔆.md>) | Parse the [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) in the [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>)
+| 2 | [🤵⏩🧑‍🦰 Assess 🔆](<../../../Brokers 🤵/🤵⏩ Broker flows/Assess 🔆⏩🤵/Assess ⏩ flow.md>) | Parse the [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) in the [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>)
 | 3 | [👥🚀🖨️ `Resolve@Printer`](<../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🅰️ Printer methods/👥🚀🖨️ Resolve.md>) | Get the host's locator from the [Printer 🖨️](<../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>)
 | 4 | [🤵🐌🤗 `Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🤵🐌🤗 Hello.md>) | Ask the [Host 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) to interact
 | 5 | [🤗⏩🧑‍🦰 Prompt 🤔](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | The welcome message from the [Host 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) 
