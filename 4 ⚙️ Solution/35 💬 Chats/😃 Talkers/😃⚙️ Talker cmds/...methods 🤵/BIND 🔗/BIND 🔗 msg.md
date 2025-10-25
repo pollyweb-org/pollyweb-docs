@@ -1,6 +1,6 @@
 # 😃🔗 Talker `BIND` command
 
-> Implemented by the [`.BIND` 📃 script](<../../../😃📃 Talker scripts/...for methods 🤵/😃📃 .BIND 🔗 script.md>)
+> Implemented by the [`.BIND` 📃 script](<😃📃 .BIND 🔗 script.md>)
 
 > Part of [Talker 😃](<../../../😃 Talker role.md>)
 
