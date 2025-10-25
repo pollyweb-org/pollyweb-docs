@@ -3,7 +3,7 @@
 # 🤵📃 Saved 🎫 handler
 
 > Purpose: 
-* [Script 📃](<🧑‍🦰🐌🤵 Saved.md>) method.
+* [Script 📃](<Saved 🐌 msg.md>) method.
 
 ## Script
 

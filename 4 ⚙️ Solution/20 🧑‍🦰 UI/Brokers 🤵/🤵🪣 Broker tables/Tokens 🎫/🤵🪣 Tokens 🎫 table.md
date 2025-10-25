@@ -4,13 +4,13 @@
 * Stores [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
     * initially stored in [`Offers` 🪣 table](<../Offers 🎫/🤵🪣 Offers table.md>)
     * by the [`Offer@Broker`](<../../🤵🅰️ Broker methods/...for Tokens 🎫/Offer 🎴🐌🤵/Offer 🐌 msg.md>) method
-    * then later saved by the [`Saved@Broker`](<../../🤵🅰️ Broker methods/...for Tokens 🎫/Saved 🧑‍🦰🐌🤵/🧑‍🦰🐌🤵 Saved.md>) method
+    * then later saved by the [`Saved@Broker`](<../../🤵🅰️ Broker methods/...for Tokens 🎫/Saved 🧑‍🦰🐌🤵/Saved 🐌 msg.md>) method
 
 > Read by: 
 * [`Tokens@Broker` 🅰️](<../../🤵🅰️ Broker methods/...for Tokens 🎫/Tokens/🧑‍🦰🚀🤵 Tokens.md>) method
 
 > Written by:
-* [`Saved@Broker`](<../../🤵🅰️ Broker methods/...for Tokens 🎫/Saved 🧑‍🦰🐌🤵/🧑‍🦰🐌🤵 Saved.md>)
+* [`Saved@Broker`](<../../🤵🅰️ Broker methods/...for Tokens 🎫/Saved 🧑‍🦰🐌🤵/Saved 🐌 msg.md>)
 
 <br/>
 
@@ -57,7 +57,7 @@ Status: REVOKED
 |Property|Type|Description
 |-|-|-
 | `Issuer` | string | [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)  from [`Offer@Broker`](<../../🤵🅰️ Broker methods/...for Tokens 🎫/Offer 🎴🐌🤵/Offer 🐌 msg.md>)
-| `Path` | string | Path from [`Saved@Broker`](<../../🤵🅰️ Broker methods/...for Tokens 🎫/Saved 🧑‍🦰🐌🤵/🧑‍🦰🐌🤵 Saved.md>)
+| `Path` | string | Path from [`Saved@Broker`](<../../🤵🅰️ Broker methods/...for Tokens 🎫/Saved 🧑‍🦰🐌🤵/Saved 🐌 msg.md>)
 | `Status`| string | Status from [`Revise@Broker`](<../../🤵🅰️ Broker methods/...for Tokens 🎫/Revise 🐌/🎴🐌🤵 Revise.md>)
 | `Token`| uuid |  [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) from [`Offer@Broker`](<../../🤵🅰️ Broker methods/...for Tokens 🎫/Offer 🎴🐌🤵/Offer 🐌 msg.md>)
 ||
