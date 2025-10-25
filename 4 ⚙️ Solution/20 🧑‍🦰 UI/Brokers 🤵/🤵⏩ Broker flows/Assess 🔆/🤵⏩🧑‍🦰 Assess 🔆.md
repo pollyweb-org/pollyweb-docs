@@ -34,7 +34,7 @@
 
 | # | Call | Notes
 |-|-|-|
-|0|[🧑‍🦰🐌🤵 `Assess@Broker`](<../../🤵🅰️ Broker methods/2 🤵🅰️ Locators/🧑‍🦰🐌🤵 Assess.md>) | Parse the [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>)
+|0|[🧑‍🦰🐌🤵 `Assess@Broker`](<../../🤵🅰️ Broker methods/2 ...for Locators 🔆/🧑‍🦰🐌🤵 Assess.md>) | Parse the [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>)
 |1|[🤵🚀🖨️ `Resolve@Printer`](<../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🅰️ Printer methods/👥🚀🖨️ Resolve.md>) | Ask [Printers 🖨️](<../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>) to resolve [`.ALIAS` 🧩](<../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🧩 Printer schemas/🧩 ALIAS.md>)
 | 2 | [🤵⏩🧑‍🦰 Converse 🔆](<../Converse 💬/🤵⏩🧑‍🦰 Converse 💬.md>) | Ask [Wallets 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  to open a chat window
 | 3 | [🔎⏩🧑‍🦰 Introduce 🤗](<../../../../50 🫥 Agent domains/Finders 🔎/🔎⏩ Finder flows/🔎⏩🧑‍🦰 Introduce 🤗.md>) | Ask [Finders 🔎](<../../../../50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) to introduce [Hosts 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)

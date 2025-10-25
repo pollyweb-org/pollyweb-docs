@@ -4,7 +4,7 @@
 
 > List the [Binds 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) of a [Wallet 🧑‍🦰 app](<../../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
 
-> Implemented by [`Binds` 📃 script](<../../../🤵📃 Broker scripts/...handlers/🤵📃 Binds 🔗 handler.md>)
+> Implemented by [`Binds` 📃 script](<🤵📃 Binds 🔗 handler.md>)
 
 > Used in:
 * [`Translate` 💬 chat](<../../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/💬🤵 Translate.md>)

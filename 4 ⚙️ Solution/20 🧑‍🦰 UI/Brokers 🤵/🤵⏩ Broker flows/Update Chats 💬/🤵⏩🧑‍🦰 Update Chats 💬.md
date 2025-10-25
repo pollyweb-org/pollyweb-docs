@@ -18,6 +18,6 @@
 | # | Call | Notes |
 |-|-|-
 | 1 | [🤵🐌📣 `Updated@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/3 🤵🐌📣 Updated.md>)| [Brokers 🤵](<../../🤵🤲 Broker helper.md>) tell [Notifiers 📣](<../../../Notifiers 📣/📣👥 Notifier domain.md>) to update [Wallets 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
-| 2 | [🧑‍🦰🚀🤵 `Chats@Broker`](<../../🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🧑‍🦰🚀🤵 Chats.md>) | [Wallets 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) get [Chats 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) from [Brokers 🤵](<../../🤵🤲 Broker helper.md>)
+| 2 | [🧑‍🦰🚀🤵 `Chats@Broker`](<../../🤵🅰️ Broker methods/3 ...for Chats 💬/🧑‍🦰🚀🤵 Chats.md>) | [Wallets 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) get [Chats 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) from [Brokers 🤵](<../../🤵🤲 Broker helper.md>)
 ||
 

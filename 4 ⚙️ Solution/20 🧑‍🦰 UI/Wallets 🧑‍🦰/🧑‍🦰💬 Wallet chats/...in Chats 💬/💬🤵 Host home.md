@@ -28,7 +28,7 @@
 
 | # | Call | Notes
 |-|-|-
-| 1 | [🧑‍🦰🐌🤵 `Join@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🧑‍🦰🐌🤵 Join.md>) | Open the context menu
+| 1 | [🧑‍🦰🐌🤵 `Join@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/3 ...for Chats 💬/🧑‍🦰🐌🤵 Join.md>) | Open the context menu
 | 2 | [🤗⏩🧑‍🦰 Prompt 🤔](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | Ask the [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) to abandon the [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) 
 | 3 | [🧑‍🦰🐌🤗 `Home@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🤵🐌🤗 Home.md>) | Show the main menu
 |
