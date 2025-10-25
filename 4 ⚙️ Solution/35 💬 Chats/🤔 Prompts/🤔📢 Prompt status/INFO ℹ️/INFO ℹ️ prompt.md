@@ -1,6 +1,8 @@
-# ℹ️ Non-blocking `INFO` 
+# ℹ️ Non-blocking `INFO` command
 
 > Part of [Non-blocking status prompts 🤔](<../../🤔⚙️ Prompt features/8 ⚠️ as Status.md>)
+
+> Implemented by the [`INFO` 📃 script](<.📎 Assets/INFO 📃 script.md>)
 
 <br/>
 

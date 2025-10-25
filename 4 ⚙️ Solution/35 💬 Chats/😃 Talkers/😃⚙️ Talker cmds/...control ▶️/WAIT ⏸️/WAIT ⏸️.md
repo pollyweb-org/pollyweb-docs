@@ -112,7 +112,7 @@
     | ℹ️ [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the initial message.
     | 🔁 [`REPEAT`](<../REPEAT/REPEAT 🔁.md>) | To re-assess the queue periodically.
     | 🔁 [`RETURN`](<../REPEAT/REPEAT 🔁.md>) | To exit the loop when it's the user's turn.
-    | ▶️ [`RUN`](<../RUN ▶️.md>) | To start the waiting loop.
+    | ▶️ [`RUN`](<../RUN ▶️/RUN ▶️.md>) | To start the waiting loop.
     | ✅ [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) | To say that it's ready.
     | ⏳ [`TEMP`](<../../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>) | To show work in progress.
 
@@ -170,7 +170,7 @@
     | ⏬ [`GET`](<../../...datasets 🪣/GET/GET ⏬ item.md>) | To get the queue length from resources.
     | 🔁 [`REPEAT`](<../REPEAT/REPEAT 🔁.md>) | To re-assess the queue periodically.
     | 🔁 [`RETURN`](<../REPEAT/REPEAT 🔁.md>) | To exit the loop when it's the user's turn.
-    | ▶️ [`RUN`](<../RUN ▶️.md>) | To start the waiting loop.
+    | ▶️ [`RUN`](<../RUN ▶️/RUN ▶️.md>) | To start the waiting loop.
     | ⏳ [`TEMP`](<../../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>) | To show work in progress.
 
     ---
