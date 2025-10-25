@@ -51,7 +51,7 @@ Steps:
 
 |Property|Type|Description
 |-|-|-
-| `Verb`    | string | `Ready to {verb}?` [confirmation 👍](<../../../35 💬 Chats/🤔 Prompts/🤔✏️ Prompt inputs/CONFIRM/31 👍 CONFIRM prompt.md>)
+| `Verb`    | string | `Ready to {verb}?` [confirmation 👍](<../../../35 💬 Chats/🤔 Prompts/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>)
 | `Details` | string | Text to show on [Prompt 🤔 details](<../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/3 ⊕ with Details.md>)
 | `Steps`   | list   | List of `Step` objects
 |

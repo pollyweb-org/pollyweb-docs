@@ -1,7 +1,7 @@
 # 🤗⏩🧑‍🦰 Inform 📝
 
 * Shows user instructions and allow inputs.
-    * [Brokers 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) may ask for [user confirmation  👍](<../../../35 💬 Chats/🤔 Prompts/🤔✏️ Prompt inputs/CONFIRM/31 👍 CONFIRM prompt.md>) the first time,
+    * [Brokers 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) may ask for [user confirmation  👍](<../../../35 💬 Chats/🤔 Prompts/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>) the first time,
     * then switch to a [non-blocking info ℹ️](<../../../35 💬 Chats/🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>).
 
 * Related to:
