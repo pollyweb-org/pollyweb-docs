@@ -6,8 +6,8 @@
 
 > Usage
 
-* Inserted by [`Onboard@Broker` 🅰️ method](<../../🤵🅰️ Broker methods/🤵 Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 request.md>)
-* Updated by [`Language@Broker` 🅰️ method](<../../🤵🅰️ Broker methods/🤵 Wallets 🧑‍🦰 Language 🧑‍🦰🐌🤵/🤵 Language 🐌 msg.md>)
+* Inserted by [`Onboard@Broker` 🅰️ method](<../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 request.md>)
+* Updated by [`Language@Broker` 🅰️ method](<../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Language 🧑‍🦰🐌🤵/🤵 Language 🐌 msg.md>)
 
 <br/>
 
