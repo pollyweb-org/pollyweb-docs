@@ -11,6 +11,8 @@ Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 
 ```yaml
 Table: Waits
 Key: Chat, Placeholder
+Triggers:
+    .OnWaitExpired: EXPIRED
 ```
 
 ## Example
