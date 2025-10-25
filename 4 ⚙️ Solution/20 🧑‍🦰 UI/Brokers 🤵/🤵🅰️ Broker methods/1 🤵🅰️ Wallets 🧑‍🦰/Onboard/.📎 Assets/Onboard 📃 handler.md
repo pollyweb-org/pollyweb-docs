@@ -1,6 +1,6 @@
 # 🤵📃 Onboard script
 
-> [Script 📃](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) th../📣🚀🤵 Onboard.mdr methods/1 🤵🅰️ Wallets 🧑‍🦰/📣🚀🤵 Onboard.md>)
+> [Script 📃](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that implements the [`Onboard@Broker` 🅰️ method](<../📣🚀🤵 Onboard.md>)
 
 <br/>
 
@@ -33,6 +33,6 @@ Commands: [`$.Msg`](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Tal
 
 | [Command ⌘](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/Command ⌘.md>) | Purpose
 |-|-
-| ⏬ [`GET`](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET/GET ⏬ item.md>) | Get the [Hook 🪝](<../../../../../../35 💬 Chats/😃 Talkers/😃🪣 Talker tables/😃🪣 Hooks 🪝 table.md>) fr../../4 🤵🅰️ Binds 🔗/Bindable/🗄️🐌🤵 Bindable.mdable/🗄️🐌🤵 Bindable.md>)  
+| ⏬ [`GET`](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET/GET ⏬ item.md>) | Get the hook from the [`Bindable@Broker` 🅰️ method](<../../../4 ...for Binds 🔗/Bindable/🗄️🐌🤵 Bindable.md>) 
 | 💾 [`SAVE`](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/SAVE/SAVE 💾 item.md>) | Save the [Bind 🔗](<../../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to the [Wallets 🪣](<../../../../🤵🪣 Broker tables/🤵🪣 Wallets table.md>) table
 |
