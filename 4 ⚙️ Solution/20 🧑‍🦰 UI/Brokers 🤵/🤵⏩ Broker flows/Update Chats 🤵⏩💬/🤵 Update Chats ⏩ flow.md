@@ -1,6 +1,6 @@
 # 🤵⏩🗄️ Update chats @ Broker
 
-> Implemented by the [`UpdateChats` 📃 script](<Update Chats 📃 script.md>)
+> Implemented by the [`UpdateChats` 📃 script](<🤵 Update Chats 📃 script.md>)
 
 > Purpose
 
@@ -14,7 +14,7 @@
 
 ## Flow diagram
 
-![Update chats](<Update chats ⚙️ uml.png>)
+![Update chats](<🤵 Update chats ⚙️ uml.png>)
 
 
 | # | Call | Notes |

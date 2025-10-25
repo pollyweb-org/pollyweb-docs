@@ -12,7 +12,7 @@
 
 ## Flow diagram
 
-![Update binds](<Update binds ⚙️ uml.png>)
+![Update binds](<🤵 Update binds ⚙️ uml.png>)
 
 
 
