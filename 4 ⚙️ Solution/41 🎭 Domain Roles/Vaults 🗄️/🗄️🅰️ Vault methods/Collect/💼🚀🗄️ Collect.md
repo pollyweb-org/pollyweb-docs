@@ -8,7 +8,7 @@
 
 > Used by [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Bind 🔗.md>)
 
-> Preceded by [`Consume@Consumer`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>)
+> Preceded by [`Consume@Consumer`](<../../../Consumers 💼/💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>)
 
 <br/>
 

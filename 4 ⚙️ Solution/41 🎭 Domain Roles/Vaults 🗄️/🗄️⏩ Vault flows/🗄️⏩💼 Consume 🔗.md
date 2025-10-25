@@ -14,7 +14,7 @@
 |1|[👥🚀🕸 `Trusts@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>) | [Vaults 🗄️](<../🗄️🎭 Vault role.md>) see if [Consumers 💼](<../../Consumers 💼/💼🎭 Consumer role.md>) are [Trusted 🫡](<../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>)  
 |2|[🗄️🐌💼 `Consume@Consumer`](<../../Consumers 💼/💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>) | [Vaults 🗄️](<../🗄️🎭 Vault role.md>) tell [Consumers 💼](<../../Consumers 💼/💼🎭 Consumer role.md>) they're ready
 |3|[👥🚀🕸 `Trusts@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>) | [Consumers 💼](<../../Consumers 💼/💼🎭 Consumer role.md>) see if [Vaults 🗄️](<../🗄️🎭 Vault role.md>) are [Trusted 🫡](<../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>)
-|4|[💼🚀🗄️ `Collect@Vault`](<../🗄️🅰️ Vault methods/to Share/💼🚀🗄️ Collect.md>) | [Consumers 💼](<../../Consumers 💼/💼🎭 Consumer role.md>) collect the data shared
+|4|[💼🚀🗄️ `Collect@Vault`](<../🗄️🅰️ Vault methods/Collect/💼🚀🗄️ Collect.md>) | [Consumers 💼](<../../Consumers 💼/💼🎭 Consumer role.md>) collect the data shared
 |
 
 <br/> 
@@ -43,6 +43,6 @@
 
     `Size` Pushing a payload has size limits, while downloading it doesn't.
     * Thus, to allow [Consumer 💼 domains](<../../Consumers 💼/💼🎭 Consumer role.md>) to download data sets from [Vault 🗄️ domains](<../🗄️🎭 Vault role.md>) via with no theoretical size limit, the request needs to come from the [Consumer 💼 domain](<../../Consumers 💼/💼🎭 Consumer role.md>) (and not from the [Vault 🗄️ domain](<../🗄️🎭 Vault role.md>)).
-    * This is the [`Collect@Vault`](<../🗄️🅰️ Vault methods/to Share/💼🚀🗄️ Collect.md>) call.
+    * This is the [`Collect@Vault`](<../🗄️🅰️ Vault methods/Collect/💼🚀🗄️ Collect.md>) call.
 
     ---
