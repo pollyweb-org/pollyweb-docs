@@ -56,7 +56,7 @@
 
     | Argument| Purpose 
     |-|-
-    | `<schema>` | [Schema 🧩](<../../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) from [`Bindable@Broker`](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/...for Binds 🔗/Bindable 🗄️🐌🤵/🗄️🐌🤵 Bindable.md>) 
+    | `<schema>` | [Schema 🧩](<../../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) from [`Bindable@Broker`](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/...for Binds 🔗/Bindable 🗄️🐌🤵/Bindable 🐌 msg.md>) 
 
     ```yaml
     # For a single optional schema.
@@ -80,7 +80,7 @@
    
     | Argument| Purpose
     |-|-
-    | `<schema-n>` | Array of [Schema Codes 🧩](<../../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) sent on [`Bindable@Broker`](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/...for Binds 🔗/Bindable 🗄️🐌🤵/🗄️🐌🤵 Bindable.md>)
+    | `<schema-n>` | Array of [Schema Codes 🧩](<../../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) sent on [`Bindable@Broker`](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/...for Binds 🔗/Bindable 🗄️🐌🤵/Bindable 🐌 msg.md>)
     | `$bound`  | Array of [Schema Codes 🧩](<../../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) received on [`Bound@Vault`](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Bound/🤵🐌🗄️ Bound.md>)
 
 
@@ -92,7 +92,7 @@
    
     | Argument| Purpose
     |-|-
-    | `{bindable}` | [{Function}](<../../...functions 🐍/{Function} 🐍.md>) to get the [Codes 🧩](<../../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) for [Bindable @ Broker](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/...for Binds 🔗/Bindable 🗄️🐌🤵/🗄️🐌🤵 Bindable.md>).
+    | `{bindable}` | [{Function}](<../../...functions 🐍/{Function} 🐍.md>) to get the [Codes 🧩](<../../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) for [Bindable @ Broker](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/...for Binds 🔗/Bindable 🗄️🐌🤵/Bindable 🐌 msg.md>).
 
 
     ---
