@@ -1,10 +1,12 @@
 # 🤵⏩🗄️ Update chats @ Broker
 
-> Updates the list of [Chats 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) on a [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
+> Implemented by the [`UpdateChats` 📃 script](<Update Chats 📃 script.md>)
 
-> Implemented by the [`UpdateChats` 📃 script](<.📎 Assets/Update Chats 📃 script.md>)
+> Purpose
 
-> Used in:
+* Updates the list of [Chats 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) on a [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
+
+> Used in
 * [🧑‍🦰👉🤵 Abandon chat @ Wallet](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Chats 💬/💬🤵 Abandon 💬.md>)
 * [🤵⏩🧑‍🦰 Converse @ Broker](<../Converse 🤵⏩💬/Converse ⏩ flow.md>)
 
@@ -12,7 +14,7 @@
 
 ## Flow diagram
 
-![Update chats](<.📎 Assets/⚙️💬 Update chats.png>)
+![Update chats](<Update chats ⚙️ uml.png>)
 
 
 | # | Call | Notes |
