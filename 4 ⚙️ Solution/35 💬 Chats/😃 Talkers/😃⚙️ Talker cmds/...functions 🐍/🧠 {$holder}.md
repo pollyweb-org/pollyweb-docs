@@ -58,7 +58,7 @@
     | [Command ⌘](<../...commands ⌘/⌘ Command.md>) | Purpose
     |-|-
     | ℹ️ [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the [placeholder 🧠](<../...placeholders 🧠/$Placeholder 🧠.md>) values.
-    | ↕️ [`QUANTITY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/42 ↕️ QUANTITY prompt.md>) | To collect the number input.
+    | ↕️ [`QUANTITY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/QUANTITY ↕️ prompt.md>) | To collect the number input.
     
 
     ---

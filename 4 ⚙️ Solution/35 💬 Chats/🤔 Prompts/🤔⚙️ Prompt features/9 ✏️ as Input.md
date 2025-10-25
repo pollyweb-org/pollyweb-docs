@@ -28,10 +28,10 @@
     |Format | Description
     |-|-
     | [👍&nbsp;CONFIRM](<../🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>) | Yes, No, Cancel
-    | [🔠&nbsp;TEXT](<../🤔✏️ Prompt inputs/32 🔠 TEXT prompt.md>) | Asks for a text input
-    | [🔢&nbsp;DIGITS](<../🤔✏️ Prompt inputs/44 🔢 DIGITS prompt.md>) | Shows the numeric keypad
-    | [↕️&nbsp;QUANTITY](<../🤔✏️ Prompt inputs/42 ↕️ QUANTITY prompt.md>) | Shows up/down arrows.
-    | [💰&nbsp;AMOUNT](<../🤔✏️ Prompt inputs/43 💰 AMOUNT prompt.md>) | Allows for decimals
+    | [🔠&nbsp;TEXT](<../🤔✏️ Prompt inputs/TEXT 🔠 prompt.md>) | Asks for a text input
+    | [🔢&nbsp;DIGITS](<../🤔✏️ Prompt inputs/DIGITS 🔢 prompt.md>) | Shows the numeric keypad
+    | [↕️&nbsp;QUANTITY](<../🤔✏️ Prompt inputs/QUANTITY ↕️ prompt.md>) | Shows up/down arrows.
+    | [💰&nbsp;AMOUNT](<../🤔✏️ Prompt inputs/AMOUNT 💰 prompt.md>) | Allows for decimals
     | [🔑&nbsp;OTP](<../🤔✏️ Prompt inputs/57 🔑 OTP prompt.md>) | Asks for 6 digits
     | [1️⃣&nbsp;ONE](<../🤔✏️ Prompt inputs/53 1️⃣ ONE prompt.md>) | One of multiple options
     | [🔠&nbsp;MANY](<../🤔✏️ Prompt inputs/54 🔠 MANY prompt.md>) | Zero or more of multiple options
@@ -58,7 +58,7 @@
     * instead, request users to share datasets using [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>);
     * e.g., ask to share the code `nlweb.dom/BOOKING/CONTACTS` instead of asking for the name, then the phone number, then the email address, and so on.
   
-    When [Prompts 🤔](<../🤔 Prompt.md>) are inevitable, avoid [`TEXT`](<../🤔✏️ Prompt inputs/32 🔠 TEXT prompt.md>) prompts; 
+    When [Prompts 🤔](<../🤔 Prompt.md>) are inevitable, avoid [`TEXT`](<../🤔✏️ Prompt inputs/TEXT 🔠 prompt.md>) prompts; 
     * instead, prefer low-effort prompts like [`ONE`](<../🤔✏️ Prompt inputs/53 1️⃣ ONE prompt.md>);
     * e.g., searchable lists with one or many possible options.
 
