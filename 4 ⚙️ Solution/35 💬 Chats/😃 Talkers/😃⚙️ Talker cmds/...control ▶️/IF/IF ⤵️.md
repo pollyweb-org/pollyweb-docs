@@ -46,7 +46,7 @@
     | `{function}` | Boolean [{Function}](<../../...functions 🐍/{Function} 🐍.md>) to evaluate  | `{f}` `{$o}`
     || Allows for missing `{}` in functions | `f()` `$p`
     || Defaults to the last [input prompt ✏️](<../../../../🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>) | `TEXT\|Id?`
-    | `<true-script>` | [Script 📃](<../RUN ▶️.md>) when `True` | `IfTrue`
+    | `<true-script>` | [Script 📃](<../RUN ▶️/RUN ▶️.md>) when `True` | `IfTrue`
     
     
     ---
@@ -65,8 +65,8 @@
     | `{function}` | Boolean [{Function}](<../../...functions 🐍/{Function} 🐍.md>) to evaluate  | `{f}` `{$o}`
     || Allows for missing `{}` in functions | `f()` `$p`
     || Defaults to the last [input prompt ✏️](<../../../../🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>) | `TEXT\|Id?`
-    | `<true-script>` | [Script 📃](<../RUN ▶️.md>) when `True` | `IfTrue`
-    | `<false-script>`| [Script 📃](<../RUN ▶️.md>) when `False` | `IfFalse(X)`
+    | `<true-script>` | [Script 📃](<../RUN ▶️/RUN ▶️.md>) when `True` | `IfTrue`
+    | `<false-script>`| [Script 📃](<../RUN ▶️/RUN ▶️.md>) when `False` | `IfFalse(X)`
     
     ---
     <br/>

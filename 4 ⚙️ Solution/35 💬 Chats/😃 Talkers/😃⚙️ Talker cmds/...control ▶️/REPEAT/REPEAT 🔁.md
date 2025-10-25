@@ -120,7 +120,7 @@
     # Show the successful submission
     - SUCCESS|Order submitted!
     ````
-    Commands: [`CONFIRM`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>)  [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)  [`RUN`](<../RUN ▶️.md>) [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
+    Commands: [`CONFIRM`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>)  [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)  [`RUN`](<../RUN ▶️/RUN ▶️.md>) [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
 
     ```yaml
     📃 AddItems:
@@ -212,7 +212,7 @@
     - REPEAT
     ```
 
-    Commands: [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️ flow.md>) [`QUANTITY`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/QUANTITY ↕️/QUANTITY ↕️ prompt.md>) [`REPEAT`](<REPEAT 🔁.md>) [`RETURN`](<../RETURN ⤴️.md>) [`CASE`](<../CASE/CASE ⏯️.md>) 
+    Commands: [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️ flow.md>) [`QUANTITY`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/QUANTITY ↕️/QUANTITY ↕️ prompt.md>) [`REPEAT`](<REPEAT 🔁.md>) [`RETURN`](<../RETURN ⤴️/RETURN ⤴️.md>) [`CASE`](<../CASE/CASE ⏯️.md>) 
 
 
     ---
