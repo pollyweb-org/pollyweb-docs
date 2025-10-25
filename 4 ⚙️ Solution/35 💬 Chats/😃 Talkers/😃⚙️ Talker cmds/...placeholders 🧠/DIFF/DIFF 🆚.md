@@ -1,6 +1,6 @@
 # 😃🆚 Talker `DIFF` command
 
-> Part of [{Function} 🐍](<../...functions 🐍/{Function} 🐍.md>)
+> Part of [{Function} 🐍](<../../...functions 🐍/{Function} 🐍.md>)
 
 <br/>
 
@@ -8,8 +8,8 @@
 1. **What is a DIFF command?**
 
     A `DIFF` 
-    * is a [Command ⌘](<../...commands ⌘/⌘ Command.md>) 
-    * that outputs the the difference between [Placeholders 🧠](<$Placeholder 🧠.md>).
+    * is a [Command ⌘](<../../...commands ⌘/⌘ Command.md>) 
+    * that outputs the the difference between [Placeholders 🧠](<../$Placeholder 🧠.md>).
 
     ---
     <br/>
@@ -39,7 +39,7 @@
 
 1. **What's an example of DIFF?**
 
-    Here's a [Script 📃](<../...commands ⌘/📃 Script.md>)
+    Here's a [Script 📃](<../../...commands ⌘/📃 Script.md>)
 
     ```yaml
     # Process the period
@@ -48,15 +48,15 @@
     # Show the total number of seconds since midnight
     - INFO|{$period.TotalSeconds} seconds from midnight:
     ```
-    Commands: [`.Today`](<../...functions 🐍/🔩 {.Today}.md>) [`.Now`](<../...functions 🐍/🔩 {.Now}.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>)
+    Commands: [`.Today`](<../../...functions 🐍/🔩 {.Today}.md>) [`.Now`](<../../...functions 🐍/🔩 {.Now}.md>) [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>)
 
     ---
     <br/>
 
 1. **What's the DIFF output for time?**
 
-    Here's the `$diff`  [Placeholder 🧠](<$Placeholder 🧠.md>) when comparing times;
-    * e.g. [`.Today`](<../...functions 🐍/🔩 {.Today}.md>), [`.Now`](<../...functions 🐍/🔩 {.Now}.md>), or an [Item 🛢](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) from [`GET`](<../...datasets 🪣/GET/GET ⏬ item.md>);
+    Here's the `$diff`  [Placeholder 🧠](<../$Placeholder 🧠.md>) when comparing times;
+    * e.g. [`.Today`](<../../...functions 🐍/🔩 {.Today}.md>), [`.Now`](<../../...functions 🐍/🔩 {.Now}.md>), or an [Item 🛢](<../../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) from [`GET`](<../../...datasets 🪣/GET/GET ⏬ item.md>);
     * note: `.Verbose` receives the maximum number or parts.
 
     | Property | Type | Example 
