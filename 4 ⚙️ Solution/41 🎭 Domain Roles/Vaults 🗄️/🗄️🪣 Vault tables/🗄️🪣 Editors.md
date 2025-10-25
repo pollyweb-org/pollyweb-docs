@@ -17,8 +17,8 @@ Editor: any-editor.dom
 
 | Property | Type | Details
 |-|-|-
-| `Broker` | string | From [`Bound@Broker`](<../🗄️🅰️ Vault methods/Bound/🤵🐌🗄️ Bound.md>)
-| `Bind`| uuid | From [`Bound@Broker`](<../🗄️🅰️ Vault methods/Bound/🤵🐌🗄️ Bound.md>)
+| `Broker` | string | From [`Bound@Broker`](<../🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🤵🐌🗄️ Bound.md>)
+| `Bind`| uuid | From [`Bound@Broker`](<../🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🤵🐌🗄️ Bound.md>)
 
 
 <br/>
