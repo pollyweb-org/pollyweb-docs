@@ -1,4 +1,4 @@
-# 🤵🪣 Chats
+# 🤵🪣 Chats @ Broker table
 
 > Stores [Chats 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)
 
