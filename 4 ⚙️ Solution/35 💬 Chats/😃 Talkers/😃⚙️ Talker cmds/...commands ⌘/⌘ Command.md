@@ -75,12 +75,12 @@
     |Command|Purpose
     |-|-
     | 🔗 [`BIND`](<../...methods 🤵/BIND 🔗/BIND 🔗 msg.md>) | Calls the [Bind Vault @ Wallet ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🗄️ Bind 🔗.md>) flow.
-    | 🎫 [`ISSUE`](<../...methods 🤵/ISSUE 🎫 msg.md>) | Calls the [Save Token @ Wallet ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🎴 Save token.md>) flow.
-    | 👋 [`GOODBYE`](<../...methods 🤵/GOODBYE/GOODBYE 👋 msg.md>) | Calls the [Goodbye @ Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Goodbye 👋.md>) ⏩ flow.
-    | 📜 [`FLOW`](<../...methods 🤵/INFORM/INFORM 📝 msg.md>)
+    | 🎫 [`ISSUE`](<../...methods 🤵/ISSUE 🎫/ISSUE 🎫 msg.md>) | Calls the [Save Token @ Wallet ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🎴 Save token.md>) flow.
+    | 👋 [`GOODBYE`](<../...methods 🤵/GOODBYE 👋/GOODBYE 👋 msg.md>) | Calls the [Goodbye @ Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Goodbye 👋.md>) ⏩ flow.
+    | 📜 [`FLOW`](<../...methods 🤵/INFORM 📝/INFORM 📝 msg.md>)
     | 💳 [`CHARGE`](<../...methods 🤵/CHARGE/CHARGE 💳 msg.md>)
-    | 💼 [`SHARE`](<../...methods 🤵/SHARE 💼 msg.md>)
-    | 🛰️ [`RELAY`](<../...methods 🤵/RELAY 🛰️ msg.md>)
+    | 💼 [`SHARE`](<../...methods 🤵/SHARE 💼/SHARE 💼 msg.md>)
+    | 🛰️ [`RELAY`](<../...methods 🤵/RELAY 🛰️/RELAY 🛰️ msg.md>)
     |
     
    

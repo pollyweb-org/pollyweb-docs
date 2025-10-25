@@ -18,7 +18,7 @@
 
 1. **What are example use cases?**
 
-    * Handling the result of a [`RELAY`](<../...methods 🤵/RELAY 🛰️ msg.md>) command.
+    * Handling the result of a [`RELAY`](<../...methods 🤵/RELAY 🛰️/RELAY 🛰️ msg.md>) command.
     * The [Talker 😃](<../../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/93 😃 Owner: Talker.md>) at [Vending machines 🏪](<../../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/01 🏪 Index.md>)
 
     ---

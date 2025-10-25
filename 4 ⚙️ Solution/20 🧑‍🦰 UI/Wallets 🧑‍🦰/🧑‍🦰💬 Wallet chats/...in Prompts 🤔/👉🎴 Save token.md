@@ -24,7 +24,7 @@ Consider the following excerpt from the [Book restaurant table 🤝 use case](<.
 
 ## 😃 Talker 
 
-The associated [Talker 😃](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) uses the [`ISSUE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/ISSUE 🎫 msg.md>) command.
+The associated [Talker 😃](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) uses the [`ISSUE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/ISSUE 🎫/ISSUE 🎫 msg.md>) command.
 
 ```yaml
 - INFO|Issuing your token...
@@ -36,7 +36,7 @@ The associated [Talker 😃](<../../../../35 💬 Chats/😃 Talkers/😃 Talker
 
 | [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/⌘ Command.md>) | Purpose
 |-|-
-| 🎫 [`ISSUE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/ISSUE 🎫 msg.md>) | Call the [Save Token ⏩ flow](<👉🎴 Save token.md>).
+| 🎫 [`ISSUE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/ISSUE 🎫/ISSUE 🎫 msg.md>) | Call the [Save Token ⏩ flow](<👉🎴 Save token.md>).
 |
 
 <br/>
