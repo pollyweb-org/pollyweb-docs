@@ -77,5 +77,5 @@ Needs||
 |-|-
 | 🔽 [`FILTER`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/FILTER/FILTER 🔽 msg.md>) | Filter the [Binds 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to remove
 | ⏬ [`GET`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET/GET ⏬ item.md>) | Get the [`Hook` 🪣](<../../../../35 💬 Chats/😃 Talkers/😃🪣 Talker tables/😃🪣 Hooks 🪝 table.md>) from [`Bindable@Broker`](<../Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>)  
-| 📬 [`SEND`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...messages 📨/SEND 📬 msg.md>) | Call [`Updated@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🤵 Updated 🤵🐌📣/Updated 🐌 msg.md>)
+| 📬 [`SEND`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...messages 📨/SEND 📬 msg.md>) | Call [`Updated@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🤵 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>)
 |
