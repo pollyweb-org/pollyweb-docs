@@ -2,7 +2,7 @@
 
 # 🤵📃 Tokens handler
 
-[Script 📃](<../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that ../🧑‍🦰🚀🤵 Tokens.mdmethods/5 🤵🅰️ Tokens 🎫/🧑‍🦰🚀🤵 Tokens.md>)
+[Script 📃](<../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that implements the [`Tokens@Broker` 🅰️ method](<../🧑‍🦰🚀🤵 Tokens.md>)
 
 
 ## Handler
