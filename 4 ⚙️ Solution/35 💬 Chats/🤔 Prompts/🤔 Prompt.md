@@ -28,13 +28,13 @@
     |Behavior| Format 
     |-|-
     |[`Status`](<🤔⚙️ Prompt features/8 ⚠️ as Status.md>)| [`ℹ️ INFO`](<🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`⏳ TEMP`](<🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>) [`✅ SUCCESS`](<🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) [`❌ FAILURE`](<🤔📢 Prompt status/FAILURE ❌/FAILURE ❌ prompt.md>)
-    |[`Inputs`](<🤔⚙️ Prompt features/9 ✏️ as Input.md>)| [`🔢 DIGITS`](<🤔✏️ Prompt inputs/DIGITS 🔢 prompt.md>) [`↕️ QUANTITY`](<🤔✏️ Prompt inputs/QUANTITY ↕️ prompt.md>) [`💰 AMOUNT`](<🤔✏️ Prompt inputs/AMOUNT 💰 prompt.md>) [`🔑 OTP`](<🤔✏️ Prompt inputs/57 🔑 OTP prompt.md>) [`⭐ RATE`](<🤔✏️ Prompt inputs/RATE ⭐ prompt.md>) 
+    |[`Inputs`](<🤔⚙️ Prompt features/9 ✏️ as Input.md>)| [`🔢 DIGITS`](<🤔✏️ Prompt inputs/DIGITS 🔢 prompt.md>) [`↕️ QUANTITY`](<🤔✏️ Prompt inputs/QUANTITY ↕️ prompt.md>) [`💰 AMOUNT`](<🤔✏️ Prompt inputs/AMOUNT 💰/AMOUNT 💰 prompt.md>) [`🔑 OTP`](<🤔✏️ Prompt inputs/OTP 🔑 prompt.md>) [`⭐ RATE`](<🤔✏️ Prompt inputs/RATE ⭐ prompt.md>) 
     || [`👍 CONFIRM`](<🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`1️⃣ ONE`](<🤔✏️ Prompt inputs/ONE 1️⃣ prompt.md>) [`🔢 MANY`](<🤔✏️ Prompt inputs/MANY 🔠 prompt.md>) 
-    || [`🕓 TIME`](<🤔✏️ Prompt inputs/62 🕓 TIME prompt.md>) [`📆 DATE`](<🤔✏️ Prompt inputs/61 📆 DATE prompt.md>) 
-    || [`⬆️ UPLOAD`](<🤔✏️ Prompt inputs/81 ⬆️ UPLOAD prompt.md>)
+    || [`🕓 TIME`](<🤔✏️ Prompt inputs/TIME 🕓 prompt.md>) [`📆 DATE`](<🤔✏️ Prompt inputs/DATE 📆 prompt.md>) 
+    || [`⬆️ UPLOAD`](<🤔✏️ Prompt inputs/UPLOAD ⬆️ prompt.md>)
     || [`🔠 TEXT`](<🤔✏️ Prompt inputs/TEXT 🔠 prompt.md>) 
-    || [`👤 IDENTIFY`](<🤔✏️ Prompt inputs/71 👤 IDENTIFY prompt.md>) [`🛒 EAN`](<🤔✏️ Prompt inputs/74 🛒 EAN prompt.md>) [`🔆 SCAN`](<🤔✏️ Prompt inputs/72 🔆 SCAN prompt.md>) [`🦋 TOUCH`](<🤔✏️ Prompt inputs/73 🦋 TOUCH prompt.md>) 
-    |`Special`| [`📍 LOCATION`](<🤔✏️ Prompt inputs/91 📍 LOCATION prompt.md>) [`🗺️ TRACK`](<🤔✏️ Prompt inputs/TRACK 🗺️ prompt.md>)
+    || [`👤 IDENTIFY`](<🤔✏️ Prompt inputs/IDENTIFY 👤 prompt.md>) [`🛒 EAN`](<🤔✏️ Prompt inputs/EAN 🛒 prompt.md>) [`🔆 SCAN`](<🤔✏️ Prompt inputs/SCAN 🔆 prompt.md>) [`🦋 TOUCH`](<🤔✏️ Prompt inputs/TOUCH 🦋 prompt.md>) 
+    |`Special`| [`📍 LOCATION`](<🤔✏️ Prompt inputs/LOCATION 📍 prompt.md>) [`🗺️ TRACK`](<🤔✏️ Prompt inputs/TRACK 🗺️ prompt.md>)
 
 
     ---
