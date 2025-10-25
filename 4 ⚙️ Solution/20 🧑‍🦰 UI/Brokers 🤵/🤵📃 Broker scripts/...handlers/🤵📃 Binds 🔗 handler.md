@@ -18,10 +18,13 @@
 
 # Translate the vaults and the schemas
 - SEND >> $translations:
-    Subject: Translate@Graph
-    Language: $wallet.Language
-    Domains: $wallet.Vaults
-    Schemas: $wallet.BindSchemas
+    Header:
+        To: $.Settings.Graph
+        Subject: Translate@Graph
+    Body:
+        Language: $wallet.Language
+        Domains: $wallet.Vaults
+        Schemas: $wallet.BindSchemas
 
 # Add the vault titles
 - MERGE >> $binds:

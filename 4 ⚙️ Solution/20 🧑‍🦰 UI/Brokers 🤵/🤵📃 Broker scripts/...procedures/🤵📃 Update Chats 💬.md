@@ -18,10 +18,12 @@
 
 # Notify Wallets to update Chats
 - SEND:
-    To: !wallet.Notifier
-    Subject: Updated@Notifier
-    Wallet: !wallet.Wallet
-    Updates: [ CHATS ]
+    Header:
+        To: !wallet.Notifier
+        Subject: Updated@Notifier
+    Body:
+        Wallet: !wallet.Wallet
+        Updates: [ CHATS ]
 ```
 
 Needs ||

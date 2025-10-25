@@ -54,7 +54,9 @@ Body:
 
 # Send the Collect message
 - SEND:
-    To: $collect.Consumer
-    Subject: Collect@Consumer
-    Collect: $collect.Collect
+    Header:
+        To: $collect.Consumer
+        Subject: Collect@Consumer
+    Body:
+        Collect: $collect.Collect
 ```

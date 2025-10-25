@@ -33,9 +33,11 @@
 
         # Send the request to the Printer
         - SEND >> $resolved:
-            To: $locator.Host
-            Subject: Resolve@Printer
-            Locator: $.Msg.Locator
+            Header:
+                To: $locator.Host
+                Subject: Resolve@Printer
+            Body:
+                Locator: $.Msg.Locator
 
         # Parse the locator again
         - PARSE >> $locator:
@@ -50,10 +52,12 @@
 ```yaml
 # Ask Finders to introduce Hosts
 - SEND:
-    To: $wallet.Finder
-    Subject: Introduce@Finder
-    Chat: $chat.Chat
-    Host: $chat.Chat
+    Header:
+        To: $wallet.Finder
+        Subject: Introduce@Finder
+    Body:
+        Chat: $chat.Chat
+        Host: $chat.Chat
 ```
 
 > Continues on [🔎⏩🧑‍🦰 Introduce 🤗](<../../../../50 🫥 Agent domains/Finders 🔎/🔎⏩ Finder flows/🔎⏩🧑‍🦰 Introduce 🤗.md>)
