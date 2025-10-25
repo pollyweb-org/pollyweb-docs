@@ -50,7 +50,7 @@
     |Behavior| [Prompt 🤔](<../🤔 Prompt.md>) 
     |-|-
     |[`Status`](<8 ⚠️ as Status.md>)| [`ℹ️ INFO`](<../🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`⏳ TEMP`](<../🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>) [`✅ SUCCESS`](<../🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) [`❌ FAILURE`](<../🤔📢 Prompt status/FAILURE ❌/FAILURE ❌ prompt.md>)
-    |[`Inputs`](<9 ✏️ as Input.md>) | [`1️⃣ ONE`](<../🤔✏️ Prompt inputs/53 1️⃣ ONE prompt.md>) [`🔢 MANY`](<../🤔✏️ Prompt inputs/54 🔠 MANY prompt.md>)  [`🔠 TEXT`](<../🤔✏️ Prompt inputs/TEXT 🔠 prompt.md>) 
+    |[`Inputs`](<9 ✏️ as Input.md>) | [`1️⃣ ONE`](<../🤔✏️ Prompt inputs/ONE 1️⃣ prompt.md>) [`🔢 MANY`](<../🤔✏️ Prompt inputs/MANY 🔠 prompt.md>)  [`🔠 TEXT`](<../🤔✏️ Prompt inputs/TEXT 🔠 prompt.md>) 
 
     ---
     <br/>
@@ -161,7 +161,7 @@
 
     | [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/⌘ Command.md>) | Purpose
     |-|-
-    | 1️⃣ [`ONE`](<../🤔✏️ Prompt inputs/53 1️⃣ ONE prompt.md>) | To show the options.
+    | 1️⃣ [`ONE`](<../🤔✏️ Prompt inputs/ONE 1️⃣ prompt.md>) | To show the options.
     | ⏯️️ [`CASE`](<../../😃 Talkers/😃⚙️ Talker cmds/...control ▶️/CASE/CASE ⏯️.md>) | To check the selected option.
     | ℹ️ [`INFO`](<../🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the result.
     
@@ -236,7 +236,7 @@
 
     | [Command ⌘](<../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/⌘ Command.md>) | Purpose
     |-|-
-    | 1️⃣ [`ONE`](<../🤔✏️ Prompt inputs/53 1️⃣ ONE prompt.md>) | To show the options.
+    | 1️⃣ [`ONE`](<../🤔✏️ Prompt inputs/ONE 1️⃣ prompt.md>) | To show the options.
     | ⏯️️ [`CASE`](<../../😃 Talkers/😃⚙️ Talker cmds/...control ▶️/CASE/CASE ⏯️.md>) | To check the selected option.
     | ℹ️ [`INFO`](<../🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the result.
     
