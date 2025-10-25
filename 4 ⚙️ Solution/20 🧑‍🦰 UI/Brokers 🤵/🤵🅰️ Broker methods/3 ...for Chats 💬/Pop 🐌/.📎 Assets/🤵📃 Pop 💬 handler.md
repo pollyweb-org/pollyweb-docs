@@ -1,6 +1,6 @@
 # 🤵📃 Pop 🐌
 
-> [Script 📃](<../🧑‍🦰🐌🤵 Pop.md>)
+> [Script 📃](<../🧑‍🦰🐌🤵 Pop.md>) that implements the [`Pop@Broker` 🅰️ method](<../🧑‍🦰🐌🤵 Pop.md>)
 
 <br/>
 
