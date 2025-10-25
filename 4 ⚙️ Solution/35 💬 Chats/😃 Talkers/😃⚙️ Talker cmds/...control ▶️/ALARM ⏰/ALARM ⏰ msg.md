@@ -1,6 +1,6 @@
 # 😃⏰ Talker `ALARM` command
 
-> Implemented by the [`.ALARM` 📃 script](<😃📃 .ALARM ⏰ script.md>)
+> Implemented by the [`.ALARM` 📃 script](<.📎 Assets/ALARM 📃 script.md>)
 
 <br/>
 
