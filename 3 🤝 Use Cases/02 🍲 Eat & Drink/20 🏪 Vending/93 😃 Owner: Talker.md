@@ -107,10 +107,10 @@ TODO: Add the flow to the Manifest
 |Flow| ⤵️ [`IF`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...control ▶️/IF/IF ⤵️.md>) | To see if 21+ check is needed
 ||⬇️ [`EVAL`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/EVAL ⬇️ flow.md>) | To deduct the value on errors
 ||🪵 [`LOG`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/LOG 🪵 flow.md>) | To log eventual errors
-|Message| 💼 [`SHARE`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/SHARE 💼 msg.md>) | Ask for proof of over 21
+|Message| 💼 [`SHARE`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/SHARE 💼/SHARE 💼 msg.md>) | Ask for proof of over 21
 || 💳 [`CHARGE`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/CHARGE/CHARGE 💳 msg.md>) | Charge the item price
-|| 🏦 [`REFUND`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/REFUND 🏦 msg.md>) | Refund the payment on failure
-|| 👋 [`GOODBYE`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/GOODBYE/GOODBYE 👋 msg.md>) | Show ads on success
-|| 🛰️ [`RELAY`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/RELAY 🛰️ msg.md>) | Relay messages to  machines
+|| 🏦 [`REFUND`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/REFUND 🏦/REFUND 🏦 msg.md>) | Refund the payment on failure
+|| 👋 [`GOODBYE`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/GOODBYE 👋/GOODBYE 👋 msg.md>) | Show ads on success
+|| 🛰️ [`RELAY`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/RELAY 🛰️/RELAY 🛰️ msg.md>) | Relay messages to  machines
 |
 
