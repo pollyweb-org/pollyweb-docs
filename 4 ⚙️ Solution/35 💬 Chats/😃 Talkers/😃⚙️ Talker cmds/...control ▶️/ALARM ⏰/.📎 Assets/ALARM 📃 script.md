@@ -1,6 +1,6 @@
 # 😃📃 .ALARM ⏰ script
 
-> [Script 📃](<../../../...commands ⌘/📃 Script.md>) that implements the [`ALARM`](<../ALARM ⏰ msg.md>) command 
+> [Script 📃](<../../../...commands ⌘/Script 📃/📃 Script.md>) that implements the [`ALARM`](<../ALARM ⏰ msg.md>) command 
 
 ## How to run
 
@@ -36,7 +36,7 @@
 
 Needs||
 |-|-
-| [Commands ⌘](<../../../...commands ⌘/⌘ Command.md>) | [`ASSERT`](<../../../...placeholders 🧠/ASSERT 🚦/ASSERT 🚦.md>) [`SEND`](<../../../...messages 📨/SEND 📬 msg.md>)
+| [Commands ⌘](<../../../...commands ⌘/Command ⌘/Command ⌘.md>) | [`ASSERT`](<../../../...placeholders 🧠/ASSERT 🚦/ASSERT 🚦.md>) [`SEND`](<../../../...messages 📨/SEND 📬 msg.md>)
 | [Messages 📨](<../../../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Trigger@Alarm` 🅰️ method](<../../../../../../45 🤲 Helper domains/Alarms ⏰/⏰🅰️ Alarm methods/👥🐌⏰ Trigger.md>)
 | [Placeholders 🧠](<../../../...placeholders 🧠/$Placeholder 🧠.md>) | [`$.Settings`](<../../../...messages 📨/$.Settings 🎛️.md>)
 |

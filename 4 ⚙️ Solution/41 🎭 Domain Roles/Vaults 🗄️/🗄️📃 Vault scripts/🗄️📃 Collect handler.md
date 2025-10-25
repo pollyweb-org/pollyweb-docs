@@ -26,7 +26,7 @@
     $collect.Data
 ```
 
-| [Command ⌘](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/⌘ Command.md>) | Purpose
+| [Command ⌘](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/Command ⌘.md>) | Purpose
 |-|-
 | 🚦 [`ASSERT`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/ASSERT 🚦/ASSERT 🚦.md>) | Assert if it's the right [Consumer 💼](<../../Consumers 💼/💼🎭 Consumer role.md>)
 | ⏬ [`GET`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET/GET ⏬ item.md>) | Get the [Collect 🪣](<../🗄️🪣 Vault tables/🗄️🪣 Collects.md>) from [`Consume@Consumer`](<../../Consumers 💼/💼🅰️ Consumer methods/🗄️🐌💼 Consume.md>)

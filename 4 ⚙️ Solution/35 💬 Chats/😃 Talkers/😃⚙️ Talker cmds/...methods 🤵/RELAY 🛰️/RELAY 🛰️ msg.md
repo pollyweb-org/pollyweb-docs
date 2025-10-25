@@ -8,7 +8,7 @@
 1. **What's a RELAY item command?**
 
     A `RELAY` 
-    * is a [Command ⌘](<../../...commands ⌘/⌘ Command.md>) 
+    * is a [Command ⌘](<../../...commands ⌘/Command ⌘/Command ⌘.md>) 
     * that sends messages to physical devices
     * via [Relayer 🛰️ helper domains](<../../../../../45 🤲 Helper domains/Relayers 🛰️/🛰️🤲 Relayer helper.md>).
 
@@ -40,8 +40,8 @@
     | `<key>`  | Unique device key in the pool
     | `<script>` | Message to send to the device
     | `$result` | The response returned by the [Relayer 🛰️](<../../../../../45 🤲 Helper domains/Relayers 🛰️/🛰️🤲 Relayer helper.md>)
-    | `<failure>` | [Script 📃](<../../...commands ⌘/📃 Script.md>) or [Command ⌘](<../../...commands ⌘/⌘ Command.md>) to run on failure
-    | `<success>` | [Script 📃](<../../...commands ⌘/📃 Script.md>) or [Command ⌘](<../../...commands ⌘/⌘ Command.md>) to run on success
+    | `<failure>` | [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) or [Command ⌘](<../../...commands ⌘/Command ⌘/Command ⌘.md>) to run on failure
+    | `<success>` | [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) or [Command ⌘](<../../...commands ⌘/Command ⌘/Command ⌘.md>) to run on success
 
     ---
     <br/>

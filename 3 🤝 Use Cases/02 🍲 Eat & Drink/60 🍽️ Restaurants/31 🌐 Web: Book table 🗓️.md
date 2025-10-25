@@ -79,7 +79,7 @@
 ```
 
 
-| [Command ⌘](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/⌘ Command.md>) | Purpose
+| [Command ⌘](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/Command ⌘.md>) | Purpose
 |-|-
 | ⏬ [`GET`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET/GET ⏬ item.md>) | Map the locator to a restaurant info.
 | 📝 [`INFORM`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/INFORM 📝/INFORM 📝 msg.md>) | Show user instructions and allow inputs.

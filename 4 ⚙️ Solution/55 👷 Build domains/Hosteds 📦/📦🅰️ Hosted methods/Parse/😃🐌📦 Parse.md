@@ -2,4 +2,4 @@
 
 # 😃🐌📦 Parse
 
-> Handles a custom [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/⌘ Command.md>)
+> Handles a custom [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/Command ⌘.md>)
