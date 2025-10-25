@@ -16,7 +16,7 @@
 
 | # | Call | Notes
 |-|-|-
-| 1 | [🧑‍🦰🚀🤵 `Chats@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/...for Chats 💬/Chats 🧑‍🦰🚀🤵/Chats 🚀 request.md>) | Fetch [Chats 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) from the [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>)
+| 1 | [🧑‍🦰🚀🤵 `Chats@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/🤵 Chats 💬 Chats 🧑‍🦰🚀🤵/🤵 Chats 🚀 request.md>) | Fetch [Chats 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) from the [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>)
 ||
 
 <br/>
@@ -25,7 +25,7 @@
 
 1. **How is cache invalidated?**
 
-    Cache is invalidated with [🤵⏩🧑‍🦰 Update tokens](<../../../Brokers 🤵/🤵⏩ Broker flows/Update Tokens 🤵⏩🎫/Update Tokens ⏩ flow.md>).
+    Cache is invalidated with [🤵⏩🧑‍🦰 Update tokens](<../../../Brokers 🤵/🤵⏩ Broker flows/🤵 Update Tokens 🤵⏩🎫/Update Tokens ⏩ flow.md>).
 
     ---
     <br/>

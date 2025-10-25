@@ -11,7 +11,7 @@
 > Used by:
 
 * [`Bind` ⏩ flow](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🗄️ Bind 🔗.md>)
-* [`Bind Vault` ⏩ flow ](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵⏩ Broker flows/Bind vault 🗄️⏩🤵/Bind vault ⏩ flow.md>) 
+* [`Bind Vault` ⏩ flow ](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵⏩ Broker flows/🤵 Bind vault 🗄️⏩🤵/Bind vault ⏩ flow.md>) 
 
 <br/>
 
@@ -34,13 +34,13 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header| `From` | string | [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/...for Binds 🔗/Bindable 🗄️🐌🤵/Bindable 🐌 msg.md>)
-|| `To` | string | [Vault 🗄️](<../../🗄️🎭 Vault role.md>)  from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/...for Binds 🔗/Bindable 🗄️🐌🤵/Bindable 🐌 msg.md>)
+|Header| `From` | string | [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/🤵 Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>)
+|| `To` | string | [Vault 🗄️](<../../🗄️🎭 Vault role.md>)  from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/🤵 Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>)
 || `Subject` | string | `Bound@Vault`
-|Body|  `Hook` | uuid | [Hook 🪝](<../../../../35 💬 Chats/😃 Talkers/😃🪣 Talker tables/😃🪣 Hooks 🪝 table.md>) from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/...for Binds 🔗/Bindable 🗄️🐌🤵/Bindable 🐌 msg.md>)
+|Body|  `Hook` | uuid | [Hook 🪝](<../../../../35 💬 Chats/😃 Talkers/😃🪣 Talker tables/😃🪣 Hooks 🪝 table.md>) from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/🤵 Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>)
 ||`Binds`| array | list of Bind objects
 |Bind| `Bind`| uuid | [Bind 🔗 ID](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) on the [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>)
-|| `Schema`| string | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)  from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/...for Binds 🔗/Bindable 🗄️🐌🤵/Bindable 🐌 msg.md>)
+|| `Schema`| string | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)  from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/🤵 Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>)
 |
 
 <br/>

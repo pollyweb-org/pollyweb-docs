@@ -35,8 +35,8 @@ Body:
 | Header| `From` | string | [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) from [`Bound@Vault`](<../Bound/🤵🐌🗄️ Bound.md>)
 || `To` | string | [Vault 🗄️](<../../🗄️🎭 Vault role.md>) from [`Bound@Vault`](<../Bound/🤵🐌🗄️ Bound.md>)
 || `Subject` | string | `Disclose@Vault`
-|Body| `Chat`| uuid | [Chat 💬 ID](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)  from [`Query@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/...for Share 💼/Query 💼🐌🤵/Query 🐌 msg.md>)
-|| `Consumer` | string | [Consumer 💼](<../../../Consumers 💼/💼🎭 Consumer role.md>) from [`Query@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/...for Share 💼/Query 💼🐌🤵/Query 🐌 msg.md>)
-|| `Language` | enum | ISO code from [`Language@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/...for Wallets 🧑‍🦰/Language 🧑‍🦰🐌🤵/Language 🐌 method.md>)
+|Body| `Chat`| uuid | [Chat 💬 ID](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)  from [`Query@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/🤵 Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)
+|| `Consumer` | string | [Consumer 💼](<../../../Consumers 💼/💼🎭 Consumer role.md>) from [`Query@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/🤵 Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)
+|| `Language` | enum | ISO code from [`Language@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/🤵 Wallets 🧑‍🦰 Language 🧑‍🦰🐌🤵/🤵 Language 🐌 msg.md>)
 || `Bind` | uuid | [Bind 🔗 ID](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) from [`Bound@Vault`](<../Bound/🤵🐌🗄️ Bound.md>)
 |

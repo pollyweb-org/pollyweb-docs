@@ -11,7 +11,7 @@
 
 | # | Call | Notes |
 |-|-|-
-| 1 | [🧑‍🦰🚀🤵 `Binds@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/...for Binds 🔗/Binds 🧑‍🦰🚀🤵/Binds 🚀 request.md>) | The [Wallet 🧑‍🦰](<../../🧑‍🦰🛠️ Wallet app.md>) gets the [Binds 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) from the [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>)
+| 1 | [🧑‍🦰🚀🤵 `Binds@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/🤵 Binds 🔗 Binds 🧑‍🦰🚀🤵/🤵 Binds 🚀 request.md>) | The [Wallet 🧑‍🦰](<../../🧑‍🦰🛠️ Wallet app.md>) gets the [Binds 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) from the [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>)
 ||
 
 
@@ -21,7 +21,7 @@
 
 1. **How is cache invalidated?**
 
-    Cache is invalidated with [🤵⏩🧑‍🦰 Update tokens](<../../../Brokers 🤵/🤵⏩ Broker flows/Update Tokens 🤵⏩🎫/Update Tokens ⏩ flow.md>).
+    Cache is invalidated with [🤵⏩🧑‍🦰 Update tokens](<../../../Brokers 🤵/🤵⏩ Broker flows/🤵 Update Tokens 🤵⏩🎫/Update Tokens ⏩ flow.md>).
 
     ---
     <br/>
