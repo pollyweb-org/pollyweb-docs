@@ -10,7 +10,7 @@
 
 ## Flow diagram
 
-![alt text](<⚙️ Token status.png>)
+![alt text](<💼 Token Status ⚙️ uml.png>)
 
 |#| Step | Purpose
 |-|-|-

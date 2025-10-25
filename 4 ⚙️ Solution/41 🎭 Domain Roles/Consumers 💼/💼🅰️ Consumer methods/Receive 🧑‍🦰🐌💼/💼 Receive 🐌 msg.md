@@ -1,6 +1,6 @@
 # 🧑‍🦰🐌💼 Receive @ Consumer
 
-> Implemented by the [`Receive` 📃 script](<../../💼📃 Consumer scripts/💼📃 Receive.md>)
+> Implemented by the [`Receive` 📃 script](<💼 Receive 📃 handler.md>)
 
 > Part of the [`Share Token` ⏩ flow](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Token 🎫.md>) 
 
