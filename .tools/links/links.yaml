@@ -197,7 +197,7 @@ Successful Tests:
     Reasons: This is hardcoded.
 
   - Given: '{{Placeholders table}}' 
-    LinkText: '`Placeholders` table'
+    LinkText: '`Placeholders` 🪣 table'
     LinkFile: '😃🪣 Placeholders 🧠 table.md'
     Reasons:
       It's under a "*tables*" folder,

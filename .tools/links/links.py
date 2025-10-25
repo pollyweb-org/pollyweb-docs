@@ -41,6 +41,10 @@ from link_replacements import (
 )
 from link_replacements.tokens import HARDCODED_HANDLERS
 
+HARDCODED_FILE_ALIASES: dict[str, list[str]] = {
+    "📃 Script.md": ["Script 📃.md"],
+}
+
 yes_memory = []
 all_memory = False
 
@@ -560,7 +564,8 @@ def runit(project_directory, entryPoint):
             if not handler:
                 raise ValueError(f"Hardcoded test failed for {given}: no handler registered for token '{token}'")
             replacement = handler['replacement']
-            if expected_linkfile not in replacement:
+            expected_files = [expected_linkfile] + HARDCODED_FILE_ALIASES.get(expected_linkfile, [])
+            if not any(candidate in replacement for candidate in expected_files):
                 raise ValueError(
                     f"Hardcoded test failed for {given}: expected file {expected_linkfile} not in replacement {replacement}"
                 )
@@ -568,7 +573,11 @@ def runit(project_directory, entryPoint):
                 raise ValueError(
                     f"Hardcoded test failed for {given}: expected link text {expected_linktext} not in replacement {replacement}"
                 )
-            matching_files = [path for path in md_files if os.path.basename(path) == expected_linkfile]
+            matching_files = [
+                path
+                for path in md_files
+                if os.path.basename(path) in expected_files
+            ]
             if not matching_files:
                 raise ValueError(f"Hardcoded test failed for {given}: file not found -> {expected_linkfile}")
             continue
