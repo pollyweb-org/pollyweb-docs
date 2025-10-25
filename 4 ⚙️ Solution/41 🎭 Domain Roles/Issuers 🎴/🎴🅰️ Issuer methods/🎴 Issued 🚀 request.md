@@ -4,7 +4,7 @@
 
 # 🧑‍🦰🚀🎴 Issued @ Issuer
 
-> Implemented by the [`Issued` 📃 script](<../🎴📃 Issuer scripts/🎴📃 Issued.md>)
+> Implemented by the [`Issued` 📃 script](<🎴 Issued 📃 handler.md>)
 
 > Part of the [🎴⏩🧑‍🦰 Offer Token @ Issuer](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🎴 Save token.md>) flow.
 
@@ -61,7 +61,7 @@ Schema: airlines.any-igo.dom/SSR/WCH:1
 1. **Why isn't the `Token` ID property in the response?**
 
     At this point, the [Issuer 🎴](<../🎴🎭 Issuer role.md>) doesn't know the `Token` yet.
-    * That information will be given later in [`Accepted@Issuer`](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/🤵🐌🎴 Accepted.md>).
+    * That information will be given later in [`Accepted@Issuer`](<Accepted 🤵🐌🎴/🎴 Accepted 🐌 msg.md>).
 
     ---
     <br/>
