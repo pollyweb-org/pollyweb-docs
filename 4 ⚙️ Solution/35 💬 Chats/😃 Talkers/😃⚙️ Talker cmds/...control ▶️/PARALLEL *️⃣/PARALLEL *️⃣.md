@@ -4,7 +4,7 @@
 
 > Part of [Talker 😃](<../../../😃 Talker role.md>)
 
-> Example: [Pop Vault 🔆](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📃 Broker scripts/...procedures/🤵📃 Pop Vault 🗄️.md>)
+> Example: [Pop Vault 🔆](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📃 Broker scripts/...procedures/🤵📃 Pop Vault 🗄️ script.md>)
 
 
 <br/>
