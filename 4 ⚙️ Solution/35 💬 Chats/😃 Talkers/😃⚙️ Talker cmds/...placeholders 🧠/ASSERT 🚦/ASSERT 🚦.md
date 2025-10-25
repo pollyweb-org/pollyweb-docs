@@ -1,10 +1,10 @@
 # 😃🚦 Talker `ASSERT` command
 
-> Part of [Talker 😃](<../../😃 Talker role.md>)
+> Part of [Talker 😃](<../../../😃 Talker role.md>)
 
 
 <!-- TODO: examples -->
-> Used by [`Accepted@Issuer`](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/🤵🐌🎴 Accepted.md>)
+> Used by [`Accepted@Issuer`](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/🤵🐌🎴 Accepted.md>)
 
 <br/>
 
@@ -13,7 +13,7 @@
 1. **What's the ASSERT command?**
 
     An `ASSERT`
-    * is a handler [Command ⌘](<../...commands ⌘/⌘ Command.md>) 
+    * is a handler [Command ⌘](<../../...commands ⌘/⌘ Command.md>) 
     * that verifies data assumptions.
   
     ---
@@ -59,7 +59,7 @@
     | Argument| Purpose | Examples
     |-|-|-
     | `$object`| Optional initial context | `$.Msg` 
-    | `{value}` | String or [{Function}](<../...functions 🐍/{Function} 🐍.md>) evaluated | `A` `{f}` `{$p}`
+    | `{value}` | String or [{Function}](<../../...functions 🐍/{Function} 🐍.md>) evaluated | `A` `{f}` `{$p}`
     || Supports missing `{}`  | `f()` `$p`
     | `{comparison}` | `=` `~=` `!=` `>` `>=` `<` `<=` 
     
@@ -97,9 +97,9 @@
     |-|-|-
     | `~=` | Same content out of order | `[1,2] = [2,1]`
     |       | Same content out of order | `{A:1, B:2} = {B:2, A:1}`
-    |       |Same [Schema 🧩 code](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | `.HOST ~= nlweb.org/HOST:1.0 `|
-    |       | Same [domain 👥](<../../../../40 👥 Domains/👥 Domain.md>) name | `domain.dom ~= DOMAIN.DOM`
-    |       | Same [`{.Today}` 🐍](<../...functions 🐍/{Function} 🐍.md>) date | `~= 2013-04-01T05:00:30.001Z`
+    |       |Same [Schema 🧩 code](<../../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | `.HOST ~= nlweb.org/HOST:1.0 `|
+    |       | Same [domain 👥](<../../../../../40 👥 Domains/👥 Domain.md>) name | `domain.dom ~= DOMAIN.DOM`
+    |       | Same [`{.Today}` 🐍](<../../...functions 🐍/{Function} 🐍.md>) date | `~= 2013-04-01T05:00:30.001Z`
     
     
 
@@ -214,8 +214,8 @@
     |Situation | Behavior
     |-|-
     | `Comparisons` | The left of the operator maps to the `$object`
-    |               | The right side is evaluated with [{Functions} 🐍](<../...functions 🐍/{Function} 🐍.md>)
-    | `Single value` | No [{Functions} 🐍](<../...functions 🐍/{Function} 🐍.md>); all is mapped to `$object` 
+    |               | The right side is evaluated with [{Functions} 🐍](<../../...functions 🐍/{Function} 🐍.md>)
+    | `Single value` | No [{Functions} 🐍](<../../...functions 🐍/{Function} 🐍.md>); all is mapped to `$object` 
 
     ---
     <br/>
@@ -231,7 +231,7 @@
     - SUCCESS|Message is from Any Broker
     ```
 
-    Commands: [`$.Msg`](<../...messages 📨/$.Msg 📨.md>) [`ASSERT`](<ASSERT 🚦.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
+    Commands: [`$.Msg`](<../../...messages 📨/$.Msg 📨.md>) [`ASSERT`](<ASSERT 🚦.md>) [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
 
     ---
     <br/>
@@ -239,7 +239,7 @@
 
 1. **How to assert a Locator?**
 
-    > This uses the syntax of the [`{.Parse}` 🔆 function](<PARSE 🔆.md>).
+    > This uses the syntax of the [`{.Parse}` 🔆 function](<../PARSE 🔆.md>).
 
     ```yaml
     # Put the locator in a placeholder
@@ -254,7 +254,7 @@
     - SUCCESS|The schema is equivalent to ./HOST
     ```
 
-    Commands: [`EVAL`](<EVAL ⬇️ flow.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
+    Commands: [`EVAL`](<../EVAL ⬇️ flow.md>) [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
 
     ---
     <br/>

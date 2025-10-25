@@ -39,13 +39,13 @@ Successful Tests:
 
   - Given: '{{.CHAT script}}'
     LinkText: "`.CHAT` 📃 script"
-    LinkFile: '😃📃 .CHAT 💬 script.md'
+    LinkFile: '.CHAT 📃 script.md'
     Reasons: |
       For `{{WORD script}}`,
       where the string ends with the word `script`,
       the file is called `?📃*WORD* script.md`
       containing the emoji "📃"
-      and is under a folder called "*📃*scripts".
+      or the file is called `WORD 📃 script.md`.
 
   - Given: '{{Triggered@Alarm}}'
     LinkText: "`Triggered@Alarm` 🔔 event"
