@@ -4,7 +4,7 @@
 
 > Part of [Talker 😃](<../../../😃 Talker role.md>)
 
-> Implemented by the [`.UNDO` 📃 script](<.📎 Assets/😃📃 .UNDO script.md>)
+> Implemented by the [`.UNDO` 📃 script](<.📎 Assets/UNDO 📃 script.md>)
 
 > Cancels a soft [`DELETE` 🗑️ command](<../DELETE/DELETE 🗑️ item.md>)
 
