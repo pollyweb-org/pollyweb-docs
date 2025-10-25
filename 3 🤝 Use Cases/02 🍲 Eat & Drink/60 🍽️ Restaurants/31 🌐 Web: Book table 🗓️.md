@@ -82,11 +82,11 @@
 | [Command ⌘](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/⌘ Command.md>) | Purpose
 |-|-
 | ⏬ [`GET`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET/GET ⏬ item.md>) | Map the locator to a restaurant info.
-| 📝 [`INFORM`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/INFORM 📝 msg.md>) | Show user instructions and allow inputs.
+| 📝 [`INFORM`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/INFORM/INFORM 📝 msg.md>) | Show user instructions and allow inputs.
 | 1️⃣ [`ONE`](<../../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔✏️ Prompt inputs/53 1️⃣ ONE prompt.md>) | Select an option, the day in this case.
 | 💼 [`SHARE`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/SHARE 💼 msg.md>) | Get the user's booking contacts.
 | 👍 [`CONFIRM`](<../../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) | Pause to allow changing previous inputs.
-| ❄️ [`FREEZE`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/FREEZE ❄️ msg.md>) | Freeze all previous inputs from changes.
+| ❄️ [`FREEZE`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/FREEZE/FREEZE ❄️ msg.md>) | Freeze all previous inputs from changes.
 | ⬇️ [`EVAL`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/EVAL ⬇️ flow.md>) | Save the booking.
 | 🎫 [`ISSUE`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/ISSUE 🎫 msg.md>) | Call the [Save Token ⏩ flow](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🎴 Save token.md>).
 |

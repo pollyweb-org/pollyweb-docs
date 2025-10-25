@@ -1,16 +1,16 @@
 # 😃🔽 Talker `FILTER` command
 
-> Part of [Talker 😃](<../../😃 Talker role.md>)
+> Part of [Talker 😃](<../../../😃 Talker role.md>)
 
-> Implemented by the [`.FILTER` 📃 script](<../../😃📃 Talker scripts/...for methods 🤵/😃📃 .FILTER 🔽 script.md>)
+> Implemented by the [`.FILTER` 📃 script](<../../../😃📃 Talker scripts/...for methods 🤵/😃📃 .FILTER 🔽 script.md>)
 
 <br/>
 
 1. **What's a FILTER command?**
 
     A `FILTER`
-    * is a message [Command ⌘](<../...commands ⌘/⌘ Command.md>) 
-    * that calls [`MANY` 🔠 prompt](<../../../🤔 Prompts/🤔✏️ Prompt inputs/54 🔠 MANY prompt.md>)
+    * is a message [Command ⌘](<../../...commands ⌘/⌘ Command.md>) 
+    * that calls [`MANY` 🔠 prompt](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/54 🔠 MANY prompt.md>)
     * to return only the user-selected items of a list.
 
 
@@ -41,16 +41,16 @@
 
 1. **What's an example of a FILTER?**
 
-    Here's a [Chat 💬](<../../../💬 Chats/💬 Chat.md>).
+    Here's a [Chat 💬](<../../../../💬 Chats/💬 Chat.md>).
 
-    | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+    | [Domain](<../../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
-    | 🤗 [Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 Which options? [All, No] <br/> - [ ] Some option <br/> - [ ] Another option | > All
+    | 🤗 [Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 Which options? [All, No] <br/> - [ ] Some option <br/> - [ ] Another option | > All
     ||
 
     <br/>
 
-    Here's the [Script 📃](<../...commands ⌘/📃 Script.md>).
+    Here's the [Script 📃](<../../...commands ⌘/📃 Script.md>).
 
     ```yaml
     # Create a dummy list
