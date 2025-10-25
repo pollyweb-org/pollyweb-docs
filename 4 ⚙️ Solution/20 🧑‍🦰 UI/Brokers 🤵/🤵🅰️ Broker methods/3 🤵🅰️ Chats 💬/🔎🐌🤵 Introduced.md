@@ -4,9 +4,13 @@
 
 # 🔎🐌🤵 Introduced @ Broker
 
-> The [Finder 🔎 domain](<../../../../50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) finished the introduction.
+> Purpose
 
-> Used by [🔎⏩🧑‍🦰 Introduce ⓘ](<../../../../50 🫥 Agent domains/Finders 🔎/🔎⏩ Finder flows/🔎⏩🧑‍🦰 Introduce 🤗.md>)
+* The [Finder 🔎 domain](<../../../../50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) finished the introduction.
+
+> Used by 
+
+* [🔎⏩🧑‍🦰 Introduce ⓘ](<../../../../50 🫥 Agent domains/Finders 🔎/🔎⏩ Finder flows/🔎⏩🧑‍🦰 Introduce 🤗.md>)
 
 <br/>
 
