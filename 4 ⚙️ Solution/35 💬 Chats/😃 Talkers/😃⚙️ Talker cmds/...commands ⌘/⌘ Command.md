@@ -74,7 +74,7 @@
 
     |Command|Purpose
     |-|-
-    | 🔗 [`BIND`](<../...methods 🤵/BIND/BIND 🔗 msg.md>) | Calls the [Bind Vault @ Wallet ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🗄️ Bind 🔗.md>) flow.
+    | 🔗 [`BIND`](<../...methods 🤵/BIND 🔗/BIND 🔗 msg.md>) | Calls the [Bind Vault @ Wallet ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🗄️ Bind 🔗.md>) flow.
     | 🎫 [`ISSUE`](<../...methods 🤵/ISSUE 🎫 msg.md>) | Calls the [Save Token @ Wallet ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🎴 Save token.md>) flow.
     | 👋 [`GOODBYE`](<../...methods 🤵/GOODBYE/GOODBYE 👋 msg.md>) | Calls the [Goodbye @ Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Goodbye 👋.md>) ⏩ flow.
     | 📜 [`FLOW`](<../...methods 🤵/INFORM/INFORM 📝 msg.md>)
