@@ -145,7 +145,7 @@
     WhenUnmatched:
     - INFO|You selected option {$x}.
     ```
-    Commands: [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>)
+    Commands: [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
 
     ---
     <br/>
@@ -176,7 +176,7 @@
     # Show the translation 
     - INFO|You said `{$output}`
     ```    
-    Commands: [`DIGITS`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/44 🔢 DIGITS prompt.md>) [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>)
+    Commands: [`DIGITS`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/44 🔢 DIGITS prompt.md>) [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
 
     ---
     <br/>

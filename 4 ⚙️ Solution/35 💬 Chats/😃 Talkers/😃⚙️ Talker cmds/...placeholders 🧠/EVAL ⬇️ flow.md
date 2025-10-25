@@ -115,7 +115,7 @@
     - REPEAT
     ```
 
-    Commands: [`CONFIRM`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`EVAL`](<EVAL ⬇️ flow.md>) [`REPEAT`](<../...control ▶️/REPEAT/REPEAT 🔁.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
+    Commands: [`CONFIRM`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`EVAL`](<EVAL ⬇️ flow.md>) [`REPEAT`](<../...control ▶️/REPEAT/REPEAT 🔁.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
 
 
     ```python
@@ -164,7 +164,7 @@
     - INFO|$intro
     ```
 
-    Commands: [`EVAL`](<EVAL ⬇️ flow.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>)
+    Commands: [`EVAL`](<EVAL ⬇️ flow.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
 
     ---
     <br/>

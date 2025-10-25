@@ -48,7 +48,7 @@
     # Show the total number of seconds since midnight
     - INFO|{$period.TotalSeconds} seconds from midnight:
     ```
-    Commands: [`.Today`](<../../...functions 🐍/🔩 {.Today}.md>) [`.Now`](<../../...functions 🐍/🔩 {.Now}.md>) [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>)
+    Commands: [`.Today`](<../../...functions 🐍/🔩 {.Today}.md>) [`.Now`](<../../...functions 🐍/🔩 {.Now}.md>) [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
 
     ---
     <br/>

@@ -68,7 +68,7 @@
     - FAILURE|This command never runs.
     ```
 
-    Commands: [`FAILURE`](<../../../🤔 Prompts/🤔📢 Prompt status/FAILURE ❌ prompt.md>) [`RUN`](<RUN ▶️.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
+    Commands: [`FAILURE`](<../../../🤔 Prompts/🤔📢 Prompt status/FAILURE ❌/FAILURE ❌ prompt.md>) [`RUN`](<RUN ▶️.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
     
     ---
     <br/>
@@ -118,7 +118,7 @@
     - RETURN|.Add($:1, $:2, $:3)
     ```
 
-    Commands: [`.Add`](<../...functions 🐍/🔩 {.Add}.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`RUN`](<RUN ▶️.md>) 
+    Commands: [`.Add`](<../...functions 🐍/🔩 {.Add}.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`RUN`](<RUN ▶️.md>) 
 
     ---
     <br/>

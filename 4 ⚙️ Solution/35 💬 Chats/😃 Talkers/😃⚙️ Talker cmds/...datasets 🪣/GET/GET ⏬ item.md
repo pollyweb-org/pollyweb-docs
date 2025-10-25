@@ -73,7 +73,7 @@
     - INFO|{$myItem.PropA} 
     ```
 
-    Commands: [`GET`](<GET ⏬ item.md>) [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>)
+    Commands: [`GET`](<GET ⏬ item.md>) [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
 
     ---
     <br>

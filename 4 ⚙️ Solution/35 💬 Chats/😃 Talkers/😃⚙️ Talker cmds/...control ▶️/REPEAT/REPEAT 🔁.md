@@ -49,7 +49,7 @@
     - REPEAT|Check again?
     ```
 
-    Commands: [`.Now`](<../../...functions 🐍/🔩 {.Now}.md>) [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>) [`REPEAT`](<REPEAT 🔁.md>)
+    Commands: [`.Now`](<../../...functions 🐍/🔩 {.Now}.md>) [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) [`REPEAT`](<REPEAT 🔁.md>)
 
     ---
     <br/>
@@ -74,7 +74,7 @@
     - SUCCESS|The time is {.Now}.
     - REPEAT
     ```
-    Commands: [`QUANTITY`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/42 ↕️ QUANTITY prompt.md>) [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>) [`REPEAT`](<REPEAT 🔁.md>)
+    Commands: [`QUANTITY`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/42 ↕️ QUANTITY prompt.md>) [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) [`REPEAT`](<REPEAT 🔁.md>)
     
     ---
     <br/>
@@ -120,7 +120,7 @@
     # Show the successful submission
     - SUCCESS|Order submitted!
     ````
-    Commands: [`CONFIRM`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>)  [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>)  [`RUN`](<../RUN ▶️.md>) [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
+    Commands: [`CONFIRM`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>)  [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)  [`RUN`](<../RUN ▶️.md>) [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
 
     ```yaml
     📃 AddItems:
@@ -139,7 +139,7 @@
     # Repeat after the user confirms
     - REPEAT|Add another?
     ```
-    Commands:  [`DIGITS`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/44 🔢 DIGITS prompt.md>) [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️ flow.md>) [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`REPEAT`](<REPEAT 🔁.md>) 
+    Commands:  [`DIGITS`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/44 🔢 DIGITS prompt.md>) [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️ flow.md>) [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`REPEAT`](<REPEAT 🔁.md>) 
 
     ---
     <br/>

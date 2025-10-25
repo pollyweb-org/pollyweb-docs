@@ -66,7 +66,7 @@
     - REPEAT
     ```
 
-    Commands: [`.Now`](<../../...functions 🐍/🔩 {.Now}.md>) [`REPEAT`](<../REPEAT/REPEAT 🔁.md>) [`TEMP`](<../../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳ prompt.md>) [`WAIT`](<WAIT ⏸️.md>)
+    Commands: [`.Now`](<../../...functions 🐍/🔩 {.Now}.md>) [`REPEAT`](<../REPEAT/REPEAT 🔁.md>) [`TEMP`](<../../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>) [`WAIT`](<WAIT ⏸️.md>)
     
 
     
@@ -109,12 +109,12 @@
     | [Command ⌘](<../../...commands ⌘/⌘ Command.md>) | Purpose
     |-|-
     | ⬇️ [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️ flow.md>) | to assess the backend queue length.
-    | ℹ️ [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) | To show the initial message.
+    | ℹ️ [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the initial message.
     | 🔁 [`REPEAT`](<../REPEAT/REPEAT 🔁.md>) | To re-assess the queue periodically.
     | 🔁 [`RETURN`](<../REPEAT/REPEAT 🔁.md>) | To exit the loop when it's the user's turn.
     | ▶️ [`RUN`](<../RUN ▶️.md>) | To start the waiting loop.
-    | ✅ [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>) | To say that it's ready.
-    | ⏳ [`TEMP`](<../../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳ prompt.md>) | To show work in progress.
+    | ✅ [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) | To say that it's ready.
+    | ⏳ [`TEMP`](<../../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>) | To show work in progress.
 
     ---
     <br/>
@@ -171,7 +171,7 @@
     | 🔁 [`REPEAT`](<../REPEAT/REPEAT 🔁.md>) | To re-assess the queue periodically.
     | 🔁 [`RETURN`](<../REPEAT/REPEAT 🔁.md>) | To exit the loop when it's the user's turn.
     | ▶️ [`RUN`](<../RUN ▶️.md>) | To start the waiting loop.
-    | ⏳ [`TEMP`](<../../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳ prompt.md>) | To show work in progress.
+    | ⏳ [`TEMP`](<../../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>) | To show work in progress.
 
     ---
     <br/>
