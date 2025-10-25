@@ -1,6 +1,6 @@
 # 😃⤵️ Talker `IF` flow 
 
-> Part of [Talker 😃](<../../😃 Talker role.md>)
+> Part of [Talker 😃](<../../../😃 Talker role.md>)
 
 <br/>
 
@@ -8,9 +8,9 @@
 1. **What's an IF flow?**
 
     An `IF` ⤵️
-    * is a flow [Command ⌘](<../...commands ⌘/⌘ Command.md>)  
-    * that runs a [Script 📃](<../...commands ⌘/📃 Script.md>) or [Command ⌘](<../...commands ⌘/⌘ Command.md>)
-    * based on the evaluation of a placeholder or [{Function}](<../...functions 🐍/{Function} 🐍.md>).
+    * is a flow [Command ⌘](<../../...commands ⌘/⌘ Command.md>)  
+    * that runs a [Script 📃](<../../...commands ⌘/📃 Script.md>) or [Command ⌘](<../../...commands ⌘/⌘ Command.md>)
+    * based on the evaluation of a placeholder or [{Function}](<../../...functions 🐍/{Function} 🐍.md>).
 
     ---
     <br/>
@@ -23,8 +23,8 @@
     String   | empty | ` ` | non-empty | `.` `bla` 
     Number  | zero | `0` | non-zero | `1` `-1`
     Array | empty | `[]` | non-empty | `[1,A]`
-    [Confirm 👍](<../../../🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) |  no | `No` | yes | `Yes`|
-    [Share 💼](<../...methods 🤵/SHARE 💼 msg.md>) | empty | `{}`| non-empty | `{A:1}`
+    [Confirm 👍](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) |  no | `No` | yes | `Yes`|
+    [Share 💼](<../../...methods 🤵/SHARE 💼 msg.md>) | empty | `{}`| non-empty | `{A:1}`
     
 
     ---
@@ -43,10 +43,10 @@
 
     | Argument| Purpose | Example
     |-|-|-
-    | `{function}` | Boolean [{Function}](<../...functions 🐍/{Function} 🐍.md>) to evaluate  | `{f}` `{$o}`
+    | `{function}` | Boolean [{Function}](<../../...functions 🐍/{Function} 🐍.md>) to evaluate  | `{f}` `{$o}`
     || Allows for missing `{}` in functions | `f()` `$p`
-    || Defaults to the last [input prompt ✏️](<../../../🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>) | `TEXT\|Id?`
-    | `<true-script>` | [Script 📃](<RUN ▶️.md>) when `True` | `IfTrue`
+    || Defaults to the last [input prompt ✏️](<../../../../🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>) | `TEXT\|Id?`
+    | `<true-script>` | [Script 📃](<../RUN ▶️.md>) when `True` | `IfTrue`
     
     
     ---
@@ -62,11 +62,11 @@
 
     | Argument| Purpose | Example
     |-|-|-
-    | `{function}` | Boolean [{Function}](<../...functions 🐍/{Function} 🐍.md>) to evaluate  | `{f}` `{$o}`
+    | `{function}` | Boolean [{Function}](<../../...functions 🐍/{Function} 🐍.md>) to evaluate  | `{f}` `{$o}`
     || Allows for missing `{}` in functions | `f()` `$p`
-    || Defaults to the last [input prompt ✏️](<../../../🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>) | `TEXT\|Id?`
-    | `<true-script>` | [Script 📃](<RUN ▶️.md>) when `True` | `IfTrue`
-    | `<false-script>`| [Script 📃](<RUN ▶️.md>) when `False` | `IfFalse(X)`
+    || Defaults to the last [input prompt ✏️](<../../../../🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>) | `TEXT\|Id?`
+    | `<true-script>` | [Script 📃](<../RUN ▶️.md>) when `True` | `IfTrue`
+    | `<false-script>`| [Script 📃](<../RUN ▶️.md>) when `False` | `IfFalse(X)`
     
     ---
     <br/>
@@ -85,8 +85,8 @@
 
     | Argument| Purpose
     |-|-
-    | `<true-action>` | [Script 📃](<../...commands ⌘/📃 Script.md>) or one-lin⌘ [Command ⌘](<../...commands ⌘/⌘ Command.md>) on `True`
-    | `<false-action>`| [Script 📃](<../...commands ⌘/📃 Script.md>) or one-line [Command ⌘](<../...commands ⌘/⌘ Command.md>) on `False`
+    | `<true-action>` | [Script 📃](<../../...commands ⌘/📃 Script.md>) or one-lin⌘ [Command ⌘](<../../...commands ⌘/⌘ Command.md>) on `True`
+    | `<false-action>`| [Script 📃](<../../...commands ⌘/📃 Script.md>) or one-line [Command ⌘](<../../...commands ⌘/⌘ Command.md>) on `False`
 
     ---
     <br/>
@@ -107,8 +107,8 @@
 
     | Argument| Purpose
     |-|-
-    | `<true-cmd-n>` | List of multi-line [Commands ⌘](<../...commands ⌘/⌘ Command.md>) to run on `True`
-    | `<false-cmd-n>` | List of multi-line [Commands ⌘](<../...commands ⌘/⌘ Command.md>) to run on `False`
+    | `<true-cmd-n>` | List of multi-line [Commands ⌘](<../../...commands ⌘/⌘ Command.md>) to run on `True`
+    | `<false-cmd-n>` | List of multi-line [Commands ⌘](<../../...commands ⌘/⌘ Command.md>) to run on `False`
 
     ---
     <br/>
@@ -117,11 +117,11 @@
 1. **What are examples of inline syntax?**
 
 
-    | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+    | [Domain](<../../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ Test started
-    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ Code is correct!
-    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ Test finished
+    | [🤗 Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ Test started
+    | [🤗 Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ Code is correct!
+    | [🤗 Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ Test finished
 
 
     ```yaml
@@ -167,11 +167,11 @@
 1. **What are examples of multi-line syntax?**
 
     
-    | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+    | [Domain](<../../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ Test started
-    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ Code is correct!
-    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ Test finished
+    | [🤗 Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ Test started
+    | [🤗 Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ Code is correct!
+    | [🤗 Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ Test finished
 
 
     ```yaml
