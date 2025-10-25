@@ -24,7 +24,7 @@ Consider the following Chat excerpt from the [Pass gates at train station 🤝 u
 
 | # | Call | Notes
 |-|-|-
-1| [🎴🐌🤵 `Revise@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/5 ...for Tokens 🎫/🎴🐌🤵 Revise.md>) | [Issuers 🎴](<../🎴🎭 Issuer role.md>) ask to revise a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
+1| [🎴🐌🤵 `Revise@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/5 ...for Tokens 🎫/Revise/🎴🐌🤵 Revise.md>) | [Issuers 🎴](<../🎴🎭 Issuer role.md>) ask to revise a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
 2| [🤵⏩🧑‍🦰 Update Tokens 🎫](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵⏩ Broker flows/Update Tokens 🎫/🤵⏩🧑‍🦰 Update Tokens 🎫.md>) | [Brokers 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) tell [Wallets 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) to update the list
 3| [🤗⏩🧑‍🦰 Prompt 🤔](<../../Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) tell users about what happened
 |
