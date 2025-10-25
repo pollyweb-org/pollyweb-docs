@@ -52,7 +52,7 @@
     | 💰 [`AMOUNT`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/43 💰 AMOUNT prompt.md>) |  1.23 | Decimals and currency
     | ⭐ [`RATE`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/46 ⭐ RATE prompt.md>) | 5 ⭐ | Integer from 1 to 5
     | 🔑 [`OTP`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/57 🔑 OTP prompt.md>) | 0123 | SIM one time password
-    | 👍 [`CONFIRM`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) | Yes | `Yes` `No` `Cancel` answer
+    | 👍 [`CONFIRM`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/CONFIRM/31 👍 CONFIRM prompt.md>) | Yes | `Yes` `No` `Cancel` answer
     | 🔠 [`MANY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/54 🔠 MANY prompt.md>) | [A,B] |
     | 1️⃣ [`ONE`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/53 1️⃣ ONE prompt.md>) | A |
     | 📆 [`DATE`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/61 📆 DATE prompt.md>)
@@ -109,10 +109,10 @@
 
     Command | Purpose
     |-|-
-    | ⏯️️ [`CASE`](<../...control ▶️/CASE/CASE ⏯️.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script 📃](<📃 Script.md>) ../for control/📃 Script.md{Function}](<../...functions/{Function} 🐍.md>).
+    | ⏯️️ [`CASE`](<../...control ▶️/CASE/CASE ⏯️.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script 📃](<📃 Script.md>) based on a [{Function} 🐍](<../...functions 🐍/{Function} 🐍.md>).
     | 🫥 [`EMOJI`](<../../../🤔 Prompts/🤔✏️ Prompt input features/😶⌘ EMOJI cmd.md>) | Changes the [default emoji 😃](<../../../🤔 Prompts/🤔✏️ Prompt input features/😶 Input emojis.md>) for [input prompts ✏️](<../../../🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>).
     | ⬇️ [`EVAL`](<../...placeholders 🧠/EVAL ⬇️ flow.md>) | Evaluates a [{Function}](<../...functions 🐍/{Function} 🐍.md>) into a placeholder.
-    | ⤵️ [`IF`](<../...control ▶️/IF/IF ⤵️.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script 📃](<📃 Script.md>) ../for control/📃 Script.md{Function}](<../...functions/{Function} 🐍.md>).
+    | ⤵️ [`IF`](<../...control ▶️/IF/IF ⤵️.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script 📃](<📃 Script.md>) based on a [{Function} 🐍](<../...functions 🐍/{Function} 🐍.md>).
     | 🪵 [`LOG`](<LOG 🪵 flow.md>) | Logs messages into the system handler.
     | 🔁 [`REPEAT`](<../...control ▶️/REPEAT/REPEAT 🔁.md>) | Repeats the current [Script 📃](<📃 Script.md>) with a confirmation.
     | ⤴️ [`RETURN`](<../...control ▶️/RETURN ⤴️.md>) | Returns from a [Script 📃](<📃 Script.md>) with a result.
