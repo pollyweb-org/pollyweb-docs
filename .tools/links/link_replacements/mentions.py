@@ -108,6 +108,10 @@ def format_dynamic_link_text(token: str, *, triple_brace: bool = False) -> str:
         core = token[: -len(" script")].strip()
         if core:
             return f"`{core}` 📃 script"
+    if token.lower().endswith(" handler"):
+        core = token[: -len(" handler")].strip()
+        if core:
+            return f"`{core}` 📃 handler"
 
     display = f"{{{token}}}" if triple_brace else token
     return f"`{display}`"

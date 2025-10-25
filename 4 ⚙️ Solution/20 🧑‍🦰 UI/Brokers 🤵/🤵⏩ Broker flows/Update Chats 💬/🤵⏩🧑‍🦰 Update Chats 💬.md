@@ -6,7 +6,7 @@
 
 > Used in:
 * [🧑‍🦰👉🤵 Abandon chat @ Wallet](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Chats 💬/💬🤵 Abandon 💬.md>)
-* [🤵⏩🧑‍🦰 Converse @ Broker](<../Converse 🤵⏩💬/🤵⏩🧑‍🦰 Converse 💬.md>)
+* [🤵⏩🧑‍🦰 Converse @ Broker](<../Converse 🤵⏩💬/Converse ⏩ flow.md>)
 
 <br/>
 
