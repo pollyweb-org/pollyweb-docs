@@ -86,9 +86,10 @@ Successful Tests:
     Reasons: |
       For `{{WORD}}`, 
       where all characters are uppercase letters,
-      the file is called `WORD {emoji}*.md`
-      also on uppercase
-      and is under a folder called "😃 Talkers".
+      the file is called `WORD {emoji}*.md`,
+      the file is also on uppercase,
+      the file does not contain 🧪 nor 📃,
+      is under a folder called "* cmds".
 
   - Given: "{{ALARM}}"
     LinkText: "`ALARM`"

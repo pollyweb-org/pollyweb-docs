@@ -199,10 +199,13 @@ def find_uppercase_token_target(token: str, md_files: Iterable[str]) -> Path | N
     if not candidates:
         return None
 
-    def priority(path: Path) -> tuple[int, int, int, str]:
+    def priority(path: Path) -> tuple[int, int, int, int, int, str]:
         parts = tuple(path.parts)
         talker_cmd_idx = next((idx for idx, part in enumerate(parts) if "Talker cmds" in part), None)
         scripts_idx = next((idx for idx, part in enumerate(parts) if "Talker scripts" in part), None)
+        contains_cmds_folder = any("cmds" in normalize_string(part) for part in parts)
+        contains_scripts_folder = any("scripts" in normalize_string(part) for part in parts)
+        disallowed_emoji = 1 if any(emoji in path.name for emoji in ("🧪", "📃")) else 0
         script_rank = 0
         if scripts_idx is not None:
             script_rank = 1
@@ -224,7 +227,17 @@ def find_uppercase_token_target(token: str, md_files: Iterable[str]) -> Path | N
             bucket = 2
             depth = len(parts)
         base_contains_name = normalize_string(path.stem).startswith(normalized_token)
-        return bucket, script_rank, 0 if base_contains_name else 1, str(path)
+        cmds_penalty = 0 if contains_cmds_folder else 1
+        scripts_penalty = 0 if not contains_scripts_folder else 1
+        return (
+            disallowed_emoji,
+            bucket,
+            cmds_penalty,
+            scripts_penalty,
+            script_rank,
+            0 if base_contains_name else 1,
+            str(path),
+        )
 
     best = min(candidates, key=priority)
     return best
