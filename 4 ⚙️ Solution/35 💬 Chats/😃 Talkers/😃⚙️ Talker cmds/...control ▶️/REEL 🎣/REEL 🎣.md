@@ -3,7 +3,7 @@
 > Part of [Talker 😃](<../../../😃 Talker role.md>)
 
 <!-- TODO: examples -->
-> Used in [`Bound@Vault`](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🤵🐌🗄️ Bound.md>)
+> Used in [`Bound@Vault`](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
 
 <br/>
 
@@ -68,7 +68,7 @@
     
     <br/>
 
-    Here's the handler of [`Bound@Broker`](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🤵🐌🗄️ Bound.md>)
+    Here's the handler of [`Bound@Broker`](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
 
 
     ```yaml
