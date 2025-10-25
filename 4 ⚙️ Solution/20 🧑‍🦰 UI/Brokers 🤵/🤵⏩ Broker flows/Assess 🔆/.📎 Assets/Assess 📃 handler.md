@@ -1,6 +1,6 @@
 # 🤵📃 Assess@Broker
 
-> [Script 📃](<../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that implements the [`Assess@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/2 ...for Locators 🔆/🧑‍🦰🐌🤵 Assess.md>)
+> [Script 📃](<../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that implements the [`Assess@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/2 ...for Locators 🔆/Assess/🧑‍🦰🐌🤵 Assess.md>)
 
 <br/> 
 

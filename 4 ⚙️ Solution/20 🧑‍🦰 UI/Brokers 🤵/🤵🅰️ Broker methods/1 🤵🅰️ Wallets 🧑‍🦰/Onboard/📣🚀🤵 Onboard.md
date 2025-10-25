@@ -72,7 +72,7 @@ Wallet: <wallet-uuid>
 | [Command ⌘](<../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/Command ⌘.md>) | Purpose
 |-|-
 | 📨 [`$.Msg`](<../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...messages 📨/$.Msg 📨.md>) | Read the incoming [Message 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message.md>)
-| ⏬ [`GET`](<../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET/GET ⏬ item.md>) | Get the [Hook 🪝](<../../../../../35 💬 Chats/😃 Talkers/😃🪣 Talker tables/😃🪣 Hooks 🪝 table.md>) from [`Bindable@Broker`](<../../4 ...for Binds 🔗/Bindable/🗄️🐌🤵 Bindable.md>)  
+| ⏬ [`GET`](<../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET/GET ⏬ item.md>) | Get the [Hook 🪝](<../../../../../35 💬 Chats/😃 Talkers/😃🪣 Talker tables/😃🪣 Hooks 🪝 table.md>) from [`Bindable@Broker`](<../../4 ...for Binds 🔗/Bindable 🐌/🗄️🐌🤵 Bindable.md>)  
 | 💾 [`SAVE`](<../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/SAVE/SAVE 💾 item.md>) | Save the [Bind 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to the [Wallets 🪣](<../../../🤵🪣 Broker tables/🤵🪣 Wallets table.md>) table
 | 🎣 [`REEL`](<../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...control ▶️/REEL 🎣/REEL 🎣.md>) | Respond to the [Synchronous Request 🚀](<../../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Sync Requests 🚀.md>)
 |
