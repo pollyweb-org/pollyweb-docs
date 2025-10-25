@@ -51,9 +51,14 @@
 1. **What's the syntax for comparisons?**
 
     ```yaml
-    # Comparisons
+    # Single comparison (as a string)
     ASSERT|$object:
-        - {value-1} {comparison} {value-2} 
+        {value-A} {comparison} {value-B} 
+
+    # Multiple comparisons (as an array)
+    ASSERT|$object:
+        - {value-A-1} {comparison} {value-B-1} 
+        - {value-A-n} {comparison} {value-B-n} 
     ```
     
     | Argument| Purpose | Examples
@@ -134,9 +139,14 @@
     # Value boolean assertions
     ASSERT|{boolean}
 
-    # Object boolean assertions
+    # Object boolean single assertion (string)
     ASSERT|$object:
-        - {boolean}       
+        {boolean}  
+        
+    # Object boolean multiple assertions (array)
+    ASSERT|$object:
+        - {boolean-1}  
+        - {boolean-2}  
     ```
     
     | Argument| Purpose | Examples

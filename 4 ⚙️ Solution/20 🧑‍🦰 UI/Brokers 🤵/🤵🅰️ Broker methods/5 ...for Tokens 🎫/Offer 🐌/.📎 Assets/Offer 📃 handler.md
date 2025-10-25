@@ -23,7 +23,7 @@
 
 # Verify the dates
 - ASSERT:
-    - $.Msg.Starts < $.Msg.Expires
+    $.Msg.Starts < $.Msg.Expires
 
 # Get the Chat
 - GET >> $chat:
@@ -32,7 +32,7 @@
 
 # Only allow offers from the Host
 - ASSERT:
-    - $.Msg.From ~= $chat.Host
+    $.Msg.From: $chat.Host
 
 # Translate the Issuer and Schema
 - SEND >> $translation:
