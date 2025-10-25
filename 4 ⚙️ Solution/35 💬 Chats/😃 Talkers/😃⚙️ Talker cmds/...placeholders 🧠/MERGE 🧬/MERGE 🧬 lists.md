@@ -1,8 +1,8 @@
 # 😃🧬 Talker `MERGE` Command
 
-> Part of [Talker 😃](<../../😃 Talker role.md>)
+> Part of [Talker 😃](<../../../😃 Talker role.md>)
 
-> Used by [`Chats@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🧑‍🦰🚀🤵 Chats.md>)
+> Used by [`Chats@Broker`](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/3 🤵🅰️ Chats 💬/🧑‍🦰🚀🤵 Chats.md>)
 
 <br/>
 
@@ -10,7 +10,7 @@
 1. **What is a MERGE command?**
 
     A `MERGE` 🧬
-    * is a [Command ⌘](<../...commands ⌘/⌘ Command.md>) 
+    * is a [Command ⌘](<../../...commands ⌘/⌘ Command.md>) 
     * that merges too lists or an object with a list
     * by matching a list of properties.
 
@@ -39,7 +39,7 @@
     |  | Another list with additional data  | `$2nd`
     | `Match` | Match fields of `1st` and `2nd` lists | `{1st.A:2nd.A}`
     | `Output` | Output item template after merged | `{Out: 2nd.Y}`
-    | `$out` | [Placeholder 🧠](<$Placeholder 🧠.md>) with the merge or view | -
+    | `$out` | [Placeholder 🧠](<../$Placeholder 🧠.md>) with the merge or view | -
 
     ---
     <br/>
@@ -68,7 +68,7 @@
     |  X | XPTO |
     ```
     
-    Let's merge them with [`MERGE`](<MERGE 🧬 lists.md>) and [`EVAL`](<EVAL ⬇️ flow.md>).
+    Let's merge them with [`MERGE`](<MERGE 🧬 lists.md>) and [`EVAL`](<../EVAL ⬇️ flow.md>).
 
     ```yaml
     # Merge

@@ -154,7 +154,7 @@
     - INFO|Here's number {$:n}.
     ```
 
-    Commands: [`ASSERT`](<../...placeholders 🧠/ASSERT 🚦.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
+    Commands: [`ASSERT`](<../...placeholders 🧠/ASSERT 🚦/ASSERT 🚦.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>) [`SUCCESS`](<../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅ prompt.md>)
 
     ```python
     # 🐍 Python handler
