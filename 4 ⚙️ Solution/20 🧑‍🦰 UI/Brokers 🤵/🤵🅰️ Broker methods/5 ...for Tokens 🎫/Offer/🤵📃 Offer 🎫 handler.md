@@ -1,6 +1,6 @@
 # 🤵📃 Offer
 
-> [Script 📃](<../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that implements the [`Offer@Broker` 🅰️ method](<../🎴🐌🤵 Offer.md>)
+> [Script 📃](<../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that implements the [`Offer@Broker` 🅰️ method](<🎴🐌🤵 Offer.md>)
 
 > Part of the [`Save Token` 👉 flow](<../../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🎴 Save token.md>).
 > 
