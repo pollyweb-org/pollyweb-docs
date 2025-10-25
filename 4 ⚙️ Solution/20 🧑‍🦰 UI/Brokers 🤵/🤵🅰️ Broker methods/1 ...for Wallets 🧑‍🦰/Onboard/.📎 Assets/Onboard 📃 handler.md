@@ -34,5 +34,5 @@ Commands: [`$.Msg`](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Tal
 | [Command ⌘](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/Command ⌘.md>) | Purpose
 |-|-
 | ⏬ [`GET`](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET/GET ⏬ item.md>) | Get the hook from the [`Bindable@Broker` 🅰️ method](<../../../4 ...for Binds 🔗/Bindable 🐌/🗄️🐌🤵 Bindable.md>) 
-| 💾 [`SAVE`](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/SAVE/SAVE 💾 item.md>) | Save the [Bind 🔗](<../../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to the [Wallets 🪣](<../../../../🤵🪣 Broker tables/🤵🪣 Wallets table.md>) table
+| 💾 [`SAVE`](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/SAVE/SAVE 💾 item.md>) | Save the [Bind 🔗](<../../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to the [Wallets 🪣](<../../../../🤵🪣 Broker tables/Wallets/🤵🪣 Wallets table.md>) table
 |

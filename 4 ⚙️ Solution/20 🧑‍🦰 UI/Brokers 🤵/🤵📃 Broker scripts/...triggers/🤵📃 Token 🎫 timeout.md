@@ -2,7 +2,7 @@
 
 > Purpose: 
 
-* [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) to execute when a soft delete of [`Tokens` 🪣 table](<../../🤵🪣 Broker tables/🤵🪣 Tokens table.md>) times out.
+* [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) to execute when a soft delete of [`Tokens` 🪣 table](<../../🤵🪣 Broker tables/Tokens/🤵🪣 Tokens table.md>) times out.
 * Triggered by the [`Triggered@Talker` 🅰️ method](<../../../../45 🤲 Helper domains/Itemizers 🛢/🛢🔔 Itemizer events/🛢🔔 Triggered.md>)
 
 ## How to call
@@ -43,6 +43,6 @@
 |Needs ||
 |-|-
 | [Commands ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/Command ⌘.md>) | [`ASSERT`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/ASSERT 🚦/ASSERT 🚦.md>) [`GET`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET/GET ⏬ item.md>) [`SEND`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...messages 📨/SEND 📬 msg.md>)
-| [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Tokens`](<../../🤵🪣 Broker tables/🤵🪣 Tokens table.md>)
+| [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Tokens`](<../../🤵🪣 Broker tables/Tokens/🤵🪣 Tokens table.md>)
 | [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Remove@Notifier` 🅰️ method](<../../../Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/3 🤵🐌📣 Remove.md>)
 |
