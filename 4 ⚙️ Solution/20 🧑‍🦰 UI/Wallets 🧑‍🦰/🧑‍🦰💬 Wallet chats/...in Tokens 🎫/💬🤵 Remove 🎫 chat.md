@@ -3,7 +3,7 @@
 
 > Implements a [Wallet 🧑‍🦰 app](<../../🧑‍🦰🛠️ Wallet app.md>)
 
-> Implemented by [`Pop Token` 📃 script](<../../../Brokers 🤵/🤵🅰️ Broker methods/3 ...for Chats 💬/Pop 🧑‍🦰🐌🤵/.📎 Assets/Pop Token 🎫 script.md>)
+> Implemented by [`Pop Token` 📃 script](<../../../Brokers 🤵/🤵🅰️ Broker methods/3 ...for Chats 💬/Pop 🧑‍🦰🐌🤵/Pop 📃 Token 🎫 script.md>)
 
 
 * When users ask their [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) to remove a [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>),
@@ -15,7 +15,7 @@
 
 ## Chat 💬
 
-> Implemented by [Pop Token 🔆 handler](<../../../Brokers 🤵/🤵🅰️ Broker methods/3 ...for Chats 💬/Pop 🧑‍🦰🐌🤵/.📎 Assets/Pop Token 🎫 script.md>).
+> Implemented by [Pop Token 🔆 handler](<../../../Brokers 🤵/🤵🅰️ Broker methods/3 ...for Chats 💬/Pop 🧑‍🦰🐌🤵/Pop 📃 Token 🎫 script.md>).
 
 | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
