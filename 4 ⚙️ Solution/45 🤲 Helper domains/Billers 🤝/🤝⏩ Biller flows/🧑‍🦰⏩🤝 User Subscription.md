@@ -58,7 +58,7 @@ The corresponding [Talker 😃](<../../../35 💬 Chats/😃 Talkers/😃 Talker
 - GOODBYE                   # Show advertisement
 ```
 
-| [Command ⌘](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/⌘ Command.md>) | Purpose
+| [Command ⌘](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/Command ⌘.md>) | Purpose
 |-|-
 | 📝 [`INFORM`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/INFORM 📝/INFORM 📝 msg.md>) | To provide instructions.
 | 🔗 [`BIND`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/BIND 🔗/BIND 🔗 msg.md>) | To create a user profile.
