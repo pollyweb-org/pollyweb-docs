@@ -1,7 +1,7 @@
 # 💼🚀🤵  Status @ Broker
 
 
-> Used in [💼⏩🧑‍🦰 Share Token @ Consumer](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Token 🎫.md>)
+> Used in [💼⏩🧑‍🦰 Share Token @ Consumer](<../../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Token 🎫.md>)
 
 <br/> 
 
@@ -20,10 +20,10 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header| `From`| string | [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) name
-| | `To`    | string | [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) name
+| Header| `From`| string | [Consumer 💼 domain](<../../../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) name
+| | `To`    | string | [Broker 🤵 domain](<../../../🤵🤲 Broker helper.md>) name
 | | `Subject`| string | `Status@Broker`
-| Body | `Token`| uuid | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) from [`Receive@Consumer`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🅰️ Consumer methods/🧑‍🦰🐌💼 Receive.md>)
+| Body | `Token`| uuid | [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) from [`Receive@Consumer`](<../../../../../41 🎭 Domain Roles/Consumers 💼/💼🅰️ Consumer methods/🧑‍🦰🐌💼 Receive.md>)
 |
     
 <br/>
@@ -43,7 +43,7 @@ Locator: .HOST,any-host.dom,any-key
 | `Status`  | string | `ACTIVE` `SUSPENDED` `REVOKED` `EXPIRED`
 | `Starting`| string | Optional date of start of status
 | `Ending`  | string | Optional date of ending of status
-| `Locator`| string | Optional [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) for a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) about it
+| `Locator`| string | Optional [Locator 🔆](<../../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) for a [Chat 💬](<../../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) about it
 |
 
 <br/>

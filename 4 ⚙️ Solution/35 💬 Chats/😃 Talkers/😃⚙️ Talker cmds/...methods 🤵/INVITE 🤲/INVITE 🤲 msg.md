@@ -17,8 +17,8 @@
 
     | Argument| Purpose 
     |-|-
-    | `<invitee>` | The invitee [domain 👥](<../../../../../40 👥 Domains/👥 Domain.md>) for [`Invite@Broker`](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/6 ...for Share 💼/💼🐌🤵 Invite.md>) 
+    | `<invitee>` | The invitee [domain 👥](<../../../../../40 👥 Domains/👥 Domain.md>) for [`Invite@Broker`](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/6 ...for Share 💼/Invite/💼🐌🤵 Invite.md>) 
     | `<code>` | The [Schema Codes 🧩](<../../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to query for data
-    | `{params}` | Parameters dictionary for [`Invite@Broker`](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/6 ...for Share 💼/💼🐌🤵 Invite.md>) 
+    | `{params}` | Parameters dictionary for [`Invite@Broker`](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/6 ...for Share 💼/Invite/💼🐌🤵 Invite.md>) 
     | `$output` | Returned data matching the code's schema
     |
