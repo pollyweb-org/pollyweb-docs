@@ -73,7 +73,7 @@
 
 1. **How do Brokers verify a message from a Wallet?**
 
-    Here's a [Talker 😃](<../../😃 Talker role.md>) excerpt from [Pop Vault @ Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/3 ...for Chats 💬/Pop 🧑‍🦰🐌🤵/Pop 📃 Vault 🗄️ script.md>).
+    Here's a [Talker 😃](<../../😃 Talker role.md>) excerpt from [Pop Vault @ Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/...for Chats 💬/Pop 🧑‍🦰🐌🤵/Pop 📃 Vault 🗄️ script.md>).
 
     ```yaml
     # Get the WalletID from the message 

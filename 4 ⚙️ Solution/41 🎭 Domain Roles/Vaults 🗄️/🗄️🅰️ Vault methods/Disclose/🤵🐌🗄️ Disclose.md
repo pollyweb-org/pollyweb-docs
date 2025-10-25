@@ -37,6 +37,6 @@ Body:
 || `Subject` | string | `Disclose@Vault`
 |Body| `Chat`| uuid | [Chat 💬 ID](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)  from [`Query@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/...for Share 💼/Query/💼🐌🤵 Query.md>)
 || `Consumer` | string | [Consumer 💼](<../../../Consumers 💼/💼🎭 Consumer role.md>) from [`Query@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/...for Share 💼/Query/💼🐌🤵 Query.md>)
-|| `Language` | enum | ISO code from [`Language@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/1 ...for Wallets 🧑‍🦰/Language/🧑‍🦰🐌🤵 Language.md>)
+|| `Language` | enum | ISO code from [`Language@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/...for Wallets 🧑‍🦰/Language/🧑‍🦰🐌🤵 Language.md>)
 || `Bind` | uuid | [Bind 🔗 ID](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) from [`Bound@Vault`](<../Bound/🤵🐌🗄️ Bound.md>)
 |
