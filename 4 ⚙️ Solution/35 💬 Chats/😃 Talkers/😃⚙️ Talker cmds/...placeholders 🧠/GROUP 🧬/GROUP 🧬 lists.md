@@ -2,7 +2,7 @@
 
 > Part of [Talker 😃](<../../../😃 Talker role.md>)
 
-> Used by [`Chats@Broker`](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/3 ...for Chats 💬/Chats 🧑‍🦰🚀🤵/Chats 🚀 request.md>)
+> Used by [`Chats@Broker`](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/...for Chats 💬/Chats 🧑‍🦰🚀🤵/Chats 🚀 request.md>)
 
 <br/>
 
