@@ -221,3 +221,12 @@ Successful Tests:
       It's under a "*flows" folder,
       the file name contains the emoji "⏩",
       and the file name ends with "flow.md".
+
+  - Given: "{{Assess handler}}"
+    LinkText: "`Assess` 📃 handler"
+    LinkFile: 'Assess 📃 handler.md'
+    Reasons: 
+      For `{{WORD handler}}`,
+      where the string ends with the word `handler`,
+      the file contains the emoji "📃",
+      the file is called `*WORD* handler.md`.

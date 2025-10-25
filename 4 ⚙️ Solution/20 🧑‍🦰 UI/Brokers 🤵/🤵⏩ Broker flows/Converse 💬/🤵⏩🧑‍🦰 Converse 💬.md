@@ -1,6 +1,6 @@
 # 🤵⏩🧑‍🦰 Converse @ Broker
 
-> Part of [`Assess` ⏩ flow](<../Assess 🔆/🤵⏩🧑‍🦰 Assess 🔆.md>)
+> Part of [`Assess` ⏩ flow](<../Assess 🔆⏩🤵/Assess ⏩ flow.md>)
 
 > Implemented by [`Converse` 📃 script](<.📎 Assets/Converse 📃 script.md>)
 

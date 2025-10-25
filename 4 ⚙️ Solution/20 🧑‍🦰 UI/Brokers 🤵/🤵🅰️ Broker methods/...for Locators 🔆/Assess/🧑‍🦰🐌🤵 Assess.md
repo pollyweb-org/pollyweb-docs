@@ -1,8 +1,8 @@
 # 🧑‍🦰🐌🤵 Assess @ Broker
 
-> Implemented by [`Assess@Broker` 📃 script](<../../../🤵⏩ Broker flows/Assess 🔆/.📎 Assets/Assess 📃 handler.md>)
+> Implemented by [`Assess@Broker` 📃 script](<../../../🤵⏩ Broker flows/Assess 🔆⏩🤵/Assess 📃 handler.md>)
 
-> Part of the [`Assess` ⏩ flow](<../../../🤵⏩ Broker flows/Assess 🔆/🤵⏩🧑‍🦰 Assess 🔆.md>)
+> Part of the [`Assess` ⏩ flow](<../../../🤵⏩ Broker flows/Assess 🔆⏩🤵/Assess ⏩ flow.md>)
   
 * Precedes [`Converse@Notifier` 🅰️](<../../../../Notifiers 📣/📣🅰️ Notifier methods/2 💬 Chats/🤵🐌📣 Converse.md>) method
 
