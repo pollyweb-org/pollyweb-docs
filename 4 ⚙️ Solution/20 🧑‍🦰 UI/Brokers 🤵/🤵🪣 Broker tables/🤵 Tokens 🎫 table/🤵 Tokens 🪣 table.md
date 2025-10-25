@@ -3,14 +3,14 @@
 > Purpose:
 * Stores [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
     * initially stored in [`Offers` 🪣 table](<../🤵 Offers 🎫 table/🤵 Offers 🪣 table.md>)
-    * by the [`Offer@Broker`](<../../🤵🅰️ Broker methods/🤵 Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>) method
-    * then later saved by the [`Saved@Broker`](<../../🤵🅰️ Broker methods/🤵 Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 🐌 msg.md>) method
+    * by the [`Offer@Broker`](<../../🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>) method
+    * then later saved by the [`Saved@Broker`](<../../🤵🅰️ Broker methods/Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 🐌 msg.md>) method
 
 > Read by: 
-* [`Tokens@Broker` 🅰️](<../../🤵🅰️ Broker methods/🤵 Tokens 🎫 Tokens 🧑‍🦰🚀🤵/🤵 Tokens 🚀 request.md>) method
+* [`Tokens@Broker` 🅰️](<../../🤵🅰️ Broker methods/Tokens 🎫 Tokens 🧑‍🦰🚀🤵/🤵 Tokens 🚀 request.md>) method
 
 > Written by:
-* [`Saved@Broker`](<../../🤵🅰️ Broker methods/🤵 Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 🐌 msg.md>)
+* [`Saved@Broker`](<../../🤵🅰️ Broker methods/Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 🐌 msg.md>)
 
 <br/>
 
@@ -56,8 +56,8 @@ Status: REVOKED
 
 |Property|Type|Description
 |-|-|-
-| `Issuer` | string | [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)  from [`Offer@Broker`](<../../🤵🅰️ Broker methods/🤵 Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>)
-| `Path` | string | Path from [`Saved@Broker`](<../../🤵🅰️ Broker methods/🤵 Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 🐌 msg.md>)
-| `Status`| string | Status from [`Revise@Broker`](<../../🤵🅰️ Broker methods/🤵 Tokens 🎫 Revise 🎴🐌🤵/🤵 Revise 🐌 msg.md>)
-| `Token`| uuid |  [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) from [`Offer@Broker`](<../../🤵🅰️ Broker methods/🤵 Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>)
+| `Issuer` | string | [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)  from [`Offer@Broker`](<../../🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>)
+| `Path` | string | Path from [`Saved@Broker`](<../../🤵🅰️ Broker methods/Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 🐌 msg.md>)
+| `Status`| string | Status from [`Revise@Broker`](<../../🤵🅰️ Broker methods/Tokens 🎫 Revise 🎴🐌🤵/🤵 Revise 🐌 msg.md>)
+| `Token`| uuid |  [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) from [`Offer@Broker`](<../../🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>)
 ||

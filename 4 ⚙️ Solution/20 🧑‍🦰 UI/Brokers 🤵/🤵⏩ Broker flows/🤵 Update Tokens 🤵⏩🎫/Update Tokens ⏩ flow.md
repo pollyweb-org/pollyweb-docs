@@ -18,5 +18,5 @@
 | # | Call | Notes |
 |-|-|-
 | 1 | [🤵🐌📣 `Updated@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/📣 Onboard 🤵 Updated 🤵🐌📣/Updated 🐌 msg.md>)| [Brokers 🤵](<../../🤵🤲 Broker helper.md>) tell [Notifiers 📣](<../../../Notifiers 📣/📣👥 Notifier domain.md>) to update [Wallets 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
-| 2 | [🧑‍🦰🚀🤵 `Tokens@Broker`](<../../🤵🅰️ Broker methods/🤵 Tokens 🎫 Tokens 🧑‍🦰🚀🤵/🤵 Tokens 🚀 request.md>) | [Wallets 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) get [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) from [Brokers 🤵](<../../🤵🤲 Broker helper.md>)
+| 2 | [🧑‍🦰🚀🤵 `Tokens@Broker`](<../../🤵🅰️ Broker methods/Tokens 🎫 Tokens 🧑‍🦰🚀🤵/🤵 Tokens 🚀 request.md>) | [Wallets 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) get [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) from [Brokers 🤵](<../../🤵🤲 Broker helper.md>)
 ||

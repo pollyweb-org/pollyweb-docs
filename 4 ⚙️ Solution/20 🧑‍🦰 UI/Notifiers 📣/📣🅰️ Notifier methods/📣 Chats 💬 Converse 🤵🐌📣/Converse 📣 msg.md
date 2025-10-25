@@ -5,7 +5,7 @@
 
 > [Broker 🤵 domains](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) tell [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) about a new [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>).
 
-> Used in [🤵⏩🧑‍🦰 Converse @ Broker](<../../../Brokers 🤵/🤵⏩ Broker flows/🤵 Converse 🤵⏩💬/Converse ⏩ flow.md>) 
+> Used in [🤵⏩🧑‍🦰 Converse @ Broker](<../../../Brokers 🤵/🤵⏩ Broker flows/Converse 🤵⏩💬/🤵 Converse ⏩ flow.md>) 
 
 <br/>
 
@@ -29,7 +29,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 |Header|`From`|string | [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) from [`Assess@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Locators 🔆 Assess 🧑‍🦰🐌🤵/🤵 Assess 🐌 msg.md>)
-||`To`|string| [Notifier 📣](<../../📣👥 Notifier domain.md>) from [`Onboard@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/🤵 Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 request.md>)
+||`To`|string| [Notifier 📣](<../../📣👥 Notifier domain.md>) from [`Onboard@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 request.md>)
 ||`Subject`|string|`Converse@Notifier`
 |Body  |`Wallet` |uuid  | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) from [`Assess@`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Locators 🔆 Assess 🧑‍🦰🐌🤵/🤵 Assess 🐌 msg.md>) [`Pop@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Pop 🧑‍🦰🐌🤵/🤵 Pop 📃 handler.md>)
 |       | `Hook`| uuid | `Hook` from [`Assess@`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Locators 🔆 Assess 🧑‍🦰🐌🤵/🤵 Assess 🐌 msg.md>) [`Pop@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Pop 🧑‍🦰🐌🤵/🤵 Pop 📃 handler.md>)

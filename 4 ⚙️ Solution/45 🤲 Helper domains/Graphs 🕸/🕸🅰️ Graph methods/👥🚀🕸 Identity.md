@@ -11,7 +11,7 @@
     * returns the content of [`.MANIFEST/ABOUT 🧩`](<../../../30 🧩 Data/Manifests 📜/🧩 Manifest schemas/🧩 ABOUT.md>)
     * from its [domain Manifest 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) 
 * Used by:
-    * [🤵⏩🧑‍🦰 Converse 💬 flow](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵⏩ Broker flows/🤵 Converse 🤵⏩💬/Converse ⏩ flow.md>) 
+    * [🤵⏩🧑‍🦰 Converse 💬 flow](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵⏩ Broker flows/Converse 🤵⏩💬/🤵 Converse ⏩ flow.md>) 
 
 <br/>
 

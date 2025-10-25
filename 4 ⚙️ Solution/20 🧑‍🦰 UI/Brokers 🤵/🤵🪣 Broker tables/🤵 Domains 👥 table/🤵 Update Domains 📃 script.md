@@ -1,7 +1,7 @@
 # 🤵📃 Update Domain 🪣
 
 > Used by:
-* [`Offer` 📃 script](<../../🤵🅰️ Broker methods/🤵 Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 📃 handler.md>)
+* [`Offer` 📃 script](<../../🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 📃 handler.md>)
 
 <br/>
 

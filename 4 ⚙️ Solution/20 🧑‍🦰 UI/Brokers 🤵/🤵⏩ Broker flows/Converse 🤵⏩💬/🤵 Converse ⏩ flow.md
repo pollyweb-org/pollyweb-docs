@@ -1,8 +1,8 @@
 # 🤵⏩🧑‍🦰 Converse @ Broker
 
-> Part of [`Assess` ⏩ flow](<../🤵 Assess 🔆⏩🤵/Assess ⏩ flow.md>)
+> Part of [`Assess` ⏩ flow](<../Assess 🔆⏩🤵/🤵 Assess ⏩ flow.md>)
 
-> Implemented by [`Converse` 📃 script](<Converse 📃 script.md>)
+> Implemented by [`Converse` 📃 script](<🤵 Converse 📃 script.md>)
 
 > Purpose
 
@@ -12,7 +12,7 @@
 
 ## Flow diagram
 
-![New chat](<Converse ⚙️ uml.png>)
+![New chat](<🤵 Converse ⚙️ uml.png>)
 
 
 | # | Call | Notes
