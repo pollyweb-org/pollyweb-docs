@@ -3,7 +3,7 @@
 
 > Implements a [Wallet 🧑‍🦰 app](<../../🧑‍🦰🛠️ Wallet app.md>)
 
-> Implemented by [`Pop Token` 📃 script](<../../../Brokers 🤵/🤵🅰️ Broker methods/🤵 Chats 💬 Pop 🧑‍🦰🐌🤵/🤵 Pop 📃 Token 🎫 script.md>)
+> Implemented by [`Pop Token` 📃 script](<../../../Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Pop 🧑‍🦰🐌🤵/🤵 Pop 📃 Token 🎫 script.md>)
 
 
 * When users ask their [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) to remove a [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>),
@@ -15,7 +15,7 @@
 
 ## Chat 💬
 
-> Implemented by [Pop Token 🔆 handler](<../../../Brokers 🤵/🤵🅰️ Broker methods/🤵 Chats 💬 Pop 🧑‍🦰🐌🤵/🤵 Pop 📃 Token 🎫 script.md>).
+> Implemented by [Pop Token 🔆 handler](<../../../Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Pop 🧑‍🦰🐌🤵/🤵 Pop 📃 Token 🎫 script.md>).
 
 | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
@@ -35,7 +35,7 @@
 
 | # | API | Description
 |-|-|-
-| 1 | [🧑‍🦰🐌🤵 `Pop@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/🤵 Chats 💬 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>)  | The user calls the [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) from the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
+| 1 | [🧑‍🦰🐌🤵 `Pop@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>)  | The user calls the [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) from the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
 | 2 | [🤗⏩🧑‍🦰 Prompt 🤔](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | Then tells the [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) to remove the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) 
 | 3 | [🤵⏩🧑‍🦰 Update Tokens 🎫](<../../../Brokers 🤵/🤵⏩ Broker flows/🤵 Update Tokens 🤵⏩🎫/Update Tokens ⏩ flow.md>) | The [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) tells the [Wallet 🧑‍🦰](<../../🧑‍🦰🛠️ Wallet app.md>) to update the list
 | 4 | [🤵🐌📣 `Remove@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/📣 Tokens 🎫 Remove 🤵🐌📣/Remove 🐌 msg.md>) | The [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) tells the [Wallet 🧑‍🦰](<../../🧑‍🦰🛠️ Wallet app.md>) to remove it
