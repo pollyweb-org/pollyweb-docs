@@ -79,7 +79,7 @@
 
     | [Command ⌘](<../../...commands ⌘/Command ⌘/Command ⌘.md>) | Purpose
     |-|-
-    | ⏬ [`GET`](<../../...datasets 🪣/GET/GET ⏬ item.md>) | Get the [`Hook` 🪣](<../../../😃🪣 Talker tables/😃🪣 Hooks 🪝 table.md>) from [`Bindable@Broker`](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/🤵 Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>)  
+    | ⏬ [`GET`](<../../...datasets 🪣/GET/GET ⏬ item.md>) | Get the [`Hook` 🪣](<../../../😃🪣 Talker tables/😃🪣 Hooks 🪝 table.md>) from [`Bindable@Broker`](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>)  
     
 
     ---

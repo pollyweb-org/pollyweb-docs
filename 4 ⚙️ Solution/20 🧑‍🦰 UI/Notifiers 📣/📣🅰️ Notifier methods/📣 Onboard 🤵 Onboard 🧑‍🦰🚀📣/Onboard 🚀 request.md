@@ -37,7 +37,7 @@ Body:
 |       | `To`        | string | [Notifier 📣 domain](<../../📣👥 Notifier domain.md>) name
 |       | `Subject`   | string | `Onboard@Notifier`
 | Body  | `Language`  | enum   | ISO language code
-|       | `PublicKey` | string | For [`Chats@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/🤵 Chats 💬 Chats 🧑‍🦰🚀🤵/🤵 Chats 🚀 request.md>), etc.
+|       | `PublicKey` | string | For [`Chats@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Chats 🧑‍🦰🚀🤵/🤵 Chats 🚀 request.md>), etc.
 |
 
 <br/>
