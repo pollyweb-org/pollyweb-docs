@@ -57,6 +57,8 @@ HOSTS_REPLACEMENT = "[Host 🤗 domains](<../41 🎭 Domain Roles/Hosts 🤗/�
 HOST_REPLACEMENT = "[Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)"
 SCRIPT_REPLACEMENT = "[Script 📃](<📃 Script.md>)"
 SCRIPTS_REPLACEMENT = "[Scripts 📃](<📃 Script.md>)"
+COMMAND_REPLACEMENT = "[Command ⌘](<Command ⌘/Command ⌘.md>)"
+COMMANDS_REPLACEMENT = "[Commands ⌘](<Command ⌘/Command ⌘.md>)"
 BROKER_REPLACEMENT = "[Broker 🤵 domain](<🤵🤲 Broker helper.md>)"
 SELLER_REPLACEMENT = "[Seller 🎭 domain](<../../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>)"
 WALLET_REPLACEMENT = "[Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)"
@@ -136,6 +138,7 @@ def replace_tokens_tokens(md_files):
 
 
 @register_hardcoded("script", replacement=SCRIPT_REPLACEMENT, token_label="Script")
+@register_hardcoded("script", replacement=SCRIPT_REPLACEMENT, token_label="Script")
 def replace_script_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Script`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
     return _replace_simple(md_files, pattern, SCRIPT_REPLACEMENT)
@@ -151,14 +154,16 @@ def replace_chats_tokens(md_files):
     return _replace_simple(md_files, pattern, "[Chats 💬](<💬 Chat.md>)")
 
 
+@register_hardcoded("command", replacement=COMMAND_REPLACEMENT, token_label="Command")
 def replace_command_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Command`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, "[Command ⌘](<⌘ Command.md>)")
+    return _replace_simple(md_files, pattern, COMMAND_REPLACEMENT)
 
 
+@register_hardcoded("commands", replacement=COMMANDS_REPLACEMENT, token_label="Commands")
 def replace_commands_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Commands`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, "[Commands ⌘](<⌘ Command.md>)")
+    return _replace_simple(md_files, pattern, COMMANDS_REPLACEMENT)
 
 
 def replace_settings_tokens(md_files):

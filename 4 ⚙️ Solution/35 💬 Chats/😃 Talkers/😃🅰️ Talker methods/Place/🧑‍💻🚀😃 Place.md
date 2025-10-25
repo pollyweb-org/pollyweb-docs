@@ -2,7 +2,7 @@
 
 > Implements [Hoster ☁️ helper domain](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>)
 
-> Implemented by the [`Place handler`](<😃📃 Place handler.md>)
+> Implemented by the [`Place handler`](<.📎 Assets/Place 📃 handler.md>)
 
 > Part of [😃⏩🧑‍💻 Wait @ Talker](<../../😃⏩ Talker flows/😃⏩🧑‍💻 Wait ⏸️.md>) flow
 
