@@ -1,6 +1,6 @@
 # 🤵📃 Update Tokens
 
-[Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that calls [`Updated@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/🤵🐌📣 Updated.md>) for `TOKENS`.
+[Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that calls [`Updated@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/...for Onboard/🤵🐌📣 Updated.md>) for `TOKENS`.
 
 <br/>
 

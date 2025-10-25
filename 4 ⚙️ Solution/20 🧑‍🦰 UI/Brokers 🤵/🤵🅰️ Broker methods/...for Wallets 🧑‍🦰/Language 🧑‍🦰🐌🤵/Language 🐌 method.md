@@ -32,8 +32,8 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From` | uuid | [Wallet 🧑‍🦰](<../../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  from [`Onboard@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/🧑‍🦰🚀📣 Onboard.md>)
-||`To`| string | [Broker 🤵](<../../../🤵🤲 Broker helper.md>) from [`Onboard@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/🧑‍🦰🚀📣 Onboard.md>)
+|Header|`From` | uuid | [Wallet 🧑‍🦰](<../../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  from [`Onboard@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/...for Onboard/🧑‍🦰🚀📣 Onboard.md>)
+||`To`| string | [Broker 🤵](<../../../🤵🤲 Broker helper.md>) from [`Onboard@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/...for Onboard/🧑‍🦰🚀📣 Onboard.md>)
 ||`Subject`| string | `Language@Broker`
 |Body|`Language`| enum | ISO language code.
 |
