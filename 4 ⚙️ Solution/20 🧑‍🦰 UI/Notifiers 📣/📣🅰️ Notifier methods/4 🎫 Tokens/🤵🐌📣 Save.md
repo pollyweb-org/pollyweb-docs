@@ -31,9 +31,9 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 |Header|`From`|string | [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) from [`Offer@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/...for Tokens 🎫/Offer 🎴🐌🤵/Offer 🐌 msg.md>)
-||`To`|string| [Notifier 📣](<../../📣👥 Notifier domain.md>) from [`Onboard@Notifier`](<../1 🤵 Onboard/🧑‍🦰🚀📣 Onboard.md>)
+||`To`|string| [Notifier 📣](<../../📣👥 Notifier domain.md>) from [`Onboard@Notifier`](<../...for Onboard/🧑‍🦰🚀📣 Onboard.md>)
 ||`Subject`|string|`Save@Notifier`
-|Body  |`Wallet`| uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) from [`Onboard@Notifier`](<../1 🤵 Onboard/🧑‍🦰🚀📣 Onboard.md>)
+|Body  |`Wallet`| uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) from [`Onboard@Notifier`](<../...for Onboard/🧑‍🦰🚀📣 Onboard.md>)
 ||`Hook`|uuid|`Hook` from [`Offer@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/...for Tokens 🎫/Offer 🎴🐌🤵/Offer 🐌 msg.md>)
 || `Token`| uuid | New [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ID at the [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>)
 | 

@@ -1,6 +1,6 @@
 # 🤵📃 Update Binds
 
-[Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that calls [`Updated@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/🤵🐌📣 Updated.md>) for the [`BINDS`](<../../🤵🅰️ Broker methods/...for Binds 🔗/Binds 🧑‍🦰🚀🤵/Binds 🚀 request.md>) command.
+[Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that calls [`Updated@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/...for Onboard/🤵🐌📣 Updated.md>) for the [`BINDS`](<../../🤵🅰️ Broker methods/...for Binds 🔗/Binds 🧑‍🦰🚀🤵/Binds 🚀 request.md>) command.
 
 <br/>
 

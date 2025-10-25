@@ -26,7 +26,7 @@
 |-|-|-
 | 1 | [🧑‍🦰🐌🤵 `Language@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/...for Wallets 🧑‍🦰/Language 🧑‍🦰🐌🤵/Language 🐌 method.md>) | User changed the language
 | 2 | [👥🚀🕸 `Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>) | Translate from [Manifests 📜](<../../../../30 🧩 Data/Manifests 📜/📜 Manifest.md>)
-| 3 | [🤵🐌📣 `Translated@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/🤵🐌📣 Translated.md>) | Finished translating the database
+| 3 | [🤵🐌📣 `Translated@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/...for Onboard/🤵🐌📣 Translated.md>) | Finished translating the database
 | 4 | [🧑‍🦰🚀🤵 `Chats@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/...for Chats 💬/Chats 🧑‍🦰🚀🤵/Chats 🚀 request.md>) | Fetch translated [Chats 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)
 | 5 | [🧑‍🦰🚀🤵 `Binds@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/...for Binds 🔗/Binds 🧑‍🦰🚀🤵/Binds 🚀 request.md>) | Fetch translated [Binds 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
 | 6 | [🧑‍🦰🚀🤵 `Tokens@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/...for Tokens 🎫/Tokens 🧑‍🦰🚀🤵/Tokens 🚀 request.md>) | Fetch translated [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)

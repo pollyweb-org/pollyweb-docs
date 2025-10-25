@@ -36,10 +36,10 @@ Body:
 
 | Object | Property | Type |Description
 |-|-|-|-
-| Header | `From`    | string | [Wallet 🧑‍🦰](<../../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  from [`Onboard@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/🧑‍🦰🚀📣 Onboard.md>)
-|| `To`      | string | [Broker 🤵](<../../../🤵🤲 Broker helper.md>) from [`Onboard@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/🧑‍🦰🚀📣 Onboard.md>)
+| Header | `From`    | string | [Wallet 🧑‍🦰](<../../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  from [`Onboard@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/...for Onboard/🧑‍🦰🚀📣 Onboard.md>)
+|| `To`      | string | [Broker 🤵](<../../../🤵🤲 Broker helper.md>) from [`Onboard@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/...for Onboard/🧑‍🦰🚀📣 Onboard.md>)
 || `Subject` | string | `Pop@Broker`
-| Body | `Hook` | uuid | `Hook` for [`Converse@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/2 💬 Chats/🤵🐌📣 Converse.md>)
+| Body | `Hook` | uuid | `Hook` for [`Converse@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/...for Chats 💬 /🤵🐌📣 Converse.md>)
 |       | `Context`  | enum | `HOST` `ISSUER` `VAULT` `BIND` `TOKEN` 
 |       | `Key` | uuid   | Optional index for the context
 |

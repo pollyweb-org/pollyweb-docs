@@ -25,9 +25,9 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From`|string | [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) from [`Onboard@Broker`](<../1 🤵 Onboard/🧑‍🦰🚀📣 Onboard.md>)
-||`To`|string| [Notifier 📣](<../../📣👥 Notifier domain.md>) from [`Onboard@Broker`](<../1 🤵 Onboard/🧑‍🦰🚀📣 Onboard.md>)
+|Header|`From`|string | [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) from [`Onboard@Broker`](<../...for Onboard/🧑‍🦰🚀📣 Onboard.md>)
+||`To`|string| [Notifier 📣](<../../📣👥 Notifier domain.md>) from [`Onboard@Broker`](<../...for Onboard/🧑‍🦰🚀📣 Onboard.md>)
 ||`Subject`|string|`Remove@Broker`
-|Body  |`Wallet`| uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  from [`Onboard@Broker`](<../1 🤵 Onboard/🧑‍🦰🚀📣 Onboard.md>)
+|Body  |`Wallet`| uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  from [`Onboard@Broker`](<../...for Onboard/🧑‍🦰🚀📣 Onboard.md>)
 ||`Path`    |string| Path from [`Save@Notifier`](<🤵🐌📣 Save.md>)
 |
