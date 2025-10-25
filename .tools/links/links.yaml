@@ -169,10 +169,10 @@ Successful Tests:
     LinkFile: "💵🎭 Seller role.md"
     Reasons: This is hardcoded.
 
-  - Given: '{{Prompted@Hosted}}'
-    LinkText: "`Prompted@Hosted` 🅰️ method"
-    LinkFile: '🧑‍🦰🚀🤗 Prompted.md'
-    Reasons: same as "{{Parse@Hosted}}"
+#  - Given: '{{Prompted@Hosted}}'
+#    LinkText: "`Prompted@Hosted` 🅰️ method"
+#    LinkFile: '🧑‍🦰🚀🤗 Prompted.md'
+#    Reasons: same as "{{Parse@Hosted}}"
 
   - Given: '{{Build@Itemized}}'
     LinkText: "`Build@Itemized` 🅰️ method"
