@@ -5,7 +5,7 @@
 
 > Part of the [🧑‍🦰👉🗄️ Unbind @ Wallet](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Vaults 🗄️/💬🤵 Unbind 🗄️ chat.md>) flow.
 
-* Implemented by the [`Unbound` 📃 handler](<Unbound 📃 handler.md>)
+* Implemented by the [`Unbound` 📃 handler](<🗄️ Unbound 📃 handler.md>)
 
 > Purpose
 
