@@ -1,4 +1,4 @@
-# 🤵🪣 Offers
+# 🤵🪣 Offers @ Broker table
 
 > Purpose: 
 * Stores [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)

@@ -1,6 +1,13 @@
-# 🤵🪣 Wallets
+# 🤵🪣 Wallets @ Broker table
 
-> Stores [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+> Purpose
+
+* [Itemized 🪣 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) that stores [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+
+> Usage
+
+* Inserted by [`Onboard@Broker` 🅰️ method](<../../🤵🅰️ Broker methods/1 ...for Wallets 🧑‍🦰/Onboard/📣🚀🤵 Onboard.md>)
+* Updated by [`Language@Broker` 🅰️ method](<../../🤵🅰️ Broker methods/1 ...for Wallets 🧑‍🦰/Language/🧑‍🦰🐌🤵 Language.md>)
 
 <br/>
 
