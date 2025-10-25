@@ -10,7 +10,7 @@
     Appendix-enabled prompts 
     * are [Prompts 🤔](<../🤔 Prompt.md>)
     * that contain an Appendix ID
-    * to be downloaded with [`Download@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🧑‍🦰🚀🤗 Download.md>).
+    * to be downloaded with [`Download@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🧑‍🦰🚀🤗 Download/🧑‍🦰🚀🤗 Download.md>).
 
     ---
     <br/>
@@ -53,7 +53,7 @@
 
     <br/>
     
-    Here's the [`Prompted@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🧑‍🦰🚀🤗 Prompted.md>).
+    Here's the [`Prompted@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🧑‍🦰🚀🤗 Prompted/🧑‍🦰🚀🤗 Prompted.md>).
 
     ```yaml
     Format: TEXT
@@ -63,7 +63,7 @@
 
     <br/>
 
-    Here's the answer in [`Reply@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🧑‍🦰🐌🤗 Reply.md>).
+    Here's the answer in [`Reply@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🧑‍🦰🐌🤗 Reply/🧑‍🦰🐌🤗 Reply.md>).
 
     ```yaml
     Answer: Elvis
