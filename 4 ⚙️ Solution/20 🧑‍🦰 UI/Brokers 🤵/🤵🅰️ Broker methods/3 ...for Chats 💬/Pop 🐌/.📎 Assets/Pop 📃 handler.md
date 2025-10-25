@@ -1,4 +1,4 @@
-# 🤵📃 Pop 🐌
+# 🤵📃 Pop handler
 
 > [Script 📃](<../🧑‍🦰🐌🤵 Pop.md>) that implements the [`Pop@Broker` 🅰️ method](<../🧑‍🦰🐌🤵 Pop.md>)
 
