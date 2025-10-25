@@ -56,7 +56,7 @@
 1. **What's the DIFF output for time?**
 
     Here's the `$diff`  [Placeholder 🧠](<$Placeholder 🧠.md>) when comparing times;
-    * e.g. [`.Today`](<../...functions 🐍/🔩 {.Today}.md>), [`.Now`](<../...functions 🐍/🔩 {.Now}.md>), or an [Item 🛢](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) from [`GET`](<../...datasets 🪣/GET ⏬ item.md>);
+    * e.g. [`.Today`](<../...functions 🐍/🔩 {.Today}.md>), [`.Now`](<../...functions 🐍/🔩 {.Now}.md>), or an [Item 🛢](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) from [`GET`](<../...datasets 🪣/GET/GET ⏬ item.md>);
     * note: `.Verbose` receives the maximum number or parts.
 
     | Property | Type | Example 

@@ -2,19 +2,19 @@
 
 # 😃⏬ Talker `GET` command
 
-> Part of [Talker 😃](<../../😃 Talker role.md>)
+> Part of [Talker 😃](<../../../😃 Talker role.md>)
 
-> Relates to [Tables 🪣 folder](<../../../../55 👷 Build domains/Hosteds 📦/📦📄 Hosted files/🪣📂 Tables folder.md>)
+> Relates to [Tables 🪣 folder](<../../../../../55 👷 Build domains/Hosteds 📦/📦📄 Hosted files/🪣📂 Tables folder.md>)
 
 <br/>
 
 1. **What's a GET item command?**
 
     A `GET` ⏬
-    * is a [Command ⌘](<../...commands ⌘/⌘ Command.md>) 
+    * is a [Command ⌘](<../../...commands ⌘/⌘ Command.md>) 
     * that retrieves an item by key 🔑
     * from a key-value resource pool 🪣
-    * into a [Talker 😃](<../../😃 Talker role.md>) placeholder.
+    * into a [Talker 😃](<../../../😃 Talker role.md>) placeholder.
 
     ---
     <br/>
@@ -44,7 +44,7 @@
     | `Set` | Name of resource pool | `MyPool`
     | `Key`  | Key to look up in the pool | `MyKey` `$key`
     | `Default` | Objet to return if missing | `{A:1, B:2}`
-    | `OnMissing` | [Command ⌘](<../...commands ⌘/⌘ Command.md>) or [Script 📃](<../...commands ⌘/📃 Script.md>) | `MyScript`
+    | `OnMissing` | [Command ⌘](<../../...commands ⌘/⌘ Command.md>) or [Script 📃](<../../...commands ⌘/📃 Script.md>) | `MyScript`
     | `$item` | Item to retrieve | -
 
     ---
@@ -65,7 +65,7 @@
     |Key1|1.A|1.B 
     |Key2|2.A|2.B 
     
-    The following [Script 📃](<../...commands ⌘/📃 Script.md>) renders `ℹ️ 2.A` in the [Chat 💬](<../../../💬 Chats/💬 Chat.md>).
+    The following [Script 📃](<../../...commands ⌘/📃 Script.md>) renders `ℹ️ 2.A` in the [Chat 💬](<../../../../💬 Chats/💬 Chat.md>).
 
     ```yaml
     📃 Script:
@@ -73,7 +73,7 @@
     - INFO|{$myItem.PropA} 
     ```
 
-    Commands: [`GET`](<GET ⏬ item.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>)
+    Commands: [`GET`](<GET ⏬ item.md>) [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️ prompt.md>)
 
     ---
     <br>
@@ -87,15 +87,15 @@
     || 456    | beer          |
     |
 
-    Here's a [Chat 💬](<../../../💬 Chats/💬 Chat.md>).
+    Here's a [Chat 💬](<../../../../💬 Chats/💬 Chat.md>).
 
-    || [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+    || [Domain](<../../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     |-| - | - | - |
     || 🍫 Vending | 😃 What's the item number?   | 🔢 123
     || 🍫 Vending | 😃 A water bottle? [Yes, No]  
     ||
 
-    Here's the [Script 📃](<../...commands ⌘/📃 Script.md>)
+    Here's the [Script 📃](<../../...commands ⌘/📃 Script.md>)
 
     ```yaml
     📃 Script:
@@ -112,7 +112,7 @@
     - CONFIRM|A {$item.Name}?
     ```
 
-    Commands: [`CONFIRM`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) [`DIGITS`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/44 🔢 DIGITS prompt.md>) [`GET`](<GET ⏬ item.md>)
+    Commands: [`CONFIRM`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/31 👍 CONFIRM prompt.md>) [`DIGITS`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/44 🔢 DIGITS prompt.md>) [`GET`](<GET ⏬ item.md>)
     
    
     

@@ -4,17 +4,17 @@
 
 # 😃🗑️ Talker `DELETE` command
 
-> Part of [Talker 😃](<../../😃 Talker role.md>)
+> Part of [Talker 😃](<../../../😃 Talker role.md>)
 
-> Relates to [Tables 🪣 folder](<../../../../55 👷 Build domains/Hosteds 📦/📦📄 Hosted files/🪣📂 Tables folder.md>)
+> Relates to [Tables 🪣 folder](<../../../../../55 👷 Build domains/Hosteds 📦/📦📄 Hosted files/🪣📂 Tables folder.md>)
 
 <br/>
 
 1. **What is a DELETE command?**
 
     A `DELETE` 🗑️
-    * is a [Command ⌘](<../...commands ⌘/⌘ Command.md>) 
-    * that deletes an item from an [Itemized 🛢 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
+    * is a [Command ⌘](<../../...commands ⌘/⌘ Command.md>) 
+    * that deletes an item from an [Itemized 🛢 dataset](<../../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
 
     ---
     <br/>
@@ -29,7 +29,7 @@
 
     | Argument| Purpose 
     |-|-
-    | `$item` | Previous return from [`GET`](<GET ⏬ item.md>) 
+    | `$item` | Previous return from [`GET`](<../GET/GET ⏬ item.md>) 
 
     <br/>
 
@@ -51,7 +51,7 @@
     | `Key` | Key(s) to delete from the set |-
     ||  `<key>` as a string or array | `A` `A,B` `$a` 
     || `{key}` as an object map | `{A:1,B:2}`
-    | `Undo` | Hide to allow an [`UNDO`](<UNDO ↩️.md>) later | `30 days`
+    | `Undo` | Hide to allow an [`UNDO`](<../UNDO/UNDO ↩️.md>) later | `30 days`
     | | `days` `hours` `minutes` `months`
     
     ---
@@ -67,7 +67,7 @@
     - DELETE|$item 
     ```
 
-    Commands: [`GET`](<GET ⏬ item.md>) [`DELETE`](<DELETE 🗑️ item.md>)
+    Commands: [`GET`](<../GET/GET ⏬ item.md>) [`DELETE`](<DELETE 🗑️ item.md>)
 
     ---
     <br/>
