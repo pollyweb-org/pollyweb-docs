@@ -2,7 +2,7 @@
 
 > Purpose:
 * Stores [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
-    * initially stored in [`Offers` 🪣 table](<../Offers/🤵🪣 Offers table.md>)
+    * initially stored in [`Offers` 🪣 table](<../Offers 🎫/🤵🪣 Offers table.md>)
     * by the [`Offer@Broker`](<../../🤵🅰️ Broker methods/...for Tokens 🎫/Offer 🐌/🎴🐌🤵 Offer.md>) method
     * then later saved by the [`Saved@Broker`](<../../🤵🅰️ Broker methods/...for Tokens 🎫/Saved 🐌/🧑‍🦰🐌🤵 Saved.md>) method
 
