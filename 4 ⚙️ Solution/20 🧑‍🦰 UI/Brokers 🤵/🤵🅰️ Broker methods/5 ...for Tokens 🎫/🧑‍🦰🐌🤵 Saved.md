@@ -3,7 +3,7 @@
 
 # 🧑‍🦰🐌🤵 Saved @ Broker
 
-> Implemented by the [`Saved` 📃 script](<../../🤵📃 Broker scripts/...handlers/🤵📃 Saved 🎫 handler.md>)
+> Implemented by the [`Saved` 📃 script](<Saved/🤵📃 Saved 🎫 handler.md>)
 
 > Purpose:
 * [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) 
