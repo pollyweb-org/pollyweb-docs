@@ -102,11 +102,11 @@
     || [🎴🐌 Offer](<🤵🅰️ Broker methods/...for Tokens 🎫/Offer 🐌/🎴🐌🤵 Offer.md>) | [Issuers 🎴](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) offer an issued [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) 
     || [🧑‍🦰🐌 Saved](<🤵🅰️ Broker methods/...for Tokens 🎫/Saved 🐌/🧑‍🦰🐌🤵 Saved.md>) | A [Wallet 🧑‍🦰](<../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) saved a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) locally
     || [🎴🐌 Revise](<🤵🅰️ Broker methods/...for Tokens 🎫/Revise 🐌/🎴🐌🤵 Revise.md>) | Update the status of a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
-    | [`💼 Share`](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) | [💼🐌 Query](<🤵🅰️ Broker methods/6 ...for Share 💼/Query/💼🐌🤵 Query.md>) | Return user [Binds 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) and [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
-    || [💼🚀 Status](<🤵🅰️ Broker methods/6 ...for Share 💼/Status/💼🚀🤵 Status.md>) | Return the status of a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
+    | [`💼 Share`](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) | [💼🐌 Query](<🤵🅰️ Broker methods/...for Share 💼/Query/💼🐌🤵 Query.md>) | Return user [Binds 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) and [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
+    || [💼🚀 Status](<🤵🅰️ Broker methods/...for Share 💼/Status/💼🚀🤵 Status.md>) | Return the status of a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
 
     <!--
-    |Pay| [💵🐌🤵 Charge](<🤵🅰️ Broker methods/7 ...for Pay/💵🐌🤵 Charge.md>)
+    |Pay| [💵🐌🤵 Charge](<🤵🅰️ Broker methods/...for Pay/💵🐌🤵 Charge.md>)
     -->
     
     ---

@@ -30,7 +30,7 @@ Body:
 | | `To`| string | [Notifier 📣 domain](<../../📣👥 Notifier domain.md>) name
 | | `Subject`| string | `Share@Notifier`
 | Body | `Wallet`| uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) ID from [`Onboard@Broker`](<../1 🤵 Onboard/🧑‍🦰🚀📣 Onboard.md>)
-|| `Chat` | string | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Query@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/6 ...for Share 💼/Query/💼🐌🤵 Query.md>)
-|| `Consumer` | string | [Consumer 💼](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) from [ `Query@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/6 ...for Share 💼/Query/💼🐌🤵 Query.md>)
+|| `Chat` | string | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Query@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/...for Share 💼/Query/💼🐌🤵 Query.md>)
+|| `Consumer` | string | [Consumer 💼](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) from [ `Query@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/...for Share 💼/Query/💼🐌🤵 Query.md>)
 | | `Tokens`  | string[] | Paths from [`Saved@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/...for Tokens 🎫/Saved 🐌/🧑‍🦰🐌🤵 Saved.md>)
 |

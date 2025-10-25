@@ -60,7 +60,7 @@ Steps:
 
 |Property|Type|Description
 |-|-|-
-| `Schema` | string | [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) for [`Query@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/6 ...for Share 💼/Query/💼🐌🤵 Query.md>)
+| `Schema` | string | [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) for [`Query@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/...for Share 💼/Query/💼🐌🤵 Query.md>)
 | `Purpose` | string | Explication listed on [Prompt 🤔 details](<../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/3 ⊕ with Details.md>)
 |
 
