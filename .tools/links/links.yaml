@@ -179,6 +179,11 @@ Successful Tests:
     LinkFile: '👥🐌🛢 Build.md'
     Reasons: same as "{{Parse@Hosted}}"
 
+  - Given: '{{Updated@Notifier}}'
+    LinkText: "`Updated@Notifier` 🅰️ method"
+    LinkFile: '👥🐌👂 Updated.md'
+    Reasons: same as "{{Parse@Hosted}}"
+
   - Given: '{{{.UUID}}}'
     LinkText: "`{.UUID}`"
     LinkFile: '🔩 {.UUID}.md'
