@@ -20,7 +20,7 @@
     
     - Thus, the receiver is expected to store the envelope in a resilient queue and immediately return a successful HTTPS 200 response. 
     
-    - The receiver then processes the incoming envelopes [asynchronously](<Send Async 🐌.md>) by consuming them from the queue - it discards invalid envelopes, and replies to valid ones by sending a new envelope to the sender.
+    - The receiver then processes the incoming envelopes [asynchronously](<Async Messages 🐌.md>) by consuming them from the queue - it discards invalid envelopes, and replies to valid ones by sending a new envelope to the sender.
 
     ---
     <br/>
