@@ -87,8 +87,8 @@
 
     Group |  Method | Purpose
     |-|-|-
-    |[`🧑‍🦰 Setup`](<../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)| [📣🚀 Onboard](<🤵🅰️ Broker methods/1 🤵🅰️ Wallets 🧑‍🦰/Onboard/📣🚀🤵 Onboard.md>) | Onboard a [Wallet 🧑‍🦰 app](<../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
-    |  | [🧑‍🦰🐌 Translate](<🤵🅰️ Broker methods/1 🤵🅰️ Wallets 🧑‍🦰/Language/🧑‍🦰🐌🤵 Language.md>) | Change the language of a [Wallet 🧑‍🦰](<../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+    |[`🧑‍🦰 Setup`](<../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)| [📣🚀 Onboard](<🤵🅰️ Broker methods/1 ...for Wallets 🧑‍🦰/Onboard/📣🚀🤵 Onboard.md>) | Onboard a [Wallet 🧑‍🦰 app](<../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+    |  | [🧑‍🦰🐌 Translate](<🤵🅰️ Broker methods/1 ...for Wallets 🧑‍🦰/Language/🧑‍🦰🐌🤵 Language.md>) | Change the language of a [Wallet 🧑‍🦰](<../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | [`💬 Chats`](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)  | [🧑‍🦰🚀 Assess](<🤵🅰️ Broker methods/2 ...for Locators 🔆/Assess/🧑‍🦰🐌🤵 Assess.md>) | Parse the [Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) on the [Broker 🤵](<🤵🤲 Broker helper.md>)
     | | [🧑‍🦰🚀 Chats](<🤵🅰️ Broker methods/3 ...for Chats 💬/Chats 🚀/🧑‍🦰🚀🤵 Chats.md>) | Fetch [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) from the [Broker 🤵](<🤵🤲 Broker helper.md>)
     | | [🤗🐌 Prompt](<🤵🅰️ Broker methods/3 ...for Chats 💬/Prompt 🐌/🤗🐌🤵 Prompt.md>) |   [Prompt 🤔](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) intent from [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) 
