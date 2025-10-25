@@ -33,7 +33,7 @@ Consider the following excerpt from the [Flight check in 🤝 use case](<../../.
 |6| [🤵🐌💼 `Receive@Consumer`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🅰️ Consumer methods/Receive 🧑‍🦰🐌💼/💼 Receive 🐌 msg.md>) | Send the shared offline [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
 |7| [👥🚀🕸 `Trusts@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>) | Verify if the [Issuers 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) are [Trustworthy 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>)
 |8| [👥🚀🕸 `PublicKey@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Public Key.md>) | Get the DKIM public key of each [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
-|9| [💼⏩🤵 Token status 🎫](<../../../../41 🎭 Domain Roles/Consumers 💼/💼⏩ Consumer flows/💼⏩🤵 Token status 🎫.md>) | Ask the Token's [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) if it is still active
+|9| [💼⏩🤵 Token status 🎫](<../../../../41 🎭 Domain Roles/Consumers 💼/💼⏩ Consumer flows/Token Status 💼⏩🎫/💼 Token Status ⏩ flow.md>) | Ask the Token's [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) if it is still active
 |
 
 <br/>
