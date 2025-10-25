@@ -1,5 +1,8 @@
 import os
 import re
+from pathlib import Path
+from typing import List, Optional, Tuple
+
 import yaml
 
 # Instructions on how to run this script:
@@ -19,6 +22,9 @@ from broken_links import (
 )
 from link_replacements import (
     configure_context,
+    find_dynamic_target,
+    format_dynamic_link_text,
+    find_uppercase_token_target,
     replace_curly_at_mentions, replace_curly_upper_mentions, add_emoji_to_table_rows,
     replace_placeholder_tokens, replace_msg_tokens, replace_hosts_tokens, replace_host_tokens,
     replace_issuer_tokens, replace_issuers_tokens, replace_vaults_tokens, replace_vault_tokens,
@@ -37,6 +43,90 @@ from link_replacements.tokens import HARDCODED_HANDLERS
 
 yes_memory = []
 all_memory = False
+
+
+def _resolve_at_token(token: str, md_files: list[str]) -> Optional[Tuple[str, Path]]:
+    before, after = token.split('@', 1)
+    normalized_before = normalize_string(before)
+    markers = method_folder_markers(after)
+    if not markers:
+        return None
+
+    for candidate in md_files:
+        path = Path(candidate)
+        if path.suffix.lower() != '.md':
+            continue
+        if normalize_string(path.stem) != normalized_before:
+            continue
+        folder_normalized = normalize_string(str(path.parent))
+        if any(marker in folder_normalized for marker in markers):
+            label = '🅰️ method'
+            for part in path.parts:
+                if normalize_string(part).endswith('events'):
+                    label = '🔔 event'
+                    break
+            return label, path
+
+    return None
+
+
+def compute_expected_replacement(token: str, given_raw: str, md_files: list[str], file_dict: dict[str, List[tuple[str, str]]], project_directory: str) -> Optional[Tuple[str, Path]]:
+    triple_brace = given_raw.startswith('{{{') and given_raw.endswith('}}}')
+    if '@' in token:
+        resolved = _resolve_at_token(token, md_files)
+        if resolved:
+            label, path = resolved
+            return f"`{token}` {label}", path
+
+    if token.isupper():
+        target = find_uppercase_token_target(token, md_files)
+        if target:
+            return f"`{token}`", Path(target)
+        if project_directory:
+            assumed = Path(project_directory) / "4 ⚙️ Solution" / "35 💬 Chats" / "😃 Talkers" / "😃⚙️ Talker cmds" / "for control" / f"{token} ⤴️.md"
+            if assumed.exists():
+                return f"`{token}`", assumed
+
+    dynamic_target = find_dynamic_target(token, file_dict)
+    if dynamic_target:
+        link_text = format_dynamic_link_text(token, triple_brace=triple_brace)
+        return link_text, dynamic_target
+
+    return None
+
+
+def validate_successful_tests(data: dict, md_files: list[str], file_dict: dict[str, List[tuple[str, str]]], project_directory: str) -> None:
+    errors: list[str] = []
+    for test in data.get('Successful Tests', []):
+        raw_given = test['Given']
+        token = raw_given.strip('{}')
+        reasons_text = (test.get('Reasons') or '').lower()
+        if 'hardcoded' in reasons_text:
+            continue
+
+        expected_linktext = test['LinkText']
+        expected_linkfile = test['LinkFile']
+
+        result = compute_expected_replacement(token, raw_given, md_files, file_dict, project_directory)
+        if not result:
+            errors.append(f"No replacement computed for {token}")
+            continue
+
+        actual_linktext, actual_path = result
+        actual_filename = actual_path.name
+
+        if actual_linktext != expected_linktext:
+            errors.append(
+                f"Link text mismatch for {token}: expected '{expected_linktext}', got '{actual_linktext}'"
+            )
+        if actual_filename != expected_linkfile:
+            errors.append(
+                f"Link target mismatch for {token}: expected '{expected_linkfile}', got '{actual_filename}'"
+            )
+
+    if errors:
+        details = '\n - '.join(errors)
+        raise AssertionError(f"YAML tests failed before applying replacements:\n - {details}")
 
 
 def replace_registered_hardcoded_tokens(md_files):
@@ -547,13 +637,15 @@ def runit(project_directory, entryPoint):
     png_files = find_png_files(project_directory)
 
     # Build file dictionary for dynamic replacements
-    file_dict = {}
+    file_dict: dict[str, list[tuple[str, str]]] = {}
     for path in md_files:
         filename = os.path.basename(path)
         if filename.endswith('.md'):
             name_without_md = filename[:-3]
             normalized = normalize_string(name_without_md)
-            file_dict[normalized] = (name_without_md, path)
+            file_dict.setdefault(normalized, []).append((name_without_md, path))
+
+    validate_successful_tests(data, md_files, file_dict, project_directory)
 
     previous_snapshot = None
 

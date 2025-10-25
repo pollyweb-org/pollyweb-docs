@@ -1,7 +1,7 @@
 @startuml Wait
 
 participant "User 🧑\ndomains" as user
-box Hoster 💭 domain #FFFFFA
+box Hoster ☁️ domain #FFFFFA
     participant "Host 🤗\nrole API" as host
     participant "Talker 😃\nrole API" as talker
 end box
@@ -9,7 +9,7 @@ participant "Hosted 🧑‍💻\non-prem" as hosted
 
 
 activate talker
-    talker --> hosted: 1) Handle 🐌 {start}
+    talker --> hosted: 1) Handle 🐌 {function}
 deactivate talker
 
 activate hosted
@@ -29,7 +29,7 @@ activate hosted
 
 
     hosted -> hosted: ...end
-    hosted -> talker: 6) Place 🚀 {signal} 
+    hosted -> talker: 6) Awake 🐌 {cursor} 
 activate talker
     talker -> hosted: {ok}
 deactivate hosted

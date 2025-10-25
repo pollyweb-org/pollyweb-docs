@@ -1,7 +1,7 @@
 <!-- TODO -->
 
 <!--
-{{.CHAT script}}
+[`.CHAT` 📃 script](<../../../../35 💬 Chats/😃 Talkers/😃📃 Talker scripts/...for placeholders 🧠/😃📃 .CHAT 💬 script.md>)
 -->
 
 # 🤵📃 Tokens handler

@@ -1,7 +1,7 @@
 @startuml Handle
 
 participant "User 🧑\ndomains" as user
-box Hoster 💭 domain #FFFFFA
+box Hoster ☁️ domain #FFFFFA
     participant "Host 🤗\nrole API" as host
     participant "Talker 😃\nrole API" as talker
 end box
