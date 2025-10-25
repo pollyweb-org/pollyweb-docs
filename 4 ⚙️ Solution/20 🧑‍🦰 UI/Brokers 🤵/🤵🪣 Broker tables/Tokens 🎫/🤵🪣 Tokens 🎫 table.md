@@ -7,7 +7,7 @@
     * then later saved by the [`Saved@Broker`](<../../🤵🅰️ Broker methods/...for Tokens 🎫/Saved 🧑‍🦰🐌🤵/Saved 🐌 msg.md>) method
 
 > Read by: 
-* [`Tokens@Broker` 🅰️](<../../🤵🅰️ Broker methods/...for Tokens 🎫/Tokens/🧑‍🦰🚀🤵 Tokens.md>) method
+* [`Tokens@Broker` 🅰️](<../../🤵🅰️ Broker methods/...for Tokens 🎫/Tokens 🧑‍🦰🚀🤵/Tokens 🚀 request.md>) method
 
 > Written by:
 * [`Saved@Broker`](<../../🤵🅰️ Broker methods/...for Tokens 🎫/Saved 🧑‍🦰🐌🤵/Saved 🐌 msg.md>)
@@ -58,6 +58,6 @@ Status: REVOKED
 |-|-|-
 | `Issuer` | string | [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)  from [`Offer@Broker`](<../../🤵🅰️ Broker methods/...for Tokens 🎫/Offer 🎴🐌🤵/Offer 🐌 msg.md>)
 | `Path` | string | Path from [`Saved@Broker`](<../../🤵🅰️ Broker methods/...for Tokens 🎫/Saved 🧑‍🦰🐌🤵/Saved 🐌 msg.md>)
-| `Status`| string | Status from [`Revise@Broker`](<../../🤵🅰️ Broker methods/...for Tokens 🎫/Revise 🐌/🎴🐌🤵 Revise.md>)
+| `Status`| string | Status from [`Revise@Broker`](<../../🤵🅰️ Broker methods/...for Tokens 🎫/Revise 🎴🐌🤵/Revise 🐌 msg.md>)
 | `Token`| uuid |  [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) from [`Offer@Broker`](<../../🤵🅰️ Broker methods/...for Tokens 🎫/Offer 🎴🐌🤵/Offer 🐌 msg.md>)
 ||

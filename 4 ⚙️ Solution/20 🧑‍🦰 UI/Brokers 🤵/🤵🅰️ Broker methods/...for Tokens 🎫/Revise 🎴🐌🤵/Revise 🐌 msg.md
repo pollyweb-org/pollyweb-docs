@@ -3,11 +3,13 @@
 
 # 🎴🐌🤵 Revise @ Broker
 
-> Updates the status of a [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>).
+> Purpose
 
-> Used by:
-> <br/>• [🎴⏩🧑‍🦰 Revise Token @ Issuer](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴⏩ Issuer flows/🎴⏩🧑‍🦰 Revise token.md>) flow
-> <br/>• [💼⏩🧑‍🦰 Token Status @ Consumer](<../../../../../41 🎭 Domain Roles/Consumers 💼/💼⏩ Consumer flows/💼⏩🤵 Token status 🎫.md>) flow
+* Updates the status of a [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>).
+
+> Used by
+* [🎴⏩🧑‍🦰 Revise Token @ Issuer](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴⏩ Issuer flows/🎴⏩🧑‍🦰 Revise token.md>) flow
+* [💼⏩🧑‍🦰 Token Status @ Consumer](<../../../../../41 🎭 Domain Roles/Consumers 💼/💼⏩ Consumer flows/💼⏩🤵 Token status 🎫.md>) flow
 
 <br/>
 

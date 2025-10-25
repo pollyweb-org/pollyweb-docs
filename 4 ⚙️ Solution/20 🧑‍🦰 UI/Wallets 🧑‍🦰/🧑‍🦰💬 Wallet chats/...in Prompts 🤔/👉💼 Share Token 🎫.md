@@ -25,7 +25,7 @@ Consider the following excerpt from the [Flight check in 🤝 use case](<../../.
 
 |#| Step | Purpose
 |-|-|-
-|1| [💼🐌🤵 `Query@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/...for Share 💼/Query/💼🐌🤵 Query.md>) | Ask for user data in specific [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
+|1| [💼🐌🤵 `Query@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/...for Share 💼/Query 💼🐌🤵/Query 🐌 msg.md>) | Ask for user data in specific [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 |2| [👥🚀🕸 `Queryable@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Queryable.md>) | Match user [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) with usable [Trust 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) paths
 |3| [👥🚀🕸 `Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>) | Translate the [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 |4| [🤗⏩🧑‍🦰 Prompt 🤔](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Brokers 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) ask users to share their [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
