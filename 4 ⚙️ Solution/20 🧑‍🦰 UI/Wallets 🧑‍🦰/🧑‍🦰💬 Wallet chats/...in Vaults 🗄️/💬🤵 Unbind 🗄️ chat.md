@@ -2,7 +2,7 @@
 
 # 🧑‍🦰💬🤵 Unbind @ Wallet
 
-> Implemented by the [`Pop Vault` script](<../../../Brokers 🤵/🤵🅰️ Broker methods/3 ...for Chats 💬/Pop 🐌/.📎 Assets/Pop Vault 🗄️ script.md>).
+> Implemented by the [`Pop Vault` script](<../../../Brokers 🤵/🤵🅰️ Broker methods/3 ...for Chats 💬/Pop 🧑‍🦰🐌🤵/.📎 Assets/Pop Vault 🗄️ script.md>).
 
 > Implements a [Wallet 🧑‍🦰 app](<../../🧑‍🦰🛠️ Wallet app.md>)
 
@@ -13,7 +13,7 @@
 
 ## Chat
 
-> Implemented by [Pop Vault 🔆 handler](<../../../Brokers 🤵/🤵🅰️ Broker methods/3 ...for Chats 💬/Pop 🐌/.📎 Assets/Pop Vault 🗄️ script.md>).
+> Implemented by [Pop Vault 🔆 handler](<../../../Brokers 🤵/🤵🅰️ Broker methods/3 ...for Chats 💬/Pop 🧑‍🦰🐌🤵/.📎 Assets/Pop Vault 🗄️ script.md>).
 
 | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
@@ -35,7 +35,7 @@
 
 | # | Call | Notes
 |-|-|-
-| 1 | [🧑‍🦰🐌🤵 `Pop@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/3 ...for Chats 💬/Pop 🐌/🧑‍🦰🐌🤵 Pop.md>) | Call the [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) in a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)  with a [Host 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) 
+| 1 | [🧑‍🦰🐌🤵 `Pop@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/3 ...for Chats 💬/Pop 🧑‍🦰🐌🤵/Pop 🅰️ method.md>) | Call the [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) in a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)  with a [Host 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) 
 | 2 | [🤗⏩🧑‍🦰 `Prompt@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | Ask the [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) to remove the  [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
 | 3 | [🤵⏩🧑‍🦰 Update Binds 🔗](<../../../Brokers 🤵/🤵⏩ Broker flows/Update Binds 🔗/🤵⏩🧑‍🦰 Update Binds 🔗.md>) | Asks the [Wallet 🧑‍🦰](<../../🧑‍🦰🛠️ Wallet app.md>) to update the [Binds 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
 | 4 | [🤵🐌🗄️ `Unbound@Vault`](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Unbound/🤵🐌🗄️ Unbound.md>) | The [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) unbinds and informs the [Vault 🗄️](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)
