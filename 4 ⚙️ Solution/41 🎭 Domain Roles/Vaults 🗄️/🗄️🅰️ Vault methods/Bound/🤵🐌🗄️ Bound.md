@@ -11,7 +11,7 @@
 > Used by:
 
 * [`Bind` ⏩ flow](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🗄️ Bind 🔗.md>)
-* [`Bind Vault` ⏩ flow ](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵⏩ Broker flows/Bind vault 🤵⏩🗄️/Bind vault ⏩ flow.md>) 
+* [`Bind Vault` ⏩ flow ](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵⏩ Broker flows/Bind vault 🗄️⏩🤵/Bind vault ⏩ flow.md>) 
 
 <br/>
 
