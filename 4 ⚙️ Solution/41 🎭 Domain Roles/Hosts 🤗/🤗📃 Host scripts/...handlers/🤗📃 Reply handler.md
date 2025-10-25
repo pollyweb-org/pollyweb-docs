@@ -1,13 +1,13 @@
 <!-- TODO 
 
 [`Reply handler`](<🤗📃 Reply handler.md>)
-[`Reply@Host` 🅰️ method](<../../🤗🅰️ Host methods/🧑‍🦰🐌🤗 Reply.md>)
+[`Reply@Host` 🅰️ method](<../../🤗🅰️ Host methods/🧑‍🦰🐌🤗 Reply/🧑‍🦰🐌🤗 Reply.md>)
 [`Prompt@Host`](<../../🤗🧩 Host schemas/🧩 HOST.md>)
 -->
 
 # 🤗📃 Reply
 
-> Implements the [`Reply@Host` 🅰️ method](<../../🤗🅰️ Host methods/🧑‍🦰🐌🤗 Reply.md>)
+> Implements the [`Reply@Host` 🅰️ method](<../../🤗🅰️ Host methods/🧑‍🦰🐌🤗 Reply/🧑‍🦰🐌🤗 Reply.md>)
 
 ## Script
 

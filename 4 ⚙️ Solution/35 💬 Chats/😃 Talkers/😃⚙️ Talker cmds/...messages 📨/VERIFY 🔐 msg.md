@@ -112,7 +112,7 @@
 
     | [Command ⌘](<../...commands ⌘/Command ⌘/Command ⌘.md>) | Purpose
     |-|-
-    | ⏬ [`GET`](<../...datasets 🪣/GET/GET ⏬ item.md>) | To get the Public Key of [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🤵🐌🤗 Hello.md>).
+    | ⏬ [`GET`](<../...datasets 🪣/GET/GET ⏬ item.md>) | To get the Public Key of [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🤵🐌🤗 Hello/🤵🐌🤗 Hello.md>).
 
     ---
     <br/>

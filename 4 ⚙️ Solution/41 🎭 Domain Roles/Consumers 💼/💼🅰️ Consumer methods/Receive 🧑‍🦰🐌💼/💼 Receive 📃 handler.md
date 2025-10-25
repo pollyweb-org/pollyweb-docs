@@ -1,6 +1,6 @@
 # 💼📃 Receive
 
-[Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Scr💼 Receive � msg.md methods/Receive 🧑‍🦰🐌💼/💼 Receive 🐌 msg.md>)
+[Script 📃](<💼 Receive 🐌 msg.md>)
 
 <br/>
 
