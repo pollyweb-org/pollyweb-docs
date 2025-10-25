@@ -4,6 +4,7 @@
 
 > Part of the [Vault 🗄️ domain](<../../../🗄️🎭 Vault role.md>)
 
+> [Script 📃](<../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that implements the [`Collect@Vault` 🅰️ method](<../💼🚀🗄️ Collect.md>)
 
 ## Script
 

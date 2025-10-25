@@ -2,7 +2,7 @@
 
 # 🤗📃 Prompted
 
-> [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/Script 📃.md>) that implements 
+> [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that implements 
 
 > Triggered by the [`Prompt@Host` 📃 script](<../...procedures/🤗📃 Prompt proc.md>)
 

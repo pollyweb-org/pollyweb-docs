@@ -39,7 +39,7 @@
 
 1. **What's an example of DIFF?**
 
-    Here's a [Script 📃](<../../...commands ⌘/Script 📃/Script 📃.md>)
+    Here's a [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>)
 
     ```yaml
     # Process the period

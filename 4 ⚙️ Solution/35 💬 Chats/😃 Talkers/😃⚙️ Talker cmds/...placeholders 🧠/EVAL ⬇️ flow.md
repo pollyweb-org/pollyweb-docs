@@ -239,7 +239,7 @@
     | 20 | 21 | 22 |
     ```
 
-    Here's the [Script 📃](<../...commands ⌘/Script 📃/Script 📃.md>).
+    Here's the [Script 📃](<../...commands ⌘/Script 📃/📃 Script.md>).
 
     ```yaml
     # Extract only A and B properties.
@@ -281,7 +281,7 @@
     | 20 | 21 | 22 |
     ```
     
-    Here's the [Script 📃](<../...commands ⌘/Script 📃/Script 📃.md>).
+    Here's the [Script 📃](<../...commands ⌘/Script 📃/📃 Script.md>).
 
     ```yaml   
     # Extract only A properties.

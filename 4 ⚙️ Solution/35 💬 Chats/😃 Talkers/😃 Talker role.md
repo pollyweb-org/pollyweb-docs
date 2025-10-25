@@ -12,7 +12,7 @@
     [Talkers 😃](<😃 Talker role.md>) 
     * are [domain 👥](<../../40 👥 Domains/👥 Domain.md>) roles
     * implemented by [Hoster ☁️ helper domains](<../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>).
-    * to run [Scripts 📃](<😃⚙️ Talker cmds/...commands ⌘/Script 📃/Script 📃.md>) 
+    * to run [Scripts 📃](<😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) 
     * for the purpose of rendering dialogs in a [💬 Chat](<../💬 Chats/💬 Chat.md>)
     
 

@@ -109,14 +109,14 @@
 
     Command | Purpose
     |-|-
-    | ⏯️️ [`CASE`](<../../...control ▶️/CASE ⏯️/CASE ⏯️.md>) | Runs a [Command ⌘](<Command ⌘.md>) or [Script 📃](<../Script 📃/Script 📃.md>) based on a [{Function} 🐍](<../../...functions 🐍/{Function} 🐍.md>).
+    | ⏯️️ [`CASE`](<../../...control ▶️/CASE ⏯️/CASE ⏯️.md>) | Runs a [Command ⌘](<Command ⌘.md>) or [Script 📃](<../Script 📃/📃 Script.md>) based on a [{Function} 🐍](<../../...functions 🐍/{Function} 🐍.md>).
     | 🫥 [`EMOJI`](<../../../../🤔 Prompts/🤔✏️ Prompt input features/😶⌘ EMOJI cmd.md>) | Changes the [default emoji 😃](<../../../../🤔 Prompts/🤔✏️ Prompt input features/😶 Input emojis.md>) for [input prompts ✏️](<../../../../🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>).
     | ⬇️ [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️ flow.md>) | Evaluates a [{Function}](<../../...functions 🐍/{Function} 🐍.md>) into a placeholder.
-    | ⤵️ [`IF`](<../../...control ▶️/IF ⤵️/IF ⤵️.md>) | Runs a [Command ⌘](<Command ⌘.md>) or [Script 📃](<../Script 📃/Script 📃.md>) based on a [{Function} 🐍](<../../...functions 🐍/{Function} 🐍.md>).
+    | ⤵️ [`IF`](<../../...control ▶️/IF ⤵️/IF ⤵️.md>) | Runs a [Command ⌘](<Command ⌘.md>) or [Script 📃](<../Script 📃/📃 Script.md>) based on a [{Function} 🐍](<../../...functions 🐍/{Function} 🐍.md>).
     | 🪵 [`LOG`](<../../...control ▶️/LOG 🪵/LOG 🪵 flow.md>) | Logs messages into the system handler.
-    | 🔁 [`REPEAT`](<../../...control ▶️/REPEAT 🔁/REPEAT 🔁.md>) | Repeats the current [Script 📃](<../Script 📃/Script 📃.md>) with a confirmation.
-    | ⤴️ [`RETURN`](<../../...control ▶️/RETURN ⤴️/RETURN ⤴️.md>) | Returns from a [Script 📃](<../Script 📃/Script 📃.md>) with a result.
-    | ▶️ [`RUN`](<../../...control ▶️/RUN ▶️/RUN ▶️.md>) | Runs a [Script 📃](<../Script 📃/Script 📃.md>) and puts the result in a placeholder.
+    | 🔁 [`REPEAT`](<../../...control ▶️/REPEAT 🔁/REPEAT 🔁.md>) | Repeats the current [Script 📃](<../Script 📃/📃 Script.md>) with a confirmation.
+    | ⤴️ [`RETURN`](<../../...control ▶️/RETURN ⤴️/RETURN ⤴️.md>) | Returns from a [Script 📃](<../Script 📃/📃 Script.md>) with a result.
+    | ▶️ [`RUN`](<../../...control ▶️/RUN ▶️/RUN ▶️.md>) | Runs a [Script 📃](<../Script 📃/📃 Script.md>) and puts the result in a placeholder.
     | ⏸️ [`WAIT`](<../../...control ▶️/WAIT ⏸️/WAIT ⏸️.md>) | Waits for a period of time or until signaled.
 
     ---
@@ -127,7 +127,7 @@
 
     |#|Step|Details
     |-|-|-
-    |1| `Upload` | Upload the [Script 📃](<../Script 📃/Script 📃.md>) for the [Command ⌘](<Command ⌘.md>)
+    |1| `Upload` | Upload the [Script 📃](<../Script 📃/📃 Script.md>) for the [Command ⌘](<Command ⌘.md>)
     |2| `Parse` | Parse it at the [`Parse@Hosted` 🅰️ method](<../../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Parse/😃🐌📦 Parse.md>)
     |3| `Register`| Register it on the [`Commands.yamlx` ⌘ file](<../../../../../55 👷 Build domains/Hosteds 📦/📦📄 Hosted files/📄⌘ Commands file.md>) 
     
@@ -148,7 +148,7 @@
 
     <br/>
 
-    Here's the [Script 📃](<../Script 📃/Script 📃.md>) for the [`Hello@Host` 🅰️ method](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Goodbye 👋.md>) 
+    Here's the [Script 📃](<../Script 📃/📃 Script.md>) for the [`Hello@Host` 🅰️ method](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Goodbye 👋.md>) 
 
     ```yaml
     💬 /Test my echo:
@@ -159,7 +159,7 @@
 
     <br/>
 
-    Here's the `ECHO` [Script 📃](<../Script 📃/Script 📃.md>)
+    Here's the `ECHO` [Script 📃](<../Script 📃/📃 Script.md>)
 
     ```yaml
     📃 .ECHO:

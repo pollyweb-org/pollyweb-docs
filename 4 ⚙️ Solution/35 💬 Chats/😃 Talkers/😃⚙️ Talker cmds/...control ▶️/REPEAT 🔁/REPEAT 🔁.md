@@ -9,7 +9,7 @@
 
     A `REPEAT` 🔁
     * is a flow [Command ⌘](<../../...commands ⌘/Command ⌘/Command ⌘.md>) 
-    * that repeats it's enclosing [Script 📃](<../../...commands ⌘/Script 📃/Script 📃.md>) 
+    * that repeats it's enclosing [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) 
     * either always or only when confirmed.
 
     ---
@@ -40,7 +40,7 @@
     | 🕙 Clock | 😃 Check again? [Yes, No] 
     |
 
-    Here's the [Script 📃](<../../...commands ⌘/Script 📃/Script 📃.md>).
+    Here's the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>).
 
 
     ```yaml
@@ -66,7 +66,7 @@
     | 🕙 Clock | 😃 Want to know the time? [Yes, No] 
     |
 
-    Here's the [Script 📃](<../../...commands ⌘/Script 📃/Script 📃.md>).
+    Here's the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>).
 
     ```yaml
     💬|Show time:
@@ -98,7 +98,7 @@
     | [🤗 Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ Order submitted!
     |
 
-    Here's the [Script 📃](<../../...commands ⌘/Script 📃/Script 📃.md>).
+    Here's the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>).
 
 
     ```yaml
@@ -168,7 +168,7 @@
     | [👀 Ads](<../../../../../45 🤲 Helper domains/Advertisers 👀/👀🤲 Advertiser helper.md>) | ⓘ Explore follow-ups: <br/>- [ #️⃣ Play Tic-Tac-Toe ] 
     |
 
-    Here's the [Script 📃](<../../...commands ⌘/Script 📃/Script 📃.md>).
+    Here's the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>).
 
     ```yaml
     💬 Play guess:                      
