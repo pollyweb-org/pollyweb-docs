@@ -1,6 +1,6 @@
 # 🤵📃 Pop 🐌
 
-> [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that implements the [`Pop@Broker` 🅰️ method](<../../🤵🅰️ Broker methods/3 ...for Chats 💬/🧑‍🦰🐌🤵 Pop.md>)
+> [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that implements the [`Pop@Broker` 🅰️ method](<../../🤵🅰️ Broker methods/3 ...for Chats 💬/Pop/🧑‍🦰🐌🤵 Pop.md>)
 
 <br/>
 

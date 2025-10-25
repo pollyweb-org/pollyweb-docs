@@ -1,0 +1,48 @@
+# 🧑‍🦰🐌🤵 Join @ Broker
+
+> Purpose: 
+* Asks the [Broker 🤵 domain](<../../../🤵🤲 Broker helper.md>) 
+    * to join a [Chat 💬](<../../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) to help.
+
+> Used in:
+* [🧑‍🦰👉🤵 Host Home](<../../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Chats 💬/💬🤵 Host home.md>) flow
+* [🧑‍🦰👉🤵 Abandon Chat](<../../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Chats 💬/💬🤵 Abandon 💬.md>) flow
+
+<br/>
+
+## Chat
+
+| [Domain](<../../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+| - | - | - |
+...
+| 🤗 [Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 Continue [Yes, No] 
+| | | > Broker 🤵 |
+| 🤵 [Broker](<../../../🤵🤲 Broker helper.md>) | 🫥 What do you need? <br/> - [ Home ] menu  <br/> - [ Abandon ] Chat <br/> - [ Something else ] 
+|
+
+<br/>
+
+## Async Message 🐌
+
+```yaml
+Header:
+    From: <wallet-uuid>
+    To: any-broker.dom
+    Subject: Join@Broker
+
+Body:
+    Chat: <chat-uuid>
+    Host: any-host.dom
+    Token: <token-uuid>
+    Issuer: any-issuer.dom
+    Bind: <bind-uuid>
+    Vault: any-vault.dom
+```
+
+| Object | Property | Type |Description
+|-|-|-|-
+| Header | `From`    | string | [Wallet 🧑‍🦰](<../../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  from [`Onboard@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
+|| `To`      | string | [Broker 🤵](<../../../🤵🤲 Broker helper.md>) from [`Onboard@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
+|| `Subject` | string | `Join@Broker`
+| Body | `Chat`  | uuid   | [Chat 💬](<../../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)  from [`Converse@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/2 💬 Chats/1 🤵🐌📣 Converse.md>)
+|
