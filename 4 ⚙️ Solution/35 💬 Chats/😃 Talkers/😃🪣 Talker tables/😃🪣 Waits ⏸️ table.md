@@ -2,7 +2,7 @@
 
 > Inserted by the 
 
-> Deleted by the [`Awake@Talker` 🅰️ method](<../😃🅰️ Talker methods/🧑‍💻🐌😃 Awake.md>)
+> Deleted by the [`Awake@Talker` 🅰️ method](<../😃🅰️ Talker methods/Awake/🧑‍💻🐌😃 Awake.md>)
 
 ## Schema
 

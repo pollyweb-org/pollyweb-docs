@@ -2,7 +2,7 @@
 
 # 😃📃 Placed handler
 
-> Implements the [`Placed@Talker` 🅰️ method](<../../😃🅰️ Talker methods/🧑‍💻🚀😃 Placed.md>)
+> Implements the [`Placed@Talker` 🅰️ method](<../../😃🅰️ Talker methods/Placed/🧑‍💻🚀😃 Placed.md>)
 
 
 ## Script

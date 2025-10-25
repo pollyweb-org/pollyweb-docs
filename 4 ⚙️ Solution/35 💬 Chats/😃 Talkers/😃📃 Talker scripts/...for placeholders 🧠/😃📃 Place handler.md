@@ -1,6 +1,6 @@
 # 😃📃 Place handler
 
-> Implements the [`Place@Talker` 🅰️ method](<../../😃🅰️ Talker methods/🧑‍💻🚀😃 Place.md>)
+> Implements the [`Place@Talker` 🅰️ method](<../../😃🅰️ Talker methods/Place/🧑‍💻🚀😃 Place.md>)
 
 ## Script
 
