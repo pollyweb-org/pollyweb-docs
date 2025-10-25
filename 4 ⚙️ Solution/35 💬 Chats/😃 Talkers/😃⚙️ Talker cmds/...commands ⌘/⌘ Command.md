@@ -46,7 +46,7 @@
     
     |Command |  Example | Purpose
     |-|-|-
-    | 🔠 [`TEXT`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/TEXT 🔠 prompt.md>) | Bla | Unstructured text | 
+    | 🔠 [`TEXT`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/TEXT 🔠/TEXT 🔠 prompt.md>) | Bla | Unstructured text | 
     | ↕️ [`QUANTITY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/QUANTITY ↕️/QUANTITY ↕️ prompt.md>) | 123| Numbers with ⬆️ ⬇️ arrows |
     | 🔢 [`DIGITS`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/DIGITS 🔢/DIGITS 🔢 prompt.md>) |0123| Numerics with 0 prefix | 
     | 💰 [`AMOUNT`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/AMOUNT 💰/AMOUNT 💰 prompt.md>) |  1.23 | Decimals and currency
@@ -56,14 +56,14 @@
     | 🔠 [`MANY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/MANY 🔠/MANY 🔠 prompt.md>) | [A,B] |
     | 1️⃣ [`ONE`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/ONE 1️⃣/ONE 1️⃣ prompt.md>) | A |
     | 📆 [`DATE`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/DATE 📆/DATE 📆 prompt.md>)
-    | 🕓 [`TIME`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/TIME 🕓 prompt.md>)
+    | 🕓 [`TIME`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/TIME 🕓/TIME 🕓 prompt.md>)
     | 👤 [`IDENTITY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/IDENTIFY 👤/IDENTIFY 👤 prompt.md>)
-    | 🔆 [`SCAN`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/SCAN 🔆 prompt.md>)
-    | 🦋 [`TOUCH`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/TOUCH 🦋 prompt.md>)
+    | 🔆 [`SCAN`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/SCAN 🔆/SCAN 🔆 prompt.md>)
+    | 🦋 [`TOUCH`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/TOUCH 🦋/TOUCH 🦋 prompt.md>)
     | 🛒 [`EAN`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/EAN 🛒/EAN 🛒 prompt.md>)
-    | ⬆️ [`UPLOAD`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/UPLOAD ⬆️ prompt.md>)
+    | ⬆️ [`UPLOAD`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/UPLOAD ⬆️/UPLOAD ⬆️ prompt.md>)
     | 📍 [`LOCATION`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/LOCATION 📍/LOCATION 📍 prompt.md>)
-    | 🗺️ [`TRACK`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/TRACK 🗺️ prompt.md>)
+    | 🗺️ [`TRACK`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/TRACK 🗺️/TRACK 🗺️ prompt.md>)
 
     ---
     <br/>
@@ -155,7 +155,7 @@
     - TEXT|Say something >> $something
     - ECHO|$something
     ```
-    Commands: [`TEXT`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/TEXT 🔠 prompt.md>)
+    Commands: [`TEXT`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/TEXT 🔠/TEXT 🔠 prompt.md>)
 
     <br/>
 
