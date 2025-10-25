@@ -1,6 +1,6 @@
 # 🪣 Collects
 
-> Stores the hooks for [`Collect@Vault`](<../🗄️🅰️ Vault methods/Collect 💼🚀🗄️/💼🚀🗄️ Collect.md>)
+> Stores the hooks for [`Collect@Vault`](<../🗄️🅰️ Vault methods/Collect 💼🚀🗄️/🗄️ Collect 🚀 request.md>)
 
 <br/>
 
