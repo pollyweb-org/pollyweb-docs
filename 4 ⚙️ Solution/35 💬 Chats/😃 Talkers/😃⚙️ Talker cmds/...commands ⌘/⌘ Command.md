@@ -46,10 +46,10 @@
     
     |Command |  Example | Purpose
     |-|-|-
-    | 🔠 [`TEXT`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/32 🔠 TEXT prompt.md>) | Bla | Unstructured text | 
-    | ↕️ [`QUANTITY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/42 ↕️ QUANTITY prompt.md>) | 123| Numbers with ⬆️ ⬇️ arrows |
-    | 🔢 [`DIGITS`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/44 🔢 DIGITS prompt.md>) |0123| Numerics with 0 prefix | 
-    | 💰 [`AMOUNT`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/43 💰 AMOUNT prompt.md>) |  1.23 | Decimals and currency
+    | 🔠 [`TEXT`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/TEXT 🔠 prompt.md>) | Bla | Unstructured text | 
+    | ↕️ [`QUANTITY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/QUANTITY ↕️ prompt.md>) | 123| Numbers with ⬆️ ⬇️ arrows |
+    | 🔢 [`DIGITS`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/DIGITS 🔢 prompt.md>) |0123| Numerics with 0 prefix | 
+    | 💰 [`AMOUNT`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/AMOUNT 💰 prompt.md>) |  1.23 | Decimals and currency
     | ⭐ [`RATE`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/46 ⭐ RATE prompt.md>) | 5 ⭐ | Integer from 1 to 5
     | 🔑 [`OTP`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/57 🔑 OTP prompt.md>) | 0123 | SIM one time password
     | 👍 [`CONFIRM`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>) | Yes | `Yes` `No` `Cancel` answer
@@ -155,7 +155,7 @@
     - TEXT|Say something >> $something
     - ECHO|$something
     ```
-    Commands: [`TEXT`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/32 🔠 TEXT prompt.md>)
+    Commands: [`TEXT`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/TEXT 🔠 prompt.md>)
 
     <br/>
 

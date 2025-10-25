@@ -30,7 +30,7 @@
 
     | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 💬 [Who is in the picture?](<../../../🤔 Prompts/🤔✏️ Prompt inputs/32 🔠 TEXT prompt.md>) 🖼️ | `Elvis`
+    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 💬 [Who is in the picture?](<../../../🤔 Prompts/🤔✏️ Prompt inputs/TEXT 🔠 prompt.md>) 🖼️ | `Elvis`
 
 
     ```yaml
@@ -40,7 +40,7 @@
         Appendix: {/photos/elvis.png}
     ```
     
-    Commands: [`TEXT`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/32 🔠 TEXT prompt.md>)
+    Commands: [`TEXT`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/TEXT 🔠 prompt.md>)
 
     ---
     <br/>

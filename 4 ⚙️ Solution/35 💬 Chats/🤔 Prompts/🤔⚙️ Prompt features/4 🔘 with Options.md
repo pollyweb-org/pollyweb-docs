@@ -50,7 +50,7 @@
     |Behavior| [Prompt 🤔](<../🤔 Prompt.md>) 
     |-|-
     |[`Status`](<8 ⚠️ as Status.md>)| [`ℹ️ INFO`](<../🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`⏳ TEMP`](<../🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>) [`✅ SUCCESS`](<../🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) [`❌ FAILURE`](<../🤔📢 Prompt status/FAILURE ❌/FAILURE ❌ prompt.md>)
-    |[`Inputs`](<9 ✏️ as Input.md>) | [`1️⃣ ONE`](<../🤔✏️ Prompt inputs/53 1️⃣ ONE prompt.md>) [`🔢 MANY`](<../🤔✏️ Prompt inputs/54 🔠 MANY prompt.md>)  [`🔠 TEXT`](<../🤔✏️ Prompt inputs/32 🔠 TEXT prompt.md>) 
+    |[`Inputs`](<9 ✏️ as Input.md>) | [`1️⃣ ONE`](<../🤔✏️ Prompt inputs/53 1️⃣ ONE prompt.md>) [`🔢 MANY`](<../🤔✏️ Prompt inputs/54 🔠 MANY prompt.md>)  [`🔠 TEXT`](<../🤔✏️ Prompt inputs/TEXT 🔠 prompt.md>) 
 
     ---
     <br/>

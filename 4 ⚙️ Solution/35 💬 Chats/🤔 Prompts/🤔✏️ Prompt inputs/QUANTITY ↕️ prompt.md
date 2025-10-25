@@ -173,7 +173,7 @@
 
 1. **How does Precision work?**
 
-    When collecting a [`QUANTITY`](<42 ↕️ QUANTITY prompt.md>) input, [Talkers 😃](<../../😃 Talkers/😃 Talker role.md>) 
+    When collecting a [`QUANTITY`](<QUANTITY ↕️ prompt.md>) input, [Talkers 😃](<../../😃 Talkers/😃 Talker role.md>) 
     * round up the input based on the precision, 
     * and ask confirmation to the user if the value differs.
 
