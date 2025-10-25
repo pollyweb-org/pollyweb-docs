@@ -1,6 +1,6 @@
 # 😃📃 .ALARM ⏰ script
 
-> [Script 📃](<../../../...commands ⌘/Script 📃/📃 Script.md>) that implements the [`ALARM`](<../ALARM ⏰ msg.md>) command 
+> [Script 📃](<../../../...commands ⌘/Script 📃/Script 📃.md>) that implements the [`ALARM`](<../ALARM ⏰ msg.md>) command 
 
 ## How to run
 

@@ -28,7 +28,7 @@
 
     | Argument| Purpose
     |-|-
-    | `📃 <script>` | The name of the [Script 📃](<📃 Script.md>).
+    | `📃 <script>` | The name of the [Script 📃](<Script 📃.md>).
     |            | The 📃 emoji is optional, and will be ignored.
     | `<command-n>` | A [Command ⌘](<../Command ⌘/Command ⌘.md>)  to be executed.
     
@@ -46,10 +46,10 @@
 
     |Context|Syntax
     |-|-
-    |▶️ [`RUN`](<../../...control ▶️/RUN ▶️/RUN ▶️.md>)| Calls a [Script 📃](<📃 Script.md>) by name, then returns.
-    |⤵️ [`IF`](<../../...control ▶️/IF ⤵️/IF ⤵️.md>) | Runs [Scripts 📃](<📃 Script.md>) for `True` and `False` evaluations.
-    | ⏯️️ [`CASE`](<../../...control ▶️/CASE ⏯️/CASE ⏯️.md>) | Runs [Scripts 📃](<📃 Script.md>) for matching evaluations.
-    | ⏸️ [`WAIT`](<../../...control ▶️/WAIT ⏸️/WAIT ⏸️.md>) | Runs [Scripts 📃](<📃 Script.md>) on signalled and timed out.
+    |▶️ [`RUN`](<../../...control ▶️/RUN ▶️/RUN ▶️.md>)| Calls a [Script 📃](<Script 📃.md>) by name, then returns.
+    |⤵️ [`IF`](<../../...control ▶️/IF ⤵️/IF ⤵️.md>) | Runs [Scripts 📃](<Script 📃.md>) for `True` and `False` evaluations.
+    | ⏯️️ [`CASE`](<../../...control ▶️/CASE ⏯️/CASE ⏯️.md>) | Runs [Scripts 📃](<Script 📃.md>) for matching evaluations.
+    | ⏸️ [`WAIT`](<../../...control ▶️/WAIT ⏸️/WAIT ⏸️.md>) | Runs [Scripts 📃](<Script 📃.md>) on signalled and timed out.
 
     ---
     <br/>

@@ -50,7 +50,7 @@
 
     <br/>
 
-    Here's the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../...commands ⌘/Script 📃/Script 📃.md>).
 
     ```yaml
     # Create a dummy list

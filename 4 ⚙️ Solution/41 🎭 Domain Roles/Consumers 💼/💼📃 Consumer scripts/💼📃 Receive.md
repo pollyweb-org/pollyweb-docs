@@ -1,6 +1,6 @@
 # 💼📃 Receive
 
-[Script 📃](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that implements [`Receive@Consumer`](<../💼🅰️ Consumer methods/🧑‍🦰🐌💼 Receive.md>)
+[Script 📃](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/Script 📃.md>) that implements [`Receive@Consumer`](<../💼🅰️ Consumer methods/🧑‍🦰🐌💼 Receive.md>)
 
 <br/>
 
