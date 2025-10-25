@@ -14,7 +14,7 @@
 
 ## Flow diagram
 
-![Bind vault](<.📎 Assets/⚙️🗄️ Bind vault.png>)
+![Bind vault](<Bind vault ⚙️ uml.png>)
 
 
 ## Steps
