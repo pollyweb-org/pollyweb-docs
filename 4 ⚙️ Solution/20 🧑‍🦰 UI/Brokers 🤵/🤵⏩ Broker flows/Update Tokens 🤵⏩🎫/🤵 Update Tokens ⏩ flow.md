@@ -12,7 +12,7 @@
 
 ## Flow diagram
 
-![Update tokens](<Update Tokens ⚙️ uml.png>)
+![Update tokens](<🤵 Update Tokens ⚙️ uml.png>)
 
 
 | # | Call | Notes |
