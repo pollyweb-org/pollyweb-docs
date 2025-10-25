@@ -35,7 +35,7 @@ Distincts:
 | Parent | [`Notifiers` 🪣](<../Notifiers/🤵🪣 Notifiers table.md>) | [Notifier 📣 domain](<../../../Notifiers 📣/📣👥 Notifier domain.md>)
 | Children | [`Chats` 🪣](<../Chats/🤵🪣 Chats table.md>) | [Chats 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)
 | | [`Binds` 🪣](<../Binds/🤵🪣 Binds table.md>) | [Binds 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
-| | [`Tokens` 🪣](<../Tokens/🤵🪣 Tokens table.md>) | [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
+| | [`Tokens` 🪣](<../Tokens/🤵🪣 Tokens 🎫 table.md>) | [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
 |
 
 <br/>

@@ -5,7 +5,7 @@
 
 > Used in [🧑‍🦰👉🤵 Remove token](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Tokens 🎫/💬🤵 Remove 🎫 chat.md>).
 
-> Called by the [`TokenTimeout` 📃 script](<../../../Brokers 🤵/🤵📃 Broker scripts/...triggers/🤵📃 Token 🎫 timeout.md>)
+> Called by the [`TokenTimeout` 📃 script](<../../../Brokers 🤵/🤵🪣 Broker tables/Tokens/.📎 Assets/Tokens Timeout 📃 trigger.md>)
 
 
 <br/>
