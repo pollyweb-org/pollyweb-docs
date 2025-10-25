@@ -13,7 +13,7 @@
 * Used in:
     * [🧑‍🦰👉🤵 Set language @ Wallet](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/💬🤵 Translate.md>)
     * [🧑‍🦰👉🤵 List chats @ Wallet](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/💬🤵 List Chats 💬.md>)
-    * [🤵⏩🗄️ Update chats @ Broker](<../../🤵⏩ Broker flows/🤵⏩🧑‍🦰 Update Chats 💬.md>)
+    * [🤵⏩🗄️ Update chats @ Broker](<../../🤵⏩ Broker flows/Update Chats 💬/🤵⏩🧑‍🦰 Update Chats 💬.md>)
 
 
 <br/>
