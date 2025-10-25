@@ -27,7 +27,7 @@
 
     |Format | Description
     |-|-
-    | [👍&nbsp;CONFIRM](<../🤔✏️ Prompt inputs/CONFIRM/31 👍 CONFIRM prompt.md>) | Yes, No, Cancel
+    | [👍&nbsp;CONFIRM](<../🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>) | Yes, No, Cancel
     | [🔠&nbsp;TEXT](<../🤔✏️ Prompt inputs/32 🔠 TEXT prompt.md>) | Asks for a text input
     | [🔢&nbsp;DIGITS](<../🤔✏️ Prompt inputs/44 🔢 DIGITS prompt.md>) | Shows the numeric keypad
     | [↕️&nbsp;QUANTITY](<../🤔✏️ Prompt inputs/42 ↕️ QUANTITY prompt.md>) | Shows up/down arrows.
