@@ -30,5 +30,5 @@
 |-|-|-
 | 1 | [🧑‍🦰🐌🤵 `Join@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Join 🧑‍🦰🐌🤵/🤵 Join 🐌 msg.md>) | Open the context menu
 | 2 | [🤗⏩🧑‍🦰 Prompt 🤔](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | Ask the [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) to abandon the [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) 
-| 3 | [🧑‍🦰🐌🤗 `Home@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🤵🐌🤗 Home/🤵🐌🤗 Home.md>) | Show the main menu
+| 3 | [🧑‍🦰🐌🤗 `Home@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🤵🐌🤗 Home/🤗 Home 🐌 msg.md>) | Show the main menu
 |

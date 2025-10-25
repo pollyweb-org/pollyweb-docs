@@ -2,7 +2,7 @@
 
 > Part of [Host 🤗 domain role](<../🤗🎭 Host role.md>)
 
-> Stores the content of [`Hello@Host`](<../🤗🅰️ Host methods/🤵🐌🤗 Hello/🤵🐌🤗 Hello.md>)
+> Stores the content of [`Hello@Host`](<../🤗🅰️ Host methods/🤵🐌🤗 Hello/🤗 Hello 🐌 msg.md>)
 
 <br/>
 
@@ -21,7 +21,7 @@ PublicKey: <public-key>
 |-|-|-
 | `Broker`  | string | 
 | `Chat`    | uuid |
-| `PublicKey` | string | From [`Hello@Host`](<../🤗🅰️ Host methods/🤵🐌🤗 Hello/🤵🐌🤗 Hello.md>)
+| `PublicKey` | string | From [`Hello@Host`](<../🤗🅰️ Host methods/🤵🐌🤗 Hello/🤗 Hello 🐌 msg.md>)
 | 
 
 <br/>
