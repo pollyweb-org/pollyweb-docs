@@ -48,7 +48,7 @@ Body:
 |      | `Language`| enum    | ISO language code
 |           | `Locator` | string    | [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) in the [Host 🤗 domain](<../../🤗🎭 Host role.md>)
 || `Parameters`| object | Custom parameters
-|           | `PublicKey`| string | For [`Prompted@`](<../🧑‍🦰🚀🤗 Prompted/🧑‍🦰🚀🤗 Prompted.md>) [`Reply@`](<../🧑‍🦰🐌🤗 Reply/🧑‍🦰🐌🤗 Reply.md>) [`Download@`](<../🧑‍🦰🚀🤗 Download/🧑‍🦰🚀🤗 Download.md>)
+|           | `PublicKey`| string | For [`Prompted@`](<../🧑‍🦰🚀🤗 Prompted/🧑‍🦰🚀🤗 Prompted.md>) [`Reply@`](<../🧑‍🦰🐌🤗 Reply/🤗 Reply 🐌 msg.md>) [`Download@`](<../🧑‍🦰🚀🤗 Download/🤗 Download 🚀 msg.md>)
 |           | `Schema`    | string    | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) of the Locator
 |           | `Tokens`  | uuid[] | List of [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) for an [Issuer 🎴](<../../../Issuers 🎴/🎴🎭 Issuer role.md>) host
 |
