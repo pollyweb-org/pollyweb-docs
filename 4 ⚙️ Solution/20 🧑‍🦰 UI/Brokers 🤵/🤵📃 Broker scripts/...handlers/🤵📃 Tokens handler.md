@@ -1,9 +1,5 @@
 <!-- TODO -->
 
-<!--
-[`.CHAT` 📃 script](<../../../../35 💬 Chats/😃 Talkers/😃📃 Talker scripts/...for placeholders 🧠/😃📃 .CHAT 💬 script.md>)
--->
-
 # 🤵📃 Tokens handler
 
 [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/📃 Script.md>) that implements the [`Tokens@Broker` 🅰️ method](<../../🤵🅰️ Broker methods/5 🤵🅰️ Tokens 🎫/🧑‍🦰🚀🤵 Tokens.md>)

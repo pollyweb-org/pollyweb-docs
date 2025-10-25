@@ -1,32 +1,37 @@
 @startuml Callback
 
+participant "Vault\nDomain" as vault
+participant "Vault\nTalker 😃" as talker
 participant "Hooks\nTable 🪣" as hooks
-participant "Host\nTalker 😃" as talker
 participant "Message\nHandler 📨" as handler
 actor "User" as user
 
+activate vault
+    vault --> talker: BIND 🔗
+deactivate vault
+group .BIND
 activate talker
-    talker -> talker: BIND 🔗
-group Internal
-    talker -> hooks: SAVE {hook}    
-    talker --> user: Bindable 🐌 {hookID}
-end group
+    talker -> hooks: SAVE {$.cursor}    
+    talker --> user: Bindable 🐌 {hook}
 deactivate talker
-
 activate user
-    user --> handler: Bound 🐌 {hookID}
-deactivate user
+end group
 
+group Bound@Vault
+    user --> handler: Bound 🐌 {hook}
+deactivate user
 activate handler
-    handler -> hooks: GET {hookID}
+
+    handler -> hooks: GET {hook}
     activate hooks
-        hooks -> handler: {hook}
+        hooks -> handler: {cursor}
     deactivate hooks
-    handler -> talker: REEL {hook}
+    handler --> talker: REEL {cursor,result}
 deactivate handler
 
 activate talker
-    talker -> talker: IF {hook.Result}: \n Then: SUCCESS ✅
+end group
+    talker -> talker: IF {result}: \n - SUCCESS ✅
 deactivate talker
 
 @enduml

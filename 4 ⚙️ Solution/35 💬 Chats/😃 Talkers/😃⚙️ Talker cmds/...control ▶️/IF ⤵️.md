@@ -30,8 +30,30 @@
     ---
     <br/>
 
+1. **What's the IF syntax for one-line thens?**
+    
+    ```yaml
+    # In-line 
+    - IF|{function}|<true-script>
 
-1. **What's the `IF` syntax?**
+    # Multi-line 
+    - IF|{function}:
+        <true-action>
+    ```
+
+    | Argument| Purpose | Example
+    |-|-|-
+    | `{function}` | Boolean [{Function}](<../...functions 🐍/{Function} 🐍.md>) to evaluate  | `{f}` `{$o}`
+    || Allows for missing `{}` in functions | `f()` `$p`
+    || Defaults to the last [input prompt ✏️](<../../../🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>) | `TEXT\|Id?`
+    | `<true-script>` | [Script 📃](<RUN ▶️.md>) when `True` | `IfTrue`
+    
+    
+    ---
+    <br/>
+
+
+1. **What's the IF syntax for one-line scripts?**
     
     ```yaml
     # One-line Scripts
@@ -46,6 +68,11 @@
     | `<true-script>` | [Script 📃](<RUN ▶️.md>) when `True` | `IfTrue`
     | `<false-script>`| [Script 📃](<RUN ▶️.md>) when `False` | `IfFalse(X)`
     
+    ---
+    <br/>
+
+1. **What's the IF syntax for multi-line actions?**
+
     ```yaml
     # Multi-line actions: 
     #   i.e., Script or one-line Command
@@ -61,6 +88,10 @@
     | `<true-action>` | [Script 📃](<../...commands ⌘/📃 Script.md>) or one-lin⌘ [Command ⌘](<../...commands ⌘/⌘ Command.md>) on `True`
     | `<false-action>`| [Script 📃](<../...commands ⌘/📃 Script.md>) or one-line [Command ⌘](<../...commands ⌘/⌘ Command.md>) on `False`
 
+    ---
+    <br/>
+
+1. **What's the IF syntax for multi-line command lists?**
 
     ```yaml
     # Multi-line Command lists
@@ -81,6 +112,7 @@
 
     ---
     <br/>
+
 
 1. **What are examples of inline syntax?**
 
