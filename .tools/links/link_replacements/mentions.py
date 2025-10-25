@@ -5,7 +5,7 @@ from __future__ import annotations
 import os
 import re
 from pathlib import Path
-from typing import Iterable
+from typing import Iterable, List, Optional
 
 import yaml
 
@@ -18,6 +18,91 @@ from .patterns import (
     extract_links_text_href,
     pick_matching_link_upper,
 )
+
+
+def _dynamic_normalized_candidates(token: str) -> List[str]:
+    candidates: List[str] = []
+
+    parts = token.split("@", 1)
+    textual_variants: List[str] = []
+    if len(parts) == 2:
+        textual_variants.extend(parts[::-1])
+    textual_variants.append(token)
+
+    for variant in textual_variants:
+        normalized = normalize_string(variant)
+        if normalized not in candidates:
+            candidates.append(normalized)
+        wrapped = normalize_string(f"{{{variant}}}")
+        if wrapped not in candidates:
+            candidates.append(wrapped)
+
+    if token.endswith("s") and len(token) > 1:
+        singular = normalize_string(token[:-1])
+        if singular not in candidates:
+            candidates.append(singular)
+
+    return candidates
+
+
+def _score_dynamic_candidate(token: str, name_without_md: str, path: Path) -> tuple[int, int, int, int, str]:
+    normalized_token = normalize_string(token)
+    normalized_name = normalize_string(name_without_md)
+    mismatch_flag = 0 if normalized_token == normalized_name else 1
+
+    preferred_chars = set("._`ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789")
+    leading_char = name_without_md[:1]
+    leading_penalty = 0 if leading_char and leading_char in preferred_chars else 1
+
+    length_penalty = len(name_without_md)
+    depth_penalty = len(path.parts)
+
+    return (
+        mismatch_flag,
+        leading_penalty,
+        length_penalty,
+        depth_penalty,
+        str(path),
+    )
+
+
+def _select_dynamic_candidate(token: str, candidates: List[tuple[str, str]]) -> Optional[Path]:
+    best_path: Optional[Path] = None
+    best_score: Optional[tuple[int, int, int, int, str]] = None
+
+    for name_without_md, path_str in candidates:
+        path = Path(path_str)
+        score = _score_dynamic_candidate(token, name_without_md, path)
+        if best_score is None or score < best_score:
+            best_score = score
+            best_path = path
+
+    return best_path
+
+
+def find_dynamic_target(token: str, file_dict: dict[str, List[tuple[str, str]]]) -> Optional[Path]:
+    normalized_candidates = _dynamic_normalized_candidates(token)
+    aggregate: List[tuple[str, str]] = []
+
+    for normalized in normalized_candidates:
+        entries = file_dict.get(normalized)
+        if entries:
+            aggregate.extend(entries)
+
+    if not aggregate:
+        return None
+
+    return _select_dynamic_candidate(token, aggregate)
+
+
+def format_dynamic_link_text(token: str, *, triple_brace: bool = False) -> str:
+    if token.endswith(" script"):
+        core = token[: -len(" script")].strip()
+        if core:
+            return f"`{core}` 📃 script"
+
+    display = f"{{{token}}}" if triple_brace else token
+    return f"`{display}`"
 
 
 def replace_curly_at_mentions(md_files: Iterable[str]) -> int:
@@ -97,7 +182,7 @@ def replace_curly_at_mentions(md_files: Iterable[str]) -> int:
     return total_replacements
 
 
-def _find_uppercase_token_target(token: str, md_files: Iterable[str]) -> Path | None:
+def find_uppercase_token_target(token: str, md_files: Iterable[str]) -> Path | None:
     """Locate a markdown file that likely documents the uppercase token."""
 
     normalized_token = normalize_string(token)
@@ -114,10 +199,20 @@ def _find_uppercase_token_target(token: str, md_files: Iterable[str]) -> Path | 
     if not candidates:
         return None
 
-    def priority(path: Path) -> tuple[int, int, str]:
+    def priority(path: Path) -> tuple[int, int, int, str]:
         parts = tuple(path.parts)
         talker_cmd_idx = next((idx for idx, part in enumerate(parts) if "Talker cmds" in part), None)
         scripts_idx = next((idx for idx, part in enumerate(parts) if "Talker scripts" in part), None)
+        script_rank = 0
+        if scripts_idx is not None:
+            script_rank = 1
+            for part in parts:
+                if "scripts" in part.lower():
+                    for exit_emoji in ("📃", "script"):
+                        if exit_emoji in part:
+                            script_rank = 0
+                            break
+                    break
         # Prefer talker command definitions, then scripts, then anything else.
         if talker_cmd_idx is not None:
             bucket = 0
@@ -128,7 +223,8 @@ def _find_uppercase_token_target(token: str, md_files: Iterable[str]) -> Path | 
         else:
             bucket = 2
             depth = len(parts)
-        return bucket, depth, str(path)
+        base_contains_name = normalize_string(path.stem).startswith(normalized_token)
+        return bucket, script_rank, 0 if base_contains_name else 1, str(path)
 
     best = min(candidates, key=priority)
     return best
@@ -166,7 +262,7 @@ def replace_curly_upper_mentions(md_files: Iterable[str]) -> int:
                     base = None
 
             if not href:
-                guessed = _find_uppercase_token_target(token, md_files)
+                guessed = find_uppercase_token_target(token, md_files)
                 if guessed:
                     href = os.path.relpath(guessed, path.parent)
                     base = None
@@ -233,24 +329,19 @@ def replace_prompt_broker_tokens(md_files: Iterable[str]) -> int:
     return total
 
 
-def replace_dynamic_tokens(md_files: Iterable[str], file_dict: dict[str, tuple[str, str]]) -> int:
+def replace_dynamic_tokens(md_files: Iterable[str], file_dict: dict[str, List[tuple[str, str]]]) -> int:
     """Replace any remaining ``{{...}}`` tokens using normalized filenames."""
 
     def replacer(match, current_file: Path):
         token = match.group(1)
-        parts = token.split("@", 1)
-
-        candidates = []
-        if len(parts) == 2:
-            candidates.extend(parts[::-1])  # after, before
-        candidates.append(token)
-
-        for candidate in candidates:
-            normalized = normalize_string(candidate)
-            if normalized in file_dict:
-                _, target_path = file_dict[normalized]
-                rel_path = os.path.relpath(target_path, current_file.parent)
-                return f"[`{token}`](<{rel_path}>)"
+        target = find_dynamic_target(token, file_dict)
+        if target:
+            try:
+                rel_path = os.path.relpath(target, current_file.parent)
+            except Exception:
+                rel_path = str(target)
+            link_text = format_dynamic_link_text(token)
+            return f"[{link_text}](<{rel_path}>)"
         return match.group(0)
 
     total = 0
@@ -279,4 +370,7 @@ __all__ = [
     "replace_curly_upper_mentions",
     "replace_dynamic_tokens",
     "replace_prompt_broker_tokens",
+    "find_uppercase_token_target",
+    "find_dynamic_target",
+    "format_dynamic_link_text",
 ]

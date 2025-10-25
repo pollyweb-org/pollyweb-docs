@@ -8,6 +8,7 @@ from pathlib import Path
 from typing import Callable, Dict, Iterable
 
 from broken_links.common import normalize_string
+from .mentions import find_dynamic_target, format_dynamic_link_text
 
 
 HARDCODED_HANDLERS: Dict[str, Dict[str, object]] = {}
@@ -300,7 +301,7 @@ def replace_notifiers_tokens(md_files):
     return _replace_simple(md_files, pattern, "[Notifier 📣 domains](<📣👥 Notifier domain.md>)")
 
 
-def replace_triple_brace_tokens(md_files: Iterable[str], file_dict: dict[str, tuple[str, str]]) -> int:
+def replace_triple_brace_tokens(md_files: Iterable[str], file_dict: dict[str, list[tuple[str, str]]]) -> int:
     """Replace helper tokens using triple braces with markdown links."""
 
     total = 0
@@ -314,23 +315,17 @@ def replace_triple_brace_tokens(md_files: Iterable[str], file_dict: dict[str, tu
 
         def replacer(match: re.Match[str]) -> str:
             token = match.group(1).strip()
-            candidates = {
-                normalize_string(token),
-                normalize_string(f"{{{token}}}"),
-            }
+            target = find_dynamic_target(token, file_dict)
+            if not target:
+                return match.group(0)
 
-            for candidate in candidates:
-                entry = file_dict.get(candidate)
-                if not entry:
-                    continue
-                _, target_path = entry
-                try:
-                    rel_path = os.path.relpath(target_path, path.parent)
-                except Exception:
-                    rel_path = target_path
-                return f"[`{token}`](<{rel_path}>)"
+            try:
+                rel_path = os.path.relpath(target, path.parent)
+            except Exception:
+                rel_path = str(target)
 
-            return match.group(0)
+            link_text = format_dynamic_link_text(token, triple_brace=True)
+            return f"[{link_text}](<{rel_path}>)"
 
         new_content, count = TRIPLE_BRACE_PATTERN.subn(replacer, content)
         if count:

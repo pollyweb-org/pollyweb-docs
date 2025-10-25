@@ -2,6 +2,9 @@
 
 from .context import configure as configure_context
 from .mentions import (
+    find_dynamic_target,
+    format_dynamic_link_text,
+    find_uppercase_token_target,
     replace_curly_at_mentions,
     replace_curly_upper_mentions,
     replace_dynamic_tokens,
@@ -59,6 +62,9 @@ from .tokens import (
 __all__ = [
     "add_emoji_to_table_rows",
     "configure_context",
+    "find_dynamic_target",
+    "format_dynamic_link_text",
+    "find_uppercase_token_target",
     "replace_broker_tokens",
     "replace_brokers_tokens",
     "replace_chat_msg_tokens",
