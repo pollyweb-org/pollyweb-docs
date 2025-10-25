@@ -45,10 +45,12 @@ GET >> $token:
 
 # Inform the Issuer
 - SEND:
-    To: $token.Issuer
-    Subject: Accepted@Issuer
-    Token: $token.Token
-    Hook: $token.Hook
+    Header:
+        To: $token.Issuer
+        Subject: Accepted@Issuer
+    Body:
+        Token: $token.Token
+        Hook: $token.Hook
 
 # Updated the Tokens
 - RUN|UpdateTokens:

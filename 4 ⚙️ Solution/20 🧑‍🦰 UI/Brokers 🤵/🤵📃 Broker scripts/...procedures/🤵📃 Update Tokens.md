@@ -17,10 +17,12 @@
 
 # Update the Token 🎫 list
 - SEND:
-    To: !wallet.Notifier
-    Subject: Updated@Notifier
-    Wallet: !wallet.Wallet
-    Updates: [ TOKENS ]
+    Header:
+        To: !wallet.Notifier
+        Subject: Updated@Notifier
+    Body:
+        Wallet: !wallet.Wallet
+        Updates: [ TOKENS ]
 ```
 
 Needs||

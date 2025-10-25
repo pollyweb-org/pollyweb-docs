@@ -19,9 +19,11 @@
 
     ```yaml
     SEND >> $response:
-        To: <domain>
-        Subject: <subject>
-        {body}
+        Header:
+            To: <domain>
+            Subject: <subject>
+        Body:
+            {body}
     ```
 
     | Argument| Purpose | Example
@@ -41,10 +43,12 @@
 
     ```yaml
     - SEND:
-        To: any-domain.dom
-        Subject: Any@Role
-        A: 1
-        B: 2
+        Header:
+            To: any-domain.dom
+            Subject: Any@Role
+        Body:
+            A: 1
+            B: 2
     ```
 
     This results in the following [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) being sent.

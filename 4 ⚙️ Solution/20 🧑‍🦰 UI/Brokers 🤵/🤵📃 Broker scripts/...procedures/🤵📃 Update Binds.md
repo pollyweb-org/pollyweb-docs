@@ -17,10 +17,12 @@
 
 # Notify Wallets to update Binds
 - SEND:
-    To: !wallet.Notifier
-    Subject: Updated@Notifier
-    Wallet: !wallet.Wallet
-    Updates: [ BINDS ]
+    Header:
+        To: !wallet.Notifier
+        Subject: Updated@Notifier
+    Body:
+        Wallet: !wallet.Wallet
+        Updates: [ BINDS ]
 ```
 
 

@@ -32,10 +32,12 @@
 
 # Remove from Wallet
 - SEND:
-    To: $wallet.Notifier
-    Subject: Remove@Notifier
-    Wallet: $:Item.Wallet
-    Path: $:Item.Path
+    Header:
+        To: $wallet.Notifier
+        Subject: Remove@Notifier
+    Body:
+        Wallet: $:Item.Wallet
+        Path: $:Item.Path
 ```
 
 |Needs ||

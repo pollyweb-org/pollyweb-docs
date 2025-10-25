@@ -47,16 +47,20 @@
     
     # Inform the Vault
     - SEND:
-        To: $bind.Vault
-        Subject: Unbound@Vault
-        Bind: $bind.ID
+        Header:
+            To: $bind.Vault
+            Subject: Unbound@Vault
+        Body:
+            Bind: $bind.ID
 
 # Update the bind list
 - SEND:
-    To: $wallet.Notifier
-    Subject: Updated@Notifier
-    Wallet: $wallet.ID
-    Updates: [ BINDS ]
+    Header:
+        To: $wallet.Notifier
+        Subject: Updated@Notifier
+    Body:
+        Wallet: $wallet.ID
+        Updates: [ BINDS ]
 
 # Inform the user 🤔
 - SUCCESS|Done.

@@ -36,10 +36,12 @@
 
 # Translate the Issuer and Schema
 - SEND >> $translation:
-    To: $.Settings.Graph
-    Subject: Translate@Graph
-    Domain: $.Msg.From
-    Schema: $.Msg.Schema
+    Header:
+        To: $.Settings.Graph
+        Subject: Translate@Graph
+    Body:
+        Domain: $.Msg.From
+        Schema: $.Msg.Schema
 
 # Save the Offer
 - SAVE|Offers@Broker:

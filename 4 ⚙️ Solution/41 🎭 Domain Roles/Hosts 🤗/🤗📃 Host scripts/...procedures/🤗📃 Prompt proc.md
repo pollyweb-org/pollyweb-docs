@@ -14,10 +14,11 @@
     Lists: $:Options
     UUIDs: $:Appendix  
 
-# Save the prompt.
+# Stage the prompt.
 - SAVE|Prompts@Host >> $prompt:
-    Prompt: .UUID
-    PublicKey: $.Chat.PublicKey
+    Metadata:
+        Prompt: .UUID
+        PublicKey: $.Chat.PublicKey
     Prompted:
         Format: $:Format
         Statement: $:Statement
@@ -27,11 +28,13 @@
 
 # Send it to the Broker.
 - SEND:
-    To: $.Chat.Broker
-    Subject: Prompt@Broker
-    Chat: $.Chat.Chat
-    Prompt: $saved.Prompt
-    Expires: .Add(.Now, 5 minute)
+    Header:
+        To: $.Chat.Broker
+        Subject: Prompt@Broker
+    Body:
+        Chat: $.Chat.Chat
+        Prompt: $saved.Metadata.Prompt
+        Expires: .Add(.Now, 5 minute)
 
 # TODO: Wait for what?
 - WAIT

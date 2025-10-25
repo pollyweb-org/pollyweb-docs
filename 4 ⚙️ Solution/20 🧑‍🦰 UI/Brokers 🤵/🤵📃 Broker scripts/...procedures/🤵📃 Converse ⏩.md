@@ -20,9 +20,11 @@
 
 # Get the Host details from the Graph
 - SEND >> $domain:
-    To: $.Settings.Graph
-    Subject: Identity@Graph
-    Domain: $locator.Host
+    Header:
+        To: $.Settings.Graph
+        Subject: Identity@Graph
+    Body:
+        Domain: $locator.Host
 
 # Save the Host info
 - SAVE|Domains@Broker:
@@ -33,10 +35,12 @@
 
 # Get the translation for the language
 - SEND >> $translation:
-    To: $.Settings.Graph
-    Subject: Translate@Graph
-    Language: $wallet.Language
-    Domain: $locator.Host
+    Header:
+        To: $.Settings.Graph
+        Subject: Translate@Graph
+    Body:
+        Language: $wallet.Language
+        Domain: $locator.Host
 
 # Create a new key pair
 - KEYS >> $keys
@@ -58,16 +62,18 @@
 
 # Open the Chat in the Wallet app
 - SEND:
-    To: $wallet.Notifier
-    Subject: Converse@Notifier
-    Wallet: $chat.Wallet
-    Hook: $.Msg.Hook
-    Chat: $chat.Chat
-    PrivateKey: $keys.PrivateKey
-    Host: $chat.Host
-    Host$: $chat.Host$
-    SmallIcon: $domain.SmallIcon
-    BigIcon: $domain.BigIcon
+    Header:
+        To: $wallet.Notifier
+        Subject: Converse@Notifier
+    Body:
+        Wallet: $chat.Wallet
+        Hook: $.Msg.Hook
+        Chat: $chat.Chat
+        PrivateKey: $keys.PrivateKey
+        Host: $chat.Host
+        Host$: $chat.Host$
+        SmallIcon: $domain.SmallIcon
+        BigIcon: $domain.BigIcon
 
 # Update the Chats
 - RUN|UpdateChats:
