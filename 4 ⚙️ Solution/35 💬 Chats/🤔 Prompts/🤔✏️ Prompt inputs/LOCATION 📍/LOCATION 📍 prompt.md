@@ -59,7 +59,7 @@
     <br/>
 
 
-1. **How is that example in a [Prompted@Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🧑‍🦰🚀🤗 Prompted.md>) response?**
+1. **How is that example in a [Prompted@Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 request.md>) response?**
 
     ```yaml
     Format: LOCATION

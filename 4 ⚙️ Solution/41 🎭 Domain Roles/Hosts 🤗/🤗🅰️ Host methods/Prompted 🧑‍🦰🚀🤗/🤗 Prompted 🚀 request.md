@@ -62,7 +62,7 @@ Options:                            # Optional
 | [`Statement`](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/2 🪧 Statement.md>) | string | Main message,  to display in the [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)
 | [`MinValue`](<../../../../35 💬 Chats/🤔 Prompts/🤔✏️ Prompt input features/📋 Input validation.md>) | int | Optional minimum value
 | [`MaxValue`](<../../../../35 💬 Chats/🤔 Prompts/🤔✏️ Prompt input features/📋 Input validation.md>) | int | Optional maximum value
-| [`Appendix`](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/5 📎 with Appendix.md>)| uuid   | File to download via [`Download@Host`](<../Download 🧑‍🦰🚀🤗/🤗 Download 🚀 msg.md>)
+| [`Appendix`](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/5 📎 with Appendix.md>)| uuid   | File to download via [`Download@Host`](<../Download 🧑‍🦰🚀🤗/🤗 Download 🚀 request.md>)
 | [`Details`](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/3 ⊕ with Details.md>) | string | Extended [details](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/3 ⊕ with Details.md>) in Markdown format
 | [`Options`](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/4 🔘 with Options.md>) | object[]   | List of `Option` objects
 |
