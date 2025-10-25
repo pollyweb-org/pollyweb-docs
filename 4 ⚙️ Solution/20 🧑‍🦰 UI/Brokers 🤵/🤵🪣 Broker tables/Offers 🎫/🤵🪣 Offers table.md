@@ -2,12 +2,12 @@
 
 > Purpose: 
 * Stores [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
-    * offered by [`Offer@Broker`](<../../🤵🅰️ Broker methods/...for Tokens 🎫/Offer 🐌/🎴🐌🤵 Offer.md>) 
-    * but not yet saved by [`Saved@Broker`](<../../🤵🅰️ Broker methods/...for Tokens 🎫/Saved 🐌/🧑‍🦰🐌🤵 Saved.md>).
+    * offered by [`Offer@Broker`](<../../🤵🅰️ Broker methods/...for Tokens 🎫/Offer 🎴🐌🤵/Offer 🐌 msg.md>) 
+    * but not yet saved by [`Saved@Broker`](<../../🤵🅰️ Broker methods/...for Tokens 🎫/Saved 🧑‍🦰🐌🤵/🧑‍🦰🐌🤵 Saved.md>).
 
 > Written by:
-* [`Offer@Broker`](<../../🤵🅰️ Broker methods/...for Tokens 🎫/Offer 🐌/🎴🐌🤵 Offer.md>)
-* [`Saved@Broker`](<../../🤵🅰️ Broker methods/...for Tokens 🎫/Saved 🐌/🧑‍🦰🐌🤵 Saved.md>)
+* [`Offer@Broker`](<../../🤵🅰️ Broker methods/...for Tokens 🎫/Offer 🎴🐌🤵/Offer 🐌 msg.md>)
+* [`Saved@Broker`](<../../🤵🅰️ Broker methods/...for Tokens 🎫/Saved 🧑‍🦰🐌🤵/🧑‍🦰🐌🤵 Saved.md>)
 
 <br/>
 

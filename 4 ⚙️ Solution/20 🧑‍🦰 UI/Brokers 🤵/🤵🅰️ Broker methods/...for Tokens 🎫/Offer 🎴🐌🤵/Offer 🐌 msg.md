@@ -5,7 +5,7 @@
 
 > Part of the [`Save Token` 👉 flow](<../../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🎴 Save token.md>).
 
-> Implemented by the [`Offer` 📃 script](<.📎 Assets/Offer 📃 handler.md>)
+> Implemented by the [`Offer` 📃 script](<Offer 📃 handler.md>)
 
 > Purpose: 
 * An [Issuer 🎴 domain](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) 
