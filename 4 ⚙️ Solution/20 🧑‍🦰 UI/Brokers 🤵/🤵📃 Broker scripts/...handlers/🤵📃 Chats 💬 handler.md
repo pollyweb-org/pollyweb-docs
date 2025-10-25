@@ -1,6 +1,6 @@
 # 🤵📃 Chats 🚀 Broker
 
-> [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that implements the [`Chats@Broker` 🅰️ method](<../../🤵🅰️ Broker methods/3 ...for Chats 💬/🧑‍🦰🚀🤵 Chats.md>)
+> [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that implements the [`Chats@Broker` 🅰️ method](<../../🤵🅰️ Broker methods/3 ...for Chats 💬/Chats/🧑‍🦰🚀🤵 Chats.md>)
 
 
 <br/>
