@@ -1,6 +1,6 @@
 # 🤵📃 Pop handler
 
-> [Script 📃](<Pop 🅰️ method.md>) that implements the [`Pop@Broker` 🅰️ method](<Pop 🅰️ method.md>)
+> [Script 📃](<Pop 🐌 msg.md>) that implements the [`Pop@Broker` 🅰️ method](<Pop 🐌 msg.md>)
 
 <br/>
 

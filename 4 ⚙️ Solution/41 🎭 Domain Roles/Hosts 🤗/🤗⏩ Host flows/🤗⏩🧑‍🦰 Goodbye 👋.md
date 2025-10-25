@@ -42,7 +42,7 @@ The associated [Talker 😃](<../../../35 💬 Chats/😃 Talkers/😃 Talker ro
 
 | # | Call | Notes
 |-|-|-
-| 1 | [🤗🐌🤵 `Goodbye@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/3 ...for Chats 💬/Goodbye 🤗🐌🤵/Goodbye 🅰️ method.md>) | [Hosts 🤗](<../🤗🎭 Host role.md>) tell [Brokers 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) of [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) endings
+| 1 | [🤗🐌🤵 `Goodbye@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/3 ...for Chats 💬/Goodbye 🤗🐌🤵/Goodbye 🐌 msg.md>) | [Hosts 🤗](<../🤗🎭 Host role.md>) tell [Brokers 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) of [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) endings
 | 2 | [👀⏩🧑‍🦰 Advertise 👀](<../../../45 🤲 Helper domains/Advertisers 👀/👀⏩ Advertiser flows/👀⏩🧑‍🦰 Advertise.md>) | [Brokers 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) ask [Advertisers 👀](<../../../45 🤲 Helper domains/Advertisers 👀/👀🤲 Advertiser helper.md>) to advertise
 | 3 | [⭐⏩🧑‍🦰 Review ⭐](<../../../50 🫥 Agent domains/Reviewers ⭐/⏩ Reviewer flows/01 ⭐⏩🧑‍🦰 Review.md>) | [Brokers 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) ask [Reviewers ⭐](<../../../50 🫥 Agent domains/Reviewers ⭐/⭐🫥 Reviewer agent.md>) to review
 ||
