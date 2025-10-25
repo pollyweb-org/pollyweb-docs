@@ -1,31 +1,36 @@
 # 🤵📃 Update Binds
 
-[Script 📃](<../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that calls [`Updated@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/3 🤵🐌📣 Updated.md>) for the [`BINDS`](<../../../🤵🅰️ Broker methods/4 ...for Binds 🔗/Binds/🧑‍🦰🚀🤵 Binds.md>) command.
+[Script 📃](<../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that calls [`Updated@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/🤵🐌📣 Updated.md>) for the [`BINDS`](<../../../🤵🅰️ Broker methods/4 ...for Binds 🔗/Binds/🧑‍🦰🚀🤵 Binds.md>) command.
+
+<br/>
+
+## How to call
+```yaml
+RUN|UpdateBinds@Broker:
+    Wallet: <wallet-uuid>
+```
 
 <br/>
 
 ## Script
 
 ```yaml
-📃 UpdateBinds:
+📃 UpdateBinds@Broker:
 
 # Verify required inputs
 - ASSERT:
-    $:Wallet
+    AllOf: $:Wallet
+    UUIDs: $:Wallet
 
 # Notify Wallets to update Binds
-- SEND:
-    Header:
-        To: $wallet.Notifier
-        Subject: Updated@Notifier
-    Body:
-        Wallet: $wallet.Wallet
-        Updates: [ BINDS ]
+- RUN|Updated@Notifier:
+    Wallet: $:Wallet
+    Updates: [BINDS]
 ```
 
 
 Needs||
 |-|-
 | [Commands ⌘](<../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/Command ⌘.md>) | [`ASSERT`](<../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/ASSERT 🚦/ASSERT 🚦.md>) [`SEND`](<../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...messages 📨/SEND 📬 msg.md>)
-| [Messages 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Updated@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/3 🤵🐌📣 Updated.md>)
+| [Messages 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Updated@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/🤵🐌📣 Updated.md>)
 |

@@ -12,7 +12,7 @@
     * was stored locally on the device.
 
 > Part of the [`Save Token` ⏩ flow](<../../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🎴 Save token.md>):
-* triggered by [`Save@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>) message
+* triggered by [`Save@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/🤵🐌📣 Save.md>) message
 
 <br/>
 
@@ -33,11 +33,11 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From`|uuid | [Wallet 🧑‍🦰](<../../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  from [`Onboard@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
-||`To`|string| [Broker 🤵](<../../../🤵🤲 Broker helper.md>) from [`Onboard@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/1 🧑‍🦰🚀📣 Onboard.md>)
+|Header|`From`|uuid | [Wallet 🧑‍🦰](<../../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  from [`Onboard@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/🧑‍🦰🚀📣 Onboard.md>)
+||`To`|string| [Broker 🤵](<../../../🤵🤲 Broker helper.md>) from [`Onboard@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/1 🤵 Onboard/🧑‍🦰🚀📣 Onboard.md>)
 ||`Subject`|string|`Saved@Broker`
-|Body  |`Chat` |uuid  | [Chat 💬](<../../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Save@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
-|      |`Token` |uuid  | [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ID from [`Save@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
-|      |`Issuer`  |string| [Issuer 🎴](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) from [`Save@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
+|Body  |`Chat` |uuid  | [Chat 💬](<../../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Save@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/🤵🐌📣 Save.md>)
+|      |`Token` |uuid  | [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ID from [`Save@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/🤵🐌📣 Save.md>)
+|      |`Issuer`  |string| [Issuer 🎴](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) from [`Save@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/🤵🐌📣 Save.md>)
 |      |`Path`    |string| Path to the local file
 |

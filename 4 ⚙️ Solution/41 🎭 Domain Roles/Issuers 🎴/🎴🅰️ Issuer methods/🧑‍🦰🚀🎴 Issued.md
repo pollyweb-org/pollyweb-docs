@@ -33,9 +33,9 @@ Body:
 |Object |Property |Type|Description
 |-|-|-|-
 |Header | `From`  | string  | `Anonymous`
-|       | `To`    | string  | [Issuer 🎴](<../🎴🎭 Issuer role.md>) from [`Save@Notifier`](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
+|       | `To`    | string  | [Issuer 🎴](<../🎴🎭 Issuer role.md>) from [`Save@Notifier`](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/🤵🐌📣 Save.md>)
 ||`Subject`|string|`Token@Issuer` 
-| Body | `Hook`| string | `Hook` from [`Save@Notifier`](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/1 🤵🐌📣 Save.md>)
+| Body | `Hook`| string | `Hook` from [`Save@Notifier`](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/4 🎫 Tokens/🤵🐌📣 Save.md>)
 |
 
 <br/>

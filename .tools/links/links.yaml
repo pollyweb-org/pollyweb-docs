@@ -181,7 +181,7 @@ Successful Tests:
 
   - Given: '{{Updated@Notifier}}'
     LinkText: "`Updated@Notifier` 🅰️ method"
-    LinkFile: '👥🐌👂 Updated.md'
+    LinkFile: '🤵🐌📣 Updated.md'
     Reasons: same as "{{Parse@Hosted}}"
 
   - Given: '{{{.UUID}}}'
