@@ -1,6 +1,8 @@
 # 😃⏰ Talker `ALARM` command
 
-<!-- TODO -->
+> Implemented by the [`.ALARM` 📃 script](<../../😃📃 Talker scripts/...for methods 🤵/😃📃 .ALARM ⏰ script.md>)
+
+<br/>
 
 1. **What is an ALARM command?**
 
