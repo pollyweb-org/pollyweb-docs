@@ -35,28 +35,3 @@ Body:
 || `Language` | enum | ISO code from [`Translate@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/1 🤵🅰️ Wallets 🧑‍🦰/🧑‍🦰🐌🤵 Translate.md>)
 || `Bind` | uuid | [Bind 🔗 ID](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) from [`Bound@Vault`](<../to Bind/🤵🐌🗄️ Bound.md>)
 |
-
-<br/>
-
-## Handler
-
-```yaml
-# Verify the signature
-- VERIFY|$.Msg
-
-- EVAL|
-
-# Create the collect
-- SAVE|Collects@Vault >> $collect:
-    Collect: .UUID()
-    Consumer: $.Msg.From
-    Data: $data
-
-# Send the Collect message
-- SEND:
-    Header:
-        To: $collect.Consumer
-        Subject: Collect@Consumer
-    Body:
-        Collect: $collect.Collect
-```
