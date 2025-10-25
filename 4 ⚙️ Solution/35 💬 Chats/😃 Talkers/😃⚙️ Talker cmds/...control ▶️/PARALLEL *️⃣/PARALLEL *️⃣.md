@@ -61,7 +61,7 @@
 
     <br/>
 
-    Here's the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>)
+    Here's the [Script 📃](<../../...commands ⌘/Script 📃/Script 📃.md>)
 
     ```yaml
     - PARALLEL|[1,2,3]|$n:

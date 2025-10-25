@@ -43,7 +43,7 @@
 
     <br/>
 
-    Here's the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../...commands ⌘/Script 📃/Script 📃.md>).
 
     ```yaml
     # Talker

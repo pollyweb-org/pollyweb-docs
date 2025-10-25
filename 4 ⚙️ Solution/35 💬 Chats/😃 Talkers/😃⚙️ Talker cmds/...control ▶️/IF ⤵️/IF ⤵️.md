@@ -9,7 +9,7 @@
 
     An `IF` ⤵️
     * is a flow [Command ⌘](<../../...commands ⌘/Command ⌘/Command ⌘.md>)  
-    * that runs a [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) or [Command ⌘](<../../...commands ⌘/Command ⌘/Command ⌘.md>)
+    * that runs a [Script 📃](<../../...commands ⌘/Script 📃/Script 📃.md>) or [Command ⌘](<../../...commands ⌘/Command ⌘/Command ⌘.md>)
     * based on the evaluation of a placeholder or [{Function}](<../../...functions 🐍/{Function} 🐍.md>).
 
     ---
@@ -85,8 +85,8 @@
 
     | Argument| Purpose
     |-|-
-    | `<true-action>` | [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) or one-lin⌘ [Command ⌘](<../../...commands ⌘/Command ⌘/Command ⌘.md>) on `True`
-    | `<false-action>`| [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) or one-line [Command ⌘](<../../...commands ⌘/Command ⌘/Command ⌘.md>) on `False`
+    | `<true-action>` | [Script 📃](<../../...commands ⌘/Script 📃/Script 📃.md>) or one-lin⌘ [Command ⌘](<../../...commands ⌘/Command ⌘/Command ⌘.md>) on `True`
+    | `<false-action>`| [Script 📃](<../../...commands ⌘/Script 📃/Script 📃.md>) or one-line [Command ⌘](<../../...commands ⌘/Command ⌘/Command ⌘.md>) on `False`
 
     ---
     <br/>

@@ -28,7 +28,7 @@ Body:
 | Header    | `From`        | string    | [Talker 😃](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) from [`Delete@Itemizer`](<👥🚀🛢 Delete.md>)
 |           | `To`          | string    | [Itemizer 🛢](<../../🛢🤲 Itemizer helper.md>) from [`Delete@Itemizer`](<👥🚀🛢 Delete.md>)
 |           | `Subject`     | string    | `Undo@Itemizer`
-| Body    | `Script`     | string    | [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) for traceability
+| Body    | `Script`     | string    | [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/Script 📃.md>) for traceability
 |         | `Set`    | string  | `Set` from [`Delete@Itemizer`](<👥🚀🛢 Delete.md>) 
 |         | `Key`     | string[]  | `Key` from [`Delete@Itemizer`](<👥🚀🛢 Delete.md>)
 |

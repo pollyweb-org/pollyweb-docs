@@ -18,7 +18,7 @@
 
 1. **How to use a PARSE?**
 
-    Here's the [Script 📃](<../...commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../...commands ⌘/Script 📃/Script 📃.md>).
 
     ```yaml
     - KEYS >> $keys
