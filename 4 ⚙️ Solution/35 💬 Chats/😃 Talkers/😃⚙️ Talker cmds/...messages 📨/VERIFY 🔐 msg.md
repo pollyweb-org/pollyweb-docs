@@ -73,7 +73,7 @@
 
 1. **How do Brokers verify a message from a Wallet?**
 
-    Here's a [Talker 😃](<../../😃 Talker role.md>) excerpt from [Pop Vault @ Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/...for Chats 💬/Pop 🧑‍🦰🐌🤵/Pop 📃 Vault 🗄️ script.md>).
+    Here's a [Talker 😃](<../../😃 Talker role.md>) excerpt from [Pop Vault @ Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/🤵 Chats 💬 Pop 🧑‍🦰🐌🤵/🤵 Pop 📃 Vault 🗄️ script.md>).
 
     ```yaml
     # Get the WalletID from the message 
@@ -88,7 +88,7 @@
 
     | [Command ⌘](<../...commands ⌘/Command ⌘/Command ⌘.md>) | Purpose
     |-|-
-    | ⏬ [`GET`](<../...datasets 🪣/GET/GET ⏬ item.md>) | Get the Public Key of the [Wallet 🪣](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/Wallets 🧑‍🦰 table/🤵🪣 Wallets table.md>) in the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>).
+    | ⏬ [`GET`](<../...datasets 🪣/GET/GET ⏬ item.md>) | Get the Public Key of the [Wallet 🪣](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/🤵 Wallets 🧑‍🦰 table/🤵 Wallets 🪣 table.md>) in the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>).
 
     ---
     <br/>

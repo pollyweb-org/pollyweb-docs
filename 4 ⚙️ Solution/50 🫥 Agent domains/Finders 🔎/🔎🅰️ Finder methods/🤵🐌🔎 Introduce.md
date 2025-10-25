@@ -10,7 +10,7 @@
 > Used by 
 
 *  [🔎⏩🧑‍🦰 Introduce 🤗](<../🔎⏩ Finder flows/🔎⏩🧑‍🦰 Introduce 🤗.md>) flow:
-* followed by [`Introduced@Broker` 🅰️ method](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/...for Chats 💬/Introduced 🔎🐌🤵/Introduced 🐌 msg.md>)
+* followed by [`Introduced@Broker` 🅰️ method](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/🤵 Chats 💬 Introduced 🔎🐌🤵/🤵 Introduced 🐌 msg.md>)
 
 <br/>
 
@@ -30,8 +30,8 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header | `From`    | string | [Finder 🔎](<../🔎🫥 Finder agent.md>) register as user [Agent 🫥](<../../$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>) 
-|        | `To`      | string | [Broker 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) from [`Converse@Notifier`](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/...for Chats 💬 /🤵🐌📣 Converse.md>) |
+|        | `To`      | string | [Broker 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) from [`Converse@Notifier`](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/📣 Chats 💬 Converse 🤵🐌📣/Converse 📣 msg.md>) |
 |        | `Subject` | string | `Introduced@Broker`
-| Body   | `Chat`  | uuid   | [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) from [`Converse@Notifier`](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/...for Chats 💬 /🤵🐌📣 Converse.md>)
-|       | `Host`| string | [Host 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) from [`Converse@Notifier`](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/...for Chats 💬 /🤵🐌📣 Converse.md>)
+| Body   | `Chat`  | uuid   | [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) from [`Converse@Notifier`](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/📣 Chats 💬 Converse 🤵🐌📣/Converse 📣 msg.md>)
+|       | `Host`| string | [Host 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) from [`Converse@Notifier`](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/📣 Chats 💬 Converse 🤵🐌📣/Converse 📣 msg.md>)
 |

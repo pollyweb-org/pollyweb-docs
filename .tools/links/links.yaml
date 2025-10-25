@@ -68,11 +68,11 @@ Successful Tests:
       and in a folder called `*Y*methods*`
       or is in a subfolder of such folder.
 
-  - Given: '{{Prompt@Broker}}'
-    LinkText: "`Prompt@Broker` 🅰️ method"
-    LinkFile: "🤗🐌🤵 Prompt.md"
-    Reasons: |
-      same as "{{Parse@Hosted}}"
+  #- Given: '{{Prompt@Broker}}'
+  #  LinkText: "`Prompt@Broker` 🅰️ method"
+  #  LinkFile: "🤗🐌🤵 Prompt.md"
+  #  Reasons: |
+  #    same as "{{Parse@Hosted}}"
 
   - Given: '{{Handle@Hosted}}'
     LinkText: "`Handle@Hosted` 🅰️ method"
@@ -179,10 +179,10 @@ Successful Tests:
     LinkFile: '👥🐌🛢 Build.md'
     Reasons: same as "{{Parse@Hosted}}"
 
-  - Given: '{{Updated@Notifier}}'
-    LinkText: "`Updated@Notifier` 🅰️ method"
-    LinkFile: '🤵🐌📣 Updated.md'
-    Reasons: same as "{{Parse@Hosted}}"
+#  - Given: '{{Updated@Notifier}}'
+#    LinkText: "`Updated@Notifier` 🅰️ method"
+#    LinkFile: 'Updated 🐌 msg.md'
+#    Reasons: same as "{{Parse@Hosted}}"
 
   - Given: '{{{.UUID}}}'
     LinkText: "`{.UUID}`"

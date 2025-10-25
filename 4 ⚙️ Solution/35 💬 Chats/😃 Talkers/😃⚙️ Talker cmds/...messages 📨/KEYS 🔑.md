@@ -2,7 +2,7 @@
 
 > Part of [Talker 😃](<../../😃 Talker role.md>)
 
-> Used by [🤵⏩🧑‍🦰 Converse 💬](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵⏩ Broker flows/Converse 🤵⏩💬/Converse ⏩ flow.md>)
+> Used by [🤵⏩🧑‍🦰 Converse 💬](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵⏩ Broker flows/🤵 Converse 🤵⏩💬/Converse ⏩ flow.md>)
 
 <br/>
 

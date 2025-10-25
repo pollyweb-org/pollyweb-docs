@@ -28,10 +28,10 @@
 
 | # | Call | Notes
 |-|-|-
-| 1 | [🧑‍🦰🐌🤵 `Join@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/...for Chats 💬/Join 🧑‍🦰🐌🤵/Join 🐌 msg.md>)| Call the [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) in a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)  with a [Host 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) 
+| 1 | [🧑‍🦰🐌🤵 `Join@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/🤵 Chats 💬 Join 🧑‍🦰🐌🤵/🤵 Join 🐌 msg.md>)| Call the [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) in a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)  with a [Host 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) 
 | 2 | [🤗⏩🧑‍🦰 Prompt 🤔](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | Ask the [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) to abandon the [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) 
 | 3 | [🤵🐌🤗 `Abandoned@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🤵🐌🤗 Abandoned.md>) | [Brokers 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) inform  [Hosts 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) about it
-| 4 | [🤵⏩🧑‍🦰 Update Chats 💬](<../../../Brokers 🤵/🤵⏩ Broker flows/Update Chats 🤵⏩💬/Update Chats ⏩ flow.md>) | [Brokers 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) asks  [Wallets 🧑‍🦰](<../../🧑‍🦰🛠️ Wallet app.md>) to refresh the list
+| 4 | [🤵⏩🧑‍🦰 Update Chats 💬](<../../../Brokers 🤵/🤵⏩ Broker flows/🤵 Update Chats 🤵⏩💬/Update Chats ⏩ flow.md>) | [Brokers 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) asks  [Wallets 🧑‍🦰](<../../🧑‍🦰🛠️ Wallet app.md>) to refresh the list
 |
 
 <br/>
