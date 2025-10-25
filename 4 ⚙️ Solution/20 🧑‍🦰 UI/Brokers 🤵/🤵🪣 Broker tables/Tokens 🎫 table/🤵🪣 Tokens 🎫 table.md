@@ -2,7 +2,7 @@
 
 > Purpose:
 * Stores [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
-    * initially stored in [`Offers` 🪣 table](<../Offers 🎫/🤵🪣 Offers table.md>)
+    * initially stored in [`Offers` 🪣 table](<../Offers 🎫 table/🤵🪣 Offers table.md>)
     * by the [`Offer@Broker`](<../../🤵🅰️ Broker methods/...for Tokens 🎫/Offer 🎴🐌🤵/Offer 🐌 msg.md>) method
     * then later saved by the [`Saved@Broker`](<../../🤵🅰️ Broker methods/...for Tokens 🎫/Saved 🧑‍🦰🐌🤵/Saved 🐌 msg.md>) method
 
@@ -30,8 +30,8 @@ Parents:
 
 | Link | Table | Stores
 |-|-|-
-| Parent    | [`Wallets` 🪣](<../Wallets/🤵🪣 Wallets table.md>) | [Wallets 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) |
-|           | [`Domains` 🪣](<../Domains/🤵🪣 Domains table.md>) | [domains 👥](<../../../../40 👥 Domains/👥 Domain.md>)
+| Parent    | [`Wallets` 🪣](<../Wallets 🧑‍🦰 table/🤵🪣 Wallets table.md>) | [Wallets 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) |
+|           | [`Domains` 🪣](<../Domains table/🤵🪣 Domains table.md>) | [domains 👥](<../../../../40 👥 Domains/👥 Domain.md>)
 |
 
 <br/>
