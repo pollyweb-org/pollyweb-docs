@@ -5,7 +5,7 @@
 
 > Part of the [🧑‍🦰👉🗄️ Unbind @ Wallet](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Vaults 🗄️/💬🤵 Unbind 🗄️.md>) flow.
 
-> Implemented by the [`Unbound` 📃 handler](<../../🗄️📃 Vault scripts/🗄️📃 Unbound handler.md>)
+> Implemented by the [`Unbound` 📃 handler](<🗄️📃 Unbound handler.md>)
 
 > Purpose
 
@@ -32,9 +32,9 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header| `From` | string | [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) from [`Bound@Vault`](<🤵🐌🗄️ Bound.md>)
-|| `To` | string | [Vault 🗄️](<../../🗄️🎭 Vault role.md>) from [`Bound@Vault`](<🤵🐌🗄️ Bound.md>)
+|Header| `From` | string | [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) from [`Bound@Vault`](<../Bound/🤵🐌🗄️ Bound.md>)
+|| `To` | string | [Vault 🗄️](<../../🗄️🎭 Vault role.md>) from [`Bound@Vault`](<../Bound/🤵🐌🗄️ Bound.md>)
 || `Subject` | string | `Unbound@Vault`
-|Body| `Bind`| uuid | [Bind 🔗 ID](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)  from [`Bound@Vault`](<🤵🐌🗄️ Bound.md>)
+|Body| `Bind`| uuid | [Bind 🔗 ID](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)  from [`Bound@Vault`](<../Bound/🤵🐌🗄️ Bound.md>)
 |
 

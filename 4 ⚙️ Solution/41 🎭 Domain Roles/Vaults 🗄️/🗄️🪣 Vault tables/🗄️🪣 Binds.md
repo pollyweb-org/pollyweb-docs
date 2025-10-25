@@ -1,6 +1,6 @@
 # 🪣 Binds
 
-> Stores the content of [`Bound@Broker`](<../🗄️🅰️ Vault methods/to Bind/🤵🐌🗄️ Bound.md>)
+> Stores the content of [`Bound@Broker`](<../🗄️🅰️ Vault methods/Bound/🤵🐌🗄️ Bound.md>)
 
 <br/>
 
@@ -18,9 +18,9 @@ User: <user-reference>
 
 | Property | Type | Details
 |-|-|-
-| `Broker` | string | From [`Bound@Broker`](<../🗄️🅰️ Vault methods/to Bind/🤵🐌🗄️ Bound.md>)
-| `Bind`| uuid | From [`Bound@Broker`](<../🗄️🅰️ Vault methods/to Bind/🤵🐌🗄️ Bound.md>)
-| `Schema` | string | From [`Bound@Broker`](<../🗄️🅰️ Vault methods/to Bind/🤵🐌🗄️ Bound.md>)
+| `Broker` | string | From [`Bound@Broker`](<../🗄️🅰️ Vault methods/Bound/🤵🐌🗄️ Bound.md>)
+| `Bind`| uuid | From [`Bound@Broker`](<../🗄️🅰️ Vault methods/Bound/🤵🐌🗄️ Bound.md>)
+| `Schema` | string | From [`Bound@Broker`](<../🗄️🅰️ Vault methods/Bound/🤵🐌🗄️ Bound.md>)
 | `User` | any | Internal anchor
 | 
 

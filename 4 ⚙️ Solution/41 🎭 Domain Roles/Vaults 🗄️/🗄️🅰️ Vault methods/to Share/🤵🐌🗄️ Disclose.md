@@ -27,11 +27,11 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header| `From` | string | [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) from [`Bound@Vault`](<../to Bind/🤵🐌🗄️ Bound.md>)
-|| `To` | string | [Vault 🗄️](<../../🗄️🎭 Vault role.md>) from [`Bound@Vault`](<../to Bind/🤵🐌🗄️ Bound.md>)
+| Header| `From` | string | [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) from [`Bound@Vault`](<../Bound/🤵🐌🗄️ Bound.md>)
+|| `To` | string | [Vault 🗄️](<../../🗄️🎭 Vault role.md>) from [`Bound@Vault`](<../Bound/🤵🐌🗄️ Bound.md>)
 || `Subject` | string | `Disclose@Vault`
 |Body| `Chat`| uuid | [Chat 💬 ID](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)  from [`Query@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Query.md>)
 || `Consumer` | string | [Consumer 💼](<../../../Consumers 💼/💼🎭 Consumer role.md>) from [`Query@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/6 🤵🅰️ Share/💼🐌🤵 Query.md>)
 || `Language` | enum | ISO code from [`Translate@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/1 🤵🅰️ Wallets 🧑‍🦰/🧑‍🦰🐌🤵 Translate.md>)
-|| `Bind` | uuid | [Bind 🔗 ID](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) from [`Bound@Vault`](<../to Bind/🤵🐌🗄️ Bound.md>)
+|| `Bind` | uuid | [Bind 🔗 ID](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) from [`Bound@Vault`](<../Bound/🤵🐌🗄️ Bound.md>)
 |
