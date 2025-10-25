@@ -2,7 +2,7 @@
 
 > Stores details on [Host 🤗 domains](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>).
 
-> Inserted by [`Converse` 📃 script](<../🤵📃 Broker scripts/...procedures/🤵📃 Converse ⏩.md>)
+> Inserted by [`Converse` 📃 script](<../🤵⏩ Broker flows/Converse 💬/.📎 Assets/Converse 📃 script.md>)
 
 
 
