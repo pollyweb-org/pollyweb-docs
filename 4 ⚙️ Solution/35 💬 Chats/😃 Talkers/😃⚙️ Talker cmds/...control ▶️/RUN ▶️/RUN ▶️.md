@@ -17,11 +17,23 @@
 1. **What's the RUN syntax?**
 
     ```yaml
-    # Simplest
+    # Simplest in-line
     - RUN|<script>
 
-    # Comprehensive
-    - RUN|<script>($arg-1, $arg-n) >> $return:
+    # Simplest multi-line
+    - RUN:
+        <script>
+
+    # In batch
+    - RUN:
+        - <script-1>
+        - <script-n>
+
+    # Comprehensive in line args
+    - RUN|<script>($arg-1, $arg-n) >> $return
+
+    # Comprehensive appended args
+    - RUN|<script> >> $return:
         {args}
     ```
 
