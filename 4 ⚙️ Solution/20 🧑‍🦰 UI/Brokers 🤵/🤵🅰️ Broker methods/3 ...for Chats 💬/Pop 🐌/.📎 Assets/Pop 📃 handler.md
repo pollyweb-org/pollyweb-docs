@@ -46,6 +46,6 @@ Commands: [`ASSERT`](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Ta
 
 | Scripts | Details
 |-|-
-| [▶️ `PopToken`](<../../../../🤵📃 Broker scripts/...procedures/🤵📃 Pop Token 🎫 script.md>) | Implements [🧑‍🦰💬🤵 Remove Token 🎫](<../../../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Tokens 🎫/💬🤵 Remove 🎫 chat.md>)
-| [▶️ `PopVault`](<../../../../🤵📃 Broker scripts/...procedures/🤵📃 Pop Vault 🗄️ script.md>) | Implements [🧑‍🦰💬🤵 Unbind Vault](<../../../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Vaults 🗄️/💬🤵 Unbind 🗄️ chat.md>)
+| [▶️ `PopToken`](<Pop Token 🎫 script.md>) | Implements [🧑‍🦰💬🤵 Remove Token 🎫](<../../../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Tokens 🎫/💬🤵 Remove 🎫 chat.md>)
+| [▶️ `PopVault`](<Pop Vault 🗄️ script.md>) | Implements [🧑‍🦰💬🤵 Unbind Vault](<../../../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Vaults 🗄️/💬🤵 Unbind 🗄️ chat.md>)
 |
