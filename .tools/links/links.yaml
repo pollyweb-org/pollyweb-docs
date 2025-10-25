@@ -196,10 +196,15 @@ Successful Tests:
     LinkFile: "Command ⌘.md"
     Reasons: This is hardcoded.
 
-  - Given: '{{Placeholders table}}' 
-    LinkText: '`Placeholders` 🪣 table'
-    LinkFile: '😃🪣 Placeholders 🧠 table.md'
+  - Given: '{{Hooks table}}' 
+    LinkText: '`Hooks` 🪣 table'
+    LinkFile: '😃🪣 Hooks 🪝 table.md'
     Reasons:
       It's under a "*tables*" folder,
       the file name contains the emoji "🪣",
       and the file name ends with "table.md".
+
+  - Given: '{{Holders table}}' 
+    LinkText: '`Holders` 🪣 table'
+    LinkFile: '😃🪣 Holders 🧠 table.md'
+    Reasons: same as {{Hooks table}}.

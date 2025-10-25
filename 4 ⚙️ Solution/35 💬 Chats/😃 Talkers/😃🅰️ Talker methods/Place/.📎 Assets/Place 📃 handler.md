@@ -35,5 +35,5 @@
 Needs||
 |-|-
 | [Commands ⌘](<../../../😃⚙️ Talker cmds/...commands ⌘/Command ⌘/Command ⌘.md>) | [`DIFF`](<../../../😃⚙️ Talker cmds/...placeholders 🧠/DIFF/DIFF 🆚.md>) [`GET`](<../../../😃⚙️ Talker cmds/...datasets 🪣/GET/GET ⏬ item.md>) [`SAVE`](<../../../😃⚙️ Talker cmds/...datasets 🪣/SAVE/SAVE 💾 item.md>)
-| [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Placeholders` 🪣 table](<../../../😃🪣 Talker tables/😃🪣 Placeholders 🧠 table.md>)
+| [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Placeholders` 🪣 table](<../../../😃🪣 Talker tables/😃🪣 Holders 🧠 table.md>)
 | 
