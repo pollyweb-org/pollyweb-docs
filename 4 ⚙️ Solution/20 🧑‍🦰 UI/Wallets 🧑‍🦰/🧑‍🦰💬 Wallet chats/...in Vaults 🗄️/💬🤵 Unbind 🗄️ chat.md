@@ -35,7 +35,7 @@
 
 | # | Call | Notes
 |-|-|-
-| 1 | [🧑‍🦰🐌🤵 `Pop@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/3 ...for Chats 💬/Pop/🧑‍🦰🐌🤵 Pop.md>) | Call the [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) in a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)  with a [Host 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) 
+| 1 | [🧑‍🦰🐌🤵 `Pop@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/3 ...for Chats 💬/Pop 🐌/🧑‍🦰🐌🤵 Pop.md>) | Call the [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) in a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)  with a [Host 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) 
 | 2 | [🤗⏩🧑‍🦰 `Prompt@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | Ask the [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) to remove the  [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
 | 3 | [🤵⏩🧑‍🦰 Update Binds 🔗](<../../../Brokers 🤵/🤵⏩ Broker flows/Update Binds 🔗/🤵⏩🧑‍🦰 Update Binds 🔗.md>) | Asks the [Wallet 🧑‍🦰](<../../🧑‍🦰🛠️ Wallet app.md>) to update the [Binds 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
 | 4 | [🤵🐌🗄️ `Unbound@Vault`](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Unbound/🤵🐌🗄️ Unbound.md>) | The [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) unbinds and informs the [Vault 🗄️](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)

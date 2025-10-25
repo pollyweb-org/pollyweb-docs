@@ -4,7 +4,7 @@
 
 > [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that implements [`Remove Token` 🎫 flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Tokens 🎫/💬🤵 Remove 🎫 chat.md>)
 
-> Called by [`Pop@Broker` 🅰️ method](<../../🤵🅰️ Broker methods/3 ...for Chats 💬/Pop/🧑‍🦰🐌🤵 Pop.md>)
+> Called by [`Pop@Broker` 🅰️ method](<../../🤵🅰️ Broker methods/3 ...for Chats 💬/Pop 🐌/🧑‍🦰🐌🤵 Pop.md>)
 
 
 <br/>
