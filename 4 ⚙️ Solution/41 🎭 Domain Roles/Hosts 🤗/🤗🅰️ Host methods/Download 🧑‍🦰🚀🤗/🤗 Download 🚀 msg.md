@@ -10,7 +10,7 @@
 
 > Signature of the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>):
 > <br>• signed with the `PrivateKey` from [`Converse@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Converse 🤵🐌📣/📣 Converse 📣 msg.md>)
-> <br>• verified with the `PublicKey` from [`Hello@Host`](<../🤵🐌🤗 Hello/🤗 Hello 🐌 msg.md>)
+> <br>• verified with the `PublicKey` from [`Hello@Host`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 
 
 <br/>
@@ -35,7 +35,7 @@ Body:
 |           | `To`          | string    | [Sender 🤗](<../../🤗🎭 Host role.md>) from [`Prompt@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Prompt 🤵🐌📣/📣 Prompt 🐌 msg.md>)
 |           | `Subject`     | string    | `Prompted@Host`
 | Body      | `Chat` | uuid | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Prompt@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Prompt 🤵🐌📣/📣 Prompt 🐌 msg.md>)
-|| `File`    | uuid      | [Appendix 📎](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/5 📎 with Appendix.md>) from [`Prompted@Host`](<../🧑‍🦰🚀🤗 Prompted/🧑‍🦰🚀🤗 Prompted.md>)
+|| `File`    | uuid      | [Appendix 📎](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/5 📎 with Appendix.md>) from [`Prompted@Host`](<../Prompted 🧑‍🦰🚀🤗/🧑‍🦰🚀🤗 Prompted.md>)
 |
 
 <br/>

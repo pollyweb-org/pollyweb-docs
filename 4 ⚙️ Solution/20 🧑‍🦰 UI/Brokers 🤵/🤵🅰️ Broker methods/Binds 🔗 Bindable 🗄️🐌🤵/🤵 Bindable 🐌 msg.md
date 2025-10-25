@@ -32,9 +32,9 @@ Body:
 | Object | Property | Type  | Description
 |-|-|-|-
 | Header    | `From`| string  |  [Vault 🗄️ domain](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) name
-|           | `To`  | string| [Broker 🤵](<../../🤵🤲 Broker helper.md>) from [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🤵🐌🤗 Hello/🤗 Hello 🐌 msg.md>)
+|           | `To`  | string| [Broker 🤵](<../../🤵🤲 Broker helper.md>) from [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 |           | `Subject`| string|  `Bindable@Broker`
-| Body  | `Chat`| uuid | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) from [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🤵🐌🤗 Hello/🤗 Hello 🐌 msg.md>)
+| Body  | `Chat`| uuid | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) from [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 | | `Hook`| uuid | [Hook 🪝](<../../../../35 💬 Chats/😃 Talkers/😃🪣 Talker tables/😃🪣 Hooks 🪝 table.md>) for [`Bound@Vault`](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Bound/🤵🐌🗄️ Bound.md>)
 | | `Schemas`| string[] | List of [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 |

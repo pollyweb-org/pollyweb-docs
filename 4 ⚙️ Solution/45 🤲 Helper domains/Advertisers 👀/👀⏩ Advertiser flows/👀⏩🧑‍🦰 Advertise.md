@@ -12,7 +12,7 @@
 | # | Call | Notes
 |-|-|-
 | 1 | [🤵🐌👀 Advertise @ Advertiser](<../👀🅰️ Advertiser methods/🤵🐌👀 Advertise.md>) | [Brokers 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) initiate the advertising with user context
-| 2 | [🤵🐌🤗 Summarize @ Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🤵🐌🤗 Summarize/🤗 Summarize 🐌 msg.md>) | Then ask [Hosts 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) to summarize the [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>)
+| 2 | [🤵🐌🤗 Summarize @ Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Summarize 🤵🐌🤗/🤗 Summarize 🐌 msg.md>) | Then ask [Hosts 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) to summarize the [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>)
 | 3 | [🤗🐌👀 Summarized @ Advertiser](<../👀🅰️ Advertiser methods/🤗🐌👀 Summarized.md>) | [Hosts 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) notify [Advertisers 👀](<../👀🤲 Advertiser helper.md>) when summarized
 | 4 | [🤗🐌🧚 Anonymize @ Curator](<../../../50 🫥 Agent domains/Curators 🧚/🧚🅰️ Curator methods/🤗🐌🧚 Anonymize.md>) | Then ask [Curators 🧚](<../../../50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) to anonymize the summary
 | 5 | [🧚🐌👀 Anonymized @ Advertiser](<../👀🅰️ Advertiser methods/🧚🐌👀 Anonymized.md>) | [Curators 🧚](<../../../50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) add anonymized summaries to context

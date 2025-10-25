@@ -7,7 +7,7 @@
 > Signature of the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>)
 
 * signed with the `PrivateKey` from [`Converse@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Converse 🤵🐌📣/📣 Converse 📣 msg.md>)
-*  verified with the `PublicKey` from [`Hello@Host`](<../🤵🐌🤗 Hello/🤗 Hello 🐌 msg.md>)
+*  verified with the `PublicKey` from [`Hello@Host`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 
 > Purpose
 * Downloads the content of a [Prompt 🤔](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>).
@@ -62,7 +62,7 @@ Options:                            # Optional
 | [`Statement`](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/2 🪧 Statement.md>) | string | Main message,  to display in the [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)
 | [`MinValue`](<../../../../35 💬 Chats/🤔 Prompts/🤔✏️ Prompt input features/📋 Input validation.md>) | int | Optional minimum value
 | [`MaxValue`](<../../../../35 💬 Chats/🤔 Prompts/🤔✏️ Prompt input features/📋 Input validation.md>) | int | Optional maximum value
-| [`Appendix`](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/5 📎 with Appendix.md>)| uuid   | File to download via [`Download@Host`](<../🧑‍🦰🚀🤗 Download/🤗 Download 🚀 msg.md>)
+| [`Appendix`](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/5 📎 with Appendix.md>)| uuid   | File to download via [`Download@Host`](<../Download 🧑‍🦰🚀🤗/🤗 Download 🚀 msg.md>)
 | [`Details`](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/3 ⊕ with Details.md>) | string | Extended [details](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/3 ⊕ with Details.md>) in Markdown format
 | [`Options`](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/4 🔘 with Options.md>) | object[]   | List of `Option` objects
 |
@@ -71,7 +71,7 @@ Options:                            # Optional
 
 |Property|Type|Description
 |-|-|-
-| `ID`          | string  | ID of the [option](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/4 🔘 with Options.md>) for [`Reply@Host`](<../🧑‍🦰🐌🤗 Reply/🤗 Reply 🐌 msg.md>)
+| `ID`          | string  | ID of the [option](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/4 🔘 with Options.md>) for [`Reply@Host`](<../Reply 🧑‍🦰🐌🤗/🤗 Reply 🐌 msg.md>)
 | `Title` | string  | Text of the [option](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/4 🔘 with Options.md>) to be displayed
 | `Locator` | string | Optional [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to [Assess ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🤗 Click locator 🔆.md>)
 |
