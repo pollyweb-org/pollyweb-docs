@@ -61,7 +61,7 @@
     * `.Placeholders.Set('$p', new_value)` 
 
     In a [Talker 😃](<../../😃 Talker role.md>) script, use `>>` to send a value to a $placeholder:
-    * `TEXT|bla >> $p` writes the answer to a [`TEXT` 🔠 input](<../../../🤔 Prompts/🤔✏️ Prompt inputs/TEXT 🔠 prompt.md>).
+    * `TEXT|bla >> $p` writes the answer to a [`TEXT` 🔠 input](<../../../🤔 Prompts/🤔✏️ Prompt inputs/TEXT 🔠/TEXT 🔠 prompt.md>).
     * `EVAL|f >> $p` writes the return of a [{Function}](<../...functions 🐍/{Function} 🐍.md>) named `f`.
 
     You can also push data structures with [`EVAL` ⬇️](<EVAL ⬇️ flow.md>).
