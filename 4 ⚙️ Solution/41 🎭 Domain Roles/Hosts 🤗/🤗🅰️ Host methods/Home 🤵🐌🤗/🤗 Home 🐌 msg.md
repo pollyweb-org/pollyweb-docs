@@ -54,5 +54,5 @@ Body:
 |Header|`From`|string | [Broker 🤵 domain](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) name
 ||`To`|string| [Host 🤗 domain](<../../🤗🎭 Host role.md>) name
 ||`Subject`|string|`Home@Host`
-|Body  |`Chat`   |uuid  | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Hello@Host`](<../🤵🐌🤗 Hello/🤗 Hello 🐌 msg.md>)
+|Body  |`Chat`   |uuid  | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Hello@Host`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 |

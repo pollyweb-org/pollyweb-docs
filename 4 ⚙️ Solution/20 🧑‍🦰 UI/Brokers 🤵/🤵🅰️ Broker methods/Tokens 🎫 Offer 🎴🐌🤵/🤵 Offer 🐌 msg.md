@@ -37,7 +37,7 @@ Body:
 |Header|`From`|string | [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) name
 ||`To`|string| [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) name
 ||`Subject`|string|`Offer@Broker`
-|Body  |`Chat` |uuid  | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/🤵🐌🤗 Hello/🤗 Hello 🐌 msg.md>)
+|Body  |`Chat` |uuid  | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 | |`Hook` |uuid  | Hook for [`Issued@`](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/🧑‍🦰🚀🎴 Issued.md>) [`Accepted@`](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/🤵🐌🎴 Accepted.md>)
 |      |`Schema`   |string| [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) of the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)     
 |      |`Starts` |timestamp| [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) valid from
