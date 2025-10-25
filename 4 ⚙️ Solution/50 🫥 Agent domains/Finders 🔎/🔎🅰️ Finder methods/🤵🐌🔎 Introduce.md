@@ -10,7 +10,7 @@
 > Used by 
 
 *  [🔎⏩🧑‍🦰 Introduce 🤗](<../🔎⏩ Finder flows/🔎⏩🧑‍🦰 Introduce 🤗.md>) flow:
-* followed by [`Introduced@Broker` 🅰️ method](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/3 ...for Chats 💬/Introduced 🔎🐌🤵/Introduced 🅰️ method.md>)
+* followed by [`Introduced@Broker` 🅰️ method](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/3 ...for Chats 💬/Introduced 🔎🐌🤵/Introduced 🐌 msg.md>)
 
 <br/>
 
