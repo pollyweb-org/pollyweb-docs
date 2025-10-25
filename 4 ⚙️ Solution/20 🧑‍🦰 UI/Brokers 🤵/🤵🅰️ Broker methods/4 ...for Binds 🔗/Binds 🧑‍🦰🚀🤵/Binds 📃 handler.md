@@ -1,6 +1,6 @@
 # 🤵📃 Binds 🔗
 
-> [Script 📃](<🧑‍🦰🚀🤵 Binds.md>) that handles the [`Binds@Broker` 🅰️ method](<🧑‍🦰🚀🤵 Binds.md>)
+> [Script 📃](<Binds 🚀 request.md>) that handles the [`Binds@Broker` 🅰️ method](<Binds 🚀 request.md>)
 
 <br/>
 
