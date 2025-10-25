@@ -1,6 +1,6 @@
 # 🤵📃 Translate 
 
-[Script 📃](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that implements the [`Translate@Broker`](<../🧑‍🦰🐌🤵 Translate.md>) method.
+[Script 📃](<../../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that implements the [`Translate@Broker`](<../🧑‍🦰🐌🤵 Language.md>) method.
 
 ## Script
 
