@@ -7,6 +7,13 @@
 ```yaml
 📃 Prompt@Host:
 
+# Assert inputs:
+- ASSERT:
+    AllOf: $:Statement, $:Format
+    Texts: $:Statement, $:Details
+    Lists: $:Options
+    UUIDs: $:Appendix  
+
 # Save the prompt.
 - SAVE|Prompts@Host >> $prompt:
     Prompt: .UUID
@@ -24,7 +31,7 @@
     Subject: Prompt@Broker
     Chat: $.Chat.Chat
     Prompt: $saved.Prompt
-    Expires: .Add(.Now, 1 minute)
+    Expires: .Add(.Now, 5 minute)
 
 # TODO: Wait for what?
 - WAIT
