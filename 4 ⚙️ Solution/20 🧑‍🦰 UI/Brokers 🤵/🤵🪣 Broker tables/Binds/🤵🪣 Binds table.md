@@ -1,4 +1,4 @@
-# 🤵🪣 Binds
+# 🤵🪣 Binds @ Broker table
 
 > Stores [Binds 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
 

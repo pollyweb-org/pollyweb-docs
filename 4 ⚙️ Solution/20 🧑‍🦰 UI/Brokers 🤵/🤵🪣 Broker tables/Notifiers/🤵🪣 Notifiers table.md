@@ -1,4 +1,4 @@
-# 🤵🪣 Notifiers
+# 🤵🪣 Notifiers @ Broker table
 
 > Contains [Notifier 📣 domains](<../../../Notifiers 📣/📣👥 Notifier domain.md>)
 
