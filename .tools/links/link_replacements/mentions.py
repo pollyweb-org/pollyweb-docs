@@ -96,8 +96,10 @@ def find_dynamic_target(token: str, file_dict: dict[str, List[tuple[str, str]]])
 
 
 def format_dynamic_link_text(token: str, *, triple_brace: bool = False) -> str:
-    if token == "Placeholders table":
-        return "`Placeholders` 🪣 table"
+    if token.lower().endswith(" table"):
+        core = token[: -len(" table")].strip()
+        if core:
+            return f"`{core}` 🪣 table"
     if token.endswith(" script"):
         core = token[: -len(" script")].strip()
         if core:
