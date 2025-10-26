@@ -1,6 +1,12 @@
 # 🪣 Collects
 
-> Stores the hooks for [`Collect@Vault`](<../../🗄️🅰️ Vault methods/Collect 💼🚀🗄️/🗄️ Collect 🚀 request.md>)
+> Purpose
+* Stores the hooks for [`Collect@Vault`](<../../🗄️🅰️ Vault methods/Collect 💼🚀🗄️/🗄️ Collect 🚀 request.md>)
+
+> Data Access
+
+* Inserted by {{Disclose@Vault}}
+* Read by [`Collect@Vault`](<../../../Payers/💳🅰️ Payer methods/🏦🐌💳 Collect.md>)
 
 <br/>
 
