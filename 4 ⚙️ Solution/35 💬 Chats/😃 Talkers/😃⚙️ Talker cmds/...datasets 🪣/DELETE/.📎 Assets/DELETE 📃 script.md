@@ -2,7 +2,7 @@
 
 > Implements the [`DELETE`](<../DELETE 🗑️ item.md>) command
 
-> Invokes the [`Delete@Itemizer` 🅰️ method](<../../../../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete/👥🚀🛢 Delete.md>)
+> Invokes the [`Delete@Itemizer` 🅰️ method](<../../../../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete/🛢 Delete 🚀 request.md>)
 
 
 ## How to call
@@ -55,6 +55,6 @@ RETURN|$deleted
 Needs||
 |-|-
 | [Commands ⌘](<../../../...commands ⌘/Command ⌘/Command ⌘.md>) | [`ASSERT`](<../../../...placeholders 🧠/ASSERT 🚦/ASSERT 🚦.md>) [`SEND`](<../../../...messages 📨/SEND 📬 msg.md>) [`RETURN`](<../../../...control ▶️/RETURN ⤴️/RETURN ⤴️.md>) [`RUN`](<../../../...control ▶️/RUN ▶️/RUN ▶️.md>)
-| [Messages 📨](<../../../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Delete@Itemizer`](<../../../../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete/👥🚀🛢 Delete.md>)
+| [Messages 📨](<../../../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Delete@Itemizer`](<../../../../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete/🛢 Delete 🚀 request.md>)
 | [Placeholders 🧠](<../../../...placeholders 🧠/$Placeholder 🧠.md>) | [`$.Settings`](<../../../...messages 📨/$.Settings 🎛️.md>)
 |

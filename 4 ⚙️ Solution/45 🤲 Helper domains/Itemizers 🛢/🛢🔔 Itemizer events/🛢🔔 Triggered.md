@@ -6,7 +6,7 @@
     * notifies a [Talker 😃 domain](<../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) 
     * that an [Itemized 🛢 dataset](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) item has expired 
     * after being deleted with an [`UNDO`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/UNDO/UNDO ↩️.md>) possibility
-    * via the [`Delete@Itemizer`](<../🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete/👥🚀🛢 Delete.md>) method.
+    * via the [`Delete@Itemizer`](<../🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete/🛢 Delete 🚀 request.md>) method.
 
 <br/>
 
@@ -33,12 +33,12 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header    | `From`        | string    | [Itemizer 🛢](<../🛢🤲 Itemizer helper.md>) from [`Delete@Itemizer`](<../🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete/👥🚀🛢 Delete.md>)
-|           | `To`          | string    | [Talker 😃](<../🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete/👥🚀🛢 Delete.md>)
+| Header    | `From`        | string    | [Itemizer 🛢](<../🛢🤲 Itemizer helper.md>) from [`Delete@Itemizer`](<../🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete/🛢 Delete 🚀 request.md>)
+|           | `To`          | string    | [Talker 😃](<../🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete/🛢 Delete 🚀 request.md>)
 |           | `Subject`     | string    | `Triggered@Talker`
 | Body      | `Trigger`| enum | See [Itemized 🪣 dataset](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) triggers
 || `Handler`     | string    | Handler from [`Build@Itemizer`](<../🛢🅰️ Itemizer methods/...for Tables/Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
-|           | `Item`        | object    | [Item 🛢](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) from [`Delete@Itemizer`](<../🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete/👥🚀🛢 Delete.md>)
+|           | `Item`        | object    | [Item 🛢](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) from [`Delete@Itemizer`](<../🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete/🛢 Delete 🚀 request.md>)
 |           | `Changes`     | object    | Old values of changed properties
 |
 
