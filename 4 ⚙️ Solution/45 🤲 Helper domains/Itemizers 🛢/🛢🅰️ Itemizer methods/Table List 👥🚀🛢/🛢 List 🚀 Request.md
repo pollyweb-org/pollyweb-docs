@@ -2,7 +2,7 @@
 
 # 👥🚀🛢 List
 
-> Part of [Itemizer 🛢 helper](<../../../🛢🤲 Itemizer helper.md>)
+> Part of [Itemizer 🛢 helper](<../../🛢🤲 Itemizer helper.md>)
 
 > Purpose: 
 
@@ -21,8 +21,8 @@ Header:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header |`From`     | string | Caller [domain 👥](<../../../../../40 👥 Domains/👥 Domain.md>) name
-|       |`To`       | string | [Itemizer 🛢 domain](<../../../🛢🤲 Itemizer helper.md>)
+|Header |`From`     | string | Caller [domain 👥](<../../../../40 👥 Domains/👥 Domain.md>) name
+|       |`To`       | string | [Itemizer 🛢 domain](<../../🛢🤲 Itemizer helper.md>)
 |       |`Subject`  | string | `List@Itemizer`
 |
 
