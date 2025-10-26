@@ -1,22 +1,23 @@
 @startuml Handle
 
-participant "User 🧑\ndomains" as user
+participant "User 🧑" as user
 box Hoster ☁️ domain #FFFFFA
-    participant "Host 🤗\nrole API" as host
-    participant "Talker 😃\nrole API" as talker
+    participant "Host 🤗" as host
+    participant "Script 📃" as script
+    participant "Talker 😃" as talker
 end box
-participant "Hosted 🧑‍💻\non-prem" as hosted
+participant "Hosted 📦" as hosted
 
 'activate host
-    host --> user: 1 ⏪ Prompt 🤔
+    script --> user: 1 ⏪ PROMPT 🤔
 'deactivate host
 
 activate user
-    user --> host: Reply 🤔
+    user --> host: Reply 🐌
 deactivate user
 
 activate host
-    host --> talker: {reply}
+    host --> talker: 
 deactivate host
 
 activate talker

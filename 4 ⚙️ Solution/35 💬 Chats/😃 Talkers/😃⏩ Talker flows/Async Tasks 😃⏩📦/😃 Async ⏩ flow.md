@@ -12,7 +12,7 @@
 
 ## ⏩ Flow diagram
 
-![alt text](<😃 Async ⚙️ sequence.png>)
+![alt text](<😃 Async ⚙️ uml.png>)
 
 | # | Call | Description
 |-|-|-

@@ -10,7 +10,7 @@
 
 ## ⏩ Flow diagram
 
-![alt text](<😃 Online ⚙️ uml.png>)
+![alt text](<😃 Eval ⚙️ uml.png>)
 
 | # | Call | Description
 |-|-|-
