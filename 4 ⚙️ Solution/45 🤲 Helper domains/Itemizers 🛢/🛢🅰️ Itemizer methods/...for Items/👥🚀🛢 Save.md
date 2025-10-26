@@ -33,10 +33,10 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header    | `From`        | string    | [Talker 😃](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) from [`Build@Itemizer`](<../...for Tables/👥🐌🛢 Build/👥🐌🛢 Build.md>)
-|           | `To`          | string    | [Itemizer 🛢](<../../🛢🤲 Itemizer helper.md>) from [`Build@Itemizer`](<../...for Tables/👥🐌🛢 Build/👥🐌🛢 Build.md>)
+| Header    | `From`        | string    | [Talker 😃](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) from [`Build@Itemizer`](<../...for Tables/Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
+|           | `To`          | string    | [Itemizer 🛢](<../../🛢🤲 Itemizer helper.md>) from [`Build@Itemizer`](<../...for Tables/Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
 |           | `Subject`     | string    | `Save@Itemizer`
-| Body    | `Set`    | string  | `Set` from [`Build@Itemizer`](<../...for Tables/👥🐌🛢 Build/👥🐌🛢 Build.md>)
+| Body    | `Set`    | string  | `Set` from [`Build@Itemizer`](<../...for Tables/Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
 |         | `Item`    | object  | Object to save
 |         | `Version` | uuid    | Optional version from [`Get@Itemizer`](<👥🚀🛢 Get.md>)
 |        | `Script` | string    | Optional [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) for traceability
@@ -60,7 +60,7 @@ Body:
 
 1. **How to know if the item was deleted on timeout?**
 
-    [Talker 😃 domains](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) can register a `Hook` on the [`Build@Itemizer`](<../...for Tables/👥🐌🛢 Build/👥🐌🛢 Build.md>) method to listen to delete events on the [Itemized 🪣 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
+    [Talker 😃 domains](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) can register a `Hook` on the [`Build@Itemizer`](<../...for Tables/Build 👥🐌🛢/🛢 Build 🐌 msg.md>) method to listen to delete events on the [Itemized 🪣 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
     * Upon deletion, [Itemizer 🛢 helper domains](<../../🛢🤲 Itemizer helper.md>) invoke the [`Triggered@Talker`](<../../🛢🔔 Itemizer events/🛢🔔 Triggered.md>) method.
 
     ---

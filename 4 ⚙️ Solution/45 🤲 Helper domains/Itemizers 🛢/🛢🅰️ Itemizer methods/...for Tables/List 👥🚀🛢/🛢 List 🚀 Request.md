@@ -6,7 +6,7 @@
 
 > Purpose: 
 
-* Lists the registered tables from [`Build@Itemizer`](<../👥🐌🛢 Build/👥🐌🛢 Build.md>).
+* Lists the registered tables from [`Build@Itemizer`](<../Build 👥🐌🛢/ Build 🐌 msg.md>).
 
 <br/>
 
@@ -40,7 +40,7 @@ Tables:
 |Object|Property|Type|Description
 |-|-|-|-
 |Top     |`Tables`    | array   | List of registered tables
-|Tables  |`Name`      | string  | Name from [`Build@Itemizer`](<../👥🐌🛢 Build/👥🐌🛢 Build.md>)
+|Tables  |`Name`      | string  | Name from [`Build@Itemizer`](<../Build 👥🐌🛢/ Build 🐌 msg.md>)
 |        |`Created`   | string  | ISO8601 date of creation
 |        |`ItemCount` | integer | Number of items in the table
 |
