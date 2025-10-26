@@ -14,11 +14,13 @@
 # Verify the signature
 - VERIFY|$.Msg
 
-- EVAL|
+# Get the data
+- WAIT|OnDisclose >> $data:
+    $.Msg
 
 # Create the collect
 - SAVE|Collects@Vault >> $collect:
-    Collect: .UUID()
+    Collect: .UUID
     Consumer: $.Msg.From
     Data: $data
 

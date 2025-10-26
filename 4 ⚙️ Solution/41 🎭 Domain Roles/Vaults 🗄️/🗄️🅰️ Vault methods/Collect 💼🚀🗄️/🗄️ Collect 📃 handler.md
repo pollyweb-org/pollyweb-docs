@@ -1,5 +1,3 @@
-<!-- TODO -->
-
 # 🗄️📃 Collect handler
 
 > Part of the [Vault 🗄️ domain](<../../🗄️🎭 Vault role.md>)
@@ -27,12 +25,6 @@
     $collect.Data
 ```
 
-| [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/Command ⌘.md>) | Purpose
-|-|-
-| ⏬ [`GET`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET/GET ⏬ item.md>) | Get the [Collect 🪣](<../../🗄️🪣 Vault tables/Collects 💼 table/🗄️🪣 Collects 💼 table.md>) from [`Consume@Consumer`](<../../../Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
-|
-
-<br/>
 
 |Needs||
 |-|-

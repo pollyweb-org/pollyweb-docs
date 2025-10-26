@@ -56,22 +56,48 @@ def _resolve_at_token(token: str, md_files: list[str]) -> Optional[Tuple[str, Pa
     if not markers:
         return None
 
+    candidates = []
     for candidate in md_files:
         path = Path(candidate)
         if path.suffix.lower() != '.md':
             continue
-        if normalize_string(path.stem) != normalized_before:
+        # accept exact stem matches or stems that start with the token (e.g. "Parse" -> "Parse msg")
+        stem_norm = normalize_string(path.stem)
+        if stem_norm != normalized_before and not stem_norm.startswith(normalized_before):
             continue
         folder_normalized = normalize_string(str(path.parent))
         if any(marker in folder_normalized for marker in markers):
-            label = '🅰️ method'
-            for part in path.parts:
-                if normalize_string(part).endswith('events'):
-                    label = '🔔 event'
-                    break
-            return label, path
+            candidates.append((path, stem_norm, folder_normalized))
 
-    return None
+    if not candidates:
+        return None
+
+    # prefer certain suffixes in filenames (request/msg/reply) over handlers
+    def score_candidate(item):
+        path, stem_norm, folder_norm = item
+        score = 0
+        # high preference for explicit request files
+        if 'request' in stem_norm:
+            score += 100
+        if stem_norm.endswith('request'):
+            score += 50
+        if 'msg' in stem_norm:
+            score += 80
+        if 'reply' in stem_norm:
+            score += 60
+        # handlers are less preferred
+        if 'handler' in stem_norm:
+            score += 10
+        return score
+
+    best = max(candidates, key=score_candidate)
+    path, stem_norm, folder_normalized = best
+    label = '🅰️ method'
+    for part in path.parts:
+        if normalize_string(part).endswith('events'):
+            label = '🔔 event'
+            break
+    return label, path
 
 
 def compute_expected_replacement(token: str, given_raw: str, md_files: list[str], file_dict: dict[str, List[tuple[str, str]]], project_directory: str) -> Optional[Tuple[str, Path]]:
@@ -582,23 +608,13 @@ def runit(project_directory, entryPoint):
                 raise ValueError(f"Hardcoded test failed for {given}: file not found -> {expected_linkfile}")
             continue
         if '@' in token:
-            parts = token.split('@', 1)
-            X = parts[0]
-            Y = parts[1]
-            normalized_X = normalize_string(X)
-            markers = method_folder_markers(Y)
-
-            found = False
-            for path in md_files:
-                if normalize_string(os.path.basename(path)[:-3]) == normalized_X:
-                    folder_path = os.path.dirname(path)
-                    normalized_folder = normalize_string(folder_path)
-                    if any(marker in normalized_folder for marker in markers):
-                        file_name = os.path.basename(path)
-                        if file_name == expected_linkfile:
-                            found = True
-                        break
-            if not found:
+            # Use the same resolution logic as the replacement helpers to determine the expected path.
+            result = compute_expected_replacement(token, given, md_files, {}, project_directory)
+            if not result:
+                raise ValueError(f"Did not compute a replacement for {given}")
+            actual_text, actual_path = result
+            actual_name = os.path.basename(actual_path)
+            if actual_name != expected_linkfile:
                 raise ValueError(f"Did not find expected file for {given}: {expected_linkfile}")
         elif token.isupper():
             expected_name = expected_linkfile.strip('{}')
