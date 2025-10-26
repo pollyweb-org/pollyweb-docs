@@ -2,7 +2,7 @@
 
 > Implements the [`SAVE`](<../SAVE 💾 item.md>)
 
-> Invokes the [`Save@Itemizer`](<../../../../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Save.md>) method
+> Invokes the [`Save@Itemizer`](<../../../../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Save/👥🚀🛢 Save.md>) method
 
 
 ## How to call
@@ -60,6 +60,6 @@
 Needs||
 |-|-
 | [Commands ⌘](<../../../...commands ⌘/Command ⌘/Command ⌘.md>) | [`ASSERT`](<../../../...placeholders 🧠/ASSERT 🚦/ASSERT 🚦.md>)  [`SEND`](<../../../...messages 📨/SEND 📬 msg.md>) [`RETURN`](<../../../...control ▶️/RETURN ⤴️/RETURN ⤴️.md>) [`RUN`](<../../../...control ▶️/RUN ▶️/RUN ▶️.md>)
-| [Messages 📨](<../../../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Save@Itemizer`](<../../../../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Save.md>)
+| [Messages 📨](<../../../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Save@Itemizer`](<../../../../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Save/👥🚀🛢 Save.md>)
 | [Placeholders 🧠](<../../../...placeholders 🧠/$Placeholder 🧠.md>) | [`$.Settings`](<../../../...messages 📨/$.Settings 🎛️.md>)
 |
