@@ -10,7 +10,7 @@
 
 ## ⏩ Flow diagram
 
-![alt text](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle ⚙️ uml.png>)
+![alt text](<😃 Online ⚙️ uml.png>)
 
 | # | Call | Description
 |-|-|-
@@ -33,7 +33,7 @@
 
     * `Cost` The [Talker 😃 API](<../../😃 Talker role.md>) doesn't need to pay cloud compute costs for idle time waiting for a response from [Hosted 📦 domains](<../../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>).
 
-    * `User Experience` [Hosted 📦 domains](<../../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) can immediately confirm that a long-running task was started, then continuously send updates regarding the task progress - see the [😃⏩🧑‍💻 Wait ⏸️](<../Wait 😃⏩🧑‍💻/😃 Wait ⏩ flow.md>) flow or details on this.
+    * `User Experience` [Hosted 📦 domains](<../../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) can immediately confirm that a long-running task was started, then continuously send updates regarding the task progress - see the [😃⏩🧑‍💻 Wait ⏸️](<../Async Tasks 😃⏩📦/😃 Async ⏩ flow.md>) flow or details on this.
 
     ---
     <br/>

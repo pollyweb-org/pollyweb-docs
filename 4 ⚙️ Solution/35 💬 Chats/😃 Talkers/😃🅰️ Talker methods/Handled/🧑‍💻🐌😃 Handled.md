@@ -6,7 +6,7 @@
 
 > Flow
 
-* Part of the [`Handle` ⏩ flow](<../../😃⏩ Talker flows/Handle 😃⏩🧑‍💻/😃 Handle ⏩ flow.md>) flow
+* Part of the [`Handle` ⏩ flow](<../../😃⏩ Talker flows/Online Functions 😃⏩📦/😃 Online ⏩ flow.md>) flow
 *  Receives async responses from the [`Handle@Hosted`](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>) method.
 
 
