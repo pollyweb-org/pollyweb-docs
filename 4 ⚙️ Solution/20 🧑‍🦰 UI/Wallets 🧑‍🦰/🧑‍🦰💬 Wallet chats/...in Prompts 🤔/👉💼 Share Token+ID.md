@@ -16,7 +16,7 @@
 |3|[💼🐌🤵 `Invite@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)|Invite the [Identity 🆔](<../../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) to the [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)
 |4| [🤵🐌🛠️ `Invited@Helper`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲🅰️ Helper methods/🤵🐌🤲 Invited.md>) | Proxy the invite to the [Identity 🆔](<../../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) 
 |5|[🆔⏩🧑‍🦰 Take Selfie 📸](<../../../../../5 ⏩ Flows/55 🆔⏩ Identities/04 🆔⏩🧑‍🦰 Selfie.md>) | Do a [face scan 😶](<../../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/6 🆔⏩😶 Face scan.md>) with liveness check
-|6|[🗄️⏩💼 Consume 🧩](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️⏩ Vault flows/Consume 🗄️⏩💼 flow/🗄️ Consume ⏩ flow.md>) | Confirm the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ownership
+|6|[🗄️⏩💼 Consume 🧩](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️⏩ Vault flows/Consume 🗄️⏩💼/🗄️ Consume ⏩ flow.md>) | Confirm the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ownership
 |
 
 <br/>
