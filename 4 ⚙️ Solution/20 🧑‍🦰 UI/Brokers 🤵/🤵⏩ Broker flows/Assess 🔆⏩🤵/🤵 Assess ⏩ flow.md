@@ -13,7 +13,7 @@
 * [🧑‍🦰👉🤗 Scan host QR](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/🔆🤗 Tap host locator.md>) flow
 * [🧑‍🦰👉🤗 Scan printer QR](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/🔆🖨️ Tap alias locator.md>) flow
 * [🧑‍🦰👉🤗 Prompt option](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🤗 Click locator 🔆.md>) flow
-* [🗄️⏩🧑‍🦰 Engage @ Vault 💬](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️⏩ Vault flows/🗄️⏩🧑‍🦰 Engage 💬 flow.md>) flow
+* [🗄️⏩🧑‍🦰 Engage @ Vault 💬](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️⏩ Vault flows/🗄️ Engage ⏩ flow.md>) flow
 
 <br/>
 

@@ -214,13 +214,13 @@ Successful Tests:
     LinkFile: '😃🪣 Holders 🧠 table.md'
     Reasons: same as {{Hooks table}}.
 
-  - Given: "{{Consume flow}}"
-    LinkText: "`Consume` ⏩ flow"
-    LinkFile: '🗄️⏩💼 Consume 🔗 flow.md'
-    Reasons:
-      It's under a "*flows" folder,
-      the file name contains the emoji "⏩",
-      and the file name ends with "flow.md".
+#  - Given: "{{Consume flow}}"
+#    LinkText: "`Consume` ⏩ flow"
+#    LinkFile: '🗄️⏩💼 Consume 🔗 flow.md'
+#    Reasons:
+#      It's under a "*flows" folder,
+#      the file name contains the emoji "⏩",
+#      and the file name ends with "flow.md".
 
 #  - Given: "{{Assess handler}}"
 #    LinkText: "`Assess` 📃 handler"

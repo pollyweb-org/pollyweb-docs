@@ -3,7 +3,7 @@
 
 # 💼🚀🗄️ Collect @ Vault
 
-> Part of the [`Consume flow`](<../../🗄️⏩ Vault flows/🗄️⏩💼 Consume 🔗 flow.md>)
+> Part of the [`Consume flow`](<../../🗄️⏩ Vault flows/Consume 🗄️⏩💼 flow/🗄️ Consume ⏩ flow.md>)
 
 > Purpose
 
