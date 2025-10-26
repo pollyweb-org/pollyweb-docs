@@ -8,7 +8,7 @@ box Hoster ☁️ domain #FFFFFA
 end box
 participant "Hosted 📦" as hosted
 
-script --> talker: WORK 
+script --> talker: WORK 👷🏼
 activate script
 activate talker
 
@@ -16,9 +16,9 @@ talker --> hosted:  Handle 🐌 {task}
 deactivate talker
 
 activate hosted
-script --> user: ⏪ PROMPT  {started}
+script --> user: ⏪ TEMP ⏳ {started}
 
-script --> talker: WAIT ⏳
+script --> talker: WAIT ⏸️
 deactivate script
 
 hosted --> talker: Handled 🐌 {partial}
@@ -27,8 +27,9 @@ activate talker
 deactivate talker
 
 activate script
-    script --> user: ⏪ PROMPT  {running...}
-    script --> talker: WAIT ⏳
+    script --> user: ⏪ TEMP ⏳ {running...}
+    script --> talker: REPEAT 🔁 
+    script --> talker: WAIT ⏸️
 deactivate script
     
     hosted --> talker: Handled 🐌 {done}
@@ -39,7 +40,7 @@ activate talker
 deactivate talker
 
 activate script 
-    script --> user: ⏪ PROMPT {done!}
+    script --> user: ⏪ SUCCESS ✅ {done!}
 deactivate script
 
 @enduml
