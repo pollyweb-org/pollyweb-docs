@@ -1,6 +1,6 @@
 # 🤵📃 Converse 💬
 
-> [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that ../🤵⏩🧑‍🦰 Converse 💬.mdConverse 💬/🤵⏩🧑‍🦰 Converse 💬.md>)
+> [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that implements the [`Converse` ⏩ flow](<🤵 Converse ⏩ flow.md>)
 
 <br/>
 
