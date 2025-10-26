@@ -1,3 +1,5 @@
+<!-- TODO: the diagram changed -->
+
 # 😃⏩🤗 Wait @ Talker
 
 > Implements [Hoster ☁️ helper domain](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>)
@@ -10,7 +12,7 @@
 
 ## ⏩ Flow diagram
 
-![alt text](<../../😃⚙️ Talker cmds/...control ▶️/WAIT ⏸️/.📎 Assets/WAIT ⚙️ sequence.png>)
+![alt text](<😃 Async ⚙️ sequence.png>)
 
 | # | Call | Description
 |-|-|-
