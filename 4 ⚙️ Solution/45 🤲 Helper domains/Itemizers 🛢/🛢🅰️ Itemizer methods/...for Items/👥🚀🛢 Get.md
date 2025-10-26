@@ -27,10 +27,10 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header    | `From`        | string    | [Talker 😃](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) from [`Build@Itemizer`](<../...for Tables/👥🐌🛢 Build.md>)
-|           | `To`          | string    | [Itemizer 🛢](<../../🛢🤲 Itemizer helper.md>) from [`Build@Itemizer`](<../...for Tables/👥🐌🛢 Build.md>)
+| Header    | `From`        | string    | [Talker 😃](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) from [`Build@Itemizer`](<../...for Tables/👥🐌🛢 Build/👥🐌🛢 Build.md>)
+|           | `To`          | string    | [Itemizer 🛢](<../../🛢🤲 Itemizer helper.md>) from [`Build@Itemizer`](<../...for Tables/👥🐌🛢 Build/👥🐌🛢 Build.md>)
 |           | `Subject`     | string    | `Get@Itemizer`
-| Body      | `Set`     | string    | Set from [`Build@Itemizer`](<../...for Tables/👥🐌🛢 Build.md>)
+| Body      | `Set`     | string    | Set from [`Build@Itemizer`](<../...for Tables/👥🐌🛢 Build/👥🐌🛢 Build.md>)
 |           | `Key`        | string    | Key from [`Save@Itemizer`](<👥🚀🛢 Save.md>)
 |
 
