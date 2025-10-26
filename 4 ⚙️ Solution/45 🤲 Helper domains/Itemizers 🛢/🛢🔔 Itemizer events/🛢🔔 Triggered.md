@@ -37,7 +37,7 @@ Body:
 |           | `To`          | string    | [Talker 😃](<../🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete.md>)
 |           | `Subject`     | string    | `Triggered@Talker`
 | Body      | `Trigger`| enum | See [Itemized 🪣 dataset](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) triggers
-|| `Handler`     | string    | Handler from [`Build@Itemizer`](<../🛢🅰️ Itemizer methods/...for Tables/👥🐌🛢 Build/👥🐌🛢 Build.md>)
+|| `Handler`     | string    | Handler from [`Build@Itemizer`](<../🛢🅰️ Itemizer methods/...for Tables/Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
 |           | `Item`        | object    | [Item 🛢](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) from [`Delete@Itemizer`](<../🛢🅰️ Itemizer methods/...for Items/👥🚀🛢 Delete.md>)
 |           | `Changes`     | object    | Old values of changed properties
 |

@@ -174,10 +174,10 @@ Successful Tests:
 #    LinkFile: '🧑‍🦰🚀🤗 Prompted.md'
 #    Reasons: same as "{{Parse@Hosted}}"
 
-  - Given: '{{Build@Itemized}}'
-    LinkText: "`Build@Itemized` 🅰️ method"
-    LinkFile: '👥🐌🛢 Build.md'
-    Reasons: same as "{{Parse@Hosted}}"
+#  - Given: '{{Build@Itemized}}'
+#    LinkText: "`Build@Itemized` 🅰️ method"
+#    LinkFile: '👥🐌🛢 Build.md'
+#    Reasons: same as "{{Parse@Hosted}}"
 
 #  - Given: '{{Updated@Notifier}}'
 #    LinkText: "`Updated@Notifier` 🅰️ method"

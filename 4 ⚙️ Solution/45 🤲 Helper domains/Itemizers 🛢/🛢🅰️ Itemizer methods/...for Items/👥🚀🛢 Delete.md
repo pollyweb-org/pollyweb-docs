@@ -32,11 +32,11 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header    | `From`        | string    | [Talker 😃](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) from [`Build@Itemizer`](<../...for Tables/👥🐌🛢 Build/👥🐌🛢 Build.md>)
-|           | `To`          | string    | [Itemizer 🛢](<../../🛢🤲 Itemizer helper.md>) from [`Build@Itemizer`](<../...for Tables/👥🐌🛢 Build/👥🐌🛢 Build.md>)
+| Header    | `From`        | string    | [Talker 😃](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) from [`Build@Itemizer`](<../...for Tables/Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
+|           | `To`          | string    | [Itemizer 🛢](<../../🛢🤲 Itemizer helper.md>) from [`Build@Itemizer`](<../...for Tables/Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
 |           | `Subject`     | string    | `Delete@Itemizer`
 | Body    | `Script`     | string    | [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) for traceability
-|         | `Set`    | string  | `Set` from [`Build@Itemizer`](<../...for Tables/👥🐌🛢 Build/👥🐌🛢 Build.md>)
+|         | `Set`    | string  | `Set` from [`Build@Itemizer`](<../...for Tables/Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
 |         | `Key`     | string[]  | Case insensitive keys
 |         | `Undo` | string  | Optional [`UNDO`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/UNDO/UNDO ↩️.md>) time
 |
@@ -66,7 +66,7 @@ Body:
 
 1. **How to know if the item was deleted on timeout?**
 
-    [`Talker`](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) domains can register a hook on [`Build@Itemizer`](<../...for Tables/👥🐌🛢 Build/👥🐌🛢 Build.md>) to listen to delete events on the [`Itemized dataset`](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
+    [`Talker`](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) domains can register a hook on [`Build@Itemizer`](<../...for Tables/Build 👥🐌🛢/🛢 Build 🐌 msg.md>) to listen to delete events on the [`Itemized dataset`](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
     * Upon deletion, [`Itemizer helper`](<../../🛢🤲 Itemizer helper.md>) invoke the [`Triggered@Talker`](<../../🛢🔔 Itemizer events/🛢🔔 Triggered.md>) method.
 
     ---
