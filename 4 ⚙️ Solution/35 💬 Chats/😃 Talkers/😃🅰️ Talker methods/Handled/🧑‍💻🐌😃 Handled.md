@@ -7,7 +7,7 @@
 > Flow
 
 * Part of the [`Handle` ⏩ flow](<../../😃⏩ Talker flows/😃⏩🧑‍💻 Handle 🐍.md>) flow
-*  Receives async responses from the [`Handle@Hosted`](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle/😃🐌📦 Handle.md>) method.
+*  Receives async responses from the [`Handle@Hosted`](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>) method.
 
 
 > Purpose
@@ -34,9 +34,9 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header    | `From`        | string    | [Hosted 📦](<../../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) from [`Handle@Hosted`](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle/😃🐌📦 Handle.md>)
-|           | `To`          | string    | [Hoster ☁️](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) from [`Handle@Hosted`](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle/😃🐌📦 Handle.md>)
+| Header    | `From`        | string    | [Hosted 📦](<../../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) from [`Handle@Hosted`](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>)
+|           | `To`          | string    | [Hoster ☁️](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) from [`Handle@Hosted`](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>)
 |           | `Subject`     | string    | `Handled@Talker`
-| Body      | `Hook`    | uuid      | `Hook` from [`Handle@Hosted`](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle/😃🐌📦 Handle.md>)
-|           | `Response`    | any       | Response to [`Handle@Hosted`](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle/😃🐌📦 Handle.md>)
+| Body      | `Hook`    | uuid      | `Hook` from [`Handle@Hosted`](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>)
+|           | `Response`    | any       | Response to [`Handle@Hosted`](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>)
 |

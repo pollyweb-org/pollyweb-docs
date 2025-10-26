@@ -14,7 +14,7 @@
 
 | # | Call | Description
 |-|-|-
-|1| [😃🐌🧑‍💻 `Handle@Hosted`](<../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle/😃🐌📦 Handle.md>) | [Talkers 😃](<../😃 Talker role.md>) ask to handle [{Functions} 🐍](<../😃⚙️ Talker cmds/...functions 🐍/{Function} 🐍.md>) | 
+|1| [😃🐌🧑‍💻 `Handle@Hosted`](<../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>) | [Talkers 😃](<../😃 Talker role.md>) ask to handle [{Functions} 🐍](<../😃⚙️ Talker cmds/...functions 🐍/{Function} 🐍.md>) | 
 |2| [🧑‍💻🐌😃 `Handled@Talker`](<../😃🅰️ Talker methods/Handled/🧑‍💻🐌😃 Handled.md>) | [Hosteds 📦](<../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) inform of tasks started
 |3| [🤗⏩🧑‍🦰 Prompt 🤔](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | [Talkers 😃](<../😃 Talker role.md>) inform users' [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
 |4| [⏸️ `WAIT` command](<../😃⚙️ Talker cmds/...control ▶️/WAIT ⏸️/WAIT ⏸️.md>) | [Talkers 😃](<../😃 Talker role.md>) go to sleep until signaled 
