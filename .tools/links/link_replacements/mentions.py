@@ -379,13 +379,37 @@ def replace_dynamic_tokens(md_files: Iterable[str], file_dict: dict[str, List[tu
         except Exception:
             continue
 
-        new_content, count = pattern.subn(lambda m: replacer(m, path), content)
-        if count:
+        replacements_for_file = 0
+
+        def counting_replacer(m):
+            nonlocal replacements_for_file
+            original = m.group(0)
+            replaced = replacer(m, path)
+            if replaced != original:
+                replacements_for_file += 1
+            return replaced
+
+        new_content = pattern.sub(counting_replacer, content)
+
+        # Only write when there were actual textual replacements
+        if replacements_for_file > 0:
             try:
                 path.write_text(new_content, encoding="utf-8")
-            except Exception:
-                continue
-            total += count
+            except Exception as exc:
+                # Raise an explicit error so the caller can see why replacements didn't persist
+                raise RuntimeError(f"Failed writing replacements to {path}: {exc}")
+
+            # Verify the write persisted and no token patterns remain. If tokens are still
+            # present after write, raise an error so we can diagnose persistent replacement loops.
+            try:
+                verified = path.read_text(encoding="utf-8")
+            except Exception as exc:
+                raise RuntimeError(f"Wrote replacements to {path} but cannot re-open file for verification: {exc}")
+
+            if pattern.search(verified):
+                raise RuntimeError(f"Replacements written to {path} but token patterns still present afterwards (possible write/encoding/FS issue)")
+
+            total += replacements_for_file
 
     return total
 
