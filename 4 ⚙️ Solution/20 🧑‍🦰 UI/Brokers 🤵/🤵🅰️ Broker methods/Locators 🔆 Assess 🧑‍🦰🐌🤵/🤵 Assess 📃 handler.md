@@ -29,19 +29,18 @@
 
 # Resolve any ALIAS locator
 - IF|$locator.IsAlias:
-    Then: 
 
-        # Send the request to the Printer
-        - SEND >> $resolved:
-            Header:
-                To: $locator.Host
-                Subject: Resolve@Printer
-            Body:
-                Locator: $.Msg.Locator
+    # Send the request to the Printer
+    - SEND >> $resolved:
+        Header:
+            To: $locator.Host
+            Subject: Resolve@Printer
+        Body:
+            Locator: $.Msg.Locator
 
-        # Parse the locator again
-        - PARSE >> $locator:
-            Locator: $resolved
+    # Parse the locator again
+    - PARSE >> $locator:
+        Locator: $resolved
 
 # Open a Chat on the Wallet app
 - RUN|Converse
