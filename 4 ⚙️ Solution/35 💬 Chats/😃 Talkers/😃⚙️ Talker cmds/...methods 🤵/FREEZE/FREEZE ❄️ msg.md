@@ -11,7 +11,7 @@
     A `FREEZE` ❄️
     * is a flow [Command ⌘](<../../...commands ⌘/Command ⌘/Command ⌘.md>) 
     * that freezes all previous [non-blocking Prompts 🤔](<../../../../🤔 Prompts/🤔⚙️ Prompt features/8 ⚠️ as Status.md>)
-    * as described in the [Freeze ⏩ flow](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Freeze ❄️.md>).
+    * as described in the [Freeze ⏩ flow](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Freeze 🤗⏩❄️/🤗 Freeze ⏩ flow.md>).
 
     ---
     <br/>

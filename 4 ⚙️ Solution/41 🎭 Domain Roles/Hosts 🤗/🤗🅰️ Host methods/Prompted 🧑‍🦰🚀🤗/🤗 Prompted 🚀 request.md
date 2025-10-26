@@ -2,7 +2,7 @@
 
 > Implemented by the [`Prompt` 📃 script](<../../🤗📃 Host scripts/...procedures/🤗📃 Prompt proc.md>)
 
-> Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../../🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) flow
+> Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../../🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) flow
 
 > Signature of the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>)
 

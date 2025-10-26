@@ -12,7 +12,7 @@
     * with a question or information to the user
     * sent to a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) 
     * by a [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) 
-    * via the [Prompt 🤗⏩🧑‍🦰](<../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) flow.
+    * via the [Prompt 🤗⏩🧑‍🦰](<../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) flow.
 
     ---
     <br/>
@@ -62,9 +62,9 @@
     * For example:
         * a user can answer A, B, C, D, E; 
         * then go back to B and change the history to A, B, X, Y, Z;
-        * as long as there was no [Freeze ❄️](<../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Freeze ❄️.md>) between B and E.
+        * as long as there was no [Freeze ❄️](<../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Freeze 🤗⏩❄️/🤗 Freeze ⏩ flow.md>) between B and E.
     
-    * However, [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) can [Freeze ❄️](<../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Freeze ❄️.md>) a [Chat 💬](<../💬 Chats/💬 Chat.md>) until a certain checkpoint.
+    * However, [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) can [Freeze ❄️](<../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Freeze 🤗⏩❄️/🤗 Freeze ⏩ flow.md>) a [Chat 💬](<../💬 Chats/💬 Chat.md>) until a certain checkpoint.
         * This blocks the user from changing any [Prompts 🤔](<🤔 Prompt.md>) up to that point.
         * [Hosts 🤗](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) to this when committing a transaction to a database with the inputs collected.
   
