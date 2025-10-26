@@ -1,6 +1,6 @@
 # 🧑‍🦰🐌🤗 Home @ Host
 
-> Implemented by the [`Home` 📃 script](<../../🤗📃 Host scripts/...handlers/🤗📃 Home handler.md>)
+> Implemented by the [`Home` 📃 script](<../../🤗📃 Host scripts/...handlers/🤗 Home 📃 handler.md>)
 
 > Shows the main menu of the [Host 🤗 domain](<../../🤗🎭 Host role.md>).
 
