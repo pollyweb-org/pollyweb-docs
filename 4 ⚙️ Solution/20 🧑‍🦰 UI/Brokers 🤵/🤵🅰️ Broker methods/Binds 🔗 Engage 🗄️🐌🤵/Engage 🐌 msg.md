@@ -2,6 +2,9 @@
 
 > Part of [🗄️⏩🧑‍🦰 Engage @ Vault](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️⏩ Vault flows/Engage 🗄️⏩💬/🗄️ Engage ⏩ flow.md>)
 
+
+> Purpose
+
 * Allows for [Vault 🗄️ domains](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) 
     * to proactively start a new [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) 
     * with a [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) previously [bound 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
