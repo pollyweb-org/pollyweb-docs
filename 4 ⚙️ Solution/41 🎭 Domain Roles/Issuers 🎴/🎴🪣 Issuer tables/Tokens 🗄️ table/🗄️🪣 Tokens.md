@@ -22,7 +22,7 @@ Schema: airlines.any-igo.dom/SSR/WCH:1
 | `Broker` | string | From [`Accepted@Issuer`](<../../🎴🅰️ Issuer methods/Accepted 🤵🐌🎴/🎴 Accepted 🐌 msg.md>) 
 | `Token`| uuid | From [`Accepted@Issuer`](<../../🎴🅰️ Issuer methods/Accepted 🤵🐌🎴/🎴 Accepted 🐌 msg.md>) 
 | `User` | any | Internal anchor
-| `Schema` | string | From [`Issued@Issuer`](<../../🎴🅰️ Issuer methods/🎴 Issued 🚀 request.md>)
+| `Schema` | string | From [`Issued@Issuer`](<../../🎴🅰️ Issuer methods/Issued 🧑‍🦰🚀🎴/🎴 Issued 🚀 request.md>)
 | 
 
 <br/>
