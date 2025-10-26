@@ -6,7 +6,7 @@
 
 ## Flow diagram
 
-![alt text](<../.📎 Assets/⚙️💼 Consume.png>)
+![alt text](<Consume 🗄️⏩💼 flow/⚙️💼 Consume.png>)
 
 
 |#|Step|Purpose
