@@ -36,10 +36,10 @@
     No. 
     * [`Options`](<4 🔘 with Options.md>) with a `§` sign 
         * open a new [Chat 💬](<../../💬 Chats/💬 Chat.md>)
-        * even after a [Freeze ❄️](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Freeze ❄️.md>) command.
+        * even after a [Freeze ❄️](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Freeze 🤗⏩❄️/🤗 Freeze ⏩ flow.md>) command.
     * All others [`Options`](<4 🔘 with Options.md>)
         * continue the [Chat 💬](<../../💬 Chats/💬 Chat.md>)
-        * and are disabled with a [Freeze ❄️](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Freeze ❄️.md>) command.
+        * and are disabled with a [Freeze ❄️](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Freeze 🤗⏩❄️/🤗 Freeze ⏩ flow.md>) command.
     
     ---
     <br/>

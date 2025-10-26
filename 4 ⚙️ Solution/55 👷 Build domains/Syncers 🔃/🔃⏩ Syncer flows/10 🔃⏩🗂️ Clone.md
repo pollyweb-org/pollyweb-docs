@@ -40,10 +40,10 @@ $ syncer sync
 
 | # | Call | Notes
 |-|-|-
-|1|[🤗⏩🧑‍🦰 Prompt 🤔](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | Users [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) with  [bound 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) [Filer 🗂️](<../../../41 🎭 Domain Roles/Filer 🗂️/🗂️🎭 Filer role.md>)
-|2|[🤗⏩🧑‍🦰 Prompt 🤔](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | Users ask to clone → [Filer 🗂️](<../../../41 🎭 Domain Roles/Filer 🗂️/🗂️🎭 Filer role.md>) return 🄰
+|1|[🤗⏩🧑‍🦰 Prompt 🤔](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | Users [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) with  [bound 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) [Filer 🗂️](<../../../41 🎭 Domain Roles/Filer 🗂️/🗂️🎭 Filer role.md>)
+|2|[🤗⏩🧑‍🦰 Prompt 🤔](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | Users ask to clone → [Filer 🗂️](<../../../41 🎭 Domain Roles/Filer 🗂️/🗂️🎭 Filer role.md>) return 🄰
 |3|[🔃🚀🗂️ `Clone@Filer`](<../../../41 🎭 Domain Roles/Filer 🗂️/🗂️🅰️ Filer methods/🔃🚀🗂️ Clone.md>) | Users run [Syncer](<../🔃🛠️ Syncer tool.md>) with 🄰 → they display  🄱
-|4|[🤗⏩🧑‍🦰 Prompt 🤔](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Filer 🗂️](<../../../41 🎭 Domain Roles/Filer 🗂️/🗂️🎭 Filer role.md>) ask users to confirm 🄱
+|4|[🤗⏩🧑‍🦰 Prompt 🤔](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | [Filer 🗂️](<../../../41 🎭 Domain Roles/Filer 🗂️/🗂️🎭 Filer role.md>) ask users to confirm 🄱
 |5| [🔃⏩🗂️ Sync](<20 🔃⏩🗂️ Sync.md>) | Uses download the resources locally
 |
 

@@ -18,7 +18,7 @@
 | 5 | [🧚🐌👀 Anonymized @ Advertiser](<../👀🅰️ Advertiser methods/🧚🐌👀 Anonymized.md>) | [Curators 🧚](<../../../50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) add anonymized summaries to context
 | 6 | [👀🐌🧚 Sort @ Curator](<../../../50 🫥 Agent domains/Curators 🧚/🧚🅰️ Curator methods/👀🐌🧚 Sort.md>) | [Advertisers 👀](<../👀🤲 Advertiser helper.md>) ask [Curators 🧚](<../../../50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) to sort possible ads
 | 7 | [🧚🐌👀 Sorted @ Advertiser](<../👀🅰️ Advertiser methods/🧚🐌👀 Sorted.md>) | [Curators 🧚](<../../../50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) return their view of user preferences
-| 8 | [🤗⏩🧑‍🦰 Prompt 🤔](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/🤗⏩🧑‍🦰 Prompt 🤔.md>) | [Advertisers 👀](<../👀🤲 Advertiser helper.md>) show  next best actions to [Wallets 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+| 8 | [🤗⏩🧑‍🦰 Prompt 🤔](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | [Advertisers 👀](<../👀🤲 Advertiser helper.md>) show  next best actions to [Wallets 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
 | 9 | [👀🐌🤵 Promote @ Broker](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Locators 🔆 Promote 👀🐌🤵/🤵 Promote 🐌 msg.md>) | Then ask [Brokers 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) to check-in into any selection
 ||
 
