@@ -8,7 +8,7 @@
 * Updates the status of a [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>).
 
 > Used by
-* [🎴⏩🧑‍🦰 Revise Token @ Issuer](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴⏩ Issuer flows/🎴 Revise Token ⏩ flow.md>) flow
+* [🎴⏩🧑‍🦰 Revise Token @ Issuer](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴⏩ Issuer flows/Revise Token 🎴⏩🧑‍🦰/🎴 Revise Token ⏩ flow.md>) flow
 * [💼⏩🧑‍🦰 Token Status @ Consumer](<../../../../41 🎭 Domain Roles/Consumers 💼/💼⏩ Consumer flows/Token Status 💼⏩🎫/💼 Token Status ⏩ flow.md>) flow
 
 <br/>
