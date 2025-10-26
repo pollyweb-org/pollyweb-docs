@@ -34,6 +34,8 @@ Failed Tests:
     WrongFile: "PARSE 🔆.md"
   - Given: '{{Prompted@Hosted}}'
     WrongFile: "🧩 HOST.md"
+  - Given: '{{Handle@Hosted}}'
+    WrongFile: '😃⏩🧑‍💻 Handle 🐍.md'
 
 Successful Tests:
 

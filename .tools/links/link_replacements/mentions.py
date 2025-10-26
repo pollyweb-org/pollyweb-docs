@@ -121,11 +121,17 @@ def replace_curly_at_mentions(md_files: Iterable[str]) -> int:
     """Replace tokens like ``{{Prompt@Broker}}`` with markdown links."""
     yaml_path = Path(__file__).resolve().parent.parent / "links.yaml"
     data = yaml.safe_load(yaml_path.read_text(encoding="utf-8"))
-    failed = {
-        test["Given"]: test["WrongFile"]
-        for test in data.get("Failed Tests", [])
-        if "WrongFile" in test
-    }
+    # Normalize Failed Tests keys by stripping surrounding braces so they match
+    # the token strings returned by extract_curly_at_tokens (which omit braces).
+    failed = {}
+    for test in data.get("Failed Tests", []):
+        if "WrongFile" in test and "Given" in test:
+            given = test["Given"]
+            # strip outer braces if present
+            key = given.strip()
+            if key.startswith("{{") and key.endswith("}}"):
+                key = key.strip("{}")
+            failed[key] = test["WrongFile"]
 
     total_replacements = 0
     project_index = build_project_link_index(md_files)
@@ -157,18 +163,43 @@ def replace_curly_at_mentions(md_files: Iterable[str]) -> int:
 
             found_href: str | None = None
             link_label = "🅰️ method"
+
+            # Collect candidates that match stem equality or start-with semantics
+            candidates: List[tuple[Path, int]] = []
             for candidate in existing_files:
                 candidate_path = Path(candidate)
                 if candidate_path.suffix.lower() != ".md":
                     continue
-                if normalize_string(candidate_path.stem) != normalized_before:
+                stem_norm = normalize_string(candidate_path.stem)
+                # accept exact stem matches or stems that start with the token
+                if stem_norm != normalized_before and not stem_norm.startswith(normalized_before):
                     continue
                 folder_path = normalize_string(str(candidate_path.parent))
-                if any(marker in folder_path for marker in markers):
-                    found_href = os.path.relpath(candidate_path, path.parent)
-                    if any(normalize_string(part).endswith("events") for part in candidate_path.parts):
-                        link_label = "🔔 event"
-                    break
+                if not any(marker in folder_path for marker in markers):
+                    continue
+
+                # scoring: prefer request/msg/reply, deprioritize handler
+                score = 0
+                if 'request' in stem_norm:
+                    score += 100
+                if stem_norm.endswith('request'):
+                    score += 50
+                if 'msg' in stem_norm:
+                    score += 80
+                if 'reply' in stem_norm:
+                    score += 60
+                if 'handler' in stem_norm:
+                    score += 10
+
+                candidates.append((candidate_path, score))
+
+            if candidates:
+                # deterministic selection: highest score, tie-break on path string
+                candidates.sort(key=lambda t: (t[1], str(t[0])), reverse=True)
+                best_path = candidates[0][0]
+                found_href = os.path.relpath(best_path, path.parent)
+                if any(normalize_string(part).endswith('events') for part in best_path.parts):
+                    link_label = '🔔 event'
 
             if not found_href:
                 continue
