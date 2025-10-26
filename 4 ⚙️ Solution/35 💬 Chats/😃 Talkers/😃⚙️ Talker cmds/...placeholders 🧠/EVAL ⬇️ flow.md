@@ -479,14 +479,33 @@
     To insert a value in a lists, use  `+>` instead of `>>`.
     ```yaml
     📃 Example:
-    EVAL|A +> $list
-    EVAL|B +> $list
+    
+    - EVAL|A +> $list
+    - EVAL|B +> $list
+    
     # Results in [A,B]
     ```
 
     ---
     <br/>
 
+1. **How to merge two lists?**
+
+    ```yaml
+    📃 Example:
+
+    - EVAL >> $merged:
+        :list1:
+        :list2:
+    ```
+
+    | List1 | List2 | Result
+    |-|-|-
+    | `A,B` | `B,C` | `A,B,B,C`
+    | `{A:1}` | `{B:2},{C:3}`| `{A:1},{B:2},{C:3}`
+
+    ---
+    <br/>
 
 1. **How to imitate SQL queries?**
 
