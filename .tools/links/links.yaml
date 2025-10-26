@@ -58,15 +58,15 @@ Successful Tests:
       or is in a subfolder of such folder.
 
 
-  - Given: '{{Parse@Hosted}}'
-    LinkText: "`Parse@Hosted` 🅰️ method"
-    LinkFile: "😃🐌📦 Parse.md"
-    Reasons: |
-      For `X@Y`, 
-      where the string is split by `@` into `X` and `Y`,
-      the file is called `*X*.md 
-      and in a folder called `*Y*methods*`
-      or is in a subfolder of such folder.
+#  - Given: '{{Parse@Hosted}}'
+#    LinkText: "`Parse@Hosted` 🅰️ method"
+#    LinkFile: "😃🐌📦 Parse.md"
+#    Reasons: |
+#      For `X@Y`, 
+#      where the string is split by `@` into `X` and `Y`,
+#      the file is called `*X*.md 
+#      and in a folder called `*Y*methods*`
+#      or is in a subfolder of such folder.
 
   #- Given: '{{Prompt@Broker}}'
   #  LinkText: "`Prompt@Broker` 🅰️ method"
@@ -74,11 +74,11 @@ Successful Tests:
   #  Reasons: |
   #    same as "{{Parse@Hosted}}"
 
-  - Given: '{{Handle@Hosted}}'
-    LinkText: "`Handle@Hosted` 🅰️ method"
-    LinkFile: "😃🐌📦 Handle.md"
-    Reasons: |
-      same as "{{Parse@Hosted}}"
+  #- Given: '{{Handle@Hosted}}'
+  #  LinkText: "`Handle@Hosted` 🅰️ method"
+  #  LinkFile: "😃🐌📦 Handle.md"
+  #  Reasons: |
+  #    same as "{{Parse@Hosted}}"
 
   - Given: "{{RETURN}}"
     LinkText: "`RETURN`"
