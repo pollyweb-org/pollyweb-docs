@@ -2,7 +2,7 @@
 
 > Part of [Talker 😃](<../../../😃 Talker role.md>)
 
-> Referenced by the [😃⏩🧑‍💻 Wait ⏸️](<../../../😃⏩ Talker flows/😃⏩🧑‍💻 Wait ⏸️.md>) flow
+> Referenced by the [😃⏩🧑‍💻 Wait ⏸️](<../../../😃⏩ Talker flows/Wait 😃⏩🧑‍💻/😃 Wait ⏩ flow.md>) flow
 
 <br/>
 
@@ -202,7 +202,7 @@
         })
     ```    
 
-    The full interaction is described in the [😃⏩🧑‍💻 Wait ⏸️](<../../../😃⏩ Talker flows/😃⏩🧑‍💻 Wait ⏸️.md>) flow 
+    The full interaction is described in the [😃⏩🧑‍💻 Wait ⏸️](<../../../😃⏩ Talker flows/Wait 😃⏩🧑‍💻/😃 Wait ⏩ flow.md>) flow 
 
     ---
     <br/>

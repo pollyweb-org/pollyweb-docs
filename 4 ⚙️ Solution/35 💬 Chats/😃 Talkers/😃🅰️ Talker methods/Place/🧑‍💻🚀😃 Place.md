@@ -4,7 +4,7 @@
 
 > Implemented by the [`Place handler`](<.📎 Assets/Place 📃 handler.md>)
 
-> Part of [😃⏩🧑‍💻 Wait @ Talker](<../../😃⏩ Talker flows/😃⏩🧑‍💻 Wait ⏸️.md>) flow
+> Part of [😃⏩🧑‍💻 Wait @ Talker](<../../😃⏩ Talker flows/Wait 😃⏩🧑‍💻/😃 Wait ⏩ flow.md>) flow
 
 > Paired with [`Placed@Talker`](<../Placed/🧑‍💻🚀😃 Placed.md>) message
 
