@@ -4,7 +4,7 @@
 
 > Flow: 
 
-* Part of the [`Handle` ⏩ flow](<../../../../35 💬 Chats/😃 Talkers/😃⏩ Talker flows/😃⏩🧑‍💻 Handle 🐍.md>) 
+* Part of the [`Handle` ⏩ flow](<../../../../35 💬 Chats/😃 Talkers/😃⏩ Talker flows/Handle 😃⏩🧑‍💻/😃 Handle ⏩ flow.md>) 
 * Followed by the [`Handled@Talker` 🅰️ method](<../../../../35 💬 Chats/😃 Talkers/😃🅰️ Talker methods/Handled/🧑‍💻🐌😃 Handled.md>) 
 
 > Purpose: 
