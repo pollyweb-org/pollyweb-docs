@@ -720,6 +720,57 @@ def runit(project_directory, entryPoint):
                 file_link = f"\x1b]8;;{uri}\x1b\\{display}\x1b]8;;\x1b\\"
                 print(f" - {file_link} -> {{{{{token}}}}}")
         print("\nThese tokens were not replaced by the replacement passes.\n")
+        # Enforce any Failed Tests in links.yaml: either the token must not
+        # resolve to the listed WrongFile, and ideally it should resolve at all.
+        yaml_path = os.path.join(os.path.dirname(__file__), 'links.yaml')
+        with open(yaml_path, 'r') as f:
+            data = yaml.safe_load(f)
+
+        failed_tests = [t for t in data.get('Failed Tests', []) if 'Given' in t and 'WrongFile' in t]
+        failed_errors = []
+        for test in failed_tests:
+            raw = test['Given']
+            token = raw.strip()
+            if token.startswith('{{') and token.endswith('}}'):
+                token = token.strip('{}')
+            wrong = test['WrongFile']
+
+            # If token unresolved, that's a test failure (you asked replacements to run)
+            token_unresolved = any(token == found for hits in unresolved.values() for _, found in hits)
+            if token_unresolved:
+                failed_errors.append(f"Failed test for {raw}: token remained unresolved")
+                continue
+
+            # Otherwise compute what it would resolve to and fail if it matches the wrong file
+            result = compute_expected_replacement(token, raw, md_files, file_dict, project_directory)
+            if result is None:
+                failed_errors.append(f"Failed test for {raw}: could not compute expected replacement")
+                continue
+            _, path = result
+            if os.path.basename(path) == wrong:
+                failed_errors.append(f"Failed test for {raw}: resolved to wrong file {wrong}")
+
+        if failed_errors:
+            detail = '\n - '.join(failed_errors)
+            raise AssertionError(f"links.yaml Failed Tests failed:\n - {detail}")
+
+        # Enforce Successful Tests: tokens listed as successful must have been replaced
+        successful_tests = [t for t in data.get('Successful Tests', []) if 'Given' in t]
+        success_errors = []
+        for test in successful_tests:
+            raw = test['Given']
+            token = raw.strip()
+            if token.startswith('{{') and token.endswith('}}'):
+                token = token.strip('{}')
+
+            # if the token still appears in the unresolved map, it wasn't replaced
+            token_unresolved = any(token == found for hits in unresolved.values() for _, found in hits)
+            if token_unresolved:
+                success_errors.append(f"Successful test token {raw} still present in files (not replaced)")
+
+        if success_errors:
+            detail = '\n - '.join(success_errors)
+            raise AssertionError(f"links.yaml Successful Tests not fully applied:\n - {detail}")
 
 def test_immutable_token_replacements():
     """Test immutable token replacements that should always work the same way."""

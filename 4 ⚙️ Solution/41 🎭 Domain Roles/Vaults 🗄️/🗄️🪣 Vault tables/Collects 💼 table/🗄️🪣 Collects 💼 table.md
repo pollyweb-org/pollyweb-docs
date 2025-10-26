@@ -5,8 +5,8 @@
 
 > Data Access
 
-* Inserted by {{Disclose@Vault}}
-* Read by {{Collect@Vault}}
+* Inserted by [`Disclose@Vault` 🅰️ method](<../../🗄️🅰️ Vault methods/Disclose 🤵🐌🗄️/🗄️ Disclose 🐌 msg.md>)
+* Read by [`Collect@Vault` 🅰️ method](<../../🗄️🅰️ Vault methods/Collect 💼🚀🗄️/🗄️ Collect 🚀 request.md>)
 
 <br/>
 
