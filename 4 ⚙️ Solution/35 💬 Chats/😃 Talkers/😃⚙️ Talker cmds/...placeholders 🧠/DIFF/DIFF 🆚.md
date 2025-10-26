@@ -28,6 +28,13 @@
         To: <to>
     ```
 
+    ```yaml
+    # As an array
+    DIFF >> $diff:
+        - <from>
+        - <to>
+    ```
+
     | Arguments | Purpose | Examples
     |-|-|-
     | `<from>`  | Base value    | `1` `ABC` `.Today` 
@@ -43,7 +50,7 @@
 
     ```yaml
     # Process the period
-    - PERIOD|.Today|.Now >> $period
+    - DIFF|.Today|.Now >> $period
     
     # Show the total number of seconds since midnight
     - INFO|{$period.TotalSeconds} seconds from midnight:

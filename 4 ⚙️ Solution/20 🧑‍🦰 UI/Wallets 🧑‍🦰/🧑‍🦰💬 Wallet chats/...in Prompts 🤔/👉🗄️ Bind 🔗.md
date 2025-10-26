@@ -2,6 +2,7 @@
 
 # 🧑‍🦰👉🗄️ Bind Vault @ Wallet 
 
+> Purpose
 
 * While the user is in a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) with a [Vault 🗄️ host](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>),
     * creates a [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) 
