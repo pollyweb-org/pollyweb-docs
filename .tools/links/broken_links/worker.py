@@ -30,8 +30,12 @@ def _process_single_md_file(md_file: str):
     replacement_hits: list[tuple[int, str]] = []
     count = 0
 
-    with open(md_file, "r", encoding="utf-8") as handle:
-        content = handle.read()
+    try:
+        with open(md_file, "r", encoding="utf-8") as handle:
+            content = handle.read()
+    except FileNotFoundError:
+        # File may have been moved or removed; skip gracefully.
+        return (md_file, [], [], [], 0)
 
     if "\ufffd" in content or "�" in content:
         for line_no, line in enumerate(content.splitlines(), 1):

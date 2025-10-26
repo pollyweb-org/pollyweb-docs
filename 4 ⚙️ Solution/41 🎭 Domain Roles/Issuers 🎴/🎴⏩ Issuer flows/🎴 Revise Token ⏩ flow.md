@@ -20,7 +20,7 @@ Consider the following Chat excerpt from the [Pass gates at train station 🤝 u
 
 ## ⏪ Flow diagram
 
-![alt text](<../.📎 Assets/⚙️ Revise.png>)
+![alt text](<🎴 Revise Token ⏩ flow.png>)
 
 | # | Call | Notes
 |-|-|-
