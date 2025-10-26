@@ -14,15 +14,19 @@
 # Verify the signature
 - VERIFY|$.Msg
 
-# Get the data
-- WAIT|OnDisclose >> $data:
+# Get for the data
+- ASYNC|Disclosure >> $data:
     $.Msg
+
+# Get the data
+- WAIT|$data
 
 # Create the collect
 - SAVE|Collects@Vault >> $collect:
     Collect: .UUID
     Consumer: $.Msg.From
     Data: $data
+    .Delete: 5 minutes # Temporary
 
 # Send the Collect message
 - SEND:
@@ -35,4 +39,5 @@
 
 |Needs||
 |-|-
+| [Commands ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/Command ⌘.md>) | [`SAVE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/SAVE/SAVE 💾 item.md>) [`SEND`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...messages 📨/SEND 📬 msg.md>) [`VERIFY`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...messages 📨/VERIFY 🔐 msg.md>) [`WAIT`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...control ▶️/WAIT ⏸️/WAIT ⏸️.md>)
 |

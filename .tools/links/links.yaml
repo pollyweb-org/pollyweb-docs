@@ -234,3 +234,13 @@ Successful Tests:
     LinkText: "`Updated@Notifier` 🅰️ method"
     LinkFile: '📣 Updated 🐌 msg.md'
     Reasons: same as "{{Parse@Hosted}}"
+
+  - Given: '{{Bound@Vault}}'
+    LinkText: "`Bound@Vault` 🅰️ method"
+    LinkFile: '🗄️ Bound 🐌 msg.md'
+    Reasons: same as "{{Parse@Hosted}}"
+
+  - Given: '{{Disclose@Vault}}'
+    LinkText: "`Disclose@Vault` 🅰️ method"
+    LinkFile: '🗄️ Disclose 🐌 msg.md'
+    Reasons: same as "{{Parse@Hosted}}"

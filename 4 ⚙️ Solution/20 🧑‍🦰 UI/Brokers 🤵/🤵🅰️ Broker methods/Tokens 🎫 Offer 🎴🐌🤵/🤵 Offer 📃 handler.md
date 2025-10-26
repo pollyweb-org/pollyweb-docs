@@ -45,7 +45,7 @@
 
 # Save the Offer
 - SAVE|Offers@Broker:
-    .Timeout: 1 hour
+    .Delete: 1 hour
     Hook: $.Msg.Hook
     Issuer: $.Msg.From
     Issuer$: $translation.Domain

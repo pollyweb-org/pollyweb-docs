@@ -4,6 +4,7 @@ from pathlib import Path
 from typing import List, Optional, Tuple
 
 import yaml
+from urllib.parse import quote
 
 # Instructions on how to run this script:
 # > python3 -m venv .venv
@@ -694,6 +695,31 @@ def runit(project_directory, entryPoint):
 
         if not changes and not broken_links and not malformed_links and not replacement_char_hits:
             break
+
+    # After replacement passes, scan for any remaining unresolved {{...}} tokens and report them
+    token_pattern = re.compile(r"\{\{([^}]+)\}\}")
+    unresolved: dict[str, list[tuple[int, str]]] = {}
+    for path in md_files:
+        try:
+            text = Path(path).read_text(encoding="utf-8")
+        except Exception:
+            continue
+        for m in token_pattern.finditer(text):
+            # compute 1-based line number
+            line = text.count("\n", 0, m.start()) + 1
+            unresolved.setdefault(path, []).append((line, m.group(1)))
+
+    if unresolved:
+        print("\nUnresolved {{...}} tokens found in files:")
+        for p, hits in unresolved.items():
+            for line, token in hits:
+                abs_path = Path(p).resolve()
+                quoted_path = quote(abs_path.as_posix(), safe="/")
+                uri = f"vscode://file{quoted_path}:{line}"
+                display = f"{os.path.relpath(abs_path, project_directory)}:{line}"
+                file_link = f"\x1b]8;;{uri}\x1b\\{display}\x1b]8;;\x1b\\"
+                print(f" - {file_link} -> {{{{{token}}}}}")
+        print("\nThese tokens were not replaced by the replacement passes.\n")
 
 def test_immutable_token_replacements():
     """Test immutable token replacements that should always work the same way."""

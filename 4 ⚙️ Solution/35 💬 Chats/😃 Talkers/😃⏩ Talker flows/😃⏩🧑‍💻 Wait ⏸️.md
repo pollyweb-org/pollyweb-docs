@@ -10,7 +10,7 @@
 
 ## ⏩ Flow diagram
 
-![alt text](<../😃⚙️ Talker cmds/...control ▶️/WAIT ⏸️/.📎 Assets/Wait sequence.png>)
+![alt text](<../😃⚙️ Talker cmds/...control ▶️/WAIT ⏸️/.📎 Assets/WAIT ⚙️ sequence.png>)
 
 | # | Call | Description
 |-|-|-

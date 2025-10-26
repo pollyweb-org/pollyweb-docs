@@ -76,14 +76,14 @@
     # Comprehensive
     SAVE|$item: 
         {changes}
-        .Timeout: {period}
+        .Delete: {period}
     ```
 
     | Argument| Purpose | Examples
     |-|-|-
     | `$item` | [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) loaded with [`GET`](<../GET/GET ⏬ item.md>)
     | `{changes}` | Object with changes to apply | `{A:1, B:2}`
-    | `.Timeout` | Automatic delete for cleanup, in | `30 days`
+    | `.Delete` | Automatic delete for cleanup, in | `30 days`
     | | `minutes` `hours` `days` `months`
 
     ---

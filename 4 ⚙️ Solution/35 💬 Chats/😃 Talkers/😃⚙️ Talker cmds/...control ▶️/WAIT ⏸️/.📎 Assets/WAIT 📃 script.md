@@ -33,7 +33,7 @@
 - SAVE|Waits@Talker:
     Chat: $.Chat.Chat
     Signal: $:Signal 
-    .Timeout: $timeout
+    .Delete: $timeout
 ```
 
 Needs||
