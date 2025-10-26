@@ -59,7 +59,7 @@ The associated [Talker 😃](<../../../../35 💬 Chats/😃 Talkers/😃 Talker
 |2|[🤗⏩🧑‍🦰 Prompt 🤔](<../Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | [Brokers 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) may ask for user permission
 |3| [🤵🐌🛠️ `Invited@Helper`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲🅰️ Helper methods/🤵🐌🤲 Invited.md>) | Proxy  invites to [Helper 🤲](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>) invitees
 |4|[🤗⏩🧑‍🦰 Prompt 🤔](<../Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | Invitees continue the [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)
-|5|[🗄️⏩💼 Consume 🧩](<../../../Vaults 🗄️/🗄️⏩ Vault flows/Consume 🗄️⏩💼 flow/🗄️ Consume ⏩ flow.md>) | Invitees share the final result
+|5|[🗄️⏩💼 Consume 🧩](<../../../Vaults 🗄️/🗄️⏩ Vault flows/Consume 🗄️⏩💼/🗄️ Consume ⏩ flow.md>) | Invitees share the final result
 |
 
 <br/>
