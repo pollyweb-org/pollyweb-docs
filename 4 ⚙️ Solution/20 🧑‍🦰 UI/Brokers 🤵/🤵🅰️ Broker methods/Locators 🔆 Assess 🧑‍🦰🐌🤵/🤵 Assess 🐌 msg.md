@@ -1,6 +1,6 @@
 # 🧑‍🦰🐌🤵 Assess @ Broker
 
-> Implemented by [`Assess@Broker` 📃 script](<../../🤵⏩ Broker flows/Assess 🔆⏩🤵/🤵 Assess 📃 handler.md>)
+> Implemented by [`Assess@Broker` 📃 script](<🤵 Assess 📃 handler.md>)
 
 > Part of the [`Assess` ⏩ flow](<../../🤵⏩ Broker flows/Assess 🔆⏩🤵/🤵 Assess ⏩ flow.md>)
   
