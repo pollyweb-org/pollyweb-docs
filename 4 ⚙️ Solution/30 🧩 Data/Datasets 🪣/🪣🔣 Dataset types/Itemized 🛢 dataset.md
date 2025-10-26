@@ -3,7 +3,7 @@
 > Part of [Dataset 🪣](<../🪣 Dataset.md>)
 
 > Implemented by the [🛢🤲 Itemizer helper](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🤲 Itemizer helper.md>)
- with [`Build@Itemizer`](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/...for Tables/Build 👥🐌🛢/🛢 Build 🐌 msg.md>) 
+ with [`Build@Itemizer`](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/...for Tables/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>) 
 
 <br/>
 
@@ -240,7 +240,7 @@
 1. **How to work with triggers?**
 
     Triggers 
-    * are set on the [`Build@Itemized` 🅰️ method](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/...for Tables/Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
+    * are set on the [`Build@Itemized` 🅰️ method](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/...for Tables/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
     * and are consumed by the [`Triggered@Talker` 🅰️ method](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🔔 Itemizer events/🛢🔔 Triggered.md>)
 
     ---

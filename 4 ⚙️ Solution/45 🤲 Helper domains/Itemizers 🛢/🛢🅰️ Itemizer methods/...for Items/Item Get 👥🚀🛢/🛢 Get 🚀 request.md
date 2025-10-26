@@ -27,11 +27,11 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header    | `From`        | string    | [Talker 😃](<../../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) from [`Build@Itemizer`](<../../...for Tables/Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
-|           | `To`          | string    | [Itemizer 🛢](<../../../🛢🤲 Itemizer helper.md>) from [`Build@Itemizer`](<../../...for Tables/Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
+| Header    | `From`        | string    | [Talker 😃](<../../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) from [`Build@Itemizer`](<../../...for Tables/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
+|           | `To`          | string    | [Itemizer 🛢](<../../../🛢🤲 Itemizer helper.md>) from [`Build@Itemizer`](<../../...for Tables/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
 |           | `Subject`     | string    | `Get@Itemizer`
-| Body      | `Set`     | string    | Set from [`Build@Itemizer`](<../../...for Tables/Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
-|           | `Key`        | string    | Key from [`Save@Itemizer`](<../Save 👥🚀🛢/🛢 Save 🚀 request.md>)
+| Body      | `Set`     | string    | Set from [`Build@Itemizer`](<../../...for Tables/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
+|           | `Key`        | string    | Key from [`Save@Itemizer`](<../Item Save 👥🚀🛢/🛢 Save 🚀 request.md>)
 |
 
 
@@ -48,6 +48,6 @@ Body:
 ||Property|Type|Description
 |-|-|-|-
 || `.Table`   | string | Table name for the [`.SAVE` 📃 script](<../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/SAVE/.📎 Assets/SAVE 📃 script.md>)
-|| `.Version` | uuid   | Version for [`Save@Itemizer`](<../Save 👥🚀🛢/🛢 Save 🚀 request.md>)
-|| `{Item object}`        | object    | [Item 🛢](<../../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) saved on [`Save@Itemizer`](<../Save 👥🚀🛢/🛢 Save 🚀 request.md>)
+|| `.Version` | uuid   | Version for [`Save@Itemizer`](<../Item Save 👥🚀🛢/🛢 Save 🚀 request.md>)
+|| `{Item object}`        | object    | [Item 🛢](<../../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) saved on [`Save@Itemizer`](<../Item Save 👥🚀🛢/🛢 Save 🚀 request.md>)
 |
