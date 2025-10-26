@@ -25,10 +25,10 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header    | `From`        | string    | [Talker 😃](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) from [`Delete@Itemizer`](<👥🚀🛢 Delete.md>)
-|           | `To`          | string    | [Itemizer 🛢](<../../🛢🤲 Itemizer helper.md>) from [`Delete@Itemizer`](<👥🚀🛢 Delete.md>)
+| Header    | `From`        | string    | [Talker 😃](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) from [`Delete@Itemizer`](<👥🚀🛢 Delete/👥🚀🛢 Delete.md>)
+|           | `To`          | string    | [Itemizer 🛢](<../../🛢🤲 Itemizer helper.md>) from [`Delete@Itemizer`](<👥🚀🛢 Delete/👥🚀🛢 Delete.md>)
 |           | `Subject`     | string    | `Undo@Itemizer`
 | Body    | `Script`     | string    | [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) for traceability
-|         | `Set`    | string  | `Set` from [`Delete@Itemizer`](<👥🚀🛢 Delete.md>) 
-|         | `Key`     | string[]  | `Key` from [`Delete@Itemizer`](<👥🚀🛢 Delete.md>)
+|         | `Set`    | string  | `Set` from [`Delete@Itemizer`](<👥🚀🛢 Delete/👥🚀🛢 Delete.md>) 
+|         | `Key`     | string[]  | `Key` from [`Delete@Itemizer`](<👥🚀🛢 Delete/👥🚀🛢 Delete.md>)
 |
