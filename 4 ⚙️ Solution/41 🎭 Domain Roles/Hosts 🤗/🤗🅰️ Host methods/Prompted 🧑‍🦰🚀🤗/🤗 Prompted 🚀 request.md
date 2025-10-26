@@ -1,6 +1,6 @@
 # 🧑‍🦰🚀🤗 Prompted @ Host
 
-> Implemented by the [`Prompt` 📃 script](<../../🤗📃 Host scripts/...procedures/🤗📃 Prompt proc.md>)
+> Implemented by the [`Prompt` 📃 script](<../../🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt 📃 proc.md>)
 
 > Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../../🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) flow
 
