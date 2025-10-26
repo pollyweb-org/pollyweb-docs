@@ -58,28 +58,6 @@ Successful Tests:
       or is in a subfolder of such folder.
 
 
-#  - Given: '{{Parse@Hosted}}'
-#    LinkText: "`Parse@Hosted` 🅰️ method"
-#    LinkFile: "😃🐌📦 Parse.md"
-#    Reasons: |
-#      For `X@Y`, 
-#      where the string is split by `@` into `X` and `Y`,
-#      the file is called `*X*.md 
-#      and in a folder called `*Y*methods*`
-#      or is in a subfolder of such folder.
-
-  #- Given: '{{Prompt@Broker}}'
-  #  LinkText: "`Prompt@Broker` 🅰️ method"
-  #  LinkFile: "🤗🐌🤵 Prompt.md"
-  #  Reasons: |
-  #    same as "{{Parse@Hosted}}"
-
-  #- Given: '{{Handle@Hosted}}'
-  #  LinkText: "`Handle@Hosted` 🅰️ method"
-  #  LinkFile: "😃🐌📦 Handle.md"
-  #  Reasons: |
-  #    same as "{{Parse@Hosted}}"
-
   - Given: "{{RETURN}}"
     LinkText: "`RETURN`"
     LinkFile: "RETURN ⤴️.md"
@@ -169,20 +147,6 @@ Successful Tests:
     LinkFile: "💵🎭 Seller role.md"
     Reasons: This is hardcoded.
 
-#  - Given: '{{Prompted@Hosted}}'
-#    LinkText: "`Prompted@Hosted` 🅰️ method"
-#    LinkFile: '🧑‍🦰🚀🤗 Prompted.md'
-#    Reasons: same as "{{Parse@Hosted}}"
-
-#  - Given: '{{Build@Itemized}}'
-#    LinkText: "`Build@Itemized` 🅰️ method"
-#    LinkFile: '👥🐌🛢 Build.md'
-#    Reasons: same as "{{Parse@Hosted}}"
-
-#  - Given: '{{Updated@Notifier}}'
-#    LinkText: "`Updated@Notifier` 🅰️ method"
-#    LinkFile: 'Updated 🐌 msg.md'
-#    Reasons: same as "{{Parse@Hosted}}"
 
   - Given: '{{{.UUID}}}'
     LinkText: "`{.UUID}`"
@@ -214,19 +178,59 @@ Successful Tests:
     LinkFile: '😃🪣 Holders 🧠 table.md'
     Reasons: same as {{Hooks table}}.
 
-#  - Given: "{{Consume flow}}"
-#    LinkText: "`Consume` ⏩ flow"
-#    LinkFile: '🗄️⏩💼 Consume 🔗 flow.md'
-#    Reasons:
-#      It's under a "*flows" folder,
-#      the file name contains the emoji "⏩",
-#      and the file name ends with "flow.md".
+  - Given: "{{Consume flow}}"
+    LinkText: "`Consume` ⏩ flow"
+    LinkFile: '🗄️ Consume ⏩ flow.md'
+    Reasons:
+      It's under a "*flows" folder,
+      the file name contains the emoji "⏩",
+      and the file name ends with "flow.md".
 
-#  - Given: "{{Assess handler}}"
-#    LinkText: "`Assess` 📃 handler"
-#    LinkFile: 'Assess 📃 handler.md'
-#    Reasons: 
-#      For `{{WORD handler}}`,
-#      where the string ends with the word `handler`,
-#      the file contains the emoji "📃",
-#      the file is called `*WORD* handler.md`.
+  - Given: "{{Assess handler}}"
+    LinkText: "`Assess` 📃 handler"
+    LinkFile: '🤵 Assess 📃 handler.md'
+    Reasons: 
+      For `{{WORD handler}}`,
+      where the string ends with the word `handler`,
+      the file contains the emoji "📃",
+      the file is called `*WORD* handler.md`.
+
+
+  - Given: '{{Parse@Hosted}}'
+    LinkText: "`Parse@Hosted` 🅰️ method"
+    LinkFile: "📦 Parse 🐌 msg.md"
+    Reasons: |
+      For `X@Y`, 
+      where the string is split by `@` into `X` and `Y`,
+      the file is called `*X*.md,
+      and the file ends in either "🐌 msg.md" or "🚀 request.md",
+      and is in a folder called `*Y*methods*`
+      or is in a subfolder of such folder.
+
+  - Given: '{{Prompt@Broker}}'
+    LinkText: "`Prompt@Broker` 🅰️ method"
+    LinkFile: "🤵 Prompt 🐌 msg.md"
+    Reasons: |
+      same as "{{Parse@Hosted}}"
+
+  - Given: '{{Handle@Hosted}}'
+    LinkText: "`Handle@Hosted` 🅰️ method"
+    LinkFile: "📦 Handle 🐌 msg.md"
+    Reasons: |
+      same as "{{Parse@Hosted}}"
+
+
+  - Given: '{{Prompted@Hosted}}'
+    LinkText: "`Prompted@Hosted` 🅰️ method"
+    LinkFile: '🤗 Prompted 🚀 request.md'
+    Reasons: same as "{{Parse@Hosted}}"
+
+  - Given: '{{Build@Itemized}}'
+    LinkText: "`Build@Itemized` 🅰️ method"
+    LinkFile: '🛢 Build 🐌 msg.md'
+    Reasons: same as "{{Parse@Hosted}}"
+
+  - Given: '{{Updated@Notifier}}'
+    LinkText: "`Updated@Notifier` 🅰️ method"
+    LinkFile: '📣 Updated 🐌 msg.md'
+    Reasons: same as "{{Parse@Hosted}}"
