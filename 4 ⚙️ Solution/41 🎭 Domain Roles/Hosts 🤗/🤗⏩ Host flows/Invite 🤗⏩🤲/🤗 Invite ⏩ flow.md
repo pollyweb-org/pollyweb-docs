@@ -1,15 +1,19 @@
 # 🤗⏩🧑‍🦰 Invite @ Host
 
+> Purpose
+
 * A [Host 🤗 domain](<../../🤗🎭 Host role.md>) 
     * invites a [Helper 🤲 domain](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>) 
     * to a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>).
   
-* Used in:
-    * [💼⏩🧑‍🦰 Share Token+ID @ Consumer](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Token+ID.md>) flow
-  
-* Examples: 
-    * [Split bill at a restaurant 🍽️](<../../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/74 💳 Pay: Split bill ✂️.md>) use case
-    * [Confused senior user 👴🏻](<../../../../25 🔆 Locators/Userables 💍/💍⏩ Userable flows/💍📱 Senior user.md>) use case for [Userable 💍 things](<../../../../25 🔆 Locators/Userables 💍/💍💠 Userable thing.md>)
+> Used in
+
+* [💼⏩🧑‍🦰 Share Token+ID @ Consumer](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Token+ID.md>) flow
+
+> Examples
+
+* [Split bill at a restaurant 🍽️](<../../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/74 💳 Pay: Split bill ✂️.md>) use case
+* [Confused senior user 👴🏻](<../../../../25 🔆 Locators/Userables 💍/💍⏩ Userable flows/💍📱 Senior user.md>) use case for [Userable 💍 things](<../../../../25 🔆 Locators/Userables 💍/💍💠 Userable thing.md>)
 
 <br/>
 
