@@ -19,7 +19,7 @@
 
     ```yaml
     # Objects
-    - EVAL >> $output:
+    EVAL >> $output:
         {object}
     ```
 
@@ -34,7 +34,7 @@
 
     ```yaml
     # Functions
-    - EVAL|{function} >> $output:
+    EVAL|{function} >> $output:
         {input}
     ```
 
@@ -53,12 +53,12 @@
 
     ```yaml
     # Multi-position functions
-    - EVAL|f(1,A,$p):
+    EVAL|f(1,A,$p)
     ```
     
     ```yaml
     # Single-position functions
-    - EVAL|f:
+    EVAL|f:
         x: 1
         y: A
         z: $p
@@ -75,10 +75,10 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ The A placeholder has 3.
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ Placeholder B also has 3.
 
+    Here's the [Script 📃](<../...commands ⌘/Script 📃/📃 Script.md>).
 
     ```yaml
-    # 😃 Talker.
-    💬 Example:
+    📃 Example:
     
     # First message.
     - EVAL >> $A:
@@ -105,10 +105,10 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ The database now has 10 rows.
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 Add a database row? 
 
+    Here's the [Script 📃](<../...commands ⌘/Script 📃/📃 Script.md>).
 
     ```yaml
-    # 😃 Talker.
-    💬 Example:
+    📃 Example:
     - CONFIRM|Add a database row?
     - EVAL|addRow >> $count
     - SUCCESS|The database now has {$count} rows.
@@ -136,12 +136,13 @@
     | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ Welcome to Any Business! <br/> - We are a 3.6 M£ business  <br/> &nbsp;&nbsp; based out of London, UK.
+    |
 
+    Here's the [Script 📃](<../...commands ⌘/Script 📃/📃 Script.md>).
 
     ```yaml
-    # 😃 Talker.
-    💬 Example:
-    
+    📃 Example:
+
     # Prepare the data into an object.
     - EVAL >> $data:
         Input:
@@ -172,7 +173,11 @@
 
 1. **How to change a single property in a $placeholder?**
   
+    Here's the [Script 📃](<../...commands ⌘/Script 📃/📃 Script.md>).
+
     ```yaml
+    📃 Example:
+    
     # Create {a:1, b:2}
     - EVAL >> $p: 
         a: 1
@@ -193,7 +198,11 @@
 
     With a mix of dictionary values and [Placeholder 🧠](<$Placeholder 🧠.md>) surrounded with `:`.
     
+    Here's the [Script 📃](<../...commands ⌘/Script 📃/📃 Script.md>).
+
     ```yaml
+    📃 Example:
+
     - EVAL >> $partB:
         B: 2
 
@@ -242,6 +251,8 @@
     Here's the [Script 📃](<../...commands ⌘/Script 📃/📃 Script.md>).
 
     ```yaml
+    📃 Example:
+
     # Extract only A and B properties.
     - EVAL|$list >> $output:
         Alpha: A
@@ -284,6 +295,8 @@
     Here's the [Script 📃](<../...commands ⌘/Script 📃/📃 Script.md>).
 
     ```yaml   
+    📃 Example:
+    
     # Extract only A properties.
     - EVAL|$list >> $output:
         A
@@ -324,7 +337,9 @@
     
     Here's the [Script 📃](<../...commands ⌘/Script 📃/📃 Script.md>).
 
-    ```yaml   
+    ```yaml  
+    📃 Example:
+
     # Extract only properties A and B.
     - EVAL|$list >> $output:
         - A
@@ -374,10 +389,12 @@
 
     
     ```yaml
+    📃 Example:
+
     # Merge
     - EVAL|$items >> $merged:
         Item: ID
-        Supplier: Name
+        Supplier: Name #, other, another
             FROM $suppliers
             MATCH SupID, $suppliers.ID
     ```
@@ -397,11 +414,12 @@
 
     ```yaml
     # Syntax
-    EVAL|$list-1 >> $merged:
-        <original-property>: <list-1-property>
-        <merged-property>: <list-2-property>
-            FROM $list-2
-            MATCH <list-match-1>, $list-2.<list-match-2>
+    EVAL|$list-A >> $merged:
+        <original-property>: <list-A-property>
+        <merged-property>: 
+            <list-B-1-property>, <list-B-n-property>
+            FROM $list-B
+            MATCH <list-match-A>, $list-B.<list-match-B>
     ```
 
     <br/>
@@ -413,6 +431,8 @@
     Here's an example using the same lists as before.
 
     ```yaml
+    📃 Example:
+
     # Filter with a list of values
     #   List: X, Y
     - EVAL|X,Y >> $filtered:
@@ -448,6 +468,33 @@
     EVAL|$list-of-objects >> $filtered:
         FROM $list
         MATCH <object-property>, $list.<matching-property>
+    ```
+
+    ---
+    <br/>
+
+
+1. **How to work with lists?**
+
+    To insert a value in a lists, use  `+>` instead of `>>`.
+    ```yaml
+    📃 Example:
+    EVAL|A +> $list
+    EVAL|B +> $list
+    # Results in [A,B]
+    ```
+
+    ---
+    <br/>
+
+
+1. **How to imitate SQL queries?**
+
+    ```yaml
+    - EVAL >> $output-list:
+        Col1, Col2              # Similar to SELECT 
+        FROM $input-list        # Similar to FROM
+        MATCH Col3, $any-value  # Similar to WHERE
     ```
 
     ---

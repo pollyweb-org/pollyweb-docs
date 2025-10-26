@@ -25,7 +25,6 @@ Header:
     Subject: Bound@Vault
 
 Body:
-    Chat: <chat-uuid>
     Hook: <hook-uuid>
     Binds:
       - Bind: <bind-uuid>

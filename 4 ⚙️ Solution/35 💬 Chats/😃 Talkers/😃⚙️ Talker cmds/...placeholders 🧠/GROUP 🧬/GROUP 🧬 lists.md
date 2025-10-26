@@ -17,15 +17,16 @@
     ---
     <br/>
 
-1. **What's the syntax of GROUP for distincts?**
+1. **What's the syntax of GROUP for distinct values?**
 
     ```yaml
-    # Single list
+    # Property from a single list
     GROUP >> $distinct:
         $list.property
     ```
+    
     ```yaml
-    # Multiple lists
+    # Properties from multiple lists
     GROUP >> $distinct
         - $list-1.property-1
         - $list-n.property-n
@@ -39,3 +40,20 @@
     ---
     <br/>
 
+1. **What's the syntax of GROUP for distinct objects?**
+
+
+    ```yaml
+    # Objects from multiple lists
+    GROUP >> $distinct:
+        - $list-1
+        - $list-n
+    ```
+
+    Argument | Purpose 
+    |-|-
+    | `$list`  | Take every item of `$list`
+    | `$distinct`       | Group into the `$distinct` placeholder
+
+    ---
+    <br/>

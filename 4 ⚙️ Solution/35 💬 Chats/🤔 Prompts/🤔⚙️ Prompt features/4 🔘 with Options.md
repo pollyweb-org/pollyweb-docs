@@ -70,8 +70,10 @@
     |-|-|-
     | `<PROMPT>` | A [Prompt 🤔](<../🤔 Prompt.md>) format. | [`INFO`](<../🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`TEMP`](<../🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>)
     | `<statement>` |  Message to show to the user. | `Hi!`
-    | `<options>` | Comma-separated strings, or | `A,B,C`
-    || a comma-separated dictionary | `1:A,2:B`
+    | `<options>` | Comma-separated strings | `A,B,C`
+    || or a comma-sep dictionary  | `1:A,2:B`
+    || or a dictionary object  | `{1:A,2:B}`
+    || or a list of objects | `{A:1},{A:2}`
     
     ```yaml
     # One-line
@@ -82,7 +84,8 @@
     |-|-|-
     | `$selected` | Placeholder for the selection: | `$answer`
     || for string lists, returns the text | → `A` in `A,B,C`
-    || for dictionaries, returns the ID. | → `1` in `{1:A}`
+    || for dictionaries, returns the key | → `1` in `{1:A}`
+    || for object lists, the 1st property | → `1` in `[{K:1}]`
     
     ```yaml
     # Multi-line with a single options string
@@ -95,7 +98,8 @@
     |-|-|-
     | `<statement>` | Also allows interpolated strings. | `Hi {$name}!`
     | `<options>` | Also allows string array functions |`{f}` → `[A,B]`
-    |           | and object functions. | `{f}` → `{1:A}`
+    |           | and object functions | `{f}` → `{1:A}`
+    |           | and object list functions | `{f}` → `[{K:1}]`
     
     ```yaml
     # Multi-line with multiple strings
