@@ -6,7 +6,7 @@
 > Data Access
 
 * Inserted by {{Disclose@Vault}}
-* Read by [`Collect@Vault`](<../../../Payers/💳🅰️ Payer methods/🏦🐌💳 Collect.md>)
+* Read by {{Collect@Vault}}
 
 <br/>
 
