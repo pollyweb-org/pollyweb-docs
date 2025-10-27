@@ -1,0 +1,33 @@
+@startuml Handle
+
+participant "User 🧑" as user
+box Hoster ☁️ domain #FFFFFA
+    participant "Host 🤗" as host
+    participant "Talker 😃" as talker
+    participant "Script 📃" as script
+end box
+
+activate script
+    script --> talker: ONE 1️⃣
+deactivate script
+
+activate talker
+    talker --> user: ⏪ Prompt 🤔
+deactivate talker
+
+activate user
+    user --> host: Reply 🐌
+deactivate user
+    
+activate host
+    host --> talker:
+deactivate host
+
+activate talker
+    talker --> script: {$holder}
+deactivate talker
+
+activate script
+deactivate script
+
+@enduml

@@ -1,6 +1,5 @@
 @startuml Handle
 
-participant "User 🧑" as user
 box Hoster ☁️ domain #FFFFFA
     participant "Script 📃" as script
     participant "Talker 😃" as talker
@@ -8,7 +7,7 @@ end box
 participant "Hosted 📦" as hosted
 
 activate script
-    script --> user: ⏪ PROMPT 🤔
+    script --> talker: EVAL {X into $A}
     script --> talker: EVAL {function} 
 deactivate script
 
@@ -19,16 +18,27 @@ deactivate talker
     
 activate hosted
         
+    hosted -> talker: Placed 🚀 {$A}
 
-    hosted --> talker: Handled 🐌 {result}
+    activate talker
+        talker -> hosted: {X}
+    deactivate talker
+
+    hosted -> talker: Place 🚀 {Y into $B}
+
+    hosted --> talker: Handled 🐌 
 deactivate hosted
 
 activate talker
-    talker --> script: {$holder}
+    talker --> script: 
 deactivate talker
 
 activate script
-    script --> user: ⏪ PROMPT 🤔
+    script -> talker: EVAL {$B}
+activate talker
+    talker -> script: {Y}
+deactivate talker
 deactivate script
+
 
 @enduml
