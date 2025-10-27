@@ -2,14 +2,14 @@
 
 > Part of [Itemizer 🛢 helper](<../../🛢🤲 Itemizer helper.md>)
 
-> Implements the  [`DELETE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/DELETE/DELETE 🗑️ ⌘ cmd.md>) commands via the [`.DELETE` 📃 script](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/DELETE/.📎 Assets/DELETE 📃 script.md>).
+> Implements the  [`DELETE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>) commands via the [`.DELETE` 📃 script](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/DELETE 🗑️/🗑️ DELETE 📃 script.md>).
 
 > Purpose
 
 * Deletes items 
   * on an [Itemized 🛢 datasets](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>)
   * as requested by a [Talker 😃 domain](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>)
-  * via the [`.DELETE` 📃 script](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/DELETE/.📎 Assets/DELETE 📃 script.md>).
+  * via the [`.DELETE` 📃 script](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/DELETE 🗑️/🗑️ DELETE 📃 script.md>).
 
 <br/>
 
@@ -36,7 +36,7 @@ Body:
 | Body    | `Script`     | string    | [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) for traceability
 |         | `Set`    | string  | `Set` from [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
 |         | `Key`     | string[]  | Case insensitive keys
-|         | `Undo` | string  | Optional [`UNDO`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/UNDO/UNDO ↩️ ⌘ cmd.md>) time
+|         | `Undo` | string  | Optional [`UNDO`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/UNDO ↩️/↩️ UNDO ⌘ cmd.md>) time
 |
 
 <br/>

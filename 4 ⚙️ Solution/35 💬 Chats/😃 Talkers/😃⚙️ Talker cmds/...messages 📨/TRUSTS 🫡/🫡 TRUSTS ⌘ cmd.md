@@ -4,7 +4,7 @@
 
 > Part of [Talker 😃](<../../../😃 Talker role.md>)
 
-> Implemented by the [`.TRUSTS` 📃 script](<.📎 Assets/.TRUSTS 📃 script.md>)
+> Implemented by the [`.TRUSTS` 📃 script](<🫡 TRUSTS 📃 script.md>)
 
 
 <br/>

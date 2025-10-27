@@ -4,9 +4,9 @@
 
 > Part of [Talker 😃](<../../../😃 Talker role.md>)
 
-> Implemented by the [`.UNDO` 📃 script](<.📎 Assets/UNDO 📃 script.md>)
+> Implemented by the [`.UNDO` 📃 script](<↩️ UNDO 📃 script.md>)
 
-> Cancels a soft [`DELETE` 🗑️ command](<../DELETE/DELETE 🗑️ ⌘ cmd.md>)
+> Cancels a soft [`DELETE` 🗑️ command](<../DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>)
 
 <br/>
 
@@ -15,7 +15,7 @@
     An `UNDO` ↩️
     * is a [Command ⌘](<../../...commands ⌘/Command ⌘/Command ⌘.md>) 
     * that revers the removal of item in an [Itemized 🛢 dataset](<../../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>)
-    * that occurred with a soft [`DELETE`](<../DELETE/DELETE 🗑️ ⌘ cmd.md>).
+    * that occurred with a soft [`DELETE`](<../DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>).
 
     ---
     <br/>
@@ -29,7 +29,7 @@
 
     | Argument| Purpose 
     |-|-
-    | `$deleted`| [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) returned by [`DELETE`](<../DELETE/DELETE 🗑️ ⌘ cmd.md>)
+    | `$deleted`| [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) returned by [`DELETE`](<../DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>)
 
     ---
     <br/>
@@ -52,7 +52,7 @@
         - UNDO|$deleted
     ```
 
-    Commands: [`CASE`](<../../...control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`DELETE`](<../DELETE/DELETE 🗑️ ⌘ cmd.md>) [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
+    Commands: [`CASE`](<../../...control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`DELETE`](<../DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>) [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
 
     ---
     <br/>
