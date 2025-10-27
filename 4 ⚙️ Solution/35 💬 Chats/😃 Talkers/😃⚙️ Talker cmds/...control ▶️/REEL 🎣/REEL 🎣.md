@@ -40,7 +40,7 @@
 
     | Argument| Purpose |
     |-|-
-    | `$hook`| [Hooks 🪣 item](<../../../😃🪣 Talker tables/😃🪣 Hooks 🪝 table.md>) saved by the [Command ⌘](<../../...commands ⌘/Command ⌘/Command ⌘.md>) | -
+    | `$hook`| [Hooks 🪣 item](<../../../😃🪣 Talker tables/😃🪣 TalkerHooks 🪝 table.md>) saved by the [Command ⌘](<../../...commands ⌘/Command ⌘/Command ⌘.md>) | -
     | `{response}` | [Command ⌘](<../../...commands ⌘/Command ⌘/Command ⌘.md>) output to a [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>)
 
     ---
@@ -79,7 +79,7 @@
 
     | [Command ⌘](<../../...commands ⌘/Command ⌘/Command ⌘.md>) | Purpose
     |-|-
-    | ⏬ [`GET`](<../../...datasets 🪣/GET/GET ⏬ item.md>) | Get the [`Hook` 🪣](<../../../😃🪣 Talker tables/😃🪣 Hooks 🪝 table.md>) from [`Bindable@Broker`](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>)  
+    | ⏬ [`GET`](<../../...datasets 🪣/GET/GET ⏬ item.md>) | Get the [`Hook` 🪣](<../../../😃🪣 Talker tables/😃🪣 TalkerHooks 🪝 table.md>) from [`Bindable@Broker`](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>)  
     
 
     ---

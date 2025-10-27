@@ -22,7 +22,7 @@ Parents:
 | Link | Table | Contains
 |-|-|-
 | Parents   | [`Wallets` 🪣](<../Wallets 🧑‍🦰 table/🤵 Wallets 🪣 table.md>) | [Wallets 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
-|           | [`Domains` 🪣](<../Domains 👥 table/🤵 Domains 🪣 table.md>) | [domains 👥](<../../../../40 👥 Domains/👥 Domain.md>)
+|           | [`Domains` 🪣](<../Domains 👥 table/🤵 BrokerDomains 🪣 table.md>) | [domains 👥](<../../../../40 👥 Domains/👥 Domain.md>)
 |
 
 <br/>
