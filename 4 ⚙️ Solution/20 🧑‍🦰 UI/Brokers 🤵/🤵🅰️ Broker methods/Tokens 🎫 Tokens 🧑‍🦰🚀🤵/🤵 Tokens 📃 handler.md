@@ -5,9 +5,15 @@
 [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that implements the [`Tokens@Broker` 🅰️ method](<🤵 Tokens 🚀 request.md>)
 
 
-## Handler
+## Flow
+
+![alt text](<🤵 Tokens ⚙️ uml.png>)
+
+## Script
 
 ```yaml
+📃 Tokens@Broker:
+
 # The the wallet item
 - GET >> $wallet:
     Set: BrokerWallets

@@ -1,0 +1,44 @@
+@startuml Tokens@Broker
+
+ 
+participant "Wallet 👱" as wallet
+
+box Hoster ☁️ domain #FFFFFA
+    participant "Broker 🤵" as broker
+end box
+
+box Itemizer 🛢 domain #FFFFFA
+    participant "Wallets" as wallets
+    participant "Bind" as binds
+    participant "Chats" as chats
+    participant "Tokens" as tokens
+end box
+
+participant "Graph" as graph
+
+activate wallet
+wallet --> broker: Language 🚀
+deactivate wallet
+
+activate broker
+    broker -> wallets: GET {wallet}
+
+    activate wallets
+        wallets -> binds: 
+        wallets -> chats: 
+        wallets -> tokens: 
+        wallets -> broker: 
+    deactivate wallets
+
+    broker -> graph: SEND: Translate 🚀
+    
+    broker -> binds: PARALLEL: SAVE {translations}
+    broker -> chats: 
+    broker -> tokens: 
+    broker -> wallets: SAVE {language}
+
+    broker -> broker: RUN: UpdateNotifier
+deactivate broker
+
+
+@enduml 
