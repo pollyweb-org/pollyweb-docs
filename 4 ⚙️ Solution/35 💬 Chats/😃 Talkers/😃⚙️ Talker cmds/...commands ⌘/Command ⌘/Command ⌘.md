@@ -109,7 +109,7 @@
 
     Command | Purpose
     |-|-
-    | ⏯️️ [`CASE`](<../../...control ▶️/CASE ⏯️/CASE ⏯️.md>) | Runs a [Command ⌘](<Command ⌘.md>) or [Script 📃](<../Script 📃/📃 Script.md>) based on a [{Function} 🐍](<../../...functions 🐍/{Function} 🐍.md>).
+    | ⏯️️ [`CASE`](<../../...control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | Runs a [Command ⌘](<Command ⌘.md>) or [Script 📃](<../Script 📃/📃 Script.md>) based on a [{Function} 🐍](<../../...functions 🐍/{Function} 🐍.md>).
     | 🫥 [`EMOJI`](<../../../../🤔 Prompts/🤔✏️ Prompt input features/😶⌘ EMOJI cmd.md>) | Changes the [default emoji 😃](<../../../../🤔 Prompts/🤔✏️ Prompt input features/😶 Input emojis.md>) for [input prompts ✏️](<../../../../🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>).
     | ⬇️ [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️ flow.md>) | Evaluates a [{Function}](<../../...functions 🐍/{Function} 🐍.md>) into a placeholder.
     | ⤵️ [`IF`](<../../...control ▶️/IF ⤵️/IF ⤵️.md>) | Runs a [Command ⌘](<Command ⌘.md>) or [Script 📃](<../Script 📃/📃 Script.md>) based on a [{Function} 🐍](<../../...functions 🐍/{Function} 🐍.md>).

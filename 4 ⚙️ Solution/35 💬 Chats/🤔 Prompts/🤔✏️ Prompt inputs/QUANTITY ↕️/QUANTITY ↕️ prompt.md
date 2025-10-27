@@ -162,7 +162,7 @@
     |-|-
     | ℹ️ [`INFO`](<../../🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the result.
     | 1️⃣ [`ONE`](<../ONE 1️⃣/ONE 1️⃣ prompt.md>) | To show the options.
-    | ⏯️️ [`CASE`](<../../../😃 Talkers/😃⚙️ Talker cmds/...control ▶️/CASE ⏯️/CASE ⏯️.md>) | To check the selected option.
+    | ⏯️️ [`CASE`](<../../../😃 Talkers/😃⚙️ Talker cmds/...control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | To check the selected option.
     | ⏳ [`TEMP`](<../../🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>) | To show work in progress.
     
 
