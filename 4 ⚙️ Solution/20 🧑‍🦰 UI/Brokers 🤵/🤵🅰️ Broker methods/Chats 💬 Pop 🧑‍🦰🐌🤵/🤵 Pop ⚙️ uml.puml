@@ -1,0 +1,31 @@
+@startuml Pop@Broker
+
+ 
+participant "Wallet 👱" as wallet
+
+box Hoster ☁️ domain #FFFFFA
+    participant "Broker 🤵" as broker
+    participant "Wallets 🪣" as wallets
+    participant "Bind 📃" as bind
+    participant "Token 📃" as token
+    participant "Vault 📃" as vault
+end box
+
+activate wallet
+wallet --> broker: Pop 🐌
+deactivate wallet
+
+activate broker
+    broker -> wallets: GET {wallet}
+
+    alt Context {bind}
+        broker -> bind: RUN
+    else Context {token}
+        broker -> token: RUN
+    else Context {vault}
+        broker -> vault: RUN
+    end
+    
+deactivate broker
+
+@enduml 

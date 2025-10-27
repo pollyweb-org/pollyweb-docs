@@ -4,6 +4,10 @@
 
 <br/>
 
+## Flow
+
+![alt text](<🤵 Binds ⚙️ uml.png>)
+
 ## Script
 
 ```yaml
