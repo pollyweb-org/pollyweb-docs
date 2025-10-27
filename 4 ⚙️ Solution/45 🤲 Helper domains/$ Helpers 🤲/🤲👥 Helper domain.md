@@ -122,10 +122,10 @@
     | 📝 [`INFORM`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/INFORM 📝/INFORM 📝 msg.md>) | To provide instructions
     | 🔗 [`BIND`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/BIND 🔗/BIND 🔗 cmd.md>) | To create a user profile
     | 🛠️ [`INVITE`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/INVITE 🤲/INVITE 🤲 msg.md>) | To subscribe the user to plan
-    | ❄️ [`FREEZE`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/FREEZE/FREEZE ❄️ msg.md>) | To disable past inputs
+    | ❄️ [`FREEZE`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/FREEZE/FREEZE ❄️ cmd.md>) | To disable past inputs
     | ⬇️ [`EVAL`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/EVAL ⬇️ flow.md>) | To register on the database
     | ✅ [`SUCCESS`](<../../35 💬 Chats/🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) | To say that it was successful
-    | 👋 [`GOODBYE`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/GOODBYE 👋/GOODBYE 👋 msg.md>) | To show advertising
+    | 👋 [`GOODBYE`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/GOODBYE 👋/GOODBYE 👋 cmd.md>) | To show advertising
     
 
     ---

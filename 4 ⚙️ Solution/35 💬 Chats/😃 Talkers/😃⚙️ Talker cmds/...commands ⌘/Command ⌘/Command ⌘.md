@@ -76,7 +76,7 @@
     |-|-
     | 🔗 [`BIND`](<../../...methods 🤵/BIND 🔗/BIND 🔗 cmd.md>) | Calls the [Bind Vault @ Wallet ⏩](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🗄️ Bind 🔗.md>) flow.
     | 🎫 [`ISSUE`](<../../...methods 🤵/ISSUE 🎫/ISSUE 🎫 msg.md>) | Calls the [Save Token @ Wallet ⏩](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🎴 Save token.md>) flow.
-    | 👋 [`GOODBYE`](<../../...methods 🤵/GOODBYE 👋/GOODBYE 👋 msg.md>) | Calls the [Goodbye @ Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Goodbye 🤗⏩👋/🤗 Goodbye ⏩ flow.md>) ⏩ flow.
+    | 👋 [`GOODBYE`](<../../...methods 🤵/GOODBYE 👋/GOODBYE 👋 cmd.md>) | Calls the [Goodbye @ Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Goodbye 🤗⏩👋/🤗 Goodbye ⏩ flow.md>) ⏩ flow.
     | 📜 [`FLOW`](<../../...methods 🤵/INFORM 📝/INFORM 📝 msg.md>)
     | 💳 [`CHARGE`](<../../...methods 🤵/CHARGE/CHARGE 💳 msg.md>)
     | 💼 [`SHARE`](<../../...methods 🤵/SHARE 💼/SHARE 💼 msg.md>)

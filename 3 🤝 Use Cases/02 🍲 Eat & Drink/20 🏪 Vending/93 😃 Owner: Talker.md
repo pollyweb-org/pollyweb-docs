@@ -110,7 +110,7 @@ TODO: Add the flow to the Manifest
 |Message| 💼 [`SHARE`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/SHARE 💼/SHARE 💼 msg.md>) | Ask for proof of over 21
 || 💳 [`CHARGE`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/CHARGE/CHARGE 💳 msg.md>) | Charge the item price
 || 🏦 [`REFUND`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/REFUND 🏦/REFUND 🏦 msg.md>) | Refund the payment on failure
-|| 👋 [`GOODBYE`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/GOODBYE 👋/GOODBYE 👋 msg.md>) | Show ads on success
+|| 👋 [`GOODBYE`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/GOODBYE 👋/GOODBYE 👋 cmd.md>) | Show ads on success
 || 🛰️ [`RELAY`](<../../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/RELAY 🛰️/RELAY 🛰️ msg.md>) | Relay messages to  machines
 |
 
