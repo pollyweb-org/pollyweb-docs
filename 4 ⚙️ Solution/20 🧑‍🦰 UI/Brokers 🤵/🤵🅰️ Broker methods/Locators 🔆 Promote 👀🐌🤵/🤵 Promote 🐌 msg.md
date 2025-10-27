@@ -1,6 +1,6 @@
 # 👀🐌🤵 Promote @ Broker
  
-> Used in [👀⏩🧑‍🦰 Advertise](<../../../../45 🤲 Helper domains/Advertisers 👀/👀⏩ Advertiser flows/👀⏩🧑‍🦰 Advertise.md>)
+> Used in [👀⏩🧑‍🦰 Advertise](<../../../../45 🤲 Helper domains/Advertisers 👀/👀⏩ Advertiser flows/Advertise 👀⏩🧑‍🦰/👀 Advertise ⏩ flow.md>)
 
 * [Advertiser 👀 helper domains](<../../../../45 🤲 Helper domains/Advertisers 👀/👀🤲 Advertiser helper.md>) 
     * ask [Broker 🤵 domains](<../../🤵🤲 Broker helper.md>) 
