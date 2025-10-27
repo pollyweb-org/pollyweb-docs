@@ -8,14 +8,15 @@ box Hoster ☁️ domain #FFFFFA
 end box
 participant "Hosted 📦" as hosted
 
-script --> talker: ASYNC 👷🏼
+script -> talker: ASYNC 👷🏼
 activate script
 activate talker
 
 talker --> hosted:  Handle 🐌 {task, hook}
+activate hosted
+talker -> script: {hook}
 deactivate talker
 
-activate hosted
 script --> user: ⏪ TEMP ⏳ {started}
 
 script --> talker: WAIT ⏸️ {hook}
@@ -23,7 +24,7 @@ deactivate script
 
 hosted --> talker: Handled 🐌 {hook, partial}
 activate talker
-    talker --> script:
+    talker --> script: REEL 🎣 {hook}
 deactivate talker
 
 activate script
@@ -36,7 +37,7 @@ deactivate script
 deactivate hosted
 
 activate talker
-    talker --> script:
+    talker --> script: REEL 🎣 {hook}
 deactivate talker
 
 activate script 

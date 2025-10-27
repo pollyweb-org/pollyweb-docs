@@ -9,22 +9,21 @@ participant "Hosted 📦" as hosted
 
 activate script
     script --> user: ⏪ PROMPT 🤔
-    script --> talker: EVAL {function} 
+    script -> talker: EVAL {function} 
 deactivate script
 
 
 activate talker
-    talker --> hosted: Handle 🐌 {function}
+    talker --> hosted: Handle 🐌 {function, hook}
+activate hosted
+    talker -> talker: WAIT ⏸️ {hook}
 deactivate talker
     
-activate hosted
-        
-
-    hosted --> talker: Handled 🐌 {result}
+    hosted --> talker: Handled 🐌 {hook, result}
 deactivate hosted
 
 activate talker
-    talker --> script: {$holder}
+    talker --> script: REEL 🎣 {hook}
 deactivate talker
 
 activate script
