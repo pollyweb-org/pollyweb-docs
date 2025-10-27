@@ -2,6 +2,10 @@
 
 # 🤵🐌🤗 Hello @ Host
 
+> Implementation
+
+* Implemented by the [`Hello` 📃 handler](<🤗 Hello 📃 handler.md>)
+
 > Purpose
 * Starts a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) with a [Host 🤗 domain](<../../🤗🎭 Host role.md>).
 
@@ -54,30 +58,3 @@ Body:
 |
 
 <br/>
-
-## Handler
-
-```yaml
-# Check if the Broker is trustworthy
-- TRUSTS: $.Msg.From
-    Schema: .HOST/HELLO
-
-# Save the data
-- SAVE|HostChats:
-    Broker: $.Msg.From
-    
-    # It's safe to save the Body, 
-    #   it's already schema-validated.
-    :$.Msg.Body:  
-
-# Start a Chat for the locator
-- TALK|$.Msg.Chat|$.Msg.Locator
-```
-
-| [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
-|-|-
-| 📨 [`$.Msg`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...messages 📨/$.Msg 📨.md>) | Read the incoming [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>)
-| 💾 [`SAVE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | Save the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) into the [Chats 🪣 table](<../../🤗🪣 Host tables/Chats 💬 table/🤗 HostChats 🪣 table.md>)
-| 😃 [`TALK`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...control ▶️/TALK 😃/😃 TALK ⌘ cmd.md>) | Start a [Talker 😃](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>)
-| 🫡 [`TRUSTS`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...messages 📨/TRUSTS 🫡/🫡 TRUSTS ⌘ cmd.md>) | Assert a [Trust 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) on 
-|

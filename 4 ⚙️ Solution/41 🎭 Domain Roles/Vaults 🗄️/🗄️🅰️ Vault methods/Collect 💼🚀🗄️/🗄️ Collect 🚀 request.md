@@ -3,7 +3,10 @@
 
 # 💼🚀🗄️ Collect @ Vault
 
-> Part of the [`Consume flow`](<../../🗄️⏩ Vault flows/Consume 🗄️⏩💼/🗄️ Consume ⏩ flow.md>)
+> Flow
+* Part of the [`Consume flow`](<../../🗄️⏩ Vault flows/Consume 🗄️⏩💼/🗄️ Consume ⏩ flow.md>)
+* Preceded by [`Consume@Consumer`](<../../../Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
+
 
 > Purpose
 
@@ -12,7 +15,6 @@
 > Used by 
 * [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Bind 🔗.md>)
 
-> Preceded by [`Consume@Consumer`](<../../../Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
 
 <br/>
 
@@ -38,6 +40,19 @@ Body:
 
 <br/>
 
+
+## Synchronous Response
+
+```yaml
+Schema: airlines.any-igo.dom/SSR/WCH:1    
+Data: {...}
+```
+
+||Property|Type|Description
+|-|-|-|-
+|| `Schema`| string |  [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) of the data
+|| `Data` | any | Data shared
+|
  
 ## FAQ
 

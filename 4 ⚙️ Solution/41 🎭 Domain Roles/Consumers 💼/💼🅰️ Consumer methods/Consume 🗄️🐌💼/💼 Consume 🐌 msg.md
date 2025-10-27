@@ -1,9 +1,13 @@
 <!-- https://quip.com/UbokAEferibV#temp:C:Yfbbd64684ba1df4ea683cf4e49b -->
 # 🗄️🐌💼 Consume @ Consumer
 
+> Implementation
+* Implemented by the [`Consume` 📃 handler](<🗄️ Consume 📃 handler.md>)
 
-> Used by [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Bind 🔗.md>)
+> Used by
+* [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Bind 🔗.md>)
 
+> Purpose
 * Asks the [Consumer 💼 domain](<../../💼🎭 Consumer role.md>) to consume a given [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>).
 * Tells them to collect data shared by a user in a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>).
 
@@ -19,26 +23,22 @@ Header:
     Subject: Consume@Consumer
 
 Body:
-    Broker: any-broker.dom
-    Chat: <chat-uuid>
-    Schema: airlines.any-igo.dom/SSR/WCH:1
     Hook: <hook-uuid>
     Collect: <collect-uuid>
+    Schema: airlines.any-igo.dom/SSR/WCH:1    
     TTL: 2023-04-01T05:00:30.001000Z
 ```
 
 
-|Property|Type|Description
-|-|-|-
-| `From`| string | [Vault 🗄️ domain](<../../../Vaults 🗄️/🗄️🎭 Vault role.md>) name
-| `To`| string | [Consumer 💼 domain](<../../💼🎭 Consumer role.md>) name
-| `Subject` | string | `Consume@Consumer`
-| `Broker`| string | [Broker 🤵 domain](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) name
-| `Chat` | uuid | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID
-| `Schema`| string |  [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
-| `Hook` | uuid | From [`Query@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) and [`Invite@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)
-| `Collect` | uuid | Hook for [`Collect@Vault`](<../../../Vaults 🗄️/🗄️🅰️ Vault methods/Collect 💼🚀🗄️/🗄️ Collect 🚀 request.md>)
-| `TTL` | timestamp| Callback deadline
+Object |Property|Type|Description
+|-|-|-|-
+|Header| `From`| string | [Vault 🗄️ domain](<../../../Vaults 🗄️/🗄️🎭 Vault role.md>) name
+|| `To`| string | [Consumer 💼 domain](<../../💼🎭 Consumer role.md>) name
+|| `Subject` | string | `Consume@Consumer`
+|Body| `Hook` | uuid | From [`Query@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) and [`Invite@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)
+|| `Collect` | uuid | Hook for [`Collect@Vault`](<../../../Vaults 🗄️/🗄️🅰️ Vault methods/Collect 💼🚀🗄️/🗄️ Collect 🚀 request.md>)
+|| `Schema`| string |  [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) of the data
+|| `TTL` | timestamp| Callback deadline
 |
 
 

@@ -5,6 +5,9 @@ participant "Wallet 👱" as wallet
 
 box Hoster ☁️ domain #FFFFFA
     participant "Broker 🤵" as broker
+end box
+
+box Itemizer 🛢 domain #FFFFFA
     participant "Wallets 🪣" as wallets
     participant "Tokens 🪣" as tokens
 end box
