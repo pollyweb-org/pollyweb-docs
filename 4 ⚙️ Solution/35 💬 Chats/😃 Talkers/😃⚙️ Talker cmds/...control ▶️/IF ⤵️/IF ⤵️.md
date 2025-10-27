@@ -30,15 +30,20 @@
     ---
     <br/>
 
-1. **What's the IF syntax for one-line thens?**
+1. **What's the IF syntax for then-only IFs?**
     
     ```yaml
-    # In-line 
+    # In-line then 
     - IF|{function}|<true-script>
 
-    # Multi-line 
+    # Broken-line single then (a string)
     - IF|{function}:
         <true-action>
+
+    # Multiple then actions (an array)
+    - IF|{function}:
+        - <true-action-1>
+        - <true-action-n>
     ```
 
     | Argument| Purpose | Example
