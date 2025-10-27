@@ -12,16 +12,16 @@ script --> talker: ASYNC 👷🏼
 activate script
 activate talker
 
-talker --> hosted:  Handle 🐌 {task}
+talker --> hosted:  Handle 🐌 {task, hook}
 deactivate talker
 
 activate hosted
 script --> user: ⏪ TEMP ⏳ {started}
 
-script --> talker: WAIT ⏸️
+script --> talker: WAIT ⏸️ {hook}
 deactivate script
 
-hosted --> talker: Handled 🐌 {partial}
+hosted --> talker: Handled 🐌 {hook, partial}
 activate talker
     talker --> script:
 deactivate talker
@@ -29,10 +29,10 @@ deactivate talker
 activate script
     script --> user: ⏪ TEMP ⏳ {running...}
     script --> talker: REPEAT 🔁 
-    script --> talker: WAIT ⏸️
+    script --> talker: WAIT ⏸️ {hook}
 deactivate script
     
-    hosted --> talker: Handled 🐌 {done}
+    hosted --> talker: Handled 🐌 {hook, done}
 deactivate hosted
 
 activate talker

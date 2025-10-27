@@ -12,11 +12,12 @@ activate script
 deactivate script
 
 activate talker
-    talker --> user: ⏪ Prompt 🤔
+    talker --> user: ⏪ Prompt 🤔 {hook}
+activate user
+    talker -> talker: WAIT ⏸️ {hook}
 deactivate talker
 
-activate user
-    user --> host: Reply 🐌
+    user --> host: Reply 🐌 {hook}
 deactivate user
     
 activate host
@@ -24,7 +25,7 @@ activate host
 deactivate host
 
 activate talker
-    talker --> script: {$holder}
+    talker --> script: REEL 🎣 {hook}
 deactivate talker
 
 activate script

@@ -1,6 +1,6 @@
 # 🧑‍🦰🚀🤗 Prompted @ Host
 
-> Implemented by the [`Prompt` 📃 script](<../../🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt 📃 proc.md>)
+> Implemented by the [`Prompt` 📃 script](<../../../../35 💬 Chats/😃 Talkers/😃⏩ Talker flows/Prompts 😃⏩🧑‍🦰/😃 Prompts 📃 proc.md>)
 
 > Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../../🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) flow
 

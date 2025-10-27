@@ -60,11 +60,11 @@
 
     ```yaml
     # Task with an output
-    - ASYNC|MyTask >> $output:
+    - ASYNC|MyTask >> $hook:
         {A:1}
 
     # Wait for the output
-    - WAIT|$output
+    - WAIT|$hook >> $output
     ```
     Commands: [`WAIT`](<../WAIT ⏸️/WAIT ⏸️.md>)
 

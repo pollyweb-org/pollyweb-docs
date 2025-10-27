@@ -2,17 +2,19 @@
 
 # 🤗⏩🧑‍🦰 Prompt @ Host
 
+> Purpose
 * A [Host 🤗 domain](<../../🤗🎭 Host role.md>) 
     * says something to a user 
     * in a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) 
     * with a [Prompt 🤔](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>).
 
 
-* Used by:
-    * [🔎⏩🧑‍🦰 Introduce 🤗 flow](<../../../../50 🫥 Agent domains/Finders 🔎/🔎⏩ Finder flows/🔎⏩🧑‍🦰 Introduce 🤗.md>)
-    * [🤗⏩🧑‍🦰 Prompt 🤔](<🤗 Prompt ⏩ flow.md>) flow
-    * [🧑‍🦰👉🤗 Abandon Chat](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Chats 💬/💬🤵 Abandon 💬.md>) flow
-    * [💼⏩🧑‍🦰 Share Bind](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Bind 🔗.md>) flow
+> Used by
+
+* [🔎⏩🧑‍🦰 Introduce 🤗 flow](<../../../../50 🫥 Agent domains/Finders 🔎/🔎⏩ Finder flows/🔎⏩🧑‍🦰 Introduce 🤗.md>)
+* [🤗⏩🧑‍🦰 Prompt 🤔](<🤗 Prompt ⏩ flow.md>) flow
+* [🧑‍🦰👉🤗 Abandon Chat](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Chats 💬/💬🤵 Abandon 💬.md>) flow
+* [💼⏩🧑‍🦰 Share Bind](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Bind 🔗.md>) flow
 
 <br/>
 

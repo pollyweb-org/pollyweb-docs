@@ -4,7 +4,7 @@
 
 > [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that implements 
 
-> Triggered by the [`Prompt@Host` 📃 script](<../../🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt 📃 proc.md>)
+> Triggered by the [`Prompt@Host` 📃 script](<../../../../35 💬 Chats/😃 Talkers/😃⏩ Talker flows/Prompts 😃⏩🧑‍🦰/😃 Prompts 📃 proc.md>)
 
 ## Script
 

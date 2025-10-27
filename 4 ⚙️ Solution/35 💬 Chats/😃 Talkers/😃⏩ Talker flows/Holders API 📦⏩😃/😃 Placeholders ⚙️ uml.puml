@@ -13,11 +13,11 @@ deactivate script
 
 
 activate talker
-    talker --> hosted: Handle 🐌 {function}
-deactivate talker
-    
+    talker --> hosted: Handle 🐌 {function, hook}
 activate hosted
-        
+    talker -> talker: WAIT ⏸️ {hook}
+deactivate talker
+          
     hosted -> talker: Placed 🚀 {$A}
 
     activate talker
@@ -26,11 +26,11 @@ activate hosted
 
     hosted -> talker: Place 🚀 {Y into $B}
 
-    hosted --> talker: Handled 🐌 
+    hosted --> talker: Handled 🐌 {hook}
 deactivate hosted
 
 activate talker
-    talker --> script: 
+    talker --> script: REEL 🎣 {hook}
 deactivate talker
 
 activate script
