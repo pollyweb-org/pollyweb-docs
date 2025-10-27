@@ -8,9 +8,16 @@ Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 
 ```yaml
 Table: AlarmTriggers
 Key: Domain, When
+
+# Link to the domains
 Parents:
-    Domain: 
-        AlarmDomains.Domain: AlarmTriggers.Domain
+   Domain: 
+        AlarmDomains.Domain: 
+            AlarmTriggers.Domain
+
+# Automatically create missing domains
+Propagate:
+    Domain
 ```
 
 ## Example
