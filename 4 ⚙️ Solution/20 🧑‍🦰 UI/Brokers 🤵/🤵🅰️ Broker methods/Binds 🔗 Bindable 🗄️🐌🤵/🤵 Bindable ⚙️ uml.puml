@@ -20,17 +20,17 @@ participant "Wallet 👱" as wallet
     activate broker
  
         ' Translate.
-        broker -> graph: SEND 📬 Translate 🚀
+        broker -> graph: SEND: Translate 🚀
         activate graph
             graph -> broker: {translations}
         deactivate
         
         ' RAISE BINDABLE!
-        broker --> wallet: MANY 🔠 {which ones?}
-        broker --> itemizer: SAVE 💾 {binds}
+        broker --> wallet: MANY {which ones?}
+        broker --> itemizer: SAVE {binds}
 
-        broker --> vault: SEND 📬 Bound 🐌 {codes} 
-        broker --> wallet: RUN ▶️ Update Binds 🔗
+        broker --> vault: SEND: Bound 🐌 {codes} 
+        broker --> wallet: RUN: Update Binds 🔗
     deactivate broker
 
 @enduml 

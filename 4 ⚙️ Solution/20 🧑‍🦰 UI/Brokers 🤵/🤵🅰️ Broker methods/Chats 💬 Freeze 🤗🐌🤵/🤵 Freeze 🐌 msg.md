@@ -1,11 +1,12 @@
 # 🤗🐌🤵 Freeze @ Broker
 
+> Purpose
 * The [Host 🤗 domain](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) 
     * freezes changes to any pre.
 
-* Used in:
-    * [❄️ Talker `FREEZE` command](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/FREEZE ❄️/❄️ FREEZE ⌘ cmd.md>)
-    * [❄️ Host Freeze ⏩ flow](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Freeze 🤗⏩❄️/🤗 Freeze ⏩ flow.md>)
+> Used
+* [❄️ Talker `FREEZE` command](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/FREEZE ❄️/❄️ FREEZE ⌘ cmd.md>)
+* [❄️ Host Freeze ⏩ flow](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Freeze 🤗⏩❄️/🤗 Freeze ⏩ flow.md>)
 
 <br/> 
 

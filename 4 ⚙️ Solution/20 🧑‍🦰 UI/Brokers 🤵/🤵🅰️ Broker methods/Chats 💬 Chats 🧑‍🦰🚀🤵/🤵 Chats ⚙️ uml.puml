@@ -1,0 +1,28 @@
+@startuml Binds@Broker
+
+ 
+participant "Wallet 👱" as wallet
+
+box Hoster ☁️ domain #FFFFFA
+    participant "Broker 🤵" as broker
+    participant "Wallets 🪣" as wallets
+    participant "Chats 🪣" as chats
+end box
+
+activate wallet
+wallet -> broker: Chats 🚀
+
+    activate broker
+        broker -> wallets: GET {wallet}
+
+        activate wallets
+        wallets -> chats: .Chats
+        wallets -> broker: 
+        deactivate wallets
+
+        broker -> wallet: RETURN {$wallet.Chats}
+    deactivate broker
+
+deactivate wallet
+
+@enduml 

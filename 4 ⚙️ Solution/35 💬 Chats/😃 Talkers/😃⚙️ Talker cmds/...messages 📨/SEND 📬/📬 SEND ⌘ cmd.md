@@ -84,4 +84,4 @@
 
     <!-- TODO: add details  -->
 
-    > Example: [Pop Vault 🔆](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Pop 🧑‍🦰🐌🤵/🤵 Pop 📃 Vault 🗄️ script.md>)
+    > Example: [Pop Vault 🔆](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Pop 🧑‍🦰🐌🤵/🤵 Pop Vault 📃 script.md>)
