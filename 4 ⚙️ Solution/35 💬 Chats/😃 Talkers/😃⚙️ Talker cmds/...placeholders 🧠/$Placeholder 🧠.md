@@ -61,6 +61,7 @@
     - INFO|$p.A.  # show 10
     - INFO|$p     # show 30
     ```
+    Commands: [`EVAL`](<EVAL ⬇️ flow.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
 
     ---
     <br/>
@@ -77,7 +78,7 @@
     # Evaluate [A,B,C] into $list
     - EVAL|A,B,C >> $list 
 
-    # This prints 3 messages with A, B, and C
+    # This shows C, A, and B, in any order
     - PARALLEL|$list|$number:
         - INFO|$number
     ```
