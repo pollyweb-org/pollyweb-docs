@@ -12,7 +12,7 @@
     * is a [Command ⌘](<../../...commands ⌘/Command ⌘/Command ⌘.md>)
     * that calls the [`Handle@Hosted` 🅰️ method](<../../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>)
     * has an asynchronous background task
-    * i.e, it continues the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>), unlike [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️/EVAL ⬇️ flow.md>).
+    * i.e, it continues the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>), unlike [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>).
 
     ---
     <br/>
@@ -54,7 +54,7 @@
 1. **How to wait for the result?**
 
     To wait for the result, 
-    * ask the [`WAIT`](<../WAIT ⏸️/WAIT ⏸️ ⌘ cmd.md>) command 
+    * ask the [`WAIT`](<../WAIT ⏸️/⏸️ WAIT ⌘ cmd.md>) command 
     * to wait for a change on the `$output` [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>), 
     * which will be triggered by the [`Handled@Talker` 🅰️ method](<../../../😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>).
 
@@ -66,7 +66,7 @@
     # Wait for the output
     - WAIT|$hook >> $output
     ```
-    Commands: [`WAIT`](<../WAIT ⏸️/WAIT ⏸️ ⌘ cmd.md>)
+    Commands: [`WAIT`](<../WAIT ⏸️/⏸️ WAIT ⌘ cmd.md>)
 
     ---
     <br/>

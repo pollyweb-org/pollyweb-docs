@@ -115,7 +115,7 @@
     - REPEAT
     ```
 
-    Commands: [`CONFIRM`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`EVAL`](<EVAL ⬇️ flow.md>) [`REPEAT`](<../../...control ▶️/REPEAT 🔁/REPEAT 🔁 ⌘ cmd.md>) [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
+    Commands: [`CONFIRM`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`EVAL`](<⬇️ EVAL ⌘ cmd.md>) [`REPEAT`](<../../...control ▶️/REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
 
 
     ```python
@@ -165,7 +165,7 @@
     - INFO|$intro
     ```
 
-    Commands: [`EVAL`](<EVAL ⬇️ flow.md>) [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
+    Commands: [`EVAL`](<⬇️ EVAL ⌘ cmd.md>) [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
 
     ---
     <br/>
@@ -388,7 +388,7 @@
     |  Y |  ANY |
     ```
     
-    Let's merge them with [`EVAL`](<EVAL ⬇️ flow.md>).
+    Let's merge them with [`EVAL`](<⬇️ EVAL ⌘ cmd.md>).
 
     
     ```yaml

@@ -1,6 +1,6 @@
 # 😃🪣 Waits ⏸️ table
 
-> Inserted by the [`WAIT` 📃 script](<../😃⚙️ Talker cmds/...control ▶️/WAIT ⏸️/WAIT 📃 script.md>)
+> Inserted by the [`WAIT` 📃 script](<../😃⚙️ Talker cmds/...control ▶️/WAIT ⏸️/⏸️ WAIT 📃 script.md>)
 
 
 ## Schema

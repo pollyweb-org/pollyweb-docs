@@ -26,7 +26,7 @@
 
     | [Command ⌘](<../...commands ⌘/Command ⌘/Command ⌘.md>) | Purpose
     |-|-
-    | ⬇️ [`EVAL`](<../...placeholders 🧠/EVAL ⬇️/EVAL ⬇️ flow.md>) | To push an object into a [placeholder 🧠](<../...placeholders 🧠/$Placeholder 🧠.md>).
+    | ⬇️ [`EVAL`](<../...placeholders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | To push an object into a [placeholder 🧠](<../...placeholders 🧠/$Placeholder 🧠.md>).
     | ℹ️ [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the placeholder values.
     
     ---

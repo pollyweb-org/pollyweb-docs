@@ -1,6 +1,6 @@
 # 😃📃 .WAIT ⏸️ script
 
-> Implements the [`WAIT`](<WAIT ⏸️ ⌘ cmd.md>) command.
+> Implements the [`WAIT`](<⏸️ WAIT ⌘ cmd.md>) command.
 
 <br/>
 
@@ -38,7 +38,7 @@
 
 Needs||
 |-|-
-[Commands ⌘](<../../...commands ⌘/Command ⌘/Command ⌘.md>) | [`ASSERT`](<../../...placeholders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️/EVAL ⬇️ flow.md>) [`SAVE`](<../../...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
+[Commands ⌘](<../../...commands ⌘/Command ⌘/Command ⌘.md>) | [`ASSERT`](<../../...placeholders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`SAVE`](<../../...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
 [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Waits` 🪣](<../../../😃🪣 Talker tables/😃🪣 TalkerWaits ⏸️ table.md>)
 [{Functions} 🐍](<../../...functions 🐍/{Function} 🐍.md>) | [`.Now`](<../../...functions 🐍/🔩 {.Now}.md>)
 [Placeholders 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) | [`$.Chat`](<../../...placeholders 🧠/$.Chat 💬.md>)

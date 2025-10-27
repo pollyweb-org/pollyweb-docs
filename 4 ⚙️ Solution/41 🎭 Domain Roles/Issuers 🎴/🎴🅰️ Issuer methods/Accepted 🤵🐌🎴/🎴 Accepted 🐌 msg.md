@@ -59,9 +59,9 @@ Body:
 |-|-
 | ⏬ [`GET`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET ⏬/⏬ GET ⌘ cmd.md>) | Get the [Hook 🪣](<../../../../35 💬 Chats/😃 Talkers/😃🪣 Talker tables/😃🪣 TalkerHooks 🪝 table.md>) from [`Offer@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>)
 | 🚦 [`ASSERT`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) | Assert if it's the right [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) 
-| ⬇️ [`EVAL`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/EVAL ⬇️/EVAL ⬇️ flow.md>) | Get the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) data from the hook
+| ⬇️ [`EVAL`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | Get the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) data from the hook
 | 💾 [`SAVE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | Save the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) to the [Tokens 🪣 table](<../../🎴🪣 Issuer tables/Tokens 🗄️ table/🗄️ IssuerTokens 🪣 table.md>)
-| 🎣 [`REEL`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...control ▶️/REEL 🎣/REEL 🎣 ⌘ cmd.md>) | Continue the [Talker 😃](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>)
+| 🎣 [`REEL`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...control ▶️/REEL 🎣/🎣 REEL ⌘ cmd.md>) | Continue the [Talker 😃](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>)
 | 
 
 
