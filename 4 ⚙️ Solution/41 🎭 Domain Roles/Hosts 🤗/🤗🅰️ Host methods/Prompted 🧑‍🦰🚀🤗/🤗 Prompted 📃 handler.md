@@ -13,7 +13,7 @@
 
 # Get the prompt
 - GET >> $prompt:
-    Set: Prompts@Host
+    Set: HostPrompts
     Key: $.Msg.Prompt
 
 # Verify the message

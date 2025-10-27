@@ -31,7 +31,7 @@ Params | Purpose | Examples
 
 # Try to get the domain, if it exists
 - GET >> $domain:
-    Set: Domains@Broker
+    Set: BrokerDomains
     Key: $:Domain
     Default: 
         Domain: $:Domain

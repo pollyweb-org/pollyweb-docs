@@ -27,7 +27,7 @@
 
 # Get the Chat
 - GET >> $chat:
-    Set: Chats@Broker
+    Set: BrokerChats
     Key: $.Msg.Chat
 
 # Only allow offers from the Host

@@ -11,12 +11,12 @@
 ```yaml
 # Resolve the callback
 - GET >> $hook
-    Set: Hooks@Talker
+    Set: TalkerHooks
     Key: $.Msg.Hook
 
 # Get the chat
 - GET >> $chat:
-    Set: Chats@Host
+    Set: HostChats
     Key: $hook.Chat
 
 # Verify the Wallet signature

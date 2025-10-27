@@ -9,7 +9,9 @@
 📃 Home@Host: 
 
 # Get the Chat
-- GET|Chats@Host|$.Msg.Chat >> $chat
+- GET >> $chat:
+    Set: HostChats
+    Key: $.Msg.Chat
 
 # Start a Chat for the locator
 - TALK|$.Msg.Chat|$chat.Locator

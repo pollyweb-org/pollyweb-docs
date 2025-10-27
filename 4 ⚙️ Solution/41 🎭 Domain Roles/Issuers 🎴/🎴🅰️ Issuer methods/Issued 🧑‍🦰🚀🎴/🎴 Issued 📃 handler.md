@@ -8,7 +8,9 @@
 
 ```yaml
 # Get the Chat data
-- GET|Hooks@Talker|$.Msg.Hook >> $hook
+- GET >> $hook:
+    Set: TalkerHooks
+    Key: $.Msg.Hook
 
 # Verify the Message
 - VERIFY|$.Msg

@@ -16,7 +16,7 @@
 
 # Get the Wallet item
 - GET >> $wallet:
-    Set: Wallets@Broker
+    Set: BrokerWallets
     Key: $.Msg.From
 
 # Verify the signature

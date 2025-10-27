@@ -27,7 +27,7 @@
 
 # Get the Wallet 🧑‍🦰
 - GET >> $wallet:
-    Set: Wallets@Broker
+    Set: BrokerWallets
     Key: $:Item.Wallet
 
 # Remove from Wallet
