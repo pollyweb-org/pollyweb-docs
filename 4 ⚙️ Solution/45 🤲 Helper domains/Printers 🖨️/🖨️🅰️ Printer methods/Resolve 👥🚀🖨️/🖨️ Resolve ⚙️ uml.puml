@@ -1,0 +1,30 @@
+@startuml Resolve@Printer
+
+'participant "Broker 🤵" as broker
+'participant "Graph 🕸" as graph
+
+participant "Domain 👥" as domain
+
+box Hoster ☁️ domain #FFFFFA
+    participant "Printer 🖨️" as printer
+    'participant "Talker 😃" as talker
+end box
+
+box Itemizer 🛢 domain #FFFFFA
+    participant "Aliases 🪣" as aliases
+end box
+
+activate domain
+domain -> printer: Resolve 🚀 {alias}
+activate printer
+    printer -> aliases: GET {alias}
+    
+    activate aliases
+        aliases -> printer: {locator}
+    deactivate aliases
+
+    printer -> domain: RETURN {locator}
+deactivate printer
+deactivate domain
+
+@enduml 
