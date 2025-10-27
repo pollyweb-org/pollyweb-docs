@@ -1,23 +1,36 @@
 @startuml Handle
 
-participant "User 🧑" as user
+
 box Hoster ☁️ domain #FFFFFA
-    participant "Host 🤗" as host
-    participant "Talker 😃" as talker
     participant "Script 📃" as script
+    participant "Talker 😃" as talker
+    participant "Prompts🪣" as hooks
+    participant "Host 🤗" as host
 end box
+participant "User 🧑" as user
 
 activate script
     script --> talker: ONE 1️⃣
 deactivate script
 
 activate talker
-    talker --> user: ⏪ Prompt 🤔 {hook}
+    talker -> hooks: SAVE 💾 {prompt}
+
+    'activate hooks
+    'deactivate hooks
+
+    talker --> user: ⏪ Prompt 🤔 {prompt}
 activate user
-    talker -> talker: WAIT ⏸️ {hook}
+    talker -> talker: WAIT ⏸️ {prompt}
 deactivate talker
 
-    user --> host: Reply 🐌 {hook}
+    user -> host: Prompted 🚀 {prompt}
+    activate host
+        host -> hooks: GET ⏬ {prompt}
+        host -> user: 
+    deactivate host
+
+    user --> host: Reply 🐌 {prompt}
 deactivate user
     
 activate host
@@ -25,7 +38,7 @@ activate host
 deactivate host
 
 activate talker
-    talker --> script: REEL 🎣 {hook}
+    talker --> script: REEL 🎣 {prompt}
 deactivate talker
 
 activate script

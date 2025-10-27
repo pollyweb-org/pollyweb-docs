@@ -13,16 +13,16 @@ activate script
 deactivate script
 
 activate talker
-    talker --> broker: SEND 📬 Queryable 🐌 {share}
+    talker --> broker: SEND 📬 Query 🐌 {hook}
 activate broker
-    talker -> talker: WAIT ⏸️ {share}
+    talker -> talker: WAIT ⏸️ {hook}
 deactivate talker
 
-    broker --> vault: Disclose 🐌 {share}
+    broker --> vault: Disclose 🐌 {hook}
 deactivate broker
 
 activate vault
-vault --> consumer: Consume 🐌 {share, collect}
+vault --> consumer: Consume 🐌 {hook, collect}
 deactivate vault
 
 activate consumer
@@ -33,7 +33,7 @@ activate consumer
         vault -> consumer: {data}
     deactivate vault
 
-    consumer --> talker: REEL 🎣 {share}
+    consumer --> talker: REEL 🎣 {hook}
 deactivate consumer
 
 activate talker

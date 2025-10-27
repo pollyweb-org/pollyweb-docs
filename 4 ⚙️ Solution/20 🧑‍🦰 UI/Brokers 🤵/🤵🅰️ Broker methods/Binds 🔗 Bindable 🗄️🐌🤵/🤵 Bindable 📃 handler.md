@@ -1,5 +1,7 @@
 <!-- TODO -->
 
+![alt text](<🤵 Bindable ⚙️ uml.png>)
+
 ```yaml
 📃 Bindable@Broker:
 
@@ -49,6 +51,10 @@
     Body:
         Hook: $.Msg.Hook
         Binds: $send
+    
+# Update the binds    
+RUN|UpdateBinds@Broker:
+    Wallet: $chat.Wallet.Wallet
 ```
 
 ```yaml
