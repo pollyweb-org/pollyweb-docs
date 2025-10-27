@@ -1,3 +1,5 @@
+<!-- TODO: Diagram changed -->
+
 # 😃⏩🤗 Handle @ Talker
 
 > Implements [Hoster ☁️ helper domain](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>)
