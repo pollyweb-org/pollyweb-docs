@@ -4,7 +4,7 @@
 * Part of [Itemizer 🛢 helper](<../../🛢🤲 Itemizer helper.md>)
 
 > Implements
-* Implements the [`GET`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET ⏬/⏬ GET ⌘ cmd.md>) command
+* Implements the [`GET`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) command
 
 > Purpose
 

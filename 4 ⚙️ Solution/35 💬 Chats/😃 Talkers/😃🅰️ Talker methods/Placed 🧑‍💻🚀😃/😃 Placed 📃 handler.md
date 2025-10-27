@@ -37,7 +37,7 @@
 
 Needs||
 |-|-
-| [Commands ⌘](<../../😃⚙️ Talker cmds/...commands ⌘/Command ⌘/⌘ Command.md>) | [`GET`](<../../😃⚙️ Talker cmds/...datasets 🪣/GET ⏬/⏬ GET ⌘ cmd.md>) [`RETURN`](<../../😃⚙️ Talker cmds/...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`SAVE`](<../../😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`VERIFY`](<../../😃⚙️ Talker cmds/...messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>)
+| [Commands ⌘](<../../😃⚙️ Talker cmds/...commands ⌘/Command ⌘/⌘ Command.md>) | [`GET`](<../../😃⚙️ Talker cmds/...datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) [`RETURN`](<../../😃⚙️ Talker cmds/...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`SAVE`](<../../😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`VERIFY`](<../../😃⚙️ Talker cmds/...messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>)
 | [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`TalkerHolders` 🪣 table](<../../😃🪣 Talker tables/😃🪣 TalkerHolders 🧠 table.md>)
 | [Placeholders 🧠](<../../😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>) | [`$.Msg`](<../../😃⚙️ Talker cmds/...messages 📨/$.Msg 📨.md>)
 |

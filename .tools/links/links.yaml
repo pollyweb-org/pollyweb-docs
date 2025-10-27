@@ -83,7 +83,7 @@ Successful Tests:
 
   - Given: "{{GET}}"
     LinkText: "`GET`"
-    LinkFile: "⏬ GET ⌘ cmd.md"
+    LinkFile: "🧲 GET ⌘ cmd.md"
     Reasons: same as {{RETURN}}.
 
   - Given: "{{Placeholder}}"

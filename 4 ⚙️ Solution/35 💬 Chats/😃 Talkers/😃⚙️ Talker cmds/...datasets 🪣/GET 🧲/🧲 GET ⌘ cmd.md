@@ -1,6 +1,6 @@
 <!-- TODO: detail the relation with database -->
 
-# 😃⏬ Talker `GET` command
+# 😃🧲 Talker `GET` command
 
 > Part of [Talker 😃](<../../../😃 Talker role.md>)
 
@@ -10,7 +10,7 @@
 
 1. **What's a GET item command?**
 
-    A `GET` ⏬
+    A `GET` 🧲
     * is a [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) 
     * that retrieves an item by key 🔑
     * from a key-value resource pool 🪣
@@ -73,7 +73,7 @@
     - INFO|{$myItem.PropA} 
     ```
 
-    Commands: [`GET`](<⏬ GET ⌘ cmd.md>) [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
+    Commands: [`GET`](<🧲 GET ⌘ cmd.md>) [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
 
     ---
     <br>
@@ -112,7 +112,7 @@
     - CONFIRM|A {$item.Name}?
     ```
 
-    Commands: [`CONFIRM`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`DIGITS`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/DIGITS 🔢/DIGITS 🔢 prompt.md>) [`GET`](<⏬ GET ⌘ cmd.md>)
+    Commands: [`CONFIRM`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`DIGITS`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/DIGITS 🔢/DIGITS 🔢 prompt.md>) [`GET`](<🧲 GET ⌘ cmd.md>)
     
    
     
