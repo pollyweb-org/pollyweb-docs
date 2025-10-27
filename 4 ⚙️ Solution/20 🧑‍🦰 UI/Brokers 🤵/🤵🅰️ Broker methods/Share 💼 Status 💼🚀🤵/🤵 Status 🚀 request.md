@@ -1,7 +1,12 @@
 # 💼🚀🤵  Status @ Broker
 
+> Implementation
 
-> Used in [💼⏩🧑‍🦰 Share Token @ Consumer](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Token 🎫.md>)
+* Implements the [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>)
+* Implemented by the [`Status` 📃 handler](<🤵 Status 📃 handler.md>)
+
+> Used in
+* [💼⏩🧑‍🦰 Share Token @ Consumer](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Token 🎫.md>)
 
 <br/> 
 
@@ -45,24 +50,3 @@ Locator: .HOST,any-host.dom,any-key
 | `Ending`  | string | Optional date of ending of status
 | `Locator`| string | Optional [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) for a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) about it
 |
-
-<br/>
-
-## Handler
-
-```yaml
-# Verify the Consumer message
-- VERIFY|$.Msg
-
-# Get the Token
-- GET >> $token:
-    Set: BrokerTokens
-    Key: $.Msg.Token
-
-# Return the Status
-- REEL:
-    Status: $token.Status
-    Starting: $token.Starting
-    Ending: $token.Ending
-    Locator: $token.Locator
-```
