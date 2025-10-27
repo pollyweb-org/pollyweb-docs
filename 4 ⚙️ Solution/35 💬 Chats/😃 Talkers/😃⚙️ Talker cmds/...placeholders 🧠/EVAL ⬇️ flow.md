@@ -518,7 +518,7 @@
 
 1. **How to make a distinct in lists?**
 
-    Using the {{{.Distinct}}} function
+    Using the [`{.Distinct}`](<../...functions 🐍/🔩 {.Distinct}.md>) function
 
     ```yaml
     📃 Inline in a placeholder:
