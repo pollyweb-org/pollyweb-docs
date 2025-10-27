@@ -1,4 +1,4 @@
-# 😃👷🏼 Talker `WORK` command
+# 😃👷🏼 Talker `ASYNC` command
 
 > Part of [Talker 😃](<../../../😃 Talker role.md>)
 
@@ -6,9 +6,9 @@
 
 <br/>
 
-1. **What's an WORK command?**
+1. **What's an ASYNC command?**
 
-    An `WORK`
+    An `ASYNC`
     * is a [Command ⌘](<../../...commands ⌘/Command ⌘/Command ⌘.md>)
     * that calls the [`Handle@Hosted` 🅰️ method](<../../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>)
     * has an asynchronous background task
@@ -18,10 +18,10 @@
     <br/>
 
 
-1. **What's the syntax of WORK?**
+1. **What's the syntax of ASYNC?**
 
     ```yaml
-    WORK|<task> >> $output:
+    ASYNC|<task> >> $output:
         {input}
     ```
 
@@ -34,16 +34,16 @@
     ---
     <br/>
 
-1. **What are examples of WORK?**
+1. **What are examples of ASYNC?**
 
     ```yaml
     # Task without a inputs and outputs
-    - WORK|MyTask
+    - ASYNC|MyTask
     ```
 
     ```yaml
     # Task with only inputs
-    - WORK|MyTask:
+    - ASYNC|MyTask:
         A: 1
         B: 2
     ```
@@ -60,7 +60,7 @@
 
     ```yaml
     # Task with an output
-    - WORK|MyTask >> $output:
+    - ASYNC|MyTask >> $output:
         {A:1}
 
     # Wait for the output

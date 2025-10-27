@@ -8,7 +8,7 @@ box Hoster ☁️ domain #FFFFFA
 end box
 participant "Hosted 📦" as hosted
 
-script --> talker: WORK 👷🏼
+script --> talker: ASYNC 👷🏼
 activate script
 activate talker
 
