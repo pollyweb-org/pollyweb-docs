@@ -205,7 +205,7 @@
     | [Command ⌘](<../../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/Command ⌘.md>) | Purpose
     |-|-
     | ℹ️ [`INFO`](<../../🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the message.
-    | 🔁 [`REPEAT`](<../../../😃 Talkers/😃⚙️ Talker cmds/...control ▶️/REPEAT 🔁/REPEAT 🔁.md>) | To repeat the input cycle forever.
+    | 🔁 [`REPEAT`](<../../../😃 Talkers/😃⚙️ Talker cmds/...control ▶️/REPEAT 🔁/REPEAT 🔁 ⌘ cmd.md>) | To repeat the input cycle forever.
      
 
     ---

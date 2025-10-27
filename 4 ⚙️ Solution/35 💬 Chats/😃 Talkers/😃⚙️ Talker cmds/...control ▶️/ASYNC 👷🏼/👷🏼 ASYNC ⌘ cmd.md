@@ -54,7 +54,7 @@
 1. **How to wait for the result?**
 
     To wait for the result, 
-    * ask the [`WAIT`](<../WAIT ⏸️/WAIT ⏸️.md>) command 
+    * ask the [`WAIT`](<../WAIT ⏸️/WAIT ⏸️ ⌘ cmd.md>) command 
     * to wait for a change on the `$output` [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>), 
     * which will be triggered by the [`Handled@Talker` 🅰️ method](<../../../😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>).
 
@@ -66,7 +66,7 @@
     # Wait for the output
     - WAIT|$hook >> $output
     ```
-    Commands: [`WAIT`](<../WAIT ⏸️/WAIT ⏸️.md>)
+    Commands: [`WAIT`](<../WAIT ⏸️/WAIT ⏸️ ⌘ cmd.md>)
 
     ---
     <br/>

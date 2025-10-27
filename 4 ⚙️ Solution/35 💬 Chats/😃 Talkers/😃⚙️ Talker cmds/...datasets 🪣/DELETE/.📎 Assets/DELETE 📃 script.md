@@ -1,6 +1,6 @@
 # 😃📃 `.DELETE` 🗑️ script
 
-> Implements the [`DELETE`](<../DELETE 🗑️ item.md>) command
+> Implements the [`DELETE`](<../DELETE 🗑️ ⌘ cmd.md>) command
 
 > Invokes the [`Delete@Itemizer` 🅰️ method](<../../../../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/Item Delete 👥🚀🛢/🛢 Delete 🚀 request.md>)
 
@@ -54,7 +54,7 @@ RETURN|$deleted
 
 Needs||
 |-|-
-| [Commands ⌘](<../../../...commands ⌘/Command ⌘/Command ⌘.md>) | [`ASSERT`](<../../../...placeholders 🧠/ASSERT 🚦/ASSERT 🚦.md>) [`SEND`](<../../../...messages 📨/SEND 📬 msg.md>) [`RETURN`](<../../../...control ▶️/RETURN ⤴️/RETURN ⤴️.md>) [`RUN`](<../../../...control ▶️/RUN ▶️/RUN ▶️.md>)
+| [Commands ⌘](<../../../...commands ⌘/Command ⌘/Command ⌘.md>) | [`ASSERT`](<../../../...placeholders 🧠/ASSERT 🚦/ASSERT 🚦⌘ cmd.md>) [`SEND`](<../../../...messages 📨/SEND 📬 msg ⌘ cmd.md>) [`RETURN`](<../../../...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`RUN`](<../../../...control ▶️/RUN ▶️/RUN ▶️ ⌘ cmd.md>)
 | [Messages 📨](<../../../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Delete@Itemizer`](<../../../../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/Item Delete 👥🚀🛢/🛢 Delete 🚀 request.md>)
 | [Placeholders 🧠](<../../../...placeholders 🧠/$Placeholder 🧠.md>) | [`$.Settings`](<../../../...messages 📨/$.Settings 🎛️.md>)
 |

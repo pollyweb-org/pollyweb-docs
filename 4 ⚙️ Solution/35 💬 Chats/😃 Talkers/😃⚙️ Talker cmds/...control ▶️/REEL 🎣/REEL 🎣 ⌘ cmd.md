@@ -64,7 +64,7 @@
         Else: FAILURE|Not bounded.
     ```
 
-    Commands: [`BIND`](<../../...methods 🤵/BIND 🔗/BIND 🔗 cmd.md>) [`IF`](<../IF ⤵️/IF ⤵️.md>)
+    Commands: [`BIND`](<../../...methods 🤵/BIND 🔗/BIND 🔗 cmd.md>) [`IF`](<../IF ⤵️/⤵️ IF ⌘ cmd.md>)
     
     <br/>
 
@@ -81,7 +81,7 @@
 
     | [Command ⌘](<../../...commands ⌘/Command ⌘/Command ⌘.md>) | Purpose
     |-|-
-    | ⏬ [`GET`](<../../...datasets 🪣/GET ⏬/GET ⏬ item.md>) | Get the [`Hook` 🪣](<../../../😃🪣 Talker tables/😃🪣 TalkerHooks 🪝 table.md>) from [`Bindable@Broker`](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>)  
+    | ⏬ [`GET`](<../../...datasets 🪣/GET ⏬/⏬ GET ⌘ cmd.md>) | Get the [`Hook` 🪣](<../../../😃🪣 Talker tables/😃🪣 TalkerHooks 🪝 table.md>) from [`Bindable@Broker`](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>)  
     
 
     ---

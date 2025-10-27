@@ -44,7 +44,7 @@
 - RETURN|$selected
 ```
 
-Commands: [`ASSERT`](<../../...placeholders 🧠/ASSERT 🚦/ASSERT 🚦.md>) [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️ flow.md>) [`MANY`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/MANY 🔠/MANY 🔠 prompt.md>) [`RETURN`](<../../...control ▶️/RETURN ⤴️/RETURN ⤴️.md>) [`RUN`](<../../...control ▶️/RUN ▶️/RUN ▶️.md>)
+Commands: [`ASSERT`](<../../...placeholders 🧠/ASSERT 🚦/ASSERT 🚦⌘ cmd.md>) [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️ flow.md>) [`MANY`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/MANY 🔠/MANY 🔠 prompt.md>) [`RETURN`](<../../...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`RUN`](<../../...control ▶️/RUN ▶️/RUN ▶️ ⌘ cmd.md>)
 
 ---
 <br/>

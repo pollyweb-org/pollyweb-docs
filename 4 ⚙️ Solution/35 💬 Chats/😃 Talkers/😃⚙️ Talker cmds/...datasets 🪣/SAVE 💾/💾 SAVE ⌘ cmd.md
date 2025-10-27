@@ -81,7 +81,7 @@
 
     | Argument| Purpose | Examples
     |-|-|-
-    | `$item` | [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) loaded with [`GET`](<../GET ⏬/GET ⏬ item.md>)
+    | `$item` | [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) loaded with [`GET`](<../GET ⏬/⏬ GET ⌘ cmd.md>)
     | `{changes}` | Object with changes to apply | `{A:1, B:2}`
     | `.Delete` | Automatic delete for cleanup, in | `30 days`
     | | `minutes` `hours` `days` `months`
@@ -103,14 +103,14 @@
         a: 1
     ```
 
-    Commands: [`EVAL`](<../GET ⏬/GET ⏬ item.md>) [`SAVE`](<💾 SAVE ⌘ cmd.md>)
+    Commands: [`EVAL`](<../GET ⏬/⏬ GET ⌘ cmd.md>) [`SAVE`](<💾 SAVE ⌘ cmd.md>)
 
     ---
     <br/>
 
 1. **What if the item doesn't exist?**
 
-    Set the `Default` property of [`GET`](<../GET ⏬/GET ⏬ item.md>).
+    Set the `Default` property of [`GET`](<../GET ⏬/⏬ GET ⌘ cmd.md>).
 
     ```yaml
     # Get the item from the database
@@ -128,7 +128,7 @@
         a: 1
     ```
 
-    Commands: [`EVAL`](<../GET ⏬/GET ⏬ item.md>) [`SAVE`](<💾 SAVE ⌘ cmd.md>)
+    Commands: [`EVAL`](<../GET ⏬/⏬ GET ⌘ cmd.md>) [`SAVE`](<💾 SAVE ⌘ cmd.md>)
     
     ---
     <br/>

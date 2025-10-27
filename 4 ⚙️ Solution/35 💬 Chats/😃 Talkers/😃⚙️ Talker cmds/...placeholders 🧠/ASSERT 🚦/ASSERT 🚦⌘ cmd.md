@@ -229,7 +229,7 @@
     - SUCCESS|Message is from Any Broker
     ```
 
-    Commands: [`$.Msg`](<../../...messages 📨/$.Msg 📨.md>) [`ASSERT`](<ASSERT 🚦.md>) [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
+    Commands: [`$.Msg`](<../../...messages 📨/$.Msg 📨.md>) [`ASSERT`](<ASSERT 🚦⌘ cmd.md>) [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
 
     ---
     <br/>

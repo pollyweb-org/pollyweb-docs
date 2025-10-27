@@ -1,6 +1,6 @@
 # 😃📃 `.UNDO` ↩️ script
 
-> Implements the [`UNDO`](<../UNDO ↩️.md>) command
+> Implements the [`UNDO`](<../UNDO ↩️ ⌘ cmd.md>) command
 
 > Invokes the [`Undo@Itemizer` 🅰️ method](<../../../../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/Item Undo 👥🚀🛢/🛢 Undo 🚀 request.md>)
 
@@ -39,7 +39,7 @@
 
 Needs||
 |-|-
-| [Commands ⌘](<../../../...commands ⌘/Command ⌘/Command ⌘.md>) | [`ASSERT`](<../../../...placeholders 🧠/ASSERT 🚦/ASSERT 🚦.md>) [`SEND`](<../../../...messages 📨/SEND 📬 msg.md>) [`RUN`](<../../../...control ▶️/RUN ▶️/RUN ▶️.md>)
+| [Commands ⌘](<../../../...commands ⌘/Command ⌘/Command ⌘.md>) | [`ASSERT`](<../../../...placeholders 🧠/ASSERT 🚦/ASSERT 🚦⌘ cmd.md>) [`SEND`](<../../../...messages 📨/SEND 📬 msg ⌘ cmd.md>) [`RUN`](<../../../...control ▶️/RUN ▶️/RUN ▶️ ⌘ cmd.md>)
 | [Messages 📨](<../../../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Undo@Itemizer` 🅰️ method](<../../../../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/Item Undo 👥🚀🛢/🛢 Undo 🚀 request.md>)
 | [Placeholders 🧠](<../../../...placeholders 🧠/$Placeholder 🧠.md>) | [`$.Settings`](<../../../...messages 📨/$.Settings 🎛️.md>)
 |
