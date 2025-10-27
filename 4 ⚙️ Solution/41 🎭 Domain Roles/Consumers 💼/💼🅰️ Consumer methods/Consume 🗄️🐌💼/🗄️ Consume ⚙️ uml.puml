@@ -1,0 +1,46 @@
+@startuml Wallet: Share()
+
+box Hoster ☁️ domain #FFFFFA
+    participant "Script 📃" as script
+    participant "Talker 😃" as talker
+    participant "Consumer 💼" as consumer
+end box
+participant "Broker 🤵" as broker
+participant "Vault 🗄️" as vault
+
+activate script
+    script --> talker: SHARE 💼
+deactivate script
+
+activate talker
+    talker --> broker: SEND 📬 {Queryable, token}
+activate broker
+    talker -> talker: WAIT ⏸️ {token}
+deactivate talker
+
+    broker --> vault: Disclose 🐌 {token}
+deactivate broker
+
+activate vault
+vault --> consumer: Consume 🐌 {token}
+deactivate vault
+
+activate consumer
+    consumer -> talker: TRUSTS 🫡 {vault}
+    consumer -> vault: SEND 📬 {Collect}
+    
+    activate vault
+        vault -> consumer: {data}
+    deactivate vault
+
+    consumer --> talker: REEL 🎣 {token}
+deactivate consumer
+
+activate talker
+    talker --> script: RETURN ⤴️ {data}
+deactivate talker
+
+activate script
+deactivate script
+
+@enduml 
