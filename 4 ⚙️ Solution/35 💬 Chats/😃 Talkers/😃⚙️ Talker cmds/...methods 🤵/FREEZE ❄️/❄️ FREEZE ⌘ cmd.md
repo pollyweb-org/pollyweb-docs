@@ -69,7 +69,7 @@
     - GOODBYE
     ```
 
-    Commands: [`CONFIRM`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️ flow.md>) [`FREEZE`](<❄️ FREEZE ⌘ cmd.md>) [`GOODBYE`](<../GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>) [`INFORM`](<../INFORM 📝/📝 INFORM ⌘ cmd.md>) [`ONE`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/ONE 1️⃣/ONE 1️⃣ prompt.md>) [`SHARE`](<../SHARE 💼/💼 SHARE ⌘ cmd.md>) [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
+    Commands: [`CONFIRM`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️/EVAL ⬇️ flow.md>) [`FREEZE`](<❄️ FREEZE ⌘ cmd.md>) [`GOODBYE`](<../GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>) [`INFORM`](<../INFORM 📝/📝 INFORM ⌘ cmd.md>) [`ONE`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/ONE 1️⃣/ONE 1️⃣ prompt.md>) [`SHARE`](<../SHARE 💼/💼 SHARE ⌘ cmd.md>) [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
 
     ---
     <br/>

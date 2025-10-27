@@ -157,7 +157,7 @@
        Else: FAILURE|Not bounded.
    ```
 
-   Commands: [`BIND`](<BIND 🔗 cmd.md>) [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️ flow.md>) [`IF`](<../../...control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>)
+   Commands: [`BIND`](<BIND 🔗 cmd.md>) [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️/EVAL ⬇️ flow.md>) [`IF`](<../../...control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>)
    
    ---
    <br/>
