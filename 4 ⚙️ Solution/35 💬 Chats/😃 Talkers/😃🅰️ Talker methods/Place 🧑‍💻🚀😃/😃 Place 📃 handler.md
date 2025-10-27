@@ -21,7 +21,9 @@
     UUIDs: Chat
     
 # Verify if the Chat exists
-- GET|Chats@Host|$.Msg.Chat >> $chat
+- GET >> $chat:
+    Set: HostChats
+    Key: $.Msg.Chat
 
 # Save the placeholder
 - SAVE|TalkerHolders:

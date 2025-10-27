@@ -16,7 +16,7 @@
 
 # Get the chat
 - GET >> $chat:
-    Set: Chats@Broker
+    Set: BrokerChats
     Key: Chat
 
 # Check if it's the host

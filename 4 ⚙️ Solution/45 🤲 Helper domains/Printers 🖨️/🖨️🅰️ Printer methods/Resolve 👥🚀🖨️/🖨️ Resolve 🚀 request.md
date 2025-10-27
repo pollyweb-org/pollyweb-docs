@@ -55,7 +55,7 @@ Property|Type|Description
 
 # Get from the table.
 - GET >> $alias:
-    Set: Aliases@Printer
+    Set: PrinterAliases
     Key: $.Msg.Alias
 
 # Respond with the Locator.

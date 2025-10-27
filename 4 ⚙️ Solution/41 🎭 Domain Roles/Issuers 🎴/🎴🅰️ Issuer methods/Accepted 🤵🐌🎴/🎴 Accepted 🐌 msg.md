@@ -38,7 +38,7 @@ Body:
 ```yaml
 # Get the Hook
 - GET >> $hook:
-    Set: Hooks@Talker
+    Set: TalkerHooks
     Key: $.Msg.Hook
 
 # Assert if it's the right Broker

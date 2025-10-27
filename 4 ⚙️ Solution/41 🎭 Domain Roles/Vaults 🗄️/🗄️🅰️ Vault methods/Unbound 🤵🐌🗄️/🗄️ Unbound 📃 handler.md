@@ -17,7 +17,7 @@
 
 # Resolve the bind
 - GET >> $bind:
-    Set: Binds@Vault
+    Set: VaultBinds
     Key: $.Bind
 
 # Confirm it's the same Broker

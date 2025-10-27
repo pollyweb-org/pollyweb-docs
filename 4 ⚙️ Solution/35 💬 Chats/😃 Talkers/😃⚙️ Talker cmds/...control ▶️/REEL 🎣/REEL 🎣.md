@@ -73,7 +73,9 @@
 
     ```yaml
     # Handler
-    - GET|Hooks@Talker|$.Msg.Hook >> $hook
+    - GET >> $hook:
+        Set: TalkerHooks
+        Key: $.Msg.Hook
     - REEL|$hook
     ```
 

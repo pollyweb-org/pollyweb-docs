@@ -22,7 +22,9 @@
 - VERIFY|$.Msg
 
 # Resolve the callback
-- GET|Hooks@Talker|$.Msg.Hook >> $hook
+- GET >> $hook:
+    Set: TalkerHooks
+    Key: $.Msg.Hook
 
 # Confirm it's the same Broker
 - ASSERT:

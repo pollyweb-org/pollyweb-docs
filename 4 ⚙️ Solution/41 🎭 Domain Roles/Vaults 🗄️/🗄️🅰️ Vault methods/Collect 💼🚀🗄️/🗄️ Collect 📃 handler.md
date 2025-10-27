@@ -13,7 +13,7 @@
 
 # Get the collect
 - GET >> $collect:
-    Set: Collects@Vault
+    Set: VaultCollects
     Key: $.Msg.Collect
 
 # Assert the Consumer
