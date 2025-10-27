@@ -3,9 +3,9 @@
 > About
 
 * Implements [Hoster ☁️ helper domain](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>)
-* Implemented by the [`Placed` 📃 handler](<.📎 Assets/Placed 📃 handler.md>)
+* Implemented by the [`Placed` 📃 handler](<😃 Placed 📃 handler.md>)
 * Part of [Handle @ Talker 😃⏩🧑‍💻](<../../😃⏩ Talker flows/Eval Functions 😃⏩📦/😃 Eval ⏩ flow.md>) flow
-* Paired with [`Place@Talker`](<../Place 🧑‍💻🚀😃/🧑‍💻🚀😃 Place.md>) message
+* Paired with [`Place@Talker`](<../Place 🧑‍💻🚀😃/😃 Place 🚀 request.md>) message
 
 > Purpose
 

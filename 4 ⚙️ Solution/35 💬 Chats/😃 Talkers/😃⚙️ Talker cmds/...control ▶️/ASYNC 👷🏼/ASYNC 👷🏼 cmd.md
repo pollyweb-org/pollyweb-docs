@@ -56,7 +56,7 @@
     To wait for the result, 
     * ask the [`WAIT`](<../WAIT ⏸️/WAIT ⏸️.md>) command 
     * to wait for a change on the `$output` [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>), 
-    * which will be triggered by the [`Handled@Talker` 🅰️ method](<../../../😃🅰️ Talker methods/Handled/🧑‍💻🐌😃 Handled.md>).
+    * which will be triggered by the [`Handled@Talker` 🅰️ method](<../../../😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>).
 
     ```yaml
     # Task with an output
