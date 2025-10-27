@@ -17,7 +17,7 @@ activate vault
 deactivate vault
 
 activate consumer
-    consumer -> hooks: GET ⏬ {hook}
+    consumer -> hooks: GET 🧲 {hook}
     consumer -> graph: TRUSTS 🫡 {vault, schema}
     consumer -> talker: REEL 🎣 {hook, data}
 deactivate consumer

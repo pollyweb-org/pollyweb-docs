@@ -26,7 +26,7 @@ deactivate talker
 
     user -> host: Prompted 🚀 {prompt}
     activate host
-        host -> hooks: GET ⏬ {prompt}
+        host -> hooks: GET 🧲 {prompt}
         host -> user: 
     deactivate host
 

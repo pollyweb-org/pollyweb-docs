@@ -89,7 +89,7 @@
 
     | Argument| Purpose | Examples
     |-|-|-
-    | `$item` | [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) loaded with [`GET`](<../GET ⏬/⏬ GET ⌘ cmd.md>)
+    | `$item` | [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) loaded with [`GET`](<../GET 🧲/🧲 GET ⌘ cmd.md>)
     | `{changes}` | Object with changes to apply | `{A:1, B:2}`
 
     ---
@@ -116,7 +116,7 @@
 
 1. **What if the item doesn't exist?**
 
-    Set the `Default` property of [`GET`](<../GET ⏬/⏬ GET ⌘ cmd.md>).
+    Set the `Default` property of [`GET`](<../GET 🧲/🧲 GET ⌘ cmd.md>).
 
     ```yaml
     # Get the item from the database
