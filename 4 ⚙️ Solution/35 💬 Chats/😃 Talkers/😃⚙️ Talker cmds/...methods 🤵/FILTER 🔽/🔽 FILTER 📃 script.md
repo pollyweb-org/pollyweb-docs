@@ -1,6 +1,6 @@
 # 😃📃 `.FILTER` 🔽 script
 
-[Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) that implements the [`FILTER` 🔽 command](<FILTER 🔽 cmd.md>)
+[Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) that implements the [`FILTER` 🔽 command](<🔽 FILTER ⌘ cmd.md>)
 
 ## How to call
 
@@ -44,7 +44,7 @@
 - RETURN|$selected
 ```
 
-Commands: [`ASSERT`](<../../...placeholders 🧠/ASSERT 🚦/ASSERT 🚦⌘ cmd.md>) [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️ flow.md>) [`MANY`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/MANY 🔠/MANY 🔠 prompt.md>) [`RETURN`](<../../...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`RUN`](<../../...control ▶️/RUN ▶️/RUN ▶️ ⌘ cmd.md>)
+Commands: [`ASSERT`](<../../...placeholders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️ flow.md>) [`MANY`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/MANY 🔠/MANY 🔠 prompt.md>) [`RETURN`](<../../...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`RUN`](<../../...control ▶️/RUN ▶️/RUN ▶️ ⌘ cmd.md>)
 
 ---
 <br/>
