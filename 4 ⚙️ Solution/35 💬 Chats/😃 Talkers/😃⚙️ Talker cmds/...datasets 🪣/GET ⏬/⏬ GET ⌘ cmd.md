@@ -73,7 +73,7 @@
     - INFO|{$myItem.PropA} 
     ```
 
-    Commands: [`GET`](<GET ⏬ item.md>) [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
+    Commands: [`GET`](<⏬ GET ⌘ cmd.md>) [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
 
     ---
     <br>
@@ -112,7 +112,7 @@
     - CONFIRM|A {$item.Name}?
     ```
 
-    Commands: [`CONFIRM`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`DIGITS`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/DIGITS 🔢/DIGITS 🔢 prompt.md>) [`GET`](<GET ⏬ item.md>)
+    Commands: [`CONFIRM`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`DIGITS`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/DIGITS 🔢/DIGITS 🔢 prompt.md>) [`GET`](<⏬ GET ⌘ cmd.md>)
     
    
     

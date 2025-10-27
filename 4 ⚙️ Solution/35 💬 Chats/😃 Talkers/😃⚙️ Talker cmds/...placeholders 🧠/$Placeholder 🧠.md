@@ -69,7 +69,7 @@
 
 1. **How to read lists of values?**
 
-    To loop a list placeholder called $list use [`PARALLEL`](<../...control ▶️/PARALLEL *️⃣/PARALLEL *️⃣.md>).
+    To loop a list placeholder called $list use [`PARALLEL`](<../...control ▶️/PARALLEL *️⃣/PARALLEL *️⃣ ⌘ cmd.md>).
     
     Here's a [Script 📃](<../...commands ⌘/Script 📃/📃 Script.md>).
     ```yaml
@@ -82,7 +82,7 @@
     - PARALLEL|$list|$number:
         - INFO|$number
     ```
-    Commands: [`EVAL`](<EVAL ⬇️ flow.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`PARALLEL`](<../...control ▶️/PARALLEL *️⃣/PARALLEL *️⃣.md>)
+    Commands: [`EVAL`](<EVAL ⬇️ flow.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`PARALLEL`](<../...control ▶️/PARALLEL *️⃣/PARALLEL *️⃣ ⌘ cmd.md>)
 
     ---
     <br/>

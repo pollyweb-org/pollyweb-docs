@@ -25,7 +25,7 @@
 1. **What is the difference to a standard FOR cycle?**
 
     * `FOR` cycles iterate in sequence, allowing for ordered logic.
-    * [`PARALLEL`](<PARALLEL *️⃣.md>) commands iterate concurrently in a random order.
+    * [`PARALLEL`](<PARALLEL *️⃣ ⌘ cmd.md>) commands iterate concurrently in a random order.
     ---
     <br/>
 

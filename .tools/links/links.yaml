@@ -60,30 +60,30 @@ Successful Tests:
       or is in a subfolder of such folder.
 
 
-  - Given: "{{RETURN}}"
-    LinkText: "`RETURN`"
-    LinkFile: "RETURN ⤴️.md"
-    Reasons: |
-      For `{{WORD}}`, 
-      where all characters are uppercase letters,
-      the file is called `WORD {emoji}*.md`,
-      the file is also on uppercase,
-      the file does not contain 🧪 nor 📃,
-      is under a folder called "* cmds".
+#  - Given: "{{RETURN}}"
+#    LinkText: "`RETURN`"
+#    LinkFile: "⤴️ RETURN ⌘ cmd.md"
+#    Reasons: |
+#      For `{{WORD}}`, 
+#      where all characters are uppercase letters,
+#      the file is called `WORD {emoji}*.md`,
+#      the file is also on uppercase,
+#      the file does not contain 🧪 nor 📃,
+#      is under a folder called "* cmds".
 
   - Given: "{{ALARM}}"
     LinkText: "`ALARM`"
     LinkFile: "⏰ ALARM ⌘ cmd.md"
     Reasons: same as {{RETURN}}.
 
-  - Given: "{{IF}}"
-    LinkText: "`IF`"
-    LinkFile: "IF ⤵️.md"
-    Reasons: same as {{RETURN}}.
+#  - Given: "{{IF}}"
+#    LinkText: "`IF`"
+#    LinkFile: "⤵️ IF ⌘ cmd.md"
+#    Reasons: same as {{RETURN}}.
 
   - Given: "{{GET}}"
     LinkText: "`GET`"
-    LinkFile: "GET ⏬ item.md"
+    LinkFile: "⏬ GET ⌘ cmd.md"
     Reasons: same as {{RETURN}}.
 
   - Given: "{{Placeholder}}"

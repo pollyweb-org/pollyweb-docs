@@ -10,7 +10,7 @@
 
 1. **What's a WAIT flow command?**
 
-    A [`WAIT` ⏸️](<WAIT ⏸️.md>)
+    A [`WAIT` ⏸️](<WAIT ⏸️ ⌘ cmd.md>)
     * is a flow [Command ⌘](<../../...commands ⌘/Command ⌘/Command ⌘.md>) 
     * that pauses the flow for a period of time 
     * or until triggered by an external signal.
@@ -66,7 +66,7 @@
     - REPEAT
     ```
 
-    Commands: [`.Now`](<../../...functions 🐍/🔩 {.Now}.md>) [`REPEAT`](<../REPEAT 🔁/REPEAT 🔁.md>) [`TEMP`](<../../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>) [`WAIT`](<WAIT ⏸️.md>)
+    Commands: [`.Now`](<../../...functions 🐍/🔩 {.Now}.md>) [`REPEAT`](<../REPEAT 🔁/REPEAT 🔁 ⌘ cmd.md>) [`TEMP`](<../../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>) [`WAIT`](<WAIT ⏸️ ⌘ cmd.md>)
     
 
     
@@ -110,9 +110,9 @@
     |-|-
     | ⬇️ [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️ flow.md>) | to assess the backend queue length.
     | ℹ️ [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the initial message.
-    | 🔁 [`REPEAT`](<../REPEAT 🔁/REPEAT 🔁.md>) | To re-assess the queue periodically.
-    | 🔁 [`RETURN`](<../REPEAT 🔁/REPEAT 🔁.md>) | To exit the loop when it's the user's turn.
-    | ▶️ [`RUN`](<../RUN ▶️/RUN ▶️.md>) | To start the waiting loop.
+    | 🔁 [`REPEAT`](<../REPEAT 🔁/REPEAT 🔁 ⌘ cmd.md>) | To re-assess the queue periodically.
+    | 🔁 [`RETURN`](<../REPEAT 🔁/REPEAT 🔁 ⌘ cmd.md>) | To exit the loop when it's the user's turn.
+    | ▶️ [`RUN`](<../RUN ▶️/RUN ▶️ ⌘ cmd.md>) | To start the waiting loop.
     | ✅ [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) | To say that it's ready.
     | ⏳ [`TEMP`](<../../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>) | To show work in progress.
 
@@ -167,10 +167,10 @@
     |-|-
     | ⏯️️ [`CASE`](<../CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | To show the human-friendly message.
     | ⬇️ [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️ flow.md>) | to assess the backend queue length.
-    | ⏬ [`GET`](<../../...datasets 🪣/GET ⏬/GET ⏬ item.md>) | To get the queue length from resources.
-    | 🔁 [`REPEAT`](<../REPEAT 🔁/REPEAT 🔁.md>) | To re-assess the queue periodically.
-    | 🔁 [`RETURN`](<../REPEAT 🔁/REPEAT 🔁.md>) | To exit the loop when it's the user's turn.
-    | ▶️ [`RUN`](<../RUN ▶️/RUN ▶️.md>) | To start the waiting loop.
+    | ⏬ [`GET`](<../../...datasets 🪣/GET ⏬/⏬ GET ⌘ cmd.md>) | To get the queue length from resources.
+    | 🔁 [`REPEAT`](<../REPEAT 🔁/REPEAT 🔁 ⌘ cmd.md>) | To re-assess the queue periodically.
+    | 🔁 [`RETURN`](<../REPEAT 🔁/REPEAT 🔁 ⌘ cmd.md>) | To exit the loop when it's the user's turn.
+    | ▶️ [`RUN`](<../RUN ▶️/RUN ▶️ ⌘ cmd.md>) | To start the waiting loop.
     | ⏳ [`TEMP`](<../../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>) | To show work in progress.
 
     ---
@@ -180,7 +180,7 @@
 
 1. **How to signal a WAIT placeholder?**
 
-    Consider the following [`WAIT` ⏸️](<WAIT ⏸️.md>) command.
+    Consider the following [`WAIT` ⏸️](<WAIT ⏸️ ⌘ cmd.md>) command.
 
     ```yaml
     # 😃 Talker 

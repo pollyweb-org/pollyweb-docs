@@ -35,7 +35,7 @@
 
 Needs||
 |-|-
-| [Commands ⌘](<../../😃⚙️ Talker cmds/...commands ⌘/Command ⌘/Command ⌘.md>) | [`DIFF`](<../../😃⚙️ Talker cmds/...functions 🐍/🔩 {.Diff}.md>) [`GET`](<../../😃⚙️ Talker cmds/...datasets 🪣/GET ⏬/GET ⏬ item.md>) [`SAVE`](<../../😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
+| [Commands ⌘](<../../😃⚙️ Talker cmds/...commands ⌘/Command ⌘/Command ⌘.md>) | [`DIFF`](<../../😃⚙️ Talker cmds/...functions 🐍/🔩 {.Diff}.md>) [`GET`](<../../😃⚙️ Talker cmds/...datasets 🪣/GET ⏬/⏬ GET ⌘ cmd.md>) [`SAVE`](<../../😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
 | [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`HostChats` 🪣 table](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🪣 Host tables/Chats 💬 table/🤗 HostChats 🪣 table.md>) [`TalkerHolders` 🪣 table](<../../😃🪣 Talker tables/😃🪣 TalkerHolders 🧠 table.md>)
 | [{Functions} 🐍](<../../😃⚙️ Talker cmds/...functions 🐍/{Function} 🐍.md>) | [`{.Diff}`](<../../😃⚙️ Talker cmds/...functions 🐍/🔩 {.Diff}.md>)
 | 

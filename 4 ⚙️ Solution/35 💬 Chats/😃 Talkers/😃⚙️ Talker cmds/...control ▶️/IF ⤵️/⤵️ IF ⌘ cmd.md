@@ -24,7 +24,7 @@
     Number  | zero | `0` | non-zero | `1` `-1`
     Array | empty | `[]` | non-empty | `[1,A]`
     [Confirm 👍](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>) |  no | `No` | yes | `Yes`|
-    [Share 💼](<../../...methods 🤵/SHARE 💼/SHARE 💼 msg.md>) | empty | `{}`| non-empty | `{A:1}`
+    [Share 💼](<../../...methods 🤵/SHARE 💼/SHARE 💼 ⌘ cmd.md>) | empty | `{}`| non-empty | `{A:1}`
     
 
     ---
@@ -51,7 +51,7 @@
     | `{function}` | Boolean [{Function}](<../../...functions 🐍/{Function} 🐍.md>) to evaluate  | `{f}` `{$o}`
     || Allows for missing `{}` in functions | `f()` `$p`
     || Defaults to the last [input prompt ✏️](<../../../../🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>) | `TEXT\|Id?`
-    | `<true-script>` | [Script 📃](<../RUN ▶️/RUN ▶️.md>) when `True` | `IfTrue`
+    | `<true-script>` | [Script 📃](<../RUN ▶️/RUN ▶️ ⌘ cmd.md>) when `True` | `IfTrue`
     
     
     ---
@@ -70,8 +70,8 @@
     | `{function}` | Boolean [{Function}](<../../...functions 🐍/{Function} 🐍.md>) to evaluate  | `{f}` `{$o}`
     || Allows for missing `{}` in functions | `f()` `$p`
     || Defaults to the last [input prompt ✏️](<../../../../🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>) | `TEXT\|Id?`
-    | `<true-script>` | [Script 📃](<../RUN ▶️/RUN ▶️.md>) when `True` | `IfTrue`
-    | `<false-script>`| [Script 📃](<../RUN ▶️/RUN ▶️.md>) when `False` | `IfFalse(X)`
+    | `<true-script>` | [Script 📃](<../RUN ▶️/RUN ▶️ ⌘ cmd.md>) when `True` | `IfTrue`
+    | `<false-script>`| [Script 📃](<../RUN ▶️/RUN ▶️ ⌘ cmd.md>) when `False` | `IfFalse(X)`
     
     ---
     <br/>
