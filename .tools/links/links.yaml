@@ -200,7 +200,7 @@ Successful Tests:
 
   - Given: '{{Parse@Hosted}}'
     LinkText: "`Parse@Hosted` 🅰️ method"
-    LinkFile: "📦 Parse 🚀 msg.md"
+    LinkFile: "📦 Parse 🚀 request.md"
     Reasons: |
       For `X@Y`, 
       where the string is split by `@` into `X` and `Y`,
