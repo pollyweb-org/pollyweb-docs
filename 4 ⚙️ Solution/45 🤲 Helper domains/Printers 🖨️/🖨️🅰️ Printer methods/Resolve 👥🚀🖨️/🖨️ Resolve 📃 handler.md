@@ -4,6 +4,10 @@
 
 * [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that implements the [`Resolve@Printer` 🅰️ method](<🖨️ Resolve 🚀 request.md>)
 
+## Flow
+
+![alt text](<🖨️ Resolve ⚙️ uml.png>)
+
 ## Script
 
 ```yaml
@@ -12,11 +16,18 @@
 # Verify the signature
 - VERIFY|$.Msg
 
-# Get from the table.
+# Get the alias.
 - GET >> $alias:
     Set: PrinterAliases
     Key: $.Msg.Alias
 
-
+# Return the locator
+- RETURN:
+    $alias.Locator
 ```
-<!-- TODO: finish the code and add a sequence diagram -->
+
+Needs||
+|-|-
+| [Commands ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/⌘ Command.md>) | [`GET`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET ⏬/⏬ GET ⌘ cmd.md>) [`RETURN`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`VERIFY`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>)
+| [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`PrinterAliases` 🪣 table](<../../🖨️🪣 Printer tables/PrinterAliases 🪣 table.md>)
+|
