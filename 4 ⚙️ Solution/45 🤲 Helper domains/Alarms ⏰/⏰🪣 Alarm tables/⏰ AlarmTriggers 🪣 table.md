@@ -1,0 +1,25 @@
+# ⏰ Alarm Triggers 🪣 table
+
+
+## Schema
+
+Here's the [Itemized 🛢 schema](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
+
+```yaml
+Table: AlarmTriggers
+Key: Domain, When
+Parents:
+    Domain: 
+        AlarmDomains.Domain: AlarmTriggers.Domain
+```
+
+## Example
+
+Here's the [`GET` command](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET ⏬/⏬ GET ⌘ cmd.md>) result.
+
+
+```yaml
+Domain: 
+When: 2023-04-01T05:00:30.001000Z
+Hook: {object}
+```
