@@ -1,0 +1,21 @@
+@startuml Handle
+
+participant "Hosted 📦" as hosted
+
+box Hoster ☁️ domain #FFFFFA
+    participant "Talker 😃" as talker
+    participant "Chats 🪣" as chats
+    participant "Holders 🪣" as holders
+end box
+
+
+activate hosted
+    hosted -> talker: Place 🚀 {A into $p}
+deactivate hosted
+
+activate talker
+    talker -> chats: GET ⏬ {chat}
+    talker -> holders: SAVE 💾 {chat, A into $p}
+deactivate talker
+
+@enduml
