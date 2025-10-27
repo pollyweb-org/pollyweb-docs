@@ -1,9 +1,11 @@
 # 🧑‍💻🚀😃 Placed @ Talker
 
-> About
+> Implementation
 
 * Implements [Hoster ☁️ helper domain](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>)
 * Implemented by the [`Placed` 📃 handler](<😃 Placed 📃 handler.md>)
+
+> Flow
 * Part of [Handle @ Talker 😃⏩🧑‍💻](<../../😃⏩ Talker flows/Eval Functions 😃⏩📦/😃 Eval ⏩ flow.md>) flow
 * Paired with [`Place@Talker`](<../Place 🧑‍💻🚀😃/😃 Place 🚀 request.md>) message
 
@@ -24,7 +26,7 @@ Header:
 
 Body:
     Chat: <chat-uuid>
-    Placeholder: $p
+    Holder: $p
 ```
 
 
@@ -34,7 +36,7 @@ Body:
 |           | `To`          | string    | [Hoster ☁️ domain](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) name
 |           | `Subject`     | string    | `Placed@Talker`
 | Body      | `Chat`      | uuid      | [Chat 💬](<../../../💬 Chats/💬 Chat.md>) ID
-|           | `Placeholder` | string    | [Placeholder 🧠](<../../😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>) name
+|           | `Holder` | string    | [Placeholder 🧠](<../../😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>) name
 |
 
 <br/>
