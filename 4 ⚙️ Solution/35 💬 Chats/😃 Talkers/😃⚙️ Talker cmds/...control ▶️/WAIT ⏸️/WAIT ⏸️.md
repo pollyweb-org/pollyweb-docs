@@ -189,7 +189,7 @@
         OnTimeout: FAILURE|Timed out!
     ```
 
-    To trigger it, a developer needs to call [`Write@Talker`](<../../../😃🅰️ Talker methods/Place 🧑‍💻🚀😃/🧑‍💻🚀😃 Place.md>).
+    To trigger it, a developer needs to call [`Write@Talker`](<../../../😃🅰️ Talker methods/Place 🧑‍💻🚀😃/😃 Place 🚀 request.md>).
 
     ```python
     # 🐍 Python
