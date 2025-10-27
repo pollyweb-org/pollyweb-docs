@@ -2,6 +2,13 @@
 
 # ⏰🤲 Alarm helper
 
+> Used by 
+* [Itemizer 🛢 helper domain](<../Itemizers 🛢/🛢🤲 Itemizer helper.md>)
+
+<br/>
+
+> FAQ
+
 1. **What's an Alarm helper domain?**
 
     An [Alarm ⏰ helper domain](<⏰🤲 Alarm helper.md>) 

@@ -37,7 +37,7 @@
 Needs||
 |-|-
 | [Commands ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) | [`ASSERT`](<../../...placeholders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`SEND`](<../../...messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>)
-| [Messages 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Trigger@Alarm` 🅰️ method](<../../../../../45 🤲 Helper domains/Alarms ⏰/⏰🅰️ Alarm methods/👥🐌⏰ Trigger.md>)
+| [Messages 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Trigger@Alarm` 🅰️ method](<../../../../../45 🤲 Helper domains/Alarms ⏰/⏰🅰️ Alarm methods/👥🐌⏰ Trigger/👥🐌⏰ Trigger.md>)
 | [Placeholders 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) | [`$.Settings`](<../../...messages 📨/$.Settings 🎛️.md>)
 |
 

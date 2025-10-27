@@ -1,8 +1,10 @@
-<!-- TODO -->
-
 # 👥🐌⏰ Trigger @ Alarm
 
-> Registers an alarm to be triggered by the [`Triggered@Alarm` 🔔 event](<../⏰🔔 Alarm events/⏰🔔 Triggered.md>)
+> Purpose
+
+* Registers an alarm to be triggered by the [`Triggered@Alarm` 🔔 event](<../../⏰🔔 Alarm events/⏰🔔 Triggered.md>)
+
+<br/>
 
 ## Async Message 🐌
 
@@ -20,8 +22,8 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header    | `From`        | string    | Any domain setting the alarm
-|           | `To`          | string    | [Alarm ⏰](<../⏰🤲 Alarm helper.md>) domain
+|           | `To`          | string    | [Alarm ⏰](<../../⏰🤲 Alarm helper.md>) domain
 |           | `Subject`     | string    | `Trigger@Alarm`
 | Body      | `When`        | time | When to trigger the alarm
-|           | `Hook`        | object    | Object to return by [`Triggered@Alarm`](<../⏰🔔 Alarm events/⏰🔔 Triggered.md>)
+|           | `Hook`        | object    | Object to return by [`Triggered@Alarm`](<../../⏰🔔 Alarm events/⏰🔔 Triggered.md>)
 |
