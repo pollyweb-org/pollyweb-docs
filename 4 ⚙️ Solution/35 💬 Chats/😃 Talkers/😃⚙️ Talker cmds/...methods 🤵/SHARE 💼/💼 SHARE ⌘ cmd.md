@@ -81,7 +81,7 @@
     SUCCESS|Hi, {$social.Name}!
     ```
 
-    Commands: [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`SHARE`](<SHARE 💼 ⌘ cmd.md>) [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
+    Commands: [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`SHARE`](<💼 SHARE ⌘ cmd.md>) [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
 
 
     The structure of the shared data is as follows.
