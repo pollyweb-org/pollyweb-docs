@@ -30,7 +30,7 @@
     .Add(.Now, $:Period)
 
 # Save to the Waits table
-- SAVE|Waits@Talker:
+- SAVE|TalkerWaits:
     Chat: $.Chat.Chat
     Signal: $:Signal 
     .Delete: $timeout

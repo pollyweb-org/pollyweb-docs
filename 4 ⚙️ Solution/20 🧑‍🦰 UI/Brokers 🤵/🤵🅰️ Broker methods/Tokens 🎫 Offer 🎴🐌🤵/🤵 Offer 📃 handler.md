@@ -44,7 +44,7 @@
         Schema: $.Msg.Schema
 
 # Save the Offer
-- SAVE|Offers@Broker:
+- SAVE|BrokerOffers:
     .Delete: 1 hour
     Hook: $.Msg.Hook
     Issuer: $.Msg.From

@@ -57,7 +57,7 @@ Wallet: <wallet-uuid>
 - EVAL|.UUID >> $wallet
 
 # Save the Wallet
-- SAVE|Wallets@Broker:
+- SAVE|BrokerWallets:
     Wallet: $wallet
     Notifier: $.Msg.From
     PublicKey: $.Msg.PublicKey
