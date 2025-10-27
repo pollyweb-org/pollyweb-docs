@@ -1,11 +1,11 @@
-# 😃⤴️ Talker `RETURN` flow 
+# 😃⤴️ Talker `RETURN` command 
 
 > Part of [Talker 😃](<../../../😃 Talker role.md>)
 
 <br/>
 
 
-1. **What's a RETURN flow?**
+1. **What's a RETURN command?**
 
     A `RETURN` ⤴️
     * is a flow [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) 

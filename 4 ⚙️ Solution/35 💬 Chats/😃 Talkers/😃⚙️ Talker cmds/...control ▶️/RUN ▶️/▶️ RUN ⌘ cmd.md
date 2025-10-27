@@ -265,3 +265,44 @@
     ---
     <br/>
     
+
+1. **What happens when setting values into input args?**
+
+    It depends if the current value of the input contains the name of a [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>).
+
+    |Scenario | Result 
+    |-|-
+    | [Placeholders 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) | Fills the [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) 
+    | Anything else | Throws an error
+    |
+
+    Here's a [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>).
+    ```yaml
+    📃 Example:
+
+    # This will work
+    - RUN|ShowValue:
+        Placeholder: p
+    
+    # Shows "The value of $p is 123"
+    - INFO|The value of $p is {$p}
+
+    # This will throw an error
+    - RUN|ShowValue:
+        Placeholder:
+        
+    # Never reached
+    - FAILURE|This line is never reached
+    ```
+    Commands: [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`FAILURE`](<../RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) 
+
+    ```yaml
+    📃 SetValue:
+    
+    # Only works with a placeholder name
+    - EVAL|123 >> $:Placeholder
+    ```
+    Commands: [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>)
+    
+    ---
+    <br/>
