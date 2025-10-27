@@ -63,7 +63,7 @@ Body:
     Schema: .HOST/HELLO
 
 # Save the data
-- SAVE|Chats@Host:
+- SAVE|HostChats:
     Broker: $.Msg.From
     
     # It's safe to save the Body, 

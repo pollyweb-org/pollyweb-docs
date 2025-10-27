@@ -80,7 +80,7 @@ RUN|UpdateBinds@Broker:
     - EVAL|.UUID >> $bind
     
     # Save the bind
-    - SAVE|Binds@Broker >> $item:
+    - SAVE|BrokerBinds >> $item:
         Bind: $bind
         Vault: $.Msg.Host
         Wallet: $chat.Wallet.Wallet

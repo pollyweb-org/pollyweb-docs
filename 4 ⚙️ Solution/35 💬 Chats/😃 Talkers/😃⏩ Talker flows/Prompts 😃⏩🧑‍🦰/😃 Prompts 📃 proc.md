@@ -15,7 +15,7 @@
     UUIDs: $:Appendix  
 
 # Stage the prompt.
-- SAVE|Prompts@Host >> $prompt:
+- SAVE|HostPrompts >> $prompt:
     Metadata:
         Prompt: .UUID
         PublicKey: $.Chat.PublicKey

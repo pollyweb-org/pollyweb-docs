@@ -50,7 +50,7 @@ Body:
     - $.Msg.Locator.Schema ~= .HOST
 
 # Save on the table
-- SAVE|Aliases@Printer >> $locator:
+- SAVE|PrinterAliases >> $locator:
     Alias: $.Msg.Alias
     Locator: $.Msg.Locator 
 

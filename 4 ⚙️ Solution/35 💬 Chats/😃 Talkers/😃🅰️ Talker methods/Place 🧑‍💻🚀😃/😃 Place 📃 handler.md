@@ -24,7 +24,7 @@
 - GET|Chats@Host|$.Msg.Chat >> $chat
 
 # Save the placeholder
-- SAVE|Placeholders@Talker:
+- SAVE|TalkerHolders:
     Chat: $.Msg.Chat
     Placeholder: $.Msg.Placeholder.Diff($)
     Value: $.Msg.Value
