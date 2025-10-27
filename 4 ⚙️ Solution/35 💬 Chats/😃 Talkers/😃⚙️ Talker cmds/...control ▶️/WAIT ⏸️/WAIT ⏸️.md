@@ -165,7 +165,7 @@
 
     | [Command ⌘](<../../...commands ⌘/Command ⌘/Command ⌘.md>) | Purpose
     |-|-
-    | ⏯️️ [`CASE`](<../CASE ⏯️/CASE ⏯️.md>) | To show the human-friendly message.
+    | ⏯️️ [`CASE`](<../CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | To show the human-friendly message.
     | ⬇️ [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️ flow.md>) | to assess the backend queue length.
     | ⏬ [`GET`](<../../...datasets 🪣/GET/GET ⏬ item.md>) | To get the queue length from resources.
     | 🔁 [`REPEAT`](<../REPEAT 🔁/REPEAT 🔁.md>) | To re-assess the queue periodically.

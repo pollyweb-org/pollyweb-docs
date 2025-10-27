@@ -213,7 +213,7 @@
     - FAILURE|This is a bug.
     ```
 
-    Commands: [`CASE`](<../CASE ⏯️/CASE ⏯️.md>) [`FAILURE`](<../RETURN ⤴️/RETURN ⤴️.md>) [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
+    Commands: [`CASE`](<../CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`FAILURE`](<../RETURN ⤴️/RETURN ⤴️.md>) [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
 
 
 

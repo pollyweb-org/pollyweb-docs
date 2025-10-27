@@ -212,7 +212,7 @@
     - REPEAT
     ```
 
-    Commands: [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️ flow.md>) [`QUANTITY`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/QUANTITY ↕️/QUANTITY ↕️ prompt.md>) [`REPEAT`](<REPEAT 🔁.md>) [`RETURN`](<../RETURN ⤴️/RETURN ⤴️.md>) [`CASE`](<../CASE ⏯️/CASE ⏯️.md>) 
+    Commands: [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️ flow.md>) [`QUANTITY`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/QUANTITY ↕️/QUANTITY ↕️ prompt.md>) [`REPEAT`](<REPEAT 🔁.md>) [`RETURN`](<../RETURN ⤴️/RETURN ⤴️.md>) [`CASE`](<../CASE ⏯️/⏯️ CASE ⌘ cmd.md>) 
 
 
     ---

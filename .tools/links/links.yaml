@@ -73,7 +73,7 @@ Successful Tests:
 
   - Given: "{{ALARM}}"
     LinkText: "`ALARM`"
-    LinkFile: "ALARM ⏰ msg.md"
+    LinkFile: "⏰ ALARM ⌘ cmd.md"
     Reasons: same as {{RETURN}}.
 
   - Given: "{{IF}}"
