@@ -8,7 +8,7 @@
 
 > Called by 
 
-* Called by the [`BIND` 🔗 command](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/BIND 🔗/BIND 🔗 msg.md>)
+* Called by the [`BIND` 🔗 command](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/BIND 🔗/BIND 🔗 cmd.md>)
 * which then calls the [`Bindable@Broker` 🅰️ method](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>) 
 
 
