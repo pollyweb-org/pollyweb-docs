@@ -128,8 +128,8 @@
     |#|Step|Details
     |-|-|-
     |1| `Upload` | Upload the [Script 📃](<../Script 📃/📃 Script.md>) for the [Command ⌘](<Command ⌘.md>)
-    |2| `Parse` | Parse it at the [`Parse@Hosted` 🅰️ method](<../../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Parse 😃🐌📦/📦 Parse 🐌 msg.md>)
-    |3| `Register`| Register it on the [`Commands.yamlx` ⌘ file](<../../../../../55 👷 Build domains/Hosteds 📦/📦📄 Hosted files/📄⌘ Commands file.md>) 
+    |2| `Parse` | Parse it at the [`Parse@Hosted` 🅰️ method](<../../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Parse 😃🚀📦/📦 Parse 🚀 msg.md>)
+    |3| `Register`| Register it on the [`Commands.yaml` ⌘ file](<../../../../../55 👷 Build domains/Hosteds 📦/📦📄 Hosted files/📄⌘ Commands file.md>) 
     
 
     ---
@@ -169,7 +169,7 @@
 
     <br/>
 
-    Here's the python handler for the [`Parse@Hosted` 🅰️ method](<../../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Parse 😃🐌📦/📦 Parse 🐌 msg.md>)
+    Here's the python handler for the [`Parse@Hosted` 🅰️ method](<../../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Parse 😃🚀📦/📦 Parse 🚀 msg.md>)
 
     ```python
     def talkerParser(args):

@@ -1,5 +1,3 @@
-<!-- TODO: detail -->
-
 # 👥🚀🛢 Undo @ Itemizer
 
 > Part of [Itemizer 🛢 helper](<../../🛢🤲 Itemizer helper.md>)

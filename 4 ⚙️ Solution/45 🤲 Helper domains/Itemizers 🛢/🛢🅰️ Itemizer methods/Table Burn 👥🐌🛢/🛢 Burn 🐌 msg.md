@@ -1,10 +1,8 @@
-<!-- TODO: detail -->
-
 # 👥🐌🛢 Destroy
 
 > Part of [Itemizer 🛢 helper](<../../🛢🤲 Itemizer helper.md>)
 
-> Purpose:
+> Purpose
 
 * Destroys an [Itemized 🛢 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>)
     * as requested by a [Talker 😃](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>)
