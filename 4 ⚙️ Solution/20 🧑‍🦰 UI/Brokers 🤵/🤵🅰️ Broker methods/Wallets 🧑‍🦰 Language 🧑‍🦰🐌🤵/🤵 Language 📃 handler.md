@@ -1,6 +1,12 @@
 # 🤵📃 Set Language 
 
-[Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that implements the [`Language@Broker`](<🤵 Language 🐌 msg.md>) method.
+> Purpose
+
+* [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that implements the [`Language@Broker`](<🤵 Language 🐌 msg.md>) method.
+
+## Flow
+
+![alt text](<🤵 Language ⚙️ uml.png>)
 
 ## Script
 

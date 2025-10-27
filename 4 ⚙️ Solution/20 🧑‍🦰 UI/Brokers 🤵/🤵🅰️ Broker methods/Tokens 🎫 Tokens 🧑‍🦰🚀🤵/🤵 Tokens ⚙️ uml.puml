@@ -1,0 +1,28 @@
+@startuml Tokens@Broker
+
+ 
+participant "Wallet 👱" as wallet
+
+box Hoster ☁️ domain #FFFFFA
+    participant "Broker 🤵" as broker
+    participant "Wallets 🪣" as wallets
+    participant "Tokens 🪣" as tokens
+end box
+
+activate wallet
+wallet -> broker: Tokens 🚀
+
+    activate broker
+        broker -> wallets: GET {wallet}
+
+        activate wallets
+        wallets -> tokens: .Tokens
+        wallets -> broker: 
+        deactivate wallets
+
+        broker -> wallet: RETURN {$wallet.Tokens}
+    deactivate broker
+
+deactivate wallet
+
+@enduml 
