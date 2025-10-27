@@ -1,7 +1,7 @@
 # 🤗⏩🧑‍🦰 Freeze @ Host ❄️ 
 
 * Activated by:
-    * [❄️ Talker `FREEZE` command](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/FREEZE/FREEZE ❄️ msg.md>)
+    * [❄️ Talker `FREEZE` command](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/FREEZE/FREEZE ❄️ cmd.md>)
     * [💳 Talker `CHARGE` command](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/CHARGE/CHARGE 💳 msg.md>)
 
 <br/>
