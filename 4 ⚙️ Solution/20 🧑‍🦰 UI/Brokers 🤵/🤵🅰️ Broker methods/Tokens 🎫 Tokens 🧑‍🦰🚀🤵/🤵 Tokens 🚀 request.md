@@ -57,8 +57,8 @@ Tokens:
 || `Issuer$` | string | [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) after [`Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>)
 || `Path`| string | Local path from [`Saved@Broker`](<../Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 🐌 msg.md>)
 || `Schema$` | string | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) after [`Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>)
-|| `Status`| enum | Status set in [`Status@Broker`](<../Share 💼 Status 💼🚀🤵/🤵 Status 🚀 msg.md>)
+|| `Status`| enum | Status set in [`Status@Broker`](<../Share 💼 Status 💼🚀🤵/🤵 Status 🚀 request.md>)
 ||`Token`  |uuid   |[Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ID from [`Saved@Broker`](<../Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 🐌 msg.md>)
-| |`Locator`| string | [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) from [`Status@Broker`](<../Share 💼 Status 💼🚀🤵/🤵 Status 🚀 msg.md>)
+| |`Locator`| string | [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) from [`Status@Broker`](<../Share 💼 Status 💼🚀🤵/🤵 Status 🚀 request.md>)
 |
 

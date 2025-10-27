@@ -103,7 +103,7 @@
     || [🧑‍🦰🐌 Saved](<🤵🅰️ Broker methods/Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 🐌 msg.md>) | A [Wallet 🧑‍🦰](<../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) saved a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) locally
     || [🎴🐌 Revise](<🤵🅰️ Broker methods/Tokens 🎫 Revise 🎴🐌🤵/🤵 Revise 🐌 msg.md>) | Update the status of a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
     | [`💼 Share`](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) | [💼🐌 Query](<🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) | Return user [Binds 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) and [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
-    || [💼🚀 Status](<🤵🅰️ Broker methods/Share 💼 Status 💼🚀🤵/🤵 Status 🚀 msg.md>) | Return the status of a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
+    || [💼🚀 Status](<🤵🅰️ Broker methods/Share 💼 Status 💼🚀🤵/🤵 Status 🚀 request.md>) | Return the status of a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
 
     <!--
     |Pay| [💵🐌🤵 Charge](<🤵🅰️ Broker methods/Payments 💵 Charge 💵🐌🤵/🤵 Charg 🐌 msg.md>)
