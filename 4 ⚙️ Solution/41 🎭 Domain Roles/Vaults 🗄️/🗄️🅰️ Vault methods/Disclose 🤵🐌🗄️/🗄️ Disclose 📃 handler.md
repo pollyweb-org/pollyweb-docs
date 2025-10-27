@@ -15,11 +15,11 @@
 - VERIFY|$.Msg
 
 # Get for the data
-- ASYNC|Disclosure >> $data:
+- ASYNC|Disclosure >> $hook:
     $.Msg
 
 # Get the data
-- WAIT|$data
+- WAIT|$hook >> $data
 
 # Create the collect
 - SAVE|Collects@Vault >> $collect:
