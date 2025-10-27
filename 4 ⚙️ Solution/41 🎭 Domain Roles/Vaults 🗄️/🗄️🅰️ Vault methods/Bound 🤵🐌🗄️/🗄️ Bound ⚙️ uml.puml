@@ -1,0 +1,30 @@
+@startuml Bound@Vault
+
+participant "Broker 🤵" as broker
+'participant "Consumer 💼" as consumer
+'participant "Graph 🕸" as graph
+
+box Hoster ☁️ domain #FFFFFA
+    participant "Vault 🗄️" as vault
+    participant "Talker 😃" as talker
+end box
+box Itemizer 🛢 domain #FFFFFA
+    participant "Hooks 🪣" as hooks
+    participant "Binds 🪣" as binds
+end box
+
+
+activate broker
+    broker --> vault: Bound 🐌 {hook, binds}
+deactivate broker
+
+activate vault
+    vault -> hooks: GET {hook}
+    vault -> binds: PARALLEL: SAVE {bind}
+    vault --> talker: REEL {hook, binds}
+deactivate vault
+
+activate talker
+deactivate talker
+
+@enduml 

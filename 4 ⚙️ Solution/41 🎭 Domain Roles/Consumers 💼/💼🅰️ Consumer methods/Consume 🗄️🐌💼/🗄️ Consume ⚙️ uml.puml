@@ -1,43 +1,37 @@
-@startuml Wallet: Share()
+@startuml Consumer@Consumer
 
-box Hoster ☁️ domain #FFFFFA
-    participant "Script 📃" as script
-    participant "Talker 😃" as talker
-    participant "Consumer 💼" as consumer
-end box
-participant "Broker 🤵" as broker
 participant "Vault 🗄️" as vault
 
-activate script
-    script --> talker: SHARE 💼
-deactivate script
+box Hoster ☁️ domain #FFFFFA
+    participant "Consumer 💼" as consumer
+    participant "Talker 😃" as talker
+    participant "Script 📃" as script
+end box
 
-activate talker
-    talker --> broker: SEND 📬 Query 🐌 {hook}
-activate broker
-    talker -> talker: WAIT ⏸️ {hook}
-deactivate talker
+box Itemizer 🛢 domain #FFFFFA
+    participant "Hooks 🪣" as hooks
+end box
 
-    broker --> vault: Disclose 🐌 {hook}
-deactivate broker
+participant "Graph 🕸" as graph
 
 activate vault
-vault --> consumer: Consume 🐌 {hook, collect}
+    vault --> consumer: Consume 🐌 {hook, collect}
 deactivate vault
 
 activate consumer
-    consumer -> talker: TRUSTS 🫡 {vault}
+    consumer -> hooks: GET {hook}
+    consumer -> graph: TRUSTS 🫡 {vault, schema}
     consumer -> vault: SEND 📬 Collect 🚀 {collect}
     
     activate vault
         vault -> consumer: {data}
     deactivate vault
 
-    consumer --> talker: REEL 🎣 {hook}
+    consumer --> talker: REEL 🎣 {hook, data}
 deactivate consumer
 
 activate talker
-    talker --> script: RETURN ⤴️ {data}
+    talker --> script: RETURN {data}
 deactivate talker
 
 activate script

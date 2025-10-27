@@ -1,8 +1,21 @@
 # 🗄️📃 Collect handler
 
-> Part of the [Vault 🗄️ domain](<../../🗄️🎭 Vault role.md>)
+> Implementation
+* Implements the [Vault 🗄️ domain](<../../🗄️🎭 Vault role.md>)
 
-> [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that implements the [`Collect@Vault` 🅰️ method](<🗄️ Collect 🚀 request.md>)
+> Flow
+* Part of the [`Consume` ⏩ flow](<../../🗄️⏩ Vault flows/Consume 🗄️⏩💼/🗄️ Consume ⏩ flow.md>)
+
+
+> Purpose
+* [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that implements the [`Collect@Vault` 🅰️ method](<🗄️ Collect 🚀 request.md>)
+
+<br/>
+
+# Flow
+
+![alt text](<🗄️ Collect ⚙️ uml.png>)
+
 
 ## Script
 
