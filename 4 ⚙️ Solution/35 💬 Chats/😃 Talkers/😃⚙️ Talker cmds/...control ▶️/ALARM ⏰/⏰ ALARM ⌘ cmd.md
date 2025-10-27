@@ -9,7 +9,7 @@
 1. **What is an ALARM command?**
 
     An `ALARM` 
-    * is a [Command ⌘](<../../...commands ⌘/Command ⌘/Command ⌘.md>) that schedules an alarm to be triggered at a specified time. 
+    * is a [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) that schedules an alarm to be triggered at a specified time. 
     
     ---
     <br/>

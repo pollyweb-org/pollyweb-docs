@@ -109,10 +109,10 @@
 
     Command | Purpose
     |-|-
-    | ⏯️️ [`CASE`](<../../...control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | Runs a [Command ⌘](<Command ⌘.md>) or [Script 📃](<../Script 📃/📃 Script.md>) based on a [{Function} 🐍](<../../...functions 🐍/{Function} 🐍.md>).
+    | ⏯️️ [`CASE`](<../../...control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script 📃](<../Script 📃/📃 Script.md>) based on a [{Function} 🐍](<../../...functions 🐍/{Function} 🐍.md>).
     | 🫥 [`EMOJI`](<../../../../🤔 Prompts/🤔✏️ Prompt input features/😶⌘ EMOJI cmd.md>) | Changes the [default emoji 😃](<../../../../🤔 Prompts/🤔✏️ Prompt input features/😶 Input emojis.md>) for [input prompts ✏️](<../../../../🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>).
     | ⬇️ [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | Evaluates a [{Function}](<../../...functions 🐍/{Function} 🐍.md>) into a placeholder.
-    | ⤵️ [`IF`](<../../...control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) | Runs a [Command ⌘](<Command ⌘.md>) or [Script 📃](<../Script 📃/📃 Script.md>) based on a [{Function} 🐍](<../../...functions 🐍/{Function} 🐍.md>).
+    | ⤵️ [`IF`](<../../...control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script 📃](<../Script 📃/📃 Script.md>) based on a [{Function} 🐍](<../../...functions 🐍/{Function} 🐍.md>).
     | 🪵 [`LOG`](<../../...control ▶️/LOG 🪵/🪵 LOG ⌘ cmd.md>) | Logs messages into the system handler.
     | 🔁 [`REPEAT`](<../../...control ▶️/REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) | Repeats the current [Script 📃](<../Script 📃/📃 Script.md>) with a confirmation.
     | ⤴️ [`RETURN`](<../../...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) | Returns from a [Script 📃](<../Script 📃/📃 Script.md>) with a result.
@@ -127,7 +127,7 @@
 
     |#|Step|Details
     |-|-|-
-    |1| `Upload` | Upload the [Script 📃](<../Script 📃/📃 Script.md>) for the [Command ⌘](<Command ⌘.md>)
+    |1| `Upload` | Upload the [Script 📃](<../Script 📃/📃 Script.md>) for the [Command ⌘](<⌘ Command.md>)
     |2| `Parse` | Parse it at the [`Parse@Hosted` 🅰️ method](<../../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Parse 😃🚀📦/📦 Parse 🚀 request.md>)
     |3| `Register`| Register it on the [`Commands.yaml` ⌘ file](<../../../../../55 👷 Build domains/Hosteds 📦/📦📄 Hosted files/📄⌘ Commands file.md>) 
     

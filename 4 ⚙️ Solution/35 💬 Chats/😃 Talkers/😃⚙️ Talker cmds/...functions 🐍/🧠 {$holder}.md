@@ -24,7 +24,7 @@
     INFO|{$p.A} # Prints "another property"
     ```
 
-    | [Command ⌘](<../...commands ⌘/Command ⌘/Command ⌘.md>) | Purpose
+    | [Command ⌘](<../...commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
     |-|-
     | ⬇️ [`EVAL`](<../...placeholders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | To push an object into a [placeholder 🧠](<../...placeholders 🧠/$Placeholder 🧠.md>).
     | ℹ️ [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the placeholder values.
@@ -55,7 +55,7 @@
     - INFO|Although you typed `{$n.Text}`
     ```
 
-    | [Command ⌘](<../...commands ⌘/Command ⌘/Command ⌘.md>) | Purpose
+    | [Command ⌘](<../...commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
     |-|-
     | ℹ️ [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the [placeholder 🧠](<../...placeholders 🧠/$Placeholder 🧠.md>) values.
     | ↕️ [`QUANTITY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/QUANTITY ↕️/QUANTITY ↕️ prompt.md>) | To collect the number input.

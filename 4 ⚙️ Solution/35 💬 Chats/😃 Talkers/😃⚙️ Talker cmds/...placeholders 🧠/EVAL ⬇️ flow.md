@@ -8,7 +8,7 @@
 1. **What's an EVAL command?**
 
     An `EVAL` ⬇️
-    * is a [Command ⌘](<../...commands ⌘/Command ⌘/Command ⌘.md>) 
+    * is a [Command ⌘](<../...commands ⌘/Command ⌘/⌘ Command.md>) 
     * that evaluates strings, objects, and [`{Functions}`](<../...functions 🐍/{Function} 🐍.md>)
     * into a placeholder.
 
