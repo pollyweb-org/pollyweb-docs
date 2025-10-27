@@ -43,9 +43,11 @@
     | Function | Details | Example
     |-|-|-
     | [`.Add`](<🔩 {.Add}.md>) | Add math, text, lists, objects | `.Add(10,-4)` → `6`
+    | [`.Diff`](<🔩 {.Diff}.md>) | Difference between lists| `.Diff([1,2,3], [2])`
+    | [`.In`](<🔩 {.In}.md>) | A value is in a list? | `.In(1, [1,2,3])`
+    | [`.Now`](<🔩 {.Now}.md>) | Current time | 	`2025-10-24T00:05:18Z`
     | [`.Random`](<🔩 {.Random}.md>) | Random integer | `.Random(1,9)` → `7`
     | [`.Today`](<🔩 {.Today}.md>) | Current date | `2025-10-24T00:00:00Z`
-    | [`.Now`](<🔩 {.Now}.md>) | Current time | 	`2025-10-24T00:05:18Z`
     | [`.UUID`](<🔩 {.UUID}.md>) | New UUID | `<uuid>`
     
     ---

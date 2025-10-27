@@ -17,9 +17,9 @@
     UUIDs: Chat
 
 # Remove the $ from the placeholder
-- DIFF >> $placeholder:
-    From: $.Msg.Placeholder
-    To: $
+- EVAL|.Diff >> $placeholder:
+    - $.Msg.Placeholder
+    - $
     
 # Verify if the Chat exists
 - GET|Chats@Host|$.Msg.Chat >> $chat
@@ -34,6 +34,7 @@
 
 Needs||
 |-|-
-| [Commands ⌘](<../../../😃⚙️ Talker cmds/...commands ⌘/Command ⌘/Command ⌘.md>) | [`DIFF`](<../../../😃⚙️ Talker cmds/...placeholders 🧠/DIFF/DIFF 🆚.md>) [`GET`](<../../../😃⚙️ Talker cmds/...datasets 🪣/GET/GET ⏬ item.md>) [`SAVE`](<../../../😃⚙️ Talker cmds/...datasets 🪣/SAVE/SAVE 💾 item.md>)
+| [Commands ⌘](<../../../😃⚙️ Talker cmds/...commands ⌘/Command ⌘/Command ⌘.md>) | [`DIFF`](<../../../😃⚙️ Talker cmds/...functions 🐍/🔩 {.Diff}.md>) [`GET`](<../../../😃⚙️ Talker cmds/...datasets 🪣/GET/GET ⏬ item.md>) [`SAVE`](<../../../😃⚙️ Talker cmds/...datasets 🪣/SAVE/SAVE 💾 item.md>)
 | [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Placeholders` 🪣 table](<../../../😃🪣 Talker tables/😃🪣 Holders 🧠 table.md>)
+| [{Functions} 🐍](<../../../😃⚙️ Talker cmds/...functions 🐍/{Function} 🐍.md>) | [`{.Diff}`](<../../../😃⚙️ Talker cmds/...functions 🐍/🔩 {.Diff}.md>)
 | 

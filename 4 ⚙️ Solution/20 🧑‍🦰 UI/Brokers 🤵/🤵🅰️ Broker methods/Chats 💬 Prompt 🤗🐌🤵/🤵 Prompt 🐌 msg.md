@@ -4,6 +4,7 @@
 
 > Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) flow.
 
+> Purpose
 * The [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) 
   * forwards the [Prompt 🤔](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) 
   * to the [Notifier 📣 domain](<../../../Notifiers 📣/📣👥 Notifier domain.md>).
