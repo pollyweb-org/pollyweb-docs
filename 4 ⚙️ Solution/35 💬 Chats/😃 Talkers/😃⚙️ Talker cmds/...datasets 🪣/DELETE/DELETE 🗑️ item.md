@@ -29,7 +29,7 @@
 
     | Argument| Purpose 
     |-|-
-    | `$item` | Previous return from [`GET`](<../GET/GET ⏬ item.md>) 
+    | `$item` | Previous return from [`GET`](<../GET ⏬/GET ⏬ item.md>) 
 
     <br/>
 
@@ -67,7 +67,7 @@
     - DELETE|$item 
     ```
 
-    Commands: [`GET`](<../GET/GET ⏬ item.md>) [`DELETE`](<DELETE 🗑️ item.md>)
+    Commands: [`GET`](<../GET ⏬/GET ⏬ item.md>) [`DELETE`](<DELETE 🗑️ item.md>)
 
     ---
     <br/>

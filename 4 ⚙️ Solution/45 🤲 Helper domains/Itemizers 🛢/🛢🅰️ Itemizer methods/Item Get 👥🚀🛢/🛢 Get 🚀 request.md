@@ -2,7 +2,7 @@
 
 > Part of [Itemizer 🛢 helper](<../../🛢🤲 Itemizer helper.md>)
 
-> Implements the [`GET`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET/GET ⏬ item.md>) command
+> Implements the [`GET`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET ⏬/GET ⏬ item.md>) command
 
 > Purpose
 
@@ -45,7 +45,7 @@ Body:
 
 ||Property|Type|Description
 |-|-|-|-
-|| `.Table`   | string | Table name for the [`.SAVE` 📃 script](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/SAVE/.📎 Assets/SAVE 📃 script.md>)
+|| `.Table`   | string | Table name for the [`.SAVE` 📃 script](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾/💾 SAVE 📃 script.md>)
 || `.Version` | uuid   | Version for [`Save@Itemizer`](<../Item Save 👥🚀🛢/🛢 Save 🚀 request.md>)
 || `{Item object}`        | object    | [Item 🛢](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) saved on [`Save@Itemizer`](<../Item Save 👥🚀🛢/🛢 Save 🚀 request.md>)
 |

@@ -4,7 +4,7 @@
 
 > Part of [Talker 😃](<../../../😃 Talker role.md>)
 
-> Implemented by the [`.SAVE` 📃 script](<.📎 Assets/SAVE 📃 script.md>)
+> Implemented by the [`.SAVE` 📃 script](<💾 SAVE 📃 script.md>)
 
 > Relates to [Tables 🪣 folder](<../../../../../55 👷 Build domains/Hosteds 📦/📦📄 Hosted files/🪣📂 Tables folder.md>)
 
@@ -81,7 +81,7 @@
 
     | Argument| Purpose | Examples
     |-|-|-
-    | `$item` | [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) loaded with [`GET`](<../GET/GET ⏬ item.md>)
+    | `$item` | [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) loaded with [`GET`](<../GET ⏬/GET ⏬ item.md>)
     | `{changes}` | Object with changes to apply | `{A:1, B:2}`
     | `.Delete` | Automatic delete for cleanup, in | `30 days`
     | | `minutes` `hours` `days` `months`
@@ -103,14 +103,14 @@
         a: 1
     ```
 
-    Commands: [`EVAL`](<../GET/GET ⏬ item.md>) [`SAVE`](<SAVE 💾 item.md>)
+    Commands: [`EVAL`](<../GET ⏬/GET ⏬ item.md>) [`SAVE`](<💾 SAVE ⌘ cmd.md>)
 
     ---
     <br/>
 
 1. **What if the item doesn't exist?**
 
-    Set the `Default` property of [`GET`](<../GET/GET ⏬ item.md>).
+    Set the `Default` property of [`GET`](<../GET ⏬/GET ⏬ item.md>).
 
     ```yaml
     # Get the item from the database
@@ -128,7 +128,7 @@
         a: 1
     ```
 
-    Commands: [`EVAL`](<../GET/GET ⏬ item.md>) [`SAVE`](<SAVE 💾 item.md>)
+    Commands: [`EVAL`](<../GET ⏬/GET ⏬ item.md>) [`SAVE`](<💾 SAVE ⌘ cmd.md>)
     
     ---
     <br/>
