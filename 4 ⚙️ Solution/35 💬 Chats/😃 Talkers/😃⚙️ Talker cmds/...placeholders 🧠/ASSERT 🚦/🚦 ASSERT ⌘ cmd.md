@@ -13,7 +13,7 @@
 1. **What's the ASSERT command?**
 
     An `ASSERT`
-    * is a handler [Command ⌘](<../../...commands ⌘/Command ⌘/Command ⌘.md>) 
+    * is a handler [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) 
     * that verifies data assumptions.
   
     ---

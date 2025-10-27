@@ -11,7 +11,7 @@
 1. **What's a GET item command?**
 
     A `GET` ⏬
-    * is a [Command ⌘](<../../...commands ⌘/Command ⌘/Command ⌘.md>) 
+    * is a [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) 
     * that retrieves an item by key 🔑
     * from a key-value resource pool 🪣
     * into a [Talker 😃](<../../../😃 Talker role.md>) placeholder.
@@ -44,7 +44,7 @@
     | `Set` | Name of resource pool | `MyPool`
     | `Key`  | Key to look up in the pool | `MyKey` `$key`
     | `Default` | Objet to return if missing | `{A:1, B:2}`
-    | `OnMissing` | [Command ⌘](<../../...commands ⌘/Command ⌘/Command ⌘.md>) or [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) | `MyScript`
+    | `OnMissing` | [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) or [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) | `MyScript`
     | `$item` | Item to retrieve | -
 
     ---

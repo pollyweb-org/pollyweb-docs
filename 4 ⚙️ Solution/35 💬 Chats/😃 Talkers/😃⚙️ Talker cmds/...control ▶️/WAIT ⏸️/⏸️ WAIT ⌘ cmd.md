@@ -11,7 +11,7 @@
 1. **What's a WAIT flow command?**
 
     A [`WAIT` ⏸️](<⏸️ WAIT ⌘ cmd.md>)
-    * is a flow [Command ⌘](<../../...commands ⌘/Command ⌘/Command ⌘.md>) 
+    * is a flow [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) 
     * that pauses the flow for a period of time 
     * or until triggered by an external signal.
 
@@ -106,7 +106,7 @@
     ```
 
 
-    | [Command ⌘](<../../...commands ⌘/Command ⌘/Command ⌘.md>) | Purpose
+    | [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
     |-|-
     | ⬇️ [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | to assess the backend queue length.
     | ℹ️ [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the initial message.
@@ -163,7 +163,7 @@
     - REPEAT
     ```
 
-    | [Command ⌘](<../../...commands ⌘/Command ⌘/Command ⌘.md>) | Purpose
+    | [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
     |-|-
     | ⏯️️ [`CASE`](<../CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | To show the human-friendly message.
     | ⬇️ [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | to assess the backend queue length.
