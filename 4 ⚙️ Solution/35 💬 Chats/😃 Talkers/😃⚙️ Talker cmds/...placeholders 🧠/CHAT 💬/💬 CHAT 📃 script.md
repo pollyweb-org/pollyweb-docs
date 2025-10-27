@@ -1,12 +1,12 @@
 <!-- TODO -->
 # 😃📃 .CHAT 💬 script
 
-> Part of [Talker 😃 domain](<../../../../😃 Talker role.md>)
+> Part of [Talker 😃 domain](<../../../😃 Talker role.md>)
 
 > Purpose
-* [Script 📃](<../../../...commands ⌘/Script 📃/📃 Script.md>) 
-    * that implements the [`CHAT` 💬 command](<../CHAT 💬 ⌘ cmd.md>) 
-    * by setting the [`$.Chat` 💬 placeholder](<../../$.Chat 💬.md>).
+* [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) 
+    * that implements the [`CHAT` 💬 command](<💬 CHAT ⌘ cmd.md>) 
+    * by setting the [`$.Chat` 💬 placeholder](<../$.Chat 💬.md>).
 
 ## How to run
 
