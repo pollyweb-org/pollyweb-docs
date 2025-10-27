@@ -1,0 +1,21 @@
+@startuml Placed@Talker
+
+participant "Hosted 📦" as hosted
+
+box Hoster ☁️ domain #FFFFFA
+    participant "Talker 😃" as talker
+    participant "Holders 🪣" as holders
+end box
+
+
+activate hosted
+    hosted -> talker: Placed 🚀 {$p}
+
+    activate talker
+        talker -> holders: GET {chat, $p}
+        talker -> hosted: RETURN {value}
+    deactivate talker
+
+deactivate hosted
+
+@enduml

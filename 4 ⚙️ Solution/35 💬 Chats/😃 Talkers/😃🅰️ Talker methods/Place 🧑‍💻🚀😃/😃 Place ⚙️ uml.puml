@@ -1,4 +1,4 @@
-@startuml Handle
+@startuml Place@Talker
 
 participant "Hosted 📦" as hosted
 
@@ -14,8 +14,8 @@ activate hosted
 deactivate hosted
 
 activate talker
-    talker -> chats: GET ⏬ {chat}
-    talker -> holders: SAVE 💾 {chat, A into $p}
+    talker -> chats: GET {chat}
+    talker -> holders: SAVE {chat, A into $p}
 deactivate talker
 
 @enduml

@@ -39,15 +39,15 @@ Failed Tests:
 
 Successful Tests:
 
-#  - Given: '{{CHAT script}}'
-#    LinkText: "`CHAT` 📃 script"
-#    LinkFile: 'CHAT 📃 script.md'
-#    Reasons: |
-#      For `{{WORD script}}`,
-#      where the string ends with the word `script`,
-#      the file is called `?📃*WORD* script.md`
-#      containing the emoji "📃"
-#      or the file is called `WORD 📃 script.md`.
+  - Given: '{{CHAT script}}'
+    LinkText: "`CHAT` 📃 script"
+    LinkFile: '💬 CHAT 📃 script.md'
+    Reasons: |
+      For `{{WORD script}}`,
+      where the string ends with the word `script`,
+      the file is called `?📃*WORD* script.md`
+      containing the emoji "📃"
+      or the file is called `WORD 📃 script.md`.
 
   - Given: '{{Triggered@Alarm}}'
     LinkText: "`Triggered@Alarm` 🔔 event"
@@ -60,26 +60,26 @@ Successful Tests:
       or is in a subfolder of such folder.
 
 
-#  - Given: "{{RETURN}}"
-#    LinkText: "`RETURN`"
-#    LinkFile: "⤴️ RETURN ⌘ cmd.md"
-#    Reasons: |
-#      For `{{WORD}}`, 
-#      where all characters are uppercase letters,
-#      the file is called `WORD {emoji}*.md`,
-#      the file is also on uppercase,
-#      the file does not contain 🧪 nor 📃,
-#      is under a folder called "* cmds".
+  - Given: "{{RETURN}}"
+    LinkText: "`RETURN`"
+    LinkFile: "⤴️ RETURN ⌘ cmd.md"
+    Reasons: |
+      For `{{WORD}}`, 
+      where all characters are uppercase letters,
+      the file is called `WORD {emoji}*.md`,
+      the file is also on uppercase,
+      the file does not contain 🧪 nor 📃,
+      is under a folder called "* cmds".
 
   - Given: "{{ALARM}}"
     LinkText: "`ALARM`"
     LinkFile: "⏰ ALARM ⌘ cmd.md"
     Reasons: same as {{RETURN}}.
 
-#  - Given: "{{IF}}"
-#    LinkText: "`IF`"
-#    LinkFile: "⤵️ IF ⌘ cmd.md"
-#    Reasons: same as {{RETURN}}.
+  - Given: "{{IF}}"
+    LinkText: "`IF`"
+    LinkFile: "⤵️ IF ⌘ cmd.md"
+    Reasons: same as {{RETURN}}.
 
   - Given: "{{GET}}"
     LinkText: "`GET`"
@@ -156,15 +156,15 @@ Successful Tests:
     Reasons: |
       same as "{{Request Sync}}"
 
-#  - Given: '{{Commands}}'
-#    LinkText: "Commands ⌘"
-#    LinkFile: "⌘ Command.md"
-#    Reasons: This is hardcoded.
+  - Given: '{{Commands}}'
+    LinkText: "Commands ⌘"
+    LinkFile: "⌘ Command.md"
+    Reasons: This is hardcoded.
 
-#  - Given: '{{Command}}'
-#    LinkText: "Command ⌘"
-#    LinkFile: "⌘ Command.md"
-#    Reasons: This is hardcoded.
+  - Given: '{{Command}}'
+    LinkText: "Command ⌘"
+    LinkFile: "⌘ Command.md"
+    Reasons: This is hardcoded.
 
   - Given: '{{TalkerHooks table}}' 
     LinkText: '`TalkerHooks` 🪣 table'
