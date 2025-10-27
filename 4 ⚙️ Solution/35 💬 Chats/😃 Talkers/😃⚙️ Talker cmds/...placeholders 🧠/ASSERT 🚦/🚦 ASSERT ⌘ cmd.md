@@ -237,7 +237,7 @@
 
 1. **How to assert a Locator?**
 
-    > This uses the syntax of the [`{.Parse}` 🔆 function](<../PARSE 🔆.md>).
+    > This uses the syntax of the [`{.Parse}` 🔆 function](<../PARSE 🔆/🔆 PARSE ⌘ cmd.md>).
 
     ```yaml
     📃 Example:
@@ -254,7 +254,7 @@
     - SUCCESS|The schema is equivalent to ./HOST
     ```
 
-    Commands: [`EVAL`](<../EVAL ⬇️ flow.md>) [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
+    Commands: [`EVAL`](<../EVAL ⬇️/EVAL ⬇️ flow.md>) [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
 
     ---
     <br/>

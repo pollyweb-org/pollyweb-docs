@@ -43,7 +43,7 @@
             A: 1
             B: 2
     ```
-    Commands: [`.Add`](<../../...functions 🐍/🔩 {.Add}.md>) [`.Now`](<../../...functions 🐍/🔩 {.Now}.md>) [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️ flow.md>)
+    Commands: [`.Add`](<../../...functions 🐍/🔩 {.Add}.md>) [`.Now`](<../../...functions 🐍/🔩 {.Now}.md>) [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️/EVAL ⬇️ flow.md>)
 
     ---
     <br/>
