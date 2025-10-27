@@ -120,10 +120,10 @@
     | [Command ⌘](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/Command ⌘.md>) | Purpose
     |-|-
     | 📝 [`INFORM`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/INFORM 📝/📝 INFORM ⌘ cmd.md>) | To provide instructions
-    | 🔗 [`BIND`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/BIND 🔗/BIND 🔗 cmd.md>) | To create a user profile
+    | 🔗 [`BIND`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) | To create a user profile
     | 🛠️ [`INVITE`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/INVITE 🤲/🤲 INVITE ⌘ cmd.md>) | To subscribe the user to plan
     | ❄️ [`FREEZE`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/FREEZE ❄️/❄️ FREEZE ⌘ cmd.md>) | To disable past inputs
-    | ⬇️ [`EVAL`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/EVAL ⬇️/EVAL ⬇️ flow.md>) | To register on the database
+    | ⬇️ [`EVAL`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | To register on the database
     | ✅ [`SUCCESS`](<../../35 💬 Chats/🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) | To say that it was successful
     | 👋 [`GOODBYE`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>) | To show advertising
     
