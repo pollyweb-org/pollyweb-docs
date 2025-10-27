@@ -1,11 +1,15 @@
 # 🛢🪣 Itemized datasets
 
-> Part of [Dataset 🪣](<../🪣 Dataset.md>)
+> Flow
+* Part of [Dataset 🪣](<../🪣 Dataset.md>)
 
-> Implemented by the [🛢🤲 Itemizer helper](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🤲 Itemizer helper.md>)
- with [`Build@Itemizer`](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>) 
+> Implementation
+* Implemented by the [🛢🤲 Itemizer helper](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🤲 Itemizer helper.md>)
+    * with the [`Build@Itemizer` 🅰️ method](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>).
 
 <br/>
+
+> FAQ
 
 1. **What is an Itemized dataset?**
 
@@ -109,6 +113,25 @@
     
     ---
     <br/>    
+
+1. **How to automatically propagate parents?**
+
+    For parents to be automatically created, add a `Propagate`.
+
+    ```yaml
+    Table: <name>
+    
+    # Define the parent
+    Parents:
+        <parent>: {...}
+
+    # Automatically create missing parents.
+    Propagate:
+        <parent> 
+    ```
+
+    ---
+    <br/>
 
 1. **Whats the syntax with a child dataset?**    
     

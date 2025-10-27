@@ -13,7 +13,20 @@
 
 # Get all the alarms
 - GET >> $alarms:
-    Set: AlarmTriggers
-    Where:
-        Domain: $.Msg.Domain
+    Set: AlarmDomain
+    Key: $.Msg.Domain
+
+# Format the list
+- EVAL|$alarms >> $ret:
+    - When
+    - Hook
+
+# Return the list
+- RETURN|$ret
 ```
+
+Needs||
+|-|-
+| [Commands ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/⌘ Command.md>) |[`EVAL`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`GET`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET ⏬/⏬ GET ⌘ cmd.md>) [`RETURN`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`VERIFY`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>)
+| [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`AlarmDomains` 🪣 table](<../../⏰🪣 Alarm tables/⏰ AlarmDomains 🪣 table.md>)
+|
