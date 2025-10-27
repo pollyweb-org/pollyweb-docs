@@ -167,7 +167,7 @@
     |-|-
     | ⏯️️ [`CASE`](<../CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | To show the human-friendly message.
     | ⬇️ [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️ flow.md>) | to assess the backend queue length.
-    | ⏬ [`GET`](<../../...datasets 🪣/GET/GET ⏬ item.md>) | To get the queue length from resources.
+    | ⏬ [`GET`](<../../...datasets 🪣/GET ⏬/GET ⏬ item.md>) | To get the queue length from resources.
     | 🔁 [`REPEAT`](<../REPEAT 🔁/REPEAT 🔁.md>) | To re-assess the queue periodically.
     | 🔁 [`RETURN`](<../REPEAT 🔁/REPEAT 🔁.md>) | To exit the loop when it's the user's turn.
     | ▶️ [`RUN`](<../RUN ▶️/RUN ▶️.md>) | To start the waiting loop.

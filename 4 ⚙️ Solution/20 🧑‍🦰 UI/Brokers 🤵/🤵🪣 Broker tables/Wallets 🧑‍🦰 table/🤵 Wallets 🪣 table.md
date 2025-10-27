@@ -49,7 +49,7 @@ Distincts:
 
 ## Example
 
-Here's the [`GET` command](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET/GET ⏬ item.md>) result.
+Here's the [`GET` command](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET ⏬/GET ⏬ item.md>) result.
 
 ```yaml
 # GET|Wallets|<wallet-uuid>
