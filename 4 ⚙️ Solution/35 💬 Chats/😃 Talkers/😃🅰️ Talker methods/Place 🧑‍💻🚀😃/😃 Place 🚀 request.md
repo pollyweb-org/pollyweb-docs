@@ -1,13 +1,14 @@
 # 🧑‍💻🚀😃 Write @ Hoster
 
-> Implements [Hoster ☁️ helper domain](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>)
+> Implementation 
+* Implements [Hoster ☁️ helper domain](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>)
+* Implemented by the [`Place` 📃 handler](<😃 Place 📃 handler.md>)
 
-> Implemented by the [`Place handler`](<😃 Place 📃 handler.md>)
+> Flow
+* Part of [`Async` ⏩ flow](<../../😃⏩ Talker flows/Async Tasks 😃⏩📦/😃 Async ⏩ flow.md>) flow
+* Paired with the [`Placed@Talker` 🅰️ method](<../Placed 🧑‍💻🚀😃/😃 Placed 🚀 request.md>)
 
-> Part of [😃⏩🧑‍💻 Wait @ Talker](<../../😃⏩ Talker flows/Async Tasks 😃⏩📦/😃 Async ⏩ flow.md>) flow
-
-> Paired with [`Placed@Talker`](<../Placed 🧑‍💻🚀😃/😃 Placed 🚀 request.md>) message
-
+> Purpose 
 * Writes a value to a [Placeholder 🧠](<../../😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>).
 
 

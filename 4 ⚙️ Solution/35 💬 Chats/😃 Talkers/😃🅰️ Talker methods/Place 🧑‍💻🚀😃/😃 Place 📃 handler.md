@@ -2,6 +2,10 @@
 
 > Implements the [`Place@Talker` 🅰️ method](<😃 Place 🚀 request.md>)
 
+## Flow
+
+![alt text](<😃 Place ⚙️ uml.png>)
+
 ## Script
 
 ```yaml
@@ -15,11 +19,6 @@
     AllOf: Placeholder, Reason, Chat, Value
     Texts: Placeholder, Reason
     UUIDs: Chat
-
-# Remove the $ from the placeholder
-- EVAL|.Diff >> $placeholder:
-    - $.Msg.Placeholder
-    - $
     
 # Verify if the Chat exists
 - GET|Chats@Host|$.Msg.Chat >> $chat
@@ -27,7 +26,7 @@
 # Save the placeholder
 - SAVE|Placeholders@Talker:
     Chat: $.Msg.Chat
-    Placeholder: $placeholder
+    Placeholder: $.Msg.Placeholder.Remove($)
     Value: $.Msg.Value
     Reason: $.Msg.Reason
 ```
