@@ -33,7 +33,6 @@ Header:
 
 ## Synchronous Response 🚀
 
-
 ```yaml
 Binds:
   - Bind: <bind-uuid>

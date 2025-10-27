@@ -55,15 +55,21 @@ Body:
 ```yaml
 # If single domain
 Domain: Example Airlines
+```
 
+```yaml
 # If single Schema
 Schema: Wheelchair assistance required
+````
 
+```yaml
 # If multiple domains
 Domains: 
   - Domain: example.com
     Translation: Example Airlines
+````
 
+```yaml
 # If multiple schemas
 Schemas: 
   - Schema: iata.org/SSR/WCHR
