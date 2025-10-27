@@ -1,16 +1,14 @@
-<!-- TODO: detail -->
-
 # 👥🐌🛢 Build
 
 > Part of [Itemizer 🛢 helper](<../../🛢🤲 Itemizer helper.md>)
 
 
-> Purpose:
+> Purpose
 
-* Builds an [Itemized 🛢 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>)
+* Builds an [Itemized 🪣 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>)
     * as requested by a [Talker 😃](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>)
 
-> Examples:
+> Examples
 
 * [`Wallets` 🪣 table](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/Wallets 🧑‍🦰 table/🤵 Wallets 🪣 table.md>)
 * [`Notifiers` 🪣 table](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/Notifiers 📣 table/🤵 Notifiers 🪣 table.md>)

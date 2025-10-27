@@ -1,6 +1,3 @@
-<!-- TODO: detail -->
-
-
 # 👥🚀🛢 Save @ Itemizer
 
 > Part of [Itemizer 🛢 helper](<../../🛢🤲 Itemizer helper.md>)
