@@ -203,12 +203,15 @@
     ```yaml
     📃 Example:
 
+    # $partB: {B:2}
     - EVAL >> $partB:
         B: 2
 
+    # $partC: {C:3}
     - EVAL >> $partC:
         C: 3
 
+    # $output: {A:1, B:2, C:3, D:4}
     - EVAL >> $output:
         A: 1
         :{$partB}:
@@ -359,7 +362,7 @@
     ---
     <br/>
 
-1. **How to merge lists?**
+1. **How to merge lists with FROM-MATCH?**
 
 
     Consider the 1st list `$items`.
@@ -389,9 +392,8 @@
 
     
     ```yaml
-    📃 Example:
-
-    # Merge
+    📃 Merge:
+    
     - EVAL|$items >> $merged:
         Item: ID
         Supplier: Name #, other, another
@@ -424,22 +426,22 @@
 
     <br/>
     
-1. **How to filter lists?**
+1. **How to filter lists with FROM-MATCH?**
 
     
 
     Here's an example using the same lists as before.
 
     ```yaml
-    📃 Example:
-
-    # Filter with a list of values
-    #   List: X, Y
+    📃 Filter with a list of values:
+    # List: X, Y
     - EVAL|X,Y >> $filtered:
         FROM $suppliers
         MATCH $suppliers.ID
+    ```
 
-    # Filter with a list of objects
+    ```yaml
+    📃 Filter with a list of objects:
     #   List: {Key:X},{Key:Y}
     - EVAL|{Key:X},{Key:Y} >> $filtered:
         FROM $suppliers
@@ -474,17 +476,25 @@
     <br/>
 
 
-1. **How to work with lists?**
+1. **How to append into lists?**
 
     To insert a value in a lists, use  `+>` instead of `>>`.
     ```yaml
     📃 Example:
-    
     - EVAL|A +> $list
     - EVAL|B +> $list
-    
-    # Results in [A,B]
+    # Results in [A,B]    
     ```
+
+    Here's a alternative syntax using the [`.Add`](<../...functions 🐍/🔩 {.Add}.md>) function in a [Placeholder 🧠](<$Placeholder 🧠.md>).
+
+    ```yaml
+    📃 Example:
+    - EVAL|A >> $list
+    - EVAL|$list.Add(A) >> $list
+    # Results in [A,B]    
+    ```
+    
 
     ---
     <br/>
@@ -492,8 +502,7 @@
 1. **How to merge two lists?**
 
     ```yaml
-    📃 Example:
-
+    📃 Merge two lists:
     - EVAL >> $merged:
         :list1:
         :list2:
@@ -507,9 +516,35 @@
     ---
     <br/>
 
+1. **How to make a distinct in lists?**
+
+    Using the {{{.Distinct}}} function
+
+    ```yaml
+    📃 Inline in a placeholder:
+    - EVAL|$list.Distinct() >> $list
+    ```
+
+    ```yaml
+    📃 Break down in a single list:
+    - EVAL|.Distinct >> $distinct:
+        $list
+    ```
+
+    ```yaml
+    📃 Distinct after merging multiple lists:
+    - EVAL|.Distinct >> $distinct:
+        :$list-1:
+        :$list-n:
+    ```
+    
+    ---
+    <br/>
+
 1. **How to imitate SQL queries?**
 
     ```yaml
+    📃 Similar to SQL query:
     - EVAL >> $output-list:
         Col1, Col2              # Similar to SELECT 
         FROM $input-list        # Similar to FROM
