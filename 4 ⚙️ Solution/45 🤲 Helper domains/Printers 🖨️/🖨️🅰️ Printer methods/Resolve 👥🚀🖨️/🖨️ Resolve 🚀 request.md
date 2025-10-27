@@ -2,11 +2,12 @@
 
 # 👥🚀🖨️ Resolve @ Printer
 
-> A [Printer 🖨️ domain](<../../🖨️🤲 Printer helper.md>) returns the [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) of an alias, if any.
+> Purpose
+* A [Printer 🖨️ domain](<../../🖨️🤲 Printer helper.md>) returns the [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) of an alias, if any.
+* No locator means that it’s free for grabs.
 
-> Used in [🧑‍🦰👉🤗 Scan printer QR](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/🔆🖨️ Tap alias locator.md>).
-
-> No locator means that it’s free for grabs.
+> Used in 
+* [🧑‍🦰👉🤗 Scan printer QR](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/🔆🖨️ Tap alias locator.md>).
 
 <br/>
 

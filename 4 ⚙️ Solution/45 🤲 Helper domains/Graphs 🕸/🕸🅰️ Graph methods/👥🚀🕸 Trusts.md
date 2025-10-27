@@ -56,7 +56,6 @@ Body:
 
 ## Synchronous Response 
 
-
 ```yaml
 Trusted: True
 Paths:

@@ -24,6 +24,7 @@ Header:
 ## Synchronous Response 
 
 ```yaml
+Triggers:
 - When: 2023-04-01T05:00:30.001000Z
   Hook: my-hook
 ```

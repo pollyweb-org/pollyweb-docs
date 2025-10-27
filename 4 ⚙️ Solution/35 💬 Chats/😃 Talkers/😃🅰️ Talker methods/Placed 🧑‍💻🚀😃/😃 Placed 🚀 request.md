@@ -44,5 +44,5 @@ Body:
 ## Synchronous Response
 
 ```yaml
-{A:1, B:2}
+Value: {...}
 ```

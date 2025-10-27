@@ -23,7 +23,7 @@ Body:
 || `To` | string | [Printer 🖨️ domain](<../../🖨️🤲 Printer helper.md>) name
 || `Subject`| string | `Grab@Printer`
 |Body|`Alias`| string | Unique alias on the [Printer 🖨️](<../../🖨️🤲 Printer helper.md>)
-|| Locator | string | [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) 
+|| `Locator` | string | [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) 
 |
 
 <br/>
@@ -38,29 +38,3 @@ Body:
 |
 
 <br/>
-
-## Handler
-
-```yaml
-# Verify the signature
-- VERIFY|$.Msg
-
-# Only create Alias for Hosts
-- ASSERT:
-    - $.Msg.Locator.Schema ~= .HOST
-
-# Save on the table
-- SAVE|PrinterAliases >> $locator:
-    Alias: $.Msg.Alias
-    Locator: $.Msg.Locator 
-
-# Respond with the Locator
-- REEL
-```
-
-| Needs||
-|-|-
-| [Commands ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/⌘ Command.md>) | [`$.Msg`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...messages 📨/$.Msg 📨.md>) [`ASSERT`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`SAVE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`REEL`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...control ▶️/REEL 🎣/🎣 REEL ⌘ cmd.md>) [`VERIFY`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>)
-| [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | `Aliases`
-| [Schemas 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)  | `.HOST`
-|
