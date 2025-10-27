@@ -1,6 +1,6 @@
 # 😃📃 `.BIND` script
 
-> [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) that implements the [`BIND`](<BIND 🔗 msg.md>) command.
+> [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) that implements the [`BIND`](<BIND 🔗 cmd.md>) command.
 
 > Invokes the [`Bindable@Broker` 🅰️ method](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>)
 
