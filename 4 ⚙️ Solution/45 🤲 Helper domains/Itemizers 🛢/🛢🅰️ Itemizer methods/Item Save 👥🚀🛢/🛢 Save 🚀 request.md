@@ -12,7 +12,7 @@
 
 <br/>
 
-## Synchronous Request
+## Synchronous Request 🚀
 
 ```yaml
 Header:
@@ -24,7 +24,6 @@ Body:
     Set: MySet
     Item: {...}
     Script: SaveToken
-    Version: <version-uuid> # Optional
     Delete: 30 days         # Optional
 ```
 
@@ -35,10 +34,28 @@ Body:
 |           | `Subject`     | string    | `Save@Itemizer`
 | Body    | `Set`    | string  | `Set` from [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
 |         | `Item`    | object  | Object to save
-|         | `Version` | uuid    | Optional version from [`Get@Itemizer`](<../Item Get 👥🚀🛢/🛢 Get 🚀 request.md>)
 |        | `Script` | string    | Optional [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) for traceability
 |         | `Delete` | string  | Optional scheduled delete
 |
+
+## Synchronous Response
+
+```yaml
+Status: OK
+Item: 
+    {Item properties}
+    .Table: MyTable
+    .Version: <version-uuid>
+```
+
+|Object|Property|Type|Description
+|-|-|-|-
+|Top| `Status`  | string    | `OK` `BLOCKED` `OUTDATED`
+|Item| `Item`    | object    | Saved item with updated properties
+|| `.Table`   | string | Table name for the [`SAVE` 📃 script](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾/💾 SAVE 📃 script.md>)
+|| `.Version` | uuid   | Version for [`Save@Itemizer`](<../Item Save 👥🚀🛢/🛢 Save 🚀 request.md>)
+|
+
 
 <br/>
 
@@ -47,8 +64,9 @@ Body:
 1. **What's the format of `Delete`?**
 
     The `Delete` parameter 
-    * expects `<number>` `<period>` 
-    * where `<period>` is in `days` `hours` `minutes` `months`
+    * follows the [`{.Add}`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...functions 🐍/🔩 {.Add}.md>) syntax
+    * expecting `<number>` `<period>` 
+    * where `<period>` is in `day(s)` `hour(s)` `minute(s)` `month(s)`
     * e.g, `30 days`.
 
     ---
@@ -72,5 +90,16 @@ Body:
   
     * If the version has changed due to a concurrent [`SAVE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) in the [Talker 😃 domain](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>), then the [Itemizer 🛢 helper domain](<../../🛢🤲 Itemizer helper.md>) rejects the change, forcing the [Talker 😃 domain](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) to re-run the [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>).
 
+    ---
+    <br/>
+
+1. **What are the possible statuses?**
+
+    | Status | Details
+    |-|-
+    | `OK`        | The item was saved successfully.
+    | `BLOCKED` | There is already an item with the same key and a different content, and the table schema was configured with `NoUpdates` to block any changes after the first [`Save@Itemizer` 🅰️ method](<🛢 Save 🚀 request.md>).
+    | `OUTDATED`  | The `.Version` of the item saved in the dataset (let's call it `A`) is different from the one given in `Item.Version` (let's call it B), meaning that item `A` has changed since item `B` was pulled with the [`Get@Itemizer` 🅰️ method](<../Item Get 👥🚀🛢/🛢 Get 🚀 request.md>) call.
+    
     ---
     <br/>

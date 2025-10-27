@@ -4,24 +4,48 @@
 
 * [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that implements the [`Grab@Printer` 🅰️ method](<🖨️ Grab 🚀 request.md>).
 
+## Flow
+
+![alt text](<🖨️ Grab ⚙️ uml.png>)
+
 ## Script
 
 ```yaml
 # Verify the signature
 - VERIFY|$.Msg
 
+# Assert the inputs
+- ASSERT|$.Msg:
+    AllOf: Alias, Locator
+    Texts: Alias, Locator
+
+# Parse the locator
+- PARSE|$.Msg.Locator >> $locator
+
 # Only create Alias for Hosts
-- ASSERT:
-    $.Msg.Locator.Schema: .HOST
+- IF|$locator.Schema.Is(.HOST):
+    Else: 
+      RETURN:
+        Status: UNHOST
 
 # Save on the table
 - SAVE|PrinterAliases >> $locator:
     Alias: $.Msg.Alias
     Locator: $.Msg.Locator 
+    .OnBlocked: $blocked
 
-# Respond with the Locator
-- RETURN:
-    Locator: $.Msg.Locator 
+# Check if blocked
+- IF|$blocked:
+
+    # Return blocked
+    Then: 
+      RETURN:
+        Status: BLOCKED
+
+    # Respond with the Locator
+    Else: 
+      RETURN:
+        Status: OK
 ```
 
 | Needs||

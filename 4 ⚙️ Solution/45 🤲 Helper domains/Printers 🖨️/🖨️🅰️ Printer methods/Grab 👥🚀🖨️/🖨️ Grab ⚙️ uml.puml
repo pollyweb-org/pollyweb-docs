@@ -17,13 +17,18 @@ end box
 activate domain
 domain -> printer: Grab 🚀 {alias, locator}
 activate printer
-    printer -> aliases: GET {alias}
+    printer -> aliases: SAVE 💾 {alias, locator}
     
     activate aliases
-        aliases -> printer: {locator}
+        aliases -> printer: {status}
     deactivate aliases
 
-    printer -> domain: RETURN {locator}
+    alt success
+        printer -> domain: RETURN {OK}
+    else failure
+        printer -> domain: RETURN {BLOCKED, UNHOST}
+    end
+    
 deactivate printer
 deactivate domain
 

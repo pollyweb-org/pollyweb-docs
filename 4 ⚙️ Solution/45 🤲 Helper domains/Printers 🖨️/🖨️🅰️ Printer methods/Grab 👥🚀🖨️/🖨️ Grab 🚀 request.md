@@ -30,11 +30,15 @@ Body:
 
 ## Synchronous Response
 
-| HTTP | Details
-|-|-
-| 200   | Success.
-| 409   | Alias already occupied - use another alias.
-| 400   | Locator not supported - only [`.HOST 🧩`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🧩 Host schemas/🧩 HOST.md>) is supported.
+```yaml
+Status: OK
+```
+
+| Property  | Value | Description
+|-|-|-
+| `Status`  | `OK` | Grabbed successfully
+|| `UNHOST` | Locator not supported - not [`.HOST` 🧩](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🧩 Host schemas/🧩 HOST.md>)
+|| `BLOCKED` | Alias already occupied - use another
 |
 
 <br/>

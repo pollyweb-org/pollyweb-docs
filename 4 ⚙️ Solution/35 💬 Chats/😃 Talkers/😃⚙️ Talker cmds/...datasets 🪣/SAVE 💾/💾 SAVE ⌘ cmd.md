@@ -1,5 +1,3 @@
-<!-- TODO: detail the relation with database -->
-
 # 😃💾 Talker `SAVE` command
 
 > Part of [Talker 😃](<../../../😃 Talker role.md>)
@@ -25,6 +23,8 @@
     # Single item
     - SAVE|<set> >> $inserted:
         {object}
+        .Delete: <duration>        # Optional
+        .OnBlocked: <placeholder>  # Optional
     ```
 
     ```yaml
@@ -36,8 +36,10 @@
 
     | Argument| Purpose | Example
     |-|-|-
-    | `<set>` | Name of resource pool | `MyPool`
+    | `<set>` | Name of the [Dataset 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | `MySet`
     | `{object}` | Item to update or insert in the pool | `MyKey` `$key`
+    | `.Delete` | Automatic cleanup with [`{.Add}`](<../../...functions 🐍/🔩 {.Add}.md>) | `30 days`
+    | `.OnBlocked`| [`$Placeholder`](<../../...placeholders 🧠/$Placeholder 🧠.md>) name to set `True` | `onBlocked`
     | `$inserted` | [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) with the insertion | `$item`
 
     ---
@@ -47,21 +49,26 @@
 
     ```yaml
     # With an object
-    - SAVE|myPool:
+    - SAVE|mySet:
         A: 1
         B: 2
+        .OnDelete: 1 day
+        .OnBlocked: onBlocked
 
     # With a placeholder
-    - SAVE|myPool:
-        {$myItem}
+    - SAVE|mySet:
+        $myItem
+
 
     # With a mix of both, 
     #   by adding surrounding ":" to placeholders
-    - SAVE|myPool:
+    - SAVE|mySet:
         A: 1
         B: 2
         :{$partA}:
         :{$partB}:
+        .Delete: 1 day
+        .OnBlocked: onBlocked
     ```
 
     ---
@@ -76,15 +83,14 @@
     # Comprehensive
     SAVE|$item: 
         {changes}
-        .Delete: {period}
+        .Delete: <period>
+        .OnBlocked: <placeholder>
     ```
 
     | Argument| Purpose | Examples
     |-|-|-
     | `$item` | [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) loaded with [`GET`](<../GET ⏬/⏬ GET ⌘ cmd.md>)
     | `{changes}` | Object with changes to apply | `{A:1, B:2}`
-    | `.Delete` | Automatic delete for cleanup, in | `30 days`
-    | | `minutes` `hours` `days` `months`
 
     ---
     <br/>
@@ -94,7 +100,7 @@
     ```yaml
     # Get the item from the database
     - GET >> $item:
-        Set: myPool
+        Set: mySet
         Key: anExistingKey
 
     # Change a single property
@@ -103,7 +109,7 @@
         a: 1
     ```
 
-    Commands: [`EVAL`](<../GET ⏬/⏬ GET ⌘ cmd.md>) [`SAVE`](<💾 SAVE ⌘ cmd.md>)
+    Commands:  [`SAVE`](<💾 SAVE ⌘ cmd.md>)
 
     ---
     <br/>
@@ -115,7 +121,7 @@
     ```yaml
     # Get the item from the database
     - GET >> $item:
-        Set: myPool
+        Set: mySet
         Key: aMissingKey # any missing key
 
         # Return {a:0, b:2} if missing
@@ -128,7 +134,7 @@
         a: 1
     ```
 
-    Commands: [`EVAL`](<../GET ⏬/⏬ GET ⌘ cmd.md>) [`SAVE`](<💾 SAVE ⌘ cmd.md>)
+    Commands: [`SAVE`](<💾 SAVE ⌘ cmd.md>)
     
     ---
     <br/>

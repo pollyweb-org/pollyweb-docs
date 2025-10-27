@@ -1,4 +1,4 @@
-# 😃📃 `.SAVE` 🗑️ script
+# 😃📃 `.SAVE` 💾 script
 
 > Implements the [`SAVE`](<💾 SAVE ⌘ cmd.md>)
 
@@ -13,8 +13,9 @@
     Item: {A:1, B:1}
     Set: MySet
     Script: SaveToken       
-    Version: <version-uuid> # Optional
-    Delete: 30 days         # Optional
+    Version: <version-uuid>  # Optional
+    Delete: 30 days          # Optional
+    OnBlocked: myPlaceholder # Optional
 ```
 
 ```yaml
@@ -24,8 +25,9 @@
         :$item:
     Set: $item.Set
     Script: SaveToken
-    Version: <version-uuid> # Optional
-    Delete: 30 days         # Optional
+    Version: <version-uuid>  # Optional
+    Delete: 30 days          # Optional
+    OnBlocked: myPlaceholder # Optional
 ```
 
 ## Script
@@ -36,8 +38,7 @@
 # Fill the $item
 - ASSERT:
     AllOf: $:Set, $:Item
-    Texts: $:Set
-    Lists: $:Script, $:Delete
+    Texts: $:Script, $:Set, $:OnBlocked, $:Delete
     UUIDs: $:Version
 
 # Send the request and wait.
@@ -52,14 +53,26 @@
         Script: $:Script
         Delete: $:Delete
 
-# Return the saved item
-- RETURN|$saved
+# Check the status
+- CASE|$saved.Status:
+
+    # Return the saved item
+    OK: RETURN|$saved.Item
+
+    # Ask for a rerun
+    OUTDATED: HTTP|412|Outdated
+
+    # If blocked, see if there's a handler
+    BLOCKED: 
+        IF|$:OnBlocked:
+            Then: EVAL|True >> $:OnBlocked
+            Else: HTTP|423|Blocked
 ```
 
 
 Needs||
 |-|-
-| [Commands ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) | [`ASSERT`](<../../...placeholders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>)  [`SEND`](<../../...messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>) [`RETURN`](<../../...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`RUN`](<../../...control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
+| [Commands ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) | [`ASSERT`](<../../...placeholders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CASE`](<../../...control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`HTTP`](<../../...control ▶️/HTTP 💥/💥 HTTP ⌘ cmd.md>) [`SEND`](<../../...messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>) [`RETURN`](<../../...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`RUN`](<../../...control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
 | [Messages 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Save@Itemizer`](<../../../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/Item Save 👥🚀🛢/🛢 Save 🚀 request.md>)
 | [Placeholders 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) | [`$.Settings`](<../../...messages 📨/$.Settings 🎛️.md>)
 |
