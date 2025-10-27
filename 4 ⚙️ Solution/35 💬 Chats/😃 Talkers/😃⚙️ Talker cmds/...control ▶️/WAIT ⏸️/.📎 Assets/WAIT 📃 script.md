@@ -39,7 +39,7 @@
 Needs||
 |-|-
 [Commands ⌘](<../../../...commands ⌘/Command ⌘/Command ⌘.md>) | [`ASSERT`](<../../../...placeholders 🧠/ASSERT 🚦/ASSERT 🚦.md>) [`EVAL`](<../../../...placeholders 🧠/EVAL ⬇️ flow.md>) [`SAVE`](<../../../...datasets 🪣/SAVE/SAVE 💾 item.md>)
-[Datasets 🪣](<../../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Waits` 🪣](<../../../../😃🪣 Talker tables/😃🪣 Waits ⏸️ table.md>)
+[Datasets 🪣](<../../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Waits` 🪣](<../../../../😃🪣 Talker tables/😃🪣 TalkerWaits ⏸️ table.md>)
 [{Functions} 🐍](<../../../...functions 🐍/{Function} 🐍.md>) | [`.Now`](<../../../...functions 🐍/🔩 {.Now}.md>)
 [Placeholders 🧠](<../../../...placeholders 🧠/$Placeholder 🧠.md>) | [`$.Chat`](<../../../...placeholders 🧠/$.Chat 💬.md>)
 |
@@ -49,7 +49,7 @@ Needs||
 ## Event handler
 
 Trigger `.OnWaitExpired`
-* set on the [`Waits` 🪣](<../../../../😃🪣 Talker tables/😃🪣 Waits ⏸️ table.md>) table
+* set on the [`Waits` 🪣](<../../../../😃🪣 Talker tables/😃🪣 TalkerWaits ⏸️ table.md>) table
 * for `EXPIRED` events
 * sent by the [`Triggered@Itemizer` 🔔 event](<../../../../../../45 🤲 Helper domains/Itemizers 🛢/🛢🔔 Itemizer events/🛢🔔 Triggered.md>)
 

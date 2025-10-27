@@ -27,7 +27,7 @@
         Domain: $locator.Host
 
 # Save the Host info
-- SAVE|Domains@Broker:
+- SAVE|BrokerDomains:
     Domain: $domain.Domain
     Domain$: $domain.Name
     SmallIcon: $domain.SmallIcon
@@ -46,7 +46,7 @@
 - KEYS >> $keys
 
 # Create a new Chat
-- SAVE|Chats@Broker >> $chat:
+- SAVE|BrokerChats >> $chat:
     Chat: .UUID()
     Wallet: $wallet.Wallet
     # Host info
@@ -89,5 +89,5 @@
 | [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Converse@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Converse 🤵🐌📣/📣 Converse 📣 msg.md>) <br/>  [`Identity@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Identity.md>)  <br/> [`Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>)
 | [Placeholders 🧠](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>) | [`$.Settings`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...messages 📨/$.Settings 🎛️.md>)
 | [Scripts 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) |[`UpdateChats`](<../Update Chats 🤵⏩💬/🤵 Update Chats 📃 script.md>)
-| [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Chats`](<../../🤵🪣 Broker tables/Chats 💬 table/🤵 Chats 🪣 table.md>) [`Domains`](<../../🤵🪣 Broker tables/Domains 👥 table/🤵 Domains 🪣 table.md>)
+| [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`BrokerChats` 🪣](<../../🤵🪣 Broker tables/Chats 💬 table/🤵 BrokerChats 🪣 table.md>) [`BrokerDomains` 🪣](<../../🤵🪣 Broker tables/Domains 👥 table/🤵 BrokerDomains 🪣 table.md>)
 |
