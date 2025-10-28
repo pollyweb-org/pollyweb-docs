@@ -129,6 +129,14 @@ def replace_hosteds_tokens(md_files):
     return _replace_simple(md_files, pattern, '[Hosted 📦 domains](<📦👥 Hosted domain.md>)')
 
 
+# Hardcoded Trust token
+TRUST_REPLACEMENT = "[Trust 🫡](<🫡 Domain Trust.md>)"
+@register_hardcoded("trust", replacement=TRUST_REPLACEMENT, token_label="Trust")
+def replace_trust_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Trust`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, TRUST_REPLACEMENT)
+
+
 @register_hardcoded("wallets", replacement=WALLETS_REPLACEMENT, token_label="Wallets")
 def replace_wallets_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Wallets`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
