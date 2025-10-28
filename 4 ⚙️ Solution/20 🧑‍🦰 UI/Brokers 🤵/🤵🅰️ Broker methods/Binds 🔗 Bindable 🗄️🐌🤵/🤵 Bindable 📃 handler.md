@@ -30,9 +30,11 @@
     MATCH Vault, $.Msg.From
 
 # Get the bindable schemas
--EVAL|.Diff >> $bindable:
-    - $bound.Schema  # list of bound schemas
-    - $.Msg.Schemas  # list of offered schemas
+- EVAL|.Diff >> $bindable:
+    # list of bound schemas
+    - $bound.Schema  
+    # list of offered schemas
+    - $.Msg.Schemas.Schema  
 
 # Translate the bindable schemas
 - IF|$bindable:

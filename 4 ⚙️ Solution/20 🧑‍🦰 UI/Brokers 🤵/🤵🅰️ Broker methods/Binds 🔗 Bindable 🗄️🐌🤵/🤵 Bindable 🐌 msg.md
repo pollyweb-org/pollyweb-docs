@@ -27,7 +27,7 @@ Body:
     Chat: <chat-uuid>
     Hook: <hook-uuid>
     Schemas: 
-      - any-authority.org/ANY-SCHEMA
+        Schema: any-authority.org/ANY-SCHEMA
 ```
 
 | Object | Property | Type  | Description
@@ -37,5 +37,5 @@ Body:
 |           | `Subject`| string|  `Bindable@Broker`
 | Body  | `Chat`| uuid | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) from [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 | | `Hook`| uuid | [Hook 🪝](<../../../../35 💬 Chats/😃 Talkers/😃🪣 Talker tables/😃🪣 TalkerHooks 🪝 table.md>) for [`Bound@Vault`](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
-| | `Schemas`| string[] | List of [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
+| Schemas | `Schema`| string | Bindable [Schema Code 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 |
