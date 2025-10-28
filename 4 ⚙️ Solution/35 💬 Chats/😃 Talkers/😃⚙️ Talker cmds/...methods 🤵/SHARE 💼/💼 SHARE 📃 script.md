@@ -28,6 +28,7 @@
 - SAVE|TalkerHooks >> $hook:
     Hook: .UUID
     Broker: $.Chat.Broker
+    Chat: $.Chat.Chat
     PublicKey: $.Chat.PublicKey
     Schemas: $:Schemas
 
