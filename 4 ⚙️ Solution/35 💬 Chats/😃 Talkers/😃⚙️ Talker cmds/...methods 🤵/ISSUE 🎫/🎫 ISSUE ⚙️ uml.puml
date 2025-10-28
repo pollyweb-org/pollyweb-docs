@@ -1,5 +1,8 @@
 @startuml ISSUE
  
+
+
+
 box Hoster ☁️ domain #FFFFFA
     participant "Script 📃" as script
     participant "Talker 😃" as talker
@@ -13,6 +16,7 @@ end box
 
 participant "Broker 🤵" as broker
 'participant "Vault 🗄️" as vault
+participant "Wallet 👱" as wallet
 
 activate script
     script -> talker: ISSUE 🎫
@@ -21,19 +25,34 @@ deactivate script
 activate talker
     talker -> hooks: SAVE 💾 {hook}
     talker --> broker: SEND 📬 {Offer 🐌 hook}
-    activate broker
+activate broker
     talker -> talker: WAIT {hook}
 deactivate talker
 
-        broker --> issuer: Accepted 🐌 {hook}
-    deactivate broker
+    broker --> wallet: Save 🐌
+deactivate broker
+
+activate wallet
+    wallet -> issuer: Issued 🚀 {hook}
+
+    activate issuer
+        issuer -> hooks: GET 🧲 {hook}
+        issuer -> wallet: {offer}
+    deactivate issuer
+
+    wallet --> broker: Saved 🐌
+deactivate wallet
+
+activate broker
+    broker --> issuer: Accepted 🐌 {hook, token}
+deactivate broker
 
 activate issuer
-    issuer -> talker: REEL 🎣 {hook, data}
+    issuer -> talker: REEL 🎣 {hook, token}
 deactivate issuer
 
 activate talker
-    talker -> script: RETURN \n{schema, data}
+    talker -> script: RETURN {token}
 deactivate talker
 
 activate script

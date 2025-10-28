@@ -12,6 +12,7 @@
 - RUN|.SHARE:
     Schemas: 
       - any-authority.dom/ANY-SCHEMA
+    Context: {...}
 ```
 
 ## Script
@@ -31,6 +32,7 @@
     Chat: $.Chat.Chat
     PublicKey: $.Chat.PublicKey
     Schemas: $:Schemas
+    Context: $:Context
 
 # Query the Broker
 - SEND|$hook:
@@ -55,6 +57,6 @@ Needs||
 |-|-
 |[Commands ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>)| [`ASSERT`](<../../...placeholders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`RETURN`](<../../...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`SAVE`](<../../...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`SEND`](<../../...messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>) [`WAIT`](<../../...control ▶️/WAIT 🧘/🧘 WAIT ⌘ cmd.md>)
 | [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`TalkerHooks`](<../../../😃🪣 Talker tables/😃🪣 TalkerHooks 🪝 table.md>)
-| [Messages 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Query@Broker` 🅰️ method](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)
+| [Messages 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Query@Broker` 🅰️ method](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) <br/> [`Context@Consumer` 🅰️ method](<../../../../../41 🎭 Domain Roles/Consumers 💼/💼🅰️ Consumer methods/Context 🗄️🚀💼/💼 Context 🚀 request.md>)
 | [Placeholders 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) | [`.Chat`](<../../...placeholders 🧠/$.Chat 💬/💬 $.Chat 🧠 holder.md>)
 |

@@ -32,21 +32,24 @@
     Broker: $.Chat.Broker
     Chat: $.Chat.Chat
     PublicKey: $.Chat.PublicKey
-    Schema: $:Schema
-    Starts: $:Starts
-    Expires: $:Expires
-
+    Internals: $Internals
+    Offer:
+        Schema: $:Schema
+        Starts: $:Starts
+        Expires: $:Expires
+        Properties: $:Properties
+    
 # Query the Broker
-- SEND|$hook:
+- SEND:
     Header:
-        To: Broker
+        To: $.Chat.Broker
         Subject: Offer@Broker
     Body: 
-        Chat: Chat
-        Hook: Hook
-        Schema: Schema
-        Starts: Starts
-        Expires: Expires
+        Chat: $.Chat.Chat
+        Hook: $hook.Hook
+        Schema: $:Schema
+        Starts: $:Starts
+        Expires: $:Expires
 
 # Wait for the shared data
 - WAIT >> $token:

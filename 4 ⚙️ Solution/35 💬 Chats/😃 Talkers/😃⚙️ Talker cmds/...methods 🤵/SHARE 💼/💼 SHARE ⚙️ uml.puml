@@ -24,13 +24,28 @@ activate talker
     talker -> talker: WAIT {hook}
 deactivate talker
 
-    broker -> vault: 
-    deactivate broker
-    activate vault
-        vault --> consumer: {hook, schema, data}
-    deactivate vault
+    broker -> vault: Disclose 🐌
+deactivate broker
+
+activate vault
+
+    vault -> consumer: Context 🚀 {hook}
+
+    activate consumer
+        consumer -> hooks: GET 🧲 {hook}
+        consumer -> vault: {context, schema}
+    deactivate consumer
+
+    vault --> consumer: Consume 🐌 {hook, schema, collection}
+deactivate vault
 
 activate consumer
+    consumer -> vault: Collect 🚀 {collection}
+
+    activate vault
+        vault -> consumer: {data}
+    deactivate vault
+
     consumer -> talker: REEL 🎣 {hook, data}
 deactivate consumer
 
