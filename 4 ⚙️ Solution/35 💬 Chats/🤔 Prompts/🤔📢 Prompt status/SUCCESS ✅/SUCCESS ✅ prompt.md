@@ -113,7 +113,8 @@
 
     ```yaml
     Format: SUCCESS
-    Text: ✅ Simple success.
+    Emoji: ✅ 
+    Text: Simple success.
     ```
     
     ---

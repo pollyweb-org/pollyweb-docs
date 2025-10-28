@@ -118,7 +118,8 @@
 
     ```yaml
     Format: AMOUNT
-    Text: 😃 How much?
+    Emoji: 😃  
+    Text: How much?
     MinValue: -100.00
     MaxValue: 1000000
     ```

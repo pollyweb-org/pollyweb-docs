@@ -142,7 +142,8 @@
 
     ```yaml
     Format: TEXT
-    Text: 💬 How are you today?
+    Emoji: 💬
+    Text: How are you today?
     ```
 
     <br/>
@@ -195,7 +196,8 @@
 
     ```yaml
     Format: TEXT
-    Text: 💬 What's the IP address? 
+    Emoji: 💬
+    Text: What's the IP address? 
     Details: "Hint: `123.123.123.123`"
     ```
 

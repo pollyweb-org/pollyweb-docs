@@ -86,7 +86,8 @@
 
     ```yaml
     Format: INFO
-    Text: ℹ️ Expandable info
+    Emoji: ℹ️
+    Text: Expandable info
     Details: |
         1. Markdown bullet one
         1. Markdown bullet two

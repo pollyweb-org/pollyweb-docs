@@ -102,7 +102,8 @@
 
     ```yaml
     Format: FAILURE
-    Text: ❌ Simple failure.
+    Emoji: ❌ 
+    Text: Simple failure.
     ```
     
     ---

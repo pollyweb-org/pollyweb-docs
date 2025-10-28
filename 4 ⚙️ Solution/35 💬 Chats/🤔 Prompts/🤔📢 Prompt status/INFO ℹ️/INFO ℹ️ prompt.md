@@ -98,7 +98,8 @@
 
     ```yaml
     Format: INFO
-    Text: ℹ️ Simple info.
+    Emoji: ℹ️ 
+    Text: Simple info.
     ```
 
     ---

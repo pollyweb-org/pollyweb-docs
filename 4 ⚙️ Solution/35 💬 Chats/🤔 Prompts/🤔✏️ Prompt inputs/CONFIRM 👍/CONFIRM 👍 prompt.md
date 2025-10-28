@@ -80,7 +80,8 @@
 
     ```yaml
     Format: CONFIRM
-    Text: 😃 Confirm first?
+    Emoji: 😃 
+    Text: Confirm first?
     ```
 
     <br/>
