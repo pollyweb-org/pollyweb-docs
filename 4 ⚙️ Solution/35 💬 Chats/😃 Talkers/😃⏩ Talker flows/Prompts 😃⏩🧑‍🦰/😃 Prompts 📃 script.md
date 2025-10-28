@@ -38,14 +38,9 @@
     UUIDs: Appendix  
     Maths: MinValue, MaxValue
 
-# Default the emoji
-- IF|$:Emoji:
-    Then: 
-      EVAL|$:Emoji >> $emoji
-    Else:
-      CASE|$.Chat.Role >> $emoji:
-        AGENT: 🫥
-        $: 🤔
+# Calculate the emoji
+- RUN|GetEmoji >> $emoji:
+    $.Inputs
 
 # Stage the prompt.
 - SAVE|HostPrompts >> $hook:
@@ -85,6 +80,53 @@
 - RETURN|$response
 ```
 
+```yaml
+📃 GetEmoji:
+
+# Set the emoji
+- CASE|$:Format:
+
+    TEMP: RETURN|⏳
+
+    FAILURE: RETURN|❌
+
+    INFO: 
+        CASE|$.Chat.Role:
+            AGENT: RETURN|ⓘ
+            $: RETURN|ℹ️
+
+    SUCCESS: 
+        CASE|$.Chat.Role:
+            AGENT: RETURN|☑️
+            $: RETURN|✅
+
+    $: 
+        # Agents always ask with 🫥
+        - IF|$.Chat.Role.Is(AGENT):
+            RETURN|🫥
+
+# Default emoji
+- EVAL|😃 >> $emoji
+
+# Override if in Chat
+- IF|$.Chat.Emoji:
+    EVAL|$.Chat.Emoji >> $emoji
+
+# Override if in Prompt
+- IF|$:Emoji: 
+    EVAL|$:Emoji >> $emoji
+
+# Block special emojis
+- IF|$:Emoji.In(⏳❌ⓘℹ️☑️✅😃🫥):
+    RETURN|😃
+
+# Allow limited customizations
+- IF|$:Emoji.In(😐😶😌😊😕🙁😔🥺🤣😅✏️):
+    RETURN|$:Emoji
+
+# Default
+- RETURN 😃
+```
 
 Needs ||
 |-|-
