@@ -1,5 +1,8 @@
 # 🗄️🚀💼 Context @ Consumer
 
+> Flow
+* Part of the [`Share Bind` ⏩ flow](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Bind 🔗.md>)
+
 > Implementation
 
 * Implements the [Consumer 💼 domain](<../../💼🎭 Consumer role.md>)
