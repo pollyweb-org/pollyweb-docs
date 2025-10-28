@@ -108,7 +108,7 @@ def replace_holder_tokens(md_files):
 def replace_msg_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?\$\.Msg`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
     # Use the holder file for $.Msg (emoji then token then '🧠 holder')
-    replacement = "[`$.Msg` 🧠 holder](<� $.Msg 🧠 holder.md>)"
+    replacement = "[`$.Msg` 🧠 holder](<📨 $.Msg 🧠 holder.md>)"
     return _replace_simple(md_files, pattern, replacement)
 
 
@@ -148,6 +148,12 @@ def replace_trust_tokens(md_files):
 def replace_trusted_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Trusted`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
     return _replace_simple(md_files, pattern, '[Trusted 🫡](<🫡 Domain Trust.md>)')
+
+
+@register_hardcoded("holders", replacement='[Holders 🧠](<$Holder 🧠.md>)', token_label="Holders")
+def replace_holders_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Holders`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, '[Holders 🧠](<$Holder 🧠.md>)')
 
 
 @register_hardcoded("wallets", replacement=WALLETS_REPLACEMENT, token_label="Wallets")
