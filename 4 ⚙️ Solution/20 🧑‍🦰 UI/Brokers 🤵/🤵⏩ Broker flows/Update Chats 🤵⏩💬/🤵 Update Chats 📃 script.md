@@ -24,9 +24,9 @@ RUN|UpdateChats@Broker:
 📃 UpdateChats@Broker:
 
 # Verify required inputs
-- ASSERT:
-    AllOf: $:Wallet
-    UUIDs: $:Wallet
+- ASSERT|.Inputs:
+    AllOf: Wallet
+    UUIDs: Wallet
 
 # Notify Wallets to update Binds
 - RUN|Updated@Notifier:

@@ -31,8 +31,8 @@
     Key: $.Msg.Chat
 
 # Only allow offers from the Host
-- ASSERT:
-    $.Msg.From: $chat.Host
+- ASSERT|$.Msg:
+    From: $chat.Host
 
 # Translate the Issuer and Schema
 - SEND >> $translation:

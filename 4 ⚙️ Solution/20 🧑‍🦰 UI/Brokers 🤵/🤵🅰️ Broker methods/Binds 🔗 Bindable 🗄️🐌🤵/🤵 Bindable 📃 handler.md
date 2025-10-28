@@ -20,8 +20,8 @@
     Key: Chat
 
 # Check if it's the host
-- ASSERT:
-    $chat.Host: $.Msg.From
+- ASSERT|$.Msg:
+    From: $chat.Host
 
 # Get the existing binds
 - EVAL >> $bound:

@@ -110,6 +110,23 @@ def compute_expected_replacement(token: str, given_raw: str, md_files: list[str]
             return f"`{token}` {label}", path
 
     if token.isupper():
+        # Special-case tokens that start with a dot (e.g. .PROMPT).
+        # Prefer files that include the 📃 emoji and end with 'script.md'.
+        if token.startswith('.'):
+            # Prefer files whose basename contains the dotted token (exact match
+            # with the leading dot), then fall back to normalized-stem matching.
+            for path in md_files:
+                name = os.path.basename(path)
+                if '📃' in name and token in name:
+                    return f"`{token}` 📃 script", Path(path)
+
+            normalized_token = normalize_string(token.lstrip('.'))
+            for path in md_files:
+                name = os.path.basename(path)
+                stem = name[:-3] if name.lower().endswith('.md') else name
+                if '📃' in name and (normalize_string(stem) == normalized_token or normalize_string(stem).startswith(normalized_token)):
+                    return f"`{token}` 📃 script", Path(path)
+
         target = find_uppercase_token_target(token, md_files)
         if target:
             return f"`{token}`", Path(target)
@@ -353,6 +370,15 @@ def runit(project_directory, entryPoint):
         expected_linkfile = test['LinkFile']
         token = given.strip('{}')
         reasons_text = (test.get('Reasons') or '').lower()
+        # Special-case tokens that start with a dot (e.g. {{.PROMPT}}).
+        # These refer to files whose basename is exactly the expected_linkfile
+        # (often scripts with leading punctuation). Match them directly.
+        if token.startswith('.'):
+            candidate_paths = [p for p in md_files if os.path.basename(p) == expected_linkfile]
+            if not candidate_paths:
+                raise ValueError(f"No matching file for {given}: {expected_linkfile}")
+            # found the expected file, continue with next test
+            continue
         if 'this is hardcoded' in reasons_text:
             token_key = normalize_string(token)
             handler = HARDCODED_HANDLERS.get(token_key)
