@@ -30,7 +30,7 @@ Here's the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>)
 📃 .FILTER:
 
 # Assert the inputs
-- ASSERT|.Inputs:
+- ASSERT|$.Inputs:
     AllOf: Options, ID, Title
     Lists: Options
     Texts: ID, Title, Statement

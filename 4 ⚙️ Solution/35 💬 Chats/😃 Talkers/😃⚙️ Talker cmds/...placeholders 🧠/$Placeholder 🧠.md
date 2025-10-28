@@ -17,12 +17,12 @@
 
 1. **What are the system placeholders?**
 
-    | Holder | Details
+    | Holder 🧠 | Details
     |-|-
-    | [`$.Chat`](<$.Chat 💬.md>)
-    | {{$.Inputs}}
-    | [`$.Msg`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/$.Msg 📨.md>)
-    | [`$.Settings`](<$.Settings 🎛️.md>)
+    | [`$.Chat`](<$.Chat 💬/💬 $.Chat 🧠 holder.md>)
+    | [`$.Inputs`](<$.Inputs ▶️/▶️ $.Inputs 🧠 holder.md>)
+    | [`$.Msg`](<$.Msg 📨/📨 $.Msg 🧠 holder.md>)
+    | [`$.Settings`](<$.Settings 🎛️/🎛️ $.Settings 🧠 holder.md>)
 
     ---
     <br/>

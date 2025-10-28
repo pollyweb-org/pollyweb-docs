@@ -100,7 +100,8 @@ def replace_placeholder_tokens(md_files):
 
 def replace_msg_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?\$\.Msg`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    replacement = "[`$.Msg`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/$.Msg 📨.md>)"
+    # Use the holder file for $.Msg (emoji then token then '🧠 holder')
+    replacement = "[`$.Msg` 🧠 holder](<� $.Msg 🧠 holder.md>)"
     return _replace_simple(md_files, pattern, replacement)
 
 
@@ -159,7 +160,7 @@ _GEN_BASIC = [
     ("replace_tokens_tokens", "Tokens", "tokens", "[Tokens 🎫](<🎫 Token.md>)", "Tokens"),
     ("replace_chat_tokens", "Chat", "chat", "[Chat 💬](<💬 Chat.md>)", "Chat"),
     ("replace_chats_tokens", "Chats", "chats", "[Chats 💬](<💬 Chat.md>)", "Chats"),
-    ("replace_settings_tokens", "$.Settings", "$.settings", "[`$.Settings`](<$.Settings 🎛️.md>)", "$.Settings"),
+    ("replace_settings_tokens", "$.Settings", "$.settings", "[`$.Settings` 🧠 holder](<🎛️ $.Settings 🧠 holder.md>)", "$.Settings"),
     ("replace_placeholders_tokens", "Placeholders", "placeholders", "[Placeholders 🧠](<$Placeholder 🧠.md>)", "Placeholders"),
     ("replace_domain_tokens", "domain", "domain", "[domain 👥](<👥 Domain.md>)", "domain"),
     ("replace_domains_tokens", "domains", "domains", "[domains 👥](<👥 Domain.md>)", "domains"),
@@ -169,7 +170,7 @@ _GEN_BASIC = [
     ("replace_messages_tokens", "Messages", "messages", "[Messages 📨](<📨 Message.md>)", "Messages"),
     ("replace_schema_tokens", "Schema", "schema", "[Schema Code 🧩](<🧩 Schema Code.md>)", "Schema"),
     ("replace_schemas_tokens", "Schemas", "schemas", "[Schema Codes 🧩](<🧩 Schema Code.md>)", "Schemas"),
-    ("replace_chat_msg_tokens", "$.Chat", "$.chat", "[`$.Chat`](<$.Chat 💬.md>)", "$.Chat"),
+    ("replace_chat_msg_tokens", "$.Chat", "$.chat", "[`$.Chat` 🧠 holder](<💬 $.Chat 🧠 holder.md>)", "$.Chat"),
     ("replace_command_tokens", "Command", "command", COMMAND_REPLACEMENT, "Command"),
     ("replace_commands_tokens", "Commands", "commands", COMMANDS_REPLACEMENT, "Commands"),
     ("replace_script_tokens", "Script", "script", SCRIPT_REPLACEMENT, "Script"),

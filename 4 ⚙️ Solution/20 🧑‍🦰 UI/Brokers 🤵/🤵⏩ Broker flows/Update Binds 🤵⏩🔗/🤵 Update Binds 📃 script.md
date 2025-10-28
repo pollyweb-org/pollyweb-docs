@@ -18,7 +18,7 @@ RUN|UpdateBinds@Broker:
 📃 UpdateBinds@Broker:
 
 # Verify required inputs
-- ASSERT|.Inputs:
+- ASSERT|$.Inputs:
     AllOf: Wallet
     UUIDs: Wallet
 

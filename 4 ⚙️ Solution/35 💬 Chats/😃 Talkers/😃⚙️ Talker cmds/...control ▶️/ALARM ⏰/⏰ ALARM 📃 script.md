@@ -17,7 +17,7 @@
 📃 .ALARM:
 
 # Assert parameters
-- ASSERT|.Inputs:
+- ASSERT|$.Inputs:
     AllOf: When, Call, With
     Times: When
     Texts: Call

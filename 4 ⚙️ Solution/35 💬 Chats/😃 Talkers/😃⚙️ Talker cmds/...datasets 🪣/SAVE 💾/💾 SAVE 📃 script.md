@@ -36,7 +36,7 @@
 📃 .SAVE:
 
 # Fill the $item
-- ASSERT|.Inputs:
+- ASSERT|$.Inputs:
     AllOf: Set, Item
     Texts: Script, Set, OnBlocked, Delete
     UUIDs: Version

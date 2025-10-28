@@ -25,7 +25,7 @@ Inputs | Purpose | Examples
 📃 UpdateDomain:
 
 # Ensure the parameters are given
-- ASSERT|.Inputs:
+- ASSERT|$.Inputs:
     AllOf: Domain, Domain$
     Texts: Domain, Domain$
 
