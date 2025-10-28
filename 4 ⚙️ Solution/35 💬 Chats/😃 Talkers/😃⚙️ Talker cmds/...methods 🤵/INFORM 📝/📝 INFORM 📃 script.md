@@ -12,14 +12,14 @@
 ## How to run?
 
 ```yaml
-- RUN|INFORM:
+- RUN|.INFORM:
     Form: AnyKey
 ```
 
 ## Script
 
 ```yaml
-📃 INFORM:
+📃 .INFORM:
 
 # Assert inputs
 - ASSERT:
