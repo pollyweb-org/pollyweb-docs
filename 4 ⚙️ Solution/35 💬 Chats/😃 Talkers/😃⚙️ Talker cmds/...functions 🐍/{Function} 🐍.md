@@ -29,7 +29,7 @@
     {.helper(params)}
     ```
 
-    | Argument| Purpose
+    | Input| Purpose
     |-|-
     | `.helper`  | Name of the built-in helper function.
     | `params`  | Optional comma-separated parameters.

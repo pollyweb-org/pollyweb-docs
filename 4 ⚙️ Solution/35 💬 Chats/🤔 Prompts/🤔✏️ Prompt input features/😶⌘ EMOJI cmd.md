@@ -19,7 +19,7 @@
     ```yaml
     EMOJI|<emoji> 
     ```
-    | Argument| Purpose | Example
+    | Input| Purpose | Example
     |-|-|-
     | `<emoji>` | Emoji for upcoming [Input prompts ✏️](<../🤔⚙️ Prompt features/9 ✏️ as Input.md>) | `😶`
     

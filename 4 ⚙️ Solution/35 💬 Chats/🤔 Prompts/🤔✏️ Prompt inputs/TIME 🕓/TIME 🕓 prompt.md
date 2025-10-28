@@ -23,7 +23,7 @@
     TIME|<statement> >> $placeholder
     ```
     
-    |Argument| Details | Example 
+    |Input| Details | Example 
     |-|-|-
     | `<statement>`| The message to the user | `What time?`
     | `$placeholder`| [placeholder 🧠](<../../../😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>) with the time | `14:23:59` 

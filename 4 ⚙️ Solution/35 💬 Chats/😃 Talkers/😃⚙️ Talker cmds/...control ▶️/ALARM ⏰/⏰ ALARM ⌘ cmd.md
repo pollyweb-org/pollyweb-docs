@@ -22,7 +22,7 @@
             {params}
     ```
 
-    Args | Purpose | Examples
+    Inputs | Purpose | Examples
     |-|-|-
     | `$when` | When to trigger the alarm | `2023-04-01` `1 day`
     | `<script>`| [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) to call | `MyHandler`
@@ -38,7 +38,7 @@
     - EVAL|.Add(Now, 1 day) >> $time
 
     # Pass the placeholder with the exact time
-    - ALARM|$time$:
+    - ALARM|$time:
         MyHandler: 
             A: 1
             B: 2

@@ -22,7 +22,7 @@
         Locator: $locator
     ```
 
-    | Arguments | Purpose
+    | Inputs | Purpose
     |-|-
     | `$locator` | [Placeholder 🧠](<../$Placeholder 🧠.md>) with the [Locator 🔆](<../../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to parse.
 

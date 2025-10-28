@@ -33,7 +33,7 @@
     VERIFY|$.Msg
     ```
 
-    | Argument| Purpose |
+    | Input| Purpose |
     |-|-
     | `$.Msg`| Built-in [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) with the [Message 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message.md>).
 
@@ -46,7 +46,7 @@
     VERIFY|$.Msg|$publicKey
     ```
 
-    | Argument| Purpose |
+    | Input| Purpose |
     |-|-
     | `$publicKey`| [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) with the Public Key.
 

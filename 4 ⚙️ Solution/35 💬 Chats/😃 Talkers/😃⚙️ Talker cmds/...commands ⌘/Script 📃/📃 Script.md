@@ -26,7 +26,7 @@
     - <command-n>
     ```
 
-    | Argument| Purpose
+    | Input| Purpose
     |-|-
     | `📃 <script>` | The name of the [Script 📃](<📃 Script.md>).
     |            | The 📃 emoji is optional, and will be ignored.

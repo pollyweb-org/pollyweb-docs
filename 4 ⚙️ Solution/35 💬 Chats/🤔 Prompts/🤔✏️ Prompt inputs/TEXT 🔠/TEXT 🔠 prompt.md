@@ -78,7 +78,7 @@
     TEXT|<statement> >> $placeholder
     ```
 
-    | Argument| Purpose 
+    | Input| Purpose 
     |-|-
     | `<statement>`| Message to show to the user
     | `$placeholder`| Optional [placeholder 🧠](<../../../😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>) with the user's answer
@@ -101,7 +101,7 @@
         Appendix: {function}
     ```
     
-    | Argument| Purpose | Example
+    | Input| Purpose | Example
     |-|-|-
     | `Output` | Optional HTML format for outputs | `990.990.990.990`
     | `Pattern`| Optional HTML regular expression | `^...$`

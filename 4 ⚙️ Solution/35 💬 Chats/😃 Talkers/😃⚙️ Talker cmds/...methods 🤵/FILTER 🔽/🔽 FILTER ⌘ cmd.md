@@ -10,7 +10,7 @@
 
     A `FILTER`
     * is a message [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) 
-    * that calls [`MANY` 🔠 prompt](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/MANY 🔠/MANY 🔠 prompt.md>)
+    * that calls [`MANY` 🔠 prompt](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/MANY 🔠/🔠 MANY ⌘ cmd.md>)
     * to return only the user-selected items of a list.
 
 
@@ -27,7 +27,7 @@
         Title: <Title property>
     ```
 
-    | Argument| Purpose | Example
+    | Input| Purpose | Example
     |-|-|-
     | `Statement` | Prompt question | `Which ones?`
     | `Options`  | Array of items to filter | `[{A:1,B:2,C:3},{...}]`

@@ -33,7 +33,7 @@
         Lists: <fields> # List fields
     ```
     
-    | Argument| Purpose | Examples
+    | Input| Purpose | Examples
     |-|-|-
     | `$object`| Optional initial context | `$.Msg`
     | `AllOf` | All should have values | `A,B` `[A,B]`
@@ -61,7 +61,7 @@
         - {value-A-n} {comparison} {value-B-n} 
     ```
     
-    | Argument| Purpose | Examples
+    | Input| Purpose | Examples
     |-|-|-
     | `$object`| Optional initial context | `$.Msg` 
     | `{value}` | String or [{Function}](<../../...functions 🐍/{Function} 🐍.md>) evaluated | `A` `{f}` `{$p}`
@@ -149,7 +149,7 @@
         - {boolean-2}  
     ```
     
-    | Argument| Purpose | Examples
+    | Input| Purpose | Examples
     |-|-|-
     | `$object`| Optional initial context | `$.Msg`
     | `{boolean}` | ✅ Valid for meaningful values | `1` `-1` `True` `A`
@@ -168,7 +168,7 @@
         - {empty-object}  
     ```
 
-    | Argument| Purpose | Examples
+    | Input| Purpose | Examples
     |-|-|-
     | `$object`| Optional initial context | `$.Msg`
     | `{empty-array}` | ✅ Valid for arrays with values | `[0]` `[*]` |
@@ -266,7 +266,7 @@
     ASSERT|$placeholder:
         Enum: {value-1}, {value-2}, ...
     ```
-    | Argument| Purpose | Examples
+    | Input| Purpose | Examples
     |-|-|-
     | `$object`| Optional initial context | `$.Msg`
     | `Enum` | List of possible values | `A,B` `[A,B]`

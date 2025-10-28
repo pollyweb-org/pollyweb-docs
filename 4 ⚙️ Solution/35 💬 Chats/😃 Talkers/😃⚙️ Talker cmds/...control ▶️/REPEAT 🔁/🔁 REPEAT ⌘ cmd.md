@@ -21,7 +21,7 @@
     - REPEAT|<statement>
     ```
 
-    | Argument| Purpose
+    | Input| Purpose
     |-|-
     | `<statement>`| Optional message for a [CONFIRM 👍 prompt](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>)
     

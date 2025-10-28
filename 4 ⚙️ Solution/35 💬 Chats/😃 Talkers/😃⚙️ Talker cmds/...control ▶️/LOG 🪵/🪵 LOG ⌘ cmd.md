@@ -39,7 +39,7 @@
     ```
     
     
-    | Argument| Purpose | Example
+    | Input| Purpose | Example
     |-|-|-
     | `{function}`| [{Function}](<../../...functions 🐍/{Function} 🐍.md>) to valuate and log. | `{MyFunction}` | 
     | `<string>` | String to evaluate and log. | `A` `I'm {$name}`

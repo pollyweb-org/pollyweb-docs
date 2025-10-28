@@ -27,7 +27,7 @@
     - DELETE|$item
     ```
 
-    | Argument| Purpose 
+    | Input| Purpose 
     |-|-
     | `$item` | Previous return from [`GET`](<../GET 🧲/🧲 GET ⌘ cmd.md>) 
 
@@ -45,7 +45,7 @@
     ```
 
 
-    | Argument| Purpose | Example
+    | Input| Purpose | Example
     |-|-|-
     | `Set` | Name of the dataset | `MySet`
     | `Key` | Key(s) to delete from the set |-

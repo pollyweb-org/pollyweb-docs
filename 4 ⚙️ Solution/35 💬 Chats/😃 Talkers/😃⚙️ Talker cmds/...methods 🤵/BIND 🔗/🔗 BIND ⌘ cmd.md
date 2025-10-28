@@ -54,7 +54,7 @@
     - SUCCESS|Bound!
     ```
 
-    | Argument| Purpose 
+    | Input| Purpose 
     |-|-
     | `<schema>` | [Schema 🧩](<../../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) from [`Bindable@Broker`](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>) 
 
@@ -66,7 +66,7 @@
         Else: FAILURE|Not bound.
     ```
 
-    | Argument| Purpose
+    | Input| Purpose
     |-|-
     | `$bound`  | Boolean confirmation of acceptance.
 
@@ -78,7 +78,7 @@
     ```
 
    
-    | Argument| Purpose
+    | Input| Purpose
     |-|-
     | `<schema-n>` | Array of [Schema Codes 🧩](<../../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) sent on [`Bindable@Broker`](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>)
     | `$bound`  | Array of [Schema Codes 🧩](<../../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) received on [`Bound@Vault`](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
@@ -90,7 +90,7 @@
    ```
 
    
-    | Argument| Purpose
+    | Input| Purpose
     |-|-
     | `{bindable}` | [{Function}](<../../...functions 🐍/{Function} 🐍.md>) to get the [Codes 🧩](<../../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) for [Bindable @ Broker](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>).
 

@@ -35,7 +35,7 @@
         {object}
     ```
 
-    | Argument| Purpose | Example
+    | Input| Purpose | Example
     |-|-|-
     | `{expression}`| String or [{Function}](<../../...functions 🐍/{Function} 🐍.md>) to be evaluated | `A` `{f}` `{$p}`
     || Supports missing `{}` in functions | `f()` `$p`

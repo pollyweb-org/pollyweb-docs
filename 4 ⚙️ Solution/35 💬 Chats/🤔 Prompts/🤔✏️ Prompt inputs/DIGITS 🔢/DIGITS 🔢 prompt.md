@@ -47,7 +47,7 @@
     DIGITS|<statement> >> $placeholder
     ```
 
-    | Argument| Purpose 
+    | Input| Purpose 
     |-|-
     | `<statement>`| Message to show to the user
     | `$placeholder`| Optional [placeholder 🧠](<../../../😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>) with the user's answer
@@ -69,7 +69,7 @@
         Appendix: {function}
     ```
     
-    | Argument| Purpose | Example
+    | Input| Purpose | Example
     |-|-|-
     | `MinLength` | Optional [minimum length 📋](<../../🤔✏️ Prompt input features/📋 Input validation.md>) | `1`
     | `MaxLength` | Optional [maximum length 📋](<../../🤔✏️ Prompt input features/📋 Input validation.md>) | `5`

@@ -29,7 +29,7 @@
         Message: <message>
     ```
 
-    | Argument| Purpose | Example
+    | Input| Purpose | Example
     |-|-|-
     | `Code`| HTTP error code | `403`
     | `Message` | Optional details about the error | `MyError`

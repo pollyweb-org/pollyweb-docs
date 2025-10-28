@@ -46,7 +46,7 @@
         - <true-action-n>
     ```
 
-    | Argument| Purpose | Example
+    | Input| Purpose | Example
     |-|-|-
     | `{function}` | Boolean [{Function}](<../../...functions 🐍/{Function} 🐍.md>) to evaluate  | `{f}` `{$o}`
     || Allows for missing `{}` in functions | `f()` `$p`
@@ -65,7 +65,7 @@
     - IF|{function}|<true-script>|<false-script>
     ```
 
-    | Argument| Purpose | Example
+    | Input| Purpose | Example
     |-|-|-
     | `{function}` | Boolean [{Function}](<../../...functions 🐍/{Function} 🐍.md>) to evaluate  | `{f}` `{$o}`
     || Allows for missing `{}` in functions | `f()` `$p`
@@ -88,7 +88,7 @@
         Else: <false-action>
     ```
 
-    | Argument| Purpose
+    | Input| Purpose
     |-|-
     | `<true-action>` | [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) or one-lin⌘ [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) on `True`
     | `<false-action>`| [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) or one-line [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) on `False`
@@ -110,7 +110,7 @@
             - <false-cmd-n>
     ```
 
-    | Argument| Purpose
+    | Input| Purpose
     |-|-
     | `<true-cmd-n>` | List of multi-line [Commands ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) to run on `True`
     | `<false-cmd-n>` | List of multi-line [Commands ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) to run on `False`

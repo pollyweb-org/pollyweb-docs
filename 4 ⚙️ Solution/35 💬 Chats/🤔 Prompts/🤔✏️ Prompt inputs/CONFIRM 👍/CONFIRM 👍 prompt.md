@@ -21,7 +21,7 @@
     CONFIRM|<statement>
     ```
 
-    | Argument| Purpose | Example
+    | Input| Purpose | Example
     |-|-|-
     | `<statement>` |  Message to show to the user. | `Sure?`
 
@@ -40,7 +40,7 @@
         Appendix: {function}
     ```
     
-    | Argument| Purpose | Example
+    | Input| Purpose | Example
     |-|-|-
     | `Then` | [Script 📃](<../../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) or [Command ⌘](<../../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/⌘ Command.md>) on `True` | `INFO\|OK`
     | `Else` | [Script 📃](<../../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) or [Command ⌘](<../../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/⌘ Command.md>) on `False` | `INFO\|NOK`

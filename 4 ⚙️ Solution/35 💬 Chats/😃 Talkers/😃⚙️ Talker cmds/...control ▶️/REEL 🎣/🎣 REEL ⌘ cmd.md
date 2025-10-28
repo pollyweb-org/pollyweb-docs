@@ -23,7 +23,7 @@
       {response}
     ```
     
-    | Argument| Purpose |
+    | Input| Purpose |
     |-|-
     | `<http-code>`| Defaults to `200` if omitted
     | `{response}` | Response for the [Synchronous Request 🚀](<../../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Sync Requests 🚀.md>)
@@ -38,7 +38,7 @@
       {response}
     ```
 
-    | Argument| Purpose |
+    | Input| Purpose |
     |-|-
     | `$hook`| [Hooks 🪣 item](<../../../😃🪣 Talker tables/😃🪣 TalkerHooks 🪝 table.md>) saved by the [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) | -
     | `{response}` | [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) output to a [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>)

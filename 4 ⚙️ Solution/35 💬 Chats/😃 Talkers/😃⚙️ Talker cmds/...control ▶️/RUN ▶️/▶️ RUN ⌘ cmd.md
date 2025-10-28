@@ -37,7 +37,7 @@
         {args}
     ```
 
-    | Argument| Purpose | Example
+    | Input| Purpose | Example
     |-|-| -
     | `<script>`| [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) to run | `MyScript`
     | `$arg-n`  | Optional positional arguments | `1,2` `s,$p`

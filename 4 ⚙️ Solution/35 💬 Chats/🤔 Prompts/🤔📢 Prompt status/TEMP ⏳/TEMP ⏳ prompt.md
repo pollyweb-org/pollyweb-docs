@@ -55,7 +55,7 @@
     TEMP|<statement> 
     ```
     
-    | Argument| Purpose | Example
+    | Input| Purpose | Example
     |-|-|-
     | `<statement>` |  Message for the user. | `Running...`
 
@@ -71,7 +71,7 @@
     ```
     
 
-    | Argument| Purpose | Example
+    | Input| Purpose | Example
     |-|-|-
     | `Details` | Optional [expandable details ⊕](<../../🤔⚙️ Prompt features/3 ⊕ with Details.md>) | `Hint...`
     | `Options` | Optional [selectable options 🔘](<../../🤔⚙️ Prompt features/4 🔘 with Options.md>) | `A,B` `{A:B}`

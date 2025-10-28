@@ -24,7 +24,7 @@
     ```
 
 
-    | Argument| Purpose | Example
+    | Input| Purpose | Example
     |-|-|-
     | `{function}` | Optional [{Function}](<../../...functions 🐍/{Function} 🐍.md>) to evaluate | `{f}` `{$p}`
     || Allows for missing `{}` in functions | `f()` `$p`
@@ -43,7 +43,7 @@
         <value-n>: <action-n>
     ```
 
-    | Argument| Purpose
+    | Input| Purpose
     |-|-
     | `$` | Catch-all clause if unmatched with any other value.
     
@@ -61,7 +61,7 @@
             - <cmd-n>
     ```
 
-    | Argument| Purpose
+    | Input| Purpose
     |-|-
     | `<cmd-n>`| Run a multi-line [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) list.
     
@@ -74,7 +74,7 @@
         <when-n>: <then-n>
     ```
 
-    | Argument| Purpose
+    | Input| Purpose
     |-|-
     | `$input`  | Value to evaluate            | `1,2,3`
     | `<when>`  | Constant to match against     | `1`

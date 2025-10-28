@@ -34,7 +34,7 @@
     QUANTITY|<statement> >> $placeholder
     ```
 
-    | Argument| Purpose 
+    | Input| Purpose 
     |-|-
     | `<statement>`| Message to show to the user
     | `$placeholder`| Optional [placeholder 🧠](<../../../😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>) with the user's answer 
@@ -57,7 +57,7 @@
         Appendix: {function}
     ```
 
-    | Argument| Purpose | Example
+    | Input| Purpose | Example
     |-|-|-
     | `Precision`| Rounded decimals (default is 0) | `0`
     | `Locale`   | Optional CLDR locale <br/> - defaults to the [Chat 💬](<../../../💬 Chats/💬 Chat.md>) language | `en-US`
@@ -219,7 +219,7 @@
     - QUANTITY|How much? >> $p:
     ```
 
-    | Argument| Content | Example
+    | Input| Content | Example
     |-|-|-
     | `$p.Text` | Text answered | `1234.5678`
     | `$p.Decimal` | Decimal rounded to `Precision` | `1234.57`
