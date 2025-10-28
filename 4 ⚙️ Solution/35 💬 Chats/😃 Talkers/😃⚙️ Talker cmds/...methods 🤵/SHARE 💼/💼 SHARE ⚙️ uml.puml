@@ -18,8 +18,8 @@ activate script
 deactivate script
 
 activate talker
-    talker -> hooks: SAVE {hook}
-    talker --> broker: SEND Query {hook}
+    talker -> hooks: SAVE 💾 {hook}
+    talker --> broker: SEND 📬 {Query, hook}
     activate broker
     talker --> talker: WAIT {hook}
 deactivate talker
@@ -31,7 +31,7 @@ deactivate talker
     deactivate vault
 
 activate consumer
-    consumer --> talker: REEL {hook}
+    consumer --> talker: REEL 🎣 {hook}
 deactivate consumer
 
 activate talker

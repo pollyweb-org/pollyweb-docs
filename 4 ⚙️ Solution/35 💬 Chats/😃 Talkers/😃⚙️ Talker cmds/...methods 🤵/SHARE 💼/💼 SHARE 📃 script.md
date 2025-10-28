@@ -3,9 +3,9 @@
 
 [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) that implements [`SHARE`](<💼 SHARE ⌘ cmd.md>)
 
-# Flow
+## Flow
 
-
+![alt text](<💼 SHARE ⚙️ uml.png>)
 
 ## How to call
 

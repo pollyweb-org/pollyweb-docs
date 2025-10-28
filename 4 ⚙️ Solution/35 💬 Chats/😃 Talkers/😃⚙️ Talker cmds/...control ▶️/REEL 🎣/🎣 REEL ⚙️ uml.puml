@@ -11,7 +11,7 @@ activate vault
 deactivate vault
 group .BIND
 activate talker
-    talker -> hooks: SAVE {$.cursor}    
+    talker -> hooks: SAVE 💾 {$.cursor}    
     talker --> user: Bindable 🐌 {hook}
 deactivate talker
 activate user
@@ -26,7 +26,7 @@ activate handler
     activate hooks
         hooks -> handler: {cursor}
     deactivate hooks
-    handler --> talker: REEL {cursor,result}
+    handler --> talker: REEL 🎣 {cursor,result}
 deactivate handler
 
 activate talker

@@ -20,8 +20,8 @@ deactivate broker
 
 activate vault
     vault -> hooks: GET {hook}
-    vault -> binds: PARALLEL: SAVE {bind}
-    vault --> talker: REEL {hook, binds}
+    vault -> binds: PARALLEL: SAVE 💾 {bind}
+    vault --> talker: REEL 🎣 {hook, binds}
 deactivate vault
 
 activate talker

@@ -27,7 +27,7 @@ participant "Wallet 👱" as wallet
         
         ' RAISE BINDABLE!
         broker --> wallet: MANY {which ones?}
-        broker --> itemizer: SAVE {binds}
+        broker --> itemizer: SAVE 💾 {binds}
 
         broker --> vault: SEND: Bound 🐌 {codes} 
         broker --> wallet: RUN: Update Binds 🔗
