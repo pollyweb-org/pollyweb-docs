@@ -31,7 +31,7 @@
         Timeout: <period>
     ```
 
-    | Argument| Purpose
+    | Input| Purpose
     |-|-
     | `$expired` | Boolean return if the wait has time out.
     | `Signal`   | Placeholder that stops the wait if changed.
@@ -44,7 +44,7 @@
     - WAIT|<something> >> $expired
     ```
 
-    | Argument| Purpose 
+    | Input| Purpose 
     |-|-
     | `<something>` | Either a `Timeout` or a `Signal`
 

@@ -1,8 +1,16 @@
 # 😃📃 `.FILTER` 🔽 script
 
-[Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) that implements the [`FILTER` 🔽 command](<🔽 FILTER ⌘ cmd.md>)
+> Purpose
+ 
+* [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) that implements the [`FILTER` 🔽 command](<🔽 FILTER ⌘ cmd.md>)
+
+## Flow
+
+![alt text](<🔽 FILTER ⚙️ uml.png>)
 
 ## How to call
+
+Here are the outputs of the [`Parse@Hosted` 🅰️ method](<../../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Parse 😃🚀📦/📦 Parse 🚀 request.md>)
 
 ```yaml
 - RUN|.FILTER:
@@ -15,6 +23,8 @@
 ```
 
 ## Script
+
+Here's the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>)
 
 ```yaml
 📃 .FILTER:
@@ -44,7 +54,7 @@
 - RETURN|$selected
 ```
 
-Commands: [`ASSERT`](<../../...placeholders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`MANY`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/MANY 🔠/MANY 🔠 prompt.md>) [`RETURN`](<../../...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`RUN`](<../../...control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
+Commands: [`ASSERT`](<../../...placeholders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`MANY`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/MANY 🔠/🔠 MANY ⌘ cmd.md>) [`RETURN`](<../../...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`RUN`](<../../...control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
 
 ---
 <br/>

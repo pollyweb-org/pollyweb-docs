@@ -36,7 +36,7 @@
         {inputs}
     ```
 
-    | Argument| Purpose
+    | Input| Purpose
     |-|-
     | `{inputs}` | Object with the inputs to store.
     | `$inputs` | Placeholder with aggregated inputs.

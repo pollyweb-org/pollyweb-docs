@@ -12,7 +12,7 @@ Blueprint:
   Properties:
     - Input   # Input parameters for the stack.
     - Params  # Dictionary of parameters for the stack.
-    - Include # List of stacks to includ.
+    - Include # List of stacks to include.
     - Deploy  # Dictionary of resources to deploy.
 
   Format:

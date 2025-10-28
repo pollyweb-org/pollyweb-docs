@@ -37,7 +37,7 @@
         Schema: <schema>
     ```
 
-    | Argument| Purpose | Example
+    | Input| Purpose | Example
     |-|-|-
     | `Trusted` | [Domain 👥](<../../../../../40 👥 Domains/👥 Domain.md>) to [Trust 🫡](<../../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) | `any-domain.dom`
     | `Schema` | [Schema 🧩](<../../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to assert | `.HOST/HELLO`

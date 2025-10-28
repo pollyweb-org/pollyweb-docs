@@ -42,7 +42,7 @@
     RATE|<statement> >> $placeholder
     ```
 
-    | Argument| Purpose 
+    | Input| Purpose 
     |-|-
     | `<statement>`| Message to show to the user
     | `$placeholder`| Optional [placeholder 🧠](<../../../😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>) with the user's answer
@@ -59,7 +59,7 @@
         Nullable: bool
     ```
     
-    | Argument| Purpose | Example
+    | Input| Purpose | Example
     |-|-|-
     | `Emoji` | Optional [alternative emoji 😶](<../../🤔✏️ Prompt input features/😶 Input emojis.md>) | `😶`
     | `Details` | Optional [expandable details ⊕](<../../🤔⚙️ Prompt features/3 ⊕ with Details.md>) | `Hint...`

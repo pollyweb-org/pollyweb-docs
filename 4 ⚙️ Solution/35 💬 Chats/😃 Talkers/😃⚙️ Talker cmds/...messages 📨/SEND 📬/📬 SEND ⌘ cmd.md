@@ -26,7 +26,7 @@
             {body}
     ```
 
-    | Argument| Purpose | Example
+    | Input| Purpose | Example
     |-|-|-
     | `To` | Destination domain | `any-broker.dom`
     | `Subject` | Message subject | `Unbound@Vault`

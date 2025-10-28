@@ -27,7 +27,7 @@
     UNDO|$deleted
     ```
 
-    | Argument| Purpose 
+    | Input| Purpose 
     |-|-
     | `$deleted`| [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) returned by [`DELETE`](<../DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>)
 

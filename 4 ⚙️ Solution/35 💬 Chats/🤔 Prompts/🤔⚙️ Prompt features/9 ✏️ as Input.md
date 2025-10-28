@@ -34,7 +34,7 @@
     | [💰&nbsp;AMOUNT](<../🤔✏️ Prompt inputs/AMOUNT 💰/AMOUNT 💰 prompt.md>) | Allows for decimals
     | [🔑&nbsp;OTP](<../🤔✏️ Prompt inputs/OTP 🔑/OTP 🔑 prompt.md>) | Asks for 6 digits
     | [1️⃣&nbsp;ONE](<../🤔✏️ Prompt inputs/ONE 1️⃣/ONE 1️⃣ prompt.md>) | One of multiple options
-    | [🔠&nbsp;MANY](<../🤔✏️ Prompt inputs/MANY 🔠/MANY 🔠 prompt.md>) | Zero or more of multiple options
+    | [🔠&nbsp;MANY](<../🤔✏️ Prompt inputs/MANY 🔠/🔠 MANY ⌘ cmd.md>) | Zero or more of multiple options
     | [⭐&nbsp;RATE](<../🤔✏️ Prompt inputs/RATE ⭐/RATE ⭐ prompt.md>) | 1 to 5 stars
     | [🕓&nbsp;TIME](<../🤔✏️ Prompt inputs/TIME 🕓/TIME 🕓 prompt.md>) | Asks for time of day
     | [📆&nbsp;DATE](<../🤔✏️ Prompt inputs/DATE 📆/DATE 📆 prompt.md>) | Asks for a date

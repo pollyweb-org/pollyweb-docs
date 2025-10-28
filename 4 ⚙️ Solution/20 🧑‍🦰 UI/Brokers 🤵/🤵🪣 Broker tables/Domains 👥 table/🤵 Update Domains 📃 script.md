@@ -13,7 +13,7 @@
     Domain$: <domain-translation>
 ```
 
-Params | Purpose | Examples
+Inputs | Purpose | Examples
 |-|-|-
 | `Domain` | Domain identifier | `any-domain.dom` 
 | `Domain$` | Domain translation | `Any Domain`

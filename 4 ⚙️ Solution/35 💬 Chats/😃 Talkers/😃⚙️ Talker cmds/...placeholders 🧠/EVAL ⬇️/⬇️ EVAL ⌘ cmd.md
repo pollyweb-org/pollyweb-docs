@@ -23,7 +23,7 @@
         {object}
     ```
 
-    | Argument| Purpose | Example
+    | Input| Purpose | Example
     |-|-|-
     | `<object>` | Object to evaluate | `{A:1, B:$n}`
     |            | Or a simple string | `How nice!`
@@ -38,7 +38,7 @@
         {input}
     ```
 
-    | Argument| Purpose | Example
+    | Input| Purpose | Example
     |-|-|-
     | `{function}`| [{Function}](<../../...functions 🐍/{Function} 🐍.md>) to be evaluated | `{f}` `{$p}` | 
     || Supports missing `{}` | `f` `$p`
@@ -236,7 +236,7 @@
         {object}
     ```
 
-    ||Arguments| Purpose
+    ||Inputs| Purpose
     |-|-|-
     || `$list` | [Placeholder 🧠](<../$Placeholder 🧠.md>) list of objects
     ||| Fails if `$list` was never set

@@ -39,7 +39,7 @@
     - GET|<set>|<key> >> $item
     ```
 
-    | Argument| Purpose | Example
+    | Input| Purpose | Example
     |-|-|-
     | `Set` | Name of resource pool | `MyPool`
     | `Key`  | Key to look up in the pool | `MyKey` `$key`

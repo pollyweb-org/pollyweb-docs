@@ -8,7 +8,7 @@
     {handler[(param-1[,param-n])]}
     ```
 
-    | Argument| Purpose
+    | Input| Purpose
     |-|-
     | `handler`  | Name of the code handler.
     | `param-1`  | Optional parameter.

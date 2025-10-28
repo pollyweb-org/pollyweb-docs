@@ -32,7 +32,7 @@
     ```
 
     
-    | Argument| Purpose | Example
+    | Input| Purpose | Example
     |-|-|-
     | `<PROMPT>` | A [Prompt 🤔](<../🤔 Prompt.md>) format. | `INFO` `TEMP`
     | `<statement>` |  Message to show to the user. | `Hi!`

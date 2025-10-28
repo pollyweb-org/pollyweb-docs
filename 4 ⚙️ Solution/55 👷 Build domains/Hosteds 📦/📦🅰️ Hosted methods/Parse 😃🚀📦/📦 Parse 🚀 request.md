@@ -4,7 +4,8 @@
  
 * Handles a custom [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/⌘ Command.md>)
 
-## Async Message 
+
+## Synchronous Request 🚀
 
 ```yaml
 Header:
@@ -13,7 +14,34 @@ Header:
 
 Body:
     Command:
-        EVAL >> $p:
-            A: 1
-            B: 2
+        # Example command
+        ALARM|$time$:
+            MyHandler: 
+                A: 1
+                B: 2
 ```
+
+|Object|Property|Type|Description
+|-|-|-|-
+| Header    | `From`        | string    | [Talker 😃 domain](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>)
+|           | `To`          | string    | [Hosted 📦 domain](<../../📦👥 Hosted domain.md>)
+| | `Subject`| string | `Parse@Hosted` |
+| Body      | `Command`     | any    | [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/⌘ Command.md>) to parse
+|
+
+## Synchronous Response
+
+```yaml
+Run:
+    Script: .ALARM
+    Inputs:
+        When: $time
+        Call: MyHandler
+        With: {A:, B:2}
+```
+
+|Object|Property|Type|Description
+|-|-|-|-
+| Run       | `Script`      | string    | [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) to run
+|           | `Inputs`      | map    | Inputs for the [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>)
+|

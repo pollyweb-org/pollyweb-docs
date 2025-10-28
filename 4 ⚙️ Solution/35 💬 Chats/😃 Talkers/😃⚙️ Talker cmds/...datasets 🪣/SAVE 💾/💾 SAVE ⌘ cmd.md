@@ -34,7 +34,7 @@
         - <pool-n>: {object-n}
     ```
 
-    | Argument| Purpose | Example
+    | Input| Purpose | Example
     |-|-|-
     | `<set>` | Name of the [Dataset 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | `MySet`
     | `{object}` | Item to update or insert in the pool | `MyKey` `$key`
@@ -87,7 +87,7 @@
         .OnBlocked: <placeholder>
     ```
 
-    | Argument| Purpose | Examples
+    | Input| Purpose | Examples
     |-|-|-
     | `$item` | [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) loaded with [`GET`](<../GET 🧲/🧲 GET ⌘ cmd.md>)
     | `{changes}` | Object with changes to apply | `{A:1, B:2}`

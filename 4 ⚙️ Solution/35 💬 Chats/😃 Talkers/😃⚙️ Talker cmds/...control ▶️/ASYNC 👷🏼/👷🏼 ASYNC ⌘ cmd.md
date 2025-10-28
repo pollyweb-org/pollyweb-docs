@@ -25,7 +25,7 @@
         {input}
     ```
 
-    | Argument | Purpose | Examples
+    | Input | Purpose | Examples
     |-|-|-
     | `<task>` | The name of the task to execute | `Build`
     | `$input` | Optional inputs for the task | `A` `[A,B]` `{A:1}`

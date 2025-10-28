@@ -25,7 +25,7 @@ Header:
 Body:
     Hook: <hook-uuid>
     Function: my-function
-    Arguments: 
+    Inputs: 
         - {A:1, B:2}
 ```
 

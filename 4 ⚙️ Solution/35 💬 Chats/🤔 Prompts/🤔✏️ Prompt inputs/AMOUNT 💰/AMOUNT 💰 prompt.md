@@ -44,7 +44,7 @@
     AMOUNT|<statement> >> $placeholder
     ```
 
-    | Argument| Purpose 
+    | Input| Purpose 
     |-|-
     | `<statement>`| Message to show to the user
     | `$placeholder`| Optional [placeholder 🧠](<../../../😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>) with the user's answer
@@ -71,7 +71,7 @@
         Appendix: {function}
     ```
 
-    | Argument| Purpose | Example
+    | Input| Purpose | Example
     |-|-|-
     | `Currency` | Optional ISO 4217 currency <br/>- defaults to the locale's currency | `USD`
     | `Precision`| Rounded decimals (default is 2) | `2`
@@ -144,7 +144,7 @@
     - AMOUNT|How much? >> $p:
     ```
 
-    | Argument| Content | Example
+    | Input| Content | Example
     |-|-|-
     | `$p.Text` | Text answered | `1234.5678`
     | `$p.Decimal` | Decimal rounded to `Precision` | `1234.57`

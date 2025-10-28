@@ -1,0 +1,47 @@
+@startuml SHARE
+ 
+box Hoster ☁️ domain #FFFFFA
+    participant "Script 📃" as script
+    participant "Talker 😃" as talker
+    participant "Host 🤗" as host
+    'participant "Consumer 💼" as consumer
+end box
+
+box Itemizer 🛢  #FFFFFA
+    participant "Hooks" as hooks
+end box
+
+participant "Broker 🤵" as broker
+participant "Wallet 👱" as wallet
+
+activate script
+    script -> talker: MANY 🔠 {options}
+deactivate script
+
+activate talker
+    talker -> talker: PROMPT {options}
+    talker -> hooks: SAVE 💾 {hook}
+    talker --> broker: Prompt 🐌 {options, hook}
+activate broker
+    talker -> talker: WAIT
+deactivate talker
+
+    broker --> wallet:
+deactivate broker
+
+activate wallet
+    wallet --> host: Reply 🐌 {selected}
+deactivate wallet
+
+activate host
+    host --> talker: REEL 🎣 {hook, selected}
+deactivate host
+
+activate talker
+    talker -> script: {selected}
+deactivate talker
+
+activate script
+deactivate script
+
+@enduml 

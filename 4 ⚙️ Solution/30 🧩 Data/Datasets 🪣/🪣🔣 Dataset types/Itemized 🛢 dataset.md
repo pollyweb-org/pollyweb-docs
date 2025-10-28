@@ -40,7 +40,7 @@
     Table: <name>
     ```
 
-    |Argument|Details|Example
+    |Input|Details|Example
     |-|-|-
     | `<name>` | Dataset name | `ORDERS`
     |
@@ -63,7 +63,7 @@
     Key: <k1>[,<kN>]
     ```
 
-    |Argument|Details|Example
+    |Input|Details|Example
     |-|-|-
     |`<k1>[,<kN>]`  | Key combination | `ID` `COL1,COL2`
     |
@@ -92,7 +92,7 @@
             <parent>.<keyN>: <name>.<linkN>
     ```
 
-    |Argument|Details|Example
+    |Input|Details|Example
     |-|-|-
     | `<alias>` | New parent property  | `CUSTOMER`
     | `<parent>` | Parent dataset  | `CUSTOMERS`
@@ -145,7 +145,7 @@
             <child>.<linkN>: <name>.<keyN>
     ```
 
-    |Argument|Details|Example
+    |Input|Details|Example
     |-|-|-
     | `<alias>`  | Added property  | `LINES`
     | `<child>`  | Child dataset  | `ORDER_LINES`
@@ -179,7 +179,7 @@
         <distinct>: <child>.<property>
     ```
 
-    |Argument|Details|Example
+    |Input|Details|Example
     |-|-|-
     | `<grand-alias>`  | Added property  | `Category`
     | `<grand-set>`  | Grand-children  | `Categories`
@@ -291,7 +291,7 @@
         <handler>: <trigger-list>
     ```
 
-    |Argument|Details|Example
+    |Input|Details|Example
     |-|-|-
     | `<handler>` | Name of the [Script 📃](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) to handle | `MyHandler`
     | `<trigger-list>` | Triggers to handle | `ADDED,PURGED`

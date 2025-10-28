@@ -38,7 +38,7 @@
         - <command-n>|$item
     ```
 
-    | Argument | Purpose | Example
+    | Input | Purpose | Example
     |-|-|-
     | `$input-list` | List to iterate | `[1,2,3]`
     | `$input-item` | Item of an iteration | `1`

@@ -44,7 +44,7 @@
     ```
 
    
-    | Argument| Purpose
+    | Input| Purpose
     |-|-
     | `<code-n>`  | [Schema Codes 🧩](<../../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) for [`Query@Broker`](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) <br/>For readability, a dot replaces `nlweb.dom/`
     | `{context}`| Object with context, when applicable.

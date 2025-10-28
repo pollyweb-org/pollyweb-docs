@@ -42,7 +42,7 @@
     ```
 
    
-    | Argument| Purpose | Example
+    | Input| Purpose | Example
     |-|-|-
     | `$token`| The [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) issued | `{Token:X, Schema:Y}`| `Schema`  | The [Schema 🧩](<../../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | `.TOKEN:1.0`
     | `Starts` | Optional ISO UTC date | `2024-09-21T12:34:00Z`

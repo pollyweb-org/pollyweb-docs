@@ -16,7 +16,7 @@
     {/{function}}
     ```
 
-    | Argument| Purpose
+    | Input| Purpose
     |-|-
     | `/path/to/file` | Path to a file in the [Hoster ☁️](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) folders.
     | `{function}` | Function that evaluates to a path.

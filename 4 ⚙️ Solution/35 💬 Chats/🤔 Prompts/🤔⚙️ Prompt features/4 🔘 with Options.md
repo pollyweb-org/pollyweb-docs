@@ -50,7 +50,7 @@
     |Behavior| [Prompt 🤔](<../🤔 Prompt.md>) 
     |-|-
     |[`Status`](<8 ⚠️ as Status.md>)| [`ℹ️ INFO`](<../🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`⏳ TEMP`](<../🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>) [`✅ SUCCESS`](<../🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) [`❌ FAILURE`](<../🤔📢 Prompt status/FAILURE ❌/FAILURE ❌ prompt.md>)
-    |[`Inputs`](<9 ✏️ as Input.md>) | [`1️⃣ ONE`](<../🤔✏️ Prompt inputs/ONE 1️⃣/ONE 1️⃣ prompt.md>) [`🔢 MANY`](<../🤔✏️ Prompt inputs/MANY 🔠/MANY 🔠 prompt.md>)  [`🔠 TEXT`](<../🤔✏️ Prompt inputs/TEXT 🔠/TEXT 🔠 prompt.md>) 
+    |[`Inputs`](<9 ✏️ as Input.md>) | [`1️⃣ ONE`](<../🤔✏️ Prompt inputs/ONE 1️⃣/ONE 1️⃣ prompt.md>) [`🔢 MANY`](<../🤔✏️ Prompt inputs/MANY 🔠/🔠 MANY ⌘ cmd.md>)  [`🔠 TEXT`](<../🤔✏️ Prompt inputs/TEXT 🔠/TEXT 🔠 prompt.md>) 
 
     ---
     <br/>
@@ -66,7 +66,7 @@
     <PROMPT>|<statement>|<options>
     ```
 
-    | Argument| Purpose | Example
+    | Input| Purpose | Example
     |-|-|-
     | `<PROMPT>` | A [Prompt 🤔](<../🤔 Prompt.md>) format. | [`INFO`](<../🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`TEMP`](<../🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>)
     | `<statement>` |  Message to show to the user. | `Hi!`
@@ -80,7 +80,7 @@
     <PROMPT>|<statement>|<options> >> $selected
     ```
 
-    | Argument| Purpose | Example
+    | Input| Purpose | Example
     |-|-|-
     | `$selected` | Placeholder for the selection: | `$answer`
     || for string lists, returns the text | → `A` in `A,B,C`
@@ -94,7 +94,7 @@
         Options: <options>
     ```
 
-    | Argument| Purpose | Example
+    | Input| Purpose | Example
     |-|-|-
     | `<statement>` | Also allows interpolated strings. | `Hi {$name}!`
     | `<options>` | Also allows string array functions |`{f}` → `[A,B]`
@@ -110,7 +110,7 @@
             - <option-n>
     ```
 
-    | Argument| Purpose | Example
+    | Input| Purpose | Example
     |-|-|-
     | `<option-n>` | Also allows option interpolation |`- Item {$id}`
     || and uses `/` to set Option IDs | `/Close chat`
@@ -126,7 +126,7 @@
             <id-n>: <option-n>
     ```
 
-    | Argument| Purpose | Example
+    | Input| Purpose | Example
     |-|-|-
     | `<id-n>` | Also allows interpolated objects. | `- A: Item {$id}`
     

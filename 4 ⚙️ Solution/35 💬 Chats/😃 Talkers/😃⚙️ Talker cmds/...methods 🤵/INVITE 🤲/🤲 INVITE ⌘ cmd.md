@@ -15,7 +15,7 @@
         Parameters: {params}
     ```
 
-    | Argument| Purpose 
+    | Input| Purpose 
     |-|-
     | `<invitee>` | The invitee [domain 👥](<../../../../../40 👥 Domains/👥 Domain.md>) for [`Invite@Broker`](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>) 
     | `<code>` | The [Schema Codes 🧩](<../../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to query for data

@@ -34,7 +34,7 @@
         OnSuccess: <success>
     ```
 
-    | Argument| Purpose
+    | Input| Purpose
     |-|-
     | `<set>` | Name of device pool in the [Relayer 🛰️](<../../../../../45 🤲 Helper domains/Relayers 🛰️/🛰️🤲 Relayer helper.md>)
     | `<key>`  | Unique device key in the pool
