@@ -94,7 +94,7 @@
     
     # Inform submitted.
     - SUCCESS:
-        Statement: Eat-in submitted:
+        Text: Eat-in submitted:
         Details: {$order.Summary}
 
     - RETURN|$status
@@ -105,7 +105,7 @@
 
     # Show the wait message 
     - TEMP >> $temp:
-        Statement: {$status.Message}
+        Text: {$status.Message}
         Options: Cancel
 
     # Allow it to be cancelled.

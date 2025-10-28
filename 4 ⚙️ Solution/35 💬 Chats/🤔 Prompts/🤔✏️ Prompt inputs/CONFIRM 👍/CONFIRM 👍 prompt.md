@@ -28,7 +28,7 @@
     ```yaml
     # Comprehensive
     CONFIRM:
-        Statement: <statement>
+        Text: <statement>
         
         # Specific optional properties
         Then: Script|Command
@@ -80,7 +80,7 @@
 
     ```yaml
     Format: CONFIRM
-    Statement: 😃 Confirm first?
+    Text: 😃 Confirm first?
     ```
 
     <br/>

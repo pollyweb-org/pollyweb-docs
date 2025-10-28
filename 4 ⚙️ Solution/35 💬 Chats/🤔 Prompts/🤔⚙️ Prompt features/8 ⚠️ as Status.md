@@ -85,7 +85,7 @@
     ContinueProc:
     # Blocking
     - ONE: 
-        Statement: 
+        Text: 
             I'm blocking, but did you 
             know that you can still go back 
             and cancel?

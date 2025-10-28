@@ -46,7 +46,7 @@ Body:
 ```yaml
 Format: ONE
 Emoji: 🤔
-Statement: Which credit card to use? 
+Text: Which credit card to use? 
 MinValue: 10000                     # Optional
 MaxValue: 99999                     # Optional
 Appendix: <appendix-uuid>           # Optional
@@ -63,7 +63,7 @@ Options:                            # Optional
 |-|-|-
 | [`Format`](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>)  | string | One format supported by [Prompts 🤔](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>)
 | [`Emoji`](<../../../../35 💬 Chats/🤔 Prompts/🤔✏️ Prompt input features/😶⌘ EMOJI cmd.md>) | string | Emoji to display
-| [`Statement`](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/2 🪧 Statement.md>) | string | Main message,  to display in the [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)
+| [`Text`](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/2 🪧 Text.md>) | string | Main message,  to display in the [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)
 | [`MinValue`](<../../../../35 💬 Chats/🤔 Prompts/🤔✏️ Prompt input features/📋 Input validation.md>) | int | Optional minimum value
 | [`MaxValue`](<../../../../35 💬 Chats/🤔 Prompts/🤔✏️ Prompt input features/📋 Input validation.md>) | int | Optional maximum value
 | [`Appendix`](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/5 📎 with Appendix.md>)| uuid   | File to download via [`Download@Host`](<../Download 🧑‍🦰🚀🤗/🤗 Download 🚀 request.md>)

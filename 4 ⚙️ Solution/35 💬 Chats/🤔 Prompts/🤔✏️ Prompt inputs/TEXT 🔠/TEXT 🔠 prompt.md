@@ -86,7 +86,7 @@
     ```yaml
     # Comprehensive.
     TEXT >> $placeholder:
-        Statement: <statement>
+        Text: <statement>
         
         # Specific optional properties
         Output: string
@@ -142,7 +142,7 @@
 
     ```yaml
     Format: TEXT
-    Statement: 💬 How are you today?
+    Text: 💬 How are you today?
     ```
 
     <br/>
@@ -195,7 +195,7 @@
 
     ```yaml
     Format: TEXT
-    Statement: 💬 What's the IP address? 
+    Text: 💬 What's the IP address? 
     Details: "Hint: `123.123.123.123`"
     ```
 

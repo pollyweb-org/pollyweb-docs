@@ -26,7 +26,7 @@
     - [Subject 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>): `Charge@Broker`
 - Body:
     - [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>): `<session-uuid@seller>`
-    - Statement: `<reason-for-charge>`
+    - Text: `<reason-for-charge>`
     - Charge:
         - ChargeID: `<charge-uuid@seller>`
         - Amount: `12.34`

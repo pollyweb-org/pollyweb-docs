@@ -21,7 +21,7 @@
 
     ```yaml
     FILTER|<statement> >> $filtered:
-        Statement: <statement>
+        Text: <statement>
         Options: $list
         ID: <ID property>
         Title: <Title property>
@@ -29,7 +29,7 @@
 
     | Input| Purpose | Example
     |-|-|-
-    | `Statement` | Prompt question | `Which ones?`
+    | `Text` | Prompt question | `Which ones?`
     | `Options`  | Array of items to filter | `[{A:1,B:2,C:3},{...}]`
     | `ID`       | ID property name | `A`
     | `Title`    | Title property name | `B`
@@ -62,7 +62,7 @@
 
     # Filter the list
     FILTER >> $filtered:
-        Statement: Which options?
+        Text: Which options?
         Options: $list
         ID: A
         Title: B

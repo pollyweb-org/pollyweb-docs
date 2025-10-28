@@ -53,7 +53,7 @@
     ```yaml
     # Multi-line 
     INFO:
-        Statement: <statement>
+        Text: <statement>
         
         # Generic optional properties
         Details: string
@@ -98,7 +98,7 @@
 
     ```yaml
     Format: INFO
-    Statement: ℹ️ Simple info.
+    Text: ℹ️ Simple info.
     ```
 
     ---

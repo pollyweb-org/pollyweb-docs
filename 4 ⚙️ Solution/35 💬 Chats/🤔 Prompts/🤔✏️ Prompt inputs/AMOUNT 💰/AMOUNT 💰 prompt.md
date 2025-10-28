@@ -53,7 +53,7 @@
     ```yaml
     # Comprehensive.
     AMOUNT >> $placeholder:
-        Statement: <statement>
+        Text: <statement>
         
         # Specific optional properties
         Currency: string
@@ -118,7 +118,7 @@
 
     ```yaml
     Format: AMOUNT
-    Statement: 😃 How much?
+    Text: 😃 How much?
     MinValue: -100.00
     MaxValue: 1000000
     ```
