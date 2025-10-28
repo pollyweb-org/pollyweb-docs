@@ -22,7 +22,8 @@
     Key: $.Msg.Header.From 
 
 # Verify the signature
-- VERIFY|$.Msg|$wallet.PublicKey
+- VERIFY|$.Msg:
+    Key: $wallet.PublicKey
 
 # Get the Offer 
 - GET >> $offer:

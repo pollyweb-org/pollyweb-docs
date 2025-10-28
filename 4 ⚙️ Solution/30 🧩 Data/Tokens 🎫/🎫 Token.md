@@ -195,7 +195,7 @@
     |-|-|-
     | `Schema` | string |  [`.TOKEN`](<🧩 Token schemas/🧩 TOKEN.md>)
     | `Domain` | string | The [Issuer 🎴 domain](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) name
-    | `Key` | `token-1234` | Resource key in the [Issuer 🎴](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)
+    | `Key` | string | Resource key in the [Issuer 🎴](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)
     | `Properties` | object | Any optional data fields
     |
 

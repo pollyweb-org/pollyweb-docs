@@ -42,12 +42,12 @@ Header:
 Tokens:
   - Issuer: any-issuer.dom
     Issuer$: Any Issuer
-    Path: /storage/nlweb/tokens/any-issuer.dom/<token-uuid>
-    Schema: any-authority.dom/ANY-SCHEMA:1.0
+    Locator: any-domain.dom/ANY-RESOURCE
+    Path: /storage/nlweb/tokens/<token-uuid>
+    Schema: any-authority.dom/ANY-CODE:1.0
     Schema$: Any Code
     Status: REVOKED
     Token: <token-uuid>
-    Locator: any-domain.dom/ANY-RESOURCE
 ```
 
 |Object|Property|Type|Description|
@@ -55,11 +55,11 @@ Tokens:
 |Top   |`Tokens`   |Token[]|List of `Token` objects|
 |Token | `Issuer` | string | [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) from [`Saved@Broker`](<../Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 🐌 msg.md>)
 || `Issuer$` | string | [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) after [`Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>)
+| |`Locator`| string | [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) from [`Status@Broker`](<../Share 💼 Status 💼🚀🤵/🤵 Status 🚀 request.md>)
 || `Path`| string | Local path from [`Saved@Broker`](<../Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 🐌 msg.md>)
 || `Schema$` | string | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) after [`Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>)
 || `Status`| enum | Status set in [`Status@Broker`](<../Share 💼 Status 💼🚀🤵/🤵 Status 🚀 request.md>)
 ||`Token`  |uuid   |[Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ID from [`Saved@Broker`](<../Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 🐌 msg.md>)
-| |`Locator`| string | [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) from [`Status@Broker`](<../Share 💼 Status 💼🚀🤵/🤵 Status 🚀 request.md>)
 |
 
 ## FAQ

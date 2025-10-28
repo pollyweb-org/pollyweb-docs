@@ -478,6 +478,10 @@
 
 1. **How to append into lists?**
 
+    > Used by the [`CreateBinds@Broker` 📃 script](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 📃 part 2.md>)
+    
+    <br/>
+
     To insert a value in a lists, use  `+>` instead of `>>`.
     ```yaml
     📃 Example:

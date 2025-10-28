@@ -24,8 +24,8 @@ Body:
     Chat: <chat-uuid>
     Consumer: any-consumer.dom
     Tokens: 
-      - Key: <token-key>
-        Path: /storage/nlweb/tokens/any-issuer.dom/<token-uuid>
+      - Key: <token-key> 
+        Path: /storage/nlweb/tokens/<token-uuid>
 ```
 
 |Object|Property|Type|Description

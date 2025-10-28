@@ -19,7 +19,7 @@ Header:
 
 Body:
     Wallet: <wallet-id>
-    Path: /storage/nlweb/tokens/<issuer>/<token-uuid>
+    Path: /storage/nlweb/tokens/<token-uuid>
 ```
 
 

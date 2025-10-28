@@ -25,10 +25,8 @@ Header:
     Subject: Saved@Broker
 
 Body:
-    Chat: <chat-uuid>
     Token: <token-uuid>
-    Issuer: any-host.dom
-    Path: /storage/nlweb/tokens/<issuer>/<token-uuid>
+    Path: /storage/nlweb/tokens/<token-uuid>
 ```
 
 |Object|Property|Type|Description
@@ -36,8 +34,6 @@ Body:
 |Header|`From`|uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  from [`Onboard@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
 ||`To`|string| [Broker 🤵](<../../🤵🤲 Broker helper.md>) from [`Onboard@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
 ||`Subject`|string|`Saved@Broker`
-|Body  |`Chat` |uuid  | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Save@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>)
-|      |`Token` |uuid  | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ID from [`Save@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>)
-|      |`Issuer`  |string| [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) from [`Save@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>)
+|Body  |`Token` |uuid  | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ID from [`Save@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>)
 |      |`Path`    |string| Path to the local file
 |

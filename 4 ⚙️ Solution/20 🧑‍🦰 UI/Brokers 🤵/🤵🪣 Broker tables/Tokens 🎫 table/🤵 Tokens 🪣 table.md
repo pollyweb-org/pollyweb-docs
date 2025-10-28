@@ -47,8 +47,8 @@ Token: <token-uuid>
 Wallet: <wallet-uuid>
 Issuer: any-issuer.dom
 Issuer$: Any Issuer
-Key: <any-key>
-Path: /storage/nlweb/tokens/any-issuer.dom/<token-uuid>
+Key: token-1234
+Path: /storage/nlweb/tokens/<token-uuid>
 Schema: any-authority.dom/ANY-SCHEMA:1.0
 Status: REVOKED
 ```
