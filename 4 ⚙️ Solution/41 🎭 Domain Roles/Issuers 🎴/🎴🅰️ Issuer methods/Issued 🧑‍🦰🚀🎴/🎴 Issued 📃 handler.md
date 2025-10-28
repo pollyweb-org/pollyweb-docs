@@ -7,16 +7,25 @@
 ## Scripts
 
 ```yaml
-# Get the Chat data
+📃 Issued@Issuer:
+
+# Assert the inputs
+- ASSERT|$.Msg:
+    AllOf: Hook
+    UUIDs: Hook
+
+# Get the hook
 - GET >> $hook:
     Set: TalkerHooks
     Key: $.Msg.Hook
 
 # Verify the Message
-- VERIFY|$.Msg
+- VERIFY|$.Msg:
+    Key: $hook.PublicKey
 
-# Continue the Talker
-- REEL|$hook
+# Return the token
+- RETURN:
+    $hook.Issued
 ```
 
 Needs||
