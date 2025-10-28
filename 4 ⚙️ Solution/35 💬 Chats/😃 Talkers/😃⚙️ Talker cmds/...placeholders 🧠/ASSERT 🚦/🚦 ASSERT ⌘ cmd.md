@@ -24,14 +24,14 @@
     ```yaml
     # Multi-field assertions
     ASSERT|$object:
-        AllOf: <fields> # Required fields
-        AnyOf: <fields> # One or more of these
-        OneOf: <fields> # Only one of these
-        UUIDs: <fields> # UUID fields
-        Texts: <fields> # Text fields
-        Times: <fields> # Time fields
-        Lists: <fields> # List fields
-        Maths: <fields> # Numeric fields
+        - AllOf: <fields> # Required fields
+        - AnyOf: <fields> # One or more of these
+        - OneOf: <fields> # Only one of these
+        - UUIDs: <fields> # UUID fields
+        - Texts: <fields> # Text fields
+        - Times: <fields> # Time fields
+        - Lists: <fields> # List fields
+        - Maths: <fields> # Numeric fields
     ```
     
     | Input| Purpose | Examples
@@ -46,6 +46,14 @@
     | `Lists` | Must be list fields | `A,B` `[A,B]`
     | `Maths` | Must be numeric fields | `A,B` `[A,B]`
     
+    <br/>
+
+    **Syntax flexibility:**
+    * The `-` is optional 
+        * if there's no property in the object context with the same name.
+    * If there's a property with the same name in the context object, 
+        * then the assessment defaults ti similar `~=` text comparison.
+
     ---
     <br/>
 
@@ -224,7 +232,7 @@
 
     # Assert a matching pair
     - ASSERT|$.Msg:
-        - From ~= any-broker.dom
+        From: any-broker.dom
 
     # Show success message
     - SUCCESS|Message is from Any Broker
@@ -244,18 +252,18 @@
     📃 Example:
 
     # Put the locator in a placeholder
-    - EVAL >> $locator:
+    - PARSE >> $locator:
         nlweb.org/HOST:1.0,any-host.dom,ANY-RESOURCE
 
     # Assert for equivalence to .HOST
     - ASSERT|$locator:
-        - Schema ~= .HOST
+        Schema: .HOST
 
     # Show success message.
     - SUCCESS|The schema is equivalent to ./HOST
     ```
 
-    Commands: [`EVAL`](<../EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
+    Commands: [`PARSE`](<../PARSE 🔆/🔆 PARSE ⌘ cmd.md>) [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
 
     ---
     <br/>
@@ -271,6 +279,13 @@
     |-|-|-
     | `$object`| Optional initial context | `$.Msg`
     | `Enum` | List of possible values | `A,B` `[A,B]`
+    |
+
+    Syntax flexibility:
+    * `Enums` (with an `s`) will also work.
+    * The `-` is optional if there's no `Enum` property on the object.
+    * If there's an `Enum` property on the given context object
+        * then a similar `~=` comparison is performed.
     
     <br/>
     
@@ -281,7 +296,7 @@
     
     # Assert
     - ASSERT|A:
-        Enums: A, B, C
+        Enum: A, B, C
 
     # Show success
     - SUCCESS|A is in (A, B, C)
@@ -296,7 +311,7 @@
     
     # Assert
     - ASSERT|A,B,B,B:
-        Enums: A, B, C
+        Enum: A, B, C
 
     # Show success
     - SUCCESS|All elements are in (A, B, C)

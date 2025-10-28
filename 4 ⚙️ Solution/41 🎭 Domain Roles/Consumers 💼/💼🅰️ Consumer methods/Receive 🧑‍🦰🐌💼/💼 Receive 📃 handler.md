@@ -19,7 +19,7 @@
 - ASSERT|$.Msg:
     AllOf: Tokens, Hook
     UUIDs: Hook
-    Arrays: Tokens
+    Lists: Tokens
 
 # Resolve the callback
 - GET >> $hook

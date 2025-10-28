@@ -18,9 +18,9 @@
 
 # Assert parameters
 - ASSERT|.Inputs:
-    .AllOf: When, Call, With
-    .Times: When
-    .Texts: Call
+    AllOf: When, Call, With
+    Times: When
+    Texts: Call
 
 # Set the alarm
 - SEND:

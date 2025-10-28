@@ -23,8 +23,8 @@
 
 # Assert the inputs
 - ASSERT|.Inputs:
-    .AllOf: Schemas, User
-    .Lists: Schemas
+    AllOf: Schemas, User
+    Lists: Schemas
 
 # Save the callback hook
 - SAVE|TalkerHooks >> hook:

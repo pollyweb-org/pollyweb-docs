@@ -11,8 +11,8 @@
 
 # Assert $.Msg
 - ASSERT|$.Msg:
-    Must: Hook, Key, Context
-    Uuid: Hook, Key
+    AllOf: Hook, Key, Context
+    UUIDs: Hook, Key
 
 # Assert $.Msg.Context
 - ASSERT|$.Msg.Context:

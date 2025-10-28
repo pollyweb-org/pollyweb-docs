@@ -27,12 +27,13 @@
     Set: TalkerHooks
     Key: $.Msg.Hook
 
-# Confirm the inputs
-- ASSERT:
-    # Is it the expected vault?
-    - $.Msg.From: $hook.Vault
-    # Is it one of the queried schemas?
-    - $.Msg.Schema.In($hook.Schemas)
+# Is it the expected vault?
+- ASSERT|$.Msg:
+    From: $hook.Vault
+
+# Is it one of the queried schemas?
+- ASSERT|$.Msg:
+    Schema.In($hook.Schemas)
 
 # Verify if the Vault is trusted
 - TRUSTS|$.Msg.From:
@@ -48,8 +49,8 @@
         Collect: $.Msg.Collect
 
 # Assert the schema
-- ASSERT:
-    $data.Schema: $.Msg.Schema
+- ASSERT|$data:
+    Schema: $.Msg.Schema
 
 # Continue the talker 
 - REEL|$.Msg.Hook:

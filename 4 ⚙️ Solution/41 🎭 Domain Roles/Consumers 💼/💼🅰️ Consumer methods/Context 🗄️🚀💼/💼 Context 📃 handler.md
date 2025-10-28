@@ -28,8 +28,8 @@
     Key: $.Msg.Hook
 
 # Assert the schemas
-- ASSERT:
-    $.Msg.Schema.In($hook.Schemas)
+- ASSERT|$.Msg:
+    Schema.In($hook.Schemas)
 
 # Check the trust
 - TRUSTS|$.Msg.From:

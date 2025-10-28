@@ -32,9 +32,9 @@
 
 # Fill the $item
 - ASSERT|.Inputs:
-    .AllOf: Set, Key
-    .Texts: Set
-    .Lists: Key, Undo, Script
+    AllOf: Set, Key
+    Texts: Set
+    Lists: Key, Undo, Script
 
 # Send the request and wait.
 - SEND >> $deleted:

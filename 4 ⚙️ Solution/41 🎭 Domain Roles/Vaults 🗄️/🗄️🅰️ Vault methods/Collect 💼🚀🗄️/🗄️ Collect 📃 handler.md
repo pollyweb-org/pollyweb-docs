@@ -30,8 +30,8 @@
     Key: $.Msg.Collect
 
 # Assert the Consumer
-- ASSERT:
-    $.Msg.From: $collect.Consumer
+- ASSERT|$.Msg:
+    From: $collect.Consumer
 
 # Return the response
 - RETURN:

@@ -20,9 +20,9 @@
 📃 .SHARE:
 
 # Assert inputs
-- ASSERT:
-    AllOf: $:Schemas
-    Lists: $:Schemas
+- ASSERT|.Inputs:
+    AllOf: Schemas
+    Lists: Schemas
 
 # Save the hook
 - SAVE|TalkerHooks >> $hook:

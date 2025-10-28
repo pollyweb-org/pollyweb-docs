@@ -25,15 +25,15 @@ RUN|.CHAT:
 
 ```yaml
 # Assert the required fields
-- ASSERT:
-    AllOf: $:Broker, $:PublicKey, $:Role, $:Chat
-    Texts: $:Broker, $:PublicKey, $:Role, $:Key
-    UUIDs: $:Chat
+- ASSERT|.Inputs:
+    AllOf: Broker, PublicKey, Role, Chat
+    Texts: Broker, PublicKey, Role, Key
+    UUIDs: Chat
 
 # Assert regional settings
-- ASSERT:
-    AllOf: $:Timezone, $:Language
-    Texts: $:Timezone, $:Language
+- ASSERT|.Inputs:
+    AllOf: Timezone, Language
+    Texts: Timezone, Language
 
 # Assert the role enum
 - ASSERT|$:Role:

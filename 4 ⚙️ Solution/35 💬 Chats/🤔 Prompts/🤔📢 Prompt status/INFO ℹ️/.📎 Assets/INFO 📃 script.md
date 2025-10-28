@@ -19,9 +19,9 @@
 
 # Verify the inputs:
 - ASSERT|.Inputs:
-    .AllOf: Chat, Statement
-    .Texts: Statement, Details
-    .Lists: Options
+    AllOf: Chat, Statement
+    Texts: Statement, Details
+    Lists: Options
 
 # Set the emoji
 - CASE|$.Chat.Role >> $emoji:

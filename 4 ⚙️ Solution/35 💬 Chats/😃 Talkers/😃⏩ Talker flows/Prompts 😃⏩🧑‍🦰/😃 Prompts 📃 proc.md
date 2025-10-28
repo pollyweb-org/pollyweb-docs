@@ -1,5 +1,7 @@
 # 🤗📃 Prompt  script
 
+# CONFLICT WITH [🤔 .PROMPT 📃 script](<../../../🤔 Prompts/🤔✏️ Prompt inputs/.PROMPT 🤔/🤔 .PROMPT 📃 script.md>)
+
 > Implements [`Prompted@Hosted`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 request.md>)
 
 ## Script
@@ -9,10 +11,10 @@
 
 # Assert inputs:
 - ASSERT|.Inputs:
-    .AllOf: Statement, Format
-    .Texts: Statement, Details
-    .Lists: Options
-    .UUIDs: Appendix  
+    AllOf: Statement, Format
+    Texts: Statement, Details
+    Lists: Options
+    UUIDs: Appendix  
 
 # Stage the prompt.
 - SAVE|HostPrompts >> $prompt:
