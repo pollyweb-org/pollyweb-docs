@@ -2,7 +2,7 @@
 # 🗄️🐌💼 Consume @ Consumer
 
 > Implementation
-* Implemented by the [`Consume` 📃 handler](<� Consume 📃 handler.md>)
+* Implemented by the [`Consume` 📃 handler](<💼 Consume 📃 handler.md>)
 
 > Used by
 * [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Bind 🔗.md>)

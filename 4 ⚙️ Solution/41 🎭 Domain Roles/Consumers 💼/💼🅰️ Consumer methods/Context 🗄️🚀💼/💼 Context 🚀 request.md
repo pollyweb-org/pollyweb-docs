@@ -2,7 +2,7 @@
 
 > Implementation
 
-* Implements the {{Consumer}}
+* Implements the [Consumer 💼 domain](<../../💼🎭 Consumer role.md>)
 * Implemented by the [`Context` 📃 handler](<💼 Context 📃 handler.md>)
 
 > Purpose

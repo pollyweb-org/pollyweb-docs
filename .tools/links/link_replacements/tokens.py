@@ -61,6 +61,8 @@ COMMAND_REPLACEMENT = "[Command ⌘](<⌘ Command.md>)"
 COMMANDS_REPLACEMENT = "[Commands ⌘](<⌘ Command.md>)"
 BROKER_REPLACEMENT = "[Broker 🤵 domain](<🤵🤲 Broker helper.md>)"
 SELLER_REPLACEMENT = "[Seller 🎭 domain](<../../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>)"
+CONSUMER_REPLACEMENT = "[Consumer 💼 domain](<../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)"
+CONSUMERS_REPLACEMENT = "[Consumer 💼 domains](<../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)"
 WALLET_REPLACEMENT = "[Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)"
 WALLETS_REPLACEMENT = "[Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)"
 
@@ -231,6 +233,18 @@ def replace_broker_tokens(md_files):
 def replace_seller_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Seller`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
     return _replace_simple(md_files, pattern, SELLER_REPLACEMENT)
+
+
+@register_hardcoded("consumer", replacement=CONSUMER_REPLACEMENT, token_label="Consumer")
+def replace_consumer_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Consumer`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, CONSUMER_REPLACEMENT)
+
+
+@register_hardcoded("consumers", replacement=CONSUMERS_REPLACEMENT, token_label="Consumers")
+def replace_consumers_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Consumers`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, CONSUMERS_REPLACEMENT)
 
 
 def replace_brokers_tokens(md_files):

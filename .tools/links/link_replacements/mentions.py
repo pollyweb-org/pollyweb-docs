@@ -90,6 +90,21 @@ def find_dynamic_target(token: str, file_dict: dict[str, List[tuple[str, str]]])
             aggregate.extend(entries)
 
     if not aggregate:
+        # If no direct matches, try common suffix fallbacks. This lets tokens
+        # like "TalkerHolders" resolve to "TalkerHolders table" when a
+        # dedicated table file exists but the token was used without the
+        # "table" suffix.
+        for suffix in (" table", " flow", " script", " handler"):
+            augmented = token + suffix
+            normalized_candidates = _dynamic_normalized_candidates(augmented)
+            aggregate_alt: List[tuple[str, str]] = []
+            for normalized in normalized_candidates:
+                entries = file_dict.get(normalized)
+                if entries:
+                    aggregate_alt.extend(entries)
+            if aggregate_alt:
+                return _select_dynamic_candidate(augmented, aggregate_alt)
+
         return None
 
     return _select_dynamic_candidate(token, aggregate)
