@@ -12,11 +12,11 @@ participant "Broker 🤵" as broker
 participant "Wallet 👱" as wallet
 
 activate script
-    script -> talker: FILTER 🔽 {options}
+    script --> talker: FILTER 🔽 {options}
 deactivate script
 
 activate talker
-    talker -> many: MANY 🔠 {options}
+    talker --> many: MANY 🔠 {options}
 deactivate talker
 
 activate many
@@ -33,15 +33,15 @@ activate wallet
 deactivate wallet
 
 activate host
-    host -> many:
+    host --> many:
 deactivate host
 
 activate many
-    many -> talker:
+    many --> talker:
 deactivate many
 
 activate talker
-    talker -> script: {selected}
+    talker --> script: RETURN {selected}
 deactivate talker
 
 activate script

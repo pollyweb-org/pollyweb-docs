@@ -7,32 +7,37 @@ box Hoster ☁️ domain #FFFFFA
     'participant "Consumer 💼" as consumer
 end box
 
+box Itemizer 🛢  #FFFFFA
+    participant "Hooks" as hooks
+end box
 
 participant "Broker 🤵" as broker
 participant "Wallet 👱" as wallet
 
 activate script
-    script --> talker: MANY 🔠 {options}
+    script --> talker: .PROMPT 🤔 
 deactivate script
 
 activate talker
-    talker --> broker: PROMPT 🤔 {options}
+    talker -> hooks: SAVE 💾 {hook}
+    talker --> broker: Prompt 🐌 {hook}
+activate broker
+    talker --> talker: WAIT {hook}
 deactivate talker
 
-activate broker
     broker --> wallet:
 deactivate broker
 
 activate wallet
-    wallet --> host: Reply 🐌 {selected}
+    wallet --> host: Reply 🐌 {hook, reply}
 deactivate wallet
 
 activate host
-    host --> talker: 
+    host --> talker: REEL 🎣 {hook, reply}
 deactivate host
 
 activate talker
-    talker --> script: RETURN {selected}
+    talker --> script: RETURN {reply}
 deactivate talker
 
 activate script
