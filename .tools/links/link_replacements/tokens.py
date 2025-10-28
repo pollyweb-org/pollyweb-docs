@@ -27,7 +27,7 @@ def register_hardcoded(
         HARDCODED_HANDLERS[token_key] = {
             "replacement": replacement,
             "token_label": token_label,
-            "function": func,
+            "func": func,
         }
         return func
 
@@ -50,6 +50,31 @@ def _replace_simple(md_files: Iterable[str], pattern: re.Pattern[str], replaceme
                 continue
             total += count
     return total
+
+
+def _simple_pattern_for(token_literal: str) -> re.Pattern[str]:
+    """Build a simple regex pattern matching {{ `Token` }} variants for a token literal."""
+
+    pattern = rf"\{{\{{[\s\u00A0\u200B\u200C\u200D]*`?{re.escape(token_literal)}`?[\s\u00A0\u200B\u200C\u200D]*\}}\}}"
+    return re.compile(pattern, re.IGNORECASE)
+
+
+def _make_hardcoded_replacer(func_name: str, token_literal: str, token_key: str, replacement: str, token_label: str):
+    """Dynamically create and register a simple hardcoded replacer.
+
+    The created function will be available in module globals under `func_name`
+    and also registered in HARDCODED_HANDLERS under `token_key`.
+    """
+
+    pattern = _simple_pattern_for(token_literal)
+
+    def replacer(md_files: Iterable[str]) -> int:
+        return _replace_simple(md_files, pattern, replacement)
+
+    replacer.__name__ = func_name
+    globals()[func_name] = replacer
+    HARDCODED_HANDLERS[token_key] = {"func": replacer, "replacement": replacement, "token_label": token_label}
+    return replacer
 
 
 PLACEHOLDER_REPLACEMENT = "[Placeholder 🧠](<$Placeholder 🧠.md>)"
@@ -127,100 +152,31 @@ def replace_vault_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Vault`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
     replacement = "[Vault 🗄️ domain](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)"
     return _replace_simple(md_files, pattern, replacement)
+# Generate common simple replacers to reduce repeated boilerplate. These are
+# intentionally created via helper to keep the explicit simple cases compact.
+_GEN_BASIC = [
+    ("replace_token_tokens", "Token", "token", "[Token 🎫](<🎫 Token.md>)", "Token"),
+    ("replace_tokens_tokens", "Tokens", "tokens", "[Tokens 🎫](<🎫 Token.md>)", "Tokens"),
+    ("replace_chat_tokens", "Chat", "chat", "[Chat 💬](<💬 Chat.md>)", "Chat"),
+    ("replace_chats_tokens", "Chats", "chats", "[Chats 💬](<💬 Chat.md>)", "Chats"),
+    ("replace_settings_tokens", "$.Settings", "$.settings", "[`$.Settings`](<$.Settings 🎛️.md>)", "$.Settings"),
+    ("replace_placeholders_tokens", "Placeholders", "placeholders", "[Placeholders 🧠](<$Placeholder 🧠.md>)", "Placeholders"),
+    ("replace_domain_tokens", "domain", "domain", "[domain 👥](<👥 Domain.md>)", "domain"),
+    ("replace_domains_tokens", "domains", "domains", "[domains 👥](<👥 Domain.md>)", "domains"),
+    ("replace_dataset_tokens", "Dataset", "dataset", "[Dataset 🪣](<🪣 Dataset.md>)", "Dataset"),
+    ("replace_datasets_tokens", "Datasets", "datasets", "[Datasets 🪣](<🪣 Dataset.md>)", "Datasets"),
+    ("replace_message_tokens", "Message", "message", "[Message 📨](<📨 Message.md>)", "Message"),
+    ("replace_messages_tokens", "Messages", "messages", "[Messages 📨](<📨 Message.md>)", "Messages"),
+    ("replace_schema_tokens", "Schema", "schema", "[Schema Code 🧩](<🧩 Schema Code.md>)", "Schema"),
+    ("replace_schemas_tokens", "Schemas", "schemas", "[Schema Codes 🧩](<🧩 Schema Code.md>)", "Schemas"),
+    ("replace_chat_msg_tokens", "$.Chat", "$.chat", "[`$.Chat`](<$.Chat 💬.md>)", "$.Chat"),
+    ("replace_command_tokens", "Command", "command", COMMAND_REPLACEMENT, "Command"),
+    ("replace_commands_tokens", "Commands", "commands", COMMANDS_REPLACEMENT, "Commands"),
+    ("replace_script_tokens", "Script", "script", SCRIPT_REPLACEMENT, "Script"),
+]
 
-
-def replace_token_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Token`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, "[Token 🎫](<🎫 Token.md>)")
-
-
-def replace_tokens_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Tokens`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, "[Tokens 🎫](<🎫 Token.md>)")
-
-
-@register_hardcoded("script", replacement=SCRIPT_REPLACEMENT, token_label="Script")
-@register_hardcoded("script", replacement=SCRIPT_REPLACEMENT, token_label="Script")
-def replace_script_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Script`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, SCRIPT_REPLACEMENT)
-
-
-def replace_chat_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Chat`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, "[Chat 💬](<💬 Chat.md>)")
-
-
-def replace_chats_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Chats`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, "[Chats 💬](<💬 Chat.md>)")
-
-
-@register_hardcoded("command", replacement=COMMAND_REPLACEMENT, token_label="Command")
-def replace_command_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Command`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, COMMAND_REPLACEMENT)
-
-
-@register_hardcoded("commands", replacement=COMMANDS_REPLACEMENT, token_label="Commands")
-def replace_commands_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Commands`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, COMMANDS_REPLACEMENT)
-
-
-def replace_settings_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?\$\.Settings`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, "[`$.Settings`](<$.Settings 🎛️.md>)")
-
-
-def replace_placeholders_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Placeholders`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, "[Placeholders 🧠](<$Placeholder 🧠.md>)")
-
-
-def replace_domain_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?domain`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, "[domain 👥](<👥 Domain.md>)")
-
-
-def replace_domains_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?domains`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, "[domains 👥](<👥 Domain.md>)")
-
-
-def replace_dataset_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Dataset`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, "[Dataset 🪣](<🪣 Dataset.md>)")
-
-
-def replace_datasets_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Datasets`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, "[Datasets 🪣](<🪣 Dataset.md>)")
-
-
-def replace_message_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Message`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, "[Message 📨](<📨 Message.md>)")
-
-
-def replace_messages_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Messages`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, "[Messages 📨](<📨 Message.md>)")
-
-
-def replace_schema_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Schema`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, "[Schema Code 🧩](<🧩 Schema Code.md>)")
-
-
-def replace_schemas_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Schemas`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, "[Schema Codes 🧩](<🧩 Schema Code.md>)")
-
-
-def replace_chat_msg_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?\$\.Chat`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, "[`$.Chat`](<$.Chat 💬.md>)")
+for fname, lit, key, repl, label in _GEN_BASIC:
+    _make_hardcoded_replacer(fname, lit, key, repl, label)
 
 
 @register_hardcoded("broker", replacement=BROKER_REPLACEMENT, token_label="Broker")
