@@ -9,7 +9,7 @@
 ## How to call
 
 ```yaml
-- RUN|SHARE:
+- RUN|.SHARE:
     Schemas: 
       - any-authority.dom/ANY-SCHEMA
 ```
@@ -17,7 +17,7 @@
 ## Script
 
 ```yaml
-📃 SHARE:
+📃 .SHARE:
 
 # Assert inputs
 - ASSERT:
