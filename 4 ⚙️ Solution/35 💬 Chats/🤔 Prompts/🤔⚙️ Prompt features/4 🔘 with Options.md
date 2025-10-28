@@ -176,7 +176,8 @@
 
     ```yaml
     Format: ONE
-    Text: 😃 What to do?
+    Emoji: 😃
+    Text: What to do?
     Options: 
         - ID: Play
           Title: Play music 
@@ -251,7 +252,8 @@
     
     ```yaml
     Format: ONE
-    Text: 😃 What to do?
+    Emoji: 😃
+    Text: What to do?
     Options: 
         - ID: Play
           Title: Play music 

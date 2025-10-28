@@ -2,7 +2,10 @@
 
 > Part of [✏️ Input prompts](<../🤔⚙️ Prompt features/9 ✏️ as Input.md>)
 
-<br/>
+> Implemented by the [`PromptEmoji` 📃 script](<../../😃 Talkers/😃⏩ Talker flows/Prompts 😃⏩🧑‍🦰/😃 Prompts 📃 emoji.md>)
+
+
+## FAQ
 
 1. **Are emojis mandatory in inputs?**
 
@@ -61,7 +64,8 @@
 
     ```yaml
     Format: CONFIRM
-    Text: 😃 Continue?
+    Emoji: 😃 
+    Text: Continue?
     ```
 
     ---
@@ -113,7 +117,8 @@
 
     ```yaml
     Format: CONFIRM
-    Text: 😕 Are you OK?
+    Emoji: 😕 
+    Text: Are you OK?
     ```
 
     ---

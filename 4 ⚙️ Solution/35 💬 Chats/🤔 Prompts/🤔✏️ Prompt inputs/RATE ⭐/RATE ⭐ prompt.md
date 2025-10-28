@@ -95,7 +95,8 @@
 
     ```yaml
     Format: RATE
-    Text: 😃 What's the rate?
+    Emoji: 😃 
+    Text: What's the rate?
     ```
 
 

@@ -108,7 +108,8 @@
 
     ```yaml
     Format: TEMP
-    Text: ⏳ Simple temp.
+    Emoji: ⏳ 
+    Text: Simple temp.
     ```
     
     

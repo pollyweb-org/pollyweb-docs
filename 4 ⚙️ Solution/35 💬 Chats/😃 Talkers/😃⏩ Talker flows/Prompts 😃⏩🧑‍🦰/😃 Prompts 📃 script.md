@@ -4,6 +4,9 @@
 * Calls the [`Prompt@Broker` 🅰️ method](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
 * Prepares for the [`Prompted@Hosted` 🅰️ method](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 request.md>)
 
+> Dependencies
+* Depends on the [`PromptEmoji` 📃 script](<😃 Prompts 📃 emoji.md>)
+
 
 ## Flow
 
@@ -39,7 +42,7 @@
     Maths: MinValue, MaxValue
 
 # Calculate the emoji
-- RUN|GetEmoji >> $emoji:
+- RUN|PromptEmoji >> $emoji:
     $.Inputs
 
 # Stage the prompt.
@@ -80,53 +83,6 @@
 - RETURN|$response
 ```
 
-```yaml
-📃 GetEmoji:
-
-# Set the emoji
-- CASE|$:Format:
-
-    TEMP: RETURN|⏳
-
-    FAILURE: RETURN|❌
-
-    INFO: 
-        CASE|$.Chat.Role:
-            AGENT: RETURN|ⓘ
-            $: RETURN|ℹ️
-
-    SUCCESS: 
-        CASE|$.Chat.Role:
-            AGENT: RETURN|☑️
-            $: RETURN|✅
-
-    $: 
-        # Agents always ask with 🫥
-        - IF|$.Chat.Role.Is(AGENT):
-            RETURN|🫥
-
-# Default emoji
-- EVAL|😃 >> $emoji
-
-# Override if in Chat
-- IF|$.Chat.Emoji:
-    EVAL|$.Chat.Emoji >> $emoji
-
-# Override if in Prompt
-- IF|$:Emoji: 
-    EVAL|$:Emoji >> $emoji
-
-# Block special emojis
-- IF|$:Emoji.In(⏳❌ⓘℹ️☑️✅😃🫥):
-    RETURN|😃
-
-# Allow limited customizations
-- IF|$:Emoji.In(😐😶😌😊😕🙁😔🥺🤣😅✏️):
-    RETURN|$:Emoji
-
-# Default
-- RETURN 😃
-```
 
 Needs ||
 |-|-
@@ -134,4 +90,5 @@ Needs ||
 | [{Functions} 🐍](<../../😃⚙️ Talker cmds/...functions 🐍/{Function} 🐍.md>) | [`{.In}`](<../../😃⚙️ Talker cmds/...functions 🐍/🔩 {.In}.md>)
 | [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Prompt@Broker` 🅰️ method](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>) <br/> [`Prompted@Host` 🅰️ method](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 request.md>)
 | [Placeholders 🧠](<../../😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>) | [`$.Chat`](<../../😃⚙️ Talker cmds/...placeholders 🧠/$.Chat 💬/💬 $.Chat 🧠 holder.md>)
+| [Scripts 📃](<../../😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) | [`PromptEmoji` 📃 script](<😃 Prompts 📃 emoji.md>)
 |

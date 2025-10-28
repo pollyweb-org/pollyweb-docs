@@ -95,7 +95,8 @@
 
     ```yaml
     Format: ONE
-    Text: 😃 Which one?
+    Emoji: 😃 
+    Text: Which one?
     Options: 
         - ID: A
           Title: Option A

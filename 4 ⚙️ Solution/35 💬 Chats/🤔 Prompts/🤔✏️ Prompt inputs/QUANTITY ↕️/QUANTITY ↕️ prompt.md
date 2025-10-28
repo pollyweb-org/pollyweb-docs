@@ -105,7 +105,8 @@
 
     ```yaml
     Format: QUANTITY
-    Text: 😃 How many?
+    Emoji: 😃 
+    Text: How many?
     MinValue: -100
     MaxValue: 100
     ```

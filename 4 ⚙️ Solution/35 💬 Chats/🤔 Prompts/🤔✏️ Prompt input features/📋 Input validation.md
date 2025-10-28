@@ -75,7 +75,8 @@
 
     ```yaml
     Format: DIGITS
-    Text: 😃 What's the code?
+    Emoji: 😃 
+    Text: What's the code?
     Details: This is a 6 digit number
     ```
 
@@ -129,7 +130,8 @@
 
     ```yaml
     Format: TEXT
-    Text: 💬 What's the code? 
+    Emoji: 💬 
+    Text: What's the code? 
     Details: This is a 6 digit number
     ```
     
