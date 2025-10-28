@@ -2,7 +2,7 @@
 # 🗄️🐌💼 Consume @ Consumer
 
 > Implementation
-* Implemented by the [`Consume` 📃 handler](<🗄️ Consume 📃 handler.md>)
+* Implemented by the [`Consume` 📃 handler](<� Consume 📃 handler.md>)
 
 > Used by
 * [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Bind 🔗.md>)
@@ -25,7 +25,7 @@ Header:
 Body:
     Hook: <hook-uuid>
     Collect: <collect-uuid>
-    Schema: airlines.any-igo.dom/SSR/WCH:1    
+    Schema: any-authority.dom/ANY-SCHEMA:1.0
     TTL: 2023-04-01T05:00:30.001000Z
 ```
 

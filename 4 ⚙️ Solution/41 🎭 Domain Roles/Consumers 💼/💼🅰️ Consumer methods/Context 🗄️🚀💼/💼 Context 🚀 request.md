@@ -1,5 +1,10 @@
 # 🗄️🚀💼 Context @ Consumer
 
+> Implementation
+
+* Implements the {{Consumer}}
+* Implemented by the [`Context` 📃 handler](<💼 Context 📃 handler.md>)
+
 > Purpose
 
 * Asks the [Consumer 💼 domain](<../../💼🎭 Consumer role.md>) for the context of a [`Query@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>), if the requested [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) defines a context for requests.
@@ -15,14 +20,23 @@
 
 ```yaml
 Header:
-    From: any-broker.dom
+    From: any-vault.dom
     To: any-consumer.dom
     Subject: Context@Consumer
 
 Body:
     Hook: <hook-uuid>
+    Schema: any-authority.dom/ANY-SCHEMA:1.0
 ```
 
+|Object|Property|Type|Description
+|-|-|-|-
+| Header    | `From`        | string    | [Vault 🗄️ domain](<../../../Vaults 🗄️/🗄️🎭 Vault role.md>) name
+|           | `To`          | string    | [Consumer 💼](<../../💼🎭 Consumer role.md>) from [`Query@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)
+|           | `Subject`     | string    | `Context@Consumer`
+| Body      | `Hook`        | uuid      | Hook from [`Query@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)
+|           | `Schema`      | string    | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) for [`Consume@Consumer`](<../Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
+|
 
 ## Synchronous Response
 
