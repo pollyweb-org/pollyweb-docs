@@ -12,7 +12,7 @@
 > Purpose
 
 * Reads a [Placeholder 🧠](<../../😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>)
-* The placeholder [`$.Chat`](<../../😃⚙️ Talker cmds/...placeholders 🧠/$.Chat 💬.md>) contains [Chat 💬](<../../../💬 Chats/💬 Chat.md>) details.
+* The placeholder [`$.Chat`](<../../😃⚙️ Talker cmds/...placeholders 🧠/$.Chat 💬/💬 $.Chat ⌘ cmd.md>) contains [Chat 💬](<../../../💬 Chats/💬 Chat.md>) details.
 
 <br/>
 

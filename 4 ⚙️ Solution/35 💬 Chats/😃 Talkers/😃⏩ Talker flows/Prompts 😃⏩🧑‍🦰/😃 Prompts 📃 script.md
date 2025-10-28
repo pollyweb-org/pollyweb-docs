@@ -15,6 +15,7 @@
 ```yaml
 - RUN|.PROMPT:
     Format: ONE
+    Emoji: 🤔 # Default
     Statement: Which credit card to use? 
     MinValue: 10000                     # Optional
     MaxValue: 99999                     # Optional
@@ -32,10 +33,19 @@
 # Assert inputs:
 - ASSERT|.Inputs:
     AllOf: Statement, Format
-    Texts: Statement, Format, Details
+    Texts: Statement, Format, Details, Emoji
     Lists: Options
     UUIDs: Appendix  
     Maths: MinValue, MaxValue
+
+# Default the emoji
+- IF|$:Emoji:
+    Then: 
+      EVAL|$:Emoji >> $emoji
+    Else:
+      CASE|$.Chat.Role >> $emoji:
+        AGENT: 🫥
+        $: 🤔
 
 # Stage the prompt.
 - SAVE|HostPrompts >> $hook:
@@ -44,7 +54,9 @@
     Broker: $.Chat.Broker
     PublicKey: $.Chat.PublicKey
     Expires: .Now.Add(5 minutes)
-    Prompt: .Inputs
+    Prompt: 
+        :$.Inputs:
+        Emoji: $emoji
 
 # Call the Prompt@Broker
 - SEND|$hook:
@@ -79,5 +91,5 @@ Needs ||
 | [Commands ⌘](<../../😃⚙️ Talker cmds/...commands ⌘/Command ⌘/⌘ Command.md>) | [`ASSERT`](<../../😃⚙️ Talker cmds/...placeholders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) {{HOOK}} [`RETURN`](<../../😃⚙️ Talker cmds/...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`SAVE`](<../../😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`SEND`](<../../😃⚙️ Talker cmds/...messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>) [`WAIT`](<../../😃⚙️ Talker cmds/...control ▶️/WAIT 🧘/🧘 WAIT ⌘ cmd.md>)
 | [{Functions} 🐍](<../../😃⚙️ Talker cmds/...functions 🐍/{Function} 🐍.md>) | [`{.In}`](<../../😃⚙️ Talker cmds/...functions 🐍/🔩 {.In}.md>)
 | [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Prompt@Broker` 🅰️ method](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>) <br/> [`Prompted@Host` 🅰️ method](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 request.md>)
-| [Placeholders 🧠](<../../😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>) | [`$.Chat`](<../../😃⚙️ Talker cmds/...placeholders 🧠/$.Chat 💬.md>)
+| [Placeholders 🧠](<../../😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>) | [`$.Chat`](<../../😃⚙️ Talker cmds/...placeholders 🧠/$.Chat 💬/💬 $.Chat ⌘ cmd.md>)
 |

@@ -6,7 +6,7 @@
 > Purpose
 * [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) 
     * that implements the [`CHAT` 💬 command](<💬 CHAT ⌘ cmd.md>) 
-    * by setting the [`$.Chat` 💬 placeholder](<../$.Chat 💬.md>).
+    * by setting the [`$.Chat` 💬 placeholder](<../$.Chat 💬/💬 $.Chat ⌘ cmd.md>).
 
 ## How to run
 
