@@ -1,46 +1,42 @@
-<!-- TODO -->
+# 💼 Receive 📃 handler
 
-# 💼📃 Receive
+> Purpose
 
-[Script 📃](<💼 Receive 🐌 msg.md>)
+* [`Script`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that implements the [`Receive@Consumer` 🅰️ method](<💼 Receive 🐌 msg.md>)
 
 <br/>
+
+## Flow
+
+![alt text](<💼 Receive ⚙️ uml.png>)
 
 ## Script
 
 ```yaml
+📃 Receive@Consumer:
+
+# Assert the inputs
+- ASSERT|$.Msg:
+    AllOf: Tokens, Hook
+    UUIDs: Hook
+    Arrays: Tokens
+
 # Resolve the callback
 - GET >> $hook
     Set: TalkerHooks
     Key: $.Msg.Hook
 
-# Get the chat
-- GET >> $chat:
-    Set: HostChats
-    Key: $hook.Chat
-
 # Verify the Wallet signature
 - VERIFY|$.Msg:
-    Key: $chat.PublicKey
-
-# Process each Bind
-- PARALLEL|$.Msg.Binds|$bind:
-
-    # Save each Bind
-    - SAVE|VaultBinds:
-        Broker: $.Msg.From
-        Bind: $bind.Bind
-        Schema: $bind.Schema
-        User: $chat.User
+    Key: $hook.PublicKey
 
 # Continue the Chat
 - REEL|$hook:
-    $.Msg.Binds
+    $.Msg.Tokens
 ```
 
 Needs||
 |-|-
-| [Commands ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/⌘ Command.md>) | [`GET`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) [`PARALLEL`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...control ▶️/PARALLEL *️⃣/*️⃣ PARALLEL ⌘ cmd.md>) [`REEL`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...control ▶️/REEL 🎣/🎣 REEL ⌘ cmd.md>) [`SAVE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`VERIFY`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>)
-| [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Bound@Vault`](<../../../Vaults 🗄️/🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
+| [Commands ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/⌘ Command.md>) | [`ASSERT`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`GET`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>)  [`REEL`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...control ▶️/REEL 🎣/🎣 REEL ⌘ cmd.md>) [`VERIFY`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>)
 | [Placeholders 🧠](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>) | [`$.Msg`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...messages 📨/$.Msg 📨.md>)
 |

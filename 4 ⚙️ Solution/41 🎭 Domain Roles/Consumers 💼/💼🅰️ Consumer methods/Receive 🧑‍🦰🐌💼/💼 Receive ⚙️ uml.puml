@@ -1,0 +1,33 @@
+@startuml Receive@Consumer
+
+participant "Wallet 🧑" as wallet
+
+box Hoster ☁️ domain #FFFFFA
+    participant "Consumer 💼" as consumer
+    participant "Talker 😃" as talker
+    participant "Script 📃" as script
+end box
+
+box Itemizer 🛢 #FFFFFA
+    participant "Hooks 🪣" as hooks
+end box
+
+'participant "Graph 🕸" as graph
+
+activate wallet
+    wallet --> consumer: Receive 🐌 {hook}
+deactivate wallet
+
+activate consumer
+    consumer -> hooks: GET {hook}
+    consumer --> talker: REEL 🎣 {hook}
+deactivate consumer
+
+activate talker
+    talker --> script: RETURN {tokens}
+deactivate talker
+
+activate script
+deactivate script
+
+@enduml 
