@@ -47,7 +47,7 @@
 
 # Wait for the shared data
 #- WAIT >> $shared:
-#    Signal: $hook.Hook
+#    Hook: $hook.Hook
 
 # Return the data
 #- RETURN:
