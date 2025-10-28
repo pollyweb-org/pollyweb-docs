@@ -38,7 +38,7 @@ Body:
 |           | `To`          | string    | [Consumer 💼](<../../💼🎭 Consumer role.md>) from [`Query@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)
 |           | `Subject`     | string    | `Context@Consumer`
 | Body      | `Hook`        | uuid      | Hook from [`Query@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)
-|           | `Schema`      | string    | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) for {{Trust}}
+|           | `Schema`      | string    | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) for [Trust 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) validation
 |
 
 ## Synchronous Response
