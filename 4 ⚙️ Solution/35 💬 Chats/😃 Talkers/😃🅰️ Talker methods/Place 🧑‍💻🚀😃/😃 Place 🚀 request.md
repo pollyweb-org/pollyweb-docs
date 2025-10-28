@@ -9,7 +9,7 @@
 * Paired with the [`Placed@Talker` 🅰️ method](<../Placed 🧑‍💻🚀😃/😃 Placed 🚀 request.md>)
 
 > Purpose 
-* Writes a value to a [Placeholder 🧠](<../../😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>).
+* Writes a value to a [Holder 🧠](<../../😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>).
 
 
 <br/>
@@ -25,7 +25,7 @@ Header:
 
 Body:
     Chat: <chat-uuid>
-    Placeholder: $p
+    Holder: $p
     Value: {A:1, B:2}
     Reason: Any reason...
 ```
@@ -36,7 +36,7 @@ Body:
 |           | `To`          | string    | [Hoster ☁️ domain](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) name
 |           | `Subject`     | string    | `Place@Talker`
 | Body      | `Chat`      | uuid      | [Chat 💬](<../../../💬 Chats/💬 Chat.md>) ID
-|           | `Placeholder` | string    | [Placeholder 🧠](<../../😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>) name
+|           | `Holder` | string    | [Holder 🧠](<../../😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>) name
 |           | `Value`       | any    | Any value to write
 |           | `Reason`      | string | For traceability
 |

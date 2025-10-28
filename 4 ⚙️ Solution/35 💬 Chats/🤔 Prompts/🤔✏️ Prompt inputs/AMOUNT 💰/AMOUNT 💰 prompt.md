@@ -41,18 +41,18 @@
 
     ```yaml
     # Simplest.
-    AMOUNT|<statement> >> $placeholder
+    AMOUNT|<statement> >> $holder
     ```
 
     | Input| Purpose 
     |-|-
     | `<statement>`| Message to show to the user
-    | `$placeholder`| Optional [placeholder 🧠](<../../../😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>) with the user's answer
+    | `$holder`| Optional [holder 🧠](<../../../😃 Talkers/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>) with the user's answer
     
 
     ```yaml
     # Comprehensive.
-    AMOUNT >> $placeholder:
+    AMOUNT >> $holder:
         Text: <statement>
         
         # Specific optional properties
@@ -138,7 +138,7 @@
     <br/>
 
 
-1. **What's contained in the AMOUNT placeholder?**
+1. **What's contained in the AMOUNT holder?**
 
     ```yaml
     # 😃 Talker

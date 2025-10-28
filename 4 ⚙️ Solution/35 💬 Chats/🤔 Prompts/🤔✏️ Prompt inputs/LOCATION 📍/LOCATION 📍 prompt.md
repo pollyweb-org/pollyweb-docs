@@ -39,12 +39,12 @@
 1. **What's the format for a [Talker 😃](<../../../😃 Talkers/😃 Talker role.md>)?**
 
     ```yaml
-    - LOCATION >> $placeholder
+    - LOCATION >> $holder
     ```
 
     |Parameter|Details
     |-|-
-    | `$placeholder` | Stores the answer in this [placeholder 🧠](<../../../😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>)
+    | `$holder` | Stores the answer in this [holder 🧠](<../../../😃 Talkers/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>)
     
     ---
     <br/>

@@ -246,7 +246,7 @@
     Here's a [Talker 😃](<../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) excerpt from [`Grab@Printer`](<../../../45 🤲 Helper domains/Printers 🖨️/🖨️🅰️ Printer methods/Grab 👥🚀🖨️/🖨️ Grab 🚀 request.md>)
 
     ```yaml
-    # Give a placeholder name to avoid exceptions.
+    # Give a holder name to avoid exceptions.
     - SAVE|AnyTable:
         .OnBlocked: onBlocked
     ```

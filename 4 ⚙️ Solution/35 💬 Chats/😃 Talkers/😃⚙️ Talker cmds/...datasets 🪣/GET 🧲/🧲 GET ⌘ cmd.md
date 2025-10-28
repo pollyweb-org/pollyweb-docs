@@ -14,7 +14,7 @@
     * is a [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) 
     * that retrieves an item by key 🔑
     * from a key-value resource pool 🪣
-    * into a [Talker 😃](<../../../😃 Talker role.md>) placeholder.
+    * into a [Talker 😃](<../../../😃 Talker role.md>) holder.
 
     ---
     <br/>
@@ -55,7 +55,7 @@
     The syntax for properties is th following.
 
     ```yaml
-    {$placeholder.property}
+    {$holder.property}
     ```
 
     Consider the resource pool `MyPool` 🪣 as the following.

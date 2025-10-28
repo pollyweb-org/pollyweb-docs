@@ -35,7 +35,7 @@
 
     | Input| Purpose |
     |-|-
-    | `$.Msg`| Built-in [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) with the [Message 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message.md>).
+    | `$.Msg`| Built-in [Holder 🧠](<../../...holders 🧠/$Holder 🧠.md>) with the [Message 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message.md>).
 
     ```yaml
     # For messages from Wallets
@@ -48,7 +48,7 @@
 
     | Input| Purpose |
     |-|-
-    | `$publicKey`| [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) with the Public Key.
+    | `$publicKey`| [Holder 🧠](<../../...holders 🧠/$Holder 🧠.md>) with the Public Key.
 
 
     ---

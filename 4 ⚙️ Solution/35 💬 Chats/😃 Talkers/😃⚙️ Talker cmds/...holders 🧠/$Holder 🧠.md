@@ -1,13 +1,13 @@
-# 😃🧠 Talker `$placeholder` 
+# 😃🧠 Talker `$holder` 
 
 > Part of [Talker 😃](<../../😃 Talker role.md>)
 
 <br/>
 
 
-1. **What is a Talker $placeholder?**
+1. **What is a Talker $holder?**
 
-    A `$placeholder`
+    A `$holder`
     * is a named memory slot 
     * associated with a [Chat 💬](<../../../💬 Chats/💬 Chat.md>)
     * and managed by a [Talker 😃](<../../😃 Talker role.md>).
@@ -27,37 +27,37 @@
     ---
     <br/>
 
-1. **How to read a $placeholder?**
+1. **How to read a $holder?**
 
     In a [Talker 😃](<../../😃 Talker role.md>) script,
     * placeholders are prefixed with a dollar sign;
-    * e.g., `$p` to reference placeholder named `p`.
+    * e.g., `$p` to reference holder named `p`.
 
     In Python 🐍 code, 
-    * use the placeholder handler;
-    * e.g., `.Placeholders.Get('$p')`.
+    * use the holder handler;
+    * e.g., `.Holders.Get('$p')`.
 
     ---
     <br/>
 
 
-1. **How to read properties from $placeholder objects?**
+1. **How to read properties from $holder objects?**
 
     In a [Talker 😃](<../../😃 Talker role.md>) script, use `dot` notation to access properties:
     * `$p.MyProp` reads property `MyProp`
     * `$p.L1.L2` reads property `L2` of property `L1`
 
-    In Python 🐍 code, use the placeholder handler:
-    * `.Placeholders.Get('$p.MyProp')` reads `MyProp`
-    * `.Placeholders.Get('$p.L1.L2')` reads `L2` of `L1`
+    In Python 🐍 code, use the holder handler:
+    * `.Holders.Get('$p.MyProp')` reads `MyProp`
+    * `.Holders.Get('$p.L1.L2')` reads `L2` of `L1`
 
     ---
     <br/>
 
-1. **Is there a default $placeholder property?**
+1. **Is there a default $holder property?**
 
     Yes. 
-    * If a placeholder object `$p` has a `.$` property, 
+    * If a holder object `$p` has a `.$` property, 
     * then reading `$p` is the same as reading `$p.$`.
 
     Here's a [Script 📃](<../...commands ⌘/Script 📃/📃 Script.md>).
@@ -80,7 +80,7 @@
 
 1. **How to read lists of values?**
 
-    To loop a list placeholder called $list use [`PARALLEL`](<../...control ▶️/PARALLEL *️⃣/*️⃣ PARALLEL ⌘ cmd.md>).
+    To loop a list holder called $list use [`PARALLEL`](<../...control ▶️/PARALLEL *️⃣/*️⃣ PARALLEL ⌘ cmd.md>).
     
     Here's a [Script 📃](<../...commands ⌘/Script 📃/📃 Script.md>).
     ```yaml
@@ -137,12 +137,12 @@
     ---
     <br/>
 
-1. **How to write to a placeholder?**
+1. **How to write to a holder?**
 
-    In Python 🐍 code, use the placeholder handler:
-    * `.Placeholders.Set('$p', new_value)` 
+    In Python 🐍 code, use the holder handler:
+    * `.Holders.Set('$p', new_value)` 
 
-    In a [Talker 😃](<../../😃 Talker role.md>) script, use `>>` to send a value to a $placeholder:
+    In a [Talker 😃](<../../😃 Talker role.md>) script, use `>>` to send a value to a $holder:
     * `TEXT|bla >> $p` writes the answer to a [`TEXT` 🔠 input](<../../../🤔 Prompts/🤔✏️ Prompt inputs/TEXT 🔠/TEXT 🔠 prompt.md>).
     * `EVAL|f >> $p` writes the return of a [{Function}](<../...functions 🐍/{Function} 🐍.md>) named `f`.
 
@@ -168,14 +168,14 @@
     ```yaml 
     EVAL >> $p:   # Merge objects with ':object:'
       A: 1
-      :$another-placeholder:
+      :$another-holder:
       B: 2
     ```
 
     ---
     <br>
 
-1. **How to change the properties of an object placeholder?**
+1. **How to change the properties of an object holder?**
 
     Use [`EVAL`](<EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>).
 
@@ -199,9 +199,9 @@
   
 1. **How to integrate functions?**
 
-    Placeholders allow [{Function} 🐍](<../...functions 🐍/{Function} 🐍.md>) suffixes.
+    Holders allow [{Function} 🐍](<../...functions 🐍/{Function} 🐍.md>) suffixes.
 
-    * The function is called with the first argument as the placeholder.
+    * The function is called with the first argument as the holder.
   
     | Function | Holder `$p` | Example | Result
     |-|-|-|-
@@ -214,7 +214,7 @@
     ---
     <br/>
 
-1. **How to reference a placeholder by name?**
+1. **How to reference a holder by name?**
 
     > Used in the [`FILTER`](<../...methods 🤵/FILTER 🔽/🔽 FILTER ⌘ cmd.md>) command
 

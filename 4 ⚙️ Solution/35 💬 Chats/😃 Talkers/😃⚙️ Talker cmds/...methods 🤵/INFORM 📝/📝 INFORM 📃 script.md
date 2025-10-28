@@ -38,7 +38,7 @@
 
 Needs||
 |-|-
-| [Commands ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) | [`ASSERT`](<../../...placeholders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`SEND`](<../../...messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>)
+| [Commands ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) | [`ASSERT`](<../../...holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`SEND`](<../../...messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>)
 | [Messages 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Inform@Broker` 🅰️ method](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Inform 💼🐌🤵/🤵 Inform 🐌 msg.md>)
-| [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) | [`.Chat`](<../../...placeholders 🧠/$.Chat 💬/💬 $.Chat 🧠 holder.md>)
+| [Holder 🧠](<../../...holders 🧠/$Holder 🧠.md>) | [`.Chat`](<../../...holders 🧠/$.Chat 💬/💬 $.Chat 🧠 holder.md>)
 |

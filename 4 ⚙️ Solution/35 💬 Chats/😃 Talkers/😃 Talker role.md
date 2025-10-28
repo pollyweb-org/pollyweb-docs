@@ -68,8 +68,8 @@
 
     |Method|Details
     |-|-
-    | 🧑‍💻🚀 [Placed](<😃🅰️ Talker methods/Placed 🧑‍💻🚀😃/😃 Placed 🚀 request.md>) | Returns the value of a [placeholder 🧠](<😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>)
-    | 🧑‍💻🐌 [Place](<😃🅰️ Talker methods/Place 🧑‍💻🚀😃/😃 Place 🚀 request.md>) | Sets the value of a [placeholder 🧠](<😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>)
+    | 🧑‍💻🚀 [Placed](<😃🅰️ Talker methods/Placed 🧑‍💻🚀😃/😃 Placed 🚀 request.md>) | Returns the value of a [holder 🧠](<😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>)
+    | 🧑‍💻🐌 [Place](<😃🅰️ Talker methods/Place 🧑‍💻🚀😃/😃 Place 🚀 request.md>) | Sets the value of a [holder 🧠](<😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>)
     | 🧑‍💻🐌 [Handled](<😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>) | Receives the evaluation of a [{Function} 🐍](<😃⚙️ Talker cmds/...functions 🐍/{Function} 🐍.md>)
     
 

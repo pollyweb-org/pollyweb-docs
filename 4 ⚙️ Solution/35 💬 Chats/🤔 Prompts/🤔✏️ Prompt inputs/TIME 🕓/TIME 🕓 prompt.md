@@ -20,13 +20,13 @@
 1. **What's the format of a [Talker 😃](<../../../😃 Talkers/😃 Talker role.md>)?**
 
     ```yaml
-    TIME|<statement> >> $placeholder
+    TIME|<statement> >> $holder
     ```
     
     |Input| Details | Example 
     |-|-|-
     | `<statement>`| The message to the user | `What time?`
-    | `$placeholder`| [placeholder 🧠](<../../../😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>) with the time | `14:23:59` 
+    | `$holder`| [holder 🧠](<../../../😃 Talkers/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>) with the time | `14:23:59` 
     
     ---
     <br/>

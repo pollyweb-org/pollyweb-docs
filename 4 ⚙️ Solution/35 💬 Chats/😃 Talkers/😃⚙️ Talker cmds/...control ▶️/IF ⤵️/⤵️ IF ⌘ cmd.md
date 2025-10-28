@@ -10,7 +10,7 @@
     An `IF` ⤵️
     * is a flow [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>)  
     * that runs a [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) or [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>)
-    * based on the evaluation of a placeholder or [{Function}](<../../...functions 🐍/{Function} 🐍.md>).
+    * based on the evaluation of a holder or [{Function}](<../../...functions 🐍/{Function} 🐍.md>).
 
     ---
     <br/>

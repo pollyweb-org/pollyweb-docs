@@ -82,7 +82,7 @@
 
     | Input| Purpose | Example
     |-|-|-
-    | `$selected` | Placeholder for the selection: | `$answer`
+    | `$selected` | Holder for the selection: | `$answer`
     || for string lists, returns the text | → `A` in `A,B,C`
     || for dictionaries, returns the key | → `1` in `{1:A}`
     || for object lists, the 1st property | → `1` in `[{K:1}]`

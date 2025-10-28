@@ -31,17 +31,17 @@
 
     ```yaml
     # Simplest.
-    QUANTITY|<statement> >> $placeholder
+    QUANTITY|<statement> >> $holder
     ```
 
     | Input| Purpose 
     |-|-
     | `<statement>`| Message to show to the user
-    | `$placeholder`| Optional [placeholder 🧠](<../../../😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>) with the user's answer 
+    | `$holder`| Optional [holder 🧠](<../../../😃 Talkers/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>) with the user's answer 
 
     ```yaml
     # Comprehensive.
-    QUANTITY >> $placeholder:
+    QUANTITY >> $holder:
         Text: <statement>
 
         # Specific optional properties
@@ -213,7 +213,7 @@
     <br/>
 
 
-1. **What's contained in the QUANTITY placeholder?**
+1. **What's contained in the QUANTITY holder?**
 
     ```yaml
     # 😃 Talker

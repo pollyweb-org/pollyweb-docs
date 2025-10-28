@@ -28,11 +28,11 @@
 
     | Input| Purpose | Example
     |-|-|-
-    | `$context` | Optional input [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>)  | `$p`
+    | `$context` | Optional input [Holder 🧠](<../../...holders 🧠/$Holder 🧠.md>)  | `$p`
     | `To` | Destination domain | `any-broker.dom`
     | `Subject` | Message subject | `Unbound@Vault`
     | `{body}` | `Body` property dictionary  | `{A:1, B:2}`
-    | `$response` | Response [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) <br/> for [Synchronous Requests 🚀](<../../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Sync Requests 🚀.md>) | `$r`
+    | `$response` | Response [Holder 🧠](<../../...holders 🧠/$Holder 🧠.md>) <br/> for [Synchronous Requests 🚀](<../../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Sync Requests 🚀.md>) | `$r`
 
     ---
     <br/>
@@ -87,7 +87,7 @@
     ```yaml
     📃 Example:
     
-    # Create a placeholder
+    # Create a holder
     - EVAL|{A:1,B:2} >> $context
 
     # Without context
@@ -108,7 +108,7 @@
             A: A
             B: B
     ```
-    Commands: [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>)
+    Commands: [`EVAL`](<../../...holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>)
 
     ---
     <br/>

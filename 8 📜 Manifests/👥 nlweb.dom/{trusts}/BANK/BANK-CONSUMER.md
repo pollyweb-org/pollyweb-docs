@@ -3,7 +3,7 @@
 ```yaml
 🤝: nlweb.dom/MANIFEST/TRUST
 
-Title: Placeholder cash-machine
+Title: Holder cash-machine
 Query: nlweb.dom/BANK/*
 Role: CONSUMER
 Domain: atm.any-fintech.dom
