@@ -32,10 +32,10 @@ activate broker
 
     broker -> graph: SEND: Translate 🚀
     
-    broker -> binds: PARALLEL: SAVE {translations}
+    broker -> binds: PARALLEL: SAVE 💾 {translations}
     broker -> chats: 
     broker -> tokens: 
-    broker -> wallets: SAVE {language}
+    broker -> wallets: SAVE 💾 {language}
 
     broker -> broker: RUN: UpdateNotifier
 deactivate broker
