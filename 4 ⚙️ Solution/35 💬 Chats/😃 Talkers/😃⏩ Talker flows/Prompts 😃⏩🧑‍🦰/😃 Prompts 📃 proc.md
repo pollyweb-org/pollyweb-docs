@@ -8,11 +8,11 @@
 📃 Prompt@Host:
 
 # Assert inputs:
-- ASSERT:
-    AllOf: $:Statement, $:Format
-    Texts: $:Statement, $:Details
-    Lists: $:Options
-    UUIDs: $:Appendix  
+- ASSERT|.Inputs:
+    .AllOf: Statement, Format
+    .Texts: Statement, Details
+    .Lists: Options
+    .UUIDs: Appendix  
 
 # Stage the prompt.
 - SAVE|HostPrompts >> $prompt:

@@ -20,9 +20,9 @@
 📃 .TRUSTS:
 
 # Assert inputs
-- ASSERT:
-    AllOf: $:Schema, $:Trusted
-    Texts: $:Schema, $:Trusted, $:Truster
+- ASSERT|.Inputs:
+    .AllOf: Schema, Trusted
+    .Texts: Schema, Trusted, Truster
 
 # Assert the role
 - ASSERT|$:Role:
@@ -50,8 +50,8 @@
         Schema: $:Schema
 
 # Assert if it's trusted
-- ASSERT:
-    $answer.Trusted: True
+- ASSERT|$answer:
+    Trusted: True
 ```
 
 Needs||

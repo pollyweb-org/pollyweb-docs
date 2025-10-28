@@ -20,10 +20,10 @@
 📃 .UNDO:
 
 # Fill the $item
-- ASSERT:
-    AllOf: $:Set, $:Key
-    Texts: $:Set
-    Lists: $:Key
+- ASSERT|.Inputs:
+    .AllOf: Set, Key
+    .Texts: Set
+    .Lists: Key
 
 # Send the request and wait.
 - SEND >> $undone:

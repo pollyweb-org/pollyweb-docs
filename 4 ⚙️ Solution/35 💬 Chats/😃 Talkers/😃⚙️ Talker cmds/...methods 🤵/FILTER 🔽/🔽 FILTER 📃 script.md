@@ -30,10 +30,10 @@ Here's the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>)
 📃 .FILTER:
 
 # Assert the inputs
-- ASSERT:
-    AllOf: $:Options, $:ID, $:Title
-    Lists: $:Options
-    Texts: $:ID, $:Title, $:Statement
+- ASSERT|.Inputs:
+    .AllOf: Options, ID, Title
+    .Lists: Options
+    .Texts: ID, Title, Statement
 
 # Format the options into {ID,Title}
 - EVAL|$:Options >> $options:
