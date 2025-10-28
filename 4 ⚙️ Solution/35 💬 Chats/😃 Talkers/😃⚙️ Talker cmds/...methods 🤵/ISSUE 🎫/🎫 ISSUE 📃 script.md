@@ -1,4 +1,4 @@
-# 💼 SHARE 📃 script
+# 🎫 ISSUE 📃 script
 
 [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) that implements the [`ISSUE`](<🎫 ISSUE ⌘ cmd.md>) command.
 
@@ -13,6 +13,10 @@
     Schema: any-authority.dom/ANY-SCHEMA
     Starts: 2018-12-10T13:45:00.000Z
     Expires: 2018-12-10T13:45:00.000Z
+    Properties: 
+        {properties}
+    Internals:
+        {internals}
 ```
 
 ## Script
@@ -64,6 +68,6 @@ Needs||
 |-|-
 |[Commands ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>)| [`ASSERT`](<../../...holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`RETURN`](<../../...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`SAVE`](<../../...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`SEND`](<../../...messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>) [`WAIT`](<../../...control ▶️/WAIT 🧘/🧘 WAIT ⌘ cmd.md>)
 | [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`TalkerHooks`](<../../../😃🪣 Talker tables/😃🪣 TalkerHooks 🪝 table.md>)
-| [Messages 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Offer@Broker` 🅰️ method](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>)
 | [Holders 🧠](<../../...holders 🧠/$Holder 🧠.md>) | [`.Chat`](<../../...holders 🧠/$.Chat 💬/💬 $.Chat 🧠 holder.md>)
+| [Messages 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Offer@Broker` 🅰️ method](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>) <br/> [`Issued@Issuer` 🅰️ method](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Issued 🧑‍🦰🚀🎴/🎴 Issued 🚀 request.md>) <br/> [`Accepted@Issuer` 🅰️ method](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Accepted 🤵🐌🎴/🎴 Accepted 🐌 msg.md>)
 |

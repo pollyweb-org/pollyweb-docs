@@ -28,6 +28,7 @@ Body:
     Chat: <chat-uuid>
     Hook: <hook-uuid>
     Schema: any-authority.dom/ANY-SCHEMA:1.0
+    Key: <offer-key>
     Starts: 2018-12-10T13:45:00.000Z
     Expires: 2018-12-10T13:45:00.000Z
 ```
@@ -40,21 +41,31 @@ Body:
 |Body  |`Chat` |uuid  | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 | |`Hook` |uuid  | Hook for [`Issued@`](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Issued 🧑‍🦰🚀🎴/🎴 Issued 🚀 request.md>) [`Accepted@`](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Accepted 🤵🐌🎴/🎴 Accepted 🐌 msg.md>)
 |      |`Schema`   |string| [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) of the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)     
-|      |`Starts` |timestamp| [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) valid from
-|      |`Expires`|timestamp| [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) valid until
+|       | `Key` | uuid | Key of the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) 
+|      |`Starts` |time| [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) valid from
+|      |`Expires`|time| [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) valid until
 |
 
 <br/>
 
 ## FAQ
 
-1. **Why are the schema and timestamp properties for?**
+1. **What is the `Key` properties for?**
+
+    This is the `Key` of the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>).
+    * It is required for matching the signature when sharing. 
+    * Only the [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) keeps this information to avoid replay attacks from [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) purposefully breaking the [`Save Token` ⏩ flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🎴 Save token.md>) halfway to collected repeated [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>).
+
+    ---
+    <br/>
+
+1. **What are the `Schema` and `Times` properties for?**
 
     | Reason | Details
     |-|-
     |`Reject`| [Broker 🤵 domains](<../../🤵🤲 Broker helper.md>) verify if the lifespan of the offered [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) is worth showing to the user, rejecting [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) already expired or too far ahead in the future.
     `Translate` | [Broker 🤵 domains](<../../🤵🤲 Broker helper.md>) need to translate the [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)  into for users in their [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) language.
-    `Share`| When [Broker 🤵 domains](<../../🤵🤲 Broker helper.md>) answer a [Query@Broker](<../Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) call, they need to filter only the active [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) of a certain [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)  within a version interval to be shared.
+    `Share`| When [Broker 🤵 domains](<../../🤵🤲 Broker helper.md>) answer a [Query@Broker](<../Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) call, they need to filter only the [Trusted 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) and active [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) of a certain [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)  within a version interval to be shared.
     |
 
     

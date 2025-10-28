@@ -44,6 +44,11 @@ Successful Tests:
     LinkFile: "🫡 Domain Trust.md"
     Reasons: This is hardcoded.
 
+  - Given: '{{Trusted}}'
+    LinkText: "Trusted 🫡"
+    LinkFile: "🫡 Domain Trust.md"
+    Reasons: This is hardcoded.
+
   - Given: '{{$.Msg}}'
     LinkText: "`$.Msg` 🧠 holder"
     LinkFile: "📨 $.Msg 🧠 holder.md"
