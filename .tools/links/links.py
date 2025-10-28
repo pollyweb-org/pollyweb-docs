@@ -210,8 +210,10 @@ def replace_registered_hardcoded_tokens(md_files):
 
     any_changes = False
     for token_key, metadata in HARDCODED_HANDLERS.items():
-        func = metadata["function"]
-        label = metadata["token_label"]
+        # Support either 'func' or legacy 'function' key to be robust during
+        # refactors. Prefer 'func' which is used by the generator helper.
+        func = metadata.get("func") or metadata.get("function")
+        label = metadata.get("token_label") or metadata.get("token_label")
         try:
             changes = func(md_files)
         except Exception as exc:
