@@ -61,10 +61,10 @@
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 What's the code? [+]<br/> | `012345`
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ Code validated!
 
-    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker role.md>).
+    Here's the [Script 📃](<../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>).
 
     ```yaml
-    # Talker 😃
+    📃 Example:
     - DIGITS|What's the code? >> code:
         MinLength: 6
         MaxLength: 6
@@ -95,7 +95,7 @@
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ Code validated!
     |
 
-    Here's the [Talker 😃](<../../😃 Talkers/😃 Talker role.md>).
+    Here's the [Script 📃](<../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>).
 
     ```yaml
     # Talker 😃

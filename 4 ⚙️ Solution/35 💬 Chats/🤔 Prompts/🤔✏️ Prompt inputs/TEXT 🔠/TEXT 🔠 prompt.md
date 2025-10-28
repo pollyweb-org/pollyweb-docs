@@ -128,10 +128,10 @@
    
     <br/>
 
-    Here's the [Talker 😃](<../../../😃 Talkers/😃 Talker role.md>).
+    Here's the [Script 📃](<../../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>).
     
     ```yaml
-    # Talker 😃
+    📃 Example:
     - TEXT|How are you today? 
     ```
 
@@ -168,7 +168,7 @@
 
     <br/>
    
-    Here's the [Talker 😃](<../../../😃 Talkers/😃 Talker role.md>).
+    Here's the [Script 📃](<../../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>).
     
     ```yaml
     # Explicit, not recommended, just for the exercise.
@@ -233,7 +233,7 @@
    
     <br/>
 
-    Here's the [Talker 😃](<../../../😃 Talkers/😃 Talker role.md>).
+    Here's the [Script 📃](<../../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>).
     
     ```yaml
     # Explicit, not recommended, just for the exercise.
