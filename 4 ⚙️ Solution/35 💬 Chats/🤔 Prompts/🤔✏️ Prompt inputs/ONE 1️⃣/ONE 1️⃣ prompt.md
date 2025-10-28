@@ -79,10 +79,10 @@
    
     <br/>
 
-    Here's the [Talker 😃](<../../../😃 Talkers/😃 Talker role.md>).
+    Here's the [Script 📃](<../../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>).
     
     ```yaml
-    # Talker 😃
+    📃 Example:
     - ONE|Which one?:
         Options: 
           - Option /A

@@ -95,7 +95,7 @@
 
     <br/>
     
-    Here's the [Talker 😃](<../../../😃 Talkers/😃 Talker role.md>).
+    Here's the [Script 📃](<../../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>).
     
     ```yaml
     - DIGITS|What's the code? >> $code:

@@ -57,7 +57,7 @@
     Here's the [Talker 😃](<../../../😃 Talker role.md>)
 
     ```yaml
-    # Talker 😃
+    📃 Example:
     - BIND|.BIND >> $bound
     - IF|$bound:
         Then: SUCCESS|Your wallet is bound.
