@@ -27,7 +27,7 @@ Here's the [Script 📃](<../../../😃 Talkers/😃⚙️ Talker cmds/...comman
 📃 .FILTER:
 
 # Ask the user to answer
-- PROMPT >> $reply:
+- .PROMPT >> $reply:
     Statement: $:Statement
     Options: $:Options$
 
@@ -35,7 +35,7 @@ Here's the [Script 📃](<../../../😃 Talkers/😃⚙️ Talker cmds/...comman
 - RETURN|$reply
 ```
 
-Commands: {{PROMPT}} [`RETURN`](<../../../😃 Talkers/😃⚙️ Talker cmds/...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) 
+Commands: [`.PROMPT`](<../.PROMPT 🤔/🤔 .PROMPT 📃 script.md>) [`RETURN`](<../../../😃 Talkers/😃⚙️ Talker cmds/...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) 
 
 ---
 <br/>

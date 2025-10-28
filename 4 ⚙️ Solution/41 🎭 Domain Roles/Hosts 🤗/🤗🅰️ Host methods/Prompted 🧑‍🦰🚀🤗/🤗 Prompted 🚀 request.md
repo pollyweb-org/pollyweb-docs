@@ -24,7 +24,7 @@ Header:
     Subject: Prompted@Host
 
 Body:
-    Prompt: <prompt-uuid>
+    Hook: <hook-uuid>
 ```
 
 |Object|Property|Type|Description
@@ -32,7 +32,7 @@ Body:
 | Header    | `From`        | string    | `Anonymous`
 |           | `To`          | string    | [Sender 🤗](<../../🤗🎭 Host role.md>) from [`Prompt@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Prompt 🤵🐌📣/📣 Prompt 🐌 msg.md>)
 |           | `Subject`     | string    | `Prompted@Host`
-| Body      | `Prompt`    | uuid      | [Prompt 🤔](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) ID from [`Prompt@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Prompt 🤵🐌📣/📣 Prompt 🐌 msg.md>)
+| Body      | `Hook`    | uuid      | Hook from [`Prompt@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Prompt 🤵🐌📣/📣 Prompt 🐌 msg.md>)
 |
 
 <br/>

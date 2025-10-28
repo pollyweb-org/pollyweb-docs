@@ -19,7 +19,7 @@ activate script
 deactivate script
 
 activate talker
-    talker -> hooks: SAVE 💾 {hook}
+    talker -> hooks: SAVE 💾 {hook, prompt}
     talker --> broker: Prompt 🐌 {hook}
 activate broker
     talker --> talker: WAIT {hook}
@@ -29,6 +29,13 @@ deactivate talker
 deactivate broker
 
 activate wallet
+    wallet -> host: Prompted 🚀 {hook}
+    
+    activate host
+        host -> hooks: GET 🧲 {hook}
+        host -> wallet: {prompt}
+    deactivate host
+
     wallet --> host: Reply 🐌 {hook, reply}
 deactivate wallet
 
