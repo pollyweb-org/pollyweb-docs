@@ -45,6 +45,7 @@ Body:
 
 ```yaml
 Format: ONE
+Emoji: 🤔
 Statement: Which credit card to use? 
 MinValue: 10000                     # Optional
 MaxValue: 99999                     # Optional
@@ -61,6 +62,7 @@ Options:                            # Optional
 |Property|Type|Description
 |-|-|-
 | [`Format`](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>)  | string | One format supported by [Prompts 🤔](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>)
+| [`Emoji`](<../../../../35 💬 Chats/🤔 Prompts/🤔✏️ Prompt input features/😶⌘ EMOJI cmd.md>) | string | Emoji to display
 | [`Statement`](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/2 🪧 Statement.md>) | string | Main message,  to display in the [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)
 | [`MinValue`](<../../../../35 💬 Chats/🤔 Prompts/🤔✏️ Prompt input features/📋 Input validation.md>) | int | Optional minimum value
 | [`MaxValue`](<../../../../35 💬 Chats/🤔 Prompts/🤔✏️ Prompt input features/📋 Input validation.md>) | int | Optional maximum value

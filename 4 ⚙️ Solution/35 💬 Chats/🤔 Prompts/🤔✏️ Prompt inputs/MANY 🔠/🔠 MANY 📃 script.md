@@ -26,16 +26,23 @@ Here's the [Script 📃](<../../../😃 Talkers/😃⚙️ Talker cmds/...comman
 ```yaml
 📃 .FILTER:
 
+# Assert the inputs
+- ASSERT|$.Inputs:
+    AllOf: Options
+
 # Ask the user to answer
 - RUN|.PROMPT >> $reply:
-    Statement: $:Statement
-    Options: $:Options$
+    :$.Inputs:
 
 # Return the reply.
 - RETURN|$reply
 ```
 
-Commands: [`.PROMPT`](<../.PROMPT 🤔/🤔 .PROMPT 📃 script.md>) [`RETURN`](<../../../😃 Talkers/😃⚙️ Talker cmds/...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) 
+Needs||
+|-|-
+| [Commands ⌘](<../../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/⌘ Command.md>) | [`ASSERT`](<../../../😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`RETURN`](<../../../😃 Talkers/😃⚙️ Talker cmds/...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`RUN`](<../../../😃 Talkers/😃⚙️ Talker cmds/...control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
+| [Placeholders 🧠](<../../../😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>) | [`$.Inputs`](<../../../😃 Talkers/😃⚙️ Talker cmds/...functions 🐍/🔩 {.Inputs}.md>)
+| [Scripts 📃](<../../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) | [`Prompts` 📃 script](<../../../😃 Talkers/😃⏩ Talker flows/Prompts 😃⏩🧑‍🦰/😃 Prompts 📃 script.md>)
 
 ---
 <br/>

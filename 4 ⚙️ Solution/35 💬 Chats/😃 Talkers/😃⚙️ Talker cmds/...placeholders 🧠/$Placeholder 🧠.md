@@ -215,11 +215,9 @@
     - EVAL|p >> $name
     - EVAL|123 >> {$name}
     - INFO|The value of $p is {$p}
-    - INFO|The value of $p is also {{$name}}
 
     # This shows: 
     #    The value of p is 123
-    #    The value of p is also 123
     ```
     Commands: [`EVAL`](<EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
 
