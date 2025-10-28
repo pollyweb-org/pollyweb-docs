@@ -20,7 +20,7 @@
 📃 .TRUSTS:
 
 # Assert inputs
-- ASSERT|.Inputs:
+- ASSERT|$.Inputs:
     AllOf: Schema, Trusted
     Texts: Schema, Trusted, Truster
 

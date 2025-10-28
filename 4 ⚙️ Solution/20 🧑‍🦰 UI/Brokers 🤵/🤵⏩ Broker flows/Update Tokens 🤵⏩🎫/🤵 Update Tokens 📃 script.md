@@ -11,7 +11,7 @@
 📃 UpdateTokens@Broker:
 
 # Verify required inputs
-- ASSERT|.Inputs:
+- ASSERT|$.Inputs:
     AllOf: Wallet
     UUIDs: Wallet
 

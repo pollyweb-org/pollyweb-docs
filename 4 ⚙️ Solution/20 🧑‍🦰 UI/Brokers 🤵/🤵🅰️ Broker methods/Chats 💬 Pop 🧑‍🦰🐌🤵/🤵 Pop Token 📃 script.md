@@ -15,7 +15,7 @@
 📃 PopToken:
 
 # Verify inputs
-- ASSERT|.Inputs:
+- ASSERT|$.Inputs:
     AllOf: Token, Wallet
     UUIDs: Token
 
@@ -42,7 +42,7 @@ Commands: [`ASSERT`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker c
 📃 RemoveToken:
 
 # Verify inputs
-- ASSERT|.Inputs:
+- ASSERT|$.Inputs:
     AllOf: Token, Wallet
 
 # Get the token

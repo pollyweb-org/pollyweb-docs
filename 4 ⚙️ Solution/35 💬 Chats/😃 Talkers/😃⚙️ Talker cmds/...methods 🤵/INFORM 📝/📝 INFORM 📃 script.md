@@ -22,7 +22,7 @@
 📃 .INFORM:
 
 # Assert inputs
-- ASSERT|.Inputs:
+- ASSERT|$.Inputs:
     AllOf: Form
     Texts: Form
 

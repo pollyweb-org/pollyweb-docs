@@ -22,7 +22,7 @@
 📃 .BIND:
 
 # Assert the inputs
-- ASSERT|.Inputs:
+- ASSERT|$.Inputs:
     AllOf: Schemas, User
     Lists: Schemas
 

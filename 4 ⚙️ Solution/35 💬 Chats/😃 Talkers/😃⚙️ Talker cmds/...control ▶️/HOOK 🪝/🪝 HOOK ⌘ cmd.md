@@ -1,4 +1,4 @@
-# 😃⏸️ Talker `WAIT` flow 
+# 😃⏸️ Talker `HOOK` flow 
 
 > Part of [Talker 😃](<../../../😃 Talker role.md>)
 
@@ -8,46 +8,45 @@
 
 
 
-1. **What's a WAIT flow command?**
+1. **What's a HOOK flow command?**
 
-    A [`WAIT` ⏸️](<🧘 WAIT ⌘ cmd.md>)
+    A [`HOOK` 🪝](<🪝 HOOK ⌘ cmd.md>)
     * is a flow [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) 
-    * that pauses the flow for a period of time 
-    * or until triggered by the [`REEL`](<../REEL 🎣/🎣 REEL ⌘ cmd.md>) command
-    * or by the {{Trigger@Talker}}.
+    * that sets a rollback checkpoint
+    * while allowing the [Talker 😃](<../../../😃 Talker role.md>) to continue.
 
     ---
     <br/>
 
 
-1. **What's the WAIT syntax?**
+1. **What's the HOOK syntax?**
 
     
     ```yaml
     # Listen to two triggers in parallel: 
-    #   a signal to a hook, or a timeout.
+    #   placeholder change and timeout.
 
-    - WAIT >> $result:
-        Hook: $hook
+    - HOOK| >> $expired:
+        Signal: $signal
         Timeout: <period>
     ```
 
     | Input| Purpose
     |-|-
-    | `$result` | Result from a long-running operation.
-    | `Hook`   | For [`REEL`](<../REEL 🎣/🎣 REEL ⌘ cmd.md>) and {{Signal@Talker}}.
+    | `$expired` | Boolean return if the wait has time out.
+    | `Signal`   | Placeholder that stops the wait if changed.
     | `Timeout`  | Time to wait, evaluated by the [`.Add`](<../../...functions 🐍/🔩 {.Add}.md>) function.
 
     ```yaml
     # Listen to only one trigger:
     #   either a placeholder change, or a timeout.
 
-    - WAIT|<something> >> $result
+    - HOOK|<something> >> $expired
     ```
 
     | Input| Purpose 
     |-|-
-    | `<something>` | Either a `Timeout` or a `Hook`
+    | `<something>` | Either a `Timeout` or a `Signal`
 
     ---
     <br/>
@@ -63,11 +62,11 @@
     # 😃 Talker 
     💬 Clock:
     - TEMP|It's {.Now}
-    - WAIT|00:00:01 
+    - HOOK|00:00:01 
     - REPEAT
     ```
 
-    Commands: [`.Now`](<../../...functions 🐍/🔩 {.Now}.md>) [`REPEAT`](<../REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) [`TEMP`](<../../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>) [`WAIT`](<🧘 WAIT ⌘ cmd.md>)
+    Commands: [`.Now`](<../../...functions 🐍/🔩 {.Now}.md>) [`REPEAT`](<../REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) [`TEMP`](<../../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>) [`HOOK`](<🪝 HOOK ⌘ cmd.md>)
     
 
     
@@ -100,7 +99,7 @@
 
     WaitForReady:
     - TEMP|$status.Message       # Show status
-    - WAIT|$status               # Wait
+    - HOOK|$status               # Wait
     - IF|$status.Ready:          # Signalled
         Then: RETURN             # End if ready
     - REPEAT                     # Repeat
@@ -152,7 +151,7 @@
         0: RETURN
     
     # Wait 1 minute or until signalled.
-    - WAIT:
+    - HOOK:
         Signal: $your-turn
         Period: 00:01:00
 
@@ -179,13 +178,13 @@
 
 
 
-1. **How to signal a WAIT placeholder?**
+1. **How to signal a HOOK placeholder?**
 
-    Consider the following [`WAIT` ⏸️](<🧘 WAIT ⌘ cmd.md>) command.
+    Consider the following [`HOOK` ⏸️](<🪝 HOOK ⌘ cmd.md>) command.
 
     ```yaml
     # 😃 Talker 
-    - WAIT|24:00:00|$signal:
+    - HOOK|24:00:00|$signal:
         OnSignal: SUCCESS|Signalled!
         OnTimeout: FAILURE|Timed out!
     ```

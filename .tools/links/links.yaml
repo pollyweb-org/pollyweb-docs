@@ -39,6 +39,29 @@ Failed Tests:
 
 Successful Tests:
 
+
+  - Given: '{{$.Msg}}'
+    LinkText: "`$.Msg` 🧠 holder"
+    LinkFile: "📨 $.Msg 🧠 holder.md"
+    Reasons: |
+      For `$.Word`,
+      the file is called `{emoji} $.Word 🧠 holder.md`.
+
+  - Given: '{{$.Settings}}'
+    LinkText: "`$.Settings` 🧠 holder"
+    LinkFile: "🎛️ $.Settings 🧠 holder.md"
+    Reasons: Same as {{$.Msg}}.
+
+  - Given: '{{$.Chat}}'
+    LinkText: "`$.Chat` 🧠 holder"
+    LinkFile: "💬 $.Chat 🧠 holder.md"
+    Reasons: Same as {{$.Msg}}.
+
+  - Given: '{{$.Inputs}}'
+    LinkText: "`$.Inputs` 🧠 holder"
+    LinkFile: "▶️ $.Inputs 🧠 holder.md"
+    Reasons: Same as {{$.Msg}}.
+    
   - Given: '{{CHAT script}}'
     LinkText: "`CHAT` 📃 script"
     LinkFile: '💬 CHAT 📃 script.md'
@@ -255,25 +278,3 @@ Successful Tests:
     LinkText: "`Disclose@Vault` 🅰️ method"
     LinkFile: '🗄️ Disclose 🐌 msg.md'
     Reasons: same as "{{Parse@Hosted}}"
-
-  - Given: {{$.Msg}}
-    LinkText: "`$.Msg` 🧠 holder"
-    LinkFile: "📨 $.Msg 🧠 holder.md"
-    Reasons: |
-      For `$.Word`,
-      the file is called `{emoji} $.Word 🧠 holder.md`.
-
-  - Given: {{$.Settings}}
-    LinkText: "`$.Settings` 🧠 holder"
-    LinkFile: "🎛️ $.Settings 🧠 holder.md"
-    Reasons: Same as {{$.Msg}}.
-
-  - Given: {{$.Chat}}
-    LinkText: "`$.Chat` 🧠 holder"
-    LinkFile: "💬 $.Chat 🧠 holder.md"
-    Reasons: Same as {{$.Msg}}.
-
-  - Given: {{$.Inputs}}
-    LinkText: "`$.Inputs` 🧠 holder"
-    LinkFile: "▶️ $.Inputs 🧠 holder.md"
-    Reasons: Same as {{$.Msg}}.

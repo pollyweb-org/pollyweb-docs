@@ -25,13 +25,13 @@ RUN|.CHAT:
 
 ```yaml
 # Assert the required fields
-- ASSERT|.Inputs:
+- ASSERT|$.Inputs:
     AllOf: Broker, PublicKey, Role, Chat
     Texts: Broker, PublicKey, Role, Key
     UUIDs: Chat
 
 # Assert regional settings
-- ASSERT|.Inputs:
+- ASSERT|$.Inputs:
     AllOf: Timezone, Language
     Texts: Timezone, Language
 

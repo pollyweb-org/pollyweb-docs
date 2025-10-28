@@ -24,7 +24,7 @@ RUN|UpdateChats@Broker:
 📃 UpdateChats@Broker:
 
 # Verify required inputs
-- ASSERT|.Inputs:
+- ASSERT|$.Inputs:
     AllOf: Wallet
     UUIDs: Wallet
 

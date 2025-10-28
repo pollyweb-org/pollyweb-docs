@@ -20,7 +20,7 @@
 📃 .SHARE:
 
 # Assert inputs
-- ASSERT|.Inputs:
+- ASSERT|$.Inputs:
     AllOf: Schemas
     Lists: Schemas
 

@@ -18,7 +18,7 @@
 📃 .INFO:
 
 # Verify the inputs:
-- ASSERT|.Inputs:
+- ASSERT|$.Inputs:
     AllOf: Statement
     Texts: Statement
 
@@ -29,7 +29,7 @@
 
 # The the message
 - RUN|Prompt@Host:
-    :.Inputs: 
+    :$.Inputs: 
     Format: INFO
     Statement: '{$emoji} {$:Statement}'
 ```

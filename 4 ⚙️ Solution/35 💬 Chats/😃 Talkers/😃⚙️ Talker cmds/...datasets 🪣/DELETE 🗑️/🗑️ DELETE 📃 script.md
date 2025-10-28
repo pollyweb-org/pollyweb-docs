@@ -31,7 +31,7 @@
 📃 .DELETE:
 
 # Fill the $item
-- ASSERT|.Inputs:
+- ASSERT|$.Inputs:
     AllOf: Set, Key
     Texts: Set
     Lists: Key, Undo, Script
