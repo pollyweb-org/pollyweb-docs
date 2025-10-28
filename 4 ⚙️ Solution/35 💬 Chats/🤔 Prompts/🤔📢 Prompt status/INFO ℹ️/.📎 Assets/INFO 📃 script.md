@@ -31,7 +31,7 @@
 - RUN|Prompt@Host:
     :$.Inputs: 
     Format: INFO
-    Text: '{$emoji} {$:Text}'
+    Emoji: $emoji
 ```
 
 Needs||
