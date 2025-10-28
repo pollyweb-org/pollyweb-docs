@@ -1,4 +1,4 @@
-# 💼⏩🧑‍🦰 Query a Vault @ Consumer
+# 💼⏩🧑‍🦰 Share Bind
 
 > In a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>), a [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)  can query user data.
 
