@@ -2,35 +2,42 @@
 
 # 🤗📃 Prompted
 
-> [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that implements 
+> Purpose
+* [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that implements the [`Prompted@Host` 🅰️ method](<🤗 Prompted 🚀 request.md>)
 
-> Triggered by the [`Prompt@Host` 📃 script](<../../../../35 💬 Chats/😃 Talkers/😃⏩ Talker flows/Prompts 😃⏩🧑‍🦰/😃 Prompts 📃 proc.md>)
+> Flow
+* Triggered by the [`Prompt@Host` 📃 script](<../../../../35 💬 Chats/😃 Talkers/😃⏩ Talker flows/Prompts 😃⏩🧑‍🦰/😃 Prompts 📃 script.md>)
 
 ## Script
 
 ```yaml
 📃 Prompted@Host: 
 
+# Assert inputs
+- ASSERT|$.Msg:
+    AllOf: Hook
+    UUIDs: Hook
+
 # Get the prompt
-- GET >> $prompt:
-    Set: HostPrompts
-    Key: $.Msg.Prompt
+- GET >> $hook:
+    Set: TalkerHooks
+    Key: $.Msg.Hook
 
 # Verify the message
 - VERIFY|$.Msg:
-    Key: $prompt.PublicKey
+    Key: $hook.PublicKey
 
 # Verify the cache expiration
-- ASSERT|$prompt:
+- ASSERT|$hook:
     Expires > .Now
 
 # Returned the cached response
 - RETURN:
-    prompt.Prompted
+    $hook.Prompt
 ```
 
 Needs||
 |-|-
 | [Commands ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/⌘ Command.md>) | [`ASSERT`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`GET`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) [`RETURN`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`VERIFY`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>)
-| [{Functions} 🐍](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...functions 🐍/{Function} 🐍.md>) | {.Now}
+| [{Functions} 🐍](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...functions 🐍/{Function} 🐍.md>) | [`{.Now}`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...functions 🐍/🔩 {.Now}.md>)
 |

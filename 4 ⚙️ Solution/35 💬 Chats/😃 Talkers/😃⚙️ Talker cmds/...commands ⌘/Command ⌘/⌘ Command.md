@@ -117,7 +117,7 @@
     | 🔁 [`REPEAT`](<../../...control ▶️/REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) | Repeats the current [Script 📃](<../Script 📃/📃 Script.md>) with a confirmation.
     | ⤴️ [`RETURN`](<../../...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) | Returns from a [Script 📃](<../Script 📃/📃 Script.md>) with a result.
     | ▶️ [`RUN`](<../../...control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>) | Runs a [Script 📃](<../Script 📃/📃 Script.md>) and puts the result in a placeholder.
-    | ⏸️ [`WAIT`](<../../...control ▶️/WAIT ⏸️/⏸️ WAIT ⌘ cmd.md>) | Waits for a period of time or until signaled.
+    | ⏸️ [`WAIT`](<../../...control ▶️/WAIT 🧘/🧘 WAIT ⌘ cmd.md>) | Waits for a period of time or until signaled.
 
     ---
     <br/>

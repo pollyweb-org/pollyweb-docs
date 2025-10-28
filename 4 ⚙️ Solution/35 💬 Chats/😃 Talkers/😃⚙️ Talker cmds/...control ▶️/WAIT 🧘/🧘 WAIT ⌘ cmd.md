@@ -10,7 +10,7 @@
 
 1. **What's a WAIT flow command?**
 
-    A [`WAIT` ⏸️](<⏸️ WAIT ⌘ cmd.md>)
+    A [`WAIT` ⏸️](<🧘 WAIT ⌘ cmd.md>)
     * is a flow [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) 
     * that pauses the flow for a period of time 
     * or until triggered by an external signal.
@@ -66,7 +66,7 @@
     - REPEAT
     ```
 
-    Commands: [`.Now`](<../../...functions 🐍/🔩 {.Now}.md>) [`REPEAT`](<../REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) [`TEMP`](<../../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>) [`WAIT`](<⏸️ WAIT ⌘ cmd.md>)
+    Commands: [`.Now`](<../../...functions 🐍/🔩 {.Now}.md>) [`REPEAT`](<../REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) [`TEMP`](<../../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>) [`WAIT`](<🧘 WAIT ⌘ cmd.md>)
     
 
     
@@ -180,7 +180,7 @@
 
 1. **How to signal a WAIT placeholder?**
 
-    Consider the following [`WAIT` ⏸️](<⏸️ WAIT ⌘ cmd.md>) command.
+    Consider the following [`WAIT` ⏸️](<🧘 WAIT ⌘ cmd.md>) command.
 
     ```yaml
     # 😃 Talker 

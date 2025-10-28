@@ -27,7 +27,7 @@ Here's the [Script 📃](<../../../😃 Talkers/😃⚙️ Talker cmds/...comman
 📃 .FILTER:
 
 # Ask the user to answer
-- .PROMPT >> $reply:
+- RUN|.PROMPT >> $reply:
     Statement: $:Statement
     Options: $:Options$
 

@@ -19,23 +19,19 @@
 
 # Verify the inputs:
 - ASSERT|.Inputs:
-    AllOf: Chat, Statement
-    Texts: Statement, Details
-    Lists: Options
+    AllOf: Statement
+    Texts: Statement
 
 # Set the emoji
 - CASE|$.Chat.Role >> $emoji:
-    HOST: ℹ️ 
-    HELPER: ℹ️ 
     AGENT: ⓘ
+    $: ℹ️ 
 
 # The the message
 - RUN|Prompt@Host:
+    :.Inputs: 
     Format: INFO
-    Statement: {$emoji} {$:Statement}
-    Options: $:Options
-    Details: $:Details
-    Appendix: $:Appendix
+    Statement: '{$emoji} {$:Statement}'
 ```
 
 Needs||
@@ -43,5 +39,5 @@ Needs||
 | [Commands ⌘](<../../../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/⌘ Command.md>) | [`ASSERT`](<../../../../😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CASE`](<../../../../😃 Talkers/😃⚙️ Talker cmds/...control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`RUN`](<../../../../😃 Talkers/😃⚙️ Talker cmds/...control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>) [`SEND`](<../../../../😃 Talkers/😃⚙️ Talker cmds/...messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>)
 | [Messages 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Prompt@Broker` 🅰️ method](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>)
 | [Placeholders 🧠](<../../../../😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>) | [`$.Chat`](<../../../../😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/$.Chat 💬.md>)
-| [Scripts 📃](<../../../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) | [`Prompt@Host` 📃 script](<../../../../😃 Talkers/😃⏩ Talker flows/Prompts 😃⏩🧑‍🦰/😃 Prompts 📃 proc.md>)
+| [Scripts 📃](<../../../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) | [`Prompt@Host` 📃 script](<../../../../😃 Talkers/😃⏩ Talker flows/Prompts 😃⏩🧑‍🦰/😃 Prompts 📃 script.md>)
 |
