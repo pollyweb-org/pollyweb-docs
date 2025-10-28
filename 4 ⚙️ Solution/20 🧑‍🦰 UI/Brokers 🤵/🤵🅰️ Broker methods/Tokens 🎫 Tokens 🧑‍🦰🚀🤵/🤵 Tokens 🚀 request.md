@@ -42,12 +42,12 @@ Header:
 Tokens:
   - Issuer: any-issuer.dom
     Issuer$: Any Issuer
-    Key: <any-key>
     Path: /storage/nlweb/tokens/any-issuer.dom/<token-uuid>
     Schema: any-authority.dom/ANY-SCHEMA:1.0
     Schema$: Any Code
     Status: REVOKED
     Token: <token-uuid>
+    Locator: any-domain.dom/ANY-RESOURCE
 ```
 
 |Object|Property|Type|Description|
@@ -62,3 +62,11 @@ Tokens:
 | |`Locator`| string | [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) from [`Status@Broker`](<../Share 💼 Status 💼🚀🤵/🤵 Status 🚀 request.md>)
 |
 
+## FAQ
+
+1. **Why isn't the Token Key listed?**
+
+    [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) keys are held by [Broker 🤵 domains](<../../🤵🤲 Broker helper.md>) until shared, to avoid replay attacks from [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) purposefully breaking the [`Save Token` ⏩ flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🎴 Save token.md>) halfway to receive duplicate [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>).
+
+    ---
+    <br/>

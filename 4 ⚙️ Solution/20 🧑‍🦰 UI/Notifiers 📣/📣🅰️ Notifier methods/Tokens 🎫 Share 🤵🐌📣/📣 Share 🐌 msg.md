@@ -1,11 +1,14 @@
-# 🤵💼🐌📣 Share @ Notifier
+# 🤵🐌📣 Share @ Notifier
 
-> Implements the [Notifier 📣 domain](<../../📣👥 Notifier domain.md>)
+> Implementations
+* Implements the [Notifier 📣 domain](<../../📣👥 Notifier domain.md>)
 
-> Sends [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) to a [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>).
+> Purpose
+* Sends [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) to a [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>).
 
-> Part of [💼⏩🧑‍🦰 Share Token @ Consumer](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Token 🎫.md>) flow:
-> <br/>• triggers [`Receive@Consumer`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🅰️ Consumer methods/Receive 🧑‍🦰🐌💼/💼 Receive 🐌 msg.md>)
+> Flow
+* Part of [`Share Token` ⏩ flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Token 🎫.md>) 
+* triggers the [`Receive@Consumer` 🅰️ method](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🅰️ Consumer methods/Receive 🧑‍🦰🐌💼/💼 Receive 🐌 msg.md>)
 
 <br/>
 
@@ -21,7 +24,8 @@ Body:
     Chat: <chat-uuid>
     Consumer: any-consumer.dom
     Tokens: 
-      - /storage/nlweb/tokens/any-issuer.dom/<token-uuid>
+      - Key: <token-key>
+        Path: /storage/nlweb/tokens/any-issuer.dom/<token-uuid>
 ```
 
 |Object|Property|Type|Description
@@ -32,5 +36,6 @@ Body:
 | Body | `Wallet`| uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) ID from [`Onboard@Broker`](<../Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
 || `Chat` | string | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Query@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)
 || `Consumer` | string | [Consumer 💼](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) from [ `Query@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)
-| | `Tokens`  | string[] | Paths from [`Saved@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 🐌 msg.md>)
+| Tokens | `Key`| uuid | `Key` from [`Offer@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>)
+|| `Path`  | string | `Path` from [`Saved@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 🐌 msg.md>)
 |
