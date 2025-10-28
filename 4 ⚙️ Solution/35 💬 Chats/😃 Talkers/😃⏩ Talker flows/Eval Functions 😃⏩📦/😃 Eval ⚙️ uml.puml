@@ -16,7 +16,7 @@ deactivate script
 activate talker
     talker --> hosted: Handle 🐌 {function, hook}
 activate hosted
-    talker -> talker: WAIT ⏸️ {hook}
+    talker -> talker: WAIT 🧘 {hook}
 deactivate talker
     
     hosted --> talker: Handled 🐌 {hook, result}

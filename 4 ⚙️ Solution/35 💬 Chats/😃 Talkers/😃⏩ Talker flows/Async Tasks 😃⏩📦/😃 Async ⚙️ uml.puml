@@ -19,7 +19,7 @@ deactivate talker
 
 script --> user: ⏪ TEMP ⏳ {started}
 
-script --> talker: WAIT ⏸️ {hook}
+script --> talker: WAIT 🧘 {hook}
 deactivate script
 
 hosted --> talker: Handled 🐌 {hook, partial}
@@ -30,7 +30,7 @@ deactivate talker
 activate script
     script --> user: ⏪ TEMP ⏳ {running...}
     script --> talker: REPEAT 🔁 
-    script --> talker: WAIT ⏸️ {hook}
+    script --> talker: WAIT 🧘 {hook}
 deactivate script
     
     hosted --> talker: Handled 🐌 {hook, done}

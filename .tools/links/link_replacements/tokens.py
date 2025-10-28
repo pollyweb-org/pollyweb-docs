@@ -117,6 +117,18 @@ def replace_host_tokens(md_files):
     return _replace_simple(md_files, pattern, HOST_REPLACEMENT)
 
 
+@register_hardcoded("hosted", replacement='[Hosted 📦 domain](<📦👥 Hosted domain.md>)', token_label="Hosted")
+def replace_hosted_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Hosted`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, '[Hosted 📦 domain](<📦👥 Hosted domain.md>)')
+
+
+@register_hardcoded("hosteds", replacement='[Hosted 📦 domains](<📦👥 Hosted domain.md>)', token_label="Hosteds")
+def replace_hosteds_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Hosteds`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, '[Hosted 📦 domains](<📦👥 Hosted domain.md>)')
+
+
 @register_hardcoded("wallets", replacement=WALLETS_REPLACEMENT, token_label="Wallets")
 def replace_wallets_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Wallets`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
@@ -160,7 +172,7 @@ _GEN_BASIC = [
     ("replace_tokens_tokens", "Tokens", "tokens", "[Tokens 🎫](<🎫 Token.md>)", "Tokens"),
     ("replace_chat_tokens", "Chat", "chat", "[Chat 💬](<💬 Chat.md>)", "Chat"),
     ("replace_chats_tokens", "Chats", "chats", "[Chats 💬](<💬 Chat.md>)", "Chats"),
-    ("replace_settings_tokens", "$.Settings", "$.settings", "[`$.Settings` 🧠 holder](<🎛️ $.Settings 🧠 holder.md>)", "$.Settings"),
+    ("replace_settings_tokens", "$.Hosted", "$.settings", "[`$.Hosted` 🧠 holder](<📦 $.Hosted 🧠 holder.md>)", "$.Hosted"),
     ("replace_placeholders_tokens", "Placeholders", "placeholders", "[Placeholders 🧠](<$Placeholder 🧠.md>)", "Placeholders"),
     ("replace_domain_tokens", "domain", "domain", "[domain 👥](<👥 Domain.md>)", "domain"),
     ("replace_domains_tokens", "domains", "domains", "[domains 👥](<👥 Domain.md>)", "domains"),

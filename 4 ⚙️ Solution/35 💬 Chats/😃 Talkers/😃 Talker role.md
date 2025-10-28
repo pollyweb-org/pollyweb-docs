@@ -57,7 +57,7 @@
     |Flow|Details
     |-|-
     | [😃⏩🧑‍💻 Handle 🐍](<😃⏩ Talker flows/Eval Functions 😃⏩📦/😃 Eval ⏩ flow.md>) | Ask [Hosteds 📦](<../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) to handle [{Functions} 🐍](<😃⚙️ Talker cmds/...functions 🐍/{Function} 🐍.md>)
-    | [😃⏩🧑‍💻 Wait ⏸️](<😃⏩ Talker flows/Async Tasks 😃⏩📦/😃 Async ⏩ flow.md>) | Allow [Hosted 📦](<../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>)  long-running tasks
+    | [😃⏩🧑‍💻 Wait 🧘](<😃⏩ Talker flows/Async Tasks 😃⏩📦/😃 Async ⏩ flow.md>) | Allow [Hosted 📦](<../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>)  long-running tasks
     
     ---
     <br/>

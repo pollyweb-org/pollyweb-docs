@@ -276,7 +276,7 @@ def apply_replacement_pass(md_files, file_dict):
         (replace_chats_tokens, (), "Replaced {n} {Chats} tokens ✅"),
         (replace_command_tokens, (), "Replaced {n} {Command} tokens ✅"),
         (replace_commands_tokens, (), "Replaced {n} {Commands} tokens ✅"),
-        (replace_settings_tokens, (), "Replaced {n} {$.Settings} tokens ✅"),
+        (replace_settings_tokens, (), "Replaced {n} {$.Hosted} tokens ✅"),
         (replace_placeholders_tokens, (), "Replaced {n} {Placeholders} tokens ✅"),
         (replace_domain_tokens, (), "Replaced {n} {domain} tokens ✅"),
         (replace_domains_tokens, (), "Replaced {n} {domains} tokens ✅"),
