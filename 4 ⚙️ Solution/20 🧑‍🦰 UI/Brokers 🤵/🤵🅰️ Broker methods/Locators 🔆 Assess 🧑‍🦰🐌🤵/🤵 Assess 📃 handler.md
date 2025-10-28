@@ -10,9 +10,10 @@
 📃 Access@Broker:
 
 # Verify the required inputs
-- ASSERT:
-    - $.Msg.Locator
-    - $.Msg.Hook
+- ASSERT|$.Msg:
+    AllOf: Locator, Hook
+    Texts: Locator 
+    UUIDs: Hook
 
 # Get the Wallet item
 - GET >> $wallet:

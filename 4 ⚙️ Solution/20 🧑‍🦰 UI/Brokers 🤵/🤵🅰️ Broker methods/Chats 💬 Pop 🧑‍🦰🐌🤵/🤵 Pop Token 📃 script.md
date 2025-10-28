@@ -15,14 +15,14 @@
 📃 PopToken:
 
 # Verify inputs
-- ASSERT:
-    AllOf: !Token, !Wallet
-    UUIDs: !Token
+- ASSERT|.Inputs:
+    AllOf: Token, Wallet
+    UUIDs: Token
 
 # Get the Token 🎫
 - GET >> $token:
-    Set: !Wallet.Tokens
-    Key: !Token
+    Set: $:Wallet.Tokens
+    Key: $:Token
 
 # Ask for an action.
 - ONE|What do you need?:
@@ -33,7 +33,7 @@
     Remove: 
       - RUN|RemoveToken:
           Token: $token
-          Wallet: !Wallet
+          Wallet: $:Wallet
 ```
 
 Commands: [`ASSERT`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CASE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`GET`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) [`ONE`](<../../../../35 💬 Chats/🤔 Prompts/🤔✏️ Prompt inputs/ONE 1️⃣/ONE 1️⃣ prompt.md>)  [`RUN`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
@@ -42,8 +42,13 @@ Commands: [`ASSERT`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker c
 📃 RemoveToken:
 
 # Verify inputs
-- ASSERT:
-    AllOf: !Token, !Wallet
+- ASSERT|.Inputs:
+    AllOf: Token, Wallet
+
+# Get the token
+- GET >> $token:
+    Set: BrokerTokens
+    Key: $:Token
 
 # Ask for confirmation 🤔
 - CONFIRM|Remove token {$token.Title}?

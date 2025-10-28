@@ -18,10 +18,10 @@ RUN|Updated@Notifier:
 📃 Updated@Notifier:
 
 # Assert required inputs
-- ASSERT:
-    OneOf: $:Wallet, Updates
-    UUIDs: $:Wallet
-    Lists: $:Updates
+- ASSERT|.Inputs:
+    OneOf: Wallet, Updates
+    UUIDs: Wallet
+    Lists: Updates
 
 # Assert the options
 - ASSERT|$:Updates:

@@ -18,10 +18,10 @@
 📃 .INFO:
 
 # Verify the inputs:
-- ASSERT:
-    AllOf: $.Chat, $:Statement
-    Texts: $:Statement, $:Details
-    Lists: $:Options
+- ASSERT|.Inputs:
+    .AllOf: Chat, Statement
+    .Texts: Statement, Details
+    .Lists: Options
 
 # Set the emoji
 - CASE|$.Chat.Role >> $emoji:
