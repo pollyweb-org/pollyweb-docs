@@ -62,7 +62,7 @@
     ```yaml
     # Multi-line 
     TEMP:
-        Statement: <statement>
+        Text: <statement>
         
         # Generic optional properties
         Details: string
@@ -108,7 +108,7 @@
 
     ```yaml
     Format: TEMP
-    Statement: ⏳ Simple temp.
+    Text: ⏳ Simple temp.
     ```
     
     

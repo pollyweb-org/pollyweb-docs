@@ -57,7 +57,7 @@
 
     ```yaml
     Format: TEXT
-    Statement: 💬 Who is in the picture?
+    Text: 💬 Who is in the picture?
     Appendix: <appendix-uuid>
     ```
 

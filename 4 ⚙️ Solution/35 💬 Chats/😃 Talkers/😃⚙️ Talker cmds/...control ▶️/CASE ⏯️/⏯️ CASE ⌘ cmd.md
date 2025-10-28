@@ -135,7 +135,7 @@
     💬 Example:
 
     - ONE >> $x:
-        Statement: Select an option.
+        Text: Select an option.
         Options: A,B,C 
 
     - CASE: # Default to last input.

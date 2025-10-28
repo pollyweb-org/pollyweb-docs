@@ -61,7 +61,7 @@
 
     ```yaml
     Format: CONFIRM
-    Statement: 😃 Continue?
+    Text: 😃 Continue?
     ```
 
     ---
@@ -113,7 +113,7 @@
 
     ```yaml
     Format: CONFIRM
-    Statement: 😕 Are you OK?
+    Text: 😕 Are you OK?
     ```
 
     ---

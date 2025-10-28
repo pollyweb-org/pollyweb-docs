@@ -47,7 +47,7 @@
     ```yaml
     # Comprehensive.
     ONE >> $placeholder:
-        Statement: <statement>
+        Text: <statement>
         
         # Generic optional properties
         Details: string
@@ -95,7 +95,7 @@
 
     ```yaml
     Format: ONE
-    Statement: 😃 Which one?
+    Text: 😃 Which one?
     Options: 
         - ID: A
           Title: Option A

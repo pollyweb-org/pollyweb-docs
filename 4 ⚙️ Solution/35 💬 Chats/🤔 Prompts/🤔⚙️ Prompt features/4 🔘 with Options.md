@@ -90,7 +90,7 @@
     ```yaml
     # Multi-line with a single options string
     <PROMPT> >> $selected:
-        Statement: <statement>
+        Text: <statement>
         Options: <options>
     ```
 
@@ -104,7 +104,7 @@
     ```yaml
     # Multi-line with multiple strings
     <PROMPT> >> $selected:
-        Statement: <statement>
+        Text: <statement>
         Options:
             - <option-1>
             - <option-n>
@@ -120,7 +120,7 @@
     ```yaml
     # Multi-line with a dictionary
     <PROMPT> >> $selected:
-        Statement: <statement>
+        Text: <statement>
         Options:
             <id-1>: <option-1>
             <id-n>: <option-n>
@@ -176,7 +176,7 @@
 
     ```yaml
     Format: ONE
-    Statement: 😃 What to do?
+    Text: 😃 What to do?
     Options: 
         - ID: Play
           Title: Play music 
@@ -224,7 +224,7 @@
 
     # Ask the question.
     - ONE:
-        Statement: What to do?
+        Text: What to do?
         Options:
             - /Play music 
             - /Share list
@@ -251,7 +251,7 @@
     
     ```yaml
     Format: ONE
-    Statement: 😃 What to do?
+    Text: 😃 What to do?
     Options: 
         - ID: Play
           Title: Play music 

@@ -56,7 +56,7 @@
     ```yaml
     # Comprehensive.
     DIGITS >> $placeholder:
-        Statement: <statement>
+        Text: <statement>
 
         # Specific optional properties
         MinLength: int
@@ -110,7 +110,7 @@
 
     ```yaml
     Format: DIGITS
-    Statement: 😃 What's the code?
+    Text: 😃 What's the code?
     ```
 
 

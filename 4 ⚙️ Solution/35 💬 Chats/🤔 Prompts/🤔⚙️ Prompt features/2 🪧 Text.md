@@ -1,33 +1,33 @@
-# 🪧 Prompt Statement
+# 🪧 Prompt Text
 
 > Part of [Prompts 🤔](<../🤔 Prompt.md>)
 
 <br/>
 
-1. **What are Prompt statements?**
+1. **What are Prompt texts?**
 
-    [Prompt 🤔](<../🤔 Prompt.md>) statements are the main message sent in a [Chat 💬](<../../💬 Chats/💬 Chat.md>).
+    [Prompt 🤔](<../🤔 Prompt.md>) texts are the main message sent in a [Chat 💬](<../../💬 Chats/💬 Chat.md>).
 
     ---
     <br/>
 
-1. **What's an example of a Prompt statement?**
+1. **What's an example of a Prompt text?**
    
     | [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ This is the statement
+    | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ This is the text
     |
 
     Here's the [Talker 😃](<../../😃 Talkers/😃 Talker role.md>).
     
     ```yaml
-    - INFO|This is the statement
+    - INFO|This is the text
     ```
 
     ---
     <br/>
 
-1. **What is supported in Prompt statements?**
+1. **What is supported in Prompt texts?**
 
     |Support | Details | Examples
     |-|-|-

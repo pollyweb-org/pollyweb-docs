@@ -9,7 +9,7 @@
 
 ```yaml
 - RUN|.INFO:
-    Statement: Simple info.
+    Text: Simple info.
 ```
 
 ## Script
@@ -19,8 +19,8 @@
 
 # Verify the inputs:
 - ASSERT|$.Inputs:
-    AllOf: Statement
-    Texts: Statement
+    AllOf: Text
+    Texts: Text
 
 # Set the emoji
 - CASE|$.Chat.Role >> $emoji:
@@ -31,7 +31,7 @@
 - RUN|Prompt@Host:
     :$.Inputs: 
     Format: INFO
-    Statement: '{$emoji} {$:Statement}'
+    Text: '{$emoji} {$:Text}'
 ```
 
 Needs||

@@ -41,7 +41,7 @@
 
     ```yaml
     Format: QUANTITY
-    Statement: How many players
+    Text: How many players
     MinValue: 2
     MaxValue: 10
     ```
@@ -75,7 +75,7 @@
 
     ```yaml
     Format: DIGITS
-    Statement: 😃 What's the code?
+    Text: 😃 What's the code?
     Details: This is a 6 digit number
     ```
 
@@ -129,7 +129,7 @@
 
     ```yaml
     Format: TEXT
-    Statement: 💬 What's the code? 
+    Text: 💬 What's the code? 
     Details: This is a 6 digit number
     ```
     

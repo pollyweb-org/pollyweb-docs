@@ -89,7 +89,7 @@
 
     ```yaml
     Format: DIGITS
-    Statement: 😃 What's the code?
+    Text: 😃 What's the code?
     ```
 
     ---

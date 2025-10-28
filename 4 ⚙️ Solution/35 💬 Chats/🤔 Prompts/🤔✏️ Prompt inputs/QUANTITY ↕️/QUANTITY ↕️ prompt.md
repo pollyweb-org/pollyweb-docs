@@ -42,7 +42,7 @@
     ```yaml
     # Comprehensive.
     QUANTITY >> $placeholder:
-        Statement: <statement>
+        Text: <statement>
 
         # Specific optional properties
         Precision: int
@@ -92,7 +92,7 @@
     ```yaml
     # 😃 Talker 
     - QUANTITY >> $qt:
-        Statement: How many? 
+        Text: How many? 
         MinValue: -100
         MaxValue: 100
         Precision: 1    # Server-side only
@@ -105,7 +105,7 @@
 
     ```yaml
     Format: QUANTITY
-    Statement: 😃 How many?
+    Text: 😃 How many?
     MinValue: -100
     MaxValue: 100
     ```
@@ -143,10 +143,10 @@
     💬 Walk-in:
     
     - INFO:
-        Statement: Table reservation.
+        Text: Table reservation.
     
     - ONE >> $p:
-        Statement: For how many?
+        Text: For how many?
         Options: 1,2,more
 
     - CASE|{$p}:

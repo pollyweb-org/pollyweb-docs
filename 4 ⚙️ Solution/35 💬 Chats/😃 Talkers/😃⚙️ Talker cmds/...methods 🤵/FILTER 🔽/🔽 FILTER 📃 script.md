@@ -19,7 +19,7 @@ Here are the outputs of the [`Parse@Hosted` 🅰️ method](<../../../../../55 �
         B: Option 1
     ID: A
     Title: B
-    Statement: Any statement
+    Text: Any statement
 ```
 
 ## Script
@@ -33,7 +33,7 @@ Here's the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>)
 - ASSERT|$.Inputs:
     AllOf: Options, ID, Title
     Lists: Options
-    Texts: ID, Title, Statement
+    Texts: ID, Title, Text
 
 # Format the options into {ID,Title}
 - EVAL|$:Options >> $options:
@@ -42,7 +42,7 @@ Here's the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>)
 
 # Ask the user to select
 - MANY >> $result:
-    Statement: $:Statement
+    Text: $:Text
     Options: $options
 
 # Match the selected options

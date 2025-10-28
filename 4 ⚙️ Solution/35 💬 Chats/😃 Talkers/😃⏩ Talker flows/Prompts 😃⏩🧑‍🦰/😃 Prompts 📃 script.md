@@ -16,7 +16,7 @@
 - RUN|.PROMPT:
     Format: ONE
     Emoji: 🤔 # Default
-    Statement: Which credit card to use? 
+    Text: Which credit card to use? 
     MinValue: 10000                     # Optional
     MaxValue: 99999                     # Optional
     Appendix: <appendix-uuid>           # Optional
@@ -32,8 +32,8 @@
 
 # Assert inputs:
 - ASSERT|$.Inputs:
-    AllOf: Statement, Format
-    Texts: Statement, Format, Details, Emoji
+    AllOf: Text, Format
+    Texts: Text, Format, Details, Emoji
     Lists: Options
     UUIDs: Appendix  
     Maths: MinValue, MaxValue
