@@ -121,6 +121,16 @@ Successful Tests:
     LinkFile: "🗄️🎭 Vault role.md"
     Reasons: This is hardcoded.
 
+  - Given: '{{Consumer}}'
+    LinkText: "Consumer 💼 domain" 
+    LinkFile: "💼🎭 Consumer role.md"
+    Reasons: This is hardcoded.
+
+  - Given: '{{Consumers}}'
+    LinkText: "Consumer 💼 domains" 
+    LinkFile: "💼🎭 Consumer role.md"
+    Reasons: This is hardcoded.
+
   - Given: '{{Host}}'
     LinkText: "Host 🤗 domain"
     LinkFile: "🤗🎭 Host role.md"

@@ -6,7 +6,7 @@
 
 ## Flow
 
-![alt text](<🗄️ Consume ⚙️ uml.png>)
+![alt text](<💼 Consume ⚙️ uml.png>)
 
 ## Script
 
@@ -37,6 +37,7 @@
 # Verify if the Vault is trusted
 - TRUSTS|$.Msg.From:
     Schema: $.Msg.Schema$
+    Role: VAULT
 
 # Get the data
 - SEND >> $data:
