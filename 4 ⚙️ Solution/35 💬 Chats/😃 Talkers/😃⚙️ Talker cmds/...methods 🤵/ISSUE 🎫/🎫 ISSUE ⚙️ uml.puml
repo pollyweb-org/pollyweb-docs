@@ -1,9 +1,10 @@
-@startuml SHARE
+@startuml ISSUE
  
 box Hoster ☁️ domain #FFFFFA
     participant "Script 📃" as script
     participant "Talker 😃" as talker
-    participant "Consumer 💼" as consumer
+    'participant "Consumer 💼" as consumer
+    participant "Issuer 🎴" as issuer
 end box
 
 box Itemizer 🛢  #FFFFFA
@@ -11,28 +12,25 @@ box Itemizer 🛢  #FFFFFA
 end box
 
 participant "Broker 🤵" as broker
-participant "Vault 🗄️" as vault
+'participant "Vault 🗄️" as vault
 
 activate script
-    script -> talker: SHARE 💼 \n {schemas}
+    script -> talker: ISSUE 🎫
 deactivate script
 
 activate talker
     talker -> hooks: SAVE 💾 {hook}
-    talker --> broker: SEND 📬 {Query 🐌 hook, schemas}
+    talker --> broker: SEND 📬 {Offer 🐌 hook}
     activate broker
     talker -> talker: WAIT {hook}
 deactivate talker
 
-    broker -> vault: 
+        broker --> issuer: Accepted 🐌 {hook}
     deactivate broker
-    activate vault
-        vault --> consumer: {hook, schema, data}
-    deactivate vault
 
-activate consumer
-    consumer -> talker: REEL 🎣 {hook, data}
-deactivate consumer
+activate issuer
+    issuer -> talker: REEL 🎣 {hook, data}
+deactivate issuer
 
 activate talker
     talker -> script: RETURN \n{schema, data}
