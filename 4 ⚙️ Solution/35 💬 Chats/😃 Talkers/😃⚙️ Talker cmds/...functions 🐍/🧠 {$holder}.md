@@ -26,8 +26,8 @@
 
     | [Command ⌘](<../...commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
     |-|-
-    | ⬇️ [`EVAL`](<../...placeholders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | To push an object into a [placeholder 🧠](<../...placeholders 🧠/$Placeholder 🧠.md>).
-    | ℹ️ [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the placeholder values.
+    | ⬇️ [`EVAL`](<../...holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | To push an object into a [holder 🧠](<../...holders 🧠/$Holder 🧠.md>).
+    | ℹ️ [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the holder values.
     
     ---
     <br/>
@@ -57,7 +57,7 @@
 
     | [Command ⌘](<../...commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
     |-|-
-    | ℹ️ [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the [placeholder 🧠](<../...placeholders 🧠/$Placeholder 🧠.md>) values.
+    | ℹ️ [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the [holder 🧠](<../...holders 🧠/$Holder 🧠.md>) values.
     | ↕️ [`QUANTITY`](<../../../🤔 Prompts/🤔✏️ Prompt inputs/QUANTITY ↕️/QUANTITY ↕️ prompt.md>) | To collect the number input.
     
 

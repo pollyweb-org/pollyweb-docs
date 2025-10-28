@@ -44,7 +44,7 @@
     |           | Reads `$:n`  inside the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) | `$:1` `$:2`
     | `{args}`| Optional object arguments | `{A:1, B:2}`
     | | Reads `!name` in the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) | `$:A` `$:B`|
-    | | Also reads with [`{.Inputs}`](<../../...placeholders 🧠/$.Inputs ▶️/▶️ $.Inputs 🧠 holder.md>) | `.Inputs.A`
+    | | Also reads with [`{.Inputs}`](<../../...holders 🧠/$.Inputs ▶️/▶️ $.Inputs 🧠 holder.md>) | `.Inputs.A`
     | `$return`| Optional [`RETURN`](<../RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) holder | `$return`
     
     ---
@@ -88,7 +88,7 @@
     ---
     <br/>
 
-1. **What's an example with placeholder arguments?**
+1. **What's an example with holder arguments?**
 
 
     | [Domain](<../../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
@@ -167,7 +167,7 @@
     - INFO|Here's number {$:n}.
     ```
 
-    Commands: [`ASSERT`](<../../...placeholders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
+    Commands: [`ASSERT`](<../../...holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
 
     ```python
     # 🐍 Python handler
@@ -271,11 +271,11 @@
 
     > Used in the [`SAVE` 📃 script](<../../...datasets 🪣/SAVE 💾/💾 SAVE 📃 script.md>)
 
-    It depends if the current value of the input contains the name of a [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>).
+    It depends if the current value of the input contains the name of a [Holder 🧠](<../../...holders 🧠/$Holder 🧠.md>).
 
     |Scenario | Result 
     |-|-
-    | [Placeholders 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) | Fills the [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) 
+    | [Holders 🧠](<../../...holders 🧠/$Holder 🧠.md>) | Fills the [Holder 🧠](<../../...holders 🧠/$Holder 🧠.md>) 
     | Anything else | Throws an error
     |
 
@@ -285,14 +285,14 @@
 
     # This will work
     - RUN|ShowValue:
-        Placeholder: p
+        Holder: p
     
     # Shows "The value of $p is 123"
     - INFO|The value of $p is {$p}
 
     # This will throw an error
     - RUN|ShowValue:
-        Placeholder:
+        Holder:
         
     # Never reached
     - FAILURE|This line is never reached
@@ -302,10 +302,10 @@
     ```yaml
     📃 SetValue:
     
-    # Only works with a placeholder name
-    - EVAL|123 >> $:Placeholder
+    # Only works with a holder name
+    - EVAL|123 >> $:Holder
     ```
-    Commands: [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>)
+    Commands: [`EVAL`](<../../...holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>)
     
     ---
     <br/>

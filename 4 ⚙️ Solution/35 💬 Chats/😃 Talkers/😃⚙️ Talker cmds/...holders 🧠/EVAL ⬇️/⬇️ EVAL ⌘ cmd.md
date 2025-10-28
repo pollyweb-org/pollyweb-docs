@@ -10,7 +10,7 @@
     An `EVAL` ⬇️
     * is a [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) 
     * that evaluates strings, objects, and [`{Functions}`](<../../...functions 🐍/{Function} 🐍.md>)
-    * into a placeholder.
+    * into a holder.
 
     ---
     <br/>
@@ -28,7 +28,7 @@
     | `<object>` | Object to evaluate | `{A:1, B:$n}`
     |            | Or a simple string | `How nice!`
     |            | Or an interpolated string | `Hi, {$name}`
-    | `$output`  | Placeholder for storage | `$my-var`
+    | `$output`  | Holder for storage | `$my-var`
 
     <br/>
 
@@ -72,8 +72,8 @@
 
     | [Domain](<../../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ The A placeholder has 3.
-    | [🤗 Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ Placeholder B also has 3.
+    | [🤗 Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ The A holder has 3.
+    | [🤗 Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ Holder B also has 3.
 
     Here's the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>).
 
@@ -84,11 +84,11 @@
     - EVAL >> $A:
         3
 
-    - INFO|The A placeholder has {$A}.
+    - INFO|The A holder has {$A}.
 
     # Second message.
     - EVAL >> $B:
-        Placeholder B also has {$A} 
+        Holder B also has {$A} 
     - INFO|$B
     ```
 
@@ -171,7 +171,7 @@
     <br/>
 
 
-1. **How to change a single property in a $placeholder?**
+1. **How to change a single property in a $holder?**
   
     Here's the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>).
 
@@ -196,7 +196,7 @@
 
 1. **How to merge objects in an EVAL?**
 
-    With a mix of dictionary values and [Placeholder 🧠](<../$Placeholder 🧠.md>) surrounded with `:`.
+    With a mix of dictionary values and [Holder 🧠](<../$Holder 🧠.md>) surrounded with `:`.
     
     Here's the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>).
 
@@ -238,7 +238,7 @@
 
     ||Inputs| Purpose
     |-|-|-
-    || `$list` | [Placeholder 🧠](<../$Placeholder 🧠.md>) list of objects
+    || `$list` | [Holder 🧠](<../$Holder 🧠.md>) list of objects
     ||| Fails if `$list` was never set
     |
 
@@ -486,7 +486,7 @@
     # Results in [A,B]    
     ```
 
-    Here's a alternative syntax using the [`.Add`](<../../...functions 🐍/🔩 {.Add}.md>) function in a [Placeholder 🧠](<../$Placeholder 🧠.md>).
+    Here's a alternative syntax using the [`.Add`](<../../...functions 🐍/🔩 {.Add}.md>) function in a [Holder 🧠](<../$Holder 🧠.md>).
 
     ```yaml
     📃 Example:
@@ -521,7 +521,7 @@
     Using the [`{.Distinct}`](<../../...functions 🐍/🔩 {.Distinct}.md>) function
 
     ```yaml
-    📃 Inline in a placeholder:
+    📃 Inline in a holder:
     - EVAL|$list.Distinct() >> $list
     ```
 

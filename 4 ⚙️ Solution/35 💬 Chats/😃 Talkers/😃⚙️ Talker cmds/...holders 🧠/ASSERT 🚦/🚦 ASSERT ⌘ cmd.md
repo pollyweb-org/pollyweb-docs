@@ -251,7 +251,7 @@
     ```yaml
     📃 Example:
 
-    # Put the locator in a placeholder
+    # Put the locator in a holder
     - PARSE >> $locator:
         nlweb.org/HOST:1.0,any-host.dom,ANY-RESOURCE
 
@@ -272,7 +272,7 @@
 
     ```yaml
     # Enum assertions
-    ASSERT|$placeholder:
+    ASSERT|$holder:
         Enum: {value-1}, {value-2}, ...
     ```
     | Input| Purpose | Examples

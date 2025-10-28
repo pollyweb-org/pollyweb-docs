@@ -15,7 +15,7 @@
     |Expression|Examples
     |-|-
     |`<string>`| `3` `Alice`
-    [`{Function}`](<../../...functions 🐍/{Function} 🐍.md>) | `{$placeholder}` `{handler(1)}` `{.helper(1)}` 
+    [`{Function}`](<../../...functions 🐍/{Function} 🐍.md>) | `{$holder}` `{handler(1)}` `{.helper(1)}` 
 
     ---
     <br/>
@@ -81,7 +81,7 @@
     | [Domain](<../../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ String return `Bla Bla`
-    | [🤗 Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ Placeholder return `123`
+    | [🤗 Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ Holder return `123`
     | [🤗 Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ Function return 1+2+3= `6`
     |
 
@@ -96,7 +96,7 @@
     
     # Run with 123
     - RUN|PlaceholderProc(123) >> $x
-    - INFO|Placeholder return `{$x}`
+    - INFO|Holder return `{$x}`
     
     # Run with 1,2,3
     - RUN|FunctionProc(1,2,3) >> $x

@@ -113,9 +113,9 @@ Successful Tests:
     LinkFile: "🧲 GET ⌘ cmd.md"
     Reasons: same as {{RETURN}}.
 
-  - Given: "{{Placeholder}}"
-    LinkText: "Placeholder 🧠"
-    LinkFile: "$Placeholder 🧠.md"
+  - Given: "{{Holder}}"
+    LinkText: "Holder 🧠"
+    LinkFile: "$Holder 🧠.md"
     Reasons: This is hardcoded.
 
   - Given: "{{Script}}"

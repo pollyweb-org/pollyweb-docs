@@ -59,7 +59,7 @@
     |-|-
     | `{f}` | ✅ Evaluates a function named `f`.
     | `{f(C)}` | ✅ Evaluates `f` with constant `C`.
-    | `{f($p)}` | ✅ Passes the `$p` placeholder.
+    | `{f($p)}` | ✅ Passes the `$p` holder.
     | `{f(C,$p)}` | ✅ Passes `C` and `$p` in positions.
     | `{f([C,$p])}` |  ✅ Passes `C` and `$p` as a list. 
     | `{f({a:1,b:$p}}` |  ✅ Passes `{a,b}` dictionary. 

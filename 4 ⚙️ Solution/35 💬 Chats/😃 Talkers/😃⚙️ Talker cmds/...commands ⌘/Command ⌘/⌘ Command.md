@@ -111,12 +111,12 @@
     |-|-
     | ⏯️️ [`CASE`](<../../...control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script 📃](<../Script 📃/📃 Script.md>) based on a [{Function} 🐍](<../../...functions 🐍/{Function} 🐍.md>).
     | 🫥 [`EMOJI`](<../../../../🤔 Prompts/🤔✏️ Prompt input features/😶⌘ EMOJI cmd.md>) | Changes the [default emoji 😃](<../../../../🤔 Prompts/🤔✏️ Prompt input features/😶 Input emojis.md>) for [input prompts ✏️](<../../../../🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>).
-    | ⬇️ [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | Evaluates a [{Function}](<../../...functions 🐍/{Function} 🐍.md>) into a placeholder.
+    | ⬇️ [`EVAL`](<../../...holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | Evaluates a [{Function}](<../../...functions 🐍/{Function} 🐍.md>) into a holder.
     | ⤵️ [`IF`](<../../...control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script 📃](<../Script 📃/📃 Script.md>) based on a [{Function} 🐍](<../../...functions 🐍/{Function} 🐍.md>).
     | 🪵 [`LOG`](<../../...control ▶️/LOG 🪵/🪵 LOG ⌘ cmd.md>) | Logs messages into the system handler.
     | 🔁 [`REPEAT`](<../../...control ▶️/REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) | Repeats the current [Script 📃](<../Script 📃/📃 Script.md>) with a confirmation.
     | ⤴️ [`RETURN`](<../../...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) | Returns from a [Script 📃](<../Script 📃/📃 Script.md>) with a result.
-    | ▶️ [`RUN`](<../../...control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>) | Runs a [Script 📃](<../Script 📃/📃 Script.md>) and puts the result in a placeholder.
+    | ▶️ [`RUN`](<../../...control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>) | Runs a [Script 📃](<../Script 📃/📃 Script.md>) and puts the result in a holder.
     | 🧘 [`WAIT`](<../../...control ▶️/WAIT 🧘/🧘 WAIT ⌘ cmd.md>) | Waits for a period of time or until signaled.
 
     ---
@@ -180,15 +180,15 @@
                 #   ECHO|$something
                 input_str = args['Input']             
 
-                # Extract the placeholder
+                # Extract the holder
                 #   $something
                 parts = input_str.split("|", 1)       
-                placeholder = parts[1] if len(parts) > 1 else ""
+                holder = parts[1] if len(parts) > 1 else ""
 
                 # Instruct what to do next
                 return {
                     'RUN|.ECHO': {
-                        'UserInput': placeholder
+                        'UserInput': holder
                     }
                 }
     ```

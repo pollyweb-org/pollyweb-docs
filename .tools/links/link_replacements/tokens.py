@@ -78,6 +78,7 @@ def _make_hardcoded_replacer(func_name: str, token_literal: str, token_key: str,
 
 
 PLACEHOLDER_REPLACEMENT = "[Placeholder 🧠](<$Placeholder 🧠.md>)"
+HOLDER_REPLACEMENT = "[Holder 🧠](<$Holder 🧠.md>)"
 HOSTS_REPLACEMENT = "[Host 🤗 domains](<../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)"
 HOST_REPLACEMENT = "[Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)"
 SCRIPT_REPLACEMENT = "[Script 📃](<📃 Script.md>)"
@@ -96,6 +97,12 @@ WALLETS_REPLACEMENT = "[Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/Wal
 def replace_placeholder_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Placeholder`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
     return _replace_simple(md_files, pattern, PLACEHOLDER_REPLACEMENT)
+
+
+@register_hardcoded("holder", replacement=HOLDER_REPLACEMENT, token_label="Holder")
+def replace_holder_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Holder`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, HOLDER_REPLACEMENT)
 
 
 def replace_msg_tokens(md_files):

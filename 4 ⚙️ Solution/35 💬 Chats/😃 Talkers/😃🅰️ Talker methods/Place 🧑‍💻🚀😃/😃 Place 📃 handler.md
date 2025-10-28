@@ -16,8 +16,8 @@
 
 # Assert the inputs
 - ASSERT|$.Msg:
-    AllOf: Placeholder, Reason, Chat, Value
-    Texts: Placeholder, Reason
+    AllOf: Holder, Reason, Chat, Value
+    Texts: Holder, Reason
     UUIDs: Chat
     
 # Verify if the Chat exists
@@ -25,10 +25,10 @@
     Set: HostChats
     Key: $.Msg.Chat
 
-# Save the placeholder
+# Save the holder
 - SAVE|TalkerHolders:
     Chat: $.Msg.Chat
-    Placeholder: $.Msg.Placeholder.Diff($)
+    Holder: $.Msg.Holder.Diff($)
     Value: $.Msg.Value
     Reason: $.Msg.Reason
 ```

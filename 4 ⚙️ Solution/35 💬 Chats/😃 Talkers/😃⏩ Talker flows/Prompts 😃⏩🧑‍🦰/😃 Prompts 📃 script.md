@@ -86,9 +86,9 @@
 
 Needs ||
 |-|-
-| [Commands ⌘](<../../😃⚙️ Talker cmds/...commands ⌘/Command ⌘/⌘ Command.md>) | [`ASSERT`](<../../😃⚙️ Talker cmds/...placeholders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`HOOK`](<../../😃⚙️ Talker cmds/...control ▶️/HOOK 🪝/🪝 HOOK ⌘ cmd.md>) [`RETURN`](<../../😃⚙️ Talker cmds/...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`SAVE`](<../../😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`SEND`](<../../😃⚙️ Talker cmds/...messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>) [`WAIT`](<../../😃⚙️ Talker cmds/...control ▶️/WAIT 🧘/🧘 WAIT ⌘ cmd.md>)
+| [Commands ⌘](<../../😃⚙️ Talker cmds/...commands ⌘/Command ⌘/⌘ Command.md>) | [`ASSERT`](<../../😃⚙️ Talker cmds/...holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`HOOK`](<../../😃⚙️ Talker cmds/...control ▶️/HOOK 🪝/🪝 HOOK ⌘ cmd.md>) [`RETURN`](<../../😃⚙️ Talker cmds/...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`SAVE`](<../../😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`SEND`](<../../😃⚙️ Talker cmds/...messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>) [`WAIT`](<../../😃⚙️ Talker cmds/...control ▶️/WAIT 🧘/🧘 WAIT ⌘ cmd.md>)
 | [{Functions} 🐍](<../../😃⚙️ Talker cmds/...functions 🐍/{Function} 🐍.md>) | [`{.In}`](<../../😃⚙️ Talker cmds/...functions 🐍/🔩 {.In}.md>)
 | [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Prompt@Broker` 🅰️ method](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>) <br/> [`Prompted@Host` 🅰️ method](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 request.md>)
-| [Placeholders 🧠](<../../😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>) | [`$.Chat`](<../../😃⚙️ Talker cmds/...placeholders 🧠/$.Chat 💬/💬 $.Chat 🧠 holder.md>)
+| [Holders 🧠](<../../😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>) | [`$.Chat`](<../../😃⚙️ Talker cmds/...holders 🧠/$.Chat 💬/💬 $.Chat 🧠 holder.md>)
 | [Scripts 📃](<../../😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) | [`PromptEmoji` 📃 script](<😃 Prompts 📃 emoji.md>)
 |

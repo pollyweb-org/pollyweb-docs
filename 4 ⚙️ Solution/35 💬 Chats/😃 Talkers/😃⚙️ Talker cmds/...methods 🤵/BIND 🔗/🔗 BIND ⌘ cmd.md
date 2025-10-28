@@ -85,7 +85,7 @@
 
 
    ```yaml
-   # For placeholder codes
+   # For holder codes
    BIND|{bindable} >> $bound
    ```
 
@@ -139,7 +139,7 @@
 
 
 
-1. **What does a Talker look like for placeholder codes?**
+1. **What does a Talker look like for holder codes?**
     
    ```yaml
    # 😃 Talker 
@@ -157,7 +157,7 @@
        Else: FAILURE|Not bounded.
    ```
 
-   Commands: [`BIND`](<🔗 BIND ⌘ cmd.md>) [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`IF`](<../../...control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>)
+   Commands: [`BIND`](<🔗 BIND ⌘ cmd.md>) [`EVAL`](<../../...holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`IF`](<../../...control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>)
    
    ---
    <br/>

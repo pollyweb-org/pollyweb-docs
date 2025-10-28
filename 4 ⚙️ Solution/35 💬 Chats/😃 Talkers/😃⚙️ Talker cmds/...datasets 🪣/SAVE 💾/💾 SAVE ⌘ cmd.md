@@ -24,7 +24,7 @@
     - SAVE|<set> >> $inserted:
         {object}
         .Delete: <duration>        # Optional
-        .OnBlocked: <placeholder>  # Optional
+        .OnBlocked: <holder>  # Optional
     ```
 
     ```yaml
@@ -39,8 +39,8 @@
     | `<set>` | Name of the [Dataset 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | `MySet`
     | `{object}` | Item to update or insert in the pool | `MyKey` `$key`
     | `.Delete` | Automatic cleanup with [`{.Add}`](<../../...functions 🐍/🔩 {.Add}.md>) | `30 days`
-    | `.OnBlocked`| [`$Placeholder`](<../../...placeholders 🧠/$Placeholder 🧠.md>) name to set `True` | `onBlocked`
-    | `$inserted` | [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) with the insertion | `$item`
+    | `.OnBlocked`| [`$Holder`](<../../...holders 🧠/$Holder 🧠.md>) name to set `True` | `onBlocked`
+    | `$inserted` | [Holder 🧠](<../../...holders 🧠/$Holder 🧠.md>) with the insertion | `$item`
 
     ---
     <br/>
@@ -55,7 +55,7 @@
         .OnDelete: 1 day
         .OnBlocked: onBlocked
 
-    # With a placeholder
+    # With a holder
     - SAVE|mySet:
         $myItem
 
@@ -84,12 +84,12 @@
     SAVE|$item: 
         {changes}
         .Delete: <period>
-        .OnBlocked: <placeholder>
+        .OnBlocked: <holder>
     ```
 
     | Input| Purpose | Examples
     |-|-|-
-    | `$item` | [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) loaded with [`GET`](<../GET 🧲/🧲 GET ⌘ cmd.md>)
+    | `$item` | [Holder 🧠](<../../...holders 🧠/$Holder 🧠.md>) loaded with [`GET`](<../GET 🧲/🧲 GET ⌘ cmd.md>)
     | `{changes}` | Object with changes to apply | `{A:1, B:2}`
 
     ---

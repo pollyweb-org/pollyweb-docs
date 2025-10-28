@@ -1,4 +1,4 @@
-# 😃🪣 Placeholders 🧠 table
+# 😃🪣 Holders 🧠 table
 
 > Data access
 * [`SAVE`](<../😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) by the [`Place` 📃 handler](<../😃🅰️ Talker methods/Place 🧑‍💻🚀😃/😃 Place 📃 handler.md>)
@@ -7,14 +7,14 @@
 ## Schema
 
 ```yaml
-Table: Placeholders
-Keys: Chat, Placeholder
+Table: Holders
+Keys: Chat, Holder
 ```
 
 ## Example
 
 ```yaml
 Chat: <chat-uuid>
-Placeholder: my-placeholder
+Holder: my-holder
 Value: {...}
 ```

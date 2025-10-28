@@ -34,16 +34,16 @@
 1. **What's an example with absolute time?**
 
     ```yaml
-    # Calculate the time into a placeholder
+    # Calculate the time into a holder
     - EVAL|.Add(Now, 1 day) >> $time
 
-    # Pass the placeholder with the exact time
+    # Pass the holder with the exact time
     - ALARM|$time:
         MyHandler: 
             A: 1
             B: 2
     ```
-    Commands: [`.Add`](<../../...functions 🐍/🔩 {.Add}.md>) [`.Now`](<../../...functions 🐍/🔩 {.Now}.md>) [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>)
+    Commands: [`.Add`](<../../...functions 🐍/🔩 {.Add}.md>) [`.Now`](<../../...functions 🐍/🔩 {.Now}.md>) [`EVAL`](<../../...holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>)
 
     ---
     <br/>

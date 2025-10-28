@@ -44,18 +44,18 @@
 
     ```yaml
     # Simplest.
-    DIGITS|<statement> >> $placeholder
+    DIGITS|<statement> >> $holder
     ```
 
     | Input| Purpose 
     |-|-
     | `<statement>`| Message to show to the user
-    | `$placeholder`| Optional [placeholder 🧠](<../../../😃 Talkers/😃⚙️ Talker cmds/...placeholders 🧠/$Placeholder 🧠.md>) with the user's answer
+    | `$holder`| Optional [holder 🧠](<../../../😃 Talkers/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>) with the user's answer
     
 
     ```yaml
     # Comprehensive.
-    DIGITS >> $placeholder:
+    DIGITS >> $holder:
         Text: <statement>
 
         # Specific optional properties
