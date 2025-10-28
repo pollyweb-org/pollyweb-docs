@@ -17,10 +17,10 @@
 📃 .ALARM:
 
 # Assert parameters
-- ASSERT:
-    AllOf: $:When, $:Call, $:With
-    Times: $:When
-    Texts: $:Call
+- ASSERT|.Inputs:
+    .AllOf: When, Call, With
+    .Times: When
+    .Texts: Call
 
 # Set the alarm
 - SEND:
@@ -50,8 +50,8 @@ Needs||
 - VERIFY|$.Msg
 
 # Assert if it's the right helper
-- ASSERT:
-    $.Msg.From: $.Settings.Alarm
+- ASSERT|$.Msg:
+    From: $.Settings.Alarm
 
 # Call the method
 - RUN|$.Msg.Hook.Call:

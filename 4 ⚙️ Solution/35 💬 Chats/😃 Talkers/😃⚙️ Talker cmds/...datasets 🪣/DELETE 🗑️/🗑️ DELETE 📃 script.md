@@ -31,10 +31,10 @@
 📃 .DELETE:
 
 # Fill the $item
-- ASSERT:
-    AllOf: $:Set, $:Key
-    Texts: $:Set
-    Lists: $:Key, $:Undo, $:Script
+- ASSERT|.Inputs:
+    .AllOf: Set, Key
+    .Texts: Set
+    .Lists: Key, Undo, Script
 
 # Send the request and wait.
 - SEND >> $deleted:

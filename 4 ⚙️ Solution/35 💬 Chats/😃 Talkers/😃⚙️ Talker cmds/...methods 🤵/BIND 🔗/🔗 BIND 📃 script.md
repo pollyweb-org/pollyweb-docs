@@ -22,9 +22,9 @@
 📃 .BIND:
 
 # Assert the inputs
-- ASSERT:
-    AllOf: $:Schemas, $:User
-    Lists: $:Schemas
+- ASSERT|.Inputs:
+    .AllOf: Schemas, User
+    .Lists: Schemas
 
 # Save the callback hook
 - SAVE|TalkerHooks >> hook:
