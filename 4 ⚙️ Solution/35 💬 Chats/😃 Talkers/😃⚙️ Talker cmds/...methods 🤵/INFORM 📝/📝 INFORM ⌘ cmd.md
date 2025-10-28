@@ -1,11 +1,16 @@
 # 😃📝 Talker `INFORM` command
 
-> Part of [Talker 😃](<../../../😃 Talker role.md>)
+> Implementation 
+ * Part of [Talker 😃](<../../../😃 Talker role.md>)
+ * Implemented by the [`INFORM` 📃 script](<📝 INFORM 📃 script.md>)
 
-> Related to [Host Inform ⏩ flow](<../../../../../41 🎭 Domain Roles/Consumers 💼/💼⏩ Consumer flows/Inform 💼⏩📝/💼 Inform ⏩ flow.md>) 
+> Purpose
+* Related to the [Consumer Inform ⏩ flow](<../../../../../41 🎭 Domain Roles/Consumers 💼/💼⏩ Consumer flows/Inform 💼⏩📝/💼 Inform ⏩ flow.md>) 
 
   
 <br/>
+
+## FAQ
 
 1. **What is an INFORM message command?**
    
@@ -22,12 +27,12 @@
 1. **What's the INFORM syntax?**
 
     ```yaml
-    INFORM|<key>
+    INFORM|<form>
     ```
 
     | Argument| Purpose
     |-|-
-    | `<key>` | Form key for [`Form@Graph`](<../../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Form.md>)
+    | `<form>` | Form key for [`Form@Graph`](<../../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Form.md>)
     
 
     ---

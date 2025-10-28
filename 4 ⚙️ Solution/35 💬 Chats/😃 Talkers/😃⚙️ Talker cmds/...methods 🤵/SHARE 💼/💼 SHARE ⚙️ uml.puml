@@ -14,12 +14,12 @@ participant "Broker 🤵" as broker
 participant "Vault 🗄️" as vault
 
 activate script
-    script -> talker: SHARE 💼
+    script -> talker: SHARE 💼 \n {schemas}
 deactivate script
 
 activate talker
     talker -> hooks: SAVE 💾 {hook}
-    talker --> broker: SEND 📬 {Query, hook}
+    talker --> broker: SEND 📬 {Query 🐌 hook, schemas}
     activate broker
     talker --> talker: WAIT {hook}
 deactivate talker
@@ -27,15 +27,15 @@ deactivate talker
     broker -> vault: 
     deactivate broker
     activate vault
-        vault --> consumer: {data}
+        vault --> consumer: {hook, schema, data}
     deactivate vault
 
 activate consumer
-    consumer --> talker: REEL 🎣 {hook}
+    consumer --> talker: REEL 🎣 {hook, data}
 deactivate consumer
 
 activate talker
-    talker --> script: RETURN {data}
+    talker --> script: RETURN \n{schema, data}
 deactivate talker
 
 activate script
