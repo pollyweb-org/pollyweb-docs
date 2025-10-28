@@ -49,11 +49,6 @@ Successful Tests:
       containing the emoji "📃"
       or the file is called `WORD 📃 script.md`.
 
-  - Given: '{{.PROMPT}}'
-    LinkText: "`.PROMPT` 📃 script"
-    LinkFile: '🤔 .PROMPT 📃 script.md'
-    Reasons: same as {{CHAT script}}.
-
   - Given: '{{Triggered@Alarm}}'
     LinkText: "`Triggered@Alarm` 🔔 event"
     LinkFile: "⏰🔔 Triggered.md"

@@ -18,7 +18,7 @@
 1. **What's the SEND syntax?**
 
     ```yaml
-    SEND >> $response:
+    SEND|$context >> $response:
         Header:
             To: <domain>
             Subject: <subject>
@@ -28,6 +28,7 @@
 
     | Input| Purpose | Example
     |-|-|-
+    | `$context` | Optional input [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>)  | `$p`
     | `To` | Destination domain | `any-broker.dom`
     | `Subject` | Message subject | `Unbound@Vault`
     | `{body}` | `Body` property dictionary  | `{A:1, B:2}`
@@ -80,8 +81,34 @@
     ---
     <br/>
 
-1. **What are use cases of SEND?**
+1. **How to use the context?**
 
-    <!-- TODO: add details  -->
+    Here's a [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>)
+    ```yaml
+    📃 Example:
+    
+    # Create a placeholder
+    - EVAL|{A:1,B:2} >> $context
 
-    > Example: [Pop Vault 🔆](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Pop 🧑‍🦰🐌🤵/🤵 Pop Vault 📃 script.md>)
+    # Without context
+    - SEND:
+        Header:
+            To: any-domain.dom
+            Subject: Any@Subject
+        Body:
+            A: $context.A
+            B: $context.B
+
+    # With context
+    - SEND|$context:
+        Header:
+            To: any-domain.dom
+            Subject: Any@Subject
+        Body:
+            A: A
+            B: B
+    ```
+    Commands: [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>)
+
+    ---
+    <br/>

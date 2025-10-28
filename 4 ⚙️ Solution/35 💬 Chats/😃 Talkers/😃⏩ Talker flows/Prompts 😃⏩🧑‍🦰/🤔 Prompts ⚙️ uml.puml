@@ -15,14 +15,23 @@ participant "Broker 🤵" as broker
 participant "Wallet 👱" as wallet
 
 activate script
-    script --> talker: .PROMPT 🤔 
+    script -> talker: .PROMPT 🤔 
 deactivate script
 
 activate talker
     talker -> hooks: SAVE 💾 {hook, prompt}
     talker --> broker: Prompt 🐌 {hook}
 activate broker
-    talker --> talker: WAIT {hook}
+
+    alt Non-blocking 
+        alt With Options
+            talker -> talker: HOOK 🪝 {hook}
+        end alt
+        talker -> script: RETURN { }
+    else Blocking
+        talker -> talker: WAIT 🧘 {hook}
+    end alt
+
 deactivate talker
 
     broker --> wallet:
@@ -40,11 +49,11 @@ activate wallet
 deactivate wallet
 
 activate host
-    host --> talker: REEL 🎣 {hook, reply}
+    host -> talker: REEL 🎣 {hook, reply}
 deactivate host
 
 activate talker
-    talker --> script: RETURN {reply}
+    talker -> script: RETURN {reply}
 deactivate talker
 
 activate script
