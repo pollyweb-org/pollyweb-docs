@@ -39,6 +39,11 @@ Failed Tests:
 
 Successful Tests:
 
+  - Given: '{{Holders}}'
+    LinkText: "Holders 🧠"
+    LinkFile: "$Holder 🧠.md"
+    Reasons: This is hardcoded.
+
   - Given: '{{Trust}}'
     LinkText: "Trust 🫡"
     LinkFile: "🫡 Domain Trust.md"
