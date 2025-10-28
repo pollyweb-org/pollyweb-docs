@@ -1,19 +1,22 @@
-# 😃⏸️ Talker `HOOK` flow 
+# 😃🧘 Talker `HOOK` flow 
 
 > Part of [Talker 😃](<../../../😃 Talker role.md>)
 
-> Referenced by the [😃⏩🧑‍💻 Wait ⏸️](<../../../😃⏩ Talker flows/Async Tasks 😃⏩📦/😃 Async ⏩ flow.md>) flow
+> Used by
+* [`Async` ⏩ flow](<../../../😃⏩ Talker flows/Async Tasks 😃⏩📦/😃 Async ⏩ flow.md>)
 
 <br/>
 
-
+## FAQ
 
 1. **What's a HOOK flow command?**
 
     A [`HOOK` 🪝](<🪝 HOOK ⌘ cmd.md>)
     * is a flow [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) 
-    * that sets a rollback checkpoint
-    * while allowing the [Talker 😃](<../../../😃 Talker role.md>) to continue.
+    * that creates a rollback checkpoint
+    * to be triggered by the [`REEL` 🎣 command](<../REEL 🎣/🎣 REEL ⌘ cmd.md>)
+    * or by the [`Handled@Talker` 🅰️ method](<../../../😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>)
+    * while allowing the [Talker 😃](<../../../😃 Talker role.md>) flow to continue.
 
     ---
     <br/>
@@ -23,186 +26,19 @@
 
     
     ```yaml
-    # Listen to two triggers in parallel: 
-    #   placeholder change and timeout.
+    # One-line
+    - HOOK|$hook
 
-    - HOOK| >> $expired:
-        Signal: $signal
-        Timeout: <period>
+    # Comprehensive
+    - HOOK >> $response:
+        Hook: $hook
     ```
 
     | Input| Purpose
     |-|-
-    | `$expired` | Boolean return if the wait has time out.
-    | `Signal`   | Placeholder that stops the wait if changed.
-    | `Timeout`  | Time to wait, evaluated by the [`.Add`](<../../...functions 🐍/🔩 {.Add}.md>) function.
-
-    ```yaml
-    # Listen to only one trigger:
-    #   either a placeholder change, or a timeout.
-
-    - HOOK|<something> >> $expired
-    ```
-
-    | Input| Purpose 
-    |-|-
-    | `<something>` | Either a `Timeout` or a `Signal`
-
-    ---
-    <br/>
-
-1. **How to build a clock?**
-
-    | [Domain](<../../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
-    | - | - | - |
-    | 🕙 Clock | ⏳ It's 17:01
-    | 🕙 Clock | ⏳ It's 17:02
-
-    ```yaml
-    # 😃 Talker 
-    💬 Clock:
-    - TEMP|It's {.Now}
-    - HOOK|00:00:01 
-    - REPEAT
-    ```
-
-    Commands: [`.Now`](<../../...functions 🐍/🔩 {.Now}.md>) [`REPEAT`](<../REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) [`TEMP`](<../../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>) [`HOOK`](<🪝 HOOK ⌘ cmd.md>)
-    
+    | `Hook`   | For [`REEL` 🎣](<../REEL 🎣/🎣 REEL ⌘ cmd.md>) and [`Handled@Talker` 🅰️](<../../../😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>)
+    | `$response` | Response from [`REEL` 🎣](<../REEL 🎣/🎣 REEL ⌘ cmd.md>) or [`Handled@Talker` 🅰️](<../../../😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>)
 
     
-    ---
-    <br/>
-
-
-
-1. **How to wait for a task to complete?**
-
-    | [Domain](<../../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
-    | - | - | - |
-    | 🍕 Pizza | ℹ️ Order submitted 
-    | 🍕 Pizza | ⏳ Step `1/3` Order in the queue...
-    | 🍕 Pizza | ⏳ Step `2/3` Order being cooked...
-    | 🍕 Pizza | ⏳ Step `3/3` Just finishing up...
-    | 🍕 Pizza | ✅ Order ready!
-    |
-
-    Here's the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>).
-
-    ```yaml
-    # 😃 Talker 
-
-    💬 Test:
-    - EVAL|Submit >> $status     # Send
-    - INFO|Order submitted       # Inform sent
-    - RUN|WaitForReady           # Wait...
-    - SUCCESS|Order ready!       # Inform ready
-
-    WaitForReady:
-    - TEMP|$status.Message       # Show status
-    - HOOK|$status               # Wait
-    - IF|$status.Ready:          # Signalled
-        Then: RETURN             # End if ready
-    - REPEAT                     # Repeat
-    ```
-
-
-    | [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
-    |-|-
-    | ⬇️ [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | to assess the backend queue length.
-    | ℹ️ [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the initial message.
-    | 🔁 [`REPEAT`](<../REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) | To re-assess the queue periodically.
-    | 🔁 [`RETURN`](<../REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) | To exit the loop when it's the user's turn.
-    | ▶️ [`RUN`](<../RUN ▶️/▶️ RUN ⌘ cmd.md>) | To start the waiting loop.
-    | ✅ [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) | To say that it's ready.
-    | ⏳ [`TEMP`](<../../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>) | To show work in progress.
-
-    ---
-    <br/>
-
-
-1. **How to wait in a queue?**
-
-    | [Domain](<../../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
-    | - | - | - |
-    | 🏦 Bank | ⏳ There are 21 people ahead of you.
-    | 🏦 Bank | ⏳ There are 7 people ahead of you.
-    | 🏦 Bank | ⏳ You're next, get ready!
-    | 🏦 Bank | 💬 What do you need? | `I need...`
-    |
-
-    Here's the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>).
-
-    ```yaml
-    # 😃 Talker 
-
-    💬 Check-in:
-    - RUN|WaitInLine
-    - TEXT|What do you need?
-
-    WaitInLine:
-
-    # Check the status of the queue.
-    - GET|Queues|MyQueue >> $len
-
-    # Show the status in a human-friendly wait.
-    - CASE|{$len}:
-        $: TEMP|There are {$len} people ahead of you.
-        1: TEMP|You're next, get ready!
-        0: RETURN
-    
-    # Wait 1 minute or until signalled.
-    - HOOK:
-        Signal: $your-turn
-        Period: 00:01:00
-
-    # Jump off if signalled.
-    - IF|$your-turn:
-        Then: RETURN
-
-    # Check the queue length again.
-    - REPEAT
-    ```
-
-    | [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
-    |-|-
-    | ⏯️️ [`CASE`](<../CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | To show the human-friendly message.
-    | ⬇️ [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | to assess the backend queue length.
-    | 🧲 [`GET`](<../../...datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) | To get the queue length from resources.
-    | 🔁 [`REPEAT`](<../REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) | To re-assess the queue periodically.
-    | 🔁 [`RETURN`](<../REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) | To exit the loop when it's the user's turn.
-    | ▶️ [`RUN`](<../RUN ▶️/▶️ RUN ⌘ cmd.md>) | To start the waiting loop.
-    | ⏳ [`TEMP`](<../../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>) | To show work in progress.
-
-    ---
-    <br/>
-
-
-
-1. **How to signal a HOOK placeholder?**
-
-    Consider the following [`HOOK` ⏸️](<🪝 HOOK ⌘ cmd.md>) command.
-
-    ```yaml
-    # 😃 Talker 
-    - HOOK|24:00:00|$signal:
-        OnSignal: SUCCESS|Signalled!
-        OnTimeout: FAILURE|Timed out!
-    ```
-
-    To trigger it, a developer needs to call [`Write@Talker`](<../../../😃🅰️ Talker methods/Place 🧑‍💻🚀😃/😃 Place 🚀 request.md>).
-
-    ```python
-    # 🐍 Python
-
-    def talkerHandler(args):
-        TALKER.Write({
-            'Chat': CHAT_ID,
-            'Placeholder': 'signal',
-            'Value': 'READY'
-        })
-    ```    
-
-    The full interaction is described in the [😃⏩🧑‍💻 Wait ⏸️](<../../../😃⏩ Talker flows/Async Tasks 😃⏩📦/😃 Async ⏩ flow.md>) flow 
-
     ---
     <br/>

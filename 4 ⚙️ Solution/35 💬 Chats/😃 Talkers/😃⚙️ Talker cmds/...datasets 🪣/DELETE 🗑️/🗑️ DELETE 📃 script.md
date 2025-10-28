@@ -39,7 +39,7 @@
 # Send the request and wait.
 - SEND >> $deleted:
     Header:
-        To: $.Settings.Itemizer
+        To: $.Hosted.Itemizer
         Subject: Delete@Itemizer
     Body:
         Set: $:Set
@@ -56,5 +56,5 @@ Needs||
 |-|-
 | [Commands ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) | [`ASSERT`](<../../...placeholders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`SEND`](<../../...messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>) [`RETURN`](<../../...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`RUN`](<../../...control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
 | [Messages 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Delete@Itemizer`](<../../../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/Item Delete 👥🚀🛢/🛢 Delete 🚀 request.md>)
-| [Placeholders 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) | [`$.Settings`](<../../...placeholders 🧠/$.Settings 🎛️/🎛️ $.Settings 🧠 holder.md>)
+| [Placeholders 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) | [`$.Hosted`](<../../...placeholders 🧠/$.Hosted 📦/📦 $.Hosted 🧠 holder.md>)
 |

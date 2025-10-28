@@ -63,7 +63,7 @@ RUN|UpdateBinds@Broker:
 # Translate the offered schemas
 - SEND >> $translated:
     Header:
-        To: $.Settings.Graph
+        To: $.Hosted.Graph
         Subject: Translate@Graph
     Body:
         Language: $chat.Wallet.Language

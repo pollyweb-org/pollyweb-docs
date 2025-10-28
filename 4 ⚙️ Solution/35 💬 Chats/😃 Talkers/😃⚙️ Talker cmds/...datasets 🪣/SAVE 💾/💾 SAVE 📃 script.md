@@ -44,7 +44,7 @@
 # Send the request and wait.
 - SEND >> $saved:
     Header:
-        To: $.Settings.Itemizer
+        To: $.Hosted.Itemizer
         Subject: Save@Itemizer
     Body:
         Item: $:Item
@@ -74,5 +74,5 @@ Needs||
 |-|-
 | [Commands ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) | [`ASSERT`](<../../...placeholders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CASE`](<../../...control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`HTTP`](<../../...control ▶️/HTTP 💥/💥 HTTP ⌘ cmd.md>) [`SEND`](<../../...messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>) [`RETURN`](<../../...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`RUN`](<../../...control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
 | [Messages 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Save@Itemizer`](<../../../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/Item Save 👥🚀🛢/🛢 Save 🚀 request.md>)
-| [Placeholders 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) | [`$.Settings`](<../../...placeholders 🧠/$.Settings 🎛️/🎛️ $.Settings 🧠 holder.md>)
+| [Placeholders 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) | [`$.Hosted`](<../../...placeholders 🧠/$.Hosted 📦/📦 $.Hosted 🧠 holder.md>)
 |

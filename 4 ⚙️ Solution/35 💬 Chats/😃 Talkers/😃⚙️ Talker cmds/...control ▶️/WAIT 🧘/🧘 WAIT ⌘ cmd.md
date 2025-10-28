@@ -1,20 +1,21 @@
-# 😃⏸️ Talker `WAIT` flow 
+# 😃🧘 Talker `WAIT` flow 
 
 > Part of [Talker 😃](<../../../😃 Talker role.md>)
 
-> Referenced by the [😃⏩🧑‍💻 Wait ⏸️](<../../../😃⏩ Talker flows/Async Tasks 😃⏩📦/😃 Async ⏩ flow.md>) flow
+> Used by
+* [`Async` ⏩ flow](<../../../😃⏩ Talker flows/Async Tasks 😃⏩📦/😃 Async ⏩ flow.md>)
 
 <br/>
 
-
+## FAQ
 
 1. **What's a WAIT flow command?**
 
-    A [`WAIT` ⏸️](<🧘 WAIT ⌘ cmd.md>)
+    A [`WAIT` 🧘](<🧘 WAIT ⌘ cmd.md>)
     * is a flow [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) 
     * that pauses the flow for a period of time 
-    * or until triggered by the [`REEL`](<../REEL 🎣/🎣 REEL ⌘ cmd.md>) command
-    * or by the {{Trigger@Talker}}.
+    * or until triggered by the [`REEL` 🎣 command](<../REEL 🎣/🎣 REEL ⌘ cmd.md>)
+    * or by the [`Handled@Talker` 🅰️ method](<../../../😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>).
 
     ---
     <br/>
@@ -27,20 +28,20 @@
     # Listen to two triggers in parallel: 
     #   a signal to a hook, or a timeout.
 
-    - WAIT >> $result:
+    - WAIT >> $response:
         Hook: $hook
         Timeout: <period>
     ```
 
     | Input| Purpose
     |-|-
-    | `$result` | Result from a long-running operation.
-    | `Hook`   | For [`REEL`](<../REEL 🎣/🎣 REEL ⌘ cmd.md>) and {{Signal@Talker}}.
-    | `Timeout`  | Time to wait, evaluated by the [`.Add`](<../../...functions 🐍/🔩 {.Add}.md>) function.
+    | `Timeout`  | Time to wait, evaluated by the [`.Add`](<../../...functions 🐍/🔩 {.Add}.md>) function
+    | `Hook`   | For [`REEL` 🎣](<../REEL 🎣/🎣 REEL ⌘ cmd.md>) and [`Handled@Talker` 🅰️](<../../../😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>)
+    | `$response` | Response from [`REEL` 🎣](<../REEL 🎣/🎣 REEL ⌘ cmd.md>) or [`Handled@Talker` 🅰️](<../../../😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>)
 
     ```yaml
     # Listen to only one trigger:
-    #   either a placeholder change, or a timeout.
+    #   either a timeout or a hook.
 
     - WAIT|<something> >> $result
     ```
@@ -90,32 +91,42 @@
     Here's the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>).
 
     ```yaml
-    # 😃 Talker 
-
     💬 Test:
-    - EVAL|Submit >> $status     # Send
-    - INFO|Order submitted       # Inform sent
-    - RUN|WaitForReady           # Wait...
-    - SUCCESS|Order ready!       # Inform ready
 
-    WaitForReady:
-    - TEMP|$status.Message       # Show status
-    - WAIT|$status               # Wait
-    - IF|$status.Ready:          # Signalled
-        Then: RETURN             # End if ready
-    - REPEAT                     # Repeat
+    # Submit an async task
+    - ASYNC|Submit >> $hook      
+
+    # Inform the user about the submission
+    - INFO|Order submitted       
+
+    # Show the wait status
+    - RUN|WaitForReady           
+
+    # Inform the user that it's done
+    - SUCCESS|Order ready!       
     ```
+    Commands: [`ASYNC`](<../ASYNC 👷🏼/👷🏼 ASYNC ⌘ cmd.md>) [`RUN`](<../RUN ▶️/▶️ RUN ⌘ cmd.md>) [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) 
+  
+    ```yaml
+    📃 WaitForReady:
 
+    # Wait for the hook response
+    - WAIT >> $status:           
+        Hook: $hook
 
-    | [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
-    |-|-
-    | ⬇️ [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | to assess the backend queue length.
-    | ℹ️ [`INFO`](<../../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the initial message.
-    | 🔁 [`REPEAT`](<../REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) | To re-assess the queue periodically.
-    | 🔁 [`RETURN`](<../REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) | To exit the loop when it's the user's turn.
-    | ▶️ [`RUN`](<../RUN ▶️/▶️ RUN ⌘ cmd.md>) | To start the waiting loop.
-    | ✅ [`SUCCESS`](<../../../../🤔 Prompts/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) | To say that it's ready.
-    | ⏳ [`TEMP`](<../../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>) | To show work in progress.
+    # Check the response
+    - IF|$status.Ready:          
+        # End if ready
+        Then: RETURN             
+        
+        # Show status otherwise
+        Else: TEMP|$status.Message    
+
+    # Repeat the script
+    - REPEAT                     
+    ```
+    Commands: [`IF`](<../IF ⤵️/⤵️ IF ⌘ cmd.md>) [`REPEAT`](<../REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) 
+    [`TEMP`](<../../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>) [`WAIT`](<🧘 WAIT ⌘ cmd.md>)
 
     ---
     <br/>
@@ -134,76 +145,46 @@
     Here's the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>).
 
     ```yaml
-    # 😃 Talker 
-
     💬 Check-in:
-    - RUN|WaitInLine
-    - TEXT|What do you need?
 
-    WaitInLine:
+    # Add the person to a waiting line
+    - ASYNC|AddToLine >> $hook
+
+    # Show line updates
+    - RUN|WaitInLine
+
+    # Finally, help the person
+    - TEXT|What do you need?
+    ```
+    Commands: [`ASYNC`](<../ASYNC 👷🏼/👷🏼 ASYNC ⌘ cmd.md>) [`RUN`](<../RUN ▶️/▶️ RUN ⌘ cmd.md>) [`TEXT`](<../../../../🤔 Prompts/🤔✏️ Prompt inputs/TEXT 🔠/TEXT 🔠 prompt.md>) 
+
+    ```yaml
+    📃 WaitInLine:
 
     # Check the status of the queue.
-    - GET|Queues|MyQueue >> $len
+    - GET >> $len:
+        Set: Queues
+        Key: MyQueue
 
     # Show the status in a human-friendly wait.
-    - CASE|{$len}:
+    - CASE|$len:
         $: TEMP|There are {$len} people ahead of you.
         1: TEMP|You're next, get ready!
         0: RETURN
     
     # Wait 1 minute or until signalled.
-    - WAIT:
-        Signal: $your-turn
-        Period: 00:01:00
+    - WAIT >> $ready:
+        Hook: $hook
+        Timeout: 00:01:00
 
     # Jump off if signalled.
-    - IF|$your-turn:
-        Then: RETURN
+    - IF|$ready:
+        RETURN
 
     # Check the queue length again.
     - REPEAT
     ```
-
-    | [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
-    |-|-
-    | ⏯️️ [`CASE`](<../CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | To show the human-friendly message.
-    | ⬇️ [`EVAL`](<../../...placeholders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | to assess the backend queue length.
-    | 🧲 [`GET`](<../../...datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) | To get the queue length from resources.
-    | 🔁 [`REPEAT`](<../REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) | To re-assess the queue periodically.
-    | 🔁 [`RETURN`](<../REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) | To exit the loop when it's the user's turn.
-    | ▶️ [`RUN`](<../RUN ▶️/▶️ RUN ⌘ cmd.md>) | To start the waiting loop.
-    | ⏳ [`TEMP`](<../../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>) | To show work in progress.
-
-    ---
-    <br/>
-
-
-
-1. **How to signal a WAIT placeholder?**
-
-    Consider the following [`WAIT` ⏸️](<🧘 WAIT ⌘ cmd.md>) command.
-
-    ```yaml
-    # 😃 Talker 
-    - WAIT|24:00:00|$signal:
-        OnSignal: SUCCESS|Signalled!
-        OnTimeout: FAILURE|Timed out!
-    ```
-
-    To trigger it, a developer needs to call [`Write@Talker`](<../../../😃🅰️ Talker methods/Place 🧑‍💻🚀😃/😃 Place 🚀 request.md>).
-
-    ```python
-    # 🐍 Python
-
-    def talkerHandler(args):
-        TALKER.Write({
-            'Chat': CHAT_ID,
-            'Placeholder': 'signal',
-            'Value': 'READY'
-        })
-    ```    
-
-    The full interaction is described in the [😃⏩🧑‍💻 Wait ⏸️](<../../../😃⏩ Talker flows/Async Tasks 😃⏩📦/😃 Async ⏩ flow.md>) flow 
+    Commands: [`CASE`](<../CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`GET`](<../../...datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) [`IF`](<../IF ⤵️/⤵️ IF ⌘ cmd.md>) [`REPEAT`](<../REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) [`RETURN`](<../REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) [`TEMP`](<../../../../🤔 Prompts/🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>) [`WAIT`](<🧘 WAIT ⌘ cmd.md>)
 
     ---
     <br/>

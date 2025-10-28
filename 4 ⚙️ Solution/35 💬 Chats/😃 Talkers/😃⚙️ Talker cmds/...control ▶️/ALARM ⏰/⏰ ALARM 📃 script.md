@@ -25,7 +25,7 @@
 # Set the alarm
 - SEND:
     Header:
-        To: $.Settings.Alarm
+        To: $.Hosted.Alarm
         Subject: Trigger@Alarm
     Body:
         When: $:When
@@ -38,7 +38,7 @@ Needs||
 |-|-
 | [Commands ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) | [`ASSERT`](<../../...placeholders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`SEND`](<../../...messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>)
 | [Messages 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Trigger@Alarm` 🅰️ method](<../../../../../45 🤲 Helper domains/Alarms ⏰/⏰🅰️ Alarm methods/Trigger 👥🐌⏰/⏰ Trigger 🐌 msg.md>)
-| [Placeholders 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) | [`$.Settings`](<../../...placeholders 🧠/$.Settings 🎛️/🎛️ $.Settings 🧠 holder.md>)
+| [Placeholders 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) | [`$.Hosted`](<../../...placeholders 🧠/$.Hosted 📦/📦 $.Hosted 🧠 holder.md>)
 |
 
 ## Event handler
@@ -51,7 +51,7 @@ Needs||
 
 # Assert if it's the right helper
 - ASSERT|$.Msg:
-    From: $.Settings.Alarm
+    From: $.Hosted.Alarm
 
 # Call the method
 - RUN|$.Msg.Hook.Call:

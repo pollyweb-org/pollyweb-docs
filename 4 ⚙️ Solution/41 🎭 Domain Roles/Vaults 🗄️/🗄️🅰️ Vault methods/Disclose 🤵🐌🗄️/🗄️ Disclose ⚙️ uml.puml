@@ -21,7 +21,7 @@ activate talker
 activate hosted
     talker -> vault: {hook}
 deactivate talker
-    vault --> vault: WAIT ⏸️ {hook}
+    vault --> vault: WAIT 🧘 {hook}
 deactivate vault
 
     hosted --> talker: Handled 🐌 {hook, data}

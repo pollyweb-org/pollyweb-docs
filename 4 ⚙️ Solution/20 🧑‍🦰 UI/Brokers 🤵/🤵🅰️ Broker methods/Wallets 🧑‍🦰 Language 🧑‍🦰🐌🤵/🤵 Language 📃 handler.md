@@ -44,7 +44,7 @@
 # Translate domains and schemas
 - SEND >> $translated:
     Header:
-        To: $.Settings.Graph
+        To: $.Hosted.Graph
         Subject: Translate@Graph
     Body:
         Language: $.Msg.Language
