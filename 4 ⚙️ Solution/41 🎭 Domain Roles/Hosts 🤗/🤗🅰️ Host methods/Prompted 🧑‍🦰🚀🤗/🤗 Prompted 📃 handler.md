@@ -21,8 +21,8 @@
     Key: $prompt.PublicKey
 
 # Verify the cache expiration
-- ASSERT:
-    - $prompt.Expires > .Now
+- ASSERT|$prompt:
+    Expires > .Now
 
 # Returned the cached response
 - RETURN:

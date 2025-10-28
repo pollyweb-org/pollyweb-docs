@@ -25,9 +25,9 @@ Inputs | Purpose | Examples
 📃 UpdateDomain:
 
 # Ensure the parameters are given
-- ASSERT:
-    AllOf: $:Domain, $:Domain$
-    Texts: $:Domain, $:Domain$
+- ASSERT|.Inputs:
+    AllOf: Domain, Domain$
+    Texts: Domain, Domain$
 
 # Try to get the domain, if it exists
 - GET >> $domain:

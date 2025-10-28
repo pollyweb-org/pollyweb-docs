@@ -42,8 +42,8 @@ Body:
     Key: $.Msg.Hook
 
 # Assert if it's the right Broker
-- ASSERT:
-    $.Msg.From: $hook.Broker
+- ASSERT|$.Msg:
+    From: $hook.Broker
 
 # Save the Token
 - SAVE|IssuerTokens:

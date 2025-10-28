@@ -21,8 +21,8 @@
 
 # Assert inputs
 - ASSERT|.Inputs:
-    .AllOf: Schema, Trusted
-    .Texts: Schema, Trusted, Truster
+    AllOf: Schema, Trusted
+    Texts: Schema, Trusted, Truster
 
 # Assert the role
 - ASSERT|$:Role:

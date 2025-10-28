@@ -9,7 +9,9 @@
 
 # Verify the required inputs
 - ASSERT|$.Msg:
-    - One: Chat, Host, Token, Issuer, Bind, Vault
-    - Uuid: Chat, Token, Bind
-    - Text: Host, Issuer, Vault
+    OneOf: Chat, Host, Token, Issuer, Bind, Vault
+    UUIDs: Chat, Token, Bind
+    Texts: Host, Issuer, Vault
 ```
+
+<!-- TODO: Finish the code -->

@@ -37,9 +37,9 @@
 
 # Fill the $item
 - ASSERT|.Inputs:
-    .AllOf: Set, Item
-    .Texts: Script, Set, OnBlocked, Delete
-    .UUIDs: Version
+    AllOf: Set, Item
+    Texts: Script, Set, OnBlocked, Delete
+    UUIDs: Version
 
 # Send the request and wait.
 - SEND >> $saved:

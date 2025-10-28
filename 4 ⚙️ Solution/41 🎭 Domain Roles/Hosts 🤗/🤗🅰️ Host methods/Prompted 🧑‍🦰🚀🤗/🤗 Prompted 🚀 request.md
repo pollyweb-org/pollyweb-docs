@@ -1,11 +1,12 @@
 # 🧑‍🦰🚀🤗 Prompted @ Host
 
-> Implemented by the [`Prompt` 📃 script](<../../../../35 💬 Chats/😃 Talkers/😃⏩ Talker flows/Prompts 😃⏩🧑‍🦰/😃 Prompts 📃 proc.md>)
+> Implementation
+* Implemented by the [`Prompt` 📃 script](<../../../../35 💬 Chats/😃 Talkers/😃⏩ Talker flows/Prompts 😃⏩🧑‍🦰/😃 Prompts 📃 proc.md>)
 
-> Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../../🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) flow
+> Flow
+* Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../../🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) flow
 
-> Signature of the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>)
-
+> Signature
 * signed with the `PrivateKey` from [`Converse@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Converse 🤵🐌📣/📣 Converse 📣 msg.md>)
 *  verified with the `PublicKey` from [`Hello@Host`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 

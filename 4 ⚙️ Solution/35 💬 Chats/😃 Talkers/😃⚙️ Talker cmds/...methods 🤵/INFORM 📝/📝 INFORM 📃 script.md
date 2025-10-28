@@ -22,9 +22,9 @@
 📃 .INFORM:
 
 # Assert inputs
-- ASSERT:
-    AllOf: $:Form
-    Texts: $:Form
+- ASSERT|.Inputs:
+    AllOf: Form
+    Texts: Form
 
 # Send the INFORM message
 - SEND:

@@ -17,7 +17,7 @@
 
 > Assumes a `$wallet` placeholder from the [`Pop@Broker` 📃 script](<🤵 Pop 📃 handler.md>)
 
-
+<!-- TODO: change the ASSERT -->
 ```yaml
 📃 PopVault:
 

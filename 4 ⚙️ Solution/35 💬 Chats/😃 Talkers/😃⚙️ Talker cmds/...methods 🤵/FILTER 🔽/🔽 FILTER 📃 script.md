@@ -31,9 +31,9 @@ Here's the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>)
 
 # Assert the inputs
 - ASSERT|.Inputs:
-    .AllOf: Options, ID, Title
-    .Lists: Options
-    .Texts: ID, Title, Statement
+    AllOf: Options, ID, Title
+    Lists: Options
+    Texts: ID, Title, Statement
 
 # Format the options into {ID,Title}
 - EVAL|$:Options >> $options:

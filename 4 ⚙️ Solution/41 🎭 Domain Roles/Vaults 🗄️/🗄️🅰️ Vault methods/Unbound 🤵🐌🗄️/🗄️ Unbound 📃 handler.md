@@ -21,8 +21,8 @@
     Key: $.Bind
 
 # Confirm it's the same Broker
-- ASSERT:
-    $.Msg.From: $bind.Broker
+- ASSERT|$.Msg:
+    From: $bind.Broker
 
 # Remove the bind
 - DELETE|$bind

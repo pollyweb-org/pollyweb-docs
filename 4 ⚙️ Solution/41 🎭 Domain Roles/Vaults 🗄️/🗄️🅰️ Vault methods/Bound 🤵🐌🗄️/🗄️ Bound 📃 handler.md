@@ -31,8 +31,8 @@
     Key: $.Msg.Hook
 
 # Confirm it's the same Broker
-- ASSERT:
-    $.Msg.From: $hook.Broker
+- ASSERT|$.Msg:
+    From: $hook.Broker
 
 # Process each Bind
 - PARALLEL|$.Msg.Binds|$bind:
