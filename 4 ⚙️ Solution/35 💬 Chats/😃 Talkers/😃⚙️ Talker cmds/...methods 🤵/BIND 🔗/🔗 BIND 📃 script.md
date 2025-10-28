@@ -28,8 +28,10 @@
 
 # Save the callback hook
 - SAVE|TalkerHooks >> hook:
-    Hook: .UUID()
+    Hook: .UUID
+    Broker: $.Chat.Broker
     Chat: $.Chat.Chat
+    PublicKey: $.Chat.PublicKey
     Schemas: $:Schemas
     User: $:User
 
@@ -42,7 +44,17 @@
         Hook: $hook.Hook
         Chat: $.Chat.Chat
         Schemas: $:Schemas
+
+# Wait for the shared data
+#- WAIT >> $shared:
+#    Signal: $hook.Hook
+
+# Return the data
+#- RETURN:
+#    $shared
 ```
+
+<!-- TODO: finish the code -->
 
 > Followed by the [`Bound@Vault` 🅰️ method](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>) 
 
