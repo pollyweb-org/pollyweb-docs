@@ -1,0 +1,28 @@
+@startuml SHARE
+ 
+box Hoster ☁️ domain #FFFFFA
+    participant "Script 📃" as script
+    participant "Talker 😃" as talker
+    'participant "Consumer 💼" as consumer
+end box
+
+participant "Broker 🤵" as broker
+participant "Wallet 👱" as wallet
+
+activate script
+    script -> talker: INFORM 📝 {form}
+deactivate script
+
+activate talker
+    talker --> broker: SEND 📬 {Inform 🐌 form}
+    activate broker
+    talker -> script:
+deactivate talker
+activate script
+
+    broker --> wallet: INFO ℹ️ {form}
+deactivate broker
+
+deactivate script
+
+@enduml 

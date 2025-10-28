@@ -1,8 +1,13 @@
 # 💼 Talker `SHARE` command
 
-> Part of [Talker 😃](<../../../😃 Talker role.md>)
+> Implementation
+* Part of [Talker 😃](<../../../😃 Talker role.md>)
+* Implemented by the [`SHARE` 📃 script](<💼 SHARE 📃 script.md>)
+
 
 <br/>
+
+## FAQ
 
 1. **What is a SHARE message command?**
 
