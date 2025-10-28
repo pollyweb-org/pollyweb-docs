@@ -268,6 +268,8 @@
 
 1. **What happens when setting values into input args?**
 
+    > Used in the [`SAVE` 📃 script](<../../...datasets 🪣/SAVE 💾/💾 SAVE 📃 script.md>)
+
     It depends if the current value of the input contains the name of a [Placeholder 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>).
 
     |Scenario | Result 
