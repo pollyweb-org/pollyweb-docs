@@ -44,7 +44,7 @@
     |           | Reads `$:n`  inside the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) | `$:1` `$:2`
     | `{args}`| Optional object arguments | `{A:1, B:2}`
     | | Reads `!name` in the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) | `$:A` `$:B`|
-    | | Also reads with [`{.Inputs}`](<../../...functions 🐍/🔩 {.Inputs}.md>) | `.Inputs.A`
+    | | Also reads with [`{.Inputs}`](<../../...placeholders 🧠/$.Inputs ▶️/▶️ $.Inputs 🧠 holder.md>) | `.Inputs.A`
     | `$return`| Optional [`RETURN`](<../RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) holder | `$return`
     
     ---

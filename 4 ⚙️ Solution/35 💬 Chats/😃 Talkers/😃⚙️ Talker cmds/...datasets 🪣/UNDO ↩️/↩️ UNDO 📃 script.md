@@ -41,5 +41,5 @@ Needs||
 |-|-
 | [Commands ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) | [`ASSERT`](<../../...placeholders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`SEND`](<../../...messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>) [`RUN`](<../../...control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
 | [Messages 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Undo@Itemizer` 🅰️ method](<../../../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/Item Undo 👥🚀🛢/🛢 Undo 🚀 request.md>)
-| [Placeholders 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) | [`$.Settings`](<../../...messages 📨/$.Settings 🎛️.md>)
+| [Placeholders 🧠](<../../...placeholders 🧠/$Placeholder 🧠.md>) | [`$.Settings`](<../../...placeholders 🧠/$.Settings 🎛️/🎛️ $.Settings 🧠 holder.md>)
 |

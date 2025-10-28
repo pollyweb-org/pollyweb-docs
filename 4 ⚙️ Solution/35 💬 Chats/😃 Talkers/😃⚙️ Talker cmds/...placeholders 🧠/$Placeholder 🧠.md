@@ -15,6 +15,17 @@
     ---
     <br/>
 
+1. **What are the system placeholders?**
+
+    | Holder | Details
+    |-|-
+    | [`$.Chat`](<$.Chat 💬.md>)
+    | {{$.Inputs}}
+    | [`$.Msg`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/for handlers/$.Msg 📨.md>)
+    | [`$.Settings`](<$.Settings 🎛️.md>)
+
+    ---
+    <br/>
 
 1. **How to read a $placeholder?**
 
