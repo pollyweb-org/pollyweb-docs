@@ -27,12 +27,12 @@ Body:
         Param1: Value1
         Param2: Value2
 ```
-| Object | Property | Type |Description
-|-|-|-|-
-| Header | `From`    | string | [Vault 🗄️](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) of the [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
-|| `To`      | string | [Broker 🤵](<../../🤵🤲 Broker helper.md>) of the [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
+| Object | Property | Type |Description| Origin|Purpose
+|-|-|-|-|-|-
+| Header | `From`    | string | [Vault 🗄️](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) | [`Bound@Vault`](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
+|| `To`      | string | [Broker 🤵](<../../🤵🤲 Broker helper.md>) | [`Bound@Vault`](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
 || `Subject` | string | `Engage@Broker`
-| Body | `Bind`  | uuid   | [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) of [`.HOST/BIND/SELF` 🧩](<../../../../../7 🧩 Codes/$/🧩 VAULT code.md>)
-| | `Locator`| string | [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) for [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
-| | `Parameters`| object | Parameters for [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
+| Body | `Bind`  | uuid   | [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) of <br/> [`.HOST/BIND/SELF`](<../../../../../7 🧩 Codes/$/🧩 VAULT code.md>) | [`Bound@Vault`](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
+| | `Locator`| string | [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) || [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
+| | `Parameters`| object | Parameters || [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 |
