@@ -30,11 +30,11 @@ Body:
     Bind: <bind-uuid>
 ```
 
-|Object|Property|Type|Description
-|-|-|-|-
-|Header| `From` | string | [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) from [`Bound@Vault`](<../Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
-|| `To` | string | [Vault 🗄️](<../../🗄️🎭 Vault role.md>) from [`Bound@Vault`](<../Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
+|Object|Property|Type|Description|Origin
+|-|-|-|-|-
+|Header| `From` | string | [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | [`Bound@Vault`](<../Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
+|| `To` | string | [Vault 🗄️](<../../🗄️🎭 Vault role.md>) | [`Bound@Vault`](<../Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
 || `Subject` | string | `Unbound@Vault`
-|Body| `Bind`| uuid | [Bind 🔗 ID](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)  from [`Bound@Vault`](<../Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
+|Body| `Bind`| uuid | [Bind 🔗 ID](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)  | [`Bound@Vault`](<../Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
 |
 

@@ -30,12 +30,12 @@ Body:
     Collect: <collect-uuid> 
 ````
 
-|Object|Property|Type|Description
-|-|-|-|-
-|Header|`From` | string | [Consumer 💼](<../../../Consumers 💼/💼🎭 Consumer role.md>) from [`Consume@Consumer`](<../../../Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
-|| `To`| string | [Vault 🗄️](<../../🗄️🎭 Vault role.md>) from [`Consume@Consumer`](<../../../Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
+|Object|Property|Type|Description|Origin
+|-|-|-|-|-|
+|Header|`From` | string | [Consumer 💼](<../../../Consumers 💼/💼🎭 Consumer role.md>) | [`Consume@Consumer`](<../../../Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
+|| `To`| string | [Vault 🗄️](<../../🗄️🎭 Vault role.md>) | [`Consume@Consumer`](<../../../Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
 ||`Subject` | string | `Collect@Vault`
-|Body|`Collect` | uuid | `Collect` from [`Consume@Consumer`](<../../../Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
+|Body|`Collect` | uuid | `Collect` | [`Consume@Consumer`](<../../../Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
 |
 
 <br/>
