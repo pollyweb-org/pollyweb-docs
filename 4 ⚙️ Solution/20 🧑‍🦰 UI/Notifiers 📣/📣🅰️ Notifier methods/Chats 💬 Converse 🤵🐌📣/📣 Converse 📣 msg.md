@@ -36,7 +36,7 @@ Body:
 |      |`Chat`   |uuid  | New [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)  || [`Prompt@`](<../Chats 💬 Prompt 🤵🐌📣/📣 Prompt 🐌 msg.md>)
 |      |`Host`     |string| [Host 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) 
 |      |`Host$`     |string| `Domain` | [`Translate@`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>)
-|      |`SmallIcon`|string   | `SmallIcon` | [`Identity@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Identity.md>)
+|      |`SmallIcon`|string   | `SmallIcon` | [`Identity@`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Identity.md>)
 |      |`BigIcon`  |string   | `BigIcon` | [`Identity@`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Identity.md>)
 |      |`PrivateKey`|string  | For signing || [`Prompted@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 request.md>) [`Reply@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Reply 🧑‍🦰🐌🤗/🤗 Reply 🐌 msg.md>) [`Download@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Download 🧑‍🦰🚀🤗/🤗 Download 🚀 request.md>)
 |
