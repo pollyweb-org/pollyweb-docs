@@ -10,7 +10,7 @@
     * with a [Consumer 💼 domain](<../../../Consumers 💼/💼🎭 Consumer role.md>).
 
 > Used by
-* [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Bind 👉🔗💼/👉💼 Share Bind 🔗.md>)
+* [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Bind 👉🔗💼/🧑‍🦰 Share Bind ⏩ flow.md>)
 
 <br/>
 

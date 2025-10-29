@@ -4,7 +4,7 @@
 # 📣🚀🤵 Onboard @ Broker
 
 
-> Used in [Onboard 👉](<../../../Wallets 🧑‍🦰/🧑‍🦰✨ Wallet onboard/💬🤵 Onboard.md>)
+> Used in [Onboard 👉](<../../../Wallets 🧑‍🦰/🧑‍🦰✨ Wallet onboard 🤵/...in App/🧑‍🦰 Onboard 💬 flow.md>)
 > 
 <br/>
 

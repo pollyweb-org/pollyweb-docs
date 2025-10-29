@@ -5,8 +5,8 @@
     * to join a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) to help.
 
 > Used in:
-* [🧑‍🦰👉🤵 Host Home](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Chats 💬/💬🤵 Host home.md>) flow
-* [🧑‍🦰👉🤵 Abandon Chat](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Chats 💬/💬🤵 Abandon 💬.md>) flow
+* [🧑‍🦰👉🤵 Host Home](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Chats 💬/💬🤵 Host home ⏩ flow.md>) flow
+* [🧑‍🦰👉🤵 Abandon Chat](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Chats 💬/Abandon 💬🤵/💬🤵 Abandon ⏩ flow.md>) flow
 
 <br/>
 

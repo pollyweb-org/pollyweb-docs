@@ -7,8 +7,8 @@
 > Implemented by [`Binds` 📃 script](<🤵 Binds 📃 handler.md>)
 
 > Used in:
-* [`Translate` 💬 chat](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/💬🤵 Set Language/💬🤵 Set Language.md>)
-* [`List binds` 💬 chat](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/💬🤵 List Binds 🔗/💬🤵 List Binds 🔗.md>)
+* [`Translate` 💬 chat](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/Set Language 💬🤵/🧑‍🦰 Set Language ⏩ flow.md>)
+* [`List binds` 💬 chat](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/List Binds 💬🔗🤵 /💬🤵 List Binds ⏩ flow.md>)
 * [`Update Binds` ⏩ flow](<../../🤵⏩ Broker flows/Update Binds 🤵⏩🔗/🤵 Update Binds ⏩ flow.md>)
 
 <br/>

@@ -7,7 +7,7 @@
 * No locator means that it’s free for grabs.
 
 > Used in 
-* [🧑‍🦰👉🤗 Scan printer QR](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/🔆🖨️ Tap alias locator/🔆🖨️ Tap alias locator.md>).
+* [🧑‍🦰👉🤗 Scan printer QR](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/Tap alias locator 🔆🖨️ /🔆🖨️ Tap alias locator ⏩ flow.md>).
 
 <br/>
 
