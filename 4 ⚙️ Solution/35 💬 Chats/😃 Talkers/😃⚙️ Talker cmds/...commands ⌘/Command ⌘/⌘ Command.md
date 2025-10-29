@@ -74,8 +74,8 @@
 
     |Command|Purpose
     |-|-
-    | 🔗 [`BIND`](<../../...methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) | Calls the [Bind Vault @ Wallet ⏩](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/👉🗄️ Bind 🔗.md>) flow.
-    | 🎫 [`ISSUE`](<../../...methods 🤵/ISSUE 🎫/🎫 ISSUE ⌘ cmd.md>) | Calls the [Save Token @ Wallet ⏩](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/👉🎴 Save token.md>) flow.
+    | 🔗 [`BIND`](<../../...methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) | Calls the [Bind Vault @ Wallet ⏩](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/👉🗄️ Bind 🔗 ⏩ flow.md>) flow.
+    | 🎫 [`ISSUE`](<../../...methods 🤵/ISSUE 🎫/🎫 ISSUE ⌘ cmd.md>) | Calls the [Save Token @ Wallet ⏩](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save token ⏩ flow.md>) flow.
     | 👋 [`GOODBYE`](<../../...methods 🤵/GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>) | Calls the [Goodbye @ Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Goodbye 🤗⏩👋/🤗 Goodbye ⏩ flow.md>) ⏩ flow.
     | 📜 [`FLOW`](<../../...methods 🤵/INFORM 📝/📝 INFORM ⌘ cmd.md>)
     | 💳 [`CHARGE`](<../../...methods 🤵/CHARGE 💳/💳 CHARGE ⌘ cmd.md>)

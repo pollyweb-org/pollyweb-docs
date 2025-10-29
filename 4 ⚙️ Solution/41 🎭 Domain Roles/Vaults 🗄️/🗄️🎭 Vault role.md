@@ -31,9 +31,9 @@
 
     | | Workflow |  Description
     |-|-|-
-    | | [👉 Binds ](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/💬🤵 List Binds 🔗/💬🤵 List Binds 🔗.md>) | List the user's [Binds 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
-    || [👉 Bind](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/👉🗄️ Bind 🔗.md>) | [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) the [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) to a [Vault 🗄️](<🗄️🎭 Vault role.md>)
-    || [👉 Unbind](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Vaults 🗄️/💬🤵 Unbind 🗄️ chat.md>) | Remove a [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) from a [Vault 🗄️](<🗄️🎭 Vault role.md>)
+    | | [👉 Binds ](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/List Binds 💬🔗🤵 /💬🤵 List Binds ⏩ flow.md>) | List the user's [Binds 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
+    || [👉 Bind](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/👉🗄️ Bind 🔗 ⏩ flow.md>) | [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) the [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) to a [Vault 🗄️](<🗄️🎭 Vault role.md>)
+    || [👉 Unbind](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Vaults 🗄️/💬🤵 Unbind 🗄️ chat ⏩ flow.md>) | Remove a [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) from a [Vault 🗄️](<🗄️🎭 Vault role.md>)
     
     ---
     <br/>
@@ -44,7 +44,7 @@
         
     | | Workflow |  Description
     |-|-|-
-    ||[👉 Onboard](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰✨ Wallet onboard/💬🤵 Onboard.md>) | Register the [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) on a [Broker 🤵](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>)
+    ||[👉 Onboard](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰✨ Wallet onboard 🤵/...in App/🧑‍🦰 Onboard 💬 flow.md>) | Register the [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) on a [Broker 🤵](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>)
 
     ---
     <br/>
@@ -57,7 +57,7 @@
 
     | | Workflow |  Description
     |-|-|-
-    ||[👉 Share](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Bind 👉🔗💼/👉💼 Share Bind 🔗.md>) | Shares a [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) with a [Consumer 💼](<../Consumers 💼/💼🎭 Consumer role.md>)
+    ||[👉 Share](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Bind 👉🔗💼/🧑‍🦰 Share Bind ⏩ flow.md>) | Shares a [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) with a [Consumer 💼](<../Consumers 💼/💼🎭 Consumer role.md>)
     || [💼 Consume](<🗄️⏩ Vault flows/Consume 🗄️⏩💼/🗄️ Consume ⏩ flow.md>) | Tells a [Consumer 💼](<../Consumers 💼/💼🎭 Consumer role.md>) to collect data
     
 

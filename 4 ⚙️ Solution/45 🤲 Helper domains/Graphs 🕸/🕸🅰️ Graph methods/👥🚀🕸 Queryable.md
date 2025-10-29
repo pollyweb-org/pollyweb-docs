@@ -12,7 +12,7 @@
   * i.e., that there’s a trust path that allows for the first to query the others, 
   * and a trust path that allows the others to provide a response to a query.
 * Used by:
-  * [🧑‍🦰👉💼 Share Bind 🔗 flow](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Bind 👉🔗💼/👉💼 Share Bind 🔗.md>) 
+  * [🧑‍🦰👉💼 Share Bind 🔗 flow](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Bind 👉🔗💼/🧑‍🦰 Share Bind ⏩ flow.md>) 
 
 <br/> 
 

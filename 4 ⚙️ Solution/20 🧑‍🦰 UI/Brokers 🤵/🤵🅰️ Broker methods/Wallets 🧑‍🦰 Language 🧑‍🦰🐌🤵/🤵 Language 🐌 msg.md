@@ -5,7 +5,7 @@
 
 # 🧑‍🦰🐌🤵 Translate @ [Broker](<../../🤵🤲 Broker helper.md>)
 
-> Part of the [`Set Language` 💬 chat](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/💬🤵 Set Language/💬🤵 Set Language.md>)
+> Part of the [`Set Language` 💬 chat](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/Set Language 💬🤵/🧑‍🦰 Set Language ⏩ flow.md>)
 *  Implemented by [`Language` 📃 handler](<🤵 Language 📃 handler.md>)
 
 > Purpose
@@ -13,7 +13,7 @@
     * to change the language in the [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
 
 > Used in
-* [🧑‍🦰👉🤵 Translate @ Wallet](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/💬🤵 Set Language/💬🤵 Set Language.md>).
+* [🧑‍🦰👉🤵 Translate @ Wallet](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/Set Language 💬🤵/🧑‍🦰 Set Language ⏩ flow.md>).
 
 <br/>
 
