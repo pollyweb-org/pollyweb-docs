@@ -10,8 +10,8 @@
 * Starts a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) with a [Host 🤗 domain](<../../🤗🎭 Host role.md>).
 
 > Used by
-* [🧑‍🦰👉🤗 Scan host QR @ Wallet](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/🔆🤗 Tap host locator.md>)
-* [🧑‍🦰👉🤗 Scan printer QR @ Wallet](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/🔆🖨️ Tap alias locator.md>)
+* [🧑‍🦰👉🤗 Scan host QR @ Wallet](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/🔆🤗 Tap host locator/🔆🤗 Tap host locator.md>)
+* [🧑‍🦰👉🤗 Scan printer QR @ Wallet](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/🔆🖨️ Tap alias locator/🔆🖨️ Tap alias locator.md>)
 
 <br/> 
 

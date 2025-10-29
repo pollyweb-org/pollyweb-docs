@@ -11,7 +11,7 @@
     * of a [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
 
 * Used in:
-    * [🧑‍🦰👉🤵 Set language @ Wallet](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/💬🤵 Set Language.md>)
+    * [🧑‍🦰👉🤵 Set language @ Wallet](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/💬🤵 Set Language/💬🤵 Set Language.md>)
     * [🧑‍🦰👉🤵 List chats @ Wallet](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/💬🤵 List Chats 💬/💬🤵 List Chats 💬.md>)
     * [🤵⏩🗄️ Update chats @ Broker](<../../🤵⏩ Broker flows/Update Chats 🤵⏩💬/🤵 Update Chats ⏩ flow.md>)
 
