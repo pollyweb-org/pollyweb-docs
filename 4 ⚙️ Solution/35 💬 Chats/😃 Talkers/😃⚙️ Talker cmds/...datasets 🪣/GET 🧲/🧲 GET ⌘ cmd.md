@@ -2,11 +2,11 @@
 
 # 😃🧲 Talker `GET` command
 
-> Part of [Talker 😃](<../../../😃 Talker role.md>)
+> Implementation
+* Part of [Talker 😃](<../../../😃 Talker role.md>)
+* Implemented by the [`GET` 📃 script](<🧲 GET 📃 script.md>)
 
-> Relates to [Tables 🪣 folder](<../../../../../55 👷 Build domains/Hosteds 📦/📦📄 Hosted files/🪣📂 Tables folder.md>)
-
-<br/>
+## FAQ
 
 1. **What's a GET item command?**
 
@@ -123,6 +123,8 @@
 
 1. **How to return a default value?**
 
+    > Used by the [`Saved@Broker` 📃 handler](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 📃 handler.md>)
+
     ```yaml
     # Get the item.
     - GET >> $item:
@@ -134,6 +136,25 @@
             Number: 000    
             Name: Missing
     ```
+
+    ---
+    <br/>
+
+1. **How to find a child by key?**
+
+    > Used by the [`Pop Vault` 📃 handler](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Pop 🧑‍🦰🐌🤵/PopVault/🤵 Pop Vault 📃 handler.md>)
+
+
+    ```yaml
+    # Get the child 
+    - GET >> $child:
+        Set: $parent.Children
+        Key: <child-key>
+    ```
+
+
+    `Advantage` This method ensures that the underlying relationship between the parent and the child is preserved. 
+    * For example, it's not possible to get an `OrderLine` by `LineUUID` from the `Orders` table if given `OrderLine` is not linked to the `Order`.
 
     ---
     <br/>
