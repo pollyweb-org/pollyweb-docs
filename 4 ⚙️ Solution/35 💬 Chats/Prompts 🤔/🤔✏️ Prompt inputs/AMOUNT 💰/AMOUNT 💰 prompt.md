@@ -37,7 +37,7 @@
     ---
     <br/>
 
-1. **What's the syntax of AMOUNT in a [Talker 😃](<../../../😃 Talkers/😃 Talker role.md>)?**
+1. **What's the syntax of AMOUNT in a [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>)?**
 
     ```yaml
     # Simplest.
@@ -47,7 +47,7 @@
     | Input| Purpose 
     |-|-
     | `<statement>`| Message to show to the user
-    | `$holder`| Optional [holder 🧠](<../../../😃 Talkers/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>) with the user's answer
+    | `$holder`| Optional [holder 🧠](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>) with the user's answer
     
 
     ```yaml
@@ -99,7 +99,7 @@
 
     <br/>
 
-    Here's the [Script 📃](<../../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../../Talkers 😃/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>).
     
     ```yaml
     # 😃 Talker 
@@ -152,15 +152,15 @@
     | `$p.Pretty` | Decimal formatted to `Locale` | `$1,234.57`
     | `$p.Locale` | CLDR locale used to format | `en-US`
     | `$p.Currency` | ISO 4217 currency formatted | `USD`
-    | [`$p.$`](<../../../😃 Talkers/😃⚙️ Talker cmds/...functions 🐍/{Function} 🐍.md>) | The value of `$p.Pretty` | `$1,234.57`
-    | `$p` | The [default value](<../../../😃 Talkers/😃⚙️ Talker cmds/...functions 🐍/{Function} 🐍.md>) `$p.$` | `$1,234.57`
+    | [`$p.$`](<../../../Talkers 😃/😃⚙️ Talker cmds/...functions 🐍/{Function} 🐍.md>) | The value of `$p.Pretty` | `$1,234.57`
+    | `$p` | The [default value](<../../../Talkers 😃/😃⚙️ Talker cmds/...functions 🐍/{Function} 🐍.md>) `$p.$` | `$1,234.57`
 
     ---
     <br/>
 
 1. **How does AMOUNT process money signs?**
 
-    When collecting an [`AMOUNT`](<AMOUNT 💰 prompt.md>) input, [Talkers 😃](<../../../😃 Talkers/😃 Talker role.md>) 
+    When collecting an [`AMOUNT`](<AMOUNT 💰 prompt.md>) input, [Talkers 😃](<../../../Talkers 😃/😃 Talker role.md>) 
     * identity and clean monetary characters
     * while storing the currencies in their original currency.
 

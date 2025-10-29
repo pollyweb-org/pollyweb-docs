@@ -36,7 +36,7 @@
 
     <br/>
     
-    Here's the [Script 📃](<../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../Talkers 😃/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>).
 
     ```yaml
     # 😃 Talker
@@ -72,7 +72,7 @@
 
     <br/>
 
-    Here's the [Script 📃](<../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../Talkers 😃/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>).
 
     ```yaml
     # 😃 Talker

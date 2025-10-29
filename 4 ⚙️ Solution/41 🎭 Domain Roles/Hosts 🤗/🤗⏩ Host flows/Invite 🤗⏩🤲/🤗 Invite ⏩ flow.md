@@ -31,7 +31,7 @@ Consider the following [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Ch
 | 🤗 Host  | ℹ️ 27, got it! Thanks, Any Helper!  
 |
 
-The associated [Talker 😃](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) is as follows.
+The associated [Talker 😃](<../../../../35 💬 Chats/Talkers 😃/😃 Talker role.md>) is as follows.
 
 ```yaml
 - INFO|I'll ask my Helper for a random number.
@@ -41,10 +41,10 @@ The associated [Talker 😃](<../../../../35 💬 Chats/😃 Talkers/😃 Talker
 - INFO|{number}, got it! Thanks, Any Helper!  
 ```
 
-| [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
+| [Command ⌘](<../../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
 |-|-
 | ℹ️ [`INFO`](<../../../../35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the messages to the user.
-| 🛠️ [`INVITE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/INVITE 🤲/🤲 INVITE ⌘ cmd.md>) | To collect a random number.
+| 🛠️ [`INVITE`](<../../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...methods 🤵/INVITE 🤲/🤲 INVITE ⌘ cmd.md>) | To collect a random number.
 |
 
 

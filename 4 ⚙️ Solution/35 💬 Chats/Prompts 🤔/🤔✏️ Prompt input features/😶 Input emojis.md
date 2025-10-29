@@ -2,7 +2,7 @@
 
 > Part of [✏️ Input prompts](<../🤔⚙️ Prompt features/9 ✏️ as Input.md>)
 
-> Implemented by the [`PromptEmoji` 📃 script](<../../😃 Talkers/😃⏩ Talker flows/Prompts 😃⏩🧑‍🦰/😃 Prompts 📃 emoji.md>)
+> Implemented by the [`PromptEmoji` 📃 script](<../../Talkers 😃/😃⏩ Talker flows/Prompts 😃⏩🧑‍🦰/😃 Prompts 📃 emoji.md>)
 
 
 ## FAQ
@@ -22,7 +22,7 @@
             * e.g., `that's funny` versus `🤣🤣🤣`
   
     * To help [Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) developers, 
-        * [Talkers 😃](<../../😃 Talkers/😃 Talker role.md>) add emojis to [`Prompted@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 request.md>) messages. 
+        * [Talkers 😃](<../../Talkers 😃/😃 Talker role.md>) add emojis to [`Prompted@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 request.md>) messages. 
 
 
     ---
@@ -51,7 +51,7 @@
 
     <br/>
 
-    Here's the [Script 📃](<../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../Talkers 😃/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>).
 
     ```yaml
     # 😃 Talker
@@ -74,7 +74,7 @@
 
 1. **Can Talker prompts use alternative emojis?**
 
-    The default [Talker 😃](<../../😃 Talkers/😃 Talker role.md>) emoji `😃` can be replaced with one of the following.
+    The default [Talker 😃](<../../Talkers 😃/😃 Talker role.md>) emoji `😃` can be replaced with one of the following.
 
     ||Emoji | Application | Example
     |-|-|-|-
@@ -106,7 +106,7 @@
 
 1. **How to change an emoji in a Prompt?**
 
-    Here's a [Talker 😃](<../../😃 Talkers/😃 Talker role.md>).
+    Here's a [Talker 😃](<../../Talkers 😃/😃 Talker role.md>).
 
     ```yaml
     - CONFIRM|Are you OK?:

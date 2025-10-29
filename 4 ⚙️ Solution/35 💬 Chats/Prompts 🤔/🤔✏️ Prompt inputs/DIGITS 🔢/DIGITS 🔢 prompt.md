@@ -40,7 +40,7 @@
     <br/>
 
 
-1. **What's the format of a [Talker 😃](<../../../😃 Talkers/😃 Talker role.md>)?**
+1. **What's the format of a [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>)?**
 
     ```yaml
     # Simplest.
@@ -50,7 +50,7 @@
     | Input| Purpose 
     |-|-
     | `<statement>`| Message to show to the user
-    | `$holder`| Optional [holder 🧠](<../../../😃 Talkers/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>) with the user's answer
+    | `$holder`| Optional [holder 🧠](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>) with the user's answer
     
 
     ```yaml
@@ -95,7 +95,7 @@
 
     <br/>
     
-    Here's the [Script 📃](<../../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../../Talkers 😃/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>).
     
     ```yaml
     - DIGITS|What's the code? >> $code:

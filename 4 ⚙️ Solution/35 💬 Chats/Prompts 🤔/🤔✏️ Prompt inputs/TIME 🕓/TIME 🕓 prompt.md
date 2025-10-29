@@ -17,7 +17,7 @@
     <br/>
 
 
-1. **What's the format of a [Talker 😃](<../../../😃 Talkers/😃 Talker role.md>)?**
+1. **What's the format of a [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>)?**
 
     ```yaml
     TIME|<statement> >> $holder
@@ -26,7 +26,7 @@
     |Input| Details | Example 
     |-|-|-
     | `<statement>`| The message to the user | `What time?`
-    | `$holder`| [holder 🧠](<../../../😃 Talkers/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>) with the time | `14:23:59` 
+    | `$holder`| [holder 🧠](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>) with the time | `14:23:59` 
     
     ---
     <br/>
@@ -34,7 +34,7 @@
 1. **What's an example of a [Chat 💬](<../../../Chats 💬/💬 Chat.md>)?**
 
 
-    Here's the [Script 📃](<../../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../../Talkers 😃/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>).
     
     ```yaml
     TIME|What time? >> $time
@@ -67,7 +67,7 @@
 
     <br/>
 
-    The associated [Talker 😃](<../../../😃 Talkers/😃 Talker role.md>) would be the following.
+    The associated [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>) would be the following.
 
     ```yaml
     💬 Schedule for tomorrow:

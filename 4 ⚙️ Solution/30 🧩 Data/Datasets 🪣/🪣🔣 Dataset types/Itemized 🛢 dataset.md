@@ -243,7 +243,7 @@
     NoUpdates: True  # it's False by default
     ```
 
-    Here's a [Talker 😃](<../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) excerpt from [`Grab@Printer`](<../../../45 🤲 Helper domains/Printers 🖨️/🖨️🅰️ Printer methods/Grab 👥🚀🖨️/🖨️ Grab 🚀 request.md>)
+    Here's a [Talker 😃](<../../../35 💬 Chats/Talkers 😃/😃 Talker role.md>) excerpt from [`Grab@Printer`](<../../../45 🤲 Helper domains/Printers 🖨️/🖨️🅰️ Printer methods/Grab 👥🚀🖨️/🖨️ Grab 🚀 request.md>)
 
     ```yaml
     # Give a holder name to avoid exceptions.
@@ -253,9 +253,9 @@
 
     |Action|Condition|Behavior
     |-|-|-
-    | 💾 [`SAVE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | Same value | Allows multiple  idempotent saves
+    | 💾 [`SAVE`](<../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | Same value | Allows multiple  idempotent saves
     | |Different | Blocked, raises an error
-    | 🗑️ [`DELETE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>) | - | Allows multiple idempotent times
+    | 🗑️ [`DELETE`](<../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>) | - | Allows multiple idempotent times
 
     ---
     <br/>
@@ -276,11 +276,11 @@
     
     |Value|Description|
     |-|-|
-    | `ADDED`   | Item inserted on the [Itemized 🛢 dataset](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) on a [`SAVE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
-    | `CHANGED` | The content of the item has changed on a [`SAVE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
-    | `EXPIRED` | Item removed automatically due to a [`SAVE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) expiration
-    | `DELETED` | Item deleted on a [`DELETE`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>), either soft or hard
-    | `PURGED`  | Item removed automatically due to an [`UNDO`](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/UNDO ↩️/↩️ UNDO ⌘ cmd.md>) timeout
+    | `ADDED`   | Item inserted on the [Itemized 🛢 dataset](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) on a [`SAVE`](<../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
+    | `CHANGED` | The content of the item has changed on a [`SAVE`](<../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
+    | `EXPIRED` | Item removed automatically due to a [`SAVE`](<../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) expiration
+    | `DELETED` | Item deleted on a [`DELETE`](<../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>), either soft or hard
+    | `PURGED`  | Item removed automatically due to an [`UNDO`](<../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...datasets 🪣/UNDO ↩️/↩️ UNDO ⌘ cmd.md>) timeout
     |
 
 1. **How to register a Trigger?**
@@ -293,7 +293,7 @@
 
     |Input|Details|Example
     |-|-|-
-    | `<handler>` | Name of the [Script 📃](<../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) to handle | `MyHandler`
+    | `<handler>` | Name of the [Script 📃](<../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) to handle | `MyHandler`
     | `<trigger-list>` | Triggers to handle | `ADDED,PURGED`
     |
 

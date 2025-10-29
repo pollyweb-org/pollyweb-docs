@@ -29,7 +29,7 @@
     |
 
 
-    Here's a [Talker 😃](<../../😃 Talkers/😃 Talker role.md>).
+    Here's a [Talker 😃](<../../Talkers 😃/😃 Talker role.md>).
 
     ```yaml
     - QUANTITY|How many players? >> $qt:
@@ -61,7 +61,7 @@
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 What's the code? [+]<br/> | `012345`
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ Code validated!
 
-    Here's the [Script 📃](<../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../Talkers 😃/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>).
 
     ```yaml
     📃 Example:
@@ -96,7 +96,7 @@
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ Code validated!
     |
 
-    Here's the [Script 📃](<../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../Talkers 😃/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>).
 
     ```yaml
     # Talker 😃
@@ -115,7 +115,7 @@
     - RUN|get-code
     ```
 
-    Here's the [Function 🐍 handler](<../../😃 Talkers/😃⚙️ Talker cmds/...functions 🐍/{Function} 🐍.md>).
+    Here's the [Function 🐍 handler](<../../Talkers 😃/😃⚙️ Talker cmds/...functions 🐍/{Function} 🐍.md>).
 
     ```python
     # 🐍 Python handler

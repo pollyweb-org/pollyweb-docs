@@ -2,7 +2,7 @@
 
 > Purpose
  
-* Handles a custom [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/⌘ Command.md>)
+* Handles a custom [Command ⌘](<../../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/⌘ Command.md>)
 
 
 ## Synchronous Request 🚀
@@ -23,10 +23,10 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header    | `From`        | string    | [Talker 😃 domain](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>)
+| Header    | `From`        | string    | [Talker 😃 domain](<../../../../35 💬 Chats/Talkers 😃/😃 Talker role.md>)
 |           | `To`          | string    | [Hosted 📦 domain](<../../📦👥 Hosted domain.md>)
 | | `Subject`| string | `Parse@Hosted` |
-| Body      | `Command`     | any    | [Command ⌘](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/⌘ Command.md>) to parse
+| Body      | `Command`     | any    | [Command ⌘](<../../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/⌘ Command.md>) to parse
 |
 
 ## Synchronous Response
@@ -42,6 +42,6 @@ Run:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Run       | `Script`      | string    | [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) to run
-|           | `Inputs`      | map    | Inputs for the [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>)
+| Run       | `Script`      | string    | [Script 📃](<../../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) to run
+|           | `Inputs`      | map    | Inputs for the [Script 📃](<../../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>)
 |

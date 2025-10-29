@@ -96,7 +96,7 @@
     | 🛠️ [Helper](<🤲👥 Helper domain.md>) | ✅ Done!
     |
 
-    Here's the [Talker 😃](<../../35 💬 Chats/😃 Talkers/😃 Talker role.md>).
+    Here's the [Talker 😃](<../../35 💬 Chats/Talkers 😃/😃 Talker role.md>).
 
     ```yaml
     💬 Register:                # Entry menu
@@ -117,15 +117,15 @@
     - GOODBYE                   # Show advertisement
     ```
 
-    | [Command ⌘](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
     |-|-
-    | 📝 [`INFORM`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/INFORM 📝/📝 INFORM ⌘ cmd.md>) | To provide instructions
-    | 🔗 [`BIND`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) | To create a user profile
-    | 🛠️ [`INVITE`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/INVITE 🤲/🤲 INVITE ⌘ cmd.md>) | To subscribe the user to plan
-    | ❄️ [`FREEZE`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/FREEZE ❄️/❄️ FREEZE ⌘ cmd.md>) | To disable past inputs
-    | ⬇️ [`EVAL`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | To register on the database
+    | 📝 [`INFORM`](<../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...methods 🤵/INFORM 📝/📝 INFORM ⌘ cmd.md>) | To provide instructions
+    | 🔗 [`BIND`](<../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) | To create a user profile
+    | 🛠️ [`INVITE`](<../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...methods 🤵/INVITE 🤲/🤲 INVITE ⌘ cmd.md>) | To subscribe the user to plan
+    | ❄️ [`FREEZE`](<../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...methods 🤵/FREEZE ❄️/❄️ FREEZE ⌘ cmd.md>) | To disable past inputs
+    | ⬇️ [`EVAL`](<../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | To register on the database
     | ✅ [`SUCCESS`](<../../35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) | To say that it was successful
-    | 👋 [`GOODBYE`](<../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>) | To show advertising
+    | 👋 [`GOODBYE`](<../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...methods 🤵/GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>) | To show advertising
     
 
     ---

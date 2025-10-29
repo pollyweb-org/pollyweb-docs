@@ -24,7 +24,7 @@ Consider the following excerpt from the [Book restaurant table 🤝 use case](<.
 
 ## 😃 Talker 
 
-The associated [Talker 😃](<../../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) uses the [`ISSUE`](<../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/ISSUE 🎫/🎫 ISSUE ⌘ cmd.md>) command.
+The associated [Talker 😃](<../../../../../35 💬 Chats/Talkers 😃/😃 Talker role.md>) uses the [`ISSUE`](<../../../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...methods 🤵/ISSUE 🎫/🎫 ISSUE ⌘ cmd.md>) command.
 
 ```yaml
 - INFO|Issuing your token...
@@ -34,9 +34,9 @@ The associated [Talker 😃](<../../../../../35 💬 Chats/😃 Talkers/😃 Tal
     Else: FAILURE|You rejected the token.
 ```
 
-| [Command ⌘](<../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
+| [Command ⌘](<../../../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
 |-|-
-| 🎫 [`ISSUE`](<../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/ISSUE 🎫/🎫 ISSUE ⌘ cmd.md>) | Call the [Save Token ⏩ flow](<🧑‍🦰 Save Token ⏩ flow.md>).
+| 🎫 [`ISSUE`](<../../../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...methods 🤵/ISSUE 🎫/🎫 ISSUE ⌘ cmd.md>) | Call the [Save Token ⏩ flow](<🧑‍🦰 Save Token ⏩ flow.md>).
 |
 
 <br/>
