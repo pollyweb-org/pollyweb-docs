@@ -37,8 +37,8 @@ Object |Property|Type|Description|Origin|Purpose
 || `Subject` | string | `Consume@Consumer`
 |Body| `Hook` | uuid | [Consumer 💼](<../../💼🎭 Consumer role.md>)  hook | [`Query@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) [`Invite@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)
 || `Collect` | uuid | [Vault 🗄️](<../../../Vaults 🗄️/🗄️🎭 Vault role.md>) Hook || [`Collect@`](<../../../Vaults 🗄️/🗄️🅰️ Vault methods/Collect 💼🚀🗄️/🗄️ Collect 🚀 request.md>)
-|| `Schema`| string | Data [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) 
-|| `TTL` | time| Collect deadline
+|| `Schema`| string | Data [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) || [`Trusts@`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>)
+|| `TTL` | time| Collect deadline || [`Collect@`](<../../../Vaults 🗄️/🗄️🅰️ Vault methods/Collect 💼🚀🗄️/🗄️ Collect 🚀 request.md>)
 |
 
 
