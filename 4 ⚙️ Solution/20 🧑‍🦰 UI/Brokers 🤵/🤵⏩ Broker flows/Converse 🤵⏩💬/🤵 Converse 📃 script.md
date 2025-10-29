@@ -6,18 +6,16 @@
 
 ## Script
 
-> Assumes `$wallet` and `$locator` placeholders from the [`Assess` 📃 script](<../../🤵🅰️ Broker methods/Locators 🔆 Assess 🧑‍🦰🐌🤵/🤵 Assess 📃 handler.md>).
+> Requires `$:Wallet` and `$:Locator` placeholders from the [`Assess` 📃 script](<../../🤵🅰️ Broker methods/Locators 🔆 Assess 🧑‍🦰🐌🤵/🤵 Assess 📃 handler.md>).
 
 > Continues from the [`Assess` 📃 script](<../../🤵🅰️ Broker methods/Locators 🔆 Assess 🧑‍🦰🐌🤵/🤵 Assess 📃 handler.md>)
 
-<!-- TODO: Change the ASSERT -->
 
 ```yaml
 📃 Converse:
 
-- ASSERT:
-    - $wallet
-    - $locator
+- ASSERT|.Inputs:
+    AllOf: Locator, Wallet
 
 # Get the Host details from the Graph
 - SEND >> $domain:
@@ -25,7 +23,7 @@
         To: $.Hosted.Graph
         Subject: Identity@Graph
     Body:
-        Domain: $locator.Host
+        Domain: $:Locator.Host
 
 # Save the Host info
 - SAVE|BrokerDomains:
@@ -40,8 +38,8 @@
         To: $.Hosted.Graph
         Subject: Translate@Graph
     Body:
-        Language: $wallet.Language
-        Domain: $locator.Host
+        Language: $:Wallet.Language
+        Domain: $:Locator.Host
 
 # Create a new key pair
 - KEYS >> $keys
@@ -49,13 +47,13 @@
 # Create a new Chat
 - SAVE|BrokerChats >> $chat:
     Chat: .UUID()
-    Wallet: $wallet.Wallet
+    Wallet: $:Wallet.Wallet
     # Host info
-    Host: $locator.Host
+    Host: $:Locator.Host
     Host$: $translation.Domain
     # Locator info
-    Key: $locator.Key
-    Parameters: $locator.Parameters
+    Key: $:Locator.Key
+    Parameters: $:Locator.Parameters
     # For Wallets to sign messages
     PrivateKey: $keys.PrivateKey
     # For domains to verify Wallet messages
@@ -64,7 +62,7 @@
 # Open the Chat in the Wallet app
 - SEND:
     Header:
-        To: $wallet.Notifier
+        To: $:Wallet.Notifier
         Subject: Converse@Notifier
     Body:
         Wallet: $chat.Wallet
@@ -78,7 +76,7 @@
 
 # Update the Chats
 - RUN|UpdateChats:
-    wallet: $wallet
+    wallet: $:Wallet.Wallet
 ```
 
 
