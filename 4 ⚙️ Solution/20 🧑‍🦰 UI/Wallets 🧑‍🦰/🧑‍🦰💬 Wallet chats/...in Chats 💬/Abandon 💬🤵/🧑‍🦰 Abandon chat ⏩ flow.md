@@ -10,7 +10,7 @@
 
 ## Chat
 
-| [Domain](<../../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../🧑‍🦰🛠️ Wallet app.md>)
+| [Domain](<../../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../../🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
 ...
 | 🤗 [Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 More spam? [Yes, No] 

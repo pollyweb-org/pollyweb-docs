@@ -12,7 +12,7 @@
 *  verified with the `PublicKey` from [`Hello@Host`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 
 > Purpose
-* Downloads the content of a [Prompt 🤔](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>).
+* Downloads the content of a [Prompt 🤔](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>).
 
 <br/>
 
@@ -61,22 +61,22 @@ Options:                            # Optional
 
 |Property|Type|Description
 |-|-|-
-| [`Format`](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>)  | string | One format supported by [Prompts 🤔](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>)
-| [`Emoji`](<../../../../35 💬 Chats/🤔 Prompts/🤔✏️ Prompt input features/😶⌘ EMOJI cmd.md>) | string | Emoji to display
-| [`Text`](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/2 🪧 Text.md>) | string | Main message,  to display in the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
-| [`MinValue`](<../../../../35 💬 Chats/🤔 Prompts/🤔✏️ Prompt input features/📋 Input validation.md>) | int | Optional minimum value
-| [`MaxValue`](<../../../../35 💬 Chats/🤔 Prompts/🤔✏️ Prompt input features/📋 Input validation.md>) | int | Optional maximum value
-| [`Appendix`](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/5 📎 with Appendix.md>)| uuid   | File to download via [`Download@Host`](<../Download 🧑‍🦰🚀🤗/🤗 Download 🚀 request.md>)
-| [`Details`](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/3 ⊕ with Details.md>) | string | Extended [details](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/3 ⊕ with Details.md>) in Markdown format
-| [`Options`](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/4 🔘 with Options.md>) | object[]   | List of `Option` objects
+| [`Format`](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>)  | string | One format supported by [Prompts 🤔](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>)
+| [`Emoji`](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt input features/😶⌘ EMOJI cmd.md>) | string | Emoji to display
+| [`Text`](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/2 🪧 Text.md>) | string | Main message,  to display in the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
+| [`MinValue`](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt input features/📋 Input validation.md>) | int | Optional minimum value
+| [`MaxValue`](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt input features/📋 Input validation.md>) | int | Optional maximum value
+| [`Appendix`](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/5 📎 with Appendix.md>)| uuid   | File to download via [`Download@Host`](<../Download 🧑‍🦰🚀🤗/🤗 Download 🚀 request.md>)
+| [`Details`](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/3 ⊕ with Details.md>) | string | Extended [details](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/3 ⊕ with Details.md>) in Markdown format
+| [`Options`](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/4 🔘 with Options.md>) | object[]   | List of `Option` objects
 |
 
 ### Option object
 
 |Property|Type|Description
 |-|-|-
-| `ID`          | string  | ID of the [option](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/4 🔘 with Options.md>) for [`Reply@Host`](<../Reply 🧑‍🦰🐌🤗/🤗 Reply 🐌 msg.md>)
-| `Title` | string  | Text of the [option](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/4 🔘 with Options.md>) to be displayed
+| `ID`          | string  | ID of the [option](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/4 🔘 with Options.md>) for [`Reply@Host`](<../Reply 🧑‍🦰🐌🤗/🤗 Reply 🐌 msg.md>)
+| `Title` | string  | Text of the [option](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/4 🔘 with Options.md>) to be displayed
 | `Locator` | string | Optional [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to [Assess ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Click locator 👉🔆🤗/🧑‍🦰 Click locator ⏩ flow.md>)
 |
 

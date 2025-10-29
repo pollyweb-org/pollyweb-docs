@@ -1,8 +1,8 @@
 # 🤗📃 Prompt Emoji script
 
 > Purpose
-* Calculates an emoji for a [Prompt 🤔](<../../../🤔 Prompts/🤔 Prompt.md>)
-* Implements the logic in [Input emojis 😶 ](<../../../🤔 Prompts/🤔✏️ Prompt input features/😶 Input emojis.md>)
+* Calculates an emoji for a [Prompt 🤔](<../../../Prompts 🤔/🤔 Prompt.md>)
+* Implements the logic in [Input emojis 😶 ](<../../../Prompts 🤔/🤔✏️ Prompt input features/😶 Input emojis.md>)
 
 
 > Called by
