@@ -72,7 +72,7 @@
     - INFO|$p.A.  # show 10
     - INFO|$p     # show 30
     ```
-    Commands: [`EVAL`](<EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
+    Commands: [`EVAL`](<EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`INFO`](<../../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
 
     ---
     <br/>
@@ -93,7 +93,7 @@
     - PARALLEL|$list|$number:
         - INFO|$number
     ```
-    Commands: [`EVAL`](<EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`PARALLEL`](<../...control ▶️/PARALLEL *️⃣/*️⃣ PARALLEL ⌘ cmd.md>)
+    Commands: [`EVAL`](<EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`INFO`](<../../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`PARALLEL`](<../...control ▶️/PARALLEL *️⃣/*️⃣ PARALLEL ⌘ cmd.md>)
 
     ---
     <br/>
@@ -113,7 +113,7 @@
     - INFO|$list.Length() # Shows 3
     - INFO|$list.Size() # Shows 3
     ```
-    Commands: [`EVAL`](<EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
+    Commands: [`EVAL`](<EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`INFO`](<../../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
 
     ---
     <br/>
@@ -132,7 +132,7 @@
     # Show the list of values in property A
     - INFO|$list.A   # Shows [1,2]
     ```
-    Commands: [`EVAL`](<EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
+    Commands: [`EVAL`](<EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`INFO`](<../../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
 
     ---
     <br/>
@@ -143,7 +143,7 @@
     * `.Holders.Set('$p', new_value)` 
 
     In a [Talker 😃](<../../😃 Talker role.md>) script, use `>>` to send a value to a $holder:
-    * `TEXT|bla >> $p` writes the answer to a [`TEXT` 🔠 input](<../../../🤔 Prompts/🤔✏️ Prompt inputs/TEXT 🔠/TEXT 🔠 prompt.md>).
+    * `TEXT|bla >> $p` writes the answer to a [`TEXT` 🔠 input](<../../../Prompts 🤔/🤔✏️ Prompt inputs/TEXT 🔠/TEXT 🔠 prompt.md>).
     * `EVAL|f >> $p` writes the return of a [{Function}](<../...functions 🐍/{Function} 🐍.md>) named `f`.
 
     You can also push data structures with [`EVAL` ⬇️](<EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>).
@@ -230,7 +230,7 @@
     # This shows: 
     #    The value of p is 123
     ```
-    Commands: [`EVAL`](<EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`INFO`](<../../../🤔 Prompts/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
+    Commands: [`EVAL`](<EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`INFO`](<../../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
 
     ---
     <br/>

@@ -51,8 +51,8 @@ Steps:
 
 |Property|Type|Description
 |-|-|-
-| `Verb`    | string | `Ready to {verb}?` [confirmation 👍](<../../../35 💬 Chats/🤔 Prompts/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>)
-| `Details` | string | Text to show on [Prompt 🤔 details](<../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/3 ⊕ with Details.md>)
+| `Verb`    | string | `Ready to {verb}?` [confirmation 👍](<../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>)
+| `Details` | string | Text to show on [Prompt 🤔 details](<../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/3 ⊕ with Details.md>)
 | `Steps`   | list   | List of `Step` objects
 |
 
@@ -61,7 +61,7 @@ Steps:
 |Property|Type|Description
 |-|-|-
 | `Schema` | string | [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) for [`Query@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)
-| `Purpose` | string | Explication listed on [Prompt 🤔 details](<../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/3 ⊕ with Details.md>)
+| `Purpose` | string | Explication listed on [Prompt 🤔 details](<../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/3 ⊕ with Details.md>)
 |
 
 <br/>
