@@ -23,7 +23,7 @@
 
 ## Flow diagram
 
-![Flow diagram](<⚙️ Abandon chat.png>)
+![Flow diagram](<🧑‍🦰 Abandon chat ⚙️ uml.png>)
 
 
 | # | Call | Notes

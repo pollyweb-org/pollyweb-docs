@@ -16,7 +16,7 @@
 
     No. Like in a conversation between two persons, 
     * users can only stay silent 
-    * or [abandon the conversation 👉](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Chats 💬/Abandon 💬🤵/💬🤵 Abandon ⏩ flow.md>).
+    * or [abandon the conversation 👉](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Chats 💬/Abandon 💬🤵/🧑‍🦰 Abandon chat ⏩ flow.md>).
 
     ---
     <br/>

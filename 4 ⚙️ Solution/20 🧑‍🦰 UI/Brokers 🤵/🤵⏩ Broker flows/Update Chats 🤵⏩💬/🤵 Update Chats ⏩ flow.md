@@ -7,7 +7,7 @@
 * Updates the list of [Chats 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) on a [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
 
 > Used in
-* [🧑‍🦰👉🤵 Abandon chat @ Wallet](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Chats 💬/Abandon 💬🤵/💬🤵 Abandon ⏩ flow.md>)
+* [🧑‍🦰👉🤵 Abandon chat @ Wallet](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Chats 💬/Abandon 💬🤵/🧑‍🦰 Abandon chat ⏩ flow.md>)
 * [🤵⏩🧑‍🦰 Converse @ Broker](<../Converse 🤵⏩💬/🤵 Converse ⏩ flow.md>)
 
 <br/>
