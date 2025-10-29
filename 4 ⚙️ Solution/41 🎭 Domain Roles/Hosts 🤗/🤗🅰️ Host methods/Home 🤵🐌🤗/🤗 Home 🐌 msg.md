@@ -1,10 +1,12 @@
 # 🧑‍🦰🐌🤗 Home @ Host
 
-> Implemented by the [`Home` 📃 script](<🤗 Home 📃 handler.md>)
+> Implementations
+* Implemented by the [`Home` 📃 script](<🤗 Home 📃 handler.md>)
 
-> Shows the main menu of the [Host 🤗 domain](<../../🤗🎭 Host role.md>).
+> Purpose
+* Shows the main menu of the [Host 🤗 domain](<../../🤗🎭 Host role.md>).
 
-> Used by:
+> Used by
 * [🧑‍🦰👉🗄️ Unbind](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Vaults 🗄️/Unbind 💬🗄️🤵 /🧑‍🦰 Unbind Vault ⏩ flow.md>) flow
 * [🧑‍🦰👉🤵 Remove Token](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Tokens 🎫/Remove 💬🎫🤵 /🧑‍🦰 Remove Token ⏩ flow.md>) flow
 * [🧑‍🦰👉🤵 Host home](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Chats 💬/Host home 💬🤵/🧑‍🦰 Host home ⏩ flow.md>) flow
@@ -49,10 +51,10 @@ Body:
     Chat: <chat-uuid>
 ```
 
-|Object|Property|Type|Description
-|-|-|-|-
-|Header|`From`|string | [Broker 🤵 domain](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) name
-||`To`|string| [Host 🤗 domain](<../../🤗🎭 Host role.md>) name
+|Object|Property|Type|Description | Origin
+|-|-|-|-|-
+|Header|`From`|string | [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | [`Hello@Host`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
+||`To`|string| [Host 🤗](<../../🤗🎭 Host role.md>) | [`Hello@Host`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 ||`Subject`|string|`Home@Host`
-|Body  |`Chat`   |uuid  | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Hello@Host`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
+|Body  |`Chat`   |uuid  | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID | [`Hello@Host`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 |

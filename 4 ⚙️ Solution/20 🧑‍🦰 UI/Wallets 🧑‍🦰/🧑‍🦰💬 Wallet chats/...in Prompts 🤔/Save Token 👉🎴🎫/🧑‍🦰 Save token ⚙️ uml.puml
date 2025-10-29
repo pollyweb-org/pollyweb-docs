@@ -6,8 +6,8 @@ actor "User\nin chat" as user
 participant "Wallet 👱\napp" as wallet
 participant "Notifier 📣\nbff" as notifier
 participant "Broker 🤵\ndomain" as broker
-participant "Issuer 🎴\ndomain" as issuer
 participant "Graph 🕸\ndomain" as graph
+participant "Issuer 🎴\ndomain" as issuer
 
 
 activate issuer

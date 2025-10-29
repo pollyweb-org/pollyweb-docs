@@ -1,9 +1,10 @@
 # 🤵🐌🤗 Abandoned @ Host
 
+> Flow
+* Part of the [Abandon session 🧑‍🦰👉🤗](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Chats 💬/Abandon 💬🤵/🧑‍🦰 Abandon chat ⏩ flow.md>) flow.
 
-> Part of the [Abandon session 🧑‍🦰👉🤗](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Chats 💬/Abandon 💬🤵/🧑‍🦰 Abandon chat ⏩ flow.md>) flow.
-
-Tells all [Host 🤗 domains](<../../🤗🎭 Host role.md>) in [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) that the user abandoned it.
+> Purpose
+* Tells all [Host 🤗 domains](<../../🤗🎭 Host role.md>) in a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) that the user abandoned it.
 
 <br/>
 
@@ -21,12 +22,12 @@ Body:
     Chat: <chat-uuid>
 ```
 
-|Object|Property|Type|Description
-|-|-|-|-
-| Header    | `From`        | string    | [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) from [`Join@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Join 🧑‍🦰🐌🤵/🤵 Join 🐌 msg.md>)
-|           | `To`          | string    | [Host 🤗 domain](<../../🤗🎭 Host role.md>) from:<br/>- [`Hello@Host`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>) <br/>- [`Invited@Helper`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲🅰️ Helper methods/🤵🐌🤲 Invited.md>) <br/>-  [`Disclose@Vault`](<../../../Vaults 🗄️/🗄️🅰️ Vault methods/Disclose 🤵🐌🗄️/🗄️ Disclose 🐌 msg.md>)
+|Object|Property|Type|Description | Origin 
+|-|-|-|-|-
+| Header    | `From`        | string    | [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | [`Join@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Join 🧑‍🦰🐌🤵/🤵 Join 🐌 msg.md>)
+|           | `To`          | string    | [Host 🤗 domain](<../../🤗🎭 Host role.md>) | [`Hello@Host`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>) <br/> [`Invited@Helper`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲🅰️ Helper methods/🤵🐌🤲 Invited.md>) <br/>  [`Disclose@Vault`](<../../../Vaults 🗄️/🗄️🅰️ Vault methods/Disclose 🤵🐌🗄️/🗄️ Disclose 🐌 msg.md>)
 |           | `Subject`     | string    | `Abandoned@Host`
-| Body      | `Chat`      | uuid      | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) from [`Hello@Host`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
+| Body      | `Chat`      | uuid      | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) | [`Hello@Host`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 |
 
 <br/>
