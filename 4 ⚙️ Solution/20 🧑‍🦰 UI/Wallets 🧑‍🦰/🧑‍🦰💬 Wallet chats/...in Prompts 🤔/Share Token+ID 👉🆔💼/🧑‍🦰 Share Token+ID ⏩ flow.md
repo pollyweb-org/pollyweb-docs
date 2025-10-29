@@ -7,7 +7,7 @@
 
 ## Flow diagram
 
-![alt text](<⚙️🎫 Share Token+ID.png>)
+![alt text](<🧑‍🦰 Share Token+ID ⚙️ uml.png>)
 
 |#| Step | Purpose
 |-|-|-

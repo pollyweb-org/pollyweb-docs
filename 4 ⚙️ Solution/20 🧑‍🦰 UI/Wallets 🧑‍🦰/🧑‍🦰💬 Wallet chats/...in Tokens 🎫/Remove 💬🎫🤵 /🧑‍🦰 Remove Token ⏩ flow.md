@@ -29,7 +29,7 @@
 
 ## Flow diagram ⏩
 
-![alt text](<⚙️🎫 Remove.png>)
+![alt text](<🧑‍🦰 Remove Token ⚙️ uml.png>)
 
 
 
