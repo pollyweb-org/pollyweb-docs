@@ -10,10 +10,9 @@
 
 <br/>
 
+<!-- TODO: separate the Unbind Vault script -->
 
 ## Script
-
-
 
 > Requires a `$:Wallet` holder from the [`Pop@Broker` 📃 script](<../🤵 Pop 📃 handler.md>)
 
