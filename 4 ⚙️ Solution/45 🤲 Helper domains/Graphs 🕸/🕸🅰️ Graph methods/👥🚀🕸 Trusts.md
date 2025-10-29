@@ -19,7 +19,7 @@
   * but for verification by another [domain 👥](<../../../40 👥 Domains/👥 Domain.md>).
   
 * Used in:
-  * [🧑‍🦰👉💼 Share Token 🎫 flow](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Token 🎫.md>) 
+  * [🧑‍🦰👉💼 Share Token 🎫 flow](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Token 🎫/👉💼 Share Token 🎫 flow.md>) 
   * [🧑‍🦰👉💼 Share Bind 🔗 flow](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Bind 🔗.md>) 
 
 

@@ -242,7 +242,7 @@
     |  Flow | Purpose
     |-|-
     | [⏩🧑‍🦰 Query Vault](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Bind 🔗.md>) | Ask for [Schema Codes 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) in [Vaults 🗄️](<../Vaults 🗄️/🗄️🎭 Vault role.md>) 
-    | [⏩🧑‍🦰 Share Token](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Token 🎫.md>) | Ask for [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) in  [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) 
+    | [⏩🧑‍🦰 Share Token](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Token 🎫/👉💼 Share Token 🎫 flow.md>) | Ask for [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) in  [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) 
     | [⏩🧑‍🦰 Share ID Token](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Token+ID.md>) | Ask for [Identity 🆔](<../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) bound [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
     | [⏩🧑‍🦰 Token status](<💼⏩ Consumer flows/Token Status 💼⏩🎫/💼 Token Status ⏩ flow.md>) | Ask for the status of a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
 
