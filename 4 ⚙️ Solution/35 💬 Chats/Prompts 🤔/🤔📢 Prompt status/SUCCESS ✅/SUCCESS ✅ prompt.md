@@ -55,7 +55,7 @@
     ---
     <br/>
 
-1. **What's the format for a [Talker 😃](<../../../😃 Talkers/😃 Talker role.md>)?**
+1. **What's the format for a [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>)?**
 
     ```yaml
     # Inline
@@ -99,7 +99,7 @@
     
     <br/>
 
-    Here's the [Script 📃](<../../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../../Talkers 😃/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>).
     
     ```yaml
     📃 Example:

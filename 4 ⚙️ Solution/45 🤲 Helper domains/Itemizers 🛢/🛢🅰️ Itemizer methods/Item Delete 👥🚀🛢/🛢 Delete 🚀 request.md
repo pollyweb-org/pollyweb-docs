@@ -2,14 +2,14 @@
 
 > Part of [Itemizer 🛢 helper](<../../🛢🤲 Itemizer helper.md>)
 
-> Implements the  [`DELETE`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>) commands via the [`.DELETE` 📃 script](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/DELETE 🗑️/🗑️ DELETE 📃 script.md>).
+> Implements the  [`DELETE`](<../../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>) commands via the [`.DELETE` 📃 script](<../../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...datasets 🪣/DELETE 🗑️/🗑️ DELETE 📃 script.md>).
 
 > Purpose
 
 * Deletes items 
   * on an [Itemized 🛢 datasets](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>)
-  * as requested by a [Talker 😃 domain](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>)
-  * via the [`.DELETE` 📃 script](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/DELETE 🗑️/🗑️ DELETE 📃 script.md>).
+  * as requested by a [Talker 😃 domain](<../../../../35 💬 Chats/Talkers 😃/😃 Talker role.md>)
+  * via the [`.DELETE` 📃 script](<../../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...datasets 🪣/DELETE 🗑️/🗑️ DELETE 📃 script.md>).
 
 <br/>
 
@@ -30,13 +30,13 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header    | `From`        | string    | [Talker 😃](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) from [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
+| Header    | `From`        | string    | [Talker 😃](<../../../../35 💬 Chats/Talkers 😃/😃 Talker role.md>) from [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
 |           | `To`          | string    | [Itemizer 🛢](<../../🛢🤲 Itemizer helper.md>) from [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
 |           | `Subject`     | string    | `Delete@Itemizer`
-| Body    | `Script`     | string    | [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) for traceability
+| Body    | `Script`     | string    | [Script 📃](<../../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) for traceability
 |         | `Set`    | string  | `Set` from [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
 |         | `Key`     | string[]  | Case insensitive keys
-|         | `Undo` | string  | Optional [`UNDO`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/UNDO ↩️/↩️ UNDO ⌘ cmd.md>) time
+|         | `Undo` | string  | Optional [`UNDO`](<../../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...datasets 🪣/UNDO ↩️/↩️ UNDO ⌘ cmd.md>) time
 |
 
 <br/>
@@ -64,7 +64,7 @@ Body:
 
 1. **How to know if the item was deleted on timeout?**
 
-    [`Talker`](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) domains can register a hook on [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>) to listen to delete events on the [`Itemized dataset`](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
+    [`Talker`](<../../../../35 💬 Chats/Talkers 😃/😃 Talker role.md>) domains can register a hook on [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>) to listen to delete events on the [`Itemized dataset`](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
     * Upon deletion, [`Itemizer helper`](<../../🛢🤲 Itemizer helper.md>) invoke the [`Triggered@Talker`](<../../🛢🔔 Itemizer events/🛢🔔 Triggered.md>) method.
 
     ---
@@ -72,7 +72,7 @@ Body:
 
 1. **Why not an async message?**
 
-    [Talker 😃 domains](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) need to take immediate decisions upon failures when processing deletes, so they need to know immediately if the action was successful or not.
+    [Talker 😃 domains](<../../../../35 💬 Chats/Talkers 😃/😃 Talker role.md>) need to take immediate decisions upon failures when processing deletes, so they need to know immediately if the action was successful or not.
 
     ---
     <br/>

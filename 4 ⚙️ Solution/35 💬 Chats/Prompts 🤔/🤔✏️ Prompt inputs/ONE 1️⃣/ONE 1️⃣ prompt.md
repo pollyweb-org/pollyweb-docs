@@ -30,7 +30,7 @@
 
 
 
-1. **What's the syntax on a [Talker 😃](<../../../😃 Talkers/😃 Talker role.md>)?**
+1. **What's the syntax on a [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>)?**
 
     ```yaml
     # Simplest.
@@ -42,7 +42,7 @@
     | `<statement>`| Message to show to the user
     | `<options>` | Comma-separated strings, or | `A,B,C`
     || a comma-separated dictionary | `1:A,2:B`
-    | `$holder`| Optional selection [holder 🧠](<../../../😃 Talkers/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>)
+    | `$holder`| Optional selection [holder 🧠](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>)
     
     ```yaml
     # Comprehensive.
@@ -79,7 +79,7 @@
    
     <br/>
 
-    Here's the [Script 📃](<../../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../../Talkers 😃/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>).
     
     ```yaml
     📃 Example:

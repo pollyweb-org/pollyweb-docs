@@ -2,7 +2,7 @@
 
 > Part of [Itemizer 🛢 helper](<../../🛢🤲 Itemizer helper.md>)
 
-> Implements the [`UNDO`](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...datasets 🪣/UNDO ↩️/↩️ UNDO ⌘ cmd.md>) command.
+> Implements the [`UNDO`](<../../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...datasets 🪣/UNDO ↩️/↩️ UNDO ⌘ cmd.md>) command.
 
 
 <br/>
@@ -23,10 +23,10 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header    | `From`        | string    | [Talker 😃](<../../../../35 💬 Chats/😃 Talkers/😃 Talker role.md>) from [`Delete@Itemizer`](<../Item Delete 👥🚀🛢/🛢 Delete 🚀 request.md>)
+| Header    | `From`        | string    | [Talker 😃](<../../../../35 💬 Chats/Talkers 😃/😃 Talker role.md>) from [`Delete@Itemizer`](<../Item Delete 👥🚀🛢/🛢 Delete 🚀 request.md>)
 |           | `To`          | string    | [Itemizer 🛢](<../../🛢🤲 Itemizer helper.md>) from [`Delete@Itemizer`](<../Item Delete 👥🚀🛢/🛢 Delete 🚀 request.md>)
 |           | `Subject`     | string    | `Undo@Itemizer`
-| Body    | `Script`     | string    | [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) for traceability
+| Body    | `Script`     | string    | [Script 📃](<../../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) for traceability
 |         | `Set`    | string  | `Set` from [`Delete@Itemizer`](<../Item Delete 👥🚀🛢/🛢 Delete 🚀 request.md>) 
 |         | `Key`     | string[]  | `Key` from [`Delete@Itemizer`](<../Item Delete 👥🚀🛢/🛢 Delete 🚀 request.md>)
 |
