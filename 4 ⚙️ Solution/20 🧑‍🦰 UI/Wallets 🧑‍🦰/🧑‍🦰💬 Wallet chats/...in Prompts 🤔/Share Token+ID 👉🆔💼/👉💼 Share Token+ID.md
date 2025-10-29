@@ -7,7 +7,7 @@
 
 ## Flow diagram
 
-![alt text](<../../../.📎 Assets/Tokens 📎/⚙️🎫 Share Token+ID.png>)
+![alt text](<⚙️🎫 Share Token+ID.png>)
 
 |#| Step | Purpose
 |-|-|-

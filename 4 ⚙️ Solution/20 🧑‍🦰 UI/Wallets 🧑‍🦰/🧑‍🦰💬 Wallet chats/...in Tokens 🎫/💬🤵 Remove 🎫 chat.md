@@ -29,7 +29,7 @@
 
 ## Flow diagram ⏩
 
-![alt text](<../../.📎 Assets/Tokens 📎/⚙️🎫 Remove.png>)
+![alt text](<⚙️🎫 Remove.png>)
 
 
 
