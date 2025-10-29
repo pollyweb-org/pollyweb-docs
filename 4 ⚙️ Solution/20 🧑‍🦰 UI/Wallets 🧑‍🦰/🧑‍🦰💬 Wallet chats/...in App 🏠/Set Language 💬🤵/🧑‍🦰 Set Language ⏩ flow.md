@@ -19,7 +19,7 @@
 
 ## Flow diagram
 
-![Translate](<⚙️ Translate.png>)
+![Translate](<🧑‍🦰 Set Language ⚙️ uml.png>)
 
 
 | # | Call | Notes

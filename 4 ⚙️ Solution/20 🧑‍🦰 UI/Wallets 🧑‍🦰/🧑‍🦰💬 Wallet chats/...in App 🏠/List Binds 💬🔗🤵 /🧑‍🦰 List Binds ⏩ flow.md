@@ -6,7 +6,7 @@
 
 ## Flow diagram
 
-![List binds](<../../../.📎 Assets/Binds 📎/⚙️ List binds.png>)
+![List binds](<🧑‍🦰 List Binds ⚙️ uml.png>)
 
 
 | # | Call | Notes |

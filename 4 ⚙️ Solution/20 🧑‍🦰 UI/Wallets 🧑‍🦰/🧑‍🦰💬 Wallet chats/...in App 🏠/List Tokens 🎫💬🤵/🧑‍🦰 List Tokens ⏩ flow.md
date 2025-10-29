@@ -10,7 +10,7 @@
 
 ## Flow diagram
 
-![alt text](<⚙️🎫 List tokens.png>)
+![alt text](<🧑‍🦰 List Tokens ⚙️ uml.png>)
 
 | # | Call | Notes |
 |-|-|-
