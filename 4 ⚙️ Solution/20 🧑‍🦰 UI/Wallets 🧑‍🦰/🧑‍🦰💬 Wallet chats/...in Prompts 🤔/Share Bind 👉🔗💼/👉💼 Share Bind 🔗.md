@@ -8,7 +8,7 @@
 
 ## Flow diagram
 
-![alt text](<../../../.📎 Assets/Binds 📎/⚙️ Share Bind.png>)
+![alt text](<⚙️ Share Bind.png>)
 
 |#|Step|Purpose
 |-|-|-

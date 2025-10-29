@@ -14,7 +14,7 @@
 
 ## Flow diagram
 
-![alt text](<../../../.📎 Assets/Locators 📎/⚙️🤔 Prompt option.png>)
+![alt text](<⚙️🤔 Prompt option.png>)
 
 | # | Call | Notes
 |-|-|-
