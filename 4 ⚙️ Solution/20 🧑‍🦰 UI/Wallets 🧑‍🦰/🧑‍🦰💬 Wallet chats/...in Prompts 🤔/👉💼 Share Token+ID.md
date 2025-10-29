@@ -11,7 +11,7 @@
 
 |#| Step | Purpose
 |-|-|-
-|1|[💼⏩🧑‍🦰 Share Token 🎫](<👉💼 Share Token 🎫/👉💼 Share Token 🎫 flow.md>) | Receive an [Identity-bound Token 🎫](<../../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 🆔⏩🎫 Verify Tokens.md>)
+|1|[💼⏩🧑‍🦰 Share Token 🎫](<👉💼 Share Token 🎫/🎫 Share Token ⏩ flow.md>) | Receive an [Identity-bound Token 🎫](<../../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 🆔⏩🎫 Verify Tokens.md>)
 |2|[👥🚀🕸 `Trusts@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>) | Verify if the [Identity 🆔](<../../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) is [Trustworthy 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) | 
 |3|[💼🐌🤵 `Invite@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)|Invite the [Identity 🆔](<../../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) to the [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)
 |4| [🤵🐌🛠️ `Invited@Helper`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲🅰️ Helper methods/🤵🐌🤲 Invited.md>) | Proxy the invite to the [Identity 🆔](<../../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) 
