@@ -6,7 +6,7 @@
 
 1. **What are Prompt texts?**
 
-    [Prompt 🤔](<../🤔 Prompt.md>) texts are the main message sent in a [Chat 💬](<../../💬 Chats/💬 Chat.md>).
+    [Prompt 🤔](<../🤔 Prompt.md>) texts are the main message sent in a [Chat 💬](<../../Chats 💬/💬 Chat.md>).
 
     ---
     <br/>

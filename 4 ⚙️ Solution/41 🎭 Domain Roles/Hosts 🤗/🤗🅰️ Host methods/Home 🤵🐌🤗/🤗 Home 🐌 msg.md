@@ -15,7 +15,7 @@
 
 ## 💬 Chat
 
-Consider the following [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) as an example.
+Consider the following [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) as an example.
 
 | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
@@ -56,5 +56,5 @@ Body:
 |Header|`From`|string | [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | [`Hello@`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 ||`To`|string| [Host 🤗](<../../🤗🎭 Host role.md>) | [`Hello@`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 ||`Subject`|string|`Home@Host`
-|Body  |`Chat`   |uuid  | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID | [`Hello@`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
+|Body  |`Chat`   |uuid  | [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID | [`Hello@`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 |

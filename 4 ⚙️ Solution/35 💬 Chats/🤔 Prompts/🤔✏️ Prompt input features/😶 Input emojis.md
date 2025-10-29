@@ -42,7 +42,7 @@
 
 1. **What's an example of emojis in Talkers?**
 
-    Consider the following [Chat 💬](<../../💬 Chats/💬 Chat.md>).
+    Consider the following [Chat 💬](<../../Chats 💬/💬 Chat.md>).
 
     | [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |

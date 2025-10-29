@@ -9,7 +9,7 @@
 
 > Purpose
 * Asks the [Consumer 💼 domain](<../../💼🎭 Consumer role.md>) to consume a given [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>).
-* Tells them to collect data shared by a user in a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>).
+* Tells them to collect data shared by a user in a [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>).
 
 <br/>
 

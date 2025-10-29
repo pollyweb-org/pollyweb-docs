@@ -24,7 +24,7 @@
 
 1. **What does a mandatory input look like?**
 
-    Here's a [Chat 💬](<../../💬 Chats/💬 Chat.md>).
+    Here's a [Chat 💬](<../../Chats 💬/💬 Chat.md>).
 
     | [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
@@ -62,7 +62,7 @@
 
 1. **What does an optional input look like?**
 
-    Here's a [Chat 💬](<../../💬 Chats/💬 Chat.md>).
+    Here's a [Chat 💬](<../../Chats 💬/💬 Chat.md>).
 
     | [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |

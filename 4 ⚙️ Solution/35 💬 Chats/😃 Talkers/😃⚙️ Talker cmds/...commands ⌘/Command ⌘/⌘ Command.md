@@ -137,7 +137,7 @@
 
 1. **How to build a customer `ECHO` command?**
 
-    Here's the [Chat 💬](<../../../../💬 Chats/💬 Chat.md>)
+    Here's the [Chat 💬](<../../../../Chats 💬/💬 Chat.md>)
 
     | [Domain](<../../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |

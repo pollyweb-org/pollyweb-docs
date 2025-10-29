@@ -7,7 +7,7 @@
     A [Broker 🤵 domain](<🤵🤲 Broker helper.md>)
     * is any [Helper 🤲 domain](<../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>) 
     * that helps [Notifier 📣 domains](<../Notifiers 📣/📣👥 Notifier domain.md>) 
-    * to orchestrate [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) with [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)
+    * to orchestrate [Chats 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) with [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)
     * by parsing [Locators 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>)
     * and working as the database of the [Wallet 🧑‍🦰 app](<../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
 
@@ -21,11 +21,11 @@
     | # | Category  | Step
     |-|-|-
     |1| `Hi`     | The user initiates an interaction with their [Wallet 🧑‍🦰 app](<../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) - e.g., by scanning a QR and sending the [QR Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to the their [Broker 🤵 domain](<🤵🤲 Broker helper.md>).
-    |2| `Hi-A`   | The [user's Broker 🤵 domain](<🤵🤲 Broker helper.md>) opens a new [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) with the [Locator's Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>), obfuscating the user (e.g., ABC).
+    |2| `Hi-A`   | The [user's Broker 🤵 domain](<🤵🤲 Broker helper.md>) opens a new [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) with the [Locator's Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>), obfuscating the user (e.g., ABC).
     |3| `Bye-A`  | The [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) runs its workflow for the anonymous user (e.g., ABC), and finishes it with a goodbye [Message 📨](<../../30 🧩 Data/Messages 📨/📨 Message.md>).
     |4| `Bye`    | The [user's Broker 🤵 domain](<🤵🤲 Broker helper.md>) forwards the [Messages 📨](<../../30 🧩 Data/Messages 📨/📨 Message.md>) to the [user's Notifier 📣 domain](<../Notifiers 📣/📣👥 Notifier domain.md>), to be pushed to the [Wallet 🧑‍🦰 app](<../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
     |A| `Hi`     | The user initiates a second interaction with the same [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>).
-    |B| `Hi-X`   | The [user's Broker 🤵 domain](<🤵🤲 Broker helper.md>) opens a new [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) with the same [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>), obfuscating again the user (e.g., XYZ).
+    |B| `Hi-X`   | The [user's Broker 🤵 domain](<🤵🤲 Broker helper.md>) opens a new [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) with the same [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>), obfuscating again the user (e.g., XYZ).
     |C| `Bye-X` | The [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) runs its workflow for the new anonymous user (e.g., XYZ), without realizing that it's the same user as before.
     |D| `Bye`   | The [user's Broker 🤵 domain](<🤵🤲 Broker helper.md>) forwards the [Messages 📨](<../../30 🧩 Data/Messages 📨/📨 Message.md>) again.
 
@@ -89,13 +89,13 @@
     |-|-|-
     |[`🧑‍🦰 Setup`](<../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)| [📣🚀 Onboard](<🤵🅰️ Broker methods/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 request.md>) | Onboard a [Wallet 🧑‍🦰 app](<../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     |  | [🧑‍🦰🐌 Translate](<🤵🅰️ Broker methods/Wallets 🧑‍🦰 Language 🧑‍🦰🐌🤵/🤵 Language 🐌 msg.md>) | Change the language of a [Wallet 🧑‍🦰](<../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
-    | [`💬 Chats`](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)  | [🧑‍🦰🚀 Assess](<🤵🅰️ Broker methods/Locators 🔆 Assess 🧑‍🦰🐌🤵/🤵 Assess 🐌 msg.md>) | Parse the [Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) on the [Broker 🤵](<🤵🤲 Broker helper.md>)
-    | | [🧑‍🦰🚀 Chats](<🤵🅰️ Broker methods/Chats 💬 Chats 🧑‍🦰🚀🤵/🤵 Chats 🚀 request.md>) | Fetch [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) from the [Broker 🤵](<🤵🤲 Broker helper.md>)
+    | [`💬 Chats`](<../../35 💬 Chats/Chats 💬/💬 Chat.md>)  | [🧑‍🦰🚀 Assess](<🤵🅰️ Broker methods/Locators 🔆 Assess 🧑‍🦰🐌🤵/🤵 Assess 🐌 msg.md>) | Parse the [Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) on the [Broker 🤵](<🤵🤲 Broker helper.md>)
+    | | [🧑‍🦰🚀 Chats](<🤵🅰️ Broker methods/Chats 💬 Chats 🧑‍🦰🚀🤵/🤵 Chats 🚀 request.md>) | Fetch [Chats 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) from the [Broker 🤵](<🤵🤲 Broker helper.md>)
     | | [🤗🐌 Prompt](<🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>) |   [Prompt 🤔](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) intent from [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) 
     | |[🔎🐌 Introduced](<🤵🅰️ Broker methods/Chats 💬 Introduced 🔎🐌🤵/🤵 Introduced 🐌 msg.md>) | A [Finder 🔎 domain](<../../50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) finished the intro
-    | |[🤗🐌 Goodbye](<🤵🅰️ Broker methods/Chats 💬 Goodbye 🤗🐌🤵/🤵 Goodbye 🐌 msg.md>) | A [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) ended the [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
+    | |[🤗🐌 Goodbye](<🤵🅰️ Broker methods/Chats 💬 Goodbye 🤗🐌🤵/🤵 Goodbye 🐌 msg.md>) | A [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) ended the [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>)
     | | [👀🐌 Promote](<🤵🅰️ Broker methods/Locators 🔆 Promote 👀🐌🤵/🤵 Promote 🐌 msg.md>) |  Check-in into the selected [Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>)
-    | | [🧑‍🦰🐌 Join](<🤵🅰️ Broker methods/Chats 💬 Join 🧑‍🦰🐌🤵/🤵 Join 🐌 msg.md>) | Ask for the [Broker 🤵](<🤵🤲 Broker helper.md>) to join a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) 
+    | | [🧑‍🦰🐌 Join](<🤵🅰️ Broker methods/Chats 💬 Join 🧑‍🦰🐌🤵/🤵 Join 🐌 msg.md>) | Ask for the [Broker 🤵](<🤵🤲 Broker helper.md>) to join a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) 
     |[`🔗 Binds`](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)| [🧑‍🦰🚀 Binds](<🤵🅰️ Broker methods/Binds 🔗 Binds 🧑‍🦰🚀🤵/🤵 Binds 🚀 request.md>) | List the [Binds 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) of a [Wallet 🧑‍🦰 app](<../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     || [🗄️🐌 Bindable](<🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>) | [Vaults 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) offer to bind [Schema Codes 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
     | [`🎫 Tokens`](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) | [🧑‍🦰🚀 Tokens](<🤵🅰️ Broker methods/Tokens 🎫 Tokens 🧑‍🦰🚀🤵/🤵 Tokens 🚀 request.md>) | List of [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) of a [Wallet 🧑‍🦰 app](<../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)

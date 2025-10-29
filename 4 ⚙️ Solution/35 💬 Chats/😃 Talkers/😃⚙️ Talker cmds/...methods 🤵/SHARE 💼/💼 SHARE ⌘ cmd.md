@@ -68,7 +68,7 @@
     ---
     <br/>
 
-1. **What does a [Chat 💬](<../../../../💬 Chats/💬 Chat.md>) look like?**
+1. **What does a [Chat 💬](<../../../../Chats 💬/💬 Chat.md>) look like?**
 
     | [Domain](<../../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |

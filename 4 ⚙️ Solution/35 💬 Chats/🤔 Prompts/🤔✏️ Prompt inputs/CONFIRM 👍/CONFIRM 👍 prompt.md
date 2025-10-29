@@ -51,7 +51,7 @@
     ---
     <br/>
 
-1. **What's a [Chat 💬](<../../../💬 Chats/💬 Chat.md>) example without actions?**
+1. **What's a [Chat 💬](<../../../Chats 💬/💬 Chat.md>) example without actions?**
 
     > Rejecting this stops the flow.
 
@@ -96,7 +96,7 @@
     ---
     <br/>
 
-1. **What's a [Chat 💬](<../../../💬 Chats/💬 Chat.md>) example with actions?**
+1. **What's a [Chat 💬](<../../../Chats 💬/💬 Chat.md>) example with actions?**
 
     > Rejecting this does not block the flow.
     

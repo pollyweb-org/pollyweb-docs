@@ -65,7 +65,7 @@
     |Key1|1.A|1.B 
     |Key2|2.A|2.B 
     
-    The following [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) renders `ℹ️ 2.A` in the [Chat 💬](<../../../../💬 Chats/💬 Chat.md>).
+    The following [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) renders `ℹ️ 2.A` in the [Chat 💬](<../../../../Chats 💬/💬 Chat.md>).
 
     ```yaml
     📃 Script:
@@ -87,7 +87,7 @@
     || 456    | beer          |
     |
 
-    Here's a [Chat 💬](<../../../../💬 Chats/💬 Chat.md>).
+    Here's a [Chat 💬](<../../../../Chats 💬/💬 Chat.md>).
 
     || [Domain](<../../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     |-| - | - | - |

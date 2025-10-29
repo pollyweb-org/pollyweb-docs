@@ -5,7 +5,7 @@
 > Purpose
 * A [Host 🤗 domain](<../../🤗🎭 Host role.md>) 
     * says something to a user 
-    * in a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) 
+    * in a [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) 
     * with a [Prompt 🤔](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>).
 
 
@@ -20,7 +20,7 @@
 
 ## 💬 Chat
 
-Consider the following [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) with two [Prompts 🤔](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) as an example.
+Consider the following [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) with two [Prompts 🤔](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) as an example.
 
 | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |

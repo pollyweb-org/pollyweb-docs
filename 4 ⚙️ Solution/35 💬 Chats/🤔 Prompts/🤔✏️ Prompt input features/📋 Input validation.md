@@ -52,7 +52,7 @@
 
 1. **How do built-in Talker validations work?**
 
-    Consider the following [Chat 💬](<../../💬 Chats/💬 Chat.md>) as an example.
+    Consider the following [Chat 💬](<../../Chats 💬/💬 Chat.md>) as an example.
 
     | [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
@@ -86,7 +86,7 @@
 
 1. **How to implement custom validations in code handlers?**
 
-    Here's a [Chat 💬](<../../💬 Chats/💬 Chat.md>).
+    Here's a [Chat 💬](<../../Chats 💬/💬 Chat.md>).
 
     | [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |

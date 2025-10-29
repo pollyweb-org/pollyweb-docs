@@ -6,7 +6,7 @@
 
 * On their [Wallet 🧑‍🦰 app](<../../../🧑‍🦰🛠️ Wallet app.md>)
     * users selects an [Option 🔘](<../../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/4 🔘 with Options.md>) with a [Locator 🔆](<../../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) 
-    * from a [Prompt 🤔](<../../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) in a [Chat 💬](<../../../../../35 💬 Chats/💬 Chats/💬 Chat.md>).
+    * from a [Prompt 🤔](<../../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) in a [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>).
 
 
 <br/>

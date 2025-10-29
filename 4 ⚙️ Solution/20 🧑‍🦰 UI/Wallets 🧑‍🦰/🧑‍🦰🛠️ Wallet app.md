@@ -15,11 +15,11 @@
     ![](<.📎 Assets/🧑‍🦰 Wallet.png>)
 
     The following features are available in a [Wallet 🧑‍🦰 app](<🧑‍🦰🛠️ Wallet app.md>):
-    - 💬 [Chats](<../../35 💬 Chats/💬 Chats/💬 Chat.md>): list, filter, search, view, and interact.
+    - 💬 [Chats](<../../35 💬 Chats/Chats 💬/💬 Chat.md>): list, filter, search, view, and interact.
     - 🔗 [Binds](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>): list, view, unbind, and chat with the bound [Vault 🗄️ domain](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>). 
     - 🎫 [Tokens](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>): view, and chat with the [Issuer 🎴 domain](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>).
-    - ✨ [Scan](<../../25 🔆 Locators/Locators 🔆/🔆⏩ Locator flows/🧑‍🦰✨ Wallet QR scan.md>) a QR [Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to open a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>).
-    - 🔆 [Tap](<../../25 🔆 Locators/Locators 🔆/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>) an NFC [Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to open a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>).
+    - ✨ [Scan](<../../25 🔆 Locators/Locators 🔆/🔆⏩ Locator flows/🧑‍🦰✨ Wallet QR scan.md>) a QR [Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to open a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>).
+    - 🔆 [Tap](<../../25 🔆 Locators/Locators 🔆/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>) an NFC [Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to open a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>).
     - 🌐 [Click](<../../25 🔆 Locators/Locators 🔆/🔆⏩ Locator flows/🧑‍🦰🌐 Wallet URLs.md>) on [Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) links in the device's web browser to open chats.
     - 🛜 [Wi-Fiers](<../../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>): tap/scan an NFC/QR of a Wi-Fier to enable Wi-Fi on a [Robot 🤖](<../../25 🔆 Locators/Robots 🤖/🤖💠 Robot thing.md>).
     - 🔒 [Padlocks](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>): tap/scan an NFC/QR of a Padlock to open it.
@@ -136,11 +136,11 @@
     |-|-|-
     | 🤵 Set up | [👉 Onboard](<🧑‍🦰✨ Wallet onboard 🤵/...in App/🧑‍🦰 Onboard 💬 flow.md>)  | Register the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>) on a [Broker 🤵](<../Brokers 🤵/🤵🤲 Broker helper.md>)
     | | [👉 Translate](<🧑‍🦰💬 Wallet chats/...in App 🏠/Set Language 💬🤵/🧑‍🦰 Set Language ⏩ flow.md>)  | Change the language of the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>)
-    | 🔆 Locators |[👉 Host QR](<🧑‍🦰💬 Wallet chats/...in App 🏠/Tap host locator 🔆🤗 /🧑‍🦰 Tap host locator ⏩ flow.md>)  | Scan a [Host 🤗 NFC/QR](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)   to open a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
-    ||[👉 Printer QR](<🧑‍🦰💬 Wallet chats/...in App 🏠/Tap alias locator 🔆🖨️ /🧑‍🦰 Tap alias locator ⏩ flow.md>)  | Scan a [Printer 🖨️ NFC/QR](<../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>) to open a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
-    |💬 Chats|[👉 Chats](<🧑‍🦰💬 Wallet chats/...in App 🏠/List Chats 💬🤵/🧑‍🦰 List Chats ⏩ flow.md>) | List the user's [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) 
-    ||[👉 Home](<🧑‍🦰💬 Wallet chats/...in Chats 💬/Host home 💬🤵/🧑‍🦰 Host home ⏩ flow.md>) | Show the [Host's 🤗 ](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) menu in a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
-    ||[👉 Abandon](<🧑‍🦰💬 Wallet chats/...in Chats 💬/Abandon 💬🤵/🧑‍🦰 Abandon chat ⏩ flow.md>) | Unilaterally abandon a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
+    | 🔆 Locators |[👉 Host QR](<🧑‍🦰💬 Wallet chats/...in App 🏠/Tap host locator 🔆🤗 /🧑‍🦰 Tap host locator ⏩ flow.md>)  | Scan a [Host 🤗 NFC/QR](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)   to open a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>)
+    ||[👉 Printer QR](<🧑‍🦰💬 Wallet chats/...in App 🏠/Tap alias locator 🔆🖨️ /🧑‍🦰 Tap alias locator ⏩ flow.md>)  | Scan a [Printer 🖨️ NFC/QR](<../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>) to open a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>)
+    |💬 Chats|[👉 Chats](<🧑‍🦰💬 Wallet chats/...in App 🏠/List Chats 💬🤵/🧑‍🦰 List Chats ⏩ flow.md>) | List the user's [Chats 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) 
+    ||[👉 Home](<🧑‍🦰💬 Wallet chats/...in Chats 💬/Host home 💬🤵/🧑‍🦰 Host home ⏩ flow.md>) | Show the [Host's 🤗 ](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) menu in a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>)
+    ||[👉 Abandon](<🧑‍🦰💬 Wallet chats/...in Chats 💬/Abandon 💬🤵/🧑‍🦰 Abandon chat ⏩ flow.md>) | Unilaterally abandon a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>)
     | 🔗 Binds | [👉 Binds ](<🧑‍🦰💬 Wallet chats/...in App 🏠/List Binds 💬🔗🤵 /🧑‍🦰 List Binds ⏩ flow.md>) | List the user's [Binds 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
     || [👉 Bind](<🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/🧑‍🦰 Bind vault ⏩ flow.md>) | [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>) to a [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)
     || [👉 Unbind](<🧑‍🦰💬 Wallet chats/...in Vaults 🗄️/Unbind 💬🗄️🤵 /🧑‍🦰 Unbind Vault ⏩ flow.md>) | Remove a [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) from a [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)

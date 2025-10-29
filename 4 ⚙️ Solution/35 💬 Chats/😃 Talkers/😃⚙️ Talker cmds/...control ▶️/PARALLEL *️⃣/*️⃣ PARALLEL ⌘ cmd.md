@@ -50,7 +50,7 @@
 
 1. **How to use the PARALLEL command?**
 
-    Here's a [Chat 💬](<../../../../💬 Chats/💬 Chat.md>)
+    Here's a [Chat 💬](<../../../../Chats 💬/💬 Chat.md>)
 
     | [Domain](<../../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |

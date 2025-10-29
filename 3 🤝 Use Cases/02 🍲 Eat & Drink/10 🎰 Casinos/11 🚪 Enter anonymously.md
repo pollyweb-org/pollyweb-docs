@@ -13,7 +13,7 @@ Users can ask their [Identity 🆔 vault](<../../../4 ⚙️ Solution/50 🫥 Ag
 
 * If users have their [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) device, 
   * users tap/scan the gate,
-  * the casino then opens a [Chat 💬](<../../../4 ⚙️ Solution/35 💬 Chats/💬 Chats/💬 Chat.md>)
+  * the casino then opens a [Chat 💬](<../../../4 ⚙️ Solution/35 💬 Chats/Chats 💬/💬 Chat.md>)
  on the user's [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>), 
   * asks to share the [Token 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/Tokens 🎫/🎫 Token.md>),
   *  then takes a picture to send to the token's [Identity 🆔 vault](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) to match it.

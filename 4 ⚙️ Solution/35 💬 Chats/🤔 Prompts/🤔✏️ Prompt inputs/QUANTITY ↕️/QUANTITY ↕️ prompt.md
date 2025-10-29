@@ -60,7 +60,7 @@
     | Input| Purpose | Example
     |-|-|-
     | `Precision`| Rounded decimals (default is 0) | `0`
-    | `Locale`   | Optional CLDR locale <br/> - defaults to the [Chat 💬](<../../../💬 Chats/💬 Chat.md>) language | `en-US`
+    | `Locale`   | Optional CLDR locale <br/> - defaults to the [Chat 💬](<../../../Chats 💬/💬 Chat.md>) language | `en-US`
     | `MinValue` | Optional [minimum value 📋](<../../🤔✏️ Prompt input features/📋 Input validation.md>) | `-100`
     | `MaxValue` | Optional [maximum value 📋](<../../🤔✏️ Prompt input features/📋 Input validation.md>) | `100`
     | `Emoji` | Optional [alternative emoji 😶](<../../🤔✏️ Prompt input features/😶 Input emojis.md>) | `😶`
@@ -76,7 +76,7 @@
 
 1. **What's an example?**
 
-    Here's a [Chat 💬](<../../../💬 Chats/💬 Chat.md>).
+    Here's a [Chat 💬](<../../../Chats 💬/💬 Chat.md>).
 
     | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
@@ -124,7 +124,7 @@
 
 
 
-1. **How to default quantities in a [Chat 💬](<../../../💬 Chats/💬 Chat.md>)?**
+1. **How to default quantities in a [Chat 💬](<../../../Chats 💬/💬 Chat.md>)?**
 
     Use the [`ONE`](<../ONE 1️⃣/ONE 1️⃣ prompt.md>) prompt.
 
@@ -180,7 +180,7 @@
 
     <br/>
 
-    Here's a [Chat 💬](<../../../💬 Chats/💬 Chat.md>).
+    Here's a [Chat 💬](<../../../Chats 💬/💬 Chat.md>).
 
     | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |

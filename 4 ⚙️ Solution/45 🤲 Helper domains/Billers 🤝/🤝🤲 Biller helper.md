@@ -28,7 +28,7 @@
 1. **How can a user cancel a subscription?**
 
     User subscriptions are attached to the user's [Payer 💳 agent](<../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>).
-    * In a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>), users can ask their [Payer 💳 agent](<../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) to cancel the subscription.
+    * In a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>), users can ask their [Payer 💳 agent](<../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) to cancel the subscription.
 
     ---
 

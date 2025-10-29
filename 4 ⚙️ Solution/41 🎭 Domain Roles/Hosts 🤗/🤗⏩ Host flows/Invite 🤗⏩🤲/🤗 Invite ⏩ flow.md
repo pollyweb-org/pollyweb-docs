@@ -4,7 +4,7 @@
 
 * A [Host 🤗 domain](<../../🤗🎭 Host role.md>) 
     * invites a [Helper 🤲 domain](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>) 
-    * to a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>).
+    * to a [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>).
   
 > Used in
 
@@ -21,7 +21,7 @@
 
 ## 💬 Chat
 
-Consider the following [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) as an example.
+Consider the following [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) as an example.
 
 | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
@@ -59,10 +59,10 @@ The associated [Talker 😃](<../../../../35 💬 Chats/😃 Talkers/😃 Talker
 
 |#| Step | Purpose
 |-|-|-
-|1|[💼🐌🤵 `Invite@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)|Invite another [Host 🤗](<../../🤗🎭 Host role.md>) to the [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)
+|1|[💼🐌🤵 `Invite@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)|Invite another [Host 🤗](<../../🤗🎭 Host role.md>) to the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
 |2|[🤗⏩🧑‍🦰 Prompt 🤔](<../Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | [Brokers 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) may ask for user permission
 |3| [🤵🐌🛠️ `Invited@Helper`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲🅰️ Helper methods/🤵🐌🤲 Invited.md>) | Proxy  invites to [Helper 🤲](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>) invitees
-|4|[🤗⏩🧑‍🦰 Prompt 🤔](<../Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | Invitees continue the [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)
+|4|[🤗⏩🧑‍🦰 Prompt 🤔](<../Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | Invitees continue the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
 |5|[🗄️⏩💼 Consume 🧩](<../../../Vaults 🗄️/🗄️⏩ Vault flows/Consume 🗄️⏩💼/🗄️ Consume ⏩ flow.md>) | Invitees share the final result
 |
 
