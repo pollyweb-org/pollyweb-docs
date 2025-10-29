@@ -6,14 +6,15 @@
 
 > Implemented by [`Chats` 📃 script](<🤵 Chats 📃 handler.md>)
 
+> Purpose
 * The [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) 
     * lists the [Chats 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) 
     * of a [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
 
-* Used in:
-    * [🧑‍🦰👉🤵 Set language @ Wallet](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/Set Language 💬🤵/🧑‍🦰 Set Language ⏩ flow.md>)
-    * [🧑‍🦰👉🤵 List chats @ Wallet](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/List Chats 💬🤵/🧑‍🦰 List Chats ⏩ flow.md>)
-    * [🤵⏩🗄️ Update chats @ Broker](<../../🤵⏩ Broker flows/Update Chats 🤵⏩💬/🤵 Update Chats ⏩ flow.md>)
+> Used in
+* [🧑‍🦰👉🤵 Set language @ Wallet](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/Set Language 💬🤵/🧑‍🦰 Set Language ⏩ flow.md>)
+* [🧑‍🦰👉🤵 List chats @ Wallet](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/List Chats 💬🤵/🧑‍🦰 List Chats ⏩ flow.md>)
+* [🤵⏩🗄️ Update chats @ Broker](<../../🤵⏩ Broker flows/Update Chats 🤵⏩💬/🤵 Update Chats ⏩ flow.md>)
 
 
 <br/>
@@ -27,10 +28,10 @@ Header:
     Subject: Chats@Broker
 ```
 
-| Object | Property | Type  | Description
-|-|-|-|-
-| Header    | `From`| uuid  | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  from [`Onboard@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
-|           | `To`  | string| [Broker 🤵](<../../🤵🤲 Broker helper.md>) from [`Onboard@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
+| Object | Property | Type  | Description|Origin
+|-|-|-|-|-
+| Header    | `From`| uuid  | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  | [`Onboard@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
+|           | `To`  | string| [Broker 🤵](<../../🤵🤲 Broker helper.md>) | [`Onboard@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
 |           | `Subject`| string|  `Chats@Broker`
 |
 
