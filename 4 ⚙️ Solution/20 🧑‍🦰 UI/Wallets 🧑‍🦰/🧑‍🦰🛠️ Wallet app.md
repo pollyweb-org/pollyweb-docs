@@ -146,10 +146,10 @@
     || [👉 Unbind](<🧑‍🦰💬 Wallet chats/...in Vaults 🗄️/💬🤵 Unbind 🗄️ chat.md>) | Remove a [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) from a [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)
     ||[👉 Share](<🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Bind 🔗.md>) | Shares a [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) with a [Consumer 💼](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)
     |🎫 Tokens| [👉 Tokens](<🧑‍🦰💬 Wallet chats/...in App 🏠/💬🤵 List Tokens 🎫.md>)| List the user's [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
-    || [👉 Save](<🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🎴 Save token/👉🎴 Save token.md>) | Save a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) in the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>)
+    || [👉 Save](<🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴/👉🎴 Save token.md>) | Save a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) in the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>)
     || [👉 Remove](<🧑‍🦰💬 Wallet chats/...in Tokens 🎫/💬🤵 Remove 🎫 chat.md>) | Remove a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) from the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>)
-    || [👉 Share](<🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Token 🎫/🎫 Share Token ⏩ flow.md>) | Share a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) with a [Consumer 💼](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)
-    || [👉 Verify ID](<🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Token+ID.md>) | Share and [verify the user Identity 🆔](<../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 🆔⏩🎫 Verify Tokens.md>)
+    || [👉 Share](<🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token 👉🎫💼/🎫 Share Token ⏩ flow.md>) | Share a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) with a [Consumer 💼](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)
+    || [👉 Verify ID](<🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Token+ID/👉💼 Share Token+ID.md>) | Share and [verify the user Identity 🆔](<../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 🆔⏩🎫 Verify Tokens.md>)
 
     ---
     <br/>

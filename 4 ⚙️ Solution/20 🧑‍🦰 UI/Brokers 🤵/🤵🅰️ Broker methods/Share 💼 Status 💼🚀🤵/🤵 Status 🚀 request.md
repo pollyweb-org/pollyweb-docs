@@ -6,7 +6,7 @@
 * Implemented by the [`Status` 📃 handler](<🤵 Status 📃 handler.md>)
 
 > Used in
-* [💼⏩🧑‍🦰 Share Token @ Consumer](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Token 🎫/🎫 Share Token ⏩ flow.md>)
+* [💼⏩🧑‍🦰 Share Token @ Consumer](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token 👉🎫💼/🎫 Share Token ⏩ flow.md>)
 
 <br/> 
 
