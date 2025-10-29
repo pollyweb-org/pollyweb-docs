@@ -1,0 +1,17 @@
+@startuml Pop@Bind
+' TODO
+   
+participant "Wallet 👱" as wallet
+
+box Hoster ☁️ domain #FFFFFA
+    participant "Broker 🤵" as broker
+    participant "Wallets 🪣" as wallets
+    participant "Bind 📃" as bind
+    participant "Host 📃" as host
+    participant "Issuer 📃" as issuer
+    participant "Token 📃" as token
+    participant "Vault 📃" as vault
+end box
+ 
+
+@enduml 

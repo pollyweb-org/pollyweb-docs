@@ -7,6 +7,8 @@ box Hoster ☁️ domain #FFFFFA
     participant "Broker 🤵" as broker
     participant "Wallets 🪣" as wallets
     participant "Bind 📃" as bind
+    participant "Host 📃" as host
+    participant "Issuer 📃" as issuer
     participant "Token 📃" as token
     participant "Vault 📃" as vault
 end box
@@ -18,12 +20,16 @@ deactivate wallet
 activate broker
     broker -> wallets: GET {wallet}
 
-    alt Context {bind}
-        broker -> bind: RUN
-    else Context {token}
-        broker -> token: RUN
-    else Context {vault}
-        broker -> vault: RUN
+    alt Context {BIND}
+        broker -> bind: RUN {PopBind}
+    else Context {HOST}
+        broker -> host: RUN {PopHost}
+    else Context {ISSUER}
+        broker -> issuer: RUN {PopIssuer}
+    else Context {TOKEN}
+        broker -> token: RUN {PopToken}
+    else Context {VAULT}
+        broker -> vault: RUN {PopVault}
     end
     
 deactivate broker
