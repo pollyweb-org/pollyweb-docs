@@ -14,7 +14,7 @@
 
 ## Flow diagram
 
-![alt text](<⚙️🤔 Prompt option.png>)
+![alt text](<🧑‍🦰 Click locator ⚙️ uml.png>)
 
 | # | Call | Notes
 |-|-|-

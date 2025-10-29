@@ -30,7 +30,7 @@
 
 ## Flow diagram
 
-![alt text](<🧑‍🦰 Unbind vault ⚙️ uml.png>)
+![alt text](<🧑‍🦰 Unbind Vault ⚙️ uml.png>)
 
 
 | # | Call | Notes

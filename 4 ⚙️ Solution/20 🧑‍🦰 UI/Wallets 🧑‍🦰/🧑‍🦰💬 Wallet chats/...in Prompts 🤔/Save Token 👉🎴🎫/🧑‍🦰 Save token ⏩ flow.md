@@ -36,14 +36,14 @@ The associated [Talker 😃](<../../../../../35 💬 Chats/😃 Talkers/😃 Tal
 
 | [Command ⌘](<../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
 |-|-
-| 🎫 [`ISSUE`](<../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/ISSUE 🎫/🎫 ISSUE ⌘ cmd.md>) | Call the [Save Token ⏩ flow](<🧑‍🦰 Save token ⏩ flow.md>).
+| 🎫 [`ISSUE`](<../../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/ISSUE 🎫/🎫 ISSUE ⌘ cmd.md>) | Call the [Save Token ⏩ flow](<🧑‍🦰 Save Token ⏩ flow.md>).
 |
 
 <br/>
 
 ## ⏩ Flow diagram 
 
-![Accept](<🧑‍🦰 Save token ⚙️ uml.png>)
+![Accept](<🧑‍🦰 Save Token ⚙️ uml.png>)
 
 
 | # | Call | Notes
