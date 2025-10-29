@@ -135,9 +135,9 @@
     | Category | Workflow |  Description
     |-|-|-
     | 🤵 Set up | [👉 Onboard](<🧑‍🦰✨ Wallet onboard/💬🤵 Onboard.md>)  | Register the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>) on a [Broker 🤵](<../Brokers 🤵/🤵🤲 Broker helper.md>)
-    | | [👉 Translate](<🧑‍🦰💬 Wallet chats/...in App 🏠/💬🤵 Set Language.md>)  | Change the language of the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>)
-    | 🔆 Locators |[👉 Host QR](<🧑‍🦰💬 Wallet chats/...in App 🏠/🔆🤗 Tap host locator.md>)  | Scan a [Host 🤗 NFC/QR](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)   to open a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
-    ||[👉 Printer QR](<🧑‍🦰💬 Wallet chats/...in App 🏠/🔆🖨️ Tap alias locator.md>)  | Scan a [Printer 🖨️ NFC/QR](<../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>) to open a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
+    | | [👉 Translate](<🧑‍🦰💬 Wallet chats/...in App 🏠/💬🤵 Set Language/💬🤵 Set Language.md>)  | Change the language of the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>)
+    | 🔆 Locators |[👉 Host QR](<🧑‍🦰💬 Wallet chats/...in App 🏠/🔆🤗 Tap host locator/🔆🤗 Tap host locator.md>)  | Scan a [Host 🤗 NFC/QR](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)   to open a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
+    ||[👉 Printer QR](<🧑‍🦰💬 Wallet chats/...in App 🏠/🔆🖨️ Tap alias locator/🔆🖨️ Tap alias locator.md>)  | Scan a [Printer 🖨️ NFC/QR](<../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>) to open a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
     |💬 Chats|[👉 Chats](<🧑‍🦰💬 Wallet chats/...in App 🏠/💬🤵 List Chats 💬/💬🤵 List Chats 💬.md>) | List the user's [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) 
     ||[👉 Home](<🧑‍🦰💬 Wallet chats/...in Chats 💬/💬🤵 Host home.md>) | Show the [Host's 🤗 ](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) menu in a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
     ||[👉 Abandon](<🧑‍🦰💬 Wallet chats/...in Chats 💬/💬🤵 Abandon 💬.md>) | Unilaterally abandon a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)

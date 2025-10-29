@@ -10,7 +10,7 @@
 
 ## Flow diagram
 
-![alt text](<../../../.📎 Assets/Tokens 📎/⚙️🎫 List tokens.png>)
+![alt text](<⚙️🎫 List tokens.png>)
 
 | # | Call | Notes |
 |-|-|-

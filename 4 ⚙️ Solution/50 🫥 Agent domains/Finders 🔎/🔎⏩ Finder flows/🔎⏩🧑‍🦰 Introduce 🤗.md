@@ -7,8 +7,8 @@
 
 > Used by
     
-* [🧑‍🦰👉🤗 Scan host QR](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/🔆🤗 Tap host locator.md>)
-* [🧑‍🦰👉🤗 Scan printer QR](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/🔆🖨️ Tap alias locator.md>)
+* [🧑‍🦰👉🤗 Scan host QR](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/🔆🤗 Tap host locator/🔆🤗 Tap host locator.md>)
+* [🧑‍🦰👉🤗 Scan printer QR](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/🔆🖨️ Tap alias locator/🔆🖨️ Tap alias locator.md>)
 
 <br/>
 

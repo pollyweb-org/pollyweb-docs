@@ -11,7 +11,7 @@
 
 
 > Used by 
-* [🧑‍🦰👉🤵 Translate](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/💬🤵 Set Language.md>) 
+* [🧑‍🦰👉🤵 Translate](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/💬🤵 Set Language/💬🤵 Set Language.md>) 
 
 <br/>
 
