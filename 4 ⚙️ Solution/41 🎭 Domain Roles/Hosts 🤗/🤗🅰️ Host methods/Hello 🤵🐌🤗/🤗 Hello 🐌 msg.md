@@ -42,19 +42,19 @@ Body:
 ```
 
 
-|Object|Property|Type|Description
-|-|-|-|-
-| Header    | `From`    | string    | [Broker 🤵 domain](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) name
-|           | `To`      | string    | [Host 🤗 domain](<../../🤗🎭 Host role.md>) name
+|Object|Property|Type|Description|Origin|Purpose
+|-|-|-|-|-|-
+| Header    | `From`    | string    | [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | [`Assess@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Locators 🔆 Assess 🧑‍🦰🐌🤵/🤵 Assess 🐌 msg.md>)
+|           | `To`      | string    | [Host 🤗](<../../🤗🎭 Host role.md>)  | [`Assess@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Locators 🔆 Assess 🧑‍🦰🐌🤵/🤵 Assess 🐌 msg.md>)
 |           | `Subject` | string    | `Hello@Host`
-| Body           | `Binds`   | uuid[] | List of [Binds 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) for a [Vault 🗄️](<../../../Vaults 🗄️/🗄️🎭 Vault role.md>) host
-|| `Chat`  | uuid      | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID in the [Broker 🤵 domain](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>)
-|      | `Language`| enum    | ISO language code
-|           | `Locator` | string    | [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) in the [Host 🤗 domain](<../../🤗🎭 Host role.md>)
-|| `Parameters`| object | Custom parameters
-|           | `PublicKey`| string | For [`Prompted@`](<../Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 request.md>) [`Reply@`](<../Reply 🧑‍🦰🐌🤗/🤗 Reply 🐌 msg.md>) [`Download@`](<../Download 🧑‍🦰🚀🤗/🤗 Download 🚀 request.md>)
-|           | `Schema`    | string    | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) of the Locator
-|           | `Tokens`  | uuid[] | List of [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) for an [Issuer 🎴](<../../../Issuers 🎴/🎴🎭 Issuer role.md>) host
+| Body           | `Binds`   | uuid[] | [Binds 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) of a [Vault 🗄️](<../../../Vaults 🗄️/🗄️🎭 Vault role.md>) host | [`Bound@`](<../../../Vaults 🗄️/🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
+|| `Chat`  | uuid      | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID 
+|      | `Language`| enum    | ISO language code | [`Language@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Wallets 🧑‍🦰 Language 🧑‍🦰🐌🤵/🤵 Language 🐌 msg.md>)
+|           | `Locator` | string    | [Host 🤗](<../../🤗🎭 Host role.md>) [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) | [`Assess@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Locators 🔆 Assess 🧑‍🦰🐌🤵/🤵 Assess 🐌 msg.md>) | 
+|| `Parameters`| object | Custom parameters | [`Assess@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Locators 🔆 Assess 🧑‍🦰🐌🤵/🤵 Assess 🐌 msg.md>)
+|           | `PublicKey`| string | For signing || [`Prompted@`](<../Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 request.md>)<br/>[`Reply@`](<../Reply 🧑‍🦰🐌🤗/🤗 Reply 🐌 msg.md>) <br/>[`Download@`](<../Download 🧑‍🦰🚀🤗/🤗 Download 🚀 request.md>)
+|           | `Schema`    | string    | Locator  [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | [`Assess@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Locators 🔆 Assess 🧑‍🦰🐌🤵/🤵 Assess 🐌 msg.md>)
+|           | `Tokens`  | uuid[] |  [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) of a [Issuer 🎴](<../../../Issuers 🎴/🎴🎭 Issuer role.md>) host | [`Offer@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>)
 |
 
 <br/>
