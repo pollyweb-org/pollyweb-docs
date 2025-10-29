@@ -28,22 +28,22 @@ Body:
     Chat: <chat-uuid>
     Hook: <hook-uuid>
     Schema: any-authority.dom/ANY-SCHEMA:1.0
-    Key: token-1234
     Starts: 2018-12-10T13:45:00.000Z
     Expires: 2018-12-10T13:45:00.000Z
+    Key: token-1234
 ```
 
-|Object|Property|Type|Description
-|-|-|-|-
-|Header|`From`|string | [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) name
-||`To`|string| [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) name
+|Object|Property|Type|Description|Origin|Purpose
+|-|-|-|-|-|-
+|Header|`From`|string | [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) |[`Hello@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
+||`To`|string| [Broker 🤵](<../../🤵🤲 Broker helper.md>) | [`Hello@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 ||`Subject`|string|`Offer@Broker`
-|Body  |`Chat` |uuid  | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
-| |`Hook` |uuid  | Hook for [`Issued@`](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Issued 🧑‍🦰🚀🎴/🎴 Issued 🚀 request.md>) [`Accepted@`](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Accepted 🤵🐌🎴/🎴 Accepted 🐌 msg.md>)
-|      |`Schema`   |string| [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) of the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)     
-|       | `Key` | string | Key of the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) 
-|      |`Starts` |time| [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) valid from
-|      |`Expires`|time| [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) valid until
+|Body  |`Chat` |uuid  | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID | [`Hello@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
+| |`Hook` |uuid  | [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) Hook || [`Issued@`](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Issued 🧑‍🦰🚀🎴/🎴 Issued 🚀 request.md>) [`Accepted@`](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Accepted 🤵🐌🎴/🎴 Accepted 🐌 msg.md>)
+|      |`Schema`   |string| [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)| |[`Query@`](<../Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)     
+| | `Key` | string | [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) Key || [`Share@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Share 🤵🐌📣/📣 Share 🐌 msg.md>)
+|      |`Starts` |time| Valid from | | [`Query@`](<../Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)
+|      |`Expires`|time| Valid until| | [`Query@`](<../Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)
 |
 
 <br/>

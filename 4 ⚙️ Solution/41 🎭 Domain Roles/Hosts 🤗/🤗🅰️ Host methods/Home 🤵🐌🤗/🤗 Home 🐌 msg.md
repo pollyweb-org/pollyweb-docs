@@ -53,8 +53,8 @@ Body:
 
 |Object|Property|Type|Description | Origin
 |-|-|-|-|-
-|Header|`From`|string | [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | [`Hello@Host`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
-||`To`|string| [Host 🤗](<../../🤗🎭 Host role.md>) | [`Hello@Host`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
+|Header|`From`|string | [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | [`Hello@`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
+||`To`|string| [Host 🤗](<../../🤗🎭 Host role.md>) | [`Hello@`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 ||`Subject`|string|`Home@Host`
-|Body  |`Chat`   |uuid  | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID | [`Hello@Host`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
+|Body  |`Chat`   |uuid  | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID | [`Hello@`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 |

@@ -28,7 +28,6 @@
     - Issuer
     - Issuer$
     - Key
-    - Path
     - Schema
     - Schema$
     - Status

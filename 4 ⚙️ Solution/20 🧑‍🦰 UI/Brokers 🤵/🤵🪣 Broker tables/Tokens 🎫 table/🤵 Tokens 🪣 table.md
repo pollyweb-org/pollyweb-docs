@@ -48,7 +48,6 @@ Wallet: <wallet-uuid>
 Issuer: any-issuer.dom
 Issuer$: Any Issuer
 Key: token-1234
-Path: /storage/nlweb/tokens/<token-uuid>
 Schema: any-authority.dom/ANY-SCHEMA:1.0
 Status: REVOKED
 ```
@@ -57,7 +56,6 @@ Status: REVOKED
 |Property|Type|Description
 |-|-|-
 | `Issuer` | string | [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)  from [`Offer@Broker`](<../../🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>)
-| `Path` | string | Path from [`Saved@Broker`](<../../🤵🅰️ Broker methods/Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 🐌 msg.md>)
 | `Status`| string | Status from [`Revise@Broker`](<../../🤵🅰️ Broker methods/Tokens 🎫 Revise 🎴🐌🤵/🤵 Revise 🐌 msg.md>)
 | `Token`| uuid |  [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) from [`Offer@Broker`](<../../🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>)
 ||

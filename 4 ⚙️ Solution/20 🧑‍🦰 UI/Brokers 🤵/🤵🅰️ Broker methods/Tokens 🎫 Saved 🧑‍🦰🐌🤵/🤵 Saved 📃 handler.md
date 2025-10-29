@@ -39,10 +39,9 @@ GET >> $token:
     Default: $offer
 # idempotent
 
-# Save the Token file path
+# Save the Token
 - SAVE|$token:
     :$offer:
-    Path: $.Msg.Path
 
 # Inform the Issuer
 - SEND:
