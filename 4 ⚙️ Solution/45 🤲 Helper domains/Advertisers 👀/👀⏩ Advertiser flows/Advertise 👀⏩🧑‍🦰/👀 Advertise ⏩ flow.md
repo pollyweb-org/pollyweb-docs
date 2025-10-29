@@ -12,7 +12,7 @@
 | # | Call | Notes
 |-|-|-
 | 1 | [🤵🐌👀 Advertise @ Advertiser](<../../👀🅰️ Advertiser methods/Advertise 🤵🐌👀/👀 Advertise 🐌 msg.md>) | [Brokers 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) initiate the advertising with user context
-| 2 | [🤵🐌🤗 Summarize @ Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Summarize 🤵🐌🤗/🤗 Summarize 🐌 msg.md>) | Then ask [Hosts 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) to summarize the [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)
+| 2 | [🤵🐌🤗 Summarize @ Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Summarize 🤵🐌🤗/🤗 Summarize 🐌 msg.md>) | Then ask [Hosts 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) to summarize the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
 | 3 | [🤗🐌👀 Summarized @ Advertiser](<../../👀🅰️ Advertiser methods/Summarized 🤗🐌👀/👀 Summarized 🐌 msg.md>) | [Hosts 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) notify [Advertisers 👀](<../../👀🤲 Advertiser helper.md>) when summarized
 | 4 | [🤗🐌🧚 Anonymize @ Curator](<../../../../50 🫥 Agent domains/Curators 🧚/🧚🅰️ Curator methods/🤗🐌🧚 Anonymize.md>) | Then ask [Curators 🧚](<../../../../50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) to anonymize the summary
 | 5 | [🧚🐌👀 Anonymized @ Advertiser](<../../👀🅰️ Advertiser methods/Anonymized 🧚🐌👀/👀 Anonymized 🐌 msg.md>) | [Curators 🧚](<../../../../50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) add anonymized summaries to context
@@ -28,8 +28,8 @@
 
 1. **How is privacy protected?**
 
-    [Advertisers 👀](<../../👀🤲 Advertiser helper.md>) can't read [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) contents.
-    - Instead, [Hosts 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) and [Curators 🧚](<../../../../50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) summarize and anonymize [Chats 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)
+    [Advertisers 👀](<../../👀🤲 Advertiser helper.md>) can't read [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) contents.
+    - Instead, [Hosts 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) and [Curators 🧚](<../../../../50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) summarize and anonymize [Chats 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
     - [Advertisers 👀](<../../👀🤲 Advertiser helper.md>) generate nest best actions with that anonymous summary.
 
     ---

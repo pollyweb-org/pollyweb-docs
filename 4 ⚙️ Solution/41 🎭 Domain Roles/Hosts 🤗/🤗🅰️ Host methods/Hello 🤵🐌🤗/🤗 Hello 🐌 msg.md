@@ -7,7 +7,7 @@
 * Implemented by the [`Hello` 📃 handler](<🤗 Hello 📃 handler.md>)
 
 > Purpose
-* Starts a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) with a [Host 🤗 domain](<../../🤗🎭 Host role.md>).
+* Starts a [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) with a [Host 🤗 domain](<../../🤗🎭 Host role.md>).
 
 > Used by
 * [🧑‍🦰👉🤗 Scan host QR @ Wallet](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/Tap host locator 🔆🤗 /🧑‍🦰 Tap host locator ⏩ flow.md>)
@@ -48,7 +48,7 @@ Body:
 |           | `To`      | string    | [Host 🤗](<../../🤗🎭 Host role.md>)  | [`Assess@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Locators 🔆 Assess 🧑‍🦰🐌🤵/🤵 Assess 🐌 msg.md>)
 |           | `Subject` | string    | `Hello@Host`
 | Body           | `Binds`   | uuid[] | [Binds 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) of a [Vault 🗄️](<../../../Vaults 🗄️/🗄️🎭 Vault role.md>) host | [`Bound@`](<../../../Vaults 🗄️/🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
-|| `Chat`  | uuid      | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID 
+|| `Chat`  | uuid      | [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID 
 |      | `Language`| enum    | ISO language code | [`Language@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Wallets 🧑‍🦰 Language 🧑‍🦰🐌🤵/🤵 Language 🐌 msg.md>)
 |           | `Locator` | string    | [Host 🤗](<../../🤗🎭 Host role.md>) [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) | [`Assess@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Locators 🔆 Assess 🧑‍🦰🐌🤵/🤵 Assess 🐌 msg.md>) | 
 || `Parameters`| object | Custom parameters | [`Assess@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Locators 🔆 Assess 🧑‍🦰🐌🤵/🤵 Assess 🐌 msg.md>)

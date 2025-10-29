@@ -1,6 +1,6 @@
 # 🤵🪣 Chats @ Broker table
 
-> Stores [Chats 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>)
+> Stores [Chats 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
 
 > Inserted by [`Converse` 📃 script](<../../🤵⏩ Broker flows/Converse 🤵⏩💬/🤵 Converse 📃 script.md>)
 

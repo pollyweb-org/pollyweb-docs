@@ -1,14 +1,14 @@
 🤔 Prompt
 ===
 
-> Part of a [Chat 💬](<../💬 Chats/💬 Chat.md>) 
+> Part of a [Chat 💬](<../Chats 💬/💬 Chat.md>) 
 
 <br/>
 
 1. **What is a Prompt?**
 
     A [Prompt 🤔](<🤔 Prompt.md>) 
-    * is a line in [Chat 💬](<../💬 Chats/💬 Chat.md>) 
+    * is a line in [Chat 💬](<../Chats 💬/💬 Chat.md>) 
     * with a question or information to the user
     * sent to a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) 
     * by a [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) 
@@ -55,7 +55,7 @@
 
     Yes, but that rewinds the flow.
 
-    * [Chats 💬](<../💬 Chats/💬 Chat.md>) are designed to be forward-only workloads managed by a [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) (and not by the user). 
+    * [Chats 💬](<../Chats 💬/💬 Chat.md>) are designed to be forward-only workloads managed by a [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) (and not by the user). 
         * This behavior is similar to LLM apps like ChatGPT, Gemini, and others. 
         * Just like in ChatGPT, users to change answers to old [Prompts 🤔](<🤔 Prompt.md>).
         
@@ -64,11 +64,11 @@
         * then go back to B and change the history to A, B, X, Y, Z;
         * as long as there was no [Freeze ❄️](<../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Freeze 🤗⏩❄️/🤗 Freeze ⏩ flow.md>) between B and E.
     
-    * However, [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) can [Freeze ❄️](<../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Freeze 🤗⏩❄️/🤗 Freeze ⏩ flow.md>) a [Chat 💬](<../💬 Chats/💬 Chat.md>) until a certain checkpoint.
+    * However, [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) can [Freeze ❄️](<../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Freeze 🤗⏩❄️/🤗 Freeze ⏩ flow.md>) a [Chat 💬](<../Chats 💬/💬 Chat.md>) until a certain checkpoint.
         * This blocks the user from changing any [Prompts 🤔](<🤔 Prompt.md>) up to that point.
         * [Hosts 🤗](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) to this when committing a transaction to a database with the inputs collected.
   
-    * ⚠️ Note: [`Options`](<🤔⚙️ Prompt features/4 🔘 with Options.md>) with a `§` open a new [Chat 💬](<../💬 Chats/💬 Chat.md>)  and are never frozen.
+    * ⚠️ Note: [`Options`](<🤔⚙️ Prompt features/4 🔘 with Options.md>) with a `§` open a new [Chat 💬](<../Chats 💬/💬 Chat.md>)  and are never frozen.
 
     ---
     <br/>

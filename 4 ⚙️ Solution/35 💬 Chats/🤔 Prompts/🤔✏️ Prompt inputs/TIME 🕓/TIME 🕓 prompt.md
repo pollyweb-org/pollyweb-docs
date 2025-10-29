@@ -31,7 +31,7 @@
     ---
     <br/>
 
-1. **What's an example of a [Chat 💬](<../../../💬 Chats/💬 Chat.md>)?**
+1. **What's an example of a [Chat 💬](<../../../Chats 💬/💬 Chat.md>)?**
 
 
     Here's the [Script 📃](<../../../😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>).
@@ -54,9 +54,9 @@
     <br/>
 
 
-1. **How to provide default time options in a [Chat 💬](<../../../💬 Chats/💬 Chat.md>)?**
+1. **How to provide default time options in a [Chat 💬](<../../../Chats 💬/💬 Chat.md>)?**
 
-    Mix with [ONE 1️⃣ prompts](<../ONE 1️⃣/ONE 1️⃣ prompt.md>), like in the following [Chat 💬](<../../../💬 Chats/💬 Chat.md>).
+    Mix with [ONE 1️⃣ prompts](<../ONE 1️⃣/ONE 1️⃣ prompt.md>), like in the following [Chat 💬](<../../../Chats 💬/💬 Chat.md>).
 
     | Domain | [Prompt 🤔](<../../🤔 Prompt.md>) | User
     | - | - | - |

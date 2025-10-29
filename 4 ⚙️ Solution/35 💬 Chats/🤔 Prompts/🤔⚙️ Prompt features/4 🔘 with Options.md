@@ -23,7 +23,7 @@
     
         * e.g., [`INFO`](<../🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>), [`TEMP`](<../🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>), [`SUCCESS`](<../🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>), and [`FAILURE`](<../🤔📢 Prompt status/FAILURE ❌/FAILURE ❌ prompt.md>).
   
-        * [Host 🤗 domains](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) speed-up [Chats 💬](<../../💬 Chats/💬 Chat.md>) by taking unilateral two-way-door decisions that can be reverted by users even after other [Prompts 🤔](<../🤔 Prompt.md>) have been sent.
+        * [Host 🤗 domains](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) speed-up [Chats 💬](<../../Chats 💬/💬 Chat.md>) by taking unilateral two-way-door decisions that can be reverted by users even after other [Prompts 🤔](<../🤔 Prompt.md>) have been sent.
 
         * For example, [Host 🤗 domains](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) may assign default values to options to speed up the process (e.g., [navigation options 🤝](<../../../../3 🤝 Use Cases/03 🧳 Travel/01 🧳 Plans trips 🧭/02 🧭 Return @ Destination.md>)), while still allowing users to go back and change those default options.
 
@@ -35,10 +35,10 @@
 
     No. 
     * [`Options`](<4 🔘 with Options.md>) with a `§` sign 
-        * open a new [Chat 💬](<../../💬 Chats/💬 Chat.md>)
+        * open a new [Chat 💬](<../../Chats 💬/💬 Chat.md>)
         * even after a [Freeze ❄️](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Freeze 🤗⏩❄️/🤗 Freeze ⏩ flow.md>) command.
     * All others [`Options`](<4 🔘 with Options.md>)
-        * continue the [Chat 💬](<../../💬 Chats/💬 Chat.md>)
+        * continue the [Chat 💬](<../../Chats 💬/💬 Chat.md>)
         * and are disabled with a [Freeze ❄️](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Freeze 🤗⏩❄️/🤗 Freeze ⏩ flow.md>) command.
     
     ---
@@ -136,7 +136,7 @@
 
 
 
-1. **What's an example in a [Chat 💬](<../../💬 Chats/💬 Chat.md>)?**
+1. **What's an example in a [Chat 💬](<../../Chats 💬/💬 Chat.md>)?**
 
     > Note: [non-blocking status prompts ⚠️](<8 ⚠️ as Status.md>) behave slightly differently.
 
@@ -198,7 +198,7 @@
 
 
 
-1. **What's a Locator example in a [Chat 💬](<../../💬 Chats/💬 Chat.md>)?**
+1. **What's a Locator example in a [Chat 💬](<../../Chats 💬/💬 Chat.md>)?**
 
     | [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
@@ -211,7 +211,7 @@
     |
 
     The option with `§` 
-    * opens a new [Chat 💬](<../../💬 Chats/💬 Chat.md>)
+    * opens a new [Chat 💬](<../../Chats 💬/💬 Chat.md>)
     * using the [Locator 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) `any-artist.com/FANS`
 
     <br/>

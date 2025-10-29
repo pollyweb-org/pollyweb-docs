@@ -4,7 +4,7 @@
 
 * [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that 
     * updates the translated [domains 👥](<../../../../40 👥 Domains/👥 Domain.md>)
-    * for [Chats 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) in the [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+    * for [Chats 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) in the [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     * and notifies the [Notifier 📣 domain](<../../../Notifiers 📣/📣👥 Notifier domain.md>) about the changes.
 
 > Continues from the [`Converse` 📃 script](<../Converse 🤵⏩💬/🤵 Converse 📃 script.md>)

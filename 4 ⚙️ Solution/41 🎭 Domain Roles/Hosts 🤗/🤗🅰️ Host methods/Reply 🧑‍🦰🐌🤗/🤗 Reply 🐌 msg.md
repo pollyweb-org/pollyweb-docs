@@ -8,7 +8,7 @@
 * A [Wallet 🧑‍🦰 app](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) 
     * replies to a [Prompt 🤔](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) 
     * of a [Host 🤗 domain](<../../🤗🎭 Host role.md>) 
-    * in a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>).
+    * in a [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>).
 
 
 

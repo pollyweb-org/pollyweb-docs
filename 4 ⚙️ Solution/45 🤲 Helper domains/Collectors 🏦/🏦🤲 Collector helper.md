@@ -110,7 +110,7 @@
     * [🚕 Split taxi ride](<../../../3 🤝 Use Cases/03 🧳 Travel/04 🧳 Travel by taxi 🚕/2 🚕 Customer @ Car/23. Split with friends.md>).
     
     
-    The [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) will be similar to the following.
+    The [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) will be similar to the following.
 
     | [Domain](<../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |

@@ -16,16 +16,16 @@
 
     | # | Step 
     |-|-
-    |1| A user engages in a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) with a [Host 🤗 domain](<../Hosts 🤗/🤗🎭 Host role.md>) with an [Issuer 🎴 role](<🎴🎭 Issuer role.md>).
+    |1| A user engages in a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) with a [Host 🤗 domain](<../Hosts 🤗/🤗🎭 Host role.md>) with an [Issuer 🎴 role](<🎴🎭 Issuer role.md>).
     |2| The [Issuer 🎴 domain](<🎴🎭 Issuer role.md>) issues a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) for the user, and the user's [Broker 🤵 domain](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) asks the user to confirm if they want to save the [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) offline in the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
 
     ---
     <br/>
     
 
-1. **What does the [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) look like?**
+1. **What does the [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) look like?**
 
-    Consider the following [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) excerpt from the [Buy Theater Tickets 🤝 use case](<../../../3 🤝 Use Cases/10 🍿 Entertainment/Go to Theaters 🎭/10 Guest @ Anywhere/12 Buy tickets.md>).
+    Consider the following [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) excerpt from the [Buy Theater Tickets 🤝 use case](<../../../3 🤝 Use Cases/10 🍿 Entertainment/Go to Theaters 🎭/10 Guest @ Anywhere/12 Buy tickets.md>).
     
     
     | [Domain](<../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
@@ -61,7 +61,7 @@
   
     * [Broker 🤵 domains](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) will handle the revocation propagation up to the user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
 
-    * [Broker 🤵 domains](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) only share active [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) when [Consumer 💼 domains](<../../50 🫥 Agent domains/Storage 🗃️/🗃️🫥 Storage agent.md>) ask for them in a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>).
+    * [Broker 🤵 domains](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) only share active [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) when [Consumer 💼 domains](<../../50 🫥 Agent domains/Storage 🗃️/🗃️🫥 Storage agent.md>) ask for them in a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>).
 
     ---
     <br/>    
@@ -98,7 +98,7 @@
     
     * Instead, in NLWeb, [Broker 🤵 domains](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) protect the privacy of users by answering the online [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) status queries by [Consumer 💼 domains](<../../50 🫥 Agent domains/Storage 🗃️/🗃️🫥 Storage agent.md>), based on the [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) status update events sent asynchronously by [Issuer 🎴 domains](<🎴🎭 Issuer role.md>).
     
-    * Furthermore, because [Broker 🤵 domains](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) simplify the process by only sharing active [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) when [Consumer 💼 domains](<../../50 🫥 Agent domains/Storage 🗃️/🗃️🫥 Storage agent.md>) send sharing requests in a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>), this allows [Consumer 💼 domains](<../../50 🫥 Agent domains/Storage 🗃️/🗃️🫥 Storage agent.md>) to only need to verify the status of [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) presented in an offline fashion (e.g., a printed QR on a paper).
+    * Furthermore, because [Broker 🤵 domains](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) simplify the process by only sharing active [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) when [Consumer 💼 domains](<../../50 🫥 Agent domains/Storage 🗃️/🗃️🫥 Storage agent.md>) send sharing requests in a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>), this allows [Consumer 💼 domains](<../../50 🫥 Agent domains/Storage 🗃️/🗃️🫥 Storage agent.md>) to only need to verify the status of [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) presented in an offline fashion (e.g., a printed QR on a paper).
 
     On availability: 
 

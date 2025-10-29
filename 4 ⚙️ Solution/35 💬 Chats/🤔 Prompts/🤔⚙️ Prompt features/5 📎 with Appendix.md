@@ -29,7 +29,7 @@
 
 
     
-    Consider the following [Chat 💬](<../../💬 Chats/💬 Chat.md>) as an example.
+    Consider the following [Chat 💬](<../../Chats 💬/💬 Chat.md>) as an example.
 
     | [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |

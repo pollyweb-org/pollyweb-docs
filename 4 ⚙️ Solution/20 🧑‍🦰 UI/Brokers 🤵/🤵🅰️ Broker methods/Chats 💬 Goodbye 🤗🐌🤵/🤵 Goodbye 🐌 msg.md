@@ -11,7 +11,7 @@
 
 * The [Host 🤗 domain](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) 
     * informs the [user's Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) 
-    * of the [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ending.
+    * of the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ending.
 
 > Used in
 * [👋 Goodbye @ Host ⏩ flow](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Goodbye 🤗⏩👋/🤗 Goodbye ⏩ flow.md>) 
@@ -36,5 +36,5 @@ Body:
 |Header|`From`     | string  | [Host 🤗 domain](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)
 ||`To`       | string  | [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>)
 ||`Subject` | string | `Goodbye@Broker`
-|Body|`Chat`   | uuid    | ID of the [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) 
+|Body|`Chat`   | uuid    | ID of the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) 
 |

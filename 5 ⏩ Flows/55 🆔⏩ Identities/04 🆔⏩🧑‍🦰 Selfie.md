@@ -7,7 +7,7 @@
 
 ## 💬 Chat
 
-Consider the following [Chat 💬](<../../4 ⚙️ Solution/35 💬 Chats/💬 Chats/💬 Chat.md>) as an example.
+Consider the following [Chat 💬](<../../4 ⚙️ Solution/35 💬 Chats/Chats 💬/💬 Chat.md>) as an example.
 
 
 | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/👥 Domain.md>) | [Prompt](<../../4 ⚙️ Solution/35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)

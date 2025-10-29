@@ -25,7 +25,7 @@
     - [To 🤵](<../../🤵🤲 Broker helper.md>): `any-broker.dom`
     - [Subject 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>): `Charge@Broker`
 - Body:
-    - [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>): `<session-uuid@seller>`
+    - [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>): `<session-uuid@seller>`
     - Text: `<reason-for-charge>`
     - Charge:
         - ChargeID: `<charge-uuid@seller>`

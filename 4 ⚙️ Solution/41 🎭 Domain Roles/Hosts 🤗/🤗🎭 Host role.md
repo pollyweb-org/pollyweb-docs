@@ -4,7 +4,7 @@
 1. **What is a Host domain role in NLWeb?**
 
     A [domain 👥](<../../40 👥 Domains/👥 Domain.md>) with a [Host 🤗 domain role](<🤗🎭 Host role.md>) is any [domain 👥](<../../40 👥 Domains/👥 Domain.md>) that
-    * hosts a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) with [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) 
+    * hosts a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) with [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) 
     * via a [Broker 🤵 domain](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>). 
 
     ---
@@ -17,7 +17,7 @@
     |#|Category|Step
     |-|-|-
     |1| `Hello`| The [user's Broker 🤵 domain](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) checks-in into a [Host 🤗 domain](<🤗🎭 Host role.md>), passing it context parameters, [Binds 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>), and [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>).
-    |2| `Chat` | The [Host 🤗 domain](<🤗🎭 Host role.md>) sets a new [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) context.
+    |2| `Chat` | The [Host 🤗 domain](<🤗🎭 Host role.md>) sets a new [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) context.
     |3| `Interact` | The [Host 🤗 domain](<🤗🎭 Host role.md>) starts interacting with prompts.
 
     ---
@@ -27,17 +27,17 @@
 
 1. **How are users protected from stalking from Hosts?**
 
-    NLWeb sees [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) as temporary sessions, always initiated by users; 
-    - i.e., the [Host 🤗 domain](<🤗🎭 Host role.md>) receives a temporary ID from the [user's Broker 🤵 domain](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) when the [Chat 💬 session](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)  is open, but no other ID to track the user across sessions;
-    - although [Host 🤗 domains](<🤗🎭 Host role.md>) can proactively send messages on an open [Chat 💬 session](<../../35 💬 Chats/💬 Chats/💬 Chat.md>), users can close the session at any time. 
+    NLWeb sees [Chats 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) as temporary sessions, always initiated by users; 
+    - i.e., the [Host 🤗 domain](<🤗🎭 Host role.md>) receives a temporary ID from the [user's Broker 🤵 domain](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) when the [Chat 💬 session](<../../35 💬 Chats/Chats 💬/💬 Chat.md>)  is open, but no other ID to track the user across sessions;
+    - although [Host 🤗 domains](<🤗🎭 Host role.md>) can proactively send messages on an open [Chat 💬 session](<../../35 💬 Chats/Chats 💬/💬 Chat.md>), users can close the session at any time. 
 
     ---
     <br/>
 
 1. **What incentives do Hosts have to close sessions?**
 
-    [Advertising 👀](<../../../2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape/00 👀 Advertising index.md>) is triggered at the end of a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) for next-best actions.
-    - Thus, [Host 🤗 domains](<🤗🎭 Host role.md>) willing to monetize via cross-domain advertising are incentivized to close [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>). 
+    [Advertising 👀](<../../../2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape/00 👀 Advertising index.md>) is triggered at the end of a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) for next-best actions.
+    - Thus, [Host 🤗 domains](<🤗🎭 Host role.md>) willing to monetize via cross-domain advertising are incentivized to close [Chats 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>). 
     - See the [Advertiser 👀 helper domains](<../../45 🤲 Helper domains/Advertisers 👀/👀🤲 Advertiser helper.md>) for details.
 
     ---
@@ -54,7 +54,7 @@
 1. **What proxy services are involved in the flow?**
 
     [Messages 📨](<../../30 🧩 Data/Messages 📨/📨 Message.md>) sent from [Host 🤗 domains](<🤗🎭 Host role.md>) first reach the user's [Broker 🤵 domain](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) via HTTPS POST:
-    - these [Broker 🤵 domains](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) are responsible for orchestrating [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) between users and [Host 🤗 domains](<🤗🎭 Host role.md>) using the NLWeb protocol, 
+    - these [Broker 🤵 domains](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) are responsible for orchestrating [Chats 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) between users and [Host 🤗 domains](<🤗🎭 Host role.md>) using the NLWeb protocol, 
     - and they are typically implemented by a main cloud provider that is able to ensure high availability and low latency communication between globally dispersed entities. 
     
     The [user's Broker 🤵 domain](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) then sends the message to a [user's Notifier 📣 domain](<../../20 🧑‍🦰 UI/Notifiers 📣/📣👥 Notifier domain.md>), also via HTTPS POST:
@@ -99,8 +99,8 @@
 
     | Flow ⏩ | Description
     |-|-
-    | [🤔 `Prompt`](<🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | Sends a [Prompt 🤔](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) to a user [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
-    | [🛠️ `Invite`](<🤗⏩ Host flows/Invite 🤗⏩🤲/🤗 Invite ⏩ flow.md>) | Invites a [Helper 🤲 domain](<../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>) to a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
+    | [🤔 `Prompt`](<🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | Sends a [Prompt 🤔](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) to a user [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>)
+    | [🛠️ `Invite`](<🤗⏩ Host flows/Invite 🤗⏩🤲/🤗 Invite ⏩ flow.md>) | Invites a [Helper 🤲 domain](<../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>) to a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>)
     | [📝 `Form`](<../Consumers 💼/💼⏩ Consumer flows/Inform 💼⏩📝/💼 Inform ⏩ flow.md>) | Informs a user on upcoming [Inputs ✏️](<../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>)
     | [❄️ `Freeze`](<🤗⏩ Host flows/Freeze 🤗⏩❄️/🤗 Freeze ⏩ flow.md>) | Blocks changes on all previous [Inputs ✏️](<../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/9 ✏️ as Input.md>)
     | [👋 `Goodbye`](<🤗⏩ Host flows/Goodbye 🤗⏩👋/🤗 Goodbye ⏩ flow.md>) | Triggers the [advertising 👀](<../../45 🤲 Helper domains/Advertisers 👀/👀🤲 Advertiser helper.md>) flow
@@ -113,15 +113,15 @@
 
     | [From 👥](<../../40 👥 Domains/👥 Domain.md>) | [Subject 📨](<../../30 🧩 Data/Messages 📨/📨 Message.md>) | Description
     |-|-|-
-    |[🤵 Broker](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | [`Hello`](<🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>) | The user started a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
-    | | [`Home`](<🤗🅰️ Host methods/Home 🤵🐌🤗/🤗 Home 🐌 msg.md>) | Show the top menu on the [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
-    | | [`Abandoned`](<🤗🅰️ Host methods/Abandoned 🤵🐌🤗/🤗 Abandoned 🐌 msg.md>) |  The user abandoned a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
-    | | [`Summarize`](<🤗🅰️ Host methods/Summarize 🤵🐌🤗/🤗 Summarize 🐌 msg.md>) | Return a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) advertising summary
+    |[🤵 Broker](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | [`Hello`](<🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>) | The user started a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>)
+    | | [`Home`](<🤗🅰️ Host methods/Home 🤵🐌🤗/🤗 Home 🐌 msg.md>) | Show the top menu on the [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>)
+    | | [`Abandoned`](<🤗🅰️ Host methods/Abandoned 🤵🐌🤗/🤗 Abandoned 🐌 msg.md>) |  The user abandoned a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>)
+    | | [`Summarize`](<🤗🅰️ Host methods/Summarize 🤵🐌🤗/🤗 Summarize 🐌 msg.md>) | Return a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) advertising summary
     |[🧑‍🦰 Wallet](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) | [`Prompted`](<🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 request.md>) | Return a [Prompt's 🤔](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) content
     | | [`Reply`](<🤗🅰️ Host methods/Reply 🧑‍🦰🐌🤗/🤗 Reply 🐌 msg.md>) | Accept the reply to a [Prompt 🤔](<../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>)
     | | [`Download`](<🤗🅰️ Host methods/Download 🧑‍🦰🚀🤗/🤗 Download 🚀 request.md>) | Download an [Appendix 📎](<../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/5 📎 with Appendix.md>)
     [🖐️ Palmist](<../../60 🧰 Edge/63 🖐️ Palmists/01 🖐️🔌 Palmist device.md>) | [`Found`](<🤗🅰️ Host methods/Found 🖐️🐌🤗/🤗 Found 🐌 msg.md>) | A [Palmist 🖐️](<../../60 🧰 Edge/63 🖐️ Palmists/01 🖐️🔌 Palmist device.md>) found the Chat's user
-    [⭐ Reviewer](<../../50 🫥 Agent domains/Reviewers ⭐/⭐🫥 Reviewer agent.md>) | [`Rated`](<🤗🅰️ Host methods/Rated ⭐🐌🤗/🤗 Rated 🐌 msg.md>) | The [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) received user reviews
+    [⭐ Reviewer](<../../50 🫥 Agent domains/Reviewers ⭐/⭐🫥 Reviewer agent.md>) | [`Rated`](<🤗🅰️ Host methods/Rated ⭐🐌🤗/🤗 Rated 🐌 msg.md>) | The [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) received user reviews
     
 
     ---

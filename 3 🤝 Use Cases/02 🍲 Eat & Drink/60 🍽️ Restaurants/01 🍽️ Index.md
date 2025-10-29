@@ -7,7 +7,7 @@
 
 ## 💬 Chats
 
-| Persona |  [Chat 💬](<../../../4 ⚙️ Solution/35 💬 Chats/💬 Chats/💬 Chat.md>) | [Agents 🫥](<../../../4 ⚙️ Solution/50 🫥 Agent domains/$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>)
+| Persona |  [Chat 💬](<../../../4 ⚙️ Solution/35 💬 Chats/Chats 💬/💬 Chat.md>) | [Agents 🫥](<../../../4 ⚙️ Solution/50 🫥 Agent domains/$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>)
 |-|-|-
 | 🧑‍🦰   `🌐 Web`   | [Book table 🗓️](<31 🌐 Web: Book table 🗓️.md>) | [`🗓️ Scheduler`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Schedulers 🗓️/$ 🗓️🫥 Scheduler agent.md>) [`🧢 Persona`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Personas 🧢/🧢🫥 Persona agent.md>) [`🎫 Token`](<../../../4 ⚙️ Solution/30 🧩 Data/Tokens 🎫/🎫 Token.md>) 
 |🧑‍🦰   `🚪 Door`  | [Booked 🗓️](<41 🚪 Door: Booked 🗓️.md>) | [`🎫 Token`](<../../../4 ⚙️ Solution/30 🧩 Data/Tokens 🎫/🎫 Token.md>) 

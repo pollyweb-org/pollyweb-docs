@@ -9,7 +9,7 @@
 
     A `$holder`
     * is a named memory slot 
-    * associated with a [Chat 💬](<../../../💬 Chats/💬 Chat.md>)
+    * associated with a [Chat 💬](<../../../Chats 💬/💬 Chat.md>)
     * and managed by a [Talker 😃](<../../😃 Talker role.md>).
 
     ---
@@ -19,7 +19,7 @@
 
     | Holder 🧠 | Details
     |-|-
-    | [`$.Chat`](<$.Chat 💬/💬 $.Chat 🧠 holder.md>) | Contains the details of the current  [Chat 💬](<../../../💬 Chats/💬 Chat.md>) 
+    | [`$.Chat`](<$.Chat 💬/💬 $.Chat 🧠 holder.md>) | Contains the details of the current  [Chat 💬](<../../../Chats 💬/💬 Chat.md>) 
     | [`$.Inputs`](<$.Inputs ▶️/▶️ $.Inputs 🧠 holder.md>) | Contains the inputs of the current [`RUN` command](<../...control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>) 
     | [`$.Msg`](<$.Msg 📨/📨 $.Msg 🧠 holder.md>) | Contains the properties of the current [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>)
     | [`$.Hosted`](<$.Hosted 📦/📦 $.Hosted 🧠 holder.md>) | Contains the settings of the [Hosted 📦 domain](<../../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>)

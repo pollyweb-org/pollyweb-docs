@@ -82,7 +82,7 @@
     <br/>
 
 
-1. **What do TEMP prompts look like in a [Chat 💬](<../../../💬 Chats/💬 Chat.md>)?**
+1. **What do TEMP prompts look like in a [Chat 💬](<../../../Chats 💬/💬 Chat.md>)?**
 
     
 
