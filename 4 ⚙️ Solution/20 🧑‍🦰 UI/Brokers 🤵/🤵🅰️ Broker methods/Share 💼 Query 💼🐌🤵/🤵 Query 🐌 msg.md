@@ -3,7 +3,6 @@
 # 💼🐌🤵  Query @ Broker
 
 > Purpose
-> 
 * In a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>), 
     * a [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) 
     * asks the [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) 
@@ -12,9 +11,9 @@
 
 > Used by
 
-* [💼⏩🧑‍🦰 Inform ⏩ flow](<../../../../41 🎭 Domain Roles/Consumers 💼/💼⏩ Consumer flows/Inform 💼⏩📝/💼 Inform ⏩ flow.md>)
-* [🧑‍🦰👉💼 Share Token ⏩ flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Token 🎫.md>)
-* [🧑‍🦰👉💼 Share Bind ⏩ flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Bind 🔗.md>)
+* [`Inform` ⏩ flow](<../../../../41 🎭 Domain Roles/Consumers 💼/💼⏩ Consumer flows/Inform 💼⏩📝/💼 Inform ⏩ flow.md>)
+* [`Share Token` ⏩ flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Token 🎫/👉💼 Share Token 🎫 flow.md>)
+* [`Share Bind` ⏩ flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Bind 🔗.md>)
 
 <br/> 
 

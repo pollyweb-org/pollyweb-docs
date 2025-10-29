@@ -148,7 +148,7 @@
     |🎫 Tokens| [👉 Tokens](<🧑‍🦰💬 Wallet chats/...in App 🏠/💬🤵 List Tokens 🎫.md>)| List the user's [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
     || [👉 Save](<🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🎴 Save token.md>) | Save a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) in the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>)
     || [👉 Remove](<🧑‍🦰💬 Wallet chats/...in Tokens 🎫/💬🤵 Remove 🎫 chat.md>) | Remove a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) from the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>)
-    || [👉 Share](<🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Token 🎫.md>) | Share a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) with a [Consumer 💼](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)
+    || [👉 Share](<🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Token 🎫/👉💼 Share Token 🎫 flow.md>) | Share a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) with a [Consumer 💼](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)
     || [👉 Verify ID](<🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Token+ID.md>) | Share and [verify the user Identity 🆔](<../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 🆔⏩🎫 Verify Tokens.md>)
 
     ---
