@@ -16,7 +16,7 @@ participant "Graph 🕸\ndomain" as graph
 
 
     'activate consumer
-    consumer --> broker: 1) Query 🐌
+    consumer --> broker: 1) Query 🐌 {hook}
     'deactivate consumer
 
     activate broker
@@ -28,12 +28,12 @@ participant "Graph 🕸\ndomain" as graph
 
     
     activate wallet
-        user --> wallet: share
+        user --> wallet: share 
         wallet --> broker: {tokens}
     deactivate wallet
 
     activate broker
-        broker --> notifier: 5) Share 🐌
+        broker --> notifier: 5) Share 🐌 {hook}
     deactivate broker
 
     activate notifier
@@ -41,7 +41,7 @@ participant "Graph 🕸\ndomain" as graph
     deactivate notifier
 
     activate wallet
-        wallet --> consumer: 6) Receive 🐌 {tokens}
+        wallet --> consumer: 6) Receive 🐌 {hook, tokens}
     deactivate wallet
 
 

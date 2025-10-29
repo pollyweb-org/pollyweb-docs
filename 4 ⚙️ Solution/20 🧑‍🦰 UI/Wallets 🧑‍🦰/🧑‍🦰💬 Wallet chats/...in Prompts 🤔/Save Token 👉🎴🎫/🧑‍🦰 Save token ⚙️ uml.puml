@@ -20,7 +20,7 @@ activate wallet
 deactivate wallet
 
 activate issuer
-    issuer --> broker: 2) Offer 🐌
+    issuer --> broker: 2) Offer 🐌 {hook}
 deactivate issuer
 
 activate broker
@@ -33,7 +33,7 @@ activate broker
     broker --> wallet: 4) ⏪ Prompt 🤔 {save?}
 deactivate broker
 
-activate wallet
+activate wallet 
     user --> wallet: save
     wallet --> broker: {Yes}
 deactivate wallet
@@ -42,7 +42,7 @@ group If user accepted
 
 
 activate broker
-    broker --> notifier: 5) Save 🐌
+    broker --> notifier: 5) Save 🐌 {token}
 deactivate broker
 
 ' NOTIFY
@@ -60,7 +60,7 @@ activate wallet
     wallet -> wallet: save
 
     ' CONFIRM
-    wallet --> broker: 7) Saved 🐌 { path }
+    wallet --> broker: 7) Saved 🐌 { token, path }
 deactivate wallet
 
 ' NOTIFY
@@ -69,7 +69,7 @@ activate broker
 
 end group
 
-    broker --> issuer: 9) Accepted 🐌
+    broker --> issuer: 9) Accepted {hook, token} 🐌
 deactivate broker
 
 activate issuer
