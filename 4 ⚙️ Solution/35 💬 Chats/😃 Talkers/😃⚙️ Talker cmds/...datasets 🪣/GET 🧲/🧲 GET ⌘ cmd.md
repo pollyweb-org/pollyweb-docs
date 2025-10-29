@@ -142,7 +142,7 @@
 
 1. **How to find a child by key?**
 
-    > Used by the [`Pop Vault` 📃 handler](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Pop 🧑‍🦰🐌🤵/PopVault/🤵 Pop Vault 📃 handler.md>)
+    > Used by the [`Pop Vault` 📃 handler](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Pop 🧑‍🦰🐌🤵/Pop Vault/🤵 Pop Vault 📃 handler.md>)
 
 
     ```yaml

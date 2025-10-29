@@ -2,7 +2,7 @@
 
 # 🧑‍🦰💬🤵 Unbind @ Wallet
 
-> Implemented by the [`Pop Vault` script](<../../../../Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Pop 🧑‍🦰🐌🤵/PopVault/🤵 Pop Vault 📃 handler.md>).
+> Implemented by the [`Pop Vault` script](<../../../../Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Pop 🧑‍🦰🐌🤵/Pop Vault/🤵 Pop Vault 📃 handler.md>).
 
 > Implements a [Wallet 🧑‍🦰 app](<../../../🧑‍🦰🛠️ Wallet app.md>)
 
@@ -13,7 +13,7 @@
 
 ## Chat
 
-> Implemented by [Pop Vault 🔆 handler](<../../../../Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Pop 🧑‍🦰🐌🤵/PopVault/🤵 Pop Vault 📃 handler.md>).
+> Implemented by [Pop Vault 🔆 handler](<../../../../Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Pop 🧑‍🦰🐌🤵/Pop Vault/🤵 Pop Vault 📃 handler.md>).
 
 | [Domain](<../../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) | [User](<../../../🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
