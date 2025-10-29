@@ -13,7 +13,7 @@
 
 * [🔎⏩🧑‍🦰 Introduce 🤗 flow](<../../../../50 🫥 Agent domains/Finders 🔎/🔎⏩ Finder flows/🔎⏩🧑‍🦰 Introduce 🤗.md>)
 * [🤗⏩🧑‍🦰 Prompt 🤔](<🤗 Prompt ⏩ flow.md>) flow
-* [🧑‍🦰👉🤗 Abandon Chat](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Chats 💬/Abandon 💬🤵/💬🤵 Abandon ⏩ flow.md>) flow
+* [🧑‍🦰👉🤗 Abandon Chat](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Chats 💬/Abandon 💬🤵/🧑‍🦰 Abandon chat ⏩ flow.md>) flow
 * [💼⏩🧑‍🦰 Share Bind](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Bind 👉🔗💼/🧑‍🦰 Share Bind ⏩ flow.md>) flow
 
 <br/>
