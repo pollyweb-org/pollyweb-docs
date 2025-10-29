@@ -6,7 +6,7 @@
 
 > Used in
 * [🤵⏩🗄️ Bind vault @ Broker](<../Bind vault 🗄️⏩🤵/Bind vault ⏩ flow.md>) to add a [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to the list
-*  [🧑‍🦰👉🗄️ Unbind @ Wallet](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Vaults 🗄️/Unbind 💬🗄️🤵 /🧑‍🦰 Unbind vault ⏩ flow.md>) to remove a [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) from the list
+*  [🧑‍🦰👉🗄️ Unbind @ Wallet](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Vaults 🗄️/Unbind 💬🗄️🤵 /🧑‍🦰 Unbind Vault ⏩ flow.md>) to remove a [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) from the list
 
 <br/>
 

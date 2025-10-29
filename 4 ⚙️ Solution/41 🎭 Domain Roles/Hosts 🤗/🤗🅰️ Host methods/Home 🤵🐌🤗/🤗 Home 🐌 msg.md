@@ -5,9 +5,9 @@
 > Shows the main menu of the [Host 🤗 domain](<../../🤗🎭 Host role.md>).
 
 > Used by:
-* [🧑‍🦰👉🗄️ Unbind](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Vaults 🗄️/Unbind 💬🗄️🤵 /🧑‍🦰 Unbind vault ⏩ flow.md>) flow
+* [🧑‍🦰👉🗄️ Unbind](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Vaults 🗄️/Unbind 💬🗄️🤵 /🧑‍🦰 Unbind Vault ⏩ flow.md>) flow
 * [🧑‍🦰👉🤵 Remove Token](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Tokens 🎫/Remove 💬🎫🤵 /🧑‍🦰 Remove Token ⏩ flow.md>) flow
-* [🧑‍🦰👉🤵 Host home](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Chats 💬/Host home 💬🤵/💬🤵 Host home ⏩ flow.md>) flow
+* [🧑‍🦰👉🤵 Host home](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Chats 💬/Host home 💬🤵/🧑‍🦰 Host home ⏩ flow.md>) flow
 
 <br/>
 

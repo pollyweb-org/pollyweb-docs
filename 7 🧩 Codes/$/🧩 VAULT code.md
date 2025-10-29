@@ -4,7 +4,7 @@
     * for [Vault 🗄️ domains](<../../4 ⚙️ Solution/41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>).
 
 * Used with:
-    * [🧑‍🦰👉🗄️ Bind 🔗 flow](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/👉🗄️ Bind 🔗 ⏩ flow.md>)
+    * [🧑‍🦰👉🗄️ Bind 🔗 flow](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/🧑‍🦰 Bind vault ⏩ flow.md>)
     * [`BIND` 🔗 command](<../../4 ⚙️ Solution/35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>)
 
 <br/>
