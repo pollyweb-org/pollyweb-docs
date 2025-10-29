@@ -22,7 +22,7 @@
 
 ## Flow diagram
 
-![alt text](<⚙️🤗 Host QR.png>)
+![alt text](<🧑‍🦰 Tap host locator ⚙️ uml.png>)
 
 
 | # | Call | Notes

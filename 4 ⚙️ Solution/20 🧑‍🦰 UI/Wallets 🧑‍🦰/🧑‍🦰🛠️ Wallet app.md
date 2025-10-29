@@ -12,7 +12,7 @@
 
 1. **What can a user do with a Wallet?**
 
-    ![](<.📎 Assets/Powerpoint 📎/🧑‍🦰 Wallet.png>)
+    ![](<.📎 Assets/🧑‍🦰 Wallet.png>)
 
     The following features are available in a [Wallet 🧑‍🦰 app](<🧑‍🦰🛠️ Wallet app.md>):
     - 💬 [Chats](<../../35 💬 Chats/💬 Chats/💬 Chat.md>): list, filter, search, view, and interact.
@@ -137,15 +137,15 @@
     | 🤵 Set up | [👉 Onboard](<🧑‍🦰✨ Wallet onboard 🤵/...in App/🧑‍🦰 Onboard 💬 flow.md>)  | Register the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>) on a [Broker 🤵](<../Brokers 🤵/🤵🤲 Broker helper.md>)
     | | [👉 Translate](<🧑‍🦰💬 Wallet chats/...in App 🏠/Set Language 💬🤵/🧑‍🦰 Set Language ⏩ flow.md>)  | Change the language of the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>)
     | 🔆 Locators |[👉 Host QR](<🧑‍🦰💬 Wallet chats/...in App 🏠/Tap host locator 🔆🤗 /🧑‍🦰 Tap host locator ⏩ flow.md>)  | Scan a [Host 🤗 NFC/QR](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)   to open a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
-    ||[👉 Printer QR](<🧑‍🦰💬 Wallet chats/...in App 🏠/Tap alias locator 🔆🖨️ /🔆🖨️ Tap alias locator ⏩ flow.md>)  | Scan a [Printer 🖨️ NFC/QR](<../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>) to open a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
-    |💬 Chats|[👉 Chats](<🧑‍🦰💬 Wallet chats/...in App 🏠/List Chats 💬🤵/💬🤵 List Chats ⏩ flow.md>) | List the user's [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) 
+    ||[👉 Printer QR](<🧑‍🦰💬 Wallet chats/...in App 🏠/Tap alias locator 🔆🖨️ /🧑‍🦰 Tap alias locator ⏩ flow.md>)  | Scan a [Printer 🖨️ NFC/QR](<../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>) to open a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
+    |💬 Chats|[👉 Chats](<🧑‍🦰💬 Wallet chats/...in App 🏠/List Chats 💬🤵/🧑‍🦰 List Chats ⏩ flow.md>) | List the user's [Chats 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>) 
     ||[👉 Home](<🧑‍🦰💬 Wallet chats/...in Chats 💬/Host home 💬🤵/💬🤵 Host home ⏩ flow.md>) | Show the [Host's 🤗 ](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) menu in a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
     ||[👉 Abandon](<🧑‍🦰💬 Wallet chats/...in Chats 💬/Abandon 💬🤵/💬🤵 Abandon ⏩ flow.md>) | Unilaterally abandon a [Chat 💬](<../../35 💬 Chats/💬 Chats/💬 Chat.md>)
-    | 🔗 Binds | [👉 Binds ](<🧑‍🦰💬 Wallet chats/...in App 🏠/List Binds 💬🔗🤵 /💬🤵 List Binds ⏩ flow.md>) | List the user's [Binds 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
+    | 🔗 Binds | [👉 Binds ](<🧑‍🦰💬 Wallet chats/...in App 🏠/List Binds 💬🔗🤵 /🧑‍🦰 List Binds ⏩ flow.md>) | List the user's [Binds 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
     || [👉 Bind](<🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/👉🗄️ Bind 🔗 ⏩ flow.md>) | [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>) to a [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)
     || [👉 Unbind](<🧑‍🦰💬 Wallet chats/...in Vaults 🗄️/Unbind 💬🗄️🤵 /🧑‍🦰 Unbind vault ⏩ flow.md>) | Remove a [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) from a [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)
     ||[👉 Share](<🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Bind 👉🔗💼/🧑‍🦰 Share Bind ⏩ flow.md>) | Shares a [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) with a [Consumer 💼](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)
-    |🎫 Tokens| [👉 Tokens](<🧑‍🦰💬 Wallet chats/...in App 🏠/List Tokens 🎫💬🤵/💬🤵 List Tokens ⏩ flow.md>)| List the user's [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
+    |🎫 Tokens| [👉 Tokens](<🧑‍🦰💬 Wallet chats/...in App 🏠/List Tokens 🎫💬🤵/🧑‍🦰 List Tokens ⏩ flow.md>)| List the user's [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
     || [👉 Save](<🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save token ⏩ flow.md>) | Save a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) in the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>)
     || [👉 Remove](<🧑‍🦰💬 Wallet chats/...in Tokens 🎫/Remove 💬🎫🤵 /🧑‍🦰 Remove Token ⏩ flow.md>) | Remove a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) from the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>)
     || [👉 Share](<🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token 👉🎫💼/🎫 Share Token ⏩ flow.md>) | Share a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) with a [Consumer 💼](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)

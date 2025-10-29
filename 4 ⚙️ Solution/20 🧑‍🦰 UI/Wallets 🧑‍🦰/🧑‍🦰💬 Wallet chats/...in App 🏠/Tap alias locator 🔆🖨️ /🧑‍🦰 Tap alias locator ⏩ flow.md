@@ -24,7 +24,7 @@
 
 ## Flow diagram
 
-![PrinterQR](<⚙️🖨️ Printer QR.png>)
+![PrinterQR](<🧑‍🦰 Tap alias locator ⚙️ uml.png>)
 
 
 | # | Call | Notes

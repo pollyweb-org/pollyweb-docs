@@ -39,7 +39,7 @@ The associated [Talker 😃](<../../../../../35 💬 Chats/😃 Talkers/😃 Tal
 
 ## ⏩ Flow diagram
 
-![alt text](<../../../.📎 Assets/Binds 📎/⚙️ Bind vault.png>)
+![alt text](<⚙️ Bind vault.png>)
 
 
 | # | Call | Notes |
