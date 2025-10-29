@@ -2,15 +2,15 @@
 
 # 🧑‍🦰🚀🤗 Download @ Host
 
+> Purpose
+* Downloads the content of an [Appendix 📎](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/5 📎 with Appendix.md>).
 
-> Downloads the content of an [Appendix 📎](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/5 📎 with Appendix.md>).
+> Flow
+* Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../../🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) flow.
 
-
-> Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../../🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) flow.
-
-> Signature of the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>):
-> <br>• signed with the `PrivateKey` from [`Converse@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Converse 🤵🐌📣/📣 Converse 📣 msg.md>)
-> <br>• verified with the `PublicKey` from [`Hello@Host`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
+> Signature 
+* signed with the `PrivateKey` from [`Converse@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Converse 🤵🐌📣/📣 Converse 📣 msg.md>)
+* verified with the `PublicKey` from [`Hello@Host`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 
 
 <br/>
@@ -25,17 +25,15 @@ Header:
     Subject: Download@Host
 
 Body:
-    Chat: <prompt-uuid>
-    File: <file-uuid>
+    Appendix: <appendix-uuid>
 ```
 
-|Object|Property|Type|Description
-|-|-|-|-
+|Object|Property|Type|Description | Origin
+|-|-|-|-|-
 | Header    | `From`        | string    | `Anonymous`
-|           | `To`          | string    | [Sender 🤗](<../../🤗🎭 Host role.md>) from [`Prompt@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Prompt 🤵🐌📣/📣 Prompt 🐌 msg.md>)
+|           | `To`          | string    | [Sender 🤗](<../../🤗🎭 Host role.md>) | [`Prompt@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Prompt 🤵🐌📣/📣 Prompt 🐌 msg.md>)
 |           | `Subject`     | string    | `Prompted@Host`
-| Body      | `Chat` | uuid | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Prompt@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Prompt 🤵🐌📣/📣 Prompt 🐌 msg.md>)
-|| `File`    | uuid      | [Appendix 📎](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/5 📎 with Appendix.md>) from [`Prompted@Host`](<../Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 request.md>)
+| Body      | `Appendix`    | uuid      | [Appendix 📎](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/5 📎 with Appendix.md>) | [`Prompted@Host`](<../Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 request.md>)
 |
 
 <br/>

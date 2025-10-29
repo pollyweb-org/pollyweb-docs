@@ -5,10 +5,10 @@
 
 # 🧑‍🦰🚀📣 Onboard @ Notifier
 
-> Implements the [Notifier 📣 domain](<../../📣👥 Notifier domain.md>)
+> Implementations
+* Implements the [Notifier 📣 domain](<../../📣👥 Notifier domain.md>)
 
 > Purpose
-
 * A new [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) asks a [Notifier 📣 domain](<../../📣👥 Notifier domain.md>) to onboard.
 
 > Used in 
@@ -31,13 +31,13 @@ Body:
     PublicKey: MIGfMA0GCSqGSI...
 ```
 
-|Object|Property|Type|Description
-|-|-|-|-
+|Object|Property|Type|Description|Purpose
+|-|-|-|-|-
 |Header | `From`      | string | `Anonymous`
-|       | `To`        | string | [Notifier 📣 domain](<../../📣👥 Notifier domain.md>) name
+|       | `To`        | string | [Notifier 📣](<../../📣👥 Notifier domain.md>) name
 |       | `Subject`   | string | `Onboard@Notifier`
-| Body  | `Language`  | enum   | ISO language code
-|       | `PublicKey` | string | For [`Chats@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Chats 🧑‍🦰🚀🤵/🤵 Chats 🚀 request.md>), etc.
+| Body  | `Language`  | enum   | ISO language code | [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
+|       | `PublicKey` | string | |[`Chats@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Chats 🧑‍🦰🚀🤵/🤵 Chats 🚀 request.md>)
 |
 
 <br/>

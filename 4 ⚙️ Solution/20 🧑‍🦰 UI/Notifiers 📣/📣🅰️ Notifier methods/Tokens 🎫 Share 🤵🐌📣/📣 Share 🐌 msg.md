@@ -28,7 +28,7 @@ Body:
         Path: /storage/nlweb/tokens/<token-uuid>
 ```
 
-|Object|Property|Type|Description|Origin |Destination
+|Object|Property|Type|Description|Origin |Purpose
 |-|-|-|-|-|-
 | Header| `From`    | string | [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) | [`Onboard@Broker`](<../Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
 | | `To`| string | [Notifier 📣](<../../📣👥 Notifier domain.md>) | [`Onboard@Broker`](<../Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)

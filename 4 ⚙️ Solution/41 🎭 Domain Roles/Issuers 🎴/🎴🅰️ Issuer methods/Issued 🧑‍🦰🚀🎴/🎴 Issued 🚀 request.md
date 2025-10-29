@@ -30,12 +30,12 @@ Body:
     Hook: <hook-uuid>
 ```
 
-|Object |Property |Type|Description
-|-|-|-|-
+|Object |Property |Type|Description | Origin 
+|-|-|-|-|-
 |Header | `From`  | string  | `Anonymous`
-|       | `To`    | string  | [Issuer 🎴](<../../🎴🎭 Issuer role.md>) from [`Save@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>)
+|       | `To`    | string  | [Issuer 🎴](<../../🎴🎭 Issuer role.md>) | [`Save@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>)
 ||`Subject`|string|`Token@Issuer` 
-| Body | `Hook`| string | `Hook` from [`Save@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>)
+| Body | `Hook`| string | [Issuer 🎴](<../../🎴🎭 Issuer role.md>) Hook | [`Save@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>)
 |
 
 <br/>

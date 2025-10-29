@@ -1,6 +1,7 @@
 # 🧑‍🦰🐌🤗 Reply @ Host
 
-> Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../../🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) flow.
+> Flow
+* Part of the [`Prompt` ⏩ flow](<../../🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>).
 
 > Purpose
 
@@ -33,12 +34,12 @@ Body:
 ```
 
 
-|Object|Property|Type|Description
-|-|-|-|-
+|Object|Property|Type|Description | Origin
+|-|-|-|-|-
 | Header    | `From`        | string    | `Anonymous`
-|           | `To`          | string    | [Sender 🤗](<../../🤗🎭 Host role.md>) from [`Prompt@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Prompt 🤵🐌📣/📣 Prompt 🐌 msg.md>)
+|           | `To`          | string    | [Sender 🤗](<../../🤗🎭 Host role.md>) | [`Prompt@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Prompt 🤵🐌📣/📣 Prompt 🐌 msg.md>)
 |           | `Subject`     | string    | `Prompted@Host`
-| Body      | `Prompt`    | uuid      | [Prompt 🤔](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) ID from [`Prompt@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Prompt 🤵🐌📣/📣 Prompt 🐌 msg.md>)
+| Body      | `Prompt`    | uuid      | [Prompt 🤔](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>) ID | [`Prompt@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Prompt 🤵🐌📣/📣 Prompt 🐌 msg.md>)
 || `Result`| enum | `OK` `CANCEL` `YES` `NO` 
 || `Answer` | any | Answer to the [Prompt 🤔](<../../../../35 💬 Chats/🤔 Prompts/🤔 Prompt.md>)
 |
