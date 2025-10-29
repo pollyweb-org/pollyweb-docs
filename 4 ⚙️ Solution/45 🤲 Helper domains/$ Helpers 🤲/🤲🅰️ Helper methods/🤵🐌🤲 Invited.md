@@ -2,7 +2,7 @@
 
 > Invests a [Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) into a [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>).
 
-> Part of the [🤗⏩🧑‍🦰 Invite @ Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Invite 🤗⏩🤲/🤗 Invite ⏩ flow.md>) flow.
+> Part of the [`Invite` ⏩ flow](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Invite 🤗⏩🤲/🤗 Invite ⏩ flow.md>).
 ><br/> • preceded by the [`Invite@Host`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>) message
 
 <br/>
@@ -19,20 +19,20 @@ Body:
     Chat: <chat-uuid>
     Inviter: any-consumer.dom
     Schema: any-authority.com/ANY-SCHEMA:1.0
-    Callback: <callback-uuid>
+    Hook: <Hook-uuid>
     Parameters:
         Param1: Value1
         Param2: Value2
 ```
 
-|Object|Property|Type|Description
-|-|-|-|-
-|Header|`From`     | string  | [Broker 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) from [`Invite@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)
-||`To`       | string  | [Helper 🤲](<../🤲👥 Helper domain.md>) from [`Invite@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)
+|Object|Property|Type|Description|Origin|Purpose
+|-|-|-|-|-|-
+|Header|`From`     | string  | [Broker 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | [`Invite@`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)
+||`To`       | string  | [Helper 🤲](<../🤲👥 Helper domain.md>) | [`Invite@`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)
 ||`Subject` | string | `Invited@Helper`
-|Body|`Chat`   | uuid    | [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) from [`Invite@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)
-||`Inviter`  | string  | [Consumer 💼 ](<../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) from [`Invite@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)
-||`Schema`     | string  | [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) from [`Invite@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)
-||`Callback` | uuid    | Callback from [`Invite@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)
-||`Parameters`| object   | Parameters from [`Invite@Broker`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)
+|Body|`Chat`   | uuid    | [Chat 💬](<../../../35 💬 Chats/💬 Chats/💬 Chat.md>) | [`Invite@`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)
+||`Inviter`  | string  | [Consumer 💼 ](<../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) | [`Invite@`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)
+||`Schema`     | string  | [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | [`Invite@`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)
+||`Hook` | uuid    | Hook | [`Invite@`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)|[`Collect@`](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Collect 💼🚀🗄️/🗄️ Collect 🚀 request.md>)
+||`Parameters`| object   | Parameters | [`Invite@`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)
 |

@@ -32,10 +32,10 @@ Body:
 
 |Object|Property|Type|Description|Origin
 |-|-|-|-|-|
-|Header|`From` | string | [Consumer 💼](<../../../Consumers 💼/💼🎭 Consumer role.md>) | [`Consume@Consumer`](<../../../Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
-|| `To`| string | [Vault 🗄️](<../../🗄️🎭 Vault role.md>) | [`Consume@Consumer`](<../../../Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
+|Header|`From` | string | [Consumer 💼](<../../../Consumers 💼/💼🎭 Consumer role.md>) | [`Consume@`](<../../../Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
+|| `To`| string | [Vault 🗄️](<../../🗄️🎭 Vault role.md>) | [`Consume@`](<../../../Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
 ||`Subject` | string | `Collect@Vault`
-|Body|`Collect` | uuid | `Collect` | [`Consume@Consumer`](<../../../Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
+|Body|`Collect` | uuid | `Collect` | [`Consume@`](<../../../Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
 |
 
 <br/>

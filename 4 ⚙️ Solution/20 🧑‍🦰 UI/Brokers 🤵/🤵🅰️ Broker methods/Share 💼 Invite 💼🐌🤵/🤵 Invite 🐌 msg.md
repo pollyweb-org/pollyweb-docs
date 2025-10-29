@@ -1,9 +1,11 @@
 # 💼🐌🤵 Invite @ Broker
 
-> Invites a [Host 🤗 domain](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) into a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>).
+> Purpose
+* Invites a [Host 🤗 domain](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) into a [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>).
 
-> Part of the [🤗⏩🧑‍🦰 Invite @ Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Invite 🤗⏩🤲/🤗 Invite ⏩ flow.md>) flow:
-> <br/>• followed by [`Invited@Helper`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲🅰️ Helper methods/🤵🐌🤲 Invited.md>) message
+> Flow
+* Part of the [`Invite` ⏩ flow](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Invite 🤗⏩🤲/🤗 Invite ⏩ flow.md>) 
+* followed by [`Invited@Helper`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲🅰️ Helper methods/🤵🐌🤲 Invited.md>) message
 
 <br/>
 
@@ -25,14 +27,14 @@ Body:
         Param2: Value2
 ```
 
-|Object|Property|Type|Description
-|-|-|-|-
-|Header|`From`     | string  | Inviter [Consumer 💼](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) name
-||`To`       | string  | [Broker 🤵](<../../🤵🤲 Broker helper.md>) from [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
+|Object|Property|Type|Description|Origin|Purpose
+|-|-|-|-|-|-
+|Header|`From`     | string  | Inviter [Consumer 💼](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)  | [`Hello@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
+||`To`       | string  | [Broker 🤵](<../../🤵🤲 Broker helper.md>) | [`Hello@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 ||`Subject` | string | `Invite@Broker`
-|Body|`Chat`   | uuid    | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID from [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
-||`Helper`  | string  | Invitee [Helper 🤲 domain](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>) name
-||`Schema`     | string  | Related [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
-||`Hook` | uuid    | Hook for [`Consume@Consumer`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
-||`Parameters`| object   | Optional parameters for the invite
+|Body|`Chat`   | uuid    | [Chat 💬](<../../../../35 💬 Chats/💬 Chats/💬 Chat.md>) ID | [`Hello@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
+||`Helper`  | string  | Invitee [Helper 🤲](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>) || [`Invited@`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲🅰️ Helper methods/🤵🐌🤲 Invited.md>)
+||`Schema`     | string  | Related [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) ||[`Invited@`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲🅰️ Helper methods/🤵🐌🤲 Invited.md>)
+||`Hook` | uuid    | Hook || [`Invited@`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲🅰️ Helper methods/🤵🐌🤲 Invited.md>)
+||`Parameters`| object   | Optional parameters ||[`Invited@`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲🅰️ Helper methods/🤵🐌🤲 Invited.md>)
 |
