@@ -77,7 +77,7 @@ Options:                            # Optional
 |-|-|-
 | `ID`          | string  | ID of the [option](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/4 🔘 with Options.md>) for [`Reply@Host`](<../Reply 🧑‍🦰🐌🤗/🤗 Reply 🐌 msg.md>)
 | `Title` | string  | Text of the [option](<../../../../35 💬 Chats/🤔 Prompts/🤔⚙️ Prompt features/4 🔘 with Options.md>) to be displayed
-| `Locator` | string | Optional [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to [Assess ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🤗 Click locator 🔆.md>)
+| `Locator` | string | Optional [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to [Assess ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Click locator 👉🔆🤗/👉🤗 Click locator 🔆.md>)
 |
 
 <br/>
