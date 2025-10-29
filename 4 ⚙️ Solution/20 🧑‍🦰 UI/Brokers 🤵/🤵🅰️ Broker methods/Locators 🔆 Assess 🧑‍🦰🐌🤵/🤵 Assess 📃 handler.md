@@ -44,7 +44,9 @@
         Locator: $resolved
 
 # Open a Chat on the Wallet app
-- RUN|Converse
+- RUN|Converse:
+    Wallet: $wallet
+    Locator: $locator
 
 # Ask Finders to introduce Hosts
 - SEND:
