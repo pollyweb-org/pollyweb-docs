@@ -9,7 +9,7 @@
 
     An `ISSUE`
     * is a message [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) 
-    * that invokes the [`Save Token` ⏩ flow](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴/👉🎴 Save token.md>)
+    * that invokes the [`Save Token` ⏩ flow](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/👉🎴 Save token.md>)
     * to save a [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>).
 
     ---

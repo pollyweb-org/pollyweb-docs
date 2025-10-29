@@ -8,7 +8,7 @@
   
 > Used in
 
-* [💼⏩🧑‍🦰 Share Token+ID @ Consumer](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉💼 Share Token+ID/👉💼 Share Token+ID.md>) flow
+* [💼⏩🧑‍🦰 Share Token+ID @ Consumer](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token+ID 👉🆔💼/👉💼 Share Token+ID.md>) flow
 
 > Examples
 
