@@ -2,6 +2,8 @@
 <!-- Source: -->
 <!-- Test: https://github.com/jorgemjfonseca/domain-trust-framework/blob/2896911396280f90ec68c32b50aa99dc4a3c90e2/python/roles/broker/BROKER_SESSIONS_TESTS.py#L116 -->
 
+<!-- TODO: add the code -->
+<!-- TODO: add a script diagram -->
 
 # 🤗🐌🤵 Goodbye @ Broker
 

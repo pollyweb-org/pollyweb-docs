@@ -4,6 +4,9 @@
 
 # 🔎🐌🤵 Introduced @ Broker
 
+<!-- TODO: add the code -->
+<!-- TODO: add a script diagram -->
+
 > Purpose
 
 * The [Finder 🔎 domain](<../../../../50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) finished the introduction.

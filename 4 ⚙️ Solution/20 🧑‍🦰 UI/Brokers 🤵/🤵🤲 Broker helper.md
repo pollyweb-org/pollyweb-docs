@@ -106,7 +106,7 @@
     || [💼🚀 Status](<🤵🅰️ Broker methods/Share 💼 Status 💼🚀🤵/🤵 Status 🚀 request.md>) | Return the status of a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
 
     <!--
-    |Pay| [💵🐌🤵 Charge](<🤵🅰️ Broker methods/Payments 💵 Charge 💵🐌🤵/🤵 Charg 🐌 msg.md>)
+    |Pay| [💵🐌🤵 Charge](<🤵🅰️ Broker methods/Payments 💵 Charge 💵🐌🤵/🤵 Charge 🐌 msg.md>)
     -->
     
     ---
