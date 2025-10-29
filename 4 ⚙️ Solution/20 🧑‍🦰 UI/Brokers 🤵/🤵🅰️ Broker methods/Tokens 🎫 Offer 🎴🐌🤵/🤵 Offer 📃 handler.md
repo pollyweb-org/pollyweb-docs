@@ -1,3 +1,5 @@
+<!-- TODO: add a script diagram -->
+
 # 🤵📃 Offer
 
 > [Script 📃](<../../../../35 💬 Chats/😃 Talkers/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that implements the [`Offer@Broker` 🅰️ method](<🤵 Offer 🐌 msg.md>)

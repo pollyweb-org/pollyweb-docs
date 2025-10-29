@@ -1,3 +1,5 @@
+<!-- TODO: add a script diagram -->
+
 # 💼🚀🤵  Status @ Broker
 
 > Implementation

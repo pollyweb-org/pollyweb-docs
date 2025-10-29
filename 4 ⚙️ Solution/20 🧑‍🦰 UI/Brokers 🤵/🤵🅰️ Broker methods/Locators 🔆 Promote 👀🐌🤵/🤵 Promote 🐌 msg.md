@@ -1,3 +1,6 @@
+<!-- TODO: add the code -->
+<!-- TODO: add a script diagram -->
+
 # 👀🐌🤵 Promote @ Broker
  
 > Used in [👀⏩🧑‍🦰 Advertise](<../../../../45 🤲 Helper domains/Advertisers 👀/👀⏩ Advertiser flows/Advertise 👀⏩🧑‍🦰/👀 Advertise ⏩ flow.md>)

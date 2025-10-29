@@ -1,3 +1,6 @@
+<!-- TODO: add the code -->
+<!-- TODO: add a script diagram -->
+
 <!-- https://quip.com/rKzMApUS5QIi#temp:C:WTI8724d650e2ae45dabb56baea4 -->
 
 # 💼🐌🤵  Query @ Broker
