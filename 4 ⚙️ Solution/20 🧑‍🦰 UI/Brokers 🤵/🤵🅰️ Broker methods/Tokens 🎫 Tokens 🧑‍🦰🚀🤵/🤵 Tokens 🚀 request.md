@@ -66,7 +66,7 @@ Tokens:
 
 1. **Why isn't the Token Key listed?**
 
-    [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) keys are held by [Broker 🤵 domains](<../../🤵🤲 Broker helper.md>) until shared, to avoid replay attacks from [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) purposefully breaking the [`Save Token` ⏩ flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🎴 Save token/👉🎴 Save token.md>) halfway to receive duplicate [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>).
+    [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) keys are held by [Broker 🤵 domains](<../../🤵🤲 Broker helper.md>) until shared, to avoid replay attacks from [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) purposefully breaking the [`Save Token` ⏩ flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴/👉🎴 Save token.md>) halfway to receive duplicate [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>).
 
     ---
     <br/>

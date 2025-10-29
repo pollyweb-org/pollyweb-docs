@@ -11,7 +11,7 @@
     * where the file with the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) details 
     * was stored locally on the device.
 
-> Part of the [`Save Token` ⏩ flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/👉🎴 Save token/👉🎴 Save token.md>):
+> Part of the [`Save Token` ⏩ flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴/👉🎴 Save token.md>):
 * triggered by [`Save@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>) message
 
 <br/>
