@@ -33,7 +33,7 @@
 
     |#| Part |  Description
     |-|-|-
-    |1| `domain` |  The [domain 👥](<../../40 👥 Domains/👥 Domain.md>) that published the [Schema 🧩](<🧩 Schema Code.md>) in their [domain Manifest 📜](<../Manifests 📜/📜 Manifest.md>).
+    |1| `domain` |  The [domain 👥](<../../40 👥 Domains/👥 Domain.md>) that published the [Schema 🧩](<🧩 Schema Code.md>) in their [domain Manifest 📜](<../Manifests 📜/📜 Manifest/📜 Manifest.md>).
     |2| `code`    | A unique ID of the schema in the domain.
     |3| `version` | The optional version of the schema <br/>- formatted as `{major}.{minor}`.   
     |
@@ -42,7 +42,7 @@
     * the code `nlweb.com/TOKEN:2.0`  🧩 
     * references version `2.0` 
     * of a schema called `TOKEN` 
-    * that is defined in the [domain Manifest 📜](<../Manifests 📜/📜 Manifest.md>) 
+    * that is defined in the [domain Manifest 📜](<../Manifests 📜/📜 Manifest/📜 Manifest.md>) 
     * of the [Authority 🏛️ domain](<../../45 🤲 Helper domains/Authorities 🏛️/🏛️🤲 Authority helper.md>) called `nlweb.dom`. 
     
     For readability:
@@ -69,7 +69,7 @@
 
     | Expectation | Behavior |
     |-|-
-    | [📜 Manifest](<../Manifests 📜/📜 Manifest.md>)  | When a version is omitted in the [Schema 🧩](<🧩 Schema Code.md>) in its [domain Manifest 📜](<../Manifests 📜/📜 Manifest.md>) definition, then it is assumed to be `1.0`.
+    | [📜 Manifest](<../Manifests 📜/📜 Manifest/📜 Manifest.md>)  | When a version is omitted in the [Schema 🧩](<🧩 Schema Code.md>) in its [domain Manifest 📜](<../Manifests 📜/📜 Manifest/📜 Manifest.md>) definition, then it is assumed to be `1.0`.
     | [📨 Message](<../Messages 📨/📨 Message.md>) | When a version is omitted in a [domain Messages 📨](<../Messages 📨/📨 Message.md>), then it is also assumed to be `1.0`.
     | [🕸 Graph](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) | When a version is omitted when calling [`Schema@Graph`](<../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema.md>), then the [🕸 Graph](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) returns the latest version.
 
@@ -103,7 +103,7 @@
 
 1. **How can domains read Schemas in domain Manifests?**
 
-    For resilience and performance, [domains 👥](<../../40 👥 Domains/👥 Domain.md>) cannot read [domain Manifest 📜](<../Manifests 📜/📜 Manifest.md>) directly from the source.
+    For resilience and performance, [domains 👥](<../../40 👥 Domains/👥 Domain.md>) cannot read [domain Manifest 📜](<../Manifests 📜/📜 Manifest/📜 Manifest.md>) directly from the source.
 
     * Instead, [domains 👥](<../../40 👥 Domains/👥 Domain.md>) need to query [Graph 🕸 domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) for a schema definition, by passing the [Schema 🧩](<🧩 Schema Code.md>) to the [`Schema@Graph`](<../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema.md>).
 
@@ -132,7 +132,7 @@
 
 1. **How do define a Schema in a Manifest?**
 
-    The instructions on how to add a [Schema 🧩](<🧩 Schema Code.md>) to a [domain Manifest 📜](<../Manifests 📜/📜 Manifest.md>) are themselves published as special [Schema Codes 🧩](<🧩 Schema Code.md>):
+    The instructions on how to add a [Schema 🧩](<🧩 Schema Code.md>) to a [domain Manifest 📜](<../Manifests 📜/📜 Manifest/📜 Manifest.md>) are themselves published as special [Schema Codes 🧩](<🧩 Schema Code.md>):
 
     | Schema | Description
     |-|-
@@ -146,7 +146,7 @@
 1. **Does nlweb.dom define Schema Codes?**
 
     Yes. 
-    - The NLWeb protocol is supported by a set of [Schema Codes 🧩](<🧩 Schema Code.md>) defined in the `nlweb.dom` [domain Manifest 📜](<../Manifests 📜/📜 Manifest.md>). 
+    - The NLWeb protocol is supported by a set of [Schema Codes 🧩](<🧩 Schema Code.md>) defined in the `nlweb.dom` [domain Manifest 📜](<../Manifests 📜/📜 Manifest/📜 Manifest.md>). 
     
     - This high-level manifest includes the schema definition for all communications explicitly supported by the core NLWeb protocol, but also a set of auxiliary schemas used to implement various business use cases. 
 
@@ -156,7 +156,7 @@
 1. **Is the NLWeb Manifest a single point of failure?**
 
     No. 
-    - [Domains 👥](<../../40 👥 Domains/👥 Domain.md>) don't need `nlweb.dom` to be online to access its [domain Manifest 📜](<../Manifests 📜/📜 Manifest.md>) (nor the one of any other [domain 👥](<../../40 👥 Domains/👥 Domain.md>), for that matter).
+    - [Domains 👥](<../../40 👥 Domains/👥 Domain.md>) don't need `nlweb.dom` to be online to access its [domain Manifest 📜](<../Manifests 📜/📜 Manifest/📜 Manifest.md>) (nor the one of any other [domain 👥](<../../40 👥 Domains/👥 Domain.md>), for that matter).
     - Instead, [domains 👥](<../../40 👥 Domains/👥 Domain.md>) should rely on [Graph 🕸 helper domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) to look up schema definitions.
 
     ---

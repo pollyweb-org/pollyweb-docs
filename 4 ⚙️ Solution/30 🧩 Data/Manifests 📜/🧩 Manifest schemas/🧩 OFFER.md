@@ -2,7 +2,7 @@
 
 > Part of [`.MANIFEST` 🧩](<🧩 MANIFEST.md>)
 
-> Implements [domain Manifest 📜](<../📜 Manifest.md>) 
+> Implements [domain Manifest 📜](<../📜 Manifest/📜 Manifest.md>) 
 
 
 <br/>

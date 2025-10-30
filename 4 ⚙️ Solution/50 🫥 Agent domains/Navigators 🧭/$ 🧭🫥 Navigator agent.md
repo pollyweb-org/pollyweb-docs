@@ -12,7 +12,7 @@
     * is an [Agent 🫥 vault domain](<../$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>) 
     * that helps users find their way to a destination
     * by orchestrating globally distributed maps
-    * built from community-defined map points in [domain Manifests 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>).
+    * built from community-defined map points in [domain Manifests 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>).
 
     ---
     <br/>
@@ -77,8 +77,8 @@
     In multi-level places (subways, airports, malls):
     * Signs with [Locators 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) are spread through the premisses (e.g., walls, posts).
     * Users read these [navigation Locators 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) with their [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
-    * Each [navigation Locators 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) points to a geographical point described in a [domain Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>).
-    * Each point may point to other points in other [domain Manifests 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>).
+    * Each [navigation Locators 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) points to a geographical point described in a [domain Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>).
+    * Each point may point to other points in other [domain Manifests 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>).
     * The [Navigator 🧭 domain](<$ 🧭🫥 Navigator agent.md>) then merges the points to create a path for the user.
 
 ---

@@ -1,5 +1,5 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest.md>): taxes.any-nation.dom
+# 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>): taxes.any-nation.dom
 <!--# 🏳️🏛️ https://quip.com/cVKTAXdzJmY6-->
 
 ```yaml

@@ -1,5 +1,5 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest.md>): wifi.any-supplier.dom
+# 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>): wifi.any-supplier.dom
 <!--# 🇺🇸📶 https://quip.com/7u1wAVuC6aDM/-AnyWiFicom-->
 
 ```yaml

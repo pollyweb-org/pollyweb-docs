@@ -1,6 +1,6 @@
 # [🧩](<../../Codes 🧩/🧩 Schema Code.md>) `.MANIFEST`
 
-> Implements [domain Manifest 📜](<../📜 Manifest.md>) 
+> Implements [domain Manifest 📜](<../📜 Manifest/📜 Manifest.md>) 
 
 
 <br/>

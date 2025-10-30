@@ -1,5 +1,5 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest.md>): vending.any-business.dom
+# 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>): vending.any-business.dom
 <!--# 🍫 https://quip.com/u2A0AZ8kTUAj/-AnyVendingcom-->
 
 ```yaml

@@ -33,7 +33,7 @@
 
 1. use domain certificates for [authentication](<../4 ⚙️ Solution/30 🧩 Data/Messages 📨/📨 Message.md>), not API keys;
 1. access [third-party](<../4 ⚙️ Solution/41 🎭 Domain Roles/Suppliers 🏭/🏭🎭 Supplier role.md>) services on-demand, without onboarding;
-1. publicly [manifest](<../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest.md>) their products and services to the world;
+1. publicly [manifest](<../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>) their products and services to the world;
 1. manage all only debits and credits from a central user experience;
 1. can interact with the ecosystem without the need for specialists.
 

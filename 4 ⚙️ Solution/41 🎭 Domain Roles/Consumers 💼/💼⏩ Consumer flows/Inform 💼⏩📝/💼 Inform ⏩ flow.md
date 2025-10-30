@@ -38,7 +38,7 @@ Here's the [`Script`](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Script
 
 <br/>
 
-Here's the [Manifest 📜](<../../../../30 🧩 Data/Manifests 📜/📜 Manifest.md>).
+Here's the [Manifest 📜](<../../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>).
 ```yaml
 Forms:
   TableOrder:

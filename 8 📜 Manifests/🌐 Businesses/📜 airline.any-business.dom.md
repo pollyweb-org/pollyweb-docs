@@ -1,5 +1,5 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest.md>): airline.any-business.dom
+# 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>): airline.any-business.dom
 <!--# 🏳️💺 https://quip.com/Yp6rADERIDPv/-Air-France-Airline -->
 
 ```yaml

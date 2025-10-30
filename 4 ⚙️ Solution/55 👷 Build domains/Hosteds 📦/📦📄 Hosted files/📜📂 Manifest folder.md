@@ -8,7 +8,7 @@
 1. **What is the Manifest folder?**
 
     The `📜 Manifest/` folder 
-    * contains the [domain Manifest 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) parts
+    * contains the [domain Manifest 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>) parts
     * broken into multiple files and folders.
     
     ---
