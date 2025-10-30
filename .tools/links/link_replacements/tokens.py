@@ -199,6 +199,34 @@ def replace_helpers_tokens(md_files):
     return _replace_simple(md_files, pattern, '[Helper 🤲 domains](<🤲👥 Helper domain.md>)')
 
 
+# Hardcoded Hoster tokens
+HOSTER_REPLACEMENT = "[Hoster ☁️ helper domain](<☁️🤲 Hoster helper.md>)"
+@register_hardcoded("hoster", replacement=HOSTER_REPLACEMENT, token_label="Hoster")
+def replace_hoster_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Hoster`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, HOSTER_REPLACEMENT)
+
+
+@register_hardcoded("hosters", replacement='[Hoster ☁️ helper domains](<☁️🤲 Hoster helper.md>)', token_label="Hosters")
+def replace_hosters_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Hosters`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, '[Hoster ☁️ helper domains](<☁️🤲 Hoster helper.md>)')
+
+
+# Hardcoded Talker tokens
+TALKER_REPLACEMENT = "[Talker 😃 helper domain](<😃🤲 Talker helper.md>)"
+@register_hardcoded("talker", replacement=TALKER_REPLACEMENT, token_label="Talker")
+def replace_talker_helper_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Talker`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, TALKER_REPLACEMENT)
+
+
+@register_hardcoded("talkers", replacement='[Talker 😃 helper domains](<😃🤲 Talker helper.md>)', token_label="Talkers")
+def replace_talkers_helper_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Talkers`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, '[Talker 😃 helper domains](<😃🤲 Talker helper.md>)')
+
+
 @register_hardcoded("wallets", replacement=WALLETS_REPLACEMENT, token_label="Wallets")
 def replace_wallets_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Wallets`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)

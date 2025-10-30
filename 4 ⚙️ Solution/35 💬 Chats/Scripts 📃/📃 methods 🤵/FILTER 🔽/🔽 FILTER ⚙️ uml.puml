@@ -1,9 +1,11 @@
-@startuml SHARE
+@startuml FILTER
  
-box Hoster ☁️ domain #FFFFFA
+box Talker 😃 domain #FFFFFA
+    
     participant "Script 📃" as script
-    participant "Talker 😃" as talker
-    participant "MANY 📃" as many
+    participant ".FILTER 📃" as talker
+
+    participant ".MANY 📃" as many
     participant "Host 🤗" as host
     'participant "Consumer 💼" as consumer
 end box

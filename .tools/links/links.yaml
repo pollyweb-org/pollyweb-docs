@@ -39,6 +39,26 @@ Failed Tests:
 
 Successful Tests:
 
+  - Given: "{{Hoster}}"
+    LinkText: "Hoster ☁️ helper domain"
+    LinkFile: "☁️🤲 Hoster helper.md"
+    Reasons: This is hardcoded.
+
+  - Given: "{{Hosters}}"
+    LinkText: "Hoster ☁️ helper domains"
+    LinkFile: "☁️🤲 Hoster helper.md"
+    Reasons: This is hardcoded.
+
+  - Given: "{{Talker}}"
+    LinkText: "Talker 😃 helper domain"
+    LinkFile: "😃🤲 Talker helper.md"
+    Reasons: This is hardcoded.
+
+  - Given: "{{Talkers}}"
+    LinkText: "Talker 😃 helper domains"
+    LinkFile: "😃🤲 Talker helper.md"
+    Reasons: This is hardcoded.
+
   - Given: "{{Helper}}"
     LinkText: "Helper 🤲 domain"
     LinkFile: "🤲👥 Helper domain.md"
