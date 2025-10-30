@@ -4,7 +4,7 @@
 
 > Part of [blocking input prompts 🤔](<../../🤔⚙️ Prompt features/9 ✏️ as Input.md>)
 
-   * `EAN|<statement> >> <key>`	
+   * `EAN|<text> >> <key>`	
        * Calls the [🛒 EAN Prompt](<../../🤔 Prompt.md>)
 
 <br/>

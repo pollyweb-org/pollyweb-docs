@@ -5,7 +5,7 @@
 > Part of [blocking input prompts 🤔](<../../🤔⚙️ Prompt features/9 ✏️ as Input.md>)
 
 
-   * `SCAN|<statement>`	
+   * `SCAN|<text>`	
        * Calls the [🔆 SCAN Prompt 🤔](<../../🤔 Prompt.md>)
 
 <br/>

@@ -75,18 +75,18 @@
 
     ```yaml
     # Simplest.
-    TEXT|<statement> >> $holder
+    TEXT|<text> >> $holder
     ```
 
     | Input| Purpose 
     |-|-
-    | `<statement>`| Message to show to the user
+    | `<text>`| Message to show to the user
     | `$holder`| Optional [holder 🧠](<../../../Scripts 📃/📃 basics/Holder 🧠.md>) with the user's answer
     
     ```yaml
     # Comprehensive.
     TEXT >> $holder:
-        Text: <statement>
+        Text: <text>
         
         # Specific optional properties
         Output: string

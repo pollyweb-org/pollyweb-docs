@@ -39,19 +39,19 @@
 
     ```yaml
     # Simplest.
-    RATE|<statement> >> $holder
+    RATE|<text> >> $holder
     ```
 
     | Input| Purpose 
     |-|-
-    | `<statement>`| Message to show to the user
+    | `<text>`| Message to show to the user
     | `$holder`| Optional [holder 🧠](<../../../Scripts 📃/📃 basics/Holder 🧠.md>) with the user's answer
     
 
     ```yaml
     # Comprehensive.
     RATE >> $holder:
-        Text: <statement>
+        Text: <text>
 
         # Generic optional properties
         Emoji: emoji

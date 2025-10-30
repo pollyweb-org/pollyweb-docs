@@ -44,19 +44,19 @@
 
     ```yaml
     # Simplest.
-    DIGITS|<statement> >> $holder
+    DIGITS|<text> >> $holder
     ```
 
     | Input| Purpose 
     |-|-
-    | `<statement>`| Message to show to the user
+    | `<text>`| Message to show to the user
     | `$holder`| Optional [holder 🧠](<../../../Scripts 📃/📃 basics/Holder 🧠.md>) with the user's answer
     
 
     ```yaml
     # Comprehensive.
     DIGITS >> $holder:
-        Text: <statement>
+        Text: <text>
 
         # Specific optional properties
         MinLength: int

@@ -18,12 +18,12 @@
 1. **What's the syntax?**
 
     ```yaml
-    - REPEAT|<statement>
+    - REPEAT|<text>
     ```
 
     | Input| Purpose
     |-|-
-    | `<statement>`| Optional message for a [CONFIRM 👍 prompt](<../../../Prompts 🤔/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>)
+    | `<text>`| Optional message for a [CONFIRM 👍 prompt](<../../../Prompts 🤔/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>)
     
     ---
     <br/>

@@ -34,12 +34,12 @@
 
     ```yaml
     # Simplest.
-    ONE|<statement>|<options> >> $holder
+    ONE|<text>|<options> >> $holder
     ```
 
     | Input| Purpose | Example
     |-|-|-
-    | `<statement>`| Message to show to the user
+    | `<text>`| Message to show to the user
     | `<options>` | Comma-separated strings, or | `A,B,C`
     || a comma-separated dictionary | `1:A,2:B`
     | `$holder`| Optional selection [holder 🧠](<../../../Scripts 📃/📃 basics/Holder 🧠.md>)
@@ -47,7 +47,7 @@
     ```yaml
     # Comprehensive.
     ONE >> $holder:
-        Text: <statement>
+        Text: <text>
         
         # Generic optional properties
         Details: string

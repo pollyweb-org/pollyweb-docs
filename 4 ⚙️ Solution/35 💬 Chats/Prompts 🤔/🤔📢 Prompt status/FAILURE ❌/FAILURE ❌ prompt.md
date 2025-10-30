@@ -49,17 +49,17 @@
 
     ```yaml
     # Inline
-    FAILURE|<statement> 
+    FAILURE|<text> 
     ```
 
     | Input| Purpose | Example
     |-|-|-
-    | `<statement>` |  Message to show to the user. | `Error!`
+    | `<text>` |  Message to show to the user. | `Error!`
 
     ```yaml
     # Multi-line 
     FAILURE:
-        Text: <statement>
+        Text: <text>
         
         # Generic optional properties
         Details: string

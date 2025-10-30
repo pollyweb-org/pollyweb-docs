@@ -27,7 +27,7 @@
 1. **What's the format for a [Talker 😃](<../../Talkers 😃/😃🤲 Talker helper.md>)?**
 
     ```yaml
-    <PROMPT>|<statement>:
+    <PROMPT>|<text>:
         Details: <details>
     ```
 
@@ -35,7 +35,7 @@
     | Input| Purpose | Example
     |-|-|-
     | `<PROMPT>` | A [Prompt 🤔](<../🤔 Prompt.md>) format. | `INFO` `TEMP`
-    | `<statement>` |  Message to show to the user. | `Hi!`
+    | `<text>` |  Message to show to the user. | `Hi!`
     | `<details>` |  Details to show to the user. | `Bla, bla.`
     
     
