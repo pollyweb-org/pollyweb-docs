@@ -1,8 +1,8 @@
 # 😃🪣 Holders 🧠 table
 
 > Data access
-* [`SAVE`](<../../Scripts 📃/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) by the [`Place` 📃 handler](<../😃🅰️ Talker methods/Place 🧑‍💻🚀😃/😃 Place 📃 handler.md>)
-* [`GET`](<../../Scripts 📃/...datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) by the [`Placed` 📃 handler](<../😃🅰️ Talker methods/Placed 🧑‍💻🚀😃/😃 Placed 📃 handler.md>)
+* [`SAVE`](<../../Scripts 📃/📃 for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) by the [`Place` 📃 handler](<../😃🅰️ Talker methods/Place 🧑‍💻🚀😃/😃 Place 📃 handler.md>)
+* [`GET`](<../../Scripts 📃/📃 for datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) by the [`Placed` 📃 handler](<../😃🅰️ Talker methods/Placed 🧑‍💻🚀😃/😃 Placed 📃 handler.md>)
 
 ## Schema
 

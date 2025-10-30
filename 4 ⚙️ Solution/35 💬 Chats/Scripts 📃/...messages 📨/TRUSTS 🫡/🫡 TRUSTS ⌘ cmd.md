@@ -13,7 +13,7 @@
 1. **What's the TRUSTS command?**
 
     A `TRUSTS`
-    * is a handler [Command ⌘](<../../📃⌘ commands/Command ⌘/⌘ Command.md>) 
+    * is a handler [Command ⌘](<../../📃 commands ⌘/Command ⌘/⌘ Command.md>) 
     * to assert the [domain Trust 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) between [domains 👥](<../../../../40 👥 Domains/👥 Domain.md>)
     * by call the [`Trusts@Graph` 🅰️ method](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>).
   

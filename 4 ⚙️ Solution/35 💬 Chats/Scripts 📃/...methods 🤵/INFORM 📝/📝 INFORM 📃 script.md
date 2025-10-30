@@ -1,7 +1,7 @@
 # 📝 INFORM 📃 script
 
 > Purpose
-* [Script 📃](<../../📃⌘ commands/Script 📃/📃 Script.md>) that implements [`INFORM`](<📝 INFORM ⌘ cmd.md>) command.
+* [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>) that implements [`INFORM`](<📝 INFORM ⌘ cmd.md>) command.
 
 <br/>
 
@@ -38,7 +38,7 @@
 
 Needs||
 |-|-
-| [Commands ⌘](<../../📃⌘ commands/Command ⌘/⌘ Command.md>) | [`ASSERT`](<../../...holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`SEND`](<../../...messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>)
+| [Commands ⌘](<../../📃 commands ⌘/Command ⌘/⌘ Command.md>) | [`ASSERT`](<../../...holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`SEND`](<../../...messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>)
 | [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Inform@Broker` 🅰️ method](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Inform 💼🐌🤵/🤵 Inform 🐌 msg.md>)
 | [Holder 🧠](<../../...holders 🧠/$Holder 🧠.md>) | [`.Chat`](<../../...holders 🧠/$.Chat 💬/💬 $.Chat 🧠 holder.md>)
 |
