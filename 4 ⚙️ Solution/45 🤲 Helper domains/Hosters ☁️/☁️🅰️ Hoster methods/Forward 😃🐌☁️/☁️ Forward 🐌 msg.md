@@ -1,11 +1,10 @@
 # 😃🐌☁️ Forward @ Hoster
 
-<!-- TODO -->
-
 > Purpose
 * A [Hoster ☁️ helper domain](<../../☁️🤲 Hoster helper.md>) 
-    * forwards [`Async Messages`](<../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Async Messages 🐌.md>)
-    * from a [Talker 😃 helper domain](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>).
+    * forwards [Async Messages 🐌](<../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Async Messages 🐌.md>)
+    * from a [Talker 😃 helper domain](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>)
+    * to other [domains 👥](<../../../../40 👥 Domains/👥 Domain.md>).
 
 <br/>
 
