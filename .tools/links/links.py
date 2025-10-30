@@ -127,6 +127,14 @@ def compute_expected_replacement(token: str, given_raw: str, md_files: list[str]
                 if '📃' in name and (normalize_string(stem) == normalized_token or normalize_string(stem).startswith(normalized_token)):
                     return f"`{token}` 📃 script", Path(path)
 
+        # Prefer explicit command files that contain the '⌘' emoji in the
+        # basename (these are the canonical cmd files expected by the YAML).
+        token_word_re = re.compile(rf"(^|[^A-Z0-9]){re.escape(token)}([^A-Z0-9]|$)")
+        for path in md_files:
+            base = os.path.basename(path)
+            if '⌘' in base and token_word_re.search(base.upper()):
+                return f"`{token}`", Path(path)
+
         target = find_uppercase_token_target(token, md_files)
         if target:
             return f"`{token}`", Path(target)
@@ -141,6 +149,14 @@ def compute_expected_replacement(token: str, given_raw: str, md_files: list[str]
         # (e.g. 'IF' inside 'MANIFEST'). This checks for token as a separate
         # word or delimited by non-alphanumeric characters.
         token_word_re = re.compile(rf"(^|[^A-Z0-9]){re.escape(token)}([^A-Z0-9]|$)")
+        # Prefer files that contain the command emoji '⌘' (explicit cmd files).
+        for path in md_files:
+            base = os.path.basename(path)
+            base_upper = base.upper()
+            if '⌘' in base and token_word_re.search(base_upper):
+                return f"`{token}`", Path(path)
+
+        # Fallback to any whole-word match in filename (uppercased) if no cmd files found.
         for path in md_files:
             base_upper = os.path.basename(path).upper()
             if token_word_re.search(base_upper):
@@ -152,9 +168,16 @@ def compute_expected_replacement(token: str, given_raw: str, md_files: list[str]
                 return f"`{token}`", Path(path)
 
         if project_directory:
-            assumed = Path(project_directory) / "4 ⚙️ Solution" / "35 💬 Chats" / "😃 Talkers" / "😃⚙️ Talker cmds" / "for control" / f"{token} ⤴️.md"
-            if assumed.exists():
-                return f"`{token}`", assumed
+            # Projects moved some command files from Talkers 😃 to Scripts 📃.
+            # Check a few likely assumed locations for backwards compatibility.
+            assumed_candidates = [
+                Path(project_directory) / "4 ⚙️ Solution" / "35 💬 Chats" / "😃 Talkers" / "😃⚙️ Talker cmds" / "for control" / f"{token} ⤴️.md",
+                Path(project_directory) / "4 ⚙️ Solution" / "35 💬 Chats" / "📃 Scripts" / "📃 Script cmds" / "for control" / f"{token} ⤴️.md",
+                Path(project_directory) / "4 ⚙️ Solution" / "35 💬 Chats" / "📃 Scripts" / f"{token} ⤴️.md",
+            ]
+            for assumed in assumed_candidates:
+                if assumed.exists():
+                    return f"`{token}`", assumed
 
     dynamic_target = find_dynamic_target(token, file_dict)
     if dynamic_target:
@@ -431,7 +454,12 @@ def runit(project_directory, entryPoint):
             expected_name = expected_linkfile.strip('{}')
             candidate_paths = [
                 path for path in md_files
-                if os.path.basename(path) == expected_name and "😃" in os.path.dirname(path)
+                if os.path.basename(path) == expected_name and (
+                    "😃" in os.path.dirname(path)
+                    or "📃" in os.path.dirname(path)
+                    or "Talkers" in os.path.dirname(path)
+                    or "Scripts" in os.path.dirname(path)
+                )
             ]
             if not candidate_paths:
                 raise ValueError(f"No matching Talkers file for {given}: {expected_name}")
