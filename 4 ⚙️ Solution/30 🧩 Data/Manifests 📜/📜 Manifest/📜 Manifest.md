@@ -38,15 +38,15 @@
 
 1. **What information can be added to a Manifest?**
 
-    Manifests are defined by [`.MANIFEST` 🧩](<../🧩 Manifest schemas/🧩 MANIFEST.md>) and can include the following sections.
+    Manifests are defined by [`.MANIFEST` 🧩](<../📜🧩 Manifest schemas/🧩 MANIFEST.md>) and can include the following sections.
 
     |Section|Purpose | Schemas
     |-|-|-
-    | 🤗 [Host About](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | Domain identification (mandatory). | [`./ABOUT` 🧩](<../🧩 Manifest schemas/🧩 ABOUT.md>) 
-    | 🫡 [Domain Trusts](<../../Trusts 🫡/🫡 Domain Trust.md>) | Trusted domains, Codes, and roles. | [`./TRUST` 🧩](<../🧩 Manifest schemas/🧩 TRUST.md>)
-    |  🧩 [Schema Codes](<../../Codes 🧩/🧩 Schema Code.md>) | Defined by the domain. | [`./CODE` 🧩](<../🧩 Manifest schemas/🧩 CODE.md>)  | Schema validation of a Code
-    |  🧩 [Delegated Codes](<../../Codes 🧩/🧩 Schema Code.md>) | Codes delegated to other domains. | [`./DELEGATE` 🧩](<../🧩 Manifest schemas/🧩 DELEGATE.md>)
-    | 🪢 [Integrations](<../../../41 🎭 Domain Roles/Integrators 🪢/🪢🎭 Integrator role.md>) |Synchronous datasets, <br/>asynchronous supplies, <br/>and streaming endpoints. | [`./OFFER` 🧩](<../🧩 Manifest schemas/🧩 OFFER.md>)
+    | 🤗 [Host About](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | Domain identification (mandatory). | [`./ABOUT` 🧩](<../📜🧩 Manifest schemas/🧩 ABOUT.md>) 
+    | 🫡 [Domain Trusts](<../../Trusts 🫡/🫡 Domain Trust.md>) | Trusted domains, Codes, and roles. | [`./TRUST` 🧩](<../📜🧩 Manifest schemas/🧩 TRUST.md>)
+    |  🧩 [Schema Codes](<../../Codes 🧩/🧩 Schema Code.md>) | Defined by the domain. | [`./CODE` 🧩](<../📜🧩 Manifest schemas/🧩 CODE.md>)  | Schema validation of a Code
+    |  🧩 [Delegated Codes](<../../Codes 🧩/🧩 Schema Code.md>) | Codes delegated to other domains. | [`./DELEGATE` 🧩](<../📜🧩 Manifest schemas/🧩 DELEGATE.md>)
+    | 🪢 [Integrations](<../../../41 🎭 Domain Roles/Integrators 🪢/🪢🎭 Integrator role.md>) |Synchronous datasets, <br/>asynchronous supplies, <br/>and streaming endpoints. | [`./OFFER` 🧩](<../📜🧩 Manifest schemas/🧩 OFFER.md>)
     | [Chat 💬 Flows](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) | To explain what user data is request.
 
     ---

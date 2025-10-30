@@ -8,7 +8,7 @@
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 
 * Given a domain, 
-    * returns the content of [`.MANIFEST/ABOUT 🧩`](<../../../30 🧩 Data/Manifests 📜/🧩 Manifest schemas/🧩 ABOUT.md>)
+    * returns the content of [`.MANIFEST/ABOUT 🧩`](<../../../30 🧩 Data/Manifests 📜/📜🧩 Manifest schemas/🧩 ABOUT.md>)
     * from its [domain Manifest 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>) 
 * Used by:
     * [🤵⏩🧑‍🦰 Converse 💬 flow](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵⏩ Broker flows/Converse 🤵⏩💬/🤵 Converse ⏩ flow.md>) 

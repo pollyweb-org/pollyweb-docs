@@ -12,7 +12,7 @@
 * Verifies if there’s a path of [Trust 🫡](<../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) 
   * between two [domains 👥](<../../../40 👥 Domains/👥 Domain.md>) 
   * regarding a [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
-  * as defined in the [`.MANIFEST/TRUST` 🧩](<../../../30 🧩 Data/Manifests 📜/🧩 Manifest schemas/🧩 TRUST.md>) part
+  * as defined in the [`.MANIFEST/TRUST` 🧩](<../../../30 🧩 Data/Manifests 📜/📜🧩 Manifest schemas/🧩 TRUST.md>) part
   * of [domain Manifests 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>).
 
 * Similar to [`Trusted@Graph`](<👥🚀🕸 Trusted.md>), 

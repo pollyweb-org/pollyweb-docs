@@ -7,7 +7,7 @@
 
 ## Definition
 
-> 🤝: [`.MANIFEST/CODE`](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/🧩 Manifest schemas/🧩 CODE.md>)
+> 🤝: [`.MANIFEST/CODE`](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜🧩 Manifest schemas/🧩 CODE.md>)
 
 ```yaml
 Path: /PALM/16+
