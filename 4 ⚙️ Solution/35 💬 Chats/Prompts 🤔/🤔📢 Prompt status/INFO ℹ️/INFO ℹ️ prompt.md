@@ -43,17 +43,17 @@
 
     ```yaml
     # Inline
-    INFO|<statement> 
+    INFO|<text> 
     ```
 
     | Input| Purpose | Example
     |-|-|-
-    | `<statement>` |  Message to show to the user. | `Hi!`
+    | `<text>` |  Message to show to the user. | `Hi!`
 
     ```yaml
     # Multi-line 
     INFO:
-        Text: <statement>
+        Text: <text>
         
         # Generic optional properties
         Details: string

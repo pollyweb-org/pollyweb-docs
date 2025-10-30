@@ -63,13 +63,13 @@
 
     ```yaml
     # Simplest
-    <PROMPT>|<statement>|<options>
+    <PROMPT>|<text>|<options>
     ```
 
     | Input| Purpose | Example
     |-|-|-
     | `<PROMPT>` | A [Prompt 🤔](<../🤔 Prompt.md>) format. | [`INFO`](<../🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`TEMP`](<../🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>)
-    | `<statement>` |  Message to show to the user. | `Hi!`
+    | `<text>` |  Message to show to the user. | `Hi!`
     | `<options>` | Comma-separated strings | `A,B,C`
     || or a comma-sep dictionary  | `1:A,2:B`
     || or a dictionary object  | `{1:A,2:B}`
@@ -77,7 +77,7 @@
     
     ```yaml
     # One-line
-    <PROMPT>|<statement>|<options> >> $selected
+    <PROMPT>|<text>|<options> >> $selected
     ```
 
     | Input| Purpose | Example
@@ -90,13 +90,13 @@
     ```yaml
     # Multi-line with a single options string
     <PROMPT> >> $selected:
-        Text: <statement>
+        Text: <text>
         Options: <options>
     ```
 
     | Input| Purpose | Example
     |-|-|-
-    | `<statement>` | Also allows interpolated strings. | `Hi {$name}!`
+    | `<text>` | Also allows interpolated strings. | `Hi {$name}!`
     | `<options>` | Also allows string array functions |`{f}` → `[A,B]`
     |           | and object functions | `{f}` → `{1:A}`
     |           | and object list functions | `{f}` → `[{K:1}]`
@@ -104,7 +104,7 @@
     ```yaml
     # Multi-line with multiple strings
     <PROMPT> >> $selected:
-        Text: <statement>
+        Text: <text>
         Options:
             - <option-1>
             - <option-n>
@@ -120,7 +120,7 @@
     ```yaml
     # Multi-line with a dictionary
     <PROMPT> >> $selected:
-        Text: <statement>
+        Text: <text>
         Options:
             <id-1>: <option-1>
             <id-n>: <option-n>

@@ -20,8 +20,8 @@
 1. **What's the FILTER syntax?**
 
     ```yaml
-    FILTER|<statement> >> $filtered:
-        Text: <statement>
+    FILTER|<text> >> $filtered:
+        Text: <text>
         Options: $list
         ID: <ID property>
         Title: <Title property>

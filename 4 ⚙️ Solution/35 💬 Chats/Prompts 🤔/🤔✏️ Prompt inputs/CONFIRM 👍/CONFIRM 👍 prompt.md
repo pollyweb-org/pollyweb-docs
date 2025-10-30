@@ -18,17 +18,17 @@
 
     ```yaml
     # Simplest
-    CONFIRM|<statement>
+    CONFIRM|<text>
     ```
 
     | Input| Purpose | Example
     |-|-|-
-    | `<statement>` |  Message to show to the user. | `Sure?`
+    | `<text>` |  Message to show to the user. | `Sure?`
 
     ```yaml
     # Comprehensive
     CONFIRM:
-        Text: <statement>
+        Text: <text>
         
         # Specific optional properties
         Then: Script|Command

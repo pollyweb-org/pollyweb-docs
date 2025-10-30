@@ -20,12 +20,12 @@
 1. **What's the format of a [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>)?**
 
     ```yaml
-    TIME|<statement> >> $holder
+    TIME|<text> >> $holder
     ```
     
     |Input| Details | Example 
     |-|-|-
-    | `<statement>`| The message to the user | `What time?`
+    | `<text>`| The message to the user | `What time?`
     | `$holder`| [holder 🧠](<../../../Scripts 📃/📃 basics/Holder 🧠.md>) with the time | `14:23:59` 
     
     ---
