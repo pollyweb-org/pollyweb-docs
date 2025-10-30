@@ -10,7 +10,7 @@
     A `$holder`
     * is a named memory slot 
     * associated with a [Chat 💬](<../../Chats 💬/💬 Chat.md>)
-    * and managed by a [Talker 😃](<../../Talkers 😃/😃🤲 Talker helper.md>).
+    * and managed by a [Script 📃](<Script 📃.md>).
 
     ---
     <br/>

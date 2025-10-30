@@ -24,7 +24,7 @@
 
 ## 😃 Talker 
 
-The associated [Talker 😃](<../../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>) uses the [`BIND` 🔗 command](<../../../../../35 💬 Chats/Scripts 📃/📃 methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>).
+The associated [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) uses the [`BIND` 🔗 command](<../../../../../35 💬 Chats/Scripts 📃/📃 methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>).
 
 ```yaml
 💬 [Bind] my Wallet:

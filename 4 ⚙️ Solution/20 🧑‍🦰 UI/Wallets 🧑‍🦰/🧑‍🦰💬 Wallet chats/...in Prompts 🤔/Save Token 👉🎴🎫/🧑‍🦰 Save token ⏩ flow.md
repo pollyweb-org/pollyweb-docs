@@ -24,7 +24,7 @@ Consider the following excerpt from the [Book restaurant table 🤝 use case](<.
 
 ## 😃 Talker 
 
-The associated [Talker 😃](<../../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>) uses the [`ISSUE`](<../../../../../35 💬 Chats/Scripts 📃/📃 methods 🤵/ISSUE 🎫/🎫 ISSUE ⌘ cmd.md>) command.
+The associated [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) uses the [`ISSUE`](<../../../../../35 💬 Chats/Scripts 📃/📃 methods 🤵/ISSUE 🎫/🎫 ISSUE ⌘ cmd.md>) command.
 
 ```yaml
 - INFO|Issuing your token...

@@ -67,7 +67,7 @@
 
     <br/>
 
-    The associated [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>) would be the following.
+    The associated [Script 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>) would be the following.
 
     ```yaml
     💬 Schedule for tomorrow:

@@ -29,7 +29,7 @@
     |
 
 
-    Here's a [Talker 😃](<../../Talkers 😃/😃🤲 Talker helper.md>).
+    Here's a [Script 📃](<../../Scripts 📃/📃 basics/Script 📃.md>).
 
     ```yaml
     - QUANTITY|How many players? >> $qt:

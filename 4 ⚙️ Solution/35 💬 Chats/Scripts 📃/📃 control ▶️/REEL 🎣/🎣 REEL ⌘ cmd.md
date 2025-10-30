@@ -11,7 +11,7 @@
 
     A `REEL`
     * is a handler [Command ⌘](<../../📃 basics/Command ⌘.md>) 
-    * for [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) handlers to unblock a pending [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>).
+    * for [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) handlers to unblock a pending [Script 📃](<../../📃 basics/Script 📃.md>).
   
     ---
     <br/>
