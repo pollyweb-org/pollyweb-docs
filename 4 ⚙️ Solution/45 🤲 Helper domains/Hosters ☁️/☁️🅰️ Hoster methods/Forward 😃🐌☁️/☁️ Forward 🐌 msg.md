@@ -33,5 +33,5 @@ Body:
 |           | `Subject`| string | `Forward@Hoster`
 | Body      | `To`  | string | [domain 👥](<../../../../40 👥 Domains/👥 Domain.md>) name
 |           | `Subject`| string | Method name
-|           | `Body` | any | [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) body
+|           | `Body` | any | [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) body
 |       

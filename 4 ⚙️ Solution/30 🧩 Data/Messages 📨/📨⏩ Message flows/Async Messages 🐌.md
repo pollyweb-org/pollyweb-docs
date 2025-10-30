@@ -1,6 +1,6 @@
 # 🐌📨 Async Messages
 
-> Part of [domain Message 📨](<../📨 Message.md>)
+> Part of [domain Message 📨](<../📨 Message/📨 Message.md>)
 
 > Implemented by [👥⏩👥 Send Async 🐌](<../../../40 👥 Domains/👥⏩ Domain flows/Send Async 👥🐌👥/👥 Async Message ⏩ flow.md>)
 

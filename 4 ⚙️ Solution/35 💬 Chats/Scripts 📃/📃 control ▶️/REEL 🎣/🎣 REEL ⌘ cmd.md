@@ -18,7 +18,7 @@ then the last 3 will never be executed because REEL will exit the script.
 
     A `REEL`
     * is a handler [Command ⌘](<../../📃 basics/Command ⌘.md>) 
-    * for [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) handlers to unblock a pending [Script 📃](<../../📃 basics/Script 📃.md>).
+    * for [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) handlers to unblock a pending [Script 📃](<../../📃 basics/Script 📃.md>).
   
     ---
     <br/>

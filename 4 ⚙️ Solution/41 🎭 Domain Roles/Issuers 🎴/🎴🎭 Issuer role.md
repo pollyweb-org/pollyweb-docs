@@ -88,7 +88,7 @@
         
     On privacy:
     
-    * Given the ability of a recipient [domain 👥](<../../40 👥 Domains/👥 Domain.md>) to know who sent a given [Message 📨](<../../30 🧩 Data/Messages 📨/📨 Message.md>) (e.g., a status request from a [Consumer 💼 domain](<../../50 🫥 Agent domains/Storage 🗃️/🗃️🫥 Storage agent.md>)), an [Issuer 🎴 domain](<🎴🎭 Issuer role.md>) would be able to track when and where a given [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) was used by the user to whom it was issued to.
+    * Given the ability of a recipient [domain 👥](<../../40 👥 Domains/👥 Domain.md>) to know who sent a given [Message 📨](<../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) (e.g., a status request from a [Consumer 💼 domain](<../../50 🫥 Agent domains/Storage 🗃️/🗃️🫥 Storage agent.md>)), an [Issuer 🎴 domain](<🎴🎭 Issuer role.md>) would be able to track when and where a given [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) was used by the user to whom it was issued to.
     
     * For example, a private company could track the shopping behavior of their named customers without their consent, and a nation's government could track the movement of targeted political opponents.
     

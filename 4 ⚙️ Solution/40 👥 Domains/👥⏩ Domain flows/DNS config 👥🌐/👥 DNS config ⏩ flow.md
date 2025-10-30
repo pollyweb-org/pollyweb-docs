@@ -13,7 +13,7 @@
     |-|-|-|
     | 👉 Name servers from the DNS register
     | [`any-domain.dom`]() | `NS` | `{name servers}`
-    | 👉 Endpoint for inbound [messages 📨](<../../../30 🧩 Data/Messages 📨/📨 Message.md>)  
+    | 👉 Endpoint for inbound [messages 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)  
     | `nlweb`.[`any-domain.dom`]() | `A` | `1234.any-api.dom`
     | 👉 [DKIM 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) for outbound and [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
     | `pk6`.`_domainkey`.[`any-domain.dom`]() | `TXT` | `v=DKIM1;k=rsa;p=...` 

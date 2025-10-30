@@ -1,7 +1,7 @@
 
 # [🧩](<../../Codes 🧩/🧩 Schema Code.md>) `.MSG`
 
-> Schema of a [domain Message 📨](<../📨 Message.md>)
+> Schema of a [domain Message 📨](<../📨 Message/📨 Message.md>)
 
 <br/>
 
