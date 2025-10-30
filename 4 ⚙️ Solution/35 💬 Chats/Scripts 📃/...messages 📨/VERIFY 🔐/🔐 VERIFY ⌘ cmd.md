@@ -8,7 +8,7 @@
 1. **What is a VERIFY message command?**
 
     A [`VERIFY`](<🔐 VERIFY ⌘ cmd.md>)
-    * is a [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) 
+    * is a [Command ⌘](<../../📃⌘ commands/Command ⌘/⌘ Command.md>) 
     * that checks if a given content was signed by the sender.
 
     ---
@@ -86,7 +86,7 @@
         Key: $wallet.PublicKey
     ```
 
-    | [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../📃⌘ commands/Command ⌘/⌘ Command.md>) | Purpose
     |-|-
     | 🧲 [`GET`](<../../...datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) | Get the Public Key of the [Wallet 🪣](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/Wallets 🧑‍🦰 table/🤵 Wallets 🪣 table.md>) in the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>).
 
@@ -110,7 +110,7 @@
         Key: $chat.PublicKey
     ```
 
-    | [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../📃⌘ commands/Command ⌘/⌘ Command.md>) | Purpose
     |-|-
     | 🧲 [`GET`](<../../...datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) | To get the Public Key of [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>).
 

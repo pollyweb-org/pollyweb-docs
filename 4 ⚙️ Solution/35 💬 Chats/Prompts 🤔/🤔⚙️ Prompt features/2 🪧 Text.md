@@ -18,7 +18,7 @@
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ This is the text
     |
 
-    Here's the [Script 📃](<../../Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../Scripts 📃/📃⌘ commands/Script 📃/📃 Script.md>).
     
     ```yaml
     - INFO|This is the text

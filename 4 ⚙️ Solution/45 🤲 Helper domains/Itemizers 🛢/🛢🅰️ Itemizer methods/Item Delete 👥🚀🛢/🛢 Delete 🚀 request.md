@@ -33,7 +33,7 @@ Body:
 | Header    | `From`        | string    | [Talker 😃](<../../../../35 💬 Chats/Talkers 😃/😃 Talker role.md>) from [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
 |           | `To`          | string    | [Itemizer 🛢](<../../🛢🤲 Itemizer helper.md>) from [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
 |           | `Subject`     | string    | `Delete@Itemizer`
-| Body    | `Script`     | string    | [Script 📃](<../../../../35 💬 Chats/Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>) for traceability
+| Body    | `Script`     | string    | [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃⌘ commands/Script 📃/📃 Script.md>) for traceability
 |         | `Set`    | string  | `Set` from [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
 |         | `Key`     | string[]  | Case insensitive keys
 |         | `Undo` | string  | Optional [`UNDO`](<../../../../35 💬 Chats/Scripts 📃/...datasets 🪣/UNDO ↩️/↩️ UNDO ⌘ cmd.md>) time

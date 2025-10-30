@@ -146,7 +146,7 @@
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ You opted to play.
     |  
 
-    Here's the [Script 📃](<../../Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../Scripts 📃/📃⌘ commands/Script 📃/📃 Script.md>).
 
     ```yaml
     # 😃 Talker
@@ -163,7 +163,7 @@
         Share: INFO|You choose to share.
     ```
 
-    | [Command ⌘](<../../Scripts 📃/...commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../Scripts 📃/📃⌘ commands/Command ⌘/⌘ Command.md>) | Purpose
     |-|-
     | 1️⃣ [`ONE`](<../🤔✏️ Prompt inputs/ONE 1️⃣/ONE 1️⃣ prompt.md>) | To show the options.
     | ⏯️️ [`CASE`](<../../Scripts 📃/...control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | To check the selected option.
@@ -216,7 +216,7 @@
 
     <br/>
 
-    Here's the [Script 📃](<../../Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../Scripts 📃/📃⌘ commands/Script 📃/📃 Script.md>).
 
     
   
@@ -239,7 +239,7 @@
     ```
 
 
-    | [Command ⌘](<../../Scripts 📃/...commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../Scripts 📃/📃⌘ commands/Command ⌘/⌘ Command.md>) | Purpose
     |-|-
     | 1️⃣ [`ONE`](<../🤔✏️ Prompt inputs/ONE 1️⃣/ONE 1️⃣ prompt.md>) | To show the options.
     | ⏯️️ [`CASE`](<../../Scripts 📃/...control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | To check the selected option.

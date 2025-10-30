@@ -8,9 +8,9 @@
 1. **What's a HTTP command?**
 
     A `HTTP` ⤴️
-    * is a flow [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) 
+    * is a flow [Command ⌘](<../../📃⌘ commands/Command ⌘/⌘ Command.md>) 
     * that raises an HTTP exception
-    * and immediately stops the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>).
+    * and immediately stops the [Script 📃](<../../📃⌘ commands/Script 📃/📃 Script.md>).
 
 
     ---
@@ -41,14 +41,14 @@
 
 1. **What happens after a HTTP?**
 
-    Nothing runs on a [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) after an `HTTP`.
+    Nothing runs on a [Script 📃](<../../📃⌘ commands/Script 📃/📃 Script.md>) after an `HTTP`.
 
     | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../Prompts 🤔/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ⏳ Waiting forever...
     |
     
-    Here's the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../📃⌘ commands/Script 📃/📃 Script.md>).
 
     ```yaml
     📃 Example:
