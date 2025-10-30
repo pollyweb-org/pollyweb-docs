@@ -17,7 +17,7 @@
     <br/>
 
 
-1. **What's the format of a [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>)?**
+1. **What's the syntax of a [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>)?**
 
     ```yaml
     TIME|<text> >> $holder

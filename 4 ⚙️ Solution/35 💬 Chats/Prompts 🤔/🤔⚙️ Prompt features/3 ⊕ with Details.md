@@ -24,7 +24,7 @@
 
 
 
-1. **What's the format for a [Talker 😃](<../../Talkers 😃/😃🤲 Talker helper.md>)?**
+1. **What's the syntax for a [Talker 😃](<../../Talkers 😃/😃🤲 Talker helper.md>)?**
 
     ```yaml
     <PROMPT>|<text>:
