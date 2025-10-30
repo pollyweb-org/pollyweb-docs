@@ -9,7 +9,7 @@ Send an invitation letter before a trip
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | ✅ Over to 🔎 Finder.
 | [ new chat ]
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) | ℹ️ Request received [+] <br/> - I need the hosting address.
-| 🧢 [Persona](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Personas 🧢/🧢🫥 Persona agent.md>) | 🫥 Share address? [No] <br> - [ 🏠 home ] <br/> - [ 🏡 Daniel's ] | > 🏠 home
+| 🧢 [Persona](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Personas 🧢/🧢 Persona agent/🧢🫥 Persona agent.md>) | 🫥 Share address? [No] <br> - [ 🏠 home ] <br/> - [ 🏡 Daniel's ] | > 🏠 home
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) | ⏳ Looking around...
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) | 💬 Here are suggestions: <br/> - [ Any Council 🏛️ ] (4.4 ⭐) <br/> - [ Find 🔎 ] alternatives | > Any Council 🏛️
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) | ℹ️ Any Council 🏛️ (4.4 ⭐): <br/> - responsible for your address <br/> - supports online letter requests.
@@ -23,7 +23,7 @@ Send an invitation letter before a trip
 | 🏛️ Council | ℹ️ Thanks, Alice!
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | 🫥 Share contract address? [No] <br> - Any Utility 💡 <br/> - Any Bank 🏦 | > Any Bank 🏦
 | 🏛️ Council | ℹ️ Addresses match.
-| 🧢 [Persona](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Personas 🧢/🧢🫥 Persona agent.md>) | 🫥 Share current job titles? [Yes, No] | > Yes
+| 🧢 [Persona](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Personas 🧢/🧢 Persona agent/🧢🫥 Persona agent.md>) | 🫥 Share current job titles? [Yes, No] | > Yes
 | 🏛️ Council | ℹ️ Received job titles [+] <br/> - Senior Software Engineer
 | 🏛️ Council | 😃 When are guests arriving? | 🗓️ 2025/06/15
 | 🏛️ Council | 😃 How many days will they stay? | ↕️ 90

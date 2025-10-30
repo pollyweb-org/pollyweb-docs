@@ -11,7 +11,7 @@
 
     * While in a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>), a [Host 🤗 domain](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) to invoke user Agents 🫥 by role - e.g.:
 
-        * `any-host.dom` asks `any-broker.dom` to invoke the user's [Persona 🧢 agent](<../Personas 🧢/🧢🫥 Persona agent.md>), 
+        * `any-host.dom` asks `any-broker.dom` to invoke the user's [Persona 🧢 agent](<../Personas 🧢/🧢 Persona agent/🧢🫥 Persona agent.md>), 
         * then `any-broker.dom` invokes the domain `any-persona.dom`.
 
     ---
@@ -31,7 +31,7 @@
     |📇| [Mingler](<../Minglers 📇/$ 📇🫥 Mingler agent.md>) | WhatsApp | Connects multiple users in a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>), allowing them to exchange [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
     |🧭| [Navigator](<../Navigators 🧭/$ 🧭🫥 Navigator agent.md>) | G.Maps | Helps users going from point A to B.
     |💳| [Payer](<../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) | Paypal | Performs payments to [Collector 🏦 domains](<../../45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>).
-    |🧢| [Persona](<../Personas 🧢/🧢🫥 Persona agent.md>) | Facebook | Stores and shares user preferences and personally identifiable information (PII).
+    |🧢| [Persona](<../Personas 🧢/🧢 Persona agent/🧢🫥 Persona agent.md>) | Facebook | Stores and shares user preferences and personally identifiable information (PII).
     |⭐| [Reviewer](<../Reviewers ⭐/⭐🫥 Reviewer agent.md>) | TrustPilot | Collects and shares user feedback from [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) experiences.
     |🗓️| [Scheduler](<../Schedulers 🗓️/$ 🗓️🫥 Scheduler agent.md>) | Outlook | Monitors and manages the user's agenda.
     |🗃️| [Storage](<../Storage 🗃️/🗃️🫥 Storage agent.md>) | Dropbox | Stores user data for other [Vault 🗄️ domains](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>), for data residency compliance.

@@ -44,7 +44,7 @@
 
     | Role 🎭 | Purpose
     |-|-
-    | [🔔 Subscriber](<../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>) | To consume changes from the [user's Persona 🧢 vault domains](<../Personas 🧢/🧢🫥 Persona agent.md>)
+    | [🔔 Subscriber](<../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>) | To consume changes from the [user's Persona 🧢 vault domains](<../Personas 🧢/🧢 Persona agent/🧢🫥 Persona agent.md>)
     | [🗄️ Vault ](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) | To share user selections with [Consumer 💼 host domains](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>).
     
 
@@ -99,10 +99,10 @@
 
 1. **How much user data should a curator store?**
 
-    NLWeb advocates for [Curator 🧚 agents](<🧚🫥 Curator agent.md>) to rely on [Persona 🧢 vaults](<../Personas 🧢/🧢🫥 Persona agent.md>) to assess user intent, while storing the nuances of those intents in the Curator's 🧚 memory:
+    NLWeb advocates for [Curator 🧚 agents](<🧚🫥 Curator agent.md>) to rely on [Persona 🧢 vaults](<../Personas 🧢/🧢 Persona agent/🧢🫥 Persona agent.md>) to assess user intent, while storing the nuances of those intents in the Curator's 🧚 memory:
     - this addresses the different speed of developments between humans and machines; 
     - i.e., humans change their tastes and behaviors slower as they age, while new and better machine algorithms appear exponentially faster;
-    - this separation of concerns allows users to retain their legacy [Persona 🧢 vault](<../Personas 🧢/🧢🫥 Persona agent.md>) while constantly upgrading to new smarter [Curator 🧚 agents](<🧚🫥 Curator agent.md>) as they are released.
+    - this separation of concerns allows users to retain their legacy [Persona 🧢 vault](<../Personas 🧢/🧢 Persona agent/🧢🫥 Persona agent.md>) while constantly upgrading to new smarter [Curator 🧚 agents](<🧚🫥 Curator agent.md>) as they are released.
 
     ---
     <br/>
@@ -120,11 +120,11 @@
         - e.g., when suggesting alcoholic beverages to an American user visiting Portugal, consider both the minimum drinking age on the current country (18 in Portugal) and in the user's nationality country (21 in the USA).
   
     - **Cognitive dissonance**: 
-        - respect the human's intent behavior by leveraging [Persona 🧢 vaults](<../Personas 🧢/🧢🫥 Persona agent.md>) while addressing the emotional side of the human;
+        - respect the human's intent behavior by leveraging [Persona 🧢 vaults](<../Personas 🧢/🧢 Persona agent/🧢🫥 Persona agent.md>) while addressing the emotional side of the human;
         - e.g., if a human says they prefer to eat vegetables but reject all dishes that contain vegetables, then the [Curator 🧚 agent](<🧚🫥 Curator agent.md>) should memorize repetitive misalignments and work with the [Vitalogist 💖 vault](<../Vitalogists 💖/💖🫥 Vitalogist agent.md>) to help the human achieve their desired behavior (instead of reinforcing the misalignment by defaulting to what the human likes to hear).
   
     - **Collaborative growth**:
-        - adapt to the human's growth and environmental changes by suggesting changes to the human's [Persona 🧢 vault](<../Personas 🧢/🧢🫥 Persona agent.md>) settings.
+        - adapt to the human's growth and environmental changes by suggesting changes to the human's [Persona 🧢 vault](<../Personas 🧢/🧢 Persona agent/🧢🫥 Persona agent.md>) settings.
 
     ---
     <br/>
