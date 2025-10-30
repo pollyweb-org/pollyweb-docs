@@ -11,7 +11,7 @@
 1. **What is a SAVE command?**
 
     A `SAVE` 💾
-    * is a [Command ⌘](<../../📃 basics/Command ⌘/⌘ Command.md>) 
+    * is a [Command ⌘](<../../📃 basics/⌘ Command.md>) 
     * that stores an item in an [Itemized 🛢 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
 
     ---

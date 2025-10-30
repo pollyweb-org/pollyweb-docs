@@ -13,7 +13,7 @@
 1. **What is an UNDO command?**
 
     An `UNDO` ↩️
-    * is a [Command ⌘](<../../📃 basics/Command ⌘/⌘ Command.md>) 
+    * is a [Command ⌘](<../../📃 basics/⌘ Command.md>) 
     * that revers the removal of item in an [Itemized 🛢 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>)
     * that occurred with a soft [`DELETE`](<../DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>).
 

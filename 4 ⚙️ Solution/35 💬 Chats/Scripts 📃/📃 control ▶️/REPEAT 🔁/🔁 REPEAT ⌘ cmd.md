@@ -8,7 +8,7 @@
 1. **What's a REPEAT flow?**
 
     A `REPEAT` 🔁
-    * is a flow [Command ⌘](<../../📃 basics/Command ⌘/⌘ Command.md>) 
+    * is a flow [Command ⌘](<../../📃 basics/⌘ Command.md>) 
     * that repeats it's enclosing [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>) 
     * either always or only when confirmed.
 

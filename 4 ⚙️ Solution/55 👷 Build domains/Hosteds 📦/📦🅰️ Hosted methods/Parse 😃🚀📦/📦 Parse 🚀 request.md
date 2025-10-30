@@ -2,7 +2,7 @@
 
 > Purpose
  
-* Handles a custom [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Command ⌘/⌘ Command.md>)
+* Handles a custom [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/📃 basics/⌘ Command.md>)
 
 
 ## Synchronous Request 🚀
@@ -26,7 +26,7 @@ Body:
 | Header    | `From`        | string    | [Talker 😃 domain](<../../../../35 💬 Chats/Talkers 😃/😃 Talker role.md>)
 |           | `To`          | string    | [Hosted 📦 domain](<../../📦👥 Hosted domain.md>)
 | | `Subject`| string | `Parse@Hosted` |
-| Body      | `Command`     | any    | [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Command ⌘/⌘ Command.md>) to parse
+| Body      | `Command`     | any    | [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/📃 basics/⌘ Command.md>) to parse
 |
 
 ## Synchronous Response

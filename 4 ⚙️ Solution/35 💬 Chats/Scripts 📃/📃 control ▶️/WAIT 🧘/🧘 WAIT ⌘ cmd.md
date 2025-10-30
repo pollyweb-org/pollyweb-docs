@@ -12,7 +12,7 @@
 1. **What's a WAIT flow command?**
 
     A [`WAIT` 🧘](<🧘 WAIT ⌘ cmd.md>)
-    * is a flow [Command ⌘](<../../📃 basics/Command ⌘/⌘ Command.md>) 
+    * is a flow [Command ⌘](<../../📃 basics/⌘ Command.md>) 
     * that pauses the flow for a period of time 
     * or until triggered by the [`REEL` 🎣 command](<../REEL 🎣/🎣 REEL ⌘ cmd.md>)
     * or by the [`Handled@Talker` 🅰️ method](<../../../Talkers 😃/😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>).

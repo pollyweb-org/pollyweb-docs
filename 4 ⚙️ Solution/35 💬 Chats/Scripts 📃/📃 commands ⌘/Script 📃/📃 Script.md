@@ -9,7 +9,7 @@
     A [Script 📃]() 
     [Talkers 😃](<../../../Talkers 😃/😃 Talker role.md>) 
     
-    * is a set of [Commands ⌘](<../../📃 basics/Command ⌘/⌘ Command.md>) 
+    * is a set of [Commands ⌘](<../../📃 basics/⌘ Command.md>) 
     * specified in a [static YAML 📄](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Static YAML 📄.md>) resource
     * referencing [{Functions} 🐍](<../../📃 functions 🐍/{Function} 🐍.md>) evaluated by [Hosted 📦 domains](<../../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>)
     * and implemented by [Hoster ☁️ helper domains](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>).
@@ -30,7 +30,7 @@
     |-|-
     | `📃 <script>` | The name of the [Script 📃](<📃 Script.md>).
     |            | The 📃 emoji is optional, and will be ignored.
-    | `<command-n>` | A [Command ⌘](<../../📃 basics/Command ⌘/⌘ Command.md>)  to be executed.
+    | `<command-n>` | A [Command ⌘](<../../📃 basics/⌘ Command.md>)  to be executed.
     
     ```yaml
     📃 TestScript:
