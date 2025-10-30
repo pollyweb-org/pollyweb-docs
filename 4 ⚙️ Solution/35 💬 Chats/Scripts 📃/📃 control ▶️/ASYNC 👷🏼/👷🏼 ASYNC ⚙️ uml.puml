@@ -21,15 +21,22 @@ activate async
     async -> async: WAIT 🧘 {hook}
 deactivate async
           
-    hosted --> inbox: Handled 🐌 {hook, 3}
+    hosted -> inbox: Placed 🚀 {hook, holder}
+    activate inbox
+        inbox -> holders: GET {hook, holder}
+        inbox -> hosted: {value}
+    deactivate inbox
+
+
+    hosted --> inbox: Handled 🐌 {hook, return}
 deactivate hosted
 
 activate inbox
-    inbox -> async: REEL 🎣 {hook, 3}
+    inbox -> async: REEL 🎣 {hook, return}
 deactivate inbox
 
 activate async
-    async -> script: RETURN {3}
+    async -> script: RETURN {return}
 deactivate async
 
 activate script
