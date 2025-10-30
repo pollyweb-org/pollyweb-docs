@@ -12,12 +12,15 @@ participant "Hosted 📦" as hosted
 
 
 activate script
-
     script -> talker: EVAL ⬇️ {1 into $A} 
-    activate talker
-        talker -> memory: GET 🧲 {A}
-    deactivate talker
+deactivate script
 
+activate talker
+    talker -> memory: GET 🧲 {A}
+    talker -> script: 
+deactivate talker
+
+activate script 
     script -> talker: EVAL ⬇️ {function} 
 deactivate script
 
@@ -46,7 +49,6 @@ deactivate hosted
 
 activate inbox
     inbox -> talker: REEL 🎣 {hook, 3}
-    
 deactivate inbox
 
 activate talker
@@ -56,15 +58,15 @@ activate talker
 deactivate talker
 
 activate script
-
-
-        script -> talker: EVAL ⬇️ {$B}
-    activate talker
-        talker -> memory: GET 🧲 {B}
-        talker -> script: {2}
-    deactivate talker
-
+    script -> talker: EVAL ⬇️ {$B}
 deactivate script
+
+activate talker
+    talker -> memory: GET 🧲 {B}
+    talker -> script: {2}
+deactivate talker
+
+activate script
 
 
 @enduml
