@@ -10,7 +10,7 @@
     | - | - | - |
     | 👷 Company | 😃 Hi! What do you need? <br/>- [ Help now ] <br/>- [ Something else ] | > Help now
     | 👷 Company | 😃 What sort of help? <br/>- cleaner <br/>- plumber <br/>- other | > plumber
-    | 🧢 [Persona](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Personas 🧢/🧢🫥 Persona agent.md>) | 🫥 Share delivery address? [No]  <br/>- [ home ] <br/>- [ Alice's ] | > Alice's
+    | 🧢 [Persona](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Personas 🧢/🧢 Persona agent/🧢🫥 Persona agent.md>) | 🫥 Share delivery address? [No]  <br/>- [ home ] <br/>- [ Alice's ] | > Alice's
     | [🗓️ Scheduler](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Schedulers 🗓️/$ 🗓️🫥 Scheduler agent.md>) | 🫥 Confirm plumber? [Yes, No] <br/>📍 43, Soho, W1D 3QX  <br/> 🕑 today, 11:30 am <br/> - you have a work meeting at 12pm. | > Yes
     | 💳 [Payer](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) | 🫥 Pay $50.00 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
     | 👷 Company | 😃 Describe the issue.   | 🎙️ (speech)

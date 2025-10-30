@@ -45,8 +45,8 @@
 
 1. **Can Vitalogists pull medical information from Personas?**
 
-    No, [Persona 🧢](<../Personas 🧢/🧢🫥 Persona agent.md>) vaults don't store medical data. 
+    No, [Persona 🧢](<../Personas 🧢/🧢 Persona agent/🧢🫥 Persona agent.md>) vaults don't store medical data. 
     - Medical information, like allergies, fall under specific data protection and privacy regulations like HIPAA (Health Insurance Portability and Accountability Act - U.S.).
-    - Vitalogists 💖 already need to follow these regulations, so they should not add that responsibility to [Persona](<../Personas 🧢/🧢🫥 Persona agent.md>) vaults.
+    - Vitalogists 💖 already need to follow these regulations, so they should not add that responsibility to [Persona](<../Personas 🧢/🧢 Persona agent/🧢🫥 Persona agent.md>) vaults.
 
 ---

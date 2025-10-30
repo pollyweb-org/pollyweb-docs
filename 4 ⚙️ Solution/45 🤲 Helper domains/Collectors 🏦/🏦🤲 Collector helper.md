@@ -121,7 +121,7 @@
     | [🏦 Collector](<🏦🤲 Collector helper.md>) | ⏳ Waiting for 3x $4.31... <br/>- [ pay my part ]  <br/> - [ cancel split ]| > pay my part
     | 💳 [Payer](<../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) | 🫥 Pay $4.33 partial bill? 🧾 [No] <br/>- [ card ABC ] + $0.10 <br/>- [ card DEF ] (free) | > card ABC
     | 💳 [Payer](<../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) | 🫥 Add tip? [No, 10%, +] | > 10%
-    | 🧢 [Persona](<../../50 🫥 Agent domains/Personas 🧢/🧢🫥 Persona agent.md>) | 🫥 Share name? [No] <br/> - [ 🧑‍🦰 personal ] <br/> - [ 💼 work ]  <br/> - [ 🦋 private ]     | > 🧑‍🦰 personal
+    | 🧢 [Persona](<../../50 🫥 Agent domains/Personas 🧢/🧢 Persona agent/🧢🫥 Persona agent.md>) | 🫥 Share name? [No] <br/> - [ 🧑‍🦰 personal ] <br/> - [ 💼 work ]  <br/> - [ 🦋 private ]     | > 🧑‍🦰 personal
     | [🏦 Collector](<🏦🤲 Collector helper.md>) | ⓘ Your part paid, thanks! [+]
     | [🏦 Collector](<🏦🤲 Collector helper.md>) | ⏳ Waiting for 2x $4.31... <br/>- [ list payer names ] <br/>- [ pay the reaming ] <br/> - [ cancel split ]
     | [🏦 Collector](<🏦🤲 Collector helper.md>) | ⏳ Waiting for 1x $4.31... <br/>- [ list payer names ] <br/>- [ pay the reaming ] <br/> - [ cancel split ]
