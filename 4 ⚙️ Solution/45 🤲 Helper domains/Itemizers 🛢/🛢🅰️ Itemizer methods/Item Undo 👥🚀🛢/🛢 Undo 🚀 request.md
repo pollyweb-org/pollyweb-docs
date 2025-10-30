@@ -2,7 +2,7 @@
 
 > Part of [Itemizer 🛢 helper](<../../🛢🤲 Itemizer helper.md>)
 
-> Implements the [`UNDO`](<../../../../35 💬 Chats/Scripts 📃/📃 for datasets 🪣/UNDO ↩️/↩️ UNDO ⌘ cmd.md>) command.
+> Implements the [`UNDO`](<../../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/UNDO ↩️/↩️ UNDO ⌘ cmd.md>) command.
 
 
 <br/>

@@ -8,7 +8,7 @@
 
 ## Example
 
-Here's the [`GET` command](<../../../../35 💬 Chats/Scripts 📃/📃 for datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) result.
+Here's the [`GET` command](<../../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) result.
 
 ```yaml
 # GET|Chats|<broker>,<chat-uuid>

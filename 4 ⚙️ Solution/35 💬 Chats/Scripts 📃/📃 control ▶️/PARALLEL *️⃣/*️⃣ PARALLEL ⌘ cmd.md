@@ -42,7 +42,7 @@
     |-|-|-
     | `$input-list` | List to iterate | `[1,2,3]`
     | `$input-item` | Item of an iteration | `1`
-    | `<command-n>`   | [Command ⌘](<../../📃 commands ⌘/Command ⌘/⌘ Command.md>) to execute | [`SAVE`](<../../📃 for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
+    | `<command-n>`   | [Command ⌘](<../../📃 commands ⌘/Command ⌘/⌘ Command.md>) to execute | [`SAVE`](<../../📃 datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
 
     ---
     <br/>

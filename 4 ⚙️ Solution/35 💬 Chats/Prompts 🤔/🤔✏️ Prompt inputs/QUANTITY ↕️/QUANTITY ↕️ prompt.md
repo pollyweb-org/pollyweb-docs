@@ -163,7 +163,7 @@
     |-|-
     | ℹ️ [`INFO`](<../../🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the result.
     | 1️⃣ [`ONE`](<../ONE 1️⃣/ONE 1️⃣ prompt.md>) | To show the options.
-    | ⏯️️ [`CASE`](<../../../Scripts 📃/📃 for control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | To check the selected option.
+    | ⏯️️ [`CASE`](<../../../Scripts 📃/📃 control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | To check the selected option.
     | ⏳ [`TEMP`](<../../🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>) | To show work in progress.
     
 
@@ -206,7 +206,7 @@
     | [Command ⌘](<../../../Scripts 📃/📃 commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
     |-|-
     | ℹ️ [`INFO`](<../../🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the message.
-    | 🔁 [`REPEAT`](<../../../Scripts 📃/📃 for control ▶️/REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) | To repeat the input cycle forever.
+    | 🔁 [`REPEAT`](<../../../Scripts 📃/📃 control ▶️/REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) | To repeat the input cycle forever.
      
 
     ---
