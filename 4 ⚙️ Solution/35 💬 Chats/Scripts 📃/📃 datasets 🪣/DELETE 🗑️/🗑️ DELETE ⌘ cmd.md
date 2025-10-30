@@ -4,7 +4,7 @@
 
 # 😃🗑️ Talker `DELETE` command
 
-> Part of [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>)
+> Part of [Script 📃](<../../📃 basics/Script 📃.md>)
 
 > Relates to [Tables 🪣 folder](<../../../../55 👷 Build domains/Hosteds 📦/📦📄 Hosted files/🪣📂 Tables folder.md>)
 

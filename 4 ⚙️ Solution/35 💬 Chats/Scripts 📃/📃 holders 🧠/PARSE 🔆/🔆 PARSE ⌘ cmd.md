@@ -1,6 +1,6 @@
 # 🔆 Talker `PARSE` command
 
-> Part of [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>)
+> Part of [Script 📃](<../../📃 basics/Script 📃.md>)
 
 > Used by [`Grab@Printer`](<../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🅰️ Printer methods/Grab 👥🚀🖨️/🖨️ Grab 🚀 request.md>)
 

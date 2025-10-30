@@ -2,7 +2,7 @@
 
 # 😃*️⃣ Talker `PARALLEL` command
 
-> Part of [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>)
+> Part of [Script 📃](<../../📃 basics/Script 📃.md>)
 
 > Example: [Pop Vault 🔆](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Pop 🧑‍🦰🐌🤵/Pop Vault/🤵 Pop Vault 📃 handler.md>)
 

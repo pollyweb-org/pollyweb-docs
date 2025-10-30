@@ -2,7 +2,7 @@
 
 > Implemented by the [`.BIND` 📃 script](<🔗 BIND 📃 script.md>)
 
-> Part of [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>)
+> Part of [Script 📃](<../../📃 basics/Script 📃.md>)
 
 <br/>
 
