@@ -35,20 +35,49 @@ def register_hardcoded(
 
 
 def _replace_simple(md_files: Iterable[str], pattern: re.Pattern[str], replacement: str) -> int:
+    """Replace occurrences of pattern with replacement, but skip matches
+    that are already inside existing markdown links (e.g. [text](<...>)).
+
+    This prevents nested or malformed links when multiple replacement
+    passes run over the same files.
+    """
     total = 0
+    link_pattern = re.compile(r"\[.*?\]\(<.*?>\)", re.DOTALL)
+
     for md_file in md_files:
         path = Path(md_file)
         try:
             content = path.read_text(encoding="utf-8")
         except Exception:
             continue
-        new_content, count = pattern.subn(replacement, content)
-        if count:
+
+        # collect spans of existing markdown links so we can skip matches
+        link_spans: list[tuple[int, int]] = [m.span() for m in link_pattern.finditer(content)]
+
+        def inside_link(pos: int) -> bool:
+            for a, b in link_spans:
+                if a <= pos < b:
+                    return True
+            return False
+
+        changes = 0
+
+        def _repl(m: re.Match[str]) -> str:
+            nonlocal changes
+            if inside_link(m.start()):
+                return m.group(0)
+            changes += 1
+            return replacement
+
+        new_content = pattern.sub(_repl, content)
+
+        if changes:
             try:
                 path.write_text(new_content, encoding="utf-8")
             except Exception:
                 continue
-            total += count
+            total += changes
+
     return total
 
 

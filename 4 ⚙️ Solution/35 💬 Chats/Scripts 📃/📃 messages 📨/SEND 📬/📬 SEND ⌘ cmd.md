@@ -8,7 +8,7 @@
 1. **What is a SEND command?**
 
     A `SEND`
-    * is a [Command ⌘](<../../📃 basics/⌘ Command.md>) 
+    * is a [Command ⌘](<../../📃 basics/Command ⌘.md>) 
     * that sends a [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>).
 
     ---
@@ -28,11 +28,11 @@
 
     | Input| Purpose | Example
     |-|-|-
-    | `$context` | Optional input [Holder 🧠](<../../📃 basics/$Holder 🧠.md>)  | `$p`
+    | `$context` | Optional input [Holder 🧠](<../../📃 basics/Holder 🧠.md>)  | `$p`
     | `To` | Destination domain | `any-broker.dom`
     | `Subject` | Message subject | `Unbound@Vault`
     | `{body}` | `Body` property dictionary  | `{A:1, B:2}`
-    | `$response` | Response [Holder 🧠](<../../📃 basics/$Holder 🧠.md>) <br/> for [Synchronous Requests 🚀](<../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Sync Requests 🚀.md>) | `$r`
+    | `$response` | Response [Holder 🧠](<../../📃 basics/Holder 🧠.md>) <br/> for [Synchronous Requests 🚀](<../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Sync Requests 🚀.md>) | `$r`
 
     ---
     <br/>
@@ -83,7 +83,7 @@
 
 1. **How to use the context?**
 
-    Here's a [Script 📃](<../../📃 basics/📃 Script.md>)
+    Here's a [Script 📃](<../../📃 basics/Script 📃.md>)
     ```yaml
     📃 Example:
     

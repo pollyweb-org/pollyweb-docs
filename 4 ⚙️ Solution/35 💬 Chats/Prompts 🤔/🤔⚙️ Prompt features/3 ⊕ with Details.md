@@ -66,7 +66,7 @@
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ Expandable info [-]<br/>&nbsp;&nbsp;&nbsp;1. Markdown bullet one  <br/>&nbsp;&nbsp;&nbsp;2. Markdown bullet two
     |
 
-    Here's the [Script 📃](<../../Scripts 📃/📃 basics/📃 Script.md>).
+    Here's the [Script 📃](<../../Scripts 📃/📃 basics/Script 📃.md>).
     
     ```yaml
     - INFO|Expandable info:
@@ -75,7 +75,7 @@
             1. Markdown bullet two
     ```
 
-    | [Command ⌘](<../../Scripts 📃/📃 basics/⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../Scripts 📃/📃 basics/Command ⌘.md>) | Purpose
     |-|-
     | ℹ️ [`INFO`](<../🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the messages and details.
     

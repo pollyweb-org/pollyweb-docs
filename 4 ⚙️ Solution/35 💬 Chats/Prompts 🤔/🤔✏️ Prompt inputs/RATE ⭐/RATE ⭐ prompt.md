@@ -45,7 +45,7 @@
     | Input| Purpose 
     |-|-
     | `<statement>`| Message to show to the user
-    | `$holder`| Optional [holder 🧠](<../../../Scripts 📃/📃 basics/$Holder 🧠.md>) with the user's answer
+    | `$holder`| Optional [holder 🧠](<../../../Scripts 📃/📃 basics/Holder 🧠.md>) with the user's answer
     
 
     ```yaml
@@ -82,7 +82,7 @@
 
     <br/>
     
-    Here's the [Script 📃](<../../../Scripts 📃/📃 basics/📃 Script.md>).
+    Here's the [Script 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>).
     
     ```yaml
     - RATE|What's the rate? >> $code

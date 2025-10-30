@@ -1,6 +1,6 @@
 # 🤗📃 Home
 
-[Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/📃 Script.md>) that implements the [`Home@Host` 🅰️ method](<🤗 Home 🐌 msg.md>).
+[Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) that implements the [`Home@Host` 🅰️ method](<🤗 Home 🐌 msg.md>).
 
 
 ## Script
@@ -19,7 +19,7 @@
 
 Needs ||
 |-|-
-| [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/📃 basics/⌘ Command.md>) | [`GET`](<../../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) [`TALK`](<../../../../35 💬 Chats/Scripts 📃/📃 control ▶️/TALK 😃/😃 TALK ⌘ cmd.md>)
+| [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Command ⌘.md>) | [`GET`](<../../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) [`TALK`](<../../../../35 💬 Chats/Scripts 📃/📃 control ▶️/TALK 😃/😃 TALK ⌘ cmd.md>)
 | [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Chats`](<../../🤗🪣 Host tables/Chats 💬 table/🤗 HostChats 🪣 table.md>)
-| [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/📃 basics/$Holder 🧠.md>) | [`$.Msg`](<../../../../35 💬 Chats/Scripts 📃/📃 holders 🧠/$.Msg 📨/📨 $.Msg 🧠 holder.md>)
+| [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Holder 🧠.md>) | [`$.Msg`](<../../../../35 💬 Chats/Scripts 📃/📃 holders 🧠/$.Msg 📨/📨 $.Msg 🧠 holder.md>)
 |

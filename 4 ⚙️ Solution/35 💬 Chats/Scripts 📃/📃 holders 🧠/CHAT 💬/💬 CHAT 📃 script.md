@@ -4,7 +4,7 @@
 > Part of [Talker 😃 domain](<../../../Talkers 😃/😃 Talker role.md>)
 
 > Purpose
-* [Script 📃](<../../📃 basics/📃 Script.md>) 
+* [Script 📃](<../../📃 basics/Script 📃.md>) 
     * that implements the [`CHAT` 💬 command](<💬 CHAT ⌘ cmd.md>) 
     * by setting the [`$.Chat` 💬 holder](<../$.Chat 💬/💬 $.Chat 🧠 holder.md>).
 

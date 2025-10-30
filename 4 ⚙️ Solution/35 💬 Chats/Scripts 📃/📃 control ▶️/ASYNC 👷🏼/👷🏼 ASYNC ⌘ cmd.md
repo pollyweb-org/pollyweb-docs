@@ -9,10 +9,10 @@
 1. **What's an ASYNC command?**
 
     An `ASYNC`
-    * is a [Command ⌘](<../../📃 basics/⌘ Command.md>)
+    * is a [Command ⌘](<../../📃 basics/Command ⌘.md>)
     * that calls the [`Handle@Hosted` 🅰️ method](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>)
     * has an asynchronous background task
-    * i.e, it continues the [Script 📃](<../../📃 basics/📃 Script.md>), unlike [`EVAL`](<../../📃 holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>).
+    * i.e, it continues the [Script 📃](<../../📃 basics/Script 📃.md>), unlike [`EVAL`](<../../📃 holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>).
 
     ---
     <br/>
@@ -29,7 +29,7 @@
     |-|-|-
     | `<task>` | The name of the task to execute | `Build`
     | `$input` | Optional inputs for the task | `A` `[A,B]` `{A:1}`
-    | `$output` | Optional [Holder 🧠](<../../📃 basics/$Holder 🧠.md>) for results | `$result`
+    | `$output` | Optional [Holder 🧠](<../../📃 basics/Holder 🧠.md>) for results | `$result`
 
     ---
     <br/>
@@ -55,7 +55,7 @@
 
     To wait for the result, 
     * ask the [`WAIT`](<../WAIT 🧘/🧘 WAIT ⌘ cmd.md>) command 
-    * to wait for a change on the `$output` [Holder 🧠](<../../📃 basics/$Holder 🧠.md>), 
+    * to wait for a change on the `$output` [Holder 🧠](<../../📃 basics/Holder 🧠.md>), 
     * which will be triggered by the [`Handled@Talker` 🅰️ method](<../../../Talkers 😃/😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>).
 
     ```yaml

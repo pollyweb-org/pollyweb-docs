@@ -26,7 +26,7 @@
     |Input| Details | Example 
     |-|-|-
     | `<statement>`| The message to the user | `What time?`
-    | `$holder`| [holder 🧠](<../../../Scripts 📃/📃 basics/$Holder 🧠.md>) with the time | `14:23:59` 
+    | `$holder`| [holder 🧠](<../../../Scripts 📃/📃 basics/Holder 🧠.md>) with the time | `14:23:59` 
     
     ---
     <br/>
@@ -34,7 +34,7 @@
 1. **What's an example of a [Chat 💬](<../../../Chats 💬/💬 Chat.md>)?**
 
 
-    Here's the [Script 📃](<../../../Scripts 📃/📃 basics/📃 Script.md>).
+    Here's the [Script 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>).
     
     ```yaml
     TIME|What time? >> $time

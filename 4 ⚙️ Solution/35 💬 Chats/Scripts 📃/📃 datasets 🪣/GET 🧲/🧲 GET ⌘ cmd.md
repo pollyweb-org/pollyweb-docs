@@ -11,7 +11,7 @@
 1. **What's a GET item command?**
 
     A `GET` 🧲
-    * is a [Command ⌘](<../../📃 basics/⌘ Command.md>) 
+    * is a [Command ⌘](<../../📃 basics/Command ⌘.md>) 
     * that retrieves an item by key 🔑
     * from a key-value resource pool 🪣
     * into a [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>) holder.
@@ -44,7 +44,7 @@
     | `Set` | Name of resource pool | `MyPool`
     | `Key`  | Key to look up in the pool | `MyKey` `$key`
     | `Default` | Objet to return if missing | `{A:1, B:2}`
-    | `OnMissing` | [Command ⌘](<../../📃 basics/⌘ Command.md>) or [Script 📃](<../../📃 basics/📃 Script.md>) | `MyScript`
+    | `OnMissing` | [Command ⌘](<../../📃 basics/Command ⌘.md>) or [Script 📃](<../../📃 basics/Script 📃.md>) | `MyScript`
     | `$item` | Item to retrieve | -
 
     ---
@@ -65,7 +65,7 @@
     |Key1|1.A|1.B 
     |Key2|2.A|2.B 
     
-    The following [Script 📃](<../../📃 basics/📃 Script.md>) renders `ℹ️ 2.A` in the [Chat 💬](<../../../Chats 💬/💬 Chat.md>).
+    The following [Script 📃](<../../📃 basics/Script 📃.md>) renders `ℹ️ 2.A` in the [Chat 💬](<../../../Chats 💬/💬 Chat.md>).
 
     ```yaml
     📃 Script:
@@ -95,7 +95,7 @@
     || 🍫 Vending | 😃 A water bottle? [Yes, No]  
     ||
 
-    Here's the [Script 📃](<../../📃 basics/📃 Script.md>)
+    Here's the [Script 📃](<../../📃 basics/Script 📃.md>)
 
     ```yaml
     📃 Script:

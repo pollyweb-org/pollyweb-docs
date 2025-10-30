@@ -8,8 +8,8 @@
 1. **What's a RUN flow?**
 
     A `RUN` ▶️
-    * is a flow [Command ⌘](<../../📃 basics/⌘ Command.md>) 
-    * that runs a  [Script 📃](<../../📃 basics/📃 Script.md>).
+    * is a flow [Command ⌘](<../../📃 basics/Command ⌘.md>) 
+    * that runs a  [Script 📃](<../../📃 basics/Script 📃.md>).
 
     ---
     <br/>
@@ -39,11 +39,11 @@
 
     | Input| Purpose | Example
     |-|-| -
-    | `<script>`| [Script 📃](<../../📃 basics/📃 Script.md>) to run | `MyScript`
+    | `<script>`| [Script 📃](<../../📃 basics/Script 📃.md>) to run | `MyScript`
     | `$arg-n`  | Optional positional arguments | `1,2` `s,$p`
-    |           | Reads `$:n`  inside the [Script 📃](<../../📃 basics/📃 Script.md>) | `$:1` `$:2`
+    |           | Reads `$:n`  inside the [Script 📃](<../../📃 basics/Script 📃.md>) | `$:1` `$:2`
     | `{args}`| Optional object arguments | `{A:1, B:2}`
-    | | Reads `!name` in the [Script 📃](<../../📃 basics/📃 Script.md>) | `$:A` `$:B`|
+    | | Reads `!name` in the [Script 📃](<../../📃 basics/Script 📃.md>) | `$:A` `$:B`|
     | | Also reads with [`{.Inputs}`](<../../📃 holders 🧠/$.Inputs ▶️/▶️ $.Inputs 🧠 holder.md>) | `.Inputs.A`
     | `$return`| Optional [`RETURN`](<../RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) holder | `$return`
     
@@ -60,7 +60,7 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ [Example finished.](<../../../Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
     |
 
-    Here's the [Script 📃](<../../📃 basics/📃 Script.md>).
+    Here's the [Script 📃](<../../📃 basics/Script 📃.md>).
 
     ```yaml
     📃 Example:
@@ -100,7 +100,7 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ Example finished.
     |
     
-    Here's the [Script 📃](<../../📃 basics/📃 Script.md>).
+    Here's the [Script 📃](<../../📃 basics/Script 📃.md>).
     
     ```yaml
     📃 Example:
@@ -145,7 +145,7 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ Example finished.
     |
 
-    Here's the [Script 📃](<../../📃 basics/📃 Script.md>).
+    Here's the [Script 📃](<../../📃 basics/Script 📃.md>).
 
     ```yaml
     📃 Example:
@@ -190,7 +190,7 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) |  ✅ Congrats, you won!
     |
     
-    Here's the [Script 📃](<../../📃 basics/📃 Script.md>).
+    Here's the [Script 📃](<../../📃 basics/Script 📃.md>).
 
     ```yaml
     📃 Example:
@@ -234,7 +234,7 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) |  ✅ [The second result is 9.](<../../../Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
     |
     
-    Here's the [Script 📃](<../../📃 basics/📃 Script.md>)
+    Here's the [Script 📃](<../../📃 basics/Script 📃.md>)
 
     ```yaml
     📃 Example:
@@ -271,15 +271,15 @@
 
     > Used in the [`SAVE` 📃 script](<../../📃 datasets 🪣/SAVE 💾/💾 SAVE 📃 script.md>)
 
-    It depends if the current value of the input contains the name of a [Holder 🧠](<../../📃 basics/$Holder 🧠.md>).
+    It depends if the current value of the input contains the name of a [Holder 🧠](<../../📃 basics/Holder 🧠.md>).
 
     |Scenario | Result 
     |-|-
-    | [Holders 🧠](<../../📃 basics/$Holder 🧠.md>) | Fills the [Holder 🧠](<../../📃 basics/$Holder 🧠.md>) 
+    | [Holders 🧠](<../../📃 basics/Holder 🧠.md>) | Fills the [Holder 🧠](<../../📃 basics/Holder 🧠.md>) 
     | Anything else | Throws an error
     |
 
-    Here's a [Script 📃](<../../📃 basics/📃 Script.md>).
+    Here's a [Script 📃](<../../📃 basics/Script 📃.md>).
     ```yaml
     📃 Example:
 

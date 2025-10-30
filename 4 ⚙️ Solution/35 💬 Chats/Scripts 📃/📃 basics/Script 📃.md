@@ -9,7 +9,7 @@
     A [Script 📃]() 
     [Talkers 😃](<../../Talkers 😃/😃 Talker role.md>) 
     
-    * is a set of [Commands ⌘](<⌘ Command.md>) 
+    * is a set of [Commands ⌘](<Command ⌘.md>) 
     * specified in a [static YAML 📄](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Static YAML 📄.md>) resource
     * referencing [{Functions} 🐍](<../📃 functions 🐍/{Function} 🐍.md>) evaluated by [Hosted 📦 domains](<../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>)
     * and implemented by [Hoster ☁️ helper domains](<../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>).
@@ -28,9 +28,9 @@
 
     | Input| Purpose
     |-|-
-    | `📃 <script>` | The name of the [Script 📃](<📃 Script.md>).
+    | `📃 <script>` | The name of the [Script 📃](<Script 📃.md>).
     |            | The 📃 emoji is optional, and will be ignored.
-    | `<command-n>` | A [Command ⌘](<⌘ Command.md>)  to be executed.
+    | `<command-n>` | A [Command ⌘](<Command ⌘.md>)  to be executed.
     
     ```yaml
     📃 TestScript:
@@ -46,10 +46,10 @@
 
     |Context|Syntax
     |-|-
-    |▶️ [`RUN`](<../📃 control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)| Calls a [Script 📃](<📃 Script.md>) by name, then returns.
-    |⤵️ [`IF`](<../📃 control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) | Runs [Scripts 📃](<📃 Script.md>) for `True` and `False` evaluations.
-    | ⏯️️ [`CASE`](<../📃 control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | Runs [Scripts 📃](<📃 Script.md>) for matching evaluations.
-    | 🧘 [`WAIT`](<../📃 control ▶️/WAIT 🧘/🧘 WAIT ⌘ cmd.md>) | Runs [Scripts 📃](<📃 Script.md>) on signalled and timed out.
+    |▶️ [`RUN`](<../📃 control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)| Calls a [Script 📃](<Script 📃.md>) by name, then returns.
+    |⤵️ [`IF`](<../📃 control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) | Runs [Scripts 📃](<Script 📃.md>) for `True` and `False` evaluations.
+    | ⏯️️ [`CASE`](<../📃 control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | Runs [Scripts 📃](<Script 📃.md>) for matching evaluations.
+    | 🧘 [`WAIT`](<../📃 control ▶️/WAIT 🧘/🧘 WAIT ⌘ cmd.md>) | Runs [Scripts 📃](<Script 📃.md>) on signalled and timed out.
 
     ---
     <br/>
