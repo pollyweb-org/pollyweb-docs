@@ -11,7 +11,7 @@ end box
 
 
 activate script
-    script -> hook: HOOK {hook}
+    script -> hook: HOOK 🪝 {hook}
 
     activate hook
         hook -> hooks: SAVE 💾 {hook, $.Script, $.Holders.Holder}
