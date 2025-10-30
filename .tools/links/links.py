@@ -43,7 +43,9 @@ from link_replacements import (
 from link_replacements.tokens import HARDCODED_HANDLERS
 
 HARDCODED_FILE_ALIASES: dict[str, list[str]] = {
-    "📃 Script.md": ["Script 📃.md"],
+    # Prefer the YAML-canonical form on the left; accept the older emoji-prefixed
+    # variant as an alias for backward compatibility.
+    "Script 📃.md": ["📃 Script.md"],
 }
 
 yes_memory = []
