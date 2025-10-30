@@ -12,21 +12,27 @@ end box
 
 activate script
     script -> hook: HOOK 🪝 {hook}
+deactivate script
 
+activate hook
+    hook -> hooks: SAVE 💾 {hook, $.Script, $.Holders.Holder}
+
+    hook -> hook: PARALLEL {$.Holders}
     activate hook
-        hook -> hooks: SAVE 💾 {hook, $.Script, $.Holders.Holder}
-
-        hook -> hook: PARALLEL {$.Holders}
-        activate hook
-            hook -> holders: SAVE 💾 {hook, holder, value}
-        deactivate hook
-
-        hook -> script: RETURN { }
+        hook -> holders: SAVE 💾 {hook, holder, value}
     deactivate hook
+
 
     engine <--  : REEL 🎣 {hook, return}
     activate engine
-        script <- engine : RETURN {return}
-    deactivate engine
+
+
+    hook -> script: RETURN { }
+deactivate hook
+
+activate script
+    script <- engine : RETURN {return}
+
+deactivate engine
 
 @enduml
