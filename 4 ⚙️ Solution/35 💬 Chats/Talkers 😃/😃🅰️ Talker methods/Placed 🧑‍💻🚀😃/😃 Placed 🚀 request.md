@@ -6,7 +6,7 @@
 * Implemented by the [`Placed` 📃 handler](<😃 Placed 📃 handler.md>)
 
 > Flow
-* Part of [Handle @ Talker 😃⏩🧑‍💻](<../../😃⏩ Talker flows/Eval Functions 😃⏩📦/😃 Eval ⏩ flow.md>) flow
+* Part of [Handle @ Talker 😃⏩🧑‍💻](<../../😃⏩ Talker flows/Run Sync Functions 😃⏩📦/😃 Eval ⏩ flow.md>) flow
 * Paired with [`Place@Talker`](<../Place 🧑‍💻🚀😃/😃 Place 🚀 request.md>) message
 
 > Purpose

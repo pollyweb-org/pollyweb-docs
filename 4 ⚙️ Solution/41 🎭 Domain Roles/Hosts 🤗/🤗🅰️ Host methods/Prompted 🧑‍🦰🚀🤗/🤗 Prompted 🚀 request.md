@@ -1,7 +1,7 @@
 # 🧑‍🦰🚀🤗 Prompted @ Host
 
 > Implementation
-* Prepared by the [`Prompt` 📃 script](<../../../../35 💬 Chats/Talkers 😃/😃⏩ Talker flows/Prompts 😃⏩🧑‍🦰/😃 Prompts 📃 script.md>)
+* Prepared by the [`Prompt` 📃 script](<../../../../35 💬 Chats/Talkers 😃/😃⏩ Talker flows/Send Prompts 😃⏩🧑‍🦰/😃 Prompts 📃 script.md>)
 * Implemented by the [`Prompted` 📃 handler](<🤗 Prompted 📃 handler.md>)
 
 > Flow
