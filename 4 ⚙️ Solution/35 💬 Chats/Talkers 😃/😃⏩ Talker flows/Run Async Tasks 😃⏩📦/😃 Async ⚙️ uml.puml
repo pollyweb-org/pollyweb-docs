@@ -1,44 +1,49 @@
 @startuml Wait
 
 participant "User 🧑" as user
-box Business #FFFFFA
+
+box Talker 😃 domain #FFFFFA
     'participant "Host 🤗\nrole API" as host
     participant "Script 📃" as script
-    participant "Talker 😃" as talker
-    participant "Hosted 📦" as hosted
+    participant "Engine ⚙️" as engine
+    participant "Inbox 📨" as inbox
 end box
+participant "Hosted 📦" as hosted
 
-script -> talker: ASYNC 👷🏼
+script -> engine: ASYNC 👷🏼
 activate script
-activate talker
-
-talker --> hosted:  Handle 🐌 {task, hook}
-activate hosted
-talker -> script: {hook}
-deactivate talker
+activate engine
+    engine --> hosted:  Handle 🐌 {task, hook}
+    activate hosted
+    engine -> script: {hook}
+deactivate engine
 
 script --> user: ⏪ TEMP ⏳ {started}
 
-script --> talker: WAIT 🧘 {hook}
+script -> engine: WAIT 🧘 {hook}
 deactivate script
 
-hosted --> talker: Handled 🐌 {hook, partial}
-activate talker
-    talker --> script: REEL 🎣 {hook}
-deactivate talker
+hosted --> inbox: Handled 🐌 {hook, partial}
+activate inbox
+    inbox -> script: REEL 🎣 {hook}
+deactivate inbox
 
 activate script
     script --> user: ⏪ TEMP ⏳ {running...}
-    script --> talker: REPEAT 🔁 
-    script --> talker: WAIT 🧘 {hook}
+    script -> engine: REPEAT 🔁 
+    script -> engine: WAIT 🧘 {hook}
 deactivate script
     
-    hosted --> talker: Handled 🐌 {hook, done}
+    hosted --> inbox: Handled 🐌 {hook, done}
 deactivate hosted
 
-activate talker
-    talker --> script: REEL 🎣 {hook}
-deactivate talker
+activate inbox
+    inbox -> engine: REEL 🎣 {hook}
+deactivate inbox
+
+activate engine
+    engine -> script
+deactivate engine
 
 activate script 
     script --> user: ⏪ SUCCESS ✅ {done!}

@@ -3,18 +3,18 @@
 participant "Hosted 📦" as hosted
 
 box Talker 😃️ domain #FFFFFA
-    participant "API 📨" as talker
+    participant "Inbox 📨" as inbox
     participant "Holders 🪣" as holders
 end box
 
 
 activate hosted
-    hosted -> talker: Placed 🚀 {$p}
+    hosted -> inbox: Placed 🚀 {$p}
 
-    activate talker
-        talker -> holders: GET {chat, $p}
-        talker -> hosted: RETURN {value}
-    deactivate talker
+    activate inbox
+        inbox -> holders: GET {chat, $p}
+        inbox -> hosted: RETURN {value}
+    deactivate inbox
 
 deactivate hosted
 

@@ -1,0 +1,78 @@
+@startuml Handle
+
+box Talker 😃 domain #FFFFFA
+    participant "Script 📃" as script
+    participant ".EVAL 📃" as talker
+    participant "Holders 🪣" as holders
+    participant "Handler 📃" as handler
+end box
+
+participant "Hosted 📦" as hosted
+
+
+activate script
+
+    group Store 1 into memory $A
+        script -> talker: EVAL {1 into $A} 
+        activate talker
+            talker -> talker: MEM 🧠 {A:1}
+        deactivate talker
+    end group
+
+    script -> talker: EVAL {function} 
+deactivate script
+
+activate talker
+
+    group Dump the memory to the database
+        talker -> holders: SAVE 💾 {A:1}
+        talker -> talker: HOOK {hook} 
+    end group
+    
+    talker --> hosted: Handle 🐌 {function, hook}
+activate hosted
+    talker -> talker: WAIT 🧘 {hook}
+deactivate talker
+          
+    hosted -> handler: Placed 🚀 {$A}
+
+    activate handler
+        handler -> holders: GET 🧲 {A}
+        handler -> hosted: {X}
+    deactivate handler
+
+    hosted -> handler: Place 🚀 {2 into $B}
+    activate handler
+        handler -> holders: SAVE 💾 {B:2}
+        handler -> hosted:
+    deactivate handler
+
+    hosted --> handler: Handled 🐌 {hook, 3}
+deactivate hosted
+
+activate handler
+    handler -> talker: REEL 🎣 {hook, 3}
+deactivate handler
+
+activate talker
+    group Load into memory
+        talker -> holders: GET 🧲 {A, B}
+        talker -> talker: MEM 🧠 {A:1, B:2}
+    end group
+    talker -> script: RETURN {3}
+deactivate talker
+
+activate script
+
+group Evaluate $B from memory
+        script -> talker: EVAL {$B}
+    activate talker
+        talker -> talker: MEM 🧠 {A}
+        talker -> script: {2}
+    deactivate talker
+end group
+
+deactivate script
+
+
+@enduml
