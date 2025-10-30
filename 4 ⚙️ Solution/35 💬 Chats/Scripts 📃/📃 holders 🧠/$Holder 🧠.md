@@ -60,7 +60,7 @@
     * If a holder object `$p` has a `.$` property, 
     * then reading `$p` is the same as reading `$p.$`.
 
-    Here's a [Script 📃](<../📃 commands ⌘/Script 📃/📃 Script.md>).
+    Here's a [Script 📃](<../📃 basics/📃 Script.md>).
     ```yaml
     📃 Example: 
 
@@ -82,7 +82,7 @@
 
     To loop a list holder called $list use [`PARALLEL`](<../📃 control ▶️/PARALLEL *️⃣/*️⃣ PARALLEL ⌘ cmd.md>).
     
-    Here's a [Script 📃](<../📃 commands ⌘/Script 📃/📃 Script.md>).
+    Here's a [Script 📃](<../📃 basics/📃 Script.md>).
     ```yaml
     📃 Example: 
     
@@ -102,7 +102,7 @@
 
     Use the [`{.Size} function`](<../📃 functions 🐍/🔩 {.Size}.md>) with `$p.Length()` or `$p.Size()`.
 
-    Here's a [Script 📃](<../📃 commands ⌘/Script 📃/📃 Script.md>).
+    Here's a [Script 📃](<../📃 basics/📃 Script.md>).
     ```yaml
     📃 Example: 
 
@@ -122,7 +122,7 @@
     
     Lists of properties allow for grouping properties into lists of values.
     
-    Here's a [Script 📃](<../📃 commands ⌘/Script 📃/📃 Script.md>).
+    Here's a [Script 📃](<../📃 basics/📃 Script.md>).
     ```yaml
     📃 Example: 
 
@@ -179,7 +179,7 @@
 
     Use [`EVAL`](<EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>).
 
-    Here's a [Script 📃](<../📃 commands ⌘/Script 📃/📃 Script.md>).
+    Here's a [Script 📃](<../📃 basics/📃 Script.md>).
     ```yaml
     📃 Example:
 

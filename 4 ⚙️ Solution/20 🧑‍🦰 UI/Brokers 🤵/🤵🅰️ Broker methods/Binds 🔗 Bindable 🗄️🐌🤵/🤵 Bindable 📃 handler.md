@@ -72,5 +72,5 @@ Needs ||
 | [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/📃 holders 🧠/$Holder 🧠.md>) | [`$.Msg`](<../../../../35 💬 Chats/Scripts 📃/📃 holders 🧠/$.Msg 📨/📨 $.Msg 🧠 holder.md>)
 | [{Functions} 🐍](<../../../../35 💬 Chats/Scripts 📃/📃 functions 🐍/{Function} 🐍.md>) | [`{.Diff}`](<../../../../35 💬 Chats/Scripts 📃/📃 functions 🐍/🔩 {.Diff}.md>)
 | [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Bound@Vault` 🅰️ method](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
-| [Scripts 📃](<../../../../35 💬 Chats/Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>) | [`CreateBinds` 📃](<🤵 Bindable 📃 part 2.md>)
+| [Scripts 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/📃 Script.md>) | [`CreateBinds` 📃](<🤵 Bindable 📃 part 2.md>)
 |

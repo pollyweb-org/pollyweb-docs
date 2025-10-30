@@ -25,8 +25,8 @@
     Inputs | Purpose | Examples
     |-|-|-
     | `$when` | When to trigger the alarm | `2023-04-01` `1 day`
-    | `<script>`| [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>) to call | `MyHandler`
-    | `{params}` | [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>) input parameters  | `{A:1, B:2}`
+    | `<script>`| [Script 📃](<../../📃 basics/📃 Script.md>) to call | `MyHandler`
+    | `{params}` | [Script 📃](<../../📃 basics/📃 Script.md>) input parameters  | `{A:1, B:2}`
 
     ---
     <br/>

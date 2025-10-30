@@ -2,7 +2,7 @@
 
 > Purpose
 
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>) that implements the [`Consume@Consumer` 🅰️ method](<💼 Consume 🐌 msg.md>).
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/📃 Script.md>) that implements the [`Consume@Consumer` 🅰️ method](<💼 Consume 🐌 msg.md>).
 
 ## Flow
 

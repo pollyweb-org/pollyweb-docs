@@ -9,7 +9,7 @@
 
     An `IF` ⤵️
     * is a flow [Command ⌘](<../../📃 basics/⌘ Command.md>)  
-    * that runs a [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>) or [Command ⌘](<../../📃 basics/⌘ Command.md>)
+    * that runs a [Script 📃](<../../📃 basics/📃 Script.md>) or [Command ⌘](<../../📃 basics/⌘ Command.md>)
     * based on the evaluation of a holder or [{Function}](<../../📃 functions 🐍/{Function} 🐍.md>).
 
     ---
@@ -90,8 +90,8 @@
 
     | Input| Purpose
     |-|-
-    | `<true-action>` | [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>) or one-lin⌘ [Command ⌘](<../../📃 basics/⌘ Command.md>) on `True`
-    | `<false-action>`| [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>) or one-line [Command ⌘](<../../📃 basics/⌘ Command.md>) on `False`
+    | `<true-action>` | [Script 📃](<../../📃 basics/📃 Script.md>) or one-lin⌘ [Command ⌘](<../../📃 basics/⌘ Command.md>) on `True`
+    | `<false-action>`| [Script 📃](<../../📃 basics/📃 Script.md>) or one-line [Command ⌘](<../../📃 basics/⌘ Command.md>) on `False`
 
     ---
     <br/>

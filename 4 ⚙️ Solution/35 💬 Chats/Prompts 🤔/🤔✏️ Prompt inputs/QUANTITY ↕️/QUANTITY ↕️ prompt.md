@@ -87,7 +87,7 @@
     
     <br/>
 
-    Here's the [Script 📃](<../../../Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../../Scripts 📃/📃 basics/📃 Script.md>).
     
     ```yaml
     # 😃 Talker 
@@ -136,7 +136,7 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ⏳ Checking availability... 
     |
 
-    Here's the [Script 📃](<../../../Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../../Scripts 📃/📃 basics/📃 Script.md>).
 
     ```yaml
     # 😃 Talker 
@@ -193,7 +193,7 @@
 
     <br/>
 
-    Here's the [Script 📃](<../../../Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../../Scripts 📃/📃 basics/📃 Script.md>).
     
     ```yaml
     # 😃 Talker 
@@ -244,7 +244,7 @@
 
     <br/>
 
-    Here's the [Script 📃](<../../../Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../../Scripts 📃/📃 basics/📃 Script.md>).
         
     ```yaml
     # 😃 Talker 

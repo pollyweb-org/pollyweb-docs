@@ -2,7 +2,7 @@
 
 > From [🏪 Drink at vending machines](<01 🏪 Index.md>)
 
-> [Script 📃](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>) for:
+> [Script 📃](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 basics/📃 Script.md>) for:
   * [Buy water 💧 ](<11 💧 Buy water.md>)
   * [Buy beer 🍺 ](<12 🍺 Buy beer.md>)
 

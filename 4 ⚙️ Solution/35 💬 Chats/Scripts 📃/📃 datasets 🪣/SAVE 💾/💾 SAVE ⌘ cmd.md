@@ -148,7 +148,7 @@
 
 1. **How to save with reference data?**
 
-    Here's a example [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>).
+    Here's a example [Script 📃](<../../📃 basics/📃 Script.md>).
 
     ```yaml
     📃 Example:

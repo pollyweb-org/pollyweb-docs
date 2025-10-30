@@ -128,7 +128,7 @@
    
     <br/>
 
-    Here's the [Script 📃](<../../../Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../../Scripts 📃/📃 basics/📃 Script.md>).
     
     ```yaml
     📃 Example:
@@ -169,7 +169,7 @@
 
     <br/>
    
-    Here's the [Script 📃](<../../../Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../../Scripts 📃/📃 basics/📃 Script.md>).
     
     ```yaml
     # Explicit, not recommended, just for the exercise.
@@ -235,7 +235,7 @@
    
     <br/>
 
-    Here's the [Script 📃](<../../../Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../../Scripts 📃/📃 basics/📃 Script.md>).
     
     ```yaml
     # Explicit, not recommended, just for the exercise.

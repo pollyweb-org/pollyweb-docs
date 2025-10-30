@@ -2,7 +2,7 @@
 
 > Purpose
 
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>) that implements the [`Context@Consumer` 🅰️ method](<💼 Context 🚀 request.md>)
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/📃 Script.md>) that implements the [`Context@Consumer` 🅰️ method](<💼 Context 🚀 request.md>)
 
 ## Flow
 

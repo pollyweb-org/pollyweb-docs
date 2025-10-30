@@ -45,7 +45,7 @@
 
     <br/>
     
-    Here's the [Script 📃](<../📃 commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../📃 basics/📃 Script.md>).
         
     ```yaml
     # 😃 Talker 

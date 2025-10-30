@@ -8,7 +8,7 @@
 
 
 > Purpose
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>) that implements the [`Collect@Vault` 🅰️ method](<🗄️ Collect 🚀 request.md>)
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/📃 Script.md>) that implements the [`Collect@Vault` 🅰️ method](<🗄️ Collect 🚀 request.md>)
 
 <br/>
 

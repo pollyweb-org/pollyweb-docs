@@ -2,7 +2,7 @@
 
 > Purpose
 
-* [`Script`](<../../../../35 💬 Chats/Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>) that implements the [`Receive@Consumer` 🅰️ method](<💼 Receive 🐌 msg.md>)
+* [`Script`](<../../../../35 💬 Chats/Scripts 📃/📃 basics/📃 Script.md>) that implements the [`Receive@Consumer` 🅰️ method](<💼 Receive 🐌 msg.md>)
 
 <br/>
 

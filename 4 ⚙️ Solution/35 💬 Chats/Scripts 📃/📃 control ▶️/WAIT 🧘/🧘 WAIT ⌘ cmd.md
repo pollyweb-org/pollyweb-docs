@@ -88,7 +88,7 @@
     | 🍕 Pizza | ✅ Order ready!
     |
 
-    Here's the [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../📃 basics/📃 Script.md>).
 
     ```yaml
     💬 Test:
@@ -142,7 +142,7 @@
     | 🏦 Bank | 💬 What do you need? | `I need...`
     |
 
-    Here's the [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../📃 basics/📃 Script.md>).
 
     ```yaml
     💬 Check-in:

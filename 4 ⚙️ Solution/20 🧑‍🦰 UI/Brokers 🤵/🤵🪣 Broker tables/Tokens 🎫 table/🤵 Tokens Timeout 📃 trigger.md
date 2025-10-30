@@ -2,7 +2,7 @@
 
 > Purpose: 
 
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>) to execute when a soft delete of [`Tokens` 🪣 table](<🤵 Tokens 🪣 table.md>) times out.
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/📃 Script.md>) to execute when a soft delete of [`Tokens` 🪣 table](<🤵 Tokens 🪣 table.md>) times out.
 * Triggered by the [`Triggered@Talker` 🅰️ method](<../../../../45 🤲 Helper domains/Itemizers 🛢/🛢🔔 Itemizer events/🛢🔔 Triggered.md>)
 
 ## How to call

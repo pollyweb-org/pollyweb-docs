@@ -2,7 +2,7 @@
 
 # 🤵📃 Offer
 
-> [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>) that implements the [`Offer@Broker` 🅰️ method](<🤵 Offer 🐌 msg.md>)
+> [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/📃 Script.md>) that implements the [`Offer@Broker` 🅰️ method](<🤵 Offer 🐌 msg.md>)
 
 > Part of the [`Save Token` 👉 flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save token ⏩ flow.md>).
 > 
@@ -79,5 +79,5 @@ Needs||
 | [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Domain`](<../../🤵🪣 Broker tables/Domains 👥 table/🤵 BrokerDomains 🪣 table.md>) [`Tokens`](<../../🤵🪣 Broker tables/Tokens 🎫 table/🤵 Tokens 🪣 table.md>)
 | [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>)
 | [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/📃 holders 🧠/$Holder 🧠.md>) | [`$.Msg`](<../../../../35 💬 Chats/Scripts 📃/📃 holders 🧠/$.Msg 📨/📨 $.Msg 🧠 holder.md>) [`$.Hosted`](<../../../../35 💬 Chats/Scripts 📃/📃 holders 🧠/$.Hosted 📦/📦 $.Hosted 🧠 holder.md>)
-| [Scripts 📃](<../../../../35 💬 Chats/Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>) | [`Update Domains` 📃 script](<../../🤵🪣 Broker tables/Domains 👥 table/🤵 Update Domains 📃 script.md>)
+| [Scripts 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/📃 Script.md>) | [`Update Domains` 📃 script](<../../🤵🪣 Broker tables/Domains 👥 table/🤵 Update Domains 📃 script.md>)
 |

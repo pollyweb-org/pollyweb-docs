@@ -83,7 +83,7 @@
 
 1. **How to use the context?**
 
-    Here's a [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>)
+    Here's a [Script 📃](<../../📃 basics/📃 Script.md>)
     ```yaml
     📃 Example:
     

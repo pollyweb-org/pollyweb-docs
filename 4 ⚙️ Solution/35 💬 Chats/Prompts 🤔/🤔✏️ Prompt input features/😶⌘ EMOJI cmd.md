@@ -39,7 +39,7 @@
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😶 Still neutral? [Yes, No] | > Yes
     |
 
-    Here's the [Script 📃](<../../Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../Scripts 📃/📃 basics/📃 Script.md>).
 
     ```yaml
     # 😃 Talker
