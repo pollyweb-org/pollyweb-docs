@@ -39,6 +39,26 @@ Failed Tests:
 
 Successful Tests:
 
+  - Given: "{{Async Messages}}"
+    LinkText: "Async Messages 🐌"
+    LinkFile: "Async Messages 🐌.md"
+    Reasons: This is hardcoded.
+
+  - Given: "{{Async Message}}"
+    LinkText: "Async Message 🐌"
+    LinkFile: "Async Messages 🐌.md"
+    Reasons: This is hardcoded.
+
+  - Given: "{{Sync Request}}"
+    LinkText: "Sync Request 🚀"
+    LinkFile: "Sync Requests 🚀.md"
+    Reasons: This is hardcoded.
+
+  - Given: "{{Sync Requests}}"
+    LinkText: "Sync Requests 🚀"
+    LinkFile: "Sync Requests 🚀.md"
+    Reasons: This is hardcoded.
+
   - Given: "{{Hoster}}"
     LinkText: "Hoster ☁️ helper domain"
     LinkFile: "☁️🤲 Hoster helper.md"

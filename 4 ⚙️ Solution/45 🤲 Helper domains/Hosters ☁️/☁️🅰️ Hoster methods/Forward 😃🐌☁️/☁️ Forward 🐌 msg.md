@@ -4,7 +4,7 @@
 
 > Purpose
 * A [Hoster ☁️ helper domain](<../../☁️🤲 Hoster helper.md>) 
-    * forwards an async [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>)
+    * forwards [`Async Messages`](<../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Async Messages 🐌.md>)
     * from a [Talker 😃 helper domain](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>).
 
 <br/>

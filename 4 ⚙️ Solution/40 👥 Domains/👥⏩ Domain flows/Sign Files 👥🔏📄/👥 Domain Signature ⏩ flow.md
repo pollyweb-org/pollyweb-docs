@@ -19,7 +19,7 @@
 
 1. **How does it work**?
 
-    ![](<👥 Domain Signature.png>)
+    ![](<👥 Domain Signature ⚙️ uml.png>)
 
     |#| Step | Details
     |-|-|-
