@@ -37,7 +37,7 @@
     ---
     <br/>
 
-1. **What's the syntax of AMOUNT in a [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>)?**
+1. **What's the syntax of AMOUNT in a [Script 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>)?**
 
     ```yaml
     # Simplest.

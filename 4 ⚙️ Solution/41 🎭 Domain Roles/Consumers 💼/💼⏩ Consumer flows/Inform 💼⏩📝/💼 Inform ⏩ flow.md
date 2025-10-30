@@ -24,7 +24,7 @@
 
 <br/>
 
-Here's the [Talker 😃](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>).
+Here's the [`Script`](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>).
 
 ```yaml
 # Talker

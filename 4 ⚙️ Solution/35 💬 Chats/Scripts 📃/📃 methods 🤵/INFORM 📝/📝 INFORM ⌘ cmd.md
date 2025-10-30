@@ -1,7 +1,7 @@
 # 😃📝 Talker `INFORM` command
 
 > Implementation 
- * Part of [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>)
+ * Part of [Script 📃](<../../📃 basics/Script 📃.md>)
  * Implemented by the [`INFORM` 📃 script](<📝 INFORM 📃 script.md>)
 
 > Purpose

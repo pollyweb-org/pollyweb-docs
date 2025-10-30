@@ -40,7 +40,7 @@
 
 1. **What's an example of SEND?**
 
-    Consider the following a [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>).
+    Consider the following [Script 📃](<../../📃 basics/Script 📃.md>).
 
     ```yaml
     - SEND:

@@ -30,7 +30,7 @@
 
 
 
-1. **What's the syntax on a [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>)?**
+1. **What's the syntax on a [Script 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>)?**
 
     ```yaml
     # Simplest.

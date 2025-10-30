@@ -7,7 +7,6 @@
 1. **What's a Talker Script?**
 
     A [Script 📃]() 
-    [Talkers 😃](<../../Talkers 😃/😃🤲 Talker helper.md>) 
     
     * is a set of [Commands ⌘](<Command ⌘.md>) 
     * specified in a [static YAML 📄](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Static YAML 📄.md>) resource
