@@ -1,0 +1,28 @@
+@startuml Forward@Hoster
+
+box Talker 😃 domain #FFFFFA
+    participant "Script 📃" as script
+    participant "Engine ⚙️" as engine
+end box
+
+participant "Hoster ☁️" as hoster
+participant "Domain 👥" as domain
+
+activate script
+    script -> engine: SEND {msg}
+deactivate script
+
+activate engine
+    engine --> hoster: Forward 🐌 {msg}
+    activate hoster
+    engine -> script: 
+deactivate engine
+
+activate script
+    hoster -> hoster: sign 🔐
+    hoster --> domain: HTTP post 📨 {signed}
+deactivate hoster
+
+activate domain
+
+@enduml
