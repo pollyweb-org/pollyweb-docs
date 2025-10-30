@@ -19,10 +19,10 @@
 
     | Holder 🧠 | Details
     |-|-
-    | [`$.Chat`](<$.Chat 💬/💬 $.Chat 🧠 holder.md>) | Contains the details of the current  [Chat 💬](<../../Chats 💬/💬 Chat.md>) 
-    | [`$.Inputs`](<$.Inputs ▶️/▶️ $.Inputs 🧠 holder.md>) | Contains the inputs of the current [`RUN` command](<../📃 control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>) 
-    | [`$.Msg`](<$.Msg 📨/📨 $.Msg 🧠 holder.md>) | Contains the properties of the current [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message.md>)
-    | [`$.Hosted`](<$.Hosted 📦/📦 $.Hosted 🧠 holder.md>) | Contains the settings of the [Hosted 📦 domain](<../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>)
+    | [`$.Chat`](<../📃 holders 🧠/$.Chat 💬/💬 $.Chat 🧠 holder.md>) | Contains the details of the current  [Chat 💬](<../../Chats 💬/💬 Chat.md>) 
+    | [`$.Inputs`](<../📃 holders 🧠/$.Inputs ▶️/▶️ $.Inputs 🧠 holder.md>) | Contains the inputs of the current [`RUN` command](<../📃 control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>) 
+    | [`$.Msg`](<../📃 holders 🧠/$.Msg 📨/📨 $.Msg 🧠 holder.md>) | Contains the properties of the current [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message.md>)
+    | [`$.Hosted`](<../📃 holders 🧠/$.Hosted 📦/📦 $.Hosted 🧠 holder.md>) | Contains the settings of the [Hosted 📦 domain](<../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>)
 
     ---
     <br/>
@@ -72,7 +72,7 @@
     - INFO|$p.A.  # show 10
     - INFO|$p     # show 30
     ```
-    Commands: [`EVAL`](<EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`INFO`](<../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
+    Commands: [`EVAL`](<../📃 holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`INFO`](<../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
 
     ---
     <br/>
@@ -93,7 +93,7 @@
     - PARALLEL|$list|$number:
         - INFO|$number
     ```
-    Commands: [`EVAL`](<EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`INFO`](<../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`PARALLEL`](<../📃 control ▶️/PARALLEL *️⃣/*️⃣ PARALLEL ⌘ cmd.md>)
+    Commands: [`EVAL`](<../📃 holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`INFO`](<../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`PARALLEL`](<../📃 control ▶️/PARALLEL *️⃣/*️⃣ PARALLEL ⌘ cmd.md>)
 
     ---
     <br/>
@@ -113,7 +113,7 @@
     - INFO|$list.Length() # Shows 3
     - INFO|$list.Size() # Shows 3
     ```
-    Commands: [`EVAL`](<EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`INFO`](<../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
+    Commands: [`EVAL`](<../📃 holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`INFO`](<../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
 
     ---
     <br/>
@@ -132,7 +132,7 @@
     # Show the list of values in property A
     - INFO|$list.A   # Shows [1,2]
     ```
-    Commands: [`EVAL`](<EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`INFO`](<../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
+    Commands: [`EVAL`](<../📃 holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`INFO`](<../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
 
     ---
     <br/>
@@ -146,7 +146,7 @@
     * `TEXT|bla >> $p` writes the answer to a [`TEXT` 🔠 input](<../../Prompts 🤔/🤔✏️ Prompt inputs/TEXT 🔠/TEXT 🔠 prompt.md>).
     * `EVAL|f >> $p` writes the return of a [{Function}](<../📃 functions 🐍/{Function} 🐍.md>) named `f`.
 
-    You can also push data structures with [`EVAL` ⬇️](<EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>).
+    You can also push data structures with [`EVAL` ⬇️](<../📃 holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>).
     
     ```yaml
     EVAL >> $p:   # Write values
@@ -177,7 +177,7 @@
 
 1. **How to change the properties of an object holder?**
 
-    Use [`EVAL`](<EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>).
+    Use [`EVAL`](<../📃 holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>).
 
     Here's a [Script 📃](<../📃 basics/📃 Script.md>).
     ```yaml
@@ -230,7 +230,7 @@
     # This shows: 
     #    The value of p is 123
     ```
-    Commands: [`EVAL`](<EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`INFO`](<../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
+    Commands: [`EVAL`](<../📃 holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`INFO`](<../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
 
     ---
     <br/>

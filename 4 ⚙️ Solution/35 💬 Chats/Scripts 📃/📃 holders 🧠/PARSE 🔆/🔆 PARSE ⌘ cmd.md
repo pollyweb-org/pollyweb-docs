@@ -24,7 +24,7 @@
 
     | Inputs | Purpose
     |-|-
-    | `$locator` | [Holder 🧠](<../$Holder 🧠.md>) with the [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to parse.
+    | `$locator` | [Holder 🧠](<../../📃 basics/$Holder 🧠.md>) with the [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to parse.
 
     ---
     <br/>
