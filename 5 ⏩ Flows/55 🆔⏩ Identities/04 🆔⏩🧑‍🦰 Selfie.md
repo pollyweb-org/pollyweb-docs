@@ -21,7 +21,7 @@ Consider the following [Chat 💬](<../../4 ⚙️ Solution/35 💬 Chats/Chats 
 
 ## 😃 Talker 
 
-The associated {{Script}} would be the following.
+The associated [Script 📃](<../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) would be the following.
 
 ```yaml
 - CONFIRM|Start risky task?

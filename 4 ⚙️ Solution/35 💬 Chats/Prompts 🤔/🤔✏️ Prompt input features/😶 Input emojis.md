@@ -2,7 +2,7 @@
 
 > Part of [✏️ Input prompts](<../🤔⚙️ Prompt features/9 ✏️ as Input.md>)
 
-> Implemented by the [`PromptEmoji` 📃 script](<../../Talkers 😃/😃⏩ Talker flows/Prompts 😃⏩🧑‍🦰/😃 Prompts 📃 emoji.md>)
+> Implemented by the [`PromptEmoji` 📃 script](<../../Talkers 😃/😃⏩ Talker flows/Send Prompts 😃⏩🧑‍🦰/😃 Prompts 📃 emoji.md>)
 
 
 ## FAQ

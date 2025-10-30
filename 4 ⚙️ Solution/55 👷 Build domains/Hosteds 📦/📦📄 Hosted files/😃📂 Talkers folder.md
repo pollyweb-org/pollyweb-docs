@@ -17,7 +17,7 @@
 
 1. **Where do they reside?**
 
-    The {{Script}} files reside under the `Scripts/` folder.
+    The [Script 📃](<../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) files reside under the `Scripts/` folder.
 
     ```yaml
     😃 Scripts/ # Tree of talkers
