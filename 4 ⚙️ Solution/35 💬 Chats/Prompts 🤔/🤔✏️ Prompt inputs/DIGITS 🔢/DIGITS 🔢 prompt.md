@@ -50,7 +50,7 @@
     | Input| Purpose 
     |-|-
     | `<statement>`| Message to show to the user
-    | `$holder`| Optional [holder 🧠](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>) with the user's answer
+    | `$holder`| Optional [holder 🧠](<../../../Scripts 📃/...holders 🧠/$Holder 🧠.md>) with the user's answer
     
 
     ```yaml

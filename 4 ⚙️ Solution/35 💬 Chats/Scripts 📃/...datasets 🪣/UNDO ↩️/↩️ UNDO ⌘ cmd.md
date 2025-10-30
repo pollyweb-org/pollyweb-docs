@@ -29,7 +29,7 @@
 
     | Input| Purpose 
     |-|-
-    | `$deleted`| [Holder 🧠](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>) returned by [`DELETE`](<../DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>)
+    | `$deleted`| [Holder 🧠](<../../...holders 🧠/$Holder 🧠.md>) returned by [`DELETE`](<../DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>)
 
     ---
     <br/>

@@ -66,8 +66,8 @@
 
 Needs||
 |-|-
-|[Commands ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>)| [`ASSERT`](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`RETURN`](<../../...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`SAVE`](<../../...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`SEND`](<../../../Talkers 😃/😃⚙️ Talker cmds/...messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>) [`WAIT`](<../../...control ▶️/WAIT 🧘/🧘 WAIT ⌘ cmd.md>)
+|[Commands ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>)| [`ASSERT`](<../../...holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`RETURN`](<../../...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`SAVE`](<../../...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`SEND`](<../../...messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>) [`WAIT`](<../../...control ▶️/WAIT 🧘/🧘 WAIT ⌘ cmd.md>)
 | [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`TalkerHooks`](<../../../Talkers 😃/😃🪣 Talker tables/😃🪣 TalkerHooks 🪝 table.md>)
-| [Holders 🧠](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>) | [`.Chat`](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/$.Chat 💬/💬 $.Chat 🧠 holder.md>)
+| [Holders 🧠](<../../...holders 🧠/$Holder 🧠.md>) | [`.Chat`](<../../...holders 🧠/$.Chat 💬/💬 $.Chat 🧠 holder.md>)
 | [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Offer@Broker` 🅰️ method](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>) <br/> [`Issued@Issuer` 🅰️ method](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Issued 🧑‍🦰🚀🎴/🎴 Issued 🚀 request.md>) <br/> [`Accepted@Issuer` 🅰️ method](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Accepted 🤵🐌🎴/🎴 Accepted 🐌 msg.md>)
 |

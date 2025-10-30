@@ -72,7 +72,7 @@
 
 Needs||
 |-|-
-| [Commands ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) | [`ASSERT`](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CASE`](<../../...control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`HTTP`](<../../...control ▶️/HTTP 💥/💥 HTTP ⌘ cmd.md>) [`SEND`](<../../../Talkers 😃/😃⚙️ Talker cmds/...messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>) [`RETURN`](<../../...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`RUN`](<../../...control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
-| [Holders 🧠](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>) | [`$.Inputs`](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/$.Inputs ▶️/▶️ $.Inputs 🧠 holder.md>) [`$.Hosted`](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/$.Hosted 📦/📦 $.Hosted 🧠 holder.md>)
+| [Commands ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) | [`ASSERT`](<../../...holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CASE`](<../../...control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`HTTP`](<../../...control ▶️/HTTP 💥/💥 HTTP ⌘ cmd.md>) [`SEND`](<../../...messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>) [`RETURN`](<../../...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`RUN`](<../../...control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
+| [Holders 🧠](<../../...holders 🧠/$Holder 🧠.md>) | [`$.Inputs`](<../../...holders 🧠/$.Inputs ▶️/▶️ $.Inputs 🧠 holder.md>) [`$.Hosted`](<../../...holders 🧠/$.Hosted 📦/📦 $.Hosted 🧠 holder.md>)
 | [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Save@Itemizer`](<../../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/Item Save 👥🚀🛢/🛢 Save 🚀 request.md>)
 |

@@ -40,8 +40,8 @@ Here's the [Script 📃](<../../../Scripts 📃/...commands ⌘/Script 📃/📃
 
 Needs||
 |-|-
-| [Commands ⌘](<../../../Scripts 📃/...commands ⌘/Command ⌘/⌘ Command.md>) | [`ASSERT`](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`RETURN`](<../../../Scripts 📃/...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`RUN`](<../../../Scripts 📃/...control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
-| [Holders 🧠](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>) | [`$.Inputs`](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/$.Inputs ▶️/▶️ $.Inputs 🧠 holder.md>)
+| [Commands ⌘](<../../../Scripts 📃/...commands ⌘/Command ⌘/⌘ Command.md>) | [`ASSERT`](<../../../Scripts 📃/...holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`RETURN`](<../../../Scripts 📃/...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`RUN`](<../../../Scripts 📃/...control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
+| [Holders 🧠](<../../../Scripts 📃/...holders 🧠/$Holder 🧠.md>) | [`$.Inputs`](<../../../Scripts 📃/...holders 🧠/$.Inputs ▶️/▶️ $.Inputs 🧠 holder.md>)
 | [Scripts 📃](<../../../Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>) | [`Prompts` 📃 script](<../../../Talkers 😃/😃⏩ Talker flows/Prompts 😃⏩🧑‍🦰/😃 Prompts 📃 script.md>)
 
 ---

@@ -1,6 +1,6 @@
 # 😃📬 Talker `SEND` command
 
-> Part of [Talker 😃](<../../../😃 Talker role.md>)
+> Part of [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>)
 
 <br/>
 
@@ -8,8 +8,8 @@
 1. **What is a SEND command?**
 
     A `SEND`
-    * is a [Command ⌘](<../../../../Scripts 📃/...commands ⌘/Command ⌘/⌘ Command.md>) 
-    * that sends a [Message 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message.md>).
+    * is a [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) 
+    * that sends a [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>).
 
     ---
     <br/>
@@ -32,7 +32,7 @@
     | `To` | Destination domain | `any-broker.dom`
     | `Subject` | Message subject | `Unbound@Vault`
     | `{body}` | `Body` property dictionary  | `{A:1, B:2}`
-    | `$response` | Response [Holder 🧠](<../../...holders 🧠/$Holder 🧠.md>) <br/> for [Synchronous Requests 🚀](<../../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Sync Requests 🚀.md>) | `$r`
+    | `$response` | Response [Holder 🧠](<../../...holders 🧠/$Holder 🧠.md>) <br/> for [Synchronous Requests 🚀](<../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Sync Requests 🚀.md>) | `$r`
 
     ---
     <br/>
@@ -40,7 +40,7 @@
 
 1. **What's an example of SEND?**
 
-    Consider the following a [Talker 😃](<../../../😃 Talker role.md>).
+    Consider the following a [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>).
 
     ```yaml
     - SEND:
@@ -52,7 +52,7 @@
             B: 2
     ```
 
-    This results in the following [Message 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message.md>) being sent.
+    This results in the following [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) being sent.
 
     ```yaml
     Header:
@@ -83,7 +83,7 @@
 
 1. **How to use the context?**
 
-    Here's a [Script 📃](<../../../../Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>)
+    Here's a [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>)
     ```yaml
     📃 Example:
     
