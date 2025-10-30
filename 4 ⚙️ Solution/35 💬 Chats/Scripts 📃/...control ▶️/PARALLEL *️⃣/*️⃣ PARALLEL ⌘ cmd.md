@@ -15,8 +15,8 @@
 1. **What is a PARALLEL command?**
 
     A `PARALLEL` *️⃣
-    * is a flow [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>)  
-    * that runs a list of [Commands ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) 
+    * is a flow [Command ⌘](<../../📃⌘ commands/Command ⌘/⌘ Command.md>)  
+    * that runs a list of [Commands ⌘](<../../📃⌘ commands/Command ⌘/⌘ Command.md>) 
     * for each item in a given list.
   
     ---
@@ -42,7 +42,7 @@
     |-|-|-
     | `$input-list` | List to iterate | `[1,2,3]`
     | `$input-item` | Item of an iteration | `1`
-    | `<command-n>`   | [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) to execute | [`SAVE`](<../../...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
+    | `<command-n>`   | [Command ⌘](<../../📃⌘ commands/Command ⌘/⌘ Command.md>) to execute | [`SAVE`](<../../...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
 
     ---
     <br/>
@@ -61,7 +61,7 @@
 
     <br/>
 
-    Here's the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>)
+    Here's the [Script 📃](<../../📃⌘ commands/Script 📃/📃 Script.md>)
 
     ```yaml
     - PARALLEL|[1,2,3]|$n:

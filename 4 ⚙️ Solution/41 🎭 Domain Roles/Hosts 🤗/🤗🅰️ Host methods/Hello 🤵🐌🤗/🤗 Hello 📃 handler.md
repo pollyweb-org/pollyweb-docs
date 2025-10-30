@@ -2,7 +2,7 @@
 
 > Purpose
 
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>) that implements the [`Hello@Host` 🅰️ method](<🤗 Hello 🐌 msg.md>)
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃⌘ commands/Script 📃/📃 Script.md>) that implements the [`Hello@Host` 🅰️ method](<🤗 Hello 🐌 msg.md>)
 
 ## Handler
 
@@ -28,7 +28,7 @@
 - TALK|$.Msg.Chat|$.Msg.Locator
 ```
 
-| [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/...commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
+| [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/📃⌘ commands/Command ⌘/⌘ Command.md>) | Purpose
 |-|-
 | 📨 [`$.Msg`](<../../../../35 💬 Chats/Scripts 📃/...holders 🧠/$.Msg 📨/📨 $.Msg 🧠 holder.md>) | Read the incoming [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>)
 | 💾 [`SAVE`](<../../../../35 💬 Chats/Scripts 📃/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | Save the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) into the [Chats 🪣 table](<../../🤗🪣 Host tables/Chats 💬 table/🤗 HostChats 🪣 table.md>)

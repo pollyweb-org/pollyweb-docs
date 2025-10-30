@@ -12,7 +12,7 @@
 1. **What's a HOOK flow command?**
 
     A [`HOOK` 🪝](<🪝 HOOK ⌘ cmd.md>)
-    * is a flow [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) 
+    * is a flow [Command ⌘](<../../📃⌘ commands/Command ⌘/⌘ Command.md>) 
     * that creates a rollback checkpoint
     * to be triggered by the [`REEL` 🎣 command](<../REEL 🎣/🎣 REEL ⌘ cmd.md>)
     * or by the [`Handled@Talker` 🅰️ method](<../../../Talkers 😃/😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>)

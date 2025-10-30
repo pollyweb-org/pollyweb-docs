@@ -85,7 +85,7 @@
     
     <br/>
 
-    Here's the [Script 📃](<../../../Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../../Scripts 📃/📃⌘ commands/Script 📃/📃 Script.md>).
     
     ```yaml
     📃 Example:
