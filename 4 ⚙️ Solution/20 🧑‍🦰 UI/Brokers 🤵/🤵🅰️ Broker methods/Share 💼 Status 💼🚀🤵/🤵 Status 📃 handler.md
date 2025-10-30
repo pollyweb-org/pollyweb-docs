@@ -13,6 +13,11 @@
     Set: BrokerTokens
     Key: $.Msg.Token
 
+# Check the trust
+- TRUSTS|$.Msg.From:
+    Schema: $token.Schema
+    Role: CONSUMER
+
 # Return the Status
 - REEL:
     Status: $token.Status
