@@ -1,14 +1,14 @@
 @startuml SHARE
  
-box Hoster ☁️ domain #FFFFFA
+box Talker 😃 domain #FFFFFD
     participant "Script 📃" as script
-    participant "Talker 😃" as talker
-    participant "Host 🤗" as host
-    'participant "Consumer 💼" as consumer
+    participant ".PROMPT 📃" as talker
+    participant "Hooks 🪣" as hooks
+    participant "Handler 📃" as handler
 end box
 
-box Itemizer 🛢  #FFFFFA
-    participant "Hooks" as hooks
+box Hoster ☁️ domain #FFFFFA
+    participant "Host 🤗" as host
 end box
 
 participant "Broker 🤵" as broker
@@ -20,7 +20,10 @@ deactivate script
 
 activate talker
     talker -> hooks: SAVE 💾 {hook, prompt}
-    talker --> broker: Prompt 🐌 {hook}
+    talker --> host: SEND {Prompt 🐌 hook}
+    activate host
+        host --> broker: 
+    deactivate host
 activate broker
 
     alt Non-blocking 
@@ -41,16 +44,24 @@ activate wallet
     wallet -> host: Prompted 🚀 {hook}
     
     activate host
-        host -> hooks: GET 🧲 {hook}
-        host -> wallet: {prompt}
+        host -> handler
+        activate handler
+            handler -> hooks: GET 🧲 {hook}
+            handler -> host: {prompt}
+        deactivate handler
+        host -> wallet: 
     deactivate host
 
     wallet --> host: Reply 🐌 {hook, reply}
 deactivate wallet
 
 activate host
-    host -> talker: REEL 🎣 {hook, reply}
+    host -> handler: 
 deactivate host
+
+activate handler
+    handler -> talker: REEL 🎣 {hook, reply}
+deactivate handler
 
 activate talker
     talker -> script: RETURN {reply}

@@ -2,8 +2,8 @@
 
 participant "Hosted 📦" as hosted
 
-box Hoster ☁️ domain #FFFFFA
-    participant "Talker 😃" as talker
+box Talker 😃️ domain #FFFFFA
+    participant "API 📨" as talker
     participant "Holders 🪣" as holders
 end box
 

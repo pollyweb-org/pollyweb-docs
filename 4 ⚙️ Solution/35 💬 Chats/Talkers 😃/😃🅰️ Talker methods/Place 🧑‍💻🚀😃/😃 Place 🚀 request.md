@@ -14,7 +14,7 @@
 
 <br/>
 
-## Async Message 🐌
+## Synchronous Request 🚀
 
 
 ```yaml
