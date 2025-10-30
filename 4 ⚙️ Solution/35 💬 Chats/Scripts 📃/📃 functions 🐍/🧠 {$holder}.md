@@ -2,7 +2,7 @@
 
 # 😃🧠 {$holder} function
 
-> Part of [{Function} 🐍](<{Function} 🐍.md>)
+> Part of [{Function} 🐍](<../📃 basics/Function 🐍.md>)
 
 <br/>
 

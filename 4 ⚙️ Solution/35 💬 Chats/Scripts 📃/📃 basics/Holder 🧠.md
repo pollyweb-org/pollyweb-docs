@@ -144,7 +144,7 @@
 
     In a [Script 📃](<Script 📃.md>), use `>>` to send a value to a $holder:
     * `TEXT|bla >> $p` writes the answer to a [`TEXT` 🔠 input](<../../Prompts 🤔/🤔✏️ Prompt inputs/TEXT 🔠/TEXT 🔠 prompt.md>).
-    * `EVAL|f >> $p` writes the return of a [{Function}](<../📃 functions 🐍/{Function} 🐍.md>) named `f`.
+    * `EVAL|f >> $p` writes the return of a [{Function}](<Function 🐍.md>) named `f`.
 
     You can also push data structures with [`EVAL` ⬇️](<../📃 holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>).
     
@@ -199,7 +199,7 @@
   
 1. **How to integrate functions?**
 
-    Holders allow [{Function} 🐍](<../📃 functions 🐍/{Function} 🐍.md>) suffixes.
+    Holders allow [{Function} 🐍](<Function 🐍.md>) suffixes.
 
     * The function is called with the first argument as the holder.
   
