@@ -42,5 +42,5 @@ Schema: any-authority.dom/ANY-SCHEMA:1.0
 
 |Property|Type|Description
 |-|-|-
-| `Issuer` | string | [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)
+| `Issuer` | string | [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>)
 | `Token`| uuid | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) ID on the [Broker 🤵](<../../🤵🤲 Broker helper.md>)

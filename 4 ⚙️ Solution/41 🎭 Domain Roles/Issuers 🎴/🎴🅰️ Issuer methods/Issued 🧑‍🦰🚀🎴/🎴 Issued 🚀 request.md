@@ -10,7 +10,7 @@
 
 > Purpose:
 * Allows for a [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) to be downloaded 
-    * from the [Issuer 🎴 domain](<../../🎴🎭 Issuer role.md>) 
+    * from the [Issuer 🎴 domain](<../../🎴 Issuer/🎴🎭 Issuer role.md>) 
     * into the [Wallet 🧑‍🦰 app](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
 
 
@@ -33,9 +33,9 @@ Body:
 |Object |Property |Type|Description | Origin 
 |-|-|-|-|-
 |Header | `From`  | string  | `Anonymous`
-|       | `To`    | string  | [Issuer 🎴](<../../🎴🎭 Issuer role.md>) | [`Save@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>)
+|       | `To`    | string  | [Issuer 🎴](<../../🎴 Issuer/🎴🎭 Issuer role.md>) | [`Save@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>)
 ||`Subject`|string|`Token@Issuer` 
-| Body | `Hook`| string | [Issuer 🎴](<../../🎴🎭 Issuer role.md>) Hook | [`Save@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>)
+| Body | `Hook`| string | [Issuer 🎴](<../../🎴 Issuer/🎴🎭 Issuer role.md>) Hook | [`Save@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>)
 |
 
 <br/>
@@ -60,7 +60,7 @@ Schema: airlines.any-igo.dom/SSR/WCH:1
 
 1. **Why isn't the `Token` ID property in the response?**
 
-    At this point, the [Issuer 🎴](<../../🎴🎭 Issuer role.md>) doesn't know the `Token` yet.
+    At this point, the [Issuer 🎴](<../../🎴 Issuer/🎴🎭 Issuer role.md>) doesn't know the `Token` yet.
     * That information will be given later in [`Accepted@Issuer`](<../Accepted 🤵🐌🎴/🎴 Accepted 🐌 msg.md>).
 
     ---

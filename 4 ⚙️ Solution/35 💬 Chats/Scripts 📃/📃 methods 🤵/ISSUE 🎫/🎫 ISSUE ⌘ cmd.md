@@ -21,9 +21,9 @@
     
     | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../Prompts 🤔/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
-    | 🎴 [Issuer](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) | ℹ️ Issuing your token...
+    | 🎴 [Issuer](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) | ℹ️ Issuing your token...
     | 🤵 [Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | 🫥 Save token? [Yes, No]  | > Yes
-    | 🎴 [Issuer](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) | ✅ Saved to your wallet.
+    | 🎴 [Issuer](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) | ✅ Saved to your wallet.
 
     ---
     <br/>
@@ -48,7 +48,7 @@
     | `Starts` | Optional ISO UTC date | `2024-09-21T12:34:00Z`
     | `Expires` | Optional ISO UTC date | `2024-09-21T12:34:00Z`
     | `Properties`| User public properties | `{A:1, B:2}`
-    | `Properties`| [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) internal notes | `{A:1, B:2}`
+    | `Properties`| [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) internal notes | `{A:1, B:2}`
 
     ---
     <br/>

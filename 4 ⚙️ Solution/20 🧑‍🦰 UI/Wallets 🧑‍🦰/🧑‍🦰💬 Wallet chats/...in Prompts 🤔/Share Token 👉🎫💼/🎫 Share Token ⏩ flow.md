@@ -31,7 +31,7 @@ Consider the following excerpt from the [Flight check in 🤝 use case](<../../.
 |4| [🤗⏩🧑‍🦰 Prompt 🤔](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | [Brokers 🤵](<../../../../Brokers 🤵/🤵🤲 Broker helper.md>) ask users to share their [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
 |5| [🤵🐌📣 `Share@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Share 🤵🐌📣/📣 Share 🐌 msg.md>) | Proxy the share order to the [Wallet 🧑‍🦰 app](<../../../🧑‍🦰🛠️ Wallet app.md>)
 |6| [🤵🐌💼 `Receive@Consumer`](<../../../../../41 🎭 Domain Roles/Consumers 💼/💼🅰️ Consumer methods/Receive 🧑‍🦰🐌💼/💼 Receive 🐌 msg.md>) | Send the shared offline [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
-|7| [👥🚀🕸 `Trusts@Graph`](<../../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>) | Verify if the [Issuers 🎴](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) are [Trustworthy 🫡](<../../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>)
+|7| [👥🚀🕸 `Trusts@Graph`](<../../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>) | Verify if the [Issuers 🎴](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) are [Trustworthy 🫡](<../../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>)
 |8| [👥🚀🕸 `PublicKey@Graph`](<../../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Public Key.md>) | Get the DKIM public key of each [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
 |9| [💼⏩🤵 Token status 🎫](<../../../../../41 🎭 Domain Roles/Consumers 💼/💼⏩ Consumer flows/Token Status 💼⏩🎫/💼 Token Status ⏩ flow.md>) | Ask the Token's [Broker 🤵](<../../../../Brokers 🤵/🤵🤲 Broker helper.md>) if it is still active
 |
@@ -42,7 +42,7 @@ Consider the following excerpt from the [Flight check in 🤝 use case](<../../.
 
 1. **Why isn't the verification done on the Issuer?**
 
-    `Privacy` [Issuer 🎴 domains](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) should not be allowed to track users by knowing in which [Consumer 💼 domains](<../../../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) their [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) where used.
+    `Privacy` [Issuer 🎴 domains](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) should not be allowed to track users by knowing in which [Consumer 💼 domains](<../../../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) their [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) where used.
 
     ---
     <br/>

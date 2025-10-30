@@ -7,7 +7,7 @@
 
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 
-* Returns the historical public key of an [Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) by the name of the key.
+* Returns the historical public key of an [Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) by the name of the key.
     * Allows a [Consumer 💼 domain](<../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) to verify a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) issued before a [DKIM 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) rotation.
 * Used by:
     * [👥🔏 Domain Signature](<../../../40 👥 Domains/👥⏩ Domain flows/Sign Files 👥🔏📄/👥 Domain Signature ⏩ flow.md>)
@@ -34,7 +34,7 @@ Body:
 | Header| `From`    | string | The name of the [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) asking
 |       | `To`      | string | [Graph 🕸 domain](<../🕸🤲 Graph helper.md>) name
 |       | `Subject` | string | `PublicKey@Graph`
-|Body   | `Issuer`  | string | [Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) name
+|Body   | `Issuer`  | string | [Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) name
 |       | `DKIM`| string | [DKIM 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) name
 |
 
