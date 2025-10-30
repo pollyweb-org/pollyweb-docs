@@ -27,7 +27,7 @@ Consider the following [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Ch
 
 ## 😃 Talker 
 
-The associated [Talker 😃](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>) would be the following.
+The associated [`Script`](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) would be the following.
 
 ```yaml
 💬 Something:

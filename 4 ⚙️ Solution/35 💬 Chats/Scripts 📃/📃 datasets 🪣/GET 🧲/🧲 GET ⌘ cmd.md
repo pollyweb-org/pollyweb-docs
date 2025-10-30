@@ -3,7 +3,7 @@
 # 😃🧲 Talker `GET` command
 
 > Implementation
-* Part of [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>)
+* Part of [Script 📃](<../../📃 basics/Script 📃.md>)
 * Implemented by the [`GET` 📃 script](<🧲 GET 📃 script.md>)
 
 ## FAQ

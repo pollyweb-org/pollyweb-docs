@@ -54,7 +54,7 @@
 
     <br/>
 
-    Here's the [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>)
+    Here's the [Script 📃](<../../📃 basics/Script 📃.md>)
 
     ```yaml
     📃 Example:

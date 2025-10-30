@@ -1,7 +1,7 @@
 # 💼 Talker `SHARE` command
 
 > Implementation
-* Part of [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>)
+* Part of [Script 📃](<../../📃 basics/Script 📃.md>)
 * Implemented by the [`SHARE` 📃 script](<💼 SHARE 📃 script.md>)
 
 
