@@ -3,7 +3,7 @@
  
 participant "Vault 🗄️" as vault
 
-box Hoster ☁️ domain #FFFFFA
+box Hosted 📦 domain  #FFFFFA
     participant "Broker 🤵" as broker
     'participant "Talker 😃" as talker
     'participant "Script 📃" as script

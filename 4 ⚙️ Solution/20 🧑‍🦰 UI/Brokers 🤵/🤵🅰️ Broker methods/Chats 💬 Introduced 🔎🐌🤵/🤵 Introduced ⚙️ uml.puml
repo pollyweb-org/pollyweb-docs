@@ -1,10 +1,12 @@
-@startuml Binds@Broker
+@startuml Introduce@Broker
 
  
 participant "Wallet 👱" as wallet
 
-box Hosted 📦 domain #FFFFFA
+box Hoster ☁️ domain #FFFFFA
     participant "Broker 🤵" as broker
+end box
+box Itemizer 🛢 domain #FFFFFA
     participant "Wallets 🪣" as wallets
     participant "Chats 🪣" as chats
 end box
