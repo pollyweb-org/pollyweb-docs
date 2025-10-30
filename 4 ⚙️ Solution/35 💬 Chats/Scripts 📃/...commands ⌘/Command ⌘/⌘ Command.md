@@ -74,13 +74,13 @@
 
     |Command|Purpose
     |-|-
-    | 🔗 [`BIND`](<../../../Talkers 😃/😃⚙️ Talker cmds/...methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) | Calls the [Bind Vault @ Wallet ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/🧑‍🦰 Bind vault ⏩ flow.md>) flow.
-    | 🎫 [`ISSUE`](<../../../Talkers 😃/😃⚙️ Talker cmds/...methods 🤵/ISSUE 🎫/🎫 ISSUE ⌘ cmd.md>) | Calls the [Save Token @ Wallet ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save Token ⏩ flow.md>) flow.
-    | 👋 [`GOODBYE`](<../../../Talkers 😃/😃⚙️ Talker cmds/...methods 🤵/GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>) | Calls the [Goodbye @ Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Goodbye 🤗⏩👋/🤗 Goodbye ⏩ flow.md>) ⏩ flow.
-    | 📜 [`FLOW`](<../../../Talkers 😃/😃⚙️ Talker cmds/...methods 🤵/INFORM 📝/📝 INFORM ⌘ cmd.md>)
-    | 💳 [`CHARGE`](<../../../Talkers 😃/😃⚙️ Talker cmds/...methods 🤵/CHARGE 💳/💳 CHARGE ⌘ cmd.md>)
-    | 💼 [`SHARE`](<../../../Talkers 😃/😃⚙️ Talker cmds/...methods 🤵/SHARE 💼/💼 SHARE ⌘ cmd.md>)
-    | 🛰️ [`RELAY`](<../../../Talkers 😃/😃⚙️ Talker cmds/...methods 🤵/RELAY 🛰️/🛰️ RELAY ⌘ cmd.md>)
+    | 🔗 [`BIND`](<../../...methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) | Calls the [Bind Vault @ Wallet ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/🧑‍🦰 Bind vault ⏩ flow.md>) flow.
+    | 🎫 [`ISSUE`](<../../...methods 🤵/ISSUE 🎫/🎫 ISSUE ⌘ cmd.md>) | Calls the [Save Token @ Wallet ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save Token ⏩ flow.md>) flow.
+    | 👋 [`GOODBYE`](<../../...methods 🤵/GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>) | Calls the [Goodbye @ Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Goodbye 🤗⏩👋/🤗 Goodbye ⏩ flow.md>) ⏩ flow.
+    | 📜 [`FLOW`](<../../...methods 🤵/INFORM 📝/📝 INFORM ⌘ cmd.md>)
+    | 💳 [`CHARGE`](<../../...methods 🤵/CHARGE 💳/💳 CHARGE ⌘ cmd.md>)
+    | 💼 [`SHARE`](<../../...methods 🤵/SHARE 💼/💼 SHARE ⌘ cmd.md>)
+    | 🛰️ [`RELAY`](<../../...methods 🤵/RELAY 🛰️/🛰️ RELAY ⌘ cmd.md>)
     |
     
    
