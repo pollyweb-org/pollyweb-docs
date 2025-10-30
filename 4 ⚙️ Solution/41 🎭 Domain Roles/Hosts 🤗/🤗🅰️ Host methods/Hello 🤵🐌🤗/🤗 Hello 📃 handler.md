@@ -2,7 +2,7 @@
 
 > Purpose
 
-* [Script 📃](<../../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) that implements the [`Hello@Host` 🅰️ method](<🤗 Hello 🐌 msg.md>)
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>) that implements the [`Hello@Host` 🅰️ method](<🤗 Hello 🐌 msg.md>)
 
 ## Handler
 
@@ -28,10 +28,10 @@
 - TALK|$.Msg.Chat|$.Msg.Locator
 ```
 
-| [Command ⌘](<../../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
+| [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/...commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
 |-|-
 | 📨 [`$.Msg`](<../../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/$.Msg 📨/📨 $.Msg 🧠 holder.md>) | Read the incoming [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>)
 | 💾 [`SAVE`](<../../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | Save the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) into the [Chats 🪣 table](<../../🤗🪣 Host tables/Chats 💬 table/🤗 HostChats 🪣 table.md>)
-| 😃 [`TALK`](<../../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...control ▶️/TALK 😃/😃 TALK ⌘ cmd.md>) | Start a [Talker 😃](<../../../../35 💬 Chats/Talkers 😃/😃 Talker role.md>)
+| 😃 [`TALK`](<../../../../35 💬 Chats/Scripts 📃/...control ▶️/TALK 😃/😃 TALK ⌘ cmd.md>) | Start a [Talker 😃](<../../../../35 💬 Chats/Talkers 😃/😃 Talker role.md>)
 | 🫡 [`TRUSTS`](<../../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...messages 📨/TRUSTS 🫡/🫡 TRUSTS ⌘ cmd.md>) | Assert a [Trust 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) on 
 |

@@ -8,7 +8,7 @@
 1. **What is a SEND command?**
 
     A `SEND`
-    * is a [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) 
+    * is a [Command ⌘](<../../../../Scripts 📃/...commands ⌘/Command ⌘/⌘ Command.md>) 
     * that sends a [Message 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message.md>).
 
     ---
@@ -83,7 +83,7 @@
 
 1. **How to use the context?**
 
-    Here's a [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>)
+    Here's a [Script 📃](<../../../../Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>)
     ```yaml
     📃 Example:
     

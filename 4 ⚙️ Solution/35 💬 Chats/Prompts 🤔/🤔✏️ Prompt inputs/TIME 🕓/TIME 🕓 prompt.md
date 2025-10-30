@@ -34,7 +34,7 @@
 1. **What's an example of a [Chat 💬](<../../../Chats 💬/💬 Chat.md>)?**
 
 
-    Here's the [Script 📃](<../../../Talkers 😃/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../../Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>).
     
     ```yaml
     TIME|What time? >> $time

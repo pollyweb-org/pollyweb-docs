@@ -38,14 +38,14 @@
 
     <br/>
 
-    Here's the [Script 📃](<../../Talkers 😃/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>).
 
     ```yaml
     - TEXT|Who is in the picture?:
         Appendix: {/photos/elvis.png}
     ```
 
-    | [Command ⌘](<../../Talkers 😃/😃⚙️ Talker cmds/...commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../Scripts 📃/...commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
     |-|-
     | 🔠 [`TEXT`](<../🤔✏️ Prompt inputs/TEXT 🔠/TEXT 🔠 prompt.md>) | To ask a question with an image.
     |

@@ -9,7 +9,7 @@
 1. **What is a BIND message command?**
 
     A `BIND`
-    * is a message [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) 
+    * is a message [Command ⌘](<../../../../Scripts 📃/...commands ⌘/Command ⌘/⌘ Command.md>) 
     * that invokes the [Bind @ Vault ⏩ flow](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/🧑‍🦰 Bind vault ⏩ flow.md>).
 
     ---
@@ -131,7 +131,7 @@
        Else: FAILURE|Not bounded.
    ```
 
-   Commands: [`BIND`](<🔗 BIND ⌘ cmd.md>) [`IF`](<../../...control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>)
+   Commands: [`BIND`](<🔗 BIND ⌘ cmd.md>) [`IF`](<../../../../Scripts 📃/...control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>)
 
    ---
    <br/>
@@ -157,7 +157,7 @@
        Else: FAILURE|Not bounded.
    ```
 
-   Commands: [`BIND`](<🔗 BIND ⌘ cmd.md>) [`EVAL`](<../../...holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`IF`](<../../...control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>)
+   Commands: [`BIND`](<🔗 BIND ⌘ cmd.md>) [`EVAL`](<../../...holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`IF`](<../../../../Scripts 📃/...control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>)
    
    ---
    <br/>
