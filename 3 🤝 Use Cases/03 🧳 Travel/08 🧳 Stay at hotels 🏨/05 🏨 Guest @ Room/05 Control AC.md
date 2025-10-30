@@ -12,7 +12,7 @@ How to control the a hotel room's air con?
 | 🏨 Hotel  | 💬 Anything else? [No] | `turn on`<br/>`at 6am`
 | 🏨 Hotel  | ✅ A/C scheduled for 6am.
 | 🏨 Hotel  | 💬 Anything else? [No] | > No
-| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Reviewers ⭐/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? 
+| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? 
 | 🏨 Hotel  | ⏳ Pending actions: <br/> - [ #1 ] at 6am, set 23°C 🌡️ <br/> - [ #2 ] at 7am, alarm 🔔
 |...
 | 🏨 Hotel  | ℹ️ It's 6am, A/C turned on.

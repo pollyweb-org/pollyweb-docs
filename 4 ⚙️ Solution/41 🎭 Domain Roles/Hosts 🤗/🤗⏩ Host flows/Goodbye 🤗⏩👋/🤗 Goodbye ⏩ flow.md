@@ -16,7 +16,7 @@ Consider the following [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Ch
 | - | - | - |
 | 🏨 Hotel  | ✅ Booking confirmed! 
 | [👀 Ads](<../../../../45 🤲 Helper domains/Advertisers 👀/👀🤲 Advertiser helper.md>) | 🫥 Explore follow-up actions? [No] <br/>- [ Book a city tour 🚌 ]  <br/>- [ See a flamenco show 💃 ]
-| ⭐ [Rate](<../../../../50 🫥 Agent domains/Reviewers ⭐/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐⭐⭐⭐
+| ⭐ [Rate](<../../../../50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐⭐⭐⭐
 |
 
 <br/>
@@ -44,5 +44,5 @@ The associated [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics
 |-|-|-
 | 1 | [🤗🐌🤵 `Goodbye@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Goodbye 🤗🐌🤵/🤵 Goodbye 🐌 msg.md>) | [Hosts 🤗](<../../🤗🎭 Host role.md>) tell [Brokers 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) of [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) endings
 | 2 | [👀⏩🧑‍🦰 Advertise 👀](<../../../../45 🤲 Helper domains/Advertisers 👀/👀⏩ Advertiser flows/Advertise 👀⏩🧑‍🦰/👀 Advertise ⏩ flow.md>) | [Brokers 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) ask [Advertisers 👀](<../../../../45 🤲 Helper domains/Advertisers 👀/👀🤲 Advertiser helper.md>) to advertise
-| 3 | [⭐⏩🧑‍🦰 Review ⭐](<../../../../50 🫥 Agent domains/Reviewers ⭐/⏩ Reviewer flows/01 ⭐⏩🧑‍🦰 Review.md>) | [Brokers 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) ask [Reviewers ⭐](<../../../../50 🫥 Agent domains/Reviewers ⭐/⭐🫥 Reviewer agent.md>) to review
+| 3 | [⭐⏩🧑‍🦰 Review ⭐](<../../../../50 🫥 Agent domains/Reviewers ⭐/⭐⏩ Reviewer flows/01 ⭐⏩🧑‍🦰 Review.md>) | [Brokers 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) ask [Reviewers ⭐](<../../../../50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐🫥 Reviewer agent.md>) to review
 ||

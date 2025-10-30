@@ -19,6 +19,6 @@ How to check-in to a hotel?
 | 🏨 Hotel    | ℹ️ To get to room 712: <br/> - take the elevators on the left <br/> - use the key to go up to 7th <br/> - on the 7th floor, turn right.
 | 🏨 Hotel    | ℹ️ A few more things: <br/> - the gym is open 24x7 <br/> - pool opens from 9am to 7pm <br/> - breakfast is from 7 to 10 pm <br/> - it's served at the ground floor <br/> - enjoy your stay!
 | 🏨 Hotel    | ✅ Check-in done!
-| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Reviewers ⭐/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐⭐⭐⭐⭐
+| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐⭐⭐⭐⭐
 | [👀 Ads](<../../../../4 ⚙️ Solution/45 🤲 Helper domains/Advertisers 👀/👀🤲 Advertiser helper.md>) | 🫥 Explore follow-up actions? [No] <br/>- [ Book a city tour 🚌 ]  <br/>- [ See a flamenco show 💃 ] <br/> - [ Explore the neighborhood 🔎 ]
 |||
