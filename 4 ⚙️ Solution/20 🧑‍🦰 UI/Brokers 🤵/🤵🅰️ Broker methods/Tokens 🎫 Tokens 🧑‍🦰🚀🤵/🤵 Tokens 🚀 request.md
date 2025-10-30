@@ -8,7 +8,7 @@
 
 > Purpose
 
-* List of [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) 
+* List of [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) 
   * in a [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) for a human user, 
   * mapping to the local file.
 
@@ -55,7 +55,7 @@ Tokens:
 || `Issuer$` | string | [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) | [`Translate@`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>)
 | |`Locator`| string | [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) | [`Status@`](<../Share 💼 Status 💼🚀🤵/🤵 Status 🚀 request.md>)
 || `Schema$` | string | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | [`Translate@`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>)
-|| `Status`| enum | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) Status | [`Status@`](<../Share 💼 Status 💼🚀🤵/🤵 Status 🚀 request.md>)
+|| `Status`| enum | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) Status | [`Status@`](<../Share 💼 Status 💼🚀🤵/🤵 Status 🚀 request.md>)
 ||`Token`  |uuid   | [Broker 🤵](<../../🤵🤲 Broker helper.md>) key | [`Saved@`](<../Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 🐌 msg.md>)
 |
 
@@ -63,7 +63,7 @@ Tokens:
 
 1. **Why isn't the Token Key listed?**
 
-    [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) keys are held by [Broker 🤵 domains](<../../🤵🤲 Broker helper.md>) until shared, to avoid replay attacks from [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) purposefully breaking the [`Save Token` ⏩ flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save token ⏩ flow.md>) halfway to receive duplicate [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>).
+    [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) keys are held by [Broker 🤵 domains](<../../🤵🤲 Broker helper.md>) until shared, to avoid replay attacks from [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) purposefully breaking the [`Save Token` ⏩ flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save token ⏩ flow.md>) halfway to receive duplicate [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
 
     ---
     <br/>

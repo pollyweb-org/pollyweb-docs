@@ -29,5 +29,5 @@
 | 3 | [🤵🐌📣 `Translated@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Translated 🤵🐌📣/📣 Translated 🐌 msg.md>) | Finished translating the database
 | 4 | [🧑‍🦰🚀🤵 `Chats@Broker`](<../../../../Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Chats 🧑‍🦰🚀🤵/🤵 Chats 🚀 request.md>) | Fetch translated [Chats 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
 | 5 | [🧑‍🦰🚀🤵 `Binds@Broker`](<../../../../Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Binds 🧑‍🦰🚀🤵/🤵 Binds 🚀 request.md>) | Fetch translated [Binds 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
-| 6 | [🧑‍🦰🚀🤵 `Tokens@Broker`](<../../../../Brokers 🤵/🤵🅰️ Broker methods/Tokens 🎫 Tokens 🧑‍🦰🚀🤵/🤵 Tokens 🚀 request.md>) | Fetch translated [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
+| 6 | [🧑‍🦰🚀🤵 `Tokens@Broker`](<../../../../Brokers 🤵/🤵🅰️ Broker methods/Tokens 🎫 Tokens 🧑‍🦰🚀🤵/🤵 Tokens 🚀 request.md>) | Fetch translated [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
 |

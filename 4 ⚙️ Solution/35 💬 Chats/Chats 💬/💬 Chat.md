@@ -65,7 +65,7 @@
     |-|-
     | [🤔 Prompt](<../Prompts 🤔/🤔 Prompt.md>) | [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) send a question or information to the user.
     | 🗄️ *Bind* | [Vault 🗄️ domains](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)  request the user to [Bind🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to them.
-    | 💼 *Share* | [Consumer 💼 domains](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)  request the user to share data from a specific [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) or to share a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>).
+    | 💼 *Share* | [Consumer 💼 domains](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)  request the user to share data from a specific [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) or to share a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
     | 💳 *Pay* | [Seller 💵 domains](<../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>)  request the user's [Payer 💳 agent](<../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) to pay an amount.
     | 👋 *Goodbye* | Ends the [Chat 💬](<💬 Chat.md>) flow.
 

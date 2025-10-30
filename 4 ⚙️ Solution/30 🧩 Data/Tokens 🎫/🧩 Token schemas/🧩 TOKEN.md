@@ -1,7 +1,7 @@
 
 # [🧩](<../../Codes 🧩/🧩 Schema Code.md>) [Schema Code](<../../Codes 🧩/🧩 Schema Code.md>): Token
 
-> Schema of a [Token 🎫](<../🎫 Token.md>)
+> Schema of a [Token 🎫](<../🎫 Token/🎫 Token.md>)
 
 <br/>
 

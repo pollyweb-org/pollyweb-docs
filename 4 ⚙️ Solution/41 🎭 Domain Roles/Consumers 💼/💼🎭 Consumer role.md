@@ -26,29 +26,29 @@
 
     Consumers 💼 receive data from the following sources:
     - schema-bound datasets shared directly by users' [Vault 🗄️ domains](<../Vaults 🗄️/🗄️🎭 Vault role.md>), and
-    - downloaded [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) issued by an [Issuer 🎴 domain](<../Issuers 🎴/🎴🎭 Issuer role.md>) and stored on the Wallet.
+    - downloaded [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) issued by an [Issuer 🎴 domain](<../Issuers 🎴/🎴🎭 Issuer role.md>) and stored on the Wallet.
 
     ---
     <br/>
 
 1. **How do Consumers receive downloaded Tokens?**
 
-    [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) are shared with Consumers 💼 by [Broker 🤵 domains](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) in a number of ways.
+    [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) are shared with Consumers 💼 by [Broker 🤵 domains](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) in a number of ways.
 
     - **Request on a chat**: 
         - in a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>), [Consumers 💼](<💼🎭 Consumer role.md>) can ask the user to share a specific [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>);
-        - if the user accepts, the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) shares with the [Consumer 💼](<💼🎭 Consumer role.md>) both the [bound 🔗 Vaults](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) and the downloaded [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) that match that [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>);
-        - e.g., an airline may ask a user to share their passport [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>).
+        - if the user accepts, the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) shares with the [Consumer 💼](<💼🎭 Consumer role.md>) both the [bound 🔗 Vaults](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) and the downloaded [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) that match that [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>);
+        - e.g., an airline may ask a user to share their passport [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
 
     - **On chat hello**: 
-        - when a [Broker 🤵 domain](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) initiates a chat session with a [Consumer 💼 domain](<💼🎭 Consumer role.md>), it automatically shares the [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) issued by that [Consumer 💼 domain](<💼🎭 Consumer role.md>) if the [Token's Schema Code 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) is marked as SELF;
+        - when a [Broker 🤵 domain](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) initiates a chat session with a [Consumer 💼 domain](<💼🎭 Consumer role.md>), it automatically shares the [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) issued by that [Consumer 💼 domain](<💼🎭 Consumer role.md>) if the [Token's Schema Code 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) is marked as SELF;
         - e.g., booking and ticket [Schema Codes 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) typically allow users to tap on for check-in when arrival at the place of destination, like a restaurant.
 
     - **When users tap/scan offline Tokens**: 
-        - when users tap or scan an offline [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) on a scanner of a [Consumer 💼 domain](<💼🎭 Consumer role.md>) (e.g., a printed flight ticket at an airport gate), the [Consumer 💼 domain](<💼🎭 Consumer role.md>) can validate the [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) without the need for a chat or any interactions with the [user's Broker 🤵 domain](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>).
+        - when users tap or scan an offline [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) on a scanner of a [Consumer 💼 domain](<💼🎭 Consumer role.md>) (e.g., a printed flight ticket at an airport gate), the [Consumer 💼 domain](<💼🎭 Consumer role.md>) can validate the [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) without the need for a chat or any interactions with the [user's Broker 🤵 domain](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>).
 
     - **When users tap Userables**: 
-        - when users tap a [Userable 💍](<../../25 🔆 Locators/Userables 💍/💍💠 Userable thing.md>) on the scanner of a [Consumer 💼 domain](<💼🎭 Consumer role.md>) (e.g., a wristband at an airport gate), the [Consumer 💼 domain](<💼🎭 Consumer role.md>) can ask the [user's Custodian 🧳 domain](<../../50 🫥 Agent domains/Custodians 🧳/🧳🫥 Custodian agent.md>) to silently share all [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) marked as public by the user and matching a list of expected [Schema Codes 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>);
+        - when users tap a [Userable 💍](<../../25 🔆 Locators/Userables 💍/💍💠 Userable thing.md>) on the scanner of a [Consumer 💼 domain](<💼🎭 Consumer role.md>) (e.g., a wristband at an airport gate), the [Consumer 💼 domain](<💼🎭 Consumer role.md>) can ask the [user's Custodian 🧳 domain](<../../50 🫥 Agent domains/Custodians 🧳/🧳🫥 Custodian agent.md>) to silently share all [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) marked as public by the user and matching a list of expected [Schema Codes 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>);
         - see [Userable at gates 💍🎬](<../../25 🔆 Locators/Userables 💍/💍⏩ Userable flows/💍🎬 Cross gates.md>) for details.
 
     ---
@@ -58,7 +58,7 @@
 
     Yes. Just like with first-party cookies on Web 2.0 internet. 
     
-    - [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) using a [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) marked as SELF are silently shared with [Consumer 💼 domains](<💼🎭 Consumer role.md>), who can then track users;
+    - [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) using a [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) marked as SELF are silently shared with [Consumer 💼 domains](<💼🎭 Consumer role.md>), who can then track users;
     - e.g., a luxury holding company with multiple brands may issue a loyalty card for a specific branded stored, then use that card to track the user across all businesses it manages.
 
     ---
@@ -68,7 +68,7 @@
 
     Yes, but that may produce a poor user experience.
 
-    - [SELF Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) are silently shared with Consumers who issued them, the same way the [Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) of a user's [Vault 🗄️ domain](<../Vaults 🗄️/🗄️🎭 Vault role.md>) is shared silently with the corresponding [Vault 🗄️ domain](<../Vaults 🗄️/🗄️🎭 Vault role.md>) - this allows for developers to choose either a [Consumer 💼](<💼🎭 Consumer role.md>) or [Vault 🗄️](<../Vaults 🗄️/🗄️🎭 Vault role.md>) role for personalized features. 
+    - [SELF Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) are silently shared with Consumers who issued them, the same way the [Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) of a user's [Vault 🗄️ domain](<../Vaults 🗄️/🗄️🎭 Vault role.md>) is shared silently with the corresponding [Vault 🗄️ domain](<../Vaults 🗄️/🗄️🎭 Vault role.md>) - this allows for developers to choose either a [Consumer 💼](<💼🎭 Consumer role.md>) or [Vault 🗄️](<../Vaults 🗄️/🗄️🎭 Vault role.md>) role for personalized features. 
     
     - Domain admins should evaluate the impact of one design decision over another when it comes to how the domain's relationship is presented to the user.
 
@@ -87,8 +87,8 @@
 
 1. **How do Consumers verify a Token's signature?**
 
-    When issuing [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>), the [Issuer 🎴 domains](<../Issuers 🎴/🎴🎭 Issuer role.md>) sign them with the same key-pair used in their [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) public key. 
-    - Other [domains 👥](<../../40 👥 Domains/👥 Domain.md>) can use the [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) key to verify the signature on the [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>).
+    When issuing [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>), the [Issuer 🎴 domains](<../Issuers 🎴/🎴🎭 Issuer role.md>) sign them with the same key-pair used in their [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) public key. 
+    - Other [domains 👥](<../../40 👥 Domains/👥 Domain.md>) can use the [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) key to verify the signature on the [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
 
     ---
     <br/>
@@ -97,14 +97,14 @@
 
     Yes. 
     
-    - NLWeb advocates for domains to ask [Graph 🕸 domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) for the [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) of the [Issuer 🎴 domain](<../Issuers 🎴/🎴🎭 Issuer role.md>) when verifying [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>). 
+    - NLWeb advocates for domains to ask [Graph 🕸 domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) for the [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) of the [Issuer 🎴 domain](<../Issuers 🎴/🎴🎭 Issuer role.md>) when verifying [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>). 
 
     ---
     <br/>
 
 1. **Can Consumers verify Tokens when Issuers rotate a DKIM?**
 
-    [Graph 🕸 domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) will find the [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) of the [Issuer 🎴 domain](<../Issuers 🎴/🎴🎭 Issuer role.md>) that was in use when the [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) was issued.
+    [Graph 🕸 domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) will find the [DKIM 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) of the [Issuer 🎴 domain](<../Issuers 🎴/🎴🎭 Issuer role.md>) that was in use when the [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) was issued.
 
     ---
     <br/>
@@ -119,9 +119,9 @@
 
 1. **Why aren't all Tokens validated online?**
 
-    In scenarios where physical gates need to allow for large influx of people (e.g., a concert or a subway station), it is quicker to validate the [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) offline at the edge, opening the gate if the [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) seems valid. 
+    In scenarios where physical gates need to allow for large influx of people (e.g., a concert or a subway station), it is quicker to validate the [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) offline at the edge, opening the gate if the [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) seems valid. 
     
-    * The [Consumer 💼 domain](<💼🎭 Consumer role.md>) may then perform an asynchronous validation of the [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>), marking it as expired in a local database so that the passage is blocked on the next pass.
+    * The [Consumer 💼 domain](<💼🎭 Consumer role.md>) may then perform an asynchronous validation of the [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>), marking it as expired in a local database so that the passage is blocked on the next pass.
 
     ---
     <br/>
@@ -130,7 +130,7 @@
 
     Yes. 
     
-    - Certain scenarios require the [Consumer 💼 domain](<💼🎭 Consumer role.md>) to verify if the person holding the [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) is the person to whom the [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) was issue to - e.g.:
+    - Certain scenarios require the [Consumer 💼 domain](<💼🎭 Consumer role.md>) to verify if the person holding the [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) is the person to whom the [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) was issue to - e.g.:
         - at an airport border control, automatic gates need to match the face of the passport holder with the biometric signature contained in the electronic passport. 
     
     - This requires an online request to an [Identity 🆔 domain](<../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) that is [bound 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to the user and [trusted 🫡](<../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) by the [Consumer 💼 domain](<💼🎭 Consumer role.md>), allowing the token to be matched to the holder without disclosing the holder's identity to the [Consumer 💼 domain](<💼🎭 Consumer role.md>):
@@ -157,7 +157,7 @@
 
 1. **How do sellers prevent swapping of identity Tokens?**
 
-    [Seller 💵 domains](<../Sellers 💵/💵🎭 Seller role.md>) can prevent frauds where users share their [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) with someone else.
+    [Seller 💵 domains](<../Sellers 💵/💵🎭 Seller role.md>) can prevent frauds where users share their [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) with someone else.
     - e.g., an adult may give their wallet's device to an under-aged child so that they can buy age-restricted goods at a self-service store. 
     
     In low-budget validations, 
@@ -166,7 +166,7 @@
     
     In offline scenarios, 
     - where users carry an NFC card or a printed QR, 
-    - the [Seller 💵 domain](<../Sellers 💵/💵🎭 Seller role.md>) takes a photo of the user with a fixed camera, and then asks the [Token's Identity 🆔 domain](<../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) to match the [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) with the picture.
+    - the [Seller 💵 domain](<../Sellers 💵/💵🎭 Seller role.md>) takes a photo of the user with a fixed camera, and then asks the [Token's Identity 🆔 domain](<../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) to match the [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) with the picture.
 
     ---
     <br/>
@@ -232,7 +232,7 @@
     |  Method | Purpose
     |-|-
     |[🗄️🐌 Consume](<💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>) | Collect user data from a [Vault 🗄️ domain](<../Vaults 🗄️/🗄️🎭 Vault role.md>)
-    | [🧑‍🦰🐌 Receive](<💼🅰️ Consumer methods/Receive 🧑‍🦰🐌💼/💼 Receive 🐌 msg.md>) | Receive [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) from a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+    | [🧑‍🦰🐌 Receive](<💼🅰️ Consumer methods/Receive 🧑‍🦰🐌💼/💼 Receive 🐌 msg.md>) | Receive [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) from a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     
     ---
     <br/>
@@ -242,9 +242,9 @@
     |  Flow | Purpose
     |-|-
     | [⏩🧑‍🦰 Query Vault](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Bind 👉🔗💼/🧑‍🦰 Share Bind ⏩ flow.md>) | Ask for [Schema Codes 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) in [Vaults 🗄️](<../Vaults 🗄️/🗄️🎭 Vault role.md>) 
-    | [⏩🧑‍🦰 Share Token](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token 👉🎫💼/🎫 Share Token ⏩ flow.md>) | Ask for [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) in  [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) 
-    | [⏩🧑‍🦰 Share ID Token](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token+ID 👉🆔💼/🧑‍🦰 Share Token+ID ⏩ flow.md>) | Ask for [Identity 🆔](<../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) bound [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
-    | [⏩🧑‍🦰 Token status](<💼⏩ Consumer flows/Token Status 💼⏩🎫/💼 Token Status ⏩ flow.md>) | Ask for the status of a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
+    | [⏩🧑‍🦰 Share Token](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token 👉🎫💼/🎫 Share Token ⏩ flow.md>) | Ask for [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) in  [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) 
+    | [⏩🧑‍🦰 Share ID Token](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token+ID 👉🆔💼/🧑‍🦰 Share Token+ID ⏩ flow.md>) | Ask for [Identity 🆔](<../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) bound [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
+    | [⏩🧑‍🦰 Token status](<💼⏩ Consumer flows/Token Status 💼⏩🎫/💼 Token Status ⏩ flow.md>) | Ask for the status of a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
 
     ---
     <br/>

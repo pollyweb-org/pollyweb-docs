@@ -32,7 +32,7 @@
 
     They ensure that the person physically holding the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     * is either is the mentioned in the identification document,
-    * or is the one to whom the [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) was issued to, 
+    * or is the one to whom the [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) was issued to, 
     * or is the one required to sign a given file.
 
     ---

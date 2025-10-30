@@ -4,9 +4,9 @@
 
 > Mentioned in [Verify Identity-bound Tokens 🆔](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 🆔⏩🎫 Verify Tokens.md>)
 
-Users can ask their [Identity 🆔 vault](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) for an age-related [Token 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/Tokens 🎫/🎫 Token.md>)
+Users can ask their [Identity 🆔 vault](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) for an age-related [Token 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
  (e.g., over 16 years old). 
-* At the casino, if users only have the [Token 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/Tokens 🎫/🎫 Token.md>)
+* At the casino, if users only have the [Token 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
  printed QR or in an NFC card, 
   * the casino then takes a picture of the user with a fixed camera, 
   * and ask the token's [Identity 🆔 vault](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) to match the picture. 
@@ -15,7 +15,7 @@ Users can ask their [Identity 🆔 vault](<../../../4 ⚙️ Solution/50 🫥 Ag
   * users tap/scan the gate,
   * the casino then opens a [Chat 💬](<../../../4 ⚙️ Solution/35 💬 Chats/Chats 💬/💬 Chat.md>)
  on the user's [Wallet 🧑‍🦰 app](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>), 
-  * asks to share the [Token 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/Tokens 🎫/🎫 Token.md>),
+  * asks to share the [Token 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>),
   *  then takes a picture to send to the token's [Identity 🆔 vault](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) to match it.
 
 <br/>

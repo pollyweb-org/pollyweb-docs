@@ -4,13 +4,13 @@
 
     ![](<../.📎 Assets/💳 Biller Domain.png>)
 
-    Users with ADMIN [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) sign contracts on behalf of [Issuer 🎴 domains](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) that issued them 
-    * e.g., for `any-biller.dom` to accept the signature of a user on behalf of `any-domain.dom`, the user needs to hold a [`.HOST/ADMIN 🧩`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🧩 Host schemas/🧩 HOST'ADMIN.md>) [Token](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) issued by `any-domain.dom`;
+    Users with ADMIN [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) sign contracts on behalf of [Issuer 🎴 domains](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) that issued them 
+    * e.g., for `any-biller.dom` to accept the signature of a user on behalf of `any-domain.dom`, the user needs to hold a [`.HOST/ADMIN 🧩`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🧩 Host schemas/🧩 HOST'ADMIN.md>) [Token](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) issued by `any-domain.dom`;
 
     The following additional preconditions must be met:
-    - the user has an [`.HOST/ADMIN 🧩`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🧩 Host schemas/🧩 HOST'ADMIN.md>) [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) issued by the domain.
+    - the user has an [`.HOST/ADMIN 🧩`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🧩 Host schemas/🧩 HOST'ADMIN.md>) [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) issued by the domain.
 
     The subscription workflow as the following additional steps:
-    - the [Seller 💵 domain](<../../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) asks the user to share the domain's [`.HOST/ADMIN 🧩`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🧩 Host schemas/🧩 HOST'ADMIN.md>) [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>).
+    - the [Seller 💵 domain](<../../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) asks the user to share the domain's [`.HOST/ADMIN 🧩`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🧩 Host schemas/🧩 HOST'ADMIN.md>) [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
 
     ---

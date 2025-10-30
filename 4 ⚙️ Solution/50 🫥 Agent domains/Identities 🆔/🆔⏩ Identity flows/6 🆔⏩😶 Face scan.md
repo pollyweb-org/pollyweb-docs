@@ -22,7 +22,7 @@
     | Presented | Question
     |-|-
     | 🧑‍🦰 [Wallet](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) | Is it really the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) owner holding the device?
-    |[🎫 Token](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)| Was the [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) really issued to the person holding the device?
+    |[🎫 Token](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)| Was the [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) really issued to the person holding the device?
     |[💍 Userable](<../../../25 🔆 Locators/Userables 💍/💍💠 Userable thing.md>)| Is it really the [Userable 💍](<../../../25 🔆 Locators/Userables 💍/💍💠 Userable thing.md>) owner [tapping 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>) it on a scanner?
   
     ---
@@ -81,7 +81,7 @@
 
     On NLWeb, the [face biometric verification 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/01 📺 Difference.md>) works as follows:
 
-    - the user always first presents *something they own* (e.g., a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)) plus context information (e.g., GPS coordinates and device configuration);
+    - the user always first presents *something they own* (e.g., a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)) plus context information (e.g., GPS coordinates and device configuration);
 
     - then the user almost always presents *who they are* (e.g., their face, with a liveness check), which may be skipped soon after a successful authentication around the same geographic region with the same device;
 
