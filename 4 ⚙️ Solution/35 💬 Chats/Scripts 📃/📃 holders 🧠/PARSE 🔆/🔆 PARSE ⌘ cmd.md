@@ -9,7 +9,7 @@
 1. **What's a PARSE command?**
    
    A `PARSE` 
-   * is a handler [Command ⌘](<../../📃 basics/⌘ Command.md>) 
+   * is a handler [Command ⌘](<../../📃 basics/Command ⌘.md>) 
    * that parses a [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>).
 
     ---
@@ -24,7 +24,7 @@
 
     | Inputs | Purpose
     |-|-
-    | `$locator` | [Holder 🧠](<../../📃 basics/$Holder 🧠.md>) with the [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to parse.
+    | `$locator` | [Holder 🧠](<../../📃 basics/Holder 🧠.md>) with the [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to parse.
 
     ---
     <br/>
@@ -37,7 +37,7 @@
     .HOST:1.0,any-host.dom,ANY-RESOURCE
     ```
 
-    Here's the [Script 📃](<../../📃 basics/📃 Script.md>).
+    Here's the [Script 📃](<../../📃 basics/Script 📃.md>).
 
     ```yaml
     - PARSE|$in >> $out

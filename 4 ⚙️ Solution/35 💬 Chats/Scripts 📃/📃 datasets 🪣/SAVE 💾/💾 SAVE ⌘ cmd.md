@@ -11,7 +11,7 @@
 1. **What is a SAVE command?**
 
     A `SAVE` 💾
-    * is a [Command ⌘](<../../📃 basics/⌘ Command.md>) 
+    * is a [Command ⌘](<../../📃 basics/Command ⌘.md>) 
     * that stores an item in an [Itemized 🛢 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
 
     ---
@@ -39,8 +39,8 @@
     | `<set>` | Name of the [Dataset 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | `MySet`
     | `{object}` | Item to update or insert in the pool | `MyKey` `$key`
     | `.Delete` | Automatic cleanup with [`{.Add}`](<../../📃 functions 🐍/🔩 {.Add}.md>) | `30 days`
-    | `.OnBlocked`| [`$Holder`](<../../📃 basics/$Holder 🧠.md>) name to set `True` | `onBlocked`
-    | `$inserted` | [Holder 🧠](<../../📃 basics/$Holder 🧠.md>) with the insertion | `$item`
+    | `.OnBlocked`| [`$Holder`](<../../📃 basics/Holder 🧠.md>) name to set `True` | `onBlocked`
+    | `$inserted` | [Holder 🧠](<../../📃 basics/Holder 🧠.md>) with the insertion | `$item`
 
     ---
     <br/>
@@ -89,7 +89,7 @@
 
     | Input| Purpose | Examples
     |-|-|-
-    | `$item` | [Holder 🧠](<../../📃 basics/$Holder 🧠.md>) loaded with [`GET`](<../GET 🧲/🧲 GET ⌘ cmd.md>)
+    | `$item` | [Holder 🧠](<../../📃 basics/Holder 🧠.md>) loaded with [`GET`](<../GET 🧲/🧲 GET ⌘ cmd.md>)
     | `{changes}` | Object with changes to apply | `{A:1, B:2}`
 
     ---
@@ -148,7 +148,7 @@
 
 1. **How to save with reference data?**
 
-    Here's a example [Script 📃](<../../📃 basics/📃 Script.md>).
+    Here's a example [Script 📃](<../../📃 basics/Script 📃.md>).
 
     ```yaml
     📃 Example:

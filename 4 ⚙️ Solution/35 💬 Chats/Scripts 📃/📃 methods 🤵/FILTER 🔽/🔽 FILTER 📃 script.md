@@ -2,7 +2,7 @@
 
 > Purpose
  
-* [Script 📃](<../../📃 basics/📃 Script.md>) that implements the [`FILTER` 🔽 command](<🔽 FILTER ⌘ cmd.md>)
+* [Script 📃](<../../📃 basics/Script 📃.md>) that implements the [`FILTER` 🔽 command](<🔽 FILTER ⌘ cmd.md>)
 
 ## Flow
 
@@ -24,7 +24,7 @@ Here are the outputs of the [`Parse@Hosted` 🅰️ method](<../../../../55 👷
 
 ## Script
 
-Here's the [Script 📃](<../../📃 basics/📃 Script.md>)
+Here's the [Script 📃](<../../📃 basics/Script 📃.md>)
 
 ```yaml
 📃 .FILTER:

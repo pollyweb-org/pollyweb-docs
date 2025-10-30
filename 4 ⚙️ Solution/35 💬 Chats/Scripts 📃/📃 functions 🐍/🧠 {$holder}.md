@@ -24,9 +24,9 @@
     INFO|{$p.A} # Prints "another property"
     ```
 
-    | [Command ⌘](<../📃 basics/⌘ Command.md>) | Purpose
+    | [Command ⌘](<../📃 basics/Command ⌘.md>) | Purpose
     |-|-
-    | ⬇️ [`EVAL`](<../📃 holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | To push an object into a [holder 🧠](<../📃 basics/$Holder 🧠.md>).
+    | ⬇️ [`EVAL`](<../📃 holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | To push an object into a [holder 🧠](<../📃 basics/Holder 🧠.md>).
     | ℹ️ [`INFO`](<../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the holder values.
     
     ---
@@ -45,7 +45,7 @@
 
     <br/>
     
-    Here's the [Script 📃](<../📃 basics/📃 Script.md>).
+    Here's the [Script 📃](<../📃 basics/Script 📃.md>).
         
     ```yaml
     # 😃 Talker 
@@ -55,9 +55,9 @@
     - INFO|Although you typed `{$n.Text}`
     ```
 
-    | [Command ⌘](<../📃 basics/⌘ Command.md>) | Purpose
+    | [Command ⌘](<../📃 basics/Command ⌘.md>) | Purpose
     |-|-
-    | ℹ️ [`INFO`](<../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the [holder 🧠](<../📃 basics/$Holder 🧠.md>) values.
+    | ℹ️ [`INFO`](<../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the [holder 🧠](<../📃 basics/Holder 🧠.md>) values.
     | ↕️ [`QUANTITY`](<../../Prompts 🤔/🤔✏️ Prompt inputs/QUANTITY ↕️/QUANTITY ↕️ prompt.md>) | To collect the number input.
     
 

@@ -1,6 +1,6 @@
 # 😃📃 `.BIND` script
 
-> [Script 📃](<../../📃 basics/📃 Script.md>) that implements the [`BIND`](<🔗 BIND ⌘ cmd.md>) command.
+> [Script 📃](<../../📃 basics/Script 📃.md>) that implements the [`BIND`](<🔗 BIND ⌘ cmd.md>) command.
 
 > Invokes the [`Bindable@Broker` 🅰️ method](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>)
 
@@ -61,8 +61,8 @@
 
 |Needs ||
 |-|-
-| [Commands ⌘](<../../📃 basics/⌘ Command.md>) | [`ASSERT`](<../../📃 holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`SAVE`](<../../📃 datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`SEND`](<../../📃 messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>)
+| [Commands ⌘](<../../📃 basics/Command ⌘.md>) | [`ASSERT`](<../../📃 holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`SAVE`](<../../📃 datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`SEND`](<../../📃 messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>)
 | [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Hook@Talker`](<../../../Talkers 😃/😃🪣 Talker tables/😃🪣 TalkerHooks 🪝 table.md>)
 | [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>)
-| [Holders 🧠](<../../📃 basics/$Holder 🧠.md>) | [`$.Chat`](<../../📃 holders 🧠/$.Chat 💬/💬 $.Chat 🧠 holder.md>)
+| [Holders 🧠](<../../📃 basics/Holder 🧠.md>) | [`$.Chat`](<../../📃 holders 🧠/$.Chat 💬/💬 $.Chat 🧠 holder.md>)
 |

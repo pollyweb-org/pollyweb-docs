@@ -18,7 +18,7 @@
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ This is the text
     |
 
-    Here's the [Script 📃](<../../Scripts 📃/📃 basics/📃 Script.md>).
+    Here's the [Script 📃](<../../Scripts 📃/📃 basics/Script 📃.md>).
     
     ```yaml
     - INFO|This is the text
@@ -32,7 +32,7 @@
     |Support | Details | Examples
     |-|-|-
     | Strings | Static text | `ABC` `123` `Any text`
-    | [Holders 🧠](<../../Scripts 📃/📃 basics/$Holder 🧠.md>) | Stored values | `$p` `$.Msg`
+    | [Holders 🧠](<../../Scripts 📃/📃 basics/Holder 🧠.md>) | Stored values | `$p` `$.Msg`
     | [Functions 🐍](<../../Scripts 📃/📃 functions 🐍/{Function} 🐍.md>) | Calculations | `f()` `f(*)` `{f}` `{f()}`
     | Interpolations   | Mixed text | `See {$p} and {f}.`
 
@@ -44,7 +44,7 @@
    
     |Type| Scope | Evaluated ✅ | Text ❌
     |-|-|-|-
-    | [Holders 🧠](<../../Scripts 📃/📃 basics/$Holder 🧠.md>) | Custom |`$p` `{$p}`| `p` `$p *`
+    | [Holders 🧠](<../../Scripts 📃/📃 basics/Holder 🧠.md>) | Custom |`$p` `{$p}`| `p` `$p *`
     | | Internal  |`$.Msg` `$.p` `{$.p}`| `.p` `$.p *`
     | [Functions 🐍](<../../Scripts 📃/📃 functions 🐍/{Function} 🐍.md>) | Custom |`f()` `f(*)` `{f}` | `f` `f() *`
     | | Internal |`.f()` `.f(*)` `{.f}` | `.f` `.f() *`

@@ -42,8 +42,8 @@
     
     | Input| Purpose | Example
     |-|-|-
-    | `Then` | [Script 📃](<../../../Scripts 📃/📃 basics/📃 Script.md>) or [Command ⌘](<../../../Scripts 📃/📃 basics/⌘ Command.md>) on `True` | `INFO\|OK`
-    | `Else` | [Script 📃](<../../../Scripts 📃/📃 basics/📃 Script.md>) or [Command ⌘](<../../../Scripts 📃/📃 basics/⌘ Command.md>) on `False` | `INFO\|NOK`
+    | `Then` | [Script 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>) or [Command ⌘](<../../../Scripts 📃/📃 basics/Command ⌘.md>) on `True` | `INFO\|OK`
+    | `Else` | [Script 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>) or [Command ⌘](<../../../Scripts 📃/📃 basics/Command ⌘.md>) on `False` | `INFO\|NOK`
     | `Emoji` | Optional [alternative emoji 😶](<../../🤔✏️ Prompt input features/😶 Input emojis.md>) | `😶`
     | `Details` | Optional [expandable details ⊕](<../../🤔⚙️ Prompt features/3 ⊕ with Details.md>) | `Hint...`
     | `Appendix` | Optional [file attachment 📎](<../../🤔⚙️ Prompt features/5 📎 with Appendix.md>) | `{/...}`
@@ -65,7 +65,7 @@
     <br/>
     
 
-    Here's the [Script 📃](<../../../Scripts 📃/📃 basics/📃 Script.md>).
+    Here's the [Script 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>).
 
     ```yaml
     # 😃 Talker
@@ -109,7 +109,7 @@
 
     <br/>
 
-    Here's the [Script 📃](<../../../Scripts 📃/📃 basics/📃 Script.md>).
+    Here's the [Script 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>).
 
     ```yaml
     # 😃 Talker

@@ -8,8 +8,8 @@
 1. **What's a RETURN command?**
 
     A `RETURN` ⤴️
-    * is a flow [Command ⌘](<../../📃 basics/⌘ Command.md>) 
-    * that leaves a [Script 📃](<../../📃 basics/📃 Script.md>) to its parent, 
+    * is a flow [Command ⌘](<../../📃 basics/Command ⌘.md>) 
+    * that leaves a [Script 📃](<../../📃 basics/Script 📃.md>) to its parent, 
     * and returns one of the following expressions.
     
     |Expression|Examples
@@ -49,14 +49,14 @@
 
 1. **What happens after a RETURN?**
 
-    Nothing runs on a [Script 📃](<../../📃 basics/📃 Script.md>) after the `RETURN`.
+    Nothing runs on a [Script 📃](<../../📃 basics/Script 📃.md>) after the `RETURN`.
 
     | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../Prompts 🤔/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ No failure occurred.
     |
     
-    Here's the [Script 📃](<../../📃 basics/📃 Script.md>).
+    Here's the [Script 📃](<../../📃 basics/Script 📃.md>).
 
     ```yaml
     📃 Example:
@@ -85,7 +85,7 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ Function return 1+2+3= `6`
     |
 
-    Here's the [Script 📃](<../../📃 basics/📃 Script.md>).
+    Here's the [Script 📃](<../../📃 basics/Script 📃.md>).
 
     ```yaml
     💬 Example:

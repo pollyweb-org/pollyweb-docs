@@ -1,6 +1,6 @@
 # 🤵📃 Join
 
-> [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/📃 Script.md>) that implements the [`Join@Broker`](<🤵 Join 🐌 msg.md>) method.
+> [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) that implements the [`Join@Broker`](<🤵 Join 🐌 msg.md>) method.
 
 ## Script
 

@@ -2,7 +2,7 @@
 
 # 🤵📃 Pop Token 🎫 
 
-> [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/📃 basics/📃 Script.md>) that implements [`Remove Token` 🎫 flow](<../../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Tokens 🎫/Remove 💬🎫🤵 /🧑‍🦰 Remove Token ⏩ flow.md>)
+> [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) that implements [`Remove Token` 🎫 flow](<../../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Tokens 🎫/Remove 💬🎫🤵 /🧑‍🦰 Remove Token ⏩ flow.md>)
 
 > Called by [`Pop@Broker` 🅰️ method](<../🤵 Pop 🐌 msg.md>)
 

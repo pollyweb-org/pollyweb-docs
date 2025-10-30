@@ -1,6 +1,6 @@
 # 😃📃 .ALARM ⏰ script
 
-> [Script 📃](<../../📃 basics/📃 Script.md>) that implements the [`ALARM`](<⏰ ALARM ⌘ cmd.md>) command 
+> [Script 📃](<../../📃 basics/Script 📃.md>) that implements the [`ALARM`](<⏰ ALARM ⌘ cmd.md>) command 
 
 ## How to run
 
@@ -36,9 +36,9 @@
 
 Needs||
 |-|-
-| [Commands ⌘](<../../📃 basics/⌘ Command.md>) | [`ASSERT`](<../../📃 holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`SEND`](<../../📃 messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>)
+| [Commands ⌘](<../../📃 basics/Command ⌘.md>) | [`ASSERT`](<../../📃 holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`SEND`](<../../📃 messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>)
 | [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Trigger@Alarm` 🅰️ method](<../../../../45 🤲 Helper domains/Alarms ⏰/⏰🅰️ Alarm methods/Trigger 👥🐌⏰/⏰ Trigger 🐌 msg.md>)
-| [Holders 🧠](<../../📃 basics/$Holder 🧠.md>) | [`$.Hosted`](<../../📃 holders 🧠/$.Hosted 📦/📦 $.Hosted 🧠 holder.md>)
+| [Holders 🧠](<../../📃 basics/Holder 🧠.md>) | [`$.Hosted`](<../../📃 holders 🧠/$.Hosted 📦/📦 $.Hosted 🧠 holder.md>)
 |
 
 ## Event handler

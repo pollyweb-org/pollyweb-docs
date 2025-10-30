@@ -12,7 +12,7 @@
     [Talkers 😃](<😃 Talker role.md>) 
     * are [domain 👥](<../../40 👥 Domains/👥 Domain.md>) roles
     * implemented by [Hoster ☁️ helper domains](<../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>).
-    * to run [Scripts 📃](<../Scripts 📃/📃 basics/📃 Script.md>) 
+    * to run [Scripts 📃](<../Scripts 📃/📃 basics/Script 📃.md>) 
     * for the purpose of rendering dialogs in a [💬 Chat](<../Chats 💬/💬 Chat.md>)
     
 
@@ -68,8 +68,8 @@
 
     |Method|Details
     |-|-
-    | 🧑‍💻🚀 [Placed](<😃🅰️ Talker methods/Placed 🧑‍💻🚀😃/😃 Placed 🚀 request.md>) | Returns the value of a [holder 🧠](<../Scripts 📃/📃 basics/$Holder 🧠.md>)
-    | 🧑‍💻🐌 [Place](<😃🅰️ Talker methods/Place 🧑‍💻🚀😃/😃 Place 🚀 request.md>) | Sets the value of a [holder 🧠](<../Scripts 📃/📃 basics/$Holder 🧠.md>)
+    | 🧑‍💻🚀 [Placed](<😃🅰️ Talker methods/Placed 🧑‍💻🚀😃/😃 Placed 🚀 request.md>) | Returns the value of a [holder 🧠](<../Scripts 📃/📃 basics/Holder 🧠.md>)
+    | 🧑‍💻🐌 [Place](<😃🅰️ Talker methods/Place 🧑‍💻🚀😃/😃 Place 🚀 request.md>) | Sets the value of a [holder 🧠](<../Scripts 📃/📃 basics/Holder 🧠.md>)
     | 🧑‍💻🐌 [Handled](<😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>) | Receives the evaluation of a [{Function} 🐍](<../Scripts 📃/📃 functions 🐍/{Function} 🐍.md>)
     
 

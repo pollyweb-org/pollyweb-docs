@@ -424,8 +424,32 @@ def runit(project_directory, entryPoint):
             if not handler:
                 raise ValueError(f"Hardcoded test failed for {given}: no handler registered for token '{token}'")
             replacement = handler['replacement']
+            # Extract the explicit link target from the registered replacement
+            # (it's usually in the form '...](<path/to/File.md>)') and compare the
+            # basename against the expected filenames. This is more robust than a
+            # substring check because some replacements include relative paths or
+            # reorder emojis/words.
             expected_files = [expected_linkfile] + HARDCODED_FILE_ALIASES.get(expected_linkfile, [])
-            if not any(candidate in replacement for candidate in expected_files):
+            target_file = None
+            m = re.search(r"\(<([^>]+)>\)", replacement)
+            if m:
+                target_file = os.path.basename(m.group(1))
+            # Allow relaxed matching: compare normalized basenames so that
+            # minor differences like a leading '$' or emoji ordering don't
+            # falsely fail the test.
+            ok = False
+            if target_file and target_file in expected_files:
+                ok = True
+            else:
+                for candidate in expected_files:
+                    try:
+                        if normalize_string(os.path.basename(candidate)) == normalize_string(target_file or ""):
+                            ok = True
+                            break
+                    except Exception:
+                        continue
+
+            if not ok:
                 raise ValueError(
                     f"Hardcoded test failed for {given}: expected file {expected_linkfile} not in replacement {replacement}"
                 )

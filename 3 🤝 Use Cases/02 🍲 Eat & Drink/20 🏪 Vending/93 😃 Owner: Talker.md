@@ -2,7 +2,7 @@
 
 > From [🏪 Drink at vending machines](<01 🏪 Index.md>)
 
-> [Script 📃](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 basics/📃 Script.md>) for:
+> [Script 📃](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) for:
   * [Buy water 💧 ](<11 💧 Buy water.md>)
   * [Buy beer 🍺 ](<12 🍺 Buy beer.md>)
 
@@ -96,7 +96,7 @@ TODO: Add the flow to the Manifest
 
 ## Commands
 
-|Type|[Command ⌘](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 basics/⌘ Command.md>)|Purpose
+|Type|[Command ⌘](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 basics/Command ⌘.md>)|Purpose
 |-|-|-
 |Data| 🧲 [`GET`](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) | Look up items and machines
 |Input | 🔢 [`DIGITS`](<../../../4 ⚙️ Solution/35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/DIGITS 🔢/DIGITS 🔢 prompt.md>) | Ask for item number

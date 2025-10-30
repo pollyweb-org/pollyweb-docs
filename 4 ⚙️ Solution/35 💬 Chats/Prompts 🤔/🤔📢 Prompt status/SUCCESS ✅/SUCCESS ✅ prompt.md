@@ -99,7 +99,7 @@
     
     <br/>
 
-    Here's the [Script 📃](<../../../Scripts 📃/📃 basics/📃 Script.md>).
+    Here's the [Script 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>).
     
     ```yaml
     📃 Example:

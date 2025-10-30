@@ -39,9 +39,14 @@ Failed Tests:
 
 Successful Tests:
 
+  - Given: "{{Holder}}"
+    LinkText: "Holder 🧠"
+    LinkFile: "Holder 🧠.md"
+    Reasons: This is hardcoded.
+
   - Given: '{{Holders}}'
     LinkText: "Holders 🧠"
-    LinkFile: "$Holder 🧠.md"
+    LinkFile: "Holder 🧠.md"
     Reasons: This is hardcoded.
 
   - Given: '{{Trust}}'
@@ -122,11 +127,6 @@ Successful Tests:
     LinkText: "`GET`"
     LinkFile: "🧲 GET ⌘ cmd.md"
     Reasons: same as {{RETURN}}.
-
-  - Given: "{{Holder}}"
-    LinkText: "Holder 🧠"
-    LinkFile: "$Holder 🧠.md"
-    Reasons: This is hardcoded.
 
   - Given: "{{Script}}"
     LinkText: "Script 📃"
@@ -215,12 +215,12 @@ Successful Tests:
 
   - Given: '{{Commands}}'
     LinkText: "Commands ⌘"
-    LinkFile: "⌘ Command.md"
+    LinkFile: "Command ⌘.md"
     Reasons: This is hardcoded.
 
   - Given: '{{Command}}'
     LinkText: "Command ⌘"
-    LinkFile: "⌘ Command.md"
+    LinkFile: "Command ⌘.md"
     Reasons: This is hardcoded.
 
   - Given: '{{TalkerHooks table}}' 

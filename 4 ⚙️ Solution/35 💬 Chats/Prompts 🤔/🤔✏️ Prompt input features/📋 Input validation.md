@@ -61,7 +61,7 @@
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 What's the code? [+]<br/> | `012345`
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ Code validated!
 
-    Here's the [Script 📃](<../../Scripts 📃/📃 basics/📃 Script.md>).
+    Here's the [Script 📃](<../../Scripts 📃/📃 basics/Script 📃.md>).
 
     ```yaml
     📃 Example:
@@ -96,7 +96,7 @@
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ Code validated!
     |
 
-    Here's the [Script 📃](<../../Scripts 📃/📃 basics/📃 Script.md>).
+    Here's the [Script 📃](<../../Scripts 📃/📃 basics/Script 📃.md>).
 
     ```yaml
     # Talker 😃
