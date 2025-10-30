@@ -25,7 +25,7 @@ Header:
     Subject: Placed@Talker
 
 Body:
-    Chat: <chat-uuid>
+    Hook: <hook-uuid>
     Holder: $p
 ```
 
@@ -35,7 +35,7 @@ Body:
 | Header    | `From`        | string    | [Host 🤗 domain](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) name
 |           | `To`          | string    | [Hoster ☁️ domain](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) name
 |           | `Subject`     | string    | `Placed@Talker`
-| Body      | `Chat`      | uuid      | [Chat 💬](<../../../Chats 💬/💬 Chat.md>) ID
+| Body      | `Hook`      | uuid      | Hook from [`Handle@Hosted`](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>)
 |           | `Holder` | string    | [Holder 🧠](<../../../Scripts 📃/📃 basics/Holder 🧠.md>) name
 |
 

@@ -1,3 +1,4 @@
+<!-- TODO: Review the code, now with Hook instead of chat -->
 <!-- TODO -->
 
 # 😃📃 Placed handler
@@ -19,8 +20,8 @@
 
 # Assert the inputs
 - ASSERT|$.Msg:
-    AllOf: Chat, Holder
-    UUIDs: Chat
+    AllOf: Hook, Holder
+    UUIDs: Hook
     Texts: Holder
 
 # Get the holder

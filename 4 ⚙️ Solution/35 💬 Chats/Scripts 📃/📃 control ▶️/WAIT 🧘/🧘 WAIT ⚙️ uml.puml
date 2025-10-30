@@ -2,24 +2,34 @@
 
 box Talker 😃 domain #FFFFFA
     participant "Script 📃" as script
-    participant ".WAIT 📃" as talker
+    participant ".WAIT 📃" as wait
     participant "Holders 🪣" as holders
     participant "Hooks 🪣" as hooks
+    participant "Engine ⚙️" as engine
 end box
 
 
 activate script
-    script -> talker: WAIT 🧘 {hook} 
+    script -> wait: WAIT 🧘 {hook} 
 deactivate script
 
-activate talker
+activate wait
 
-    talker -> talker: PARALLEL {.Holders}
-    activate talker
-        talker -> holders: SAVE 💾 {holder:value}
-    deactivate talker
- 
-    talker -> hooks: SAVE 💾 {hook, $.Cursor, holder names}
-deactivate talker
-          
+    wait -> hooks: SAVE 💾 {hook, $.Script, $.Holders.Holder}
+
+    wait -> wait: PARALLEL {$.Holders}
+    activate wait
+        wait -> holders: SAVE 💾 {hook, holder, value}
+        wait -> engine: EXIT
+    deactivate wait
+
+deactivate wait
+
+engine <- : REEL 🎣 {hook, return}
+activate engine
+    engine -> script: RETURN {return}
+deactivate engine
+
+activate script    
+    
 @enduml

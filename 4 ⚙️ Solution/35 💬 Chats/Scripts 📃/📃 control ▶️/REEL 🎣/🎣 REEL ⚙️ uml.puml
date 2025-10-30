@@ -11,17 +11,17 @@ box Talker 😃 domain #FFFFFA
 end box
 
 
-domain --> inbox: 🐌 {hook}
+domain --> inbox: 🐌 {hook, out}
 
 activate inbox
-    inbox -> reel:  REEL 🎣 {hook}
+    inbox -> reel:  REEL 🎣 {hook, out}
 deactivate inbox
 
 activate reel
     reel -> hooks: GET {hook}
     
     activate hooks
-        hooks -> reel: {caller, cursor, holders}
+        hooks -> reel: {caller, script, holders}
     deactivate hooks
 
     group Load holders into memory
@@ -39,7 +39,7 @@ activate reel
 
     end group
 
-    reel -> caller: RUN {cursor}
+    reel -> caller: exit {script}  with {out}
 
 deactivate reel
 
