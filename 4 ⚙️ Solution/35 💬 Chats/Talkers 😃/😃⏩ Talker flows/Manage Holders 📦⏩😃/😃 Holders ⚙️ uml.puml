@@ -1,44 +1,59 @@
 @startuml Handle
 
-box Business #FFFFFA
+box Talker 😃 domain #FFFFFA
     participant "Script 📃" as script
-    participant "Talker 😃" as talker
-
-    participant "Hosted 📦" as hosted
+    participant "Engine ⚙️" as engine
+    participant "Memory 🧠" as memory
+    participant "Holders 🪣" as holders
+    participant "Inbox 📨" as inbox
 end box
 
+participant "Hosted 📦" as hosted
+
 activate script
-    script --> talker: EVAL {X into $A}
-    script --> talker: EVAL {function} 
+    script -> engine: EVAL {X into $A}
+    activate engine
+        engine -> memory: GET 🧲 {A}
+    deactivate engine
+
+    script -> engine: EVAL {function} 
 deactivate script
 
 
-activate talker
-    talker --> hosted: Handle 🐌 {function, hook}
+activate engine
+    engine --> hosted: Handle 🐌 {function, hook}
 activate hosted
-    talker -> talker: WAIT 🧘 {hook}
-deactivate talker
+    engine -> holders: WAIT 🧘 {hook}
+deactivate engine
           
-    hosted -> talker: Placed 🚀 {$A}
+    hosted -> inbox: Placed 🚀 {$A}
 
-    activate talker
-        talker -> hosted: {X}
-    deactivate talker
+    activate inbox
+        inbox -> holders: GET 🧲 {A}
+        inbox -> hosted: {X}
+    deactivate inbox
 
-    hosted -> talker: Place 🚀 {Y into $B}
+    hosted -> inbox: Place 🚀 {Y into $B}
+    activate inbox
+        inbox -> holders: SAVE 💾 {B:Y}
+    deactivate inbox
 
-    hosted --> talker: Handled 🐌 {hook}
+    hosted --> inbox: Handled 🐌 {hook}
 deactivate hosted
 
-activate talker
-    talker --> script: REEL 🎣 {hook}
-deactivate talker
+activate inbox
+    inbox -> engine: REEL 🎣 {hook}
+deactivate inbox
+
+activate engine
+    engine -> script: RETURN
+deactivate engine
 
 activate script
-    script -> talker: EVAL {$B}
-activate talker
-    talker -> script: {Y}
-deactivate talker
+    script -> engine: EVAL {$B}
+activate engine
+    engine -> script: {Y}
+deactivate engine
 deactivate script
 
 
