@@ -8,7 +8,7 @@
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 
 * Gets the schema of a [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) 
-    * as defined in [`.MANIFEST/CODE` 🧩](<../../../30 🧩 Data/Manifests 📜/🧩 Manifest schemas/🧩 CODE.md>) 
+    * as defined in [`.MANIFEST/CODE` 🧩](<../../../30 🧩 Data/Manifests 📜/📜🧩 Manifest schemas/🧩 CODE.md>) 
     * of [domain Manifests 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>).
 * When the schema references other schemas with `$ref`, 
     * this method returns the final merged schema for independent validation 

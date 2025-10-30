@@ -123,7 +123,7 @@
 1. **What does it mean when a YAML content starts with 🤝?**
 
     When YAML content starts with `🤝: {Schema Code}`,
-    * e.g., `🤝:` [`.MANIFEST/CODE`](<../Manifests 📜/🧩 Manifest schemas/🧩 CODE.md>)
+    * e.g., `🤝:` [`.MANIFEST/CODE`](<../Manifests 📜/📜🧩 Manifest schemas/🧩 CODE.md>)
     * it means that the following YAML content should comply with the given [Schema 🧩](<🧩 Schema Code.md>) defined.
     * This allows readers to validate the YAML content by pulling the validation schema from the [`Schema@Graph`](<../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema.md>).
     
@@ -136,8 +136,8 @@
 
     | Schema | Description
     |-|-
-    | [`.MANIFEST/CODE` 🧩](<../Manifests 📜/🧩 Manifest schemas/🧩 CODE.md>) | CODE properties
-    | [`.MANIFEST/DELEGATE` 🧩](<../Manifests 📜/🧩 Manifest schemas/🧩 DELEGATE.md>) | Delegation to other [Authorities 🏛️](<../../45 🤲 Helper domains/Authorities 🏛️/🏛️🤲 Authority helper.md>)
+    | [`.MANIFEST/CODE` 🧩](<../Manifests 📜/📜🧩 Manifest schemas/🧩 CODE.md>) | CODE properties
+    | [`.MANIFEST/DELEGATE` 🧩](<../Manifests 📜/📜🧩 Manifest schemas/🧩 DELEGATE.md>) | Delegation to other [Authorities 🏛️](<../../45 🤲 Helper domains/Authorities 🏛️/🏛️🤲 Authority helper.md>)
     | [`.TYPES` 🧩](<../../../7 🧩 Codes/$/🧩 TYPES code.md>) | Generic referenceable types
 
     ---
@@ -167,7 +167,7 @@
 
     Yes. 
     - NLWeb schemas are defined by [JSON Schema](https://json-schema.org/understanding-json-schema/reference) converted to YAML.
-    - Details are available at [`nlweb.dom/MANIFEST/CODE` 🧩](<../Manifests 📜/🧩 Manifest schemas/🧩 CODE.md>).
+    - Details are available at [`nlweb.dom/MANIFEST/CODE` 🧩](<../Manifests 📜/📜🧩 Manifest schemas/🧩 CODE.md>).
   
 
     Consider the following example from [`standards.any-igo.dom` 📜](<../../../8 📜 Manifests/👥 any-igo.dom/📜 standards.any-igo.dom.md>).
@@ -208,7 +208,7 @@
 
     Yes.
     * Using the `Inherits` property
-        * defined in [`.MANIFEST/CODE` 🧩](<../Manifests 📜/🧩 Manifest schemas/🧩 CODE.md>).
+        * defined in [`.MANIFEST/CODE` 🧩](<../Manifests 📜/📜🧩 Manifest schemas/🧩 CODE.md>).
     * Consider [`.LOCATOR` 🧩](<../../../7 🧩 Codes/$/🧩 LOCATOR code.md>)
         * who defines properties `Schema`, `Domain`, `Resource`.
     * It is inherited by [`.TOKEN` 🧩](<../Tokens 🎫/🧩 Token schemas/🧩 TOKEN.md>)
@@ -224,15 +224,15 @@
 
     Yes, 
     * using the `$ref` keyword from JSON Schema 
-    * as defined in [`.MANIFEST/CODE` 🧩](<../Manifests 📜/🧩 Manifest schemas/🧩 CODE.md>).
+    * as defined in [`.MANIFEST/CODE` 🧩](<../Manifests 📜/📜🧩 Manifest schemas/🧩 CODE.md>).
     
-    Consider [`.MANIFEST` 🧩](<../Manifests 📜/🧩 Manifest schemas/🧩 MANIFEST.md>):
-    * it references [`.MANIFEST/ABOUT` 🧩](<../Manifests 📜/🧩 Manifest schemas/🧩 ABOUT.md>)
+    Consider [`.MANIFEST` 🧩](<../Manifests 📜/📜🧩 Manifest schemas/🧩 MANIFEST.md>):
+    * it references [`.MANIFEST/ABOUT` 🧩](<../Manifests 📜/📜🧩 Manifest schemas/🧩 ABOUT.md>)
         ```yaml
         About:
           $ref: nlweb.dom/MANIFEST/ABOUT:1.0
         ```
-    * and references [`.MANIFEST/TRUST` 🧩](<../Manifests 📜/🧩 Manifest schemas/🧩 TRUST.md>).
+    * and references [`.MANIFEST/TRUST` 🧩](<../Manifests 📜/📜🧩 Manifest schemas/🧩 TRUST.md>).
         ```yaml
         Trusts:
         type: array
@@ -246,7 +246,7 @@
 1. **Can a Schema reference a specific property of another Schema?**
 
     Yes.
-    * See [`.MANIFEST/TRUST` 🧩](<../Manifests 📜/🧩 Manifest schemas/🧩 TRUST.md>)
+    * See [`.MANIFEST/TRUST` 🧩](<../Manifests 📜/📜🧩 Manifest schemas/🧩 TRUST.md>)
         * whose property `Domain`
         * references `Domain@.TYPES`
         * defined in [`.TYPES` 🧩](<../../../7 🧩 Codes/$/🧩 TYPES code.md>).
