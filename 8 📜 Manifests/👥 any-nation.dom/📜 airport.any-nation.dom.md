@@ -1,5 +1,5 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest.md>): airport.any-nation.dom
+# 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>): airport.any-nation.dom
 <!--# 🏳️🛩️ https://quip.com/YJvcAJB72qzI-->
 
 ```yaml

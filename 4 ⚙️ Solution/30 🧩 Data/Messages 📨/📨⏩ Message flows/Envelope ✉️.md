@@ -103,7 +103,7 @@
     | Format | Rational
     |-|-
     | `JSON` | Structured JSON for machine-to-machine payloads, because it's faster and widely supported by cloud providers; e.g.: <br/>• [domain Messages 📨](<../📨 Message.md>) between any two [domains 👥](<../../../40 👥 Domains/👥 Domain.md>), <br/>• data sharing between a [Vault 🗄️](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) and a [Consumer 💼](<../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) domains, <br/>• payments between a [Payer 💳](<../../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) and a [Collector 🏦](<../../../45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) domains.
-    | `YAML` | Structured YAML for human-to-machine settings, because it supports comments and it's easier for humans to read, while still supporting schema validations; <br/>• e.g.: [Schema Codes 🧩](<../../Codes 🧩/🧩 Schema Code.md>) and [domain Manifests 📜](<../../Manifests 📜/📜 Manifest.md>).
+    | `YAML` | Structured YAML for human-to-machine settings, because it supports comments and it's easier for humans to read, while still supporting schema validations; <br/>• e.g.: [Schema Codes 🧩](<../../Codes 🧩/🧩 Schema Code.md>) and [domain Manifests 📜](<../../Manifests 📜/📜 Manifest/📜 Manifest.md>).
     | `MARKDOWN` | Unstructured MARKDOWN for human-to-LLM instructions, when schema validations are not required; <br/>• e.g., description of products and services by business owners (like a detailed restaurant menu) for user [Curator 🧚 agents](<../../../50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) to filter on behalf of users.
     
     ---

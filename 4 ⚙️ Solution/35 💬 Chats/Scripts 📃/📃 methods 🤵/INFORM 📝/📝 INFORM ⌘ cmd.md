@@ -18,7 +18,7 @@
     * is a message [Command ⌘](<../../📃 basics/Command ⌘.md>) 
     * that informs that a new form is starting
     * by triggering the [Host Inform ⏩ flow](<../../../../41 🎭 Domain Roles/Consumers 💼/💼⏩ Consumer flows/Inform 💼⏩📝/💼 Inform ⏩ flow.md>)
-    * and passing the form key in the Host's [Manifest 📜](<../../../../30 🧩 Data/Manifests 📜/📜 Manifest.md>).
+    * and passing the form key in the Host's [Manifest 📜](<../../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>).
 
 
     ---
@@ -57,7 +57,7 @@
 
     <br/>
 
-    Here's the [Manifest 📜](<../../../../30 🧩 Data/Manifests 📜/📜 Manifest.md>).
+    Here's the [Manifest 📜](<../../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>).
     ```yaml
     Forms:
       TableOrder:

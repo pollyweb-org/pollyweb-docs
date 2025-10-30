@@ -1,5 +1,5 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest.md>): any-igo.dom
+# 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>): any-igo.dom
 <!--# 🇺🇳 https://quip.com/OV9hAzKhb8Wf/-UNorg-->
 
 ```yaml

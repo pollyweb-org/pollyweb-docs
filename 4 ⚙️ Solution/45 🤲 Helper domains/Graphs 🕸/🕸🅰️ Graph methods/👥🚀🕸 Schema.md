@@ -9,7 +9,7 @@
 
 * Gets the schema of a [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) 
     * as defined in [`.MANIFEST/CODE` 🧩](<../../../30 🧩 Data/Manifests 📜/🧩 Manifest schemas/🧩 CODE.md>) 
-    * of [domain Manifests 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest.md>).
+    * of [domain Manifests 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>).
 * When the schema references other schemas with `$ref`, 
     * this method returns the final merged schema for independent validation 
     * i.e., there's no need for further calls to get the referenced schemas.

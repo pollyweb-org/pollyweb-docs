@@ -1,0 +1,102 @@
+📜 Domain Manifests
+===
+
+
+1. **How do domains publicize their identity?**
+
+    In NLWeb, [domains 👥](<../../../40 👥 Domains/👥 Domain.md>) publish their metadata in the form a [domain Manifest 📜](<📜 Manifest.md>).
+
+    ---
+    <br/>
+
+
+1. **How can a domain inspect another domain's Manifest?**
+
+    [Domains 👥](<../../../40 👥 Domains/👥 Domain.md>) leverage Manifest 📜 caches, called [Graph 🕸 domains](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>), that keep up-to-date representations of NLWeb [domain Manifests 📜](<📜 Manifest.md>).
+    * Manifest queries to these [Graphs 🕸](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) are synchronous and expected to have millisecond latency.
+    * This is similar to what DNS records do for Web 2.0, but with a more complex data schema. 
+
+    ---
+    <br/>
+
+
+1. **How does it work?**
+
+    ![](<📜 Manifest ⚙️ uml.png>)
+
+    Each [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) sends the content of their [domain Manifests 📜](<📜 Manifest.md>) in parts or in full to a [Listener 👂 helper domain](<../../../45 🤲 Helper domains/Listeners 👂/👂🤲 Listener helper.md>), who then propagates it to [Graph 🕸 domains](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>).
+
+    |Step|Description
+    |-|-
+    |A| When a [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) sends a request to another
+    |B| the recipient queries a [Graph 🕸 helper domain](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) for information about the sender to assess its [trustworthiness 🫡](<../../Trusts 🫡/🫡 Domain Trust.md>)
+    |C| and only then responds successfully.
+    
+
+    ---
+    <br/>
+
+1. **What information can be added to a Manifest?**
+
+    Manifests are defined by [`.MANIFEST` 🧩](<../🧩 Manifest schemas/🧩 MANIFEST.md>) and can include the following sections.
+
+    |Section|Purpose | Schemas
+    |-|-|-
+    | 🤗 [Host About](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | Domain identification (mandatory). | [`./ABOUT` 🧩](<../🧩 Manifest schemas/🧩 ABOUT.md>) 
+    | 🫡 [Domain Trusts](<../../Trusts 🫡/🫡 Domain Trust.md>) | Trusted domains, Codes, and roles. | [`./TRUST` 🧩](<../🧩 Manifest schemas/🧩 TRUST.md>)
+    |  🧩 [Schema Codes](<../../Codes 🧩/🧩 Schema Code.md>) | Defined by the domain. | [`./CODE` 🧩](<../🧩 Manifest schemas/🧩 CODE.md>)  | Schema validation of a Code
+    |  🧩 [Delegated Codes](<../../Codes 🧩/🧩 Schema Code.md>) | Codes delegated to other domains. | [`./DELEGATE` 🧩](<../🧩 Manifest schemas/🧩 DELEGATE.md>)
+    | 🪢 [Integrations](<../../../41 🎭 Domain Roles/Integrators 🪢/🪢🎭 Integrator role.md>) |Synchronous datasets, <br/>asynchronous supplies, <br/>and streaming endpoints. | [`./OFFER` 🧩](<../🧩 Manifest schemas/🧩 OFFER.md>)
+    | [Chat 💬 Flows](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) | To explain what user data is request.
+
+    ---
+    <br/>
+
+1. **What are examples of manifests?**
+
+    | Category | Example 📜 
+    |-|-
+    | `💼 Businesses` | [🏳️🧋 Any Coffee Shop](<../../../../8 📜 Manifests/🌐 Businesses/📜 cafe.any-business.dom.md>)
+    || [🏳️🅿️ Any Parking](<../../../../8 📜 Manifests/🌐 Businesses/📜 carpark.any-business.dom.md>)
+    || [🏳️🎰 Any Casino](<../../../../8 📜 Manifests/🌐 Businesses/📜 casino.any-business.dom.md>)
+    || [🇸🇬💈 Any Hairdresser, Singapore](<../../../../8 📜 Manifests/🌐 Businesses/📜 hairdresser.any-business.dom.md>)
+    |`💳 Payments`| [🏳️🪙 Any Bank](<../../../../8 📜 Manifests/🌐 Payments/📜 any-bank.dom.md>)
+    || [🏳️🏦 Any Collector](<../../../../8 📜 Manifests/🌐 Payments/📜 any-collector.dom.md>)
+    || [🏳️💰 Any Exchange](<../../../../8 📜 Manifests/🌐 Payments/📜 any-exchange.dom.md>)
+    || [🏳️💳 Any Payer](<../../../../8 📜 Manifests/🌐 Payments/📜 any-payer.dom.md>)
+    || [🏳️🏧 Any Cash Machine](<../../../../8 📜 Manifests/🌐 Payments/📜 atm.any-fintech.dom.md>)
+    |`✈️ Airlines` | [🏳️🛫 Any Airport](<../../../../8 📜 Manifests/👥 any-nation.dom/📜 airport.any-nation.dom.md>)
+    | | [🏳️💺 Any Airline](<../../../../8 📜 Manifests/🌐 Businesses/📜 airline.any-business.dom.md>)
+    || [🌐💺 Any IGO Airlines](<../../../../8 📜 Manifests/👥 any-igo.dom/📜 airlines.any-igo.dom.md>)
+    || [🌐✈️ All Aviation Members](<../../../../8 📜 Manifests/👥 any-igo.dom/📜 aviation.any-igo.dom.md>)
+    | `🫱🏼‍🫲🏽 Non Profits` | [🌐 Emojis](<../../../../8 📜 Manifests/👥 any-igo.dom/📜 emojis.any-igo.dom.md>)   
+    || [🌐 Unicode Common Locale Data Repository (CLDR)](<../../../../8 📜 Manifests/👥 any-igo.dom/📜 locale.any-igo.dom.md>)
+    || [🌐 ISO, International Organization for Standardization](<../../../../8 📜 Manifests/👥 any-igo.dom/📜 standards.any-igo.dom.md>)
+    || [🌐☎️ ITU - International Telecommunication Union](<../../../../8 📜 Manifests/👥 any-igo.dom/📜 telcos.any-igo.dom.md>)
+    || [🌐 Unicode](<../../../../8 📜 Manifests/👥 any-igo.dom/📜 unicode.any-igo.dom.md>)
+    | `🌐 Inter-gov Orgs`| [🌐🏥 World Health Organization](<../../../../8 📜 Manifests/👥 any-igo.dom/📜 health.any-igo.dom.md>)
+    || [🌐 Nation Members of Any IGO](<../../../../8 📜 Manifests/👥 any-igo.dom/📜 nations.any-igo.dom.md>)
+    | `🏳️ Any Nation`| [🏳️🏛️ Any Nation's Government](<../../../../8 📜 Manifests/👥 any-nation.dom/📜 any-nation.dom.md>)
+    || [🏳️🆔 Any Nation's Biometric Center](<../../../../8 📜 Manifests/👥 any-nation.dom/📜 biometrics.any-nation.dom.md>)
+    || [🏳️🏥 Any Nation's Health Services](<../../../../8 📜 Manifests/👥 any-nation.dom/📜 health.any-nation.dom.md>)
+    || [🏳️🏦 Any Nation's Tax Services](<../../../../8 📜 Manifests/👥 any-nation.dom/📜 taxes.any-nation.dom.md>)
+    |`🇺🇸 United States`| [🇺🇸 U.S. Government](<../../../../8 📜 Manifests/👥 usa.gov/📜 usa.gov.md>)
+    || [🇺🇸🏥 U.S. Department of Health & Human Services](<../../../../8 📜 Manifests/🌐 Vaults/📜 hhs.gov.md>)
+    || [🇺🇸🆔 U.S. Department of State](<../../../../8 📜 Manifests/🌐 Vaults/📜 state.gov.md>)
+    || [🇺🇸🏦 Federal Reserve of the United States](<../../../../8 📜 Manifests/👥 usa.gov/📜 federalreserve.gov.md>)
+    |`🇪🇺 European Union`| [🇪🇺 European Union](<../../../../8 📜 Manifests/👥 europa.eu/📜 europa.eu/📜 europa.eu.md>)
+    || [🇪🇺 European Commission](<../../../../8 📜 Manifests/👥 europa.eu/📜 europa.eu/📜 ec.europa.eu.md>)
+    || [🇪🇺🏦 European Central Bank](<../../../../8 📜 Manifests/👥 europa.eu/📜 europa.eu/📜 ecb.europa.eu.md>)
+    | `🌍 Other Nations`| [🇲🇹 Government of Malta](<../../../../8 📜 Manifests/👥 Authorities/📜 gov.mt.md>)
+    || [🇮🇹 Italian Government](<../../../../8 📜 Manifests/👥 Authorities/📜 governo.it.md>) 
+    | `🤲 Helper domains` | [🔥 Any Firewall](<../../../../8 📜 Manifests/🌐 Backbone/📜 any-firewall.dom.md>)
+    || [🕸️ Any Graph](<../../../../8 📜 Manifests/🌐 Backbone/📜 any-graph.dom.md>)
+    || [🕸️🇪🇺 Graph of European Union](<../../../../8 📜 Manifests/🌐 Backbone/📜 graph.amazon.com.md>)
+    || [🕸️☁️ Amazon Graph](<../../../../8 📜 Manifests/🌐 Backbone/📜 graph.amazon.com.md>)
+    || [👂 Any Listener](<../../../../8 📜 Manifests/🌐 Backbone/📜 any-listener.dom.md>)
+    || [👂☁️ Amazon Listener](<../../../../8 📜 Manifests/🌐 Backbone/📜 listener.amazon.com.md>)
+    |`👱 Wallet domains`|  [🤵 Any Broker](<../../../../8 📜 Manifests/🌐 Brokers/📜 any-broker.dom.md>)
+    || [📣 Any Wallet Notifier](<../../../../8 📜 Manifests/🌐 Brokers/📜 any-notifier.dom.md>)
+
+    ---
+    <br/>

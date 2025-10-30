@@ -50,7 +50,7 @@
     - SUCCESS|Done!
     ```
 
-    The `Flow` section of the [Vault's Manifest 📜](<../Manifests 📜/📜 Manifest.md>) may look like the following.
+    The `Flow` section of the [Vault's Manifest 📜](<../Manifests 📜/📜 Manifest/📜 Manifest.md>) may look like the following.
 
     ```yaml
     Flows:

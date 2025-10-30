@@ -1,5 +1,5 @@
 
-# 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest.md>): carpark.any-business.dom
+# 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>): carpark.any-business.dom
 <!--# 🏳️🅿️ https://quip.com/0feVAAuto4SI-->
 
 ```yaml
