@@ -8,7 +8,7 @@
 
 > Purpose
 
-* Updates the status of a [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>).
+* Updates the status of a [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
 
 > Used by
 * [🎴⏩🧑‍🦰 Revise Token @ Issuer](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴⏩ Issuer flows/Revise Token 🎴⏩🧑‍🦰/🎴 Revise Token ⏩ flow.md>) flow
@@ -39,7 +39,7 @@ Body:
 | |`To`|string|[Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) name
 | |`Subject`|string|`Revoke@Broker`
 |Body|`Chat`|string|[Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID
-| |`Token`|string|[Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ID
+| |`Token`|string|[Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) ID
 | |`Action`| enum | `REVOKE` `SUSPEND` `ACTIVATE` `UPDATE`
 | |`Starting`| timestamp | Start date and time
 | |`Ending` | timestamp | Finish date and time (optional)

@@ -17,7 +17,7 @@
     The following features are available in a [Wallet 🧑‍🦰 app](<🧑‍🦰🛠️ Wallet app.md>):
     - 💬 [Chats](<../../35 💬 Chats/Chats 💬/💬 Chat.md>): list, filter, search, view, and interact.
     - 🔗 [Binds](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>): list, view, unbind, and chat with the bound [Vault 🗄️ domain](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>). 
-    - 🎫 [Tokens](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>): view, and chat with the [Issuer 🎴 domain](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>).
+    - 🎫 [Tokens](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>): view, and chat with the [Issuer 🎴 domain](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>).
     - ✨ [Scan](<../../25 🔆 Locators/Locators 🔆/🔆⏩ Locator flows/🧑‍🦰✨ Wallet QR scan.md>) a QR [Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to open a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>).
     - 🔆 [Tap](<../../25 🔆 Locators/Locators 🔆/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>) an NFC [Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to open a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>).
     - 🌐 [Click](<../../25 🔆 Locators/Locators 🔆/🔆⏩ Locator flows/🧑‍🦰🌐 Wallet URLs.md>) on [Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) links in the device's web browser to open chats.
@@ -55,7 +55,7 @@
     The only data that [Wallet 🧑‍🦰 apps](<🧑‍🦰🛠️ Wallet app.md>) store locally is:
     - 🔏 The private half of the key pair;
     - 📣 The Wallet ID provided by the [Broker 🤵 domain](<../Brokers 🤵/🤵🤲 Broker helper.md>) via the [Notifier 📣 domain](<../Notifiers 📣/📣👥 Notifier domain.md>);
-    - 🎫 Downloaded [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) from [Issuer 🎴 domains](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>).
+    - 🎫 Downloaded [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) from [Issuer 🎴 domains](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>).
 
     ---
     <br/>
@@ -71,7 +71,7 @@
 
 1. **How do users migrate a Wallet to another phone?**
 
-    To migrate a [Wallet 🧑‍🦰 app](<🧑‍🦰🛠️ Wallet app.md>) to another phone, a user first needs to bind an [Identity 🆔 agent domain](<../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) on the old phone, and then generate a migration QR [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>).
+    To migrate a [Wallet 🧑‍🦰 app](<🧑‍🦰🛠️ Wallet app.md>) to another phone, a user first needs to bind an [Identity 🆔 agent domain](<../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) on the old phone, and then generate a migration QR [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
     
     * On the new phone, the user needs to install a [Wallet 🧑‍🦰 app](<🧑‍🦰🛠️ Wallet app.md>), then scan the migration QR of the old Wallet.
     * The [Broker 🤵 domain](<../Brokers 🤵/🤵🤲 Broker helper.md>) will invoke the [Identity 🆔 domain](<../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) on the new phone to perform an identity authentication (e.g., face scan), and then will automatically decommission the old Wallet.
@@ -145,10 +145,10 @@
     || [👉 Bind](<🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/🧑‍🦰 Bind vault ⏩ flow.md>) | [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>) to a [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)
     || [👉 Unbind](<🧑‍🦰💬 Wallet chats/...in Vaults 🗄️/Unbind 💬🗄️🤵 /🧑‍🦰 Unbind Vault ⏩ flow.md>) | Remove a [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) from a [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)
     ||[👉 Share](<🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Bind 👉🔗💼/🧑‍🦰 Share Bind ⏩ flow.md>) | Shares a [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) with a [Consumer 💼](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)
-    |🎫 Tokens| [👉 Tokens](<🧑‍🦰💬 Wallet chats/...in App 🏠/List Tokens 🎫💬🤵/🧑‍🦰 List Tokens ⏩ flow.md>)| List the user's [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
-    || [👉 Save](<🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save token ⏩ flow.md>) | Save a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) in the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>)
-    || [👉 Remove](<🧑‍🦰💬 Wallet chats/...in Tokens 🎫/Remove 💬🎫🤵 /🧑‍🦰 Remove Token ⏩ flow.md>) | Remove a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) from the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>)
-    || [👉 Share](<🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token 👉🎫💼/🎫 Share Token ⏩ flow.md>) | Share a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) with a [Consumer 💼](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)
+    |🎫 Tokens| [👉 Tokens](<🧑‍🦰💬 Wallet chats/...in App 🏠/List Tokens 🎫💬🤵/🧑‍🦰 List Tokens ⏩ flow.md>)| List the user's [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
+    || [👉 Save](<🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save token ⏩ flow.md>) | Save a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) in the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>)
+    || [👉 Remove](<🧑‍🦰💬 Wallet chats/...in Tokens 🎫/Remove 💬🎫🤵 /🧑‍🦰 Remove Token ⏩ flow.md>) | Remove a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) from the [Wallet 🧑‍🦰](<🧑‍🦰🛠️ Wallet app.md>)
+    || [👉 Share](<🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token 👉🎫💼/🎫 Share Token ⏩ flow.md>) | Share a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) with a [Consumer 💼](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)
     || [👉 Verify ID](<🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token+ID 👉🆔💼/🧑‍🦰 Share Token+ID ⏩ flow.md>) | Share and [verify the user Identity 🆔](<../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 🆔⏩🎫 Verify Tokens.md>)
 
     ---

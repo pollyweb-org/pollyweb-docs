@@ -9,7 +9,7 @@
 > Part of the [🎴⏩🧑‍🦰 Offer Token @ Issuer](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save token ⏩ flow.md>) flow.
 
 > Purpose:
-* Allows for a [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) to be downloaded 
+* Allows for a [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) to be downloaded 
     * from the [Issuer 🎴 domain](<../../🎴🎭 Issuer role.md>) 
     * into the [Wallet 🧑‍🦰 app](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
 
@@ -50,7 +50,7 @@ Schema: airlines.any-igo.dom/SSR/WCH:1
 |Property |Type|Description
 |-|-|-
 |  `Schema`| string | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
-| ... | ... | Other [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) fields 
+| ... | ... | Other [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) fields 
 |
 
 <br/>

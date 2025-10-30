@@ -1,7 +1,7 @@
 # 🤵🪣 Offers @ Broker table
 
 > Purpose: 
-* Stores [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>)
+* Stores [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
     * offered by [`Offer@Broker`](<../../🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>) 
     * but not yet saved by [`Saved@Broker`](<../../🤵🅰️ Broker methods/Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 🐌 msg.md>).
 
@@ -43,4 +43,4 @@ Schema: any-authority.dom/ANY-SCHEMA:1.0
 |Property|Type|Description
 |-|-|-
 | `Issuer` | string | [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)
-| `Token`| uuid | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) ID on the [Broker 🤵](<../../🤵🤲 Broker helper.md>)
+| `Token`| uuid | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) ID on the [Broker 🤵](<../../🤵🤲 Broker helper.md>)

@@ -8,7 +8,7 @@
 > Purpose:
 * [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) 
     * inform [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) 
-    * where the file with the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) details 
+    * where the file with the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) details 
     * was stored locally on the device.
 
 > Part of the [`Save Token` ⏩ flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save token ⏩ flow.md>):

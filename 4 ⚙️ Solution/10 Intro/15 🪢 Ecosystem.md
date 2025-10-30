@@ -43,7 +43,7 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
 
 - Data integration and structural validation is assured via:
     - [Schema Codes 🧩](<../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) that domains and [Authority 🏛️ helper domains](<../45 🤲 Helper domains/Authorities 🏛️/🏛️🤲 Authority helper.md>) can define on their [domain Manifests 📜](<../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>) 
-    - these codes are the foundation of resource [Locators 🔆](<../25 🔆 Locators/Locators 🔆/🔆 Locator.md>), physical [Things 💠](<../25 🔆 Locators/Things 💠/💠🔆 Thing locator.md>), and verifiable offline [Tokens 🎫](<../30 🧩 Data/Tokens 🎫/🎫 Token.md>).
+    - these codes are the foundation of resource [Locators 🔆](<../25 🔆 Locators/Locators 🔆/🔆 Locator.md>), physical [Things 💠](<../25 🔆 Locators/Things 💠/💠🔆 Thing locator.md>), and verifiable offline [Tokens 🎫](<../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
 
 - Domains interact directly with humans with edge devices that exhibit well-known behaviors - e.g.:
     * locator [Scanners ✨](<../60 🧰 Edge/66 ✨ Scanners/06 ✨🔌 Scanner device.md>), 

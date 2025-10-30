@@ -10,7 +10,7 @@
     An `ISSUE`
     * is a message [Command ⌘](<../../📃 basics/Command ⌘.md>) 
     * that invokes the [`Save Token` ⏩ flow](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save token ⏩ flow.md>)
-    * to save a [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>).
+    * to save a [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
 
     ---
     <br/>
@@ -44,7 +44,7 @@
    
     | Input| Purpose | Example
     |-|-|-
-    | `$token`| The [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) issued | `{Token:X, Schema:Y}`| `Schema`  | The [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | `.TOKEN:1.0`
+    | `$token`| The [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) issued | `{Token:X, Schema:Y}`| `Schema`  | The [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | `.TOKEN:1.0`
     | `Starts` | Optional ISO UTC date | `2024-09-21T12:34:00Z`
     | `Expires` | Optional ISO UTC date | `2024-09-21T12:34:00Z`
     | `Properties`| User public properties | `{A:1, B:2}`
