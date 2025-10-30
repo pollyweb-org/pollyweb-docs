@@ -16,7 +16,7 @@
 
 | # | Call | Description
 |-|-|-
-|1| [😃🐌🧑‍💻 `Handle@Hosted`](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>) | [Talkers 😃](<../../😃🤲 Talker helper.md>) ask to handle [{Functions} 🐍](<../../../Scripts 📃/📃 functions 🐍/{Function} 🐍.md>) | 
+|1| [😃🐌🧑‍💻 `Handle@Hosted`](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>) | [Talkers 😃](<../../😃🤲 Talker helper.md>) ask to handle [{Functions} 🐍](<../../../Scripts 📃/📃 basics/Function 🐍.md>) | 
 |2| [🧑‍💻🐌😃 `Handled@Talker`](<../../😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>) | [Hosteds 📦](<../../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) inform of tasks started
 |3| [🤗⏩🧑‍🦰 Prompt 🤔](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | [Talkers 😃](<../../😃🤲 Talker helper.md>) inform users' [Wallet 🧑‍🦰 apps](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
 |4| [🧘 `WAIT` command](<../../../Scripts 📃/📃 control ▶️/WAIT 🧘/🧘 WAIT ⌘ cmd.md>) | [Talkers 😃](<../../😃🤲 Talker helper.md>) go to sleep until signaled 

@@ -92,7 +92,7 @@
    
     | Input| Purpose
     |-|-
-    | `{bindable}` | [{Function}](<../../📃 functions 🐍/{Function} 🐍.md>) to get the [Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) for [Bindable @ Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>).
+    | `{bindable}` | [{Function}](<../../📃 basics/Function 🐍.md>) to get the [Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) for [Bindable @ Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>).
 
 
     ---

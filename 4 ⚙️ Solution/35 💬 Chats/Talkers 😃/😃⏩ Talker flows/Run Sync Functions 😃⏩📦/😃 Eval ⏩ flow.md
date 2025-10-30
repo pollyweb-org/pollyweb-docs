@@ -5,7 +5,7 @@
 > Implements [Hoster ☁️ helper domain](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>)
 
 * [Talkers 😃](<../../😃🤲 Talker helper.md>) ask [Hosted 📦 domains](<../../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) 
-    * to handle [{Function} 🐍](<../../../Scripts 📃/📃 functions 🐍/{Function} 🐍.md>) evaluations 
+    * to handle [{Function} 🐍](<../../../Scripts 📃/📃 basics/Function 🐍.md>) evaluations 
     * and return the computed result.
 
 <br/>

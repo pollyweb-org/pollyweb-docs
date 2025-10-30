@@ -12,7 +12,7 @@
 
 > Purpose
 
-* Returns a [{Function} 🐍](<../../../Scripts 📃/📃 functions 🐍/{Function} 🐍.md>) evaluation.
+* Returns a [{Function} 🐍](<../../../Scripts 📃/📃 basics/Function 🐍.md>) evaluation.
 
 
 <br/>

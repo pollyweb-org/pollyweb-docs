@@ -48,7 +48,7 @@
    
     | Method | Purpose
     |-|-
-    [😃🐌 Handle](<📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>) | Evaluates [{Functions}](<../../35 💬 Chats/Scripts 📃/📃 functions 🐍/{Function} 🐍.md>) in [Scripts 📃](<../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>)
+    [😃🐌 Handle](<📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>) | Evaluates [{Functions}](<../../35 💬 Chats/Scripts 📃/📃 basics/Function 🐍.md>) in [Scripts 📃](<../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>)
     
     ---
     <br/>

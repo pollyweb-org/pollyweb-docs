@@ -152,8 +152,8 @@
     | `$p.Pretty` | Decimal formatted to `Locale` | `$1,234.57`
     | `$p.Locale` | CLDR locale used to format | `en-US`
     | `$p.Currency` | ISO 4217 currency formatted | `USD`
-    | [`$p.$`](<../../../Scripts 📃/📃 functions 🐍/{Function} 🐍.md>) | The value of `$p.Pretty` | `$1,234.57`
-    | `$p` | The [default value](<../../../Scripts 📃/📃 functions 🐍/{Function} 🐍.md>) `$p.$` | `$1,234.57`
+    | [`$p.$`](<../../../Scripts 📃/📃 basics/Function 🐍.md>) | The value of `$p.Pretty` | `$1,234.57`
+    | `$p` | The [default value](<../../../Scripts 📃/📃 basics/Function 🐍.md>) `$p.$` | `$1,234.57`
 
     ---
     <br/>

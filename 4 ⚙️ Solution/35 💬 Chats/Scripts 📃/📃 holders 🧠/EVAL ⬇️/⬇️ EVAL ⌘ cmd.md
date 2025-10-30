@@ -9,7 +9,7 @@
 
     An `EVAL` ⬇️
     * is a [Command ⌘](<../../📃 basics/Command ⌘.md>) 
-    * that evaluates strings, objects, and [`{Functions}`](<../../📃 functions 🐍/{Function} 🐍.md>)
+    * that evaluates strings, objects, and [`{Functions}`](<../../📃 basics/Function 🐍.md>)
     * into a holder.
 
     ---
@@ -40,7 +40,7 @@
 
     | Input| Purpose | Example
     |-|-|-
-    | `{function}`| [{Function}](<../../📃 functions 🐍/{Function} 🐍.md>) to be evaluated | `{f}` `{$p}` | 
+    | `{function}`| [{Function}](<../../📃 basics/Function 🐍.md>) to be evaluated | `{f}` `{$p}` | 
     || Supports missing `{}` | `f` `$p`
     | `{input}`| Input for the `{function}` | `3` `[A,B]` `{A:1}` 
     || Passed as single argument | `f({input})`
