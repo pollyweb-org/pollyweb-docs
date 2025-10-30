@@ -7,5 +7,5 @@
 | 🧑‍💻 [Editor](<../🧑‍💻🫥 Editor agent.md>) | ℹ️ Open editor requested.
 | 🆔 [Identity](<../../Identities 🆔/🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../Identities 🆔/🆔⏩ Identity flows/6 🆔⏩😶 Face scan.md>)
 | 🧑‍💻 Editor   | ✅ Editor opened.
-| ⭐ [Rate](<../../Reviewers ⭐/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5 |
+| ⭐ [Rate](<../../Reviewers ⭐/⭐ Reviewer agent/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5 |
 ||

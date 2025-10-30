@@ -1,11 +1,11 @@
 ⭐ Reviewer vault domains
 ===
 
-![](<. 📎 Assets/🔎 Reviewer.png>)
+![](<🔎 Reviewer.png>)
 
 1. **What is a Reviewer domain in NLWeb?**
 
-    A Reviewer ⭐ is a [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) domain that holds user feedback about other domains. 
+    A Reviewer ⭐ is a [Vault 🗄️](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) domain that holds user feedback about other domains. 
     - Feedback includes ratings (e.g., 5 stars), comments, reports of improper behavior, and others.
 
     ---
@@ -66,6 +66,6 @@
 
 1. **How can users set up a Reviewer vault?**
 
-    Similar to setting up a [Storage 🗃️](<../Storage 🗃️/🗃️🫥 Storage agent.md>) vault.
+    Similar to setting up a [Storage 🗃️](<../../Storage 🗃️/🗃️🫥 Storage agent.md>) vault.
 
     ---

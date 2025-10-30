@@ -12,5 +12,5 @@ How to add breakfast guests at a hotel?
 | 🏨 Hotel  | 😃 How many? [1, 2, +] | 1
 | 💳 [Payer](<../../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) | 🫥 Pay $20.00 bill? 🧾 [No] <br/>- [ Card ABC ] + $0.10 <br/>- [ Card DEF ] (free) <br/> - [ ✂️ Split bill ] | > Card ABC |
 | 🏨 Hotel  | ✅ Paid, party of 2. <br/> - seat at any table <br/> - serve at the buffet <br/> - staff will bring you coffee <br/> - enjoy your breakfast!
-| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Reviewers ⭐/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? 
+| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? 
 ||

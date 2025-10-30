@@ -15,5 +15,5 @@ How to call the staff at a restaurant?
 | 🍽️ Restaurant | ✅ Staff called.
 | 🍽️ Restaurant | ⏳ Waiting for staff...
 | 🍽️ Restaurant | ℹ️ Staff arrived.
-| ⭐ [Rate](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Reviewers ⭐/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 3
+| ⭐ [Rate](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 3
 ||
