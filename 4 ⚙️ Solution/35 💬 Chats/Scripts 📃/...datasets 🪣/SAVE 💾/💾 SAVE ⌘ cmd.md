@@ -38,7 +38,7 @@
     |-|-|-
     | `<set>` | Name of the [Dataset 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | `MySet`
     | `{object}` | Item to update or insert in the pool | `MyKey` `$key`
-    | `.Delete` | Automatic cleanup with [`{.Add}`](<../../../Talkers 😃/😃⚙️ Talker cmds/...functions 🐍/🔩 {.Add}.md>) | `30 days`
+    | `.Delete` | Automatic cleanup with [`{.Add}`](<../../...functions 🐍/🔩 {.Add}.md>) | `30 days`
     | `.OnBlocked`| [`$Holder`](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>) name to set `True` | `onBlocked`
     | `$inserted` | [Holder 🧠](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>) with the insertion | `$item`
 

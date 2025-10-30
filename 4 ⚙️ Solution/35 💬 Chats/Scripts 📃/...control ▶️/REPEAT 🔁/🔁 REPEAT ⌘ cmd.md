@@ -49,7 +49,7 @@
     - REPEAT|Check again?
     ```
 
-    Commands: [`.Now`](<../../../Talkers 😃/😃⚙️ Talker cmds/...functions 🐍/🔩 {.Now}.md>) [`SUCCESS`](<../../../Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) [`REPEAT`](<🔁 REPEAT ⌘ cmd.md>)
+    Commands: [`.Now`](<../../...functions 🐍/🔩 {.Now}.md>) [`SUCCESS`](<../../../Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) [`REPEAT`](<🔁 REPEAT ⌘ cmd.md>)
 
     ---
     <br/>
