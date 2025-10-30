@@ -1,18 +1,18 @@
 # 😃💾 Talker `SAVE` command
 
-> Part of [Talker 😃](<../../../😃 Talker role.md>)
+> Part of [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>)
 
 > Implemented by the [`.SAVE` 📃 script](<💾 SAVE 📃 script.md>)
 
-> Relates to [Tables 🪣 folder](<../../../../../55 👷 Build domains/Hosteds 📦/📦📄 Hosted files/🪣📂 Tables folder.md>)
+> Relates to [Tables 🪣 folder](<../../../../55 👷 Build domains/Hosteds 📦/📦📄 Hosted files/🪣📂 Tables folder.md>)
 
 <br/>
 
 1. **What is a SAVE command?**
 
     A `SAVE` 💾
-    * is a [Command ⌘](<../../../../Scripts 📃/...commands ⌘/Command ⌘/⌘ Command.md>) 
-    * that stores an item in an [Itemized 🛢 dataset](<../../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
+    * is a [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) 
+    * that stores an item in an [Itemized 🛢 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
 
     ---
     <br/>
@@ -36,11 +36,11 @@
 
     | Input| Purpose | Example
     |-|-|-
-    | `<set>` | Name of the [Dataset 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | `MySet`
+    | `<set>` | Name of the [Dataset 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | `MySet`
     | `{object}` | Item to update or insert in the pool | `MyKey` `$key`
-    | `.Delete` | Automatic cleanup with [`{.Add}`](<../../...functions 🐍/🔩 {.Add}.md>) | `30 days`
-    | `.OnBlocked`| [`$Holder`](<../../...holders 🧠/$Holder 🧠.md>) name to set `True` | `onBlocked`
-    | `$inserted` | [Holder 🧠](<../../...holders 🧠/$Holder 🧠.md>) with the insertion | `$item`
+    | `.Delete` | Automatic cleanup with [`{.Add}`](<../../../Talkers 😃/😃⚙️ Talker cmds/...functions 🐍/🔩 {.Add}.md>) | `30 days`
+    | `.OnBlocked`| [`$Holder`](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>) name to set `True` | `onBlocked`
+    | `$inserted` | [Holder 🧠](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>) with the insertion | `$item`
 
     ---
     <br/>
@@ -89,7 +89,7 @@
 
     | Input| Purpose | Examples
     |-|-|-
-    | `$item` | [Holder 🧠](<../../...holders 🧠/$Holder 🧠.md>) loaded with [`GET`](<../GET 🧲/🧲 GET ⌘ cmd.md>)
+    | `$item` | [Holder 🧠](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>) loaded with [`GET`](<../GET 🧲/🧲 GET ⌘ cmd.md>)
     | `{changes}` | Object with changes to apply | `{A:1, B:2}`
 
     ---
@@ -141,14 +141,14 @@
 
 1. **How do handled blocked tables?**
 
-    Raises a 409 HTTP error in a [Talker 😃](<../../../😃 Talker role.md>) when trying to update an [Itemized 🛢 dataset](<../../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) with the `NoUpdate` flag active - e.g. [`Grab@Printer`](<../../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🅰️ Printer methods/Grab 👥🚀🖨️/🖨️ Grab 🚀 request.md>).
+    Raises a 409 HTTP error in a [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>) when trying to update an [Itemized 🛢 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) with the `NoUpdate` flag active - e.g. [`Grab@Printer`](<../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🅰️ Printer methods/Grab 👥🚀🖨️/🖨️ Grab 🚀 request.md>).
 
     ---
     <br/>
 
 1. **How to save with reference data?**
 
-    Here's a example [Script 📃](<../../../../Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>).
+    Here's a example [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>).
 
     ```yaml
     📃 Example:

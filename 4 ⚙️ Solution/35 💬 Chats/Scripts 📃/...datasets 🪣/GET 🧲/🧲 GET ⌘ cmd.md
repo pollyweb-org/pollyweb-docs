@@ -3,7 +3,7 @@
 # 😃🧲 Talker `GET` command
 
 > Implementation
-* Part of [Talker 😃](<../../../😃 Talker role.md>)
+* Part of [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>)
 * Implemented by the [`GET` 📃 script](<🧲 GET 📃 script.md>)
 
 ## FAQ
@@ -11,10 +11,10 @@
 1. **What's a GET item command?**
 
     A `GET` 🧲
-    * is a [Command ⌘](<../../../../Scripts 📃/...commands ⌘/Command ⌘/⌘ Command.md>) 
+    * is a [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) 
     * that retrieves an item by key 🔑
     * from a key-value resource pool 🪣
-    * into a [Talker 😃](<../../../😃 Talker role.md>) holder.
+    * into a [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>) holder.
 
     ---
     <br/>
@@ -44,7 +44,7 @@
     | `Set` | Name of resource pool | `MyPool`
     | `Key`  | Key to look up in the pool | `MyKey` `$key`
     | `Default` | Objet to return if missing | `{A:1, B:2}`
-    | `OnMissing` | [Command ⌘](<../../../../Scripts 📃/...commands ⌘/Command ⌘/⌘ Command.md>) or [Script 📃](<../../../../Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>) | `MyScript`
+    | `OnMissing` | [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) or [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) | `MyScript`
     | `$item` | Item to retrieve | -
 
     ---
@@ -65,7 +65,7 @@
     |Key1|1.A|1.B 
     |Key2|2.A|2.B 
     
-    The following [Script 📃](<../../../../Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>) renders `ℹ️ 2.A` in the [Chat 💬](<../../../../Chats 💬/💬 Chat.md>).
+    The following [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) renders `ℹ️ 2.A` in the [Chat 💬](<../../../Chats 💬/💬 Chat.md>).
 
     ```yaml
     📃 Script:
@@ -73,7 +73,7 @@
     - INFO|{$myItem.PropA} 
     ```
 
-    Commands: [`GET`](<🧲 GET ⌘ cmd.md>) [`INFO`](<../../../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
+    Commands: [`GET`](<🧲 GET ⌘ cmd.md>) [`INFO`](<../../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
 
     ---
     <br>
@@ -87,15 +87,15 @@
     || 456    | beer          |
     |
 
-    Here's a [Chat 💬](<../../../../Chats 💬/💬 Chat.md>).
+    Here's a [Chat 💬](<../../../Chats 💬/💬 Chat.md>).
 
-    || [Domain](<../../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../Prompts 🤔/🤔 Prompt.md>) | [User](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+    || [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../Prompts 🤔/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     |-| - | - | - |
     || 🍫 Vending | 😃 What's the item number?   | 🔢 123
     || 🍫 Vending | 😃 A water bottle? [Yes, No]  
     ||
 
-    Here's the [Script 📃](<../../../../Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>)
+    Here's the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>)
 
     ```yaml
     📃 Script:
@@ -112,7 +112,7 @@
     - CONFIRM|A {$item.Name}?
     ```
 
-    Commands: [`CONFIRM`](<../../../../Prompts 🤔/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`DIGITS`](<../../../../Prompts 🤔/🤔✏️ Prompt inputs/DIGITS 🔢/DIGITS 🔢 prompt.md>) [`GET`](<🧲 GET ⌘ cmd.md>)
+    Commands: [`CONFIRM`](<../../../Prompts 🤔/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`DIGITS`](<../../../Prompts 🤔/🤔✏️ Prompt inputs/DIGITS 🔢/DIGITS 🔢 prompt.md>) [`GET`](<🧲 GET ⌘ cmd.md>)
     
    
     
@@ -123,7 +123,7 @@
 
 1. **How to return a default value?**
 
-    > Used by the [`Saved@Broker` 📃 handler](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 📃 handler.md>)
+    > Used by the [`Saved@Broker` 📃 handler](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 📃 handler.md>)
 
     ```yaml
     # Get the item.
@@ -142,7 +142,7 @@
 
 1. **How to find a child by key?**
 
-    > Used by the [`Pop Vault` 📃 handler](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Pop 🧑‍🦰🐌🤵/Pop Vault/🤵 Pop Vault 📃 handler.md>)
+    > Used by the [`Pop Vault` 📃 handler](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Pop 🧑‍🦰🐌🤵/Pop Vault/🤵 Pop Vault 📃 handler.md>)
 
 
     ```yaml

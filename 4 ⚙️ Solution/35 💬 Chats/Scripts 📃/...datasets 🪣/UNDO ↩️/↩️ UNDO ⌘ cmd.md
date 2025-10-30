@@ -2,7 +2,7 @@
 
 # 😃↩️ Talker `UNDO` command
 
-> Part of [Talker 😃](<../../../😃 Talker role.md>)
+> Part of [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>)
 
 > Implemented by the [`.UNDO` 📃 script](<↩️ UNDO 📃 script.md>)
 
@@ -13,8 +13,8 @@
 1. **What is an UNDO command?**
 
     An `UNDO` ↩️
-    * is a [Command ⌘](<../../../../Scripts 📃/...commands ⌘/Command ⌘/⌘ Command.md>) 
-    * that revers the removal of item in an [Itemized 🛢 dataset](<../../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>)
+    * is a [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) 
+    * that revers the removal of item in an [Itemized 🛢 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>)
     * that occurred with a soft [`DELETE`](<../DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>).
 
     ---
@@ -29,7 +29,7 @@
 
     | Input| Purpose 
     |-|-
-    | `$deleted`| [Holder 🧠](<../../...holders 🧠/$Holder 🧠.md>) returned by [`DELETE`](<../DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>)
+    | `$deleted`| [Holder 🧠](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>) returned by [`DELETE`](<../DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>)
 
     ---
     <br/>
@@ -52,7 +52,7 @@
         - UNDO|$deleted
     ```
 
-    Commands: [`CASE`](<../../../../Scripts 📃/...control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`DELETE`](<../DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>) [`SUCCESS`](<../../../../Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
+    Commands: [`CASE`](<../../...control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`DELETE`](<../DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>) [`SUCCESS`](<../../../Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
 
     ---
     <br/>
@@ -63,7 +63,7 @@
 
 1. **What's a use case for soft deletes?**
 
-    See [Pop Token 🔆](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Pop 🧑‍🦰🐌🤵/Pop Token 🎫/🤵 Pop Token 📃 handler.md>).
+    See [Pop Token 🔆](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Pop 🧑‍🦰🐌🤵/Pop Token 🎫/🤵 Pop Token 📃 handler.md>).
 
     ---
     <br/>
