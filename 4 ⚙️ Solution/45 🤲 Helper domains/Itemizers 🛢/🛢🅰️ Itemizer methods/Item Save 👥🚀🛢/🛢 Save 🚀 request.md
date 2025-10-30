@@ -2,7 +2,7 @@
 
 > Part of [Itemizer 🛢 helper](<../../🛢🤲 Itemizer helper.md>)
 
-> Implements the [`SAVE`](<../../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) commands from [Talker 😃 domains](<../../../../35 💬 Chats/Talkers 😃/😃 Talker role.md>).
+> Implements the [`SAVE`](<../../../../35 💬 Chats/Scripts 📃/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) commands from [Talker 😃 domains](<../../../../35 💬 Chats/Talkers 😃/😃 Talker role.md>).
 
 > Purpose
 
@@ -52,7 +52,7 @@ Item:
 |-|-|-|-
 |Top| `Status`  | string    | `OK` `BLOCKED` `OUTDATED`
 |Item| `Item`    | object    | Saved item with updated properties
-|| `.Table`   | string | Table name for the [`SAVE` 📃 script](<../../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾/💾 SAVE 📃 script.md>)
+|| `.Table`   | string | Table name for the [`SAVE` 📃 script](<../../../../35 💬 Chats/Scripts 📃/...datasets 🪣/SAVE 💾/💾 SAVE 📃 script.md>)
 || `.Version` | uuid   | Version for [`Save@Itemizer`](<../Item Save 👥🚀🛢/🛢 Save 🚀 request.md>)
 |
 
@@ -88,7 +88,7 @@ Item:
   
     * To avoid locking items with a standard ACID transaction, the [`Save@Itemizer`](<🛢 Save 🚀 request.md>) method checks the original version collected on the [`Get@Itemizer`](<../Item Get 👥🚀🛢/🛢 Get 🚀 request.md>) method.
   
-    * If the version has changed due to a concurrent [`SAVE`](<../../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) in the [Talker 😃 domain](<../../../../35 💬 Chats/Talkers 😃/😃 Talker role.md>), then the [Itemizer 🛢 helper domain](<../../🛢🤲 Itemizer helper.md>) rejects the change, forcing the [Talker 😃 domain](<../../../../35 💬 Chats/Talkers 😃/😃 Talker role.md>) to re-run the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>).
+    * If the version has changed due to a concurrent [`SAVE`](<../../../../35 💬 Chats/Scripts 📃/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) in the [Talker 😃 domain](<../../../../35 💬 Chats/Talkers 😃/😃 Talker role.md>), then the [Itemizer 🛢 helper domain](<../../🛢🤲 Itemizer helper.md>) rejects the change, forcing the [Talker 😃 domain](<../../../../35 💬 Chats/Talkers 😃/😃 Talker role.md>) to re-run the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>).
 
     ---
     <br/>

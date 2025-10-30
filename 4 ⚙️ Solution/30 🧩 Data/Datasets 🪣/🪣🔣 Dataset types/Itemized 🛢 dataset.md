@@ -253,9 +253,9 @@
 
     |Action|Condition|Behavior
     |-|-|-
-    | 💾 [`SAVE`](<../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | Same value | Allows multiple  idempotent saves
+    | 💾 [`SAVE`](<../../../35 💬 Chats/Scripts 📃/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | Same value | Allows multiple  idempotent saves
     | |Different | Blocked, raises an error
-    | 🗑️ [`DELETE`](<../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>) | - | Allows multiple idempotent times
+    | 🗑️ [`DELETE`](<../../../35 💬 Chats/Scripts 📃/...datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>) | - | Allows multiple idempotent times
 
     ---
     <br/>
@@ -276,11 +276,11 @@
     
     |Value|Description|
     |-|-|
-    | `ADDED`   | Item inserted on the [Itemized 🛢 dataset](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) on a [`SAVE`](<../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
-    | `CHANGED` | The content of the item has changed on a [`SAVE`](<../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
-    | `EXPIRED` | Item removed automatically due to a [`SAVE`](<../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) expiration
-    | `DELETED` | Item deleted on a [`DELETE`](<../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>), either soft or hard
-    | `PURGED`  | Item removed automatically due to an [`UNDO`](<../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...datasets 🪣/UNDO ↩️/↩️ UNDO ⌘ cmd.md>) timeout
+    | `ADDED`   | Item inserted on the [Itemized 🛢 dataset](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) on a [`SAVE`](<../../../35 💬 Chats/Scripts 📃/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
+    | `CHANGED` | The content of the item has changed on a [`SAVE`](<../../../35 💬 Chats/Scripts 📃/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
+    | `EXPIRED` | Item removed automatically due to a [`SAVE`](<../../../35 💬 Chats/Scripts 📃/...datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) expiration
+    | `DELETED` | Item deleted on a [`DELETE`](<../../../35 💬 Chats/Scripts 📃/...datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>), either soft or hard
+    | `PURGED`  | Item removed automatically due to an [`UNDO`](<../../../35 💬 Chats/Scripts 📃/...datasets 🪣/UNDO ↩️/↩️ UNDO ⌘ cmd.md>) timeout
     |
 
 1. **How to register a Trigger?**
