@@ -2,7 +2,7 @@
 
 > Part of [domain Message 📨](<../📨 Message.md>)
 
-> Implemented by [👥⏩👥 Request Sync 🚀](<../../../40 👥 Domains/👥⏩ Domain flows/👥⏩👥 Request Sync 🚀.md>)
+> Implemented by [👥⏩👥 Request Sync 🚀](<../../../40 👥 Domains/👥⏩ Domain flows/Send Sync 👥🚀👥 /👥 Send Sync ⏩ flow.md>)
 
 <br/> 
 
