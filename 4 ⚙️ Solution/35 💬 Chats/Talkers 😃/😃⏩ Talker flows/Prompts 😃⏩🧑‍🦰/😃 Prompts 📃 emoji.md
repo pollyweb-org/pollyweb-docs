@@ -70,7 +70,7 @@
 
 Needs ||
 |-|-
-| [Commands ⌘](<../../😃⚙️ Talker cmds/...commands ⌘/Command ⌘/⌘ Command.md>) | [`CASE`](<../../😃⚙️ Talker cmds/...control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`EVAL`](<../../😃⚙️ Talker cmds/...holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`IF`](<../../😃⚙️ Talker cmds/...control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`RETURN`](<../../😃⚙️ Talker cmds/...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) 
+| [Commands ⌘](<../../../Scripts 📃/...commands ⌘/Command ⌘/⌘ Command.md>) | [`CASE`](<../../../Scripts 📃/...control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`EVAL`](<../../😃⚙️ Talker cmds/...holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`IF`](<../../../Scripts 📃/...control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`RETURN`](<../../../Scripts 📃/...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) 
 | [{Functions} 🐍](<../../😃⚙️ Talker cmds/...functions 🐍/{Function} 🐍.md>) | [`{.In}`](<../../😃⚙️ Talker cmds/...functions 🐍/🔩 {.In}.md>) [`{.Is}`](<../../😃⚙️ Talker cmds/...functions 🐍/🔩 {.Is}.md>)
 | [Holders 🧠](<../../😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>) | [`$.Chat`](<../../😃⚙️ Talker cmds/...holders 🧠/$.Chat 💬/💬 $.Chat 🧠 holder.md>)
 |

@@ -293,7 +293,7 @@
 
     |Input|Details|Example
     |-|-|-
-    | `<handler>` | Name of the [Script 📃](<../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...commands ⌘/Script 📃/📃 Script.md>) to handle | `MyHandler`
+    | `<handler>` | Name of the [Script 📃](<../../../35 💬 Chats/Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>) to handle | `MyHandler`
     | `<trigger-list>` | Triggers to handle | `ADDED,PURGED`
     |
 

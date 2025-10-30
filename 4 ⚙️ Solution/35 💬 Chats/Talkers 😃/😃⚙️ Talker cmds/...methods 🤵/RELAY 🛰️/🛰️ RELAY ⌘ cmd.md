@@ -8,7 +8,7 @@
 1. **What's a RELAY item command?**
 
     A `RELAY` 
-    * is a [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) 
+    * is a [Command ⌘](<../../../../Scripts 📃/...commands ⌘/Command ⌘/⌘ Command.md>) 
     * that sends messages to physical devices
     * via [Relayer 🛰️ helper domains](<../../../../../45 🤲 Helper domains/Relayers 🛰️/🛰️🤲 Relayer helper.md>).
 
@@ -40,8 +40,8 @@
     | `<key>`  | Unique device key in the pool
     | `<script>` | Message to send to the device
     | `$result` | The response returned by the [Relayer 🛰️](<../../../../../45 🤲 Helper domains/Relayers 🛰️/🛰️🤲 Relayer helper.md>)
-    | `<failure>` | [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) or [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) to run on failure
-    | `<success>` | [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) or [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) to run on success
+    | `<failure>` | [Script 📃](<../../../../Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>) or [Command ⌘](<../../../../Scripts 📃/...commands ⌘/Command ⌘/⌘ Command.md>) to run on failure
+    | `<success>` | [Script 📃](<../../../../Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>) or [Command ⌘](<../../../../Scripts 📃/...commands ⌘/Command ⌘/⌘ Command.md>) to run on success
 
     ---
     <br/>
@@ -75,7 +75,7 @@
     - SUCCESS|Locker opened. # Notify the user
     ```
 
-    Commands: [`FAILURE`](<../../../../Prompts 🤔/🤔📢 Prompt status/FAILURE ❌/FAILURE ❌ prompt.md>) [`INFO`](<../../../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`LOG`](<../../...control ▶️/LOG 🪵/🪵 LOG ⌘ cmd.md>) [`RELAY`](<🛰️ RELAY ⌘ cmd.md>) [`SUCCESS`](<../../../../Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) [`TEMP`](<../../../../Prompts 🤔/🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>)
+    Commands: [`FAILURE`](<../../../../Prompts 🤔/🤔📢 Prompt status/FAILURE ❌/FAILURE ❌ prompt.md>) [`INFO`](<../../../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`LOG`](<../../../../Scripts 📃/...control ▶️/LOG 🪵/🪵 LOG ⌘ cmd.md>) [`RELAY`](<🛰️ RELAY ⌘ cmd.md>) [`SUCCESS`](<../../../../Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) [`TEMP`](<../../../../Prompts 🤔/🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>)
     
     ---
     <br/>

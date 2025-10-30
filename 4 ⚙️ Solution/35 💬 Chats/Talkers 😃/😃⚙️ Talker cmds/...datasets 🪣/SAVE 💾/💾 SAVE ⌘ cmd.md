@@ -11,7 +11,7 @@
 1. **What is a SAVE command?**
 
     A `SAVE` 💾
-    * is a [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) 
+    * is a [Command ⌘](<../../../../Scripts 📃/...commands ⌘/Command ⌘/⌘ Command.md>) 
     * that stores an item in an [Itemized 🛢 dataset](<../../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
 
     ---
@@ -148,7 +148,7 @@
 
 1. **How to save with reference data?**
 
-    Here's a example [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>).
+    Here's a example [Script 📃](<../../../../Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>).
 
     ```yaml
     📃 Example:
