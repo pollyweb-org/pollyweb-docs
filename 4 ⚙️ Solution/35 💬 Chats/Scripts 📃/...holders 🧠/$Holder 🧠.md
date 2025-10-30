@@ -20,7 +20,7 @@
     | Holder 🧠 | Details
     |-|-
     | [`$.Chat`](<$.Chat 💬/💬 $.Chat 🧠 holder.md>) | Contains the details of the current  [Chat 💬](<../../Chats 💬/💬 Chat.md>) 
-    | [`$.Inputs`](<$.Inputs ▶️/▶️ $.Inputs 🧠 holder.md>) | Contains the inputs of the current [`RUN` command](<../...control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>) 
+    | [`$.Inputs`](<$.Inputs ▶️/▶️ $.Inputs 🧠 holder.md>) | Contains the inputs of the current [`RUN` command](<../📃 for control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>) 
     | [`$.Msg`](<$.Msg 📨/📨 $.Msg 🧠 holder.md>) | Contains the properties of the current [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message.md>)
     | [`$.Hosted`](<$.Hosted 📦/📦 $.Hosted 🧠 holder.md>) | Contains the settings of the [Hosted 📦 domain](<../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>)
 
@@ -60,7 +60,7 @@
     * If a holder object `$p` has a `.$` property, 
     * then reading `$p` is the same as reading `$p.$`.
 
-    Here's a [Script 📃](<../📃⌘ commands/Script 📃/📃 Script.md>).
+    Here's a [Script 📃](<../📃 commands ⌘/Script 📃/📃 Script.md>).
     ```yaml
     📃 Example: 
 
@@ -80,9 +80,9 @@
 
 1. **How to read lists of values?**
 
-    To loop a list holder called $list use [`PARALLEL`](<../...control ▶️/PARALLEL *️⃣/*️⃣ PARALLEL ⌘ cmd.md>).
+    To loop a list holder called $list use [`PARALLEL`](<../📃 for control ▶️/PARALLEL *️⃣/*️⃣ PARALLEL ⌘ cmd.md>).
     
-    Here's a [Script 📃](<../📃⌘ commands/Script 📃/📃 Script.md>).
+    Here's a [Script 📃](<../📃 commands ⌘/Script 📃/📃 Script.md>).
     ```yaml
     📃 Example: 
     
@@ -93,7 +93,7 @@
     - PARALLEL|$list|$number:
         - INFO|$number
     ```
-    Commands: [`EVAL`](<EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`INFO`](<../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`PARALLEL`](<../...control ▶️/PARALLEL *️⃣/*️⃣ PARALLEL ⌘ cmd.md>)
+    Commands: [`EVAL`](<EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`INFO`](<../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`PARALLEL`](<../📃 for control ▶️/PARALLEL *️⃣/*️⃣ PARALLEL ⌘ cmd.md>)
 
     ---
     <br/>
@@ -102,7 +102,7 @@
 
     Use the [`{.Size} function`](<../...functions 🐍/🔩 {.Size}.md>) with `$p.Length()` or `$p.Size()`.
 
-    Here's a [Script 📃](<../📃⌘ commands/Script 📃/📃 Script.md>).
+    Here's a [Script 📃](<../📃 commands ⌘/Script 📃/📃 Script.md>).
     ```yaml
     📃 Example: 
 
@@ -122,7 +122,7 @@
     
     Lists of properties allow for grouping properties into lists of values.
     
-    Here's a [Script 📃](<../📃⌘ commands/Script 📃/📃 Script.md>).
+    Here's a [Script 📃](<../📃 commands ⌘/Script 📃/📃 Script.md>).
     ```yaml
     📃 Example: 
 
@@ -179,7 +179,7 @@
 
     Use [`EVAL`](<EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>).
 
-    Here's a [Script 📃](<../📃⌘ commands/Script 📃/📃 Script.md>).
+    Here's a [Script 📃](<../📃 commands ⌘/Script 📃/📃 Script.md>).
     ```yaml
     📃 Example:
 
@@ -218,7 +218,7 @@
 
     > Used in the [`FILTER`](<../...methods 🤵/FILTER 🔽/🔽 FILTER ⌘ cmd.md>) command
 
-    Leverage `{$*}` interpolation with [Commands ⌘](<../📃⌘ commands/Command ⌘/⌘ Command.md>).
+    Leverage `{$*}` interpolation with [Commands ⌘](<../📃 commands ⌘/Command ⌘/⌘ Command.md>).
 
     ```yaml
     📃 Example:

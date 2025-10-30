@@ -2,7 +2,7 @@
 
 > Purpose
  
-* [Script 📃](<../../📃⌘ commands/Script 📃/📃 Script.md>) that implements the [`FILTER` 🔽 command](<🔽 FILTER ⌘ cmd.md>)
+* [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>) that implements the [`FILTER` 🔽 command](<🔽 FILTER ⌘ cmd.md>)
 
 ## Flow
 
@@ -24,7 +24,7 @@ Here are the outputs of the [`Parse@Hosted` 🅰️ method](<../../../../55 👷
 
 ## Script
 
-Here's the [Script 📃](<../../📃⌘ commands/Script 📃/📃 Script.md>)
+Here's the [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>)
 
 ```yaml
 📃 .FILTER:
@@ -54,7 +54,7 @@ Here's the [Script 📃](<../../📃⌘ commands/Script 📃/📃 Script.md>)
 - RETURN|$selected
 ```
 
-Commands: [`ASSERT`](<../../...holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`EVAL`](<../../...holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`MANY`](<../../../Prompts 🤔/🤔✏️ Prompt inputs/MANY 🔠/🔠 MANY ⌘ cmd.md>) [`RETURN`](<../../...control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`RUN`](<../../...control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
+Commands: [`ASSERT`](<../../...holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`EVAL`](<../../...holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`MANY`](<../../../Prompts 🤔/🤔✏️ Prompt inputs/MANY 🔠/🔠 MANY ⌘ cmd.md>) [`RETURN`](<../../📃 for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`RUN`](<../../📃 for control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
 
 ---
 <br/>

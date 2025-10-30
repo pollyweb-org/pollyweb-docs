@@ -2,7 +2,7 @@
 
 # 🤵📃 Pop Token 🎫 
 
-> [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/📃⌘ commands/Script 📃/📃 Script.md>) that implements [`Remove Token` 🎫 flow](<../../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Tokens 🎫/Remove 💬🎫🤵 /🧑‍🦰 Remove Token ⏩ flow.md>)
+> [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>) that implements [`Remove Token` 🎫 flow](<../../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Tokens 🎫/Remove 💬🎫🤵 /🧑‍🦰 Remove Token ⏩ flow.md>)
 
 > Called by [`Pop@Broker` 🅰️ method](<../🤵 Pop 🐌 msg.md>)
 
@@ -36,7 +36,7 @@
           Wallet: $:Wallet
 ```
 
-Commands: [`ASSERT`](<../../../../../35 💬 Chats/Scripts 📃/...holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CASE`](<../../../../../35 💬 Chats/Scripts 📃/...control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`GET`](<../../../../../35 💬 Chats/Scripts 📃/...datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) [`ONE`](<../../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/ONE 1️⃣/ONE 1️⃣ prompt.md>)  [`RUN`](<../../../../../35 💬 Chats/Scripts 📃/...control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
+Commands: [`ASSERT`](<../../../../../35 💬 Chats/Scripts 📃/...holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CASE`](<../../../../../35 💬 Chats/Scripts 📃/📃 for control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`GET`](<../../../../../35 💬 Chats/Scripts 📃/📃 for datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) [`ONE`](<../../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/ONE 1️⃣/ONE 1️⃣ prompt.md>)  [`RUN`](<../../../../../35 💬 Chats/Scripts 📃/📃 for control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
 
 ```yaml
 📃 RemoveToken:
@@ -71,7 +71,7 @@ Commands: [`ASSERT`](<../../../../../35 💬 Chats/Scripts 📃/...holders 🧠/
     Undo: RUN|UndoRemoval
 ```
 
-Commands: [`CASE`](<../../../../../35 💬 Chats/Scripts 📃/...control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`CONFIRM`](<../../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`DELETE`](<../../../../../35 💬 Chats/Scripts 📃/...datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>) [`SEND`](<../../../../../35 💬 Chats/Scripts 📃/...messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>) [`SUCCESS`](<../../../../../35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) [`RUN`](<../../../../../35 💬 Chats/Scripts 📃/...control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
+Commands: [`CASE`](<../../../../../35 💬 Chats/Scripts 📃/📃 for control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`CONFIRM`](<../../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`DELETE`](<../../../../../35 💬 Chats/Scripts 📃/📃 for datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>) [`SEND`](<../../../../../35 💬 Chats/Scripts 📃/...messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>) [`SUCCESS`](<../../../../../35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) [`RUN`](<../../../../../35 💬 Chats/Scripts 📃/📃 for control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
 
 
 ```yaml
@@ -84,4 +84,4 @@ Commands: [`CASE`](<../../../../../35 💬 Chats/Scripts 📃/...control ▶️/
 - SUCCESS|Token restored.
 ```
 
-Commands: [`UNDO`](<../../../../../35 💬 Chats/Scripts 📃/...datasets 🪣/UNDO ↩️/↩️ UNDO ⌘ cmd.md>) [`SUCCESS`](<../../../../../35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
+Commands: [`UNDO`](<../../../../../35 💬 Chats/Scripts 📃/📃 for datasets 🪣/UNDO ↩️/↩️ UNDO ⌘ cmd.md>) [`SUCCESS`](<../../../../../35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)

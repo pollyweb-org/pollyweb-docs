@@ -128,7 +128,7 @@
    
     <br/>
 
-    Here's the [Script 📃](<../../../Scripts 📃/📃⌘ commands/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../../Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>).
     
     ```yaml
     📃 Example:
@@ -169,7 +169,7 @@
 
     <br/>
    
-    Here's the [Script 📃](<../../../Scripts 📃/📃⌘ commands/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../../Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>).
     
     ```yaml
     # Explicit, not recommended, just for the exercise.
@@ -235,7 +235,7 @@
    
     <br/>
 
-    Here's the [Script 📃](<../../../Scripts 📃/📃⌘ commands/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../../Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>).
     
     ```yaml
     # Explicit, not recommended, just for the exercise.
@@ -258,7 +258,7 @@
     - SUCCESS|You entered `$money`
     ```
 
-    | [Command ⌘](<../../../Scripts 📃/📃⌘ commands/Command ⌘/⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../../Scripts 📃/📃 commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
     |-|-
     | 💰 [`AMOUNT`](<../AMOUNT 💰/AMOUNT 💰 prompt.md>) | To collect a structured currency value.
     | ✅ [`SUCCESS`](<../../🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) | To show the formatted collected value.
