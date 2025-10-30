@@ -9,7 +9,7 @@
 1. **What's a KEYS command?**
    
    A `KEYS` 
-   * is a handler [Command ⌘](<../../📃 commands ⌘/Command ⌘/⌘ Command.md>) 
+   * is a handler [Command ⌘](<../../📃 basics/Command ⌘/⌘ Command.md>) 
    * that generates a new asymmetric key pair.
 
     ---

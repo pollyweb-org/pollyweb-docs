@@ -8,8 +8,8 @@
 1. **What's a CASE flow?**
 
     A `CASE` ⏯️️
-    * is a flow [Command ⌘](<../../📃 commands ⌘/Command ⌘/⌘ Command.md>)  
-    * that runs a matching [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>) or [Command ⌘](<../../📃 commands ⌘/Command ⌘/⌘ Command.md>)
+    * is a flow [Command ⌘](<../../📃 basics/Command ⌘/⌘ Command.md>)  
+    * that runs a matching [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>) or [Command ⌘](<../../📃 basics/Command ⌘/⌘ Command.md>)
     * based on the evaluation of a [{Function}](<../../📃 functions 🐍/{Function} 🐍.md>).
 
     ---
@@ -31,7 +31,7 @@
     || Defaults to the last [input prompt ✏️](<../../../Prompts 🤔/🤔⚙️ Prompt features/9 ✏️ as Input.md>) | `TEXT\|Id?`
     | `<value>`| Static value to be matched with. | `ABC`
     | `<action>`| Run a [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>) | `MyProc`
-    || or a one-line [Command ⌘](<../../📃 commands ⌘/Command ⌘/⌘ Command.md>). | `INFO\|OK`
+    || or a one-line [Command ⌘](<../../📃 basics/Command ⌘/⌘ Command.md>). | `INFO\|OK`
     
     <br/>
 
@@ -63,7 +63,7 @@
 
     | Input| Purpose
     |-|-
-    | `<cmd-n>`| Run a multi-line [Command ⌘](<../../📃 commands ⌘/Command ⌘/⌘ Command.md>) list.
+    | `<cmd-n>`| Run a multi-line [Command ⌘](<../../📃 basics/Command ⌘/⌘ Command.md>) list.
     
     <br/>
 
