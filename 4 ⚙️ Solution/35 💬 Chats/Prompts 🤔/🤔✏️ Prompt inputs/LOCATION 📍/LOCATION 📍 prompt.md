@@ -36,7 +36,7 @@
     <br/>
 
 
-1. **What's the format for a [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>)?**
+1. **What's the format for a [Script 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>)?**
 
     ```yaml
     - LOCATION >> $holder
