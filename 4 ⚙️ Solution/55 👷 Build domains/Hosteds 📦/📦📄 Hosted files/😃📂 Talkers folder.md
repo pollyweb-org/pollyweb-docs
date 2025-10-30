@@ -17,12 +17,12 @@
 
 1. **Where do they reside?**
 
-    The [Talker 😃](<../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>) files reside under the `Talkers/` folder.
+    The {{Script}} files reside under the `Scripts/` folder.
 
     ```yaml
-    😃 Talkers/ # Tree of talkers
-    ├─ 😃 talker-1.yaml
-    └─ 😃 talker-2.yaml
+    😃 Scripts/ # Tree of talkers
+    ├─ 😃 script-1.yaml
+    └─ 😃 script-2.yaml
     ```
     
     ---
