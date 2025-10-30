@@ -8,8 +8,8 @@
 1. **What's an IF flow?**
 
     An `IF` ⤵️
-    * is a flow [Command ⌘](<../../📃 commands ⌘/Command ⌘/⌘ Command.md>)  
-    * that runs a [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>) or [Command ⌘](<../../📃 commands ⌘/Command ⌘/⌘ Command.md>)
+    * is a flow [Command ⌘](<../../📃 basics/Command ⌘/⌘ Command.md>)  
+    * that runs a [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>) or [Command ⌘](<../../📃 basics/Command ⌘/⌘ Command.md>)
     * based on the evaluation of a holder or [{Function}](<../../📃 functions 🐍/{Function} 🐍.md>).
 
     ---
@@ -90,8 +90,8 @@
 
     | Input| Purpose
     |-|-
-    | `<true-action>` | [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>) or one-lin⌘ [Command ⌘](<../../📃 commands ⌘/Command ⌘/⌘ Command.md>) on `True`
-    | `<false-action>`| [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>) or one-line [Command ⌘](<../../📃 commands ⌘/Command ⌘/⌘ Command.md>) on `False`
+    | `<true-action>` | [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>) or one-lin⌘ [Command ⌘](<../../📃 basics/Command ⌘/⌘ Command.md>) on `True`
+    | `<false-action>`| [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>) or one-line [Command ⌘](<../../📃 basics/Command ⌘/⌘ Command.md>) on `False`
 
     ---
     <br/>
@@ -112,8 +112,8 @@
 
     | Input| Purpose
     |-|-
-    | `<true-cmd-n>` | List of multi-line [Commands ⌘](<../../📃 commands ⌘/Command ⌘/⌘ Command.md>) to run on `True`
-    | `<false-cmd-n>` | List of multi-line [Commands ⌘](<../../📃 commands ⌘/Command ⌘/⌘ Command.md>) to run on `False`
+    | `<true-cmd-n>` | List of multi-line [Commands ⌘](<../../📃 basics/Command ⌘/⌘ Command.md>) to run on `True`
+    | `<false-cmd-n>` | List of multi-line [Commands ⌘](<../../📃 basics/Command ⌘/⌘ Command.md>) to run on `False`
 
     ---
     <br/>

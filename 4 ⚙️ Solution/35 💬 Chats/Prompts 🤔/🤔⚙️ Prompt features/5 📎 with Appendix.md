@@ -45,7 +45,7 @@
         Appendix: {/photos/elvis.png}
     ```
 
-    | [Command ⌘](<../../Scripts 📃/📃 commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../Scripts 📃/📃 basics/Command ⌘/⌘ Command.md>) | Purpose
     |-|-
     | 🔠 [`TEXT`](<../🤔✏️ Prompt inputs/TEXT 🔠/TEXT 🔠 prompt.md>) | To ask a question with an image.
     |

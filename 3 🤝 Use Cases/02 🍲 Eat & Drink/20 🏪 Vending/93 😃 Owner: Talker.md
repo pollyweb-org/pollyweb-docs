@@ -96,7 +96,7 @@ TODO: Add the flow to the Manifest
 
 ## Commands
 
-|Type|[Command ⌘](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 commands ⌘/Command ⌘/⌘ Command.md>)|Purpose
+|Type|[Command ⌘](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 basics/Command ⌘/⌘ Command.md>)|Purpose
 |-|-|-
 |Data| 🧲 [`GET`](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) | Look up items and machines
 |Input | 🔢 [`DIGITS`](<../../../4 ⚙️ Solution/35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/DIGITS 🔢/DIGITS 🔢 prompt.md>) | Ask for item number

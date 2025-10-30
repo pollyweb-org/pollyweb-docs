@@ -3,7 +3,7 @@
 
 # 🎴🐌🤵 Offer @ Broker
 
-> Part of the [`Save Token` 👉 flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save Token ⏩ flow.md>).
+> Part of the [`Save Token` 👉 flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save token ⏩ flow.md>).
 
 > Implemented by the [`Offer` 📃 script](<🤵 Offer 📃 handler.md>)
 
@@ -54,7 +54,7 @@ Body:
 
     This is the `Key` of the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>).
     * It is required for matching the signature when sharing. 
-    * Only the [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) keeps this information to avoid replay attacks from [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) purposefully breaking the [`Save Token` ⏩ flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save Token ⏩ flow.md>) halfway to collected repeated [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>).
+    * Only the [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) keeps this information to avoid replay attacks from [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) purposefully breaking the [`Save Token` ⏩ flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save token ⏩ flow.md>) halfway to collected repeated [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>).
 
     ---
     <br/>

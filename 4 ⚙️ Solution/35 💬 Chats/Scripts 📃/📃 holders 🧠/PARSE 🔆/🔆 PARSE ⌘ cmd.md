@@ -9,7 +9,7 @@
 1. **What's a PARSE command?**
    
    A `PARSE` 
-   * is a handler [Command ⌘](<../../📃 commands ⌘/Command ⌘/⌘ Command.md>) 
+   * is a handler [Command ⌘](<../../📃 basics/Command ⌘/⌘ Command.md>) 
    * that parses a [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>).
 
     ---
