@@ -216,7 +216,7 @@
 
 1. **How to reference a holder by name?**
 
-    > Used in the [`FILTER`](<../...methods 🤵/FILTER 🔽/🔽 FILTER ⌘ cmd.md>) command
+    > Used in the [`FILTER`](<../📃 for methods 🤵/FILTER 🔽/🔽 FILTER ⌘ cmd.md>) command
 
     Leverage `{$*}` interpolation with [Commands ⌘](<../📃 commands ⌘/Command ⌘/⌘ Command.md>).
 

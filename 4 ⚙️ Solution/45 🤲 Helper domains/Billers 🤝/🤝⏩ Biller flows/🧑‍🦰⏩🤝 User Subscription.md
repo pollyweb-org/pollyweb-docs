@@ -60,11 +60,11 @@ The corresponding [Talker 😃](<../../../35 💬 Chats/Talkers 😃/😃 Talker
 
 | [Command ⌘](<../../../35 💬 Chats/Scripts 📃/📃 commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
 |-|-
-| 📝 [`INFORM`](<../../../35 💬 Chats/Scripts 📃/...methods 🤵/INFORM 📝/📝 INFORM ⌘ cmd.md>) | To provide instructions.
-| 🔗 [`BIND`](<../../../35 💬 Chats/Scripts 📃/...methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) | To create a user profile.
-| 🛠️ [`INVITE`](<../../../35 💬 Chats/Scripts 📃/...methods 🤵/INVITE 🤲/🤲 INVITE ⌘ cmd.md>) | To subscribe the user to plan.
-| ❄️ [`FREEZE`](<../../../35 💬 Chats/Scripts 📃/...methods 🤵/FREEZE ❄️/❄️ FREEZE ⌘ cmd.md>) | To disable past inputs.
+| 📝 [`INFORM`](<../../../35 💬 Chats/Scripts 📃/📃 for methods 🤵/INFORM 📝/📝 INFORM ⌘ cmd.md>) | To provide instructions.
+| 🔗 [`BIND`](<../../../35 💬 Chats/Scripts 📃/📃 for methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) | To create a user profile.
+| 🛠️ [`INVITE`](<../../../35 💬 Chats/Scripts 📃/📃 for methods 🤵/INVITE 🤲/🤲 INVITE ⌘ cmd.md>) | To subscribe the user to plan.
+| ❄️ [`FREEZE`](<../../../35 💬 Chats/Scripts 📃/📃 for methods 🤵/FREEZE ❄️/❄️ FREEZE ⌘ cmd.md>) | To disable past inputs.
 | ⬇️ [`EVAL`](<../../../35 💬 Chats/Scripts 📃/...holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | To register on the database.
 | ✅ [`SUCCESS`](<../../../35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) | To say that it was successful.
-| 👋 [`GOODBYE`](<../../../35 💬 Chats/Scripts 📃/...methods 🤵/GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>) | To show advertising.
+| 👋 [`GOODBYE`](<../../../35 💬 Chats/Scripts 📃/📃 for methods 🤵/GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>) | To show advertising.
 |
