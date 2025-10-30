@@ -1,7 +1,7 @@
 <!-- TODO -->
 # 😃📃 .CHAT 💬 script
 
-> Part of [Talker 😃 domain](<../../../Talkers 😃/😃 Talker role.md>)
+> Part of [Talker 😃 domain](<../../../Talkers 😃/😃🤲 Talker helper.md>)
 
 > Purpose
 * [Script 📃](<../../📃 basics/Script 📃.md>) 

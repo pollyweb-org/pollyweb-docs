@@ -30,8 +30,8 @@
     | [📥 Inbound](<📦📄 Hosted files/📥📄 Inbound file.md>) | YAML | Message inbound configuration
     | [📤 Outbound](<📦📄 Hosted files/📤📄 Outbound file.md>) | YAML | Message outbound configuration
     | [🤲 Helpers](<📦📄 Hosted files/🤲📄 Helpers file.md>)  | YAML | Required [Helper 🤲 domains](<../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>)
-    | 🔆 [Locators](<📦📄 Hosted files/🔆📄 Locators file.md>) | YAML | Map of [Locators 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to [Talkers 😃](<../../35 💬 Chats/Talkers 😃/😃 Talker role.md>)
-    | 😃 [Talkers](<📦📄 Hosted files/😃📂 Talkers folder.md>) | Folder | List of [Talker 😃](<../../35 💬 Chats/Talkers 😃/😃 Talker role.md>) scripts 
+    | 🔆 [Locators](<📦📄 Hosted files/🔆📄 Locators file.md>) | YAML | Map of [Locators 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to [Talkers 😃](<../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>)
+    | 😃 [Talkers](<📦📄 Hosted files/😃📂 Talkers folder.md>) | Folder | List of [Talker 😃](<../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>) scripts 
     | [📜 Manifest](<📦📄 Hosted files/📜📂 Manifest folder.md>) | Folder | Public [domain Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest.md>) parts
     | [🪣 Pools](<📦📄 Hosted files/🗺️📄 Map file.md>) | YAML | Resource index for [Talker `GET`](<../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>)
     | [🗂️ Resources](<📦📄 Hosted files/🗂️📂 Filer folder.md>) | Folder | Resource folder for [🪣 Pools](<📦📄 Hosted files/🗺️📄 Map file.md>)
@@ -48,7 +48,7 @@
    
     | Method | Purpose
     |-|-
-    [😃🐌 Handle](<📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>) | Evaluates [{Functions}](<../../35 💬 Chats/Scripts 📃/📃 functions 🐍/{Function} 🐍.md>) in [Talkers 😃](<../../35 💬 Chats/Talkers 😃/😃 Talker role.md>)
+    [😃🐌 Handle](<📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>) | Evaluates [{Functions}](<../../35 💬 Chats/Scripts 📃/📃 functions 🐍/{Function} 🐍.md>) in [Talkers 😃](<../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>)
     
     ---
     <br/>

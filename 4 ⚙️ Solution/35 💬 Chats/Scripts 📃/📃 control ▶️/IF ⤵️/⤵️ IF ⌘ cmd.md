@@ -1,6 +1,6 @@
 # 😃⤵️ Talker `IF` flow 
 
-> Part of [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>)
+> Part of [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>)
 
 <br/>
 

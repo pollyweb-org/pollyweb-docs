@@ -1,6 +1,6 @@
 # 😃🔽 Talker `FILTER` command
 
-> Part of [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>)
+> Part of [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>)
 
 > Implemented by the [`.FILTER` 📃 script](<🔽 FILTER 📃 script.md>)
 

@@ -3,7 +3,7 @@
 # 😃🧲 Talker `GET` command
 
 > Implementation
-* Part of [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>)
+* Part of [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>)
 * Implemented by the [`GET` 📃 script](<🧲 GET 📃 script.md>)
 
 ## FAQ
@@ -14,7 +14,7 @@
     * is a [Command ⌘](<../../📃 basics/Command ⌘.md>) 
     * that retrieves an item by key 🔑
     * from a key-value resource pool 🪣
-    * into a [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>) holder.
+    * into a [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>) holder.
 
     ---
     <br/>

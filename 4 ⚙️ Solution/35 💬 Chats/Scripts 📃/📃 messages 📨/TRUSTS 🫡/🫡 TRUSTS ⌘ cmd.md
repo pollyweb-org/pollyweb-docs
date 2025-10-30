@@ -2,7 +2,7 @@
 
 # 🫡 Talker `TRUSTS` command
 
-> Part of [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>)
+> Part of [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>)
 
 > Implemented by the [`.TRUSTS` 📃 script](<🫡 TRUSTS 📃 script.md>)
 

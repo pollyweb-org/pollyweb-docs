@@ -7,7 +7,7 @@
 1. **What is the Talkers folder?**
 
     The `😃 Talkers/` folder 
-    * contains the [Talker 😃](<../../../35 💬 Chats/Talkers 😃/😃 Talker role.md>) files
+    * contains the [Talker 😃](<../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>) files
     * referenced by the [Locator 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) resources
     * in the [Locators 🔆 file](<🔆📄 Locators file.md>).
     
@@ -17,7 +17,7 @@
 
 1. **Where do they reside?**
 
-    The [Talker 😃](<../../../35 💬 Chats/Talkers 😃/😃 Talker role.md>) files reside under the `Talkers/` folder.
+    The [Talker 😃](<../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>) files reside under the `Talkers/` folder.
 
     ```yaml
     😃 Talkers/ # Tree of talkers

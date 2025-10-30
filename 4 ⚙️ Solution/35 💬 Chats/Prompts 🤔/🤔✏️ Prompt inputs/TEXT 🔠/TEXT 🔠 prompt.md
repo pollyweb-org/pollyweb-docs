@@ -71,7 +71,7 @@
 
 
 
-1. **What's the syntax on a [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>)?**
+1. **What's the syntax on a [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>)?**
 
     ```yaml
     # Simplest.

@@ -24,7 +24,7 @@
 
 
 
-1. **What's the format for a [Talker 😃](<../../Talkers 😃/😃 Talker role.md>)?**
+1. **What's the format for a [Talker 😃](<../../Talkers 😃/😃🤲 Talker helper.md>)?**
 
     ```yaml
     <PROMPT>|<statement>:

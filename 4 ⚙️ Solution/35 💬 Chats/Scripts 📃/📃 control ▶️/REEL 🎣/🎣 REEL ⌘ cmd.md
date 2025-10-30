@@ -1,6 +1,6 @@
 # 🎣 Talker `REEL` command
 
-> Part of [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>)
+> Part of [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>)
 
 <!-- TODO: examples -->
 > Used in [`Bound@Vault`](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
@@ -11,7 +11,7 @@
 
     A `REEL`
     * is a handler [Command ⌘](<../../📃 basics/Command ⌘.md>) 
-    * for [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) handlers to unblock a pending [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>).
+    * for [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) handlers to unblock a pending [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>).
   
     ---
     <br/>
@@ -54,7 +54,7 @@
 
     <br/>
 
-    Here's the [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>)
+    Here's the [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>)
 
     ```yaml
     📃 Example:

@@ -22,7 +22,7 @@
             * e.g., `that's funny` versus `🤣🤣🤣`
   
     * To help [Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) developers, 
-        * [Talkers 😃](<../../Talkers 😃/😃 Talker role.md>) add emojis to [`Prompted@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 request.md>) messages. 
+        * [Talkers 😃](<../../Talkers 😃/😃🤲 Talker helper.md>) add emojis to [`Prompted@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 request.md>) messages. 
 
 
     ---
@@ -74,7 +74,7 @@
 
 1. **Can Talker prompts use alternative emojis?**
 
-    The default [Talker 😃](<../../Talkers 😃/😃 Talker role.md>) emoji `😃` can be replaced with one of the following.
+    The default [Talker 😃](<../../Talkers 😃/😃🤲 Talker helper.md>) emoji `😃` can be replaced with one of the following.
 
     ||Emoji | Application | Example
     |-|-|-|-
@@ -106,7 +106,7 @@
 
 1. **How to change an emoji in a Prompt?**
 
-    Here's a [Talker 😃](<../../Talkers 😃/😃 Talker role.md>).
+    Here's a [Talker 😃](<../../Talkers 😃/😃🤲 Talker helper.md>).
 
     ```yaml
     - CONFIRM|Are you OK?:

@@ -45,7 +45,7 @@ Order a pizza for home delivery
 
 ## 💼 Business Setup
 
-1. **What does the [😃 Domain Talker](<../../../4 ⚙️ Solution/35 💬 Chats/Talkers 😃/😃 Talker role.md>) look like?**
+1. **What does the [😃 Domain Talker](<../../../4 ⚙️ Solution/35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>) look like?**
 
     ```yaml
     💬 Order:

@@ -27,7 +27,7 @@
     ---
     <br/>
 
-1. **What's the syntax on a [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>)?**
+1. **What's the syntax on a [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>)?**
 
     ```yaml
     # Simplest.
@@ -174,7 +174,7 @@
 
 1. **How does Precision work?**
 
-    When collecting a [`QUANTITY`](<QUANTITY ↕️ prompt.md>) input, [Talkers 😃](<../../../Talkers 😃/😃 Talker role.md>) 
+    When collecting a [`QUANTITY`](<QUANTITY ↕️ prompt.md>) input, [Talkers 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>) 
     * round up the input based on the precision, 
     * and ask confirmation to the user if the value differs.
 

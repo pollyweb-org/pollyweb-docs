@@ -1,6 +1,6 @@
 # 😃🧠 Talker `$holder` 
 
-> Part of [Talker 😃](<../../Talkers 😃/😃 Talker role.md>)
+> Part of [Talker 😃](<../../Talkers 😃/😃🤲 Talker helper.md>)
 
 <br/>
 
@@ -10,7 +10,7 @@
     A `$holder`
     * is a named memory slot 
     * associated with a [Chat 💬](<../../Chats 💬/💬 Chat.md>)
-    * and managed by a [Talker 😃](<../../Talkers 😃/😃 Talker role.md>).
+    * and managed by a [Talker 😃](<../../Talkers 😃/😃🤲 Talker helper.md>).
 
     ---
     <br/>
@@ -29,7 +29,7 @@
 
 1. **How to read a $holder?**
 
-    In a [Talker 😃](<../../Talkers 😃/😃 Talker role.md>) script,
+    In a [Talker 😃](<../../Talkers 😃/😃🤲 Talker helper.md>) script,
     * placeholders are prefixed with a dollar sign;
     * e.g., `$p` to reference holder named `p`.
 
@@ -43,7 +43,7 @@
 
 1. **How to read properties from $holder objects?**
 
-    In a [Talker 😃](<../../Talkers 😃/😃 Talker role.md>) script, use `dot` notation to access properties:
+    In a [Talker 😃](<../../Talkers 😃/😃🤲 Talker helper.md>) script, use `dot` notation to access properties:
     * `$p.MyProp` reads property `MyProp`
     * `$p.L1.L2` reads property `L2` of property `L1`
 
@@ -142,7 +142,7 @@
     In Python 🐍 code, use the holder handler:
     * `.Holders.Set('$p', new_value)` 
 
-    In a [Talker 😃](<../../Talkers 😃/😃 Talker role.md>) script, use `>>` to send a value to a $holder:
+    In a [Talker 😃](<../../Talkers 😃/😃🤲 Talker helper.md>) script, use `>>` to send a value to a $holder:
     * `TEXT|bla >> $p` writes the answer to a [`TEXT` 🔠 input](<../../Prompts 🤔/🤔✏️ Prompt inputs/TEXT 🔠/TEXT 🔠 prompt.md>).
     * `EVAL|f >> $p` writes the return of a [{Function}](<../📃 functions 🐍/{Function} 🐍.md>) named `f`.
 

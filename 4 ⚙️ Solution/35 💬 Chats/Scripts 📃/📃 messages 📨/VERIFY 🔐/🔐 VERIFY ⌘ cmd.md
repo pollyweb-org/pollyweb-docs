@@ -1,7 +1,7 @@
 <!-- TODO: detail -->
 # 🔐 Talker `VERIFY` command
 
-> Part of [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>)
+> Part of [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>)
 
 <br/>
 
@@ -56,7 +56,7 @@
 
 1. **How to verify a message from a domain?**
 
-    Here's a [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>) that verifies a [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) from a [domain 👥](<../../../../40 👥 Domains/👥 Domain.md>).
+    Here's a [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>) that verifies a [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) from a [domain 👥](<../../../../40 👥 Domains/👥 Domain.md>).
     
     ```yaml
     # Verify the Message.
@@ -73,7 +73,7 @@
 
 1. **How do Brokers verify a message from a Wallet?**
 
-    Here's a [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>) excerpt from [Pop Vault @ Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Pop 🧑‍🦰🐌🤵/Pop Vault/🤵 Pop Vault 📃 handler.md>).
+    Here's a [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>) excerpt from [Pop Vault @ Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Pop 🧑‍🦰🐌🤵/Pop Vault/🤵 Pop Vault 📃 handler.md>).
 
     ```yaml
     # Get the WalletID from the message 
@@ -97,7 +97,7 @@
 
 1. **How do Hosts verify a message from a Wallet?**
 
-    Here's a [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>).
+    Here's a [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>).
 
     ```yaml
     # Get the Chat item 

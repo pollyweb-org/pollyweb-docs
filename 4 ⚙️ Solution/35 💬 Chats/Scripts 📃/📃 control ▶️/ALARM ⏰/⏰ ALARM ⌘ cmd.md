@@ -1,6 +1,6 @@
 # 😃⏰ Talker `ALARM` command
 
-> Part of [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>)
+> Part of [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>)
 
 > Implemented by the [`.ALARM` 📃 script](<⏰ ALARM 📃 script.md>)
 
