@@ -3,7 +3,7 @@
 
 # 🤵📃 Pop Vault 🗄️
 
-> [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>) that implements the [`Unbind Vault` 💬 flow](<../../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Vaults 🗄️/Unbind 💬🗄️🤵 /🧑‍🦰 Unbind Vault ⏩ flow.md>) 
+> [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/📃 basics/📃 Script.md>) that implements the [`Unbind Vault` 💬 flow](<../../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Vaults 🗄️/Unbind 💬🗄️🤵 /🧑‍🦰 Unbind Vault ⏩ flow.md>) 
 
 > Called by the [`Pop@Broker` 📃 script](<../🤵 Pop 📃 handler.md>)
 

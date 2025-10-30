@@ -38,7 +38,7 @@
 
     <br/>
 
-    Here's the [Script 📃](<../../Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../Scripts 📃/📃 basics/📃 Script.md>).
 
     ```yaml
     - TEXT|Who is in the picture?:

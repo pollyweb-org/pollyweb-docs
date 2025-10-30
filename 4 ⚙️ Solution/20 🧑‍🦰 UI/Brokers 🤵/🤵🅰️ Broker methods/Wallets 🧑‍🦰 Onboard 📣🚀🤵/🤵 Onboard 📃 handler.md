@@ -1,6 +1,6 @@
 # 🤵📃 Onboard script
 
-> [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>) that implements the [`Onboard@Broker` 🅰️ method](<🤵 Onboard 🚀 request.md>)
+> [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/📃 Script.md>) that implements the [`Onboard@Broker` 🅰️ method](<🤵 Onboard 🚀 request.md>)
 
 <br/>
 

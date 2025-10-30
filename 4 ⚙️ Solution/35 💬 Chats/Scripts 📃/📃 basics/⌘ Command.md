@@ -114,9 +114,9 @@
     | ⬇️ [`EVAL`](<../📃 holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | Evaluates a [{Function}](<../📃 functions 🐍/{Function} 🐍.md>) into a holder.
     | ⤵️ [`IF`](<../📃 control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script 📃](<../📃 functions 🐍/{Function} 🐍.md>).
     | 🪵 [`LOG`](<../📃 control ▶️/LOG 🪵/🪵 LOG ⌘ cmd.md>) | Logs messages into the system handler.
-    | 🔁 [`REPEAT`](<../📃 control ▶️/REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) | Repeats the current [Script 📃](<../📃 commands ⌘/Script 📃/📃 Script.md>) with a confirmation.
-    | ⤴️ [`RETURN`](<../📃 control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) | Returns from a [Script 📃](<../📃 commands ⌘/Script 📃/📃 Script.md>) with a result.
-    | ▶️ [`RUN`](<../📃 control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>) | Runs a [Script 📃](<../📃 commands ⌘/Script 📃/📃 Script.md>) and puts the result in a holder.
+    | 🔁 [`REPEAT`](<../📃 control ▶️/REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) | Repeats the current [Script 📃](<📃 Script.md>) with a confirmation.
+    | ⤴️ [`RETURN`](<../📃 control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) | Returns from a [Script 📃](<📃 Script.md>) with a result.
+    | ▶️ [`RUN`](<../📃 control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>) | Runs a [Script 📃](<📃 Script.md>) and puts the result in a holder.
     | 🧘 [`WAIT`](<../📃 control ▶️/WAIT 🧘/🧘 WAIT ⌘ cmd.md>) | Waits for a period of time or until signaled.
 
     ---
@@ -127,7 +127,7 @@
 
     |#|Step|Details
     |-|-|-
-    |1| `Upload` | Upload the [Script 📃](<../📃 commands ⌘/Script 📃/📃 Script.md>) for the [Command ⌘](<⌘ Command.md>)
+    |1| `Upload` | Upload the [Script 📃](<📃 Script.md>) for the [Command ⌘](<⌘ Command.md>)
     |2| `Parse` | Parse it at the [`Parse@Hosted` 🅰️ method](<../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Parse 😃🚀📦/📦 Parse 🚀 request.md>)
     |3| `Register`| Register it on the [`Commands.yaml` ⌘ file](<../../../55 👷 Build domains/Hosteds 📦/📦📄 Hosted files/📄⌘ Commands file.md>) 
     
@@ -148,7 +148,7 @@
 
     <br/>
 
-    Here's the [Script 📃](<../📃 commands ⌘/Script 📃/📃 Script.md>) for the [`Hello@Host` 🅰️ method](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Goodbye 🤗⏩👋/🤗 Goodbye ⏩ flow.md>) 
+    Here's the [Script 📃](<📃 Script.md>) for the [`Hello@Host` 🅰️ method](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Goodbye 🤗⏩👋/🤗 Goodbye ⏩ flow.md>) 
 
     ```yaml
     💬 /Test my echo:
@@ -159,7 +159,7 @@
 
     <br/>
 
-    Here's the `ECHO` [Script 📃](<../📃 commands ⌘/Script 📃/📃 Script.md>)
+    Here's the `ECHO` [Script 📃](<📃 Script.md>)
 
     ```yaml
     📃 .ECHO:

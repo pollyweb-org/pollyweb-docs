@@ -75,7 +75,7 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ The A holder has 3.
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ Holder B also has 3.
 
-    Here's the [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../📃 basics/📃 Script.md>).
 
     ```yaml
     📃 Example:
@@ -105,7 +105,7 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ The database now has 10 rows.
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 Add a database row? 
 
-    Here's the [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../📃 basics/📃 Script.md>).
 
     ```yaml
     📃 Example:
@@ -138,7 +138,7 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ Welcome to Any Business! <br/> - We are a 3.6 M£ business  <br/> &nbsp;&nbsp; based out of London, UK.
     |
 
-    Here's the [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../📃 basics/📃 Script.md>).
 
     ```yaml
     📃 Example:
@@ -173,7 +173,7 @@
 
 1. **How to change a single property in a $holder?**
   
-    Here's the [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../📃 basics/📃 Script.md>).
 
     ```yaml
     📃 Example:
@@ -198,7 +198,7 @@
 
     With a mix of dictionary values and [Holder 🧠](<../$Holder 🧠.md>) surrounded with `:`.
     
-    Here's the [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../📃 basics/📃 Script.md>).
 
     ```yaml
     📃 Example:
@@ -251,7 +251,7 @@
     | 20 | 21 | 22 |
     ```
 
-    Here's the [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../📃 basics/📃 Script.md>).
 
     ```yaml
     📃 Example:
@@ -295,7 +295,7 @@
     | 20 | 21 | 22 |
     ```
     
-    Here's the [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../📃 basics/📃 Script.md>).
 
     ```yaml   
     📃 Example:
@@ -338,7 +338,7 @@
     | 20 | 21 | 22 |
     ```
     
-    Here's the [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../📃 basics/📃 Script.md>).
 
     ```yaml  
     📃 Example:

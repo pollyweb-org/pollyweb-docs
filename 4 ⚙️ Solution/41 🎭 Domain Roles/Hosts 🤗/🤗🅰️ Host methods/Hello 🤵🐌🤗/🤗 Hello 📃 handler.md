@@ -2,7 +2,7 @@
 
 > Purpose
 
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>) that implements the [`Hello@Host` 🅰️ method](<🤗 Hello 🐌 msg.md>)
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/📃 Script.md>) that implements the [`Hello@Host` 🅰️ method](<🤗 Hello 🐌 msg.md>)
 
 ## Handler
 

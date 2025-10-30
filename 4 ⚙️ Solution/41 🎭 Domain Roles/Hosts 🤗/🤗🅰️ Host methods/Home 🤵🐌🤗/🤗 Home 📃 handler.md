@@ -1,6 +1,6 @@
 # 🤗📃 Home
 
-[Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>) that implements the [`Home@Host` 🅰️ method](<🤗 Home 🐌 msg.md>).
+[Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/📃 Script.md>) that implements the [`Home@Host` 🅰️ method](<🤗 Home 🐌 msg.md>).
 
 
 ## Script

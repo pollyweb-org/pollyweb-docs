@@ -1,7 +1,7 @@
 # 📝 INFORM 📃 script
 
 > Purpose
-* [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>) that implements [`INFORM`](<📝 INFORM ⌘ cmd.md>) command.
+* [Script 📃](<../../📃 basics/📃 Script.md>) that implements [`INFORM`](<📝 INFORM ⌘ cmd.md>) command.
 
 <br/>
 

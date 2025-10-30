@@ -146,7 +146,7 @@
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ You opted to play.
     |  
 
-    Here's the [Script 📃](<../../Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../Scripts 📃/📃 basics/📃 Script.md>).
 
     ```yaml
     # 😃 Talker
@@ -216,7 +216,7 @@
 
     <br/>
 
-    Here's the [Script 📃](<../../Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../Scripts 📃/📃 basics/📃 Script.md>).
 
     
   

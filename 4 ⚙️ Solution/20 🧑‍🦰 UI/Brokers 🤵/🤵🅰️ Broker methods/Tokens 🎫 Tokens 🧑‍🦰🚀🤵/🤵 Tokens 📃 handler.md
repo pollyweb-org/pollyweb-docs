@@ -2,7 +2,7 @@
 
 # 🤵📃 Tokens handler
 
-[Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>) that implements the [`Tokens@Broker` 🅰️ method](<🤵 Tokens 🚀 request.md>)
+[Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/📃 Script.md>) that implements the [`Tokens@Broker` 🅰️ method](<🤵 Tokens 🚀 request.md>)
 
 
 ## Flow

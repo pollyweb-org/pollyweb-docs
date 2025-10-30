@@ -1,6 +1,6 @@
 # 🎫 ISSUE 📃 script
 
-[Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>) that implements the [`ISSUE`](<🎫 ISSUE ⌘ cmd.md>) command.
+[Script 📃](<../../📃 basics/📃 Script.md>) that implements the [`ISSUE`](<🎫 ISSUE ⌘ cmd.md>) command.
 
 ## Flow
 

@@ -1,6 +1,6 @@
 # 🤵 Status 📃 handler
 
-> [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>) that implements the [`Status@Broker` 🅰️ method](<🤵 Status 🚀 request.md>).
+> [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/📃 Script.md>) that implements the [`Status@Broker` 🅰️ method](<🤵 Status 🚀 request.md>).
 
 ## Handler
 

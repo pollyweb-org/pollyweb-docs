@@ -1,6 +1,6 @@
 # 😃📃 `.TRUSTS` 🫡 script
 
-> [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>) that implements the [`TRUSTS`](<🫡 TRUSTS ⌘ cmd.md>) command.
+> [Script 📃](<../../📃 basics/📃 Script.md>) that implements the [`TRUSTS`](<🫡 TRUSTS ⌘ cmd.md>) command.
 
 > Calls the [`Trusts@Graph` 🅰️ method](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>)
 

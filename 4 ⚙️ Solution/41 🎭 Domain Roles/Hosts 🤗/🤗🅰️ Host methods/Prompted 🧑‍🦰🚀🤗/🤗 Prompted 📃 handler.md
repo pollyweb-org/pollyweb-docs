@@ -3,7 +3,7 @@
 # 🤗📃 Prompted
 
 > Purpose
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>) that implements the [`Prompted@Host` 🅰️ method](<🤗 Prompted 🚀 request.md>)
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/📃 Script.md>) that implements the [`Prompted@Host` 🅰️ method](<🤗 Prompted 🚀 request.md>)
 
 > Flow
 * Triggered by the [`Prompt@Host` 📃 script](<../../../../35 💬 Chats/Talkers 😃/😃⏩ Talker flows/Prompts 😃⏩🧑‍🦰/😃 Prompts 📃 script.md>)

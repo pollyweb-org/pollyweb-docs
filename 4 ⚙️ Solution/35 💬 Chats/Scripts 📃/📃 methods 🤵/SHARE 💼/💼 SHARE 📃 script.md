@@ -1,6 +1,6 @@
 # 💼 SHARE 📃 script
 
-[Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>) that implements the [`SHARE`](<💼 SHARE ⌘ cmd.md>) command.
+[Script 📃](<../../📃 basics/📃 Script.md>) that implements the [`SHARE`](<💼 SHARE ⌘ cmd.md>) command.
 
 ## Flow
 

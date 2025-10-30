@@ -90,5 +90,5 @@ Needs ||
 | [{Functions} 🐍](<../../../Scripts 📃/📃 functions 🐍/{Function} 🐍.md>) | [`{.In}`](<../../../Scripts 📃/📃 functions 🐍/🔩 {.In}.md>)
 | [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Prompt@Broker` 🅰️ method](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>) <br/> [`Prompted@Host` 🅰️ method](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 request.md>)
 | [Holders 🧠](<../../../Scripts 📃/📃 holders 🧠/$Holder 🧠.md>) | [`$.Chat`](<../../../Scripts 📃/📃 holders 🧠/$.Chat 💬/💬 $.Chat 🧠 holder.md>)
-| [Scripts 📃](<../../../Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>) | [`PromptEmoji` 📃 script](<😃 Prompts 📃 emoji.md>)
+| [Scripts 📃](<../../../Scripts 📃/📃 basics/📃 Script.md>) | [`PromptEmoji` 📃 script](<😃 Prompts 📃 emoji.md>)
 |

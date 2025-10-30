@@ -2,7 +2,7 @@
 
 > Purpose
  
-* [Script 📃](<../../../Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>) that implements the [`MANY`](<🔠 MANY ⌘ cmd.md>) command.
+* [Script 📃](<../../../Scripts 📃/📃 basics/📃 Script.md>) that implements the [`MANY`](<🔠 MANY ⌘ cmd.md>) command.
 
 ## Flow
 
@@ -19,7 +19,7 @@ Here are the outputs of the [`Parse@Hosted` 🅰️ method](<../../../../55 👷
 
 ## Script
 
-Here's the [Script 📃](<../../../Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>)
+Here's the [Script 📃](<../../../Scripts 📃/📃 basics/📃 Script.md>)
 
 <!-- TODO -->
 
@@ -42,7 +42,7 @@ Needs||
 |-|-
 | [Commands ⌘](<../../../Scripts 📃/📃 basics/⌘ Command.md>) | [`ASSERT`](<../../../Scripts 📃/📃 holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`RETURN`](<../../../Scripts 📃/📃 control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`RUN`](<../../../Scripts 📃/📃 control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
 | [Holders 🧠](<../../../Scripts 📃/📃 holders 🧠/$Holder 🧠.md>) | [`$.Inputs`](<../../../Scripts 📃/📃 holders 🧠/$.Inputs ▶️/▶️ $.Inputs 🧠 holder.md>)
-| [Scripts 📃](<../../../Scripts 📃/📃 commands ⌘/Script 📃/📃 Script.md>) | [`Prompts` 📃 script](<../../../Talkers 😃/😃⏩ Talker flows/Prompts 😃⏩🧑‍🦰/😃 Prompts 📃 script.md>)
+| [Scripts 📃](<../../../Scripts 📃/📃 basics/📃 Script.md>) | [`Prompts` 📃 script](<../../../Talkers 😃/😃⏩ Talker flows/Prompts 😃⏩🧑‍🦰/😃 Prompts 📃 script.md>)
 
 ---
 <br/>
