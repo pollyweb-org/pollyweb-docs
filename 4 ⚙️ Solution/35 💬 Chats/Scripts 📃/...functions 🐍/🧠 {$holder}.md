@@ -26,7 +26,7 @@
 
     | [Command ⌘](<../...commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
     |-|-
-    | ⬇️ [`EVAL`](<../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | To push an object into a [holder 🧠](<../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>).
+    | ⬇️ [`EVAL`](<../...holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | To push an object into a [holder 🧠](<../...holders 🧠/$Holder 🧠.md>).
     | ℹ️ [`INFO`](<../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the holder values.
     
     ---
@@ -57,7 +57,7 @@
 
     | [Command ⌘](<../...commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
     |-|-
-    | ℹ️ [`INFO`](<../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the [holder 🧠](<../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>) values.
+    | ℹ️ [`INFO`](<../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the [holder 🧠](<../...holders 🧠/$Holder 🧠.md>) values.
     | ↕️ [`QUANTITY`](<../../Prompts 🤔/🤔✏️ Prompt inputs/QUANTITY ↕️/QUANTITY ↕️ prompt.md>) | To collect the number input.
     
 

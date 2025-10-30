@@ -64,7 +64,7 @@ The corresponding [Talker 😃](<../../../35 💬 Chats/Talkers 😃/😃 Talker
 | 🔗 [`BIND`](<../../../35 💬 Chats/Scripts 📃/...methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) | To create a user profile.
 | 🛠️ [`INVITE`](<../../../35 💬 Chats/Scripts 📃/...methods 🤵/INVITE 🤲/🤲 INVITE ⌘ cmd.md>) | To subscribe the user to plan.
 | ❄️ [`FREEZE`](<../../../35 💬 Chats/Scripts 📃/...methods 🤵/FREEZE ❄️/❄️ FREEZE ⌘ cmd.md>) | To disable past inputs.
-| ⬇️ [`EVAL`](<../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | To register on the database.
+| ⬇️ [`EVAL`](<../../../35 💬 Chats/Scripts 📃/...holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | To register on the database.
 | ✅ [`SUCCESS`](<../../../35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) | To say that it was successful.
 | 👋 [`GOODBYE`](<../../../35 💬 Chats/Scripts 📃/...methods 🤵/GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>) | To show advertising.
 |

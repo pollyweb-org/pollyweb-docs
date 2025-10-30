@@ -1,8 +1,8 @@
 # 😃📃 `.TRUSTS` 🫡 script
 
-> [Script 📃](<../../../../Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>) that implements the [`TRUSTS`](<🫡 TRUSTS ⌘ cmd.md>) command.
+> [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>) that implements the [`TRUSTS`](<🫡 TRUSTS ⌘ cmd.md>) command.
 
-> Calls the [`Trusts@Graph` 🅰️ method](<../../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>)
+> Calls the [`Trusts@Graph` 🅰️ method](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>)
 
 ## How to call
 
@@ -56,7 +56,7 @@
 
 Needs||
 |-|-
-| [Commands ⌘](<../../../../Scripts 📃/...commands ⌘/Command ⌘/⌘ Command.md>) | [`ASSERT`](<../../...holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`EVAL`](<../../...holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`IF`](<../../../../Scripts 📃/...control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`SEND`](<../SEND 📬/📬 SEND ⌘ cmd.md>)
-| [Messages 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Trusts@Graph`](<../../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>)
+| [Commands ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) | [`ASSERT`](<../../...holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`EVAL`](<../../...holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`IF`](<../../...control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`SEND`](<../SEND 📬/📬 SEND ⌘ cmd.md>)
+| [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Trusts@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>)
 | [Holders 🧠](<../../...holders 🧠/$Holder 🧠.md>) | [`$.Msg`](<../../...holders 🧠/$.Msg 📨/📨 $.Msg 🧠 holder.md>) [`$.Hosted`](<../../...holders 🧠/$.Hosted 📦/📦 $.Hosted 🧠 holder.md>)
 |

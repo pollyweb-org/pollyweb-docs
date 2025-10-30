@@ -39,8 +39,8 @@
     | `<set>` | Name of the [Dataset 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | `MySet`
     | `{object}` | Item to update or insert in the pool | `MyKey` `$key`
     | `.Delete` | Automatic cleanup with [`{.Add}`](<../../...functions 🐍/🔩 {.Add}.md>) | `30 days`
-    | `.OnBlocked`| [`$Holder`](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>) name to set `True` | `onBlocked`
-    | `$inserted` | [Holder 🧠](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>) with the insertion | `$item`
+    | `.OnBlocked`| [`$Holder`](<../../...holders 🧠/$Holder 🧠.md>) name to set `True` | `onBlocked`
+    | `$inserted` | [Holder 🧠](<../../...holders 🧠/$Holder 🧠.md>) with the insertion | `$item`
 
     ---
     <br/>
@@ -89,7 +89,7 @@
 
     | Input| Purpose | Examples
     |-|-|-
-    | `$item` | [Holder 🧠](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>) loaded with [`GET`](<../GET 🧲/🧲 GET ⌘ cmd.md>)
+    | `$item` | [Holder 🧠](<../../...holders 🧠/$Holder 🧠.md>) loaded with [`GET`](<../GET 🧲/🧲 GET ⌘ cmd.md>)
     | `{changes}` | Object with changes to apply | `{A:1, B:2}`
 
     ---

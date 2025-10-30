@@ -36,8 +36,8 @@
 
 Needs||
 |-|-
-| [Commands ⌘](<../../../Scripts 📃/...commands ⌘/Command ⌘/⌘ Command.md>) | [`ASSERT`](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CASE`](<../../../Scripts 📃/...control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`RUN`](<../../../Scripts 📃/...control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>) [`SEND`](<../../../Talkers 😃/😃⚙️ Talker cmds/...messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>)
+| [Commands ⌘](<../../../Scripts 📃/...commands ⌘/Command ⌘/⌘ Command.md>) | [`ASSERT`](<../../../Scripts 📃/...holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CASE`](<../../../Scripts 📃/...control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`RUN`](<../../../Scripts 📃/...control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>) [`SEND`](<../../../Scripts 📃/...messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>)
 | [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Prompt@Broker` 🅰️ method](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>)
-| [Holders 🧠](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>) | [`$.Chat`](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/$.Chat 💬/💬 $.Chat 🧠 holder.md>)
+| [Holders 🧠](<../../../Scripts 📃/...holders 🧠/$Holder 🧠.md>) | [`$.Chat`](<../../../Scripts 📃/...holders 🧠/$.Chat 💬/💬 $.Chat 🧠 holder.md>)
 | [Scripts 📃](<../../../Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>) | [`Prompt@Host` 📃 script](<../../../Talkers 😃/😃⏩ Talker flows/Prompts 😃⏩🧑‍🦰/😃 Prompts 📃 script.md>)
 |

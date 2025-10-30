@@ -43,7 +43,7 @@
             A: 1
             B: 2
     ```
-    Commands: [`.Add`](<../../...functions 🐍/🔩 {.Add}.md>) [`.Now`](<../../...functions 🐍/🔩 {.Now}.md>) [`EVAL`](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>)
+    Commands: [`.Add`](<../../...functions 🐍/🔩 {.Add}.md>) [`.Now`](<../../...functions 🐍/🔩 {.Now}.md>) [`EVAL`](<../../...holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>)
 
     ---
     <br/>

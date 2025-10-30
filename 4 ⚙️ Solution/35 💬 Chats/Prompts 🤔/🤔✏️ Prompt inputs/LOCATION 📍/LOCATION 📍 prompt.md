@@ -44,7 +44,7 @@
 
     |Parameter|Details
     |-|-
-    | `$holder` | Stores the answer in this [holder 🧠](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>)
+    | `$holder` | Stores the answer in this [holder 🧠](<../../../Scripts 📃/...holders 🧠/$Holder 🧠.md>)
     
     ---
     <br/>

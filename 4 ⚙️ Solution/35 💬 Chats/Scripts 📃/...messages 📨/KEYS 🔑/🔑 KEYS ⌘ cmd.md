@@ -1,15 +1,15 @@
 # 🔑 Talker `KEYS` command
 
-> Part of [Talker 😃](<../../../😃 Talker role.md>)
+> Part of [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>)
 
-> Used by [🤵⏩🧑‍🦰 Converse 💬](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵⏩ Broker flows/Converse 🤵⏩💬/🤵 Converse ⏩ flow.md>)
+> Used by [🤵⏩🧑‍🦰 Converse 💬](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵⏩ Broker flows/Converse 🤵⏩💬/🤵 Converse ⏩ flow.md>)
 
 <br/>
 
 1. **What's a KEYS command?**
    
    A `KEYS` 
-   * is a handler [Command ⌘](<../../../../Scripts 📃/...commands ⌘/Command ⌘/⌘ Command.md>) 
+   * is a handler [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) 
    * that generates a new asymmetric key pair.
 
     ---
@@ -18,7 +18,7 @@
 
 1. **How to use a PARSE?**
 
-    Here's the [Script 📃](<../../../../Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>).
 
     ```yaml
     - KEYS >> $keys

@@ -12,7 +12,7 @@
     * is a [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>)
     * that calls the [`Handle@Hosted` 🅰️ method](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>)
     * has an asynchronous background task
-    * i.e, it continues the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>), unlike [`EVAL`](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>).
+    * i.e, it continues the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>), unlike [`EVAL`](<../../...holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>).
 
     ---
     <br/>
@@ -29,7 +29,7 @@
     |-|-|-
     | `<task>` | The name of the task to execute | `Build`
     | `$input` | Optional inputs for the task | `A` `[A,B]` `{A:1}`
-    | `$output` | Optional [Holder 🧠](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>) for results | `$result`
+    | `$output` | Optional [Holder 🧠](<../../...holders 🧠/$Holder 🧠.md>) for results | `$result`
 
     ---
     <br/>
@@ -55,7 +55,7 @@
 
     To wait for the result, 
     * ask the [`WAIT`](<../WAIT 🧘/🧘 WAIT ⌘ cmd.md>) command 
-    * to wait for a change on the `$output` [Holder 🧠](<../../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>), 
+    * to wait for a change on the `$output` [Holder 🧠](<../../...holders 🧠/$Holder 🧠.md>), 
     * which will be triggered by the [`Handled@Talker` 🅰️ method](<../../../Talkers 😃/😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>).
 
     ```yaml

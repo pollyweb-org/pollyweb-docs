@@ -1,6 +1,6 @@
 # 😃⬇️ Talker `EVAL` command 
 
-> Part of [Talker 😃](<../../../😃 Talker role.md>)
+> Part of [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>)
 
 <br/>
 
@@ -8,8 +8,8 @@
 1. **What's an EVAL command?**
 
     An `EVAL` ⬇️
-    * is a [Command ⌘](<../../../../Scripts 📃/...commands ⌘/Command ⌘/⌘ Command.md>) 
-    * that evaluates strings, objects, and [`{Functions}`](<../../../../Scripts 📃/...functions 🐍/{Function} 🐍.md>)
+    * is a [Command ⌘](<../../...commands ⌘/Command ⌘/⌘ Command.md>) 
+    * that evaluates strings, objects, and [`{Functions}`](<../../...functions 🐍/{Function} 🐍.md>)
     * into a holder.
 
     ---
@@ -40,7 +40,7 @@
 
     | Input| Purpose | Example
     |-|-|-
-    | `{function}`| [{Function}](<../../../../Scripts 📃/...functions 🐍/{Function} 🐍.md>) to be evaluated | `{f}` `{$p}` | 
+    | `{function}`| [{Function}](<../../...functions 🐍/{Function} 🐍.md>) to be evaluated | `{f}` `{$p}` | 
     || Supports missing `{}` | `f` `$p`
     | `{input}`| Input for the `{function}` | `3` `[A,B]` `{A:1}` 
     || Passed as single argument | `f({input})`
@@ -70,12 +70,12 @@
 1. **What's an EVAL example with static values?**
 
 
-    | [Domain](<../../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../Prompts 🤔/🤔 Prompt.md>) | [User](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+    | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../Prompts 🤔/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ The A holder has 3.
-    | [🤗 Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ Holder B also has 3.
+    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ The A holder has 3.
+    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ Holder B also has 3.
 
-    Here's the [Script 📃](<../../../../Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>).
 
     ```yaml
     📃 Example:
@@ -97,15 +97,15 @@
 
 1. **What's an EVAL example with code?**
   
-    | [Domain](<../../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../Prompts 🤔/🤔 Prompt.md>) | [User](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+    | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../Prompts 🤔/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 Add a database row? [Yes, No] | Yes
-    | [🤗 Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ The database now has 9 rows.
-    | [🤗 Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 Add a database row? [Yes, No] | Yes
-    | [🤗 Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ The database now has 10 rows.
-    | [🤗 Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 Add a database row? 
+    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 Add a database row? [Yes, No] | Yes
+    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ The database now has 9 rows.
+    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 Add a database row? [Yes, No] | Yes
+    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ The database now has 10 rows.
+    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 Add a database row? 
 
-    Here's the [Script 📃](<../../../../Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>).
 
     ```yaml
     📃 Example:
@@ -115,7 +115,7 @@
     - REPEAT
     ```
 
-    Commands: [`CONFIRM`](<../../../../Prompts 🤔/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`EVAL`](<⬇️ EVAL ⌘ cmd.md>) [`REPEAT`](<../../../../Scripts 📃/...control ▶️/REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) [`SUCCESS`](<../../../../Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
+    Commands: [`CONFIRM`](<../../../Prompts 🤔/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`EVAL`](<⬇️ EVAL ⌘ cmd.md>) [`REPEAT`](<../../...control ▶️/REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) [`SUCCESS`](<../../../Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
 
 
     ```python
@@ -133,12 +133,12 @@
 
 1. **What's an EVAL example with objects?**
 
-    | [Domain](<../../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../Prompts 🤔/🤔 Prompt.md>) | [User](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+    | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../Prompts 🤔/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ Welcome to Any Business! <br/> - We are a 3.6 M£ business  <br/> &nbsp;&nbsp; based out of London, UK.
+    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ Welcome to Any Business! <br/> - We are a 3.6 M£ business  <br/> &nbsp;&nbsp; based out of London, UK.
     |
 
-    Here's the [Script 📃](<../../../../Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>).
 
     ```yaml
     📃 Example:
@@ -165,7 +165,7 @@
     - INFO|$intro
     ```
 
-    Commands: [`EVAL`](<⬇️ EVAL ⌘ cmd.md>) [`INFO`](<../../../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
+    Commands: [`EVAL`](<⬇️ EVAL ⌘ cmd.md>) [`INFO`](<../../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
 
     ---
     <br/>
@@ -173,7 +173,7 @@
 
 1. **How to change a single property in a $holder?**
   
-    Here's the [Script 📃](<../../../../Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>).
 
     ```yaml
     📃 Example:
@@ -198,7 +198,7 @@
 
     With a mix of dictionary values and [Holder 🧠](<../$Holder 🧠.md>) surrounded with `:`.
     
-    Here's the [Script 📃](<../../../../Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>).
 
     ```yaml
     📃 Example:
@@ -251,7 +251,7 @@
     | 20 | 21 | 22 |
     ```
 
-    Here's the [Script 📃](<../../../../Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>).
 
     ```yaml
     📃 Example:
@@ -295,7 +295,7 @@
     | 20 | 21 | 22 |
     ```
     
-    Here's the [Script 📃](<../../../../Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>).
 
     ```yaml   
     📃 Example:
@@ -338,7 +338,7 @@
     | 20 | 21 | 22 |
     ```
     
-    Here's the [Script 📃](<../../../../Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>).
+    Here's the [Script 📃](<../../...commands ⌘/Script 📃/📃 Script.md>).
 
     ```yaml  
     📃 Example:
@@ -478,7 +478,7 @@
 
 1. **How to append into lists?**
 
-    > Used by the [`CreateBinds@Broker` 📃 script](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 📃 part 2.md>)
+    > Used by the [`CreateBinds@Broker` 📃 script](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 📃 part 2.md>)
     
     <br/>
 
@@ -490,7 +490,7 @@
     # Results in [A,B]    
     ```
 
-    Here's a alternative syntax using the [`.Add`](<../../../../Scripts 📃/...functions 🐍/🔩 {.Add}.md>) function in a [Holder 🧠](<../$Holder 🧠.md>).
+    Here's a alternative syntax using the [`.Add`](<../../...functions 🐍/🔩 {.Add}.md>) function in a [Holder 🧠](<../$Holder 🧠.md>).
 
     ```yaml
     📃 Example:
@@ -522,7 +522,7 @@
 
 1. **How to make a distinct in lists?**
 
-    Using the [`{.Distinct}`](<../../../../Scripts 📃/...functions 🐍/🔩 {.Distinct}.md>) function
+    Using the [`{.Distinct}`](<../../...functions 🐍/🔩 {.Distinct}.md>) function
 
     ```yaml
     📃 Inline in a holder:
