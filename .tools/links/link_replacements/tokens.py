@@ -227,6 +227,34 @@ def replace_talkers_helper_tokens(md_files):
     return _replace_simple(md_files, pattern, '[Talker 😃 helper domains](<😃🤲 Talker helper.md>)')
 
 
+# Hardcoded Async Message(s) tokens
+ASYNC_MESSAGES_REPLACEMENT = "[Async Messages 🐌](<Async Messages 🐌.md>)"
+@register_hardcoded("asyncmessages", replacement=ASYNC_MESSAGES_REPLACEMENT, token_label="Async Messages")
+def replace_async_messages_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Async Messages`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, ASYNC_MESSAGES_REPLACEMENT)
+
+
+@register_hardcoded("asyncmessage", replacement='[Async Message 🐌](<Async Messages 🐌.md>)', token_label="Async Message")
+def replace_async_message_token(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Async Message`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, '[Async Message 🐌](<Async Messages 🐌.md>)')
+
+
+# Hardcoded Sync Request(s) tokens
+SYNC_REQUESTS_REPLACEMENT = "[Sync Requests 🚀](<Sync Requests 🚀.md>)"
+@register_hardcoded("syncrequests", replacement=SYNC_REQUESTS_REPLACEMENT, token_label="Sync Requests")
+def replace_sync_requests_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Sync Requests`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, SYNC_REQUESTS_REPLACEMENT)
+
+
+@register_hardcoded("syncrequest", replacement='[Sync Request 🚀](<Sync Requests 🚀.md>)', token_label="Sync Request")
+def replace_sync_request_token(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Sync Request`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, '[Sync Request 🚀](<Sync Requests 🚀.md>)')
+
+
 @register_hardcoded("wallets", replacement=WALLETS_REPLACEMENT, token_label="Wallets")
 def replace_wallets_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Wallets`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
