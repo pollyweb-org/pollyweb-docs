@@ -1,6 +1,6 @@
 # 🚀📨 Synchronous Requests
 
-> Part of [domain Message 📨](<../📨 Message.md>)
+> Part of [domain Message 📨](<../📨 Message/📨 Message.md>)
 
 > Implemented by [👥⏩👥 Request Sync 🚀](<../../../40 👥 Domains/👥⏩ Domain flows/Send Sync 👥🚀👥 /👥 Sync Request ⏩ flow.md>)
 

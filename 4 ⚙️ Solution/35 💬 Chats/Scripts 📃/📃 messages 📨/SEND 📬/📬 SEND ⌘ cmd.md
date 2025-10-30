@@ -9,7 +9,7 @@
 
     A `SEND`
     * is a [Command ⌘](<../../📃 basics/Command ⌘.md>) 
-    * that sends a [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>).
+    * that sends a [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>).
 
     ---
     <br/>
@@ -52,7 +52,7 @@
             B: 2
     ```
 
-    This results in the following [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) being sent.
+    This results in the following [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) being sent.
 
     ```yaml
     Header:

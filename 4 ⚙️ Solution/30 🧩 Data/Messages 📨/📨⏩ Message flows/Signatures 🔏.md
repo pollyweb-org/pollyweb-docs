@@ -1,7 +1,7 @@
 📨🔏 Message Signatures
 ===
 
-> Part of [domain Message 📨](<../📨 Message.md>)
+> Part of [domain Message 📨](<../📨 Message/📨 Message.md>)
 
 <br/> 
 

@@ -74,5 +74,5 @@ Needs||
 |-|-
 | [Commands ⌘](<../../📃 basics/Command ⌘.md>) | [`ASSERT`](<../../📃 holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CASE`](<../../📃 control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`HTTP`](<../../📃 control ▶️/HTTP 💥/💥 HTTP ⌘ cmd.md>) [`SEND`](<../../📃 messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>) [`RETURN`](<../../📃 control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`RUN`](<../../📃 control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
 | [Holders 🧠](<../../📃 basics/Holder 🧠.md>) | [`$.Inputs`](<../../📃 holders 🧠/$.Inputs ▶️/▶️ $.Inputs 🧠 holder.md>) [`$.Hosted`](<../../📃 holders 🧠/$.Hosted 📦/📦 $.Hosted 🧠 holder.md>)
-| [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Save@Itemizer`](<../../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/Item Save 👥🚀🛢/🛢 Save 🚀 request.md>)
+| [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Save@Itemizer`](<../../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/Item Save 👥🚀🛢/🛢 Save 🚀 request.md>)
 |

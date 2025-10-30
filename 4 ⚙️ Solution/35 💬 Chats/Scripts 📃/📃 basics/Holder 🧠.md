@@ -21,7 +21,7 @@
     |-|-
     | [`$.Chat`](<../📃 holders 🧠/$.Chat 💬/💬 $.Chat 🧠 holder.md>) | Contains the details of the current  [Chat 💬](<../../Chats 💬/💬 Chat.md>) 
     | [`$.Inputs`](<../📃 holders 🧠/$.Inputs ▶️/▶️ $.Inputs 🧠 holder.md>) | Contains the inputs of the current [`RUN` command](<../📃 control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>) 
-    | [`$.Msg`](<../📃 holders 🧠/$.Msg 📨/📨 $.Msg 🧠 holder.md>) | Contains the properties of the current [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message.md>)
+    | [`$.Msg`](<../📃 holders 🧠/$.Msg 📨/📨 $.Msg 🧠 holder.md>) | Contains the properties of the current [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
     | [`$.Hosted`](<../📃 holders 🧠/$.Hosted 📦/📦 $.Hosted 🧠 holder.md>) | Contains the settings of the [Hosted 📦 domain](<../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>)
 
     ---
