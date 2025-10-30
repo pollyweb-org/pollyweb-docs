@@ -1,17 +1,18 @@
-<!-- TODO -->
-
-# 👥⏩👥 Async Message 🐌
+# 👥⏩👥 Sync Request 🚀
 
 > Part of [Domain 👥](<../../👥 Domain.md>)
 
-> Implements [🐌📨 Async Messages](<../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Async Messages 🐌.md>)
+
+> Implements [🚀📨 Synchronous request messages](<../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Sync Requests 🚀.md>)
 
 > Requires [👥⏩🌐 DNS config](<../DNS config 👥🌐/👥 DNS config ⏩ flow.md>)
 
+<br/>
 
 ## Flow diagram ⏩
 
-![alt text](<../.📎 Assets/⚙️🐌 AsyncMessage.png>)
+![alt text](<👥 Sync Request ⚙️ uml.png>)
+
 
 <br/>
 
@@ -22,5 +23,5 @@
 | 401 | [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message.md>)  with invalid [domain Signature 🔏](<../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Signatures 🔏.md>) 
 | 422 | [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message.md>) not matching its [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 | 200 | [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message.md>) with repeated [correlation ID ✉️](<../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Envelope ✉️.md>)
-| 200 | Valid [Async Message 🐌](<../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Async Messages 🐌.md>) to be processed later
+| 200 | Valid [Sync Request 🚀](<../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Sync Requests 🚀.md>) with immediate response
 |

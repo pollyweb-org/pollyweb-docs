@@ -19,7 +19,7 @@
 
 1. **How does it work**?
 
-    ![](<../.📎 Assets/🔏 Domain Signature.png>)
+    ![](<👥 Domain Signature.png>)
 
     |#| Step | Details
     |-|-|-

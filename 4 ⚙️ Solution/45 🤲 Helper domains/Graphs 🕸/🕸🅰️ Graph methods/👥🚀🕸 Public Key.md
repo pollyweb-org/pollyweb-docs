@@ -10,7 +10,7 @@
 * Returns the historical public key of an [Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) by the name of the key.
     * Allows a [Consumer 💼 domain](<../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) to verify a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) issued before a [DKIM 📨](<../../../30 🧩 Data/Messages 📨/📨 Message.md>) rotation.
 * Used by:
-    * [👥🔏 Domain Signature](<../../../40 👥 Domains/👥⏩ Domain flows/Sign Files 👥🔏📄/👥 Sign Files ⏩ flow.md>)
+    * [👥🔏 Domain Signature](<../../../40 👥 Domains/👥⏩ Domain flows/Sign Files 👥🔏📄/👥 Domain Signature ⏩ flow.md>)
     * [💼⏩🧑‍🦰 Share Token @ Consumer](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token 👉🎫💼/🎫 Share Token ⏩ flow.md>) flow
 
 <br/>
