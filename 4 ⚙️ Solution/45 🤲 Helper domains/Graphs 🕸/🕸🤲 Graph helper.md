@@ -95,9 +95,9 @@
 
 1. **How do Graphs support the verification of Tokens?**
 
-    [Issuer 🎴 domains](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) sign [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) with their active [📨 DKIM](<../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) key-pair. 
+    [Issuer 🎴 domains](<../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) sign [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) with their active [📨 DKIM](<../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) key-pair. 
     
-    * When [Issuer 🎴 domains](<../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) rotate their [📨 DKIM](<../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>), it is no longer possible for [Consumer 💼 domains](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) to validate old [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) with the new [📨 DKIM](<../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>).
+    * When [Issuer 🎴 domains](<../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) rotate their [📨 DKIM](<../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>), it is no longer possible for [Consumer 💼 domains](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) to validate old [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) with the new [📨 DKIM](<../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>).
 
     * Instead, [Consumer 💼 domains](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) should ask a [Graph 🕸 domain](<🕸🤲 Graph helper.md>) for the Issuer's [📨 DKIM](<../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) at the time the [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) was issued.
 

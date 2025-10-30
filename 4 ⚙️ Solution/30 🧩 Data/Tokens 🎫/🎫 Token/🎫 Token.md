@@ -4,7 +4,7 @@
 1. **What is a Token?**
 
     [Tokens 🎫](<🎫 Token.md>) are NFC/QR [Locators 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) 
-    * issued and signed by an [Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>), 
+    * issued and signed by an [Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>), 
     * that contain data to be shared with [Consumer 💼 domains](<../../../50 🫥 Agent domains/Storage 🗃️/🗃️🫥 Storage agent.md>).
 
     ---
@@ -39,7 +39,7 @@
 
     |#|Category|Step
     |-|-|-
-    |1| `Issue`| An [Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) issues a [Token 🎫](<🎫 Token.md>) the the user stores offline in the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
+    |1| `Issue`| An [Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) issues a [Token 🎫](<🎫 Token.md>) the the user stores offline in the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
     |2| `In-Chat`| While in a [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) with a [Consumer 💼 host domain](<../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>), the user shares the [Token 🎫](<🎫 Token.md>).
     |3| `Userable` | Using their [Custodian 🧳 agent](<../../../50 🫥 Agent domains/Custodians 🧳/🧳🫥 Custodian agent.md>), users select which [Tokens 🎫](<🎫 Token.md>) to be automatically shared by a specific [Userable 💍 thing](<../../../25 🔆 Locators/Userables 💍/💍💠 Userable thing.md>).
     | 4| `Userable`| When the NFC of the [Userable 💍 thing](<../../../25 🔆 Locators/Userables 💍/💍💠 Userable thing.md>) is [tapped 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>) on the [scanner ✨ device](<../../../60 🧰 Edge/66 ✨ Scanners/06 ✨🔌 Scanner device.md>) of a [Consumer 💼 domain](<../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>), the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) shares the [Tokens 🎫](<🎫 Token.md>).
@@ -107,7 +107,7 @@
 
     - Before sharing [SELF Tokens 🎫](<🎫 Token.md>) with other domains, [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) ask the user for approval.
   
-    - Exceptionally, if the [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>) of the [Token 🎫](<🎫 Token.md>) is marked as SELF, then the user's [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) silently share the [Token 🎫](<🎫 Token.md>) with the [Token's Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>).
+    - Exceptionally, if the [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>) of the [Token 🎫](<🎫 Token.md>) is marked as SELF, then the user's [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) silently share the [Token 🎫](<🎫 Token.md>) with the [Token's Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>).
 
 
     The following [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) excerpt illustrates the usage of a [SELF Token 🎫](<🎫 Token.md>) when [passing a gate at a train station 🤝](<../../../../3 🤝 Use Cases/03 🧳 Travel/03 🧳 Travel by train 🚂/02 🚂 Customer @ Station/22 Pass gates 1 person.md>).
@@ -127,7 +127,7 @@
 
 1. **Why do SELF Tokens exist?**
 
-    [SELF Tokens 🎫](<🎫 Token.md>) are typically issued as a pass to be presented back to the [Token's Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) in a later moment in time, aiming for the least possible friction in the future - e.g.:
+    [SELF Tokens 🎫](<🎫 Token.md>) are typically issued as a pass to be presented back to the [Token's Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) in a later moment in time, aiming for the least possible friction in the future - e.g.:
 
     - [open a train station gate with a tap 🤝](<../../../../3 🤝 Use Cases/03 🧳 Travel/03 🧳 Travel by train 🚂/02 🚂 Customer @ Station/22 Pass gates 1 person.md>),
     - [check-in with a booking with a tap 🤝](<../../../../3 🤝 Use Cases/05 🛠️ Services/01 💈 Cut hair at salons/20 Customer @ Salon/21 Arrive.md>). 
@@ -194,8 +194,8 @@
     |Property| Type | Details
     |-|-|-
     | `Schema` | string |  [`.TOKEN`](<../🧩 Token schemas/🧩 TOKEN.md>)
-    | `Domain` | string | The [Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>) name
-    | `Key` | string | Resource key in the [Issuer 🎴](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)
+    | `Domain` | string | The [Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) name
+    | `Key` | string | Resource key in the [Issuer 🎴](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>)
     | `Properties` | object | Any optional data fields
     |
 
