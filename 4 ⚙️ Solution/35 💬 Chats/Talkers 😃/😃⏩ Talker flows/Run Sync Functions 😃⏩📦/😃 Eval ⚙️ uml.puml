@@ -1,31 +1,32 @@
 @startuml Handle
 
 participant "User 🧑" as user
-
-box Business #FFFFFA
+box Talker 😃 domain #FFFFFA
     participant "Script 📃" as script
-    participant "Talker 😃" as talker
-    participant "Hosted 📦" as hosted
+    participant "Engine ⚙️" as engine
+    participant "Inbox 📨" as inbox
 end box
+participant "Hosted 📦" as hosted
+
 
 activate script
     script --> user: ⏪ PROMPT 🤔
-    script -> talker: EVAL {function} 
+    script -> engine: EVAL {function} 
 deactivate script
 
 
-activate talker
-    talker --> hosted: Handle 🐌 {function, hook}
+activate engine
+    engine --> hosted: Handle 🐌 {function, hook}
 activate hosted
-    talker -> talker: WAIT 🧘 {hook}
-deactivate talker
+    engine -> engine: WAIT 🧘 {hook}
+deactivate engine
     
-    hosted --> talker: Handled 🐌 {hook, result}
+    hosted --> engine: Handled 🐌 {hook, result}
 deactivate hosted
 
-activate talker
-    talker --> script: REEL 🎣 {hook}
-deactivate talker
+activate engine
+    engine --> script: REEL 🎣 {hook}
+deactivate engine
 
 activate script
     script --> user: ⏪ PROMPT 🤔

@@ -1,37 +1,46 @@
-@startuml Callback
+@startuml Hook
 
-participant "Vault\nDomain" as vault
-participant "Vault\nTalker 😃" as talker
-participant "Hooks\nTable 🪣" as hooks
-participant "Message\nHandler 📨" as handler
-actor "User" as user
+participant "Domain 👥" as domain
 
-activate vault
-    vault --> talker: BIND 🔗
-deactivate vault
-group .BIND
-activate talker
-    talker -> hooks: SAVE 💾 {$.cursor}    
-    talker --> user: Bindable 🐌 {hook}
-deactivate talker
-activate user
-end group
+box Talker 😃 domain #FFFFFA
+    participant "Inbox 📨" as inbox
+    participant ".REEL 📃" as reel
+    participant "Hooks 🪣" as hooks
+    participant "Holders 🪣" as holders
+    participant "Caller 📃" as caller
+end box
 
-group Bound@Vault
-    user --> handler: Bound 🐌 {hook}
-deactivate user
-activate handler
 
-    handler -> hooks: GET {hook}
+domain --> inbox: 🐌 {hook}
+
+activate inbox
+    inbox -> reel:  REEL 🎣 {hook}
+deactivate inbox
+
+activate reel
+    reel -> hooks: GET {hook}
+    
     activate hooks
-        hooks -> handler: {cursor}
+        hooks -> reel: {caller, cursor, holders}
     deactivate hooks
-    handler --> talker: REEL 🎣 {cursor,result}
-deactivate handler
 
-activate talker
-end group
-    talker -> talker: IF {result}: \n - SUCCESS ✅
-deactivate talker
+    group Load holders into memory
+
+        reel -> reel: PARALLEL {holders}
+        activate reel
+            reel -> holders: GET {holder}
+            
+            activate holders
+                holders -> reel: {value}
+            deactivate holders
+
+            reel -> reel: EVAL holder: value
+        deactivate reel
+
+    end group
+
+    reel -> caller: RUN {cursor}
+
+deactivate reel
 
 @enduml

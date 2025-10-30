@@ -1,0 +1,25 @@
+@startuml Handle
+
+box Talker 😃 domain #FFFFFA
+    participant "Script 📃" as script
+    participant ".WAIT 📃" as talker
+    participant "Holders 🪣" as holders
+    participant "Hooks 🪣" as hooks
+end box
+
+
+activate script
+    script -> talker: WAIT 🧘 {hook} 
+deactivate script
+
+activate talker
+
+    talker -> talker: PARALLEL {.Holders}
+    activate talker
+        talker -> holders: SAVE 💾 {holder:value}
+    deactivate talker
+ 
+    talker -> hooks: SAVE 💾 {hook, $.Cursor, holder names}
+deactivate talker
+          
+@enduml

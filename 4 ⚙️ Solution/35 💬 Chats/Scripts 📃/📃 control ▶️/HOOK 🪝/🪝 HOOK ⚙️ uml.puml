@@ -1,0 +1,24 @@
+@startuml Hook
+
+box Talker 😃 domain #FFFFFA
+    participant "Script 📃" as script
+    participant ".HOOK 📃" as hook
+    participant "Hooks 🪣" as hooks
+end box
+
+
+
+activate script
+    script -> hook: HOOK {hook}
+    activate hook
+        hook -> hooks: SAVE 💾 {hook, $.Cursor}    
+        hook -> script: 
+    deactivate hook
+deactivate script
+
+
+script <- : REEL 🎣 {hook, response}
+activate script
+deactivate script
+
+@enduml

@@ -4,7 +4,7 @@ box Talker 😃 domain #FFFFFD
     participant "Script 📃" as script
     participant ".PROMPT 📃" as talker
     participant "Hooks 🪣" as hooks
-    participant "Handler 📃" as handler
+    participant "Inbox 📨" as handler
 end box
 
 box Hoster ☁️ domain #FFFFFA
