@@ -45,7 +45,7 @@
     | Input| Purpose 
     |-|-
     | `<statement>`| Message to show to the user
-    | `$holder`| Optional [holder 🧠](<../../../Scripts 📃/...holders 🧠/$Holder 🧠.md>) with the user's answer
+    | `$holder`| Optional [holder 🧠](<../../../Scripts 📃/📃 holders 🧠/$Holder 🧠.md>) with the user's answer
     
 
     ```yaml

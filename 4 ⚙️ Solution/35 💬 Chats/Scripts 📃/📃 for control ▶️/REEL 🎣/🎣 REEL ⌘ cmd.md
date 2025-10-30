@@ -41,14 +41,14 @@
     | Input| Purpose |
     |-|-
     | `$hook`| [Hooks 🪣 item](<../../../Talkers 😃/😃🪣 Talker tables/😃🪣 TalkerHooks 🪝 table.md>) saved by the [Command ⌘](<../../📃 commands ⌘/Command ⌘/⌘ Command.md>) | -
-    | `{response}` | [Command ⌘](<../../📃 commands ⌘/Command ⌘/⌘ Command.md>) output to a [Holder 🧠](<../../...holders 🧠/$Holder 🧠.md>)
+    | `{response}` | [Command ⌘](<../../📃 commands ⌘/Command ⌘/⌘ Command.md>) output to a [Holder 🧠](<../../📃 holders 🧠/$Holder 🧠.md>)
 
     ---
     <br/>
 
 1. **What's an example of REEL?**
 
-    Consider the [`BIND` flow command](<../../📃 for methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>).
+    Consider the [`BIND` flow command](<../../📃 methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>).
 
     ![alt text](<🎣 REEL ⚙️ uml.png>)
 
@@ -64,7 +64,7 @@
         Else: FAILURE|Not bounded.
     ```
 
-    Commands: [`BIND`](<../../📃 for methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) [`IF`](<../IF ⤵️/⤵️ IF ⌘ cmd.md>)
+    Commands: [`BIND`](<../../📃 methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) [`IF`](<../IF ⤵️/⤵️ IF ⌘ cmd.md>)
     
     <br/>
 

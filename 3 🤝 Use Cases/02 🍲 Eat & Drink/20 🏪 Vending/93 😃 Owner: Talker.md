@@ -80,14 +80,14 @@ TODO: Add the flow to the Manifest
 | [🧩 `//IDENTITY/OVER21`](<../../../7 🧩 Codes/IDENTITY/🧩 IdentityOver21.md>) | Verify minimum age to drink
 | [🪣 `Items`](<94 🪣 Owner: Items.md>) | List of items to [`GET`](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 for datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>)
 | [🪣 `Locators`](<95 🪣 Owner: Locators.md>) | List of machines to [`GET`](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 for datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>)
-| 💬 [`$.Chat.Key`](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/...holders 🧠/$.Chat 💬/💬 $.Chat 🧠 holder.md>) | Get the machine's [Locator 🔆](<../../../4 ⚙️ Solution/25 🔆 Locators/Locators 🔆/🔆 Locator.md>) key
+| 💬 [`$.Chat.Key`](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 holders 🧠/$.Chat 💬/💬 $.Chat 🧠 holder.md>) | Get the machine's [Locator 🔆](<../../../4 ⚙️ Solution/25 🔆 Locators/Locators 🔆/🔆 Locator.md>) key
 |
 
 <br/>
 
 ## Functions
 
-[Functions](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/...functions 🐍/{Function} 🐍.md>)| Type | Purpose
+[Functions](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 functions 🐍/{Function} 🐍.md>)| Type | Purpose
 |-|-|-
 | `Deduct` | Custom | Deduct the stock from the ERP.
 |
@@ -105,12 +105,12 @@ TODO: Add the flow to the Manifest
 || ✅ [`SUCCESS`](<../../../4 ⚙️ Solution/35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) | Ask to pick the item
 || ❌ [`FAILURE`](<../../../4 ⚙️ Solution/35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/FAILURE ❌/FAILURE ❌ prompt.md>) | To show in case of error
 |Flow| ⤵️ [`IF`](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) | To see if 21+ check is needed
-||⬇️ [`EVAL`](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/...holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | To deduct the value on errors
+||⬇️ [`EVAL`](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | To deduct the value on errors
 ||🪵 [`LOG`](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 for control ▶️/LOG 🪵/🪵 LOG ⌘ cmd.md>) | To log eventual errors
-|Message| 💼 [`SHARE`](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 for methods 🤵/SHARE 💼/💼 SHARE ⌘ cmd.md>) | Ask for proof of over 21
-|| 💳 [`CHARGE`](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 for methods 🤵/CHARGE 💳/💳 CHARGE ⌘ cmd.md>) | Charge the item price
-|| 🏦 [`REFUND`](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 for methods 🤵/REFUND 🏦/🏦 REFUND ⌘ cmd.md>) | Refund the payment on failure
-|| 👋 [`GOODBYE`](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 for methods 🤵/GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>) | Show ads on success
-|| 🛰️ [`RELAY`](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 for methods 🤵/RELAY 🛰️/🛰️ RELAY ⌘ cmd.md>) | Relay messages to  machines
+|Message| 💼 [`SHARE`](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 methods 🤵/SHARE 💼/💼 SHARE ⌘ cmd.md>) | Ask for proof of over 21
+|| 💳 [`CHARGE`](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 methods 🤵/CHARGE 💳/💳 CHARGE ⌘ cmd.md>) | Charge the item price
+|| 🏦 [`REFUND`](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 methods 🤵/REFUND 🏦/🏦 REFUND ⌘ cmd.md>) | Refund the payment on failure
+|| 👋 [`GOODBYE`](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 methods 🤵/GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>) | Show ads on success
+|| 🛰️ [`RELAY`](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 methods 🤵/RELAY 🛰️/🛰️ RELAY ⌘ cmd.md>) | Relay messages to  machines
 |
 

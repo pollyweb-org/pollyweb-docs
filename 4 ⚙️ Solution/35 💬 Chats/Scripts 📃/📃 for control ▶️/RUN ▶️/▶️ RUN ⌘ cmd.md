@@ -44,7 +44,7 @@
     |           | Reads `$:n`  inside the [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>) | `$:1` `$:2`
     | `{args}`| Optional object arguments | `{A:1, B:2}`
     | | Reads `!name` in the [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>) | `$:A` `$:B`|
-    | | Also reads with [`{.Inputs}`](<../../...holders 🧠/$.Inputs ▶️/▶️ $.Inputs 🧠 holder.md>) | `.Inputs.A`
+    | | Also reads with [`{.Inputs}`](<../../📃 holders 🧠/$.Inputs ▶️/▶️ $.Inputs 🧠 holder.md>) | `.Inputs.A`
     | `$return`| Optional [`RETURN`](<../RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) holder | `$return`
     
     ---
@@ -167,7 +167,7 @@
     - INFO|Here's number {$:n}.
     ```
 
-    Commands: [`ASSERT`](<../../...holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`INFO`](<../../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`SUCCESS`](<../../../Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
+    Commands: [`ASSERT`](<../../📃 holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`INFO`](<../../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`SUCCESS`](<../../../Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
 
     ```python
     # 🐍 Python handler
@@ -271,11 +271,11 @@
 
     > Used in the [`SAVE` 📃 script](<../../📃 for datasets 🪣/SAVE 💾/💾 SAVE 📃 script.md>)
 
-    It depends if the current value of the input contains the name of a [Holder 🧠](<../../...holders 🧠/$Holder 🧠.md>).
+    It depends if the current value of the input contains the name of a [Holder 🧠](<../../📃 holders 🧠/$Holder 🧠.md>).
 
     |Scenario | Result 
     |-|-
-    | [Holders 🧠](<../../...holders 🧠/$Holder 🧠.md>) | Fills the [Holder 🧠](<../../...holders 🧠/$Holder 🧠.md>) 
+    | [Holders 🧠](<../../📃 holders 🧠/$Holder 🧠.md>) | Fills the [Holder 🧠](<../../📃 holders 🧠/$Holder 🧠.md>) 
     | Anything else | Throws an error
     |
 
@@ -305,7 +305,7 @@
     # Only works with a holder name
     - EVAL|123 >> $:Holder
     ```
-    Commands: [`EVAL`](<../../...holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>)
+    Commands: [`EVAL`](<../../📃 holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>)
     
     ---
     <br/>

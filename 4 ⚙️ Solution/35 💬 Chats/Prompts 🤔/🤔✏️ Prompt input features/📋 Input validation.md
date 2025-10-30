@@ -115,7 +115,7 @@
     - RUN|get-code
     ```
 
-    Here's the [Function 🐍 handler](<../../Scripts 📃/...functions 🐍/{Function} 🐍.md>).
+    Here's the [Function 🐍 handler](<../../Scripts 📃/📃 functions 🐍/{Function} 🐍.md>).
 
     ```python
     # 🐍 Python handler

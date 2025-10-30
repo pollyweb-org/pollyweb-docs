@@ -42,7 +42,7 @@
     | `<statement>`| Message to show to the user
     | `<options>` | Comma-separated strings, or | `A,B,C`
     || a comma-separated dictionary | `1:A,2:B`
-    | `$holder`| Optional selection [holder 🧠](<../../../Scripts 📃/...holders 🧠/$Holder 🧠.md>)
+    | `$holder`| Optional selection [holder 🧠](<../../../Scripts 📃/📃 holders 🧠/$Holder 🧠.md>)
     
     ```yaml
     # Comprehensive.
