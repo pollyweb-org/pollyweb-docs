@@ -72,5 +72,5 @@ Needs ||
 |-|-
 | [Commands ⌘](<../../../Scripts 📃/📃 basics/⌘ Command.md>) | [`CASE`](<../../../Scripts 📃/📃 control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`EVAL`](<../../../Scripts 📃/📃 holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`IF`](<../../../Scripts 📃/📃 control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`RETURN`](<../../../Scripts 📃/📃 control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) 
 | [{Functions} 🐍](<../../../Scripts 📃/📃 functions 🐍/{Function} 🐍.md>) | [`{.In}`](<../../../Scripts 📃/📃 functions 🐍/🔩 {.In}.md>) [`{.Is}`](<../../../Scripts 📃/📃 functions 🐍/🔩 {.Is}.md>)
-| [Holders 🧠](<../../../Scripts 📃/📃 holders 🧠/$Holder 🧠.md>) | [`$.Chat`](<../../../Scripts 📃/📃 holders 🧠/$.Chat 💬/💬 $.Chat 🧠 holder.md>)
+| [Holders 🧠](<../../../Scripts 📃/📃 basics/$Holder 🧠.md>) | [`$.Chat`](<../../../Scripts 📃/📃 holders 🧠/$.Chat 💬/💬 $.Chat 🧠 holder.md>)
 |

@@ -196,7 +196,7 @@
 
 1. **How to merge objects in an EVAL?**
 
-    With a mix of dictionary values and [Holder 🧠](<../$Holder 🧠.md>) surrounded with `:`.
+    With a mix of dictionary values and [Holder 🧠](<../../📃 basics/$Holder 🧠.md>) surrounded with `:`.
     
     Here's the [Script 📃](<../../📃 basics/📃 Script.md>).
 
@@ -238,7 +238,7 @@
 
     ||Inputs| Purpose
     |-|-|-
-    || `$list` | [Holder 🧠](<../$Holder 🧠.md>) list of objects
+    || `$list` | [Holder 🧠](<../../📃 basics/$Holder 🧠.md>) list of objects
     ||| Fails if `$list` was never set
     |
 
@@ -490,7 +490,7 @@
     # Results in [A,B]    
     ```
 
-    Here's a alternative syntax using the [`.Add`](<../../📃 functions 🐍/🔩 {.Add}.md>) function in a [Holder 🧠](<../$Holder 🧠.md>).
+    Here's a alternative syntax using the [`.Add`](<../../📃 functions 🐍/🔩 {.Add}.md>) function in a [Holder 🧠](<../../📃 basics/$Holder 🧠.md>).
 
     ```yaml
     📃 Example:

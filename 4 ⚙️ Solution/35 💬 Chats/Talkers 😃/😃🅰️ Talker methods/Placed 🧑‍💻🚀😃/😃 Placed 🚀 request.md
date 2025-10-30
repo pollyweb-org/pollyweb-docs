@@ -11,7 +11,7 @@
 
 > Purpose
 
-* Reads a [Holder 🧠](<../../../Scripts 📃/📃 holders 🧠/$Holder 🧠.md>)
+* Reads a [Holder 🧠](<../../../Scripts 📃/📃 basics/$Holder 🧠.md>)
 * The holder [`$.Chat`](<../../../Scripts 📃/📃 holders 🧠/$.Chat 💬/💬 $.Chat 🧠 holder.md>) contains [Chat 💬](<../../../Chats 💬/💬 Chat.md>) details.
 
 <br/>
@@ -36,7 +36,7 @@ Body:
 |           | `To`          | string    | [Hoster ☁️ domain](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) name
 |           | `Subject`     | string    | `Placed@Talker`
 | Body      | `Chat`      | uuid      | [Chat 💬](<../../../Chats 💬/💬 Chat.md>) ID
-|           | `Holder` | string    | [Holder 🧠](<../../../Scripts 📃/📃 holders 🧠/$Holder 🧠.md>) name
+|           | `Holder` | string    | [Holder 🧠](<../../../Scripts 📃/📃 basics/$Holder 🧠.md>) name
 |
 
 <br/>

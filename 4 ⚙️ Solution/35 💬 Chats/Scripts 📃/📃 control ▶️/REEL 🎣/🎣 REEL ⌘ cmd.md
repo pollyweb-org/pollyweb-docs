@@ -41,7 +41,7 @@
     | Input| Purpose |
     |-|-
     | `$hook`| [Hooks 🪣 item](<../../../Talkers 😃/😃🪣 Talker tables/😃🪣 TalkerHooks 🪝 table.md>) saved by the [Command ⌘](<../../📃 basics/⌘ Command.md>) | -
-    | `{response}` | [Command ⌘](<../../📃 basics/⌘ Command.md>) output to a [Holder 🧠](<../../📃 holders 🧠/$Holder 🧠.md>)
+    | `{response}` | [Command ⌘](<../../📃 basics/⌘ Command.md>) output to a [Holder 🧠](<../../📃 basics/$Holder 🧠.md>)
 
     ---
     <br/>

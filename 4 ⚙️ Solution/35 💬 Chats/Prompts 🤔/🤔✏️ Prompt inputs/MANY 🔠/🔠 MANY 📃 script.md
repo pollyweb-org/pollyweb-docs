@@ -41,7 +41,7 @@ Here's the [Script 📃](<../../../Scripts 📃/📃 basics/📃 Script.md>)
 Needs||
 |-|-
 | [Commands ⌘](<../../../Scripts 📃/📃 basics/⌘ Command.md>) | [`ASSERT`](<../../../Scripts 📃/📃 holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`RETURN`](<../../../Scripts 📃/📃 control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`RUN`](<../../../Scripts 📃/📃 control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
-| [Holders 🧠](<../../../Scripts 📃/📃 holders 🧠/$Holder 🧠.md>) | [`$.Inputs`](<../../../Scripts 📃/📃 holders 🧠/$.Inputs ▶️/▶️ $.Inputs 🧠 holder.md>)
+| [Holders 🧠](<../../../Scripts 📃/📃 basics/$Holder 🧠.md>) | [`$.Inputs`](<../../../Scripts 📃/📃 holders 🧠/$.Inputs ▶️/▶️ $.Inputs 🧠 holder.md>)
 | [Scripts 📃](<../../../Scripts 📃/📃 basics/📃 Script.md>) | [`Prompts` 📃 script](<../../../Talkers 😃/😃⏩ Talker flows/Prompts 😃⏩🧑‍🦰/😃 Prompts 📃 script.md>)
 
 ---

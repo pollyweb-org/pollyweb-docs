@@ -271,11 +271,11 @@
 
     > Used in the [`SAVE` 📃 script](<../../📃 datasets 🪣/SAVE 💾/💾 SAVE 📃 script.md>)
 
-    It depends if the current value of the input contains the name of a [Holder 🧠](<../../📃 holders 🧠/$Holder 🧠.md>).
+    It depends if the current value of the input contains the name of a [Holder 🧠](<../../📃 basics/$Holder 🧠.md>).
 
     |Scenario | Result 
     |-|-
-    | [Holders 🧠](<../../📃 holders 🧠/$Holder 🧠.md>) | Fills the [Holder 🧠](<../../📃 holders 🧠/$Holder 🧠.md>) 
+    | [Holders 🧠](<../../📃 basics/$Holder 🧠.md>) | Fills the [Holder 🧠](<../../📃 basics/$Holder 🧠.md>) 
     | Anything else | Throws an error
     |
 

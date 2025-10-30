@@ -26,7 +26,7 @@
     |Input| Details | Example 
     |-|-|-
     | `<statement>`| The message to the user | `What time?`
-    | `$holder`| [holder 🧠](<../../../Scripts 📃/📃 holders 🧠/$Holder 🧠.md>) with the time | `14:23:59` 
+    | `$holder`| [holder 🧠](<../../../Scripts 📃/📃 basics/$Holder 🧠.md>) with the time | `14:23:59` 
     
     ---
     <br/>

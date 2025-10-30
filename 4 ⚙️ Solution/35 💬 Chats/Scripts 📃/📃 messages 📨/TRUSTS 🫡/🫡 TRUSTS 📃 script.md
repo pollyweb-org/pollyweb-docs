@@ -58,5 +58,5 @@ Needs||
 |-|-
 | [Commands ⌘](<../../📃 basics/⌘ Command.md>) | [`ASSERT`](<../../📃 holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`EVAL`](<../../📃 holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`IF`](<../../📃 control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`SEND`](<../SEND 📬/📬 SEND ⌘ cmd.md>)
 | [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) | [`Trusts@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>)
-| [Holders 🧠](<../../📃 holders 🧠/$Holder 🧠.md>) | [`$.Msg`](<../../📃 holders 🧠/$.Msg 📨/📨 $.Msg 🧠 holder.md>) [`$.Hosted`](<../../📃 holders 🧠/$.Hosted 📦/📦 $.Hosted 🧠 holder.md>)
+| [Holders 🧠](<../../📃 basics/$Holder 🧠.md>) | [`$.Msg`](<../../📃 holders 🧠/$.Msg 📨/📨 $.Msg 🧠 holder.md>) [`$.Hosted`](<../../📃 holders 🧠/$.Hosted 📦/📦 $.Hosted 🧠 holder.md>)
 |
