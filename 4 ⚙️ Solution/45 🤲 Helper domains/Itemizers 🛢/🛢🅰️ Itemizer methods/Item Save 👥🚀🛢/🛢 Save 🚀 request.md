@@ -2,13 +2,13 @@
 
 > Part of [Itemizer 🛢 helper](<../../🛢🤲 Itemizer helper.md>)
 
-> Implements the [`SAVE`](<../../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) commands from [Talker 😃 domains](<../../../../35 💬 Chats/Talkers 😃/😃 Talker role.md>).
+> Implements the [`SAVE`](<../../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) commands from [Talker 😃 domains](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>).
 
 > Purpose
 
 * Saves an item
   * on an [Itemized 🛢 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>)
-  * as requested by a [Talker 😃 domain](<../../../../35 💬 Chats/Talkers 😃/😃 Talker role.md>).
+  * as requested by a [Talker 😃 domain](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>).
 
 <br/>
 
@@ -29,7 +29,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header    | `From`        | string    | [Talker 😃](<../../../../35 💬 Chats/Talkers 😃/😃 Talker role.md>) from [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
+| Header    | `From`        | string    | [Talker 😃](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>) from [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
 |           | `To`          | string    | [Itemizer 🛢](<../../🛢🤲 Itemizer helper.md>) from [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
 |           | `Subject`     | string    | `Save@Itemizer`
 | Body    | `Set`    | string  | `Set` from [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
@@ -75,7 +75,7 @@ Item:
 
 1. **How to know if the item was deleted on timeout?**
 
-    [Talker 😃 domains](<../../../../35 💬 Chats/Talkers 😃/😃 Talker role.md>) can register a `Hook` on the [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>) method to listen to delete events on the [Itemized 🪣 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
+    [Talker 😃 domains](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>) can register a `Hook` on the [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>) method to listen to delete events on the [Itemized 🪣 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
     * Upon deletion, [Itemizer 🛢 helper domains](<../../🛢🤲 Itemizer helper.md>) invoke the [`Triggered@Talker`](<../../🛢🔔 Itemizer events/🛢🔔 Triggered.md>) method.
 
     ---
@@ -88,7 +88,7 @@ Item:
   
     * To avoid locking items with a standard ACID transaction, the [`Save@Itemizer`](<🛢 Save 🚀 request.md>) method checks the original version collected on the [`Get@Itemizer`](<../Item Get 👥🚀🛢/🛢 Get 🚀 request.md>) method.
   
-    * If the version has changed due to a concurrent [`SAVE`](<../../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) in the [Talker 😃 domain](<../../../../35 💬 Chats/Talkers 😃/😃 Talker role.md>), then the [Itemizer 🛢 helper domain](<../../🛢🤲 Itemizer helper.md>) rejects the change, forcing the [Talker 😃 domain](<../../../../35 💬 Chats/Talkers 😃/😃 Talker role.md>) to re-run the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>).
+    * If the version has changed due to a concurrent [`SAVE`](<../../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) in the [Talker 😃 domain](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>), then the [Itemizer 🛢 helper domain](<../../🛢🤲 Itemizer helper.md>) rejects the change, forcing the [Talker 😃 domain](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>) to re-run the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>).
 
     ---
     <br/>

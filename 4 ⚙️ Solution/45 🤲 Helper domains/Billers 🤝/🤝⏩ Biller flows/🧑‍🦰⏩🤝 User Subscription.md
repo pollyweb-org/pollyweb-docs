@@ -37,7 +37,7 @@ The following steps describe a subscription workflow:
 
 ## Talker
 
-The corresponding [Talker 😃](<../../../35 💬 Chats/Talkers 😃/😃 Talker role.md>) is as follows.
+The corresponding [Talker 😃](<../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>) is as follows.
 
 ```yaml
 💬 Register:                # Entry menu

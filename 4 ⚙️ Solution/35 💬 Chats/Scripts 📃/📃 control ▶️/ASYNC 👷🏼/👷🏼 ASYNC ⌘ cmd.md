@@ -1,6 +1,6 @@
 # 😃👷🏼 Talker `ASYNC` command
 
-> Part of [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>)
+> Part of [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>)
 
 > Implements the [`Async` ⏩ flow](<../../../Talkers 😃/😃⏩ Talker flows/Async Tasks 😃⏩📦/😃 Async ⏩ flow.md>)
 

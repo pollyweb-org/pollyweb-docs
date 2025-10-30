@@ -1,6 +1,6 @@
 # 😃📬 Talker `SEND` command
 
-> Part of [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>)
+> Part of [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>)
 
 <br/>
 
@@ -40,7 +40,7 @@
 
 1. **What's an example of SEND?**
 
-    Consider the following a [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>).
+    Consider the following a [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>).
 
     ```yaml
     - SEND:

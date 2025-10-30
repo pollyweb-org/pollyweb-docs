@@ -1,7 +1,7 @@
 # 💼 Talker `SHARE` command
 
 > Implementation
-* Part of [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>)
+* Part of [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>)
 * Implemented by the [`SHARE` 📃 script](<💼 SHARE 📃 script.md>)
 
 
@@ -57,7 +57,7 @@
 1. **What does the dot mean in a code?**
 
     Given that the [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) defined by `nlweb.dom` will be widely used, 
-    * [Talkers 😃](<../../../Talkers 😃/😃 Talker role.md>) accept a dot as a prefix of `nlweb.dom/`.
+    * [Talkers 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>) accept a dot as a prefix of `nlweb.dom/`.
     * Consider the following equal examples.
 
         ```yaml

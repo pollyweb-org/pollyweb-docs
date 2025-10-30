@@ -17,7 +17,7 @@
     <br/>
 
 
-1. **What's the format of a [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>)?**
+1. **What's the format of a [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>)?**
 
     ```yaml
     TIME|<statement> >> $holder
@@ -67,7 +67,7 @@
 
     <br/>
 
-    The associated [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>) would be the following.
+    The associated [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>) would be the following.
 
     ```yaml
     💬 Schedule for tomorrow:

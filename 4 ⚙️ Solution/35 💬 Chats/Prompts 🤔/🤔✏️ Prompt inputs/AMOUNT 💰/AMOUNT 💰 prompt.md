@@ -37,7 +37,7 @@
     ---
     <br/>
 
-1. **What's the syntax of AMOUNT in a [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>)?**
+1. **What's the syntax of AMOUNT in a [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>)?**
 
     ```yaml
     # Simplest.
@@ -160,7 +160,7 @@
 
 1. **How does AMOUNT process money signs?**
 
-    When collecting an [`AMOUNT`](<AMOUNT 💰 prompt.md>) input, [Talkers 😃](<../../../Talkers 😃/😃 Talker role.md>) 
+    When collecting an [`AMOUNT`](<AMOUNT 💰 prompt.md>) input, [Talkers 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>) 
     * identity and clean monetary characters
     * while storing the currencies in their original currency.
 

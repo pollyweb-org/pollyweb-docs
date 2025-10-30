@@ -1,6 +1,6 @@
 # 😃🧘 Talker `WAIT` flow 
 
-> Part of [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>)
+> Part of [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>)
 
 > Used by
 * [`Async` ⏩ flow](<../../../Talkers 😃/😃⏩ Talker flows/Async Tasks 😃⏩📦/😃 Async ⏩ flow.md>)

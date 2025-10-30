@@ -1,6 +1,6 @@
 # 😃💾 Talker `SAVE` command
 
-> Part of [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>)
+> Part of [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>)
 
 > Implemented by the [`.SAVE` 📃 script](<💾 SAVE 📃 script.md>)
 
@@ -141,7 +141,7 @@
 
 1. **How do handled blocked tables?**
 
-    Raises a 409 HTTP error in a [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>) when trying to update an [Itemized 🛢 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) with the `NoUpdate` flag active - e.g. [`Grab@Printer`](<../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🅰️ Printer methods/Grab 👥🚀🖨️/🖨️ Grab 🚀 request.md>).
+    Raises a 409 HTTP error in a [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>) when trying to update an [Itemized 🛢 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) with the `NoUpdate` flag active - e.g. [`Grab@Printer`](<../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🅰️ Printer methods/Grab 👥🚀🖨️/🖨️ Grab 🚀 request.md>).
 
     ---
     <br/>

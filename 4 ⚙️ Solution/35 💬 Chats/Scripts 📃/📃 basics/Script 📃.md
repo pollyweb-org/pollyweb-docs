@@ -1,13 +1,13 @@
 # 😃📃 Talker `Script:`
 
-> Part of [Talker 😃](<../../Talkers 😃/😃 Talker role.md>)
+> Part of [Talker 😃](<../../Talkers 😃/😃🤲 Talker helper.md>)
 
 <br/>
 
 1. **What's a Talker Script?**
 
     A [Script 📃]() 
-    [Talkers 😃](<../../Talkers 😃/😃 Talker role.md>) 
+    [Talkers 😃](<../../Talkers 😃/😃🤲 Talker helper.md>) 
     
     * is a set of [Commands ⌘](<Command ⌘.md>) 
     * specified in a [static YAML 📄](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Static YAML 📄.md>) resource

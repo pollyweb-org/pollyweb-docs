@@ -9,7 +9,7 @@
 
 1. **What is a Talker?**
 
-    [Talkers 😃](<😃 Talker role.md>) 
+    [Talkers 😃](<😃🤲 Talker helper.md>) 
     * are [domain 👥](<../../40 👥 Domains/👥 Domain.md>) roles
     * implemented by [Hoster ☁️ helper domains](<../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>).
     * to run [Scripts 📃](<../Scripts 📃/📃 basics/Script 📃.md>) 
@@ -21,7 +21,7 @@
 
 1. **Why are Talkers important?**
 
-    [Talkers 😃](<😃 Talker role.md>) dramatically reduce the time to build [Hosted 📦 domains](<../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>).
+    [Talkers 😃](<😃🤲 Talker helper.md>) dramatically reduce the time to build [Hosted 📦 domains](<../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>).
 
     * They allow [Hoster ☁️ helper domains](<../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) to manage the workflow state on behalf of [Hosted 📦 domains](<../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>), removing the undifferentiated heavy-lifting of handling [Prompts 🤔](<../Prompts 🤔/🤔 Prompt.md>) communications, and invoking [Hosted 📦 domains](<../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) only when it's necessary to execute business-specific logic.
     ---

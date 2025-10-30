@@ -11,7 +11,7 @@
 
     <br/>
     
-    Consider the following [Talker 😃](<../../Talkers 😃/😃 Talker role.md>).
+    Consider the following [Talker 😃](<../../Talkers 😃/😃🤲 Talker helper.md>).
     
     ```yaml
     # 😃 Talker 
