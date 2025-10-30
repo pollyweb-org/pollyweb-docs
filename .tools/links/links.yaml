@@ -39,6 +39,16 @@ Failed Tests:
 
 Successful Tests:
 
+  - Given: "{{Helper}}"
+    LinkText: "Helper 🤲 domain"
+    LinkFile: "🤲👥 Helper domain.md"
+    Reasons: This is hardcoded.
+
+  - Given: "{{Helpers}}"
+    LinkText: "Helper 🤲 domains"
+    LinkFile: "🤲👥 Helper domain.md"
+    Reasons: This is hardcoded.
+
   - Given: "{{Holder}}"
     LinkText: "Holder 🧠"
     LinkFile: "Holder 🧠.md"
@@ -130,12 +140,12 @@ Successful Tests:
 
   - Given: "{{Script}}"
     LinkText: "Script 📃"
-    LinkFile: "📃 Script.md"
+    LinkFile: "Script 📃.md"
     Reasons: This is hardcoded.
 
   - Given: "{{Scripts}}"
     LinkText: "Scripts 📃"
-    LinkFile: "📃 Script.md"
+    LinkFile: "Script 📃.md"
     Reasons: This is hardcoded.
 
   - Given: '{{Wallet}}'
