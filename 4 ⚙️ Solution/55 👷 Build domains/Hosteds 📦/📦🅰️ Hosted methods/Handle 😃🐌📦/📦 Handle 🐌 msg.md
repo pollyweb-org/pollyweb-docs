@@ -9,7 +9,7 @@
 
 > Purpose: 
 
-* Handles a [{Function} 🐍](<../../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...functions 🐍/{Function} 🐍.md>) evaluation.
+* Handles a [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/...functions 🐍/{Function} 🐍.md>) evaluation.
 
 
 <br/>
@@ -35,6 +35,6 @@ Body:
 |           | `To`          | string    | [Hosted 📦 domain](<../../📦👥 Hosted domain.md>) name
 |           | `Subject`     | string    | `Handle@Hosted`
 | Body      | `Hook`    | uuid      | Hook for [`Handled@Talker`](<../../../../35 💬 Chats/Talkers 😃/😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>)
-|           | `Function`    | string    | Name of the [{Function} 🐍](<../../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...functions 🐍/{Function} 🐍.md>) to evaluate
-|           | `Arguments`   | array     | Array of [{Function} 🐍](<../../../../35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...functions 🐍/{Function} 🐍.md>) arguments 
+|           | `Function`    | string    | Name of the [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/...functions 🐍/{Function} 🐍.md>) to evaluate
+|           | `Arguments`   | array     | Array of [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/...functions 🐍/{Function} 🐍.md>) arguments 
 |

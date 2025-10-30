@@ -1,6 +1,6 @@
 # 😃🐍 Talker `{Function}` 
 
-> Part of [Talker 😃](<../../😃 Talker role.md>)
+> Part of [Talker 😃](<../../Talkers 😃/😃 Talker role.md>)
 
 <br/>
 
@@ -12,8 +12,8 @@
 
     |Format|Details
     |-|-
-    | `{$holder}`| The value of a [holder 🧠](<../...holders 🧠/$Holder 🧠.md>).
-    | `{/path/to/file}` | A file in the [Hoster ☁️](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) file system.
+    | `{$holder}`| The value of a [holder 🧠](<../../Talkers 😃/😃⚙️ Talker cmds/...holders 🧠/$Holder 🧠.md>).
+    | `{/path/to/file}` | A file in the [Hoster ☁️](<../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) file system.
     | `{handler(args)}`| Logic in a code handler - e.g., python.
     | `{.helper(args)}`| Pre-built functions - e.g., `Sum()`
     

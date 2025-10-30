@@ -73,7 +73,7 @@
     | Input| Purpose | Examples
     |-|-|-
     | `$object`| Optional initial context | `$.Msg` 
-    | `{value}` | String or [{Function}](<../../...functions 🐍/{Function} 🐍.md>) evaluated | `A` `{f}` `{$p}`
+    | `{value}` | String or [{Function}](<../../../../Scripts 📃/...functions 🐍/{Function} 🐍.md>) evaluated | `A` `{f}` `{$p}`
     || Supports missing `{}`  | `f()` `$p`
     | `{comparison}` | `=` `~=` `!=` `>` `>=` `<` `<=` 
     
@@ -113,7 +113,7 @@
     |       | Same content out of order | `{A:1, B:2} = {B:2, A:1}`
     |       |Same [Schema 🧩 code](<../../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | `.HOST ~= nlweb.org/HOST:1.0 `|
     |       | Same [domain 👥](<../../../../../40 👥 Domains/👥 Domain.md>) name | `domain.dom ~= DOMAIN.DOM`
-    |       | Same [`{.Today}` 🐍](<../../...functions 🐍/{Function} 🐍.md>) date | `~= 2013-04-01T05:00:30.001Z`
+    |       | Same [`{.Today}` 🐍](<../../../../Scripts 📃/...functions 🐍/{Function} 🐍.md>) date | `~= 2013-04-01T05:00:30.001Z`
     
     
 
@@ -219,8 +219,8 @@
     |Situation | Behavior
     |-|-
     | `Comparisons` | The left of the operator maps to the `$object`
-    |               | The right side is evaluated with [{Functions} 🐍](<../../...functions 🐍/{Function} 🐍.md>)
-    | `Single value` | No [{Functions} 🐍](<../../...functions 🐍/{Function} 🐍.md>); all is mapped to `$object` 
+    |               | The right side is evaluated with [{Functions} 🐍](<../../../../Scripts 📃/...functions 🐍/{Function} 🐍.md>)
+    | `Single value` | No [{Functions} 🐍](<../../../../Scripts 📃/...functions 🐍/{Function} 🐍.md>); all is mapped to `$object` 
 
     ---
     <br/>

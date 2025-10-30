@@ -100,7 +100,7 @@
 
 1. **How to get get the length of a list?**    
 
-    Use the [`{.Size} function`](<../...functions 🐍/🔩 {.Size}.md>) with `$p.Length()` or `$p.Size()`.
+    Use the [`{.Size} function`](<../../../Scripts 📃/...functions 🐍/🔩 {.Size}.md>) with `$p.Length()` or `$p.Size()`.
 
     Here's a [Script 📃](<../../../Scripts 📃/...commands ⌘/Script 📃/📃 Script.md>).
     ```yaml
@@ -144,7 +144,7 @@
 
     In a [Talker 😃](<../../😃 Talker role.md>) script, use `>>` to send a value to a $holder:
     * `TEXT|bla >> $p` writes the answer to a [`TEXT` 🔠 input](<../../../Prompts 🤔/🤔✏️ Prompt inputs/TEXT 🔠/TEXT 🔠 prompt.md>).
-    * `EVAL|f >> $p` writes the return of a [{Function}](<../...functions 🐍/{Function} 🐍.md>) named `f`.
+    * `EVAL|f >> $p` writes the return of a [{Function}](<../../../Scripts 📃/...functions 🐍/{Function} 🐍.md>) named `f`.
 
     You can also push data structures with [`EVAL` ⬇️](<EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>).
     
@@ -199,17 +199,17 @@
   
 1. **How to integrate functions?**
 
-    Holders allow [{Function} 🐍](<../...functions 🐍/{Function} 🐍.md>) suffixes.
+    Holders allow [{Function} 🐍](<../../../Scripts 📃/...functions 🐍/{Function} 🐍.md>) suffixes.
 
     * The function is called with the first argument as the holder.
   
     | Function | Holder `$p` | Example | Result
     |-|-|-|-
-    | [`.Add`](<../...functions 🐍/🔩 {.Add}.md>) | `[A,B]` | `$p.Add(C)` | `[A,B,C]`
-    | [`.Diff`](<../...functions 🐍/🔩 {.Diff}.md>) | `[A,B,C]` | `$p.Diff(B)` | `[A,C]`
-    | [`.In`](<../...functions 🐍/🔩 {.In}.md>) | `A` | `$.In([A,B])` | `True`
-    | [`.Length`](<../...functions 🐍/🔩 {.Size}.md>) | `[A,B]` | `$p.Length()` | `2`
-    | [`.Size`](<../...functions 🐍/🔩 {.Size}.md>) | `[A,B]` | `$p.Size()` | `2`
+    | [`.Add`](<../../../Scripts 📃/...functions 🐍/🔩 {.Add}.md>) | `[A,B]` | `$p.Add(C)` | `[A,B,C]`
+    | [`.Diff`](<../../../Scripts 📃/...functions 🐍/🔩 {.Diff}.md>) | `[A,B,C]` | `$p.Diff(B)` | `[A,C]`
+    | [`.In`](<../../../Scripts 📃/...functions 🐍/🔩 {.In}.md>) | `A` | `$.In([A,B])` | `True`
+    | [`.Length`](<../../../Scripts 📃/...functions 🐍/🔩 {.Size}.md>) | `[A,B]` | `$p.Length()` | `2`
+    | [`.Size`](<../../../Scripts 📃/...functions 🐍/🔩 {.Size}.md>) | `[A,B]` | `$p.Size()` | `2`
     
     ---
     <br/>

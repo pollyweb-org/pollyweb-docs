@@ -9,7 +9,7 @@
 
     An `EVAL` ⬇️
     * is a [Command ⌘](<../../../../Scripts 📃/...commands ⌘/Command ⌘/⌘ Command.md>) 
-    * that evaluates strings, objects, and [`{Functions}`](<../../...functions 🐍/{Function} 🐍.md>)
+    * that evaluates strings, objects, and [`{Functions}`](<../../../../Scripts 📃/...functions 🐍/{Function} 🐍.md>)
     * into a holder.
 
     ---
@@ -40,7 +40,7 @@
 
     | Input| Purpose | Example
     |-|-|-
-    | `{function}`| [{Function}](<../../...functions 🐍/{Function} 🐍.md>) to be evaluated | `{f}` `{$p}` | 
+    | `{function}`| [{Function}](<../../../../Scripts 📃/...functions 🐍/{Function} 🐍.md>) to be evaluated | `{f}` `{$p}` | 
     || Supports missing `{}` | `f` `$p`
     | `{input}`| Input for the `{function}` | `3` `[A,B]` `{A:1}` 
     || Passed as single argument | `f({input})`
@@ -490,7 +490,7 @@
     # Results in [A,B]    
     ```
 
-    Here's a alternative syntax using the [`.Add`](<../../...functions 🐍/🔩 {.Add}.md>) function in a [Holder 🧠](<../$Holder 🧠.md>).
+    Here's a alternative syntax using the [`.Add`](<../../../../Scripts 📃/...functions 🐍/🔩 {.Add}.md>) function in a [Holder 🧠](<../$Holder 🧠.md>).
 
     ```yaml
     📃 Example:
@@ -522,7 +522,7 @@
 
 1. **How to make a distinct in lists?**
 
-    Using the [`{.Distinct}`](<../../...functions 🐍/🔩 {.Distinct}.md>) function
+    Using the [`{.Distinct}`](<../../../../Scripts 📃/...functions 🐍/🔩 {.Distinct}.md>) function
 
     ```yaml
     📃 Inline in a holder:

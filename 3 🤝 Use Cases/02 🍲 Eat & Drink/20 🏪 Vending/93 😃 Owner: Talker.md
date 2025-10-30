@@ -87,7 +87,7 @@ TODO: Add the flow to the Manifest
 
 ## Functions
 
-[Functions](<../../../4 ⚙️ Solution/35 💬 Chats/Talkers 😃/😃⚙️ Talker cmds/...functions 🐍/{Function} 🐍.md>)| Type | Purpose
+[Functions](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/...functions 🐍/{Function} 🐍.md>)| Type | Purpose
 |-|-|-
 | `Deduct` | Custom | Deduct the stock from the ERP.
 |
