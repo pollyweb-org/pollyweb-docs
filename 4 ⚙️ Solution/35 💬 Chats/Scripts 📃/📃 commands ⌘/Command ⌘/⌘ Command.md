@@ -109,15 +109,15 @@
 
     Command | Purpose
     |-|-
-    | ⏯️️ [`CASE`](<../../📃 for control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script 📃](<../Script 📃/📃 Script.md>) based on a [{Function} 🐍](<../../📃 functions 🐍/{Function} 🐍.md>).
+    | ⏯️️ [`CASE`](<../../📃 control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script 📃](<../Script 📃/📃 Script.md>) based on a [{Function} 🐍](<../../📃 functions 🐍/{Function} 🐍.md>).
     | 🫥 [`EMOJI`](<../../../Prompts 🤔/🤔✏️ Prompt input features/😶⌘ EMOJI cmd.md>) | Changes the [default emoji 😃](<../../../Prompts 🤔/🤔✏️ Prompt input features/😶 Input emojis.md>) for [input prompts ✏️](<../../../Prompts 🤔/🤔⚙️ Prompt features/9 ✏️ as Input.md>).
     | ⬇️ [`EVAL`](<../../📃 holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | Evaluates a [{Function}](<../../📃 functions 🐍/{Function} 🐍.md>) into a holder.
-    | ⤵️ [`IF`](<../../📃 for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script 📃](<../Script 📃/📃 Script.md>) based on a [{Function} 🐍](<../../📃 functions 🐍/{Function} 🐍.md>).
-    | 🪵 [`LOG`](<../../📃 for control ▶️/LOG 🪵/🪵 LOG ⌘ cmd.md>) | Logs messages into the system handler.
-    | 🔁 [`REPEAT`](<../../📃 for control ▶️/REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) | Repeats the current [Script 📃](<../Script 📃/📃 Script.md>) with a confirmation.
-    | ⤴️ [`RETURN`](<../../📃 for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) | Returns from a [Script 📃](<../Script 📃/📃 Script.md>) with a result.
-    | ▶️ [`RUN`](<../../📃 for control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>) | Runs a [Script 📃](<../Script 📃/📃 Script.md>) and puts the result in a holder.
-    | 🧘 [`WAIT`](<../../📃 for control ▶️/WAIT 🧘/🧘 WAIT ⌘ cmd.md>) | Waits for a period of time or until signaled.
+    | ⤵️ [`IF`](<../../📃 control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script 📃](<../Script 📃/📃 Script.md>) based on a [{Function} 🐍](<../../📃 functions 🐍/{Function} 🐍.md>).
+    | 🪵 [`LOG`](<../../📃 control ▶️/LOG 🪵/🪵 LOG ⌘ cmd.md>) | Logs messages into the system handler.
+    | 🔁 [`REPEAT`](<../../📃 control ▶️/REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) | Repeats the current [Script 📃](<../Script 📃/📃 Script.md>) with a confirmation.
+    | ⤴️ [`RETURN`](<../../📃 control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) | Returns from a [Script 📃](<../Script 📃/📃 Script.md>) with a result.
+    | ▶️ [`RUN`](<../../📃 control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>) | Runs a [Script 📃](<../Script 📃/📃 Script.md>) and puts the result in a holder.
+    | 🧘 [`WAIT`](<../../📃 control ▶️/WAIT 🧘/🧘 WAIT ⌘ cmd.md>) | Waits for a period of time or until signaled.
 
     ---
     <br/>
@@ -192,7 +192,7 @@
                     }
                 }
     ```
-    Commands: [`RUN`](<../../📃 for control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
+    Commands: [`RUN`](<../../📃 control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
 
     ---
     <br/>

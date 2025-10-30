@@ -59,11 +59,11 @@ Body:
 
 | [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/📃 commands ⌘/Command ⌘/⌘ Command.md>) | Purpose
 |-|-
-| 🧲 [`GET`](<../../../../35 💬 Chats/Scripts 📃/📃 for datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) | Get the [Hook 🪣](<../../../../35 💬 Chats/Talkers 😃/😃🪣 Talker tables/😃🪣 TalkerHooks 🪝 table.md>) from [`Offer@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>)
+| 🧲 [`GET`](<../../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) | Get the [Hook 🪣](<../../../../35 💬 Chats/Talkers 😃/😃🪣 Talker tables/😃🪣 TalkerHooks 🪝 table.md>) from [`Offer@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>)
 | 🚦 [`ASSERT`](<../../../../35 💬 Chats/Scripts 📃/📃 holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) | Assert if it's the right [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) 
 | ⬇️ [`EVAL`](<../../../../35 💬 Chats/Scripts 📃/📃 holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | Get the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) data from the hook
-| 💾 [`SAVE`](<../../../../35 💬 Chats/Scripts 📃/📃 for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | Save the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) to the [Tokens 🪣 table](<../../🎴🪣 Issuer tables/Tokens 🗄️ table/🗄️ IssuerTokens 🪣 table.md>)
-| 🎣 [`REEL`](<../../../../35 💬 Chats/Scripts 📃/📃 for control ▶️/REEL 🎣/🎣 REEL ⌘ cmd.md>) | Continue the [Talker 😃](<../../../../35 💬 Chats/Talkers 😃/😃 Talker role.md>)
+| 💾 [`SAVE`](<../../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | Save the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token.md>) to the [Tokens 🪣 table](<../../🎴🪣 Issuer tables/Tokens 🗄️ table/🗄️ IssuerTokens 🪣 table.md>)
+| 🎣 [`REEL`](<../../../../35 💬 Chats/Scripts 📃/📃 control ▶️/REEL 🎣/🎣 REEL ⌘ cmd.md>) | Continue the [Talker 😃](<../../../../35 💬 Chats/Talkers 😃/😃 Talker role.md>)
 | 
 
 

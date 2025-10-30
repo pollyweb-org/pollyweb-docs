@@ -131,7 +131,7 @@
        Else: FAILURE|Not bounded.
    ```
 
-   Commands: [`BIND`](<🔗 BIND ⌘ cmd.md>) [`IF`](<../../📃 for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>)
+   Commands: [`BIND`](<🔗 BIND ⌘ cmd.md>) [`IF`](<../../📃 control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>)
 
    ---
    <br/>
@@ -157,7 +157,7 @@
        Else: FAILURE|Not bounded.
    ```
 
-   Commands: [`BIND`](<🔗 BIND ⌘ cmd.md>) [`EVAL`](<../../📃 holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`IF`](<../../📃 for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>)
+   Commands: [`BIND`](<🔗 BIND ⌘ cmd.md>) [`EVAL`](<../../📃 holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`IF`](<../../📃 control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>)
    
    ---
    <br/>

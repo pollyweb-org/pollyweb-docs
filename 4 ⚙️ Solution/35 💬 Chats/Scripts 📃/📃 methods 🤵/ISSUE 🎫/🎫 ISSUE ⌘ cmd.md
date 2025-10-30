@@ -70,7 +70,7 @@
         Then: SUCCESS|Saved to your wallet.
         Else: FAILURE|You rejected the token.
    ```
-   Commands: [`INFO`](<../../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`IF`](<../../📃 for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>)  
+   Commands: [`INFO`](<../../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`IF`](<../../📃 control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>)  
    
    ---
    <br/>

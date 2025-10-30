@@ -75,7 +75,7 @@
     - SUCCESS|Locker opened. # Notify the user
     ```
 
-    Commands: [`FAILURE`](<../../../Prompts 🤔/🤔📢 Prompt status/FAILURE ❌/FAILURE ❌ prompt.md>) [`INFO`](<../../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`LOG`](<../../📃 for control ▶️/LOG 🪵/🪵 LOG ⌘ cmd.md>) [`RELAY`](<🛰️ RELAY ⌘ cmd.md>) [`SUCCESS`](<../../../Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) [`TEMP`](<../../../Prompts 🤔/🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>)
+    Commands: [`FAILURE`](<../../../Prompts 🤔/🤔📢 Prompt status/FAILURE ❌/FAILURE ❌ prompt.md>) [`INFO`](<../../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`LOG`](<../../📃 control ▶️/LOG 🪵/🪵 LOG ⌘ cmd.md>) [`RELAY`](<🛰️ RELAY ⌘ cmd.md>) [`SUCCESS`](<../../../Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) [`TEMP`](<../../../Prompts 🤔/🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>)
     
     ---
     <br/>

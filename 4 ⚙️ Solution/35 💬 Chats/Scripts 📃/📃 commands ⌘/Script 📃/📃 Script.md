@@ -46,10 +46,10 @@
 
     |Context|Syntax
     |-|-
-    |▶️ [`RUN`](<../../📃 for control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)| Calls a [Script 📃](<📃 Script.md>) by name, then returns.
-    |⤵️ [`IF`](<../../📃 for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) | Runs [Scripts 📃](<📃 Script.md>) for `True` and `False` evaluations.
-    | ⏯️️ [`CASE`](<../../📃 for control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | Runs [Scripts 📃](<📃 Script.md>) for matching evaluations.
-    | 🧘 [`WAIT`](<../../📃 for control ▶️/WAIT 🧘/🧘 WAIT ⌘ cmd.md>) | Runs [Scripts 📃](<📃 Script.md>) on signalled and timed out.
+    |▶️ [`RUN`](<../../📃 control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)| Calls a [Script 📃](<📃 Script.md>) by name, then returns.
+    |⤵️ [`IF`](<../../📃 control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) | Runs [Scripts 📃](<📃 Script.md>) for `True` and `False` evaluations.
+    | ⏯️️ [`CASE`](<../../📃 control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | Runs [Scripts 📃](<📃 Script.md>) for matching evaluations.
+    | 🧘 [`WAIT`](<../../📃 control ▶️/WAIT 🧘/🧘 WAIT ⌘ cmd.md>) | Runs [Scripts 📃](<📃 Script.md>) on signalled and timed out.
 
     ---
     <br/>
