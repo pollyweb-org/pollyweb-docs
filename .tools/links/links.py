@@ -396,6 +396,34 @@ def runit(project_directory, entryPoint):
     yaml_path = os.path.join(os.path.dirname(__file__), 'links.yaml')
     with open(yaml_path, 'r') as f:
         data = yaml.safe_load(f)
+    # Ensure that every LinkFile listed in the Successful Tests actually exists.
+    # ENFORCE: the basename must match exactly (emoji, spacing and extension).
+    missing_linkfiles: list[str] = []
+    for test in data.get('Successful Tests', []):
+        expected = test.get('LinkFile')
+        if not expected:
+            continue
+        # Require an exact basename match. Do not accept aliases here because
+        # the YAML specification requires exact filenames.
+        found = any(os.path.basename(p) == expected for p in md_files)
+        if not found:
+            # Gather a helpful suggestion (normalized stem) to assist debugging,
+            # but still treat this as a failing test.
+            norm_expected = normalize_string(os.path.splitext(expected)[0])
+            suggestion = None
+            for p in md_files:
+                cand = os.path.basename(p)
+                if normalize_string(os.path.splitext(cand)[0]) == norm_expected:
+                    suggestion = cand
+                    break
+            if suggestion:
+                missing_linkfiles.append(f"{expected} (found similar: {suggestion})")
+            else:
+                missing_linkfiles.append(expected)
+    if missing_linkfiles:
+        raise FileNotFoundError(
+            "Missing LinkFile(s) referenced in links.yaml Successful Tests (exact match required): " + ", ".join(missing_linkfiles)
+        )
     for test in data.get('Successful Tests', []):
         given = test['Given']
         expected_linktext = test['LinkText']

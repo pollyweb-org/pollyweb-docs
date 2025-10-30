@@ -107,7 +107,7 @@ def _make_hardcoded_replacer(func_name: str, token_literal: str, token_key: str,
 
 
 PLACEHOLDER_REPLACEMENT = "[Placeholder 🧠](<$Placeholder 🧠.md>)"
-HOLDER_REPLACEMENT = "[Holder 🧠](<$Holder 🧠.md>)"
+HOLDER_REPLACEMENT = "[Holder 🧠](<Holder 🧠.md>)"
 HOSTS_REPLACEMENT = "[Host 🤗 domains](<../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)"
 HOST_REPLACEMENT = "[Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)"
 SCRIPT_REPLACEMENT = "[Script 📃](<📃 Script.md>)"
@@ -182,7 +182,21 @@ def replace_trusted_tokens(md_files):
 @register_hardcoded("holders", replacement='[Holders 🧠](<$Holder 🧠.md>)', token_label="Holders")
 def replace_holders_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Holders`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, '[Holders 🧠](<$Holder 🧠.md>)')
+    return _replace_simple(md_files, pattern, '[Holders 🧠](<Holder 🧠.md>)')
+
+
+# Hardcoded Helper token
+HELPER_REPLACEMENT = "[Helper 🤲 domain](<🤲👥 Helper domain.md>)"
+@register_hardcoded("helper", replacement=HELPER_REPLACEMENT, token_label="Helper")
+def replace_helper_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Helper`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, HELPER_REPLACEMENT)
+
+
+@register_hardcoded("helpers", replacement='[Helper 🤲 domains](<🤲👥 Helper domain.md>)', token_label="Helpers")
+def replace_helpers_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Helpers`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, '[Helper 🤲 domains](<🤲👥 Helper domain.md>)')
 
 
 @register_hardcoded("wallets", replacement=WALLETS_REPLACEMENT, token_label="Wallets")
