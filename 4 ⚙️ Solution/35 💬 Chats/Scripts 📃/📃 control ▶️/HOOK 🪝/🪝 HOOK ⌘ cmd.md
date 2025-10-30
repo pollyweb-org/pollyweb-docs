@@ -16,7 +16,7 @@
     * that creates a rollback checkpoint
     * to be triggered by the [`REEL` 🎣 command](<../REEL 🎣/🎣 REEL ⌘ cmd.md>)
     * or by the [`Handled@Talker` 🅰️ method](<../../../Talkers 😃/😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>)
-    * while allowing the [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>) flow to continue.
+    * while allowing the [Script 📃](<../../📃 basics/Script 📃.md>) flow to continue.
 
     ---
     <br/>

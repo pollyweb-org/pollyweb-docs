@@ -57,7 +57,7 @@
 1. **What does the dot mean in a code?**
 
     Given that the [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) defined by `nlweb.dom` will be widely used, 
-    * [Talkers 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>) accept a dot as a prefix of `nlweb.dom/`.
+    * [Scripts 📃](<../../📃 basics/Script 📃.md>) accept a dot as a prefix of `nlweb.dom/`.
     * Consider the following equal examples.
 
         ```yaml

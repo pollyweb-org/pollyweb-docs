@@ -14,7 +14,7 @@
     * is a [Command ⌘](<../../📃 basics/Command ⌘.md>) 
     * that retrieves an item by key 🔑
     * from a key-value resource pool 🪣
-    * into a [Talker 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>) holder.
+    * into a [Holder 🧠](<../../📃 basics/Holder 🧠.md>).
 
     ---
     <br/>

@@ -1,6 +1,6 @@
 # 😃⌘ Talker `<Command>`
 
-> Part of [Talker 😃](<../../Talkers 😃/😃🤲 Talker helper.md>)
+> Part of [Script 📃](<Script 📃.md>)
 
 <br/>
 

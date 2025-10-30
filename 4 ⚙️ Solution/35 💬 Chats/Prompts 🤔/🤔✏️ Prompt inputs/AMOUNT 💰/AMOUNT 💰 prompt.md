@@ -160,7 +160,7 @@
 
 1. **How does AMOUNT process money signs?**
 
-    When collecting an [`AMOUNT`](<AMOUNT 💰 prompt.md>) input, [Talkers 😃](<../../../Talkers 😃/😃🤲 Talker helper.md>) 
+    When collecting an [`AMOUNT`](<AMOUNT 💰 prompt.md>) input, [Scripts 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>)
     * identity and clean monetary characters
     * while storing the currencies in their original currency.
 
