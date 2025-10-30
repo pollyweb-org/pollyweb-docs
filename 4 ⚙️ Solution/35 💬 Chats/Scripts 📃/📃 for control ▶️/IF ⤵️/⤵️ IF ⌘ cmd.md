@@ -10,7 +10,7 @@
     An `IF` ⤵️
     * is a flow [Command ⌘](<../../📃 commands ⌘/Command ⌘/⌘ Command.md>)  
     * that runs a [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>) or [Command ⌘](<../../📃 commands ⌘/Command ⌘/⌘ Command.md>)
-    * based on the evaluation of a holder or [{Function}](<../../...functions 🐍/{Function} 🐍.md>).
+    * based on the evaluation of a holder or [{Function}](<../../📃 functions 🐍/{Function} 🐍.md>).
 
     ---
     <br/>
@@ -24,7 +24,7 @@
     Number  | zero | `0` | non-zero | `1` `-1`
     Array | empty | `[]` | non-empty | `[1,A]`
     [Confirm 👍](<../../../Prompts 🤔/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>) |  no | `No` | yes | `Yes`|
-    [Share 💼](<../../📃 for methods 🤵/SHARE 💼/💼 SHARE ⌘ cmd.md>) | empty | `{}`| non-empty | `{A:1}`
+    [Share 💼](<../../📃 methods 🤵/SHARE 💼/💼 SHARE ⌘ cmd.md>) | empty | `{}`| non-empty | `{A:1}`
     
 
     ---
@@ -48,7 +48,7 @@
 
     | Input| Purpose | Example
     |-|-|-
-    | `{function}` | Boolean [{Function}](<../../...functions 🐍/{Function} 🐍.md>) to evaluate  | `{f}` `{$o}`
+    | `{function}` | Boolean [{Function}](<../../📃 functions 🐍/{Function} 🐍.md>) to evaluate  | `{f}` `{$o}`
     || Allows for missing `{}` in functions | `f()` `$p`
     || Defaults to the last [input prompt ✏️](<../../../Prompts 🤔/🤔⚙️ Prompt features/9 ✏️ as Input.md>) | `TEXT\|Id?`
     | `<true-script>` | [Script 📃](<../RUN ▶️/▶️ RUN ⌘ cmd.md>) when `True` | `IfTrue`
@@ -67,7 +67,7 @@
 
     | Input| Purpose | Example
     |-|-|-
-    | `{function}` | Boolean [{Function}](<../../...functions 🐍/{Function} 🐍.md>) to evaluate  | `{f}` `{$o}`
+    | `{function}` | Boolean [{Function}](<../../📃 functions 🐍/{Function} 🐍.md>) to evaluate  | `{f}` `{$o}`
     || Allows for missing `{}` in functions | `f()` `$p`
     || Defaults to the last [input prompt ✏️](<../../../Prompts 🤔/🤔⚙️ Prompt features/9 ✏️ as Input.md>) | `TEXT\|Id?`
     | `<true-script>` | [Script 📃](<../RUN ▶️/▶️ RUN ⌘ cmd.md>) when `True` | `IfTrue`

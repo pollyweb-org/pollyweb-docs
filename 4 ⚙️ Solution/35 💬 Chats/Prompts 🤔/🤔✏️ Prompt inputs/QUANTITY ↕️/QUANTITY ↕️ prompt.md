@@ -37,7 +37,7 @@
     | Input| Purpose 
     |-|-
     | `<statement>`| Message to show to the user
-    | `$holder`| Optional [holder 🧠](<../../../Scripts 📃/...holders 🧠/$Holder 🧠.md>) with the user's answer 
+    | `$holder`| Optional [holder 🧠](<../../../Scripts 📃/📃 holders 🧠/$Holder 🧠.md>) with the user's answer 
 
     ```yaml
     # Comprehensive.
@@ -226,8 +226,8 @@
     | `$p.Decimal` | Decimal rounded to `Precision` | `1234.57`
     | `$p.Pretty` | Decimal formatted to `Locale` | `1,234.57`
     | `$p.Locale` | CLDR locale used to format | `en-US`
-    | [`$p.$`](<../../../Scripts 📃/...functions 🐍/{Function} 🐍.md>) | The value of `$p.Pretty` | `1,234.57`
-    | `$p` | The [default value](<../../../Scripts 📃/...functions 🐍/{Function} 🐍.md>) `$p.$` | `1,234.57`
+    | [`$p.$`](<../../../Scripts 📃/📃 functions 🐍/{Function} 🐍.md>) | The value of `$p.Pretty` | `1,234.57`
+    | `$p` | The [default value](<../../../Scripts 📃/📃 functions 🐍/{Function} 🐍.md>) `$p.$` | `1,234.57`
 
     ---
     <br/>

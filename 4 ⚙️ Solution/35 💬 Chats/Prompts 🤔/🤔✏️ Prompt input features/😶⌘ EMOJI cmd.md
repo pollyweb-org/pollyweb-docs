@@ -9,7 +9,7 @@
     An `EMOJI`
     * is a [Command ⌘](<../../Scripts 📃/📃 commands ⌘/Command ⌘/⌘ Command.md>) 
     * that defaults all upcoming [Input prompts ✏️](<../🤔⚙️ Prompt features/9 ✏️ as Input.md>)
-    * via the [`$.Chat` 🧠 holder](<../../Scripts 📃/...holders 🧠/$.Chat 💬/💬 $.Chat 🧠 holder.md>) holder
+    * via the [`$.Chat` 🧠 holder](<../../Scripts 📃/📃 holders 🧠/$.Chat 💬/💬 $.Chat 🧠 holder.md>) holder
     * in the [`PromptEmoji` 📃 script](<../../Talkers 😃/😃⏩ Talker flows/Prompts 😃⏩🧑‍🦰/😃 Prompts 📃 emoji.md>)
     * to [use another emoji 😶](<😶 Input emojis.md>) other than the default smile 😃 emoji.
 

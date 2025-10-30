@@ -15,7 +15,7 @@
     |Expression|Examples
     |-|-
     |`<string>`| `3` `Alice`
-    [`{Function}`](<../../...functions 🐍/{Function} 🐍.md>) | `{$holder}` `{handler(1)}` `{.helper(1)}` 
+    [`{Function}`](<../../📃 functions 🐍/{Function} 🐍.md>) | `{$holder}` `{handler(1)}` `{.helper(1)}` 
 
     ---
     <br/>
@@ -37,7 +37,7 @@
 
     | Input| Purpose | Example
     |-|-|-
-    | `{expression}`| String or [{Function}](<../../...functions 🐍/{Function} 🐍.md>) to be evaluated | `A` `{f}` `{$p}`
+    | `{expression}`| String or [{Function}](<../../📃 functions 🐍/{Function} 🐍.md>) to be evaluated | `A` `{f}` `{$p}`
     || Supports missing `{}` in functions | `f()` `$p`
     | `{object}` | Any object  | `{A:1,B:2}` 
     || or `{expression}` | `A` `f()` `$p`
@@ -118,7 +118,7 @@
     - RETURN|.Add($:1, $:2, $:3)
     ```
 
-    Commands: [`.Add`](<../../...functions 🐍/🔩 {.Add}.md>) [`INFO`](<../../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`RUN`](<../RUN ▶️/▶️ RUN ⌘ cmd.md>) 
+    Commands: [`.Add`](<../../📃 functions 🐍/🔩 {.Add}.md>) [`INFO`](<../../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`RUN`](<../RUN ▶️/▶️ RUN ⌘ cmd.md>) 
 
     ---
     <br/>

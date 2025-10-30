@@ -74,13 +74,13 @@
 
     |Command|Purpose
     |-|-
-    | 🔗 [`BIND`](<../../📃 for methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) | Calls the [Bind Vault @ Wallet ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/🧑‍🦰 Bind vault ⏩ flow.md>) flow.
-    | 🎫 [`ISSUE`](<../../📃 for methods 🤵/ISSUE 🎫/🎫 ISSUE ⌘ cmd.md>) | Calls the [Save Token @ Wallet ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save Token ⏩ flow.md>) flow.
-    | 👋 [`GOODBYE`](<../../📃 for methods 🤵/GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>) | Calls the [Goodbye @ Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Goodbye 🤗⏩👋/🤗 Goodbye ⏩ flow.md>) ⏩ flow.
-    | 📜 [`FLOW`](<../../📃 for methods 🤵/INFORM 📝/📝 INFORM ⌘ cmd.md>)
-    | 💳 [`CHARGE`](<../../📃 for methods 🤵/CHARGE 💳/💳 CHARGE ⌘ cmd.md>)
-    | 💼 [`SHARE`](<../../📃 for methods 🤵/SHARE 💼/💼 SHARE ⌘ cmd.md>)
-    | 🛰️ [`RELAY`](<../../📃 for methods 🤵/RELAY 🛰️/🛰️ RELAY ⌘ cmd.md>)
+    | 🔗 [`BIND`](<../../📃 methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) | Calls the [Bind Vault @ Wallet ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/🧑‍🦰 Bind vault ⏩ flow.md>) flow.
+    | 🎫 [`ISSUE`](<../../📃 methods 🤵/ISSUE 🎫/🎫 ISSUE ⌘ cmd.md>) | Calls the [Save Token @ Wallet ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save Token ⏩ flow.md>) flow.
+    | 👋 [`GOODBYE`](<../../📃 methods 🤵/GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>) | Calls the [Goodbye @ Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Goodbye 🤗⏩👋/🤗 Goodbye ⏩ flow.md>) ⏩ flow.
+    | 📜 [`FLOW`](<../../📃 methods 🤵/INFORM 📝/📝 INFORM ⌘ cmd.md>)
+    | 💳 [`CHARGE`](<../../📃 methods 🤵/CHARGE 💳/💳 CHARGE ⌘ cmd.md>)
+    | 💼 [`SHARE`](<../../📃 methods 🤵/SHARE 💼/💼 SHARE ⌘ cmd.md>)
+    | 🛰️ [`RELAY`](<../../📃 methods 🤵/RELAY 🛰️/🛰️ RELAY ⌘ cmd.md>)
     |
     
    
@@ -109,10 +109,10 @@
 
     Command | Purpose
     |-|-
-    | ⏯️️ [`CASE`](<../../📃 for control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script 📃](<../Script 📃/📃 Script.md>) based on a [{Function} 🐍](<../../...functions 🐍/{Function} 🐍.md>).
+    | ⏯️️ [`CASE`](<../../📃 for control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script 📃](<../Script 📃/📃 Script.md>) based on a [{Function} 🐍](<../../📃 functions 🐍/{Function} 🐍.md>).
     | 🫥 [`EMOJI`](<../../../Prompts 🤔/🤔✏️ Prompt input features/😶⌘ EMOJI cmd.md>) | Changes the [default emoji 😃](<../../../Prompts 🤔/🤔✏️ Prompt input features/😶 Input emojis.md>) for [input prompts ✏️](<../../../Prompts 🤔/🤔⚙️ Prompt features/9 ✏️ as Input.md>).
-    | ⬇️ [`EVAL`](<../../...holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | Evaluates a [{Function}](<../../...functions 🐍/{Function} 🐍.md>) into a holder.
-    | ⤵️ [`IF`](<../../📃 for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script 📃](<../Script 📃/📃 Script.md>) based on a [{Function} 🐍](<../../...functions 🐍/{Function} 🐍.md>).
+    | ⬇️ [`EVAL`](<../../📃 holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | Evaluates a [{Function}](<../../📃 functions 🐍/{Function} 🐍.md>) into a holder.
+    | ⤵️ [`IF`](<../../📃 for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) | Runs a [Command ⌘](<⌘ Command.md>) or [Script 📃](<../Script 📃/📃 Script.md>) based on a [{Function} 🐍](<../../📃 functions 🐍/{Function} 🐍.md>).
     | 🪵 [`LOG`](<../../📃 for control ▶️/LOG 🪵/🪵 LOG ⌘ cmd.md>) | Logs messages into the system handler.
     | 🔁 [`REPEAT`](<../../📃 for control ▶️/REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) | Repeats the current [Script 📃](<../Script 📃/📃 Script.md>) with a confirmation.
     | ⤴️ [`RETURN`](<../../📃 for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) | Returns from a [Script 📃](<../Script 📃/📃 Script.md>) with a result.

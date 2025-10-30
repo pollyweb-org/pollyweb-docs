@@ -16,7 +16,7 @@
 | [Domain](<../../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../../🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
 | 🗄️ [Vault](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) |  😃 Hi! What do you need? <br/>- [ Bind ] my Wallet | > Bind
-| 🤵 [Broker](<../../../../Brokers 🤵/🤵🤲 Broker helper.md>) | 🫥 [Bind?](<../../../../../35 💬 Chats/Scripts 📃/📃 for methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) [Yes, No] <br/> - Some schema code 🧩 <br/> - Some other schema code 🧩 | > Yes
+| 🤵 [Broker](<../../../../Brokers 🤵/🤵🤲 Broker helper.md>) | 🫥 [Bind?](<../../../../../35 💬 Chats/Scripts 📃/📃 methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) [Yes, No] <br/> - Some schema code 🧩 <br/> - Some other schema code 🧩 | > Yes
 | 🗄️ [Vault](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) | ✅ [Bound](<../../../../../35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
 ||
 
@@ -24,7 +24,7 @@
 
 ## 😃 Talker 
 
-The associated [Talker 😃](<../../../../../35 💬 Chats/Talkers 😃/😃 Talker role.md>) uses the [`BIND` 🔗 command](<../../../../../35 💬 Chats/Scripts 📃/📃 for methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>).
+The associated [Talker 😃](<../../../../../35 💬 Chats/Talkers 😃/😃 Talker role.md>) uses the [`BIND` 🔗 command](<../../../../../35 💬 Chats/Scripts 📃/📃 methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>).
 
 ```yaml
 💬 [Bind] my Wallet:

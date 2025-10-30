@@ -18,7 +18,7 @@
 
 1. **What are example use cases?**
 
-    * Handling the result of a [`RELAY`](<../../📃 for methods 🤵/RELAY 🛰️/🛰️ RELAY ⌘ cmd.md>) command.
+    * Handling the result of a [`RELAY`](<../../📃 methods 🤵/RELAY 🛰️/🛰️ RELAY ⌘ cmd.md>) command.
     * The [Talker 😃](<../../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/93 😃 Owner: Talker.md>) at [Vending machines 🏪](<../../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/20 🏪 Vending/01 🏪 Index.md>)
 
     ---
@@ -41,7 +41,7 @@
     
     | Input| Purpose | Example
     |-|-|-
-    | `{function}`| [{Function}](<../../...functions 🐍/{Function} 🐍.md>) to valuate and log. | `{MyFunction}` | 
+    | `{function}`| [{Function}](<../../📃 functions 🐍/{Function} 🐍.md>) to valuate and log. | `{MyFunction}` | 
     | `<string>` | String to evaluate and log. | `A` `I'm {$name}`
     | `{object}` | Object to evaluate and log. | `{A:1, B:$n}`
     
