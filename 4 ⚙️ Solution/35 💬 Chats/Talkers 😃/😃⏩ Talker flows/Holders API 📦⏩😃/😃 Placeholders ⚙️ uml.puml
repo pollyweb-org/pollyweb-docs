@@ -1,10 +1,11 @@
 @startuml Handle
 
-box Hoster ☁️ domain #FFFFFA
+box Business #FFFFFA
     participant "Script 📃" as script
     participant "Talker 😃" as talker
+
+    participant "Hosted 📦" as hosted
 end box
-participant "Hosted 📦" as hosted
 
 activate script
     script --> talker: EVAL {X into $A}

@@ -2,8 +2,8 @@
 
 participant "Hosted 📦" as hosted
 
-box Hoster ☁️ domain #FFFFFA
-    participant "Talker 😃" as talker
+box Talker 😃 domain #FFFFFA
+    participant "API 📨" as talker
     participant "Chats 🪣" as chats
     participant "Holders 🪣" as holders
 end box
@@ -11,11 +11,13 @@ end box
 
 activate hosted
     hosted -> talker: Place 🚀 {A into $p}
-deactivate hosted
 
-activate talker
-    talker -> chats: GET {chat}
-    talker -> holders: SAVE 💾 {chat, A into $p}
-deactivate talker
+    activate talker
+        talker -> chats: GET {chat}
+        talker -> holders: SAVE 💾 {chat, A into $p}
+        talker -> hosted: 
+    deactivate talker
+
+deactivate hosted
 
 @enduml

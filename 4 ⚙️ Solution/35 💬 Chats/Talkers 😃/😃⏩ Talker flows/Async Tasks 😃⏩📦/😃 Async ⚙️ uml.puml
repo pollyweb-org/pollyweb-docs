@@ -1,12 +1,12 @@
 @startuml Wait
 
 participant "User 🧑" as user
-box Hoster ☁️ domain #FFFFFA
+box Business #FFFFFA
     'participant "Host 🤗\nrole API" as host
     participant "Script 📃" as script
     participant "Talker 😃" as talker
+    participant "Hosted 📦" as hosted
 end box
-participant "Hosted 📦" as hosted
 
 script -> talker: ASYNC 👷🏼
 activate script
