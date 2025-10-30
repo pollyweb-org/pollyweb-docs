@@ -1,3 +1,10 @@
+<!-- TODO:
+In the internal .REEL implementation, 
+clarify that the REEL always exists the script where the $.Script was invoked.
+If the are 10 lines in the script and the $.Script is in the 7th, 
+then the last 3 will never be executed because REEL will exit the script.
+-->
+
 # 🎣 Talker `REEL` command
 
 > Part of [Script 📃](<../../📃 basics/Script 📃.md>)

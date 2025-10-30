@@ -4,7 +4,7 @@ participant "Hosted 📦" as hosted
 
 box Talker 😃 domain #FFFFFA
     participant "Inbox 📨" as inbox
-    participant "Chats 🪣" as chats
+    participant "Hooks 🪣" as hooks
     participant "Holders 🪣" as holders
 end box
 
@@ -13,8 +13,8 @@ activate hosted
     hosted -> inbox: Place 🚀 {A into $p}
 
     activate inbox
-        inbox -> chats: GET {chat}
-        inbox -> holders: SAVE 💾 {chat, A into $p}
+        inbox -> hooks: GET {hook}
+        inbox -> holders: SAVE 💾 {hook, A into $p}
         inbox -> hosted: 
     deactivate inbox
 
