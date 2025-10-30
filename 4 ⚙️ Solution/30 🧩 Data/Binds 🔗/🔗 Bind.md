@@ -12,7 +12,7 @@
 
 1. **How can users bind to Vaults?**
 
-    ![](<.📎 Assets/🔗 Bind.png>)
+    ![](<🔗 Bind ⚙️ uml.png>)
 
     |#|Step|Interface|Step
     |-|-|-|-

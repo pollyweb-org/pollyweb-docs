@@ -1,0 +1,33 @@
+@startuml Wallet: Share Token
+
+
+participant "Consumer 💼" as consumer
+
+box Talker 😃 domain #FFFFFA
+    participant "Broker 🤵" as broker
+    participant "Engine ⚙️" as engine
+    participant "Tokens 🪣" as tokens
+end box
+
+participant "Graph 🕸" as graph
+
+
+    consumer -> broker: Status 🚀
+
+    activate consumer
+    
+    activate broker
+        broker -> tokens: GET 🧲 {token}
+        broker -> engine: TRUSTS 🫡
+    
+        activate engine
+            engine -> graph: Trusts 🚀
+            engine -> broker
+        deactivate engine
+
+        broker -> consumer: {status}
+    deactivate broker
+
+    deactivate consumer
+
+@enduml 
