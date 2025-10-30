@@ -9,7 +9,7 @@
 1. **What's an ASYNC command?**
 
     An `ASYNC`
-    * is a [Command ⌘](<../../📃 basics/Command ⌘/⌘ Command.md>)
+    * is a [Command ⌘](<../../📃 basics/⌘ Command.md>)
     * that calls the [`Handle@Hosted` 🅰️ method](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>)
     * has an asynchronous background task
     * i.e, it continues the [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>), unlike [`EVAL`](<../../📃 holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>).

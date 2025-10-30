@@ -218,7 +218,7 @@
 
     > Used in the [`FILTER`](<../📃 methods 🤵/FILTER 🔽/🔽 FILTER ⌘ cmd.md>) command
 
-    Leverage `{$*}` interpolation with [Commands ⌘](<../📃 basics/Command ⌘/⌘ Command.md>).
+    Leverage `{$*}` interpolation with [Commands ⌘](<../📃 basics/⌘ Command.md>).
 
     ```yaml
     📃 Example:

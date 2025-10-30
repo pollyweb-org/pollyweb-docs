@@ -10,7 +10,7 @@
 1. **What's the REEL command?**
 
     A `REEL`
-    * is a handler [Command ⌘](<../../📃 basics/Command ⌘/⌘ Command.md>) 
+    * is a handler [Command ⌘](<../../📃 basics/⌘ Command.md>) 
     * for [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>) handlers to unblock a pending [Talker 😃](<../../../Talkers 😃/😃 Talker role.md>).
   
     ---
@@ -40,8 +40,8 @@
 
     | Input| Purpose |
     |-|-
-    | `$hook`| [Hooks 🪣 item](<../../../Talkers 😃/😃🪣 Talker tables/😃🪣 TalkerHooks 🪝 table.md>) saved by the [Command ⌘](<../../📃 basics/Command ⌘/⌘ Command.md>) | -
-    | `{response}` | [Command ⌘](<../../📃 basics/Command ⌘/⌘ Command.md>) output to a [Holder 🧠](<../../📃 holders 🧠/$Holder 🧠.md>)
+    | `$hook`| [Hooks 🪣 item](<../../../Talkers 😃/😃🪣 Talker tables/😃🪣 TalkerHooks 🪝 table.md>) saved by the [Command ⌘](<../../📃 basics/⌘ Command.md>) | -
+    | `{response}` | [Command ⌘](<../../📃 basics/⌘ Command.md>) output to a [Holder 🧠](<../../📃 holders 🧠/$Holder 🧠.md>)
 
     ---
     <br/>
@@ -79,7 +79,7 @@
     - REEL|$hook
     ```
 
-    | [Command ⌘](<../../📃 basics/Command ⌘/⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../📃 basics/⌘ Command.md>) | Purpose
     |-|-
     | 🧲 [`GET`](<../../📃 datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) | Get the [`Hook` 🪣](<../../../Talkers 😃/😃🪣 Talker tables/😃🪣 TalkerHooks 🪝 table.md>) from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>)  
     

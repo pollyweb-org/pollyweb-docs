@@ -8,7 +8,7 @@
 1. **What's a HTTP command?**
 
     A `HTTP` ⤴️
-    * is a flow [Command ⌘](<../../📃 basics/Command ⌘/⌘ Command.md>) 
+    * is a flow [Command ⌘](<../../📃 basics/⌘ Command.md>) 
     * that raises an HTTP exception
     * and immediately stops the [Script 📃](<../../📃 commands ⌘/Script 📃/📃 Script.md>).
 

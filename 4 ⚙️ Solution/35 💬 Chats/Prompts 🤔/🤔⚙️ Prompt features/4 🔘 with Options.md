@@ -163,7 +163,7 @@
         Share: INFO|You choose to share.
     ```
 
-    | [Command ⌘](<../../Scripts 📃/📃 basics/Command ⌘/⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../Scripts 📃/📃 basics/⌘ Command.md>) | Purpose
     |-|-
     | 1️⃣ [`ONE`](<../🤔✏️ Prompt inputs/ONE 1️⃣/ONE 1️⃣ prompt.md>) | To show the options.
     | ⏯️️ [`CASE`](<../../Scripts 📃/📃 control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | To check the selected option.
@@ -239,7 +239,7 @@
     ```
 
 
-    | [Command ⌘](<../../Scripts 📃/📃 basics/Command ⌘/⌘ Command.md>) | Purpose
+    | [Command ⌘](<../../Scripts 📃/📃 basics/⌘ Command.md>) | Purpose
     |-|-
     | 1️⃣ [`ONE`](<../🤔✏️ Prompt inputs/ONE 1️⃣/ONE 1️⃣ prompt.md>) | To show the options.
     | ⏯️️ [`CASE`](<../../Scripts 📃/📃 control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | To check the selected option.

@@ -8,7 +8,7 @@
 1. **What is a SEND command?**
 
     A `SEND`
-    * is a [Command ⌘](<../../📃 basics/Command ⌘/⌘ Command.md>) 
+    * is a [Command ⌘](<../../📃 basics/⌘ Command.md>) 
     * that sends a [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message.md>).
 
     ---
