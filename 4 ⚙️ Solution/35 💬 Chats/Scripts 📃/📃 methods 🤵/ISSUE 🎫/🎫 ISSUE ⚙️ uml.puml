@@ -1,11 +1,9 @@
 @startuml ISSUE
- 
 
 
-
-box Hoster ☁️ domain #FFFFFA
+box Talker 😃️ domain #FFFFFA
     participant "Script 📃" as script
-    participant "Talker 😃" as talker
+    participant ".ISSUE 📃" as talker
     'participant "Consumer 💼" as consumer
     participant "Issuer 🎴" as issuer
 end box
