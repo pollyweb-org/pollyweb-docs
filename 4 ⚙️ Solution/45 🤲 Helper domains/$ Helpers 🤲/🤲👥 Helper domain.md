@@ -43,7 +43,7 @@
 
 1. **What roles do Helpers implement?**
 
-    | [Role 🎭](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) | Purpose
+    | [Role 🎭](<../../40 👥 Domains/👥 Domain/👥🎭 Domain Role.md>) | Purpose
     |-|-
     | [🤗 Host](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | To open [Chats 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) with domain-admin users
     | [🪢 Integrator](<../../41 🎭 Domain Roles/Integrators 🪢/🪢🎭 Integrator role.md>) | To manifest its services to  [Finder 🔎 domains](<../../50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>)

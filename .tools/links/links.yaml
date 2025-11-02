@@ -141,6 +141,16 @@ Successful Tests:
     LinkFile: "🤔 Prompt.md"
     Reasons: This is hardcoded.
 
+  - Given: "{{Role}}"
+    LinkText: "Role 🎭"
+    LinkFile: "👥🎭 Domain Role.md"
+    Reasons: This is hardcoded.
+
+  - Given: "{{Roles}}"
+    LinkText: "Roles 🎭"
+    LinkFile: "👥🎭 Domain Role.md"
+    Reasons: This is hardcoded.
+
   - Given: "{{Script}}"
     LinkText: "Script 📃"
     LinkFile: "Script 📃.md"

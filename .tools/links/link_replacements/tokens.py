@@ -227,6 +227,20 @@ def replace_talkers_helper_tokens(md_files):
     return _replace_simple(md_files, pattern, '[Talker 😃 helper domains](<😃🤲 Talker helper.md>)')
 
 
+# Hardcoded Role token
+ROLE_REPLACEMENT = "[Role 🎭](<👥🎭 Domain Role.md>)"
+@register_hardcoded("role", replacement=ROLE_REPLACEMENT, token_label="Role")
+def replace_role_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Role`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, ROLE_REPLACEMENT)
+
+
+@register_hardcoded("roles", replacement='[Roles 🎭](<👥🎭 Domain Role.md>)', token_label="Roles")
+def replace_roles_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Roles`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, '[Roles 🎭](<👥🎭 Domain Role.md>)')
+
+
 # Hardcoded Async Message(s) tokens
 ASYNC_MESSAGES_REPLACEMENT = "[Async Messages 🐌](<Async Messages 🐌.md>)"
 @register_hardcoded("asyncmessages", replacement=ASYNC_MESSAGES_REPLACEMENT, token_label="Async Messages")

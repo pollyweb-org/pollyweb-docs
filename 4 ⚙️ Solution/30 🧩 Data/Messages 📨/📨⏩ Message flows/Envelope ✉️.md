@@ -88,7 +88,7 @@
 
     An NLWeb envelop contains a `Subject` that identifies how the receiver should handle the message:
     - e.g., `Hello@Host` refers to the [Hello 🐌 method](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>) in the [Host 🤗 domain role](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>).
-    - The possible `Subject` values are defined by the APIs implemented by [domain Roles 🎭](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>).
+    - The possible `Subject` values are defined by the APIs implemented by [Roles 🎭](<../../../40 👥 Domains/👥 Domain/👥🎭 Domain Role.md>).
     - Receivers discard envelopes with unexpected subjects.
 
     ---
