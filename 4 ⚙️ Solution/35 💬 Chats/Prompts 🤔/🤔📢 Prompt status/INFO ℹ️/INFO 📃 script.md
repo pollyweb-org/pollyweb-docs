@@ -24,7 +24,7 @@
 
 # Set the emoji
 - CASE|$.Chat.Role >> $emoji:
-    AGENT: ⓘ
+    VAULT: ⓘ
     $: ℹ️ 
 
 # The the message

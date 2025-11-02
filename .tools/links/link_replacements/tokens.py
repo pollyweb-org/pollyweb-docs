@@ -293,6 +293,14 @@ def replace_vault_tokens(md_files):
     return _replace_simple(md_files, pattern, replacement)
 
 
+# Hardcoded Agent token
+AGENT_REPLACEMENT = "[Agent 🫥 vault](<🫥🗄️ Agent vault.md>)"
+@register_hardcoded("agent", replacement=AGENT_REPLACEMENT, token_label="Agent")
+def replace_agent_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Agent`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, AGENT_REPLACEMENT)
+
+
 # Hardcoded Prompt(s) tokens
 PROMPT_REPLACEMENT = "[Prompt 🤔](<🤔 Prompt.md>)"
 @register_hardcoded("prompt", replacement=PROMPT_REPLACEMENT, token_label="Prompt")

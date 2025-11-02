@@ -39,15 +39,11 @@ Failed Tests:
 
 Successful Tests:
 
-  # [`Prompt`](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>)
-  - Given: "{{Prompt}}"
-    LinkText: "Prompt 🤔"
-    LinkFile: "🤔 Prompt.md"
-    Reasons: This is hardcoded.
+  HARDCODED:
 
-  - Given: "{{Prompts}}"
-    LinkText: "Prompts 🤔"
-    LinkFile: "🤔 Prompt.md"
+  - Given: "{{Agent}}"
+    LinkText: "Agent 🫥 vault"
+    LinkFile: "🫥🗄️ Agent vault.md"
     Reasons: This is hardcoded.
 
   - Given: "{{Async Messages}}"
@@ -60,34 +56,29 @@ Successful Tests:
     LinkFile: "Async Messages 🐌.md"
     Reasons: This is hardcoded.
 
-  - Given: "{{Sync Request}}"
-    LinkText: "Sync Request 🚀"
-    LinkFile: "Sync Requests 🚀.md"
+  - Given: '{{Broker}}'
+    LinkText: "Broker 🤵 domain"
+    LinkFile: "🤵 Broker 🤲 helper.md"
     Reasons: This is hardcoded.
 
-  - Given: "{{Sync Requests}}"
-    LinkText: "Sync Requests 🚀"
-    LinkFile: "Sync Requests 🚀.md"
+  - Given: '{{Commands}}'
+    LinkText: "Commands ⌘"
+    LinkFile: "Command ⌘.md"
     Reasons: This is hardcoded.
 
-  - Given: "{{Hoster}}"
-    LinkText: "Hoster ☁️ helper domain"
-    LinkFile: "☁️🤲 Hoster helper.md"
+  - Given: '{{Command}}'
+    LinkText: "Command ⌘"
+    LinkFile: "Command ⌘.md"
     Reasons: This is hardcoded.
 
-  - Given: "{{Hosters}}"
-    LinkText: "Hoster ☁️ helper domains"
-    LinkFile: "☁️🤲 Hoster helper.md"
+  - Given: '{{Consumer}}'
+    LinkText: "Consumer 💼 domain" 
+    LinkFile: "💼🎭 Consumer role.md"
     Reasons: This is hardcoded.
 
-  - Given: "{{Talker}}"
-    LinkText: "Talker 😃 helper domain"
-    LinkFile: "😃🤲 Talker helper.md"
-    Reasons: This is hardcoded.
-
-  - Given: "{{Talkers}}"
-    LinkText: "Talker 😃 helper domains"
-    LinkFile: "😃🤲 Talker helper.md"
+  - Given: '{{Consumers}}'
+    LinkText: "Consumer 💼 domains" 
+    LinkFile: "💼🎭 Consumer role.md"
     Reasons: This is hardcoded.
 
   - Given: "{{Helper}}"
@@ -110,6 +101,81 @@ Successful Tests:
     LinkFile: "Holder 🧠.md"
     Reasons: This is hardcoded.
 
+  - Given: '{{Host}}'
+    LinkText: "Host 🤗 domain"
+    LinkFile: "🤗🎭 Host role.md"
+    Reasons: This is hardcoded.
+
+  - Given: '{{Hosts}}'
+    LinkText: "Host 🤗 domains"
+    LinkFile: "🤗🎭 Host role.md"
+    Reasons: This is hardcoded.
+
+  - Given: '{{Hosted}}'
+    LinkText: "Hosted 📦 domain" 
+    LinkFile: "📦👥 Hosted domain.md"
+    Reasons: This is hardcoded.
+
+  - Given: '{{Hosteds}}'
+    LinkText: "Hosted 📦 domains" 
+    LinkFile: "📦👥 Hosted domain.md"
+    Reasons: This is hardcoded.
+
+  - Given: "{{Hoster}}"
+    LinkText: "Hoster ☁️ helper domain"
+    LinkFile: "☁️🤲 Hoster helper.md"
+    Reasons: This is hardcoded.
+
+  - Given: "{{Hosters}}"
+    LinkText: "Hoster ☁️ helper domains"
+    LinkFile: "☁️🤲 Hoster helper.md"
+    Reasons: This is hardcoded.
+
+  - Given: "{{Prompt}}"
+    LinkText: "Prompt 🤔"
+    LinkFile: "🤔 Prompt.md"
+    Reasons: This is hardcoded.
+
+  - Given: "{{Prompts}}"
+    LinkText: "Prompts 🤔"
+    LinkFile: "🤔 Prompt.md"
+    Reasons: This is hardcoded.
+
+  - Given: "{{Script}}"
+    LinkText: "Script 📃"
+    LinkFile: "Script 📃.md"
+    Reasons: This is hardcoded.
+
+  - Given: "{{Scripts}}"
+    LinkText: "Scripts 📃"
+    LinkFile: "Script 📃.md"
+    Reasons: This is hardcoded.
+
+  - Given: "{{Seller}}"
+    LinkText: "Seller 🎭 domain"
+    LinkFile: "💵🎭 Seller role.md"
+    Reasons: This is hardcoded.
+
+  - Given: "{{Sync Request}}"
+    LinkText: "Sync Request 🚀"
+    LinkFile: "Sync Requests 🚀.md"
+    Reasons: This is hardcoded.
+
+  - Given: "{{Sync Requests}}"
+    LinkText: "Sync Requests 🚀"
+    LinkFile: "Sync Requests 🚀.md"
+    Reasons: This is hardcoded.
+
+  - Given: "{{Talker}}"
+    LinkText: "Talker 😃 helper domain"
+    LinkFile: "😃🤲 Talker helper.md"
+    Reasons: This is hardcoded.
+
+  - Given: "{{Talkers}}"
+    LinkText: "Talker 😃 helper domains"
+    LinkFile: "😃🤲 Talker helper.md"
+    Reasons: This is hardcoded.
+
   - Given: '{{Trust}}'
     LinkText: "Trust 🫡"
     LinkFile: "🫡 Domain Trust.md"
@@ -119,6 +185,28 @@ Successful Tests:
     LinkText: "Trusted 🫡"
     LinkFile: "🫡 Domain Trust.md"
     Reasons: This is hardcoded.
+
+  - Given: '{{Vault}}'
+    LinkText: "Vault 🗄️ domain" 
+    LinkFile: "🗄️🎭 Vault role.md"
+    Reasons: This is hardcoded.
+
+  - Given: '{{Vaults}}'
+    LinkText: "Vault 🗄️ domains" 
+    LinkFile: "🗄️🎭 Vault role.md"
+    Reasons: This is hardcoded.
+
+  - Given: '{{Wallet}}'
+    LinkText: "Wallet 🧑‍🦰 app" 
+    LinkFile: "🧑‍🦰 Wallet 🛠️ app.md"
+    Reasons: This is hardcoded.
+
+  - Given: '{{Wallets}}'
+    LinkText: "Wallet 🧑‍🦰 apps" 
+    LinkFile: "🧑‍🦰 Wallet 🛠️ app.md"
+    Reasons: This is hardcoded.
+
+  HOLDERS 🧠:
 
   - Given: '{{$.Msg}}'
     LinkText: "`$.Msg` 🧠 holder"
@@ -142,6 +230,8 @@ Successful Tests:
     LinkFile: "▶️ $.Inputs 🧠 holder.md"
     Reasons: Same as {{$.Msg}}.
 
+  SCRIPTS 📃:
+
   - Given: '{{CHAT script}}'
     LinkText: "`CHAT` 📃 script"
     LinkFile: '💬 CHAT 📃 script.md'
@@ -151,6 +241,19 @@ Successful Tests:
       the file is called `?📃*WORD* script.md`
       containing the emoji "📃"
       or the file is called `WORD 📃 script.md`.
+
+  HANDLERS 📃:
+
+  - Given: "{{Assess handler}}"
+    LinkText: "`Assess` 📃 handler"
+    LinkFile: '🤵 Assess 📃 handler.md'
+    Reasons: 
+      For `{{WORD handler}}`,
+      where the string ends with the word `handler`,
+      the file contains the emoji "📃",
+      the file is called `*WORD* handler.md`.
+
+  TRIGGERS 🔔:
 
   - Given: '{{Triggered@Alarm}}'
     LinkText: "`Triggered@Alarm` 🔔 event"
@@ -162,6 +265,7 @@ Successful Tests:
       and in a folder called `*Y*events*`
       or is in a subfolder of such folder.
 
+  COMMANDS ⌘:
 
   - Given: "{{RETURN}}"
     LinkText: "`RETURN`"
@@ -189,84 +293,7 @@ Successful Tests:
     LinkFile: "🧲 GET ⌘ cmd.md"
     Reasons: same as {{RETURN}}.
 
-  - Given: "{{Script}}"
-    LinkText: "Script 📃"
-    LinkFile: "Script 📃.md"
-    Reasons: This is hardcoded.
-
-  - Given: "{{Scripts}}"
-    LinkText: "Scripts 📃"
-    LinkFile: "Script 📃.md"
-    Reasons: This is hardcoded.
-
-  - Given: '{{Wallet}}'
-    LinkText: "Wallet 🧑‍🦰 app" 
-    LinkFile: "🧑‍🦰 Wallet 🛠️ app.md"
-    Reasons: This is hardcoded.
-
-  - Given: '{{Wallets}}'
-    LinkText: "Wallet 🧑‍🦰 apps" 
-    LinkFile: "🧑‍🦰 Wallet 🛠️ app.md"
-    Reasons: This is hardcoded.
-
-  - Given: '{{Hosted}}'
-    LinkText: "Hosted 📦 domain" 
-    LinkFile: "📦👥 Hosted domain.md"
-    Reasons: This is hardcoded.
-
-  - Given: '{{Hosteds}}'
-    LinkText: "Hosted 📦 domains" 
-    LinkFile: "📦👥 Hosted domain.md"
-    Reasons: This is hardcoded.
-
-  - Given: '{{Vault}}'
-    LinkText: "Vault 🗄️ domain" 
-    LinkFile: "🗄️🎭 Vault role.md"
-    Reasons: This is hardcoded.
-
-  - Given: '{{Vaults}}'
-    LinkText: "Vault 🗄️ domains" 
-    LinkFile: "🗄️🎭 Vault role.md"
-    Reasons: This is hardcoded.
-
-  - Given: '{{Consumer}}'
-    LinkText: "Consumer 💼 domain" 
-    LinkFile: "💼🎭 Consumer role.md"
-    Reasons: This is hardcoded.
-
-  - Given: '{{Consumers}}'
-    LinkText: "Consumer 💼 domains" 
-    LinkFile: "💼🎭 Consumer role.md"
-    Reasons: This is hardcoded.
-
-  - Given: '{{Host}}'
-    LinkText: "Host 🤗 domain"
-    LinkFile: "🤗🎭 Host role.md"
-    Reasons: This is hardcoded.
-
-  - Given: '{{Hosts}}'
-    LinkText: "Host 🤗 domains"
-    LinkFile: "🤗🎭 Host role.md"
-    Reasons: This is hardcoded.
-
-  - Given: '{{Broker}}'
-    LinkText: "Broker 🤵 domain"
-    LinkFile: "🤵 Broker 🤲 helper.md"
-    Reasons: This is hardcoded.
-
-  - Given: "{{Sync Requests}}"
-    LinkText: "`Sync Requests`"
-    LinkFile: "Sync Requests 🚀.md"
-    Reasons: |
-      Given that none of the reasons above apply,
-      for a given string with multiple words,
-      the file is called `*word1*word2*...*word-n*.md`
-    
-  - Given: "{{Seller}}"
-    LinkText: "Seller 🎭 domain"
-    LinkFile: "💵🎭 Seller role.md"
-    Reasons: This is hardcoded.
-
+  FUNCTIONS:
 
   - Given: '{{{.UUID}}}'
     LinkText: "`{.UUID}`"
@@ -274,15 +301,7 @@ Successful Tests:
     Reasons: |
       same as "{{Request Sync}}"
 
-  - Given: '{{Commands}}'
-    LinkText: "Commands ⌘"
-    LinkFile: "Command ⌘.md"
-    Reasons: This is hardcoded.
-
-  - Given: '{{Command}}'
-    LinkText: "Command ⌘"
-    LinkFile: "Command ⌘.md"
-    Reasons: This is hardcoded.
+  TABLES 🪣:
 
   - Given: '{{TalkerHooks table}}' 
     LinkText: '`TalkerHooks` 🪣 table'
@@ -302,6 +321,8 @@ Successful Tests:
     LinkFile: '🤵 BrokerChats 🪣 table.md'
     Reasons: same as {{TalkerHooks table}}.
 
+  FLOWS ⏩:
+
   - Given: "{{Consume flow}}"
     LinkText: "`Consume` ⏩ flow"
     LinkFile: '🗄️ Consume ⏩ flow.md'
@@ -310,15 +331,7 @@ Successful Tests:
       the file name contains the emoji "⏩",
       and the file name ends with "flow.md".
 
-  - Given: "{{Assess handler}}"
-    LinkText: "`Assess` 📃 handler"
-    LinkFile: '🤵 Assess 📃 handler.md'
-    Reasons: 
-      For `{{WORD handler}}`,
-      where the string ends with the word `handler`,
-      the file contains the emoji "📃",
-      the file is called `*WORD* handler.md`.
-
+  METHODS 🅰️:
 
   - Given: '{{Parse@Hosted}}'
     LinkText: "`Parse@Hosted` 🅰️ method"
@@ -368,3 +381,14 @@ Successful Tests:
     LinkText: "`Disclose@Vault` 🅰️ method"
     LinkFile: '🗄️ Disclose 🐌 msg.md'
     Reasons: same as "{{Parse@Hosted}}"
+
+  GENERAL:
+
+  - Given: "{{Sync Requests}}"
+    LinkText: "`Sync Requests`"
+    LinkFile: "Sync Requests 🚀.md"
+    Reasons: |
+      Given that none of the reasons above apply,
+      for a given string with multiple words,
+      the file is called `*word1*word2*...*word-n*.md`
+    

@@ -27,22 +27,22 @@
 
     INFO: 
         CASE|$:Role:
-            AGENT: RETURN|ⓘ
+            VAULT: RETURN|ⓘ
             $: RETURN|ℹ️
 
     SUCCESS: 
         CASE|$:Role:
-            AGENT: RETURN|☑️
+            VAULT: RETURN|☑️
             $: RETURN|✅
 
     TEXT:
         CASE|$:Role:
-            AGENT: RETURN|💭
+            VAULT: RETURN|💭
             $: RETURN|💬
 
     $: 
         # Agents always ask with 🫥
-        - IF|$:Role.Is(AGENT):
+        - IF|$:Role.Is(VAULT):
             RETURN|🫥
 
 # Default emoji
