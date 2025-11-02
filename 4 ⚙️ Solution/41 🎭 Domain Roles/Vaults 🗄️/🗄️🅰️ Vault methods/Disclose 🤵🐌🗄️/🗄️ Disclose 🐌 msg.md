@@ -25,7 +25,7 @@ Header:
     
 Body:
     Chat: <chat-uuid>
-    Consumer: any-coffee-shop.com
+    Consumer: any-coffee-shop.dom
     Language: en-us
     Bind: <bind-uuid>
 ```

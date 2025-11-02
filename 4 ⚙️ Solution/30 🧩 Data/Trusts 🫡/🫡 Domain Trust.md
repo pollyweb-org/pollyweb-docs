@@ -72,11 +72,11 @@
 
         - Query: iata.org/SSR/*   
           Domains:
-            - flytap.com           # TAP Air Portugal
-            - ba.com               # British Airways
+            - flytap.dom           # TAP Air Portugal
+            - ba.dom               # British Airways
         ```
     
-    * British Airways `ba.com` can now send SSR requests to the U.S. Government because IATA is bridging the relationship.
+    * British Airways `ba.dom` can now send SSR requests to the U.S. Government because IATA is bridging the relationship.
 
     ---
     <br/>
@@ -108,13 +108,13 @@
         ```yaml
         # 📜 any-nation.dom
         - Action: REVOKE
-          Domain: sanctioned-domain.com
+          Domain: sanctioned-domain.dom
         ```
 
         ```yaml
         # 📜 any-domain.dom
-        - Domain: any-nation.com
-        - Domain: sanctioned-domain.com
+        - Domain: any-nation.dom
+        - Domain: sanctioned-domain.dom
         ```
 
     ---
@@ -133,9 +133,9 @@
     e.g., the [U.S. Department of Health & Human Services 📜](<../../../8 📜 Manifests/🌐 Vaults/📜 hhs.gov.md>) blocks whoever the [US Government 📜](<../../../8 📜 Manifests/👥 usa.gov/📜 usa.gov.md>) blocks.
 
     ```yaml
-    # 📜 usa.gov blocks sanctioned-domain.com
+    # 📜 usa.gov blocks sanctioned-domain.dom
     - Action: REVOKE
-      Domain: sanctioned-domain.com
+      Domain: sanctioned-domain.dom
     ```
 
     ```yaml
@@ -194,19 +194,19 @@
     Consider the following manifests.
 
     ```yaml
-    # 📜 bank-of-nation-1.com
+    # 📜 bank-of-nation-1.dom
     - Domain: nation-1.org
     ```
     ```yaml
-    # 📜 bank-of-nation-2.com
+    # 📜 bank-of-nation-2.dom
     - Domain: nation-2.org
     ```
     ```yaml
-    # 📜 nation-1.com 
+    # 📜 nation-1.dom 
     - Domain: nation-2.org # trusts the 2nd nation.
     ```
     ```yaml
-    # 📜 nation-2.com 
+    # 📜 nation-2.dom 
     - Domain: nation-1.org # trusts the 1st nation.
     ```
     `any-graph.dom` may monitor changes in the existing [Trust 🫡](<🫡 Domain Trust.md>) path between the two banks, checking for changes like:

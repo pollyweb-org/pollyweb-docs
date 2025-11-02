@@ -11,10 +11,11 @@
 
 # Assert the inputs
 - ASSERT|$.Msg:
-    AllOf: Chat, Host, Language
+    AllOf: Chat, Host, Language, Reviewers
     UUIDs: Chat
-    Texts: Host, Language
+    Texts: Host, Language, Reviewers
 
+# Get the details about the domain
 - PARALLEL|Identity,Translate,Reviews|$task:
     CASE|$task:
 
@@ -38,16 +39,20 @@
         Reviews:
             SEND >> $reviews:
                 Header:
-                    To: $.Hos
+                    To: $.Msg.Reviewer
+                    Subject: Reviews@Reviewer
+                Body:
+                    Language: $.Msg.Language
+                    Domain: $.Msg.Host$
 
 # Send the Prompt
-- INFO|Any Host (4.3 ⭐):
-This host sells shoes.
-- They were founded in 1987.
-- Joined NLWeb 2 years ago.
-User feedback:
-- Delivery 4.7⭐ by 357 users
-- Support 3.5⭐ by 21 users
+- INFO:
+    Text:   
+        {$translation.Domain} 
+        ({$reviews.Rating} ⭐)
+    Details: |
+        {$reviews.Description}
+        {$identity.Description}
 
 # Inform the Broker
 - SEND:
@@ -57,3 +62,9 @@ User feedback:
     Body:
         Chat: $.Msg.Chat
 ```
+
+Needs||
+|-|-
+| [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Command ⌘.md>) | 
+| [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Identity@Graph` 🅰️ method](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Identity.md>) <br/> [`Translate@Graph` 🅰️ method](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>) <br/> [`Reviews@Reviewer` 🅰️ method](<../../../Reviewers ⭐/⭐🅰️ Reviewer methods/🔎🚀⭐ Reviews.md>)
+|

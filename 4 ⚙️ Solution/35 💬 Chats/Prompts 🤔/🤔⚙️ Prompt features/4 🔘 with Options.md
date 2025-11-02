@@ -212,7 +212,7 @@
 
     The option with `§` 
     * opens a new [Chat 💬](<../../Chats 💬/💬 Chat.md>)
-    * using the [Locator 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) `any-artist.com/FANS`
+    * using the [Locator 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) `any-artist.dom/FANS`
 
     <br/>
 
@@ -229,7 +229,7 @@
         Options:
             - /Play music 
             - /Share list
-            - /Speak with singer § .HOST,any-artist.com,fans
+            - /Speak with singer § .HOST,any-artist.dom,fans
 
     # Check the answer.
     - CASE: 
@@ -261,7 +261,7 @@
           Title: Share list
         - ID: Speak                     
           Title: Speak with singer
-          Locator: .HOST,any-artist.com,fans
+          Locator: .HOST,any-artist.dom,fans
     ```
 
     ---

@@ -27,7 +27,7 @@ Header:
 Body:
     Wallet: <wallet-uuid>
     Chat: <chat-uuid>
-    Sender: any-agent.com
+    Sender: any-agent.dom
     Hook: <hook-uuid>
     Format: CONFIRM
     Emoji: 😃

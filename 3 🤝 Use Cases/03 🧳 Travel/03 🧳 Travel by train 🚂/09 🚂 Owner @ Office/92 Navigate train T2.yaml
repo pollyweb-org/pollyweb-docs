@@ -19,7 +19,7 @@ Signs:
   TG: 
     Name: terminal gates 🐯
     Jumps:
-      any-airport.com/T2/AE: 
+      any-airport.dom/T2/AE: 
         Default: 
           Steps: [ cross the gate to AE 🐊 ]
           Duration: 00:01

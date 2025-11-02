@@ -45,7 +45,7 @@ The corresponding [Script 📃](<../../../35 💬 Chats/Scripts 📃/📃 basics
 - BIND|.VAULT               # Bind to Wallet
 
 - INVITE >> $billed:        
-    Invitee: any-biller.com # Invite the Biller
+    Invitee: any-biller.dom # Invite the Biller
     Schema: .BILLER/SUBSCRIBE # Run the subscription
 
 - FREEZE >> $inputs:        # Freeze all inputs

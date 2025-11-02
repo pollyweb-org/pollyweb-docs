@@ -2,7 +2,7 @@ Personas:
 
   🧑‍🦰 personal:
   
-    Picture: any-persona.com/picture=AeIg1RHiTX9
+    Picture: any-persona.dom/picture=AeIg1RHiTX9
     Headline: Love hiking & coffee ☕🌿
     Bio: >
       Curious mind, adventure seeker, and lifelong learner. 
@@ -13,7 +13,7 @@ Personas:
 
   💼 work: 
 
-    Picture: "https://any-social.com/aliceparker/profilepic.jpg"
+    Picture: "https://any-social.dom/aliceparker/profilepic.jpg"
     Headline: Tech enthusiast | AI & Cloud Specialist | Public Speaker | Love hiking & coffee ☕🌿
     Bio: >
       Passionate and results-driven software engineer with over 10 years of experience in cloud computing, AI, and distributed systems. 
@@ -53,7 +53,7 @@ Languages:
 Work:
 
   - Company: Google
-    Domain: google.com
+    Domain: google.dom
     Locator: employees.google.com/_p47B2ZcXqx
     Role: Senior Software Engineer
     Location: London, United Kingdom
@@ -102,7 +102,7 @@ Certifications:
     Date: "2023-06"
     
   - Title: Google Professional Cloud Architect
-    Locator: cloud.google.com/certificate=ssiN1a8rH6n
+    Locator: cloud.google.dom/certificate=ssiN1a8rH6n
     Entity: Google Cloud
     Date: "2022-09"
     
@@ -168,15 +168,15 @@ Recommendations:
   Authorize: 
 
     - Name: Aisha Khaled
-      Locator: any-persona.com/persona=SOomiOb4GSw
+      Locator: any-persona.dom/persona=SOomiOb4GSw
 
     - Name: Daniel Lee
-      Locator: any-persona.com/persona=mHmFnvb_1or
+      Locator: any-persona.dom/persona=mHmFnvb_1or
 
   Share: 
 
     - Name: Aisha Khaled
-      Locator: any-persona.com/persona=SOomiOb4GSw
+      Locator: any-persona.dom/persona=SOomiOb4GSw
       Relationship: Mentee in Women in Tech Program
       Year: 2024
       Recommendation: >
@@ -185,7 +185,7 @@ Recommendations:
         a great team player who uplifts those around her. She has a bright future ahead!
 
     - Name: Sofia Petrova
-      Locator: any-persona.com/persona=ClsHh9ds_p
+      Locator: any-persona.dom/persona=ClsHh9ds_p
       Relationship: Project Collaborator on Open Source Initiative
       Year: 2022
       Recommendation: >

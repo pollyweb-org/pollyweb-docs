@@ -91,10 +91,10 @@
     || [🇮🇹 Italian Government](<../../../../8 📜 Manifests/👥 Authorities/📜 governo.it.md>) 
     | `🤲 Helper domains` | [🔥 Any Firewall](<../../../../8 📜 Manifests/🌐 Backbone/📜 any-firewall.dom.md>)
     || [🕸️ Any Graph](<../../../../8 📜 Manifests/🌐 Backbone/📜 any-graph.dom.md>)
-    || [🕸️🇪🇺 Graph of European Union](<../../../../8 📜 Manifests/🌐 Backbone/📜 graph.amazon.com.md>)
-    || [🕸️☁️ Amazon Graph](<../../../../8 📜 Manifests/🌐 Backbone/📜 graph.amazon.com.md>)
+    || [🕸️🇪🇺 Graph of European Union](<../../../../8 📜 Manifests/🌐 Backbone/📜 graph.amazon.dom.md>)
+    || [🕸️☁️ Amazon Graph](<../../../../8 📜 Manifests/🌐 Backbone/📜 graph.amazon.dom.md>)
     || [👂 Any Listener](<../../../../8 📜 Manifests/🌐 Backbone/📜 any-listener.dom.md>)
-    || [👂☁️ Amazon Listener](<../../../../8 📜 Manifests/🌐 Backbone/📜 listener.amazon.com.md>)
+    || [👂☁️ Amazon Listener](<../../../../8 📜 Manifests/🌐 Backbone/📜 listener.amazon.dom.md>)
     |`👱 Wallet domains`|  [🤵 Any Broker](<../../../../8 📜 Manifests/🌐 Brokers/📜 any-broker.dom.md>)
     || [📣 Any Wallet Notifier](<../../../../8 📜 Manifests/🌐 Brokers/📜 any-notifier.dom.md>)
 

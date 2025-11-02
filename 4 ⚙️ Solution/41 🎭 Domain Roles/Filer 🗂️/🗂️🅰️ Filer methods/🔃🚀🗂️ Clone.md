@@ -13,7 +13,7 @@
 ```yaml
 Header:
     From: Anonymous
-    To: any-filer.com
+    To: any-filer.dom
     Subject: Clone@Filer
     
 Body:
@@ -37,7 +37,7 @@ Body:
 ## Synchronous Response
 
 ```yaml
-Filer: any-filer.com
+Filer: any-filer.dom
 Clone: <clone-uuid>
 Hash: SHA-256
 ```

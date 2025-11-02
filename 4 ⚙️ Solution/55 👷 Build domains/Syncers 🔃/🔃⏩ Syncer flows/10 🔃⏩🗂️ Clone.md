@@ -9,12 +9,12 @@
 | [Domain](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 |-|-|-|
 | [🗂️ Filer](<../../../41 🎭 Domain Roles/Filer 🗂️/🗂️🎭 Filer role.md>) | 😃 Hi! What do you need? <br/>- [ Clone ] resources  | > Clone | 
-| [🗂️ Filer](<../../../41 🎭 Domain Roles/Filer 🗂️/🗂️🎭 Filer role.md>) | ℹ️ Clone with: `syncer \`<br/>`clone any-r.com 12345`
+| [🗂️ Filer](<../../../41 🎭 Domain Roles/Filer 🗂️/🗂️🎭 Filer role.md>) | ℹ️ Clone with: `syncer \`<br/>`clone any-r.dom 12345`
 | [🗂️ Filer](<../../../41 🎭 Domain Roles/Filer 🗂️/🗂️🎭 Filer role.md>) | ⏳ Waiting for one minute...
 
 ```yaml
 # Run on the console
-$ syncer clone any-r.com 12345
+$ syncer clone any-r.dom 12345
 > Confirm with code 67890
 ```
 

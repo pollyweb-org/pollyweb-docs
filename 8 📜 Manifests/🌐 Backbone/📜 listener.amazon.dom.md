@@ -6,6 +6,6 @@
 🤝: nlweb.dom/MANIFEST
 
 About:
-  Domain: listener.amazon.com
+  Domain: listener.amazon.dom
   Name: Amazon Listener
   

@@ -10,6 +10,6 @@ TODO: Add the Flow to the manifest.
 
 ```yaml
 About:
-    Domain: any-vending.com
+    Domain: any-vending.dom
     Name: Any Vending
 ```

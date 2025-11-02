@@ -20,7 +20,7 @@
     | # |  Step
     |-|-
     | 1 | As a pre-condition for sending messages, a sender needs to generate a an asymmetric key-pair, then register the public key of the key-pair in its DNS record following the [DKIM 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) protocol used by e-mail servers.
-    | 2 | When sending a message, the sender wraps the message in an JSON envelope, signs the envelope with the private key of the mentioned key-pair, and sends the signed message via HTTPS POST to the receiver's well-known inbox API endpoint (e.g., `https://nlweb.any-receiver.com/inbox`). 
+    | 2 | When sending a message, the sender wraps the message in an JSON envelope, signs the envelope with the private key of the mentioned key-pair, and sends the signed message via HTTPS POST to the receiver's well-known inbox API endpoint (e.g., `https://nlweb.any-receiver.dom/inbox`). 
     | 3 | When receiving the signed message, the receiver reads the public key from the sender's [DKIM 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>), confirms if the sender is using DNSSEC, and confirms if the message's signature matches the sender's public key.
 
 

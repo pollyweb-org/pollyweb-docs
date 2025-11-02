@@ -21,8 +21,8 @@ Trusts:
   - Query: nlweb.dom/BANK/*
     Domains: 
       # American banks
-      - bankofamerica.com
-      - capitalone.com
-      - jpmorganchase.com
+      - bankofamerica.dom
+      - capitalone.dom
+      - jpmorganchase.dom
       # Other countries
       - europa.eu # EU-regulated finantial entities.

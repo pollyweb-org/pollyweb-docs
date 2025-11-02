@@ -15,7 +15,7 @@
 ```yaml
 Header:
    From: any-payer.dom
-   To: collector.com
+   To: collector.dom
    Subject: Collect@Collector
    
 Body:

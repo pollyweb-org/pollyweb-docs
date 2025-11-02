@@ -31,7 +31,7 @@ Trusts:
     Domains:
       - airline.any-business.dom
       - airport.any-nation.dom
-      - flytap.com
+      - flytap.dom
     
 
   # Request SSR info from UN countries.
@@ -46,7 +46,7 @@ Trusts:
     Domains:
       - airline.any-business.dom
       - airport.any-nation.dom
-      - flytap.com
+      - flytap.dom
       
 
   # Protect from malicious domains.

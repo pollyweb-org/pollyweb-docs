@@ -36,7 +36,7 @@ The associated [`Script`](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Sc
 ```yaml
 - INFO|I'll ask my Helper for a random number.
 - INVITE >> $number:
-    Invitee: host-b.com
+    Invitee: host-b.dom
     Schema: any-authority.org/RANDOM-NUMBER
 - INFO|{number}, got it! Thanks, Any Helper!  
 ```
