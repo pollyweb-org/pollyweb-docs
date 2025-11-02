@@ -1,7 +1,7 @@
 # 🧑‍🦰🐌🤵 Join @ Broker
 
 > Purpose: 
-* Asks the [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) 
+* Asks the [Broker 🤵 domain](<../../🤵 Broker helper/🤵🤲 Broker helper.md>) 
     * to join a [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) to help.
 
 > Used in:
@@ -17,7 +17,7 @@
 ...
 | 🤗 [Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | 😃 Continue [Yes, No] 
 | | | > Broker 🤵 |
-| 🤵 [Broker](<../../🤵🤲 Broker helper.md>) | 🫥 What do you need? <br/> - [ Home ] menu  <br/> - [ Abandon ] Chat <br/> - [ Something else ] 
+| 🤵 [Broker](<../../🤵 Broker helper/🤵🤲 Broker helper.md>) | 🫥 What do you need? <br/> - [ Home ] menu  <br/> - [ Abandon ] Chat <br/> - [ Something else ] 
 |
 
 <br/>
@@ -42,7 +42,7 @@ Body:
 | Object | Property | Type |Description|Origin
 |-|-|-|-|-
 | Header |`From`|domain| [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  | [`Onboard@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
-||`To`|domain| [Broker 🤵](<../../🤵🤲 Broker helper.md>) | [`Onboard@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
+||`To`|domain| [Broker 🤵](<../../🤵 Broker helper/🤵🤲 Broker helper.md>) | [`Onboard@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
 || `Subject` | string | `Join@Broker`
 | Body | `Chat`  | uuid   | [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)  | [`Converse@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Converse 🤵🐌📣/📣 Converse 📣 msg.md>)
 |

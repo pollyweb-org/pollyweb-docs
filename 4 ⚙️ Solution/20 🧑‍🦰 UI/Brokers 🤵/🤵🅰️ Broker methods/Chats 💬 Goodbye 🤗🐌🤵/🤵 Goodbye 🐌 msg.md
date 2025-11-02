@@ -10,7 +10,7 @@
 > Purpose
 
 * The [Host 🤗 domain](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) 
-    * informs the [user's Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) 
+    * informs the [user's Broker 🤵 domain](<../../🤵 Broker helper/🤵🤲 Broker helper.md>) 
     * of the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ending.
 
 > Used in
@@ -34,7 +34,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 |Header|`From`|domain| [Host 🤗 domain](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)
-||`To`|string  | [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>)
+||`To`|string  | [Broker 🤵 domain](<../../🤵 Broker helper/🤵🤲 Broker helper.md>)
 ||`Subject` | string | `Goodbye@Broker`
 |Body|`Chat`   | uuid    | ID of the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) 
 |

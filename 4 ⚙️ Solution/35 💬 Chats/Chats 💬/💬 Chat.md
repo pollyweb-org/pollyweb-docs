@@ -18,8 +18,8 @@
     |-|-
     |[🤗 Host](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | Leads the [Chat 💬](<💬 Chat.md>), always asking first.
     |[🧑‍🦰 Wallet](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) | Held by the user, replies directly to the [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>).
-    |[🤵 Broker](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | Intermediates the conversation, receiving the Host's messages and forwarding them to the [Notifier 📣 domain](<../../20 🧑‍🦰 UI/Notifiers 📣/📣👥 Notifier domain.md>).
-    |[📣 Notifier](<../../20 🧑‍🦰 UI/Notifiers 📣/📣👥 Notifier domain.md>) | Implements the mobile push notifications, receiving the messages from the [Broker 🤵 domain](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) and forwarding them to the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
+    |[🤵 Broker](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>) | Intermediates the conversation, receiving the Host's messages and forwarding them to the [Notifier 📣 domain](<../../20 🧑‍🦰 UI/Notifiers 📣/📣👥 Notifier domain.md>).
+    |[📣 Notifier](<../../20 🧑‍🦰 UI/Notifiers 📣/📣👥 Notifier domain.md>) | Implements the mobile push notifications, receiving the messages from the [Broker 🤵 domain](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>) and forwarding them to the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
 
     ---
     <br/>

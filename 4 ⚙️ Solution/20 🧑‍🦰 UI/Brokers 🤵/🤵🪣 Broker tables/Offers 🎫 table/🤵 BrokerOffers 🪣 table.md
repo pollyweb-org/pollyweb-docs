@@ -1,6 +1,6 @@
 # 🤵🪣 Offers @ Broker table
 
-> Implements the [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>)
+> Implements the [Broker 🤵 domain](<../../🤵 Broker helper/🤵🤲 Broker helper.md>)
 
 > Purpose
 * Stores [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
@@ -46,4 +46,4 @@ Schema: any-authority.dom/ANY-SCHEMA:1.0
 |Property|Type|Description
 |-|-|-
 | `Issuer` | string | [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>)
-| `Token`| uuid | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) ID on the [Broker 🤵](<../../🤵🤲 Broker helper.md>)
+| `Token`| uuid | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) ID on the [Broker 🤵](<../../🤵 Broker helper/🤵🤲 Broker helper.md>)
