@@ -28,7 +28,7 @@
 1. **What's an example for files?**
 
 
-    | [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../Prompts 🤔/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+    | [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../Prompts 🤔/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | 💬 [Who is in the picture?](<../../Prompts 🤔/🤔✏️ Prompt inputs/TEXT 🔠/TEXT 🔠 prompt.md>) 🖼️ | `Elvis`
 

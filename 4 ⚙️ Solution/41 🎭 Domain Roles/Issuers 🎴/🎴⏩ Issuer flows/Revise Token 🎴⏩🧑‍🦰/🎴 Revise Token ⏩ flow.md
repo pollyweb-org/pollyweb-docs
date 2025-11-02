@@ -8,7 +8,7 @@
 
 Consider the following Chat excerpt from the [Pass gates at train station 🤝 use case](<../../../../../3 🤝 Use Cases/03 🧳 Travel/03 🧳 Travel by train 🚂/02 🚂 Customer @ Station/22 Pass gates 1 person.md>), where the railway revokes the ticket upon opening the gate.
 
-| [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+| [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
 | | | 🔆 [tap](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>)
 | 🤵 [Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | ⓘ Ticket shared 
@@ -25,6 +25,6 @@ Consider the following Chat excerpt from the [Pass gates at train station 🤝 u
 | # | Call | Notes
 |-|-|-
 1| [🎴🐌🤵 `Revise@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Tokens 🎫 Revise 🎴🐌🤵/🤵 Revise 🐌 msg.md>) | [Issuers 🎴](<../../🎴 Issuer/🎴🎭 Issuer role.md>) ask to revise a [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
-2| [🤵⏩🧑‍🦰 Update Tokens 🎫](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵⏩ Broker flows/Update Tokens 🤵⏩🎫/🤵 Update Tokens ⏩ flow.md>) | [Brokers 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) tell [Wallets 🧑‍🦰](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) to update the list
+2| [🤵⏩🧑‍🦰 Update Tokens 🎫](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵⏩ Broker flows/Update Tokens 🤵⏩🎫/🤵 Update Tokens ⏩ flow.md>) | [Brokers 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) tell [Wallets 🧑‍🦰](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>) to update the list
 3| [🤗⏩🧑‍🦰 Prompt 🤔](<../../../Hosts 🤗/🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | [Brokers 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) tell users about what happened
 |

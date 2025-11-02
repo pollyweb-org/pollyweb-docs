@@ -24,7 +24,7 @@ Parents:
 
 | Link | Table | Contains
 |-|-|-
-| Parent    | [`Wallets` 🪣](<../Wallets 🧑‍🦰 table/🤵 Wallets 🪣 table.md>) | [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+| Parent    | [`Wallets` 🪣](<../Wallets 🧑‍🦰 table/🤵 Wallets 🪣 table.md>) | [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>)
 || [`Domains` 🪣](<../Domains 👥 table/🤵 BrokerDomains 🪣 table.md>) | 
 |
 

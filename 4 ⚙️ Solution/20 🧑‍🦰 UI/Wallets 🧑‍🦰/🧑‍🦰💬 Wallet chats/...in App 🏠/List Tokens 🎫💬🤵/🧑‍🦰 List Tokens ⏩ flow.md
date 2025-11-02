@@ -1,6 +1,6 @@
 # 🧑‍🦰💬🤵 List tokens @ Wallet
 
-> Implements a [Wallet 🧑‍🦰 app](<../../../🧑‍🦰🛠️ Wallet app.md>)
+> Implements a [Wallet 🧑‍🦰 app](<../../../🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>)
 
 
 * List the user's [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
@@ -14,7 +14,7 @@
 
 | # | Call | Notes |
 |-|-|-
-| 1 | [🧑‍🦰🚀🤵 `Tokens@Broker`](<../../../../Brokers 🤵/🤵🅰️ Broker methods/Tokens 🎫 Tokens 🧑‍🦰🚀🤵/🤵 Tokens 🚀 request.md>) | [Wallets 🧑‍🦰](<../../../🧑‍🦰🛠️ Wallet app.md>) get [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) [Brokers 🤵](<../../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+| 1 | [🧑‍🦰🚀🤵 `Tokens@Broker`](<../../../../Brokers 🤵/🤵🅰️ Broker methods/Tokens 🎫 Tokens 🧑‍🦰🚀🤵/🤵 Tokens 🚀 request.md>) | [Wallets 🧑‍🦰](<../../../🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>) get [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) [Brokers 🤵](<../../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>)
 ||
 
 <br/>

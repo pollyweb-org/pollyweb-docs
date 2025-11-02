@@ -5,7 +5,7 @@
 
     A [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) with a [Issuer 🎴 role](<🎴🎭 Issuer role.md>) is any [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) that 
     * issues [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
-    * for users to store on their [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
+    * for users to store on their [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>).
     
     ---
     <br/>
@@ -17,7 +17,7 @@
     | # | Step 
     |-|-
     |1| A user engages in a [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) with a [Host 🤗 domain](<../../Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) with an [Issuer 🎴 role](<🎴🎭 Issuer role.md>).
-    |2| The [Issuer 🎴 domain](<🎴🎭 Issuer role.md>) issues a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) for the user, and the user's [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) asks the user to confirm if they want to save the [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) offline in the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
+    |2| The [Issuer 🎴 domain](<🎴🎭 Issuer role.md>) issues a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) for the user, and the user's [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) asks the user to confirm if they want to save the [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) offline in the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>).
 
     ---
     <br/>
@@ -28,7 +28,7 @@
     Consider the following [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) excerpt from the [Buy Theater Tickets 🤝 use case](<../../../../3 🤝 Use Cases/10 🍿 Entertainment/Go to Theaters 🎭/10 Guest @ Anywhere/12 Buy tickets.md>).
     
     
-    | [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+    | [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
     |...
     | 🎭 Venue   | 😃 Want a ticket? [Yes, No] | > Yes
@@ -59,7 +59,7 @@
     
     * [Issuer 🎴 domains](<🎴🎭 Issuer role.md>) track to what [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) where their [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) issue to, so that they can request the same [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) to suspend or revoke the [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
   
-    * [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) will handle the revocation propagation up to the user's [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
+    * [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) will handle the revocation propagation up to the user's [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>).
 
     * [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) only share active [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) when [Consumer 💼 domains](<../../../50 🫥 Agent domains/Storage 🗃️/🗃️🫥 Storage agent.md>) ask for them in a [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>).
 
@@ -74,7 +74,7 @@
 
     The airport knows what [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) to reach out to, 
     * because the printed QR version of a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) does not contain the Token's content;
-    * instead, the QR presented by [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) contain only a [Locator 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) with the ID of the [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) and the [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) that holds the content and the status of the [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
+    * instead, the QR presented by [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>) contain only a [Locator 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) with the ID of the [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) and the [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) that holds the content and the status of the [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
 
     ---
     <br/>
