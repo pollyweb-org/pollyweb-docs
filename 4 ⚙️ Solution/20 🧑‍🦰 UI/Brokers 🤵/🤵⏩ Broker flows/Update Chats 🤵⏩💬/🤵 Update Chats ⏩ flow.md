@@ -1,8 +1,5 @@
 # 🤵⏩🗄️ Update chats @ Broker
 
-> Implementation
-* Implemented by the [`Update-Chats` 📃 script](<🤵 Update Chats 📃 script.md>)
-
 > Purpose
 
 * Updates the list of [Chats 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) on a [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>).
