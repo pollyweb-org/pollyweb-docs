@@ -9,7 +9,7 @@
 
 > Purpose
 
-* The [Finder 🔎 domain](<../../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎🫥 Finder agent.md>) finished the introduction.
+* The [Finder 🔎 domain](<../../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) finished the introduction.
 
 > Used by 
 
@@ -31,7 +31,7 @@ Body:
 
 |Object|Property|Type|Description|Origin
 |-|-|-|-|-
-| Header |`From`|domain| [Finder 🔎](<../../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎🫥 Finder agent.md>) | [`Introduce@`](<../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/Introduce 🤵🐌🔎/🤵 Introduce 🐌 msg.md>)
+| Header |`From`|domain| [Finder 🔎](<../../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | [`Introduce@`](<../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/Introduce 🤵🐌🔎/🤵 Introduce 🐌 msg.md>)
 |        |`To`|domain| [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)  | [`Introduce@`](<../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/Introduce 🤵🐌🔎/🤵 Introduce 🐌 msg.md>) |
 |        | `Subject` | string | `Introduced@Broker`
 | Body   | `Chat`  | uuid   | [Chat 💬 ID](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) | [`Introduce@`](<../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/Introduce 🤵🐌🔎/🤵 Introduce 🐌 msg.md>)

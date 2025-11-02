@@ -13,7 +13,7 @@ Save intake when not the person that ordered
 | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 💬 How can I help with that? <br> - [ Intake ] in Any Vitalogist 💖 <br/> - [ Something else ] | > Intake
 | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | ✅ Over to Any Vitalogist 💖
 | [ new chat ]
-| 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎🫥 Finder agent.md>) | ⓘ Any Vitalogist (4.4 ⭐) [+]
+| 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | ⓘ Any Vitalogist (4.4 ⭐) [+]
 | 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Vitalogists 💖/💖🫥 Vitalogist agent.md>) | ℹ️ Request received [+] 
 | 📇 [Mingler](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Minglers 📇/$ 📇🫥 Mingler agent.md>) | 🫥 Forward request? [No] <br/> - to Daniel 🧔 <br/> - to share intake <br/> - with Any Vitalogist 💖  | > Yes
 | 📇 [Mingler](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Minglers 📇/$ 📇🫥 Mingler agent.md>) | ⏳ Waiting, 48 hrs left... <br/>- [ change request ]

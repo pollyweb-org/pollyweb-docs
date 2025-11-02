@@ -13,7 +13,7 @@
    
     |Role|Description
     |-|-
-    | [🪢 Integrator](<../../41 🎭 Domain Roles/Integrators 🪢/🪢🎭 Integrator role.md>) | To promote the printing of [Locators 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) in [Finder 🔎 domains](<../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎🫥 Finder agent.md>).
+    | [🪢 Integrator](<../../41 🎭 Domain Roles/Integrators 🪢/🪢🎭 Integrator role.md>) | To promote the printing of [Locators 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) in [Finder 🔎 domains](<../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>).
     | [🤗 Host](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | For interacting with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) in [Chats 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>).
     | [🏭 Supplier](<../../41 🎭 Domain Roles/Suppliers 🏭/🏭🎭 Supplier role.md>) | For receiving printing orders and updating on their status.
     | [💼 Consumer](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) | For consuming data sets required to fill out the order.

@@ -13,7 +13,7 @@ Save intake with a photo
 | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 💬 How can I help with that? <br> - [ Intake ] in Any Vitalogist 💖 <br/> - [ Something else ] | > Intake
 | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | ✅ Over to Any Vitalogist 💖
 | [ new chat ]
-| 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎🫥 Finder agent.md>) | ⓘ Any Vitalogist (4.4 ⭐) [+]
+| 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | ⓘ Any Vitalogist (4.4 ⭐) [+]
 | 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Vitalogists 💖/💖🫥 Vitalogist agent.md>) | ℹ️ Request received [+] 
 | 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Vitalogists 💖/💖🫥 Vitalogist agent.md>) | 💬 What intake to save? <br> - Scan a [ barcode ✨ ] <br/> - Take a [ photo 📸 ] of it <br/> - [ Say ] what to save | > photo 📸
 | 💖 [Vitalogist](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Vitalogists 💖/💖🫥 Vitalogist agent.md>) | 😃 Take a photo of it [+] | 📸 photo

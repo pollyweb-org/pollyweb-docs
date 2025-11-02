@@ -9,7 +9,7 @@
 | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 | - | - | - |
 | | | 🔆 [tap](<../../../4 ⚙️ Solution/25 🔆 Locators/Locators 🔆/🔆 Locator.md>)
-| 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎🫥 Finder agent.md>) | ⓘ Any Bar (4.4 ⭐) [+]
+| 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | ⓘ Any Bar (4.4 ⭐) [+]
 | 🍸 Bar        | ℹ️ This is Table 23 at Any Bar.
 | 🍸 Bar        | 😃 What do you need? <br/>- [ Order ] <br/>- [ Something else ] | > Order
 | 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) | 💭 Here are suggestions: <br/>- [ tap water 🚰 ] <br/> - [ half pint of lager 🍺 ] | `3+ beers`
