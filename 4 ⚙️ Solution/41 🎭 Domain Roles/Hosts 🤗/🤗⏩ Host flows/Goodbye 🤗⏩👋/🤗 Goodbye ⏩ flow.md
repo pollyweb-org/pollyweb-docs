@@ -36,7 +36,7 @@ The associated [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics
 
 ## ⏩ Flow diagram
 
-![Goodbye](<../../.📎 Assets/⚙️👋 Goodbye.png>)
+![Goodbye](<⚙️👋 Goodbye.png>)
 
 
 
