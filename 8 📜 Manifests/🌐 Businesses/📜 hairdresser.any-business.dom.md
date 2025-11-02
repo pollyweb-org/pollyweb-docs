@@ -7,7 +7,7 @@
 
 About:
   Domain: hairdresser.any-business.dom
-  Name: Any Hairdresser, Singapore
+  Title: Any Hairdresser, Singapore
   
   
 Trusts:

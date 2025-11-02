@@ -6,7 +6,7 @@
 
 About:
   Domain: nlweb.dom
-  Name: NLWeb
+  Title: NLWeb
   Description: The Natural Language Web (NLWeb) is a domain that focuses on the development and implementation of natural language processing technologies to enhance web interactions and accessibility.
   SmallIcon: 'https://picsum.photos/20/20'
   BigIcon: 'https://picsum.photos/100/100'

@@ -6,7 +6,7 @@
 
 About:
   Domain: selfie.any-supplier.dom
-  Name: Any Selfie
+  Title: Any Selfie
   
 Trusts:
   

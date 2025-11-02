@@ -16,12 +16,12 @@ Here's the [Itemized 🛢 schema](<../../../../30 🧩 Data/Datasets 🪣/🪣�
 # Chats.yaml
 Prefix: Broker
 Table: Chats
-Key: Chat
+Key: ID
 Parents:
-    Wallet: { Wallets.Wallet: Chats.Wallet }
-    Host: { Domains.Domain: Chats.Host }
+    Wallet: { Wallets.ID: Chats.Wallet }
+    Host: { Domains.Name: Chats.Host }
 Children:
-    Chatters: { Chatters.Chat: Chats.Chat }
+    Chatters: { Chatters.Chat: Chats.ID }
 ```
 
 | Link | Table | Contains

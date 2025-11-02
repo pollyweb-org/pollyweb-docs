@@ -7,7 +7,7 @@
 
 About:
   Domain: hhs.gov
-  Name: U.S. Department of Health & Human Services
+  Title: U.S. Department of Health & Human Services
   
 
 Trusts:

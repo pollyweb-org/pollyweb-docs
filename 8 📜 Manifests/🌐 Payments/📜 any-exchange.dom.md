@@ -7,7 +7,7 @@
 
 About:
   Domain: any-exchange.dom
-  Name: Any Exchange
+  Title: Any Exchange
   
 
 Trusts:

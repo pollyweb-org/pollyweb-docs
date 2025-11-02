@@ -6,7 +6,7 @@
 
 About:
   Domain: locale.any-igo.dom
-  Name: Unicode Common Locale Data Repository (CLDR)
+  Title: Unicode Common Locale Data Repository (CLDR)
   Description: > 
     Provides key building blocks for software to support the world's languages, 
     with the largest and most extensive standard repository of locale data available. 

@@ -9,7 +9,7 @@
 
 About:
   Domain: ec.europa.eu
-  Name: European Commission
+  Title: European Commission
 ```       
        
 ```yaml
@@ -39,7 +39,7 @@ Schemas:
   # Regulate the Disability Card on behalf of the European Union.
   - Delegator: europa.eu
     Path: /DISABILITY/CARD
-    Name: Disability Card
+    Title: Disability Card
         
     Schemas:
       - Version: 1.0

@@ -7,5 +7,5 @@
 
 About:
   Domain: vending.any-business.dom
-  Name: Any Vending
+  Title: Any Vending
   

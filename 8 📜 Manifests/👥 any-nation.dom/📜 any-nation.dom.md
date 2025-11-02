@@ -6,7 +6,7 @@
 
 About:
   Domain: any-nation.dom
-  Name: Any Nation's Government
+  Title: Any Nation's Government
 
 
 Trusts:

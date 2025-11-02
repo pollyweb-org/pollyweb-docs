@@ -7,5 +7,5 @@
 
 About:
   Domain: any-notifier.dom
-  Name: Any Wallet Notifier
+  Title: Any Wallet Notifier
   

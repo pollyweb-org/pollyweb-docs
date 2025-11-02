@@ -7,7 +7,7 @@
 
 About:
   Domain: airlines.any-igo.dom
-  Name: Any IGO Airlines
+  Title: Any IGO Airlines
   
 
 Delegates:

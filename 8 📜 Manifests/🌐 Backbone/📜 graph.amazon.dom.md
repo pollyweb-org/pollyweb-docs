@@ -7,4 +7,4 @@
 
 About:
   Domain: graph.amazon.dom
-  Name: Amazon Graph
+  Title: Amazon Graph

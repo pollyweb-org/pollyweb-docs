@@ -7,7 +7,7 @@
 
 About:
   Domain: state.gov
-  Name: US Department of State
+  Title: US Department of State
  
  
 Trusts:

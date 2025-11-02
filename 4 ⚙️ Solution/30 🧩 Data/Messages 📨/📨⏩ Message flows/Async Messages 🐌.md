@@ -37,7 +37,7 @@
         ```yaml
         🤝: nlweb.dom/MANIFEST/ABOUT
         About:
-          Name: any-sender.dom
+          Domain: any-sender.dom
           Feedback: any-buffer.dom
         ```
 

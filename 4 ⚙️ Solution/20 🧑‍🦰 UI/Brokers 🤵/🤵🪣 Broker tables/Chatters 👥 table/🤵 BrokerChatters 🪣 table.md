@@ -28,8 +28,8 @@ Prefix: Broker
 Table: Chatters
 Key: Chat, Domain
 Parents:
-    Chat: { Chats.Chat: Chatters.Chat }
-    Domain: { Domains.Domain: Chatters.Domain }
+    Chat: { Chats.ID: Chatters.Chat }
+    Domain: { Domains.Name: Chatters.Domain }
 ```
 
 | Link | Table | Contains

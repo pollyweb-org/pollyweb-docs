@@ -7,7 +7,7 @@
 
 About:
   Domain: federalreserve.gov
-  Name: Federal Reserve of the United States
+  Title: Federal Reserve of the United States
 
 
 Trusts:

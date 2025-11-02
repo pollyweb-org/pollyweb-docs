@@ -79,7 +79,7 @@
     ```yaml
     About:
       Domain: any-street-food.dom
-      Name: Any Street Food
+      Title: Any Street Food
     ```
     
     <br/>

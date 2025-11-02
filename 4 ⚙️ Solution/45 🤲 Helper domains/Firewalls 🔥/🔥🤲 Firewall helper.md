@@ -72,7 +72,7 @@
 
     About:
       Domain: any-firewall.org
-      Name: Any Firewall
+      Title: Any Firewall
 
     Trusts:
       - Title: Block malicious domains from collecting, and vaults from sharing.

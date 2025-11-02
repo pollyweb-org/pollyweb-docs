@@ -7,7 +7,7 @@
 
 About:
   Domain: europa.eu
-  Name: European Union
+  Title: European Union
               
 
 Delegates:

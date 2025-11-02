@@ -9,7 +9,7 @@
 ```yaml
 About:
   Domain: aviation.any-igo.dom
-  Name: All Aviation Members
+  Title: All Aviation Members
 ```
 
 ```yaml

@@ -7,6 +7,6 @@
 
 About:
   Domain: wifi.any-supplier.dom
-  Name: Any Wifi
+  Title: Any Wifi
   
 Trusts:

@@ -7,5 +7,5 @@
 
 About:
   Domain: printers.any-business.dom
-  Name: Any Printer Seller
+  Title: Any Printer Seller
   

@@ -7,7 +7,7 @@
 
 About:
   Domain: health.any-igo.dom
-  Name: World Health Organization
+  Title: World Health Organization
   
 
 Schemas:

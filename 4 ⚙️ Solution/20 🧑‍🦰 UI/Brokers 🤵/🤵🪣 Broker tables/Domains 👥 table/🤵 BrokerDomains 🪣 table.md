@@ -15,10 +15,10 @@
 Here's the [Itemized 🛢 schema](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
 
 ```yaml
-# Hosts.yaml
+# Domains.yaml
 Prefix: Broker
-Table: Hosts
-Key: Host
+Table: Domains
+Key: Name
 ```
 
 <br/>
@@ -30,8 +30,9 @@ Here's the [`GET` command](<../../../../35 💬 Chats/Scripts 📃/📃 datasets
 ```yaml
 # GET|Hosts|<host>
 
-Host: any-host.dom
-Host$: An Host
+Name: any-domain.dom
+Title: Any Domain
+Description: bla, bla...
 SmallIcon: <base64>
 BigIcon: <base64>
 ```

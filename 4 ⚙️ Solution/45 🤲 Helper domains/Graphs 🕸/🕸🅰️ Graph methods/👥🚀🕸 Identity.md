@@ -43,7 +43,7 @@ Body:
 ```yaml
 Domain: another-domain.dom
 Feedback: any-buffer.dom
-Name: Any Other Domain, Inc.
+Title: Any Other Domain, Inc.
 Description: bla bla...
 SmallIcon: <base64>
 BigIcon: <base64>
@@ -53,7 +53,7 @@ BigIcon: <base64>
 |-|-|-|-
 |Top        |`Domain`       | string | URL name of the [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
 |           |`Feedback`     | string | [Buffer ⏳ helper domain](<../../Buffers ⏳/⏳🤲 Buffer helper.md>) name
-|           |`Name`         | string | Friendly name of the [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
+|           |`Title`         | string | Friendly name of the [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
 |           |`SmallIcon`    | string  | Small icon in Base64 PNG
 |           |`BigIcon`      | string  | Big icon in Base64 PNG
 |

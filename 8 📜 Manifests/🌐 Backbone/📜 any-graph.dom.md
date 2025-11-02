@@ -7,4 +7,4 @@
 
 About:
   Domain: any-graph.dom
-  Name: Any Graph
+  Title: Any Graph
