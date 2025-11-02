@@ -251,7 +251,7 @@ Successful Tests:
 
   - Given: '{{Broker}}'
     LinkText: "Broker 🤵 domain"
-    LinkFile: "🤵🤲 Broker helper.md"
+    LinkFile: "Broker 🤵 helper 🤲.md"
     Reasons: This is hardcoded.
 
   - Given: "{{Sync Requests}}"

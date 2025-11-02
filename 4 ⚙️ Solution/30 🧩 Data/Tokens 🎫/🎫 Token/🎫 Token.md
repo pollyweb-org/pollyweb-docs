@@ -105,9 +105,9 @@
 
     No, except for [SELF Tokens 🎫](<🎫 Token.md>).
 
-    - Before sharing [SELF Tokens 🎫](<🎫 Token.md>) with other domains, [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>) ask the user for approval.
+    - Before sharing [SELF Tokens 🎫](<🎫 Token.md>) with other domains, [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/Broker 🤵 helper 🤲.md>) ask the user for approval.
   
-    - Exceptionally, if the [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>) of the [Token 🎫](<🎫 Token.md>) is marked as SELF, then the user's [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>) silently share the [Token 🎫](<🎫 Token.md>) with the [Token's Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>).
+    - Exceptionally, if the [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>) of the [Token 🎫](<🎫 Token.md>) is marked as SELF, then the user's [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/Broker 🤵 helper 🤲.md>) silently share the [Token 🎫](<🎫 Token.md>) with the [Token's Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>).
 
 
     The following [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) excerpt illustrates the usage of a [SELF Token 🎫](<🎫 Token.md>) when [passing a gate at a train station 🤝](<../../../../3 🤝 Use Cases/03 🧳 Travel/03 🧳 Travel by train 🚂/02 🚂 Customer @ Station/22 Pass gates 1 person.md>).
@@ -116,10 +116,10 @@
     | - | - | - |
     | | | 🔆 [tap](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>)
     | 🔎 [Finder](<../../../50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) | ⓘ Any Railway (4.3 ⭐) [+]
-    | 🤵 [Broker](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>) | ⓘ Ticket [token 🎟️](<🎫 Token.md>) shared [+]
+    | 🤵 [Broker](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/Broker 🤵 helper 🤲.md>) | ⓘ Ticket [token 🎟️](<🎫 Token.md>) shared [+]
     | 🚂 Railway | ℹ️ Ticket presented: <br>- from MAD T4 to MAD T2 
     | 🚂 Railway | ✅ Entry gate opened!
-    | 🤵 [Broker](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>) | ⓘ Ticket voided [+]
+    | 🤵 [Broker](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/Broker 🤵 helper 🤲.md>) | ⓘ Ticket voided [+]
     
 
     ---

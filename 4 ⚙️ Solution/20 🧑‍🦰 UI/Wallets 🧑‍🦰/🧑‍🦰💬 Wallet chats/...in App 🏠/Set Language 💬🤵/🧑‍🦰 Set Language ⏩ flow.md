@@ -10,9 +10,9 @@
 
 | [Domain](<../../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../../🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
-| 🤵 [Broker](<../../../../Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>) | 😃 Hi! What do you need? <br/> - Change [ language ] <br> - [ Something else ]  | > language
-| 🤵 [Broker](<../../../../Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>) | 😃 What should I speak? <br/> - [ 🇵🇹 ] Português <br> - ...  | > 🇵🇹
-| 🤵 [Broker](<../../../../Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>) | ✅ Pronto!  
+| 🤵 [Broker](<../../../../Brokers 🤵/🤵 Broker helper/Broker 🤵 helper 🤲.md>) | 😃 Hi! What do you need? <br/> - Change [ language ] <br> - [ Something else ]  | > language
+| 🤵 [Broker](<../../../../Brokers 🤵/🤵 Broker helper/Broker 🤵 helper 🤲.md>) | 😃 What should I speak? <br/> - [ 🇵🇹 ] Português <br> - ...  | > 🇵🇹
+| 🤵 [Broker](<../../../../Brokers 🤵/🤵 Broker helper/Broker 🤵 helper 🤲.md>) | ✅ Pronto!  
 ||
 
 <br/>

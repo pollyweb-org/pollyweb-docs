@@ -28,7 +28,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 |Header|`From`|domain| [Host 🤗 domain](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)
-||`To`|string  | [Broker 🤵 domain](<../../🤵 Broker helper/🤵🤲 Broker helper.md>)
+||`To`|string  | [Broker 🤵 domain](<../../🤵 Broker helper/Broker 🤵 helper 🤲.md>)
 ||`Subject` | string | `Freeze@Broker`
 |Body|`Chat`   | uuid    | ID of the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) 
 |

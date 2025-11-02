@@ -14,6 +14,6 @@ To buy a ticket for a show (e.g., a musical in London), a user can scan a QR cod
 | 🎭 Venue   | 😃 OK for row E, central, $45 each? [Yes, No] | > Yes
 | 🎭 Venue   | 😃 Want a drink during break? [Yes, No] | > No
 | 💳 [Payer](<../../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) | 🫥 Pay $90.00 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>) | 🫥 Save theatre ticket? [Yes, No]  | > Yes
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/Broker 🤵 helper 🤲.md>) | 🫥 Save theatre ticket? [Yes, No]  | > Yes
 | 🎭 Venue   | ✅ You're all set, see you tomorrow!
 ||

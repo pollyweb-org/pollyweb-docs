@@ -10,7 +10,7 @@
 *  [`Download@Host` 🅰️ method](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Download 🧑‍🦰🚀🤗/🤗 Download 🚀 request.md>)
 
 > Purpose
-* [Broker 🤵 domains](<../../../Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>) 
+* [Broker 🤵 domains](<../../../Brokers 🤵/🤵 Broker helper/Broker 🤵 helper 🤲.md>) 
     * forward   [Prompts 🤔](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) 
     * from [Host 🤗 domains](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) 
     * to [Notifier 📣 domains](<../../📣 Notifier domain/📣 Notifier 👥 domain.md>).
@@ -36,7 +36,7 @@ Body:
 
 |Object|Property|Type|Description|Origin|Purpose
 |-|-|-|-|-|-
-|Header|`From`|domain| [Broker 🤵](<../../../Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>)  | [`Onboard@`](<../Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
+|Header|`From`|domain| [Broker 🤵](<../../../Brokers 🤵/🤵 Broker helper/Broker 🤵 helper 🤲.md>)  | [`Onboard@`](<../Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
 ||`To`|domain| [Notifier 📣](<../../📣 Notifier domain/📣 Notifier 👥 domain.md>) | [`Onboard@`](<../Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
 ||`Subject`|string|`Prompt@` | 
 |Body  |`Wallet` |uuid  | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) ID | [`Onboard@`](<../Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
