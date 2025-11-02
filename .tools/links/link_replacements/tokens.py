@@ -413,12 +413,16 @@ def replace_brokers_tokens(md_files):
 
 def replace_function_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Function`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, "[{Function} 🐍](<{Function} 🐍.md>)")
+    # Link text shows the function placeholder with braces, but the target file
+    # is named without braces (e.g. "Function 🐍.md"). Keep link text as-is
+    # but point to the correct existing file.
+    return _replace_simple(md_files, pattern, "[{Function} 🐍](<Function 🐍.md>)")
 
 
 def replace_functions_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Functions`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, "[{Functions} 🐍](<{Function} 🐍.md>)")
+    # Similar to single-function case; target file is "Function 🐍.md"
+    return _replace_simple(md_files, pattern, "[{Functions} 🐍](<Function 🐍.md>)")
 
 
 @register_hardcoded("scripts", replacement=SCRIPTS_REPLACEMENT, token_label="Scripts")
