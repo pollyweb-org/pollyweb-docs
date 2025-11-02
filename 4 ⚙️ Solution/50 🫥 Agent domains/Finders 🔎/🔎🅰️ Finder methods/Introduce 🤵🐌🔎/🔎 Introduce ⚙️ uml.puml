@@ -1,39 +1,32 @@
 @startuml Introduce
 
-actor "User\nin chat" as user
 participant "Broker 🤵\nhost" as broker
-participant "Finder 🔎\nvault" as finder
+
+box "Finder 🔎" #FFFFFA
+  participant "Handler 📃" as finder
+end box
+
 participant "Reviewer ⭐\nvault" as reviewer
 participant "Graph 🕸\ndomain" as graph
 'participant "Host 🤗\ndomain" as host
 
 
-activate broker
-
-    broker --> finder: 1) Introduce 🐌
-    deactivate broker
+    broker --> finder: Introduce 🐌
 
     activate finder
 
-      finder -> reviewer: 2) Reviews 🚀
-      activate reviewer
-        reviewer -> finder: {reviews}
-      deactivate reviewer
+      finder -> finder: PARALLEL
+      activate finder
+        finder -> reviewer: SEND: Reviews 🚀
+        finder -> graph: SEND: Identity 🚀
+        finder -> graph: SEND: Translate 🚀
+      deactivate finder
+        
+      finder --> broker: SEND: Prompt 🤔
 
-      finder -> graph: 3) Identity 🚀
-      activate graph
-        graph -> finder: {identity}
-      deactivate graph
-
-      finder --> user: 4 ⏪ Prompt 🤔
-
-      finder --> broker: 5) Introduced 🐌
+      finder --> broker: SEND: Introduced 🐌
       
     deactivate finder
-    activate broker
-
-
-
 
   
 ' ------------
