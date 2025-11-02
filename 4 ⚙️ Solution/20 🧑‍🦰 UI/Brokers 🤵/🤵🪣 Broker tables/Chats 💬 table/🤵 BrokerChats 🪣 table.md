@@ -1,5 +1,7 @@
 # 🤵🪣 Chats @ Broker table
 
+> Implements the [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>)
+
 > Stores [Chats 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
 
 > Inserted by [`Converse` 📃 script](<../../🤵⏩ Broker flows/Converse 🤵⏩💬/🤵 Converse 📃 script.md>)
@@ -12,17 +14,21 @@ Here's the [Itemized 🛢 schema](<../../../../30 🧩 Data/Datasets 🪣/🪣�
 
 ```yaml
 # Chats.yaml
+Prefix: Broker
 Table: Chats
 Key: Chat
 Parents:
     Wallet: { Wallets.Wallet: Chats.Wallet }
     Host: { Domains.Domain: Chats.Host }
+Children:
+    Chatters: { Chatters.Chat: Chats.Chat }
 ```
 
 | Link | Table | Contains
 |-|-|-
 | Parents   | [`Wallets` 🪣](<../Wallets 🧑‍🦰 table/🤵 Wallets 🪣 table.md>) | [Wallets 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
 |           | [`Domains` 🪣](<../Domains 👥 table/🤵 BrokerDomains 🪣 table.md>) | [domains 👥](<../../../../40 👥 Domains/👥 Domain.md>)
+| Children | [`Chatters` 🪣](<../Chatters 👥 table/🤵 BrokerChatters 🪣 table.md>) | [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) participants
 |
 
 <br/>
@@ -40,6 +46,7 @@ Wallet: <wallet-uuid>
 # Host info
 Host: any-host.dom
 Host$: Any Host
+Emoji: 😃
 
 # Locator info
 Key: ANY-LOCATOR

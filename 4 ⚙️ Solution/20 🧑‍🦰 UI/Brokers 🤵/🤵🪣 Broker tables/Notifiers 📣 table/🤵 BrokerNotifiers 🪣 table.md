@@ -1,5 +1,7 @@
 # 🤵🪣 Notifiers @ Broker table
 
+> Implements the [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>)
+
 > Contains [Notifier 📣 domains](<../../../Notifiers 📣/📣👥 Notifier domain.md>)
 
 <br/>
@@ -10,6 +12,7 @@ Here's the [Itemized 🛢 schema](<../../../../30 🧩 Data/Datasets 🪣/🪣�
 
 ```yaml
 # Notifiers.yaml
+Prefix: Broker
 Table: Notifiers
 Key: Notifier
 Children:

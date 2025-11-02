@@ -1,5 +1,7 @@
 # 🤵🪣 Domains @ Broker table
 
+> Implements the [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>)
+
 > Stores details on [Host 🤗 domains](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>).
 
 > Inserted by [`Converse` 📃 script](<../../🤵⏩ Broker flows/Converse 🤵⏩💬/🤵 Converse 📃 script.md>)
@@ -14,6 +16,7 @@ Here's the [Itemized 🛢 schema](<../../../../30 🧩 Data/Datasets 🪣/🪣�
 
 ```yaml
 # Hosts.yaml
+Prefix: Broker
 Table: Hosts
 Key: Host
 ```

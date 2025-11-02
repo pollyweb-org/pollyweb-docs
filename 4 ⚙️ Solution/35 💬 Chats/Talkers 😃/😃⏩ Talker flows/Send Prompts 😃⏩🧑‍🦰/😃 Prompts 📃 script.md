@@ -4,8 +4,7 @@
 * Calls the [`Prompt@Broker` 🅰️ method](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
 * Prepares for the [`Prompted@Hosted` 🅰️ method](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 request.md>)
 
-> Dependencies
-* Depends on the [`PromptEmoji` 📃 script](<😃 Prompts 📃 emoji.md>)
+
 
 
 ## Flow
@@ -18,7 +17,7 @@
 ```yaml
 - RUN|.PROMPT:
     Format: ONE
-    Emoji: 🤔 # Default
+    Emoji: 😃 # Default
     Text: Which credit card to use? 
     MinValue: 10000                     # Optional
     MaxValue: 99999                     # Optional
@@ -41,10 +40,6 @@
     UUIDs: Appendix  
     Maths: MinValue, MaxValue
 
-# Calculate the emoji
-- RUN|PromptEmoji >> $emoji:
-    $.Inputs
-
 # Stage the prompt.
 - SAVE|HostPrompts >> $hook:
     Hook: .UUID
@@ -52,9 +47,7 @@
     Broker: $.Chat.Broker
     PublicKey: $.Chat.PublicKey
     Expires: .Now.Add(5 minutes)
-    Prompt: 
-        :$.Inputs:
-        Emoji: $emoji
+    Prompt: :$.Inputs
 
 # Call the Prompt@Broker
 - SEND|$hook:
@@ -90,5 +83,4 @@ Needs ||
 | [{Functions} 🐍](<../../../Scripts 📃/📃 basics/Function 🐍.md>) | [`{.In}`](<../../../Scripts 📃/📃 functions 🐍/🔩 {.In}.md>)
 | [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Prompt@Broker` 🅰️ method](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>) <br/> [`Prompted@Host` 🅰️ method](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 request.md>)
 | [Holders 🧠](<../../../Scripts 📃/📃 basics/Holder 🧠.md>) | [`$.Chat`](<../../../Scripts 📃/📃 holders 🧠/$.Chat 💬/💬 $.Chat 🧠 holder.md>)
-| [Scripts 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>) | [`PromptEmoji` 📃 script](<😃 Prompts 📃 emoji.md>)
 |

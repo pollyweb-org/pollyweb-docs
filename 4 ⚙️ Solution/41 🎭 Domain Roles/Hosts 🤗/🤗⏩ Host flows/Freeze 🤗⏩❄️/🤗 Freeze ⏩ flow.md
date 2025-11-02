@@ -15,7 +15,7 @@
 |1|[🤗⏩🧑‍🦰 Prompt 🐶](<../Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | The [Host 🤗](<../../🤗🎭 Host role.md>) sends a first dog 🐶 prompt
 |2|[🤗⏩🧑‍🦰 Prompt 🐱](<../Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | The [Host 🤗](<../../🤗🎭 Host role.md>) sends a second cat 🐱 prompt
 |3|[🧑‍🦰🐌🤗 `Reply@Host`](<../../🤗🅰️ Host methods/Reply 🧑‍🦰🐌🤗/🤗 Reply 🐌 msg.md>) | The user can still reply late to dog 🐶
-|4|[🤗🐌🤵 `Freeze@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Freeze 🤗🐌🤵/🤵 Freeze 🐌 msg.md>) | The [Host 🤗](<../../🤗🎭 Host role.md>) freezes the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
+|4|[🤗🐌🤵 `Freeze@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Freeze 🤗🚀🤵/🤵 Freeze 🐌 msg.md>) | The [Host 🤗](<../../🤗🎭 Host role.md>) freezes the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
 |5|[🤗⏩🧑‍🦰 Prompt 🐠](<../Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | The [Host 🤗](<../../🤗🎭 Host role.md>) sends a third fish  prompt 🐠
 |6|[🧑‍🦰🐌🤗 `Reply@Host`](<../../🤗🅰️ Host methods/Reply 🧑‍🦰🐌🤗/🤗 Reply 🐌 msg.md>) | The user can still reply to fish 🐠
 |7| - | [Wallets 🧑‍🦰](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) block pre-freeze reply to cat 🐱

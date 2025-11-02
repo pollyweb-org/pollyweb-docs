@@ -1,5 +1,7 @@
 # 🤵🪣 Binds @ Broker table
 
+> Implements the [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>)
+
 > Stores [Binds 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
 
 <br/>
@@ -11,6 +13,7 @@ Here's the [Itemized 🛢 schema](<../../../../30 🧩 Data/Datasets 🪣/🪣�
 
 ```yaml
 # Binds.yaml
+Prefix: Broker
 Table: Binds
 Key: Bind
 Parents:

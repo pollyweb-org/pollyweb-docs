@@ -1,5 +1,7 @@
 # 🤵🪣 Wallets @ Broker table
 
+> Implements the [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>)
+
 > Purpose
 
 * [Itemized 🪣 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) that stores [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
@@ -17,7 +19,7 @@ Here's the [Itemized 🛢 schema](<../../../../30 🧩 Data/Datasets 🪣/🪣�
 
 ```yaml
 # Wallets.yaml
-
+Prefix: Broker
 Table: Wallets
 Key: Wallet
 
