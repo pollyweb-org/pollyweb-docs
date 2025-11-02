@@ -52,9 +52,9 @@
     
     <br/>
 
-1. **What are the [domain Roles🎭](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domain/👥 Domain.md>) required?**
+1. **What are the domain roles required?**
 
-    | [Role 🎭](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domain/👥 Domain.md>) | Purpose
+    | [Role 🎭](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domain/👥🎭 Domain Role.md>) | Purpose
     |-|-
     | [🤗 Host](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | To manage the [Chats 💬](<../../../4 ⚙️ Solution/35 💬 Chats/Chats 💬/💬 Chat.md>).
     | [💵 Seller](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) | To charge for the products.
