@@ -1,6 +1,6 @@
 # 🤵 Resolve Alias 📃 script
 
-> Part of the [`Assess@Broker` 📃 script](<🤵 Assess 📃 handler.md>)
+> Part of the [`Assess@Broker` 📃 script](<../🤵 Assess 📃 handler.md>)
 
 ## Script
 

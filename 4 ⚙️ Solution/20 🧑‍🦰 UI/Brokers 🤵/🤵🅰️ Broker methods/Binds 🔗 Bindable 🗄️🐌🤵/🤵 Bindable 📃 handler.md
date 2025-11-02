@@ -62,8 +62,9 @@
         Binds: $send
     
 # Update the binds    
-- RUN|UpdateBinds@Broker:
+- RUN|Update-Notifier:
     wallet: $chat.Wallet
+    Updates: [BINDS]
 ```
 
 Needs ||
@@ -72,5 +73,5 @@ Needs ||
 | [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Holder 🧠.md>) | [`$.Msg`](<../../../../35 💬 Chats/Scripts 📃/📃 holders 🧠/$.Msg 📨/📨 $.Msg 🧠 holder.md>)
 | [{Functions} 🐍](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Function 🐍.md>) | [`{.Diff}`](<../../../../35 💬 Chats/Scripts 📃/📃 functions 🐍/🔩 {.Diff}.md>)
 | [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Bound@Vault` 🅰️ method](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
-| [Scripts 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) | [`CreateBinds` 📃](<🤵 Bindable 📃 part 2.md>)
+| [Scripts 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) | [`CreateBinds` 📃](<🤵 Bindable 📃 part 2.md>) <br/> [`Update Notifier` 📃 script](<scripts/🤵 Update Notifier 📃 script.md>)
 |
