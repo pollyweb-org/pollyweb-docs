@@ -23,5 +23,5 @@ Use a washing machine on a self-service laundry
 | 🫧 Laundry | ⏳ Washing... 59 min left. 
 | 🫧 Laundry | ⏳ Washing... 1 min left. 
 | 🫧 Laundry | ✅ Washed! Pick up your laundry.
-| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 4
+| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) | 🫥 Experience feedback? | ⭐ 4
 ||

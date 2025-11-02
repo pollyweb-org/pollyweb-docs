@@ -23,5 +23,5 @@
 | 🍔 Fast Food | ℹ️ Order ready [+]
 | 🍔 Fast Food | ⏳ Taking it to sign 014... 
 | 🍔 Fast Food | ✅ Eat-in delivered to 014.
-| ⭐ [Rate](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5 |
+| ⭐ [Rate](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) | 🫥 Experience feedback? | ⭐ 5 |
 ||

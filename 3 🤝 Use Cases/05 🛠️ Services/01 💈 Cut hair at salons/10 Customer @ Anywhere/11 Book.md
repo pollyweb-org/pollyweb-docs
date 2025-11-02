@@ -18,7 +18,7 @@ How to book at a salon?
 | 💈 Salon   | ℹ️ Thanks, Alice!
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 Save booking? [Yes, No] | > Yes    
 | 💈 Salon   | ✅ Booked!
-| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5 |
+| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) | 🫥 Experience feedback? | ⭐ 5 |
 | 💈 Salon   | ⏳ Upcoming bookings: <br/> - [ #1 ] Tomorrow, 9:30
 |||
     

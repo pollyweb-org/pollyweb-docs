@@ -11,6 +11,6 @@ Check an item's availability 🛍️
 | 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) | ⓘ For Daniel needs to be XL [+] <br/> - no more XLs in this store <br/>- there are XLs downtown <br>- there are XLs online
 | 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) | 💭 How can I help? [Don't] <br/>- [ Navigate ] downtown 🧭 <br/>- [ Order ] online | > Don't
 | 🛍️ Store    | ✅ Happy shopping!
-| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 5
+| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) | 🫥 Experience feedback? | ⭐ 5
 |||
 

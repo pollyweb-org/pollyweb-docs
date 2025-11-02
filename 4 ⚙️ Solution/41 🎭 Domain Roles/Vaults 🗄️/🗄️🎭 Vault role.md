@@ -127,7 +127,7 @@
     * [Trusts 🫡](<../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) in [domain Manifests 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>) to represent partnerships;
     * [Authority 🏛️ domains](<../../45 🤲 Helper domains/Authorities 🏛️/🏛️🤲 Authority helper.md>) for intergovernmental agreements;
     * [Broker 🤵 domains](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) to protect users from bad corporate actors;
-    * [Reviewer ⭐ domains](<../../50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐🫥 Reviewer agent.md>) to collect social feedback on corporations;
+    * [Reviewer ⭐ domains](<../../50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) to collect social feedback on corporations;
     * [Firewall 🔥 domains](<../../45 🤲 Helper domains/Firewalls 🔥/🔥🤲 Firewall helper.md>) to monitor and penalize bad corporate actors.
     
     ---

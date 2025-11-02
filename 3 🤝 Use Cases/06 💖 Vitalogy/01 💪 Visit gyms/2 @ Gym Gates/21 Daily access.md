@@ -19,5 +19,5 @@ How to go through the gym's gates?
 | 💪 Gym | ℹ️ You're at downtown gym. 
 | 💪 Gym | ℹ️ Family membership showed.
 | 💪 Gym | ✅ Entry gate opened!
-| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? | ⭐ 4
+| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) | 🫥 Experience feedback? | ⭐ 4
 ||
