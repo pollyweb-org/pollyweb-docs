@@ -11,7 +11,7 @@
 ```yaml
 About:
     Domain: any-domain.dom
-    Name: Any Domain
+    Title: Any Domain
     Description: This is a dummy domain.
     SmallIcon: 'https://picsum.photos/20/20'
     BigIcon: 'https://picsum.photos/100/100'
@@ -26,7 +26,7 @@ About:
 | Property | Type | Notes
 |-|-|-
 | `Domain` | string | DNS domain name
-| `Name` | string | Optional human readable title of the domain
+| `Title` | string | Optional human readable title of the domain
 | `Description` | string | Optional human readable description
 | `SmallIcon`  | string | Optional URL to a small icon (20x20)
 | `BigIcon`   | string | Optional URL to a big icon (100x100)

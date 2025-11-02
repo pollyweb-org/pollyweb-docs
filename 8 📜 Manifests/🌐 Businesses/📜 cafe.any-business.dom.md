@@ -6,4 +6,4 @@
 
 About:
   Domain: cafe.any-business.dom
-  Name: Any Coffee Shop
+  Title: Any Coffee Shop

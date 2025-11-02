@@ -7,7 +7,7 @@
 
 About:
   Domain: ecb.europa.eu
-  Name: European Central Bank
+  Title: European Central Bank
               
 
 Trusts:   

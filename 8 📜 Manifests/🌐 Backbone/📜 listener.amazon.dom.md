@@ -7,5 +7,5 @@
 
 About:
   Domain: listener.amazon.dom
-  Name: Amazon Listener
+  Title: Amazon Listener
   

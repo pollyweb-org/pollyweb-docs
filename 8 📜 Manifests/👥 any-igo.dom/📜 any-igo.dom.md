@@ -7,7 +7,7 @@
 
 About:
   Domain: any-igo.dom
-  Name: Any Intergovernmental Organization (IGO)
+  Title: Any Intergovernmental Organization (IGO)
   
 
 Trusts:

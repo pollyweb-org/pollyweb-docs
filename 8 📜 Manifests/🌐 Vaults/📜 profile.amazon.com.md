@@ -7,7 +7,7 @@
 
 About:
   Domain: profile.amazon.com
-  Name: Amazon
+  Title: Amazon
   
 Trusts:
   

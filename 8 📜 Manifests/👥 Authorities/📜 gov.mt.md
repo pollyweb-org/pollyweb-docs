@@ -7,7 +7,7 @@
 
 About:
   Domain: gov.mt
-  Name: Government of Malta
+  Title: Government of Malta
   
 
 Issuer:

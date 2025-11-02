@@ -6,7 +6,7 @@
 
 About:
   Domain: atm.any-fintech.dom
-  Name: Any Cash Machine
+  Title: Any Cash Machine
   
 
 Trusts:

@@ -7,7 +7,7 @@
 
 About:
   Domain: nations.any-igo.dom
-  Name: Nation Members of Any IGO
+  Title: Nation Members of Any IGO
   
 
 Trusts:

@@ -7,6 +7,6 @@
 
 About:
   Domain: trigger.any-supplier.dom
-  Name: Any Trigger
+  Title: Any Trigger
   
 Trusts:

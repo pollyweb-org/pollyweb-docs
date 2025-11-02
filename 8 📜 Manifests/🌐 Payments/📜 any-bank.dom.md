@@ -7,7 +7,7 @@
 
 About:
   Domain: any-bank.dom
-  Name: Any Bank
+  Title: Any Bank
 
 
 Trusts: 

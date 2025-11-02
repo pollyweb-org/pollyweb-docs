@@ -6,7 +6,7 @@
 
 About:
   Domain: any-profile.dom
-  Name: Any Persona
+  Title: Any Persona
 
 Trusts:
   

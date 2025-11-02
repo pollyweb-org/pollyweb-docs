@@ -6,7 +6,7 @@
 
 About:
   Domain: restaurant.any-business.dom
-  Name: Any Restaurant
+  Title: Any Restaurant
 
 Trusts:
 

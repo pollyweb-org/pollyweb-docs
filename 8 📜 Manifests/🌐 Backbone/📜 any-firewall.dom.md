@@ -10,7 +10,7 @@
 
 About:
   Domain: any-firewall.org
-  Name: Any Firewall
+  Title: Any Firewall
 
   
 Trusts:

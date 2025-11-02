@@ -7,7 +7,7 @@
 
 About:
   Domain: airlines-ssr.any-igo.dom
-  Name: SSR Department of Any IGO Airlines
+  Title: SSR Department of Any IGO Airlines
 ```
   
 ```yaml

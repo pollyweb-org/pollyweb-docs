@@ -6,7 +6,7 @@
 
 About:
   Domain: standards.any-igo.dom
-  Name: ISO, International Organization for Standardization
+  Title: ISO, International Organization for Standardization
 
 
 Schemas:

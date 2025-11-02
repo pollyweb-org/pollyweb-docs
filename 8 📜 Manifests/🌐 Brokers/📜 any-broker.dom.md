@@ -7,4 +7,4 @@
 
 About:
   Domain: any-broker.dom
-  Name: Any Broker
+  Title: Any Broker

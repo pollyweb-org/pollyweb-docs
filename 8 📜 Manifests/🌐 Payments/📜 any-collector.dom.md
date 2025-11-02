@@ -7,7 +7,7 @@
 
 About:
   Domain: any-collector.dom
-  Name: Any Collector
+  Title: Any Collector
 
   
 Trusts:

@@ -7,7 +7,7 @@
 
 About:
   Domain: telcos.any-igo.dom
-  Name: ITU - International Telecommunication Union
+  Title: ITU - International Telecommunication Union
   Description: >
     Specialized agency of the United Nations responsible for many matters related 
     to information and communication technologies.

@@ -8,7 +8,7 @@
 ```yaml
 About:
   Domain: usa.gov
-  Name: US Government
+  Title: US Government
 ```
 
 ```yaml
