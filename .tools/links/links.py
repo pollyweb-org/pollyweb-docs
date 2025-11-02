@@ -400,6 +400,37 @@ def runit(project_directory, entryPoint):
     # Share project context with replacement helpers
     configure_context(md_files, project_directory)
 
+    # Validate that every hardcoded replacement declared in the tokens module
+    # references an existing markdown file (by basename). This helps catch
+    # handlers that point to missing destinations early and reports them
+    # every time the script is run.
+    try:
+        import importlib
+        tokens_mod = importlib.import_module('link_replacements.tokens')
+        handlers = getattr(tokens_mod, 'HARDCODED_HANDLERS', {})
+    except Exception:
+        handlers = HARDCODED_HANDLERS
+
+    missing_targets: list[tuple[str, str, str]] = []
+    for key, meta in handlers.items():
+        replacement = meta.get('replacement') or ''
+        m = re.search(r"\(<([^>]+)>\)", replacement)
+        if not m:
+            # no explicit angle-bracket target – skip
+            continue
+        target_basename = os.path.basename(m.group(1))
+        if not any(os.path.basename(p) == target_basename for p in md_files):
+            missing_targets.append((key, target_basename, replacement))
+
+    if missing_targets:
+        print("\nHardcoded replacement targets missing (declared handler -> missing basename):")
+        for key, target, repl in missing_targets:
+            print(f" - {key!r} -> {target!r}    replacement: {repl}")
+        # Fail the run so the issue is addressed rather than silently ignored.
+        raise FileNotFoundError(
+            "One or more hardcoded replacement handlers point to missing files. See output above."
+        )
+
     # Test YAML cases
     yaml_path = os.path.join(os.path.dirname(__file__), 'links.yaml')
     with open(yaml_path, 'r') as f:
