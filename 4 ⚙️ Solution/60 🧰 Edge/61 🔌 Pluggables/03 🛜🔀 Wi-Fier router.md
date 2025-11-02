@@ -26,7 +26,7 @@
     | [Domain](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     |-|-|-
     | | | 🔆 [scan](<../../25 🔆 Locators/Locators 🔆/🔆⏩ Locator flows/🧑‍🦰✨ Wallet QR scan.md>)
-    | 🔎 [Finder](<../../50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) | ⓘ Any Wand (4.3 ⭐)  [+] || The [Broker 🤵 domain](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) informed the user.
+    | 🔎 [Finder](<../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎🫥 Finder agent.md>) | ⓘ Any Wand (4.3 ⭐)  [+] || The [Broker 🤵 domain](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) informed the user.
     | 🪄 Wand | ℹ️ Device: [Wi-Fier 🛜](<03 🛜🔀 Wi-Fier router.md>) || The [Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) had a [Host 🤗](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)  callback.
     | 🪄 Wand | 😃 Hi! What do you need? <br/>- Set up [ 🛜 Wi-Fi ] <br/>- Call [Support] <br/>- [ Something else ] | > 🛜 Wi-Fi
     | [🤵 Broker](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | ⓘ Flow: Wi-Fi [+] || The [Host 🤗 role](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) changed the context.

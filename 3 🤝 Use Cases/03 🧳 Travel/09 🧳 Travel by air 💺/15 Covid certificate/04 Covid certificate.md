@@ -18,7 +18,7 @@ Used initiate a chat with 🏥 NHS.
 
 | [Domain](<../../../../4 ⚙️ Solution/40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../4 ⚙️ Solution/35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 | - | - | - |
-| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) | ⓘ UK NHS (4.4 ⭐) [+]
+| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎🫥 Finder agent.md>) | ⓘ UK NHS (4.4 ⭐) [+]
 | 🏥 NHS    | 😃 Hi! What do you need? <br/> - [ Emergency ] help  <br> - [ Something ] else | > Something
 | 🏥 NHS    | 💬 Tell me what you need. | `covid`<br/>`to fly`
 | 🏥 NHS    | 💬 To what countries? | `US`
