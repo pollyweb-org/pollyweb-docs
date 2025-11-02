@@ -23,10 +23,10 @@ TODO: Create the API methods
     
     | [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
-    | 🤗 [Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)    | ℹ️ Sign the terms. 
+    | 🤗 [Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)    | ℹ️ Sign the terms. 
     | 🆔 [Identity](<../🆔🫥 Identity agent.md>) | 🫥 Sign terms? 📄 [Yes, No] | > Yes
     | 🆔 [Identity](<../🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<6 🆔⏩😶 Face scan.md>)
-    | 🤗 [Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ Thanks for signing!
+    | 🤗 [Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | ✅ Thanks for signing!
 
     ---
     <br/>
@@ -53,7 +53,7 @@ TODO: Create the API methods
     - 1/ the signature is for a file with the given hash; and
     - 2/ the human holding the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) has the given personally identifiable information (PII).
     
-    A signature request from a [Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) is a data set containing:
+    A signature request from a [Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) is a data set containing:
     - **the content of the file to be signed** 
       - this allows the user to read the document before accepting to sign it;
     - **the file's hash** 
@@ -75,14 +75,14 @@ TODO: Create the API methods
 
     |#|Step
     |-|-
-    |1| [Hosts 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) ask [Wallets 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) for a user signature
+    |1| [Hosts 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) ask [Wallets 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) for a user signature
     | 2| [Wallets 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) validate the hash against the PDF bytes
     | 3| [Wallets 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) show the PDF content to the user
     | 4| Users accept the PDF content and the signature request;
     | 5| [Wallets 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) ask [Identities 🆔](<../🆔🫥 Identity agent.md>) to sign the hash on users' behalf 
     | 6| [Identities 🆔](<../🆔🫥 Identity agent.md>) authenticate users (e.g., with face biometrics)
-    | 7| [Identities 🆔](<../🆔🫥 Identity agent.md>) issue a signature [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) and send it to [Hosts 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)
-    | 8| [Hosts 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) verify if the Token's data matches the original request
+    | 7| [Identities 🆔](<../🆔🫥 Identity agent.md>) issue a signature [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) and send it to [Hosts 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)
+    | 8| [Hosts 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) verify if the Token's data matches the original request
 
     ---
     <br/> 

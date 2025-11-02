@@ -38,7 +38,7 @@
 
 1. **What happens to NFC/QR Locators if `nlweb.dom` goes down?**
 
-    * Users using their [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) as the default NFC/QR reader won't notice any difference, because the [Wallet 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) will parse the destination [Host 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) from the URL.
+    * Users using their [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) as the default NFC/QR reader won't notice any difference, because the [Wallet 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) will parse the destination [Host 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) from the URL.
 
     * Conversely, users without a Wallet will see an HTTP 404 error on their web browsers when interacting with an NLWeb NFC/QR, because the OS will navigate to the fallback URL which points to `nlweb.dom`.
 

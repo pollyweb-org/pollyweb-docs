@@ -37,7 +37,7 @@ Body:
 | `Subject` | string | `Endorse@Payer`
 | `Bind`| uuid | [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) ID.
 | `Collector` | string | [Collector 🏦 domain](<../../../../45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) name.
-| `Host` | string | [Host 🤗 domain](<../../../Hosts 🤗/🤗🎭 Host role.md>) name.
+| `Host` | string | [Host 🤗 domain](<../../../Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) name.
 | `Broker` | string | [Broker 🤵 domain](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) name.
 | `Locator` | string | [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>).
 | `Chat` | uuid | [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID.

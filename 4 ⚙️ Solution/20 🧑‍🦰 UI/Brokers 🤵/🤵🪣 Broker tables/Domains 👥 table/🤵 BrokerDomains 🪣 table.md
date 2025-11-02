@@ -2,7 +2,7 @@
 
 > Implements the [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>)
 
-> Stores details on [Host 🤗 domains](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>).
+> Stores details on [Host 🤗 domains](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>).
 
 > Inserted by [`Converse` 📃 script](<../../🤵⏩ Broker flows/Converse 🤵⏩💬/🤵 Converse 📃 script.md>)
 

@@ -44,7 +44,7 @@
 1. **Why isn't the [Talker 😃 API](<../../😃🤲 Talker helper.md>) a separate domain?**
 
     [Talkers 😃](<../../😃🤲 Talker helper.md>) manage a wide number of messages for multiple [domain roles 🎭](<../../../../40 👥 Domains/👥 Domain.md>);
-    * e.g., [Host 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>), [Vault 🗄️](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>), [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>), [Seller 💵](<../../../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>).
+    * e.g., [Host 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>), [Vault 🗄️](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>), [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>), [Seller 💵](<../../../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>).
     * Exposing endpoints for each method of each role is cumbersome.
 
     ---

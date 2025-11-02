@@ -3,7 +3,7 @@ Design Decisions
 
 1. **What is NLWeb's approach to end-user natural language?**
 
-    NLWeb is designed for Q&A flows (like ChatGPT), where a [Host 🤗 domain](<../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) asks the questions and defines the format that users are allowed to answer them. 
+    NLWeb is designed for Q&A flows (like ChatGPT), where a [Host 🤗 domain](<../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) asks the questions and defines the format that users are allowed to answer them. 
     
 
     ---
@@ -11,9 +11,9 @@ Design Decisions
 
 1. **What is NLWeb's approach to conversational commerce?**
 
-    In NLWeb, [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) are the way for users to communicate with [Host 🤗 domains](<../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>). 
+    In NLWeb, [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) are the way for users to communicate with [Host 🤗 domains](<../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>). 
     
-    - Similar to [Meta's WhatsApp 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/06 📺 WhatsApp business.md>), NLWeb [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) allow users to keep a list of active [Chats 💬](<../35 💬 Chats/Chats 💬/💬 Chat.md>) with [Host 🤗 domains](<../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>). 
+    - Similar to [Meta's WhatsApp 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/06 📺 WhatsApp business.md>), NLWeb [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) allow users to keep a list of active [Chats 💬](<../35 💬 Chats/Chats 💬/💬 Chat.md>) with [Host 🤗 domains](<../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>). 
 
     - Like in [India's ONDC 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/09 🛒 Shopping landscape/01 📺 🇮🇳 India's ONDC.md>), domains can configure multiple types of user inputs - e.g., number, dropdown, calendar. 
     
@@ -99,7 +99,7 @@ Design Decisions
     
     For that, NLWeb supports supply and demand matching at the end of chats: 
     
-    1. chat [Host 🤗 domain](<../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) sends a summary of the [Chat 💬](<../35 💬 Chats/Chats 💬/💬 Chat.md>) to the user's [Wallet 🧑‍🦰 app](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>); 
+    1. chat [Host 🤗 domain](<../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) sends a summary of the [Chat 💬](<../35 💬 Chats/Chats 💬/💬 Chat.md>) to the user's [Wallet 🧑‍🦰 app](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>); 
     2. the [Wallet 🧑‍🦰 app](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) generates a list of next-best actions based on user preferences and contextual awareness; 
     3. the [Wallet 🧑‍🦰 app](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) then maps the actions to available offers and generates a recommendation for the user. 
 

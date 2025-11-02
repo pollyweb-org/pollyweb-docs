@@ -23,9 +23,9 @@
     
         * e.g., [`INFO`](<../🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>), [`TEMP`](<../🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>), [`SUCCESS`](<../🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>), and [`FAILURE`](<../🤔📢 Prompt status/FAILURE ❌/FAILURE ❌ prompt.md>).
   
-        * [Host 🤗 domains](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) speed-up [Chats 💬](<../../Chats 💬/💬 Chat.md>) by taking unilateral two-way-door decisions that can be reverted by users even after other [Prompts 🤔](<../🤔 Prompt.md>) have been sent.
+        * [Host 🤗 domains](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) speed-up [Chats 💬](<../../Chats 💬/💬 Chat.md>) by taking unilateral two-way-door decisions that can be reverted by users even after other [Prompts 🤔](<../🤔 Prompt.md>) have been sent.
 
-        * For example, [Host 🤗 domains](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) may assign default values to options to speed up the process (e.g., [navigation options 🤝](<../../../../3 🤝 Use Cases/03 🧳 Travel/01 🧳 Plans trips 🧭/02 🧭 Return @ Destination.md>)), while still allowing users to go back and change those default options.
+        * For example, [Host 🤗 domains](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) may assign default values to options to speed up the process (e.g., [navigation options 🤝](<../../../../3 🤝 Use Cases/03 🧳 Travel/01 🧳 Plans trips 🧭/02 🧭 Return @ Destination.md>)), while still allowing users to go back and change those default options.
 
     
     --- 
@@ -142,8 +142,8 @@
 
     | [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 What to do? <br>- [ Play ] music <br/>- [ Share ] list | > Play
-    | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ℹ️ You opted to play.
+    | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | 😃 What to do? <br>- [ Play ] music <br/>- [ Share ] list | > Play
+    | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | ℹ️ You opted to play.
     |  
 
     Here's the [Script 📃](<../../Scripts 📃/📃 basics/Script 📃.md>).
@@ -202,8 +202,8 @@
 
     | [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
-    | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 What to do?<br>- [ Play ] music <br/>- [ Share ] list <br/> - [ Speak ] with singer 🔆 | > Speak
-    | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ Over to 👨‍🎤 Any Singer.
+    | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | 😃 What to do?<br>- [ Play ] music <br/>- [ Share ] list <br/> - [ Speak ] with singer 🔆 | > Speak
+    | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | ✅ Over to 👨‍🎤 Any Singer.
     | [ new chat ]
     | 🔎 [Finder](<../../../50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) | ⓘ Any Singer (4.4 ⭐) [+]
     | 👨‍🎤 Singer   | ℹ️ Received fan request.

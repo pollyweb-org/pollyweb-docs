@@ -1,6 +1,6 @@
 # 🤗🪣 Chats @ Host
 
-> Part of [Host 🤗 domain role](<../../🤗🎭 Host role.md>)
+> Part of [Host 🤗 domain role](<../../🤗 Host role/🤗🎭 Host role.md>)
 
 > Stores the content of [`Hello@Host`](<../../🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 

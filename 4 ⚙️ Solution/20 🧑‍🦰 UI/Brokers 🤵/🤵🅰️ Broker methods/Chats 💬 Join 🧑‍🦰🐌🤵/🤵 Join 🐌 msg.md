@@ -15,7 +15,7 @@
 | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
 ...
-| 🤗 [Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 Continue [Yes, No] 
+| 🤗 [Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | 😃 Continue [Yes, No] 
 | | | > Broker 🤵 |
 | 🤵 [Broker](<../../🤵🤲 Broker helper.md>) | 🫥 What do you need? <br/> - [ Home ] menu  <br/> - [ Abandon ] Chat <br/> - [ Something else ] 
 |

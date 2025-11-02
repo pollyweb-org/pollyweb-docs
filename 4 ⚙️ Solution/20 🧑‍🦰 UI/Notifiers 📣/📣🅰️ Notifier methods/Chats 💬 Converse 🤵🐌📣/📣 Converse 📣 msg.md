@@ -34,7 +34,7 @@ Body:
 |Body  |`Wallet` |uuid  | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) | [`Assess@`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Locators 🔆 Assess 🧑‍🦰🐌🤵/🤵 Assess 🐌 msg.md>) [`Pop@`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Pop 🧑‍🦰🐌🤵/🤵 Pop 📃 handler.md>)
 |       | `Hook`| uuid | `Hook` | [`Assess@`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Locators 🔆 Assess 🧑‍🦰🐌🤵/🤵 Assess 🐌 msg.md>) [`Pop@`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Pop 🧑‍🦰🐌🤵/🤵 Pop 📃 handler.md>)
 |      |`Chat`   |uuid  | New [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)  || [`Prompt@`](<../Chats 💬 Prompt 🤵🐌📣/📣 Prompt 🐌 msg.md>)
-|      |`Host`     |string| [Host 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) 
+|      |`Host`     |string| [Host 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) 
 |      |`Host$`     |string| `Domain` | [`Translate@`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>)
 |      |`SmallIcon`|string   | `SmallIcon` | [`Identity@`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Identity.md>)
 |      |`BigIcon`  |string   | `BigIcon` | [`Identity@`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Identity.md>)

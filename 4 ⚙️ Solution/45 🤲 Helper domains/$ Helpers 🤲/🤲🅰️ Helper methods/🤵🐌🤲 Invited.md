@@ -1,6 +1,6 @@
 # 🤵🐌🛠️ Invited @ Host
 
-> Invests a [Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) into a [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>).
+> Invests a [Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) into a [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>).
 
 > Part of the [`Invite` ⏩ flow](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Invite 🤗⏩🤲/🤗 Invite ⏩ flow.md>).
 ><br/> • preceded by the [`Invite@Host`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>) message

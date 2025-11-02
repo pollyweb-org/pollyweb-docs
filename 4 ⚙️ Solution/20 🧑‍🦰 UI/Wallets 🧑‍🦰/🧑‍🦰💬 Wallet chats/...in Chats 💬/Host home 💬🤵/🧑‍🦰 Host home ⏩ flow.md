@@ -13,10 +13,10 @@
 | [Domain](<../../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../../🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
 ...
-| 🤗 [Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 Lost is maze? [Yes, No] 
+| 🤗 [Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | 😃 Lost is maze? [Yes, No] 
 | | | > Broker 🤵 |
 | 🤵 [Broker](<../../../../Brokers 🤵/🤵🤲 Broker helper.md>) | 🫥 What do you need? <br/> - [ Home ] menu <br/> - [ Something else ] | > Home
-| 🤗 [Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 What do you need? <br/> - [ Something ] <br> - [ Something else ]  | 
+| 🤗 [Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | 😃 What do you need? <br/> - [ Something ] <br> - [ Something else ]  | 
 ||
 
 <br/>
