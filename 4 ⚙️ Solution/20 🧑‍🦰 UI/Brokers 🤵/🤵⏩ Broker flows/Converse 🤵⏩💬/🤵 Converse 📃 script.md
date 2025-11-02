@@ -23,59 +23,6 @@
 - EVAL|$:Wallet >> $wallet
 - EVAL|$:Locator >> $locator
 
-# Get the Host details from the Graph
-- SEND >> $domain:
-    Header:
-        To: $.Hosted.Graph
-        Subject: Identity@Graph
-    Body:
-        Domain: $locator.Host
-
-# Save the Host info
-- SAVE|BrokerDomains:
-    Domain: $domain.Domain
-    Domain$: $domain.Name
-    SmallIcon: $domain.SmallIcon
-    BigIcon: $domain.BigIcon
-
-# Get the translation for the language
-- SEND >> $translation:
-    Header:
-        To: $.Hosted.Graph
-        Subject: Translate@Graph
-    Body:
-        Language: $wallet.Language
-        Domain: $locator.Host
-
-# Create a new key pair
-- KEYS >> $keys
-
-# Create a new Chat
-- SAVE|BrokerChats >> $chat:
-    Chat: .UUID()
-    Wallet: $wallet.Wallet
-    # Host info
-    Host: $locator.Host
-    Host$: $translation.Domain
-    # Locator info
-    Key: $locator.Key
-    Parameters: $locator.Parameters
-    # For Wallets to sign messages
-    PrivateKey: $keys.PrivateKey
-    # For domains to verify Wallet messages
-    PublicKey: $keys.PublicKey     
-
-# Add the HOST participant
-- SAVE|BrokerChatters:
-    Chat: $chat.Chat
-    Domain: $chat.Host
-    Role: HOST
-
-# Add the FINDER participant
-- SAVE|BrokerChatters:
-    Chat: $chat.Chat
-    Domain: $wallet.Finder
-    Role: VAULT
 
 # Open the Chat in the Wallet app
 - SEND:
@@ -104,7 +51,7 @@
 
 > Continues on [`UpdateChats@Broker` 📃 script](<../Update Chats 🤵⏩💬/🤵 Update Chats 📃 script.md>)
 
-|Needs | |
+|Uses | |
 |-|-
 | [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Command ⌘.md>) | [`GET`](<../../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) [`KEYS`](<../../../../35 💬 Chats/Scripts 📃/📃 messages 📨/KEYS 🔑/🔑 KEYS ⌘ cmd.md>) [`SAVE`](<../../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`SEND`](<../../../../35 💬 Chats/Scripts 📃/📃 messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>) [`RUN`](<../../../../35 💬 Chats/Scripts 📃/📃 control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
 | [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Converse@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Converse 🤵🐌📣/📣 Converse 📣 msg.md>) <br/>  [`Identity@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Identity.md>)  <br/> [`Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>)

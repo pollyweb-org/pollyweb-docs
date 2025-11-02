@@ -106,7 +106,7 @@ def _make_hardcoded_replacer(func_name: str, token_literal: str, token_key: str,
     return replacer
 
 
-PLACEHOLDER_REPLACEMENT = "[Placeholder 🧠](<$Placeholder 🧠.md>)"
+PLACEHOLDER_REPLACEMENT = "[Placeholder 🧠](<Holder 🧠.md>)"
 HOLDER_REPLACEMENT = "[Holder 🧠](<Holder 🧠.md>)"
 HOSTS_REPLACEMENT = "[Host 🤗 domains](<../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)"
 HOST_REPLACEMENT = "[Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)"
@@ -363,7 +363,7 @@ _GEN_BASIC = [
     ("replace_chat_tokens", "Chat", "chat", "[Chat 💬](<💬 Chat.md>)", "Chat"),
     ("replace_chats_tokens", "Chats", "chats", "[Chats 💬](<💬 Chat.md>)", "Chats"),
     ("replace_settings_tokens", "$.Hosted", "$.settings", "[`$.Hosted` 🧠 holder](<📦 $.Hosted 🧠 holder.md>)", "$.Hosted"),
-    ("replace_placeholders_tokens", "Placeholders", "placeholders", "[Placeholders 🧠](<$Placeholder 🧠.md>)", "Placeholders"),
+    ("replace_placeholders_tokens", "Placeholders", "placeholders", "[Placeholders 🧠](<Holder 🧠.md>)", "Placeholders"),
     ("replace_domain_tokens", "domain", "domain", "[domain 👥](<👥 Domain.md>)", "domain"),
     ("replace_domains_tokens", "domains", "domains", "[domains 👥](<👥 Domain.md>)", "domains"),
     ("replace_dataset_tokens", "Dataset", "dataset", "[Dataset 🪣](<🪣 Dataset.md>)", "Dataset"),
