@@ -7,7 +7,7 @@
     * for [Chats 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) in the [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     * and notifies the [Notifier 📣 domain](<../../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>) about the changes.
 
-> Continues from the [`Converse` 📃 script](<../Converse 🤵⏩💬/🤵 Converse 📃 script.md>)
+> Continues from the [`Converse` 📃 script](<../../🤵🅰️ Broker methods/Locators 🔆 Assess 🧑‍🦰🐌🤵/scripts/🤵 Call Converse 📃 script.md>)
 
 
 <br/>

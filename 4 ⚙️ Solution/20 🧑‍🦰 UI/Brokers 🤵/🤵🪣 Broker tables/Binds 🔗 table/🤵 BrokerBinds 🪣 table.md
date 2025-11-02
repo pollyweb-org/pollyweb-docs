@@ -15,10 +15,10 @@ Here's the [Itemized 🛢 schema](<../../../../30 🧩 Data/Datasets 🪣/🪣�
 # Binds.yaml
 Prefix: Broker
 Table: Binds
-Key: Bind
+Key: ID
 Parents:
-    Wallet: { Wallets.Wallet: Binds.Wallet }
-    Vault: { Domains.Domain: Binds.Vault }
+    Wallet: { Wallets.ID: Binds.Wallet }
+    Vault: { Domains.Name: Binds.Vault }
 ```
 
 
@@ -36,7 +36,7 @@ Here's the [`GET` command](<../../../../35 💬 Chats/Scripts 📃/📃 datasets
 
 ```yaml
 # GET|Binds@Broker|<bind-id>
-Bind: <bind-id>
+ID: <bind-id>
 Vault: any-vault.dom
 Wallet: <wallet-uuid>
 Schema: any-authority.dom/ANY-SCHEMA:1.0
