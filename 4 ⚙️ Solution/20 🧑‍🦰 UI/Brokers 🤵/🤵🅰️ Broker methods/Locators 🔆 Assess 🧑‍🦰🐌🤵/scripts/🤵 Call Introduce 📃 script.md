@@ -9,18 +9,18 @@
 
 # Verify the required inputs
 - ASSERT|$.Inputs:
-    AllOf: locator, chat, wallet
+    AllOf: chat
 
 # Ask Finders to introduce Hosts
 - SEND:
     Header:
-        To: $:wallet.Finder
+        To: $:chat.Wallet.Finder
         Subject: Introduce@Finder
     Body:
-        Chat: $:chat.Chat
-        Host: $:locator.Host
-        Language: $:wallet.Language
-        Reviewer: $:wallet.Reviewer
+        Chat: $:chat.ID
+        Host: $:chat.Host
+        Language: $:chat.Wallet.Language
+        Reviewer: $:chat.Wallet.Reviewer
 ```
 
 > Continues on the [`Introduce@Finder` 📃 handler](<../../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/Introduce 🤵🐌🔎/🔎 Introduce 📃 handler.md>)

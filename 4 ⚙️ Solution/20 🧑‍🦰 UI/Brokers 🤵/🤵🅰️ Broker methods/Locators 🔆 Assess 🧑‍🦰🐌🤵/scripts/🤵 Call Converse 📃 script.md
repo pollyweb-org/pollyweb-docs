@@ -20,20 +20,17 @@
     Body:
         Wallet: $:chat.Wallet
         Hook: $.Msg.Hook
-        Chat: $:chat.Chat
+        Chat: $:chat.ID
         PrivateKey: $:chat.PrivateKey
-        Host: $:chat.Host
-        Host$: $:chat.Host$
+        Host: $:chat.Host.Name
+        Host$: $:chat.Host.Title
         SmallIcon: $:chat.Host.SmallIcon
         BigIcon: $:chat.Host.BigIcon
 
 # Update the Chats
-- RUN|UpdateChats@Broker:
-    wallet: $:chat.Wallet.Wallet
+- RUN|Update-Chats:
+    wallet: $:chat.Wallet
 ```
-
-
-> Continues on [`UpdateChats@Broker` 📃 script](<../../../🤵⏩ Broker flows/Update Chats 🤵⏩💬/🤵 Update Chats 📃 script.md>)
 
 |Uses | |
 |-|-

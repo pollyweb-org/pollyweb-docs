@@ -30,7 +30,7 @@
     - SAVE|BrokerBinds >> $item:
         Bind: $bind
         Vault: $.Msg.Host
-        Wallet: $chat.Wallet.Wallet
+        Wallet: $chat.Wallet.ID
         Schema: $schema.Schema
 
     # Add to the list of binds

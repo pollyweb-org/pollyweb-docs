@@ -14,9 +14,9 @@ Here's the [Itemized 🛢 schema](<../../../../30 🧩 Data/Datasets 🪣/🪣�
 # Notifiers.yaml
 Prefix: Broker
 Table: Notifiers
-Key: Notifier
+Key: Name
 Children:
-    Wallets: { Wallets.Notifier: Notifiers.Notifier }
+    Wallets: { Wallets.Notifier: Notifiers.Name }
 ```
 
 | Link | Table | Contains
@@ -32,5 +32,5 @@ Here's the [`GET` command](<../../../../35 💬 Chats/Scripts 📃/📃 datasets
 
 ```yaml
 # GET|Notifiers|any-notifier.dom
-Notifier: any-notifier.dom
+Name: any-notifier.dom
 ```

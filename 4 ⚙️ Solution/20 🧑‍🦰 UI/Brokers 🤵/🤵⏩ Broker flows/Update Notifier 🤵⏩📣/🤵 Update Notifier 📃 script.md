@@ -8,7 +8,7 @@
 
 ```yaml
 RUN|Updated@Notifier:
-    Wallet: <wallet-uuid>
+    wallet: $wallet
     Updates: [ CHATS, BINDS, TOKENS ]
 ```
 
@@ -19,26 +19,20 @@ RUN|Updated@Notifier:
 
 # Assert required inputs
 - ASSERT|$.Inputs:
-    OneOf: Wallet, Updates
-    UUIDs: Wallet
+    OneOf: wallet, Updates
     Lists: Updates
 
 # Assert the options
 - ASSERT|$:Updates:
     Enum: CHATS, BINDS, TOKENS
-
-# Get the Wallet
-- GET >> $wallet:
-    Set: BrokerWallets
-    Key: $:Wallet
     
 # Tell the Notifier to perform updates
 - SEND:
     Header:
-        To: $wallet.Notifier
+        To: $:wallet.Notifier
         Subject: Updated@Notifier
     Body:
-        Wallet: $wallet.Wallet
+        Wallet: $:wallet.ID
         Updates: $:Updates
 ```
 

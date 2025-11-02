@@ -63,7 +63,7 @@
     
 # Update the binds    
 - RUN|UpdateBinds@Broker:
-    Wallet: $chat.Wallet.Wallet
+    wallet: $chat.Wallet
 ```
 
 Needs ||

@@ -29,7 +29,7 @@
 - SAVE|TalkerHooks >> $hook:
     Hook: .UUID
     Broker: $.Chat.Broker
-    Chat: $.Chat.Chat
+    Chat: $.Chat.ID
     PublicKey: $.Chat.PublicKey
     Schemas: $:Schemas
     Context: $:Context
