@@ -14,7 +14,7 @@
 
 | [Domain](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 | - | - | - |
-| 🔎 [Finder](<../../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎🫥 Finder agent.md>) | ⓘ Any Vault (4.4 ⭐) [+]
+| 🔎 [Finder](<../../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | ⓘ Any Vault (4.4 ⭐) [+]
 | 🤵 [Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | ⓘ Bind: Any Bind 🔗 [+]
 | 🗄️ [Vault](<../../🗄️🎭 Vault role.md>) | ℹ️ Context: Any Locator 🔆 [+]
 | 🗄️ [Vault](<../../🗄️🎭 Vault role.md>) | 😃 Need help with this? [Yes, No] | > Yes

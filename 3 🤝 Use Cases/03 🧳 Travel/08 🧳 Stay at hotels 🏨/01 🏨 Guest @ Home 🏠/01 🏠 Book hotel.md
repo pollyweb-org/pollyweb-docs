@@ -13,7 +13,7 @@ How to book a room at a hotel?
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 💬 How can I help with that? <br> - [ Book ] with 🌍 Any Agency <br/> - [ Something else ] | > Book
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | ✅ Over to 🌍 Any Agency.
 | [ new chat ]
-| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎🫥 Finder agent.md>) | ⓘ Any Agency (4.4 ⭐) [+]
+| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | ⓘ Any Agency (4.4 ⭐) [+]
 | 🌍 Agency   | ℹ️ Received booking request.
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 [Ready to book?](<../../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 methods 🤵/INFORM 📝/📝 INFORM ⌘ cmd.md>) [Yes, No] <br/> - your scheduler sets when 🗓️  <br/> - your curator filters options 🧚 <br/> - your persona sets contacts 🧢 <br/> - your payer associates a card 💳 <br/> - save the booking on wallet 🤵 <br/> - click the booking to change 🎫  <br/> - tap a hotel tag on arrival ✨ | > Yes
 | [🗓️ Scheduler](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Schedulers 🗓️/$ 🗓️🫥 Scheduler agent.md>) | 🫥 Any of these trips? [No] <br/>- [ Feb 18-20 ] to Madrid 🇪🇸 <br/>- [ Mar 26-28 ] to London 🇬🇧 | > Feb 18-20

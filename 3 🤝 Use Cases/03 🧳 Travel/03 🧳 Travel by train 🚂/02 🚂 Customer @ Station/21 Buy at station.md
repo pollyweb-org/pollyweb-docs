@@ -5,7 +5,7 @@ Buy a train ticket at the train station 🚂
 | [Domain](<../../../../4 ⚙️ Solution/40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../4 ⚙️ Solution/35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 | - | - | - |
 | | | 🔆 [tap](<../../../../4 ⚙️ Solution/25 🔆 Locators/Locators 🔆/🔆 Locator.md>)
-| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎🫥 Finder agent.md>) | ⓘ Any Railway (4.3 ⭐) [+]
+| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | ⓘ Any Railway (4.3 ⭐) [+]
 | 🚂 Railway | 😃 Hi! What do you need? <br/>- [ Tickets ] <br/>- [ Timetable ] | > Tickets
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Navigators 🧭/$ 🧭🫥 Navigator agent.md>) | 🫥 Share directions? [Yes, No] <br/> - to MAD T2 <br/> - 🧑‍🦳 mom travels for free | > Yes
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Navigators 🧭/$ 🧭🫥 Navigator agent.md>) | ⓘ Best train options: [+] <br/> - 9:15 on platform A 🐜<br/>- 9:30 on platform C 🦀
