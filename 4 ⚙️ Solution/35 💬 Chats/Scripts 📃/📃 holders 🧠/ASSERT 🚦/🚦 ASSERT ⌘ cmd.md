@@ -112,7 +112,7 @@
     | `~=` | Same content out of order | `[1,2] = [2,1]`
     |       | Same content out of order | `{A:1, B:2} = {B:2, A:1}`
     |       |Same [Schema 🧩 code](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | `.HOST ~= nlweb.org/HOST:1.0 `|
-    |       | Same [domain 👥](<../../../../40 👥 Domains/👥 Domain.md>) name | `domain.dom ~= DOMAIN.DOM`
+    |       | Same [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name | `domain.dom ~= DOMAIN.DOM`
     |       | Same [`{.Today}` 🐍](<../../📃 basics/Function 🐍.md>) date | `~= 2013-04-01T05:00:30.001Z`
     
     

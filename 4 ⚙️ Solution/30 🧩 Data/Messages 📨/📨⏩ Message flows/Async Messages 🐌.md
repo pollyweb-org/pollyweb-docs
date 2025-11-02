@@ -8,7 +8,7 @@
 
 1. **What are asynchronous messages?**
 
-    [Domains 👥](<../../../40 👥 Domains/👥 Domain.md>) send fire-and-forget messages and events. 
+    [Domains 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) send fire-and-forget messages and events. 
     * Any eventual answer, if expected, will arrive via another asynchronous message.
 
     ---

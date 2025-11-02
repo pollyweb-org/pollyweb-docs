@@ -2,8 +2,8 @@
 
 1. **What is a Filer role?**
 
-    A [domain 👥](<../../40 👥 Domains/👥 Domain.md>) with a [Filer 🗂️ role](<🗂️🎭 Filer role.md>)
-    * is any [domain 👥](<../../40 👥 Domains/👥 Domain.md>) that stores files
+    A [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) with a [Filer 🗂️ role](<🗂️🎭 Filer role.md>)
+    * is any [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) that stores files
     * and syncs them locally via a [Syncer 🔃 tool](<../../55 👷 Build domains/Syncers 🔃/🔃🛠️ Syncer tool.md>).
 
     ---

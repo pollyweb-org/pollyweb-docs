@@ -6,7 +6,7 @@
 
     Relayers 🛰️ are [Helper 🤲 domains](<../$ Helpers 🤲/🤲👥 Helper domain.md>) 
     * that control on-premise [Antenna 📡 router devices](<../../60 🧰 Edge/61 🔌 Pluggables/02 📡🔀 Antenna router.md>) 
-    * owned by other [domains 👥](<../../40 👥 Domains/👥 Domain.md>).
+    * owned by other [domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>).
   
     ---
     <br/>
@@ -16,7 +16,7 @@
 
     | Feature | Description
     |-|-
-    | `Connectivity` | Relayer 🛰️ helpers ensure that there is a bidirectional real-time communication over the internet between an on-premise [Pluggable 🔌 device](<../../60 🧰 Edge/61 🔌 Pluggables/01 🔌 Pluggable device.md>) and the [domain 👥](<../../40 👥 Domains/👥 Domain.md>) who owns the [Antenna 📡 router device](<../../60 🧰 Edge/61 🔌 Pluggables/02 📡🔀 Antenna router.md>), thus removing the undifferentiated heavy-lifting of managing Wi-Fi onboarding and real-time communication with MQTT or WebSockets.
+    | `Connectivity` | Relayer 🛰️ helpers ensure that there is a bidirectional real-time communication over the internet between an on-premise [Pluggable 🔌 device](<../../60 🧰 Edge/61 🔌 Pluggables/01 🔌 Pluggable device.md>) and the [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) who owns the [Antenna 📡 router device](<../../60 🧰 Edge/61 🔌 Pluggables/02 📡🔀 Antenna router.md>), thus removing the undifferentiated heavy-lifting of managing Wi-Fi onboarding and real-time communication with MQTT or WebSockets.
     | `API`| Relayer 🛰️ helpers help translate the machine-level APIs of [Pluggable 🔌 devices](<../../60 🧰 Edge/61 🔌 Pluggables/01 🔌 Pluggable device.md>) into natural language commands described in the [API Schema Code 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) specified by the [Pluggable's Brand 🍏 domain](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>), thus allowing LLMs to use natural language to control the devices.
 
     ---
@@ -34,13 +34,13 @@
     |3| `Brand` | The Relayer 🛰️ registers the [Pluggable's Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) in the [Pluggable's Brand 🍏 domain](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>).
     |4| `ApiSchema`| The [Brand 🍏](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) tells the Relayer 🛰️ where to read the [API Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) of the [Pluggable 🔌 device](<../../60 🧰 Edge/61 🔌 Pluggables/01 🔌 Pluggable device.md>).
     |5| `Graph`|  The Relayer 🛰️ domain reads the [API Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) from a [Graph 🕸 helper domain](<../Graphs 🕸/🕸🤲 Graph helper.md>).
-    |6| `Domain` | The Relayer 🛰️ domain informs the owner [domain 👥](<../../40 👥 Domains/👥 Domain.md>) of the newly-plugged [Pluggable 🔌 device](<../../60 🧰 Edge/61 🔌 Pluggables/01 🔌 Pluggable device.md>).
-    |A| `Command`| The owner [domain 👥](<../../40 👥 Domains/👥 Domain.md>) sends a natural language command (e.g., `Test`) on the [Pluggable 🔌 device](<../../60 🧰 Edge/61 🔌 Pluggables/01 🔌 Pluggable device.md>).
+    |6| `Domain` | The Relayer 🛰️ domain informs the owner [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) of the newly-plugged [Pluggable 🔌 device](<../../60 🧰 Edge/61 🔌 Pluggables/01 🔌 Pluggable device.md>).
+    |A| `Command`| The owner [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) sends a natural language command (e.g., `Test`) on the [Pluggable 🔌 device](<../../60 🧰 Edge/61 🔌 Pluggables/01 🔌 Pluggable device.md>).
     |B| `Translate`| The Relayer 🛰️ translates it with a cached [API Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) and relays it via the [Antenna 📡 device](<../../60 🧰 Edge/61 🔌 Pluggables/02 📡🔀 Antenna router.md>).
     |C| `Execute` | The [Antenna 📡 router device](<../../60 🧰 Edge/61 🔌 Pluggables/02 📡🔀 Antenna router.md>) executes the translated command to the [Pluggable 🔌 device](<../../60 🧰 Edge/61 🔌 Pluggables/01 🔌 Pluggable device.md>).
     |X| `Listen` | The [Antenna 📡 router device](<../../60 🧰 Edge/61 🔌 Pluggables/02 📡🔀 Antenna router.md>) listens to machine-level events ⚠️ from the [Pluggable 🔌 device](<../../60 🧰 Edge/61 🔌 Pluggables/01 🔌 Pluggable device.md>).
     |Y| `Translate` | The [Antenna 📡 device](<../../60 🧰 Edge/61 🔌 Pluggables/02 📡🔀 Antenna router.md>) sends the events to the Relayer 🛰️ domain for natural language translation.
-    |Z| `Propagate` | The Relayer 🛰️ sends sends the translated events to the [Buffer ⏳ helper](<../Buffers ⏳/⏳🤲 Buffer helper.md>) of the owner [domain 👥](<../../40 👥 Domains/👥 Domain.md>).
+    |Z| `Propagate` | The Relayer 🛰️ sends sends the translated events to the [Buffer ⏳ helper](<../Buffers ⏳/⏳🤲 Buffer helper.md>) of the owner [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>).
 
     ---
     <br/>
@@ -48,7 +48,7 @@
 
 1. **How do domains send commands to Pluggables?**
 
-    For a [domain 👥](<../../40 👥 Domains/👥 Domain.md>) to send an API command to a [Pluggable 🔌 device](<../../60 🧰 Edge/61 🔌 Pluggables/01 🔌 Pluggable device.md>) via a Relayer 🛰️ domain, it needs to send the following parameters.
+    For a [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) to send an API command to a [Pluggable 🔌 device](<../../60 🧰 Edge/61 🔌 Pluggables/01 🔌 Pluggable device.md>) via a Relayer 🛰️ domain, it needs to send the following parameters.
 
     |Parameter|Description
     |-|-

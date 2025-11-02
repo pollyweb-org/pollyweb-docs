@@ -6,7 +6,7 @@
     A [Graph 🕸 domain](<🕸🤲 Graph helper.md>) is 
     * any [Helper 🤲 domain](<../$ Helpers 🤲/🤲👥 Helper domain.md>) 
     * that subscribes to [domain Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>) change events from [Listener 👂 domains](<../Listeners 👂/👂🤲 Listener helper.md>)
-    * then builds network representations of [Trust 🫡](<../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) relationships between [domains 👥](<../../40 👥 Domains/👥 Domain.md>)
+    * then builds network representations of [Trust 🫡](<../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) relationships between [domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>)
     * including indirect relationships via [Authority 🏛️ domains](<../Authorities 🏛️/🏛️🤲 Authority helper.md>). 
 
     ---
@@ -14,18 +14,18 @@
 
 1. **What can domains use Graphs for?**
 
-    [Graph 🕸 domains](<🕸🤲 Graph helper.md>) can answer the following questions synchronously from any [domain 👥](<../../40 👥 Domains/👥 Domain.md>).
+    [Graph 🕸 domains](<🕸🤲 Graph helper.md>) can answer the following questions synchronously from any [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>).
 
     |Scope&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Question
     |-|-
-    |[👥 Identity](<../../40 👥 Domains/👥 Domain.md>)| What's the identity of [domain 👥](<../../40 👥 Domains/👥 Domain.md>) `D`?
-    |[🫡 Trusts](<../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) | Can I trust the data of [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) `S` sent by [domain 👥](<../../40 👥 Domains/👥 Domain.md>) `D`?
-    |[🫡 Trusts](<../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) | Can I trust my data of [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) `S` to a [domain 👥](<../../40 👥 Domains/👥 Domain.md>) `D`?
+    |[👥 Identity](<../../40 👥 Domains/👥 Domain/👥 Domain.md>)| What's the identity of [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) `D`?
+    |[🫡 Trusts](<../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) | Can I trust the data of [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) `S` sent by [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) `D`?
+    |[🫡 Trusts](<../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) | Can I trust my data of [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) `S` to a [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) `D`?
     | [🧩 Schemas](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | What's the schema definition of [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) `S`?
     | [🎫 Tokens](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) | What's the historical public [📨 DKIM](<../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) key of [🎫 Token](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) `T`?
-    | [🪣 Datasets](<../../41 🎭 Domain Roles/Datasetters 🪣/🪣🎭 Datasetter role.md>) | What are the synchronous [Datasets 🪣](<../../41 🎭 Domain Roles/Datasetters 🪣/🪣🎭 Datasetter role.md>) of [domain 👥](<../../40 👥 Domains/👥 Domain.md>) `D`?
-    | [🏭 Supplies](<../../41 🎭 Domain Roles/Suppliers 🏭/🏭🎭 Supplier role.md>) | What are the asynchronous [Supplies 🏭](<../../41 🎭 Domain Roles/Suppliers 🏭/🏭🎭 Supplier role.md>) of [domain 👥](<../../40 👥 Domains/👥 Domain.md>) `D`?
-    | [🌬️ Streams](<../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>) | What are the event [Streams 🌬️](<../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>) of [domain 👥](<../../40 👥 Domains/👥 Domain.md>) `D`?
+    | [🪣 Datasets](<../../41 🎭 Domain Roles/Datasetters 🪣/🪣🎭 Datasetter role.md>) | What are the synchronous [Datasets 🪣](<../../41 🎭 Domain Roles/Datasetters 🪣/🪣🎭 Datasetter role.md>) of [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) `D`?
+    | [🏭 Supplies](<../../41 🎭 Domain Roles/Suppliers 🏭/🏭🎭 Supplier role.md>) | What are the asynchronous [Supplies 🏭](<../../41 🎭 Domain Roles/Suppliers 🏭/🏭🎭 Supplier role.md>) of [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) `D`?
+    | [🌬️ Streams](<../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>) | What are the event [Streams 🌬️](<../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>) of [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) `D`?
     
     ---
     <br/>
@@ -39,7 +39,7 @@
 
     - Domains have the responsibility to raise an event every time they publish a new version of their [domain Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>) or [📨 DKIM](<../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>). 
     
-    - To allow any graph to subscribe to changes in any [domain Manifests 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>), NLWeb provides a cluster of [Listener 👂 nodes](<../Listeners 👂/👂🤲 Listener helper.md>) for [domains 👥](<../../40 👥 Domains/👥 Domain.md>) to publish change notifications to, and for [Graph 🕸 domains](<🕸🤲 Graph helper.md>) to receive notifications from. 
+    - To allow any graph to subscribe to changes in any [domain Manifests 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>), NLWeb provides a cluster of [Listener 👂 nodes](<../Listeners 👂/👂🤲 Listener helper.md>) for [domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) to publish change notifications to, and for [Graph 🕸 domains](<🕸🤲 Graph helper.md>) to receive notifications from. 
     
     - Upon receiving a notification, [Graph 🕸 domains](<🕸🤲 Graph helper.md>) update their graph representations. 
 
@@ -59,7 +59,7 @@
 1. **How can domains reset their Manifest representation on Graphs?**
 
     To reset their [domain Manifests 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>):
-    * a [domain 👥](<../../40 👥 Domains/👥 Domain.md>) can send a RESET event to their [Listener 👂 helper domain](<../Listeners 👂/👂🤲 Listener helper.md>);
+    * a [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) can send a RESET event to their [Listener 👂 helper domain](<../Listeners 👂/👂🤲 Listener helper.md>);
     * subscribed [Graph 🕸 domains](<🕸🤲 Graph helper.md>) will interpret it as the need to start from scratch.
 
     ---
@@ -75,7 +75,7 @@
 1. **How can domains know about Manifest events placed on hold?**
 
     [Graph 🕸 domains](<🕸🤲 Graph helper.md>) raise alert events. 
-    - Interested domains should [subscribe 🔔](<../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>) to the Graph's [Streamer 🌬️ role](<../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>), filtering the [domains 👥](<../../40 👥 Domains/👥 Domain.md>) they're interested in receiving alert notifications about. 
+    - Interested domains should [subscribe 🔔](<../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>) to the Graph's [Streamer 🌬️ role](<../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>), filtering the [domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) they're interested in receiving alert notifications about. 
     - For privacy reasons, some security alerts may only be pushed to the [Subscriber 🔔 domain](<../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>) that is referenced in the alert.
 
     ---

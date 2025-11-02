@@ -2,7 +2,7 @@
 
 # 👥⏩👥 Async Message 🐌
 
-> Part of [Domain 👥](<../../👥 Domain.md>)
+> Part of [Domain 👥](<../../👥 Domain/👥 Domain.md>)
 
 > Implements [🐌📨 Async Messages](<../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Async Messages 🐌.md>)
 

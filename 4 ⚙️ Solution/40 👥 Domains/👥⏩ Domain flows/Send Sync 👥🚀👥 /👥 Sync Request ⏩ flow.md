@@ -1,6 +1,6 @@
 # 👥⏩👥 Sync Request 🚀
 
-> Part of [Domain 👥](<../../👥 Domain.md>)
+> Part of [Domain 👥](<../../👥 Domain/👥 Domain.md>)
 
 
 > Implements [🚀📨 Synchronous request messages](<../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Sync Requests 🚀.md>)

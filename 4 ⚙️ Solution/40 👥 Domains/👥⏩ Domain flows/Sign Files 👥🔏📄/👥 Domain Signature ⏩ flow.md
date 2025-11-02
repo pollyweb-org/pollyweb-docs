@@ -60,7 +60,7 @@
     |Property| Type | Details
     |-|-|-
     | `Schema` | string |  `nlweb.dom/SIGNATURE:1.0`
-    | `Domain` | string | The [domain 👥](<../../👥 Domain.md>) name
+    | `Domain` | string | The [domain 👥](<../../👥 Domain/👥 Domain.md>) name
     | `Hash` | string |  The hash of the file
     | `Signed` | timestamp | When it was signed
     | `DKIM`| string | The [DKIM 📨](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Public Key.md>) key used to sign
@@ -71,7 +71,7 @@
 
 1. **How do sender domains stamp files**?
     
-    To stamp a file, sender [domains 👥](<../../👥 Domain.md>): 
+    To stamp a file, sender [domains 👥](<../../👥 Domain/👥 Domain.md>): 
     1. calculate the hash of the file without the stamp; 
     2. create a stamp with hash but without the signature;
     3. create a signature from the stamp;
@@ -83,7 +83,7 @@
 
 1. **How do receiver domains verify a sender's signature**?
 
-    To verify a file, receiver [domains 👥](<../../👥 Domain.md>): 
+    To verify a file, receiver [domains 👥](<../../👥 Domain/👥 Domain.md>): 
     1. calculate the hash of the file without the stamp;
     2. compare it with the hash in the stamp; 
     3. get the public key for the DKIM by calling [`PublicKey@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Public Key.md>);

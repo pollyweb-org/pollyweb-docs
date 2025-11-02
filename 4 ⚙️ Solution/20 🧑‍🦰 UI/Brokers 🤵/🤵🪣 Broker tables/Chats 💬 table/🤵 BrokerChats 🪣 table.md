@@ -27,7 +27,7 @@ Children:
 | Link | Table | Contains
 |-|-|-
 | Parents   | [`Wallets` 🪣](<../Wallets 🧑‍🦰 table/🤵 Wallets 🪣 table.md>) | [Wallets 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
-|           | [`Domains` 🪣](<../Domains 👥 table/🤵 BrokerDomains 🪣 table.md>) | [domains 👥](<../../../../40 👥 Domains/👥 Domain.md>)
+|           | [`Domains` 🪣](<../Domains 👥 table/🤵 BrokerDomains 🪣 table.md>) | [domains 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
 | Children | [`Chatters` 🪣](<../Chatters 👥 table/🤵 BrokerChatters 🪣 table.md>) | [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) participants
 |
 

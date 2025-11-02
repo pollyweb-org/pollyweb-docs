@@ -8,7 +8,7 @@
 
 1. **What are Synchronous Requests?**
 
-    [Domains 👥](<../../../40 👥 Domains/👥 Domain.md>) send requests and wait for the immediate response over an HTTPS request.
+    [Domains 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) send requests and wait for the immediate response over an HTTPS request.
 
     ---
     <br/>

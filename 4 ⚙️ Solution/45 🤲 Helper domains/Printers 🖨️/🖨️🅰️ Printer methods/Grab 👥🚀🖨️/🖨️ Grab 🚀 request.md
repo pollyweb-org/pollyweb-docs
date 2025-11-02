@@ -19,7 +19,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From`|domain| Caller [domain 👥](<../../../../40 👥 Domains/👥 Domain.md>) name
+|Header|`From`|domain| Caller [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name
 ||`To`|domain| [Printer 🖨️ domain](<../../🖨️🤲 Printer helper.md>) name
 || `Subject`| string | `Grab@Printer`
 |Body|`Alias`| string | Unique alias on the [Printer 🖨️](<../../🖨️🤲 Printer helper.md>)

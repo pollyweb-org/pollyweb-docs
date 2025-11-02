@@ -3,7 +3,7 @@
 
 1. **What is a Subscriber domain role in NLWeb?**
 
-    A Subscriber 🔔 is any [domain 👥](<../../40 👥 Domains/👥 Domain.md>) that 
+    A Subscriber 🔔 is any [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) that 
     * leverages a [Buffer ⏳ helper domain](<../../45 🤲 Helper domains/Buffers ⏳/⏳🤲 Buffer helper.md>) 
     * to subscribe to events from a [Streamer 🌬️ domain](<../Streamers 🌬️/🌬️🎭 Streamer role.md>).
 

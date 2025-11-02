@@ -3,7 +3,7 @@
 
 1. **What are Custodian domains in NLWeb?**
 
-    A Custodian 🧳 [domain 👥](<../../40 👥 Domains/👥 Domain.md>) 
+    A Custodian 🧳 [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) 
     * is an [Agent 🫥 vault](<../$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>) 
     * that users can leverage to manage their [Things 💠](<../../25 🔆 Locators/Things 💠/💠🔆 Thing locator.md>).
 

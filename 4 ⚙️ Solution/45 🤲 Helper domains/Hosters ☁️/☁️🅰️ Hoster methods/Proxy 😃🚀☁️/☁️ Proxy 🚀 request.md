@@ -4,7 +4,7 @@
 * A [Hoster ☁️ helper domain](<../../☁️🤲 Hoster helper.md>) 
     * proxies [Sync Requests 🚀](<../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Sync Requests 🚀.md>)
     * from a [Talker 😃 helper domain](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>)
-    * to other [domains 👥](<../../../../40 👥 Domains/👥 Domain.md>).
+    * to other [domains 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>).
 
 
 ## Flow
@@ -32,7 +32,7 @@ Body:
 | Header    |`From`|domain| [Talker 😃](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>)
 |           |`To`|domain| [Hoster ☁️](<../../☁️🤲 Hoster helper.md>)
 |           | `Subject`| string | `Proxy@Hoster`
-| Body      |`To`|domain| [domain 👥](<../../../../40 👥 Domains/👥 Domain.md>) name
+| Body      |`To`|domain| [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name
 |           | `Subject`| string | Method name
 |           | `Body` | any | [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) body
 |       
