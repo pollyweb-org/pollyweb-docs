@@ -10,8 +10,8 @@
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header | `From` | string
-|| `To` | string
+| Header |`From`| string
+||`To`|string
 ||`Subject` | string | `Refund@Collector`
 |Body| `ChargeID` | uuid
 

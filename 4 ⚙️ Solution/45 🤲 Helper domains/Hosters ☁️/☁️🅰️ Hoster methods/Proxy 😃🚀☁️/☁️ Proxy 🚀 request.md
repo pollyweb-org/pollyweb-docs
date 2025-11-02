@@ -29,10 +29,10 @@ Body:
 
 |Object|Property|Type|Description|Origin
 |-|-|-|-|-
-| Header    | `From`| string    | [Talker 😃](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>)
-|           | `To`  | string    | [Hoster ☁️](<../../☁️🤲 Hoster helper.md>)
+| Header    |`From`|domain| [Talker 😃](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>)
+|           |`To`|domain| [Hoster ☁️](<../../☁️🤲 Hoster helper.md>)
 |           | `Subject`| string | `Proxy@Hoster`
-| Body      | `To`  | string | [domain 👥](<../../../../40 👥 Domains/👥 Domain.md>) name
+| Body      |`To`|domain| [domain 👥](<../../../../40 👥 Domains/👥 Domain.md>) name
 |           | `Subject`| string | Method name
 |           | `Body` | any | [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) body
 |       

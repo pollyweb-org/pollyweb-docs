@@ -22,8 +22,8 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From` | string | [Streamer 🌬️ domain](<../../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>) name
-||`To`| string | [Buffer ⏳ helper domain](<../⏳🤲 Buffer helper.md>) name
+|Header|`From`|domain| [Streamer 🌬️ domain](<../../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>) name
+||`To`|domain| [Buffer ⏳ helper domain](<../⏳🤲 Buffer helper.md>) name
 ||`Subject`| string | `Push@Buffer`
 |Body| `Subscriber`| string | [Subscriber 🔔 domain](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>) name
 || `Queue`| uuid | Queue from [`Queue@Buffer`](<🔔🐌⏳ Queue.md>)

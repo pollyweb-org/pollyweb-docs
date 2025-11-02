@@ -39,8 +39,8 @@
     |Property| Description
     |-|-
     | `🤝` | The versioned [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>) of the envelope.
-    | `From` | The name of the [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) who sent the message.
-    | `To`| The name of the [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) for whom the message is intended.
+    |`From`| The name of the [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) who sent the message.
+    |`To`| The name of the [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) for whom the message is intended.
     | `Correlation`| The unique ID in the sender, for deduping.
     | `Timestamp`| The date and time of the message, in UTC format.
     | `Subject`| The method to be executed on the receiver.

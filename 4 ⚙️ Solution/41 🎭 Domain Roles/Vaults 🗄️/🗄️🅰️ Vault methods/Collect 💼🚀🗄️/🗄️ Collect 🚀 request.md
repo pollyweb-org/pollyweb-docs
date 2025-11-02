@@ -32,8 +32,8 @@ Body:
 
 |Object|Property|Type|Description|Origin
 |-|-|-|-|-|
-|Header|`From` | string | [Consumer 💼](<../../../Consumers 💼/💼🎭 Consumer role.md>) | [`Consume@`](<../../../Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
-|| `To`| string | [Vault 🗄️](<../../🗄️🎭 Vault role.md>) | [`Consume@`](<../../../Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
+|Header|`From`|domain| [Consumer 💼](<../../../Consumers 💼/💼🎭 Consumer role.md>) | [`Consume@`](<../../../Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
+||`To`|domain| [Vault 🗄️](<../../🗄️🎭 Vault role.md>) | [`Consume@`](<../../../Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
 ||`Subject` | string | `Collect@Vault`
 |Body|`Collect` | uuid | `Collect` | [`Consume@`](<../../../Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
 |
