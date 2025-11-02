@@ -16,7 +16,7 @@
 
 1. **How do Notifier domains work?**
     
-    ![](<📣👥 Notifier 🏞️ img.png>)
+    ![](<📣🏞️ Notifier img.png>)
 
     |#|Step
     |-|-
@@ -45,6 +45,6 @@
 
     The following diagram shows the message flow with WebSockets.
 
-    ![alt text](<📣👥 Notifier ⚙️ uml.png>)
+    ![alt text](<📣⚙️ Notifier uml.png>)
 
     ---
