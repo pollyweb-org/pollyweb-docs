@@ -20,8 +20,8 @@ Header:
 
 | Object| Property | Type | Description
 |-|-|-|-
-| Header    | `From`        | uuid | `Clone` from [`Clone@`](<🔃🚀🗂️ Clone.md>) 
-|           | `To`          | string    | [Filer 🗂️](<../🗂️🎭 Filer role.md>) from [`Clone@`](<🔃🚀🗂️ Clone.md>) 
+| Header    |`From`| uuid | `Clone` from [`Clone@`](<🔃🚀🗂️ Clone.md>) 
+|           |`To`|domain| [Filer 🗂️](<../🗂️🎭 Filer role.md>) from [`Clone@`](<🔃🚀🗂️ Clone.md>) 
 |           | `Subject`     | string    | `Chat@Filer`
 |
 

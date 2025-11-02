@@ -20,8 +20,8 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header    | `From`        | string    | [Talker 😃 domain](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>) name
-|           | `To`          | string    | [Itemizer 🛢 domain](<../../🛢🤲 Itemizer helper.md>) name
+| Header    |`From`|domain| [Talker 😃 domain](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>) name
+|           |`To`|domain| [Itemizer 🛢 domain](<../../🛢🤲 Itemizer helper.md>) name
 |           | `Subject`     | string    | `Destroy@Itemizer`
 | Body      | `Table`     | string    | Name of the table
 |

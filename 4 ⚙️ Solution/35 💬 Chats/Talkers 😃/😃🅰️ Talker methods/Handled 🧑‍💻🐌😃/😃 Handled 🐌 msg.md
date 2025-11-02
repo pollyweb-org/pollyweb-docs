@@ -34,8 +34,8 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header    | `From`        | string    | [Hosted 📦](<../../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) from [`Handle@Hosted`](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>)
-|           | `To`          | string    | [Hoster ☁️](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) from [`Handle@Hosted`](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>)
+| Header    |`From`|domain| [Hosted 📦](<../../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) from [`Handle@Hosted`](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>)
+|           |`To`|domain| [Hoster ☁️](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) from [`Handle@Hosted`](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>)
 |           | `Subject`     | string    | `Handled@Talker`
 | Body      | `Hook`    | uuid      | `Hook` from [`Handle@Hosted`](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>)
 |           | `Response`    | any       | Response to [`Handle@Hosted`](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>)

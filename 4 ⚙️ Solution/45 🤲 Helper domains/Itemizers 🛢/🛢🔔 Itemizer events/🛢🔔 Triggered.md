@@ -33,8 +33,8 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header    | `From`        | string    | [Itemizer 🛢](<../🛢🤲 Itemizer helper.md>) from [`Delete@Itemizer`](<../🛢🅰️ Itemizer methods/Item Delete 👥🚀🛢/🛢 Delete 🚀 request.md>)
-|           | `To`          | string    | [Talker 😃](<../🛢🅰️ Itemizer methods/Item Delete 👥🚀🛢/🛢 Delete 🚀 request.md>)
+| Header    |`From`|domain| [Itemizer 🛢](<../🛢🤲 Itemizer helper.md>) from [`Delete@Itemizer`](<../🛢🅰️ Itemizer methods/Item Delete 👥🚀🛢/🛢 Delete 🚀 request.md>)
+|           |`To`|domain| [Talker 😃](<../🛢🅰️ Itemizer methods/Item Delete 👥🚀🛢/🛢 Delete 🚀 request.md>)
 |           | `Subject`     | string    | `Triggered@Talker`
 | Body      | `Trigger`| enum | See [Itemized 🪣 dataset](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) triggers
 || `Handler`     | string    | Handler from [`Build@Itemizer`](<../🛢🅰️ Itemizer methods/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)

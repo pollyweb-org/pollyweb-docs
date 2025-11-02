@@ -29,7 +29,7 @@
     | Input| Purpose | Example
     |-|-|-
     | `$context` | Optional input [Holder 🧠](<../../📃 basics/Holder 🧠.md>)  | `$p`
-    | `To` | Destination domain | `any-broker.dom`
+    |`To`| Destination domain | `any-broker.dom`
     | `Subject` | Message subject | `Unbound@Vault`
     | `{body}` | `Body` property dictionary  | `{A:1, B:2}`
     | `$response` | Response [Holder 🧠](<../../📃 basics/Holder 🧠.md>) <br/> for [Synchronous Requests 🚀](<../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Sync Requests 🚀.md>) | `$r`

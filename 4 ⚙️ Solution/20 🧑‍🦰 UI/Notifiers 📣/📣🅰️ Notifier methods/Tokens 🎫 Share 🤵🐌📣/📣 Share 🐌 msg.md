@@ -30,8 +30,8 @@ Body:
 
 |Object|Property|Type|Description|Origin |Purpose
 |-|-|-|-|-|-
-| Header| `From`    | string | [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) | [`Onboard@`](<../Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
-| | `To`| string | [Notifier 📣](<../../📣👥 Notifier domain.md>) | [`Onboard@`](<../Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
+| Header|`From`|domain| [Broker 🤵](<../../../Brokers 🤵/🤵🤲 Broker helper.md>) | [`Onboard@`](<../Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
+| |`To`|domain| [Notifier 📣](<../../📣👥 Notifier domain.md>) | [`Onboard@`](<../Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
 | | `Subject`| string | `Share@Notifier`
 | Body | `Wallet`| uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  | [`Onboard@`](<../Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
 || `Hook` | uuid | [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) Hook | [`Query@`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) | [`Receive@`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🅰️ Consumer methods/Receive 🧑‍🦰🐌💼/💼 Receive 🐌 msg.md>)

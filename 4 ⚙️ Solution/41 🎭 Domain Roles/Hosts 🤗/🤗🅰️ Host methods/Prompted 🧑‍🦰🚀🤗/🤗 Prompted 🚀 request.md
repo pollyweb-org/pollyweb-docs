@@ -31,8 +31,8 @@ Body:
 
 |Object|Property|Type|Description | Origin
 |-|-|-|-|-
-| Header    | `From`        | string    | `Anonymous`
-|           | `To`          | string    | [Sender 🤗](<../../🤗🎭 Host role.md>) | [`Prompt@`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Prompt 🤵🐌📣/📣 Prompt 🐌 msg.md>)
+| Header    |`From`|domain| `Anonymous`
+|           |`To`|domain| [Sender 🤗](<../../🤗🎭 Host role.md>) | [`Prompt@`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Prompt 🤵🐌📣/📣 Prompt 🐌 msg.md>)
 |           | `Subject`     | string    | `Prompted@Host`
 | Body      | `Hook`    | uuid      | [Host 🤗](<../../🤗🎭 Host role.md>) Hook | [`Prompt@`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Prompt 🤵🐌📣/📣 Prompt 🐌 msg.md>)
 |

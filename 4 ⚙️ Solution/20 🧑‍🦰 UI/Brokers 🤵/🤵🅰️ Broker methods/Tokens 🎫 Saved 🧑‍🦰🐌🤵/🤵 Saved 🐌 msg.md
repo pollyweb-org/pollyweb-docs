@@ -31,7 +31,7 @@ Body:
 |Object|Property|Type|Description|Origin
 |-|-|-|-|-
 |Header|`From`|uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  | [`Onboard@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
-||`To`|string| [Broker 🤵](<../../🤵🤲 Broker helper.md>) | [`Onboard@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
+||`To`|domain| [Broker 🤵](<../../🤵🤲 Broker helper.md>) | [`Onboard@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
 ||`Subject`|string|`Saved@Broker`
 |Body  |`Token` |uuid  | [Broker 🤵](<../../🤵🤲 Broker helper.md>) key | [`Save@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>)
 |
