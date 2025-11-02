@@ -10,7 +10,7 @@
 
 * A [Vault 🗄️ domain](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) 
     * offers bindable [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) 
-    * to a [Broker 🤵 domain](<../../🤵 Broker helper/🤵🤲 Broker helper.md>).
+    * to a [Broker 🤵 domain](<../../🤵 Broker helper/Broker 🤵 helper 🤲.md>).
 
 
 <br/>
@@ -33,7 +33,7 @@ Body:
 | Object | Property | Type  | Description | Origin | Purpose
 |-|-|-|-|-|-
 | Header    |`From`|domain|  [Vault 🗄️](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) name
-|           |`To`|domain| [Broker 🤵](<../../🤵 Broker helper/🤵🤲 Broker helper.md>) name | [`Hello@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
+|           |`To`|domain| [Broker 🤵](<../../🤵 Broker helper/Broker 🤵 helper 🤲.md>) name | [`Hello@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 |           | `Subject`| string|  `Bindable@Broker`
 | Body  | `Chat`| uuid | [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) | [`Hello@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 | | `Hook`| uuid | [Vault 🗄️](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) [Hook 🪝](<../../../../35 💬 Chats/Talkers 😃/😃🪣 Talker tables/😃 TalkerHooks 🪣 table.md>) || [`Bound@`](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)

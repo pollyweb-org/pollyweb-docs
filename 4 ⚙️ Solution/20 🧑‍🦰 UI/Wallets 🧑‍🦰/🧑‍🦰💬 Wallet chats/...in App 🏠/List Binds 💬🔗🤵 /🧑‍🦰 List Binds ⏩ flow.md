@@ -11,7 +11,7 @@
 
 | # | Call | Notes |
 |-|-|-
-| 1 | [🧑‍🦰🚀🤵 `Binds@Broker`](<../../../../Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Binds 🧑‍🦰🚀🤵/🤵 Binds 🚀 request.md>) | The [Wallet 🧑‍🦰](<../../../🧑‍🦰🛠️ Wallet app.md>) gets the [Binds 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) from the [Broker 🤵](<../../../../Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>)
+| 1 | [🧑‍🦰🚀🤵 `Binds@Broker`](<../../../../Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Binds 🧑‍🦰🚀🤵/🤵 Binds 🚀 request.md>) | The [Wallet 🧑‍🦰](<../../../🧑‍🦰🛠️ Wallet app.md>) gets the [Binds 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) from the [Broker 🤵](<../../../../Brokers 🤵/🤵 Broker helper/Broker 🤵 helper 🤲.md>)
 ||
 
 

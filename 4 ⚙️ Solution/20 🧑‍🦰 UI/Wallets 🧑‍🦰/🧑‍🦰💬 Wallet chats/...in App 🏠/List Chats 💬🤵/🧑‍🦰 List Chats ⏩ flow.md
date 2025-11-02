@@ -4,7 +4,7 @@
 > Implements a [Wallet 🧑‍🦰 app](<../../../🧑‍🦰🛠️ Wallet app.md>)
 
 
-* On the [Wallet 🧑‍🦰 app](<../../../🧑‍🦰🛠️ Wallet app.md>), fetch the user's [Chats 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) from the [Broker 🤵](<../../../../Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>)
+* On the [Wallet 🧑‍🦰 app](<../../../🧑‍🦰🛠️ Wallet app.md>), fetch the user's [Chats 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) from the [Broker 🤵](<../../../../Brokers 🤵/🤵 Broker helper/Broker 🤵 helper 🤲.md>)
 
 
 
@@ -16,7 +16,7 @@
 
 | # | Call | Notes
 |-|-|-
-| 1 | [🧑‍🦰🚀🤵 `Chats@Broker`](<../../../../Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Chats 🧑‍🦰🚀🤵/🤵 Chats 🚀 request.md>) | Fetch [Chats 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) from the [Broker 🤵](<../../../../Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>)
+| 1 | [🧑‍🦰🚀🤵 `Chats@Broker`](<../../../../Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Chats 🧑‍🦰🚀🤵/🤵 Chats 🚀 request.md>) | Fetch [Chats 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) from the [Broker 🤵](<../../../../Brokers 🤵/🤵 Broker helper/Broker 🤵 helper 🤲.md>)
 ||
 
 <br/>

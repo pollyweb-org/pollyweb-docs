@@ -1,6 +1,6 @@
 # 🤵🪣 Notifiers @ Broker table
 
-> Implements the [Broker 🤵 domain](<../../🤵 Broker helper/🤵🤲 Broker helper.md>)
+> Implements the [Broker 🤵 domain](<../../🤵 Broker helper/Broker 🤵 helper 🤲.md>)
 
 > Contains [Notifier 📣 domains](<../../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>)
 
