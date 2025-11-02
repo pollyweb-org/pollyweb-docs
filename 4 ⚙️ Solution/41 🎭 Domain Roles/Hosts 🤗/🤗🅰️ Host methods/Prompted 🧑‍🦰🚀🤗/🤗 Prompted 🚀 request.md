@@ -44,8 +44,6 @@ Body:
 
 
 ```yaml
-Format: ONE
-Emoji: 🤔
 Text: Which credit card to use? 
 MinValue: 10000                     # Optional
 MaxValue: 99999                     # Optional
@@ -61,8 +59,6 @@ Options:                            # Optional
 
 |Property|Type|Description
 |-|-|-
-| [`Format`](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>)  | string | One format supported by [Prompts 🤔](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>)
-| [`Emoji`](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt input features/😶⌘ EMOJI cmd.md>) | string | Emoji to display
 | [`Text`](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/2 🪧 Text.md>) | string | Main message,  to display in the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
 | [`MinValue`](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt input features/📋 Input validation.md>) | int | Optional minimum value
 | [`MaxValue`](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt input features/📋 Input validation.md>) | int | Optional maximum value
@@ -82,3 +78,11 @@ Options:                            # Optional
 
 <br/>
 
+## FAQ
+
+1. **Why aren't the `Format` and `Emoji` properties provided?**
+
+    Those {{Prompt}} properties are provided directly via the [`Prompt@Broker` 🅰️ method](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>) so that [Broker 🤵 domains](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) can enforce standardization of [emojis](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt input features/😶⌘ EMOJI cmd.md>) for the benefit of users.
+
+    ---
+    <br/>
