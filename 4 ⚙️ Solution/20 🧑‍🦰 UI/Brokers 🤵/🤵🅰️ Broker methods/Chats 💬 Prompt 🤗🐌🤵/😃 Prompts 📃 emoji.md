@@ -1,0 +1,75 @@
+# 🤗📃 Prompt Emoji script
+
+> Purpose
+* Calculates an emoji for a [Prompt 🤔](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>)
+* Implements the logic in [Input emojis 😶 ](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt input features/😶 Input emojis.md>)
+
+
+> Called by
+* [`.PROMPT` 📃 script](<../../../../35 💬 Chats/Talkers 😃/😃⏩ Talker flows/Send Prompts 😃⏩🧑‍🦰/😃 Prompts 📃 script.md>)
+
+## Script
+
+```yaml
+📃 PromptEmoji:
+
+# Assert inputs
+- ASSERT|$.Inputs:
+    AllOf: Format, Role
+    Text: Format, Role, PromptEmoji, ChatEmoji
+
+# Set the emoji
+- CASE|$:Format:
+
+    TEMP: RETURN|⏳
+
+    FAILURE: RETURN|❌
+
+    INFO: 
+        CASE|$:Role:
+            AGENT: RETURN|ⓘ
+            $: RETURN|ℹ️
+
+    SUCCESS: 
+        CASE|$:Role:
+            AGENT: RETURN|☑️
+            $: RETURN|✅
+
+    TEXT:
+        CASE|$:Role:
+            AGENT: RETURN|💭
+            $: RETURN|💬
+
+    $: 
+        # Agents always ask with 🫥
+        - IF|$:Role.Is(AGENT):
+            RETURN|🫥
+
+# Default emoji
+- EVAL|😃 >> $emoji
+
+# Override if in Chat
+- IF|$:ChatEmoji:
+    EVAL|$:ChatEmoji >> $emoji
+
+# Override if in Prompt
+- IF|$:PromptEmoji: 
+    EVAL|$:PromptEmoji >> $emoji
+
+# Block special emojis
+- IF|$emoji.In(⏳❌ⓘℹ️☑️✅😃🫥💬💭):
+    RETURN|😃
+
+# Allow limited customizations
+- IF|$emoji.In(😐😶😌😊😕🙁😔🥺🤣😅✏️):
+    RETURN|$emoji
+
+# Default
+- RETURN 😃
+```
+
+Needs ||
+|-|-
+| [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Command ⌘.md>) | [`CASE`](<../../../../35 💬 Chats/Scripts 📃/📃 control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`EVAL`](<../../../../35 💬 Chats/Scripts 📃/📃 holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`IF`](<../../../../35 💬 Chats/Scripts 📃/📃 control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`RETURN`](<../../../../35 💬 Chats/Scripts 📃/📃 control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) 
+| [{Functions} 🐍](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Function 🐍.md>) | [`{.In}`](<../../../../35 💬 Chats/Scripts 📃/📃 functions 🐍/🔩 {.In}.md>) [`{.Is}`](<../../../../35 💬 Chats/Scripts 📃/📃 functions 🐍/🔩 {.Is}.md>)
+|

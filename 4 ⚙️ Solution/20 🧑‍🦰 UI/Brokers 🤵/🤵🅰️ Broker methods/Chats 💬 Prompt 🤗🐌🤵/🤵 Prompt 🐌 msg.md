@@ -5,7 +5,10 @@
 <!-- TODO: create the handler script -->
 <!-- TODO: create the script diagram -->
 
-> Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) flow.
+> Implementation
+* Implemented by the [`Prompt` 📃 handler](<🤵 Prompt 📃 handler.md>)
+> Flow
+* Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) flow.
 
 > Purpose
 * The [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) 
@@ -45,12 +48,12 @@ Body:
 
 ## FAQ
 
-1. **Why only the `Format` and `Emoji` properties are provided?**
+1. **Why are `Format` and `Emoji` the only Prompt properties provided?**
 
-    For privacy reasons, [Broker 🤵 domains](<../../🤵🤲 Broker helper.md>) are not allowed to see the contents of {{Prompts}} sent from [Host 🤗 domains](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) to [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
+    For privacy reasons, [Broker 🤵 domains](<../../🤵🤲 Broker helper.md>) are not allowed to see the contents of [Prompts 🤔](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) sent from [Host 🤗 domains](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) to [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
     * However, [Broker 🤵 domains](<../../🤵🤲 Broker helper.md>) are responsible for enforcing the standardization of [emojis](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt input features/😶⌘ EMOJI cmd.md>) for the benefit of users.  
-    * Thus, only these two {{Prompt}} properties are provided directly via the [`Prompt@Broker` 🅰️ method](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>).
-    * All other {{Prompt}} properties are provided via the [`Prompted@Host` 🅰️ method](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 request.md>).
+    * Thus, only these two [Prompt 🤔](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) properties are provided directly via the [`Prompt@Broker` 🅰️ method](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>).
+    * All other [Prompt 🤔](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) properties are provided via the [`Prompted@Host` 🅰️ method](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 request.md>).
 
     ---
     <br/>

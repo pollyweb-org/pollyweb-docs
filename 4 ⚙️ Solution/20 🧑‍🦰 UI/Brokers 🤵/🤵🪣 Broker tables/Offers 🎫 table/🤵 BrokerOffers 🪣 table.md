@@ -1,11 +1,13 @@
 # 🤵🪣 Offers @ Broker table
 
-> Purpose: 
+> Implements the [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>)
+
+> Purpose
 * Stores [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
     * offered by [`Offer@Broker`](<../../🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>) 
     * but not yet saved by [`Saved@Broker`](<../../🤵🅰️ Broker methods/Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 🐌 msg.md>).
 
-> Written by:
+> Written by
 * [`Offer@Broker`](<../../🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>)
 * [`Saved@Broker`](<../../🤵🅰️ Broker methods/Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 🐌 msg.md>)
 
@@ -17,6 +19,7 @@ Here's the [Itemized 🛢 schema](<../../../../30 🧩 Data/Datasets 🪣/🪣�
 
 ```yaml
 # Offers.yaml
+Prefix: Broker
 Table: Offers
 Key: Token
 ```

@@ -291,6 +291,20 @@ def replace_vault_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Vault`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
     replacement = "[Vault 🗄️ domain](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)"
     return _replace_simple(md_files, pattern, replacement)
+
+
+# Hardcoded Prompt(s) tokens
+PROMPT_REPLACEMENT = "[Prompt 🤔](<🤔 Prompt.md>)"
+@register_hardcoded("prompt", replacement=PROMPT_REPLACEMENT, token_label="Prompt")
+def replace_prompt_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Prompt`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, PROMPT_REPLACEMENT)
+
+
+@register_hardcoded("prompts", replacement='[Prompts 🤔](<🤔 Prompt.md>)', token_label="Prompts")
+def replace_prompts_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Prompts`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, '[Prompts 🤔](<🤔 Prompt.md>)')
 # Generate common simple replacers to reduce repeated boilerplate. These are
 # intentionally created via helper to keep the explicit simple cases compact.
 _GEN_BASIC = [
