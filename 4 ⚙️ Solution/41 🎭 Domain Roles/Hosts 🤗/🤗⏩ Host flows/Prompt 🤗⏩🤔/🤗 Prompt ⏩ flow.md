@@ -45,7 +45,7 @@ The associated [`Script`](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Sc
 
 ## ⏩ Flow diagram
 
-![Prompt](<../../.📎 Assets/⚙️💬 Prompt.png>)
+![Prompt](<⚙️💬 Prompt.png>)
 
 
 

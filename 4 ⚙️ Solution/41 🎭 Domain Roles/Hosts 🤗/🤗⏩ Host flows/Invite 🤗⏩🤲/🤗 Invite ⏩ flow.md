@@ -54,7 +54,7 @@ The associated [`Script`](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Sc
 ## ⏩ Flow diagram 
 
 
-![alt text](<../../.📎 Assets/⚙️🤲 Invite.png>)
+![alt text](<⚙️🤲 Invite.png>)
 
 
 |#| Step | Purpose
