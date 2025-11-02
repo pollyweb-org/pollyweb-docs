@@ -123,7 +123,7 @@
     | - | - | - |
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | 💬 How are you today? | `I'm fine`
     | [🤲 Helper](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>) | 💬 How are you today? | `I'm fine`
-    | [🫥 Agent](<../../../../50 🫥 Agent domains/$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>) | 💭 How are you today? | `I'm fine`
+    |  [🗄️ Vault](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) | 💭 How are you today? | `I'm fine`
     |
    
     <br/>

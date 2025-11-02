@@ -210,9 +210,15 @@ def compute_expected_replacement(token: str, given_raw: str, md_files: list[str]
     return None
 
 
-def validate_successful_tests(data: dict, md_files: list[str], file_dict: dict[str, List[tuple[str, str]]], project_directory: str) -> None:
+def validate_successful_tests(tests: list, md_files: list[str], file_dict: dict[str, List[tuple[str, str]]], project_directory: str) -> None:
+    """Validate a normalized (flat) list of Successful Tests from the YAML.
+
+    The YAML may present Successful Tests as either a top-level list or a
+    grouped mapping (e.g. HARDCODED:, HOLDERS 🧠:, etc.). This function expects
+    callers to pass a flattened list of test dicts.
+    """
     errors: list[str] = []
-    for test in data.get('Successful Tests', []):
+    for test in tests:
         raw_given = test['Given']
         token = raw_given.strip('{}')
         reasons_text = (test.get('Reasons') or '').lower()
@@ -398,10 +404,26 @@ def runit(project_directory, entryPoint):
     yaml_path = os.path.join(os.path.dirname(__file__), 'links.yaml')
     with open(yaml_path, 'r') as f:
         data = yaml.safe_load(f)
+    # Normalize Successful Tests: the YAML may group tests under headings
+    # (e.g. HARDCODED:, HOLDERS 🧠:, etc.). Flatten into a single list for
+    # consistent processing.
+    raw_successful = data.get('Successful Tests', [])
+    if isinstance(raw_successful, dict):
+        successful_tests = []
+        for v in raw_successful.values():
+            if isinstance(v, list):
+                successful_tests.extend(v)
+            elif v is None:
+                continue
+            else:
+                successful_tests.append(v)
+    else:
+        successful_tests = raw_successful or []
+
     # Ensure that every LinkFile listed in the Successful Tests actually exists.
     # ENFORCE: the basename must match exactly (emoji, spacing and extension).
     missing_linkfiles: list[str] = []
-    for test in data.get('Successful Tests', []):
+    for test in successful_tests:
         expected = test.get('LinkFile')
         if not expected:
             continue
@@ -426,7 +448,7 @@ def runit(project_directory, entryPoint):
         raise FileNotFoundError(
             "Missing LinkFile(s) referenced in links.yaml Successful Tests (exact match required): " + ", ".join(missing_linkfiles)
         )
-    for test in data.get('Successful Tests', []):
+    for test in successful_tests:
         given = test['Given']
         expected_linktext = test['LinkText']
         expected_linkfile = test['LinkFile']
@@ -563,7 +585,7 @@ def runit(project_directory, entryPoint):
             normalized = normalize_string(name_without_md)
             file_dict.setdefault(normalized, []).append((name_without_md, path))
 
-    validate_successful_tests(data, md_files, file_dict, project_directory)
+    validate_successful_tests(successful_tests, md_files, file_dict, project_directory)
 
     previous_snapshot = None
 
@@ -591,7 +613,7 @@ def runit(project_directory, entryPoint):
     # from the YAML Successful Tests are actually replaced in files. Some of
     # the generic replacement helpers may not catch every '$.' pattern, so
     # perform a deterministic substitution based on the YAML expectations.
-    for test in data.get('Successful Tests', []):
+    for test in successful_tests:
         raw_given = test['Given']
         token = raw_given.strip('{}')
         # Only consider the holder-style tokens that start with '$.'
@@ -672,7 +694,7 @@ def runit(project_directory, entryPoint):
             raise AssertionError(f"links.yaml Failed Tests failed:\n - {detail}")
 
         # Enforce Successful Tests: tokens listed as successful must have been replaced
-        successful_tests = [t for t in data.get('Successful Tests', []) if 'Given' in t]
+        successful_tests = [t for t in successful_tests if 'Given' in t]
         success_errors = []
         for test in successful_tests:
             raw = test['Given']

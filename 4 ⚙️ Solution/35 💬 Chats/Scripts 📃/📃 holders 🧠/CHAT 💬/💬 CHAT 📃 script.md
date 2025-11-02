@@ -15,7 +15,7 @@ RUN|.CHAT:
     Broker: any-broker.dom
     Chat: <chat-uuid>
     Key: <any-locator-key>
-    Role: AGENT
+    Role: HOST
     PublicKey: <key>
     Timezone: PST
     Language: en-us
@@ -37,7 +37,7 @@ RUN|.CHAT:
 
 # Assert the role enum
 - ASSERT|$:Role:
-    Enum: AGENT, HELPER, HOST
+    Enum: VAULT, HELPER, HOST
 
 # Update the $.Chat
 - EVAL|$.Chat >> $.Chat:
