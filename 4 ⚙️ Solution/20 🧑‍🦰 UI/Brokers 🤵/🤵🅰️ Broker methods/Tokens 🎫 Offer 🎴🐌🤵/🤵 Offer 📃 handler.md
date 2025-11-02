@@ -57,12 +57,12 @@
     Expires: $.Msg.Expires
 
 # Update the domain translation
-- RUN|UpdateDomain:
-    Domain: $.Msg.From
-    Domain$: $translation.Domain
+- RUN|Update-Domain:
+    Name: $.Msg.From
+    Title: $translation.Domain
 ```
 
-> Run [`Update Domains` 📃 script](<../../🤵🪣 Broker tables/Domains 👥 table/🤵 Update Domains 📃 script.md>)
+> Run [`Update Domains` 📃 script](<../../🤵🪣 Broker tables/Domains 👥 table/🤵 Update Domain 📃 script.md>)
 
 <!-- TODO: Finish the detail -->
 
@@ -79,5 +79,5 @@ Needs||
 | [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Domain`](<../../🤵🪣 Broker tables/Domains 👥 table/🤵 BrokerDomains 🪣 table.md>) [`Tokens`](<../../🤵🪣 Broker tables/Tokens 🎫 table/🤵 Tokens 🪣 table.md>)
 | [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>)
 | [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Holder 🧠.md>) | [`$.Msg`](<../../../../35 💬 Chats/Scripts 📃/📃 holders 🧠/$.Msg 📨/📨 $.Msg 🧠 holder.md>) [`$.Hosted`](<../../../../35 💬 Chats/Scripts 📃/📃 holders 🧠/$.Hosted 📦/📦 $.Hosted 🧠 holder.md>)
-| [Scripts 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) | [`Update Domains` 📃 script](<../../🤵🪣 Broker tables/Domains 👥 table/🤵 Update Domains 📃 script.md>)
+| [Scripts 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) | [`Update Domains` 📃 script](<../../🤵🪣 Broker tables/Domains 👥 table/🤵 Update Domain 📃 script.md>)
 |

@@ -43,7 +43,7 @@
 # Stage the prompt.
 - SAVE|HostPrompts >> $hook:
     Hook: .UUID
-    Chat: $.Chat.Chat
+    Chat: $.Chat.ID
     Broker: $.Chat.Broker
     PublicKey: $.Chat.PublicKey
     Expires: .Now.Add(5 minutes)

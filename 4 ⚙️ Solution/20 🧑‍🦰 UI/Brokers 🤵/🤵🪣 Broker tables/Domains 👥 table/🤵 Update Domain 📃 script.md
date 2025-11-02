@@ -8,37 +8,37 @@
 ## How to call
 
 ```yaml
-- RUN|UpdateDomain:
-    Domain: <domain-identifier>
-    Domain$: <domain-translation>
+- RUN|Update-Domain:
+    Name: <domain-identifier>
+    Title: <domain-translation>
 ```
 
 Inputs | Purpose | Examples
 |-|-|-
-| `Domain` | Domain identifier | `any-domain.dom` 
-| `Domain$` | Domain translation | `Any Domain`
+| `Name` | Domain identifier | `any-domain.dom` 
+| `Title` | Domain translation | `Any Domain`
 |
 
 ## Script
 
 ```yaml
-📃 UpdateDomain:
+📃 Update-Domain:
 
 # Ensure the parameters are given
 - ASSERT|$.Inputs:
-    AllOf: Domain, Domain$
-    Texts: Domain, Domain$
+    AllOf: Name, Title
+    Texts: Name, Title
 
 # Try to get the domain, if it exists
 - GET >> $domain:
     Set: BrokerDomains
-    Key: $:Domain
+    Key: $:Name
     Default: 
-        Domain: $:Domain
+        Domain: $:Name
 
 # Change the translation
 - EVAL|$domain:
-    Domain$: $:Domain$
+    Title: $:Title
 
 # Update the table
 - SAVE|$domain

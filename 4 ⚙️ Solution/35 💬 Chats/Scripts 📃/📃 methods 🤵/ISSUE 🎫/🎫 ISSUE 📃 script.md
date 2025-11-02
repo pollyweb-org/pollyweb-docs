@@ -34,7 +34,7 @@
 - SAVE|TalkerHooks >> $hook:
     Hook: .UUID
     Broker: $.Chat.Broker
-    Chat: $.Chat.Chat
+    Chat: $.Chat.ID
     PublicKey: $.Chat.PublicKey
     Internals: $Internals
     Offer:
@@ -49,7 +49,7 @@
         To: $.Chat.Broker
         Subject: Offer@Broker
     Body: 
-        Chat: $.Chat.Chat
+        Chat: $.Chat.ID
         Hook: $hook.Hook
         Schema: $:Schema
         Starts: $:Starts

@@ -21,15 +21,15 @@ Here's the [Itemized 🛢 schema](<../../../../30 🧩 Data/Datasets 🪣/🪣�
 # Wallets.yaml
 Prefix: Broker
 Table: Wallets
-Key: Wallet
+Key: ID
 
 Parents:
-    Notifier: { Notifiers.Notifier: Wallets.Notifier }
+    Notifier: { Notifiers.Name: Wallets.Notifier }
 
 Children:
-    Chats: { Chats.Wallet: Wallets.Wallet }
-    Binds: { Binds.Wallet: Wallet.Wallet }
-    Tokens: { Tokens.Wallet: Wallet.Wallet }
+    Chats: { Chats.Wallet: Wallets.ID }
+    Binds: { Binds.Wallet: Wallet.ID }
+    Tokens: { Tokens.Wallet: Wallet.ID }
 
 Distincts: 
     Hosts: Chats.Host
@@ -56,7 +56,7 @@ Here's the [`GET` command](<../../../../35 💬 Chats/Scripts 📃/📃 datasets
 ```yaml
 # GET|BrokerWallets|<wallet-uuid>
 
-Wallet: <wallet-uuid>
+ID: <wallet-uuid>
 PublicKey: <public-key>
 Notifier: any-notifier.dom
 Language: en-us

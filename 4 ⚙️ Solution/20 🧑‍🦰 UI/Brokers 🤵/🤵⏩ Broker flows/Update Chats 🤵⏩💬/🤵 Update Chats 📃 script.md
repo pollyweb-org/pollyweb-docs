@@ -14,23 +14,22 @@
 
 ## How to call
 ```yaml
-RUN|UpdateChats@Broker:
-    Wallet: <wallet-uuid>
+RUN|Update-Chats:
+    wallet: $wallet
 ```
 
 ## Script
 
 ```yaml
-📃 UpdateChats@Broker:
+📃 Update-Chats:
 
 # Verify required inputs
 - ASSERT|$.Inputs:
-    AllOf: Wallet
-    UUIDs: Wallet
+    AllOf: wallet
 
 # Notify Wallets to update Binds
 - RUN|Updated@Notifier:
-    Wallet: $:Wallet
+    Wallet: $:wallet.ID
     Updates: [CHATS]
 ```
 

@@ -1,7 +1,7 @@
 # 🤵⏩🗄️ Update chats @ Broker
 
 > Implementation
-* Implemented by the [`UpdateChats@Broker` 📃 script](<🤵 Update Chats 📃 script.md>)
+* Implemented by the [`Update-Chats` 📃 script](<🤵 Update Chats 📃 script.md>)
 
 > Purpose
 

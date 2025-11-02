@@ -25,10 +25,10 @@ Here's the [Itemized 🛢 schema](<../../../../30 🧩 Data/Datasets 🪣/🪣�
 # Tokens.yaml
 Prefix: Broker
 Table: Tokens
-Key: Token
+Key: ID
 Parents:
-    Wallet: { Wallets.Wallet: Tokens.Wallet }
-    Issuer: { Domains.Domain: Tokens.Issuer }
+    Wallet: { Wallets.ID: Tokens.Wallet }
+    Issuer: { Domains.Name: Tokens.Issuer }
 ```
 
 
@@ -47,7 +47,7 @@ Here's the [`GET` command](<../../../../35 💬 Chats/Scripts 📃/📃 datasets
 
 ```yaml
 # GET|Tokens|<token-uuid>
-Token: <token-uuid>
+ID: <token-uuid>
 Wallet: <wallet-uuid>
 Issuer: any-issuer.dom
 Issuer$: Any Issuer
@@ -61,5 +61,5 @@ Status: REVOKED
 |-|-|-
 | `Issuer` | string | [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>)  from [`Offer@Broker`](<../../🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>)
 | `Status`| string | Status from [`Revise@Broker`](<../../🤵🅰️ Broker methods/Tokens 🎫 Revise 🎴🐌🤵/🤵 Revise 🐌 msg.md>)
-| `Token`| uuid |  [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) from [`Offer@Broker`](<../../🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>)
+| `ID`| uuid |  [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) from [`Offer@Broker`](<../../🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>)
 ||

@@ -10,7 +10,8 @@
 ```yaml
 - RUN|TokenTimeout:
     Item: 
-        Token: <token-uuid>
+        ID: <token-uuid>
+        Wallet: <wallet-id>
 ```
 
 ## Script
@@ -20,8 +21,8 @@
 
 # Assert the inputs
 - ASSERT|$:Item:
-    AllOf: Token, Wallet
-    UUIDs: Token, Wallet
+    AllOf: ID, Wallet
+    UUIDs: ID, Wallet
 
 # Get the Wallet 🧑‍🦰
 - GET >> $wallet:
@@ -35,7 +36,7 @@
         Subject: Remove@Notifier
     Body:
         Wallet: $:Item.Wallet
-        Token: $:Item.Token
+        Token: $:Item.ID
 ```
 
 |Uses||

@@ -21,7 +21,7 @@ Here's the [Itemized 🛢 schema](<../../../../30 🧩 Data/Datasets 🪣/🪣�
 # Offers.yaml
 Prefix: Broker
 Table: Offers
-Key: Token
+Key: ID
 ```
 
 
@@ -34,7 +34,7 @@ Here's the [`GET` command](<../../../../35 💬 Chats/Scripts 📃/📃 datasets
 
 ```yaml
 # GET|Tokens|<token-uuid>
-Token: <token-uuid>
+ID: <token-uuid>
 Wallet: <wallet-uuid>
 Issuer: any-issuer.dom
 Issuer$: Any Issuer
@@ -46,4 +46,5 @@ Schema: any-authority.dom/ANY-SCHEMA:1.0
 |Property|Type|Description
 |-|-|-
 | `Issuer` | string | [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>)
-| `Token`| uuid | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) ID on the [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+| `ID`| uuid | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) ID on the [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+|

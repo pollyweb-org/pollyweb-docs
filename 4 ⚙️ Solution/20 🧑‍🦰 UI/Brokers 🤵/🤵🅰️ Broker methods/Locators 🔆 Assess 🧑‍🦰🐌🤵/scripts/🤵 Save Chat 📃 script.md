@@ -41,7 +41,7 @@
 # Create a new Chat
 - SAVE|BrokerChats >> $chat:
     Chat: .UUID()
-    Wallet: $:wallet.Wallet
+    Wallet: $:wallet.ID
     # Host info
     Host: $:locator.Host
     Host$: $translation.Domain
@@ -55,13 +55,13 @@
 
 # Add the HOST participant
 - SAVE|BrokerChatters:
-    Chat: $chat.Chat
+    Chat: $chat.ID
     Domain: $:locator.Host
     Role: HOST
 
 # Add the FINDER participant
 - SAVE|BrokerChatters:
-    Chat: $chat.Chat
+    Chat: $chat.ID
     Domain: $:wallet.Finder
     Role: VAULT
 

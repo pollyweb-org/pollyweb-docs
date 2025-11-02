@@ -30,7 +30,7 @@
 - SAVE|TalkerHooks >> hook:
     Hook: .UUID
     Broker: $.Chat.Broker
-    Chat: $.Chat.Chat
+    Chat: $.Chat.ID
     PublicKey: $.Chat.PublicKey
     Schemas: $:Schemas
     User: $:User
@@ -42,7 +42,7 @@
         Subject: Bindable@Broker
     Body:
         Hook: $hook.Hook
-        Chat: $.Chat.Chat
+        Chat: $.Chat.ID
         Schemas: $:Schemas
 
 # Wait for the shared data
