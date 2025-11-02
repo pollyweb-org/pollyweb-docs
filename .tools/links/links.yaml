@@ -39,6 +39,17 @@ Failed Tests:
 
 Successful Tests:
 
+  # [`Prompt`](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>)
+  - Given: "{{Prompt}}"
+    LinkText: "Prompt 🤔"
+    LinkFile: "🤔 Prompt.md"
+    Reasons: This is hardcoded.
+
+  - Given: "{{Prompts}}"
+    LinkText: "Prompts 🤔"
+    LinkFile: "🤔 Prompt.md"
+    Reasons: This is hardcoded.
+
   - Given: "{{Async Messages}}"
     LinkText: "Async Messages 🐌"
     LinkFile: "Async Messages 🐌.md"
