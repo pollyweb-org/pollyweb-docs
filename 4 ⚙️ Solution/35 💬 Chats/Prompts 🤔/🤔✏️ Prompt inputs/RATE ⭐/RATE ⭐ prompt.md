@@ -18,7 +18,7 @@
 
     | Scenario | Details
     |-|-
-    | `Reviewer` | [Reviewer ⭐](<../../../../50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐🫥 Reviewer agent.md>)
+    | `Reviewer` | [Reviewer ⭐](<../../../../50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>)
 
     ---
     <br/>

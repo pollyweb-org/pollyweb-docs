@@ -32,7 +32,7 @@
     |🧭| [Navigator](<../Navigators 🧭/$ 🧭🫥 Navigator agent.md>) | G.Maps | Helps users going from point A to B.
     |💳| [Payer](<../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) | Paypal | Performs payments to [Collector 🏦 domains](<../../45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>).
     |🧢| [Persona](<../Personas 🧢/🧢 Persona agent/🧢🫥 Persona agent.md>) | Facebook | Stores and shares user preferences and personally identifiable information (PII).
-    |⭐| [Reviewer](<../Reviewers ⭐/⭐ Reviewer agent/⭐🫥 Reviewer agent.md>) | TrustPilot | Collects and shares user feedback from [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) experiences.
+    |⭐| [Reviewer](<../Reviewers ⭐/⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) | TrustPilot | Collects and shares user feedback from [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) experiences.
     |🗓️| [Scheduler](<../Schedulers 🗓️/$ 🗓️🫥 Scheduler agent.md>) | Outlook | Monitors and manages the user's agenda.
     |🗃️| [Storage](<../Storage 🗃️/🗃️🫥 Storage agent.md>) | Dropbox | Stores user data for other [Vault 🗄️ domains](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>), for data residency compliance.
     |🕓| [Timeline](<../Timeline 🕓/🕓🫥 Timeline agent.md>) | G.Photos | Collects and fans out user-related events.

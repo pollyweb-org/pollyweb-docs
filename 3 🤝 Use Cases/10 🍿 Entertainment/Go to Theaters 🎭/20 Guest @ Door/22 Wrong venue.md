@@ -11,5 +11,5 @@ Enter the wrong theatre venue 🎭
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Navigators 🧭/$ 🧭🫥 Navigator agent.md>) | ⓘ This is not your venue [+] <br> - you're in Any Venue <br/> - you have tickets to X Venue <br/> - that's 0.3 km away <br/> - your show starts in 35 min.
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Navigators 🧭/$ 🧭🫥 Navigator agent.md>) | ⓘ Direction to your venue [+] <br/> - go down the avenue <br/> - walk for 15 minutes <br/> - the X Venue is on the left.
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Navigators 🧭/$ 🧭🫥 Navigator agent.md>) | 🫥 Navigate there? [Yes, No] | > No
-| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐🫥 Reviewer agent.md>) | 🫥 Experience feedback? 
+| ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) | 🫥 Experience feedback? 
 ||

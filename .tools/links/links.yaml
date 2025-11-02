@@ -134,11 +134,11 @@ Successful Tests:
 
   - Given: "{{Reviewer}}"
     LinkText: "Reviewer ⭐ agent"
-    LinkFile: "⭐🫥 Reviewer agent.md"
+    LinkFile: "⭐ Reviewer 🫥 agent.md"
     Reasons: This is hardcoded.
   - Given: "{{Reviewers}}"
     LinkText: "Reviewer ⭐ agents"
-    LinkFile: "⭐🫥 Reviewer agent.md"
+    LinkFile: "⭐ Reviewer 🫥 agent.md"
     Reasons: This is hardcoded.
 
   - Given: "{{Role}}"
