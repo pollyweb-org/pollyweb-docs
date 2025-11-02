@@ -54,9 +54,16 @@ Distincts:
 Here's the [`GET` command](<../../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) result.
 
 ```yaml
-# GET|Wallets|<wallet-uuid>
+# GET|BrokerWallets|<wallet-uuid>
+
 Wallet: <wallet-uuid>
 PublicKey: <public-key>
 Notifier: any-notifier.dom
 Language: en-us
+
+# Agents
+Curator: any-curator.dom
+Finder: any-finder.dom
+Persona: any-persona.dom
+Reviewer: any-reviewer.dom
 ```
