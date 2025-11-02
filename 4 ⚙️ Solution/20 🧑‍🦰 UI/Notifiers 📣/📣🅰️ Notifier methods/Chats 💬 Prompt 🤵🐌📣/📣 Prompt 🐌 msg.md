@@ -1,6 +1,6 @@
 # 🤵🐌📣 Prompt @ Notifier
 
-> Implements the [Notifier 📣 domain](<../../📣👥 Notifier domain.md>)
+> Implements the [Notifier 📣 domain](<../../📣 Notifier domain/📣 Notifier 👥 domain.md>)
 
 
 > Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) flow, succeeded by
@@ -13,7 +13,7 @@
 * [Broker 🤵 domains](<../../../Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>) 
     * forward   [Prompts 🤔](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) 
     * from [Host 🤗 domains](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) 
-    * to [Notifier 📣 domains](<../../📣👥 Notifier domain.md>).
+    * to [Notifier 📣 domains](<../../📣 Notifier domain/📣 Notifier 👥 domain.md>).
 
 
 ## Async Message 🐌
@@ -37,7 +37,7 @@ Body:
 |Object|Property|Type|Description|Origin|Purpose
 |-|-|-|-|-|-
 |Header|`From`|domain| [Broker 🤵](<../../../Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>)  | [`Onboard@`](<../Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
-||`To`|domain| [Notifier 📣](<../../📣👥 Notifier domain.md>) | [`Onboard@`](<../Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
+||`To`|domain| [Notifier 📣](<../../📣 Notifier domain/📣 Notifier 👥 domain.md>) | [`Onboard@`](<../Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
 ||`Subject`|string|`Prompt@` | 
 |Body  |`Wallet` |uuid  | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) ID | [`Onboard@`](<../Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
 |      |`Chat`  |uuid  | [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID | [`Converse@`](<../Chats 💬 Converse 🤵🐌📣/📣 Converse 📣 msg.md>)

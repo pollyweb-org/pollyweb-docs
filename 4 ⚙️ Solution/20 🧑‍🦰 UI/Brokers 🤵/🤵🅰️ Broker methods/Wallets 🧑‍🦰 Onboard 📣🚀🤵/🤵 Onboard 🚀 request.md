@@ -26,7 +26,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From`|domain| [Notifier 📣 domain](<../../../Notifiers 📣/📣👥 Notifier domain.md>) name
+|Header|`From`|domain| [Notifier 📣 domain](<../../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>) name
 ||`To`|domain| [Broker 🤵 domain](<../../🤵 Broker helper/🤵🤲 Broker helper.md>) name
 ||`Subject`| string | `Onboard@Broker`
 |Body| `Language` | enum | ISO language code.

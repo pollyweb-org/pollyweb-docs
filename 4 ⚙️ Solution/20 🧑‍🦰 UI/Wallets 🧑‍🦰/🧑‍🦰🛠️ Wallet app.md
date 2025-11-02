@@ -44,8 +44,8 @@
     On its first use, [Wallet 🧑‍🦰 apps](<🧑‍🦰🛠️ Wallet app.md>):
     1. create a key-pair for user and store it in the secure area of the device;
         - e.g., in Android, this is the high-level behavior of [passkeys 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/03 📺 Google passkeys.md>);
-    2. register the user's public half of the key-pair in the [Wallet's Notifier 📣 domain](<../Notifiers 📣/📣👥 Notifier domain.md>);
-    3. store locally the wallet ID returned by the [Notifier 📣 domain](<../Notifiers 📣/📣👥 Notifier domain.md>).
+    2. register the user's public half of the key-pair in the [Wallet's Notifier 📣 domain](<../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>);
+    3. store locally the wallet ID returned by the [Notifier 📣 domain](<../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>).
 
     ---
     <br/>
@@ -54,7 +54,7 @@
 
     The only data that [Wallet 🧑‍🦰 apps](<🧑‍🦰🛠️ Wallet app.md>) store locally is:
     - 🔏 The private half of the key pair;
-    - 📣 The Wallet ID provided by the [Broker 🤵 domain](<../Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>) via the [Notifier 📣 domain](<../Notifiers 📣/📣👥 Notifier domain.md>);
+    - 📣 The Wallet ID provided by the [Broker 🤵 domain](<../Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>) via the [Notifier 📣 domain](<../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>);
     - 🎫 Downloaded [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) from [Issuer 🎴 domains](<../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>).
 
     ---
