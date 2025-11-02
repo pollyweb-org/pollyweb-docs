@@ -11,7 +11,7 @@ How to order wine to the table at a restaurant?
 | | | 🔆 [tap](<../../../4 ⚙️ Solution/25 🔆 Locators/Locators 🔆/🔆 Locator.md>) seat
 | 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) | ⓘ Any Restaurant (4.3 ⭐)  [+]
 | 🍽️ Restaurant | 😃 What do you need? <br/>- [ Order ] <br/>- [ Something else ] | > Order
-| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/Broker 🤵 helper 🤲.md>) | 🫥 Ready to order? [Yes, No] <br/> - your curator orders 🧚<br/> - your vitalogist reviews 💖 <br/> - your ID allows alcohol 🆔 <br/> - we'll deliver to your seat 🍽️ <br/> - your vitalogist records it 💖<br/> - you pay when leaving 💳 | > Yes
+| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 Ready to order? [Yes, No] <br/> - your curator orders 🧚<br/> - your vitalogist reviews 💖 <br/> - your ID allows alcohol 🆔 <br/> - we'll deliver to your seat 🍽️ <br/> - your vitalogist records it 💖<br/> - you pay when leaving 💳 | > Yes
 | 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) | 💭 Some suggestions: [No] <br/> - [ ] detox juice 🍹 <br/> - [ ] bread 🍞 <br/> - [ ] olives 🫒 |  `red wine`
 | 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) | 💭 What size? <br/> - [ glass ] <br/> - [ bottle ] | > glass
 | 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) | ⓘ A glass of red wine it is. 

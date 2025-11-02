@@ -26,7 +26,7 @@ Consider the following [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Ch
 | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
 | 🤗 Host  | ℹ️ I'll ask my Helper for a random number. | 
-| 🤵 [Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/Broker 🤵 helper 🤲.md>) | 🫥 [Allow invited guest?](<🤗 Invite ⏩ flow.md>) [Yes, No]  <br/> - Any Helper 🤲 <br/>- [ Always ] for Any Host  🤗 | > Yes
+| 🤵 [Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 [Allow invited guest?](<🤗 Invite ⏩ flow.md>) [Yes, No]  <br/> - Any Helper 🤲 <br/>- [ Always ] for Any Host  🤗 | > Yes
 | 🤲 Helper | ℹ️ Hi! I'm Any Helper. The number is 27.    
 | 🤗 Host  | ℹ️ 27, got it! Thanks, Any Helper!  
 |
@@ -60,7 +60,7 @@ The associated [`Script`](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Sc
 |#| Step | Purpose
 |-|-|-
 |1|[💼🐌🤵 `Invite@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)|Invite another [Host 🤗](<../../🤗 Host role/🤗🎭 Host role.md>) to the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
-|2|[🤗⏩🧑‍🦰 Prompt 🤔](<../Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | [Brokers 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/Broker 🤵 helper 🤲.md>) may ask for user permission
+|2|[🤗⏩🧑‍🦰 Prompt 🤔](<../Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | [Brokers 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) may ask for user permission
 |3| [🤵🐌🛠️ `Invited@Helper`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲🅰️ Helper methods/🤵🐌🤲 Invited.md>) | Proxy  invites to [Helper 🤲](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>) invitees
 |4|[🤗⏩🧑‍🦰 Prompt 🤔](<../Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | Invitees continue the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
 |5|[🗄️⏩💼 Consume 🧩](<../../../Vaults 🗄️/🗄️⏩ Vault flows/Consume 🗄️⏩💼/🗄️ Consume ⏩ flow.md>) | Invitees share the final result

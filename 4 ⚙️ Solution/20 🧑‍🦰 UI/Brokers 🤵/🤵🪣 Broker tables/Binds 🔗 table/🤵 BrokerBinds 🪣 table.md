@@ -1,6 +1,6 @@
 # 🤵🪣 Binds @ Broker table
 
-> Implements the [Broker 🤵 domain](<../../🤵 Broker helper/Broker 🤵 helper 🤲.md>)
+> Implements the [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
 
 > Stores [Binds 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
 

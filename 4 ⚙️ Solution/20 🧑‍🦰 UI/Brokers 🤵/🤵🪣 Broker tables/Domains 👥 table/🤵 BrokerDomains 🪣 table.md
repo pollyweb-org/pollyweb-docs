@@ -1,6 +1,6 @@
 # 🤵🪣 Domains @ Broker table
 
-> Implements the [Broker 🤵 domain](<../../🤵 Broker helper/Broker 🤵 helper 🤲.md>)
+> Implements the [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
 
 > Stores details on [Host 🤗 domains](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>).
 

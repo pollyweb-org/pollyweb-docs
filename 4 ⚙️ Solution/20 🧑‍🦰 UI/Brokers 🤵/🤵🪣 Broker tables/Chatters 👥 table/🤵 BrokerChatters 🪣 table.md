@@ -1,6 +1,6 @@
 # 🤵🪣 Chatters @ Broker table
 
-> Implements the [Broker 🤵 domain](<../../🤵 Broker helper/Broker 🤵 helper 🤲.md>)
+> Implements the [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
 
 > Stores [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) participants
 

@@ -9,7 +9,7 @@
 > Implements the [Notifier 📣 domain](<../../📣 Notifier domain/📣 Notifier 👥 domain.md>)
 
 > Purpose
-* The [Broker 🤵 domain](<../../../Brokers 🤵/🤵 Broker helper/Broker 🤵 helper 🤲.md>) 
+* The [Broker 🤵 domain](<../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) 
     * tells the [Notifier 📣 domain](<../../📣 Notifier domain/📣 Notifier 👥 domain.md>) 
     * that there was an update 
     * and they need to refresh the user experience.
@@ -36,7 +36,7 @@ Body:
 
 |Object|Property|Type|Description|Origin
 |-|-|-|-|-
-|Header|`From`|domain| [Broker 🤵](<../../../Brokers 🤵/🤵 Broker helper/Broker 🤵 helper 🤲.md>) | [`Onboard@`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 request.md>)
+|Header|`From`|domain| [Broker 🤵](<../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Onboard@`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 request.md>)
 ||`To`|domain| [Notifier 📣](<../../📣 Notifier domain/📣 Notifier 👥 domain.md>) | [`Onboard@`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 request.md>)
 ||`Subject`|string|`Updated@Notifier`
 |Body  |`Wallet` |uuid  | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) ID | [`Onboard@`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 request.md>)

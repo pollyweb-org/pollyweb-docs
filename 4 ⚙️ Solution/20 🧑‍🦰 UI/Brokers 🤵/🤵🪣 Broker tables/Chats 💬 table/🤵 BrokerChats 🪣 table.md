@@ -1,6 +1,6 @@
 # 🤵🪣 Chats @ Broker table
 
-> Implements the [Broker 🤵 domain](<../../🤵 Broker helper/Broker 🤵 helper 🤲.md>)
+> Implements the [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
 
 > Stores [Chats 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
 
