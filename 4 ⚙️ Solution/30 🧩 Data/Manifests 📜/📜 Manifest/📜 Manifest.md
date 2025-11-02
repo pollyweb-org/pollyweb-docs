@@ -42,7 +42,7 @@
 
     |Section|Purpose | Schemas
     |-|-|-
-    | 🤗 [Host About](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | Domain identification (mandatory). | [`./ABOUT` 🧩](<../📜🧩 Manifest schemas/🧩 ABOUT.md>) 
+    | 🤗 [Host About](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | Domain identification (mandatory). | [`./ABOUT` 🧩](<../📜🧩 Manifest schemas/🧩 ABOUT.md>) 
     | 🫡 [Domain Trusts](<../../Trusts 🫡/🫡 Domain Trust.md>) | Trusted domains, Codes, and roles. | [`./TRUST` 🧩](<../📜🧩 Manifest schemas/🧩 TRUST.md>)
     |  🧩 [Schema Codes](<../../Codes 🧩/🧩 Schema Code.md>) | Defined by the domain. | [`./CODE` 🧩](<../📜🧩 Manifest schemas/🧩 CODE.md>)  | Schema validation of a Code
     |  🧩 [Delegated Codes](<../../Codes 🧩/🧩 Schema Code.md>) | Codes delegated to other domains. | [`./DELEGATE` 🧩](<../📜🧩 Manifest schemas/🧩 DELEGATE.md>)

@@ -40,7 +40,7 @@ Body:
     * AND the palm reader is actively looking for the user of the [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>)
     * WHEN suppressed 
     * THEN stop searching for it
-    * AND stop sending findings to the [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>).
+    * AND stop sending findings to the [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>).
     
 * Remove the session from 🪣 Disclosures
 * If the session is not found on disclosures, just discard the message.

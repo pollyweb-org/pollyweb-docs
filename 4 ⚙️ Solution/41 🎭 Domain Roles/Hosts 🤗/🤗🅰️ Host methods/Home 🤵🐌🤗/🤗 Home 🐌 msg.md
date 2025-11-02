@@ -4,7 +4,7 @@
 * Implemented by the [`Home` 📃 script](<🤗 Home 📃 handler.md>)
 
 > Purpose
-* Shows the main menu of the [Host 🤗 domain](<../../🤗🎭 Host role.md>).
+* Shows the main menu of the [Host 🤗 domain](<../../🤗 Host role/🤗🎭 Host role.md>).
 
 > Used by
 * [🧑‍🦰👉🗄️ Unbind](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Vaults 🗄️/Unbind 💬🗄️🤵 /🧑‍🦰 Unbind Vault ⏩ flow.md>) flow
@@ -19,7 +19,7 @@ Consider the following [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Ch
 
 | [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
-| 🤗 [Host](<../../🤗🎭 Host role.md>) | 😃 What do you need? <br/> - [ Something ] <br> - [ Something else ]  | 
+| 🤗 [Host](<../../🤗 Host role/🤗🎭 Host role.md>) | 😃 What do you need? <br/> - [ Something ] <br> - [ Something else ]  | 
 ||
 
 
@@ -54,7 +54,7 @@ Body:
 |Object|Property|Type|Description | Origin
 |-|-|-|-|-
 |Header|`From`|domain| [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | [`Hello@`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
-||`To`|domain| [Host 🤗](<../../🤗🎭 Host role.md>) | [`Hello@`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
+||`To`|domain| [Host 🤗](<../../🤗 Host role/🤗🎭 Host role.md>) | [`Hello@`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 ||`Subject`|string|`Home@Host`
 |Body  |`Chat`   |uuid  | [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID | [`Hello@`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 |

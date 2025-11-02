@@ -12,9 +12,9 @@ Consider the following [Chat 💬](<../../4 ⚙️ Solution/35 💬 Chats/Chats 
 
 | [Domain](<../../4 ⚙️ Solution/40 👥 Domains/👥 Domain.md>) | [Prompt](<../../4 ⚙️ Solution/35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
-| [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | 😃 Start risky task? [Yes, No] > Yes
+| [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | 😃 Start risky task? [Yes, No] > Yes
 | 🆔 [Identity](<../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.  | [📸 selfie](<../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/6 🆔⏩😶 Face scan.md>)
-| [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | ✅ Starting task...
+| [🤗 Host](<../../4 ⚙️ Solution/41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | ✅ Starting task...
 |
 
 <br/>

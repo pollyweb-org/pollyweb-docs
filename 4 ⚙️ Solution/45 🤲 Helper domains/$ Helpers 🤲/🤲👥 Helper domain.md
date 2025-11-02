@@ -28,12 +28,12 @@
     |-|-|-
     | [👀 Ads](<../Advertisers 👀/👀🤲 Advertiser helper.md>) | GoogleAds | Intermediates ad workflows for [Brokers 🤵](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>)
     | [🤝 Biller](<../Billers 🤝/🤝🤲 Biller helper.md>) | ApplePay | Manages billing cycles between [domains 👥](<../../40 👥 Domains/👥 Domain.md>)
-    | [🤵 Broker](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | WhatsApp | Manages [Chats](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) between [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) and [Hosts 🤗](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)
+    | [🤵 Broker](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | WhatsApp | Manages [Chats](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) between [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) and [Hosts 🤗](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)
     | [⏳ Buffer](<../Buffers ⏳/⏳🤲 Buffer helper.md>) | Kafka | Throttles [Streamers 🌬️](<../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>) for [Subscribers 🔔](<../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>)
     | [🏦 Collector](<../Collectors 🏦/🏦🤲 Collector helper.md>) | CapitalOne | Collects money from [Payers 💳](<../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) for [Sellers 💵](<../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>)
     | [🔐 Keymaker](<../Keymakers 🔐/05  🔐🏭 Keymaker supplier.md>) | - | Manages [Padlocks 🔒](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>) for [Brands 🍏](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>)
     | [💳 Payer](<../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) | PayPal | Pays [Collectors 🏦](<../Collectors 🏦/🏦🤲 Collector helper.md>) for [domains 👥](<../../40 👥 Domains/👥 Domain.md>)
-    | [🖨️ Printer](<../Printers 🖨️/🖨️🤲 Printer helper.md>) | - | Prints [Locators 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) for [Brand 🍏](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) and [Host 🤗](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)
+    | [🖨️ Printer](<../Printers 🖨️/🖨️🤲 Printer helper.md>) | - | Prints [Locators 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) for [Brand 🍏](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) and [Host 🤗](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)
     | [🛰️ Relayer](<../Relayers 🛰️/🛰️🤲 Relayer helper.md>)
     | [🪄 Wand](<../Wands 🪄/🪄🤲 Wand helper.md>) | - | Manages [Chats 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) for [Things 💠](<../../25 🔆 Locators/Things 💠/💠🔆 Thing locator.md>) for [Brands 🍏](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>)
 
@@ -45,7 +45,7 @@
 
     | [Role 🎭](<../../40 👥 Domains/👥 Domain.md>) | Purpose
     |-|-
-    | [🤗 Host](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) | To open [Chats 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) with domain-admin users
+    | [🤗 Host](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | To open [Chats 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) with domain-admin users
     | [🪢 Integrator](<../../41 🎭 Domain Roles/Integrators 🪢/🪢🎭 Integrator role.md>) | To manifest its services to  [Finder 🔎 domains](<../../50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>)
     | [🗄️ Vault](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) | To store user profiles with [`.HOST/BIND/SELF` 🧩](<../../../7 🧩 Codes/$/🧩 VAULT code.md>)
     | [💵 Seller](<../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) | To sell the usage plans via a [Biller 💳 helper domain](<../Billers 🤝/🤝🤲 Biller helper.md>)
@@ -72,7 +72,7 @@
     |#| Group | Step
     |-|-|-
     |1| `Find` | [Find 🔎](<../../50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) a [Helper 🤲 ](<🤲👥 Helper domain.md>) with the desired services
-    |2| `Chat` | [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) with the Helper's [Host 🤗 role](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)
+    |2| `Chat` | [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) with the Helper's [Host 🤗 role](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)
     |3| `Bind`| [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to the Helper's [Vault 🗄️ role](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)
     |4| `Bill` | Subscribe a plan in the Helper's [Biller 🤝](<../Billers 🤝/🤝🤲 Biller helper.md>)
     |5| `Link` | Link a [Payer 💳](<../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) with the Helper's [Biller 🤝](<../Billers 🤝/🤝🤲 Biller helper.md>)

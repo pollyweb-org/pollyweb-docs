@@ -179,11 +179,11 @@
 
 1. **How are users protected from stalking from vaults?**
 
-    [Vault 🗄️ domains](<🗄️🎭 Vault role.md>) are [Host 🤗 domains](<../Hosts 🤗/🤗🎭 Host role.md>) that store user data. 
+    [Vault 🗄️ domains](<🗄️🎭 Vault role.md>) are [Host 🤗 domains](<../Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) that store user data. 
     
-    * When a user [binds 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to a [Host 🤗 domain](<../Hosts 🤗/🤗🎭 Host role.md>), the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) passes a unique [bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) ID to the [Host 🤗](<../Hosts 🤗/🤗🎭 Host role.md>) to be able to identify the user across sessions, turning the [Host 🤗 domain](<../Hosts 🤗/🤗🎭 Host role.md>) into a [Vault 🗄️ domain](<🗄️🎭 Vault role.md>).
+    * When a user [binds 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to a [Host 🤗 domain](<../Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>), the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) passes a unique [bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) ID to the [Host 🤗](<../Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) to be able to identify the user across sessions, turning the [Host 🤗 domain](<../Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) into a [Vault 🗄️ domain](<🗄️🎭 Vault role.md>).
     
-    * While the [Vault 🗄️ domain](<🗄️🎭 Vault role.md>) is now able to track the user across [Chats 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>), it cannot track the user across [Host 🤗 domains](<../Hosts 🤗/🤗🎭 Host role.md>) because the [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) ID is unique for the relationship between that user and that [Host 🤗](<../Hosts 🤗/🤗🎭 Host role.md>).
+    * While the [Vault 🗄️ domain](<🗄️🎭 Vault role.md>) is now able to track the user across [Chats 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>), it cannot track the user across [Host 🤗 domains](<../Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) because the [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) ID is unique for the relationship between that user and that [Host 🤗](<../Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>).
 
     ---
     <br/>

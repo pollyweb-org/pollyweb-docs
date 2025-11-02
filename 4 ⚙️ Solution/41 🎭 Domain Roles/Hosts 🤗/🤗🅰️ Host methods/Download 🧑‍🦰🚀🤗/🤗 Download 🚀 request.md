@@ -31,7 +31,7 @@ Body:
 |Object|Property|Type|Description | Origin
 |-|-|-|-|-
 | Header    |`From`|domain| `Anonymous`
-|           |`To`|domain| [Sender 🤗](<../../🤗🎭 Host role.md>) | [`Prompt@`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Prompt 🤵🐌📣/📣 Prompt 🐌 msg.md>)
+|           |`To`|domain| [Sender 🤗](<../../🤗 Host role/🤗🎭 Host role.md>) | [`Prompt@`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Prompt 🤵🐌📣/📣 Prompt 🐌 msg.md>)
 |           | `Subject`     | string    | `Prompted@Host`
 | Body      | `Appendix`    | uuid      | [Appendix 📎](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/5 📎 with Appendix.md>) | [`Prompted@`](<../Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 request.md>)
 |

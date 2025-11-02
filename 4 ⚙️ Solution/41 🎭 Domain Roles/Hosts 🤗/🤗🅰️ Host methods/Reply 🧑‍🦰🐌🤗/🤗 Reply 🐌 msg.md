@@ -7,7 +7,7 @@
 
 * A [Wallet 🧑‍🦰 app](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) 
     * replies to a [Prompt 🤔](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) 
-    * of a [Host 🤗 domain](<../../🤗🎭 Host role.md>) 
+    * of a [Host 🤗 domain](<../../🤗 Host role/🤗🎭 Host role.md>) 
     * in a [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>).
 
 
@@ -37,7 +37,7 @@ Body:
 |Object|Property|Type|Description | Origin
 |-|-|-|-|-
 | Header    |`From`|domain| `Anonymous`
-|           |`To`|domain| [Sender 🤗](<../../🤗🎭 Host role.md>) | [`Prompt@`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Prompt 🤵🐌📣/📣 Prompt 🐌 msg.md>)
+|           |`To`|domain| [Sender 🤗](<../../🤗 Host role/🤗🎭 Host role.md>) | [`Prompt@`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Prompt 🤵🐌📣/📣 Prompt 🐌 msg.md>)
 |           | `Subject`     | string    | `Prompted@Host`
 | Body      | `Prompt`    | uuid      | [Prompt 🤔](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) ID | [`Prompt@`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Prompt 🤵🐌📣/📣 Prompt 🐌 msg.md>)
 || `Result`| enum | `OK` `CANCEL` `YES` `NO` 

@@ -11,7 +11,7 @@
     * is a line in [Chat 💬](<../Chats 💬/💬 Chat.md>) 
     * with a question or information to the user
     * sent to a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) 
-    * by a [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) 
+    * by a [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) 
     * via the [Prompt 🤗⏩🧑‍🦰](<../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) flow.
 
     ---
@@ -21,7 +21,7 @@
 
 1. **What input formats can Hosts ask Wallets to render?**
 
-    Similar to HTTP, on NLWeb the [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) servers request the [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) to render the requested [Prompts 🤔](<🤔 Prompt.md>).
+    Similar to HTTP, on NLWeb the [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) servers request the [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) to render the requested [Prompts 🤔](<🤔 Prompt.md>).
 
     * The supported [Prompt 🤔](<🤔 Prompt.md>) formats are as follow.
 
@@ -44,8 +44,8 @@
 1. **Can Hosts replace sent prompts?**
 
     Yes, but only temporary [Prompts 🤔](<🤔 Prompt.md>). 
-    - If a [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) sends  two consecutive blocking [Prompts 🤔](<🤔 Prompt.md>) while the user has not answered the first, then the first becomes readonly and the second becomes the active input.
-    - If the [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) wants a [Prompts 🤔](<🤔 Prompt.md>) to be visually replaced, then they need to use a temporary [Prompts 🤔](<🤔 Prompt.md>), visually represented by an hourglass ⏳ emoji. 
+    - If a [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) sends  two consecutive blocking [Prompts 🤔](<🤔 Prompt.md>) while the user has not answered the first, then the first becomes readonly and the second becomes the active input.
+    - If the [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) wants a [Prompts 🤔](<🤔 Prompt.md>) to be visually replaced, then they need to use a temporary [Prompts 🤔](<🤔 Prompt.md>), visually represented by an hourglass ⏳ emoji. 
     - This is particularly useful when [preparing food 🤝](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/53 🪑 Seat: Change order 🌀.md>), when [waiting food orders 🤝](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/82 🧑‍🍳 Chef: Prepare food 🥘.md>), and when reminding users of [upcoming bookings 🤝](<../../../3 🤝 Use Cases/03 🧳 Travel/05 🧳 Travel by hailing 🙋/1 🙋 Customer @ Home 🏠/12 🏠 Book.md>).
 
     ---
@@ -55,7 +55,7 @@
 
     Yes, but that rewinds the flow.
 
-    * [Chats 💬](<../Chats 💬/💬 Chat.md>) are designed to be forward-only workloads managed by a [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) (and not by the user). 
+    * [Chats 💬](<../Chats 💬/💬 Chat.md>) are designed to be forward-only workloads managed by a [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) (and not by the user). 
         * This behavior is similar to LLM apps like ChatGPT, Gemini, and others. 
         * Just like in ChatGPT, users to change answers to old [Prompts 🤔](<🤔 Prompt.md>).
         
@@ -64,9 +64,9 @@
         * then go back to B and change the history to A, B, X, Y, Z;
         * as long as there was no [Freeze ❄️](<../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Freeze 🤗⏩❄️/🤗 Freeze ⏩ flow.md>) between B and E.
     
-    * However, [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) can [Freeze ❄️](<../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Freeze 🤗⏩❄️/🤗 Freeze ⏩ flow.md>) a [Chat 💬](<../Chats 💬/💬 Chat.md>) until a certain checkpoint.
+    * However, [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) can [Freeze ❄️](<../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Freeze 🤗⏩❄️/🤗 Freeze ⏩ flow.md>) a [Chat 💬](<../Chats 💬/💬 Chat.md>) until a certain checkpoint.
         * This blocks the user from changing any [Prompts 🤔](<🤔 Prompt.md>) up to that point.
-        * [Hosts 🤗](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>) to this when committing a transaction to a database with the inputs collected.
+        * [Hosts 🤗](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) to this when committing a transaction to a database with the inputs collected.
   
     * ⚠️ Note: [`Options`](<🤔⚙️ Prompt features/4 🔘 with Options.md>) with a `§` open a new [Chat 💬](<../Chats 💬/💬 Chat.md>)  and are never frozen.
 
