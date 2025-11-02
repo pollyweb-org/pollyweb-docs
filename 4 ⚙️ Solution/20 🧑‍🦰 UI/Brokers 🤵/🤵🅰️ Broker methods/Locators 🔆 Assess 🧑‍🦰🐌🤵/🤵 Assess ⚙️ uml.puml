@@ -2,10 +2,18 @@
 ' ------------
 
 participant "Wallet 👱\napp" as wallet  
-participant "Notifier 📣\nbff" as notifier
-participant "Broker 🤵\nhost" as broker
-participant "Printer 🖨️\nsupplier" as printer
+'participant "Notifier 📣\nbff" as notifier
 participant "Finder 🔎\nvault" as finder
+
+participant "Printer 🖨️\nsupplier" as printer
+
+
+box "Broker 🤵" #FFFFFA
+    participant "Handler 📃" as broker
+    participant "Chats" as chats
+    participant "Chatters" as chatters
+end box
+
 
 
 activate wallet
@@ -22,6 +30,9 @@ activate broker
         activate printer
             printer -> broker: {host locator}
         deactivate printer
+
+        broker -> chats: 
+        broker -> chatters: 
 
     end group
 
