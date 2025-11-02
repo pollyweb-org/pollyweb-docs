@@ -71,10 +71,12 @@
         Subject: Introduce@Finder
     Body:
         Chat: $chat.Chat
-        Host: $chat.Chat
+        Host: $locator.Host
+        Language: $wallet.Language
+        Reviewer: $wallet.Reviewer
 ```
 
-> Continues on [🔎⏩🧑‍🦰 Introduce 🤗](<../../../../50 🫥 Agent domains/Finders 🔎/🔎⏩ Finder flows/Introduce 🔎⏩🧑‍🦰/🔎 Introduce ⏩ flow.md>)
+> Continues on the [`Introduce@Finder` 📃 handler](<../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/Introduce 🤵🐌🔎/🔎 Introduce 📃 handler.md>)
 
 
 <br/>
