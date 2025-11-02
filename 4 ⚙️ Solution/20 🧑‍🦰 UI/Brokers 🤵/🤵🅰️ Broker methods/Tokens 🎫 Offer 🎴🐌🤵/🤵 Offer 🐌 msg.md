@@ -54,7 +54,7 @@ Body:
 
     This is the `Key` of the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
     * It is required for matching the signature when sharing. 
-    * Only the [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) keeps this information to avoid replay attacks from [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>) purposefully breaking the [`Save Token` ⏩ flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save token ⏩ flow.md>) halfway to collected repeated [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
+    * Only the [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) keeps this information to avoid replay attacks from [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) purposefully breaking the [`Save Token` ⏩ flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save token ⏩ flow.md>) halfway to collected repeated [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
 
     ---
     <br/>
@@ -64,7 +64,7 @@ Body:
     | Reason | Details
     |-|-
     |`Reject`| [Broker 🤵 domains](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) verify if the lifespan of the offered [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) is worth showing to the user, rejecting [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) already expired or too far ahead in the future.
-    `Translate` | [Broker 🤵 domains](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) need to translate the [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)  into for users in their [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>) language.
+    `Translate` | [Broker 🤵 domains](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) need to translate the [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)  into for users in their [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) language.
     `Share`| When [Broker 🤵 domains](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) answer a [Query@Broker](<../Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) call, they need to filter only the [Trusted 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) and active [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) of a certain [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)  within a version interval to be shared.
     |
 

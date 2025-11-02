@@ -201,12 +201,12 @@ Successful Tests:
 
   - Given: '{{Wallet}}'
     LinkText: "Wallet 🧑‍🦰 app" 
-    LinkFile: "🧑‍🦰🛠️ Wallet app.md"
+    LinkFile: "🧑‍🦰 Wallet 🛠️ app.md"
     Reasons: This is hardcoded.
 
   - Given: '{{Wallets}}'
     LinkText: "Wallet 🧑‍🦰 apps" 
-    LinkFile: "🧑‍🦰🛠️ Wallet app.md"
+    LinkFile: "🧑‍🦰 Wallet 🛠️ app.md"
     Reasons: This is hardcoded.
 
   - Given: '{{Hosted}}'

@@ -9,7 +9,7 @@
 
     NLWeb does not guarantee client-side validations.
 
-    * It's close to impossible to enforce [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>) to comply with the rules across a large landscape of vendors and user interface (UI) technologies: 
+    * It's close to impossible to enforce [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) to comply with the rules across a large landscape of vendors and user interface (UI) technologies: 
         * e.g., web browsers, mobile operating systems, shell consoles.
   
     * Even if enforcing would be possible, [Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) developers would still have a hard time guessing the nuanced behaviors across vendors:
@@ -20,7 +20,7 @@
 
 1. **How to implement client-side validations?**
 
-    When applicable, only minimum and maximum values are eventually implemented by [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>) on a best-effort basis, given that this interval is useful when rendering HTML sliders.
+    When applicable, only minimum and maximum values are eventually implemented by [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) on a best-effort basis, given that this interval is useful when rendering HTML sliders.
 
     |Restriction| Type |  Details
     |-|-|-
@@ -54,7 +54,7 @@
 
     Consider the following [Chat 💬](<../../Chats 💬/💬 Chat.md>) as an example.
 
-    | [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>)
+    | [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     | - | - | - |
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | 😃 What's the code? [-]<br/>> This is a 6 digit number | `0123`
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | ❌ Enter a 6 digit number.
@@ -88,7 +88,7 @@
 
     Here's a [Chat 💬](<../../Chats 💬/💬 Chat.md>).
 
-    | [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>)
+    | [Domain](<../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     | - | - | - |
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | 💬 What's the code? [-]<br/>> This is a 6 digit number | `0123`
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | ❌ Enter a 6 digit number

@@ -89,7 +89,7 @@
 
     Here's a [Chat 💬](<../../../Chats 💬/💬 Chat.md>).
 
-    || [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../Prompts 🤔/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>)
+    || [Domain](<../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../Prompts 🤔/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     |-| - | - | - |
     || 🍫 Vending | 😃 What's the item number?   | 🔢 123
     || 🍫 Vending | 😃 A water bottle? [Yes, No]  

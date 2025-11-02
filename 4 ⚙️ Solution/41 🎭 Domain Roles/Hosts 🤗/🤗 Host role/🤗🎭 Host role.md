@@ -4,7 +4,7 @@
 1. **What is a Host domain role in NLWeb?**
 
     A [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) with a [Host 🤗 domain role](<🤗🎭 Host role.md>) is any [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) that
-    * hosts a [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) with [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>) 
+    * hosts a [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) with [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) 
     * via a [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>). 
 
     ---
@@ -46,7 +46,7 @@
 1. **Do Hosts send messages to users via web sockets?**
 
     No. 
-    - [Host 🤗 domains](<🤗🎭 Host role.md>) send [Messages 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) via HTTPS POST to a proxy [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) that then communicate with the user's [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>) with real-time protocols (e.g., web sockets, MQTT). 
+    - [Host 🤗 domains](<🤗🎭 Host role.md>) send [Messages 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) via HTTPS POST to a proxy [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) that then communicate with the user's [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) with real-time protocols (e.g., web sockets, MQTT). 
 
     ---
     <br/>
@@ -58,8 +58,8 @@
     - and they are typically implemented by a main cloud provider that is able to ensure high availability and low latency communication between globally dispersed entities. 
     
     The [user's Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) then sends the message to a [user's Notifier 📣 domain](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>), also via HTTPS POST:
-    - the [user's Notifier 📣 domain](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>) is responsible for pushing the message to the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>) via whatever real-time mechanisms the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>) supports (e.g., web sockets, MQTT);
-    - because of this technical dependency, a [Notifier 📣 domain](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>) is typically implemented by the same team that implemented the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>).
+    - the [user's Notifier 📣 domain](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>) is responsible for pushing the message to the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) via whatever real-time mechanisms the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) supports (e.g., web sockets, MQTT);
+    - because of this technical dependency, a [Notifier 📣 domain](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>) is typically implemented by the same team that implemented the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>).
 
     ---
     <br/>
@@ -67,11 +67,11 @@
 
 1. **Are chat prompt messages encrypted from Hosts to Wallets?**
 
-    Not applicable - [Host 🤗 domains](<🤗🎭 Host role.md>) don't send [Messages 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) to [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>). 
+    Not applicable - [Host 🤗 domains](<🤗🎭 Host role.md>) don't send [Messages 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) to [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>). 
 
     * [Host 🤗 domains](<🤗🎭 Host role.md>) only send asynchronous HTTPS intents to the [user's Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>), who then sends it to the [user's Notifier 📣 domain](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>) also via asynchronous HTTPS. 
 
-    * When the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>) app receives the intent from the [Notifier 📣 domain](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>), it pulls the [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) content directly from the [Host 🤗 domain](<🤗🎭 Host role.md>) with a synchronous HTTPS call. 
+    * When the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) app receives the intent from the [Notifier 📣 domain](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>), it pulls the [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) content directly from the [Host 🤗 domain](<🤗🎭 Host role.md>) with a synchronous HTTPS call. 
 
     * This keeps the [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) and the [Notifier 📣 domain](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>) in the dark regarding the content of the [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) (even in the event of a cryptography attack) because no content actually passes by these proxy services.
 
@@ -82,9 +82,9 @@
 
     Yes. 
 
-    - Although the user's [Messages 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) content is JSON not encrypted, it is sent over HTTPS POST directly from the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>) to the [Host 🤗 domain](<🤗🎭 Host role.md>).
+    - Although the user's [Messages 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) content is JSON not encrypted, it is sent over HTTPS POST directly from the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) to the [Host 🤗 domain](<🤗🎭 Host role.md>).
 
-    - The HTTPS channel ensures the message is encrypted between the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>) and the [Host 🤗 domain](<🤗🎭 Host role.md>) . 
+    - The HTTPS channel ensures the message is encrypted between the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) and the [Host 🤗 domain](<🤗🎭 Host role.md>) . 
 
     - Unencrypted JSON requests sent over HTTPS are a standard practice in the service APIs of the major cloud providers (e.g., AWS, GCP), and are widely viewed as secure.
 
@@ -117,7 +117,7 @@
     | | [`Home`](<../🤗🅰️ Host methods/Home 🤵🐌🤗/🤗 Home 🐌 msg.md>) | Show the top menu on the [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
     | | [`Abandoned`](<../🤗🅰️ Host methods/Abandoned 🤵🐌🤗/🤗 Abandoned 🐌 msg.md>) |  The user abandoned a [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
     | | [`Summarize`](<../🤗🅰️ Host methods/Summarize 🤵🐌🤗/🤗 Summarize 🐌 msg.md>) | Return a [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) advertising summary
-    |[🧑‍🦰 Wallet](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>) | [`Prompted`](<../🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 request.md>) | Return a [Prompt's 🤔](<../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) content
+    |[🧑‍🦰 Wallet](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) | [`Prompted`](<../🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 request.md>) | Return a [Prompt's 🤔](<../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) content
     | | [`Reply`](<../🤗🅰️ Host methods/Reply 🧑‍🦰🐌🤗/🤗 Reply 🐌 msg.md>) | Accept the reply to a [Prompt 🤔](<../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>)
     | | [`Download`](<../🤗🅰️ Host methods/Download 🧑‍🦰🚀🤗/🤗 Download 🚀 request.md>) | Download an [Appendix 📎](<../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/5 📎 with Appendix.md>)
     [🖐️ Palmist](<../../../60 🧰 Edge/63 🖐️ Palmists/01 🖐️🔌 Palmist device.md>) | [`Found`](<../🤗🅰️ Host methods/Found 🖐️🐌🤗/🤗 Found 🐌 msg.md>) | A [Palmist 🖐️](<../../../60 🧰 Edge/63 🖐️ Palmists/01 🖐️🔌 Palmist device.md>) found the Chat's user
