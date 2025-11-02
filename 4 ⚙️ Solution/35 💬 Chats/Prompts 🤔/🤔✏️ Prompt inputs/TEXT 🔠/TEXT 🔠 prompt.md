@@ -23,7 +23,7 @@
    
     |Agent| Purpose
     |-|-
-    |🤵 [Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>)| To search for the right agent for a job.
+    |🤵 [Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>)| To search for the right agent for a job.
     🔎 [Finder](<../../../../50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) | To search for a host of a service or place.
     🧭 [Navigator](<../../../../50 🫥 Agent domains/Navigators 🧭/$ 🧭🫥 Navigator agent.md>) | To report on something suspicious.
     |[💖 Vitalogist](<../../../../50 🫥 Agent domains/Vitalogists 💖/💖🫥 Vitalogist agent.md>)| To register food intake.

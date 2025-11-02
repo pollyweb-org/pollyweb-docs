@@ -3,10 +3,10 @@ Send an invitation letter before a trip
 
 | [Domain](<../../../../4 ⚙️ Solution/40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../4 ⚙️ Solution/35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
 | - | - | -
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | 😃 Hi! What do you need? | `invitation`<br/>`letter`
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | 💬 Is this what you mean? [Yes, No] <br/> - you're  hosting foreign guests<br/> - they need a visa to travel <br/> - visa requires an invitation letter <br/> - you need to send it to them. | > Yes
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | ℹ️ None of your vaults supports it [+]
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | ✅ Over to 🔎 Finder.
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>) | 😃 Hi! What do you need? | `invitation`<br/>`letter`
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>) | 💬 Is this what you mean? [Yes, No] <br/> - you're  hosting foreign guests<br/> - they need a visa to travel <br/> - visa requires an invitation letter <br/> - you need to send it to them. | > Yes
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>) | ℹ️ None of your vaults supports it [+]
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>) | ✅ Over to 🔎 Finder.
 | [ new chat ]
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) | ℹ️ Request received [+] <br/> - I need the hosting address.
 | 🧢 [Persona](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Personas 🧢/🧢 Persona agent/🧢🫥 Persona agent.md>) | 🫥 Share address? [No] <br> - [ 🏠 home ] <br/> - [ 🏡 Daniel's ] | > 🏠 home
@@ -14,14 +14,14 @@ Send an invitation letter before a trip
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) | 💬 Here are suggestions: <br/> - [ Any Council 🏛️ ] (4.4 ⭐) <br/> - [ Find 🔎 ] alternatives | > Any Council 🏛️
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) | ℹ️ Any Council 🏛️ (4.4 ⭐): <br/> - responsible for your address <br/> - supports online letter requests.
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) | 💬 Suggested next steps: <br/> - [ Request ] online <br/> - [ Find 🔎 ] alternatives | > Request
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | ✅ Over to Any Council 🏛️
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>) | ✅ Over to Any Council 🏛️
 | [ new chat ]
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) | ⓘ Any Council (4.4 ⭐) [+]
 | 🏛️ Council | ℹ️ Invitation letter requested [+]
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | 🫥 Ready to request it? [Yes, No] <br/> - your ID identifies you 🆔   <br/> - your contracts confirm our address <br/> - your persona sets your job title 🧢 <br/> - you provide the hosting period 🗓️ <br/> - you forward ID request to guests 🤵  <br/> - your persona sets the guests 🧢 <br/> - guests' IDs identify them 🆔 <br/> - your ID signs your responsibility 🆔 <br/> - your payer pays the service 💳 <br/> - you forward the letter to guests 🤵 | > Yes
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>) | 🫥 Ready to request it? [Yes, No] <br/> - your ID identifies you 🆔   <br/> - your contracts confirm our address <br/> - your persona sets your job title 🧢 <br/> - you provide the hosting period 🗓️ <br/> - you forward ID request to guests 🤵  <br/> - your persona sets the guests 🧢 <br/> - guests' IDs identify them 🆔 <br/> - your ID signs your responsibility 🆔 <br/> - your payer pays the service 💳 <br/> - you forward the letter to guests 🤵 | > Yes
 | 🆔 [Identity](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) | 🫥 Share identity? [Yes, No] | > Yes
 | 🏛️ Council | ℹ️ Thanks, Alice!
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | 🫥 Share contract address? [No] <br> - Any Utility 💡 <br/> - Any Bank 🏦 | > Any Bank 🏦
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>) | 🫥 Share contract address? [No] <br> - Any Utility 💡 <br/> - Any Bank 🏦 | > Any Bank 🏦
 | 🏛️ Council | ℹ️ Addresses match.
 | 🧢 [Persona](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Personas 🧢/🧢 Persona agent/🧢🫥 Persona agent.md>) | 🫥 Share current job titles? [Yes, No] | > Yes
 | 🏛️ Council | ℹ️ Received job titles [+] <br/> - Senior Software Engineer

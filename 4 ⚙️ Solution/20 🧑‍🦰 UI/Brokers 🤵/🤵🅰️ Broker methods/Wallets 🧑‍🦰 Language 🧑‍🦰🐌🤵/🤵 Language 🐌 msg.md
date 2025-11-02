@@ -3,13 +3,13 @@
 <!-- Source: https://github.com/jorgemjfonseca/domain-trust-framework/blob/143c4c876bdd0dd8b120bdfecf20ef6b268ad20f/python/roles/broker/BROKER_WALLETS.py#L76 -->
 
 
-# 🧑‍🦰🐌🤵 Translate @ [Broker](<../../🤵🤲 Broker helper.md>)
+# 🧑‍🦰🐌🤵 Translate @ [Broker](<../../🤵 Broker helper/🤵🤲 Broker helper.md>)
 
 > Part of the [`Set Language` 💬 chat](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/Set Language 💬🤵/🧑‍🦰 Set Language ⏩ flow.md>)
 *  Implemented by [`Language` 📃 handler](<🤵 Language 📃 handler.md>)
 
 > Purpose
-* The user requests the [Broker 🤵 domain](<../../🤵🤲 Broker helper.md>) 
+* The user requests the [Broker 🤵 domain](<../../🤵 Broker helper/🤵🤲 Broker helper.md>) 
     * to change the language in the [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
 
 > Used in
@@ -33,7 +33,7 @@ Body:
 |Object|Property|Type|Description|Origin
 |-|-|-|-|-
 |Header|`From`| uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  | [`Onboard@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
-||`To`|domain| [Broker 🤵](<../../🤵🤲 Broker helper.md>) | [`Onboard@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
+||`To`|domain| [Broker 🤵](<../../🤵 Broker helper/🤵🤲 Broker helper.md>) | [`Onboard@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
 ||`Subject`| string | `Language@Broker`
 |Body|`Language`| enum | ISO language code.
 |

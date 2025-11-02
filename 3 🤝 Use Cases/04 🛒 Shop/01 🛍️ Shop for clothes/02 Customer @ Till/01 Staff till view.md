@@ -5,7 +5,7 @@ Bill at a boutique's till (staff view) 🛍️
 | - | - | - |
 | | | 🔆 [tap](<../../../../4 ⚙️ Solution/25 🔆 Locators/Locators 🔆/🔆 Locator.md>)
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) | ⓘ Any Store (4.4 ⭐) [+]
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵🤲 Broker helper.md>) | ⓘ Staff [🪪 token](<../../../../4 ⚙️ Solution/30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) shared [+]
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>) | ⓘ Staff [🪪 token](<../../../../4 ⚙️ Solution/30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) shared [+]
 | 🛍️ Store   | ℹ️ This is cashier desk 3 [+]
 | 🛍️ Store   | 😃 Hi Daniel, what's up? <br/>- [ Bill ] customer <br/>- [ Something else ] | > Bill
 | 🛍️ Store   | 😃 Scan an item [No] | ✨ scan
