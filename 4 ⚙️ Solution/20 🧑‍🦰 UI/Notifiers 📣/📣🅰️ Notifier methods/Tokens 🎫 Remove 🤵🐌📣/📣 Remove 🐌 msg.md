@@ -1,7 +1,7 @@
 
-# 🤵🐌📣 Remove @ [Notifier](<../../📣👥 Notifier domain.md>)
+# 🤵🐌📣 Remove @ [Notifier](<../../📣 Notifier domain/📣 Notifier 👥 domain.md>)
 
-> Implements the [Notifier 📣 domain](<../../📣👥 Notifier domain.md>)
+> Implements the [Notifier 📣 domain](<../../📣 Notifier domain/📣 Notifier 👥 domain.md>)
 
 > Used in [🧑‍🦰👉🤵 Remove token](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Tokens 🎫/Remove 💬🎫🤵 /🧑‍🦰 Remove Token ⏩ flow.md>).
 
@@ -26,7 +26,7 @@ Body:
 |Object|Property|Type|Description|Origin
 |-|-|-|-|-
 |Header|`From`|domain| [Broker 🤵](<../../../Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>) | [`Onboard@`](<../Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
-||`To`|domain| [Notifier 📣](<../../📣👥 Notifier domain.md>) | [`Onboard@`](<../Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
+||`To`|domain| [Notifier 📣](<../../📣 Notifier domain/📣 Notifier 👥 domain.md>) | [`Onboard@`](<../Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
 ||`Subject`|string|`Remove@Broker`
 |Body  |`Wallet`| uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  | [`Onboard@`](<../Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
 ||`Token`    |uuid| [Broker 🤵](<../../../Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>) key | [`Save@`](<../Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>)

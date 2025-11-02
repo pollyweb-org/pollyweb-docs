@@ -2,7 +2,7 @@
 
 > Implements the [Broker 🤵 domain](<../../🤵 Broker helper/🤵🤲 Broker helper.md>)
 
-> Contains [Notifier 📣 domains](<../../../Notifiers 📣/📣👥 Notifier domain.md>)
+> Contains [Notifier 📣 domains](<../../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>)
 
 <br/>
 

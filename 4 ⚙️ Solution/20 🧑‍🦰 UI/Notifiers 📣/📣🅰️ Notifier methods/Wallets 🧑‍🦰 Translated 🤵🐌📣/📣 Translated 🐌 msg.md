@@ -4,10 +4,10 @@
 
 # 🤵🐌📣 Translated @ Notifier
 
-> Implements the [Notifier 📣 domain](<../../📣👥 Notifier domain.md>)
+> Implements the [Notifier 📣 domain](<../../📣 Notifier domain/📣 Notifier 👥 domain.md>)
 
 > Purpose
-* [Broker 🤵 domains](<../../../Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>) call [Notifier 📣 domains](<../../📣👥 Notifier domain.md>) to re-render translated contented.
+* [Broker 🤵 domains](<../../../Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>) call [Notifier 📣 domains](<../../📣 Notifier domain/📣 Notifier 👥 domain.md>) to re-render translated contented.
 
 
 > Used by 
@@ -30,7 +30,7 @@ Body:
 |Object|Property|Type|Description | Origin
 |-|-|-|-|-
 |Header|`From`|domain| [Broker 🤵](<../../../Brokers 🤵/🤵 Broker helper/🤵🤲 Broker helper.md>) | [`Onboard@`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 request.md>)
-||`To`|domain| [Notifier 📣](<../../📣👥 Notifier domain.md>) | [`Onboard@`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 request.md>)
+||`To`|domain| [Notifier 📣](<../../📣 Notifier domain/📣 Notifier 👥 domain.md>) | [`Onboard@`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 request.md>)
 ||`Subject`|string|`Translated@Notifier`
 |Body  |`Wallet` |uuid  | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) ID | [`Onboard@`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 request.md>)
 |      |`Language` |enum  | ISO code | [`Language@`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Wallets 🧑‍🦰 Language 🧑‍🦰🐌🤵/🤵 Language 🐌 msg.md>)
