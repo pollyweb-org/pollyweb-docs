@@ -10,7 +10,7 @@
 > Purpose
 
 * A [Broker 🤵 domain](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) 
-    * unbinds a [Wallet 🧑‍🦰 app](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  
+    * unbinds a [Wallet 🧑‍🦰 app](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>)  
     * from a [Vault 🗄️ domain](<../../🗄️🎭 Vault role.md>).
 
 

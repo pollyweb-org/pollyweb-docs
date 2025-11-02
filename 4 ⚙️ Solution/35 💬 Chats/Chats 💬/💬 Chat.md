@@ -5,7 +5,7 @@
 
     A [Chat 💬](<💬 Chat.md>) is 
     * a structured conversation in natural language 
-    * between a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) and a [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) 
+    * between a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>) and a [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) 
     * that resembles a Web 2.0 session between a client and a server.
 
     ---
@@ -17,9 +17,9 @@
     | Component | Responsibilities
     |-|-
     |[🤗 Host](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | Leads the [Chat 💬](<💬 Chat.md>), always asking first.
-    |[🧑‍🦰 Wallet](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) | Held by the user, replies directly to the [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>).
+    |[🧑‍🦰 Wallet](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>) | Held by the user, replies directly to the [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>).
     |[🤵 Broker](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | Intermediates the conversation, receiving the Host's messages and forwarding them to the [Notifier 📣 domain](<../../20 🧑‍🦰 UI/Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>).
-    |[📣 Notifier](<../../20 🧑‍🦰 UI/Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>) | Implements the mobile push notifications, receiving the messages from the [Broker 🤵 domain](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) and forwarding them to the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
+    |[📣 Notifier](<../../20 🧑‍🦰 UI/Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>) | Implements the mobile push notifications, receiving the messages from the [Broker 🤵 domain](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) and forwarding them to the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>).
 
     ---
     <br/>
@@ -33,8 +33,8 @@
     |Technology|Details
     |-|-
     |[✨ QR code](<../../25 🔆 Locators/Locators 🔆/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>)| Users open the Wallet app on the device, then scan the QR code to open a chat window.
-    |[🔆 NFC tag](<../../25 🔆 Locators/Locators 🔆/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>)| Users tap the NFC tag with their device, regardless of having the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) open - this opens a chat window on the Wallet.
-    |[🌐 Link](<../../25 🔆 Locators/Locators 🔆/🔆⏩ Locator flows/🧑‍🦰🌐 Wallet URLs.md>)| Users click the link/button on the traditional web browser of their device - this opens a chat window on the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
+    |[🔆 NFC tag](<../../25 🔆 Locators/Locators 🔆/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>)| Users tap the NFC tag with their device, regardless of having the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>) open - this opens a chat window on the Wallet.
+    |[🌐 Link](<../../25 🔆 Locators/Locators 🔆/🔆⏩ Locator flows/🧑‍🦰🌐 Wallet URLs.md>)| Users click the link/button on the traditional web browser of their device - this opens a chat window on the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>).
     |[🤔 Prompt](<../Prompts 🤔/🤔 Prompt.md>)| In a [Chat 💬](<💬 Chat.md>) window, the [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) provides one or more options for the user to select from, and the user selects one - this opens a new [Chat 💬](<💬 Chat.md>) window.
 
     ----
@@ -102,7 +102,7 @@
 
     Users can provide feedback to domains via stars and comments. 
     * Also, by reporting on domains, users are contributing negatively to the domain's reputation. 
-    * [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) share this feedback collaboratively with other Wallets via [Reviewer ⭐ domains](<../../50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐🫥 Reviewer agent.md>). 
+    * [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>) share this feedback collaboratively with other Wallets via [Reviewer ⭐ domains](<../../50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐🫥 Reviewer agent.md>). 
     * [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) managers are notified about the feedback, and can reply to them. Similar mechanisms have been widely adopted by Trust Pilot, Google Maps, and Google Play.
 
     ---

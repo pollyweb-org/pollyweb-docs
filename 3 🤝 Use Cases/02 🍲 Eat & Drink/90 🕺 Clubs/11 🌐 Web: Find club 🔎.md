@@ -6,7 +6,7 @@
 
 ## 💬 Chat
 
-| [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+| [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
 | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 😃 Hi! What do you need? | `dance`
 | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 💬 How can I help? <br/>- [ 🔎 Find ] a dance place <br/>- [ Learn ] to dance <br/> - [ Something else ] | > 🔎 Find

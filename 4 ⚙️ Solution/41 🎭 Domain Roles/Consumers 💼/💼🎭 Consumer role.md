@@ -37,7 +37,7 @@
 
     - **Request on a chat**: 
         - in a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>), [Consumers 💼](<💼🎭 Consumer role.md>) can ask the user to share a specific [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>);
-        - if the user accepts, the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) shares with the [Consumer 💼](<💼🎭 Consumer role.md>) both the [bound 🔗 Vaults](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) and the downloaded [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) that match that [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>);
+        - if the user accepts, the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>) shares with the [Consumer 💼](<💼🎭 Consumer role.md>) both the [bound 🔗 Vaults](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) and the downloaded [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) that match that [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>);
         - e.g., an airline may ask a user to share their passport [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
 
     - **On chat hello**: 
@@ -143,7 +143,7 @@
 
     Consider the following [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) as an example. 
 
-    | [Domain](<../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+    | [Domain](<../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>)
     | - | - | - |
     | 🎰 Casino   | ℹ️ Request for minimum age. [+]
     | 🆔 [Identity](<../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) | 🫥 Share over 21? [Yes, No]      | > Yes
@@ -213,7 +213,7 @@
     
     * That configuration would result in the following [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) excerpt. 
 
-        | [Domain](<../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+        | [Domain](<../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>)
         |-|-|-|
         | 🏨 Hotel  | 😃 Hi! What do you need? <br/> - [ Check-in ] <br/> - [ Something else ] | > Check-in 
         | 🤵 [Broker](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 Ready to check-in? [Yes, No] <br/> - your identity 🆔 shares your ID <br/> - your curator 🧚 sets the room  <br/> - your payer 💳 pays the stay   <br/> - your broker 🤵 saves the room key  | > Yes
@@ -232,7 +232,7 @@
     |  Method | Purpose
     |-|-
     |[🗄️🐌 Consume](<💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>) | Collect user data from a [Vault 🗄️ domain](<../Vaults 🗄️/🗄️🎭 Vault role.md>)
-    | [🧑‍🦰🐌 Receive](<💼🅰️ Consumer methods/Receive 🧑‍🦰🐌💼/💼 Receive 🐌 msg.md>) | Receive [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) from a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)
+    | [🧑‍🦰🐌 Receive](<💼🅰️ Consumer methods/Receive 🧑‍🦰🐌💼/💼 Receive 🐌 msg.md>) | Receive [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) from a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>)
     
     ---
     <br/>
@@ -242,7 +242,7 @@
     |  Flow | Purpose
     |-|-
     | [⏩🧑‍🦰 Query Vault](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Bind 👉🔗💼/🧑‍🦰 Share Bind ⏩ flow.md>) | Ask for [Schema Codes 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) in [Vaults 🗄️](<../Vaults 🗄️/🗄️🎭 Vault role.md>) 
-    | [⏩🧑‍🦰 Share Token](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token 👉🎫💼/🎫 Share Token ⏩ flow.md>) | Ask for [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) in  [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) 
+    | [⏩🧑‍🦰 Share Token](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token 👉🎫💼/🎫 Share Token ⏩ flow.md>) | Ask for [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) in  [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>) 
     | [⏩🧑‍🦰 Share ID Token](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token+ID 👉🆔💼/🧑‍🦰 Share Token+ID ⏩ flow.md>) | Ask for [Identity 🆔](<../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) bound [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
     | [⏩🧑‍🦰 Token status](<💼⏩ Consumer flows/Token Status 💼⏩🎫/💼 Token Status ⏩ flow.md>) | Ask for the status of a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
 

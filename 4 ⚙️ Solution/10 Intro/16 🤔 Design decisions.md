@@ -11,9 +11,9 @@ Design Decisions
 
 1. **What is NLWeb's approach to conversational commerce?**
 
-    In NLWeb, [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) are the way for users to communicate with [Host 🤗 domains](<../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>). 
+    In NLWeb, [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>) are the way for users to communicate with [Host 🤗 domains](<../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>). 
     
-    - Similar to [Meta's WhatsApp 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/06 📺 WhatsApp business.md>), NLWeb [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) allow users to keep a list of active [Chats 💬](<../35 💬 Chats/Chats 💬/💬 Chat.md>) with [Host 🤗 domains](<../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>). 
+    - Similar to [Meta's WhatsApp 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/06 📺 WhatsApp business.md>), NLWeb [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>) allow users to keep a list of active [Chats 💬](<../35 💬 Chats/Chats 💬/💬 Chat.md>) with [Host 🤗 domains](<../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>). 
 
     - Like in [India's ONDC 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/09 🛒 Shopping landscape/01 📺 🇮🇳 India's ONDC.md>), domains can configure multiple types of user inputs - e.g., number, dropdown, calendar. 
     
@@ -42,7 +42,7 @@ Design Decisions
 
     NLWeb advocates for domains to ask users for well-known common data types (e.g., address) instead of generic text values. 
 
-    - Users [bind 🔗](<../30 🧩 Data/Binds 🔗/🔗 Bind.md>) their [Wallet 🧑‍🦰 app](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) to multiple [Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) holding parts of their personal data (e.g., banks, hospitals, governments);
+    - Users [bind 🔗](<../30 🧩 Data/Binds 🔗/🔗 Bind.md>) their [Wallet 🧑‍🦰 app](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>) to multiple [Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) holding parts of their personal data (e.g., banks, hospitals, governments);
 
         - this mirrors real-world interactions, where citizens typically trust organizations to hold their personal data, from traditional  [medical records 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/01 🕵 Profiling landscape/05 📺 Medical records.md>) to digital [family photos 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/01 🕵 Profiling landscape/02 📺 Social media.md>).
 
@@ -76,7 +76,7 @@ Design Decisions
 
     NLWeb integrates payments in [Chats 💬](<../35 💬 Chats/Chats 💬/💬 Chat.md>) between users and [Seller 💵 domains](<../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>). 
     
-    - As preconditions, users must first bind their [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) to one or more [Payer 💳 vaults](<../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) (e.g., their bank), while [Seller 💵 domains](<../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) must bind to [Collector 🏦 vaults](<../45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) (e.g., a payment gateway). 
+    - As preconditions, users must first bind their [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>) to one or more [Payer 💳 vaults](<../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) (e.g., their bank), while [Seller 💵 domains](<../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) must bind to [Collector 🏦 vaults](<../45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) (e.g., a payment gateway). 
 
     - The payment is sent from the [user's Payer 💳 vault](<../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) (on behalf of the user) to the [Seller's Collector 🏦 vault](<../45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) (on behalf of the [Seller 💵 domain](<../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>)). 
     
@@ -99,9 +99,9 @@ Design Decisions
     
     For that, NLWeb supports supply and demand matching at the end of chats: 
     
-    1. chat [Host 🤗 domain](<../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) sends a summary of the [Chat 💬](<../35 💬 Chats/Chats 💬/💬 Chat.md>) to the user's [Wallet 🧑‍🦰 app](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>); 
-    2. the [Wallet 🧑‍🦰 app](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) generates a list of next-best actions based on user preferences and contextual awareness; 
-    3. the [Wallet 🧑‍🦰 app](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>) then maps the actions to available offers and generates a recommendation for the user. 
+    1. chat [Host 🤗 domain](<../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) sends a summary of the [Chat 💬](<../35 💬 Chats/Chats 💬/💬 Chat.md>) to the user's [Wallet 🧑‍🦰 app](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>); 
+    2. the [Wallet 🧑‍🦰 app](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>) generates a list of next-best actions based on user preferences and contextual awareness; 
+    3. the [Wallet 🧑‍🦰 app](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>) then maps the actions to available offers and generates a recommendation for the user. 
 
     ---
 

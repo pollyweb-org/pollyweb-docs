@@ -1,15 +1,15 @@
 # 🧑‍🦰👉🤗 Scan or tap `.HOST` Locator @ Wallet
 
-> Implements a [Wallet 🧑‍🦰 app](<../../../🧑‍🦰🛠️ Wallet app.md>)
+> Implements a [Wallet 🧑‍🦰 app](<../../../🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>)
 
-* The user scans a [Locator 🔆](<../../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) with their [Wallet 🧑‍🦰 app](<../../../🧑‍🦰🛠️ Wallet app.md>).
+* The user scans a [Locator 🔆](<../../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) with their [Wallet 🧑‍🦰 app](<../../../🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>).
 * Scenario where the [Locator 🔆](<../../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) is managed by the [Host 🤗 domain](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)
 
 <br/>
 
 ## Chat
 
-| [Domain](<../../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../../🧑‍🦰🛠️ Wallet app.md>)
+| [Domain](<../../../../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../../🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>)
 | - | - | - |
 | | | 🔆 [scan](<../../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) |
 | 🔎 [Finder](<../../../../../50 🫥 Agent domains/Finders 🔎/🔎🫥 Finder agent.md>) | ⓘ Any Host (4.8 ⭐) [+]

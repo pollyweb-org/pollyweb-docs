@@ -1,10 +1,10 @@
 # 🧑‍🦰💬🤵 List chats @ Wallet
 
 
-> Implements a [Wallet 🧑‍🦰 app](<../../../🧑‍🦰🛠️ Wallet app.md>)
+> Implements a [Wallet 🧑‍🦰 app](<../../../🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>)
 
 
-* On the [Wallet 🧑‍🦰 app](<../../../🧑‍🦰🛠️ Wallet app.md>), fetch the user's [Chats 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) from the [Broker 🤵](<../../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+* On the [Wallet 🧑‍🦰 app](<../../../🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>), fetch the user's [Chats 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) from the [Broker 🤵](<../../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>)
 
 
 
