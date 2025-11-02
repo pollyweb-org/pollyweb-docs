@@ -37,7 +37,7 @@
 
 1. **How to bootstrap?**
 
-    | [Domain](<../../40 👥 Domains/👥 Domain.md>) | [Prompt](<../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
+    | [Domain](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     |-|-|-
     | ☁️ Hoster | 😃 Hi! What do you need? <br/>- [ Host ] a domain | > Host
     | [🤵 Broker](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 [Bind?](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/🧑‍🦰 Bind vault ⏩ flow.md>) [Yes, No, +] <br/>- [Vault 🧩](<../../../7 🧩 Codes/$/🧩 VAULT code.md>) | > Yes 

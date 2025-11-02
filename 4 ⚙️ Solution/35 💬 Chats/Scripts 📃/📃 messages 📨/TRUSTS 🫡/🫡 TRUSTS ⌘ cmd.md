@@ -14,7 +14,7 @@
 
     A `TRUSTS`
     * is a handler [Command ⌘](<../../📃 basics/Command ⌘.md>) 
-    * to assert the [domain Trust 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) between [domains 👥](<../../../../40 👥 Domains/👥 Domain.md>)
+    * to assert the [domain Trust 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) between [domains 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
     * by call the [`Trusts@Graph` 🅰️ method](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>).
   
     ---
@@ -39,7 +39,7 @@
 
     | Input| Purpose | Example
     |-|-|-
-    | `Trusted` | [Domain 👥](<../../../../40 👥 Domains/👥 Domain.md>) to [Trust 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) | `any-domain.dom`
+    | `Trusted` | [Domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to [Trust 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) | `any-domain.dom`
     | `Schema` | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to assert | `.HOST/HELLO`
     | `Role`| Optional role to assert | `VAULT` `CONSUMER`
 

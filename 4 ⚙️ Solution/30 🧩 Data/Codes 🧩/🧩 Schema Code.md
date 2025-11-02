@@ -33,7 +33,7 @@
 
     |#| Part |  Description
     |-|-|-
-    |1| `domain` |  The [domain 👥](<../../40 👥 Domains/👥 Domain.md>) that published the [Schema 🧩](<🧩 Schema Code.md>) in their [domain Manifest 📜](<../Manifests 📜/📜 Manifest/📜 Manifest.md>).
+    |1| `domain` |  The [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) that published the [Schema 🧩](<🧩 Schema Code.md>) in their [domain Manifest 📜](<../Manifests 📜/📜 Manifest/📜 Manifest.md>).
     |2| `code`    | A unique ID of the schema in the domain.
     |3| `version` | The optional version of the schema <br/>- formatted as `{major}.{minor}`.   
     |
@@ -57,8 +57,8 @@
 
     | | |
     |-|-
-    | `MAJOR`| Are incompatible between versions:<br/>- i.e., a [domain 👥](<../../40 👥 Domains/👥 Domain.md>) expecting content on version `1.x` will not be able to read content on version `2.0`.
-    | `minor`| Are retro-compatible within the same major, typically only adding new properties or updating descriptions: <br/> - i.e., a [domain 👥](<../../40 👥 Domains/👥 Domain.md>) expecting version `1.3` will be able to read version 1.7, although it will ignore the properties added after the expected version.
+    | `MAJOR`| Are incompatible between versions:<br/>- i.e., a [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) expecting content on version `1.x` will not be able to read content on version `2.0`.
+    | `minor`| Are retro-compatible within the same major, typically only adding new properties or updating descriptions: <br/> - i.e., a [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) expecting version `1.3` will be able to read version 1.7, although it will ignore the properties added after the expected version.
 
     ---
     <br/>
@@ -103,9 +103,9 @@
 
 1. **How can domains read Schemas in domain Manifests?**
 
-    For resilience and performance, [domains 👥](<../../40 👥 Domains/👥 Domain.md>) cannot read [domain Manifest 📜](<../Manifests 📜/📜 Manifest/📜 Manifest.md>) directly from the source.
+    For resilience and performance, [domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) cannot read [domain Manifest 📜](<../Manifests 📜/📜 Manifest/📜 Manifest.md>) directly from the source.
 
-    * Instead, [domains 👥](<../../40 👥 Domains/👥 Domain.md>) need to query [Graph 🕸 domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) for a schema definition, by passing the [Schema 🧩](<🧩 Schema Code.md>) to the [`Schema@Graph`](<../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema.md>).
+    * Instead, [domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) need to query [Graph 🕸 domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) for a schema definition, by passing the [Schema 🧩](<🧩 Schema Code.md>) to the [`Schema@Graph`](<../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema.md>).
 
         ```yaml
         # Sample request to read a schema.
@@ -156,8 +156,8 @@
 1. **Is the NLWeb Manifest a single point of failure?**
 
     No. 
-    - [Domains 👥](<../../40 👥 Domains/👥 Domain.md>) don't need `nlweb.dom` to be online to access its [domain Manifest 📜](<../Manifests 📜/📜 Manifest/📜 Manifest.md>) (nor the one of any other [domain 👥](<../../40 👥 Domains/👥 Domain.md>), for that matter).
-    - Instead, [domains 👥](<../../40 👥 Domains/👥 Domain.md>) should rely on [Graph 🕸 helper domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) to look up schema definitions.
+    - [Domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) don't need `nlweb.dom` to be online to access its [domain Manifest 📜](<../Manifests 📜/📜 Manifest/📜 Manifest.md>) (nor the one of any other [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>), for that matter).
+    - Instead, [domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) should rely on [Graph 🕸 helper domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) to look up schema definitions.
 
     ---
     <br/>

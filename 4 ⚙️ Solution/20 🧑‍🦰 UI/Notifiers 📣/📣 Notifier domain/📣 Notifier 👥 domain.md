@@ -5,7 +5,7 @@
 
 1. **What is a Notifier domain in NLWeb?**
 
-    A [Notifier 📣](<📣 Notifier 👥 domain.md>) is any backend-for-frontend (BFF) [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) that acts as a proxy for a [Wallet 🧑‍🦰 app](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>). 
+    A [Notifier 📣](<📣 Notifier 👥 domain.md>) is any backend-for-frontend (BFF) [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) that acts as a proxy for a [Wallet 🧑‍🦰 app](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>). 
     
     * This allows [Broker 🤵 domains](<../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) to communicate in standard HTTPS with the [Notifier 📣 domain](<📣 Notifier 👥 domain.md>), while the [Notifier 📣 domain](<📣 Notifier 👥 domain.md>) communicates via mobile-friendly real-time protocols with the [Wallet 🧑‍🦰 app](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) (e.g., MQTT, web sockets, mobile notifications). 
     

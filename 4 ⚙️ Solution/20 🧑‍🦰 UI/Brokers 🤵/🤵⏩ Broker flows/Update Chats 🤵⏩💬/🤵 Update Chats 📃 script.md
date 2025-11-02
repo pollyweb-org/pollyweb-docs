@@ -3,7 +3,7 @@
 > Purpose
 
 * [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) that 
-    * updates the translated [domains 👥](<../../../../40 👥 Domains/👥 Domain.md>)
+    * updates the translated [domains 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
     * for [Chats 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) in the [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     * and notifies the [Notifier 📣 domain](<../../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>) about the changes.
 

@@ -6,7 +6,7 @@
     An Identity 🆔 domain
     * is an [Agent 🫥 vault](<../$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>) 
     * that verifies the identity of the user
-    * on behalf of other [domains 👥](<../../40 👥 Domains/👥 Domain.md>).
+    * on behalf of other [domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>).
 
     ---
     <br/>

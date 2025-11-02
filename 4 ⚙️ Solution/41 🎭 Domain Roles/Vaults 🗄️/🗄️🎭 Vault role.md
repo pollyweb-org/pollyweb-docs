@@ -3,8 +3,8 @@
 
 1. **What is a Vault domain role in NLWeb?**
 
-    A [domain 👥](<../../40 👥 Domains/👥 Domain.md>) with a [Vault 🗄️ role](<🗄️🎭 Vault role.md>) 
-    * is any [domain 👥](<../../40 👥 Domains/👥 Domain.md>) that stores user data,
+    A [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) with a [Vault 🗄️ role](<🗄️🎭 Vault role.md>) 
+    * is any [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) that stores user data,
     * has a [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) with the user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>), 
     * and shares it with [Consumer 💼 domains](<../Consumers 💼/💼🎭 Consumer role.md>). 
 
@@ -27,7 +27,7 @@
 
 1. **How are Vault domains configured on a Wallet?**
 
-    For a [domain 👥](<../../40 👥 Domains/👥 Domain.md>) to be listed as a [Vault 🗄️ domain](<🗄️🎭 Vault role.md>) in the [user's Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>), the user first needs to [bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) the [domain 👥](<../../40 👥 Domains/👥 Domain.md>) to the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>).
+    For a [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) to be listed as a [Vault 🗄️ domain](<🗄️🎭 Vault role.md>) in the [user's Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>), the user first needs to [bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) the [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) to the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>).
 
     | | Workflow |  Description
     |-|-|-
@@ -145,9 +145,9 @@
 
 1. **What if the user only wants to have one Vault?**
 
-    A single [domain 👥](<../../40 👥 Domains/👥 Domain.md>) can, in theory, implement all existing [Schema Codes 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) and establish [trust 🫡](<../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) relationships with all existing [domains 👥](<../../40 👥 Domains/👥 Domain.md>).
+    A single [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) can, in theory, implement all existing [Schema Codes 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) and establish [trust 🫡](<../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) relationships with all existing [domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>).
 
-    * Thus, a user may wish to [bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to that single [Vault 🗄️ domain](<🗄️🎭 Vault role.md>) with all [Schema Codes 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) the user is interested in sharing, and is [trusted 🫡](<../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) buy all the [domains 👥](<../../40 👥 Domains/👥 Domain.md>) the user is interested in interacting with. 
+    * Thus, a user may wish to [bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to that single [Vault 🗄️ domain](<🗄️🎭 Vault role.md>) with all [Schema Codes 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) the user is interested in sharing, and is [trusted 🫡](<../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) buy all the [domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) the user is interested in interacting with. 
   
     * However, this solution doesn't seem scalable, if at all realistic.
 
@@ -228,7 +228,7 @@
 
 1. **What API methods does a Vault exposes?**
    
-    | [From 👥](<../../40 👥 Domains/👥 Domain.md>) | [Subject 📨](<../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | Description |
+    | [From 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Subject 📨](<../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | Description |
     |-|--------|-------------|
     | [🤵 Broker](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Bound`](<🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>) | A [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) was added |
     |  | [`Unbound`](<🗄️🅰️ Vault methods/Unbound 🤵🐌🗄️/🗄️ Unbound 🐌 msg.md>) | A [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) was removed |

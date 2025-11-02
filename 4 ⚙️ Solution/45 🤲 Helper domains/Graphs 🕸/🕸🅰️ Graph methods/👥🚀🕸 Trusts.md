@@ -10,13 +10,13 @@
 
 
 * Verifies if there’s a path of [Trust 🫡](<../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) 
-  * between two [domains 👥](<../../../40 👥 Domains/👥 Domain.md>) 
+  * between two [domains 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) 
   * regarding a [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
   * as defined in the [`.MANIFEST/TRUST` 🧩](<../../../30 🧩 Data/Manifests 📜/📜🧩 Manifest schemas/🧩 TRUST.md>) part
   * of [domain Manifests 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>).
 
 * Similar to [`Trusted@Graph`](<👥🚀🕸 Trusted.md>), 
-  * but for verification by another [domain 👥](<../../../40 👥 Domains/👥 Domain.md>).
+  * but for verification by another [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>).
   
 * Used in:
   * [🧑‍🦰👉💼 Share Token 🎫 flow](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token 👉🎫💼/🎫 Share Token ⏩ flow.md>) 
@@ -43,11 +43,11 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header|`From`|domain| The name of the sender [domain 👥](<../../../40 👥 Domains/👥 Domain.md>)
+| Header|`From`|domain| The name of the sender [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
 |       |`To`|domain| [Graph 🕸 domain](<../🕸🤲 Graph helper.md>) name
 |       | `Subject` | string | `Trusts@Graph`
-| Body  | `Truster` | string | The name of the [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) trusting
-|       | `Trusted` | string | The name of the [domain 👥](<../../../40 👥 Domains/👥 Domain.md>) to be trusted
+| Body  | `Truster` | string | The name of the [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) trusting
+|       | `Trusted` | string | The name of the [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to be trusted
 |       | `Role`    | enum   | The role to assess: `VAULT`, `CONSUMER`, `*`
 |       | `Schema`    | string | The [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to assess
 |

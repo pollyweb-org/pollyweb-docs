@@ -1,6 +1,6 @@
 # 👥⏩ DNS configuration
 
-> Part of [Domain 👥](<../../👥 Domain.md>)
+> Part of [Domain 👥](<../../👥 Domain/👥 Domain.md>)
 
 <br/>
 

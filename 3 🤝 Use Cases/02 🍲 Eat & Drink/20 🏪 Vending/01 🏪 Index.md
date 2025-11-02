@@ -41,7 +41,7 @@ TODO: other scenarios
 
 ## 🎭 Domain Roles
 
-| [Roles 🎭](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domain.md>) | Purpose |
+| [Roles 🎭](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domain/👥 Domain.md>) | Purpose |
 |-|-
 | [🤗 Host](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | To manage the [Chats 💬](<../../../4 ⚙️ Solution/35 💬 Chats/Chats 💬/💬 Chat.md>)
 | [💵 Seller](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) | To charge for the products

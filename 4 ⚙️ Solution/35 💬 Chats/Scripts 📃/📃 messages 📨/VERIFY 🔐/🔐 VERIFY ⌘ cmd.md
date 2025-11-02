@@ -17,9 +17,9 @@
 
     | Type | Sender | Verification
     |-|-|-
-    | [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [Domain 👥](<../../../../40 👥 Domains/👥 Domain.md>) | Was a [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) signed by the [domain 👥](<../../../../40 👥 Domains/👥 Domain.md>)?
+    | [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [Domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | Was a [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) signed by the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)?
     |  | [Wallet 🧑‍🦰](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) | Was a [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) signed by the [Wallet 🧑‍🦰](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)?
-    | [File 📄](<../../../../30 🧩 Data/Files 📄/📄 File.md>) |  [Domain 👥](<../../../../40 👥 Domains/👥 Domain.md>) | Was a [File 📄](<../../../../30 🧩 Data/Files 📄/📄 File.md>) signed by the [domain 👥](<../../../../40 👥 Domains/👥 Domain.md>)?
+    | [File 📄](<../../../../30 🧩 Data/Files 📄/📄 File.md>) |  [Domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | Was a [File 📄](<../../../../30 🧩 Data/Files 📄/📄 File.md>) signed by the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)?
     |  | [Wallet 🧑‍🦰](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) | Was a [File 📄](<../../../../30 🧩 Data/Files 📄/📄 File.md>) signed by the [Wallet 🧑‍🦰](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)?
 
     ---
@@ -55,7 +55,7 @@
 
 1. **How to verify a message from a domain?**
 
-    Here's a [Script 📃](<../../📃 basics/Script 📃.md>) that verifies a [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) from a [domain 👥](<../../../../40 👥 Domains/👥 Domain.md>).
+    Here's a [Script 📃](<../../📃 basics/Script 📃.md>) that verifies a [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) from a [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>).
     
     ```yaml
     📃 Verify the Message:
