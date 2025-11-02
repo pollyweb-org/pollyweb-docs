@@ -5,12 +5,22 @@
 
 # 🔎🚀⭐ Reviews @ [Reviewer](<../⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>)
 
+> Implementation
+* Implements the [Reviewer ⭐ agent](<../⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>)
+
+> Flow
+* Part of the [`Introduce` ⏩ flow](<../../Finders 🔎/🔎⏩ Finder flows/Introduce 🔎⏩🧑‍🦰/🔎 Introduce ⏩ flow.md>)
+
+<br/>
+
+## Synchronous Request 🚀
 
 ```yaml
 Header:
     From: any-finder.dom
     To: any-reviewer.dom
     Subject: Reviews@Reviewer
+
 Body:
     Domain: any-domain.dom
 ```
@@ -34,5 +44,5 @@ Description: |
     - 4.7⭐ delivery by 357 users
     - 3.5⭐ support by 21 users
 Options:
-    - /List reviews § .HOST,any-reviewer.dom,fans
+    - /List reviews § .HOST,any-reviewer.dom,domain
 ```

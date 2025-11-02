@@ -25,9 +25,15 @@ activate broker
         graph -> finder: {identity}
       deactivate graph
 
-      finder --> user: 4 ⏪ Prompt 🤔
 
-      finder --> broker: 5) Introduced 🐌
+      finder -> graph: 4) Translate 🚀
+      activate graph
+        graph -> finder: {translation}
+      deactivate graph
+
+      finder --> user: 5 ⏪ Prompt 🤔
+
+      finder --> broker: 6) Introduced 🐌
       
     deactivate finder
     activate broker
