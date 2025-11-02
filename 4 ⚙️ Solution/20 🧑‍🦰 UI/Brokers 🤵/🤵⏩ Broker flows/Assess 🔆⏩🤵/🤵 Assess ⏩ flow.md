@@ -1,6 +1,6 @@
 # 🤵⏩🧑‍🦰 Assess @ Broker
 
-> Implemented by the [`Assess` 📃 handler](<../../🤵🅰️ Broker methods/Locators 🔆 Assess 🧑‍🦰🐌🤵/🤵 Assess 📃 handler.md>)
+> Implemented by the [`Assess` 📃 handler](<../../🤵🅰️ Broker methods/Locators 🔆 Assess 🧑‍🦰🐌🤵/scripts/🤵 Assess 📃 handler.md>)
 
 > Purpose
 
