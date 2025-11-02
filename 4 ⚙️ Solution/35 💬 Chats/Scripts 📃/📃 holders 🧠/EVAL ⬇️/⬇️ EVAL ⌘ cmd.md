@@ -478,7 +478,7 @@
 
 1. **How to append into lists?**
 
-    > Used by the [`CreateBinds@Broker` 📃 script](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 📃 part 2.md>)
+    > Used by the [`CreateBinds@Broker` 📃 script](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/scripts/🤵 Create Binds 📃 script.md>)
     
     <br/>
 

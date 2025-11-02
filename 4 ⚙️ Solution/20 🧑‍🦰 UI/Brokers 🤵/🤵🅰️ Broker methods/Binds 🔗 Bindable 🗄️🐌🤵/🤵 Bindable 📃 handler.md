@@ -45,26 +45,18 @@
 
 # Translate the bindable schemas
 - IF|$bindable:
-    RUN|CreateBinds >> $binds
+    RUN|Create-Binds >> $binds:
+        bindable: $bindable
+        chat: $chat
 
-# Merge existing with new
-- EVAL >> $send:
-    :$bound: # already bound
-    :$binds: # just created
-
-# Send the created binds
-- SEND:
-    Header: 
-        To: $.Msg.From
-        Subject: Bound@Vault
-    Body:
-        Hook: $.Msg.Hook
-        Binds: $send
+# Send the binds to the Vault
+- RUN|Send-Binds:
+    bound: $bound
+    binds: $binds
     
 # Update the binds    
-- RUN|Update-Notifier:
+- RUN|Update-Binds:
     wallet: $chat.Wallet
-    Updates: [BINDS]
 ```
 
 Needs ||
@@ -73,5 +65,5 @@ Needs ||
 | [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Holder 🧠.md>) | [`$.Msg`](<../../../../35 💬 Chats/Scripts 📃/📃 holders 🧠/$.Msg 📨/📨 $.Msg 🧠 holder.md>)
 | [{Functions} 🐍](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Function 🐍.md>) | [`{.Diff}`](<../../../../35 💬 Chats/Scripts 📃/📃 functions 🐍/🔩 {.Diff}.md>)
 | [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Bound@Vault` 🅰️ method](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
-| [Scripts 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) | [`CreateBinds` 📃](<🤵 Bindable 📃 part 2.md>) <br/> [`Update Notifier` 📃 script](<scripts/🤵 Update Notifier 📃 script.md>)
+| [Scripts 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) | [`CreateBinds` 📃](<scripts/🤵 Create Binds 📃 script.md>) <br/> [`Update Notifier` 📃 script](<../../🤵⏩ Broker flows/Update Notifier 🤵⏩📣/🤵 Update Notifier 📃 script.md>)
 |
