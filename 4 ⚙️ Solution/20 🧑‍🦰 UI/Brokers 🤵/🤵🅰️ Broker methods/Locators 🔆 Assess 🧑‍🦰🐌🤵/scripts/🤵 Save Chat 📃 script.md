@@ -1,9 +1,11 @@
 # 🤵 Save Chat 📃 script
 
+> Part of the [`Assess@Broker` 📃 script](<🤵 Assess 📃 handler.md>)
+
 ## Script 
 
 ```yaml
-📃 Save Chat:
+📃 Save-Chat:
 
 # Verify the required inputs
 - ASSERT|$.Inputs:

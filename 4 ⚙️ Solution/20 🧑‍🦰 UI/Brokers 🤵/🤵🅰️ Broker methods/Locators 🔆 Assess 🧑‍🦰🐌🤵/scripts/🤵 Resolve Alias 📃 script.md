@@ -1,9 +1,11 @@
-# 🤵📃 Assess@Broker
+# 🤵 Resolve Alias 📃 script
+
+> Part of the [`Assess@Broker` 📃 script](<🤵 Assess 📃 handler.md>)
 
 ## Script
 
 ```yaml
-📃 Resolve Alias:
+📃 Resolve-Alias:
 
 # Verify the required inputs
 - ASSERT|$.Inputs:

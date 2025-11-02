@@ -4,7 +4,7 @@
 
 > Stores [Chats 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
 
-> Inserted by [`Converse` 📃 script](<../../🤵⏩ Broker flows/Converse 🤵⏩💬/🤵 Converse 📃 script.md>)
+> Inserted by [`Converse` 📃 script](<../../🤵🅰️ Broker methods/Locators 🔆 Assess 🧑‍🦰🐌🤵/scripts/🤵 Call Converse 📃 script.md>)
 
 <br/>
 
@@ -40,7 +40,7 @@ Here's the [`GET` command](<../../../../35 💬 Chats/Scripts 📃/📃 datasets
 ```yaml
 # GET|Chats|<chat-id>
 
-Chat: <chat-uuid>
+ID: <chat-uuid>
 Wallet: <wallet-uuid>
 
 # Host info

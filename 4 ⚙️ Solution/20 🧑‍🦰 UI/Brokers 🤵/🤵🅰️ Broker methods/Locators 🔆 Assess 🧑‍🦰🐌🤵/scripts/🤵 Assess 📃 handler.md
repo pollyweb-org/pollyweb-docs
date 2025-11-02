@@ -41,23 +41,8 @@
     Key: $wallet.PublicKey
 
 # Parse the locator
-- PARSE >> $locator:
+- RUN|Resolve-Alias >> $locator:
     Locator: $.Msg.Body.Locator
-
-# Resolve any ALIAS locator
-- IF|$locator.IsAlias:
-
-    # Send the request to the Printer
-    - SEND >> $resolved:
-        Header:
-            To: $locator.Host
-            Subject: Resolve@Printer
-        Body:
-            Locator: $.Msg.Locator
-
-    # Parse the locator again
-    - PARSE >> $locator:
-        Locator: $resolved
 
 # Open a Chat on the Wallet app
 - RUN|Converse@Broker >> $chat:
@@ -65,15 +50,10 @@
     Locator: $locator
 
 # Ask Finders to introduce Hosts
-- SEND:
-    Header:
-        To: $wallet.Finder
-        Subject: Introduce@Finder
-    Body:
-        Chat: $chat.Chat
-        Host: $locator.Host
-        Language: $wallet.Language
-        Reviewer: $wallet.Reviewer
+- RUN|Call-Introduce:
+    wallet: $wallet
+    chat: $chat
+    locator: $locator
 ```
 
 > Continues on the [`Introduce@Finder` 📃 handler](<../../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/Introduce 🤵🐌🔎/🔎 Introduce 📃 handler.md>)
@@ -87,5 +67,5 @@
 | [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>)    | [`Wallets` 🪣](<../../../🤵🪣 Broker tables/Wallets 🧑‍🦰 table/🤵 Wallets 🪣 table.md>)
 | [Messages 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Resolve@Printer` 🅰️](<../../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🅰️ Printer methods/Resolve 👥🚀🖨️/🖨️ Resolve 🚀 request.md>) <br/>[`Introduce@Finder` 🅰️](<../../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/Introduce 🤵🐌🔎/🔎 Introduce 🐌 msg.md>)
 | [Schemas 🧩](<../../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)   | [`ALIAS` 🧩](<../../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🧩 Printer schemas/🧩 ALIAS.md>)
-[Scripts 📃](<../../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) | [`Converse` 📃 script](<../../../🤵⏩ Broker flows/Converse 🤵⏩💬/🤵 Converse 📃 script.md>)
+[Scripts 📃](<../../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) | [`Converse` 📃 script](<🤵 Call Converse 📃 script.md>)
 | 

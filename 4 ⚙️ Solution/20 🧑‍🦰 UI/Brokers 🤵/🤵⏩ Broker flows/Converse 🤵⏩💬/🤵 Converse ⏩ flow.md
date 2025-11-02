@@ -2,7 +2,7 @@
 
 > Part of [`Assess` ⏩ flow](<../Assess 🔆⏩🤵/🤵 Assess ⏩ flow.md>)
 
-> Implemented by [`Converse` 📃 script](<🤵 Converse 📃 script.md>)
+> Implemented by [`Converse` 📃 script](<../../🤵🅰️ Broker methods/Locators 🔆 Assess 🧑‍🦰🐌🤵/scripts/🤵 Call Converse 📃 script.md>)
 
 > Purpose
 
