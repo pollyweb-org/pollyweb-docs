@@ -18,7 +18,7 @@
     |#|Step
     |-|-
     |1| The device owner connects the Pluggable 🔌 device to the [Antenna 📡 router](<02 📡🔀 Antenna router.md>), as well as any power source required by the Pluggable 🔌 device.
-    |2| The owner taps/scans the [Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) of the [Antenna 📡 router](<02 📡🔀 Antenna router.md>) with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>) to open a chat with its [Relayer 🛰️ helper](<../../45 🤲 Helper domains/Relayers 🛰️/🛰️🤲 Relayer helper.md>), and ask to add a Pluggable - the Relayer asks the user to tap/scan the Pluggable;
+    |2| The owner taps/scans the [Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) of the [Antenna 📡 router](<02 📡🔀 Antenna router.md>) with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) to open a chat with its [Relayer 🛰️ helper](<../../45 🤲 Helper domains/Relayers 🛰️/🛰️🤲 Relayer helper.md>), and ask to add a Pluggable - the Relayer asks the user to tap/scan the Pluggable;
 
     - 3/ users taps/scans the [Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) of the Pluggable 🔌 device - the [Relayer 🛰️ helper](<../../45 🤲 Helper domains/Relayers 🛰️/🛰️🤲 Relayer helper.md>) confirms that a device with the Pluggable's resource key is connected, and the Pluggable's API [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) is valid.
 

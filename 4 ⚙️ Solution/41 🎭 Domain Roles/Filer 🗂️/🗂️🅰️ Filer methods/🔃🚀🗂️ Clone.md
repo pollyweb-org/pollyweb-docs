@@ -27,7 +27,7 @@ Body:
 | Header    |`From`|domain| `Anonymous`
 |           |`To`|domain| [Filer 🗂️ domain](<../🗂️🎭 Filer role.md>) name
 |           | `Subject`     | string    | `Clone@Filer`
-| Body      | `WalletPin`  | string | Pin displayed on the [Wallet 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰🛠️ Wallet app.md>)
+| Body      | `WalletPin`  | string | Pin displayed on the [Wallet 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 |           | `SyncerPin`   | string | Pin displayed on the [Syncer 🔃](<../../../55 👷 Build domains/Syncers 🔃/🔃🛠️ Syncer tool.md>)
 |           | `PublicKey`   | string | [Syncer 🔃](<../../../55 👷 Build domains/Syncers 🔃/🔃🛠️ Syncer tool.md>) public key
 |
