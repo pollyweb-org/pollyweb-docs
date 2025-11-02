@@ -327,6 +327,20 @@ def replace_prompt_tokens(md_files):
 def replace_prompts_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Prompts`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
     return _replace_simple(md_files, pattern, '[Prompts 🤔](<🤔 Prompt.md>)')
+
+
+# Hardcoded Reviewer tokens
+REVIEWER_REPLACEMENT = "[Reviewer ⭐ agent](<⭐🫥 Reviewer agent.md>)"
+@register_hardcoded("reviewer", replacement=REVIEWER_REPLACEMENT, token_label="Reviewer")
+def replace_reviewer_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Reviewer`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, REVIEWER_REPLACEMENT)
+
+
+@register_hardcoded("reviewers", replacement='[Reviewer ⭐ agents](<⭐🫥 Reviewer agent.md>)', token_label="Reviewers")
+def replace_reviewers_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Reviewers`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, '[Reviewer ⭐ agents](<⭐🫥 Reviewer agent.md>)')
 # Generate common simple replacers to reduce repeated boilerplate. These are
 # intentionally created via helper to keep the explicit simple cases compact.
 _GEN_BASIC = [

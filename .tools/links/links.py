@@ -472,7 +472,17 @@ def runit(project_directory, entryPoint):
             continue
         if 'this is hardcoded' in reasons_text:
             token_key = normalize_string(token)
-            handler = HARDCODED_HANDLERS.get(token_key)
+            # Import handlers dynamically to ensure we see any recently
+            # registered hardcoded handlers from the tokens module.
+            try:
+                import importlib
+
+                tokens_mod = importlib.import_module('link_replacements.tokens')
+                handlers = getattr(tokens_mod, 'HARDCODED_HANDLERS', {})
+            except Exception:
+                handlers = HARDCODED_HANDLERS
+
+            handler = handlers.get(token_key)
             if not handler:
                 raise ValueError(f"Hardcoded test failed for {given}: no handler registered for token '{token}'")
             replacement = handler['replacement']

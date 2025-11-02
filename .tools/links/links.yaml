@@ -50,7 +50,6 @@ Successful Tests:
     LinkText: "Async Messages 🐌"
     LinkFile: "Async Messages 🐌.md"
     Reasons: This is hardcoded.
-
   - Given: "{{Async Message}}"
     LinkText: "Async Message 🐌"
     LinkFile: "Async Messages 🐌.md"
@@ -61,13 +60,12 @@ Successful Tests:
     LinkFile: "🤵 Broker 🤲 helper.md"
     Reasons: This is hardcoded.
 
-  - Given: '{{Commands}}'
-    LinkText: "Commands ⌘"
-    LinkFile: "Command ⌘.md"
-    Reasons: This is hardcoded.
-
   - Given: '{{Command}}'
     LinkText: "Command ⌘"
+    LinkFile: "Command ⌘.md"
+    Reasons: This is hardcoded.
+  - Given: '{{Commands}}'
+    LinkText: "Commands ⌘"
     LinkFile: "Command ⌘.md"
     Reasons: This is hardcoded.
 
@@ -75,7 +73,6 @@ Successful Tests:
     LinkText: "Consumer 💼 domain" 
     LinkFile: "💼🎭 Consumer role.md"
     Reasons: This is hardcoded.
-
   - Given: '{{Consumers}}'
     LinkText: "Consumer 💼 domains" 
     LinkFile: "💼🎭 Consumer role.md"
@@ -85,7 +82,6 @@ Successful Tests:
     LinkText: "Helper 🤲 domain"
     LinkFile: "🤲👥 Helper domain.md"
     Reasons: This is hardcoded.
-
   - Given: "{{Helpers}}"
     LinkText: "Helper 🤲 domains"
     LinkFile: "🤲👥 Helper domain.md"
@@ -95,7 +91,6 @@ Successful Tests:
     LinkText: "Holder 🧠"
     LinkFile: "Holder 🧠.md"
     Reasons: This is hardcoded.
-
   - Given: '{{Holders}}'
     LinkText: "Holders 🧠"
     LinkFile: "Holder 🧠.md"
@@ -105,7 +100,6 @@ Successful Tests:
     LinkText: "Host 🤗 domain"
     LinkFile: "🤗🎭 Host role.md"
     Reasons: This is hardcoded.
-
   - Given: '{{Hosts}}'
     LinkText: "Host 🤗 domains"
     LinkFile: "🤗🎭 Host role.md"
@@ -115,7 +109,6 @@ Successful Tests:
     LinkText: "Hosted 📦 domain" 
     LinkFile: "📦👥 Hosted domain.md"
     Reasons: This is hardcoded.
-
   - Given: '{{Hosteds}}'
     LinkText: "Hosted 📦 domains" 
     LinkFile: "📦👥 Hosted domain.md"
@@ -125,7 +118,6 @@ Successful Tests:
     LinkText: "Hoster ☁️ helper domain"
     LinkFile: "☁️🤲 Hoster helper.md"
     Reasons: This is hardcoded.
-
   - Given: "{{Hosters}}"
     LinkText: "Hoster ☁️ helper domains"
     LinkFile: "☁️🤲 Hoster helper.md"
@@ -135,17 +127,24 @@ Successful Tests:
     LinkText: "Prompt 🤔"
     LinkFile: "🤔 Prompt.md"
     Reasons: This is hardcoded.
-
   - Given: "{{Prompts}}"
     LinkText: "Prompts 🤔"
     LinkFile: "🤔 Prompt.md"
+    Reasons: This is hardcoded.
+
+  - Given: "{{Reviewer}}"
+    LinkText: "Reviewer ⭐ agent"
+    LinkFile: "⭐🫥 Reviewer agent.md"
+    Reasons: This is hardcoded.
+  - Given: "{{Reviewers}}"
+    LinkText: "Reviewer ⭐ agents"
+    LinkFile: "⭐🫥 Reviewer agent.md"
     Reasons: This is hardcoded.
 
   - Given: "{{Role}}"
     LinkText: "Role 🎭"
     LinkFile: "👥🎭 Domain Role.md"
     Reasons: This is hardcoded.
-
   - Given: "{{Roles}}"
     LinkText: "Roles 🎭"
     LinkFile: "👥🎭 Domain Role.md"
@@ -155,7 +154,6 @@ Successful Tests:
     LinkText: "Script 📃"
     LinkFile: "Script 📃.md"
     Reasons: This is hardcoded.
-
   - Given: "{{Scripts}}"
     LinkText: "Scripts 📃"
     LinkFile: "Script 📃.md"
@@ -170,7 +168,6 @@ Successful Tests:
     LinkText: "Sync Request 🚀"
     LinkFile: "Sync Requests 🚀.md"
     Reasons: This is hardcoded.
-
   - Given: "{{Sync Requests}}"
     LinkText: "Sync Requests 🚀"
     LinkFile: "Sync Requests 🚀.md"
@@ -180,7 +177,6 @@ Successful Tests:
     LinkText: "Talker 😃 helper domain"
     LinkFile: "😃🤲 Talker helper.md"
     Reasons: This is hardcoded.
-
   - Given: "{{Talkers}}"
     LinkText: "Talker 😃 helper domains"
     LinkFile: "😃🤲 Talker helper.md"
@@ -190,7 +186,6 @@ Successful Tests:
     LinkText: "Trust 🫡"
     LinkFile: "🫡 Domain Trust.md"
     Reasons: This is hardcoded.
-
   - Given: '{{Trusted}}'
     LinkText: "Trusted 🫡"
     LinkFile: "🫡 Domain Trust.md"
@@ -200,7 +195,6 @@ Successful Tests:
     LinkText: "Vault 🗄️ domain" 
     LinkFile: "🗄️🎭 Vault role.md"
     Reasons: This is hardcoded.
-
   - Given: '{{Vaults}}'
     LinkText: "Vault 🗄️ domains" 
     LinkFile: "🗄️🎭 Vault role.md"
@@ -210,7 +204,6 @@ Successful Tests:
     LinkText: "Wallet 🧑‍🦰 app" 
     LinkFile: "🧑‍🦰 Wallet 🛠️ app.md"
     Reasons: This is hardcoded.
-
   - Given: '{{Wallets}}'
     LinkText: "Wallet 🧑‍🦰 apps" 
     LinkFile: "🧑‍🦰 Wallet 🛠️ app.md"
