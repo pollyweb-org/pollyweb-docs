@@ -6,5 +6,5 @@
 🤝: nlweb.dom/MANIFEST
 
 About:
-  Domain: graph.amazon.com
+  Domain: graph.amazon.dom
   Name: Amazon Graph

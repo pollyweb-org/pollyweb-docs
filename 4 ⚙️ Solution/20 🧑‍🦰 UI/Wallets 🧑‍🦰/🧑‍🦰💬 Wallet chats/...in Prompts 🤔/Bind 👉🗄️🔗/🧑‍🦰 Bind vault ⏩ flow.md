@@ -29,8 +29,8 @@ The associated [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/📃 bas
 ```yaml
 💬 [Bind] my Wallet:
 - BIND:
-    - some-authority.com/SOME-CODE
-    - another-authority.com/ANOTHER-CODE
+    - some-authority.dom/SOME-CODE
+    - another-authority.dom/ANOTHER-CODE
 - SUCCESS: Bound
 ```
 

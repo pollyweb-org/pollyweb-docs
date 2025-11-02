@@ -22,3 +22,17 @@ Body:
 |        | `Subject` | string | `Reviews@Reviewer`
 | Body   | `Domain`  | domain | [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [`Introduce@Finder`](<../../Finders 🔎/🔎🅰️ Finder methods/Introduce 🤵🐌🔎/🔎 Introduce 🐌 msg.md>)
 |
+
+<br/>
+
+# Synchronous response
+
+```yaml
+Rating: 4.6
+Description: |
+    User feedback:
+    - 4.7⭐ delivery by 357 users
+    - 3.5⭐ support by 21 users
+Options:
+    - /List reviews § .HOST,any-reviewer.dom,fans
+```

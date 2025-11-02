@@ -21,7 +21,7 @@ Header:
     Subject: Forward@Hoster
 
 Body:
-    To: any-domain.com
+    To: any-domain.dom
     Subject: Any@Role
     Body: {...}
 ```

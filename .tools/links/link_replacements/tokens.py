@@ -112,14 +112,14 @@ HOSTS_REPLACEMENT = "[Host 🤗 domains](<../41 🎭 Domain Roles/Hosts 🤗/�
 HOST_REPLACEMENT = "[Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)"
 SCRIPT_REPLACEMENT = "[Script 📃](<Script 📃.md>)"
 SCRIPTS_REPLACEMENT = "[Scripts 📃](<Script 📃.md>)"
-COMMAND_REPLACEMENT = "[Command ⌘](<⌘ Command.md>)"
-COMMANDS_REPLACEMENT = "[Commands ⌘](<⌘ Command.md>)"
-BROKER_REPLACEMENT = "[Broker 🤵 domain](<🤵🤲 Broker helper.md>)"
+COMMAND_REPLACEMENT = "[Command ⌘](<Command ⌘.md>)"
+COMMANDS_REPLACEMENT = "[Commands ⌘](<Command ⌘.md>)"
+BROKER_REPLACEMENT = "[Broker 🤵 domain](<🤵 Broker 🤲 helper.md>)"
 SELLER_REPLACEMENT = "[Seller 🎭 domain](<../../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>)"
 CONSUMER_REPLACEMENT = "[Consumer 💼 domain](<../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)"
 CONSUMERS_REPLACEMENT = "[Consumer 💼 domains](<../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)"
-WALLET_REPLACEMENT = "[Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)"
-WALLETS_REPLACEMENT = "[Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)"
+WALLET_REPLACEMENT = "[Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet 🛠️ app.md>)"
+WALLETS_REPLACEMENT = "[Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet 🛠️ app.md>)"
 
 
 @register_hardcoded("placeholder", replacement=PLACEHOLDER_REPLACEMENT, token_label="Placeholder")
@@ -179,7 +179,7 @@ def replace_trusted_tokens(md_files):
     return _replace_simple(md_files, pattern, '[Trusted 🫡](<🫡 Domain Trust.md>)')
 
 
-@register_hardcoded("holders", replacement='[Holders 🧠](<$Holder 🧠.md>)', token_label="Holders")
+@register_hardcoded("holders", replacement='[Holders 🧠](<Holder 🧠.md>)', token_label="Holders")
 def replace_holders_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Holders`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
     return _replace_simple(md_files, pattern, '[Holders 🧠](<Holder 🧠.md>)')
@@ -330,17 +330,17 @@ def replace_prompts_tokens(md_files):
 
 
 # Hardcoded Reviewer tokens
-REVIEWER_REPLACEMENT = "[Reviewer ⭐ agent](<⭐🫥 Reviewer agent.md>)"
+REVIEWER_REPLACEMENT = "[Reviewer ⭐ agent](<⭐ Reviewer 🫥 agent.md>)"
 @register_hardcoded("reviewer", replacement=REVIEWER_REPLACEMENT, token_label="Reviewer")
 def replace_reviewer_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Reviewer`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
     return _replace_simple(md_files, pattern, REVIEWER_REPLACEMENT)
 
 
-@register_hardcoded("reviewers", replacement='[Reviewer ⭐ agents](<⭐🫥 Reviewer agent.md>)', token_label="Reviewers")
+@register_hardcoded("reviewers", replacement='[Reviewer ⭐ agents](<⭐ Reviewer 🫥 agent.md>)', token_label="Reviewers")
 def replace_reviewers_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Reviewers`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, '[Reviewer ⭐ agents](<⭐🫥 Reviewer agent.md>)')
+    return _replace_simple(md_files, pattern, '[Reviewer ⭐ agents](<⭐ Reviewer 🫥 agent.md>)')
 # Generate common simple replacers to reduce repeated boilerplate. These are
 # intentionally created via helper to keep the explicit simple cases compact.
 _GEN_BASIC = [

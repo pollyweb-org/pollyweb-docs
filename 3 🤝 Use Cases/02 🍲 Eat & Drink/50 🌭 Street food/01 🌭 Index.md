@@ -78,7 +78,7 @@
 
     ```yaml
     About:
-      Domain: any-street-food.com
+      Domain: any-street-food.dom
       Name: Any Street Food
     ```
     

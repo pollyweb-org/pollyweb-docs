@@ -12,7 +12,7 @@
 
 ```yaml
 Path: /GROUP/SUBGROUP/ANY-SCHEMA
-Delegator: any-delegator.com
+Delegator: any-delegator.dom
 Name: Any name
 Description: Any description
 

@@ -32,13 +32,13 @@ Blueprint:
       properties:
 
         Name:
-          $ref: nlweb.dom.com/PERSONA/NAME/SOCIAL
+          $ref: nlweb.dom/PERSONA/NAME/SOCIAL
 
         Pronouns:
-          $ref: nlweb.dom.com/PERSONA/NAME/PRONOUNS
+          $ref: nlweb.dom/PERSONA/NAME/PRONOUNS
 
         Phone:
-          $ref: nlweb.dom.com/PERSONA/PHONE
+          $ref: nlweb.dom/PERSONA/PHONE
 
         Relationship:
           type: string

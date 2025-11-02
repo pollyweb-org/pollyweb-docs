@@ -13,7 +13,7 @@
 
 ```yaml
 Header:
-    From: any-receiver.com
+    From: any-receiver.dom
     To: any-buffer.dom
     Subject: Feedback@Buffer
 Body:

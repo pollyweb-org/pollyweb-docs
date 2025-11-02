@@ -122,8 +122,8 @@
 
    # Offer multiple binds.
    - BIND >> $bound:
-       - some-authority.com/SOME-CODE
-       - another-authority.com/ANOTHER-CODE
+       - some-authority.dom/SOME-CODE
+       - another-authority.dom/ANOTHER-CODE
 
    # Verify it any was bound.
    - IF|$bound:

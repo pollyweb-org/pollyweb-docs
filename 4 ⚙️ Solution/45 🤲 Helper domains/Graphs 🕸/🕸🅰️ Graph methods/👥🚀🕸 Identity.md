@@ -24,7 +24,7 @@ Header:
     Subject: Identity@Graph
     
 Body:
-    Domain: another-domain.com
+    Domain: another-domain.dom
 ```
 
 |Object|Property|Type|Description
@@ -41,9 +41,10 @@ Body:
 
 
 ```yaml
-Domain: another-domain.com
+Domain: another-domain.dom
 Feedback: any-buffer.dom
 Name: Any Other Domain, Inc.
+Description: bla bla...
 SmallIcon: <base64>
 BigIcon: <base64>
 ```

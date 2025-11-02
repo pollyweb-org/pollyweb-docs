@@ -22,8 +22,8 @@ Header:
 
 Body:
     Chat: <chat-uuid>
-    Helper: any-helper.com
-    Schema: any-authority.com/ANY-SCHEMA:1.0
+    Helper: any-helper.dom
+    Schema: any-authority.dom/ANY-SCHEMA:1.0
     Hook: <hook-uuid>
     Parameters:
         Param1: Value1

@@ -12,7 +12,7 @@
 ```yaml
 Header:
     From: any-domain.dom
-    To: any-supplier.com
+    To: any-supplier.dom
     Subject: Order@Supplier
 Body:
     OrderID: <order-uuid>

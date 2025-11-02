@@ -39,7 +39,7 @@
     |
 
     For example, 
-    * the code `nlweb.com/TOKEN:2.0`  🧩 
+    * the code `nlweb.dom/TOKEN:2.0`  🧩 
     * references version `2.0` 
     * of a schema called `TOKEN` 
     * that is defined in the [domain Manifest 📜](<../Manifests 📜/📜 Manifest/📜 Manifest.md>) 

@@ -18,7 +18,7 @@
 ```yaml
 Header:
     From: <clone-uuid>
-    To: any-filer.com
+    To: any-filer.dom
     Subject: Upload@Filer
 
 Body:

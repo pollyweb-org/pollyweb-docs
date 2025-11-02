@@ -2,22 +2,22 @@
 # the tie is linked to a group, automatically synchronized
 
 🧔 Daniel:
-  Locator: any-networker.com/tie=v_awTFiIQ-N
+  Locator: any-networker.dom/tie=v_awTFiIQ-N
   Relationships: 
   - 👨‍👩‍👦‍👦 family
 
 🧑‍🦳 mom:
-  Locator: other-networker.com/tie=8rs_0sMGUFl
+  Locator: other-networker.dom/tie=8rs_0sMGUFl
   Relationships: 
   - 👨‍👩‍👦‍👦 family
 
 🧑‍🦱 Deb:
-  Locator: linkedin.com/profile=NiIBdvPLa9n
+  Locator: linkedin.dom/profile=NiIBdvPLa9n
   Relationships:
   - 🤝 partner
 
 
 🐭 Mouse:
-  Locator: facebook.com/user=kfhVQPWDgLe
+  Locator: facebook.dom/user=kfhVQPWDgLe
   Relationships:
   - 🤗 friend

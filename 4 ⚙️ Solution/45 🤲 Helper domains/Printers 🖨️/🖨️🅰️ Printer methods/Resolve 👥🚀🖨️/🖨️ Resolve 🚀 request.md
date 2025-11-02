@@ -1,4 +1,4 @@
-<!-- https://quip.com/U97qAoGmSPAn#temp:C:HKUfb3022130c644b3faa5b9cce8 -->
+<!-- https://quip.dom/U97qAoGmSPAn#temp:C:HKUfb3022130c644b3faa5b9cce8 -->
 
 # 👥🚀🖨️ Resolve @ Printer
 

@@ -491,29 +491,20 @@ def runit(project_directory, entryPoint):
             # basename against the expected filenames. This is more robust than a
             # substring check because some replacements include relative paths or
             # reorder emojis/words.
+            # Enforce exact basename match for hardcoded replacements.
             expected_files = [expected_linkfile] + HARDCODED_FILE_ALIASES.get(expected_linkfile, [])
             target_file = None
             m = re.search(r"\(<([^>]+)>\)", replacement)
             if m:
                 target_file = os.path.basename(m.group(1))
-            # Allow relaxed matching: compare normalized basenames so that
-            # minor differences like a leading '$' or emoji ordering don't
-            # falsely fail the test.
-            ok = False
-            if target_file and target_file in expected_files:
-                ok = True
-            else:
-                for candidate in expected_files:
-                    try:
-                        if normalize_string(os.path.basename(candidate)) == normalize_string(target_file or ""):
-                            ok = True
-                            break
-                    except Exception:
-                        continue
 
-            if not ok:
+            # Strict enforcement: the replacement must reference the exact
+            # expected basename (including emoji, spaces and extension), or
+            # one of its declared aliases. Do NOT fall back to normalized
+            # comparisons here — the YAML requires exact names.
+            if not target_file or target_file not in expected_files:
                 raise ValueError(
-                    f"Hardcoded test failed for {given}: expected file {expected_linkfile} not in replacement {replacement}"
+                    f"Hardcoded test failed for {given}: expected file {expected_linkfile} not in replacement {replacement} (found: {target_file})"
                 )
             if expected_linktext not in replacement:
                 raise ValueError(

@@ -68,7 +68,7 @@
     - **with provided Locators**: 
         - the [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) sends a supply order with the [Locators 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to be printed, the quantity, and the format;
         - these are preferred where the [Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) is customized for a certain [Host 🤗](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) resource 
-        - e.g., `any-supermarket.com/london-store` to reference a specific store in a chain of supermarkets.
+        - e.g., `any-supermarket.dom/london-store` to reference a specific store in a chain of supermarkets.
 
     - **with anonymous Locators**: 
         - the [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) sends a supply order just specifying the quantity, the format, and the commitment lifetime;

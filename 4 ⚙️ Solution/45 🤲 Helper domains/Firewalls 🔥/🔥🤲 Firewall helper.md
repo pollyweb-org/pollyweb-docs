@@ -78,8 +78,8 @@
       - Title: Block malicious domains from collecting, and vaults from sharing.
         Action: REVOKE
         Domains:
-          - imgur.com
-          - torrentfreak.com
+          - imgur.dom
+          - torrentfreak.dom
           - requestservice.live
           - atm.any-fintech.dom
     ```

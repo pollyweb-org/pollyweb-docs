@@ -12,13 +12,13 @@
 ```yaml
 Header:
     From: any-broker.dom
-    To: any-invited.com
+    To: any-invited.dom
     Subject: Invited@Helper
 
 Body:
     Chat: <chat-uuid>
     Inviter: any-consumer.dom
-    Schema: any-authority.com/ANY-SCHEMA:1.0
+    Schema: any-authority.dom/ANY-SCHEMA:1.0
     Hook: <Hook-uuid>
     Parameters:
         Param1: Value1

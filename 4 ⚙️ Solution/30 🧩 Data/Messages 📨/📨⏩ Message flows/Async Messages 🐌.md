@@ -37,7 +37,7 @@
         ```yaml
         🤝: nlweb.dom/MANIFEST/ABOUT
         About:
-          Name: any-sender.com
+          Name: any-sender.dom
           Feedback: any-buffer.dom
         ```
 
@@ -45,7 +45,7 @@
         ```yaml
         🤝: nlweb.dom/MSG:1.0
         Header:
-            From: any-receiver.com
+            From: any-receiver.dom
             To: any-buffer.dom
             Subject: Feedback@Buffer
         Body:

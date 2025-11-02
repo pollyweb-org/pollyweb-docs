@@ -64,7 +64,7 @@ Schemas:
   - Path: /SSR/MEAL
     Delegator: airlines.any-igo.dom
     References:
-      Amadeus: https://servicehub.amadeus.com/c/portal/view-solution/768896/special-services-request-ssr-codes-and-airline-specific-codes
+      Amadeus: https://servicehub.amadeus.dom/c/portal/view-solution/768896/special-services-request-ssr-codes-and-airline-specific-codes
       Any IGO Airlines: https://guides.developer.airlines.any-igo.dom/archive/docs/list-of-service-ssrs 
 
     Schemas:
