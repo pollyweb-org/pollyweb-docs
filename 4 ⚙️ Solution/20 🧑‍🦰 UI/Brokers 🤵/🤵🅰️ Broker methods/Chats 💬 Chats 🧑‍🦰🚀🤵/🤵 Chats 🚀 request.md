@@ -7,7 +7,7 @@
 > Implemented by [`Chats` 📃 script](<🤵 Chats 📃 handler.md>)
 
 > Purpose
-* The [Broker 🤵 domain](<../../🤵 Broker helper/Broker 🤵 helper 🤲.md>) 
+* The [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) 
     * lists the [Chats 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) 
     * of a [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>).
 
@@ -31,7 +31,7 @@ Header:
 | Object | Property | Type  | Description|Origin
 |-|-|-|-|-
 | Header    |`From`| uuid  | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰🛠️ Wallet app.md>)  | [`Onboard@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
-|           |`To`|domain| [Broker 🤵](<../../🤵 Broker helper/Broker 🤵 helper 🤲.md>) | [`Onboard@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
+|           |`To`|domain| [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Onboard@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
 |           | `Subject`| string|  `Chats@Broker`
 |
 

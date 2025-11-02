@@ -24,8 +24,8 @@
 
 1. **Why do Consumers and Vaults check Trusts again?**
 
-    `Liability` [Brokers 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/Broker 🤵 helper 🤲.md>) do not assume legal responsibility for orchestration faults.
-    * [Broker 🤵 domains](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/Broker 🤵 helper 🤲.md>) can be compromised or make mistakes.
+    `Liability` [Brokers 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) do not assume legal responsibility for orchestration faults.
+    * [Broker 🤵 domains](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) can be compromised or make mistakes.
     * [Vault 🗄️ domains](<../../🗄️🎭 Vault role.md>) are ultimately responsible for data breaches.
     * [Consumer 💼 domains](<../../../Consumers 💼/💼🎭 Consumer role.md>) are ultimately responsible for interacting with banned entities (e.g., entities listed as terrorist groups).
     * [Consumer 💼 domains](<../../../Consumers 💼/💼🎭 Consumer role.md>) and [Vault 🗄️ domains](<../../🗄️🎭 Vault role.md>) should revalidate the [Trust 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) path for their own protection whenever feasible.
