@@ -10,7 +10,7 @@
     * is a [Command ⌘](<../../Scripts 📃/📃 basics/Command ⌘.md>) 
     * that defaults all upcoming [Input prompts ✏️](<../🤔⚙️ Prompt features/9 ✏️ as Input.md>)
     * via the [`$.Chat` 🧠 holder](<../../Scripts 📃/📃 holders 🧠/$.Chat 💬/💬 $.Chat 🧠 holder.md>) holder
-    * in the [`PromptEmoji` 📃 script](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/😃 Prompts 📃 emoji.md>)
+    * in the [`PromptEmoji` 📃 script](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 📃 emoji.md>)
     * to [use another emoji 😶](<😶 Input emojis.md>) other than the default smile 😃 emoji.
 
     ---
