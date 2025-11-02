@@ -60,7 +60,7 @@
         Locator: $resolved
 
 # Open a Chat on the Wallet app
-- RUN|Converse:
+- RUN|Converse@Broker >> $chat:
     Wallet: $wallet
     Locator: $locator
 
