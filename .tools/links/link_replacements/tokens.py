@@ -227,6 +227,20 @@ def replace_talkers_helper_tokens(md_files):
     return _replace_simple(md_files, pattern, '[Talker 😃 helper domains](<😃🤲 Talker helper.md>)')
 
 
+# Hardcoded Finder tokens
+FINDER_REPLACEMENT = "[Finder 🔎 domain](<🔎 Finder 🫥 agent.md>)"
+@register_hardcoded("finder", replacement=FINDER_REPLACEMENT, token_label="Finder")
+def replace_finder_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Finder`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, FINDER_REPLACEMENT)
+
+
+@register_hardcoded("finders", replacement='[Finder 🔎 domains](<🔎 Finder 🫥 agent.md>)', token_label="Finders")
+def replace_finders_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Finders`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, '[Finder 🔎 domains](<🔎 Finder 🫥 agent.md>)')
+
+
 # Hardcoded Role token
 ROLE_REPLACEMENT = "[Role 🎭](<👥🎭 Domain Role.md>)"
 @register_hardcoded("role", replacement=ROLE_REPLACEMENT, token_label="Role")
