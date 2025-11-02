@@ -78,6 +78,15 @@ Successful Tests:
     LinkFile: "💼🎭 Consumer role.md"
     Reasons: This is hardcoded.
 
+  - Given: '{{Finder}}'
+    LinkText: "Finder 🔎 domain"
+    LinkFile: "🔎 Finder 🫥 agent.md"
+    Reasons: This is hardcoded.
+  - Given: '{{Finders}}'
+    LinkText: "Finder 🔎 domains"
+    LinkFile: "🔎 Finder 🫥 agent.md"
+    Reasons: This is hardcoded.
+
   - Given: "{{Helper}}"
     LinkText: "Helper 🤲 domain"
     LinkFile: "🤲👥 Helper domain.md"
