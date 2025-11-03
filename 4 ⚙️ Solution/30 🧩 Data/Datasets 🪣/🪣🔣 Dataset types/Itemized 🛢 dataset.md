@@ -9,7 +9,7 @@
 
 <br/>
 
-> FAQ
+## FAQ
 
 1. **What is an Itemized dataset?**
 
@@ -31,176 +31,25 @@
     ---
     <br/>
 
+1. **What properties are available?**
 
-1. **What's the simplest syntax for itemized schemas?**
-
-    ```yaml
-    # First column is the key.
-    # No parents, children, or distincts.
-    Table: <name>
-    ```
-
-    |Input|Details|Example
-    |-|-|-
-    | `<name>` | Dataset name | `ORDERS`
-    |
-
-    Here's an example.
-
-    ```yaml
-    # Example
-    Table: ORDERS
-    ```
-
+    | Property| Type|  Purpose | Example
+    |-|-|-|-
+    | `Prefix` | string | Prefixes all mentioned table names | `Broker`
+    | `Table`   | string | Name for table, without the prefix | `T` `Wallets`
+    | [`Keys`](<../🪣🛢 Itemized datasets/Item 🛢 Keys.md>)     | list | Properties that compose the key | `k` `k1,k2`
+    | [`Parents`](<../🪣🛢 Itemized datasets/Item 🛢 Parents.md>) | map | Parent relationships | `P:{P.k:T.p}`
+    | [`Propagate`](<../🪣🛢 Itemized datasets/Item 🛢 Propagate.md>) | list | Name of parents to auto-create | `P` `P,Q`
+    | [`Children`](<../🪣🛢 Itemized datasets/Item 🛢 Children.md>)| map | Child relationships | `Cs:{C.p:T.k}`
+    | [`Views`](<../🪣🛢 Itemized datasets/Item 🛢 Views.md>) | map | Filtered children | `Vs:Cs:[p=3]`
+    | [`Distincts`](<../🪣🛢 Itemized datasets/Item 🛢 Views.md>) | map | Unique values in child properties | `Ds:Cs.d`
+    | [`NoUpdates`](<../🪣🛢 Itemized datasets/Item 🛢 NoUpdates.md>) | bool | Only allows inserts and deletes | `True`
+    | [`Triggers`](<../🪣🛢 Itemized datasets/Item 🛢 Triggers.md>) | map | [Scripts 📃](<../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) to run on triggers | `S:EXPIRED`
+    
     ---
     <br/>
 
-1. **Whats the syntax for complex keys?**
 
-    ```yaml
-    # Complex keys
-    Table: <name>
-    Key: <k1>[,<kN>]
-    ```
-
-    |Input|Details|Example
-    |-|-|-
-    |`<k1>[,<kN>]`  | Key combination | `ID` `COL1,COL2`
-    |
-
-    Here's an example.
-
-    ```yaml
-    # Example
-    Table: ORDERS
-    Key: ID
-    ```
-
-
-    ---
-    <br/>    
-
-1. **Whats the syntax with a parent dataset?**
-
-    ```yaml
-    # With parents
-    Table: <name>
-
-    Parents:
-        <alias>: 
-            <parent>.<key1>: <name>.<link1>
-            <parent>.<keyN>: <name>.<linkN>
-    ```
-
-    |Input|Details|Example
-    |-|-|-
-    | `<alias>` | New parent property  | `CUSTOMER`
-    | `<parent>` | Parent dataset  | `CUSTOMERS`
-    | `<key>`  | Matching parent field | `ID`
-    | `<link>` | Matching child field | `CUST_ID`
-    |
-
-    Here's an example.
-
-    ```yaml
-    # Example
-    Table: ORDERS
-
-    Parents:
-        CUSTOMER: 
-            CUSTOMERS.ID: ORDERS.CUST_ID
-    ```
-    
-    ---
-    <br/>    
-
-1. **How to automatically propagate parents?**
-
-    For parents to be automatically created, add a `Propagate`.
-
-    ```yaml
-    Table: <name>
-    
-    # Define the parent
-    Parents:
-        <parent>: {...}
-
-    # Automatically create missing parents.
-    Propagate:
-        <parent> 
-    ```
-
-    ---
-    <br/>
-
-1. **Whats the syntax with a child dataset?**    
-    
-    ```yaml
-    # With children
-    Table: <name>
-
-    Children:
-        <alias>: 
-            <child>.<link1>: <name>.<key1>
-            <child>.<linkN>: <name>.<keyN>
-    ```
-
-    |Input|Details|Example
-    |-|-|-
-    | `<alias>`  | Added property  | `LINES`
-    | `<child>`  | Child dataset  | `ORDER_LINES`
-    | `<link>` | Matching child field | `ORDER_ID`
-    | `<key>`  | Matching parent field | `ID`
-    |
-
-    Here's an example.
-
-    ```yaml
-    # Example
-    Table: ORDERS
-
-    Children:
-        LINES: 
-            ORDER_LINES.ORDER_ID: ORDERS.ID
-    ```
-
-    ---
-    <br/>
-
-1. **Whats the syntax with distincts?**    
-
-    ```yaml
-    # With distincts
-    Table: <name>
-    Children:
-        <child>: 
-            <child-set>.<link>: <name>.<key>
-    Distincts:
-        <distinct>: <child>.<property>
-    ```
-
-    |Input|Details|Example
-    |-|-|-
-    | `<grand-alias>`  | Added property  | `Category`
-    | `<grand-set>`  | Grand-children  | `Categories`
-    |
-
-    Here's an example.
-    
-    ```yaml
-    # Example
-    Table: ORDERS
-
-    Children:
-        LINES: 
-            ORDER_LINES.ORDER_ID: ORDERS.ID
-
-    Distincts:
-        PRODUCTS: LINES.PROD_ID
-    ```
-
-    ---
-    <br/>
 
 1. **What's an example of an itemized schema?**
 
@@ -211,8 +60,14 @@
     |`ORDER_LINES`|ID|QTT|ORDER_ID | PROD_ID | `$o.LINES[0].QTT`
 
     ```yaml
+    # FULFILLMENT_ORDERS
+
+    Prefix: FULFILLMENT_
     Table: ORDERS
     Key: ID
+
+    # Block changes once saved
+    NoUpdates: True
 
     Parents:
         # For each Order, link the Customer
@@ -222,90 +77,27 @@
     
     Children:
         # For each Order, link the Lines
-        # Usage: $o.Lines[0].Qtt
+        # Usage: $order.Lines[0].Qtt
         LINES: 
             ORDER_LINES.ORDER_ID: ORDERS.ID
+
+    Views:
+        # Filter out the return lines
+        RETURNS:
+            LINES:
+                - QTT < 0
         
     Distincts:
         # Group the product IDs
-        # Usage: $o.Products[0]
+        # Usage: $order.Products[0]
         PRODUCTS: LINES.PROD_ID
-    ```
 
-    ---
-    <br/>
-   
-1. **How to block updates?**
-
-    Here's the table definition.
-
-    ```yaml
-    NoUpdates: True  # it's False by default
-    ```
-
-    Here's a [`Script`](<../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) excerpt from [`Grab@Printer`](<../../../45 🤲 Helper domains/Printers 🖨️/🖨️🅰️ Printer methods/Grab 👥🚀🖨️/🖨️ Grab 🚀 request.md>)
-
-    ```yaml
-    # Give a holder name to avoid exceptions.
-    - SAVE|AnyTable:
-        .OnBlocked: onBlocked
-    ```
-
-    |Action|Condition|Behavior
-    |-|-|-
-    | 💾 [`SAVE`](<../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | Same value | Allows multiple  idempotent saves
-    | |Different | Blocked, raises an error
-    | 🗑️ [`DELETE`](<../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>) | - | Allows multiple idempotent times
-
-    ---
-    <br/>
-
-
-1. **How to work with triggers?**
-
-    Triggers 
-    * are set on the [`Build@Itemized` 🅰️ method](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
-    * and are consumed by the [`Triggered@Talker` 🅰️ method](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🔔 Itemizer events/🛢🔔 Triggered.md>)
-
-    ---
-    <br/>
-
-
-
-1. **What are the possible triggers?**
-    
-    |Value|Description|
-    |-|-|
-    | `ADDED`   | Item inserted on the [Itemized 🛢 dataset](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) on a [`SAVE`](<../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
-    | `CHANGED` | The content of the item has changed on a [`SAVE`](<../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
-    | `EXPIRED` | Item removed automatically due to a [`SAVE`](<../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) expiration
-    | `DELETED` | Item deleted on a [`DELETE`](<../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>), either soft or hard
-    | `PURGED`  | Item removed automatically due to an [`UNDO`](<../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/UNDO ↩️/↩️ UNDO ⌘ cmd.md>) timeout
-    |
-
-1. **How to register a Trigger?**
-
-    ```yaml
-    Table: <name>
     Triggers:
-        <handler>: <trigger-list>
-    ```
-
-    |Input|Details|Example
-    |-|-|-
-    | `<handler>` | Name of the [Script 📃](<../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) to handle | `MyHandler`
-    | `<trigger-list>` | Triggers to handle | `ADDED,PURGED`
-    |
-
-    Here's an example.
-
-    ```yaml
-    # Example
-    Table: ORDERS
-    Triggers: 
+        # Triggers these OnX scripts
         OnTimeout: EXPIRED, PURGED
         OnChange: ADDED, CHANGED, DELETED
     ```
 
     ---
     <br/>
+   

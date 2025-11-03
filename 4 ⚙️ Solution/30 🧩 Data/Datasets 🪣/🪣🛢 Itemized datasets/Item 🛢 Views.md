@@ -1,0 +1,81 @@
+# Item 🛢 Views
+
+> Part of [Itemized 🪣 dataset](<../🪣🔣 Dataset types/Itemized 🛢 dataset.md>)
+
+## FAQ
+
+1. **What are Views?**
+
+    Views are filtered lists of [Item 🛢 Children](<Item 🛢 Children.md>).
+
+    ---
+    <br/>
+
+1. **Why are Views important?**
+
+    Views 
+    * allow [Scripts 📃](<../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) to be simpler, 
+    * by moving the filtering logic to an [Itemizer 🛢 helper domain](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🤲 Itemizer helper.md>).
+
+    ---
+    <br/>
+
+1. **Whats the syntax for child views?**    
+   
+    ```yaml
+    # With children
+    Table: <name>
+
+    Views:
+        <alias>: 
+            <child>: 
+                - <filter>
+    ```
+
+    |Input|Details|Example
+    |-|-|-
+    | `<alias>`  | View name  | `RETURNS`
+    | `<child>`  | Child alias  | `LINES`
+    | `<filter>` | Comparisons like [`ASSERT`](<../../../35 💬 Chats/Scripts 📃/📃 holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) | `PRICE < 0`
+
+    ---
+    <br/>
+
+1. **What's an example?**
+   
+    Here's an example.
+
+    ```yaml
+    # Example
+    Table: ORDERS
+
+    Children:
+        LINES: 
+            ORDER_LINES.ORDER_ID: ORDERS.ID
+
+    Views:
+        RETURNS:
+            LINES:
+                - PRICE < 0
+    ```
+
+    ---
+    <br/>
+
+1. **How to use it?**
+
+    Here's a [Script 📃](<../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>)
+    ```yaml
+    # Example usage of Views
+    - INFO:
+        Text: | 
+            Here's your order.
+            Lines: 
+                {$order.LINES}
+            Returns: 
+                {$order.RETURNS}
+    ```
+    Commands: [`INFO`](<../../../35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
+
+    ---
+    <br/>
