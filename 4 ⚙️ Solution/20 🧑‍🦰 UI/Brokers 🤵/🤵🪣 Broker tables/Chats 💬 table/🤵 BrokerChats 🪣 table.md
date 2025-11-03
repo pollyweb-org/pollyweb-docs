@@ -4,7 +4,6 @@
 
 > Stores [Chats 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
 
-> Inserted by [`Converse` 📃 script](<../../🤵🅰️ Broker methods/Locators 🔆 Assess 🧑‍🦰🐌🤵/scripts/🤵 Call Converse 📃 script.md>)
 
 <br/>
 

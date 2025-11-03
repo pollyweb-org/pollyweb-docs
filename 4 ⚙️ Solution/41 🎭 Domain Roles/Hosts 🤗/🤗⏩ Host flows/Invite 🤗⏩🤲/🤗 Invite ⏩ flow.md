@@ -54,7 +54,7 @@ The associated [`Script`](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Sc
 ## ⏩ Flow diagram 
 
 
-![alt text](<⚙️🤲 Invite.png>)
+![alt text](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite ⚙️ uml.png>)
 
 
 |#| Step | Purpose
