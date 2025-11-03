@@ -36,5 +36,14 @@ Uses: [`Parents`](<../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized dataset
 ```yaml
 ID: <thread-uuid>
 Domain: any-domain.dom
-Delete: 1 day
+Started: 2018-12-10T13:45:21.123Z
+Stopped: 2018-12-10T13:45:28.345Z
 ```
+
+|Property| Type| Purpose|Origin
+|-|-|-|-
+| `ID` | uuid | Thread ID | [`Start@`](<../🪵🅰️ Logger methods/Start 👥🚀🪵/🪵 Start 🚀 request.md>)
+| `Domain` | domain | Owner [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [`Start@`](<../🪵🅰️ Logger methods/Start 👥🚀🪵/🪵 Start 🚀 request.md>)
+| `Started` | time | When it was started | [`Start@`](<../🪵🅰️ Logger methods/Start 👥🚀🪵/🪵 Start 🚀 request.md>)
+| `Stopped` | time | When it was stopped | [`Stop@`](<../🪵🅰️ Logger methods/Stop 👥🐌🪵/🪵 Stop 🐌 msg.md>) |
+|
