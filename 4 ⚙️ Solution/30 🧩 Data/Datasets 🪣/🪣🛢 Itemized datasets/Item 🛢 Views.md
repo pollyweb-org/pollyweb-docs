@@ -28,14 +28,12 @@
 
     Views:
         <alias>: 
-            <child>: 
-                - <filter>
+            - <filter>
     ```
 
     |Input|Details|Example
     |-|-|-
     | `<alias>`  | View name  | `RETURNS`
-    | `<child>`  | Child alias  | `LINES`
     | `<filter>` | Comparisons like [`ASSERT`](<../../../35 💬 Chats/Scripts 📃/📃 holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) | `PRICE < 0`
 
     ---
@@ -47,16 +45,11 @@
 
     ```yaml
     # Example
-    Table: ORDERS
-
-    Children:
-        LINES: 
-            ORDER_LINES.ORDER_ID: ORDERS.ID
+    Table: ORDER_LINES
 
     Views:
         RETURNS:
-            LINES:
-                - PRICE < 0
+            - PRICE < 0
     ```
 
     ---
@@ -73,7 +66,7 @@
             Lines: 
                 {$order.LINES}
             Returns: 
-                {$order.RETURNS}
+                {$order.LINES.RETURNS}
     ```
     Commands: [`INFO`](<../../../35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
 

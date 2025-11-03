@@ -32,11 +32,6 @@ Children:
     Binds: { Binds.Wallet: Wallet.ID }
     Tokens: { Tokens.Wallet: Wallet.ID }
 
-Views:
-    ActiveTokens:
-        Tokens:
-            
-
 Distincts: 
     Hosts: Chats.Host
     Vaults: Binds.Vault

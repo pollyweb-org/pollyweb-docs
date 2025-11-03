@@ -14,7 +14,7 @@
 
 1. **How do Listeners work?**
 
-    ![](<.📎 Assets/📜 Listeners.png>)
+    ![](<👂 Listener helper/📜 Listeners.png>)
 
     |#|Step
     |-|-
