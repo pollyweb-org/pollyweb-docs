@@ -52,7 +52,7 @@
     - SAVE|mySet:
         A: 1
         B: 2
-        .OnDelete: 1 day
+        .Delete: 1 day
         .OnBlocked: onBlocked
 
     # With a holder

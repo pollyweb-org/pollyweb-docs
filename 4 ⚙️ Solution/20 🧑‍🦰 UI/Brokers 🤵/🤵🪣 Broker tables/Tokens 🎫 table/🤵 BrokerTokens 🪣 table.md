@@ -33,6 +33,8 @@ Parents:
     Issuer: { Domains.Name: Tokens.Issuer }
 
 Views:
+    Offered: 
+        - Status: OFFERED
     Active: 
         - .Now.In(Starts, Expires)
         - Status: ACTIVE
