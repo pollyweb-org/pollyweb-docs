@@ -46,6 +46,9 @@ HARDCODED_FILE_ALIASES: dict[str, list[str]] = {
     # Prefer the YAML-canonical form on the left; accept the older emoji-prefixed
     # variant as an alias for backward compatibility.
     "Script 📃.md": ["📃 Script.md"],
+    # Some filenames use a different emoji ordering (alias the existing file
+    # so hardcoded tests that expect the YAML canonical name still pass).
+    "🛢 Itemizer 🤲 helper.md": ["🛢🤲 Itemizer helper.md"],
 }
 
 yes_memory = []
