@@ -11,9 +11,15 @@
     Table: <name>
 
     Parents:
-        <alias>: 
+
+        # Parent mapped by property matching
+        <alias-1>: 
             <parent>.<key1>: <name>.<link1>
             <parent>.<keyN>: <name>.<linkN>
+    
+        # Parent mapped by the parent of a parent
+        <alias-x>:
+            <alias-1>.<elder>
     ```
 
     |Input|Details|Example
@@ -22,6 +28,7 @@
     | `<parent>` | Parent dataset  | `CUSTOMERS`
     | `<key>`  | Matching parent field | `ID`
     | `<link>` | Matching child field | `CUST_ID`
+    | `<elder>` | Direct grand parent    | `CITY` 
 
     ---
     <br/>
@@ -35,8 +42,15 @@
     Table: ORDERS
 
     Parents:
+        
+        # Parent mapped by matching properties
         CUSTOMER: 
             CUSTOMERS.ID: ORDERS.CUST_ID
+
+        # Direct grandparent reference,
+        #  assuming that CITY is a also a parent
+        CITY:
+            CUSTOMER.CITY
     ```
     
     ---
