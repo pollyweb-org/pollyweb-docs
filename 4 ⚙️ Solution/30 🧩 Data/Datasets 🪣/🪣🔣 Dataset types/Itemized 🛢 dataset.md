@@ -82,10 +82,9 @@
             ORDER_LINES.ORDER_ID: ORDERS.ID
 
     Views:
-        # Filter out the return lines
-        RETURNS:
-            LINES:
-                - QTT < 0
+        # Filter out the recent orders
+        RECENT:
+            DATE.In(.Last(month))
         
     Distincts:
         # Group the product IDs
@@ -97,6 +96,10 @@
         OnTimeout: EXPIRED, PURGED
         OnChange: ADDED, CHANGED, DELETED
     ```
+    
+    Uses||
+    |-|-
+    |[{Functions} 🐍](<../../../35 💬 Chats/Scripts 📃/📃 basics/Function 🐍.md>) | [`.Minus`](<../../../35 💬 Chats/Scripts 📃/📃 functions 🐍/🔩 {.Minus}.md>) [`.Today`](<../../../35 💬 Chats/Scripts 📃/📃 functions 🐍/🔩 {.Today}.md>)
 
     ---
     <br/>

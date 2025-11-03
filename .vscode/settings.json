@@ -11,7 +11,7 @@
     "cSpell.ignoreWords": [
         "md"
     ],
-    "markdown.validate.enabled": false,
+    "markdown.validate.enabled": true,
     "markdownlint.config": {
         "no-inline-html": false,
         "no-alt-text": false,
