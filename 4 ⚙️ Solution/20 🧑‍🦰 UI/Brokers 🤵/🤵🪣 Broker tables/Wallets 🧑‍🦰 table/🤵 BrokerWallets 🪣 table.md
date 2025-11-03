@@ -19,6 +19,7 @@ Here's the [Itemized 🛢 schema](<../../../../30 🧩 Data/Datasets 🪣/🪣�
 
 ```yaml
 # Wallets.yaml
+
 Prefix: Broker
 Table: Wallets
 Key: ID
@@ -30,6 +31,11 @@ Children:
     Chats: { Chats.Wallet: Wallets.ID }
     Binds: { Binds.Wallet: Wallet.ID }
     Tokens: { Tokens.Wallet: Wallet.ID }
+
+Views:
+    ActiveTokens:
+        Tokens:
+            
 
 Distincts: 
     Hosts: Chats.Host
@@ -44,7 +50,7 @@ Distincts:
 | Parent | [`Notifiers` 🪣](<../Notifiers 📣 table/🤵 BrokerNotifiers 🪣 table.md>) | [Notifier 📣 domain](<../../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>)
 | Children | [`Chats` 🪣](<../Chats 💬 table/🤵 BrokerChats 🪣 table.md>) | [Chats 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
 | | [`Binds` 🪣](<../Binds 🔗 table/🤵 BrokerBinds 🪣 table.md>) | [Binds 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
-| | [`Tokens` 🪣](<../Tokens 🎫 table/🤵 Tokens 🪣 table.md>) | [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
+| | [`Tokens` 🪣](<../Tokens 🎫 table/🤵 BrokerTokens 🪣 table.md>) | [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
 |
 
 <br/>

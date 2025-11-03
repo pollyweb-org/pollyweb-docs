@@ -29,9 +29,31 @@
     FROM $chat.Wallet.Binds
     MATCH Schema.In($.Msg.Schemas)
 
-Chat: <chat-uuid>
+# Merge all
+- EVAL|$tokens +> $merges:
+    Schema: Schema
+    Domain: Issuers
+- EVAL|$binds +> $merges:
+    Schema: Schema
+    Domain: Vault
+    
+# Filter by trusts
+- PARALLEL|$merges
+- SEND >> $trusted:
+    Header:
+        To: .Hosted.Graph
+        Subject: Trusts@Graph
+    Body:
+        Domain: $.Msg.From
+        Role: CONSUMER
+
+    Chat: <chat-uuid>
     Hook: <hook-uuid>
     Schemas:
       # either the driver's license,
       - usa.gov/DRIVER-LICENSE:1.0
 ```
+
+|Users||
+|-|-
+| [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`BrokerTokens` 🪣 table](<../../🤵🪣 Broker tables/Tokens 🎫 table/🤵 BrokerTokens 🪣 table.md>)
