@@ -2,6 +2,7 @@
 
 > Implementation
 * Implements the [Logger 🪵 helper domain](<../../🪵 Logger helper/🪵 Logger 🤲 helper.md>)
+* Implemented by the [`Stop` 📃 handler](<🪵 Stop 📃 handler.md>)
 
 > Purpose
 * Stops a log thread.

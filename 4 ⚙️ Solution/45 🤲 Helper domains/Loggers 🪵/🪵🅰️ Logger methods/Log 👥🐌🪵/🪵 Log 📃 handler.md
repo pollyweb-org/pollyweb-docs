@@ -35,14 +35,27 @@
 - ASSERT|$.Msg:
     From: $thread.Domain
 
+# Discard by group filter, if set
+- IF|$thread.Groups:
+    IF|$.Msg.Group.NotIn($thread.Groups):
+      RETURN
+
 # Save the log entry
 - SAVE|LoggerEntry:
     Domain: $thread.Domain
     Thread: $thread.ID
-    Sent: $.Msg.Sent
+    Sent: $.Msg.Header.Timestamp
     Group: $.Msg.Group
     Blame: $.Msg.Blame
     Level: $.Msg.Level
     Text: $.Msg.Text
     Details: $.Msg.Details
 ```
+
+Uses||
+|-|-
+|[Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Command ⌘.md>) | [`ASSERT`](<../../../../35 💬 Chats/Scripts 📃/📃 holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`DEFAULT`](<../../../../35 💬 Chats/Scripts 📃/📃 holders 🧠/DEFAULT/📭 DEFAULT ⌘ cmd.md>) [`GET`](<../../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) [`SAVE`](<../../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`VERIFY`](<../../../../35 💬 Chats/Scripts 📃/📃 messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>)
+|[Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Threads`](<../../🪵🪣 Logger tables/🪵 LoggerThreads 🪣 table.md>)  [`Entries`](<../../🪵🪣 Logger tables/🪵 LoggerEntries 🪣 table.md>)
+| [{Functions} 🐍](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Function 🐍.md>) | [`.NotIn`](<../../../../35 💬 Chats/Scripts 📃/📃 functions 🐍/🔩 {.NotIn}.md>)
+| [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Holder 🧠.md>) | [`$.Msg`](<../../../../35 💬 Chats/Scripts 📃/📃 holders 🧠/$.Msg 📨/📨 $.Msg 🧠 holder.md>)
+|

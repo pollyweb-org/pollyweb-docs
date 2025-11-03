@@ -2,7 +2,7 @@
 
 > Implementation
 * Implements the [Logger 🪵 helper domain](<../../🪵 Logger helper/🪵 Logger 🤲 helper.md>)
-
+* Implemented by the [`Start` 📃 handler](<🪵 Start 📃 handler.md>)
 
 > Purpose
 * Initiates a log thread.
