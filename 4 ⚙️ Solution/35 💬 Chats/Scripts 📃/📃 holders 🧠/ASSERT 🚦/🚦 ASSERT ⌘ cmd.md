@@ -52,7 +52,7 @@
     * The `-` is optional 
         * if there's no property in the object context with the same name.
     * If there's a property with the same name in the context object, 
-        * then the assessment defaults ti similar `~=` text comparison.
+        * then the assessment defaults ti similar `:` text comparison.
 
     ---
     <br/>
@@ -75,7 +75,7 @@
     | `$object`| Optional initial context | `$.Msg` 
     | `{value}` | String or [{Function}](<../../📃 basics/Function 🐍.md>) evaluated | `A` `{f}` `{$p}`
     || Supports missing `{}`  | `f()` `$p`
-    | `{comparison}` | `=` `~=` `!=` `>` `>=` `<` `<=` 
+    | `{comparison}` | `=` `:` `!=` `>` `>=` `<` `<=` 
     
     ---
     <br/>
@@ -109,11 +109,11 @@
 
     | | Meaning | Valid results ✅
     |-|-|-
-    | `~=` | Same content out of order | `[1,2] = [2,1]`
-    |       | Same content out of order | `{A:1, B:2} = {B:2, A:1}`
-    |       |Same [Schema 🧩 code](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | `.HOST ~= nlweb.org/HOST:1.0 `|
-    |       | Same [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name | `domain.dom ~= DOMAIN.DOM`
-    |       | Same [`{.Today}` 🐍](<../../📃 basics/Function 🐍.md>) date | `~= 2013-04-01T05:00:30.001Z`
+    | `:` | Same content out of order | `[1,2]: [2,1]`
+    |       | Same content out of order | `{A:1, B:2}: {B:2, A:1}`
+    |       |Same [Schema 🧩 code](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | `.HOST: nlweb.org/HOST:1.0`|
+    |       | Same [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name | `domain.dom: DOMAIN.DOM`
+    |       | Same [`{.Today}` 🐍](<../../📃 basics/Function 🐍.md>) date | `.Today: 2013-04-01T05:00:30.001Z`
     
     
 
@@ -205,7 +205,7 @@
     ```
     
     Restrictions:
-    * Only supports similar comparisons, i.e. `~=`
+    * Only supports similar comparisons, i.e. `:`
     * Supports single value assertions surrounded with `:`
     * `{similar-value-A}` cannot be repeated
 
@@ -285,7 +285,7 @@
     * `Enums` (with an `s`) will also work.
     * The `-` is optional if there's no `Enum` property on the object.
     * If there's an `Enum` property on the given context object
-        * then a similar `~=` comparison is performed.
+        * then a similar `:` comparison is performed.
     
     <br/>
     
