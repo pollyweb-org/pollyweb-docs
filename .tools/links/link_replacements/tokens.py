@@ -376,6 +376,8 @@ _GEN_BASIC = [
     ("replace_command_tokens", "Command", "command", COMMAND_REPLACEMENT, "Command"),
     ("replace_commands_tokens", "Commands", "commands", COMMANDS_REPLACEMENT, "Commands"),
     ("replace_script_tokens", "Script", "script", SCRIPT_REPLACEMENT, "Script"),
+    ("replace_itemizer_tokens", "Itemizer", "itemizer", "[Itemizer 🛢 helper domain](<🛢🤲 Itemizer helper.md>)", "Itemizer"),
+    ("replace_itemizers_tokens", "Itemizers", "itemizers", "[Itemizer 🛢 helper domains](<🛢🤲 Itemizer helper.md>)", "Itemizers"),
 ]
 
 for fname, lit, key, repl, label in _GEN_BASIC:
@@ -392,6 +394,20 @@ def replace_broker_tokens(md_files):
 def replace_seller_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Seller`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
     return _replace_simple(md_files, pattern, SELLER_REPLACEMENT)
+
+
+# Hardcoded Logger tokens
+LOGGER_REPLACEMENT = "[Logger 🪵 helper domain](<🪵 Logger 🤲 helper.md>)"
+@register_hardcoded("logger", replacement=LOGGER_REPLACEMENT, token_label="Logger")
+def replace_logger_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Logger`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, LOGGER_REPLACEMENT)
+
+
+@register_hardcoded("loggers", replacement='[Logger 🪵 helper domains](<🪵 Logger 🤲 helper.md>)', token_label="Loggers")
+def replace_loggers_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Loggers`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, '[Logger 🪵 helper domains](<🪵 Logger 🤲 helper.md>)')
 
 
 @register_hardcoded("consumer", replacement=CONSUMER_REPLACEMENT, token_label="Consumer")

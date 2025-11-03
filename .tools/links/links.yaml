@@ -20,6 +20,9 @@ Instructions: >
   that is mentioned in "Failed Tests" in the yaml, 
   that file and all other files mentioned as wrong
   file, the script should fail and require a bug fix.
+
+  All LinkFiles in this file must exist.
+  Any other hardcoded replacements in the py must also exist.
   
 Restrictions: |
   1) Do not change this YAML file, ever. 
@@ -132,6 +135,24 @@ Successful Tests:
     LinkFile: "☁️🤲 Hoster helper.md"
     Reasons: This is hardcoded.
 
+  - Given: "{{Itemizer}}"
+    LinkText: "Itemizer 🛢 helper domain"
+    LinkFile: "🛢🤲 Itemizer helper.md"
+    Reasons: This is hardcoded.
+  - Given: "{{Itemizers}}"
+    LinkText: "Itemizer 🛢 helper domains"
+    LinkFile: "🛢🤲 Itemizer helper.md"
+    Reasons: This is hardcoded.
+
+  - Given: "{{Logger}}"
+    LinkText: "Logger 🪵 helper domain"
+    LinkFile: "🪵 Logger 🤲 helper.md"
+    Reasons: This is hardcoded.
+  - Given: "{{Loggers}}"
+    LinkText: "Logger 🪵 helper domains"
+    LinkFile: "🪵 Logger 🤲 helper.md"
+    Reasons: This is hardcoded.
+
   - Given: "{{Prompt}}"
     LinkText: "Prompt 🤔"
     LinkFile: "🤔 Prompt.md"
@@ -220,27 +241,27 @@ Successful Tests:
 
   HOLDERS 🧠:
 
-  - Given: '{{$.Msg}}'
-    LinkText: "`$.Msg` 🧠 holder"
-    LinkFile: "📨 $.Msg 🧠 holder.md"
-    Reasons: |
-      For `$.Word`,
-      the file is called `{emoji} $.Word 🧠 holder.md`.
+  - Given: '{{$.Chat}}'
+    LinkText: "`$.Chat` 🧠 holder"
+    LinkFile: "💬 $.Chat 🧠 holder.md"
+    Reasons: Same as {{$.Msg}}.
 
   - Given: '{{$.Hosted}}'
     LinkText: "`$.Hosted` 🧠 holder"
     LinkFile: "📦 $.Hosted 🧠 holder.md"
     Reasons: Same as {{$.Msg}}.
 
-  - Given: '{{$.Chat}}'
-    LinkText: "`$.Chat` 🧠 holder"
-    LinkFile: "💬 $.Chat 🧠 holder.md"
-    Reasons: Same as {{$.Msg}}.
-
   - Given: '{{$.Inputs}}'
     LinkText: "`$.Inputs` 🧠 holder"
     LinkFile: "▶️ $.Inputs 🧠 holder.md"
     Reasons: Same as {{$.Msg}}.
+
+  - Given: '{{$.Msg}}'
+    LinkText: "`$.Msg` 🧠 holder"
+    LinkFile: "📨 $.Msg 🧠 holder.md"
+    Reasons: |
+      For `$.Word`,
+      the file is called `{emoji} $.Word 🧠 holder.md`.
 
   SCRIPTS 📃:
 
