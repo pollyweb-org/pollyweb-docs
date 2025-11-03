@@ -1,0 +1,24 @@
+@startuml Invite
+
+participant "Consumer 💼 " as host
+
+box "Broker 🤵" #FFFFFA
+    participant "Handler 📃" as broker
+end box
+
+participant "Graph 🕸" as graph
+participant "Wallet 🧑" as user
+participant "Helper 🤲" as invitee
+
+
+activate host
+    host --> broker: Invite 🐌
+deactivate host
+
+activate broker
+    broker -> graph: SEND Translate 🚀
+    broker --> user: CONFIRM 🤔
+    broker --> invitee: SEND Invited 🐌 
+deactivate broker
+
+@enduml 
