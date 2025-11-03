@@ -20,8 +20,8 @@
 
     |#|Step
     |-|-
-    |1| [Firewall 🔥 domains](<🔥🤲 Firewall helper.md>) subscribe to the [domain-event streams 🌬️](<../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>) of [Reviewer ⭐ domains](<../../50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>), [Listener 👂 domains](<../Listeners 👂/👂🤲 Listener helper.md>), and [Graph 🕸 domains](<../Graphs 🕸/🕸🤲 Graph helper.md>), eventually throttling them with a [Buffer ⏳ helper domain](<../Buffers ⏳/⏳🤲 Buffer helper.md>);
-    |2| [Firewall 🔥 domains](<🔥🤲 Firewall helper.md>) then update the [Trust 🫡 list](<../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) in their [domain Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>), which is propagated down by the [Listener 👂 helper domains](<../Listeners 👂/👂🤲 Listener helper.md>) and subscribed by [Graph 🕸 helper domains](<../Graphs 🕸/🕸🤲 Graph helper.md>) and [Finder 🔎 vaults](<../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>).
+    |1| [Firewall 🔥 domains](<🔥🤲 Firewall helper.md>) subscribe to the [domain-event streams 🌬️](<../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>) of [Reviewer ⭐ domains](<../../50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>), [Listener 👂 domains](<../Listeners 👂/👂 Listener helper/👂🤲 Listener helper.md>), and [Graph 🕸 domains](<../Graphs 🕸/🕸🤲 Graph helper.md>), eventually throttling them with a [Buffer ⏳ helper domain](<../Buffers ⏳/⏳🤲 Buffer helper.md>);
+    |2| [Firewall 🔥 domains](<🔥🤲 Firewall helper.md>) then update the [Trust 🫡 list](<../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) in their [domain Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>), which is propagated down by the [Listener 👂 helper domains](<../Listeners 👂/👂 Listener helper/👂🤲 Listener helper.md>) and subscribed by [Graph 🕸 helper domains](<../Graphs 🕸/🕸🤲 Graph helper.md>) and [Finder 🔎 vaults](<../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>).
 
     ---
 
@@ -36,8 +36,8 @@
 1. **Do Firewalls monitor Listeners and Graphs?**
 
     Yes. 
-    * [Firewall 🔥 helper domains](<🔥🤲 Firewall helper.md>) subscribe to [Listener 👂 domain streams](<../Listeners 👂/👂🤲 Listener helper.md>) and [Graph 🕸 domain streams](<../Graphs 🕸/🕸🤲 Graph helper.md>) to monitor their robustness, reliability, and conformity to the NLWeb protocol, revoking their [Trust 🫡](<../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) when necessary;
-        * e.g., compare information about a random [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) in three or more [Listener 👂 domains](<../Listeners 👂/👂🤲 Listener helper.md>) or [Graph 🕸 domains](<../Graphs 🕸/🕸🤲 Graph helper.md>) to identify discrepancies.
+    * [Firewall 🔥 helper domains](<🔥🤲 Firewall helper.md>) subscribe to [Listener 👂 domain streams](<../Listeners 👂/👂 Listener helper/👂🤲 Listener helper.md>) and [Graph 🕸 domain streams](<../Graphs 🕸/🕸🤲 Graph helper.md>) to monitor their robustness, reliability, and conformity to the NLWeb protocol, revoking their [Trust 🫡](<../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) when necessary;
+        * e.g., compare information about a random [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) in three or more [Listener 👂 domains](<../Listeners 👂/👂 Listener helper/👂🤲 Listener helper.md>) or [Graph 🕸 domains](<../Graphs 🕸/🕸🤲 Graph helper.md>) to identify discrepancies.
 
     ---
     <br/>

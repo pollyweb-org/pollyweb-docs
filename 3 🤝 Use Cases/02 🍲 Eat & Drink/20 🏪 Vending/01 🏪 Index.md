@@ -56,7 +56,7 @@ TODO: other scenarios
 |-|-
 | [🧑‍💻 Hoster](<91 🧑‍💻 Owner: Hoster.md>) | To bootstrap an inbox API
 | [🏦 Collector](<../../../4 ⚙️ Solution/45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) | To collect the amount paid
-| [👂 Listener](<../../../4 ⚙️ Solution/45 🤲 Helper domains/Listeners 👂/👂🤲 Listener helper.md>) | To propagate [Manifest 📜](<../../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>)  changes
+| [👂 Listener](<../../../4 ⚙️ Solution/45 🤲 Helper domains/Listeners 👂/👂 Listener helper/👂🤲 Listener helper.md>) | To propagate [Manifest 📜](<../../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>)  changes
 | [🕸 Graph](<../../../4 ⚙️ Solution/45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) | To query [Trust 🫡](<../../../4 ⚙️ Solution/30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) relationships
 | [⏳ Buffer](<../../../4 ⚙️ Solution/45 🤲 Helper domains/Buffers ⏳/⏳🤲 Buffer helper.md>) | To buffer inbound [Messages 📨](<../../../4 ⚙️ Solution/30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
 | [🛰️ Relayer](<../../../4 ⚙️ Solution/45 🤲 Helper domains/Relayers 🛰️/🛰️🤲 Relayer helper.md>) | To remotely control the machines

@@ -24,7 +24,7 @@
 
     ![](<📜 Manifest ⚙️ uml.png>)
 
-    Each [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) sends the content of their [domain Manifests 📜](<📜 Manifest.md>) in parts or in full to a [Listener 👂 helper domain](<../../../45 🤲 Helper domains/Listeners 👂/👂🤲 Listener helper.md>), who then propagates it to [Graph 🕸 domains](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>).
+    Each [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) sends the content of their [domain Manifests 📜](<📜 Manifest.md>) in parts or in full to a [Listener 👂 helper domain](<../../../45 🤲 Helper domains/Listeners 👂/👂 Listener helper/👂🤲 Listener helper.md>), who then propagates it to [Graph 🕸 domains](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>).
 
     |Step|Description
     |-|-
