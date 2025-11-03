@@ -1,7 +1,8 @@
 # 👥🐌🪵 Log @ Logger
 
 > Implementation
-* Implements the [Logger 🪵 helper domain](<../../🪵 Logger helper/🪵 Logger 🤲 helper.md>)
+* Implements the [Logger 🪵 helper domain](<../../🪵 Logger helper/🪵 Logger 🤲 helper.md>).
+* Implemented by the [`Log` 📃 handler](<🪵 Log 📃 handler.md>).
 
 > Purpose
 * Saves a log message.

@@ -1,10 +1,10 @@
-# 👥🐌🪵 Log @ Logger
+# 👥🐌🪵 Stop @ Logger
 
 > Implementation
 * Implements the [Logger 🪵 helper domain](<../../🪵 Logger helper/🪵 Logger 🤲 helper.md>)
 
 > Purpose
-* Saves a log message.
+* Stops a log thread.
 
 ## Async Message 🐌
 
@@ -12,15 +12,10 @@
 Header:
     From: any-domain.dom
     To: any-logger.dom
-    Subject: Log@Logger
+    Subject: Stop@Logger
 
 Body:
     Thread: <uuid>
-    Group: my-group     # Optional
-    Blame: my-script    # Optional
-    Level: ERROR        # Optional, defaults to INFO
-    Text: bla, bla...   # Optional, defaults to details
-    Details: {...}      # Optional
 ```
 
 |Object|Property|Type|Description|Origin|Purpose

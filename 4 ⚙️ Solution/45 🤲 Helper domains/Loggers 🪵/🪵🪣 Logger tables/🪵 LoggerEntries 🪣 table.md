@@ -14,25 +14,28 @@ Key: ID
 
 Parents: 
 
-    Thread: 
+    Thread: # pre-registered
         Threads.ID: Entries.Thread
 
-    Group: 
-        Groups.Thread: Entries.Thread
-        Groups.Name: Entries.Group
-
-    Type:
-        Types.Thread: Entries.Thread
-        Types.Name: Entries.Type
-
-    Blame:
+    Blame: # propagated
         Blames.Thread: Entries.Thread
         Blames.Name: Entries.Blame
+        Blames.Domain: Entries.Domain
+
+    Group: # propagated
+        Groups.Thread: Entries.Thread
+        Groups.Name: Entries.Group
+        Groups.Domain: Entries.Domain
+
+    Level: # propagated
+        Levels.Thread: Entries.Thread
+        Levels.Name: Entries.Level
+        Levels.Domain: Entries.Domain
 
 Propagate:
-    - Group
-    - Type
     - Blame
+    - Group
+    - Level
 ```
 
 Uses: [`Parents`](<../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Parents.md>) [`Propagate`](<../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Propagate.md>)
@@ -43,6 +46,7 @@ Uses: [`Parents`](<../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized dataset
 # GET|LoggerEntries|<entry-uuid>
 ID: <entry-uuid>
 Sent: 2025-10-10T13:45:23.123Z
+Domain: <any-domain.dom>
 Thread: <thread-uuid>
 Level: INFO
 Group: my-group-1

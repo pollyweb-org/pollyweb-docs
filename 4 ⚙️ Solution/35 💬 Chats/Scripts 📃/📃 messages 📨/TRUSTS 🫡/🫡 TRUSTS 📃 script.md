@@ -19,6 +19,11 @@
 ```yaml
 📃 .TRUSTS:
 
+# Default inputs
+- DEFAULT|$.Inputs:
+    Truster: $.Msg.To 
+    Role: *
+
 # Assert inputs
 - ASSERT|$.Inputs:
     AllOf: Schema, Trusted
@@ -28,25 +33,15 @@
 - ASSERT|$:Role:
     Enum: VAULT, CONSUMER, *
 
-# Default value for the Truster
-- IF|!Truster:
-    Then: EVAL|$:Truster >> $truster
-    Else: EVAL|$.Msg.To >> $truster
-
-# Default value for the Role
-- IF|!Role:
-    Then: EVAL|$:Role >> $role
-    Else: EVAL|* >> $role
-
 # Send the request
 - SEND >> $answer:
     Header:
         To: $.Hosted.Graph
         Subject: Trusted@Graph
     Body:
-        Truster: $truster
+        Truster: $:Truster
         Trusted: $:Trusted
-        Role: $role
+        Role: $:Role
         Schema: $:Schema
 
 # Assert if it's trusted
@@ -56,7 +51,7 @@
 
 Uses||
 |-|-
-| [Commands ⌘](<../../📃 basics/Command ⌘.md>) | [`ASSERT`](<../../📃 holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`EVAL`](<../../📃 holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`IF`](<../../📃 control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`SEND`](<../SEND 📬/📬 SEND ⌘ cmd.md>)
+| [Commands ⌘](<../../📃 basics/Command ⌘.md>) | [`ASSERT`](<../../📃 holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`DEFAULT`](<../../📃 holders 🧠/DEFAULT/📭 DEFAULT ⌘ cmd.md>) [`SEND`](<../SEND 📬/📬 SEND ⌘ cmd.md>)
 | [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Trusts@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts.md>)
 | [Holders 🧠](<../../📃 basics/Holder 🧠.md>) | [`$.Msg`](<../../📃 holders 🧠/$.Msg 📨/📨 $.Msg 🧠 holder.md>) [`$.Hosted`](<../../📃 holders 🧠/$.Hosted 📦/📦 $.Hosted 🧠 holder.md>)
 |

@@ -41,6 +41,7 @@
     | [`Parents`](<../🪣🛢 Itemized datasets/Item 🛢 Parents.md>) | map | Parent relationships | `P:{P.k:T.p}`
     | [`Propagate`](<../🪣🛢 Itemized datasets/Item 🛢 Propagate.md>) | list | Name of parents to auto-create | `P` `P,Q`
     | [`Children`](<../🪣🛢 Itemized datasets/Item 🛢 Children.md>)| map | Child relationships | `Cs:{C.p:T.k}`
+    | [`Cascade`](<../🪣🛢 Itemized datasets/Item 🛢 Cascade.md>) | list | Name of children to auto-delete | `Cs` `Cs,Ds`
     | [`Views`](<../🪣🛢 Itemized datasets/Item 🛢 Views.md>) | map | Filtered children | `Vs:Cs:[p=3]`
     | [`Distincts`](<../🪣🛢 Itemized datasets/Item 🛢 Distincts.md>) | map | Unique values in child properties | `Ds:Cs.d`
     | [`NoUpdates`](<../🪣🛢 Itemized datasets/Item 🛢 NoUpdates.md>) | bool | Only allows inserts and deletes | `True`
