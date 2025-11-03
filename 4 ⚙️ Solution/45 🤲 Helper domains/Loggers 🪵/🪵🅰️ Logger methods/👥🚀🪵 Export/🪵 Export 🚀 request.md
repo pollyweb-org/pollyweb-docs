@@ -1,13 +1,13 @@
-
 ```yaml
 Header:
     From: any-domain.dom
     To: any-logger.dom
-    Subject: Start@Logger
+    Subject: Export@Logger
 Body:
-    Delete: 1 day
+    Thread: 
+    Include:
 ```
 
 ```yaml
-Thread: 
+Logs:
 ```
