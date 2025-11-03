@@ -16,7 +16,7 @@ Here are the outputs of the [`Parse@Hosted` 🅰️ method](<../../../../55 👷
 - RUN|.FILTER:
     Options:
       - A: option-1
-        B: Option 1
+        B: Option One
     ID: A
     Title: B
     Text: Any statement
