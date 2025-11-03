@@ -17,7 +17,7 @@ deactivate host
 
 activate broker
     broker -> graph: SEND Translate 🚀
-    broker --> user: CONFIRM 🤔
+    broker -> user: CONFIRM 🤔
     broker --> invitee: SEND Invited 🐌 
 deactivate broker
 
