@@ -53,31 +53,38 @@
 
 # Save the Chats
 - PARALLEL|$wallet.Chats|$chat:
-    - SAVE|$chat:
-        Host$: 
-            SELECT Translation
-            FROM $translated.Domains
-            WHERE Domain.Is($chat.Host)
+    # Set the Host title
+    - SELECT >> $chat.Host$:
+        First: Translation
+        From: $translated.Domains
+        Where: Domain.Is($chat.Host)
+    # Save the Chat
+    - SAVE|$chat
 
 # Save the Binds
 - PARALLEL|$wallet.Binds|$bind:
-    - SAVE|$bind:
-        Vault$: 
-            SELECT Translation
-            FROM $translated.Domains
-            WHERE Domain.Is($bind.Vault)
+    # Set the Vault title
+    - SELECT >> $bind.Vault$:
+        First: Translation
+        From: $translated.Domains
+        Where: Domain.Is($bind.Vault)
+    # Save the bind
+    - SAVE|$bind
 
 # Save the Tokens
 - PARALLEL|$wallet.Tokens|$token:
-    - SAVE|$token:
-        Issuer$: 
-            SELECT Translation
-            FROM $translated.Domains
-            WHERE Domain.Is($token.Issuer)
-        Schema$: 
-            SELECT Translation
-            FROM $translated.Schemas
-            WHERE Schema.Is($token.Schema)
+    # Set the Issuer
+    SELECT >> $token.Issuer$: 
+        First: Translation
+        From: $translated.Domains
+        Where: Domain.Is($token.Issuer)
+    # Set the Schema
+    SELECT >> $token.Schema$: 
+        First: Translation
+        From: $translated.Schemas
+        Where: Schema.Is($token.Schema)
+    # Save the Token
+    - SAVE|$token
 
 # Change the Wallet
 - SAVE|$wallet:

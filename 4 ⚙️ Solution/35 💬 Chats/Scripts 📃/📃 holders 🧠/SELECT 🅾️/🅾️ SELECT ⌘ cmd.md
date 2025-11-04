@@ -17,18 +17,17 @@
 1. **What's the SQL syntax?**
 
     ```yaml
-    # As a YAML object
-    SQL|$list1 >> $list2:
-        <property-n>: <value-n>
-        :<boolean-n>:
+    SELECT >> $output:
+        First:
+        All: A, B
+        From: $list
+        Where: {filters}
+        Limit: <limit>
     ```
 
-    ```yaml
-    # As a YAML list
-    SQL|$list1 >> $list2:
-        - <property-n>: <value-n>
-        - <boolean-n>
-    ```
+    |Input|Purpose|Example
+    |-|-|-
+    |
 
     ---
     <br/>
