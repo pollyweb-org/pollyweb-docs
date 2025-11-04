@@ -312,7 +312,7 @@
 
 1. **How to simplify argument names?**
 
-    Here's a [Script 📃](<Script 📃.md>).
+    Here's a [Script 📃](<../../📃 basics/Script 📃.md>).
     
     ```yaml
     📃 Example:

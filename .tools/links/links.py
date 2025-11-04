@@ -337,7 +337,7 @@ def apply_replacement_pass(md_files, file_dict):
         (replace_itemized_datasets_tokens, (), "Replaced {n} {Itemized datasets} tokens ✅"),
         (replace_notifier_tokens, (), "Replaced {n} {Notifier} tokens ✅"),
         (replace_notifiers_tokens, (), "Replaced {n} {Notifiers} tokens ✅"),
-        (replace_dynamic_tokens, (file_dict,), "Replaced {n} dynamic {...} tokens ✅"),
+    (replace_dynamic_tokens, (file_dict, HARDCODED_HANDLERS), "Replaced {n} dynamic {...} tokens ✅"),
         (add_emoji_to_table_rows, (), "Added emojis to {n} table rows ✅"),
     ]
 
