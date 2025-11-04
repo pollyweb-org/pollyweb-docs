@@ -39,27 +39,13 @@
 # Loop the requested schemas.
 - FOR|$.Msg.Schemas|$schema:
 
-    # Find a matching Bind or Token
-    - EVAL >> $candidates:
-        FROM $trusted
-        WHERE Schema.Is($schema)
-
-    # Get the tokens first
-    - EVAL >> $tokens:
-        FROM $candidates
-        WHERE Type.Is(TOKEN)
+    
 
     # Send if it's the only one.
     - IF|$tokens.IsOne:
+        - RUN|Disclose-Bind:
+            $chat, 
         - BREAK
-
-
-    # If more than one, ask for selection
-    - IF|$trusts.AreMany:
-        - ONE >> $vault:
-            Text: Which vault to use?
-            Options: 
-
 
 
 ```
