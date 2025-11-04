@@ -31,7 +31,7 @@ Views:
     Offered: 
         - Status: OFFERED
     Active: 
-        - .Now.In(Starts, Expires)
+        - .Now.IsIn(Starts, Expires)
         - Status: ACTIVE
 ```
 

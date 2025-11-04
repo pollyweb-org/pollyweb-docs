@@ -29,7 +29,7 @@
 
 # Assert the schemas
 - ASSERT|$.Msg:
-    Schema.In($hook.Schemas)
+    Schema.IsIn($hook.Schemas)
 
 # Check the trust
 - TRUSTS|$.Msg.From:

@@ -57,11 +57,11 @@
     EVAL|$PromptEmoji >> $emoji
 
 # Block special emojis
-- IF|$emoji.In(⏳❌ⓘℹ️☑️✅😃🫥💬💭):
+- IF|$emoji.IsIn(⏳❌ⓘℹ️☑️✅😃🫥💬💭):
     RETURN|😃
 
 # Allow limited customizations
-- IF|$emoji.In(😐😶😌😊😕🙁😔🥺🤣😅✏️):
+- IF|$emoji.IsIn(😐😶😌😊😕🙁😔🥺🤣😅✏️):
     RETURN|$emoji
 
 # Default
@@ -71,5 +71,5 @@
 Uses||
 |-|-
 | [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Command ⌘.md>) | [`CASE`](<../../../../35 💬 Chats/Scripts 📃/📃 control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`EVAL`](<../../../../35 💬 Chats/Scripts 📃/📃 holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`IF`](<../../../../35 💬 Chats/Scripts 📃/📃 control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`RETURN`](<../../../../35 💬 Chats/Scripts 📃/📃 control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) 
-| [{Functions} 🐍](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Function 🐍.md>) | [`{.In}`](<../../../../35 💬 Chats/Scripts 📃/📃 functions 🐍/🔩 {.In}.md>) [`{.Is}`](<../../../../35 💬 Chats/Scripts 📃/📃 functions 🐍/🔩 {.Is}.md>)
+| [{Functions} 🐍](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Function 🐍.md>) | [`{.IsIn}`](<../../../../35 💬 Chats/Scripts 📃/📃 functions 🐍/🔩 {.IsIn}.md>) [`{.Is}`](<../../../../35 💬 Chats/Scripts 📃/📃 functions 🐍/🔩 {.Is}.md>)
 |

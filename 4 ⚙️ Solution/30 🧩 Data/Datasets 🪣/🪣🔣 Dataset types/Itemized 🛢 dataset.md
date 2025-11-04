@@ -85,7 +85,7 @@
     Views:
         # Filter out the recent orders
         RECENT:
-            DATE.In(.Last(30 days))
+            DATE.IsIn(.Last(30 days))
         
     Distincts:
         # Group the product IDs
@@ -100,7 +100,7 @@
     
     Uses||
     |-|-
-    |[{Functions} 🐍](<../../../35 💬 Chats/Scripts 📃/📃 basics/Function 🐍.md>) | [`.In`](<../../../35 💬 Chats/Scripts 📃/📃 functions 🐍/🔩 {.In}.md>) [`.Last`](<../../../35 💬 Chats/Scripts 📃/📃 functions 🐍/🔩 {.Last}.md>)
+    |[{Functions} 🐍](<../../../35 💬 Chats/Scripts 📃/📃 basics/Function 🐍.md>) | [`.IsIn`](<../../../35 💬 Chats/Scripts 📃/📃 functions 🐍/🔩 {.IsIn}.md>) [`.Last`](<../../../35 💬 Chats/Scripts 📃/📃 functions 🐍/🔩 {.Last}.md>)
 
     ---
     <br/>

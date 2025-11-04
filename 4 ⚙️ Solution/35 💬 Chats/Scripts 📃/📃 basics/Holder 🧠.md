@@ -207,7 +207,7 @@
     |-|-|-|-
     | [`.Add`](<../📃 functions 🐍/🔩 {.Add}.md>) | `[A,B]` | `$p.Add(C)` | `[A,B,C]`
     | [`.Diff`](<../📃 functions 🐍/🔩 {.Diff}.md>) | `[A,B,C]` | `$p.Diff(B)` | `[A,C]`
-    | [`.In`](<../📃 functions 🐍/🔩 {.In}.md>) | `A` | `$.In([A,B])` | `True`
+    | [`.IsIn`](<../📃 functions 🐍/🔩 {.IsIn}.md>) | `A` | `$.IsIn([A,B])` | `True`
     | [`.Length`](<../📃 functions 🐍/🔩 {.Size}.md>) | `[A,B]` | `$p.Length()` | `2`
     | [`.Size`](<../📃 functions 🐍/🔩 {.Size}.md>) | `[A,B]` | `$p.Size()` | `2`
     

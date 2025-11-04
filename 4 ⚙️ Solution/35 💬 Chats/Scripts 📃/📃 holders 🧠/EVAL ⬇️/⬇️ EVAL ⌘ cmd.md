@@ -437,7 +437,7 @@
     # List $l = X, Y
     - EVAL >> $filtered:
         FROM $suppliers
-        WHERE ID.In($l)
+        WHERE ID.IsIn($l)
         #  or $l.Contains(ID)
     ```
 
@@ -446,7 +446,7 @@
     #   List $l = {Key:X},{Key:Y}
     - EVAL >> $filtered:
         FROM $suppliers
-        WHERE ID.In($l.Key)
+        WHERE ID.IsIn($l.Key)
         #  or $l.Key.Contains(ID)
     ```
     
@@ -466,12 +466,12 @@
     # Syntax to filter with a list of values
     EVAL >> $filtered:
         FROM $list
-        WHERE $list.<matching-property>.In($list-of-values)
+        WHERE $list.<matching-property>.IsIn($list-of-values)
 
     # Syntax to filter with a list of objects
     EVAL >> $filtered:
         FROM $list
-        WHERE $list.<matching-property>.In($list-of-objects.<object-property>)
+        WHERE $list.<matching-property>.IsIn($list-of-objects.<object-property>)
     ```
 
     ---
