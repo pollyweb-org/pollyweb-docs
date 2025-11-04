@@ -24,7 +24,7 @@
 
 1. **What is the difference to a standard FOR cycle?**
 
-    * `FOR` cycles iterate in sequence, allowing for ordered logic.
+    * {{FOR}} cycles iterate in sequence, allowing for ordered logic.
     * [`PARALLEL`](<*️⃣ PARALLEL ⌘ cmd.md>) commands iterate concurrently in a random order.
     ---
     <br/>
