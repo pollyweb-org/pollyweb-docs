@@ -216,7 +216,7 @@
 
 1. **How to reference a holder by name?**
 
-    > Used in the [`ASK`](<../📃 methods 🤵/ASK 🔽/🔽 ASK ⌘ cmd.md>) command
+    > Used in the [`ASK`](<../📃 methods 🤵/ASK 🙋/🙋 ASK ⌘ cmd.md>) command
 
     Leverage `{$*}` interpolation with [Commands ⌘](<Command ⌘.md>).
 

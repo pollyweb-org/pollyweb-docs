@@ -1,8 +1,8 @@
-# 😃🔽 Talker `ASK` command
+# 😃🙋 Talker `ASK` command
 
 > Part of [Script 📃](<../../📃 basics/Script 📃.md>)
 
-> Implemented by the [`.ASK` 📃 script](<🔽 ASK 📃 script.md>)
+> Implemented by the [`.ASK` 📃 script](<🙋 ASK 📃 script.md>)
 
 <br/>
 

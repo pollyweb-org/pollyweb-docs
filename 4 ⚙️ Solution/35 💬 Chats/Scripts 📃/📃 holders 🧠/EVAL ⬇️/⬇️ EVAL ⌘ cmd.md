@@ -2,8 +2,7 @@
 
 > Part of [Script 📃](<../../📃 basics/Script 📃.md>)
 
-<br/>
-
+## FAQ
 
 1. **What's an EVAL command?**
 

@@ -14,7 +14,7 @@ end box
 participant "Wallet 👱" as wallet
 
 activate script
-    script -> talker: ASK 🔽 {options}
+    script -> talker: ASK 🙋 {options}
 deactivate script
 
 activate talker

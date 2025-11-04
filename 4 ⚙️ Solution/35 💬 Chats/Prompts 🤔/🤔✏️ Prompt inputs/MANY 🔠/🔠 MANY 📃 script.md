@@ -1,4 +1,4 @@
-# 😃🔠 `.MANY` 🔽 script
+# 😃🔠 Talker `.MANY` script
 
 > Purpose
  
