@@ -184,6 +184,27 @@ def compute_expected_replacement(token: str, given_raw: str, md_files: list[str]
                 if assumed.exists():
                     return f"`{token}`", assumed
 
+    # Support holder tokens like '$.Msg' which map to files named like
+    # '<emoji> $.Msg 🧠 holder.md'. Prefer basenames that contain the token
+    # and indicate '🧠' and 'holder' in the filename.
+    if token.startswith('$.'):
+        search_token = token
+        display_token = token
+        if token.endswith(' placeholder'):
+            search_token = token[: -len(' placeholder')].strip()
+        elif token.endswith(' placeholders'):
+            search_token = token[: -len(' placeholders')].strip()
+        # If we trimmed a suffix, keep the original token for the link text but
+        # search using the base token that maps to the holder filename.
+        if search_token != token:
+            display_token = token
+        else:
+            display_token = token
+        for path in md_files:
+            name = os.path.basename(path)
+            if search_token in name and '🧠' in name and 'holder' in name.lower():
+                return f"`{display_token}` 🧠 holder", Path(path)
+
     dynamic_target = find_dynamic_target(token, file_dict)
     if dynamic_target:
         link_text = format_dynamic_link_text(token, triple_brace=triple_brace)
@@ -200,15 +221,6 @@ def compute_expected_replacement(token: str, given_raw: str, md_files: list[str]
         for path in md_files:
             if brace_fragment in os.path.basename(path):
                 return format_dynamic_link_text(token, triple_brace=True), Path(path)
-
-    # Support holder tokens like '$.Msg' which map to files named like
-    # '<emoji> $.Msg 🧠 holder.md'. Prefer basenames that contain the token
-    # and indicate '🧠' and 'holder' in the filename.
-    if token.startswith('$.'):
-        for path in md_files:
-            name = os.path.basename(path)
-            if token in name and '🧠' in name and 'holder' in name.lower():
-                return f"`{token}` 🧠 holder", Path(path)
 
     return None
 
@@ -669,6 +681,45 @@ def runit(project_directory, entryPoint):
             if n:
                 Path(path).write_text(new_text, encoding='utf-8')
                 print(f"Auto-replaced {n} occurrences of {token} in {path}")
+
+    # Additional targeted pass: resolve any remaining holder-style tokens,
+    # including variants like '{{$.Inputs placeholder}}', using the same logic
+    # as compute_expected_replacement to determine the correct link target.
+    holder_token_pattern = re.compile(r"\{\{([^}]+)\}\}")
+    for path in md_files:
+        try:
+            text = Path(path).read_text(encoding='utf-8')
+        except Exception:
+            continue
+
+        def holder_sub(match):
+            inner = match.group(1)
+            stripped = inner.strip()
+            if stripped.startswith('`') and stripped.endswith('`') and len(stripped) > 2:
+                stripped = stripped[1:-1]
+            normalized_token = ' '.join(stripped.split())
+            if not normalized_token.startswith('$.'):
+                return match.group(0)
+
+            result = compute_expected_replacement(normalized_token, f"{{{{{normalized_token}}}}}", md_files, file_dict, project_directory)
+            if not result:
+                return match.group(0)
+            link_text, target_path = result
+            placeholder_suffix = normalized_token.endswith(' placeholder') or normalized_token.endswith(' placeholders')
+            if placeholder_suffix:
+                link_text = f"`{normalized_token}` 🧠 holder"
+            elif normalized_token.startswith('$.') and '🧠' not in link_text:
+                link_text = f"`{normalized_token}` 🧠 holder"
+            try:
+                rel_path = os.path.relpath(target_path, Path(path).parent)
+            except Exception:
+                rel_path = target_path.name
+            return f"[{link_text}](<{rel_path}>)"
+
+        new_text, replacements = holder_token_pattern.subn(holder_sub, text)
+        if replacements:
+            Path(path).write_text(new_text, encoding='utf-8')
+            print(f"Auto-linked {replacements} holder tokens in {path}")
 
     # After replacement passes, scan for any remaining unresolved {{...}} tokens and report them
     token_pattern = re.compile(r"\{\{([^}]+)\}\}")

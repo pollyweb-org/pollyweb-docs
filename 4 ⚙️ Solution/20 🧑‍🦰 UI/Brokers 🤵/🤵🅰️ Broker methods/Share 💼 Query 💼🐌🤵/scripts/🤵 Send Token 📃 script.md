@@ -1,16 +1,12 @@
-
 ```yaml
-
-
 # Assert the inputs
 - ASSERT:
     AllOf: $trusted, $schema
 
 # Find a matching Token
-- EVAL|$trusted >> $tokens:
-    WHERE 
-        Schema: $schema
-        Type: TOKEN
+- FILTER|$trusted >> $tokens:
+    Schema: $schema
+    Type: TOKEN
 
 # Send if it's the only one.
 - IF|$tokens.IsOne:
