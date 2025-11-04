@@ -242,7 +242,7 @@
     |  Flow | Purpose
     |-|-
     | [⏩🧑‍🦰 Query Vault](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Bind 👉🔗💼/🧑‍🦰 Share Bind ⏩ flow.md>) | Ask for [Schema Codes 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) in [Vaults 🗄️](<../Vaults 🗄️/🗄️🎭 Vault role.md>) 
-    | [⏩🧑‍🦰 Share Token](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token 👉🎫💼/🎫 Share Token ⏩ flow.md>) | Ask for [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) in  [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) 
+    | [⏩🧑‍🦰 Share Token](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token 👉🎫💼/🧑‍🦰 Share Token ⏩ flow.md>) | Ask for [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) in  [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) 
     | [⏩🧑‍🦰 Share ID Token](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token+ID 👉🆔💼/🧑‍🦰 Share Token+ID ⏩ flow.md>) | Ask for [Identity 🆔](<../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) bound [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
     | [⏩🧑‍🦰 Token status](<💼⏩ Consumer flows/Token Status 💼⏩🎫/💼 Token Status ⏩ flow.md>) | Ask for the status of a [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
 

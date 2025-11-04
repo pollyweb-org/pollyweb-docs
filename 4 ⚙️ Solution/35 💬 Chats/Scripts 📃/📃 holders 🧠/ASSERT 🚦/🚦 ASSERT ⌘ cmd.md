@@ -81,45 +81,6 @@
     <br/>
 
 
-1. **How do equal comparisons work?**
-
-    | | Meaning | Valid results ✅
-    |-|-|-
-    | `=`  | Same meaning | `a = b` `A = B` 
-    |       | Same math | `1 = 1.0` `01 = 1` 
-    |       | Same array order | `[1,2] = [1,2]`
-    |       | Same object order | `{A:1, B:2} = {A:2, B:1}`
-
-    ---
-    <br/>
-
-1. **How do unequal comparisons work?**
-   
-    | | Meaning | Valid results ✅
-    |-|-|-
-    | `!=` | Different meaning | `a != b`  
-    |       | Different math | `1 != 1.1`
-    |       | Different array content | `[1] = [1,2,3]`
-    |       | Different object content | `{A:1} = {A:1, B:2, C:3}`
-    
-    ---
-    <br/>
-
-1. **How do similar comparisons work?**
-
-    | | Meaning | Valid results ✅
-    |-|-|-
-    | `:` | Same content out of order | `[1,2]: [2,1]`
-    |       | Same content out of order | `{A:1, B:2}: {B:2, A:1}`
-    |       |Same [Schema 🧩 code](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | `.HOST: nlweb.org/HOST:1.0`|
-    |       | Same [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name | `domain.dom: DOMAIN.DOM`
-    |       | Same [`{.Today}` 🐍](<../../📃 basics/Function 🐍.md>) date | `.Today: 2013-04-01T05:00:30.001Z`
-    
-    
-
-    ---
-    <br/>
-
 1. **How do bigger and smaller comparisons work?**
 
     | Situation | Behavior | Result 
