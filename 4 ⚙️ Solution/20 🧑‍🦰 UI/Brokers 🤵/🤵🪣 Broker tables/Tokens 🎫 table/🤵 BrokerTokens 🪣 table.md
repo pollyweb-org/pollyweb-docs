@@ -31,9 +31,10 @@ Views:
     Offered: 
         - Status: OFFERED
     Active: 
-        - .Now.IsIn(Starts, Expires)
+        - .Now.IsBetween(Starts, Expires)
         - Status: ACTIVE
 ```
+Uses: [`.Now`](<../../../../35 💬 Chats/Scripts 📃/📃 functions 🐍/🔩 {.Now}.md>) [`.IsBetween`](<../../../../35 💬 Chats/Scripts 📃/📃 functions 🐍/🔩 {.IsBetween}.md>) 
 
 
 | Link | Table | Stores

@@ -46,9 +46,9 @@ Here's the [Script 📃](<../../📃 basics/Script 📃.md>)
     Options: $options
 
 # Match the selected options
-- EVAL >> $selected:
-    FROM $Options
-    WHERE {$ID}.IsIn($result.ID)
+- SELECT >> $selected:
+    From: $Options
+    Where: {$ID}.IsIn($result.ID)
 
 # Return the list of items selected.
 - RETURN|$selected
