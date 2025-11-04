@@ -46,9 +46,9 @@ Here's the [Script 📃](<../../📃 basics/Script 📃.md>)
     Options: $options
 
 # Match the selected options
-- EVAL|$result >> $selected:
+- EVAL >> $selected:
     FROM $:Options
-    MATCH ID, $:Options.{$:ID}
+    WHERE {$:ID}.In($result.ID)
 
 # Return the list of items selected.
 - RETURN|$selected

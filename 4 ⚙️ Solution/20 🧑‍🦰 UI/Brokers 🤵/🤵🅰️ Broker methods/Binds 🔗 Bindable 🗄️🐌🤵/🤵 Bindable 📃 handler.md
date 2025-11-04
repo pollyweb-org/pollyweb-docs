@@ -32,9 +32,9 @@
 
 # Get the existing binds
 - EVAL >> $bound:
-    Bind, Schema
+    SELECT Bind, Schema
     FROM $chat.Wallet.Binds
-    MATCH Vault, $.Msg.From
+    WHERE Vault.Is($.Msg.From)
 
 # Get the bindable schemas
 - EVAL|.Diff >> $bindable:

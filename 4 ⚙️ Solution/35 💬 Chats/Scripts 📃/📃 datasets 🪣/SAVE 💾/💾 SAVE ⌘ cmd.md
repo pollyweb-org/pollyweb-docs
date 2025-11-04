@@ -154,9 +154,10 @@
     📃 Example:
 
     - SAVE|$itemA:
-        A1: B1
+        A1: 
+            SELECT B1
             FROM $listB
-            MATCH B2, $item.A2
+            WHERE B2.Is(A2)
 
     # This matches the 1st item in $listB
     #   where the value of $listB.B2 

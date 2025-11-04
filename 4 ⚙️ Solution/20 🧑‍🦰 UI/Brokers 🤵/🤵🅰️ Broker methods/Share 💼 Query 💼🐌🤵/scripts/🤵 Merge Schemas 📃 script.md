@@ -13,31 +13,21 @@
 - ASSERT|$.Inputs:
     AllOf: chat
 
-# Match with Tokens
-- EVAL >> $tokens:
-    Schema, Issuer
-    FROM $:chat.Wallet.Tokens
-    MATCH Schema.In($.Msg.Schemas)
-
-# Match with Binds
-- EVAL >> $binds:
-    Schema, Vault
-    FROM $:chat.Wallet.Binds
-    MATCH Schema.In($.Msg.Schemas)
-
-# Merge tokens
-- EVAL|$tokens +> $merges:
-    Schema: Schema
-    Domain: Issuers
-
-# Merge binds
-- EVAL|$binds +> $merges:
-    Schema: Schema
-    Domain: Vault
+# Match with Tokens and Binds
+- EVAL >> $merges:
     
+    SELECT Schema, Issuer AS Domain
+    FROM $:chat.Wallet.Tokens
+    WHERE Schema.In($.Msg.Schemas)
+
+    UNION
+
+    SELECT Schema, Vault AS Domain
+    FROM $:chat.Wallet.Binds
+    WHERE Schema.In($.Msg.Schemas)
+
 # Return the merges
-- RETURN:
-    $merges
+- RETURN|$merges
 ```
 
 |Uses||
