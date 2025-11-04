@@ -51,8 +51,7 @@
 
 # Send the binds to the Vault
 - RUN|Send-Binds:
-    bound: $bound
-    binds: $binds
+    $bound, $binds
     
 # Update the binds    
 - RUN|Update-Binds:

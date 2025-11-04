@@ -59,7 +59,7 @@ Commands: [`ASSERT`](<../../../../../35 💬 Chats/Scripts 📃/📃 holders �
 
 # Update the Token 🎫 list
 - RUN|UpdateTokens:
-    wallet: $wallet
+    $wallet
 
 # Inform the user 🤔
 - SUCCESS|Token removed.:

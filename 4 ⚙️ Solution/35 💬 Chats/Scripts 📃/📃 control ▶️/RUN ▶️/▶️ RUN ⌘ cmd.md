@@ -309,3 +309,30 @@
     
     ---
     <br/>
+
+1. **How to simplify argument names?**
+
+    Here's a [Script 📃](<Script 📃.md>).
+    
+    ```yaml
+    📃 Example:
+    
+    # Option 1, name the arguments
+    - RUN|Handler:
+        Name: $Name
+        City: $City
+
+    # Option 2, just pass the holders
+    - RUN|Handler:
+        $Name, $City
+
+    # Option 3, pass holder properties 
+    - RUN|Handler:
+        $user.Name
+        $user.City
+    ```
+
+    ```yaml
+    📃 Handler:
+    - INFO:|Hi, {$:Name}! How's {$:City}?
+    ```
