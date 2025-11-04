@@ -103,7 +103,7 @@ Order a pizza for home delivery
               Purpose: your navigator sets where 🧭
             - Input: SHARE|.CONCIERGE/COURIER
               Purpose: your concierge sets how 🛎️  
-            - Input: SHARE|.CURATOR/FILTER
+            - Input: SHARE|.CURATOR/CURATE
               Purpose: your curator orders 🧚
             - Input: SHARE|.VITALOGIST/REVIEW
               Purpose: your vitalogist reviews 💖 

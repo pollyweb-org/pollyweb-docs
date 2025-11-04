@@ -24,7 +24,7 @@ Here's the [Script 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>)
 <!-- TODO -->
 
 ```yaml
-📃 .FILTER:
+📃 .MANY:
 
 # Assert the inputs
 - ASSERT|$.Inputs:

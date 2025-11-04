@@ -43,7 +43,7 @@ Verb: order
 Details: > 
   Bla, bla...
 Steps:
-  - Schema: .CURATOR/FILTER
+  - Schema: .CURATOR/CURATE
     Purpose: your curator orders 🧚
   - Schema: .PAYER/CHARGE
     Purpose: your payer pays the bill 💳  

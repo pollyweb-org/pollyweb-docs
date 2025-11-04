@@ -1,19 +1,19 @@
-# 😃📃 `.FILTER` 🔽 script
+# 😃📃 `.ASK` 🔽 script
 
 > Purpose
  
-* [Script 📃](<../../📃 basics/Script 📃.md>) that implements the [`FILTER` 🔽 command](<🔽 FILTER ⌘ cmd.md>)
+* [Script 📃](<../../📃 basics/Script 📃.md>) that implements the [`ASK` 🔽 command](<🔽 ASK ⌘ cmd.md>)
 
 ## Flow
 
-![alt text](<🔽 FILTER ⚙️ uml.png>)
+![alt text](<🔽 ASK ⚙️ uml.png>)
 
 ## How to call
 
 Here are the outputs of the [`Parse@Hosted` 🅰️ method](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Parse 😃🚀📦/📦 Parse 🚀 request.md>)
 
 ```yaml
-- RUN|.FILTER:
+- RUN|.ASK:
     Options:
       - A: option-1
         B: Option One
@@ -27,7 +27,7 @@ Here are the outputs of the [`Parse@Hosted` 🅰️ method](<../../../../55 👷
 Here's the [Script 📃](<../../📃 basics/Script 📃.md>)
 
 ```yaml
-📃 .FILTER:
+📃 .ASK:
 
 # Assert the inputs
 - ASSERT|$.Inputs:
