@@ -17,28 +17,12 @@
     Set: BrokerChats
     Key: $.Msg.Chat
 
-# Match with Tokens
-- EVAL|.Diff >> $tokens:
-    Schema, Issuer
-    FROM $chat.Wallet.Tokens
-    MATCH Schema.In($.Msg.Schemas)
-
-# Match with Binds
-- EVAL|.Diff >> $binds:
-    Schema, Vault
-    FROM $chat.Wallet.Binds
-    MATCH Schema.In($.Msg.Schemas)
-
-# Merge all
-- EVAL|$tokens +> $merges:
-    Schema: Schema
-    Domain: Issuers
-- EVAL|$binds +> $merges:
-    Schema: Schema
-    Domain: Vault
+# Merge schemas into {Schema, Domain}
+- RUN|Merge-Schemas >> $merges:
+    $chat
     
 # Filter by trusts
-- PARALLEL|$merges
+- PARALLEL|$merges|$merge:
 - SEND >> $trusted:
     Header:
         To: .Hosted.Graph
@@ -56,4 +40,5 @@
 
 |Users||
 |-|-
+| [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Command ⌘.md>) | [`RUN`](<../../../../35 💬 Chats/Scripts 📃/📃 control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
 | [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`BrokerTokens` 🪣 table](<../../🤵🪣 Broker tables/Tokens 🎫 table/🤵 BrokerTokens 🪣 table.md>)
