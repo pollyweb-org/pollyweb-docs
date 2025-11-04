@@ -27,15 +27,18 @@
 - RUN|Filter-Schemas >> $trusted:
     $merges
 
-# Prefer to return Tokens if any
-- FOR|$trusted|$trust|+Type:
+# Loop the requested schemas.
+- FOR|$.Msg.Schemas|$schema:
 
-    - EVAL >> $tokens:
+    # Find a matching Bind or Token
+    - EVAL >> $trust:
         FROM $trusted
-        MATCH Type.Is(TOKEN)
-    - EVAL >> $binds:
-        FROM $trusted
-        MATCH Type.Is(TOKEN)
+        MATCH Schema.Is($schema)
+
+    # If more than one, ask for selection
+    - IF|$trust.AreMany:
+        ONE|
+
 
 Header:
     From: any-broker.dom

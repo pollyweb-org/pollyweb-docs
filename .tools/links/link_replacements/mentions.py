@@ -245,13 +245,19 @@ def find_uppercase_token_target(token: str, md_files: Iterable[str]) -> Path | N
 
     normalized_token = normalize_string(token)
     candidates: list[Path] = []
+    token_word_re = re.compile(rf"(^|[^A-Z0-9]){re.escape(token)}([^A-Z0-9]|$)")
 
     for candidate in md_files:
         path = Path(candidate)
         if path.suffix.lower() != ".md":
             continue
         normalized_name = normalize_string(path.stem)
-        if normalized_name == normalized_token or normalized_name.startswith(normalized_token):
+        if normalized_name == normalized_token:
+            candidates.append(path)
+            continue
+
+        base_upper = path.stem.upper()
+        if token_word_re.search(base_upper):
             candidates.append(path)
 
     if not candidates:
@@ -286,7 +292,7 @@ def find_uppercase_token_target(token: str, md_files: Iterable[str]) -> Path | N
             depth = len(parts)
         base_contains_name = normalize_string(path.stem).startswith(normalized_token)
         cmds_penalty = 0 if contains_cmds_folder else 1
-        scripts_penalty = 0 if not contains_scripts_folder else 1
+        scripts_penalty = 0 if contains_scripts_folder else 1
         return (
             disallowed_emoji,
             bucket,
@@ -400,11 +406,67 @@ def replace_prompt_broker_tokens(md_files: Iterable[str]) -> int:
     return total
 
 
-def replace_dynamic_tokens(md_files: Iterable[str], file_dict: dict[str, List[tuple[str, str]]]) -> int:
-    """Replace any remaining ``{{...}}`` tokens using normalized filenames."""
+def replace_dynamic_tokens(
+    md_files: Iterable[str],
+    file_dict: dict[str, List[tuple[str, str]]],
+    hardcoded_handlers: dict[str, dict[str, object]] | None = None,
+) -> int:
+    """Replace any remaining ``{{...}}`` tokens using normalized filenames.
+
+    Hardcoded handlers keep the highest priority (MAX_POINTS). When the
+    hardcoded pass fails to rewrite a token, this fallback re-uses the
+    hardcoded link text but recomputes the correct relative path before
+    applying a low-priority replacement (MIN_POINTS)."""
+
+    MAX_POINTS = 10_000
+    MIN_POINTS = -10_000
+
+    if hardcoded_handlers:
+        # Store normalized key -> handler metadata for quick lookup.
+        normalized_hardcoded: dict[str, dict[str, object]] = {
+            normalize_string(key): meta for key, meta in hardcoded_handlers.items()
+        }
+    else:
+        normalized_hardcoded = {}
+
+    # Cache basenames to absolute paths for computing relative links.
+    basename_index: dict[str, Path] = {os.path.basename(path): Path(path) for path in md_files}
 
     def replacer(match, current_file: Path):
         token = match.group(1)
+        normalized_token = normalize_string(token)
+
+        handler_meta = normalized_hardcoded.get(normalized_token)
+        if handler_meta:
+            token_priority = MAX_POINTS
+        else:
+            token_priority = MIN_POINTS
+
+        if token_priority == MAX_POINTS:
+            replacement = handler_meta.get("replacement", "") if handler_meta else ""
+            link_text = None
+            target_path = None
+
+            if isinstance(replacement, str):
+                m = re.match(r"\[(.+?)\]\(<([^>]+)>\)", replacement)
+                if m:
+                    link_text = m.group(1)
+                    target_basename = os.path.basename(m.group(2))
+                    target_path = basename_index.get(target_basename)
+
+            if link_text and target_path:
+                try:
+                    rel_path = os.path.relpath(target_path, current_file.parent)
+                except Exception:
+                    rel_path = str(target_path)
+                return f"[{link_text}](<{rel_path}>)"
+
+            # Fall back to the registered replacement if we cannot compute a rel path.
+            if isinstance(replacement, str) and replacement:
+                return replacement
+
+            return match.group(0)
+
         target = find_dynamic_target(token, file_dict)
         if target:
             try:

@@ -28,6 +28,7 @@ Restrictions: |
   1) Do not change this YAML file, ever. 
   2) Only change the py script to pass these tests.
   3) Do not add new files to the project.
+  4) Do not match partial words - e.g. "FOR" cannot resolve into "FORM".
 
 Broken Links:
   - "[Script 📃](<📃 Script.md>) o⌘ Command.mdds/⌘ Command.md>)"
