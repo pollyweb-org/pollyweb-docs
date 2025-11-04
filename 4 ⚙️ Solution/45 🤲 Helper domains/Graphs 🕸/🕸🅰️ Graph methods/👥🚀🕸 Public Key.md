@@ -11,7 +11,7 @@
     * Allows a [Consumer 💼 domain](<../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) to verify a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) issued before a [DKIM 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) rotation.
 * Used by:
     * [👥🔏 Domain Signature](<../../../40 👥 Domains/👥⏩ Domain flows/Sign Files 👥🔏📄/👥 Domain Signature ⏩ flow.md>)
-    * [💼⏩🧑‍🦰 Share Token @ Consumer](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token 👉🎫💼/🎫 Share Token ⏩ flow.md>) flow
+    * [💼⏩🧑‍🦰 Share Token @ Consumer](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token 👉🎫💼/🧑‍🦰 Share Token ⏩ flow.md>) flow
 
 <br/>
 
