@@ -34,7 +34,7 @@ activate wallet
     wallet -> issuer: Issued 🚀 {hook}
 
     activate issuer
-        issuer -> hooks: GET 🧲 {hook}
+        issuer -> hooks: READ 🧲 {hook}
         issuer -> wallet: {offer}
     deactivate issuer
 

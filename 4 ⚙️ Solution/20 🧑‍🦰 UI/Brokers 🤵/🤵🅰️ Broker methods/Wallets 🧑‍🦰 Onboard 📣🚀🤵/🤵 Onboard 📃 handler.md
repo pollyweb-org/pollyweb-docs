@@ -12,7 +12,7 @@
 📃 Onboard:
 
 # Verify the Notifier as a client
-# GET|Notifiers@Broker|$.Msg.From >> $notifier
+# READ|Notifiers@Broker|$.Msg.From >> $notifier
 
 # Generate a new Wallet ID
 - EVAL|.UUID >> $wallet

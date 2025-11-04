@@ -19,7 +19,7 @@ activate wallet
 deactivate wallet
 
 activate consumer
-    consumer -> hooks: GET {hook}
+    consumer -> hooks: READ {hook}
     consumer --> talker: REEL 🎣 {hook}
 deactivate consumer
 

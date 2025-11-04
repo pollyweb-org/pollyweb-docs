@@ -1,16 +1,16 @@
 <!-- TODO: detail the relation with database -->
 
-# 😃🧲 Talker `GET` command
+# 😃🧲 Talker `READ` command
 
 > Implementation
 * Part of [Script 📃](<../../📃 basics/Script 📃.md>)
-* Implemented by the [`GET` 📃 script](<🧲 GET 📃 script.md>)
+* Implemented by the [`READ` 📃 script](<🧲 READ 📃 script.md>)
 
 ## FAQ
 
-1. **What's a GET item command?**
+1. **What's a READ item command?**
 
-    A `GET` 🧲
+    A `READ` 🧲
     * is a [Command ⌘](<../../📃 basics/Command ⌘.md>) 
     * that retrieves an item by key 🔑
     * from a key-value resource pool 🪣
@@ -25,7 +25,7 @@
 
     ```yaml
     # Comprehensive
-    - GET >> $item:
+    - READ >> $item:
         Set: <set>
         Key: <key>
 
@@ -36,7 +36,7 @@
 
     ```yaml
     # Simplest
-    - GET|<set>|<key> >> $item
+    - READ|<set>|<key> >> $item
     ```
 
     | Input| Purpose | Example
@@ -69,11 +69,11 @@
 
     ```yaml
     📃 Script:
-    - GET|MyPool|Key2 >> $myItem
+    - READ|MyPool|Key2 >> $myItem
     - INFO|{$myItem.PropA} 
     ```
 
-    Commands: [`GET`](<🧲 GET ⌘ cmd.md>) [`INFO`](<../../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
+    Commands: [`READ`](<🧲 READ ⌘ cmd.md>) [`INFO`](<../../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
 
     ---
     <br>
@@ -104,7 +104,7 @@
     - DIGITS|What's the item number? >> $n
 
     # Get the item.
-    - GET >> $item:
+    - READ >> $item:
         Set: Items
         Key: $n
 
@@ -112,7 +112,7 @@
     - CONFIRM|A {$item.Name}?
     ```
 
-    Commands: [`CONFIRM`](<../../../Prompts 🤔/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`DIGITS`](<../../../Prompts 🤔/🤔✏️ Prompt inputs/DIGITS 🔢/DIGITS 🔢 prompt.md>) [`GET`](<🧲 GET ⌘ cmd.md>)
+    Commands: [`CONFIRM`](<../../../Prompts 🤔/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`DIGITS`](<../../../Prompts 🤔/🤔✏️ Prompt inputs/DIGITS 🔢/DIGITS 🔢 prompt.md>) [`READ`](<🧲 READ ⌘ cmd.md>)
     
    
     
@@ -127,7 +127,7 @@
 
     ```yaml
     # Get the item.
-    - GET >> $item:
+    - READ >> $item:
         Set: Items
         Key: 000
 
@@ -147,7 +147,7 @@
 
     ```yaml
     # Get the child 
-    - GET >> $child:
+    - READ >> $child:
         Set: $parent.Children
         Key: <child-key>
     ```

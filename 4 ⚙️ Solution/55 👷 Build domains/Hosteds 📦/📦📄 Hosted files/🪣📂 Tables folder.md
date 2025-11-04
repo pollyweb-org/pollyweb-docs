@@ -6,6 +6,6 @@
 
 > Defined with [Hosted 📦 datasets](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Hosted 📦 dataset.md>)
 
-> Read with [`GET` command](<../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>)
+> Read with [`READ` command](<../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>)
 
 <br/>

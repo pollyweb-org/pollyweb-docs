@@ -19,7 +19,7 @@
     Texts: Language
 
 # Get the wallet
-- GET >> $wallet:
+- READ >> $wallet:
     Set: BrokerWallets
     Key: $.Msg.From
 

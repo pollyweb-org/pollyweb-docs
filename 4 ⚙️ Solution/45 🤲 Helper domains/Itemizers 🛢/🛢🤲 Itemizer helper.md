@@ -38,7 +38,7 @@
 
     [Command ⌘](<../../35 💬 Chats/Scripts 📃/📃 basics/Command ⌘.md>) | Purpose
     |-|-
-    |[🧲 `GET`](<../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) | Calls [`Get@Itemizer` 🅰️ ](<🛢🅰️ Itemizer methods/Item Get 👥🚀🛢/🛢 Get 🚀 request.md>)
+    |[🧲 `READ`](<../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) | Calls [`Get@Itemizer` 🅰️ ](<🛢🅰️ Itemizer methods/Item Get 👥🚀🛢/🛢 Get 🚀 request.md>)
     |[💾 `SAVE`](<../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | Calls [`Save@Itemizer` 🅰️ ](<🛢🅰️ Itemizer methods/Item Save 👥🚀🛢/🛢 Save 🚀 request.md>)
     |[🗑️ `DELETE`](<../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>) | Calls [`Delete@Itemizer` 🅰️ ](<🛢🅰️ Itemizer methods/Item Delete 👥🚀🛢/🛢 Delete 🚀 request.md>)
     |[↩️ `UNDO`](<../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/UNDO ↩️/↩️ UNDO ⌘ cmd.md>) | Calls [`Undo@Itemizer` 🅰️ ](<🛢🅰️ Itemizer methods/Item Undo 👥🚀🛢/🛢 Undo 🚀 request.md>)

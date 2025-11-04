@@ -56,7 +56,7 @@ Order a pizza for home delivery
     - SHARE|.NAVIGATOR/DESTINATION >> $destination # 🧭 
     - SHARE|.CONCIERGE/COURIER >> $courier: # 🛎️ 
         Destination: $destination
-    - GET|menus|pizzas.yaml >> $menu
+    - READ|menus|pizzas.yaml >> $menu
     - SHARE|.CURATOR/ORDER >> $choice:  # 🧚 
         Menu: $menu
     - EVAL|Order >> $order:

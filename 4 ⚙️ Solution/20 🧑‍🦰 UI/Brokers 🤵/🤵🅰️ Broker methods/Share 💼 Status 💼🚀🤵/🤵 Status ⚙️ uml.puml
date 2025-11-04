@@ -17,7 +17,7 @@ participant "Graph 🕸" as graph
     activate consumer
     
     activate broker
-        broker -> tokens: GET 🧲 {token}
+        broker -> tokens: READ 🧲 {token}
         broker -> engine: TRUSTS 🫡
     
         activate engine

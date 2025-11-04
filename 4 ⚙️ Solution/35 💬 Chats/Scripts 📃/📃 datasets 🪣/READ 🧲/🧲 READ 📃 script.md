@@ -1,4 +1,4 @@
-# 🧲 GET 📃 script
+# 🧲 READ 📃 script
 
 > Relates to [Tables 🪣 folder](<../../../../55 👷 Build domains/Hosteds 📦/📦📄 Hosted files/🪣📂 Tables folder.md>)
 

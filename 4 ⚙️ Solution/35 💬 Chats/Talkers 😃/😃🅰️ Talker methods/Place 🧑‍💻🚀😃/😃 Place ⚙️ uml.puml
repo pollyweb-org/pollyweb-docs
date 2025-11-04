@@ -13,7 +13,7 @@ activate hosted
     hosted -> inbox: Place 🚀 {A into $p}
 
     activate inbox
-        inbox -> hooks: GET {hook}
+        inbox -> hooks: READ {hook}
         inbox -> holders: SAVE 💾 {hook, A into $p}
         inbox -> hosted: 
     deactivate inbox

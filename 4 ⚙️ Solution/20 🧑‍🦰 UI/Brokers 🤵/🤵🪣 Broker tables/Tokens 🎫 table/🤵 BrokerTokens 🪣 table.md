@@ -46,11 +46,11 @@ Views:
 
 ## Example
 
-Here's the [`GET` command](<../../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) result.
+Here's the [`READ` command](<../../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) result.
 
 
 ```yaml
-# GET|Tokens|<token-uuid>
+# READ|Tokens|<token-uuid>
 ID: <token-uuid>
 Wallet: <wallet-uuid>
 Issuer: any-issuer.dom

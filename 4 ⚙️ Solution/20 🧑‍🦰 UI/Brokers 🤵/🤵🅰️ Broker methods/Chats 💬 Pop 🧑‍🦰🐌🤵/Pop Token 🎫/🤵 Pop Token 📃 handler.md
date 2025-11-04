@@ -20,7 +20,7 @@
     UUIDs: Token
 
 # Get the Token 🎫
-- GET >> $token:
+- READ >> $token:
     Set: $Wallet.Tokens
     Key: $Token
 
@@ -36,7 +36,7 @@
           Wallet: $Wallet
 ```
 
-Commands: [`ASSERT`](<../../../../../35 💬 Chats/Scripts 📃/📃 holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CASE`](<../../../../../35 💬 Chats/Scripts 📃/📃 control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`GET`](<../../../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) [`ONE`](<../../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/ONE 1️⃣/ONE 1️⃣ prompt.md>)  [`RUN`](<../../../../../35 💬 Chats/Scripts 📃/📃 control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
+Commands: [`ASSERT`](<../../../../../35 💬 Chats/Scripts 📃/📃 holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CASE`](<../../../../../35 💬 Chats/Scripts 📃/📃 control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`READ`](<../../../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`ONE`](<../../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/ONE 1️⃣/ONE 1️⃣ prompt.md>)  [`RUN`](<../../../../../35 💬 Chats/Scripts 📃/📃 control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
 
 ```yaml
 📃 RemoveToken:
@@ -46,7 +46,7 @@ Commands: [`ASSERT`](<../../../../../35 💬 Chats/Scripts 📃/📃 holders �
     AllOf: Token, Wallet
 
 # Get the token
-- GET >> $token:
+- READ >> $token:
     Set: BrokerTokens
     Key: $Token
 

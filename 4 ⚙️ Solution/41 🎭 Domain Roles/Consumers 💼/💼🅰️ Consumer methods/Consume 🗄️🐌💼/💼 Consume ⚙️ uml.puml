@@ -19,7 +19,7 @@ activate vault
 deactivate vault
 
 activate consumer
-    consumer -> hooks: GET {hook}
+    consumer -> hooks: READ {hook}
     consumer -> graph: TRUSTS 🫡 {vault, schema}
     consumer -> vault: SEND 📬 Collect 🚀 {collect}
     

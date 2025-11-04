@@ -46,7 +46,7 @@ activate wallet
     activate host
         host -> handler
         activate handler
-            handler -> hooks: GET 🧲 {hook}
+            handler -> hooks: READ 🧲 {hook}
             handler -> host: {prompt}
         deactivate handler
         host -> wallet: 

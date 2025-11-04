@@ -9,7 +9,7 @@
 - VERIFY|$.Msg
 
 # Get the Token
-- GET >> $token:
+- READ >> $token:
     Set: BrokerTokens
     Key: $.Msg.Token
 

@@ -16,7 +16,7 @@ activate script
 deactivate script
 
 activate talker
-    talker -> memory: GET 🧲 {A}
+    talker -> memory: READ 🧲 {A}
     talker -> script: 
 deactivate talker
 
@@ -34,7 +34,7 @@ deactivate talker
     hosted -> inbox: Placed 🚀 {$A}
 
     activate inbox
-        inbox -> holders: GET 🧲 {A}
+        inbox -> holders: READ 🧲 {A}
         inbox -> hosted: {1}
     deactivate inbox
 
@@ -52,7 +52,7 @@ activate inbox
 deactivate inbox
 
 activate talker
-    talker -> holders: GET 🧲 {A,B}
+    talker -> holders: READ 🧲 {A,B}
     talker -> memory: SAVE 💾 {A:1,B:2}
     talker -> script: RETURN {3}
 deactivate talker
@@ -62,7 +62,7 @@ activate script
 deactivate script
 
 activate talker
-    talker -> memory: GET 🧲 {B}
+    talker -> memory: READ 🧲 {B}
     talker -> script: {2}
 deactivate talker
 

@@ -34,7 +34,7 @@
 💬|Reserve a table:
 
 # Show the restaurant name
-- GET|Restaurant|$.Chat.Key >> $r
+- READ|Restaurant|$.Chat.Key >> $r
 - INFO|{$r.Name}
 
 # Confirmations
@@ -81,7 +81,7 @@
 
 | [Command ⌘](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 basics/Command ⌘.md>) | Purpose
 |-|-
-| 🧲 [`GET`](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) | Map the locator to a restaurant info.
+| 🧲 [`READ`](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) | Map the locator to a restaurant info.
 | 📝 [`INFORM`](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 methods 🤵/INFORM 📝/📝 INFORM ⌘ cmd.md>) | Show user instructions and allow inputs.
 | 1️⃣ [`ONE`](<../../../4 ⚙️ Solution/35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/ONE 1️⃣/ONE 1️⃣ prompt.md>) | Select an option, the day in this case.
 | 💼 [`SHARE`](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 methods 🤵/SHARE 💼/💼 SHARE ⌘ cmd.md>) | Get the user's booking contacts.
