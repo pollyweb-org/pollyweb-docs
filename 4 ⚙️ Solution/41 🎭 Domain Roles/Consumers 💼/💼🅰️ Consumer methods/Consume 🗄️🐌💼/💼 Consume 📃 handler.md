@@ -33,7 +33,7 @@
 
 # Is it one of the queried schemas?
 - ASSERT|$.Msg:
-    Schema.In($hook.Schemas)
+    Schema.IsIn($hook.Schemas)
 
 # Verify if the Vault is trusted
 - TRUSTS|$.Msg.From:

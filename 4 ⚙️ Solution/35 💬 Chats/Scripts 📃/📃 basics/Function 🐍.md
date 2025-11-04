@@ -44,7 +44,7 @@
     |-|-|-
     | [`.Add`](<../📃 functions 🐍/🔩 {.Add}.md>) | Add math, text, lists, objects | `.Add(10,-4)` → `6`
     | [`.Diff`](<../📃 functions 🐍/🔩 {.Diff}.md>) | Difference between lists| `.Diff([1,2,3], [2])`
-    | [`.In`](<../📃 functions 🐍/🔩 {.In}.md>) | A value is in a list? | `.In(1, [1,2,3])`
+    | [`.IsIn`](<../📃 functions 🐍/🔩 {.IsIn}.md>) | A value is in a list? | `.IsIn(1, [1,2,3])`
     | [`.Now`](<../📃 functions 🐍/🔩 {.Now}.md>) | Current time | 	`2025-10-24T00:05:18Z`
     | [`.Random`](<../📃 functions 🐍/🔩 {.Random}.md>) | Random integer | `.Random(1,9)` → `7`
     | [`.Today`](<../📃 functions 🐍/🔩 {.Today}.md>) | Current date | `2025-10-24T00:00:00Z`

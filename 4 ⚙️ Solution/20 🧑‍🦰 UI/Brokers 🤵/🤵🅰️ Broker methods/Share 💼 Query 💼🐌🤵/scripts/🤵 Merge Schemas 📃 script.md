@@ -18,13 +18,13 @@
     
     SELECT Schema, Domain:Issuer
     FROM $chat.Wallet.Tokens
-    WHERE Schema.In($.Msg.Schemas)
+    WHERE Schema.IsIn($.Msg.Schemas)
 
     UNION
 
     SELECT Schema, Domain:Vault
     FROM $chat.Wallet.Binds
-    WHERE Schema.In($.Msg.Schemas)
+    WHERE Schema.IsIn($.Msg.Schemas)
 
 # Return the merges
 - RETURN|$merges

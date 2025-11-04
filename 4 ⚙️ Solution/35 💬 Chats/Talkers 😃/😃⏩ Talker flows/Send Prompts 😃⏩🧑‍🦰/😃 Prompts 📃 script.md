@@ -60,7 +60,7 @@
         Expires: Expires
 
 # Check for non-blocking inputs
-- IF|$Format.In(INFO,FAILURE,SUCCESS,TEMP):
+- IF|$Format.IsIn(INFO,FAILURE,SUCCESS,TEMP):
 
     # Create a check-point for options
     - IF|$.Options: 
@@ -80,7 +80,7 @@
 Uses||
 |-|-
 | [Commands ⌘](<../../../Scripts 📃/📃 basics/Command ⌘.md>) | [`ASSERT`](<../../../Scripts 📃/📃 holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`HOOK`](<../../../Scripts 📃/📃 control ▶️/HOOK 🪝/🪝 HOOK ⌘ cmd.md>) [`RETURN`](<../../../Scripts 📃/📃 control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`SAVE`](<../../../Scripts 📃/📃 datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`SEND`](<../../../Scripts 📃/📃 messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>) [`WAIT`](<../../../Scripts 📃/📃 control ▶️/WAIT 🧘/🧘 WAIT ⌘ cmd.md>)
-| [{Functions} 🐍](<../../../Scripts 📃/📃 basics/Function 🐍.md>) | [`{.In}`](<../../../Scripts 📃/📃 functions 🐍/🔩 {.In}.md>)
+| [{Functions} 🐍](<../../../Scripts 📃/📃 basics/Function 🐍.md>) | [`{.IsIn}`](<../../../Scripts 📃/📃 functions 🐍/🔩 {.IsIn}.md>)
 | [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Prompt@Broker` 🅰️ method](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>) <br/> [`Prompted@Host` 🅰️ method](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 request.md>)
 | [Holders 🧠](<../../../Scripts 📃/📃 basics/Holder 🧠.md>) | [`$.Chat`](<../../../Scripts 📃/📃 holders 🧠/$.Chat 💬/💬 $.Chat 🧠 holder.md>)
 |
