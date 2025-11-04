@@ -1,4 +1,4 @@
-# 🔆 Talker `PARSE` command
+# 😃🔆 Talker `PARSE` command
 
 > Part of [Script 📃](<../../📃 basics/Script 📃.md>)
 

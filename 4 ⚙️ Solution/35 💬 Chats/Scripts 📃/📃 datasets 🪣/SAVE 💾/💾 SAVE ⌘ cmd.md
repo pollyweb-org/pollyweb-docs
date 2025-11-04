@@ -148,22 +148,23 @@
 
 1. **How to save with reference data?**
 
-    Here's a example [Script 📃](<../../📃 basics/Script 📃.md>).
+    Here's a example [Script 📃](<../../📃 basics/Script 📃.md>):
+    * This matches the first item in `$list`
+    *  where the value of `$list.B` 
+    *  matches the value of `$item.B`
+    *  setting `$item.A` with the value of `$list.A`
 
     ```yaml
     📃 Example:
 
-    - SAVE|$itemA:
-        A1: 
-            SELECT B1
-            FROM $listB
-            WHERE B2.Is(A2)
-
-    # This matches the 1st item in $listB
-    #   where the value of $listB.B2 
-    #   matches the value of $itemA.A2
-    #   setting $item.A1 with the value of $list.B1
+    - SQL >> $item.A:
+        First: A
+        From: $list
+        Where: B.Is($item.B)
+    
+    - SAVE|$item
     ```
+    Commands: 
 
     ---
     <br/>
