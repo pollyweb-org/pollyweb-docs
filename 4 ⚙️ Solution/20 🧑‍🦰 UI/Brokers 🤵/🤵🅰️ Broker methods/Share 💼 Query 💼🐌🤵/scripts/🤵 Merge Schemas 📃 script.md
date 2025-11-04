@@ -16,14 +16,14 @@
 # Match with Tokens and Binds
 - EVAL >> $merges:
     
-    SELECT Schema, Issuer AS Domain
-    FROM $:chat.Wallet.Tokens
+    SELECT Schema, Domain:Issuer
+    FROM $chat.Wallet.Tokens
     WHERE Schema.In($.Msg.Schemas)
 
     UNION
 
-    SELECT Schema, Vault AS Domain
-    FROM $:chat.Wallet.Binds
+    SELECT Schema, Domain:Vault
+    FROM $chat.Wallet.Binds
     WHERE Schema.In($.Msg.Schemas)
 
 # Return the merges

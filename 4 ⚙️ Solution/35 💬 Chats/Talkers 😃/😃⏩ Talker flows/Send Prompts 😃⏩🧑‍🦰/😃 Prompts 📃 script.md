@@ -60,7 +60,7 @@
         Expires: Expires
 
 # Check for non-blocking inputs
-- IF|$:Format.In(INFO,FAILURE,SUCCESS,TEMP):
+- IF|$Format.In(INFO,FAILURE,SUCCESS,TEMP):
 
     # Create a check-point for options
     - IF|$.Options: 

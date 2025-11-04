@@ -110,12 +110,12 @@
 
     ```yaml
     📃 PlaceholderProc:
-    - RETURN|$:1
+    - RETURN|$1
     ```
 
     ```yaml
     📃 FunctionProc:
-    - RETURN|.Add($:1, $:2, $:3)
+    - RETURN|.Add($1, $2, $3)
     ```
 
     Commands: [`.Add`](<../../📃 functions 🐍/🔩 {.Add}.md>) [`INFO`](<../../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`RUN`](<../RUN ▶️/▶️ RUN ⌘ cmd.md>) 

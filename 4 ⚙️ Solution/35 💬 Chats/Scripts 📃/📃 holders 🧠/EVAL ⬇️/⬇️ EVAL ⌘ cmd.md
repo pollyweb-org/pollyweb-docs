@@ -362,7 +362,7 @@
     ---
     <br/>
 
-1. **How to merge lists with FROM-MATCH?**
+1. **How to merge lists with SQL?**
 
 
     Consider the 1st list `$items`.
@@ -421,16 +421,15 @@
         <original-property>: <list-A-property>
         <merged-property>: |
             SELECT 
-                <list-B-1-property> AS <alias-1>
-                <list-B-n-property> AS <alias-n>
+                <alias-1>: <list-B-1-property> 
+                <alias-n>: <list-B-n-property>
             FROM $list-B
             WHERE <list-match-B>.Function(<list-match-A>)
     ```
 
     <br/>
     
-1. **How to filter lists with FROM-MATCH?**
-
+1. **How to filter lists with SQL?**
 
     Here's an example using the same lists as before.
 
@@ -556,8 +555,8 @@
     - EVAL >> $output-list: |
 
         SELECT          
-            Col1,       # Object composition
-            Col2 AS B   # Aliases
+            A:Col1       # Object composition
+            B:Col2       # Aliases
         FROM $input-list    
         
         # Function comparison  

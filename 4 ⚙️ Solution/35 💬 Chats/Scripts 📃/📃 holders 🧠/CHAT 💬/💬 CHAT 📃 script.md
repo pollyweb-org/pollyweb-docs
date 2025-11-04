@@ -36,7 +36,7 @@ RUN|.CHAT:
     Texts: Timezone, Language
 
 # Assert the role enum
-- ASSERT|$:Role:
+- ASSERT|$Role:
     Enum: VAULT, HELPER, HOST
 
 # Update the $.Chat

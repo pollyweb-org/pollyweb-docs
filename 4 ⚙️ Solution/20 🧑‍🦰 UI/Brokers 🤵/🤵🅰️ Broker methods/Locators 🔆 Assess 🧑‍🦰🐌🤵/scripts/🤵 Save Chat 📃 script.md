@@ -17,7 +17,7 @@
         To: $.Hosted.Graph
         Subject: Identity@Graph
     Body:
-        Domain: $:locator.Host
+        Domain: $locator.Host
 
 # Save the Host info
 - SAVE|BrokerDomains:
@@ -32,8 +32,8 @@
         To: $.Hosted.Graph
         Subject: Translate@Graph
     Body:
-        Language: $:wallet.Language
-        Domain: $:locator.Host
+        Language: $wallet.Language
+        Domain: $locator.Host
 
 # Create a new key pair
 - KEYS >> $keys
@@ -41,13 +41,13 @@
 # Create a new Chat
 - SAVE|BrokerChats >> $chat:
     Chat: .UUID()
-    Wallet: $:wallet.ID
+    Wallet: $wallet.ID
     # Host info
-    Host: $:locator.Host
+    Host: $locator.Host
     Host$: $translation.Domain
     # Locator info
-    Key: $:locator.Key
-    Parameters: $:locator.Parameters
+    Key: $locator.Key
+    Parameters: $locator.Parameters
     # For Wallets to sign messages
     PrivateKey: $keys.PrivateKey
     # For domains to verify Wallet messages
@@ -56,13 +56,13 @@
 # Add the HOST participant
 - SAVE|BrokerChatters:
     Chat: $chat.ID
-    Domain: $:locator.Host
+    Domain: $locator.Host
     Role: HOST
 
 # Add the FINDER participant
 - SAVE|BrokerChatters:
     Chat: $chat.ID
-    Domain: $:wallet.Finder
+    Domain: $wallet.Finder
     Role: VAULT
 
 # Return the created chat

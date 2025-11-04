@@ -20,14 +20,14 @@
 📃 TokenTimeout:
 
 # Assert the inputs
-- ASSERT|$:Item:
+- ASSERT|$Item:
     AllOf: ID, Wallet
     UUIDs: ID, Wallet
 
 # Get the Wallet 🧑‍🦰
 - GET >> $wallet:
     Set: BrokerWallets
-    Key: $:Item.Wallet
+    Key: $Item.Wallet
 
 # Remove from Wallet
 - SEND:
@@ -35,8 +35,8 @@
         To: $wallet.Notifier
         Subject: Remove@Notifier
     Body:
-        Wallet: $:Item.Wallet
-        Token: $:Item.ID
+        Wallet: $Item.Wallet
+        Token: $Item.ID
 ```
 
 |Uses||

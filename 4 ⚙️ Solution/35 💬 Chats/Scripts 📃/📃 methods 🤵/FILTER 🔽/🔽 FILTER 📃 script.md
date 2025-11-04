@@ -36,19 +36,19 @@ Here's the [Script 📃](<../../📃 basics/Script 📃.md>)
     Texts: ID, Title, Text
 
 # Format the options into {ID,Title}
-- EVAL|$:Options >> $options:
-    ID: {$:ID}
-    Title: {$:Title}
+- EVAL|$Options >> $options:
+    ID: {$ID}
+    Title: {$Title}
 
 # Ask the user to select
 - MANY >> $result:
-    Text: $:Text
+    Text: $Text
     Options: $options
 
 # Match the selected options
 - EVAL >> $selected:
-    FROM $:Options
-    WHERE {$:ID}.In($result.ID)
+    FROM $Options
+    WHERE {$ID}.In($result.ID)
 
 # Return the list of items selected.
 - RETURN|$selected

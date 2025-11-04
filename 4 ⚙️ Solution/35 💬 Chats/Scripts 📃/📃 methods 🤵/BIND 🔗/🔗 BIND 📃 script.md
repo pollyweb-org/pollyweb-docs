@@ -32,8 +32,8 @@
     Broker: $.Chat.Broker
     Chat: $.Chat.ID
     PublicKey: $.Chat.PublicKey
-    Schemas: $:Schemas
-    User: $:User
+    Schemas: $Schemas
+    User: $User
 
 # Send the message to the Broker
 - SEND:
@@ -43,7 +43,7 @@
     Body:
         Hook: $hook.Hook
         Chat: $.Chat.ID
-        Schemas: $:Schemas
+        Schemas: $Schemas
 
 # Wait for the shared data
 #- WAIT >> $shared:

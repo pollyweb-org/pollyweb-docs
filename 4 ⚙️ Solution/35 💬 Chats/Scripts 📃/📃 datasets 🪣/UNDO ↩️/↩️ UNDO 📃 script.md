@@ -31,9 +31,9 @@
         To: $.Hosted.Itemizer
         Subject: Undo@Itemizer
     Body:
-        Set: $:Set
-        Key: $:Key
-        Script: $:Script
+        Set: $Set
+        Key: $Key
+        Script: $Script
 ```
 
 

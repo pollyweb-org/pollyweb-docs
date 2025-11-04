@@ -47,11 +47,11 @@
         To: $.Hosted.Itemizer
         Subject: Save@Itemizer
     Body:
-        Item: $:Item
-        Set: $:Set
-        Version: $:Version
-        Script: $:Script
-        Delete: $:Delete
+        Item: $Item
+        Set: $Set
+        Version: $Version
+        Script: $Script
+        Delete: $Delete
 
 # Check the status
 - CASE|$saved.Status:
@@ -64,8 +64,8 @@
 
     # If blocked, see if there's a handler
     BLOCKED: 
-        IF|$:OnBlocked:
-            Then: EVAL|True >> $:OnBlocked
+        IF|$OnBlocked:
+            Then: EVAL|True >> $OnBlocked
             Else: HTTP|423|Blocked
 ```
 

@@ -15,21 +15,21 @@
 # Open the Chat in the Wallet app
 - SEND:
     Header:
-        To: $:chat.Wallet.Notifier
+        To: $chat.Wallet.Notifier
         Subject: Converse@Notifier
     Body:
-        Wallet: $:chat.Wallet
+        Wallet: $chat.Wallet
         Hook: $.Msg.Hook
-        Chat: $:chat.ID
-        PrivateKey: $:chat.PrivateKey
-        Host: $:chat.Host.Name
-        Host$: $:chat.Host.Title
-        SmallIcon: $:chat.Host.SmallIcon
-        BigIcon: $:chat.Host.BigIcon
+        Chat: $chat.ID
+        PrivateKey: $chat.PrivateKey
+        Host: $chat.Host.Name
+        Host$: $chat.Host.Title
+        SmallIcon: $chat.Host.SmallIcon
+        BigIcon: $chat.Host.BigIcon
 
 # Update the Chats
 - RUN|Update-Chats:
-    wallet: $:chat.Wallet
+    wallet: $chat.Wallet
 ```
 
 |Uses | |

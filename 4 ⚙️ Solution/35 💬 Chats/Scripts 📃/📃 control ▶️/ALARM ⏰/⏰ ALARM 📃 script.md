@@ -28,10 +28,10 @@
         To: $.Hosted.Alarm
         Subject: Trigger@Alarm
     Body:
-        When: $:When
+        When: $When
         Hook: 
-            Call: $:Call
-            With: $:With
+            Call: $Call
+            With: $With
 ```
 
 Uses||
@@ -55,5 +55,5 @@ Uses||
 
 # Call the method
 - RUN|$.Msg.Hook.Call:
-    $:Hook.With
+    $Hook.With
 ```
