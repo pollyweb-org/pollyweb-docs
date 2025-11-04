@@ -40,30 +40,28 @@
 - FOR|$.Msg.Schemas|$schema:
 
     # Find a matching Bind or Token
-    - EVAL >> $trust:
+    - EVAL >> $candidates:
         FROM $trusted
         WHERE Schema.Is($schema)
 
-    - IF|$trust.AreMany:
+    # Get the tokens first
+    - EVAL >> $tokens:
+        FROM $candidates
+        WHERE Type.Is(TOKEN)
 
-    Which vault to use?
+    # Send if it's the only one.
+    - IF|$tokens.IsOne:
+        - BREAK
+
 
     # If more than one, ask for selection
-    - IF|$trust.AreMany:
+    - IF|$trusts.AreMany:
         - ONE >> $vault:
+            Text: Which vault to use?
+            Options: 
 
 
 
-Header:
-    From: any-broker.dom
-    To: any-broker.dom
-    Subject: Disclose@Vault
-    
-Body:
-    Chat: <chat-uuid>
-    Consumer: any-coffee-shop.dom
-    Language: en-us
-    Bind: <bind-uuid>
 ```
 
 |Users||
