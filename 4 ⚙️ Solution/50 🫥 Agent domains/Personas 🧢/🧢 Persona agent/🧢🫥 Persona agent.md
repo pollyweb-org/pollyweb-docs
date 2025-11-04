@@ -43,7 +43,7 @@
 
 1. **How do Persona agents work?**
 
-    ![](<🧢 Persona.png>)
+    ![](<🧢🫥 Persona agent.png>)
 
     ---
     <br/>

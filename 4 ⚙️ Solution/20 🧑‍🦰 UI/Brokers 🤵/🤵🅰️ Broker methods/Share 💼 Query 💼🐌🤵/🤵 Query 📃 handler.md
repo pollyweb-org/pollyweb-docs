@@ -1,4 +1,13 @@
+# 🤵 Query 📃 handler
 
+> Implementation
+* Part of the [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+* Implements both the:
+    * [`Share Bind` ⏩ flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Bind 👉🔗💼/🧑‍🦰 Share Bind ⏩ flow.md>) 
+    * [`Share Token` ⏩ flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token 👉🎫💼/🧑‍🦰 Share Token ⏩ flow.md>)
+    * [`Share Token+ID` ⏩ flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token+ID 👉🆔💼/🧑‍🦰 Share Token+ID ⏩ flow.md>)
+
+## Script
 
 ```yaml
 📃 Query@Handler:
@@ -35,9 +44,14 @@
         FROM $trusted
         MATCH Schema.Is($schema)
 
+    - IF|$trust.AreMany:
+    
+    Which vault to use?
+
     # If more than one, ask for selection
     - IF|$trust.AreMany:
-        ONE|
+        - ONE >> $vault:
+
 
 
 Header:

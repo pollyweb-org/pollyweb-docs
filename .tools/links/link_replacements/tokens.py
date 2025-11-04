@@ -376,6 +376,8 @@ _GEN_BASIC = [
     ("replace_command_tokens", "Command", "command", COMMAND_REPLACEMENT, "Command"),
     ("replace_commands_tokens", "Commands", "commands", COMMANDS_REPLACEMENT, "Commands"),
     ("replace_script_tokens", "Script", "script", SCRIPT_REPLACEMENT, "Script"),
+    ("replace_persona_tokens", "Persona", "persona", "[Persona 🧢 agent](<🧢🫥 Persona agent.md>)", "Persona"),
+    ("replace_personas_tokens", "Personas", "personas", "[Persona 🧢 agents](<🧢🫥 Persona agent.md>)", "Personas"),
     ("replace_itemizer_tokens", "Itemizer", "itemizer", "[Itemizer 🛢 helper domain](<🛢🤲 Itemizer helper.md>)", "Itemizer"),
     ("replace_itemizers_tokens", "Itemizers", "itemizers", "[Itemizer 🛢 helper domains](<🛢🤲 Itemizer helper.md>)", "Itemizers"),
 ]

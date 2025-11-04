@@ -6,9 +6,23 @@
 
 <br/>
 
+## 💬 Chat 
+
+Consider the following [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>).
+
+|Service|Prompt|User
+| - | - | - |
+| ☕ Café     | 😃 What's your name?
+| 🤵 [Broker](<../../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 Which vault to use? <br/> - [ 🧢 Any Persona ]<br/>- [ 🧢 Other Persona ] | > 🧢 Any Persona
+| 🧢 [Persona](<../../../../../50 🫥 Agent domains/Personas 🧢/🧢 Persona agent/🧢🫥 Persona agent.md>) | 🫥 Share name? [Yes, No] | > Yes
+| ☕ Café     | ✅ Hi, Alice!
+|
+
+<br/> 
+
 ## Flow diagram
 
-![alt text](<⚙️ Share Bind.png>)
+![alt text](<🧑‍🦰 Share Bind ⚙️ uml.png>)
 
 |#|Step|Purpose
 |-|-|-

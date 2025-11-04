@@ -10,10 +10,10 @@
 
 Consider the following excerpt from the [Flight check in 🤝 use case](<../../../../../../3 🤝 Use Cases/03 🧳 Travel/09 🧳 Travel by air 💺/14 💺 Ticket/05 Flight check in.md>) as an example.
 
-| Service       | Prompt | User
+|Service|Prompt|User
 | - | - | - |
-| 🛩️ Airline     | ℹ️ I need the passports.
-| 🤵 [Broker](<../../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 Share passports?  [All, No] <br/> - [ ] 🇬🇧 UK Alice <br/>- [ ] 🇬🇧 UK Teresa <br/>- [ ] 🇺🇸 US Teresa  | [X] 🇬🇧 UK Alice <br/> [X] 🇺🇸 US Teresa
+| 🛩️ Airline     | ℹ️ I need Alice's passport.
+| 🤵 [Broker](<../../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 Share passport?  [No] <br/> - [ 🇬🇧 UK Alice ]<br/>- [ 🇬🇧 UK Teresa ]<br/>- [ 🇺🇸 US Teresa ] | > 🇬🇧 UK Alice 
 | 🛩️ Airline     | ✅ Thanks!
 |
 
@@ -21,7 +21,7 @@ Consider the following excerpt from the [Flight check in 🤝 use case](<../../.
 
 ## Flow diagram
 
-![alt text](<🎫 Share Token ⚙️ uml.png>)
+![alt text](<🧑‍🦰 Share Token ⚙️ uml.png>)
 
 |#| Step | Purpose
 |-|-|-

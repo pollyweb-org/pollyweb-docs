@@ -40,6 +40,8 @@ Failed Tests:
     WrongFile: "🧩 HOST.md"
   - Given: '{{Handle@Hosted}}'
     WrongFile: '😃⏩🧑‍💻 Handle 🐍.md'
+  - Given: '{{FOR}}'
+    WrongFile: '👥🚀🕸 Form.md'
 
 Successful Tests:
 
@@ -152,6 +154,15 @@ Successful Tests:
   - Given: "{{Loggers}}"
     LinkText: "Logger 🪵 helper domains"
     LinkFile: "🪵 Logger 🤲 helper.md"
+    Reasons: This is hardcoded.
+
+  - Given: "{{Persona}}"
+    LinkText: "Persona 🧢 agent"
+    LinkFile: "🧢🫥 Persona agent.md"
+    Reasons: This is hardcoded.
+  - Given: "{{Personas}}"
+    LinkText: "Persona 🧢 agents"
+    LinkFile: "🧢🫥 Persona agent.md"
     Reasons: This is hardcoded.
 
   - Given: "{{Prompt}}"
