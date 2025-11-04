@@ -396,9 +396,10 @@
     
     - EVAL|$items >> $merged:
         Item: ID
-        Supplier: Name #, other, another
+        Supplier: 
+            SELECT Name #, other, another
             FROM $suppliers
-            MATCH SupID, $suppliers.ID
+            WHERE ID.Is(SupID)
     ```
     
     Here's the final `$merged` list.
@@ -416,36 +417,39 @@
 
     ```yaml
     # Syntax
-    EVAL|$list-A >> $merged:
+    EVAL >> $merged:
         <original-property>: <list-A-property>
-        <merged-property>: 
-            <list-B-1-property>, <list-B-n-property>
+        <merged-property>: |
+            SELECT 
+                <list-B-1-property> AS <alias-1>
+                <list-B-n-property> AS <alias-n>
             FROM $list-B
-            MATCH <list-match-A>, $list-B.<list-match-B>
+            WHERE <list-match-B>.Function(<list-match-A>)
     ```
 
     <br/>
     
 1. **How to filter lists with FROM-MATCH?**
 
-    
 
     Here's an example using the same lists as before.
 
     ```yaml
     📃 Filter with a list of values:
-    # List: X, Y
-    - EVAL|X,Y >> $filtered:
+    # List $l = X, Y
+    - EVAL >> $filtered:
         FROM $suppliers
-        MATCH $suppliers.ID
+        WHERE ID.In($l)
+        #  or $l.Contains(ID)
     ```
 
     ```yaml
     📃 Filter with a list of objects:
-    #   List: {Key:X},{Key:Y}
-    - EVAL|{Key:X},{Key:Y} >> $filtered:
+    #   List $l = {Key:X},{Key:Y}
+    - EVAL >> $filtered:
         FROM $suppliers
-        MATCH Key, $suppliers.ID
+        WHERE ID.In($l.Key)
+        #  or $l.Key.Contains(ID)
     ```
     
     Here's the final `$filtered` list.
@@ -462,14 +466,14 @@
 
     ```yaml
     # Syntax to filter with a list of values
-    EVAL|$list-of-values >> $filtered:
+    EVAL >> $filtered:
         FROM $list
-        MATCH $list.<matching-property>
+        WHERE $list.<matching-property>.In($list-of-values)
 
     # Syntax to filter with a list of objects
-    EVAL|$list-of-objects >> $filtered:
+    EVAL >> $filtered:
         FROM $list
-        MATCH <object-property>, $list.<matching-property>
+        WHERE $list.<matching-property>.In($list-of-objects.<object-property>)
     ```
 
     ---
@@ -549,10 +553,21 @@
 
     ```yaml
     📃 Similar to SQL query:
-    - EVAL >> $output-list:
-        Col1, Col2              # Similar to SELECT 
-        FROM $input-list        # Similar to FROM
-        MATCH Col3, $any-value  # Similar to WHERE
+    - EVAL >> $output-list: |
+
+        SELECT          
+            Col1,       # Object composition
+            Col2 AS B   # Aliases
+        FROM $input-list    
+        
+        # Function comparison  
+        WHERE Col3.Is($any-value)  
+
+        ORDER BY Col2   # Ordering
+
+        UNION           # Merged lists
+
+        SELECT 1, 2     # Static values
     ```
 
     ---

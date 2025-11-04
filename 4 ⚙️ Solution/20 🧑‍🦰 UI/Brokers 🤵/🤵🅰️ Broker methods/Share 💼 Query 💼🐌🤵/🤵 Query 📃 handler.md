@@ -42,10 +42,10 @@
     # Find a matching Bind or Token
     - EVAL >> $trust:
         FROM $trusted
-        MATCH Schema.Is($schema)
+        WHERE Schema.Is($schema)
 
     - IF|$trust.AreMany:
-    
+
     Which vault to use?
 
     # If more than one, ask for selection
