@@ -337,12 +337,30 @@
     - INFO:|Hi, {$Name}! How's {$City}?
     ```
 
+    ---
+    <br/>
+
 1. **How does scope work?**
 
-    Here's a [Script 📃](<../../📃 basics/Script 📃.md>).
+    [Holders 🧠](<../../📃 basics/Holder 🧠.md>) behavior is as follow:
+    * they only exist in the context of a [Script 📃](<../../📃 basics/Script 📃.md>), 
+    * unless passed to another [Script 📃](<../../📃 basics/Script 📃.md>) as a [`RUN`](<▶️ RUN ⌘ cmd.md>) parameter.
+
+    Here's a [Script 📃](<../../📃 basics/Script 📃.md>) to exemplify it.
 
     ```yaml
-    📃 Example:
-    # Set a global value
-    - EVAL|10 >> 10
+    📃 Main:
+    - EVAL|1 >> $a    # set $a:1
+    - EVAL|2 >> $b    # set $b:2
+    - RUN|Sub($a)     # pass only $a
     ```
+
+    ```yaml
+    📃 Sub:
+    - ASSERT:
+        - $a.Is(1)    # $a exists with 1
+        - $b.IsEmpty  # $b does not exist
+    ```
+
+    ---
+    <br/>

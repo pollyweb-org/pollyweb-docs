@@ -20,7 +20,7 @@
 ```yaml
 Header:
     From: any-broker.dom
-    To: any-broker.dom
+    To: any-vault.dom
     Subject: Disclose@Vault
     
 Body:
