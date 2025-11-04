@@ -9,7 +9,7 @@ To start the check-in over a chat, users can:
 
 ## 💬 Chat
 
-| Service       | Prompt | User
+|Service|Prompt|User
 | - | - | - |
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | ⓘ Any Airline (4.4 ⭐) [+]
 | 🛩️ Airline     | 😃 Hi! What do you need? <br/> - [ Check-in ] for 🇺🇸 Seattle? <br/>- [ Something else ] | > Check-in

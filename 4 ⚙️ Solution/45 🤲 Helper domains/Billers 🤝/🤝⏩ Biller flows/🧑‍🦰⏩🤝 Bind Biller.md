@@ -12,5 +12,5 @@
 |2| [🧑‍🦰👉🗄️ Bind 🔗](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/🧑‍🦰 Bind vault ⏩ flow.md>) | Users [Bind 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) with [`.HOST/BIND/SELF` 🧩](<../../../../7 🧩 Codes/$/🧩 VAULT code.md>)
 |3| [🧑‍🦰👉💼 Share Bind 🔗](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Bind 👉🔗💼/🧑‍🦰 Share Bind ⏩ flow.md>) | Users share [`.PAY/COLLECTOR` 🧩](<../../../../7 🧩 Codes/PAY/🧩 PayCollector.md>)
 |4| [🧑‍🦰👉💼 Share Bind 🔗](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Bind 👉🔗💼/🧑‍🦰 Share Bind ⏩ flow.md>) | Users share [`.PAY/COLLECTOR` 🧩](<../../../../7 🧩 Codes/PAY/🧩 PayCollector.md>)
-|5| [🧑‍🦰👉💼 Share Token 🎫](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token 👉🎫💼/🎫 Share Token ⏩ flow.md>)
+|5| [🧑‍🦰👉💼 Share Token 🎫](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token 👉🎫💼/🧑‍🦰 Share Token ⏩ flow.md>)
 |
