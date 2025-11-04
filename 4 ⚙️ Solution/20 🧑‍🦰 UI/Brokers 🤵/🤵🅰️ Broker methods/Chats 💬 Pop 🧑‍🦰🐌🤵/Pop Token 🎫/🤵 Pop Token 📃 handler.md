@@ -21,8 +21,8 @@
 
 # Get the Token 🎫
 - GET >> $token:
-    Set: $:Wallet.Tokens
-    Key: $:Token
+    Set: $Wallet.Tokens
+    Key: $Token
 
 # Ask for an action.
 - ONE|What do you need?:
@@ -33,7 +33,7 @@
     Remove: 
       - RUN|RemoveToken:
           Token: $token
-          Wallet: $:Wallet
+          Wallet: $Wallet
 ```
 
 Commands: [`ASSERT`](<../../../../../35 💬 Chats/Scripts 📃/📃 holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CASE`](<../../../../../35 💬 Chats/Scripts 📃/📃 control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`GET`](<../../../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) [`ONE`](<../../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/ONE 1️⃣/ONE 1️⃣ prompt.md>)  [`RUN`](<../../../../../35 💬 Chats/Scripts 📃/📃 control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
@@ -48,7 +48,7 @@ Commands: [`ASSERT`](<../../../../../35 💬 Chats/Scripts 📃/📃 holders �
 # Get the token
 - GET >> $token:
     Set: BrokerTokens
-    Key: $:Token
+    Key: $Token
 
 # Ask for confirmation 🤔
 - CONFIRM|Remove token {$token.Title}?

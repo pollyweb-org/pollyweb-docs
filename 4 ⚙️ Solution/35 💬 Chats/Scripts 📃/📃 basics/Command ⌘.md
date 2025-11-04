@@ -163,7 +163,7 @@
 
     ```yaml
     📃 .ECHO:
-    - INFO|Custom echo `{$:UserInput}`
+    - INFO|Custom echo `{$UserInput}`
     ```
     Commands: [`INFO`](<../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
 

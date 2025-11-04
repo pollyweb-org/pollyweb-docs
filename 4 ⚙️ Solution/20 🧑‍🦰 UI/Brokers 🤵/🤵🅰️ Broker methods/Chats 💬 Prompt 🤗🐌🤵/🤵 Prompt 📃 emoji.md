@@ -19,42 +19,42 @@
     Text: Format, Role, PromptEmoji, ChatEmoji
 
 # Set the emoji
-- CASE|$:Format:
+- CASE|$Format:
 
     TEMP: RETURN|⏳
 
     FAILURE: RETURN|❌
 
     INFO: 
-        CASE|$:Role:
+        CASE|$Role:
             VAULT: RETURN|ⓘ
             $: RETURN|ℹ️
 
     SUCCESS: 
-        CASE|$:Role:
+        CASE|$Role:
             VAULT: RETURN|☑️
             $: RETURN|✅
 
     TEXT:
-        CASE|$:Role:
+        CASE|$Role:
             VAULT: RETURN|💭
             $: RETURN|💬
 
     $: 
         # Agents always ask with 🫥
-        - IF|$:Role.Is(VAULT):
+        - IF|$Role.Is(VAULT):
             RETURN|🫥
 
 # Default emoji
 - EVAL|😃 >> $emoji
 
 # Override if in Chat
-- IF|$:ChatEmoji:
-    EVAL|$:ChatEmoji >> $emoji
+- IF|$ChatEmoji:
+    EVAL|$ChatEmoji >> $emoji
 
 # Override if in Prompt
-- IF|$:PromptEmoji: 
-    EVAL|$:PromptEmoji >> $emoji
+- IF|$PromptEmoji: 
+    EVAL|$PromptEmoji >> $emoji
 
 # Block special emojis
 - IF|$emoji.In(⏳❌ⓘℹ️☑️✅😃🫥💬💭):

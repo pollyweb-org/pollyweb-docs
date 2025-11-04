@@ -41,9 +41,9 @@
     |-|-| -
     | `<script>`| [Script 📃](<../../📃 basics/Script 📃.md>) to run | `MyScript`
     | `$arg-n`  | Optional positional arguments | `1,2` `s,$p`
-    |           | Reads `$:n`  inside the [Script 📃](<../../📃 basics/Script 📃.md>) | `$:1` `$:2`
+    |           | Reads `$n`  inside the [Script 📃](<../../📃 basics/Script 📃.md>) | `$1` `$2`
     | `{args}`| Optional object arguments | `{A:1, B:2}`
-    | | Reads `!name` in the [Script 📃](<../../📃 basics/Script 📃.md>) | `$:A` `$:B`|
+    | | Reads `:name` in the [Script 📃](<../../📃 basics/Script 📃.md>) | `$A` `$B`|
     | | Also reads with [`{.Inputs}`](<../../📃 holders 🧠/$.Inputs ▶️/▶️ $.Inputs 🧠 holder.md>) | `.Inputs.A`
     | `$return`| Optional [`RETURN`](<../RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) holder | `$return`
     
@@ -80,7 +80,7 @@
 
     ```yaml
     📃 Great:
-    - INFO|Hi, {$:Name}! I'm {$:Feeling}.
+    - INFO|Hi, {$Name}! I'm {$Feeling}.
     ```
 
     Commands: [`INFO`](<../../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`RUN`](<▶️ RUN ⌘ cmd.md>) [`SUCCESS`](<../../../Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
@@ -124,7 +124,7 @@
 
     ```yaml
     📃 ShowNumber:
-    - INFO|You gave me number {$:n}.
+    - INFO|You gave me number {$n}.
     ```
 
     Commands: [`INFO`](<../../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`QUANTITY`](<../../../Prompts 🤔/🤔✏️ Prompt inputs/QUANTITY ↕️/QUANTITY ↕️ prompt.md>) [`RUN`](<▶️ RUN ⌘ cmd.md>) [`SUCCESS`](<../../../Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
@@ -164,7 +164,7 @@
 
     ```yaml
     📃 ShowNumber:
-    - INFO|Here's number {$:n}.
+    - INFO|Here's number {$n}.
     ```
 
     Commands: [`ASSERT`](<../../📃 holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`INFO`](<../../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`SUCCESS`](<../../../Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
@@ -252,8 +252,8 @@
     📃 AddFive:
 
     # Calculate and exit the script
-    - INFO|Adding 5 to {$:1}...
-    - RETURN|.Add($:1, 5)
+    - INFO|Adding 5 to {$1}...
+    - RETURN|.Add($1, 5)
 
     # It shouldn't get to this line
     - FAILURE|This is a bug.
@@ -303,7 +303,7 @@
     📃 SetValue:
     
     # Only works with a holder name
-    - EVAL|123 >> $:Holder
+    - EVAL|123 >> $Holder
     ```
     Commands: [`EVAL`](<../../📃 holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>)
     
@@ -334,5 +334,15 @@
 
     ```yaml
     📃 Handler:
-    - INFO:|Hi, {$:Name}! How's {$:City}?
+    - INFO:|Hi, {$Name}! How's {$City}?
+    ```
+
+1. **How does scope work?**
+
+    Here's a {{Script}}.
+
+    ```yaml
+    📃 Example:
+    # Set a global value
+    - EVAL|10 >> 10
     ```

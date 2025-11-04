@@ -32,13 +32,13 @@ Inputs | Purpose | Examples
 # Try to get the domain, if it exists
 - GET >> $domain:
     Set: BrokerDomains
-    Key: $:Name
+    Key: $Name
     Default: 
-        Domain: $:Name
+        Domain: $Name
 
 # Change the translation
 - EVAL|$domain:
-    Title: $:Title
+    Title: $Title
 
 # Update the table
 - SAVE|$domain

@@ -26,7 +26,7 @@
 
 # Get the Vault 
 - GET >> $vault:
-    Set: $:Wallet.Vaults
+    Set: $Wallet.Vaults
     Key: $.Msg.Body.Key
 
 # Ask for confirmation 🤔
@@ -55,10 +55,10 @@
 # Update the bind list
 - SEND:
     Header:
-        To: $:Wallet.Notifier
+        To: $Wallet.Notifier
         Subject: Updated@Notifier
     Body:
-        Wallet: $:Wallet.ID
+        Wallet: $Wallet.ID
         Updates: [ BINDS ]
 
 # Inform the user 🤔

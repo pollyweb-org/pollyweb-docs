@@ -33,7 +33,7 @@
         Subject: Inform@Broker
     Body:
         Chat: $.Chat.ID
-        Form: $:Form
+        Form: $Form
 ```
 
 Uses||

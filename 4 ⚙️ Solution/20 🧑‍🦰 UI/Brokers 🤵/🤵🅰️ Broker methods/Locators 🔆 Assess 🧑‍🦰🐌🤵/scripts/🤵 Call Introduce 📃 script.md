@@ -14,13 +14,13 @@
 # Ask Finders to introduce Hosts
 - SEND:
     Header:
-        To: $:chat.Wallet.Finder
+        To: $chat.Wallet.Finder
         Subject: Introduce@Finder
     Body:
-        Chat: $:chat.ID
-        Host: $:chat.Host
-        Language: $:chat.Wallet.Language
-        Reviewer: $:chat.Wallet.Reviewer
+        Chat: $chat.ID
+        Host: $chat.Host
+        Language: $chat.Wallet.Language
+        Reviewer: $chat.Wallet.Reviewer
 ```
 
 > Continues on the [`Introduce@Finder` 📃 handler](<../../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/Introduce 🤵🐌🔎/🔎 Introduce 📃 handler.md>)

@@ -15,7 +15,7 @@ Header:
 Body:
     Command:
         # Example command
-        ALARM|$time$:
+        ALARM|$time:
             MyHandler: 
                 A: 1
                 B: 2

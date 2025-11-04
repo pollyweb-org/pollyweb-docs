@@ -85,7 +85,7 @@
 
 # Inform the Notifier
 - RUN|Updated@Notifier:
-    Wallet: $:Wallet
+    Wallet: $Wallet
     Updates: [CHATS, BINDS, TOKENS]
 ```
 

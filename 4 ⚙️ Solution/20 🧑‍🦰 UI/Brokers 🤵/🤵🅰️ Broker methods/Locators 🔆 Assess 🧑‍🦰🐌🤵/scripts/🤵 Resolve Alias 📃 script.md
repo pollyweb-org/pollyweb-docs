@@ -13,7 +13,7 @@
     
 # Parse the locator
 - PARSE >> $locator:
-    Locator: $:Locator
+    Locator: $Locator
 
 # Resolve any ALIAS locator
 - IF|$locator.IsAlias:

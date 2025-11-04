@@ -42,10 +42,10 @@
         To: $.Hosted.Itemizer
         Subject: Delete@Itemizer
     Body:
-        Set: $:Set
-        Key: $:Key
-        Undo: $:Undo
-        Script: $:Script
+        Set: $Set
+        Key: $Key
+        Undo: $Undo
+        Script: $Script
 
 # Return the deleted object
 RETURN|$deleted

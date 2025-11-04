@@ -13,11 +13,11 @@
 # Tell the Notifier to perform updates
 - SEND:
     Header:
-        To: $:wallet.Notifier
+        To: $wallet.Notifier
         Subject: Updated@Notifier
     Body:
-        Wallet: $:wallet.ID
-        Updates: $:Updates
+        Wallet: $wallet.ID
+        Updates: $Updates
 ```
 
 

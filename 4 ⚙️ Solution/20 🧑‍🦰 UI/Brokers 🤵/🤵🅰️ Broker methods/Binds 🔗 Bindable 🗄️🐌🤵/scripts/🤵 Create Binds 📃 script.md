@@ -17,8 +17,8 @@
         To: $.Hosted.Graph
         Subject: Translate@Graph
     Body:
-        Language: $:chat.Wallet.Language
-        Schemas: $:bindable
+        Language: $chat.Wallet.Language
+        Schemas: $bindable
 
 # Ask the user to select
 - MANY|Which to bind? >> $selected:
@@ -31,7 +31,7 @@
     - SAVE|BrokerBinds >> $bind:
         ID: .UUID
         Vault: $.Msg.Host
-        Wallet: $:chat.Wallet.ID
+        Wallet: $chat.Wallet.ID
         Schema: $schema.Schema
 
     # Add to the list of binds

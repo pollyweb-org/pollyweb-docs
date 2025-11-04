@@ -30,7 +30,7 @@
     Texts: Schema, Trusted, Truster
 
 # Assert the role
-- ASSERT|$:Role:
+- ASSERT|$Role:
     Enum: VAULT, CONSUMER, *
 
 # Send the request
@@ -39,10 +39,10 @@
         To: $.Hosted.Graph
         Subject: Trusted@Graph
     Body:
-        Truster: $:Truster
-        Trusted: $:Trusted
-        Role: $:Role
-        Schema: $:Schema
+        Truster: $Truster
+        Trusted: $Trusted
+        Role: $Role
+        Schema: $Schema
 
 # Assert if it's trusted
 - ASSERT|$answer:

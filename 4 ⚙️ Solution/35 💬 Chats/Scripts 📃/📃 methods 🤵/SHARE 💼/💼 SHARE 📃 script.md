@@ -31,8 +31,8 @@
     Broker: $.Chat.Broker
     Chat: $.Chat.ID
     PublicKey: $.Chat.PublicKey
-    Schemas: $:Schemas
-    Context: $:Context
+    Schemas: $Schemas
+    Context: $Context
 
 # Query the Broker
 - SEND|$hook:
