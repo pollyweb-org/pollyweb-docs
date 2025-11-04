@@ -467,6 +467,9 @@ def replace_dynamic_tokens(
 
             return match.group(0)
 
+        if token.startswith('$.'):
+            return match.group(0)
+
         target = find_dynamic_target(token, file_dict)
         if target:
             try:
