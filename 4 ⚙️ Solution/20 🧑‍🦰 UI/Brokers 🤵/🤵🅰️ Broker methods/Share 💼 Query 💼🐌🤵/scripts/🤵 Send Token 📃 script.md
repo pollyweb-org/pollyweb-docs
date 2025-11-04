@@ -4,7 +4,7 @@
     AllOf: $trusted, $schema
 
 # Find a matching Token
-- ASK|$trusted >> $tokens:
+- FILTER|$trusted >> $tokens:
     Schema: $schema
     Type: TOKEN
 
