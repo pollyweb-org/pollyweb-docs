@@ -8,10 +8,10 @@
 
 ## Example
 
-Here's the [`GET` command](<../../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) result.
+Here's the [`READ` command](<../../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) result.
 
 ```yaml
-# GET|Chats|<broker>,<chat-uuid>
+# READ|Chats|<broker>,<chat-uuid>
 Broker: any-broker.dom
 Chat: <chat-uuid>
 PublicKey: <public-key>

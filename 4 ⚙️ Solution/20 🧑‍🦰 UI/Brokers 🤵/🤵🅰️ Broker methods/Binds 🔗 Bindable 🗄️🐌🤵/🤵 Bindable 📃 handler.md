@@ -22,7 +22,7 @@
     Lists: Schemas
 
 # Get the chat
-- GET >> $chat:
+- READ >> $chat:
     Set: BrokerChats
     Key: Chat
 

@@ -20,10 +20,10 @@ NoUpdates: True
 
 ## Example
 
-Here's the [`GET` command](<../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) result.
+Here's the [`READ` command](<../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) result.
 
 ```yaml
-# GET|Aliases|ANY-ALIAS
+# READ|Aliases|ANY-ALIAS
 Alias: ANY-ALIAS
 Schema: .HOST
 Host: any-host.dom

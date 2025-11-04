@@ -23,13 +23,13 @@
 1. **What's the syntax of a delete?**
 
     ```yaml
-    # After a GET
+    # After a READ
     - DELETE|$item
     ```
 
     | Input| Purpose 
     |-|-
-    | `$item` | Previous return from [`GET`](<../GET 🧲/🧲 GET ⌘ cmd.md>) 
+    | `$item` | Previous return from [`READ`](<../READ 🧲/🧲 READ ⌘ cmd.md>) 
 
     <br/>
 
@@ -61,13 +61,13 @@
 
     ```yaml
     # Get the item from the database.
-    - GET|myPool|myKey >> $item
+    - READ|myPool|myKey >> $item
     
     # Delete the item.
     - DELETE|$item 
     ```
 
-    Commands: [`GET`](<../GET 🧲/🧲 GET ⌘ cmd.md>) [`DELETE`](<🗑️ DELETE ⌘ cmd.md>)
+    Commands: [`READ`](<../READ 🧲/🧲 READ ⌘ cmd.md>) [`DELETE`](<🗑️ DELETE ⌘ cmd.md>)
 
     ---
     <br/>

@@ -55,7 +55,7 @@ Property|Type|Description
 - VERIFY|$.Msg
 
 # Get from the table.
-- GET >> $alias:
+- READ >> $alias:
     Set: PrinterAliases
     Key: $.Msg.Alias
 

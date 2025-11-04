@@ -43,7 +43,7 @@ Uses: [`Parents`](<../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized dataset
 ## Example
 
 ```yaml
-# GET|LoggerEntries|<entry-uuid>
+# READ|LoggerEntries|<entry-uuid>
 ID: <entry-uuid>
 Sent: 2025-10-10T13:45:23.123Z
 Domain: <any-domain.dom>

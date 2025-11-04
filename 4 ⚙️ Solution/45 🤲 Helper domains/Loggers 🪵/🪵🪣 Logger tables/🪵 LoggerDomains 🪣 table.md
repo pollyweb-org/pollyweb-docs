@@ -32,7 +32,7 @@ Uses: [`Children`](<../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datase
 ## Example
 
 ```yaml
-# GET|LoggerDomains|any-domain.dom
+# READ|LoggerDomains|any-domain.dom
 Name: any-domain.dom
 ```
-Uses: [`GET`](<../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>)
+Uses: [`READ`](<../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>)

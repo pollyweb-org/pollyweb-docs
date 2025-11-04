@@ -333,9 +333,9 @@ Successful Tests:
     LinkFile: "⤵️ IF ⌘ cmd.md"
     Reasons: same as {{RETURN}}.
 
-  - Given: "{{GET}}"
-    LinkText: "`GET`"
-    LinkFile: "🧲 GET ⌘ cmd.md"
+  - Given: "{{READ}}"
+    LinkText: "`READ`"
+    LinkFile: "🧲 READ ⌘ cmd.md"
     Reasons: same as {{RETURN}}.
 
   FUNCTIONS:

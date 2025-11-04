@@ -17,7 +17,7 @@ end box
 activate consumer
     consumer -> vault: Collect 🚀 {collect}
     activate vault
-        vault -> collects: GET {collect}
+        vault -> collects: READ {collect}
         vault -> consumer: RETURN {data}
     deactivate vault
 

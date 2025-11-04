@@ -78,7 +78,7 @@
     📃 Example:
 
     # Get the WalletID from the message 
-    - GET >> $wallet:
+    - READ >> $wallet:
         Set: BrokerWallets
         Key: $.Msg.Header.From
 
@@ -89,7 +89,7 @@
 
     | [Command ⌘](<../../📃 basics/Command ⌘.md>) | Purpose
     |-|-
-    | 🧲 [`GET`](<../../📃 datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) | Get the Public Key of the [Wallet 🪣](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/Wallets 🧑‍🦰 table/🤵 BrokerWallets 🪣 table.md>) in the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>).
+    | 🧲 [`READ`](<../../📃 datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) | Get the Public Key of the [Wallet 🪣](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/Wallets 🧑‍🦰 table/🤵 BrokerWallets 🪣 table.md>) in the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>).
 
     ---
     <br/>
@@ -104,7 +104,7 @@
     📃 Example:
     
     # Get the Chat item 
-    - GET >> $chat
+    - READ >> $chat
         Set: HostChats
         Key: $.Msg.Body.Chat
 
@@ -115,7 +115,7 @@
 
     | [Command ⌘](<../../📃 basics/Command ⌘.md>) | Purpose
     |-|-
-    | 🧲 [`GET`](<../../📃 datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) | To get the Public Key of [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>).
+    | 🧲 [`READ`](<../../📃 datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) | To get the Public Key of [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>).
 
     ---
     <br/>

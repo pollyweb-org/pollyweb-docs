@@ -13,7 +13,7 @@ participant "Hosted 📦" as hosted
 activate script
     script -> engine: EVAL {X into $A}
     activate engine
-        engine -> memory: GET 🧲 {A}
+        engine -> memory: READ 🧲 {A}
     deactivate engine
 
     script -> engine: EVAL {function} 
@@ -29,7 +29,7 @@ deactivate engine
     hosted -> inbox: Placed 🚀 {$A}
 
     activate inbox
-        inbox -> holders: GET 🧲 {A}
+        inbox -> holders: READ 🧲 {A}
         inbox -> hosted: {X}
     deactivate inbox
 

@@ -17,7 +17,7 @@ end box
 activate domain
 domain -> printer: Resolve 🚀 {alias}
 activate printer
-    printer -> aliases: GET {alias}
+    printer -> aliases: READ {alias}
     
     activate aliases
         aliases -> printer: {locator}

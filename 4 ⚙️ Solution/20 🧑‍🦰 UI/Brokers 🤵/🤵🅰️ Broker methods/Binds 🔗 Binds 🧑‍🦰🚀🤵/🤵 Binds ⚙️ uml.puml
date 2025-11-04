@@ -13,7 +13,7 @@ activate wallet
 wallet -> broker: Binds 🚀
 
     activate broker
-        broker -> wallets: GET {wallet}
+        broker -> wallets: READ {wallet}
 
         activate wallets
         wallets -> binds: .Binds

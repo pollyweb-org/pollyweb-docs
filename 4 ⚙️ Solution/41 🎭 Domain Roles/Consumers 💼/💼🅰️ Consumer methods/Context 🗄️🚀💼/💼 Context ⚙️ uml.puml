@@ -19,7 +19,7 @@ activate vault
     vault -> consumer: Context 🚀 {hook, schema}
 
     activate consumer
-        consumer -> hooks: GET 🧲 {hook}
+        consumer -> hooks: READ 🧲 {hook}
         consumer -> graph: TRUSTS 🫡 {vault, schema}
         consumer -> vault: {context}
     deactivate consumer

@@ -13,7 +13,7 @@ activate wallet
 wallet -> broker: Chats 🚀
 
     activate broker
-        broker -> wallets: GET {wallet}
+        broker -> wallets: READ {wallet}
 
         activate wallets
         wallets -> chats: .Chats

@@ -80,7 +80,7 @@ then the last 3 will never be executed because REEL will exit the script.
 
     ```yaml
     # Handler
-    - GET >> $hook:
+    - READ >> $hook:
         Set: TalkerHooks
         Key: $.Msg.Hook
     - REEL|$hook
@@ -88,7 +88,7 @@ then the last 3 will never be executed because REEL will exit the script.
 
     | [Command ⌘](<../../📃 basics/Command ⌘.md>) | Purpose
     |-|-
-    | 🧲 [`GET`](<../../📃 datasets 🪣/GET 🧲/🧲 GET ⌘ cmd.md>) | Get the [`Hook` 🪣](<../../../Talkers 😃/😃🪣 Talker tables/😃 TalkerHooks 🪣 table.md>) from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>)  
+    | 🧲 [`READ`](<../../📃 datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) | Get the [`Hook` 🪣](<../../../Talkers 😃/😃🪣 Talker tables/😃 TalkerHooks 🪣 table.md>) from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>)  
     
 
     ---

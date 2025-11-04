@@ -89,7 +89,7 @@
 
     | Input| Purpose | Examples
     |-|-|-
-    | `$item` | [Holder 🧠](<../../📃 basics/Holder 🧠.md>) loaded with [`GET`](<../GET 🧲/🧲 GET ⌘ cmd.md>)
+    | `$item` | [Holder 🧠](<../../📃 basics/Holder 🧠.md>) loaded with [`READ`](<../READ 🧲/🧲 READ ⌘ cmd.md>)
     | `{changes}` | Object with changes to apply | `{A:1, B:2}`
 
     ---
@@ -99,7 +99,7 @@
 
     ```yaml
     # Get the item from the database
-    - GET >> $item:
+    - READ >> $item:
         Set: mySet
         Key: anExistingKey
 
@@ -116,11 +116,11 @@
 
 1. **What if the item doesn't exist?**
 
-    Set the `Default` property of [`GET`](<../GET 🧲/🧲 GET ⌘ cmd.md>).
+    Set the `Default` property of [`READ`](<../READ 🧲/🧲 READ ⌘ cmd.md>).
 
     ```yaml
     # Get the item from the database
-    - GET >> $item:
+    - READ >> $item:
         Set: mySet
         Key: aMissingKey # any missing key
 

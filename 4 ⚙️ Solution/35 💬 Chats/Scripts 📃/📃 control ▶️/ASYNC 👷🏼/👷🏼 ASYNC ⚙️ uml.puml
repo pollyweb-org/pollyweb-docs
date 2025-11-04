@@ -23,7 +23,7 @@ deactivate async
           
     hosted -> inbox: Placed 🚀 {hook, holder}
     activate inbox
-        inbox -> holders: GET {hook, holder}
+        inbox -> holders: READ {hook, holder}
         inbox -> hosted: {value}
     deactivate inbox
 

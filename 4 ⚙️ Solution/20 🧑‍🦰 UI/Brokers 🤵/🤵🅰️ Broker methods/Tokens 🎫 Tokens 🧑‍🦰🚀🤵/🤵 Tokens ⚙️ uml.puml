@@ -16,7 +16,7 @@ activate wallet
 wallet -> broker: Tokens 🚀
 
     activate broker
-        broker -> wallets: GET {wallet}
+        broker -> wallets: READ {wallet}
 
         activate wallets
         wallets -> tokens: .Tokens

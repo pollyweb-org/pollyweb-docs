@@ -13,7 +13,7 @@ participant "Broker 🤵" as broker
 'participant "Wallet 👱" as wallet
 
 activate script
-    script -> binds: GET
+    script -> binds: READ
 
     script -> script: PARALLEL 
     activate script

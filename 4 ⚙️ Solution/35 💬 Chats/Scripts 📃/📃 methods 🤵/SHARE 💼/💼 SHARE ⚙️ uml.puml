@@ -32,7 +32,7 @@ activate vault
     vault -> consumer: Context 🚀 {hook}
 
     activate consumer
-        consumer -> hooks: GET 🧲 {hook}
+        consumer -> hooks: READ 🧲 {hook}
         consumer -> vault: {context, schema}
     deactivate consumer
 

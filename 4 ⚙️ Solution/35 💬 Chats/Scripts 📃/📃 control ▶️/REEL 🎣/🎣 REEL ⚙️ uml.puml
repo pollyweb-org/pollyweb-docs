@@ -18,7 +18,7 @@ activate inbox
 deactivate inbox
 
 activate reel
-    reel -> hooks: GET {hook}
+    reel -> hooks: READ {hook}
     
     activate hooks
         hooks -> reel: {caller, script, holders}
@@ -28,7 +28,7 @@ activate reel
 
         reel -> reel: PARALLEL {holders}
         activate reel
-            reel -> holders: GET {holder}
+            reel -> holders: READ {holder}
             
             activate holders
                 holders -> reel: {value}

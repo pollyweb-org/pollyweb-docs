@@ -339,7 +339,7 @@
 
 1. **How does scope work?**
 
-    Here's a {{Script}}.
+    Here's a [Script 📃](<../../📃 basics/Script 📃.md>).
 
     ```yaml
     📃 Example:
