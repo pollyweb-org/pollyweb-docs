@@ -1,12 +1,12 @@
-# 😃📃 `.ASK` 🔽 script
+# 😃📃 `.ASK` script
 
 > Purpose
  
-* [Script 📃](<../../📃 basics/Script 📃.md>) that implements the [`ASK` 🔽 command](<🔽 ASK ⌘ cmd.md>)
+* [Script 📃](<../../📃 basics/Script 📃.md>) that implements the [`ASK` command](<🙋 ASK ⌘ cmd.md>)
 
 ## Flow
 
-![alt text](<🔽 ASK ⚙️ uml.png>)
+![alt text](<🙋 ASK ⚙️ uml.png>)
 
 ## How to call
 
