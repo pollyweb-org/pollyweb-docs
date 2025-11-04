@@ -3,9 +3,6 @@
 > Part of [Script 📃](<../../📃 basics/Script 📃.md>)
 
 
-<!-- TODO: examples -->
-> Used by [`Accepted@Issuer`](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Accepted 🤵🐌🎴/🎴 Accepted 🐌 msg.md>)
-
 <br/>
 
 
@@ -57,51 +54,6 @@
     ---
     <br/>
 
-1. **What's the syntax for comparisons?**
-
-    ```yaml
-    # Single comparison (as a string)
-    ASSERT|$object:
-        {value-A} {comparison} {value-B} 
-
-    # Multiple comparisons (as an array)
-    ASSERT|$object:
-        - {value-A-1} {comparison} {value-B-1} 
-        - {value-A-n} {comparison} {value-B-n} 
-    ```
-    
-    | Input| Purpose | Examples
-    |-|-|-
-    | `$object`| Optional initial context | `$.Msg` 
-    | `{value}` | String or [{Function}](<../../📃 basics/Function 🐍.md>) evaluated | `A` `{f}` `{$p}`
-    || Supports missing `{}`  | `f()` `$p`
-    | `{comparison}` | `=` `:` `!=` `>` `>=` `<` `<=` 
-    
-    ---
-    <br/>
-
-
-1. **How do bigger and smaller comparisons work?**
-
-    | Situation | Behavior | Result 
-    |-|-|-
-    | `math` | Math is math | ✅ `5 > 1.0` 
-    | `text` | Text checks length | ✅ `ABC` > 2
-    |                               || ✅ `ABC` > `XZ`
-    | `empties` | Empties are ignored  | ✅ `$empty > 1`
-    ||                   | ✅ `$empty < 1`
-    | `arrays` | Arrays check length | ✅ `[A,B] > 1`
-    |                               || ✅ `[A,B] > [C]`
-    | `objects` | Objects are blocked | ❌ `{A:1} >= 1`
-    |                               || ❌ `{A:1} > {A:2}`
-    
-
-    ---
-    <br/>
-
-
-
-
 
 1. **What's the syntax for boolean assertions?**
 
@@ -122,8 +74,7 @@
     | Input| Purpose | Examples
     |-|-|-
     | `$object`| Optional initial context | `$.Msg`
-    | `{boolean}` | ✅ Valid for meaningful values | `1` `-1` `True` `A`
-    || ❌ Fails on empty meanings | `0` `False` `$p=`
+    | `{boolean}` | Value with a [{Function} 🐍](<../../📃 basics/Function 🐍.md>) | `$p.Equals(3)`
     
     ---
     <br/>
@@ -134,18 +85,17 @@
     ```yaml
     # Empty or missing assertions
     ASSERT|$object:
-        - {empty-array}   
-        - {empty-object}  
+        - {value-1}   
+        - {value-n}  
     ```
 
     | Input| Purpose | Examples
     |-|-|-
     | `$object`| Optional initial context | `$.Msg`
-    | `{empty-array}` | ✅ Valid for arrays with values | `[0]` `[*]` |
-    | | ❌ Fails on empty arrays  | `[]` `$p=`
-    | `{empty-object}` | ✅ Valid for objects with values | `{A:0}`
-    | | ❌ Fails on empty objects | `{}` `$p=`
+    | `{value}` | Checked with [`.IsEmpty`](<../../📃 functions 🐍/🔩 {.IsEmpty}.md>) | `A` `$h` `$h.A`
 
+
+    ---
     <br/>
 
 
@@ -161,12 +111,11 @@
 
         # Supports single value assertions
         :{boolean}:
-        :{empty-array}:
-        :{empty-object}:  
+        :{value}:
     ```
     
     Restrictions:
-    * Only supports similar comparisons, i.e. `:`
+    * Only supports [`.Is`](<../../📃 functions 🐍/🔩 {.Is}.md>) assertions
     * Supports single value assertions surrounded with `:`
     * `{similar-value-A}` cannot be repeated
 
