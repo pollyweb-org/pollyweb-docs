@@ -19,6 +19,7 @@ user --> ui: pay(payer)
 activate ui
 ui --> payer: endorse(request, collector)
 deactivate ui
+
 ' ----------------------
 ' SELECT METHOD
 ' ----------------------

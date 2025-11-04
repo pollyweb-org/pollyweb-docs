@@ -1,14 +1,14 @@
-# 😃🔽 Talker `FILTER` command
+# 😃🔽 Talker `ASK` command
 
 > Part of [Script 📃](<../../📃 basics/Script 📃.md>)
 
-> Implemented by the [`.FILTER` 📃 script](<🔽 FILTER 📃 script.md>)
+> Implemented by the [`.ASK` 📃 script](<🔽 ASK 📃 script.md>)
 
 <br/>
 
-1. **What's a FILTER command?**
+1. **What's a ASK command?**
 
-    A `FILTER`
+    A `ASK`
     * is a message [Command ⌘](<../../📃 basics/Command ⌘.md>) 
     * that calls [`MANY` 🔠 prompt](<../../../Prompts 🤔/🤔✏️ Prompt inputs/MANY 🔠/🔠 MANY ⌘ cmd.md>)
     * to return only the user-selected items of a list.
@@ -17,10 +17,10 @@
     ---
     <br/>
 
-1. **What's the FILTER syntax?**
+1. **What's the ASK syntax?**
 
     ```yaml
-    FILTER|<text> >> $filtered:
+    ASK|<text> >> $filtered:
         Text: <text>
         Options: $list
         ID: <ID property>
@@ -39,7 +39,7 @@
     ---
     <br/>
 
-1. **What's an example of a FILTER?**
+1. **What's an example of a ASK?**
 
     Here's a [Chat 💬](<../../../Chats 💬/💬 Chat.md>).
 
@@ -61,7 +61,7 @@
           B: Another Option
 
     # Filter the list
-    FILTER >> $filtered:
+    ASK >> $filtered:
         Text: Which options?
         Options: $list
         ID: A

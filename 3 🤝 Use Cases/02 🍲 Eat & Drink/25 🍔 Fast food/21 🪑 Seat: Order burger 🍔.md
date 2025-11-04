@@ -138,7 +138,7 @@
         order: 
             Verb: order
             Steps:
-            - Schema: .CURATOR/FILTER
+            - Schema: .CURATOR/CURATE
               Purpose: your curator orders 🧚
             - Schema: .VITALOGIST/REVIEW
               Purpose: your vitalogist reviews 💖 

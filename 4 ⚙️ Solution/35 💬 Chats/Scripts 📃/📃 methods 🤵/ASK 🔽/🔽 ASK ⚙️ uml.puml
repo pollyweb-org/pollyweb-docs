@@ -1,9 +1,9 @@
-@startuml FILTER
+@startuml ASK
  
 box Talker 😃 domain #FFFFFA
     
     participant "Script 📃" as script
-    participant ".FILTER 📃" as talker
+    participant ".ASK 📃" as talker
 
     'participant ".MANY 📃" as many
     'participant "Host 🤗" as host
@@ -14,7 +14,7 @@ end box
 participant "Wallet 👱" as wallet
 
 activate script
-    script -> talker: FILTER 🔽 {options}
+    script -> talker: ASK 🔽 {options}
 deactivate script
 
 activate talker
