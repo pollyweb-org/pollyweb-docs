@@ -8,8 +8,7 @@
 
     A `SQL`
     * is a [Command ⌘](<../../📃 basics/Command ⌘.md>) 
-    * that works with lists like SQL
-    * using the [`.Filter`](<../../📃 functions 🐍/🔩 {.Filter}.md>) function.
+    * that works with lists like SQL.
 
     ---
     <br/>
@@ -18,16 +17,20 @@
 
     ```yaml
     SELECT >> $output:
-        First:
-        All: A, B
+        First|All|Distinct|Top(n): 
+            A:a
+            B:b
         From: $list
+        Union: $list-1, $list-n
         Where: {filters}
-        Limit: <limit>
+        OrderBy: +a, -b
     ```
 
     |Input|Purpose|Example
     |-|-|-
-    |
+    | `Distinct` | Groups results with [`.Distinct`](<../../📃 functions 🐍/🔩 {.Distinct}.md>)
+    | `Union` | Merges lists with {{.Union}}
+    | `Where` | Filters items with [`.Filter`](<../../📃 functions 🐍/🔩 {.Filter}.md>) 
 
     ---
     <br/>
