@@ -37,6 +37,43 @@
     ---
     <br/>
 
+1. **What are the built-in functions for time?**
+
+    |Group| Function | Details 
+    |-|-|-
+    |Get    | {{.Now}}      | What's the current time?
+    |       | {{This}}      | What's the given current period? 
+    |       | {{Previous}}  | What's the given previous period? 
+    |Compare| {{.Between}}  | Is it between two given times?
+    |       | {{.Is}}       | Is it in a given period?
+    |Change | {{.Add}}
+
+    ---
+    <br/>
+
+1. **What are the built-in functions for lists?**
+
+    Group | Function | Purpose 
+    |-|-|-
+    |Size   | [`.IsEmpty`](<../📃 functions 🐍/🔩 {.IsEmpty}.md>)  | Is empty?
+    |       | {{.IsOne}}    | Has only one item?
+    |       | [`.AreMany`](<../📃 functions 🐍/🔩 {.AreMany}.md>)  | Has more than one item?
+    |       | [`.Length`](<../📃 functions 🐍/🔩 {.Length}.md>)   | What's the length?
+    |       | [`.Size`](<../📃 functions 🐍/🔩 {.Size}.md>)     | What's the length?
+    |Query| [`.Contains`](<../📃 functions 🐍/🔩 {.Contains}.md>) | Contains a given item?
+    |       | {{.First}}    | What's the first item?
+    |       | {{.Last}}     | What's the last item
+    |       | {{.Equals}}   | Has these items in this order?
+    |       | {{.Differs}}  | Does not equal this other list?
+    |       | {{.Is}}       | Has these items in any order?
+    |       | {{.IsNot}}    | Are any of these items missing?
+    |Change | [`.Distinct`](<../📃 functions 🐍/🔩 {.Distinct}.md>) | What are the unique items?
+    |       | {{.Filter}}   | What items meet given filters?
+    |       | {{.Add}}      | What if we add items?
+    |       | {{.Minus}}    | What if we remove items?
+    
+    ---
+    <br/>
 
 1. **What are examples of built-in helper functions?**
 
