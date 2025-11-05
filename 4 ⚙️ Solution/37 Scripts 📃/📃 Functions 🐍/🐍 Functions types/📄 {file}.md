@@ -2,7 +2,7 @@
 
 # 🐍 {/file} function
 
-> Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
+> Part of [{Functions} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
 <br/>
 
