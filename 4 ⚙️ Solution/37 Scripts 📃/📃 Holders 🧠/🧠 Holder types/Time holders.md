@@ -8,7 +8,7 @@
 
 1. **What are the built-in functions for time?**
 
-    |Group| {{Function}} | Details 
+    |Group| [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | Details 
     |-|-|-
     |Get    | [`.Now`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System functions 🔩/🔩 {.Now}.md>)      | What's the current time?
     |       | [`.Today`](<../../📃 Functions 🐍/🐍 System functions 🔩/🔩 {.Today}.md>) | What's the current date?

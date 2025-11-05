@@ -77,7 +77,7 @@
 
     | [Command ⌘](<../../Scripts 📃/Command ⌘.md>) | Purpose
     |-|-
-    | ℹ️ [`INFO`](<../🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the messages and details.
+    | ℹ️ [`INFO`](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the messages and details.
     
 
     <br/>

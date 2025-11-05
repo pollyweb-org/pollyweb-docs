@@ -8,7 +8,7 @@
 
 1. **What are the built-in functions for numbers?**
 
-    |Group| {{Function}} | Details 
+    |Group| [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | Details 
     |-|-|-
     | Assess| [`.IsEmpty`](<../../📃 Functions 🐍/🐍 System functions 🔩/🔩 {.IsEmpty}.md>) | Is it an empty [Holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)?
     |       | [`.IsNotEmpty`](<../../📃 Functions 🐍/🐍 System functions 🔩/🔩 {.IsNotEmpty}.md>) | Does it contain a number?

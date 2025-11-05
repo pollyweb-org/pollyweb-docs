@@ -10,7 +10,7 @@
 
     A `ASK`
     * is a message [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) 
-    * that calls [`MANY` 🔠 prompt](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/MANY 🔠/🔠 MANY ⌘ cmd.md>)
+    * that calls [`MANY` 🔠 prompt](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/MANY 🔠/🔠 MANY ⌘ cmd.md>)
     * to return only the user-selected items of a list.
 
 

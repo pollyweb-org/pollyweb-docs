@@ -8,7 +8,7 @@
 
 1. **What are the built-in functions for text strings?**
 
-    |Group| {{Function}} | Details 
+    |Group| [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | Details 
     |-|-|-
     | Assess| [`.IsEmpty`](<../../📃 Functions 🐍/🐍 System functions 🔩/🔩 {.IsEmpty}.md>) | Is it an empty text?
     |       | [`.IsNotEmpty`](<../../📃 Functions 🐍/🐍 System functions 🔩/🔩 {.IsNotEmpty}.md>) | Is it text, not just spaces?

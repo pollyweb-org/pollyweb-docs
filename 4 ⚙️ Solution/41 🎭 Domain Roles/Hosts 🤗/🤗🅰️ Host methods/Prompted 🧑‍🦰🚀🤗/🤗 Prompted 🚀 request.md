@@ -60,8 +60,8 @@ Options:                            # Optional
 |Property|Type|Description
 |-|-|-
 | [`Text`](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/2 🪧 Text.md>) | string | Main message,  to display in the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
-| [`MinValue`](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt input features/📋 Input validation.md>) | int | Optional minimum value
-| [`MaxValue`](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt input features/📋 Input validation.md>) | int | Optional maximum value
+| [`MinValue`](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/📋 Input validation.md>) | int | Optional minimum value
+| [`MaxValue`](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/📋 Input validation.md>) | int | Optional maximum value
 | [`Appendix`](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/5 📎 with Appendix.md>)| uuid   | File to download via [`Download@Host`](<../Download 🧑‍🦰🚀🤗/🤗 Download 🚀 request.md>)
 | [`Details`](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/3 ⊕ with Details.md>) | string | Extended [details](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/3 ⊕ with Details.md>) in Markdown format
 | [`Options`](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/4 🔘 with Options.md>) | object[]   | List of `Option` objects
@@ -82,7 +82,7 @@ Options:                            # Optional
 
 1. **Why aren't the `Format` and `Emoji` properties provided?**
 
-    Those [Prompt 🤔](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) properties are provided directly via the [`Prompt@Broker` 🅰️ method](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>) so that [Broker 🤵 domains](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) can enforce standardization of [emojis](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt input features/😶⌘ EMOJI cmd.md>) for the benefit of users.
+    Those [Prompt 🤔](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) properties are provided directly via the [`Prompt@Broker` 🅰️ method](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>) so that [Broker 🤵 domains](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) can enforce standardization of [emojis](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/😶⌘ EMOJI cmd.md>) for the benefit of users.
 
     ---
     <br/>

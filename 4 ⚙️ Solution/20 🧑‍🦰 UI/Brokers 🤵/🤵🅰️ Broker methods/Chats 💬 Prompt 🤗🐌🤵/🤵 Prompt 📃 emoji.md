@@ -2,7 +2,7 @@
 
 > Purpose
 * Calculates an emoji for a [Prompt 🤔](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>)
-* Implements the logic in [Input emojis 😶 ](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt input features/😶 Input emojis.md>)
+* Implements the logic in [Input emojis 😶 ](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/😶 Input emojis.md>)
 
 
 > Called by

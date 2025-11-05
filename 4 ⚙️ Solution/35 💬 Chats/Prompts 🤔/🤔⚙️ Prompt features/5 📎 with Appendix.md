@@ -47,7 +47,7 @@
 
     | [Command ⌘](<../../Scripts 📃/Command ⌘.md>) | Purpose
     |-|-
-    | 🔠 [`TEXT`](<../🤔✏️ Prompt inputs/TEXT 🔠/TEXT 🔠 prompt.md>) | To ask a question with an image.
+    | 🔠 [`TEXT`](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 🔠/TEXT 🔠 prompt.md>) | To ask a question with an image.
     |
     
 

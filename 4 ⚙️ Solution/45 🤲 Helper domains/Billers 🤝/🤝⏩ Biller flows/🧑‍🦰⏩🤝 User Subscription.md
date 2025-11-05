@@ -65,6 +65,6 @@ The corresponding [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃
 | 🛠️ [`INVITE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/INVITE 🤲/🤲 INVITE ⌘ cmd.md>) | To subscribe the user to plan.
 | ❄️ [`FREEZE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/FREEZE ❄️/❄️ FREEZE ⌘ cmd.md>) | To disable past inputs.
 | ⬇️ [`EVAL`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | To register on the database.
-| ✅ [`SUCCESS`](<../../../35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) | To say that it was successful.
+| ✅ [`SUCCESS`](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>) | To say that it was successful.
 | 👋 [`GOODBYE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>) | To show advertising.
 |
