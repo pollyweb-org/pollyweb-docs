@@ -45,3 +45,28 @@
     
     ---
     <br/>
+
+
+1. **How to assert list of objects?**
+
+    Here's a [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
+
+    ```yaml
+    📃 Example:
+
+    # Create a list
+    EVAL >> $list:
+        - {A:10, B:20, C:X}
+        - {A:11, B:21, C:Y}
+
+    # Verify the list items.
+    ASSERT|$list:
+        - AllOf: A, B
+        - A.IsBetween(10,19)
+        - B.IsBetween(20,29)
+        - C.IsIn(X,Y)
+    ```
+    Uses: [`ASSERT`](<../../📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`EVAL`](<../../📃 Commands ⌘/⌘ for holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`.IsBetween`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsBetween}.md>) [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>)
+
+    ---
+    <br/>

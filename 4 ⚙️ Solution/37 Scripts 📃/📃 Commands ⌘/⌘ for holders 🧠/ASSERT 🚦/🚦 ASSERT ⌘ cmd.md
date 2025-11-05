@@ -16,6 +16,17 @@
     ---
     <br/>
 
+1. **What are examples of ASSERT usage?**
+
+    | Scenario | Purpose
+    |-|-
+    | [`$.Inputs` 🧠 holder](<../../../📃 Holders 🧠/🧠 System holders/$.Inputs ▶️/▶️ $.Inputs 🧠 holder.md>)      | Assert inputs from [`RUN`](<../../⌘ for control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>) commands
+    | [`$.Msg` 🧠 holder](<../../../📃 Holders 🧠/🧠 System holders/$.Msg 📨/📨 $.Msg 🧠 holder.md>)         | Assert incoming [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
+    | [`List` holders 🧠](<../../../📃 Holders 🧠/🧠 Holder types/List holders.md>)  | Assert items in list [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)
+
+    ---
+    <br>
+
 1. **What's the syntax for Multi-field assertions?**
 
     ```yaml
@@ -58,82 +69,27 @@
 1. **What's the syntax for boolean assertions?**
 
     ```yaml
-    # Value boolean assertions
-    ASSERT|{boolean}
-
-    # Object boolean single assertion (string)
     ASSERT|$object:
-        {boolean}  
-        
-    # Object boolean multiple assertions (array)
-    ASSERT|$object:
-        - {boolean-1}  
-        - {boolean-2}  
+        - <key>
+        - <key>.f(?)
+        - <key>: <val>
     ```
     
     | Input| Purpose | Examples
     |-|-|-
-    | `$object`| Optional initial context | `$.Msg`
-    | `{boolean}` | Value with a [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | `$p.Equals(3)`
+    | `$object`| Optional initial context | [`$.Msg`](<../../../📃 Holders 🧠/🧠 System holders/$.Msg 📨/📨 $.Msg 🧠 holder.md>) [`.Inputs`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Inputs}.md>)
+    | `<key>` | Context property or [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | `From` `$A` [`$list`](<../../../📃 Holders 🧠/🧠 Holder types/List holders.md>)`.A` 
+    | | - asserts with [`.IsNotEmpty`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNotEmpty}.md>) 
+    | `.f(?)`| Boolean [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.IsIn`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>)`(A,B)`
+    | | - only asserts if [`.IsNotEmpty`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNotEmpty}.md>) 
+    | `:<val>` | Value to assert with [`.Is`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>)  | `:any-domain.dom`
+    | | - only asserts if [`.IsNotEmpty`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNotEmpty}.md>) 
     
     ---
     <br/>
 
 
-1. **What's the syntax or empty or missing assertions?**
 
-    ```yaml
-    # Empty or missing assertions
-    ASSERT|$object:
-        - {value-1}   
-        - {value-n}  
-    ```
-
-    | Input| Purpose | Examples
-    |-|-|-
-    | `$object`| Optional initial context | `$.Msg`
-    | `{value}` | Checked with [`.IsEmpty`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsEmpty}.md>) | `A` `$h` `$h.A`
-
-
-    ---
-    <br/>
-
-
-1. **What's an alternative syntax?**
-
-    ```yaml
-    # Alternative syntax
-    ASSERT|$object:
-        
-        # Only supports similar comparisons 
-        {similar-value-A1}: {similar-value-A2} 
-        {similar-value-An}: {similar-value-An} 
-
-        # Supports single value assertions
-        :{boolean}:
-        :{value}:
-    ```
-    
-    Restrictions:
-    * Only supports [`.Is`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) assertions
-    * Supports single value assertions surrounded with `:`
-    * `{similar-value-A}` cannot be repeated
-
-    ---
-    <br/>
-
-
-
-1. **How does the `$context` work with Functions?**
-
-    |Situation | Behavior
-    |-|-
-    | `Comparisons` | The left of the operator maps to the `$object`
-    |               | The right side is evaluated with [{Functions} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
-    | `Single value` | No [{Functions} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>); all is mapped to `$object` 
-
-    ---
-    <br/>
 
 1. **How to assert a Locator?**
 
@@ -159,59 +115,8 @@
     ---
     <br/>
 
-1. **How to assert enums?**
 
-    ```yaml
-    # Enum assertions
-    ASSERT:
-        
-    ```
-    | Input| Purpose | Examples
-    |-|-|-
-    | `$object`| Optional initial context | `$.Msg`
-    | `Enum` | List of possible values | `A,B` `[A,B]`
-    |
-
-    Syntax flexibility:
-    * `Enums` (with an `s`) will also work.
-    * The `-` is optional if there's no `Enum` property on the object.
-    * If there's an `Enum` property on the given context object
-        * then a similar `:` comparison is performed.
-    
-    <br/>
-    
-    Here's a valid example for a value.
-
-    ```yaml
-    📃 Example:
-    
-    # Assert
-    - ASSERT|A:
-        Enum: A, B, C
-
-    # Show success
-    - SUCCESS|A is in (A, B, C)
-    ```
-
-    <br/>
-    Here's a valid example for a list of values.
-
-
-    ```yaml
-    📃 Example:
-    
-    # Assert
-    - ASSERT|A,B,B,B:
-        Enum: A, B, C
-
-    # Show success
-    - SUCCESS|All elements are in (A, B, C)
-    ```
-
-    ---
-    <br/>
-
-1. **How to assert list of object?**
+1. **How to assert list of objects?**
 
     Here's a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
 
