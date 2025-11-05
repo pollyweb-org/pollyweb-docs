@@ -33,6 +33,7 @@
         Vault: $.Msg.Host
         Wallet: $chat.Wallet.ID
         Schema: $schema.Schema
+        Schema$: $schema.Translation
 
     # Add to the list of binds
     - EVAL +> $binds:

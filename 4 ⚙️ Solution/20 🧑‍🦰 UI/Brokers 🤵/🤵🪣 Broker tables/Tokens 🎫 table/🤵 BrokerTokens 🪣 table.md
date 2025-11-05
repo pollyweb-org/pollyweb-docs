@@ -58,6 +58,7 @@ Issuer: any-issuer.dom
 Issuer$: Any Issuer
 Key: token-1234
 Schema: any-authority.dom/ANY-SCHEMA:1.0
+Schema$: Any Schema Title
 Status: REVOKED
 Starts: 2018-12-10T13:45:00.000Z
 Expires: 2018-12-10T13:45:00.000Z
