@@ -9,7 +9,7 @@
     The `🗺️ Map.yaml` file
     * indexes the [Resources 🗂️ folder](<🗂️📂 Filer folder.md>)
     * and the [Tables 🪣 folder](<🪣📂 Tables folder.md>)
-    * to be used by the [Talker `READ` command](<../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>).
+    * to be used by the [Talker `READ` command](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>).
     
     ---
     <br/>

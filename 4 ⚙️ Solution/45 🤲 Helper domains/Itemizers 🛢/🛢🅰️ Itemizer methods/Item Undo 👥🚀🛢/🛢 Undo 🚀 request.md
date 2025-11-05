@@ -2,7 +2,7 @@
 
 > Part of [Itemizer 🛢 helper](<../../🛢🤲 Itemizer helper.md>)
 
-> Implements the [`UNDO`](<../../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/UNDO ↩️/↩️ UNDO ⌘ cmd.md>) command.
+> Implements the [`UNDO`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/UNDO ↩️/↩️ UNDO ⌘ cmd.md>) command.
 
 
 <br/>
@@ -26,7 +26,7 @@ Body:
 | Header    |`From`|domain| [Talker 😃](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>) from [`Delete@Itemizer`](<../Item Delete 👥🚀🛢/🛢 Delete 🚀 request.md>)
 |           |`To`|domain| [Itemizer 🛢](<../../🛢🤲 Itemizer helper.md>) from [`Delete@Itemizer`](<../Item Delete 👥🚀🛢/🛢 Delete 🚀 request.md>)
 |           | `Subject`     | string    | `Undo@Itemizer`
-| Body    | `Script`     | string    | [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) for traceability
+| Body    | `Script`     | string    | [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) for traceability
 |         | `Set`    | string  | `Set` from [`Delete@Itemizer`](<../Item Delete 👥🚀🛢/🛢 Delete 🚀 request.md>) 
 |         | `Key`     | string[]  | `Key` from [`Delete@Itemizer`](<../Item Delete 👥🚀🛢/🛢 Delete 🚀 request.md>)
 |

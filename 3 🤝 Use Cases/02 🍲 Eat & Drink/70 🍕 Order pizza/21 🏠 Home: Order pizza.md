@@ -45,7 +45,7 @@ Order a pizza for home delivery
 
 ## 💼 Business Setup
 
-1. **What does the [`Script`](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) look like?**
+1. **What does the [`Script`](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/Script 📃.md>) look like?**
 
     ```yaml
     💬 Order:

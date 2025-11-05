@@ -71,7 +71,7 @@
 
 
 
-1. **What's the syntax on a [Script 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>)?**
+1. **What's the syntax on a [Script 📃](<../../../Scripts 📃/Script 📃.md>)?**
 
     ```yaml
     # Simplest.
@@ -81,7 +81,7 @@
     | Input| Purpose 
     |-|-
     | `<text>`| Message to show to the user
-    | `$holder`| Optional [holder 🧠](<../../../Scripts 📃/📃 basics/Holder 🧠.md>) with the user's answer
+    | `$holder`| Optional [holder 🧠](<../../../Scripts 📃/Holder 🧠.md>) with the user's answer
     
     ```yaml
     # Comprehensive.
@@ -128,7 +128,7 @@
    
     <br/>
 
-    Here's the [Script 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>).
+    Here's the [Script 📃](<../../../Scripts 📃/Script 📃.md>).
     
     ```yaml
     📃 Example:
@@ -169,7 +169,7 @@
 
     <br/>
    
-    Here's the [Script 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>).
+    Here's the [Script 📃](<../../../Scripts 📃/Script 📃.md>).
     
     ```yaml
     # Explicit, not recommended, just for the exercise.
@@ -235,7 +235,7 @@
    
     <br/>
 
-    Here's the [Script 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>).
+    Here's the [Script 📃](<../../../Scripts 📃/Script 📃.md>).
     
     ```yaml
     # Explicit, not recommended, just for the exercise.
@@ -258,7 +258,7 @@
     - SUCCESS|You entered `$money`
     ```
 
-    | [Command ⌘](<../../../Scripts 📃/📃 basics/Command ⌘.md>) | Purpose
+    | [Command ⌘](<../../../Scripts 📃/Command ⌘.md>) | Purpose
     |-|-
     | 💰 [`AMOUNT`](<../AMOUNT 💰/AMOUNT 💰 prompt.md>) | To collect a structured currency value.
     | ✅ [`SUCCESS`](<../../🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) | To show the formatted collected value.

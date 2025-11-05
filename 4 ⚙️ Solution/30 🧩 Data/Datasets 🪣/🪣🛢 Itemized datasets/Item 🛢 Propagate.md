@@ -9,7 +9,7 @@
 
     Add a `Propagate` list 
     * for parents to be automatically created 
-    * on the [`SAVE` 💾 command](<../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) 
+    * on the [`SAVE` 💾 command](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) 
     * and on the [`Save@Itemizer` 🅰️ method](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/Item Save 👥🚀🛢/🛢 Save 🚀 request.md>).
 
     ```yaml

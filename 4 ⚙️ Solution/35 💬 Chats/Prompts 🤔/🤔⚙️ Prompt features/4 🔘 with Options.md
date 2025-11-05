@@ -59,7 +59,7 @@
 
 
 
-1. **What's the syntax for a [Script 📃](<../../Scripts 📃/📃 basics/Script 📃.md>)?**
+1. **What's the syntax for a [Script 📃](<../../Scripts 📃/Script 📃.md>)?**
 
     ```yaml
     # Simplest
@@ -146,7 +146,7 @@
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | ℹ️ You opted to play.
     |  
 
-    Here's the [Script 📃](<../../Scripts 📃/📃 basics/Script 📃.md>).
+    Here's the [Script 📃](<../../Scripts 📃/Script 📃.md>).
 
     ```yaml
     # 😃 Talker
@@ -163,10 +163,10 @@
         Share: INFO|You choose to share.
     ```
 
-    | [Command ⌘](<../../Scripts 📃/📃 basics/Command ⌘.md>) | Purpose
+    | [Command ⌘](<../../Scripts 📃/Command ⌘.md>) | Purpose
     |-|-
     | 1️⃣ [`ONE`](<../🤔✏️ Prompt inputs/ONE 1️⃣/ONE 1️⃣ prompt.md>) | To show the options.
-    | ⏯️️ [`CASE`](<../../Scripts 📃/📃 control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | To check the selected option.
+    | ⏯️️ [`CASE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | To check the selected option.
     | ℹ️ [`INFO`](<../🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the result.
     
 
@@ -216,7 +216,7 @@
 
     <br/>
 
-    Here's the [Script 📃](<../../Scripts 📃/📃 basics/Script 📃.md>).
+    Here's the [Script 📃](<../../Scripts 📃/Script 📃.md>).
 
     
   
@@ -239,10 +239,10 @@
     ```
 
 
-    | [Command ⌘](<../../Scripts 📃/📃 basics/Command ⌘.md>) | Purpose
+    | [Command ⌘](<../../Scripts 📃/Command ⌘.md>) | Purpose
     |-|-
     | 1️⃣ [`ONE`](<../🤔✏️ Prompt inputs/ONE 1️⃣/ONE 1️⃣ prompt.md>) | To show the options.
-    | ⏯️️ [`CASE`](<../../Scripts 📃/📃 control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | To check the selected option.
+    | ⏯️️ [`CASE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | To check the selected option.
     | ℹ️ [`INFO`](<../🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the result.
     
     <br/>

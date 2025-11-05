@@ -22,7 +22,7 @@
             * e.g., `that's funny` versus `🤣🤣🤣`
   
     * To help [Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) developers, 
-        * [Scripts 📃](<../../Scripts 📃/📃 basics/Script 📃.md>) add emojis to [`Prompted@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 request.md>) messages. 
+        * [Scripts 📃](<../../Scripts 📃/Script 📃.md>) add emojis to [`Prompted@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 request.md>) messages. 
 
 
     ---
@@ -51,7 +51,7 @@
 
     <br/>
 
-    Here's the [Script 📃](<../../Scripts 📃/📃 basics/Script 📃.md>).
+    Here's the [Script 📃](<../../Scripts 📃/Script 📃.md>).
 
     ```yaml
     # 😃 Talker
@@ -74,7 +74,7 @@
 
 1. **Can Talker prompts use alternative emojis?**
 
-    The default [Script 📃](<../../Scripts 📃/📃 basics/Script 📃.md>) emoji `😃` can be replaced with one of the following.
+    The default [Script 📃](<../../Scripts 📃/Script 📃.md>) emoji `😃` can be replaced with one of the following.
 
     ||Emoji | Application | Example
     |-|-|-|-
@@ -106,7 +106,7 @@
 
 1. **How to change an emoji in a Prompt?**
 
-    Here's a [Script 📃](<../../Scripts 📃/📃 basics/Script 📃.md>).
+    Here's a [Script 📃](<../../Scripts 📃/Script 📃.md>).
 
     ```yaml
     - CONFIRM|Are you OK?:

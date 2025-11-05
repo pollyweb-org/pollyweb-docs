@@ -35,7 +35,7 @@
     <br/>
 
 
-1. **What's the syntax of a [Script 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>)?**
+1. **What's the syntax of a [Script 📃](<../../../Scripts 📃/Script 📃.md>)?**
 
     ```yaml
     # Simplest.
@@ -45,7 +45,7 @@
     | Input| Purpose 
     |-|-
     | `<text>`| Message to show to the user
-    | `$holder`| Optional [holder 🧠](<../../../Scripts 📃/📃 basics/Holder 🧠.md>) with the user's answer
+    | `$holder`| Optional [holder 🧠](<../../../Scripts 📃/Holder 🧠.md>) with the user's answer
     
 
     ```yaml
@@ -82,7 +82,7 @@
 
     <br/>
     
-    Here's the [Script 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>).
+    Here's the [Script 📃](<../../../Scripts 📃/Script 📃.md>).
     
     ```yaml
     - RATE|What's the rate? >> $code

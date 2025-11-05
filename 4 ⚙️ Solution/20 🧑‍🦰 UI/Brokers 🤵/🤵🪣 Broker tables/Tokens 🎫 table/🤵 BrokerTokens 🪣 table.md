@@ -34,7 +34,7 @@ Views:
         - .Now.IsBetween(Starts, Expires)
         - Status: ACTIVE
 ```
-Uses: [`.Now`](<../../../../35 💬 Chats/Scripts 📃/📃 functions 🐍/🔩 {.Now}.md>) [`.IsBetween`](<../../../../35 💬 Chats/Scripts 📃/📃 functions 🐍/🔩 {.IsBetween}.md>) 
+Uses: [`.Now`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System functions 🔩/🔩 {.Now}.md>) [`.IsBetween`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System functions 🔩/🔩 {.IsBetween}.md>) 
 
 
 | Link | Table | Stores
@@ -47,7 +47,7 @@ Uses: [`.Now`](<../../../../35 💬 Chats/Scripts 📃/📃 functions 🐍/🔩 
 
 ## Example
 
-Here's the [`READ` command](<../../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) result.
+Here's the [`READ` command](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) result.
 
 
 ```yaml

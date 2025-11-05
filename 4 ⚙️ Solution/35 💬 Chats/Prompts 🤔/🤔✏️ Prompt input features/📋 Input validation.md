@@ -29,7 +29,7 @@
     |
 
 
-    Here's a [Script 📃](<../../Scripts 📃/📃 basics/Script 📃.md>).
+    Here's a [Script 📃](<../../Scripts 📃/Script 📃.md>).
 
     ```yaml
     - QUANTITY|How many players? >> $qt:
@@ -61,7 +61,7 @@
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | 😃 What's the code? [+]<br/> | `012345`
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | ✅ Code validated!
 
-    Here's the [Script 📃](<../../Scripts 📃/📃 basics/Script 📃.md>).
+    Here's the [Script 📃](<../../Scripts 📃/Script 📃.md>).
 
     ```yaml
     📃 Example:
@@ -96,7 +96,7 @@
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | ✅ Code validated!
     |
 
-    Here's the [Script 📃](<../../Scripts 📃/📃 basics/Script 📃.md>).
+    Here's the [Script 📃](<../../Scripts 📃/Script 📃.md>).
 
     ```yaml
     # Talker 😃
@@ -115,7 +115,7 @@
     - RUN|get-code
     ```
 
-    Here's the [Function 🐍 handler](<../../Scripts 📃/📃 basics/Function 🐍.md>).
+    Here's the [Function 🐍 handler](<../../Scripts 📃/Function 🐍.md>).
 
     ```python
     # 🐍 Python handler

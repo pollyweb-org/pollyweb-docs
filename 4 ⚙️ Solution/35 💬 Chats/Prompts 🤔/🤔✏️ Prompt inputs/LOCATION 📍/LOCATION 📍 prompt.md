@@ -36,7 +36,7 @@
     <br/>
 
 
-1. **What's the format for a [Script 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>)?**
+1. **What's the format for a [Script 📃](<../../../Scripts 📃/Script 📃.md>)?**
 
     ```yaml
     - LOCATION >> $holder
@@ -44,12 +44,12 @@
 
     |Parameter|Details
     |-|-
-    | `$holder` | Stores the answer in this [holder 🧠](<../../../Scripts 📃/📃 basics/Holder 🧠.md>)
+    | `$holder` | Stores the answer in this [holder 🧠](<../../../Scripts 📃/Holder 🧠.md>)
     
     ---
     <br/>
 
-1. **What's an example of a [Script 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>)?**
+1. **What's an example of a [Script 📃](<../../../Scripts 📃/Script 📃.md>)?**
 
     ```yaml
     - LOCATION >> $loc

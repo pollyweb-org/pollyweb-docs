@@ -27,7 +27,7 @@
     ---
     <br/>
 
-1. **What's the syntax on a [Script 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>)?**
+1. **What's the syntax on a [Script 📃](<../../../Scripts 📃/Script 📃.md>)?**
 
     ```yaml
     # Simplest.
@@ -37,7 +37,7 @@
     | Input| Purpose 
     |-|-
     | `<text>`| Message to show to the user
-    | `$holder`| Optional [holder 🧠](<../../../Scripts 📃/📃 basics/Holder 🧠.md>) with the user's answer 
+    | `$holder`| Optional [holder 🧠](<../../../Scripts 📃/Holder 🧠.md>) with the user's answer 
 
     ```yaml
     # Comprehensive.
@@ -87,7 +87,7 @@
     
     <br/>
 
-    Here's the [Script 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>).
+    Here's the [Script 📃](<../../../Scripts 📃/Script 📃.md>).
     
     ```yaml
     # 😃 Talker 
@@ -136,7 +136,7 @@
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | ⏳ Checking availability... 
     |
 
-    Here's the [Script 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>).
+    Here's the [Script 📃](<../../../Scripts 📃/Script 📃.md>).
 
     ```yaml
     # 😃 Talker 
@@ -159,11 +159,11 @@
     - TEMP|Checking availability...
     ```
 
-    | [Command ⌘](<../../../Scripts 📃/📃 basics/Command ⌘.md>) | Purpose
+    | [Command ⌘](<../../../Scripts 📃/Command ⌘.md>) | Purpose
     |-|-
     | ℹ️ [`INFO`](<../../🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the result.
     | 1️⃣ [`ONE`](<../ONE 1️⃣/ONE 1️⃣ prompt.md>) | To show the options.
-    | ⏯️️ [`CASE`](<../../../Scripts 📃/📃 control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | To check the selected option.
+    | ⏯️️ [`CASE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | To check the selected option.
     | ⏳ [`TEMP`](<../../🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>) | To show work in progress.
     
 
@@ -174,7 +174,7 @@
 
 1. **How does Precision work?**
 
-    When collecting a [`QUANTITY`](<QUANTITY ↕️ prompt.md>) input, [Scripts 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>)
+    When collecting a [`QUANTITY`](<QUANTITY ↕️ prompt.md>) input, [Scripts 📃](<../../../Scripts 📃/Script 📃.md>)
     * round up the input based on the precision, 
     * and ask confirmation to the user if the value differs.
 
@@ -193,7 +193,7 @@
 
     <br/>
 
-    Here's the [Script 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>).
+    Here's the [Script 📃](<../../../Scripts 📃/Script 📃.md>).
     
     ```yaml
     # 😃 Talker 
@@ -203,10 +203,10 @@
     - REPEAT
     ```
 
-    | [Command ⌘](<../../../Scripts 📃/📃 basics/Command ⌘.md>) | Purpose
+    | [Command ⌘](<../../../Scripts 📃/Command ⌘.md>) | Purpose
     |-|-
     | ℹ️ [`INFO`](<../../🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the message.
-    | 🔁 [`REPEAT`](<../../../Scripts 📃/📃 control ▶️/REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) | To repeat the input cycle forever.
+    | 🔁 [`REPEAT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) | To repeat the input cycle forever.
      
 
     ---
@@ -226,8 +226,8 @@
     | `$p.Decimal` | Decimal rounded to `Precision` | `1234.57`
     | `$p.Pretty` | Decimal formatted to `Locale` | `1,234.57`
     | `$p.Locale` | CLDR locale used to format | `en-US`
-    | [`$p.$`](<../../../Scripts 📃/📃 basics/Function 🐍.md>) | The value of `$p.Pretty` | `1,234.57`
-    | `$p` | The [default value](<../../../Scripts 📃/📃 basics/Function 🐍.md>) `$p.$` | `1,234.57`
+    | [`$p.$`](<../../../Scripts 📃/Function 🐍.md>) | The value of `$p.Pretty` | `1,234.57`
+    | `$p` | The [default value](<../../../Scripts 📃/Function 🐍.md>) `$p.$` | `1,234.57`
 
     ---
     <br/>
@@ -244,7 +244,7 @@
 
     <br/>
 
-    Here's the [Script 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>).
+    Here's the [Script 📃](<../../../Scripts 📃/Script 📃.md>).
         
     ```yaml
     # 😃 Talker 

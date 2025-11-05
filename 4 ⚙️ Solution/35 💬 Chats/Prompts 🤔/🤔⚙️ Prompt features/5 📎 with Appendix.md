@@ -38,14 +38,14 @@
 
     <br/>
 
-    Here's the [Script 📃](<../../Scripts 📃/📃 basics/Script 📃.md>).
+    Here's the [Script 📃](<../../Scripts 📃/Script 📃.md>).
 
     ```yaml
     - TEXT|Who is in the picture?:
         Appendix: {/photos/elvis.png}
     ```
 
-    | [Command ⌘](<../../Scripts 📃/📃 basics/Command ⌘.md>) | Purpose
+    | [Command ⌘](<../../Scripts 📃/Command ⌘.md>) | Purpose
     |-|-
     | 🔠 [`TEXT`](<../🤔✏️ Prompt inputs/TEXT 🔠/TEXT 🔠 prompt.md>) | To ask a question with an image.
     |
