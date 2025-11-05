@@ -126,19 +126,45 @@
 1. **How to pass object inputs into a Command?**
 
     ```yaml
-    # multiple values
+    # in multiple lines as a YAML object
     - <CMD> >> $out:
         <pro-1>: <val-1>    # objects
-        <pro-n>: <val-n>    #   with a property map
-        $holder-1:          # holders
-        $holder-2:          #   with a ":" suffix
+        <pro-2>: <val-2>    #   with a property map
+        $holder-1:          # holders with a ":" suffix
         :$holder-n:         #   or surrounded by ":"
     ```
 
     ```yaml
-    # in a single line
+    # in a single line as a YAML object
     - <CMD> >> $out:
         {P1:V1, Pn:Vn, $h1, $h2}
+    ```
+
+    ```yaml
+    # in multiple lines as a YAML list
+    - <CMD> >> $out:
+        - <pro-1>: <val-1>    # objects
+        - <pro-2>: <val-2>    #   with a property map
+        - $holder-1           # holders
+        - $holder-2           #   with just the holder
+    ```
+
+    ```yaml
+    # in a single line as a YAML list
+    - <CMD> >> $out:
+        [p1:v1, p2:v2, $h1, $h2]
+    ```
+
+    ```yaml
+    # in a single line as a comma-separated string
+    - <CMD> >> $out:
+        p1:v1, p2:v2, $h1, $h2
+    ```
+
+    ```yaml
+    # in a single line as a space-separated string
+    - <CMD> >> $out:
+        p1:v1 p2:v2 $h1 $h2
     ```
 
     Inputs | Purpose | Example

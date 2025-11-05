@@ -29,7 +29,24 @@
     ---
     <br/>
 
-1. **What is the syntax of the PARALLEL command?**
+1. **What is the PARALLEL syntax for list items?**
+
+    ```yaml
+    PARALLEL:
+        # List of commands
+        - <command-1>
+        - <command-n>
+    ```
+
+    | Input | Purpose | Example
+    |-|-|-
+    | `<command>`   | [Command ⌘](<../../📃 basics/Command ⌘.md>) to execute in parallel | [`SAVE`](<../../📃 datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
+
+    ---
+    <br/>
+
+
+1. **What is the syntax of the PARALLEL for blocks?**
 
     ```yaml
     PARALLEL|$list|$item:
