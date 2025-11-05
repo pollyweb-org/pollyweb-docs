@@ -135,25 +135,6 @@
     ---
     <br/>
 
-1. **How to assert a Message?**
-
-    ```yaml
-    📃 Example:
-
-    # Assert a matching pair
-    - ASSERT|$.Msg:
-        From: any-broker.dom
-
-    # Show success message
-    - SUCCESS|Message is from Any Broker
-    ```
-
-    Commands: [`$.Msg`](<../../../📃 Holders 🧠/🧠 System holders/$.Msg 📨/📨 $.Msg 🧠 holder.md>) [`ASSERT`](<🚦 ASSERT ⌘ cmd.md>) [`SUCCESS`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>)
-
-    ---
-    <br/>
-
-
 1. **How to assert a Locator?**
 
     > This uses the syntax of the [`{.Parse}` 🔆 function](<../PARSE 🔆/🔆 PARSE ⌘ cmd.md>).
@@ -178,12 +159,12 @@
     ---
     <br/>
 
-1. **What's the syntax for enums?**
+1. **How to assert enums?**
 
     ```yaml
     # Enum assertions
-    ASSERT|$holder:
-        Enum: {value-1}, {value-2}, ...
+    ASSERT:
+        
     ```
     | Input| Purpose | Examples
     |-|-|-
@@ -230,3 +211,26 @@
     ---
     <br/>
 
+1. **How to assert list of object?**
+
+    Here's a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
+
+    ```yaml
+    📃 Example:
+
+    # Create a list
+    EVAL >> $list:
+        - {A:10, B:20, C:X}
+        - {A:11, B:21, C:Y}
+
+    # Verify the list items.
+    ASSERT|$list:
+        - AllOf: A, B
+        - A.IsBetween(10,19)
+        - B.IsBetween(20,29)
+        - C.IsIn(X,Y)
+    ```
+    Uses: [`EVAL`](<../EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`.IsBetween`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsBetween}.md>) [`.IsIn`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>)
+
+    ---
+    <br/>

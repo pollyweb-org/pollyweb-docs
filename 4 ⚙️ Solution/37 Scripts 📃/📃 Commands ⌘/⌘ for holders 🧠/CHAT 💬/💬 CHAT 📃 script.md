@@ -1,4 +1,5 @@
 <!-- TODO -->
+
 # 😃📃 .CHAT 💬 script
 
 > Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
@@ -26,18 +27,10 @@ RUN|.CHAT:
 ```yaml
 # Assert the required fields
 - ASSERT|$.Inputs:
-    AllOf: Broker, PublicKey, Role, Chat
-    Texts: Broker, PublicKey, Role, Key
-    UUIDs: Chat
-
-# Assert regional settings
-- ASSERT|$.Inputs:
-    AllOf: Timezone, Language
-    Texts: Timezone, Language
-
-# Assert the role enum
-- ASSERT|$Role:
-    Enum: VAULT, HELPER, HOST
+    - AllOf: Broker, PublicKey, Role, Chat, Timezone, Language
+    - Texts: Broker, PublicKey, Role, Key, Timezone, Language
+    - UUIDs: Chat
+    - Role.IsIn(VAULT, HELPER, HOST)
 
 # Update the $.Chat
 - EVAL|$.Chat >> $.Chat:

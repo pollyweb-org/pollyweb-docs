@@ -26,12 +26,9 @@
 
 # Assert inputs
 - ASSERT|$.Inputs:
-    AllOf: Schema, Trusted
-    Texts: Schema, Trusted, Truster
-
-# Assert the role
-- ASSERT|$Role:
-    Enum: VAULT, CONSUMER, *
+    - AllOf: Schema, Trusted
+    - Texts: Schema, Trusted, Truster
+    - Role.IsIn(VAULT, CONSUMER, *)
 
 # Send the request
 - SEND >> $answer:

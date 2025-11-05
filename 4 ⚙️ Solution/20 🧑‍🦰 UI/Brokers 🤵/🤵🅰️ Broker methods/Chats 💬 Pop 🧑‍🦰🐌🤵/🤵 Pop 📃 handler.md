@@ -13,12 +13,9 @@
 
 # Assert $.Msg
 - ASSERT|$.Msg:
-    AllOf: Hook, Key, Context
-    UUIDs: Hook, Key
-
-# Assert $.Msg.Context
-- ASSERT|$.Msg.Context:
-    Enum: TOKEN, HOST, ISSUER, VAULT, BIND, TOKEN
+    - AllOf: Hook, Key, Context
+    - UUIDs: Hook, Key
+    - Context.IsIn(TOKEN,HOST,ISSUER,VAULT,BIND,TOKEN)
 
 # Get the Wallet 🧑‍🦰
 - READ >> $wallet:

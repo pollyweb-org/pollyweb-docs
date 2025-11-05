@@ -7,13 +7,10 @@
 
 # Assert the list items
 - ASSERT|$trusted:
-    AllOf: Schema, Schema$, Domain, Type, ID
-    UUIDs: ID
-    Texts: Schema, Schema$, Domain, Type
-
-# Assert the expected types
-- ASSERT|$trusted.Type:
-    Enum: TOKEN, BIND
+    - AllOf: Schema, Schema$, Domain, Type, ID
+    - UUIDs: ID
+    - Texts: Schema, Schema$, Domain, Type
+    - Type.IsIn(TOKEN,BIND)
 
 # Find a matching Token
 - FILTER|$trusted >> $tokens:
@@ -43,3 +40,4 @@
 Uses||
 |-|-
 |[Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>)| [`FILTER`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/FILTER 🔽/🔽 FILTER ⌘ cmd.md>)
+| [{Functions} 🐍](<../../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.IsEmpty`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsEmpty}.md>) [`.IsOne`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsOne}.md>)  [`.AreMany`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.AreMany}.md>) 

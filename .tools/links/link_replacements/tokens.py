@@ -108,18 +108,18 @@ def _make_hardcoded_replacer(func_name: str, token_literal: str, token_key: str,
 
 PLACEHOLDER_REPLACEMENT = "[Placeholder 🧠](<Holder 🧠.md>)"
 HOLDER_REPLACEMENT = "[Holder 🧠](<Holder 🧠.md>)"
-HOSTS_REPLACEMENT = "[Host 🤗 domains](<../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)"
-HOST_REPLACEMENT = "[Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🎭 Host role.md>)"
+HOSTS_REPLACEMENT = "[Host 🤗 domains](<🤗🎭 Host role.md>)"
+HOST_REPLACEMENT = "[Host 🤗 domain](<🤗🎭 Host role.md>)"
 SCRIPT_REPLACEMENT = "[Script 📃](<Script 📃.md>)"
 SCRIPTS_REPLACEMENT = "[Scripts 📃](<Script 📃.md>)"
 COMMAND_REPLACEMENT = "[Command ⌘](<Command ⌘.md>)"
 COMMANDS_REPLACEMENT = "[Commands ⌘](<Command ⌘.md>)"
 BROKER_REPLACEMENT = "[Broker 🤵 domain](<🤵 Broker 🤲 helper.md>)"
-SELLER_REPLACEMENT = "[Seller 🎭 domain](<../../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>)"
-CONSUMER_REPLACEMENT = "[Consumer 💼 domain](<../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)"
-CONSUMERS_REPLACEMENT = "[Consumer 💼 domains](<../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)"
-WALLET_REPLACEMENT = "[Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet 🛠️ app.md>)"
-WALLETS_REPLACEMENT = "[Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet 🛠️ app.md>)"
+SELLER_REPLACEMENT = "[Seller 🎭 domain](<💵🎭 Seller role.md>)"
+CONSUMER_REPLACEMENT = "[Consumer 💼 domain](<💼🎭 Consumer role.md>)"
+CONSUMERS_REPLACEMENT = "[Consumer 💼 domains](<💼🎭 Consumer role.md>)"
+WALLET_REPLACEMENT = "[Wallet 🧑‍🦰 app](<🧑‍🦰 Wallet 🛠️ app.md>)"
+WALLETS_REPLACEMENT = "[Wallet 🧑‍🦰 apps](<🧑‍🦰 Wallet 🛠️ app.md>)"
 
 
 @register_hardcoded("placeholder", replacement=PLACEHOLDER_REPLACEMENT, token_label="Placeholder")
@@ -426,7 +426,7 @@ def replace_consumers_tokens(md_files):
 
 def replace_brokers_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Brokers`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, "[Broker 🤵 domains](<🤵🤲 Broker helper.md>)")
+    return _replace_simple(md_files, pattern, "[Broker 🤵 domains](<🤵 Broker 🤲 helper.md>)")
 
 
 def replace_function_tokens(md_files):
