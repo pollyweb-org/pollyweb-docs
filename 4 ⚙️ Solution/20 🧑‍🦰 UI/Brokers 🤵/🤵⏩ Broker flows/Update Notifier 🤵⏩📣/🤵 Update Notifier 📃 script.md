@@ -19,12 +19,9 @@ RUN|Update-Notifier:
 
 # Assert required inputs
 - ASSERT|$.Inputs:
-    OneOf: wallet, Updates
-    Lists: Updates
-
-# Assert the options
-- ASSERT|$Updates:
-    Enum: CHATS, BINDS, TOKENS
+    - OneOf: wallet, Updates
+    - Lists: Updates
+    - Updates.IsIn(CHATS,BINDS,TOKENS)
     
 # Tell the Notifier to perform updates
 - SEND:

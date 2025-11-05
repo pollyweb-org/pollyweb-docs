@@ -18,13 +18,10 @@
 
 # Assert the inputs
 - ASSERT|$.Msg:
-    AllOf: Thread, Text
-    UUIDs: Thread
-    Texts: Level, Text, Group, Blame
-
-# Assert the level
-- ASSERT|$.Msg.Level:
-    Enum: INFO, WARNING, ERROR
+    - AllOf: Thread, Text
+    - UUIDs: Thread
+    - Texts: Level, Text, Group, Blame
+    - Level.IsIn(INFO, WARNING, ERROR)
 
 # Get the thread
 - READ >> $thread:
