@@ -1,6 +1,6 @@
 # 😃👋 Talker `GOODBYE` command
 
-> Part of [Script 📃](<../../📃 basics/Script 📃.md>)
+> Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>)
 
 
   
@@ -9,7 +9,7 @@
 1. **What is an GOODBYE message command?**
    
     A `GOODBYE`
-    * is a message [Command ⌘](<../../📃 basics/Command ⌘.md>) 
+    * is a message [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Command ⌘.md>) 
     * that calls the [🤗⏩🧑‍🦰 Goodbye 👋](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Goodbye 🤗⏩👋/🤗 Goodbye ⏩ flow.md>) flow.
 
     ---

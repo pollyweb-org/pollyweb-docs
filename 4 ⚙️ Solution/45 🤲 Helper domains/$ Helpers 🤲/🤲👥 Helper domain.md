@@ -116,7 +116,7 @@
     - SUCCESS|Done!             # Inform success
     - GOODBYE                   # Show advertisement
     ```
-    Commands: [`BIND`](<../../35 💬 Chats/Scripts 📃/📃 methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) [`EVAL`](<../../35 💬 Chats/Scripts 📃/📃 holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`FREEZE`](<../../35 💬 Chats/Scripts 📃/📃 methods 🤵/FREEZE ❄️/❄️ FREEZE ⌘ cmd.md>) [`GOODBYE`](<../../35 💬 Chats/Scripts 📃/📃 methods 🤵/GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>) [`INFORM`](<../../35 💬 Chats/Scripts 📃/📃 methods 🤵/INFORM 📝/📝 INFORM ⌘ cmd.md>) [`INVITE`](<../../35 💬 Chats/Scripts 📃/📃 methods 🤵/INVITE 🤲/🤲 INVITE ⌘ cmd.md>) [`SUCCESS`](<../../35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)    
+    Commands: [`BIND`](<../../37 Scripts 📃/Commands ⌘/📃 methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) [`EVAL`](<../../35 💬 Chats/Scripts 📃/📃 holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`FREEZE`](<../../37 Scripts 📃/Commands ⌘/📃 methods 🤵/FREEZE ❄️/❄️ FREEZE ⌘ cmd.md>) [`GOODBYE`](<../../37 Scripts 📃/Commands ⌘/📃 methods 🤵/GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>) [`INFORM`](<../../37 Scripts 📃/Commands ⌘/📃 methods 🤵/INFORM 📝/📝 INFORM ⌘ cmd.md>) [`INVITE`](<../../37 Scripts 📃/Commands ⌘/📃 methods 🤵/INVITE 🤲/🤲 INVITE ⌘ cmd.md>) [`SUCCESS`](<../../35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)    
 
     ---
     <br/>

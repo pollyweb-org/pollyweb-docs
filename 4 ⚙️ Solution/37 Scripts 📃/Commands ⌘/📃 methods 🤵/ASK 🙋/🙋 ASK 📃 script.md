@@ -2,7 +2,7 @@
 
 > Purpose
  
-* [Script 📃](<../../📃 basics/Script 📃.md>) that implements the [`ASK` command](<🙋 ASK ⌘ cmd.md>)
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) that implements the [`ASK` command](<🙋 ASK ⌘ cmd.md>)
 
 ## Flow
 
@@ -24,7 +24,7 @@ Here are the outputs of the [`Parse@Hosted` 🅰️ method](<../../../../55 👷
 
 ## Script
 
-Here's the [Script 📃](<../../📃 basics/Script 📃.md>)
+Here's the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>)
 
 ```yaml
 📃 .ASK:
@@ -54,7 +54,7 @@ Here's the [Script 📃](<../../📃 basics/Script 📃.md>)
 - RETURN|$selected
 ```
 
-Commands: [`ASSERT`](<../../📃 holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`EVAL`](<../../📃 holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`MANY`](<../../../Prompts 🤔/🤔✏️ Prompt inputs/MANY 🔠/🔠 MANY ⌘ cmd.md>) [`RETURN`](<../../📃 control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`RUN`](<../../📃 control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
+Commands: [`ASSERT`](<../../../../35 💬 Chats/Scripts 📃/📃 holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`EVAL`](<../../../../35 💬 Chats/Scripts 📃/📃 holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`MANY`](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/MANY 🔠/🔠 MANY ⌘ cmd.md>) [`RETURN`](<../../../../35 💬 Chats/Scripts 📃/📃 control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`RUN`](<../../../../35 💬 Chats/Scripts 📃/📃 control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
 
 ---
 <br/>

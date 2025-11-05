@@ -1,7 +1,7 @@
 # 💼 Talker `SHARE` command
 
 > Implementation
-* Part of [Script 📃](<../../📃 basics/Script 📃.md>)
+* Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>)
 * Implemented by the [`SHARE` 📃 script](<💼 SHARE 📃 script.md>)
 
 
@@ -12,7 +12,7 @@
 1. **What is a SHARE message command?**
 
     A `SHARE`
-    * is a message [Command ⌘](<../../📃 basics/Command ⌘.md>) 
+    * is a message [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Command ⌘.md>) 
     * that asks for user data in [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
     * triggering the following flows:
       * [🧑‍🦰👉💼 Share Bind @ Wallet](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Bind 👉🔗💼/🧑‍🦰 Share Bind ⏩ flow.md>)
@@ -57,7 +57,7 @@
 1. **What does the dot mean in a code?**
 
     Given that the [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) defined by `nlweb.dom` will be widely used, 
-    * [Scripts 📃](<../../📃 basics/Script 📃.md>) accept a dot as a prefix of `nlweb.dom/`.
+    * [Scripts 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) accept a dot as a prefix of `nlweb.dom/`.
     * Consider the following equal examples.
 
         ```yaml
@@ -68,9 +68,9 @@
     ---
     <br/>
 
-1. **What does a [Chat 💬](<../../../Chats 💬/💬 Chat.md>) look like?**
+1. **What does a [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) look like?**
 
-    | [Domain](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../Prompts 🤔/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
+    | [Domain](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     | - | - | - |
     | 💼 [Consumer](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) | ℹ️ Tell me your name.
     | 🧢 [Persona](<../../../../50 🫥 Agent domains/Personas 🧢/🧢 Persona agent/🧢🫥 Persona agent.md>) | 🫥 Share social name? [No] <br/> - [ Personal ] 🧑‍🦰 <br/> - [ Work ] 💼       | > Personal
@@ -86,7 +86,7 @@
     SUCCESS|Hi, {$social.Name}!
     ```
 
-    Commands: [`INFO`](<../../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`SHARE`](<💼 SHARE ⌘ cmd.md>) [`SUCCESS`](<../../../Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
+    Commands: [`INFO`](<../../../../35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`SHARE`](<💼 SHARE ⌘ cmd.md>) [`SUCCESS`](<../../../../35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
 
 
     The structure of the shared data is as follows.

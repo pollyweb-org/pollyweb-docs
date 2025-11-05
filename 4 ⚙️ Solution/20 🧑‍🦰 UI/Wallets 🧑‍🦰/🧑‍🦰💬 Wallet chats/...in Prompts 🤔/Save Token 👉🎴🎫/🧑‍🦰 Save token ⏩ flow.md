@@ -24,7 +24,7 @@ Consider the following excerpt from the [Book restaurant table 🤝 use case](<.
 
 ## 😃 Talker 
 
-The associated [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) uses the [`ISSUE`](<../../../../../35 💬 Chats/Scripts 📃/📃 methods 🤵/ISSUE 🎫/🎫 ISSUE ⌘ cmd.md>) command.
+The associated [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) uses the [`ISSUE`](<../../../../../37 Scripts 📃/Commands ⌘/📃 methods 🤵/ISSUE 🎫/🎫 ISSUE ⌘ cmd.md>) command.
 
 ```yaml
 - INFO|Issuing your token...
@@ -36,7 +36,7 @@ The associated [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/📃 bas
 
 | [Command ⌘](<../../../../../35 💬 Chats/Scripts 📃/📃 basics/Command ⌘.md>) | Purpose
 |-|-
-| 🎫 [`ISSUE`](<../../../../../35 💬 Chats/Scripts 📃/📃 methods 🤵/ISSUE 🎫/🎫 ISSUE ⌘ cmd.md>) | Call the [Save Token ⏩ flow](<🧑‍🦰 Save token ⏩ flow.md>).
+| 🎫 [`ISSUE`](<../../../../../37 Scripts 📃/Commands ⌘/📃 methods 🤵/ISSUE 🎫/🎫 ISSUE ⌘ cmd.md>) | Call the [Save Token ⏩ flow](<🧑‍🦰 Save token ⏩ flow.md>).
 |
 
 <br/>
