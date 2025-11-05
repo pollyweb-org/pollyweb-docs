@@ -8,19 +8,22 @@
     Schema: $schema
     Type: TOKEN
 
+# Leave if there's no Token for the Schema 
+- IF|$tokens.IsEmpty:
+    - RETURN
+
+# Set the prompt question
+- CASE|$tokens.AreMany >> $text:
+    False: Share {$tokens.First.Schema} token?
+    True: Which {$tokens.First.Schema} tokens to share?
+
+- IF|$tokens.AreMany >> $options:
+
 # Send if it's the only one.
 - IF|$tokens.IsOne:
     - RUN|Disclose-Bind:
         $chat, 
     - BREAK
-
-
-# If more than one, ask for selection
-- IF|$trusts.AreMany:
-    - ONE >> $vault:
-        Text: Which vault to use?
-        Options: 
-
 
 ```
 Uses||

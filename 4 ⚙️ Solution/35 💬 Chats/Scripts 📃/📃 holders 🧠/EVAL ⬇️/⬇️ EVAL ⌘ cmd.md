@@ -361,122 +361,6 @@
     ---
     <br/>
 
-1. **How to merge lists with SQL?**
-
-
-    Consider the 1st list `$items`.
-
-    ```yaml
-    # Items
-    | ID | Price | SupID  |
-    | -- | ----- | ------ |
-    |  1 |    10 |      A |
-    |  2 |    20 |      X |
-    |  3 |    30 |      X |
-    ```
-
-
-    And the 2nd list `$suppliers`.
-
-    ```yaml
-    # Suppliers
-    | ID | Name |
-    | -- | ---- |
-    |  A |  ABC |
-    |  X | XPTO |
-    |  Y |  ANY |
-    ```
-    
-    Let's merge them with [`EVAL`](<⬇️ EVAL ⌘ cmd.md>).
-
-    
-    ```yaml
-    📃 Merge:
-    
-    - EVAL|$items >> $merged:
-        Item: ID
-        Supplier: 
-            SELECT Name #, other, another
-            FROM $suppliers
-            WHERE ID.Is(SupID)
-    ```
-    
-    Here's the final `$merged` list.
-
-    ```yaml
-    | ITEM | SUPPLIER |
-    | ---- | -------- |
-    |    1 |      ABC |
-    |    2 |     XPTO |
-    |    3 |     XPTO |
-    ```
-
-
-    Here's the syntax.
-
-    ```yaml
-    # Syntax
-    EVAL >> $merged:
-        <original-property>: <list-A-property>
-        <merged-property>: |
-            SELECT 
-                <alias-1>: <list-B-1-property> 
-                <alias-n>: <list-B-n-property>
-            FROM $list-B
-            WHERE <list-match-B>.Function(<list-match-A>)
-    ```
-
-    <br/>
-    
-1. **How to filter lists with SQL?**
-
-    Here's an example using the same lists as before.
-
-    ```yaml
-    📃 Filter with a list of values:
-    # List $l = X, Y
-    - EVAL >> $filtered:
-        FROM $suppliers
-        WHERE ID.IsIn($l)
-        #  or $l.Contains(ID)
-    ```
-
-    ```yaml
-    📃 Filter with a list of objects:
-    #   List $l = {Key:X},{Key:Y}
-    - EVAL >> $filtered:
-        FROM $suppliers
-        WHERE ID.IsIn($l.Key)
-        #  or $l.Key.Contains(ID)
-    ```
-    
-    Here's the final `$filtered` list.
-
-    ```yaml
-    # Suppliers
-    | ID | Name |
-    | -- | ---- |
-    |  X | XPTO |
-    |  Y |  ANY |
-    ```
-
-    Here's the syntax.
-
-    ```yaml
-    # Syntax to filter with a list of values
-    EVAL >> $filtered:
-        FROM $list
-        WHERE $list.<matching-property>.IsIn($list-of-values)
-
-    # Syntax to filter with a list of objects
-    EVAL >> $filtered:
-        FROM $list
-        WHERE $list.<matching-property>.IsIn($list-of-objects.<object-property>)
-    ```
-
-    ---
-    <br/>
-
 
 1. **How to append into lists?**
 
@@ -501,7 +385,6 @@
     # Results in [A,B]    
     ```
     
-
     ---
     <br/>
 
@@ -522,30 +405,6 @@
     ---
     <br/>
 
-1. **How to make a distinct in lists?**
-
-    Using the [`{.Distinct}`](<../../📃 functions 🐍/🔩 {.Distinct}.md>) function
-
-    ```yaml
-    📃 Inline in a holder:
-    - EVAL|$list.Distinct() >> $list
-    ```
-
-    ```yaml
-    📃 Break down in a single list:
-    - EVAL|.Distinct >> $distinct:
-        $list
-    ```
-
-    ```yaml
-    📃 Distinct after merging multiple lists:
-    - EVAL|.Distinct >> $distinct:
-        :$list-1:
-        :$list-n:
-    ```
-    
-    ---
-    <br/>
 
 1. **How to imitate SQL queries?**
 

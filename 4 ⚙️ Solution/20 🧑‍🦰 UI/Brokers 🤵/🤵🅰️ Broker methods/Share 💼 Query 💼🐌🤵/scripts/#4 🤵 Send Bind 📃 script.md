@@ -1,15 +1,23 @@
-# 🤵 Disclose Bind 📃 script
+# 🤵 Send Bind 📃 script
 
 > Part of [`Query` 📃 handler](<../🤵 Query 📃 handler.md>)
 
 ## Script
 
 ```yaml
-📃 Disclose-Bind:
+📃 Send-Bind:
 
 # Assert the inputs
 - ASSERT|.Inputs:
     AllOf: chat, Domain, Bind
+
+
+# If more than one, ask for selection
+- IF|$tokens.AreMany:
+    - TRANSLATE
+    - ONE >> $vault:
+        Text: Which vault to use?
+        Options: 
 
 # Send the message to the vault
 - SEND:
