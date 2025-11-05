@@ -2,14 +2,12 @@
 
 # 🐍 {$holder} function
 
-> Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
+> Part of [{Functions} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
 <br/>
 
 1. **What's syntax for input placeholders?**
 
-
-    <br/>
     
     Consider the following [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
     

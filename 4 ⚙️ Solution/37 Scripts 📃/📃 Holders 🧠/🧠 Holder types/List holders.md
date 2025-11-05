@@ -41,6 +41,7 @@
     |       | [`.Filter`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System functions 🔩/🔩 {.Filter}.md>)   | What items meet given filters?
     |       | [`.Add`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System functions 🔩/🔩 {.Add}.md>)      | What if we add items?
     |       | [`.Minus`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System functions 🔩/🔩 {.Minus}.md>)    | What if we remove items?
+    |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System functions 🔩/🔩 {.Diff}.md>) | Same as [`.Minus`](<../../📃 Functions 🐍/🐍 System functions 🔩/🔩 {.Minus}.md>)
     
     ---
     <br/>
