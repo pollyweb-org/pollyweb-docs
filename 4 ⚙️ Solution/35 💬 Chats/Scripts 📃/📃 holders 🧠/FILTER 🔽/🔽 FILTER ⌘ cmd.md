@@ -16,14 +16,6 @@
 1. **What's the FILTER syntax?**
 
     ```yaml
-    # As a YAML object
-    FILTER|$list1 >> $list2:
-        <property-n>: <value-n>
-        :<boolean-n>:
-    ```
-
-    ```yaml
-    # As a YAML list
     FILTER|$list1 >> $list2:
         - <property-n>: <value-n>
         - <boolean-n>
