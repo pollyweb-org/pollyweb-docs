@@ -92,7 +92,7 @@
     | Input| Purpose | Examples
     |-|-|-
     | `$object`| Optional initial context | `$.Msg`
-    | `{value}` | Checked with [`.IsEmpty`](<../../../📃 Functions 🐍/🐍 System functions 🔩/🔩 {.IsEmpty}.md>) | `A` `$h` `$h.A`
+    | `{value}` | Checked with [`.IsEmpty`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsEmpty}.md>) | `A` `$h` `$h.A`
 
 
     ---
@@ -115,7 +115,7 @@
     ```
     
     Restrictions:
-    * Only supports [`.Is`](<../../../📃 Functions 🐍/🐍 System functions 🔩/🔩 {.Is}.md>) assertions
+    * Only supports [`.Is`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) assertions
     * Supports single value assertions surrounded with `:`
     * `{similar-value-A}` cannot be repeated
 

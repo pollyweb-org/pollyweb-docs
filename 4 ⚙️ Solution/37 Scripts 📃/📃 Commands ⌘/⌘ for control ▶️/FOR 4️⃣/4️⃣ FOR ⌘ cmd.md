@@ -50,7 +50,7 @@
 
     Here's a [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
 
-    | [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt 🤔](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [Wallet 🧑‍🦰 apps](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
+    | [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [Wallet 🧑‍🦰 apps](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     | - | - | - |
     | [Host 🤗 domains](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | ℹ️ Item `1` in sequence
     | [Host 🤗 domains](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | ℹ️ Item `2` in sequence

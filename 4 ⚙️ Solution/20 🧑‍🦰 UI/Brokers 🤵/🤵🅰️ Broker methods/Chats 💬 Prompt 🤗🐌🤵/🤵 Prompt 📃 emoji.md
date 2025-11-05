@@ -1,7 +1,7 @@
 # 🤗📃 Prompt Emoji script
 
 > Purpose
-* Calculates an emoji for a [Prompt 🤔](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>)
+* Calculates an emoji for a [Prompt 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>)
 * Implements the logic in [Input emojis 😶 ](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/😶 Input emojis.md>)
 
 
@@ -71,5 +71,5 @@
 Uses||
 |-|-
 | [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`CASE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`EVAL`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`IF`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`RETURN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) 
-| [{Functions} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`{.IsIn}`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System functions 🔩/🔩 {.IsIn}.md>) [`{.Is}`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System functions 🔩/🔩 {.Is}.md>)
+| [{Functions} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`{.IsIn}`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>) [`{.Is}`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>)
 |

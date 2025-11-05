@@ -1,6 +1,6 @@
 # 🤔 Non-blocking status prompts 
 
-> Part of [Prompts 🤔](<../🤔 Prompt.md>)
+> Part of [Prompts 🤔](<../../Chats 💬/🤔 Prompt.md>)
 
 > Changes the default behavior of [Prompt with Options 🔘](<4 🔘 with Options.md>)
 
@@ -8,7 +8,7 @@
 
 1. **What are non-blocking status prompts?**
 
-    These are [Prompts 🤔](<../🤔 Prompt.md>) that don't wait for user input.
+    These are [Prompts 🤔](<../../Chats 💬/🤔 Prompt.md>) that don't wait for user input.
 
     ---
     <br/>
@@ -28,7 +28,7 @@
 
 1. **What's an example of non-blocking prompts?**
 
-    | [Domain](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
+    | [Domain](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../Chats 💬/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     | - | - | - |
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | ℹ️ Any non-blocking status.
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | 😃 I'm blocking inputs, OK? [ Yes, No ] | > Yes
@@ -48,7 +48,7 @@
 1. **How do non-blocking options work?**
    
     Non-blocking status prompts support [`Options`](<4 🔘 with Options.md>).
-    - If it contains [`Options`](<4 🔘 with Options.md>), then the user may click an option any time before or after the [Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) sends other subsequent [Prompts 🤔](<../🤔 Prompt.md>).
+    - If it contains [`Options`](<4 🔘 with Options.md>), then the user may click an option any time before or after the [Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) sends other subsequent [Prompts 🤔](<../../Chats 💬/🤔 Prompt.md>).
     - See a full example at [Driver pick-up on pizza delivery 🛵](<../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/82 🛵 Driver: Pick-up.md>).
     
     ---
@@ -58,7 +58,7 @@
 1. **What's an example of non-blocking options?**
 
 
-    | [Domain](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
+    | [Domain](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../Chats 💬/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     | - | - | - |
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | ℹ️ With options:<br/>- [ Cancel ] later <br>- [ Play ] music | > Cancel
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | 😃 I'm blocking, but  did <br/>   you know that you can still<br/>   go back and cancel? <br/> - [ Yes, I did ] <br/> - [ No, I didn't ]

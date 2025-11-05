@@ -6,7 +6,7 @@
 
 1. **What's a LOCATION prompt?**
 
-    It's a [Prompt 🤔](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) that asks for the user's current location.
+    It's a [Prompt 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) that asks for the user's current location.
 
     ---
     <br/>
@@ -14,7 +14,7 @@
 
 1. **What's an example of a [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)?**
 
-    | [Domain](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
+    | [Domain](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     | - | - | - |
     | 🤗 Host | ℹ️ Tell us where you are.
     | 🤗 Host | [📍 Share location?](<LOCATION 📍 prompt.md>)  | > Yes

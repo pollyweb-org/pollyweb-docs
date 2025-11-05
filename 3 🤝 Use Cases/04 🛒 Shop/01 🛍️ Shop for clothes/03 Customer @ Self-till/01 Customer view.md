@@ -10,16 +10,16 @@
 
 ### 💬 Chat
 
-| [Domain](<../../../../4 ⚙️ Solution/40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../4 ⚙️ Solution/35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
+| [Domain](<../../../../4 ⚙️ Solution/40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../4 ⚙️ Solution/35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 | - | - | - |
 | | | 🔆 [tap](<../../../../4 ⚙️ Solution/25 🔆 Locators/Locators 🔆/🔆 Locator.md>)
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | ⓘ Any Store (4.4 ⭐) [+]
 | 🛍️ Store   | ℹ️ Self check-out 4 [+]
 | 🛍️ Store   | 😃 Hi! What do you need? <br/>- [ Check out ] <br/>- [ Something else ] | > Check out
-| 🛍️ Store   | 😃 Scan the 1st item [No] | ✨ [scan](<../../../../4 ⚙️ Solution/35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) 
+| 🛍️ Store   | 😃 Scan the 1st item [No] | ✨ [scan](<../../../../4 ⚙️ Solution/35 💬 Chats/Chats 💬/🤔 Prompt.md>) 
 | 🛍️ Store   | ℹ️ Item: dress 👗 ($25) [+]
 | 🛍️ Store   | ⏳ Total ($25): <br/>- [ Scan ] another <br/> - [ List ] items <br/> - [ Pay ] total | > Scan
-| 🛍️ Store   | 😃 Scan another item [No] | ✨ [scan](<../../../../4 ⚙️ Solution/35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) 
+| 🛍️ Store   | 😃 Scan another item [No] | ✨ [scan](<../../../../4 ⚙️ Solution/35 💬 Chats/Chats 💬/🤔 Prompt.md>) 
 | 🛍️ Store   | ℹ️ Item: hat 👒 ($15) [+]
 | 🛍️ Store   | ⏳ Total ($50): <br/>- [ Scan ] another <br/> - [ List ] items <br/> - [ Pay ] total | > List
 | 🛍️ Store | ℹ️ Items: <br/> -  [ dress 👗 ] ($25) <br/> - [ hat 👒 ] ($15) 
