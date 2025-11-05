@@ -31,60 +31,12 @@
 - CASE|$wallet.Language:
     $.Msg.Language: RETURN
 
-# Group the domains
-- EVAL|.Distinct >> $domains:
-    :$wallet.Chats.Host:
-    :$wallet.Binds.Vault:
-    :$wallet.Tokens.Issuer:
+- RUN|Translate-All
 
-# Group the schemas
-- EVAL|.Distinct >> $schemas:
-    :$wallet.Tokens.Schema:
-
-# Translate domains and schemas
-- SEND >> $translated:
-    Header:
-        To: $.Hosted.Graph
-        Subject: Translate@Graph
-    Body:
-        Language: $.Msg.Language
-        Domains: $domains
-        Schemas: $schemas
-
-# Save the Chats
-- PARALLEL|$wallet.Chats|$chat:
-    # Set the Host title
-    - SELECT >> $chat.Host$:
-        First: Translation
-        From: $translated.Domains
-        Where: Domain.Is($chat.Host)
-    # Save the Chat
-    - SAVE|$chat
-
-# Save the Binds
-- PARALLEL|$wallet.Binds|$bind:
-    # Set the Vault title
-    - SELECT >> $bind.Vault$:
-        First: Translation
-        From: $translated.Domains
-        Where: Domain.Is($bind.Vault)
-    # Save the bind
-    - SAVE|$bind
-
-# Save the Tokens
-- PARALLEL|$wallet.Tokens|$token:
-    # Set the Issuer
-    SELECT >> $token.Issuer$: 
-        First: Translation
-        From: $translated.Domains
-        Where: Domain.Is($token.Issuer)
-    # Set the Schema
-    SELECT >> $token.Schema$: 
-        First: Translation
-        From: $translated.Schemas
-        Where: Schema.Is($token.Schema)
-    # Save the Token
-    - SAVE|$token
+- PARALLEL:
+    - RUN|Save-Chats($wallet, $translated)
+    - RUN|Save-Binds($wallet, $translated)
+    - RUN|Save-Tokens($wallet, $translated)
 
 # Change the Wallet
 - SAVE|$wallet:

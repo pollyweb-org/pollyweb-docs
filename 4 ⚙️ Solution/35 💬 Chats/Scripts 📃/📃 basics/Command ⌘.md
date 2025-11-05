@@ -123,6 +123,87 @@
     <br/>
 
 
+1. **How to pass object inputs into a Command?**
+
+    ```yaml
+    # multiple values
+    - <CMD> >> $out:
+        <pro-1>: <val-1>    # objects
+        <pro-n>: <val-n>    #   with a property map
+        $holder-1:          # holders
+        $holder-2:          #   with a ":" suffix
+        :$holder-n:         #   or surrounded by ":"
+    ```
+
+    ```yaml
+    # in a single line
+    - <CMD> >> $out:
+        {P1:V1, Pn:Vn, $h1, $h2}
+    ```
+
+    Inputs | Purpose | Example
+    |-|-|-
+    | `<CMD>` | [Command ⌘](<Command ⌘.md>) | `TEXT`
+    | `$out`| Output [Holder 🧠](<Holder 🧠.md>) | `$reply`
+    | `<prop-n>` | Property of an object |`Details`
+    | `<val-n>` | Value of a property   | `Hi!`
+    | `$holder-n` | [Holder 🧠](<Holder 🧠.md>)    | [`$.Inputs`](<../📃 holders 🧠/$.Inputs ▶️/▶️ $.Inputs 🧠 holder.md>)
+
+    ---
+    <br/>
+
+1. **How to pass holder inputs into a Command?**
+
+    ```yaml
+    - <CMD> >> $out:    # single value
+        $in
+    ```
+
+    ```yaml
+    - <CMD> >> $out:    # multiple values
+        $in-1 $in-n     # in a line with spaces
+    ```
+
+    ```yaml
+    - <CMD> >> $out:    # multiple values 
+        $in-1, $in-n    # in a line with commas
+    ```
+
+    ```yaml
+    - <CMD> >> $out:    # multiple values 
+        [$in-1, $in-n]    # in a line as an array
+    ```
+
+    ```yaml
+    - <CMD> >> $out:    # multiple values 
+        $in-1           # in multiple lines
+        $in-n
+    ```
+
+    ```yaml
+    - <CMD> >> $out:    # multiple values 
+        $in-1,          # in multiple lines
+        $in-n           # with commas
+    ```
+   
+    ```yaml
+    - <CMD> >> $out:    # multiple values 
+        - $in-1         # in multiple lines
+        - $in-n         # as an array
+    ```
+
+    Inputs | Purpose | Example
+    |-|-|-
+    | `<CMD>` | [Command ⌘](<Command ⌘.md>) | `TEXT`
+    | `$out`| Output [Holder 🧠](<Holder 🧠.md>) | `$reply`
+    | `$in-n` | Input [Holder 🧠](<Holder 🧠.md>) or value   | `$A` `123` `{A:1}` `[1,2]`
+
+    ---
+    <br/>
+    
+
+
+
 1. **How to create custom commands?**
 
     |#|Step|Details
@@ -135,7 +216,7 @@
     ---
     <br/>
 
-1. **How to build a customer `ECHO` command?**
+1. **How to build a custom `ECHO` command?**
 
     Here's the [Chat 💬](<../../Chats 💬/💬 Chat.md>)
 
