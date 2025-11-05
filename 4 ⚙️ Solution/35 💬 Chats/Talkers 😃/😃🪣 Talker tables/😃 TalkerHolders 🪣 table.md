@@ -1,8 +1,8 @@
 # 😃🪣 Holders 🧠 table
 
 > Data access
-* [`SAVE`](<../../Scripts 📃/📃 datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) by the [`Place` 📃 handler](<../😃🅰️ Talker methods/Place 🧑‍💻🚀😃/😃 Place 📃 handler.md>)
-* [`READ`](<../../Scripts 📃/📃 datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) by the [`Placed` 📃 handler](<../😃🅰️ Talker methods/Placed 🧑‍💻🚀😃/😃 Placed 📃 handler.md>)
+* [`SAVE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) by the [`Place` 📃 handler](<../😃🅰️ Talker methods/Place 🧑‍💻🚀😃/😃 Place 📃 handler.md>)
+* [`READ`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) by the [`Placed` 📃 handler](<../😃🅰️ Talker methods/Placed 🧑‍💻🚀😃/😃 Placed 📃 handler.md>)
 
 ## Schema
 
@@ -33,6 +33,6 @@ Value: {...}
 |Property|Type|Details|
 |-|-|-
 |`Hook`| uuid | [`TalkerHooks` 🪣 table](<😃 TalkerHooks 🪣 table.md>) ID
-|`Holder`| string | [Holder 🧠](<../../Scripts 📃/📃 basics/Holder 🧠.md>) name
+|`Holder`| string | [Holder 🧠](<../../Scripts 📃/Holder 🧠.md>) name
 |`Schema`| string | [Schema Code 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
-|`Value` | any | Content of the [Holder 🧠](<../../Scripts 📃/📃 basics/Holder 🧠.md>)
+|`Value` | any | Content of the [Holder 🧠](<../../Scripts 📃/Holder 🧠.md>)

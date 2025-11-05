@@ -16,7 +16,7 @@
 | [Domain](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../../🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 | - | - | - |
 | 🗄️ [Vault](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) |  😃 Hi! What do you need? <br/>- [ Bind ] my Wallet | > Bind
-| 🤵 [Broker](<../../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 [Bind?](<../../../../../37 Scripts 📃/Commands ⌘/📃 methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) [Yes, No] <br/> - Some schema code 🧩 <br/> - Some other schema code 🧩 | > Yes
+| 🤵 [Broker](<../../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 [Bind?](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) [Yes, No] <br/> - Some schema code 🧩 <br/> - Some other schema code 🧩 | > Yes
 | 🗄️ [Vault](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) | ✅ [Bound](<../../../../../35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
 ||
 
@@ -24,7 +24,7 @@
 
 ## 😃 Talker 
 
-The associated [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) uses the [`BIND` 🔗 command](<../../../../../37 Scripts 📃/Commands ⌘/📃 methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>).
+The associated [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) uses the [`BIND` 🔗 command](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>).
 
 ```yaml
 💬 [Bind] my Wallet:

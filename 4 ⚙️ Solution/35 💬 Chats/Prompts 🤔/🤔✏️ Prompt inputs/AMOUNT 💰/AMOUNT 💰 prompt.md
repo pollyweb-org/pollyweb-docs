@@ -37,7 +37,7 @@
     ---
     <br/>
 
-1. **What's the syntax of AMOUNT in a [Script 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>)?**
+1. **What's the syntax of AMOUNT in a [Script 📃](<../../../Scripts 📃/Script 📃.md>)?**
 
     ```yaml
     # Simplest.
@@ -47,7 +47,7 @@
     | Input| Purpose 
     |-|-
     | `<text>`| Message to show to the user
-    | `$holder`| Optional [holder 🧠](<../../../Scripts 📃/📃 basics/Holder 🧠.md>) with the user's answer
+    | `$holder`| Optional [holder 🧠](<../../../Scripts 📃/Holder 🧠.md>) with the user's answer
     
 
     ```yaml
@@ -99,7 +99,7 @@
 
     <br/>
 
-    Here's the [Script 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>).
+    Here's the [Script 📃](<../../../Scripts 📃/Script 📃.md>).
     
     ```yaml
     # 😃 Talker 
@@ -152,15 +152,15 @@
     | `$p.Pretty` | Decimal formatted to `Locale` | `$1,234.57`
     | `$p.Locale` | CLDR locale used to format | `en-US`
     | `$p.Currency` | ISO 4217 currency formatted | `USD`
-    | [`$p.$`](<../../../Scripts 📃/📃 basics/Function 🐍.md>) | The value of `$p.Pretty` | `$1,234.57`
-    | `$p` | The [default value](<../../../Scripts 📃/📃 basics/Function 🐍.md>) `$p.$` | `$1,234.57`
+    | [`$p.$`](<../../../Scripts 📃/Function 🐍.md>) | The value of `$p.Pretty` | `$1,234.57`
+    | `$p` | The [default value](<../../../Scripts 📃/Function 🐍.md>) `$p.$` | `$1,234.57`
 
     ---
     <br/>
 
 1. **How does AMOUNT process money signs?**
 
-    When collecting an [`AMOUNT`](<AMOUNT 💰 prompt.md>) input, [Scripts 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>)
+    When collecting an [`AMOUNT`](<AMOUNT 💰 prompt.md>) input, [Scripts 📃](<../../../Scripts 📃/Script 📃.md>)
     * identity and clean monetary characters
     * while storing the currencies in their original currency.
 

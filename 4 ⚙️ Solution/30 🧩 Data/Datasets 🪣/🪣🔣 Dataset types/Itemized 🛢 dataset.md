@@ -45,7 +45,7 @@
     | [`Views`](<../🪣🛢 Itemized datasets/Item 🛢 Views.md>) | map | Filtered children | `Vs:Cs:[p=3]`
     | [`Distincts`](<../🪣🛢 Itemized datasets/Item 🛢 Distincts.md>) | map | Unique values in child properties | `Ds:Cs.d`
     | [`NoUpdates`](<../🪣🛢 Itemized datasets/Item 🛢 NoUpdates.md>) | bool | Only allows inserts and deletes | `True`
-    | [`Triggers`](<../🪣🛢 Itemized datasets/Item 🛢 Triggers.md>) | map | [Scripts 📃](<../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) to run on triggers | `S:EXPIRED`
+    | [`Triggers`](<../🪣🛢 Itemized datasets/Item 🛢 Triggers.md>) | map | [Scripts 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to run on triggers | `S:EXPIRED`
     
     ---
     <br/>
@@ -100,7 +100,7 @@
     
     Uses||
     |-|-
-    |[{Functions} 🐍](<../../../35 💬 Chats/Scripts 📃/📃 basics/Function 🐍.md>) | [`.IsIn`](<../../../35 💬 Chats/Scripts 📃/📃 functions 🐍/🔩 {.IsIn}.md>) [`.Last`](<../../../35 💬 Chats/Scripts 📃/📃 functions 🐍/🔩 {.Last}.md>)
+    |[{Functions} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.IsIn`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System functions 🔩/🔩 {.IsIn}.md>) [`.Last`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System functions 🔩/🔩 {.Last}.md>)
 
     ---
     <br/>

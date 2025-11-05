@@ -34,7 +34,7 @@
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | 😃 I'm blocking inputs, OK? [ Yes, No ] | > Yes
     |
 
-    Here's the [Script 📃](<../../Scripts 📃/📃 basics/Script 📃.md>).
+    Here's the [Script 📃](<../../Scripts 📃/Script 📃.md>).
     
     ```yaml
     # 😃 Talker 
@@ -64,7 +64,7 @@
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | 😃 I'm blocking, but  did <br/>   you know that you can still<br/>   go back and cancel? <br/> - [ Yes, I did ] <br/> - [ No, I didn't ]
     |
 
-    Here's the [Script 📃](<../../Scripts 📃/📃 basics/Script 📃.md>).
+    Here's the [Script 📃](<../../Scripts 📃/Script 📃.md>).
     
     ```yaml
     # 😃 Talker

@@ -5,7 +5,7 @@
 > Implements [Hoster ☁️ helper domain](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>)
 
 * [Talkers 😃](<../../😃🤲 Talker helper.md>) ask [Hosted 📦 domains](<../../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) 
-    * to handle [{Function} 🐍](<../../../Scripts 📃/📃 basics/Function 🐍.md>) evaluations 
+    * to handle [{Function} 🐍](<../../../Scripts 📃/Function 🐍.md>) evaluations 
     * and return the computed result.
 
 <br/>
@@ -18,7 +18,7 @@
 |-|-|-
 |1| [🤗⏩🧑‍🦰 Prompt 🤔](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | [Talkers 😃](<../../😃🤲 Talker helper.md>) handle replies to [Prompts 🤔](<../../../Prompts 🤔/🤔 Prompt.md>)
 |2| [😃🐌🧑‍💻 `Handle@Hosted`](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>) | [Talkers 😃](<../../😃🤲 Talker helper.md>) delegate functions to [Hosteds 📦](<../../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>)
-|3| [🧑‍💻🚀😃 `Placed@Talker`](<../../😃🅰️ Talker methods/Placed 🧑‍💻🚀😃/😃 Placed 🚀 request.md>) | [Hosteds 📦](<../../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) read [Holder 🧠](<../../../Scripts 📃/📃 basics/Holder 🧠.md>) values
+|3| [🧑‍💻🚀😃 `Placed@Talker`](<../../😃🅰️ Talker methods/Placed 🧑‍💻🚀😃/😃 Placed 🚀 request.md>) | [Hosteds 📦](<../../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) read [Holder 🧠](<../../../Scripts 📃/Holder 🧠.md>) values
 |4| [🧑‍💻🐌😃 `Handled@Talker`](<../../😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>) | [Hosteds 📦](<../../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) return the evaluated result 
 |5| [🤗⏩🧑‍🦰 Prompt 🤔](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | [Talkers 😃](<../../😃🤲 Talker helper.md>) continue the [Chat 💬](<../../../Chats 💬/💬 Chat.md>)
 |

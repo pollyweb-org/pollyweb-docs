@@ -35,4 +35,4 @@ Uses: [`Children`](<../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datase
 # READ|LoggerDomains|any-domain.dom
 Name: any-domain.dom
 ```
-Uses: [`READ`](<../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>)
+Uses: [`READ`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>)

@@ -12,7 +12,7 @@
     [Talkers 😃](<😃🤲 Talker helper.md>) 
     * are [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) roles
     * implemented by [Hoster ☁️ helper domains](<../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>).
-    * to run [Scripts 📃](<../Scripts 📃/📃 basics/Script 📃.md>) 
+    * to run [Scripts 📃](<../Scripts 📃/Script 📃.md>) 
     * for the purpose of rendering dialogs in a [💬 Chat](<../Chats 💬/💬 Chat.md>)
     
 
@@ -44,7 +44,7 @@
         * Top menu entry - i.e., the "what?"
     * `<script>:`   
         * Executable script.
-    * [`{function}`](<../Scripts 📃/📃 basics/Function 🐍.md>)
+    * [`{function}`](<../Scripts 📃/Function 🐍.md>)
         * Calculates the value with a function.
 
   
@@ -56,7 +56,7 @@
 
     |Flow|Details
     |-|-
-    | [😃⏩🧑‍💻 Handle 🐍](<😃⏩ Talker flows/Run Sync Functions 😃⏩📦/😃 Eval ⏩ flow.md>) | Ask [Hosteds 📦](<../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) to handle [{Functions} 🐍](<../Scripts 📃/📃 basics/Function 🐍.md>)
+    | [😃⏩🧑‍💻 Handle 🐍](<😃⏩ Talker flows/Run Sync Functions 😃⏩📦/😃 Eval ⏩ flow.md>) | Ask [Hosteds 📦](<../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) to handle [{Functions} 🐍](<../Scripts 📃/Function 🐍.md>)
     | [😃⏩🧑‍💻 Wait 🧘](<😃⏩ Talker flows/Run Async Tasks 😃⏩📦/😃 Async ⏩ flow.md>) | Allow [Hosted 📦](<../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>)  long-running tasks
     
     ---
@@ -68,9 +68,9 @@
 
     |Method|Details
     |-|-
-    | 🧑‍💻🚀 [Placed](<😃🅰️ Talker methods/Placed 🧑‍💻🚀😃/😃 Placed 🚀 request.md>) | Returns the value of a [holder 🧠](<../Scripts 📃/📃 basics/Holder 🧠.md>)
-    | 🧑‍💻🐌 [Place](<😃🅰️ Talker methods/Place 🧑‍💻🚀😃/😃 Place 🚀 request.md>) | Sets the value of a [holder 🧠](<../Scripts 📃/📃 basics/Holder 🧠.md>)
-    | 🧑‍💻🐌 [Handled](<😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>) | Receives the evaluation of a [{Function} 🐍](<../Scripts 📃/📃 basics/Function 🐍.md>)
+    | 🧑‍💻🚀 [Placed](<😃🅰️ Talker methods/Placed 🧑‍💻🚀😃/😃 Placed 🚀 request.md>) | Returns the value of a [holder 🧠](<../Scripts 📃/Holder 🧠.md>)
+    | 🧑‍💻🐌 [Place](<😃🅰️ Talker methods/Place 🧑‍💻🚀😃/😃 Place 🚀 request.md>) | Sets the value of a [holder 🧠](<../Scripts 📃/Holder 🧠.md>)
+    | 🧑‍💻🐌 [Handled](<😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>) | Receives the evaluation of a [{Function} 🐍](<../Scripts 📃/Function 🐍.md>)
     
 
     ---

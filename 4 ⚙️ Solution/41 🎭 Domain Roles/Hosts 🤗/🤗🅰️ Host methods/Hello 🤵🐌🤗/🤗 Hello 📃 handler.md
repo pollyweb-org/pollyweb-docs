@@ -2,7 +2,7 @@
 
 > Purpose
 
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) that implements the [`Hello@Host` 🅰️ method](<🤗 Hello 🐌 msg.md>)
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Hello@Host` 🅰️ method](<🤗 Hello 🐌 msg.md>)
 
 ## Handler
 
@@ -28,10 +28,10 @@
 - TALK|$.Msg.Chat|$.Msg.Locator
 ```
 
-| [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Command ⌘.md>) | Purpose
+| [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | Purpose
 |-|-
-| 📨 [`$.Msg`](<../../../../35 💬 Chats/Scripts 📃/📃 holders 🧠/$.Msg 📨/📨 $.Msg 🧠 holder.md>) | Read the incoming [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
-| 💾 [`SAVE`](<../../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | Save the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) into the [Chats 🪣 table](<../../🤗🪣 Host tables/Chats 💬 table/🤗 HostChats 🪣 table.md>)
-| 😃 [`TALK`](<../../../../35 💬 Chats/Scripts 📃/📃 control ▶️/TALK 😃/😃 TALK ⌘ cmd.md>) | Start a [Talker 😃](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>)
-| 🫡 [`TRUSTS`](<../../../../35 💬 Chats/Scripts 📃/📃 messages 📨/TRUSTS 🫡/🫡 TRUSTS ⌘ cmd.md>) | Assert a [Trust 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) on 
+| 📨 [`$.Msg`](<../../../../37 Scripts 📃/📃 Holders 🧠/🧠 System holders/$.Msg 📨/📨 $.Msg 🧠 holder.md>) | Read the incoming [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
+| 💾 [`SAVE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | Save the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) into the [Chats 🪣 table](<../../🤗🪣 Host tables/Chats 💬 table/🤗 HostChats 🪣 table.md>)
+| 😃 [`TALK`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/TALK 😃/😃 TALK ⌘ cmd.md>) | Start a [Talker 😃](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>)
+| 🫡 [`TRUSTS`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/TRUSTS 🫡/🫡 TRUSTS ⌘ cmd.md>) | Assert a [Trust 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) on 
 |

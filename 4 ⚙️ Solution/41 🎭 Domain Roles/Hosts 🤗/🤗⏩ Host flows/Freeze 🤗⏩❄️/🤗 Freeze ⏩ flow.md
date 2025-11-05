@@ -1,8 +1,8 @@
 # 🤗⏩🧑‍🦰 Freeze @ Host ❄️ 
 
 * Activated by:
-    * [❄️ Talker `FREEZE` command](<../../../../37 Scripts 📃/Commands ⌘/📃 methods 🤵/FREEZE ❄️/❄️ FREEZE ⌘ cmd.md>)
-    * [💳 Talker `CHARGE` command](<../../../../37 Scripts 📃/Commands ⌘/📃 methods 🤵/CHARGE 💳/💳 CHARGE ⌘ cmd.md>)
+    * [❄️ Talker `FREEZE` command](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/FREEZE ❄️/❄️ FREEZE ⌘ cmd.md>)
+    * [💳 Talker `CHARGE` command](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/CHARGE 💳/💳 CHARGE ⌘ cmd.md>)
 
 <br/>
 

@@ -28,7 +28,7 @@
     <br/>
 
 
-1. **What's the content for a [Script 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>)?**
+1. **What's the content for a [Script 📃](<../../../Scripts 📃/Script 📃.md>)?**
 
     ```yaml
     

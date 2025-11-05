@@ -12,7 +12,7 @@
     NoUpdates: True  # it's False by default
     ```
 
-    Here's a [`Script`](<../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) excerpt from [`Grab@Printer`](<../../../45 🤲 Helper domains/Printers 🖨️/🖨️🅰️ Printer methods/Grab 👥🚀🖨️/🖨️ Grab 🚀 request.md>)
+    Here's a [`Script`](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) excerpt from [`Grab@Printer`](<../../../45 🤲 Helper domains/Printers 🖨️/🖨️🅰️ Printer methods/Grab 👥🚀🖨️/🖨️ Grab 🚀 request.md>)
 
     ```yaml
     # Give a holder name to avoid exceptions.
@@ -22,9 +22,9 @@
 
     |Action|Condition|Behavior
     |-|-|-
-    | 💾 [`SAVE`](<../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | Same value | Allows multiple  idempotent saves
+    | 💾 [`SAVE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | Same value | Allows multiple  idempotent saves
     | |Different | Blocked, raises an error
-    | 🗑️ [`DELETE`](<../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>) | - | Allows multiple idempotent times
+    | 🗑️ [`DELETE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>) | - | Allows multiple idempotent times
 
     ---
     <br/>

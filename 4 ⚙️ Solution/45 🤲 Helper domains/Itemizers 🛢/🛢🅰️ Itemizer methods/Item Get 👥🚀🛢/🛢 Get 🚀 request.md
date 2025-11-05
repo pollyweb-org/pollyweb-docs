@@ -4,7 +4,7 @@
 * Part of [Itemizer 🛢 helper](<../../🛢🤲 Itemizer helper.md>)
 
 > Implements
-* Implements the [`READ`](<../../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) command
+* Implements the [`READ`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) command
 
 > Purpose
 
@@ -48,6 +48,6 @@ Body:
 ||Property|Type|Description
 |-|-|-|-
 || `Item`        | object    | [Item 🛢](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) saved on the [`Save@Itemizer` 🅰️ method](<../Item Save 👥🚀🛢/🛢 Save 🚀 request.md>)
-|| `.Table`   | string | Table name for the [`SAVE` 📃 script](<../../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/SAVE 💾/💾 SAVE 📃 script.md>)
+|| `.Table`   | string | Table name for the [`SAVE` 📃 script](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE 📃 script.md>)
 || `.Version` | uuid   | Version for the [`Save@Itemizer` 🅰️ method](<../Item Save 👥🚀🛢/🛢 Save 🚀 request.md>)
 |

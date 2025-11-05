@@ -71,10 +71,10 @@ Wallet: <wallet-uuid>
 ```
 
 
-| [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Command ⌘.md>) | Purpose
+| [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | Purpose
 |-|-
-| 📨 [`$.Msg`](<../../../../35 💬 Chats/Scripts 📃/📃 holders 🧠/$.Msg 📨/📨 $.Msg 🧠 holder.md>) | Read the incoming [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
-| 🧲 [`READ`](<../../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) | Get the [Hook 🪝](<../../../../35 💬 Chats/Talkers 😃/😃🪣 Talker tables/😃 TalkerHooks 🪣 table.md>) from [`Bindable@Broker`](<../Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>)  
-| 💾 [`SAVE`](<../../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | Save the [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to the [Wallets 🪣](<../../🤵🪣 Broker tables/Wallets 🧑‍🦰 table/🤵 BrokerWallets 🪣 table.md>) table
-| 🎣 [`REEL`](<../../../../35 💬 Chats/Scripts 📃/📃 control ▶️/REEL 🎣/🎣 REEL ⌘ cmd.md>) | Respond to the [Synchronous Request 🚀](<../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Sync Requests 🚀.md>)
+| 📨 [`$.Msg`](<../../../../37 Scripts 📃/📃 Holders 🧠/🧠 System holders/$.Msg 📨/📨 $.Msg 🧠 holder.md>) | Read the incoming [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
+| 🧲 [`READ`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) | Get the [Hook 🪝](<../../../../35 💬 Chats/Talkers 😃/😃🪣 Talker tables/😃 TalkerHooks 🪣 table.md>) from [`Bindable@Broker`](<../Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>)  
+| 💾 [`SAVE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | Save the [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to the [Wallets 🪣](<../../🤵🪣 Broker tables/Wallets 🧑‍🦰 table/🤵 BrokerWallets 🪣 table.md>) table
+| 🎣 [`REEL`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/REEL 🎣/🎣 REEL ⌘ cmd.md>) | Respond to the [Synchronous Request 🚀](<../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Sync Requests 🚀.md>)
 |

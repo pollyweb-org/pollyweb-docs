@@ -10,7 +10,7 @@
 
     Add a `Cascade` list 
     * for children to be automatically deleted 
-    * on the [`DELETE` 🗑️ command](<../../../35 💬 Chats/Scripts 📃/📃 datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>) 
+    * on the [`DELETE` 🗑️ command](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>) 
     * and on the [`Delete@Itemizer` 🅰️ method](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/Item Delete 👥🚀🛢/🛢 Delete 🚀 request.md>).
 
     ```yaml

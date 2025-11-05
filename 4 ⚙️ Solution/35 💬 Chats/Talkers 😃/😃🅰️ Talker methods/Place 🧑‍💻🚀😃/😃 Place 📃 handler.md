@@ -36,7 +36,7 @@
 
 Uses||
 |-|-
-| [Commands ⌘](<../../../Scripts 📃/📃 basics/Command ⌘.md>) | [`DIFF`](<../../../Scripts 📃/📃 functions 🐍/🔩 {.Diff}.md>) [`READ`](<../../../Scripts 📃/📃 datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`SAVE`](<../../../Scripts 📃/📃 datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
+| [Commands ⌘](<../../../Scripts 📃/Command ⌘.md>) | [`DIFF`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System functions 🔩/🔩 {.Diff}.md>) [`READ`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`SAVE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
 | [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`HostChats` 🪣 table](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🪣 Host tables/Chats 💬 table/🤗 HostChats 🪣 table.md>) [`TalkerHolders` 🪣 table](<../../😃🪣 Talker tables/😃 TalkerHolders 🪣 table.md>)
-| [{Functions} 🐍](<../../../Scripts 📃/📃 basics/Function 🐍.md>) | [`{.Diff}`](<../../../Scripts 📃/📃 functions 🐍/🔩 {.Diff}.md>)
+| [{Functions} 🐍](<../../../Scripts 📃/Function 🐍.md>) | [`{.Diff}`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System functions 🔩/🔩 {.Diff}.md>)
 | 

@@ -9,7 +9,7 @@
 * Paired with the [`Placed@Talker` 🅰️ method](<../Placed 🧑‍💻🚀😃/😃 Placed 🚀 request.md>)
 
 > Purpose 
-* Writes a value to a [Holder 🧠](<../../../Scripts 📃/📃 basics/Holder 🧠.md>).
+* Writes a value to a [Holder 🧠](<../../../Scripts 📃/Holder 🧠.md>).
 
 
 <br/>
@@ -36,7 +36,7 @@ Body:
 |           |`To`|domain| [Hoster ☁️ domain](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) name
 |           | `Subject`     | string    | `Place@Talker`
 | Body      | `Hook`      | uuid      | Handling context | [`Handle@Hosted`](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>)
-|           | `Holder` | string    | [Holder 🧠](<../../../Scripts 📃/📃 basics/Holder 🧠.md>) name
+|           | `Holder` | string    | [Holder 🧠](<../../../Scripts 📃/Holder 🧠.md>) name
 |           | `Value`       | any    | Any value to write
 |           | `Reason`      | string | For traceability
 |

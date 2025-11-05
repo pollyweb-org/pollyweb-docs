@@ -42,4 +42,4 @@
 ```
 Uses||
 |-|-
-|[Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/📃 basics/Command ⌘.md>)| [`FILTER`](<../../../../../35 💬 Chats/Scripts 📃/📃 holders 🧠/FILTER 🔽/🔽 FILTER ⌘ cmd.md>)
+|[Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>)| [`FILTER`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/FILTER 🔽/🔽 FILTER ⌘ cmd.md>)

@@ -31,7 +31,7 @@ Consider the following [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Ch
 | 🤗 Host  | ℹ️ 27, got it! Thanks, Any Helper!  
 |
 
-The associated [`Script`](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) is as follows.
+The associated [`Script`](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) is as follows.
 
 ```yaml
 - INFO|I'll ask my Helper for a random number.
@@ -41,10 +41,10 @@ The associated [`Script`](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Sc
 - INFO|{number}, got it! Thanks, Any Helper!  
 ```
 
-| [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Command ⌘.md>) | Purpose
+| [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | Purpose
 |-|-
 | ℹ️ [`INFO`](<../../../../35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the messages to the user.
-| 🛠️ [`INVITE`](<../../../../37 Scripts 📃/Commands ⌘/📃 methods 🤵/INVITE 🤲/🤲 INVITE ⌘ cmd.md>) | To collect a random number.
+| 🛠️ [`INVITE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/INVITE 🤲/🤲 INVITE ⌘ cmd.md>) | To collect a random number.
 |
 
 

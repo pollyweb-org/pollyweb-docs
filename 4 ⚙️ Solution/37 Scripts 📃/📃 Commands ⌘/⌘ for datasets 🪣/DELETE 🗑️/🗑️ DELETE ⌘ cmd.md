@@ -1,0 +1,74 @@
+<!-- TODO: detail the relation with database -->
+<!-- TODO: add details to soft delete -->
+
+
+# 😃🗑️ Talker `DELETE` command
+
+> Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
+
+> Relates to [Tables 🪣 folder](<../../../../55 👷 Build domains/Hosteds 📦/📦📄 Hosted files/🪣📂 Tables folder.md>)
+
+<br/>
+
+1. **What is a DELETE command?**
+
+    A `DELETE` 🗑️
+    * is a [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) 
+    * that deletes an item from an [Itemized 🛢 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
+
+    ---
+    <br/>
+
+
+1. **What's the syntax of a delete?**
+
+    ```yaml
+    # After a READ
+    - DELETE|$item
+    ```
+
+    | Input| Purpose 
+    |-|-
+    | `$item` | Previous return from [`READ`](<../READ 🧲/🧲 READ ⌘ cmd.md>) 
+
+    <br/>
+
+    ```yaml
+    # Inline
+    - DELETE|<set>|<key>
+
+    # Comprehensive
+    - DELETE:
+        Set: <set>
+        Key: {key}
+        Undo: <undo> <days|hours|minutes|months>
+    ```
+
+
+    | Input| Purpose | Example
+    |-|-|-
+    | `Set` | Name of the dataset | `MySet`
+    | `Key` | Key(s) to delete from the set |-
+    ||  `<key>` as a string or array | `A` `A,B` `$a` 
+    || `{key}` as an object map | `{A:1,B:2}`
+    | `Undo` | Hide to allow an [`UNDO`](<../UNDO ↩️/↩️ UNDO ⌘ cmd.md>) later | `30 days`
+    | | `days` `hours` `minutes` `months`
+    
+    ---
+    <br/>
+
+1. **How up delete a mapped item?**
+
+    ```yaml
+    # Get the item from the database.
+    - READ|myPool|myKey >> $item
+    
+    # Delete the item.
+    - DELETE|$item 
+    ```
+
+    Commands: [`READ`](<../READ 🧲/🧲 READ ⌘ cmd.md>) [`DELETE`](<🗑️ DELETE ⌘ cmd.md>)
+
+    ---
+    <br/>
+

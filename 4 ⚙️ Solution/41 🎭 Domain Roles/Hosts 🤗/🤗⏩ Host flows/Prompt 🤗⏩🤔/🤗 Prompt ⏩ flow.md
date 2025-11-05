@@ -32,7 +32,7 @@ Consider the following [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Ch
 
 ## 😃 Talker 
 
-The associated [`Script`](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>), with one line per [Prompt 🤔](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>), could be the following.
+The associated [`Script`](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>), with one line per [Prompt 🤔](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>), could be the following.
 
 ```yaml
 - INFO|Hello World!

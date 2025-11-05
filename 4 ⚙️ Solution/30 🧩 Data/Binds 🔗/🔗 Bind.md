@@ -41,7 +41,7 @@
     | 🗄️ Vault | ✅ Done! 
     |
 
-    The Vault's [Script 📃](<../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) may look like the following.
+    The Vault's [Script 📃](<../../35 💬 Chats/Scripts 📃/Script 📃.md>) may look like the following.
 
     ```yaml
     💬|[Bla]:

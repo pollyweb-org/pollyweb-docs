@@ -6,7 +6,7 @@
     * then switch to a [non-blocking info ℹ️](<../../../../35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>).
 
 > Related to
-* [📝 Talker `INFORM` command](<../../../../37 Scripts 📃/Commands ⌘/📃 methods 🤵/INFORM 📝/📝 INFORM ⌘ cmd.md>)
+* [📝 Talker `INFORM` command](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/INFORM 📝/📝 INFORM ⌘ cmd.md>)
 
 > Examples
   * [Buy hot dog 🌭](<../../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/50 🌭 Street food/21 🎪 Stall: Buy hot dog 🌭.md>)
@@ -24,16 +24,16 @@
 
 <br/>
 
-Here's the [`Script`](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>).
+Here's the [`Script`](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
 
 ```yaml
 # Talker
 - INFORM|TableOrder
 ```
 
-| [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Command ⌘.md>) | Purpose
+| [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | Purpose
 |-|-
-| 📝 [`INFORM`](<../../../../37 Scripts 📃/Commands ⌘/📃 methods 🤵/INFORM 📝/📝 INFORM ⌘ cmd.md>) | Show user instructions and allow inputs.
+| 📝 [`INFORM`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/INFORM 📝/📝 INFORM ⌘ cmd.md>) | Show user instructions and allow inputs.
 |
 
 <br/>

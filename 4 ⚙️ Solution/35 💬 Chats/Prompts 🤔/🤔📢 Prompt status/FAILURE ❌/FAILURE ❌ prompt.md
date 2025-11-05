@@ -45,7 +45,7 @@
     <br/>
 
 
-1. **What's the format for a [Script 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>)?**
+1. **What's the format for a [Script 📃](<../../../Scripts 📃/Script 📃.md>)?**
 
     ```yaml
     # Inline
@@ -89,7 +89,7 @@
 
     <br/>
 
-    Here's the [Script 📃](<../../../Scripts 📃/📃 basics/Script 📃.md>).
+    Here's the [Script 📃](<../../../Scripts 📃/Script 📃.md>).
     
     ```yaml
     📃 Example:

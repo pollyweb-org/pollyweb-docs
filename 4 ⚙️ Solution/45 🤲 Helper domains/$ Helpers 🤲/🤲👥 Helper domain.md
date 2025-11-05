@@ -96,7 +96,7 @@
     | 🛠️ [Helper](<🤲👥 Helper domain.md>) | ✅ Done!
     |
 
-    Here's the [Script 📃](<../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>).
+    Here's the [Script 📃](<../../35 💬 Chats/Scripts 📃/Script 📃.md>).
 
     ```yaml
     💬 Register:                # Entry menu
@@ -116,7 +116,7 @@
     - SUCCESS|Done!             # Inform success
     - GOODBYE                   # Show advertisement
     ```
-    Commands: [`BIND`](<../../37 Scripts 📃/Commands ⌘/📃 methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) [`EVAL`](<../../35 💬 Chats/Scripts 📃/📃 holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`FREEZE`](<../../37 Scripts 📃/Commands ⌘/📃 methods 🤵/FREEZE ❄️/❄️ FREEZE ⌘ cmd.md>) [`GOODBYE`](<../../37 Scripts 📃/Commands ⌘/📃 methods 🤵/GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>) [`INFORM`](<../../37 Scripts 📃/Commands ⌘/📃 methods 🤵/INFORM 📝/📝 INFORM ⌘ cmd.md>) [`INVITE`](<../../37 Scripts 📃/Commands ⌘/📃 methods 🤵/INVITE 🤲/🤲 INVITE ⌘ cmd.md>) [`SUCCESS`](<../../35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)    
+    Commands: [`BIND`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) [`EVAL`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`FREEZE`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/FREEZE ❄️/❄️ FREEZE ⌘ cmd.md>) [`GOODBYE`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>) [`INFORM`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/INFORM 📝/📝 INFORM ⌘ cmd.md>) [`INVITE`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/INVITE 🤲/🤲 INVITE ⌘ cmd.md>) [`SUCCESS`](<../../35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)    
 
     ---
     <br/>
