@@ -8,7 +8,7 @@
 
     A `DISTINCT`
     * is a [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) 
-    * that distincts a list with the [`.Distinct`](<../../../📃 Functions 🐍/🐍 System functions 🔩/🔩 {.Distinct}.md>) function.
+    * that distincts a list with the [`.Distinct`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Distinct}.md>) function.
 
     ---
     <br/>

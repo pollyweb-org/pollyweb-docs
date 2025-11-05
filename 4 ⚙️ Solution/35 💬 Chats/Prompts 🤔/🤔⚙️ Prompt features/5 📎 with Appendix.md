@@ -1,14 +1,14 @@
 # 🤔 Prompts with an `Appendix`
 
 
-> Part of [Prompts 🤔](<../🤔 Prompt.md>)
+> Part of [Prompts 🤔](<../../Chats 💬/🤔 Prompt.md>)
 
 <br/>
 
 1. **What is a prompt with an attachment?**
 
     Appendix-enabled prompts 
-    * are [Prompts 🤔](<../🤔 Prompt.md>)
+    * are [Prompts 🤔](<../../Chats 💬/🤔 Prompt.md>)
     * that contain an Appendix ID
     * to be downloaded with [`Download@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Download 🧑‍🦰🚀🤗/🤗 Download 🚀 request.md>).
 
@@ -31,7 +31,7 @@
     
     Consider the following [Chat 💬](<../../Chats 💬/💬 Chat.md>) as an example.
 
-    | [Domain](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
+    | [Domain](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../Chats 💬/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     | - | - | - |
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | 💬 Who is in the picture? 🖼️ | `Elvis`
     |

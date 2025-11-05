@@ -12,7 +12,7 @@
 *  verified with the `PublicKey` from [`Hello@Host`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 
 > Purpose
-* Downloads the content of a [Prompt 🤔](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>).
+* Downloads the content of a [Prompt 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>).
 
 <br/>
 
@@ -82,7 +82,7 @@ Options:                            # Optional
 
 1. **Why aren't the `Format` and `Emoji` properties provided?**
 
-    Those [Prompt 🤔](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) properties are provided directly via the [`Prompt@Broker` 🅰️ method](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>) so that [Broker 🤵 domains](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) can enforce standardization of [emojis](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/😶⌘ EMOJI cmd.md>) for the benefit of users.
+    Those [Prompt 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) properties are provided directly via the [`Prompt@Broker` 🅰️ method](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>) so that [Broker 🤵 domains](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) can enforce standardization of [emojis](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/😶⌘ EMOJI cmd.md>) for the benefit of users.
 
     ---
     <br/>

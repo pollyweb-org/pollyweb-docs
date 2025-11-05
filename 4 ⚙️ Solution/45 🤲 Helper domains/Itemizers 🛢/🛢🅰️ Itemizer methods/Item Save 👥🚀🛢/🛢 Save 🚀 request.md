@@ -64,7 +64,7 @@ Item:
 1. **What's the format of `Delete`?**
 
     The `Delete` parameter 
-    * follows the [`{.Add}`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System functions 🔩/🔩 {.Add}.md>) syntax
+    * follows the [`{.Add}`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) syntax
     * expecting `<number>` `<period>` 
     * where `<period>` is in `day(s)` `hour(s)` `minute(s)` `month(s)`
     * e.g, `30 days`.

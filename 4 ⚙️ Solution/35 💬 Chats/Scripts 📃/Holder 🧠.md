@@ -100,7 +100,7 @@
 
 1. **How to get get the length of a list?**    
 
-    Use the [`{.Size} function`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System functions 🔩/🔩 {.Size}.md>) with `$p.Length()` or `$p.Size()`.
+    Use the [`{.Size} function`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Size}.md>) with `$p.Length()` or `$p.Size()`.
 
     Here's a [Script 📃](<Script 📃.md>).
     ```yaml
@@ -205,11 +205,11 @@
   
     | Function | Holder `$p` | Example | Result
     |-|-|-|-
-    | [`.Add`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System functions 🔩/🔩 {.Add}.md>) | `[A,B]` | `$p.Add(C)` | `[A,B,C]`
-    | [`.Diff`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System functions 🔩/🔩 {.Diff}.md>) | `[A,B,C]` | `$p.Diff(B)` | `[A,C]`
-    | [`.IsIn`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System functions 🔩/🔩 {.IsIn}.md>) | `A` | `$.IsIn([A,B])` | `True`
-    | [`.Length`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System functions 🔩/🔩 {.Size}.md>) | `[A,B]` | `$p.Length()` | `2`
-    | [`.Size`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System functions 🔩/🔩 {.Size}.md>) | `[A,B]` | `$p.Size()` | `2`
+    | [`.Add`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) | `[A,B]` | `$p.Add(C)` | `[A,B,C]`
+    | [`.Diff`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) | `[A,B,C]` | `$p.Diff(B)` | `[A,C]`
+    | [`.IsIn`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>) | `A` | `$.IsIn([A,B])` | `True`
+    | [`.Length`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Size}.md>) | `[A,B]` | `$p.Length()` | `2`
+    | [`.Size`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Size}.md>) | `[A,B]` | `$p.Size()` | `2`
     
     ---
     <br/>

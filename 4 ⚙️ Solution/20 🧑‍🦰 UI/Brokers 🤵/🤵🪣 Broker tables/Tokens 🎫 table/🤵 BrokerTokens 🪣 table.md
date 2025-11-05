@@ -34,7 +34,7 @@ Views:
         - .Now.IsBetween(Starts, Expires)
         - Status: ACTIVE
 ```
-Uses: [`.Now`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System functions 🔩/🔩 {.Now}.md>) [`.IsBetween`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System functions 🔩/🔩 {.IsBetween}.md>) 
+Uses: [`.Now`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Now}.md>) [`.IsBetween`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsBetween}.md>) 
 
 
 | Link | Table | Stores

@@ -9,7 +9,7 @@
 1. **What's a `TIME` prompt?**
 
     A `TIME`
-    * is a [Prompt 🤔](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) 
+    * is a [Prompt 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) 
     * that asks for a time
     * in the user's timezone (not UTC).
 
@@ -40,7 +40,7 @@
     TIME|What time? >> $time
     ```
 
-    | Domain | [Prompt 🤔](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | User
+    | Domain | [Prompt 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | User
     | - | - | - |
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | 😃 What time? | 🕓 10:30:00
     [🫥 Agent](<../../../../50 🫥 Agent domains/$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>) | 🫥 What time? | 🕓 10:30:00
@@ -58,7 +58,7 @@
 
     Mix with [ONE 1️⃣ prompts](<../ONE 1️⃣/ONE 1️⃣ prompt.md>), like in the following [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>).
 
-    | Domain | [Prompt 🤔](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | User
+    | Domain | [Prompt 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | User
     | - | - | - |
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | 😃 [What time tomorrow?](<../ONE 1️⃣/ONE 1️⃣ prompt.md>) <br/> - [ 10:00 ] <br/> - [ 10:30 ] <br/> - [ Another ] time | > Another
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | 😃 When exactly? | 🕓 10:37:00

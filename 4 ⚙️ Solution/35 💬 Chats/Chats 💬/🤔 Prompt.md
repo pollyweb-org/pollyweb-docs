@@ -27,8 +27,8 @@
 
     |Behavior| Format 
     |-|-
-    |[`Status`](<🤔⚙️ Prompt features/8 ⚠️ as Status.md>)| [`ℹ️ INFO`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`⏳ TEMP`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/TEMP ⏳/TEMP ⏳ prompt.md>) [`✅ SUCCESS`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>) [`❌ FAILURE`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/FAILURE ❌/FAILURE ❌ prompt.md>)
-    |[`Inputs`](<🤔⚙️ Prompt features/9 ✏️ as Input.md>)| [`🔢 DIGITS`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/DIGITS 🔢/DIGITS 🔢 prompt.md>) [`↕️ QUANTITY`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/QUANTITY ↕️/QUANTITY ↕️ prompt.md>) [`💰 AMOUNT`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/AMOUNT 💰/AMOUNT 💰 prompt.md>) [`🔑 OTP`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/OTP 🔑/OTP 🔑 prompt.md>) [`⭐ RATE`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/RATE ⭐/RATE ⭐ prompt.md>) 
+    |[`Status`](<../Prompts 🤔/🤔⚙️ Prompt features/8 ⚠️ as Status.md>)| [`ℹ️ INFO`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`⏳ TEMP`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/TEMP ⏳/TEMP ⏳ prompt.md>) [`✅ SUCCESS`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>) [`❌ FAILURE`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/FAILURE ❌/FAILURE ❌ prompt.md>)
+    |[`Inputs`](<../Prompts 🤔/🤔⚙️ Prompt features/9 ✏️ as Input.md>)| [`🔢 DIGITS`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/DIGITS 🔢/DIGITS 🔢 prompt.md>) [`↕️ QUANTITY`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/QUANTITY ↕️/QUANTITY ↕️ prompt.md>) [`💰 AMOUNT`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/AMOUNT 💰/AMOUNT 💰 prompt.md>) [`🔑 OTP`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/OTP 🔑/OTP 🔑 prompt.md>) [`⭐ RATE`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/RATE ⭐/RATE ⭐ prompt.md>) 
     || [`👍 CONFIRM`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`1️⃣ ONE`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/ONE 1️⃣/ONE 1️⃣ prompt.md>) [`🔢 MANY`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/MANY 🔠/🔠 MANY ⌘ cmd.md>) 
     || [`🕓 TIME`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TIME 🕓/TIME 🕓 prompt.md>) [`📆 DATE`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/DATE 📆/DATE 📆 prompt.md>) 
     || [`⬆️ UPLOAD`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/UPLOAD ⬆️/UPLOAD ⬆️ prompt.md>)
@@ -68,7 +68,7 @@
         * This blocks the user from changing any [Prompts 🤔](<🤔 Prompt.md>) up to that point.
         * [Hosts 🤗](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) to this when committing a transaction to a database with the inputs collected.
   
-    * ⚠️ Note: [`Options`](<🤔⚙️ Prompt features/4 🔘 with Options.md>) with a `§` open a new [Chat 💬](<../Chats 💬/💬 Chat.md>)  and are never frozen.
+    * ⚠️ Note: [`Options`](<../Prompts 🤔/🤔⚙️ Prompt features/4 🔘 with Options.md>) with a `§` open a new [Chat 💬](<../Chats 💬/💬 Chat.md>)  and are never frozen.
 
     ---
     <br/>
@@ -78,11 +78,11 @@
 
     | Feature | Details
     |-|-
-    | ⊕ [`Details`](<🤔⚙️ Prompt features/3 ⊕ with Details.md>) | Has expandable [+] details.
-    | 🔘 [`Options`](<🤔⚙️ Prompt features/4 🔘 with Options.md>)  | Has options for users to select.
-    | 📎 [`Appendix`](<🤔⚙️ Prompt features/5 📎 with Appendix.md>)  | Has a PDF, PNG, or JPEG attachment.
-    | ⚠️ [` Status`](<🤔⚙️ Prompt features/8 ⚠️ as Status.md>) | Informs and continues the flow.
-    | ✏️ [`Input`](<🤔⚙️ Prompt features/9 ✏️ as Input.md>) | Waits for an answer from users.
+    | ⊕ [`Details`](<../Prompts 🤔/🤔⚙️ Prompt features/3 ⊕ with Details.md>) | Has expandable [+] details.
+    | 🔘 [`Options`](<../Prompts 🤔/🤔⚙️ Prompt features/4 🔘 with Options.md>)  | Has options for users to select.
+    | 📎 [`Appendix`](<../Prompts 🤔/🤔⚙️ Prompt features/5 📎 with Appendix.md>)  | Has a PDF, PNG, or JPEG attachment.
+    | ⚠️ [` Status`](<../Prompts 🤔/🤔⚙️ Prompt features/8 ⚠️ as Status.md>) | Informs and continues the flow.
+    | ✏️ [`Input`](<../Prompts 🤔/🤔⚙️ Prompt features/9 ✏️ as Input.md>) | Waits for an answer from users.
     
     ---
     <br/>

@@ -28,9 +28,9 @@
 
     |Input|Purpose|Example
     |-|-|-
-    | `Distinct` | Groups results with [`.Distinct`](<../../../📃 Functions 🐍/🐍 System functions 🔩/🔩 {.Distinct}.md>)
+    | `Distinct` | Groups results with [`.Distinct`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Distinct}.md>)
     | `Union` | 
-    | `Where` | Filters items with [`.Filter`](<../../../📃 Functions 🐍/🐍 System functions 🔩/🔩 {.Filter}.md>) 
+    | `Where` | Filters items with [`.Filter`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Filter}.md>) 
 
     ---
     <br/>

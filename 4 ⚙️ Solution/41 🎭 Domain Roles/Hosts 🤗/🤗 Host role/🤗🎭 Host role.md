@@ -99,7 +99,7 @@
 
     | Flow ⏩ | Description
     |-|-
-    | [🤔 `Prompt`](<../🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | Sends a [Prompt 🤔](<../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) to a user [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
+    | [🤔 `Prompt`](<../🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | Sends a [Prompt 🤔](<../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) to a user [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
     | [🛠️ `Invite`](<../🤗⏩ Host flows/Invite 🤗⏩🤲/🤗 Invite ⏩ flow.md>) | Invites a [Helper 🤲 domain](<../../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>) to a [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
     | [📝 `Form`](<../../Consumers 💼/💼⏩ Consumer flows/Inform 💼⏩📝/💼 Inform ⏩ flow.md>) | Informs a user on upcoming [Inputs ✏️](<../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/9 ✏️ as Input.md>)
     | [❄️ `Freeze`](<../🤗⏩ Host flows/Freeze 🤗⏩❄️/🤗 Freeze ⏩ flow.md>) | Blocks changes on all previous [Inputs ✏️](<../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/9 ✏️ as Input.md>)
@@ -117,8 +117,8 @@
     | | [`Home`](<../🤗🅰️ Host methods/Home 🤵🐌🤗/🤗 Home 🐌 msg.md>) | Show the top menu on the [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
     | | [`Abandoned`](<../🤗🅰️ Host methods/Abandoned 🤵🐌🤗/🤗 Abandoned 🐌 msg.md>) |  The user abandoned a [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
     | | [`Summarize`](<../🤗🅰️ Host methods/Summarize 🤵🐌🤗/🤗 Summarize 🐌 msg.md>) | Return a [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) advertising summary
-    |[🧑‍🦰 Wallet](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) | [`Prompted`](<../🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 request.md>) | Return a [Prompt's 🤔](<../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) content
-    | | [`Reply`](<../🤗🅰️ Host methods/Reply 🧑‍🦰🐌🤗/🤗 Reply 🐌 msg.md>) | Accept the reply to a [Prompt 🤔](<../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>)
+    |[🧑‍🦰 Wallet](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) | [`Prompted`](<../🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 request.md>) | Return a [Prompt's 🤔](<../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) content
+    | | [`Reply`](<../🤗🅰️ Host methods/Reply 🧑‍🦰🐌🤗/🤗 Reply 🐌 msg.md>) | Accept the reply to a [Prompt 🤔](<../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>)
     | | [`Download`](<../🤗🅰️ Host methods/Download 🧑‍🦰🚀🤗/🤗 Download 🚀 request.md>) | Download an [Appendix 📎](<../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/5 📎 with Appendix.md>)
     [🖐️ Palmist](<../../../60 🧰 Edge/63 🖐️ Palmists/01 🖐️🔌 Palmist device.md>) | [`Found`](<../🤗🅰️ Host methods/Found 🖐️🐌🤗/🤗 Found 🐌 msg.md>) | A [Palmist 🖐️](<../../../60 🧰 Edge/63 🖐️ Palmists/01 🖐️🔌 Palmist device.md>) found the Chat's user
     [⭐ Reviewer](<../../../50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) | [`Rated`](<../🤗🅰️ Host methods/Rated ⭐🐌🤗/🤗 Rated 🐌 msg.md>) | The [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) received user reviews
