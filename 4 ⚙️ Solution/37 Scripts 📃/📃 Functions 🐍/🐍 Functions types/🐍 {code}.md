@@ -44,7 +44,7 @@
     - INFO|{$n}+{$n} equals {Sum($n,$n)}
     ```
 
-    Commands: [`INFO`](<../../../35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`QUANTITY`](<../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/QUANTITY ↕️/QUANTITY ↕️ prompt.md>)
+    Commands: [`INFO`](<../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`QUANTITY`](<../../📃 Prompts 🤔/🤔 Input ✏️ prompts/QUANTITY ↕️/QUANTITY ↕️ prompt.md>)
 
     ```python
     # 🐍 Python handler
@@ -116,7 +116,7 @@
     - INFO|{MyFunction(1,2,3)}
     ```
 
-    Commands: [`INFO`](<../../../35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>)
+    Commands: [`INFO`](<../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)
     
     ```python
     # 🐍 Python handler

@@ -68,7 +68,7 @@
     - FAILURE|This command never runs.
     ```
 
-    Commands: [`FAILURE`](<../../../../35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/FAILURE ❌/FAILURE ❌ prompt.md>) [`RUN`](<../RUN ▶️/▶️ RUN ⌘ cmd.md>) [`SUCCESS`](<../../../../35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>)
+    Commands: [`FAILURE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/FAILURE ❌/FAILURE ❌ prompt.md>) [`RUN`](<../RUN ▶️/▶️ RUN ⌘ cmd.md>) [`SUCCESS`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>)
     
     ---
     <br/>
@@ -118,7 +118,7 @@
     - RETURN|.Add($1, $2, $3)
     ```
 
-    Commands: [`.Add`](<../../../📃 Functions 🐍/🐍 System functions 🔩/🔩 {.Add}.md>) [`INFO`](<../../../../35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`RUN`](<../RUN ▶️/▶️ RUN ⌘ cmd.md>) 
+    Commands: [`.Add`](<../../../📃 Functions 🐍/🐍 System functions 🔩/🔩 {.Add}.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`RUN`](<../RUN ▶️/▶️ RUN ⌘ cmd.md>) 
 
     ---
     <br/>

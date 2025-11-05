@@ -34,10 +34,10 @@
 
     Command | Purpose
     |-|-
-    | ℹ️ [`INFO`](<../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | Information message.
-    | ⏳ [`TEMP`](<../Prompts 🤔/🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>) |Temporary status message.
-    | ✅ [`SUCCESS`](<../Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) | Successful status message.
-    | ❌ [`FAILURE`](<../Prompts 🤔/🤔📢 Prompt status/FAILURE ❌/FAILURE ❌ prompt.md>) | Unsuccessful status message.
+    | ℹ️ [`INFO`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) | Information message.
+    | ⏳ [`TEMP`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/TEMP ⏳/TEMP ⏳ prompt.md>) |Temporary status message.
+    | ✅ [`SUCCESS`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>) | Successful status message.
+    | ❌ [`FAILURE`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/FAILURE ❌/FAILURE ❌ prompt.md>) | Unsuccessful status message.
 
     ---
     <br/>
@@ -46,24 +46,24 @@
     
     |Command |  Example | Purpose
     |-|-|-
-    | 🔠 [`TEXT`](<../Prompts 🤔/🤔✏️ Prompt inputs/TEXT 🔠/TEXT 🔠 prompt.md>) | Bla | Unstructured text | 
-    | ↕️ [`QUANTITY`](<../Prompts 🤔/🤔✏️ Prompt inputs/QUANTITY ↕️/QUANTITY ↕️ prompt.md>) | 123| Numbers with ⬆️ ⬇️ arrows |
-    | 🔢 [`DIGITS`](<../Prompts 🤔/🤔✏️ Prompt inputs/DIGITS 🔢/DIGITS 🔢 prompt.md>) |0123| Numerics with 0 prefix | 
-    | 💰 [`AMOUNT`](<../Prompts 🤔/🤔✏️ Prompt inputs/AMOUNT 💰/AMOUNT 💰 prompt.md>) |  1.23 | Decimals and currency
-    | ⭐ [`RATE`](<../Prompts 🤔/🤔✏️ Prompt inputs/RATE ⭐/RATE ⭐ prompt.md>) | 5 ⭐ | Integer from 1 to 5
-    | 🔑 [`OTP`](<../Prompts 🤔/🤔✏️ Prompt inputs/OTP 🔑/OTP 🔑 prompt.md>) | 0123 | SIM one time password
-    | 👍 [`CONFIRM`](<../Prompts 🤔/🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>) | Yes | `Yes` `No` `Cancel` answer
-    | 🔠 [`MANY`](<../Prompts 🤔/🤔✏️ Prompt inputs/MANY 🔠/🔠 MANY ⌘ cmd.md>) | [A,B] |
-    | 1️⃣ [`ONE`](<../Prompts 🤔/🤔✏️ Prompt inputs/ONE 1️⃣/ONE 1️⃣ prompt.md>) | A |
-    | 📆 [`DATE`](<../Prompts 🤔/🤔✏️ Prompt inputs/DATE 📆/DATE 📆 prompt.md>)
-    | 🕓 [`TIME`](<../Prompts 🤔/🤔✏️ Prompt inputs/TIME 🕓/TIME 🕓 prompt.md>)
-    | 👤 [`IDENTITY`](<../Prompts 🤔/🤔✏️ Prompt inputs/IDENTIFY 👤/IDENTIFY 👤 prompt.md>)
-    | 🔆 [`SCAN`](<../Prompts 🤔/🤔✏️ Prompt inputs/SCAN 🔆/SCAN 🔆 prompt.md>)
-    | 🦋 [`TOUCH`](<../Prompts 🤔/🤔✏️ Prompt inputs/TOUCH 🦋/TOUCH 🦋 prompt.md>)
-    | 🛒 [`EAN`](<../Prompts 🤔/🤔✏️ Prompt inputs/EAN 🛒/EAN 🛒 prompt.md>)
-    | ⬆️ [`UPLOAD`](<../Prompts 🤔/🤔✏️ Prompt inputs/UPLOAD ⬆️/UPLOAD ⬆️ prompt.md>)
-    | 📍 [`LOCATION`](<../Prompts 🤔/🤔✏️ Prompt inputs/LOCATION 📍/LOCATION 📍 prompt.md>)
-    | 🗺️ [`TRACK`](<../Prompts 🤔/🤔✏️ Prompt inputs/TRACK 🗺️/TRACK 🗺️ prompt.md>)
+    | 🔠 [`TEXT`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 🔠/TEXT 🔠 prompt.md>) | Bla | Unstructured text | 
+    | ↕️ [`QUANTITY`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/QUANTITY ↕️/QUANTITY ↕️ prompt.md>) | 123| Numbers with ⬆️ ⬇️ arrows |
+    | 🔢 [`DIGITS`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/DIGITS 🔢/DIGITS 🔢 prompt.md>) |0123| Numerics with 0 prefix | 
+    | 💰 [`AMOUNT`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/AMOUNT 💰/AMOUNT 💰 prompt.md>) |  1.23 | Decimals and currency
+    | ⭐ [`RATE`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/RATE ⭐/RATE ⭐ prompt.md>) | 5 ⭐ | Integer from 1 to 5
+    | 🔑 [`OTP`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/OTP 🔑/OTP 🔑 prompt.md>) | 0123 | SIM one time password
+    | 👍 [`CONFIRM`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/CONFIRM 👍 prompt.md>) | Yes | `Yes` `No` `Cancel` answer
+    | 🔠 [`MANY`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/MANY 🔠/🔠 MANY ⌘ cmd.md>) | [A,B] |
+    | 1️⃣ [`ONE`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/ONE 1️⃣/ONE 1️⃣ prompt.md>) | A |
+    | 📆 [`DATE`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/DATE 📆/DATE 📆 prompt.md>)
+    | 🕓 [`TIME`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TIME 🕓/TIME 🕓 prompt.md>)
+    | 👤 [`IDENTITY`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/IDENTIFY 👤/IDENTIFY 👤 prompt.md>)
+    | 🔆 [`SCAN`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/SCAN 🔆/SCAN 🔆 prompt.md>)
+    | 🦋 [`TOUCH`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TOUCH 🦋/TOUCH 🦋 prompt.md>)
+    | 🛒 [`EAN`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/EAN 🛒/EAN 🛒 prompt.md>)
+    | ⬆️ [`UPLOAD`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/UPLOAD ⬆️/UPLOAD ⬆️ prompt.md>)
+    | 📍 [`LOCATION`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/LOCATION 📍/LOCATION 📍 prompt.md>)
+    | 🗺️ [`TRACK`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TRACK 🗺️/TRACK 🗺️ prompt.md>)
 
     ---
     <br/>
@@ -110,7 +110,7 @@
     Command | Purpose
     |-|-
     | ⏯️️ [`CASE`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | Runs a [Command ⌘](<Command ⌘.md>) or [Script 📃](<Function 🐍.md>).
-    | 🫥 [`EMOJI`](<../Prompts 🤔/🤔✏️ Prompt input features/😶⌘ EMOJI cmd.md>) | Changes the [default emoji 😃](<../Prompts 🤔/🤔✏️ Prompt input features/😶 Input emojis.md>) for [input prompts ✏️](<../Prompts 🤔/🤔⚙️ Prompt features/9 ✏️ as Input.md>).
+    | 🫥 [`EMOJI`](<../Prompts 🤔/🤔✏️ Prompt inputs/😶⌘ EMOJI cmd.md>) | Changes the [default emoji 😃](<../Prompts 🤔/🤔✏️ Prompt inputs/😶 Input emojis.md>) for [input prompts ✏️](<../Prompts 🤔/🤔⚙️ Prompt features/9 ✏️ as Input.md>).
     | ⬇️ [`EVAL`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | Evaluates a [{Function}](<Function 🐍.md>) into a holder.
     | ⤵️ [`IF`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) | Runs a [Command ⌘](<Command ⌘.md>) or [Script 📃](<Function 🐍.md>).
     | 🪵 [`LOG`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/LOG 🪵/🪵 LOG ⌘ cmd.md>) | Logs messages into the system handler.

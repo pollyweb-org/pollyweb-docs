@@ -14,10 +14,10 @@ How to request an immediate ride?
 | 🙋 Hailing | 😃 Any bags? [Yes, No] | > No
 | [🗓️ Scheduler](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Schedulers 🗓️/$ 🗓️🫥 Scheduler agent.md>) | 🫥 Confirm ride? [Yes, No] <br/>- pick-up ~9:05 <br/>- drop-off ~9:45 <br/> - your flight is at 17:35. | > Yes
 | 💳 [Payer](<../../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) | 🫥 Pay $12.95 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
-| 🙋 Hailing | ⏳ [Assigning you a driver...](<../../../../4 ⚙️ Solution/35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>)<br/>- [ Cancel request ]
+| 🙋 Hailing | ⏳ [Assigning you a driver...](<../../../../4 ⚙️ Solution/37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/TEMP ⏳/TEMP ⏳ prompt.md>)<br/>- [ Cancel request ]
 | 🙋 Hailing | ℹ️ Driver assigned: <br/>- it's Daniel <br/>- on a black Tesla, ABC123 <br/> - on arrival, tap the seat to confirm.
-| 🙋 Hailing | ⏳ [Pick-up by 12:37...](<../../../../4 ⚙️ Solution/35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>)<br/>- [ Cancel pick-up ]
-| 🙋 Hailing | ⏳ [Pick-up by 12:35...](<../../../../4 ⚙️ Solution/35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>)<br/>- [ Cancel pick-up ]
+| 🙋 Hailing | ⏳ [Pick-up by 12:37...](<../../../../4 ⚙️ Solution/37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/TEMP ⏳/TEMP ⏳ prompt.md>)<br/>- [ Cancel pick-up ]
+| 🙋 Hailing | ⏳ [Pick-up by 12:35...](<../../../../4 ⚙️ Solution/37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/TEMP ⏳/TEMP ⏳ prompt.md>)<br/>- [ Cancel pick-up ]
 | 🙋 Hailing | 📣 Daniel arrived! [ Quiet, 5... 4... ] | > Quiet
 | 🧭 [Navigator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Navigators 🧭/$ 🧭🫥 Navigator agent.md>) | ⓘ The driver is at your door.
 | 🙋 Hailing | ⏳ Tap inside until 12:41...<br> - [ Say "be right there" ] <br/>- [ Say something else ] <br>- [ Cancel pick-up ]

@@ -27,14 +27,14 @@
 
     |Behavior| Format 
     |-|-
-    |[`Status`](<🤔⚙️ Prompt features/8 ⚠️ as Status.md>)| [`ℹ️ INFO`](<🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`⏳ TEMP`](<🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>) [`✅ SUCCESS`](<🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) [`❌ FAILURE`](<🤔📢 Prompt status/FAILURE ❌/FAILURE ❌ prompt.md>)
-    |[`Inputs`](<🤔⚙️ Prompt features/9 ✏️ as Input.md>)| [`🔢 DIGITS`](<🤔✏️ Prompt inputs/DIGITS 🔢/DIGITS 🔢 prompt.md>) [`↕️ QUANTITY`](<🤔✏️ Prompt inputs/QUANTITY ↕️/QUANTITY ↕️ prompt.md>) [`💰 AMOUNT`](<🤔✏️ Prompt inputs/AMOUNT 💰/AMOUNT 💰 prompt.md>) [`🔑 OTP`](<🤔✏️ Prompt inputs/OTP 🔑/OTP 🔑 prompt.md>) [`⭐ RATE`](<🤔✏️ Prompt inputs/RATE ⭐/RATE ⭐ prompt.md>) 
-    || [`👍 CONFIRM`](<🤔✏️ Prompt inputs/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`1️⃣ ONE`](<🤔✏️ Prompt inputs/ONE 1️⃣/ONE 1️⃣ prompt.md>) [`🔢 MANY`](<🤔✏️ Prompt inputs/MANY 🔠/🔠 MANY ⌘ cmd.md>) 
-    || [`🕓 TIME`](<🤔✏️ Prompt inputs/TIME 🕓/TIME 🕓 prompt.md>) [`📆 DATE`](<🤔✏️ Prompt inputs/DATE 📆/DATE 📆 prompt.md>) 
-    || [`⬆️ UPLOAD`](<🤔✏️ Prompt inputs/UPLOAD ⬆️/UPLOAD ⬆️ prompt.md>)
-    || [`🔠 TEXT`](<🤔✏️ Prompt inputs/TEXT 🔠/TEXT 🔠 prompt.md>) 
-    || [`👤 IDENTIFY`](<🤔✏️ Prompt inputs/IDENTIFY 👤/IDENTIFY 👤 prompt.md>) [`🛒 EAN`](<🤔✏️ Prompt inputs/EAN 🛒/EAN 🛒 prompt.md>) [`🔆 SCAN`](<🤔✏️ Prompt inputs/SCAN 🔆/SCAN 🔆 prompt.md>) [`🦋 TOUCH`](<🤔✏️ Prompt inputs/TOUCH 🦋/TOUCH 🦋 prompt.md>) 
-    |`Special`| [`📍 LOCATION`](<🤔✏️ Prompt inputs/LOCATION 📍/LOCATION 📍 prompt.md>) [`🗺️ TRACK`](<🤔✏️ Prompt inputs/TRACK 🗺️/TRACK 🗺️ prompt.md>)
+    |[`Status`](<🤔⚙️ Prompt features/8 ⚠️ as Status.md>)| [`ℹ️ INFO`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`⏳ TEMP`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/TEMP ⏳/TEMP ⏳ prompt.md>) [`✅ SUCCESS`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>) [`❌ FAILURE`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/FAILURE ❌/FAILURE ❌ prompt.md>)
+    |[`Inputs`](<🤔⚙️ Prompt features/9 ✏️ as Input.md>)| [`🔢 DIGITS`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/DIGITS 🔢/DIGITS 🔢 prompt.md>) [`↕️ QUANTITY`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/QUANTITY ↕️/QUANTITY ↕️ prompt.md>) [`💰 AMOUNT`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/AMOUNT 💰/AMOUNT 💰 prompt.md>) [`🔑 OTP`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/OTP 🔑/OTP 🔑 prompt.md>) [`⭐ RATE`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/RATE ⭐/RATE ⭐ prompt.md>) 
+    || [`👍 CONFIRM`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`1️⃣ ONE`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/ONE 1️⃣/ONE 1️⃣ prompt.md>) [`🔢 MANY`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/MANY 🔠/🔠 MANY ⌘ cmd.md>) 
+    || [`🕓 TIME`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TIME 🕓/TIME 🕓 prompt.md>) [`📆 DATE`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/DATE 📆/DATE 📆 prompt.md>) 
+    || [`⬆️ UPLOAD`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/UPLOAD ⬆️/UPLOAD ⬆️ prompt.md>)
+    || [`🔠 TEXT`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 🔠/TEXT 🔠 prompt.md>) 
+    || [`👤 IDENTIFY`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/IDENTIFY 👤/IDENTIFY 👤 prompt.md>) [`🛒 EAN`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/EAN 🛒/EAN 🛒 prompt.md>) [`🔆 SCAN`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/SCAN 🔆/SCAN 🔆 prompt.md>) [`🦋 TOUCH`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TOUCH 🦋/TOUCH 🦋 prompt.md>) 
+    |`Special`| [`📍 LOCATION`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/LOCATION 📍/LOCATION 📍 prompt.md>) [`🗺️ TRACK`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TRACK 🗺️/TRACK 🗺️ prompt.md>)
 
 
     ---
