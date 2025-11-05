@@ -44,7 +44,7 @@ The associated [`Script`](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Sc
 | [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Command ⌘.md>) | Purpose
 |-|-
 | ℹ️ [`INFO`](<../../../../35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the messages to the user.
-| 🛠️ [`INVITE`](<../../../../35 💬 Chats/Scripts 📃/📃 methods 🤵/INVITE 🤲/🤲 INVITE ⌘ cmd.md>) | To collect a random number.
+| 🛠️ [`INVITE`](<../../../../37 Scripts 📃/Commands ⌘/📃 methods 🤵/INVITE 🤲/🤲 INVITE ⌘ cmd.md>) | To collect a random number.
 |
 
 

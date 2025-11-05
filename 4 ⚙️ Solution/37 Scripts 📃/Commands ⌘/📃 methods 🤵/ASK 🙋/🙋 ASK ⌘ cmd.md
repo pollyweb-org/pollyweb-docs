@@ -1,6 +1,6 @@
 # 😃🙋 Talker `ASK` command
 
-> Part of [Script 📃](<../../📃 basics/Script 📃.md>)
+> Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>)
 
 > Implemented by the [`.ASK` 📃 script](<🙋 ASK 📃 script.md>)
 
@@ -9,8 +9,8 @@
 1. **What's a ASK command?**
 
     A `ASK`
-    * is a message [Command ⌘](<../../📃 basics/Command ⌘.md>) 
-    * that calls [`MANY` 🔠 prompt](<../../../Prompts 🤔/🤔✏️ Prompt inputs/MANY 🔠/🔠 MANY ⌘ cmd.md>)
+    * is a message [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Command ⌘.md>) 
+    * that calls [`MANY` 🔠 prompt](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/MANY 🔠/🔠 MANY ⌘ cmd.md>)
     * to return only the user-selected items of a list.
 
 
@@ -41,16 +41,16 @@
 
 1. **What's an example of a ASK?**
 
-    Here's a [Chat 💬](<../../../Chats 💬/💬 Chat.md>).
+    Here's a [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>).
 
-    | [Domain](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../Prompts 🤔/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
+    | [Domain](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     | - | - | - |
     | 🤗 [Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | 😃 Which options? [All, No] <br/> - [ ] Some option <br/> - [ ] Another option | > All
     ||
 
     <br/>
 
-    Here's the [Script 📃](<../../📃 basics/Script 📃.md>).
+    Here's the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>).
 
     ```yaml
     # Create a dummy list

@@ -1,6 +1,6 @@
 # 🛰️ Talker `RELAY` command
 
-> Part of [Script 📃](<../../📃 basics/Script 📃.md>)
+> Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>)
 
 <br/>
 
@@ -8,7 +8,7 @@
 1. **What's a RELAY item command?**
 
     A `RELAY` 
-    * is a [Command ⌘](<../../📃 basics/Command ⌘.md>) 
+    * is a [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Command ⌘.md>) 
     * that sends messages to physical devices
     * via [Relayer 🛰️ helper domains](<../../../../45 🤲 Helper domains/Relayers 🛰️/🛰️🤲 Relayer helper.md>).
 
@@ -40,15 +40,15 @@
     | `<key>`  | Unique device key in the pool
     | `<script>` | Message to send to the device
     | `$result` | The response returned by the [Relayer 🛰️](<../../../../45 🤲 Helper domains/Relayers 🛰️/🛰️🤲 Relayer helper.md>)
-    | `<failure>` | [Script 📃](<../../📃 basics/Script 📃.md>) or [Command ⌘](<../../📃 basics/Command ⌘.md>) to run on failure
-    | `<success>` | [Script 📃](<../../📃 basics/Script 📃.md>) or [Command ⌘](<../../📃 basics/Command ⌘.md>) to run on success
+    | `<failure>` | [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) or [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Command ⌘.md>) to run on failure
+    | `<success>` | [Script 📃](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Script 📃.md>) or [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/📃 basics/Command ⌘.md>) to run on success
 
     ---
     <br/>
 
 1. **How to open a locker door remotely?**
 
-    | [Domain](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../Prompts 🤔/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
+    | [Domain](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/Prompts 🤔/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     | - | - | - |
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | ℹ️ This is Locker LND-123
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | ⏳ Opening door 7...
@@ -75,7 +75,7 @@
     - SUCCESS|Locker opened. # Notify the user
     ```
 
-    Commands: [`FAILURE`](<../../../Prompts 🤔/🤔📢 Prompt status/FAILURE ❌/FAILURE ❌ prompt.md>) [`INFO`](<../../../Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`LOG`](<../../📃 control ▶️/LOG 🪵/🪵 LOG ⌘ cmd.md>) [`RELAY`](<🛰️ RELAY ⌘ cmd.md>) [`SUCCESS`](<../../../Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) [`TEMP`](<../../../Prompts 🤔/🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>)
+    Commands: [`FAILURE`](<../../../../35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/FAILURE ❌/FAILURE ❌ prompt.md>) [`INFO`](<../../../../35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/INFO ℹ️/INFO ℹ️ prompt.md>) [`LOG`](<../../../../35 💬 Chats/Scripts 📃/📃 control ▶️/LOG 🪵/🪵 LOG ⌘ cmd.md>) [`RELAY`](<🛰️ RELAY ⌘ cmd.md>) [`SUCCESS`](<../../../../35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/SUCCESS ✅/SUCCESS ✅ prompt.md>) [`TEMP`](<../../../../35 💬 Chats/Prompts 🤔/🤔📢 Prompt status/TEMP ⏳/TEMP ⏳ prompt.md>)
     
     ---
     <br/>
