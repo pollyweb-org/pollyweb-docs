@@ -41,7 +41,7 @@
 
 # Save the Token
 - SAVE|$token:
-    :$offer:
+    $offer
 
 # Inform the Issuer
 - SEND:

@@ -168,7 +168,7 @@
     ```yaml 
     EVAL >> $p:   # Merge objects with ':object:'
       A: 1
-      :$another-holder:
+      $another-holder:
       B: 2
     ```
 

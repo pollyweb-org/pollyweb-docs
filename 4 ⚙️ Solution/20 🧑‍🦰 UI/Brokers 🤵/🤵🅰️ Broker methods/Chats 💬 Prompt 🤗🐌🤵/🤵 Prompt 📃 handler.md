@@ -11,6 +11,8 @@
 ## Script
 
 ```yaml
+📃 Prompt@Broker:
+
 # Verify the message
 - VERIFY|$.Msg
 

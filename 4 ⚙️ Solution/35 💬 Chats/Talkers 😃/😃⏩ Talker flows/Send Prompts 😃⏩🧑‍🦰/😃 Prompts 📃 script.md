@@ -40,6 +40,17 @@
     UUIDs: Appendix  
     Maths: MinValue, MaxValue
 
+- ASSERT|$Options:
+    AllOf: ID, Title
+    Texts: ID, Title, Locator
+
+# Translate if required.
+IF|$.Chat.Language.IsNot($.Script.Language):
+    TRANSLATE|$.Inputs >> $prompt
+        From: $.Script.Language
+        To: $.Chat.Language
+        All: Text, Details, Options.Title
+
 # Stage the prompt.
 - SAVE|HostPrompts >> $hook:
     Hook: .UUID
@@ -47,7 +58,12 @@
     Broker: $.Chat.Broker
     PublicKey: $.Chat.PublicKey
     Expires: .Now.Add(5 minutes)
-    Prompt: :$.Inputs
+    Prompt: 
+        $.Inputs:
+        # Translate the displayed text fields
+        Text: Text.Translate
+        Details: Details.Translate
+        Options.Title: Options.Title.Translate
 
 # Call the Prompt@Broker
 - SEND|$hook:
@@ -57,13 +73,15 @@
     Body:
         Chat: Chat
         Hook: Hook
+        Emoji: $Emoji
+        Format: $Format
         Expires: Expires
 
 # Check for non-blocking inputs
 - IF|$Format.IsIn(INFO,FAILURE,SUCCESS,TEMP):
 
     # Create a check-point for options
-    - IF|$.Options: 
+    - IF|$Options: 
         HOOK|$hook.Hook
 
     # Don't wait for non-blocking inputs

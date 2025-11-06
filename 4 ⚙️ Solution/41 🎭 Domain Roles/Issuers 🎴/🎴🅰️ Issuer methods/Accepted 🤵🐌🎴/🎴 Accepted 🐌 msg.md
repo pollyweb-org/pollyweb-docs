@@ -50,7 +50,7 @@ Body:
 # Save the Token
 - SAVE|IssuerTokens:
     Token: $.Msg.Token
-    :$hook:
+    $hook:
 
 # Continue the Talker
 - REEL|$hook:

@@ -22,7 +22,7 @@
     
     # It's safe to save the Body, 
     #   it's already schema-validated.
-    :$.Msg.Body:  
+    $.Msg.Body:  
 
 # Start a Chat for the locator
 - TALK|$.Msg.Chat|$.Msg.Locator

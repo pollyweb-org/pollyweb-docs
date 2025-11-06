@@ -29,7 +29,7 @@
 
 # The the message
 - RUN|Prompt@Host:
-    :$.Inputs: 
+    $.Inputs: 
     Format: INFO
     Emoji: $emoji
 ```

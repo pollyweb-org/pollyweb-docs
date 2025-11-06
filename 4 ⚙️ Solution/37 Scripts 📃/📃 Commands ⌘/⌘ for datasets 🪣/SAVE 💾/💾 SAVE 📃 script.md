@@ -21,8 +21,7 @@
 ```yaml
 # With an item
 - RUN|.SAVE >> $saved:
-    Item: 
-        :$item:
+    Item: $item
     Set: $item.Set
     Script: SaveToken
     Version: <version-uuid>  # Optional
