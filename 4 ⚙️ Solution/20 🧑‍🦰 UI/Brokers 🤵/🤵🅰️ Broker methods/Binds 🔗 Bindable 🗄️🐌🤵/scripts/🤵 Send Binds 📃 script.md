@@ -7,8 +7,8 @@
 
 # Merge existing with new
 - EVAL >> $send:
-    :$bound: # already bound
-    :$binds: # just created
+    $bound # already bound
+    $binds # just created
 
 # Send the created binds
 - SEND:
