@@ -42,6 +42,8 @@
     |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>)      | What if we add items?
     |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Minus}.md>)    | What if we remove items?
     |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) | Same as [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Minus}.md>)
+    | Format | [`.Format`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Format}.md>) | Formats the items in ths list
+    |       | [`.List`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.List}.md>) | Extracts a single item property 
     
     ---
     <br/>
@@ -49,17 +51,20 @@
 
 1. **How to assert a list of objects?**
 
-    Here's a [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
+    Let's assert this list.
+    ```yaml
+    ┌────┬────┬───┐        
+    │ A  │ B  │ C │        
+    ├────┼────┼───┤        
+    │ 10 │ 11 │ X │        
+    │ 20 │ 21 │ Y │        
+    └────┴────┴───┘        
+    ```
+
+    Here's the [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
 
     ```yaml
     📃 Example:
-
-    # Create a list
-    EVAL >> $list:
-        - {A:10, B:20, C:X}
-        - {A:11, B:21, C:Y}
-
-    # Verify the list items.
     ASSERT|$list:
         - AllOf: A, B
         - A.IsBetween(10,19)
@@ -75,143 +80,34 @@
 
 1. **How to format a list of objects?**
 
-    Here's the syntax.
+    Using the [`.Format`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Format}.md>) function.
 
-    ```yaml
-    # Syntax - fails if $list was never set
-    EVAL|$list >> $output:
-        {object}
-    ```
-
-    ||Inputs| Purpose
-    |-|-|-
-    || `$list` | [Holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) list of objects
-    ||| Fails if `$list` was never set
-    |
-
-    Here's a list.
-
-    ```yaml
-    ┌────┬────┬────┐
-    │ A  │ B  │ C  │
-    ├────┼────┼────┤
-    │ 10 │ 11 │ 12 │
-    │ 20 │ 21 │ 22 │
-    └────┴────┴────┘
-    ```
-
-    Here's the [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
+    * Here's an example [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to extract only A and B properties.
 
     ```yaml
     📃 Example:
-
-    # Extract only A and B properties.
     - EVAL|$list >> $output:
         Alpha: A
         Beta: B
     ```
 
-    Here's the `$output`.
-
-    ```yaml
-    ┌───────┬──────┐
-    │ Alpha │ Beta │
-    ├───────┼──────┤
-    │   10  │  11  │
-    │   20  │  21  │
-    └───────┴──────┘
-    ```
-
     ---
     <br/>
-
 
 
 1. **How to create a value array from a list of objects?**
   
-    Here's the syntax.
-
-    ```yaml
-    # Syntax
-    EVAL|$list >> $output:
-        <property>
-    ```
-    
-    Here's a list.
-
-    ```yaml
-    | A  | B  | C  |
-    | -- | -- | -- |
-    | 10 | 11 | 12 |
-    | 20 | 21 | 22 |
-    ```
-    
-    Here's the [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
+    Using the [`.List`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.List}.md>) function. Here's a [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
 
     ```yaml   
-    📃 Example:
-    
-    # Extract only A properties.
-    - EVAL|$list >> $output:
-        A
-    ```
-
-    Here's the `$output`.
-
-    ```yaml
-    [10, 20]
-    ```
-
-
-
-    ---
-    <br/>
-
-
-
-1. **How to create an object array from a list of objects?**
-  
-    Here's the syntax.
-
-    ```yaml
-    # Syntax
-    EVAL|$list >> $output:
-        - <property-1>
-        - <property-2>
-    ```
-    
-    Here's a list.
-
-    ```yaml
-    | A  | B  | C  |
-    | -- | -- | -- |
-    | 10 | 11 | 12 |
-    | 20 | 21 | 22 |
-    ```
-    
-    Here's the [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
-
-    ```yaml  
-    📃 Example:
-
-    # Extract only properties A and B.
-    - EVAL|$list >> $output:
-        - A
-        - B
-    ```
-
-    Here's the `$output`.
-
-    ```yaml
-    - A: 10
-      B: 11
-      
-    - A: 20
-      B: 21
+    📃 Example:  
+    - EVAL|$list.A    >> $out  # Take 1 property
+    - EVAL|$list(A,B) >> $out  # Take 2 properties
     ```
 
     ---
     <br/>
+
 
 
 1. **How to append into lists?**
@@ -253,31 +149,6 @@
     |-|-|-
     | `A,B` | `B,C` | `A,B,B,C`
     | `{A:1}` | `{B:2},{C:3}`| `{A:1},{B:2},{C:3}`
-
-    ---
-    <br/>
-
-
-1. **How to imitate SQL queries?**
-
-    ```yaml
-    📃 Similar to SQL query:
-    - EVAL >> $output-list: |
-
-        SELECT          
-            A:Col1       # Object composition
-            B:Col2       # Aliases
-        FROM $input-list    
-        
-        # Function comparison  
-        WHERE Col3.Is($any-value)  
-
-        ORDER BY Col2   # Ordering
-
-        UNION           # Merged lists
-
-        SELECT 1, 2     # Static values
-    ```
 
     ---
     <br/>
