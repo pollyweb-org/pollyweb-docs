@@ -130,8 +130,7 @@
     - <CMD> >> $out:
         <pro-1>: <val-1>    # objects
         <pro-2>: <val-2>    #   with a property map
-        $holder-1:          # holders with a ":" suffix
-        :$holder-n:         #   or surrounded by ":"
+        :$holder-1:         # holders surrounded by ":"
     ```
 
     ```yaml
