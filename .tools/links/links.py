@@ -205,6 +205,16 @@ def compute_expected_replacement(token: str, given_raw: str, md_files: list[str]
             if search_token in name and '🧠' in name and 'holder' in name.lower():
                 return f"`{display_token}` 🧠 holder", Path(path)
 
+    if token.lower().endswith(' holders'):
+        base = token[: -len(' holders')].strip()
+        candidate = f"{base} holders.md" if base else "holders.md"
+        for path in md_files:
+            if os.path.basename(path) == candidate:
+                return format_dynamic_link_text(token), Path(path)
+        for path in md_files:
+            if os.path.basename(path) == 'Holder 🧠.md':
+                return format_dynamic_link_text(token), Path(path)
+
     dynamic_target = find_dynamic_target(token, file_dict)
     if dynamic_target:
         link_text = format_dynamic_link_text(token, triple_brace=triple_brace)
@@ -698,7 +708,8 @@ def runit(project_directory, entryPoint):
             if stripped.startswith('`') and stripped.endswith('`') and len(stripped) > 2:
                 stripped = stripped[1:-1]
             normalized_token = ' '.join(stripped.split())
-            if not normalized_token.startswith('$.'):
+            lowered = normalized_token.lower()
+            if not (normalized_token.startswith('$.') or lowered.endswith(' holders')):
                 return match.group(0)
 
             result = compute_expected_replacement(normalized_token, f"{{{{{normalized_token}}}}}", md_files, file_dict, project_directory)

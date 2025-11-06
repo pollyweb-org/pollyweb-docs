@@ -147,6 +147,15 @@ Successful Tests:
     LinkFile: "🛢🤲 Itemizer helper.md"
     Reasons: This is hardcoded.
 
+  - Given: '{{List}}'
+    LinkText: "List 🧠 holder"
+    LinkFile: "List holders.md"
+    Reasons: This is hardcoded.
+  - Given: '{{Lists}}'
+    LinkText: "Lists 🧠 holders"
+    LinkFile: "List holders.md"
+    Reasons: This is hardcoded.
+
   - Given: "{{Logger}}"
     LinkText: "Logger 🪵 helper domain"
     LinkFile: "🪵 Logger 🤲 helper.md"
@@ -222,6 +231,15 @@ Successful Tests:
   - Given: "{{Talkers}}"
     LinkText: "Talker 😃 helper domains"
     LinkFile: "😃🤲 Talker helper.md"
+    Reasons: This is hardcoded.
+
+  - Given: '{{Time}}'
+    LinkText: "Time 🧠 holder"
+    LinkFile: "Time holders.md"
+    Reasons: This is hardcoded.
+  - Given: '{{Times}}'
+    LinkText: "Time 🧠 holders"
+    LinkFile: "Time holders.md"
     Reasons: This is hardcoded.
 
   - Given: '{{Trust}}'
