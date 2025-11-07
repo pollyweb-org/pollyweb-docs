@@ -4,7 +4,7 @@
 
 <!-- TODO 
 - Get the Itemizer from $.Hosted
-- Get the Set map from $.Hosted
+- Get the Set dict from $.Hosted
 - Support normal gets like Wallets by Key:WalledID
 - Support get parents like $bind.Wallet.Broker
 - Support get children like $wallet.Binds

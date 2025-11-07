@@ -12,7 +12,7 @@
 | Property | Type | Notes
 |-|-|-
 | `Dataset` | string | Reference to a [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>) that defines the dataset being offered
-| `Requires` | map | List of properties required as arguments to query the dataset 
+| `Requires` | dict | List of properties required as arguments to query the dataset 
 |
 
 <br/>

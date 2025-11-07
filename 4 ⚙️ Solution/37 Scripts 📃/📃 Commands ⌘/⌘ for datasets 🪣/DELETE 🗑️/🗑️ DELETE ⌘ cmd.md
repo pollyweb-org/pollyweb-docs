@@ -50,7 +50,7 @@
     | `Set` | Name of the dataset | `MySet`
     | `Key` | Key(s) to delete from the set |-
     ||  `<key>` as a string or array | `A` `A,B` `$a` 
-    || `{key}` as an object map | `{A:1,B:2}`
+    || `{key}` as a dictionary | `{A:1,B:2}`
     | `Undo` | Hide to allow an [`UNDO`](<../UNDO ↩️/↩️ UNDO ⌘ cmd.md>) later | `30 days`
     | | `days` `hours` `minutes` `months`
     
