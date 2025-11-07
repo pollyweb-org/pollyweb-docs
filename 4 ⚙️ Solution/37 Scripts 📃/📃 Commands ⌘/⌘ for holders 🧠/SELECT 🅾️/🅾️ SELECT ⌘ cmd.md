@@ -1,24 +1,24 @@
 <!-- TODO -->
 
-# 😃🅾️ Talker `SQL` command
+# 😃🅾️ Talker `SELECT` command
 
 > Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
 
 ## FAQ 
 
-1. **What is a SQL command?**
+1. **What is a SELECT command?**
 
-    A `SQL`
+    A `SELECT`
     * is a [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) 
-    * that works with lists like SQL.
+    * that works with lists like SQL (Structured Query Language).
 
     ---
     <br/>
 
-1. **What's the SQL syntax?**
+1. **What's the SELECT syntax?**
 
     ```yaml
-    SELECT >> $output:
+    SELECT:
         All|First|Last|Distinct: [fields]
         From: $list-1, $list-n
         Where: {filters}
@@ -40,8 +40,19 @@
     ---
     <br/>
 
+1. **What's the difference between creating and changing?**
+    
+    | Behavior | Syntax | 
+    |-|-
+    | Create a new [List 🧠](<../../../📃 Holders 🧠/🧠 Holder types/List holders.md>) | `SELECT >> $lst`
+    | Change a [List 🧠](<../../../📃 Holders 🧠/🧠 Holder types/List holders.md>) | `SELECT\|$lst:`
+    | - equivalent to           | `SELECT\|$lst >> $lst:`
+    
 
-1. **How to filter lists with SQL?**
+    ---
+    <br/>
+
+1. **How to filter lists with SELECT?**
 
 
     Consider the following lists of `$items` and `$suppliers`.
@@ -81,42 +92,3 @@
 
     ---
     <br/>
-
-
-
-1. **How to update lists with SELECT?**
-
-    Here's an example using the same lists as before.
-   
-    ```yaml
-    📃 Example:
-    
-    # Create a simple list with all item IDs
-    - EVAL|$items >> $out:
-        Item: ID
-
-    # For each item, add Supplier and City
-    - SELECT|$out: 
-        First:
-            Supplier: Name
-            City: City
-        From: $suppliers
-        Where: ID.Is(SupID)
-    ```
-    Commands: [`EVAL`](<../EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>)
-    
-    Here's the final `$out` list.
-
-    ```yaml
-    ┌──────┬──────────┬──────┐
-    │ Item │ Supplier │ City │
-    ├──────┼──────────┼──────┤
-    │  1   │   ABC    │ C1   │
-    │  2   │   XPTO   │ C2   │
-    │  3   │   XPTO   │ C2   │
-    └──────┴──────────┴──────┘
-    ```
-
-    ---
-    <br/>
-    
