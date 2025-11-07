@@ -23,19 +23,19 @@
         From: $list-1, $list-n
         Where: {filters}
         OrderBy: +a, -b
-        Limit: 123
+        Limit: 10
     ```
 
     |Input|Purpose||
     |-|-|-
-    | `All` | Default
+    | `All` | Uses [`.List`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.List}.md>) to extract item properties
     | `First` | Uses [`.First`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.First}.md>) to return only the 1st item
     | `Last` | Uses [`.Last`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>) to return only the last item
     | `Distinct` | Uses [`.Distinct`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Distinct}.md>) to group results 
-    | `From` | Uses [`.Append`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>) to merge multiple lists
-    | `Where` | Uses [`.Filter`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Filter}.md>) to filter list items 
-    | `OrderBy`| Uses...
-    | `Limit` | Uses...
+    | `From` | Uses [`.Append`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>) to merge multiple [Lists 🧠](<../../../📃 Holders 🧠/🧠 Holder types/List holders.md>)
+    | `Where` | Uses [`.Filter`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Filter}.md>) to filter [List 🧠](<../../../📃 Holders 🧠/🧠 Holder types/List holders.md>) items 
+    | `OrderBy`| Uses [`.Sort`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Sort}.md>) to order the [List 🧠](<../../../📃 Holders 🧠/🧠 Holder types/List holders.md>) items
+    | `Limit` | Uses [`.Take`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Take}.md>) to limit the items returned
 
     ---
     <br/>
@@ -47,36 +47,37 @@
     Consider the following lists of `$items` and `$suppliers`.
 
     ```yaml
-    # Items                      # Suppliers
+    # $items                     # $suppliers
     ┌────┬───────┬───────┐       ┌────┬──────┬──────┐
     │ ID │ Price │ SupID │       │ ID │ Name │ City │
     ├────┼───────┼───────┤       ├────┼──────┼──────┤
-    │  1 │   10  │   A   │       │  A │ ABC  │ C1   │
-    │  2 │   20  │   X   │       │  X │ XPTO │ C2   │
-    │  3 │   30  │   X   │       │  Y │ ANY  │ C3   │
+    │  1 │    10 │ A     │       │ A  │ ABC  │ C1   │
+    │  2 │    20 │ X     │       │ X  │ XPTO │ C2   │
+    │  3 │    30 │ X     │       │ Y  │ ANY  │ C3   │
     └────┴───────┴───────┘       └────┴──────┴──────┘
     ```
 
-
     ```yaml
-    📃 Example:
-    - SELECT >> $filtered:
-        All: ID, Name
-        From: $suppliers
-        Where: ID.IsIn(X, Y)
+    # Filter items:            # ┌────┬───────┐
+    - SELECT >> $out:          # │ ID │ SupID │
+        All: ID, SupID         # ├────┼───────┤
+        From: $items           # │  3 │ X     │
+        Where: ID.IsIn(1,3)    # │  1 │ A     │
+        OrderBy: ID-           # └────┴───────┘
     ```    
-    Here's the final `$filtered` list.
 
     ```yaml
-    # Suppliers
-    ┌────┬──────┐
-    │ ID │ Name │
-    ├────┼──────┤
-    │ X  │ XPTO │
-    │ Y  │ ANY  │
-    └────┴──────┘
-    ```
-
+    # Items with suppliers:    # ┌────┬───────┬──────┐
+    SELECT >> $out:            # │ ID │ Price │ Sup  │
+      All:                     # ├────┼───────┼──────┤
+        ID: "P{i.ID}"          # | P1 |    15 | ABC  |
+        Price: Price.Add(50%)  # | P2 |    30 | XPTO |
+        Sup: Name              # | P3 |    45 | XPTO |
+      From:                    # └────┴───────┴──────┘ 
+        i: $items
+        s: $suppliers        
+      Where: s.ID.Is(SupID)    
+    ```    
 
     ---
     <br/>

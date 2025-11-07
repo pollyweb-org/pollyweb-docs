@@ -182,7 +182,7 @@
     <br/>
 
 
-1. **How to create a value array from a list of objects?**
+1. **How to take some properties from a [List 🧠](<List holders.md>) of [Pair 🧠](<Pair holders.md>)?**
   
     Using the [`.List` function](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.List}.md>) in one of 3 forms:
     * with the [`EVAL` command](<../../📃 Commands ⌘/⌘ for holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>),
