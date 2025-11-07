@@ -25,8 +25,8 @@
     |Create | [`.Random`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Random}.md>) | Returns a random number
     |Change | [`.Sum`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Sum}.md>) | What if we add numbers?
     |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) | Same as [`.Sum`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Sum}.md>)
+    |       | [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Plus}.md>) | Same as [`.Sum`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Sum}.md>) | What if we add numbers?
     |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Minus}.md>) | What if we subtract numbers?
-    |       | [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Plus}.md>) | Same as [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>)
     |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) | How much between 2 numbers?
 
     ---
