@@ -39,12 +39,12 @@ Body:
 | |         `Subject` | string | `Build@Itemizer`
 | Body      | `Name`     | string    |  [Itemized 🪣 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) name
 |           | `Key`        | string[]  | Index for [`Save@`](<../Item Save 👥🚀🛢/🛢 Save 🚀 request.md>) and [`Get@`](<../Item Get 👥🚀🛢/🛢 Get 🚀 request.md>)
-|           | `Parents` | map |		List of parent items
+|           | `Parents` | dict |		List of parent items
 |           | `Propagate`| string[] | List of parents to propagate
-|           | `Children` |map	| List of children items
+|           | `Children` |dict	| List of children items
 |           | `Distincts`|	map |	List of grouped fields
 |           | `NoUpdates` | bool | Blocks item updates
-|           | `Triggers`| map | Hooks for [`Triggered@Talker`](<../../🛢🔔 Itemizer events/🛢🔔 Triggered.md>)
+|           | `Triggers`| dict | Hooks for [`Triggered@Talker`](<../../🛢🔔 Itemizer events/🛢🔔 Triggered.md>)
 |
 
 <br/>

@@ -165,15 +165,6 @@ Successful Tests:
     LinkFile: "🪵 Logger 🤲 helper.md"
     Reasons: This is hardcoded.
 
-  - Given: '{{Map}}'
-    LinkText: "Map 🧠 holder"
-    LinkFile: "Map holders.md"
-    Reasons: This is hardcoded.
-  - Given: '{{Maps}}'
-    LinkText: "Map 🧠 holders"
-    LinkFile: "Map holders.md"
-    Reasons: This is hardcoded.
-
   - Given: '{{Math}}'
     LinkText: "Math 🧠 holder"
     LinkFile: "Math holders.md"
@@ -181,6 +172,15 @@ Successful Tests:
   - Given: '{{Maths}}'
     LinkText: "Math 🧠 holders"
     LinkFile: "Math holders.md"
+    Reasons: This is hardcoded.
+
+  - Given: '{{Pair}}'
+    LinkText: "Pair 🧠 holder"
+    LinkFile: "Pair holders.md"
+    Reasons: This is hardcoded.
+  - Given: '{{Pairs}}'
+    LinkText: "Pair 🧠 holders"
+    LinkFile: "Pair holders.md"
     Reasons: This is hardcoded.
 
   - Given: "{{Persona}}"

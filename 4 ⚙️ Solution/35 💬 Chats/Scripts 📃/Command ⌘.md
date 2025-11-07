@@ -129,7 +129,7 @@
     # in multiple lines as a YAML object
     - <CMD> >> $out:
         <pro-1>: <val-1>    # objects
-        <pro-2>: <val-2>    #   with a property map
+        <pro-2>: <val-2>    #   with a property dict
         :$holder-1:         # holders surrounded by ":"
     ```
 
@@ -143,7 +143,7 @@
     # in multiple lines as a YAML list
     - <CMD> >> $out:
         - <pro-1>: <val-1>    # objects
-        - <pro-2>: <val-2>    #   with a property map
+        - <pro-2>: <val-2>    #   with a property dict
         - $holder-1           # holders
         - $holder-2           #   with just the holder
     ```

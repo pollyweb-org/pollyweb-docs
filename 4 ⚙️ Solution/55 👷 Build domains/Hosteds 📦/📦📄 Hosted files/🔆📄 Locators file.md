@@ -27,7 +27,7 @@
 
     | Property | Type | Description
     |-|-|-
-    | `Locators` | map | Resource keys to [Talker 😃 files](<😃📂 Talkers folder.md>).
+    | `Locators` | dict | Resource keys to [Talker 😃 files](<😃📂 Talkers folder.md>).
 
     ---
     <br/>

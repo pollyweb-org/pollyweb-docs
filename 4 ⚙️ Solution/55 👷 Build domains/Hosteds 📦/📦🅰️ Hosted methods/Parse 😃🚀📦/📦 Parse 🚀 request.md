@@ -43,5 +43,5 @@ Run:
 |Object|Property|Type|Description
 |-|-|-|-
 | Run       | `Script`      | string    | [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to run
-|           | `Inputs`      | map    | Inputs for the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
+|           | `Inputs`      | dict    | Inputs for the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
 |

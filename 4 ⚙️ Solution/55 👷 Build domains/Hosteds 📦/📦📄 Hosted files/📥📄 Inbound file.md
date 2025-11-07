@@ -26,7 +26,7 @@
 
     | Property | Type | Description
     |-|-|-
-    | `Handlers` | map | URLs with handlers.
+    | `Handlers` | dict | URLs with handlers.
     
 
     ---

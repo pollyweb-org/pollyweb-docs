@@ -38,14 +38,14 @@
     | `Prefix` | string | Prefixes all mentioned table names | `Broker`
     | `Table`   | string | Name for table, without the prefix | `T` `Wallets`
     | [`Keys`](<../🪣🛢 Itemized datasets/Item 🛢 Keys.md>)     | list | Properties that compose the key | `k` `k1,k2`
-    | [`Parents`](<../🪣🛢 Itemized datasets/Item 🛢 Parents.md>) | map | Parent relationships | `P:{P.k:T.p}`
+    | [`Parents`](<../🪣🛢 Itemized datasets/Item 🛢 Parents.md>) | dict | Parent relationships | `P:{P.k:T.p}`
     | [`Propagate`](<../🪣🛢 Itemized datasets/Item 🛢 Propagate.md>) | list | Name of parents to auto-create | `P` `P,Q`
-    | [`Children`](<../🪣🛢 Itemized datasets/Item 🛢 Children.md>)| map | Child relationships | `Cs:{C.p:T.k}`
+    | [`Children`](<../🪣🛢 Itemized datasets/Item 🛢 Children.md>)| dict | Child relationships | `Cs:{C.p:T.k}`
     | [`Cascade`](<../🪣🛢 Itemized datasets/Item 🛢 Cascade.md>) | list | Name of children to auto-delete | `Cs` `Cs,Ds`
-    | [`Views`](<../🪣🛢 Itemized datasets/Item 🛢 Views.md>) | map | Filtered children | `Vs:Cs:[p=3]`
-    | [`Distincts`](<../🪣🛢 Itemized datasets/Item 🛢 Distincts.md>) | map | Unique values in child properties | `Ds:Cs.d`
+    | [`Views`](<../🪣🛢 Itemized datasets/Item 🛢 Views.md>) | dict | Filtered children | `Vs:Cs:[p=3]`
+    | [`Distincts`](<../🪣🛢 Itemized datasets/Item 🛢 Distincts.md>) | dict | Unique values in child properties | `Ds:Cs.d`
     | [`NoUpdates`](<../🪣🛢 Itemized datasets/Item 🛢 NoUpdates.md>) | bool | Only allows inserts and deletes | `True`
-    | [`Triggers`](<../🪣🛢 Itemized datasets/Item 🛢 Triggers.md>) | map | [Scripts 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to run on triggers | `S:EXPIRED`
+    | [`Triggers`](<../🪣🛢 Itemized datasets/Item 🛢 Triggers.md>) | dict | [Scripts 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to run on triggers | `S:EXPIRED`
     
     ---
     <br/>
