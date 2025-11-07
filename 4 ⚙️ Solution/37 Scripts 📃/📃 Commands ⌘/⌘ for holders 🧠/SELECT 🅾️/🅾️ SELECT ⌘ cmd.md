@@ -19,18 +19,23 @@
 
     ```yaml
     SELECT >> $output:
-        First|All|Distinct|Top(n): [fields]
-        From: $list
-        Union: $list-1, $list-n
+        All|First|Last|Distinct: [fields]
+        From: $list-1, $list-n
         Where: {filters}
         OrderBy: +a, -b
+        Limit: 123
     ```
 
-    |Input|Purpose|Example
+    |Input|Purpose||
     |-|-|-
-    | `Distinct` | Groups results with [`.Distinct`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Distinct}.md>)
-    | `Union` | 
-    | `Where` | Filters items with [`.Filter`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Filter}.md>) 
+    | `All` | Default
+    | `First` | Uses [`.First`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.First}.md>) to return only the 1st item
+    | `Last` | Uses [`.Last`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>) to return only the last item
+    | `Distinct` | Uses [`.Distinct`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Distinct}.md>) to group results 
+    | `From` | Uses [`.Append`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>) to merge multiple lists
+    | `Where` | Uses [`.Filter`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Filter}.md>) to filter list items 
+    | `OrderBy`| Uses...
+    | `Limit` | Uses...
 
     ---
     <br/>
