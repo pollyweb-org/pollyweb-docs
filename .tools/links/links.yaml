@@ -152,7 +152,7 @@ Successful Tests:
     LinkFile: "List holders.md"
     Reasons: This is hardcoded.
   - Given: '{{Lists}}'
-    LinkText: "Lists 🧠 holders"
+    LinkText: "List 🧠 holders"
     LinkFile: "List holders.md"
     Reasons: This is hardcoded.
 
@@ -163,6 +163,24 @@ Successful Tests:
   - Given: "{{Loggers}}"
     LinkText: "Logger 🪵 helper domains"
     LinkFile: "🪵 Logger 🤲 helper.md"
+    Reasons: This is hardcoded.
+
+  - Given: '{{Map}}'
+    LinkText: "Map 🧠 holder"
+    LinkFile: "Map holders.md"
+    Reasons: This is hardcoded.
+  - Given: '{{Maps}}'
+    LinkText: "Map 🧠 holders"
+    LinkFile: "Map holders.md"
+    Reasons: This is hardcoded.
+
+  - Given: '{{Math}}'
+    LinkText: "Math 🧠 holder"
+    LinkFile: "Math holders.md"
+    Reasons: This is hardcoded.
+  - Given: '{{Maths}}'
+    LinkText: "Math 🧠 holders"
+    LinkFile: "Math holders.md"
     Reasons: This is hardcoded.
 
   - Given: "{{Persona}}"
@@ -231,6 +249,15 @@ Successful Tests:
   - Given: "{{Talkers}}"
     LinkText: "Talker 😃 helper domains"
     LinkFile: "😃🤲 Talker helper.md"
+    Reasons: This is hardcoded.
+
+  - Given: '{{Text}}'
+    LinkText: "Text 🧠 holder"
+    LinkFile: "Text holders.md"
+    Reasons: This is hardcoded.
+  - Given: '{{Texts}}'
+    LinkText: "Text 🧠 holders"
+    LinkFile: "Text holders.md"
     Reasons: This is hardcoded.
 
   - Given: '{{Time}}'
