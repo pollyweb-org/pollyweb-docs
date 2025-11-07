@@ -69,7 +69,7 @@
 
     ```yaml
     📃 Example:
-    ASSERT|$list:
+    - ASSERT|$list:
         - AllOf: A, B
         - A.IsBetween(10,19)
         - B.IsBetween(20,29)
@@ -82,45 +82,22 @@
 
 
 
-1. **How to format a list of objects?**
-
-    Using the [`.Format`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Format}.md>) function.
-
-    * Here's an example [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to extract only A and B properties.
-
-    ```yaml
-    📃 Example:
-    - EVAL|$list >> $output:
-        Alpha: A
-        Beta: B
-    ```
-
-    ---
-    <br/>
-
-
-1. **How to create a value array from a list of objects?**
-  
-    Using the [`.List`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.List}.md>) function. Here's a [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
-
-    ```yaml   
-    📃 Example:  
-    - EVAL|$list.A    >> $out  # Take 1 property
-    - EVAL|$list(A,B) >> $out  # Take 2 properties
-    ```
-
-    ---
-    <br/>
-
-
 
 1. **How to append into lists?**
 
-    > Used by the [`CreateBinds@Broker` 📃 script](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/scripts/🤵 Create Binds 📃 script.md>)
+    Using the [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>) or [`.Add` functions](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>).
     
-    <br/>
+    ```yaml   
+    ┌────────────────────────┬──────────────┐
+    │ Explicit               │ Implicit     │ 
+    ├────────────────────────┼──────────────┤
+    │ EVAL|$lst.Add >> $lst: │ EVAL +> $lst │ 
+    │   A: 1                 │   A: 1       │
+    │   B: 2                 │   B: 2       │
+    └────────────────────────┴──────────────┘    
+    ```
 
-    To insert a value in a lists, use  `+>` instead of `>>`.
+    To append a value in a [List 🧠](<List holders.md>) with [`EVAL`](<../../📃 Commands ⌘/⌘ for holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>), use  `+>` instead of `>>`.
     ```yaml
     📃 Example:
     - EVAL|A +> $list
@@ -128,7 +105,7 @@
     # Results in [A,B]    
     ```
 
-    Here's a alternative syntax using the [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) function in a [Holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>).
+    Here's a alternative syntax using the [`.Add` function](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) in a [Holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>).
 
     ```yaml
     📃 Example:
@@ -142,11 +119,16 @@
 
 1. **How to merge two lists?**
 
-    ```yaml
-    📃 Merge two lists:
-    - EVAL >> $merged:
-        :list1:
-        :list2:
+    Using the [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>) or [`.Add` functions](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>).
+
+    ```yaml   
+    ┌────────────────────┬───────────────┐
+    │ Explicit           │ Implicit      │ 
+    ├────────────────────┼───────────────┤
+    │ EVAL|.Add >> $out: │ EVAL >> $out: │ 
+    │   - $lst1          │   $lst1       │
+    │   - $lst2          │   $lst2       │
+    └────────────────────┴───────────────┘    
     ```
 
     | List1 | List2 | Result
@@ -157,3 +139,97 @@
     ---
     <br/>
 
+
+1. **How to filter a list?**
+
+    Using the [`.Filter` function](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Filter}.md>) or the [`FILTER` command](<../../📃 Commands ⌘/⌘ for holders 🧠/FILTER 🔽/🔽 FILTER ⌘ cmd.md>).
+
+    ```yaml   
+    ┌───────────────────────────┬──────────────────────┐
+    │ Explicit                  │ Implicit             │ 
+    ├───────────────────────────┼──────────────────────┤
+    │ EVAL|$lst.Filter >> $out: │ FILTER|$lst >> $out: │ 
+    │   - A.IsBelow(3)          │   - A.IsBelow(3)     │
+    │   - B.IsNotEmpty          │   - B.IsNotEmpty     │
+    │   - C: 123                │   - C: 123           │
+    └───────────────────────────┴──────────────────────┘    
+    ```
+
+    | List1 | List2 | Result
+    |-|-|-
+    | `A,B` | `B,C` | `A,B,B,C`
+    | `{A:1}` | `{B:2},{C:3}`| `{A:1},{B:2},{C:3}`
+
+    ---
+    <br/>
+
+
+1. **How to format a list of objects?**
+
+    Using the [`.Format` function](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Format}.md>) to extract specific properties.
+
+    ```yaml
+    ┌───────────────────────────┬────────────────────┐
+    │ Explicit                  │ Implicit           │ 
+    ├───────────────────────────┼────────────────────┤
+    │ EVAL|$lst.Format >> $out: │ EVAL|$lst >> $out: │ 
+    │   Alpha: A                │   Alpha: A         │      
+    │   Beta: B                 │   Beta: B          │  
+    └───────────────────────────┴────────────────────┘    
+    ```
+
+    ---
+    <br/>
+
+
+1. **How to create a value array from a list of objects?**
+  
+    Using the [`.List` function](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.List}.md>) in one of 3 forms:
+    * with the [`EVAL` command](<../../📃 Commands ⌘/⌘ for holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>),
+    * or as `$holder.property` for a single property,
+    * or as `$holder(prop-1, prop-N)` for a multiple properties.
+    
+    Here's a [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to take 1 property.
+
+    ```yaml   
+    ┌─────────────────────────┬───────────────┐
+    │ Explicit                │ Implicit      │ 
+    ├─────────────────────────┼───────────────┤
+    │ EVAL|$lst.List >> $out: │ EVAL >> $out: │ 
+    │    A                    │   $lst.A      │
+    └─────────────────────────┴───────────────┘    
+    ```
+
+    Here's a [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to take 2 properties.
+
+    ```yaml   
+    ┌─────────────────────────┬───────────────┐
+    │ Explicit                │ Implicit      │ 
+    ├─────────────────────────┼───────────────┤
+    │ EVAL|$lst.List >> $out: │ EVAL >> $out: │ 
+    │    - A                  │   $lst(A,B)   │      
+    │    - B                  │               │      
+    └─────────────────────────┴───────────────┘    
+    ```
+
+    ---
+    <br/>
+
+
+
+1. **How to select distinct a unique set of items?**
+
+    Using the [`.Distinct` function](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Distinct}.md>)  or the [`DISTINCT` command](<../../📃 Commands ⌘/⌘ for holders 🧠/DISTINCT 🌪️/🌪️ DISTINCT ⌘ cmd.md>).
+
+    ```yaml
+    ┌─────────────────────────┬───────────────────┐
+    │ Explicit                │ Implicit          │ 
+    ├─────────────────────────┼───────────────────┤
+    │ EVAL|.Distinct >> $out: │ DISTINCT >> $out: │ 
+    │   $lst1.Add($lst2)      │   $lst1           │
+    |                         │   $lst2           │     
+    └─────────────────────────┴───────────────────┘    
+    ```
+
+    ---
+    <br/>
