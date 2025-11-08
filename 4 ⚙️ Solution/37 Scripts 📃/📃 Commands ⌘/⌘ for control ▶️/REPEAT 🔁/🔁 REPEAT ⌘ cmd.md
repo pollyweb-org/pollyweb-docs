@@ -172,7 +172,7 @@
 
     ```yaml
     💬 Play guess:                      
-    - EVAL|.Random(1,9) >> $target       # Set the target
+    - PUT|.Random(1,9) >> $target       # Set the target
     - INFO|You have 3 attempts.          # Inform the rules
     - PUT >> $tries:                     # Reset the counter
         3
