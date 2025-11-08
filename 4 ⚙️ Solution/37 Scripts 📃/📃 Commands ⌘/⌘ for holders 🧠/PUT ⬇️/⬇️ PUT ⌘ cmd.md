@@ -24,11 +24,9 @@
     | `PUT\|$lst >> $out: *` | Formats a [List 🧠 holder](<../../../📃 Holders 🧠/🧠 Holder types/List holders.md>) with [`.List`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.List}.md>)
     || Equals [`EVAL`](<../EVAL 🧮/🧮 EVAL ⌘ cmd.md>)`\|`[`.List`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.List}.md>)` >> $out: $lst,*`
     | `PUT\|* >> $out` | Puts any other content in a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)
-    || Same as `PUT >> $out: *` 
-    
-    
-    
-    
+    || Equals `PUT >> $out: *` 
+    | `PUT\|.f >> $out: *` | Equals [`EVAL`](<../EVAL 🧮/🧮 EVAL ⌘ cmd.md>)`\|.f >> $out: *`  
+    | `PUT\|$in: *` | Equals [`SET`](<../SET ↘️/↘️ SET ⌘ cmd.md>)`\|$in: *` 
 
     ---
     <br/>
