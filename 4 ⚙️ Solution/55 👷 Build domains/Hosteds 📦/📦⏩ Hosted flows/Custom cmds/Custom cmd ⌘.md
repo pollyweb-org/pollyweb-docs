@@ -37,7 +37,7 @@
     - TEXT|Say something >> $something
     - ECHO|$something
     ```
-    Commands: [`TEXT`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 🔠/TEXT 🔠 prompt.md>)
+    Uses: [`TEXT`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 🔠/TEXT 🔠 prompt.md>)
 
     <br/>
 
@@ -47,7 +47,7 @@
     📃 .ECHO:
     - INFO|Custom echo `{$UserInput}`
     ```
-    Commands: [`INFO`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)
+    Uses: [`INFO`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)
 
     <br/>
 
@@ -74,7 +74,7 @@
                     }
                 }
     ```
-    Commands: [`RUN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
+    Uses: [`RUN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>)
 
     ---
     <br/>

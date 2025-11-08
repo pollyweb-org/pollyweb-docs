@@ -67,7 +67,7 @@
     - DELETE|$item 
     ```
 
-    Commands: [`READ`](<../READ 🧲/🧲 READ ⌘ cmd.md>) [`DELETE`](<🗑️ DELETE ⌘ cmd.md>)
+    Uses: [`READ`](<../READ 🧲/🧲 READ ⌘ cmd.md>) [`DELETE`](<🗑️ DELETE ⌘ cmd.md>)
 
     ---
     <br/>

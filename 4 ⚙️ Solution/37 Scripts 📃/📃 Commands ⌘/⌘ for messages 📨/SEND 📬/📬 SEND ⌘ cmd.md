@@ -108,7 +108,7 @@
             A: A
             B: B
     ```
-    Commands: [`EVAL`](<../../⌘ for holders 🧠/EVAL 🧮/🧮 EVAL ⌘ cmd.md>)
+    Uses: [`EVAL`](<../../⌘ for holders 🧠/EVAL 🧮/🧮 EVAL ⌘ cmd.md>)
 
     ---
     <br/>
