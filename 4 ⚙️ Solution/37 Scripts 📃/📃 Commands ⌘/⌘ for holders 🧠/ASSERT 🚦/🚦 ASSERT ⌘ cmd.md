@@ -135,7 +135,7 @@
         - B.IsBetween(20,29)
         - C.IsIn(X,Y)
     ```
-    Uses: [`EVAL`](<../EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) [`.IsBetween`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsBetween}.md>) [`.IsIn`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>)
+    Uses: [`EVAL`](<../EVAL 🧮/🧮 EVAL ⌘ cmd.md>) [`.IsBetween`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsBetween}.md>) [`.IsIn`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>)
 
     ---
     <br/>
