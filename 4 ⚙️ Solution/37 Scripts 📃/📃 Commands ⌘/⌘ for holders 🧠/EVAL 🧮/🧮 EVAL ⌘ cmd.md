@@ -20,12 +20,16 @@
     |Variation| Behavior
     |-|-|
     | `EVAL\|f(*)` | Executes a [{code} 🐍 function](<../../../📃 Functions 🐍/🐍 Functions types/🐍 {code}.md>) with `*` args
-    ||Same as `EVAL\|f: *`
+    ||Equals `EVAL\|f: *`
     | `EVAL\|f(*) >> $out` | Puts [{code} 🐍](<../../../📃 Functions 🐍/🐍 Functions types/🐍 {code}.md>) results in a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)
-    || Same as `EVAL\|f >> $out: *` 
-    | `EVAL\|.f >> $out: *` | Executes a built-in [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
-    || Same as `EVAL\|.f >> $out: *`    
-
+    || Equals `EVAL\|f >> $out: *` 
+    | `EVAL\|.f(*) >> $out` | Executes a built-in [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
+    || Equals `EVAL\|.f >> $out: *`  
+    | `EVAL\|$in: *` | Equals [`SET`](<../SET ↘️/↘️ SET ⌘ cmd.md>)`\|$in: *` 
+    | `EVAL\|$in >> $out: *` | Equals [`PUT`](<../PUT ⬇️/⬇️ PUT ⌘ cmd.md>)`\|$in >> $out: *`
+    | `EVAL\|* >> $out` | Equals [`PUT`](<../PUT ⬇️/⬇️ PUT ⌘ cmd.md>)`\|* >> $out`
+    | `EVAL >> $out: *` | Equals [`PUT`](<../PUT ⬇️/⬇️ PUT ⌘ cmd.md>)` >> $out: *`
+    
     ---
     <br/>
 
