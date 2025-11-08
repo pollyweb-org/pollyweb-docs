@@ -40,7 +40,7 @@
         Appendix: {/photos/elvis.png}
     ```
     
-    Commands: [`TEXT`](<../../📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 🔠/TEXT 🔠 prompt.md>)
+    Uses: [`TEXT`](<../../📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 🔠/TEXT 🔠 prompt.md>)
 
     ---
     <br/>

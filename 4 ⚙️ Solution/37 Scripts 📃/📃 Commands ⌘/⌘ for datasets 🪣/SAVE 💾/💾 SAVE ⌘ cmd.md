@@ -109,7 +109,7 @@
         a: 1
     ```
 
-    Commands:  [`SAVE`](<💾 SAVE ⌘ cmd.md>)
+    Uses:  [`SAVE`](<💾 SAVE ⌘ cmd.md>)
 
     ---
     <br/>
@@ -134,7 +134,7 @@
         a: 1
     ```
 
-    Commands: [`SAVE`](<💾 SAVE ⌘ cmd.md>)
+    Uses: [`SAVE`](<💾 SAVE ⌘ cmd.md>)
     
     ---
     <br/>
@@ -164,7 +164,7 @@
     
     - SAVE|$item
     ```
-    Commands: 
+    Uses: 
 
     ---
     <br/>

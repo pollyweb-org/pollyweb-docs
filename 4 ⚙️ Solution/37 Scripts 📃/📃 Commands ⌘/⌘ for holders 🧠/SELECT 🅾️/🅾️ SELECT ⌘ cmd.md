@@ -1,5 +1,3 @@
-<!-- TODO -->
-
 # 😃🅾️ Talker `SELECT` command
 
 > Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
@@ -10,7 +8,8 @@
 
     A `SELECT`
     * is a [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) 
-    * that works with lists like SQL (Structured Query Language).
+    * that handles [List 🧠 holders](<../../../📃 Holders 🧠/🧠 Holder types/List holders.md>) 
+    * using a SQL (Structured Query Language) syntax.
 
     ---
     <br/>

@@ -8,7 +8,7 @@
 
     A `FILTER`
     * is a [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) 
-    * that filters a list with the [`.Filter`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Filter}.md>) function.
+    * that filters a [List 🧠 holder](<../../../📃 Holders 🧠/🧠 Holder types/List holders.md>) with the [`.Filter`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Filter}.md>) function.
 
     ---
     <br/>

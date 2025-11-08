@@ -66,7 +66,7 @@
     # Wait for the output
     - WAIT|$hook >> $output
     ```
-    Commands: [`WAIT`](<../WAIT 🧘/🧘 WAIT ⌘ cmd.md>)
+    Uses: [`WAIT`](<../WAIT 🧘/🧘 WAIT ⌘ cmd.md>)
 
     ---
     <br/>
