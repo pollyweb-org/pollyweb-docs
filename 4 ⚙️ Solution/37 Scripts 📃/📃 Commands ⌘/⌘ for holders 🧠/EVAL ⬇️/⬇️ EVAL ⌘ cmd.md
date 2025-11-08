@@ -14,41 +14,36 @@
     ---
     <br/>
 
-1. **What's the EVAL syntax?**
+1. **What's the [`EVAL`](<⬇️ EVAL ⌘ cmd.md>) syntax?**
 
-    ```yaml
-    # Objects
-    EVAL >> $output:
-        {object}
-    ```
-
-    | Input| Purpose | Example
-    |-|-|-
-    | `<object>` | Object to evaluate | `{A:1, B:$n}`
-    |            | Or a simple string | `How nice!`
-    |            | Or an interpolated string | `Hi, {$name}`
-    | `$output`  | Holder for storage | `$my-var`
-
-    <br/>
-
-    ```yaml
-    # Functions
-    EVAL|{function} >> $output:
-        {input}
-    ```
-
-    | Input| Purpose | Example
-    |-|-|-
-    | `{function}`| [{Function}](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) to be evaluated | `{f}` `{$p}` | 
-    || Supports missing `{}` | `f` `$p`
-    | `{input}`| Input for the `{function}` | `3` `[A,B]` `{A:1}` 
-    || Passed as single argument | `f({input})`
+    |Variation| Behavior
+    |-|-|
+    | `EVAL\|{f(*)}` | Executes a [{code} 🐍 function](<../../../📃 Functions 🐍/🐍 Functions types/🐍 {code}.md>) with `*` args
+    ||Same as `EVAL\|{f}: *`
+    | `EVAL\|{f(*)} >> $out` | Puts [{code} 🐍](<../../../📃 Functions 🐍/🐍 Functions types/🐍 {code}.md>) results in a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)
+    || Same as `EVAL\|{f} >> $out: *` 
+    | `EVAL\|.f >> $out: *` | Executes a built-in [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
+    || Same as `EVAL\|{.f} >> $out: *`
+    | `EVAL\|$in >> $out` | Puts the content of a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) in another
+    || Same as `EVAL >> $out: $in`
+    | `EVAL\|*{$in}* >> $out` | Interpolates [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) into a [Text 🧠 holder](<../../../📃 Holders 🧠/🧠 Holder types/Text holders.md>)
+    || Same a `EVAL >> $out: *{$in}*`
+    | `EVAL\|$lst >> $out: *` | Formats a [List 🧠 holder](<../../../📃 Holders 🧠/🧠 Holder types/List holders.md>) with [`.List`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.List}.md>)
+    || Same as `EVAL\|.List >> $out: $lst,*`
+    | `EVAL\|$in: *` | Changes a [Pair 🧠 holder](<../../../📃 Holders 🧠/🧠 Holder types/Pair holders.md>) with [`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>)
+    || Same as `EVAL\|.Set: $in,*`
+    | `EVAL\|* >> $out` | Puts simple content in a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)
+    || Same as `EVAL >> $out: *` 
     
+    
+    
+    
+
     ---
     <br/>
 
 
-1. **How to pass arguments to a function on EVAL?**
+1. **How to pass arguments to a [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) on [`EVAL`](<⬇️ EVAL ⌘ cmd.md>)?**
 
     ```yaml
     # Multi-position functions
@@ -66,7 +61,7 @@
     ---
     <br/>
     
-1. **What's an EVAL example with static values?**
+1. **What's an [`EVAL`](<⬇️ EVAL ⌘ cmd.md>) example with static values?**
 
 
     | [Domain](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
@@ -94,7 +89,7 @@
     ---
     <br/>
 
-1. **What's an EVAL example with code?**
+1. **What's an [`EVAL`](<⬇️ EVAL ⌘ cmd.md>) example with a [`{code}` function](<../../../📃 Functions 🐍/🐍 Functions types/🐍 {code}.md>)?**
   
     | [Domain](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     | - | - | - |
@@ -130,7 +125,7 @@
     <br/>
 
 
-1. **What's an EVAL example with objects?**
+1. **What's an EVAL example with [Pair 🧠 holders](<../../../📃 Holders 🧠/🧠 Holder types/Pair holders.md>)?**
 
     | [Domain](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     | - | - | - |
