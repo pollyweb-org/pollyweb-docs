@@ -54,7 +54,7 @@
 
     ```yaml
     # Create a dummy list
-    EVAL >> $list:
+    PUT >> $list:
         - A: 1
           B: Some Option
         - A: 2
@@ -69,6 +69,8 @@
     ```
 
     The user selected `All`, so `$filtered` equals `$list`.
+    
+    Uses: [`PUT`](<../../⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>)
 
     ---
     <br/>

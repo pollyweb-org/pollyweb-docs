@@ -36,7 +36,7 @@ Here's the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>
     Texts: ID, Title, Text
 
 # Format the options into {ID,Title}
-- EVAL|$Options >> $options:
+- PUT|$Options >> $options:
     ID: {$ID}
     Title: {$Title}
 

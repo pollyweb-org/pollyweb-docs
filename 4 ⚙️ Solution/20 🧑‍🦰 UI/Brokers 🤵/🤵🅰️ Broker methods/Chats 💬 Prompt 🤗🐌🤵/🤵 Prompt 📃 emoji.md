@@ -46,15 +46,15 @@
             RETURN|🫥
 
 # Default emoji
-- EVAL|😃 >> $emoji
+- PUT|😃 >> $emoji
 
 # Override if in Chat
 - IF|$ChatEmoji:
-    EVAL|$ChatEmoji >> $emoji
+    PUT|$ChatEmoji >> $emoji
 
 # Override if in Prompt
 - IF|$PromptEmoji: 
-    EVAL|$PromptEmoji >> $emoji
+    PUT|$PromptEmoji >> $emoji
 
 # Block special emojis
 - IF|$emoji.IsIn(⏳❌ⓘℹ️☑️✅😃🫥💬💭):

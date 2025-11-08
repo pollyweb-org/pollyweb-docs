@@ -24,7 +24,7 @@
     Key: $wallet.PublicKey
 
 # Prepare the response:
-- EVAL|$wallet.Tokens >> $tokens:
+- PUT|$wallet.Tokens >> $tokens:
     - Issuer
     - Issuer$
     - Key

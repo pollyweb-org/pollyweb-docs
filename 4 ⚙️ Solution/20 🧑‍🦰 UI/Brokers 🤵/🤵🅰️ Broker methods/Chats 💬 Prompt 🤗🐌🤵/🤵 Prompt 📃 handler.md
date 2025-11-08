@@ -31,7 +31,7 @@
         Domain: $.Msg.From
 
 # Get the Chat
-- EVAL|$chatter.Chat >> $chat
+- PUT|$chatter.Chat >> $chat
 
 # Calculate the emoji
 - RUN|PromptEmoji >> $emoji:

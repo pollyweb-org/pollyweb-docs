@@ -17,7 +17,7 @@
     Key: $.Msg.Domain
 
 # Format the list
-- EVAL|$alarms >> $ret:
+- PUT|$alarms >> $ret:
     - When
     - Hook
 

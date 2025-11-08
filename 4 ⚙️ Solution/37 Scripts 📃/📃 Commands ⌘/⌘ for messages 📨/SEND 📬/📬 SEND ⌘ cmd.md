@@ -88,7 +88,7 @@
     📃 Example:
     
     # Create a holder
-    - EVAL|{A:1,B:2} >> $context
+    - PUT|{A:1,B:2} >> $context
 
     # Without context
     - SEND:
@@ -108,7 +108,7 @@
             A: A
             B: B
     ```
-    Uses: [`EVAL`](<../../⌘ for holders 🧠/EVAL 🧮/🧮 EVAL ⌘ cmd.md>)
+    Uses: [`EVAL`](<../../⌘ for holders 🧠/EVAL 🧮/🧮 EVAL ⌘ cmd.md>) [`PUT`](<../../⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>)
 
     ---
     <br/>

@@ -23,9 +23,11 @@
     || Equals `PUT >> $out: *{$in}*`
     | `PUT\|$lst >> $out: *` | Formats a [List 🧠 holder](<../../../📃 Holders 🧠/🧠 Holder types/List holders.md>) with [`.Format`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Format}.md>)
     || Equals [`EVAL`](<../EVAL 🧮/🧮 EVAL ⌘ cmd.md>)`\|`[`.Format`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Format}.md>)` >> $out: $lst,*`
-    | `PUT +> $lst: *` | Appends items to a [List 🧠 holder](<../../../📃 Holders 🧠/🧠 Holder types/List holders.md>) with [`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>)
+    | `PUT\|* +> $lst` | Appends items to a [List 🧠 holder](<../../../📃 Holders 🧠/🧠 Holder types/List holders.md>) with [`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>)
+    || Equals `PUT +> $lst: *`
     || Equals [`EVAL`](<../EVAL 🧮/🧮 EVAL ⌘ cmd.md>)`\|`[`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>)` >> $lst: $lst,*`
-    `PUT >> $out: $l1 $l2` | Merges two [List 🧠 holders](<../../../📃 Holders 🧠/🧠 Holder types/List holders.md>) with [`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>)
+    `PUT\|$l1,$l2 >> $out` | Merges two [List 🧠 holders](<../../../📃 Holders 🧠/🧠 Holder types/List holders.md>) with [`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>)
+    || Equals `PUT >> $out: $l1 $l2`
     || Equals [`EVAL`](<../EVAL 🧮/🧮 EVAL ⌘ cmd.md>)`\|`[`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>)` >> $out: $l1,$l2`  
     | `PUT\|* >> $out` | Puts any other content in a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)
     || Equals `PUT >> $out: *` 

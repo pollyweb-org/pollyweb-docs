@@ -37,7 +37,7 @@ Inputs | Purpose | Examples
         Domain: $Name
 
 # Change the translation
-- EVAL|$domain:
+- SET|$domain:
     Title: $Title
 
 # Update the table

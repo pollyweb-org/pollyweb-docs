@@ -64,7 +64,7 @@
     ```yaml
     📃 Example: 
 
-    - EVAL >> $p:
+    - PUT >> $p:
         A: 10
         B: 20
         $: 30
@@ -87,13 +87,13 @@
     📃 Example: 
     
     # Evaluate [A,B,C] into $list
-    - EVAL|A,B,C >> $list 
+    - PUT|A,B,C >> $list 
 
     # This shows C, A, and B, in any order
     - PARALLEL|$list|$number:
         - INFO|$number
     ```
-    Uses: [`EVAL`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/EVAL 🧮/🧮 EVAL ⌘ cmd.md>) [`INFO`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`PARALLEL`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/PARALLEL *️⃣/*️⃣ PARALLEL ⌘ cmd.md>)
+    Uses: [`EVAL`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/EVAL 🧮/🧮 EVAL ⌘ cmd.md>) [`INFO`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`PARALLEL`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/PARALLEL *️⃣/*️⃣ PARALLEL ⌘ cmd.md>) [`PUT`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>)
 
     ---
     <br/>
@@ -107,13 +107,13 @@
     📃 Example: 
 
     # Create a list
-    - EVAL|A,B,C >> $list # [A,B,C]
+    - PUT|A,B,C >> $list # [A,B,C]
 
     # Show the length
     - INFO|$list.Length() # Shows 3
     - INFO|$list.Size() # Shows 3
     ```
-    Uses: [`EVAL`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/EVAL 🧮/🧮 EVAL ⌘ cmd.md>) [`INFO`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)
+    Uses: [`EVAL`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/EVAL 🧮/🧮 EVAL ⌘ cmd.md>) [`INFO`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`PUT`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>)
 
     ---
     <br/>
@@ -127,12 +127,12 @@
     📃 Example: 
 
     # Create a list of objects
-    - EVAL|{A:1},{A:2} >> $list
+    - PUT|{A:1},{A:2} >> $list
 
     # Show the list of values in property A
     - INFO|$list.A   # Shows [1,2]
     ```
-    Uses: [`EVAL`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/EVAL 🧮/🧮 EVAL ⌘ cmd.md>) [`INFO`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)
+    Uses: [`EVAL`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/EVAL 🧮/🧮 EVAL ⌘ cmd.md>) [`INFO`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`PUT`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>)
 
     ---
     <br/>
@@ -143,30 +143,29 @@
     * `.Holders.Set('$p', new_value)` 
 
     In a [Script 📃](<Script 📃.md>), use `>>` to send a value to a $holder:
-    * `TEXT|bla >> $p` writes the answer to a [`TEXT` 🔠 input](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 🔠/TEXT 🔠 prompt.md>).
-    * `EVAL|f >> $p` writes the return of a [{Function}](<Function 🐍.md>) named `f`.
+    * [`TEXT`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 🔠/TEXT 🔠 prompt.md>)`|bla >> $p` puts the answer to a [`TEXT` 🔠 input](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 🔠/TEXT 🔠 prompt.md>).
+    * [`EVAL`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/EVAL 🧮/🧮 EVAL ⌘ cmd.md>)`|f >> $p` puts the return of a [{Function}](<Function 🐍.md>) named `f`.
+    * [`PUT`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>)`|X >> $p` puts the string `X`.
 
-    You can also push data structures with [`EVAL` 🧮](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/EVAL 🧮/🧮 EVAL ⌘ cmd.md>).
-    
     ```yaml
-    EVAL >> $p:   # Write values
+    PUT >> $p:   # Write values
       123
     ```
         
     ```yaml
-    EVAL >> $p:   # Write lists
+    PUT >> $p:   # Write lists
       - A
       - B
     ```
 
     ```yaml
-    EVAL >> $p:   # Write objects
+    PUT >> $p:   # Write objects
       A: 1
       B: 2
     ```
 
     ```yaml 
-    EVAL >> $p:   # Merge objects with ':object:'
+    PUT >> $p:   # Merge objects with ':object:'
       A: 1
       $another-holder:
       B: 2
@@ -177,19 +176,19 @@
 
 1. **How to change the properties of an object holder?**
 
-    Use [`EVAL`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/EVAL 🧮/🧮 EVAL ⌘ cmd.md>).
+    Use [`PUT`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) and [`SET`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/SET ↘️/↘️ SET ⌘ cmd.md>).
 
     Here's a [Script 📃](<Script 📃.md>).
     ```yaml
     📃 Example:
 
     # Set {A:1,B:2}
-    - EVAL >> $p:  
+    - PUT >> $p:  
         A: 1
         B: 2
 
     # Changed to {A:1, B:200, C3}
-    - EVAL|$p: 
+    - SET|$p: 
         B: 200
         C: 3
     ```
@@ -223,8 +222,8 @@
     ```yaml
     📃 Example:
 
-    - EVAL|p >> $name
-    - EVAL|123 >> {$name}
+    - PUT|p >> $name
+    - PUT|123 >> {$name}
     - INFO|The value of $p is {$p}
 
     # This shows: 

@@ -6,7 +6,7 @@
 📃 Send Binds:
 
 # Merge existing with new
-- EVAL >> $send:
+- PUT >> $send:
     $bound # already bound
     $binds # just created
 

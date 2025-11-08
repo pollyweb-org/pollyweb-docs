@@ -131,7 +131,7 @@
     # Call the custom function 
     #    to add it to the ERP 
     #    and get the description
-    - EVAL| AddItem($code) >> $description:
+    - EVAL|AddItem($code) >> $description:
 
     # Show the description to the user
     - INFO| Added `{$description}`
@@ -174,7 +174,7 @@
     💬 Play guess:                      
     - EVAL|.Random(1,9) >> $target       # Set the target
     - INFO|You have 3 attempts.          # Inform the rules
-    - EVAL >> $tries:                    # Reset the counter
+    - PUT >> $tries:                     # Reset the counter
         3
     - RUN|TryLoop >> $result             # Run the loop
     - CASE|$result:                      # Check the result
@@ -197,7 +197,7 @@
         # If matched, the user won.             
         $target: RETURN|Won
         # If not matched, then decrease the tries
-        $: EVAL|{.Add($tries, -1)} >> $tries
+        $: SET|$tries.Minus(1)
 
     # Verify the number of tries.
     - CASE|$tries:               
