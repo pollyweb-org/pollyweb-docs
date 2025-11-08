@@ -24,7 +24,7 @@
 
     | [Command ⌘](<../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | Purpose
     |-|-
-    | ⬇️ [`EVAL`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>) | To push an object into a [holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>).
+    | 🧮 [`EVAL`](<../../📃 Commands ⌘/⌘ for holders 🧠/EVAL 🧮/🧮 EVAL ⌘ cmd.md>) | To push an object into a [holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>).
     | ℹ️ [`INFO`](<../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the holder values.
     
     ---

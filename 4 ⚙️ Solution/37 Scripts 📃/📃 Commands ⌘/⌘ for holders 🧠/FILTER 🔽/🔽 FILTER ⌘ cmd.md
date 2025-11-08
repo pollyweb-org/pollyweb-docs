@@ -1,4 +1,4 @@
-# 😃⬇️ Taker `FILTER` command
+# 😃🔽 Taker `FILTER` command
 
 > Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
 

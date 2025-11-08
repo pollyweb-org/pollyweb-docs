@@ -1,4 +1,4 @@
-# 😃⬇️ Talker `EVAL` command 
+# 😃🧮 Talker `EVAL` command 
 
 > Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
 
@@ -6,7 +6,7 @@
 
 1. **What's an EVAL command?**
 
-    An `EVAL` ⬇️
+    An `EVAL` 🧮
     * is a [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) 
     * that evaluates strings, objects, and [`{Functions}`](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
     * into a holder.
@@ -14,7 +14,7 @@
     ---
     <br/>
 
-1. **What's the [`EVAL`](<⬇️ EVAL ⌘ cmd.md>) syntax?**
+1. **What's the [`EVAL`](<🧮 EVAL ⌘ cmd.md>) syntax?**
 
     |Variation| Behavior
     |-|-|
@@ -43,7 +43,7 @@
     <br/>
 
 
-1. **How to pass arguments to a [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) on [`EVAL`](<⬇️ EVAL ⌘ cmd.md>)?**
+1. **How to pass arguments to a [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) on [`EVAL`](<🧮 EVAL ⌘ cmd.md>)?**
 
     ```yaml
     # Multi-position functions
@@ -61,7 +61,7 @@
     ---
     <br/>
     
-1. **What's an [`EVAL`](<⬇️ EVAL ⌘ cmd.md>) example with static values?**
+1. **What's an [`EVAL`](<🧮 EVAL ⌘ cmd.md>) example with static values?**
 
 
     | [Domain](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
@@ -89,7 +89,7 @@
     ---
     <br/>
 
-1. **What's an [`EVAL`](<⬇️ EVAL ⌘ cmd.md>) example with a [`{code}` function](<../../../📃 Functions 🐍/🐍 Functions types/🐍 {code}.md>)?**
+1. **What's an [`EVAL`](<🧮 EVAL ⌘ cmd.md>) example with a [`{code}` function](<../../../📃 Functions 🐍/🐍 Functions types/🐍 {code}.md>)?**
   
     | [Domain](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     | - | - | - |
@@ -109,7 +109,7 @@
     - REPEAT
     ```
 
-    Commands: [`CONFIRM`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`EVAL`](<⬇️ EVAL ⌘ cmd.md>) [`REPEAT`](<../../⌘ for control ▶️/REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) [`SUCCESS`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>)
+    Commands: [`CONFIRM`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`EVAL`](<🧮 EVAL ⌘ cmd.md>) [`REPEAT`](<../../⌘ for control ▶️/REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) [`SUCCESS`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>)
 
 
     ```python
@@ -159,7 +159,7 @@
     - INFO|$intro
     ```
 
-    Commands: [`EVAL`](<⬇️ EVAL ⌘ cmd.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)
+    Commands: [`EVAL`](<🧮 EVAL ⌘ cmd.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)
 
     ---
     <br/>

@@ -43,7 +43,7 @@
             A: 1
             B: 2
     ```
-    Commands: [`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) [`.Now`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Now}.md>) [`EVAL`](<../../⌘ for holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>)
+    Commands: [`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) [`.Now`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Now}.md>) [`EVAL`](<../../⌘ for holders 🧠/EVAL 🧮/🧮 EVAL ⌘ cmd.md>)
 
     ---
     <br/>

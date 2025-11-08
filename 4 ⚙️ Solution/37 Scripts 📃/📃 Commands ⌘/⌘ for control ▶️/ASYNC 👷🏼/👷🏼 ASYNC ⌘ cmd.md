@@ -12,7 +12,7 @@
     * is a [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>)
     * that calls the [`Handle@Hosted` 🅰️ method](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>)
     * has an asynchronous background task
-    * i.e, it continues the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>), unlike [`EVAL`](<../../⌘ for holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>).
+    * i.e, it continues the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>), unlike [`EVAL`](<../../⌘ for holders 🧠/EVAL 🧮/🧮 EVAL ⌘ cmd.md>).
 
     ---
     <br/>

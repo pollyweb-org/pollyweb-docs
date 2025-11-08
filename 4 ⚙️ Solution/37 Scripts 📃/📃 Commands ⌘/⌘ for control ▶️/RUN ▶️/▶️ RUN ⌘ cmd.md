@@ -305,7 +305,7 @@
     # Only works with a holder name
     - EVAL|123 >> $Holder
     ```
-    Commands: [`EVAL`](<../../⌘ for holders 🧠/EVAL ⬇️/⬇️ EVAL ⌘ cmd.md>)
+    Commands: [`EVAL`](<../../⌘ for holders 🧠/EVAL 🧮/🧮 EVAL ⌘ cmd.md>)
     
     ---
     <br/>
