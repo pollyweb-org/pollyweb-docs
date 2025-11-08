@@ -13,7 +13,7 @@
     
     ```yaml
     # 😃 Talker 
-    EVAL >> $p
+    PUT >> $p
         $: my default
         A: another property
 

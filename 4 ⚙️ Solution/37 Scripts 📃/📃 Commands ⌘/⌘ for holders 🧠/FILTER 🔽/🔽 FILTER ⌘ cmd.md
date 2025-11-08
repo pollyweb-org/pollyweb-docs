@@ -4,9 +4,9 @@
 
 ## FAQ 
 
-1. **What is a FILTER command?**
+1. **What is the FILTER command?**
 
-    A `FILTER`
+    `FILTER` 🔽
     * is a [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) 
     * that filters a [List 🧠 holder](<../../../📃 Holders 🧠/🧠 Holder types/List holders.md>) with the [`.Filter`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Filter}.md>) function.
 

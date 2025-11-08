@@ -24,7 +24,7 @@
     Key: $wallet.PublicKey
 
 # Prepare the response
-- EVAL|$wallet.Chats >> $chats
+- PUT|$wallet.Chats >> $chats
     Chat: Chat
     Host: Host
     Host$: Host$

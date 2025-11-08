@@ -303,9 +303,9 @@
     📃 SetValue:
     
     # Only works with a holder name
-    - EVAL|123 >> $Holder
+    - PUT|123 >> $Holder
     ```
-    Uses: [`EVAL`](<../../⌘ for holders 🧠/EVAL 🧮/🧮 EVAL ⌘ cmd.md>)
+    Uses: [`PUT`](<../../⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>)
     
     ---
     <br/>
@@ -350,8 +350,8 @@
 
     ```yaml
     📃 Main:
-    - EVAL|1 >> $a    # set $a:1
-    - EVAL|2 >> $b    # set $b:2
+    - PUT|1 >> $a    # set $a:1
+    - PUT|2 >> $b    # set $b:2
     - RUN|Sub($a)     # pass only $a
     ```
 
@@ -361,6 +361,8 @@
         - $a.Is(1)    # $a exists with 1
         - $b.IsEmpty  # $b does not exist
     ```
+    
+    Uses: [`ASSERT`](<../../⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`PUT`](<../../⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>)
 
     ---
     <br/>

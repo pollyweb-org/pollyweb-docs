@@ -23,7 +23,7 @@
     Key: $wallet.PublicKey
 
 # Prepare the response
-- EVAL|$wallet.Binds >> $binds:
+- PUT|$wallet.Binds >> $binds:
     - Bind
     - Vault
     - Vault$

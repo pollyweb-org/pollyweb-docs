@@ -19,7 +19,9 @@
     |Syntax| Behavior
     |-|-|
     | `SET\|$in: *` | Changes a [Pair 🧠 holder](<../../../📃 Holders 🧠/🧠 Holder types/Pair holders.md>) with [`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>)
-    || Equals [`EVAL`](<../EVAL 🧮/🧮 EVAL ⌘ cmd.md>)`\|`[`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>)`: $in,*`
+    || Equals [`EVAL`](<../EVAL 🧮/🧮 EVAL ⌘ cmd.md>)`\|`[`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>)`>> $in: $in,*`
+    |`SET\|$in.f(*)`| Sets a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) to the [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) result
+    || Equals [`PUT`](<../PUT ⬇️/⬇️ PUT ⌘ cmd.md>)`\|$in.f(*) >> $in`
     | `SET\|$in >> $out` | Equals [`PUT`](<../PUT ⬇️/⬇️ PUT ⌘ cmd.md>)`\|$in >> $out`
     | `SET\|* >> $out` | Equals [`PUT`](<../PUT ⬇️/⬇️ PUT ⌘ cmd.md>)`\|* >> $out`
     

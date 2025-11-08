@@ -43,12 +43,13 @@
     |[Command ⌘](<../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | Purpose
     |-|-
     | 🚦 [`ASSERT`](<../../📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) | Asserts the items in a list
-    | 🧮 [`EVAL`](<../../📃 Commands ⌘/⌘ for holders 🧠/EVAL 🧮/🧮 EVAL ⌘ cmd.md>) | Formats a list into another
     | 🌪️ [`DISTINCT`](<../../📃 Commands ⌘/⌘ for holders 🧠/DISTINCT 🌪️/🌪️ DISTINCT ⌘ cmd.md>) | Returns the unique items 
     | 🔽 [`FILTER`](<../../📃 Commands ⌘/⌘ for holders 🧠/FILTER 🔽/🔽 FILTER ⌘ cmd.md>) | Filters items with [{Functions} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
     | 4️⃣ [`FOR`](<../../📃 Commands ⌘/⌘ for control ▶️/FOR 4️⃣/4️⃣ FOR ⌘ cmd.md>) | Loops items in sequence
     | *️⃣ [`PARALLEL`](<../../📃 Commands ⌘/⌘ for control ▶️/PARALLEL *️⃣/*️⃣ PARALLEL ⌘ cmd.md>) | Loops items in parallel
+    | ⬇️ [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) | Formats a list into another
     | 🅾️ [`SELECT`](<../../📃 Commands ⌘/⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>) | Filters items with SQL queries
+    | ↘️ [`SET`](<../../📃 Commands ⌘/⌘ for holders 🧠/SET ↘️/↘️ SET ⌘ cmd.md>) | Changes a list
 
     ---
     <br/>

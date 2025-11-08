@@ -64,7 +64,7 @@
     # If blocked, see if there's a handler
     BLOCKED: 
         IF|$OnBlocked:
-            Then: EVAL|True >> $OnBlocked
+            Then: PUT|True >> $OnBlocked
             Else: HTTP|423|Blocked
 ```
 

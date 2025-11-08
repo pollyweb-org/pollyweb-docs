@@ -124,7 +124,7 @@
     📃 Example:
 
     # Create a list
-    EVAL >> $list:
+    PUT >> $list:
         - {A:10, B:20, C:X}
         - {A:11, B:21, C:Y}
 
@@ -135,7 +135,7 @@
         - B.IsBetween(20,29)
         - C.IsIn(X,Y)
     ```
-    Uses: [`EVAL`](<../EVAL 🧮/🧮 EVAL ⌘ cmd.md>) [`.IsBetween`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsBetween}.md>) [`.IsIn`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>)
+    Uses: [`PUT`](<../PUT ⬇️/⬇️ PUT ⌘ cmd.md>) [`.IsBetween`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsBetween}.md>) [`.IsIn`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>)
 
     ---
     <br/>
