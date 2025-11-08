@@ -15,7 +15,7 @@
     ---
     <br/>
 
-1. **What are the system placeholders?**
+1. **What are the system holders?**
 
     | Holder 🧠 | Details
     |-|-
@@ -30,7 +30,7 @@
 1. **How to read a $holder?**
 
     In a [Script 📃](<Script 📃.md>),
-    * placeholders are prefixed with a dollar sign;
+    * holders are prefixed with a dollar sign;
     * e.g., `$p` to reference holder named `p`.
 
     In Python 🐍 code, 

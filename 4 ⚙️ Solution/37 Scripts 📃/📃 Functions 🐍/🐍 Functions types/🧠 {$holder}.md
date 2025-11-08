@@ -6,7 +6,7 @@
 
 <br/>
 
-1. **What's syntax for input placeholders?**
+1. **What's syntax for input holders?**
 
     
     Consider the following [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
@@ -32,7 +32,7 @@
 
 
 
-1. **What's an example for input placeholders?**
+1. **What's an example for input holder?**
    
     | [Domain](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     | - | - | - |
