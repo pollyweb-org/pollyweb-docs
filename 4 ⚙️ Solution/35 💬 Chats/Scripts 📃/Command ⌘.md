@@ -23,9 +23,9 @@
 
 1. **What the restrictions in Prompt commands?**
 
-    Messages in Prompt commands need to be escaped:
-    * escape `|` with `\|` because these are command separators;
-    * escape `>>` with `\>>` because these are for placeholders.
+    Messages in [Prompt 🤔](<../Chats 💬/🤔 Prompt.md>) commands need to be escaped:
+    * escape `|` with `\|` because these are [Command ⌘](<Command ⌘.md>) separators;
+    * escape `>>` with `\>>` because these are for [Holders 🧠](<Holder 🧠.md>).
 
     ---
     <br/>
