@@ -37,7 +37,7 @@
     Where: Vault.Is($.Msg.From)
 
 # Get the bindable schemas
-- EVAL|.Diff >> $bindable:
+- PUT|.Diff >> $bindable:
     # list of bound schemas
     - $bound.Schema  
     # list of offered schemas

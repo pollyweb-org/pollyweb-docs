@@ -56,7 +56,7 @@ Wallet: <wallet-uuid>
 # READ|Notifiers@Broker|$.Msg.From >> $notifier
 
 # Generate a new Wallet ID
-- EVAL|.UUID >> $wallet
+- PUT|.UUID >> $wallet
 
 # Save the Wallet
 - SAVE|BrokerWallets:
