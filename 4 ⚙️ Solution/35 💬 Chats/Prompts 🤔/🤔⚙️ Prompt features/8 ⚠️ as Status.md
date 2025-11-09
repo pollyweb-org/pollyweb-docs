@@ -1,10 +1,10 @@
-# 🤔 Non-blocking status prompts 
+# 🤔⚠️ Non-blocking status prompts 
 
 > Part of [Prompts 🤔](<../../Chats 💬/🤔 Prompt.md>)
 
 > Changes the default behavior of [Prompt with Options 🔘](<4 🔘 with Options.md>)
 
-<br/> 
+## FAQ
 
 1. **What are non-blocking status prompts?**
 

@@ -1,8 +1,8 @@
-# Blocking input prompts 😃 🫥
+# 🤔✏️ Blocking input prompts 😃 🫥
 
 > Part of [Prompts 🤔](<../../Chats 💬/🤔 Prompt.md>)
 
-<br/>
+## FAQ
 
 1. **What are blocking inputs?**
    

@@ -1,8 +1,8 @@
-# 🪧 Prompt Text
+# 🤔🪧 Prompt Text
 
 > Part of [Prompts 🤔](<../../Chats 💬/🤔 Prompt.md>)
 
-<br/>
+## FAQ
 
 1. **What are Prompt texts?**
 

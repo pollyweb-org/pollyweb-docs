@@ -1,9 +1,8 @@
-# 🤔 Prompts with `Options`
-
+# 🤔🔘 Prompts with `Options`
 
 > Part of [Prompts 🤔](<../../Chats 💬/🤔 Prompt.md>)
 
-<br/>
+## FAQ
 
 1. **What is a prompt with options?**
 

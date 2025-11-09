@@ -3,7 +3,7 @@
 
 > Part of a [Chat 💬](<../Chats 💬/💬 Chat.md>) 
 
-<br/>
+## FAQ
 
 1. **What is a Prompt?**
 
@@ -79,11 +79,13 @@
 
     | Feature | Details
     |-|-
-    | ⊕ [`Details`](<../Prompts 🤔/🤔⚙️ Prompt features/3 ⊕ with Details.md>) | Has expandable [+] details.
-    | 🔘 [`Options`](<../Prompts 🤔/🤔⚙️ Prompt features/4 🔘 with Options.md>)  | Has options for users to select.
-    | 📎 [`Appendix`](<../Prompts 🤔/🤔⚙️ Prompt features/6 📎 with Appendix.md>)  | Has a PDF, PNG, or JPEG attachment.
-    | ⚠️ [` Status`](<../Prompts 🤔/🤔⚙️ Prompt features/8 ⚠️ as Status.md>) | Informs and continues the flow.
-    | ✏️ [`Input`](<../Prompts 🤔/🤔⚙️ Prompt features/9 ✏️ as Input.md>) | Waits for an answer from users.
+    | 🪧 [`Text`](<../Prompts 🤔/🤔⚙️ Prompt features/2 🪧 Text.md>) | Mandatory prompt message
+    | ⊕ [`Details`](<../Prompts 🤔/🤔⚙️ Prompt features/3 ⊕ with Details.md>) | Has expandable [+] details
+    | 🔘 [`Options`](<../Prompts 🤔/🤔⚙️ Prompt features/4 🔘 with Options.md>)  | Has options for users to select
+    | 🧡 [`Default`](<../Prompts 🤔/🤔⚙️ Prompt features/5 🧡 with Default.md>) | Pre-filled answer or highlighted [option](<../Prompts 🤔/🤔⚙️ Prompt features/4 🔘 with Options.md>)
+    | 📎 [`Appendix`](<../Prompts 🤔/🤔⚙️ Prompt features/6 📎 with Appendix.md>)  | Has a PDF, PNG, or JPEG attachment
+    | ⚠️ [` Status`](<../Prompts 🤔/🤔⚙️ Prompt features/8 ⚠️ as Status.md>) | Informs and continues the flow
+    | ✏️ [`Input`](<../Prompts 🤔/🤔⚙️ Prompt features/9 ✏️ as Input.md>) | Waits for an answer from users
     
     ---
     <br/>

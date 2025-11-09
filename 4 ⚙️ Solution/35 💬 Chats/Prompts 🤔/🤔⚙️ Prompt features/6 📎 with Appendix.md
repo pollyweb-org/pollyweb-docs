@@ -1,9 +1,9 @@
-# 🤔 Prompts with an `Appendix`
+# 🤔📎 Prompts with an `Appendix`
 
 
 > Part of [Prompts 🤔](<../../Chats 💬/🤔 Prompt.md>)
 
-<br/>
+## FAQ
 
 1. **What is a prompt with an attachment?**
 

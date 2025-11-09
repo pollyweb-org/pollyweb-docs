@@ -1,8 +1,8 @@
-# 🤔 Prompts with `Details`
+# 🤔⊕ Prompts with `Details`
 
 > Part of [Prompts 🤔](<../../Chats 💬/🤔 Prompt.md>)
 
-<br/>
+## FAQ
 
 1. **What are expandable details?**
 
