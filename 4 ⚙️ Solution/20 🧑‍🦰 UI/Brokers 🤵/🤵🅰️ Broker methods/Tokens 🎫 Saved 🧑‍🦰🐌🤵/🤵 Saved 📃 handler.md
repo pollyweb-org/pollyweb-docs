@@ -54,8 +54,8 @@
 
 # Updated the Tokens
 - RUN|Update-Notifier:
-    wallet: $wallet
-    Updates: [TOKENS]
+    $wallet:
+    updates: TOKENS
 ```
 
 |Uses||

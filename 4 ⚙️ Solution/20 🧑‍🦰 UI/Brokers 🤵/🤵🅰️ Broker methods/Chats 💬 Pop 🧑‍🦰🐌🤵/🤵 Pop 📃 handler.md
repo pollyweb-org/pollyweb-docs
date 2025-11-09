@@ -15,7 +15,7 @@
 - ASSERT|$.Msg:
     - AllOf: Hook, Key, Context
     - UUIDs: Hook, Key
-    - Context.IsIn(TOKEN,HOST,ISSUER,VAULT,BIND,TOKEN)
+    - Context.IsIn(BIND,HOST,ISSUER,TOKEN,VAULT)
 
 # Get the Wallet 🧑‍🦰
 - READ >> $wallet:
@@ -27,18 +27,37 @@
     Key: $wallet.PublicKey
 
 # Handle the context
-- CASE|$.Msg.Body.Context:
+- CASE|$.Msg.Context:
+
+    BIND: 
+        - READ >> $bind
+            Set: BrokerBinds
+            Key: $.Msg.Key
+        - RUN|Pop-Bind($wallet, $bind)
+
+    HOST: 
+        - READ >> $host
+            Set: BrokerDomains
+            Key: $.Msg.Key
+        - RUN|Pop-Host($wallet, $host)
+
+    ISSUER: 
+        - READ >> $issuer
+            Set: BrokerDomains
+            Key: $.Msg.Key
+        - RUN|Pop-Issuer($wallet, $issuer)
 
     TOKEN: 
-        RUN|PopToken:
-            Wallet: $wallet
-            Token: 
+        - READ >> $token
+            Set: BrokerTokens
+            Key: $.Msg.Key
+        - RUN|Pop-Token($wallet, $token)
+             
     VAULT:  
-        RUN|PopVault:
-            Wallet: 
-            Vault: 
-
-    BIND : TALK|PopBind
+        - READ >> $vault
+            Set: BrokerDomains
+            Key: $.Msg.Key
+        - RUN|Pop-Vault($wallet, $vault)
 ```
 
 Uses: [`ASSERT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CASE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`READ`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`VERIFY`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>)
