@@ -9,7 +9,7 @@
 ```yaml
 RUN|Update-Notifier:
     wallet: $wallet
-    Updates: [ CHATS, BINDS, TOKENS ]
+    updates: CHATS, BINDS, TOKENS
 ```
 
 ## Script
@@ -19,9 +19,9 @@ RUN|Update-Notifier:
 
 # Assert required inputs
 - ASSERT|$.Inputs:
-    - OneOf: wallet, Updates
-    - Lists: Updates
-    - Updates.IsIn(CHATS,BINDS,TOKENS)
+    - OneOf: wallet, updates
+    - Lists: updates
+    - updates.IsIn(CHATS,BINDS,TOKENS)
     
 # Tell the Notifier to perform updates
 - SEND:
@@ -30,7 +30,7 @@ RUN|Update-Notifier:
         Subject: Updated@Notifier
     Body:
         Wallet: $wallet.ID
-        Updates: $Updates
+        Updates: $updates.ToList
 ```
 
 
