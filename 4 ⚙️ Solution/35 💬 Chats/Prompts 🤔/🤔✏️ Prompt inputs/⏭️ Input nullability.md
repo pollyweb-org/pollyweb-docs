@@ -2,8 +2,7 @@
 
 > Part of [✏️ Input prompts](<../🤔⚙️ Prompt features/9 ✏️ as Input.md>)
 
-<br/>
-
+## FAQ
 
 1. **How to define a mandatory input?**
 

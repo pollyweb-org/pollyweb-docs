@@ -18,6 +18,7 @@
 - TEXT|What to tag? >> $tag
     Details: Provide an alias that you recognize.
     Default: $token.Tag
+    Nullable: True
 
 # Update the Token 🎫
 - SAVE|$token:

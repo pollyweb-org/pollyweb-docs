@@ -12,7 +12,8 @@
     * with a question or information to the user
     * sent to a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) 
     * by a [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) 
-    * via the [Prompt 🤗⏩🧑‍🦰](<../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) flow.
+    * with the [`Prompted@Host` 🅰️ method](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 request.md>)
+    * within the [Prompt 🤗⏩🧑‍🦰](<../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) flow.
 
     ---
     <br/>
@@ -80,7 +81,7 @@
     |-|-
     | ⊕ [`Details`](<../Prompts 🤔/🤔⚙️ Prompt features/3 ⊕ with Details.md>) | Has expandable [+] details.
     | 🔘 [`Options`](<../Prompts 🤔/🤔⚙️ Prompt features/4 🔘 with Options.md>)  | Has options for users to select.
-    | 📎 [`Appendix`](<../Prompts 🤔/🤔⚙️ Prompt features/5 📎 with Appendix.md>)  | Has a PDF, PNG, or JPEG attachment.
+    | 📎 [`Appendix`](<../Prompts 🤔/🤔⚙️ Prompt features/6 📎 with Appendix.md>)  | Has a PDF, PNG, or JPEG attachment.
     | ⚠️ [` Status`](<../Prompts 🤔/🤔⚙️ Prompt features/8 ⚠️ as Status.md>) | Informs and continues the flow.
     | ✏️ [`Input`](<../Prompts 🤔/🤔⚙️ Prompt features/9 ✏️ as Input.md>) | Waits for an answer from users.
     
