@@ -60,21 +60,22 @@ Options:                            # Optional
 
 |Property|Type|Description
 |-|-|-
-| [`Text`](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/2 🪧 Text.md>) | string | Main message,  to display in the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
-| [`MinValue`](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/📋 Input validation.md>) | int | Optional minimum value
-| [`MaxValue`](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/📋 Input validation.md>) | int | Optional maximum value
+| [`Text`](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/2 🪧 Text.md>) | text | Main message,  to display in the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
+| [`MinValue`](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/📋 Input validation.md>) | math | Optional minimum value
+| [`MaxValue`](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/📋 Input validation.md>) | math | Optional maximum value
 | [`Appendix`](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/6 📎 with Appendix.md>)| uuid   | File to download via [`Download@Host`](<../Download 🧑‍🦰🚀🤗/🤗 Download 🚀 request.md>)
-| [`Details`](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/3 ⊕ with Details.md>) | string | Extended [details](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/3 ⊕ with Details.md>) in Markdown format
-| [`Options`](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/4 🔘 with Options.md>) | object[]   | List of `Option` objects
+| [`Details`](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/3 ⊕ with Details.md>) | text | Extended [details](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/3 ⊕ with Details.md>) in Markdown format
+| [`Options`](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/4 🔘 with Options.md>) | pair[]   | List of `Option` objects
+| [`Default`](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/5 🧡 with Default.md>) | text | Pre-filled answer or [option](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/4 🔘 with Options.md>)
 |
 
 ### Option object
 
 |Property|Type|Description
 |-|-|-
-| `ID`          | string  | ID of the [option](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/4 🔘 with Options.md>) for [`Reply@Host`](<../Reply 🧑‍🦰🐌🤗/🤗 Reply 🐌 msg.md>)
-| `Title` | string  | Text of the [option](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/4 🔘 with Options.md>) to be displayed
-| `Locator` | string | Optional [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to [Assess ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Click locator 👉🔆🤗/🧑‍🦰 Click locator ⏩ flow.md>)
+| `ID`          | text  | ID of the [option](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/4 🔘 with Options.md>) for [`Reply@Host`](<../Reply 🧑‍🦰🐌🤗/🤗 Reply 🐌 msg.md>)
+| `Title` | text  | Text of the [option](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/4 🔘 with Options.md>) to be displayed
+| `Locator` | text | Optional [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to [Assess ⏩](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Click locator 👉🔆🤗/🧑‍🦰 Click locator ⏩ flow.md>)
 |
 
 <br/>

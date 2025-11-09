@@ -52,16 +52,23 @@ Here's the [`READ` command](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ f
 
 ```yaml
 # READ|Tokens|<token-uuid>
+
+# From Offer@Broker
 ID: <token-uuid>
 Wallet: <wallet-uuid>
 Issuer: any-issuer.dom
 Issuer$: Any Issuer
-Key: token-1234
 Schema: any-authority.dom/ANY-SCHEMA:1.0
 Schema$: Any Schema Title
-Status: REVOKED
+Key: token-1234
 Starts: 2018-12-10T13:45:00.000Z
 Expires: 2018-12-10T13:45:00.000Z
+
+# From Revise@Broker
+Status: REVOKED
+
+# From Pop@Broker
+Tag: My Token
 ```
 
 
@@ -76,4 +83,5 @@ Expires: 2018-12-10T13:45:00.000Z
 | `Starts` | time | Valid from | [`Offer@Broker`](<../../🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>)
 | `Expires` | time | Valid until | [`Offer@Broker`](<../../🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>)
 | `Status`| string | `OFFERED` <br/> `ACTIVE` <br/> `SUSPENDED` <br/> `REVOKED` | [`Revise@Broker`](<../../🤵🅰️ Broker methods/Tokens 🎫 Revise 🎴🐌🤵/🤵 Revise 🐌 msg.md>)
+| `Tag` | string | User alias | [`Pop@Broker`](<../../🤵🅰️ Broker methods/Chats 💬 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>)
 ||
