@@ -5,7 +5,7 @@
 
 ## Diagram
 
-![alt text](<Unbind Vault/🤵 Unbind Vault ⚙️ uml.png>)
+![alt text](<Remove Vault/🤵 Remove Vault ⚙️ uml.png>)
 
 ## Script
 

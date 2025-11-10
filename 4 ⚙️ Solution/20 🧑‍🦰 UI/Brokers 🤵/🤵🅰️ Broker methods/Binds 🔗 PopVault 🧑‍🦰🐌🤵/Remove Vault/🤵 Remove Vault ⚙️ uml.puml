@@ -4,7 +4,7 @@
 participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
-    participant "Script 📃" as script
+    participant "Handler 📃" as script
     'participant "Wallets 🪣" as wallets
     participant "Binds 🪣" as binds
 end box
@@ -16,7 +16,7 @@ activate wallet
 deactivate wallet
 
 activate script
-    script -> binds: READ
+    script -> binds: READ 🧲
     script --> wallet: CONFIRM {remove?}
 deactivate script
 
@@ -35,11 +35,11 @@ deactivate wallet
 activate script
     script -> script: PARALLEL 
     activate script
-        script -> binds: DELETE
-        script --> vault: SEND {Unbound@}
+        script -> binds: DELETE 🗑️ 
+        script --> vault: SEND 📬 {Unbound@}
     deactivate script
 
-    script --> wallet: SEND {Updated@}
+    script --> wallet: SEND 📬 {Updated@}
 deactivate script
  
 @enduml 
