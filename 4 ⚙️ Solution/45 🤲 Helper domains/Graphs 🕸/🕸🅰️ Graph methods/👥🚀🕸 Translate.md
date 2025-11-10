@@ -52,40 +52,27 @@ Body:
 
 ## Synchronous Response
 
-```yaml
-# If single domain
-Domain: Example Airlines
-```
 
 ```yaml
-# If single Schema
-Schema: Wheelchair assistance required
-````
-
-```yaml
-# If multiple domains
 Domains: 
   - Domain: example.com
     Translation: Example Airlines
-````
-
-```yaml
-# If multiple schemas
+    Language: en-us
+    
 Schemas: 
   - Schema: iata.org/SSR/WCHR
     Translation: Wheelchair assistance required
+    Language: en-us
 ```
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Top    | `Domain`      | string | Translated [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) 
-|       | or `Domains`     | object[]  | List of [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) objects
-|       | `Schema`      | string | Translated [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
-|       | or `Schemas`       | object[]  | List of [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) objects
-|Domain | `Domain`      | string    | The [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name
-|       | `Translation` | string    | The [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) title
-|Code   | `Schema`        | string    | The [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
-|       | `Translation` | string    | The [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) title
+|Domains | `Domain`      | string    | [Domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name
+|       | `Translation` | string    | [Domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) title
+|       | `Language`| string | Translation language
+|Schemas   | `Schema`        | string    | [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) code
+|       | `Translation` | string    | [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) title
+|       | `Language`| string | Translation language
 |
 
 <br/>

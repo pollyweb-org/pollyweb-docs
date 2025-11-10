@@ -72,7 +72,7 @@
 
 1. **How do Brokers verify a message from a Wallet?**
 
-    Here's a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) excerpt from [Pop Vault @ Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 PopBind 🧑‍🦰🐌🤵/Pop Vault/🤵 Pop Vault 📃 handler.md>).
+    Here's a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) excerpt from [Pop Vault @ Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 PopBind 🧑‍🦰🐌🤵/Remove Bind/🤵 Remove Bind 📃 script.md>).
 
     ```yaml
     📃 Example:

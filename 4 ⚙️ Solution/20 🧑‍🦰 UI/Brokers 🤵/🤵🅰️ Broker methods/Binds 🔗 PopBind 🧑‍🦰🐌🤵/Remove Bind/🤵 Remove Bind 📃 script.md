@@ -5,7 +5,7 @@
 
 > [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Unbind Vault` 💬 flow](<../../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Vaults 🗄️/Unbind 💬🗄️🤵 /🧑‍🦰 Unbind Vault ⏩ flow.md>) 
 
-> Called by the [`Pop@Broker` 📃 script](<../🤵 Pop 📃 handler.md>)
+> Called by the [`Pop@Broker` 📃 script](<../🤵 PopBind 📃 handler.md>)
 
 
 <br/>
@@ -14,7 +14,7 @@
 
 ## Script
 
-> Requires a `$:Wallet` holder from the [`Pop@Broker` 📃 script](<../🤵 Pop 📃 handler.md>)
+> Requires a `$:Wallet` holder from the [`Pop@Broker` 📃 script](<../🤵 PopBind 📃 handler.md>)
 
 <!-- TODO: change the ASSERT -->
 ```yaml

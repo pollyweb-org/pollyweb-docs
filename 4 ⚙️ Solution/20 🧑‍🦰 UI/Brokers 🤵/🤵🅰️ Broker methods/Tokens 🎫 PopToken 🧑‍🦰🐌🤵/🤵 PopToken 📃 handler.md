@@ -27,13 +27,13 @@
 
 # Ask for an action.
 - ONE|What do you need?:
-    - /Set Token title
+    - /Tag Token
     - /Remove Token
 
 # Execute the action.
 - CASE:
     Set:
-        RUN|Set-tag:
+        RUN|Tag-Token:
             $token
     Remove: 
         RUN|Remove-Token:
