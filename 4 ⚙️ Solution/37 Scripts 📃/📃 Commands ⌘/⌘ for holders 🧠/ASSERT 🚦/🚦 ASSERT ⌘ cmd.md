@@ -94,7 +94,28 @@
     <br/>
 
 
+1. **What's the simplest syntax?**
 
+    ```yaml
+    # Simplest inline
+    ASSERT|<assertion>
+    ```
+
+    ```yaml
+    # Simplest multi-line
+    ASSERT:
+        <assertion>
+    ```
+
+
+    | Input| Purpose | Examples
+    |-|-|-
+    | `assertion` | Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Assert}.md>) | `aA.Is(7)`
+    
+
+
+    ---
+    <br/>
 
 
 1. **How to assert a [List 🧠](<../../../📃 Holders 🧠/🧠 Holder types/List holders.md>) of [Pairs 🧠](<../../../📃 Holders 🧠/🧠 Holder types/Pair holders.md>)?**

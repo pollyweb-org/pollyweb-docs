@@ -10,7 +10,8 @@
 
     A `DEFAULT`
     * is a handler [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) 
-    * that assigns default values when they are missing.
+    * that assigns default values when they are missing
+    * by leveraging the [`.Default`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Default}.md>) function.
   
     ---
     <br/>
@@ -20,14 +21,14 @@
     ```yaml
     DEFAULT|$input:
         <property-1>: <default-1>
-        <property-n>: <default-n>
+        <property-n>: <default-n>, <default-m>
     ```
     
     | Input| Purpose | Examples
     |-|-|-
     | `$input`| Initial context | `$.Msg`
     | `<property>` | Property to assign default | `Role` 
-    | `<default>` | Default value | `*`
+    | `<default>` | List of possible default values | `*`
     
     ---
     <br/>
@@ -43,3 +44,6 @@
         Truster: $.Msg.From
         Role: *
     ```
+
+    ---
+    <br/>

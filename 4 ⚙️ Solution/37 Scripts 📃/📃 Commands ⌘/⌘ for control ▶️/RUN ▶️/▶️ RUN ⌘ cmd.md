@@ -42,8 +42,9 @@
     | `<script>`| [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to run | `MyScript`
     | `$arg-n`  | Optional positional arguments | `1,2` `s,$p`
     |           | Reads `$n`  inside the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) | `$1` `$2`
+    |           | Also replicates [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) names  | `$A` 
     | `{args}`| Optional object arguments | `{A:1, B:2}`
-    | | Reads `:name` in the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) | `$A` `$B`|
+    | | Reads `$name` in the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) | `$A` `$B`|
     | | Also reads with [`{.Inputs}`](<../../../📃 Holders 🧠/🧠 System holders/$.Inputs ▶️/▶️ $.Inputs 🧠 holder.md>) | `.Inputs.A`
     | `$return`| Optional [`RETURN`](<../RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) holder | `$return`
     
@@ -267,48 +268,6 @@
     <br/>
     
 
-1. **What happens when setting values into input args?**
-
-    > Used in the [`SAVE` 📃 script](<../../⌘ for datasets 🪣/SAVE 💾/💾 SAVE 📃 script.md>)
-
-    It depends if the current value of the input contains the name of a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>).
-
-    |Scenario | Result 
-    |-|-
-    | [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | Fills the [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) 
-    | Anything else | Throws an error
-    |
-
-    Here's a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
-    ```yaml
-    📃 Example:
-
-    # This will work
-    - RUN|ShowValue:
-        Holder: p
-    
-    # Shows "The value of $p is 123"
-    - INFO|The value of $p is {$p}
-
-    # This will throw an error
-    - RUN|ShowValue:
-        Holder:
-        
-    # Never reached
-    - FAILURE|This line is never reached
-    ```
-    Uses: [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`FAILURE`](<../RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) 
-
-    ```yaml
-    📃 SetValue:
-    
-    # Only works with a holder name
-    - PUT|123 >> $Holder
-    ```
-    Uses: [`PUT`](<../../⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>)
-    
-    ---
-    <br/>
 
 1. **How to simplify argument names?**
 
