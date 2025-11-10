@@ -83,14 +83,14 @@
     #   i.e., Script or one-line Command
 
     - IF: 
-        Function: {function} # (empty) → last input
+        Assert: {function} # (empty) → last input
         Then: <true-action>
         Else: <false-action>
     ```
 
     | Input| Purpose
     |-|-
-    | `<true-action>` | [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) or one-lin⌘ [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) on `True`
+    | `<true-action>` | [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) or one-line [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) on `True`
     | `<false-action>`| [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) or one-line [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) on `False`
 
     ---

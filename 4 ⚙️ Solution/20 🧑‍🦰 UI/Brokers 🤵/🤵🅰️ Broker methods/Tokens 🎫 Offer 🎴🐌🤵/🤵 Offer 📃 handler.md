@@ -18,14 +18,12 @@
 
 # Assert the required inputs
 - ASSERT|$.Msg:
-    AllOf: Chat, Hook, Schema
-    UUIDs: Chat, Hook
-    Texts: Schema
-    Times: Starts, Expires
-
-# Verify the dates
-- ASSERT|$.Msg:
-    Starts < Expires
+    - AllOf: Chat, Hook, Schema
+    - UUIDs: Chat, Hook
+    - Texts: Schema
+    - Times: Starts, Expires
+    - Starts.IsBelow(Expires)
+    - Expires.IsAbove(.Now)
 
 # Get the Chat
 - READ >> $chat:
