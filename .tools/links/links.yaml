@@ -156,6 +156,15 @@ Successful Tests:
     LinkFile: "List holders.md"
     Reasons: This is hardcoded.
 
+  - Given: '{{Locator}}'
+    LinkText: "Locator 🔆"
+    LinkFile: "🔆 Locator.md"
+    Reasons: This is hardcoded.
+  - Given: '{{Locators}}'
+    LinkText: "Locators 🔆"
+    LinkFile: "🔆 Locator.md"
+    Reasons: This is hardcoded.
+
   - Given: "{{Logger}}"
     LinkText: "Logger 🪵 helper domain"
     LinkFile: "🪵 Logger 🤲 helper.md"

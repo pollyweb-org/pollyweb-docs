@@ -42,17 +42,18 @@
         - Maths: <fields> # Numeric fields
     ```
     
-    | Input| Purpose |  Examples |Uses
+    | Input| Purpose |  Examples |Behavior
     |-|-|-|-
     | `$object`| Optional initial context | `$.Msg`
     | `AllOf` | All should have values |  `A,B` `[A,B]` | [`.AllOf`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.AllOf}.md>)
     | `AnyOf` | One or more have values |  `A,B` `[A,B]` | [`.AnyOf`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.AnyOf}.md>)
-    | `OneOf` | Only one should have value | `A,B` `[A,B]`
+    | `OneOf` | Only one should have value | `A,B` `[A,B]` | [`.OneOf`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.OneOf}.md>)
     | `UUIDs` | Must be a UUID fields| `A,B` `[A,B]`
     | `Texts` | Must be a text fields | `A,B` `[A,B]`
     | `Times` | Absolute or relative times | `A,B` `[A,B]`
     | `Lists` | Must be list fields | `A,B` `[A,B]`
     | `Maths` | Must be numeric fields | `A,B` `[A,B]`
+    |
     
     <br/>
 
@@ -78,22 +79,61 @@
     | Input| Purpose | Examples
     |-|-|-
     | `$object`| Optional initial context | [`$.Msg`](<../../../📃 Holders 🧠/🧠 System holders/$.Msg 📨/📨 $.Msg 🧠 holder.md>) [`.Inputs`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Inputs}.md>)
-    | `<key>` | Context property or [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | `From` `$A` [`$list`](<../../../📃 Holders 🧠/🧠 Holder types/List holders.md>)`.A` 
-    | | - asserts with [`.IsNotEmpty`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNotEmpty}.md>) 
-    | `.f(?)`| Boolean [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.IsIn`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>)`(A,B)`
-    | | - only asserts if [`.IsNotEmpty`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNotEmpty}.md>) 
-    | `:<val>` | Value to assert with [`.Is`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>)  | `:any-domain.dom`
-    | | - only asserts if [`.IsNotEmpty`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNotEmpty}.md>) 
+    | `<key>` | Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Assert}.md>) a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | `From` `$A` [`$lst.A`](<../../../📃 Holders 🧠/🧠 Holder types/List holders.md>)
+    | `.f(?)`| Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Assert}.md>) a [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)  | [`.IsIn`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>)`(A,B)`
+    | `:<val>` | Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Assert}.md>) with  [`.Is`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) | `:any-domain.dom`
     
+
+    > **Note** 
+    * If `AllOf`, `AnyOf`, or `OneOf` are set, 
+    * then [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Assert}.md>) will only be called if [`.IsNotEmpty`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNotEmpty}.md>), 
+    * to allow optional inputs to be validated only if they have an assigned value.
+
+
     ---
     <br/>
 
 
 
 
-1. **How to assert a Locator?**
 
-    > This uses the syntax of the [`{.Parse}` 🔆 function](<../PARSE 🔆/🔆 PARSE ⌘ cmd.md>).
+1. **How to assert a [List 🧠](<../../../📃 Holders 🧠/🧠 Holder types/List holders.md>) of [Pairs 🧠](<../../../📃 Holders 🧠/🧠 Holder types/Pair holders.md>)?**
+
+    Here's a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
+
+    ```yaml
+    📃 Example:
+
+    # Create a list
+    PUT >> $list:
+        - {A:10, B:20, C:X}
+        - {A:11, B:21, C:Y}
+        - {A:12, B:22}
+
+    # Verify the list items.
+    ASSERT|$list:
+        - AllOf: A, B
+        - A.IsBetween(10,19)
+        - B.IsBetween(20,29)
+        - C.IsIn(X,Y) 
+    ```
+    Uses: [`PUT`](<../PUT ⬇️/⬇️ PUT ⌘ cmd.md>) [`.IsBetween`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsBetween}.md>) [`.IsIn`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>)
+
+    > Note
+    * The [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Assert}.md>) of `C.IsIn(X,Y)` returns `False` because the property `C` doesn't event exist in the third list item.
+    * However, that doesn't break the overall assertion.
+    * This is because `AllOf` is set, and it doesn't include `C`, allowing `C` to be asserted only when [`.IsNotEmpty`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNotEmpty}.md>).
+
+    ---
+    <br/>
+
+
+
+1. **How to assert a [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>)?**
+
+    > This example uses 
+    * [`.Parse`](<../PARSE 🔆/🔆 PARSE ⌘ cmd.md>) to break a [`Locator`](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>)
+    *  [`.Is`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) to compare [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 
     ```yaml
     📃 Example:
@@ -111,31 +151,6 @@
     ```
 
     Uses: [`PARSE`](<../PARSE 🔆/🔆 PARSE ⌘ cmd.md>) [`SUCCESS`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>)
-
-    ---
-    <br/>
-
-
-1. **How to assert list of objects?**
-
-    Here's a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
-
-    ```yaml
-    📃 Example:
-
-    # Create a list
-    PUT >> $list:
-        - {A:10, B:20, C:X}
-        - {A:11, B:21, C:Y}
-
-    # Verify the list items.
-    ASSERT|$list:
-        - AllOf: A, B
-        - A.IsBetween(10,19)
-        - B.IsBetween(20,29)
-        - C.IsIn(X,Y)
-    ```
-    Uses: [`PUT`](<../PUT ⬇️/⬇️ PUT ⌘ cmd.md>) [`.IsBetween`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsBetween}.md>) [`.IsIn`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>)
 
     ---
     <br/>
