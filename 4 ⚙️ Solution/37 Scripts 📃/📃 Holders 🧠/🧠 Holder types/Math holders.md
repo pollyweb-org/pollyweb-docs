@@ -6,6 +6,31 @@
 
 ## FAQ
 
+1. **What are Math holders?**
+
+    Math holders
+    * are built-in [Holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) types
+    * that represent numbers and provide mathematical operations on them.
+
+    ---
+    <br/>
+
+1. **How are the called across the main programming languages?**
+   
+    |Language|Synonyms
+    |-|-
+    | `C#`         | Number, Double, Int, Integer, Decimal, Long, Short
+    | `Java`       | Number, Double, Int, Integer, Long, Short, Byte
+    | `JavaScript` | Number, Float, Int, Integer, Numeric
+    | `PHP`        | Number, Float, Int, Integer, Smallint, Bigint, Tinyint, Numeric
+    | `Python`     | Number, Float, Int, Integer
+    | `Ruby`       | Number, Float, Int, Integer, Numeric, Real, Whole
+    | `TypeScript` | Number, Float, Int, Integer, Numeric
+    
+  
+    ---
+    <br/>
+
 1. **What are the built-in functions for numbers?**
 
     |Group| [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | Details 
