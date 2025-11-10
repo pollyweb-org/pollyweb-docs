@@ -16,7 +16,9 @@ Description: >
   Base schema for verifiable tokens.
   The * can be replaced by schemas that inherit this.  
 
-Schemas:
+Emoji: 🎫
+
+Blueprint:
   Version: 1.0
   Inherits: nlweb.dom/LOCATOR:1.0
 

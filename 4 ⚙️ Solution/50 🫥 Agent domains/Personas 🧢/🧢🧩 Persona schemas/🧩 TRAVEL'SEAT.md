@@ -15,7 +15,7 @@ Description: Share details on seat preferences.
 Translations:
   pt: Preferência de assento
 
-Schemas:
+Blueprint:
     
   Properties:
     - FaceForward

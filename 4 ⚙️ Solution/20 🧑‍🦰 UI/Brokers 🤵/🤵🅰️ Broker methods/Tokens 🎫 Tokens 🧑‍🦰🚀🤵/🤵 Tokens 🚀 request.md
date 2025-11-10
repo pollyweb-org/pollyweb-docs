@@ -4,7 +4,9 @@
 
 # 🧑‍🦰🚀🤵 Tokens @ Broker
 
-> Implemented by the [`Tokens` 📃 handler](<🤵 Tokens 📃 handler.md>)
+> Implementation
+* Implements the [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+* Implemented by the [`Tokens` 📃 handler](<🤵 Tokens 📃 handler.md>)
 
 > Purpose
 
@@ -13,8 +15,8 @@
   * mapping to the local file.
 
 > Used in
-  * [🧑‍🦰💬🤵 Translate @ Broker](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/Set Language 💬🤵/🧑‍🦰 Set Language ⏩ flow.md>) flow
-  * [🧑‍🦰💬🤵 List Tokens @ Broker](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/List Tokens 🎫💬🤵/🧑‍🦰 List Tokens ⏩ flow.md>) flow
+  * [`Set Language` ⏩ flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/Set Language 💬🤵/🧑‍🦰 Set Language ⏩ flow.md>) 
+  * [`List Tokens` ⏩ flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/List Tokens 🎫💬🤵/🧑‍🦰 List Tokens ⏩ flow.md>) 
 
 <br/>
 
@@ -47,6 +49,8 @@ Tokens:
     Schema$: Any Code
     Status: REVOKED
     Token: <token-uuid>
+    Title: Any Code, by Any Issuer
+    Emoji: 🎫
 ```
 
 |Object|Property|Type|Description|Origin

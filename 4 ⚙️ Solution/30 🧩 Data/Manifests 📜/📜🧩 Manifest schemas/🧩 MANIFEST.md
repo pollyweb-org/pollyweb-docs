@@ -52,7 +52,7 @@ Blueprint:
         items: 
           $ref: .MANIFEST/DELEGATE
 
-      Schemas: 
+      Blueprint: 
         type: array
         items:
           $ref: .MANIFEST/CODE

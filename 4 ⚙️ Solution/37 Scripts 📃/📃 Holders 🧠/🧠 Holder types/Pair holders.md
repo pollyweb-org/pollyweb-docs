@@ -6,6 +6,32 @@
 
 ## FAQ
 
+1. **What are Pair holders?**
+
+    Pair holders store key-value pair structures - e.g. `{A:1,B:2}`
+
+    ---
+    <br/>
+
+1. **How are the called across the main programming languages?**
+   
+    |Synonym |Languages
+    |-|-
+    | `Array` | PHP, Shell scripting
+    | `Dictionary` | C#, Python, Objective-C, Swift, VB.NET
+    | `Document` | NoSQL
+    | `Element` | XML
+    | `Hash` | Perl, Ruby
+    | `List` | R, Haskell
+    | `Map` | C++, Dart, Erlang, F#, Go, Java, Kotlin, Rust, Scala, YAML 
+    | `Object` | Javascript, JSON
+    | `Pairs` | Fortran, Pascal
+    | `Record` | TypeScript
+    | `Table` | COBOL, PowerShell, SQL
+
+    ---
+    <br/>
+
 1. **What are the built-in functions for pairs?**
 
     |Group| [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | Details 
