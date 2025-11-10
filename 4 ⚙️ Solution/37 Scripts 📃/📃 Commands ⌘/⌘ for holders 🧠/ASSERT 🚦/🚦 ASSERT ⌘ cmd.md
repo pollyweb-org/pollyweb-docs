@@ -42,11 +42,11 @@
         - Maths: <fields> # Numeric fields
     ```
     
-    | Input| Purpose | Examples
-    |-|-|-
+    | Input| Purpose |  Examples |Uses
+    |-|-|-|-
     | `$object`| Optional initial context | `$.Msg`
-    | `AllOf` | All should have values | `A,B` `[A,B]`
-    | `AnyOf` | One or more have values | `A,B` `[A,B]`
+    | `AllOf` | All should have values |  `A,B` `[A,B]` | [`.AllOf`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.AllOf}.md>)
+    | `AnyOf` | One or more have values |  `A,B` `[A,B]` | [`.AnyOf`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.AnyOf}.md>)
     | `OneOf` | Only one should have value | `A,B` `[A,B]`
     | `UUIDs` | Must be a UUID fields| `A,B` `[A,B]`
     | `Texts` | Must be a text fields | `A,B` `[A,B]`

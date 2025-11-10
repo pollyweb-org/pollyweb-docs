@@ -1,7 +1,9 @@
 <!-- TODO -->
 # 🈯 Talker `TRANSLATE` command
 
-1. **Syntax**
+## FAQ
+
+1. **What's the syntax of TRANSLATE?**
 
     ```yaml
     TRANSLATE >> $translation:
@@ -14,7 +16,7 @@
     ---
     <br/>
 
-1. **Outputs**
+1. **What are the outputs of TRANSLATE?**
 
     |Inputs|Output| Example
     |-|-|-
@@ -24,3 +26,4 @@
 
     ---
     <br/>
+

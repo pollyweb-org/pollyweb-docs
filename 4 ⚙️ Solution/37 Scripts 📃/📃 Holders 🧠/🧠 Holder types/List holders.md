@@ -7,6 +7,28 @@
 ## FAQ
 
 
+1. **What are List holders?**
+
+    List holders store items in a sequence - e.g. `[1, A, {X:9}]`
+
+    ---
+    <br/>
+
+1. **How are the called across the main programming languages?**
+   
+    |Synonym |Languages
+    |-|-
+    | `Array` | C, C++, JSON, Java, JavaScript, PHP, Python, Ruby, Swift, YAML
+    | `Collection` | VB.NET
+    | `List` | C#, Dart, Haskell, Kotlin, Lisp, ML, NoSQL, R, Scala
+    | `Sequence` | F#, OCaml
+    | `Slice` | Go
+    | `Tuple` | Python
+    | `Vector` | MATLAB, Perl
+    
+    ---
+    <br/>
+
 1. **What are the built-in functions for list holders?**
 
     Group | [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | Purpose 

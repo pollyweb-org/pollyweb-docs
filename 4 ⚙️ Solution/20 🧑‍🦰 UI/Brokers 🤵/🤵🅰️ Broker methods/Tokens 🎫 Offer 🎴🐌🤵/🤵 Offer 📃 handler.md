@@ -47,11 +47,14 @@
 
 # Save the Offer
 - SAVE|BrokerOffers:
+    
     # Set the cache expiration
     .Delete: 1 hour
+    
     # Set the key
     ID: .UUID
     Wallet: $chat.Wallet.ID
+
     # Add given inputs
     Hook: $.Msg.Hook
     Issuer: $.Msg.From
