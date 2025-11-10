@@ -61,7 +61,7 @@ Tokens:
 || `Schema$` | string | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | [`Translate@`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>)
 || `Status`| enum | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) Status | [`Status@`](<../Share 💼 Status 💼🚀🤵/🤵 Status 🚀 request.md>)
 ||`Token`  |uuid   | [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) key | [`Saved@`](<../Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 🐌 msg.md>)
-||`Title` | string | [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) title | [`Offer@`](<../Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>) [`Pop@`](<../Chats 💬 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>)
+||`Title` | string | [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) title | [`Offer@`](<../Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>) [`Pop@`](<../Chats 💬 PopBind 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>)
 ||`Emoji` | string | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) emoji | [`Offer@`](<../Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>)
 |
 

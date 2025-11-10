@@ -83,5 +83,5 @@ Tag: My Token
 | `Starts` | time | Valid from | [`Offer@Broker`](<../../🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>)
 | `Expires` | time | Valid until | [`Offer@Broker`](<../../🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>)
 | `Status`| string | `OFFERED` <br/> `ACTIVE` <br/> `SUSPENDED` <br/> `REVOKED` | [`Revise@Broker`](<../../🤵🅰️ Broker methods/Tokens 🎫 Revise 🎴🐌🤵/🤵 Revise 🐌 msg.md>)
-| `Tag` | string | User alias | [`Pop@Broker`](<../../🤵🅰️ Broker methods/Chats 💬 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>)
+| `Tag` | string | User alias | [`Pop@Broker`](<../../🤵🅰️ Broker methods/Chats 💬 PopBind 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>)
 ||
