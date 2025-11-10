@@ -366,6 +366,8 @@ _GEN_BASIC = [
     ("replace_placeholders_tokens", "Placeholders", "placeholders", "[Placeholders 🧠](<Holder 🧠.md>)", "Placeholders"),
     ("replace_list_tokens", "List", "list", "[List 🧠 holder](<List holders.md>)", "List"),
     ("replace_lists_tokens", "Lists", "lists", "[List 🧠 holders](<List holders.md>)", "Lists"),
+    ("replace_locator_tokens", "Locator", "locator", "[Locator 🔆](<🔆 Locator.md>)", "Locator"),
+    ("replace_locators_tokens", "Locators", "locators", "[Locators 🔆](<🔆 Locator.md>)", "Locators"),
     ("replace_text_tokens", "Text", "text", "[Text 🧠 holder](<Text holders.md>)", "Text"),
     ("replace_texts_tokens", "Texts", "texts", "[Text 🧠 holders](<Text holders.md>)", "Texts"),
     ("replace_domain_tokens", "domain", "domain", "[domain 👥](<👥 Domain.md>)", "domain"),

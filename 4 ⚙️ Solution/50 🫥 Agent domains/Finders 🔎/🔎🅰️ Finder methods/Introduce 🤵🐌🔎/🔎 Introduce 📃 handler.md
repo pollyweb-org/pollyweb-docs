@@ -37,16 +37,12 @@
                     To: $.Hosted.Graph
                     Subject: Identity@Graph
                 Body: 
-                    Domain: $.Msg.Host$
+                    Domain: $.Msg.Host
 
         Translate:
-            SEND >> $translation:
-                Header:
-                    To: $.Hosted.Graph
-                    Subject: Identity@Graph
-                Body:
-                    Language: $.Msg.Language
-                    Domain: $.Msg.Host$
+            TRANSLATE >> $translation:
+                Domain: $.Msg.Host
+                To: $.Msg.Language
 
         Reviews:
             SEND >> $reviews:

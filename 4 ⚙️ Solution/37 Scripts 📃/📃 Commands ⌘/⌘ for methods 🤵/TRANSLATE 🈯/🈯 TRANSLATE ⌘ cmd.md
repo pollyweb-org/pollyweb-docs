@@ -7,11 +7,28 @@
 
     ```yaml
     TRANSLATE >> $translation:
-        Schema: $schema
-        Schemas: [$schemas]
-        Domain: $domain
-        Domains: [$schemas]
+        From: en-us     # Defaults to $.Script.Language
+        To: pt-br       # Defaults to $.Chat or $.Msg
+        Text: Any ((don't translate)).     # Optional
+        Schema: $schema                    # Optional
+        Schemas: [$schemas]                # Optional
+        Domain: $domain                    # Optional
+        Domains: [$schemas]                # Optional
     ```
+
+    Input | Purpose | Example
+    |-|-|-
+    | `From` | Original language            | `en-us`
+    | | Defaults to [`$.Script`](<../../../📃 Holders 🧠/🧠 System holders/$.Script 📃/📃 $.Script 🧠 holder.md>)`.Language`
+    | `To`   | Destination language         | `pt-br`
+    | | Defaults to [`$.Chat`](<../../../📃 Holders 🧠/🧠 System holders/$.Chat 💬/💬 $.Chat 🧠 holder.md>)`.Language` | 
+    | | Or to [`$.Msg`](<../../../📃 Holders 🧠/🧠 System holders/$.Msg 📨/📨 $.Msg 🧠 holder.md>)`.Language`
+    | `Text` | Text to translate | `Hi, ((John))!`
+    |       | Doesn't translate between `(())`
+    | `Domain` | Domain for [`Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>) | `any-domain.dom`
+    | `Domains` | List of domains
+    | `Schema` | Schema  for [`Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>) | `.HOST`
+    | `Schemas` | List of schemas
 
     ---
     <br/>

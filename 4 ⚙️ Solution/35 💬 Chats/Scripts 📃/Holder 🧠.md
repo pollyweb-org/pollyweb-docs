@@ -15,6 +15,39 @@
     ---
     <br/>
 
+
+1. **What type of holders are there?**
+
+    |Type|Purpose|Example
+    |-|-|-
+    |[`List` holders](<../../37 Scripts 📃/📃 Holders 🧠/🧠 Holder types/List holders.md>) | Store items in a sequence | `[1, A, {X:9}]`
+    |[`Math` holders](<../../37 Scripts 📃/📃 Holders 🧠/🧠 Holder types/Math holders.md>) | Store numbers for  math | `1` `1.03` `-1` `0`
+    |[`Text` holders](<../../37 Scripts 📃/📃 Holders 🧠/🧠 Holder types/Text holders.md>) | Store text strings | `ABC`
+    |[`Time` holders](<../../37 Scripts 📃/📃 Holders 🧠/🧠 Holder types/Time holders.md>)| Store dates and times | `2018-12-10T13:45:00Z`
+
+
+    ---
+    <br/>
+
+
+1. **What functions apply to any holder type?**
+
+    | [{Function} 🐍](<Function 🐍.md>) | Purpose
+    |-|-|
+    | [`.IsEmpty`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsEmpty}.md>) | Is it empty?
+    | [`.IsNotEmpty`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNotEmpty}.md>) | Is not empty?
+    | [`.Equals`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Equals}.md>) | Is it the same content?
+    | [`.Differs`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Differs}.md>) | Is it a different content?
+    | [`.Is`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) | Is it the same meaning?
+    | [`.IsNot`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNot}.md>) | Is it a different meaning?
+    | [`.Assert`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Assert}.md>)  | Is the assertion valid?
+    | [`.AllOf`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.AllOf}.md>) | Are all assertions valid?
+    | [`.AnyOf`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.AnyOf}.md>) | Is any assertion valid?
+    | [`.OneOf`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.OneOf}.md>) | Is a single assertion valid?
+
+    ---
+    <br/>
+
 1. **What are the system holders?**
 
     | Holder 🧠 | Details
