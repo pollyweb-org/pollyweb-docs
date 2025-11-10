@@ -1,0 +1,33 @@
+@startuml Pop@Vault
+' TODO
+ 
+participant "Wallet 👱" as wallet
+
+box Broker 🤵 domain #FFFFFA
+    participant "Script 📃" as script
+    'participant "Wallets 🪣" as wallets
+    participant "Binds 🪣" as binds
+end box
+
+participant "Vault 🗄️" as vault
+
+activate wallet 
+    wallet --> script: {Remove Bind}
+deactivate wallet
+
+activate script
+    script -> binds: READ 🧲
+    script --> wallet: CONFIRM 👍 {remove?}
+deactivate script
+
+activate wallet
+    wallet --> script: {yes}
+deactivate wallet
+
+activate script
+    script -> binds: DELETE 🗑️
+    script --> vault: SEND 📬 {Unbound@}
+    script --> wallet: SEND 📬 {Updated@}
+deactivate script
+ 
+@enduml 

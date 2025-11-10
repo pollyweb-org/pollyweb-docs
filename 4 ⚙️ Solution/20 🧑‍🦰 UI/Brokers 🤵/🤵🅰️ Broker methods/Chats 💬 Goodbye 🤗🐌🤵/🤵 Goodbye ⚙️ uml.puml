@@ -1,0 +1,26 @@
+@startuml Goodbye
+' ------------------
+
+participant "Host 🤗" as host
+
+box Broker 🤵 domain #FFFFFA
+    participant "Handler 📃" as broker
+    'participant "Wallets 🪣" as wallets
+    participant "Chats 🪣" as chats
+end box
+
+participant "Reviewer ⭐" as reviewer
+participant "Advertizer 👀" as ads
+
+
+activate host
+    host --> broker: Goodbye 🐌
+deactivate host
+
+activate broker    
+    
+deactivate broker
+
+
+' ------------
+@enduml 

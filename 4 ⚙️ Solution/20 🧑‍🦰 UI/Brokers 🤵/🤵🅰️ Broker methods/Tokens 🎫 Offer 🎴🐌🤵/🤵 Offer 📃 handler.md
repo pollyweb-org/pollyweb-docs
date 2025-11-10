@@ -35,9 +35,15 @@
     From: $chat.Host
 
 # Translate the Issuer and Schema
-- TRANSLATE >> $translation:
+- TRANSLATE >> $graph:
     Domain: $.Msg.From
     Schema: $.Msg.Schema
+    To: $chat.Wallet.Language
+
+# Get the title
+- TRANSLATE >> $title:
+    Text: (({$graph.Schema})), 
+       by (({$graph.Domain}))
     To: $chat.Wallet.Language
 
 # Save the Offer
@@ -53,11 +59,14 @@
     # Add given inputs
     Hook: $.Msg.Hook
     Issuer: $.Msg.From
-    Issuer$: $translation.Domain
     Schema: $.Msg.Schema
-    Schema$: $translation.Schema
     Starts: $.Msg.Starts
     Expires: $.Msg.Expires
+    
+    # Add translations
+    Issuer$: $graph.Domain
+    Schema$: $graph.Schema
+    Title: $title
 
 # Update the domain translation
 - RUN|Update-Domain:
