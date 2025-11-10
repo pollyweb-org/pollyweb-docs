@@ -27,8 +27,8 @@
 
 # Ask for an action.
 - ONE|What do you need?:
-    - /Set token title
-    - /Remove token
+    - /Set Token title
+    - /Remove Token
 
 # Execute the action.
 - CASE:

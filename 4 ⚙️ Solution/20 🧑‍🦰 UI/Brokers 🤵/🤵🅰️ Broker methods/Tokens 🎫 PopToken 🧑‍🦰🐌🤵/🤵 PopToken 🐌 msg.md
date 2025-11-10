@@ -13,7 +13,7 @@
 | | | > Token 🎫 |
 | | | > Broker 🤵 |
 | 🤵 [Broker](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | ℹ️ Context: Token bla, bla
-| 🤵 [Broker](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🤗 Hi! What do you need? <br/> - [ Remove ] Token <br/> - [ Something else ] 
+| 🤵 [Broker](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🤗 Hi! What do you need? <br/> - [ Set ] Token title  <br/> - [ Remove ] Token 
 |
 
 <br/>

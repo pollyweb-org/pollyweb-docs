@@ -18,7 +18,7 @@
     AllOf: token
 
 # Ask for confirmation 🤔
-- CONFIRM|Remove token {$token.Title}?
+- CONFIRM|Remove Token {$token.Title}?
 
 # Remove the Token 🎫
 - DELETE|$token >> $deleted:
