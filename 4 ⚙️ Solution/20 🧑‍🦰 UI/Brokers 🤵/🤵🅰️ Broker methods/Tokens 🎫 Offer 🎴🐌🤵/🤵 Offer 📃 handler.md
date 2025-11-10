@@ -35,13 +35,10 @@
     From: $chat.Host
 
 # Translate the Issuer and Schema
-- SEND >> $translation:
-    Header:
-        To: $.Hosted.Graph
-        Subject: Translate@Graph
-    Body:
-        Domain: $.Msg.From
-        Schema: $.Msg.Schema
+- TRANSLATE >> $translation:
+    Domain: $.Msg.From
+    Schema: $.Msg.Schema
+    To: $chat.Wallet.Language
 
 # Save the Offer
 - SAVE|BrokerOffers:

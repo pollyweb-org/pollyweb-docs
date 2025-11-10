@@ -15,108 +15,56 @@
     ---
     <br/>
 
-1. **How are values evaluated to booleans?**
-
-    Type| ❌ False | Example | ✅ True | Example
-    |-|-|-|-|-
-    Boolean | false | `False` | true | `True`
-    String   | empty | ` ` | non-empty | `.` `bla` 
-    Number  | zero | `0` | non-zero | `1` `-1`
-    Array | empty | `[]` | non-empty | `[1,A]`
-    [Confirm 👍](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/CONFIRM 👍 prompt.md>) |  no | `No` | yes | `Yes`|
-    [Share 💼](<../../⌘ for methods 🤵/SHARE 💼/💼 SHARE ⌘ cmd.md>) | empty | `{}`| non-empty | `{A:1}`
-    
-
-    ---
-    <br/>
-
 1. **What's the IF syntax for then-only IFs?**
-    
+
     ```yaml
-    # In-line then 
-    - IF|{function}|<true-script>
-
-    # Broken-line single then (a string)
-    - IF|{function}:
-        <true-action>
-
-    # Multiple then actions (an array)
-    - IF|{function}:
-        - <true-action-1>
-        - <true-action-n>
+    IF:
+        Assert: assertions... # Optionally, last user input
+        Then: commands...     # Optional
+        Else: commands...     # Optional
     ```
 
     | Input| Purpose | Example
     |-|-|-
-    | `{function}` | Boolean [{Function}](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) to evaluate  | `{f}` `{$o}`
-    || Allows for missing `{}` in functions | `f()` `$p`
-    || Defaults to the last [input prompt ✏️](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/9 ✏️ as Input.md>) | `TEXT\|Id?`
-    | `<true-script>` | [Script 📃](<../RUN ▶️/▶️ RUN ⌘ cmd.md>) when `True` | `IfTrue`
+    | `Assert` | List of inputs to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Assert}.md>)  | `$h` `.f(*)`
+    || Defaults to last [input prompt ✏️](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/9 ✏️ as Input.md>) | [`CONFIRM`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`TEXT`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 🔠/TEXT 🔠 prompt.md>)
+    | `Then` | List of [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) if `True` | [`RETURN`](<../RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>)` 123`
+    | | Or a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) name to [`RUN`](<../RUN ▶️/▶️ RUN ⌘ cmd.md>) | `If-True-Script`
+    | `Else` | List of [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) if `False` | [`RETURN`](<../RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>)` 456`
+    | | Or a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) name to [`RUN`](<../RUN ▶️/▶️ RUN ⌘ cmd.md>) | `If-False-Script`
     
-    
+
     ---
     <br/>
 
-
-1. **What's the IF syntax for one-line scripts?**
+1. **What are alternative syntaxes?**
     
     ```yaml
-    # One-line Scripts
-    - IF|{function}|<true-script>|<false-script>
+    # Inline then 
+    - IF|<assertion>|<then-script>
     ```
 
-    | Input| Purpose | Example
-    |-|-|-
-    | `{function}` | Boolean [{Function}](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) to evaluate  | `{f}` `{$o}`
-    || Allows for missing `{}` in functions | `f()` `$p`
-    || Defaults to the last [input prompt ✏️](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/9 ✏️ as Input.md>) | `TEXT\|Id?`
-    | `<true-script>` | [Script 📃](<../RUN ▶️/▶️ RUN ⌘ cmd.md>) when `True` | `IfTrue`
-    | `<false-script>`| [Script 📃](<../RUN ▶️/▶️ RUN ⌘ cmd.md>) when `False` | `IfFalse(X)`
+    ```yaml
+    # Inline then else
+    - IF|<assertion>|<then-script>|<else-script>
+    ```
+
+    ```yaml
+    # Broken-line single then (a text)
+    - IF|<assertion>:
+        <then>
+    ```
+
+    ```yaml
+    # Multiple then-actions (a list)
+    - IF|<assertion>:
+        - <then-1>
+        - <then-n>
+    ```
     
     ---
     <br/>
 
-1. **What's the IF syntax for multi-line actions?**
-
-    ```yaml
-    # Multi-line actions: 
-    #   i.e., Script or one-line Command
-
-    - IF: 
-        Assert: {function} # (empty) → last input
-        Then: <true-action>
-        Else: <false-action>
-    ```
-
-    | Input| Purpose
-    |-|-
-    | `<true-action>` | [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) or one-line [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) on `True`
-    | `<false-action>`| [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) or one-line [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) on `False`
-
-    ---
-    <br/>
-
-1. **What's the IF syntax for multi-line command lists?**
-
-    ```yaml
-    # Multi-line Command lists
-    - IF:
-        Function: {function} # (empty) → last input
-        Then: 
-            - <true-cmd-1>
-            - <true-cmd-n>
-        Else: 
-            - <false-cmd-1>
-            - <false-cmd-n>
-    ```
-
-    | Input| Purpose
-    |-|-
-    | `<true-cmd-n>` | List of multi-line [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) to run on `True`
-    | `<false-cmd-n>` | List of multi-line [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) to run on `False`
-
-    ---
-    <br/>
 
 
 1. **What are examples of inline syntax?**
