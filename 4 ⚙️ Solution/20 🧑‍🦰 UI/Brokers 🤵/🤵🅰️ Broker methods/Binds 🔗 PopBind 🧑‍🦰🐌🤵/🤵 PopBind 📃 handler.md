@@ -64,6 +64,6 @@ Uses: [`ASSERT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 
 
 | Scripts | Details
 |-|-
-| [▶️ `PopToken`](<Pop Token 🎫/🤵 Pop Token 📃 handler.md>) | Implements [🧑‍🦰💬🤵 Remove Token 🎫](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Tokens 🎫/Remove 💬🎫🤵 /🧑‍🦰 Remove Token ⏩ flow.md>)
-| [▶️ `PopVault`](<Pop Vault/🤵 Pop Vault 📃 handler.md>) | Implements [🧑‍🦰💬🤵 Unbind Vault](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Vaults 🗄️/Unbind 💬🗄️🤵 /🧑‍🦰 Unbind Vault ⏩ flow.md>)
+| [▶️ `PopToken`](<../Tokens 🎫 PopToken 🧑‍🦰🐌🤵/🤵 PopToken 📃 handler.md>) | Implements [🧑‍🦰💬🤵 Remove Token 🎫](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Tokens 🎫/Remove 💬🎫🤵 /🧑‍🦰 Remove Token ⏩ flow.md>)
+| [▶️ `PopVault`](<Remove Bind/🤵 Remove Bind 📃 script.md>) | Implements [🧑‍🦰💬🤵 Unbind Vault](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Vaults 🗄️/Unbind 💬🗄️🤵 /🧑‍🦰 Unbind Vault ⏩ flow.md>)
 |

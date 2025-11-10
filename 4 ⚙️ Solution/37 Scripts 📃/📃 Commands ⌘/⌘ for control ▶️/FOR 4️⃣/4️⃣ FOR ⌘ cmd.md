@@ -5,7 +5,7 @@
 
 > Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
 
-> Example: [Pop Vault 🔆](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 PopBind 🧑‍🦰🐌🤵/Pop Vault/🤵 Pop Vault 📃 handler.md>)
+> Example: [Pop Vault 🔆](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 PopBind 🧑‍🦰🐌🤵/Remove Bind/🤵 Remove Bind 📃 script.md>)
 
 
 <br/>
