@@ -13,6 +13,7 @@
 ```yaml
 Path: /GROUP/SUBGROUP/ANY-SCHEMA
 Delegator: any-delegator.dom
+Emoji: 🍂
 Name: Any name
 Description: Any description
 
@@ -40,18 +41,19 @@ Blueprint:
 
 | Property | Type | Notes|
 |-|-|-
-| `Path`| string | Relative path of the [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>)  or group
-| [`Delegator 🧩`](<🧩 DELEGATE.md>) | string | Optional [Authority 🏛️ domain](<../../../45 🤲 Helper domains/Authorities 🏛️/🏛️🤲 Authority helper.md>) that delegated: <br/>- i.e., added it to [`.MANIFEST/DELEGATE` 🧩](<🧩 DELEGATE.md>)
-| `Name` | string | Human name of the [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>) 
-| `Description`| string | Human  description of the [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>)  
-| `Resources`  | dict | Dictionary of external resources
-| `Translations` | dict | Dictionary of translations
-| `Version`       | string | Version in `major/breaks`.`minor/safe`   
-| `Properties`    | array  | Optional human readable list of attributes |
-| `Inherits`      | string | Optional inheritance for QR codes | `.TOKEN`
+| `Path`| text | Relative path of the [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>)  or group
+| [`Delegator 🧩`](<🧩 DELEGATE.md>) | text | Optional [Authority 🏛️ domain](<../../../45 🤲 Helper domains/Authorities 🏛️/🏛️🤲 Authority helper.md>) that delegated: <br/>- i.e., added it to [`.MANIFEST/DELEGATE` 🧩](<🧩 DELEGATE.md>)
+| `Emoji` | text | Standard representation in [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
+| `Name` | text | Human name of the [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>) 
+| `Description`| text | Human  description of the [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>)  
+| `Resources`  | [pairs](<../../../37 Scripts 📃/📃 Holders 🧠/🧠 Holder types/Pair holders.md>) | Dictionary of external resources
+| `Translations` | [pairs](<../../../37 Scripts 📃/📃 Holders 🧠/🧠 Holder types/Pair holders.md>) | Dictionary of translations
+| `Version`       | text | Version in `major/breaks`.`minor/safe`   
+| `Properties`    | [list](<../../../37 Scripts 📃/📃 Holders 🧠/🧠 Holder types/List holders.md>)  | Optional human readable list of attributes |
+| `Inherits`      | text | Optional inheritance for QR codes | `.TOKEN`
 | `Location`      | url | Optional external location of the [JSON schema](<https://json-schema.org/>) |
-| `Format`       | object | Optional [JSON schema](<https://json-schema.org/>) for machine validation |
-| `$ref 🧩`  | string | Sub-schema from `property`@`code`:`version`
+| `Format`       | [pairs](<../../../37 Scripts 📃/📃 Holders 🧠/🧠 Holder types/Pair holders.md>) | Optional [JSON schema](<https://json-schema.org/>) for machine validation |
+| `$ref 🧩`  | text | Sub-schema from `property`@`code`:`version`
 |
 
 
@@ -119,6 +121,9 @@ Blueprint:
 
       Delegator:
         $ref: Domain@nlweb.dom/TYPES
+
+      Emoji: 
+        type: string
 
       Name: 
         type: string

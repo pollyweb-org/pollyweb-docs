@@ -14,7 +14,7 @@ Name: Billing address
 Translations:
   pt: Endereço de pagamento
 
-Schemas:  
+Blueprint:  
   
   Properties:
     - Buyer           # name of the buyer
