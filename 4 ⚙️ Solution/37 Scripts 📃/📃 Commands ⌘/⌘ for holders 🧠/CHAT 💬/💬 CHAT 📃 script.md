@@ -9,6 +9,10 @@
     * that implements the [`CHAT` 💬 command](<💬 CHAT ⌘ cmd.md>) 
     * by setting the [`$.Chat` 💬 holder](<../../../📃 Holders 🧠/🧠 System holders/$.Chat 💬/💬 $.Chat 🧠 holder.md>).
 
+# Diagram
+
+![alt text](<💬 CHAT ⚙️ uml.png>)
+
 ## How to run
 
 ```yaml
@@ -60,3 +64,12 @@ Uses||
 |[Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`HostChats`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🪣 Host tables/Chats 💬 table/🤗 HostChats 🪣 table.md>)
 [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | [`$.Chat` 🧠 holder](<../../../📃 Holders 🧠/🧠 System holders/$.Chat 💬/💬 $.Chat 🧠 holder.md>)
 |
+
+## FAQ
+
+1. **Why update instead of overwriting?**
+
+    There's an `Emoji` property managed by the [`EMOJI`](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/😶⌘ EMOJI cmd.md>) command that needs to survive concurrent changes.
+
+    ---
+    <br/>

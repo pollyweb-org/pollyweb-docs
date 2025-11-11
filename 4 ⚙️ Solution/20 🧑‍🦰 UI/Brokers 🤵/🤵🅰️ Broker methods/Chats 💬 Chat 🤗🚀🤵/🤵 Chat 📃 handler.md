@@ -1,4 +1,4 @@
-# 🤵📃 Chats 🚀 Broker
+# 🤵📃 Chat 🚀 Broker
 
 > [Script 📃](<🤵 Chat 🚀 request.md>)
 
@@ -12,32 +12,41 @@
 ## Script
 
 ```yaml
-📃 Chats@Broker:
+📃 Chat@Broker:
 
-# Get the wallet item
-- READ >> $wallet:
-    Set: BrokerWallets
-    Key: $.Msg.From
+# Assert the message
+- ASSERT|$.Msg:
+    - AllOf: Chat
+    - UUIDs: Chat
 
-# Verify the signature
-- VERIFY|$.Msg:
-    Key: $wallet.PublicKey
+# Verify the message
+- VERIFY|$.Msg
+
+# Get the chatter item
+- READ >> $chatter:
+    Set: BrokerChatters
+    Key: 
+        Domain: $.Msg.From
+        Chat: $.Msg.Chat
+
+# Get the chat item
+- PUT >> $chat:
+    $chatter.Chat
 
 # Prepare the response
-- PUT|$wallet.Chats >> $chats
-    Chat: Chat
-    Host: Host
-    Host$: Host$
-    SmallIcon: Host.SmallIcon
-    BigIcon: Host.BigIcon
+- PUT >> $resp:
+    $chat.ID:
+    $chat.PublicKey:
+    $chat.Language:
+    $chat.Timezone:
+    $chatter.ID:
 
 # Respond
-- RETURN:
-    Chats: $chats
+- RETURN|$resp:
 ```
 
 Uses||
 |-|-
 | [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`$.Msg`](<../../../../37 Scripts 📃/📃 Holders 🧠/🧠 System holders/$.Msg 📨/📨 $.Msg 🧠 holder.md>) [`EVAL`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/EVAL 🧮/🧮 EVAL ⌘ cmd.md>) [`READ`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`RETURN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`VERIFY`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>)
-|  [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Chats`](<../../🤵🪣 Broker tables/Chats 💬 table/🤵 BrokerChats 🪣 table.md>) [`Wallets`](<../../🤵🪣 Broker tables/Wallets 🧑‍🦰 table/🤵 BrokerWallets 🪣 table.md>)
+|  [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Chats`](<../../🤵🪣 Broker tables/Chats 💬 table/🤵 BrokerChats 🪣 table.md>) [`Chatters`](<../../🤵🪣 Broker tables/Chatters 👥 table/🤵 BrokerChatters 🪣 table.md>) [`Wallets`](<../../🤵🪣 Broker tables/Wallets 🧑‍🦰 table/🤵 BrokerWallets 🪣 table.md>)
 |
