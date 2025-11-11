@@ -3,25 +3,19 @@
  
 participant "Wallet 👱" as wallet
 
-box Hoster ☁️ domain #FFFFFA
-    participant "Broker 🤵" as broker
-end box
-box Itemizer 🛢 domain #FFFFFA
+box Broker 🤵 domain #FFFFFA
+    participant "Chats@ 📃" as broker
     participant "Wallets 🪣" as wallets
     participant "Chats 🪣" as chats
 end box
 
 activate wallet
-wallet -> broker: Chats 🚀
+wallet -> broker: Chats 🚀 {wallet}
 
     activate broker
-        broker -> wallets: READ {wallet}
-
-        activate wallets
-        wallets -> chats: .Chats
-        wallets -> broker: 
-        deactivate wallets
-
+        broker -> wallets: READ 🧲
+        broker -> chats: 
+        
         broker -> wallet: RETURN {$wallet.Chats}
     deactivate broker
 

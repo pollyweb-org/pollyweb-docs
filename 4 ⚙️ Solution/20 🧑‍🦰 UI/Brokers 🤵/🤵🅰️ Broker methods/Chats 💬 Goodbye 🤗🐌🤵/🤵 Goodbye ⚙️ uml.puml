@@ -4,7 +4,7 @@
 participant "Host 🤗" as host
 
 box Broker 🤵 domain #FFFFFA
-    participant "Handler 📃" as broker
+    participant "Goodbye@ 📃" as broker
     'participant "Wallets 🪣" as wallets
     participant "Chats 🪣" as chats
 end box

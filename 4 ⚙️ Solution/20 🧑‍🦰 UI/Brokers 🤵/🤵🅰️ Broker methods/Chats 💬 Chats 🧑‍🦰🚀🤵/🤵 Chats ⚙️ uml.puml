@@ -10,7 +10,7 @@ box Broker 🤵 domain #FFFFFA
 end box
 
 activate wallet
-wallet -> broker: Chats 🚀
+wallet -> broker: Chats 🚀 {chat}
 
     activate broker
         broker -> wallets: READ 🧲

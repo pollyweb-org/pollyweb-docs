@@ -1,0 +1,34 @@
+@startuml CHAT
+' TODO
+
+box Host domain #FFFFFA
+    participant "Script 📃" as script
+    participant ".CHAT 📃" as engine
+    participant "$.Chat 🧠" as holder
+    participant "Chats 🪣" as table
+end box
+
+participant  "Broker 🤵" as broker
+
+
+activate script
+    script -> engine: CHAT 💬
+deactivate script
+
+activate engine
+    engine -> broker: SEND 🤵 Chat 🚀
+
+    activate broker
+        broker -> engine: { chat 💬 details }
+    deactivate broker
+
+    engine -> table: READ 🧲
+    engine -> table: SAVE 💾
+    engine -> holder: SET 
+    engine -> script:
+deactivate engine
+
+activate script
+deactivate script
+
+@enduml 
