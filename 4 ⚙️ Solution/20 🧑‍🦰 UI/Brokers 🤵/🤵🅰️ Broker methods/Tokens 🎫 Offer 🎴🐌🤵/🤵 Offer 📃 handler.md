@@ -72,18 +72,12 @@
 - RUN|Update-Domain:
     Name: $.Msg.From
     Title: $translation.Domain
-```
 
-> Run [`Update Domains` 📃 script](<../../🤵🪣 Broker tables/Domains 👥 table/🤵 Update Domain 📃 script.md>)
-
-<!-- TODO: Finish the detail -->
-
-```yaml
 - CONFIRM|Save token? >> $saved:
     Details: 
 ```
 
-<br/>
+<!-- TODO: Finish the detail -->
 
 Uses||
 -|-

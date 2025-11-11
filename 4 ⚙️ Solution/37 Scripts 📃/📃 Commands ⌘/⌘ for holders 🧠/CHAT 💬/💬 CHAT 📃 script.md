@@ -33,6 +33,6 @@ RUN|.CHAT:
     - Role.IsIn(VAULT, HELPER, HOST)
 
 # Update the $.Chat
-- PUT|$.Chat >> $.Chat:
-
+- SET|$.Chat:
+    :$.Input:
 ```
