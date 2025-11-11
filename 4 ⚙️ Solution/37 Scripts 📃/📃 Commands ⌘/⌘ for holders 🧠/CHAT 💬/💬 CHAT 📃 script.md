@@ -51,11 +51,11 @@ RUN|.CHAT:
 
 # Update the item details
 - SAVE|$chat >> $chat:
-    :$details:
+    $details
 
 # Update the system holder
 - SET|$.Chat:
-    :$chat:
+    $chat
 ```
 
 Uses||

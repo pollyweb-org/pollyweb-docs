@@ -74,20 +74,22 @@
 
     |Command|Purpose
     |-|-
-    | 🔗 [`BIND`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) | Calls the [Bind Vault @ Wallet ⏩](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/🧑‍🦰 Bind vault ⏩ flow.md>) flow.
-    | 🎫 [`ISSUE`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/ISSUE 🎫/🎫 ISSUE ⌘ cmd.md>) | Calls the [Save Token @ Wallet ⏩](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save token ⏩ flow.md>) flow.
-    | 👋 [`GOODBYE`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>) | Calls the [Goodbye @ Host](<../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Goodbye 🤗⏩👋/🤗 Goodbye ⏩ flow.md>) ⏩ flow.
+    | 🔗 [`BIND`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) | Calls the [`Bind Vault` ⏩ flow](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/🧑‍🦰 Bind vault ⏩ flow.md>) 
+    | 🎫 [`ISSUE`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/ISSUE 🎫/🎫 ISSUE ⌘ cmd.md>) | Calls the [`Save Token` ⏩ flow](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save token ⏩ flow.md>) 
+    | 👋 [`GOODBYE`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>) | Calls the [`Goodbye` ⏩ flow](<../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Goodbye 🤗⏩👋/🤗 Goodbye ⏩ flow.md>).
     | 📜 [`FLOW`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/INFORM 📝/📝 INFORM ⌘ cmd.md>)
     | 💳 [`CHARGE`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/CHARGE 💳/💳 CHARGE ⌘ cmd.md>)
     | 💼 [`SHARE`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/SHARE 💼/💼 SHARE ⌘ cmd.md>)
     | 🛰️ [`RELAY`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/RELAY 🛰️/🛰️ RELAY ⌘ cmd.md>)
-    |
     
-   
-   * `CRUD`	
-       * Initiates the CRUD dialog
 
-   
+    ---
+    <br/>
+
+<!--TODO:Review-->
+
+<!--
+   * `CRUD`	| Initiates the CRUD dialog
    * `REDIRECT|{host}|{locator}`	
        * Calls 👉 Check-in: 👱📎 Wallet. Sessions
        * With [🧩 nlweb.dom/HOST](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🧩 Host schemas/🧩 HOST.md>)
@@ -98,9 +100,9 @@
 
    * `SUBSCRIBE|<amount>`	
        * Calls 🐌 Subscribe: 🤵📎 Broker. Pay()
+-->
 
-    ---
-    <br/>
+   
 
 
 1. **What are Flow commands?**
@@ -123,14 +125,17 @@
     <br/>
 
 
-1. **How to pass object inputs into a Command?**
+
+1. **How to pass YAML objects to a [Command ⌘](<Command ⌘.md>)?**
+
+    [Commands ⌘](<Command ⌘.md>) parse inputs with the [`.Evaluate`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) function.
 
     ```yaml
     # in multiple lines as a YAML object
     - <CMD> >> $out:
         <pro-1>: <val-1>    # objects
         <pro-2>: <val-2>    #   with a property dict
-        :$holder-1:         # holders surrounded by ":"
+        $holder-1:          # holders with ":" suffix
     ```
 
     ```yaml
@@ -177,7 +182,9 @@
     ---
     <br/>
 
-1. **How to pass holder inputs into a Command?**
+1. **How to pass [Holders 🧠](<Holder 🧠.md>) to a [Command ⌘](<Command ⌘.md>)?**
+
+    [Commands ⌘](<Command ⌘.md>) also parse [Holder 🧠](<Holder 🧠.md>) inputs with the [`.Evaluate`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) function.
 
     ```yaml
     - <CMD> >> $out:    # single value
@@ -225,5 +232,3 @@
 
     ---
     <br/>
-    
-
