@@ -16,6 +16,8 @@
 
 1. **What's the RUN syntax?**
 
+    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) syntax.
+
     ```yaml
     # Simplest in-line
     - RUN|<script>

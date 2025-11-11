@@ -69,6 +69,8 @@
 
 1. **What's the syntax for boolean assertions?**
 
+    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) syntax.
+
     ```yaml
     ASSERT|$object:
         - <key>

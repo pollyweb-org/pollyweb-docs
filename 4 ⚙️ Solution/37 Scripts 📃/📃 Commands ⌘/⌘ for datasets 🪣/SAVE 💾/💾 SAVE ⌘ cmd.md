@@ -6,7 +6,7 @@
 
 > Relates to [Tables 🪣 folder](<../../../../55 👷 Build domains/Hosteds 📦/📦📄 Hosted files/🪣📂 Tables folder.md>)
 
-<br/>
+## FAQ
 
 1. **What is a SAVE command?**
 
@@ -19,6 +19,8 @@
 
 1. **What's the syntax of an insert SAVE?**
 
+    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) syntax.
+    
     ```yaml
     # Single item
     - SAVE|<set> >> $inserted:

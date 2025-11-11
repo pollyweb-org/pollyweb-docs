@@ -15,6 +15,8 @@
 
 1. **What's the [`PUT`](<⬇️ PUT ⌘ cmd.md>) syntax?**
 
+    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) syntax.
+
     |Variation| Behavior
     |-|-|
     | `PUT\|$in >> $out` | Puts the content of a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) in another

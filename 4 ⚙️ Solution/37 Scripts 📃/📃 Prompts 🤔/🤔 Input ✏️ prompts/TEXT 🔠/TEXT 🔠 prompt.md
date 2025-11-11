@@ -73,6 +73,8 @@
 
 1. **What's the syntax on a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)?**
 
+    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) syntax.
+
     ```yaml
     # Simplest.
     TEXT|<text> >> $holder

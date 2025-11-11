@@ -36,7 +36,7 @@
     <br/>
 
 
-1. **What's the format for a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)?**
+1. **What's the syntax for a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)?**
 
     ```yaml
     - LOCATION >> $holder
