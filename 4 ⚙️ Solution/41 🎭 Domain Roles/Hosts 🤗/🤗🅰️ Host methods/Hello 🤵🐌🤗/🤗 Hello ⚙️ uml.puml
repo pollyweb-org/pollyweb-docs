@@ -1,0 +1,28 @@
+@startuml Hello@Host
+' TODO
+
+participant "Broker 🤵" as broker
+
+box Host domain #FFFFFA
+    participant "Handler 📃" as handler
+    participant "Talker 😃" as engine
+    'participant "Chats 🪣" as table
+    'participant "$.Chat 🧠" as holder
+end box
+
+activate broker
+    broker --> handler: Hello 🐌
+deactivate broker
+
+activate handler
+    handler -> engine: VERIFY {$.Msg}
+    handler -> engine: TRUSTS {$.Msg.From}
+    handler -> engine: CHAT {$.Msg.Body}
+    handler --> engine: TALK {schema, key}
+deactivate handler
+
+activate engine
+    engine --> 
+deactivate engine
+
+@enduml 

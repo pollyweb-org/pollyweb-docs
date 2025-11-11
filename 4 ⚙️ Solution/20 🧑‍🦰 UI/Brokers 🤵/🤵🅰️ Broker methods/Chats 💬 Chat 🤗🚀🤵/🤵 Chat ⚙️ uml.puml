@@ -1,0 +1,23 @@
+@startuml Chat@Broker
+
+
+participant "Host 🤗" as host 
+
+box Broker 🤵 domain #FFFFFA
+    participant "Chat@ 📃" as broker
+    participant "Chats 🪣" as chats
+    participant "Chatters 🪣" as chatters
+end box
+
+activate host
+host -> broker: Chat 🚀 {chatID}
+
+    activate broker
+        broker -> chats: READ 🧲
+        broker -> chatters: 
+        broker -> host: RETURN {details}
+    deactivate broker
+
+deactivate host
+
+@enduml 

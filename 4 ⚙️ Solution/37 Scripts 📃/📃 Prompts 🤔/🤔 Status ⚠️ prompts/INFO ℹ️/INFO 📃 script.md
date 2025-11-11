@@ -22,16 +22,10 @@
     AllOf: Text
     Texts: Text
 
-# Set the emoji
-- CASE|$.Chat.Role >> $emoji:
-    VAULT: ⓘ
-    $: ℹ️ 
-
 # The the message
-- RUN|Prompt@Host:
+- RUN|.PROMPT:
     $.Inputs: 
     Format: INFO
-    Emoji: $emoji
 ```
 
 Uses||
