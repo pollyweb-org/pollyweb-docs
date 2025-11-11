@@ -42,8 +42,9 @@
     | Input| Purpose | Example
     |-|-|-
     | `Set` | Name of resource pool | `MyPool`
-    | `Key`  | Key to look up in the pool | `MyKey` `$key`
-    | `Default` | Objet to return if missing | `{A:1, B:2}`
+    | `Key`  | Key to look up in the pool | `1` `$h` `{A:1,B:2}`
+    | `Default` | [Pairs 🧠](<../../../📃 Holders 🧠/🧠 Holder types/Pair holders.md>) to return if missing | `{C:3}` 
+    || Always returns the key | `{A:1,B:2,C:3}`
     | `OnMissing` | [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) or [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) | `MyScript`
     | `$item` | Item to retrieve | -
 

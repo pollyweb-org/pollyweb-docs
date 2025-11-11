@@ -21,32 +21,42 @@ RUN|.CHAT:
 ## Script
 
 ```yaml
+📃 .CHAT:
+
 # Assert the required fields
 - ASSERT|$.Inputs:
     - AllOf: Broker, Chat
-    - Texts: Broker, PublicKey, Role, Key, Timezone, Language
+    - Texts: Broker
     - UUIDs: Chat
-    - Role.IsIn(VAULT, HELPER, HOST)
 
-# Get the $chat
+# Get the details from the Broker
+- SEND >> $details:
+    Header:
+        To: $Broker
+        Subject: Chat@Broker
+    Body:
+        Chat: $Chat
+
+# Get the table item, if exists
 - READ >> $chat:
     Set: HostChats
     Key: 
         Broker: $Broker
         Chat: $Chat
+    Default: 
 
-# Update with received inputs
-- SAVE|$chat:
-    $.Inputs
+# Update the item details
+- SAVE|$chat >> $chat:
+    :$details:
 
-# Set the system holder
+# Update the system holder
 - SET|$.Chat:
     :$chat:
 ```
 
 Uses||
 |-|-
-|[Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`READ`](<../../⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`SAVE`](<../../⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) {{SAVE}} [`SET`](<../SET ↘️/↘️ SET ⌘ cmd.md>)
+|[Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`READ`](<../../⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`SAVE`](<../../⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`SAVE`](<../../⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`SET`](<../SET ↘️/↘️ SET ⌘ cmd.md>)
 |[Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`HostChats`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🪣 Host tables/Chats 💬 table/🤗 HostChats 🪣 table.md>)
 [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | [`$.Chat` 🧠 holder](<../../../📃 Holders 🧠/🧠 System holders/$.Chat 💬/💬 $.Chat 🧠 holder.md>)
 |
