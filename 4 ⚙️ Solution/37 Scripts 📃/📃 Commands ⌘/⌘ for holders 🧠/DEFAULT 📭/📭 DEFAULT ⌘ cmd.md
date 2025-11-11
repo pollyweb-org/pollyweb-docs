@@ -18,6 +18,8 @@
 
 1. **What's the syntax for defaults?**
 
+    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) syntax.
+
     ```yaml
     DEFAULT|$input:
         <property-1>: <default-1>

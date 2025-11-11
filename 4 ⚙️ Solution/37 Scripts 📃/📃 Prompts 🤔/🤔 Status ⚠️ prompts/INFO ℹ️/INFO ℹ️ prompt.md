@@ -39,7 +39,9 @@
 
 
 
-1. **What's the INFO format for a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)?**
+1. **What's the INFO syntax for a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)?**
+
+    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) syntax.
 
     ```yaml
     # Inline

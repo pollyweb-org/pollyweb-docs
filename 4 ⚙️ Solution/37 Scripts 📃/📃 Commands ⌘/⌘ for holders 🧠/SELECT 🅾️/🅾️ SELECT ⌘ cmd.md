@@ -16,6 +16,8 @@
 
 1. **What's the SELECT syntax?**
 
+    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) syntax.
+
     ```yaml
     SELECT:
         All|First|Last|Distinct: [fields]

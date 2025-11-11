@@ -26,6 +26,8 @@
     
 1. **What's the syntax?**
 
+    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) syntax.
+
     ```yaml
     # Function syntax
     - LOG|{function}
