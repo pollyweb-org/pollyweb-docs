@@ -61,7 +61,7 @@ The associated [`Script`](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md
 |-|-|-
 |1|[💼🐌🤵 `Invite@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)|Invite another [Host 🤗](<../../🤗 Host role/🤗🎭 Host role.md>) to the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
 |2|[🤗⏩🧑‍🦰 Prompt 🤔](<../Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | [Brokers 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) may ask for user permission
-|3| [🤵🐌🛠️ `Invited@Helper`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲🅰️ Helper methods/🤵🐌🤲 Invited.md>) | Proxy  invites to [Helper 🤲](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>) invitees
+|3| [🤵🐌🛠️ `Invited@Helper`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲🅰️ Helper methods/🤵🐌🤲 Invited/🤵 Invited 🐌 msg.md>) | Proxy  invites to [Helper 🤲](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>) invitees
 |4|[🤗⏩🧑‍🦰 Prompt 🤔](<../Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | Invitees continue the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
 |5|[🗄️⏩💼 Consume 🧩](<../../../Vaults 🗄️/🗄️⏩ Vault flows/Consume 🗄️⏩💼/🗄️ Consume ⏩ flow.md>) | Invitees share the final result
 |

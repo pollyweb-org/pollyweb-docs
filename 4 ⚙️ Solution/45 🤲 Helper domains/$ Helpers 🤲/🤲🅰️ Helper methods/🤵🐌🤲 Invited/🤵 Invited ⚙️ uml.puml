@@ -1,0 +1,18 @@
+@startuml Goodbye
+' ------------------
+
+participant "Broker 🤵" as broker
+box Helper 🤲 domain #FFFFFA
+    participant "Helper" as script
+    participant "$.Chat" as chat
+end box
+
+activate broker
+    broker --> script: Invited 🐌
+deactivate broker
+
+activate script
+    script -> chat: CHAT 💾
+deactivate script
+
+@enduml 
