@@ -1,0 +1,36 @@
+# 😃📃 Talker.Talkers 🪣 table
+
+> Purpose
+* Maps the [Script 📃](<../../Scripts 📃/Script 📃.md>) 
+    * to [`RUN`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>) internally by the [`TALK`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/TALK 😃/😃 TALK ⌘ cmd.md>) command
+    * upon the [`Hello@Host` 🅰️ method](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>) 
+    * depending on the [Locator 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) key.
+
+## Schema
+
+Here's the [Itemized 🪣 dataset](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) schema
+
+```yaml
+Prefix: Talker
+Name: Talkers
+Key: Domain, Schema
+```
+
+## Example
+
+Here's the [`READ`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) output.
+
+```yaml
+Domain: any-domain.dom
+Key: ANY-KEY
+Language: en-us
+Script: Any-Script
+```
+
+Property | Type | Details | Origin | Purpose
+|-|-|-|-|-
+| `Domain` | text | [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name  || [`Hello@`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
+| `Key`| text | [Locator 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) key || [`Hello@`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
+| `Script` | text | [Script 📃](<../../Scripts 📃/Script 📃.md>) to [`RUN`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>) || [`Hello@`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
+| `Language`| text | [`.Translate`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Translate}.md>) language || [`Prompt@`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
+|

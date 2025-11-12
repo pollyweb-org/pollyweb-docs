@@ -402,23 +402,23 @@ Successful Tests:
 
   TABLES 🪣:
 
-  - Given: '{{TalkerHooks table}}' 
-    LinkText: '`TalkerHooks` 🪣 table'
-    LinkFile: '😃 TalkerHooks 🪣 table.md'
+  - Given: '{{Talker.Hooks table}}' 
+    LinkText: '`Talker.Hooks` 🪣 table'
+    LinkFile: '😃 Talker.Hooks 🪣 table.md'
     Reasons:
       It's under a "*tables*" folder,
       the file name contains the emoji "🪣",
       and the file name ends with "table.md".
 
-  - Given: '{{TalkerHolders table}}' 
-    LinkText: '`TalkerHolders` 🪣 table'
-    LinkFile: '😃 TalkerHolders 🪣 table.md'
+  - Given: '{{Talker.Holders table}}' 
+    LinkText: '`Talker.Holders` 🪣 table'
+    LinkFile: '😃 Talker.Holders 🪣 table.md'
     Reasons: same as {{TalkerHooks table}}.
 
-  - Given: '{{BrokerChats table}}'
-    LinkText: '`BrokerChats` 🪣 table'
-    LinkFile: '🤵 BrokerChats 🪣 table.md'
-    Reasons: same as {{TalkerHooks table}}.
+  - Given: '{{Broker.Chats table}}'
+    LinkText: '`Broker.Chats` 🪣 table'
+    LinkFile: '🤵 Broker.Chats 🪣 table.md'
+    Reasons: same as {{Talker.Hooks table}}.
 
   FLOWS ⏩:
 

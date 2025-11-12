@@ -21,7 +21,7 @@ Children:
 
 | Link | Table | Contains
 |-|-|-
-| Children | [`Wallets` 🪣](<../Wallets 🧑‍🦰 table/🤵 BrokerWallets 🪣 table.md>) | [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
+| Children | [`Wallets` 🪣](<../Wallets 🧑‍🦰 table/🤵 Broker.Wallets 🪣 table.md>) | [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 |
 
 <br/>
