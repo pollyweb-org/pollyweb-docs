@@ -31,7 +31,7 @@ Inputs | Purpose | Examples
 
 # Try to get the domain, if it exists
 - READ >> $domain:
-    Set: BrokerDomains
+    Set: Broker.Domains
     Key: $Name
     Default: 
         Domain: $Name

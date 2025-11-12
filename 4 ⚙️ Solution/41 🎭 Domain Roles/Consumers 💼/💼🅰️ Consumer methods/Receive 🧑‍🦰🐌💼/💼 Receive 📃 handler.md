@@ -29,7 +29,7 @@ but it may have been compromised.
 
 # Resolve the callback
 - READ >> $hook
-    Set: TalkerHooks
+    Set: Talker.Hooks
     Key: $.Msg.Hook
 
 # Verify the Wallet signature

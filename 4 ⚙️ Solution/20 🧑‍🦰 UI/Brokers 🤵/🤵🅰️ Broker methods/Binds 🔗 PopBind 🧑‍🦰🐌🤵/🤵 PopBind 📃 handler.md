@@ -19,7 +19,7 @@
 
 # Get the Wallet 🧑‍🦰
 - READ >> $wallet:
-    Set: BrokerWallets
+    Set: Broker.Wallets
     Key: $.Msg.Header.From 
 
 # Verify the Message
@@ -31,7 +31,7 @@
 
     BIND: 
         - READ >> $bind
-            Set: BrokerBinds
+            Set: Broker.Binds
             Key: $.Msg.Key
         - RUN|Pop-Bind($wallet, $bind)
 
@@ -43,19 +43,19 @@
 
     ISSUER: 
         - READ >> $issuer
-            Set: BrokerDomains
+            Set: Broker.Domains
             Key: $.Msg.Key
         - RUN|Pop-Issuer($wallet, $issuer)
 
     TOKEN: 
         - READ >> $token
-            Set: BrokerTokens
+            Set: Broker.Tokens
             Key: $.Msg.Key
         - RUN|Pop-Token($wallet, $token)
              
     VAULT:  
         - READ >> $vault
-            Set: BrokerDomains
+            Set: Broker.Domains
             Key: $.Msg.Key
         - RUN|Pop-Vault($wallet, $vault)
 ```

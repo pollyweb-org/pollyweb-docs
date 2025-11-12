@@ -18,7 +18,7 @@
 
 # Get the alias.
 - READ >> $alias:
-    Set: PrinterAliases
+    Set: Printer.Aliases
     Key: $.Msg.Alias
 
 # Return the locator

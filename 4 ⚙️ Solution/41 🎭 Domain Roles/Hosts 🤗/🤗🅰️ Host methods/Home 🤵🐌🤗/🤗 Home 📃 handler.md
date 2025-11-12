@@ -10,7 +10,7 @@
 
 # Get the Chat
 - READ >> $chat:
-    Set: HostChats
+    Set: Host.Chats
     Key: $.Msg.Chat
 
 # Start a Chat for the locator

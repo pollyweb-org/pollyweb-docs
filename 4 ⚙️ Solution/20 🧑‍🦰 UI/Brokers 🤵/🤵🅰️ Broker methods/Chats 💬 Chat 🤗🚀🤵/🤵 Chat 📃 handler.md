@@ -24,7 +24,7 @@
 
 # Get the chatter item
 - READ >> $chatter:
-    Set: BrokerChatters
+    Set: Broker.Chatters
     Key: 
         Domain: $.Msg.From
         Chat: $.Msg.Chat

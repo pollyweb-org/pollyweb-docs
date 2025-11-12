@@ -79,7 +79,7 @@
 
     # Get the WalletID from the message 
     - READ >> $wallet:
-        Set: BrokerWallets
+        Set: Broker.Wallets
         Key: $.Msg.Header.From
 
     # Verify the Message.
@@ -105,7 +105,7 @@
     
     # Get the Chat item 
     - READ >> $chat
-        Set: HostChats
+        Set: Host.Chats
         Key: $.Msg.Body.Chat
 
     # Verify the Message.

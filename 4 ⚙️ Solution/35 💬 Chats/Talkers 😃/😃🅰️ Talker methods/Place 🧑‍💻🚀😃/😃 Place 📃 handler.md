@@ -23,7 +23,7 @@
     
 # Verify if the Chat exists
 - READ >> $chat:
-    Set: HostChats
+    Set: Host.Chats
     Key: $.Msg.Chat
 
 # Save the holder

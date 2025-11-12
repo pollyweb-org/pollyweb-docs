@@ -23,7 +23,7 @@
 
 # Get the prompt
 - READ >> $prompt:
-    Set: HostPrompts
+    Set: Host.Prompts
     Key: $.Msg.Prompt
 
 # Verify the message

@@ -19,7 +19,7 @@
 
 # Get the thread
 - READ >> $thread:
-    Set: LoggerThreads
+    Set: Logger.Threads
     Key: $.Msg.Thread
 
 # Assert the sender

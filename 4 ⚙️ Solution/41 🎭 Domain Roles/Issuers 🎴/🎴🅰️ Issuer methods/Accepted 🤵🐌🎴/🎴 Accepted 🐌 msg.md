@@ -40,7 +40,7 @@ Body:
 ```yaml
 # Get the Hook
 - READ >> $hook:
-    Set: TalkerHooks
+    Set: Talker.Hooks
     Key: $.Msg.Hook
 
 # Assert if it's the right Broker

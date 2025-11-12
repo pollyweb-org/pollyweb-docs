@@ -26,7 +26,7 @@
 
 # Get the holder
 - READ >> $holder:
-    Set: TalkerHolders
+    Set: Talker.Holders
     Key: 
         Chat: $.Msg.Chat
         Holder: $.Msg.Holder
