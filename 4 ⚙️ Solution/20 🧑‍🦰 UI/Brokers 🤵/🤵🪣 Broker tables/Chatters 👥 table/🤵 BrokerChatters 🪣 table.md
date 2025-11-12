@@ -4,7 +4,6 @@
 
 > Stores [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) participants
 
-<br/>
 
 ## Usage
 
@@ -18,7 +17,6 @@
 
 <!-- TODO: Add missing Disclosure@Vault above -->
 
-<br/>
 
 ## Schema
 
@@ -40,7 +38,6 @@ Parents:
 |           | [`Domains` 🪣](<../Domains 👥 table/🤵 BrokerDomains 🪣 table.md>) | [domains 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
 |
 
-<br/>
 
 ## Example
 
@@ -71,8 +68,14 @@ Tokens:
 
 Property|Type|Details|Origin|Purpose
 |-|-|-|-|-
-|`Chat`|uuid|[Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID | 
-|`Domain`|text|[domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name|
-|`Role`|text|Role in [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)||[`Chat@`](<../../🤵🅰️ Broker methods/Chats 💬 Chats 🧑‍🦰🚀🤵/🤵 Chats 🚀 request.md>) [`Prompt@`](<../../🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
-|`Tokens` | list | [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) shared |[`Assess@`](<../../🤵🅰️ Broker methods/Locators 🔆 Assess 🧑‍🦰🐌🤵/🤵 Assess 🐌 msg.md>) | [`Introduced@`](<../../🤵🅰️ Broker methods/Chats 💬 Introduced 🔎🐌🤵/🤵 Introduced 🐌 msg.md>)
+|`Role`|text|Role in [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)|-|[`Chat@`](<../../🤵🅰️ Broker methods/Chats 💬 Chats 🧑‍🦰🚀🤵/🤵 Chats 🚀 request.md>) [`Prompt@`](<../../🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
+| ||- `HOST` role | [`Assess@`](<../../🤵🅰️ Broker methods/Locators 🔆 Assess 🧑‍🦰🐌🤵/🤵 Assess 🐌 msg.md>) | -
+| ||- `HELPER` role | [`Invite@`](<../../🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>) | -
+| ||- `VAULT` role | [`Query@`](<../../🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) |-
+|`Chat`|uuid|[Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID | -|[`Chat@`](<../../🤵🅰️ Broker methods/Chats 💬 Chats 🧑‍🦰🚀🤵/🤵 Chats 🚀 request.md>)
+|`Domain`|text|[domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name|-|[`Chat@`](<../../🤵🅰️ Broker methods/Chats 💬 Chats 🧑‍🦰🚀🤵/🤵 Chats 🚀 request.md>)
+|`Key`| text | [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) key |-| [`Chat@`](<../../🤵🅰️ Broker methods/Chats 💬 Chats 🧑‍🦰🚀🤵/🤵 Chats 🚀 request.md>) |
+|`Parameters` | pairs | [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) parameters |-| [`Chat@`](<../../🤵🅰️ Broker methods/Chats 💬 Chats 🧑‍🦰🚀🤵/🤵 Chats 🚀 request.md>)
+|`Binds`|list| [Binds 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) shared | - | [`Chat@`](<../../🤵🅰️ Broker methods/Chats 💬 Chats 🧑‍🦰🚀🤵/🤵 Chats 🚀 request.md>)
+|`Tokens` | list | [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) shared |- | [`Introduced@`](<../../🤵🅰️ Broker methods/Chats 💬 Introduced 🔎🐌🤵/🤵 Introduced 🐌 msg.md>)
 |

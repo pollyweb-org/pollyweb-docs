@@ -22,7 +22,9 @@
     | `PUT\|$in >> $out` | Puts the content of a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) in another
     || Equals `PUT >> $out: $in`
     | `PUT\|*{$in}* >> $out` | Interpolates [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) into a [Text 🧠 holder](<../../../📃 Holders 🧠/🧠 Holder types/Text holders.md>)
-    || Equals `PUT >> $out: *{$in}*`
+    || Equals `PUT >> $out: *{$in}*`    
+    | `PUT\|$obj >> $out: *` | Formats [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) properties with [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>)
+    || Equals [`EVAL`](<../EVAL 🧮/🧮 EVAL ⌘ cmd.md>)`\|`[`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>)` >> $out: $obj,*`
     | `PUT\|$lst >> $out: *` | Formats a [List 🧠 holder](<../../../📃 Holders 🧠/🧠 Holder types/List holders.md>) with [`.Format`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Format}.md>)
     || Equals [`EVAL`](<../EVAL 🧮/🧮 EVAL ⌘ cmd.md>)`\|`[`.Format`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Format}.md>)` >> $out: $lst,*`
     | `PUT\|* +> $lst` | Appends items to a [List 🧠 holder](<../../../📃 Holders 🧠/🧠 Holder types/List holders.md>) with [`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>)
