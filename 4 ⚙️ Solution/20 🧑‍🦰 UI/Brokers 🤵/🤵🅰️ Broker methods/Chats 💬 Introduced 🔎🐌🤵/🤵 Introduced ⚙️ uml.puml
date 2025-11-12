@@ -1,24 +1,36 @@
-@startuml Introduce@Broker
+@startuml Introduced@Broker
+' ------------
 
- 
-participant "Wallet 👱" as wallet
+participant "Finder 🔎" as finder
 
-box Broker 🤵 domain #FFFFFA
-    participant "Chats@ 📃" as broker
-    participant "Wallets 🪣" as wallets
+box "Broker 🤵 domain"  #FFFFFA
+    participant "Introduced@ 📃" as broker
     participant "Chats 🪣" as chats
+    participant "Binds 🪣" as binds
+    participant "Tokens 🪣" as tokens
 end box
 
-activate wallet
-wallet -> broker: Chats 🚀 {wallet}
+'box "User Interface (UI)"  #FFFFFF
+  participant "Wallet 👱" as wallet
+'  participant "Notifier 📣\nbff" as notifier
+'end box
 
-    activate broker
-        broker -> wallets: READ 🧲
-        broker -> chats: 
-        
-        broker -> wallet: RETURN {$wallet.Chats}
-    deactivate broker
+'participant "Printer 🖨️\nsupplier" as printer
+participant "Host 🤗" as host
+    
 
-deactivate wallet
+activate finder
+    finder --> broker : Introduced 🐌
+deactivate finder
 
-@enduml 
+activate broker
+    broker -> chats: READ
+    broker -> binds: 
+    broker -> tokens: 
+    broker --> wallet: INFO ⓘ {origin}
+    broker --> wallet: INFO ⓘ {tokens}
+    broker --> host: SEND 🐌 Hello 
+deactivate broker
+
+
+@enduml

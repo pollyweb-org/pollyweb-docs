@@ -27,7 +27,6 @@ Header:
 Body:
     Language: en-us
     Chat: <chat-uuid>
-    PublicKey: <public-key>
     Schema: nlweb.dom/THING
     Key: MY-THING-ID
     Binds: 
