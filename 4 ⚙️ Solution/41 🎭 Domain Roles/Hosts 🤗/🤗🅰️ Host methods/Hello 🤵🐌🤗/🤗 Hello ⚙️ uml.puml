@@ -17,8 +17,8 @@ deactivate broker
 activate handler
     handler -> engine: VERIFY {$.Msg}
     handler -> engine: TRUSTS {$.Msg.From}
-    handler -> engine: CHAT {$.Msg.Body}
-    handler --> engine: TALK {schema, key}
+    handler -> engine: CHAT {$.Msg.Chat}
+    handler --> engine: TALK 
 deactivate handler
 
 activate engine
