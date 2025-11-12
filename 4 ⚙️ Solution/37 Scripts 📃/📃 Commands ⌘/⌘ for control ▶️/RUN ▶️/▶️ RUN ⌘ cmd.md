@@ -18,37 +18,32 @@
 
     > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) syntax.
 
-    ```yaml
-    # Simplest in-line
-    - RUN|<script>
+    |Syntax | Behavior
+    |-|-
+    |`RUN\|script` | Runs the `script` [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
+    |`RUN: script` | Equals `RUN\|script`
+    |`RUN\|$holder` | Runs the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) named by the [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)
+    |`RUN\|script: *` | Runs `script` with [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>)(`*`) inputs
+    |`RUN\|script(*)` | Same as `RUN\|script: *`
+    |`RUN\|s1(*),s2(*)` | Runs the `s1` and `s2` [Scripts 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) in sequence
+    |`RUN: s1(*),s2(*)` | Equals `RUN\|s1(*),s2(*)`
+    |`RUN\|script >> $out` | Puts the [`RETURN`](<../RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) in the `$out` [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)
+    |`RUN\|script >> $out: *` | Runs `script` with `*` args into `$out` 
+    |`RUN\|script(*) >> $out` | Same as `RUN\|script >> $out: *`
+    
+    ---
+    <br/>
 
-    # Simplest multi-line
-    - RUN:
-        <script>
-
-    # In batch
-    - RUN:
-        - <script-1>
-        - <script-n>
-
-    # Comprehensive in line args
-    - RUN|<script>($arg-1, $arg-n) >> $return
-
-    # Comprehensive appended args
-    - RUN|<script> >> $return:
-        {args}
-    ```
+1. **What do the inputs mean?**
 
     | Input| Purpose | Example
     |-|-| -
-    | `<script>`| [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to run | `MyScript`
-    | `$arg-n`  | Optional positional arguments | `1,2` `s,$p`
-    |           | Reads `$n`  inside the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) | `$1` `$2`
-    |           | Also replicates [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) names  | `$A` 
-    | `{args}`| Optional object arguments | `{A:1, B:2}`
-    | | Reads `$name` in the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) | `$A` `$B`|
-    | | Also reads with [`{.Inputs}`](<../../../📃 Holders 🧠/🧠 System holders/$.Inputs ▶️/▶️ $.Inputs 🧠 holder.md>) | `.Inputs.A`
-    | `$return`| Optional [`RETURN`](<../RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) holder | `$return`
+    | `script`| [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to execute | `MyScript`
+    | `$out`| Optional [`RETURN`](<../RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) holder | `$return`
+    | `*`  | Optional inputs to [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) | `1,2` `A,$B` `{A:1,$B}`
+    |           | Read `$n`  inside the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) | `$1` `$2`
+    | | Read `$name` in the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) | `$B`|
+    | | Read with [`{.Inputs}`](<../../../📃 Holders 🧠/🧠 System holders/$.Inputs ▶️/▶️ $.Inputs 🧠 holder.md>) | `.Inputs.B` `$.Inputs.B`
     
     ---
     <br/>
