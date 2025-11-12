@@ -23,7 +23,7 @@
 ## Script
 
 ```yaml
-📃 Access@Broker:
+📃 Assess@Broker:
 
 # Verify the required inputs
 - ASSERT|$.Msg:
