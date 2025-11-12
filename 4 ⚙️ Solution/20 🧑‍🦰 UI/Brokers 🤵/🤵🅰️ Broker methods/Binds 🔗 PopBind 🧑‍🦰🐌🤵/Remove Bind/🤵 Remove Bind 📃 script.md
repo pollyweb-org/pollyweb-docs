@@ -25,9 +25,9 @@
     AllOf: Wallet
 
 # Get the Vault 
-- READ >> $vault:
-    Set: $Wallet.Vaults
-    Key: $.Msg.Body.Key
+- SELECT >> $vault:
+    From: $Wallet.Vaults
+    Where: Domain.Is($.Msg.Body.Key)
 
 # Ask for confirmation 🤔
 - CONFIRM|Unbind vault {$vault.Title}?

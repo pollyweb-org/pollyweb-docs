@@ -30,7 +30,7 @@
 
 # Read the chat
 - READ >> $chat:
-    Set: BrokerChats
+    Set: Broker.Chats
     Key: $.Msg.Chat
 
 # Load the chat

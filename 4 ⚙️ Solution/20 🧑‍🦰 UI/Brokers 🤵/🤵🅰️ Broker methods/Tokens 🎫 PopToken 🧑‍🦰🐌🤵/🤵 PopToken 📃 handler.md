@@ -18,7 +18,7 @@
 
 # Get the Token 🎫
 - READ >> $token:
-    Set: BrokerTokens
+    Set: Broker.Tokens
     Key: $Token
 
 # Verify the Message

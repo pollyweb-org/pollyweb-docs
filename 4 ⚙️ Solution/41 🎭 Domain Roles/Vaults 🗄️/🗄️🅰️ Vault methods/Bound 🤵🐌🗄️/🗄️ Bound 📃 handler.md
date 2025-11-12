@@ -27,7 +27,7 @@
 
 # Resolve the callback
 - READ >> $hook:
-    Set: TalkerHooks
+    Set: Talker.Hooks
     Key: $.Msg.Hook
 
 # Confirm it's the same Broker

@@ -23,7 +23,7 @@
 
 # Get the chat
 - READ >> $chat:
-    Set: BrokerChats
+    Set: Broker.Chats
     Key: $.Msg.Chat
 
 # Assert it's the host

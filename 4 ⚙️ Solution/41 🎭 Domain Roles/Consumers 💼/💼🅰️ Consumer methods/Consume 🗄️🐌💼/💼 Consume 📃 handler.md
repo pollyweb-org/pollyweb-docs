@@ -24,7 +24,7 @@
     
 # Get the hook
 - READ >> $hook:
-    Set: TalkerHooks
+    Set: Talker.Hooks
     Key: $.Msg.Hook
 
 # Is it the expected vault?

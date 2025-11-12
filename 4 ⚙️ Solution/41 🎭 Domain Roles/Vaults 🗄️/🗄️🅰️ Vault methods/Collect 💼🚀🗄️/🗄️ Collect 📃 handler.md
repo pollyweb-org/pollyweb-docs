@@ -26,7 +26,7 @@
 
 # Get the collect
 - READ >> $collect:
-    Set: VaultCollects
+    Set: Vault.Collects
     Key: $.Msg.Collect
 
 # Assert the Consumer

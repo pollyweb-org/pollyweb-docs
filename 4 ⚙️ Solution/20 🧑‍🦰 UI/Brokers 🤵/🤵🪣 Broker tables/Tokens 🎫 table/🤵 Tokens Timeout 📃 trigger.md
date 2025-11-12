@@ -26,7 +26,7 @@
 
 # Get the Wallet 🧑‍🦰
 - READ >> $wallet:
-    Set: BrokerWallets
+    Set: Broker.Wallets
     Key: $Item.Wallet
 
 # Remove from Wallet

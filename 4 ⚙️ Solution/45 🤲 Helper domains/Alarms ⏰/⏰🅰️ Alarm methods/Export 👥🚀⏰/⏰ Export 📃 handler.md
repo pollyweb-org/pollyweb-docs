@@ -13,7 +13,7 @@
 
 # Get all the alarms
 - READ >> $alarms:
-    Set: AlarmDomain
+    Set: Alarm.Domains
     Key: $.Msg.Domain
 
 # Format the list

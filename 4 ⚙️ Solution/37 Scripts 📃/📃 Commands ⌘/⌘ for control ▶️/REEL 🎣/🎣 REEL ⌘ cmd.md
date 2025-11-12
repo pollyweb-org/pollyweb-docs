@@ -81,7 +81,7 @@ then the last 3 will never be executed because REEL will exit the script.
     ```yaml
     # Handler
     - READ >> $hook:
-        Set: TalkerHooks
+        Set: Talker.Hooks
         Key: $.Msg.Hook
     - REEL|$hook
     ```

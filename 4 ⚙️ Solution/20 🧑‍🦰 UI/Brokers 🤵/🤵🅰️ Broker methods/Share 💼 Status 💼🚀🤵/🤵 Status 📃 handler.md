@@ -10,7 +10,7 @@
 
 # Get the Token
 - READ >> $token:
-    Set: BrokerTokens
+    Set: Broker.Tokens
     Key: $.Msg.Token
 
 # Check the trust

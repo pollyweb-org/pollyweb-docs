@@ -23,7 +23,7 @@
 
 # Get the Chat
 - READ >> $chat:
-    Set: BrokerChats
+    Set: Broker.Chats
     Key: $.Msg.Chat
 
 # Get the requested schemas from Tokens+Binds

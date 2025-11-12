@@ -43,7 +43,7 @@ RUN|.CHAT:
 
 # Get the table item, if exists
 - READ >> $chat:
-    Set: HostChats
+    Set: Host.Chats
     Key: 
         Broker: $Broker
         Chat: $Chat

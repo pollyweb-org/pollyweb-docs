@@ -33,7 +33,7 @@
 
 # Get the Wallet item
 - READ >> $wallet:
-    Set: BrokerWallets
+    Set: Broker.Wallets
     Key: $.Msg.From
 
 # Verify the signature
