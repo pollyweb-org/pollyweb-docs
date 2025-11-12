@@ -1,0 +1,22 @@
+@startuml Handle
+
+box Talker 😃 domain #FFFFFA
+    participant "Script 📃" as script
+    participant ".TALK 📃" as talk
+    participant "Talkers 🪣" as talkers
+    participant "Talker 📃" as talker
+end box
+
+
+activate script
+    script -> talk: TALK 😃
+deactivate script
+
+activate talk
+    talk -> talkers: READ 🧲
+    talk -> talker: RUN {$talker.Script}
+deactivate talk
+
+activate talker
+    
+@enduml
