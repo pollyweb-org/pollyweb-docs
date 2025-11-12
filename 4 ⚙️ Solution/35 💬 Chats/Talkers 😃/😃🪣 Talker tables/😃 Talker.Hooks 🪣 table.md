@@ -1,7 +1,7 @@
 
 <!-- TODO: -->
 
-# 😃🪣 Hooks @ Talker 🪝
+# 😃🪝 Talker.Hooks 🪣 table 
 
 > Used in [`Bound@Vault`](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
 
@@ -21,7 +21,7 @@ Children:
 
 | Relationship | Table | Contains
 |-|-|-
-| Children | [`Holders`](<😃 TalkerHolders 🪣 table.md>)
+| Children | [`Holders`](<😃 Talker.Holders 🪣 table.md>)
 
 ## Example
 

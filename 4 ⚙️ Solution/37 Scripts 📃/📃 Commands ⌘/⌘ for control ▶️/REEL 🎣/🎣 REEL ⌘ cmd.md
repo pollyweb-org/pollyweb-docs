@@ -47,7 +47,7 @@ then the last 3 will never be executed because REEL will exit the script.
 
     | Input| Purpose |
     |-|-
-    | `$hook`| [Hooks 🪣 item](<../../../../35 💬 Chats/Talkers 😃/😃🪣 Talker tables/😃 TalkerHooks 🪣 table.md>) saved by the [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | -
+    | `$hook`| [Hooks 🪣 item](<../../../../35 💬 Chats/Talkers 😃/😃🪣 Talker tables/😃 Talker.Hooks 🪣 table.md>) saved by the [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | -
     | `{response}` | [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) output to a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)
 
     ---
@@ -88,7 +88,7 @@ then the last 3 will never be executed because REEL will exit the script.
 
     | [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | Purpose
     |-|-
-    | 🧲 [`READ`](<../../⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) | Get the [`Hook` 🪣](<../../../../35 💬 Chats/Talkers 😃/😃🪣 Talker tables/😃 TalkerHooks 🪣 table.md>) from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>)  
+    | 🧲 [`READ`](<../../⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) | Get the [`Hook` 🪣](<../../../../35 💬 Chats/Talkers 😃/😃🪣 Talker tables/😃 Talker.Hooks 🪣 table.md>) from [`Bindable@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>)  
     
 
     ---
