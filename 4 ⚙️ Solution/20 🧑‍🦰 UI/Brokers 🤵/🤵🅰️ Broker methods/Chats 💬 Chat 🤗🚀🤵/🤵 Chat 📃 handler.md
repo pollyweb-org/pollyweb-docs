@@ -29,9 +29,11 @@
         Domain: $.Msg.From
         Chat: $.Msg.Chat
 
-# Prepare the response
+# Add the Chat details to the response
 - SET|$chatter.Chat >> $resp:
     ID, PublicKey, Language, Timezone
+
+# Add the Chatter details to the response
 - SET|$chatter >> $resp:
     Key, Properties, Binds, Tokens
 

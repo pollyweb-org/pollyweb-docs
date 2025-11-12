@@ -23,9 +23,13 @@
     | `SET\|$in: *` | Changes a [Pair 🧠 holder](<../../../📃 Holders 🧠/🧠 Holder types/Pair holders.md>) with [`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>)
     || Equals [`EVAL`](<../EVAL 🧮/🧮 EVAL ⌘ cmd.md>)`\|`[`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>)`>> $in: $in,*`
     |`SET\|$in.f(*)`| Sets a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) to the [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) result
-    || Equals [`PUT`](<../PUT ⬇️/⬇️ PUT ⌘ cmd.md>)`\|$in.f(*) >> $in`
-    | `SET\|$in >> $out` | Equals [`PUT`](<../PUT ⬇️/⬇️ PUT ⌘ cmd.md>)`\|$in >> $out`
-    | `SET\|* >> $out` | Equals [`PUT`](<../PUT ⬇️/⬇️ PUT ⌘ cmd.md>)`\|* >> $out`
+    || Equals [`EVAL`](<../EVAL 🧮/🧮 EVAL ⌘ cmd.md>)`\|`[`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>)`($in,$in.f(*)) >> $in`
+    | `SET\|$in >> $out` | Adds `$in` to `$out`
+    || Equals [`EVAL`](<../EVAL 🧮/🧮 EVAL ⌘ cmd.md>)`\|`[`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>)`($out,$in) >> $out`
+    | `SET\|$in >> $out: *` | Adds parts of `$in` into `$out`
+    || Equals [`EVAL`](<../EVAL 🧮/🧮 EVAL ⌘ cmd.md>)`\|`[`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>)`>> $out: $in,*`
+    | `SET\|* >> $out` | Replaces the content of `$out` with `*`
+    || Equals [`PUT`](<../PUT ⬇️/⬇️ PUT ⌘ cmd.md>)`\|* >> $out`
     
     
 
@@ -36,6 +40,8 @@
 
 1. **How to change a single property in a $holder?**
   
+    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) syntax.
+
     Here's the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
 
     ```yaml
