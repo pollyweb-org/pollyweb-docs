@@ -24,7 +24,7 @@
 | | | 🔆 [scan](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) |
 | 🔎 [Finder](<../../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | ⓘ Any Host (4.8 ⭐) [+]
 | 🤵 [Broker](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | ⓘ From another chat: <br/>- [Return] to original chat
-| 🤵 [Broker](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | ⓘ Tokens shared [+]
+| 🤵 [Broker](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | ⓘ Tokens shared [-]<br/>- 🎟️ Any Token, by Any Issuer<br/>- 🪪 Another Token, by Another Issuer
 | 🤗 [Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | ℹ️ Received context [+]
 | 🤗 [Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | 😃 Hi! What do you need? <br/>- [ Bla ] <br/>- [ Something else ] | > Bla
 ||

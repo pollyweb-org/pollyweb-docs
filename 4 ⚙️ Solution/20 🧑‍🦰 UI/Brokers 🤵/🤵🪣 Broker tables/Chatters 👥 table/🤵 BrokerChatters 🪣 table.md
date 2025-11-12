@@ -16,6 +16,8 @@
 | [Vault 🗄️](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) | [`Query@Broker`](<../../🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) | [`Disclose@Vault`](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Disclose 🤵🐌🗄️/🗄️ Disclose 🐌 msg.md>) | Missing 🚨
 |
 
+<!-- TODO: Add missing Disclosure@Vault above -->
+
 <br/>
 
 ## Schema
@@ -48,4 +50,29 @@ Here's the [`READ` command](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ f
 Chat: <chat-uuid>
 Domain: any-host.dom
 Role: HOST # one of HOST, VAULT, HELPER
+
+# Locator info
+Key: ANY-LOCATOR
+Parameters: {A:1, B:2}
+
+# Shared binds (if any)
+Binds:
+  - Title: 🔗 Any Bind, by Any Vault
+    Bind: <bind-A-uuid>
+
+# Shared tokens (if any)
+Tokens:
+  - Title: 🎟️ Any Token, by Any Issuer
+    Token: <token-A-uuid>
+  - Title: 🪪 Another Token, by Another Issuer
+    Token: <Token-B-uuid>
 ```
+
+
+Property|Type|Details|Origin|Purpose
+|-|-|-|-|-
+|`Chat`|uuid|[Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID | 
+|`Domain`|text|[domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name|
+|`Role`|text|Role in [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)||[`Chat@`](<../../🤵🅰️ Broker methods/Chats 💬 Chats 🧑‍🦰🚀🤵/🤵 Chats 🚀 request.md>) [`Prompt@`](<../../🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
+|`Tokens` | list | [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) shared |[`Assess@`](<../../🤵🅰️ Broker methods/Locators 🔆 Assess 🧑‍🦰🐌🤵/🤵 Assess 🐌 msg.md>) | [`Introduced@`](<../../🤵🅰️ Broker methods/Chats 💬 Introduced 🔎🐌🤵/🤵 Introduced 🐌 msg.md>)
+|

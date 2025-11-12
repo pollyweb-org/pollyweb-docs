@@ -29,9 +29,9 @@
 
     |Input|Purpose||
     |-|-|-
-    | `All` | Uses [`.Extract`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Extract}.md>) to extract item properties
-    | `First` | Uses [`.First`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.First}.md>) to return only the 1st item
-    | `Last` | Uses [`.Last`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>) to return only the last item
+    | `All` | Uses [`.Format`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Format}.md>) to format item properties
+    | `First` | Uses [`.First`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.First}.md>) and [`.Format`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Format}.md>) on the 1st item
+    | `Last` | Uses [`.Last`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>) and [`.Format`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Format}.md>) on the last item
     | `Distinct` | Uses [`.Distinct`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Distinct}.md>) to group results 
     | `From` | Uses [`.Cross`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Cross}.md>) to join [List 🧠 holders](<../../../📃 Holders 🧠/🧠 Holder types/List holders.md>)
     | `Where` | Uses [`.Filter`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Filter}.md>) to filter [List 🧠](<../../../📃 Holders 🧠/🧠 Holder types/List holders.md>) items 
