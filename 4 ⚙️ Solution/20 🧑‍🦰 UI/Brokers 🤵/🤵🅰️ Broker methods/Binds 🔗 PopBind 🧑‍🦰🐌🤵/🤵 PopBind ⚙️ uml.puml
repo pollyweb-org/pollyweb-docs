@@ -1,10 +1,11 @@
-@startuml PopBind@Vault -> Remove Bind 
+@startuml PopBind@Vault
 ' TODO
  
 participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
-    participant "Script 📃" as script
+    participant "Broker 🤵" as broker
+    participant "PopBind@ 📃" as script
     'participant "Wallets 🪣" as wallets
     participant "Binds 🪣" as binds
 end box
@@ -12,8 +13,12 @@ end box
 participant "Vault 🗄️" as vault
 
 activate wallet 
-    wallet --> script: {Remove Bind}
+    wallet --> broker: PopBind 🐌
 deactivate wallet
+
+activate broker
+    broker -> script: 
+deactivate broker
 
 activate script
     script -> binds: READ 🧲

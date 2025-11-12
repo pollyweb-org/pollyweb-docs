@@ -1,69 +1,35 @@
 # 🤵📃 Pop handler
 
-> [Script 📃](<🤵 PopBind 🐌 msg.md>) that implements the [`Pop@Broker` 🅰️ method](<🤵 PopBind 🐌 msg.md>)
+> Purpose
+* [Script 📃](<🤵 PopBind 🐌 msg.md>) that implements the [`Pop@Broker` 🅰️ method](<🤵 PopBind 🐌 msg.md>)
 
-<br/>
 
 ## Script
 
 <!-- TODO: Finish the code -->
 
 ```yaml
-📃 Pop: 
+📃 PopBind: 
 
 # Assert $.Msg
 - ASSERT|$.Msg:
-    - AllOf: Hook, Key, Context
-    - UUIDs: Hook, Key
-    - Context.IsIn(BIND,HOST,ISSUER,TOKEN,VAULT)
+    - AllOf: Hook, Bind
+    - UUIDs: Hook, Bind
 
-# Get the Wallet 🧑‍🦰
-- READ >> $wallet:
-    Set: Broker.Wallets
-    Key: $.Msg.Header.From 
+# Get the Bind
+- READ >> $bind:
+    Set: Broker.Binds
+    Key: $.Msg.Bind
 
 # Verify the Message
 - VERIFY|$.Msg:
-    Key: $wallet.PublicKey
+    Key: $bind.Wallet.PublicKey
 
-# Handle the context
-- CASE|$.Msg.Context:
-
-    BIND: 
-        - READ >> $bind
-            Set: Broker.Binds
-            Key: $.Msg.Key
-        - RUN|Pop-Bind($wallet, $bind)
-
-    HOST: 
-        - READ >> $host
-            Set: BrokerDomains
-            Key: $.Msg.Key
-        - RUN|Pop-Host($wallet, $host)
-
-    ISSUER: 
-        - READ >> $issuer
-            Set: Broker.Domains
-            Key: $.Msg.Key
-        - RUN|Pop-Issuer($wallet, $issuer)
-
-    TOKEN: 
-        - READ >> $token
-            Set: Broker.Tokens
-            Key: $.Msg.Key
-        - RUN|Pop-Token($wallet, $token)
-             
-    VAULT:  
-        - READ >> $vault
-            Set: Broker.Domains
-            Key: $.Msg.Key
-        - RUN|Pop-Vault($wallet, $vault)
 ```
 
-Uses: [`ASSERT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CASE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`READ`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`VERIFY`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>)
-
-| Scripts | Details
+Uses||
 |-|-
-| [▶️ `PopToken`](<../Tokens 🎫 PopToken 🧑‍🦰🐌🤵/🤵 PopToken 📃 handler.md>) | Implements [🧑‍🦰💬🤵 Remove Token 🎫](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Tokens 🎫/Remove 💬🎫🤵 /🧑‍🦰 Remove Token ⏩ flow.md>)
-| [▶️ `PopVault`](<Remove Bind/🤵 Remove Bind 📃 script.md>) | Implements [🧑‍🦰💬🤵 Unbind Vault](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Vaults 🗄️/Unbind 💬🗄️🤵 /🧑‍🦰 Unbind Vault ⏩ flow.md>)
+|[Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`READ`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`VERIFY`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>)
+| [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Broker.Binds` 🪣 table](<../../🤵🪣 Broker tables/Binds 🔗 table/🤵 Broker.Binds 🪣 table.md>)
+| [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | [`$.Msg` 🧠 holder](<../../../../37 Scripts 📃/📃 Holders 🧠/🧠 System holders/$.Msg 📨/📨 $.Msg 🧠 holder.md>)
 |

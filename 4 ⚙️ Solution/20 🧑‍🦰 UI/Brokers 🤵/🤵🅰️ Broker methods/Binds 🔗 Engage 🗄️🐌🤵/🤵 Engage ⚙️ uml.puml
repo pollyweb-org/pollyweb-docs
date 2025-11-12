@@ -1,0 +1,26 @@
+@startuml Engage@Broker
+
+participant "Vault 🗄️" as vault
+
+box "Broker 🤵" #FFFFFA
+    participant "Handler 📃" as broker
+    participant "Bind 🪣" as binds
+end box
+
+participant "Notifier 📣" as notifier
+participant "Wallet 👱" as wallet
+
+activate  vault
+    vault --> broker:  Engage 🐌 {locator}
+deactivate vault
+
+activate broker
+    broker -> binds: READ 🧲 {bind}
+    broker --> notifier: SEND 📬 Navigate 🐌
+deactivate broker
+
+activate notifier
+    notifier --> wallet: {locator}
+deactivate notifier
+
+@enduml 

@@ -1,12 +1,10 @@
-# 🧑‍🦰🐌🤵 Pop @ Broker
+# 🧑‍🦰🐌🤵 PopBind @ Broker
 
-> Implemented by [`Pop@Broker` 📃 script](<🤵 PopBind 📃 handler.md>)
+> Implemented by [`PopBind@Broker` 📃 script](<🤵 PopBind 📃 handler.md>)
 
 * Opens a new [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) 
     * with the [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
     * with a given context.
-
-<br/>
 
 ## Chat
 
@@ -18,7 +16,6 @@
 | 🤵 [Broker](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🤗 Hi! What do you need? <br/> - [ Remove ] Token <br/> - [ Something else ] 
 |
 
-<br/>
 
 ## Async Message 🐌
 
@@ -30,8 +27,7 @@ Header:
 
 Body:
     Hook: <hook-uuid>
-    Context: TOKEN
-    Key: <token-uuid>
+    Bind: <bind-uuid>
 ```
 
 | Object | Property | Type |Description|Origin|Purpose
@@ -40,7 +36,6 @@ Body:
 ||`To`|domain| [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Onboard@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
 || `Subject` | string | `Pop@Broker`
 | Body | `Hook` | uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) hook || [`Converse@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Converse 🤵🐌📣/📣 Converse 📣 msg.md>)
-|       | `Context`  | enum | `HOST` `ISSUER` `VAULT` `BIND` `TOKEN` 
-|       | `Key` | uuid   | Optional index for the context
+|| `Bind` | uuid   | [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) ID
 |
 

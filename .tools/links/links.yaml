@@ -61,6 +61,15 @@ Successful Tests:
     LinkFile: "Async Messages 🐌.md"
     Reasons: This is hardcoded.
 
+  - Given: '{{Bind}}'
+    LinkText: "Bind 🔗"
+    LinkFile: "🔗 Bind.md"
+    Reasons: This is hardcoded.
+  - Given: '{{Binds}}'
+    LinkText: "Binds 🔗"
+    LinkFile: "🔗 Bind.md"
+    Reasons: This is hardcoded.
+
   - Given: '{{Broker}}'
     LinkText: "Broker 🤵 domain"
     LinkFile: "🤵 Broker 🤲 helper.md"
