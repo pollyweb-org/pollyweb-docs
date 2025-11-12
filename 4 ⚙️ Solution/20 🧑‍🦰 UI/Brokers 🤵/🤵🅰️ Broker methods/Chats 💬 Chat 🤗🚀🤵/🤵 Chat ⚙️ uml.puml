@@ -6,7 +6,6 @@ participant "Host 🤗" as host
 box Broker 🤵 domain #FFFFFA
     participant "Chat@ 📃" as broker
     participant "Chatters 🪣" as chatters
-    participant "Chats 🪣" as chats
 end box
 
 activate host
@@ -14,8 +13,7 @@ host -> broker: Chat 🚀 {chatID}
 
     activate broker
         broker -> chatters: READ 🧲
-        broker -> chats: 
-        broker -> host: RETURN {details}
+        broker -> host: RETURN {$chatter.Chat.*}
     deactivate broker
 
 deactivate host

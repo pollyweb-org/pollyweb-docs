@@ -47,10 +47,6 @@ Host: any-host.dom
 Host$: Any Host
 Emoji: 😃
 
-# Locator info
-Key: ANY-LOCATOR
-Parameters: {A:1, B:2}
-
 # For Wallets to sign messages
 PrivateKey: <PrivateKey>
 
@@ -59,13 +55,6 @@ PublicKey: <PublicKey>
 
 # Origin chat (if any)
 Origin: <origin-chat-uuid>
-
-# Shared tokens (if any)
-Tokens:
-  - Title: AnyToken, by AnyIssuer
-    Token: <token-A-uuid>
-  - Title: AnotherToken, by AnotherIssuer
-    Token: <Token-B-uuid>
 ```
 
 Property|Type|Details|Origin|Purpose
