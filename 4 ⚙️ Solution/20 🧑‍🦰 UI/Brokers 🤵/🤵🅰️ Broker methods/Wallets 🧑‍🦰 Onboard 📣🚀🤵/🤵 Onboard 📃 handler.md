@@ -18,7 +18,7 @@
 - PUT|.UUID >> $wallet
 
 # Save the Wallet
-- SAVE|BrokerWallets:
+- SAVE|Broker.Wallets:
     Wallet: $wallet
     Notifier: $.Msg.From
     PublicKey: $.Msg.PublicKey

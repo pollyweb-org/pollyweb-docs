@@ -38,7 +38,7 @@
       RETURN
 
 # Save the log entry
-- SAVE|LoggerEntry:
+- SAVE|Logger.Entry:
     Domain: $thread.Domain
     Thread: $thread.ID
     Sent: $.Msg.Header.Timestamp

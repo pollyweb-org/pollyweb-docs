@@ -40,7 +40,7 @@
     Text: Allow {$translation.Domain}?
 
 # Add the participant to the chat
-- SAVE|BrokerChatters:
+- SAVE|Broker.Chatters:
     Chat: $.Msg.Chat
     Domain: $.Msg.Helper
     Role: HELPER

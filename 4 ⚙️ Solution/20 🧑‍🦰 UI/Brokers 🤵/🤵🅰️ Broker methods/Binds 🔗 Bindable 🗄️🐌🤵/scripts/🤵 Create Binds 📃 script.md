@@ -28,7 +28,7 @@
 - PARALLEL|$selected|$schema:
     
     # Save the bind
-    - SAVE|BrokerBinds >> $bind:
+    - SAVE|Broker.Binds >> $bind:
         ID: .UUID
         Vault: $.Msg.Host
         Wallet: $chat.Wallet.ID

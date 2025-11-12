@@ -20,7 +20,7 @@
         Domain: $locator.Host
 
 # Save the Host info
-- SAVE|BrokerDomains:
+- SAVE|Broker.Domains:
     Domain: $domain.Domain
     Domain$: $domain.Name
     SmallIcon: $domain.SmallIcon
@@ -35,7 +35,7 @@
 - KEYS >> $keys
 
 # Create a new Chat
-- SAVE|BrokerChats >> $chat:
+- SAVE|Broker.Chats >> $chat:
     Chat: .UUID()
     Wallet: $wallet.ID
     # Host info
@@ -50,13 +50,13 @@
     PublicKey: $keys.PublicKey     
 
 # Add the HOST participant
-- SAVE|BrokerChatters:
+- SAVE|Broker.Chatters:
     Chat: $chat.ID
     Domain: $locator.Host
     Role: HOST
 
 # Add the FINDER participant
-- SAVE|BrokerChatters:
+- SAVE|Broker.Chatters:
     Chat: $chat.ID
     Domain: $wallet.Finder
     Role: VAULT

@@ -22,7 +22,7 @@
 - WAIT|$hook >> $data
 
 # Create the collect
-- SAVE|VaultCollects >> $collect:
+- SAVE|Vault.Collects >> $collect:
     Collect: .UUID
     Consumer: $.Msg.From
     Data: $data

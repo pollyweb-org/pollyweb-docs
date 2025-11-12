@@ -18,7 +18,7 @@
     Lists: Groups
 
 # Save the thread
-- SAVE|LoggerThreads >> $thread:
+- SAVE|Logger.Threads >> $thread:
     ID: .UUID
     Started: $.Msg.Header.Timestamp 
     Domain: $.Msg.Header.From

@@ -1,4 +1,4 @@
-# 🤗🪣 Chats @ Host
+# 🤗💬 Host.Chats 🪣 table
 
 > Part of [Host 🤗 domain role](<../../🤗 Host role/🤗🎭 Host role.md>)
 

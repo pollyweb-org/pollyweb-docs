@@ -29,7 +29,7 @@
         Status: UNHOST
 
 # Save on the table
-- SAVE|PrinterAliases >> $locator:
+- SAVE|Printer.Aliases >> $locator:
     Alias: $.Msg.Alias
     Locator: $.Msg.Locator 
     .OnBlocked: $blocked
