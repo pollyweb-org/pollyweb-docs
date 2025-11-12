@@ -47,7 +47,7 @@
     To: $chat.Wallet.Language
 
 # Save the Offer
-- SAVE|BrokerOffers:
+- SAVE|Broker.Offers:
     
     # Set the cache expiration
     .Delete: 1 hour

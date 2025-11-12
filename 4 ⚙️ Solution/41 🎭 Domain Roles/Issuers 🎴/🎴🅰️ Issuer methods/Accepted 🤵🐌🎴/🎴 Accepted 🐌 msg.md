@@ -48,7 +48,7 @@ Body:
     From: $hook.Broker
 
 # Save the Token
-- SAVE|IssuerTokens:
+- SAVE|Issuer.Tokens:
     Token: $.Msg.Token
     $hook:
 

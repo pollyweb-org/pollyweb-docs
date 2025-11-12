@@ -38,7 +38,7 @@
 - PARALLEL|$.Msg.Binds|$bind:
 
     # Save each Bind
-    - SAVE|VaultBinds:
+    - SAVE|Vault.Binds:
         Broker: $.Msg.From
         Bind: $bind.Bind
         Schema: $bind.Schema

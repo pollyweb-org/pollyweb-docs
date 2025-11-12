@@ -31,7 +31,7 @@
     Times: Starts, Expires
 
 # Save the hook
-- SAVE|TalkerHooks >> $hook:
+- SAVE|Talker.Hooks >> $hook:
     Hook: .UUID
     Broker: $.Chat.Broker
     Chat: $.Chat.ID
