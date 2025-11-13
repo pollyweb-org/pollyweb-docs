@@ -146,7 +146,7 @@
    💬 Bind:
 
    # Calculate the schemas in code
-   - EVAL|GetBindables >> $bindable
+   - CALL|GetBindables >> $bindable
 
    # Offer the binds
    - BIND|$bindable >> $bound
@@ -157,7 +157,7 @@
        Else: FAILURE|Not bounded.
    ```
 
-   Uses: [`BIND`](<🔗 BIND ⌘ cmd.md>) [`EVAL`](<../../⌘ for holders 🧠/EVAL 🧮/🧮 EVAL ⌘ cmd.md>) [`IF`](<../../⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>)
+   Uses: [`BIND`](<🔗 BIND ⌘ cmd.md>) [`CALL`](<../../⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`IF`](<../../⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>)
    
    ---
    <br/>

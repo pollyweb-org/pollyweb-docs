@@ -59,7 +59,7 @@ Order a pizza for home delivery
     - READ|menus|pizzas.yaml >> $menu
     - SHARE|.CURATOR/ORDER >> $choice:  # 🧚 
         Menu: $menu
-    - EVAL|Order >> $order:
+    - CALL|Order >> $order:
         Destination: $destination
         Courier: $courier
         Choice: $choice

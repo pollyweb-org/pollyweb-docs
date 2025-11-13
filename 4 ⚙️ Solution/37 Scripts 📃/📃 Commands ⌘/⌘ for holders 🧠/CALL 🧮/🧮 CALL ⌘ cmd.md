@@ -1,12 +1,12 @@
-# 😃🧮 Talker `EVAL` command 
+# 😃🧮 Talker `CALL` command 
 
 > Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
 
 ## FAQ
 
-1. **What's an EVAL command?**
+1. **What's an CALL command?**
 
-    An `EVAL` 🧮
+    An `CALL` 🧮
     * is a [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) 
     * that evaluates a `.` prefixed [Built-in 🐍 function](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * or a customized [Code 🐍 function](<../../../📃 Functions 🐍/🐍 Functions types/🐍 {code}.md>)
@@ -15,35 +15,35 @@
     ---
     <br/>
 
-1. **What's the [`EVAL`](<🧮 EVAL ⌘ cmd.md>) syntax?**
+1. **What's the [`CALL`](<🧮 CALL ⌘ cmd.md>) syntax?**
 
     |Variation| Behavior
     |-|-|
-    | `EVAL\|f(*)` | Executes a [{code} 🐍 function](<../../../📃 Functions 🐍/🐍 Functions types/🐍 {code}.md>) with `*` args
-    ||Equals `EVAL\|f: *`
-    | `EVAL\|f(*) >> $out` | Puts [{code} 🐍](<../../../📃 Functions 🐍/🐍 Functions types/🐍 {code}.md>) results in a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)
-    || Equals `EVAL\|f >> $out: *` 
-    | `EVAL\|.f(*) >> $out` | Executes a built-in [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
-    || Equals `EVAL\|.f >> $out: *`  
-    | `EVAL\|$in: *` | Equals [`SET`](<../SET ↘️/↘️ SET ⌘ cmd.md>)`\|$in: *` 
-    | `EVAL\|$in >> $out: *` | Equals [`PUT`](<../PUT ⬇️/⬇️ PUT ⌘ cmd.md>)`\|$in >> $out: *`
-    | `EVAL\|* >> $out` | Equals [`PUT`](<../PUT ⬇️/⬇️ PUT ⌘ cmd.md>)`\|* >> $out`
-    | `EVAL >> $out: *` | Equals [`PUT`](<../PUT ⬇️/⬇️ PUT ⌘ cmd.md>)` >> $out: *`
+    | `CALL\|f(*)` | Executes a [{code} 🐍 function](<../../../📃 Functions 🐍/🐍 Functions types/🐍 {code}.md>) with `*` args
+    ||Equals `CALL\|f: *`
+    | `CALL\|f(*) >> $out` | Puts [{code} 🐍](<../../../📃 Functions 🐍/🐍 Functions types/🐍 {code}.md>) results in a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)
+    || Equals `CALL\|f >> $out: *` 
+    | `CALL\|.f(*) >> $out` | Executes a built-in [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
+    || Equals `CALL\|.f >> $out: *`  
+    | `CALL\|$in: *` | Equals [`SET`](<../SET ↘️/↘️ SET ⌘ cmd.md>)`\|$in: *` 
+    | `CALL\|$in >> $out: *` | Equals [`PUT`](<../PUT ⬇️/⬇️ PUT ⌘ cmd.md>)`\|$in >> $out: *`
+    | `CALL\|* >> $out` | Equals [`PUT`](<../PUT ⬇️/⬇️ PUT ⌘ cmd.md>)`\|* >> $out`
+    | `CALL >> $out: *` | Equals [`PUT`](<../PUT ⬇️/⬇️ PUT ⌘ cmd.md>)` >> $out: *`
     
     ---
     <br/>
 
 
-1. **How to pass arguments to a [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) on [`EVAL`](<🧮 EVAL ⌘ cmd.md>)?**
+1. **How to pass arguments to a [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) on [`CALL`](<🧮 CALL ⌘ cmd.md>)?**
 
     ```yaml
     # Multi-position functions
-    EVAL|f(1,A,$p)
+    CALL|f(1,A,$p)
     ```
     
     ```yaml
     # Single-position functions
-    EVAL|f:
+    CALL|f:
         x: 1
         y: A
         z: $p
@@ -53,7 +53,7 @@
     <br/>
     
 
-1. **What's an [`EVAL`](<🧮 EVAL ⌘ cmd.md>) example with a [`{code}` function](<../../../📃 Functions 🐍/🐍 Functions types/🐍 {code}.md>)?**
+1. **What's an [`CALL`](<🧮 CALL ⌘ cmd.md>) example with a [`{code}` function](<../../../📃 Functions 🐍/🐍 Functions types/🐍 {code}.md>)?**
   
     | [Domain](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     | - | - | - |
@@ -68,12 +68,12 @@
     ```yaml
     📃 Example:
     - CONFIRM|Add a database row?
-    - EVAL|addRow >> $count
+    - CALL|addRow >> $count
     - SUCCESS|The database now has {$count} rows.
     - REPEAT
     ```
 
-    Uses: [`CONFIRM`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`EVAL`](<🧮 EVAL ⌘ cmd.md>) [`REPEAT`](<../../⌘ for control ▶️/REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) [`SUCCESS`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>)
+    Uses: [`CONFIRM`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`CALL`](<🧮 CALL ⌘ cmd.md>) [`REPEAT`](<../../⌘ for control ▶️/REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) [`SUCCESS`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>)
 
 
     ```python

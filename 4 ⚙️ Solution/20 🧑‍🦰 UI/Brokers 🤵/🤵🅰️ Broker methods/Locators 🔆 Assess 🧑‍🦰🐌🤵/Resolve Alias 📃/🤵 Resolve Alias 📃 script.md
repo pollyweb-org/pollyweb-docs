@@ -2,6 +2,11 @@
 
 > Part of the [`Assess@Broker` 📃 script](<../🤵 Assess 📃 handler.md>)
 
+
+## Diagram
+
+![alt text](<🤵 Resolve Alias ⚙️ uml.png>)
+
 ## Script
 
 ```yaml

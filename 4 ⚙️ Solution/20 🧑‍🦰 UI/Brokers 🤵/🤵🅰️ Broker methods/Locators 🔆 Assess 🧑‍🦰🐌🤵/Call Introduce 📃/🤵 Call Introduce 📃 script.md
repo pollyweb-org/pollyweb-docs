@@ -2,6 +2,10 @@
 
 > Part of the [`Assess@Broker` 📃 script](<../🤵 Assess 📃 handler.md>)
 
+## Diagram
+
+[text](<🤵 Call Introduce ⚙️ uml.puml>)
+
 ## Script
 
 ```yaml

@@ -1,0 +1,30 @@
+@startuml 👉 Printer NFC-QR check-in
+' ------------
+
+'participant "Wallet 👱\napp" as wallet  
+'participant "Notifier 📣\nbff" as notifier
+'participant "Printer 🖨️\nsupplier" as printer
+
+box "Broker 🤵" #FFFFFA
+    participant "Assess@ 📃" as assess
+    participant "Call-Introduce 📃" as script
+'    participant "Chats" as chats
+'    participant "Chatters" as chatters
+end box
+
+participant "Finder 🔎" as finder
+
+
+activate assess
+    assess -> script: {$chat}
+deactivate assess
+
+activate script
+    script --> finder: SEND Introduce
+    script -> assess: 
+deactivate script
+
+activate assess
+deactivate assess
+
+@enduml

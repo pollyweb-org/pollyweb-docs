@@ -2,7 +2,7 @@
 
 box Talker 😃 domain #FFFFFA
     participant "Script 📃" as script
-    participant ".EVAL 📃" as talker
+    participant ".CALL 📃" as talker
     participant "Memory 🧠" as memory
     participant "Holders 🪣" as holders
     participant "Inbox 📨" as inbox
@@ -12,7 +12,7 @@ participant "Hosted 📦" as hosted
 
 
 activate script
-    script -> talker: EVAL 🧮 {1 into $A} 
+    script -> talker: CALL 🧮 {1 into $A} 
 deactivate script
 
 activate talker
@@ -21,7 +21,7 @@ activate talker
 deactivate talker
 
 activate script 
-    script -> talker: EVAL 🧮 {function} 
+    script -> talker: CALL 🧮 {function} 
 deactivate script
 
 activate talker
@@ -58,7 +58,7 @@ activate talker
 deactivate talker
 
 activate script
-    script -> talker: EVAL 🧮 {$B}
+    script -> talker: CALL 🧮 {$B}
 deactivate script
 
 activate talker

@@ -39,7 +39,7 @@
     | Input| Purpose | Example
     |-|-|-
     | `<set>` | Name of the [Dataset 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | `MySet`
-    | `{object}` | [`EVAL`](<../../⌘ for holders 🧠/EVAL 🧮/🧮 EVAL ⌘ cmd.md>) item to save in the pool | `MyKey` `$key`
+    | `{object}` | [`CALL`](<../../⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>) item to save in the pool | `MyKey` `$key`
     | `.Delete` | Automatic cleanup with [`{.Add}`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) | `30 days`
     | `.OnBlocked`| [`$Holder`](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) name to set `True` | `onBlocked`
     | `$inserted` | [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) with the insertion | `$item`

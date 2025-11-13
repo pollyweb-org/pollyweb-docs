@@ -113,7 +113,7 @@
     |-|-
     | ⏯️️ [`CASE`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | Runs a [Command ⌘](<Command ⌘.md>) or [Script 📃](<Function 🐍.md>).
     | 🫥 [`EMOJI`](<../Prompts 🤔/🤔✏️ Prompt inputs/😶⌘ EMOJI cmd.md>) | Changes the [default emoji 😃](<../Prompts 🤔/🤔✏️ Prompt inputs/😶 Input emojis.md>) for [input prompts ✏️](<../Prompts 🤔/🤔⚙️ Prompt features/9 ✏️ as Input.md>).
-    | 🧮 [`EVAL`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/EVAL 🧮/🧮 EVAL ⌘ cmd.md>) | Evaluates a [{Function}](<Function 🐍.md>) into a holder.
+    | 🧮 [`CALL`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>) | Evaluates a [{Function}](<Function 🐍.md>) into a holder.
     | ⤵️ [`IF`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) | Runs a [Command ⌘](<Command ⌘.md>) or [Script 📃](<Function 🐍.md>).
     | 🪵 [`LOG`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/LOG 🪵/🪵 LOG ⌘ cmd.md>) | Logs messages into the system handler.
     | 🔁 [`REPEAT`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) | Repeats the current [Script 📃](<Script 📃.md>) with a confirmation.
