@@ -4,6 +4,7 @@ participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
     participant "Pop@ 📃" as pop
+    participant "Wallets 🪣" as wallets
     participant "Assess@ 📃" as assess
     participant "Hello@ 📃" as introduced
     participant "Pop {?} 📃" as popX
@@ -31,6 +32,7 @@ deactivate wallet
 'deactivate engine
 
 activate pop
+    pop -> wallets: READ 🧲
     pop --> wallet: SEND 📬 Open 🐌 {locator}
 deactivate pop
 
