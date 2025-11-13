@@ -21,7 +21,6 @@
 ```yaml
 - RUN|OnChatAltered:
     Item: 
-        ID: <chat-uuid>
         Wallet: <wallet-id>
 ```
 
@@ -32,8 +31,8 @@
 
 # Assert the inputs
 - ASSERT|$Item:
-    AllOf: ID, Wallet
-    UUIDs: ID, Wallet
+    AllOf: Wallet
+    UUIDs: Wallet
 
 # Get the Wallet 🧑‍🦰
 - READ >> $wallet:
@@ -49,18 +48,19 @@
     BigIcon: Host.BigIcon
 
 # Get the Wallet's Frontend
-- GET >> $frontend:
+- READ >> $frontend:
     Set: Broker.Frontend
     Key: $wallet.ID
     Default: 
+        PublicKey: $wallet.PublicKey
 
 # Replace only the Frontend Chats.
-- SET|$frontend:
+- SAVE|$frontend:
     Chats: $chats
 ```
 
 |Uses||
 |-|-
-| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`READ`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`SEND`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>)
+| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`PUT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) [`READ`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
 | [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Chats`](<../🪣 Chats/🤵 Broker.Chats 🪣 table.md>) [`Frontend`](<../../Frontend 📱 table/🤵 Broker.Frontend 🪣 table.md>) [`Wallets`](<../../Wallets 🧑‍🦰 table/🤵 Broker.Wallets 🪣 table.md>) 
 |
