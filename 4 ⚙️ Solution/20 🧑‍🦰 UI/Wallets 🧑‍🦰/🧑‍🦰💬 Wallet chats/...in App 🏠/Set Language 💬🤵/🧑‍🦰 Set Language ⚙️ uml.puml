@@ -2,10 +2,10 @@
 
 ' ------------
 actor User as user
-participant "Wallet 👱\napp" as wallet
-participant "Notifier 📣\nbff" as notifier
-participant "Broker 🤵\nhost" as broker
-participant "Graph 🕸\ndomain" as graph
+participant "Wallet 👱" as wallet
+participant "Notifier 📣" as notifier
+participant "Broker 🤵" as broker
+participant "Graph 🕸" as graph
 
 ' ------------
 ' UI
@@ -23,8 +23,7 @@ activate broker
         graph -> broker: {translated}
     deactivate graph
 
-    broker -> broker: update
-    broker --> notifier: 3) Translated 🐌
+    broker --> notifier: 3) Updated 🐌
 deactivate broker
 
 ' NOTIFIER
@@ -34,23 +33,10 @@ deactivate notifier
 
 ' UI
 activate wallet    
-group In parallel
-    wallet -> broker: 4) Chats 🚀
+    wallet -> broker: 4) Frontend 🚀
     activate broker
-        broker -> wallet: {chats}
-    deactivate broker
-
-    wallet -> broker: 5) Binds 🚀
-    activate broker
-        broker -> wallet: {binds}
-    deactivate broker
-
-    wallet -> broker: 6) Tokens 🚀
-    activate broker
-        broker -> wallet: {tokens}
-    deactivate broker
-    
-end group
+        broker -> wallet: {frontend}
+    deactivate broker    
 deactivate wallet
 
 ' ------------
