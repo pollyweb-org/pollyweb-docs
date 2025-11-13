@@ -192,6 +192,15 @@ Successful Tests:
     LinkFile: "Math holders.md"
     Reasons: This is hardcoded.
 
+  - Given: '{{Notifier}}'
+    LinkText: "Notifier 📣 domain"
+    LinkFile: "📣 Notifier 👥 domain.md"
+    Reasons: This is hardcoded.
+  - Given: '{{Notifiers}}'
+    LinkText: "Notifier 📣 domains"
+    LinkFile: "📣 Notifier 👥 domain.md"
+    Reasons: This is hardcoded.
+
   - Given: '{{Pair}}'
     LinkText: "Pair 🧠 holder"
     LinkFile: "Pair holders.md"

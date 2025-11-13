@@ -1,0 +1,28 @@
+@startuml Tokens@Broker
+
+ 
+participant "Wallet 👱" as wallet
+
+box Broker 🤵️ domain #FFFFFA
+    participant "Saved@ 📃" as broker
+    participant "Wallets 🪣" as wallets
+    'participant "Offers 🪣" as offers
+    participant "Tokens 🪣" as tokens
+    participant "Issuer 🎴" as issuer
+end box
+
+activate wallet
+    wallet -> broker: Saved@ 🐌
+deactivate wallet
+
+activate broker
+    broker -> wallets: READ {$.Msg.From}
+    'broker -> offers: READ {offer}
+    'broker -> tokens: READ {token}
+    broker -> tokens: SAVE {token}
+    broker --> issuer: SEND {Accepted 🐌}
+    broker -> broker: RUN {update-notifier}
+deactivate broker
+
+
+@enduml 
