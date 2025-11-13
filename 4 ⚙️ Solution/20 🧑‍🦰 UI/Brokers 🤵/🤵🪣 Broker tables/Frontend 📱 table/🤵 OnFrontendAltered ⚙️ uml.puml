@@ -1,0 +1,33 @@
+@startuml OnChatChanges
+
+'participant "Wallet 👱" as wallet
+
+box Broker 🤵 domain #FFFFFA
+    'participant "Script 📃" as script
+    participant "Chats 🪣" as chats
+    participant "Binds 🪣" as binds
+    participant "Tokens 🪣" as tokens
+    participant "Frontend 🪣" as frontend
+    participant "OnAltered 📃" as handler
+end box
+
+participant "Notifier 📣" as notifier
+
+'wallet --> script: Pop 🐌
+
+'activate script
+'    script -> chats: SAVE 💾, DELETE 🗑️
+
+    chats --> frontend: project 💾
+activate frontend
+    binds --> frontend: project 💾
+    tokens --> frontend: project 💾
+
+    frontend --> handler: altered 🔔
+deactivate frontend
+
+activate handler
+    handler --> notifier: SEND 📬 {Refresh 🐌}
+deactivate handler
+
+@enduml 
