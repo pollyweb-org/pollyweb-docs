@@ -51,6 +51,13 @@ HARDCODED_FILE_ALIASES: dict[str, list[str]] = {
     "🛢 Itemizer 🤲 helper.md": ["🛢🤲 Itemizer helper.md"],
 }
 
+# Some X@Y tokens (Raised@Itemizer) need to resolve to files whose stem uses
+# a different verb. Map normalized token stems to additional equivalents so the
+# resolver can still locate the intended markdown file.
+AT_IDENTIFIER_STEM_ALIASES: dict[str, list[str]] = {
+    "raised": ["triggered"],
+}
+
 yes_memory = []
 all_memory = False
 
@@ -58,6 +65,8 @@ all_memory = False
 def _resolve_at_token(token: str, md_files: list[str]) -> Optional[Tuple[str, Path]]:
     before, after = token.split('@', 1)
     normalized_before = normalize_string(before)
+    stem_aliases = {normalized_before}
+    stem_aliases.update(AT_IDENTIFIER_STEM_ALIASES.get(normalized_before, []))
     markers = method_folder_markers(after)
     if not markers:
         return None
@@ -69,7 +78,7 @@ def _resolve_at_token(token: str, md_files: list[str]) -> Optional[Tuple[str, Pa
             continue
         # accept exact stem matches or stems that start with the token (e.g. "Parse" -> "Parse msg")
         stem_norm = normalize_string(path.stem)
-        if stem_norm != normalized_before and not stem_norm.startswith(normalized_before):
+        if not any(stem_norm == alias or stem_norm.startswith(alias) for alias in stem_aliases):
             continue
         folder_normalized = normalize_string(str(path.parent))
         if any(marker in folder_normalized for marker in markers):

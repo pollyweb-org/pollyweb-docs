@@ -395,8 +395,8 @@ Successful Tests:
       and in a folder called `*Y*events*`
       or is in a subfolder of such folder.
 
-  - Given: '{{Triggered@Itemizer}}'
-    LinkText: "`Triggered@Itemizer` 🔔 event"
+  - Given: '{{Raised@Itemizer}}'
+    LinkText: "`Raised@Itemizer` 🔔 event"
     LinkFile: "🛢🔔 Triggered.md"
     Reasons: same as {{Triggered@Alarm}}.
 
