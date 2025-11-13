@@ -44,7 +44,7 @@ Body:
 |           | `Children` |dict	| List of children items
 |           | `Distincts`|	map |	List of grouped fields
 |           | `NoUpdates` | bool | Blocks item updates
-|           | `Triggers`| dict | Hooks for [`Triggered@Talker`](<../../🛢🔔 Itemizer events/🛢🔔 Triggered.md>)
+|           | `Triggers`| dict | Hooks for [`Triggered@Talker`](<../../../Alarms ⏰/⏰🔔 Alarm events/⏰🔔 Triggered.md>)
 |
 
 <br/>

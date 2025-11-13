@@ -1,4 +1,4 @@
-# 😃▶️ Talker `RUN` flow 
+# 😃🏃 Talker `RUN` flow 
 
 > Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
 
@@ -7,7 +7,7 @@
 
 1. **What's a RUN flow?**
 
-    A `RUN` ▶️
+    A `RUN` 🏃
     * is a flow [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) 
     * that runs a  [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
 
@@ -43,7 +43,7 @@
     | `*`  | Optional inputs to [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) | `1,2` `A,$B` `{A:1,$B}`
     |           | Read `$n`  inside the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) | `$1` `$2`
     | | Read `$name` in the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) | `$B`|
-    | | Read with [`{.Inputs}`](<../../../📃 Holders 🧠/🧠 System holders/$.Inputs ▶️/▶️ $.Inputs 🧠 holder.md>) | `.Inputs.B` `$.Inputs.B`
+    | | Read with [`{.Inputs}`](<../../../📃 Holders 🧠/🧠 System holders/$.Inputs 🏃/▶️ $.Inputs 🧠 holder.md>) | `.Inputs.B` `$.Inputs.B`
     
     ---
     <br/>
@@ -81,7 +81,7 @@
     - INFO|Hi, {$Name}! I'm {$Feeling}.
     ```
 
-    Uses: [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`RUN`](<▶️ RUN ⌘ cmd.md>) [`SUCCESS`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>)
+    Uses: [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`RUN`](<🏃 RUN ⌘ cmd.md>) [`SUCCESS`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>)
 
     ---
     <br/>
@@ -125,7 +125,7 @@
     - INFO|You gave me number {$n}.
     ```
 
-    Uses: [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`QUANTITY`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/QUANTITY ↕️/QUANTITY ↕️ prompt.md>) [`RUN`](<▶️ RUN ⌘ cmd.md>) [`SUCCESS`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>)
+    Uses: [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`QUANTITY`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/QUANTITY ↕️/QUANTITY ↕️ prompt.md>) [`RUN`](<🏃 RUN ⌘ cmd.md>) [`SUCCESS`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>)
 
 
     ---
@@ -300,7 +300,7 @@
 
     [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) behavior is as follow:
     * they only exist in the context of a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>), 
-    * unless passed to another [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) as a [`RUN`](<▶️ RUN ⌘ cmd.md>) parameter.
+    * unless passed to another [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) as a [`RUN`](<🏃 RUN ⌘ cmd.md>) parameter.
 
     Here's a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to exemplify it.
 

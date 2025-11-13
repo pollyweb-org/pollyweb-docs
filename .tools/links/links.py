@@ -732,6 +732,52 @@ def runit(project_directory, entryPoint):
             Path(path).write_text(new_text, encoding='utf-8')
             print(f"Auto-linked {replacements} holder tokens in {path}")
 
+    # Harmonize existing Markdown links so their basenames match the canonical
+    # filenames declared in links.yaml Successful Tests. This catches cases where
+    # files were renamed (emoji changes, etc.) but old links still point to the
+    # previous basename.
+    canonical_targets: dict[str, list[Path]] = {}
+    for test in successful_tests:
+        expected_file = test.get('LinkFile')
+        if not expected_file:
+            continue
+        expected_basename = os.path.basename(expected_file)
+        normalized_basename = normalize_string(os.path.splitext(expected_basename)[0])
+        matches = [Path(p) for p in md_files if os.path.basename(p) == expected_basename]
+        if not matches:
+            continue
+        canonical_targets.setdefault(normalized_basename, []).extend(matches)
+
+    link_target_pattern = re.compile(r"\(<([^>]+)>\)")
+    for path_str in md_files:
+        doc_path = Path(path_str)
+        try:
+            text = doc_path.read_text(encoding='utf-8')
+        except Exception:
+            continue
+
+        def canonicalize_link(match: re.Match[str]) -> str:
+            target_url = match.group(1)
+            basename = os.path.basename(target_url)
+            normalized = normalize_string(os.path.splitext(basename)[0])
+            targets = canonical_targets.get(normalized)
+            if not targets:
+                return match.group(0)
+            if any(target.name == basename for target in targets):
+                return match.group(0)
+            target_path = targets[0]
+            try:
+                rel_path = os.path.relpath(target_path, doc_path.parent)
+            except Exception:
+                rel_path = target_path.name
+            rel_path = rel_path.replace(os.sep, '/')
+            print(f"Retargeted link basename '{basename}' to '{target_path.name}' in {doc_path}")
+            return f"(<{rel_path}>)"
+
+        new_text, replacements = link_target_pattern.subn(canonicalize_link, text)
+        if replacements:
+            doc_path.write_text(new_text, encoding='utf-8')
+
     # After replacement passes, scan for any remaining unresolved {{...}} tokens and report them
     token_pattern = re.compile(r"\{\{([^}]+)\}\}")
     unresolved: dict[str, list[tuple[int, str]]] = {}

@@ -22,22 +22,22 @@ deactivate wallet
 
 activate broker
 
-    broker -> wallets: READ {from}
+    broker -> wallets: READ 🧲 {from}
 
-    broker -> engine: RUN Resolve-Alias 
+    broker -> engine: RUN 🏃 Resolve-Alias 
     activate engine
         engine -> broker: {$locator}
     deactivate engine
     
-    broker -> engine: RUN Save-Chat
+    broker -> engine: RUN 🏃 Save-Chat
     activate engine
         engine -> broker: {chat}
     deactivate engine
 
-    broker -> engine: RUN Save-Host
+    broker -> engine: RUN 🏃 Save-Host
 
-    broker -> engine: RUN Call-Converse
-    broker -> engine: RUN Call-Introduce
+    broker -> engine: RUN 🏃 Call-Converse
+    broker -> engine: RUN 🏃 Call-Introduce
 
 
 deactivate broker

@@ -8,7 +8,7 @@
 
     Triggers 
     * are set on the [`Build@Itemized` 🅰️ method](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
-    * and are consumed by the [`Triggered@Talker` 🅰️ method](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🔔 Itemizer events/🛢🔔 Triggered.md>)
+    * and are consumed by the [`Triggered@Talker` 🅰️ method](<../../../45 🤲 Helper domains/Alarms ⏰/⏰🔔 Alarm events/⏰🔔 Triggered.md>)
 
     ---
     <br/>

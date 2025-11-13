@@ -23,7 +23,7 @@ deactivate assess
 
 activate script
     script -> engine: TRANSLATE {host}
-    script -> engine: KEYS
+    'script -> engine: KEYS
     script -> chats: SAVE {chat}
     script -> chatters: SAVE {host participant}
     script -> chatters: SAVE {finder participant}
