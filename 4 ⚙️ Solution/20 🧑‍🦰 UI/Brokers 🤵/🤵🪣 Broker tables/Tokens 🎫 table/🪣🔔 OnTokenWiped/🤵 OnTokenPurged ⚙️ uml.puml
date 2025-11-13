@@ -19,7 +19,7 @@ activate remove
 
     tokens --> tokens: wait
 activate tokens
-    tokens --> purge: PURGED 🔔
+    tokens --> purge: WIPED 🔔
 deactivate tokens
 
 activate purge
