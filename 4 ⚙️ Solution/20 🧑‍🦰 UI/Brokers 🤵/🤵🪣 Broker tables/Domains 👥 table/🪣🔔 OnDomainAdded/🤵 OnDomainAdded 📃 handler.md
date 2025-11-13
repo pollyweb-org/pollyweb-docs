@@ -1,4 +1,4 @@
-# 🤵 OnDomainAdded 📃 trigger
+# 🤵 OnDomainAdded 📃 handler
 
 > Purpose
 * Calls the [`Identity@Graph` 🅰️ method](<../../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Identity.md>) for new domains.

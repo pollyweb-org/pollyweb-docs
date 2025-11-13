@@ -5,7 +5,7 @@
 box Broker 🤵 domain #FFFFFA
     participant "Script 📃" as script
     participant "Chats 🪣" as chats
-    participant "OnChanges 📃" as change
+    participant "OnChanges 📃" as handler
 end box
 
 participant "Notifier 📣" as notifier
@@ -16,11 +16,11 @@ activate script
     script -> chats: SAVE 💾, DELETE 🗑️
 
 activate chats
-    chats --> change: trigger 🔔
+    chats --> handler: changes 🔔
 deactivate chats
 
-activate change
-    change --> notifier: SEND 📬 {Updated 🐌}
-deactivate change
+activate handler
+    handler --> notifier: SEND 📬 {Updated 🐌}
+deactivate handler
 
 @enduml 

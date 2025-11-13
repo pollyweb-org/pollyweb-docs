@@ -1,4 +1,4 @@
-# Item 🛢 Events
+# Item 🛢 Handlers
 
 > Part of [Itemized 🪣 dataset](<../🪣🔣 Dataset types/Itemized 🛢 dataset.md>)
 
@@ -30,8 +30,9 @@
 
     ```yaml
     Table: <name>
-    Events:
-        <handler>: <trigger-list>
+    Handlers:
+        <handler>: 
+            <trigger-list>
     ```
 
     |Input|Details|Example

@@ -1,4 +1,4 @@
-# 🤵 OnTokenAccepted 📃 trigger
+# 🤵 OnTokenAccepted 📃 handler
 
 > Purpose
 

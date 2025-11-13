@@ -1,4 +1,4 @@
-# 🤵 OnTokenPurged 📃 trigger
+# 🤵 OnTokenPurged 📃 handler
 
 > Purpose: 
 
