@@ -2,7 +2,7 @@
 
 > Purpose: 
 
-* [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to execute when a soft delete of [`Tokens` 🪣 table](<../🪣 Broker.Tokens/🤵 Broker.Tokens 🪣 table.md>) is purged.
+* [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to execute when a soft delete of [`Tokens` 🪣 table](<../🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>) is purged.
 * Triggered by the [`Triggered@Itemizer` 🔔 event](<../../../../../45 🤲 Helper domains/Itemizers 🛢/🛢🔔 Itemizer events/🛢🔔 Triggered.md>)
 
 
@@ -49,6 +49,6 @@
 |Uses||
 |-|-
 | [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`READ`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`SEND`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>)
-| [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Tokens`](<../🪣 Broker.Tokens/🤵 Broker.Tokens 🪣 table.md>)
+| [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Tokens`](<../🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>)
 | [Messages 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Remove@Notifier` 🅰️ method](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Remove 🤵🐌📣/📣 Remove 🐌 msg.md>)
 |
