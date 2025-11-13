@@ -1,0 +1,21 @@
+@startuml Binds@Broker
+
+ 
+participant "Wallet 👱" as wallet
+
+box Broker 🤵 domain #FFFFFA
+    participant "Frontend@ 📃" as broker
+    participant "Frontend 🪣" as frontend
+end box
+
+activate wallet
+wallet -> broker: Frontend 🚀 
+
+    activate broker
+        broker -> frontend: READ 🧲
+        broker -> wallet: RETURN {$frontend}
+    deactivate broker
+
+deactivate wallet
+
+@enduml 

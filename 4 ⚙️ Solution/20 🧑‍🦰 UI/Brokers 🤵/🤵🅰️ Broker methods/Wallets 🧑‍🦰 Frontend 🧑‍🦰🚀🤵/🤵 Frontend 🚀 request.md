@@ -6,7 +6,7 @@
 
 > Implementation 
 * Implements the [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
-* Implemented by the [`Chats` 📃 script](<🤵 Chats 📃 handler.md>)
+* Implemented by the [`Chats` 📃 script](<🤵 Frontend 📃 handler.md>)
 
 > Purpose
 * The [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) 

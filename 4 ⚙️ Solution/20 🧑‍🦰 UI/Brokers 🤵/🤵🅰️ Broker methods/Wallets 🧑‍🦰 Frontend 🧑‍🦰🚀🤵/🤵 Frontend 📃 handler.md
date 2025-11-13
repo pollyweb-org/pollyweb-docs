@@ -1,13 +1,13 @@
 # 🤵📃 Chats 🚀 Broker
 
-> [Script 📃](<🤵 Chats 🚀 request.md>)
+> [Script 📃](<🤵 Frontend 🚀 request.md>)
 
 
 <br/>
 
 ## Flow
 
-![alt text](<🤵 Chats ⚙️ uml.png>)
+![alt text](<🤵 Frontend ⚙️ uml.png>)
 
 ## Script
 
