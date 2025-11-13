@@ -1,4 +1,4 @@
-# 🤵 OnTokenChanges 📃 handler
+# 🤵 OnTokenAltered 📃 handler
 
 > Purpose
 
@@ -13,12 +13,12 @@
 
 ## Diagram
 
-![alt text](<🤵 OnTokenChanges ⚙️ uml.png>)
+![alt text](<🤵 OnTokenAltered ⚙️ uml.png>)
 
 ## How to call
 
 ```yaml
-- RUN|OnTokenChanges:
+- RUN|OnTokenAltered:
     Item: 
         ID: <token-uuid>
         Wallet: <wallet-id>
@@ -27,7 +27,7 @@
 ## Script
 
 ```yaml
-📃 OnTokenChanges:
+📃 OnTokenAltered:
 
 # Assert the inputs
 - ASSERT|$Item:
