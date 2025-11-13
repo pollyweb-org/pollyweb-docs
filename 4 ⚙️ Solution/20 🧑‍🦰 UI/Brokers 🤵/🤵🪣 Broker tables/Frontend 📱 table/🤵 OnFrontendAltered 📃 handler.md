@@ -45,11 +45,11 @@
         Subject: Updated@Notifier
     Body:
         Wallet: $Item.Wallet
-        Chats: $Item.Chats
-        Binds: $Item.Binds
-        Tokens: $Item.Tokens
-        New: $New
-        Old: $Old
+        #Chats: $Item.Chats
+        #Binds: $Item.Binds
+        #Tokens: $Item.Tokens
+        #New: $New
+        #Old: $Old
 ```
 
 |Uses||

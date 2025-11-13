@@ -1,0 +1,29 @@
+@startuml OnChatAltered
+
+'participant "Wallet 👱" as wallet
+
+box Broker 🤵 domain #FFFFFA
+    participant "Script 📃" as script
+    participant "Chats 🪣" as chats
+    participant "OnAltered 📃" as handler
+    participant "Wallets 🪣" as wallets
+    participant "Frontend 🪣" as frontend
+end box
+
+'participant "Notifier 📣" as notifier
+'wallet --> script: Pop 🐌
+
+activate script
+    script -> chats: SAVE 💾, DELETE 🗑️
+
+activate chats
+    chats --> handler: CHANGED 🔔
+deactivate chats
+
+activate handler
+    handler -> wallets: READ 🧲
+    handler -> frontend: READ 🧲 {Wallet: $wallet.ID}
+    handler -> frontend: SAVE 💾 {Chats: $wallet.Chats}
+deactivate handler
+
+@enduml 

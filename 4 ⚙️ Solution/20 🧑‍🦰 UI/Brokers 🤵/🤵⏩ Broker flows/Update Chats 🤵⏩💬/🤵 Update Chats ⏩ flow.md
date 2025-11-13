@@ -18,6 +18,6 @@
 | # | Call | Notes |
 |-|-|-
 | 1 | [🤵🐌📣 `Updated@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>)| [Brokers 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) tell [Notifiers 📣](<../../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>) to update [Wallets 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
-| 2 | [🧑‍🦰🚀🤵 `Chats@Broker`](<../../🤵🅰️ Broker methods/Chats 💬 Chats 🧑‍🦰🚀🤵/🤵 Chats 🚀 request.md>) | [Wallets 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) get [Chats 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) from [Brokers 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+| 2 | [🧑‍🦰🚀🤵 `Chats@Broker`](<../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 request.md>) | [Wallets 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) get [Chats 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) from [Brokers 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
 ||
 
