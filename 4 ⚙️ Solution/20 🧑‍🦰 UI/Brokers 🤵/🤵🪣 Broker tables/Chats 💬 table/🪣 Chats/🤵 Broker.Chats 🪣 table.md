@@ -28,7 +28,7 @@ Children:
 
 Handlers:
     OnChatChanges: 
-        Events: INSERTED, UPDATED, DELETED
+        Events: CHANGED
 ```
 
 ## Links

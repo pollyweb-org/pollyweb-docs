@@ -44,14 +44,14 @@ Handlers:
     
     # Call Updated@Notifier
     OnTokenChanges: 
-        Events: INSERTED, UPDATED, DELETED
+        Events: CHANGED
 
     # Call Accepted@Issuer
     OnTokenAccepted: 
         Events: UPDATED
         Assert: 
-            Item.Status: ACTIVE
-            Changes.Status: OFFERED
+            New.Status: ACTIVE
+            Old.Status: OFFERED
 ```
 
 Uses: [`.Now`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Now}.md>) [`.IsBetween`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsBetween}.md>) 
@@ -70,7 +70,7 @@ Uses: [`.Now`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System �
 [Handler 🔔](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) |  [Message 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | Events
 |-|-|-
 | [`OnTokenPurged` 📃](<../🪣🔔 OnTokenPurged/🤵 OnTokenPurged 📃 handler.md>) | [`Remove@Notifier` 🅰️](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Remove 🤵🐌📣/📣 Remove 🐌 msg.md>) | `PURGED`
-| [`OnTokenChanges` 📃](<../🪣🔔 OnTokenChanges/🤵 OnTokenChanges 📃 handler.md>) | [`Updated@Notifier` 🅰️](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>) | `INSERTED` `UPDATED` `DELETED`
+| [`OnTokenChanges` 📃](<../🪣🔔 OnTokenChanges/🤵 OnTokenChanges 📃 handler.md>) | [`Updated@Notifier` 🅰️](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>) | `CHANGED`
 | [`OnTokenAccepted` 📃](<../🪣🔔 OnTokenAccepted/🤵 OnTokenAccepted 📃 handler.md>) | [`Accepted@Issuer` 🅰️](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Accepted 🤵🐌🎴/🎴 Accepted 🐌 msg.md>) | `UPDATED`
 
 

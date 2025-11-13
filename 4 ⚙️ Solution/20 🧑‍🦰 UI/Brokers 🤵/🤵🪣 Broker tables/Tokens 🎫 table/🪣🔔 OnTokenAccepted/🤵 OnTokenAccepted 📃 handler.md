@@ -22,7 +22,9 @@
         ID: <token-uuid>
         Wallet: <wallet-id>
         Status: ACTIVE
-    Changes:
+    New:
+        Status: ACTIVE
+    Old:
         Status: OFFERED
 ```
 
