@@ -3,7 +3,7 @@
  
 participant "Wallet 👱" as wallet
 
-box Broker 🤵️ domain #FFFFFA
+box Broker 🤵 domain #FFFFFA
     participant "Saved@ 📃" as broker
     participant "Wallets 🪣" as wallets
     'participant "Offers 🪣" as offers
@@ -12,15 +12,16 @@ box Broker 🤵️ domain #FFFFFA
 end box
 
 activate wallet
-    wallet -> broker: Saved@ 🐌
+    wallet -> broker: Saved@ 🐌 {token}
 deactivate wallet
 
 activate broker
-    broker -> wallets: READ {$.Msg.From}
+    broker -> wallets: READ 🧲 {$.Msg.From}
     'broker -> offers: READ {offer}
     'broker -> tokens: READ {token}
-    broker -> tokens: SAVE {token}
-    broker --> issuer: SEND {Accepted 🐌}
+    broker -> tokens: READ 🧲 {$wallet.Offers: token}
+    broker -> tokens: SAVE 💾 {$token.Status: ACTIVE}
+    broker --> issuer: SEND 📬 {Accepted 🐌}
 deactivate broker
 
 

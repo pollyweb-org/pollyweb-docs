@@ -12,7 +12,7 @@
 
 > Used by 
 
-* [`TokenTimeout` 📃 script](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/Tokens 🎫 table/🤵 OnTokenPurged 📃 trigger.md>)
+* [`TokenTimeout` 📃 script](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/Tokens 🎫 table/OnTokenPurged 🔔/🤵 OnTokenPurged 📃 trigger.md>)
 
 <br/>
 
