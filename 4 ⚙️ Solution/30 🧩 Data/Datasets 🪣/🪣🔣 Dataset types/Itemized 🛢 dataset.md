@@ -57,7 +57,7 @@
     | [`Views`](<../🪣🛢 Itemized datasets/Item 🛢 Views.md>) | dict | Filtered children | `Vs:Cs:[p=3]`
     | [`Distincts`](<../🪣🛢 Itemized datasets/Item 🛢 Distincts.md>) | dict | Unique values in child properties | `Ds:Cs.d`
     | [`NoUpdates`](<../🪣🛢 Itemized datasets/Item 🛢 NoUpdates.md>) | bool | Only allows inserts and deletes | `True`
-    | [`Triggers`](<../🪣🛢 Itemized datasets/Item 🛢 Triggers.md>) | dict | [Scripts 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to run on triggers | `S:EXPIRED`
+    | [`Triggers`](<../🪣🛢 Itemized datasets/Item 🛢 Events.md>) | dict | [Scripts 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to run on triggers | `S:EXPIRED`
     
     ---
     <br/>
