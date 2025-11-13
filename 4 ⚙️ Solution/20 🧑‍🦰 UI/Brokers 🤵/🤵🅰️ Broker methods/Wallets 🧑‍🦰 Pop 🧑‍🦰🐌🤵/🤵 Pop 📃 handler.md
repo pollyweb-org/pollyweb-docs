@@ -3,17 +3,6 @@
 > Purpose
 * [Script 📃](<🤵 Pop 🐌 msg.md>) that implements the [`Pop@Broker` 🅰️ method](<🤵 Pop 🐌 msg.md>)
 
-> Setup
-
-* Requires the handlers to be registered on the [Hoster ☁️ helper domain](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>):
-
-    * PopBind@Broker: [`Pop-Bind` 📃 handler](<Pop Bind 🔗/🤵 Pop Bind 📃 handler.md>)
-    * PopHost@Broker: [`Pop-Host` 📃 handler](<Pop Host 🤗/🤵 Pop Host 📃 handler.md>)
-    * PopIssuer@Broker: [`PopIssuer` 📃 handler](<Pop Issuer 🎴/🤵 Pop Issuer 📃 handler.md>)
-    * PopToken@Broker: [`Pop-Token` 📃 handler](<Pop Token 🎫/🤵 Pop Token 📃 handler.md>)
-    * PopVault@Broker: [`Pop-Vault` 📃 handler](<Pop Vault 🗄️/🤵 Pop Vault 📃 handler.md>)
-
-
 
 ## Diagram
 
@@ -50,7 +39,11 @@
     VAULT: PopVault@Broker
 
 # Verify that a Locator key was assign
-- ASSERT: $handler
+- ASSERT|$handler
+
+# Register the handler
+- LOCATE|$handler >> $locator:
+    Key: $.Msg.Key
 
 # Request the Wallet to open a chat
 - SEND:
@@ -59,16 +52,13 @@
         Subject: Open@Notifier
     Body:
         Hook: $.Msg.Hook
-        Schema: .HOST
-        Host: $.Hoster.Domain
-        Key: $handler
-        Parameters: 
-            Key: $.Msg.Key
+        Locator: $locator
 ```
 
 Uses||
 |-|-
-|[Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CASE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`SEND`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>) [`READ`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`VERIFY`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>)
+|[Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CASE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`LOCATE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/LOCATE 🔆/🔆 LOCATE ⌘ cmd.md>) [`SEND`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>) [`READ`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`VERIFY`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>)
 | [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Broker.Binds` 🪣 table](<../../🤵🪣 Broker tables/Binds 🔗 table/🤵 Broker.Binds 🪣 table.md>)
 | [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | [`$.Msg` 🧠 holder](<../../../../37 Scripts 📃/📃 Holders 🧠/🧠 System holders/$.Msg 📨/📨 $.Msg 🧠 holder.md>)
+| [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Open@Notifier` 🅰️ method](<../../../Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Open 🤵🐌📣/📣 Open 📣 msg.md>)
 |

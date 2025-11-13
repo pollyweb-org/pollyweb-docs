@@ -21,9 +21,8 @@
 1. **What's the LOCATE syntax?**
 
     ```yaml
-    LOCATE:
-        Key: <key>
-        Script: <script>
+    LOCATE|<script> >> $locator:
+        {parameters}
     ```
 
     Input | Purpose
