@@ -34,7 +34,7 @@ Parents:
 
 | Link | Table | Contains
 |-|-|-
-| Parents   | [`Chats` 🪣](<../Chats 💬 table/🤵 Broker.Chats 🪣 table.md>) | [Chats 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
+| Parents   | [`Chats` 🪣](<../Chats 💬 table/🪣 Chats/🤵 Broker.Chats 🪣 table.md>) | [Chats 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
 |           | [`Domains` 🪣](<../Domains 👥 table/🤵 Broker.Domains 🪣 table.md>) | [domains 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
 |
 
