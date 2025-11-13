@@ -16,7 +16,7 @@ activate script
     script -> binds: SAVE 💾, DELETE 🗑️
 
 activate binds
-    binds --> change: trigger 🔔
+    binds --> change: event 🔔
 deactivate binds
 
 activate change

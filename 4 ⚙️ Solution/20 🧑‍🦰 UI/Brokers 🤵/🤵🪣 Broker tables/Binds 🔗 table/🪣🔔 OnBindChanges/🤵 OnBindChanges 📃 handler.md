@@ -1,4 +1,4 @@
-# 🤵 OnBindChanges 📃 trigger
+# 🤵 OnBindChanges 📃 event
 
 > Purpose
 
