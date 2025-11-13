@@ -2,7 +2,7 @@
 
 > Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
 
-<br/>
+## FAQ
 
 1. **What is a LOG command?**
 
@@ -10,7 +10,6 @@
     * is a [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) 
     * that sends an event 
     * to the log handler of a [Talker 😃](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>).
-
 
     ---
     <br/>

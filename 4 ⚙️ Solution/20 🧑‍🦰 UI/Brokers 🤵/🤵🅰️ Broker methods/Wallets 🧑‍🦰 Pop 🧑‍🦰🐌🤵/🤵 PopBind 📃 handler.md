@@ -6,7 +6,7 @@
 
 ## Diagram
 
-![alt text](<🤵 PopBind ⚙️ uml.png>)
+![alt text](<🤵 Pop ⚙️ uml.png>)
 
 ## Script
 

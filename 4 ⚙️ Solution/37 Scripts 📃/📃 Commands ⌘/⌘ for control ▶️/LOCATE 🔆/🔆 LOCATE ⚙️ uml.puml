@@ -1,0 +1,22 @@
+@startuml Handle
+
+box Talker 😃 domain #FFFFFA
+    participant "Script 📃" as script
+    participant ".LOCATE 📃" as locate
+    participant "Talkers 🪣" as talkers
+    'participant "Handler 📃" as talker
+end box
+
+
+activate script
+    script -> locate: LOCATE 🔆 {key, script}
+deactivate script
+
+activate locate
+    locate -> talkers: SAVE 💾
+    locate -> script
+deactivate locate
+
+activate script
+    
+@enduml

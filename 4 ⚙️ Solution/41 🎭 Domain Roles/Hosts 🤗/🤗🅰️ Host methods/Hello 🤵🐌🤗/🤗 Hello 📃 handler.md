@@ -25,15 +25,13 @@
     - AllOf: Chat
     - UUIDs: Chat
 
-# Save the data
+# Set the chat
 - CHAT:
     Broker: $.Msg.From
     Chat: $.Msg.Chat
 
 # Start a Chat for the locator
-- TALK:
-    Schema: $.Chat.Schema 
-    Key: $.Chat.Key
+- TALK
 ```
 
 

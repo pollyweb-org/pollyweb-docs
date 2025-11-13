@@ -1,4 +1,4 @@
-# 😃 TALK 📃 script
+# 😃 .TALK 📃 script
 
 > Purpose
 * [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`TALK`](<😃 TALK ⌘ cmd.md>) command.
@@ -9,17 +9,23 @@
 
 ![alt text](<😃 TALK ⚙️ uml.png>)
 
+## How to call
+
+```yaml
+- RUN|.TALK
+```
+
 ## Script
 
 ```yaml
 📃 .TALK:
 
-# Get the handler
+# Get the talker
 - READ >> $talker:
-    Set: Talker.Handlers
+    Set: Talker.Talkers
     Key: 
         Domain: $.Hosted.Domain
-        Schema: $.Chat.Schema
+        Key: $.Chat.Key
 
 # Run the script
 - RUN:
@@ -29,6 +35,7 @@
 Uses||
 |-|-
 | [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`READ`](<../../⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`RUN`](<../RUN 🏃/🏃 RUN ⌘ cmd.md>)
+| [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Talker.Talkers` 🪣 table](<../../../../35 💬 Chats/Talkers 😃/😃🪣 Talker tables/😃 Talker.Talkers 🪣 table.md>)
 | [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | [`$.Chat`](<../../../📃 Holders 🧠/🧠 System holders/$.Chat 💬/💬 $.Chat 🧠 holder.md>) [`$.Hosted`](<../../../📃 Holders 🧠/🧠 System holders/$.Hosted 📦/📦 $.Hosted 🧠 holder.md>)
 |
 
