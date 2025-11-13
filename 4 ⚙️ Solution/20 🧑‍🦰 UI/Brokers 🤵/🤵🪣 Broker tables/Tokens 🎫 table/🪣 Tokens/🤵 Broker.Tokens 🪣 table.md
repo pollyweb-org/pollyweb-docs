@@ -10,7 +10,6 @@
 * Read by [`Tokens@Broker`](<../../../🤵🅰️ Broker methods/Tokens 🎫 Tokens 🧑‍🦰🚀🤵/🤵 Tokens 🚀 request.md>) 
 * Written by [`Offer@Broker`](<../../../🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>) [`Saved@Broker`](<../../../🤵🅰️ Broker methods/Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 🐌 msg.md>) [`Revise@Broker`](<../../../🤵🅰️ Broker methods/Tokens 🎫 Revise 🎴🐌🤵/🤵 Revise 🐌 msg.md>)
 
-<br/>
 
 ## Schema
 
@@ -43,20 +42,23 @@ Triggers:
 Uses: [`.Now`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Now}.md>) [`.IsBetween`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsBetween}.md>) 
 
 
+## Links
+
 | Link | Table | Stores
 |-|-|-
 | Parent    | [`Wallets` 🪣](<../../Wallets 🧑‍🦰 table/🤵 Broker.Wallets 🪣 table.md>) | [Wallets 🧑‍🦰](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) |
 |           | [`Domains` 🪣](<../../Domains 👥 table/🤵 Broker.Domains 🪣 table.md>) | [domains 👥](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
-|
+
+
+## Triggers
 
 [Trigger 🔔](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Triggers.md>) |  [Message 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
 |-|-
 | [`OnTokenPurged` 📃](<../🪣🔔 OnTokenPurged/🤵 OnTokenPurged 📃 trigger.md>) | [`Remove@Notifier` 🅰️](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Remove 🤵🐌📣/📣 Remove 🐌 msg.md>)
 | [`OnTokenChanges` 📃](<../🪣🔔 OnTokenChanges/🤵 OnTokenChanges 📃 trigger.md>) | [`Updated@Notifier` 🅰️](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>)
 | [`OnTokenAccepted` 📃](<../🪣🔔 OnTokenAccepted/🤵 OnTokenAccepted 📃 trigger.md>) | [`Accepted@Issuer` 🅰️](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Accepted 🤵🐌🎴/🎴 Accepted 🐌 msg.md>)
-|
 
-<br/>
+
 
 ## Example
 

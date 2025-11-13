@@ -20,9 +20,12 @@ activate broker
     'broker -> offers: READ {offer}
     'broker -> tokens: READ {token}
     broker -> tokens: READ 🧲 {$wallet.Offers: token}
-    broker -> tokens: SAVE 💾 {$token.Status: ACTIVE}
-    broker --> issuer: SEND 📬 {Accepted 🐌}
+    broker --> tokens: SAVE 💾 {$token.Status: ACTIVE}
 deactivate broker
+
+activate tokens
+    tokens --> issuer: SEND 📬 {Accepted 🐌}
+deactivate tokens
 
 
 @enduml 
