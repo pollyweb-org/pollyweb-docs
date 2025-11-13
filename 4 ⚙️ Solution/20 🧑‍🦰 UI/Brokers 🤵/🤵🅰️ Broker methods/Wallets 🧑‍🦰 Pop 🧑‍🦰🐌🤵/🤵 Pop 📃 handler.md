@@ -7,11 +7,11 @@
 
 * Requires the handlers to be registered on the [Hoster ☁️ helper domain](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>):
 
-    * PopBind@Broker: {{PopBind handler}}
-    * PopHost@Broker: {{PopHost handler}}
-    * PopIssuer@Broker: {{ProIssuer handler}}
-    * PopToken@Broker: [`PopToken` 📃 handler](<Pop Token 🎫/🤵 PopToken 📃 handler.md>)
-    * PopVault@Broker: [`PopVault` 📃 handler](<Pop Vault 🗄️/🤵 PopVault 📃 handler.md>)
+    * PopBind@Broker: [`Pop-Bind` 📃 handler](<Pop Bind 🔗/🤵 Pop Bind 📃 handler.md>)
+    * PopHost@Broker: [`Pop-Host` 📃 handler](<Pop Host 🤗/🤵 Pop Host 📃 handler.md>)
+    * PopIssuer@Broker: [`PopIssuer` 📃 handler](<Pop Issuer 🎴/🤵 Pop Issuer 📃 handler.md>)
+    * PopToken@Broker: [`Pop-Token` 📃 handler](<Pop Token 🎫/🤵 Pop Token 📃 handler.md>)
+    * PopVault@Broker: [`Pop-Vault` 📃 handler](<Pop Vault 🗄️/🤵 Pop Vault 📃 handler.md>)
 
 
 

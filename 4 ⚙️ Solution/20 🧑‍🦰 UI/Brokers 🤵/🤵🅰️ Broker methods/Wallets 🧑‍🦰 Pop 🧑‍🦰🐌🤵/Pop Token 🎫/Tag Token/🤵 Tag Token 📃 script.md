@@ -3,7 +3,7 @@
 # 🤵📃 Tag Token script
 
 > Flow
-* Called by the [`Pop Token` 📃 handler](<../🤵 PopToken 📃 handler.md>)
+* Called by the [`Pop Token` 📃 handler](<../🤵 Pop Token 📃 handler.md>)
 
 ## Script
 
