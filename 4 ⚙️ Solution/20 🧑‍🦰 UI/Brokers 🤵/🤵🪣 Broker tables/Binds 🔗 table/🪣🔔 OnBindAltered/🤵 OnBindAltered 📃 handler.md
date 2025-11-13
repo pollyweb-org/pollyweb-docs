@@ -13,7 +13,7 @@
 
 ## Diagram
 
-![alt text](<🤵 OnBindChanges ⚙️ uml.png>)
+![alt text](<🤵 OnBindAltered ⚙️ uml.png>)
 
 ## How to call
 

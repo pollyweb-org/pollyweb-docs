@@ -1,7 +1,7 @@
-# 🤵📃 Chats 🚀 Broker
+# 🤵📃 Frontend 🚀 Broker
 
-> [Script 📃](<🤵 Frontend 🚀 request.md>)
-
+> Purpose
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Frontend@Broker` 🅰️ method](<🤵 Frontend 🚀 request.md>).
 
 <br/>
 
@@ -12,28 +12,20 @@
 ## Script
 
 ```yaml
-📃 Chats@Broker:
+📃 Frontend@Broker:
 
-# Get the wallet item
-- READ >> $wallet:
-    Set: Broker.Wallets
+# Get the frontend item
+- READ >> $frontend:
+    Set: Broker.Frontend
     Key: $.Msg.From
 
 # Verify the signature
 - VERIFY|$.Msg:
-    Key: $wallet.PublicKey
+    Key: $frontend.PublicKey
 
-# Prepare the response
-- PUT|$wallet.Chats >> $chats
-    Chat: Chat
-    Host: Host
-    Host$: Host$
-    SmallIcon: Host.SmallIcon
-    BigIcon: Host.BigIcon
-
-# Respond
-- RETURN:
-    Chats: $chats
+# Return the frontend data
+- RETURN|$frontend:
+    Chats, Binds, Tokens
 ```
 
 Uses||
