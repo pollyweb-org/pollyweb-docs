@@ -21,8 +21,9 @@
     |-|-|
     | `INSERTED`   | Item inserted on the [Itemized 🛢 dataset](<../🪣🔣 Dataset types/Itemized 🛢 dataset.md>) on a [`SAVE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
     | `UPDATED` | The content of the item has changed on a [`SAVE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
-    | `EXPIRED` | Item removed automatically due to a [`SAVE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) expiration
     | `DELETED` | Item deleted on a [`DELETE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>), either soft or hard
+    | `CHANGED` | Raised on `INSERTED` `UPDATED` or `DELETED`
+    | `EXPIRED` | Item removed automatically due to a [`SAVE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) expiration
     | `PURGED`  | Item removed automatically due to an [`UNDO`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/UNDO ↩️/↩️ UNDO ⌘ cmd.md>) timeout
     |
 
@@ -42,8 +43,9 @@
     | `<handler>` | Name of the [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to handle | `MyHandler`
     | `[events]` | Events to handle | `INSERTED, PURGED`
     | `{asserts}` | Filter events with [`.Assert`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Assert}.md>) |
-    |           | on the new version of the item | `Item.A`
-    |           | and on old versions of changes | `Changes.A`
+    |           | on the latest version of the item | `Item.A`
+    |           | on the new property versions | `New.A`
+    |           | and on old property versions | `Old.A`
     |
 
     Here's an example.
@@ -58,14 +60,14 @@
             Events: EXPIRED, PURGED
 
         OnChange: 
-            Events: INSERTED, UPDATED, DELETED
+            Events: CHANGED
 
         OnSomeStatus:
             Events: UPDATED
             Asserts: 
                 Item.Expires.IsAbove(.Now):
-                Item.Status: NEW_STATUS
-                Changes.Status: OLD_STATUS
+                New.Status: NEW_STATUS
+                Old.Status: OLD_STATUS
     ```
     Uses: [`.IsAbove`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsAbove}.md>) [`.Now`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Now}.md>)
 
