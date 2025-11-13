@@ -1,17 +1,16 @@
 @startuml 👉 Printer NFC-QR check-in
 ' ------------
 
-participant "Wallet 👱\napp" as wallet  
+participant "Wallet 👱" as wallet  
 'participant "Notifier 📣\nbff" as notifier
-participant "Finder 🔎\nvault" as finder
-
-participant "Printer 🖨️\nsupplier" as printer
+'participant "Finder 🔎\nvault" as finder
+'participant "Printer 🖨️\nsupplier" as printer
 
 
 box "Broker 🤵" #FFFFFA
     participant "Handler 📃" as broker
-    participant "Chats" as chats
-    participant "Chatters" as chatters
+    participant "Wallets 🪣" as wallets
+    participant "Engine ⚙️" as engine
 end box
 
 
@@ -23,24 +22,25 @@ deactivate wallet
 
 activate broker
 
-    group Resolve, if .ALIAS 🧩 and not cached 
+    broker -> wallets: READ {from}
 
-        broker -> printer: 1) Resolve 🚀
+    broker -> engine: RUN Resolve-Alias 
+    activate engine
+        engine -> broker: {$locator}
+    deactivate engine
+    
+    broker -> engine: RUN Save-Chat
+    activate engine
+        engine -> broker: {chat}
+    deactivate engine
 
-        activate printer
-            printer -> broker: {host locator}
-        deactivate printer
+    broker -> engine: RUN Save-Host
 
-        broker -> chats: 
-        broker -> chatters: 
-
-    end group
+    broker -> engine: RUN Call-Converse
+    broker -> engine: RUN Call-Introduce
 
 
-    broker --> wallet: 2) ⏪ Converse {hook, chat}
+deactivate broker
 
-    broker --> finder: 3) Introduce ⏩ {chat}
-    deactivate broker
 
-' ------------
 @enduml
