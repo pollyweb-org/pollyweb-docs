@@ -15,15 +15,22 @@
 
 # Assert the inputs
 - ASSERT|.Inputs:
-    AllOf: Key, Script
-    Texts: Key, Script
+    AllOf: Script
+    Texts: Script
 
 # Save the temporary talker
-- SAVE|Talker.Talkers:
+- SAVE|Talker.Talkers >> $talker:
     Domain: $.Hosted.Domain
-    Key: $Key
+    Key: .UUID
     Script: $Script
-    .Delete: 5 minutes
+    Inputs: $Inputs
+    .Delete: 1 minute
+
+# Return the locator
+- RETURN: 
+    .HOST,
+    {$talker.Domain},
+    {$talker.Key}
 ```
 
 Uses||
