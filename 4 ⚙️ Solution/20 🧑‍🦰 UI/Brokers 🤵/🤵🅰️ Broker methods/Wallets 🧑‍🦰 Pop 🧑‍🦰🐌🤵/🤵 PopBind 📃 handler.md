@@ -4,6 +4,10 @@
 * [Script 📃](<🤵 PopBind 🐌 msg.md>) that implements the [`Pop@Broker` 🅰️ method](<🤵 PopBind 🐌 msg.md>)
 
 
+## Diagram
+
+![alt text](<🤵 PopBind ⚙️ uml.png>)
+
 ## Script
 
 <!-- TODO: Finish the code -->

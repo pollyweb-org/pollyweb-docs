@@ -1,0 +1,55 @@
+@startuml PopBind@Vault
+' TODO
+ 
+participant "Wallet 👱" as wallet
+
+box Broker 🤵 domain #FFFFFA
+    participant "Pop@ 📃" as pop
+    participant "Assess@ 📃" as assess
+    participant "Introduced@ 📃" as introduced
+    'participant "Wallets 🪣" as wallets
+end box
+
+box "Talker 😃" #FFFFFA
+    participant "Engine ⚙️" as engine
+    participant "Talkers 🪣" as talkers
+end box
+
+'participant "Vault 🗄️" as vault
+
+activate wallet 
+    wallet --> pop: PopBind 🐌
+deactivate wallet
+
+activate pop
+    pop -> engine: LOCATOR 🔆 {locator, script}
+deactivate pop
+
+activate engine
+    engine -> talkers: SAVE 💾
+    engine -> pop: 
+deactivate engine
+
+activate pop
+    pop --> wallet: SEND 📬 Open {locator}
+deactivate pop
+
+activate wallet
+    wallet --> assess: Assess 🐌 {locator}
+deactivate wallet
+
+activate assess
+    assess --> introduced:
+deactivate assess
+
+activate introduced
+    introduced -> engine: CHAT 💬
+    introduced -> engine: TALK 😃
+deactivate introduced
+
+activate engine
+    engine -> talkers: READ 🧲
+    engine -> : RUN 🏃 {script} 
+deactivate engine
+
+@enduml 
