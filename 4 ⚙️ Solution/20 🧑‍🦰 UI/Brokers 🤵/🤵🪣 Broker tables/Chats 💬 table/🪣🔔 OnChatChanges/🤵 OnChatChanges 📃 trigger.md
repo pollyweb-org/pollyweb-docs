@@ -18,7 +18,7 @@
 ## How to call
 
 ```yaml
-- RUN|OnChatChanged:
+- RUN|OnChatChanges:
     Item: 
         ID: <chat-uuid>
         Wallet: <wallet-id>
@@ -27,7 +27,7 @@
 ## Script
 
 ```yaml
-📃 OnChatChanged:
+📃 OnChatChanges:
 
 # Assert the inputs
 - ASSERT|$Item:

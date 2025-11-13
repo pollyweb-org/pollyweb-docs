@@ -1,4 +1,4 @@
-@startuml OnChatChanges
+@startuml OnBindChanges
 
 'participant "Wallet 👱" as wallet
 

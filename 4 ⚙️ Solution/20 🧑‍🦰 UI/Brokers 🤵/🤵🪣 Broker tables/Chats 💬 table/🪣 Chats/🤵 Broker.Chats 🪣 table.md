@@ -15,20 +15,32 @@ Here's the [Itemized 🛢 schema](<../../../../../30 🧩 Data/Datasets 🪣/�
 Prefix: Broker
 Table: Chats
 Key: ID
+
 Parents:
     Wallet: { Wallets.ID: Chats.Wallet }
     Host: { Domains.Name: Chats.Host }
+
 Children:
     Chatters: { Chatters.Chat: Chats.ID }
+
+Triggers:
+    OnChatChanges: ADDED, CHANGED, DELETED
 ```
+
+## Links
 
 | Link | Table | Contains
 |-|-|-
 | Parents   | [`Wallets` 🪣](<../../Wallets 🧑‍🦰 table/🤵 Broker.Wallets 🪣 table.md>) | [Wallets 🧑‍🦰](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 |           | [`Domains` 🪣](<../../Domains 👥 table/🤵 Broker.Domains 🪣 table.md>) | [domains 👥](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
 | Children | [`Chatters` 🪣](<../../Chatters 👥 table/🤵 Broker.Chatters 🪣 table.md>) | [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) participants
-|
 
+
+## Triggers
+
+| [Trigger 🔔](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Triggers.md>) | [Message 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
+|-|-
+|[`OnChatChanges` 📃](<../🪣🔔 OnChatChanges/🤵 OnChatChanges 📃 trigger.md>) | [`Update@Notifier` 🅰️ ](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>)
 
 
 ## Example

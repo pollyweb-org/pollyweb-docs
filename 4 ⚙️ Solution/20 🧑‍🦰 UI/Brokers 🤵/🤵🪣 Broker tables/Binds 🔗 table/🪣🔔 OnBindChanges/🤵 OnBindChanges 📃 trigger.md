@@ -1,9 +1,9 @@
-# 🤵 OnTokenChanges 📃 trigger
+# 🤵 OnBindChanges 📃 trigger
 
 > Purpose
 
 * [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to inform a [Notifier 📣 domain](<../../../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>) 
-    * that [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) need to be updated 
+    * that [Binds 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) need to be updated 
     * on the [Wallet 🧑‍🦰 app](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 
 > Flow 
@@ -13,21 +13,21 @@
 
 ## Diagram
 
-![alt text](<🤵 OnTokenChanges ⚙️ uml.png>)
+![alt text](<🤵 OnBindChanges ⚙️ uml.png>)
 
 ## How to call
 
 ```yaml
-- RUN|OnTokenChanges:
+- RUN|OnBindChanges:
     Item: 
-        ID: <token-uuid>
+        ID: <bind-uuid>
         Wallet: <wallet-id>
 ```
 
 ## Script
 
 ```yaml
-📃 OnTokenChanges:
+📃 OnBindChanges:
 
 # Assert the inputs
 - ASSERT|$Item:
@@ -46,7 +46,7 @@
         Subject: Updated@Notifier
     Body:
         Wallet: $Item.Wallet
-        Updates: [TOKENS]
+        Updates: [CHATS]
 ```
 
 |Uses||
