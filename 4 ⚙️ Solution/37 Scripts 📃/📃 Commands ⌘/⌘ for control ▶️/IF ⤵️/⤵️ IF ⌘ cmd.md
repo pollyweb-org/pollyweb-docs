@@ -31,9 +31,9 @@
     | `Assert` | List of inputs to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Assert}.md>)  | `$h` `.f(*)`
     || Defaults to last [input prompt ✏️](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/9 ✏️ as Input.md>) | [`CONFIRM`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`TEXT`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 🔠/TEXT 🔠 prompt.md>)
     | `Then` | List of [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) if `True` | [`RETURN`](<../RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>)` 123`
-    | | Or a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) name to [`RUN`](<../RUN ▶️/▶️ RUN ⌘ cmd.md>) | `If-True-Script`
+    | | Or a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) name to [`RUN`](<../RUN 🏃/🏃 RUN ⌘ cmd.md>) | `If-True-Script`
     | `Else` | List of [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) if `False` | [`RETURN`](<../RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>)` 456`
-    | | Or a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) name to [`RUN`](<../RUN ▶️/▶️ RUN ⌘ cmd.md>) | `If-False-Script`
+    | | Or a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) name to [`RUN`](<../RUN 🏃/🏃 RUN ⌘ cmd.md>) | `If-False-Script`
     
 
     ---

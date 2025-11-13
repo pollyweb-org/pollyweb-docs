@@ -118,7 +118,7 @@
     | 🪵 [`LOG`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/LOG 🪵/🪵 LOG ⌘ cmd.md>) | Logs messages into the system handler.
     | 🔁 [`REPEAT`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) | Repeats the current [Script 📃](<Script 📃.md>) with a confirmation.
     | ⤴️ [`RETURN`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) | Returns from a [Script 📃](<Script 📃.md>) with a result.
-    | ▶️ [`RUN`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>) | Runs a [Script 📃](<Script 📃.md>) and puts the result in a holder.
+    | ▶️ [`RUN`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>) | Runs a [Script 📃](<Script 📃.md>) and puts the result in a holder.
     | 🧘 [`WAIT`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/WAIT 🧘/🧘 WAIT ⌘ cmd.md>) | Waits for a period of time or until signaled.
 
     ---
@@ -177,7 +177,7 @@
     | `$out`| Output [Holder 🧠](<Holder 🧠.md>) | `$reply`
     | `<prop-n>` | Property of an object |`Details`
     | `<val-n>` | Value of a property   | `Hi!`
-    | `$holder-n` | [Holder 🧠](<Holder 🧠.md>)    | [`$.Inputs`](<../../37 Scripts 📃/📃 Holders 🧠/🧠 System holders/$.Inputs ▶️/▶️ $.Inputs 🧠 holder.md>)
+    | `$holder-n` | [Holder 🧠](<Holder 🧠.md>)    | [`$.Inputs`](<../../37 Scripts 📃/📃 Holders 🧠/🧠 System holders/$.Inputs 🏃/▶️ $.Inputs 🧠 holder.md>)
 
     ---
     <br/>

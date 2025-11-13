@@ -2,7 +2,7 @@
 
 > Purpose
 * Maps the [Script 📃](<../../Scripts 📃/Script 📃.md>) 
-    * to [`RUN`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>) internally by the [`TALK`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/TALK 😃/😃 TALK ⌘ cmd.md>) command
+    * to [`RUN`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>) internally by the [`TALK`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/TALK 😃/😃 TALK ⌘ cmd.md>) command
     * upon the [`Hello@Host` 🅰️ method](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>) 
     * depending on the [Locator 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) key.
 
@@ -36,6 +36,6 @@ Property | Type | Details | Origin | Purpose
 |-|-|-|-|-
 | `Domain` | text | [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name  || [`Hello@`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 | `Key`| text | [Locator 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) key || [`Hello@`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
-| `Script` | text | [Script 📃](<../../Scripts 📃/Script 📃.md>) to [`RUN`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RUN ▶️/▶️ RUN ⌘ cmd.md>) || [`Hello@`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
+| `Script` | text | [Script 📃](<../../Scripts 📃/Script 📃.md>) to [`RUN`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>) || [`Hello@`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 | `Language`| text | [`.Translate`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Translate}.md>) language || [`Prompt@`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
 |

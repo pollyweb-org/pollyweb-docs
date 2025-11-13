@@ -12,7 +12,7 @@
 
 1. **How do Host domains work?**
 
-    ![](<🤗🎭 Host role.png>)
+    ![](<🤗🎭 Host role.md>)
 
     |#|Category|Step
     |-|-|-

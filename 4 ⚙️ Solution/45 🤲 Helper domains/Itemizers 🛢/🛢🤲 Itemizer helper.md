@@ -29,7 +29,7 @@
    
     |[Message 📨](<../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | Purpose
     |-|-
-    | [🔔 `Triggered`](<🛢🔔 Itemizer events/🛢🔔 Triggered.md>) | Informs on item changes
+    | [🔔 `Triggered`](<../Alarms ⏰/⏰🔔 Alarm events/⏰🔔 Triggered.md>) | Informs on item changes
 
     ---
     <br/>

@@ -4,35 +4,25 @@
 participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
-    participant "Broker 🤵" as broker
-    participant "PopBind@ 📃" as script
+    participant "PopBind@ 📃" as pop
+    participant "Assess@ 📃" as assess
     'participant "Wallets 🪣" as wallets
-    participant "Binds 🪣" as binds
+    participant "Talkers 🪣" as talkers
 end box
 
-participant "Vault 🗄️" as vault
+'participant "Vault 🗄️" as vault
 
 activate wallet 
-    wallet --> broker: PopBind 🐌
+    wallet --> pop: PopBind 🐌
 deactivate wallet
 
-activate broker
-    broker -> script: 
-deactivate broker
-
-activate script
-    script -> binds: READ 🧲
-    script --> wallet: CONFIRM 👍 {remove?}
-deactivate script
+activate pop
+    pop -> talkers: SAVE {locator}
+    pop --> wallet: SEND Open {locator}
+deactivate pop
 
 activate wallet
-    wallet --> script: {yes}
+    wallet --> assess: Assess 🐌
 deactivate wallet
-
-activate script
-    script -> binds: DELETE 🗑️
-    script --> vault: SEND 📬 {Unbound@}
-    script --> wallet: SEND 📬 {Updated@}
-deactivate script
  
 @enduml 

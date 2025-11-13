@@ -105,7 +105,7 @@
     # Inform the user that it's done
     - SUCCESS|Order ready!       
     ```
-    Uses: [`ASYNC`](<../ASYNC 👷🏼/👷🏼 ASYNC ⌘ cmd.md>) [`RUN`](<../RUN ▶️/▶️ RUN ⌘ cmd.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`SUCCESS`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>) 
+    Uses: [`ASYNC`](<../ASYNC 👷🏼/👷🏼 ASYNC ⌘ cmd.md>) [`RUN`](<../RUN 🏃/🏃 RUN ⌘ cmd.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`SUCCESS`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>) 
   
     ```yaml
     📃 WaitForReady:
@@ -156,7 +156,7 @@
     # Finally, help the person
     - TEXT|What do you need?
     ```
-    Uses: [`ASYNC`](<../ASYNC 👷🏼/👷🏼 ASYNC ⌘ cmd.md>) [`RUN`](<../RUN ▶️/▶️ RUN ⌘ cmd.md>) [`TEXT`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 🔠/TEXT 🔠 prompt.md>) 
+    Uses: [`ASYNC`](<../ASYNC 👷🏼/👷🏼 ASYNC ⌘ cmd.md>) [`RUN`](<../RUN 🏃/🏃 RUN ⌘ cmd.md>) [`TEXT`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 🔠/TEXT 🔠 prompt.md>) 
 
     ```yaml
     📃 WaitInLine:
