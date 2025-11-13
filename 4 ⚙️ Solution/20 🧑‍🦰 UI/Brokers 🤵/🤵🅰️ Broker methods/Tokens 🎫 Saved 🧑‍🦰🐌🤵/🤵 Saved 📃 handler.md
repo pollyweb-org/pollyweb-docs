@@ -1,9 +1,12 @@
-<!-- TODO -->
-
 # 🤵📃 Saved@Broker 🎫 handler
 
-> Purpose: 
-* [Script 📃](<🤵 Saved 🐌 msg.md>) method.
+> Purpose
+* [Script 📃](<🤵 Saved 🐌 msg.md>) that implements the [`Saved@Broker` 🅰️ method](<🤵 Saved 🐌 msg.md>)
+
+
+## Diagram
+
+![alt text](<🤵 Saved ⚙️ uml.png>)
 
 ## Script
 
@@ -30,9 +33,9 @@
     Set: $wallet.Offers
     Key: $.Msg.Token
 
-# Verify the status considering retries
-- ASSERT|$offer:
-    Status.In(OFFERED, ACTIVE)
+# Activate the Token
+- SAVE|$offer:
+    Status: ACTIVE
 
 # Inform the Issuer
 - SEND:
@@ -42,10 +45,6 @@
     Body:
         Token: $token.Token
         Hook: $token.Hook
-
-# Activate the Token
-- SAVE|$offer:
-    Status: ACTIVE
 ```
 
 |Uses||
