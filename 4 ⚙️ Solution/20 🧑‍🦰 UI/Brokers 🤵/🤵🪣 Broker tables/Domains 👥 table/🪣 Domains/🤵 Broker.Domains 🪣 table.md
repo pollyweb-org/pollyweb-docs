@@ -16,8 +16,9 @@ Prefix: Broker
 Table: Domains
 Key: Name
 
-Triggers:
-    OnDomainAdded: ADDED # CHANGED
+Handlers:
+    OnDomainAdded: 
+        Events: ADDED 
 ```
 
 

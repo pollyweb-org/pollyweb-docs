@@ -4,9 +4,9 @@
 
 ## FAQ
 
-1. **How to work with events?**
+1. **How to work with event handlers?**
 
-    Events 
+    Event handlers 
     * are set on the [`Build@Itemized` 🅰️ method](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
     * and are streamed as [`Raised@Itemizer` 🔔 event](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🔔 Itemizer events/🛢🔔 Raised.md>)
 
@@ -26,19 +26,24 @@
     | `PURGED`  | Item removed automatically due to an [`UNDO`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/UNDO ↩️/↩️ UNDO ⌘ cmd.md>) timeout
     |
 
-1. **How to register an Event?**
+1. **How to register an Event Handler?**
 
     ```yaml
     Table: <name>
+
     Handlers:
         <handler>: 
-            <trigger-list>
+            Events: [events]
+            Asserts: {asserts}
     ```
 
     |Input|Details|Example
     |-|-|-
     | `<handler>` | Name of the [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to handle | `MyHandler`
-    | `<trigger-list>` | Events to handle | `ADDED,PURGED`
+    | `[events]` | Events to handle | `ADDED, PURGED`
+    | `{asserts}` | Filter events with [`.Assert`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Assert}.md>) |
+    |           | on the new version of the item | `Item.A`
+    |           | and on old versions of changes | `Changes.A`
     |
 
     Here's an example.
@@ -46,10 +51,23 @@
     ```yaml
     # Example
     Table: ORDERS
-    Events: 
-        OnTimeout: EXPIRED, PURGED
-        OnChange: ADDED, CHANGED, DELETED
+
+    Handlers: 
+
+        OnTimeout: 
+            Events: EXPIRED, PURGED
+
+        OnChange: 
+            Events: ADDED, CHANGED, DELETED
+
+        OnSomeStatus:
+            Events: CHANGED
+            Asserts: 
+                Item.Expires.IsAbove(.Now):
+                Item.Status: NEW_STATUS
+                Changes.Status: OLD_STATUS
     ```
+    Uses: [`.IsAbove`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsAbove}.md>) [`.Now`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Now}.md>)
 
     ---
     <br/>

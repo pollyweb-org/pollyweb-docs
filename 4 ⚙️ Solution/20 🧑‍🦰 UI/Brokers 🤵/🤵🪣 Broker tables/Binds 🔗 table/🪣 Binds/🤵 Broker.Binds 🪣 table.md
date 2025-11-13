@@ -22,8 +22,9 @@ Parents:
 Propagate:
     - Vault
 
-Triggers:
-    OnBindChanges: ADDED, CHANGED, DELETED
+Handlers:
+    OnBindChanges: 
+        Events: ADDED, CHANGED, DELETED
 ```
 
 ## Links
@@ -34,8 +35,11 @@ Triggers:
 || [`Domains` 🪣](<../../Domains 👥 table/🪣 Domains/🤵 Broker.Domains 🪣 table.md>) | [domains 👥](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
 
 
-## Triggers
+## Handlers
 
+| Handler | [Message 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | Events
+|-|-|-
+| [`OnBindChanges` 📃](<../🪣🔔 OnBindChanges/🤵 OnBindChanges 📃 handler.md>) | [`Update@Notifier` 🅰️](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>) | `ADDED` `CHANGED` `DELETED`
 
 
 ## Example

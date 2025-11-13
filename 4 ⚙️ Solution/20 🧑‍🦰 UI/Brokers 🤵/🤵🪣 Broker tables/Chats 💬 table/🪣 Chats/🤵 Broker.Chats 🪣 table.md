@@ -26,8 +26,9 @@ Propagate:
 Children:
     Chatters: { Chatters.Chat: Chats.ID }
 
-Triggers:
-    OnChatChanges: ADDED, CHANGED, DELETED
+Handlers:
+    OnChatChanges: 
+        Events: ADDED, CHANGED, DELETED
 ```
 
 ## Links
@@ -39,9 +40,9 @@ Triggers:
 | Children | [`Chatters` 🪣](<../../Chatters 👥 table/🤵 Broker.Chatters 🪣 table.md>) | [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) participants
 
 
-## Triggers
+## Handlers
 
-| [Trigger 🔔](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) | [Message 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
+| [Handler 🔔](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) | [Message 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
 |-|-
 |[`OnChatChanges` 📃](<../🪣🔔 OnChatChanges/🤵 OnChatChanges 📃 handler.md>) | [`Update@Notifier` 🅰️ ](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>)
 

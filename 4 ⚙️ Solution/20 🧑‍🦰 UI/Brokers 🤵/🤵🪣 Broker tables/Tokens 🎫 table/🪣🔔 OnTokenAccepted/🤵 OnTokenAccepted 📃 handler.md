@@ -31,13 +31,6 @@
 ```yaml
 📃 OnTokenAccepted:
 
-# Assert if Status: OFFERED -> ACTIVE
-- IF:
-    Assert: 
-        $Changes.Status: OFFERED
-        $Item.Status: ACTIVE
-    Else: RETURN
-
 # Assert the inputs
 - ASSERT|$Item:
     AllOf: ID, Issuer, Hook

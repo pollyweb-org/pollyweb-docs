@@ -2,7 +2,7 @@
 
 > Implementation
 
-* Implements [Item 🛢 Triggers](<../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>)
+* Implements [Item 🛢 Handlers](<../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>)
 
 > Purpose
 
@@ -27,7 +27,7 @@ Header:
     Subject: Raised@Itemizer
 
 Body:
-    Trigger: EXPIRED
+    Event: EXPIRED
     Handler: MyHandler
     Item: {...}
     Changes: {...}
@@ -38,7 +38,7 @@ Body:
 | Header    |`From`|domain| [Itemizer 🛢](<../🛢🤲 Itemizer helper.md>) | [`Build@`](<../🛢🅰️ Itemizer methods/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
 |           |`To`|domain| [Talker 😃](<../🛢🅰️ Itemizer methods/Item Delete 👥🚀🛢/🛢 Delete 🚀 request.md>) | [`Build@`](<../🛢🅰️ Itemizer methods/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
 |           | `Subject`     | string    | `Raised@Itemizer`
-| Body      | `Trigger`| enum | See [Item 🛢 Triggers](<../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) | [`Build@`](<../🛢🅰️ Itemizer methods/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
+| Body      | `Event`| enum | See [Item 🛢 Handlers](<../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) | [`Build@`](<../🛢🅰️ Itemizer methods/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
 || `Handler`     | string    | Handler [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) name | [`Build@`](<../🛢🅰️ Itemizer methods/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
 |           | `Item`        | object    | Affected [Item 🛢](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) | -
 |           | `Changes`     | object    | Original values changed | -
