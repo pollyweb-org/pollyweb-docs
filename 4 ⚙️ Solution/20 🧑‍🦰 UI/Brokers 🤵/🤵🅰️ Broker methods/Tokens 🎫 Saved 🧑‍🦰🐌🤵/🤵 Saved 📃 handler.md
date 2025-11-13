@@ -30,7 +30,7 @@
     Set: $wallet.Offers
     Key: $.Msg.Token
 
-# Verify the status
+# Verify the status considering retries
 - ASSERT|$offer:
     Status.In(OFFERED, ACTIVE)
 
@@ -46,11 +46,6 @@
 # Activate the Token
 - SAVE|$offer:
     Status: ACTIVE
-
-# Updated the Tokens
-- RUN|Update-Notifier:
-    $wallet:
-    updates: TOKENS
 ```
 
 |Uses||

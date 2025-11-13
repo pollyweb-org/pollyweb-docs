@@ -1,14 +1,14 @@
-# 🤵📃 Token 🎫 timeout
+# 🤵 OnTokenPurged 📃 trigger
 
 > Purpose: 
 
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to execute when a soft delete of [`Tokens` 🪣 table](<🤵 Broker.Tokens 🪣 table.md>) times out.
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to execute when a soft delete of [`Tokens` 🪣 table](<🤵 Broker.Tokens 🪣 table.md>) is purged.
 * Triggered by the [`Triggered@Talker` 🅰️ method](<../../../../45 🤲 Helper domains/Alarms ⏰/⏰🔔 Alarm events/⏰🔔 Triggered.md>)
 
 ## How to call
 
 ```yaml
-- RUN|OnTokenTimeout:
+- RUN|OnTokenPurged:
     Item: 
         ID: <token-uuid>
         Wallet: <wallet-id>
@@ -17,7 +17,7 @@
 ## Script
 
 ```yaml
-📃 OnTokenTimeout:
+📃 OnTokenPurged:
 
 # Assert the inputs
 - ASSERT|$Item:
