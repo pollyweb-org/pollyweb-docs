@@ -1,4 +1,4 @@
-# 🤵 OnChatChanges 📃 trigger
+# 🤵 OnChatChanges 📃 handler
 
 > Purpose
 

@@ -5,7 +5,7 @@
 box Broker 🤵 domain #FFFFFA
     participant "Script 📃" as script
     participant "Chats 🪣" as table
-    participant "OnCreated 📃" as trigger
+    participant "OnCreated 📃" as handler
 end box
 
 participant "Notifier 📣" as notifier
@@ -18,11 +18,11 @@ activate script
 
 
 activate table
-    table --> trigger: ADDED 🔔
+    table --> handler: ADDED 🔔
 deactivate table
 
-activate trigger
-    trigger --> notifier: SEND 📬 {Open 🐌}
-deactivate trigger
+activate handler
+    handler --> notifier: SEND 📬 {Open 🐌}
+deactivate handler
 
 @enduml 

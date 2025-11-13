@@ -44,7 +44,7 @@ Body:
 |           | [`Children`](<../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Children.md>) |map	| List of children items
 |           | [`Distincts`](<../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Distincts.md>) |	map |	List of grouped fields
 |           | [`NoUpdates`](<../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 NoUpdates.md>) | bool | Blocks item updates
-|           | [`Triggers`](<../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Events.md>) | map | Hooks for [`Raised@Itemizer` 🔔](<../../🛢🔔 Itemizer events/🛢🔔 Raised.md>)
+|           | [`Triggers`](<../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) | map | Hooks for [`Raised@Itemizer` 🔔](<../../🛢🔔 Itemizer events/🛢🔔 Raised.md>)
 |
 
 <br/>

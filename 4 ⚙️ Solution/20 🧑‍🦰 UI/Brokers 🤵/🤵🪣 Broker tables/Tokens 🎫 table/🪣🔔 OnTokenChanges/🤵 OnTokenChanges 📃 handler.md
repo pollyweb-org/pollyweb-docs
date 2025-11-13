@@ -1,4 +1,4 @@
-# 🤵 OnTokenChanges 📃 trigger
+# 🤵 OnTokenChanges 📃 handler
 
 > Purpose
 
