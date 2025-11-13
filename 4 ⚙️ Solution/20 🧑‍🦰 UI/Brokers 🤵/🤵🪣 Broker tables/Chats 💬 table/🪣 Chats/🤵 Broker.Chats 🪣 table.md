@@ -27,8 +27,32 @@ Children:
     Chatters: { Chatters.Chat: Chats.ID }
 
 Handlers:
-    OnChatChanges: 
-        Events: CHANGED
+    
+    OnChatChanges:          # On insert, updated, delete
+        Events: ALTERED     # >> call Updated@Notifier
+    
+    OnChatInserted:         # On Assess@Broker
+        Events: INSERTED    # >> call Open@Notifier
+    
+    OnChatOpened:           # On Opened@Broker
+        Events: UPDATED     # >> call Present@Finder
+        Assert: 
+            New.Status: OPENED
+
+    OnChatPresented:        # On Presented@Broker
+        Events: UPDATED     # >> call Hello@Host
+        Assert: 
+            New.Status: PRESENTED
+
+    OnChatTerminated:       # On Join@Broker + Terminate
+        Events: UPDATED     # >> call Terminated@Host
+        Assert: 
+            New.Status: TERMINATED
+
+    OnChatWrapped:          # On Wrap@Broker
+        Events: UPDATED     # >> call @Advertise
+        Assert:
+            New.Status: WRAPPED
 ```
 
 ## Links
@@ -44,7 +68,7 @@ Handlers:
 
 | [Handler 🔔](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) | [Message 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
 |-|-
-|[`OnChatChanges` 📃](<../🪣🔔 OnChatChanges/🤵 OnChatChanges 📃 handler.md>) | [`Update@Notifier` 🅰️ ](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>)
+|[`OnChatChanges` 📃](<../🪣🔔 OnChatAltered/🤵 OnChatChanges 📃 handler.md>) | [`Update@Notifier` 🅰️ ](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>)
 
 
 ## Example

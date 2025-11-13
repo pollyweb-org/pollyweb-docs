@@ -22,9 +22,9 @@
     | `INSERTED`   | Item inserted on the [Itemized 🛢 dataset](<../🪣🔣 Dataset types/Itemized 🛢 dataset.md>) on a [`SAVE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
     | `UPDATED` | The content of the item has changed on a [`SAVE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
     | `DELETED` | Item deleted on a [`DELETE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>), either soft or hard
-    | `CHANGED` | Raised on `INSERTED` `UPDATED` or `DELETED`
+    | `ALTERED` | Raised on `INSERTED` `UPDATED` or `DELETED`
     | `EXPIRED` | Item removed automatically due to a [`SAVE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) expiration
-    | `PURGED`  | Item removed automatically due to an [`UNDO`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/UNDO ↩️/↩️ UNDO ⌘ cmd.md>) timeout
+    | `WIPED`  | Item removed automatically due to an [`UNDO`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/UNDO ↩️/↩️ UNDO ⌘ cmd.md>) timeout
     |
 
 1. **How to register an Event Handler?**
@@ -35,13 +35,13 @@
     Handlers:
         <handler>: 
             Events: [events]
-            Asserts: {asserts}
+            Assert: {asserts}
     ```
 
     |Input|Details|Example
     |-|-|-
     | `<handler>` | Name of the [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to handle | `MyHandler`
-    | `[events]` | Events to handle | `INSERTED, PURGED`
+    | `[events]` | Events to handle | `INSERTED, WIPED`
     | `{asserts}` | Filter events with [`.Assert`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Assert}.md>) |
     |           | on the latest version of the item | `Item.A`
     |           | on the new property versions | `New.A`
@@ -57,14 +57,14 @@
     Handlers: 
 
         OnTimeout: 
-            Events: EXPIRED, PURGED
+            Events: EXPIRED, WIPED
 
         OnChange: 
-            Events: CHANGED
+            Events: ALTERED
 
         OnSomeStatus:
             Events: UPDATED
-            Asserts: 
+            Assert: 
                 Item.Expires.IsAbove(.Now):
                 New.Status: NEW_STATUS
                 Old.Status: OLD_STATUS

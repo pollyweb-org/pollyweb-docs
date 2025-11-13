@@ -24,7 +24,7 @@ Propagate:
 
 Handlers:
     OnBindChanges: 
-        Events: CHANGED
+        Events: ALTERED
 ```
 
 ## Links
@@ -39,7 +39,7 @@ Handlers:
 
 | Handler | [Message 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | Events
 |-|-|-
-| [`OnBindChanges` 📃](<../🪣🔔 OnBindChanges/🤵 OnBindChanges 📃 handler.md>) | [`Update@Notifier` 🅰️](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>) | `CHANGED`
+| [`OnBindChanges` 📃](<../🪣🔔 OnBindAltered/🤵 OnBindChanges 📃 handler.md>) | [`Update@Notifier` 🅰️](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>) | `ALTERED`
 
 
 ## Example

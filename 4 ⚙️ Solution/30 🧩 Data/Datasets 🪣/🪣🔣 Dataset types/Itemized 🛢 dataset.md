@@ -107,12 +107,12 @@
     Handlers:
         # Handlers these OnX scripts
         OnTimeout: 
-            Events: EXPIRED, PURGED
+            Events: EXPIRED, WIPED
         OnChange: 
-            Events: CHANGED
+            Events: ALTERED
         OnSomeStatus:
             Events: UPDATED
-            Asserts: 
+            Assert: 
                 Item.Expires.IsAbove(.Now):
                 New.Status: NEW_STATUS
                 Old.Status: OLD_STATUS
