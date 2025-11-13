@@ -7,7 +7,7 @@
 <!-- TODO: Finish the code -->
 
 ```yaml
-📃 Pop: 
+📃 Pop-Token: 
 
 # Assert $.Msg
 - ASSERT|$.Msg:

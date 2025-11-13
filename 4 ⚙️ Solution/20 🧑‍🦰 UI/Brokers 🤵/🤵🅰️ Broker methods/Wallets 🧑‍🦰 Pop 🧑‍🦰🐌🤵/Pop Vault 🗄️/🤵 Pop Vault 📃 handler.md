@@ -7,7 +7,7 @@
 ## Script
 
 ```yaml
-📃 PopVault@Broker: 
+📃 Pop-Vault: 
 
 # Assert $.Msg
 - ASSERT|$.Msg:
