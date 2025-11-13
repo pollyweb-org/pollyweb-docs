@@ -19,8 +19,8 @@
     
     |Value|Description|
     |-|-|
-    | `ADDED`   | Item inserted on the [Itemized 🛢 dataset](<../🪣🔣 Dataset types/Itemized 🛢 dataset.md>) on a [`SAVE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
-    | `CHANGED` | The content of the item has changed on a [`SAVE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
+    | `INSERTED`   | Item inserted on the [Itemized 🛢 dataset](<../🪣🔣 Dataset types/Itemized 🛢 dataset.md>) on a [`SAVE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
+    | `UPDATED` | The content of the item has changed on a [`SAVE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
     | `EXPIRED` | Item removed automatically due to a [`SAVE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) expiration
     | `DELETED` | Item deleted on a [`DELETE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>), either soft or hard
     | `PURGED`  | Item removed automatically due to an [`UNDO`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/UNDO ↩️/↩️ UNDO ⌘ cmd.md>) timeout
@@ -40,7 +40,7 @@
     |Input|Details|Example
     |-|-|-
     | `<handler>` | Name of the [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to handle | `MyHandler`
-    | `[events]` | Events to handle | `ADDED, PURGED`
+    | `[events]` | Events to handle | `INSERTED, PURGED`
     | `{asserts}` | Filter events with [`.Assert`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Assert}.md>) |
     |           | on the new version of the item | `Item.A`
     |           | and on old versions of changes | `Changes.A`
@@ -58,10 +58,10 @@
             Events: EXPIRED, PURGED
 
         OnChange: 
-            Events: ADDED, CHANGED, DELETED
+            Events: INSERTED, UPDATED, DELETED
 
         OnSomeStatus:
-            Events: CHANGED
+            Events: UPDATED
             Asserts: 
                 Item.Expires.IsAbove(.Now):
                 Item.Status: NEW_STATUS
