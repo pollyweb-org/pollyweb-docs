@@ -4,7 +4,7 @@ box Talker 😃 domain #FFFFFA
     participant "Script 📃" as script
     participant ".TALK 📃" as talk
     participant "Talkers 🪣" as talkers
-    participant "Talker 📃" as talker
+    participant "Handler 📃" as talker
 end box
 
 
@@ -13,7 +13,10 @@ activate script
 deactivate script
 
 activate talk
-    talk -> talkers: READ 🧲
+    talk -> talkers: READ 🧲 {$.Chat.Key}
+    activate talkers
+        talkers -> talk: {$talker}
+    deactivate talkers
     talk -> talker: RUN {$talker.Script}
 deactivate talk
 

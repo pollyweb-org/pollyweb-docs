@@ -1,12 +1,11 @@
-@startuml PopBind@Vault
-' TODO
+@startuml Pop@Broker
  
 participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
     participant "Pop@ 📃" as pop
     participant "Assess@ 📃" as assess
-    participant "Introduced@ 📃" as introduced
+    participant "Hello@ 📃" as introduced
     'participant "Wallets 🪣" as wallets
 end box
 
@@ -22,7 +21,7 @@ activate wallet
 deactivate wallet
 
 activate pop
-    pop -> engine: LOCATOR 🔆 {locator, script}
+    pop -> engine: LOCATE 🔆 {locator, script}
 deactivate pop
 
 activate engine
