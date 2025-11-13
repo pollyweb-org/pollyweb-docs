@@ -10,7 +10,7 @@
     * PopBind@Broker: {{PopBind handler}}
     * PopHost@Broker: {{PopHost handler}}
     * PopIssuer@Broker: {{ProIssuer handler}}
-    * PopToken@Broker: [`PopToken` 📃 handler](<🎫 PopToken/🤵 PopToken 📃 handler.md>)
+    * PopToken@Broker: [`PopToken` 📃 handler](<Pop Token 🎫/🤵 PopToken 📃 handler.md>)
     * PopVault@Broker: [`PopVault` 📃 handler](<Pop Vault 🗄️/🤵 PopVault 📃 handler.md>)
 
 
