@@ -18,11 +18,12 @@
     AllOf: Key, Script
     Texts: Key, Script
 
-# Save the talker
+# Save the temporary talker
 - SAVE|Talker.Talkers:
     Domain: $.Hosted.Domain
     Key: $Key
     Script: $Script
+    .Delete: 5 minutes
 ```
 
 Uses||

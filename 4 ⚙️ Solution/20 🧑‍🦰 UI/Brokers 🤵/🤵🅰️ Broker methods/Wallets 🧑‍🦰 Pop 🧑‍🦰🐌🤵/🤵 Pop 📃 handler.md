@@ -1,7 +1,7 @@
 # 🤵📃 Pop handler
 
 > Purpose
-* [Script 📃](<🤵 PopBind 🐌 msg.md>) that implements the [`Pop@Broker` 🅰️ method](<🤵 PopBind 🐌 msg.md>)
+* [Script 📃](<🤵 Pop 🐌 msg.md>) that implements the [`Pop@Broker` 🅰️ method](<🤵 Pop 🐌 msg.md>)
 
 
 ## Diagram
@@ -13,22 +13,45 @@
 <!-- TODO: Finish the code -->
 
 ```yaml
-📃 PopBind: 
+📃 Pop@Broker: 
 
 # Assert $.Msg
 - ASSERT|$.Msg:
-    - AllOf: Hook, Bind
-    - UUIDs: Hook, Bind
+    - AllOf: Hook 
+    - UUIDs: Hook
 
-# Get the Bind
-- READ >> $bind:
-    Set: Broker.Binds
-    Key: $.Msg.Bind
+# Get the Wallet
+- READ >> $wallet:
+    Set: Broker.Wallets
+    Key: $.Msg.From
 
 # Verify the Message
 - VERIFY|$.Msg:
-    Key: $bind.Wallet.PublicKey
+    Key: $wallet.PublicKey
 
+# Assign the Hello@Host Locator key
+- CASE|$.Msg.Context >> $handler:
+    BIND: PopBind
+    HOST: PopHost
+    ISSUER: PopIssuer
+    TOKEN: PopToken
+    VAULT: PopVault
+
+# Verify that a Locator key was assign
+- ASSERT: $handler
+
+# Request the Wallet to open a chat
+- SEND:
+    Header:
+        To: $wallet.Notifier
+        Subject: Open@Notifier
+    Body:
+        Hook: $.Msg.Hook
+        Schema: .HOST
+        Host: $.Hoster.Domain
+        Key: $handler
+        Parameters: 
+            Key: $.Msg.Key
 ```
 
 Uses||

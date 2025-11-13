@@ -1,6 +1,6 @@
 # 🧑‍🦰🐌🤵 PopBind @ Broker
 
-> Implemented by [`PopBind@Broker` 📃 script](<🤵 PopBind 📃 handler.md>)
+> Implemented by [`PopBind@Broker` 📃 script](<🤵 Pop 📃 handler.md>)
 
 * Opens a new [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) 
     * with the [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
