@@ -38,13 +38,13 @@ Body:
 | |         `To` | string | [Itemizer 🛢 domain](<../../🛢🤲 Itemizer helper.md>) name
 | |         `Subject` | string | `Build@Itemizer`
 | Body      | `Name`     | string    |  [Itemized 🪣 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) name
-|           | `Key`        | string[]  | Index for [`Save@`](<../Item Save 👥🚀🛢/🛢 Save 🚀 request.md>) and [`Get@`](<../Item Read 👥🚀🛢/🛢 Read 🚀 request.md>)
-|           | `Parents` | dict |		List of parent items
-|           | `Propagate`| string[] | List of parents to propagate
-|           | `Children` |dict	| List of children items
-|           | `Distincts`|	map |	List of grouped fields
-|           | `NoUpdates` | bool | Blocks item updates
-|           | `Triggers`| dict | Hooks for [`Triggered@Itemizer` 🔔](<../../🛢🔔 Itemizer events/🛢🔔 Triggered.md>)
+|           | `Key`        | string[]  | Index for [`Save@`](<../Item Save 👥🚀🛢/🛢 Save 🚀 request.md>) and [`Read@`](<../Item Read 👥🚀🛢/🛢 Read 🚀 request.md>)
+|           | [`Parents`](<../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Parents.md>) | map |		List of parent items
+|           | [`Propagate`](<../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Propagate.md>) | string[] | List of parents to propagate
+|           | [`Children`](<../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Children.md>) |map	| List of children items
+|           | [`Distincts`](<../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Distincts.md>) |	map |	List of grouped fields
+|           | [`NoUpdates`](<../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 NoUpdates.md>) | bool | Blocks item updates
+|           | [`Triggers`](<../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Triggers.md>) | map | Hooks for [`Triggered@Itemizer` 🔔](<../../🛢🔔 Itemizer events/🛢🔔 Triggered.md>)
 |
 
 <br/>

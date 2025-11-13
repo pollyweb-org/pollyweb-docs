@@ -19,6 +19,9 @@ Parents:
     Wallet: { Wallets.ID: Binds.Wallet }
     Vault: { Domains.Name: Binds.Vault }
 
+Propagate:
+    - Vault
+
 Triggers:
     OnBindChanges: ADDED, CHANGED, DELETED
 ```
@@ -28,7 +31,7 @@ Triggers:
 | Link | Table | Contains
 |-|-|-
 | Parent    | [`Wallets` 🪣](<../../Wallets 🧑‍🦰 table/🤵 Broker.Wallets 🪣 table.md>) | [Wallet 🧑‍🦰 app](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
-|| [`Domains` 🪣](<../../Domains 👥 table/🤵 Broker.Domains 🪣 table.md>) | [domains 👥](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
+|| [`Domains` 🪣](<../../Domains 👥 table/🪣 Domains/🤵 Broker.Domains 🪣 table.md>) | [domains 👥](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
 
 
 ## Triggers

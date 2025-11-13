@@ -1,9 +1,8 @@
 # 🤵📃 Chat 🚀 Broker
 
-> [Script 📃](<🤵 Chat 🚀 request.md>)
+> Purpose
+* [Script 📃](<🤵 Chat 🚀 request.md>) the returns the details of a [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
 
-
-<br/>
 
 ## Flow
 

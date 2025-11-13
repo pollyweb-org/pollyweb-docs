@@ -26,6 +26,9 @@ Parents:
     Wallet: { Wallets.ID: Tokens.Wallet }
     Issuer: { Domains.Name: Tokens.Issuer }
 
+Propagate:
+    - Issuer
+
 Views:
     Offered: 
         - Status: OFFERED
@@ -47,7 +50,7 @@ Uses: [`.Now`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System �
 | Link | Table | Stores
 |-|-|-
 | Parent    | [`Wallets` 🪣](<../../Wallets 🧑‍🦰 table/🤵 Broker.Wallets 🪣 table.md>) | [Wallets 🧑‍🦰](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) |
-|           | [`Domains` 🪣](<../../Domains 👥 table/🤵 Broker.Domains 🪣 table.md>) | [domains 👥](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
+|           | [`Domains` 🪣](<../../Domains 👥 table/🪣 Domains/🤵 Broker.Domains 🪣 table.md>) | [domains 👥](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
 
 
 ## Triggers
