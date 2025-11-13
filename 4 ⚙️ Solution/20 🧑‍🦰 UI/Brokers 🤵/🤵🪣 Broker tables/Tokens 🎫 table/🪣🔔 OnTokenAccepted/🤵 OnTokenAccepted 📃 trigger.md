@@ -31,11 +31,6 @@
 ```yaml
 📃 OnTokenAccepted:
 
-# Assert the inputs
-- ASSERT|$Item:
-    AllOf: ID, Wallet
-    UUIDs: ID, Wallet
-
 # Assert if Status: OFFERED -> ACTIVE
 - IF:
     Assert: 
@@ -43,14 +38,20 @@
         $Item.Status: ACTIVE
     Else: RETURN
 
+# Assert the inputs
+- ASSERT|$Item:
+    AllOf: ID, Issuer, Hook
+    UUIDs: ID, Hook
+    Texts: Issuer
+
 # Inform the Issuer
 - SEND:
     Header:
         To: $Item.Issuer
         Subject: Accepted@Issuer
     Body:
-        Token: $Item.Token
-        Hook: $token.Hook
+        Hook: $Item.Hook    # Hook @ Issuer
+        Token: $Item.ID     # Token.ID @ Broker
 ```
 
 |Uses||
