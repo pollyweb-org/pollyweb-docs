@@ -1,4 +1,4 @@
-@startuml OnTokenChanges
+@startuml OnTokenAltered
 
 'participant "Wallet 👱" as wallet
 
