@@ -14,8 +14,8 @@ Here's the [Itemized 🛢 schema](<../../../../30 🧩 Data/Datasets 🪣/🪣�
 
 ```yaml
 Prefix: Broker
-Table: Windows
-Key: ID
+Table: Frontend
+Key: Wallet
 ```
 
 

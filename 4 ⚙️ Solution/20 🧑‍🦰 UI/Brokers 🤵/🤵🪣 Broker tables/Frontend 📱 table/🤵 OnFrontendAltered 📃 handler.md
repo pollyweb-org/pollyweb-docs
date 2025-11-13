@@ -1,9 +1,9 @@
-# 🤵 OnChatChanges 📃 handler
+# 🤵 OnFrontendAltered 📃 handler
 
 > Purpose
 
 * [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to inform a [Notifier 📣 domain](<../../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>) 
-    * that [Chats 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) need to be updated 
+    * that the UI need to be refreshed 
     * on the [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 
 > Flow 
@@ -18,26 +18,25 @@
 ## How to call
 
 ```yaml
-- RUN|OnChatChanges:
+- RUN|OnFrontendAltered:
     Item: 
-        ID: <chat-uuid>
-        Wallet: <wallet-id>
+        Wallet: <wallet-uuid>
+        Chats: {...}
+        Binds: {...}
+        Tokens: {...}
+    New: {...}
+    Old: {...}
 ```
 
 ## Script
 
 ```yaml
-📃 OnChatChanges:
+📃 OnFrontendAltered:
 
 # Assert the inputs
 - ASSERT|$Item:
-    AllOf: ID, Wallet
-    UUIDs: ID, Wallet
-
-# Get the Wallet 🧑‍🦰
-- READ >> $wallet:
-    Set: Broker.Wallets
-    Key: $Item.Wallet
+    AllOf: Wallet, Frontend
+    UUIDs: Wallet
 
 # Tell the Notifier to perform updates
 - SEND:
@@ -46,12 +45,16 @@
         Subject: Updated@Notifier
     Body:
         Wallet: $Item.Wallet
-        Updates: [CHATS]
+        Chats: $Item.Chats
+        Binds: $Item.Binds
+        Tokens: $Item.Tokens
+        New: $New
+        Old: $Old
 ```
 
 |Uses||
 |-|-
-| [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`READ`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`SEND`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>)
-| [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Broker.Wallets` 🪣 table](<../Wallets 🧑‍🦰 table/🤵 Broker.Wallets 🪣 table.md>)
+| [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>)  [`SEND`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>)
+| [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Broker.Frontend` 🪣 table](<🤵 Broker.Frontend 🪣 table.md>)
 | [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Updated@Notifier` 🅰️ method](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>)
 |
