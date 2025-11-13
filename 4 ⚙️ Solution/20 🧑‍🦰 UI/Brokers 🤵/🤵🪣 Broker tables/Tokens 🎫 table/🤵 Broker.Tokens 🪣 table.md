@@ -35,7 +35,7 @@ Views:
         - Status: ACTIVE
 
 Triggers:
-    OnTokenTimeout: EXPIRED, PURGED
+    OnTokenPurged: PURGED
     OnTokenChanged: ADDED, CHANGED, DELETED
 ```
 

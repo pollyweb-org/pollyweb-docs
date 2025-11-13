@@ -2,7 +2,9 @@
 
 > Purpose
 
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to inform a [Notifier 📣 domain](<📣👥 Notifier domain.md>) that [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) need to be updated on the [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to inform a [Notifier 📣 domain](<../../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>) 
+    * that [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) need to be updated 
+    * on the [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 
 > Flow 
 
@@ -11,7 +13,7 @@
 ## How to call
 
 ```yaml
-- RUN|OnTokenTimeout:
+- RUN|OnTokenChanged:
     Item: 
         ID: <token-uuid>
         Wallet: <wallet-id>
@@ -20,7 +22,7 @@
 ## Script
 
 ```yaml
-📃 OnTokenTimeout:
+📃 OnTokenChanged:
 
 # Assert the inputs
 - ASSERT|$Item:
@@ -32,19 +34,19 @@
     Set: Broker.Wallets
     Key: $Item.Wallet
 
-# Remove from Wallet
+# Tell the Notifier to perform updates
 - SEND:
     Header:
         To: $wallet.Notifier
-        Subject: Remove@Notifier
+        Subject: Updated@Notifier
     Body:
         Wallet: $Item.Wallet
-        Token: $Item.ID
+        Updates: [TOKENS]
 ```
 
 |Uses||
 |-|-
 | [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`READ`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`SEND`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>)
-| [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Tokens`](<🤵 Broker.Tokens 🪣 table.md>)
-| [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Remove@Notifier` 🅰️ method](<../../../Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Remove 🤵🐌📣/📣 Remove 🐌 msg.md>)
+| [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Broker.Wallets` 🪣 table](<../Wallets 🧑‍🦰 table/🤵 Broker.Wallets 🪣 table.md>)
+| [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Updated@Notifier` 🅰️ method](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>)
 |

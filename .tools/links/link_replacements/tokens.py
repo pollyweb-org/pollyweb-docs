@@ -505,14 +505,16 @@ def replace_itemized_datasets_tokens(md_files):
     return _replace_simple(md_files, pattern, "[Itemized 🪣 datasets](<Itemized 🛢 dataset.md>)")
 
 
+@register_hardcoded("notifier", replacement="[Notifier 📣 domain](<📣 Notifier 👥 domain.md>)", token_label="Notifier")
 def replace_notifier_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Notifier`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, "[Notifier 📣 domain](<📣👥 Notifier domain.md>)")
+    return _replace_simple(md_files, pattern, "[Notifier 📣 domain](<📣 Notifier 👥 domain.md>)")
 
 
+@register_hardcoded("notifiers", replacement="[Notifier 📣 domains](<📣 Notifier 👥 domain.md>)", token_label="Notifiers")
 def replace_notifiers_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Notifiers`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, "[Notifier 📣 domains](<📣👥 Notifier domain.md>)")
+    return _replace_simple(md_files, pattern, "[Notifier 📣 domains](<📣 Notifier 👥 domain.md>)")
 
 
 def replace_triple_brace_tokens(md_files: Iterable[str], file_dict: dict[str, list[tuple[str, str]]]) -> int:

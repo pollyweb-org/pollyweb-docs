@@ -21,7 +21,6 @@ activate broker
     'broker -> tokens: READ {token}
     broker -> tokens: SAVE {token}
     broker --> issuer: SEND {Accepted 🐌}
-    broker -> broker: RUN {update-notifier}
 deactivate broker
 
 
