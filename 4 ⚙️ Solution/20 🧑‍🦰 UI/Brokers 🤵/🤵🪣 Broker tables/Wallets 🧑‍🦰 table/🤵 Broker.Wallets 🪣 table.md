@@ -44,7 +44,7 @@ Distincts:
 | Link | Table | Contains
 |-|-|-
 | Parent | [`Notifiers` 🪣](<../Notifiers 📣 table/🤵 Broker.Notifiers 🪣 table.md>) | [Notifier 📣 domain](<../../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>)
-| Children | [`Chats` 🪣](<../Chats 💬 table/🤵 Broker.Chats 🪣 table.md>) | [Chats 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
+| Children | [`Chats` 🪣](<../Chats 💬 table/🪣 Chats/🤵 Broker.Chats 🪣 table.md>) | [Chats 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
 | | [`Binds` 🪣](<../Binds 🔗 table/🤵 Broker.Binds 🪣 table.md>) | [Binds 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
 | | [`Tokens` 🪣](<../Tokens 🎫 table/🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>) | [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
 |
