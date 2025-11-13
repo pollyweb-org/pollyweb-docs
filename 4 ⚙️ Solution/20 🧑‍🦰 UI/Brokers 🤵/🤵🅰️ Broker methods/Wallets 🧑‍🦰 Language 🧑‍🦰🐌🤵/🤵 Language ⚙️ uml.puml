@@ -37,7 +37,6 @@ activate broker
     broker -> tokens: 
     broker -> wallets: SAVE 💾 {language}
 
-    broker -> broker: RUN: Update-Notifier
 deactivate broker
 
 

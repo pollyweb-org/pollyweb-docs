@@ -24,11 +24,6 @@
 - DELETE|$token >> $deleted:
     Undo: 30 days
 
-# Update the Token 🎫 list
-- RUN|Update-Notifier:
-    wallet: $token.Wallet:
-    updates: TOKENS
-
 # Inform the user 🤔
 - SUCCESS:
     Text: Token removed.

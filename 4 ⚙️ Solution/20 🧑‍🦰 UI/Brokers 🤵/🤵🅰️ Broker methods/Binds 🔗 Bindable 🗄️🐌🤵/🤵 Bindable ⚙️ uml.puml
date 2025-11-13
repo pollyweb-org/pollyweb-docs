@@ -30,7 +30,6 @@ participant "Wallet 👱" as wallet
         broker --> itemizer: SAVE 💾 {binds}
 
         broker --> vault: SEND: Bound 🐌 {codes} 
-        broker --> wallet: RUN: Update Binds 🔗
     deactivate broker
 
 @enduml 

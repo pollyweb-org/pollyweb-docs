@@ -46,7 +46,7 @@
         Subject: Updated@Notifier
     Body:
         Wallet: $Item.Wallet
-        Updates: [CHATS]
+        Updates: [BINDS]
 ```
 
 |Uses||
