@@ -72,6 +72,12 @@ Item:
     ---
     <br/>
 
+1. **How to cancel a `Delete`?**
+
+    To cancel a scheduled deletion, save the item again with an empty `Delete`.
+
+    ---
+    <br/>
 
 1. **How to know if the item was deleted on timeout?**
 
@@ -84,9 +90,9 @@ Item:
 1. **What is the `Version` for?**
 
     The `Version` argument is used for optimistic concurrency.
-    * When [Scripts 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) call the [`Get@Itemizer`](<../Item Get 👥🚀🛢/🛢 Get 🚀 request.md>) method followed by changes to an [Item 🛢](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>), other [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) threads may be changing the same [Item 🛢](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) concurrently.
+    * When [Scripts 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) call the [`Read@Itemizer`](<../Item Read 👥🚀🛢/🛢 Read 🚀 request.md>) method followed by changes to an [Item 🛢](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>), other [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) threads may be changing the same [Item 🛢](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) concurrently.
   
-    * To avoid locking items with a standard ACID transaction, the [`Save@Itemizer`](<🛢 Save 🚀 request.md>) method checks the original version collected on the [`Get@Itemizer`](<../Item Get 👥🚀🛢/🛢 Get 🚀 request.md>) method.
+    * To avoid locking items with a standard ACID transaction, the [`Save@Itemizer`](<🛢 Save 🚀 request.md>) method checks the original version collected on the [`Read@Itemizer`](<../Item Read 👥🚀🛢/🛢 Read 🚀 request.md>) method.
   
     * If the version has changed due to a concurrent [`SAVE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) in the [Talker 😃 domain](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>), then the [Itemizer 🛢 helper domain](<../../🛢🤲 Itemizer helper.md>) rejects the change, forcing the [Talker 😃 domain](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>) to re-run the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
 
@@ -99,7 +105,7 @@ Item:
     |-|-
     | `OK`        | The item was saved successfully.
     | `BLOCKED` | There is already an item with the same key and a different content, and the table schema was configured with `NoUpdates` to block any changes after the first [`Save@Itemizer` 🅰️ method](<🛢 Save 🚀 request.md>).
-    | `OUTDATED`  | The `.Version` of the item saved in the dataset (let's call it `A`) is different from the one given in `Item.Version` (let's call it B), meaning that item `A` has changed since item `B` was pulled with the [`Get@Itemizer` 🅰️ method](<../Item Get 👥🚀🛢/🛢 Get 🚀 request.md>) call.
+    | `OUTDATED`  | The `.Version` of the item saved in the dataset (let's call it `A`) is different from the one given in `Item.Version` (let's call it B), meaning that item `A` has changed since item `B` was pulled with the [`Read@Itemizer` 🅰️ method](<../Item Read 👥🚀🛢/🛢 Read 🚀 request.md>) call.
     
     ---
     <br/>

@@ -159,14 +159,31 @@
     ```yaml
     📃 Example:
 
-    - SQL >> $item.A:
+    - SELECT >> $item.A:
         First: A
         From: $list
         Where: B.Is($item.B)
     
     - SAVE|$item
     ```
-    Uses: 
+    Uses: [`SELECT`](<../../⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>) [`.Is`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>)
+
+    ---
+    <br/>
+
+1. **How to use functions on .Delete?**
+
+    Consider the following [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) excerpt from [`Offer@Broker` 🅰️ method](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>).
+    
+    ```yaml
+    SAVE|$item:
+        .Delete: 
+            .Lower:
+                $expiration,
+                Now.Add(30 days)
+    ```
+
+    Uses: [`.Lower`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Lower}.md>) [`.Now`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Now}.md>) [`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) 
 
     ---
     <br/>

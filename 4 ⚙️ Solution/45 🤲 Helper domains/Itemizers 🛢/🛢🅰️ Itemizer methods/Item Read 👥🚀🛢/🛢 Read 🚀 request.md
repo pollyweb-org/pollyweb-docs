@@ -1,4 +1,4 @@
-# 👥🚀🛢 Get @ Itemizer
+# 👥🚀🛢 Read @ Itemizer
 
 > Flow
 * Part of [Itemizer 🛢 helper](<../../🛢🤲 Itemizer helper.md>)
@@ -18,7 +18,7 @@
 Header:
     From: any-talker.dom
     To: any-itemizer.dom
-    Subject: Get@Itemizer
+    Subject: Read@Itemizer
 
 Body:
     Set: MySet
@@ -29,7 +29,7 @@ Body:
 |-|-|-|-
 | Header    |`From`|domain| [Talker 😃](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>) from [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
 |           |`To`|domain| [Itemizer 🛢](<../../🛢🤲 Itemizer helper.md>) from [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
-|           | `Subject`     | string    | `Get@Itemizer`
+|           | `Subject`     | string    | `Read@Itemizer`
 | Body      | `Set`     | string    | Set from [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
 |           | `Key`        | string    | Key from [`Save@Itemizer`](<../Item Save 👥🚀🛢/🛢 Save 🚀 request.md>)
 |
