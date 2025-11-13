@@ -1,7 +1,6 @@
 @startuml 👉 Printer NFC-QR check-in
 ' ------------
 
-'participant "Wallet 👱\napp" as wallet  
 'participant "Notifier 📣\nbff" as notifier
 'participant "Printer 🖨️\nsupplier" as printer
 
@@ -14,6 +13,8 @@ box "Broker 🤵" #FFFFFA
 end box
 
 participant "Notifier 📣" as notifier
+participant "Wallet 👱" as wallet  
+
 
 'participant "Finder 🔎" as finder
 
@@ -24,6 +25,11 @@ deactivate assess
 
 activate script
     script --> notifier: SEND Converse {$chat}
+
+    activate notifier
+        notifier --> wallet: 
+    deactivate notifier
+
     script -> script2: RUN {$chat.wallet}
     script -> assess: 
 deactivate script

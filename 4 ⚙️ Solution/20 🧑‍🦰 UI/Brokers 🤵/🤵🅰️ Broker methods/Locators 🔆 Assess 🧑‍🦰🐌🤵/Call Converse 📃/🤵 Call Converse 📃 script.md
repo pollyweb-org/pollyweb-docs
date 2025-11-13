@@ -2,6 +2,9 @@
 
 > Part of the [`Assess@Broker` 📃 script](<../🤵 Assess 📃 handler.md>)
 
+## Diagram
+
+![alt text](<🤵 Call Converse ⚙️ uml.png>)
 
 ## Script
 
