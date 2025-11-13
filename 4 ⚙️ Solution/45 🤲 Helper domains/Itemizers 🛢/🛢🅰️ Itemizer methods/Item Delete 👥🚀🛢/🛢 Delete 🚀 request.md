@@ -65,7 +65,7 @@ Body:
 1. **How to know if the item was deleted on timeout?**
 
     [`Talker`](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>) domains can register a hook on [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>) to listen to delete events on the [`Itemized dataset`](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
-    * Upon deletion, [`Itemizer helper`](<../../🛢🤲 Itemizer helper.md>) invoke the [`Triggered@Talker`](<../../../Alarms ⏰/⏰🔔 Alarm events/⏰🔔 Triggered.md>) method.
+    * Upon deletion, [`Itemizer helper`](<../../🛢🤲 Itemizer helper.md>) invoke the [`Triggered@Itemizer` 🔔 event](<../../🛢🔔 Itemizer events/🛢🔔 Triggered.md>).
 
     ---
     <br/>

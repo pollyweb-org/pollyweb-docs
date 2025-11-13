@@ -3,11 +3,13 @@
 > Purpose: 
 
 * [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to execute when a soft delete of [`Tokens` 🪣 table](<../🤵 Broker.Tokens 🪣 table.md>) is purged.
-* Triggered by the [`Triggered@Talker` 🅰️ method](<../../../../../45 🤲 Helper domains/Alarms ⏰/⏰🔔 Alarm events/⏰🔔 Triggered.md>)
+* Triggered by the [`Triggered@Itemizer` 🔔 event](<../../../../../45 🤲 Helper domains/Itemizers 🛢/🛢🔔 Itemizer events/🛢🔔 Triggered.md>)
+
 
 ## Diagram
 
 ![alt text](<🤵 OnTokenPurged ⚙️ uml.png>)
+
 
 ## How to call
 
@@ -17,6 +19,7 @@
         ID: <token-uuid>
         Wallet: <wallet-id>
 ```
+
 
 ## Script
 

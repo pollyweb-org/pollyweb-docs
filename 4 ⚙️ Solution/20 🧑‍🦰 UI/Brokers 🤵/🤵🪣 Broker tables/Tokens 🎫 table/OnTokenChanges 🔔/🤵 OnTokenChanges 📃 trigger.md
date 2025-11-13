@@ -1,4 +1,4 @@
-# 🤵 OnTokenChanged 📃 trigger
+# 🤵 OnTokenChanges 📃 trigger
 
 > Purpose
 
@@ -8,7 +8,12 @@
 
 > Flow 
 
-* Triggered by the [`Triggered@Talker` 🅰️ method](<../../../../../45 🤲 Helper domains/Alarms ⏰/⏰🔔 Alarm events/⏰🔔 Triggered.md>)
+* Triggered by the [`Triggered@Itemizer` 🔔 event](<../../../../../45 🤲 Helper domains/Itemizers 🛢/🛢🔔 Itemizer events/🛢🔔 Triggered.md>)
+
+
+## Diagram
+
+![alt text](<🤵 OnTokenChanges ⚙️ uml.png>)
 
 ## How to call
 

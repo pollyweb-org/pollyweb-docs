@@ -1,6 +1,11 @@
 🌬️ Streamer domain role
 ===
 
+<!-- TODO: check this replacement -->
+> Works with [Subscriber 🔔 domains](<../Subscribers 🔔/🔔🎭 Subscriber role.md>)
+
+## FAQ
+
 1. **What is a Streamer domain role in NLWeb?**
 
     A Streamer 🌬️ is any [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) that 

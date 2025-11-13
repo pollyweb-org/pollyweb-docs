@@ -13,16 +13,17 @@ participant "Notifier 📣" as notifier
 wallet --> remove: Pop 🐌
 
 activate remove
-    remove -> tokens: DELETE {undo}
-deactivate remove
+    remove -> tokens: DELETE 🗑️ {undo}
+'deactivate remove
 
-activate tokens
+
     tokens --> tokens: wait
+activate tokens
     tokens --> purge: PURGED 🔔
 deactivate tokens
 
 activate purge
-    purge --> notifier: Remove 🐌 {token}
+    purge --> notifier: SEND 📬 {Remove 🐌 token}
 deactivate purge
 
 @enduml 
