@@ -33,7 +33,12 @@ Views:
     Active: 
         - .Now.IsBetween(Starts, Expires)
         - Status: ACTIVE
+
+Triggers:
+    OnTokenTimeout: EXPIRED, PURGED
+    OnTokenChanged: ADDED, CHANGED, DELETED
 ```
+
 Uses: [`.Now`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Now}.md>) [`.IsBetween`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsBetween}.md>) 
 
 

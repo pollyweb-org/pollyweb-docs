@@ -8,7 +8,7 @@
 ## How to call
 
 ```yaml
-- RUN|TokenTimeout:
+- RUN|OnTokenTimeout:
     Item: 
         ID: <token-uuid>
         Wallet: <wallet-id>
@@ -17,7 +17,7 @@
 ## Script
 
 ```yaml
-📃 TokenTimeout:
+📃 OnTokenTimeout:
 
 # Assert the inputs
 - ASSERT|$Item:

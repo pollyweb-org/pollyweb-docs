@@ -25,23 +25,14 @@
 - VERIFY|$.Msg:
     Key: $wallet.PublicKey
 
-# Get the Offer 
+# Get the offered Token
 - READ >> $offer:
-    Set: Broker.Offers
+    Set: $wallet.Offers
     Key: $.Msg.Token
-# idempotent, don't delete
-# it will timeout eventually
 
-# Get the Token 
-- READ >> $token:
-    Set: Broker.Tokens
-    Key: $.Msg.Token
-    Default: $offer
-# idempotent
-
-# Save the Token
-- SAVE|$token:
-    $offer
+# Verify the status
+- ASSERT|$offer:
+    Status.In(OFFERED, ACTIVE)
 
 # Inform the Issuer
 - SEND:
@@ -51,6 +42,10 @@
     Body:
         Token: $token.Token
         Hook: $token.Hook
+
+# Activate the Token
+- SAVE|$offer:
+    Status: ACTIVE
 
 # Updated the Tokens
 - RUN|Update-Notifier:
