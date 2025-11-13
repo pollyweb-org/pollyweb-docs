@@ -1,11 +1,11 @@
-@startuml OnTokenChanged
+@startuml OnTokenChanges
 
 'participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
     participant "Script 📃" as script
     participant "Tokens 🪣" as tokens
-    participant "OnChanged 📃" as change
+    participant "OnChanges 📃" as change
 end box
 
 participant "Notifier 📣" as notifier
@@ -13,15 +13,14 @@ participant "Notifier 📣" as notifier
 'wallet --> script: Pop 🐌
 
 activate script
-    script -> tokens: SAVE, DELETE
-deactivate script
+    script -> tokens: SAVE 💾, DELETE 🗑️
 
 activate tokens
     tokens --> change: trigger 🔔
 deactivate tokens
 
 activate change
-    change --> notifier: Updated 🐌
+    change --> notifier: SEND 📬 {Updated 🐌}
 deactivate change
 
 @enduml 

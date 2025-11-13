@@ -2,14 +2,14 @@
 
  
 participant "Wallet 👱" as wallet
-
 box Broker 🤵 domain #FFFFFA
     participant "Saved@ 📃" as broker
     participant "Wallets 🪣" as wallets
     'participant "Offers 🪣" as offers
     participant "Tokens 🪣" as tokens
-    participant "Issuer 🎴" as issuer
 end box
+participant "Issuer 🎴" as issuer
+
 
 activate wallet
     wallet -> broker: Saved@ 🐌 {token}

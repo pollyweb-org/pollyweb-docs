@@ -116,6 +116,11 @@ COMMAND_REPLACEMENT = "[Command ⌘](<Command ⌘.md>)"
 COMMANDS_REPLACEMENT = "[Commands ⌘](<Command ⌘.md>)"
 BROKER_REPLACEMENT = "[Broker 🤵 domain](<🤵 Broker 🤲 helper.md>)"
 SELLER_REPLACEMENT = "[Seller 🎭 domain](<💵🎭 Seller role.md>)"
+SELLERS_REPLACEMENT = "[Seller 🎭 domains](<💵🎭 Seller role.md>)"
+SUBSCRIBER_REPLACEMENT = "[Subscriber 🔔 domain](<../Subscribers 🔔/🔔🎭 Subscriber role.md>)"
+SUBSCRIBERS_REPLACEMENT = "[Subscriber 🔔 domains](<../Subscribers 🔔/🔔🎭 Subscriber role.md>)"
+STREAMER_REPLACEMENT = "[Streamer 🌬️ domain](<🌬️🎭 Streamer role.md>)"
+STREAMERS_REPLACEMENT = "[Streamer 🌬️ domains](<🌬️🎭 Streamer role.md>)"
 CONSUMER_REPLACEMENT = "[Consumer 💼 domain](<💼🎭 Consumer role.md>)"
 CONSUMERS_REPLACEMENT = "[Consumer 💼 domains](<💼🎭 Consumer role.md>)"
 WALLET_REPLACEMENT = "[Wallet 🧑‍🦰 app](<🧑‍🦰 Wallet 🛠️ app.md>)"
@@ -412,6 +417,36 @@ def replace_seller_tokens(md_files):
     return _replace_simple(md_files, pattern, SELLER_REPLACEMENT)
 
 
+@register_hardcoded("sellers", replacement=SELLERS_REPLACEMENT, token_label="Sellers")
+def replace_sellers_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Sellers`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, SELLERS_REPLACEMENT)
+
+
+@register_hardcoded("streamer", replacement=STREAMER_REPLACEMENT, token_label="Streamer")
+def replace_streamer_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Streamer`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, STREAMER_REPLACEMENT)
+
+
+@register_hardcoded("streamers", replacement=STREAMERS_REPLACEMENT, token_label="Streamers")
+def replace_streamers_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Streamers`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, STREAMERS_REPLACEMENT)
+
+
+@register_hardcoded("subscriber", replacement=SUBSCRIBER_REPLACEMENT, token_label="Subscriber")
+def replace_subscriber_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Subscriber`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, SUBSCRIBER_REPLACEMENT)
+
+
+@register_hardcoded("subscribers", replacement=SUBSCRIBERS_REPLACEMENT, token_label="Subscribers")
+def replace_subscribers_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Subscribers`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, SUBSCRIBERS_REPLACEMENT)
+
+
 # Hardcoded Logger tokens
 LOGGER_REPLACEMENT = "[Logger 🪵 helper domain](<🪵 Logger 🤲 helper.md>)"
 @register_hardcoded("logger", replacement=LOGGER_REPLACEMENT, token_label="Logger")
@@ -588,6 +623,11 @@ __all__ = [
     "replace_broker_tokens",
     "replace_brokers_tokens",
     "replace_seller_tokens",
+    "replace_sellers_tokens",
+    "replace_subscriber_tokens",
+    "replace_subscribers_tokens",
+    "replace_streamer_tokens",
+    "replace_streamers_tokens",
     "replace_function_tokens",
     "replace_functions_tokens",
     "replace_scripts_tokens",
