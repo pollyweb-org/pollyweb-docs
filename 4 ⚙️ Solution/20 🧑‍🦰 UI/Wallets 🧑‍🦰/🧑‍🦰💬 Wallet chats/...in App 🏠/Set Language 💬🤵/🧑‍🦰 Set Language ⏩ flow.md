@@ -4,7 +4,7 @@
 
 > Implements a [Wallet 🧑‍🦰 app](<../../../🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 
-<br/>
+
 
 ## Chat
 
@@ -15,7 +15,7 @@
 | 🤵 [Broker](<../../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | ✅ Pronto!  
 ||
 
-<br/>
+
 
 ## Flow diagram
 
@@ -26,8 +26,6 @@
 |-|-|-
 | 1 | [🧑‍🦰🐌🤵 `Language@Broker`](<../../../../Brokers 🤵/🤵🅰️ Broker methods/Wallets 🧑‍🦰 Language 🧑‍🦰🐌🤵/🤵 Language 🐌 msg.md>) | User changed the language
 | 2 | [👥🚀🕸 `Translate@Graph`](<../../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>) | Translate from [Manifests 📜](<../../../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>)
-| 3 | [🤵🐌📣 `Translated@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Translated 🤵🐌📣/📣 Translated 🐌 msg.md>) | Finished translating the database
-| 4 | [🧑‍🦰🚀🤵 `Chats@Broker`](<../../../../Brokers 🤵/🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 request.md>) | Fetch translated [Chats 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
-| 5 | [🧑‍🦰🚀🤵 `Binds@Broker`](<../../../../Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Binds 🧑‍🦰🚀🤵/🤵 Binds 🚀 request.md>) | Fetch translated [Binds 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
-| 6 | [🧑‍🦰🚀🤵 `Tokens@Broker`](<../../../../Brokers 🤵/🤵🅰️ Broker methods/Tokens 🎫 Tokens 🧑‍🦰🚀🤵/🤵 Tokens 🚀 request.md>) | Fetch translated [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
+|3|[🤵🐌📣 `Updated@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>)
+|4|[🧑‍🦰🚀🤵 `Frontend@Broker`](<../../../../Brokers 🤵/🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 request.md>)
 |

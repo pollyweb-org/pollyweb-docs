@@ -1,10 +1,11 @@
-# 🤵 OnBindChanges 📃 event
+# 🤵 OnBindAltered 📃 event
 
 > Purpose
 
-* [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to inform a [Notifier 📣 domain](<../../../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>) 
-    * that [Binds 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) need to be updated 
-    * on the [Wallet 🧑‍🦰 app](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
+* [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) 
+    * that projects the [Binds 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
+    * of a [Wallet 🧑‍🦰 app](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
+    * into the [`Broker.Frontend` 🪣 table](<../../Frontend 📱 table/🤵 Broker.Frontend 🪣 table.md>).
 
 > Flow 
 
@@ -18,40 +19,44 @@
 ## How to call
 
 ```yaml
-- RUN|OnBindChanges:
+- RUN|OnBindAltered:
     Item: 
-        ID: <bind-uuid>
         Wallet: <wallet-id>
 ```
 
 ## Script
 
 ```yaml
-📃 OnBindChanges:
+📃 OnBindAltered:
 
 # Assert the inputs
 - ASSERT|$Item:
-    AllOf: ID, Wallet
-    UUIDs: ID, Wallet
+    AllOf: Wallet
+    UUIDs: Wallet
 
-# Get the Wallet 🧑‍🦰
+# Get the Wallet 
 - READ >> $wallet:
     Set: Broker.Wallets
     Key: $Item.Wallet
 
-# Tell the Notifier to perform updates
-- SEND:
-    Header:
-        To: $wallet.Notifier
-        Subject: Updated@Notifier
-    Body:
-        Wallet: $Item.Wallet
-        Updates: [BINDS]
+# Prepare the response
+- PUT|$wallet.Binds >> $binds:
+    Bind, Vault, Vault$, Schema, Schema$
+
+# Get the Wallet's Frontend
+- READ >> $frontend:
+    Set: Broker.Frontend
+    Key: $wallet.ID
+    Default: 
+        PublicKey: $wallet.PublicKey
+
+# Replace only the Frontend Binds.
+- SAVE|$frontend:
+    Binds: $binds
 ```
 
 |Uses||
 |-|-
-| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`READ`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`SEND`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>)
-| [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Broker.Wallets` 🪣 table](<../../Wallets 🧑‍🦰 table/🤵 Broker.Wallets 🪣 table.md>)
-| [Messages 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Updated@Notifier` 🅰️ method](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>)
+| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`PUT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) [`READ`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`SEND`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>)
+| [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Binds`](<../🪣 Binds/🤵 Broker.Binds 🪣 table.md>) [`Frontend`](<../../Frontend 📱 table/🤵 Broker.Frontend 🪣 table.md>) [`Wallets`](<../../Wallets 🧑‍🦰 table/🤵 Broker.Wallets 🪣 table.md>)
 |

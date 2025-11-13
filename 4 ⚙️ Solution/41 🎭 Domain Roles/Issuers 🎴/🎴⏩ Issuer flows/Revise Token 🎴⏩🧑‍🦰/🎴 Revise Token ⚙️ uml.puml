@@ -4,15 +4,14 @@
 ' ----------------------
 
 actor User as user
-participant "Wallet 👱\napp" as wallet
-participant "Notifier 📣\n(bff)" as notifier
-participant "Broker 🤵\n(domain)" as broker
-participant "Issuer 🎴\n(domain)" as issuer
+participant "Wallet 👱" as wallet
+participant "Notifier 📣" as notifier
+participant "Broker 🤵" as broker
+participant "Issuer 🎴" as issuer
 
 issuer --> broker: 1) Revise 🐌
 activate broker
-    broker --> wallet: 2) ⏪ Update Tokens 🎫
-    broker --> wallet: 3) ⏪ Prompt 🤔 {revoked}     
+    broker --> wallet: 2) ⏪ Prompt 🤔 {revoked}     
 deactivate broker
 
 ' ----------------------
