@@ -38,7 +38,7 @@ Body:
 | |         `To` | string | [Itemizer 🛢 domain](<../../🛢🤲 Itemizer helper.md>) name
 | |         `Subject` | string | `Build@Itemizer`
 | Body      | `Name`     | string    |  [Itemized 🪣 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) name
-|           | `Key`        | string[]  | Index for [`Save@`](<../Item Save 👥🚀🛢/🛢 Save 🚀 request.md>) and [`Get@`](<../Item Get 👥🚀🛢/🛢 Get 🚀 request.md>)
+|           | `Key`        | string[]  | Index for [`Save@`](<../Item Save 👥🚀🛢/🛢 Save 🚀 request.md>) and [`Get@`](<../Item Read 👥🚀🛢/🛢 Read 🚀 request.md>)
 |           | `Parents` | dict |		List of parent items
 |           | `Propagate`| string[] | List of parents to propagate
 |           | `Children` |dict	| List of children items

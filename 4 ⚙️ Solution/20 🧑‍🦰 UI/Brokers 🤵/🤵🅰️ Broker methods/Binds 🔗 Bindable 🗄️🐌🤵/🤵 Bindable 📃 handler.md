@@ -31,8 +31,8 @@
     From: $chat.Host
 
 # Get the existing binds
-- SQL >> $bound:
-    Select: Bind, Schema
+- SELECT >> $bound:
+    All: Bind, Schema
     From: $chat.Wallet.Binds
     Where: Vault.Is($.Msg.From)
 
