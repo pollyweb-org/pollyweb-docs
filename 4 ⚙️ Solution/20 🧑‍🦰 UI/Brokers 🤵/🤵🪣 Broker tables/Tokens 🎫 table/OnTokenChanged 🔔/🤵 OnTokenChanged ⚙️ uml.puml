@@ -1,28 +1,27 @@
-@startuml Tokens@Broker
+@startuml OnTokenChanged
 
-participant "Wallet 👱" as wallet
+'participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
-    participant "Remove 📃" as remove
+    participant "Script 📃" as script
     participant "Tokens 🪣" as tokens
-    participant "OnPurge 📃" as purge
+    participant "OnChanged 📃" as change
 end box
 
 participant "Notifier 📣" as notifier
 
-wallet --> remove: Pop 🐌
+'wallet --> script: Pop 🐌
 
-activate remove
-    remove -> tokens: DELETE {undo}
-deactivate remove
+activate script
+    script -> tokens: SAVE, DELETE
+deactivate script
 
 activate tokens
-    tokens --> tokens: wait...
-    tokens --> purge: PURGE 
+    tokens --> change: trigger 🔔
 deactivate tokens
 
-activate purge
-    purge --> notifier: Remove 🐌 {token}
-deactivate purge
+activate change
+    change --> notifier: Updated 🐌
+deactivate change
 
 @enduml 

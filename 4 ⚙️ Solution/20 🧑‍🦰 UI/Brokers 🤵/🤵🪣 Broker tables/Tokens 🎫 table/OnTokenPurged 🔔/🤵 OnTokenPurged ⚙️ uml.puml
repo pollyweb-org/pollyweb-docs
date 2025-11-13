@@ -1,4 +1,4 @@
-@startuml Tokens@Broker
+@startuml OnTokenPurged
 
 participant "Wallet 👱" as wallet
 
@@ -17,8 +17,8 @@ activate remove
 deactivate remove
 
 activate tokens
-    tokens --> tokens: wait...
-    tokens --> purge: PURGE 
+    tokens --> tokens: wait
+    tokens --> purge: PURGED 🔔
 deactivate tokens
 
 activate purge
