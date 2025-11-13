@@ -27,7 +27,7 @@ activate frontend
 deactivate frontend
 
 activate handler
-    handler --> notifier: SEND 📬 {Refresh 🐌}
+    handler --> notifier: SEND 📬 {Updated 🐌}
 deactivate handler
 
 @enduml 
