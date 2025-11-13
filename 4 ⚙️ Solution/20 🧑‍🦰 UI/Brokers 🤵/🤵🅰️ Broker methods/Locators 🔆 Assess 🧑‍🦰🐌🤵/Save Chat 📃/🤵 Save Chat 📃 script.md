@@ -2,6 +2,10 @@
 
 > Part of the [`Assess@Broker` 📃 script](<../🤵 Assess 📃 handler.md>)
 
+## Diagram
+
+![alt text](<🤵 Save Chat ⚙️ uml.png>)
+
 ## Script 
 
 ```yaml
@@ -10,21 +14,6 @@
 # Verify the required inputs
 - ASSERT|$.Inputs:
     AllOf: locator, wallet
-
-# Get the Host details from the Graph
-- SEND >> $domain:
-    Header:
-        To: $.Hosted.Graph
-        Subject: Identity@Graph
-    Body:
-        Domain: $locator.Host
-
-# Save the Host info
-- SAVE|Broker.Domains:
-    Domain: $domain.Domain
-    Domain$: $domain.Name
-    SmallIcon: $domain.SmallIcon
-    BigIcon: $domain.BigIcon
 
 # Get the translation for the language
 - TRANSLATE >> $translation:
@@ -59,6 +48,12 @@
 - SAVE|Broker.Chatters:
     Chat: $chat.ID
     Domain: $wallet.Finder
+    Role: VAULT
+
+# Add the BROKER participant
+- SAVE|Broker.Chatters:
+    Chat: $chat.ID
+    Domain: $.Hosted.Domain
     Role: VAULT
 
 # Return the created chat

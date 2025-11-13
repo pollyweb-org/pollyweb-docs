@@ -24,18 +24,18 @@
     | `PUT\|*{$in}* >> $out` | Interpolates [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) into a [Text 🧠 holder](<../../../📃 Holders 🧠/🧠 Holder types/Text holders.md>)
     || Equals `PUT >> $out: *{$in}*`    
     | `PUT\|$obj >> $out: *` | Formats [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) properties with [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>)
-    || Equals [`EVAL`](<../EVAL 🧮/🧮 EVAL ⌘ cmd.md>)`\|`[`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>)` >> $out: $obj,*`
+    || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>)` >> $out: $obj,*`
     | `PUT\|$lst >> $out: *` | Formats a [List 🧠 holder](<../../../📃 Holders 🧠/🧠 Holder types/List holders.md>) with [`.Format`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Format}.md>)
-    || Equals [`EVAL`](<../EVAL 🧮/🧮 EVAL ⌘ cmd.md>)`\|`[`.Format`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Format}.md>)` >> $out: $lst,*`
+    || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Format`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Format}.md>)` >> $out: $lst,*`
     | `PUT\|* +> $lst` | Appends items to a [List 🧠 holder](<../../../📃 Holders 🧠/🧠 Holder types/List holders.md>) with [`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>)
     || Equals `PUT +> $lst: *`
-    || Equals [`EVAL`](<../EVAL 🧮/🧮 EVAL ⌘ cmd.md>)`\|`[`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>)` >> $lst: $lst,*`
+    || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>)` >> $lst: $lst,*`
     `PUT\|$l1,$l2 >> $out` | Merges two [List 🧠 holders](<../../../📃 Holders 🧠/🧠 Holder types/List holders.md>) with [`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>)
     || Equals `PUT >> $out: $l1 $l2`
-    || Equals [`EVAL`](<../EVAL 🧮/🧮 EVAL ⌘ cmd.md>)`\|`[`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>)` >> $out: $l1,$l2`  
+    || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>)` >> $out: $l1,$l2`  
     | `PUT\|* >> $out` | Puts any other content in a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)
     || Equals `PUT >> $out: *` 
-    | `PUT\|.f >> $out: *` | Equals [`EVAL`](<../EVAL 🧮/🧮 EVAL ⌘ cmd.md>)`\|.f >> $out: *`  
+    | `PUT\|.f >> $out: *` | Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|.f >> $out: *`  
     | `PUT\|$in: *` | Equals [`SET`](<../SET ↘️/↘️ SET ⌘ cmd.md>)`\|$in: *` 
 
     ---
@@ -85,7 +85,7 @@
     📃 Example:
 
     # Run code to get the revenue
-    - EVAL|Get-Revenue >> $revenue
+    - CALL|Get-Revenue >> $revenue
 
     # Prepare the data into an object.
     - PUT >> $data:
@@ -109,7 +109,7 @@
     - INFO|$intro
     ```
 
-    Uses: [`EVAL`](<../EVAL 🧮/🧮 EVAL ⌘ cmd.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)
+    Uses: [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)
 
     ---
     <br/>

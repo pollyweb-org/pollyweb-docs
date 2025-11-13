@@ -12,7 +12,7 @@
 
 ## ⏩ Flow diagram
 
-![alt text](<😃 Eval ⚙️ uml.png>)
+![alt text](<😃 Call ⚙️ uml.png>)
 
 | # | Call | Description
 |-|-|-

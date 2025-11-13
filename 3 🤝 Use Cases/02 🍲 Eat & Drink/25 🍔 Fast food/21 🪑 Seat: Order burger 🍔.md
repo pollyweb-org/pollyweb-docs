@@ -58,7 +58,7 @@
           Review: {$review}
 
     # Submit order.
-    - EVAL|Order >> $order:
+    - CALL|Order >> $order:
         Selection: $selection
 
     # Allow it to be changed.
@@ -89,7 +89,7 @@
         Bill: {$order.Summary}
 
     # Submit the order.
-    - EVAL|Submit >> $status:
+    - CALL|Submit >> $status:
         Order: $order
     
     # Inform submitted.
@@ -111,7 +111,7 @@
     # Allow it to be cancelled.
     - CASE|$temp:
         Cancel: 
-            - EVAL|Cancel($order)
+            - CALL|Cancel($order)
             - RETURN
 
     # Monitor status changes.

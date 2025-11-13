@@ -34,7 +34,7 @@ activate reel
                 holders -> reel: {value}
             deactivate holders
 
-            reel -> reel: EVAL holder: value
+            reel -> reel: CALL holder: value
         deactivate reel
 
     end group

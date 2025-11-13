@@ -111,12 +111,12 @@
         Billed: $billed         # Add billing info
         Chat: $.Chat            # Add context
 
-    - EVAL|Save($inputs)        # Save the register
+    - CALL|Save($inputs)        # Save the register
 
     - SUCCESS|Done!             # Inform success
     - GOODBYE                   # Show advertisement
     ```
-    Uses: [`BIND`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) [`EVAL`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/EVAL 🧮/🧮 EVAL ⌘ cmd.md>) [`FREEZE`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/FREEZE ❄️/❄️ FREEZE ⌘ cmd.md>) [`GOODBYE`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>) [`INFORM`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/INFORM 📝/📝 INFORM ⌘ cmd.md>) [`INVITE`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/INVITE 🤲/🤲 INVITE ⌘ cmd.md>) [`SUCCESS`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>)    
+    Uses: [`BIND`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) [`CALL`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`FREEZE`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/FREEZE ❄️/❄️ FREEZE ⌘ cmd.md>) [`GOODBYE`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>) [`INFORM`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/INFORM 📝/📝 INFORM ⌘ cmd.md>) [`INVITE`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/INVITE 🤲/🤲 INVITE ⌘ cmd.md>) [`SUCCESS`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>)    
 
     ---
     <br/>

@@ -11,12 +11,12 @@ end box
 participant "Hosted 📦" as hosted
 
 activate script
-    script -> engine: EVAL {X into $A}
+    script -> engine: CALL {X into $A}
     activate engine
         engine -> memory: READ 🧲 {A}
     deactivate engine
 
-    script -> engine: EVAL {function} 
+    script -> engine: CALL {function} 
 deactivate script
 
 
@@ -50,7 +50,7 @@ activate engine
 deactivate engine
 
 activate script
-    script -> engine: EVAL {$B}
+    script -> engine: CALL {$B}
 activate engine
     engine -> script: {Y}
 deactivate engine

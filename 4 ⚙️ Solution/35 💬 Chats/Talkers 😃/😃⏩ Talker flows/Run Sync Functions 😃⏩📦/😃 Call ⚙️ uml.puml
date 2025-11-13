@@ -11,7 +11,7 @@ participant "Hosted 📦" as hosted
 
 activate script
     script --> user: ⏪ PROMPT 🤔
-    script -> engine: EVAL {function} 
+    script -> engine: CALL 🧮 {function} 
 deactivate script
 
 
@@ -25,7 +25,7 @@ deactivate engine
 deactivate hosted
 
 activate engine
-    engine --> script: REEL 🎣 {hook}
+    engine -> script: REEL 🎣 {hook}
 deactivate engine
 
 activate script

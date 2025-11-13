@@ -115,7 +115,7 @@
 
     # Call the custom function 
     #   to pending submit the order 
-    - EVAL|Submit 
+    - CALL|Submit 
 
     # Show the successful submission
     - SUCCESS|Order submitted!
@@ -131,7 +131,7 @@
     # Call the custom function 
     #    to add it to the ERP 
     #    and get the description
-    - EVAL|AddItem($code) >> $description:
+    - CALL|AddItem($code) >> $description:
 
     # Show the description to the user
     - INFO| Added `{$description}`
@@ -139,7 +139,7 @@
     # Repeat after the user confirms
     - REPEAT|Add another?
     ```
-    Uses:  [`DIGITS`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/DIGITS 🔢/DIGITS 🔢 prompt.md>) [`EVAL`](<../../⌘ for holders 🧠/EVAL 🧮/🧮 EVAL ⌘ cmd.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`REPEAT`](<🔁 REPEAT ⌘ cmd.md>) 
+    Uses:  [`DIGITS`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/DIGITS 🔢/DIGITS 🔢 prompt.md>) [`CALL`](<../../⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`REPEAT`](<🔁 REPEAT ⌘ cmd.md>) 
 
     ---
     <br/>
@@ -212,7 +212,7 @@
     - REPEAT
     ```
 
-    Uses: [`EVAL`](<../../⌘ for holders 🧠/EVAL 🧮/🧮 EVAL ⌘ cmd.md>) [`QUANTITY`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/QUANTITY ↕️/QUANTITY ↕️ prompt.md>) [`REPEAT`](<🔁 REPEAT ⌘ cmd.md>) [`RETURN`](<../RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`CASE`](<../CASE ⏯️/⏯️ CASE ⌘ cmd.md>) 
+    Uses: [`CALL`](<../../⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`QUANTITY`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/QUANTITY ↕️/QUANTITY ↕️ prompt.md>) [`REPEAT`](<🔁 REPEAT ⌘ cmd.md>) [`RETURN`](<../RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`CASE`](<../CASE ⏯️/⏯️ CASE ⌘ cmd.md>) 
 
 
     ---
