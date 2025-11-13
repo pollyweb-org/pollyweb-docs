@@ -43,7 +43,7 @@ Triggers:
 
 | [Trigger 🔔](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Events.md>) | [Message 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
 |-|-
-|[`OnChatChanges` 📃](<../🪣🔔 OnChatChanges/🤵 OnChatChanges 📃 trigger.md>) | [`Update@Notifier` 🅰️ ](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>)
+|[`OnChatChanges` 📃](<../🪣🔔 OnChatChanges/🤵 OnChatChanges 📃 handler.md>) | [`Update@Notifier` 🅰️ ](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>)
 
 
 ## Example

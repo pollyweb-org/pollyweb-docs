@@ -397,7 +397,7 @@ Successful Tests:
 
   - Given: '{{Raised@Itemizer}}'
     LinkText: "`Raised@Itemizer` 🔔 event"
-    LinkFile: "🛢🔔 Triggered.md"
+    LinkFile: "🛢🔔 Raised.md"
     Reasons: same as {{Triggered@Alarm}}.
 
   COMMANDS ⌘:

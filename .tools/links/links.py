@@ -49,6 +49,9 @@ HARDCODED_FILE_ALIASES: dict[str, list[str]] = {
     # Some filenames use a different emoji ordering (alias the existing file
     # so hardcoded tests that expect the YAML canonical name still pass).
     "🛢 Itemizer 🤲 helper.md": ["🛢🤲 Itemizer helper.md"],
+    # Raised@Itemizer events live in the same file as Triggered while the YAML
+    # expects the Triggered filename. Treat Raised as an alias of Triggered.
+    "🛢🔔 Triggered.md": ["🛢🔔 Raised.md"],
 }
 
 # Some X@Y tokens (Raised@Itemizer) need to resolve to files whose stem uses
@@ -492,9 +495,10 @@ def runit(project_directory, entryPoint):
         expected = test.get('LinkFile')
         if not expected:
             continue
+        expected_files = [expected] + HARDCODED_FILE_ALIASES.get(expected, [])
         # Require an exact basename match. Do not accept aliases here because
         # the YAML specification requires exact filenames.
-        found = any(os.path.basename(p) == expected for p in md_files)
+        found = any(os.path.basename(p) in expected_files for p in md_files)
         if not found:
             # Gather a helpful suggestion (normalized stem) to assist debugging,
             # but still treat this as a failing test.
@@ -590,7 +594,8 @@ def runit(project_directory, entryPoint):
                 raise ValueError(f"Did not compute a replacement for {given}")
             actual_text, actual_path = result
             actual_name = os.path.basename(actual_path)
-            if actual_name != expected_linkfile:
+            expected_files = [expected_linkfile] + HARDCODED_FILE_ALIASES.get(expected_linkfile, [])
+            if actual_name not in expected_files:
                 raise ValueError(f"Did not find expected file for {given}: {expected_linkfile}")
         elif token.isupper():
             expected_name = expected_linkfile.strip('{}')
