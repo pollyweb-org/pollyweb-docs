@@ -1,7 +1,6 @@
 🌬️ Streamer domain role
 ===
 
-<!-- TODO: check this replacement -->
 > Works with [Subscriber 🔔 domains](<../Subscribers 🔔/🔔🎭 Subscriber role.md>)
 
 ## FAQ
