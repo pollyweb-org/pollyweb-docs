@@ -20,6 +20,9 @@ Parents:
     Wallet: { Wallets.ID: Chats.Wallet }
     Host: { Domains.Name: Chats.Host }
 
+Propagate:
+    - Host
+
 Children:
     Chatters: { Chatters.Chat: Chats.ID }
 
@@ -32,7 +35,7 @@ Triggers:
 | Link | Table | Contains
 |-|-|-
 | Parents   | [`Wallets` 🪣](<../../Wallets 🧑‍🦰 table/🤵 Broker.Wallets 🪣 table.md>) | [Wallets 🧑‍🦰](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
-|           | [`Domains` 🪣](<../../Domains 👥 table/🤵 Broker.Domains 🪣 table.md>) | [domains 👥](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
+|           | [`Domains` 🪣](<../../Domains 👥 table/🪣 Domains/🤵 Broker.Domains 🪣 table.md>) | [domains 👥](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
 | Children | [`Chatters` 🪣](<../../Chatters 👥 table/🤵 Broker.Chatters 🪣 table.md>) | [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) participants
 
 
