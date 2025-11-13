@@ -35,7 +35,7 @@ Views:
 
 Triggers:
     OnTokenPurged: PURGED
-    OnTokenChanged: ADDED, CHANGED, DELETED
+    OnTokenChanges: ADDED, CHANGED, DELETED
     OnTokenAccepted: CHANGED
 ```
 
