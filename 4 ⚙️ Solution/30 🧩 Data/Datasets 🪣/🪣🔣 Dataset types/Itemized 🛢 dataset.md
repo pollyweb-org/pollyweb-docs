@@ -109,9 +109,9 @@
         OnTimeout: 
             Events: EXPIRED, PURGED
         OnChange: 
-            Events: ADDED, CHANGED, DELETED
+            Events: INSERTED, UPDATED, DELETED
         OnSomeStatus:
-            Events: CHANGED
+            Events: UPDATED
             Asserts: 
                 Item.Expires.IsAbove(.Now):
                 Item.Status: NEW_STATUS

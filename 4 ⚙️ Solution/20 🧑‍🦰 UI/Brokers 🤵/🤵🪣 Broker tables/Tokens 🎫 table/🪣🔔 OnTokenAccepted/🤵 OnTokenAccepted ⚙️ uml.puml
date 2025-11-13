@@ -18,7 +18,7 @@ activate script
 'deactivate script
 
 activate tokens
-    tokens --> change: CHANGED 🔔
+    tokens --> change: UPDATED 🔔
 deactivate tokens
 
 activate change

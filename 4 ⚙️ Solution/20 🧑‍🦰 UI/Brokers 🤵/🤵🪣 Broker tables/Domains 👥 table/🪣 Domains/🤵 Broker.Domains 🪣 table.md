@@ -18,7 +18,7 @@ Key: Name
 
 Handlers:
     OnDomainAdded: 
-        Events: ADDED 
+        Events: INSERTED 
 ```
 
 
