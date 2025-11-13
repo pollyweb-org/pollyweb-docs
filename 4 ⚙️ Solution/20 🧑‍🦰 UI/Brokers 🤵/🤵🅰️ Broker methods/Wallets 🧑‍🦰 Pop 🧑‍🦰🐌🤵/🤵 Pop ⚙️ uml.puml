@@ -6,31 +6,32 @@ box Broker 🤵 domain #FFFFFA
     participant "Pop@ 📃" as pop
     participant "Assess@ 📃" as assess
     participant "Hello@ 📃" as introduced
+    participant "Pop {?} 📃" as popX
     'participant "Wallets 🪣" as wallets
 end box
 
-box "Talker 😃" #FFFFFA
-    participant "Engine ⚙️" as engine
-    participant "Talkers 🪣" as talkers
-end box
+'box "Talker 😃" #FFFFFA
+'    participant "Engine ⚙️" as engine
+'    participant "Talkers 🪣" as talkers
+'end box
 
 'participant "Vault 🗄️" as vault
 
 activate wallet 
-    wallet --> pop: PopBind 🐌
+    wallet --> pop: Pop 🐌 {context, key}
 deactivate wallet
 
-activate pop
-    pop -> engine: LOCATE 🔆 {locator, script}
-deactivate pop
+'activate pop
+    'pop -> engine: LOCATE 🔆 {locator, script}
+'deactivate pop
 
-activate engine
-    engine -> talkers: SAVE 💾
-    engine -> pop: 
-deactivate engine
+'activate engine
+'    engine -> talkers: SAVE 💾
+'    engine -> pop: 
+'deactivate engine
 
 activate pop
-    pop --> wallet: SEND 📬 Open {locator}
+    pop --> wallet: SEND 📬 Open 🐌 {locator}
 deactivate pop
 
 activate wallet
@@ -42,13 +43,16 @@ activate assess
 deactivate assess
 
 activate introduced
-    introduced -> engine: CHAT 💬
-    introduced -> engine: TALK 😃
+    'introduced -> engine: CHAT 💬
+    introduced -> popX: TALK 😃
 deactivate introduced
 
-activate engine
-    engine -> talkers: READ 🧲
-    engine -> : RUN 🏃 {script} 
-deactivate engine
+activate popX
+deactivate popX
+
+'activate engine
+'    engine -> talkers: READ 🧲
+'    engine -> : RUN 🏃 {script} 
+'deactivate engine
 
 @enduml 
