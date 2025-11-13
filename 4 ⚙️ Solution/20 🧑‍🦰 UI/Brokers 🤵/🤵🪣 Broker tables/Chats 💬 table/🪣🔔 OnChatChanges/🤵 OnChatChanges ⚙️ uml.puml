@@ -4,7 +4,7 @@
 
 box Broker 🤵 domain #FFFFFA
     participant "Script 📃" as script
-    participant "Tokens 🪣" as tokens
+    participant "Chats 🪣" as chats
     participant "OnChanges 📃" as change
 end box
 
@@ -13,11 +13,11 @@ participant "Notifier 📣" as notifier
 'wallet --> script: Pop 🐌
 
 activate script
-    script -> tokens: SAVE 💾, DELETE 🗑️
+    script -> chats: SAVE 💾, DELETE 🗑️
 
-activate tokens
-    tokens --> change: trigger 🔔
-deactivate tokens
+activate chats
+    chats --> change: trigger 🔔
+deactivate chats
 
 activate change
     change --> notifier: SEND 📬 {Updated 🐌}

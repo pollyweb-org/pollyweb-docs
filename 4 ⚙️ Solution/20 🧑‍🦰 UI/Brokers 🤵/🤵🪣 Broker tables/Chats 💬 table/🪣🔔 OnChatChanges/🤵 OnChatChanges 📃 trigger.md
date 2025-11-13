@@ -1,9 +1,9 @@
-# 🤵 OnTokenChanges 📃 trigger
+# 🤵 OnChatChanges 📃 trigger
 
 > Purpose
 
 * [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to inform a [Notifier 📣 domain](<../../../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>) 
-    * that [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) need to be updated 
+    * that [Chats 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) need to be updated 
     * on the [Wallet 🧑‍🦰 app](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 
 > Flow 
@@ -18,16 +18,16 @@
 ## How to call
 
 ```yaml
-- RUN|OnTokenChanged:
+- RUN|OnChatChanged:
     Item: 
-        ID: <token-uuid>
+        ID: <chat-uuid>
         Wallet: <wallet-id>
 ```
 
 ## Script
 
 ```yaml
-📃 OnTokenChanged:
+📃 OnChatChanged:
 
 # Assert the inputs
 - ASSERT|$Item:
@@ -46,7 +46,7 @@
         Subject: Updated@Notifier
     Body:
         Wallet: $Item.Wallet
-        Updates: [TOKENS]
+        Updates: [CHATS]
 ```
 
 |Uses||
