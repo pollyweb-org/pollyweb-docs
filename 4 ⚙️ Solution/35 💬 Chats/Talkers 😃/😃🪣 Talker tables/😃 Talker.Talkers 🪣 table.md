@@ -40,3 +40,4 @@ Property | Type | Details | Origin | Purpose
 | `Script` | text | [Script 📃](<../../Scripts 📃/Script 📃.md>) to [`RUN`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>) || [`Hello@`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 | `Language`| text | [`.Translate`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Translate}.md>) language || [`Prompt@`](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
 |
+

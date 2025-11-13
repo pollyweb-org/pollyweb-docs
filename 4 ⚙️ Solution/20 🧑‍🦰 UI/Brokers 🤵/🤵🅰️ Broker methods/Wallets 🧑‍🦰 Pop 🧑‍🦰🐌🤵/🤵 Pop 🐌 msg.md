@@ -27,7 +27,8 @@ Header:
 
 Body:
     Hook: <hook-uuid>
-    Bind: <bind-uuid>
+    Context: TOKEN
+    Key: <token-uuid>
 ```
 
 | Object | Property | Type |Description|Origin|Purpose
@@ -36,6 +37,7 @@ Body:
 ||`To`|domain| [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Onboard@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
 || `Subject` | string | `Pop@Broker`
 | Body | `Hook` | uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) hook || [`Converse@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Converse 🤵🐌📣/📣 Converse 📣 msg.md>)
-|| `Bind` | uuid   | [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) ID
+|       | `Context`  | enum | `HOST` `ISSUER` `VAULT` `BIND` `TOKEN` 
+|       | `Key` | uuid   | Optional context index
 |
 

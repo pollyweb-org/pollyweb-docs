@@ -86,7 +86,7 @@ Title: My Token
 | `Starts` | time | Valid from | [`Offer@Broker`](<../../🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>)
 | `Expires` | time | Valid until | [`Offer@Broker`](<../../🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>)
 | `Status`| string | `OFFERED` <br/> `ACTIVE` <br/> `SUSPENDED` <br/> `REVOKED` | [`Revise@Broker`](<../../🤵🅰️ Broker methods/Tokens 🎫 Revise 🎴🐌🤵/🤵 Revise 🐌 msg.md>)
-| `Tag` | string | User alias | [`PopToken@Broker`](<../../🤵🅰️ Broker methods/Tokens 🎫 PopToken 🧑‍🦰🐌🤵/🤵 PopToken 🐌 msg.md>)
+| `Tag` | string | User alias | [`Pop@Broker`](<../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>)
 | `Title`| string | [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) title | (multiple)
 ||
 
@@ -96,6 +96,6 @@ Title: My Token
 |-|-|-
 | [`Saved@`](<../../🤵🅰️ Broker methods/Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 🐌 msg.md>) | [`SAVE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | Sets the initial translatable title
 | [`Language@`](<../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Language 🧑‍🦰🐌🤵/🤵 Language 🐌 msg.md>) | [`SAVE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | Translates the title
-| [`PopToken@`](<../../🤵🅰️ Broker methods/Tokens 🎫 PopToken 🧑‍🦰🐌🤵/🤵 PopToken 🐌 msg.md>) | [`SAVE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | Adds a non-translatable tag
+| [`Pop@`](<../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>) | [`SAVE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | Adds a non-translatable tag
 | [`Tokens@`](<../../🤵🅰️ Broker methods/Tokens 🎫 Tokens 🧑‍🦰🚀🤵/🤵 Tokens 🚀 request.md>) | [`READ`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) | Reads the CQRS title
 |

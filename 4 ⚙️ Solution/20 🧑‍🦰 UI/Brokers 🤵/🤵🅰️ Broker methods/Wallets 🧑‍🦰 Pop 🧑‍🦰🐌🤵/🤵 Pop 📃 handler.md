@@ -3,14 +3,26 @@
 > Purpose
 * [Script 📃](<🤵 Pop 🐌 msg.md>) that implements the [`Pop@Broker` 🅰️ method](<🤵 Pop 🐌 msg.md>)
 
+> Setup
+
+* Requires the handlers to be registered on the [Hoster ☁️ helper domain](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>):
+
+    * PopBind@Broker: {{PopBind handler}}
+    * PopHost@Broker: {{PopHost handler}}
+    * PopIssuer@Broker: {{ProIssuer handler}}
+    * PopToken@Broker: [`PopToken` 📃 handler](<🎫 PopToken/🤵 PopToken 📃 handler.md>)
+    * PopVault@Broker: [`PopVault` 📃 handler](<Pop Vault 🗄️/🤵 PopVault 📃 handler.md>)
+
+
 
 ## Diagram
 
 ![alt text](<🤵 Pop ⚙️ uml.png>)
 
+
+
 ## Script
 
-<!-- TODO: Finish the code -->
 
 ```yaml
 📃 Pop@Broker: 
@@ -31,11 +43,11 @@
 
 # Assign the Hello@Host Locator key
 - CASE|$.Msg.Context >> $handler:
-    BIND: PopBind
-    HOST: PopHost
-    ISSUER: PopIssuer
-    TOKEN: PopToken
-    VAULT: PopVault
+    BIND: PopBind@Broker
+    HOST: PopHost@Broker
+    ISSUER: PopIssuer@Broker
+    TOKEN: PopToken@Broker
+    VAULT: PopVault@Broker
 
 # Verify that a Locator key was assign
 - ASSERT: $handler
@@ -56,7 +68,7 @@
 
 Uses||
 |-|-
-|[Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`READ`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`VERIFY`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>)
+|[Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CASE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`SEND`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>) [`READ`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`VERIFY`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>)
 | [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Broker.Binds` 🪣 table](<../../🤵🪣 Broker tables/Binds 🔗 table/🤵 Broker.Binds 🪣 table.md>)
 | [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | [`$.Msg` 🧠 holder](<../../../../37 Scripts 📃/📃 Holders 🧠/🧠 System holders/$.Msg 📨/📨 $.Msg 🧠 holder.md>)
 |
