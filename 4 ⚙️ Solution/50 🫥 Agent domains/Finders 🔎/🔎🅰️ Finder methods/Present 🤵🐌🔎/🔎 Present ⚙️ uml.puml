@@ -24,7 +24,7 @@ participant "Graph 🕸\ndomain" as graph
         
       finder --> broker: SEND: Prompt 🤔
 
-      finder --> broker: SEND: Introduced 🐌
+      finder --> broker: SEND: Presented 🐌
       
     deactivate finder
 

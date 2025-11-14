@@ -1,10 +1,10 @@
-@startuml Introduced@Broker
+@startuml Presented@Broker
 ' ------------
 
 participant "Finder 🔎" as finder
 
 box "Broker 🤵 domain"  #FFFFFA
-    participant "Introduced@ 📃" as broker
+    participant "Presented@ 📃" as broker
     participant "Chats 🪣" as chats
     participant "Binds 🪣" as binds
     participant "Tokens 🪣" as tokens
@@ -20,7 +20,7 @@ participant "Host 🤗" as host
     
 
 activate finder
-    finder --> broker : Introduced 🐌
+    finder --> broker : Presented 🐌
 deactivate finder
 
 activate broker
