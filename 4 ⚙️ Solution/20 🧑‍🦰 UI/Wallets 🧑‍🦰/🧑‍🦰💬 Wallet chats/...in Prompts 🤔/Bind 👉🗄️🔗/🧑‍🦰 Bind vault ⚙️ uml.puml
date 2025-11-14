@@ -3,11 +3,11 @@
  
 ' ---------------------
 actor User as user
-participant "Wallet 👱\napp" as wallet
-participant "Notifier 📣\nbff" as notifier
-participant "Broker 🤵\nhost" as broker
-participant "Graph 🕸\ndomain" as graph
-participant "Vault 🗄️\nhost" as vault
+participant "Wallet 👱" as wallet
+participant "Notifier 📣" as notifier
+participant "Broker 🤵" as broker
+participant "Graph 🕸" as graph
+participant "Vault 🗄️" as vault
 
 ' ---------------------
 ' WELCOME!
@@ -19,7 +19,7 @@ deactivate vault
 
 activate wallet
 user --> wallet: bind
-wallet --> vault: {bind}
+wallet --> vault: 
 deactivate wallet
 
 activate vault
@@ -58,7 +58,6 @@ group Bind vault
 
     activate broker
         broker --> vault: 5) Bound 🐌 {codes} 
-        broker --> wallet:  6) ⏪ Update Binds 🔗
     deactivate broker
 
 end group

@@ -13,13 +13,7 @@
     * lists the [Chats 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) 
     * of a [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>).
 
-> Used in
-* [🧑‍🦰👉🤵 Set language @ Wallet](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/Set Language 💬🤵/🧑‍🦰 Set Language ⏩ flow.md>)
-* [🧑‍🦰👉🤵 List chats @ Wallet](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/List Chats 💬🤵/🧑‍🦰 List Chats ⏩ flow.md>)
-* [🤵⏩🗄️ Update chats @ Broker](<../../🤵⏩ Broker flows/Update Chats 🤵⏩💬/🤵 Update Chats ⏩ flow.md>)
 
-
-<br/>
 
 ## Synchronous Request 🚀
   
@@ -37,7 +31,7 @@ Header:
 |           | `Subject`| string|  `Chats@Broker`
 |
 
-<br/>
+
 
 ## Response 
 
