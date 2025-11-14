@@ -1,11 +1,11 @@
 # 🤵📃 Assess@Broker
 
-> [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Assess@Broker` 🅰️ method](<🤵 Assess 🐌 msg.md>)
+> [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Assess@Broker` 🅰️ method](<🤵 Locate 🐌 msg.md>)
 
 
 ## Flow
 
-![alt text](<🤵 Assess ⚙️ uml.png>)
+![alt text](<🤵 Locate ⚙️ uml.png>)
 
 
 | # | Call | Notes
