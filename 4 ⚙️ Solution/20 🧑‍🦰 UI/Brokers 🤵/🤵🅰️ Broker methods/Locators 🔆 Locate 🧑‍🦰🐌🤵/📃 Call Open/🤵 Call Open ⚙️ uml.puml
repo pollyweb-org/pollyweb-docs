@@ -6,7 +6,7 @@
 
 box "Broker 🤵" #FFFFFA
     participant "Locate@ 📃" as assess
-    participant "Call-Converse 📃" as script
+    participant "Call-Open 📃" as script
     participant "Update-Chats 📃" as script2
 '    participant "Chats" as chats
 '    participant "Chatters" as chatters
@@ -24,7 +24,7 @@ activate assess
 deactivate assess
 
 activate script
-    script --> notifier: SEND Converse {$chat}
+    script --> notifier: SEND Open {$chat}
 
     activate notifier
         notifier --> wallet: 

@@ -2,7 +2,7 @@
 
 > Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
 
-> Used by [🤵⏩🧑‍🦰 Converse 💬](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵⏩ Broker flows/Open 🤵⏩💬/🤵 Open ⏩ flow.md>)
+> Used by [🤵⏩🧑‍🦰 Open 💬](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵⏩ Broker flows/Open 🤵⏩💬/🤵 Open ⏩ flow.md>)
 
 <br/>
 
