@@ -1,13 +1,13 @@
 # 🔎 Introduce 📃 handler
 
 > Purpose
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Introduce@Finder` 🅰️ method](<🔎 Introduce 🐌 msg.md>)
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Introduce@Finder` 🅰️ method](<🔎 Present 🐌 msg.md>)
 
 <br/>
 
 ## Flow
 
-![alt text](<🔎 Introduce ⚙️ uml.png>)
+![alt text](<🔎 Present ⚙️ uml.png>)
 
 <br/>
 
@@ -67,7 +67,7 @@
 - SEND:
     Header:
         To: $.Msg.From
-        Subject: Introduced@Broker
+        Subject: Presented@Broker
     Body:
         Chat: $.Msg.Chat
 ```

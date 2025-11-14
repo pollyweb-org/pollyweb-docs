@@ -33,7 +33,7 @@ activate broker
 
       finder --> user: 5 ⏪ Prompt 🤔
 
-      finder --> broker: 6) Introduced 🐌
+      finder --> broker: 6) Presented 🐌
       
     deactivate finder
     activate broker
