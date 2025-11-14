@@ -1,10 +1,10 @@
-# 🧑‍🦰🐌🤵 Assess @ Broker
+# 🧑‍🦰🐌🤵 Locate @ Broker
 
 > Implementation
 * Implemented by [`Locate@Broker` 📃 script](<🤵 Locate 📃 handler.md>)
 
 > Flow
-* Part of the [`Assess` ⏩ flow](<../../🤵⏩ Broker flows/Locate 🔆⏩🤵/🤵 Locate ⏩ flow.md>)
+* Part of the [`Locate` ⏩ flow](<../../🤵⏩ Broker flows/Locate 🔆⏩🤵/🤵 Locate ⏩ flow.md>)
 * Precedes [`Converse@Notifier` 🅰️](<../../../Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Converse 🤵🐌📣/📣 Converse 📣 msg.md>) method
 
 > Purpose

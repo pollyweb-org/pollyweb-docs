@@ -16,7 +16,7 @@ user -> wallet: scan ✨
 
 activate wallet
     wallet -> qr: scan ✨
-    wallet --> broker: 1) Assess ⏩
+    wallet --> broker: 1) Locate ⏩
 deactivate wallet
 
 activate broker

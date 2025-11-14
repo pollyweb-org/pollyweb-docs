@@ -17,7 +17,7 @@ host --> wallet: 1) ⏪ Prompt 🤔 { option with locator }
 
 activate wallet
     wallet -> wallet: reuse if already open
-    wallet --> broker: 2) ⏩ Assess {locator}
+    wallet --> broker: 2) ⏩ Locate {locator}
 deactivate wallet
 
 activate broker
