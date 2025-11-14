@@ -1,5 +1,5 @@
 
-# Introduce @ [Finder](<../../🔎 Finder agent/🔎 Finder 🫥 agent.md>)
+# Present @ [Finder](<../../🔎 Finder agent/🔎 Finder 🫥 agent.md>)
 
 > Purpose
 
@@ -20,7 +20,7 @@
 Header:
     From: any-broker.dom
     To: any-finder.dom
-    Subject: Introduce@Broker
+    Subject: Present@Broker
 
 Body:
     Chat: <chat-uuid>
