@@ -1,4 +1,4 @@
-@startuml OnBindRemoved
+@startuml OnBindCreated
  
 'participant "Wallet 👱" as wallet
 
@@ -12,15 +12,15 @@ end box
 participant "Vault 🗄️" as vault
 
 activate script
-    script -> binds: DELETE 🗑️
+    script -> binds: SAVE 💾
 deactivate script
 
 activate binds
-    binds -> handler: DELETED 🔔
+    binds -> handler: INSERTED 🔔
 deactivate binds
 
 activate handler
-    handler --> vault: SEND 📬 {Unbound@}
+    handler --> vault: SEND 📬 {Bound@}
 deactivate handler
 
 

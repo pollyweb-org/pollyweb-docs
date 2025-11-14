@@ -4,24 +4,94 @@
 
 ## FAQ
 
-1. **What's the simplest syntax for itemized schemas?**
+
+1. **How to set an automatic key?**
 
     ```yaml
-    # First column is the key.
-    # No parents, children, or distincts.
+    # Syntax for automatic ID
     Table: <name>
     ```
 
     |Input|Details|Example
     |-|-|-
-    | `<name>` | Dataset name | `ORDERS`
-    |
+    | `Table` | Dataset name | `ORDERS`
 
-    Here's an example.
+    ---
+    <br/>
+
+
+1. **How to save and read an item with an automatic key?**
 
     ```yaml
-    # Example
+    # Schema
     Table: ORDERS
+    ```
+
+    Here's how to save and read an order item using an automatic ID.
+
+    ```yaml
+    ┌────────────────────────┐   ┌───────────────────┐ 
+    │ Save without key       │   │ Read with auto ID │
+    ├────────────────────────┤   ├───────────────────┤
+    │ SAVE|ORDERS >> $order: │   │ READ >> $order2:  │
+    │   DATE: .Today         │   │   Set: ORDERS     │
+    │                        │   │   Key: $order.ID  │
+    └────────────────────────┘   └───────────────────┘    
+    ```
+    Uses: [`READ`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`SAVE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`.Today`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Today}.md>)
+
+    ---
+    <br/>
+
+
+
+1. **How to set a simple unique key?**
+
+    ```yaml
+    # Syntax for unique keys
+    Table: <name>
+    Key: <key>
+    ```
+
+    |Input|Details|Example
+    |-|-|-
+    | `Table` | Dataset name | `COUNTRY`
+    | `Key` | Property name | `NAME`
+
+    ---
+    <br/>
+
+
+1. **How to save and read an item with an automatic key?**
+
+    ```yaml
+    # Schema
+    Table: COUNTRIES
+    Key: NAME       
+    ```
+
+    Here's the [`SAVE` command](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>).
+
+
+    ```yaml
+    ┌─────────────────────────────┐   
+    │ Save with unique key        │ 
+    ├─────────────────────────────┤
+    │ SAVE|COUNTRIES >> $country: │   
+    │   NAME: Switzerland         │ 
+    └─────────────────────────────┘   
+    ```
+    
+    Here's the [`READ` command](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) 
+
+    ```yaml
+    ┌────────────────────┬────────────────────┐
+    │ Read by unique key │ READ by auto ID    │ 
+    ├────────────────────┼────────────────────┤
+    │ READ >> $country2: │ READ >> $country2: │ 
+    │   Set: COUNTRIES   │   Set: COUNTRIES   │
+    │   Key: Switzerland │   Key: $country.ID │ 
+    └────────────────────┴────────────────────┘    
     ```
 
     ---
@@ -30,7 +100,7 @@
 1. **Whats the syntax for complex keys?**
 
     ```yaml
-    # Complex keys
+    # Syntax for complex keys
     Table: <name>
     Key: <k1>[,<kN>]
     ```
@@ -40,15 +110,42 @@
     |`<k1>[,<kN>]`  | Key combination | `ID` `COL1,COL2`
     |
 
-    Here's an example.
-
-    ```yaml
-    # Example
-    Table: ORDERS
-    Key: ID
-    ```
-
-
     ---
     <br/>    
+    
+1. **How to read an item with a complex key?**
 
+    ```yaml
+    # Schema
+    Table: ORDER_LINES
+    Key: ORDER_ID, LINE_NUMBER
+    ```
+
+    Here's the [`SAVE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) command.
+
+    ```yaml
+    ┌───────────────────────────┐
+    │ SAVE.                     │ 
+    ├───────────────────────────┤
+    │ SAVE|ORDER_LINES >> $line │
+    │   ORDER_ID: $order.ID     │ 
+    │   LINE_NUMBER: 123        │ 
+    └───────────────────────────┘    
+    ```
+
+    Here's the [`READ`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) command.
+
+    ```yaml
+    ┌─────────────────────────┬────────────────────┐
+    │ Ready with complex key  │ Read with auto ID  │ 
+    ├─────────────────────────┼────────────────────┤
+    │ READ >> $line2:         │ READ >> $line2:    │ 
+    │   Set: ORDER_LINES      │   Set: ORDER_LINES │
+    │   Key:                  │   Key: $line.ID    │ 
+    │     ORDER_ID: $order.ID │                    │ 
+    │     LINE_NUMBER: 123    │                    │ 
+    └─────────────────────────┴────────────────────┘    
+    ```
+    
+    ---
+    <br/>
