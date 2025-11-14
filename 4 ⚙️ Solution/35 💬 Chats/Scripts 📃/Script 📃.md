@@ -48,7 +48,7 @@
     |▶️ [`RUN`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>)| Calls a [Script 📃](<Script 📃.md>) by name, then returns.
     |⤵️ [`IF`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) | Runs [Scripts 📃](<Script 📃.md>) for `True` and `False` evaluations.
     | ⏯️️ [`CASE`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | Runs [Scripts 📃](<Script 📃.md>) for matching evaluations.
-    | 🧘 [`WAIT`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/WAIT 🧘/🧘 WAIT ⌘ cmd.md>) | Runs [Scripts 📃](<Script 📃.md>) on signalled and timed out.
+    | 🧘 [`WAIT`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/WAIT 🧘/🧘 WAIT ⌘ cmd.md>) | Runs [Scripts 📃](<Script 📃.md>) on signalled and timed out.
 
     ---
     <br/>

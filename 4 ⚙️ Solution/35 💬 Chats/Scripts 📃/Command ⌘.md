@@ -119,7 +119,7 @@
     | 🔁 [`REPEAT`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) | Repeats the current [Script 📃](<Script 📃.md>) with a confirmation.
     | ⤴️ [`RETURN`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) | Returns from a [Script 📃](<Script 📃.md>) with a result.
     | ▶️ [`RUN`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>) | Runs a [Script 📃](<Script 📃.md>) and puts the result in a holder.
-    | 🧘 [`WAIT`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/WAIT 🧘/🧘 WAIT ⌘ cmd.md>) | Waits for a period of time or until signaled.
+    | 🧘 [`WAIT`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/WAIT 🧘/🧘 WAIT ⌘ cmd.md>) | Waits for a period of time or until signaled.
 
     ---
     <br/>
