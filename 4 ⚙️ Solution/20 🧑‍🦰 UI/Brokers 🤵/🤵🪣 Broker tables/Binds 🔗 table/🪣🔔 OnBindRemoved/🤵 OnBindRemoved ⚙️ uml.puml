@@ -1,0 +1,21 @@
+@startuml OnBindRemoved
+ 
+'participant "Wallet 👱" as wallet
+
+box Broker 🤵 domain #FFFFFA
+    participant "Script 📃" as script
+    'participant "Wallets 🪣" as wallets
+    participant "Binds 🪣" as binds
+end box
+
+participant "Vault 🗄️" as vault
+
+activate script
+    script -> binds: DELETE 🗑️
+deactivate script
+
+activate binds
+    binds --> vault: SEND 📬 {Unbound@}
+deactivate binds
+ 
+@enduml 
