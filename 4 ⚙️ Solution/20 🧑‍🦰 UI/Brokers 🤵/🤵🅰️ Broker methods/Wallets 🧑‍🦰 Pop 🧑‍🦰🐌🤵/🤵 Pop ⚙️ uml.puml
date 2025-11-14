@@ -5,7 +5,7 @@ participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA
     participant "Pop@ 📃" as pop
     participant "Wallets 🪣" as wallets
-    participant "Assess@ 📃" as assess
+    participant "Locate@ 📃" as assess
     participant "Hello@ 📃" as introduced
     'participant "Wallets 🪣" as wallets
 end box

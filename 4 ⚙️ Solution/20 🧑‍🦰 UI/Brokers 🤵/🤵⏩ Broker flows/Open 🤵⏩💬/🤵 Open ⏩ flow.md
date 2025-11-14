@@ -1,7 +1,7 @@
 # 🤵⏩🧑‍🦰 Converse @ Broker
 
 > Flow
-* Part of the [`Assess` ⏩ flow](<../Assess 🔆⏩🤵/🤵 Assess ⏩ flow.md>)
+* Part of the [`Assess` ⏩ flow](<../Locate 🔆⏩🤵/🤵 Locate ⏩ flow.md>)
 
 > Purpose
 

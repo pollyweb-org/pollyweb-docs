@@ -1,6 +1,6 @@
 # 🤵 Resolve Alias 📃 script
 
-> Part of the [`Assess@Broker` 📃 script](<../🤵 Locate 📃 handler.md>)
+> Part of the [`Locate@Broker` 📃 script](<../🤵 Locate 📃 handler.md>)
 
 
 ## Diagram

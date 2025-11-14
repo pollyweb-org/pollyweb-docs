@@ -1,10 +1,10 @@
 # 🧑‍🦰🐌🤵 Assess @ Broker
 
 > Implementation
-* Implemented by [`Assess@Broker` 📃 script](<🤵 Locate 📃 handler.md>)
+* Implemented by [`Locate@Broker` 📃 script](<🤵 Locate 📃 handler.md>)
 
 > Flow
-* Part of the [`Assess` ⏩ flow](<../../🤵⏩ Broker flows/Assess 🔆⏩🤵/🤵 Assess ⏩ flow.md>)
+* Part of the [`Assess` ⏩ flow](<../../🤵⏩ Broker flows/Locate 🔆⏩🤵/🤵 Locate ⏩ flow.md>)
 * Precedes [`Converse@Notifier` 🅰️](<../../../Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Converse 🤵🐌📣/📣 Converse 📣 msg.md>) method
 
 > Purpose
@@ -20,7 +20,7 @@
 Header:
     From: <wallet-id>
     To: any-broker.dom
-    Subject: Assess@Broker
+    Subject: Locate@Broker
     
 Body:
     Locator: .ALIAS,any-printer.dom,7V8KD3G
@@ -31,7 +31,7 @@ Body:
 |-|-|-|-|-|-
 |Header|`From`|uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)  | [`Onboard@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
 ||`To`|domain| [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)  | [`Onboard@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 request.md>)
-||`Subject`|string|`Assess@Broker`
+||`Subject`|string|`Locate@Broker`
 |Body  |`Locator` |string|  [`.HOST`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🧩 Host schemas/🧩 HOST.md>) [`.ALIAS`](<../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🧩 Printer schemas/🧩 ALIAS.md>) [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) 
 || `Hook` | uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) Hook || [`Converse@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Converse 🤵🐌📣/📣 Converse 📣 msg.md>)
 |

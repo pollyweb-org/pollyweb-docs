@@ -8,7 +8,7 @@
 
 
 box "Broker 🤵" #FFFFFA
-    participant "Assess@ 📃" as assess
+    participant "Locate@ 📃" as assess
     participant "Save-Chat 📃" as script
     participant "Engine ⚙️" as engine
     participant "Chats 🪣" as chats

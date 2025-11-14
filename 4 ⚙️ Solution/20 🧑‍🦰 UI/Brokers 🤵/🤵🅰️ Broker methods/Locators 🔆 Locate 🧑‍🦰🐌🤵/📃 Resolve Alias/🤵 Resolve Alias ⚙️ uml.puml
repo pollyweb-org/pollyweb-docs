@@ -6,7 +6,7 @@
 'participant "Finder 🔎\nvault" as finder
 
 box "Broker 🤵" #FFFFFA
-    participant "Assess@ 📃" as assess
+    participant "Locate@ 📃" as assess
     participant "Resolve-Alias 📃" as script
     participant "Engine ⚙️" as engine
     'participant "Handler 📃" as broker
