@@ -1,4 +1,4 @@
-@startuml Introduce
+@startuml Present
 
 actor "User\nin chat" as user
 participant "Broker 🤵\nhost" as broker
@@ -10,7 +10,7 @@ participant "Graph 🕸\ndomain" as graph
 
 activate broker
 
-    broker --> finder: 1) Introduce 🐌
+    broker --> finder: 1) Present 🐌
     deactivate broker
 
     activate finder

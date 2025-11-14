@@ -1,4 +1,4 @@
-@startuml Introduce
+@startuml Present
 
 participant "Payer 💳\ndomain" as payer
 participant "Identity 🆔\ndomain" as id

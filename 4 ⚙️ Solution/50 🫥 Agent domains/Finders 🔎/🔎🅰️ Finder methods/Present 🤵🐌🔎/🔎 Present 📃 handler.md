@@ -1,7 +1,7 @@
-# 🔎 Introduce 📃 handler
+# 🔎 Present 📃 handler
 
 > Purpose
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Introduce@Finder` 🅰️ method](<🔎 Present 🐌 msg.md>)
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Present@Finder` 🅰️ method](<🔎 Present 🐌 msg.md>)
 
 <br/>
 
@@ -16,7 +16,7 @@
 > Called by the [`Locate@Broker` 📃 handler](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 📃 handler.md>)
 
 ```yaml
-📃 Introduce@Finder: 
+📃 Present@Finder: 
 
 # Verify the message
 - VERIFY|$.Msg

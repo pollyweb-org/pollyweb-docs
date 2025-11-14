@@ -7,7 +7,7 @@
 
 box "Broker 🤵" #FFFFFA
     participant "Locate@ 📃" as assess
-    participant "Call-Introduce 📃" as script
+    participant "Call-Present 📃" as script
 '    participant "Chats" as chats
 '    participant "Chatters" as chatters
 end box
@@ -20,7 +20,7 @@ activate assess
 deactivate assess
 
 activate script
-    script --> finder: SEND Introduce
+    script --> finder: SEND Present
     script -> assess: 
 deactivate script
 

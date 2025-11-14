@@ -1,4 +1,4 @@
-@startuml Introduce
+@startuml Present
 
 participant "Broker 🤵\nhost" as broker
 
@@ -11,7 +11,7 @@ participant "Graph 🕸\ndomain" as graph
 'participant "Host 🤗\ndomain" as host
 
 
-    broker --> finder: Introduce 🐌
+    broker --> finder: Present 🐌
 
     activate finder
 

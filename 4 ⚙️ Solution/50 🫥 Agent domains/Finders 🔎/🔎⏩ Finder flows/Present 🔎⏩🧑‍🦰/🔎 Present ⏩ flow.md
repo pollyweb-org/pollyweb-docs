@@ -1,4 +1,4 @@
-# 🔎⏩🧑‍🦰 Introduce Host @ Finder 
+# 🔎⏩🧑‍🦰 Present Host @ Finder 
 
 > Purpose
 
@@ -25,12 +25,12 @@
 
 ## Flow diagram
 
-![Introduce](<🔎 Present ⚙️ uml.png>)
+![Present](<🔎 Present ⚙️ uml.png>)
 
 
 | # | Call | Notes
 |-|-|-
-| 1 | [🤵🐌🔎 `Introduce@Finder`](<../../🔎🅰️ Finder methods/Present 🤵🐌🔎/🔎 Present 🐌 msg.md>) | Ask to introduce a [Host 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>).
+| 1 | [🤵🐌🔎 `Present@Finder`](<../../🔎🅰️ Finder methods/Present 🤵🐌🔎/🔎 Present 🐌 msg.md>) | Ask to introduce a [Host 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>).
 | 2 | [🔎🚀⭐ `Reviews@Reviewer`](<../../../Reviewers ⭐/⭐🅰️ Reviewer methods/🔎🚀⭐ Reviews.md>) | Get domain reviews (may be cached).
 | 3 | [👥🚀🕸 `Identity@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Identity.md>) | Get domain identity (may be cached).
 | 4 | [👥🚀🕸 `Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>) | Get domain translations (may be cached).

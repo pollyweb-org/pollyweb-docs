@@ -10,7 +10,7 @@
 
 > Used by 
 
-* [`Introduce` ⏩ flow](<../../../../50 🫥 Agent domains/Finders 🔎/🔎⏩ Finder flows/Present 🔎⏩🧑‍🦰/🔎 Present ⏩ flow.md>)
+* [`Present` ⏩ flow](<../../../../50 🫥 Agent domains/Finders 🔎/🔎⏩ Finder flows/Present 🔎⏩🧑‍🦰/🔎 Present ⏩ flow.md>)
 
 <br/>
 
@@ -28,8 +28,8 @@ Body:
 
 |Object|Property|Type|Description|Origin
 |-|-|-|-|-
-| Header |`From`|domain| [Finder 🔎](<../../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | [`Introduce@`](<../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/Present 🤵🐌🔎/🔎 Present 🐌 msg.md>)
-|        |`To`|domain| [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)  | [`Introduce@`](<../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/Present 🤵🐌🔎/🔎 Present 🐌 msg.md>) |
+| Header |`From`|domain| [Finder 🔎](<../../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | [`Present@`](<../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/Present 🤵🐌🔎/🔎 Present 🐌 msg.md>)
+|        |`To`|domain| [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)  | [`Present@`](<../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/Present 🤵🐌🔎/🔎 Present 🐌 msg.md>) |
 |        | `Subject` | string | `Presented@Broker`
-| Body   | `Chat`  | uuid   | [Chat 💬 ID](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) | [`Introduce@`](<../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/Present 🤵🐌🔎/🔎 Present 🐌 msg.md>)
+| Body   | `Chat`  | uuid   | [Chat 💬 ID](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) | [`Present@`](<../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/Present 🤵🐌🔎/🔎 Present 🐌 msg.md>)
 |
