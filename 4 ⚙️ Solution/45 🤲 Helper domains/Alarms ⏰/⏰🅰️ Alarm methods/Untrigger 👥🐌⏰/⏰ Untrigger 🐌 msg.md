@@ -21,8 +21,8 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header    |`From`|domain| Any domain setting the alarm
-|           |`To`|domain| [Alarm ⏰](<../../⏰🤲 Alarm helper.md>) domain
+| Header    |`From`|string| Any domain setting the alarm
+|           |`To`|string| [Alarm ⏰](<../../⏰🤲 Alarm helper.md>) domain
 |           | `Subject`     | string    | `Trigger@Alarm`
 | Body      | `When`        | time | When to trigger the alarm
 |           | `Hook`        | object    | Object to return by [`Triggered@Alarm`](<../../⏰🔔 Alarm events/⏰🔔 Triggered.md>)

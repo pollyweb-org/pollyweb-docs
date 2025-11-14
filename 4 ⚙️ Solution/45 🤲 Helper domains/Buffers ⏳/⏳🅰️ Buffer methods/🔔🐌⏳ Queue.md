@@ -29,8 +29,8 @@ Body:
 
 |Object|Property|Type|Description|Default
 |-|-|-|-|-
-|Header|`From`|domain| [Subscriber 🔔 domain](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>) name
-||`To`|domain| [Buffer ⏳ helper domain](<../⏳🤲 Buffer helper.md>) name
+|Header|`From`|string| [Subscriber 🔔 domain](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>) name
+||`To`|string| [Buffer ⏳ helper domain](<../⏳🤲 Buffer helper.md>) name
 ||`Subject`| string | `Queue@Buffer`
 |Body |`Queue` | uuid | Queue for [`Push@Buffer`](<🌬️🐌⏳ Push.md>)
 || `Fifo` | bool | First in, first out? | No

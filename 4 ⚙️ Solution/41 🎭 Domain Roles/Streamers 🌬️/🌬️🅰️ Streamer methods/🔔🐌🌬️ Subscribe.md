@@ -25,8 +25,8 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From`|domain| [Subscriber 🔔 domain](<../../Subscribers 🔔/🔔🎭 Subscriber role.md>) name
-||`To`|domain| [Streamer 🌬️ domain](<../🌬️🎭 Streamer role.md>) name
+|Header|`From`|string| [Subscriber 🔔 domain](<../../Subscribers 🔔/🔔🎭 Subscriber role.md>) name
+||`To`|string| [Streamer 🌬️ domain](<../🌬️🎭 Streamer role.md>) name
 || `Subject` | string | `Subscribe@Streamer`
 |Body | `Stream`| string | Stream key on the [Streamer 🌬️](<../🌬️🎭 Streamer role.md>)
 || `Buffer`| string | [Buffer ⏳ domain](<../../../45 🤲 Helper domains/Buffers ⏳/⏳🤲 Buffer helper.md>) name

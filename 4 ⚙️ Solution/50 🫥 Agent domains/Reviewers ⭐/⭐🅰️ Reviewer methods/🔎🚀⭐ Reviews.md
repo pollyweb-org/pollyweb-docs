@@ -27,8 +27,8 @@ Body:
 
 |Object|Property|Type|Description|Origin
 |-|-|-|-|-
-| Header |`From`|domain| [Finder 🔎](<../../Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | [`Present@Finder`](<../../Finders 🔎/🔎🅰️ Finder methods/Present 🤵🐌🔎/🔎 Present 🐌 msg.md>)
-|        |`To`|domain| [Reviewer ⭐](<../⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) | [`Present@Finder`](<../../Finders 🔎/🔎🅰️ Finder methods/Present 🤵🐌🔎/🔎 Present 🐌 msg.md>)
+| Header |`From`|string| [Finder 🔎](<../../Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | [`Present@Finder`](<../../Finders 🔎/🔎🅰️ Finder methods/Present 🤵🐌🔎/🔎 Present 🐌 msg.md>)
+|        |`To`|string| [Reviewer ⭐](<../⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) | [`Present@Finder`](<../../Finders 🔎/🔎🅰️ Finder methods/Present 🤵🐌🔎/🔎 Present 🐌 msg.md>)
 |        | `Subject` | string | `Reviews@Reviewer`
 | Body   | `Domain`  | domain | [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [`Present@Finder`](<../../Finders 🔎/🔎🅰️ Finder methods/Present 🤵🐌🔎/🔎 Present 🐌 msg.md>)
 |

@@ -17,5 +17,6 @@
         "no-alt-text": false,
         "ul-style": false,
         "no-trailing-spaces": false
-    }
+    },
+    "cSpell.enabled": true
 }

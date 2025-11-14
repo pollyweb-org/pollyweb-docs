@@ -32,8 +32,8 @@ Body:
 
 |Property|Type|Description
 |-|-|-
-|`From`|domain| [Broker 🤵 domain](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) name.
-|`To`|domain| [Payer 💳 domain](<../../💳🎭 Payer role.md>) name.
+|`From`|string| [Broker 🤵 domain](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) name.
+|`To`|string| [Payer 💳 domain](<../../💳🎭 Payer role.md>) name.
 | `Subject` | string | `Endorse@Payer`
 | `Bind`| uuid | [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) ID.
 | `Collector` | string | [Collector 🏦 domain](<../../../../45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) name.

@@ -26,8 +26,8 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From`|domain| [Notifier 📣 domain](<../../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>) name
-||`To`|domain| [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) name
+|Header|`From`|string| [Notifier 📣 domain](<../../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>) name
+||`To`|string| [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) name
 ||`Subject`| string | `Onboard@Broker`
 |Body| `Language` | enum | ISO language code.
 || `PublicKey`| string | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) generated public key

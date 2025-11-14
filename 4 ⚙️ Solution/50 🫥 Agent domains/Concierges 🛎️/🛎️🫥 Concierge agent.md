@@ -14,7 +14,7 @@
 
 1. **What are examples for Concierge usages in NLWeb?**
 
-    |Domain|Usage
+    |string|Usage
     |-|-
     | [Custodian 🧳](<../Custodians 🧳/🧳🫥 Custodian agent.md>) | Help users recover a lost [Thing 💠](<../../25 🔆 Locators/Things 💠/💠🔆 Thing locator.md>).
     | [Vitalogist 💖](<../Vitalogists 💖/💖🫥 Vitalogist agent.md>) | Book exams and medical appointments for users.

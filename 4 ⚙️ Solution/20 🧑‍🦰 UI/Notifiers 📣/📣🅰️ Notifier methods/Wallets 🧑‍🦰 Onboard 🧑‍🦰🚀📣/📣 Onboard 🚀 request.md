@@ -33,8 +33,8 @@ Body:
 
 |Object|Property|Type|Description|Purpose
 |-|-|-|-|-
-|Header |`From`|domain| `Anonymous`
-|       |`To`|domain| [Notifier 📣](<../../📣 Notifier domain/📣 Notifier 👥 domain.md>) name
+|Header |`From`|string| `Anonymous`
+|       |`To`|string| [Notifier 📣](<../../📣 Notifier domain/📣 Notifier 👥 domain.md>) name
 |       | `Subject`   | string | `Onboard@Notifier`
 | Body  | `Language`  | enum   | ISO language code | [`Hello@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 |       | `PublicKey` | string | |[`Chats@`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 request.md>)

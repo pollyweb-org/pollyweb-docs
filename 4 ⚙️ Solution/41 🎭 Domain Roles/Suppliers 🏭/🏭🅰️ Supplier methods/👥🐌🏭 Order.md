@@ -24,8 +24,8 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header |`From`|domain| Caller [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name
-|       |`To`|domain| [Supplier 🏭 domain](<../🏭🎭 Supplier role.md>)
+|Header |`From`|string| Caller [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name
+|       |`To`|string| [Supplier 🏭 domain](<../🏭🎭 Supplier role.md>)
 |       |`Subject`  | string | `Order @ Supplier`
 |Body   |`OrderID`  | uuid   | ID of the order on the  Caller [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
 |       | `ItemCode`| string | [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) of the items

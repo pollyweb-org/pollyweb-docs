@@ -32,7 +32,7 @@ Body:
 
 |Object |Property |Type|Description | Origin 
 |-|-|-|-|-
-|Header |`From`|domain| `Anonymous`
+|Header |`From`|string| `Anonymous`
 |       |`To`|string  | [Issuer 🎴](<../../🎴 Issuer/🎴🎭 Issuer role.md>) | [`Save@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>)
 ||`Subject`|string|`Token@Issuer` 
 | Body | `Hook`| string | [Issuer 🎴](<../../🎴 Issuer/🎴🎭 Issuer role.md>) Hook | [`Save@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>)
