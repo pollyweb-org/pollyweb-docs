@@ -1,4 +1,4 @@
-# 🤵🐌📣 Open @ Notifier 
+# 🤵🐌📣 Assess @ Notifier 
 
 > Used by the [`Pop` 📃 handler](<../../../Brokers 🤵/🤵🅰️ Broker methods/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 📃 handler.md>)
 
@@ -8,7 +8,7 @@
 Header:
     From: any-broker.dom
     To: any-notifier.dom
-    Subject: Converse@Notifier
+    Subject: Assess@Notifier
     
 Body:
     Wallet: <wallet-uuid>
