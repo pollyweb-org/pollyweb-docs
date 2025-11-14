@@ -14,12 +14,6 @@
     * that there was an update 
     * and they need to refresh the user experience.
 
-> Used in
-* [🤵⏩🧑‍🦰 Update Binds 🔗](<../../../Brokers 🤵/🤵⏩ Broker flows/Update Binds 🤵⏩🔗/🤵 Update Binds ⏩ flow.md>)
-* [🤵⏩🧑‍🦰 Update tokens](<../../../Brokers 🤵/🤵⏩ Broker flows/Update Tokens 🤵⏩🎫/🤵 Update Tokens ⏩ flow.md>)
-* [🤵⏩🧑‍🦰 Update chats 💬](<../../../Brokers 🤵/🤵⏩ Broker flows/Update Chats 🤵⏩💬/🤵 Update Chats ⏩ flow.md>)
-
-<br/>
 
 ## Async Message 🐌
 

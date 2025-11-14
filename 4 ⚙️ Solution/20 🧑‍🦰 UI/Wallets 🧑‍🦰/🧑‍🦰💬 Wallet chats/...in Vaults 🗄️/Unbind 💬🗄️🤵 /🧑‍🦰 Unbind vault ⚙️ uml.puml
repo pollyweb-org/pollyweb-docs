@@ -3,16 +3,11 @@
 
 ' ---------------------
 actor "User" as user 
-participant "Wallet 👱\napp" as wallet
-participant "Notifier 📣\nbff" as notifier
-participant "Broker 🤵\nhost" as broker
-participant "Vault 🗄️\nhost" as vault
+participant "Wallet 👱" as wallet
+'participant "Notifier 📣" as notifier
+participant "Broker 🤵" as broker
+participant "Vault 🗄️" as vault
  
-
-' There's a chat with the vault.
-activate vault
-    vault --> wallet: ⏪ Prompt 🤔
-deactivate vault
 
 ' Activate the broker.
 user --> wallet: broker 🤵
@@ -26,13 +21,12 @@ deactivate broker
 ' User asks to unbind.
 activate wallet
     user --> wallet: unbind
-    wallet --> broker: {unbind}
+    wallet --> broker: 
 deactivate wallet
 
 ' BROKER. UNBIND
 activate broker
-    broker --> wallet: 3) ⏪ Update Binds 🔗
-    broker --> vault: 4) Unbound 🐌
+    broker --> vault: 3) Unbound 🐌
 deactivate broker
 
 

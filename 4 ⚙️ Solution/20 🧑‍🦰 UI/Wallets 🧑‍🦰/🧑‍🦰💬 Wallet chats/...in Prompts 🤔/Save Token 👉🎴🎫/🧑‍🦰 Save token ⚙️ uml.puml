@@ -2,12 +2,12 @@
 
 
 ' ----------------------
-actor "User\nin chat" as user
-participant "Wallet 👱\napp" as wallet
-participant "Notifier 📣\nbff" as notifier
-participant "Broker 🤵\ndomain" as broker
-participant "Graph 🕸\ndomain" as graph
-participant "Issuer 🎴\ndomain" as issuer
+actor "User" as user
+participant "Wallet 👱" as wallet
+participant "Notifier 📣" as notifier
+participant "Broker 🤵" as broker
+participant "Graph 🕸" as graph
+participant "Issuer 🎴" as issuer
 
 
 activate issuer
@@ -34,8 +34,8 @@ activate broker
 deactivate broker
 
 activate wallet 
-    user --> wallet: save
-    wallet --> broker: {Yes}
+    user --> wallet: yes
+    wallet --> broker: 
 deactivate wallet
 
 group If user accepted
@@ -63,17 +63,14 @@ activate wallet
     wallet --> broker: 7) Saved 🐌 { token, path }
 deactivate wallet
 
-' NOTIFY
 activate broker
-    broker --> wallet: 8) ⏪ Update Tokens 🎫
-
 end group
 
-    broker --> issuer: 9) Accepted {hook, token} 🐌
+    broker --> issuer: 8) Accepted {hook, token} 🐌
 deactivate broker
 
 activate issuer
-    issuer --> wallet: A) ⏪ Prompt 🤔
+    issuer --> wallet: 9) ⏪ Prompt 🤔
 deactivate issuer
 
 

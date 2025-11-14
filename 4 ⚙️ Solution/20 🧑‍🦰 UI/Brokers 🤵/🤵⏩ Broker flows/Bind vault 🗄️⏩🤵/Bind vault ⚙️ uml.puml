@@ -2,13 +2,12 @@
 @startuml Bind()
 
  
-' ---------------------
 actor User as user
-participant "Wallet 👱\napp" as wallet
-participant "Notifier 📣\nbff" as notifier
-participant "Broker 🤵\nhost" as broker
-participant "Vault 🗄️\nhost" as vault
-participant "Graph 🕸\ndomain" as graph
+participant "Wallet 👱" as wallet
+participant "Notifier 📣" as notifier
+participant "Broker 🤵" as broker
+participant "Vault 🗄️" as vault
+participant "Graph 🕸" as graph
 
 
 activate broker
@@ -24,8 +23,6 @@ activate broker
     
     ' Bind with the vault.
     broker --> vault: 3) Bound 🐌
-
-    broker --> wallet: 4) ⏪ Update Binds 🔗
     
 deactivate broker
 
