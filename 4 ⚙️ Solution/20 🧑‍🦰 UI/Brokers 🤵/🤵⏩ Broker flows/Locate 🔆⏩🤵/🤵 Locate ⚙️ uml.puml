@@ -4,17 +4,17 @@
 actor User as user  
 
 'box "User Interface (UI)"  #FFFFFF
-  participant "Wallet 👱\napp" as wallet
-  participant "Notifier 📣\nbff" as notifier
-  participant "Broker 🤵\nhost" as broker
+  participant "Wallet 👱" as wallet
+  'participant "Notifier 📣\nbff" as notifier
+  participant "Broker 🤵" as broker
 'end box
 
-participant "Printer 🖨️\nsupplier" as printer
-participant "Finder 🔎\nvault" as finder
-participant "Host 🤗\ndomain" as host
+participant "Printer 🖨️" as printer
+participant "Finder 🔎" as finder
+participant "Host 🤗" as host
 
 
-wallet --> broker: 0) Assess 🐌
+wallet --> broker: 0) Locate 🐌
 
 activate broker
 
@@ -30,9 +30,14 @@ activate broker
 
     'alt No host session?
 
-        broker --> wallet: 2) ⏪ Converse 💬
-        activate wallet
-        
+        broker --> wallet: 2) ⏪ Open 💬
+    deactivate broker
+    
+    activate wallet
+        wallet --> broker: 
+    deactivate wallet
+
+    activate broker   
 
         broker --> finder: 3) Introduce ⏩
         deactivate broker

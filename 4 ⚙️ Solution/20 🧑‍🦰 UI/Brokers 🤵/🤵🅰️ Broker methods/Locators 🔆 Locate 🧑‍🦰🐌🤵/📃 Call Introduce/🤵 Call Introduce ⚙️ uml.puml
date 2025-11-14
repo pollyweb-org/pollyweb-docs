@@ -6,7 +6,7 @@
 'participant "Printer 🖨️\nsupplier" as printer
 
 box "Broker 🤵" #FFFFFA
-    participant "Assess@ 📃" as assess
+    participant "Locate@ 📃" as assess
     participant "Call-Introduce 📃" as script
 '    participant "Chats" as chats
 '    participant "Chatters" as chatters
