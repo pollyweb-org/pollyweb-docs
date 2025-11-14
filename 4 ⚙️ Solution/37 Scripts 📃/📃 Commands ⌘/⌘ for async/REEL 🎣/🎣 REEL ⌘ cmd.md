@@ -71,7 +71,7 @@ then the last 3 will never be executed because REEL will exit the script.
         Else: FAILURE|Not bounded.
     ```
 
-    Uses: [`BIND`](<../../⌘ for methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) [`IF`](<../IF ⤵️/⤵️ IF ⌘ cmd.md>)
+    Uses: [`BIND`](<../../⌘ for methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) [`IF`](<../../⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>)
     
     <br/>
 
