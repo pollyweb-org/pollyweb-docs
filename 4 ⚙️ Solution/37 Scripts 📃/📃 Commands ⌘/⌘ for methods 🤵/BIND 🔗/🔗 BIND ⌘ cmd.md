@@ -4,11 +4,11 @@
 
 > Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
 
-<br/>
+## FAQ
 
-1. **What is a BIND message command?**
+1. **What is the BIND message command?**
 
-    A `BIND`
+    `BIND`
     * is a message [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) 
     * that invokes the [Bind @ Vault ⏩ flow](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/🧑‍🦰 Bind vault ⏩ flow.md>).
 
