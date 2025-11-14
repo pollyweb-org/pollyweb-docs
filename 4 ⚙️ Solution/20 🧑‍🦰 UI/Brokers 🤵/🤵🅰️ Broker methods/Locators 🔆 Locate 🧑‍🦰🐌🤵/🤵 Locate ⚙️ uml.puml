@@ -36,7 +36,6 @@ activate broker
 
     broker -> engine: RUN 🏃 Save-Host
 
-    broker -> engine: RUN 🏃 Call-Present
 
 
 deactivate broker
