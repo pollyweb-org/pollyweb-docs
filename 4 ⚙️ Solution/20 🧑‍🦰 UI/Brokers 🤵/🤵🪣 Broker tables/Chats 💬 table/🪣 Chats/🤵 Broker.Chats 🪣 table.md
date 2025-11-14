@@ -31,7 +31,7 @@ Handlers:
     OnChatChanges:          # On insert, updated, delete
         Events: ALTERED     # >> call Updated@Notifier
     
-    OnChatInserted:         # On Assess@Broker
+    OnChatLocated:          # On Locate@Broker
         Events: INSERTED    # >> call Open@Notifier
     
     OnChatOpened:           # On Opened@Broker
