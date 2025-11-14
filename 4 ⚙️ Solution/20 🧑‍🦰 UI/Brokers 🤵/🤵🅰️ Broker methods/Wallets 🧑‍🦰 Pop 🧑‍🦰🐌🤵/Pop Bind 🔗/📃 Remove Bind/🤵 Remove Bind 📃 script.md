@@ -14,11 +14,9 @@
 
 ## Script
 
-> Requires a `$:Wallet` holder from the [`Pop@Broker` 📃 script](<../../🤵 Pop 📃 handler.md>)
 
-<!-- TODO: change the ASSERT -->
 ```yaml
-📃 PopVault:
+📃 PopBind.RemoveBind:
 
 # Verify the inputs
 - ASSERT|.Inputs
@@ -30,36 +28,14 @@
     Where: Domain.Is($.Msg.Body.Key)
 
 # Ask for confirmation 🤔
-- CONFIRM|Unbind vault {$vault.Title}?
-
-# Filter the binds.
-- ASK|Which ones? >> $binds:
-    Options: $vault.Binds
-    ID: Bind
-    Title: Schema$
+- CONFIRM:
+    Text: |
+        Confirm unbind? 
+        - (({$bind.Title}))
 
 # Remove each bind
 - PARALLEL|$vault.Binds|$bind:
-
-    # Delete the Bind
-    - DELETE|$bind
-    
-    # Inform the Vault
-    - SEND:
-        Header:
-            To: $bind.Vault
-            Subject: Unbound@Vault
-        Body:
-            Bind: $bind.ID
-
-# Update the bind list
-- SEND:
-    Header:
-        To: $Wallet.Notifier
-        Subject: Updated@Notifier
-    Body:
-        Wallet: $Wallet.ID
-        Updates: [ BINDS ]
+    DELETE|$bind
 
 # Inform the user 🤔
 - SUCCESS|Done.
