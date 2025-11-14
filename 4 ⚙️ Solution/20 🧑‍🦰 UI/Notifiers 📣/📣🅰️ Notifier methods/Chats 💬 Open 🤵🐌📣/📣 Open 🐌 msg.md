@@ -1,11 +1,11 @@
-# 🤵🐌📣 Converse @ Notifier
+# 🤵🐌📣 Open @ Notifier
 
 > Implements the [Notifier 📣 domain](<../../📣 Notifier domain/📣 Notifier 👥 domain.md>)
 
 
 > [Broker 🤵 domains](<../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) tell [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) about a new [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>).
 
-> Used in [🤵⏩🧑‍🦰 Converse @ Broker](<../../../Brokers 🤵/🤵⏩ Broker flows/Open 🤵⏩💬/🤵 Open ⏩ flow.md>) 
+> Used in [🤵⏩🧑‍🦰 Open @ Broker](<../../../Brokers 🤵/🤵⏩ Broker flows/Open 🤵⏩💬/🤵 Open ⏩ flow.md>) 
 
 ## Message
 

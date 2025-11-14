@@ -13,7 +13,7 @@
 
 
 > Signature of the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
-* signed with the `PrivateKey` from [`Converse@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Open 🤵🐌📣/📣 Open 🐌 msg.md>) 🅰️ method
+* signed with the `PrivateKey` from [`Open@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Open 🤵🐌📣/📣 Open 🐌 msg.md>) 🅰️ method
 * verified with the `PublicKey` from [`Hello@Host`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>) 🅰️ method
 
 

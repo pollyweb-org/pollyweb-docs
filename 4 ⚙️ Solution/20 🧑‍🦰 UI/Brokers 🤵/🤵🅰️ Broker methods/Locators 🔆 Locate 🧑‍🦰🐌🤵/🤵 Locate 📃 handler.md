@@ -11,7 +11,7 @@
 | # | Call | Notes
 |-|-|-
 | 1 | [👥🚀🖨️ `Resolve@Printer`](<../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🅰️ Printer methods/Resolve 👥🚀🖨️/🖨️ Resolve 🚀 request.md>) | Get the underlying [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) 
-| 2 | [🤵⏩🧑‍🦰 Converse 🔆](<../../🤵⏩ Broker flows/Open 🤵⏩💬/🤵 Open ⏩ flow.md>) | Ask [Wallets 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)  to open a chat window
+| 2 | [🤵⏩🧑‍🦰 Open 🔆](<../../🤵⏩ Broker flows/Open 🤵⏩💬/🤵 Open ⏩ flow.md>) | Ask [Wallets 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)  to open a chat window
 | 3 | [🔎⏩🧑‍🦰 Introduce 🤗](<../../../../50 🫥 Agent domains/Finders 🔎/🔎⏩ Finder flows/Introduce 🔎⏩🧑‍🦰/🔎 Introduce ⏩ flow.md>) | Ask [Finders 🔎](<../../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) to introduce [Hosts 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)
 ||
 
@@ -45,7 +45,7 @@
     Locator: $.Msg.Body.Locator
 
 # Open a Chat on the Wallet app
-- RUN|Converse@Broker >> $chat:
+- RUN|Open@Broker >> $chat:
     Wallet: $wallet
     Locator: $locator
 
@@ -65,5 +65,5 @@
 |-|-
 | [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>)  | [`$.Msg`](<../../../../37 Scripts 📃/📃 Holders 🧠/🧠 System holders/$.Msg 📨/📨 $.Msg 🧠 holder.md>) [`READ`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`IF`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`PARSE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/PARSE 🔆/🔆 PARSE ⌘ cmd.md>) [`RUN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>) [`SEND`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>) [`VERIFY`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>)
 | [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>)    | [`Wallets` 🪣](<../../🤵🪣 Broker tables/Wallets 🧑‍🦰 table/🤵 Broker.Wallets 🪣 table.md>)
-[Scripts 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) | [`Resolve Alias` 📃 script](<📃 Resolve Alias/🤵 Resolve Alias 📃 script.md>) <br/> [`Call Converse` 📃 script](<📃 Call Converse/🤵 Call Converse 📃 script.md>) <br/> [`Call Introduce` 📃 script](<📃 Call Introduce/🤵 Call Introduce 📃 script.md>) <br/> [`Save Chat` 📃 script](<📃 Save Chat/🤵 Save Chat 📃 script.md>)
+[Scripts 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) | [`Resolve Alias` 📃 script](<📃 Resolve Alias/🤵 Resolve Alias 📃 script.md>) <br/> [`Call Open` 📃 script](<📃 Call Open/🤵 Call Open 📃 script.md>) <br/> [`Call Introduce` 📃 script](<📃 Call Introduce/🤵 Call Introduce 📃 script.md>) <br/> [`Save Chat` 📃 script](<📃 Save Chat/🤵 Save Chat 📃 script.md>)
 | 
