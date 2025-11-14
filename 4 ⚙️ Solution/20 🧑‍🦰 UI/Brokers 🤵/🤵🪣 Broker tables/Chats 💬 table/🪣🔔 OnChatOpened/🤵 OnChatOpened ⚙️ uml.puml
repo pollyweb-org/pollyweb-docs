@@ -1,0 +1,27 @@
+@startuml OnChatCreated
+
+'participant "Wallet 👱" as wallet
+
+box Broker 🤵 domain #FFFFFA
+    participant "Script 📃" as script
+    participant "Chats 🪣" as table
+    participant "OnOpened 📃" as handler
+end box
+
+participant "Finder 🔎" as finder
+
+
+
+activate script
+    script -> table: SAVE 💾 {Status:Opened}
+
+
+activate table
+    table --> handler: UPDATED 🔔
+deactivate table
+
+activate handler
+    handler --> finder: SEND 📬 {Present 🐌}
+deactivate handler
+
+@enduml
