@@ -1,6 +1,6 @@
 # 🤵📃 Converse 💬
 
-> Part of the [`Assess@Broker` 📃 script](<../🤵 Assess 📃 handler.md>)
+> Part of the [`Assess@Broker` 📃 script](<../🤵 Locate 📃 handler.md>)
 
 ## Diagram
 

@@ -16,7 +16,7 @@ end box
 
 
 activate wallet
-  wallet --> broker: Assess 🐌 {hook, locator}
+  wallet --> broker: Locate 🐌 {hook, locator}
 deactivate wallet
 
 

@@ -374,9 +374,9 @@ Successful Tests:
 
   HANDLERS 📃:
 
-  - Given: "{{Assess handler}}"
-    LinkText: "`Assess` 📃 handler"
-    LinkFile: '🤵 Assess 📃 handler.md'
+  - Given: "{{Locate handler}}"
+    LinkText: "`Locate` 📃 handler"
+    LinkFile: '🤵 Locate 📃 handler.md'
     Reasons: 
       For `{{WORD handler}}`,
       where the string ends with the word `handler`,

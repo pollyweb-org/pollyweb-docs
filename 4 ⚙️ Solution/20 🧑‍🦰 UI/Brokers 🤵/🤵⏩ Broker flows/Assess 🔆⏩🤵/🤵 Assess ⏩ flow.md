@@ -1,6 +1,6 @@
 # 🤵⏩🧑‍🦰 Assess @ Broker
 
-> Implemented by the [`Assess` 📃 handler](<../../🤵🅰️ Broker methods/Locators 🔆 Assess 🧑‍🦰🐌🤵/🤵 Assess 📃 handler.md>)
+> Implemented by the [`Assess` 📃 handler](<../../🤵🅰️ Broker methods/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 📃 handler.md>)
 
 > Purpose
 
@@ -40,7 +40,7 @@
 
 | # | Call | Notes
 |-|-|-|
-|0|[🧑‍🦰🐌🤵 `Assess@Broker`](<../../🤵🅰️ Broker methods/Locators 🔆 Assess 🧑‍🦰🐌🤵/🤵 Assess 🐌 msg.md>) | Parse the [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>)
+|0|[🧑‍🦰🐌🤵 `Assess@Broker`](<../../🤵🅰️ Broker methods/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>) | Parse the [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>)
 |1|[🤵🚀🖨️ `Resolve@Printer`](<../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🅰️ Printer methods/Resolve 👥🚀🖨️/🖨️ Resolve 🚀 request.md>) | Ask [Printers 🖨️](<../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>) to resolve [`.ALIAS` 🧩](<../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🧩 Printer schemas/🧩 ALIAS.md>)
 | 2 | [🤵⏩🧑‍🦰 Converse 🔆](<../Converse 🤵⏩💬/🤵 Converse ⏩ flow.md>) | Ask [Wallets 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)  to open a chat window
 | 3 | [🔎⏩🧑‍🦰 Introduce 🤗](<../../../../50 🫥 Agent domains/Finders 🔎/🔎⏩ Finder flows/Introduce 🔎⏩🧑‍🦰/🔎 Introduce ⏩ flow.md>) | Ask [Finders 🔎](<../../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) to introduce [Hosts 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)
