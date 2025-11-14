@@ -4,24 +4,24 @@ participant "Broker 🤵" as broker
 'participant "Consumer 💼" as consumer
 'participant "Graph 🕸" as graph
 
-box Hoster ☁️ domain #FFFFFA
-    participant "Vault 🗄️" as vault
-    participant "Talker 😃" as talker
-end box
-box Itemizer 🛢 domain #FFFFFA
+box Vault 🗄️ domain #FFFFFA
+    participant "Bound@ 📃" as vault
+'end box
+'box Itemizer 🛢 domain #FFFFFA
     participant "Hooks 🪣" as hooks
     participant "Binds 🪣" as binds
+    participant "Talker 😃" as talker
 end box
 
 
 activate broker
-    broker --> vault: Bound 🐌 {hook, binds}
+    broker --> vault: Bound 🐌 {hook, bind}
 deactivate broker
 
 activate vault
     vault -> hooks: READ {hook}
-    vault -> binds: PARALLEL: SAVE 💾 {bind}
-    vault --> talker: REEL 🎣 {hook, binds}
+    vault -> binds: SAVE 💾 {bind}
+    vault --> talker: REEL 🎣 {hook, bind}
 deactivate vault
 
 activate talker

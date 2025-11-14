@@ -5,7 +5,8 @@
 
 # 🤵🐌🗄️ Bound @ Vault
 
-> Implemented by the [`Bound` 📃 script](<🗄️ Bound 📃 handler.md>)
+> Implementation
+* Implemented by the [`Bound` 📃 script](<🗄️ Bound 📃 handler.md>)
 
 
 > Used by
@@ -13,7 +14,6 @@
 * [`Bind` ⏩ flow](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/🧑‍🦰 Bind vault ⏩ flow.md>)
 * [`Bind Vault` ⏩ flow ](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵⏩ Broker flows/Bind vault 🗄️⏩🤵/Bind vault ⏩ flow.md>) 
 
-<br/>
 
 ## Async Message 🐌
 
@@ -26,9 +26,7 @@ Header:
 
 Body:
     Hook: <hook-uuid>
-    Binds:
-      - Bind: <bind-uuid>
-        Schema: europa.eu/DISABILITY/CARD
+    Bind: <bind-uuid>
 ```
 
 |Object|Property|Type|Description|Origin|Purpose
@@ -37,11 +35,9 @@ Body:
 ||`To`|string| [Vault 🗄️](<../../🗄️🎭 Vault role.md>)  | [`Bindable@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>)
 || `Subject` | string | `Bound@Vault`
 |Body|  `Hook` | uuid | [Hook 🪝](<../../../../35 💬 Chats/Talkers 😃/😃🪣 Talker tables/😃 Talker.Hooks 🪣 table.md>) | [`Bindable@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>)
-|Binds| `Bind`| uuid | [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)  || [`Engage@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Engage 🗄️🐌🤵/🤵 Engage 🐌 msg.md>)
-|| `Schema`| string | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)  | [`Bindable@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>)
+| | `Bind`| uuid | [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)  || [`Engage@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Engage 🗄️🐌🤵/🤵 Engage 🐌 msg.md>)
 |
 
-<br/>
 
 
 ## FAQ
