@@ -11,7 +11,7 @@
 
 1. **What other domains do Personas need?**
 
-    |Domain|Purpose
+    |string|Purpose
     |-|-
     | [🗃️ Storage](<../../Storage 🗃️/🗃️🫥 Storage agent.md>) | To comply with data residency.
 

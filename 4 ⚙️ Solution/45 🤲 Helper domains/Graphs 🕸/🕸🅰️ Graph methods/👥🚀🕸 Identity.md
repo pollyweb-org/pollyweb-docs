@@ -29,8 +29,8 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header|`From`|domain| The name of the [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) querying
-|       |`To`|domain| [Graph 🕸 domain](<../🕸🤲 Graph helper.md>) name
+| Header|`From`|string| The name of the [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) querying
+|       |`To`|string| [Graph 🕸 domain](<../🕸🤲 Graph helper.md>) name
 |       | `Subject` | string | `Identity@Graph`
 | Body  | `Domain`  | string | The name of another [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to look up
 |

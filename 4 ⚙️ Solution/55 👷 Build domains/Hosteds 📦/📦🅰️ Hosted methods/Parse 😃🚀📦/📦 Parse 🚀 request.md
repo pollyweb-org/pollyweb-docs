@@ -23,8 +23,8 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header    |`From`|domain| [Talker 😃 domain](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>)
-|           |`To`|domain| [Hosted 📦 domain](<../../📦👥 Hosted domain.md>)
+| Header    |`From`|string| [Talker 😃 domain](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>)
+|           |`To`|string| [Hosted 📦 domain](<../../📦👥 Hosted domain.md>)
 | | `Subject`| string | `Parse@Hosted` |
 | Body      | `Command`     | any    | [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) to parse
 |

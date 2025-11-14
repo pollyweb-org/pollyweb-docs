@@ -33,7 +33,7 @@ Body:
 | Object| Property | Type | Description
 |-|-|-|-
 | Header    |`From`| uuid | `Clone` from [`Clone@`](<🔃🚀🗂️ Clone.md>) 
-|           |`To`|domain| [Filer 🗂️](<../🗂️🎭 Filer role.md>) from [`Clone@`](<🔃🚀🗂️ Clone.md>) 
+|           |`To`|string| [Filer 🗂️](<../🗂️🎭 Filer role.md>) from [`Clone@`](<🔃🚀🗂️ Clone.md>) 
 |           | `Subject`     | string    | `Upload@Filer`
 | Body      | `Map`         | uuid    | ID from [`Map@Filer`](<🔃🚀🗂️ Map.md>)
 |           | `File`        | string | Path like `/dir/file.ext`

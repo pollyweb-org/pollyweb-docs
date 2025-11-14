@@ -3,15 +3,18 @@
 
 # 🤗🐌🤵 Freeze @ Broker
 
+> Implementation
+* Implements a [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+* Implemented by the [`Freeze` 📃 handler](<🤵 Freeze 📃 handler.md>)
+
 > Purpose
-* The [Host 🤗 domain](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) 
-    * freezes changes to any pre.
+* A [Host 🤗 domain](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) 
+    * freezes changes to any previous inputs in the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>).
 
-> Used
-* [❄️ Talker `FREEZE` command](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/FREEZE ❄️/❄️ FREEZE ⌘ cmd.md>)
-* [❄️ Host Freeze ⏩ flow](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Freeze 🤗⏩❄️/🤗 Freeze ⏩ flow.md>)
+> Used by
+* [❄️ `FREEZE` command](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/FREEZE ❄️/❄️ FREEZE ⌘ cmd.md>)
+* [❄️ `Freeze` ⏩ flow](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Freeze 🤗⏩❄️/🤗 Freeze ⏩ flow.md>)
 
-<br/> 
 
 ## Async Message 🐌
 
@@ -25,10 +28,10 @@ Body:
     Chat: <chat-uuid>
 ```
 
-|Object|Property|Type|Description
-|-|-|-|-
-|Header|`From`|domain| [Host 🤗 domain](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)
-||`To`|string  | [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+|Object|Property|Type|Description|Origin|Purpose
+|-|-|-|-|-|-
+|Header|`From`|string| [Host 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
+||`To`|string  | [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 ||`Subject` | string | `Freeze@Broker`
-|Body|`Chat`   | uuid    | ID of the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) 
+|Body|`Chat`   | uuid    | ID of the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) | [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>) | [`Frozen@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Frozen 🤵🐌📣/📣 Frozen 🐌 msg.md>)
 |

@@ -27,7 +27,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 |Header|`From`| uuid | [Domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name of the [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) receiver 
-||`To`|domain| Sender's [Buffer ⏳ helper domain](<../⏳🤲 Buffer helper.md>) name
+||`To`|string| Sender's [Buffer ⏳ helper domain](<../⏳🤲 Buffer helper.md>) name
 ||`Subject`| string | `Feedback@Buffer`
 |Body| `Sender`| string | [Domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name of the [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) sender
 ||`Correlation`| uuid | Correlation ID of the affected [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)

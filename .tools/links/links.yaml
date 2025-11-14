@@ -466,6 +466,11 @@ Successful Tests:
       the file name contains the emoji "⏩",
       and the file name ends with "flow.md".
 
+  - Given: "{{Freeze flow}}"
+    LinkText: "`Freeze` ⏩ flow"
+    LinkFile: '🤗 Freeze ⏩ flow.md'
+    Reasons: same as "{{Consume flow}}".
+
   METHODS 🅰️:
 
   - Given: '{{Parse@Hosted}}'

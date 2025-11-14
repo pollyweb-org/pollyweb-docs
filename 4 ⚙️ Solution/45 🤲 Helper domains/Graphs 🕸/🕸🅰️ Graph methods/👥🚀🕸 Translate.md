@@ -38,8 +38,8 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header|`From`|domain| The name of the [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) asking
-|       |`To`|domain| [Graph 🕸 domain](<../🕸🤲 Graph helper.md>) name
+| Header|`From`|string| The name of the [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) asking
+|       |`To`|string| [Graph 🕸 domain](<../🕸🤲 Graph helper.md>) name
 |       | `Subject` | string | `Translate@Graph`
 |Body   | `Domain`     | string  | The [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to translate
 || or `Domains`     | string[]  | The [domains 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to translate

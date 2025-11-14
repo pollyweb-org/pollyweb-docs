@@ -21,8 +21,8 @@ Body:
 
 |Object|Property|Type|Description|Origin|Purpose
 |-|-|-|-|-|-
-| Header    |`From`|domain| [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [`Start@`](<../Start 👥🚀🪵/🪵 Start 🚀 request.md>)
-|           |`To`|domain| [Logger 🪵](<../../🪵 Logger helper/🪵 Logger 🤲 helper.md>) | [`Start@`](<../Start 👥🚀🪵/🪵 Start 🚀 request.md>)|           | `Subject`     | string    | `Log@Logger`
+| Header    |`From`|string| [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [`Start@`](<../Start 👥🚀🪵/🪵 Start 🚀 request.md>)
+|           |`To`|string| [Logger 🪵](<../../🪵 Logger helper/🪵 Logger 🤲 helper.md>) | [`Start@`](<../Start 👥🚀🪵/🪵 Start 🚀 request.md>)|           | `Subject`     | string    | `Log@Logger`
 | Body      | `Thread`     | uuid    | Log thread ID | [`Start@`](<../Start 👥🚀🪵/🪵 Start 🚀 request.md>) | [`Export@`](<../Export 👥🚀🪵/🪵 Export 🚀 request.md>)
 || `Group`    | string    | Optional log group | [`Start@`](<../Start 👥🚀🪵/🪵 Start 🚀 request.md>) | [`Export@`](<../Export 👥🚀🪵/🪵 Export 🚀 request.md>)
 || `Blame`     | string    | Optional sender || [`Export@`](<../Export 👥🚀🪵/🪵 Export 🚀 request.md>)

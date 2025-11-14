@@ -28,7 +28,7 @@ Body:
 | Object| Property | Type | Description
 |-|-|-|-
 | Header    |`From`| uuid | `Clone` from [`Clone@`](<🔃🚀🗂️ Clone.md>) 
-|           |`To`|domain| [Filer 🗂️](<../🗂️🎭 Filer role.md>) from [`Clone@`](<🔃🚀🗂️ Clone.md>) 
+|           |`To`|string| [Filer 🗂️](<../🗂️🎭 Filer role.md>) from [`Clone@`](<🔃🚀🗂️ Clone.md>) 
 |           | `Subject`     | string    | `Map@Filer`
 | Body      | `Files`       | dict | Dictionary of local files
 | File      | `Hash`        | string | Hashed with [`Clone@`](<🔃🚀🗂️ Clone.md>) hash
