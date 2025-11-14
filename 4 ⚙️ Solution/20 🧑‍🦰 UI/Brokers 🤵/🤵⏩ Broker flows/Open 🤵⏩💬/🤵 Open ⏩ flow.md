@@ -11,7 +11,7 @@
 
 ## Flow diagram
 
-![New chat](<🤵 Converse ⚙️ uml.png>)
+![New chat](<🤵 Open ⚙️ uml.png>)
 
 
 | # | Call | Notes
