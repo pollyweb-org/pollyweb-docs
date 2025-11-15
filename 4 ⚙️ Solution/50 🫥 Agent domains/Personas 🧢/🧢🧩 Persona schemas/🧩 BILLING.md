@@ -9,7 +9,7 @@
 
 ```yaml
 Path: /PERSONA/BILLING
-Name: Billing address
+Title: Billing address
 
 Translations:
   pt: Endereço de pagamento

@@ -18,7 +18,7 @@ About:
 Schemas:
 
   - Path: /ISD
-    Name: International Subscriber Dialing (ISD)
+    Title: International Subscriber Dialing (ISD)
     Description: Telephone country codes.
     References:
       Wikipedia: https://en.wikipedia.org/wiki/List_of_country_calling_codes

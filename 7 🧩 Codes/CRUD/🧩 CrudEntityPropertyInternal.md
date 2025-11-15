@@ -9,7 +9,7 @@
 
 ```yaml
 Path: /CRUD/ENTITY/PROPERTY/INTERNAL
-Name: Internal list property
+Title: Internal list property
 
 Description: >
   Loads ONE|MANY options from an internal entity.

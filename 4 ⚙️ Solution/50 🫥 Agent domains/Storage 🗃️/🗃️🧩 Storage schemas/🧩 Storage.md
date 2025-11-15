@@ -9,5 +9,5 @@
 
 ```yaml
 Path: /STORAGE
-Name: Storage Group
+Title: Storage Group
 Description: Grouping, not intended to share.

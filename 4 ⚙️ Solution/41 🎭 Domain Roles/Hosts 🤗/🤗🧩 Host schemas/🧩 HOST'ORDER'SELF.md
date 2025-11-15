@@ -13,12 +13,12 @@
 
 ```yaml
 Path: /HOST/ORDER/SELF
-Name: Order
+Title: Order
 Description: Token for a self order
 
 Translations:
   - Language: pt-br
-    Translation: Encomenda
+    Title: Encomenda
 
 Blueprint:  
   Version: 1.0

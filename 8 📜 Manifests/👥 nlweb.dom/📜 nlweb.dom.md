@@ -14,4 +14,4 @@ About:
 
   Translations: 
     - Language: eu-us
-      Translation: NLWeb
+      Title: NLWeb

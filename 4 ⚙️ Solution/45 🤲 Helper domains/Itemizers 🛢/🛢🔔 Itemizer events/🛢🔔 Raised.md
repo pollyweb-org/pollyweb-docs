@@ -28,6 +28,7 @@ Header:
 
 Body:
     Event: EXPIRED
+    On: 2018-12-10T13:45:00.000Z
     Handler: MyHandler
     Item: 
         ID: <token-uuid>
@@ -45,6 +46,7 @@ Body:
 |           |`To`|string| [Talker 😃](<../🛢🅰️ Itemizer methods/Item Delete 👥🚀🛢/🛢 Delete 🚀 request.md>) | [`Build@`](<../🛢🅰️ Itemizer methods/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
 |           | `Subject`     | string    | `Raised@Itemizer`
 | Body      | `Event`| enum | See [Item 🛢 Handlers](<../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) | [`Build@`](<../🛢🅰️ Itemizer methods/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
+||`On`| time | When it happened | -
 || `Handler`     | string    | Handler [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) name | [`Build@`](<../🛢🅰️ Itemizer methods/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
 |           | `Item`        | map    | Current [Item 🛢](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) version | -
 |           | `New`     | map    | New property versions | -

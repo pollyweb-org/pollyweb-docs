@@ -35,11 +35,30 @@
 
 1. **What are the outputs of TRANSLATE?**
 
-    |Inputs|Output| Example
+    |Output| Example
     |-|-|-
     |`Schema` or `Domain` | The translated text | `Any Domain`
     |`Schema` and `Domain`  | [`Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>) | `{Domain:X, Schema:X}`
     |Other inputs | [`Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>)| `{Domains:[...]}`
+
+    |Object|Property|
+    |-|-|-
+    |Text   |
+    |Domain |`Title`|
+    |       |`Description`
+    |Schema |`Title`
+    |       |`Description`
+    |
+
+    ```yaml
+    ┌─────────────────────┬──────────────────────────────┐
+    │ Input               │ Output                       │ 
+    ├─────────────────────┼──────────────────────────────┤
+    │ - TRANSLATE:        │ Domain: Any Domain           |
+    │     Domain: any.dom │     Title: Any Domain        |
+    │                     |     Description: Bla, bla... │
+    └─────────────────────┴──────────────────────────────┘    
+    ```
 
     ---
     <br/>

@@ -14,7 +14,7 @@
 Path: /GROUP/SUBGROUP/ANY-SCHEMA
 Delegator: any-delegator.dom
 Emoji: 🍂
-Name: Any name
+Title: Any name
 Description: Any description
 
 Resources:
@@ -125,7 +125,7 @@ Blueprint:
       Emoji: 
         type: string
 
-      Name: 
+      Title: 
         type: string
 
       Translations:

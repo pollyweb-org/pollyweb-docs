@@ -9,7 +9,7 @@
 
 ```yaml
 Path: /PERSONA/ADDRESS
-Name: Address
+Title: Address
 
 Descriptions: >
   Consumers may use Google's Geocoding API to translate the address to coordinates.

@@ -11,7 +11,7 @@
 
 ```yaml
 Path: /TOKEN
-Name: Token
+Title: Token
 Description: >
   Base schema for verifiable tokens.
   The * can be replaced by schemas that inherit this.  

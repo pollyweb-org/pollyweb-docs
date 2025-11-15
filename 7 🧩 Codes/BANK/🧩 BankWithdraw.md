@@ -9,8 +9,8 @@
 
 ```yaml
 Path: /BANK/WITHDRAW
-Name: Bank account withdraw
+Title: Bank account withdraw
 
 Translations:
   - Language: pt-br
-    Translation: Levantamento bancário
+    Title: Levantamento bancário

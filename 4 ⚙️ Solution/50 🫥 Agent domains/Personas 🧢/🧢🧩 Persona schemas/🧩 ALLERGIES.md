@@ -4,7 +4,7 @@
 🤝: nlweb.dom/MANIFEST/CODE
           
 Path: /PERSONA/ALLERGIES
-Name: Allergies
+Title: Allergies
 Description: Share allergy info.
 
 Translations:

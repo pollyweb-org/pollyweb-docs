@@ -9,8 +9,8 @@
 
 ```yaml
 Path: /HOST/ADMIN
-Name: Domain admin
+Title: Domain admin
 
 Translations:
   - Language: pt-br
-    Translation: Admin de domínio
+    Title: Admin de domínio

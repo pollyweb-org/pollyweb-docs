@@ -9,7 +9,7 @@
 
 ```yaml
 Path: /PERSONA/EMAIL
-Name: Email address
+Title: Email address
 
 Blueprint:
 

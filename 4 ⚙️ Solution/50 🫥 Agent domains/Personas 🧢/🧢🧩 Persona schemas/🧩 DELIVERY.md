@@ -9,7 +9,7 @@
 
 ```yaml
 Path: /PERSONA/DELIVERY
-Name: Delivery address
+Title: Delivery address
 
 Translations:
   pt: Endereço de entrega

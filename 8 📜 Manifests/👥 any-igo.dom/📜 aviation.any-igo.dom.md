@@ -19,10 +19,10 @@ Schemas:
 ```yaml
   # Share of passport.
   - Path: /PASSPORT
-    Name: Passport
+    Title: Passport
     Translations:
       - Language: pt-br
-        Translation: Passaporte
+        Title: Passaporte
     Schemas:
       - Version: 1.0
         Location: https://en.wikipedia.org/wiki/Machine-readable_passport
@@ -46,10 +46,10 @@ Schemas:
 
   # Share of nationality, for Data Localization.
   - Path: /PASSPORT/COUNTRY
-    Name: Nationality
+    Title: Nationality
     Translations:
       - Language: pt-br
-        Translation: Nacionalidade
+        Title: Nacionalidade
     Schemas:
       - Version: 1.0
         Format:

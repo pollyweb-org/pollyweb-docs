@@ -9,7 +9,7 @@
 
 ```yaml
 Path: /PERSONA/NAME/LEGAL
-Name: Full legal name
+Title: Full legal name
 
 Description: > 
   A person's full name, tipically for legal purposes.

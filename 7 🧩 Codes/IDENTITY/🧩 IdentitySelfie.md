@@ -9,7 +9,7 @@
 
 ```yaml
 Path: /IDENTITY/SELFIE
-Name: Face verification
+Title: Face verification
 
 Description: >
   Used by vaults to authenticate users before disclosures.
