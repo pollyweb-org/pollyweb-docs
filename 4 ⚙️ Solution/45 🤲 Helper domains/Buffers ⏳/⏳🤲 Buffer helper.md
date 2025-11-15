@@ -3,7 +3,7 @@
 
 > Mentioned in [📨 Domain Message](<../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
 
-> Reference by [Domain@Graph 🚀 method](<../Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Domain/🕸 Domain 🚀 request.md>)
+> Reference by [Domain@Graph 🚀 method](<../Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Domain/🕸 Domain 🚀 call.md>)
 
 <br/>
 

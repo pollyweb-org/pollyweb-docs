@@ -109,14 +109,14 @@
 
     |Method|Description
     |-|-
-    |[👥🚀 Trusted](<../🕸🅰️ Graph methods/👥🚀🕸 Trusted/🕸 Trusted 🚀 request.md>) | Can I trust that other domain?
-    |[👥🚀 Trusts](<../🕸🅰️ Graph methods/👥🚀🕸 Trusts/🕸 Trusts 🚀 request.md>) | Do these  domains trust each other? 
-    |[👥🚀 Identity](<../🕸🅰️ Graph methods/👥🚀🕸 Domain/🕸 Domain 🚀 request.md>) | Return the identity of a domain.
-    |[👥🚀 Queryable](<../🕸🅰️ Graph methods/👥🚀🕸 Queryable/🕸 Queryable 🚀 request.md>) | Select only the trustable codes.
-    |[👥🚀 Translate](<../🕸🅰️ Graph methods/👥🚀🕸 Translate/🕸 Translate 🚀 request.md>) | Translate these domains and codes.
-    |[👥🚀 Public Key](<../🕸🅰️ Graph methods/👥🚀🕸 Public Key/🕸 Public Key 🚀 request.md>) | What was the DKIM at this date?
-    |[👥🚀 Schema](<../🕸🅰️ Graph methods/👥🚀🕸 Schema/🕸 Schema 🚀 request.md>) | What's the schema of this code?
-    |[👥🚀 Offer](<../🕸🅰️ Graph methods/👥🚀🕸 Offer/🕸 Offer 🚀 request.md>) | Detail this domain offer.
+    |[👥🚀 Trusted](<../🕸🅰️ Graph methods/👥🚀🕸 Trusted/🕸 Trusted 🚀 call.md>) | Can I trust that other domain?
+    |[👥🚀 Trusts](<../🕸🅰️ Graph methods/👥🚀🕸 Trusts/🕸 Trusts 🚀 call.md>) | Do these  domains trust each other? 
+    |[👥🚀 Identity](<../🕸🅰️ Graph methods/👥🚀🕸 Domain/🕸 Domain 🚀 call.md>) | Return the identity of a domain.
+    |[👥🚀 Queryable](<../🕸🅰️ Graph methods/👥🚀🕸 Queryable/🕸 Queryable 🚀 call.md>) | Select only the trustable codes.
+    |[👥🚀 Translate](<../🕸🅰️ Graph methods/👥🚀🕸 Translate/🕸 Translate 🚀 call.md>) | Translate these domains and codes.
+    |[👥🚀 Public Key](<../🕸🅰️ Graph methods/👥🚀🕸 Public Key/🕸 Public Key 🚀 call.md>) | What was the DKIM at this date?
+    |[👥🚀 Schema](<../🕸🅰️ Graph methods/👥🚀🕸 Schema/🕸 Schema 🚀 call.md>) | What's the schema of this code?
+    |[👥🚀 Offer](<../🕸🅰️ Graph methods/👥🚀🕸 Offer/🕸 Offer 🚀 call.md>) | Detail this domain offer.
     
     ---
     <br/>

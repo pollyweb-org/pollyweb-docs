@@ -18,7 +18,7 @@
     |Scope|[Message 📨](<../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | Purpose
     |-|-|-
     |Item   | [🚀 `Delete`](<🛢🅰️ Itemizer methods/Item Delete 👥🚀🛢/🛢 Delete 🚀 request.md>)| Delete an item
-    |       | [🚀 `Get`](<🛢🅰️ Itemizer methods/Item Read 👥🚀🛢/🛢 Read 🚀 request.md>) | Get an item
+    |       | [🚀 `Get`](<🛢🅰️ Itemizer methods/Item Read 👥🚀🛢/🛢 Read 🚀 call.md>) | Get an item
     |       | [🚀 `Save`](<🛢🅰️ Itemizer methods/Item Save 👥🚀🛢/🛢 Save 🚀 request.md>) | Save an item
     |       | [🚀 `Undo`](<🛢🅰️ Itemizer methods/Item Undo 👥🚀🛢/🛢 Undo 🚀 request.md>) | Undo a delete
     |Table  | [🐌 `Build`](<🛢🅰️ Itemizer methods/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>) | Build a table
@@ -38,7 +38,7 @@
 
     [Command ⌘](<../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | Purpose
     |-|-
-    |[🧲 `READ`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) | Calls [`Read@Itemizer` 🅰️ ](<🛢🅰️ Itemizer methods/Item Read 👥🚀🛢/🛢 Read 🚀 request.md>)
+    |[🧲 `READ`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) | Calls [`Read@Itemizer` 🅰️ ](<🛢🅰️ Itemizer methods/Item Read 👥🚀🛢/🛢 Read 🚀 call.md>)
     |[💾 `SAVE`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | Calls [`Save@Itemizer` 🅰️ ](<🛢🅰️ Itemizer methods/Item Save 👥🚀🛢/🛢 Save 🚀 request.md>)
     |[🗑️ `DELETE`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>) | Calls [`Delete@Itemizer` 🅰️ ](<🛢🅰️ Itemizer methods/Item Delete 👥🚀🛢/🛢 Delete 🚀 request.md>)
     |[↩️ `UNDO`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/UNDO ↩️/↩️ UNDO ⌘ cmd.md>) | Calls [`Undo@Itemizer` 🅰️ ](<🛢🅰️ Itemizer methods/Item Undo 👥🚀🛢/🛢 Undo 🚀 request.md>)
