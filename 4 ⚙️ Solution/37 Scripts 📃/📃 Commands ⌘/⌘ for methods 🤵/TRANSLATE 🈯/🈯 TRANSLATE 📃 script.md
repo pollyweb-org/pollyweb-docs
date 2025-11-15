@@ -12,10 +12,8 @@
 - RUN|.TRANSLATE:
     From: en-us
     To: pt-br
-    Domains: 
-      - any-domain.dom
-    Schemas: 
-      - any-authority.dom/ANY-SCHEMA
+    Domain: any-domain.dom
+    Schema: any-authority.dom/ANY-SCHEMA
     Text: Any ´not translatable´ text
 ```
 
@@ -34,30 +32,31 @@
     From: $.Script.Language
     To: $.Chat.Language, $.Msg.Language
 
-# Get the translations from Graph, if needed
-- IF|.AnyOf($Domains, $Schemas):
-    SEND >> $graph-translations:
-        Header:
-            To: $.Hosted.Graph
-            Subject: Translate@Graph
-        Body:
-            Language: $From
-            Domains: $Domains
-            Schemas: $Schemas
+# Get the domain info
+- IF|$Domain:
+    RUN|.TRANSLATE-DOMAIN >> $domain:
+        $Domain
+
+# Get the schema info
+- IF|$Domain:
+    RUN|.TRANSLATE-SCHEMA >> $schema:
+        $Schema
 
 # Translate the text, if any
 - IF|$Text:
-    PUT >> $text-translation:
-        Text: $Text.Translate($From, $To)
+    PUT >> $text:
+        $Text.Translate($From, $To)
 
 # Return the translations
-- RETURN:
-    $graph-translations
-    $text-translation
+- RETURN: 
+    Domain: $domain
+    Schema: $schema
+    Text: $text
 ```
 
 Uses||
 |-|-
 | [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`DEFAULT`](<../../⌘ for holders 🧠/DEFAULT 📭/📭 DEFAULT ⌘ cmd.md>) [`IF`](<../../⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`RETURN`](<../../⌘ for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`SEND`](<../../⌘ for messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>)
 | [{Functions} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.AnyOf`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.AnyOf}.md>) [`.Translate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Translate}.md>)
+| [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Identity@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Identity.md>) [`Schema@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema.md>)
 |
