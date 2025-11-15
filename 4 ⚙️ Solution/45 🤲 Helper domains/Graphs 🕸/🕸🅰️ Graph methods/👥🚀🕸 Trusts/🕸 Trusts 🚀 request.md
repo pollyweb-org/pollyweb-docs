@@ -14,7 +14,7 @@
   * as defined in the [`.MANIFEST/TRUST` 🧩](<../../../../30 🧩 Data/Manifests 📜/📜🧩 Manifest schemas/🧩 TRUST.md>) part
   * of [domain Manifests 📜](<../../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>).
 
-* Similar to [`Trusted@Graph`](<../👥🚀🕸 Trusted/👥🚀🕸 Trusted.md>), 
+* Similar to [`Trusted@Graph`](<../👥🚀🕸 Trusted/🕸 Trusted 🚀 request.md>), 
   * but for verification by another [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>).
   
 > Used in

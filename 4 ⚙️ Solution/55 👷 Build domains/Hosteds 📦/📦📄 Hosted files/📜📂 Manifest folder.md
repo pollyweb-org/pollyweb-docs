@@ -31,11 +31,11 @@
     * `📜 Manifest/` 
         * [`👥 About.yaml`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Domain/🕸 Domain 🚀 request.md>) 
         * `📝 Forms/`   
-            * [`📝 FORM-1.yaml`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Form/👥🚀🕸 Form.md>)
+            * [`📝 FORM-1.yaml`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Form/🕸 Form 🚀 request.md>)
         * `🧩 Codes/` 
-            * [`🧩 CODE-1.yaml`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema/👥🚀🕸 Schema.md>)
+            * [`🧩 CODE-1.yaml`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema/🕸 Schema 🚀 request.md>)
             * `GROUP-A/`
-                * [`🧩 CODE-A2.yaml`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema/👥🚀🕸 Schema.md>)
+                * [`🧩 CODE-A2.yaml`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema/🕸 Schema 🚀 request.md>)
         * `🫡 Trusts/` 
             * [`🫡 TRUST-1.yaml`](<../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) 
             * `GROUP-C/`
