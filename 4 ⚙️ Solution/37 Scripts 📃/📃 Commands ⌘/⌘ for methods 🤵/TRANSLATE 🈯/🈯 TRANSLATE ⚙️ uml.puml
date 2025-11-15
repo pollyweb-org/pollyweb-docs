@@ -3,7 +3,7 @@
 box Hoster ☁️ domain #FFFFFA
     participant "Script 📃" as script
     participant ".TRANSLATE 📃" as translate
-    participant "Talker 😃" as talker
+    'participant "Talker 😃" as talker
 end box
 
 participant "Graph 🕸\ndomain" as graph
@@ -11,32 +11,13 @@ participant "Graph 🕸\ndomain" as graph
 activate script
     script -> translate: TRANSLATE 
 deactivate script
+
 activate translate
 
-alt with Text
-    translate -> talker: .Translate()
-    activate talker
-        talker -> translate: {translation}
-    deactivate talker
-end alt
-
-alt with Domain or Schema
-
-        translate -> talker: SEND
-    'deactivate translate
-
-    activate talker
-        talker -> graph:  Translate 🚀
-
-        activate graph
-            graph -> talker: {translations}
-        deactivate
-
-        talker -> translate: {translations}
-    deactivate talker
-
-'activate translate
-end alt
+    translate -> graph: SEND 📬 Identity 🚀
+    translate -> graph: SEND 📬 Schema 🚀
+    translate -> translate: $.Chat.Language
+    translate -> translate: .Translate()
 
     translate -> script: RETURN {translations}
 deactivate translate
