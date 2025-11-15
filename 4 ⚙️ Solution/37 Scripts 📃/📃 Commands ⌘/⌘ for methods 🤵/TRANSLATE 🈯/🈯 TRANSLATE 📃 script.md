@@ -16,7 +16,7 @@
       - any-domain.dom
     Schemas: 
       - any-authority.dom/ANY-SCHEMA
-    Text: Any ((not translatable)) text
+    Text: Any ´not translatable´ text
 ```
 
 ## Script

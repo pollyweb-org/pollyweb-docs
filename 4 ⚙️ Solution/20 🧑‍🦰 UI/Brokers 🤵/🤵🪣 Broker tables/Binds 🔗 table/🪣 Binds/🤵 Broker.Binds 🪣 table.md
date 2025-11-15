@@ -13,7 +13,7 @@ Here's the [Itemized 🛢 schema](<../../../../../30 🧩 Data/Datasets 🪣/�
 # Binds.yaml
 Prefix: Broker
 Table: Binds
-Key: ID
+Key: Vault, Wallet, Schema
 
 Parents:
     Wallet: { Wallets.ID: Binds.Wallet }

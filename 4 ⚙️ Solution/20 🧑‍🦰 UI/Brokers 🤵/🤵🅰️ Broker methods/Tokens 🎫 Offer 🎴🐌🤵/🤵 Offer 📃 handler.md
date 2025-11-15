@@ -34,6 +34,9 @@
 - ASSERT|$.Msg:
     From: $chat.Host
 
+# Set the language
+- CHAT|$.Msg.Chat
+
 # Translate the Issuer and Schema
 - TRANSLATE >> $graph:
     Domain: $.Msg.From
@@ -42,8 +45,7 @@
 
 # Get the title
 - TRANSLATE >> $title:
-    Text: (({$graph.Schema})), 
-       by (({$graph.Domain}))
+    Text: ´{$graph.Schema}´, by ´{$graph.Domain}´
     To: $chat.Wallet.Language
 
 # Save the Offer

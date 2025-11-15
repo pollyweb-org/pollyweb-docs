@@ -19,46 +19,46 @@
 - ASSERT|$.Msg:
     AllOf: Chat, Hook, Schemas
     UUIDs: Chat, Hook
-    Lists: Schemas
+    Texts: Schema
 
 # Get the chat
 - READ >> $chat:
     Set: Broker.Chats
-    Key: Chat
+    Key: $.Msg.Chat
 
 # Check if it's the host
 - ASSERT|$.Msg:
     From: $chat.Host
+    
+# Set the Chat context
+- CHAT:
+    Broker: $.Msg.To
+    Chat: $.Msg.Chat
 
-# Get the existing binds
-- SELECT >> $bound:
-    All: Bind, Schema
-    From: $chat.Wallet.Binds
-    Where: Vault.Is($.Msg.From)
+# Translate 
+- TRANSLATE >> $translation:
+    Domain: $.Msg.From
+    Schema: $.Msg.Schema
 
-# Get the bindable schemas
-- PUT|.Diff >> $bindable:
-    # list of bound schemas
-    - $bound.Schema  
-    # list of offered schemas
-    - $.Msg.Schemas.Schema  
+# Ask for confirmation
+- CONFIRM: |
+    Accept bind? 
+    - Vault: ´$translation.Domain´ 
+    - Schema: ´$translation.Schema´
 
-# Translate the bindable schemas
-- IF|$bindable:
-    RUN|Create-Binds >> $binds:
-        bindable: $bindable
-        chat: $chat
-
-# Send the binds to the Vault
-- RUN|Send-Binds:
-    $bound, $binds
+# Save the bind
+- SAVE|Broker.Binds >> $bind:
+    Wallet: $chat.Wallet.ID
+    Hook: $.Msg.Hook
+    Vault: $.Msg.Host
+    Vault$: $translation.Domain
+    Schema: $.Msg.Schema
+    Schema$: $translation.Schema
 ```
 
 Uses||
 |-|-
-[Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CALL`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`IF`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`SAVE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`SEND`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>) [`VERIFY`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>)
+[Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CHAT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/CHAT 💬/💬 CHAT ⌘ cmd.md>) [`CONFIRM`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`READ`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`SAVE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`TRANSLATE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/TRANSLATE 🈯/🈯 TRANSLATE ⌘ cmd.md>) [`VERIFY`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>)
 | [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | [`$.Msg`](<../../../../37 Scripts 📃/📃 Holders 🧠/🧠 System holders/$.Msg 📨/📨 $.Msg 🧠 holder.md>)
-| [{Functions} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`{.Diff}`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>)
-| [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Bound@Vault` 🅰️ method](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
-| [Scripts 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) | [`CreateBinds` 📃](<📃 Create Binds/🤵 Create Binds 📃 script.md>) 
 |
+

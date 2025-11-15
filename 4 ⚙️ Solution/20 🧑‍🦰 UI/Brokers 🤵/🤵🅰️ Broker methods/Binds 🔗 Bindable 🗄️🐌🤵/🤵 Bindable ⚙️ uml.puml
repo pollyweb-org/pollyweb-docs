@@ -3,33 +3,34 @@
  
 participant "Vault 🗄️" as vault
 
-box Hosted 📦 domain  #FFFFFA
-    participant "Broker 🤵" as broker
+box Broker 🤵 domain  #FFFFFA
+    participant "Bindable@ 📃" as broker
     'participant "Talker 😃" as talker
     'participant "Script 📃" as script
-    participant "Binds 🪣" as itemizer
+    participant "Chats 🪣" as chats
+    participant "Binds 🪣" as binds
 end box
 
 participant "Graph 🕸" as graph
 participant "Wallet 👱" as wallet
 
 
-    vault --> broker: Bindable 🐌 {codes}
-    deactivate vault    
+vault --> broker: Bindable 🐌 
+deactivate vault    
 
-    activate broker
- 
-        ' Translate.
-        broker -> graph: SEND: Translate 🚀
-        activate graph
-            graph -> broker: {translations}
-        deactivate
-        
-        ' RAISE BINDABLE!
-        broker --> wallet: MANY {which ones?}
-        broker --> itemizer: SAVE 💾 {binds}
+activate broker
+    'Read the chats
+    broker -> chats: READ 🧲 
+    broker -> binds: 
+    broker -> broker: CHAT 💬
+    broker -> graph: TRANSLATE 🈯 {schema}
+    broker -> wallet: CONFIRM 👍
+    broker -> binds: SAVE 💾 {bind}
+deactivate broker
 
-        broker --> vault: SEND: Bound 🐌 {codes} 
-    deactivate broker
+activate binds
+    binds --> vault: SEND 📬 Bound 🐌 {code} 
+deactivate binds
+
 
 @enduml 

@@ -11,7 +11,7 @@
 
 ## Diagram
 
-![alt text](<🤵 OnTokenAccepted ⚙️ uml.png>)
+![alt text](<🤵 OnTokenKept ⚙️ uml.png>)
 
 
 ## How to call
