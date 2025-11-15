@@ -9,7 +9,7 @@
 
 ```yaml
 Path: /PAY/COLLECTOR
-Name: Collector
+Title: Collector
 Description: Share code for collectors.
 
 References:
@@ -17,7 +17,7 @@ References:
 
 Translations:
   - Language: pt-br
-    Translation: Cobrador
+    Title: Cobrador
 
 Blueprint:
   Version: 1.0

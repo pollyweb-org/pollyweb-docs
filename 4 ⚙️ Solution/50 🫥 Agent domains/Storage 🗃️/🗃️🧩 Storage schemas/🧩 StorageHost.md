@@ -9,12 +9,12 @@
 
 ```yaml
 Path: /STORAGE/HOST
-Name: Storage
+Title: Storage
 Description: Share the storage host.
 
 Translations:
   - Language: pt-br
-    Translation: Armazem
+    Title: Armazém
 
 Blueprint:
   Location: https://en.wikipedia.org/wiki/Domain_name

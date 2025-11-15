@@ -38,9 +38,11 @@
     |       | [`.AreMany`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.AreMany}.md>)  | Has more than one item?
     |       | [`.Size`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Size}.md>)     | Returns the number of items
     |       | [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Length}.md>)   | Equals [`.Size`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Size}.md>)
+    |Read| [`.First`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.First}.md>)    | Get the first item?
+    |       | [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>)     | Get the last item
+    |  | [`.Format`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Format}.md>) | Formats the items in a list
+    |       | [`.List`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.List}.md>) | Extracts a single item property 
     |Query| [`.Contains`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Contains}.md>) | Contains a given item?
-    |       | [`.First`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.First}.md>)    | What's the first item?
-    |       | [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>)     | What's the last item
     |       | [`.Equals`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Equals}.md>)   | Has these items in this order?
     |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Differs}.md>)  | Does not equal this other list?
     |       | [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>)       | Has these items in any order?
@@ -53,8 +55,7 @@
     |       | [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>)   | Removes items from the list
     |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Minus}.md>) | Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>)
     |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) | Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>)
-    | Format | [`.Format`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Format}.md>) | Formats the items in a list
-    |       | [`.List`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.List}.md>) | Extracts a single item property 
+    
     
     ---
     <br/>

@@ -9,7 +9,7 @@
 
 ```yaml
 Path: /PERSONA/TRAVEL/COMPANION
-Name: Travel Group
+Title: Travel Group
 
 Description: > 
   Elements of a travel group.

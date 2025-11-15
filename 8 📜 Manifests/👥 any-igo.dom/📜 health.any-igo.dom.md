@@ -51,10 +51,10 @@ Schemas:
   
   # COVID Vaccination certificate
   - Path: /COVID/DOSE
-    Name: COVID Vaccination
+    Title: COVID Vaccination
     Translations:
       - Language: pt-br
-        Translation: Vacina COVID
+        Title: Vacina COVID
     Schemas:
       - Version: 1.0
         Inherits: health.any-igo.dom/DOSE:1.0
@@ -62,10 +62,10 @@ Schemas:
         
   # COVID test certificate
   - Path: /COVID/TEST
-    Name: COVID Test
+    Title: COVID Test
     Translations:
       - Language: pt-br
-        Translation: Teste COVID
+        Title: Teste COVID
     Schemas:
       - Inherits: health.any-igo.dom/TEST:1.0
         

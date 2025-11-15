@@ -15,5 +15,5 @@
 
 ```yaml
 Path: /VAULT
-Name: Host Bind
+Title: Host Bind
 Description: Binding code for personalization

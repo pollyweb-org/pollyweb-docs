@@ -3,18 +3,20 @@
 
 # 👥🚀🕸 Translate @ Graph
 
-> Part of [Graph 🕸 domain](<../🕸🤲 Graph helper.md>)
-
 > ⚠️ This method doesn’t look at the header nor the signature of the request.
 
+> Implementation
+* Part of [Graph 🕸 domain](<../🕸🤲 Graph helper.md>)
+
+> Purpose
 * [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) 
     * request translation for [Schema Codes 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) and [domains 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>),
     * obtained [domain Manifests 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>).
-* Used by:
-    * [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Bind 👉🔗💼/🧑‍🦰 Share Bind ⏩ flow.md>) flow
-    * [💼⏩🧑‍🦰 Share Token @ Consumer](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token 👉🎫💼/🧑‍🦰 Share Token ⏩ flow.md>) flow
 
-<br/>
+> Used by
+* [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Bind 👉🔗💼/🧑‍🦰 Share Bind ⏩ flow.md>) flow
+* [💼⏩🧑‍🦰 Share Token @ Consumer](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token 👉🎫💼/🧑‍🦰 Share Token ⏩ flow.md>) flow
+
 
 ## Synchronous Request 🚀
 
@@ -25,26 +27,40 @@ Header:
     Subject: Translate@Graph
 
 Body: 
-    Language: en-us
+    Target: pt-br
 
-    # Single item
+    # Translate domains
     Domain: any-domain.dom
-    Schema: iata.org/SSR/WCHR
-    
-    # Multiple items
     Domains: [any-domain.dom]
-    Schemas: [iata.org/SSR/WCHR]
+    
+    # Translate schemas
+    Schema: any-authority.dom/ANY/SCHEMA
+    Schemas: [any-authority.dom/ANY/SCHEMA]
+
+    # Translate text
+    Text: 
+        Any text to ´or not to´ translate, 
+        including domain info
+            like ´$Domain.Title´ 
+            and ´$Domain.Description´,
+        and schema info
+            like ´$Schema.Title´ 
+            and ´$Schema.Description´.
+    Source: en-us
 ```
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header|`From`|string| The name of the [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) asking
+| Header|`From`|string| Requester [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name
 |       |`To`|string| [Graph 🕸 domain](<../🕸🤲 Graph helper.md>) name
 |       | `Subject` | string | `Translate@Graph`
-|Body   | `Domain`     | string  | The [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to translate
-|| or `Domains`     | string[]  | The [domains 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to translate
-|| `Schema`       | string  | The [Schema Code 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to translate
-|| or `Schemas`       | string[]  | The [Schema Codes 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to translate
+|Body   | `Target`| string | Target language
+|| `Domain`     | string  | [Domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to translate
+|| or `Domains`     | string[]  | [Domains 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to translate
+|| `Schema`       | string  | [Schema Code 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to translate
+|| or `Schemas`       | string[]  | [Schema Codes 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to translate
+||`Text`| string | Free text to translate
+||`Source`|string| Original text language
 |
 
 <br/>
@@ -52,27 +68,40 @@ Body:
 
 ## Synchronous Response
 
-
+If the request contains `Domain` and `Target`.
 ```yaml
-Domains: 
-  - Domain: example.com
-    Translation: Example Airlines
-    Language: en-us
-    
-Schemas: 
-  - Schema: iata.org/SSR/WCHR
-    Translation: Wheelchair assistance required
-    Language: en-us
+Domain: 
+    Title: Any Domain       # in the target language
+    Description: Bla...     # in the target language
 ```
 
-|Object|Property|Type|Description
-|-|-|-|-
-|Domains | `Domain`      | string    | [Domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name
-|       | `Translation` | string    | [Domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) title
-|       | `Language`| string | Translation language
-|Schemas   | `Schema`        | string    | [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) code
-|       | `Translation` | string    | [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) title
-|       | `Language`| string | Translation language
-|
+If the request contains `Domains` and `Target`.
+```yaml
+Domains: 
+    any-domain.dom:         # Identity domain name
+        Title: Any Domain   # in the target language
+        Description: Bla... # in the target language
+```
 
+If the request contains `Schema` and `Target`.
+```yaml
+Schema: 
+    Title: Any Schema       # in the target language
+    Description: Bla...     # in the target language
+```
+
+If the request contains `Schemas`.
+```yaml
+Schemas: 
+    any.dom/ANY/SCHEMA:     # Schema code
+        Title: Any Schema   # in the target language
+        Description: Bla... # in the target language
+```
+
+If the request contains `Text`, `Source`, and `Target`.
+```yaml
+Text: Bla...
+```
+
+---
 <br/>

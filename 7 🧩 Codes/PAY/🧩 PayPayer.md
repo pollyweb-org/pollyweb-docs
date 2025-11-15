@@ -9,7 +9,7 @@
 
 ```yaml
 Path: /PAY/PAYER
-Name: Payer
+Title: Payer
 Description: Share code for payers.
 
 References:
@@ -17,7 +17,7 @@ References:
 
 Translations:
   - Language: pt-br
-    Translation: Pagador
+    Title: Pagador
     
 Blueprint:
   Version: 1.0

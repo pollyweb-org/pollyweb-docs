@@ -4,7 +4,7 @@
 🤝: nlweb.dom/MANIFEST/CODE
 
 Path: /DEPLOY/STACK/RESOURCE
-Name: Deploy Stack Resource
+Title: Deploy Stack Resource
  
 Blueprint:
   Version: 1.0

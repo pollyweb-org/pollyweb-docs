@@ -42,6 +42,8 @@
     |       | [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNot}.md>) | Is it a different meaning?
     |       | [`.Equals`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Equals}.md>) | Same as [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) 
     |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Differs}.md>) | Same as [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNot}.md>)
+    |Read | [`.Key`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Key}.md>) | Returns a pair with a given key
+    |   | [`.Value`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Value}.md>) | Returns the value of a given key
     |Change | [`.Set`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>) | Change or add one or more pairs
     ||[`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) | Same as [`.Set`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>)
     |       | [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Plus}.md>) | Same as [`.Set`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>)

@@ -11,12 +11,12 @@
 
 ```yaml
 Path: /HOST/BOOKING
-Name: Booking 
+Title: Booking 
 Description: Token for a booking
 
 Translations:
   - Language: pt-br
-    Translation: Agendamento
+    Title: Agendamento
 
 Blueprint:  
   Version: 1.0

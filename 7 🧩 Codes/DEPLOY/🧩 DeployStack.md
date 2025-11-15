@@ -4,7 +4,7 @@
 ```yaml
 🤝: nlweb.dom/MANIFEST/CODE
 Path: /DEPLOY/STACK
-Name: Deploy Stack
+Title: Deploy Stack
 
 Blueprint:
   Version: 1.0

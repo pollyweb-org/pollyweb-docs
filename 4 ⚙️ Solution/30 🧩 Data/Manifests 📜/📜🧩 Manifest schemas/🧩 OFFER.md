@@ -23,7 +23,7 @@
 
 ```yaml
 Path: /MANIFEST/OFFER
-Name: Domain service offer
+Title: Domain service offer
 
 Blueprint: 
 

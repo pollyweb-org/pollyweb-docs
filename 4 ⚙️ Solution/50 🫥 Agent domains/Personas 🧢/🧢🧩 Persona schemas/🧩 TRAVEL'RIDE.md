@@ -8,7 +8,7 @@
 
 ```yaml
 Path: /PERSONA/TRAVEL/RIDE
-Name: Ride Preferences
+Title: Ride Preferences
 Description: >
   Ride preferences during a trip, for example in a taxi.
 

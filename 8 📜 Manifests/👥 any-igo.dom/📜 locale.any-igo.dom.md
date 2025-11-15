@@ -31,7 +31,7 @@ Datasets:
 Schemas: 
 
   - Path: /TERRITORY
-    Name: Country/Region (Territory) Names
+    Title: Country/Region (Territory) Names
     Description: >
       Country and region names (a.k.a. Territories) 
       may be used as part of Language/Locale Names, 
