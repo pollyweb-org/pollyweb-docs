@@ -3,12 +3,12 @@
 
 # 👥🚀🕸 Schema @ Graph
 
-> Part of [Graph 🕸 domain](<../🕸🤲 Graph helper.md>)
+> Part of [Graph 🕸 domain](<../../🕸🤲 Graph helper.md>)
 
 
-* Gets the schema of a [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) 
-    * as defined in [`.MANIFEST/CODE` 🧩](<../../../30 🧩 Data/Manifests 📜/📜🧩 Manifest schemas/🧩 CODE.md>) 
-    * of [domain Manifests 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>).
+* Gets the schema of a [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) 
+    * as defined in [`.MANIFEST/CODE` 🧩](<../../../../30 🧩 Data/Manifests 📜/📜🧩 Manifest schemas/🧩 CODE.md>) 
+    * of [domain Manifests 📜](<../../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>).
 * When the schema references other schemas with `$ref`, 
     * this method returns the final merged schema for independent validation 
     * i.e., there's no need for further calls to get the referenced schemas.
@@ -29,10 +29,10 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header|`From`|string| The name of the [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) asking
-|       |`To`|string| [Graph 🕸 domain](<../🕸🤲 Graph helper.md>) name
+| Header|`From`|string| The name of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) asking
+|       |`To`|string| [Graph 🕸 domain](<../../🕸🤲 Graph helper.md>) name
 |       | `Subject` | string | `Schema@Graph`
-| Body  | `Schema`    | string | [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
+| Body  | `Schema`    | string | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 |
 
 
@@ -50,7 +50,7 @@ Format: IsElectric, Size, NeedsAssistant, DateOfBirth
 |Property|Type|Description
 |-|-|-
 | `Version`  | timestamp | Start of matching period
-| `Inherits` | timestamp | The base [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>), if inherited
+| `Inherits` | timestamp | The base [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>), if inherited
 | `Location` | string | URL to read the Schema from, if external
 | `Format`   | string | The structure of the Schema
 |

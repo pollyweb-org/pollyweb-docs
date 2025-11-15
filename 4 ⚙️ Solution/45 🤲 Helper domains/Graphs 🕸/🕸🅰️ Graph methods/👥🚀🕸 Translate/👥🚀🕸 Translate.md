@@ -5,16 +5,16 @@
 
 
 > Implementation
-* Part of [Graph 🕸 domain](<../🕸🤲 Graph helper.md>)
+* Part of [Graph 🕸 domain](<../../🕸🤲 Graph helper.md>)
 
 > Purpose
-* [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) 
-    * request translation for [Schema Codes 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) and [domains 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>),
-    * obtained [domain Manifests 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>).
+* [Broker 🤵 domains](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) 
+    * request translation for [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) and [domains 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>),
+    * obtained [domain Manifests 📜](<../../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>).
 
 > Used by
-* [`Share Bind` ⏩ flow](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Bind 👉🔗💼/🧑‍🦰 Share Bind ⏩ flow.md>) 
-* [`Share Token` ⏩ flow](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token 👉🎫💼/🧑‍🦰 Share Token ⏩ flow.md>) 
+* [`Share Bind` ⏩ flow](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Bind 👉🔗💼/🧑‍🦰 Share Bind ⏩ flow.md>) 
+* [`Share Token` ⏩ flow](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token 👉🎫💼/🧑‍🦰 Share Token ⏩ flow.md>) 
 
 
 ## Synchronous Request 🚀
@@ -50,14 +50,14 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header|`From`|string| Requester [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name
-|       |`To`|string| [Graph 🕸 domain](<../🕸🤲 Graph helper.md>) name
+| Header|`From`|string| Requester [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name
+|       |`To`|string| [Graph 🕸 domain](<../../🕸🤲 Graph helper.md>) name
 |       | `Subject` | string | `Translate@Graph`
 |Body   | `Target`| string | Target language
-|| `Domain`     | string  | [Domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to translate
-|| or `Domains`     | string[]  | [Domains 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to translate
-|| `Schema`       | string  | [Schema Code 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to translate
-|| or `Schemas`       | string[]  | [Schema Codes 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to translate
+|| `Domain`     | string  | [Domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to translate
+|| or `Domains`     | string[]  | [Domains 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to translate
+|| `Schema`       | string  | [Schema Code 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to translate
+|| or `Schemas`       | string[]  | [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to translate
 ||`Text`| string | Free text to translate
 ||`Source`|string| Original text language
 |
