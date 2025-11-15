@@ -11,9 +11,9 @@
 
 |#|Step|Purpose
 |-|-|-
-|1|[👥🚀🕸 `Trusts@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts/👥🚀🕸 Trusts.md>) | [Vaults 🗄️](<../../🗄️🎭 Vault role.md>) see if [Consumers 💼](<../../../Consumers 💼/💼🎭 Consumer role.md>) are [Trusted 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>)  
+|1|[👥🚀🕸 `Trusts@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts/🕸 Trusts 🚀 request.md>) | [Vaults 🗄️](<../../🗄️🎭 Vault role.md>) see if [Consumers 💼](<../../../Consumers 💼/💼🎭 Consumer role.md>) are [Trusted 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>)  
 |2|[🗄️🐌💼 `Consume@Consumer`](<../../../Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>) | [Vaults 🗄️](<../../🗄️🎭 Vault role.md>) tell [Consumers 💼](<../../../Consumers 💼/💼🎭 Consumer role.md>) they're ready
-|3|[👥🚀🕸 `Trusts@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts/👥🚀🕸 Trusts.md>) | [Consumers 💼](<../../../Consumers 💼/💼🎭 Consumer role.md>) see if [Vaults 🗄️](<../../🗄️🎭 Vault role.md>) are [Trusted 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>)
+|3|[👥🚀🕸 `Trusts@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts/🕸 Trusts 🚀 request.md>) | [Consumers 💼](<../../../Consumers 💼/💼🎭 Consumer role.md>) see if [Vaults 🗄️](<../../🗄️🎭 Vault role.md>) are [Trusted 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>)
 |4|[💼🚀🗄️ `Collect@Vault`](<../../🗄️🅰️ Vault methods/Collect 💼🚀🗄️/🗄️ Collect 🚀 request.md>) | [Consumers 💼](<../../../Consumers 💼/💼🎭 Consumer role.md>) collect the data shared
 |
 
