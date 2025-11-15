@@ -20,7 +20,7 @@
 Header: 
     From: any-domain.dom
     To: any-graph.dom
-    Subject: Identity@Graph
+    Subject: Domain@Graph
     
 Body:
     Domain: another-domain.dom
@@ -30,7 +30,7 @@ Body:
 |-|-|-|-
 | Header|`From`|string| The name of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) querying
 |       |`To`|string| [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>) name
-|       | `Subject` | string | `Identity@Graph`
+|       | `Subject` | string | `Domain@Graph`
 | Body  | `Domain`  | string | The name of another [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to look up
 |
 

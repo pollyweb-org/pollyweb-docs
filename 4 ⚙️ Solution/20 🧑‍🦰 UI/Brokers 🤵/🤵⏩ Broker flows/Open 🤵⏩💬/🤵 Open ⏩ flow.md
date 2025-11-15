@@ -16,7 +16,7 @@
 
 | # | Call | Notes
 |-|-|-|
-| 1 | [👥🚀🕸 `Identity@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Identity/👥🚀🕸 Identity.md>) | Get the Chat's name and icon
+| 1 | [👥🚀🕸 `Domain@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Domain/🕸 Domain 🚀 request.md>) | Get the Chat's name and icon
 | 2 | [👥🚀🕸 `Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate/👥🚀🕸 Translate.md>) | Get the Chat's title
 | 3 | [🤵🐌📣 `Open@Notifier`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Open 🤵🐌📣/📣 Open 🐌 msg.md>) | Open a [💬 Chat](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) on the [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 ||
