@@ -45,7 +45,11 @@
     |       | [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNot}.md>) | bool | Is it a different meaning?
     |       | [`.Equals`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Equals}.md>) | bool | Same as [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) 
     |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Differs}.md>) | bool | Same as [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNot}.md>)
-    |Read | [`.Key`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Key}.md>) | map | Return a pair with a given key
+    |Read | [`.First`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.First}.md>) | map | Return the first pair(s) 
+    ||[`.Take`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Take}.md>) | map | Equals [`.First`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.First}.md>)
+    ||[`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>) | map | Return the last pair(s)
+    ||[`.Filter`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Filter}.md>) | map | Return pairs that match a given condition
+    ||[`.Key`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Key}.md>) | map | Return a pair with a given key
     || [`.Keys`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Keys}.md>) | [list](<List holders.md>)  |Return all pair keys as a [List 🧠](<List holders.md>)
     || [`.Value`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Value}.md>) | any | Return the value of a given key
     || [`.Values`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Values}.md>) | [list](<List holders.md>) | Return all pair values as a [List 🧠](<List holders.md>)
@@ -55,6 +59,7 @@
     |       | [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>) | map | Remove one or more keys
     |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Minus}.md>) | map | Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>)
     |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) | map | Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>)
+    ||[`.Sort`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Sort}.md>) | map | Sort pairs by key
 
     ---
     <br/>

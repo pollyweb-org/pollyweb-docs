@@ -111,7 +111,7 @@
     |-|-
     |[👥🚀 Trusted](<../🕸🅰️ Graph methods/👥🚀🕸 Trusted/🕸 Trusted 🚀 call.md>) | Can I trust that other domain?
     |[👥🚀 Trusts](<../🕸🅰️ Graph methods/👥🚀🕸 Trusts/🕸 Trusts 🚀 call.md>) | Do these  domains trust each other? 
-    |[👥🚀 Identity](<../🕸🅰️ Graph methods/👥🚀🕸 Domain/🕸 Domain 🚀 call.md>) | Return the identity of a domain.
+    |[👥🚀 Identity](<../🕸🅰️ Graph methods/👥🚀🕸 About/🕸 About 🚀 call.md>) | Return the identity of a domain.
     |[👥🚀 Queryable](<../🕸🅰️ Graph methods/👥🚀🕸 Queryable/🕸 Queryable 🚀 call.md>) | Select only the trustable codes.
     |[👥🚀 Translate](<../🕸🅰️ Graph methods/👥🚀🕸 Translate/🕸 Translate 🚀 call.md>) | Translate these domains and codes.
     |[👥🚀 Public Key](<../🕸🅰️ Graph methods/👥🚀🕸 Public Key/🕸 Public Key 🚀 call.md>) | What was the DKIM at this date?
