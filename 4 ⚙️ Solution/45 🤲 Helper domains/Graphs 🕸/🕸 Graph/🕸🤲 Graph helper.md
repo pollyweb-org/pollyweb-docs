@@ -33,7 +33,7 @@
 
 1. **How are NLWeb Graphs updated?**
 
-    ![](<📜 Graphs.png>)
+    ![](<🕸🏞️ Graph img.png>)
 
     [Graph 🕸 domains](<🕸🤲 Graph helper.md>) subscribe to changes in [domain Manifests 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>). 
 
