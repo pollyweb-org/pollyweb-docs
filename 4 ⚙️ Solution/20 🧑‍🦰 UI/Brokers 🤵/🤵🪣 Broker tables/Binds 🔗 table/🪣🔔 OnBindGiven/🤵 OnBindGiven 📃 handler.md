@@ -1,4 +1,4 @@
-# 🤵 OnBindCreated 📃 handler
+# 🤵 OnBindGiven 📃 handler
 
 > Purpose
 
@@ -6,7 +6,7 @@
   
 ## Diagram
 
-![alt text](<🤵 OnBindCreated ⚙️ uml.png>)
+![alt text](<🤵 OnBindGiven ⚙️ uml.png>)
 
 ## Script
 
