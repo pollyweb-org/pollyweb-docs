@@ -28,6 +28,7 @@
     - READ >> $item:
         Set: <set>
         Key: <key>
+        Get: <property1>, <property2>, ...
 
         # Required by default
         Default: {object}
@@ -43,11 +44,22 @@
     |-|-|-
     | `Set` | Name of resource pool | `MyPool`
     | `Key`  | Key to look up in the pool | `1` `$h` `{A:1,B:2}`
+    | `Get`  | [List 🧠](<../../../📃 Holders 🧠/🧠 Holder types/List holders.md>) of fields to retrieve | `A,B` `{Alias:A}`
+    |        | Makes the `$item` readonly
     | `Default` | [Maps 🧠](<../../../📃 Holders 🧠/🧠 Holder types/Map holders.md>) to return if missing | `{C:3}` 
     || Always returns the key | `{A:1,B:2,C:3}`
     | `OnMissing` | [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) or [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) | `MyScript`
     | `$item` | Item to retrieve | -
 
+    ---
+    <br/>
+
+1. **Why does the item become readonly when using `Get`?**
+
+    When using the `Get` input, 
+    * only a subset of the item fields are retrieved,
+    * causing the resulting item to be incomplete;
+    * thus, it's made readonly to prevent accidental updates.
     ---
     <br/>
 

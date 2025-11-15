@@ -3,10 +3,9 @@
 > Part of [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>)
 
 
-* Used in:
-    * [Broker Inform ⏩ flow](<../../../../41 🎭 Domain Roles/Consumers 💼/💼⏩ Consumer flows/Inform 💼⏩📝/💼 Inform ⏩ flow.md>)
+> Used in
+* [Broker Inform ⏩ flow](<../../../../41 🎭 Domain Roles/Consumers 💼/💼⏩ Consumer flows/Inform 💼⏩📝/💼 Inform ⏩ flow.md>)
 
-<br/>
 
 ## Synchronous Call 🚀
 
@@ -30,8 +29,6 @@ Body:
 | Body  | `Domain`  | string | The [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name to lookup
 |       | `Form`    | string   | The name of form to return
 |
-
-<br/>
 
 
 ## Synchronous Response 
