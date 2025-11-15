@@ -47,7 +47,7 @@
 - IF|$chat.Tokens:
     INFO:
         Text: Tokens shared
-        Details: (($chat.Tokens.Title.Markdown))
+        Details: ´$chat.Tokens.Title.Markdown´
 
 - 
 ```

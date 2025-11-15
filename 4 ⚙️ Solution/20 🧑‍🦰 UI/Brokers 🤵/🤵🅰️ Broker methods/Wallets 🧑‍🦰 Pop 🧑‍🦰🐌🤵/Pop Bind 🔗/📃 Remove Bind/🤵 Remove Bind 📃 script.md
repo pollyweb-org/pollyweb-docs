@@ -28,10 +28,7 @@
     Where: Domain.Is($.Msg.Body.Key)
 
 # Ask for confirmation 🤔
-- CONFIRM:
-    Text: |
-        Confirm unbind? 
-        - (({$bind.Title}))
+- CONFIRM: Unbind ´{$bind.Title}´?
 
 # Remove each bind
 - PARALLEL|$vault.Binds|$bind:
