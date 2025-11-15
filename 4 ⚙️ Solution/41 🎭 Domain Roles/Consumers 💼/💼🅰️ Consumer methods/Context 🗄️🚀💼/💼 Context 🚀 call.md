@@ -19,7 +19,7 @@
 
 <br>
 
-## Synchronous Request 🚀
+## Synchronous Call 🚀
 
 ```yaml
 Header:

@@ -10,7 +10,7 @@
 > 
 <br/>
 
-## Sync Request 🚀
+## Synchronous Call 🚀
 
 
 ```yaml

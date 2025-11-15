@@ -233,7 +233,7 @@
     |  | [`Unbound`](<🗄️🅰️ Vault methods/Unbound 🤵🐌🗄️/🗄️ Unbound 🐌 msg.md>) | A [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) was removed |
     | | [`Disclose`](<🗄️🅰️ Vault methods/Disclose 🤵🐌🗄️/🗄️ Disclose 🐌 msg.md>) | Disclose the data of a [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) |
     | | [`Suppress`](<../../60 🧰 Edge/63 🖐️ Palmists/🤵🐌🖐️ Suppress.md>) | Suppress [🖐️ Palm scans](<../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/7 🆔⏩🖐️ Palm scan.md>) |
-    | [💼 Consumer](<../Consumers 💼/💼🎭 Consumer role.md>) | [`Collect`](<🗄️🅰️ Vault methods/Collect 💼🚀🗄️/🗄️ Collect 🚀 request.md>) | Return the data disclosed
+    | [💼 Consumer](<../Consumers 💼/💼🎭 Consumer role.md>) | [`Collect`](<🗄️🅰️ Vault methods/Collect 💼🚀🗄️/🗄️ Collect 🚀 call.md>) | Return the data disclosed
     
     ---
     <br/>

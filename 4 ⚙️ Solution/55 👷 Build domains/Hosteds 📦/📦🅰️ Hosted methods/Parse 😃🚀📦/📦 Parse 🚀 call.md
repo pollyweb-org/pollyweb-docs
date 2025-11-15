@@ -5,7 +5,7 @@
 * Handles a custom [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>)
 
 
-## Synchronous Request 🚀
+## Synchronous Call 🚀
 
 ```yaml
 Header:

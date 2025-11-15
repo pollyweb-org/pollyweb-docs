@@ -1,12 +1,12 @@
 # 🪣 Collects
 
 > Purpose
-* Stores the hooks for [`Collect@Vault`](<../../🗄️🅰️ Vault methods/Collect 💼🚀🗄️/🗄️ Collect 🚀 request.md>)
+* Stores the hooks for [`Collect@Vault`](<../../🗄️🅰️ Vault methods/Collect 💼🚀🗄️/🗄️ Collect 🚀 call.md>)
 
 > Data Access
 
 * Inserted by [`Disclose@Vault` 🅰️ method](<../../🗄️🅰️ Vault methods/Disclose 🤵🐌🗄️/🗄️ Disclose 🐌 msg.md>)
-* Read by [`Collect@Vault` 🅰️ method](<../../🗄️🅰️ Vault methods/Collect 💼🚀🗄️/🗄️ Collect 🚀 request.md>)
+* Read by [`Collect@Vault` 🅰️ method](<../../🗄️🅰️ Vault methods/Collect 💼🚀🗄️/🗄️ Collect 🚀 call.md>)
 
 <br/>
 

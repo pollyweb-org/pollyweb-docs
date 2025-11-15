@@ -2,7 +2,7 @@
 
 > Purpose
 
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Resolve@Printer` 🅰️ method](<🖨️ Resolve 🚀 request.md>)
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Resolve@Printer` 🅰️ method](<🖨️ Resolve 🚀 call.md>)
 
 ## Flow
 

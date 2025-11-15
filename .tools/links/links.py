@@ -101,6 +101,10 @@ def _resolve_at_token(token: str, md_files: list[str]) -> Optional[Tuple[str, Pa
             score += 50
         if 'msg' in stem_norm:
             score += 80
+        if 'call' in stem_norm:
+            score += 90
+        if stem_norm.endswith('call'):
+            score += 40
         if 'reply' in stem_norm:
             score += 60
         # handlers are less preferred

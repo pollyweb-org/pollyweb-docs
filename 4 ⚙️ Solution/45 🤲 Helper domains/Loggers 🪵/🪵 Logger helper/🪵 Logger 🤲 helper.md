@@ -14,9 +14,9 @@
 
     |[Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | Purpose
     |-|-
-    |[🚀 `Start`](<../🪵🅰️ Logger methods/Start 👥🚀🪵/🪵 Start 🚀 request.md>) | Registers a log thread
+    |[🚀 `Start`](<../🪵🅰️ Logger methods/Start 👥🚀🪵/🪵 Start 🚀 call.md>) | Registers a log thread
     |[🐌 `Log`](<../🪵🅰️ Logger methods/Log 👥🐌🪵/🪵 Log 🐌 msg.md>) | Logs into a thread
-    |[🚀 `Export`](<../🪵🅰️ Logger methods/Export 👥🚀🪵/🪵 Export 🚀 request.md>)| Exports log entries
+    |[🚀 `Export`](<../🪵🅰️ Logger methods/Export 👥🚀🪵/🪵 Export 🚀 call.md>)| Exports log entries
     
     ---
     <br/>

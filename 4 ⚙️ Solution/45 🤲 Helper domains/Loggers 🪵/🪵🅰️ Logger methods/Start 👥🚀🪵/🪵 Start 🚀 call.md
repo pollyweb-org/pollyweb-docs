@@ -7,7 +7,7 @@
 > Purpose
 * Initiates a log thread.
 
-## Synchronous Request
+## Synchronous Call 🚀
 
 ```yaml
 Header:
@@ -29,7 +29,7 @@ Body:
 |           |`To`|string| [Logger 🪵](<../../🪵 Logger helper/🪵 Logger 🤲 helper.md>)
 |           | `Subject`     | string    | `Start@Logger`
 | Body    | `Delete`     | string    | [`.Minus`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Minus}.md>) log retention
-|         | `Group`    | string[]  | Only save these log groups | [`Export@`](<../Export 👥🚀🪵/🪵 Export 🚀 request.md>)
+|         | `Group`    | string[]  | Only save these log groups | [`Export@`](<../Export 👥🚀🪵/🪵 Export 🚀 call.md>)
 |
 
 <br/>
@@ -42,5 +42,5 @@ Thread: <thread-uuid>
 
 ||Property|Type|Description|Purpose
 |-|-|-|-|-
-|  | `Thread`     | uuid    | Created log thread | [`Log@`](<../Log 👥🐌🪵/🪵 Log 🐌 msg.md>) [`Export@`](<../Export 👥🚀🪵/🪵 Export 🚀 request.md>)
+|  | `Thread`     | uuid    | Created log thread | [`Log@`](<../Log 👥🐌🪵/🪵 Log 🐌 msg.md>) [`Export@`](<../Export 👥🚀🪵/🪵 Export 🚀 call.md>)
 |

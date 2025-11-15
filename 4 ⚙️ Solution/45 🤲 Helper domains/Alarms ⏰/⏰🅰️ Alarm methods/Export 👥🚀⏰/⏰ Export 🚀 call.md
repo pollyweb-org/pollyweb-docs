@@ -8,9 +8,7 @@
 * Allows domains to migrate
 
 
-<br/>
-
-## Synchronous Request 🚀
+## Synchronous Call 🚀
 
 ```yaml
 Header:

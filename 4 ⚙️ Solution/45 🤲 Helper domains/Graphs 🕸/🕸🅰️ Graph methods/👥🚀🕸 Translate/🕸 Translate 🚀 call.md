@@ -17,7 +17,7 @@
 * [`Share Token` ⏩ flow](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token 👉🎫💼/🧑‍🦰 Share Token ⏩ flow.md>) 
 
 
-## Synchronous Request 🚀
+## Synchronous Call 🚀
 
 ```yaml
 Header: 
