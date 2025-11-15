@@ -47,15 +47,15 @@
     |       | [`.Equals`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Equals}.md>) |bool| Same as [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>)
     |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Differs}.md>) |bool| Same as [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNot}.md>)
     |Lists  | [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>) |bool| Is it in a given list of numbers?
-    |Create | [`.Random`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Random}.md>) |[Num][Num]| Returns a random number
-    |Change | [`.Sum`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Sum}.md>) |[Num][Num]| Adds numbers
-    |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) |[Num][Num]| Same as [`.Sum`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Sum}.md>)
-    |       | [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Plus}.md>) |[Num][Num]| Same as [`.Sum`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Sum}.md>) | What if we add numbers?
-    |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Minus}.md>) |[Num][Num]| Subtracts numbers
-    |       | [`.Times`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Times}.md>) |[Num][Num]| Multiplies numbers
-    |       | [`.Calculate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Calculate}.md>) |[Num][Num]| Calculates formulas
-    |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) |[Num][Num]| Distance between 2 numbers
+    |Create | [`.Random`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Random}.md>) |[num][num]| Returns a random number
+    |Change | [`.Sum`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Sum}.md>) |[num][num]| Adds numbers
+    |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) |[num][num]| Same as [`.Sum`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Sum}.md>)
+    |       | [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Plus}.md>) |[num][num]| Same as [`.Sum`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Sum}.md>) | What if we add numbers?
+    |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Minus}.md>) |[num][num]| Subtracts numbers
+    |       | [`.Times`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Times}.md>) |[num][num]| Multiplies numbers
+    |       | [`.Calculate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Calculate}.md>) |[num][num]| Calculates formulas
+    |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) |[num][num]| Distance between 2 numbers
     ---
     <br/>
 
-[Num]: <Num holders.md>
+[num]: <Num holders.md>

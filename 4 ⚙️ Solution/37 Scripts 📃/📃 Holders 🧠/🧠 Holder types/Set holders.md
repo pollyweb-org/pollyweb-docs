@@ -9,7 +9,7 @@
 1. **What are Set holders?**
 
     `Set` holders 
-    * are [List 🧠 holders](<List holders.md>) that contain [Maps 🧠][Map]
+    * are [List 🧠 holders](<List holders.md>) that contain [Maps 🧠][map]
         * e.g. `[{A:11,B:12}, {A:21,B:22}]`
     * typically representing a collection of similar objects
         * e.g. an [Itemized 🛢 dataset](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>), [`SELECT`](<../../📃 Commands ⌘/⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>)
@@ -22,20 +22,24 @@
 
     |Group| [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | Returns | Details 
     |-|-|-|-
-    |Read | [`.First`][.First] | [Set][Set], [Map][Map] | Return the first `n` [Maps 🧠][Map] with [`.Filter`][.Filter]
-    ||[`.Take`][.Take] | [Set][Set], [Map][Map] | Equals [`.First`][.First]
-    ||[`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>) | [Set][Set], [Map][Map] | Return the last `n` [Maps 🧠][Map] with [`.Filter`][.Filter]
-    ||[`.Filter`][.Filter] | [Set][Set] | Return [Maps 🧠][Map] that match a given filter
-    ||[`.Where`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Where}.md>) | [Set][Set] | Equals [`.Filter`][.Filter]
-    |Merge| [`.Cross`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Cross}.md>) | [Set][Set] | Cross multiple [Set 🧠 holders][Set]
-    |Change | [`.Sort`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Sort}.md>) | [Set][Set] | Sort [Maps 🧠][Map] by key
-    || [`.Format`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Format}.md>) | [Set][Set] | Select and rename [Map 🧠][Map] keys
+    |Read | [`.First`][.First] | [set][set], [map][map] | Return the first `n` [Maps 🧠][map] with [`.Filter`][.Filter]
+    ||[`.Take`][.Take] | [set][set], [map][map] | Equals [`.First`][.First]
+    ||[`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>) | [set][set], [map][map] | Return the last `n` [Maps 🧠][map] with [`.Filter`][.Filter]
+    ||[`.Filter`][.Filter] | [set][set] | Return [Maps 🧠][map] that match a given filter
+    ||[`.Where`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Where}.md>) | [set][set] | Equals [`.Filter`][.Filter]
+    |Merge| [`.Cross`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Cross}.md>) | [set][set] | Cross multiple [Set 🧠 holders][set]
+    |Change | [`.Sort`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Sort}.md>) | [set][set] | Sort [Maps 🧠][map] by key
+    || [`.Format`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Format}.md>) | [set][set] | Select and rename [Map 🧠][map] keys
+    ||[`.Append`][.Append]     |[set][set]| Add items to the list
+    |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) |[set][set]| Same as [`.Append`][.Append]
 
     ---
     <br/>
 
+[list]: <List holders.md>
 [.First]: <../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.First}.md>
 [.Take]: <../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Take}.md>
-[Map]: <Map holders.md>
+[map]: <Map holders.md>
 [.Filter]: <../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Filter}.md>
-[Set]: <Set holders.md>
+[set]: <Set holders.md>
+[.Append]: <../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>
