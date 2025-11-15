@@ -41,16 +41,16 @@
     |Size   | [`.IsEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsEmpty}.md>)  | bool| Is empty?
     |       | [`.IsOne`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsOne}.md>)    | bool| Has only one item?
     |       | [`.AreMany`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.AreMany}.md>)  | bool| Has more than one item?
-    |       | [`.Size`][.Size]     | [Num][Num]| Returns the number of items
-    |       | [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Length}.md>)   |  [Num][Num]| Equals [`.Size`][.Size]
-    |Read   | [`.First`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.First}.md>)   |[List][List]| Get the first `n` items
-    |       | [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>)   |[List][List]  | Get the last `n` items
-    |       | [`.Distinct`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Distinct}.md>) |[List][List]| Return only unique items
-    |Change | [`.Append`][.Append]     |[List][List]| What if we add items?
-    |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) |[List][List]| Same as [`.Append`][.Append]
-    |       | [`.Remove`][.Remove]   |[List][List]| Remove items from the list
-    |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Minus}.md>) |[List][List]| Same as [`.Remove`][.Remove]
-    |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) |[List][List]| Same as [`.Remove`][.Remove]
+    |       | [`.Size`][.Size]     | [num][num]| Returns the number of items
+    |       | [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Length}.md>)   |  [num][num]| Equals [`.Size`][.Size]
+    |Read   | [`.First`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.First}.md>)   |[list][list], any| Get the first `n` items
+    |       | [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>)   |[list][list], any| Get the last `n` items
+    |       | [`.Distinct`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Distinct}.md>) |[list][list]| Return only unique items
+    |Change | [`.Append`][.Append]     |[list][list]| Add items to the list
+    |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) |[list][list]| Same as [`.Append`][.Append]
+    |       | [`.Remove`][.Remove]   |[list][list]| Remove items from the list
+    |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Minus}.md>) |[list][list]| Same as [`.Remove`][.Remove]
+    |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) |[list][list]| Same as [`.Remove`][.Remove]
     
     
     ---
@@ -118,7 +118,7 @@
     └────────────────────────┴─────────────┘    
     ```
 
-    Or use  `+>` instead of `>>` to append to a [List 🧠][List] with [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>).
+    Or use  `+>` instead of `>>` to append to a [List 🧠][list] with [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>).
     
     ```yaml
     📃 Example:
@@ -204,7 +204,7 @@
     <br/>
 
 
-1. **How to take some properties from a [List 🧠][List] of [Map 🧠](<Map holders.md>)?**
+1. **How to take some properties from a [List 🧠][list] of [Map 🧠](<Map holders.md>)?**
   
     Using the [`.Format` function](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Format}.md>) in one of 3 forms:
     * with the [`CALL` commands](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>),
@@ -257,8 +257,8 @@
     <br/>
 
 
-[List]: <List holders.md>
+[list]: <List holders.md>
 [.Size]: <../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Size}.md>
-[Num]: <Num holders.md>
+[num]: <Num holders.md>
 [.Append]: <../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>
 [.Remove]: <../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>
