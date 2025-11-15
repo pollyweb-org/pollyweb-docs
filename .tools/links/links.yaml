@@ -147,6 +147,11 @@ Successful Tests:
     LinkFile: "☁️🤲 Hoster helper.md"
     Reasons: This is hardcoded.
 
+  - Given: '{{Itemized dataset}}'
+    LinkText: "Itemized 🛢 dataset"
+    LinkFile: "Itemized 🛢 dataset.md"
+    Reasons: This is hardcoded.
+
   - Given: "{{Itemizer}}"
     LinkText: "Itemizer 🛢 helper domain"
     LinkFile: "🛢🤲 Itemizer helper.md"
@@ -262,6 +267,15 @@ Successful Tests:
   - Given: "{{Sellers}}"
     LinkText: "Seller 🎭 domains"
     LinkFile: "💵🎭 Seller role.md"
+    Reasons: This is hardcoded.
+
+  - Given: '{{Set}}'
+    LinkText: "Set 🧠 holder"
+    LinkFile: "Set holders.md"
+    Reasons: This is hardcoded.
+  - Given: '{{Sets}}'
+    LinkText: "Set 🧠 holders"
+    LinkFile: "Set holders.md"
     Reasons: This is hardcoded.
 
   - Given: "{{Streamer}}"

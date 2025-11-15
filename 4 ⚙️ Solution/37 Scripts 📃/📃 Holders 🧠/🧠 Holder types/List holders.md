@@ -31,25 +31,21 @@
 
 1. **What are the built-in functions for list holders?**
 
-    Group | [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | Purpose 
-    |-|-|-
-    |Size   | [`.IsEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsEmpty}.md>)  | Is empty?
-    |       | [`.IsOne`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsOne}.md>)    | Has only one item?
-    |       | [`.AreMany`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.AreMany}.md>)  | Has more than one item?
-    |       | [`.Size`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Size}.md>)     | Returns the number of items
-    |       | [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Length}.md>)   | Equals [`.Size`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Size}.md>)
-    |Read| [`.First`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.First}.md>)    | Get the first item?
-    |       | [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>)     | Get the last item
-    |  | [`.Format`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Format}.md>) | Formats the items in a list
-    |       | [`.List`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.List}.md>) | Extracts a single item property 
+    Group | [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) |Type| Purpose 
+    |-|-|-|-
+    |Size   | [`.IsEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsEmpty}.md>)  | bool| Is empty?
+    |       | [`.IsOne`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsOne}.md>)    | bool| Has only one item?
+    |       | [`.AreMany`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.AreMany}.md>)  | bool| Has more than one item?
+    |       | [`.Size`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Size}.md>)     | int| Returns the number of items
+    |       | [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Length}.md>)   | int| Equals [`.Size`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Size}.md>)
+    |Read| [`.First`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.First}.md>)   |list| Get the first `n` items
+    |       | [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>)   |list  | Get the last `n` items
     |Query| [`.Contains`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Contains}.md>) | Contains a given item?
     |       | [`.Equals`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Equals}.md>)   | Has these items in this order?
     |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Differs}.md>)  | Does not equal this other list?
     |       | [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>)       | Has these items in any order?
     |       | [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNot}.md>)    | Are any of these items missing?
-    |Change | [`.Cross`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Cross}.md>) | Crosses multiple lists
     ||[`.Distinct`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Distinct}.md>) | Returns only unique items
-    |       | [`.Filter`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Filter}.md>)   | Returns items meeting the filters
     |       | [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>)     | What if we add items?
     |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) | Same as [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>)
     |       | [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>)   | Removes items from the list
@@ -210,7 +206,7 @@
 
 1. **How to take some properties from a [List 🧠](<List holders.md>) of [Map 🧠](<Map holders.md>)?**
   
-    Using the [`.List` function](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.List}.md>) in one of 3 forms:
+    Using the [`.Format` function](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Format}.md>) in one of 3 forms:
     * with the [`CALL` commands](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>),
     * or as `$holder.property` for a single property on [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>),
     * or as `$holder(prop-1, prop-N)` for a multiple properties.
@@ -218,24 +214,24 @@
     Here's a [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to take 1 property.
 
     ```yaml   
-    ┌─────────────────────────┬──────────────┐
-    │ Explicit                │ Implicit     │ 
-    ├─────────────────────────┼──────────────┤
-    │ CALL|$lst.List >> $out: │ PUT >> $out: │ 
-    │    A                    │   $lst.A     │
-    └─────────────────────────┴──────────────┘    
+    ┌───────────────────────────┬──────────────┐
+    │ Explicit                  │ Implicit     │ 
+    ├───────────────────────────┼──────────────┤
+    │ CALL|$lst.Format >> $out: │ PUT >> $out: │ 
+    │    A                      │   $lst.A     │
+    └───────────────────────────┴──────────────┘    
     ```
 
     Here's a [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to take 2 properties.
 
     ```yaml   
-    ┌─────────────────────────┬──────────────┐
-    │ Explicit                │ Implicit     │ 
-    ├─────────────────────────┼──────────────┤
-    │ CALL|$lst.List >> $out: │ PUT >> $out: │ 
-    │    - A                  │   $lst(A,B)  │      
-    │    - B                  │              │      
-    └─────────────────────────┴──────────────┘    
+    ┌───────────────────────────┬──────────────┐
+    │ Explicit                  │ Implicit     │ 
+    ├───────────────────────────┼──────────────┤
+    │ CALL|$lst.Format >> $out: │ PUT >> $out: │ 
+    │    - A                    │   $lst(A,B)  │      
+    │    - B                    │              │      
+    └───────────────────────────┴──────────────┘    
     ```
 
     ---

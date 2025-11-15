@@ -371,6 +371,8 @@ _GEN_BASIC = [
     ("replace_placeholders_tokens", "Placeholders", "placeholders", "[Placeholders 🧠](<Holder 🧠.md>)", "Placeholders"),
     ("replace_list_tokens", "List", "list", "[List 🧠 holder](<List holders.md>)", "List"),
     ("replace_lists_tokens", "Lists", "lists", "[List 🧠 holders](<List holders.md>)", "Lists"),
+    ("replace_set_tokens", "Set", "set", "[Set 🧠 holder](<Set holders.md>)", "Set"),
+    ("replace_sets_tokens", "Sets", "sets", "[Set 🧠 holders](<Set holders.md>)", "Sets"),
     ("replace_bind_tokens", "Bind", "bind", "[Bind 🔗](<🔗 Bind.md>)", "Bind"),
     ("replace_binds_tokens", "Binds", "binds", "[Binds 🔗](<🔗 Bind.md>)", "Binds"),
     ("replace_locator_tokens", "Locator", "locator", "[Locator 🔆](<🔆 Locator.md>)", "Locator"),
@@ -530,6 +532,11 @@ def replace_talkers_tokens(md_files):
     return _replace_simple(md_files, pattern, "[Talker 😃 domains](<😃 Talker role.md>)")
 
 
+@register_hardcoded(
+    "itemizeddataset",
+    replacement="[Itemized 🪣 dataset](<Itemized 🛢 dataset.md>)",
+    token_label="Itemized dataset",
+)
 def replace_itemized_dataset_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Itemized dataset`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
     return _replace_simple(md_files, pattern, "[Itemized 🪣 dataset](<Itemized 🛢 dataset.md>)")
@@ -615,6 +622,8 @@ __all__ = [
     "replace_domains_tokens",
     "replace_dataset_tokens",
     "replace_datasets_tokens",
+    "replace_set_tokens",
+    "replace_sets_tokens",
     "replace_message_tokens",
     "replace_messages_tokens",
     "replace_schema_tokens",

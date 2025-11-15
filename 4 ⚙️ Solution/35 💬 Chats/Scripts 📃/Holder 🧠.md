@@ -18,13 +18,14 @@
 
 1. **What type of holders are there?**
 
-    |Type|Purpose|Example
+    |Type|Stores|Example
     |-|-|-
-    |[`List` holders](<../../37 Scripts 📃/📃 Holders 🧠/🧠 Holder types/List holders.md>) | Store items in a sequence | `[1, A, {X:9}]`
-    |[`Math` holders](<../../37 Scripts 📃/📃 Holders 🧠/🧠 Holder types/Math holders.md>) | Store numbers for  math | `1` `1.03` `-1` `0`
-    |[`Text` holders](<../../37 Scripts 📃/📃 Holders 🧠/🧠 Holder types/Text holders.md>) | Store text strings | `ABC`
-    |[`Time` holders](<../../37 Scripts 📃/📃 Holders 🧠/🧠 Holder types/Time holders.md>)| Store dates and times | `2018-12-10T13:45:00Z`
-
+    |[`Text`](<../../37 Scripts 📃/📃 Holders 🧠/🧠 Holder types/Text holders.md>) | Text strings | `ABC`
+    |[`Time`](<../../37 Scripts 📃/📃 Holders 🧠/🧠 Holder types/Time holders.md>)| Dates and times | `2018-12-10T13:45:00Z`
+    |[`Math`](<../../37 Scripts 📃/📃 Holders 🧠/🧠 Holder types/Math holders.md>) | Numbers for  math | `1` `1.03` `-1` `0`
+    |[`List`](<../../37 Scripts 📃/📃 Holders 🧠/🧠 Holder types/List holders.md>) | Items in sequence | `[1, A, {X:9}]`
+    |[`Map`][Map] | Key-value pairs | `{A:1, B:2}`
+    |[`Set`](<../../37 Scripts 📃/📃 Holders 🧠/🧠 Holder types/Set holders.md>)| [Maps][Map] sequence | `{A:1},{A:2}`
 
     ---
     <br/>
@@ -267,3 +268,6 @@
 
     ---
     <br/>
+
+
+[Map]: <../../37 Scripts 📃/📃 Holders 🧠/🧠 Holder types/Map holders.md>
