@@ -3,7 +3,7 @@
 
 # 👥🚀🕸 Identity @ Graph
 
-> Part of [Graph 🕸 domain](<../../🕸🤲 Graph helper.md>)
+> Part of [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>)
 
 
 * Given a domain, 
@@ -29,7 +29,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header|`From`|string| The name of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) querying
-|       |`To`|string| [Graph 🕸 domain](<../../🕸🤲 Graph helper.md>) name
+|       |`To`|string| [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>) name
 |       | `Subject` | string | `Identity@Graph`
 | Body  | `Domain`  | string | The name of another [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to look up
 |

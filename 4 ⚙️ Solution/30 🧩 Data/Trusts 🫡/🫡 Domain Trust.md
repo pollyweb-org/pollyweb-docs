@@ -168,7 +168,7 @@
 
 1. **How to calculate indirect trust paths when nodes are down?**
 
-    Domains can rely on [Graph 🕸 domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>):
+    Domains can rely on [Graph 🕸 domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph/🕸🤲 Graph helper.md>):
     - these keep up-to-date graph representations of all possible trust-paths between two domains, allowing [Trust 🫡](<🫡 Domain Trust.md>) paths to be queried even when the domains comprising the nodes of those paths are unavailable 
     - e.g., `any-domain.dom` can ask `any-graph.dom` if `any-seller.dom` can be trusted for payment requests.
 
@@ -177,7 +177,7 @@
 
 1. **How can domains know when another domain lost trust in them?**
 
-    [Domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) can rely on [Graph 🕸 domain helpers](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>):
+    [Domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) can rely on [Graph 🕸 domain helpers](<../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph/🕸🤲 Graph helper.md>):
     - these can detect trust removals and notify affected [subscriber 🔔 domains](<../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>);
     - e.g., `any-graph.dom` may inform `any-domain.dom` whenever `any-seller.dom` explicitly adds or removes a trust to `any-domain.dom`.
 
@@ -187,7 +187,7 @@
 
 1. **How can domains know when indirect trust changes affect them?**
 
-    [Domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) can rely on [Graph 🕸 domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>):
+    [Domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) can rely on [Graph 🕸 domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph/🕸🤲 Graph helper.md>):
     - these can monitor for changes in specific [Trust 🫡](<🫡 Domain Trust.md>) paths that may affect an indirect [Trust 🫡](<🫡 Domain Trust.md>) relationship;
     - a typical scenario is an inter-governmental agreement where two entities from different countries trust each other indirectly because their government bodies trust each other.
 

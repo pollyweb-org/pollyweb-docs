@@ -3,7 +3,7 @@
 
 # 👥🚀🕸 Schema @ Graph
 
-> Part of [Graph 🕸 domain](<../../🕸🤲 Graph helper.md>)
+> Part of [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>)
 
 
 * Gets the schema of a [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) 
@@ -30,7 +30,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header|`From`|string| The name of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) asking
-|       |`To`|string| [Graph 🕸 domain](<../../🕸🤲 Graph helper.md>) name
+|       |`To`|string| [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>) name
 |       | `Subject` | string | `Schema@Graph`
 | Body  | `Schema`    | string | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 |

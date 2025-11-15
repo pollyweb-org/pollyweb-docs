@@ -2,9 +2,9 @@
 <!-- Docs: https://quip.com/hgz4A3clvOes#temp:C:bDA71b470c7a4c446e5b43adea7e -->
 <!-- Source: https://github.com/jorgemjfonseca/domain-trust-framework/blob/9a3c5abe16dda8cbacd2529bc859fd9d708f85d9/python/backbone/graph/GRAPH.py#L279 -->
 
-# 👥🚀🕸 Trusts @ [Graph](<../../🕸🤲 Graph helper.md>)
+# 👥🚀🕸 Trusts @ [Graph](<../../🕸 Graph/🕸🤲 Graph helper.md>)
 
-> Part of [Graph 🕸 domain](<../../🕸🤲 Graph helper.md>)
+> Part of [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>)
 
 > Purpose
 
@@ -43,7 +43,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header|`From`|string| The name of the sender [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
-|       |`To`|string| [Graph 🕸 domain](<../../🕸🤲 Graph helper.md>) name
+|       |`To`|string| [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>) name
 |       | `Subject` | string | `Trusts@Graph`
 | Body  | `Truster` | string | The name of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) trusting
 |       | `Trusted` | string | The name of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to be trusted
