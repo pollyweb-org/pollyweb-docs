@@ -9,7 +9,7 @@
 
 ```yaml
 Path: /PERSONA/PARKING
-Name: Vehicle
+Title: Vehicle
 Description: Share vehicle licence plate and type for parking.
 
 References:

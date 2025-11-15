@@ -13,7 +13,7 @@
 
 ```yaml
 Path: /HOST/ORDER/SELF
-Name: Order
+Title: Order
 Description: Token for a self order
 
 Translations:

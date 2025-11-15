@@ -77,7 +77,7 @@
 
 ```yaml
 Path: /MANIFEST/TRUST
-Name: Domain trust
+Title: Domain trust
 
 Blueprint:
   Version: 1.0

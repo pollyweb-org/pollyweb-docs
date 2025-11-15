@@ -9,7 +9,7 @@
 
 ```yaml
 Path: /PERSONA/NAME/SOCIAL
-Name: Social name
+Title: Social name
 
 Description: >
   How a person wants to be refered to, socially.

@@ -9,7 +9,7 @@
 
 ```yaml
 Path: /PALM/PASSPORT
-Name: Passport
+Title: Passport
 Description: Share bind of Passport with Palm.
 
 Translations:

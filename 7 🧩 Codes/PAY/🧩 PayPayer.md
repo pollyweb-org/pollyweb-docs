@@ -9,7 +9,7 @@
 
 ```yaml
 Path: /PAY/PAYER
-Name: Payer
+Title: Payer
 Description: Share code for payers.
 
 References:

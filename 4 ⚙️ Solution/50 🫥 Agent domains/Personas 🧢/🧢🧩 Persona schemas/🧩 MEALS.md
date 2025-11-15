@@ -9,7 +9,7 @@
 
 ```yaml
 Path: /PERSONA/MEALS
-Name: Meal preferences
+Title: Meal preferences
 Description: >
   This is taken from the list of SSR (Special Service Requests)
   defined by Any IGO Airlines (International Air Transport Association).

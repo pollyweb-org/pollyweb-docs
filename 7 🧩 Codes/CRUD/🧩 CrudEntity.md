@@ -9,7 +9,7 @@
 
 ```yaml
 Path: /CRUD/ENTITY
-Name: CRUD Entity
+Title: CRUD Entity
 Description: Configuration of a CRUD entity.
 
 Blueprint:

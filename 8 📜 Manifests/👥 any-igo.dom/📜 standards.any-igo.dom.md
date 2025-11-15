@@ -16,7 +16,7 @@ Schemas:
   # --------------------------------------------------
 
   - Path: /639-1
-    Name: Language codes
+    Title: Language codes
     Description: >
       ISO 639 is a standardized nomenclature used to classify languages. 
       In 639-1, each language is assigned a two-letter lowercase abbreviation.
@@ -51,7 +51,7 @@ Schemas:
   # --------------------------------------------------
 
   - Path: /3166-1
-    Name: ISO 3166 Country Codes
+    Title: ISO 3166 Country Codes
     Description: > 
       Internationally recognized codes of letters and/or numbers that 
       refer to countries and their subdivisions. 

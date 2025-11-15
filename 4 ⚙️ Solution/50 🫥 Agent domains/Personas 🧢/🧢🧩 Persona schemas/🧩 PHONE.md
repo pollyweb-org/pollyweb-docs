@@ -9,7 +9,7 @@
 
 ```yaml
 Path: /PERSONA/PHONE
-Name: Phone number
+Title: Phone number
 
 Description: >
   International phone number, starting with a plus sign (+).

@@ -9,7 +9,7 @@
 
 ```yaml
 Path: /PAY/COLLECTOR
-Name: Collector
+Title: Collector
 Description: Share code for collectors.
 
 References:

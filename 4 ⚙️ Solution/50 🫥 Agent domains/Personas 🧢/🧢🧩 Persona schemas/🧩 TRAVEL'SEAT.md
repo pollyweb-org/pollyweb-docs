@@ -9,7 +9,7 @@
 
 ```yaml
 Path: /PERSONA/TRAVEL/SEAT
-Name: Seat preferences
+Title: Seat preferences
 Description: Share details on seat preferences.
 
 Translations:

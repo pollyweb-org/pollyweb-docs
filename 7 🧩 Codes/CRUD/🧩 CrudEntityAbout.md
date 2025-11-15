@@ -9,7 +9,7 @@
 
 ```yaml
 Path: /CRUD/ENTITY/ABOUT
-Name: Entity About
+Title: Entity About
 Description: Singleton configuration of the entitity.
 
 Blueprint:

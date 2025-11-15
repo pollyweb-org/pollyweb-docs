@@ -33,7 +33,7 @@
 
 ```yaml
 Path: /MANIFEST/DELEGATE
-Name: Domain delegate
+Title: Domain delegate
 
 Blueprint:
   Version: 1.0

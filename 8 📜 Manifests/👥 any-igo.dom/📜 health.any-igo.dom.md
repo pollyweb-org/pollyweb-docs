@@ -51,7 +51,7 @@ Schemas:
   
   # COVID Vaccination certificate
   - Path: /COVID/DOSE
-    Name: COVID Vaccination
+    Title: COVID Vaccination
     Translations:
       - Language: pt-br
         Translation: Vacina COVID
@@ -62,7 +62,7 @@ Schemas:
         
   # COVID test certificate
   - Path: /COVID/TEST
-    Name: COVID Test
+    Title: COVID Test
     Translations:
       - Language: pt-br
         Translation: Teste COVID

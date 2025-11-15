@@ -9,7 +9,7 @@
 
 ```yaml
 Path: /PERSONA/LOCATION
-Name: Position
+Title: Position
 
 Description: 
   Geografic coordinates of a location in latitude and longitude.

@@ -9,7 +9,7 @@
 
 ```yaml
 Path: /PERSONA/BOOKING
-Name: Booking contact
+Title: Booking contact
 Description: Share contact info for bookings.
 
 Translations:

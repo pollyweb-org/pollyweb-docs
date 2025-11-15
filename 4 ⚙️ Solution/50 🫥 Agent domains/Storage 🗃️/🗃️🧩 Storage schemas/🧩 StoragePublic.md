@@ -9,7 +9,7 @@
 
 ```yaml
 Path: /STORAGE/PUBLIC
-Name: Public items
+Title: Public items
 Description: Shares the public content of the storage.
 
 Translations:

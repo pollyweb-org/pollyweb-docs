@@ -43,7 +43,7 @@ Schemas:
 
   - Path: /SSR/WCHR/CRED
     Delegator: airlines.any-igo.dom
-    Name: Wheelchair for ramp
+    Title: Wheelchair for ramp
     
     Translations:
       - Language: en-us

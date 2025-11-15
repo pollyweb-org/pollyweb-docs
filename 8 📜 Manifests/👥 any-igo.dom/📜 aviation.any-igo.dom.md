@@ -19,7 +19,7 @@ Schemas:
 ```yaml
   # Share of passport.
   - Path: /PASSPORT
-    Name: Passport
+    Title: Passport
     Translations:
       - Language: pt-br
         Translation: Passaporte
@@ -46,7 +46,7 @@ Schemas:
 
   # Share of nationality, for Data Localization.
   - Path: /PASSPORT/COUNTRY
-    Name: Nationality
+    Title: Nationality
     Translations:
       - Language: pt-br
         Translation: Nacionalidade

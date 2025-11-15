@@ -4,7 +4,7 @@
 🤝: nlweb.dom/MANIFEST/CODE
 
 Path: /EXCHANGE/SELLER
-Name: Seller
+Title: Seller
 Description: Seller QR in an Exchange.
 
 References:

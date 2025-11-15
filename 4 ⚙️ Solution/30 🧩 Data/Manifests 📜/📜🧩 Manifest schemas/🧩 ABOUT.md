@@ -42,7 +42,7 @@ About:
 
 ```yaml
 Path: /MANIFEST/ABOUT
-Name: Domain identification
+Title: Domain identification
 
 Blueprint:
   Version: 1.0
@@ -55,7 +55,7 @@ Blueprint:
       Domain: 
         $ref: Domain@nlweb.dom/TYPES
       
-      Name: 
+      Title: 
         type: string
         
       SmallIcon: 

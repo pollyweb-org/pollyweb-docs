@@ -9,7 +9,7 @@
 
 ```yaml
 Path: /LOCALE/DIALCODE
-Name: Country dialing codes response
+Title: Country dialing codes response
 Description: List of country dialing codes, for UI lists.
 
 Blueprint:

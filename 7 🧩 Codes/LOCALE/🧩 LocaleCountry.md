@@ -9,7 +9,7 @@
 
 ```yaml
 Path: /LOCALE/COUNTRY
-Name: Country response
+Title: Country response
 Description: List of countries, for UI lists.
 
 Blueprint:

@@ -4,7 +4,7 @@
 🤝: nlweb.dom/MANIFEST/CODE
 
 Path: /EXCHANGE
-Name: Exchange Group
+Title: Exchange Group
 Description: Grouping, not intended to share.
 
 References:
