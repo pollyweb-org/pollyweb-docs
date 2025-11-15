@@ -5,7 +5,6 @@
 
 > Part of [Graph 🕸 domain](<../🕸🤲 Graph helper.md>)
 
-> ⚠️ This method doesn’t look at the header nor the signature of the request.
 
 * Returns the historical public key of an [Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) by the name of the key.
     * Allows a [Consumer 💼 domain](<../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) to verify a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) issued before a [DKIM 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) rotation.

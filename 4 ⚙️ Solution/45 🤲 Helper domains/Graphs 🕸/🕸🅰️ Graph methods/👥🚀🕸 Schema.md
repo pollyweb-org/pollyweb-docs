@@ -5,7 +5,6 @@
 
 > Part of [Graph 🕸 domain](<../🕸🤲 Graph helper.md>)
 
-> ⚠️ This method doesn’t look at the header nor the signature of the request.
 
 * Gets the schema of a [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) 
     * as defined in [`.MANIFEST/CODE` 🧩](<../../../30 🧩 Data/Manifests 📜/📜🧩 Manifest schemas/🧩 CODE.md>) 

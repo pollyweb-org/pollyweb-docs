@@ -6,7 +6,6 @@
 
 > Part of [Graph 🕸 domain](<../🕸🤲 Graph helper.md>)
 
-> ⚠️ This method doesn’t look at the header nor the signature of the request.
 
 
 * Verifies if there’s a path of [Trust 🫡](<../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) 

@@ -2,7 +2,6 @@
 
 > Part of [Graph 🕸 domain](<../🕸🤲 Graph helper.md>)
 
-> ⚠️ This method doesn’t look at the header nor the signature of the request.
 
 * Used in:
     * [Broker Inform ⏩ flow](<../../../41 🎭 Domain Roles/Consumers 💼/💼⏩ Consumer flows/Inform 💼⏩📝/💼 Inform ⏩ flow.md>)
