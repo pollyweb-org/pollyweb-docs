@@ -4,7 +4,7 @@
 
 > Implements [Schema Code🧩](<../../Codes 🧩/🧩 Schema Code.md>)
 
-> Indexed by [`Schema@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema/🕸 Schema 🚀 request.md>)
+> Indexed by [`Schema@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema/🕸 Schema 🚀 call.md>)
 
 <br/>
 
