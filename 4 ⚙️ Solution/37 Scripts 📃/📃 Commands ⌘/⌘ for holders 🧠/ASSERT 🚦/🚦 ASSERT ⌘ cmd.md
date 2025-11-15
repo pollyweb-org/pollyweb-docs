@@ -39,7 +39,7 @@
         - Texts: <fields> # Text fields
         - Times: <fields> # Time fields
         - Lists: <fields> # List fields
-        - Maths: <fields> # Numeric fields
+        - Nums: <fields> # Numeric fields
     ```
     
     | Input| Purpose |  Examples |Behavior
@@ -52,7 +52,7 @@
     | `Texts` | Must be a text fields | `A,B` `[A,B]`
     | `Times` | Absolute or relative times | `A,B` `[A,B]`
     | `Lists` | Must be list fields | `A,B` `[A,B]`
-    | `Maths` | Must be numeric fields | `A,B` `[A,B]`
+    | `Nums` | Must be numeric fields | `A,B` `[A,B]`
     |
     
     <br/>

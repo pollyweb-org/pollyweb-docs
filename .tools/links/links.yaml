@@ -188,13 +188,13 @@ Successful Tests:
     LinkFile: "🪵 Logger 🤲 helper.md"
     Reasons: This is hardcoded.
 
-  - Given: '{{Math}}'
-    LinkText: "Math 🧠 holder"
-    LinkFile: "Math holders.md"
+  - Given: '{{Num}}'
+    LinkText: "Num 🧠 holder"
+    LinkFile: "Num holders.md"
     Reasons: This is hardcoded.
-  - Given: '{{Maths}}'
-    LinkText: "Math 🧠 holders"
-    LinkFile: "Math holders.md"
+  - Given: '{{Nums}}'
+    LinkText: "Num 🧠 holders"
+    LinkFile: "Num holders.md"
     Reasons: This is hardcoded.
 
   - Given: '{{Notifier}}'
