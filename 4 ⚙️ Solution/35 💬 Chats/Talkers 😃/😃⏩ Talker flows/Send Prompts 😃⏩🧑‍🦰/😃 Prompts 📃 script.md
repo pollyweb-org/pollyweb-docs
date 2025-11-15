@@ -38,7 +38,7 @@
     Texts: Text, Format, Details, Emoji
     Lists: Options
     UUIDs: Appendix  
-    Maths: MinValue, MaxValue
+    Nums: MinValue, MaxValue
 
 - ASSERT|$Options:
     AllOf: ID, Title

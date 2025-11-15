@@ -1,14 +1,14 @@
 <!-- TODO -->
 
-# 🧠 Math holders
+# 🧠 Num holders
 
 > Part of [Holders 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)
 
 ## FAQ
 
-1. **What are Math holders?**
+1. **What are Num holders?**
 
-    Math holders
+    `Num` holders
     * are built-in [Holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) types
     * that represent numbers and provide mathematical operations on them.
 
@@ -47,13 +47,15 @@
     |       | [`.Equals`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Equals}.md>) |bool| Same as [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>)
     |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Differs}.md>) |bool| Same as [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNot}.md>)
     |Lists  | [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>) |bool| Is it in a given list of numbers?
-    |Create | [`.Random`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Random}.md>) || Returns a random number
-    |Change | [`.Sum`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Sum}.md>) || Adds numbers
-    |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) || Same as [`.Sum`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Sum}.md>)
-    |       | [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Plus}.md>) || Same as [`.Sum`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Sum}.md>) | What if we add numbers?
-    |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Minus}.md>) || Subtracts numbers
-    |       | [`.Times`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Times}.md>) || Multiplies numbers
-    |       | [`.Calculate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Calculate}.md>) || Calculates formulas
-    |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) || Distance between 2 numbers
+    |Create | [`.Random`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Random}.md>) |[Num][Num]| Returns a random number
+    |Change | [`.Sum`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Sum}.md>) |[Num][Num]| Adds numbers
+    |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) |[Num][Num]| Same as [`.Sum`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Sum}.md>)
+    |       | [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Plus}.md>) |[Num][Num]| Same as [`.Sum`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Sum}.md>) | What if we add numbers?
+    |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Minus}.md>) |[Num][Num]| Subtracts numbers
+    |       | [`.Times`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Times}.md>) |[Num][Num]| Multiplies numbers
+    |       | [`.Calculate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Calculate}.md>) |[Num][Num]| Calculates formulas
+    |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) |[Num][Num]| Distance between 2 numbers
     ---
     <br/>
+
+[Num]: <Num holders.md>
