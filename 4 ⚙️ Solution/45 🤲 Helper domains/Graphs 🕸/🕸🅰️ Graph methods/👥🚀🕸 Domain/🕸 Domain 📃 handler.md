@@ -19,16 +19,14 @@
 - READ >> $domain:
     Set: Graph.Domains
     Key: $.Msg.Domain
-
-# Format the output
-- PUT|$domain >> $output:
-    Domain, Feedback, 
-    Title, Description, 
-    SmallIcon, BigIcon
+    Get: 
+        Domain, Feedback, 
+        Title, Description, 
+        SmallIcon, BigIcon
 
 # Return the output
 - RETURN:
-    $output
+    $domain
 ```
 
 Uses||

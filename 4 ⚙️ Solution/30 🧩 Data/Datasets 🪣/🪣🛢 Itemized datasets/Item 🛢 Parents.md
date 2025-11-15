@@ -43,7 +43,7 @@
 
     Parents:
         
-        # Parent mapped by matching properties
+        # Parent mapped by matching fields
         CUSTOMER: 
             CUSTOMERS.ID: ORDERS.CUST_ID
 

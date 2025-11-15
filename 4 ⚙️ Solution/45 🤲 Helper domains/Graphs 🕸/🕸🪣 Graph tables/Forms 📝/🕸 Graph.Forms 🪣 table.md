@@ -1,4 +1,4 @@
-# 🕸 Graph.Trusts 🪣 table
+# 🕸 Graph.Forms 🪣 table
 
 > Part of the [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>)
 
@@ -8,6 +8,6 @@ Here's the [Itemized 🪣 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣�
 
 ```yaml
 Prefix: Graph
-Table: Trusts
-Key: Trust
+Table: Forms
+Key: Domain, Form
 ```
