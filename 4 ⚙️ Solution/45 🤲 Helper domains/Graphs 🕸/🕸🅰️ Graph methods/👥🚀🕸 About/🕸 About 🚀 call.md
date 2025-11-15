@@ -1,6 +1,8 @@
-# 👥🚀🕸 Identity @ Graph
+# 👥🚀🕸 Domain @ Graph
 
-> Part of [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>)
+> Implementation
+* Part of [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>)
+* Implemented by the [`Domain` 📃 handler](<🕸 About 📃 handler.md>)
 
 > Purpose
 
@@ -18,38 +20,37 @@
 Header: 
     From: any-domain.dom
     To: any-graph.dom
-    Subject: Domain@Graph
+    Subject: About@Graph
     
 Body:
     Domain: another-domain.dom
+    Language: pt-br
 ```
 
 |Object|Property|Type|Description
 |-|-|-|-
 | Header|`From`|string| The name of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) querying
 |       |`To`|string| [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>) name
-|       | `Subject` | string | `Domain@Graph`
+|       | `Subject` | string | `About@Graph`
 | Body  | `Domain`  | string | The name of another [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to look up
-
-
+|       | `Language`| string | Language to translate, defaults to `en-us`
+|
 
 
 ## Synchronous Response 
 
 
 ```yaml
-Domain: another-domain.dom
-Feedback: any-buffer.dom
 Title: Any Other Domain, Inc.
 Description: bla bla...
 SmallIcon: <base64>
 BigIcon: <base64>
 ```
 
-|Object|Property|Type|Description
+||Property|Type|Description
 |-|-|-|-
-|Top        |`Domain`       | string | URL name of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
-|           |`Feedback`     | string | [Buffer ⏳ helper domain](<../../../Buffers ⏳/⏳🤲 Buffer helper.md>) name
 |           |`Title`         | string | Friendly name of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
+|           |`Description`   | string  | Description of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
 |           |`SmallIcon`    | string  | Small icon in Base64 PNG
 |           |`BigIcon`      | string  | Big icon in Base64 PNG
+|

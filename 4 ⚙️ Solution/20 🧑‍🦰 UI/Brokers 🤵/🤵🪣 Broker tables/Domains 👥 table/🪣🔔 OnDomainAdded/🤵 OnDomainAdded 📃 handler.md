@@ -1,7 +1,7 @@
 # 🤵 OnDomainAdded 📃 handler
 
 > Purpose
-* Calls the [`Domain@Graph` 🅰️ method](<../../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Domain/🕸 Domain 🚀 call.md>) for new domains.
+* Calls the [`About@Graph` 🅰️ method](<../../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 About/🕸 About 🚀 call.md>) for new domains.
 
 ## How to call
 
