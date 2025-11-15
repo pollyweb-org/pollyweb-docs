@@ -72,7 +72,7 @@
 
 
 
-1. **What's an PUT example with [Pair 🧠 holders](<../../../📃 Holders 🧠/🧠 Holder types/Pair holders.md>)?**
+1. **What's an PUT example with [Map 🧠 holders](<../../../📃 Holders 🧠/🧠 Holder types/Map holders.md>)?**
 
     | [Domain](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     | - | - | - |

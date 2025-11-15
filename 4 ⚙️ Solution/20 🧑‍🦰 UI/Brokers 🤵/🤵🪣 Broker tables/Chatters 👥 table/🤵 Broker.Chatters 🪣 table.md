@@ -75,7 +75,7 @@ Property|Type|Details|Origin|Purpose
 |`Chat`|uuid|[Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID | -|[`Chat@`](<../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 request.md>)
 |`Domain`|text|[domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name|-|[`Chat@`](<../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 request.md>)
 |`Key`| text | [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) key |-| [`Chat@`](<../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 request.md>) |
-|`Parameters` | pairs | [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) parameters |-| [`Chat@`](<../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 request.md>)
+|`Parameters` | map | [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) parameters |-| [`Chat@`](<../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 request.md>)
 |`Binds`|list| [Binds 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) shared | - | [`Chat@`](<../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 request.md>)
 |`Tokens` | list | [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) shared |- | [`Presented@`](<../../🤵🅰️ Broker methods/Chats 💬 Presented 🔎🐌🤵/🤵 Presented 🐌 msg.md>)
 |
