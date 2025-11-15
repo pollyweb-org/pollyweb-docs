@@ -208,7 +208,7 @@
     <br/>
 
 
-1. **How to take some properties from a [List 🧠](<List holders.md>) of [Pair 🧠](<Pair holders.md>)?**
+1. **How to take some properties from a [List 🧠](<List holders.md>) of [Map 🧠](<Map holders.md>)?**
   
     Using the [`.List` function](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.List}.md>) in one of 3 forms:
     * with the [`CALL` commands](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>),

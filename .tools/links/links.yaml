@@ -201,13 +201,13 @@ Successful Tests:
     LinkFile: "📣 Notifier 👥 domain.md"
     Reasons: This is hardcoded.
 
-  - Given: '{{Pair}}'
-    LinkText: "Pair 🧠 holder"
-    LinkFile: "Pair holders.md"
+  - Given: '{{Map}}'
+    LinkText: "Map 🧠 holder"
+    LinkFile: "Map holders.md"
     Reasons: This is hardcoded.
-  - Given: '{{Pairs}}'
-    LinkText: "Pair 🧠 holders"
-    LinkFile: "Pair holders.md"
+  - Given: '{{Maps}}'
+    LinkText: "Map 🧠 holders"
+    LinkFile: "Map holders.md"
     Reasons: This is hardcoded.
 
   - Given: "{{Persona}}"

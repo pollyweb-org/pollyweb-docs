@@ -20,7 +20,7 @@
 
     |Syntax| Behavior
     |-|-|
-    | `SET\|$in: *` | Changes a [Pair 🧠 holder](<../../../📃 Holders 🧠/🧠 Holder types/Pair holders.md>) with [`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>)
+    | `SET\|$in: *` | Changes a [Map 🧠 holder](<../../../📃 Holders 🧠/🧠 Holder types/Map holders.md>) with [`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>)
     || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>)`>> $in: $in,*`
     |`SET\|$in.f(*)`| Sets a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) to the [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) result
     || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>)`($in,$in.f(*)) >> $in`
