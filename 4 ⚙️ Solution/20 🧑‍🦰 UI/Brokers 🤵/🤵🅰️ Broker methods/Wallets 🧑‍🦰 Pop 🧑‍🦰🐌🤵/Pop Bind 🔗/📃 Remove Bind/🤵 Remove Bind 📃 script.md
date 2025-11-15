@@ -30,9 +30,8 @@
 # Ask for confirmation 🤔
 - CONFIRM: Unbind ´{$bind.Title}´?
 
-# Remove each bind
-- PARALLEL|$vault.Binds|$bind:
-    DELETE|$bind
+# Remove the bind
+- DELETE|$bind
 
 # Inform the user 🤔
 - SUCCESS|Done.

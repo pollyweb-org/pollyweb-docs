@@ -25,11 +25,11 @@ activate broker
     broker -> broker: CHAT 💬
     broker -> graph: TRANSLATE 🈯 {schema}
     broker -> wallet: CONFIRM 👍
-    broker -> binds: SAVE 💾 {bind}
+    broker -> binds: SAVE 💾 {hook}
 deactivate broker
 
 activate binds
-    binds --> vault: SEND 📬 Bound 🐌 {code} 
+    binds --> vault: SEND 📬 Bound 🐌 {hook} 
 deactivate binds
 
 

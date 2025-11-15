@@ -23,8 +23,16 @@ Propagate:
     - Vault
 
 Handlers:
-    OnBindChanges: 
+
+    OnBindAltered: 
         Events: ALTERED
+
+    OnBindGiven:
+        Events: INSERTED, UPDATED
+        Assert: New.Hook
+
+    OnBindRemoved: 
+        Events: DELETED
 ```
 
 ## Links
@@ -49,7 +57,9 @@ Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/�
 ```yaml
 # READ|Binds@Broker|<bind-id>
 ID: <bind-id>
-Vault: any-vault.dom
 Wallet: <wallet-uuid>
+Vault: any-vault.dom
+VaultTitle: Any Vault
 Schema: any-authority.dom/ANY-SCHEMA:1.0
+SchemaTitle: Any Schema
 ```
