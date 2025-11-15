@@ -25,9 +25,9 @@
     | | Or to [`$.Msg`](<../../../📃 Holders 🧠/🧠 System holders/$.Msg 📨/📨 $.Msg 🧠 holder.md>)`.Language`
     | `Text` | Text to translate via [`.Translate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Translate}.md>) | `Hi, ´John´!`
     |       | Doesn't translate between `´´`
-    | `Domain` | Domain for [`Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>) | `any-domain.dom`
+    | `Domain` | Domain for [`Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate/👥🚀🕸 Translate.md>) | `any-domain.dom`
     | `Domains` | List of domains
-    | `Schema` | Schema  for [`Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>) | `.HOST`
+    | `Schema` | Schema  for [`Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate/👥🚀🕸 Translate.md>) | `.HOST`
     | `Schemas` | List of schemas
 
     ---
@@ -38,8 +38,8 @@
     |Output| Example
     |-|-|-
     |`Schema` or `Domain` | The translated text | `Any Domain`
-    |`Schema` and `Domain`  | [`Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>) | `{Domain:X, Schema:X}`
-    |Other inputs | [`Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate.md>)| `{Domains:[...]}`
+    |`Schema` and `Domain`  | [`Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate/👥🚀🕸 Translate.md>) | `{Domain:X, Schema:X}`
+    |Other inputs | [`Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate/👥🚀🕸 Translate.md>)| `{Domains:[...]}`
 
     |Object|Property|
     |-|-|-

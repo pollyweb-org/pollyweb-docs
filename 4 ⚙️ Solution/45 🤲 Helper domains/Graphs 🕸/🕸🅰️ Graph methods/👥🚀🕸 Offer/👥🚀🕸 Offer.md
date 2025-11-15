@@ -2,12 +2,12 @@
 
 # 👥🚀🕸 Offer @ Graph
 
-> Part of [Graph 🕸 domain](<../🕸🤲 Graph helper.md>)
+> Part of [Graph 🕸 domain](<../../🕸🤲 Graph helper.md>)
 
 
 * Returns details about a given ServiceID in a Host's Manifest.
 * Used by:
-    *  [⭐⏩🧑‍🦰 Review @ Reviewer ](<../../../50 🫥 Agent domains/Reviewers ⭐/⭐⏩ Reviewer flows/01 ⭐⏩🧑‍🦰 Review.md>)
+    *  [⭐⏩🧑‍🦰 Review @ Reviewer ](<../../../../50 🫥 Agent domains/Reviewers ⭐/⭐⏩ Reviewer flows/01 ⭐⏩🧑‍🦰 Review.md>)
 
 <br/>
 
