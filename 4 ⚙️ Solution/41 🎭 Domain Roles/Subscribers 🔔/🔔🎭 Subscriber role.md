@@ -41,11 +41,11 @@
 
 1. **What are examples of event subscribers?**
 
-    * [Graph 🕸 helper domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) build their graph databases with subscriptions to [domain Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>) updates from [Listener 👂 streams](<../../45 🤲 Helper domains/Listeners 👂/👂 Listener helper/👂🤲 Listener helper.md>).
+    * [Graph 🕸 helper domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph/🕸🤲 Graph helper.md>) build their graph databases with subscriptions to [domain Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>) updates from [Listener 👂 streams](<../../45 🤲 Helper domains/Listeners 👂/👂 Listener helper/👂🤲 Listener helper.md>).
   
-    * [Finder 🔎 domains](<../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) build their search index with subscriptions to [Graph 🕸](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>), [Advertiser 👀](<../../45 🤲 Helper domains/Advertisers 👀/👀🤲 Advertiser helper.md>), and [Reviewer ⭐](<../../50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) streams.
+    * [Finder 🔎 domains](<../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) build their search index with subscriptions to [Graph 🕸](<../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph/🕸🤲 Graph helper.md>), [Advertiser 👀](<../../45 🤲 Helper domains/Advertisers 👀/👀🤲 Advertiser helper.md>), and [Reviewer ⭐](<../../50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) streams.
     
-    * [Firewall 🔥 helper domains](<../../45 🤲 Helper domains/Firewalls 🔥/🔥🤲 Firewall helper.md>) subscribe to [Listener 👂](<../../45 🤲 Helper domains/Listeners 👂/👂 Listener helper/👂🤲 Listener helper.md>) and [Graph 🕸](<../../45 🤲 Helper domains/Graphs 🕸/🕸🤲 Graph helper.md>) streams to ensure domain compliance.
+    * [Firewall 🔥 helper domains](<../../45 🤲 Helper domains/Firewalls 🔥/🔥🤲 Firewall helper.md>) subscribe to [Listener 👂](<../../45 🤲 Helper domains/Listeners 👂/👂 Listener helper/👂🤲 Listener helper.md>) and [Graph 🕸](<../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph/🕸🤲 Graph helper.md>) streams to ensure domain compliance.
 
 
     ---
