@@ -9,7 +9,7 @@
 
 ```yaml
 Path: /IDENTITY/OVER21
-Name: Over 21 years old
+Title: Over 21 years old
 
 Description: >
   Used by verify if the person is over 21 years old.

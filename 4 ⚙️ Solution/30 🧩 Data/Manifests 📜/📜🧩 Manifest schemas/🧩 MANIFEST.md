@@ -24,7 +24,7 @@
 
 ```yaml
 Path: /MANIFEST
-Name: Domain Manifest
+Title: Domain Manifest
 
 Blueprint:
   Version: 1.0

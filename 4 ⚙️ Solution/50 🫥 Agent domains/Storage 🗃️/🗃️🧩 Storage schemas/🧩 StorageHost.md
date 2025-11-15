@@ -9,7 +9,7 @@
 
 ```yaml
 Path: /STORAGE/HOST
-Name: Storage
+Title: Storage
 Description: Share the storage host.
 
 Translations:

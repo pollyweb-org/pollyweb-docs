@@ -9,7 +9,7 @@
 
 ```yaml
 Path: /CRUD/ENTITY/EXPORT
-Name: Entity Export
+Title: Entity Export
 Description: >
   Definition of an exportable code supported by the entity.
 

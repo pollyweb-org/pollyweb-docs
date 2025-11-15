@@ -11,7 +11,7 @@
 
 ```yaml
 Path: /HOST/BOOKING
-Name: Booking 
+Title: Booking 
 Description: Token for a booking
 
 Translations:

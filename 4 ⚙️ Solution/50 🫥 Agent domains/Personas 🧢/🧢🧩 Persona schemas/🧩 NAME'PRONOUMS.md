@@ -9,7 +9,7 @@
 
 ```yaml
 Path: /PERSONA/NAME/PRONOUNS
-Name: Personal gender pronouns
+Title: Personal gender pronouns
 
 Description: >
     "Personal gender pronouns" (or PGPs) are pronouns 

@@ -4,7 +4,7 @@
 🤝: nlweb.dom/MANIFEST/CODE
 
 Path: /EXCHANGE/PAYER
-Name: Payer
+Title: Payer
 Description: Payer QR in an Exchange.
 
 References:

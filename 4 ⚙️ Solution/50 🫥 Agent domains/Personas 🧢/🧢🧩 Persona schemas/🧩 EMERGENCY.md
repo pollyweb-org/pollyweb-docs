@@ -9,7 +9,7 @@
 
 ```yaml
 Path: /PERSONA/EMERGENCY
-Name: Emergency contacts
+Title: Emergency contacts
 
 Translations:
   pt: Contatos de emergência

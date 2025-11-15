@@ -9,7 +9,7 @@
 
 ```yaml
 Path: /CRUD/ENTITY/PROPERTY/EXTERNAL
-Name: External list property
+Title: External list property
 
 Descrition: >
   Loads ONE|MANY options from an external domain.

@@ -9,7 +9,7 @@
 
 ```yaml
 Path: /PERSONA/NAME/FRIENDLY
-Name: Friendly name
+Title: Friendly name
 
 Description: >
   How a person wants to be refered to amongst friends.
