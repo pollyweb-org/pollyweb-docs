@@ -12,7 +12,7 @@
 
 <br/>
 
-## Synchronous Request 🚀
+## Synchronous Call 🚀
 
 ```yaml
 Header:
@@ -53,7 +53,7 @@ Item:
 |Top| `Status`  | string    | `OK` `BLOCKED` `OUTDATED`
 |Item| `Item`    | object    | Saved item with updated properties
 || `.Table`   | string | Table name for the [`SAVE` 📃 script](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE 📃 script.md>)
-|| `.Version` | uuid   | Version for [`Save@Itemizer`](<../Item Save 👥🚀🛢/🛢 Save 🚀 request.md>)
+|| `.Version` | uuid   | Version for [`Save@Itemizer`](<🛢 Save 🚀 call.md>)
 |
 
 
@@ -92,7 +92,7 @@ Item:
     The `Version` argument is used for optimistic concurrency.
     * When [Scripts 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) call the [`Read@Itemizer`](<../Item Read 👥🚀🛢/🛢 Read 🚀 call.md>) method followed by changes to an [Item 🛢](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>), other [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) threads may be changing the same [Item 🛢](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) concurrently.
   
-    * To avoid locking items with a standard ACID transaction, the [`Save@Itemizer`](<🛢 Save 🚀 request.md>) method checks the original version collected on the [`Read@Itemizer`](<../Item Read 👥🚀🛢/🛢 Read 🚀 call.md>) method.
+    * To avoid locking items with a standard ACID transaction, the [`Save@Itemizer`](<🛢 Save 🚀 call.md>) method checks the original version collected on the [`Read@Itemizer`](<../Item Read 👥🚀🛢/🛢 Read 🚀 call.md>) method.
   
     * If the version has changed due to a concurrent [`SAVE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) in the [Talker 😃 domain](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>), then the [Itemizer 🛢 helper domain](<../../🛢🤲 Itemizer helper.md>) rejects the change, forcing the [Talker 😃 domain](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>) to re-run the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
 
@@ -104,7 +104,7 @@ Item:
     | Status | Details
     |-|-
     | `OK`        | The item was saved successfully.
-    | `BLOCKED` | There is already an item with the same key and a different content, and the table schema was configured with `NoUpdates` to block any changes after the first [`Save@Itemizer` 🅰️ method](<🛢 Save 🚀 request.md>).
+    | `BLOCKED` | There is already an item with the same key and a different content, and the table schema was configured with `NoUpdates` to block any changes after the first [`Save@Itemizer` 🅰️ method](<🛢 Save 🚀 call.md>).
     | `OUTDATED`  | The `.Version` of the item saved in the dataset (let's call it `A`) is different from the one given in `Item.Version` (let's call it B), meaning that item `A` has changed since item `B` was pulled with the [`Read@Itemizer` 🅰️ method](<../Item Read 👥🚀🛢/🛢 Read 🚀 call.md>) call.
     
     ---

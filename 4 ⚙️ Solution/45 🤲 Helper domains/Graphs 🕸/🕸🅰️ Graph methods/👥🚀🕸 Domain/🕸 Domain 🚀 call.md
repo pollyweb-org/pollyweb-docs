@@ -1,20 +1,18 @@
-<!-- Docs: https://quip.com/hgz4A3clvOes#temp:C:bDAacb56742c6a342a8a3494587d -->
-<!-- Source: https://github.com/jorgemjfonseca/domain-trust-framework/blob/9a3c5abe16dda8cbacd2529bc859fd9d708f85d9/python/backbone/graph/GRAPH.py#L316 -->
-
 # 👥🚀🕸 Identity @ Graph
 
 > Part of [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>)
 
+> Purpose
 
 * Given a domain, 
     * returns the content of [`.MANIFEST/ABOUT 🧩`](<../../../../30 🧩 Data/Manifests 📜/📜🧩 Manifest schemas/🧩 ABOUT.md>)
     * from its [domain Manifest 📜](<../../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>) 
-* Used by:
-    * [🤵⏩🧑‍🦰 Open 💬 flow](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵⏩ Broker flows/Open 🤵⏩💬/🤵 Open ⏩ flow.md>) 
 
-<br/>
+> Used by
+* [🤵⏩🧑‍🦰 Open 💬 flow](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵⏩ Broker flows/Open 🤵⏩💬/🤵 Open ⏩ flow.md>) 
 
-## Synchronous Request 🚀
+
+## Synchronous Call 🚀
 
 ```yaml
 Header: 
@@ -32,9 +30,9 @@ Body:
 |       |`To`|string| [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>) name
 |       | `Subject` | string | `Domain@Graph`
 | Body  | `Domain`  | string | The name of another [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to look up
-|
 
-<br/>
+
+
 
 ## Synchronous Response 
 
@@ -55,4 +53,3 @@ BigIcon: <base64>
 |           |`Title`         | string | Friendly name of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
 |           |`SmallIcon`    | string  | Small icon in Base64 PNG
 |           |`BigIcon`      | string  | Big icon in Base64 PNG
-|

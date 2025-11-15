@@ -475,12 +475,12 @@ Successful Tests:
 
   - Given: '{{Parse@Hosted}}'
     LinkText: "`Parse@Hosted` 🅰️ method"
-    LinkFile: "📦 Parse 🚀 request.md"
+    LinkFile: "📦 Parse 🚀 call.md"
     Reasons: |
       For `X@Y`, 
       where the string is split by `@` into `X` and `Y`,
       the file is called `*X*.md,
-      and the file ends in either "🐌 msg.md" or "🚀 request.md",
+      and the file ends in either "🐌 msg.md" or "🚀 call.md",
       and is in a folder called `*Y*methods*`
       or is in a subfolder of such folder.
 
@@ -499,7 +499,7 @@ Successful Tests:
 
   - Given: '{{Prompted@Hosted}}'
     LinkText: "`Prompted@Hosted` 🅰️ method"
-    LinkFile: '🤗 Prompted 🚀 request.md'
+    LinkFile: '🤗 Prompted 🚀 call.md'
     Reasons: same as "{{Parse@Hosted}}"
 
   - Given: '{{Build@Itemized}}'

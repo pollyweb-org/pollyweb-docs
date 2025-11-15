@@ -7,7 +7,7 @@
 
 > Flow
 * Part of [Handle @ Talker 😃⏩🧑‍💻](<../../😃⏩ Talker flows/Run Sync Functions 😃⏩📦/😃 Call ⏩ flow.md>) flow
-* Paired with [`Place@Talker`](<../Place 🧑‍💻🚀😃/😃 Place 🚀 request.md>) message
+* Paired with [`Place@Talker`](<../Place 🧑‍💻🚀😃/😃 Place 🚀 call.md>) message
 
 > Purpose
 
@@ -16,7 +16,7 @@
 
 <br/>
 
-## Synchronous Request 🚀
+## Synchronous Call 🚀
 
 ```yaml
 Header:

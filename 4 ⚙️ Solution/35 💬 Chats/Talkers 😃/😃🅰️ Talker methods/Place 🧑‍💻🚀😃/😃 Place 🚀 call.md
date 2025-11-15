@@ -6,7 +6,7 @@
 
 > Flow
 * Part of [`Async` ⏩ flow](<../../😃⏩ Talker flows/Run Async Tasks 😃⏩📦/😃 Async ⏩ flow.md>) flow
-* Paired with the [`Placed@Talker` 🅰️ method](<../Placed 🧑‍💻🚀😃/😃 Placed 🚀 request.md>)
+* Paired with the [`Placed@Talker` 🅰️ method](<../Placed 🧑‍💻🚀😃/😃 Placed 🚀 call.md>)
 
 > Purpose 
 * Writes a value to a [Holder 🧠](<../../../Scripts 📃/Holder 🧠.md>).
@@ -14,7 +14,7 @@
 
 <br/>
 
-## Synchronous Request 🚀
+## Synchronous Call 🚀
 
 
 ```yaml

@@ -5,7 +5,7 @@
 # 🗓️🚀🏦 Unsubscribe @ [Collector](<../../🏦🤲 Collector helper.md>)
 
 
-## Synchronous Request 🚀
+## Synchronous Call 🚀
 
 |Property|Type|Description
 |-|-|-

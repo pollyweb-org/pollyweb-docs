@@ -1,7 +1,7 @@
 # 🪵 Logger Threads 🪣 table
 
 > Purpose
-* Registers threads from the [`Start@Logger` 🅰️ method](<../🪵🅰️ Logger methods/Start 👥🚀🪵/🪵 Start 🚀 request.md>)
+* Registers threads from the [`Start@Logger` 🅰️ method](<../🪵🅰️ Logger methods/Start 👥🚀🪵/🪵 Start 🚀 call.md>)
 
 <br/>
 
@@ -42,8 +42,8 @@ Stopped: 2018-12-10T13:45:28.345Z
 
 |Property| Type| Purpose|Origin
 |-|-|-|-
-| `ID` | uuid | Thread ID | [`Start@`](<../🪵🅰️ Logger methods/Start 👥🚀🪵/🪵 Start 🚀 request.md>)
-| `Domain` | domain | Owner [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [`Start@`](<../🪵🅰️ Logger methods/Start 👥🚀🪵/🪵 Start 🚀 request.md>)
-| `Started` | time | When it was started | [`Start@`](<../🪵🅰️ Logger methods/Start 👥🚀🪵/🪵 Start 🚀 request.md>)
+| `ID` | uuid | Thread ID | [`Start@`](<../🪵🅰️ Logger methods/Start 👥🚀🪵/🪵 Start 🚀 call.md>)
+| `Domain` | domain | Owner [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [`Start@`](<../🪵🅰️ Logger methods/Start 👥🚀🪵/🪵 Start 🚀 call.md>)
+| `Started` | time | When it was started | [`Start@`](<../🪵🅰️ Logger methods/Start 👥🚀🪵/🪵 Start 🚀 call.md>)
 | `Stopped` | time | When it was stopped | [`Stop@`](<../🪵🅰️ Logger methods/Stop 👥🐌🪵/🪵 Stop 🐌 msg.md>) |
 |

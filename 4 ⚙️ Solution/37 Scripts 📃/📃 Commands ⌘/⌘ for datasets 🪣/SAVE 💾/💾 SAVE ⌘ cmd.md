@@ -143,7 +143,7 @@
 
 1. **How do handled blocked tables?**
 
-    Raises a 409 HTTP error in a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) when trying to update an [Itemized 🛢 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) with the `NoUpdate` flag active - e.g. [`Grab@Printer`](<../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🅰️ Printer methods/Grab 👥🚀🖨️/🖨️ Grab 🚀 request.md>).
+    Raises a 409 HTTP error in a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) when trying to update an [Itemized 🛢 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) with the `NoUpdate` flag active - e.g. [`Grab@Printer`](<../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🅰️ Printer methods/Grab 👥🚀🖨️/🖨️ Grab 🚀 call.md>).
 
     ---
     <br/>

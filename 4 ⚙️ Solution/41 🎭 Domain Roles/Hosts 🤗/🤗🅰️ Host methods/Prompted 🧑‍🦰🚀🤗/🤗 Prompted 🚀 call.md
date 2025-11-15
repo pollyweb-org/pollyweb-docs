@@ -16,7 +16,7 @@
 
 <br/>
 
-## Sync Request 🚀
+## Synchronous Call 🚀
 
 
 ```yaml
@@ -63,7 +63,7 @@ Options:                            # Optional
 | [`Text`](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/2 🪧 Text.md>) | text | Main message,  to display in the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
 | [`MinValue`](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/📋 Input validation.md>) | math | Optional minimum value
 | [`MaxValue`](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/📋 Input validation.md>) | math | Optional maximum value
-| [`Appendix`](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/6 📎 with Appendix.md>)| uuid   | File to download via [`Download@Host`](<../Download 🧑‍🦰🚀🤗/🤗 Download 🚀 request.md>)
+| [`Appendix`](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/6 📎 with Appendix.md>)| uuid   | File to download via [`Download@Host`](<../Download 🧑‍🦰🚀🤗/🤗 Download 🚀 call.md>)
 | [`Details`](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/3 ⊕ with Details.md>) | text | Extended [details](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/3 ⊕ with Details.md>) in Markdown format
 | [`Options`](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/4 🔘 with Options.md>) | pair[]   | List of `Option` objects
 | [`Default`](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/5 🧡 with Default.md>) | text | Pre-filled answer or [option](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/4 🔘 with Options.md>)

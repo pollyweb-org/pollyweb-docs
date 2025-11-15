@@ -1,7 +1,7 @@
 # 🤵 Freeze 📃 handler
 
 > Purpose
-* [Script 📃](<../Chats 💬 Chat 🤗🚀🤵/🤵 Chat 🚀 request.md>) that implements the [`Freeze@Broker` 🅰️ method](<🤵 Freeze 🐌 msg.md>).
+* [Script 📃](<../Chats 💬 Chat 🤗🚀🤵/🤵 Chat 🚀 call.md>) that implements the [`Freeze@Broker` 🅰️ method](<🤵 Freeze 🐌 msg.md>).
 
 
 ## Flow

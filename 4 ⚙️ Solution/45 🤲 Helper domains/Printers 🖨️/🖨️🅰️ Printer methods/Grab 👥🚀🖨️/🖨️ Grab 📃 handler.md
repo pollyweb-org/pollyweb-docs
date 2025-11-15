@@ -2,7 +2,7 @@
 
 > Purpose
 
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Grab@Printer` 🅰️ method](<🖨️ Grab 🚀 request.md>).
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Grab@Printer` 🅰️ method](<🖨️ Grab 🚀 call.md>).
 
 ## Flow
 

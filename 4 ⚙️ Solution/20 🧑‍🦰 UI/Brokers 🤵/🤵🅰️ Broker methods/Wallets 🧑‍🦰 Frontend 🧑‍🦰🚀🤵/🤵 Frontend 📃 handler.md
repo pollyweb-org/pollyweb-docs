@@ -1,7 +1,7 @@
 # 🤵📃 Frontend 🚀 Broker
 
 > Purpose
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Frontend@Broker` 🅰️ method](<🤵 Frontend 🚀 request.md>).
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Frontend@Broker` 🅰️ method](<🤵 Frontend 🚀 call.md>).
 
 <br/>
 

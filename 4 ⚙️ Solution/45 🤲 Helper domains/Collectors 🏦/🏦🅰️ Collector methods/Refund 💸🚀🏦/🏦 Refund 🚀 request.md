@@ -6,7 +6,7 @@
 # 💸🚀🏦 Refund @ [Collector](<../../🏦🤲 Collector helper.md>)
 
 
-## Synchronous Request 🚀
+## Synchronous Call 🚀
 
 |Object|Property|Type|Description
 |-|-|-|-

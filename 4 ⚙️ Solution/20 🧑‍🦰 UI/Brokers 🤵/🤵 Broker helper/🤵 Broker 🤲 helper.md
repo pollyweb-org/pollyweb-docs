@@ -87,10 +87,10 @@
 
     Group |  Method | Purpose
     |-|-|-
-    |[`🧑‍🦰 Setup`](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)| [📣🚀 Onboard](<../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 request.md>) | Onboard a [Wallet 🧑‍🦰 app](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
+    |[`🧑‍🦰 Setup`](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)| [📣🚀 Onboard](<../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 call.md>) | Onboard a [Wallet 🧑‍🦰 app](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     |  | [🧑‍🦰🐌 Translate](<../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Language 🧑‍🦰🐌🤵/🤵 Language 🐌 msg.md>) | Change the language of a [Wallet 🧑‍🦰](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     | [`💬 Chats`](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>)  | [🧑‍🦰🚀 Locate](<../🤵🅰️ Broker methods/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>) | Parse the [Locator 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) on the [Broker 🤵](<🤵 Broker 🤲 helper.md>)
-    | | [🧑‍🦰🚀 Chats](<../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 request.md>) | Fetch [Chats 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) from the [Broker 🤵](<🤵 Broker 🤲 helper.md>)
+    | | [🧑‍🦰🚀 Chats](<../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 call.md>) | Fetch [Chats 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) from the [Broker 🤵](<🤵 Broker 🤲 helper.md>)
     | | [🤗🐌 Prompt](<../🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>) |   [Prompt 🤔](<../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) intent from [Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) 
     | |[🔎🐌 Presented](<../🤵🅰️ Broker methods/Chats 💬 Presented 🔎🐌🤵/🤵 Presented 🐌 msg.md>) | A [Finder 🔎 domain](<../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) finished the intro
     | |[🤗🐌 Goodbye](<../🤵🅰️ Broker methods/Chats 💬 Goodbye 🤗🐌🤵/🤵 Goodbye 🐌 msg.md>) | A [Host 🤗 domain](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) ended the [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
@@ -101,7 +101,7 @@
     || [🧑‍🦰🐌 Saved](<../🤵🅰️ Broker methods/Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 🐌 msg.md>) | A [Wallet 🧑‍🦰](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) saved a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) locally
     || [🎴🐌 Revise](<../🤵🅰️ Broker methods/Tokens 🎫 Revise 🎴🐌🤵/🤵 Revise 🐌 msg.md>) | Update the status of a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
     | [`💼 Share`](<../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) | [💼🐌 Query](<../🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) | Return user [Binds 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) and [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
-    || [💼🚀 Status](<../🤵🅰️ Broker methods/Share 💼 Status 💼🚀🤵/🤵 Status 🚀 request.md>) | Return the status of a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
+    || [💼🚀 Status](<../🤵🅰️ Broker methods/Share 💼 Status 💼🚀🤵/🤵 Status 🚀 call.md>) | Return the status of a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
 
     <!--
     |Pay| [💵🐌🤵 Charge](<../🤵🅰️ Broker methods/Payments 💵 Charge 💵🐌🤵/🤵 Charge 🐌 msg.md>)
