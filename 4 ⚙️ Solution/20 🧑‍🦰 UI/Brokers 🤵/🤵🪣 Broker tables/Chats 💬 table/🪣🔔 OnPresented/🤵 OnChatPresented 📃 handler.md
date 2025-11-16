@@ -1,0 +1,32 @@
+# 🤵 OnChatPresented 📃 handler
+
+> Purpose
+* [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that adds the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) to the [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
+  
+
+## Diagram
+
+![alt text](<🤵 OnChatPresented ⚙️ uml.png>)
+
+
+## Script
+
+```yaml
+📃 OnChatPresented:
+
+# Rename for legibility
+- PUT|$Item >> $chat
+
+# Invite the helper to the chat
+- SAVE|Broker.Chatters:
+    Chat: $chat.ID
+    Domain: $chat.Host
+```
+
+
+|Uses | |
+|-|-
+| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`PUT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) [`SEND`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>) 
+| [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Chats`](<../🪣 Chats/🤵 Broker.Chats 🪣 table.md>) [`Chatters`](<../../Chatters 👥 table/🪣 Chatters/🤵 Broker.Chatters 🪣 table.md>) [`Wallets`](<../../Wallets 🧑‍🦰 table/🤵 Broker.Wallets 🪣 table.md>)
+| [Messages 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Hello@Host` 🅰️ method](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
+|
