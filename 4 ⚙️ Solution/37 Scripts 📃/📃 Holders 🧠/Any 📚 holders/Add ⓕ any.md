@@ -22,7 +22,7 @@
     Input | Purpose
     |-|-
     | `source`| base value
-    | `additions...` | [List 🧠](<../List 📚 holders/List holders.md>) of values to add
+    | `additions...` | [List 🧠](<../List 📚 holders/🧠 List holders.md>) of values to add
 
 
     ---
@@ -34,7 +34,7 @@
     |-|-
     |[`Num` 🧠](<../Num 📚 holders/🧠 Num holders.md>) | Same as [`.Sum`](<../Num 📚 holders/Sum ⓕ num.md>) 
     |[`Time` 🧠](<../Time 📚 holders/🧠 Time holders.md>) | Same as [`.Advance`](<../Time 📚 holders/Advance ⓕ time.md>) 
-    |[`List` 🧠](<../List 📚 holders/List holders.md>) | Same as [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>) 
+    |[`List` 🧠](<../List 📚 holders/🧠 List holders.md>) | Same as [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>) 
     |[`Text` 🧠](<../Text 📚 holders/🧠 Text holders.md>) | Same as [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>) 
     |[`Map` 🧠](<../Map 📚 holders/🧠 Map holders.md>) | Same as [`.Set`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>) 
 

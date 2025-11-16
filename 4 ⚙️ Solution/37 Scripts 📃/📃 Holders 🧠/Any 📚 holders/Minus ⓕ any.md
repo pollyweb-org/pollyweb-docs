@@ -14,7 +14,7 @@
     |Type| Behavior
     |-|-
     | [Texts 🧠](<../Text 📚 holders/🧠 Text holders.md>) | Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>) 
-    | [Lists 🧠](<../List 📚 holders/List holders.md>) | Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>) 
+    | [Lists 🧠](<../List 📚 holders/🧠 List holders.md>) | Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>) 
     | [Maps 🧠](<../Map 📚 holders/🧠 Map holders.md>) | Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>)
     | [Num 🧠](<../Num 📚 holders/🧠 Num holders.md>) | Same as [`.Sum`](<../Num 📚 holders/Sum ⓕ num.md>) with negative additions
     | [Time 🧠](<../Time 📚 holders/🧠 Time holders.md>) | Same as [`.GoBack`](<../Time 📚 holders/GoBack ⓕ time.md>)

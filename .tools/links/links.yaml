@@ -186,15 +186,15 @@ Successful Tests:
 
   - Given: '{{list}}'
     LinkText: "list"
-    LinkFile: "List holders.md"
+    LinkFile: "🧠 List holders.md"
     Reasons: This is hardcoded.
   - Given: '{{List}}'
     LinkText: "List 🧠 holder"
-    LinkFile: "List holders.md"
+    LinkFile: "🧠 List holders.md"
     Reasons: This is hardcoded.
   - Given: '{{Lists}}'
     LinkText: "List 🧠 holders"
-    LinkFile: "List holders.md"
+    LinkFile: "🧠 List holders.md"
     Reasons: This is hardcoded.
 
   - Given: '{{Locator}}'

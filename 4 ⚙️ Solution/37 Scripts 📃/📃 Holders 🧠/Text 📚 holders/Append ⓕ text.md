@@ -11,7 +11,7 @@
     `{.Append}` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that appends text to a [Text 🧠 holder](<🧠 Text holders.md>), 
-    * and appends items to a [List 🧠 holder](<../List 📚 holders/List holders.md>).
+    * and appends items to a [List 🧠 holder](<../List 📚 holders/🧠 List holders.md>).
 
     ---
     <br/>
@@ -25,7 +25,7 @@
     Input | Purpose | Example
     |-|-|-
     |`list` | Original [Text 🧠](<🧠 Text holders.md>), | `AB` `$str`
-    |       | or [List 🧠](<../List 📚 holders/List holders.md>) of items |  `[A,B]` `$list`
+    |       | or [List 🧠](<../List 📚 holders/🧠 List holders.md>) of items |  `[A,B]` `$list`
     |`appendixes...` | string to append, | `CD`
     |           | or item to append, |  `C`
     |           | or items to merge | `[C,D]` `C,D`
@@ -39,7 +39,7 @@
     | Type      | Task  | List | Appendix   | Output
     |-|-|-|-|-
     | [Texts 🧠](<🧠 Text holders.md>)    | Append | `AB` | `CD` | `ABCD`
-    | [Lists 🧠](<../List 📚 holders/List holders.md>)   | Append | `[1,2]` | `3` | `[1,2,3]`
+    | [Lists 🧠](<../List 📚 holders/🧠 List holders.md>)   | Append | `[1,2]` | `3` | `[1,2,3]`
     |           | Merge  | `[1,2]` | `[3,4]` | `[1,2,3,4]`
     
     ---
