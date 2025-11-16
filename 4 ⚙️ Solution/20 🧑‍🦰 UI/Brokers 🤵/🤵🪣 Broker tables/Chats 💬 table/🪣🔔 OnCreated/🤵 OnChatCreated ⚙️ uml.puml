@@ -3,26 +3,27 @@
 'participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
-    participant "Script 📃" as script
+    participant "Locate@ 📃" as script
     participant "Chats 🪣" as table
-    participant "OnLocated 📃" as handler
+    participant "OnCreated 📃" as handler
 end box
 
-participant "Notifier 📣" as notifier
+participant "Graph 🕸" as graph
 
 'wallet --> script: Pop 🐌
 
 
 activate script
-    script -> table: SAVE 💾 {LOCATED}
-
+    script -> table: SAVE 💾 {CREATED}
+deactivate script
 
 activate table
-    table --> handler: INSERTED 🔔
+    table --> handler: CREATED 🔔
 deactivate table
 
 activate handler
-    handler --> notifier: SEND 📬 {Open 🐌}
+    handler -> graph: TRANSLATE 🈯
+    handler -> table: SAVE 💾 {DETAILED}
 deactivate handler
 
 @enduml 
