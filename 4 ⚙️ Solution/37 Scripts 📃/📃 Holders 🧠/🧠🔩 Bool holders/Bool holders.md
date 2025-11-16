@@ -34,17 +34,17 @@
 
     |Group| [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | Returns| Details 
     |-|-|-|-
-    |Assess| [`.IsEmpty`](<../🧠🔩 Any holders/any.IsEmpty2 🔩 ext.md>) |bool| Is it unset or missing?
+    |Assess| [`.IsEmpty`](<../🧠🔩 Any holders/any.IsEmpty 🔩 ext.md>) |bool| Is it unset or missing?
     |      | [`.IsNotEmpty`](<../🧠🔩 Any holders/any.IsNotEmpty 🔩 ext.md>) |bool| Has a value been provided?
     |Compare| [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) |bool| Is it the expected boolean?
-    |        | [`.IsNot`](<../🧠🔩 Any holders/🔩 {.IsNot}.md>) |bool| Is it the opposite value?
-    |        | [`.Equals`](<../🧠🔩 Any holders/🔩 {.Equals}.md>) |bool| Equal comparison alias for `.Is`
+    |        | [`.IsNot`](<../🧠🔩 Any holders/any.IsNot ext.md>) |bool| Is it the opposite value?
+    |        | [`.Equals`](<../🧠🔩 Any holders/any.Equals ext.md>) |bool| Equal comparison alias for `.Is`
     |        | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Differs}.md>) |bool| Not-equal alias for `.IsNot`
     |Lists  | [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>) |bool| Is it one of the accepted values?
     |Combine| [`.AllOf`](<../../📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 AllOf.md>) |bool| Are all of these booleans `true`?
     |       | [`.AnyOf`](<../../📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 AnyOf.md>) |bool| Is any of these booleans `true`?
     |       | [`.OneOf`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.OneOf}.md>) |bool| Is exactly one of them `true`?
-    |Default| [`.Default`](<../🧠🔩 Any holders/any.Default2 🔩 ext.md>) |bool| Substitute a fallback when empty
+    |Default| [`.Default`](<../🧠🔩 Any holders/any.Default 🔩 ext.md>) |bool| Substitute a fallback when empty
     
     ---
     <br/>
