@@ -28,11 +28,11 @@
     |       | [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>)       |bool| Is it in a given [Period 🧠 holder](<../🧠 Output holders/Period holders.md>)?
     |Assess   | [`.IsEmpty`](<../../📃 Functions 🐍/🐍🧠 Holder functions/🔩 {$holder.IsEmpty}.md>) |bool| Is it empty, i.e. no time given?
     |         | [`.IsNotEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNotEmpty}.md>) |bool| Is it not empty?
-    |Change | [`.Advance`](<../🧠🔩 Time extensions/Time.Advance 🔩 ext.md>) |[time](<🧠 Time holders.md>)| What if we add time?
-    |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) |[time](<🧠 Time holders.md>)| Same as [`.Advance`](<../🧠🔩 Time extensions/Time.Advance 🔩 ext.md>)Time 🧠 functions/🔩 .Advance.md
-    |       | [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Plus}.md>) |[time](<🧠 Time holders.md>)| Same as [`.Advance`](<../🧠🔩 Time extensions/Time.Advance 🔩 ext.md>)Time 🧠 functions/🔩 .Advance.md
-    |       | [`.GoBack`](<../🧠🔩 Time extensions/Time.GoBack 🔩 ext.md>) |[time](<🧠 Time holders.md>)| What if we remove time?
-    |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Minus}.md>)|[time](<🧠 Time holders.md>)| Same as [`.GoBack`](<../🧠🔩 Time extensions/Time.GoBack 🔩 ext.md>)Time 🧠 functions/🔩 .GoBack.md
+    |Change | [`.Advance`](<../🧠🔩 Time holders/Time.Advance 🔩 ext.md>) |[time](<🧠 Time holders.md>)| What if we add time?
+    |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) |[time](<🧠 Time holders.md>)| Same as [`.Advance`](<../🧠🔩 Time holders/Time.Advance 🔩 ext.md>)Time 🧠 functions/🔩 .Advance.md
+    |       | [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Plus}.md>) |[time](<🧠 Time holders.md>)| Same as [`.Advance`](<../🧠🔩 Time holders/Time.Advance 🔩 ext.md>)Time 🧠 functions/🔩 .Advance.md
+    |       | [`.GoBack`](<../🧠🔩 Time holders/Time.GoBack 🔩 ext.md>) |[time](<🧠 Time holders.md>)| What if we remove time?
+    |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Minus}.md>)|[time](<🧠 Time holders.md>)| Same as [`.GoBack`](<../🧠🔩 Time holders/Time.GoBack 🔩 ext.md>)Time 🧠 functions/🔩 .GoBack.md
   
 
     ---
