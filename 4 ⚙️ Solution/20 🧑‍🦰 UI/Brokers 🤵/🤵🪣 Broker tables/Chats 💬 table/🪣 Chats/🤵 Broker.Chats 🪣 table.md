@@ -26,6 +26,15 @@ Propagate:
 Children:
     Chatters: { Chatters.Chat: Chats.ID }
 
+Transitions:
+    ALTERED: OnChatChanges
+    CREATED: OnChatCreated
+    LOCATED: OnChatLocated
+    OPENED: OnChatOpened
+    PRESENTED: OnChatPresented
+    TERMINATED: OnChatTerminated
+    WRAPPED: OnChatWrapped
+
 Handlers:
     
     OnChatChanges:          # On insert, updated, delete
@@ -68,7 +77,7 @@ Handlers:
 
 | [Handler 🔔](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) | [Message 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
 |-|-
-|[`OnChatChanges` 📃](<../🪣🔔 OnChatAltered/🤵 OnChatAltered 📃 handler.md>) | [`Update@Notifier` 🅰️ ](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>)
+|[`OnChatChanges` 📃](<../🪣🔔 OnAltered/🤵 OnChatAltered 📃 handler.md>) | [`Update@Notifier` 🅰️ ](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>)
 
 
 ## Example
