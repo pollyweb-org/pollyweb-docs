@@ -277,17 +277,17 @@ def replace_async_message_token(md_files):
 
 
 # Hardcoded Sync Request(s) tokens
-SYNC_REQUESTS_REPLACEMENT = "[Sync Requests 🚀](<Sync Requests 🚀.md>)"
-@register_hardcoded("syncrequests", replacement=SYNC_REQUESTS_REPLACEMENT, token_label="Sync Requests")
+SYNC_REQUESTS_REPLACEMENT = "[Sync Calls 🚀](<Sync Calls 🚀.md>)"
+@register_hardcoded("synccalls", replacement=SYNC_REQUESTS_REPLACEMENT, token_label="Sync Calls")
 def replace_sync_requests_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Sync Requests`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Sync Calls`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
     return _replace_simple(md_files, pattern, SYNC_REQUESTS_REPLACEMENT)
 
 
-@register_hardcoded("syncrequest", replacement='[Sync Request 🚀](<Sync Requests 🚀.md>)', token_label="Sync Request")
+@register_hardcoded("syncrequest", replacement='[Sync Request 🚀](<Sync Calls 🚀.md>)', token_label="Sync Request")
 def replace_sync_request_token(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Sync Request`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, '[Sync Request 🚀](<Sync Requests 🚀.md>)')
+    return _replace_simple(md_files, pattern, '[Sync Request 🚀](<Sync Calls 🚀.md>)')
 
 
 @register_hardcoded("wallets", replacement=WALLETS_REPLACEMENT, token_label="Wallets")

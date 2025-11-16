@@ -30,9 +30,10 @@
     |-|-|-
     | `$context` | Optional input [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)  | `$p`
     |`To`| Destination domain | `any-broker.dom`
+    |    | Defaults to [`$.Hosted`](<../../../📃 Holders 🧠/🧠 System holders/$.Hosted 📦/📦 $.Hosted 🧠 holder.md>)`.Domain`
     | `Subject` | Message subject | `Unbound@Vault`
     | `{body}` | `Body` property dictionary  | `{A:1, B:2}`
-    | `$response` | Response [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) <br/> for [Synchronous Requests 🚀](<../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Sync Requests 🚀.md>) | `$r`
+    | `$response` | Response [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) <br/> for [Synchronous Calls 🚀](<../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Sync Calls 🚀.md>) | `$r`
 
     ---
     <br/>
@@ -109,6 +110,42 @@
             B: B
     ```
     Uses: [`CALL`](<../../⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`PUT`](<../../⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>)
+
+    ---
+    <br/>
+
+1. **Are the head and body really necessary?**
+
+    No, they can be omitted. 
+    * The properties `To` and `Subject` is assigned to the `Header`.
+    * Every other property is assumed to belong to the `Body`.
+
+    ```yaml
+    ┌────────────────────────────┬────────────────────────┐        
+    │ Comprehensive              │ Simplified             │        
+    ├────────────────────────────┼────────────────────────┤        
+    │ SEND >> $response:         │ SEND >> $response:     │
+    │   Header:                  │   To: any-domain.dom   │   
+    │       To: any-domain.dom   │   Subject: Any@Subject │
+    │       Subject: Any@Subject │   A: 1                 │
+    │   Body:                    │   B: 2                 │
+    │       A: 1                 │                        │
+    │       B: 2                 │                        │
+    └────────────────────────────┴────────────────────────┘        
+    ```
+    ---
+    <br/>
+   
+1. **How to send a request to it self?**
+
+    Omit the `To` property.
+
+    ```yaml
+    SEND >> $response:
+        Subject: Any@Role
+        A: 1
+        B: 2
+    ```
 
     ---
     <br/>
