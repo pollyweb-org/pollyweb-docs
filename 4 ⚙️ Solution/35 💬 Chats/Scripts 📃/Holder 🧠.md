@@ -26,7 +26,7 @@
     |[`Num`](<../../37 Scripts 📃/📃 Holders 🧠/🧠 Input holders/Num holders.md>) | Numbers for  math | `1` `1.03` `-1` `0`
     |[`List`](<../../37 Scripts 📃/📃 Holders 🧠/🧠 Input holders/List holders.md>) | Items in sequence | `[1, A, {X:9}]`
     |[`Map`][Map] | Key-value pairs | `{A:1, B:2}`
-    |[`Set`](<../../37 Scripts 📃/📃 Holders 🧠/🧠 Input holders/Set holders.md>)| [Maps][Map] sequence | `{A:1},{A:2}`
+    |[`Set`](<../../37 Scripts 📃/📃 Holders 🧠/🧠🔩 Set holders/Set holders.md>)| [Maps][Map] sequence | `{A:1},{A:2}`
 
     ---
     <br/>
