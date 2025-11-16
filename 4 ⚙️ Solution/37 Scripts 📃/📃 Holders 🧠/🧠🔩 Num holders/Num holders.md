@@ -48,8 +48,8 @@
     |Create | [`.Random`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Random}.md>) |[num][num]| Returns a random number
     |Change | [`.Sum`](<num.Sum 🔩 ext.md>) |[num][num]| Adds numbers
     |       | [`.Add`](<../🧠🔩 Any holders/any.Add 🔩 ext.md>) |[num][num]| Same as [`.Sum`](<num.Sum 🔩 ext.md>)
-    |       | [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Plus}.md>) |[num][num]| Same as [`.Sum`](<num.Sum 🔩 ext.md>) | What if we add numbers?
-    |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Minus}.md>) |[num][num]| Subtracts numbers
+    |       | [`.Plus`](<../🧠🔩 Any holders/🔩 {.Plus}.md>) |[num][num]| Same as [`.Sum`](<num.Sum 🔩 ext.md>) | What if we add numbers?
+    |       | [`.Minus`](<../🧠🔩 Any holders/🔩 {.Minus}.md>) |[num][num]| Subtracts numbers
     |       | [`.Times`](<num.Times 🔩 ext.md>) |[num][num]| Multiplies numbers
     |       | [`.Calculate`](<num.Calculate 🔩 ext.md>) |[num][num]| Calculates formulas
     |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) |[num][num]| Distance between 2 numbers
