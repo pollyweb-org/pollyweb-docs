@@ -32,7 +32,7 @@
     Group | [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) |Type| Purpose 
     |-|-|-|-
     |Query  | [`.Contains`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Contains}.md>) |bool| Contains a given item?
-    |       | [`.Equals`](<../Any 🧠 holders/.Equals 🔩 any.md>)   |bool| Has these items in this order?
+    |       | [`.Equals`](<../Any 🧠 holders/Equals ⓕ any.md>)   |bool| Has these items in this order?
     |       | [`.Differs`](<../Any 🧠 holders/.Differs 🔩 any.md>)  |bool| Does not equal this other list?
     |       | [`.Is`](<../Any 🧠 holders/.Is 🔩 any.md>)       |bool| Has these items in any order?
     |       | [`.IsNot`](<../Any 🧠 holders/.IsNot 🔩 any.md>)    |bool| Are any of these items missing?
@@ -45,7 +45,7 @@
     |       | [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>)   |[list][list], any| Get the last `n` items
     |       | [`.Distinct`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Distinct}.md>) |[list][list]| Return only unique items
     |Change | [`.Append`][.Append]     |[list][list]| Add items to the list
-    |       | [`.Add`](<../Any 🧠 holders/.Add 🔩 any.md>) |[list][list]| Same as [`.Append`][.Append]
+    |       | [`.Add`](<../Any 🧠 holders/Add ⓕ any.md>) |[list][list]| Same as [`.Append`][.Append]
     |       | [`.Remove`][.Remove]   |[list][list]| Remove items from the list
     |       | [`.Minus`](<../Any 🧠 holders/.Minus 🔩 any.md>) |[list][list]| Same as [`.Remove`][.Remove]
     |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) |[list][list]| Same as [`.Remove`][.Remove]
@@ -104,7 +104,7 @@
 
 1. **How to append into lists?**
 
-    Using the [`.Append`][.Append] or [`.Add` functions](<../Any 🧠 holders/.Add 🔩 any.md>) with [`CALL`](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>).
+    Using the [`.Append`][.Append] or [`.Add` functions](<../Any 🧠 holders/Add ⓕ any.md>) with [`CALL`](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>).
     
     ```yaml   
     ┌────────────────────────┬─────────────┐
@@ -125,7 +125,7 @@
     # Results in [A,B]    
     ```
 
-    Here's a alternative syntax using the [`.Add` function](<../Any 🧠 holders/.Add 🔩 any.md>) in a [Holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>).
+    Here's a alternative syntax using the [`.Add` function](<../Any 🧠 holders/Add ⓕ any.md>) in a [Holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>).
 
     ```yaml
     📃 Example:
@@ -139,7 +139,7 @@
 
 1. **How to merge two lists?**
 
-    Using the [`.Append`][.Append] or [`.Add` functions](<../Any 🧠 holders/.Add 🔩 any.md>) with the [`.Evaluate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) syntax.
+    Using the [`.Append`][.Append] or [`.Add` functions](<../Any 🧠 holders/Add ⓕ any.md>) with the [`.Evaluate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) syntax.
 
     ```yaml   
     ┌────────────────────┬──────────────┐
