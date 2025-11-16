@@ -2,7 +2,7 @@
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
-> Used by [`.Add`](<🔩 {.Add}.md>) and [`.Plus`](<🔩 {.Plus}.md>)
+> Used by [`.Add`](<../🐍 System 🔩 functions/🔩 {.Add}.md>) and [`.Plus`](<../🐍 System 🔩 functions/🔩 {.Plus}.md>)
 
 ## FAQ
 
@@ -10,7 +10,7 @@
 
     `{.Sum}` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that adds numbers and [`.Calculate`](<🔩 {.Calculate}.md>) formulas
+    * that adds numbers and [`.Calculate`](<{Num.Calculate}.md>) formulas
     * to an original [Num 🧠 holder](<../../📃 Holders 🧠/🧠 Input holders/Num holders.md>).
 
     ---
@@ -26,7 +26,7 @@
     |-|-|-
     | `original` | Original number | `9`
     | `additional` | Number(s) to add | `1` `1,2,3`
-    |               | or [`.Calculate`](<🔩 {.Calculate}.md>) formula | `5%` `2x` `1/3`
+    |               | or [`.Calculate`](<{Num.Calculate}.md>) formula | `5%` `2x` `1/3`
     
     ---
     <br/>

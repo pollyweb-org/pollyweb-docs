@@ -38,7 +38,7 @@
     │                        │   │   Key: $order.ID  │
     └────────────────────────┘   └───────────────────┘    
     ```
-    Uses: [`READ`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`SAVE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`.Today`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Today}.md>)
+    Uses: [`READ`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`SAVE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`.Today`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍🧠 Time functions/🔩 {.Today}.md>)
 
     ---
     <br/>
