@@ -1,9 +1,9 @@
 # 😃🔩 Talker `{.Random}` function
 
-> Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
+> Part of [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
 > Purpose
-* Returns a random [Num 🧠 holder](<../../📃 Holders 🧠/Num 📚 holders/🧠 Num holders.md>).
+* Returns a random [Num 🧠 holder](<../../../📃 Holders 🧠/Num 📚 holders/🧠 Num holders.md>).
 
 ## FAQ
 

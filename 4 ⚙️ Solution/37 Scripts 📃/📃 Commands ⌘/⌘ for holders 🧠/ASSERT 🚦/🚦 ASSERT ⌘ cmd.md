@@ -69,7 +69,7 @@
 
 1. **What's the syntax for boolean assertions?**
 
-    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Evaluate ⓕ.md>) syntax.
+    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/parsers/Evaluate ⓕ.md>) syntax.
 
     ```yaml
     ASSERT|$object:
@@ -80,7 +80,7 @@
     
     | Input| Purpose | Examples
     |-|-|-
-    | `$object`| Optional initial context | [`$.Msg`](<../../../📃 Holders 🧠/🧠 System holders/$.Msg 📨/📨 $.Msg 🧠 holder.md>) [`.Inputs`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Inputs ⓕ.md>)
+    | `$object`| Optional initial context | [`$.Msg`](<../../../📃 Holders 🧠/🧠 System holders/$.Msg 📨/📨 $.Msg 🧠 holder.md>) [`.Inputs`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/scripts/Inputs ⓕ.md>)
     | `<key>` | Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/assert/Assert ⓕ.md>) a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | `From` `$A` [`$lst.A`](<../../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)
     | `.f(?)`| Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/assert/Assert ⓕ.md>) a [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)  | [`.IsIn`](<../../../📃 Holders 🧠/Any 📚 holders/IsIn ⓕ any.md>)`(A,B)`
     | `:<val>` | Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/assert/Assert ⓕ.md>) with  [`.Is`](<../../../📃 Holders 🧠/Any 📚 holders/Is ⓕ any.md>) | `:any-domain.dom`

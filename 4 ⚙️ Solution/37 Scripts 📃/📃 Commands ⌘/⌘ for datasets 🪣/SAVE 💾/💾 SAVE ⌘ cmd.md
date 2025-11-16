@@ -19,7 +19,7 @@
 
 1. **What's the syntax of an insert SAVE?**
 
-    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Evaluate ⓕ.md>) syntax.
+    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/parsers/Evaluate ⓕ.md>) syntax.
     
     ```yaml
     # Single item
@@ -183,7 +183,7 @@
                 Now.Add(30 days)
     ```
 
-    Uses: [`.Lower`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Lower ⓕ.md>) [`.Now`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/time/Now ⓕ.md>) [`.Add`](<../../../📃 Holders 🧠/Any 📚 holders/Add ⓕ any.md>) 
+    Uses: [`.Lower`](<../../../📃 Holders 🧠/List 📚 holders/Lower ⓕ.md>) [`.Now`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/time/Now ⓕ.md>) [`.Add`](<../../../📃 Holders 🧠/Any 📚 holders/Add ⓕ any.md>) 
 
     ---
     <br/>

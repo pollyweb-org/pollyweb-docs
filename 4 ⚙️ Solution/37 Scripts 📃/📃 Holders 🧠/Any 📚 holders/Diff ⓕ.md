@@ -17,9 +17,9 @@
 
     |Type| Behavior
     |-|-
-    | [Texts 🧠](<../Text 📚 holders/🧠 Text holders.md>) | Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Remove ⓕ.md>) 
-    | [Lists 🧠](<../List 📚 holders/🧠 List holders.md>) | Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Remove ⓕ.md>) 
-    | [Maps 🧠](<../Map 📚 holders/🧠 Map holders.md>) | Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Remove ⓕ.md>)
+    | [Texts 🧠](<../Text 📚 holders/🧠 Text holders.md>) | Same as [`.Remove`](<Remove ⓕ.md>) 
+    | [Lists 🧠](<../List 📚 holders/🧠 List holders.md>) | Same as [`.Remove`](<Remove ⓕ.md>) 
+    | [Maps 🧠](<../Map 📚 holders/🧠 Map holders.md>) | Same as [`.Remove`](<Remove ⓕ.md>)
     | [Num 🧠](<../Num 📚 holders/🧠 Num holders.md>) | Returns the distance between numbers
     | [Time 🧠](<../Time 📚 holders/🧠 Time holders.md>) | Returns the [Period 🧠](<../🧠 Output holders/Period holders.md>) between timestamps
     

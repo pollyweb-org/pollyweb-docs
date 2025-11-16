@@ -4,7 +4,7 @@
 
 > Purpose
 * Counts back from a starting point.
-* For [List 🧠 holders](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>), it's the opposite of [`.First`](<../../📃 Functions 🐍/🐍 System 🔩 functions/First ⓕ.md>)
+* For [List 🧠 holders](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>), it's the opposite of [`.First`](<First ⓕ.md>)
 * For [Period 🧠 holders](<../../📃 Holders 🧠/🧠 Output holders/Period holders.md>), it's similar but not the same as [`.This`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/This ⓕ.md>) and [`.Previous`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/Previous ⓕ.md>)
 
 > Used by [`SELECT`](<../../📃 Commands ⌘/⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>)
