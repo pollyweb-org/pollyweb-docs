@@ -8,14 +8,14 @@
 
     |Group| [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | Returns| Details 
     |-|-|-|-
-    | Assess| [`.IsEmpty`](<../🧠🔩 Any holders/any.IsEmpty2 🔩 ext.md>) | bool | Is it an empty text?
+    | Assess| [`.IsEmpty`](<../🧠🔩 Any holders/any.IsEmpty 🔩 ext.md>) | bool | Is it an empty text?
     |       | [`.IsNotEmpty`](<../🧠🔩 Any holders/any.IsNotEmpty 🔩 ext.md>) | bool | Is it text, not just spaces?
     |Bounds | [`.IsAbove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsAbove}.md>) | bool | Is it after in alphabetical order?
     |       | [`.IsBelow`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsBelow}.md>) | bool | Is it before in alphabetical order?
     |       | [`.IsBetween`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsBetween}.md>) | bool | Is it between in alphabetical order?
     |Compare| [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) | bool | Does it have the same meaning?
-    |       | [`.IsNot`](<../🧠🔩 Any holders/🔩 {.IsNot}.md>) | bool | Does it have another meaning?
-    |       | [`.Equals`](<../🧠🔩 Any holders/🔩 {.Equals}.md>) | bool | Is it exactly the same string of chars?
+    |       | [`.IsNot`](<../🧠🔩 Any holders/any.IsNot ext.md>) | bool | Does it have another meaning?
+    |       | [`.Equals`](<../🧠🔩 Any holders/any.Equals ext.md>) | bool | Is it exactly the same string of chars?
     |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Differs}.md>) | bool | Is it a different string of chars?
     |Lists  | [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>) |bool| Is it in a given list of texts?
     |Chars| [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Length}.md>) |[num][num]| How many chars does it contain?
@@ -24,7 +24,7 @@
     |       | [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>) |[text][text]| What's the last char?
     |       | [`.Contains`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Contains}.md>) |bool| Does it contain a given char?
     |Change | [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>) |[text][text]| What we append the given string?
-    |       | [`.Add`](<../🧠🔩 Any holders/🔩 {.Add}.md>) |[text][text]| Same as [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>)
+    |       | [`.Add`](<../🧠🔩 Any holders/any.Add ext.md>) |[text][text]| Same as [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>)
     |       | [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Plus}.md>) |[text][text]| Same as [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>)
     |       | [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>) |[text][text]| What if we remove the given string?
     |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Minus}.md>) |[text][text]| Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>)
