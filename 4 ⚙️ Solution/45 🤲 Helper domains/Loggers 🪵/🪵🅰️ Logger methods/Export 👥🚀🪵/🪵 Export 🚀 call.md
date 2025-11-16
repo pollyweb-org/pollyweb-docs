@@ -36,7 +36,7 @@ Body:
 | Body      | `Thread`     | uuid    | Optional Thread ID | [`Log@`](<../Log 👥🐌🪵/🪵 Log 🐌 msg.md>)
 |         | `Groups`    | string[]  | Optional groups | [`Log@`](<../Log 👥🐌🪵/🪵 Log 🐌 msg.md>)
 |         | `Blame`     | string    | Optional script name | [`Log@`](<../Log 👥🐌🪵/🪵 Log 🐌 msg.md>)
-|         | `Period`    | string    | [`.Minus`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Minus}.md>) time period | [`Log@`](<../Log 👥🐌🪵/🪵 Log 🐌 msg.md>)
+|         | `Period`    | string    | [`.Minus`](<../../../../37 Scripts 📃/📃 Holders 🧠/🧠🔩 Any holders/🔩 {.Minus}.md>) time period | [`Log@`](<../Log 👥🐌🪵/🪵 Log 🐌 msg.md>)
 |         | `Interval`  | string[]  | Start and end times | [`Log@`](<../Log 👥🐌🪵/🪵 Log 🐌 msg.md>)
 |
 

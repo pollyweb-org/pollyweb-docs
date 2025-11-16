@@ -38,7 +38,7 @@
     |       | [`.IsNot`](<../🧠🔩 Any holders/any.IsNot 🔩 ext.md>)    |bool| Are any of these items missing?
     |Size   | [`.IsEmpty`](<../🧠🔩 Any holders/any.IsEmpty 🔩 ext.md>)  | bool| Is empty?
     |       | [`.IsOne`](<list.IsOne 🔩 ext.md>)    | bool| Has only one item?
-    |       | [`.AreMany`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.AreMany}.md>)  | bool| Has more than one item?
+    |       | [`.AreMany`](<🔩 {.AreMany}.md>)  | bool| Has more than one item?
     |       | [`.Size`][.Size]     | [num][num]| Returns the number of items
     |       | [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Length}.md>)   |  [num][num]| Equals [`.Size`][.Size]
     |Read   | [`.First`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.First}.md>)   |[list][list], any| Get the first `n` items
@@ -47,7 +47,7 @@
     |Change | [`.Append`][.Append]     |[list][list]| Add items to the list
     |       | [`.Add`](<../🧠🔩 Any holders/any.Add 🔩 ext.md>) |[list][list]| Same as [`.Append`][.Append]
     |       | [`.Remove`][.Remove]   |[list][list]| Remove items from the list
-    |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Minus}.md>) |[list][list]| Same as [`.Remove`][.Remove]
+    |       | [`.Minus`](<../🧠🔩 Any holders/🔩 {.Minus}.md>) |[list][list]| Same as [`.Remove`][.Remove]
     |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) |[list][list]| Same as [`.Remove`][.Remove]
     
     
@@ -162,7 +162,7 @@
 
 1. **How to filter a list?**
 
-    Using the [`.Filter` function](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Filter}.md>) or the [`FILTER` command](<../../📃 Commands ⌘/⌘ for holders 🧠/FILTER 🔽/🔽 FILTER ⌘ cmd.md>).
+    Using the [`.Filter` function](<../🧠🔩 Set holders/🔩 {.Filter}.md>) or the [`FILTER` command](<../../📃 Commands ⌘/⌘ for holders 🧠/FILTER 🔽/🔽 FILTER ⌘ cmd.md>).
 
     ```yaml   
     ┌───────────────────────────┬──────────────────────┐

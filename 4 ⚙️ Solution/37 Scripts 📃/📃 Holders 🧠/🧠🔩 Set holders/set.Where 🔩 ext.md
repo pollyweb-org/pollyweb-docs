@@ -3,4 +3,4 @@
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
 > Purpose
-* Alias of [`.Filter`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Filter}.md>) for [Set 🧠 holders](<Set holders.md>)
+* Alias of [`.Filter`](<🔩 {.Filter}.md>) for [Set 🧠 holders](<Set holders.md>)
