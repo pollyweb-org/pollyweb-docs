@@ -32,7 +32,7 @@
 
     Input | Behavior
     |-|-
-    |[`Num` 🧠](<../🧠🔩 Num holders/Num holders.md>) | Same as [`.Sum`](<../🧠🔩 Num holders/num.Sum 🔩 ext.md>) 
+    |[`Num` 🧠](<../🧠🔩 Num holders/Num holders.md>) | Same as [`.Sum`](<../🧠🔩 Num holders/.Sum 🔩 num.md>) 
     |[`Time` 🧠](<../🧠🔩 Time holders/Time holders.md>) | Same as [`.Advance`](<../🧠🔩 Time holders/time.Advance 🔩 ext.md>) 
     |[`List` 🧠](<../🧠🔩 List holders/List holders.md>) | Same as [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>) 
     |[`Text` 🧠](<../🧠🔩 Text holders/Text holders.md>) | Same as [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>) 
