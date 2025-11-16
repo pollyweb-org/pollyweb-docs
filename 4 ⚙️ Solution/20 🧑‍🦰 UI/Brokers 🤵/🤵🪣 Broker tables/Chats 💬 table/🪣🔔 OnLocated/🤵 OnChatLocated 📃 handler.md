@@ -26,10 +26,10 @@
         Hook: $chat.Hook
         Chat: $chat.ID
         PrivateKey: $chat.PrivateKey
-        Host: $chat.Host.Name
-        Host$: $chat.Host.Title
-        SmallIcon: $chat.Host.SmallIcon
-        BigIcon: $chat.Host.BigIcon
+        Host: $chat.Host
+        HostTitle: $chat.HostTitle
+        SmallIcon: $chat.SmallIcon
+        BigIcon: $chat.BigIcon
 ```
 
 

@@ -21,7 +21,7 @@ Body:
     Chat: <chat-uuid>
     PrivateKey: <private-key>
     Host: another-domain.dom
-    Host$: Any Other Domain, Inc.
+    HostTitle: Any Other Domain, Inc.
     SmallIcon: <base64>
     BigIcon: <base46>
 ```

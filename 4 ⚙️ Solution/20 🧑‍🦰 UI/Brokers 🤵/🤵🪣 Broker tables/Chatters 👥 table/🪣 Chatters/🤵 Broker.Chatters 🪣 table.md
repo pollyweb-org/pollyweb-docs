@@ -75,14 +75,16 @@ Tokens:
 
 Property|Type|Details|Origin|Purpose
 |-|-|-|-|-
-|`Role`|text|Role in [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)|-|[`Chat@`](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 call.md>) [`Prompt@`](<../../../🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
+|`Role`|text|Role in [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)|-|[`Chat@`][Chat@] [`Prompt@`](<../../../🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
 | ||- `HOST` role | [`Locate@`](<../../../🤵🅰️ Broker methods/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>) | -
 | ||- `HELPER` role | [`Invite@`](<../../../🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>) | -
 | ||- `VAULT` role | [`Query@`](<../../../🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) |-
-|`Chat`|uuid|[Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID | -|[`Chat@`](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 call.md>)
-|`Domain`|text|[domain 👥](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name|-|[`Chat@`](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 call.md>)
-|`Key`| text | [Locator 🔆](<../../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) key |-| [`Chat@`](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 call.md>) |
-|`Parameters` | map | [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) parameters |-| [`Chat@`](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 call.md>)
-|`Binds`|list| [Binds 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) shared | - | [`Chat@`](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 call.md>)
+|`Chat`|uuid|[Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID | -|[`Chat@`][Chat@]
+|`Domain`|text|[domain 👥](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name|-|[`Chat@`][Chat@]
+|`Key`| text | [Locator 🔆](<../../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) key |-| [`Chat@`][Chat@] |
+|`Parameters` | map | [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) parameters |-| [`Chat@`][Chat@]
+|`Binds`|list| [Binds 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) shared | - | [`Chat@`][Chat@]
 |`Tokens` | list | [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) shared |- | [`Presented@`](<../../../🤵🅰️ Broker methods/Chats 💬 Presented 🔎🐌🤵/🤵 Presented 🐌 msg.md>)
 |
+
+[Chat@]: <../../../🤵🅰️ Broker methods/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 📃 handler.md>

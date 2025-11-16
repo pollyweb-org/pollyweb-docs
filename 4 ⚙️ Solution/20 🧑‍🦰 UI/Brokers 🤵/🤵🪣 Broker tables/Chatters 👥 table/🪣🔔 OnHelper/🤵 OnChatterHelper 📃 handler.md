@@ -17,7 +17,7 @@
 # Rename for legibility
 - PUT|$Item >> $chatter
 - PUT|$Item.Chat >> $chat
-- PUT|$Chat.Wallet >> $wallet
+- PUT|$Item.Chat.Wallet >> $wallet
 
 # Invite the helper to the chat
 - SEND:
