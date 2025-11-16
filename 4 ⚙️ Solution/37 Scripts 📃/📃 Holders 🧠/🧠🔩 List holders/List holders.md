@@ -32,10 +32,10 @@
     Group | [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) |Type| Purpose 
     |-|-|-|-
     |Query  | [`.Contains`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Contains}.md>) |bool| Contains a given item?
-    |       | [`.Equals`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Equals}.md>)   |bool| Has these items in this order?
+    |       | [`.Equals`](<../🧠🔩 Any holders/🔩 {.Equals}.md>)   |bool| Has these items in this order?
     |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Differs}.md>)  |bool| Does not equal this other list?
     |       | [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>)       |bool| Has these items in any order?
-    |       | [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNot}.md>)    |bool| Are any of these items missing?
+    |       | [`.IsNot`](<../🧠🔩 Any holders/🔩 {.IsNot}.md>)    |bool| Are any of these items missing?
     |Size   | [`.IsEmpty`](<../🧠🔩 Any holders/Any.IsEmpty 🔩 ext.md>)  | bool| Is empty?
     |       | [`.IsOne`](<List.IsOne 🔩 ext.md>)    | bool| Has only one item?
     |       | [`.AreMany`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.AreMany}.md>)  | bool| Has more than one item?
@@ -139,7 +139,7 @@
 
 1. **How to merge two lists?**
 
-    Using the [`.Append`][.Append] or [`.Add` functions](<../🧠🔩 Any holders/🔩 {.Add}.md>) with the [`.Evaluate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 {.Evaluate}.md>) syntax.
+    Using the [`.Append`][.Append] or [`.Add` functions](<../🧠🔩 Any holders/🔩 {.Add}.md>) with the [`.Evaluate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) syntax.
 
     ```yaml   
     ┌────────────────────┬──────────────┐

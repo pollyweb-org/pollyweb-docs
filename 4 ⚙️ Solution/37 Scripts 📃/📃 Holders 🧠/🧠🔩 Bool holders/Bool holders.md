@@ -35,10 +35,10 @@
     |Group| [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | Returns| Details 
     |-|-|-|-
     |Assess| [`.IsEmpty`](<../🧠🔩 Any holders/Any.IsEmpty 🔩 ext.md>) |bool| Is it unset or missing?
-    |      | [`.IsNotEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNotEmpty}.md>) |bool| Has a value been provided?
+    |      | [`.IsNotEmpty`](<../🧠🔩 Any holders/🔩 {.IsNotEmpty}.md>) |bool| Has a value been provided?
     |Compare| [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) |bool| Is it the expected boolean?
-    |        | [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNot}.md>) |bool| Is it the opposite value?
-    |        | [`.Equals`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Equals}.md>) |bool| Equal comparison alias for `.Is`
+    |        | [`.IsNot`](<../🧠🔩 Any holders/🔩 {.IsNot}.md>) |bool| Is it the opposite value?
+    |        | [`.Equals`](<../🧠🔩 Any holders/🔩 {.Equals}.md>) |bool| Equal comparison alias for `.Is`
     |        | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Differs}.md>) |bool| Not-equal alias for `.IsNot`
     |Lists  | [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>) |bool| Is it one of the accepted values?
     |Combine| [`.AllOf`](<../../📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 AllOf.md>) |bool| Are all of these booleans `true`?

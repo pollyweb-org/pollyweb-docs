@@ -37,11 +37,11 @@
     | [{Function} 🐍](<Function 🐍.md>) | Purpose
     |-|-|
     | [`.IsEmpty`](<../../37 Scripts 📃/📃 Holders 🧠/🧠🔩 Any holders/Any.IsEmpty 🔩 ext.md>) | Is it empty?
-    | [`.IsNotEmpty`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNotEmpty}.md>) | Is not empty?
-    | [`.Equals`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Equals}.md>) | Is it the same content?
+    | [`.IsNotEmpty`](<../../37 Scripts 📃/📃 Holders 🧠/🧠🔩 Any holders/🔩 {.IsNotEmpty}.md>) | Is not empty?
+    | [`.Equals`](<../../37 Scripts 📃/📃 Holders 🧠/🧠🔩 Any holders/🔩 {.Equals}.md>) | Is it the same content?
     | [`.Differs`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Differs}.md>) | Is it a different content?
     | [`.Is`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) | Is it the same meaning?
-    | [`.IsNot`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNot}.md>) | Is it a different meaning?
+    | [`.IsNot`](<../../37 Scripts 📃/📃 Holders 🧠/🧠🔩 Any holders/🔩 {.IsNot}.md>) | Is it a different meaning?
     | [`.Assert`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 Assert.md>)  | Is the assertion valid?
     | [`.AllOf`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 AllOf.md>) | Are all assertions valid?
     | [`.AnyOf`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 AnyOf.md>) | Is any assertion valid?
