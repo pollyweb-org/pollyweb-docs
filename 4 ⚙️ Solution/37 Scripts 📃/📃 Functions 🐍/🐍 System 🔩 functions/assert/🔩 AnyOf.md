@@ -4,7 +4,7 @@
 
 > Used by [`ASSERT`](<../../../📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>)
 
-> Similar to [`.AllOf`](<🔩 AllOf.md>) [`.OneOf`](<../🔩 {.OneOf}.md>)
+> Similar to [`.AllOf`](<🔩 AllOf.md>) [`.OneOf`](<🔩 {.OneOf}.md>)
 
 ## FAQ
 
