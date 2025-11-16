@@ -4,7 +4,7 @@
 
 > Used by [`ASSERT`](<../../../📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>)
 
-> Similar to [`.AnyOf`](<🔩 {.AnyOf}.md>) [`.OneOf`](<../🔩 {.OneOf}.md>)
+> Similar to [`.AnyOf`](<🔩 AnyOf.md>) [`.OneOf`](<../🔩 {.OneOf}.md>)
 
 ## FAQ
 
@@ -12,7 +12,7 @@
 
     `{.AllOf}` 
     * is a [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that returns `True` if all of the given assertions return [`.Assert`](<🔩 {.Assert}.md>)
+    * that returns `True` if all of the given assertions return [`.Assert`](<🔩 Assert.md>)
     * or `False` otherwise.
 
     ---
@@ -26,7 +26,7 @@
    
     Input | Purpose
     |-|-
-    | `assertions...` | [List 🧠](<../../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>) of assertions for [`.Assert`](<🔩 {.Assert}.md>)
+    | `assertions...` | [List 🧠](<../../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>) of assertions for [`.Assert`](<🔩 Assert.md>)
 
 
     ---
