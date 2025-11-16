@@ -1,4 +1,4 @@
-# 😃🔩 Talker `{.Format}` function
+# 😃🔩 Talker `{$set.Format}` function
 
 > Part of [{Function} 🐍][Function]
 
