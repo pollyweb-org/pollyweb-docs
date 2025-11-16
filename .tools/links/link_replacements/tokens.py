@@ -618,7 +618,7 @@ def replace_set_tokens(md_files):
     return total
 
 
-@register_hardcoded("num", replacement="[Num 🧠 holder](<Num holders.md>)|[num](<Num holders.md>)", token_label="Num")
+@register_hardcoded("num", replacement="[Num 🧠 holder](<🧠 Num holders.md>)|[num](<🧠 Num holders.md>)", token_label="Num")
 def replace_num_tokens(md_files):
     """Replace {{Num}}/{{num}} tokens while preserving link text casing."""
 
@@ -646,7 +646,7 @@ def replace_num_tokens(md_files):
                 return match.group(0)
 
             token_value = match.group(1)
-            replacement = "[num](<Num holders.md>)" if token_value.islower() else "[Num 🧠 holder](<Num holders.md>)"
+            replacement = "[num](<🧠 Num holders.md>)" if token_value.islower() else "[Num 🧠 holder](<🧠 Num holders.md>)"
             changes += 1
             return replacement
 
@@ -724,7 +724,7 @@ _GEN_BASIC = [
     ("replace_placeholders_tokens", "Placeholders", "placeholders", "[Placeholders 🧠](<Holder 🧠.md>)", "Placeholders"),
     ("replace_lists_tokens", "Lists", "lists", "[List 🧠 holders](<List holders.md>)", "Lists"),
     ("replace_sets_tokens", "Sets", "sets", "[Set 🧠 holders](<🧠 Set holders.md>)", "Sets"),
-    ("replace_nums_tokens", "Nums", "nums", "[Num 🧠 holders](<Num holders.md>)", "Nums"),
+    ("replace_nums_tokens", "Nums", "nums", "[Num 🧠 holders](<🧠 Num holders.md>)", "Nums"),
     ("replace_bind_tokens", "Bind", "bind", "[Bind 🔗](<🔗 Bind.md>)", "Bind"),
     ("replace_binds_tokens", "Binds", "binds", "[Binds 🔗](<🔗 Bind.md>)", "Binds"),
     ("replace_locator_tokens", "Locator", "locator", "[Locator 🔆](<🔆 Locator.md>)", "Locator"),
@@ -742,7 +742,7 @@ _GEN_BASIC = [
     ("replace_times_tokens", "Times", "times", "[Time 🧠 holders](<🧠 Time holders.md>)", "Times"),
     ("replace_period_tokens", "Period", "period", "[Period 🧠 holder](<Period holders.md>)", "Period"),
     ("replace_periods_tokens", "Periods", "periods", "[Period 🧠 holders](<Period holders.md>)", "Periods"),
-    ("replace_nums_tokens", "Nums", "nums", "[Num 🧠 holders](<Num holders.md>)", "Nums"),
+    ("replace_nums_tokens", "Nums", "nums", "[Num 🧠 holders](<🧠 Num holders.md>)", "Nums"),
     ("replace_command_tokens", "Command", "command", COMMAND_REPLACEMENT, "Command"),
     ("replace_commands_tokens", "Commands", "commands", COMMANDS_REPLACEMENT, "Commands"),
     ("replace_script_tokens", "Script", "script", SCRIPT_REPLACEMENT, "Script"),

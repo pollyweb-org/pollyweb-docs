@@ -37,8 +37,8 @@
     |       | [`.Is`](<../🧠🔩 Any holders/.Is 🔩 any.md>)       |bool| Has these items in any order?
     |       | [`.IsNot`](<../🧠🔩 Any holders/.IsNot 🔩 any.md>)    |bool| Are any of these items missing?
     |Size   | [`.IsEmpty`](<../🧠🔩 Any holders/.IsEmpty 🔩 any.md>)  | bool| Is empty?
-    |       | [`.IsOne`](<.IsOne 🔩 list.md>)    | bool| Has only one item?
-    |       | [`.AreMany`](<.AreMany 🔩 list.md>)  | bool| Has more than one item?
+    |       | [`.IsOne`](<IsOne ⓕ list.md>)    | bool| Has only one item?
+    |       | [`.AreMany`](<AreMany ⓕ list.md>)  | bool| Has more than one item?
     |       | [`.Size`][.Size]     | [num][num]| Returns the number of items
     |       | [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Length}.md>)   |  [num][num]| Equals [`.Size`][.Size]
     |Read   | [`.First`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.First}.md>)   |[list][list], any| Get the first `n` items
