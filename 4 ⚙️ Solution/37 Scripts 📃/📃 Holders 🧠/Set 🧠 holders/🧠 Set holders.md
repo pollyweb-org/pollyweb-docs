@@ -7,7 +7,7 @@
 1. **What are Set holders?**
 
     `Set` holders 
-    * are [List 🧠 holders](<../🧠🔩 List holders/List holders.md>) that contain [Maps 🧠][map]
+    * are [List 🧠 holders](<../List 🧠 holders/List holders.md>) that contain [Maps 🧠][map]
         * e.g. `[{A:11,B:12}, {A:21,B:22}]`
     * typically representing a collection of similar objects
         * e.g. an [Itemized 🛢 dataset](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>), [`SELECT`](<../../📃 Commands ⌘/⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>)
@@ -29,7 +29,7 @@
     |Change | [`Set.Sort`](<Sort ⓕ set.md>) | [set][set] | Sort [Maps 🧠][map] by key
     || [`.Format`](<Format ⓕ set.md>) | [set][set] | Select and rename [Map 🧠][map] keys
     ||[`.Append`][.Append]     |[set][set]| Add items to the list
-    |       | [`.Add`](<../🧠🔩 Any holders/.Add 🔩 any.md>) |[set][set]| Same as [`.Append`][.Append]
+    |       | [`.Add`](<../Any 🧠 holders/.Add 🔩 any.md>) |[set][set]| Same as [`.Append`][.Append]
 
     ---
     <br/>

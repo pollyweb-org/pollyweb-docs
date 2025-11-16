@@ -58,7 +58,7 @@
     - ASSERT:
         - $date.IsIn(.Previous(month))
     ```
-    Uses: [`.IsIn`](<../../../📃 Holders 🧠/🧠🔩 Any holders/.IsIn 🔩 any.md>)
+    Uses: [`.IsIn`](<../../../📃 Holders 🧠/Any 🧠 holders/.IsIn 🔩 any.md>)
 
     ---
     <br/>
