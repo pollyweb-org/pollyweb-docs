@@ -26,7 +26,7 @@
     ||[`.Filter`][.Filter] | [set][set] | Return [Maps 🧠][map] that match a given filter
     ||[`.Where`](<Set.Where 🔩 ext.md>) | [set][set] | Equals [`.Filter`][.Filter]
     |Merge| [`.Cross`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Cross}.md>) | [set][set] | Cross multiple [Set 🧠 holders][set]
-    |Change | [`.Sort`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Sort}.md>) | [set][set] | Sort [Maps 🧠][map] by key
+    |Change | [`Set.Sort`](<Set.Sort 🔩 ext.md>) | [set][set] | Sort [Maps 🧠][map] by key
     || [`.Format`](<Set.Format 🔩 ext.md>) | [set][set] | Select and rename [Map 🧠][map] keys
     ||[`.Append`][.Append]     |[set][set]| Add items to the list
     |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) |[set][set]| Same as [`.Append`][.Append]
