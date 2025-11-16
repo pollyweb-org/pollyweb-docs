@@ -23,7 +23,7 @@
 
     Inputs|Type|Details | Example
     |-|-|-|-
-    |`$set`| [Set 🧠](<Set holders.md>) | Items to be filtered | `{A:1},{A:2}`
+    |`$set`| [Set 🧠](<🧠 Set holders.md>) | Items to be filtered | `{A:1},{A:2}`
     |`filters...`| list | Boolean evaluations | `A.Is(2)` `A:2`
 
     ---
@@ -31,7 +31,7 @@
 
 1. **What are example outputs?**
 
-    ||Input [Set 🧠](<Set holders.md>)|Input filter|Output
+    ||Input [Set 🧠](<🧠 Set holders.md>)|Input filter|Output
     |-|-|-|-
     || `[]` | `A:1` | `[]`
     || `{A:1}` | `[]` | 🚫 Blocked
