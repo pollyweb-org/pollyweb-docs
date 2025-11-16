@@ -33,23 +33,9 @@
     Set: Broker.Chats
     Key: $.Msg.Chat
 
-# Load the chat
-- CHAT|$chat
-
-# If there's an origin, allow going back
-- IF|$chat.Origin:
-    INFO:
-        Text: From another chat
-        Options: 
-          - /Return to original chat § .CHAT,{$chat.Origin}
-    
-# If tokens were shared, inform the user
-- IF|$chat.Tokens:
-    INFO:
-        Text: Tokens shared
-        Details: ´$chat.Tokens.Title.Markdown´
-
-- 
+# Process the Chat state
+- SAVE|$chat:
+    .Status: PRESENTED
 ```
 
 Uses||
