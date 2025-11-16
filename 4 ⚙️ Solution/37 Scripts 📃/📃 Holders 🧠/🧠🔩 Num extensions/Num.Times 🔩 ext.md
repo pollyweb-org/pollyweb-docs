@@ -8,7 +8,7 @@
 
     `{.Times}` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that multiplies a [Num 🧠 holder](<../../📃 Holders 🧠/🧠 Input holders/Num holders.md>) by a number.
+    * that multiplies a [Num 🧠 holder](<../🧠 Input holders/Num holders.md>) by a number.
 
     ---
     <br/>
