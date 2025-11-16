@@ -396,15 +396,15 @@ Successful Tests:
   # 🧠 Text holder
   - Given: '{{text}}'
     LinkText: "text"
-    LinkFile: "Text holders.md"
+    LinkFile: "🧠 Text holders.md"
     Reasons: This is hardcoded.
   - Given: '{{Text}}'
     LinkText: "Text 🧠 holder"
-    LinkFile: "Text holders.md"
+    LinkFile: "🧠 Text holders.md"
     Reasons: This is hardcoded.
   - Given: '{{Texts}}'
     LinkText: "Text 🧠 holders"
-    LinkFile: "Text holders.md"
+    LinkFile: "🧠 Text holders.md"
     Reasons: This is hardcoded.
 
   # 🧠 Time holder

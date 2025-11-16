@@ -530,7 +530,7 @@ def replace_list_tokens(md_files):
     return total
 
 
-@register_hardcoded("text", replacement="[Text 🧠 holder](<Text holders.md>)|[text](<Text holders.md>)", token_label="Text")
+@register_hardcoded("text", replacement="[Text 🧠 holder](<🧠 Text holders.md>)|[text](<🧠 Text holders.md>)", token_label="Text")
 def replace_text_tokens(md_files):
     """Replace {{Text}}/{{text}} tokens while preserving link text casing."""
 
@@ -558,7 +558,7 @@ def replace_text_tokens(md_files):
                 return match.group(0)
 
             token_value = match.group(1)
-            replacement = "[text](<Text holders.md>)" if token_value.islower() else "[Text 🧠 holder](<Text holders.md>)"
+            replacement = "[text](<🧠 Text holders.md>)" if token_value.islower() else "[Text 🧠 holder](<🧠 Text holders.md>)"
             changes += 1
             return replacement
 
@@ -729,7 +729,7 @@ _GEN_BASIC = [
     ("replace_binds_tokens", "Binds", "binds", "[Binds 🔗](<🔗 Bind.md>)", "Binds"),
     ("replace_locator_tokens", "Locator", "locator", "[Locator 🔆](<🔆 Locator.md>)", "Locator"),
     ("replace_locators_tokens", "Locators", "locators", "[Locators 🔆](<🔆 Locator.md>)", "Locators"),
-    ("replace_texts_tokens", "Texts", "texts", "[Text 🧠 holders](<Text holders.md>)", "Texts"),
+    ("replace_texts_tokens", "Texts", "texts", "[Text 🧠 holders](<🧠 Text holders.md>)", "Texts"),
     ("replace_domain_tokens", "domain", "domain", "[domain 👥](<👥 Domain.md>)", "domain"),
     ("replace_domains_tokens", "domains", "domains", "[domains 👥](<👥 Domain.md>)", "domains"),
     ("replace_dataset_tokens", "Dataset", "dataset", "[Dataset 🪣](<🪣 Dataset.md>)", "Dataset"),
