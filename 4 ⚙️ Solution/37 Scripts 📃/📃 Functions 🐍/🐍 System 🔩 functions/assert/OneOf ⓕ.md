@@ -4,7 +4,7 @@
 
 > Used by [`ASSERT`](<../../../📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>)
 
-> Similar to [`.AllOf`](<🔩 AllOf.md>) [`.AnyOf`](<🔩 AnyOf.md>)
+> Similar to [`.AllOf`](<AllOf ⓕ.md>) [`.AnyOf`](<AnyOf ⓕ.md>)
 
 ## FAQ
 
@@ -26,7 +26,7 @@
    
     Input | Purpose
     |-|-
-    | `assertions...` | [List 🧠](<../../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>) of assertions for [`.Assert`](<🔩 Assert.md>)
+    | `assertions...` | [List 🧠](<../../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>) of assertions for [`.Assert`](<Assert ⓕ.md>)
 
 
     ---

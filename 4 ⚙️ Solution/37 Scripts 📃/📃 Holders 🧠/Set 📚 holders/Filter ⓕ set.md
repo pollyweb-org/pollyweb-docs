@@ -1,19 +1,11 @@
-# 😃🔩 Talker `{.Filter}` function
+# 😃ⓕ `set.Filter` extension
 
-> Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
+> Part of {{Set}}
 
 > Used by [`FILTER`](<../../📃 Commands ⌘/⌘ for holders 🧠/FILTER 🔽/🔽 FILTER ⌘ cmd.md>) [`SELECT`](<../../📃 Commands ⌘/⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>) 
 
 ## FAQ
 
-1. **What is the .Filter function?**
-
-    `{.Filter}`
-    * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that filters a [List 🧠 holder](<../List 📚 holders/🧠 List holders.md>).
-
-    ---
-    <br/>
 
 1. **What's the .Filter syntax?**
 

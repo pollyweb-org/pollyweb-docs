@@ -1,8 +1,8 @@
-# 😃🔩 Talker `{.Append}` function
+# 😃🔩 `text.Append` extension
 
-> Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
+> Part of {{Text}}
 
-> Used by [`.Add`](<../Any 📚 holders/Add ⓕ any.md>) [`SELECT`](<../../📃 Commands ⌘/⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>)
+> Used by [`.Add`](<../Any 📚 holders/Add ⓕ any.md>) 
 
 # FAQ
 
