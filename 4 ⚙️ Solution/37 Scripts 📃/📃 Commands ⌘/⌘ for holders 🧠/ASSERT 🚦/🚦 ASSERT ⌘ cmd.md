@@ -82,8 +82,8 @@
     |-|-|-
     | `$object`| Optional initial context | [`$.Msg`](<../../../📃 Holders 🧠/🧠 System holders/$.Msg 📨/📨 $.Msg 🧠 holder.md>) [`.Inputs`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Inputs}.md>)
     | `<key>` | Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 Assert.md>) a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | `From` `$A` [`$lst.A`](<../../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>)
-    | `.f(?)`| Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 Assert.md>) a [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)  | [`.IsIn`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>)`(A,B)`
-    | `:<val>` | Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 Assert.md>) with  [`.Is`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) | `:any-domain.dom`
+    | `.f(?)`| Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 Assert.md>) a [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)  | [`.IsIn`](<../../../📃 Holders 🧠/🧠🔩 Any holders/🔩 {.IsIn}.md>)`(A,B)`
+    | `:<val>` | Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 Assert.md>) with  [`.Is`](<../../../📃 Holders 🧠/🧠🔩 Any holders/🔩 {.Is}.md>) | `:any-domain.dom`
     
 
     > **Note** 
@@ -140,7 +140,7 @@
         - B.IsBetween(20,29)
         - C.IsIn(X,Y) 
     ```
-    Uses: [`PUT`](<../PUT ⬇️/⬇️ PUT ⌘ cmd.md>) [`.IsBetween`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsBetween}.md>) [`.IsIn`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>)
+    Uses: [`PUT`](<../PUT ⬇️/⬇️ PUT ⌘ cmd.md>) [`.IsBetween`](<../../../📃 Holders 🧠/🧠🔩 Any holders/🔩 {.IsBetween}.md>) [`.IsIn`](<../../../📃 Holders 🧠/🧠🔩 Any holders/🔩 {.IsIn}.md>)
 
     > Note
     * The [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 Assert.md>) of `C.IsIn(X,Y)` returns `False` because the property `C` doesn't event exist in the third list item.
@@ -156,7 +156,7 @@
 
     > This example uses 
     * [`.Parse`](<../PARSE 🔆/🔆 PARSE ⌘ cmd.md>) to break a [`Locator`](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>)
-    *  [`.Is`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) to compare [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
+    *  [`.Is`](<../../../📃 Holders 🧠/🧠🔩 Any holders/🔩 {.Is}.md>) to compare [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 
     ```yaml
     📃 Example:

@@ -39,9 +39,9 @@
     |-|-|-|-
     | Assess| [`.IsEmpty`](<../🧠🔩 Any holders/any.IsEmpty 🔩 ext.md>) | bool| Is it an empty [Holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)?
     |       | [`.IsNotEmpty`](<../🧠🔩 Any holders/any.IsNotEmpty 🔩 ext.md>) | bool | Does it contain a map?
-    |Compare| [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) | bool | Is it the same map meaning?
+    |Compare| [`.Is`](<../🧠🔩 Any holders/🔩 {.Is}.md>) | bool | Is it the same map meaning?
     |       | [`.IsNot`](<../🧠🔩 Any holders/any.IsNot 🔩 ext.md>) | bool | Is it a different meaning?
-    |       | [`.Equals`](<../🧠🔩 Any holders/any.Equals 🔩 ext.md>) | bool | Same as [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) 
+    |       | [`.Equals`](<../🧠🔩 Any holders/any.Equals 🔩 ext.md>) | bool | Same as [`.Is`](<../🧠🔩 Any holders/🔩 {.Is}.md>) 
     |       | [`.Differs`](<../🧠🔩 Any holders/any.Differs 🔩 ext.md>) | bool | Same as [`.IsNot`](<../🧠🔩 Any holders/any.IsNot 🔩 ext.md>)
     |Read | [`.Key`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Key}.md>) | [map][map] | Return a pair with a given key
     || [`.Keys`](<map.Keys 🔩 ext.md>) | [list](<../🧠🔩 List holders/List holders.md>)  |Return all pair keys as a [List 🧠](<../🧠🔩 List holders/List holders.md>)

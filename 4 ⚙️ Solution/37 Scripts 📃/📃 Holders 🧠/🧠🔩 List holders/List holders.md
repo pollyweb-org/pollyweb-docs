@@ -34,11 +34,11 @@
     |Query  | [`.Contains`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Contains}.md>) |bool| Contains a given item?
     |       | [`.Equals`](<../🧠🔩 Any holders/any.Equals 🔩 ext.md>)   |bool| Has these items in this order?
     |       | [`.Differs`](<../🧠🔩 Any holders/any.Differs 🔩 ext.md>)  |bool| Does not equal this other list?
-    |       | [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>)       |bool| Has these items in any order?
+    |       | [`.Is`](<../🧠🔩 Any holders/🔩 {.Is}.md>)       |bool| Has these items in any order?
     |       | [`.IsNot`](<../🧠🔩 Any holders/any.IsNot 🔩 ext.md>)    |bool| Are any of these items missing?
     |Size   | [`.IsEmpty`](<../🧠🔩 Any holders/any.IsEmpty 🔩 ext.md>)  | bool| Is empty?
-    |       | [`.IsOne`](<list.IsOne 🔩 ext.md>)    | bool| Has only one item?
-    |       | [`.AreMany`](<list.AreMany 🔩 ext.md>)  | bool| Has more than one item?
+    |       | [`.IsOne`](<.IsOne 🔩 list.md>)    | bool| Has only one item?
+    |       | [`.AreMany`](<.AreMany 🔩 list.md>)  | bool| Has more than one item?
     |       | [`.Size`][.Size]     | [num][num]| Returns the number of items
     |       | [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Length}.md>)   |  [num][num]| Equals [`.Size`][.Size]
     |Read   | [`.First`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.First}.md>)   |[list][list], any| Get the first `n` items
@@ -94,7 +94,7 @@
         - B.IsBetween(20,29)
         - C.IsIn(X,Y)
     ```
-    Uses: [`ASSERT`](<../../📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CALL`](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`.IsBetween`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsBetween}.md>) [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>)
+    Uses: [`ASSERT`](<../../📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CALL`](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`.IsBetween`](<../🧠🔩 Any holders/🔩 {.IsBetween}.md>) [`.IsIn`](<../🧠🔩 Any holders/🔩 {.IsIn}.md>)
 
     ---
     <br/>

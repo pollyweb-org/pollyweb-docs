@@ -35,16 +35,16 @@
     |-|-|-|-
     | Assess| [`.IsEmpty`](<../🧠🔩 Any holders/any.IsEmpty 🔩 ext.md>) |bool| Is it an empty [Holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)?
     |       | [`.IsNotEmpty`](<../🧠🔩 Any holders/any.IsNotEmpty 🔩 ext.md>) |bool| Does it contain a number?
-    |Bounds | [`.IsAbove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsAbove}.md>) |bool| Is it above a given number?
-    |       | [`.IsAtLeast`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsAtLeast}.md>) |bool| Is it equal or above a number?
-    |       | [`.IsAtMost`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsAtMost}.md>) |bool| Is it equal or below a number?
-    |       | [`.IsBelow`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsBelow}.md>) |bool| Is it below a given number?
-    |       | [`.IsBetween`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsBetween}.md>) |bool| Is it between 2 given numbers?
-    |Compare| [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) |bool| Is it the same number?
+    |Bounds | [`.IsAbove`](<../🧠🔩 Any holders/🔩 {.IsAbove}.md>) |bool| Is it above a given number?
+    |       | [`.IsAtLeast`](<../🧠🔩 Any holders/🔩 {.IsAtLeast}.md>) |bool| Is it equal or above a number?
+    |       | [`.IsAtMost`](<../🧠🔩 Any holders/🔩 {.IsAtMost}.md>) |bool| Is it equal or below a number?
+    |       | [`.IsBelow`](<../🧠🔩 Any holders/🔩 {.IsBelow}.md>) |bool| Is it below a given number?
+    |       | [`.IsBetween`](<../🧠🔩 Any holders/🔩 {.IsBetween}.md>) |bool| Is it between 2 given numbers?
+    |Compare| [`.Is`](<../🧠🔩 Any holders/🔩 {.Is}.md>) |bool| Is it the same number?
     |       | [`.IsNot`](<../🧠🔩 Any holders/any.IsNot 🔩 ext.md>) |bool| Is it a different number?
-    |       | [`.Equals`](<../🧠🔩 Any holders/any.Equals 🔩 ext.md>) |bool| Same as [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>)
+    |       | [`.Equals`](<../🧠🔩 Any holders/any.Equals 🔩 ext.md>) |bool| Same as [`.Is`](<../🧠🔩 Any holders/🔩 {.Is}.md>)
     |       | [`.Differs`](<../🧠🔩 Any holders/any.Differs 🔩 ext.md>) |bool| Same as [`.IsNot`](<../🧠🔩 Any holders/any.IsNot 🔩 ext.md>)
-    |Lists  | [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>) |bool| Is it in a given list of numbers?
+    |Lists  | [`.IsIn`](<../🧠🔩 Any holders/🔩 {.IsIn}.md>) |bool| Is it in a given list of numbers?
     |Create | [`.Random`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Random}.md>) |[num][num]| Returns a random number
     |Change | [`.Sum`](<num.Sum 🔩 ext.md>) |[num][num]| Adds numbers
     |       | [`.Add`](<../🧠🔩 Any holders/any.Add 🔩 ext.md>) |[num][num]| Same as [`.Sum`](<num.Sum 🔩 ext.md>)
