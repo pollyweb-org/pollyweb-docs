@@ -166,7 +166,7 @@
     
     - SAVE|$item
     ```
-    Uses: [`SELECT`](<../../⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>) [`.Is`](<../../../📃 Holders 🧠/Any 🧠 holders/.Is 🔩 any.md>)
+    Uses: [`SELECT`](<../../⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>) [`.Is`](<../../../📃 Holders 🧠/Any 🧠 holders/Is ⓕ any.md>)
 
     ---
     <br/>

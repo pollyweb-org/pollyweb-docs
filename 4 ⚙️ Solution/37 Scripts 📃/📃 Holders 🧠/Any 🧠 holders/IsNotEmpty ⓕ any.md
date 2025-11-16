@@ -11,7 +11,7 @@
 
     `{.IsNotEmpty}`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that returns the opposite to [`.IsEmpty`](<.IsEmpty 🔩 any.md>).
+    * that returns the opposite to [`.IsEmpty`](<IsEmpty ⓕ any.md>).
 
     ---
     <br/>
