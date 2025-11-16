@@ -5,7 +5,7 @@ participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA
     participant "Pop@ 📃" as remove
     participant "Tokens 🪣" as tokens
-    participant "OnPurge 📃" as purge
+    participant "OnPurge 🔔" as purge
 end box
 
 participant "Notifier 📣" as notifier

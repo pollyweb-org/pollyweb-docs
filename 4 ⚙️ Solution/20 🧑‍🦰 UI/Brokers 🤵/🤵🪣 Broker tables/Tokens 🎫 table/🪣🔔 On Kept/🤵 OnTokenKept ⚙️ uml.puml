@@ -5,7 +5,7 @@ participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA
     participant "Saved@ 📃" as script
     participant "Tokens 🪣" as tokens
-    participant "OnSaved 📃" as change
+    participant "OnSaved 🔔" as change
 end box
 
 'participant "Notifier 📣" as notifier

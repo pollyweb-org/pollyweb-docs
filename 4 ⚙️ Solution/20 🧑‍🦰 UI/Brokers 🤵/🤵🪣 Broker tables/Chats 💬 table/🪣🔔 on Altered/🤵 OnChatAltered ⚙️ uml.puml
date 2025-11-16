@@ -5,7 +5,7 @@
 box Broker 🤵 domain #FFFFFA
     participant "Script 📃" as script
     participant "Chats 🪣" as chats
-    participant "OnAltered 📃" as handler
+    participant "OnAltered 🔔" as handler
     participant "Wallets 🪣" as wallets
     participant "Frontend 🪣" as frontend
 end box

@@ -5,7 +5,7 @@
 box Broker 🤵 domain #FFFFFA
     participant "Opened@ 📃" as script
     participant "Chats 🪣" as chats
-    participant "OnOpened 📃" as handler
+    participant "OnOpened 🔔" as handler
     participant "Chatters 🪣" as chatters
 end box
 
