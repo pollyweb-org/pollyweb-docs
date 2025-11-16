@@ -9,11 +9,11 @@
 
     |Type|Returns|Behavior
     |-|-|-
-    |[Text 🧠](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>)   |bool| Is the given [Text 🧠](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>) a subs string?
-    |[Period 🧠](<../../📃 Holders 🧠/🧠 Output holders/Period holders.md>) |bool| Is the given [Time 🧠](<../../📃 Holders 🧠/Time 📚 holders/🧠 Time holders.md>) in the date interval?
-    |[List 🧠](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)   |bool| Is the given value in the [List 🧠](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)?
-    |[Map 🧠](<../../📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>)    |bool| Is the given key in the [`.Keys`](<../../📃 Holders 🧠/Map 📚 holders/Keys ⓕ map.md>) list?
-    |[Set 🧠](<../../📃 Holders 🧠/Set 📚 holders/🧠 Set holders.md>)    |bool| Is the given [Map 🧠](<../../📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>) in the [Set 🧠](<../../📃 Holders 🧠/Set 📚 holders/🧠 Set holders.md>)?
+    |[Text 🧠](<../Text 📚 holders/🧠 Text holders.md>)   |bool| Is the given [Text 🧠](<../Text 📚 holders/🧠 Text holders.md>) a subs string?
+    |[Period 🧠](<../🧠 Output holders/Period holders.md>) |bool| Is the given [Time 🧠](<../Time 📚 holders/🧠 Time holders.md>) in the date interval?
+    |[List 🧠](<../List 📚 holders/🧠 List holders.md>)   |bool| Is the given value in the [List 🧠](<../List 📚 holders/🧠 List holders.md>)?
+    |[Map 🧠](<../Map 📚 holders/🧠 Map holders.md>)    |bool| Is the given key in the [`.Keys`](<../Map 📚 holders/Keys ⓕ map.md>) list?
+    |[Set 🧠](<../Set 📚 holders/🧠 Set holders.md>)    |bool| Is the given [Map 🧠](<../Map 📚 holders/🧠 Map holders.md>) in the [Set 🧠](<../Set 📚 holders/🧠 Set holders.md>)?
 
     ---
     <br/>
@@ -34,7 +34,7 @@
 
 1. **What are examples of .Contains for lists?**
     
-    | [List 🧠](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>) |Value  |Result
+    | [List 🧠](<../List 📚 holders/🧠 List holders.md>) |Value  |Result
     |-|-|-
     | ... | `{empty}`  | ❌ False
     | `{empty}`  | ... | ❌ False
@@ -47,7 +47,7 @@
 
 1. **What are examples of .Contains for strings?**
 
-    [Text 🧠](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>) | Value |Result
+    [Text 🧠](<../Text 📚 holders/🧠 Text holders.md>) | Value |Result
     |-|-|-
     | `{empty}` | ... | ❌ False
     | `AB` | `ABC`| ✅ True

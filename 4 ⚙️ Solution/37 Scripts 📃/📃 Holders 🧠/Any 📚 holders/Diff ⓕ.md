@@ -17,11 +17,11 @@
 
     |Type| Behavior
     |-|-
-    | [Texts 🧠](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>) | Same as [`.Remove`](<Remove ⓕ.md>) 
-    | [Lists 🧠](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>) | Same as [`.Remove`](<Remove ⓕ.md>) 
-    | [Maps 🧠](<../../📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>) | Same as [`.Remove`](<Remove ⓕ.md>)
-    | [Num 🧠](<../../📃 Holders 🧠/Num 📚 holders/🧠 Num holders.md>) | Returns the distance between numbers
-    | [Time 🧠](<../../📃 Holders 🧠/Time 📚 holders/🧠 Time holders.md>) | Returns the [Period 🧠](<../../📃 Holders 🧠/🧠 Output holders/Period holders.md>) between timestamps
+    | [Texts 🧠](<../Text 📚 holders/🧠 Text holders.md>) | Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Remove ⓕ.md>) 
+    | [Lists 🧠](<../List 📚 holders/🧠 List holders.md>) | Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Remove ⓕ.md>) 
+    | [Maps 🧠](<../Map 📚 holders/🧠 Map holders.md>) | Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Remove ⓕ.md>)
+    | [Num 🧠](<../Num 📚 holders/🧠 Num holders.md>) | Returns the distance between numbers
+    | [Time 🧠](<../Time 📚 holders/🧠 Time holders.md>) | Returns the [Period 🧠](<../🧠 Output holders/Period holders.md>) between timestamps
     
     ---
     <br/>
@@ -41,7 +41,7 @@
     <br/>
 
 
-1. **What are examples of .Diff output for [Num 🧠 holders](<../../📃 Holders 🧠/Num 📚 holders/🧠 Num holders.md>)?**
+1. **What are examples of .Diff output for [Num 🧠 holders](<../Num 📚 holders/🧠 Num holders.md>)?**
 
     |From|To|Result
     |-|-|-
@@ -56,7 +56,7 @@
 
 
 
-1. **What's an example of .Diff for [Time 🧠 holders](<../../📃 Holders 🧠/Time 📚 holders/🧠 Time holders.md>)?**
+1. **What's an example of .Diff for [Time 🧠 holders](<../Time 📚 holders/🧠 Time holders.md>)?**
 
     Here's a [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
 
@@ -71,7 +71,7 @@
     # Show the total number of seconds since midnight
     - INFO|{$period.Seconds} seconds from midnight:
     ```
-    Uses: [`.Today`](<time/Today ⓕ.md>) [`.Now`](<time/Now ⓕ.md>) [`INFO`](<../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)
+    Uses: [`.Today`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/Today ⓕ.md>) [`.Now`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/Now ⓕ.md>) [`INFO`](<../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)
 
     ---
     <br/>

@@ -22,7 +22,7 @@
     |-|-|-|-
     |Read | [`.First`][.First] | [set][set], [map][map] | Return the first `n` [Maps 🧠][map] with [`.Filter`][.Filter]
     ||[`.Take`][.Take] | [set][set], [map][map] | Equals [`.First`][.First]
-    ||[`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Last ⓕ.md>) | [set][set], [map][map] | Return the last `n` [Maps 🧠][map] with [`.Filter`][.Filter]
+    ||[`.Last`](<../Any 📚 holders/Last ⓕ.md>) | [set][set], [map][map] | Return the last `n` [Maps 🧠][map] with [`.Filter`][.Filter]
     ||[`.Filter`][.Filter] | [set][set] | Return [Maps 🧠][map] that match a given filter
     ||[`.Where`](<Where ⓕ set.md>) | [set][set] | Equals [`.Filter`][.Filter]
     |Merge| [`.Cross`](<../../📃 Functions 🐍/🐍 System 🔩 functions/sets/Cross ⓕ.md>) | [set][set] | Cross multiple [Set 🧠 holders][set]

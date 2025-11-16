@@ -47,12 +47,12 @@
     || [`.Keys`](<Keys ⓕ map.md>) | [list](<../List 📚 holders/🧠 List holders.md>)  |Return all pair keys as a [List 🧠](<../List 📚 holders/🧠 List holders.md>)
     || [`.Value`](<../Any 📚 holders/Value ⓕ any.md>) | any | Return the value of a given key
     || [`.Values`](<Values ⓕ map.md>) | [list](<../List 📚 holders/🧠 List holders.md>) | Return all pair values as a [List 🧠](<../List 📚 holders/🧠 List holders.md>)
-    |Change | [`.Set`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Set ⓕ.md>) |[map][map]|  Change or add one or more pairs
-    ||[`.Add`](<../Any 📚 holders/Add ⓕ any.md>) | [map][map] | Same as [`.Set`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Set ⓕ.md>)
-    |       | [`.Plus`](<../Any 📚 holders/Plus ⓕ any.md>) | [map][map] | Same as [`.Set`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Set ⓕ.md>)
+    |Change | [`.Set`](<../Any 📚 holders/Set ⓕ.md>) |[map][map]|  Change or add one or more pairs
+    ||[`.Add`](<../Any 📚 holders/Add ⓕ any.md>) | [map][map] | Same as [`.Set`](<../Any 📚 holders/Set ⓕ.md>)
+    |       | [`.Plus`](<../Any 📚 holders/Plus ⓕ any.md>) | [map][map] | Same as [`.Set`](<../Any 📚 holders/Set ⓕ.md>)
     |       | [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Remove ⓕ.md>) | [map][map] | Remove one or more keys
     |       | [`.Minus`](<../Any 📚 holders/Minus ⓕ any.md>) | [map][map] | Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Remove ⓕ.md>)
-    |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Diff ⓕ.md>) | [map][map] | Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Remove ⓕ.md>)
+    |       | [`.Diff`](<../Any 📚 holders/Diff ⓕ.md>) | [map][map] | Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Remove ⓕ.md>)
 
     ---
     <br/>

@@ -4,7 +4,7 @@
 
 > Purpose
 * Similar to [`.Add`](<Add ⓕ any.md>), [`.Plus`](<Plus ⓕ any.md>), but for negative values.
-* Similar to [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Diff ⓕ.md>) in some scenarios, for flexibility.
+* Similar to [`.Diff`](<Diff ⓕ.md>) in some scenarios, for flexibility.
 
 ## FAQ 
 

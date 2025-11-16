@@ -31,7 +31,7 @@
     |-|-|-
     | `All` | Uses [`.Format`](<../../../📃 Holders 🧠/Set 📚 holders/Format ⓕ set.md>) to format item properties
     | `First` | Uses [`.First`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/First ⓕ.md>) and [`.Format`](<../../../📃 Holders 🧠/Set 📚 holders/Format ⓕ set.md>) on the 1st item
-    | `Last` | Uses [`.Last`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Last ⓕ.md>) and [`.Format`](<../../../📃 Holders 🧠/Set 📚 holders/Format ⓕ set.md>) on the last item
+    | `Last` | Uses [`.Last`](<../../../📃 Holders 🧠/Any 📚 holders/Last ⓕ.md>) and [`.Format`](<../../../📃 Holders 🧠/Set 📚 holders/Format ⓕ set.md>) on the last item
     | `Distinct` | Uses [`.Distinct`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Distinct ⓕ.md>) to group results 
     | `From` | Uses [`.Cross`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/sets/Cross ⓕ.md>) to join [List 🧠 holders](<../../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)
     | `Where` | Uses [`.Filter`](<../../../📃 Holders 🧠/Set 📚 holders/Filter ⓕ set.md>) to filter [List 🧠](<../../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>) items 
