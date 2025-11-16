@@ -50,7 +50,7 @@
     |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) |[num][num]| Same as [`.Sum`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Sum}.md>)
     |       | [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Plus}.md>) |[num][num]| Same as [`.Sum`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Sum}.md>) | What if we add numbers?
     |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Minus}.md>) |[num][num]| Subtracts numbers
-    |       | [`.Times`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Times}.md>) |[num][num]| Multiplies numbers
+    |       | [`.Times`](<../../📃 Functions 🐍/🐍🧠 Num functions/{Num.Times}.md>) |[num][num]| Multiplies numbers
     |       | [`.Calculate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Calculate}.md>) |[num][num]| Calculates formulas
     |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) |[num][num]| Distance between 2 numbers
     ---
