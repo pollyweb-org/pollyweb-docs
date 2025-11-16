@@ -45,8 +45,8 @@
     | Input| Purpose |  Examples |Behavior
     |-|-|-|-
     | `$object`| Optional initial context | `$.Msg`
-    | `AllOf` | All should have values |  `A,B` `[A,B]` | [`.AllOf`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 AllOf.md>)
-    | `AnyOf` | One or more have values |  `A,B` `[A,B]` | [`.AnyOf`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 AnyOf.md>)
+    | `AllOf` | All should have values |  `A,B` `[A,B]` | [`.AllOf`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 AllOf.md>)
+    | `AnyOf` | One or more have values |  `A,B` `[A,B]` | [`.AnyOf`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 AnyOf.md>)
     | `OneOf` | Only one should have value | `A,B` `[A,B]` | [`.OneOf`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.OneOf}.md>)
     | `UUIDs` | Must be a UUID fields| `A,B` `[A,B]`
     | `Texts` | Must be a text fields | `A,B` `[A,B]`
@@ -81,14 +81,14 @@
     | Input| Purpose | Examples
     |-|-|-
     | `$object`| Optional initial context | [`$.Msg`](<../../../📃 Holders 🧠/🧠 System holders/$.Msg 📨/📨 $.Msg 🧠 holder.md>) [`.Inputs`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Inputs}.md>)
-    | `<key>` | Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 Assert.md>) a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | `From` `$A` [`$lst.A`](<../../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>)
-    | `.f(?)`| Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 Assert.md>) a [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)  | [`.IsIn`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>)`(A,B)`
-    | `:<val>` | Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 Assert.md>) with  [`.Is`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) | `:any-domain.dom`
+    | `<key>` | Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 Assert.md>) a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | `From` `$A` [`$lst.A`](<../../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>)
+    | `.f(?)`| Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 Assert.md>) a [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)  | [`.IsIn`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>)`(A,B)`
+    | `:<val>` | Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 Assert.md>) with  [`.Is`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) | `:any-domain.dom`
     
 
     > **Note** 
     * If `AllOf`, `AnyOf`, or `OneOf` are set, 
-    * then [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 Assert.md>) will only be called if [`.IsNotEmpty`](<../../../📃 Holders 🧠/🧠🔩 Any holders/any.IsNotEmpty 🔩 ext.md>), 
+    * then [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 Assert.md>) will only be called if [`.IsNotEmpty`](<../../../📃 Holders 🧠/🧠🔩 Any holders/any.IsNotEmpty 🔩 ext.md>), 
     * to allow optional inputs to be validated only if they have an assigned value.
 
 
@@ -112,7 +112,7 @@
 
     | Input| Purpose | Examples
     |-|-|-
-    | `assertion` | Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 Assert.md>) | `aA.Is(7)`
+    | `assertion` | Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 Assert.md>) | `aA.Is(7)`
     
 
 
@@ -143,7 +143,7 @@
     Uses: [`PUT`](<../PUT ⬇️/⬇️ PUT ⌘ cmd.md>) [`.IsBetween`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsBetween}.md>) [`.IsIn`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>)
 
     > Note
-    * The [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 Assert.md>) of `C.IsIn(X,Y)` returns `False` because the property `C` doesn't event exist in the third list item.
+    * The [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 Assert.md>) of `C.IsIn(X,Y)` returns `False` because the property `C` doesn't event exist in the third list item.
     * However, that doesn't break the overall assertion.
     * This is because `AllOf` is set, and it doesn't include `C`, allowing `C` to be asserted only when [`.IsNotEmpty`](<../../../📃 Holders 🧠/🧠🔩 Any holders/any.IsNotEmpty 🔩 ext.md>).
 

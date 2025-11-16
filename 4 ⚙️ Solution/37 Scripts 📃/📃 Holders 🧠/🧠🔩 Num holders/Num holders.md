@@ -43,7 +43,7 @@
     |Compare| [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) |bool| Is it the same number?
     |       | [`.IsNot`](<../🧠🔩 Any holders/any.IsNot 🔩 ext.md>) |bool| Is it a different number?
     |       | [`.Equals`](<../🧠🔩 Any holders/any.Equals 🔩 ext.md>) |bool| Same as [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>)
-    |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Differs}.md>) |bool| Same as [`.IsNot`](<../🧠🔩 Any holders/any.IsNot 🔩 ext.md>)
+    |       | [`.Differs`](<../🧠🔩 Any holders/🔩 {.Differs}.md>) |bool| Same as [`.IsNot`](<../🧠🔩 Any holders/any.IsNot 🔩 ext.md>)
     |Lists  | [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>) |bool| Is it in a given list of numbers?
     |Create | [`.Random`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Random}.md>) |[num][num]| Returns a random number
     |Change | [`.Sum`](<num.Sum 🔩 ext.md>) |[num][num]| Adds numbers

@@ -42,7 +42,7 @@
     |Compare| [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) | bool | Is it the same map meaning?
     |       | [`.IsNot`](<../🧠🔩 Any holders/any.IsNot 🔩 ext.md>) | bool | Is it a different meaning?
     |       | [`.Equals`](<../🧠🔩 Any holders/any.Equals 🔩 ext.md>) | bool | Same as [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) 
-    |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Differs}.md>) | bool | Same as [`.IsNot`](<../🧠🔩 Any holders/any.IsNot 🔩 ext.md>)
+    |       | [`.Differs`](<../🧠🔩 Any holders/🔩 {.Differs}.md>) | bool | Same as [`.IsNot`](<../🧠🔩 Any holders/any.IsNot 🔩 ext.md>)
     |Read | [`.Key`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Key}.md>) | [map][map] | Return a pair with a given key
     || [`.Keys`](<map.Keys 🔩 ext.md>) | [list](<../🧠🔩 List holders/List holders.md>)  |Return all pair keys as a [List 🧠](<../🧠🔩 List holders/List holders.md>)
     || [`.Value`](<../🧠🔩 Any holders/any.Value 🔩 ext.md>) | any | Return the value of a given key
