@@ -31,7 +31,7 @@
 
     Group | [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) |Type| Purpose 
     |-|-|-|-
-    |Query  | [`.Contains`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Contains ⓕ.md>) |bool| Contains a given item?
+    |Query  | [`.Contains`](<../Any 📚 holders/Contains ⓕ.md>) |bool| Contains a given item?
     |       | [`.Equals`](<../Any 📚 holders/Equals ⓕ any.md>)   |bool| Has these items in this order?
     |       | [`.Differs`](<../Any 📚 holders/Differs ⓕ any.md>)  |bool| Does not equal this other list?
     |       | [`.Is`](<../Any 📚 holders/Is ⓕ any.md>)       |bool| Has these items in any order?

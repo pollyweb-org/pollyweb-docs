@@ -10,7 +10,7 @@
     `{.IsIn}`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that verifies if a value is in a list, 
-    * similar to [`.Contains`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Contains ⓕ.md>) from the value's perspective.
+    * similar to [`.Contains`](<Contains ⓕ.md>) from the value's perspective.
 
     ---
     <br/>
