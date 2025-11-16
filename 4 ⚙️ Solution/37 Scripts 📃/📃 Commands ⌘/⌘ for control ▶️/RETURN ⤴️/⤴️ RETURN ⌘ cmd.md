@@ -117,7 +117,7 @@
     - RETURN|.Add($1, $2, $3)
     ```
 
-    Uses: [`.Add`](<../../../📃 Holders 🧠/🧠🔩 Any holders/any.Add 🔩 ext.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`RUN`](<../RUN 🏃/🏃 RUN ⌘ cmd.md>) 
+    Uses: [`.Add`](<../../../📃 Holders 🧠/🧠🔩 Any holders/.Add 🔩 any.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`RUN`](<../RUN 🏃/🏃 RUN ⌘ cmd.md>) 
 
     ---
     <br/>

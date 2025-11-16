@@ -9,7 +9,7 @@
 
     `{.IsNot}`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that returns the opposite to [`.Is`](<🔩 {.Is}.md>).
+    * that returns the opposite to [`.Is`](<.Is 🔩 any.md>).
 
     ---
     <br/>

@@ -10,10 +10,10 @@
     |-|-|-|-
     | Assess| [`.IsEmpty`](<../🧠🔩 Any holders/any.IsEmpty 🔩 ext.md>) | bool | Is it an empty text?
     |       | [`.IsNotEmpty`](<../🧠🔩 Any holders/any.IsNotEmpty 🔩 ext.md>) | bool | Is it text, not just spaces?
-    |Bounds | [`.IsAbove`](<../🧠🔩 Any holders/🔩 {.IsAbove}.md>) | bool | Is it after in alphabetical order?
-    |       | [`.IsBelow`](<../🧠🔩 Any holders/🔩 {.IsBelow}.md>) | bool | Is it before in alphabetical order?
-    |       | [`.IsBetween`](<../🧠🔩 Any holders/🔩 {.IsBetween}.md>) | bool | Is it between in alphabetical order?
-    |Compare| [`.Is`](<../🧠🔩 Any holders/🔩 {.Is}.md>) | bool | Does it have the same meaning?
+    |Bounds | [`.IsAbove`](<../🧠🔩 Any holders/.IsAbove 🔩 any.md>) | bool | Is it after in alphabetical order?
+    |       | [`.IsBelow`](<../🧠🔩 Any holders/.IsBelow 🔩 any.md>) | bool | Is it before in alphabetical order?
+    |       | [`.IsBetween`](<../🧠🔩 Any holders/.IsBetween 🔩 any.md>) | bool | Is it between in alphabetical order?
+    |Compare| [`.Is`](<../🧠🔩 Any holders/.Is 🔩 any.md>) | bool | Does it have the same meaning?
     |       | [`.IsNot`](<../🧠🔩 Any holders/any.IsNot 🔩 ext.md>) | bool | Does it have another meaning?
     |       | [`.Equals`](<../🧠🔩 Any holders/any.Equals 🔩 ext.md>) | bool | Is it exactly the same string of chars?
     |       | [`.Differs`](<../🧠🔩 Any holders/any.Differs 🔩 ext.md>) | bool | Is it a different string of chars?
@@ -24,7 +24,7 @@
     |       | [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>) |[text][text]| What's the last char?
     |       | [`.Contains`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Contains}.md>) |bool| Does it contain a given char?
     |Change | [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>) |[text][text]| What we append the given string?
-    |       | [`.Add`](<../🧠🔩 Any holders/any.Add 🔩 ext.md>) |[text][text]| Same as [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>)
+    |       | [`.Add`](<../🧠🔩 Any holders/.Add 🔩 any.md>) |[text][text]| Same as [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>)
     |       | [`.Plus`](<../🧠🔩 Any holders/any.Plus 🔩 ext.md>) |[text][text]| Same as [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>)
     |       | [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>) |[text][text]| What if we remove the given string?
     |       | [`.Minus`](<../🧠🔩 Any holders/any.Minus 🔩 ext.md>) |[text][text]| Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>)
