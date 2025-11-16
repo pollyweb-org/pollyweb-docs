@@ -2,7 +2,7 @@
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
-> Used by [`.Minus`](<../🧠🔩 Any holders/any.Minus 🔩 ext.md>)
+> Used by [`.Minus`](<../🧠🔩 Any holders/.Minus 🔩 any.md>)
 
 ## FAQ
 

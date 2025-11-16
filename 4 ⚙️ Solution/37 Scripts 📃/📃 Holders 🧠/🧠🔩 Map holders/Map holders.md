@@ -49,9 +49,9 @@
     || [`.Values`](<.Values 🔩 map.md>) | [list](<../🧠🔩 List holders/List holders.md>) | Return all pair values as a [List 🧠](<../🧠🔩 List holders/List holders.md>)
     |Change | [`.Set`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>) |[map][map]|  Change or add one or more pairs
     ||[`.Add`](<../🧠🔩 Any holders/.Add 🔩 any.md>) | [map][map] | Same as [`.Set`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>)
-    |       | [`.Plus`](<../🧠🔩 Any holders/any.Plus 🔩 ext.md>) | [map][map] | Same as [`.Set`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>)
+    |       | [`.Plus`](<../🧠🔩 Any holders/.Plus 🔩 any.md>) | [map][map] | Same as [`.Set`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>)
     |       | [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>) | [map][map] | Remove one or more keys
-    |       | [`.Minus`](<../🧠🔩 Any holders/any.Minus 🔩 ext.md>) | [map][map] | Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>)
+    |       | [`.Minus`](<../🧠🔩 Any holders/.Minus 🔩 any.md>) | [map][map] | Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>)
     |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) | [map][map] | Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>)
 
     ---

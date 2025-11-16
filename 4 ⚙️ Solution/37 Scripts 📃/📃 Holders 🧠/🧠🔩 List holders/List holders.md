@@ -47,7 +47,7 @@
     |Change | [`.Append`][.Append]     |[list][list]| Add items to the list
     |       | [`.Add`](<../🧠🔩 Any holders/.Add 🔩 any.md>) |[list][list]| Same as [`.Append`][.Append]
     |       | [`.Remove`][.Remove]   |[list][list]| Remove items from the list
-    |       | [`.Minus`](<../🧠🔩 Any holders/any.Minus 🔩 ext.md>) |[list][list]| Same as [`.Remove`][.Remove]
+    |       | [`.Minus`](<../🧠🔩 Any holders/.Minus 🔩 any.md>) |[list][list]| Same as [`.Remove`][.Remove]
     |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) |[list][list]| Same as [`.Remove`][.Remove]
     
     
