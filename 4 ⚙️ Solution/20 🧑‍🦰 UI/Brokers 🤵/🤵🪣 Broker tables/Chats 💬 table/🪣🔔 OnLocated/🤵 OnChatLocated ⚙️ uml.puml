@@ -14,7 +14,7 @@ participant "Notifier 📣" as notifier
 
 
 activate script
-    script -> table: SAVE 💾
+    script -> table: SAVE 💾 {LOCATED}
 
 
 activate table
