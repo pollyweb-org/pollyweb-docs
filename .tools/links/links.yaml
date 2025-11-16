@@ -354,15 +354,15 @@ Successful Tests:
   # 🧠 Set holder
   - Given: '{{set}}'
     LinkText: "set"
-    LinkFile: "Set holders.md"
+    LinkFile: "🧠 Set holders.md"
     Reasons: This is hardcoded.
   - Given: '{{Set}}'
     LinkText: "Set 🧠 holder"
-    LinkFile: "Set holders.md"
+    LinkFile: "🧠 Set holders.md"
     Reasons: This is hardcoded.
   - Given: '{{Sets}}'
     LinkText: "Set 🧠 holders"
-    LinkFile: "Set holders.md"
+    LinkFile: "🧠 Set holders.md"
     Reasons: This is hardcoded.
 
   # 🌬️🎭 Streamer role
