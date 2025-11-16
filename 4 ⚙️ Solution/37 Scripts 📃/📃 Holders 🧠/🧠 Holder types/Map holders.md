@@ -1,5 +1,3 @@
-<!-- TODO -->
-
 # 🧠 Map holders
 
 > Part of [Holders 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)

@@ -215,6 +215,15 @@ Successful Tests:
     LinkFile: "Map holders.md"
     Reasons: This is hardcoded.
 
+  - Given: '{{Period}}'
+    LinkText: "Period 🧠 holder"
+    LinkFile: "Period holders.md"
+    Reasons: This is hardcoded.
+  - Given: '{{Period}}'
+    LinkText: "Period 🧠 holders"
+    LinkFile: "Period holders.md"
+    Reasons: This is hardcoded.
+
   - Given: "{{Persona}}"
     LinkText: "Persona 🧢 agent"
     LinkFile: "🧢🫥 Persona agent.md"
