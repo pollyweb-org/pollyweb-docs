@@ -38,13 +38,13 @@
     |      | [`.IsNotEmpty`](<../Any 🧠 holders/.IsNotEmpty 🔩 any.md>) |bool| Has a value been provided?
     |Compare| [`.Is`](<../Any 🧠 holders/.Is 🔩 any.md>) |bool| Is it the expected boolean?
     |        | [`.IsNot`](<../Any 🧠 holders/.IsNot 🔩 any.md>) |bool| Is it the opposite value?
-    |        | [`.Equals`](<../Any 🧠 holders/.Equals 🔩 any.md>) |bool| Equal comparison alias for `.Is`
+    |        | [`.Equals`](<../Any 🧠 holders/Equals ⓕ any.md>) |bool| Equal comparison alias for `.Is`
     |        | [`.Differs`](<../Any 🧠 holders/.Differs 🔩 any.md>) |bool| Not-equal alias for `.IsNot`
     |Lists  | [`.IsIn`](<../Any 🧠 holders/.IsIn 🔩 any.md>) |bool| Is it one of the accepted values?
     |Combine| [`.AllOf`](<../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 AllOf.md>) |bool| Are all of these booleans `true`?
     |       | [`.AnyOf`](<../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 AnyOf.md>) |bool| Is any of these booleans `true`?
     |       | [`.OneOf`](<../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 {.OneOf}.md>) |bool| Is exactly one of them `true`?
-    |Default| [`.Default`](<../Any 🧠 holders/.Default 🔩 any.md>) |bool| Substitute a fallback when empty
+    |Default| [`.Default`](<../Any 🧠 holders/Default ⓕ any.md>) |bool| Substitute a fallback when empty
     
     ---
     <br/>
