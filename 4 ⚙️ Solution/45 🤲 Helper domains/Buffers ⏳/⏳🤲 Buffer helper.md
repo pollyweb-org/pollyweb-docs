@@ -1,4 +1,4 @@
-⏳ Buffer helper domains
+⏳🤲 Buffer helper domains
 ===
 
 > Mentioned in [📨 Domain Message](<../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)

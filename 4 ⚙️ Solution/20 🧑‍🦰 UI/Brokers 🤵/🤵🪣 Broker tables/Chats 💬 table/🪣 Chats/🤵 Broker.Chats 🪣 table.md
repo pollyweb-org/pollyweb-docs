@@ -26,32 +26,16 @@ Propagate:
 Children:
     Chatters: { Chatters.Chat: Chats.ID }
 
-Transitions:
-    ALTERED: OnChatChanges
-    CREATED: OnChatCreated
-    LOCATED: OnChatLocated
-    OPENED: OnChatOpened
-    PRESENTED: OnChatPresented
-    TERMINATED: OnChatTerminated
-    WRAPPED: OnChatWrapped
+Handlers:
+    OnChatChanges: ALTERED                   # call Updated@Notifier
+    OnChatCreated: CREATED                   # call Translate@Graph
+    OnChatLocated: CREATED > LOCATED         # call Open@Notifier
+    OnChatOpened: LOCATED > OPENED           # call Present@Finder
+    OnChatPresented: OPENED > PRESENTED      # call Hello@Host
+    OnChatTerminated: PRESENTED > TERMINATED # call Terminated@Host
+    OnChatWrapped: PRESENTED > WRAPPED
 
 Handlers:
-    
-    OnChatChanges:          # On insert, updated, delete
-        Events: ALTERED     # >> call Updated@Notifier
-    
-    OnChatLocated:          # On Locate@Broker
-        Events: INSERTED    # >> call Open@Notifier
-    
-    OnChatOpened:           # On Opened@Broker
-        Events: UPDATED     # >> call Present@Finder
-        Assert: 
-            New.Status: OPENED
-
-    OnChatPresented:        # On Presented@Broker
-        Events: UPDATED     # >> call Hello@Host
-        Assert: 
-            New.Status: PRESENTED
 
     OnChatTerminated:       # On Join@Broker + Terminate
         Events: UPDATED     # >> call Terminated@Host
@@ -70,7 +54,7 @@ Handlers:
 |-|-|-
 | Parents   | [`Wallets` 🪣](<../../Wallets 🧑‍🦰 table/🤵 Broker.Wallets 🪣 table.md>) | [Wallets 🧑‍🦰](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 |           | [`Domains` 🪣](<../../Domains 👥 table/🪣 Domains/🤵 Broker.Domains 🪣 table.md>) | [domains 👥](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
-| Children | [`Chatters` 🪣](<../../Chatters 👥 table/🤵 Broker.Chatters 🪣 table.md>) | [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) participants
+| Children | [`Chatters` 🪣](<../../Chatters 👥 table/🪣 Chatters/🤵 Broker.Chatters 🪣 table.md>) | [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) participants
 
 
 ## Handlers

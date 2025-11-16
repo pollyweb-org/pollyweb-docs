@@ -1,0 +1,25 @@
+@startuml OnChatterFinder
+
+box Broker 🤵 domain #FFFFFA
+    participant "Script 📃" as script
+    participant "Chatters 🪣" as table
+    participant "OnFinder 📃" as handler
+end box
+
+participant "Finder 🔎" as finder
+
+
+
+activate script
+    script -> table: SAVE 💾 {FINDER}
+
+
+activate table
+    table --> handler: FINDER 🔔
+deactivate table
+
+activate handler
+    handler --> finder: SEND 📬 {Present 🐌}
+deactivate handler
+
+@enduml
