@@ -662,7 +662,7 @@ def replace_num_tokens(md_files):
     return total
 
 
-@register_hardcoded("time", replacement="[Time 🧠 holder](<🧠 Time holders.md>)|[time](<🧠 Time holders.md>)", token_label="Time")
+@register_hardcoded("time", replacement="[Time 🧠 holder](<Time holders.md>)|[time](<Time holders.md>)", token_label="Time")
 def replace_time_tokens(md_files):
     """Replace {{Time}}/{{time}} tokens while preserving link text casing."""
 
@@ -690,7 +690,7 @@ def replace_time_tokens(md_files):
                 return match.group(0)
 
             token_value = match.group(1)
-            replacement = "[time](<🧠 Time holders.md>)" if token_value.islower() else "[Time 🧠 holder](<🧠 Time holders.md>)"
+            replacement = "[time](<Time holders.md>)" if token_value.islower() else "[Time 🧠 holder](<Time holders.md>)"
             changes += 1
             return replacement
 
@@ -739,7 +739,7 @@ _GEN_BASIC = [
     ("replace_schema_tokens", "Schema", "schema", "[Schema Code 🧩](<🧩 Schema Code.md>)", "Schema"),
     ("replace_schemas_tokens", "Schemas", "schemas", "[Schema Codes 🧩](<🧩 Schema Code.md>)", "Schemas"),
     ("replace_chat_msg_tokens", "$.Chat", "$.chat", "[`$.Chat` 🧠 holder](<💬 $.Chat 🧠 holder.md>)", "$.Chat"),
-    ("replace_times_tokens", "Times", "times", "[Time 🧠 holders](<🧠 Time holders.md>)", "Times"),
+    ("replace_times_tokens", "Times", "times", "[Time 🧠 holders](<Time holders.md>)", "Times"),
     ("replace_period_tokens", "Period", "period", "[Period 🧠 holder](<Period holders.md>)", "Period"),
     ("replace_periods_tokens", "Periods", "periods", "[Period 🧠 holders](<Period holders.md>)", "Periods"),
     ("replace_nums_tokens", "Nums", "nums", "[Num 🧠 holders](<Num holders.md>)", "Nums"),
