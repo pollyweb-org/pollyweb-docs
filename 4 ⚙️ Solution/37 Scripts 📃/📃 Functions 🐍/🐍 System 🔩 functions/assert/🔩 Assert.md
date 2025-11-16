@@ -33,11 +33,11 @@
 
     |Assertion|Example|Behavior
     |-|-|-
-    |[`$holder`](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | `$h` | Returns [`.IsNotEmpty`](<../../../📃 Holders 🧠/Any 🧠 holders/IsNotEmpty ⓕ any.md>)
+    |[`$holder`](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | `$h` | Returns [`.IsNotEmpty`](<../../../📃 Holders 🧠/Any 📚 holders/IsNotEmpty ⓕ any.md>)
     |[`.Function`](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)`(`[`$holder`](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)`)`| `.Is($h,7)` | Returns the function result
-    | [`$holder`](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)`.`[`Function`](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | `$h.Is(7)` | Returns `False` if [`.IsEmpty`](<../../../📃 Holders 🧠/Any 🧠 holders/IsEmpty ⓕ any.md>)
+    | [`$holder`](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)`.`[`Function`](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | `$h.Is(7)` | Returns `False` if [`.IsEmpty`](<../../../📃 Holders 🧠/Any 📚 holders/IsEmpty ⓕ any.md>)
     ||| Otherwise the [function](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) result 
-    | [`$holder`](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)`: <value>` | `$h: 7`| Same as `$h`[`.Is`](<../../../📃 Holders 🧠/Any 🧠 holders/Is ⓕ any.md>)`(<value>)`
+    | [`$holder`](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)`: <value>` | `$h: 7`| Same as `$h`[`.Is`](<../../../📃 Holders 🧠/Any 📚 holders/Is ⓕ any.md>)`(<value>)`
     
     ---
     <br/>

@@ -54,7 +54,7 @@ Handlers:
             Old.Status: OFFERED
 ```
 
-Uses: [`.Now`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/time/🔩 Now.md>) [`.IsBetween`](<../../../../../37 Scripts 📃/📃 Holders 🧠/Any 🧠 holders/IsBetween ⓕ any.md>) 
+Uses: [`.Now`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/time/🔩 Now.md>) [`.IsBetween`](<../../../../../37 Scripts 📃/📃 Holders 🧠/Any 📚 holders/IsBetween ⓕ any.md>) 
 
 
 ## Links

@@ -40,7 +40,7 @@
     |-|-|-
     | `<set>` | Name of the [Dataset 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | `MySet`
     | `{object}` | [`CALL`](<../../⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>) item to save in the pool | `MyKey` `$key`
-    | `.Delete` | Automatic cleanup with [`{.Add}`](<../../../📃 Holders 🧠/Any 🧠 holders/Add ⓕ any.md>) | `30 days`
+    | `.Delete` | Automatic cleanup with [`{.Add}`](<../../../📃 Holders 🧠/Any 📚 holders/Add ⓕ any.md>) | `30 days`
     | `.OnBlocked`| [`$Holder`](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) name to set `True` | `onBlocked`
     | `$inserted` | [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) with the insertion | `$item`
 
@@ -166,7 +166,7 @@
     
     - SAVE|$item
     ```
-    Uses: [`SELECT`](<../../⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>) [`.Is`](<../../../📃 Holders 🧠/Any 🧠 holders/Is ⓕ any.md>)
+    Uses: [`SELECT`](<../../⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>) [`.Is`](<../../../📃 Holders 🧠/Any 📚 holders/Is ⓕ any.md>)
 
     ---
     <br/>
@@ -183,7 +183,7 @@
                 Now.Add(30 days)
     ```
 
-    Uses: [`.Lower`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Lower}.md>) [`.Now`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/time/🔩 Now.md>) [`.Add`](<../../../📃 Holders 🧠/Any 🧠 holders/Add ⓕ any.md>) 
+    Uses: [`.Lower`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Lower}.md>) [`.Now`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/time/🔩 Now.md>) [`.Add`](<../../../📃 Holders 🧠/Any 📚 holders/Add ⓕ any.md>) 
 
     ---
     <br/>

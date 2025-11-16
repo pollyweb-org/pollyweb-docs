@@ -22,7 +22,7 @@
     |-|-
     | [`$.Inputs` 🧠 holder](<../../../📃 Holders 🧠/🧠 System holders/$.Inputs 🏃/▶️ $.Inputs 🧠 holder.md>)      | Assert inputs from [`RUN`](<../../⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>) commands
     | [`$.Msg` 🧠 holder](<../../../📃 Holders 🧠/🧠 System holders/$.Msg 📨/📨 $.Msg 🧠 holder.md>)         | Assert incoming [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
-    | [`List` holders 🧠](<../../../📃 Holders 🧠/List 🧠 holders/List holders.md>)  | Assert items in list [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)
+    | [`List` holders 🧠](<../../../📃 Holders 🧠/List 📚 holders/List holders.md>)  | Assert items in list [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)
 
     ---
     <br>
@@ -81,14 +81,14 @@
     | Input| Purpose | Examples
     |-|-|-
     | `$object`| Optional initial context | [`$.Msg`](<../../../📃 Holders 🧠/🧠 System holders/$.Msg 📨/📨 $.Msg 🧠 holder.md>) [`.Inputs`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Inputs}.md>)
-    | `<key>` | Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 Assert.md>) a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | `From` `$A` [`$lst.A`](<../../../📃 Holders 🧠/List 🧠 holders/List holders.md>)
-    | `.f(?)`| Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 Assert.md>) a [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)  | [`.IsIn`](<../../../📃 Holders 🧠/Any 🧠 holders/IsIn ⓕ any.md>)`(A,B)`
-    | `:<val>` | Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 Assert.md>) with  [`.Is`](<../../../📃 Holders 🧠/Any 🧠 holders/Is ⓕ any.md>) | `:any-domain.dom`
+    | `<key>` | Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 Assert.md>) a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | `From` `$A` [`$lst.A`](<../../../📃 Holders 🧠/List 📚 holders/List holders.md>)
+    | `.f(?)`| Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 Assert.md>) a [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)  | [`.IsIn`](<../../../📃 Holders 🧠/Any 📚 holders/IsIn ⓕ any.md>)`(A,B)`
+    | `:<val>` | Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 Assert.md>) with  [`.Is`](<../../../📃 Holders 🧠/Any 📚 holders/Is ⓕ any.md>) | `:any-domain.dom`
     
 
     > **Note** 
     * If `AllOf`, `AnyOf`, or `OneOf` are set, 
-    * then [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 Assert.md>) will only be called if [`.IsNotEmpty`](<../../../📃 Holders 🧠/Any 🧠 holders/IsNotEmpty ⓕ any.md>), 
+    * then [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 Assert.md>) will only be called if [`.IsNotEmpty`](<../../../📃 Holders 🧠/Any 📚 holders/IsNotEmpty ⓕ any.md>), 
     * to allow optional inputs to be validated only if they have an assigned value.
 
 
@@ -120,7 +120,7 @@
     <br/>
 
 
-1. **How to assert a [List 🧠](<../../../📃 Holders 🧠/List 🧠 holders/List holders.md>) of [Maps 🧠](<../../../📃 Holders 🧠/Map 🧠 holders/Map holders.md>)?**
+1. **How to assert a [List 🧠](<../../../📃 Holders 🧠/List 📚 holders/List holders.md>) of [Maps 🧠](<../../../📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>)?**
 
     Here's a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
 
@@ -140,12 +140,12 @@
         - B.IsBetween(20,29)
         - C.IsIn(X,Y) 
     ```
-    Uses: [`PUT`](<../PUT ⬇️/⬇️ PUT ⌘ cmd.md>) [`.IsBetween`](<../../../📃 Holders 🧠/Any 🧠 holders/IsBetween ⓕ any.md>) [`.IsIn`](<../../../📃 Holders 🧠/Any 🧠 holders/IsIn ⓕ any.md>)
+    Uses: [`PUT`](<../PUT ⬇️/⬇️ PUT ⌘ cmd.md>) [`.IsBetween`](<../../../📃 Holders 🧠/Any 📚 holders/IsBetween ⓕ any.md>) [`.IsIn`](<../../../📃 Holders 🧠/Any 📚 holders/IsIn ⓕ any.md>)
 
     > Note
     * The [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 Assert.md>) of `C.IsIn(X,Y)` returns `False` because the property `C` doesn't event exist in the third list item.
     * However, that doesn't break the overall assertion.
-    * This is because `AllOf` is set, and it doesn't include `C`, allowing `C` to be asserted only when [`.IsNotEmpty`](<../../../📃 Holders 🧠/Any 🧠 holders/IsNotEmpty ⓕ any.md>).
+    * This is because `AllOf` is set, and it doesn't include `C`, allowing `C` to be asserted only when [`.IsNotEmpty`](<../../../📃 Holders 🧠/Any 📚 holders/IsNotEmpty ⓕ any.md>).
 
     ---
     <br/>
@@ -156,7 +156,7 @@
 
     > This example uses 
     * [`.Parse`](<../PARSE 🔆/🔆 PARSE ⌘ cmd.md>) to break a [`Locator`](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>)
-    *  [`.Is`](<../../../📃 Holders 🧠/Any 🧠 holders/Is ⓕ any.md>) to compare [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
+    *  [`.Is`](<../../../📃 Holders 🧠/Any 📚 holders/Is ⓕ any.md>) to compare [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 
     ```yaml
     📃 Example:

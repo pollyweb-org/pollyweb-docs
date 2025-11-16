@@ -400,7 +400,7 @@ def replace_authorities_tokens(md_files):
 _MAP_PATTERN = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?([Mm]ap)`?[\s\u00A0\u200B\u200C\u200D]*\}\}")
 
 
-@register_hardcoded("map", replacement="[Map 🧠 holder](<Map holders.md>)|[map](<Map holders.md>)", token_label="Map")
+@register_hardcoded("map", replacement="[Map 🧠 holder](<🧠 Map holders.md>)|[map](<🧠 Map holders.md>)", token_label="Map")
 def replace_map_tokens(md_files):
     total = 0
     link_pattern = re.compile(r"\[.*?\]\(<.*?>\)", re.DOTALL)
@@ -426,7 +426,7 @@ def replace_map_tokens(md_files):
 
             token_value = match.group(1)
             # Emit lowercase variant without the emoji when the token is fully lowercase
-            replacement = "[map](<Map holders.md>)" if token_value.islower() else "[Map 🧠 holder](<Map holders.md>)"
+            replacement = "[map](<🧠 Map holders.md>)" if token_value.islower() else "[Map 🧠 holder](<🧠 Map holders.md>)"
             changes += 1
             return replacement
 
@@ -706,10 +706,10 @@ def replace_time_tokens(md_files):
     return total
 
 
-@register_hardcoded("maps", replacement='[Map 🧠 holders](<Map holders.md>)', token_label="Maps")
+@register_hardcoded("maps", replacement='[Map 🧠 holders](<🧠 Map holders.md>)', token_label="Maps")
 def replace_maps_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Maps`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    return _replace_simple(md_files, pattern, '[Map 🧠 holders](<Map holders.md>)')
+    return _replace_simple(md_files, pattern, '[Map 🧠 holders](<🧠 Map holders.md>)')
 
 
 # Generate common simple replacers to reduce repeated boilerplate. These are
