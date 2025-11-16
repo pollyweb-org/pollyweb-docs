@@ -26,7 +26,7 @@
     Body:
         Chat: $chat.ID
         Host: $chat.Host
-        Language: $wallet.Language
+        Language: $chat.Language
         Reviewer: $wallet.Reviewer
 ```
 

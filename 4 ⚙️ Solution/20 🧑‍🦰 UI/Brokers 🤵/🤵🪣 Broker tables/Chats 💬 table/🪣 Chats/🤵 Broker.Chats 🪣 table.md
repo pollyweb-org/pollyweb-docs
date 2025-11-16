@@ -72,7 +72,12 @@ Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/�
 # READ|Chats|<chat-id>
 
 ID: <chat-uuid>
+
+# Wallet info
 Wallet: <wallet-uuid>
+
+# To change the language of the chat
+Language: en-us
 
 # Host info
 Host: any-host.dom
