@@ -11,7 +11,7 @@
 
     |Type|Behavior
     |-|-
-    |[Num 🧠](<../🧠🔩 Num holders/Num holders.md>) | Same as [`.Sum`](<../🧠🔩 Num holders/num.Sum 🔩 ext.md>)
+    |[Num 🧠](<../🧠🔩 Num holders/Num holders.md>) | Same as [`.Sum`](<../🧠🔩 Num holders/.Sum 🔩 num.md>)
     |[Time 🧠](<../🧠🔩 Time holders/Time holders.md>) | Same as [`.Advance`](<../🧠🔩 Time holders/time.Advance 🔩 ext.md>)
 
     ---
@@ -27,7 +27,7 @@
     |-|-|-
     | `original` | Original [Num 🧠 holder](<../🧠🔩 Num holders/Num holders.md>) | `9`
     |           | Original [Time 🧠 holder](<../🧠🔩 Time holders/Time holders.md>) | `.Now`
-    | `additional` | Number(s) for [`.Sum`](<../🧠🔩 Num holders/num.Sum 🔩 ext.md>) | `1` `1,2,3`
+    | `additional` | Number(s) for [`.Sum`](<../🧠🔩 Num holders/.Sum 🔩 num.md>) | `1` `1,2,3`
     |              | Period for [`.Advance`](<../🧠🔩 Time holders/time.Advance 🔩 ext.md>) | `1 day` 
     
     ---
