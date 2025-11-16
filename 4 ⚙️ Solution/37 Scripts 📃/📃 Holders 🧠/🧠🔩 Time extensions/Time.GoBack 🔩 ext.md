@@ -11,7 +11,7 @@
     `{.GoBack}` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that goes back a period from a given time
-    * as opposed to [`.Advance`](<.Advance 🔩 extension.md>).
+    * as opposed to [`.Advance`](<Time.Advance 🔩 ext.md>).
 
     ---
     <br/>
