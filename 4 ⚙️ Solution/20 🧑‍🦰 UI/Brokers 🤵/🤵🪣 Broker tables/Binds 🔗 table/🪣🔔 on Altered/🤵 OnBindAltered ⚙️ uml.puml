@@ -5,7 +5,7 @@
 box Broker 🤵 domain #FFFFFA
     participant "Script 📃" as script
     participant "Binds 🪣" as binds
-    participant "OnAltered 📃" as handler
+    participant "OnAltered 🔔" as handler
     participant "Wallets 🪣" as wallets
     participant "Frontend 🪣" as frontend
 end box
@@ -23,7 +23,7 @@ deactivate binds
 activate handler
     handler -> wallets: READ 🧲
     handler -> frontend: READ 🧲 {Wallet: $wallet.ID}
-    handler -> frontend: SAVE 💾 {Binds: $wallet.Binds}
+    handler -> frontend: SAVE 💾 {$wallet.Binds}
 deactivate handler
 
 @enduml 
