@@ -24,7 +24,7 @@ deactivate wallet
 
 activate pop
     pop -> wallets: READ 🧲
-    pop -> engine: LOCATE 🔆 {script}
+    pop -> engine: REGISTER 🔆 {script}
 deactivate pop
 
 activate engine

@@ -2,7 +2,7 @@
 
 > Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
 
-> Works with the [`LOCATE`](<../LOCATE 🔆/🔆 LOCATE ⌘ cmd.md>) and [`CHAT`](<../../⌘ for holders 🧠/CHAT 💬/💬 CHAT ⌘ cmd.md>) commands
+> Works with the [`REGISTER`](<../REGISTER 🔆/🔆 REGISTER ⌘ cmd.md>) and [`CHAT`](<../../⌘ for holders 🧠/CHAT 💬/💬 CHAT ⌘ cmd.md>) commands
 
 > Implemented by the [`TALK` 📃 script](<😃 TALK 📃 script.md>)
 

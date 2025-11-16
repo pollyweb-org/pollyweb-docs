@@ -1,17 +1,17 @@
-# 😃 .LOCATE 📃 script
+# 😃 .REGISTER 📃 script
 
 > Purpose
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`LOCATE`](<🔆 LOCATE ⌘ cmd.md>) command.
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`REGISTER`](<🔆 REGISTER ⌘ cmd.md>) command.
 
 
 ## Diagram
 
-![alt text](<🔆 LOCATE ⚙️ uml.png>)
+![alt text](<🔆 REGISTER ⚙️ uml.png>)
 
 ## Script
 
 ```yaml
-📃 .LOCATE:
+📃 .REGISTER:
 
 # Assert the inputs
 - ASSERT|.Inputs:

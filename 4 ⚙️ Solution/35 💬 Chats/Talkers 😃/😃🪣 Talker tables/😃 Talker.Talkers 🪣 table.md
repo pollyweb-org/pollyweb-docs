@@ -9,7 +9,7 @@
 > Data access
 
 * [`SAVE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) by a [Hoster ☁️ helper domain](<../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>)
-* [`SAVE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) by the [`LOCATE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/LOCATE 🔆/🔆 LOCATE ⌘ cmd.md>) command
+* [`SAVE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) by the [`REGISTER`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/REGISTER 🔆/🔆 REGISTER ⌘ cmd.md>) command
 * [`READ`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) by the [`TALK` command](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/TALK 😃/😃 TALK ⌘ cmd.md>)
 
 ## Schema
