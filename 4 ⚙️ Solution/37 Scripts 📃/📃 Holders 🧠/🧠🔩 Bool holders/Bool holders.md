@@ -34,7 +34,7 @@
 
     |Group| [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | Returns| Details 
     |-|-|-|-
-    |Assess| [`.IsEmpty`](<../../📃 Functions 🐍/🐍🧠 Holder functions/🔩 {$holder.IsEmpty}.md>) |bool| Is it unset or missing?
+    |Assess| [`.IsEmpty`](<../🧠🔩 Any holders/🔩 {$holder.IsEmpty}.md>) |bool| Is it unset or missing?
     |      | [`.IsNotEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNotEmpty}.md>) |bool| Has a value been provided?
     |Compare| [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) |bool| Is it the expected boolean?
     |        | [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNot}.md>) |bool| Is it the opposite value?
@@ -44,7 +44,7 @@
     |Combine| [`.AllOf`](<../../📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 AllOf.md>) |bool| Are all of these booleans `true`?
     |       | [`.AnyOf`](<../../📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 AnyOf.md>) |bool| Is any of these booleans `true`?
     |       | [`.OneOf`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.OneOf}.md>) |bool| Is exactly one of them `true`?
-    |Default| [`.Default`](<../../📃 Functions 🐍/🐍🧠 Holder functions/🔩 {.Default}.md>) |bool| Substitute a fallback when empty
+    |Default| [`.Default`](<../🧠🔩 Any holders/🔩 {.Default}.md>) |bool| Substitute a fallback when empty
     
     ---
     <br/>
