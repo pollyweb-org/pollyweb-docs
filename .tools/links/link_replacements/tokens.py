@@ -486,6 +486,182 @@ def replace_list_tokens(md_files):
     return total
 
 
+@register_hardcoded("text", replacement="[Text 🧠 holder](<Text holders.md>)|[text](<Text holders.md>)", token_label="Text")
+def replace_text_tokens(md_files):
+    """Replace {{Text}}/{{text}} tokens while preserving link text casing."""
+
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?([Tt]ext)`?[\s\u00A0\u200B\u200C\u200D]*\}\}")
+    link_pattern = re.compile(r"\[.*?\]\(<.*?>\)", re.DOTALL)
+    total = 0
+
+    for md_file in md_files:
+        path = Path(md_file)
+        try:
+            content = path.read_text(encoding="utf-8")
+        except Exception:
+            continue
+
+        link_spans = [m.span() for m in link_pattern.finditer(content)]
+
+        def inside_link(pos: int) -> bool:
+            return any(a <= pos < b for a, b in link_spans)
+
+        changes = 0
+
+        def _repl(match: re.Match[str]) -> str:
+            nonlocal changes
+            if inside_link(match.start()):
+                return match.group(0)
+
+            token_value = match.group(1)
+            replacement = "[text](<Text holders.md>)" if token_value.islower() else "[Text 🧠 holder](<Text holders.md>)"
+            changes += 1
+            return replacement
+
+        new_content, count = pattern.subn(_repl, content)
+
+        if count:
+            try:
+                path.write_text(new_content, encoding="utf-8")
+            except Exception:
+                continue
+            total += count
+
+    return total
+
+
+@register_hardcoded("set", replacement="[Set 🧠 holder](<Set holders.md>)|[set](<Set holders.md>)", token_label="Set")
+def replace_set_tokens(md_files):
+    """Replace {{Set}}/{{set}} tokens while preserving link text casing."""
+
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?([Ss]et)`?[\s\u00A0\u200B\u200C\u200D]*\}\}")
+    link_pattern = re.compile(r"\[.*?\]\(<.*?>\)", re.DOTALL)
+    total = 0
+
+    for md_file in md_files:
+        path = Path(md_file)
+        try:
+            content = path.read_text(encoding="utf-8")
+        except Exception:
+            continue
+
+        link_spans = [m.span() for m in link_pattern.finditer(content)]
+
+        def inside_link(pos: int) -> bool:
+            return any(a <= pos < b for a, b in link_spans)
+
+        changes = 0
+
+        def _repl(match: re.Match[str]) -> str:
+            nonlocal changes
+            if inside_link(match.start()):
+                return match.group(0)
+
+            token_value = match.group(1)
+            replacement = "[set](<Set holders.md>)" if token_value.islower() else "[Set 🧠 holder](<Set holders.md>)"
+            changes += 1
+            return replacement
+
+        new_content, count = pattern.subn(_repl, content)
+
+        if count:
+            try:
+                path.write_text(new_content, encoding="utf-8")
+            except Exception:
+                continue
+            total += count
+
+    return total
+
+
+@register_hardcoded("num", replacement="[Num 🧠 holder](<Num holders.md>)|[num](<Num holders.md>)", token_label="Num")
+def replace_num_tokens(md_files):
+    """Replace {{Num}}/{{num}} tokens while preserving link text casing."""
+
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?([Nn]um)`?[\s\u00A0\u200B\u200C\u200D]*\}\}")
+    link_pattern = re.compile(r"\[.*?\]\(<.*?>\)", re.DOTALL)
+    total = 0
+
+    for md_file in md_files:
+        path = Path(md_file)
+        try:
+            content = path.read_text(encoding="utf-8")
+        except Exception:
+            continue
+
+        link_spans = [m.span() for m in link_pattern.finditer(content)]
+
+        def inside_link(pos: int) -> bool:
+            return any(a <= pos < b for a, b in link_spans)
+
+        changes = 0
+
+        def _repl(match: re.Match[str]) -> str:
+            nonlocal changes
+            if inside_link(match.start()):
+                return match.group(0)
+
+            token_value = match.group(1)
+            replacement = "[num](<Num holders.md>)" if token_value.islower() else "[Num 🧠 holder](<Num holders.md>)"
+            changes += 1
+            return replacement
+
+        new_content, count = pattern.subn(_repl, content)
+
+        if count:
+            try:
+                path.write_text(new_content, encoding="utf-8")
+            except Exception:
+                continue
+            total += count
+
+    return total
+
+
+@register_hardcoded("time", replacement="[Time 🧠 holder](<Time holders.md>)|[time](<Time holders.md>)", token_label="Time")
+def replace_time_tokens(md_files):
+    """Replace {{Time}}/{{time}} tokens while preserving link text casing."""
+
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?([Tt]ime)`?[\s\u00A0\u200B\u200C\u200D]*\}\}")
+    link_pattern = re.compile(r"\[.*?\]\(<.*?>\)", re.DOTALL)
+    total = 0
+
+    for md_file in md_files:
+        path = Path(md_file)
+        try:
+            content = path.read_text(encoding="utf-8")
+        except Exception:
+            continue
+
+        link_spans = [m.span() for m in link_pattern.finditer(content)]
+
+        def inside_link(pos: int) -> bool:
+            return any(a <= pos < b for a, b in link_spans)
+
+        changes = 0
+
+        def _repl(match: re.Match[str]) -> str:
+            nonlocal changes
+            if inside_link(match.start()):
+                return match.group(0)
+
+            token_value = match.group(1)
+            replacement = "[time](<Time holders.md>)" if token_value.islower() else "[Time 🧠 holder](<Time holders.md>)"
+            changes += 1
+            return replacement
+
+        new_content, count = pattern.subn(_repl, content)
+
+        if count:
+            try:
+                path.write_text(new_content, encoding="utf-8")
+            except Exception:
+                continue
+            total += count
+
+    return total
+
+
 @register_hardcoded("maps", replacement='[Map 🧠 holders](<Map holders.md>)', token_label="Maps")
 def replace_maps_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Maps`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
@@ -502,15 +678,12 @@ _GEN_BASIC = [
     ("replace_settings_tokens", "$.Hosted", "$.settings", "[`$.Hosted` 🧠 holder](<📦 $.Hosted 🧠 holder.md>)", "$.Hosted"),
     ("replace_placeholders_tokens", "Placeholders", "placeholders", "[Placeholders 🧠](<Holder 🧠.md>)", "Placeholders"),
     ("replace_lists_tokens", "Lists", "lists", "[List 🧠 holders](<List holders.md>)", "Lists"),
-    ("replace_set_tokens", "Set", "set", "[Set 🧠 holder](<Set holders.md>)", "Set"),
     ("replace_sets_tokens", "Sets", "sets", "[Set 🧠 holders](<Set holders.md>)", "Sets"),
-    ("replace_num_tokens", "Num", "num", "[Num 🧠 holder](<Num holders.md>)", "Num"),
     ("replace_nums_tokens", "Nums", "nums", "[Num 🧠 holders](<Num holders.md>)", "Nums"),
     ("replace_bind_tokens", "Bind", "bind", "[Bind 🔗](<🔗 Bind.md>)", "Bind"),
     ("replace_binds_tokens", "Binds", "binds", "[Binds 🔗](<🔗 Bind.md>)", "Binds"),
     ("replace_locator_tokens", "Locator", "locator", "[Locator 🔆](<🔆 Locator.md>)", "Locator"),
     ("replace_locators_tokens", "Locators", "locators", "[Locators 🔆](<🔆 Locator.md>)", "Locators"),
-    ("replace_text_tokens", "Text", "text", "[Text 🧠 holder](<Text holders.md>)", "Text"),
     ("replace_texts_tokens", "Texts", "texts", "[Text 🧠 holders](<Text holders.md>)", "Texts"),
     ("replace_domain_tokens", "domain", "domain", "[domain 👥](<👥 Domain.md>)", "domain"),
     ("replace_domains_tokens", "domains", "domains", "[domains 👥](<👥 Domain.md>)", "domains"),
@@ -521,11 +694,9 @@ _GEN_BASIC = [
     ("replace_schema_tokens", "Schema", "schema", "[Schema Code 🧩](<🧩 Schema Code.md>)", "Schema"),
     ("replace_schemas_tokens", "Schemas", "schemas", "[Schema Codes 🧩](<🧩 Schema Code.md>)", "Schemas"),
     ("replace_chat_msg_tokens", "$.Chat", "$.chat", "[`$.Chat` 🧠 holder](<💬 $.Chat 🧠 holder.md>)", "$.Chat"),
-    ("replace_time_tokens", "Time", "time", "[Time 🧠 holder](<Time holders.md>)", "Time"),
     ("replace_times_tokens", "Times", "times", "[Time 🧠 holders](<Time holders.md>)", "Times"),
     ("replace_period_tokens", "Period", "period", "[Period 🧠 holder](<Period holders.md>)", "Period"),
     ("replace_periods_tokens", "Periods", "periods", "[Period 🧠 holders](<Period holders.md>)", "Periods"),
-    ("replace_num_tokens", "Num", "num", "[Num 🧠 holder](<Num holders.md>)", "Num"),
     ("replace_nums_tokens", "Nums", "nums", "[Num 🧠 holders](<Num holders.md>)", "Nums"),
     ("replace_command_tokens", "Command", "command", COMMAND_REPLACEMENT, "Command"),
     ("replace_commands_tokens", "Commands", "commands", COMMANDS_REPLACEMENT, "Commands"),
