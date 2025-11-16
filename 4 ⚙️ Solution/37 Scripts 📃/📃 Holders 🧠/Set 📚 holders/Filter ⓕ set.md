@@ -1,6 +1,6 @@
 # 😃ⓕ `set.Filter` extension
 
-> Part of {{Set}}
+> Part of [Set 🧠 holder](<🧠 Set holders.md>)
 
 > Used by [`FILTER`](<../../📃 Commands ⌘/⌘ for holders 🧠/FILTER 🔽/🔽 FILTER ⌘ cmd.md>) [`SELECT`](<../../📃 Commands ⌘/⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>) 
 
