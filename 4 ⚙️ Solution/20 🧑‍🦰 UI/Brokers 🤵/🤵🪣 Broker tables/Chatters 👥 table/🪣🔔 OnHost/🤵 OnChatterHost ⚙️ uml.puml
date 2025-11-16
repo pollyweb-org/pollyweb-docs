@@ -8,13 +8,10 @@ box Broker 🤵 domain #FFFFFA
     participant "OnHost 📃" as handler
 end box
 
-participant "Host 🤲" as host
-
-
+participant "Host 🤗" as host
 
 activate script
     script -> table: SAVE 💾 {HOST}
-
 
 activate table
     table --> handler: HOST 🔔

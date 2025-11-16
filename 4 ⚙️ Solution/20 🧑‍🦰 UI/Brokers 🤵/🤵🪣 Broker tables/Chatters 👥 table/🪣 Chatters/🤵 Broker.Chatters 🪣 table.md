@@ -37,7 +37,6 @@ Handlers:
     OnBroker: BROKER
     OnHost: HOST
     OnHelper: HELPER
-    OnVault: VAULT
 ```
 
 | Link | Table | Contains

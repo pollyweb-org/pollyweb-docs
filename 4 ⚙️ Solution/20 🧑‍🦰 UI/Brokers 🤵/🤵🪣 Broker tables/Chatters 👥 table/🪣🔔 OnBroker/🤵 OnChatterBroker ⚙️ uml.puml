@@ -16,9 +16,9 @@ activate table
 deactivate table
 
 activate handler
-    handler --> wallet: INFO ℹ️ {Reason}
-    handler --> wallet: INFO ℹ️ {Shared binds}
-    handler --> wallet: INFO ℹ️ {Shared tokens}
+    handler --> wallet: INFO ⓘ {reason}
+    handler --> wallet: INFO ⓘ {shared binds}
+    handler --> wallet: INFO ⓘ {shared tokens}
 deactivate handler
 
 @enduml
