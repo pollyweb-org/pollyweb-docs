@@ -46,12 +46,12 @@
     |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Differs}.md>) |bool| Same as [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNot}.md>)
     |Lists  | [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>) |bool| Is it in a given list of numbers?
     |Create | [`.Random`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Random}.md>) |[num][num]| Returns a random number
-    |Change | [`.Sum`](<../🧠🔩 Num extensions/Num.Sum 🔩 ext.md>) |[num][num]| Adds numbers
-    |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) |[num][num]| Same as [`.Sum`](<../🧠🔩 Num extensions/Num.Sum 🔩 ext.md>)
-    |       | [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Plus}.md>) |[num][num]| Same as [`.Sum`](<../🧠🔩 Num extensions/Num.Sum 🔩 ext.md>) | What if we add numbers?
+    |Change | [`.Sum`](<../🧠🔩 Num holders/Num.Sum 🔩 ext.md>) |[num][num]| Adds numbers
+    |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) |[num][num]| Same as [`.Sum`](<../🧠🔩 Num holders/Num.Sum 🔩 ext.md>)
+    |       | [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Plus}.md>) |[num][num]| Same as [`.Sum`](<../🧠🔩 Num holders/Num.Sum 🔩 ext.md>) | What if we add numbers?
     |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Minus}.md>) |[num][num]| Subtracts numbers
-    |       | [`.Times`](<../🧠🔩 Num extensions/Num.Times 🔩 ext.md>) |[num][num]| Multiplies numbers
-    |       | [`.Calculate`](<../🧠🔩 Num extensions/Num.Calculate 🔩 ext.md>) |[num][num]| Calculates formulas
+    |       | [`.Times`](<../🧠🔩 Num holders/Num.Times 🔩 ext.md>) |[num][num]| Multiplies numbers
+    |       | [`.Calculate`](<../🧠🔩 Num holders/Num.Calculate 🔩 ext.md>) |[num][num]| Calculates formulas
     |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) |[num][num]| Distance between 2 numbers
     ---
     <br/>
