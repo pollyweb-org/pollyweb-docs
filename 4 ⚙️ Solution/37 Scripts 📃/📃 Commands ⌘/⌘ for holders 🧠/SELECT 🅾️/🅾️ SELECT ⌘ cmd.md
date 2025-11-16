@@ -35,7 +35,7 @@
     | `Distinct` | Uses [`.Distinct`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Distinct}.md>) to group results 
     | `From` | Uses [`.Cross`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Cross}.md>) to join [List 🧠 holders](<../../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>)
     | `Where` | Uses [`.Filter`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Filter}.md>) to filter [List 🧠](<../../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>) items 
-    | `OrderBy`| Uses [`.Sort`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Sort}.md>) to order the [List 🧠](<../../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>) items
+    | `OrderBy`| Uses [`Set.Sort`](<../../../📃 Holders 🧠/🧠🔩 Set holders/Set.Sort 🔩 ext.md>) to order the [List 🧠](<../../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>) items
     | `Limit` | Uses [`.First`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.First}.md>) to limit the items returned
 
     ---
