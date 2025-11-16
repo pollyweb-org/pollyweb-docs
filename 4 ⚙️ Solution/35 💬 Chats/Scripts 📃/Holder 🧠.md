@@ -38,10 +38,10 @@
     |-|-|
     | [`.IsEmpty`](<../../37 Scripts 📃/📃 Holders 🧠/🧠🔩 Any holders/any.IsEmpty 🔩 ext.md>) | Is it empty?
     | [`.IsNotEmpty`](<../../37 Scripts 📃/📃 Holders 🧠/🧠🔩 Any holders/any.IsNotEmpty 🔩 ext.md>) | Is not empty?
-    | [`.Equals`](<../../37 Scripts 📃/📃 Holders 🧠/🧠🔩 Any holders/any.Equals ext.md>) | Is it the same content?
+    | [`.Equals`](<../../37 Scripts 📃/📃 Holders 🧠/🧠🔩 Any holders/any.Equals 🔩 ext.md>) | Is it the same content?
     | [`.Differs`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Differs}.md>) | Is it a different content?
     | [`.Is`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) | Is it the same meaning?
-    | [`.IsNot`](<../../37 Scripts 📃/📃 Holders 🧠/🧠🔩 Any holders/any.IsNot ext.md>) | Is it a different meaning?
+    | [`.IsNot`](<../../37 Scripts 📃/📃 Holders 🧠/🧠🔩 Any holders/any.IsNot 🔩 ext.md>) | Is it a different meaning?
     | [`.Assert`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 Assert.md>)  | Is the assertion valid?
     | [`.AllOf`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 AllOf.md>) | Are all assertions valid?
     | [`.AnyOf`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 AnyOf.md>) | Is any assertion valid?
@@ -240,7 +240,7 @@
   
     | Function | Holder `$p` | Example | Result
     |-|-|-|-
-    | [`.Add`](<../../37 Scripts 📃/📃 Holders 🧠/🧠🔩 Any holders/any.Add ext.md>) | `[A,B]` | `$p.Add(C)` | `[A,B,C]`
+    | [`.Add`](<../../37 Scripts 📃/📃 Holders 🧠/🧠🔩 Any holders/any.Add 🔩 ext.md>) | `[A,B]` | `$p.Add(C)` | `[A,B,C]`
     | [`.Diff`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) | `[A,B,C]` | `$p.Diff(B)` | `[A,C]`
     | [`.IsIn`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>) | `A` | `$.IsIn([A,B])` | `True`
     | [`.Length`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Size}.md>) | `[A,B]` | `$p.Length()` | `2`

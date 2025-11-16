@@ -41,13 +41,13 @@
     |       | [`.IsBelow`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsBelow}.md>) |bool| Is it below a given number?
     |       | [`.IsBetween`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsBetween}.md>) |bool| Is it between 2 given numbers?
     |Compare| [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) |bool| Is it the same number?
-    |       | [`.IsNot`](<../🧠🔩 Any holders/any.IsNot ext.md>) |bool| Is it a different number?
-    |       | [`.Equals`](<../🧠🔩 Any holders/any.Equals ext.md>) |bool| Same as [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>)
-    |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Differs}.md>) |bool| Same as [`.IsNot`](<../🧠🔩 Any holders/any.IsNot ext.md>)
+    |       | [`.IsNot`](<../🧠🔩 Any holders/any.IsNot 🔩 ext.md>) |bool| Is it a different number?
+    |       | [`.Equals`](<../🧠🔩 Any holders/any.Equals 🔩 ext.md>) |bool| Same as [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>)
+    |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Differs}.md>) |bool| Same as [`.IsNot`](<../🧠🔩 Any holders/any.IsNot 🔩 ext.md>)
     |Lists  | [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>) |bool| Is it in a given list of numbers?
     |Create | [`.Random`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Random}.md>) |[num][num]| Returns a random number
     |Change | [`.Sum`](<num.Sum 🔩 ext.md>) |[num][num]| Adds numbers
-    |       | [`.Add`](<../🧠🔩 Any holders/any.Add ext.md>) |[num][num]| Same as [`.Sum`](<num.Sum 🔩 ext.md>)
+    |       | [`.Add`](<../🧠🔩 Any holders/any.Add 🔩 ext.md>) |[num][num]| Same as [`.Sum`](<num.Sum 🔩 ext.md>)
     |       | [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Plus}.md>) |[num][num]| Same as [`.Sum`](<num.Sum 🔩 ext.md>) | What if we add numbers?
     |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Minus}.md>) |[num][num]| Subtracts numbers
     |       | [`.Times`](<num.Times 🔩 ext.md>) |[num][num]| Multiplies numbers
