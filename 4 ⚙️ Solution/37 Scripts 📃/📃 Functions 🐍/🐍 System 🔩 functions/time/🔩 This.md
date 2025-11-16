@@ -9,7 +9,7 @@
     `{.This}` 
     * is a [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that returns a [Period 🧠 holder](<../../../📃 Holders 🧠/🧠 Output holders/Period holders.md>)
-    * to be used with the [`.IsIn` function](<../../../📃 Holders 🧠/🧠🔩 Any holders/🔩 {.IsIn}.md>).
+    * to be used with the [`.IsIn` function](<../../../📃 Holders 🧠/🧠🔩 Any holders/.IsIn 🔩 any.md>).
 
     ---
     <br/>
@@ -50,7 +50,7 @@
     - ASSERT:
         $date.IsIn(.This(year))
     ```
-    Uses: [`ASSERT`](<../../../📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>)  [`.IsIn`](<../../../📃 Holders 🧠/🧠🔩 Any holders/🔩 {.IsIn}.md>)
+    Uses: [`ASSERT`](<../../../📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>)  [`.IsIn`](<../../../📃 Holders 🧠/🧠🔩 Any holders/.IsIn 🔩 any.md>)
 
     ---
     <br/>

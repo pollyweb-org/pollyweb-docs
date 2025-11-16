@@ -32,11 +32,11 @@
     Group | [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) |Type| Purpose 
     |-|-|-|-
     |Query  | [`.Contains`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Contains}.md>) |bool| Contains a given item?
-    |       | [`.Equals`](<../🧠🔩 Any holders/any.Equals 🔩 ext.md>)   |bool| Has these items in this order?
-    |       | [`.Differs`](<../🧠🔩 Any holders/any.Differs 🔩 ext.md>)  |bool| Does not equal this other list?
+    |       | [`.Equals`](<../🧠🔩 Any holders/.Equals 🔩 any.md>)   |bool| Has these items in this order?
+    |       | [`.Differs`](<../🧠🔩 Any holders/.Differs 🔩 any.md>)  |bool| Does not equal this other list?
     |       | [`.Is`](<../🧠🔩 Any holders/.Is 🔩 any.md>)       |bool| Has these items in any order?
-    |       | [`.IsNot`](<../🧠🔩 Any holders/any.IsNot 🔩 ext.md>)    |bool| Are any of these items missing?
-    |Size   | [`.IsEmpty`](<../🧠🔩 Any holders/any.IsEmpty 🔩 ext.md>)  | bool| Is empty?
+    |       | [`.IsNot`](<../🧠🔩 Any holders/.IsNot 🔩 any.md>)    |bool| Are any of these items missing?
+    |Size   | [`.IsEmpty`](<../🧠🔩 Any holders/.IsEmpty 🔩 any.md>)  | bool| Is empty?
     |       | [`.IsOne`](<.IsOne 🔩 list.md>)    | bool| Has only one item?
     |       | [`.AreMany`](<.AreMany 🔩 list.md>)  | bool| Has more than one item?
     |       | [`.Size`][.Size]     | [num][num]| Returns the number of items
@@ -94,7 +94,7 @@
         - B.IsBetween(20,29)
         - C.IsIn(X,Y)
     ```
-    Uses: [`ASSERT`](<../../📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CALL`](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`.IsBetween`](<../🧠🔩 Any holders/.IsBetween 🔩 any.md>) [`.IsIn`](<../🧠🔩 Any holders/🔩 {.IsIn}.md>)
+    Uses: [`ASSERT`](<../../📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CALL`](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`.IsBetween`](<../🧠🔩 Any holders/.IsBetween 🔩 any.md>) [`.IsIn`](<../🧠🔩 Any holders/.IsIn 🔩 any.md>)
 
     ---
     <br/>
