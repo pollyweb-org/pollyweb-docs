@@ -3,7 +3,7 @@
 participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
-    participant "Remove 📃" as remove
+    participant "Pop@ 📃" as remove
     participant "Tokens 🪣" as tokens
     participant "OnPurge 📃" as purge
 end box
@@ -14,7 +14,7 @@ wallet --> remove: Pop 🐌
 
 activate remove
     remove -> tokens: DELETE 🗑️ {undo}
-'deactivate remove
+deactivate remove
 
 
     tokens --> tokens: wait

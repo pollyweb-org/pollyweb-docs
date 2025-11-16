@@ -1,4 +1,4 @@
-@startuml OnTokenSaved
+@startuml OnTokenRejected
 
 participant "Wallet 👱" as wallet
 
@@ -14,11 +14,11 @@ participant "Issuer 🎴" as issuer
 wallet --> script: Saved 🐌
 
 activate script
-    script -> tokens: SAVE 💾 {ACTIVE}
-'deactivate script
+    script -> tokens: SAVE 💾 {KEPT}
+deactivate script
 
 activate tokens
-    tokens --> change: UPDATED 🔔
+    tokens --> change: KEPT 🔔
 deactivate tokens
 
 activate change
