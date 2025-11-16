@@ -9,7 +9,7 @@
     `{.Equals}`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * similar to [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) but more strict
-    * and the opposite to [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Differs}.md>)
+    * and the opposite to [`.Differs`](<🔩 {.Differs}.md>)
     * that returns `True` if two values are the same
     * or `False` otherwise.
 

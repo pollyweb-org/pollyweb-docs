@@ -39,12 +39,12 @@
     | [`.IsEmpty`](<../../37 Scripts 📃/📃 Holders 🧠/🧠🔩 Any holders/any.IsEmpty 🔩 ext.md>) | Is it empty?
     | [`.IsNotEmpty`](<../../37 Scripts 📃/📃 Holders 🧠/🧠🔩 Any holders/any.IsNotEmpty 🔩 ext.md>) | Is not empty?
     | [`.Equals`](<../../37 Scripts 📃/📃 Holders 🧠/🧠🔩 Any holders/any.Equals 🔩 ext.md>) | Is it the same content?
-    | [`.Differs`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Differs}.md>) | Is it a different content?
+    | [`.Differs`](<../../37 Scripts 📃/📃 Holders 🧠/🧠🔩 Any holders/🔩 {.Differs}.md>) | Is it a different content?
     | [`.Is`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) | Is it the same meaning?
     | [`.IsNot`](<../../37 Scripts 📃/📃 Holders 🧠/🧠🔩 Any holders/any.IsNot 🔩 ext.md>) | Is it a different meaning?
-    | [`.Assert`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 Assert.md>)  | Is the assertion valid?
-    | [`.AllOf`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 AllOf.md>) | Are all assertions valid?
-    | [`.AnyOf`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 AnyOf.md>) | Is any assertion valid?
+    | [`.Assert`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 Assert.md>)  | Is the assertion valid?
+    | [`.AllOf`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 AllOf.md>) | Are all assertions valid?
+    | [`.AnyOf`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 AnyOf.md>) | Is any assertion valid?
     | [`.OneOf`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.OneOf}.md>) | Is a single assertion valid?
 
     ---
