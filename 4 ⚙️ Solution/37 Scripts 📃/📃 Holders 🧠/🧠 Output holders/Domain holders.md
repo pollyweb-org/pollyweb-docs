@@ -7,7 +7,7 @@
 1. **What are Domain holders?**
 
     `Domain` holders 
-    * are [Holders 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) returned by the [`.Domain`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Domain ⓕ.md>) function
+    * are [Holders 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) returned by the [`.Domain`](<../../📃 Functions 🐍/🐍 System 🔩 functions/parsers/Domain ⓕ.md>) function
     * that represent a [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>).
 
     ---
@@ -18,8 +18,8 @@
     | Property | Type | Description
     |-| -|-
     | `Name` | [text](<../Text 📚 holders/🧠 Text holders.md>) | [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name
-    | `Title` | [text](<../Text 📚 holders/🧠 Text holders.md>) | Calls and caches [`.Translate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Translate ⓕ.md>)
-    | `Description` | [text](<../Text 📚 holders/🧠 Text holders.md>) | Calls and caches [`.Translate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Translate ⓕ.md>)
+    | `Title` | [text](<../Text 📚 holders/🧠 Text holders.md>) | Calls and caches [`.Translate`](<../Text 📚 holders/Translate ⓕ.md>)
+    | `Description` | [text](<../Text 📚 holders/🧠 Text holders.md>) | Calls and caches [`.Translate`](<../Text 📚 holders/Translate ⓕ.md>)
     | `IsSecure`| [bool](<../Bool 📚 holders/Bool holders.md>) | Calls [`.IsSecure`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsSecure ⓕ.md>) 
     
     ---
@@ -31,7 +31,7 @@
     [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)|Input|Purpose
     |-|-|-
     |[`.IsSecure`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsSecure ⓕ.md>) || Indicates if DNSSEC is in place 
-    |[`.Translate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Translate ⓕ.md>)|Language| Fills `Title` and `Description` 
+    |[`.Translate`](<../Text 📚 holders/Translate ⓕ.md>)|Language| Fills `Title` and `Description` 
 
     ---
     <br/>
