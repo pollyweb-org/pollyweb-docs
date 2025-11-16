@@ -7,7 +7,7 @@
 1. **What are Set holders?**
 
     `Set` holders 
-    * are [List 🧠 holders](<List holders.md>) that contain [Maps 🧠][map]
+    * are [List 🧠 holders](<../🧠 Input holders/List holders.md>) that contain [Maps 🧠][map]
         * e.g. `[{A:11,B:12}, {A:21,B:22}]`
     * typically representing a collection of similar objects
         * e.g. an [Itemized 🛢 dataset](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>), [`SELECT`](<../../📃 Commands ⌘/⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>)
@@ -24,10 +24,10 @@
     ||[`.Take`][.Take] | [set][set], [map][map] | Equals [`.First`][.First]
     ||[`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>) | [set][set], [map][map] | Return the last `n` [Maps 🧠][map] with [`.Filter`][.Filter]
     ||[`.Filter`][.Filter] | [set][set] | Return [Maps 🧠][map] that match a given filter
-    ||[`.Where`](<../🧠🔩 Set extensions/Set.Where 🔩 ext.md>) | [set][set] | Equals [`.Filter`][.Filter]
+    ||[`.Where`](<Set.Where 🔩 ext.md>) | [set][set] | Equals [`.Filter`][.Filter]
     |Merge| [`.Cross`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Cross}.md>) | [set][set] | Cross multiple [Set 🧠 holders][set]
     |Change | [`.Sort`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Sort}.md>) | [set][set] | Sort [Maps 🧠][map] by key
-    || [`.Format`](<../🧠🔩 Set extensions/Set.Format 🔩 ext.md>) | [set][set] | Select and rename [Map 🧠][map] keys
+    || [`.Format`](<Set.Format 🔩 ext.md>) | [set][set] | Select and rename [Map 🧠][map] keys
     ||[`.Append`][.Append]     |[set][set]| Add items to the list
     |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) |[set][set]| Same as [`.Append`][.Append]
 
