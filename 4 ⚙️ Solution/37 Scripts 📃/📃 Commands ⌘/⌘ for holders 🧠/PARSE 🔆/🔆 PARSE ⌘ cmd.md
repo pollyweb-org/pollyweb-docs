@@ -4,13 +4,14 @@
 
 > Used by [`Grab@Printer`](<../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🅰️ Printer methods/Grab 👥🚀🖨️/🖨️ Grab 🚀 call.md>)
 
-<br/>
+## FAQ
 
-1. **What's a PARSE command?**
+1. **What's the PARSE command?**
    
-   A `PARSE` 
-   * is a handler [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) 
-   * that parses a [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>).
+   `PARSE` 
+   * is a [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) 
+   * that parses a [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) with the [`.Locator`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Locator}.md>) function
+   * or a [Schema Code 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) with the [`.Schema`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Schema}.md>) function.
 
     ---
     <br/>
@@ -20,37 +21,28 @@
     ```yaml
     PARSE >> $out:
         Locator: $locator
+        Schema: $schema
     ```
 
     | Inputs | Purpose
     |-|-
-    | `$locator` | [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) with the [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to parse.
+    | `Locator` | Optional [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) input for [`.Locator`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Locator}.md>)
+    | `Schema`| Optional [Schema Code 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) input for [`.Schema`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Schema}.md>) 
+    | `$out` | [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) with the answer from the parser function
+    |        | Upon multiple inputs, returns a [map](<../../../📃 Holders 🧠/🧠 Holder types/Map holders.md>) of outputs
 
     ---
     <br/>
 
-1. **How to use a PARSE?**
 
-    Consider the following [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) in a holder `$in`.
-
-    ```yaml
-    .HOST:1.0,any-host.dom,ANY-RESOURCE
-    ```
-
-    Here's the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
+1. **How to use the PARSE command?**
+    
+    Here's a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
 
     ```yaml
-    - PARSE|$in >> $out
+    - PARSE >> $out:
+        Locator: .HOST:1.0,any-host.dom,ANY-RESOURCE
     ```
-
-    Here's the properties returned by `$out`.
-
-    | Expression| Result
-    |-|-
-    | `Schema`| `nlweb.dom/HOST:1.0`
-    | `IsAlias` | `False`
-    | `Host`| `any-host.dom`
-    | `Key`| `ANY-RESOURCE`
 
     ---
     <br/>

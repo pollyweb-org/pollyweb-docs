@@ -8,7 +8,7 @@
 
     `FILTER` 🔽
     * is a [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) 
-    * that filters a [List 🧠 holder](<../../../📃 Holders 🧠/🧠 Holder types/List holders.md>) with the [`.Filter`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Filter}.md>) function.
+    * that filters a [Set 🧠 holder](<../../../📃 Holders 🧠/🧠 Holder types/Set holders.md>) with the [`.Filter`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Filter}.md>) function.
 
     ---
     <br/>
@@ -16,7 +16,7 @@
 1. **What's the FILTER syntax?**
 
     ```yaml
-    FILTER|$list1 >> $list2:
+    FILTER|$set1 >> $set2:
         - <property-n>: <value-n>
         - <boolean-n>
     ```

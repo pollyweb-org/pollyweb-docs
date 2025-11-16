@@ -61,6 +61,17 @@ Successful Tests:
     LinkFile: "Async Messages 🐌.md"
     Reasons: This is hardcoded.
 
+  # 🏛️🤲 Authority helper
+  - Given: '{{Authority}}'
+    LinkText: "Authority 🏛️ domain"
+    LinkFile: "🏛️🤲 Authority helper.md"
+    Reasons: This is hardcoded.
+  - Given: '{{Authorities}}'
+    LinkText: "Authority 🏛️ domains"
+    LinkFile: "🏛️🤲 Authority helper.md"
+    Reasons: This is hardcoded.
+
+  # 🔗 Bind
   - Given: '{{Bind}}'
     LinkText: "Bind 🔗"
     LinkFile: "🔗 Bind.md"
@@ -70,11 +81,17 @@ Successful Tests:
     LinkFile: "🔗 Bind.md"
     Reasons: This is hardcoded.
 
+  # 🤵🤲 Broker helper
   - Given: '{{Broker}}'
     LinkText: "Broker 🤵 domain"
     LinkFile: "🤵 Broker 🤲 helper.md"
     Reasons: This is hardcoded.
+  - Given: '{{Brokers}}'
+    LinkText: "Broker 🤵 domains"
+    LinkFile: "🤵 Broker 🤲 helper.md"
+    Reasons: This is hardcoded.
 
+  # ⌘ Command
   - Given: '{{Command}}'
     LinkText: "Command ⌘"
     LinkFile: "Command ⌘.md"
@@ -84,6 +101,7 @@ Successful Tests:
     LinkFile: "Command ⌘.md"
     Reasons: This is hardcoded.
 
+  # 💼🎭 Consumer role
   - Given: '{{Consumer}}'
     LinkText: "Consumer 💼 domain" 
     LinkFile: "💼🎭 Consumer role.md"
@@ -93,6 +111,7 @@ Successful Tests:
     LinkFile: "💼🎭 Consumer role.md"
     Reasons: This is hardcoded.
 
+  # 🔎 Finder agent
   - Given: '{{Finder}}'
     LinkText: "Finder 🔎 domain"
     LinkFile: "🔎 Finder 🫥 agent.md"
@@ -102,6 +121,7 @@ Successful Tests:
     LinkFile: "🔎 Finder 🫥 agent.md"
     Reasons: This is hardcoded.
 
+  # 🤲 Helper domain
   - Given: "{{Helper}}"
     LinkText: "Helper 🤲 domain"
     LinkFile: "🤲👥 Helper domain.md"
@@ -111,6 +131,7 @@ Successful Tests:
     LinkFile: "🤲👥 Helper domain.md"
     Reasons: This is hardcoded.
 
+  # 🧠 Holder
   - Given: "{{Holder}}"
     LinkText: "Holder 🧠"
     LinkFile: "Holder 🧠.md"
@@ -120,6 +141,7 @@ Successful Tests:
     LinkFile: "Holder 🧠.md"
     Reasons: This is hardcoded.
 
+  # 🤗🎭 Host role
   - Given: '{{Host}}'
     LinkText: "Host 🤗 domain"
     LinkFile: "🤗🎭 Host role.md"
@@ -129,6 +151,7 @@ Successful Tests:
     LinkFile: "🤗🎭 Host role.md"
     Reasons: This is hardcoded.
 
+  # 📦 Hosted domain
   - Given: '{{Hosted}}'
     LinkText: "Hosted 📦 domain" 
     LinkFile: "📦👥 Hosted domain.md"
@@ -161,6 +184,10 @@ Successful Tests:
     LinkFile: "🛢🤲 Itemizer helper.md"
     Reasons: This is hardcoded.
 
+  - Given: '{{list}}'
+    LinkText: "list"
+    LinkFile: "List holders.md"
+    Reasons: This is hardcoded.
   - Given: '{{List}}'
     LinkText: "List 🧠 holder"
     LinkFile: "List holders.md"
@@ -197,6 +224,10 @@ Successful Tests:
     LinkFile: "📜 Manifest.md"
     Reasons: This is hardcoded.
 
+  - Given: '{{map}}'
+    LinkText: "map"
+    LinkFile: "Map holders.md"
+    Reasons: This is hardcoded.
   - Given: '{{Map}}'
     LinkText: "Map 🧠 holder"
     LinkFile: "Map holders.md"
@@ -242,6 +273,17 @@ Successful Tests:
     LinkFile: "🧢🫥 Persona agent.md"
     Reasons: This is hardcoded.
 
+  # 🖨️🤲 Printer helper
+  - Given: '{{Printer}}'
+    LinkText: "Printer 🖨️ helper"
+    LinkFile: "🖨️🤲 Printer helper.md"
+    Reasons: This is hardcoded.
+  - Given: '{{Printers}}'
+    LinkText: "Printer 🖨️ helpers"
+    LinkFile: "🖨️🤲 Printer helper.md"
+    Reasons: This is hardcoded.
+
+  # 🤔 Prompt
   - Given: "{{Prompt}}"
     LinkText: "Prompt 🤔"
     LinkFile: "🤔 Prompt.md"
@@ -251,6 +293,7 @@ Successful Tests:
     LinkFile: "🤔 Prompt.md"
     Reasons: This is hardcoded.
 
+  # ⭐ Reviewer agent
   - Given: "{{Reviewer}}"
     LinkText: "Reviewer ⭐ agent"
     LinkFile: "⭐ Reviewer 🫥 agent.md"
@@ -260,6 +303,7 @@ Successful Tests:
     LinkFile: "⭐ Reviewer 🫥 agent.md"
     Reasons: This is hardcoded.
 
+  # 🎭 Domain Role
   - Given: "{{Role}}"
     LinkText: "Role 🎭"
     LinkFile: "👥🎭 Domain Role.md"
@@ -269,6 +313,7 @@ Successful Tests:
     LinkFile: "👥🎭 Domain Role.md"
     Reasons: This is hardcoded.
 
+  # 📃 Script
   - Given: "{{Script}}"
     LinkText: "Script 📃"
     LinkFile: "Script 📃.md"
@@ -278,6 +323,7 @@ Successful Tests:
     LinkFile: "Script 📃.md"
     Reasons: This is hardcoded.
 
+  # 💵🎭 Seller role
   - Given: "{{Seller}}"
     LinkText: "Seller 🎭 domain"
     LinkFile: "💵🎭 Seller role.md"
@@ -287,6 +333,11 @@ Successful Tests:
     LinkFile: "💵🎭 Seller role.md"
     Reasons: This is hardcoded.
 
+  # 🧠 Set holder
+  - Given: '{{set}}'
+    LinkText: "set"
+    LinkFile: "Set holders.md"
+    Reasons: This is hardcoded.
   - Given: '{{Set}}'
     LinkText: "Set 🧠 holder"
     LinkFile: "Set holders.md"
@@ -296,6 +347,7 @@ Successful Tests:
     LinkFile: "Set holders.md"
     Reasons: This is hardcoded.
 
+  # 🌬️🎭 Streamer role
   - Given: "{{Streamer}}"
     LinkText: "Streamer 🌬️ domain"
     LinkFile: "🌬️🎭 Streamer role.md"

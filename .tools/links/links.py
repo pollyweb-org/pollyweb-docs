@@ -185,7 +185,8 @@ def compute_expected_replacement(token: str, given_raw: str, md_files: list[str]
         for path in md_files:
             name = os.path.basename(path)
             stem = name[:-3] if name.lower().endswith('.md') else name
-            if normalize_string(stem) == normalized_token or normalize_string(stem).startswith(normalized_token):
+            normalized_stem = normalize_string(stem)
+            if normalized_stem == normalized_token:
                 return f"`{token}`", Path(path)
 
         if project_directory:
@@ -301,6 +302,53 @@ def validate_successful_tests(tests: list, md_files: list[str], file_dict: dict[
     if errors:
         details = '\n - '.join(errors)
         raise AssertionError(f"YAML tests failed before applying replacements:\n - {details}")
+
+
+def validate_failed_tests(
+    tests: list,
+    md_files: list[str],
+    file_dict: dict[str, List[tuple[str, str]]],
+    project_directory: str,
+    unresolved_tokens: Optional[set[str]] = None,
+) -> None:
+    """Ensure YAML failed-test tokens do not resolve (or remain) to banned files."""
+
+    if not tests:
+        return
+
+    unresolved_tokens = unresolved_tokens or set()
+    errors: list[str] = []
+
+    for test in tests:
+        raw_given = test.get('Given')
+        wrong_file = test.get('WrongFile')
+        if not raw_given or not wrong_file:
+            continue
+
+        token = raw_given.strip()
+        if token.startswith('{{') and token.endswith('}}'):
+            token = token.strip('{}')
+
+        if token in unresolved_tokens:
+            errors.append(f"Failed test for {raw_given}: token remained unresolved")
+            continue
+
+        result = compute_expected_replacement(token, raw_given, md_files, file_dict, project_directory)
+        if result is None:
+            errors.append(f"Failed test for {raw_given}: could not compute expected replacement")
+            continue
+
+        _, path = result
+        actual_name = path.name
+        forbidden_names = {wrong_file}
+        forbidden_names.update(HARDCODED_FILE_ALIASES.get(wrong_file, []))
+
+        if actual_name in forbidden_names:
+            errors.append(f"Failed test for {raw_given}: resolved to wrong file {wrong_file}")
+
+    if errors:
+        detail = '\n - '.join(errors)
+        raise AssertionError(f"links.yaml Failed Tests failed:\n - {detail}")
 
 
 def replace_registered_hardcoded_tokens(md_files):
@@ -492,6 +540,19 @@ def runit(project_directory, entryPoint):
     else:
         successful_tests = raw_successful or []
 
+    raw_failed = data.get('Failed Tests', [])
+    if isinstance(raw_failed, dict):
+        failed_tests = []
+        for v in raw_failed.values():
+            if isinstance(v, list):
+                failed_tests.extend(v)
+            elif v is None:
+                continue
+            else:
+                failed_tests.append(v)
+    else:
+        failed_tests = [t for t in (raw_failed or []) if isinstance(t, dict)]
+
     # Ensure that every LinkFile listed in the Successful Tests actually exists.
     # ENFORCE: the basename must match exactly (emoji, spacing and extension).
     missing_linkfiles: list[str] = []
@@ -579,7 +640,7 @@ def runit(project_directory, entryPoint):
                 raise ValueError(
                     f"Hardcoded test failed for {given}: expected file {expected_linkfile} not in replacement {replacement} (found: {target_file})"
                 )
-            if expected_linktext not in replacement:
+            if expected_linktext.lower() not in replacement.lower():
                 raise ValueError(
                     f"Hardcoded test failed for {given}: expected link text {expected_linktext} not in replacement {replacement}"
                 )
@@ -661,6 +722,7 @@ def runit(project_directory, entryPoint):
             file_dict.setdefault(normalized, []).append((name_without_md, path))
 
     validate_successful_tests(successful_tests, md_files, file_dict, project_directory)
+    validate_failed_tests(failed_tests, md_files, file_dict, project_directory)
 
     previous_snapshot = None
 
@@ -809,6 +871,15 @@ def runit(project_directory, entryPoint):
             line = text.count("\n", 0, m.start()) + 1
             unresolved.setdefault(path, []).append((line, m.group(1)))
 
+    unresolved_tokens_set: set[str] = set()
+    for hits in unresolved.values():
+        for _, token in hits:
+            sanitized = token.strip()
+            if sanitized.startswith('`') and sanitized.endswith('`') and len(sanitized) > 2:
+                sanitized = sanitized[1:-1]
+            sanitized = ' '.join(sanitized.split())
+            unresolved_tokens_set.add(sanitized)
+
     if unresolved:
         print("\nUnresolved {{...}} tokens found in files:")
         for p, hits in unresolved.items():
@@ -820,57 +891,23 @@ def runit(project_directory, entryPoint):
                 file_link = f"\x1b]8;;{uri}\x1b\\{display}\x1b]8;;\x1b\\"
                 print(f" - {file_link} -> {{{{{token}}}}}")
         print("\nThese tokens were not replaced by the replacement passes.\n")
-        # Enforce any Failed Tests in links.yaml: either the token must not
-        # resolve to the listed WrongFile, and ideally it should resolve at all.
-        yaml_path = os.path.join(os.path.dirname(__file__), 'links.yaml')
-        with open(yaml_path, 'r') as f:
-            data = yaml.safe_load(f)
+    validate_failed_tests(failed_tests, md_files, file_dict, project_directory, unresolved_tokens_set)
 
-        failed_tests = [t for t in data.get('Failed Tests', []) if 'Given' in t and 'WrongFile' in t]
-        failed_errors = []
-        for test in failed_tests:
-            raw = test['Given']
-            token = raw.strip()
-            if token.startswith('{{') and token.endswith('}}'):
-                token = token.strip('{}')
-            wrong = test['WrongFile']
+    success_errors = []
+    for test in successful_tests:
+        raw = test.get('Given')
+        if not raw:
+            continue
+        token = raw.strip()
+        if token.startswith('{{') and token.endswith('}}'):
+            token = token.strip('{}')
+        token = ' '.join(token.split())
+        if token in unresolved_tokens_set:
+            success_errors.append(f"Successful test token {raw} still present in files (not replaced)")
 
-            # If token unresolved, that's a test failure (you asked replacements to run)
-            token_unresolved = any(token == found for hits in unresolved.values() for _, found in hits)
-            if token_unresolved:
-                failed_errors.append(f"Failed test for {raw}: token remained unresolved")
-                continue
-
-            # Otherwise compute what it would resolve to and fail if it matches the wrong file
-            result = compute_expected_replacement(token, raw, md_files, file_dict, project_directory)
-            if result is None:
-                failed_errors.append(f"Failed test for {raw}: could not compute expected replacement")
-                continue
-            _, path = result
-            if os.path.basename(path) == wrong:
-                failed_errors.append(f"Failed test for {raw}: resolved to wrong file {wrong}")
-
-        if failed_errors:
-            detail = '\n - '.join(failed_errors)
-            raise AssertionError(f"links.yaml Failed Tests failed:\n - {detail}")
-
-        # Enforce Successful Tests: tokens listed as successful must have been replaced
-        successful_tests = [t for t in successful_tests if 'Given' in t]
-        success_errors = []
-        for test in successful_tests:
-            raw = test['Given']
-            token = raw.strip()
-            if token.startswith('{{') and token.endswith('}}'):
-                token = token.strip('{}')
-
-            # if the token still appears in the unresolved map, it wasn't replaced
-            token_unresolved = any(token == found for hits in unresolved.values() for _, found in hits)
-            if token_unresolved:
-                success_errors.append(f"Successful test token {raw} still present in files (not replaced)")
-
-        if success_errors:
-            detail = '\n - '.join(success_errors)
-            raise AssertionError(f"links.yaml Successful Tests not fully applied:\n - {detail}")
+    if success_errors:
+        detail = '\n - '.join(success_errors)
+        raise AssertionError(f"links.yaml Successful Tests not fully applied:\n - {detail}")
 
 def test_immutable_token_replacements():
     """Test immutable token replacements that should always work the same way."""

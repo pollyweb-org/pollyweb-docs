@@ -362,6 +362,91 @@ def replace_reviewer_tokens(md_files):
 def replace_reviewers_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Reviewers`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
     return _replace_simple(md_files, pattern, '[Reviewer ⭐ agents](<⭐ Reviewer 🫥 agent.md>)')
+
+
+# Hardcoded Printer tokens
+PRINTER_REPLACEMENT = "[Printer 🖨️ helper](<🖨️🤲 Printer helper.md>)"
+
+
+@register_hardcoded("printer", replacement=PRINTER_REPLACEMENT, token_label="Printer")
+def replace_printer_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Printer`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, PRINTER_REPLACEMENT)
+
+
+@register_hardcoded("printers", replacement='[Printer 🖨️ helpers](<🖨️🤲 Printer helper.md>)', token_label="Printers")
+def replace_printers_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Printers`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, '[Printer 🖨️ helpers](<🖨️🤲 Printer helper.md>)')
+
+
+# Hardcoded Authority tokens
+AUTHORITY_REPLACEMENT = "[Authority 🏛️ domain](<🏛️🤲 Authority helper.md>)"
+
+
+@register_hardcoded("authority", replacement=AUTHORITY_REPLACEMENT, token_label="Authority")
+def replace_authority_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Authority`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, AUTHORITY_REPLACEMENT)
+
+
+@register_hardcoded("authorities", replacement='[Authority 🏛️ domains](<🏛️🤲 Authority helper.md>)', token_label="Authorities")
+def replace_authorities_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Authorities`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, '[Authority 🏛️ domains](<🏛️🤲 Authority helper.md>)')
+
+
+# Hardcoded Map token with case-sensitive link text handling
+_MAP_PATTERN = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?([Mm]ap)`?[\s\u00A0\u200B\u200C\u200D]*\}\}")
+
+
+@register_hardcoded("map", replacement="[Map 🧠 holder](<Map holders.md>)", token_label="Map")
+def replace_map_tokens(md_files):
+    total = 0
+    link_pattern = re.compile(r"\[.*?\]\(<.*?>\)", re.DOTALL)
+
+    for md_file in md_files:
+        path = Path(md_file)
+        try:
+            content = path.read_text(encoding="utf-8")
+        except Exception:
+            continue
+
+        link_spans = [m.span() for m in link_pattern.finditer(content)]
+
+        def inside_link(pos: int) -> bool:
+            return any(a <= pos < b for a, b in link_spans)
+
+        changes = 0
+
+        def _repl(match: re.Match[str]) -> str:
+            nonlocal changes
+            if inside_link(match.start()):
+                return match.group(0)
+
+            token_value = match.group(1)
+            replacement = "[map](<Map holders.md>)" if token_value.islower() else "[Map 🧠 holder](<Map holders.md>)"
+            changes += 1
+            return replacement
+
+        new_content = _MAP_PATTERN.sub(_repl, content)
+
+        if changes:
+            try:
+                path.write_text(new_content, encoding="utf-8")
+            except Exception:
+                continue
+            total += changes
+
+    return total
+
+
+@register_hardcoded("maps", replacement='[Map 🧠 holders](<Map holders.md>)', token_label="Maps")
+def replace_maps_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Maps`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, '[Map 🧠 holders](<Map holders.md>)')
+
+
 # Generate common simple replacers to reduce repeated boilerplate. These are
 # intentionally created via helper to keep the explicit simple cases compact.
 _GEN_BASIC = [
@@ -394,8 +479,6 @@ _GEN_BASIC = [
     ("replace_chat_msg_tokens", "$.Chat", "$.chat", "[`$.Chat` 🧠 holder](<💬 $.Chat 🧠 holder.md>)", "$.Chat"),
     ("replace_time_tokens", "Time", "time", "[Time 🧠 holder](<Time holders.md>)", "Time"),
     ("replace_times_tokens", "Times", "times", "[Time 🧠 holders](<Time holders.md>)", "Times"),
-    ("replace_map_tokens", "Map", "map", "[Map 🧠 holder](<Map holders.md>)", "Map"),
-    ("replace_maps_tokens", "Maps", "maps", "[Map 🧠 holders](<Map holders.md>)", "Maps"),
     ("replace_period_tokens", "Period", "period", "[Period 🧠 holders](<Period holders.md>)", "Period"),
     ("replace_periods_tokens", "Periods", "periods", "[Period 🧠 holders](<Period holders.md>)", "Periods"),
     ("replace_num_tokens", "Num", "num", "[Num 🧠 holder](<Num holders.md>)", "Num"),
@@ -483,6 +566,7 @@ def replace_consumers_tokens(md_files):
     return _replace_simple(md_files, pattern, CONSUMERS_REPLACEMENT)
 
 
+@register_hardcoded("brokers", replacement='[Broker 🤵 domains](<🤵 Broker 🤲 helper.md>)', token_label="Brokers")
 def replace_brokers_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Brokers`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
     return _replace_simple(md_files, pattern, "[Broker 🤵 domains](<🤵 Broker 🤲 helper.md>)")

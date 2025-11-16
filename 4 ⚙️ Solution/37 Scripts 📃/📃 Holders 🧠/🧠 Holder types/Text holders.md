@@ -23,7 +23,6 @@
     |       | [`.First`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.First}.md>) |[text][text]| What's the first char?
     |       | [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>) |[text][text]| What's the last char?
     |       | [`.Contains`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Contains}.md>) |bool| Does it contain a given char?
-    |Create | [`.UUID`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.UUID}.md>) |[text][text]| Returns a new unique ID
     |Change | [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>) |[text][text]| What we append the given string?
     |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) |[text][text]| Same as [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>)
     |       | [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Plus}.md>) |[text][text]| Same as [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>)
@@ -31,6 +30,10 @@
     |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Minus}.md>) |[text][text]| Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>)
     |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) |[text][text]| Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>)
     |       | [`.Translate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Translate}.md>) |[text][text]| Translates between languages
+    |Create | [`.UUID`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.UUID}.md>) |[text][text]| Returns a new unique ID
+    |Parse|[`.Locator`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Locator}.md>) | [map](<Map holders.md>) | Parses a [Locator 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) string
+    |     |[`.Schema`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Schema}.md>)  | [map](<Map holders.md>) | Parses a [Schema Code 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) string
+
     ---
     <br/>
 
