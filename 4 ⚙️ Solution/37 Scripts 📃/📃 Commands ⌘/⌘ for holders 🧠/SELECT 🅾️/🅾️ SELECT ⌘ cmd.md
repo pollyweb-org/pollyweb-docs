@@ -29,13 +29,13 @@
 
     |Input|Purpose||
     |-|-|-
-    | `All` | Uses [`.Format`](<../../../📃 Holders 🧠/🧠🔩 Set holders/set.Format2 🔩 ext.md>) to format item properties
-    | `First` | Uses [`.First`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.First}.md>) and [`.Format`](<../../../📃 Holders 🧠/🧠🔩 Set holders/set.Format2 🔩 ext.md>) on the 1st item
-    | `Last` | Uses [`.Last`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>) and [`.Format`](<../../../📃 Holders 🧠/🧠🔩 Set holders/set.Format2 🔩 ext.md>) on the last item
+    | `All` | Uses [`.Format`](<../../../📃 Holders 🧠/🧠🔩 Set holders/set.Format 🔩 ext.md>) to format item properties
+    | `First` | Uses [`.First`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.First}.md>) and [`.Format`](<../../../📃 Holders 🧠/🧠🔩 Set holders/set.Format 🔩 ext.md>) on the 1st item
+    | `Last` | Uses [`.Last`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>) and [`.Format`](<../../../📃 Holders 🧠/🧠🔩 Set holders/set.Format 🔩 ext.md>) on the last item
     | `Distinct` | Uses [`.Distinct`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Distinct}.md>) to group results 
     | `From` | Uses [`.Cross`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Cross}.md>) to join [List 🧠 holders](<../../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>)
     | `Where` | Uses [`.Filter`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Filter}.md>) to filter [List 🧠](<../../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>) items 
-    | `OrderBy`| Uses [`Set.Sort`](<../../../📃 Holders 🧠/🧠🔩 Set holders/set.Sort2 🔩 ext.md>) to order the [List 🧠](<../../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>) items
+    | `OrderBy`| Uses [`Set.Sort`](<../../../📃 Holders 🧠/🧠🔩 Set holders/set.Sort 🔩 ext.md>) to order the [List 🧠](<../../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>) items
     | `Limit` | Uses [`.First`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.First}.md>) to limit the items returned
 
     ---
