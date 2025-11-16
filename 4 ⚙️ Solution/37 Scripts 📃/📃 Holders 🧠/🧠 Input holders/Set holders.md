@@ -24,10 +24,10 @@
     ||[`.Take`][.Take] | [set][set], [map][map] | Equals [`.First`][.First]
     ||[`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>) | [set][set], [map][map] | Return the last `n` [Maps 🧠][map] with [`.Filter`][.Filter]
     ||[`.Filter`][.Filter] | [set][set] | Return [Maps 🧠][map] that match a given filter
-    ||[`.Where`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Where}.md>) | [set][set] | Equals [`.Filter`][.Filter]
+    ||[`.Where`](<../../📃 Functions 🐍/🐍🧠 Set functions/{Set.Where}.md>) | [set][set] | Equals [`.Filter`][.Filter]
     |Merge| [`.Cross`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Cross}.md>) | [set][set] | Cross multiple [Set 🧠 holders][set]
     |Change | [`.Sort`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Sort}.md>) | [set][set] | Sort [Maps 🧠][map] by key
-    || [`.Format`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Format}.md>) | [set][set] | Select and rename [Map 🧠][map] keys
+    || [`.Format`](<../../📃 Functions 🐍/🐍🧠 Set functions/{Set.Format}.md>) | [set][set] | Select and rename [Map 🧠][map] keys
     ||[`.Append`][.Append]     |[set][set]| Add items to the list
     |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) |[set][set]| Same as [`.Append`][.Append]
 
