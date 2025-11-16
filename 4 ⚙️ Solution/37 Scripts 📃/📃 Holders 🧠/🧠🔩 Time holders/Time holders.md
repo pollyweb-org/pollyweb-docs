@@ -28,11 +28,11 @@
     |       | [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>)       |bool| Is it in a given [Period 🧠 holder](<../🧠 Output holders/Period holders.md>)?
     |Assess   | [`.IsEmpty`](<../🧠🔩 Any holders/any.IsEmpty 🔩 ext.md>) |bool| Is it empty, i.e. no time given?
     |         | [`.IsNotEmpty`](<../🧠🔩 Any holders/any.IsNotEmpty 🔩 ext.md>) |bool| Is it not empty?
-    |Change | [`.Advance`](<time.Advance2 🔩 ext.md>) |[time](<Time holders.md>)| What if we add time?
-    |       | [`.Add`](<../🧠🔩 Any holders/any.Add 🔩 ext.md>) |[time](<Time holders.md>)| Same as [`.Advance`](<time.Advance2 🔩 ext.md>)Time 🧠 functions/🔩 .Advance.md
-    |       | [`.Plus`](<../🧠🔩 Any holders/any.Plus 🔩 ext.md>) |[time](<Time holders.md>)| Same as [`.Advance`](<time.Advance2 🔩 ext.md>)Time 🧠 functions/🔩 .Advance.md
-    |       | [`.GoBack`](<time.GoBack2 🔩 ext.md>) |[time](<Time holders.md>)| What if we remove time?
-    |       | [`.Minus`](<../🧠🔩 Any holders/any.Minus 🔩 ext.md>)|[time](<Time holders.md>)| Same as [`.GoBack`](<time.GoBack2 🔩 ext.md>)Time 🧠 functions/🔩 .GoBack.md
+    |Change | [`.Advance`](<time.Advance 🔩 ext.md>) |[time](<Time holders.md>)| What if we add time?
+    |       | [`.Add`](<../🧠🔩 Any holders/any.Add 🔩 ext.md>) |[time](<Time holders.md>)| Same as [`.Advance`](<time.Advance 🔩 ext.md>)Time 🧠 functions/🔩 .Advance.md
+    |       | [`.Plus`](<../🧠🔩 Any holders/any.Plus 🔩 ext.md>) |[time](<Time holders.md>)| Same as [`.Advance`](<time.Advance 🔩 ext.md>)Time 🧠 functions/🔩 .Advance.md
+    |       | [`.GoBack`](<time.GoBack 🔩 ext.md>) |[time](<Time holders.md>)| What if we remove time?
+    |       | [`.Minus`](<../🧠🔩 Any holders/any.Minus 🔩 ext.md>)|[time](<Time holders.md>)| Same as [`.GoBack`](<time.GoBack 🔩 ext.md>)Time 🧠 functions/🔩 .GoBack.md
   
 
     ---
