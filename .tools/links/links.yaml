@@ -219,7 +219,7 @@ Successful Tests:
     LinkText: "Period 🧠 holder"
     LinkFile: "Period holders.md"
     Reasons: This is hardcoded.
-  - Given: '{{Period}}'
+  - Given: '{{Periods}}'
     LinkText: "Period 🧠 holders"
     LinkFile: "Period holders.md"
     Reasons: This is hardcoded.

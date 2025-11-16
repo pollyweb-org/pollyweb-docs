@@ -17,8 +17,6 @@ About:
     SmallIcon: 'https://picsum.photos/20/20'
     BigIcon: 'https://picsum.photos/100/100'
 
-    Buffer: any-buffer.dom
-
     Translations: 
       - Language: pt-br
         Title: Um domínio qualquer
@@ -32,9 +30,7 @@ About:
 | `Description` | string | Optional human readable description
 | `SmallIcon`  | string | Optional URL to a small icon (20x20)
 | `BigIcon`   | string | Optional URL to a big icon (100x100)
-| `Translations` | [Set 🧠 holder](<../../../37 Scripts 📃/📃 Holders 🧠/🧠 Holder types/Set holders.md>) | Optional translations of the domain name
-| `Buffer` | string | Optional [Buffer ⏳ helper domain](<../../../45 🤲 Helper domains/Buffers ⏳/⏳🤲 Buffer helper.md>) name 
-|||If not set, it's assumed `buffer.nlweb.
+| `Translations` | [set](<../../../37 Scripts 📃/📃 Holders 🧠/🧠 Holder types/Set holders.md>) | Optional translations of the domain name
 |
 
 <br/>
