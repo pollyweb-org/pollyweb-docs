@@ -44,7 +44,7 @@
     |Combine| [`.AllOf`](<../../📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 AllOf.md>) |bool| Are all of these booleans `true`?
     |       | [`.AnyOf`](<../../📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 AnyOf.md>) |bool| Is any of these booleans `true`?
     |       | [`.OneOf`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.OneOf}.md>) |bool| Is exactly one of them `true`?
-    |Default| [`.Default`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Default}.md>) |bool| Substitute a fallback when empty
+    |Default| [`.Default`](<../../📃 Functions 🐍/🐍🧠 Holder functions/🔩 {.Default}.md>) |bool| Substitute a fallback when empty
     
     ---
     <br/>
