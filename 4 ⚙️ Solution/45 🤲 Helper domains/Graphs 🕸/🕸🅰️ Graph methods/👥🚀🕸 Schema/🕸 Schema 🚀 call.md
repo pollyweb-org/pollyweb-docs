@@ -3,19 +3,19 @@
 
 # 👥🚀🕸 Schema @ Graph
 
-> Part of [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>)
+> Part of [Graph 🕸 domain][Graph]
 
+> Purpose
 
-* Gets the schema of a [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) 
-    * as defined in [`.MANIFEST/CODE` 🧩](<../../../../30 🧩 Data/Manifests 📜/📜🧩 Manifest schemas/🧩 CODE.md>) 
-    * of [domain Manifests 📜](<../../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>).
+* Gets the schema of a [Schema 🧩][Schema] 
+    * as defined in [`.MANIFEST/CODE` 🧩][CODE] 
+    * of [domain Manifests 📜][Manifest].
 * When the schema references other schemas with `$ref`, 
     * this method returns the final merged schema for independent validation 
     * i.e., there's no need for further calls to get the referenced schemas.
 
-<br/>
 
-## Synchronous Call 🚀
+## Sync Call 🚀
 
 ```yaml
 Header: 
@@ -25,22 +25,24 @@ Header:
 
 Body:
     Schema: iata.org/SSR/WCHR:2.1
+    Language: pt-br
 ```
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header|`From`|text| The name of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) asking
-|       |`To`|text| [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>) name
+| Header|`From`|text| The name of the [domain 👥][Domain] asking
+|       |`To`|text| [Graph 🕸 domain][Graph] name
 |       | `Subject` |text| `Schema@Graph`
-| Body  | `Schema`    |text| [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
-|
+| Body  | `Schema`    |text| [Schema 🧩][Schema]
+|| `Language`  |text| Translation, defaults to `en-us`
 
 
-<br/>
 
-## Synchronous Response
+## Sync Response
 
 ```yaml
+Title: Assistência para mobilidade reduzida
+Description: > Assistência para passageiros com mobilidade reduzida, incluindo cadeira de rodas, andadores, muletas.
 Version: 2.1
 Inherits: nlweb.dom/CREDENTIAL:1
 Location: https://iata.org/nlweb/schemas/SSR-WCHR.json
@@ -49,8 +51,18 @@ Format: IsElectric, Size, NeedsAssistant, DateOfBirth
 
 |Property|Type|Description
 |-|-|-
-| `Version`  | timestamp | Start of matching period
-| `Inherits` | timestamp | The base [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>), if inherited
+| `Title`    |text| Translated schema title
+| `Description` |text| Translated schema description
+| `Version`  | text | [Schema 🧩][Schema] version
+| `Inherits` | text | The base [Schema 🧩][Schema], if inherited
 | `Location` |text| URL to read the Schema from, if external
 | `Format`   |text| The structure of the Schema
 |
+
+
+
+[Schema]: <../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>
+[Manifest]: <../../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>
+[CODE]: <../../../../30 🧩 Data/Manifests 📜/📜🧩 Manifest schemas/🧩 CODE.md>
+[Graph]: <../../🕸 Graph/🕸🤲 Graph helper.md>
+[Domain]: <../../../../40 👥 Domains/👥 Domain/👥 Domain.md>
