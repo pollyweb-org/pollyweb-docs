@@ -37,7 +37,7 @@ Body:
 ||`Helper`  | [text][text]  | Invitee [Helper 🤲](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>) || [`Invited@`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲🅰️ Helper methods/🤵🐌🤲 Invited/🤲 Invited 🐌 msg.md>)
 ||`Schema`     | [text][text]  | Related [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) ||[`Invited@`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲🅰️ Helper methods/🤵🐌🤲 Invited/🤲 Invited 🐌 msg.md>)
 ||`Hook` | uuid    | Hook || [`Invited@`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲🅰️ Helper methods/🤵🐌🤲 Invited/🤲 Invited 🐌 msg.md>)
-||`Inputs`| [map](<../../../../37 Scripts 📃/📃 Holders 🧠/Map 🧠 holders/Map holders.md>)   | Optional inputs ||[`Invited@`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲🅰️ Helper methods/🤵🐌🤲 Invited/🤲 Invited 🐌 msg.md>)
+||`Inputs`| [map](<../../../../37 Scripts 📃/📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>)   | Optional inputs ||[`Invited@`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲🅰️ Helper methods/🤵🐌🤲 Invited/🤲 Invited 🐌 msg.md>)
 |
 
 [text]: <../../../../37 Scripts 📃/📃 Holders 🧠/🧠 Input holders/Text holders.md>

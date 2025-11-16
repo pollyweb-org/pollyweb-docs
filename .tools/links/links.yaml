@@ -226,15 +226,15 @@ Successful Tests:
 
   - Given: '{{map}}'
     LinkText: "map"
-    LinkFile: "Map holders.md"
+    LinkFile: "🧠 Map holders.md"
     Reasons: This is hardcoded.
   - Given: '{{Map}}'
     LinkText: "Map 🧠 holder"
-    LinkFile: "Map holders.md"
+    LinkFile: "🧠 Map holders.md"
     Reasons: This is hardcoded.
   - Given: '{{Maps}}'
     LinkText: "Map 🧠 holders"
-    LinkFile: "Map holders.md"
+    LinkFile: "🧠 Map holders.md"
     Reasons: This is hardcoded.
 
   - Given: '{{bool}}'

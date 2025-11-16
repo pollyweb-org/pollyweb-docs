@@ -26,7 +26,7 @@
 
     Input | Purpose
     |-|-
-    | `assertions...` | [List 🧠](<../../../📃 Holders 🧠/List 🧠 holders/List holders.md>) of assertions for [`.Assert`](<🔩 Assert.md>)
+    | `assertions...` | [List 🧠](<../../../📃 Holders 🧠/List 📚 holders/List holders.md>) of assertions for [`.Assert`](<🔩 Assert.md>)
    
     ---
     <br/>

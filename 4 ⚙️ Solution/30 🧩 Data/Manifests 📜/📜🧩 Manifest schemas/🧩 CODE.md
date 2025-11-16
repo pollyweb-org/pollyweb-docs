@@ -48,13 +48,13 @@ Blueprint:
 | `Emoji` | text | Standard representation in [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 | `Name` | text | Human name of the [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>) 
 | `Description`| text | Human  description of the [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>)  
-| `Resources`  | [map](<../../../37 Scripts 📃/📃 Holders 🧠/Map 🧠 holders/Map holders.md>) | Dictionary of external resources
-| `Translations` | [map](<../../../37 Scripts 📃/📃 Holders 🧠/Map 🧠 holders/Map holders.md>) | Dictionary of translations
+| `Resources`  | [map](<../../../37 Scripts 📃/📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>) | Dictionary of external resources
+| `Translations` | [map](<../../../37 Scripts 📃/📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>) | Dictionary of translations
 | `Version`       | text | Version in `major/breaks`.`minor/safe`   
-| `Properties`    | [list](<../../../37 Scripts 📃/📃 Holders 🧠/List 🧠 holders/List holders.md>)  | Optional human readable list of attributes |
+| `Properties`    | [list](<../../../37 Scripts 📃/📃 Holders 🧠/List 📚 holders/List holders.md>)  | Optional human readable list of attributes |
 | `Inherits`      | text | Optional inheritance for QR codes | `.TOKEN`
 | `Location`      | url | Optional external location of the [JSON schema](<https://json-schema.org/>) |
-| `Format`       | [map](<../../../37 Scripts 📃/📃 Holders 🧠/Map 🧠 holders/Map holders.md>) | Optional [JSON schema](<https://json-schema.org/>) for machine validation |
+| `Format`       | [map](<../../../37 Scripts 📃/📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>) | Optional [JSON schema](<https://json-schema.org/>) for machine validation |
 | `$ref 🧩`  | text | Sub-schema from `property`@`code`:`version`
 |
 
