@@ -29,7 +29,7 @@
     |Change | [`Set.Sort`](<Set.Sort 🔩 ext.md>) | [set][set] | Sort [Maps 🧠][map] by key
     || [`.Format`](<Set.Format 🔩 ext.md>) | [set][set] | Select and rename [Map 🧠][map] keys
     ||[`.Append`][.Append]     |[set][set]| Add items to the list
-    |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) |[set][set]| Same as [`.Append`][.Append]
+    |       | [`.Add`](<../🧠🔩 Any holders/🔩 {.Add}.md>) |[set][set]| Same as [`.Append`][.Append]
 
     ---
     <br/>

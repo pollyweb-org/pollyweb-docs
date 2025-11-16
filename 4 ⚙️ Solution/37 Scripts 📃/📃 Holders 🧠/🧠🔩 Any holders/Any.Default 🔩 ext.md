@@ -10,12 +10,12 @@
 1. **What's the .Default syntax?**
 
     ```yaml
-    .Default(holder, defaults...)
+    .Default($holder, defaults...)
     ```
 
     | Inputs | Purpose 
     |-|-
-    | `holder` | [Holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) to assess 
+    | `$holder` | [Holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) to assess 
     | `defaults...` | List of potential defaults
 
 

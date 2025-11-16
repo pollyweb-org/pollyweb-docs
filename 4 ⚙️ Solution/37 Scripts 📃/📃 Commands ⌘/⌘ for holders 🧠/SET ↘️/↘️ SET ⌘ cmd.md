@@ -16,7 +16,7 @@
 
 1. **What's the [`SET`](<↘️ SET ⌘ cmd.md>) syntax?**
 
-    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) syntax.
+    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 {.Evaluate}.md>) syntax.
 
     |Syntax| Behavior
     |-|-|
@@ -40,7 +40,7 @@
 
 1. **How to change a single property in a $holder?**
   
-    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) syntax.
+    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 {.Evaluate}.md>) syntax.
 
     Here's the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
 

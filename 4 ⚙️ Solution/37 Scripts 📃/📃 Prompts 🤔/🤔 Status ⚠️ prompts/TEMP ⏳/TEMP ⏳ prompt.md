@@ -50,7 +50,7 @@
 
 1. **What's the TEMP syntax for a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)?**
 
-    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) syntax.
+    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 {.Evaluate}.md>) syntax.
 
     ```yaml
     # Inline

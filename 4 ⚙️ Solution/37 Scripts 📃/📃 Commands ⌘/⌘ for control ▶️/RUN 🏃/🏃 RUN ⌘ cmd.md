@@ -16,14 +16,14 @@
 
 1. **What's the RUN syntax?**
 
-    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) syntax.
+    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 {.Evaluate}.md>) syntax.
 
     |Syntax | Behavior
     |-|-
     |`RUN\|script` | Runs the `script` [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
     |`RUN: script` | Equals `RUN\|script`
     |`RUN\|$holder` | Runs the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) named by the [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)
-    |`RUN\|script: *` | Runs `script` with [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>)(`*`) inputs
+    |`RUN\|script: *` | Runs `script` with [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 {.Evaluate}.md>)(`*`) inputs
     |`RUN\|script(*)` | Same as `RUN\|script: *`
     |`RUN\|s1(*),s2(*)` | Runs the `s1` and `s2` [Scripts 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) in sequence
     |`RUN: s1(*),s2(*)` | Equals `RUN\|s1(*),s2(*)`
@@ -40,7 +40,7 @@
     |-|-| -
     | `script`| [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to execute | `MyScript`
     | `$out`| Optional [`RETURN`](<../RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) holder | `$return`
-    | `*`  | Optional inputs to [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) | `1,2` `A,$B` `{A:1,$B}`
+    | `*`  | Optional inputs to [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 {.Evaluate}.md>) | `1,2` `A,$B` `{A:1,$B}`
     |           | Read `$n`  inside the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) | `$1` `$2`
     | | Read `$name` in the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) | `$B`|
     | | Read with [`{.Inputs}`](<../../../📃 Holders 🧠/🧠 System holders/$.Inputs 🏃/▶️ $.Inputs 🧠 holder.md>) | `.Inputs.B` `$.Inputs.B`

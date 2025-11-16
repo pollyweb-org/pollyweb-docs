@@ -36,7 +36,7 @@
 
     | [{Function} 🐍](<Function 🐍.md>) | Purpose
     |-|-|
-    | [`.IsEmpty`](<../../37 Scripts 📃/📃 Holders 🧠/🧠🔩 Any holders/🔩 {$holder.IsEmpty}.md>) | Is it empty?
+    | [`.IsEmpty`](<../../37 Scripts 📃/📃 Holders 🧠/🧠🔩 Any holders/Any.IsEmpty 🔩 ext.md>) | Is it empty?
     | [`.IsNotEmpty`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNotEmpty}.md>) | Is not empty?
     | [`.Equals`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Equals}.md>) | Is it the same content?
     | [`.Differs`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Differs}.md>) | Is it a different content?
@@ -240,7 +240,7 @@
   
     | Function | Holder `$p` | Example | Result
     |-|-|-|-
-    | [`.Add`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) | `[A,B]` | `$p.Add(C)` | `[A,B,C]`
+    | [`.Add`](<../../37 Scripts 📃/📃 Holders 🧠/🧠🔩 Any holders/🔩 {.Add}.md>) | `[A,B]` | `$p.Add(C)` | `[A,B,C]`
     | [`.Diff`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) | `[A,B,C]` | `$p.Diff(B)` | `[A,C]`
     | [`.IsIn`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>) | `A` | `$.IsIn([A,B])` | `True`
     | [`.Length`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Size}.md>) | `[A,B]` | `$p.Length()` | `2`

@@ -11,14 +11,14 @@
     A `DEFAULT`
     * is a handler [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) 
     * that assigns default values when they are missing
-    * by leveraging the [`.Default`](<../../../📃 Holders 🧠/🧠🔩 Any holders/🔩 {.Default}.md>) function.
+    * by leveraging the [`.Default`](<../../../📃 Holders 🧠/🧠🔩 Any holders/Any.Default 🔩 ext.md>) function.
   
     ---
     <br/>
 
 1. **What's the syntax for defaults?**
 
-    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) syntax.
+    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 {.Evaluate}.md>) syntax.
 
     ```yaml
     DEFAULT|$input:

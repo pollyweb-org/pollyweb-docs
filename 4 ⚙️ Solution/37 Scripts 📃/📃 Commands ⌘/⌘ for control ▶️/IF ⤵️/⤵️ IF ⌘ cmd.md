@@ -17,7 +17,7 @@
 
 1. **What's the IF syntax for then-only IFs?**
 
-    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) syntax.
+    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 {.Evaluate}.md>) syntax.
 
     ```yaml
     IF:
