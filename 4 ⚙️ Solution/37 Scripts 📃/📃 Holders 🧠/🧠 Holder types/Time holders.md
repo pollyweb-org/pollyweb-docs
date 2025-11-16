@@ -20,12 +20,12 @@
     |-|-|-|-
     |Get    | [`.Now`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Now}.md>)     |[time](<Time holders.md>)|What's the current time?
     |       | [`.Today`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Today}.md>) |[time](<Time holders.md>)| What's the current date?
-    |       | [`.This`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.This}.md>)      |[Period 🧠 holders](<Period holders.md>)| What's the given current period? 
-    |       | [`.Previous`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Previous}.md>)  |[Period 🧠 holders](<Period holders.md>)| What's the given previous period? 
-    |       | [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>)      |[Period 🧠 holders](<Period holders.md>)| What's the given last period?
-    |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) |[Period 🧠 holders](<Period holders.md>)| How long between two times?
+    |       | [`.This`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.This}.md>)      |[period](<Period holders.md>)| What's the given current period? 
+    |       | [`.Previous`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Previous}.md>)  |[period](<Period holders.md>)| What's the given previous period? 
+    |       | [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>)      |[period](<Period holders.md>)| What's the given last period?
+    |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) |[period](<Period holders.md>)| How long between two times?
     |Compare| [`.IsBetween`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsBetween}.md>)  |bool| Is it between two given times?
-    |       | [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>)       |bool| Is it in a given [Period 🧠 holders](<Period holders.md>)?
+    |       | [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>)       |bool| Is it in a given [Period 🧠 holder](<Period holders.md>)?
     |Assess   | [`.IsEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsEmpty}.md>) |bool| Is it empty, i.e. no time given?
     |         | [`.IsNotEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNotEmpty}.md>) |bool| Is it not empty?
     |Change | [`.Advance`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Advance}.md>) |[time](<Time holders.md>)| What if we add time?
