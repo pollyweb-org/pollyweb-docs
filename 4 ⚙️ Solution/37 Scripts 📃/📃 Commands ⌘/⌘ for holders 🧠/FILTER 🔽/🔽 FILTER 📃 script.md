@@ -10,13 +10,13 @@
 
 # Assert the inputs
 - ASSERT:
-    AllOf: $filters
-    Lists: $list, $filters
+    AllOf: $Filters
+    Lists: $Set, $Filters
 
 # Filter the list
 - CALL|.Filter >> $output:
-    - $list
-    - $filters
+    - $Set
+    - $Filters
 
 # Return the output
 - RETURN|$output
