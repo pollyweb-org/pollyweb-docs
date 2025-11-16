@@ -37,12 +37,12 @@
 
     |Group| [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | Type | Details 
     |-|-|-|-
-    | Assess| [`.IsEmpty`](<../🧠🔩 Any holders/any.IsEmpty 🔩 ext.md>) | bool| Is it an empty [Holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)?
-    |       | [`.IsNotEmpty`](<../🧠🔩 Any holders/any.IsNotEmpty 🔩 ext.md>) | bool | Does it contain a map?
+    | Assess| [`.IsEmpty`](<../🧠🔩 Any holders/.IsEmpty 🔩 any.md>) | bool| Is it an empty [Holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)?
+    |       | [`.IsNotEmpty`](<../🧠🔩 Any holders/.IsNotEmpty 🔩 any.md>) | bool | Does it contain a map?
     |Compare| [`.Is`](<../🧠🔩 Any holders/.Is 🔩 any.md>) | bool | Is it the same map meaning?
-    |       | [`.IsNot`](<../🧠🔩 Any holders/any.IsNot 🔩 ext.md>) | bool | Is it a different meaning?
-    |       | [`.Equals`](<../🧠🔩 Any holders/any.Equals 🔩 ext.md>) | bool | Same as [`.Is`](<../🧠🔩 Any holders/.Is 🔩 any.md>) 
-    |       | [`.Differs`](<../🧠🔩 Any holders/any.Differs 🔩 ext.md>) | bool | Same as [`.IsNot`](<../🧠🔩 Any holders/any.IsNot 🔩 ext.md>)
+    |       | [`.IsNot`](<../🧠🔩 Any holders/.IsNot 🔩 any.md>) | bool | Is it a different meaning?
+    |       | [`.Equals`](<../🧠🔩 Any holders/.Equals 🔩 any.md>) | bool | Same as [`.Is`](<../🧠🔩 Any holders/.Is 🔩 any.md>) 
+    |       | [`.Differs`](<../🧠🔩 Any holders/.Differs 🔩 any.md>) | bool | Same as [`.IsNot`](<../🧠🔩 Any holders/.IsNot 🔩 any.md>)
     |Read | [`.Key`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Key}.md>) | [map][map] | Return a pair with a given key
     || [`.Keys`](<.Keys 🔩 map.md>) | [list](<../🧠🔩 List holders/List holders.md>)  |Return all pair keys as a [List 🧠](<../🧠🔩 List holders/List holders.md>)
     || [`.Value`](<../🧠🔩 Any holders/.Value 🔩 any.md>) | any | Return the value of a given key

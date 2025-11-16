@@ -8,16 +8,16 @@
 
     |Group| [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | Returns| Details 
     |-|-|-|-
-    | Assess| [`.IsEmpty`](<../🧠🔩 Any holders/any.IsEmpty 🔩 ext.md>) | bool | Is it an empty text?
-    |       | [`.IsNotEmpty`](<../🧠🔩 Any holders/any.IsNotEmpty 🔩 ext.md>) | bool | Is it text, not just spaces?
+    | Assess| [`.IsEmpty`](<../🧠🔩 Any holders/.IsEmpty 🔩 any.md>) | bool | Is it an empty text?
+    |       | [`.IsNotEmpty`](<../🧠🔩 Any holders/.IsNotEmpty 🔩 any.md>) | bool | Is it text, not just spaces?
     |Bounds | [`.IsAbove`](<../🧠🔩 Any holders/.IsAbove 🔩 any.md>) | bool | Is it after in alphabetical order?
     |       | [`.IsBelow`](<../🧠🔩 Any holders/.IsBelow 🔩 any.md>) | bool | Is it before in alphabetical order?
     |       | [`.IsBetween`](<../🧠🔩 Any holders/.IsBetween 🔩 any.md>) | bool | Is it between in alphabetical order?
     |Compare| [`.Is`](<../🧠🔩 Any holders/.Is 🔩 any.md>) | bool | Does it have the same meaning?
-    |       | [`.IsNot`](<../🧠🔩 Any holders/any.IsNot 🔩 ext.md>) | bool | Does it have another meaning?
-    |       | [`.Equals`](<../🧠🔩 Any holders/any.Equals 🔩 ext.md>) | bool | Is it exactly the same string of chars?
-    |       | [`.Differs`](<../🧠🔩 Any holders/any.Differs 🔩 ext.md>) | bool | Is it a different string of chars?
-    |Lists  | [`.IsIn`](<../🧠🔩 Any holders/🔩 {.IsIn}.md>) |bool| Is it in a given list of texts?
+    |       | [`.IsNot`](<../🧠🔩 Any holders/.IsNot 🔩 any.md>) | bool | Does it have another meaning?
+    |       | [`.Equals`](<../🧠🔩 Any holders/.Equals 🔩 any.md>) | bool | Is it exactly the same string of chars?
+    |       | [`.Differs`](<../🧠🔩 Any holders/.Differs 🔩 any.md>) | bool | Is it a different string of chars?
+    |Lists  | [`.IsIn`](<../🧠🔩 Any holders/.IsIn 🔩 any.md>) |bool| Is it in a given list of texts?
     |Chars| [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Length}.md>) |[num][num]| How many chars does it contain?
     |       | [`.Size`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Size}.md>) |[num][num]| Same as [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Length}.md>)
     |       | [`.First`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.First}.md>) |[text][text]| What's the first char?
