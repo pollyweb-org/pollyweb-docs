@@ -37,7 +37,7 @@
     |       | [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>)       |bool| Has these items in any order?
     |       | [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNot}.md>)    |bool| Are any of these items missing?
     |Size   | [`.IsEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsEmpty}.md>)  | bool| Is empty?
-    |       | [`.IsOne`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsOne}.md>)    | bool| Has only one item?
+    |       | [`.IsOne`](<../../📃 Functions 🐍/🐍🧠 List functions/🔩 {List.IsOne}.md>)    | bool| Has only one item?
     |       | [`.AreMany`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.AreMany}.md>)  | bool| Has more than one item?
     |       | [`.Size`][.Size]     | [num][num]| Returns the number of items
     |       | [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Length}.md>)   |  [num][num]| Equals [`.Size`][.Size]
