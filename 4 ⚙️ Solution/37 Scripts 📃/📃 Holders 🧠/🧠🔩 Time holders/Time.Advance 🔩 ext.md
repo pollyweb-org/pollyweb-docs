@@ -24,7 +24,7 @@
 
     Input|Purpose|Example
     |-|-|-
-    | `time` | Original time as a function, | [`.Now`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/🔩 .Now.md>) [`.Today`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/🔩 .Today.md>) 
+    | `time` | Original time as a function, | [`.Now`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/🔩 Now.md>) [`.Today`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/🔩 Today.md>) 
     || or as a [Time 🧠 holder](<Time holders.md>) | [`$time`](<Time holders.md>) 
     | `period` | Textual period to advance, | `3 hours` 
     || or timestamp-like period, | `3:29:47` |
