@@ -120,7 +120,7 @@
     
     Uses||
     |-|-
-    |[{Functions} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.IsIn`](<../../../37 Scripts 📃/📃 Holders 🧠/Any 📚 holders/IsIn ⓕ any.md>) [`.Last`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>)
+    |[{Functions} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.IsIn`](<../../../37 Scripts 📃/📃 Holders 🧠/Any 📚 holders/IsIn ⓕ any.md>) [`.Last`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Last ⓕ.md>)
 
     ---
     <br/>

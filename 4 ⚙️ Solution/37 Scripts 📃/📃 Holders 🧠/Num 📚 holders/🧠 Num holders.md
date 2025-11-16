@@ -45,7 +45,7 @@
     |       | [`.Equals`](<../Any 📚 holders/Equals ⓕ any.md>) |bool| Same as [`.Is`](<../Any 📚 holders/Is ⓕ any.md>)
     |       | [`.Differs`](<../Any 📚 holders/Differs ⓕ any.md>) |bool| Same as [`.IsNot`](<../Any 📚 holders/IsNot ⓕ any.md>)
     |Lists  | [`.IsIn`](<../Any 📚 holders/IsIn ⓕ any.md>) |bool| Is it in a given list of numbers?
-    |Create | [`.Random`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Random}.md>) |[num][num]| Returns a random number
+    |Create | [`.Random`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Random ⓕ.md>) |[num][num]| Returns a random number
     |Change | [`.Sum`](<Sum ⓕ num.md>) |[num][num]| Adds numbers
     |       | [`.Add`](<../Any 📚 holders/Add ⓕ any.md>) |[num][num]| Same as [`.Sum`](<Sum ⓕ num.md>)
     |       | [`.Plus`](<../Any 📚 holders/Plus ⓕ any.md>) |[num][num]| Same as [`.Sum`](<Sum ⓕ num.md>) | What if we add numbers?

@@ -40,10 +40,10 @@
     |       | [`.IsOne`](<IsOne ⓕ list.md>)    | bool| Has only one item?
     |       | [`.AreMany`](<AreMany ⓕ list.md>)  | bool| Has more than one item?
     |       | [`.Size`][.Size]     | [num][num]| Returns the number of items
-    |       | [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Length}.md>)   |  [num][num]| Equals [`.Size`][.Size]
-    |Read   | [`.First`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.First}.md>)   |[list][list], any| Get the first `n` items
-    |       | [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>)   |[list][list], any| Get the last `n` items
-    |       | [`.Distinct`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Distinct}.md>) |[list][list]| Return only unique items
+    |       | [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Length ⓕ.md>)   |  [num][num]| Equals [`.Size`][.Size]
+    |Read   | [`.First`](<../../📃 Functions 🐍/🐍 System 🔩 functions/First ⓕ.md>)   |[list][list], any| Get the first `n` items
+    |       | [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Last ⓕ.md>)   |[list][list], any| Get the last `n` items
+    |       | [`.Distinct`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Distinct ⓕ.md>) |[list][list]| Return only unique items
     |Change | [`.Append`][.Append]     |[list][list]| Add items to the list
     |       | [`.Add`](<../Any 📚 holders/Add ⓕ any.md>) |[list][list]| Same as [`.Append`][.Append]
     |       | [`.Remove`][.Remove]   |[list][list]| Remove items from the list
@@ -139,7 +139,7 @@
 
 1. **How to merge two lists?**
 
-    Using the [`.Append`][.Append] or [`.Add` functions](<../Any 📚 holders/Add ⓕ any.md>) with the [`.Evaluate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) syntax.
+    Using the [`.Append`][.Append] or [`.Add` functions](<../Any 📚 holders/Add ⓕ any.md>) with the [`.Evaluate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Evaluate ⓕ.md>) syntax.
 
     ```yaml   
     ┌────────────────────┬──────────────┐
@@ -239,7 +239,7 @@
 
 1. **How to select distinct a unique set of items?**
 
-    Using the [`.Distinct` function](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Distinct}.md>)  or the [`DISTINCT` command](<../../📃 Commands ⌘/⌘ for holders 🧠/DISTINCT 🌪️/🌪️ DISTINCT ⌘ cmd.md>).
+    Using the [`.Distinct` function](<../../📃 Functions 🐍/🐍 System 🔩 functions/Distinct ⓕ.md>)  or the [`DISTINCT` command](<../../📃 Commands ⌘/⌘ for holders 🧠/DISTINCT 🌪️/🌪️ DISTINCT ⌘ cmd.md>).
 
     ```yaml
     ┌─────────────────────────┬───────────────────┐

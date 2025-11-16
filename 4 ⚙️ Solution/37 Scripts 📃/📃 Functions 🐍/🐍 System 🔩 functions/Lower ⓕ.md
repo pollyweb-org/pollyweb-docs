@@ -2,7 +2,7 @@
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
-> Opposite to [`.Higher`](<🔩 {.Higher}.md>)
+> Opposite to [`.Higher`](<Higher ⓕ.md>)
 
 ## FAQ
 

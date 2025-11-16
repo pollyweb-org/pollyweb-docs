@@ -8,14 +8,14 @@
 
     `DISTINCT` 🌪️
     * is a [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) 
-    * that distincts a [List 🧠 holder](<../../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>) with the [`.Distinct`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Distinct}.md>) function.
+    * that distincts a [List 🧠 holder](<../../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>) with the [`.Distinct`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Distinct ⓕ.md>) function.
 
     ---
     <br/>
 
 1. **What's the DISTINCT syntax?**
 
-    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) syntax.
+    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Evaluate ⓕ.md>) syntax.
 
     ```yaml
     DISTINCT >> $list2:

@@ -9,25 +9,25 @@
     `SET` ↘️
     * is a [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) 
     * that changes the value of a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)
-    * using the [`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>) function.
+    * using the [`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Set ⓕ.md>) function.
 
     ---
     <br/>
 
 1. **What's the [`SET`](<↘️ SET ⌘ cmd.md>) syntax?**
 
-    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) syntax.
+    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Evaluate ⓕ.md>) syntax.
 
     |Syntax| Behavior
     |-|-|
-    | `SET\|$in: *` | Changes a [Map 🧠 holder](<../../../📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>) with [`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>)
-    || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>)`>> $in: $in,*`
+    | `SET\|$in: *` | Changes a [Map 🧠 holder](<../../../📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>) with [`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Set ⓕ.md>)
+    || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Set ⓕ.md>)`>> $in: $in,*`
     |`SET\|$in.f(*)`| Sets a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) to the [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) result
-    || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>)`($in,$in.f(*)) >> $in`
+    || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Set ⓕ.md>)`($in,$in.f(*)) >> $in`
     | `SET\|$in >> $out` | Adds `$in` to `$out`
-    || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>)`($out,$in) >> $out`
+    || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Set ⓕ.md>)`($out,$in) >> $out`
     | `SET\|$in >> $out: *` | Adds parts of `$in` into `$out`
-    || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>)`>> $out: $in,*`
+    || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Set ⓕ.md>)`>> $out: $in,*`
     | `SET\|* >> $out` | Replaces the content of `$out` with `*`
     || Equals [`PUT`](<../PUT ⬇️/⬇️ PUT ⌘ cmd.md>)`\|* >> $out`
     
@@ -40,7 +40,7 @@
 
 1. **How to change a single property in a $holder?**
   
-    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) syntax.
+    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Evaluate ⓕ.md>) syntax.
 
     Here's the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
 
