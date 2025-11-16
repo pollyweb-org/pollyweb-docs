@@ -20,7 +20,7 @@
     |-|-|-|-
     |Get    | [`.Now`](<../🧠 Input holders/Time 🧠 functions/🔩 .Now.md>)     |[time](<Time holders.md>)|What's the current time?
     |       | [`.Today`](<../🧠 Input holders/Time 🧠 functions/🔩 .Today.md>) |[time](<Time holders.md>)| What's the current date?
-    |       | [`.This`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.This}.md>)      |[period](<../🧠 Output holders/Period holders.md>)| What's the given current period? 
+    |       | [`.This`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/🔩 {.This}.md>)      |[period](<../🧠 Output holders/Period holders.md>)| What's the given current period? 
     |       | [`.Previous`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Previous}.md>)  |[period](<../🧠 Output holders/Period holders.md>)| What's the given previous period? 
     |       | [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>)      |[period](<../🧠 Output holders/Period holders.md>)| What's the given last period?
     |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) |[period](<../🧠 Output holders/Period holders.md>)| How long between two times?

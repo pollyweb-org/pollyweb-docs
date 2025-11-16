@@ -44,7 +44,7 @@
     | [`.IsNot`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNot}.md>) | Is it a different meaning?
     | [`.Assert`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Assert}.md>)  | Is the assertion valid?
     | [`.AllOf`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.AllOf}.md>) | Are all assertions valid?
-    | [`.AnyOf`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.AnyOf}.md>) | Is any assertion valid?
+    | [`.AnyOf`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 {.AnyOf}.md>) | Is any assertion valid?
     | [`.OneOf`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.OneOf}.md>) | Is a single assertion valid?
 
     ---
