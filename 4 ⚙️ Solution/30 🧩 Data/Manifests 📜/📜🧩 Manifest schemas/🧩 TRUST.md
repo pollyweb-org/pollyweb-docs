@@ -1,7 +1,7 @@
 
-# [🧩](<../../Codes 🧩/🧩 Schema Code.md>) [`.MANIFEST`](<🧩 MANIFEST.md>) `/TRUST`
+# [🧩](<../../Codes 🧩/🧩 Schema Code.md>) [`.MANIFEST`](<../📜 Manifest/📜 Manifest.md>) `/TRUST`
 
-> Part of [`.MANIFEST` 🧩](<🧩 MANIFEST.md>)
+> Part of [`.MANIFEST` 🧩](<../📜 Manifest/📜 Manifest.md>)
 
 > Implements [domain Manifest 📜](<../📜 Manifest/📜 Manifest.md>) 
   
@@ -13,10 +13,10 @@
 
 | Property | Type | Notes| Examples
 |-|-|-|-
-| `Expires`        | string | Date limit  in UTC timestamp | `2024-01-10`
-| `Domain` | string | [Domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to [Trust 🫡](<../../Trusts 🫡/🫡 Domain Trust.md>) <br/>- defaults to `*` | `*` `nlweb.dom` 
+| `Expires`        |text| Date limit  in UTC timestamp | `2024-01-10`
+| `Domain` |text| [Domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to [Trust 🫡](<../../Trusts 🫡/🫡 Domain Trust.md>) <br/>- defaults to `*` | `*` `nlweb.dom` 
 | or `Domains` | array | Additional list of domains  | `[a.co, b.co]`
-| `Query`  | string | [Schema Codes 🧩](<../../Codes 🧩/🧩 Schema Code.md>) to [Trust 🫡](<../../Trusts 🫡/🫡 Domain Trust.md>) | `*` `/PERSONA/*`
+| `Query`  |text| [Schema Codes 🧩](<../../Codes 🧩/🧩 Schema Code.md>) to [Trust 🫡](<../../Trusts 🫡/🫡 Domain Trust.md>) | `*` `/PERSONA/*`
 | or `Queries`  | array | Additional list of queries | `[*]`
 | `Role`     | enum | Role of domains to [Trust 🫡](<../../Trusts 🫡/🫡 Domain Trust.md>) <br/>- `VAULT` `CONSUMER`  <br/>- defaults to `*` | `*` `VAULT`
 | or `Roles`     | array | Additional list of roles | `[*]`

@@ -26,7 +26,7 @@
 
     | Property | Type | Description
     |-|-|-
-    | `Proxy` | string | URL where to send messages to.
+    | `Proxy` |text| URL where to send messages to.
 
     ---
     <br/>

@@ -14,6 +14,7 @@ from link_replacements.mentions import format_dynamic_link_text
     [
         ("Assess handler", "`Assess` 📃 handler"),
         ("DoSomething script", "`DoSomething` 📃 script"),
+        ("DoSomething Script", "`DoSomething` 📃 script"),
         ("Consume flow", "`Consume` ⏩ flow"),
         ("Items table", "`Items` 🪣 table"),
     ],

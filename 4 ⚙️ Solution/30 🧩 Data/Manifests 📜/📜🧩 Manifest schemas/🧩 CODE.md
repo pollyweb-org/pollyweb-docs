@@ -1,6 +1,6 @@
-# [🧩](<../../Codes 🧩/🧩 Schema Code.md>) [`.MANIFEST`](<🧩 MANIFEST.md>) `/CODE`
+# [🧩](<../../Codes 🧩/🧩 Schema Code.md>) [`.MANIFEST`](<../📜 Manifest/📜 Manifest.md>) `/CODE`
 
-> Part of [`.MANIFEST` 🧩](<🧩 MANIFEST.md>)
+> Part of [`.MANIFEST` 🧩](<../📜 Manifest/📜 Manifest.md>)
 
 > Implements [Schema Code🧩](<../../Codes 🧩/🧩 Schema Code.md>)
 
@@ -22,8 +22,10 @@ Resources:
   resourceN: detailsN
 
 Translations: 
-  en: Any Code
-  pt: Um código qualquer
+  - Language: en
+    Title: Any Code
+  - Language: pt
+    Title: Um código qualquer
 
 Blueprint: 
   Version: 1.0

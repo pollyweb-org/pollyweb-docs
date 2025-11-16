@@ -29,10 +29,10 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header|`From`|string| The name of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) asking
-|       |`To`|string| [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>) name
-|       | `Subject` | string | `Schema@Graph`
-| Body  | `Schema`    | string | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
+| Header|`From`|text| The name of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) asking
+|       |`To`|text| [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>) name
+|       | `Subject` |text| `Schema@Graph`
+| Body  | `Schema`    |text| [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 |
 
 
@@ -51,6 +51,6 @@ Format: IsElectric, Size, NeedsAssistant, DateOfBirth
 |-|-|-
 | `Version`  | timestamp | Start of matching period
 | `Inherits` | timestamp | The base [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>), if inherited
-| `Location` | string | URL to read the Schema from, if external
-| `Format`   | string | The structure of the Schema
+| `Location` |text| URL to read the Schema from, if external
+| `Format`   |text| The structure of the Schema
 |

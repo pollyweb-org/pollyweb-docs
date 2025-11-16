@@ -112,6 +112,8 @@ HOSTS_REPLACEMENT = "[Host 🤗 domains](<🤗🎭 Host role.md>)"
 HOST_REPLACEMENT = "[Host 🤗 domain](<🤗🎭 Host role.md>)"
 SCRIPT_REPLACEMENT = "[Script 📃](<Script 📃.md>)"
 SCRIPTS_REPLACEMENT = "[Scripts 📃](<Script 📃.md>)"
+MANIFEST_REPLACEMENT = "[Manifest 📜](<📜 Manifest.md>)"
+MANIFESTS_REPLACEMENT = "[Manifests 📜](<📜 Manifest.md>)"
 COMMAND_REPLACEMENT = "[Command ⌘](<Command ⌘.md>)"
 COMMANDS_REPLACEMENT = "[Commands ⌘](<Command ⌘.md>)"
 BROKER_REPLACEMENT = "[Broker 🤵 domain](<🤵 Broker 🤲 helper.md>)"
@@ -401,6 +403,8 @@ _GEN_BASIC = [
     ("replace_command_tokens", "Command", "command", COMMAND_REPLACEMENT, "Command"),
     ("replace_commands_tokens", "Commands", "commands", COMMANDS_REPLACEMENT, "Commands"),
     ("replace_script_tokens", "Script", "script", SCRIPT_REPLACEMENT, "Script"),
+    ("replace_manifest_tokens", "Manifest", "manifest", MANIFEST_REPLACEMENT, "Manifest"),
+    ("replace_manifests_tokens", "Manifests", "manifests", MANIFESTS_REPLACEMENT, "Manifests"),
     ("replace_persona_tokens", "Persona", "persona", "[Persona 🧢 agent](<🧢🫥 Persona agent.md>)", "Persona"),
     ("replace_personas_tokens", "Personas", "personas", "[Persona 🧢 agents](<🧢🫥 Persona agent.md>)", "Personas"),
     ("replace_itemizer_tokens", "Itemizer", "itemizer", "[Itemizer 🛢 helper domain](<🛢🤲 Itemizer helper.md>)", "Itemizer"),
@@ -616,6 +620,8 @@ __all__ = [
     "replace_triple_brace_tokens",
     "replace_tokens_tokens",
     "replace_script_tokens",
+    "replace_manifest_tokens",
+    "replace_manifests_tokens",
     "replace_chat_tokens",
     "replace_chats_tokens",
     "replace_command_tokens",

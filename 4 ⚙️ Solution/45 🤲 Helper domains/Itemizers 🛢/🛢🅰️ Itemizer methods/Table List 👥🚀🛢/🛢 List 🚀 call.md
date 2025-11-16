@@ -21,9 +21,9 @@ Header:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header |`From`|string| Caller [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name
-|       |`To`|string| [Itemizer 🛢 domain](<../../🛢🤲 Itemizer helper.md>)
-|       |`Subject`  | string | `List@Itemizer`
+|Header |`From`|text| Caller [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name
+|       |`To`|text| [Itemizer 🛢 domain](<../../🛢🤲 Itemizer helper.md>)
+|       |`Subject`  |text| `List@Itemizer`
 |
 
 <br/>

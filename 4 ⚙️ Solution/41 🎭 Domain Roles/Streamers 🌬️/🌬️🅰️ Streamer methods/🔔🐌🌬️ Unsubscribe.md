@@ -19,8 +19,8 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From`|string| [Subscriber 🔔 domain](<../../Subscribers 🔔/🔔🎭 Subscriber role.md>) name
-||`To`|string| [Streamer 🌬️ domain](<../🌬️🎭 Streamer role.md>) name
-|| `Subject` | string | `Unsubscribe@Streamer`
-|Body | `Stream`| string |  Stream key on the [Streamer 🌬️](<../🌬️🎭 Streamer role.md>)
+|Header|`From`|text| [Subscriber 🔔 domain](<../../Subscribers 🔔/🔔🎭 Subscriber role.md>) name
+||`To`|text| [Streamer 🌬️ domain](<../🌬️🎭 Streamer role.md>) name
+|| `Subject` |text| `Unsubscribe@Streamer`
+|Body | `Stream`|text|  Stream key on the [Streamer 🌬️](<../🌬️🎭 Streamer role.md>)
 |

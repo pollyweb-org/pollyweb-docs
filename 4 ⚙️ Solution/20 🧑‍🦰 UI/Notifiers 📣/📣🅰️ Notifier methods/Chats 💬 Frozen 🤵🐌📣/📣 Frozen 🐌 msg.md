@@ -22,9 +22,9 @@ Body:
 
 |Object|Property|Type|Description|Origin
 |-|-|-|-|-
-|Header|`From`|string|[Broker 🤵](<../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) name|[`Onboard@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 call.md>)
-||`To`|string|[Notifier 📣](<../../📣 Notifier domain/📣 Notifier 👥 domain.md>) name|[`Onboard@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 call.md>)
-||`Subject`|string|`Frozen@Notifier`
+|Header|`From`|text|[Broker 🤵](<../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) name|[`Onboard@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 call.md>)
+||`To`|text|[Notifier 📣](<../../📣 Notifier domain/📣 Notifier 👥 domain.md>) name|[`Onboard@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 call.md>)
+||`Subject`|text|`Frozen@Notifier`
 |Body|`Wallet`|uuid|[Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) ID|[`Onboard@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 call.md>)
 ||`Chat`|uuid|[Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID|[`Open@Notifier`](<../Chats 💬 Open 🤵🐌📣/📣 Open 🐌 msg.md>)
 |

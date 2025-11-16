@@ -32,12 +32,12 @@ Body:
 
 Object |Property|Type|Description|Origin|Purpose
 |-|-|-|-|-|-
-|Header|`From`|string| [Vault 🗄️](<../../../Vaults 🗄️/🗄️🎭 Vault role.md>) | [`Disclose@`](<../../../Vaults 🗄️/🗄️🅰️ Vault methods/Disclose 🤵🐌🗄️/🗄️ Disclose 🐌 msg.md>)
-||`To`|string| [Consumer 💼](<../../💼🎭 Consumer role.md>) | [`Query@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)
-|| `Subject` | string | `Consume@Consumer`
+|Header|`From`|text| [Vault 🗄️](<../../../Vaults 🗄️/🗄️🎭 Vault role.md>) | [`Disclose@`](<../../../Vaults 🗄️/🗄️🅰️ Vault methods/Disclose 🤵🐌🗄️/🗄️ Disclose 🐌 msg.md>)
+||`To`|text| [Consumer 💼](<../../💼🎭 Consumer role.md>) | [`Query@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)
+|| `Subject` |text| `Consume@Consumer`
 |Body| `Hook` | uuid | [Consumer 💼](<../../💼🎭 Consumer role.md>)  hook | [`Query@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) [`Invite@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)
 || `Collect` | uuid | [Vault 🗄️](<../../../Vaults 🗄️/🗄️🎭 Vault role.md>) Hook || [`Collect@`](<../../../Vaults 🗄️/🗄️🅰️ Vault methods/Collect 💼🚀🗄️/🗄️ Collect 🚀 call.md>)
-|| `Schema`| string | Data [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) || [`Trusts@`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts/🕸 Trusts 🚀 call.md>)
+|| `Schema`|text| Data [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) || [`Trusts@`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts/🕸 Trusts 🚀 call.md>)
 || `TTL` | time| Collect deadline || [`Collect@`](<../../../Vaults 🗄️/🗄️🅰️ Vault methods/Collect 💼🚀🗄️/🗄️ Collect 🚀 call.md>)
 |
 

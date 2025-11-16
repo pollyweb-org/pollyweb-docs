@@ -22,8 +22,8 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|`Header`|`From`|string| [Buffer ⏳](<../../../45 🤲 Helper domains/Buffers ⏳/⏳🤲 Buffer helper.md>) from [`Queue@Buffer`](<../../../45 🤲 Helper domains/Buffers ⏳/⏳🅰️ Buffer methods/🔔🐌⏳ Queue.md>)
-||`To`|string| [Subscriber 🔔](<../🔔🎭 Subscriber role.md>) from [`Queue@Buffer`](<../../../45 🤲 Helper domains/Buffers ⏳/⏳🅰️ Buffer methods/🔔🐌⏳ Queue.md>)
-|| `Subject` | string | `Queued@Subscriber`
+|`Header`|`From`|text| [Buffer ⏳](<../../../45 🤲 Helper domains/Buffers ⏳/⏳🤲 Buffer helper.md>) from [`Queue@Buffer`](<../../../45 🤲 Helper domains/Buffers ⏳/⏳🅰️ Buffer methods/🔔🐌⏳ Queue.md>)
+||`To`|text| [Subscriber 🔔](<../🔔🎭 Subscriber role.md>) from [`Queue@Buffer`](<../../../45 🤲 Helper domains/Buffers ⏳/⏳🅰️ Buffer methods/🔔🐌⏳ Queue.md>)
+|| `Subject` |text| `Queued@Subscriber`
 |Body | `Queue`| uuid | Queue from [`Queue@Buffer`](<../../../45 🤲 Helper domains/Buffers ⏳/⏳🅰️ Buffer methods/🔔🐌⏳ Queue.md>)
 |

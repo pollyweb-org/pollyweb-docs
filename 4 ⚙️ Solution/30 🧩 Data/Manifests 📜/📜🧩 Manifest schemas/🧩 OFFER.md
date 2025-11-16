@@ -1,6 +1,6 @@
-# [🧩](<../../Codes 🧩/🧩 Schema Code.md>) [`.MANIFEST`](<🧩 MANIFEST.md>) `/OFFER`
+# [🧩](<../../Codes 🧩/🧩 Schema Code.md>) [`.MANIFEST`](<../📜 Manifest/📜 Manifest.md>) `/OFFER`
 
-> Part of [`.MANIFEST` 🧩](<🧩 MANIFEST.md>)
+> Part of [`.MANIFEST` 🧩](<../📜 Manifest/📜 Manifest.md>)
 
 > Implements [domain Manifest 📜](<../📜 Manifest/📜 Manifest.md>) 
 
@@ -11,7 +11,7 @@
 
 | Property | Type | Notes
 |-|-|-
-| `Dataset` | string | Reference to a [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>) that defines the dataset being offered
+| `Dataset` |text| Reference to a [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>) that defines the dataset being offered
 | `Requires` | dict | List of properties required as arguments to query the dataset 
 |
 

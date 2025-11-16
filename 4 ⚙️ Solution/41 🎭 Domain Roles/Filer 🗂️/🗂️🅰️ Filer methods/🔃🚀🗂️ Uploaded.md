@@ -28,7 +28,7 @@ Body:
 | Object| Property | Type | Description
 |-|-|-|-
 | Header    |`From`| uuid | `Clone` from [`Clone@`](<🔃🚀🗂️ Clone.md>) 
-|           |`To`|string| [Filer 🗂️](<../🗂️🎭 Filer role.md>) from [`Clone@`](<🔃🚀🗂️ Clone.md>) 
+|           |`To`|text| [Filer 🗂️](<../🗂️🎭 Filer role.md>) from [`Clone@`](<🔃🚀🗂️ Clone.md>) 
 |           | `Subject`     | string    | `Uploaded@Filer`
 | Body      | `Map`         | uuid    | ID from [`Map@Filer`](<🔃🚀🗂️ Map.md>)
 |
@@ -50,8 +50,8 @@ Files:
 |Object| Property | Type | Description
 |-|-|-|-
 |Top| `Files` | dict | List of files required to download
-|File| `Action` | string | `DOWNLOAD`
-|    | `Hash`   | string | Hashed with [`Clone@`](<🔃🚀🗂️ Clone.md>) hash
+|File| `Action` |text| `DOWNLOAD`
+|    | `Hash`   |text| Hashed with [`Clone@`](<🔃🚀🗂️ Clone.md>) hash
 |    | `Parts`  | int    | Number of file parts
 |    | `Base64` | bool   | Convert Base46 to binary
 |

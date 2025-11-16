@@ -42,8 +42,8 @@ Body:
 
 |Object|Property|Type|Description|Origin
 |-|-|-|-|-
-| Header    |`From`|string| [Itemizer 🛢](<../🛢🤲 Itemizer helper.md>) | [`Build@`](<../🛢🅰️ Itemizer methods/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
-|           |`To`|string| [Talker 😃](<../🛢🅰️ Itemizer methods/Item Delete 👥🚀🛢/🛢 Delete 🚀 call.md>) | [`Build@`](<../🛢🅰️ Itemizer methods/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
+| Header    |`From`|text| [Itemizer 🛢](<../🛢🤲 Itemizer helper.md>) | [`Build@`](<../🛢🅰️ Itemizer methods/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
+|           |`To`|text| [Talker 😃](<../🛢🅰️ Itemizer methods/Item Delete 👥🚀🛢/🛢 Delete 🚀 call.md>) | [`Build@`](<../🛢🅰️ Itemizer methods/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
 |           | `Subject`     | string    | `Raised@Itemizer`
 | Body      | `Event`| enum | See [Item 🛢 Handlers](<../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) | [`Build@`](<../🛢🅰️ Itemizer methods/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
 ||`On`| time | When it happened | -

@@ -23,9 +23,9 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header    |`From`|string| [Talker 😃 domain](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>)
-|           |`To`|string| [Hosted 📦 domain](<../../📦👥 Hosted domain.md>)
-| | `Subject`| string | `Parse@Hosted` |
+| Header    |`From`|text| [Talker 😃 domain](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>)
+|           |`To`|text| [Hosted 📦 domain](<../../📦👥 Hosted domain.md>)
+| | `Subject`|text| `Parse@Hosted` |
 | Body      | `Command`     | any    | [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) to parse
 |
 

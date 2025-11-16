@@ -32,9 +32,9 @@ Body:
 
 |Object|Property|Type|Description|Origin
 |-|-|-|-|-
-|Header|`From`|string| [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Bound@`](<../Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
-||`To`|string| [Vault 🗄️](<../../🗄️🎭 Vault role.md>) | [`Bound@`](<../Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
-|| `Subject` | string | `Unbound@vault`
+|Header|`From`|text| [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Bound@`](<../Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
+||`To`|text| [Vault 🗄️](<../../🗄️🎭 Vault role.md>) | [`Bound@`](<../Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
+|| `Subject` |text| `Unbound@vault`
 |Body| `Bind`| uuid | [Bind 🔗 ID](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)  | [`Bound@`](<../Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
 |
 

@@ -34,12 +34,12 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header|`From`|string| The name of the sender [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
-|       |`To`|string| [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>) name
-|       | `Subject` | string | `Trusted@Graph`
-| Body  | `Domain`  | string | The [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name to assess.
+| Header|`From`|text| The name of the sender [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
+|       |`To`|text| [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>) name
+|       | `Subject` |text| `Trusted@Graph`
+| Body  | `Domain`  |text| The [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name to assess.
 |       | `Role`    | enum   | The domain role to assess: `VAULT`, `CONSUMER`, `*`
-|       | `Schema`    | string | The [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to assess.
+|       | `Schema`    |text| The [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to assess.
 |
 
 <br/>

@@ -50,16 +50,16 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header|`From`|string| Requester [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name
-|       |`To`|string| [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>) name
-|       | `Subject` | string | `Translate@Graph`
-|Body   | `Target`| string | Target language
+| Header|`From`|text| Requester [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name
+|       |`To`|text| [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>) name
+|       | `Subject` |text| `Translate@Graph`
+|Body   | `Target`|text| Target language
 || `Domain`     | string  | [Domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to translate
 || or `Domains`     | string[]  | [Domains 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to translate
 || `Schema`       | string  | [Schema Code 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to translate
 || or `Schemas`       | string[]  | [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to translate
-||`Text`| string | Free text to translate
-||`Source`|string| Original text language
+||`Text`|text| Free text to translate
+||`Source`|text| Original text language
 |
 
 <br/>

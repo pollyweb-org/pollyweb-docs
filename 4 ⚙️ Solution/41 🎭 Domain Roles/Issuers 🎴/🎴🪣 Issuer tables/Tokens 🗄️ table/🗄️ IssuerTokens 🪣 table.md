@@ -19,10 +19,10 @@ Schema: airlines.any-igo.dom/SSR/WCH:1
 
 | Property | Type | Details
 |-|-|-
-| `Broker` | string | From [`Accepted@Issuer`](<../../🎴🅰️ Issuer methods/Accepted 🤵🐌🎴/🎴 Accepted 🐌 msg.md>) 
+| `Broker` |text| From [`Accepted@Issuer`](<../../🎴🅰️ Issuer methods/Accepted 🤵🐌🎴/🎴 Accepted 🐌 msg.md>) 
 | `Token`| uuid | From [`Accepted@Issuer`](<../../🎴🅰️ Issuer methods/Accepted 🤵🐌🎴/🎴 Accepted 🐌 msg.md>) 
 | `User` | any | Internal anchor
-| `Schema` | string | From [`Issued@Issuer`](<../../🎴🅰️ Issuer methods/Issued 🧑‍🦰🚀🎴/🎴 Issued 🚀 call.md>)
+| `Schema` |text| From [`Issued@Issuer`](<../../🎴🅰️ Issuer methods/Issued 🧑‍🦰🚀🎴/🎴 Issued 🚀 call.md>)
 | 
 
 <br/>

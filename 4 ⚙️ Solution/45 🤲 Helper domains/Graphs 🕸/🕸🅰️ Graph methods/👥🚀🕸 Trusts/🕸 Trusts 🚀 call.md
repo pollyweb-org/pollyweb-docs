@@ -42,13 +42,13 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header|`From`|string| The name of the sender [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
-|       |`To`|string| [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>) name
-|       | `Subject` | string | `Trusts@Graph`
-| Body  | `Truster` | string | The name of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) trusting
-|       | `Trusted` | string | The name of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to be trusted
+| Header|`From`|text| The name of the sender [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
+|       |`To`|text| [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>) name
+|       | `Subject` |text| `Trusts@Graph`
+| Body  | `Truster` |text| The name of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) trusting
+|       | `Trusted` |text| The name of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to be trusted
 |       | `Role`    | enum   | The role to assess: `VAULT`, `CONSUMER`, `*`
-|       | `Schema`    | string | The [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to assess
+|       | `Schema`    |text| The [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to assess
 |
 
 <br/>

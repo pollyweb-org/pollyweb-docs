@@ -31,8 +31,8 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header    |`From`|string| [Hoster ☁️ domain](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) name
-|           |`To`|string| [Hosted 📦 domain](<../../📦👥 Hosted domain.md>) name
+| Header    |`From`|text| [Hoster ☁️ domain](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) name
+|           |`To`|text| [Hosted 📦 domain](<../../📦👥 Hosted domain.md>) name
 |           | `Subject`     | string    | `Handle@Hosted`
 | Body      | `Hook`    | uuid      | Hook for [`Handled@Talker`](<../../../../35 💬 Chats/Talkers 😃/😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>)
 |           | `Function`    | string    | Name of the [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) to evaluate

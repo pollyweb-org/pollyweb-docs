@@ -35,13 +35,13 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From`|string|[Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) name
-| |`To`|string|[Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) name
-| |`Subject`|string|`Revoke@Broker`
-|Body|`Chat`|string|[Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID
-| |`Token`|string|[Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) ID
+|Header|`From`|text|[Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) name
+| |`To`|text|[Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) name
+| |`Subject`|text|`Revoke@Broker`
+|Body|`Chat`|text|[Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID
+| |`Token`|text|[Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) ID
 | |`Action`| enum | `REVOKE` `SUSPEND` `ACTIVATE` `UPDATE`
 | |`Starting`| timestamp | Start date and time
 | |`Ending` | timestamp | Finish date and time (optional)
-| |`Locator`| string | [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) for a [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) about it.
+| |`Locator`|text| [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) for a [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) about it.
 |

@@ -193,9 +193,9 @@
 
     |Property| Type | Details
     |-|-|-
-    | `Schema` | string |  [`.TOKEN`](<../🧩 Token schemas/🧩 TOKEN.md>)
-    | `Domain` | string | The [Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) name
-    | `Key` | string | Resource key in the [Issuer 🎴](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>)
+    | `Schema` |text|  [`.TOKEN`](<../🧩 Token schemas/🧩 TOKEN.md>)
+    | `Domain` |text| The [Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) name
+    | `Key` |text| Resource key in the [Issuer 🎴](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>)
     | `Properties` | object | Any optional data fields
     |
 
@@ -213,12 +213,12 @@
     ```
     |Property| Type | Details
     |-|-|-
-    |`Schema` | string | The Token's [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>)
+    |`Schema` |text| The Token's [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>)
     | `Issued` | timestamp | When it was issued
     |`Starts` |timestamp| Valid from
     |`Expires`|timestamp| Valid until (optional)
-    | `Signature`| string | The Issuer's [signature](<../../Messages 📨/📨 Message/📨 Message.md>) 📨 
-    | `DKIM`| string | The [DKIM 📨](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Public Key/🕸 Public Key 🚀 call.md>) key used to sign
+    | `Signature`|text| The Issuer's [signature](<../../Messages 📨/📨 Message/📨 Message.md>) 📨 
+    | `DKIM`|text| The [DKIM 📨](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Public Key/🕸 Public Key 🚀 call.md>) key used to sign
     |
 
 
@@ -231,8 +231,8 @@
 
     |Property| Type | Details
     |-|-|-
-    |`Identity` | string |The [Identity 🆔 domain](<../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) 
-    | `IdentityKey` | string | The resource key in the [Identity 🆔 domain](<../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>)
+    |`Identity` |text|The [Identity 🆔 domain](<../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) 
+    | `IdentityKey` |text| The resource key in the [Identity 🆔 domain](<../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>)
 
 
     ---
