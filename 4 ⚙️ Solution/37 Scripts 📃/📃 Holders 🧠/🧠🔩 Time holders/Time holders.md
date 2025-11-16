@@ -18,8 +18,8 @@
 
     |Group| [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | Returns| Details 
     |-|-|-|-
-    |Get    | [`.Now`](<Time 🧠 functions/🔩 .Now.md>)     |[time](<Time holders.md>)|What's the current time?
-    |       | [`.Today`](<Time 🧠 functions/🔩 .Today.md>) |[time](<Time holders.md>)| What's the current date?
+    |Get    | [`.Now`](<../🧠 Input holders/Time 🧠 functions/🔩 .Now.md>)     |[time](<Time holders.md>)|What's the current time?
+    |       | [`.Today`](<../🧠 Input holders/Time 🧠 functions/🔩 .Today.md>) |[time](<Time holders.md>)| What's the current date?
     |       | [`.This`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.This}.md>)      |[period](<../🧠 Output holders/Period holders.md>)| What's the given current period? 
     |       | [`.Previous`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Previous}.md>)  |[period](<../🧠 Output holders/Period holders.md>)| What's the given previous period? 
     |       | [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>)      |[period](<../🧠 Output holders/Period holders.md>)| What's the given last period?
