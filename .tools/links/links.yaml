@@ -262,15 +262,15 @@ Successful Tests:
   # 🧠 Num holder
   - Given: '{{num}}'
     LinkText: "num"
-    LinkFile: "Num holders.md"
+    LinkFile: "🧠 Num holders.md"
     Reasons: This is hardcoded.
   - Given: '{{Num}}'
     LinkText: "Num 🧠 holder"
-    LinkFile: "Num holders.md"
+    LinkFile: "🧠 Num holders.md"
     Reasons: This is hardcoded.
   - Given: '{{Nums}}'
     LinkText: "Num 🧠 holders"
-    LinkFile: "Num holders.md"
+    LinkFile: "🧠 Num holders.md"
     Reasons: This is hardcoded.
 
   - Given: '{{Period}}'
