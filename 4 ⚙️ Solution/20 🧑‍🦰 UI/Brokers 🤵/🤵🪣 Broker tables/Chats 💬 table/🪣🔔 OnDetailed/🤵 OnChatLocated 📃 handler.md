@@ -5,7 +5,7 @@
 
 ## Diagram
 
-![alt text](<🤵 OnChatLocated ⚙️ uml.png>)
+![alt text](<🤵 OnChatDetailed ⚙️ uml.png>)
 
 
 ## Script

@@ -25,6 +25,10 @@
     DomainTitle: $domain.Name
     SmallIcon: $domain.SmallIcon
     BigIcon: $domain.BigIcon
+
+# Progress the state to DETAILED
+- SAVE|$Item:
+    .State: DETAILED
 ```
 
 Uses||
