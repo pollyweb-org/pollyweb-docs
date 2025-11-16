@@ -19,7 +19,7 @@
 
 1. **What's the syntax of an insert SAVE?**
 
-    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) syntax.
+    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 {.Evaluate}.md>) syntax.
     
     ```yaml
     # Single item
@@ -40,7 +40,7 @@
     |-|-|-
     | `<set>` | Name of the [Dataset 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | `MySet`
     | `{object}` | [`CALL`](<../../⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>) item to save in the pool | `MyKey` `$key`
-    | `.Delete` | Automatic cleanup with [`{.Add}`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) | `30 days`
+    | `.Delete` | Automatic cleanup with [`{.Add}`](<../../../📃 Holders 🧠/🧠🔩 Any holders/🔩 {.Add}.md>) | `30 days`
     | `.OnBlocked`| [`$Holder`](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) name to set `True` | `onBlocked`
     | `$inserted` | [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) with the insertion | `$item`
 
@@ -183,7 +183,7 @@
                 Now.Add(30 days)
     ```
 
-    Uses: [`.Lower`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Lower}.md>) [`.Now`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/time/🔩 Now.md>) [`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) 
+    Uses: [`.Lower`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Lower}.md>) [`.Now`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/time/🔩 Now.md>) [`.Add`](<../../../📃 Holders 🧠/🧠🔩 Any holders/🔩 {.Add}.md>) 
 
     ---
     <br/>

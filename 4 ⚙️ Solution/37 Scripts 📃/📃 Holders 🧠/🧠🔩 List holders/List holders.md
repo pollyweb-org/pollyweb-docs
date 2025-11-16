@@ -36,7 +36,7 @@
     |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Differs}.md>)  |bool| Does not equal this other list?
     |       | [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>)       |bool| Has these items in any order?
     |       | [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNot}.md>)    |bool| Are any of these items missing?
-    |Size   | [`.IsEmpty`](<../🧠🔩 Any holders/🔩 {$holder.IsEmpty}.md>)  | bool| Is empty?
+    |Size   | [`.IsEmpty`](<../🧠🔩 Any holders/Any.IsEmpty 🔩 ext.md>)  | bool| Is empty?
     |       | [`.IsOne`](<List.IsOne 🔩 ext.md>)    | bool| Has only one item?
     |       | [`.AreMany`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.AreMany}.md>)  | bool| Has more than one item?
     |       | [`.Size`][.Size]     | [num][num]| Returns the number of items
@@ -45,7 +45,7 @@
     |       | [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>)   |[list][list], any| Get the last `n` items
     |       | [`.Distinct`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Distinct}.md>) |[list][list]| Return only unique items
     |Change | [`.Append`][.Append]     |[list][list]| Add items to the list
-    |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) |[list][list]| Same as [`.Append`][.Append]
+    |       | [`.Add`](<../🧠🔩 Any holders/🔩 {.Add}.md>) |[list][list]| Same as [`.Append`][.Append]
     |       | [`.Remove`][.Remove]   |[list][list]| Remove items from the list
     |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Minus}.md>) |[list][list]| Same as [`.Remove`][.Remove]
     |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) |[list][list]| Same as [`.Remove`][.Remove]
@@ -104,7 +104,7 @@
 
 1. **How to append into lists?**
 
-    Using the [`.Append`][.Append] or [`.Add` functions](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) with [`CALL`](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>).
+    Using the [`.Append`][.Append] or [`.Add` functions](<../🧠🔩 Any holders/🔩 {.Add}.md>) with [`CALL`](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>).
     
     ```yaml   
     ┌────────────────────────┬─────────────┐
@@ -125,7 +125,7 @@
     # Results in [A,B]    
     ```
 
-    Here's a alternative syntax using the [`.Add` function](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) in a [Holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>).
+    Here's a alternative syntax using the [`.Add` function](<../🧠🔩 Any holders/🔩 {.Add}.md>) in a [Holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>).
 
     ```yaml
     📃 Example:
@@ -139,7 +139,7 @@
 
 1. **How to merge two lists?**
 
-    Using the [`.Append`][.Append] or [`.Add` functions](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) with the [`.Evaluate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) syntax.
+    Using the [`.Append`][.Append] or [`.Add` functions](<../🧠🔩 Any holders/🔩 {.Add}.md>) with the [`.Evaluate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 {.Evaluate}.md>) syntax.
 
     ```yaml   
     ┌────────────────────┬──────────────┐

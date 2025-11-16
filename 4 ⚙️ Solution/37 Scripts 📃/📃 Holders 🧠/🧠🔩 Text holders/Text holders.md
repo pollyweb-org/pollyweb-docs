@@ -8,7 +8,7 @@
 
     |Group| [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | Returns| Details 
     |-|-|-|-
-    | Assess| [`.IsEmpty`](<../🧠🔩 Any holders/🔩 {$holder.IsEmpty}.md>) | bool | Is it an empty text?
+    | Assess| [`.IsEmpty`](<../🧠🔩 Any holders/Any.IsEmpty 🔩 ext.md>) | bool | Is it an empty text?
     |       | [`.IsNotEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNotEmpty}.md>) | bool | Is it text, not just spaces?
     |Bounds | [`.IsAbove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsAbove}.md>) | bool | Is it after in alphabetical order?
     |       | [`.IsBelow`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsBelow}.md>) | bool | Is it before in alphabetical order?
@@ -24,7 +24,7 @@
     |       | [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>) |[text][text]| What's the last char?
     |       | [`.Contains`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Contains}.md>) |bool| Does it contain a given char?
     |Change | [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>) |[text][text]| What we append the given string?
-    |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) |[text][text]| Same as [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>)
+    |       | [`.Add`](<../🧠🔩 Any holders/🔩 {.Add}.md>) |[text][text]| Same as [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>)
     |       | [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Plus}.md>) |[text][text]| Same as [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>)
     |       | [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>) |[text][text]| What if we remove the given string?
     |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Minus}.md>) |[text][text]| Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>)

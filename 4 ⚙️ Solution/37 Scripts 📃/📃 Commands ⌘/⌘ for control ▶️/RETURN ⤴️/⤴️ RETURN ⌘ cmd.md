@@ -23,7 +23,7 @@
 
 1. **What's the RETURN syntax?**
 
-    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) syntax.
+    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 {.Evaluate}.md>) syntax.
 
     ```yaml
     # On-line syntax
@@ -117,7 +117,7 @@
     - RETURN|.Add($1, $2, $3)
     ```
 
-    Uses: [`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`RUN`](<../RUN 🏃/🏃 RUN ⌘ cmd.md>) 
+    Uses: [`.Add`](<../../../📃 Holders 🧠/🧠🔩 Any holders/🔩 {.Add}.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`RUN`](<../RUN 🏃/🏃 RUN ⌘ cmd.md>) 
 
     ---
     <br/>
