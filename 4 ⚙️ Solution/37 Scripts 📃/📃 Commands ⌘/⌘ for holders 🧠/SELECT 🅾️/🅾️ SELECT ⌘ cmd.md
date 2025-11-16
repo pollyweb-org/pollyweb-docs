@@ -29,9 +29,9 @@
 
     |Input|Purpose||
     |-|-|-
-    | `All` | Uses [`.Format`](<../../../📃 Holders 🧠/🧠🔩 Set extensions/{$set.Format}.md>) to format item properties
-    | `First` | Uses [`.First`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.First}.md>) and [`.Format`](<../../../📃 Holders 🧠/🧠🔩 Set extensions/{$set.Format}.md>) on the 1st item
-    | `Last` | Uses [`.Last`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>) and [`.Format`](<../../../📃 Holders 🧠/🧠🔩 Set extensions/{$set.Format}.md>) on the last item
+    | `All` | Uses [`.Format`](<../../../📃 Holders 🧠/🧠🔩 Set extensions/Set.Format 🔩 ext.md>) to format item properties
+    | `First` | Uses [`.First`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.First}.md>) and [`.Format`](<../../../📃 Holders 🧠/🧠🔩 Set extensions/Set.Format 🔩 ext.md>) on the 1st item
+    | `Last` | Uses [`.Last`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>) and [`.Format`](<../../../📃 Holders 🧠/🧠🔩 Set extensions/Set.Format 🔩 ext.md>) on the last item
     | `Distinct` | Uses [`.Distinct`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Distinct}.md>) to group results 
     | `From` | Uses [`.Cross`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Cross}.md>) to join [List 🧠 holders](<../../../📃 Holders 🧠/🧠 Input holders/List holders.md>)
     | `Where` | Uses [`.Filter`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Filter}.md>) to filter [List 🧠](<../../../📃 Holders 🧠/🧠 Input holders/List holders.md>) items 
