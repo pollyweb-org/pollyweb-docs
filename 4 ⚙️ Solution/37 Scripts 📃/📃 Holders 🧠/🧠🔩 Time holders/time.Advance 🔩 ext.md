@@ -11,7 +11,7 @@
     `{.Advance}` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that advances a period from a given [Time 🧠 holder](<Time holders.md>)
-    * as opposed to [`.GoBack`](<time.GoBack2 🔩 ext.md>).
+    * as opposed to [`.GoBack`](<time.GoBack 🔩 ext.md>).
 
     ---
     <br/>
