@@ -32,7 +32,7 @@
     | [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)    | `.Now` | `22:34` `10:34 PM`
     | Custom |      `.Now(Ddd DD, HH:MI:SS)` | `Mon 21, 01:34:06`
     | UTC |      `.Now(UTC)` | `2024-09-21T12:34:00Z`
-    | [`.Add`](<../../../📃 Holders 🧠/🧠🔩 Any holders/any.Add ext.md>) | `.Now` |`2024-09-21T12:34:00Z`   
+    | [`.Add`](<../../../📃 Holders 🧠/🧠🔩 Any holders/any.Add 🔩 ext.md>) | `.Now` |`2024-09-21T12:34:00Z`   
     
     ---
     <br/>

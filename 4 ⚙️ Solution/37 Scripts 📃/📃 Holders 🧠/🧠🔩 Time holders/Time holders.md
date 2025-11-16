@@ -29,7 +29,7 @@
     |Assess   | [`.IsEmpty`](<../🧠🔩 Any holders/any.IsEmpty 🔩 ext.md>) |bool| Is it empty, i.e. no time given?
     |         | [`.IsNotEmpty`](<../🧠🔩 Any holders/any.IsNotEmpty 🔩 ext.md>) |bool| Is it not empty?
     |Change | [`.Advance`](<time.Advance2 🔩 ext.md>) |[time](<Time holders.md>)| What if we add time?
-    |       | [`.Add`](<../🧠🔩 Any holders/any.Add ext.md>) |[time](<Time holders.md>)| Same as [`.Advance`](<time.Advance2 🔩 ext.md>)Time 🧠 functions/🔩 .Advance.md
+    |       | [`.Add`](<../🧠🔩 Any holders/any.Add 🔩 ext.md>) |[time](<Time holders.md>)| Same as [`.Advance`](<time.Advance2 🔩 ext.md>)Time 🧠 functions/🔩 .Advance.md
     |       | [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Plus}.md>) |[time](<Time holders.md>)| Same as [`.Advance`](<time.Advance2 🔩 ext.md>)Time 🧠 functions/🔩 .Advance.md
     |       | [`.GoBack`](<time.GoBack2 🔩 ext.md>) |[time](<Time holders.md>)| What if we remove time?
     |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Minus}.md>)|[time](<Time holders.md>)| Same as [`.GoBack`](<time.GoBack2 🔩 ext.md>)Time 🧠 functions/🔩 .GoBack.md
