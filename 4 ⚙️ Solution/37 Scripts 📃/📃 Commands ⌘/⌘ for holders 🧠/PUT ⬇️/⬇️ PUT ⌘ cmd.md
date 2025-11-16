@@ -25,8 +25,8 @@
     || Equals `PUT >> $out: *{$in}*`    
     | `PUT\|$obj >> $out: *` | Formats [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) properties with [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>)
     || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>)` >> $out: $obj,*`
-    | `PUT\|$lst >> $out: *` | Formats a [List 🧠 holder](<../../../📃 Holders 🧠/🧠 Input holders/List holders.md>) with [`.Format`](<../../../📃 Functions 🐍/🐍🧠 Set functions/{Set.Format}.md>)
-    || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Format`](<../../../📃 Functions 🐍/🐍🧠 Set functions/{Set.Format}.md>)` >> $out: $lst,*`
+    | `PUT\|$lst >> $out: *` | Formats a [List 🧠 holder](<../../../📃 Holders 🧠/🧠 Input holders/List holders.md>) with [`.Format`](<../../../📃 Functions 🐍/🐍🧠 Set functions/{$set.Format}.md>)
+    || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Format`](<../../../📃 Functions 🐍/🐍🧠 Set functions/{$set.Format}.md>)` >> $out: $lst,*`
     | `PUT\|* +> $lst` | Appends items to a [List 🧠 holder](<../../../📃 Holders 🧠/🧠 Input holders/List holders.md>) with [`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>)
     || Equals `PUT +> $lst: *`
     || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>)` >> $lst: $lst,*`

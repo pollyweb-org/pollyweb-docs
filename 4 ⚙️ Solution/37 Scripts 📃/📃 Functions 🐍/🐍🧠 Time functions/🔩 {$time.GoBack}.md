@@ -2,7 +2,7 @@
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
-> Used by [`.Minus`](<🔩 {.Minus}.md>)
+> Used by [`.Minus`](<../🐍 System 🔩 functions/🔩 {.Minus}.md>)
 
 ## FAQ
 
@@ -11,7 +11,7 @@
     `{.GoBack}` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that goes back a period from a given time
-    * as opposed to [`.Advance`](<🔩 {.Advance}.md>).
+    * as opposed to [`.Advance`](<🔩 {$time.Advance}.md>).
 
     ---
     <br/>

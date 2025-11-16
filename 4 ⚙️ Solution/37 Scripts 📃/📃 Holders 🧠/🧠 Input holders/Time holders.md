@@ -26,13 +26,13 @@
     |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) |[period](<../🧠 Output holders/Period holders.md>)| How long between two times?
     |Compare| [`.IsBetween`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsBetween}.md>)  |bool| Is it between two given times?
     |       | [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>)       |bool| Is it in a given [Period 🧠 holder](<../🧠 Output holders/Period holders.md>)?
-    |Assess   | [`.IsEmpty`](<../../📃 Functions 🐍/🐍🧠 Holder functions/🔩 {Holder.IsEmpty}.md>) |bool| Is it empty, i.e. no time given?
+    |Assess   | [`.IsEmpty`](<../../📃 Functions 🐍/🐍🧠 Holder functions/🔩 {$holder.IsEmpty}.md>) |bool| Is it empty, i.e. no time given?
     |         | [`.IsNotEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNotEmpty}.md>) |bool| Is it not empty?
-    |Change | [`.Advance`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Advance}.md>) |[time](<Time holders.md>)| What if we add time?
-    |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) |[time](<Time holders.md>)| Same as [`.Advance`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Advance}.md>)
-    |       | [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Plus}.md>) |[time](<Time holders.md>)| Same as [`.Advance`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Advance}.md>)
-    |       | [`.GoBack`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.GoBack}.md>) |[time](<Time holders.md>)| What if we remove time?
-    |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Minus}.md>)|[time](<Time holders.md>)| Same as [`.GoBack`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.GoBack}.md>)
+    |Change | [`.Advance`](<../../📃 Functions 🐍/🐍🧠 Time functions/🔩 {$time.Advance}.md>) |[time](<Time holders.md>)| What if we add time?
+    |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) |[time](<Time holders.md>)| Same as [`.Advance`](<../../📃 Functions 🐍/🐍🧠 Time functions/🔩 {$time.Advance}.md>)
+    |       | [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Plus}.md>) |[time](<Time holders.md>)| Same as [`.Advance`](<../../📃 Functions 🐍/🐍🧠 Time functions/🔩 {$time.Advance}.md>)
+    |       | [`.GoBack`](<../../📃 Functions 🐍/🐍🧠 Time functions/🔩 {$time.GoBack}.md>) |[time](<Time holders.md>)| What if we remove time?
+    |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Minus}.md>)|[time](<Time holders.md>)| Same as [`.GoBack`](<../../📃 Functions 🐍/🐍🧠 Time functions/🔩 {$time.GoBack}.md>)
   
 
     ---
