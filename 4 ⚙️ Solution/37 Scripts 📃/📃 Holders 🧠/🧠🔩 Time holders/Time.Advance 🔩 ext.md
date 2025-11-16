@@ -10,7 +10,7 @@
 
     `{.Advance}` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that advances a period from a given [Time 🧠 holder](<../🧠 Input holders/Time holders.md>)
+    * that advances a period from a given [Time 🧠 holder](<Time holders.md>)
     * as opposed to [`.GoBack`](<Time.GoBack 🔩 ext.md>).
 
     ---
@@ -25,10 +25,10 @@
     Input|Purpose|Example
     |-|-|-
     | `time` | Original time as a function, | [`.Now`](<../🧠 Input holders/Time 🧠 functions/🔩 .Now.md>) [`.Today`](<../🧠 Input holders/Time 🧠 functions/🔩 .Today.md>) 
-    || or as a [Time 🧠 holder](<../🧠 Input holders/Time holders.md>) | [`$time`](<../🧠 Input holders/Time holders.md>) 
+    || or as a [Time 🧠 holder](<Time holders.md>) | [`$time`](<Time holders.md>) 
     | `period` | Textual period to advance, | `3 hours` 
     || or timestamp-like period, | `3:29:47` |
-    || or an exact [Time 🧠 holder](<../🧠 Input holders/Time holders.md>) | [`$time2`](<../🧠 Input holders/Time holders.md>) 
+    || or an exact [Time 🧠 holder](<Time holders.md>) | [`$time2`](<Time holders.md>) 
    
     ---
     <br/>
@@ -55,10 +55,10 @@
 
 1. **What happens when passing a time holder to the period?**
 
-    A [Time 🧠 holder](<../🧠 Input holders/Time holders.md>) passed in the `period` input 
+    A [Time 🧠 holder](<Time holders.md>) passed in the `period` input 
     * always outputs that holder,
     * allowing to use `.Advance($time, $any)` 
-    * where `$any` is either an absolute [Time 🧠](<../🧠 Input holders/Time holders.md>) 
+    * where `$any` is either an absolute [Time 🧠](<Time holders.md>) 
     * or a relative period like `1 day ago`.
   
 
