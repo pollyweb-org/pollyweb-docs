@@ -33,7 +33,7 @@ then the last 3 will never be executed because REEL will exit the script.
     | Input| Purpose |
     |-|-
     | `<http-code>`| Defaults to `200` if omitted
-    | `{response}` | Response for the [Synchronous Request 🚀](<../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Sync Requests 🚀.md>)
+    | `{response}` | Response for the [Synchronous Request 🚀](<../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Sync Calls 🚀.md>)
 
     ---
     <br/>

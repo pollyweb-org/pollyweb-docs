@@ -307,11 +307,11 @@ Successful Tests:
 
   - Given: "{{Sync Request}}"
     LinkText: "Sync Request 🚀"
-    LinkFile: "Sync Requests 🚀.md"
+    LinkFile: "Sync Calls 🚀.md"
     Reasons: This is hardcoded.
-  - Given: "{{Sync Requests}}"
-    LinkText: "Sync Requests 🚀"
-    LinkFile: "Sync Requests 🚀.md"
+  - Given: "{{Sync Calls}}"
+    LinkText: "Sync Calls 🚀"
+    LinkFile: "Sync Calls 🚀.md"
     Reasons: This is hardcoded.
 
   - Given: "{{Talker}}"
@@ -556,9 +556,9 @@ Successful Tests:
 
   GENERAL:
 
-  - Given: "{{Sync Requests}}"
-    LinkText: "`Sync Requests`"
-    LinkFile: "Sync Requests 🚀.md"
+  - Given: "{{Sync Calls}}"
+    LinkText: "`Sync Calls`"
+    LinkFile: "Sync Calls 🚀.md"
     Reasons: |
       Given that none of the reasons above apply,
       for a given string with multiple words,

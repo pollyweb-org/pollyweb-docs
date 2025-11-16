@@ -26,7 +26,7 @@ Header:
     Subject: Translate@Graph
 
 Body: 
-    Target: pt-br
+    Language: pt-br
 
     # Translate domains
     Domain: any-domain.dom
@@ -45,6 +45,8 @@ Body:
         and schema info
             like ´$Schema.Title´ 
             and ´$Schema.Description´.
+    
+    # Text original language
     Source: en-us
 ```
 
@@ -53,7 +55,7 @@ Body:
 | Header|`From`|text| Requester [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name
 |       |`To`|text| [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>) name
 |       | `Subject` |text| `Translate@Graph`
-|Body   | `Target`|text| Target language
+|Body   | `Language`|text| Target language
 || `Domain`     | string  | [Domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to translate
 || or `Domains`     | string[]  | [Domains 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to translate
 || `Schema`       | string  | [Schema Code 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to translate
@@ -67,14 +69,14 @@ Body:
 
 ## Synchronous Response
 
-If the request contains `Domain` and `Target`.
+If the request contains `Domain` and `Language`.
 ```yaml
 Domain: 
     Title: Any Domain       # in the target language
     Description: Bla...     # in the target language
 ```
 
-If the request contains `Domains` and `Target`.
+If the request contains `Domains` and `Language`.
 ```yaml
 Domains: 
     any-domain.dom:         # Identity domain name
@@ -82,7 +84,7 @@ Domains:
         Description: Bla... # in the target language
 ```
 
-If the request contains `Schema` and `Target`.
+If the request contains `Schema` and `Language`.
 ```yaml
 Schema: 
     Title: Any Schema       # in the target language
@@ -97,7 +99,7 @@ Schemas:
         Description: Bla... # in the target language
 ```
 
-If the request contains `Text`, `Source`, and `Target`.
+If the request contains `Text`, `Source`, and `Language`.
 ```yaml
 Text: Bla...
 ```

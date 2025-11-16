@@ -2,7 +2,7 @@
 
 > Purpose
 * A [Hoster ☁️ helper domain](<../../☁️🤲 Hoster helper.md>) 
-    * proxies [Sync Requests 🚀](<../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Sync Requests 🚀.md>)
+    * proxies [Sync Calls 🚀](<../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Sync Calls 🚀.md>)
     * from a [Talker 😃 helper domain](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>)
     * to other [domains 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>).
 
