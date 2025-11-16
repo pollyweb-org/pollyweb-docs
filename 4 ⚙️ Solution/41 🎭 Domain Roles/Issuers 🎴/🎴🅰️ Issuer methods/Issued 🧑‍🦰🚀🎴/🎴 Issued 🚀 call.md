@@ -32,10 +32,10 @@ Body:
 
 |Object |Property |Type|Description | Origin 
 |-|-|-|-|-
-|Header |`From`|string| `Anonymous`
+|Header |`From`|text| `Anonymous`
 |       |`To`|string  | [Issuer 🎴](<../../🎴 Issuer/🎴🎭 Issuer role.md>) | [`Save@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>)
-||`Subject`|string|`Token@Issuer` 
-| Body | `Hook`| string | [Issuer 🎴](<../../🎴 Issuer/🎴🎭 Issuer role.md>) Hook | [`Save@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>)
+||`Subject`|text|`Token@Issuer` 
+| Body | `Hook`|text| [Issuer 🎴](<../../🎴 Issuer/🎴🎭 Issuer role.md>) Hook | [`Save@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>)
 |
 
 <br/>
@@ -49,7 +49,7 @@ Schema: airlines.any-igo.dom/SSR/WCH:1
 
 |Property |Type|Description
 |-|-|-
-|  `Schema`| string | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
+|  `Schema`|text| [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 | ... | ... | Other [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) fields 
 |
 

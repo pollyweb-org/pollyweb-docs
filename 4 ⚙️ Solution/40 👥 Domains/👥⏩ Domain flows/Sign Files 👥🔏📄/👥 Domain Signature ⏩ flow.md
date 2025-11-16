@@ -59,12 +59,12 @@
 
     |Property| Type | Details
     |-|-|-
-    | `Schema` | string |  `nlweb.dom/SIGNATURE:1.0`
-    | `Domain` | string | The [domain 👥](<../../👥 Domain/👥 Domain.md>) name
-    | `Hash` | string |  The hash of the file
+    | `Schema` |text|  `nlweb.dom/SIGNATURE:1.0`
+    | `Domain` |text| The [domain 👥](<../../👥 Domain/👥 Domain.md>) name
+    | `Hash` |text|  The hash of the file
     | `Signed` | timestamp | When it was signed
-    | `DKIM`| string | The [DKIM 📨](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Public Key/🕸 Public Key 🚀 call.md>) key used to sign
-    | `Signature`| string | The [signature](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) 📨 
+    | `DKIM`|text| The [DKIM 📨](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Public Key/🕸 Public Key 🚀 call.md>) key used to sign
+    | `Signature`|text| The [signature](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) 📨 
 
     ---
     <br/>

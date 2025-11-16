@@ -32,13 +32,13 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header|`From`|string| The name of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) asking
-|       |`To`|string| [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>) name
-|       | `Subject` | string | `Queryable@Graph`
-| Body  | `Consumer`| string | [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) name
+| Header|`From`|text| The name of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) asking
+|       |`To`|text| [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>) name
+|       | `Subject` |text| `Queryable@Graph`
+| Body  | `Consumer`|text| [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) name
 |       | `Binds`   | object[]   | List of [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) objects
-| Bind  | `Vault`   | string | The [Vault 🗄️ domain](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) name to assess
-|       | `Schema`    | string | The [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to assess
+| Bind  | `Vault`   |text| The [Vault 🗄️ domain](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) name to assess
+|       | `Schema`    |text| The [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to assess
 |
 
 <br/>

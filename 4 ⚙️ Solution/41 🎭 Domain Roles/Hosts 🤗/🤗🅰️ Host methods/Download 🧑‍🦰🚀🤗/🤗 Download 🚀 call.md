@@ -30,8 +30,8 @@ Body:
 
 |Object|Property|Type|Description | Origin
 |-|-|-|-|-
-| Header    |`From`|string| `Anonymous`
-|           |`To`|string| [Sender 🤗](<../../🤗 Host role/🤗🎭 Host role.md>) | [`Prompt@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
+| Header    |`From`|text| `Anonymous`
+|           |`To`|text| [Sender 🤗](<../../🤗 Host role/🤗🎭 Host role.md>) | [`Prompt@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
 |           | `Subject`     | string    | `Prompted@Host`
 | Body      | `Appendix`    | uuid      | [Appendix 📎](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/6 📎 with Appendix.md>) | [`Prompted@`](<../Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 call.md>)
 |
@@ -50,9 +50,9 @@ Content: KFJASON...
 
 |Object |Property|Type|Description
 |-|-|-|-
-|Top| `Name`  | string | Name of the file, for saving
+|Top| `Name`  |text| Name of the file, for saving
 || `Format` | enum | `PDF` `PNG` `JPEG`
-|| `Content` | string | Bytes serialized to base64
+|| `Content` |text| Bytes serialized to base64
 |
 
 <br/>

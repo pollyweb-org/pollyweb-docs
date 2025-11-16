@@ -32,9 +32,9 @@ Body:
 
 |Object|Property|Type|Description|Origin
 |-|-|-|-|-|
-|Header|`From`|string| [Consumer 💼](<../../../Consumers 💼/💼🎭 Consumer role.md>) | [`Consume@`](<../../../Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
-||`To`|string| [Vault 🗄️](<../../🗄️🎭 Vault role.md>) | [`Consume@`](<../../../Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
-||`Subject` | string | `Collect@Vault`
+|Header|`From`|text| [Consumer 💼](<../../../Consumers 💼/💼🎭 Consumer role.md>) | [`Consume@`](<../../../Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
+||`To`|text| [Vault 🗄️](<../../🗄️🎭 Vault role.md>) | [`Consume@`](<../../../Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
+||`Subject` |text| `Collect@Vault`
 |Body|`Collect` | uuid | `Collect` | [`Consume@`](<../../../Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
 |
 
@@ -50,7 +50,7 @@ Data: {...}
 
 ||Property|Type|Description
 |-|-|-|-
-|| `Schema`| string |  [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) of the data
+|| `Schema`|text|  [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) of the data
 || `Data` | any | Data shared
 |
  

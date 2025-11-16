@@ -1,6 +1,6 @@
-# [🧩](<../../Codes 🧩/🧩 Schema Code.md>) [`.MANIFEST`](<🧩 MANIFEST.md>) `/ABOUT`
+# [🧩](<../../Codes 🧩/🧩 Schema Code.md>) [`.MANIFEST`](<../📜 Manifest/📜 Manifest.md>) `/ABOUT`
 
-> Part of [`.MANIFEST` 🧩](<🧩 MANIFEST.md>)
+> Part of [`.MANIFEST` 🧩](<../📜 Manifest/📜 Manifest.md>)
 
 > Implements [domain Manifest 📜](<../📜 Manifest/📜 Manifest.md>) 
 
@@ -25,11 +25,12 @@ About:
 
 | Property | Type | Notes
 |-|-|-
-| `Domain` | string | DNS domain name
-| `Title` | string | Optional human readable title of the domain
-| `Description` | string | Optional human readable description
-| `SmallIcon`  | string | Optional URL to a small icon (20x20)
-| `BigIcon`   | string | Optional URL to a big icon (100x100)
+| `Domain` |text| DNS domain name
+| `Language`|text| [Manifest 📜](<../📜 Manifest/📜 Manifest.md>) language, defaults to `en-us`
+| `Title` |text| Optional human readable title of the domain
+| `Description` |text| Optional human readable description
+| `SmallIcon`  |text| Optional URL to a small icon (20x20)
+| `BigIcon`   |text| Optional URL to a big icon (100x100)
 | `Translations` | [set](<../../../37 Scripts 📃/📃 Holders 🧠/🧠 Holder types/Set holders.md>) | Optional translations of the domain name
 |
 
@@ -64,9 +65,6 @@ Blueprint:
       BigIcon: 
         type: string
         format: uri
-        
-      Feedback:
-        $ref: Domain@.MANIFEST/ABOUT
 
       Translations: 
         type: array

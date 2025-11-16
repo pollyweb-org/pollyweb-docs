@@ -24,12 +24,12 @@ Body:
 
 | Object| Property | Type | Description
 |-|-|-|-
-| Header    |`From`|string| `Anonymous`
-|           |`To`|string| [Filer 🗂️ domain](<../🗂️🎭 Filer role.md>) name
+| Header    |`From`|text| `Anonymous`
+|           |`To`|text| [Filer 🗂️ domain](<../🗂️🎭 Filer role.md>) name
 |           | `Subject`     | string    | `Clone@Filer`
-| Body      | `WalletPin`  | string | Pin displayed on the [Wallet 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
-|           | `SyncerPin`   | string | Pin displayed on the [Syncer 🔃](<../../../55 👷 Build domains/Syncers 🔃/🔃🛠️ Syncer tool.md>)
-|           | `PublicKey`   | string | [Syncer 🔃](<../../../55 👷 Build domains/Syncers 🔃/🔃🛠️ Syncer tool.md>) public key
+| Body      | `WalletPin`  |text| Pin displayed on the [Wallet 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
+|           | `SyncerPin`   |text| Pin displayed on the [Syncer 🔃](<../../../55 👷 Build domains/Syncers 🔃/🔃🛠️ Syncer tool.md>)
+|           | `PublicKey`   |text| [Syncer 🔃](<../../../55 👷 Build domains/Syncers 🔃/🔃🛠️ Syncer tool.md>) public key
 |
 
 <br/>

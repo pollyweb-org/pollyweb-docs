@@ -125,7 +125,7 @@
 
     |Functions|Returns|Description
     |-|-|-
-    | `menu-locator` | string | [Locator 🔆](<../../../4 ⚙️ Solution/25 🔆 Locators/Locators 🔆/🔆 Locator.md>) of the menu.
+    | `menu-locator` |text| [Locator 🔆](<../../../4 ⚙️ Solution/25 🔆 Locators/Locators 🔆/🔆 Locator.md>) of the menu.
     | `order-summary`| markdown | [Curator 🧚 agent](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Curators 🧚/🧚🫥 Curator agent.md>) choices:<br/>- plus ongoing status.
     |
 

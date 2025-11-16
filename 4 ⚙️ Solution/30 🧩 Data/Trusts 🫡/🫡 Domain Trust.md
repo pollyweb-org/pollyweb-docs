@@ -34,7 +34,7 @@
 
     Property | Type | Description
     |-|-|-
-    `Title`          | string | Optional description
+    `Title`          |text| Optional description
     `Expires`        |timestamp| Expiration date:<br/>• default: forever
     `Action`         |enum| Giving or removing trust: <br/>• enum: [GRANT, REVOKE, INHERIT] <br/>• default: GRANT
     `Role`<br/>`Roles`     |enum,<br/>enum[]| Purpose of referred actor:<br>• enum: [VAULT, CONSUMER, *] <br/>• default: both

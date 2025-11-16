@@ -36,9 +36,9 @@ PublicKey: <public-key>
 
 | Property | Type | Details
 |-|-|-
-| `Broker`  | string | 
+| `Broker`  |text| 
 | `Chat`    | uuid |
-| `PublicKey` | string | From [`Hello@Host`](<../../🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
+| `PublicKey` |text| From [`Hello@Host`](<../../🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 | 
 
 <br/>

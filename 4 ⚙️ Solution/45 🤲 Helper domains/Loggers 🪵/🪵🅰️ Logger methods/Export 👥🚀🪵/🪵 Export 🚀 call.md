@@ -30,8 +30,8 @@ Body:
 ```
 |Object|Property|Type|Description|Origin
 |-|-|-|-|-
-| Header    |`From`|string| [`domain`](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [`Start@`](<../Start 👥🚀🪵/🪵 Start 🚀 call.md>)
-|           |`To`|string| [Logger 🪵](<../../🪵 Logger helper/🪵 Logger 🤲 helper.md>) | [`Start@`](<../Start 👥🚀🪵/🪵 Start 🚀 call.md>)
+| Header    |`From`|text| [`domain`](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [`Start@`](<../Start 👥🚀🪵/🪵 Start 🚀 call.md>)
+|           |`To`|text| [Logger 🪵](<../../🪵 Logger helper/🪵 Logger 🤲 helper.md>) | [`Start@`](<../Start 👥🚀🪵/🪵 Start 🚀 call.md>)
 |           | `Subject`     | string    | `Export@Logger`
 | Body      | `Thread`     | uuid    | Optional Thread ID | [`Log@`](<../Log 👥🐌🪵/🪵 Log 🐌 msg.md>)
 |         | `Groups`    | string[]  | Optional groups | [`Log@`](<../Log 👥🐌🪵/🪵 Log 🐌 msg.md>)

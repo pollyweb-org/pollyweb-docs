@@ -34,9 +34,9 @@ Body:
 ```
 |Object|Property|Type|Description
 |-|-|-|-
-| Header    |`From`|string| [Talker 😃 domain](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>)  name
-| |         `To` | string | [Itemizer 🛢 domain](<../../🛢🤲 Itemizer helper.md>) name
-| |         `Subject` | string | `Build@Itemizer`
+| Header    |`From`|text| [Talker 😃 domain](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>)  name
+| |         `To` |text| [Itemizer 🛢 domain](<../../🛢🤲 Itemizer helper.md>) name
+| |         `Subject` |text| `Build@Itemizer`
 | Body      | `Name`     | string    |  [Itemized 🪣 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) name
 |           | `Key`        | string[]  | Index for [`Save@`](<../Item Save 👥🚀🛢/🛢 Save 🚀 call.md>) and [`Read@`](<../Item Read 👥🚀🛢/🛢 Read 🚀 call.md>)
 |           | [`Parents`](<../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Parents.md>) | map |		List of parent items

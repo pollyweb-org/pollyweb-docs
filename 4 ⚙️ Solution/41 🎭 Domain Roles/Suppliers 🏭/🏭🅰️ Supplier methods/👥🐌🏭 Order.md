@@ -24,10 +24,10 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header |`From`|string| Caller [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name
-|       |`To`|string| [Supplier 🏭 domain](<../🏭🎭 Supplier role.md>)
-|       |`Subject`  | string | `Order @ Supplier`
+|Header |`From`|text| Caller [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name
+|       |`To`|text| [Supplier 🏭 domain](<../🏭🎭 Supplier role.md>)
+|       |`Subject`  |text| `Order @ Supplier`
 |Body   |`OrderID`  | uuid   | ID of the order on the  Caller [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
-|       | `ItemCode`| string | [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) of the items
+|       | `ItemCode`|text| [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) of the items
 ||
 

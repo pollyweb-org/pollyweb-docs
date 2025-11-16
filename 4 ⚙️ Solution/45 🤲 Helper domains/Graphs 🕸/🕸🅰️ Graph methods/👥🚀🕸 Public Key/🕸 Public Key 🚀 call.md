@@ -30,11 +30,11 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header|`From`|string| The name of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) asking
-|       |`To`|string| [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>) name
-|       | `Subject` | string | `PublicKey@Graph`
-|Body   | `Issuer`  | string | [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) name
-|       | `DKIM`| string | [DKIM 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) name
+| Header|`From`|text| The name of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) asking
+|       |`To`|text| [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>) name
+|       | `Subject` |text| `PublicKey@Graph`
+|Body   | `Issuer`  |text| [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) name
+|       | `DKIM`|text| [DKIM 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) name
 |
 
 <br/>
@@ -48,6 +48,6 @@ PublicKey: MIIBIjANBgkqhkiG9w0BAQEFAA...
 
 |Property|Type|Description
 |-|-|-
-| `Algorithm` | string | [DKIM 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) algorithm used in the period
-| `PublicKey` | string | [DKIM 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) public key in the period
+| `Algorithm` |text| [DKIM 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) algorithm used in the period
+| `PublicKey` |text| [DKIM 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) public key in the period
 |

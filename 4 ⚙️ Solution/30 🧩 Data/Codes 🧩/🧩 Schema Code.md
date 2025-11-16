@@ -226,7 +226,7 @@
     * using the `$ref` keyword from JSON Schema 
     * as defined in [`.MANIFEST/CODE` 🧩](<../Manifests 📜/📜🧩 Manifest schemas/🧩 CODE.md>).
     
-    Consider [`.MANIFEST` 🧩](<../Manifests 📜/📜🧩 Manifest schemas/🧩 MANIFEST.md>):
+    Consider [`.MANIFEST` 🧩](<../Manifests 📜/📜 Manifest/📜 Manifest.md>):
     * it references [`.MANIFEST/ABOUT` 🧩](<../Manifests 📜/📜🧩 Manifest schemas/🧩 ABOUT.md>)
         ```yaml
         About:

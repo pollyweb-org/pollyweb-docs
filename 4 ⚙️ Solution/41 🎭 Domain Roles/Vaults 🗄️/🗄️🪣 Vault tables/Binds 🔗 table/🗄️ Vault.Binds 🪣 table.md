@@ -18,9 +18,9 @@ User: <user-reference>
 
 | Property | Type | Details
 |-|-|-
-| `Broker` | string | From [`Bound@Broker`](<../../🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
+| `Broker` |text| From [`Bound@Broker`](<../../🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
 | `Bind`| uuid | From [`Bound@Broker`](<../../🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
-| `Schema` | string | From [`Bound@Broker`](<../../🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
+| `Schema` |text| From [`Bound@Broker`](<../../🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
 | `User` | any | Internal anchor
 | 
 

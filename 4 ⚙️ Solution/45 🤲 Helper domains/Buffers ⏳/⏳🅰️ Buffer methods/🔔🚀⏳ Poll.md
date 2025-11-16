@@ -21,9 +21,9 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From`|string| [Subscriber 🔔 domain](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>) name
-||`To`|string| [Buffer ⏳ helper domain](<../⏳🤲 Buffer helper.md>) name
-||`Subject`| string | `Poll@Buffer`
+|Header|`From`|text| [Subscriber 🔔 domain](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>) name
+||`To`|text| [Buffer ⏳ helper domain](<../⏳🤲 Buffer helper.md>) name
+||`Subject`|text| `Poll@Buffer`
 |Body| `Queue`| uuid | Queue from [`Queue@Buffer`](<🔔🐌⏳ Queue.md>)
 || `DLQ`| bool | From dead-letter-queue? 
 |
@@ -43,5 +43,5 @@ Messages:
 |-|-|-|-
 | Top | `Poll` | uuid | Poll ID for [`Confirm@Buffer`](<🔔🚀⏳ Confirm.md>)
 | Messages | `ID` | uuid | Message ID for [`Confirm@Buffer`](<🔔🚀⏳ Confirm.md>)
-|| `Content` | string | [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) encrypted with the [DKIM 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) of the [Subscriber 🔔 domain](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>) and encoded in Base64
+|| `Content` |text| [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) encrypted with the [DKIM 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) of the [Subscriber 🔔 domain](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>) and encoded in Base64
 |

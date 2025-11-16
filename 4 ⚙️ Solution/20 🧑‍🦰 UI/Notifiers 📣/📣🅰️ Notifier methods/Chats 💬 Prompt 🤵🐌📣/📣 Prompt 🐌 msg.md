@@ -36,15 +36,15 @@ Body:
 
 |Object|Property|Type|Description|Origin|Purpose
 |-|-|-|-|-|-
-|Header|`From`|string| [Broker 🤵](<../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>)  | [`Onboard@`](<../Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 call.md>)
-||`To`|string| [Notifier 📣](<../../📣 Notifier domain/📣 Notifier 👥 domain.md>) | [`Onboard@`](<../Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 call.md>)
-||`Subject`|string|`Prompt@` | 
+|Header|`From`|text| [Broker 🤵](<../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>)  | [`Onboard@`](<../Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 call.md>)
+||`To`|text| [Notifier 📣](<../../📣 Notifier domain/📣 Notifier 👥 domain.md>) | [`Onboard@`](<../Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 call.md>)
+||`Subject`|text|`Prompt@` | 
 |Body  |`Wallet` |uuid  | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) ID | [`Onboard@`](<../Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 call.md>)
 |      |`Chat`  |uuid  | [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID | [`Open@`](<../Chats 💬 Open 🤵🐌📣/📣 Open 🐌 msg.md>)
-|      |`Sender`  |string| [Host 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) name | [`Prompt@`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
+|      |`Sender`  |text| [Host 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) name | [`Prompt@`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
 |      |`Hook`|uuid  | [Prompt 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) ID | [`Prompt@`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>) | [`Prompted@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 call.md>) [`Reply@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Reply 🧑‍🦰🐌🤗/🤗 Reply 🐌 msg.md>)
-|| [`Format`](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>)  | string | [Prompt 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) format | [`Prompt@`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
-|| [`Emoji`](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/😶⌘ EMOJI cmd.md>) | string | [Prompt 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>)   emoji | [`Prompt@`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
+|| [`Format`](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>)  |text| [Prompt 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) format | [`Prompt@`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
+|| [`Emoji`](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/😶⌘ EMOJI cmd.md>) |text| [Prompt 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>)   emoji | [`Prompt@`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
 |
 
 <br/>

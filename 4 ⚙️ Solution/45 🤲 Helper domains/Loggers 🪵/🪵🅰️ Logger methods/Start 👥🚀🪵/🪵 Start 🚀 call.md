@@ -25,8 +25,8 @@ Body:
 
 |Object|Property|Type|Description|Destination
 |-|-|-|-|-
-| Header    |`From`|string| [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
-|           |`To`|string| [Logger 🪵](<../../🪵 Logger helper/🪵 Logger 🤲 helper.md>)
+| Header    |`From`|text| [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
+|           |`To`|text| [Logger 🪵](<../../🪵 Logger helper/🪵 Logger 🤲 helper.md>)
 |           | `Subject`     | string    | `Start@Logger`
 | Body    | `Delete`     | string    | [`.Minus`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Minus}.md>) log retention
 |         | `Group`    | string[]  | Only save these log groups | [`Export@`](<../Export 👥🚀🪵/🪵 Export 🚀 call.md>)

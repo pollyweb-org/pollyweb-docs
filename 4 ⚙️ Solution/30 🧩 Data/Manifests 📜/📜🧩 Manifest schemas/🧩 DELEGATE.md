@@ -1,6 +1,6 @@
-# [🧩](<../../Codes 🧩/🧩 Schema Code.md>) [`.MANIFEST`](<🧩 MANIFEST.md>) `/DELEGATE`
+# [🧩](<../../Codes 🧩/🧩 Schema Code.md>) [`.MANIFEST`](<../📜 Manifest/📜 Manifest.md>) `/DELEGATE`
 
-> Part of [`.MANIFEST` 🧩](<🧩 MANIFEST.md>)
+> Part of [`.MANIFEST` 🧩](<../📜 Manifest/📜 Manifest.md>)
 
 > Implements [domain Manifest 📜](<../📜 Manifest/📜 Manifest.md>) 
 
@@ -21,8 +21,8 @@
 
 | Property | Type | Notes
 |-|-|-
-| `Delegate` | string | Domain to delegate to.
-| `Schema`     | string | Relative path of the code or group.
+| `Delegate` |text| Domain to delegate to.
+| `Schema`     |text| Relative path of the code or group.
 |
 
 <br/>

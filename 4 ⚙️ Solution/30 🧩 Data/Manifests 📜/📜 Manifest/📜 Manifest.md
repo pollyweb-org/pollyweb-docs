@@ -38,7 +38,7 @@
 
 1. **What information can be added to a Manifest?**
 
-    Manifests are defined by [`.MANIFEST` 🧩](<../📜🧩 Manifest schemas/🧩 MANIFEST.md>) and can include the following sections.
+    Manifests are defined by [`.MANIFEST` 🧩](<📜 Manifest.md>) and can include the following sections.
 
     |Section|Purpose | Schemas
     |-|-|-

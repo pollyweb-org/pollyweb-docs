@@ -188,13 +188,22 @@ Successful Tests:
     LinkFile: "🪵 Logger 🤲 helper.md"
     Reasons: This is hardcoded.
 
-  - Given: '{{Num}}'
-    LinkText: "Num 🧠 holder"
-    LinkFile: "Num holders.md"
+  - Given: '{{Manifest}}'
+    LinkText: "Manifest 📜"
+    LinkFile: "📜 Manifest.md"
     Reasons: This is hardcoded.
-  - Given: '{{Nums}}'
-    LinkText: "Num 🧠 holders"
-    LinkFile: "Num holders.md"
+  - Given: '{{Manifests}}'
+    LinkText: "Manifests 📜"
+    LinkFile: "📜 Manifest.md"
+    Reasons: This is hardcoded.
+
+  - Given: '{{Map}}'
+    LinkText: "Map 🧠 holder"
+    LinkFile: "Map holders.md"
+    Reasons: This is hardcoded.
+  - Given: '{{Maps}}'
+    LinkText: "Map 🧠 holders"
+    LinkFile: "Map holders.md"
     Reasons: This is hardcoded.
 
   - Given: '{{Notifier}}'
@@ -206,13 +215,13 @@ Successful Tests:
     LinkFile: "📣 Notifier 👥 domain.md"
     Reasons: This is hardcoded.
 
-  - Given: '{{Map}}'
-    LinkText: "Map 🧠 holder"
-    LinkFile: "Map holders.md"
+  - Given: '{{Num}}'
+    LinkText: "Num 🧠 holder"
+    LinkFile: "Num holders.md"
     Reasons: This is hardcoded.
-  - Given: '{{Maps}}'
-    LinkText: "Map 🧠 holders"
-    LinkFile: "Map holders.md"
+  - Given: '{{Nums}}'
+    LinkText: "Num 🧠 holders"
+    LinkFile: "Num holders.md"
     Reasons: This is hardcoded.
 
   - Given: '{{Period}}'

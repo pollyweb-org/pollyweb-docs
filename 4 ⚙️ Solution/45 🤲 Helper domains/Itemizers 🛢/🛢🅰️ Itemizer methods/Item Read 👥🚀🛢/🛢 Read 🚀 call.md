@@ -27,8 +27,8 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header    |`From`|string| [Talker 😃](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>) from [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
-|           |`To`|string| [Itemizer 🛢](<../../🛢🤲 Itemizer helper.md>) from [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
+| Header    |`From`|text| [Talker 😃](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>) from [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
+|           |`To`|text| [Itemizer 🛢](<../../🛢🤲 Itemizer helper.md>) from [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
 |           | `Subject`     | string    | `Read@Itemizer`
 | Body      | `Set`     | string    | Set from [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
 |           | `Key`        | string    | Key from [`Save@Itemizer`](<../Item Save 👥🚀🛢/🛢 Save 🚀 call.md>)
@@ -48,6 +48,6 @@ Body:
 ||Property|Type|Description
 |-|-|-|-
 || `Item`        | object    | [Item 🛢](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) saved on the [`Save@Itemizer` 🅰️ method](<../Item Save 👥🚀🛢/🛢 Save 🚀 call.md>)
-|| `.Table`   | string | Table name for the [`SAVE` 📃 script](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE 📃 script.md>)
+|| `.Table`   |text| Table name for the [`SAVE` 📃 script](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE 📃 script.md>)
 || `.Version` | uuid   | Version for the [`Save@Itemizer` 🅰️ method](<../Item Save 👥🚀🛢/🛢 Save 🚀 call.md>)
 |

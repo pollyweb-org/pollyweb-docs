@@ -33,7 +33,7 @@ Value: {...}
 |Property|Type|Details|
 |-|-|-
 |`Hook`| uuid | [`TalkerHooks` 🪣 table](<😃 Talker.Hooks 🪣 table.md>) ID
-|`Holder`| string | [Holder 🧠](<../../Scripts 📃/Holder 🧠.md>) name
-|`Schema`| string | [Schema Code 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
+|`Holder`|text| [Holder 🧠](<../../Scripts 📃/Holder 🧠.md>) name
+|`Schema`|text| [Schema Code 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 |`Value` | any | Content of the [Holder 🧠](<../../Scripts 📃/Holder 🧠.md>)
 |

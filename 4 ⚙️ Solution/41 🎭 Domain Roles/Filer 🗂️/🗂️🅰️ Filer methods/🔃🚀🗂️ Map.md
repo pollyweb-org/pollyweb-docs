@@ -28,10 +28,10 @@ Body:
 | Object| Property | Type | Description
 |-|-|-|-
 | Header    |`From`| uuid | `Clone` from [`Clone@`](<🔃🚀🗂️ Clone.md>) 
-|           |`To`|string| [Filer 🗂️](<../🗂️🎭 Filer role.md>) from [`Clone@`](<🔃🚀🗂️ Clone.md>) 
+|           |`To`|text| [Filer 🗂️](<../🗂️🎭 Filer role.md>) from [`Clone@`](<🔃🚀🗂️ Clone.md>) 
 |           | `Subject`     | string    | `Map@Filer`
 | Body      | `Files`       | dict | Dictionary of local files
-| File      | `Hash`        | string | Hashed with [`Clone@`](<🔃🚀🗂️ Clone.md>) hash
+| File      | `Hash`        |text| Hashed with [`Clone@`](<🔃🚀🗂️ Clone.md>) hash
 |
 
 <br/>
@@ -51,5 +51,5 @@ Files:
 |-|-|-|-
 |Top| `Map`         | uuid      | ID for [`Upload@`](<🔃🚀🗂️ Upload.md>) and [`Uploaded@`](<🔃🚀🗂️ Uploaded.md>)
 || `Files` | dict | List of files required to change
-|File| `Action` | string | `UPLOAD` `REMOVE`
+|File| `Action` |text| `UPLOAD` `REMOVE`
 |

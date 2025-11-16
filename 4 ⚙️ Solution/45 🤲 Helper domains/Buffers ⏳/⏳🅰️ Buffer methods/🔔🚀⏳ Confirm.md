@@ -26,9 +26,9 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From`|string| [Subscriber 🔔 domain](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>) name
-||`To`|string| [Buffer ⏳ helper domain](<../⏳🤲 Buffer helper.md>) name
-||`Subject`| string | `Confirm@Buffer`
+|Header|`From`|text| [Subscriber 🔔 domain](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>) name
+||`To`|text| [Buffer ⏳ helper domain](<../⏳🤲 Buffer helper.md>) name
+||`Subject`|text| `Confirm@Buffer`
 |Body | `Poll` | uuid | Confirmed Poll (optional)
 || `Messages`| uuid[] | Confirmed Messages (optional)
 |
