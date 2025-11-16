@@ -40,4 +40,4 @@
 [map]: <Map holders.md>
 [.Filter]: <../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Filter}.md>
 [set]: <Set holders.md>
-[.Append]: <../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>
+[.Append]: <../../📃 Functions 🐍/🐍 System 🔩 functions/Append ⓕ.md>
