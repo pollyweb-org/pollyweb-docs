@@ -37,7 +37,7 @@
     |-|-|-|-
     |[Text 🧠](<../Text 📚 holders/🧠 Text holders.md>)| Different meaning | `a`|`b`  
     |[Num 🧠](<../Num 📚 holders/🧠 Num holders.md>)| Different math results| `1` | `1.1`
-    |[List 🧠](<../List 📚 holders/List holders.md>)| Different sequence | `[1,3,2]` | `[1,2,3]`
+    |[List 🧠](<../List 📚 holders/🧠 List holders.md>)| Different sequence | `[1,3,2]` | `[1,2,3]`
     |[Map 🧠](<../Map 📚 holders/🧠 Map holders.md>)| Different pair content | `{A:2}` | `{A:1}`
     
     ---

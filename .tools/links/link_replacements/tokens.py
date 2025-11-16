@@ -486,7 +486,7 @@ def replace_bool_tokens(md_files):
     return total
 
 
-@register_hardcoded("list", replacement="[List 🧠 holder](<List holders.md>)|[list](<List holders.md>)", token_label="List")
+@register_hardcoded("list", replacement="[List 🧠 holder](<🧠 List holders.md>)|[list](<🧠 List holders.md>)", token_label="List")
 def replace_list_tokens(md_files):
     """Replace {{List}}/{{list}} tokens while preserving link text casing."""
 
@@ -514,7 +514,7 @@ def replace_list_tokens(md_files):
                 return match.group(0)
 
             token_value = match.group(1)
-            replacement = "[list](<List holders.md>)" if token_value.islower() else "[List 🧠 holder](<List holders.md>)"
+            replacement = "[list](<🧠 List holders.md>)" if token_value.islower() else "[List 🧠 holder](<🧠 List holders.md>)"
             changes += 1
             return replacement
 
@@ -722,7 +722,7 @@ _GEN_BASIC = [
     ("replace_chats_tokens", "Chats", "chats", "[Chats 💬](<💬 Chat.md>)", "Chats"),
     ("replace_settings_tokens", "$.Hosted", "$.settings", "[`$.Hosted` 🧠 holder](<📦 $.Hosted 🧠 holder.md>)", "$.Hosted"),
     ("replace_placeholders_tokens", "Placeholders", "placeholders", "[Placeholders 🧠](<Holder 🧠.md>)", "Placeholders"),
-    ("replace_lists_tokens", "Lists", "lists", "[List 🧠 holders](<List holders.md>)", "Lists"),
+    ("replace_lists_tokens", "Lists", "lists", "[List 🧠 holders](<🧠 List holders.md>)", "Lists"),
     ("replace_sets_tokens", "Sets", "sets", "[Set 🧠 holders](<🧠 Set holders.md>)", "Sets"),
     ("replace_nums_tokens", "Nums", "nums", "[Num 🧠 holders](<🧠 Num holders.md>)", "Nums"),
     ("replace_bind_tokens", "Bind", "bind", "[Bind 🔗](<🔗 Bind.md>)", "Bind"),

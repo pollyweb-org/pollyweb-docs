@@ -51,7 +51,7 @@ Blueprint:
 | `Resources`  | [map](<../../../37 Scripts 📃/📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>) | Dictionary of external resources
 | `Translations` | [map](<../../../37 Scripts 📃/📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>) | Dictionary of translations
 | `Version`       | text | Version in `major/breaks`.`minor/safe`   
-| `Properties`    | [list](<../../../37 Scripts 📃/📃 Holders 🧠/List 📚 holders/List holders.md>)  | Optional human readable list of attributes |
+| `Properties`    | [list](<../../../37 Scripts 📃/📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)  | Optional human readable list of attributes |
 | `Inherits`      | text | Optional inheritance for QR codes | `.TOKEN`
 | `Location`      | url | Optional external location of the [JSON schema](<https://json-schema.org/>) |
 | `Format`       | [map](<../../../37 Scripts 📃/📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>) | Optional [JSON schema](<https://json-schema.org/>) for machine validation |

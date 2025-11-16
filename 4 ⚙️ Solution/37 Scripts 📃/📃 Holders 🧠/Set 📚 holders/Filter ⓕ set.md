@@ -10,7 +10,7 @@
 
     `{.Filter}`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that filters a [List 🧠 holder](<../List 📚 holders/List holders.md>).
+    * that filters a [List 🧠 holder](<../List 📚 holders/🧠 List holders.md>).
 
     ---
     <br/>

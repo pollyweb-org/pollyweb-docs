@@ -24,7 +24,7 @@
     |[`Text`](<../../37 Scripts 📃/📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>) | Text strings | `ABC`
     |[`Time`](<../../37 Scripts 📃/📃 Holders 🧠/Time 📚 holders/🧠 Time holders.md>)| Dates and times | `2018-12-10T13:45:00Z`
     |[`Num`](<../../37 Scripts 📃/📃 Holders 🧠/Num 📚 holders/🧠 Num holders.md>) | Numbers for  math | `1` `1.03` `-1` `0`
-    |[`List`](<../../37 Scripts 📃/📃 Holders 🧠/List 📚 holders/List holders.md>) | Items in sequence | `[1, A, {X:9}]`
+    |[`List`](<../../37 Scripts 📃/📃 Holders 🧠/List 📚 holders/🧠 List holders.md>) | Items in sequence | `[1, A, {X:9}]`
     |[`Map`][Map] | Key-value pairs | `{A:1, B:2}`
     |[`Set`](<../../37 Scripts 📃/📃 Holders 🧠/Set 📚 holders/🧠 Set holders.md>)| [Maps][Map] sequence | `{A:1},{A:2}`
 
