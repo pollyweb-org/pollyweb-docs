@@ -2,7 +2,7 @@
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
-> Used by [`.Add`](<🔩 {.Add}.md>) [`.Plus`](<🔩 {.Plus}.md>)
+> Used by [`.Add`](<../🐍 System 🔩 functions/🔩 {.Add}.md>) [`.Plus`](<../🐍 System 🔩 functions/🔩 {.Plus}.md>)
 
 ## FAQ
 
@@ -11,7 +11,7 @@
     `{.Advance}` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that advances a period from a given [Time 🧠 holder](<../../📃 Holders 🧠/🧠 Input holders/Time holders.md>)
-    * as opposed to [`.GoBack`](<🔩 {.GoBack}.md>).
+    * as opposed to [`.GoBack`](<🔩 {$time.GoBack}.md>).
 
     ---
     <br/>
@@ -24,7 +24,7 @@
 
     Input|Purpose|Example
     |-|-|-
-    | `time` | Original time as a function, | [`.Now`](<../🐍🧠 Time functions/🔩 {.Now}.md>) [`.Today`](<../🐍🧠 Time functions/🔩 {.Today}.md>) 
+    | `time` | Original time as a function, | [`.Now`](<🔩 {.Now}.md>) [`.Today`](<🔩 {.Today}.md>) 
     || or as a [Time 🧠 holder](<../../📃 Holders 🧠/🧠 Input holders/Time holders.md>) | [`$time`](<../../📃 Holders 🧠/🧠 Input holders/Time holders.md>) 
     | `period` | Textual period to advance, | `3 hours` 
     || or timestamp-like period, | `3:29:47` |

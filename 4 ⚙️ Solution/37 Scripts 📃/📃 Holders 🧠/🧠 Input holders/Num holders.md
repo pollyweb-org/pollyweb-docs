@@ -33,7 +33,7 @@
 
     |Group| [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) |Returns| Details 
     |-|-|-|-
-    | Assess| [`.IsEmpty`](<../../📃 Functions 🐍/🐍🧠 Holder functions/🔩 {Holder.IsEmpty}.md>) |bool| Is it an empty [Holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)?
+    | Assess| [`.IsEmpty`](<../../📃 Functions 🐍/🐍🧠 Holder functions/🔩 {$holder.IsEmpty}.md>) |bool| Is it an empty [Holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)?
     |       | [`.IsNotEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNotEmpty}.md>) |bool| Does it contain a number?
     |Bounds | [`.IsAbove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsAbove}.md>) |bool| Is it above a given number?
     |       | [`.IsAtLeast`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsAtLeast}.md>) |bool| Is it equal or above a number?
@@ -46,12 +46,12 @@
     |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Differs}.md>) |bool| Same as [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNot}.md>)
     |Lists  | [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>) |bool| Is it in a given list of numbers?
     |Create | [`.Random`](<../../📃 Functions 🐍/🐍🧠 Num functions/🔩 {.Random}.md>) |[num][num]| Returns a random number
-    |Change | [`.Sum`](<../../📃 Functions 🐍/🐍🧠 Num functions/🔩 {Num.Sum}.md>) |[num][num]| Adds numbers
-    |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) |[num][num]| Same as [`.Sum`](<../../📃 Functions 🐍/🐍🧠 Num functions/🔩 {Num.Sum}.md>)
-    |       | [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Plus}.md>) |[num][num]| Same as [`.Sum`](<../../📃 Functions 🐍/🐍🧠 Num functions/🔩 {Num.Sum}.md>) | What if we add numbers?
+    |Change | [`.Sum`](<../../📃 Functions 🐍/🐍🧠 Num functions/🔩 {$num.Sum}.md>) |[num][num]| Adds numbers
+    |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) |[num][num]| Same as [`.Sum`](<../../📃 Functions 🐍/🐍🧠 Num functions/🔩 {$num.Sum}.md>)
+    |       | [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Plus}.md>) |[num][num]| Same as [`.Sum`](<../../📃 Functions 🐍/🐍🧠 Num functions/🔩 {$num.Sum}.md>) | What if we add numbers?
     |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Minus}.md>) |[num][num]| Subtracts numbers
-    |       | [`.Times`](<../../📃 Functions 🐍/🐍🧠 Num functions/🔩 {Num.Times}.md>) |[num][num]| Multiplies numbers
-    |       | [`.Calculate`](<../../📃 Functions 🐍/🐍🧠 Num functions/🔩 {Num.Calculate}.md>) |[num][num]| Calculates formulas
+    |       | [`.Times`](<../../📃 Functions 🐍/🐍🧠 Num functions/🔩 {$num.Times}.md>) |[num][num]| Multiplies numbers
+    |       | [`.Calculate`](<../../📃 Functions 🐍/🐍🧠 Num functions/🔩 {$num.Calculate}.md>) |[num][num]| Calculates formulas
     |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) |[num][num]| Distance between 2 numbers
     ---
     <br/>

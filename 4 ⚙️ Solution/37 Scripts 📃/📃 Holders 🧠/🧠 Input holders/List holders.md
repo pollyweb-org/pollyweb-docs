@@ -36,8 +36,8 @@
     |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Differs}.md>)  |bool| Does not equal this other list?
     |       | [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>)       |bool| Has these items in any order?
     |       | [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNot}.md>)    |bool| Are any of these items missing?
-    |Size   | [`.IsEmpty`](<../../📃 Functions 🐍/🐍🧠 Holder functions/🔩 {Holder.IsEmpty}.md>)  | bool| Is empty?
-    |       | [`.IsOne`](<../../📃 Functions 🐍/🐍🧠 List functions/🔩 {List.IsOne}.md>)    | bool| Has only one item?
+    |Size   | [`.IsEmpty`](<../../📃 Functions 🐍/🐍🧠 Holder functions/🔩 {$holder.IsEmpty}.md>)  | bool| Is empty?
+    |       | [`.IsOne`](<../../📃 Functions 🐍/🐍🧠 List functions/🔩 {$list.IsOne}.md>)    | bool| Has only one item?
     |       | [`.AreMany`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.AreMany}.md>)  | bool| Has more than one item?
     |       | [`.Size`][.Size]     | [num][num]| Returns the number of items
     |       | [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Length}.md>)   |  [num][num]| Equals [`.Size`][.Size]
@@ -186,7 +186,7 @@
 
 1. **How to format a list of objects?**
 
-    Using the [`.Format` function](<../../📃 Functions 🐍/🐍🧠 Set functions/{Set.Format}.md>) or the [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) command.
+    Using the [`.Format` function](<../../📃 Functions 🐍/🐍🧠 Set functions/{$set.Format}.md>) or the [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) command.
 
     ```yaml
     ┌───────────────────────────┬───────────────────┐
@@ -204,7 +204,7 @@
 
 1. **How to take some properties from a [List 🧠][list] of [Map 🧠](<Map holders.md>)?**
   
-    Using the [`.Format` function](<../../📃 Functions 🐍/🐍🧠 Set functions/{Set.Format}.md>) in one of 3 forms:
+    Using the [`.Format` function](<../../📃 Functions 🐍/🐍🧠 Set functions/{$set.Format}.md>) in one of 3 forms:
     * with the [`CALL` commands](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>),
     * or as `$holder.property` for a single property on [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>),
     * or as `$holder(prop-1, prop-N)` for a multiple properties.
