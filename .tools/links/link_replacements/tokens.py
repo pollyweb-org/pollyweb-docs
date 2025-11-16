@@ -400,7 +400,7 @@ def replace_authorities_tokens(md_files):
 _MAP_PATTERN = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?([Mm]ap)`?[\s\u00A0\u200B\u200C\u200D]*\}\}")
 
 
-@register_hardcoded("map", replacement="[Map 🧠 holder](<Map holders.md>)", token_label="Map")
+@register_hardcoded("map", replacement="[Map 🧠 holder](<Map holders.md>)|[map](<Map holders.md>)", token_label="Map")
 def replace_map_tokens(md_files):
     total = 0
     link_pattern = re.compile(r"\[.*?\]\(<.*?>\)", re.DOTALL)
@@ -425,6 +425,7 @@ def replace_map_tokens(md_files):
                 return match.group(0)
 
             token_value = match.group(1)
+            # Emit lowercase variant without the emoji when the token is fully lowercase
             replacement = "[map](<Map holders.md>)" if token_value.islower() else "[Map 🧠 holder](<Map holders.md>)"
             changes += 1
             return replacement
@@ -437,6 +438,50 @@ def replace_map_tokens(md_files):
             except Exception:
                 continue
             total += changes
+
+    return total
+
+
+@register_hardcoded("list", replacement="[List 🧠 holder](<List holders.md>)|[list](<List holders.md>)", token_label="List")
+def replace_list_tokens(md_files):
+    """Replace {{List}}/{{list}} tokens while preserving link text casing."""
+
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?([Ll]ist)`?[\s\u00A0\u200B\u200C\u200D]*\}\}")
+    link_pattern = re.compile(r"\[.*?\]\(<.*?>\)", re.DOTALL)
+    total = 0
+
+    for md_file in md_files:
+        path = Path(md_file)
+        try:
+            content = path.read_text(encoding="utf-8")
+        except Exception:
+            continue
+
+        link_spans = [m.span() for m in link_pattern.finditer(content)]
+
+        def inside_link(pos: int) -> bool:
+            return any(a <= pos < b for a, b in link_spans)
+
+        changes = 0
+
+        def _repl(match: re.Match[str]) -> str:
+            nonlocal changes
+            if inside_link(match.start()):
+                return match.group(0)
+
+            token_value = match.group(1)
+            replacement = "[list](<List holders.md>)" if token_value.islower() else "[List 🧠 holder](<List holders.md>)"
+            changes += 1
+            return replacement
+
+        new_content, count = pattern.subn(_repl, content)
+
+        if count:
+            try:
+                path.write_text(new_content, encoding="utf-8")
+            except Exception:
+                continue
+            total += count
 
     return total
 
@@ -456,7 +501,6 @@ _GEN_BASIC = [
     ("replace_chats_tokens", "Chats", "chats", "[Chats 💬](<💬 Chat.md>)", "Chats"),
     ("replace_settings_tokens", "$.Hosted", "$.settings", "[`$.Hosted` 🧠 holder](<📦 $.Hosted 🧠 holder.md>)", "$.Hosted"),
     ("replace_placeholders_tokens", "Placeholders", "placeholders", "[Placeholders 🧠](<Holder 🧠.md>)", "Placeholders"),
-    ("replace_list_tokens", "List", "list", "[List 🧠 holder](<List holders.md>)", "List"),
     ("replace_lists_tokens", "Lists", "lists", "[List 🧠 holders](<List holders.md>)", "Lists"),
     ("replace_set_tokens", "Set", "set", "[Set 🧠 holder](<Set holders.md>)", "Set"),
     ("replace_sets_tokens", "Sets", "sets", "[Set 🧠 holders](<Set holders.md>)", "Sets"),
@@ -479,7 +523,7 @@ _GEN_BASIC = [
     ("replace_chat_msg_tokens", "$.Chat", "$.chat", "[`$.Chat` 🧠 holder](<💬 $.Chat 🧠 holder.md>)", "$.Chat"),
     ("replace_time_tokens", "Time", "time", "[Time 🧠 holder](<Time holders.md>)", "Time"),
     ("replace_times_tokens", "Times", "times", "[Time 🧠 holders](<Time holders.md>)", "Times"),
-    ("replace_period_tokens", "Period", "period", "[Period 🧠 holders](<Period holders.md>)", "Period"),
+    ("replace_period_tokens", "Period", "period", "[Period 🧠 holder](<Period holders.md>)", "Period"),
     ("replace_periods_tokens", "Periods", "periods", "[Period 🧠 holders](<Period holders.md>)", "Periods"),
     ("replace_num_tokens", "Num", "num", "[Num 🧠 holder](<Num holders.md>)", "Num"),
     ("replace_nums_tokens", "Nums", "nums", "[Num 🧠 holders](<Num holders.md>)", "Nums"),

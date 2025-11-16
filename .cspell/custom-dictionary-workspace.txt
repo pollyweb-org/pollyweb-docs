@@ -30,6 +30,7 @@ Keymakers
 md
 nlweb
 NTAG
+Nums
 Passwordless
 Pluggables
 Reimagined

@@ -246,6 +246,11 @@ Successful Tests:
     LinkFile: "📣 Notifier 👥 domain.md"
     Reasons: This is hardcoded.
 
+  # 🧠 Num holder
+  - Given: '{{num}}'
+    LinkText: "num"
+    LinkFile: "Num holders.md"
+    Reasons: This is hardcoded.
   - Given: '{{Num}}'
     LinkText: "Num 🧠 holder"
     LinkFile: "Num holders.md"
@@ -375,6 +380,11 @@ Successful Tests:
     LinkFile: "😃🤲 Talker helper.md"
     Reasons: This is hardcoded.
 
+  # 🧠 Text holder
+  - Given: '{{text}}'
+    LinkText: "text"
+    LinkFile: "Text holders.md"
+    Reasons: This is hardcoded.
   - Given: '{{Text}}'
     LinkText: "Text 🧠 holder"
     LinkFile: "Text holders.md"
@@ -384,6 +394,11 @@ Successful Tests:
     LinkFile: "Text holders.md"
     Reasons: This is hardcoded.
 
+  # 🧠 Time holder
+  - Given: '{{time}}'
+    LinkText: "time"
+    LinkFile: "Time holders.md"
+    Reasons: This is hardcoded.
   - Given: '{{Time}}'
     LinkText: "Time 🧠 holder"
     LinkFile: "Time holders.md"

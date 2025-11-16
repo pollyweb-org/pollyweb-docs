@@ -8,7 +8,7 @@
 
     `DISTINCT` 🌪️
     * is a [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) 
-    * that distincts a [List 🧠 holder](<../../../📃 Holders 🧠/🧠 Holder types/List holders.md>) with the [`.Distinct`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Distinct}.md>) function.
+    * that distincts a [List 🧠 holder](<../../../📃 Holders 🧠/🧠 Input holders/List holders.md>) with the [`.Distinct`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Distinct}.md>) function.
 
     ---
     <br/>
