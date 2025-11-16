@@ -202,7 +202,7 @@
     <br/>
 
 
-1. **How to take some properties from a [List 🧠][list] of [Map 🧠](<../🧠 Input holders/Map holders.md>)?**
+1. **How to take some properties from a [List 🧠][list] of [Map 🧠](<../🧠🔩 Map holders/Map holders.md>)?**
   
     Using the [`.Format` function](<../🧠🔩 Set holders/Set.Format 🔩 ext.md>) in one of 3 forms:
     * with the [`CALL` commands](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>),

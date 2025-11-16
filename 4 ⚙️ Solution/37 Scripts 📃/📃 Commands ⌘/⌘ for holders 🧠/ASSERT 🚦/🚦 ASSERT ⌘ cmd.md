@@ -120,7 +120,7 @@
     <br/>
 
 
-1. **How to assert a [List 🧠](<../../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>) of [Maps 🧠](<../../../📃 Holders 🧠/🧠 Input holders/Map holders.md>)?**
+1. **How to assert a [List 🧠](<../../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>) of [Maps 🧠](<../../../📃 Holders 🧠/🧠🔩 Map holders/Map holders.md>)?**
 
     Here's a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
 
