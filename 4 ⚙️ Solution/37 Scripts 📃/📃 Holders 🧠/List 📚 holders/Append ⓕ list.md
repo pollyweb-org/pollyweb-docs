@@ -1,33 +1,22 @@
-# 😃🔩 Talker `{.Append}` function
+# 😃 Append ⓕ list
 
-> Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
+> Part of [List 🧠 holder](<🧠 List holders.md>)
 
 > Used by [`.Add`](<../Any 📚 holders/Add ⓕ any.md>) [`SELECT`](<../../📃 Commands ⌘/⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>)
 
-# FAQ
+## FAQ
 
-1. **What is the .Append function?**
 
-    `{.Append}` 
-    * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that appends text to a [Text 🧠 holder](<../Text 📚 holders/🧠 Text holders.md>), 
-    * and appends items to a [List 🧠 holder](<🧠 List holders.md>).
-
-    ---
-    <br/>
-
-1. **What's the syntax of .Append?**
+1. **What's the syntax of list.Append?**
 
     ```yaml
-    .Append(list, appendixes...)
+    .Append($list, appendixes...)
     ```
 
     Input | Purpose | Example
     |-|-|-
-    |`list` | Original [Text 🧠](<../Text 📚 holders/🧠 Text holders.md>), | `AB` `$str`
-    |       | or [List 🧠](<🧠 List holders.md>) of items |  `[A,B]` `$list`
-    |`appendixes...` | string to append, | `CD`
-    |           | or item to append, |  `C`
+    |`$list` |  [List 🧠](<🧠 List holders.md>) of items |  `[A,B]` `$list`
+    |`appendixes...` | item to append, |  `C`
     |           | or items to merge | `[C,D]` `C,D`
 
 
@@ -36,10 +25,9 @@
 
 1. **What are usage examples?**
 
-    | Type      | Task  | List | Appendix   | Output
+    | | Task  | List | Appendix   | Output
     |-|-|-|-|-
-    | [Texts 🧠](<../Text 📚 holders/🧠 Text holders.md>)    | Append | `AB` | `CD` | `ABCD`
-    | [Lists 🧠](<🧠 List holders.md>)   | Append | `[1,2]` | `3` | `[1,2,3]`
+    |  | Append | `[1,2]` | `3` | `[1,2,3]`
     |           | Merge  | `[1,2]` | `[3,4]` | `[1,2,3,4]`
     
     ---
