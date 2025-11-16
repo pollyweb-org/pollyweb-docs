@@ -1,4 +1,4 @@
-# 😃🔩 Talker `{.Sum}` function
+# 😃🔩 Talker `{$num.Sum}` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
