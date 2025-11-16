@@ -15,7 +15,7 @@
 
 > Used by 
 
-* [`TokenTimeout` 📃 script](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/Tokens 🎫 table/🪣🔔 OnTokenWiped/🤵 OnTokenPurged 📃 handler.md>)
+* [`TokenTimeout` 📃 script](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/Tokens 🎫 table/🪣🔔 on Wiped/🤵 OnTokenPurged 📃 handler.md>)
 
 
 ## Async Message 🐌

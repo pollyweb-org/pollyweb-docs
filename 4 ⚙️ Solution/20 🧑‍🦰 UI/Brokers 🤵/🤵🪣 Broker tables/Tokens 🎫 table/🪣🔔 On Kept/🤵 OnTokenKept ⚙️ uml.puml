@@ -1,0 +1,28 @@
+@startuml OnTokenSaved
+
+participant "Wallet 👱" as wallet
+
+box Broker 🤵 domain #FFFFFA
+    participant "Saved@ 📃" as script
+    participant "Tokens 🪣" as tokens
+    participant "OnSaved 📃" as change
+end box
+
+'participant "Notifier 📣" as notifier
+participant "Issuer 🎴" as issuer
+
+wallet --> script: Saved 🐌
+
+activate script
+    script -> tokens: SAVE 💾 {KEPT}
+deactivate script
+
+activate tokens
+    tokens --> change: KEPT 🔔
+deactivate tokens
+
+activate change
+    change --> issuer: SEND 📬 {Accepted 🐌}
+deactivate change
+
+@enduml 
