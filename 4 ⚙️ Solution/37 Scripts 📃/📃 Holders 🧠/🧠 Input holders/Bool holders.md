@@ -34,7 +34,7 @@
 
     |Group| [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | Returns| Details 
     |-|-|-|-
-    |Assess| [`.IsEmpty`](<../../📃 Functions 🐍/🐍🧠 Holder functions/🔩 {.IsEmpty}.md>) |bool| Is it unset or missing?
+    |Assess| [`.IsEmpty`](<../../📃 Functions 🐍/🐍🧠 Holder functions/🔩 {Holder.IsEmpty}.md>) |bool| Is it unset or missing?
     |      | [`.IsNotEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNotEmpty}.md>) |bool| Has a value been provided?
     |Compare| [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) |bool| Is it the expected boolean?
     |        | [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNot}.md>) |bool| Is it the opposite value?
