@@ -5,7 +5,7 @@
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
 
-> Works with [`.Key`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Key}.md>) [`.Values`](<../🧠🔩 Map holders/Map.Values 🔩 ext.md>)
+> Works with [`.Key`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Key}.md>) [`.Values`](<../🧠🔩 Map holders/map.Values 🔩 ext.md>)
 
 ## FAQ
 
