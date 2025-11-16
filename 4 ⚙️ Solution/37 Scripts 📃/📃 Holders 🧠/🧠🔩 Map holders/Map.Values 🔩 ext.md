@@ -8,7 +8,7 @@
 > Works with [`.Keys`](<Map.Keys 🔩 ext.md>) [`.Key`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Key}.md>) [`.Value`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Value}.md>) 
 
 > Purpose
-* Extract values from [Maps 🧠](<../🧠 Input holders/Map holders.md>)
+* Extract values from [Maps 🧠](<Map holders.md>)
 
 ## FAQ
 
