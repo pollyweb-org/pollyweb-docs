@@ -33,12 +33,12 @@
     |-|-|-|-
     |Query  | [`.Contains`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Contains}.md>) |bool| Contains a given item?
     |       | [`.Equals`](<../🧠🔩 Any holders/any.Equals 🔩 ext.md>)   |bool| Has these items in this order?
-    |       | [`.Differs`](<../🧠🔩 Any holders/🔩 {.Differs}.md>)  |bool| Does not equal this other list?
+    |       | [`.Differs`](<../🧠🔩 Any holders/any.Differs 🔩 ext.md>)  |bool| Does not equal this other list?
     |       | [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>)       |bool| Has these items in any order?
     |       | [`.IsNot`](<../🧠🔩 Any holders/any.IsNot 🔩 ext.md>)    |bool| Are any of these items missing?
     |Size   | [`.IsEmpty`](<../🧠🔩 Any holders/any.IsEmpty 🔩 ext.md>)  | bool| Is empty?
     |       | [`.IsOne`](<list.IsOne 🔩 ext.md>)    | bool| Has only one item?
-    |       | [`.AreMany`](<🔩 {.AreMany}.md>)  | bool| Has more than one item?
+    |       | [`.AreMany`](<list.AreMany 🔩 ext.md>)  | bool| Has more than one item?
     |       | [`.Size`][.Size]     | [num][num]| Returns the number of items
     |       | [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Length}.md>)   |  [num][num]| Equals [`.Size`][.Size]
     |Read   | [`.First`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.First}.md>)   |[list][list], any| Get the first `n` items
@@ -47,7 +47,7 @@
     |Change | [`.Append`][.Append]     |[list][list]| Add items to the list
     |       | [`.Add`](<../🧠🔩 Any holders/any.Add 🔩 ext.md>) |[list][list]| Same as [`.Append`][.Append]
     |       | [`.Remove`][.Remove]   |[list][list]| Remove items from the list
-    |       | [`.Minus`](<../🧠🔩 Any holders/🔩 {.Minus}.md>) |[list][list]| Same as [`.Remove`][.Remove]
+    |       | [`.Minus`](<../🧠🔩 Any holders/any.Minus 🔩 ext.md>) |[list][list]| Same as [`.Remove`][.Remove]
     |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) |[list][list]| Same as [`.Remove`][.Remove]
     
     

@@ -39,7 +39,7 @@
     |Compare| [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) |bool| Is it the expected boolean?
     |        | [`.IsNot`](<../🧠🔩 Any holders/any.IsNot 🔩 ext.md>) |bool| Is it the opposite value?
     |        | [`.Equals`](<../🧠🔩 Any holders/any.Equals 🔩 ext.md>) |bool| Equal comparison alias for `.Is`
-    |        | [`.Differs`](<../🧠🔩 Any holders/🔩 {.Differs}.md>) |bool| Not-equal alias for `.IsNot`
+    |        | [`.Differs`](<../🧠🔩 Any holders/any.Differs 🔩 ext.md>) |bool| Not-equal alias for `.IsNot`
     |Lists  | [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>) |bool| Is it one of the accepted values?
     |Combine| [`.AllOf`](<../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 AllOf.md>) |bool| Are all of these booleans `true`?
     |       | [`.AnyOf`](<../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 AnyOf.md>) |bool| Is any of these booleans `true`?
