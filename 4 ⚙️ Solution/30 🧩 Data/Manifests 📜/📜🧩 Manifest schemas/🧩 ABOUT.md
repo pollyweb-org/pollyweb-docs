@@ -11,6 +11,7 @@
 ```yaml
 About:
     Domain: any-domain.dom
+    Language: en-us
     Title: Any Domain
     Description: This is a dummy domain.
     SmallIcon: 'https://picsum.photos/20/20'
@@ -19,8 +20,9 @@ About:
     Buffer: any-buffer.dom
 
     Translations: 
-        en: Any Domain
-        pt: Um domínio qualquer
+      - Language: pt-br
+        Title: Um domínio qualquer
+        Description: Isto é um domínio de exemplo.
 ```
 
 | Property | Type | Notes
@@ -30,7 +32,7 @@ About:
 | `Description` | string | Optional human readable description
 | `SmallIcon`  | string | Optional URL to a small icon (20x20)
 | `BigIcon`   | string | Optional URL to a big icon (100x100)
-| `Translations` | dict | Optional translations of the domain name
+| `Translations` | [Set 🧠 holder](<../../../37 Scripts 📃/📃 Holders 🧠/🧠 Holder types/Set holders.md>) | Optional translations of the domain name
 | `Buffer` | string | Optional [Buffer ⏳ helper domain](<../../../45 🤲 Helper domains/Buffers ⏳/⏳🤲 Buffer helper.md>) name 
 |||If not set, it's assumed `buffer.nlweb.
 |
