@@ -34,7 +34,7 @@
 
 1. **What are examples of .Set for [List 🧠 holders](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)?**
 
-    > This uses the [`.Evaluate`](<Evaluate ⓕ.md>) syntax.
+    > This uses the [`.Evaluate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Evaluate ⓕ.md>) syntax.
 
     ```yaml
     # Lets change      # Into this

@@ -52,7 +52,7 @@
     |       | [`.Minus`](<../Any 📚 holders/Minus ⓕ any.md>) |[num][num]| Subtracts numbers
     |       | [`.Times`](<Times ⓕ num.md>) |[num][num]| Multiplies numbers
     |       | [`.Calculate`](<Calculate ⓕ num.md>) |[num][num]| Calculates formulas
-    |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Diff ⓕ.md>) |[num][num]| Distance between 2 numbers
+    |       | [`.Diff`](<../Any 📚 holders/Diff ⓕ.md>) |[num][num]| Distance between 2 numbers
     ---
     <br/>
 
