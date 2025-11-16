@@ -5,7 +5,7 @@
 box Broker 🤵 domain #FFFFFA
     participant "OnCreated 📃" as script
     participant "Chats 🪣" as table
-    participant "OnDetailed 📃" as handler
+    participant "OnDetailed 🔔" as handler
 end box
 
 participant "Notifier 📣" as notifier
