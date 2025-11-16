@@ -4,16 +4,6 @@
 
 ## FAQ
 
-1. **What is the .Contains function?**
-
-    `{.Contains}`
-    * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that checks if a [Text 🧠 holder](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>) contains a char or substring
-    * or if a [List 🧠 holder](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>) contains a value, 
-    * similar to [`.IsIn`](<../../📃 Holders 🧠/Any 📚 holders/IsIn ⓕ any.md>) but from the [List 🧠 holder](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>) perspective.
-
-    ---
-    <br/>
 
 1. **What's the behavior of .Contains?**
 

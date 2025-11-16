@@ -1,11 +1,11 @@
 # 😃🔩 Talker `{.Cross}` function
 
-> Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
+> Part of [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
 > Purpose
-* Crosses multiple [Set 🧠 holders](<../../📃 Holders 🧠/Set 📚 holders/🧠 Set holders.md>)
+* Crosses multiple [Set 🧠 holders](<../../../📃 Holders 🧠/Set 📚 holders/🧠 Set holders.md>)
 
-> Used by [`SELECT`](<../../📃 Commands ⌘/⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>)
+> Used by [`SELECT`](<../../../📃 Commands ⌘/⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>)
 
 ## FAQ
 
@@ -19,7 +19,7 @@
 
     | Inputs | Purpose | Examples
     |-|-|-
-    | `sets...` | [Set 🧠 holders](<../../📃 Holders 🧠/Set 📚 holders/🧠 Set holders.md>) cross | `$s1,$s2` `[$s1,$s2]`
+    | `sets...` | [Set 🧠 holders](<../../../📃 Holders 🧠/Set 📚 holders/🧠 Set holders.md>) cross | `$s1,$s2` `[$s1,$s2]`
 
 
     ---
