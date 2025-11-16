@@ -43,7 +43,7 @@
     |Lists  | [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>) |bool| Is it one of the accepted values?
     |Combine| [`.AllOf`](<../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 AllOf.md>) |bool| Are all of these booleans `true`?
     |       | [`.AnyOf`](<../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 AnyOf.md>) |bool| Is any of these booleans `true`?
-    |       | [`.OneOf`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.OneOf}.md>) |bool| Is exactly one of them `true`?
+    |       | [`.OneOf`](<../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 {.OneOf}.md>) |bool| Is exactly one of them `true`?
     |Default| [`.Default`](<../🧠🔩 Any holders/any.Default 🔩 ext.md>) |bool| Substitute a fallback when empty
     
     ---
