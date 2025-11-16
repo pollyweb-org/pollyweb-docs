@@ -44,9 +44,9 @@
     |-|-|-
     | `Set` | Name of resource pool | `MyPool`
     | `Key`  | Key to look up in the pool | `1` `$h` `{A:1,B:2}`
-    | `Get`  | [List 🧠](<../../../📃 Holders 🧠/🧠 Holder types/List holders.md>) of fields to retrieve | `A,B` `{Alias:A}`
+    | `Get`  | [List 🧠](<../../../📃 Holders 🧠/🧠 Input holders/List holders.md>) of fields to retrieve | `A,B` `{Alias:A}`
     |        | Makes the `$item` readonly
-    | `Default` | [Maps 🧠](<../../../📃 Holders 🧠/🧠 Holder types/Map holders.md>) to return if missing | `{C:3}` 
+    | `Default` | [Maps 🧠](<../../../📃 Holders 🧠/🧠 Input holders/Map holders.md>) to return if missing | `{C:3}` 
     || Always returns the key | `{A:1,B:2,C:3}`
     | `OnMissing` | [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) or [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) | `MyScript`
     | `$item` | Item to retrieve | -
