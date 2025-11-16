@@ -36,8 +36,8 @@
     |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Differs}.md>)  |bool| Does not equal this other list?
     |       | [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>)       |bool| Has these items in any order?
     |       | [`.IsNot`](<../🧠🔩 Any holders/🔩 {.IsNot}.md>)    |bool| Are any of these items missing?
-    |Size   | [`.IsEmpty`](<../🧠🔩 Any holders/Any.IsEmpty 🔩 ext.md>)  | bool| Is empty?
-    |       | [`.IsOne`](<List.IsOne 🔩 ext.md>)    | bool| Has only one item?
+    |Size   | [`.IsEmpty`](<../🧠🔩 Any holders/any.IsEmpty2 🔩 ext.md>)  | bool| Is empty?
+    |       | [`.IsOne`](<list.IsOne2 🔩 ext.md>)    | bool| Has only one item?
     |       | [`.AreMany`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.AreMany}.md>)  | bool| Has more than one item?
     |       | [`.Size`][.Size]     | [num][num]| Returns the number of items
     |       | [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Length}.md>)   |  [num][num]| Equals [`.Size`][.Size]

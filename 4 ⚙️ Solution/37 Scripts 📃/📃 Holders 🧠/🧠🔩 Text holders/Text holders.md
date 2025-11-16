@@ -8,8 +8,8 @@
 
     |Group| [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | Returns| Details 
     |-|-|-|-
-    | Assess| [`.IsEmpty`](<../🧠🔩 Any holders/Any.IsEmpty 🔩 ext.md>) | bool | Is it an empty text?
-    |       | [`.IsNotEmpty`](<../🧠🔩 Any holders/🔩 {.IsNotEmpty}.md>) | bool | Is it text, not just spaces?
+    | Assess| [`.IsEmpty`](<../🧠🔩 Any holders/any.IsEmpty2 🔩 ext.md>) | bool | Is it an empty text?
+    |       | [`.IsNotEmpty`](<../🧠🔩 Any holders/any.IsNotEmpty 🔩 ext.md>) | bool | Is it text, not just spaces?
     |Bounds | [`.IsAbove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsAbove}.md>) | bool | Is it after in alphabetical order?
     |       | [`.IsBelow`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsBelow}.md>) | bool | Is it before in alphabetical order?
     |       | [`.IsBetween`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsBetween}.md>) | bool | Is it between in alphabetical order?
