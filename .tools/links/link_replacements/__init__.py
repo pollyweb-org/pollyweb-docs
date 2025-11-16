@@ -12,6 +12,8 @@ from .mentions import (
 )
 from .tables import add_emoji_to_table_rows
 from .tokens import (
+    replace_bool_tokens,
+    replace_bools_tokens,
     replace_broker_tokens,
     replace_brokers_tokens,
     replace_chat_msg_tokens,
@@ -67,6 +69,8 @@ __all__ = [
     "find_uppercase_token_target",
     "replace_broker_tokens",
     "replace_brokers_tokens",
+    "replace_bool_tokens",
+    "replace_bools_tokens",
     "replace_chat_msg_tokens",
     "replace_chat_tokens",
     "replace_chats_tokens",

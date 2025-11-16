@@ -442,6 +442,50 @@ def replace_map_tokens(md_files):
     return total
 
 
+@register_hardcoded("bool", replacement="[Bool 🧠 holder](<Bool holders.md>)|[bool](<Bool holders.md>)", token_label="Bool")
+def replace_bool_tokens(md_files):
+    """Replace {{Bool}}/{{bool}} tokens while preserving link text casing."""
+
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?([Bb]ool)`?[\s\u00A0\u200B\u200C\u200D]*\}\}")
+    link_pattern = re.compile(r"\[.*?\]\(<.*?>\)", re.DOTALL)
+    total = 0
+
+    for md_file in md_files:
+        path = Path(md_file)
+        try:
+            content = path.read_text(encoding="utf-8")
+        except Exception:
+            continue
+
+        link_spans = [m.span() for m in link_pattern.finditer(content)]
+
+        def inside_link(pos: int) -> bool:
+            return any(a <= pos < b for a, b in link_spans)
+
+        changes = 0
+
+        def _repl(match: re.Match[str]) -> str:
+            nonlocal changes
+            if inside_link(match.start()):
+                return match.group(0)
+
+            token_value = match.group(1)
+            replacement = "[bool](<Bool holders.md>)" if token_value.islower() else "[Bool 🧠 holder](<Bool holders.md>)"
+            changes += 1
+            return replacement
+
+        new_content, count = pattern.subn(_repl, content)
+
+        if count:
+            try:
+                path.write_text(new_content, encoding="utf-8")
+            except Exception:
+                continue
+            total += count
+
+    return total
+
+
 @register_hardcoded("list", replacement="[List 🧠 holder](<List holders.md>)|[list](<List holders.md>)", token_label="List")
 def replace_list_tokens(md_files):
     """Replace {{List}}/{{list}} tokens while preserving link text casing."""
@@ -673,6 +717,7 @@ def replace_maps_tokens(md_files):
 _GEN_BASIC = [
     ("replace_token_tokens", "Token", "token", "[Token 🎫](<🎫 Token.md>)", "Token"),
     ("replace_tokens_tokens", "Tokens", "tokens", "[Tokens 🎫](<🎫 Token.md>)", "Tokens"),
+    ("replace_bools_tokens", "Bools", "bools", "[Bool 🧠 holders](<Bool holders.md>)", "Bools"),
     ("replace_chat_tokens", "Chat", "chat", "[Chat 💬](<💬 Chat.md>)", "Chat"),
     ("replace_chats_tokens", "Chats", "chats", "[Chats 💬](<💬 Chat.md>)", "Chats"),
     ("replace_settings_tokens", "$.Hosted", "$.settings", "[`$.Hosted` 🧠 holder](<📦 $.Hosted 🧠 holder.md>)", "$.Hosted"),

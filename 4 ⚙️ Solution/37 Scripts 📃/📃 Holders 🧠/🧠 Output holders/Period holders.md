@@ -7,8 +7,9 @@
 1. **What are Period holders?**
 
     `Period` holders 
-    * are [Holders 🧠][Holder] that represent a span of time
-    * i.e., the interval between two [Time 🧠 holders][time].
+    * are [Holders 🧠][Holder] that represent a span of time 
+    * i.e., the interval between two [Time 🧠 holders][time]
+    * returned by [`.This`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.This}.md>), [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>), [`.Previous`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Previous}.md>), and [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>).
 
     ---
     <br/>

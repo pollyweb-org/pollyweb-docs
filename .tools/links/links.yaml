@@ -237,6 +237,19 @@ Successful Tests:
     LinkFile: "Map holders.md"
     Reasons: This is hardcoded.
 
+  - Given: '{{bool}}'
+    LinkText: "bool"
+    LinkFile: "Bool holders.md"
+    Reasons: This is hardcoded.
+  - Given: '{{Bool}}'
+    LinkText: "Bool 🧠 holder"
+    LinkFile: "Bool holders.md"
+    Reasons: This is hardcoded.
+  - Given: '{{Bools}}'
+    LinkText: "Bool 🧠 holders"
+    LinkFile: "Bool holders.md"
+    Reasons: This is hardcoded.
+
   - Given: '{{Notifier}}'
     LinkText: "Notifier 📣 domain"
     LinkFile: "📣 Notifier 👥 domain.md"

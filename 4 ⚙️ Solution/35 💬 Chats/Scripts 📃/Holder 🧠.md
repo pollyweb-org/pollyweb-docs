@@ -20,6 +20,7 @@
 
     |Type|Stores|Example
     |-|-|-
+    |[`Bool`](<../../37 Scripts 📃/📃 Holders 🧠/🧠 Input holders/Bool holders.md>) | Binary states | `True` `False`
     |[`Text`](<../../37 Scripts 📃/📃 Holders 🧠/🧠 Input holders/Text holders.md>) | Text strings | `ABC`
     |[`Time`](<../../37 Scripts 📃/📃 Holders 🧠/🧠 Input holders/Time holders.md>)| Dates and times | `2018-12-10T13:45:00Z`
     |[`Num`](<../../37 Scripts 📃/📃 Holders 🧠/🧠 Input holders/Num holders.md>) | Numbers for  math | `1` `1.03` `-1` `0`
