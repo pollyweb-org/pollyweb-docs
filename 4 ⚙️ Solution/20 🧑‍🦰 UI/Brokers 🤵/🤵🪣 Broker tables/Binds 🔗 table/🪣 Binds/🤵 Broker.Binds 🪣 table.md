@@ -47,7 +47,7 @@ Handlers:
 
 | Handler | [Message 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | Events
 |-|-|-
-| [`OnBindChanges` 📃](<../🪣🔔 OnBindAltered/🤵 OnBindAltered 📃 handler.md>) | [`Update@Notifier` 🅰️](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>) | `ALTERED`
+| [`OnBindChanges` 📃](<../🪣🔔 on Altered/🤵 OnBindAltered 📃 handler.md>) | [`Update@Notifier` 🅰️](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>) | `ALTERED`
 
 
 ## Example
