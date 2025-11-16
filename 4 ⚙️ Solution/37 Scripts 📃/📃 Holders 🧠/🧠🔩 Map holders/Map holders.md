@@ -39,16 +39,16 @@
     |-|-|-|-
     | Assess| [`.IsEmpty`](<../🧠🔩 Any holders/any.IsEmpty 🔩 ext.md>) | bool| Is it an empty [Holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)?
     |       | [`.IsNotEmpty`](<../🧠🔩 Any holders/any.IsNotEmpty 🔩 ext.md>) | bool | Does it contain a map?
-    |Compare| [`.Is`](<../🧠🔩 Any holders/🔩 {.Is}.md>) | bool | Is it the same map meaning?
+    |Compare| [`.Is`](<../🧠🔩 Any holders/.Is 🔩 any.md>) | bool | Is it the same map meaning?
     |       | [`.IsNot`](<../🧠🔩 Any holders/any.IsNot 🔩 ext.md>) | bool | Is it a different meaning?
-    |       | [`.Equals`](<../🧠🔩 Any holders/any.Equals 🔩 ext.md>) | bool | Same as [`.Is`](<../🧠🔩 Any holders/🔩 {.Is}.md>) 
+    |       | [`.Equals`](<../🧠🔩 Any holders/any.Equals 🔩 ext.md>) | bool | Same as [`.Is`](<../🧠🔩 Any holders/.Is 🔩 any.md>) 
     |       | [`.Differs`](<../🧠🔩 Any holders/any.Differs 🔩 ext.md>) | bool | Same as [`.IsNot`](<../🧠🔩 Any holders/any.IsNot 🔩 ext.md>)
     |Read | [`.Key`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Key}.md>) | [map][map] | Return a pair with a given key
-    || [`.Keys`](<map.Keys 🔩 ext.md>) | [list](<../🧠🔩 List holders/List holders.md>)  |Return all pair keys as a [List 🧠](<../🧠🔩 List holders/List holders.md>)
-    || [`.Value`](<../🧠🔩 Any holders/any.Value 🔩 ext.md>) | any | Return the value of a given key
-    || [`.Values`](<map.Values 🔩 ext.md>) | [list](<../🧠🔩 List holders/List holders.md>) | Return all pair values as a [List 🧠](<../🧠🔩 List holders/List holders.md>)
+    || [`.Keys`](<.Keys 🔩 map.md>) | [list](<../🧠🔩 List holders/List holders.md>)  |Return all pair keys as a [List 🧠](<../🧠🔩 List holders/List holders.md>)
+    || [`.Value`](<../🧠🔩 Any holders/.Value 🔩 any.md>) | any | Return the value of a given key
+    || [`.Values`](<.Values 🔩 map.md>) | [list](<../🧠🔩 List holders/List holders.md>) | Return all pair values as a [List 🧠](<../🧠🔩 List holders/List holders.md>)
     |Change | [`.Set`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>) |[map][map]|  Change or add one or more pairs
-    ||[`.Add`](<../🧠🔩 Any holders/any.Add 🔩 ext.md>) | [map][map] | Same as [`.Set`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>)
+    ||[`.Add`](<../🧠🔩 Any holders/.Add 🔩 any.md>) | [map][map] | Same as [`.Set`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>)
     |       | [`.Plus`](<../🧠🔩 Any holders/any.Plus 🔩 ext.md>) | [map][map] | Same as [`.Set`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>)
     |       | [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>) | [map][map] | Remove one or more keys
     |       | [`.Minus`](<../🧠🔩 Any holders/any.Minus 🔩 ext.md>) | [map][map] | Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>)

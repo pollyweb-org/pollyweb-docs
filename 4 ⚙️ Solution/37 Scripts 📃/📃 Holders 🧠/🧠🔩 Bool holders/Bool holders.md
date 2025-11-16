@@ -36,7 +36,7 @@
     |-|-|-|-
     |Assess| [`.IsEmpty`](<../🧠🔩 Any holders/any.IsEmpty 🔩 ext.md>) |bool| Is it unset or missing?
     |      | [`.IsNotEmpty`](<../🧠🔩 Any holders/any.IsNotEmpty 🔩 ext.md>) |bool| Has a value been provided?
-    |Compare| [`.Is`](<../🧠🔩 Any holders/🔩 {.Is}.md>) |bool| Is it the expected boolean?
+    |Compare| [`.Is`](<../🧠🔩 Any holders/.Is 🔩 any.md>) |bool| Is it the expected boolean?
     |        | [`.IsNot`](<../🧠🔩 Any holders/any.IsNot 🔩 ext.md>) |bool| Is it the opposite value?
     |        | [`.Equals`](<../🧠🔩 Any holders/any.Equals 🔩 ext.md>) |bool| Equal comparison alias for `.Is`
     |        | [`.Differs`](<../🧠🔩 Any holders/any.Differs 🔩 ext.md>) |bool| Not-equal alias for `.IsNot`

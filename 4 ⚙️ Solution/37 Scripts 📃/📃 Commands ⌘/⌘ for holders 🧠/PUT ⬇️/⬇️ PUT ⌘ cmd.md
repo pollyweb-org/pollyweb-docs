@@ -27,12 +27,12 @@
     || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>)` >> $out: $obj,*`
     | `PUT\|$lst >> $out: *` | Formats a [List 🧠 holder](<../../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>) with [`.Format`](<../../../📃 Holders 🧠/🧠🔩 Set holders/.Format 🔩 set.md>)
     || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Format`](<../../../📃 Holders 🧠/🧠🔩 Set holders/.Format 🔩 set.md>)` >> $out: $lst,*`
-    | `PUT\|* +> $lst` | Appends items to a [List 🧠 holder](<../../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>) with [`.Add`](<../../../📃 Holders 🧠/🧠🔩 Any holders/any.Add 🔩 ext.md>)
+    | `PUT\|* +> $lst` | Appends items to a [List 🧠 holder](<../../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>) with [`.Add`](<../../../📃 Holders 🧠/🧠🔩 Any holders/.Add 🔩 any.md>)
     || Equals `PUT +> $lst: *`
-    || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Add`](<../../../📃 Holders 🧠/🧠🔩 Any holders/any.Add 🔩 ext.md>)` >> $lst: $lst,*`
-    `PUT\|$l1,$l2 >> $out` | Merges two [List 🧠 holders](<../../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>) with [`.Add`](<../../../📃 Holders 🧠/🧠🔩 Any holders/any.Add 🔩 ext.md>)
+    || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Add`](<../../../📃 Holders 🧠/🧠🔩 Any holders/.Add 🔩 any.md>)` >> $lst: $lst,*`
+    `PUT\|$l1,$l2 >> $out` | Merges two [List 🧠 holders](<../../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>) with [`.Add`](<../../../📃 Holders 🧠/🧠🔩 Any holders/.Add 🔩 any.md>)
     || Equals `PUT >> $out: $l1 $l2`
-    || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Add`](<../../../📃 Holders 🧠/🧠🔩 Any holders/any.Add 🔩 ext.md>)` >> $out: $l1,$l2`  
+    || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Add`](<../../../📃 Holders 🧠/🧠🔩 Any holders/.Add 🔩 any.md>)` >> $out: $l1,$l2`  
     | `PUT\|* >> $out` | Puts any other content in a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)
     || Equals `PUT >> $out: *` 
     | `PUT\|.f >> $out: *` | Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|.f >> $out: *`  

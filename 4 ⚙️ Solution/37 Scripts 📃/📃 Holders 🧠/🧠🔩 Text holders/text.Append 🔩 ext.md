@@ -2,7 +2,7 @@
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
-> Used by [`.Add`](<../🧠🔩 Any holders/any.Add 🔩 ext.md>) [`SELECT`](<../../📃 Commands ⌘/⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>)
+> Used by [`.Add`](<../🧠🔩 Any holders/.Add 🔩 any.md>) [`SELECT`](<../../📃 Commands ⌘/⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>)
 
 # FAQ
 
