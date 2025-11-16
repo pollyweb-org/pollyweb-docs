@@ -2,7 +2,7 @@
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
-> Used by [`.Add`](<../🐍 System 🔩 functions/🔩 {.Add}.md>) and [`.Plus`](<../🐍 System 🔩 functions/🔩 {.Plus}.md>)
+> Used by [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Add}.md>) and [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Plus}.md>)
 
 ## FAQ
 
