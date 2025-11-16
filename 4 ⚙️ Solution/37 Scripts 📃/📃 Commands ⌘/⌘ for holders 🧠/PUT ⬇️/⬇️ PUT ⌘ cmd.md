@@ -21,12 +21,12 @@
     |-|-|
     | `PUT\|$in >> $out` | Puts the content of a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) in another
     || Equals `PUT >> $out: $in`
-    | `PUT\|*{$in}* >> $out` | Interpolates [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) into a [Text 🧠 holder](<../../../📃 Holders 🧠/Text 🧠/🧠 Text holders.md>)
+    | `PUT\|*{$in}* >> $out` | Interpolates [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) into a [Text 🧠 holder](<../../../📃 Holders 🧠/Text 🧠 holders/🧠 Text holders.md>)
     || Equals `PUT >> $out: *{$in}*`    
     | `PUT\|$obj >> $out: *` | Formats [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) properties with [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>)
     || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>)` >> $out: $obj,*`
-    | `PUT\|$lst >> $out: *` | Formats a [List 🧠 holder](<../../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>) with [`.Format`](<../../../📃 Holders 🧠/🧠🔩 Set holders/Format ⓕ set.md>)
-    || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Format`](<../../../📃 Holders 🧠/🧠🔩 Set holders/Format ⓕ set.md>)` >> $out: $lst,*`
+    | `PUT\|$lst >> $out: *` | Formats a [List 🧠 holder](<../../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>) with [`.Format`](<../../../📃 Holders 🧠/Set 🧠 holders/Format ⓕ set.md>)
+    || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Format`](<../../../📃 Holders 🧠/Set 🧠 holders/Format ⓕ set.md>)` >> $out: $lst,*`
     | `PUT\|* +> $lst` | Appends items to a [List 🧠 holder](<../../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>) with [`.Add`](<../../../📃 Holders 🧠/🧠🔩 Any holders/.Add 🔩 any.md>)
     || Equals `PUT +> $lst: *`
     || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Add`](<../../../📃 Holders 🧠/🧠🔩 Any holders/.Add 🔩 any.md>)` >> $lst: $lst,*`

@@ -10,7 +10,7 @@
 
     `{.Append}` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that appends text to a [Text 🧠 holder](<../Text 🧠/🧠 Text holders.md>), 
+    * that appends text to a [Text 🧠 holder](<../Text 🧠 holders/🧠 Text holders.md>), 
     * and appends items to a [List 🧠 holder](<List holders.md>).
 
     ---
@@ -24,7 +24,7 @@
 
     Input | Purpose | Example
     |-|-|-
-    |`list` | Original [Text 🧠](<../Text 🧠/🧠 Text holders.md>), | `AB` `$str`
+    |`list` | Original [Text 🧠](<../Text 🧠 holders/🧠 Text holders.md>), | `AB` `$str`
     |       | or [List 🧠](<List holders.md>) of items |  `[A,B]` `$list`
     |`appendixes...` | string to append, | `CD`
     |           | or item to append, |  `C`
@@ -38,7 +38,7 @@
 
     | Type      | Task  | List | Appendix   | Output
     |-|-|-|-|-
-    | [Texts 🧠](<../Text 🧠/🧠 Text holders.md>)    | Append | `AB` | `CD` | `ABCD`
+    | [Texts 🧠](<../Text 🧠 holders/🧠 Text holders.md>)    | Append | `AB` | `CD` | `ABCD`
     | [Lists 🧠](<List holders.md>)   | Append | `[1,2]` | `3` | `[1,2,3]`
     |           | Merge  | `[1,2]` | `[3,4]` | `[1,2,3,4]`
     
