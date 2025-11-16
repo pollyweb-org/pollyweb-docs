@@ -22,7 +22,7 @@
     |-|-
     | [`$.Inputs` 🧠 holder](<../../../📃 Holders 🧠/🧠 System holders/$.Inputs 🏃/▶️ $.Inputs 🧠 holder.md>)      | Assert inputs from [`RUN`](<../../⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>) commands
     | [`$.Msg` 🧠 holder](<../../../📃 Holders 🧠/🧠 System holders/$.Msg 📨/📨 $.Msg 🧠 holder.md>)         | Assert incoming [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
-    | [`List` holders 🧠](<../../../📃 Holders 🧠/🧠 Input holders/List holders.md>)  | Assert items in list [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)
+    | [`List` holders 🧠](<../../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>)  | Assert items in list [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)
 
     ---
     <br>
@@ -81,7 +81,7 @@
     | Input| Purpose | Examples
     |-|-|-
     | `$object`| Optional initial context | [`$.Msg`](<../../../📃 Holders 🧠/🧠 System holders/$.Msg 📨/📨 $.Msg 🧠 holder.md>) [`.Inputs`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Inputs}.md>)
-    | `<key>` | Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Assert}.md>) a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | `From` `$A` [`$lst.A`](<../../../📃 Holders 🧠/🧠 Input holders/List holders.md>)
+    | `<key>` | Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Assert}.md>) a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | `From` `$A` [`$lst.A`](<../../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>)
     | `.f(?)`| Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Assert}.md>) a [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)  | [`.IsIn`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>)`(A,B)`
     | `:<val>` | Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Assert}.md>) with  [`.Is`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) | `:any-domain.dom`
     
@@ -120,7 +120,7 @@
     <br/>
 
 
-1. **How to assert a [List 🧠](<../../../📃 Holders 🧠/🧠 Input holders/List holders.md>) of [Maps 🧠](<../../../📃 Holders 🧠/🧠 Input holders/Map holders.md>)?**
+1. **How to assert a [List 🧠](<../../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>) of [Maps 🧠](<../../../📃 Holders 🧠/🧠 Input holders/Map holders.md>)?**
 
     Here's a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
 
