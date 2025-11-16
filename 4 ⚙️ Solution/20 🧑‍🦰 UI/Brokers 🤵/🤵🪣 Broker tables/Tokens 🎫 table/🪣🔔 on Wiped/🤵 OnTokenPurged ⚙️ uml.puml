@@ -5,7 +5,7 @@ participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA
     participant "Pop@ 📃" as remove
     participant "Tokens 🪣" as tokens
-    participant "OnPurge 🔔" as purge
+    participant "OnWiped 🔔" as purge
 end box
 
 participant "Notifier 📣" as notifier
@@ -23,7 +23,7 @@ activate tokens
 deactivate tokens
 
 activate purge
-    purge --> notifier: SEND 📬 {Remove 🐌 token}
+    purge --> notifier: SEND 📬 {Remove 🐌}
 deactivate purge
 
 @enduml 
