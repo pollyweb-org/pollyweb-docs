@@ -16,7 +16,7 @@
     |Compare| [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) | bool | Does it have the same meaning?
     |       | [`.IsNot`](<../🧠🔩 Any holders/any.IsNot 🔩 ext.md>) | bool | Does it have another meaning?
     |       | [`.Equals`](<../🧠🔩 Any holders/any.Equals 🔩 ext.md>) | bool | Is it exactly the same string of chars?
-    |       | [`.Differs`](<../🧠🔩 Any holders/🔩 {.Differs}.md>) | bool | Is it a different string of chars?
+    |       | [`.Differs`](<../🧠🔩 Any holders/any.Differs 🔩 ext.md>) | bool | Is it a different string of chars?
     |Lists  | [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsIn}.md>) |bool| Is it in a given list of texts?
     |Chars| [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Length}.md>) |[num][num]| How many chars does it contain?
     |       | [`.Size`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Size}.md>) |[num][num]| Same as [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Length}.md>)
@@ -25,9 +25,9 @@
     |       | [`.Contains`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Contains}.md>) |bool| Does it contain a given char?
     |Change | [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>) |[text][text]| What we append the given string?
     |       | [`.Add`](<../🧠🔩 Any holders/any.Add 🔩 ext.md>) |[text][text]| Same as [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>)
-    |       | [`.Plus`](<../🧠🔩 Any holders/🔩 {.Plus}.md>) |[text][text]| Same as [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>)
+    |       | [`.Plus`](<../🧠🔩 Any holders/any.Plus 🔩 ext.md>) |[text][text]| Same as [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>)
     |       | [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>) |[text][text]| What if we remove the given string?
-    |       | [`.Minus`](<../🧠🔩 Any holders/🔩 {.Minus}.md>) |[text][text]| Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>)
+    |       | [`.Minus`](<../🧠🔩 Any holders/any.Minus 🔩 ext.md>) |[text][text]| Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>)
     |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) |[text][text]| Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>)
     |       | [`.Translate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Translate}.md>) |[text][text]| Translates between languages
     |Create | [`.UUID`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.UUID}.md>) |[text][text]| Returns a new unique ID

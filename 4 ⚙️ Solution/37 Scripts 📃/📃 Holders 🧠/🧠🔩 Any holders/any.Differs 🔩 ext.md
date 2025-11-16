@@ -8,7 +8,7 @@
 
     `{.Differs}`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that returns the opposite to [`.Equals`](<../../📃 Holders 🧠/🧠🔩 Any holders/any.Equals 🔩 ext.md>).
+    * that returns the opposite to [`.Equals`](<any.Equals 🔩 ext.md>).
 
     ---
     <br/>
@@ -35,10 +35,10 @@
    
     |Type| Meaning | This | Differs ✅
     |-|-|-|-
-    |[Text 🧠](<../../📃 Holders 🧠/🧠🔩 Text holders/Text holders.md>)| Different meaning | `a`|`b`  
-    |[Num 🧠](<../../📃 Holders 🧠/🧠🔩 Num holders/Num holders.md>)| Different math results| `1` | `1.1`
-    |[List 🧠](<../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>)| Different sequence | `[1,3,2]` | `[1,2,3]`
-    |[Map 🧠](<../../📃 Holders 🧠/🧠🔩 Map holders/Map holders.md>)| Different pair content | `{A:2}` | `{A:1}`
+    |[Text 🧠](<../🧠🔩 Text holders/Text holders.md>)| Different meaning | `a`|`b`  
+    |[Num 🧠](<../🧠🔩 Num holders/Num holders.md>)| Different math results| `1` | `1.1`
+    |[List 🧠](<../🧠🔩 List holders/List holders.md>)| Different sequence | `[1,3,2]` | `[1,2,3]`
+    |[Map 🧠](<../🧠🔩 Map holders/Map holders.md>)| Different pair content | `{A:2}` | `{A:1}`
     
     ---
     <br/>
