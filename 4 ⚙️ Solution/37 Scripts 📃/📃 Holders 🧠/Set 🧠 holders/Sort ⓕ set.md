@@ -15,7 +15,7 @@
     Inputs|Details | Example
     |-|-|-|
     |`$set`| [Set 🧠 holder](<🧠 Set holders.md>) | `{A:1},{A:2}`
-    |`order`| Order of [map](<../🧠🔩 Map holders/Map holders.md>) keys | `A,B+,C-` 
+    |`order`| Order of [map](<../Map 🧠 holders/Map holders.md>) keys | `A,B+,C-` 
     
 
     ---

@@ -8,7 +8,7 @@
 
     A `SELECT`
     * is a [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) 
-    * that handles [List 🧠 holders](<../../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>) 
+    * that handles [List 🧠 holders](<../../../📃 Holders 🧠/List 🧠 holders/List holders.md>) 
     * using a SQL (Structured Query Language) syntax.
 
     ---
@@ -33,9 +33,9 @@
     | `First` | Uses [`.First`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.First}.md>) and [`.Format`](<../../../📃 Holders 🧠/Set 🧠 holders/Format ⓕ set.md>) on the 1st item
     | `Last` | Uses [`.Last`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>) and [`.Format`](<../../../📃 Holders 🧠/Set 🧠 holders/Format ⓕ set.md>) on the last item
     | `Distinct` | Uses [`.Distinct`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Distinct}.md>) to group results 
-    | `From` | Uses [`.Cross`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Cross}.md>) to join [List 🧠 holders](<../../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>)
-    | `Where` | Uses [`.Filter`](<../../../📃 Holders 🧠/Set 🧠 holders/Filter ⓕ set.md>) to filter [List 🧠](<../../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>) items 
-    | `OrderBy`| Uses [`Set.Sort`](<../../../📃 Holders 🧠/Set 🧠 holders/Sort ⓕ set.md>) to order the [List 🧠](<../../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>) items
+    | `From` | Uses [`.Cross`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Cross}.md>) to join [List 🧠 holders](<../../../📃 Holders 🧠/List 🧠 holders/List holders.md>)
+    | `Where` | Uses [`.Filter`](<../../../📃 Holders 🧠/Set 🧠 holders/Filter ⓕ set.md>) to filter [List 🧠](<../../../📃 Holders 🧠/List 🧠 holders/List holders.md>) items 
+    | `OrderBy`| Uses [`Set.Sort`](<../../../📃 Holders 🧠/Set 🧠 holders/Sort ⓕ set.md>) to order the [List 🧠](<../../../📃 Holders 🧠/List 🧠 holders/List holders.md>) items
     | `Limit` | Uses [`.First`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.First}.md>) to limit the items returned
 
     ---
@@ -45,8 +45,8 @@
     
     | Behavior | Syntax | 
     |-|-
-    | Create a new [List 🧠](<../../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>) | `SELECT >> $lst`
-    | Change a [List 🧠](<../../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>) | `SELECT\|$lst:`
+    | Create a new [List 🧠](<../../../📃 Holders 🧠/List 🧠 holders/List holders.md>) | `SELECT >> $lst`
+    | Change a [List 🧠](<../../../📃 Holders 🧠/List 🧠 holders/List holders.md>) | `SELECT\|$lst:`
     | - equivalent to           | `SELECT\|$lst >> $lst:`
     
 
