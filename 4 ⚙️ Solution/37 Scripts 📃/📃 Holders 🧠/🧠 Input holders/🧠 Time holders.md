@@ -20,8 +20,8 @@
     |-|-|-|-
     |Get    | [`.Now`](<Time 🧠 functions/🔩 .Now.md>)     |[time](<🧠 Time holders.md>)|What's the current time?
     |       | [`.Today`](<Time 🧠 functions/🔩 .Today.md>) |[time](<🧠 Time holders.md>)| What's the current date?
-    |       | [`.This`](<../🧠🔩 Time extensions/🔩 {.This}.md>)      |[period](<../🧠 Output holders/Period holders.md>)| What's the given current period? 
-    |       | [`.Previous`](<../🧠🔩 Time extensions/🔩 {.Previous}.md>)  |[period](<../🧠 Output holders/Period holders.md>)| What's the given previous period? 
+    |       | [`.This`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.This}.md>)      |[period](<../🧠 Output holders/Period holders.md>)| What's the given current period? 
+    |       | [`.Previous`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Previous}.md>)  |[period](<../🧠 Output holders/Period holders.md>)| What's the given previous period? 
     |       | [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>)      |[period](<../🧠 Output holders/Period holders.md>)| What's the given last period?
     |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) |[period](<../🧠 Output holders/Period holders.md>)| How long between two times?
     |Compare| [`.IsBetween`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsBetween}.md>)  |bool| Is it between two given times?
