@@ -258,5 +258,5 @@
 [list]: <List holders.md>
 [.Size]: <../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Size}.md>
 [num]: <Num holders.md>
-[.Append]: <../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>
+[.Append]: <../../📃 Functions 🐍/🐍 System 🔩 functions/Append ⓕ.md>
 [.Remove]: <../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>

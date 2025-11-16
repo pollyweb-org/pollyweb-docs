@@ -23,9 +23,9 @@
     |       | [`.First`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.First}.md>) |[text][text]| What's the first char?
     |       | [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>) |[text][text]| What's the last char?
     |       | [`.Contains`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Contains}.md>) |bool| Does it contain a given char?
-    |Change | [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>) |[text][text]| What we append the given string?
-    |       | [`.Add`](<../Any 📚 holders/Add ⓕ any.md>) |[text][text]| Same as [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>)
-    |       | [`.Plus`](<../Any 📚 holders/Plus ⓕ any.md>) |[text][text]| Same as [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Append}.md>)
+    |Change | [`.Append`](<Append ⓕ text.md>) |[text][text]| What we append the given string?
+    |       | [`.Add`](<../Any 📚 holders/Add ⓕ any.md>) |[text][text]| Same as [`.Append`](<Append ⓕ text.md>)
+    |       | [`.Plus`](<../Any 📚 holders/Plus ⓕ any.md>) |[text][text]| Same as [`.Append`](<Append ⓕ text.md>)
     |       | [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>) |[text][text]| What if we remove the given string?
     |       | [`.Minus`](<../Any 📚 holders/Minus ⓕ any.md>) |[text][text]| Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>)
     |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) |[text][text]| Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>)
